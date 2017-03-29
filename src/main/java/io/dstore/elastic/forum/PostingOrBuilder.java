@@ -8,92 +8,92 @@ public interface PostingOrBuilder extends
     com.google.protobuf.MessageOrBuilder {
 
   /**
-   * <code>optional int32 forum_id = 1;</code>
+   * <code>int32 forum_id = 1;</code>
    */
   int getForumId();
 
   /**
-   * <code>optional int32 posting_id = 2;</code>
+   * <code>int32 posting_id = 2;</code>
    */
   int getPostingId();
 
   /**
-   * <code>optional int32 main_posting_id = 12;</code>
+   * <code>int32 main_posting_id = 12;</code>
    */
   int getMainPostingId();
 
   /**
-   * <code>optional int32 reply_to_posting_id = 3;</code>
+   * <code>int32 reply_to_posting_id = 3;</code>
    */
   int getReplyToPostingId();
 
   /**
-   * <code>optional int32 author_person_id = 4;</code>
+   * <code>int32 author_person_id = 4;</code>
    */
   int getAuthorPersonId();
 
   /**
-   * <code>optional string author = 5;</code>
+   * <code>string author = 5;</code>
    */
   java.lang.String getAuthor();
   /**
-   * <code>optional string author = 5;</code>
+   * <code>string author = 5;</code>
    */
   com.google.protobuf.ByteString
       getAuthorBytes();
 
   /**
-   * <code>optional int32 visible = 6;</code>
+   * <code>int32 visible = 6;</code>
    */
   int getVisible();
 
   /**
-   * <code>optional bool has_binaries = 7;</code>
+   * <code>bool has_binaries = 7;</code>
    */
   boolean getHasBinaries();
 
   /**
-   * <code>optional .dstore.values.TimestampValue post_date = 8;</code>
+   * <code>.dstore.values.TimestampValue post_date = 8;</code>
    */
   boolean hasPostDate();
   /**
-   * <code>optional .dstore.values.TimestampValue post_date = 8;</code>
+   * <code>.dstore.values.TimestampValue post_date = 8;</code>
    */
   io.dstore.values.TimestampValue getPostDate();
   /**
-   * <code>optional .dstore.values.TimestampValue post_date = 8;</code>
+   * <code>.dstore.values.TimestampValue post_date = 8;</code>
    */
   io.dstore.values.TimestampValueOrBuilder getPostDateOrBuilder();
 
   /**
-   * <code>optional .dstore.values.TimestampValue last_updated = 9;</code>
+   * <code>.dstore.values.TimestampValue last_updated = 9;</code>
    */
   boolean hasLastUpdated();
   /**
-   * <code>optional .dstore.values.TimestampValue last_updated = 9;</code>
+   * <code>.dstore.values.TimestampValue last_updated = 9;</code>
    */
   io.dstore.values.TimestampValue getLastUpdated();
   /**
-   * <code>optional .dstore.values.TimestampValue last_updated = 9;</code>
+   * <code>.dstore.values.TimestampValue last_updated = 9;</code>
    */
   io.dstore.values.TimestampValueOrBuilder getLastUpdatedOrBuilder();
 
   /**
-   * <code>optional string subject = 10;</code>
+   * <code>string subject = 10;</code>
    */
   java.lang.String getSubject();
   /**
-   * <code>optional string subject = 10;</code>
+   * <code>string subject = 10;</code>
    */
   com.google.protobuf.ByteString
       getSubjectBytes();
 
   /**
-   * <code>optional string body = 11;</code>
+   * <code>string body = 11;</code>
    */
   java.lang.String getBody();
   /**
-   * <code>optional string body = 11;</code>
+   * <code>string body = 11;</code>
    */
   com.google.protobuf.ByteString
       getBodyBytes();
@@ -133,26 +133,26 @@ public interface PostingOrBuilder extends
       int key);
 
   /**
-   * <code>optional double score = 30;</code>
+   * <code>double score = 30;</code>
    */
   double getScore();
 
   /**
-   * <code>optional string index_name = 31;</code>
+   * <code>string index_name = 31;</code>
    */
   java.lang.String getIndexName();
   /**
-   * <code>optional string index_name = 31;</code>
+   * <code>string index_name = 31;</code>
    */
   com.google.protobuf.ByteString
       getIndexNameBytes();
 
   /**
-   * <code>optional string document_id = 32;</code>
+   * <code>string document_id = 32;</code>
    */
   java.lang.String getDocumentId();
   /**
-   * <code>optional string document_id = 32;</code>
+   * <code>string document_id = 32;</code>
    */
   com.google.protobuf.ByteString
       getDocumentIdBytes();

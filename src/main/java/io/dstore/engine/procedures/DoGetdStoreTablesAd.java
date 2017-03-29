@@ -19,38 +19,38 @@ public final class DoGetdStoreTablesAd {
       com.google.protobuf.MessageOrBuilder {
 
     /**
-     * <code>optional .dstore.values.StringValue table_name = 1;</code>
+     * <code>.dstore.values.StringValue table_name = 1;</code>
      */
     boolean hasTableName();
     /**
-     * <code>optional .dstore.values.StringValue table_name = 1;</code>
+     * <code>.dstore.values.StringValue table_name = 1;</code>
      */
     io.dstore.values.StringValue getTableName();
     /**
-     * <code>optional .dstore.values.StringValue table_name = 1;</code>
+     * <code>.dstore.values.StringValue table_name = 1;</code>
      */
     io.dstore.values.StringValueOrBuilder getTableNameOrBuilder();
 
     /**
-     * <code>optional bool table_name_null = 1001;</code>
+     * <code>bool table_name_null = 1001;</code>
      */
     boolean getTableNameNull();
 
     /**
-     * <code>optional .dstore.values.IntegerValue table_category_id = 2;</code>
+     * <code>.dstore.values.IntegerValue table_category_id = 2;</code>
      */
     boolean hasTableCategoryId();
     /**
-     * <code>optional .dstore.values.IntegerValue table_category_id = 2;</code>
+     * <code>.dstore.values.IntegerValue table_category_id = 2;</code>
      */
     io.dstore.values.IntegerValue getTableCategoryId();
     /**
-     * <code>optional .dstore.values.IntegerValue table_category_id = 2;</code>
+     * <code>.dstore.values.IntegerValue table_category_id = 2;</code>
      */
     io.dstore.values.IntegerValueOrBuilder getTableCategoryIdOrBuilder();
 
     /**
-     * <code>optional bool table_category_id_null = 1002;</code>
+     * <code>bool table_category_id_null = 1002;</code>
      */
     boolean getTableCategoryIdNull();
   }
@@ -157,19 +157,19 @@ public final class DoGetdStoreTablesAd {
     public static final int TABLE_NAME_FIELD_NUMBER = 1;
     private io.dstore.values.StringValue tableName_;
     /**
-     * <code>optional .dstore.values.StringValue table_name = 1;</code>
+     * <code>.dstore.values.StringValue table_name = 1;</code>
      */
     public boolean hasTableName() {
       return tableName_ != null;
     }
     /**
-     * <code>optional .dstore.values.StringValue table_name = 1;</code>
+     * <code>.dstore.values.StringValue table_name = 1;</code>
      */
     public io.dstore.values.StringValue getTableName() {
       return tableName_ == null ? io.dstore.values.StringValue.getDefaultInstance() : tableName_;
     }
     /**
-     * <code>optional .dstore.values.StringValue table_name = 1;</code>
+     * <code>.dstore.values.StringValue table_name = 1;</code>
      */
     public io.dstore.values.StringValueOrBuilder getTableNameOrBuilder() {
       return getTableName();
@@ -178,7 +178,7 @@ public final class DoGetdStoreTablesAd {
     public static final int TABLE_NAME_NULL_FIELD_NUMBER = 1001;
     private boolean tableNameNull_;
     /**
-     * <code>optional bool table_name_null = 1001;</code>
+     * <code>bool table_name_null = 1001;</code>
      */
     public boolean getTableNameNull() {
       return tableNameNull_;
@@ -187,19 +187,19 @@ public final class DoGetdStoreTablesAd {
     public static final int TABLE_CATEGORY_ID_FIELD_NUMBER = 2;
     private io.dstore.values.IntegerValue tableCategoryId_;
     /**
-     * <code>optional .dstore.values.IntegerValue table_category_id = 2;</code>
+     * <code>.dstore.values.IntegerValue table_category_id = 2;</code>
      */
     public boolean hasTableCategoryId() {
       return tableCategoryId_ != null;
     }
     /**
-     * <code>optional .dstore.values.IntegerValue table_category_id = 2;</code>
+     * <code>.dstore.values.IntegerValue table_category_id = 2;</code>
      */
     public io.dstore.values.IntegerValue getTableCategoryId() {
       return tableCategoryId_ == null ? io.dstore.values.IntegerValue.getDefaultInstance() : tableCategoryId_;
     }
     /**
-     * <code>optional .dstore.values.IntegerValue table_category_id = 2;</code>
+     * <code>.dstore.values.IntegerValue table_category_id = 2;</code>
      */
     public io.dstore.values.IntegerValueOrBuilder getTableCategoryIdOrBuilder() {
       return getTableCategoryId();
@@ -208,7 +208,7 @@ public final class DoGetdStoreTablesAd {
     public static final int TABLE_CATEGORY_ID_NULL_FIELD_NUMBER = 1002;
     private boolean tableCategoryIdNull_;
     /**
-     * <code>optional bool table_category_id_null = 1002;</code>
+     * <code>bool table_category_id_null = 1002;</code>
      */
     public boolean getTableCategoryIdNull() {
       return tableCategoryIdNull_;
@@ -300,7 +300,7 @@ public final class DoGetdStoreTablesAd {
         return memoizedHashCode;
       }
       int hash = 41;
-      hash = (19 * hash) + getDescriptorForType().hashCode();
+      hash = (19 * hash) + getDescriptor().hashCode();
       if (hasTableName()) {
         hash = (37 * hash) + TABLE_NAME_FIELD_NUMBER;
         hash = (53 * hash) + getTableName().hashCode();
@@ -566,13 +566,13 @@ public final class DoGetdStoreTablesAd {
       private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.values.StringValue, io.dstore.values.StringValue.Builder, io.dstore.values.StringValueOrBuilder> tableNameBuilder_;
       /**
-       * <code>optional .dstore.values.StringValue table_name = 1;</code>
+       * <code>.dstore.values.StringValue table_name = 1;</code>
        */
       public boolean hasTableName() {
         return tableNameBuilder_ != null || tableName_ != null;
       }
       /**
-       * <code>optional .dstore.values.StringValue table_name = 1;</code>
+       * <code>.dstore.values.StringValue table_name = 1;</code>
        */
       public io.dstore.values.StringValue getTableName() {
         if (tableNameBuilder_ == null) {
@@ -582,7 +582,7 @@ public final class DoGetdStoreTablesAd {
         }
       }
       /**
-       * <code>optional .dstore.values.StringValue table_name = 1;</code>
+       * <code>.dstore.values.StringValue table_name = 1;</code>
        */
       public Builder setTableName(io.dstore.values.StringValue value) {
         if (tableNameBuilder_ == null) {
@@ -598,7 +598,7 @@ public final class DoGetdStoreTablesAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.StringValue table_name = 1;</code>
+       * <code>.dstore.values.StringValue table_name = 1;</code>
        */
       public Builder setTableName(
           io.dstore.values.StringValue.Builder builderForValue) {
@@ -612,7 +612,7 @@ public final class DoGetdStoreTablesAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.StringValue table_name = 1;</code>
+       * <code>.dstore.values.StringValue table_name = 1;</code>
        */
       public Builder mergeTableName(io.dstore.values.StringValue value) {
         if (tableNameBuilder_ == null) {
@@ -630,7 +630,7 @@ public final class DoGetdStoreTablesAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.StringValue table_name = 1;</code>
+       * <code>.dstore.values.StringValue table_name = 1;</code>
        */
       public Builder clearTableName() {
         if (tableNameBuilder_ == null) {
@@ -644,7 +644,7 @@ public final class DoGetdStoreTablesAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.StringValue table_name = 1;</code>
+       * <code>.dstore.values.StringValue table_name = 1;</code>
        */
       public io.dstore.values.StringValue.Builder getTableNameBuilder() {
         
@@ -652,7 +652,7 @@ public final class DoGetdStoreTablesAd {
         return getTableNameFieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .dstore.values.StringValue table_name = 1;</code>
+       * <code>.dstore.values.StringValue table_name = 1;</code>
        */
       public io.dstore.values.StringValueOrBuilder getTableNameOrBuilder() {
         if (tableNameBuilder_ != null) {
@@ -663,7 +663,7 @@ public final class DoGetdStoreTablesAd {
         }
       }
       /**
-       * <code>optional .dstore.values.StringValue table_name = 1;</code>
+       * <code>.dstore.values.StringValue table_name = 1;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.values.StringValue, io.dstore.values.StringValue.Builder, io.dstore.values.StringValueOrBuilder> 
@@ -681,13 +681,13 @@ public final class DoGetdStoreTablesAd {
 
       private boolean tableNameNull_ ;
       /**
-       * <code>optional bool table_name_null = 1001;</code>
+       * <code>bool table_name_null = 1001;</code>
        */
       public boolean getTableNameNull() {
         return tableNameNull_;
       }
       /**
-       * <code>optional bool table_name_null = 1001;</code>
+       * <code>bool table_name_null = 1001;</code>
        */
       public Builder setTableNameNull(boolean value) {
         
@@ -696,7 +696,7 @@ public final class DoGetdStoreTablesAd {
         return this;
       }
       /**
-       * <code>optional bool table_name_null = 1001;</code>
+       * <code>bool table_name_null = 1001;</code>
        */
       public Builder clearTableNameNull() {
         
@@ -709,13 +709,13 @@ public final class DoGetdStoreTablesAd {
       private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> tableCategoryIdBuilder_;
       /**
-       * <code>optional .dstore.values.IntegerValue table_category_id = 2;</code>
+       * <code>.dstore.values.IntegerValue table_category_id = 2;</code>
        */
       public boolean hasTableCategoryId() {
         return tableCategoryIdBuilder_ != null || tableCategoryId_ != null;
       }
       /**
-       * <code>optional .dstore.values.IntegerValue table_category_id = 2;</code>
+       * <code>.dstore.values.IntegerValue table_category_id = 2;</code>
        */
       public io.dstore.values.IntegerValue getTableCategoryId() {
         if (tableCategoryIdBuilder_ == null) {
@@ -725,7 +725,7 @@ public final class DoGetdStoreTablesAd {
         }
       }
       /**
-       * <code>optional .dstore.values.IntegerValue table_category_id = 2;</code>
+       * <code>.dstore.values.IntegerValue table_category_id = 2;</code>
        */
       public Builder setTableCategoryId(io.dstore.values.IntegerValue value) {
         if (tableCategoryIdBuilder_ == null) {
@@ -741,7 +741,7 @@ public final class DoGetdStoreTablesAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.IntegerValue table_category_id = 2;</code>
+       * <code>.dstore.values.IntegerValue table_category_id = 2;</code>
        */
       public Builder setTableCategoryId(
           io.dstore.values.IntegerValue.Builder builderForValue) {
@@ -755,7 +755,7 @@ public final class DoGetdStoreTablesAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.IntegerValue table_category_id = 2;</code>
+       * <code>.dstore.values.IntegerValue table_category_id = 2;</code>
        */
       public Builder mergeTableCategoryId(io.dstore.values.IntegerValue value) {
         if (tableCategoryIdBuilder_ == null) {
@@ -773,7 +773,7 @@ public final class DoGetdStoreTablesAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.IntegerValue table_category_id = 2;</code>
+       * <code>.dstore.values.IntegerValue table_category_id = 2;</code>
        */
       public Builder clearTableCategoryId() {
         if (tableCategoryIdBuilder_ == null) {
@@ -787,7 +787,7 @@ public final class DoGetdStoreTablesAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.IntegerValue table_category_id = 2;</code>
+       * <code>.dstore.values.IntegerValue table_category_id = 2;</code>
        */
       public io.dstore.values.IntegerValue.Builder getTableCategoryIdBuilder() {
         
@@ -795,7 +795,7 @@ public final class DoGetdStoreTablesAd {
         return getTableCategoryIdFieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .dstore.values.IntegerValue table_category_id = 2;</code>
+       * <code>.dstore.values.IntegerValue table_category_id = 2;</code>
        */
       public io.dstore.values.IntegerValueOrBuilder getTableCategoryIdOrBuilder() {
         if (tableCategoryIdBuilder_ != null) {
@@ -806,7 +806,7 @@ public final class DoGetdStoreTablesAd {
         }
       }
       /**
-       * <code>optional .dstore.values.IntegerValue table_category_id = 2;</code>
+       * <code>.dstore.values.IntegerValue table_category_id = 2;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> 
@@ -824,13 +824,13 @@ public final class DoGetdStoreTablesAd {
 
       private boolean tableCategoryIdNull_ ;
       /**
-       * <code>optional bool table_category_id_null = 1002;</code>
+       * <code>bool table_category_id_null = 1002;</code>
        */
       public boolean getTableCategoryIdNull() {
         return tableCategoryIdNull_;
       }
       /**
-       * <code>optional bool table_category_id_null = 1002;</code>
+       * <code>bool table_category_id_null = 1002;</code>
        */
       public Builder setTableCategoryIdNull(boolean value) {
         
@@ -839,7 +839,7 @@ public final class DoGetdStoreTablesAd {
         return this;
       }
       /**
-       * <code>optional bool table_category_id_null = 1002;</code>
+       * <code>bool table_category_id_null = 1002;</code>
        */
       public Builder clearTableCategoryIdNull() {
         
@@ -1098,7 +1098,7 @@ public final class DoGetdStoreTablesAd {
         com.google.protobuf.MessageOrBuilder {
 
       /**
-       * <code>optional int32 row_id = 10000;</code>
+       * <code>int32 row_id = 10000;</code>
        */
       int getRowId();
 
@@ -1107,7 +1107,7 @@ public final class DoGetdStoreTablesAd {
        * Der Name einer Tabelle (wenn angegeben, dann natürlich "&#64;TableName"), die in (Engine-)Prozeduren verwendet wird. Das kann also durchaus auch eine System-Tabelle sein und/oder eine Tabelle aus einer anderen (System- bzw. dStore-)Datenbank.
        * </pre>
        *
-       * <code>optional .dstore.values.StringValue table_name = 10001;</code>
+       * <code>.dstore.values.StringValue table_name = 10001;</code>
        */
       boolean hasTableName();
       /**
@@ -1115,7 +1115,7 @@ public final class DoGetdStoreTablesAd {
        * Der Name einer Tabelle (wenn angegeben, dann natürlich "&#64;TableName"), die in (Engine-)Prozeduren verwendet wird. Das kann also durchaus auch eine System-Tabelle sein und/oder eine Tabelle aus einer anderen (System- bzw. dStore-)Datenbank.
        * </pre>
        *
-       * <code>optional .dstore.values.StringValue table_name = 10001;</code>
+       * <code>.dstore.values.StringValue table_name = 10001;</code>
        */
       io.dstore.values.StringValue getTableName();
       /**
@@ -1123,7 +1123,7 @@ public final class DoGetdStoreTablesAd {
        * Der Name einer Tabelle (wenn angegeben, dann natürlich "&#64;TableName"), die in (Engine-)Prozeduren verwendet wird. Das kann also durchaus auch eine System-Tabelle sein und/oder eine Tabelle aus einer anderen (System- bzw. dStore-)Datenbank.
        * </pre>
        *
-       * <code>optional .dstore.values.StringValue table_name = 10001;</code>
+       * <code>.dstore.values.StringValue table_name = 10001;</code>
        */
       io.dstore.values.StringValueOrBuilder getTableNameOrBuilder();
 
@@ -1132,7 +1132,7 @@ public final class DoGetdStoreTablesAd {
        * Die ID der Kategorie, in die die Tabelle eingeordnet ist
        * </pre>
        *
-       * <code>optional .dstore.values.IntegerValue table_category_id = 10002;</code>
+       * <code>.dstore.values.IntegerValue table_category_id = 10002;</code>
        */
       boolean hasTableCategoryId();
       /**
@@ -1140,7 +1140,7 @@ public final class DoGetdStoreTablesAd {
        * Die ID der Kategorie, in die die Tabelle eingeordnet ist
        * </pre>
        *
-       * <code>optional .dstore.values.IntegerValue table_category_id = 10002;</code>
+       * <code>.dstore.values.IntegerValue table_category_id = 10002;</code>
        */
       io.dstore.values.IntegerValue getTableCategoryId();
       /**
@@ -1148,7 +1148,7 @@ public final class DoGetdStoreTablesAd {
        * Die ID der Kategorie, in die die Tabelle eingeordnet ist
        * </pre>
        *
-       * <code>optional .dstore.values.IntegerValue table_category_id = 10002;</code>
+       * <code>.dstore.values.IntegerValue table_category_id = 10002;</code>
        */
       io.dstore.values.IntegerValueOrBuilder getTableCategoryIdOrBuilder();
 
@@ -1157,7 +1157,7 @@ public final class DoGetdStoreTablesAd {
        * Beschreibung wozu die Tabelle da ist bzw. was für Daten sie enthält
        * </pre>
        *
-       * <code>optional .dstore.values.StringValue description = 10003;</code>
+       * <code>.dstore.values.StringValue description = 10003;</code>
        */
       boolean hasDescription();
       /**
@@ -1165,7 +1165,7 @@ public final class DoGetdStoreTablesAd {
        * Beschreibung wozu die Tabelle da ist bzw. was für Daten sie enthält
        * </pre>
        *
-       * <code>optional .dstore.values.StringValue description = 10003;</code>
+       * <code>.dstore.values.StringValue description = 10003;</code>
        */
       io.dstore.values.StringValue getDescription();
       /**
@@ -1173,7 +1173,7 @@ public final class DoGetdStoreTablesAd {
        * Beschreibung wozu die Tabelle da ist bzw. was für Daten sie enthält
        * </pre>
        *
-       * <code>optional .dstore.values.StringValue description = 10003;</code>
+       * <code>.dstore.values.StringValue description = 10003;</code>
        */
       io.dstore.values.StringValueOrBuilder getDescriptionOrBuilder();
 
@@ -1182,7 +1182,7 @@ public final class DoGetdStoreTablesAd {
        * Der Name von "TableCategoryID"
        * </pre>
        *
-       * <code>optional .dstore.values.StringValue table_category = 10004;</code>
+       * <code>.dstore.values.StringValue table_category = 10004;</code>
        */
       boolean hasTableCategory();
       /**
@@ -1190,7 +1190,7 @@ public final class DoGetdStoreTablesAd {
        * Der Name von "TableCategoryID"
        * </pre>
        *
-       * <code>optional .dstore.values.StringValue table_category = 10004;</code>
+       * <code>.dstore.values.StringValue table_category = 10004;</code>
        */
       io.dstore.values.StringValue getTableCategory();
       /**
@@ -1198,7 +1198,7 @@ public final class DoGetdStoreTablesAd {
        * Der Name von "TableCategoryID"
        * </pre>
        *
-       * <code>optional .dstore.values.StringValue table_category = 10004;</code>
+       * <code>.dstore.values.StringValue table_category = 10004;</code>
        */
       io.dstore.values.StringValueOrBuilder getTableCategoryOrBuilder();
     }
@@ -1325,7 +1325,7 @@ public final class DoGetdStoreTablesAd {
       public static final int ROW_ID_FIELD_NUMBER = 10000;
       private int rowId_;
       /**
-       * <code>optional int32 row_id = 10000;</code>
+       * <code>int32 row_id = 10000;</code>
        */
       public int getRowId() {
         return rowId_;
@@ -1338,7 +1338,7 @@ public final class DoGetdStoreTablesAd {
        * Der Name einer Tabelle (wenn angegeben, dann natürlich "&#64;TableName"), die in (Engine-)Prozeduren verwendet wird. Das kann also durchaus auch eine System-Tabelle sein und/oder eine Tabelle aus einer anderen (System- bzw. dStore-)Datenbank.
        * </pre>
        *
-       * <code>optional .dstore.values.StringValue table_name = 10001;</code>
+       * <code>.dstore.values.StringValue table_name = 10001;</code>
        */
       public boolean hasTableName() {
         return tableName_ != null;
@@ -1348,7 +1348,7 @@ public final class DoGetdStoreTablesAd {
        * Der Name einer Tabelle (wenn angegeben, dann natürlich "&#64;TableName"), die in (Engine-)Prozeduren verwendet wird. Das kann also durchaus auch eine System-Tabelle sein und/oder eine Tabelle aus einer anderen (System- bzw. dStore-)Datenbank.
        * </pre>
        *
-       * <code>optional .dstore.values.StringValue table_name = 10001;</code>
+       * <code>.dstore.values.StringValue table_name = 10001;</code>
        */
       public io.dstore.values.StringValue getTableName() {
         return tableName_ == null ? io.dstore.values.StringValue.getDefaultInstance() : tableName_;
@@ -1358,7 +1358,7 @@ public final class DoGetdStoreTablesAd {
        * Der Name einer Tabelle (wenn angegeben, dann natürlich "&#64;TableName"), die in (Engine-)Prozeduren verwendet wird. Das kann also durchaus auch eine System-Tabelle sein und/oder eine Tabelle aus einer anderen (System- bzw. dStore-)Datenbank.
        * </pre>
        *
-       * <code>optional .dstore.values.StringValue table_name = 10001;</code>
+       * <code>.dstore.values.StringValue table_name = 10001;</code>
        */
       public io.dstore.values.StringValueOrBuilder getTableNameOrBuilder() {
         return getTableName();
@@ -1371,7 +1371,7 @@ public final class DoGetdStoreTablesAd {
        * Die ID der Kategorie, in die die Tabelle eingeordnet ist
        * </pre>
        *
-       * <code>optional .dstore.values.IntegerValue table_category_id = 10002;</code>
+       * <code>.dstore.values.IntegerValue table_category_id = 10002;</code>
        */
       public boolean hasTableCategoryId() {
         return tableCategoryId_ != null;
@@ -1381,7 +1381,7 @@ public final class DoGetdStoreTablesAd {
        * Die ID der Kategorie, in die die Tabelle eingeordnet ist
        * </pre>
        *
-       * <code>optional .dstore.values.IntegerValue table_category_id = 10002;</code>
+       * <code>.dstore.values.IntegerValue table_category_id = 10002;</code>
        */
       public io.dstore.values.IntegerValue getTableCategoryId() {
         return tableCategoryId_ == null ? io.dstore.values.IntegerValue.getDefaultInstance() : tableCategoryId_;
@@ -1391,7 +1391,7 @@ public final class DoGetdStoreTablesAd {
        * Die ID der Kategorie, in die die Tabelle eingeordnet ist
        * </pre>
        *
-       * <code>optional .dstore.values.IntegerValue table_category_id = 10002;</code>
+       * <code>.dstore.values.IntegerValue table_category_id = 10002;</code>
        */
       public io.dstore.values.IntegerValueOrBuilder getTableCategoryIdOrBuilder() {
         return getTableCategoryId();
@@ -1404,7 +1404,7 @@ public final class DoGetdStoreTablesAd {
        * Beschreibung wozu die Tabelle da ist bzw. was für Daten sie enthält
        * </pre>
        *
-       * <code>optional .dstore.values.StringValue description = 10003;</code>
+       * <code>.dstore.values.StringValue description = 10003;</code>
        */
       public boolean hasDescription() {
         return description_ != null;
@@ -1414,7 +1414,7 @@ public final class DoGetdStoreTablesAd {
        * Beschreibung wozu die Tabelle da ist bzw. was für Daten sie enthält
        * </pre>
        *
-       * <code>optional .dstore.values.StringValue description = 10003;</code>
+       * <code>.dstore.values.StringValue description = 10003;</code>
        */
       public io.dstore.values.StringValue getDescription() {
         return description_ == null ? io.dstore.values.StringValue.getDefaultInstance() : description_;
@@ -1424,7 +1424,7 @@ public final class DoGetdStoreTablesAd {
        * Beschreibung wozu die Tabelle da ist bzw. was für Daten sie enthält
        * </pre>
        *
-       * <code>optional .dstore.values.StringValue description = 10003;</code>
+       * <code>.dstore.values.StringValue description = 10003;</code>
        */
       public io.dstore.values.StringValueOrBuilder getDescriptionOrBuilder() {
         return getDescription();
@@ -1437,7 +1437,7 @@ public final class DoGetdStoreTablesAd {
        * Der Name von "TableCategoryID"
        * </pre>
        *
-       * <code>optional .dstore.values.StringValue table_category = 10004;</code>
+       * <code>.dstore.values.StringValue table_category = 10004;</code>
        */
       public boolean hasTableCategory() {
         return tableCategory_ != null;
@@ -1447,7 +1447,7 @@ public final class DoGetdStoreTablesAd {
        * Der Name von "TableCategoryID"
        * </pre>
        *
-       * <code>optional .dstore.values.StringValue table_category = 10004;</code>
+       * <code>.dstore.values.StringValue table_category = 10004;</code>
        */
       public io.dstore.values.StringValue getTableCategory() {
         return tableCategory_ == null ? io.dstore.values.StringValue.getDefaultInstance() : tableCategory_;
@@ -1457,7 +1457,7 @@ public final class DoGetdStoreTablesAd {
        * Der Name von "TableCategoryID"
        * </pre>
        *
-       * <code>optional .dstore.values.StringValue table_category = 10004;</code>
+       * <code>.dstore.values.StringValue table_category = 10004;</code>
        */
       public io.dstore.values.StringValueOrBuilder getTableCategoryOrBuilder() {
         return getTableCategory();
@@ -1564,7 +1564,7 @@ public final class DoGetdStoreTablesAd {
           return memoizedHashCode;
         }
         int hash = 41;
-        hash = (19 * hash) + getDescriptorForType().hashCode();
+        hash = (19 * hash) + getDescriptor().hashCode();
         hash = (37 * hash) + ROW_ID_FIELD_NUMBER;
         hash = (53 * hash) + getRowId();
         if (hasTableName()) {
@@ -1854,13 +1854,13 @@ public final class DoGetdStoreTablesAd {
 
         private int rowId_ ;
         /**
-         * <code>optional int32 row_id = 10000;</code>
+         * <code>int32 row_id = 10000;</code>
          */
         public int getRowId() {
           return rowId_;
         }
         /**
-         * <code>optional int32 row_id = 10000;</code>
+         * <code>int32 row_id = 10000;</code>
          */
         public Builder setRowId(int value) {
           
@@ -1869,7 +1869,7 @@ public final class DoGetdStoreTablesAd {
           return this;
         }
         /**
-         * <code>optional int32 row_id = 10000;</code>
+         * <code>int32 row_id = 10000;</code>
          */
         public Builder clearRowId() {
           
@@ -1886,7 +1886,7 @@ public final class DoGetdStoreTablesAd {
          * Der Name einer Tabelle (wenn angegeben, dann natürlich "&#64;TableName"), die in (Engine-)Prozeduren verwendet wird. Das kann also durchaus auch eine System-Tabelle sein und/oder eine Tabelle aus einer anderen (System- bzw. dStore-)Datenbank.
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue table_name = 10001;</code>
+         * <code>.dstore.values.StringValue table_name = 10001;</code>
          */
         public boolean hasTableName() {
           return tableNameBuilder_ != null || tableName_ != null;
@@ -1896,7 +1896,7 @@ public final class DoGetdStoreTablesAd {
          * Der Name einer Tabelle (wenn angegeben, dann natürlich "&#64;TableName"), die in (Engine-)Prozeduren verwendet wird. Das kann also durchaus auch eine System-Tabelle sein und/oder eine Tabelle aus einer anderen (System- bzw. dStore-)Datenbank.
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue table_name = 10001;</code>
+         * <code>.dstore.values.StringValue table_name = 10001;</code>
          */
         public io.dstore.values.StringValue getTableName() {
           if (tableNameBuilder_ == null) {
@@ -1910,7 +1910,7 @@ public final class DoGetdStoreTablesAd {
          * Der Name einer Tabelle (wenn angegeben, dann natürlich "&#64;TableName"), die in (Engine-)Prozeduren verwendet wird. Das kann also durchaus auch eine System-Tabelle sein und/oder eine Tabelle aus einer anderen (System- bzw. dStore-)Datenbank.
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue table_name = 10001;</code>
+         * <code>.dstore.values.StringValue table_name = 10001;</code>
          */
         public Builder setTableName(io.dstore.values.StringValue value) {
           if (tableNameBuilder_ == null) {
@@ -1930,7 +1930,7 @@ public final class DoGetdStoreTablesAd {
          * Der Name einer Tabelle (wenn angegeben, dann natürlich "&#64;TableName"), die in (Engine-)Prozeduren verwendet wird. Das kann also durchaus auch eine System-Tabelle sein und/oder eine Tabelle aus einer anderen (System- bzw. dStore-)Datenbank.
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue table_name = 10001;</code>
+         * <code>.dstore.values.StringValue table_name = 10001;</code>
          */
         public Builder setTableName(
             io.dstore.values.StringValue.Builder builderForValue) {
@@ -1948,7 +1948,7 @@ public final class DoGetdStoreTablesAd {
          * Der Name einer Tabelle (wenn angegeben, dann natürlich "&#64;TableName"), die in (Engine-)Prozeduren verwendet wird. Das kann also durchaus auch eine System-Tabelle sein und/oder eine Tabelle aus einer anderen (System- bzw. dStore-)Datenbank.
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue table_name = 10001;</code>
+         * <code>.dstore.values.StringValue table_name = 10001;</code>
          */
         public Builder mergeTableName(io.dstore.values.StringValue value) {
           if (tableNameBuilder_ == null) {
@@ -1970,7 +1970,7 @@ public final class DoGetdStoreTablesAd {
          * Der Name einer Tabelle (wenn angegeben, dann natürlich "&#64;TableName"), die in (Engine-)Prozeduren verwendet wird. Das kann also durchaus auch eine System-Tabelle sein und/oder eine Tabelle aus einer anderen (System- bzw. dStore-)Datenbank.
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue table_name = 10001;</code>
+         * <code>.dstore.values.StringValue table_name = 10001;</code>
          */
         public Builder clearTableName() {
           if (tableNameBuilder_ == null) {
@@ -1988,7 +1988,7 @@ public final class DoGetdStoreTablesAd {
          * Der Name einer Tabelle (wenn angegeben, dann natürlich "&#64;TableName"), die in (Engine-)Prozeduren verwendet wird. Das kann also durchaus auch eine System-Tabelle sein und/oder eine Tabelle aus einer anderen (System- bzw. dStore-)Datenbank.
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue table_name = 10001;</code>
+         * <code>.dstore.values.StringValue table_name = 10001;</code>
          */
         public io.dstore.values.StringValue.Builder getTableNameBuilder() {
           
@@ -2000,7 +2000,7 @@ public final class DoGetdStoreTablesAd {
          * Der Name einer Tabelle (wenn angegeben, dann natürlich "&#64;TableName"), die in (Engine-)Prozeduren verwendet wird. Das kann also durchaus auch eine System-Tabelle sein und/oder eine Tabelle aus einer anderen (System- bzw. dStore-)Datenbank.
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue table_name = 10001;</code>
+         * <code>.dstore.values.StringValue table_name = 10001;</code>
          */
         public io.dstore.values.StringValueOrBuilder getTableNameOrBuilder() {
           if (tableNameBuilder_ != null) {
@@ -2015,7 +2015,7 @@ public final class DoGetdStoreTablesAd {
          * Der Name einer Tabelle (wenn angegeben, dann natürlich "&#64;TableName"), die in (Engine-)Prozeduren verwendet wird. Das kann also durchaus auch eine System-Tabelle sein und/oder eine Tabelle aus einer anderen (System- bzw. dStore-)Datenbank.
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue table_name = 10001;</code>
+         * <code>.dstore.values.StringValue table_name = 10001;</code>
          */
         private com.google.protobuf.SingleFieldBuilderV3<
             io.dstore.values.StringValue, io.dstore.values.StringValue.Builder, io.dstore.values.StringValueOrBuilder> 
@@ -2039,7 +2039,7 @@ public final class DoGetdStoreTablesAd {
          * Die ID der Kategorie, in die die Tabelle eingeordnet ist
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue table_category_id = 10002;</code>
+         * <code>.dstore.values.IntegerValue table_category_id = 10002;</code>
          */
         public boolean hasTableCategoryId() {
           return tableCategoryIdBuilder_ != null || tableCategoryId_ != null;
@@ -2049,7 +2049,7 @@ public final class DoGetdStoreTablesAd {
          * Die ID der Kategorie, in die die Tabelle eingeordnet ist
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue table_category_id = 10002;</code>
+         * <code>.dstore.values.IntegerValue table_category_id = 10002;</code>
          */
         public io.dstore.values.IntegerValue getTableCategoryId() {
           if (tableCategoryIdBuilder_ == null) {
@@ -2063,7 +2063,7 @@ public final class DoGetdStoreTablesAd {
          * Die ID der Kategorie, in die die Tabelle eingeordnet ist
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue table_category_id = 10002;</code>
+         * <code>.dstore.values.IntegerValue table_category_id = 10002;</code>
          */
         public Builder setTableCategoryId(io.dstore.values.IntegerValue value) {
           if (tableCategoryIdBuilder_ == null) {
@@ -2083,7 +2083,7 @@ public final class DoGetdStoreTablesAd {
          * Die ID der Kategorie, in die die Tabelle eingeordnet ist
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue table_category_id = 10002;</code>
+         * <code>.dstore.values.IntegerValue table_category_id = 10002;</code>
          */
         public Builder setTableCategoryId(
             io.dstore.values.IntegerValue.Builder builderForValue) {
@@ -2101,7 +2101,7 @@ public final class DoGetdStoreTablesAd {
          * Die ID der Kategorie, in die die Tabelle eingeordnet ist
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue table_category_id = 10002;</code>
+         * <code>.dstore.values.IntegerValue table_category_id = 10002;</code>
          */
         public Builder mergeTableCategoryId(io.dstore.values.IntegerValue value) {
           if (tableCategoryIdBuilder_ == null) {
@@ -2123,7 +2123,7 @@ public final class DoGetdStoreTablesAd {
          * Die ID der Kategorie, in die die Tabelle eingeordnet ist
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue table_category_id = 10002;</code>
+         * <code>.dstore.values.IntegerValue table_category_id = 10002;</code>
          */
         public Builder clearTableCategoryId() {
           if (tableCategoryIdBuilder_ == null) {
@@ -2141,7 +2141,7 @@ public final class DoGetdStoreTablesAd {
          * Die ID der Kategorie, in die die Tabelle eingeordnet ist
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue table_category_id = 10002;</code>
+         * <code>.dstore.values.IntegerValue table_category_id = 10002;</code>
          */
         public io.dstore.values.IntegerValue.Builder getTableCategoryIdBuilder() {
           
@@ -2153,7 +2153,7 @@ public final class DoGetdStoreTablesAd {
          * Die ID der Kategorie, in die die Tabelle eingeordnet ist
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue table_category_id = 10002;</code>
+         * <code>.dstore.values.IntegerValue table_category_id = 10002;</code>
          */
         public io.dstore.values.IntegerValueOrBuilder getTableCategoryIdOrBuilder() {
           if (tableCategoryIdBuilder_ != null) {
@@ -2168,7 +2168,7 @@ public final class DoGetdStoreTablesAd {
          * Die ID der Kategorie, in die die Tabelle eingeordnet ist
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue table_category_id = 10002;</code>
+         * <code>.dstore.values.IntegerValue table_category_id = 10002;</code>
          */
         private com.google.protobuf.SingleFieldBuilderV3<
             io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> 
@@ -2192,7 +2192,7 @@ public final class DoGetdStoreTablesAd {
          * Beschreibung wozu die Tabelle da ist bzw. was für Daten sie enthält
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue description = 10003;</code>
+         * <code>.dstore.values.StringValue description = 10003;</code>
          */
         public boolean hasDescription() {
           return descriptionBuilder_ != null || description_ != null;
@@ -2202,7 +2202,7 @@ public final class DoGetdStoreTablesAd {
          * Beschreibung wozu die Tabelle da ist bzw. was für Daten sie enthält
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue description = 10003;</code>
+         * <code>.dstore.values.StringValue description = 10003;</code>
          */
         public io.dstore.values.StringValue getDescription() {
           if (descriptionBuilder_ == null) {
@@ -2216,7 +2216,7 @@ public final class DoGetdStoreTablesAd {
          * Beschreibung wozu die Tabelle da ist bzw. was für Daten sie enthält
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue description = 10003;</code>
+         * <code>.dstore.values.StringValue description = 10003;</code>
          */
         public Builder setDescription(io.dstore.values.StringValue value) {
           if (descriptionBuilder_ == null) {
@@ -2236,7 +2236,7 @@ public final class DoGetdStoreTablesAd {
          * Beschreibung wozu die Tabelle da ist bzw. was für Daten sie enthält
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue description = 10003;</code>
+         * <code>.dstore.values.StringValue description = 10003;</code>
          */
         public Builder setDescription(
             io.dstore.values.StringValue.Builder builderForValue) {
@@ -2254,7 +2254,7 @@ public final class DoGetdStoreTablesAd {
          * Beschreibung wozu die Tabelle da ist bzw. was für Daten sie enthält
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue description = 10003;</code>
+         * <code>.dstore.values.StringValue description = 10003;</code>
          */
         public Builder mergeDescription(io.dstore.values.StringValue value) {
           if (descriptionBuilder_ == null) {
@@ -2276,7 +2276,7 @@ public final class DoGetdStoreTablesAd {
          * Beschreibung wozu die Tabelle da ist bzw. was für Daten sie enthält
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue description = 10003;</code>
+         * <code>.dstore.values.StringValue description = 10003;</code>
          */
         public Builder clearDescription() {
           if (descriptionBuilder_ == null) {
@@ -2294,7 +2294,7 @@ public final class DoGetdStoreTablesAd {
          * Beschreibung wozu die Tabelle da ist bzw. was für Daten sie enthält
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue description = 10003;</code>
+         * <code>.dstore.values.StringValue description = 10003;</code>
          */
         public io.dstore.values.StringValue.Builder getDescriptionBuilder() {
           
@@ -2306,7 +2306,7 @@ public final class DoGetdStoreTablesAd {
          * Beschreibung wozu die Tabelle da ist bzw. was für Daten sie enthält
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue description = 10003;</code>
+         * <code>.dstore.values.StringValue description = 10003;</code>
          */
         public io.dstore.values.StringValueOrBuilder getDescriptionOrBuilder() {
           if (descriptionBuilder_ != null) {
@@ -2321,7 +2321,7 @@ public final class DoGetdStoreTablesAd {
          * Beschreibung wozu die Tabelle da ist bzw. was für Daten sie enthält
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue description = 10003;</code>
+         * <code>.dstore.values.StringValue description = 10003;</code>
          */
         private com.google.protobuf.SingleFieldBuilderV3<
             io.dstore.values.StringValue, io.dstore.values.StringValue.Builder, io.dstore.values.StringValueOrBuilder> 
@@ -2345,7 +2345,7 @@ public final class DoGetdStoreTablesAd {
          * Der Name von "TableCategoryID"
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue table_category = 10004;</code>
+         * <code>.dstore.values.StringValue table_category = 10004;</code>
          */
         public boolean hasTableCategory() {
           return tableCategoryBuilder_ != null || tableCategory_ != null;
@@ -2355,7 +2355,7 @@ public final class DoGetdStoreTablesAd {
          * Der Name von "TableCategoryID"
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue table_category = 10004;</code>
+         * <code>.dstore.values.StringValue table_category = 10004;</code>
          */
         public io.dstore.values.StringValue getTableCategory() {
           if (tableCategoryBuilder_ == null) {
@@ -2369,7 +2369,7 @@ public final class DoGetdStoreTablesAd {
          * Der Name von "TableCategoryID"
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue table_category = 10004;</code>
+         * <code>.dstore.values.StringValue table_category = 10004;</code>
          */
         public Builder setTableCategory(io.dstore.values.StringValue value) {
           if (tableCategoryBuilder_ == null) {
@@ -2389,7 +2389,7 @@ public final class DoGetdStoreTablesAd {
          * Der Name von "TableCategoryID"
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue table_category = 10004;</code>
+         * <code>.dstore.values.StringValue table_category = 10004;</code>
          */
         public Builder setTableCategory(
             io.dstore.values.StringValue.Builder builderForValue) {
@@ -2407,7 +2407,7 @@ public final class DoGetdStoreTablesAd {
          * Der Name von "TableCategoryID"
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue table_category = 10004;</code>
+         * <code>.dstore.values.StringValue table_category = 10004;</code>
          */
         public Builder mergeTableCategory(io.dstore.values.StringValue value) {
           if (tableCategoryBuilder_ == null) {
@@ -2429,7 +2429,7 @@ public final class DoGetdStoreTablesAd {
          * Der Name von "TableCategoryID"
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue table_category = 10004;</code>
+         * <code>.dstore.values.StringValue table_category = 10004;</code>
          */
         public Builder clearTableCategory() {
           if (tableCategoryBuilder_ == null) {
@@ -2447,7 +2447,7 @@ public final class DoGetdStoreTablesAd {
          * Der Name von "TableCategoryID"
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue table_category = 10004;</code>
+         * <code>.dstore.values.StringValue table_category = 10004;</code>
          */
         public io.dstore.values.StringValue.Builder getTableCategoryBuilder() {
           
@@ -2459,7 +2459,7 @@ public final class DoGetdStoreTablesAd {
          * Der Name von "TableCategoryID"
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue table_category = 10004;</code>
+         * <code>.dstore.values.StringValue table_category = 10004;</code>
          */
         public io.dstore.values.StringValueOrBuilder getTableCategoryOrBuilder() {
           if (tableCategoryBuilder_ != null) {
@@ -2474,7 +2474,7 @@ public final class DoGetdStoreTablesAd {
          * Der Name von "TableCategoryID"
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue table_category = 10004;</code>
+         * <code>.dstore.values.StringValue table_category = 10004;</code>
          */
         private com.google.protobuf.SingleFieldBuilderV3<
             io.dstore.values.StringValue, io.dstore.values.StringValue.Builder, io.dstore.values.StringValueOrBuilder> 
@@ -2734,7 +2734,7 @@ public final class DoGetdStoreTablesAd {
         return memoizedHashCode;
       }
       int hash = 41;
-      hash = (19 * hash) + getDescriptorForType().hashCode();
+      hash = (19 * hash) + getDescriptor().hashCode();
       if (getMetaInformationCount() > 0) {
         hash = (37 * hash) + META_INFORMATION_FIELD_NUMBER;
         hash = (53 * hash) + getMetaInformationList().hashCode();

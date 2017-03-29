@@ -19,56 +19,56 @@ public final class DoGetProcResSortConditionsAd {
       com.google.protobuf.MessageOrBuilder {
 
     /**
-     * <code>optional .dstore.values.StringValue procedure_name = 1;</code>
+     * <code>.dstore.values.StringValue procedure_name = 1;</code>
      */
     boolean hasProcedureName();
     /**
-     * <code>optional .dstore.values.StringValue procedure_name = 1;</code>
+     * <code>.dstore.values.StringValue procedure_name = 1;</code>
      */
     io.dstore.values.StringValue getProcedureName();
     /**
-     * <code>optional .dstore.values.StringValue procedure_name = 1;</code>
+     * <code>.dstore.values.StringValue procedure_name = 1;</code>
      */
     io.dstore.values.StringValueOrBuilder getProcedureNameOrBuilder();
 
     /**
-     * <code>optional bool procedure_name_null = 1001;</code>
+     * <code>bool procedure_name_null = 1001;</code>
      */
     boolean getProcedureNameNull();
 
     /**
-     * <code>optional .dstore.values.IntegerValue procedure_result_condition_id = 2;</code>
+     * <code>.dstore.values.IntegerValue procedure_result_condition_id = 2;</code>
      */
     boolean hasProcedureResultConditionId();
     /**
-     * <code>optional .dstore.values.IntegerValue procedure_result_condition_id = 2;</code>
+     * <code>.dstore.values.IntegerValue procedure_result_condition_id = 2;</code>
      */
     io.dstore.values.IntegerValue getProcedureResultConditionId();
     /**
-     * <code>optional .dstore.values.IntegerValue procedure_result_condition_id = 2;</code>
+     * <code>.dstore.values.IntegerValue procedure_result_condition_id = 2;</code>
      */
     io.dstore.values.IntegerValueOrBuilder getProcedureResultConditionIdOrBuilder();
 
     /**
-     * <code>optional bool procedure_result_condition_id_null = 1002;</code>
+     * <code>bool procedure_result_condition_id_null = 1002;</code>
      */
     boolean getProcedureResultConditionIdNull();
 
     /**
-     * <code>optional .dstore.values.IntegerValue sort_condition_id = 3;</code>
+     * <code>.dstore.values.IntegerValue sort_condition_id = 3;</code>
      */
     boolean hasSortConditionId();
     /**
-     * <code>optional .dstore.values.IntegerValue sort_condition_id = 3;</code>
+     * <code>.dstore.values.IntegerValue sort_condition_id = 3;</code>
      */
     io.dstore.values.IntegerValue getSortConditionId();
     /**
-     * <code>optional .dstore.values.IntegerValue sort_condition_id = 3;</code>
+     * <code>.dstore.values.IntegerValue sort_condition_id = 3;</code>
      */
     io.dstore.values.IntegerValueOrBuilder getSortConditionIdOrBuilder();
 
     /**
-     * <code>optional bool sort_condition_id_null = 1003;</code>
+     * <code>bool sort_condition_id_null = 1003;</code>
      */
     boolean getSortConditionIdNull();
   }
@@ -194,19 +194,19 @@ public final class DoGetProcResSortConditionsAd {
     public static final int PROCEDURE_NAME_FIELD_NUMBER = 1;
     private io.dstore.values.StringValue procedureName_;
     /**
-     * <code>optional .dstore.values.StringValue procedure_name = 1;</code>
+     * <code>.dstore.values.StringValue procedure_name = 1;</code>
      */
     public boolean hasProcedureName() {
       return procedureName_ != null;
     }
     /**
-     * <code>optional .dstore.values.StringValue procedure_name = 1;</code>
+     * <code>.dstore.values.StringValue procedure_name = 1;</code>
      */
     public io.dstore.values.StringValue getProcedureName() {
       return procedureName_ == null ? io.dstore.values.StringValue.getDefaultInstance() : procedureName_;
     }
     /**
-     * <code>optional .dstore.values.StringValue procedure_name = 1;</code>
+     * <code>.dstore.values.StringValue procedure_name = 1;</code>
      */
     public io.dstore.values.StringValueOrBuilder getProcedureNameOrBuilder() {
       return getProcedureName();
@@ -215,7 +215,7 @@ public final class DoGetProcResSortConditionsAd {
     public static final int PROCEDURE_NAME_NULL_FIELD_NUMBER = 1001;
     private boolean procedureNameNull_;
     /**
-     * <code>optional bool procedure_name_null = 1001;</code>
+     * <code>bool procedure_name_null = 1001;</code>
      */
     public boolean getProcedureNameNull() {
       return procedureNameNull_;
@@ -224,19 +224,19 @@ public final class DoGetProcResSortConditionsAd {
     public static final int PROCEDURE_RESULT_CONDITION_ID_FIELD_NUMBER = 2;
     private io.dstore.values.IntegerValue procedureResultConditionId_;
     /**
-     * <code>optional .dstore.values.IntegerValue procedure_result_condition_id = 2;</code>
+     * <code>.dstore.values.IntegerValue procedure_result_condition_id = 2;</code>
      */
     public boolean hasProcedureResultConditionId() {
       return procedureResultConditionId_ != null;
     }
     /**
-     * <code>optional .dstore.values.IntegerValue procedure_result_condition_id = 2;</code>
+     * <code>.dstore.values.IntegerValue procedure_result_condition_id = 2;</code>
      */
     public io.dstore.values.IntegerValue getProcedureResultConditionId() {
       return procedureResultConditionId_ == null ? io.dstore.values.IntegerValue.getDefaultInstance() : procedureResultConditionId_;
     }
     /**
-     * <code>optional .dstore.values.IntegerValue procedure_result_condition_id = 2;</code>
+     * <code>.dstore.values.IntegerValue procedure_result_condition_id = 2;</code>
      */
     public io.dstore.values.IntegerValueOrBuilder getProcedureResultConditionIdOrBuilder() {
       return getProcedureResultConditionId();
@@ -245,7 +245,7 @@ public final class DoGetProcResSortConditionsAd {
     public static final int PROCEDURE_RESULT_CONDITION_ID_NULL_FIELD_NUMBER = 1002;
     private boolean procedureResultConditionIdNull_;
     /**
-     * <code>optional bool procedure_result_condition_id_null = 1002;</code>
+     * <code>bool procedure_result_condition_id_null = 1002;</code>
      */
     public boolean getProcedureResultConditionIdNull() {
       return procedureResultConditionIdNull_;
@@ -254,19 +254,19 @@ public final class DoGetProcResSortConditionsAd {
     public static final int SORT_CONDITION_ID_FIELD_NUMBER = 3;
     private io.dstore.values.IntegerValue sortConditionId_;
     /**
-     * <code>optional .dstore.values.IntegerValue sort_condition_id = 3;</code>
+     * <code>.dstore.values.IntegerValue sort_condition_id = 3;</code>
      */
     public boolean hasSortConditionId() {
       return sortConditionId_ != null;
     }
     /**
-     * <code>optional .dstore.values.IntegerValue sort_condition_id = 3;</code>
+     * <code>.dstore.values.IntegerValue sort_condition_id = 3;</code>
      */
     public io.dstore.values.IntegerValue getSortConditionId() {
       return sortConditionId_ == null ? io.dstore.values.IntegerValue.getDefaultInstance() : sortConditionId_;
     }
     /**
-     * <code>optional .dstore.values.IntegerValue sort_condition_id = 3;</code>
+     * <code>.dstore.values.IntegerValue sort_condition_id = 3;</code>
      */
     public io.dstore.values.IntegerValueOrBuilder getSortConditionIdOrBuilder() {
       return getSortConditionId();
@@ -275,7 +275,7 @@ public final class DoGetProcResSortConditionsAd {
     public static final int SORT_CONDITION_ID_NULL_FIELD_NUMBER = 1003;
     private boolean sortConditionIdNull_;
     /**
-     * <code>optional bool sort_condition_id_null = 1003;</code>
+     * <code>bool sort_condition_id_null = 1003;</code>
      */
     public boolean getSortConditionIdNull() {
       return sortConditionIdNull_;
@@ -388,7 +388,7 @@ public final class DoGetProcResSortConditionsAd {
         return memoizedHashCode;
       }
       int hash = 41;
-      hash = (19 * hash) + getDescriptorForType().hashCode();
+      hash = (19 * hash) + getDescriptor().hashCode();
       if (hasProcedureName()) {
         hash = (37 * hash) + PROCEDURE_NAME_FIELD_NUMBER;
         hash = (53 * hash) + getProcedureName().hashCode();
@@ -681,13 +681,13 @@ public final class DoGetProcResSortConditionsAd {
       private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.values.StringValue, io.dstore.values.StringValue.Builder, io.dstore.values.StringValueOrBuilder> procedureNameBuilder_;
       /**
-       * <code>optional .dstore.values.StringValue procedure_name = 1;</code>
+       * <code>.dstore.values.StringValue procedure_name = 1;</code>
        */
       public boolean hasProcedureName() {
         return procedureNameBuilder_ != null || procedureName_ != null;
       }
       /**
-       * <code>optional .dstore.values.StringValue procedure_name = 1;</code>
+       * <code>.dstore.values.StringValue procedure_name = 1;</code>
        */
       public io.dstore.values.StringValue getProcedureName() {
         if (procedureNameBuilder_ == null) {
@@ -697,7 +697,7 @@ public final class DoGetProcResSortConditionsAd {
         }
       }
       /**
-       * <code>optional .dstore.values.StringValue procedure_name = 1;</code>
+       * <code>.dstore.values.StringValue procedure_name = 1;</code>
        */
       public Builder setProcedureName(io.dstore.values.StringValue value) {
         if (procedureNameBuilder_ == null) {
@@ -713,7 +713,7 @@ public final class DoGetProcResSortConditionsAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.StringValue procedure_name = 1;</code>
+       * <code>.dstore.values.StringValue procedure_name = 1;</code>
        */
       public Builder setProcedureName(
           io.dstore.values.StringValue.Builder builderForValue) {
@@ -727,7 +727,7 @@ public final class DoGetProcResSortConditionsAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.StringValue procedure_name = 1;</code>
+       * <code>.dstore.values.StringValue procedure_name = 1;</code>
        */
       public Builder mergeProcedureName(io.dstore.values.StringValue value) {
         if (procedureNameBuilder_ == null) {
@@ -745,7 +745,7 @@ public final class DoGetProcResSortConditionsAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.StringValue procedure_name = 1;</code>
+       * <code>.dstore.values.StringValue procedure_name = 1;</code>
        */
       public Builder clearProcedureName() {
         if (procedureNameBuilder_ == null) {
@@ -759,7 +759,7 @@ public final class DoGetProcResSortConditionsAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.StringValue procedure_name = 1;</code>
+       * <code>.dstore.values.StringValue procedure_name = 1;</code>
        */
       public io.dstore.values.StringValue.Builder getProcedureNameBuilder() {
         
@@ -767,7 +767,7 @@ public final class DoGetProcResSortConditionsAd {
         return getProcedureNameFieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .dstore.values.StringValue procedure_name = 1;</code>
+       * <code>.dstore.values.StringValue procedure_name = 1;</code>
        */
       public io.dstore.values.StringValueOrBuilder getProcedureNameOrBuilder() {
         if (procedureNameBuilder_ != null) {
@@ -778,7 +778,7 @@ public final class DoGetProcResSortConditionsAd {
         }
       }
       /**
-       * <code>optional .dstore.values.StringValue procedure_name = 1;</code>
+       * <code>.dstore.values.StringValue procedure_name = 1;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.values.StringValue, io.dstore.values.StringValue.Builder, io.dstore.values.StringValueOrBuilder> 
@@ -796,13 +796,13 @@ public final class DoGetProcResSortConditionsAd {
 
       private boolean procedureNameNull_ ;
       /**
-       * <code>optional bool procedure_name_null = 1001;</code>
+       * <code>bool procedure_name_null = 1001;</code>
        */
       public boolean getProcedureNameNull() {
         return procedureNameNull_;
       }
       /**
-       * <code>optional bool procedure_name_null = 1001;</code>
+       * <code>bool procedure_name_null = 1001;</code>
        */
       public Builder setProcedureNameNull(boolean value) {
         
@@ -811,7 +811,7 @@ public final class DoGetProcResSortConditionsAd {
         return this;
       }
       /**
-       * <code>optional bool procedure_name_null = 1001;</code>
+       * <code>bool procedure_name_null = 1001;</code>
        */
       public Builder clearProcedureNameNull() {
         
@@ -824,13 +824,13 @@ public final class DoGetProcResSortConditionsAd {
       private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> procedureResultConditionIdBuilder_;
       /**
-       * <code>optional .dstore.values.IntegerValue procedure_result_condition_id = 2;</code>
+       * <code>.dstore.values.IntegerValue procedure_result_condition_id = 2;</code>
        */
       public boolean hasProcedureResultConditionId() {
         return procedureResultConditionIdBuilder_ != null || procedureResultConditionId_ != null;
       }
       /**
-       * <code>optional .dstore.values.IntegerValue procedure_result_condition_id = 2;</code>
+       * <code>.dstore.values.IntegerValue procedure_result_condition_id = 2;</code>
        */
       public io.dstore.values.IntegerValue getProcedureResultConditionId() {
         if (procedureResultConditionIdBuilder_ == null) {
@@ -840,7 +840,7 @@ public final class DoGetProcResSortConditionsAd {
         }
       }
       /**
-       * <code>optional .dstore.values.IntegerValue procedure_result_condition_id = 2;</code>
+       * <code>.dstore.values.IntegerValue procedure_result_condition_id = 2;</code>
        */
       public Builder setProcedureResultConditionId(io.dstore.values.IntegerValue value) {
         if (procedureResultConditionIdBuilder_ == null) {
@@ -856,7 +856,7 @@ public final class DoGetProcResSortConditionsAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.IntegerValue procedure_result_condition_id = 2;</code>
+       * <code>.dstore.values.IntegerValue procedure_result_condition_id = 2;</code>
        */
       public Builder setProcedureResultConditionId(
           io.dstore.values.IntegerValue.Builder builderForValue) {
@@ -870,7 +870,7 @@ public final class DoGetProcResSortConditionsAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.IntegerValue procedure_result_condition_id = 2;</code>
+       * <code>.dstore.values.IntegerValue procedure_result_condition_id = 2;</code>
        */
       public Builder mergeProcedureResultConditionId(io.dstore.values.IntegerValue value) {
         if (procedureResultConditionIdBuilder_ == null) {
@@ -888,7 +888,7 @@ public final class DoGetProcResSortConditionsAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.IntegerValue procedure_result_condition_id = 2;</code>
+       * <code>.dstore.values.IntegerValue procedure_result_condition_id = 2;</code>
        */
       public Builder clearProcedureResultConditionId() {
         if (procedureResultConditionIdBuilder_ == null) {
@@ -902,7 +902,7 @@ public final class DoGetProcResSortConditionsAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.IntegerValue procedure_result_condition_id = 2;</code>
+       * <code>.dstore.values.IntegerValue procedure_result_condition_id = 2;</code>
        */
       public io.dstore.values.IntegerValue.Builder getProcedureResultConditionIdBuilder() {
         
@@ -910,7 +910,7 @@ public final class DoGetProcResSortConditionsAd {
         return getProcedureResultConditionIdFieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .dstore.values.IntegerValue procedure_result_condition_id = 2;</code>
+       * <code>.dstore.values.IntegerValue procedure_result_condition_id = 2;</code>
        */
       public io.dstore.values.IntegerValueOrBuilder getProcedureResultConditionIdOrBuilder() {
         if (procedureResultConditionIdBuilder_ != null) {
@@ -921,7 +921,7 @@ public final class DoGetProcResSortConditionsAd {
         }
       }
       /**
-       * <code>optional .dstore.values.IntegerValue procedure_result_condition_id = 2;</code>
+       * <code>.dstore.values.IntegerValue procedure_result_condition_id = 2;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> 
@@ -939,13 +939,13 @@ public final class DoGetProcResSortConditionsAd {
 
       private boolean procedureResultConditionIdNull_ ;
       /**
-       * <code>optional bool procedure_result_condition_id_null = 1002;</code>
+       * <code>bool procedure_result_condition_id_null = 1002;</code>
        */
       public boolean getProcedureResultConditionIdNull() {
         return procedureResultConditionIdNull_;
       }
       /**
-       * <code>optional bool procedure_result_condition_id_null = 1002;</code>
+       * <code>bool procedure_result_condition_id_null = 1002;</code>
        */
       public Builder setProcedureResultConditionIdNull(boolean value) {
         
@@ -954,7 +954,7 @@ public final class DoGetProcResSortConditionsAd {
         return this;
       }
       /**
-       * <code>optional bool procedure_result_condition_id_null = 1002;</code>
+       * <code>bool procedure_result_condition_id_null = 1002;</code>
        */
       public Builder clearProcedureResultConditionIdNull() {
         
@@ -967,13 +967,13 @@ public final class DoGetProcResSortConditionsAd {
       private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> sortConditionIdBuilder_;
       /**
-       * <code>optional .dstore.values.IntegerValue sort_condition_id = 3;</code>
+       * <code>.dstore.values.IntegerValue sort_condition_id = 3;</code>
        */
       public boolean hasSortConditionId() {
         return sortConditionIdBuilder_ != null || sortConditionId_ != null;
       }
       /**
-       * <code>optional .dstore.values.IntegerValue sort_condition_id = 3;</code>
+       * <code>.dstore.values.IntegerValue sort_condition_id = 3;</code>
        */
       public io.dstore.values.IntegerValue getSortConditionId() {
         if (sortConditionIdBuilder_ == null) {
@@ -983,7 +983,7 @@ public final class DoGetProcResSortConditionsAd {
         }
       }
       /**
-       * <code>optional .dstore.values.IntegerValue sort_condition_id = 3;</code>
+       * <code>.dstore.values.IntegerValue sort_condition_id = 3;</code>
        */
       public Builder setSortConditionId(io.dstore.values.IntegerValue value) {
         if (sortConditionIdBuilder_ == null) {
@@ -999,7 +999,7 @@ public final class DoGetProcResSortConditionsAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.IntegerValue sort_condition_id = 3;</code>
+       * <code>.dstore.values.IntegerValue sort_condition_id = 3;</code>
        */
       public Builder setSortConditionId(
           io.dstore.values.IntegerValue.Builder builderForValue) {
@@ -1013,7 +1013,7 @@ public final class DoGetProcResSortConditionsAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.IntegerValue sort_condition_id = 3;</code>
+       * <code>.dstore.values.IntegerValue sort_condition_id = 3;</code>
        */
       public Builder mergeSortConditionId(io.dstore.values.IntegerValue value) {
         if (sortConditionIdBuilder_ == null) {
@@ -1031,7 +1031,7 @@ public final class DoGetProcResSortConditionsAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.IntegerValue sort_condition_id = 3;</code>
+       * <code>.dstore.values.IntegerValue sort_condition_id = 3;</code>
        */
       public Builder clearSortConditionId() {
         if (sortConditionIdBuilder_ == null) {
@@ -1045,7 +1045,7 @@ public final class DoGetProcResSortConditionsAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.IntegerValue sort_condition_id = 3;</code>
+       * <code>.dstore.values.IntegerValue sort_condition_id = 3;</code>
        */
       public io.dstore.values.IntegerValue.Builder getSortConditionIdBuilder() {
         
@@ -1053,7 +1053,7 @@ public final class DoGetProcResSortConditionsAd {
         return getSortConditionIdFieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .dstore.values.IntegerValue sort_condition_id = 3;</code>
+       * <code>.dstore.values.IntegerValue sort_condition_id = 3;</code>
        */
       public io.dstore.values.IntegerValueOrBuilder getSortConditionIdOrBuilder() {
         if (sortConditionIdBuilder_ != null) {
@@ -1064,7 +1064,7 @@ public final class DoGetProcResSortConditionsAd {
         }
       }
       /**
-       * <code>optional .dstore.values.IntegerValue sort_condition_id = 3;</code>
+       * <code>.dstore.values.IntegerValue sort_condition_id = 3;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> 
@@ -1082,13 +1082,13 @@ public final class DoGetProcResSortConditionsAd {
 
       private boolean sortConditionIdNull_ ;
       /**
-       * <code>optional bool sort_condition_id_null = 1003;</code>
+       * <code>bool sort_condition_id_null = 1003;</code>
        */
       public boolean getSortConditionIdNull() {
         return sortConditionIdNull_;
       }
       /**
-       * <code>optional bool sort_condition_id_null = 1003;</code>
+       * <code>bool sort_condition_id_null = 1003;</code>
        */
       public Builder setSortConditionIdNull(boolean value) {
         
@@ -1097,7 +1097,7 @@ public final class DoGetProcResSortConditionsAd {
         return this;
       }
       /**
-       * <code>optional bool sort_condition_id_null = 1003;</code>
+       * <code>bool sort_condition_id_null = 1003;</code>
        */
       public Builder clearSortConditionIdNull() {
         
@@ -1356,7 +1356,7 @@ public final class DoGetProcResSortConditionsAd {
         com.google.protobuf.MessageOrBuilder {
 
       /**
-       * <code>optional int32 row_id = 10000;</code>
+       * <code>int32 row_id = 10000;</code>
        */
       int getRowId();
 
@@ -1365,7 +1365,7 @@ public final class DoGetProcResSortConditionsAd {
        * Bezeichnung der Sortierungs-Bedingung "SortConditionID"
        * </pre>
        *
-       * <code>optional .dstore.values.StringValue condition_description = 10001;</code>
+       * <code>.dstore.values.StringValue condition_description = 10001;</code>
        */
       boolean hasConditionDescription();
       /**
@@ -1373,7 +1373,7 @@ public final class DoGetProcResSortConditionsAd {
        * Bezeichnung der Sortierungs-Bedingung "SortConditionID"
        * </pre>
        *
-       * <code>optional .dstore.values.StringValue condition_description = 10001;</code>
+       * <code>.dstore.values.StringValue condition_description = 10001;</code>
        */
       io.dstore.values.StringValue getConditionDescription();
       /**
@@ -1381,7 +1381,7 @@ public final class DoGetProcResSortConditionsAd {
        * Bezeichnung der Sortierungs-Bedingung "SortConditionID"
        * </pre>
        *
-       * <code>optional .dstore.values.StringValue condition_description = 10001;</code>
+       * <code>.dstore.values.StringValue condition_description = 10001;</code>
        */
       io.dstore.values.StringValueOrBuilder getConditionDescriptionOrBuilder();
 
@@ -1390,7 +1390,7 @@ public final class DoGetProcResSortConditionsAd {
        * Bedingung, die der Wert des Parameters "ParameterName" beim Aufruf der Prozedur erfüllen muß, damit die Rückgabemenge wie zu "SortConditionID" hinterlegt (s. "do_GetSortOrderForResultSet_Ad") sortiert wird
        * </pre>
        *
-       * <code>optional .dstore.values.StringValue condition = 10002;</code>
+       * <code>.dstore.values.StringValue condition = 10002;</code>
        */
       boolean hasCondition();
       /**
@@ -1398,7 +1398,7 @@ public final class DoGetProcResSortConditionsAd {
        * Bedingung, die der Wert des Parameters "ParameterName" beim Aufruf der Prozedur erfüllen muß, damit die Rückgabemenge wie zu "SortConditionID" hinterlegt (s. "do_GetSortOrderForResultSet_Ad") sortiert wird
        * </pre>
        *
-       * <code>optional .dstore.values.StringValue condition = 10002;</code>
+       * <code>.dstore.values.StringValue condition = 10002;</code>
        */
       io.dstore.values.StringValue getCondition();
       /**
@@ -1406,7 +1406,7 @@ public final class DoGetProcResSortConditionsAd {
        * Bedingung, die der Wert des Parameters "ParameterName" beim Aufruf der Prozedur erfüllen muß, damit die Rückgabemenge wie zu "SortConditionID" hinterlegt (s. "do_GetSortOrderForResultSet_Ad") sortiert wird
        * </pre>
        *
-       * <code>optional .dstore.values.StringValue condition = 10002;</code>
+       * <code>.dstore.values.StringValue condition = 10002;</code>
        */
       io.dstore.values.StringValueOrBuilder getConditionOrBuilder();
 
@@ -1415,7 +1415,7 @@ public final class DoGetProcResSortConditionsAd {
        * ID einer Sortierungs-Bedingung für die (durch "&#64;ProcedureName" und "&#64;ProcedureResultConditionID" referenzierte) Rückgabemenge. Falls angegeben, natürlich identisch mit "&#64;SortConditionID".
        * </pre>
        *
-       * <code>optional .dstore.values.IntegerValue sort_condition_id = 10003;</code>
+       * <code>.dstore.values.IntegerValue sort_condition_id = 10003;</code>
        */
       boolean hasSortConditionId();
       /**
@@ -1423,7 +1423,7 @@ public final class DoGetProcResSortConditionsAd {
        * ID einer Sortierungs-Bedingung für die (durch "&#64;ProcedureName" und "&#64;ProcedureResultConditionID" referenzierte) Rückgabemenge. Falls angegeben, natürlich identisch mit "&#64;SortConditionID".
        * </pre>
        *
-       * <code>optional .dstore.values.IntegerValue sort_condition_id = 10003;</code>
+       * <code>.dstore.values.IntegerValue sort_condition_id = 10003;</code>
        */
       io.dstore.values.IntegerValue getSortConditionId();
       /**
@@ -1431,7 +1431,7 @@ public final class DoGetProcResSortConditionsAd {
        * ID einer Sortierungs-Bedingung für die (durch "&#64;ProcedureName" und "&#64;ProcedureResultConditionID" referenzierte) Rückgabemenge. Falls angegeben, natürlich identisch mit "&#64;SortConditionID".
        * </pre>
        *
-       * <code>optional .dstore.values.IntegerValue sort_condition_id = 10003;</code>
+       * <code>.dstore.values.IntegerValue sort_condition_id = 10003;</code>
        */
       io.dstore.values.IntegerValueOrBuilder getSortConditionIdOrBuilder();
 
@@ -1440,7 +1440,7 @@ public final class DoGetProcResSortConditionsAd {
        * Name eines Parameters der Prozedur "&#64;ProcedureName", dessen Wert beim Aufruf die Bedingung "Condition" erfüllen muß, damit die Rückgabemenge wie zu "SortConditionID" hinterlegt (s. "do_GetSortOrderForResultSet_Ad") sortiert wird
        * </pre>
        *
-       * <code>optional .dstore.values.StringValue parameter_name = 10004;</code>
+       * <code>.dstore.values.StringValue parameter_name = 10004;</code>
        */
       boolean hasParameterName();
       /**
@@ -1448,7 +1448,7 @@ public final class DoGetProcResSortConditionsAd {
        * Name eines Parameters der Prozedur "&#64;ProcedureName", dessen Wert beim Aufruf die Bedingung "Condition" erfüllen muß, damit die Rückgabemenge wie zu "SortConditionID" hinterlegt (s. "do_GetSortOrderForResultSet_Ad") sortiert wird
        * </pre>
        *
-       * <code>optional .dstore.values.StringValue parameter_name = 10004;</code>
+       * <code>.dstore.values.StringValue parameter_name = 10004;</code>
        */
       io.dstore.values.StringValue getParameterName();
       /**
@@ -1456,7 +1456,7 @@ public final class DoGetProcResSortConditionsAd {
        * Name eines Parameters der Prozedur "&#64;ProcedureName", dessen Wert beim Aufruf die Bedingung "Condition" erfüllen muß, damit die Rückgabemenge wie zu "SortConditionID" hinterlegt (s. "do_GetSortOrderForResultSet_Ad") sortiert wird
        * </pre>
        *
-       * <code>optional .dstore.values.StringValue parameter_name = 10004;</code>
+       * <code>.dstore.values.StringValue parameter_name = 10004;</code>
        */
       io.dstore.values.StringValueOrBuilder getParameterNameOrBuilder();
     }
@@ -1583,7 +1583,7 @@ public final class DoGetProcResSortConditionsAd {
       public static final int ROW_ID_FIELD_NUMBER = 10000;
       private int rowId_;
       /**
-       * <code>optional int32 row_id = 10000;</code>
+       * <code>int32 row_id = 10000;</code>
        */
       public int getRowId() {
         return rowId_;
@@ -1596,7 +1596,7 @@ public final class DoGetProcResSortConditionsAd {
        * Bezeichnung der Sortierungs-Bedingung "SortConditionID"
        * </pre>
        *
-       * <code>optional .dstore.values.StringValue condition_description = 10001;</code>
+       * <code>.dstore.values.StringValue condition_description = 10001;</code>
        */
       public boolean hasConditionDescription() {
         return conditionDescription_ != null;
@@ -1606,7 +1606,7 @@ public final class DoGetProcResSortConditionsAd {
        * Bezeichnung der Sortierungs-Bedingung "SortConditionID"
        * </pre>
        *
-       * <code>optional .dstore.values.StringValue condition_description = 10001;</code>
+       * <code>.dstore.values.StringValue condition_description = 10001;</code>
        */
       public io.dstore.values.StringValue getConditionDescription() {
         return conditionDescription_ == null ? io.dstore.values.StringValue.getDefaultInstance() : conditionDescription_;
@@ -1616,7 +1616,7 @@ public final class DoGetProcResSortConditionsAd {
        * Bezeichnung der Sortierungs-Bedingung "SortConditionID"
        * </pre>
        *
-       * <code>optional .dstore.values.StringValue condition_description = 10001;</code>
+       * <code>.dstore.values.StringValue condition_description = 10001;</code>
        */
       public io.dstore.values.StringValueOrBuilder getConditionDescriptionOrBuilder() {
         return getConditionDescription();
@@ -1629,7 +1629,7 @@ public final class DoGetProcResSortConditionsAd {
        * Bedingung, die der Wert des Parameters "ParameterName" beim Aufruf der Prozedur erfüllen muß, damit die Rückgabemenge wie zu "SortConditionID" hinterlegt (s. "do_GetSortOrderForResultSet_Ad") sortiert wird
        * </pre>
        *
-       * <code>optional .dstore.values.StringValue condition = 10002;</code>
+       * <code>.dstore.values.StringValue condition = 10002;</code>
        */
       public boolean hasCondition() {
         return condition_ != null;
@@ -1639,7 +1639,7 @@ public final class DoGetProcResSortConditionsAd {
        * Bedingung, die der Wert des Parameters "ParameterName" beim Aufruf der Prozedur erfüllen muß, damit die Rückgabemenge wie zu "SortConditionID" hinterlegt (s. "do_GetSortOrderForResultSet_Ad") sortiert wird
        * </pre>
        *
-       * <code>optional .dstore.values.StringValue condition = 10002;</code>
+       * <code>.dstore.values.StringValue condition = 10002;</code>
        */
       public io.dstore.values.StringValue getCondition() {
         return condition_ == null ? io.dstore.values.StringValue.getDefaultInstance() : condition_;
@@ -1649,7 +1649,7 @@ public final class DoGetProcResSortConditionsAd {
        * Bedingung, die der Wert des Parameters "ParameterName" beim Aufruf der Prozedur erfüllen muß, damit die Rückgabemenge wie zu "SortConditionID" hinterlegt (s. "do_GetSortOrderForResultSet_Ad") sortiert wird
        * </pre>
        *
-       * <code>optional .dstore.values.StringValue condition = 10002;</code>
+       * <code>.dstore.values.StringValue condition = 10002;</code>
        */
       public io.dstore.values.StringValueOrBuilder getConditionOrBuilder() {
         return getCondition();
@@ -1662,7 +1662,7 @@ public final class DoGetProcResSortConditionsAd {
        * ID einer Sortierungs-Bedingung für die (durch "&#64;ProcedureName" und "&#64;ProcedureResultConditionID" referenzierte) Rückgabemenge. Falls angegeben, natürlich identisch mit "&#64;SortConditionID".
        * </pre>
        *
-       * <code>optional .dstore.values.IntegerValue sort_condition_id = 10003;</code>
+       * <code>.dstore.values.IntegerValue sort_condition_id = 10003;</code>
        */
       public boolean hasSortConditionId() {
         return sortConditionId_ != null;
@@ -1672,7 +1672,7 @@ public final class DoGetProcResSortConditionsAd {
        * ID einer Sortierungs-Bedingung für die (durch "&#64;ProcedureName" und "&#64;ProcedureResultConditionID" referenzierte) Rückgabemenge. Falls angegeben, natürlich identisch mit "&#64;SortConditionID".
        * </pre>
        *
-       * <code>optional .dstore.values.IntegerValue sort_condition_id = 10003;</code>
+       * <code>.dstore.values.IntegerValue sort_condition_id = 10003;</code>
        */
       public io.dstore.values.IntegerValue getSortConditionId() {
         return sortConditionId_ == null ? io.dstore.values.IntegerValue.getDefaultInstance() : sortConditionId_;
@@ -1682,7 +1682,7 @@ public final class DoGetProcResSortConditionsAd {
        * ID einer Sortierungs-Bedingung für die (durch "&#64;ProcedureName" und "&#64;ProcedureResultConditionID" referenzierte) Rückgabemenge. Falls angegeben, natürlich identisch mit "&#64;SortConditionID".
        * </pre>
        *
-       * <code>optional .dstore.values.IntegerValue sort_condition_id = 10003;</code>
+       * <code>.dstore.values.IntegerValue sort_condition_id = 10003;</code>
        */
       public io.dstore.values.IntegerValueOrBuilder getSortConditionIdOrBuilder() {
         return getSortConditionId();
@@ -1695,7 +1695,7 @@ public final class DoGetProcResSortConditionsAd {
        * Name eines Parameters der Prozedur "&#64;ProcedureName", dessen Wert beim Aufruf die Bedingung "Condition" erfüllen muß, damit die Rückgabemenge wie zu "SortConditionID" hinterlegt (s. "do_GetSortOrderForResultSet_Ad") sortiert wird
        * </pre>
        *
-       * <code>optional .dstore.values.StringValue parameter_name = 10004;</code>
+       * <code>.dstore.values.StringValue parameter_name = 10004;</code>
        */
       public boolean hasParameterName() {
         return parameterName_ != null;
@@ -1705,7 +1705,7 @@ public final class DoGetProcResSortConditionsAd {
        * Name eines Parameters der Prozedur "&#64;ProcedureName", dessen Wert beim Aufruf die Bedingung "Condition" erfüllen muß, damit die Rückgabemenge wie zu "SortConditionID" hinterlegt (s. "do_GetSortOrderForResultSet_Ad") sortiert wird
        * </pre>
        *
-       * <code>optional .dstore.values.StringValue parameter_name = 10004;</code>
+       * <code>.dstore.values.StringValue parameter_name = 10004;</code>
        */
       public io.dstore.values.StringValue getParameterName() {
         return parameterName_ == null ? io.dstore.values.StringValue.getDefaultInstance() : parameterName_;
@@ -1715,7 +1715,7 @@ public final class DoGetProcResSortConditionsAd {
        * Name eines Parameters der Prozedur "&#64;ProcedureName", dessen Wert beim Aufruf die Bedingung "Condition" erfüllen muß, damit die Rückgabemenge wie zu "SortConditionID" hinterlegt (s. "do_GetSortOrderForResultSet_Ad") sortiert wird
        * </pre>
        *
-       * <code>optional .dstore.values.StringValue parameter_name = 10004;</code>
+       * <code>.dstore.values.StringValue parameter_name = 10004;</code>
        */
       public io.dstore.values.StringValueOrBuilder getParameterNameOrBuilder() {
         return getParameterName();
@@ -1822,7 +1822,7 @@ public final class DoGetProcResSortConditionsAd {
           return memoizedHashCode;
         }
         int hash = 41;
-        hash = (19 * hash) + getDescriptorForType().hashCode();
+        hash = (19 * hash) + getDescriptor().hashCode();
         hash = (37 * hash) + ROW_ID_FIELD_NUMBER;
         hash = (53 * hash) + getRowId();
         if (hasConditionDescription()) {
@@ -2112,13 +2112,13 @@ public final class DoGetProcResSortConditionsAd {
 
         private int rowId_ ;
         /**
-         * <code>optional int32 row_id = 10000;</code>
+         * <code>int32 row_id = 10000;</code>
          */
         public int getRowId() {
           return rowId_;
         }
         /**
-         * <code>optional int32 row_id = 10000;</code>
+         * <code>int32 row_id = 10000;</code>
          */
         public Builder setRowId(int value) {
           
@@ -2127,7 +2127,7 @@ public final class DoGetProcResSortConditionsAd {
           return this;
         }
         /**
-         * <code>optional int32 row_id = 10000;</code>
+         * <code>int32 row_id = 10000;</code>
          */
         public Builder clearRowId() {
           
@@ -2144,7 +2144,7 @@ public final class DoGetProcResSortConditionsAd {
          * Bezeichnung der Sortierungs-Bedingung "SortConditionID"
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue condition_description = 10001;</code>
+         * <code>.dstore.values.StringValue condition_description = 10001;</code>
          */
         public boolean hasConditionDescription() {
           return conditionDescriptionBuilder_ != null || conditionDescription_ != null;
@@ -2154,7 +2154,7 @@ public final class DoGetProcResSortConditionsAd {
          * Bezeichnung der Sortierungs-Bedingung "SortConditionID"
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue condition_description = 10001;</code>
+         * <code>.dstore.values.StringValue condition_description = 10001;</code>
          */
         public io.dstore.values.StringValue getConditionDescription() {
           if (conditionDescriptionBuilder_ == null) {
@@ -2168,7 +2168,7 @@ public final class DoGetProcResSortConditionsAd {
          * Bezeichnung der Sortierungs-Bedingung "SortConditionID"
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue condition_description = 10001;</code>
+         * <code>.dstore.values.StringValue condition_description = 10001;</code>
          */
         public Builder setConditionDescription(io.dstore.values.StringValue value) {
           if (conditionDescriptionBuilder_ == null) {
@@ -2188,7 +2188,7 @@ public final class DoGetProcResSortConditionsAd {
          * Bezeichnung der Sortierungs-Bedingung "SortConditionID"
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue condition_description = 10001;</code>
+         * <code>.dstore.values.StringValue condition_description = 10001;</code>
          */
         public Builder setConditionDescription(
             io.dstore.values.StringValue.Builder builderForValue) {
@@ -2206,7 +2206,7 @@ public final class DoGetProcResSortConditionsAd {
          * Bezeichnung der Sortierungs-Bedingung "SortConditionID"
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue condition_description = 10001;</code>
+         * <code>.dstore.values.StringValue condition_description = 10001;</code>
          */
         public Builder mergeConditionDescription(io.dstore.values.StringValue value) {
           if (conditionDescriptionBuilder_ == null) {
@@ -2228,7 +2228,7 @@ public final class DoGetProcResSortConditionsAd {
          * Bezeichnung der Sortierungs-Bedingung "SortConditionID"
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue condition_description = 10001;</code>
+         * <code>.dstore.values.StringValue condition_description = 10001;</code>
          */
         public Builder clearConditionDescription() {
           if (conditionDescriptionBuilder_ == null) {
@@ -2246,7 +2246,7 @@ public final class DoGetProcResSortConditionsAd {
          * Bezeichnung der Sortierungs-Bedingung "SortConditionID"
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue condition_description = 10001;</code>
+         * <code>.dstore.values.StringValue condition_description = 10001;</code>
          */
         public io.dstore.values.StringValue.Builder getConditionDescriptionBuilder() {
           
@@ -2258,7 +2258,7 @@ public final class DoGetProcResSortConditionsAd {
          * Bezeichnung der Sortierungs-Bedingung "SortConditionID"
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue condition_description = 10001;</code>
+         * <code>.dstore.values.StringValue condition_description = 10001;</code>
          */
         public io.dstore.values.StringValueOrBuilder getConditionDescriptionOrBuilder() {
           if (conditionDescriptionBuilder_ != null) {
@@ -2273,7 +2273,7 @@ public final class DoGetProcResSortConditionsAd {
          * Bezeichnung der Sortierungs-Bedingung "SortConditionID"
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue condition_description = 10001;</code>
+         * <code>.dstore.values.StringValue condition_description = 10001;</code>
          */
         private com.google.protobuf.SingleFieldBuilderV3<
             io.dstore.values.StringValue, io.dstore.values.StringValue.Builder, io.dstore.values.StringValueOrBuilder> 
@@ -2297,7 +2297,7 @@ public final class DoGetProcResSortConditionsAd {
          * Bedingung, die der Wert des Parameters "ParameterName" beim Aufruf der Prozedur erfüllen muß, damit die Rückgabemenge wie zu "SortConditionID" hinterlegt (s. "do_GetSortOrderForResultSet_Ad") sortiert wird
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue condition = 10002;</code>
+         * <code>.dstore.values.StringValue condition = 10002;</code>
          */
         public boolean hasCondition() {
           return conditionBuilder_ != null || condition_ != null;
@@ -2307,7 +2307,7 @@ public final class DoGetProcResSortConditionsAd {
          * Bedingung, die der Wert des Parameters "ParameterName" beim Aufruf der Prozedur erfüllen muß, damit die Rückgabemenge wie zu "SortConditionID" hinterlegt (s. "do_GetSortOrderForResultSet_Ad") sortiert wird
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue condition = 10002;</code>
+         * <code>.dstore.values.StringValue condition = 10002;</code>
          */
         public io.dstore.values.StringValue getCondition() {
           if (conditionBuilder_ == null) {
@@ -2321,7 +2321,7 @@ public final class DoGetProcResSortConditionsAd {
          * Bedingung, die der Wert des Parameters "ParameterName" beim Aufruf der Prozedur erfüllen muß, damit die Rückgabemenge wie zu "SortConditionID" hinterlegt (s. "do_GetSortOrderForResultSet_Ad") sortiert wird
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue condition = 10002;</code>
+         * <code>.dstore.values.StringValue condition = 10002;</code>
          */
         public Builder setCondition(io.dstore.values.StringValue value) {
           if (conditionBuilder_ == null) {
@@ -2341,7 +2341,7 @@ public final class DoGetProcResSortConditionsAd {
          * Bedingung, die der Wert des Parameters "ParameterName" beim Aufruf der Prozedur erfüllen muß, damit die Rückgabemenge wie zu "SortConditionID" hinterlegt (s. "do_GetSortOrderForResultSet_Ad") sortiert wird
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue condition = 10002;</code>
+         * <code>.dstore.values.StringValue condition = 10002;</code>
          */
         public Builder setCondition(
             io.dstore.values.StringValue.Builder builderForValue) {
@@ -2359,7 +2359,7 @@ public final class DoGetProcResSortConditionsAd {
          * Bedingung, die der Wert des Parameters "ParameterName" beim Aufruf der Prozedur erfüllen muß, damit die Rückgabemenge wie zu "SortConditionID" hinterlegt (s. "do_GetSortOrderForResultSet_Ad") sortiert wird
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue condition = 10002;</code>
+         * <code>.dstore.values.StringValue condition = 10002;</code>
          */
         public Builder mergeCondition(io.dstore.values.StringValue value) {
           if (conditionBuilder_ == null) {
@@ -2381,7 +2381,7 @@ public final class DoGetProcResSortConditionsAd {
          * Bedingung, die der Wert des Parameters "ParameterName" beim Aufruf der Prozedur erfüllen muß, damit die Rückgabemenge wie zu "SortConditionID" hinterlegt (s. "do_GetSortOrderForResultSet_Ad") sortiert wird
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue condition = 10002;</code>
+         * <code>.dstore.values.StringValue condition = 10002;</code>
          */
         public Builder clearCondition() {
           if (conditionBuilder_ == null) {
@@ -2399,7 +2399,7 @@ public final class DoGetProcResSortConditionsAd {
          * Bedingung, die der Wert des Parameters "ParameterName" beim Aufruf der Prozedur erfüllen muß, damit die Rückgabemenge wie zu "SortConditionID" hinterlegt (s. "do_GetSortOrderForResultSet_Ad") sortiert wird
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue condition = 10002;</code>
+         * <code>.dstore.values.StringValue condition = 10002;</code>
          */
         public io.dstore.values.StringValue.Builder getConditionBuilder() {
           
@@ -2411,7 +2411,7 @@ public final class DoGetProcResSortConditionsAd {
          * Bedingung, die der Wert des Parameters "ParameterName" beim Aufruf der Prozedur erfüllen muß, damit die Rückgabemenge wie zu "SortConditionID" hinterlegt (s. "do_GetSortOrderForResultSet_Ad") sortiert wird
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue condition = 10002;</code>
+         * <code>.dstore.values.StringValue condition = 10002;</code>
          */
         public io.dstore.values.StringValueOrBuilder getConditionOrBuilder() {
           if (conditionBuilder_ != null) {
@@ -2426,7 +2426,7 @@ public final class DoGetProcResSortConditionsAd {
          * Bedingung, die der Wert des Parameters "ParameterName" beim Aufruf der Prozedur erfüllen muß, damit die Rückgabemenge wie zu "SortConditionID" hinterlegt (s. "do_GetSortOrderForResultSet_Ad") sortiert wird
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue condition = 10002;</code>
+         * <code>.dstore.values.StringValue condition = 10002;</code>
          */
         private com.google.protobuf.SingleFieldBuilderV3<
             io.dstore.values.StringValue, io.dstore.values.StringValue.Builder, io.dstore.values.StringValueOrBuilder> 
@@ -2450,7 +2450,7 @@ public final class DoGetProcResSortConditionsAd {
          * ID einer Sortierungs-Bedingung für die (durch "&#64;ProcedureName" und "&#64;ProcedureResultConditionID" referenzierte) Rückgabemenge. Falls angegeben, natürlich identisch mit "&#64;SortConditionID".
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue sort_condition_id = 10003;</code>
+         * <code>.dstore.values.IntegerValue sort_condition_id = 10003;</code>
          */
         public boolean hasSortConditionId() {
           return sortConditionIdBuilder_ != null || sortConditionId_ != null;
@@ -2460,7 +2460,7 @@ public final class DoGetProcResSortConditionsAd {
          * ID einer Sortierungs-Bedingung für die (durch "&#64;ProcedureName" und "&#64;ProcedureResultConditionID" referenzierte) Rückgabemenge. Falls angegeben, natürlich identisch mit "&#64;SortConditionID".
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue sort_condition_id = 10003;</code>
+         * <code>.dstore.values.IntegerValue sort_condition_id = 10003;</code>
          */
         public io.dstore.values.IntegerValue getSortConditionId() {
           if (sortConditionIdBuilder_ == null) {
@@ -2474,7 +2474,7 @@ public final class DoGetProcResSortConditionsAd {
          * ID einer Sortierungs-Bedingung für die (durch "&#64;ProcedureName" und "&#64;ProcedureResultConditionID" referenzierte) Rückgabemenge. Falls angegeben, natürlich identisch mit "&#64;SortConditionID".
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue sort_condition_id = 10003;</code>
+         * <code>.dstore.values.IntegerValue sort_condition_id = 10003;</code>
          */
         public Builder setSortConditionId(io.dstore.values.IntegerValue value) {
           if (sortConditionIdBuilder_ == null) {
@@ -2494,7 +2494,7 @@ public final class DoGetProcResSortConditionsAd {
          * ID einer Sortierungs-Bedingung für die (durch "&#64;ProcedureName" und "&#64;ProcedureResultConditionID" referenzierte) Rückgabemenge. Falls angegeben, natürlich identisch mit "&#64;SortConditionID".
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue sort_condition_id = 10003;</code>
+         * <code>.dstore.values.IntegerValue sort_condition_id = 10003;</code>
          */
         public Builder setSortConditionId(
             io.dstore.values.IntegerValue.Builder builderForValue) {
@@ -2512,7 +2512,7 @@ public final class DoGetProcResSortConditionsAd {
          * ID einer Sortierungs-Bedingung für die (durch "&#64;ProcedureName" und "&#64;ProcedureResultConditionID" referenzierte) Rückgabemenge. Falls angegeben, natürlich identisch mit "&#64;SortConditionID".
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue sort_condition_id = 10003;</code>
+         * <code>.dstore.values.IntegerValue sort_condition_id = 10003;</code>
          */
         public Builder mergeSortConditionId(io.dstore.values.IntegerValue value) {
           if (sortConditionIdBuilder_ == null) {
@@ -2534,7 +2534,7 @@ public final class DoGetProcResSortConditionsAd {
          * ID einer Sortierungs-Bedingung für die (durch "&#64;ProcedureName" und "&#64;ProcedureResultConditionID" referenzierte) Rückgabemenge. Falls angegeben, natürlich identisch mit "&#64;SortConditionID".
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue sort_condition_id = 10003;</code>
+         * <code>.dstore.values.IntegerValue sort_condition_id = 10003;</code>
          */
         public Builder clearSortConditionId() {
           if (sortConditionIdBuilder_ == null) {
@@ -2552,7 +2552,7 @@ public final class DoGetProcResSortConditionsAd {
          * ID einer Sortierungs-Bedingung für die (durch "&#64;ProcedureName" und "&#64;ProcedureResultConditionID" referenzierte) Rückgabemenge. Falls angegeben, natürlich identisch mit "&#64;SortConditionID".
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue sort_condition_id = 10003;</code>
+         * <code>.dstore.values.IntegerValue sort_condition_id = 10003;</code>
          */
         public io.dstore.values.IntegerValue.Builder getSortConditionIdBuilder() {
           
@@ -2564,7 +2564,7 @@ public final class DoGetProcResSortConditionsAd {
          * ID einer Sortierungs-Bedingung für die (durch "&#64;ProcedureName" und "&#64;ProcedureResultConditionID" referenzierte) Rückgabemenge. Falls angegeben, natürlich identisch mit "&#64;SortConditionID".
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue sort_condition_id = 10003;</code>
+         * <code>.dstore.values.IntegerValue sort_condition_id = 10003;</code>
          */
         public io.dstore.values.IntegerValueOrBuilder getSortConditionIdOrBuilder() {
           if (sortConditionIdBuilder_ != null) {
@@ -2579,7 +2579,7 @@ public final class DoGetProcResSortConditionsAd {
          * ID einer Sortierungs-Bedingung für die (durch "&#64;ProcedureName" und "&#64;ProcedureResultConditionID" referenzierte) Rückgabemenge. Falls angegeben, natürlich identisch mit "&#64;SortConditionID".
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue sort_condition_id = 10003;</code>
+         * <code>.dstore.values.IntegerValue sort_condition_id = 10003;</code>
          */
         private com.google.protobuf.SingleFieldBuilderV3<
             io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> 
@@ -2603,7 +2603,7 @@ public final class DoGetProcResSortConditionsAd {
          * Name eines Parameters der Prozedur "&#64;ProcedureName", dessen Wert beim Aufruf die Bedingung "Condition" erfüllen muß, damit die Rückgabemenge wie zu "SortConditionID" hinterlegt (s. "do_GetSortOrderForResultSet_Ad") sortiert wird
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue parameter_name = 10004;</code>
+         * <code>.dstore.values.StringValue parameter_name = 10004;</code>
          */
         public boolean hasParameterName() {
           return parameterNameBuilder_ != null || parameterName_ != null;
@@ -2613,7 +2613,7 @@ public final class DoGetProcResSortConditionsAd {
          * Name eines Parameters der Prozedur "&#64;ProcedureName", dessen Wert beim Aufruf die Bedingung "Condition" erfüllen muß, damit die Rückgabemenge wie zu "SortConditionID" hinterlegt (s. "do_GetSortOrderForResultSet_Ad") sortiert wird
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue parameter_name = 10004;</code>
+         * <code>.dstore.values.StringValue parameter_name = 10004;</code>
          */
         public io.dstore.values.StringValue getParameterName() {
           if (parameterNameBuilder_ == null) {
@@ -2627,7 +2627,7 @@ public final class DoGetProcResSortConditionsAd {
          * Name eines Parameters der Prozedur "&#64;ProcedureName", dessen Wert beim Aufruf die Bedingung "Condition" erfüllen muß, damit die Rückgabemenge wie zu "SortConditionID" hinterlegt (s. "do_GetSortOrderForResultSet_Ad") sortiert wird
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue parameter_name = 10004;</code>
+         * <code>.dstore.values.StringValue parameter_name = 10004;</code>
          */
         public Builder setParameterName(io.dstore.values.StringValue value) {
           if (parameterNameBuilder_ == null) {
@@ -2647,7 +2647,7 @@ public final class DoGetProcResSortConditionsAd {
          * Name eines Parameters der Prozedur "&#64;ProcedureName", dessen Wert beim Aufruf die Bedingung "Condition" erfüllen muß, damit die Rückgabemenge wie zu "SortConditionID" hinterlegt (s. "do_GetSortOrderForResultSet_Ad") sortiert wird
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue parameter_name = 10004;</code>
+         * <code>.dstore.values.StringValue parameter_name = 10004;</code>
          */
         public Builder setParameterName(
             io.dstore.values.StringValue.Builder builderForValue) {
@@ -2665,7 +2665,7 @@ public final class DoGetProcResSortConditionsAd {
          * Name eines Parameters der Prozedur "&#64;ProcedureName", dessen Wert beim Aufruf die Bedingung "Condition" erfüllen muß, damit die Rückgabemenge wie zu "SortConditionID" hinterlegt (s. "do_GetSortOrderForResultSet_Ad") sortiert wird
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue parameter_name = 10004;</code>
+         * <code>.dstore.values.StringValue parameter_name = 10004;</code>
          */
         public Builder mergeParameterName(io.dstore.values.StringValue value) {
           if (parameterNameBuilder_ == null) {
@@ -2687,7 +2687,7 @@ public final class DoGetProcResSortConditionsAd {
          * Name eines Parameters der Prozedur "&#64;ProcedureName", dessen Wert beim Aufruf die Bedingung "Condition" erfüllen muß, damit die Rückgabemenge wie zu "SortConditionID" hinterlegt (s. "do_GetSortOrderForResultSet_Ad") sortiert wird
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue parameter_name = 10004;</code>
+         * <code>.dstore.values.StringValue parameter_name = 10004;</code>
          */
         public Builder clearParameterName() {
           if (parameterNameBuilder_ == null) {
@@ -2705,7 +2705,7 @@ public final class DoGetProcResSortConditionsAd {
          * Name eines Parameters der Prozedur "&#64;ProcedureName", dessen Wert beim Aufruf die Bedingung "Condition" erfüllen muß, damit die Rückgabemenge wie zu "SortConditionID" hinterlegt (s. "do_GetSortOrderForResultSet_Ad") sortiert wird
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue parameter_name = 10004;</code>
+         * <code>.dstore.values.StringValue parameter_name = 10004;</code>
          */
         public io.dstore.values.StringValue.Builder getParameterNameBuilder() {
           
@@ -2717,7 +2717,7 @@ public final class DoGetProcResSortConditionsAd {
          * Name eines Parameters der Prozedur "&#64;ProcedureName", dessen Wert beim Aufruf die Bedingung "Condition" erfüllen muß, damit die Rückgabemenge wie zu "SortConditionID" hinterlegt (s. "do_GetSortOrderForResultSet_Ad") sortiert wird
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue parameter_name = 10004;</code>
+         * <code>.dstore.values.StringValue parameter_name = 10004;</code>
          */
         public io.dstore.values.StringValueOrBuilder getParameterNameOrBuilder() {
           if (parameterNameBuilder_ != null) {
@@ -2732,7 +2732,7 @@ public final class DoGetProcResSortConditionsAd {
          * Name eines Parameters der Prozedur "&#64;ProcedureName", dessen Wert beim Aufruf die Bedingung "Condition" erfüllen muß, damit die Rückgabemenge wie zu "SortConditionID" hinterlegt (s. "do_GetSortOrderForResultSet_Ad") sortiert wird
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue parameter_name = 10004;</code>
+         * <code>.dstore.values.StringValue parameter_name = 10004;</code>
          */
         private com.google.protobuf.SingleFieldBuilderV3<
             io.dstore.values.StringValue, io.dstore.values.StringValue.Builder, io.dstore.values.StringValueOrBuilder> 
@@ -2992,7 +2992,7 @@ public final class DoGetProcResSortConditionsAd {
         return memoizedHashCode;
       }
       int hash = 41;
-      hash = (19 * hash) + getDescriptorForType().hashCode();
+      hash = (19 * hash) + getDescriptor().hashCode();
       if (getMetaInformationCount() > 0) {
         hash = (37 * hash) + META_INFORMATION_FIELD_NUMBER;
         hash = (53 * hash) + getMetaInformationList().hashCode();

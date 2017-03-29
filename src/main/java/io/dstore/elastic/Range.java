@@ -82,7 +82,7 @@ public  final class Range extends
   public static final int FROM_FIELD_NUMBER = 1;
   private volatile java.lang.Object from_;
   /**
-   * <code>optional string from = 1;</code>
+   * <code>string from = 1;</code>
    */
   public java.lang.String getFrom() {
     java.lang.Object ref = from_;
@@ -97,7 +97,7 @@ public  final class Range extends
     }
   }
   /**
-   * <code>optional string from = 1;</code>
+   * <code>string from = 1;</code>
    */
   public com.google.protobuf.ByteString
       getFromBytes() {
@@ -116,7 +116,7 @@ public  final class Range extends
   public static final int TO_FIELD_NUMBER = 2;
   private volatile java.lang.Object to_;
   /**
-   * <code>optional string to = 2;</code>
+   * <code>string to = 2;</code>
    */
   public java.lang.String getTo() {
     java.lang.Object ref = to_;
@@ -131,7 +131,7 @@ public  final class Range extends
     }
   }
   /**
-   * <code>optional string to = 2;</code>
+   * <code>string to = 2;</code>
    */
   public com.google.protobuf.ByteString
       getToBytes() {
@@ -207,7 +207,7 @@ public  final class Range extends
       return memoizedHashCode;
     }
     int hash = 41;
-    hash = (19 * hash) + getDescriptorForType().hashCode();
+    hash = (19 * hash) + getDescriptor().hashCode();
     hash = (37 * hash) + FROM_FIELD_NUMBER;
     hash = (53 * hash) + getFrom().hashCode();
     hash = (37 * hash) + TO_FIELD_NUMBER;
@@ -435,7 +435,7 @@ public  final class Range extends
 
     private java.lang.Object from_ = "";
     /**
-     * <code>optional string from = 1;</code>
+     * <code>string from = 1;</code>
      */
     public java.lang.String getFrom() {
       java.lang.Object ref = from_;
@@ -450,7 +450,7 @@ public  final class Range extends
       }
     }
     /**
-     * <code>optional string from = 1;</code>
+     * <code>string from = 1;</code>
      */
     public com.google.protobuf.ByteString
         getFromBytes() {
@@ -466,7 +466,7 @@ public  final class Range extends
       }
     }
     /**
-     * <code>optional string from = 1;</code>
+     * <code>string from = 1;</code>
      */
     public Builder setFrom(
         java.lang.String value) {
@@ -479,7 +479,7 @@ public  final class Range extends
       return this;
     }
     /**
-     * <code>optional string from = 1;</code>
+     * <code>string from = 1;</code>
      */
     public Builder clearFrom() {
       
@@ -488,7 +488,7 @@ public  final class Range extends
       return this;
     }
     /**
-     * <code>optional string from = 1;</code>
+     * <code>string from = 1;</code>
      */
     public Builder setFromBytes(
         com.google.protobuf.ByteString value) {
@@ -504,7 +504,7 @@ public  final class Range extends
 
     private java.lang.Object to_ = "";
     /**
-     * <code>optional string to = 2;</code>
+     * <code>string to = 2;</code>
      */
     public java.lang.String getTo() {
       java.lang.Object ref = to_;
@@ -519,7 +519,7 @@ public  final class Range extends
       }
     }
     /**
-     * <code>optional string to = 2;</code>
+     * <code>string to = 2;</code>
      */
     public com.google.protobuf.ByteString
         getToBytes() {
@@ -535,7 +535,7 @@ public  final class Range extends
       }
     }
     /**
-     * <code>optional string to = 2;</code>
+     * <code>string to = 2;</code>
      */
     public Builder setTo(
         java.lang.String value) {
@@ -548,7 +548,7 @@ public  final class Range extends
       return this;
     }
     /**
-     * <code>optional string to = 2;</code>
+     * <code>string to = 2;</code>
      */
     public Builder clearTo() {
       
@@ -557,7 +557,7 @@ public  final class Range extends
       return this;
     }
     /**
-     * <code>optional string to = 2;</code>
+     * <code>string to = 2;</code>
      */
     public Builder setToBytes(
         com.google.protobuf.ByteString value) {

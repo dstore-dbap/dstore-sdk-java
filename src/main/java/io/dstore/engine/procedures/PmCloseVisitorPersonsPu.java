@@ -19,20 +19,20 @@ public final class PmCloseVisitorPersonsPu {
       com.google.protobuf.MessageOrBuilder {
 
     /**
-     * <code>optional .dstore.values.StringValue unique_id = 1;</code>
+     * <code>.dstore.values.StringValue unique_id = 1;</code>
      */
     boolean hasUniqueId();
     /**
-     * <code>optional .dstore.values.StringValue unique_id = 1;</code>
+     * <code>.dstore.values.StringValue unique_id = 1;</code>
      */
     io.dstore.values.StringValue getUniqueId();
     /**
-     * <code>optional .dstore.values.StringValue unique_id = 1;</code>
+     * <code>.dstore.values.StringValue unique_id = 1;</code>
      */
     io.dstore.values.StringValueOrBuilder getUniqueIdOrBuilder();
 
     /**
-     * <code>optional bool unique_id_null = 1001;</code>
+     * <code>bool unique_id_null = 1001;</code>
      */
     boolean getUniqueIdNull();
   }
@@ -120,19 +120,19 @@ public final class PmCloseVisitorPersonsPu {
     public static final int UNIQUE_ID_FIELD_NUMBER = 1;
     private io.dstore.values.StringValue uniqueId_;
     /**
-     * <code>optional .dstore.values.StringValue unique_id = 1;</code>
+     * <code>.dstore.values.StringValue unique_id = 1;</code>
      */
     public boolean hasUniqueId() {
       return uniqueId_ != null;
     }
     /**
-     * <code>optional .dstore.values.StringValue unique_id = 1;</code>
+     * <code>.dstore.values.StringValue unique_id = 1;</code>
      */
     public io.dstore.values.StringValue getUniqueId() {
       return uniqueId_ == null ? io.dstore.values.StringValue.getDefaultInstance() : uniqueId_;
     }
     /**
-     * <code>optional .dstore.values.StringValue unique_id = 1;</code>
+     * <code>.dstore.values.StringValue unique_id = 1;</code>
      */
     public io.dstore.values.StringValueOrBuilder getUniqueIdOrBuilder() {
       return getUniqueId();
@@ -141,7 +141,7 @@ public final class PmCloseVisitorPersonsPu {
     public static final int UNIQUE_ID_NULL_FIELD_NUMBER = 1001;
     private boolean uniqueIdNull_;
     /**
-     * <code>optional bool unique_id_null = 1001;</code>
+     * <code>bool unique_id_null = 1001;</code>
      */
     public boolean getUniqueIdNull() {
       return uniqueIdNull_;
@@ -212,7 +212,7 @@ public final class PmCloseVisitorPersonsPu {
         return memoizedHashCode;
       }
       int hash = 41;
-      hash = (19 * hash) + getDescriptorForType().hashCode();
+      hash = (19 * hash) + getDescriptor().hashCode();
       if (hasUniqueId()) {
         hash = (37 * hash) + UNIQUE_ID_FIELD_NUMBER;
         hash = (53 * hash) + getUniqueId().hashCode();
@@ -451,13 +451,13 @@ public final class PmCloseVisitorPersonsPu {
       private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.values.StringValue, io.dstore.values.StringValue.Builder, io.dstore.values.StringValueOrBuilder> uniqueIdBuilder_;
       /**
-       * <code>optional .dstore.values.StringValue unique_id = 1;</code>
+       * <code>.dstore.values.StringValue unique_id = 1;</code>
        */
       public boolean hasUniqueId() {
         return uniqueIdBuilder_ != null || uniqueId_ != null;
       }
       /**
-       * <code>optional .dstore.values.StringValue unique_id = 1;</code>
+       * <code>.dstore.values.StringValue unique_id = 1;</code>
        */
       public io.dstore.values.StringValue getUniqueId() {
         if (uniqueIdBuilder_ == null) {
@@ -467,7 +467,7 @@ public final class PmCloseVisitorPersonsPu {
         }
       }
       /**
-       * <code>optional .dstore.values.StringValue unique_id = 1;</code>
+       * <code>.dstore.values.StringValue unique_id = 1;</code>
        */
       public Builder setUniqueId(io.dstore.values.StringValue value) {
         if (uniqueIdBuilder_ == null) {
@@ -483,7 +483,7 @@ public final class PmCloseVisitorPersonsPu {
         return this;
       }
       /**
-       * <code>optional .dstore.values.StringValue unique_id = 1;</code>
+       * <code>.dstore.values.StringValue unique_id = 1;</code>
        */
       public Builder setUniqueId(
           io.dstore.values.StringValue.Builder builderForValue) {
@@ -497,7 +497,7 @@ public final class PmCloseVisitorPersonsPu {
         return this;
       }
       /**
-       * <code>optional .dstore.values.StringValue unique_id = 1;</code>
+       * <code>.dstore.values.StringValue unique_id = 1;</code>
        */
       public Builder mergeUniqueId(io.dstore.values.StringValue value) {
         if (uniqueIdBuilder_ == null) {
@@ -515,7 +515,7 @@ public final class PmCloseVisitorPersonsPu {
         return this;
       }
       /**
-       * <code>optional .dstore.values.StringValue unique_id = 1;</code>
+       * <code>.dstore.values.StringValue unique_id = 1;</code>
        */
       public Builder clearUniqueId() {
         if (uniqueIdBuilder_ == null) {
@@ -529,7 +529,7 @@ public final class PmCloseVisitorPersonsPu {
         return this;
       }
       /**
-       * <code>optional .dstore.values.StringValue unique_id = 1;</code>
+       * <code>.dstore.values.StringValue unique_id = 1;</code>
        */
       public io.dstore.values.StringValue.Builder getUniqueIdBuilder() {
         
@@ -537,7 +537,7 @@ public final class PmCloseVisitorPersonsPu {
         return getUniqueIdFieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .dstore.values.StringValue unique_id = 1;</code>
+       * <code>.dstore.values.StringValue unique_id = 1;</code>
        */
       public io.dstore.values.StringValueOrBuilder getUniqueIdOrBuilder() {
         if (uniqueIdBuilder_ != null) {
@@ -548,7 +548,7 @@ public final class PmCloseVisitorPersonsPu {
         }
       }
       /**
-       * <code>optional .dstore.values.StringValue unique_id = 1;</code>
+       * <code>.dstore.values.StringValue unique_id = 1;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.values.StringValue, io.dstore.values.StringValue.Builder, io.dstore.values.StringValueOrBuilder> 
@@ -566,13 +566,13 @@ public final class PmCloseVisitorPersonsPu {
 
       private boolean uniqueIdNull_ ;
       /**
-       * <code>optional bool unique_id_null = 1001;</code>
+       * <code>bool unique_id_null = 1001;</code>
        */
       public boolean getUniqueIdNull() {
         return uniqueIdNull_;
       }
       /**
-       * <code>optional bool unique_id_null = 1001;</code>
+       * <code>bool unique_id_null = 1001;</code>
        */
       public Builder setUniqueIdNull(boolean value) {
         
@@ -581,7 +581,7 @@ public final class PmCloseVisitorPersonsPu {
         return this;
       }
       /**
-       * <code>optional bool unique_id_null = 1001;</code>
+       * <code>bool unique_id_null = 1001;</code>
        */
       public Builder clearUniqueIdNull() {
         
@@ -840,7 +840,7 @@ public final class PmCloseVisitorPersonsPu {
         com.google.protobuf.MessageOrBuilder {
 
       /**
-       * <code>optional int32 row_id = 10000;</code>
+       * <code>int32 row_id = 10000;</code>
        */
       int getRowId();
     }
@@ -915,7 +915,7 @@ public final class PmCloseVisitorPersonsPu {
       public static final int ROW_ID_FIELD_NUMBER = 10000;
       private int rowId_;
       /**
-       * <code>optional int32 row_id = 10000;</code>
+       * <code>int32 row_id = 10000;</code>
        */
       public int getRowId() {
         return rowId_;
@@ -974,7 +974,7 @@ public final class PmCloseVisitorPersonsPu {
           return memoizedHashCode;
         }
         int hash = 41;
-        hash = (19 * hash) + getDescriptorForType().hashCode();
+        hash = (19 * hash) + getDescriptor().hashCode();
         hash = (37 * hash) + ROW_ID_FIELD_NUMBER;
         hash = (53 * hash) + getRowId();
         hash = (29 * hash) + unknownFields.hashCode();
@@ -1192,13 +1192,13 @@ public final class PmCloseVisitorPersonsPu {
 
         private int rowId_ ;
         /**
-         * <code>optional int32 row_id = 10000;</code>
+         * <code>int32 row_id = 10000;</code>
          */
         public int getRowId() {
           return rowId_;
         }
         /**
-         * <code>optional int32 row_id = 10000;</code>
+         * <code>int32 row_id = 10000;</code>
          */
         public Builder setRowId(int value) {
           
@@ -1207,7 +1207,7 @@ public final class PmCloseVisitorPersonsPu {
           return this;
         }
         /**
-         * <code>optional int32 row_id = 10000;</code>
+         * <code>int32 row_id = 10000;</code>
          */
         public Builder clearRowId() {
           
@@ -1460,7 +1460,7 @@ public final class PmCloseVisitorPersonsPu {
         return memoizedHashCode;
       }
       int hash = 41;
-      hash = (19 * hash) + getDescriptorForType().hashCode();
+      hash = (19 * hash) + getDescriptor().hashCode();
       if (getMetaInformationCount() > 0) {
         hash = (37 * hash) + META_INFORMATION_FIELD_NUMBER;
         hash = (53 * hash) + getMetaInformationList().hashCode();

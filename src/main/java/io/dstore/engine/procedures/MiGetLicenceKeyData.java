@@ -123,7 +123,7 @@ public final class MiGetLicenceKeyData {
         return memoizedHashCode;
       }
       int hash = 41;
-      hash = (19 * hash) + getDescriptorForType().hashCode();
+      hash = (19 * hash) + getDescriptor().hashCode();
       hash = (29 * hash) + unknownFields.hashCode();
       memoizedHashCode = hash;
       return hash;
@@ -581,7 +581,7 @@ public final class MiGetLicenceKeyData {
         com.google.protobuf.MessageOrBuilder {
 
       /**
-       * <code>optional int32 row_id = 10000;</code>
+       * <code>int32 row_id = 10000;</code>
        */
       int getRowId();
 
@@ -590,7 +590,7 @@ public final class MiGetLicenceKeyData {
        * Hinweise zum "LicenceParameter". Derzeit nur gefüllt, wenn der Benutzer (der diese Prozedur aufruft) nicht über genügend Rechte verfügt, den Wert zum "LicenceParameter" einsehen zu dürfen (hier steht dann, welche Rechte fehlen).
        * </pre>
        *
-       * <code>optional .dstore.values.StringValue comment = 10001;</code>
+       * <code>.dstore.values.StringValue comment = 10001;</code>
        */
       boolean hasComment();
       /**
@@ -598,7 +598,7 @@ public final class MiGetLicenceKeyData {
        * Hinweise zum "LicenceParameter". Derzeit nur gefüllt, wenn der Benutzer (der diese Prozedur aufruft) nicht über genügend Rechte verfügt, den Wert zum "LicenceParameter" einsehen zu dürfen (hier steht dann, welche Rechte fehlen).
        * </pre>
        *
-       * <code>optional .dstore.values.StringValue comment = 10001;</code>
+       * <code>.dstore.values.StringValue comment = 10001;</code>
        */
       io.dstore.values.StringValue getComment();
       /**
@@ -606,7 +606,7 @@ public final class MiGetLicenceKeyData {
        * Hinweise zum "LicenceParameter". Derzeit nur gefüllt, wenn der Benutzer (der diese Prozedur aufruft) nicht über genügend Rechte verfügt, den Wert zum "LicenceParameter" einsehen zu dürfen (hier steht dann, welche Rechte fehlen).
        * </pre>
        *
-       * <code>optional .dstore.values.StringValue comment = 10001;</code>
+       * <code>.dstore.values.StringValue comment = 10001;</code>
        */
       io.dstore.values.StringValueOrBuilder getCommentOrBuilder();
 
@@ -615,7 +615,7 @@ public final class MiGetLicenceKeyData {
        * Falls die der ermittelten Kennzahl zugrunde liegenden Daten auf eine bestimmte Zeit-Periode eingeschränkt wurden, steht hier eine ensprechende Angabe der Art "last 30 days" oder "period 03/01/2009 - 03/31/2009" - sonst "NULL"
        * </pre>
        *
-       * <code>optional .dstore.values.StringValue underlying_time_period = 10002;</code>
+       * <code>.dstore.values.StringValue underlying_time_period = 10002;</code>
        */
       boolean hasUnderlyingTimePeriod();
       /**
@@ -623,7 +623,7 @@ public final class MiGetLicenceKeyData {
        * Falls die der ermittelten Kennzahl zugrunde liegenden Daten auf eine bestimmte Zeit-Periode eingeschränkt wurden, steht hier eine ensprechende Angabe der Art "last 30 days" oder "period 03/01/2009 - 03/31/2009" - sonst "NULL"
        * </pre>
        *
-       * <code>optional .dstore.values.StringValue underlying_time_period = 10002;</code>
+       * <code>.dstore.values.StringValue underlying_time_period = 10002;</code>
        */
       io.dstore.values.StringValue getUnderlyingTimePeriod();
       /**
@@ -631,7 +631,7 @@ public final class MiGetLicenceKeyData {
        * Falls die der ermittelten Kennzahl zugrunde liegenden Daten auf eine bestimmte Zeit-Periode eingeschränkt wurden, steht hier eine ensprechende Angabe der Art "last 30 days" oder "period 03/01/2009 - 03/31/2009" - sonst "NULL"
        * </pre>
        *
-       * <code>optional .dstore.values.StringValue underlying_time_period = 10002;</code>
+       * <code>.dstore.values.StringValue underlying_time_period = 10002;</code>
        */
       io.dstore.values.StringValueOrBuilder getUnderlyingTimePeriodOrBuilder();
 
@@ -640,7 +640,7 @@ public final class MiGetLicenceKeyData {
        * Der aktuelle Wert für die Kennzahl "LicenceParameter". Ist "NULL", wenn der Benutzer (der diese Prozedur aufruft) nicht über genügend Rechte verfügt, den Wert einsehen zu dürfen. In "Comment" steht dann, welche Rechte fehlen.
        * </pre>
        *
-       * <code>optional .dstore.values.StringValue current_value = 10003;</code>
+       * <code>.dstore.values.StringValue current_value = 10003;</code>
        */
       boolean hasCurrentValue();
       /**
@@ -648,7 +648,7 @@ public final class MiGetLicenceKeyData {
        * Der aktuelle Wert für die Kennzahl "LicenceParameter". Ist "NULL", wenn der Benutzer (der diese Prozedur aufruft) nicht über genügend Rechte verfügt, den Wert einsehen zu dürfen. In "Comment" steht dann, welche Rechte fehlen.
        * </pre>
        *
-       * <code>optional .dstore.values.StringValue current_value = 10003;</code>
+       * <code>.dstore.values.StringValue current_value = 10003;</code>
        */
       io.dstore.values.StringValue getCurrentValue();
       /**
@@ -656,7 +656,7 @@ public final class MiGetLicenceKeyData {
        * Der aktuelle Wert für die Kennzahl "LicenceParameter". Ist "NULL", wenn der Benutzer (der diese Prozedur aufruft) nicht über genügend Rechte verfügt, den Wert einsehen zu dürfen. In "Comment" steht dann, welche Rechte fehlen.
        * </pre>
        *
-       * <code>optional .dstore.values.StringValue current_value = 10003;</code>
+       * <code>.dstore.values.StringValue current_value = 10003;</code>
        */
       io.dstore.values.StringValueOrBuilder getCurrentValueOrBuilder();
 
@@ -665,7 +665,7 @@ public final class MiGetLicenceKeyData {
        * Eine "Kennzahl" wie z.B. "NumberOfPersons" oder "NumberOfOrders"
        * </pre>
        *
-       * <code>optional .dstore.values.StringValue licence_parameter = 10004;</code>
+       * <code>.dstore.values.StringValue licence_parameter = 10004;</code>
        */
       boolean hasLicenceParameter();
       /**
@@ -673,7 +673,7 @@ public final class MiGetLicenceKeyData {
        * Eine "Kennzahl" wie z.B. "NumberOfPersons" oder "NumberOfOrders"
        * </pre>
        *
-       * <code>optional .dstore.values.StringValue licence_parameter = 10004;</code>
+       * <code>.dstore.values.StringValue licence_parameter = 10004;</code>
        */
       io.dstore.values.StringValue getLicenceParameter();
       /**
@@ -681,7 +681,7 @@ public final class MiGetLicenceKeyData {
        * Eine "Kennzahl" wie z.B. "NumberOfPersons" oder "NumberOfOrders"
        * </pre>
        *
-       * <code>optional .dstore.values.StringValue licence_parameter = 10004;</code>
+       * <code>.dstore.values.StringValue licence_parameter = 10004;</code>
        */
       io.dstore.values.StringValueOrBuilder getLicenceParameterOrBuilder();
 
@@ -690,7 +690,7 @@ public final class MiGetLicenceKeyData {
        * Der aktuelle Zeitpunkt (der Ausführung dieser Prozedur und damit der Ermittlung der Kennzahlen). Hinweis : Dient der leichteren Nachvollziehbarkeit falls die Kennzahlen irgendwo historisch aufgezeichnet werden sollen.
        * </pre>
        *
-       * <code>optional .dstore.values.TimestampValue current_date_and_time = 10005;</code>
+       * <code>.dstore.values.TimestampValue current_date_and_time = 10005;</code>
        */
       boolean hasCurrentDateAndTime();
       /**
@@ -698,7 +698,7 @@ public final class MiGetLicenceKeyData {
        * Der aktuelle Zeitpunkt (der Ausführung dieser Prozedur und damit der Ermittlung der Kennzahlen). Hinweis : Dient der leichteren Nachvollziehbarkeit falls die Kennzahlen irgendwo historisch aufgezeichnet werden sollen.
        * </pre>
        *
-       * <code>optional .dstore.values.TimestampValue current_date_and_time = 10005;</code>
+       * <code>.dstore.values.TimestampValue current_date_and_time = 10005;</code>
        */
       io.dstore.values.TimestampValue getCurrentDateAndTime();
       /**
@@ -706,7 +706,7 @@ public final class MiGetLicenceKeyData {
        * Der aktuelle Zeitpunkt (der Ausführung dieser Prozedur und damit der Ermittlung der Kennzahlen). Hinweis : Dient der leichteren Nachvollziehbarkeit falls die Kennzahlen irgendwo historisch aufgezeichnet werden sollen.
        * </pre>
        *
-       * <code>optional .dstore.values.TimestampValue current_date_and_time = 10005;</code>
+       * <code>.dstore.values.TimestampValue current_date_and_time = 10005;</code>
        */
       io.dstore.values.TimestampValueOrBuilder getCurrentDateAndTimeOrBuilder();
     }
@@ -846,7 +846,7 @@ public final class MiGetLicenceKeyData {
       public static final int ROW_ID_FIELD_NUMBER = 10000;
       private int rowId_;
       /**
-       * <code>optional int32 row_id = 10000;</code>
+       * <code>int32 row_id = 10000;</code>
        */
       public int getRowId() {
         return rowId_;
@@ -859,7 +859,7 @@ public final class MiGetLicenceKeyData {
        * Hinweise zum "LicenceParameter". Derzeit nur gefüllt, wenn der Benutzer (der diese Prozedur aufruft) nicht über genügend Rechte verfügt, den Wert zum "LicenceParameter" einsehen zu dürfen (hier steht dann, welche Rechte fehlen).
        * </pre>
        *
-       * <code>optional .dstore.values.StringValue comment = 10001;</code>
+       * <code>.dstore.values.StringValue comment = 10001;</code>
        */
       public boolean hasComment() {
         return comment_ != null;
@@ -869,7 +869,7 @@ public final class MiGetLicenceKeyData {
        * Hinweise zum "LicenceParameter". Derzeit nur gefüllt, wenn der Benutzer (der diese Prozedur aufruft) nicht über genügend Rechte verfügt, den Wert zum "LicenceParameter" einsehen zu dürfen (hier steht dann, welche Rechte fehlen).
        * </pre>
        *
-       * <code>optional .dstore.values.StringValue comment = 10001;</code>
+       * <code>.dstore.values.StringValue comment = 10001;</code>
        */
       public io.dstore.values.StringValue getComment() {
         return comment_ == null ? io.dstore.values.StringValue.getDefaultInstance() : comment_;
@@ -879,7 +879,7 @@ public final class MiGetLicenceKeyData {
        * Hinweise zum "LicenceParameter". Derzeit nur gefüllt, wenn der Benutzer (der diese Prozedur aufruft) nicht über genügend Rechte verfügt, den Wert zum "LicenceParameter" einsehen zu dürfen (hier steht dann, welche Rechte fehlen).
        * </pre>
        *
-       * <code>optional .dstore.values.StringValue comment = 10001;</code>
+       * <code>.dstore.values.StringValue comment = 10001;</code>
        */
       public io.dstore.values.StringValueOrBuilder getCommentOrBuilder() {
         return getComment();
@@ -892,7 +892,7 @@ public final class MiGetLicenceKeyData {
        * Falls die der ermittelten Kennzahl zugrunde liegenden Daten auf eine bestimmte Zeit-Periode eingeschränkt wurden, steht hier eine ensprechende Angabe der Art "last 30 days" oder "period 03/01/2009 - 03/31/2009" - sonst "NULL"
        * </pre>
        *
-       * <code>optional .dstore.values.StringValue underlying_time_period = 10002;</code>
+       * <code>.dstore.values.StringValue underlying_time_period = 10002;</code>
        */
       public boolean hasUnderlyingTimePeriod() {
         return underlyingTimePeriod_ != null;
@@ -902,7 +902,7 @@ public final class MiGetLicenceKeyData {
        * Falls die der ermittelten Kennzahl zugrunde liegenden Daten auf eine bestimmte Zeit-Periode eingeschränkt wurden, steht hier eine ensprechende Angabe der Art "last 30 days" oder "period 03/01/2009 - 03/31/2009" - sonst "NULL"
        * </pre>
        *
-       * <code>optional .dstore.values.StringValue underlying_time_period = 10002;</code>
+       * <code>.dstore.values.StringValue underlying_time_period = 10002;</code>
        */
       public io.dstore.values.StringValue getUnderlyingTimePeriod() {
         return underlyingTimePeriod_ == null ? io.dstore.values.StringValue.getDefaultInstance() : underlyingTimePeriod_;
@@ -912,7 +912,7 @@ public final class MiGetLicenceKeyData {
        * Falls die der ermittelten Kennzahl zugrunde liegenden Daten auf eine bestimmte Zeit-Periode eingeschränkt wurden, steht hier eine ensprechende Angabe der Art "last 30 days" oder "period 03/01/2009 - 03/31/2009" - sonst "NULL"
        * </pre>
        *
-       * <code>optional .dstore.values.StringValue underlying_time_period = 10002;</code>
+       * <code>.dstore.values.StringValue underlying_time_period = 10002;</code>
        */
       public io.dstore.values.StringValueOrBuilder getUnderlyingTimePeriodOrBuilder() {
         return getUnderlyingTimePeriod();
@@ -925,7 +925,7 @@ public final class MiGetLicenceKeyData {
        * Der aktuelle Wert für die Kennzahl "LicenceParameter". Ist "NULL", wenn der Benutzer (der diese Prozedur aufruft) nicht über genügend Rechte verfügt, den Wert einsehen zu dürfen. In "Comment" steht dann, welche Rechte fehlen.
        * </pre>
        *
-       * <code>optional .dstore.values.StringValue current_value = 10003;</code>
+       * <code>.dstore.values.StringValue current_value = 10003;</code>
        */
       public boolean hasCurrentValue() {
         return currentValue_ != null;
@@ -935,7 +935,7 @@ public final class MiGetLicenceKeyData {
        * Der aktuelle Wert für die Kennzahl "LicenceParameter". Ist "NULL", wenn der Benutzer (der diese Prozedur aufruft) nicht über genügend Rechte verfügt, den Wert einsehen zu dürfen. In "Comment" steht dann, welche Rechte fehlen.
        * </pre>
        *
-       * <code>optional .dstore.values.StringValue current_value = 10003;</code>
+       * <code>.dstore.values.StringValue current_value = 10003;</code>
        */
       public io.dstore.values.StringValue getCurrentValue() {
         return currentValue_ == null ? io.dstore.values.StringValue.getDefaultInstance() : currentValue_;
@@ -945,7 +945,7 @@ public final class MiGetLicenceKeyData {
        * Der aktuelle Wert für die Kennzahl "LicenceParameter". Ist "NULL", wenn der Benutzer (der diese Prozedur aufruft) nicht über genügend Rechte verfügt, den Wert einsehen zu dürfen. In "Comment" steht dann, welche Rechte fehlen.
        * </pre>
        *
-       * <code>optional .dstore.values.StringValue current_value = 10003;</code>
+       * <code>.dstore.values.StringValue current_value = 10003;</code>
        */
       public io.dstore.values.StringValueOrBuilder getCurrentValueOrBuilder() {
         return getCurrentValue();
@@ -958,7 +958,7 @@ public final class MiGetLicenceKeyData {
        * Eine "Kennzahl" wie z.B. "NumberOfPersons" oder "NumberOfOrders"
        * </pre>
        *
-       * <code>optional .dstore.values.StringValue licence_parameter = 10004;</code>
+       * <code>.dstore.values.StringValue licence_parameter = 10004;</code>
        */
       public boolean hasLicenceParameter() {
         return licenceParameter_ != null;
@@ -968,7 +968,7 @@ public final class MiGetLicenceKeyData {
        * Eine "Kennzahl" wie z.B. "NumberOfPersons" oder "NumberOfOrders"
        * </pre>
        *
-       * <code>optional .dstore.values.StringValue licence_parameter = 10004;</code>
+       * <code>.dstore.values.StringValue licence_parameter = 10004;</code>
        */
       public io.dstore.values.StringValue getLicenceParameter() {
         return licenceParameter_ == null ? io.dstore.values.StringValue.getDefaultInstance() : licenceParameter_;
@@ -978,7 +978,7 @@ public final class MiGetLicenceKeyData {
        * Eine "Kennzahl" wie z.B. "NumberOfPersons" oder "NumberOfOrders"
        * </pre>
        *
-       * <code>optional .dstore.values.StringValue licence_parameter = 10004;</code>
+       * <code>.dstore.values.StringValue licence_parameter = 10004;</code>
        */
       public io.dstore.values.StringValueOrBuilder getLicenceParameterOrBuilder() {
         return getLicenceParameter();
@@ -991,7 +991,7 @@ public final class MiGetLicenceKeyData {
        * Der aktuelle Zeitpunkt (der Ausführung dieser Prozedur und damit der Ermittlung der Kennzahlen). Hinweis : Dient der leichteren Nachvollziehbarkeit falls die Kennzahlen irgendwo historisch aufgezeichnet werden sollen.
        * </pre>
        *
-       * <code>optional .dstore.values.TimestampValue current_date_and_time = 10005;</code>
+       * <code>.dstore.values.TimestampValue current_date_and_time = 10005;</code>
        */
       public boolean hasCurrentDateAndTime() {
         return currentDateAndTime_ != null;
@@ -1001,7 +1001,7 @@ public final class MiGetLicenceKeyData {
        * Der aktuelle Zeitpunkt (der Ausführung dieser Prozedur und damit der Ermittlung der Kennzahlen). Hinweis : Dient der leichteren Nachvollziehbarkeit falls die Kennzahlen irgendwo historisch aufgezeichnet werden sollen.
        * </pre>
        *
-       * <code>optional .dstore.values.TimestampValue current_date_and_time = 10005;</code>
+       * <code>.dstore.values.TimestampValue current_date_and_time = 10005;</code>
        */
       public io.dstore.values.TimestampValue getCurrentDateAndTime() {
         return currentDateAndTime_ == null ? io.dstore.values.TimestampValue.getDefaultInstance() : currentDateAndTime_;
@@ -1011,7 +1011,7 @@ public final class MiGetLicenceKeyData {
        * Der aktuelle Zeitpunkt (der Ausführung dieser Prozedur und damit der Ermittlung der Kennzahlen). Hinweis : Dient der leichteren Nachvollziehbarkeit falls die Kennzahlen irgendwo historisch aufgezeichnet werden sollen.
        * </pre>
        *
-       * <code>optional .dstore.values.TimestampValue current_date_and_time = 10005;</code>
+       * <code>.dstore.values.TimestampValue current_date_and_time = 10005;</code>
        */
       public io.dstore.values.TimestampValueOrBuilder getCurrentDateAndTimeOrBuilder() {
         return getCurrentDateAndTime();
@@ -1130,7 +1130,7 @@ public final class MiGetLicenceKeyData {
           return memoizedHashCode;
         }
         int hash = 41;
-        hash = (19 * hash) + getDescriptorForType().hashCode();
+        hash = (19 * hash) + getDescriptor().hashCode();
         hash = (37 * hash) + ROW_ID_FIELD_NUMBER;
         hash = (53 * hash) + getRowId();
         if (hasComment()) {
@@ -1438,13 +1438,13 @@ public final class MiGetLicenceKeyData {
 
         private int rowId_ ;
         /**
-         * <code>optional int32 row_id = 10000;</code>
+         * <code>int32 row_id = 10000;</code>
          */
         public int getRowId() {
           return rowId_;
         }
         /**
-         * <code>optional int32 row_id = 10000;</code>
+         * <code>int32 row_id = 10000;</code>
          */
         public Builder setRowId(int value) {
           
@@ -1453,7 +1453,7 @@ public final class MiGetLicenceKeyData {
           return this;
         }
         /**
-         * <code>optional int32 row_id = 10000;</code>
+         * <code>int32 row_id = 10000;</code>
          */
         public Builder clearRowId() {
           
@@ -1470,7 +1470,7 @@ public final class MiGetLicenceKeyData {
          * Hinweise zum "LicenceParameter". Derzeit nur gefüllt, wenn der Benutzer (der diese Prozedur aufruft) nicht über genügend Rechte verfügt, den Wert zum "LicenceParameter" einsehen zu dürfen (hier steht dann, welche Rechte fehlen).
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue comment = 10001;</code>
+         * <code>.dstore.values.StringValue comment = 10001;</code>
          */
         public boolean hasComment() {
           return commentBuilder_ != null || comment_ != null;
@@ -1480,7 +1480,7 @@ public final class MiGetLicenceKeyData {
          * Hinweise zum "LicenceParameter". Derzeit nur gefüllt, wenn der Benutzer (der diese Prozedur aufruft) nicht über genügend Rechte verfügt, den Wert zum "LicenceParameter" einsehen zu dürfen (hier steht dann, welche Rechte fehlen).
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue comment = 10001;</code>
+         * <code>.dstore.values.StringValue comment = 10001;</code>
          */
         public io.dstore.values.StringValue getComment() {
           if (commentBuilder_ == null) {
@@ -1494,7 +1494,7 @@ public final class MiGetLicenceKeyData {
          * Hinweise zum "LicenceParameter". Derzeit nur gefüllt, wenn der Benutzer (der diese Prozedur aufruft) nicht über genügend Rechte verfügt, den Wert zum "LicenceParameter" einsehen zu dürfen (hier steht dann, welche Rechte fehlen).
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue comment = 10001;</code>
+         * <code>.dstore.values.StringValue comment = 10001;</code>
          */
         public Builder setComment(io.dstore.values.StringValue value) {
           if (commentBuilder_ == null) {
@@ -1514,7 +1514,7 @@ public final class MiGetLicenceKeyData {
          * Hinweise zum "LicenceParameter". Derzeit nur gefüllt, wenn der Benutzer (der diese Prozedur aufruft) nicht über genügend Rechte verfügt, den Wert zum "LicenceParameter" einsehen zu dürfen (hier steht dann, welche Rechte fehlen).
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue comment = 10001;</code>
+         * <code>.dstore.values.StringValue comment = 10001;</code>
          */
         public Builder setComment(
             io.dstore.values.StringValue.Builder builderForValue) {
@@ -1532,7 +1532,7 @@ public final class MiGetLicenceKeyData {
          * Hinweise zum "LicenceParameter". Derzeit nur gefüllt, wenn der Benutzer (der diese Prozedur aufruft) nicht über genügend Rechte verfügt, den Wert zum "LicenceParameter" einsehen zu dürfen (hier steht dann, welche Rechte fehlen).
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue comment = 10001;</code>
+         * <code>.dstore.values.StringValue comment = 10001;</code>
          */
         public Builder mergeComment(io.dstore.values.StringValue value) {
           if (commentBuilder_ == null) {
@@ -1554,7 +1554,7 @@ public final class MiGetLicenceKeyData {
          * Hinweise zum "LicenceParameter". Derzeit nur gefüllt, wenn der Benutzer (der diese Prozedur aufruft) nicht über genügend Rechte verfügt, den Wert zum "LicenceParameter" einsehen zu dürfen (hier steht dann, welche Rechte fehlen).
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue comment = 10001;</code>
+         * <code>.dstore.values.StringValue comment = 10001;</code>
          */
         public Builder clearComment() {
           if (commentBuilder_ == null) {
@@ -1572,7 +1572,7 @@ public final class MiGetLicenceKeyData {
          * Hinweise zum "LicenceParameter". Derzeit nur gefüllt, wenn der Benutzer (der diese Prozedur aufruft) nicht über genügend Rechte verfügt, den Wert zum "LicenceParameter" einsehen zu dürfen (hier steht dann, welche Rechte fehlen).
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue comment = 10001;</code>
+         * <code>.dstore.values.StringValue comment = 10001;</code>
          */
         public io.dstore.values.StringValue.Builder getCommentBuilder() {
           
@@ -1584,7 +1584,7 @@ public final class MiGetLicenceKeyData {
          * Hinweise zum "LicenceParameter". Derzeit nur gefüllt, wenn der Benutzer (der diese Prozedur aufruft) nicht über genügend Rechte verfügt, den Wert zum "LicenceParameter" einsehen zu dürfen (hier steht dann, welche Rechte fehlen).
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue comment = 10001;</code>
+         * <code>.dstore.values.StringValue comment = 10001;</code>
          */
         public io.dstore.values.StringValueOrBuilder getCommentOrBuilder() {
           if (commentBuilder_ != null) {
@@ -1599,7 +1599,7 @@ public final class MiGetLicenceKeyData {
          * Hinweise zum "LicenceParameter". Derzeit nur gefüllt, wenn der Benutzer (der diese Prozedur aufruft) nicht über genügend Rechte verfügt, den Wert zum "LicenceParameter" einsehen zu dürfen (hier steht dann, welche Rechte fehlen).
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue comment = 10001;</code>
+         * <code>.dstore.values.StringValue comment = 10001;</code>
          */
         private com.google.protobuf.SingleFieldBuilderV3<
             io.dstore.values.StringValue, io.dstore.values.StringValue.Builder, io.dstore.values.StringValueOrBuilder> 
@@ -1623,7 +1623,7 @@ public final class MiGetLicenceKeyData {
          * Falls die der ermittelten Kennzahl zugrunde liegenden Daten auf eine bestimmte Zeit-Periode eingeschränkt wurden, steht hier eine ensprechende Angabe der Art "last 30 days" oder "period 03/01/2009 - 03/31/2009" - sonst "NULL"
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue underlying_time_period = 10002;</code>
+         * <code>.dstore.values.StringValue underlying_time_period = 10002;</code>
          */
         public boolean hasUnderlyingTimePeriod() {
           return underlyingTimePeriodBuilder_ != null || underlyingTimePeriod_ != null;
@@ -1633,7 +1633,7 @@ public final class MiGetLicenceKeyData {
          * Falls die der ermittelten Kennzahl zugrunde liegenden Daten auf eine bestimmte Zeit-Periode eingeschränkt wurden, steht hier eine ensprechende Angabe der Art "last 30 days" oder "period 03/01/2009 - 03/31/2009" - sonst "NULL"
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue underlying_time_period = 10002;</code>
+         * <code>.dstore.values.StringValue underlying_time_period = 10002;</code>
          */
         public io.dstore.values.StringValue getUnderlyingTimePeriod() {
           if (underlyingTimePeriodBuilder_ == null) {
@@ -1647,7 +1647,7 @@ public final class MiGetLicenceKeyData {
          * Falls die der ermittelten Kennzahl zugrunde liegenden Daten auf eine bestimmte Zeit-Periode eingeschränkt wurden, steht hier eine ensprechende Angabe der Art "last 30 days" oder "period 03/01/2009 - 03/31/2009" - sonst "NULL"
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue underlying_time_period = 10002;</code>
+         * <code>.dstore.values.StringValue underlying_time_period = 10002;</code>
          */
         public Builder setUnderlyingTimePeriod(io.dstore.values.StringValue value) {
           if (underlyingTimePeriodBuilder_ == null) {
@@ -1667,7 +1667,7 @@ public final class MiGetLicenceKeyData {
          * Falls die der ermittelten Kennzahl zugrunde liegenden Daten auf eine bestimmte Zeit-Periode eingeschränkt wurden, steht hier eine ensprechende Angabe der Art "last 30 days" oder "period 03/01/2009 - 03/31/2009" - sonst "NULL"
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue underlying_time_period = 10002;</code>
+         * <code>.dstore.values.StringValue underlying_time_period = 10002;</code>
          */
         public Builder setUnderlyingTimePeriod(
             io.dstore.values.StringValue.Builder builderForValue) {
@@ -1685,7 +1685,7 @@ public final class MiGetLicenceKeyData {
          * Falls die der ermittelten Kennzahl zugrunde liegenden Daten auf eine bestimmte Zeit-Periode eingeschränkt wurden, steht hier eine ensprechende Angabe der Art "last 30 days" oder "period 03/01/2009 - 03/31/2009" - sonst "NULL"
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue underlying_time_period = 10002;</code>
+         * <code>.dstore.values.StringValue underlying_time_period = 10002;</code>
          */
         public Builder mergeUnderlyingTimePeriod(io.dstore.values.StringValue value) {
           if (underlyingTimePeriodBuilder_ == null) {
@@ -1707,7 +1707,7 @@ public final class MiGetLicenceKeyData {
          * Falls die der ermittelten Kennzahl zugrunde liegenden Daten auf eine bestimmte Zeit-Periode eingeschränkt wurden, steht hier eine ensprechende Angabe der Art "last 30 days" oder "period 03/01/2009 - 03/31/2009" - sonst "NULL"
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue underlying_time_period = 10002;</code>
+         * <code>.dstore.values.StringValue underlying_time_period = 10002;</code>
          */
         public Builder clearUnderlyingTimePeriod() {
           if (underlyingTimePeriodBuilder_ == null) {
@@ -1725,7 +1725,7 @@ public final class MiGetLicenceKeyData {
          * Falls die der ermittelten Kennzahl zugrunde liegenden Daten auf eine bestimmte Zeit-Periode eingeschränkt wurden, steht hier eine ensprechende Angabe der Art "last 30 days" oder "period 03/01/2009 - 03/31/2009" - sonst "NULL"
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue underlying_time_period = 10002;</code>
+         * <code>.dstore.values.StringValue underlying_time_period = 10002;</code>
          */
         public io.dstore.values.StringValue.Builder getUnderlyingTimePeriodBuilder() {
           
@@ -1737,7 +1737,7 @@ public final class MiGetLicenceKeyData {
          * Falls die der ermittelten Kennzahl zugrunde liegenden Daten auf eine bestimmte Zeit-Periode eingeschränkt wurden, steht hier eine ensprechende Angabe der Art "last 30 days" oder "period 03/01/2009 - 03/31/2009" - sonst "NULL"
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue underlying_time_period = 10002;</code>
+         * <code>.dstore.values.StringValue underlying_time_period = 10002;</code>
          */
         public io.dstore.values.StringValueOrBuilder getUnderlyingTimePeriodOrBuilder() {
           if (underlyingTimePeriodBuilder_ != null) {
@@ -1752,7 +1752,7 @@ public final class MiGetLicenceKeyData {
          * Falls die der ermittelten Kennzahl zugrunde liegenden Daten auf eine bestimmte Zeit-Periode eingeschränkt wurden, steht hier eine ensprechende Angabe der Art "last 30 days" oder "period 03/01/2009 - 03/31/2009" - sonst "NULL"
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue underlying_time_period = 10002;</code>
+         * <code>.dstore.values.StringValue underlying_time_period = 10002;</code>
          */
         private com.google.protobuf.SingleFieldBuilderV3<
             io.dstore.values.StringValue, io.dstore.values.StringValue.Builder, io.dstore.values.StringValueOrBuilder> 
@@ -1776,7 +1776,7 @@ public final class MiGetLicenceKeyData {
          * Der aktuelle Wert für die Kennzahl "LicenceParameter". Ist "NULL", wenn der Benutzer (der diese Prozedur aufruft) nicht über genügend Rechte verfügt, den Wert einsehen zu dürfen. In "Comment" steht dann, welche Rechte fehlen.
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue current_value = 10003;</code>
+         * <code>.dstore.values.StringValue current_value = 10003;</code>
          */
         public boolean hasCurrentValue() {
           return currentValueBuilder_ != null || currentValue_ != null;
@@ -1786,7 +1786,7 @@ public final class MiGetLicenceKeyData {
          * Der aktuelle Wert für die Kennzahl "LicenceParameter". Ist "NULL", wenn der Benutzer (der diese Prozedur aufruft) nicht über genügend Rechte verfügt, den Wert einsehen zu dürfen. In "Comment" steht dann, welche Rechte fehlen.
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue current_value = 10003;</code>
+         * <code>.dstore.values.StringValue current_value = 10003;</code>
          */
         public io.dstore.values.StringValue getCurrentValue() {
           if (currentValueBuilder_ == null) {
@@ -1800,7 +1800,7 @@ public final class MiGetLicenceKeyData {
          * Der aktuelle Wert für die Kennzahl "LicenceParameter". Ist "NULL", wenn der Benutzer (der diese Prozedur aufruft) nicht über genügend Rechte verfügt, den Wert einsehen zu dürfen. In "Comment" steht dann, welche Rechte fehlen.
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue current_value = 10003;</code>
+         * <code>.dstore.values.StringValue current_value = 10003;</code>
          */
         public Builder setCurrentValue(io.dstore.values.StringValue value) {
           if (currentValueBuilder_ == null) {
@@ -1820,7 +1820,7 @@ public final class MiGetLicenceKeyData {
          * Der aktuelle Wert für die Kennzahl "LicenceParameter". Ist "NULL", wenn der Benutzer (der diese Prozedur aufruft) nicht über genügend Rechte verfügt, den Wert einsehen zu dürfen. In "Comment" steht dann, welche Rechte fehlen.
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue current_value = 10003;</code>
+         * <code>.dstore.values.StringValue current_value = 10003;</code>
          */
         public Builder setCurrentValue(
             io.dstore.values.StringValue.Builder builderForValue) {
@@ -1838,7 +1838,7 @@ public final class MiGetLicenceKeyData {
          * Der aktuelle Wert für die Kennzahl "LicenceParameter". Ist "NULL", wenn der Benutzer (der diese Prozedur aufruft) nicht über genügend Rechte verfügt, den Wert einsehen zu dürfen. In "Comment" steht dann, welche Rechte fehlen.
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue current_value = 10003;</code>
+         * <code>.dstore.values.StringValue current_value = 10003;</code>
          */
         public Builder mergeCurrentValue(io.dstore.values.StringValue value) {
           if (currentValueBuilder_ == null) {
@@ -1860,7 +1860,7 @@ public final class MiGetLicenceKeyData {
          * Der aktuelle Wert für die Kennzahl "LicenceParameter". Ist "NULL", wenn der Benutzer (der diese Prozedur aufruft) nicht über genügend Rechte verfügt, den Wert einsehen zu dürfen. In "Comment" steht dann, welche Rechte fehlen.
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue current_value = 10003;</code>
+         * <code>.dstore.values.StringValue current_value = 10003;</code>
          */
         public Builder clearCurrentValue() {
           if (currentValueBuilder_ == null) {
@@ -1878,7 +1878,7 @@ public final class MiGetLicenceKeyData {
          * Der aktuelle Wert für die Kennzahl "LicenceParameter". Ist "NULL", wenn der Benutzer (der diese Prozedur aufruft) nicht über genügend Rechte verfügt, den Wert einsehen zu dürfen. In "Comment" steht dann, welche Rechte fehlen.
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue current_value = 10003;</code>
+         * <code>.dstore.values.StringValue current_value = 10003;</code>
          */
         public io.dstore.values.StringValue.Builder getCurrentValueBuilder() {
           
@@ -1890,7 +1890,7 @@ public final class MiGetLicenceKeyData {
          * Der aktuelle Wert für die Kennzahl "LicenceParameter". Ist "NULL", wenn der Benutzer (der diese Prozedur aufruft) nicht über genügend Rechte verfügt, den Wert einsehen zu dürfen. In "Comment" steht dann, welche Rechte fehlen.
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue current_value = 10003;</code>
+         * <code>.dstore.values.StringValue current_value = 10003;</code>
          */
         public io.dstore.values.StringValueOrBuilder getCurrentValueOrBuilder() {
           if (currentValueBuilder_ != null) {
@@ -1905,7 +1905,7 @@ public final class MiGetLicenceKeyData {
          * Der aktuelle Wert für die Kennzahl "LicenceParameter". Ist "NULL", wenn der Benutzer (der diese Prozedur aufruft) nicht über genügend Rechte verfügt, den Wert einsehen zu dürfen. In "Comment" steht dann, welche Rechte fehlen.
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue current_value = 10003;</code>
+         * <code>.dstore.values.StringValue current_value = 10003;</code>
          */
         private com.google.protobuf.SingleFieldBuilderV3<
             io.dstore.values.StringValue, io.dstore.values.StringValue.Builder, io.dstore.values.StringValueOrBuilder> 
@@ -1929,7 +1929,7 @@ public final class MiGetLicenceKeyData {
          * Eine "Kennzahl" wie z.B. "NumberOfPersons" oder "NumberOfOrders"
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue licence_parameter = 10004;</code>
+         * <code>.dstore.values.StringValue licence_parameter = 10004;</code>
          */
         public boolean hasLicenceParameter() {
           return licenceParameterBuilder_ != null || licenceParameter_ != null;
@@ -1939,7 +1939,7 @@ public final class MiGetLicenceKeyData {
          * Eine "Kennzahl" wie z.B. "NumberOfPersons" oder "NumberOfOrders"
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue licence_parameter = 10004;</code>
+         * <code>.dstore.values.StringValue licence_parameter = 10004;</code>
          */
         public io.dstore.values.StringValue getLicenceParameter() {
           if (licenceParameterBuilder_ == null) {
@@ -1953,7 +1953,7 @@ public final class MiGetLicenceKeyData {
          * Eine "Kennzahl" wie z.B. "NumberOfPersons" oder "NumberOfOrders"
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue licence_parameter = 10004;</code>
+         * <code>.dstore.values.StringValue licence_parameter = 10004;</code>
          */
         public Builder setLicenceParameter(io.dstore.values.StringValue value) {
           if (licenceParameterBuilder_ == null) {
@@ -1973,7 +1973,7 @@ public final class MiGetLicenceKeyData {
          * Eine "Kennzahl" wie z.B. "NumberOfPersons" oder "NumberOfOrders"
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue licence_parameter = 10004;</code>
+         * <code>.dstore.values.StringValue licence_parameter = 10004;</code>
          */
         public Builder setLicenceParameter(
             io.dstore.values.StringValue.Builder builderForValue) {
@@ -1991,7 +1991,7 @@ public final class MiGetLicenceKeyData {
          * Eine "Kennzahl" wie z.B. "NumberOfPersons" oder "NumberOfOrders"
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue licence_parameter = 10004;</code>
+         * <code>.dstore.values.StringValue licence_parameter = 10004;</code>
          */
         public Builder mergeLicenceParameter(io.dstore.values.StringValue value) {
           if (licenceParameterBuilder_ == null) {
@@ -2013,7 +2013,7 @@ public final class MiGetLicenceKeyData {
          * Eine "Kennzahl" wie z.B. "NumberOfPersons" oder "NumberOfOrders"
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue licence_parameter = 10004;</code>
+         * <code>.dstore.values.StringValue licence_parameter = 10004;</code>
          */
         public Builder clearLicenceParameter() {
           if (licenceParameterBuilder_ == null) {
@@ -2031,7 +2031,7 @@ public final class MiGetLicenceKeyData {
          * Eine "Kennzahl" wie z.B. "NumberOfPersons" oder "NumberOfOrders"
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue licence_parameter = 10004;</code>
+         * <code>.dstore.values.StringValue licence_parameter = 10004;</code>
          */
         public io.dstore.values.StringValue.Builder getLicenceParameterBuilder() {
           
@@ -2043,7 +2043,7 @@ public final class MiGetLicenceKeyData {
          * Eine "Kennzahl" wie z.B. "NumberOfPersons" oder "NumberOfOrders"
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue licence_parameter = 10004;</code>
+         * <code>.dstore.values.StringValue licence_parameter = 10004;</code>
          */
         public io.dstore.values.StringValueOrBuilder getLicenceParameterOrBuilder() {
           if (licenceParameterBuilder_ != null) {
@@ -2058,7 +2058,7 @@ public final class MiGetLicenceKeyData {
          * Eine "Kennzahl" wie z.B. "NumberOfPersons" oder "NumberOfOrders"
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue licence_parameter = 10004;</code>
+         * <code>.dstore.values.StringValue licence_parameter = 10004;</code>
          */
         private com.google.protobuf.SingleFieldBuilderV3<
             io.dstore.values.StringValue, io.dstore.values.StringValue.Builder, io.dstore.values.StringValueOrBuilder> 
@@ -2082,7 +2082,7 @@ public final class MiGetLicenceKeyData {
          * Der aktuelle Zeitpunkt (der Ausführung dieser Prozedur und damit der Ermittlung der Kennzahlen). Hinweis : Dient der leichteren Nachvollziehbarkeit falls die Kennzahlen irgendwo historisch aufgezeichnet werden sollen.
          * </pre>
          *
-         * <code>optional .dstore.values.TimestampValue current_date_and_time = 10005;</code>
+         * <code>.dstore.values.TimestampValue current_date_and_time = 10005;</code>
          */
         public boolean hasCurrentDateAndTime() {
           return currentDateAndTimeBuilder_ != null || currentDateAndTime_ != null;
@@ -2092,7 +2092,7 @@ public final class MiGetLicenceKeyData {
          * Der aktuelle Zeitpunkt (der Ausführung dieser Prozedur und damit der Ermittlung der Kennzahlen). Hinweis : Dient der leichteren Nachvollziehbarkeit falls die Kennzahlen irgendwo historisch aufgezeichnet werden sollen.
          * </pre>
          *
-         * <code>optional .dstore.values.TimestampValue current_date_and_time = 10005;</code>
+         * <code>.dstore.values.TimestampValue current_date_and_time = 10005;</code>
          */
         public io.dstore.values.TimestampValue getCurrentDateAndTime() {
           if (currentDateAndTimeBuilder_ == null) {
@@ -2106,7 +2106,7 @@ public final class MiGetLicenceKeyData {
          * Der aktuelle Zeitpunkt (der Ausführung dieser Prozedur und damit der Ermittlung der Kennzahlen). Hinweis : Dient der leichteren Nachvollziehbarkeit falls die Kennzahlen irgendwo historisch aufgezeichnet werden sollen.
          * </pre>
          *
-         * <code>optional .dstore.values.TimestampValue current_date_and_time = 10005;</code>
+         * <code>.dstore.values.TimestampValue current_date_and_time = 10005;</code>
          */
         public Builder setCurrentDateAndTime(io.dstore.values.TimestampValue value) {
           if (currentDateAndTimeBuilder_ == null) {
@@ -2126,7 +2126,7 @@ public final class MiGetLicenceKeyData {
          * Der aktuelle Zeitpunkt (der Ausführung dieser Prozedur und damit der Ermittlung der Kennzahlen). Hinweis : Dient der leichteren Nachvollziehbarkeit falls die Kennzahlen irgendwo historisch aufgezeichnet werden sollen.
          * </pre>
          *
-         * <code>optional .dstore.values.TimestampValue current_date_and_time = 10005;</code>
+         * <code>.dstore.values.TimestampValue current_date_and_time = 10005;</code>
          */
         public Builder setCurrentDateAndTime(
             io.dstore.values.TimestampValue.Builder builderForValue) {
@@ -2144,7 +2144,7 @@ public final class MiGetLicenceKeyData {
          * Der aktuelle Zeitpunkt (der Ausführung dieser Prozedur und damit der Ermittlung der Kennzahlen). Hinweis : Dient der leichteren Nachvollziehbarkeit falls die Kennzahlen irgendwo historisch aufgezeichnet werden sollen.
          * </pre>
          *
-         * <code>optional .dstore.values.TimestampValue current_date_and_time = 10005;</code>
+         * <code>.dstore.values.TimestampValue current_date_and_time = 10005;</code>
          */
         public Builder mergeCurrentDateAndTime(io.dstore.values.TimestampValue value) {
           if (currentDateAndTimeBuilder_ == null) {
@@ -2166,7 +2166,7 @@ public final class MiGetLicenceKeyData {
          * Der aktuelle Zeitpunkt (der Ausführung dieser Prozedur und damit der Ermittlung der Kennzahlen). Hinweis : Dient der leichteren Nachvollziehbarkeit falls die Kennzahlen irgendwo historisch aufgezeichnet werden sollen.
          * </pre>
          *
-         * <code>optional .dstore.values.TimestampValue current_date_and_time = 10005;</code>
+         * <code>.dstore.values.TimestampValue current_date_and_time = 10005;</code>
          */
         public Builder clearCurrentDateAndTime() {
           if (currentDateAndTimeBuilder_ == null) {
@@ -2184,7 +2184,7 @@ public final class MiGetLicenceKeyData {
          * Der aktuelle Zeitpunkt (der Ausführung dieser Prozedur und damit der Ermittlung der Kennzahlen). Hinweis : Dient der leichteren Nachvollziehbarkeit falls die Kennzahlen irgendwo historisch aufgezeichnet werden sollen.
          * </pre>
          *
-         * <code>optional .dstore.values.TimestampValue current_date_and_time = 10005;</code>
+         * <code>.dstore.values.TimestampValue current_date_and_time = 10005;</code>
          */
         public io.dstore.values.TimestampValue.Builder getCurrentDateAndTimeBuilder() {
           
@@ -2196,7 +2196,7 @@ public final class MiGetLicenceKeyData {
          * Der aktuelle Zeitpunkt (der Ausführung dieser Prozedur und damit der Ermittlung der Kennzahlen). Hinweis : Dient der leichteren Nachvollziehbarkeit falls die Kennzahlen irgendwo historisch aufgezeichnet werden sollen.
          * </pre>
          *
-         * <code>optional .dstore.values.TimestampValue current_date_and_time = 10005;</code>
+         * <code>.dstore.values.TimestampValue current_date_and_time = 10005;</code>
          */
         public io.dstore.values.TimestampValueOrBuilder getCurrentDateAndTimeOrBuilder() {
           if (currentDateAndTimeBuilder_ != null) {
@@ -2211,7 +2211,7 @@ public final class MiGetLicenceKeyData {
          * Der aktuelle Zeitpunkt (der Ausführung dieser Prozedur und damit der Ermittlung der Kennzahlen). Hinweis : Dient der leichteren Nachvollziehbarkeit falls die Kennzahlen irgendwo historisch aufgezeichnet werden sollen.
          * </pre>
          *
-         * <code>optional .dstore.values.TimestampValue current_date_and_time = 10005;</code>
+         * <code>.dstore.values.TimestampValue current_date_and_time = 10005;</code>
          */
         private com.google.protobuf.SingleFieldBuilderV3<
             io.dstore.values.TimestampValue, io.dstore.values.TimestampValue.Builder, io.dstore.values.TimestampValueOrBuilder> 
@@ -2471,7 +2471,7 @@ public final class MiGetLicenceKeyData {
         return memoizedHashCode;
       }
       int hash = 41;
-      hash = (19 * hash) + getDescriptorForType().hashCode();
+      hash = (19 * hash) + getDescriptor().hashCode();
       if (getMetaInformationCount() > 0) {
         hash = (37 * hash) + META_INFORMATION_FIELD_NUMBER;
         hash = (53 * hash) + getMetaInformationList().hashCode();

@@ -202,7 +202,7 @@ public  final class Posting extends
   public static final int FORUM_ID_FIELD_NUMBER = 1;
   private int forumId_;
   /**
-   * <code>optional int32 forum_id = 1;</code>
+   * <code>int32 forum_id = 1;</code>
    */
   public int getForumId() {
     return forumId_;
@@ -211,7 +211,7 @@ public  final class Posting extends
   public static final int POSTING_ID_FIELD_NUMBER = 2;
   private int postingId_;
   /**
-   * <code>optional int32 posting_id = 2;</code>
+   * <code>int32 posting_id = 2;</code>
    */
   public int getPostingId() {
     return postingId_;
@@ -220,7 +220,7 @@ public  final class Posting extends
   public static final int MAIN_POSTING_ID_FIELD_NUMBER = 12;
   private int mainPostingId_;
   /**
-   * <code>optional int32 main_posting_id = 12;</code>
+   * <code>int32 main_posting_id = 12;</code>
    */
   public int getMainPostingId() {
     return mainPostingId_;
@@ -229,7 +229,7 @@ public  final class Posting extends
   public static final int REPLY_TO_POSTING_ID_FIELD_NUMBER = 3;
   private int replyToPostingId_;
   /**
-   * <code>optional int32 reply_to_posting_id = 3;</code>
+   * <code>int32 reply_to_posting_id = 3;</code>
    */
   public int getReplyToPostingId() {
     return replyToPostingId_;
@@ -238,7 +238,7 @@ public  final class Posting extends
   public static final int AUTHOR_PERSON_ID_FIELD_NUMBER = 4;
   private int authorPersonId_;
   /**
-   * <code>optional int32 author_person_id = 4;</code>
+   * <code>int32 author_person_id = 4;</code>
    */
   public int getAuthorPersonId() {
     return authorPersonId_;
@@ -247,7 +247,7 @@ public  final class Posting extends
   public static final int AUTHOR_FIELD_NUMBER = 5;
   private volatile java.lang.Object author_;
   /**
-   * <code>optional string author = 5;</code>
+   * <code>string author = 5;</code>
    */
   public java.lang.String getAuthor() {
     java.lang.Object ref = author_;
@@ -262,7 +262,7 @@ public  final class Posting extends
     }
   }
   /**
-   * <code>optional string author = 5;</code>
+   * <code>string author = 5;</code>
    */
   public com.google.protobuf.ByteString
       getAuthorBytes() {
@@ -281,7 +281,7 @@ public  final class Posting extends
   public static final int VISIBLE_FIELD_NUMBER = 6;
   private int visible_;
   /**
-   * <code>optional int32 visible = 6;</code>
+   * <code>int32 visible = 6;</code>
    */
   public int getVisible() {
     return visible_;
@@ -290,7 +290,7 @@ public  final class Posting extends
   public static final int HAS_BINARIES_FIELD_NUMBER = 7;
   private boolean hasBinaries_;
   /**
-   * <code>optional bool has_binaries = 7;</code>
+   * <code>bool has_binaries = 7;</code>
    */
   public boolean getHasBinaries() {
     return hasBinaries_;
@@ -299,19 +299,19 @@ public  final class Posting extends
   public static final int POST_DATE_FIELD_NUMBER = 8;
   private io.dstore.values.TimestampValue postDate_;
   /**
-   * <code>optional .dstore.values.TimestampValue post_date = 8;</code>
+   * <code>.dstore.values.TimestampValue post_date = 8;</code>
    */
   public boolean hasPostDate() {
     return postDate_ != null;
   }
   /**
-   * <code>optional .dstore.values.TimestampValue post_date = 8;</code>
+   * <code>.dstore.values.TimestampValue post_date = 8;</code>
    */
   public io.dstore.values.TimestampValue getPostDate() {
     return postDate_ == null ? io.dstore.values.TimestampValue.getDefaultInstance() : postDate_;
   }
   /**
-   * <code>optional .dstore.values.TimestampValue post_date = 8;</code>
+   * <code>.dstore.values.TimestampValue post_date = 8;</code>
    */
   public io.dstore.values.TimestampValueOrBuilder getPostDateOrBuilder() {
     return getPostDate();
@@ -320,19 +320,19 @@ public  final class Posting extends
   public static final int LAST_UPDATED_FIELD_NUMBER = 9;
   private io.dstore.values.TimestampValue lastUpdated_;
   /**
-   * <code>optional .dstore.values.TimestampValue last_updated = 9;</code>
+   * <code>.dstore.values.TimestampValue last_updated = 9;</code>
    */
   public boolean hasLastUpdated() {
     return lastUpdated_ != null;
   }
   /**
-   * <code>optional .dstore.values.TimestampValue last_updated = 9;</code>
+   * <code>.dstore.values.TimestampValue last_updated = 9;</code>
    */
   public io.dstore.values.TimestampValue getLastUpdated() {
     return lastUpdated_ == null ? io.dstore.values.TimestampValue.getDefaultInstance() : lastUpdated_;
   }
   /**
-   * <code>optional .dstore.values.TimestampValue last_updated = 9;</code>
+   * <code>.dstore.values.TimestampValue last_updated = 9;</code>
    */
   public io.dstore.values.TimestampValueOrBuilder getLastUpdatedOrBuilder() {
     return getLastUpdated();
@@ -341,7 +341,7 @@ public  final class Posting extends
   public static final int SUBJECT_FIELD_NUMBER = 10;
   private volatile java.lang.Object subject_;
   /**
-   * <code>optional string subject = 10;</code>
+   * <code>string subject = 10;</code>
    */
   public java.lang.String getSubject() {
     java.lang.Object ref = subject_;
@@ -356,7 +356,7 @@ public  final class Posting extends
     }
   }
   /**
-   * <code>optional string subject = 10;</code>
+   * <code>string subject = 10;</code>
    */
   public com.google.protobuf.ByteString
       getSubjectBytes() {
@@ -375,7 +375,7 @@ public  final class Posting extends
   public static final int BODY_FIELD_NUMBER = 11;
   private volatile java.lang.Object body_;
   /**
-   * <code>optional string body = 11;</code>
+   * <code>string body = 11;</code>
    */
   public java.lang.String getBody() {
     java.lang.Object ref = body_;
@@ -390,7 +390,7 @@ public  final class Posting extends
     }
   }
   /**
-   * <code>optional string body = 11;</code>
+   * <code>string body = 11;</code>
    */
   public com.google.protobuf.ByteString
       getBodyBytes() {
@@ -485,7 +485,7 @@ public  final class Posting extends
   public static final int SCORE_FIELD_NUMBER = 30;
   private double score_;
   /**
-   * <code>optional double score = 30;</code>
+   * <code>double score = 30;</code>
    */
   public double getScore() {
     return score_;
@@ -494,7 +494,7 @@ public  final class Posting extends
   public static final int INDEX_NAME_FIELD_NUMBER = 31;
   private volatile java.lang.Object indexName_;
   /**
-   * <code>optional string index_name = 31;</code>
+   * <code>string index_name = 31;</code>
    */
   public java.lang.String getIndexName() {
     java.lang.Object ref = indexName_;
@@ -509,7 +509,7 @@ public  final class Posting extends
     }
   }
   /**
-   * <code>optional string index_name = 31;</code>
+   * <code>string index_name = 31;</code>
    */
   public com.google.protobuf.ByteString
       getIndexNameBytes() {
@@ -528,7 +528,7 @@ public  final class Posting extends
   public static final int DOCUMENT_ID_FIELD_NUMBER = 32;
   private volatile java.lang.Object documentId_;
   /**
-   * <code>optional string document_id = 32;</code>
+   * <code>string document_id = 32;</code>
    */
   public java.lang.String getDocumentId() {
     java.lang.Object ref = documentId_;
@@ -543,7 +543,7 @@ public  final class Posting extends
     }
   }
   /**
-   * <code>optional string document_id = 32;</code>
+   * <code>string document_id = 32;</code>
    */
   public com.google.protobuf.ByteString
       getDocumentIdBytes() {
@@ -759,7 +759,7 @@ public  final class Posting extends
       return memoizedHashCode;
     }
     int hash = 41;
-    hash = (19 * hash) + getDescriptorForType().hashCode();
+    hash = (19 * hash) + getDescriptor().hashCode();
     hash = (37 * hash) + FORUM_ID_FIELD_NUMBER;
     hash = (53 * hash) + getForumId();
     hash = (37 * hash) + POSTING_ID_FIELD_NUMBER;
@@ -1151,13 +1151,13 @@ public  final class Posting extends
 
     private int forumId_ ;
     /**
-     * <code>optional int32 forum_id = 1;</code>
+     * <code>int32 forum_id = 1;</code>
      */
     public int getForumId() {
       return forumId_;
     }
     /**
-     * <code>optional int32 forum_id = 1;</code>
+     * <code>int32 forum_id = 1;</code>
      */
     public Builder setForumId(int value) {
       
@@ -1166,7 +1166,7 @@ public  final class Posting extends
       return this;
     }
     /**
-     * <code>optional int32 forum_id = 1;</code>
+     * <code>int32 forum_id = 1;</code>
      */
     public Builder clearForumId() {
       
@@ -1177,13 +1177,13 @@ public  final class Posting extends
 
     private int postingId_ ;
     /**
-     * <code>optional int32 posting_id = 2;</code>
+     * <code>int32 posting_id = 2;</code>
      */
     public int getPostingId() {
       return postingId_;
     }
     /**
-     * <code>optional int32 posting_id = 2;</code>
+     * <code>int32 posting_id = 2;</code>
      */
     public Builder setPostingId(int value) {
       
@@ -1192,7 +1192,7 @@ public  final class Posting extends
       return this;
     }
     /**
-     * <code>optional int32 posting_id = 2;</code>
+     * <code>int32 posting_id = 2;</code>
      */
     public Builder clearPostingId() {
       
@@ -1203,13 +1203,13 @@ public  final class Posting extends
 
     private int mainPostingId_ ;
     /**
-     * <code>optional int32 main_posting_id = 12;</code>
+     * <code>int32 main_posting_id = 12;</code>
      */
     public int getMainPostingId() {
       return mainPostingId_;
     }
     /**
-     * <code>optional int32 main_posting_id = 12;</code>
+     * <code>int32 main_posting_id = 12;</code>
      */
     public Builder setMainPostingId(int value) {
       
@@ -1218,7 +1218,7 @@ public  final class Posting extends
       return this;
     }
     /**
-     * <code>optional int32 main_posting_id = 12;</code>
+     * <code>int32 main_posting_id = 12;</code>
      */
     public Builder clearMainPostingId() {
       
@@ -1229,13 +1229,13 @@ public  final class Posting extends
 
     private int replyToPostingId_ ;
     /**
-     * <code>optional int32 reply_to_posting_id = 3;</code>
+     * <code>int32 reply_to_posting_id = 3;</code>
      */
     public int getReplyToPostingId() {
       return replyToPostingId_;
     }
     /**
-     * <code>optional int32 reply_to_posting_id = 3;</code>
+     * <code>int32 reply_to_posting_id = 3;</code>
      */
     public Builder setReplyToPostingId(int value) {
       
@@ -1244,7 +1244,7 @@ public  final class Posting extends
       return this;
     }
     /**
-     * <code>optional int32 reply_to_posting_id = 3;</code>
+     * <code>int32 reply_to_posting_id = 3;</code>
      */
     public Builder clearReplyToPostingId() {
       
@@ -1255,13 +1255,13 @@ public  final class Posting extends
 
     private int authorPersonId_ ;
     /**
-     * <code>optional int32 author_person_id = 4;</code>
+     * <code>int32 author_person_id = 4;</code>
      */
     public int getAuthorPersonId() {
       return authorPersonId_;
     }
     /**
-     * <code>optional int32 author_person_id = 4;</code>
+     * <code>int32 author_person_id = 4;</code>
      */
     public Builder setAuthorPersonId(int value) {
       
@@ -1270,7 +1270,7 @@ public  final class Posting extends
       return this;
     }
     /**
-     * <code>optional int32 author_person_id = 4;</code>
+     * <code>int32 author_person_id = 4;</code>
      */
     public Builder clearAuthorPersonId() {
       
@@ -1281,7 +1281,7 @@ public  final class Posting extends
 
     private java.lang.Object author_ = "";
     /**
-     * <code>optional string author = 5;</code>
+     * <code>string author = 5;</code>
      */
     public java.lang.String getAuthor() {
       java.lang.Object ref = author_;
@@ -1296,7 +1296,7 @@ public  final class Posting extends
       }
     }
     /**
-     * <code>optional string author = 5;</code>
+     * <code>string author = 5;</code>
      */
     public com.google.protobuf.ByteString
         getAuthorBytes() {
@@ -1312,7 +1312,7 @@ public  final class Posting extends
       }
     }
     /**
-     * <code>optional string author = 5;</code>
+     * <code>string author = 5;</code>
      */
     public Builder setAuthor(
         java.lang.String value) {
@@ -1325,7 +1325,7 @@ public  final class Posting extends
       return this;
     }
     /**
-     * <code>optional string author = 5;</code>
+     * <code>string author = 5;</code>
      */
     public Builder clearAuthor() {
       
@@ -1334,7 +1334,7 @@ public  final class Posting extends
       return this;
     }
     /**
-     * <code>optional string author = 5;</code>
+     * <code>string author = 5;</code>
      */
     public Builder setAuthorBytes(
         com.google.protobuf.ByteString value) {
@@ -1350,13 +1350,13 @@ public  final class Posting extends
 
     private int visible_ ;
     /**
-     * <code>optional int32 visible = 6;</code>
+     * <code>int32 visible = 6;</code>
      */
     public int getVisible() {
       return visible_;
     }
     /**
-     * <code>optional int32 visible = 6;</code>
+     * <code>int32 visible = 6;</code>
      */
     public Builder setVisible(int value) {
       
@@ -1365,7 +1365,7 @@ public  final class Posting extends
       return this;
     }
     /**
-     * <code>optional int32 visible = 6;</code>
+     * <code>int32 visible = 6;</code>
      */
     public Builder clearVisible() {
       
@@ -1376,13 +1376,13 @@ public  final class Posting extends
 
     private boolean hasBinaries_ ;
     /**
-     * <code>optional bool has_binaries = 7;</code>
+     * <code>bool has_binaries = 7;</code>
      */
     public boolean getHasBinaries() {
       return hasBinaries_;
     }
     /**
-     * <code>optional bool has_binaries = 7;</code>
+     * <code>bool has_binaries = 7;</code>
      */
     public Builder setHasBinaries(boolean value) {
       
@@ -1391,7 +1391,7 @@ public  final class Posting extends
       return this;
     }
     /**
-     * <code>optional bool has_binaries = 7;</code>
+     * <code>bool has_binaries = 7;</code>
      */
     public Builder clearHasBinaries() {
       
@@ -1404,13 +1404,13 @@ public  final class Posting extends
     private com.google.protobuf.SingleFieldBuilderV3<
         io.dstore.values.TimestampValue, io.dstore.values.TimestampValue.Builder, io.dstore.values.TimestampValueOrBuilder> postDateBuilder_;
     /**
-     * <code>optional .dstore.values.TimestampValue post_date = 8;</code>
+     * <code>.dstore.values.TimestampValue post_date = 8;</code>
      */
     public boolean hasPostDate() {
       return postDateBuilder_ != null || postDate_ != null;
     }
     /**
-     * <code>optional .dstore.values.TimestampValue post_date = 8;</code>
+     * <code>.dstore.values.TimestampValue post_date = 8;</code>
      */
     public io.dstore.values.TimestampValue getPostDate() {
       if (postDateBuilder_ == null) {
@@ -1420,7 +1420,7 @@ public  final class Posting extends
       }
     }
     /**
-     * <code>optional .dstore.values.TimestampValue post_date = 8;</code>
+     * <code>.dstore.values.TimestampValue post_date = 8;</code>
      */
     public Builder setPostDate(io.dstore.values.TimestampValue value) {
       if (postDateBuilder_ == null) {
@@ -1436,7 +1436,7 @@ public  final class Posting extends
       return this;
     }
     /**
-     * <code>optional .dstore.values.TimestampValue post_date = 8;</code>
+     * <code>.dstore.values.TimestampValue post_date = 8;</code>
      */
     public Builder setPostDate(
         io.dstore.values.TimestampValue.Builder builderForValue) {
@@ -1450,7 +1450,7 @@ public  final class Posting extends
       return this;
     }
     /**
-     * <code>optional .dstore.values.TimestampValue post_date = 8;</code>
+     * <code>.dstore.values.TimestampValue post_date = 8;</code>
      */
     public Builder mergePostDate(io.dstore.values.TimestampValue value) {
       if (postDateBuilder_ == null) {
@@ -1468,7 +1468,7 @@ public  final class Posting extends
       return this;
     }
     /**
-     * <code>optional .dstore.values.TimestampValue post_date = 8;</code>
+     * <code>.dstore.values.TimestampValue post_date = 8;</code>
      */
     public Builder clearPostDate() {
       if (postDateBuilder_ == null) {
@@ -1482,7 +1482,7 @@ public  final class Posting extends
       return this;
     }
     /**
-     * <code>optional .dstore.values.TimestampValue post_date = 8;</code>
+     * <code>.dstore.values.TimestampValue post_date = 8;</code>
      */
     public io.dstore.values.TimestampValue.Builder getPostDateBuilder() {
       
@@ -1490,7 +1490,7 @@ public  final class Posting extends
       return getPostDateFieldBuilder().getBuilder();
     }
     /**
-     * <code>optional .dstore.values.TimestampValue post_date = 8;</code>
+     * <code>.dstore.values.TimestampValue post_date = 8;</code>
      */
     public io.dstore.values.TimestampValueOrBuilder getPostDateOrBuilder() {
       if (postDateBuilder_ != null) {
@@ -1501,7 +1501,7 @@ public  final class Posting extends
       }
     }
     /**
-     * <code>optional .dstore.values.TimestampValue post_date = 8;</code>
+     * <code>.dstore.values.TimestampValue post_date = 8;</code>
      */
     private com.google.protobuf.SingleFieldBuilderV3<
         io.dstore.values.TimestampValue, io.dstore.values.TimestampValue.Builder, io.dstore.values.TimestampValueOrBuilder> 
@@ -1521,13 +1521,13 @@ public  final class Posting extends
     private com.google.protobuf.SingleFieldBuilderV3<
         io.dstore.values.TimestampValue, io.dstore.values.TimestampValue.Builder, io.dstore.values.TimestampValueOrBuilder> lastUpdatedBuilder_;
     /**
-     * <code>optional .dstore.values.TimestampValue last_updated = 9;</code>
+     * <code>.dstore.values.TimestampValue last_updated = 9;</code>
      */
     public boolean hasLastUpdated() {
       return lastUpdatedBuilder_ != null || lastUpdated_ != null;
     }
     /**
-     * <code>optional .dstore.values.TimestampValue last_updated = 9;</code>
+     * <code>.dstore.values.TimestampValue last_updated = 9;</code>
      */
     public io.dstore.values.TimestampValue getLastUpdated() {
       if (lastUpdatedBuilder_ == null) {
@@ -1537,7 +1537,7 @@ public  final class Posting extends
       }
     }
     /**
-     * <code>optional .dstore.values.TimestampValue last_updated = 9;</code>
+     * <code>.dstore.values.TimestampValue last_updated = 9;</code>
      */
     public Builder setLastUpdated(io.dstore.values.TimestampValue value) {
       if (lastUpdatedBuilder_ == null) {
@@ -1553,7 +1553,7 @@ public  final class Posting extends
       return this;
     }
     /**
-     * <code>optional .dstore.values.TimestampValue last_updated = 9;</code>
+     * <code>.dstore.values.TimestampValue last_updated = 9;</code>
      */
     public Builder setLastUpdated(
         io.dstore.values.TimestampValue.Builder builderForValue) {
@@ -1567,7 +1567,7 @@ public  final class Posting extends
       return this;
     }
     /**
-     * <code>optional .dstore.values.TimestampValue last_updated = 9;</code>
+     * <code>.dstore.values.TimestampValue last_updated = 9;</code>
      */
     public Builder mergeLastUpdated(io.dstore.values.TimestampValue value) {
       if (lastUpdatedBuilder_ == null) {
@@ -1585,7 +1585,7 @@ public  final class Posting extends
       return this;
     }
     /**
-     * <code>optional .dstore.values.TimestampValue last_updated = 9;</code>
+     * <code>.dstore.values.TimestampValue last_updated = 9;</code>
      */
     public Builder clearLastUpdated() {
       if (lastUpdatedBuilder_ == null) {
@@ -1599,7 +1599,7 @@ public  final class Posting extends
       return this;
     }
     /**
-     * <code>optional .dstore.values.TimestampValue last_updated = 9;</code>
+     * <code>.dstore.values.TimestampValue last_updated = 9;</code>
      */
     public io.dstore.values.TimestampValue.Builder getLastUpdatedBuilder() {
       
@@ -1607,7 +1607,7 @@ public  final class Posting extends
       return getLastUpdatedFieldBuilder().getBuilder();
     }
     /**
-     * <code>optional .dstore.values.TimestampValue last_updated = 9;</code>
+     * <code>.dstore.values.TimestampValue last_updated = 9;</code>
      */
     public io.dstore.values.TimestampValueOrBuilder getLastUpdatedOrBuilder() {
       if (lastUpdatedBuilder_ != null) {
@@ -1618,7 +1618,7 @@ public  final class Posting extends
       }
     }
     /**
-     * <code>optional .dstore.values.TimestampValue last_updated = 9;</code>
+     * <code>.dstore.values.TimestampValue last_updated = 9;</code>
      */
     private com.google.protobuf.SingleFieldBuilderV3<
         io.dstore.values.TimestampValue, io.dstore.values.TimestampValue.Builder, io.dstore.values.TimestampValueOrBuilder> 
@@ -1636,7 +1636,7 @@ public  final class Posting extends
 
     private java.lang.Object subject_ = "";
     /**
-     * <code>optional string subject = 10;</code>
+     * <code>string subject = 10;</code>
      */
     public java.lang.String getSubject() {
       java.lang.Object ref = subject_;
@@ -1651,7 +1651,7 @@ public  final class Posting extends
       }
     }
     /**
-     * <code>optional string subject = 10;</code>
+     * <code>string subject = 10;</code>
      */
     public com.google.protobuf.ByteString
         getSubjectBytes() {
@@ -1667,7 +1667,7 @@ public  final class Posting extends
       }
     }
     /**
-     * <code>optional string subject = 10;</code>
+     * <code>string subject = 10;</code>
      */
     public Builder setSubject(
         java.lang.String value) {
@@ -1680,7 +1680,7 @@ public  final class Posting extends
       return this;
     }
     /**
-     * <code>optional string subject = 10;</code>
+     * <code>string subject = 10;</code>
      */
     public Builder clearSubject() {
       
@@ -1689,7 +1689,7 @@ public  final class Posting extends
       return this;
     }
     /**
-     * <code>optional string subject = 10;</code>
+     * <code>string subject = 10;</code>
      */
     public Builder setSubjectBytes(
         com.google.protobuf.ByteString value) {
@@ -1705,7 +1705,7 @@ public  final class Posting extends
 
     private java.lang.Object body_ = "";
     /**
-     * <code>optional string body = 11;</code>
+     * <code>string body = 11;</code>
      */
     public java.lang.String getBody() {
       java.lang.Object ref = body_;
@@ -1720,7 +1720,7 @@ public  final class Posting extends
       }
     }
     /**
-     * <code>optional string body = 11;</code>
+     * <code>string body = 11;</code>
      */
     public com.google.protobuf.ByteString
         getBodyBytes() {
@@ -1736,7 +1736,7 @@ public  final class Posting extends
       }
     }
     /**
-     * <code>optional string body = 11;</code>
+     * <code>string body = 11;</code>
      */
     public Builder setBody(
         java.lang.String value) {
@@ -1749,7 +1749,7 @@ public  final class Posting extends
       return this;
     }
     /**
-     * <code>optional string body = 11;</code>
+     * <code>string body = 11;</code>
      */
     public Builder clearBody() {
       
@@ -1758,7 +1758,7 @@ public  final class Posting extends
       return this;
     }
     /**
-     * <code>optional string body = 11;</code>
+     * <code>string body = 11;</code>
      */
     public Builder setBodyBytes(
         com.google.protobuf.ByteString value) {
@@ -1849,7 +1849,8 @@ public  final class Posting extends
     }
 
     public Builder clearProperties() {
-      getMutableProperties().clear();
+      internalGetMutableProperties().getMutableMap()
+          .clear();
       return this;
     }
     /**
@@ -1859,7 +1860,8 @@ public  final class Posting extends
     public Builder removeProperties(
         int key) {
       
-      getMutableProperties().remove(key);
+      internalGetMutableProperties().getMutableMap()
+          .remove(key);
       return this;
     }
     /**
@@ -1878,7 +1880,8 @@ public  final class Posting extends
         io.dstore.elastic.Field value) {
       
       if (value == null) { throw new java.lang.NullPointerException(); }
-      getMutableProperties().put(key, value);
+      internalGetMutableProperties().getMutableMap()
+          .put(key, value);
       return this;
     }
     /**
@@ -1887,19 +1890,20 @@ public  final class Posting extends
 
     public Builder putAllProperties(
         java.util.Map<java.lang.Integer, io.dstore.elastic.Field> values) {
-      getMutableProperties().putAll(values);
+      internalGetMutableProperties().getMutableMap()
+          .putAll(values);
       return this;
     }
 
     private double score_ ;
     /**
-     * <code>optional double score = 30;</code>
+     * <code>double score = 30;</code>
      */
     public double getScore() {
       return score_;
     }
     /**
-     * <code>optional double score = 30;</code>
+     * <code>double score = 30;</code>
      */
     public Builder setScore(double value) {
       
@@ -1908,7 +1912,7 @@ public  final class Posting extends
       return this;
     }
     /**
-     * <code>optional double score = 30;</code>
+     * <code>double score = 30;</code>
      */
     public Builder clearScore() {
       
@@ -1919,7 +1923,7 @@ public  final class Posting extends
 
     private java.lang.Object indexName_ = "";
     /**
-     * <code>optional string index_name = 31;</code>
+     * <code>string index_name = 31;</code>
      */
     public java.lang.String getIndexName() {
       java.lang.Object ref = indexName_;
@@ -1934,7 +1938,7 @@ public  final class Posting extends
       }
     }
     /**
-     * <code>optional string index_name = 31;</code>
+     * <code>string index_name = 31;</code>
      */
     public com.google.protobuf.ByteString
         getIndexNameBytes() {
@@ -1950,7 +1954,7 @@ public  final class Posting extends
       }
     }
     /**
-     * <code>optional string index_name = 31;</code>
+     * <code>string index_name = 31;</code>
      */
     public Builder setIndexName(
         java.lang.String value) {
@@ -1963,7 +1967,7 @@ public  final class Posting extends
       return this;
     }
     /**
-     * <code>optional string index_name = 31;</code>
+     * <code>string index_name = 31;</code>
      */
     public Builder clearIndexName() {
       
@@ -1972,7 +1976,7 @@ public  final class Posting extends
       return this;
     }
     /**
-     * <code>optional string index_name = 31;</code>
+     * <code>string index_name = 31;</code>
      */
     public Builder setIndexNameBytes(
         com.google.protobuf.ByteString value) {
@@ -1988,7 +1992,7 @@ public  final class Posting extends
 
     private java.lang.Object documentId_ = "";
     /**
-     * <code>optional string document_id = 32;</code>
+     * <code>string document_id = 32;</code>
      */
     public java.lang.String getDocumentId() {
       java.lang.Object ref = documentId_;
@@ -2003,7 +2007,7 @@ public  final class Posting extends
       }
     }
     /**
-     * <code>optional string document_id = 32;</code>
+     * <code>string document_id = 32;</code>
      */
     public com.google.protobuf.ByteString
         getDocumentIdBytes() {
@@ -2019,7 +2023,7 @@ public  final class Posting extends
       }
     }
     /**
-     * <code>optional string document_id = 32;</code>
+     * <code>string document_id = 32;</code>
      */
     public Builder setDocumentId(
         java.lang.String value) {
@@ -2032,7 +2036,7 @@ public  final class Posting extends
       return this;
     }
     /**
-     * <code>optional string document_id = 32;</code>
+     * <code>string document_id = 32;</code>
      */
     public Builder clearDocumentId() {
       
@@ -2041,7 +2045,7 @@ public  final class Posting extends
       return this;
     }
     /**
-     * <code>optional string document_id = 32;</code>
+     * <code>string document_id = 32;</code>
      */
     public Builder setDocumentIdBytes(
         com.google.protobuf.ByteString value) {

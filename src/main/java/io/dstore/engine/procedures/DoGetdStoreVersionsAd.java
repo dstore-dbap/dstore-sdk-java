@@ -19,38 +19,38 @@ public final class DoGetdStoreVersionsAd {
       com.google.protobuf.MessageOrBuilder {
 
     /**
-     * <code>optional .dstore.values.StringValue procedure_name = 1;</code>
+     * <code>.dstore.values.StringValue procedure_name = 1;</code>
      */
     boolean hasProcedureName();
     /**
-     * <code>optional .dstore.values.StringValue procedure_name = 1;</code>
+     * <code>.dstore.values.StringValue procedure_name = 1;</code>
      */
     io.dstore.values.StringValue getProcedureName();
     /**
-     * <code>optional .dstore.values.StringValue procedure_name = 1;</code>
+     * <code>.dstore.values.StringValue procedure_name = 1;</code>
      */
     io.dstore.values.StringValueOrBuilder getProcedureNameOrBuilder();
 
     /**
-     * <code>optional bool procedure_name_null = 1001;</code>
+     * <code>bool procedure_name_null = 1001;</code>
      */
     boolean getProcedureNameNull();
 
     /**
-     * <code>optional .dstore.values.BooleanValue get_all_versions_for_procedure = 2;</code>
+     * <code>.dstore.values.BooleanValue get_all_versions_for_procedure = 2;</code>
      */
     boolean hasGetAllVersionsForProcedure();
     /**
-     * <code>optional .dstore.values.BooleanValue get_all_versions_for_procedure = 2;</code>
+     * <code>.dstore.values.BooleanValue get_all_versions_for_procedure = 2;</code>
      */
     io.dstore.values.BooleanValue getGetAllVersionsForProcedure();
     /**
-     * <code>optional .dstore.values.BooleanValue get_all_versions_for_procedure = 2;</code>
+     * <code>.dstore.values.BooleanValue get_all_versions_for_procedure = 2;</code>
      */
     io.dstore.values.BooleanValueOrBuilder getGetAllVersionsForProcedureOrBuilder();
 
     /**
-     * <code>optional bool get_all_versions_for_procedure_null = 1002;</code>
+     * <code>bool get_all_versions_for_procedure_null = 1002;</code>
      */
     boolean getGetAllVersionsForProcedureNull();
   }
@@ -157,19 +157,19 @@ public final class DoGetdStoreVersionsAd {
     public static final int PROCEDURE_NAME_FIELD_NUMBER = 1;
     private io.dstore.values.StringValue procedureName_;
     /**
-     * <code>optional .dstore.values.StringValue procedure_name = 1;</code>
+     * <code>.dstore.values.StringValue procedure_name = 1;</code>
      */
     public boolean hasProcedureName() {
       return procedureName_ != null;
     }
     /**
-     * <code>optional .dstore.values.StringValue procedure_name = 1;</code>
+     * <code>.dstore.values.StringValue procedure_name = 1;</code>
      */
     public io.dstore.values.StringValue getProcedureName() {
       return procedureName_ == null ? io.dstore.values.StringValue.getDefaultInstance() : procedureName_;
     }
     /**
-     * <code>optional .dstore.values.StringValue procedure_name = 1;</code>
+     * <code>.dstore.values.StringValue procedure_name = 1;</code>
      */
     public io.dstore.values.StringValueOrBuilder getProcedureNameOrBuilder() {
       return getProcedureName();
@@ -178,7 +178,7 @@ public final class DoGetdStoreVersionsAd {
     public static final int PROCEDURE_NAME_NULL_FIELD_NUMBER = 1001;
     private boolean procedureNameNull_;
     /**
-     * <code>optional bool procedure_name_null = 1001;</code>
+     * <code>bool procedure_name_null = 1001;</code>
      */
     public boolean getProcedureNameNull() {
       return procedureNameNull_;
@@ -187,19 +187,19 @@ public final class DoGetdStoreVersionsAd {
     public static final int GET_ALL_VERSIONS_FOR_PROCEDURE_FIELD_NUMBER = 2;
     private io.dstore.values.BooleanValue getAllVersionsForProcedure_;
     /**
-     * <code>optional .dstore.values.BooleanValue get_all_versions_for_procedure = 2;</code>
+     * <code>.dstore.values.BooleanValue get_all_versions_for_procedure = 2;</code>
      */
     public boolean hasGetAllVersionsForProcedure() {
       return getAllVersionsForProcedure_ != null;
     }
     /**
-     * <code>optional .dstore.values.BooleanValue get_all_versions_for_procedure = 2;</code>
+     * <code>.dstore.values.BooleanValue get_all_versions_for_procedure = 2;</code>
      */
     public io.dstore.values.BooleanValue getGetAllVersionsForProcedure() {
       return getAllVersionsForProcedure_ == null ? io.dstore.values.BooleanValue.getDefaultInstance() : getAllVersionsForProcedure_;
     }
     /**
-     * <code>optional .dstore.values.BooleanValue get_all_versions_for_procedure = 2;</code>
+     * <code>.dstore.values.BooleanValue get_all_versions_for_procedure = 2;</code>
      */
     public io.dstore.values.BooleanValueOrBuilder getGetAllVersionsForProcedureOrBuilder() {
       return getGetAllVersionsForProcedure();
@@ -208,7 +208,7 @@ public final class DoGetdStoreVersionsAd {
     public static final int GET_ALL_VERSIONS_FOR_PROCEDURE_NULL_FIELD_NUMBER = 1002;
     private boolean getAllVersionsForProcedureNull_;
     /**
-     * <code>optional bool get_all_versions_for_procedure_null = 1002;</code>
+     * <code>bool get_all_versions_for_procedure_null = 1002;</code>
      */
     public boolean getGetAllVersionsForProcedureNull() {
       return getAllVersionsForProcedureNull_;
@@ -300,7 +300,7 @@ public final class DoGetdStoreVersionsAd {
         return memoizedHashCode;
       }
       int hash = 41;
-      hash = (19 * hash) + getDescriptorForType().hashCode();
+      hash = (19 * hash) + getDescriptor().hashCode();
       if (hasProcedureName()) {
         hash = (37 * hash) + PROCEDURE_NAME_FIELD_NUMBER;
         hash = (53 * hash) + getProcedureName().hashCode();
@@ -566,13 +566,13 @@ public final class DoGetdStoreVersionsAd {
       private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.values.StringValue, io.dstore.values.StringValue.Builder, io.dstore.values.StringValueOrBuilder> procedureNameBuilder_;
       /**
-       * <code>optional .dstore.values.StringValue procedure_name = 1;</code>
+       * <code>.dstore.values.StringValue procedure_name = 1;</code>
        */
       public boolean hasProcedureName() {
         return procedureNameBuilder_ != null || procedureName_ != null;
       }
       /**
-       * <code>optional .dstore.values.StringValue procedure_name = 1;</code>
+       * <code>.dstore.values.StringValue procedure_name = 1;</code>
        */
       public io.dstore.values.StringValue getProcedureName() {
         if (procedureNameBuilder_ == null) {
@@ -582,7 +582,7 @@ public final class DoGetdStoreVersionsAd {
         }
       }
       /**
-       * <code>optional .dstore.values.StringValue procedure_name = 1;</code>
+       * <code>.dstore.values.StringValue procedure_name = 1;</code>
        */
       public Builder setProcedureName(io.dstore.values.StringValue value) {
         if (procedureNameBuilder_ == null) {
@@ -598,7 +598,7 @@ public final class DoGetdStoreVersionsAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.StringValue procedure_name = 1;</code>
+       * <code>.dstore.values.StringValue procedure_name = 1;</code>
        */
       public Builder setProcedureName(
           io.dstore.values.StringValue.Builder builderForValue) {
@@ -612,7 +612,7 @@ public final class DoGetdStoreVersionsAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.StringValue procedure_name = 1;</code>
+       * <code>.dstore.values.StringValue procedure_name = 1;</code>
        */
       public Builder mergeProcedureName(io.dstore.values.StringValue value) {
         if (procedureNameBuilder_ == null) {
@@ -630,7 +630,7 @@ public final class DoGetdStoreVersionsAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.StringValue procedure_name = 1;</code>
+       * <code>.dstore.values.StringValue procedure_name = 1;</code>
        */
       public Builder clearProcedureName() {
         if (procedureNameBuilder_ == null) {
@@ -644,7 +644,7 @@ public final class DoGetdStoreVersionsAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.StringValue procedure_name = 1;</code>
+       * <code>.dstore.values.StringValue procedure_name = 1;</code>
        */
       public io.dstore.values.StringValue.Builder getProcedureNameBuilder() {
         
@@ -652,7 +652,7 @@ public final class DoGetdStoreVersionsAd {
         return getProcedureNameFieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .dstore.values.StringValue procedure_name = 1;</code>
+       * <code>.dstore.values.StringValue procedure_name = 1;</code>
        */
       public io.dstore.values.StringValueOrBuilder getProcedureNameOrBuilder() {
         if (procedureNameBuilder_ != null) {
@@ -663,7 +663,7 @@ public final class DoGetdStoreVersionsAd {
         }
       }
       /**
-       * <code>optional .dstore.values.StringValue procedure_name = 1;</code>
+       * <code>.dstore.values.StringValue procedure_name = 1;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.values.StringValue, io.dstore.values.StringValue.Builder, io.dstore.values.StringValueOrBuilder> 
@@ -681,13 +681,13 @@ public final class DoGetdStoreVersionsAd {
 
       private boolean procedureNameNull_ ;
       /**
-       * <code>optional bool procedure_name_null = 1001;</code>
+       * <code>bool procedure_name_null = 1001;</code>
        */
       public boolean getProcedureNameNull() {
         return procedureNameNull_;
       }
       /**
-       * <code>optional bool procedure_name_null = 1001;</code>
+       * <code>bool procedure_name_null = 1001;</code>
        */
       public Builder setProcedureNameNull(boolean value) {
         
@@ -696,7 +696,7 @@ public final class DoGetdStoreVersionsAd {
         return this;
       }
       /**
-       * <code>optional bool procedure_name_null = 1001;</code>
+       * <code>bool procedure_name_null = 1001;</code>
        */
       public Builder clearProcedureNameNull() {
         
@@ -709,13 +709,13 @@ public final class DoGetdStoreVersionsAd {
       private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.values.BooleanValue, io.dstore.values.BooleanValue.Builder, io.dstore.values.BooleanValueOrBuilder> getAllVersionsForProcedureBuilder_;
       /**
-       * <code>optional .dstore.values.BooleanValue get_all_versions_for_procedure = 2;</code>
+       * <code>.dstore.values.BooleanValue get_all_versions_for_procedure = 2;</code>
        */
       public boolean hasGetAllVersionsForProcedure() {
         return getAllVersionsForProcedureBuilder_ != null || getAllVersionsForProcedure_ != null;
       }
       /**
-       * <code>optional .dstore.values.BooleanValue get_all_versions_for_procedure = 2;</code>
+       * <code>.dstore.values.BooleanValue get_all_versions_for_procedure = 2;</code>
        */
       public io.dstore.values.BooleanValue getGetAllVersionsForProcedure() {
         if (getAllVersionsForProcedureBuilder_ == null) {
@@ -725,7 +725,7 @@ public final class DoGetdStoreVersionsAd {
         }
       }
       /**
-       * <code>optional .dstore.values.BooleanValue get_all_versions_for_procedure = 2;</code>
+       * <code>.dstore.values.BooleanValue get_all_versions_for_procedure = 2;</code>
        */
       public Builder setGetAllVersionsForProcedure(io.dstore.values.BooleanValue value) {
         if (getAllVersionsForProcedureBuilder_ == null) {
@@ -741,7 +741,7 @@ public final class DoGetdStoreVersionsAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.BooleanValue get_all_versions_for_procedure = 2;</code>
+       * <code>.dstore.values.BooleanValue get_all_versions_for_procedure = 2;</code>
        */
       public Builder setGetAllVersionsForProcedure(
           io.dstore.values.BooleanValue.Builder builderForValue) {
@@ -755,7 +755,7 @@ public final class DoGetdStoreVersionsAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.BooleanValue get_all_versions_for_procedure = 2;</code>
+       * <code>.dstore.values.BooleanValue get_all_versions_for_procedure = 2;</code>
        */
       public Builder mergeGetAllVersionsForProcedure(io.dstore.values.BooleanValue value) {
         if (getAllVersionsForProcedureBuilder_ == null) {
@@ -773,7 +773,7 @@ public final class DoGetdStoreVersionsAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.BooleanValue get_all_versions_for_procedure = 2;</code>
+       * <code>.dstore.values.BooleanValue get_all_versions_for_procedure = 2;</code>
        */
       public Builder clearGetAllVersionsForProcedure() {
         if (getAllVersionsForProcedureBuilder_ == null) {
@@ -787,7 +787,7 @@ public final class DoGetdStoreVersionsAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.BooleanValue get_all_versions_for_procedure = 2;</code>
+       * <code>.dstore.values.BooleanValue get_all_versions_for_procedure = 2;</code>
        */
       public io.dstore.values.BooleanValue.Builder getGetAllVersionsForProcedureBuilder() {
         
@@ -795,7 +795,7 @@ public final class DoGetdStoreVersionsAd {
         return getGetAllVersionsForProcedureFieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .dstore.values.BooleanValue get_all_versions_for_procedure = 2;</code>
+       * <code>.dstore.values.BooleanValue get_all_versions_for_procedure = 2;</code>
        */
       public io.dstore.values.BooleanValueOrBuilder getGetAllVersionsForProcedureOrBuilder() {
         if (getAllVersionsForProcedureBuilder_ != null) {
@@ -806,7 +806,7 @@ public final class DoGetdStoreVersionsAd {
         }
       }
       /**
-       * <code>optional .dstore.values.BooleanValue get_all_versions_for_procedure = 2;</code>
+       * <code>.dstore.values.BooleanValue get_all_versions_for_procedure = 2;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.values.BooleanValue, io.dstore.values.BooleanValue.Builder, io.dstore.values.BooleanValueOrBuilder> 
@@ -824,13 +824,13 @@ public final class DoGetdStoreVersionsAd {
 
       private boolean getAllVersionsForProcedureNull_ ;
       /**
-       * <code>optional bool get_all_versions_for_procedure_null = 1002;</code>
+       * <code>bool get_all_versions_for_procedure_null = 1002;</code>
        */
       public boolean getGetAllVersionsForProcedureNull() {
         return getAllVersionsForProcedureNull_;
       }
       /**
-       * <code>optional bool get_all_versions_for_procedure_null = 1002;</code>
+       * <code>bool get_all_versions_for_procedure_null = 1002;</code>
        */
       public Builder setGetAllVersionsForProcedureNull(boolean value) {
         
@@ -839,7 +839,7 @@ public final class DoGetdStoreVersionsAd {
         return this;
       }
       /**
-       * <code>optional bool get_all_versions_for_procedure_null = 1002;</code>
+       * <code>bool get_all_versions_for_procedure_null = 1002;</code>
        */
       public Builder clearGetAllVersionsForProcedureNull() {
         
@@ -1098,7 +1098,7 @@ public final class DoGetdStoreVersionsAd {
         com.google.protobuf.MessageOrBuilder {
 
       /**
-       * <code>optional int32 row_id = 10000;</code>
+       * <code>int32 row_id = 10000;</code>
        */
       int getRowId();
 
@@ -1107,7 +1107,7 @@ public final class DoGetdStoreVersionsAd {
        * Bestimmt die Reihenfolge von "dStoreVersion" innerhalb aller dStore-Versionen
        * </pre>
        *
-       * <code>optional .dstore.values.IntegerValue version_sort_no = 10001;</code>
+       * <code>.dstore.values.IntegerValue version_sort_no = 10001;</code>
        */
       boolean hasVersionSortNo();
       /**
@@ -1115,7 +1115,7 @@ public final class DoGetdStoreVersionsAd {
        * Bestimmt die Reihenfolge von "dStoreVersion" innerhalb aller dStore-Versionen
        * </pre>
        *
-       * <code>optional .dstore.values.IntegerValue version_sort_no = 10001;</code>
+       * <code>.dstore.values.IntegerValue version_sort_no = 10001;</code>
        */
       io.dstore.values.IntegerValue getVersionSortNo();
       /**
@@ -1123,7 +1123,7 @@ public final class DoGetdStoreVersionsAd {
        * Bestimmt die Reihenfolge von "dStoreVersion" innerhalb aller dStore-Versionen
        * </pre>
        *
-       * <code>optional .dstore.values.IntegerValue version_sort_no = 10001;</code>
+       * <code>.dstore.values.IntegerValue version_sort_no = 10001;</code>
        */
       io.dstore.values.IntegerValueOrBuilder getVersionSortNoOrBuilder();
 
@@ -1132,7 +1132,7 @@ public final class DoGetdStoreVersionsAd {
        * Eine "dStore"-Versionsnummer (von der Form "3.5.17"), die bereits veröffentlicht wurde bzw. zu der es für "&#64;ProcedureName" eine Dokumentation gibt
        * </pre>
        *
-       * <code>optional .dstore.values.StringValue dstore_version = 10002;</code>
+       * <code>.dstore.values.StringValue dstore_version = 10002;</code>
        */
       boolean hasDstoreVersion();
       /**
@@ -1140,7 +1140,7 @@ public final class DoGetdStoreVersionsAd {
        * Eine "dStore"-Versionsnummer (von der Form "3.5.17"), die bereits veröffentlicht wurde bzw. zu der es für "&#64;ProcedureName" eine Dokumentation gibt
        * </pre>
        *
-       * <code>optional .dstore.values.StringValue dstore_version = 10002;</code>
+       * <code>.dstore.values.StringValue dstore_version = 10002;</code>
        */
       io.dstore.values.StringValue getDstoreVersion();
       /**
@@ -1148,7 +1148,7 @@ public final class DoGetdStoreVersionsAd {
        * Eine "dStore"-Versionsnummer (von der Form "3.5.17"), die bereits veröffentlicht wurde bzw. zu der es für "&#64;ProcedureName" eine Dokumentation gibt
        * </pre>
        *
-       * <code>optional .dstore.values.StringValue dstore_version = 10002;</code>
+       * <code>.dstore.values.StringValue dstore_version = 10002;</code>
        */
       io.dstore.values.StringValueOrBuilder getDstoreVersionOrBuilder();
 
@@ -1157,7 +1157,7 @@ public final class DoGetdStoreVersionsAd {
        * Release-Datum der Version
        * </pre>
        *
-       * <code>optional .dstore.values.TimestampValue release_date_and_time = 10003;</code>
+       * <code>.dstore.values.TimestampValue release_date_and_time = 10003;</code>
        */
       boolean hasReleaseDateAndTime();
       /**
@@ -1165,7 +1165,7 @@ public final class DoGetdStoreVersionsAd {
        * Release-Datum der Version
        * </pre>
        *
-       * <code>optional .dstore.values.TimestampValue release_date_and_time = 10003;</code>
+       * <code>.dstore.values.TimestampValue release_date_and_time = 10003;</code>
        */
       io.dstore.values.TimestampValue getReleaseDateAndTime();
       /**
@@ -1173,7 +1173,7 @@ public final class DoGetdStoreVersionsAd {
        * Release-Datum der Version
        * </pre>
        *
-       * <code>optional .dstore.values.TimestampValue release_date_and_time = 10003;</code>
+       * <code>.dstore.values.TimestampValue release_date_and_time = 10003;</code>
        */
       io.dstore.values.TimestampValueOrBuilder getReleaseDateAndTimeOrBuilder();
     }
@@ -1287,7 +1287,7 @@ public final class DoGetdStoreVersionsAd {
       public static final int ROW_ID_FIELD_NUMBER = 10000;
       private int rowId_;
       /**
-       * <code>optional int32 row_id = 10000;</code>
+       * <code>int32 row_id = 10000;</code>
        */
       public int getRowId() {
         return rowId_;
@@ -1300,7 +1300,7 @@ public final class DoGetdStoreVersionsAd {
        * Bestimmt die Reihenfolge von "dStoreVersion" innerhalb aller dStore-Versionen
        * </pre>
        *
-       * <code>optional .dstore.values.IntegerValue version_sort_no = 10001;</code>
+       * <code>.dstore.values.IntegerValue version_sort_no = 10001;</code>
        */
       public boolean hasVersionSortNo() {
         return versionSortNo_ != null;
@@ -1310,7 +1310,7 @@ public final class DoGetdStoreVersionsAd {
        * Bestimmt die Reihenfolge von "dStoreVersion" innerhalb aller dStore-Versionen
        * </pre>
        *
-       * <code>optional .dstore.values.IntegerValue version_sort_no = 10001;</code>
+       * <code>.dstore.values.IntegerValue version_sort_no = 10001;</code>
        */
       public io.dstore.values.IntegerValue getVersionSortNo() {
         return versionSortNo_ == null ? io.dstore.values.IntegerValue.getDefaultInstance() : versionSortNo_;
@@ -1320,7 +1320,7 @@ public final class DoGetdStoreVersionsAd {
        * Bestimmt die Reihenfolge von "dStoreVersion" innerhalb aller dStore-Versionen
        * </pre>
        *
-       * <code>optional .dstore.values.IntegerValue version_sort_no = 10001;</code>
+       * <code>.dstore.values.IntegerValue version_sort_no = 10001;</code>
        */
       public io.dstore.values.IntegerValueOrBuilder getVersionSortNoOrBuilder() {
         return getVersionSortNo();
@@ -1333,7 +1333,7 @@ public final class DoGetdStoreVersionsAd {
        * Eine "dStore"-Versionsnummer (von der Form "3.5.17"), die bereits veröffentlicht wurde bzw. zu der es für "&#64;ProcedureName" eine Dokumentation gibt
        * </pre>
        *
-       * <code>optional .dstore.values.StringValue dstore_version = 10002;</code>
+       * <code>.dstore.values.StringValue dstore_version = 10002;</code>
        */
       public boolean hasDstoreVersion() {
         return dstoreVersion_ != null;
@@ -1343,7 +1343,7 @@ public final class DoGetdStoreVersionsAd {
        * Eine "dStore"-Versionsnummer (von der Form "3.5.17"), die bereits veröffentlicht wurde bzw. zu der es für "&#64;ProcedureName" eine Dokumentation gibt
        * </pre>
        *
-       * <code>optional .dstore.values.StringValue dstore_version = 10002;</code>
+       * <code>.dstore.values.StringValue dstore_version = 10002;</code>
        */
       public io.dstore.values.StringValue getDstoreVersion() {
         return dstoreVersion_ == null ? io.dstore.values.StringValue.getDefaultInstance() : dstoreVersion_;
@@ -1353,7 +1353,7 @@ public final class DoGetdStoreVersionsAd {
        * Eine "dStore"-Versionsnummer (von der Form "3.5.17"), die bereits veröffentlicht wurde bzw. zu der es für "&#64;ProcedureName" eine Dokumentation gibt
        * </pre>
        *
-       * <code>optional .dstore.values.StringValue dstore_version = 10002;</code>
+       * <code>.dstore.values.StringValue dstore_version = 10002;</code>
        */
       public io.dstore.values.StringValueOrBuilder getDstoreVersionOrBuilder() {
         return getDstoreVersion();
@@ -1366,7 +1366,7 @@ public final class DoGetdStoreVersionsAd {
        * Release-Datum der Version
        * </pre>
        *
-       * <code>optional .dstore.values.TimestampValue release_date_and_time = 10003;</code>
+       * <code>.dstore.values.TimestampValue release_date_and_time = 10003;</code>
        */
       public boolean hasReleaseDateAndTime() {
         return releaseDateAndTime_ != null;
@@ -1376,7 +1376,7 @@ public final class DoGetdStoreVersionsAd {
        * Release-Datum der Version
        * </pre>
        *
-       * <code>optional .dstore.values.TimestampValue release_date_and_time = 10003;</code>
+       * <code>.dstore.values.TimestampValue release_date_and_time = 10003;</code>
        */
       public io.dstore.values.TimestampValue getReleaseDateAndTime() {
         return releaseDateAndTime_ == null ? io.dstore.values.TimestampValue.getDefaultInstance() : releaseDateAndTime_;
@@ -1386,7 +1386,7 @@ public final class DoGetdStoreVersionsAd {
        * Release-Datum der Version
        * </pre>
        *
-       * <code>optional .dstore.values.TimestampValue release_date_and_time = 10003;</code>
+       * <code>.dstore.values.TimestampValue release_date_and_time = 10003;</code>
        */
       public io.dstore.values.TimestampValueOrBuilder getReleaseDateAndTimeOrBuilder() {
         return getReleaseDateAndTime();
@@ -1481,7 +1481,7 @@ public final class DoGetdStoreVersionsAd {
           return memoizedHashCode;
         }
         int hash = 41;
-        hash = (19 * hash) + getDescriptorForType().hashCode();
+        hash = (19 * hash) + getDescriptor().hashCode();
         hash = (37 * hash) + ROW_ID_FIELD_NUMBER;
         hash = (53 * hash) + getRowId();
         if (hasVersionSortNo()) {
@@ -1753,13 +1753,13 @@ public final class DoGetdStoreVersionsAd {
 
         private int rowId_ ;
         /**
-         * <code>optional int32 row_id = 10000;</code>
+         * <code>int32 row_id = 10000;</code>
          */
         public int getRowId() {
           return rowId_;
         }
         /**
-         * <code>optional int32 row_id = 10000;</code>
+         * <code>int32 row_id = 10000;</code>
          */
         public Builder setRowId(int value) {
           
@@ -1768,7 +1768,7 @@ public final class DoGetdStoreVersionsAd {
           return this;
         }
         /**
-         * <code>optional int32 row_id = 10000;</code>
+         * <code>int32 row_id = 10000;</code>
          */
         public Builder clearRowId() {
           
@@ -1785,7 +1785,7 @@ public final class DoGetdStoreVersionsAd {
          * Bestimmt die Reihenfolge von "dStoreVersion" innerhalb aller dStore-Versionen
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue version_sort_no = 10001;</code>
+         * <code>.dstore.values.IntegerValue version_sort_no = 10001;</code>
          */
         public boolean hasVersionSortNo() {
           return versionSortNoBuilder_ != null || versionSortNo_ != null;
@@ -1795,7 +1795,7 @@ public final class DoGetdStoreVersionsAd {
          * Bestimmt die Reihenfolge von "dStoreVersion" innerhalb aller dStore-Versionen
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue version_sort_no = 10001;</code>
+         * <code>.dstore.values.IntegerValue version_sort_no = 10001;</code>
          */
         public io.dstore.values.IntegerValue getVersionSortNo() {
           if (versionSortNoBuilder_ == null) {
@@ -1809,7 +1809,7 @@ public final class DoGetdStoreVersionsAd {
          * Bestimmt die Reihenfolge von "dStoreVersion" innerhalb aller dStore-Versionen
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue version_sort_no = 10001;</code>
+         * <code>.dstore.values.IntegerValue version_sort_no = 10001;</code>
          */
         public Builder setVersionSortNo(io.dstore.values.IntegerValue value) {
           if (versionSortNoBuilder_ == null) {
@@ -1829,7 +1829,7 @@ public final class DoGetdStoreVersionsAd {
          * Bestimmt die Reihenfolge von "dStoreVersion" innerhalb aller dStore-Versionen
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue version_sort_no = 10001;</code>
+         * <code>.dstore.values.IntegerValue version_sort_no = 10001;</code>
          */
         public Builder setVersionSortNo(
             io.dstore.values.IntegerValue.Builder builderForValue) {
@@ -1847,7 +1847,7 @@ public final class DoGetdStoreVersionsAd {
          * Bestimmt die Reihenfolge von "dStoreVersion" innerhalb aller dStore-Versionen
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue version_sort_no = 10001;</code>
+         * <code>.dstore.values.IntegerValue version_sort_no = 10001;</code>
          */
         public Builder mergeVersionSortNo(io.dstore.values.IntegerValue value) {
           if (versionSortNoBuilder_ == null) {
@@ -1869,7 +1869,7 @@ public final class DoGetdStoreVersionsAd {
          * Bestimmt die Reihenfolge von "dStoreVersion" innerhalb aller dStore-Versionen
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue version_sort_no = 10001;</code>
+         * <code>.dstore.values.IntegerValue version_sort_no = 10001;</code>
          */
         public Builder clearVersionSortNo() {
           if (versionSortNoBuilder_ == null) {
@@ -1887,7 +1887,7 @@ public final class DoGetdStoreVersionsAd {
          * Bestimmt die Reihenfolge von "dStoreVersion" innerhalb aller dStore-Versionen
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue version_sort_no = 10001;</code>
+         * <code>.dstore.values.IntegerValue version_sort_no = 10001;</code>
          */
         public io.dstore.values.IntegerValue.Builder getVersionSortNoBuilder() {
           
@@ -1899,7 +1899,7 @@ public final class DoGetdStoreVersionsAd {
          * Bestimmt die Reihenfolge von "dStoreVersion" innerhalb aller dStore-Versionen
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue version_sort_no = 10001;</code>
+         * <code>.dstore.values.IntegerValue version_sort_no = 10001;</code>
          */
         public io.dstore.values.IntegerValueOrBuilder getVersionSortNoOrBuilder() {
           if (versionSortNoBuilder_ != null) {
@@ -1914,7 +1914,7 @@ public final class DoGetdStoreVersionsAd {
          * Bestimmt die Reihenfolge von "dStoreVersion" innerhalb aller dStore-Versionen
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue version_sort_no = 10001;</code>
+         * <code>.dstore.values.IntegerValue version_sort_no = 10001;</code>
          */
         private com.google.protobuf.SingleFieldBuilderV3<
             io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> 
@@ -1938,7 +1938,7 @@ public final class DoGetdStoreVersionsAd {
          * Eine "dStore"-Versionsnummer (von der Form "3.5.17"), die bereits veröffentlicht wurde bzw. zu der es für "&#64;ProcedureName" eine Dokumentation gibt
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue dstore_version = 10002;</code>
+         * <code>.dstore.values.StringValue dstore_version = 10002;</code>
          */
         public boolean hasDstoreVersion() {
           return dstoreVersionBuilder_ != null || dstoreVersion_ != null;
@@ -1948,7 +1948,7 @@ public final class DoGetdStoreVersionsAd {
          * Eine "dStore"-Versionsnummer (von der Form "3.5.17"), die bereits veröffentlicht wurde bzw. zu der es für "&#64;ProcedureName" eine Dokumentation gibt
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue dstore_version = 10002;</code>
+         * <code>.dstore.values.StringValue dstore_version = 10002;</code>
          */
         public io.dstore.values.StringValue getDstoreVersion() {
           if (dstoreVersionBuilder_ == null) {
@@ -1962,7 +1962,7 @@ public final class DoGetdStoreVersionsAd {
          * Eine "dStore"-Versionsnummer (von der Form "3.5.17"), die bereits veröffentlicht wurde bzw. zu der es für "&#64;ProcedureName" eine Dokumentation gibt
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue dstore_version = 10002;</code>
+         * <code>.dstore.values.StringValue dstore_version = 10002;</code>
          */
         public Builder setDstoreVersion(io.dstore.values.StringValue value) {
           if (dstoreVersionBuilder_ == null) {
@@ -1982,7 +1982,7 @@ public final class DoGetdStoreVersionsAd {
          * Eine "dStore"-Versionsnummer (von der Form "3.5.17"), die bereits veröffentlicht wurde bzw. zu der es für "&#64;ProcedureName" eine Dokumentation gibt
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue dstore_version = 10002;</code>
+         * <code>.dstore.values.StringValue dstore_version = 10002;</code>
          */
         public Builder setDstoreVersion(
             io.dstore.values.StringValue.Builder builderForValue) {
@@ -2000,7 +2000,7 @@ public final class DoGetdStoreVersionsAd {
          * Eine "dStore"-Versionsnummer (von der Form "3.5.17"), die bereits veröffentlicht wurde bzw. zu der es für "&#64;ProcedureName" eine Dokumentation gibt
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue dstore_version = 10002;</code>
+         * <code>.dstore.values.StringValue dstore_version = 10002;</code>
          */
         public Builder mergeDstoreVersion(io.dstore.values.StringValue value) {
           if (dstoreVersionBuilder_ == null) {
@@ -2022,7 +2022,7 @@ public final class DoGetdStoreVersionsAd {
          * Eine "dStore"-Versionsnummer (von der Form "3.5.17"), die bereits veröffentlicht wurde bzw. zu der es für "&#64;ProcedureName" eine Dokumentation gibt
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue dstore_version = 10002;</code>
+         * <code>.dstore.values.StringValue dstore_version = 10002;</code>
          */
         public Builder clearDstoreVersion() {
           if (dstoreVersionBuilder_ == null) {
@@ -2040,7 +2040,7 @@ public final class DoGetdStoreVersionsAd {
          * Eine "dStore"-Versionsnummer (von der Form "3.5.17"), die bereits veröffentlicht wurde bzw. zu der es für "&#64;ProcedureName" eine Dokumentation gibt
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue dstore_version = 10002;</code>
+         * <code>.dstore.values.StringValue dstore_version = 10002;</code>
          */
         public io.dstore.values.StringValue.Builder getDstoreVersionBuilder() {
           
@@ -2052,7 +2052,7 @@ public final class DoGetdStoreVersionsAd {
          * Eine "dStore"-Versionsnummer (von der Form "3.5.17"), die bereits veröffentlicht wurde bzw. zu der es für "&#64;ProcedureName" eine Dokumentation gibt
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue dstore_version = 10002;</code>
+         * <code>.dstore.values.StringValue dstore_version = 10002;</code>
          */
         public io.dstore.values.StringValueOrBuilder getDstoreVersionOrBuilder() {
           if (dstoreVersionBuilder_ != null) {
@@ -2067,7 +2067,7 @@ public final class DoGetdStoreVersionsAd {
          * Eine "dStore"-Versionsnummer (von der Form "3.5.17"), die bereits veröffentlicht wurde bzw. zu der es für "&#64;ProcedureName" eine Dokumentation gibt
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue dstore_version = 10002;</code>
+         * <code>.dstore.values.StringValue dstore_version = 10002;</code>
          */
         private com.google.protobuf.SingleFieldBuilderV3<
             io.dstore.values.StringValue, io.dstore.values.StringValue.Builder, io.dstore.values.StringValueOrBuilder> 
@@ -2091,7 +2091,7 @@ public final class DoGetdStoreVersionsAd {
          * Release-Datum der Version
          * </pre>
          *
-         * <code>optional .dstore.values.TimestampValue release_date_and_time = 10003;</code>
+         * <code>.dstore.values.TimestampValue release_date_and_time = 10003;</code>
          */
         public boolean hasReleaseDateAndTime() {
           return releaseDateAndTimeBuilder_ != null || releaseDateAndTime_ != null;
@@ -2101,7 +2101,7 @@ public final class DoGetdStoreVersionsAd {
          * Release-Datum der Version
          * </pre>
          *
-         * <code>optional .dstore.values.TimestampValue release_date_and_time = 10003;</code>
+         * <code>.dstore.values.TimestampValue release_date_and_time = 10003;</code>
          */
         public io.dstore.values.TimestampValue getReleaseDateAndTime() {
           if (releaseDateAndTimeBuilder_ == null) {
@@ -2115,7 +2115,7 @@ public final class DoGetdStoreVersionsAd {
          * Release-Datum der Version
          * </pre>
          *
-         * <code>optional .dstore.values.TimestampValue release_date_and_time = 10003;</code>
+         * <code>.dstore.values.TimestampValue release_date_and_time = 10003;</code>
          */
         public Builder setReleaseDateAndTime(io.dstore.values.TimestampValue value) {
           if (releaseDateAndTimeBuilder_ == null) {
@@ -2135,7 +2135,7 @@ public final class DoGetdStoreVersionsAd {
          * Release-Datum der Version
          * </pre>
          *
-         * <code>optional .dstore.values.TimestampValue release_date_and_time = 10003;</code>
+         * <code>.dstore.values.TimestampValue release_date_and_time = 10003;</code>
          */
         public Builder setReleaseDateAndTime(
             io.dstore.values.TimestampValue.Builder builderForValue) {
@@ -2153,7 +2153,7 @@ public final class DoGetdStoreVersionsAd {
          * Release-Datum der Version
          * </pre>
          *
-         * <code>optional .dstore.values.TimestampValue release_date_and_time = 10003;</code>
+         * <code>.dstore.values.TimestampValue release_date_and_time = 10003;</code>
          */
         public Builder mergeReleaseDateAndTime(io.dstore.values.TimestampValue value) {
           if (releaseDateAndTimeBuilder_ == null) {
@@ -2175,7 +2175,7 @@ public final class DoGetdStoreVersionsAd {
          * Release-Datum der Version
          * </pre>
          *
-         * <code>optional .dstore.values.TimestampValue release_date_and_time = 10003;</code>
+         * <code>.dstore.values.TimestampValue release_date_and_time = 10003;</code>
          */
         public Builder clearReleaseDateAndTime() {
           if (releaseDateAndTimeBuilder_ == null) {
@@ -2193,7 +2193,7 @@ public final class DoGetdStoreVersionsAd {
          * Release-Datum der Version
          * </pre>
          *
-         * <code>optional .dstore.values.TimestampValue release_date_and_time = 10003;</code>
+         * <code>.dstore.values.TimestampValue release_date_and_time = 10003;</code>
          */
         public io.dstore.values.TimestampValue.Builder getReleaseDateAndTimeBuilder() {
           
@@ -2205,7 +2205,7 @@ public final class DoGetdStoreVersionsAd {
          * Release-Datum der Version
          * </pre>
          *
-         * <code>optional .dstore.values.TimestampValue release_date_and_time = 10003;</code>
+         * <code>.dstore.values.TimestampValue release_date_and_time = 10003;</code>
          */
         public io.dstore.values.TimestampValueOrBuilder getReleaseDateAndTimeOrBuilder() {
           if (releaseDateAndTimeBuilder_ != null) {
@@ -2220,7 +2220,7 @@ public final class DoGetdStoreVersionsAd {
          * Release-Datum der Version
          * </pre>
          *
-         * <code>optional .dstore.values.TimestampValue release_date_and_time = 10003;</code>
+         * <code>.dstore.values.TimestampValue release_date_and_time = 10003;</code>
          */
         private com.google.protobuf.SingleFieldBuilderV3<
             io.dstore.values.TimestampValue, io.dstore.values.TimestampValue.Builder, io.dstore.values.TimestampValueOrBuilder> 
@@ -2480,7 +2480,7 @@ public final class DoGetdStoreVersionsAd {
         return memoizedHashCode;
       }
       int hash = 41;
-      hash = (19 * hash) + getDescriptorForType().hashCode();
+      hash = (19 * hash) + getDescriptor().hashCode();
       if (getMetaInformationCount() > 0) {
         hash = (37 * hash) + META_INFORMATION_FIELD_NUMBER;
         hash = (53 * hash) + getMetaInformationList().hashCode();

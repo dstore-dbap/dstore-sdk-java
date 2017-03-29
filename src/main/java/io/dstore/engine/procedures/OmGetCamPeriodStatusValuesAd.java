@@ -123,7 +123,7 @@ public final class OmGetCamPeriodStatusValuesAd {
         return memoizedHashCode;
       }
       int hash = 41;
-      hash = (19 * hash) + getDescriptorForType().hashCode();
+      hash = (19 * hash) + getDescriptor().hashCode();
       hash = (29 * hash) + unknownFields.hashCode();
       memoizedHashCode = hash;
       return hash;
@@ -581,7 +581,7 @@ public final class OmGetCamPeriodStatusValuesAd {
         com.google.protobuf.MessageOrBuilder {
 
       /**
-       * <code>optional int32 row_id = 10000;</code>
+       * <code>int32 row_id = 10000;</code>
        */
       int getRowId();
 
@@ -590,7 +590,7 @@ public final class OmGetCamPeriodStatusValuesAd {
        * Klartext des Status-Wertes "PeriodStatusID"
        * </pre>
        *
-       * <code>optional .dstore.values.StringValue period_status_description = 10001;</code>
+       * <code>.dstore.values.StringValue period_status_description = 10001;</code>
        */
       boolean hasPeriodStatusDescription();
       /**
@@ -598,7 +598,7 @@ public final class OmGetCamPeriodStatusValuesAd {
        * Klartext des Status-Wertes "PeriodStatusID"
        * </pre>
        *
-       * <code>optional .dstore.values.StringValue period_status_description = 10001;</code>
+       * <code>.dstore.values.StringValue period_status_description = 10001;</code>
        */
       io.dstore.values.StringValue getPeriodStatusDescription();
       /**
@@ -606,7 +606,7 @@ public final class OmGetCamPeriodStatusValuesAd {
        * Klartext des Status-Wertes "PeriodStatusID"
        * </pre>
        *
-       * <code>optional .dstore.values.StringValue period_status_description = 10001;</code>
+       * <code>.dstore.values.StringValue period_status_description = 10001;</code>
        */
       io.dstore.values.StringValueOrBuilder getPeriodStatusDescriptionOrBuilder();
 
@@ -615,7 +615,7 @@ public final class OmGetCamPeriodStatusValuesAd {
        * ID eines Status-Wertes, in dem sich Gültigkeitszeiträume von Verkaufs-Aktionen befinden können
        * </pre>
        *
-       * <code>optional .dstore.values.IntegerValue period_status_id = 10002;</code>
+       * <code>.dstore.values.IntegerValue period_status_id = 10002;</code>
        */
       boolean hasPeriodStatusId();
       /**
@@ -623,7 +623,7 @@ public final class OmGetCamPeriodStatusValuesAd {
        * ID eines Status-Wertes, in dem sich Gültigkeitszeiträume von Verkaufs-Aktionen befinden können
        * </pre>
        *
-       * <code>optional .dstore.values.IntegerValue period_status_id = 10002;</code>
+       * <code>.dstore.values.IntegerValue period_status_id = 10002;</code>
        */
       io.dstore.values.IntegerValue getPeriodStatusId();
       /**
@@ -631,7 +631,7 @@ public final class OmGetCamPeriodStatusValuesAd {
        * ID eines Status-Wertes, in dem sich Gültigkeitszeiträume von Verkaufs-Aktionen befinden können
        * </pre>
        *
-       * <code>optional .dstore.values.IntegerValue period_status_id = 10002;</code>
+       * <code>.dstore.values.IntegerValue period_status_id = 10002;</code>
        */
       io.dstore.values.IntegerValueOrBuilder getPeriodStatusIdOrBuilder();
     }
@@ -732,7 +732,7 @@ public final class OmGetCamPeriodStatusValuesAd {
       public static final int ROW_ID_FIELD_NUMBER = 10000;
       private int rowId_;
       /**
-       * <code>optional int32 row_id = 10000;</code>
+       * <code>int32 row_id = 10000;</code>
        */
       public int getRowId() {
         return rowId_;
@@ -745,7 +745,7 @@ public final class OmGetCamPeriodStatusValuesAd {
        * Klartext des Status-Wertes "PeriodStatusID"
        * </pre>
        *
-       * <code>optional .dstore.values.StringValue period_status_description = 10001;</code>
+       * <code>.dstore.values.StringValue period_status_description = 10001;</code>
        */
       public boolean hasPeriodStatusDescription() {
         return periodStatusDescription_ != null;
@@ -755,7 +755,7 @@ public final class OmGetCamPeriodStatusValuesAd {
        * Klartext des Status-Wertes "PeriodStatusID"
        * </pre>
        *
-       * <code>optional .dstore.values.StringValue period_status_description = 10001;</code>
+       * <code>.dstore.values.StringValue period_status_description = 10001;</code>
        */
       public io.dstore.values.StringValue getPeriodStatusDescription() {
         return periodStatusDescription_ == null ? io.dstore.values.StringValue.getDefaultInstance() : periodStatusDescription_;
@@ -765,7 +765,7 @@ public final class OmGetCamPeriodStatusValuesAd {
        * Klartext des Status-Wertes "PeriodStatusID"
        * </pre>
        *
-       * <code>optional .dstore.values.StringValue period_status_description = 10001;</code>
+       * <code>.dstore.values.StringValue period_status_description = 10001;</code>
        */
       public io.dstore.values.StringValueOrBuilder getPeriodStatusDescriptionOrBuilder() {
         return getPeriodStatusDescription();
@@ -778,7 +778,7 @@ public final class OmGetCamPeriodStatusValuesAd {
        * ID eines Status-Wertes, in dem sich Gültigkeitszeiträume von Verkaufs-Aktionen befinden können
        * </pre>
        *
-       * <code>optional .dstore.values.IntegerValue period_status_id = 10002;</code>
+       * <code>.dstore.values.IntegerValue period_status_id = 10002;</code>
        */
       public boolean hasPeriodStatusId() {
         return periodStatusId_ != null;
@@ -788,7 +788,7 @@ public final class OmGetCamPeriodStatusValuesAd {
        * ID eines Status-Wertes, in dem sich Gültigkeitszeiträume von Verkaufs-Aktionen befinden können
        * </pre>
        *
-       * <code>optional .dstore.values.IntegerValue period_status_id = 10002;</code>
+       * <code>.dstore.values.IntegerValue period_status_id = 10002;</code>
        */
       public io.dstore.values.IntegerValue getPeriodStatusId() {
         return periodStatusId_ == null ? io.dstore.values.IntegerValue.getDefaultInstance() : periodStatusId_;
@@ -798,7 +798,7 @@ public final class OmGetCamPeriodStatusValuesAd {
        * ID eines Status-Wertes, in dem sich Gültigkeitszeiträume von Verkaufs-Aktionen befinden können
        * </pre>
        *
-       * <code>optional .dstore.values.IntegerValue period_status_id = 10002;</code>
+       * <code>.dstore.values.IntegerValue period_status_id = 10002;</code>
        */
       public io.dstore.values.IntegerValueOrBuilder getPeriodStatusIdOrBuilder() {
         return getPeriodStatusId();
@@ -881,7 +881,7 @@ public final class OmGetCamPeriodStatusValuesAd {
           return memoizedHashCode;
         }
         int hash = 41;
-        hash = (19 * hash) + getDescriptorForType().hashCode();
+        hash = (19 * hash) + getDescriptor().hashCode();
         hash = (37 * hash) + ROW_ID_FIELD_NUMBER;
         hash = (53 * hash) + getRowId();
         if (hasPeriodStatusDescription()) {
@@ -1135,13 +1135,13 @@ public final class OmGetCamPeriodStatusValuesAd {
 
         private int rowId_ ;
         /**
-         * <code>optional int32 row_id = 10000;</code>
+         * <code>int32 row_id = 10000;</code>
          */
         public int getRowId() {
           return rowId_;
         }
         /**
-         * <code>optional int32 row_id = 10000;</code>
+         * <code>int32 row_id = 10000;</code>
          */
         public Builder setRowId(int value) {
           
@@ -1150,7 +1150,7 @@ public final class OmGetCamPeriodStatusValuesAd {
           return this;
         }
         /**
-         * <code>optional int32 row_id = 10000;</code>
+         * <code>int32 row_id = 10000;</code>
          */
         public Builder clearRowId() {
           
@@ -1167,7 +1167,7 @@ public final class OmGetCamPeriodStatusValuesAd {
          * Klartext des Status-Wertes "PeriodStatusID"
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue period_status_description = 10001;</code>
+         * <code>.dstore.values.StringValue period_status_description = 10001;</code>
          */
         public boolean hasPeriodStatusDescription() {
           return periodStatusDescriptionBuilder_ != null || periodStatusDescription_ != null;
@@ -1177,7 +1177,7 @@ public final class OmGetCamPeriodStatusValuesAd {
          * Klartext des Status-Wertes "PeriodStatusID"
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue period_status_description = 10001;</code>
+         * <code>.dstore.values.StringValue period_status_description = 10001;</code>
          */
         public io.dstore.values.StringValue getPeriodStatusDescription() {
           if (periodStatusDescriptionBuilder_ == null) {
@@ -1191,7 +1191,7 @@ public final class OmGetCamPeriodStatusValuesAd {
          * Klartext des Status-Wertes "PeriodStatusID"
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue period_status_description = 10001;</code>
+         * <code>.dstore.values.StringValue period_status_description = 10001;</code>
          */
         public Builder setPeriodStatusDescription(io.dstore.values.StringValue value) {
           if (periodStatusDescriptionBuilder_ == null) {
@@ -1211,7 +1211,7 @@ public final class OmGetCamPeriodStatusValuesAd {
          * Klartext des Status-Wertes "PeriodStatusID"
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue period_status_description = 10001;</code>
+         * <code>.dstore.values.StringValue period_status_description = 10001;</code>
          */
         public Builder setPeriodStatusDescription(
             io.dstore.values.StringValue.Builder builderForValue) {
@@ -1229,7 +1229,7 @@ public final class OmGetCamPeriodStatusValuesAd {
          * Klartext des Status-Wertes "PeriodStatusID"
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue period_status_description = 10001;</code>
+         * <code>.dstore.values.StringValue period_status_description = 10001;</code>
          */
         public Builder mergePeriodStatusDescription(io.dstore.values.StringValue value) {
           if (periodStatusDescriptionBuilder_ == null) {
@@ -1251,7 +1251,7 @@ public final class OmGetCamPeriodStatusValuesAd {
          * Klartext des Status-Wertes "PeriodStatusID"
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue period_status_description = 10001;</code>
+         * <code>.dstore.values.StringValue period_status_description = 10001;</code>
          */
         public Builder clearPeriodStatusDescription() {
           if (periodStatusDescriptionBuilder_ == null) {
@@ -1269,7 +1269,7 @@ public final class OmGetCamPeriodStatusValuesAd {
          * Klartext des Status-Wertes "PeriodStatusID"
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue period_status_description = 10001;</code>
+         * <code>.dstore.values.StringValue period_status_description = 10001;</code>
          */
         public io.dstore.values.StringValue.Builder getPeriodStatusDescriptionBuilder() {
           
@@ -1281,7 +1281,7 @@ public final class OmGetCamPeriodStatusValuesAd {
          * Klartext des Status-Wertes "PeriodStatusID"
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue period_status_description = 10001;</code>
+         * <code>.dstore.values.StringValue period_status_description = 10001;</code>
          */
         public io.dstore.values.StringValueOrBuilder getPeriodStatusDescriptionOrBuilder() {
           if (periodStatusDescriptionBuilder_ != null) {
@@ -1296,7 +1296,7 @@ public final class OmGetCamPeriodStatusValuesAd {
          * Klartext des Status-Wertes "PeriodStatusID"
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue period_status_description = 10001;</code>
+         * <code>.dstore.values.StringValue period_status_description = 10001;</code>
          */
         private com.google.protobuf.SingleFieldBuilderV3<
             io.dstore.values.StringValue, io.dstore.values.StringValue.Builder, io.dstore.values.StringValueOrBuilder> 
@@ -1320,7 +1320,7 @@ public final class OmGetCamPeriodStatusValuesAd {
          * ID eines Status-Wertes, in dem sich Gültigkeitszeiträume von Verkaufs-Aktionen befinden können
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue period_status_id = 10002;</code>
+         * <code>.dstore.values.IntegerValue period_status_id = 10002;</code>
          */
         public boolean hasPeriodStatusId() {
           return periodStatusIdBuilder_ != null || periodStatusId_ != null;
@@ -1330,7 +1330,7 @@ public final class OmGetCamPeriodStatusValuesAd {
          * ID eines Status-Wertes, in dem sich Gültigkeitszeiträume von Verkaufs-Aktionen befinden können
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue period_status_id = 10002;</code>
+         * <code>.dstore.values.IntegerValue period_status_id = 10002;</code>
          */
         public io.dstore.values.IntegerValue getPeriodStatusId() {
           if (periodStatusIdBuilder_ == null) {
@@ -1344,7 +1344,7 @@ public final class OmGetCamPeriodStatusValuesAd {
          * ID eines Status-Wertes, in dem sich Gültigkeitszeiträume von Verkaufs-Aktionen befinden können
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue period_status_id = 10002;</code>
+         * <code>.dstore.values.IntegerValue period_status_id = 10002;</code>
          */
         public Builder setPeriodStatusId(io.dstore.values.IntegerValue value) {
           if (periodStatusIdBuilder_ == null) {
@@ -1364,7 +1364,7 @@ public final class OmGetCamPeriodStatusValuesAd {
          * ID eines Status-Wertes, in dem sich Gültigkeitszeiträume von Verkaufs-Aktionen befinden können
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue period_status_id = 10002;</code>
+         * <code>.dstore.values.IntegerValue period_status_id = 10002;</code>
          */
         public Builder setPeriodStatusId(
             io.dstore.values.IntegerValue.Builder builderForValue) {
@@ -1382,7 +1382,7 @@ public final class OmGetCamPeriodStatusValuesAd {
          * ID eines Status-Wertes, in dem sich Gültigkeitszeiträume von Verkaufs-Aktionen befinden können
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue period_status_id = 10002;</code>
+         * <code>.dstore.values.IntegerValue period_status_id = 10002;</code>
          */
         public Builder mergePeriodStatusId(io.dstore.values.IntegerValue value) {
           if (periodStatusIdBuilder_ == null) {
@@ -1404,7 +1404,7 @@ public final class OmGetCamPeriodStatusValuesAd {
          * ID eines Status-Wertes, in dem sich Gültigkeitszeiträume von Verkaufs-Aktionen befinden können
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue period_status_id = 10002;</code>
+         * <code>.dstore.values.IntegerValue period_status_id = 10002;</code>
          */
         public Builder clearPeriodStatusId() {
           if (periodStatusIdBuilder_ == null) {
@@ -1422,7 +1422,7 @@ public final class OmGetCamPeriodStatusValuesAd {
          * ID eines Status-Wertes, in dem sich Gültigkeitszeiträume von Verkaufs-Aktionen befinden können
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue period_status_id = 10002;</code>
+         * <code>.dstore.values.IntegerValue period_status_id = 10002;</code>
          */
         public io.dstore.values.IntegerValue.Builder getPeriodStatusIdBuilder() {
           
@@ -1434,7 +1434,7 @@ public final class OmGetCamPeriodStatusValuesAd {
          * ID eines Status-Wertes, in dem sich Gültigkeitszeiträume von Verkaufs-Aktionen befinden können
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue period_status_id = 10002;</code>
+         * <code>.dstore.values.IntegerValue period_status_id = 10002;</code>
          */
         public io.dstore.values.IntegerValueOrBuilder getPeriodStatusIdOrBuilder() {
           if (periodStatusIdBuilder_ != null) {
@@ -1449,7 +1449,7 @@ public final class OmGetCamPeriodStatusValuesAd {
          * ID eines Status-Wertes, in dem sich Gültigkeitszeiträume von Verkaufs-Aktionen befinden können
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue period_status_id = 10002;</code>
+         * <code>.dstore.values.IntegerValue period_status_id = 10002;</code>
          */
         private com.google.protobuf.SingleFieldBuilderV3<
             io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> 
@@ -1709,7 +1709,7 @@ public final class OmGetCamPeriodStatusValuesAd {
         return memoizedHashCode;
       }
       int hash = 41;
-      hash = (19 * hash) + getDescriptorForType().hashCode();
+      hash = (19 * hash) + getDescriptor().hashCode();
       if (getMetaInformationCount() > 0) {
         hash = (37 * hash) + META_INFORMATION_FIELD_NUMBER;
         hash = (53 * hash) + getMetaInformationList().hashCode();

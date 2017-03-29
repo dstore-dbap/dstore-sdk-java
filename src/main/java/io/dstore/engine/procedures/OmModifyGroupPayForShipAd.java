@@ -19,56 +19,56 @@ public final class OmModifyGroupPayForShipAd {
       com.google.protobuf.MessageOrBuilder {
 
     /**
-     * <code>optional .dstore.values.IntegerValue group_id = 1;</code>
+     * <code>.dstore.values.IntegerValue group_id = 1;</code>
      */
     boolean hasGroupId();
     /**
-     * <code>optional .dstore.values.IntegerValue group_id = 1;</code>
+     * <code>.dstore.values.IntegerValue group_id = 1;</code>
      */
     io.dstore.values.IntegerValue getGroupId();
     /**
-     * <code>optional .dstore.values.IntegerValue group_id = 1;</code>
+     * <code>.dstore.values.IntegerValue group_id = 1;</code>
      */
     io.dstore.values.IntegerValueOrBuilder getGroupIdOrBuilder();
 
     /**
-     * <code>optional bool group_id_null = 1001;</code>
+     * <code>bool group_id_null = 1001;</code>
      */
     boolean getGroupIdNull();
 
     /**
-     * <code>optional .dstore.values.IntegerValue payment_for_shipping_id = 2;</code>
+     * <code>.dstore.values.IntegerValue payment_for_shipping_id = 2;</code>
      */
     boolean hasPaymentForShippingId();
     /**
-     * <code>optional .dstore.values.IntegerValue payment_for_shipping_id = 2;</code>
+     * <code>.dstore.values.IntegerValue payment_for_shipping_id = 2;</code>
      */
     io.dstore.values.IntegerValue getPaymentForShippingId();
     /**
-     * <code>optional .dstore.values.IntegerValue payment_for_shipping_id = 2;</code>
+     * <code>.dstore.values.IntegerValue payment_for_shipping_id = 2;</code>
      */
     io.dstore.values.IntegerValueOrBuilder getPaymentForShippingIdOrBuilder();
 
     /**
-     * <code>optional bool payment_for_shipping_id_null = 1002;</code>
+     * <code>bool payment_for_shipping_id_null = 1002;</code>
      */
     boolean getPaymentForShippingIdNull();
 
     /**
-     * <code>optional .dstore.values.BooleanValue delete = 3;</code>
+     * <code>.dstore.values.BooleanValue delete = 3;</code>
      */
     boolean hasDelete();
     /**
-     * <code>optional .dstore.values.BooleanValue delete = 3;</code>
+     * <code>.dstore.values.BooleanValue delete = 3;</code>
      */
     io.dstore.values.BooleanValue getDelete();
     /**
-     * <code>optional .dstore.values.BooleanValue delete = 3;</code>
+     * <code>.dstore.values.BooleanValue delete = 3;</code>
      */
     io.dstore.values.BooleanValueOrBuilder getDeleteOrBuilder();
 
     /**
-     * <code>optional bool delete_null = 1003;</code>
+     * <code>bool delete_null = 1003;</code>
      */
     boolean getDeleteNull();
   }
@@ -194,19 +194,19 @@ public final class OmModifyGroupPayForShipAd {
     public static final int GROUP_ID_FIELD_NUMBER = 1;
     private io.dstore.values.IntegerValue groupId_;
     /**
-     * <code>optional .dstore.values.IntegerValue group_id = 1;</code>
+     * <code>.dstore.values.IntegerValue group_id = 1;</code>
      */
     public boolean hasGroupId() {
       return groupId_ != null;
     }
     /**
-     * <code>optional .dstore.values.IntegerValue group_id = 1;</code>
+     * <code>.dstore.values.IntegerValue group_id = 1;</code>
      */
     public io.dstore.values.IntegerValue getGroupId() {
       return groupId_ == null ? io.dstore.values.IntegerValue.getDefaultInstance() : groupId_;
     }
     /**
-     * <code>optional .dstore.values.IntegerValue group_id = 1;</code>
+     * <code>.dstore.values.IntegerValue group_id = 1;</code>
      */
     public io.dstore.values.IntegerValueOrBuilder getGroupIdOrBuilder() {
       return getGroupId();
@@ -215,7 +215,7 @@ public final class OmModifyGroupPayForShipAd {
     public static final int GROUP_ID_NULL_FIELD_NUMBER = 1001;
     private boolean groupIdNull_;
     /**
-     * <code>optional bool group_id_null = 1001;</code>
+     * <code>bool group_id_null = 1001;</code>
      */
     public boolean getGroupIdNull() {
       return groupIdNull_;
@@ -224,19 +224,19 @@ public final class OmModifyGroupPayForShipAd {
     public static final int PAYMENT_FOR_SHIPPING_ID_FIELD_NUMBER = 2;
     private io.dstore.values.IntegerValue paymentForShippingId_;
     /**
-     * <code>optional .dstore.values.IntegerValue payment_for_shipping_id = 2;</code>
+     * <code>.dstore.values.IntegerValue payment_for_shipping_id = 2;</code>
      */
     public boolean hasPaymentForShippingId() {
       return paymentForShippingId_ != null;
     }
     /**
-     * <code>optional .dstore.values.IntegerValue payment_for_shipping_id = 2;</code>
+     * <code>.dstore.values.IntegerValue payment_for_shipping_id = 2;</code>
      */
     public io.dstore.values.IntegerValue getPaymentForShippingId() {
       return paymentForShippingId_ == null ? io.dstore.values.IntegerValue.getDefaultInstance() : paymentForShippingId_;
     }
     /**
-     * <code>optional .dstore.values.IntegerValue payment_for_shipping_id = 2;</code>
+     * <code>.dstore.values.IntegerValue payment_for_shipping_id = 2;</code>
      */
     public io.dstore.values.IntegerValueOrBuilder getPaymentForShippingIdOrBuilder() {
       return getPaymentForShippingId();
@@ -245,7 +245,7 @@ public final class OmModifyGroupPayForShipAd {
     public static final int PAYMENT_FOR_SHIPPING_ID_NULL_FIELD_NUMBER = 1002;
     private boolean paymentForShippingIdNull_;
     /**
-     * <code>optional bool payment_for_shipping_id_null = 1002;</code>
+     * <code>bool payment_for_shipping_id_null = 1002;</code>
      */
     public boolean getPaymentForShippingIdNull() {
       return paymentForShippingIdNull_;
@@ -254,19 +254,19 @@ public final class OmModifyGroupPayForShipAd {
     public static final int DELETE_FIELD_NUMBER = 3;
     private io.dstore.values.BooleanValue delete_;
     /**
-     * <code>optional .dstore.values.BooleanValue delete = 3;</code>
+     * <code>.dstore.values.BooleanValue delete = 3;</code>
      */
     public boolean hasDelete() {
       return delete_ != null;
     }
     /**
-     * <code>optional .dstore.values.BooleanValue delete = 3;</code>
+     * <code>.dstore.values.BooleanValue delete = 3;</code>
      */
     public io.dstore.values.BooleanValue getDelete() {
       return delete_ == null ? io.dstore.values.BooleanValue.getDefaultInstance() : delete_;
     }
     /**
-     * <code>optional .dstore.values.BooleanValue delete = 3;</code>
+     * <code>.dstore.values.BooleanValue delete = 3;</code>
      */
     public io.dstore.values.BooleanValueOrBuilder getDeleteOrBuilder() {
       return getDelete();
@@ -275,7 +275,7 @@ public final class OmModifyGroupPayForShipAd {
     public static final int DELETE_NULL_FIELD_NUMBER = 1003;
     private boolean deleteNull_;
     /**
-     * <code>optional bool delete_null = 1003;</code>
+     * <code>bool delete_null = 1003;</code>
      */
     public boolean getDeleteNull() {
       return deleteNull_;
@@ -388,7 +388,7 @@ public final class OmModifyGroupPayForShipAd {
         return memoizedHashCode;
       }
       int hash = 41;
-      hash = (19 * hash) + getDescriptorForType().hashCode();
+      hash = (19 * hash) + getDescriptor().hashCode();
       if (hasGroupId()) {
         hash = (37 * hash) + GROUP_ID_FIELD_NUMBER;
         hash = (53 * hash) + getGroupId().hashCode();
@@ -681,13 +681,13 @@ public final class OmModifyGroupPayForShipAd {
       private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> groupIdBuilder_;
       /**
-       * <code>optional .dstore.values.IntegerValue group_id = 1;</code>
+       * <code>.dstore.values.IntegerValue group_id = 1;</code>
        */
       public boolean hasGroupId() {
         return groupIdBuilder_ != null || groupId_ != null;
       }
       /**
-       * <code>optional .dstore.values.IntegerValue group_id = 1;</code>
+       * <code>.dstore.values.IntegerValue group_id = 1;</code>
        */
       public io.dstore.values.IntegerValue getGroupId() {
         if (groupIdBuilder_ == null) {
@@ -697,7 +697,7 @@ public final class OmModifyGroupPayForShipAd {
         }
       }
       /**
-       * <code>optional .dstore.values.IntegerValue group_id = 1;</code>
+       * <code>.dstore.values.IntegerValue group_id = 1;</code>
        */
       public Builder setGroupId(io.dstore.values.IntegerValue value) {
         if (groupIdBuilder_ == null) {
@@ -713,7 +713,7 @@ public final class OmModifyGroupPayForShipAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.IntegerValue group_id = 1;</code>
+       * <code>.dstore.values.IntegerValue group_id = 1;</code>
        */
       public Builder setGroupId(
           io.dstore.values.IntegerValue.Builder builderForValue) {
@@ -727,7 +727,7 @@ public final class OmModifyGroupPayForShipAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.IntegerValue group_id = 1;</code>
+       * <code>.dstore.values.IntegerValue group_id = 1;</code>
        */
       public Builder mergeGroupId(io.dstore.values.IntegerValue value) {
         if (groupIdBuilder_ == null) {
@@ -745,7 +745,7 @@ public final class OmModifyGroupPayForShipAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.IntegerValue group_id = 1;</code>
+       * <code>.dstore.values.IntegerValue group_id = 1;</code>
        */
       public Builder clearGroupId() {
         if (groupIdBuilder_ == null) {
@@ -759,7 +759,7 @@ public final class OmModifyGroupPayForShipAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.IntegerValue group_id = 1;</code>
+       * <code>.dstore.values.IntegerValue group_id = 1;</code>
        */
       public io.dstore.values.IntegerValue.Builder getGroupIdBuilder() {
         
@@ -767,7 +767,7 @@ public final class OmModifyGroupPayForShipAd {
         return getGroupIdFieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .dstore.values.IntegerValue group_id = 1;</code>
+       * <code>.dstore.values.IntegerValue group_id = 1;</code>
        */
       public io.dstore.values.IntegerValueOrBuilder getGroupIdOrBuilder() {
         if (groupIdBuilder_ != null) {
@@ -778,7 +778,7 @@ public final class OmModifyGroupPayForShipAd {
         }
       }
       /**
-       * <code>optional .dstore.values.IntegerValue group_id = 1;</code>
+       * <code>.dstore.values.IntegerValue group_id = 1;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> 
@@ -796,13 +796,13 @@ public final class OmModifyGroupPayForShipAd {
 
       private boolean groupIdNull_ ;
       /**
-       * <code>optional bool group_id_null = 1001;</code>
+       * <code>bool group_id_null = 1001;</code>
        */
       public boolean getGroupIdNull() {
         return groupIdNull_;
       }
       /**
-       * <code>optional bool group_id_null = 1001;</code>
+       * <code>bool group_id_null = 1001;</code>
        */
       public Builder setGroupIdNull(boolean value) {
         
@@ -811,7 +811,7 @@ public final class OmModifyGroupPayForShipAd {
         return this;
       }
       /**
-       * <code>optional bool group_id_null = 1001;</code>
+       * <code>bool group_id_null = 1001;</code>
        */
       public Builder clearGroupIdNull() {
         
@@ -824,13 +824,13 @@ public final class OmModifyGroupPayForShipAd {
       private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> paymentForShippingIdBuilder_;
       /**
-       * <code>optional .dstore.values.IntegerValue payment_for_shipping_id = 2;</code>
+       * <code>.dstore.values.IntegerValue payment_for_shipping_id = 2;</code>
        */
       public boolean hasPaymentForShippingId() {
         return paymentForShippingIdBuilder_ != null || paymentForShippingId_ != null;
       }
       /**
-       * <code>optional .dstore.values.IntegerValue payment_for_shipping_id = 2;</code>
+       * <code>.dstore.values.IntegerValue payment_for_shipping_id = 2;</code>
        */
       public io.dstore.values.IntegerValue getPaymentForShippingId() {
         if (paymentForShippingIdBuilder_ == null) {
@@ -840,7 +840,7 @@ public final class OmModifyGroupPayForShipAd {
         }
       }
       /**
-       * <code>optional .dstore.values.IntegerValue payment_for_shipping_id = 2;</code>
+       * <code>.dstore.values.IntegerValue payment_for_shipping_id = 2;</code>
        */
       public Builder setPaymentForShippingId(io.dstore.values.IntegerValue value) {
         if (paymentForShippingIdBuilder_ == null) {
@@ -856,7 +856,7 @@ public final class OmModifyGroupPayForShipAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.IntegerValue payment_for_shipping_id = 2;</code>
+       * <code>.dstore.values.IntegerValue payment_for_shipping_id = 2;</code>
        */
       public Builder setPaymentForShippingId(
           io.dstore.values.IntegerValue.Builder builderForValue) {
@@ -870,7 +870,7 @@ public final class OmModifyGroupPayForShipAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.IntegerValue payment_for_shipping_id = 2;</code>
+       * <code>.dstore.values.IntegerValue payment_for_shipping_id = 2;</code>
        */
       public Builder mergePaymentForShippingId(io.dstore.values.IntegerValue value) {
         if (paymentForShippingIdBuilder_ == null) {
@@ -888,7 +888,7 @@ public final class OmModifyGroupPayForShipAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.IntegerValue payment_for_shipping_id = 2;</code>
+       * <code>.dstore.values.IntegerValue payment_for_shipping_id = 2;</code>
        */
       public Builder clearPaymentForShippingId() {
         if (paymentForShippingIdBuilder_ == null) {
@@ -902,7 +902,7 @@ public final class OmModifyGroupPayForShipAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.IntegerValue payment_for_shipping_id = 2;</code>
+       * <code>.dstore.values.IntegerValue payment_for_shipping_id = 2;</code>
        */
       public io.dstore.values.IntegerValue.Builder getPaymentForShippingIdBuilder() {
         
@@ -910,7 +910,7 @@ public final class OmModifyGroupPayForShipAd {
         return getPaymentForShippingIdFieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .dstore.values.IntegerValue payment_for_shipping_id = 2;</code>
+       * <code>.dstore.values.IntegerValue payment_for_shipping_id = 2;</code>
        */
       public io.dstore.values.IntegerValueOrBuilder getPaymentForShippingIdOrBuilder() {
         if (paymentForShippingIdBuilder_ != null) {
@@ -921,7 +921,7 @@ public final class OmModifyGroupPayForShipAd {
         }
       }
       /**
-       * <code>optional .dstore.values.IntegerValue payment_for_shipping_id = 2;</code>
+       * <code>.dstore.values.IntegerValue payment_for_shipping_id = 2;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> 
@@ -939,13 +939,13 @@ public final class OmModifyGroupPayForShipAd {
 
       private boolean paymentForShippingIdNull_ ;
       /**
-       * <code>optional bool payment_for_shipping_id_null = 1002;</code>
+       * <code>bool payment_for_shipping_id_null = 1002;</code>
        */
       public boolean getPaymentForShippingIdNull() {
         return paymentForShippingIdNull_;
       }
       /**
-       * <code>optional bool payment_for_shipping_id_null = 1002;</code>
+       * <code>bool payment_for_shipping_id_null = 1002;</code>
        */
       public Builder setPaymentForShippingIdNull(boolean value) {
         
@@ -954,7 +954,7 @@ public final class OmModifyGroupPayForShipAd {
         return this;
       }
       /**
-       * <code>optional bool payment_for_shipping_id_null = 1002;</code>
+       * <code>bool payment_for_shipping_id_null = 1002;</code>
        */
       public Builder clearPaymentForShippingIdNull() {
         
@@ -967,13 +967,13 @@ public final class OmModifyGroupPayForShipAd {
       private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.values.BooleanValue, io.dstore.values.BooleanValue.Builder, io.dstore.values.BooleanValueOrBuilder> deleteBuilder_;
       /**
-       * <code>optional .dstore.values.BooleanValue delete = 3;</code>
+       * <code>.dstore.values.BooleanValue delete = 3;</code>
        */
       public boolean hasDelete() {
         return deleteBuilder_ != null || delete_ != null;
       }
       /**
-       * <code>optional .dstore.values.BooleanValue delete = 3;</code>
+       * <code>.dstore.values.BooleanValue delete = 3;</code>
        */
       public io.dstore.values.BooleanValue getDelete() {
         if (deleteBuilder_ == null) {
@@ -983,7 +983,7 @@ public final class OmModifyGroupPayForShipAd {
         }
       }
       /**
-       * <code>optional .dstore.values.BooleanValue delete = 3;</code>
+       * <code>.dstore.values.BooleanValue delete = 3;</code>
        */
       public Builder setDelete(io.dstore.values.BooleanValue value) {
         if (deleteBuilder_ == null) {
@@ -999,7 +999,7 @@ public final class OmModifyGroupPayForShipAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.BooleanValue delete = 3;</code>
+       * <code>.dstore.values.BooleanValue delete = 3;</code>
        */
       public Builder setDelete(
           io.dstore.values.BooleanValue.Builder builderForValue) {
@@ -1013,7 +1013,7 @@ public final class OmModifyGroupPayForShipAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.BooleanValue delete = 3;</code>
+       * <code>.dstore.values.BooleanValue delete = 3;</code>
        */
       public Builder mergeDelete(io.dstore.values.BooleanValue value) {
         if (deleteBuilder_ == null) {
@@ -1031,7 +1031,7 @@ public final class OmModifyGroupPayForShipAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.BooleanValue delete = 3;</code>
+       * <code>.dstore.values.BooleanValue delete = 3;</code>
        */
       public Builder clearDelete() {
         if (deleteBuilder_ == null) {
@@ -1045,7 +1045,7 @@ public final class OmModifyGroupPayForShipAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.BooleanValue delete = 3;</code>
+       * <code>.dstore.values.BooleanValue delete = 3;</code>
        */
       public io.dstore.values.BooleanValue.Builder getDeleteBuilder() {
         
@@ -1053,7 +1053,7 @@ public final class OmModifyGroupPayForShipAd {
         return getDeleteFieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .dstore.values.BooleanValue delete = 3;</code>
+       * <code>.dstore.values.BooleanValue delete = 3;</code>
        */
       public io.dstore.values.BooleanValueOrBuilder getDeleteOrBuilder() {
         if (deleteBuilder_ != null) {
@@ -1064,7 +1064,7 @@ public final class OmModifyGroupPayForShipAd {
         }
       }
       /**
-       * <code>optional .dstore.values.BooleanValue delete = 3;</code>
+       * <code>.dstore.values.BooleanValue delete = 3;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.values.BooleanValue, io.dstore.values.BooleanValue.Builder, io.dstore.values.BooleanValueOrBuilder> 
@@ -1082,13 +1082,13 @@ public final class OmModifyGroupPayForShipAd {
 
       private boolean deleteNull_ ;
       /**
-       * <code>optional bool delete_null = 1003;</code>
+       * <code>bool delete_null = 1003;</code>
        */
       public boolean getDeleteNull() {
         return deleteNull_;
       }
       /**
-       * <code>optional bool delete_null = 1003;</code>
+       * <code>bool delete_null = 1003;</code>
        */
       public Builder setDeleteNull(boolean value) {
         
@@ -1097,7 +1097,7 @@ public final class OmModifyGroupPayForShipAd {
         return this;
       }
       /**
-       * <code>optional bool delete_null = 1003;</code>
+       * <code>bool delete_null = 1003;</code>
        */
       public Builder clearDeleteNull() {
         
@@ -1356,7 +1356,7 @@ public final class OmModifyGroupPayForShipAd {
         com.google.protobuf.MessageOrBuilder {
 
       /**
-       * <code>optional int32 row_id = 10000;</code>
+       * <code>int32 row_id = 10000;</code>
        */
       int getRowId();
     }
@@ -1431,7 +1431,7 @@ public final class OmModifyGroupPayForShipAd {
       public static final int ROW_ID_FIELD_NUMBER = 10000;
       private int rowId_;
       /**
-       * <code>optional int32 row_id = 10000;</code>
+       * <code>int32 row_id = 10000;</code>
        */
       public int getRowId() {
         return rowId_;
@@ -1490,7 +1490,7 @@ public final class OmModifyGroupPayForShipAd {
           return memoizedHashCode;
         }
         int hash = 41;
-        hash = (19 * hash) + getDescriptorForType().hashCode();
+        hash = (19 * hash) + getDescriptor().hashCode();
         hash = (37 * hash) + ROW_ID_FIELD_NUMBER;
         hash = (53 * hash) + getRowId();
         hash = (29 * hash) + unknownFields.hashCode();
@@ -1708,13 +1708,13 @@ public final class OmModifyGroupPayForShipAd {
 
         private int rowId_ ;
         /**
-         * <code>optional int32 row_id = 10000;</code>
+         * <code>int32 row_id = 10000;</code>
          */
         public int getRowId() {
           return rowId_;
         }
         /**
-         * <code>optional int32 row_id = 10000;</code>
+         * <code>int32 row_id = 10000;</code>
          */
         public Builder setRowId(int value) {
           
@@ -1723,7 +1723,7 @@ public final class OmModifyGroupPayForShipAd {
           return this;
         }
         /**
-         * <code>optional int32 row_id = 10000;</code>
+         * <code>int32 row_id = 10000;</code>
          */
         public Builder clearRowId() {
           
@@ -1976,7 +1976,7 @@ public final class OmModifyGroupPayForShipAd {
         return memoizedHashCode;
       }
       int hash = 41;
-      hash = (19 * hash) + getDescriptorForType().hashCode();
+      hash = (19 * hash) + getDescriptor().hashCode();
       if (getMetaInformationCount() > 0) {
         hash = (37 * hash) + META_INFORMATION_FIELD_NUMBER;
         hash = (53 * hash) + getMetaInformationList().hashCode();

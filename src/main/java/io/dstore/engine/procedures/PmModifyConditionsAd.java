@@ -19,110 +19,110 @@ public final class PmModifyConditionsAd {
       com.google.protobuf.MessageOrBuilder {
 
     /**
-     * <code>optional .dstore.values.IntegerValue condition_id = 1;</code>
+     * <code>.dstore.values.IntegerValue condition_id = 1;</code>
      */
     boolean hasConditionId();
     /**
-     * <code>optional .dstore.values.IntegerValue condition_id = 1;</code>
+     * <code>.dstore.values.IntegerValue condition_id = 1;</code>
      */
     io.dstore.values.IntegerValue getConditionId();
     /**
-     * <code>optional .dstore.values.IntegerValue condition_id = 1;</code>
+     * <code>.dstore.values.IntegerValue condition_id = 1;</code>
      */
     io.dstore.values.IntegerValueOrBuilder getConditionIdOrBuilder();
 
     /**
-     * <code>optional bool condition_id_null = 1001;</code>
+     * <code>bool condition_id_null = 1001;</code>
      */
     boolean getConditionIdNull();
 
     /**
-     * <code>optional .dstore.values.IntegerValue condition_position_id = 2;</code>
+     * <code>.dstore.values.IntegerValue condition_position_id = 2;</code>
      */
     boolean hasConditionPositionId();
     /**
-     * <code>optional .dstore.values.IntegerValue condition_position_id = 2;</code>
+     * <code>.dstore.values.IntegerValue condition_position_id = 2;</code>
      */
     io.dstore.values.IntegerValue getConditionPositionId();
     /**
-     * <code>optional .dstore.values.IntegerValue condition_position_id = 2;</code>
+     * <code>.dstore.values.IntegerValue condition_position_id = 2;</code>
      */
     io.dstore.values.IntegerValueOrBuilder getConditionPositionIdOrBuilder();
 
     /**
-     * <code>optional bool condition_position_id_null = 1002;</code>
+     * <code>bool condition_position_id_null = 1002;</code>
      */
     boolean getConditionPositionIdNull();
 
     /**
-     * <code>optional .dstore.values.IntegerValue person_characteristic_id = 3;</code>
+     * <code>.dstore.values.IntegerValue person_characteristic_id = 3;</code>
      */
     boolean hasPersonCharacteristicId();
     /**
-     * <code>optional .dstore.values.IntegerValue person_characteristic_id = 3;</code>
+     * <code>.dstore.values.IntegerValue person_characteristic_id = 3;</code>
      */
     io.dstore.values.IntegerValue getPersonCharacteristicId();
     /**
-     * <code>optional .dstore.values.IntegerValue person_characteristic_id = 3;</code>
+     * <code>.dstore.values.IntegerValue person_characteristic_id = 3;</code>
      */
     io.dstore.values.IntegerValueOrBuilder getPersonCharacteristicIdOrBuilder();
 
     /**
-     * <code>optional bool person_characteristic_id_null = 1003;</code>
+     * <code>bool person_characteristic_id_null = 1003;</code>
      */
     boolean getPersonCharacteristicIdNull();
 
     /**
-     * <code>optional .dstore.values.StringValue condition = 4;</code>
+     * <code>.dstore.values.StringValue condition = 4;</code>
      */
     boolean hasCondition();
     /**
-     * <code>optional .dstore.values.StringValue condition = 4;</code>
+     * <code>.dstore.values.StringValue condition = 4;</code>
      */
     io.dstore.values.StringValue getCondition();
     /**
-     * <code>optional .dstore.values.StringValue condition = 4;</code>
+     * <code>.dstore.values.StringValue condition = 4;</code>
      */
     io.dstore.values.StringValueOrBuilder getConditionOrBuilder();
 
     /**
-     * <code>optional bool condition_null = 1004;</code>
+     * <code>bool condition_null = 1004;</code>
      */
     boolean getConditionNull();
 
     /**
-     * <code>optional .dstore.values.StringValue country = 5;</code>
+     * <code>.dstore.values.StringValue country = 5;</code>
      */
     boolean hasCountry();
     /**
-     * <code>optional .dstore.values.StringValue country = 5;</code>
+     * <code>.dstore.values.StringValue country = 5;</code>
      */
     io.dstore.values.StringValue getCountry();
     /**
-     * <code>optional .dstore.values.StringValue country = 5;</code>
+     * <code>.dstore.values.StringValue country = 5;</code>
      */
     io.dstore.values.StringValueOrBuilder getCountryOrBuilder();
 
     /**
-     * <code>optional bool country_null = 1005;</code>
+     * <code>bool country_null = 1005;</code>
      */
     boolean getCountryNull();
 
     /**
-     * <code>optional .dstore.values.BooleanValue delete_condition_position_id = 6;</code>
+     * <code>.dstore.values.BooleanValue delete_condition_position_id = 6;</code>
      */
     boolean hasDeleteConditionPositionId();
     /**
-     * <code>optional .dstore.values.BooleanValue delete_condition_position_id = 6;</code>
+     * <code>.dstore.values.BooleanValue delete_condition_position_id = 6;</code>
      */
     io.dstore.values.BooleanValue getDeleteConditionPositionId();
     /**
-     * <code>optional .dstore.values.BooleanValue delete_condition_position_id = 6;</code>
+     * <code>.dstore.values.BooleanValue delete_condition_position_id = 6;</code>
      */
     io.dstore.values.BooleanValueOrBuilder getDeleteConditionPositionIdOrBuilder();
 
     /**
-     * <code>optional bool delete_condition_position_id_null = 1006;</code>
+     * <code>bool delete_condition_position_id_null = 1006;</code>
      */
     boolean getDeleteConditionPositionIdNull();
   }
@@ -305,19 +305,19 @@ public final class PmModifyConditionsAd {
     public static final int CONDITION_ID_FIELD_NUMBER = 1;
     private io.dstore.values.IntegerValue conditionId_;
     /**
-     * <code>optional .dstore.values.IntegerValue condition_id = 1;</code>
+     * <code>.dstore.values.IntegerValue condition_id = 1;</code>
      */
     public boolean hasConditionId() {
       return conditionId_ != null;
     }
     /**
-     * <code>optional .dstore.values.IntegerValue condition_id = 1;</code>
+     * <code>.dstore.values.IntegerValue condition_id = 1;</code>
      */
     public io.dstore.values.IntegerValue getConditionId() {
       return conditionId_ == null ? io.dstore.values.IntegerValue.getDefaultInstance() : conditionId_;
     }
     /**
-     * <code>optional .dstore.values.IntegerValue condition_id = 1;</code>
+     * <code>.dstore.values.IntegerValue condition_id = 1;</code>
      */
     public io.dstore.values.IntegerValueOrBuilder getConditionIdOrBuilder() {
       return getConditionId();
@@ -326,7 +326,7 @@ public final class PmModifyConditionsAd {
     public static final int CONDITION_ID_NULL_FIELD_NUMBER = 1001;
     private boolean conditionIdNull_;
     /**
-     * <code>optional bool condition_id_null = 1001;</code>
+     * <code>bool condition_id_null = 1001;</code>
      */
     public boolean getConditionIdNull() {
       return conditionIdNull_;
@@ -335,19 +335,19 @@ public final class PmModifyConditionsAd {
     public static final int CONDITION_POSITION_ID_FIELD_NUMBER = 2;
     private io.dstore.values.IntegerValue conditionPositionId_;
     /**
-     * <code>optional .dstore.values.IntegerValue condition_position_id = 2;</code>
+     * <code>.dstore.values.IntegerValue condition_position_id = 2;</code>
      */
     public boolean hasConditionPositionId() {
       return conditionPositionId_ != null;
     }
     /**
-     * <code>optional .dstore.values.IntegerValue condition_position_id = 2;</code>
+     * <code>.dstore.values.IntegerValue condition_position_id = 2;</code>
      */
     public io.dstore.values.IntegerValue getConditionPositionId() {
       return conditionPositionId_ == null ? io.dstore.values.IntegerValue.getDefaultInstance() : conditionPositionId_;
     }
     /**
-     * <code>optional .dstore.values.IntegerValue condition_position_id = 2;</code>
+     * <code>.dstore.values.IntegerValue condition_position_id = 2;</code>
      */
     public io.dstore.values.IntegerValueOrBuilder getConditionPositionIdOrBuilder() {
       return getConditionPositionId();
@@ -356,7 +356,7 @@ public final class PmModifyConditionsAd {
     public static final int CONDITION_POSITION_ID_NULL_FIELD_NUMBER = 1002;
     private boolean conditionPositionIdNull_;
     /**
-     * <code>optional bool condition_position_id_null = 1002;</code>
+     * <code>bool condition_position_id_null = 1002;</code>
      */
     public boolean getConditionPositionIdNull() {
       return conditionPositionIdNull_;
@@ -365,19 +365,19 @@ public final class PmModifyConditionsAd {
     public static final int PERSON_CHARACTERISTIC_ID_FIELD_NUMBER = 3;
     private io.dstore.values.IntegerValue personCharacteristicId_;
     /**
-     * <code>optional .dstore.values.IntegerValue person_characteristic_id = 3;</code>
+     * <code>.dstore.values.IntegerValue person_characteristic_id = 3;</code>
      */
     public boolean hasPersonCharacteristicId() {
       return personCharacteristicId_ != null;
     }
     /**
-     * <code>optional .dstore.values.IntegerValue person_characteristic_id = 3;</code>
+     * <code>.dstore.values.IntegerValue person_characteristic_id = 3;</code>
      */
     public io.dstore.values.IntegerValue getPersonCharacteristicId() {
       return personCharacteristicId_ == null ? io.dstore.values.IntegerValue.getDefaultInstance() : personCharacteristicId_;
     }
     /**
-     * <code>optional .dstore.values.IntegerValue person_characteristic_id = 3;</code>
+     * <code>.dstore.values.IntegerValue person_characteristic_id = 3;</code>
      */
     public io.dstore.values.IntegerValueOrBuilder getPersonCharacteristicIdOrBuilder() {
       return getPersonCharacteristicId();
@@ -386,7 +386,7 @@ public final class PmModifyConditionsAd {
     public static final int PERSON_CHARACTERISTIC_ID_NULL_FIELD_NUMBER = 1003;
     private boolean personCharacteristicIdNull_;
     /**
-     * <code>optional bool person_characteristic_id_null = 1003;</code>
+     * <code>bool person_characteristic_id_null = 1003;</code>
      */
     public boolean getPersonCharacteristicIdNull() {
       return personCharacteristicIdNull_;
@@ -395,19 +395,19 @@ public final class PmModifyConditionsAd {
     public static final int CONDITION_FIELD_NUMBER = 4;
     private io.dstore.values.StringValue condition_;
     /**
-     * <code>optional .dstore.values.StringValue condition = 4;</code>
+     * <code>.dstore.values.StringValue condition = 4;</code>
      */
     public boolean hasCondition() {
       return condition_ != null;
     }
     /**
-     * <code>optional .dstore.values.StringValue condition = 4;</code>
+     * <code>.dstore.values.StringValue condition = 4;</code>
      */
     public io.dstore.values.StringValue getCondition() {
       return condition_ == null ? io.dstore.values.StringValue.getDefaultInstance() : condition_;
     }
     /**
-     * <code>optional .dstore.values.StringValue condition = 4;</code>
+     * <code>.dstore.values.StringValue condition = 4;</code>
      */
     public io.dstore.values.StringValueOrBuilder getConditionOrBuilder() {
       return getCondition();
@@ -416,7 +416,7 @@ public final class PmModifyConditionsAd {
     public static final int CONDITION_NULL_FIELD_NUMBER = 1004;
     private boolean conditionNull_;
     /**
-     * <code>optional bool condition_null = 1004;</code>
+     * <code>bool condition_null = 1004;</code>
      */
     public boolean getConditionNull() {
       return conditionNull_;
@@ -425,19 +425,19 @@ public final class PmModifyConditionsAd {
     public static final int COUNTRY_FIELD_NUMBER = 5;
     private io.dstore.values.StringValue country_;
     /**
-     * <code>optional .dstore.values.StringValue country = 5;</code>
+     * <code>.dstore.values.StringValue country = 5;</code>
      */
     public boolean hasCountry() {
       return country_ != null;
     }
     /**
-     * <code>optional .dstore.values.StringValue country = 5;</code>
+     * <code>.dstore.values.StringValue country = 5;</code>
      */
     public io.dstore.values.StringValue getCountry() {
       return country_ == null ? io.dstore.values.StringValue.getDefaultInstance() : country_;
     }
     /**
-     * <code>optional .dstore.values.StringValue country = 5;</code>
+     * <code>.dstore.values.StringValue country = 5;</code>
      */
     public io.dstore.values.StringValueOrBuilder getCountryOrBuilder() {
       return getCountry();
@@ -446,7 +446,7 @@ public final class PmModifyConditionsAd {
     public static final int COUNTRY_NULL_FIELD_NUMBER = 1005;
     private boolean countryNull_;
     /**
-     * <code>optional bool country_null = 1005;</code>
+     * <code>bool country_null = 1005;</code>
      */
     public boolean getCountryNull() {
       return countryNull_;
@@ -455,19 +455,19 @@ public final class PmModifyConditionsAd {
     public static final int DELETE_CONDITION_POSITION_ID_FIELD_NUMBER = 6;
     private io.dstore.values.BooleanValue deleteConditionPositionId_;
     /**
-     * <code>optional .dstore.values.BooleanValue delete_condition_position_id = 6;</code>
+     * <code>.dstore.values.BooleanValue delete_condition_position_id = 6;</code>
      */
     public boolean hasDeleteConditionPositionId() {
       return deleteConditionPositionId_ != null;
     }
     /**
-     * <code>optional .dstore.values.BooleanValue delete_condition_position_id = 6;</code>
+     * <code>.dstore.values.BooleanValue delete_condition_position_id = 6;</code>
      */
     public io.dstore.values.BooleanValue getDeleteConditionPositionId() {
       return deleteConditionPositionId_ == null ? io.dstore.values.BooleanValue.getDefaultInstance() : deleteConditionPositionId_;
     }
     /**
-     * <code>optional .dstore.values.BooleanValue delete_condition_position_id = 6;</code>
+     * <code>.dstore.values.BooleanValue delete_condition_position_id = 6;</code>
      */
     public io.dstore.values.BooleanValueOrBuilder getDeleteConditionPositionIdOrBuilder() {
       return getDeleteConditionPositionId();
@@ -476,7 +476,7 @@ public final class PmModifyConditionsAd {
     public static final int DELETE_CONDITION_POSITION_ID_NULL_FIELD_NUMBER = 1006;
     private boolean deleteConditionPositionIdNull_;
     /**
-     * <code>optional bool delete_condition_position_id_null = 1006;</code>
+     * <code>bool delete_condition_position_id_null = 1006;</code>
      */
     public boolean getDeleteConditionPositionIdNull() {
       return deleteConditionPositionIdNull_;
@@ -652,7 +652,7 @@ public final class PmModifyConditionsAd {
         return memoizedHashCode;
       }
       int hash = 41;
-      hash = (19 * hash) + getDescriptorForType().hashCode();
+      hash = (19 * hash) + getDescriptor().hashCode();
       if (hasConditionId()) {
         hash = (37 * hash) + CONDITION_ID_FIELD_NUMBER;
         hash = (53 * hash) + getConditionId().hashCode();
@@ -1026,13 +1026,13 @@ public final class PmModifyConditionsAd {
       private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> conditionIdBuilder_;
       /**
-       * <code>optional .dstore.values.IntegerValue condition_id = 1;</code>
+       * <code>.dstore.values.IntegerValue condition_id = 1;</code>
        */
       public boolean hasConditionId() {
         return conditionIdBuilder_ != null || conditionId_ != null;
       }
       /**
-       * <code>optional .dstore.values.IntegerValue condition_id = 1;</code>
+       * <code>.dstore.values.IntegerValue condition_id = 1;</code>
        */
       public io.dstore.values.IntegerValue getConditionId() {
         if (conditionIdBuilder_ == null) {
@@ -1042,7 +1042,7 @@ public final class PmModifyConditionsAd {
         }
       }
       /**
-       * <code>optional .dstore.values.IntegerValue condition_id = 1;</code>
+       * <code>.dstore.values.IntegerValue condition_id = 1;</code>
        */
       public Builder setConditionId(io.dstore.values.IntegerValue value) {
         if (conditionIdBuilder_ == null) {
@@ -1058,7 +1058,7 @@ public final class PmModifyConditionsAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.IntegerValue condition_id = 1;</code>
+       * <code>.dstore.values.IntegerValue condition_id = 1;</code>
        */
       public Builder setConditionId(
           io.dstore.values.IntegerValue.Builder builderForValue) {
@@ -1072,7 +1072,7 @@ public final class PmModifyConditionsAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.IntegerValue condition_id = 1;</code>
+       * <code>.dstore.values.IntegerValue condition_id = 1;</code>
        */
       public Builder mergeConditionId(io.dstore.values.IntegerValue value) {
         if (conditionIdBuilder_ == null) {
@@ -1090,7 +1090,7 @@ public final class PmModifyConditionsAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.IntegerValue condition_id = 1;</code>
+       * <code>.dstore.values.IntegerValue condition_id = 1;</code>
        */
       public Builder clearConditionId() {
         if (conditionIdBuilder_ == null) {
@@ -1104,7 +1104,7 @@ public final class PmModifyConditionsAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.IntegerValue condition_id = 1;</code>
+       * <code>.dstore.values.IntegerValue condition_id = 1;</code>
        */
       public io.dstore.values.IntegerValue.Builder getConditionIdBuilder() {
         
@@ -1112,7 +1112,7 @@ public final class PmModifyConditionsAd {
         return getConditionIdFieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .dstore.values.IntegerValue condition_id = 1;</code>
+       * <code>.dstore.values.IntegerValue condition_id = 1;</code>
        */
       public io.dstore.values.IntegerValueOrBuilder getConditionIdOrBuilder() {
         if (conditionIdBuilder_ != null) {
@@ -1123,7 +1123,7 @@ public final class PmModifyConditionsAd {
         }
       }
       /**
-       * <code>optional .dstore.values.IntegerValue condition_id = 1;</code>
+       * <code>.dstore.values.IntegerValue condition_id = 1;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> 
@@ -1141,13 +1141,13 @@ public final class PmModifyConditionsAd {
 
       private boolean conditionIdNull_ ;
       /**
-       * <code>optional bool condition_id_null = 1001;</code>
+       * <code>bool condition_id_null = 1001;</code>
        */
       public boolean getConditionIdNull() {
         return conditionIdNull_;
       }
       /**
-       * <code>optional bool condition_id_null = 1001;</code>
+       * <code>bool condition_id_null = 1001;</code>
        */
       public Builder setConditionIdNull(boolean value) {
         
@@ -1156,7 +1156,7 @@ public final class PmModifyConditionsAd {
         return this;
       }
       /**
-       * <code>optional bool condition_id_null = 1001;</code>
+       * <code>bool condition_id_null = 1001;</code>
        */
       public Builder clearConditionIdNull() {
         
@@ -1169,13 +1169,13 @@ public final class PmModifyConditionsAd {
       private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> conditionPositionIdBuilder_;
       /**
-       * <code>optional .dstore.values.IntegerValue condition_position_id = 2;</code>
+       * <code>.dstore.values.IntegerValue condition_position_id = 2;</code>
        */
       public boolean hasConditionPositionId() {
         return conditionPositionIdBuilder_ != null || conditionPositionId_ != null;
       }
       /**
-       * <code>optional .dstore.values.IntegerValue condition_position_id = 2;</code>
+       * <code>.dstore.values.IntegerValue condition_position_id = 2;</code>
        */
       public io.dstore.values.IntegerValue getConditionPositionId() {
         if (conditionPositionIdBuilder_ == null) {
@@ -1185,7 +1185,7 @@ public final class PmModifyConditionsAd {
         }
       }
       /**
-       * <code>optional .dstore.values.IntegerValue condition_position_id = 2;</code>
+       * <code>.dstore.values.IntegerValue condition_position_id = 2;</code>
        */
       public Builder setConditionPositionId(io.dstore.values.IntegerValue value) {
         if (conditionPositionIdBuilder_ == null) {
@@ -1201,7 +1201,7 @@ public final class PmModifyConditionsAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.IntegerValue condition_position_id = 2;</code>
+       * <code>.dstore.values.IntegerValue condition_position_id = 2;</code>
        */
       public Builder setConditionPositionId(
           io.dstore.values.IntegerValue.Builder builderForValue) {
@@ -1215,7 +1215,7 @@ public final class PmModifyConditionsAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.IntegerValue condition_position_id = 2;</code>
+       * <code>.dstore.values.IntegerValue condition_position_id = 2;</code>
        */
       public Builder mergeConditionPositionId(io.dstore.values.IntegerValue value) {
         if (conditionPositionIdBuilder_ == null) {
@@ -1233,7 +1233,7 @@ public final class PmModifyConditionsAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.IntegerValue condition_position_id = 2;</code>
+       * <code>.dstore.values.IntegerValue condition_position_id = 2;</code>
        */
       public Builder clearConditionPositionId() {
         if (conditionPositionIdBuilder_ == null) {
@@ -1247,7 +1247,7 @@ public final class PmModifyConditionsAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.IntegerValue condition_position_id = 2;</code>
+       * <code>.dstore.values.IntegerValue condition_position_id = 2;</code>
        */
       public io.dstore.values.IntegerValue.Builder getConditionPositionIdBuilder() {
         
@@ -1255,7 +1255,7 @@ public final class PmModifyConditionsAd {
         return getConditionPositionIdFieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .dstore.values.IntegerValue condition_position_id = 2;</code>
+       * <code>.dstore.values.IntegerValue condition_position_id = 2;</code>
        */
       public io.dstore.values.IntegerValueOrBuilder getConditionPositionIdOrBuilder() {
         if (conditionPositionIdBuilder_ != null) {
@@ -1266,7 +1266,7 @@ public final class PmModifyConditionsAd {
         }
       }
       /**
-       * <code>optional .dstore.values.IntegerValue condition_position_id = 2;</code>
+       * <code>.dstore.values.IntegerValue condition_position_id = 2;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> 
@@ -1284,13 +1284,13 @@ public final class PmModifyConditionsAd {
 
       private boolean conditionPositionIdNull_ ;
       /**
-       * <code>optional bool condition_position_id_null = 1002;</code>
+       * <code>bool condition_position_id_null = 1002;</code>
        */
       public boolean getConditionPositionIdNull() {
         return conditionPositionIdNull_;
       }
       /**
-       * <code>optional bool condition_position_id_null = 1002;</code>
+       * <code>bool condition_position_id_null = 1002;</code>
        */
       public Builder setConditionPositionIdNull(boolean value) {
         
@@ -1299,7 +1299,7 @@ public final class PmModifyConditionsAd {
         return this;
       }
       /**
-       * <code>optional bool condition_position_id_null = 1002;</code>
+       * <code>bool condition_position_id_null = 1002;</code>
        */
       public Builder clearConditionPositionIdNull() {
         
@@ -1312,13 +1312,13 @@ public final class PmModifyConditionsAd {
       private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> personCharacteristicIdBuilder_;
       /**
-       * <code>optional .dstore.values.IntegerValue person_characteristic_id = 3;</code>
+       * <code>.dstore.values.IntegerValue person_characteristic_id = 3;</code>
        */
       public boolean hasPersonCharacteristicId() {
         return personCharacteristicIdBuilder_ != null || personCharacteristicId_ != null;
       }
       /**
-       * <code>optional .dstore.values.IntegerValue person_characteristic_id = 3;</code>
+       * <code>.dstore.values.IntegerValue person_characteristic_id = 3;</code>
        */
       public io.dstore.values.IntegerValue getPersonCharacteristicId() {
         if (personCharacteristicIdBuilder_ == null) {
@@ -1328,7 +1328,7 @@ public final class PmModifyConditionsAd {
         }
       }
       /**
-       * <code>optional .dstore.values.IntegerValue person_characteristic_id = 3;</code>
+       * <code>.dstore.values.IntegerValue person_characteristic_id = 3;</code>
        */
       public Builder setPersonCharacteristicId(io.dstore.values.IntegerValue value) {
         if (personCharacteristicIdBuilder_ == null) {
@@ -1344,7 +1344,7 @@ public final class PmModifyConditionsAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.IntegerValue person_characteristic_id = 3;</code>
+       * <code>.dstore.values.IntegerValue person_characteristic_id = 3;</code>
        */
       public Builder setPersonCharacteristicId(
           io.dstore.values.IntegerValue.Builder builderForValue) {
@@ -1358,7 +1358,7 @@ public final class PmModifyConditionsAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.IntegerValue person_characteristic_id = 3;</code>
+       * <code>.dstore.values.IntegerValue person_characteristic_id = 3;</code>
        */
       public Builder mergePersonCharacteristicId(io.dstore.values.IntegerValue value) {
         if (personCharacteristicIdBuilder_ == null) {
@@ -1376,7 +1376,7 @@ public final class PmModifyConditionsAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.IntegerValue person_characteristic_id = 3;</code>
+       * <code>.dstore.values.IntegerValue person_characteristic_id = 3;</code>
        */
       public Builder clearPersonCharacteristicId() {
         if (personCharacteristicIdBuilder_ == null) {
@@ -1390,7 +1390,7 @@ public final class PmModifyConditionsAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.IntegerValue person_characteristic_id = 3;</code>
+       * <code>.dstore.values.IntegerValue person_characteristic_id = 3;</code>
        */
       public io.dstore.values.IntegerValue.Builder getPersonCharacteristicIdBuilder() {
         
@@ -1398,7 +1398,7 @@ public final class PmModifyConditionsAd {
         return getPersonCharacteristicIdFieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .dstore.values.IntegerValue person_characteristic_id = 3;</code>
+       * <code>.dstore.values.IntegerValue person_characteristic_id = 3;</code>
        */
       public io.dstore.values.IntegerValueOrBuilder getPersonCharacteristicIdOrBuilder() {
         if (personCharacteristicIdBuilder_ != null) {
@@ -1409,7 +1409,7 @@ public final class PmModifyConditionsAd {
         }
       }
       /**
-       * <code>optional .dstore.values.IntegerValue person_characteristic_id = 3;</code>
+       * <code>.dstore.values.IntegerValue person_characteristic_id = 3;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> 
@@ -1427,13 +1427,13 @@ public final class PmModifyConditionsAd {
 
       private boolean personCharacteristicIdNull_ ;
       /**
-       * <code>optional bool person_characteristic_id_null = 1003;</code>
+       * <code>bool person_characteristic_id_null = 1003;</code>
        */
       public boolean getPersonCharacteristicIdNull() {
         return personCharacteristicIdNull_;
       }
       /**
-       * <code>optional bool person_characteristic_id_null = 1003;</code>
+       * <code>bool person_characteristic_id_null = 1003;</code>
        */
       public Builder setPersonCharacteristicIdNull(boolean value) {
         
@@ -1442,7 +1442,7 @@ public final class PmModifyConditionsAd {
         return this;
       }
       /**
-       * <code>optional bool person_characteristic_id_null = 1003;</code>
+       * <code>bool person_characteristic_id_null = 1003;</code>
        */
       public Builder clearPersonCharacteristicIdNull() {
         
@@ -1455,13 +1455,13 @@ public final class PmModifyConditionsAd {
       private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.values.StringValue, io.dstore.values.StringValue.Builder, io.dstore.values.StringValueOrBuilder> conditionBuilder_;
       /**
-       * <code>optional .dstore.values.StringValue condition = 4;</code>
+       * <code>.dstore.values.StringValue condition = 4;</code>
        */
       public boolean hasCondition() {
         return conditionBuilder_ != null || condition_ != null;
       }
       /**
-       * <code>optional .dstore.values.StringValue condition = 4;</code>
+       * <code>.dstore.values.StringValue condition = 4;</code>
        */
       public io.dstore.values.StringValue getCondition() {
         if (conditionBuilder_ == null) {
@@ -1471,7 +1471,7 @@ public final class PmModifyConditionsAd {
         }
       }
       /**
-       * <code>optional .dstore.values.StringValue condition = 4;</code>
+       * <code>.dstore.values.StringValue condition = 4;</code>
        */
       public Builder setCondition(io.dstore.values.StringValue value) {
         if (conditionBuilder_ == null) {
@@ -1487,7 +1487,7 @@ public final class PmModifyConditionsAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.StringValue condition = 4;</code>
+       * <code>.dstore.values.StringValue condition = 4;</code>
        */
       public Builder setCondition(
           io.dstore.values.StringValue.Builder builderForValue) {
@@ -1501,7 +1501,7 @@ public final class PmModifyConditionsAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.StringValue condition = 4;</code>
+       * <code>.dstore.values.StringValue condition = 4;</code>
        */
       public Builder mergeCondition(io.dstore.values.StringValue value) {
         if (conditionBuilder_ == null) {
@@ -1519,7 +1519,7 @@ public final class PmModifyConditionsAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.StringValue condition = 4;</code>
+       * <code>.dstore.values.StringValue condition = 4;</code>
        */
       public Builder clearCondition() {
         if (conditionBuilder_ == null) {
@@ -1533,7 +1533,7 @@ public final class PmModifyConditionsAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.StringValue condition = 4;</code>
+       * <code>.dstore.values.StringValue condition = 4;</code>
        */
       public io.dstore.values.StringValue.Builder getConditionBuilder() {
         
@@ -1541,7 +1541,7 @@ public final class PmModifyConditionsAd {
         return getConditionFieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .dstore.values.StringValue condition = 4;</code>
+       * <code>.dstore.values.StringValue condition = 4;</code>
        */
       public io.dstore.values.StringValueOrBuilder getConditionOrBuilder() {
         if (conditionBuilder_ != null) {
@@ -1552,7 +1552,7 @@ public final class PmModifyConditionsAd {
         }
       }
       /**
-       * <code>optional .dstore.values.StringValue condition = 4;</code>
+       * <code>.dstore.values.StringValue condition = 4;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.values.StringValue, io.dstore.values.StringValue.Builder, io.dstore.values.StringValueOrBuilder> 
@@ -1570,13 +1570,13 @@ public final class PmModifyConditionsAd {
 
       private boolean conditionNull_ ;
       /**
-       * <code>optional bool condition_null = 1004;</code>
+       * <code>bool condition_null = 1004;</code>
        */
       public boolean getConditionNull() {
         return conditionNull_;
       }
       /**
-       * <code>optional bool condition_null = 1004;</code>
+       * <code>bool condition_null = 1004;</code>
        */
       public Builder setConditionNull(boolean value) {
         
@@ -1585,7 +1585,7 @@ public final class PmModifyConditionsAd {
         return this;
       }
       /**
-       * <code>optional bool condition_null = 1004;</code>
+       * <code>bool condition_null = 1004;</code>
        */
       public Builder clearConditionNull() {
         
@@ -1598,13 +1598,13 @@ public final class PmModifyConditionsAd {
       private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.values.StringValue, io.dstore.values.StringValue.Builder, io.dstore.values.StringValueOrBuilder> countryBuilder_;
       /**
-       * <code>optional .dstore.values.StringValue country = 5;</code>
+       * <code>.dstore.values.StringValue country = 5;</code>
        */
       public boolean hasCountry() {
         return countryBuilder_ != null || country_ != null;
       }
       /**
-       * <code>optional .dstore.values.StringValue country = 5;</code>
+       * <code>.dstore.values.StringValue country = 5;</code>
        */
       public io.dstore.values.StringValue getCountry() {
         if (countryBuilder_ == null) {
@@ -1614,7 +1614,7 @@ public final class PmModifyConditionsAd {
         }
       }
       /**
-       * <code>optional .dstore.values.StringValue country = 5;</code>
+       * <code>.dstore.values.StringValue country = 5;</code>
        */
       public Builder setCountry(io.dstore.values.StringValue value) {
         if (countryBuilder_ == null) {
@@ -1630,7 +1630,7 @@ public final class PmModifyConditionsAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.StringValue country = 5;</code>
+       * <code>.dstore.values.StringValue country = 5;</code>
        */
       public Builder setCountry(
           io.dstore.values.StringValue.Builder builderForValue) {
@@ -1644,7 +1644,7 @@ public final class PmModifyConditionsAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.StringValue country = 5;</code>
+       * <code>.dstore.values.StringValue country = 5;</code>
        */
       public Builder mergeCountry(io.dstore.values.StringValue value) {
         if (countryBuilder_ == null) {
@@ -1662,7 +1662,7 @@ public final class PmModifyConditionsAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.StringValue country = 5;</code>
+       * <code>.dstore.values.StringValue country = 5;</code>
        */
       public Builder clearCountry() {
         if (countryBuilder_ == null) {
@@ -1676,7 +1676,7 @@ public final class PmModifyConditionsAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.StringValue country = 5;</code>
+       * <code>.dstore.values.StringValue country = 5;</code>
        */
       public io.dstore.values.StringValue.Builder getCountryBuilder() {
         
@@ -1684,7 +1684,7 @@ public final class PmModifyConditionsAd {
         return getCountryFieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .dstore.values.StringValue country = 5;</code>
+       * <code>.dstore.values.StringValue country = 5;</code>
        */
       public io.dstore.values.StringValueOrBuilder getCountryOrBuilder() {
         if (countryBuilder_ != null) {
@@ -1695,7 +1695,7 @@ public final class PmModifyConditionsAd {
         }
       }
       /**
-       * <code>optional .dstore.values.StringValue country = 5;</code>
+       * <code>.dstore.values.StringValue country = 5;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.values.StringValue, io.dstore.values.StringValue.Builder, io.dstore.values.StringValueOrBuilder> 
@@ -1713,13 +1713,13 @@ public final class PmModifyConditionsAd {
 
       private boolean countryNull_ ;
       /**
-       * <code>optional bool country_null = 1005;</code>
+       * <code>bool country_null = 1005;</code>
        */
       public boolean getCountryNull() {
         return countryNull_;
       }
       /**
-       * <code>optional bool country_null = 1005;</code>
+       * <code>bool country_null = 1005;</code>
        */
       public Builder setCountryNull(boolean value) {
         
@@ -1728,7 +1728,7 @@ public final class PmModifyConditionsAd {
         return this;
       }
       /**
-       * <code>optional bool country_null = 1005;</code>
+       * <code>bool country_null = 1005;</code>
        */
       public Builder clearCountryNull() {
         
@@ -1741,13 +1741,13 @@ public final class PmModifyConditionsAd {
       private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.values.BooleanValue, io.dstore.values.BooleanValue.Builder, io.dstore.values.BooleanValueOrBuilder> deleteConditionPositionIdBuilder_;
       /**
-       * <code>optional .dstore.values.BooleanValue delete_condition_position_id = 6;</code>
+       * <code>.dstore.values.BooleanValue delete_condition_position_id = 6;</code>
        */
       public boolean hasDeleteConditionPositionId() {
         return deleteConditionPositionIdBuilder_ != null || deleteConditionPositionId_ != null;
       }
       /**
-       * <code>optional .dstore.values.BooleanValue delete_condition_position_id = 6;</code>
+       * <code>.dstore.values.BooleanValue delete_condition_position_id = 6;</code>
        */
       public io.dstore.values.BooleanValue getDeleteConditionPositionId() {
         if (deleteConditionPositionIdBuilder_ == null) {
@@ -1757,7 +1757,7 @@ public final class PmModifyConditionsAd {
         }
       }
       /**
-       * <code>optional .dstore.values.BooleanValue delete_condition_position_id = 6;</code>
+       * <code>.dstore.values.BooleanValue delete_condition_position_id = 6;</code>
        */
       public Builder setDeleteConditionPositionId(io.dstore.values.BooleanValue value) {
         if (deleteConditionPositionIdBuilder_ == null) {
@@ -1773,7 +1773,7 @@ public final class PmModifyConditionsAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.BooleanValue delete_condition_position_id = 6;</code>
+       * <code>.dstore.values.BooleanValue delete_condition_position_id = 6;</code>
        */
       public Builder setDeleteConditionPositionId(
           io.dstore.values.BooleanValue.Builder builderForValue) {
@@ -1787,7 +1787,7 @@ public final class PmModifyConditionsAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.BooleanValue delete_condition_position_id = 6;</code>
+       * <code>.dstore.values.BooleanValue delete_condition_position_id = 6;</code>
        */
       public Builder mergeDeleteConditionPositionId(io.dstore.values.BooleanValue value) {
         if (deleteConditionPositionIdBuilder_ == null) {
@@ -1805,7 +1805,7 @@ public final class PmModifyConditionsAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.BooleanValue delete_condition_position_id = 6;</code>
+       * <code>.dstore.values.BooleanValue delete_condition_position_id = 6;</code>
        */
       public Builder clearDeleteConditionPositionId() {
         if (deleteConditionPositionIdBuilder_ == null) {
@@ -1819,7 +1819,7 @@ public final class PmModifyConditionsAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.BooleanValue delete_condition_position_id = 6;</code>
+       * <code>.dstore.values.BooleanValue delete_condition_position_id = 6;</code>
        */
       public io.dstore.values.BooleanValue.Builder getDeleteConditionPositionIdBuilder() {
         
@@ -1827,7 +1827,7 @@ public final class PmModifyConditionsAd {
         return getDeleteConditionPositionIdFieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .dstore.values.BooleanValue delete_condition_position_id = 6;</code>
+       * <code>.dstore.values.BooleanValue delete_condition_position_id = 6;</code>
        */
       public io.dstore.values.BooleanValueOrBuilder getDeleteConditionPositionIdOrBuilder() {
         if (deleteConditionPositionIdBuilder_ != null) {
@@ -1838,7 +1838,7 @@ public final class PmModifyConditionsAd {
         }
       }
       /**
-       * <code>optional .dstore.values.BooleanValue delete_condition_position_id = 6;</code>
+       * <code>.dstore.values.BooleanValue delete_condition_position_id = 6;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.values.BooleanValue, io.dstore.values.BooleanValue.Builder, io.dstore.values.BooleanValueOrBuilder> 
@@ -1856,13 +1856,13 @@ public final class PmModifyConditionsAd {
 
       private boolean deleteConditionPositionIdNull_ ;
       /**
-       * <code>optional bool delete_condition_position_id_null = 1006;</code>
+       * <code>bool delete_condition_position_id_null = 1006;</code>
        */
       public boolean getDeleteConditionPositionIdNull() {
         return deleteConditionPositionIdNull_;
       }
       /**
-       * <code>optional bool delete_condition_position_id_null = 1006;</code>
+       * <code>bool delete_condition_position_id_null = 1006;</code>
        */
       public Builder setDeleteConditionPositionIdNull(boolean value) {
         
@@ -1871,7 +1871,7 @@ public final class PmModifyConditionsAd {
         return this;
       }
       /**
-       * <code>optional bool delete_condition_position_id_null = 1006;</code>
+       * <code>bool delete_condition_position_id_null = 1006;</code>
        */
       public Builder clearDeleteConditionPositionIdNull() {
         
@@ -2130,7 +2130,7 @@ public final class PmModifyConditionsAd {
         com.google.protobuf.MessageOrBuilder {
 
       /**
-       * <code>optional int32 row_id = 10000;</code>
+       * <code>int32 row_id = 10000;</code>
        */
       int getRowId();
     }
@@ -2205,7 +2205,7 @@ public final class PmModifyConditionsAd {
       public static final int ROW_ID_FIELD_NUMBER = 10000;
       private int rowId_;
       /**
-       * <code>optional int32 row_id = 10000;</code>
+       * <code>int32 row_id = 10000;</code>
        */
       public int getRowId() {
         return rowId_;
@@ -2264,7 +2264,7 @@ public final class PmModifyConditionsAd {
           return memoizedHashCode;
         }
         int hash = 41;
-        hash = (19 * hash) + getDescriptorForType().hashCode();
+        hash = (19 * hash) + getDescriptor().hashCode();
         hash = (37 * hash) + ROW_ID_FIELD_NUMBER;
         hash = (53 * hash) + getRowId();
         hash = (29 * hash) + unknownFields.hashCode();
@@ -2482,13 +2482,13 @@ public final class PmModifyConditionsAd {
 
         private int rowId_ ;
         /**
-         * <code>optional int32 row_id = 10000;</code>
+         * <code>int32 row_id = 10000;</code>
          */
         public int getRowId() {
           return rowId_;
         }
         /**
-         * <code>optional int32 row_id = 10000;</code>
+         * <code>int32 row_id = 10000;</code>
          */
         public Builder setRowId(int value) {
           
@@ -2497,7 +2497,7 @@ public final class PmModifyConditionsAd {
           return this;
         }
         /**
-         * <code>optional int32 row_id = 10000;</code>
+         * <code>int32 row_id = 10000;</code>
          */
         public Builder clearRowId() {
           
@@ -2750,7 +2750,7 @@ public final class PmModifyConditionsAd {
         return memoizedHashCode;
       }
       int hash = 41;
-      hash = (19 * hash) + getDescriptorForType().hashCode();
+      hash = (19 * hash) + getDescriptor().hashCode();
       if (getMetaInformationCount() > 0) {
         hash = (37 * hash) + META_INFORMATION_FIELD_NUMBER;
         hash = (53 * hash) + getMetaInformationList().hashCode();

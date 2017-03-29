@@ -19,20 +19,20 @@ public final class ImImportBinariesAd {
       com.google.protobuf.MessageOrBuilder {
 
     /**
-     * <code>optional .dstore.values.IntegerValue value_or_item_binaries = 1;</code>
+     * <code>.dstore.values.IntegerValue value_or_item_binaries = 1;</code>
      */
     boolean hasValueOrItemBinaries();
     /**
-     * <code>optional .dstore.values.IntegerValue value_or_item_binaries = 1;</code>
+     * <code>.dstore.values.IntegerValue value_or_item_binaries = 1;</code>
      */
     io.dstore.values.IntegerValue getValueOrItemBinaries();
     /**
-     * <code>optional .dstore.values.IntegerValue value_or_item_binaries = 1;</code>
+     * <code>.dstore.values.IntegerValue value_or_item_binaries = 1;</code>
      */
     io.dstore.values.IntegerValueOrBuilder getValueOrItemBinariesOrBuilder();
 
     /**
-     * <code>optional bool value_or_item_binaries_null = 1001;</code>
+     * <code>bool value_or_item_binaries_null = 1001;</code>
      */
     boolean getValueOrItemBinariesNull();
   }
@@ -120,19 +120,19 @@ public final class ImImportBinariesAd {
     public static final int VALUE_OR_ITEM_BINARIES_FIELD_NUMBER = 1;
     private io.dstore.values.IntegerValue valueOrItemBinaries_;
     /**
-     * <code>optional .dstore.values.IntegerValue value_or_item_binaries = 1;</code>
+     * <code>.dstore.values.IntegerValue value_or_item_binaries = 1;</code>
      */
     public boolean hasValueOrItemBinaries() {
       return valueOrItemBinaries_ != null;
     }
     /**
-     * <code>optional .dstore.values.IntegerValue value_or_item_binaries = 1;</code>
+     * <code>.dstore.values.IntegerValue value_or_item_binaries = 1;</code>
      */
     public io.dstore.values.IntegerValue getValueOrItemBinaries() {
       return valueOrItemBinaries_ == null ? io.dstore.values.IntegerValue.getDefaultInstance() : valueOrItemBinaries_;
     }
     /**
-     * <code>optional .dstore.values.IntegerValue value_or_item_binaries = 1;</code>
+     * <code>.dstore.values.IntegerValue value_or_item_binaries = 1;</code>
      */
     public io.dstore.values.IntegerValueOrBuilder getValueOrItemBinariesOrBuilder() {
       return getValueOrItemBinaries();
@@ -141,7 +141,7 @@ public final class ImImportBinariesAd {
     public static final int VALUE_OR_ITEM_BINARIES_NULL_FIELD_NUMBER = 1001;
     private boolean valueOrItemBinariesNull_;
     /**
-     * <code>optional bool value_or_item_binaries_null = 1001;</code>
+     * <code>bool value_or_item_binaries_null = 1001;</code>
      */
     public boolean getValueOrItemBinariesNull() {
       return valueOrItemBinariesNull_;
@@ -212,7 +212,7 @@ public final class ImImportBinariesAd {
         return memoizedHashCode;
       }
       int hash = 41;
-      hash = (19 * hash) + getDescriptorForType().hashCode();
+      hash = (19 * hash) + getDescriptor().hashCode();
       if (hasValueOrItemBinaries()) {
         hash = (37 * hash) + VALUE_OR_ITEM_BINARIES_FIELD_NUMBER;
         hash = (53 * hash) + getValueOrItemBinaries().hashCode();
@@ -451,13 +451,13 @@ public final class ImImportBinariesAd {
       private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> valueOrItemBinariesBuilder_;
       /**
-       * <code>optional .dstore.values.IntegerValue value_or_item_binaries = 1;</code>
+       * <code>.dstore.values.IntegerValue value_or_item_binaries = 1;</code>
        */
       public boolean hasValueOrItemBinaries() {
         return valueOrItemBinariesBuilder_ != null || valueOrItemBinaries_ != null;
       }
       /**
-       * <code>optional .dstore.values.IntegerValue value_or_item_binaries = 1;</code>
+       * <code>.dstore.values.IntegerValue value_or_item_binaries = 1;</code>
        */
       public io.dstore.values.IntegerValue getValueOrItemBinaries() {
         if (valueOrItemBinariesBuilder_ == null) {
@@ -467,7 +467,7 @@ public final class ImImportBinariesAd {
         }
       }
       /**
-       * <code>optional .dstore.values.IntegerValue value_or_item_binaries = 1;</code>
+       * <code>.dstore.values.IntegerValue value_or_item_binaries = 1;</code>
        */
       public Builder setValueOrItemBinaries(io.dstore.values.IntegerValue value) {
         if (valueOrItemBinariesBuilder_ == null) {
@@ -483,7 +483,7 @@ public final class ImImportBinariesAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.IntegerValue value_or_item_binaries = 1;</code>
+       * <code>.dstore.values.IntegerValue value_or_item_binaries = 1;</code>
        */
       public Builder setValueOrItemBinaries(
           io.dstore.values.IntegerValue.Builder builderForValue) {
@@ -497,7 +497,7 @@ public final class ImImportBinariesAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.IntegerValue value_or_item_binaries = 1;</code>
+       * <code>.dstore.values.IntegerValue value_or_item_binaries = 1;</code>
        */
       public Builder mergeValueOrItemBinaries(io.dstore.values.IntegerValue value) {
         if (valueOrItemBinariesBuilder_ == null) {
@@ -515,7 +515,7 @@ public final class ImImportBinariesAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.IntegerValue value_or_item_binaries = 1;</code>
+       * <code>.dstore.values.IntegerValue value_or_item_binaries = 1;</code>
        */
       public Builder clearValueOrItemBinaries() {
         if (valueOrItemBinariesBuilder_ == null) {
@@ -529,7 +529,7 @@ public final class ImImportBinariesAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.IntegerValue value_or_item_binaries = 1;</code>
+       * <code>.dstore.values.IntegerValue value_or_item_binaries = 1;</code>
        */
       public io.dstore.values.IntegerValue.Builder getValueOrItemBinariesBuilder() {
         
@@ -537,7 +537,7 @@ public final class ImImportBinariesAd {
         return getValueOrItemBinariesFieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .dstore.values.IntegerValue value_or_item_binaries = 1;</code>
+       * <code>.dstore.values.IntegerValue value_or_item_binaries = 1;</code>
        */
       public io.dstore.values.IntegerValueOrBuilder getValueOrItemBinariesOrBuilder() {
         if (valueOrItemBinariesBuilder_ != null) {
@@ -548,7 +548,7 @@ public final class ImImportBinariesAd {
         }
       }
       /**
-       * <code>optional .dstore.values.IntegerValue value_or_item_binaries = 1;</code>
+       * <code>.dstore.values.IntegerValue value_or_item_binaries = 1;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> 
@@ -566,13 +566,13 @@ public final class ImImportBinariesAd {
 
       private boolean valueOrItemBinariesNull_ ;
       /**
-       * <code>optional bool value_or_item_binaries_null = 1001;</code>
+       * <code>bool value_or_item_binaries_null = 1001;</code>
        */
       public boolean getValueOrItemBinariesNull() {
         return valueOrItemBinariesNull_;
       }
       /**
-       * <code>optional bool value_or_item_binaries_null = 1001;</code>
+       * <code>bool value_or_item_binaries_null = 1001;</code>
        */
       public Builder setValueOrItemBinariesNull(boolean value) {
         
@@ -581,7 +581,7 @@ public final class ImImportBinariesAd {
         return this;
       }
       /**
-       * <code>optional bool value_or_item_binaries_null = 1001;</code>
+       * <code>bool value_or_item_binaries_null = 1001;</code>
        */
       public Builder clearValueOrItemBinariesNull() {
         
@@ -840,7 +840,7 @@ public final class ImImportBinariesAd {
         com.google.protobuf.MessageOrBuilder {
 
       /**
-       * <code>optional int32 row_id = 10000;</code>
+       * <code>int32 row_id = 10000;</code>
        */
       int getRowId();
     }
@@ -915,7 +915,7 @@ public final class ImImportBinariesAd {
       public static final int ROW_ID_FIELD_NUMBER = 10000;
       private int rowId_;
       /**
-       * <code>optional int32 row_id = 10000;</code>
+       * <code>int32 row_id = 10000;</code>
        */
       public int getRowId() {
         return rowId_;
@@ -974,7 +974,7 @@ public final class ImImportBinariesAd {
           return memoizedHashCode;
         }
         int hash = 41;
-        hash = (19 * hash) + getDescriptorForType().hashCode();
+        hash = (19 * hash) + getDescriptor().hashCode();
         hash = (37 * hash) + ROW_ID_FIELD_NUMBER;
         hash = (53 * hash) + getRowId();
         hash = (29 * hash) + unknownFields.hashCode();
@@ -1192,13 +1192,13 @@ public final class ImImportBinariesAd {
 
         private int rowId_ ;
         /**
-         * <code>optional int32 row_id = 10000;</code>
+         * <code>int32 row_id = 10000;</code>
          */
         public int getRowId() {
           return rowId_;
         }
         /**
-         * <code>optional int32 row_id = 10000;</code>
+         * <code>int32 row_id = 10000;</code>
          */
         public Builder setRowId(int value) {
           
@@ -1207,7 +1207,7 @@ public final class ImImportBinariesAd {
           return this;
         }
         /**
-         * <code>optional int32 row_id = 10000;</code>
+         * <code>int32 row_id = 10000;</code>
          */
         public Builder clearRowId() {
           
@@ -1460,7 +1460,7 @@ public final class ImImportBinariesAd {
         return memoizedHashCode;
       }
       int hash = 41;
-      hash = (19 * hash) + getDescriptorForType().hashCode();
+      hash = (19 * hash) + getDescriptor().hashCode();
       if (getMetaInformationCount() > 0) {
         hash = (37 * hash) + META_INFORMATION_FIELD_NUMBER;
         hash = (53 * hash) + getMetaInformationList().hashCode();

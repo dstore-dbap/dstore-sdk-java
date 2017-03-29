@@ -19,20 +19,20 @@ public final class DoGetProcedureTypesAd {
       com.google.protobuf.MessageOrBuilder {
 
     /**
-     * <code>optional .dstore.values.IntegerValue language_id = 1;</code>
+     * <code>.dstore.values.IntegerValue language_id = 1;</code>
      */
     boolean hasLanguageId();
     /**
-     * <code>optional .dstore.values.IntegerValue language_id = 1;</code>
+     * <code>.dstore.values.IntegerValue language_id = 1;</code>
      */
     io.dstore.values.IntegerValue getLanguageId();
     /**
-     * <code>optional .dstore.values.IntegerValue language_id = 1;</code>
+     * <code>.dstore.values.IntegerValue language_id = 1;</code>
      */
     io.dstore.values.IntegerValueOrBuilder getLanguageIdOrBuilder();
 
     /**
-     * <code>optional bool language_id_null = 1001;</code>
+     * <code>bool language_id_null = 1001;</code>
      */
     boolean getLanguageIdNull();
   }
@@ -120,19 +120,19 @@ public final class DoGetProcedureTypesAd {
     public static final int LANGUAGE_ID_FIELD_NUMBER = 1;
     private io.dstore.values.IntegerValue languageId_;
     /**
-     * <code>optional .dstore.values.IntegerValue language_id = 1;</code>
+     * <code>.dstore.values.IntegerValue language_id = 1;</code>
      */
     public boolean hasLanguageId() {
       return languageId_ != null;
     }
     /**
-     * <code>optional .dstore.values.IntegerValue language_id = 1;</code>
+     * <code>.dstore.values.IntegerValue language_id = 1;</code>
      */
     public io.dstore.values.IntegerValue getLanguageId() {
       return languageId_ == null ? io.dstore.values.IntegerValue.getDefaultInstance() : languageId_;
     }
     /**
-     * <code>optional .dstore.values.IntegerValue language_id = 1;</code>
+     * <code>.dstore.values.IntegerValue language_id = 1;</code>
      */
     public io.dstore.values.IntegerValueOrBuilder getLanguageIdOrBuilder() {
       return getLanguageId();
@@ -141,7 +141,7 @@ public final class DoGetProcedureTypesAd {
     public static final int LANGUAGE_ID_NULL_FIELD_NUMBER = 1001;
     private boolean languageIdNull_;
     /**
-     * <code>optional bool language_id_null = 1001;</code>
+     * <code>bool language_id_null = 1001;</code>
      */
     public boolean getLanguageIdNull() {
       return languageIdNull_;
@@ -212,7 +212,7 @@ public final class DoGetProcedureTypesAd {
         return memoizedHashCode;
       }
       int hash = 41;
-      hash = (19 * hash) + getDescriptorForType().hashCode();
+      hash = (19 * hash) + getDescriptor().hashCode();
       if (hasLanguageId()) {
         hash = (37 * hash) + LANGUAGE_ID_FIELD_NUMBER;
         hash = (53 * hash) + getLanguageId().hashCode();
@@ -451,13 +451,13 @@ public final class DoGetProcedureTypesAd {
       private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> languageIdBuilder_;
       /**
-       * <code>optional .dstore.values.IntegerValue language_id = 1;</code>
+       * <code>.dstore.values.IntegerValue language_id = 1;</code>
        */
       public boolean hasLanguageId() {
         return languageIdBuilder_ != null || languageId_ != null;
       }
       /**
-       * <code>optional .dstore.values.IntegerValue language_id = 1;</code>
+       * <code>.dstore.values.IntegerValue language_id = 1;</code>
        */
       public io.dstore.values.IntegerValue getLanguageId() {
         if (languageIdBuilder_ == null) {
@@ -467,7 +467,7 @@ public final class DoGetProcedureTypesAd {
         }
       }
       /**
-       * <code>optional .dstore.values.IntegerValue language_id = 1;</code>
+       * <code>.dstore.values.IntegerValue language_id = 1;</code>
        */
       public Builder setLanguageId(io.dstore.values.IntegerValue value) {
         if (languageIdBuilder_ == null) {
@@ -483,7 +483,7 @@ public final class DoGetProcedureTypesAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.IntegerValue language_id = 1;</code>
+       * <code>.dstore.values.IntegerValue language_id = 1;</code>
        */
       public Builder setLanguageId(
           io.dstore.values.IntegerValue.Builder builderForValue) {
@@ -497,7 +497,7 @@ public final class DoGetProcedureTypesAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.IntegerValue language_id = 1;</code>
+       * <code>.dstore.values.IntegerValue language_id = 1;</code>
        */
       public Builder mergeLanguageId(io.dstore.values.IntegerValue value) {
         if (languageIdBuilder_ == null) {
@@ -515,7 +515,7 @@ public final class DoGetProcedureTypesAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.IntegerValue language_id = 1;</code>
+       * <code>.dstore.values.IntegerValue language_id = 1;</code>
        */
       public Builder clearLanguageId() {
         if (languageIdBuilder_ == null) {
@@ -529,7 +529,7 @@ public final class DoGetProcedureTypesAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.IntegerValue language_id = 1;</code>
+       * <code>.dstore.values.IntegerValue language_id = 1;</code>
        */
       public io.dstore.values.IntegerValue.Builder getLanguageIdBuilder() {
         
@@ -537,7 +537,7 @@ public final class DoGetProcedureTypesAd {
         return getLanguageIdFieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .dstore.values.IntegerValue language_id = 1;</code>
+       * <code>.dstore.values.IntegerValue language_id = 1;</code>
        */
       public io.dstore.values.IntegerValueOrBuilder getLanguageIdOrBuilder() {
         if (languageIdBuilder_ != null) {
@@ -548,7 +548,7 @@ public final class DoGetProcedureTypesAd {
         }
       }
       /**
-       * <code>optional .dstore.values.IntegerValue language_id = 1;</code>
+       * <code>.dstore.values.IntegerValue language_id = 1;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> 
@@ -566,13 +566,13 @@ public final class DoGetProcedureTypesAd {
 
       private boolean languageIdNull_ ;
       /**
-       * <code>optional bool language_id_null = 1001;</code>
+       * <code>bool language_id_null = 1001;</code>
        */
       public boolean getLanguageIdNull() {
         return languageIdNull_;
       }
       /**
-       * <code>optional bool language_id_null = 1001;</code>
+       * <code>bool language_id_null = 1001;</code>
        */
       public Builder setLanguageIdNull(boolean value) {
         
@@ -581,7 +581,7 @@ public final class DoGetProcedureTypesAd {
         return this;
       }
       /**
-       * <code>optional bool language_id_null = 1001;</code>
+       * <code>bool language_id_null = 1001;</code>
        */
       public Builder clearLanguageIdNull() {
         
@@ -840,7 +840,7 @@ public final class DoGetProcedureTypesAd {
         com.google.protobuf.MessageOrBuilder {
 
       /**
-       * <code>optional int32 row_id = 10000;</code>
+       * <code>int32 row_id = 10000;</code>
        */
       int getRowId();
 
@@ -849,7 +849,7 @@ public final class DoGetProcedureTypesAd {
        * ID eines Prozedur-Typs
        * </pre>
        *
-       * <code>optional .dstore.values.IntegerValue procedure_type_id = 10001;</code>
+       * <code>.dstore.values.IntegerValue procedure_type_id = 10001;</code>
        */
       boolean hasProcedureTypeId();
       /**
@@ -857,7 +857,7 @@ public final class DoGetProcedureTypesAd {
        * ID eines Prozedur-Typs
        * </pre>
        *
-       * <code>optional .dstore.values.IntegerValue procedure_type_id = 10001;</code>
+       * <code>.dstore.values.IntegerValue procedure_type_id = 10001;</code>
        */
       io.dstore.values.IntegerValue getProcedureTypeId();
       /**
@@ -865,7 +865,7 @@ public final class DoGetProcedureTypesAd {
        * ID eines Prozedur-Typs
        * </pre>
        *
-       * <code>optional .dstore.values.IntegerValue procedure_type_id = 10001;</code>
+       * <code>.dstore.values.IntegerValue procedure_type_id = 10001;</code>
        */
       io.dstore.values.IntegerValueOrBuilder getProcedureTypeIdOrBuilder();
 
@@ -874,7 +874,7 @@ public final class DoGetProcedureTypesAd {
        * Bezeichnung des Prozedur-Typs "ProcedureTypeID". Falls "&#64;LanguageID" angegeben wurde (und ungleich "1" - für Deutsch - ist) UND auch eine Übersetzung vorhanden ist, dann ist der Wert in der entsprechenden Sprache.
        * </pre>
        *
-       * <code>optional .dstore.values.StringValue procedure_type = 10002;</code>
+       * <code>.dstore.values.StringValue procedure_type = 10002;</code>
        */
       boolean hasProcedureType();
       /**
@@ -882,7 +882,7 @@ public final class DoGetProcedureTypesAd {
        * Bezeichnung des Prozedur-Typs "ProcedureTypeID". Falls "&#64;LanguageID" angegeben wurde (und ungleich "1" - für Deutsch - ist) UND auch eine Übersetzung vorhanden ist, dann ist der Wert in der entsprechenden Sprache.
        * </pre>
        *
-       * <code>optional .dstore.values.StringValue procedure_type = 10002;</code>
+       * <code>.dstore.values.StringValue procedure_type = 10002;</code>
        */
       io.dstore.values.StringValue getProcedureType();
       /**
@@ -890,7 +890,7 @@ public final class DoGetProcedureTypesAd {
        * Bezeichnung des Prozedur-Typs "ProcedureTypeID". Falls "&#64;LanguageID" angegeben wurde (und ungleich "1" - für Deutsch - ist) UND auch eine Übersetzung vorhanden ist, dann ist der Wert in der entsprechenden Sprache.
        * </pre>
        *
-       * <code>optional .dstore.values.StringValue procedure_type = 10002;</code>
+       * <code>.dstore.values.StringValue procedure_type = 10002;</code>
        */
       io.dstore.values.StringValueOrBuilder getProcedureTypeOrBuilder();
     }
@@ -991,7 +991,7 @@ public final class DoGetProcedureTypesAd {
       public static final int ROW_ID_FIELD_NUMBER = 10000;
       private int rowId_;
       /**
-       * <code>optional int32 row_id = 10000;</code>
+       * <code>int32 row_id = 10000;</code>
        */
       public int getRowId() {
         return rowId_;
@@ -1004,7 +1004,7 @@ public final class DoGetProcedureTypesAd {
        * ID eines Prozedur-Typs
        * </pre>
        *
-       * <code>optional .dstore.values.IntegerValue procedure_type_id = 10001;</code>
+       * <code>.dstore.values.IntegerValue procedure_type_id = 10001;</code>
        */
       public boolean hasProcedureTypeId() {
         return procedureTypeId_ != null;
@@ -1014,7 +1014,7 @@ public final class DoGetProcedureTypesAd {
        * ID eines Prozedur-Typs
        * </pre>
        *
-       * <code>optional .dstore.values.IntegerValue procedure_type_id = 10001;</code>
+       * <code>.dstore.values.IntegerValue procedure_type_id = 10001;</code>
        */
       public io.dstore.values.IntegerValue getProcedureTypeId() {
         return procedureTypeId_ == null ? io.dstore.values.IntegerValue.getDefaultInstance() : procedureTypeId_;
@@ -1024,7 +1024,7 @@ public final class DoGetProcedureTypesAd {
        * ID eines Prozedur-Typs
        * </pre>
        *
-       * <code>optional .dstore.values.IntegerValue procedure_type_id = 10001;</code>
+       * <code>.dstore.values.IntegerValue procedure_type_id = 10001;</code>
        */
       public io.dstore.values.IntegerValueOrBuilder getProcedureTypeIdOrBuilder() {
         return getProcedureTypeId();
@@ -1037,7 +1037,7 @@ public final class DoGetProcedureTypesAd {
        * Bezeichnung des Prozedur-Typs "ProcedureTypeID". Falls "&#64;LanguageID" angegeben wurde (und ungleich "1" - für Deutsch - ist) UND auch eine Übersetzung vorhanden ist, dann ist der Wert in der entsprechenden Sprache.
        * </pre>
        *
-       * <code>optional .dstore.values.StringValue procedure_type = 10002;</code>
+       * <code>.dstore.values.StringValue procedure_type = 10002;</code>
        */
       public boolean hasProcedureType() {
         return procedureType_ != null;
@@ -1047,7 +1047,7 @@ public final class DoGetProcedureTypesAd {
        * Bezeichnung des Prozedur-Typs "ProcedureTypeID". Falls "&#64;LanguageID" angegeben wurde (und ungleich "1" - für Deutsch - ist) UND auch eine Übersetzung vorhanden ist, dann ist der Wert in der entsprechenden Sprache.
        * </pre>
        *
-       * <code>optional .dstore.values.StringValue procedure_type = 10002;</code>
+       * <code>.dstore.values.StringValue procedure_type = 10002;</code>
        */
       public io.dstore.values.StringValue getProcedureType() {
         return procedureType_ == null ? io.dstore.values.StringValue.getDefaultInstance() : procedureType_;
@@ -1057,7 +1057,7 @@ public final class DoGetProcedureTypesAd {
        * Bezeichnung des Prozedur-Typs "ProcedureTypeID". Falls "&#64;LanguageID" angegeben wurde (und ungleich "1" - für Deutsch - ist) UND auch eine Übersetzung vorhanden ist, dann ist der Wert in der entsprechenden Sprache.
        * </pre>
        *
-       * <code>optional .dstore.values.StringValue procedure_type = 10002;</code>
+       * <code>.dstore.values.StringValue procedure_type = 10002;</code>
        */
       public io.dstore.values.StringValueOrBuilder getProcedureTypeOrBuilder() {
         return getProcedureType();
@@ -1140,7 +1140,7 @@ public final class DoGetProcedureTypesAd {
           return memoizedHashCode;
         }
         int hash = 41;
-        hash = (19 * hash) + getDescriptorForType().hashCode();
+        hash = (19 * hash) + getDescriptor().hashCode();
         hash = (37 * hash) + ROW_ID_FIELD_NUMBER;
         hash = (53 * hash) + getRowId();
         if (hasProcedureTypeId()) {
@@ -1394,13 +1394,13 @@ public final class DoGetProcedureTypesAd {
 
         private int rowId_ ;
         /**
-         * <code>optional int32 row_id = 10000;</code>
+         * <code>int32 row_id = 10000;</code>
          */
         public int getRowId() {
           return rowId_;
         }
         /**
-         * <code>optional int32 row_id = 10000;</code>
+         * <code>int32 row_id = 10000;</code>
          */
         public Builder setRowId(int value) {
           
@@ -1409,7 +1409,7 @@ public final class DoGetProcedureTypesAd {
           return this;
         }
         /**
-         * <code>optional int32 row_id = 10000;</code>
+         * <code>int32 row_id = 10000;</code>
          */
         public Builder clearRowId() {
           
@@ -1426,7 +1426,7 @@ public final class DoGetProcedureTypesAd {
          * ID eines Prozedur-Typs
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue procedure_type_id = 10001;</code>
+         * <code>.dstore.values.IntegerValue procedure_type_id = 10001;</code>
          */
         public boolean hasProcedureTypeId() {
           return procedureTypeIdBuilder_ != null || procedureTypeId_ != null;
@@ -1436,7 +1436,7 @@ public final class DoGetProcedureTypesAd {
          * ID eines Prozedur-Typs
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue procedure_type_id = 10001;</code>
+         * <code>.dstore.values.IntegerValue procedure_type_id = 10001;</code>
          */
         public io.dstore.values.IntegerValue getProcedureTypeId() {
           if (procedureTypeIdBuilder_ == null) {
@@ -1450,7 +1450,7 @@ public final class DoGetProcedureTypesAd {
          * ID eines Prozedur-Typs
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue procedure_type_id = 10001;</code>
+         * <code>.dstore.values.IntegerValue procedure_type_id = 10001;</code>
          */
         public Builder setProcedureTypeId(io.dstore.values.IntegerValue value) {
           if (procedureTypeIdBuilder_ == null) {
@@ -1470,7 +1470,7 @@ public final class DoGetProcedureTypesAd {
          * ID eines Prozedur-Typs
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue procedure_type_id = 10001;</code>
+         * <code>.dstore.values.IntegerValue procedure_type_id = 10001;</code>
          */
         public Builder setProcedureTypeId(
             io.dstore.values.IntegerValue.Builder builderForValue) {
@@ -1488,7 +1488,7 @@ public final class DoGetProcedureTypesAd {
          * ID eines Prozedur-Typs
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue procedure_type_id = 10001;</code>
+         * <code>.dstore.values.IntegerValue procedure_type_id = 10001;</code>
          */
         public Builder mergeProcedureTypeId(io.dstore.values.IntegerValue value) {
           if (procedureTypeIdBuilder_ == null) {
@@ -1510,7 +1510,7 @@ public final class DoGetProcedureTypesAd {
          * ID eines Prozedur-Typs
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue procedure_type_id = 10001;</code>
+         * <code>.dstore.values.IntegerValue procedure_type_id = 10001;</code>
          */
         public Builder clearProcedureTypeId() {
           if (procedureTypeIdBuilder_ == null) {
@@ -1528,7 +1528,7 @@ public final class DoGetProcedureTypesAd {
          * ID eines Prozedur-Typs
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue procedure_type_id = 10001;</code>
+         * <code>.dstore.values.IntegerValue procedure_type_id = 10001;</code>
          */
         public io.dstore.values.IntegerValue.Builder getProcedureTypeIdBuilder() {
           
@@ -1540,7 +1540,7 @@ public final class DoGetProcedureTypesAd {
          * ID eines Prozedur-Typs
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue procedure_type_id = 10001;</code>
+         * <code>.dstore.values.IntegerValue procedure_type_id = 10001;</code>
          */
         public io.dstore.values.IntegerValueOrBuilder getProcedureTypeIdOrBuilder() {
           if (procedureTypeIdBuilder_ != null) {
@@ -1555,7 +1555,7 @@ public final class DoGetProcedureTypesAd {
          * ID eines Prozedur-Typs
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue procedure_type_id = 10001;</code>
+         * <code>.dstore.values.IntegerValue procedure_type_id = 10001;</code>
          */
         private com.google.protobuf.SingleFieldBuilderV3<
             io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> 
@@ -1579,7 +1579,7 @@ public final class DoGetProcedureTypesAd {
          * Bezeichnung des Prozedur-Typs "ProcedureTypeID". Falls "&#64;LanguageID" angegeben wurde (und ungleich "1" - für Deutsch - ist) UND auch eine Übersetzung vorhanden ist, dann ist der Wert in der entsprechenden Sprache.
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue procedure_type = 10002;</code>
+         * <code>.dstore.values.StringValue procedure_type = 10002;</code>
          */
         public boolean hasProcedureType() {
           return procedureTypeBuilder_ != null || procedureType_ != null;
@@ -1589,7 +1589,7 @@ public final class DoGetProcedureTypesAd {
          * Bezeichnung des Prozedur-Typs "ProcedureTypeID". Falls "&#64;LanguageID" angegeben wurde (und ungleich "1" - für Deutsch - ist) UND auch eine Übersetzung vorhanden ist, dann ist der Wert in der entsprechenden Sprache.
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue procedure_type = 10002;</code>
+         * <code>.dstore.values.StringValue procedure_type = 10002;</code>
          */
         public io.dstore.values.StringValue getProcedureType() {
           if (procedureTypeBuilder_ == null) {
@@ -1603,7 +1603,7 @@ public final class DoGetProcedureTypesAd {
          * Bezeichnung des Prozedur-Typs "ProcedureTypeID". Falls "&#64;LanguageID" angegeben wurde (und ungleich "1" - für Deutsch - ist) UND auch eine Übersetzung vorhanden ist, dann ist der Wert in der entsprechenden Sprache.
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue procedure_type = 10002;</code>
+         * <code>.dstore.values.StringValue procedure_type = 10002;</code>
          */
         public Builder setProcedureType(io.dstore.values.StringValue value) {
           if (procedureTypeBuilder_ == null) {
@@ -1623,7 +1623,7 @@ public final class DoGetProcedureTypesAd {
          * Bezeichnung des Prozedur-Typs "ProcedureTypeID". Falls "&#64;LanguageID" angegeben wurde (und ungleich "1" - für Deutsch - ist) UND auch eine Übersetzung vorhanden ist, dann ist der Wert in der entsprechenden Sprache.
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue procedure_type = 10002;</code>
+         * <code>.dstore.values.StringValue procedure_type = 10002;</code>
          */
         public Builder setProcedureType(
             io.dstore.values.StringValue.Builder builderForValue) {
@@ -1641,7 +1641,7 @@ public final class DoGetProcedureTypesAd {
          * Bezeichnung des Prozedur-Typs "ProcedureTypeID". Falls "&#64;LanguageID" angegeben wurde (und ungleich "1" - für Deutsch - ist) UND auch eine Übersetzung vorhanden ist, dann ist der Wert in der entsprechenden Sprache.
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue procedure_type = 10002;</code>
+         * <code>.dstore.values.StringValue procedure_type = 10002;</code>
          */
         public Builder mergeProcedureType(io.dstore.values.StringValue value) {
           if (procedureTypeBuilder_ == null) {
@@ -1663,7 +1663,7 @@ public final class DoGetProcedureTypesAd {
          * Bezeichnung des Prozedur-Typs "ProcedureTypeID". Falls "&#64;LanguageID" angegeben wurde (und ungleich "1" - für Deutsch - ist) UND auch eine Übersetzung vorhanden ist, dann ist der Wert in der entsprechenden Sprache.
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue procedure_type = 10002;</code>
+         * <code>.dstore.values.StringValue procedure_type = 10002;</code>
          */
         public Builder clearProcedureType() {
           if (procedureTypeBuilder_ == null) {
@@ -1681,7 +1681,7 @@ public final class DoGetProcedureTypesAd {
          * Bezeichnung des Prozedur-Typs "ProcedureTypeID". Falls "&#64;LanguageID" angegeben wurde (und ungleich "1" - für Deutsch - ist) UND auch eine Übersetzung vorhanden ist, dann ist der Wert in der entsprechenden Sprache.
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue procedure_type = 10002;</code>
+         * <code>.dstore.values.StringValue procedure_type = 10002;</code>
          */
         public io.dstore.values.StringValue.Builder getProcedureTypeBuilder() {
           
@@ -1693,7 +1693,7 @@ public final class DoGetProcedureTypesAd {
          * Bezeichnung des Prozedur-Typs "ProcedureTypeID". Falls "&#64;LanguageID" angegeben wurde (und ungleich "1" - für Deutsch - ist) UND auch eine Übersetzung vorhanden ist, dann ist der Wert in der entsprechenden Sprache.
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue procedure_type = 10002;</code>
+         * <code>.dstore.values.StringValue procedure_type = 10002;</code>
          */
         public io.dstore.values.StringValueOrBuilder getProcedureTypeOrBuilder() {
           if (procedureTypeBuilder_ != null) {
@@ -1708,7 +1708,7 @@ public final class DoGetProcedureTypesAd {
          * Bezeichnung des Prozedur-Typs "ProcedureTypeID". Falls "&#64;LanguageID" angegeben wurde (und ungleich "1" - für Deutsch - ist) UND auch eine Übersetzung vorhanden ist, dann ist der Wert in der entsprechenden Sprache.
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue procedure_type = 10002;</code>
+         * <code>.dstore.values.StringValue procedure_type = 10002;</code>
          */
         private com.google.protobuf.SingleFieldBuilderV3<
             io.dstore.values.StringValue, io.dstore.values.StringValue.Builder, io.dstore.values.StringValueOrBuilder> 
@@ -1968,7 +1968,7 @@ public final class DoGetProcedureTypesAd {
         return memoizedHashCode;
       }
       int hash = 41;
-      hash = (19 * hash) + getDescriptorForType().hashCode();
+      hash = (19 * hash) + getDescriptor().hashCode();
       if (getMetaInformationCount() > 0) {
         hash = (37 * hash) + META_INFORMATION_FIELD_NUMBER;
         hash = (53 * hash) + getMetaInformationList().hashCode();

@@ -19,128 +19,128 @@ public final class OmGetCampaignBonusItemsPu {
       com.google.protobuf.MessageOrBuilder {
 
     /**
-     * <code>optional .dstore.values.IntegerValue benefit_id = 1;</code>
+     * <code>.dstore.values.IntegerValue benefit_id = 1;</code>
      */
     boolean hasBenefitId();
     /**
-     * <code>optional .dstore.values.IntegerValue benefit_id = 1;</code>
+     * <code>.dstore.values.IntegerValue benefit_id = 1;</code>
      */
     io.dstore.values.IntegerValue getBenefitId();
     /**
-     * <code>optional .dstore.values.IntegerValue benefit_id = 1;</code>
+     * <code>.dstore.values.IntegerValue benefit_id = 1;</code>
      */
     io.dstore.values.IntegerValueOrBuilder getBenefitIdOrBuilder();
 
     /**
-     * <code>optional bool benefit_id_null = 1001;</code>
+     * <code>bool benefit_id_null = 1001;</code>
      */
     boolean getBenefitIdNull();
 
     /**
-     * <code>optional .dstore.values.IntegerValue only_definition = 2;</code>
+     * <code>.dstore.values.IntegerValue only_definition = 2;</code>
      */
     boolean hasOnlyDefinition();
     /**
-     * <code>optional .dstore.values.IntegerValue only_definition = 2;</code>
+     * <code>.dstore.values.IntegerValue only_definition = 2;</code>
      */
     io.dstore.values.IntegerValue getOnlyDefinition();
     /**
-     * <code>optional .dstore.values.IntegerValue only_definition = 2;</code>
+     * <code>.dstore.values.IntegerValue only_definition = 2;</code>
      */
     io.dstore.values.IntegerValueOrBuilder getOnlyDefinitionOrBuilder();
 
     /**
-     * <code>optional bool only_definition_null = 1002;</code>
+     * <code>bool only_definition_null = 1002;</code>
      */
     boolean getOnlyDefinitionNull();
 
     /**
-     * <code>optional .dstore.values.StringValue sort_by_characteristic_id_list = 3;</code>
+     * <code>.dstore.values.StringValue sort_by_characteristic_id_list = 3;</code>
      */
     boolean hasSortByCharacteristicIdList();
     /**
-     * <code>optional .dstore.values.StringValue sort_by_characteristic_id_list = 3;</code>
+     * <code>.dstore.values.StringValue sort_by_characteristic_id_list = 3;</code>
      */
     io.dstore.values.StringValue getSortByCharacteristicIdList();
     /**
-     * <code>optional .dstore.values.StringValue sort_by_characteristic_id_list = 3;</code>
+     * <code>.dstore.values.StringValue sort_by_characteristic_id_list = 3;</code>
      */
     io.dstore.values.StringValueOrBuilder getSortByCharacteristicIdListOrBuilder();
 
     /**
-     * <code>optional bool sort_by_characteristic_id_list_null = 1003;</code>
+     * <code>bool sort_by_characteristic_id_list_null = 1003;</code>
      */
     boolean getSortByCharacteristicIdListNull();
 
     /**
-     * <code>optional .dstore.values.StringValue sort_option_list = 4;</code>
+     * <code>.dstore.values.StringValue sort_option_list = 4;</code>
      */
     boolean hasSortOptionList();
     /**
-     * <code>optional .dstore.values.StringValue sort_option_list = 4;</code>
+     * <code>.dstore.values.StringValue sort_option_list = 4;</code>
      */
     io.dstore.values.StringValue getSortOptionList();
     /**
-     * <code>optional .dstore.values.StringValue sort_option_list = 4;</code>
+     * <code>.dstore.values.StringValue sort_option_list = 4;</code>
      */
     io.dstore.values.StringValueOrBuilder getSortOptionListOrBuilder();
 
     /**
-     * <code>optional bool sort_option_list_null = 1004;</code>
+     * <code>bool sort_option_list_null = 1004;</code>
      */
     boolean getSortOptionListNull();
 
     /**
-     * <code>optional .dstore.values.StringValue inherit_depth_option_list = 5;</code>
+     * <code>.dstore.values.StringValue inherit_depth_option_list = 5;</code>
      */
     boolean hasInheritDepthOptionList();
     /**
-     * <code>optional .dstore.values.StringValue inherit_depth_option_list = 5;</code>
+     * <code>.dstore.values.StringValue inherit_depth_option_list = 5;</code>
      */
     io.dstore.values.StringValue getInheritDepthOptionList();
     /**
-     * <code>optional .dstore.values.StringValue inherit_depth_option_list = 5;</code>
+     * <code>.dstore.values.StringValue inherit_depth_option_list = 5;</code>
      */
     io.dstore.values.StringValueOrBuilder getInheritDepthOptionListOrBuilder();
 
     /**
-     * <code>optional bool inherit_depth_option_list_null = 1005;</code>
+     * <code>bool inherit_depth_option_list_null = 1005;</code>
      */
     boolean getInheritDepthOptionListNull();
 
     /**
-     * <code>optional .dstore.values.StringValue recursive_evaluation_option_list = 6;</code>
+     * <code>.dstore.values.StringValue recursive_evaluation_option_list = 6;</code>
      */
     boolean hasRecursiveEvaluationOptionList();
     /**
-     * <code>optional .dstore.values.StringValue recursive_evaluation_option_list = 6;</code>
+     * <code>.dstore.values.StringValue recursive_evaluation_option_list = 6;</code>
      */
     io.dstore.values.StringValue getRecursiveEvaluationOptionList();
     /**
-     * <code>optional .dstore.values.StringValue recursive_evaluation_option_list = 6;</code>
+     * <code>.dstore.values.StringValue recursive_evaluation_option_list = 6;</code>
      */
     io.dstore.values.StringValueOrBuilder getRecursiveEvaluationOptionListOrBuilder();
 
     /**
-     * <code>optional bool recursive_evaluation_option_list_null = 1006;</code>
+     * <code>bool recursive_evaluation_option_list_null = 1006;</code>
      */
     boolean getRecursiveEvaluationOptionListNull();
 
     /**
-     * <code>optional .dstore.values.BooleanValue get_values_for_sort_by_characs = 7;</code>
+     * <code>.dstore.values.BooleanValue get_values_for_sort_by_characs = 7;</code>
      */
     boolean hasGetValuesForSortByCharacs();
     /**
-     * <code>optional .dstore.values.BooleanValue get_values_for_sort_by_characs = 7;</code>
+     * <code>.dstore.values.BooleanValue get_values_for_sort_by_characs = 7;</code>
      */
     io.dstore.values.BooleanValue getGetValuesForSortByCharacs();
     /**
-     * <code>optional .dstore.values.BooleanValue get_values_for_sort_by_characs = 7;</code>
+     * <code>.dstore.values.BooleanValue get_values_for_sort_by_characs = 7;</code>
      */
     io.dstore.values.BooleanValueOrBuilder getGetValuesForSortByCharacsOrBuilder();
 
     /**
-     * <code>optional bool get_values_for_sort_by_characs_null = 1007;</code>
+     * <code>bool get_values_for_sort_by_characs_null = 1007;</code>
      */
     boolean getGetValuesForSortByCharacsNull();
   }
@@ -342,19 +342,19 @@ public final class OmGetCampaignBonusItemsPu {
     public static final int BENEFIT_ID_FIELD_NUMBER = 1;
     private io.dstore.values.IntegerValue benefitId_;
     /**
-     * <code>optional .dstore.values.IntegerValue benefit_id = 1;</code>
+     * <code>.dstore.values.IntegerValue benefit_id = 1;</code>
      */
     public boolean hasBenefitId() {
       return benefitId_ != null;
     }
     /**
-     * <code>optional .dstore.values.IntegerValue benefit_id = 1;</code>
+     * <code>.dstore.values.IntegerValue benefit_id = 1;</code>
      */
     public io.dstore.values.IntegerValue getBenefitId() {
       return benefitId_ == null ? io.dstore.values.IntegerValue.getDefaultInstance() : benefitId_;
     }
     /**
-     * <code>optional .dstore.values.IntegerValue benefit_id = 1;</code>
+     * <code>.dstore.values.IntegerValue benefit_id = 1;</code>
      */
     public io.dstore.values.IntegerValueOrBuilder getBenefitIdOrBuilder() {
       return getBenefitId();
@@ -363,7 +363,7 @@ public final class OmGetCampaignBonusItemsPu {
     public static final int BENEFIT_ID_NULL_FIELD_NUMBER = 1001;
     private boolean benefitIdNull_;
     /**
-     * <code>optional bool benefit_id_null = 1001;</code>
+     * <code>bool benefit_id_null = 1001;</code>
      */
     public boolean getBenefitIdNull() {
       return benefitIdNull_;
@@ -372,19 +372,19 @@ public final class OmGetCampaignBonusItemsPu {
     public static final int ONLY_DEFINITION_FIELD_NUMBER = 2;
     private io.dstore.values.IntegerValue onlyDefinition_;
     /**
-     * <code>optional .dstore.values.IntegerValue only_definition = 2;</code>
+     * <code>.dstore.values.IntegerValue only_definition = 2;</code>
      */
     public boolean hasOnlyDefinition() {
       return onlyDefinition_ != null;
     }
     /**
-     * <code>optional .dstore.values.IntegerValue only_definition = 2;</code>
+     * <code>.dstore.values.IntegerValue only_definition = 2;</code>
      */
     public io.dstore.values.IntegerValue getOnlyDefinition() {
       return onlyDefinition_ == null ? io.dstore.values.IntegerValue.getDefaultInstance() : onlyDefinition_;
     }
     /**
-     * <code>optional .dstore.values.IntegerValue only_definition = 2;</code>
+     * <code>.dstore.values.IntegerValue only_definition = 2;</code>
      */
     public io.dstore.values.IntegerValueOrBuilder getOnlyDefinitionOrBuilder() {
       return getOnlyDefinition();
@@ -393,7 +393,7 @@ public final class OmGetCampaignBonusItemsPu {
     public static final int ONLY_DEFINITION_NULL_FIELD_NUMBER = 1002;
     private boolean onlyDefinitionNull_;
     /**
-     * <code>optional bool only_definition_null = 1002;</code>
+     * <code>bool only_definition_null = 1002;</code>
      */
     public boolean getOnlyDefinitionNull() {
       return onlyDefinitionNull_;
@@ -402,19 +402,19 @@ public final class OmGetCampaignBonusItemsPu {
     public static final int SORT_BY_CHARACTERISTIC_ID_LIST_FIELD_NUMBER = 3;
     private io.dstore.values.StringValue sortByCharacteristicIdList_;
     /**
-     * <code>optional .dstore.values.StringValue sort_by_characteristic_id_list = 3;</code>
+     * <code>.dstore.values.StringValue sort_by_characteristic_id_list = 3;</code>
      */
     public boolean hasSortByCharacteristicIdList() {
       return sortByCharacteristicIdList_ != null;
     }
     /**
-     * <code>optional .dstore.values.StringValue sort_by_characteristic_id_list = 3;</code>
+     * <code>.dstore.values.StringValue sort_by_characteristic_id_list = 3;</code>
      */
     public io.dstore.values.StringValue getSortByCharacteristicIdList() {
       return sortByCharacteristicIdList_ == null ? io.dstore.values.StringValue.getDefaultInstance() : sortByCharacteristicIdList_;
     }
     /**
-     * <code>optional .dstore.values.StringValue sort_by_characteristic_id_list = 3;</code>
+     * <code>.dstore.values.StringValue sort_by_characteristic_id_list = 3;</code>
      */
     public io.dstore.values.StringValueOrBuilder getSortByCharacteristicIdListOrBuilder() {
       return getSortByCharacteristicIdList();
@@ -423,7 +423,7 @@ public final class OmGetCampaignBonusItemsPu {
     public static final int SORT_BY_CHARACTERISTIC_ID_LIST_NULL_FIELD_NUMBER = 1003;
     private boolean sortByCharacteristicIdListNull_;
     /**
-     * <code>optional bool sort_by_characteristic_id_list_null = 1003;</code>
+     * <code>bool sort_by_characteristic_id_list_null = 1003;</code>
      */
     public boolean getSortByCharacteristicIdListNull() {
       return sortByCharacteristicIdListNull_;
@@ -432,19 +432,19 @@ public final class OmGetCampaignBonusItemsPu {
     public static final int SORT_OPTION_LIST_FIELD_NUMBER = 4;
     private io.dstore.values.StringValue sortOptionList_;
     /**
-     * <code>optional .dstore.values.StringValue sort_option_list = 4;</code>
+     * <code>.dstore.values.StringValue sort_option_list = 4;</code>
      */
     public boolean hasSortOptionList() {
       return sortOptionList_ != null;
     }
     /**
-     * <code>optional .dstore.values.StringValue sort_option_list = 4;</code>
+     * <code>.dstore.values.StringValue sort_option_list = 4;</code>
      */
     public io.dstore.values.StringValue getSortOptionList() {
       return sortOptionList_ == null ? io.dstore.values.StringValue.getDefaultInstance() : sortOptionList_;
     }
     /**
-     * <code>optional .dstore.values.StringValue sort_option_list = 4;</code>
+     * <code>.dstore.values.StringValue sort_option_list = 4;</code>
      */
     public io.dstore.values.StringValueOrBuilder getSortOptionListOrBuilder() {
       return getSortOptionList();
@@ -453,7 +453,7 @@ public final class OmGetCampaignBonusItemsPu {
     public static final int SORT_OPTION_LIST_NULL_FIELD_NUMBER = 1004;
     private boolean sortOptionListNull_;
     /**
-     * <code>optional bool sort_option_list_null = 1004;</code>
+     * <code>bool sort_option_list_null = 1004;</code>
      */
     public boolean getSortOptionListNull() {
       return sortOptionListNull_;
@@ -462,19 +462,19 @@ public final class OmGetCampaignBonusItemsPu {
     public static final int INHERIT_DEPTH_OPTION_LIST_FIELD_NUMBER = 5;
     private io.dstore.values.StringValue inheritDepthOptionList_;
     /**
-     * <code>optional .dstore.values.StringValue inherit_depth_option_list = 5;</code>
+     * <code>.dstore.values.StringValue inherit_depth_option_list = 5;</code>
      */
     public boolean hasInheritDepthOptionList() {
       return inheritDepthOptionList_ != null;
     }
     /**
-     * <code>optional .dstore.values.StringValue inherit_depth_option_list = 5;</code>
+     * <code>.dstore.values.StringValue inherit_depth_option_list = 5;</code>
      */
     public io.dstore.values.StringValue getInheritDepthOptionList() {
       return inheritDepthOptionList_ == null ? io.dstore.values.StringValue.getDefaultInstance() : inheritDepthOptionList_;
     }
     /**
-     * <code>optional .dstore.values.StringValue inherit_depth_option_list = 5;</code>
+     * <code>.dstore.values.StringValue inherit_depth_option_list = 5;</code>
      */
     public io.dstore.values.StringValueOrBuilder getInheritDepthOptionListOrBuilder() {
       return getInheritDepthOptionList();
@@ -483,7 +483,7 @@ public final class OmGetCampaignBonusItemsPu {
     public static final int INHERIT_DEPTH_OPTION_LIST_NULL_FIELD_NUMBER = 1005;
     private boolean inheritDepthOptionListNull_;
     /**
-     * <code>optional bool inherit_depth_option_list_null = 1005;</code>
+     * <code>bool inherit_depth_option_list_null = 1005;</code>
      */
     public boolean getInheritDepthOptionListNull() {
       return inheritDepthOptionListNull_;
@@ -492,19 +492,19 @@ public final class OmGetCampaignBonusItemsPu {
     public static final int RECURSIVE_EVALUATION_OPTION_LIST_FIELD_NUMBER = 6;
     private io.dstore.values.StringValue recursiveEvaluationOptionList_;
     /**
-     * <code>optional .dstore.values.StringValue recursive_evaluation_option_list = 6;</code>
+     * <code>.dstore.values.StringValue recursive_evaluation_option_list = 6;</code>
      */
     public boolean hasRecursiveEvaluationOptionList() {
       return recursiveEvaluationOptionList_ != null;
     }
     /**
-     * <code>optional .dstore.values.StringValue recursive_evaluation_option_list = 6;</code>
+     * <code>.dstore.values.StringValue recursive_evaluation_option_list = 6;</code>
      */
     public io.dstore.values.StringValue getRecursiveEvaluationOptionList() {
       return recursiveEvaluationOptionList_ == null ? io.dstore.values.StringValue.getDefaultInstance() : recursiveEvaluationOptionList_;
     }
     /**
-     * <code>optional .dstore.values.StringValue recursive_evaluation_option_list = 6;</code>
+     * <code>.dstore.values.StringValue recursive_evaluation_option_list = 6;</code>
      */
     public io.dstore.values.StringValueOrBuilder getRecursiveEvaluationOptionListOrBuilder() {
       return getRecursiveEvaluationOptionList();
@@ -513,7 +513,7 @@ public final class OmGetCampaignBonusItemsPu {
     public static final int RECURSIVE_EVALUATION_OPTION_LIST_NULL_FIELD_NUMBER = 1006;
     private boolean recursiveEvaluationOptionListNull_;
     /**
-     * <code>optional bool recursive_evaluation_option_list_null = 1006;</code>
+     * <code>bool recursive_evaluation_option_list_null = 1006;</code>
      */
     public boolean getRecursiveEvaluationOptionListNull() {
       return recursiveEvaluationOptionListNull_;
@@ -522,19 +522,19 @@ public final class OmGetCampaignBonusItemsPu {
     public static final int GET_VALUES_FOR_SORT_BY_CHARACS_FIELD_NUMBER = 7;
     private io.dstore.values.BooleanValue getValuesForSortByCharacs_;
     /**
-     * <code>optional .dstore.values.BooleanValue get_values_for_sort_by_characs = 7;</code>
+     * <code>.dstore.values.BooleanValue get_values_for_sort_by_characs = 7;</code>
      */
     public boolean hasGetValuesForSortByCharacs() {
       return getValuesForSortByCharacs_ != null;
     }
     /**
-     * <code>optional .dstore.values.BooleanValue get_values_for_sort_by_characs = 7;</code>
+     * <code>.dstore.values.BooleanValue get_values_for_sort_by_characs = 7;</code>
      */
     public io.dstore.values.BooleanValue getGetValuesForSortByCharacs() {
       return getValuesForSortByCharacs_ == null ? io.dstore.values.BooleanValue.getDefaultInstance() : getValuesForSortByCharacs_;
     }
     /**
-     * <code>optional .dstore.values.BooleanValue get_values_for_sort_by_characs = 7;</code>
+     * <code>.dstore.values.BooleanValue get_values_for_sort_by_characs = 7;</code>
      */
     public io.dstore.values.BooleanValueOrBuilder getGetValuesForSortByCharacsOrBuilder() {
       return getGetValuesForSortByCharacs();
@@ -543,7 +543,7 @@ public final class OmGetCampaignBonusItemsPu {
     public static final int GET_VALUES_FOR_SORT_BY_CHARACS_NULL_FIELD_NUMBER = 1007;
     private boolean getValuesForSortByCharacsNull_;
     /**
-     * <code>optional bool get_values_for_sort_by_characs_null = 1007;</code>
+     * <code>bool get_values_for_sort_by_characs_null = 1007;</code>
      */
     public boolean getGetValuesForSortByCharacsNull() {
       return getValuesForSortByCharacsNull_;
@@ -740,7 +740,7 @@ public final class OmGetCampaignBonusItemsPu {
         return memoizedHashCode;
       }
       int hash = 41;
-      hash = (19 * hash) + getDescriptorForType().hashCode();
+      hash = (19 * hash) + getDescriptor().hashCode();
       if (hasBenefitId()) {
         hash = (37 * hash) + BENEFIT_ID_FIELD_NUMBER;
         hash = (53 * hash) + getBenefitId().hashCode();
@@ -1141,13 +1141,13 @@ public final class OmGetCampaignBonusItemsPu {
       private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> benefitIdBuilder_;
       /**
-       * <code>optional .dstore.values.IntegerValue benefit_id = 1;</code>
+       * <code>.dstore.values.IntegerValue benefit_id = 1;</code>
        */
       public boolean hasBenefitId() {
         return benefitIdBuilder_ != null || benefitId_ != null;
       }
       /**
-       * <code>optional .dstore.values.IntegerValue benefit_id = 1;</code>
+       * <code>.dstore.values.IntegerValue benefit_id = 1;</code>
        */
       public io.dstore.values.IntegerValue getBenefitId() {
         if (benefitIdBuilder_ == null) {
@@ -1157,7 +1157,7 @@ public final class OmGetCampaignBonusItemsPu {
         }
       }
       /**
-       * <code>optional .dstore.values.IntegerValue benefit_id = 1;</code>
+       * <code>.dstore.values.IntegerValue benefit_id = 1;</code>
        */
       public Builder setBenefitId(io.dstore.values.IntegerValue value) {
         if (benefitIdBuilder_ == null) {
@@ -1173,7 +1173,7 @@ public final class OmGetCampaignBonusItemsPu {
         return this;
       }
       /**
-       * <code>optional .dstore.values.IntegerValue benefit_id = 1;</code>
+       * <code>.dstore.values.IntegerValue benefit_id = 1;</code>
        */
       public Builder setBenefitId(
           io.dstore.values.IntegerValue.Builder builderForValue) {
@@ -1187,7 +1187,7 @@ public final class OmGetCampaignBonusItemsPu {
         return this;
       }
       /**
-       * <code>optional .dstore.values.IntegerValue benefit_id = 1;</code>
+       * <code>.dstore.values.IntegerValue benefit_id = 1;</code>
        */
       public Builder mergeBenefitId(io.dstore.values.IntegerValue value) {
         if (benefitIdBuilder_ == null) {
@@ -1205,7 +1205,7 @@ public final class OmGetCampaignBonusItemsPu {
         return this;
       }
       /**
-       * <code>optional .dstore.values.IntegerValue benefit_id = 1;</code>
+       * <code>.dstore.values.IntegerValue benefit_id = 1;</code>
        */
       public Builder clearBenefitId() {
         if (benefitIdBuilder_ == null) {
@@ -1219,7 +1219,7 @@ public final class OmGetCampaignBonusItemsPu {
         return this;
       }
       /**
-       * <code>optional .dstore.values.IntegerValue benefit_id = 1;</code>
+       * <code>.dstore.values.IntegerValue benefit_id = 1;</code>
        */
       public io.dstore.values.IntegerValue.Builder getBenefitIdBuilder() {
         
@@ -1227,7 +1227,7 @@ public final class OmGetCampaignBonusItemsPu {
         return getBenefitIdFieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .dstore.values.IntegerValue benefit_id = 1;</code>
+       * <code>.dstore.values.IntegerValue benefit_id = 1;</code>
        */
       public io.dstore.values.IntegerValueOrBuilder getBenefitIdOrBuilder() {
         if (benefitIdBuilder_ != null) {
@@ -1238,7 +1238,7 @@ public final class OmGetCampaignBonusItemsPu {
         }
       }
       /**
-       * <code>optional .dstore.values.IntegerValue benefit_id = 1;</code>
+       * <code>.dstore.values.IntegerValue benefit_id = 1;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> 
@@ -1256,13 +1256,13 @@ public final class OmGetCampaignBonusItemsPu {
 
       private boolean benefitIdNull_ ;
       /**
-       * <code>optional bool benefit_id_null = 1001;</code>
+       * <code>bool benefit_id_null = 1001;</code>
        */
       public boolean getBenefitIdNull() {
         return benefitIdNull_;
       }
       /**
-       * <code>optional bool benefit_id_null = 1001;</code>
+       * <code>bool benefit_id_null = 1001;</code>
        */
       public Builder setBenefitIdNull(boolean value) {
         
@@ -1271,7 +1271,7 @@ public final class OmGetCampaignBonusItemsPu {
         return this;
       }
       /**
-       * <code>optional bool benefit_id_null = 1001;</code>
+       * <code>bool benefit_id_null = 1001;</code>
        */
       public Builder clearBenefitIdNull() {
         
@@ -1284,13 +1284,13 @@ public final class OmGetCampaignBonusItemsPu {
       private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> onlyDefinitionBuilder_;
       /**
-       * <code>optional .dstore.values.IntegerValue only_definition = 2;</code>
+       * <code>.dstore.values.IntegerValue only_definition = 2;</code>
        */
       public boolean hasOnlyDefinition() {
         return onlyDefinitionBuilder_ != null || onlyDefinition_ != null;
       }
       /**
-       * <code>optional .dstore.values.IntegerValue only_definition = 2;</code>
+       * <code>.dstore.values.IntegerValue only_definition = 2;</code>
        */
       public io.dstore.values.IntegerValue getOnlyDefinition() {
         if (onlyDefinitionBuilder_ == null) {
@@ -1300,7 +1300,7 @@ public final class OmGetCampaignBonusItemsPu {
         }
       }
       /**
-       * <code>optional .dstore.values.IntegerValue only_definition = 2;</code>
+       * <code>.dstore.values.IntegerValue only_definition = 2;</code>
        */
       public Builder setOnlyDefinition(io.dstore.values.IntegerValue value) {
         if (onlyDefinitionBuilder_ == null) {
@@ -1316,7 +1316,7 @@ public final class OmGetCampaignBonusItemsPu {
         return this;
       }
       /**
-       * <code>optional .dstore.values.IntegerValue only_definition = 2;</code>
+       * <code>.dstore.values.IntegerValue only_definition = 2;</code>
        */
       public Builder setOnlyDefinition(
           io.dstore.values.IntegerValue.Builder builderForValue) {
@@ -1330,7 +1330,7 @@ public final class OmGetCampaignBonusItemsPu {
         return this;
       }
       /**
-       * <code>optional .dstore.values.IntegerValue only_definition = 2;</code>
+       * <code>.dstore.values.IntegerValue only_definition = 2;</code>
        */
       public Builder mergeOnlyDefinition(io.dstore.values.IntegerValue value) {
         if (onlyDefinitionBuilder_ == null) {
@@ -1348,7 +1348,7 @@ public final class OmGetCampaignBonusItemsPu {
         return this;
       }
       /**
-       * <code>optional .dstore.values.IntegerValue only_definition = 2;</code>
+       * <code>.dstore.values.IntegerValue only_definition = 2;</code>
        */
       public Builder clearOnlyDefinition() {
         if (onlyDefinitionBuilder_ == null) {
@@ -1362,7 +1362,7 @@ public final class OmGetCampaignBonusItemsPu {
         return this;
       }
       /**
-       * <code>optional .dstore.values.IntegerValue only_definition = 2;</code>
+       * <code>.dstore.values.IntegerValue only_definition = 2;</code>
        */
       public io.dstore.values.IntegerValue.Builder getOnlyDefinitionBuilder() {
         
@@ -1370,7 +1370,7 @@ public final class OmGetCampaignBonusItemsPu {
         return getOnlyDefinitionFieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .dstore.values.IntegerValue only_definition = 2;</code>
+       * <code>.dstore.values.IntegerValue only_definition = 2;</code>
        */
       public io.dstore.values.IntegerValueOrBuilder getOnlyDefinitionOrBuilder() {
         if (onlyDefinitionBuilder_ != null) {
@@ -1381,7 +1381,7 @@ public final class OmGetCampaignBonusItemsPu {
         }
       }
       /**
-       * <code>optional .dstore.values.IntegerValue only_definition = 2;</code>
+       * <code>.dstore.values.IntegerValue only_definition = 2;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> 
@@ -1399,13 +1399,13 @@ public final class OmGetCampaignBonusItemsPu {
 
       private boolean onlyDefinitionNull_ ;
       /**
-       * <code>optional bool only_definition_null = 1002;</code>
+       * <code>bool only_definition_null = 1002;</code>
        */
       public boolean getOnlyDefinitionNull() {
         return onlyDefinitionNull_;
       }
       /**
-       * <code>optional bool only_definition_null = 1002;</code>
+       * <code>bool only_definition_null = 1002;</code>
        */
       public Builder setOnlyDefinitionNull(boolean value) {
         
@@ -1414,7 +1414,7 @@ public final class OmGetCampaignBonusItemsPu {
         return this;
       }
       /**
-       * <code>optional bool only_definition_null = 1002;</code>
+       * <code>bool only_definition_null = 1002;</code>
        */
       public Builder clearOnlyDefinitionNull() {
         
@@ -1427,13 +1427,13 @@ public final class OmGetCampaignBonusItemsPu {
       private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.values.StringValue, io.dstore.values.StringValue.Builder, io.dstore.values.StringValueOrBuilder> sortByCharacteristicIdListBuilder_;
       /**
-       * <code>optional .dstore.values.StringValue sort_by_characteristic_id_list = 3;</code>
+       * <code>.dstore.values.StringValue sort_by_characteristic_id_list = 3;</code>
        */
       public boolean hasSortByCharacteristicIdList() {
         return sortByCharacteristicIdListBuilder_ != null || sortByCharacteristicIdList_ != null;
       }
       /**
-       * <code>optional .dstore.values.StringValue sort_by_characteristic_id_list = 3;</code>
+       * <code>.dstore.values.StringValue sort_by_characteristic_id_list = 3;</code>
        */
       public io.dstore.values.StringValue getSortByCharacteristicIdList() {
         if (sortByCharacteristicIdListBuilder_ == null) {
@@ -1443,7 +1443,7 @@ public final class OmGetCampaignBonusItemsPu {
         }
       }
       /**
-       * <code>optional .dstore.values.StringValue sort_by_characteristic_id_list = 3;</code>
+       * <code>.dstore.values.StringValue sort_by_characteristic_id_list = 3;</code>
        */
       public Builder setSortByCharacteristicIdList(io.dstore.values.StringValue value) {
         if (sortByCharacteristicIdListBuilder_ == null) {
@@ -1459,7 +1459,7 @@ public final class OmGetCampaignBonusItemsPu {
         return this;
       }
       /**
-       * <code>optional .dstore.values.StringValue sort_by_characteristic_id_list = 3;</code>
+       * <code>.dstore.values.StringValue sort_by_characteristic_id_list = 3;</code>
        */
       public Builder setSortByCharacteristicIdList(
           io.dstore.values.StringValue.Builder builderForValue) {
@@ -1473,7 +1473,7 @@ public final class OmGetCampaignBonusItemsPu {
         return this;
       }
       /**
-       * <code>optional .dstore.values.StringValue sort_by_characteristic_id_list = 3;</code>
+       * <code>.dstore.values.StringValue sort_by_characteristic_id_list = 3;</code>
        */
       public Builder mergeSortByCharacteristicIdList(io.dstore.values.StringValue value) {
         if (sortByCharacteristicIdListBuilder_ == null) {
@@ -1491,7 +1491,7 @@ public final class OmGetCampaignBonusItemsPu {
         return this;
       }
       /**
-       * <code>optional .dstore.values.StringValue sort_by_characteristic_id_list = 3;</code>
+       * <code>.dstore.values.StringValue sort_by_characteristic_id_list = 3;</code>
        */
       public Builder clearSortByCharacteristicIdList() {
         if (sortByCharacteristicIdListBuilder_ == null) {
@@ -1505,7 +1505,7 @@ public final class OmGetCampaignBonusItemsPu {
         return this;
       }
       /**
-       * <code>optional .dstore.values.StringValue sort_by_characteristic_id_list = 3;</code>
+       * <code>.dstore.values.StringValue sort_by_characteristic_id_list = 3;</code>
        */
       public io.dstore.values.StringValue.Builder getSortByCharacteristicIdListBuilder() {
         
@@ -1513,7 +1513,7 @@ public final class OmGetCampaignBonusItemsPu {
         return getSortByCharacteristicIdListFieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .dstore.values.StringValue sort_by_characteristic_id_list = 3;</code>
+       * <code>.dstore.values.StringValue sort_by_characteristic_id_list = 3;</code>
        */
       public io.dstore.values.StringValueOrBuilder getSortByCharacteristicIdListOrBuilder() {
         if (sortByCharacteristicIdListBuilder_ != null) {
@@ -1524,7 +1524,7 @@ public final class OmGetCampaignBonusItemsPu {
         }
       }
       /**
-       * <code>optional .dstore.values.StringValue sort_by_characteristic_id_list = 3;</code>
+       * <code>.dstore.values.StringValue sort_by_characteristic_id_list = 3;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.values.StringValue, io.dstore.values.StringValue.Builder, io.dstore.values.StringValueOrBuilder> 
@@ -1542,13 +1542,13 @@ public final class OmGetCampaignBonusItemsPu {
 
       private boolean sortByCharacteristicIdListNull_ ;
       /**
-       * <code>optional bool sort_by_characteristic_id_list_null = 1003;</code>
+       * <code>bool sort_by_characteristic_id_list_null = 1003;</code>
        */
       public boolean getSortByCharacteristicIdListNull() {
         return sortByCharacteristicIdListNull_;
       }
       /**
-       * <code>optional bool sort_by_characteristic_id_list_null = 1003;</code>
+       * <code>bool sort_by_characteristic_id_list_null = 1003;</code>
        */
       public Builder setSortByCharacteristicIdListNull(boolean value) {
         
@@ -1557,7 +1557,7 @@ public final class OmGetCampaignBonusItemsPu {
         return this;
       }
       /**
-       * <code>optional bool sort_by_characteristic_id_list_null = 1003;</code>
+       * <code>bool sort_by_characteristic_id_list_null = 1003;</code>
        */
       public Builder clearSortByCharacteristicIdListNull() {
         
@@ -1570,13 +1570,13 @@ public final class OmGetCampaignBonusItemsPu {
       private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.values.StringValue, io.dstore.values.StringValue.Builder, io.dstore.values.StringValueOrBuilder> sortOptionListBuilder_;
       /**
-       * <code>optional .dstore.values.StringValue sort_option_list = 4;</code>
+       * <code>.dstore.values.StringValue sort_option_list = 4;</code>
        */
       public boolean hasSortOptionList() {
         return sortOptionListBuilder_ != null || sortOptionList_ != null;
       }
       /**
-       * <code>optional .dstore.values.StringValue sort_option_list = 4;</code>
+       * <code>.dstore.values.StringValue sort_option_list = 4;</code>
        */
       public io.dstore.values.StringValue getSortOptionList() {
         if (sortOptionListBuilder_ == null) {
@@ -1586,7 +1586,7 @@ public final class OmGetCampaignBonusItemsPu {
         }
       }
       /**
-       * <code>optional .dstore.values.StringValue sort_option_list = 4;</code>
+       * <code>.dstore.values.StringValue sort_option_list = 4;</code>
        */
       public Builder setSortOptionList(io.dstore.values.StringValue value) {
         if (sortOptionListBuilder_ == null) {
@@ -1602,7 +1602,7 @@ public final class OmGetCampaignBonusItemsPu {
         return this;
       }
       /**
-       * <code>optional .dstore.values.StringValue sort_option_list = 4;</code>
+       * <code>.dstore.values.StringValue sort_option_list = 4;</code>
        */
       public Builder setSortOptionList(
           io.dstore.values.StringValue.Builder builderForValue) {
@@ -1616,7 +1616,7 @@ public final class OmGetCampaignBonusItemsPu {
         return this;
       }
       /**
-       * <code>optional .dstore.values.StringValue sort_option_list = 4;</code>
+       * <code>.dstore.values.StringValue sort_option_list = 4;</code>
        */
       public Builder mergeSortOptionList(io.dstore.values.StringValue value) {
         if (sortOptionListBuilder_ == null) {
@@ -1634,7 +1634,7 @@ public final class OmGetCampaignBonusItemsPu {
         return this;
       }
       /**
-       * <code>optional .dstore.values.StringValue sort_option_list = 4;</code>
+       * <code>.dstore.values.StringValue sort_option_list = 4;</code>
        */
       public Builder clearSortOptionList() {
         if (sortOptionListBuilder_ == null) {
@@ -1648,7 +1648,7 @@ public final class OmGetCampaignBonusItemsPu {
         return this;
       }
       /**
-       * <code>optional .dstore.values.StringValue sort_option_list = 4;</code>
+       * <code>.dstore.values.StringValue sort_option_list = 4;</code>
        */
       public io.dstore.values.StringValue.Builder getSortOptionListBuilder() {
         
@@ -1656,7 +1656,7 @@ public final class OmGetCampaignBonusItemsPu {
         return getSortOptionListFieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .dstore.values.StringValue sort_option_list = 4;</code>
+       * <code>.dstore.values.StringValue sort_option_list = 4;</code>
        */
       public io.dstore.values.StringValueOrBuilder getSortOptionListOrBuilder() {
         if (sortOptionListBuilder_ != null) {
@@ -1667,7 +1667,7 @@ public final class OmGetCampaignBonusItemsPu {
         }
       }
       /**
-       * <code>optional .dstore.values.StringValue sort_option_list = 4;</code>
+       * <code>.dstore.values.StringValue sort_option_list = 4;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.values.StringValue, io.dstore.values.StringValue.Builder, io.dstore.values.StringValueOrBuilder> 
@@ -1685,13 +1685,13 @@ public final class OmGetCampaignBonusItemsPu {
 
       private boolean sortOptionListNull_ ;
       /**
-       * <code>optional bool sort_option_list_null = 1004;</code>
+       * <code>bool sort_option_list_null = 1004;</code>
        */
       public boolean getSortOptionListNull() {
         return sortOptionListNull_;
       }
       /**
-       * <code>optional bool sort_option_list_null = 1004;</code>
+       * <code>bool sort_option_list_null = 1004;</code>
        */
       public Builder setSortOptionListNull(boolean value) {
         
@@ -1700,7 +1700,7 @@ public final class OmGetCampaignBonusItemsPu {
         return this;
       }
       /**
-       * <code>optional bool sort_option_list_null = 1004;</code>
+       * <code>bool sort_option_list_null = 1004;</code>
        */
       public Builder clearSortOptionListNull() {
         
@@ -1713,13 +1713,13 @@ public final class OmGetCampaignBonusItemsPu {
       private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.values.StringValue, io.dstore.values.StringValue.Builder, io.dstore.values.StringValueOrBuilder> inheritDepthOptionListBuilder_;
       /**
-       * <code>optional .dstore.values.StringValue inherit_depth_option_list = 5;</code>
+       * <code>.dstore.values.StringValue inherit_depth_option_list = 5;</code>
        */
       public boolean hasInheritDepthOptionList() {
         return inheritDepthOptionListBuilder_ != null || inheritDepthOptionList_ != null;
       }
       /**
-       * <code>optional .dstore.values.StringValue inherit_depth_option_list = 5;</code>
+       * <code>.dstore.values.StringValue inherit_depth_option_list = 5;</code>
        */
       public io.dstore.values.StringValue getInheritDepthOptionList() {
         if (inheritDepthOptionListBuilder_ == null) {
@@ -1729,7 +1729,7 @@ public final class OmGetCampaignBonusItemsPu {
         }
       }
       /**
-       * <code>optional .dstore.values.StringValue inherit_depth_option_list = 5;</code>
+       * <code>.dstore.values.StringValue inherit_depth_option_list = 5;</code>
        */
       public Builder setInheritDepthOptionList(io.dstore.values.StringValue value) {
         if (inheritDepthOptionListBuilder_ == null) {
@@ -1745,7 +1745,7 @@ public final class OmGetCampaignBonusItemsPu {
         return this;
       }
       /**
-       * <code>optional .dstore.values.StringValue inherit_depth_option_list = 5;</code>
+       * <code>.dstore.values.StringValue inherit_depth_option_list = 5;</code>
        */
       public Builder setInheritDepthOptionList(
           io.dstore.values.StringValue.Builder builderForValue) {
@@ -1759,7 +1759,7 @@ public final class OmGetCampaignBonusItemsPu {
         return this;
       }
       /**
-       * <code>optional .dstore.values.StringValue inherit_depth_option_list = 5;</code>
+       * <code>.dstore.values.StringValue inherit_depth_option_list = 5;</code>
        */
       public Builder mergeInheritDepthOptionList(io.dstore.values.StringValue value) {
         if (inheritDepthOptionListBuilder_ == null) {
@@ -1777,7 +1777,7 @@ public final class OmGetCampaignBonusItemsPu {
         return this;
       }
       /**
-       * <code>optional .dstore.values.StringValue inherit_depth_option_list = 5;</code>
+       * <code>.dstore.values.StringValue inherit_depth_option_list = 5;</code>
        */
       public Builder clearInheritDepthOptionList() {
         if (inheritDepthOptionListBuilder_ == null) {
@@ -1791,7 +1791,7 @@ public final class OmGetCampaignBonusItemsPu {
         return this;
       }
       /**
-       * <code>optional .dstore.values.StringValue inherit_depth_option_list = 5;</code>
+       * <code>.dstore.values.StringValue inherit_depth_option_list = 5;</code>
        */
       public io.dstore.values.StringValue.Builder getInheritDepthOptionListBuilder() {
         
@@ -1799,7 +1799,7 @@ public final class OmGetCampaignBonusItemsPu {
         return getInheritDepthOptionListFieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .dstore.values.StringValue inherit_depth_option_list = 5;</code>
+       * <code>.dstore.values.StringValue inherit_depth_option_list = 5;</code>
        */
       public io.dstore.values.StringValueOrBuilder getInheritDepthOptionListOrBuilder() {
         if (inheritDepthOptionListBuilder_ != null) {
@@ -1810,7 +1810,7 @@ public final class OmGetCampaignBonusItemsPu {
         }
       }
       /**
-       * <code>optional .dstore.values.StringValue inherit_depth_option_list = 5;</code>
+       * <code>.dstore.values.StringValue inherit_depth_option_list = 5;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.values.StringValue, io.dstore.values.StringValue.Builder, io.dstore.values.StringValueOrBuilder> 
@@ -1828,13 +1828,13 @@ public final class OmGetCampaignBonusItemsPu {
 
       private boolean inheritDepthOptionListNull_ ;
       /**
-       * <code>optional bool inherit_depth_option_list_null = 1005;</code>
+       * <code>bool inherit_depth_option_list_null = 1005;</code>
        */
       public boolean getInheritDepthOptionListNull() {
         return inheritDepthOptionListNull_;
       }
       /**
-       * <code>optional bool inherit_depth_option_list_null = 1005;</code>
+       * <code>bool inherit_depth_option_list_null = 1005;</code>
        */
       public Builder setInheritDepthOptionListNull(boolean value) {
         
@@ -1843,7 +1843,7 @@ public final class OmGetCampaignBonusItemsPu {
         return this;
       }
       /**
-       * <code>optional bool inherit_depth_option_list_null = 1005;</code>
+       * <code>bool inherit_depth_option_list_null = 1005;</code>
        */
       public Builder clearInheritDepthOptionListNull() {
         
@@ -1856,13 +1856,13 @@ public final class OmGetCampaignBonusItemsPu {
       private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.values.StringValue, io.dstore.values.StringValue.Builder, io.dstore.values.StringValueOrBuilder> recursiveEvaluationOptionListBuilder_;
       /**
-       * <code>optional .dstore.values.StringValue recursive_evaluation_option_list = 6;</code>
+       * <code>.dstore.values.StringValue recursive_evaluation_option_list = 6;</code>
        */
       public boolean hasRecursiveEvaluationOptionList() {
         return recursiveEvaluationOptionListBuilder_ != null || recursiveEvaluationOptionList_ != null;
       }
       /**
-       * <code>optional .dstore.values.StringValue recursive_evaluation_option_list = 6;</code>
+       * <code>.dstore.values.StringValue recursive_evaluation_option_list = 6;</code>
        */
       public io.dstore.values.StringValue getRecursiveEvaluationOptionList() {
         if (recursiveEvaluationOptionListBuilder_ == null) {
@@ -1872,7 +1872,7 @@ public final class OmGetCampaignBonusItemsPu {
         }
       }
       /**
-       * <code>optional .dstore.values.StringValue recursive_evaluation_option_list = 6;</code>
+       * <code>.dstore.values.StringValue recursive_evaluation_option_list = 6;</code>
        */
       public Builder setRecursiveEvaluationOptionList(io.dstore.values.StringValue value) {
         if (recursiveEvaluationOptionListBuilder_ == null) {
@@ -1888,7 +1888,7 @@ public final class OmGetCampaignBonusItemsPu {
         return this;
       }
       /**
-       * <code>optional .dstore.values.StringValue recursive_evaluation_option_list = 6;</code>
+       * <code>.dstore.values.StringValue recursive_evaluation_option_list = 6;</code>
        */
       public Builder setRecursiveEvaluationOptionList(
           io.dstore.values.StringValue.Builder builderForValue) {
@@ -1902,7 +1902,7 @@ public final class OmGetCampaignBonusItemsPu {
         return this;
       }
       /**
-       * <code>optional .dstore.values.StringValue recursive_evaluation_option_list = 6;</code>
+       * <code>.dstore.values.StringValue recursive_evaluation_option_list = 6;</code>
        */
       public Builder mergeRecursiveEvaluationOptionList(io.dstore.values.StringValue value) {
         if (recursiveEvaluationOptionListBuilder_ == null) {
@@ -1920,7 +1920,7 @@ public final class OmGetCampaignBonusItemsPu {
         return this;
       }
       /**
-       * <code>optional .dstore.values.StringValue recursive_evaluation_option_list = 6;</code>
+       * <code>.dstore.values.StringValue recursive_evaluation_option_list = 6;</code>
        */
       public Builder clearRecursiveEvaluationOptionList() {
         if (recursiveEvaluationOptionListBuilder_ == null) {
@@ -1934,7 +1934,7 @@ public final class OmGetCampaignBonusItemsPu {
         return this;
       }
       /**
-       * <code>optional .dstore.values.StringValue recursive_evaluation_option_list = 6;</code>
+       * <code>.dstore.values.StringValue recursive_evaluation_option_list = 6;</code>
        */
       public io.dstore.values.StringValue.Builder getRecursiveEvaluationOptionListBuilder() {
         
@@ -1942,7 +1942,7 @@ public final class OmGetCampaignBonusItemsPu {
         return getRecursiveEvaluationOptionListFieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .dstore.values.StringValue recursive_evaluation_option_list = 6;</code>
+       * <code>.dstore.values.StringValue recursive_evaluation_option_list = 6;</code>
        */
       public io.dstore.values.StringValueOrBuilder getRecursiveEvaluationOptionListOrBuilder() {
         if (recursiveEvaluationOptionListBuilder_ != null) {
@@ -1953,7 +1953,7 @@ public final class OmGetCampaignBonusItemsPu {
         }
       }
       /**
-       * <code>optional .dstore.values.StringValue recursive_evaluation_option_list = 6;</code>
+       * <code>.dstore.values.StringValue recursive_evaluation_option_list = 6;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.values.StringValue, io.dstore.values.StringValue.Builder, io.dstore.values.StringValueOrBuilder> 
@@ -1971,13 +1971,13 @@ public final class OmGetCampaignBonusItemsPu {
 
       private boolean recursiveEvaluationOptionListNull_ ;
       /**
-       * <code>optional bool recursive_evaluation_option_list_null = 1006;</code>
+       * <code>bool recursive_evaluation_option_list_null = 1006;</code>
        */
       public boolean getRecursiveEvaluationOptionListNull() {
         return recursiveEvaluationOptionListNull_;
       }
       /**
-       * <code>optional bool recursive_evaluation_option_list_null = 1006;</code>
+       * <code>bool recursive_evaluation_option_list_null = 1006;</code>
        */
       public Builder setRecursiveEvaluationOptionListNull(boolean value) {
         
@@ -1986,7 +1986,7 @@ public final class OmGetCampaignBonusItemsPu {
         return this;
       }
       /**
-       * <code>optional bool recursive_evaluation_option_list_null = 1006;</code>
+       * <code>bool recursive_evaluation_option_list_null = 1006;</code>
        */
       public Builder clearRecursiveEvaluationOptionListNull() {
         
@@ -1999,13 +1999,13 @@ public final class OmGetCampaignBonusItemsPu {
       private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.values.BooleanValue, io.dstore.values.BooleanValue.Builder, io.dstore.values.BooleanValueOrBuilder> getValuesForSortByCharacsBuilder_;
       /**
-       * <code>optional .dstore.values.BooleanValue get_values_for_sort_by_characs = 7;</code>
+       * <code>.dstore.values.BooleanValue get_values_for_sort_by_characs = 7;</code>
        */
       public boolean hasGetValuesForSortByCharacs() {
         return getValuesForSortByCharacsBuilder_ != null || getValuesForSortByCharacs_ != null;
       }
       /**
-       * <code>optional .dstore.values.BooleanValue get_values_for_sort_by_characs = 7;</code>
+       * <code>.dstore.values.BooleanValue get_values_for_sort_by_characs = 7;</code>
        */
       public io.dstore.values.BooleanValue getGetValuesForSortByCharacs() {
         if (getValuesForSortByCharacsBuilder_ == null) {
@@ -2015,7 +2015,7 @@ public final class OmGetCampaignBonusItemsPu {
         }
       }
       /**
-       * <code>optional .dstore.values.BooleanValue get_values_for_sort_by_characs = 7;</code>
+       * <code>.dstore.values.BooleanValue get_values_for_sort_by_characs = 7;</code>
        */
       public Builder setGetValuesForSortByCharacs(io.dstore.values.BooleanValue value) {
         if (getValuesForSortByCharacsBuilder_ == null) {
@@ -2031,7 +2031,7 @@ public final class OmGetCampaignBonusItemsPu {
         return this;
       }
       /**
-       * <code>optional .dstore.values.BooleanValue get_values_for_sort_by_characs = 7;</code>
+       * <code>.dstore.values.BooleanValue get_values_for_sort_by_characs = 7;</code>
        */
       public Builder setGetValuesForSortByCharacs(
           io.dstore.values.BooleanValue.Builder builderForValue) {
@@ -2045,7 +2045,7 @@ public final class OmGetCampaignBonusItemsPu {
         return this;
       }
       /**
-       * <code>optional .dstore.values.BooleanValue get_values_for_sort_by_characs = 7;</code>
+       * <code>.dstore.values.BooleanValue get_values_for_sort_by_characs = 7;</code>
        */
       public Builder mergeGetValuesForSortByCharacs(io.dstore.values.BooleanValue value) {
         if (getValuesForSortByCharacsBuilder_ == null) {
@@ -2063,7 +2063,7 @@ public final class OmGetCampaignBonusItemsPu {
         return this;
       }
       /**
-       * <code>optional .dstore.values.BooleanValue get_values_for_sort_by_characs = 7;</code>
+       * <code>.dstore.values.BooleanValue get_values_for_sort_by_characs = 7;</code>
        */
       public Builder clearGetValuesForSortByCharacs() {
         if (getValuesForSortByCharacsBuilder_ == null) {
@@ -2077,7 +2077,7 @@ public final class OmGetCampaignBonusItemsPu {
         return this;
       }
       /**
-       * <code>optional .dstore.values.BooleanValue get_values_for_sort_by_characs = 7;</code>
+       * <code>.dstore.values.BooleanValue get_values_for_sort_by_characs = 7;</code>
        */
       public io.dstore.values.BooleanValue.Builder getGetValuesForSortByCharacsBuilder() {
         
@@ -2085,7 +2085,7 @@ public final class OmGetCampaignBonusItemsPu {
         return getGetValuesForSortByCharacsFieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .dstore.values.BooleanValue get_values_for_sort_by_characs = 7;</code>
+       * <code>.dstore.values.BooleanValue get_values_for_sort_by_characs = 7;</code>
        */
       public io.dstore.values.BooleanValueOrBuilder getGetValuesForSortByCharacsOrBuilder() {
         if (getValuesForSortByCharacsBuilder_ != null) {
@@ -2096,7 +2096,7 @@ public final class OmGetCampaignBonusItemsPu {
         }
       }
       /**
-       * <code>optional .dstore.values.BooleanValue get_values_for_sort_by_characs = 7;</code>
+       * <code>.dstore.values.BooleanValue get_values_for_sort_by_characs = 7;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.values.BooleanValue, io.dstore.values.BooleanValue.Builder, io.dstore.values.BooleanValueOrBuilder> 
@@ -2114,13 +2114,13 @@ public final class OmGetCampaignBonusItemsPu {
 
       private boolean getValuesForSortByCharacsNull_ ;
       /**
-       * <code>optional bool get_values_for_sort_by_characs_null = 1007;</code>
+       * <code>bool get_values_for_sort_by_characs_null = 1007;</code>
        */
       public boolean getGetValuesForSortByCharacsNull() {
         return getValuesForSortByCharacsNull_;
       }
       /**
-       * <code>optional bool get_values_for_sort_by_characs_null = 1007;</code>
+       * <code>bool get_values_for_sort_by_characs_null = 1007;</code>
        */
       public Builder setGetValuesForSortByCharacsNull(boolean value) {
         
@@ -2129,7 +2129,7 @@ public final class OmGetCampaignBonusItemsPu {
         return this;
       }
       /**
-       * <code>optional bool get_values_for_sort_by_characs_null = 1007;</code>
+       * <code>bool get_values_for_sort_by_characs_null = 1007;</code>
        */
       public Builder clearGetValuesForSortByCharacsNull() {
         
@@ -2388,7 +2388,7 @@ public final class OmGetCampaignBonusItemsPu {
         com.google.protobuf.MessageOrBuilder {
 
       /**
-       * <code>optional int32 row_id = 10000;</code>
+       * <code>int32 row_id = 10000;</code>
        */
       int getRowId();
 
@@ -2397,7 +2397,7 @@ public final class OmGetCampaignBonusItemsPu {
        * Bezeichnung der "NodeID"
        * </pre>
        *
-       * <code>optional .dstore.values.StringValue node_description = 10001;</code>
+       * <code>.dstore.values.StringValue node_description = 10001;</code>
        */
       boolean hasNodeDescription();
       /**
@@ -2405,7 +2405,7 @@ public final class OmGetCampaignBonusItemsPu {
        * Bezeichnung der "NodeID"
        * </pre>
        *
-       * <code>optional .dstore.values.StringValue node_description = 10001;</code>
+       * <code>.dstore.values.StringValue node_description = 10001;</code>
        */
       io.dstore.values.StringValue getNodeDescription();
       /**
@@ -2413,7 +2413,7 @@ public final class OmGetCampaignBonusItemsPu {
        * Bezeichnung der "NodeID"
        * </pre>
        *
-       * <code>optional .dstore.values.StringValue node_description = 10001;</code>
+       * <code>.dstore.values.StringValue node_description = 10001;</code>
        */
       io.dstore.values.StringValueOrBuilder getNodeDescriptionOrBuilder();
 
@@ -2422,7 +2422,7 @@ public final class OmGetCampaignBonusItemsPu {
        * Eigenschaften der "NodeID" zum 2. Merkmal in  "&#64;SortByCharacteristicIDList"
        * </pre>
        *
-       * <code>optional .dstore.values.StringValue value2 = 10002;</code>
+       * <code>.dstore.values.StringValue value2 = 10002;</code>
        */
       boolean hasValue2();
       /**
@@ -2430,7 +2430,7 @@ public final class OmGetCampaignBonusItemsPu {
        * Eigenschaften der "NodeID" zum 2. Merkmal in  "&#64;SortByCharacteristicIDList"
        * </pre>
        *
-       * <code>optional .dstore.values.StringValue value2 = 10002;</code>
+       * <code>.dstore.values.StringValue value2 = 10002;</code>
        */
       io.dstore.values.StringValue getValue2();
       /**
@@ -2438,7 +2438,7 @@ public final class OmGetCampaignBonusItemsPu {
        * Eigenschaften der "NodeID" zum 2. Merkmal in  "&#64;SortByCharacteristicIDList"
        * </pre>
        *
-       * <code>optional .dstore.values.StringValue value2 = 10002;</code>
+       * <code>.dstore.values.StringValue value2 = 10002;</code>
        */
       io.dstore.values.StringValueOrBuilder getValue2OrBuilder();
 
@@ -2447,7 +2447,7 @@ public final class OmGetCampaignBonusItemsPu {
        * Eigenschaften der "NodeID" zum 3. Merkmal in  "&#64;SortByCharacteristicIDList"
        * </pre>
        *
-       * <code>optional .dstore.values.StringValue value3 = 10003;</code>
+       * <code>.dstore.values.StringValue value3 = 10003;</code>
        */
       boolean hasValue3();
       /**
@@ -2455,7 +2455,7 @@ public final class OmGetCampaignBonusItemsPu {
        * Eigenschaften der "NodeID" zum 3. Merkmal in  "&#64;SortByCharacteristicIDList"
        * </pre>
        *
-       * <code>optional .dstore.values.StringValue value3 = 10003;</code>
+       * <code>.dstore.values.StringValue value3 = 10003;</code>
        */
       io.dstore.values.StringValue getValue3();
       /**
@@ -2463,7 +2463,7 @@ public final class OmGetCampaignBonusItemsPu {
        * Eigenschaften der "NodeID" zum 3. Merkmal in  "&#64;SortByCharacteristicIDList"
        * </pre>
        *
-       * <code>optional .dstore.values.StringValue value3 = 10003;</code>
+       * <code>.dstore.values.StringValue value3 = 10003;</code>
        */
       io.dstore.values.StringValueOrBuilder getValue3OrBuilder();
 
@@ -2472,7 +2472,7 @@ public final class OmGetCampaignBonusItemsPu {
        * Eigenschaften der "NodeID" zum 1. Merkmal in  "&#64;SortByCharacteristicIDList"
        * </pre>
        *
-       * <code>optional .dstore.values.StringValue value1 = 10004;</code>
+       * <code>.dstore.values.StringValue value1 = 10004;</code>
        */
       boolean hasValue1();
       /**
@@ -2480,7 +2480,7 @@ public final class OmGetCampaignBonusItemsPu {
        * Eigenschaften der "NodeID" zum 1. Merkmal in  "&#64;SortByCharacteristicIDList"
        * </pre>
        *
-       * <code>optional .dstore.values.StringValue value1 = 10004;</code>
+       * <code>.dstore.values.StringValue value1 = 10004;</code>
        */
       io.dstore.values.StringValue getValue1();
       /**
@@ -2488,7 +2488,7 @@ public final class OmGetCampaignBonusItemsPu {
        * Eigenschaften der "NodeID" zum 1. Merkmal in  "&#64;SortByCharacteristicIDList"
        * </pre>
        *
-       * <code>optional .dstore.values.StringValue value1 = 10004;</code>
+       * <code>.dstore.values.StringValue value1 = 10004;</code>
        */
       io.dstore.values.StringValueOrBuilder getValue1OrBuilder();
 
@@ -2497,7 +2497,7 @@ public final class OmGetCampaignBonusItemsPu {
        * ID eines Bonus-Sets, das Teil des Benefits "BenefitID" ist
        * </pre>
        *
-       * <code>optional .dstore.values.IntegerValue item_set_id = 10005;</code>
+       * <code>.dstore.values.IntegerValue item_set_id = 10005;</code>
        */
       boolean hasItemSetId();
       /**
@@ -2505,7 +2505,7 @@ public final class OmGetCampaignBonusItemsPu {
        * ID eines Bonus-Sets, das Teil des Benefits "BenefitID" ist
        * </pre>
        *
-       * <code>optional .dstore.values.IntegerValue item_set_id = 10005;</code>
+       * <code>.dstore.values.IntegerValue item_set_id = 10005;</code>
        */
       io.dstore.values.IntegerValue getItemSetId();
       /**
@@ -2513,7 +2513,7 @@ public final class OmGetCampaignBonusItemsPu {
        * ID eines Bonus-Sets, das Teil des Benefits "BenefitID" ist
        * </pre>
        *
-       * <code>optional .dstore.values.IntegerValue item_set_id = 10005;</code>
+       * <code>.dstore.values.IntegerValue item_set_id = 10005;</code>
        */
       io.dstore.values.IntegerValueOrBuilder getItemSetIdOrBuilder();
 
@@ -2522,7 +2522,7 @@ public final class OmGetCampaignBonusItemsPu {
        * ID des zugehörigen Artikel-Elementes
        * </pre>
        *
-       * <code>optional .dstore.values.IntegerValue node_id = 10006;</code>
+       * <code>.dstore.values.IntegerValue node_id = 10006;</code>
        */
       boolean hasNodeId();
       /**
@@ -2530,7 +2530,7 @@ public final class OmGetCampaignBonusItemsPu {
        * ID des zugehörigen Artikel-Elementes
        * </pre>
        *
-       * <code>optional .dstore.values.IntegerValue node_id = 10006;</code>
+       * <code>.dstore.values.IntegerValue node_id = 10006;</code>
        */
       io.dstore.values.IntegerValue getNodeId();
       /**
@@ -2538,7 +2538,7 @@ public final class OmGetCampaignBonusItemsPu {
        * ID des zugehörigen Artikel-Elementes
        * </pre>
        *
-       * <code>optional .dstore.values.IntegerValue node_id = 10006;</code>
+       * <code>.dstore.values.IntegerValue node_id = 10006;</code>
        */
       io.dstore.values.IntegerValueOrBuilder getNodeIdOrBuilder();
 
@@ -2547,7 +2547,7 @@ public final class OmGetCampaignBonusItemsPu {
        * ID eines gefundenen Elementes im Artikelbaum, welches die Bedingungen der "ItemSetID" erfüllt
        * </pre>
        *
-       * <code>optional .dstore.values.IntegerValue tree_node_id = 10007;</code>
+       * <code>.dstore.values.IntegerValue tree_node_id = 10007;</code>
        */
       boolean hasTreeNodeId();
       /**
@@ -2555,7 +2555,7 @@ public final class OmGetCampaignBonusItemsPu {
        * ID eines gefundenen Elementes im Artikelbaum, welches die Bedingungen der "ItemSetID" erfüllt
        * </pre>
        *
-       * <code>optional .dstore.values.IntegerValue tree_node_id = 10007;</code>
+       * <code>.dstore.values.IntegerValue tree_node_id = 10007;</code>
        */
       io.dstore.values.IntegerValue getTreeNodeId();
       /**
@@ -2563,7 +2563,7 @@ public final class OmGetCampaignBonusItemsPu {
        * ID eines gefundenen Elementes im Artikelbaum, welches die Bedingungen der "ItemSetID" erfüllt
        * </pre>
        *
-       * <code>optional .dstore.values.IntegerValue tree_node_id = 10007;</code>
+       * <code>.dstore.values.IntegerValue tree_node_id = 10007;</code>
        */
       io.dstore.values.IntegerValueOrBuilder getTreeNodeIdOrBuilder();
 
@@ -2572,7 +2572,7 @@ public final class OmGetCampaignBonusItemsPu {
        * Gibt an, ob Bonus-Artikel nur aus einem Set gewählt werden dürfen ("1") oder aus jedem einzelnen Set ("0")
        * </pre>
        *
-       * <code>optional .dstore.values.BooleanValue bonus_from_one_set_only = 10008;</code>
+       * <code>.dstore.values.BooleanValue bonus_from_one_set_only = 10008;</code>
        */
       boolean hasBonusFromOneSetOnly();
       /**
@@ -2580,7 +2580,7 @@ public final class OmGetCampaignBonusItemsPu {
        * Gibt an, ob Bonus-Artikel nur aus einem Set gewählt werden dürfen ("1") oder aus jedem einzelnen Set ("0")
        * </pre>
        *
-       * <code>optional .dstore.values.BooleanValue bonus_from_one_set_only = 10008;</code>
+       * <code>.dstore.values.BooleanValue bonus_from_one_set_only = 10008;</code>
        */
       io.dstore.values.BooleanValue getBonusFromOneSetOnly();
       /**
@@ -2588,7 +2588,7 @@ public final class OmGetCampaignBonusItemsPu {
        * Gibt an, ob Bonus-Artikel nur aus einem Set gewählt werden dürfen ("1") oder aus jedem einzelnen Set ("0")
        * </pre>
        *
-       * <code>optional .dstore.values.BooleanValue bonus_from_one_set_only = 10008;</code>
+       * <code>.dstore.values.BooleanValue bonus_from_one_set_only = 10008;</code>
        */
       io.dstore.values.BooleanValueOrBuilder getBonusFromOneSetOnlyOrBuilder();
 
@@ -2597,7 +2597,7 @@ public final class OmGetCampaignBonusItemsPu {
        * Gibt an, wieviele unterschiedliche Bonus-Artikel aus dem Set "ItemSetID" gewählt werden dürfen
        * </pre>
        *
-       * <code>optional .dstore.values.IntegerValue max_quantity = 10009;</code>
+       * <code>.dstore.values.IntegerValue max_quantity = 10009;</code>
        */
       boolean hasMaxQuantity();
       /**
@@ -2605,7 +2605,7 @@ public final class OmGetCampaignBonusItemsPu {
        * Gibt an, wieviele unterschiedliche Bonus-Artikel aus dem Set "ItemSetID" gewählt werden dürfen
        * </pre>
        *
-       * <code>optional .dstore.values.IntegerValue max_quantity = 10009;</code>
+       * <code>.dstore.values.IntegerValue max_quantity = 10009;</code>
        */
       io.dstore.values.IntegerValue getMaxQuantity();
       /**
@@ -2613,7 +2613,7 @@ public final class OmGetCampaignBonusItemsPu {
        * Gibt an, wieviele unterschiedliche Bonus-Artikel aus dem Set "ItemSetID" gewählt werden dürfen
        * </pre>
        *
-       * <code>optional .dstore.values.IntegerValue max_quantity = 10009;</code>
+       * <code>.dstore.values.IntegerValue max_quantity = 10009;</code>
        */
       io.dstore.values.IntegerValueOrBuilder getMaxQuantityOrBuilder();
 
@@ -2622,7 +2622,7 @@ public final class OmGetCampaignBonusItemsPu {
        * ID der Artikel-Bedingung, die das Set "ItemSetID" definiert. Die genaue Definition der Bedingung erhält man durch den Aufruf dieser Prozedur mit "&#64;OnlyDefinition = 2".
        * </pre>
        *
-       * <code>optional .dstore.values.IntegerValue item_condition_id = 20001;</code>
+       * <code>.dstore.values.IntegerValue item_condition_id = 20001;</code>
        */
       boolean hasItemConditionId();
       /**
@@ -2630,7 +2630,7 @@ public final class OmGetCampaignBonusItemsPu {
        * ID der Artikel-Bedingung, die das Set "ItemSetID" definiert. Die genaue Definition der Bedingung erhält man durch den Aufruf dieser Prozedur mit "&#64;OnlyDefinition = 2".
        * </pre>
        *
-       * <code>optional .dstore.values.IntegerValue item_condition_id = 20001;</code>
+       * <code>.dstore.values.IntegerValue item_condition_id = 20001;</code>
        */
       io.dstore.values.IntegerValue getItemConditionId();
       /**
@@ -2638,7 +2638,7 @@ public final class OmGetCampaignBonusItemsPu {
        * ID der Artikel-Bedingung, die das Set "ItemSetID" definiert. Die genaue Definition der Bedingung erhält man durch den Aufruf dieser Prozedur mit "&#64;OnlyDefinition = 2".
        * </pre>
        *
-       * <code>optional .dstore.values.IntegerValue item_condition_id = 20001;</code>
+       * <code>.dstore.values.IntegerValue item_condition_id = 20001;</code>
        */
       io.dstore.values.IntegerValueOrBuilder getItemConditionIdOrBuilder();
 
@@ -2647,7 +2647,7 @@ public final class OmGetCampaignBonusItemsPu {
        * Bezeichnung der Artikel-Bedingung "ItemConditionID"
        * </pre>
        *
-       * <code>optional .dstore.values.StringValue item_condition_description = 20005;</code>
+       * <code>.dstore.values.StringValue item_condition_description = 20005;</code>
        */
       boolean hasItemConditionDescription();
       /**
@@ -2655,7 +2655,7 @@ public final class OmGetCampaignBonusItemsPu {
        * Bezeichnung der Artikel-Bedingung "ItemConditionID"
        * </pre>
        *
-       * <code>optional .dstore.values.StringValue item_condition_description = 20005;</code>
+       * <code>.dstore.values.StringValue item_condition_description = 20005;</code>
        */
       io.dstore.values.StringValue getItemConditionDescription();
       /**
@@ -2663,7 +2663,7 @@ public final class OmGetCampaignBonusItemsPu {
        * Bezeichnung der Artikel-Bedingung "ItemConditionID"
        * </pre>
        *
-       * <code>optional .dstore.values.StringValue item_condition_description = 20005;</code>
+       * <code>.dstore.values.StringValue item_condition_description = 20005;</code>
        */
       io.dstore.values.StringValueOrBuilder getItemConditionDescriptionOrBuilder();
 
@@ -2672,7 +2672,7 @@ public final class OmGetCampaignBonusItemsPu {
        * Bestimmt die Reihenfolge von "ItemSetID" innerhalb aller "BenefitID" zugeordneten Sets
        * </pre>
        *
-       * <code>optional .dstore.values.IntegerValue sort_no = 20006;</code>
+       * <code>.dstore.values.IntegerValue sort_no = 20006;</code>
        */
       boolean hasSortNo();
       /**
@@ -2680,7 +2680,7 @@ public final class OmGetCampaignBonusItemsPu {
        * Bestimmt die Reihenfolge von "ItemSetID" innerhalb aller "BenefitID" zugeordneten Sets
        * </pre>
        *
-       * <code>optional .dstore.values.IntegerValue sort_no = 20006;</code>
+       * <code>.dstore.values.IntegerValue sort_no = 20006;</code>
        */
       io.dstore.values.IntegerValue getSortNo();
       /**
@@ -2688,7 +2688,7 @@ public final class OmGetCampaignBonusItemsPu {
        * Bestimmt die Reihenfolge von "ItemSetID" innerhalb aller "BenefitID" zugeordneten Sets
        * </pre>
        *
-       * <code>optional .dstore.values.IntegerValue sort_no = 20006;</code>
+       * <code>.dstore.values.IntegerValue sort_no = 20006;</code>
        */
       io.dstore.values.IntegerValueOrBuilder getSortNoOrBuilder();
 
@@ -2697,7 +2697,7 @@ public final class OmGetCampaignBonusItemsPu {
        * Bestimmt die Reihenfolge von "ItemConditionGroupID" innerhalb aller der Artikel-Bedingung "ItemConditionID" zugeordneten Bedingungs-Gruppen
        * </pre>
        *
-       * <code>optional .dstore.values.IntegerValue item_group_sort_no = 30001;</code>
+       * <code>.dstore.values.IntegerValue item_group_sort_no = 30001;</code>
        */
       boolean hasItemGroupSortNo();
       /**
@@ -2705,7 +2705,7 @@ public final class OmGetCampaignBonusItemsPu {
        * Bestimmt die Reihenfolge von "ItemConditionGroupID" innerhalb aller der Artikel-Bedingung "ItemConditionID" zugeordneten Bedingungs-Gruppen
        * </pre>
        *
-       * <code>optional .dstore.values.IntegerValue item_group_sort_no = 30001;</code>
+       * <code>.dstore.values.IntegerValue item_group_sort_no = 30001;</code>
        */
       io.dstore.values.IntegerValue getItemGroupSortNo();
       /**
@@ -2713,7 +2713,7 @@ public final class OmGetCampaignBonusItemsPu {
        * Bestimmt die Reihenfolge von "ItemConditionGroupID" innerhalb aller der Artikel-Bedingung "ItemConditionID" zugeordneten Bedingungs-Gruppen
        * </pre>
        *
-       * <code>optional .dstore.values.IntegerValue item_group_sort_no = 30001;</code>
+       * <code>.dstore.values.IntegerValue item_group_sort_no = 30001;</code>
        */
       io.dstore.values.IntegerValueOrBuilder getItemGroupSortNoOrBuilder();
 
@@ -2722,7 +2722,7 @@ public final class OmGetCampaignBonusItemsPu {
        * Operator für die Bedingung "Condition1". Mögliche Werte :- "="- "!=" / "&lt;&gt;"  - "~" / "!~" (LIKE / NOT LIKE)- "&gt;"- "&lt;"- "&gt;="- "&lt;="- "IN" / "!I" (in / NICHT in Menge von "Value"-Werten)- "E" / "!E" (IRGENDEINE / KEINE Eigenschaft)
        * </pre>
        *
-       * <code>optional .dstore.values.StringValue operator1 = 30002;</code>
+       * <code>.dstore.values.StringValue operator1 = 30002;</code>
        */
       boolean hasOperator1();
       /**
@@ -2730,7 +2730,7 @@ public final class OmGetCampaignBonusItemsPu {
        * Operator für die Bedingung "Condition1". Mögliche Werte :- "="- "!=" / "&lt;&gt;"  - "~" / "!~" (LIKE / NOT LIKE)- "&gt;"- "&lt;"- "&gt;="- "&lt;="- "IN" / "!I" (in / NICHT in Menge von "Value"-Werten)- "E" / "!E" (IRGENDEINE / KEINE Eigenschaft)
        * </pre>
        *
-       * <code>optional .dstore.values.StringValue operator1 = 30002;</code>
+       * <code>.dstore.values.StringValue operator1 = 30002;</code>
        */
       io.dstore.values.StringValue getOperator1();
       /**
@@ -2738,7 +2738,7 @@ public final class OmGetCampaignBonusItemsPu {
        * Operator für die Bedingung "Condition1". Mögliche Werte :- "="- "!=" / "&lt;&gt;"  - "~" / "!~" (LIKE / NOT LIKE)- "&gt;"- "&lt;"- "&gt;="- "&lt;="- "IN" / "!I" (in / NICHT in Menge von "Value"-Werten)- "E" / "!E" (IRGENDEINE / KEINE Eigenschaft)
        * </pre>
        *
-       * <code>optional .dstore.values.StringValue operator1 = 30002;</code>
+       * <code>.dstore.values.StringValue operator1 = 30002;</code>
        */
       io.dstore.values.StringValueOrBuilder getOperator1OrBuilder();
 
@@ -2747,7 +2747,7 @@ public final class OmGetCampaignBonusItemsPu {
        * Bedingung, die in Verbindung mit "Operator1" anzuwenden ist ("NULL", falls "Operator1" den Wert "E" oder "!E" hat)
        * </pre>
        *
-       * <code>optional .dstore.values.StringValue condition1 = 30003;</code>
+       * <code>.dstore.values.StringValue condition1 = 30003;</code>
        */
       boolean hasCondition1();
       /**
@@ -2755,7 +2755,7 @@ public final class OmGetCampaignBonusItemsPu {
        * Bedingung, die in Verbindung mit "Operator1" anzuwenden ist ("NULL", falls "Operator1" den Wert "E" oder "!E" hat)
        * </pre>
        *
-       * <code>optional .dstore.values.StringValue condition1 = 30003;</code>
+       * <code>.dstore.values.StringValue condition1 = 30003;</code>
        */
       io.dstore.values.StringValue getCondition1();
       /**
@@ -2763,7 +2763,7 @@ public final class OmGetCampaignBonusItemsPu {
        * Bedingung, die in Verbindung mit "Operator1" anzuwenden ist ("NULL", falls "Operator1" den Wert "E" oder "!E" hat)
        * </pre>
        *
-       * <code>optional .dstore.values.StringValue condition1 = 30003;</code>
+       * <code>.dstore.values.StringValue condition1 = 30003;</code>
        */
       io.dstore.values.StringValueOrBuilder getCondition1OrBuilder();
 
@@ -2772,7 +2772,7 @@ public final class OmGetCampaignBonusItemsPu {
        * Bedingung, die in Verbindung mit "Operator2" anzuwenden ist (nur belegt, wenn "Operator2" den Wert "&lt;" oder "&lt;=" enthält)
        * </pre>
        *
-       * <code>optional .dstore.values.StringValue condition2 = 30004;</code>
+       * <code>.dstore.values.StringValue condition2 = 30004;</code>
        */
       boolean hasCondition2();
       /**
@@ -2780,7 +2780,7 @@ public final class OmGetCampaignBonusItemsPu {
        * Bedingung, die in Verbindung mit "Operator2" anzuwenden ist (nur belegt, wenn "Operator2" den Wert "&lt;" oder "&lt;=" enthält)
        * </pre>
        *
-       * <code>optional .dstore.values.StringValue condition2 = 30004;</code>
+       * <code>.dstore.values.StringValue condition2 = 30004;</code>
        */
       io.dstore.values.StringValue getCondition2();
       /**
@@ -2788,7 +2788,7 @@ public final class OmGetCampaignBonusItemsPu {
        * Bedingung, die in Verbindung mit "Operator2" anzuwenden ist (nur belegt, wenn "Operator2" den Wert "&lt;" oder "&lt;=" enthält)
        * </pre>
        *
-       * <code>optional .dstore.values.StringValue condition2 = 30004;</code>
+       * <code>.dstore.values.StringValue condition2 = 30004;</code>
        */
       io.dstore.values.StringValueOrBuilder getCondition2OrBuilder();
 
@@ -2797,7 +2797,7 @@ public final class OmGetCampaignBonusItemsPu {
        * Operator für die Bedingung "Condition2". Mögliche Werte :- "&lt;" oder "&lt;=", falls "Operator1" "&gt;" oder "&gt;=" enthält- bel. Zeichen (Trennzeichen für Werte-Menge), falls "Operator1" "IN" oder "!I" enthält
        * </pre>
        *
-       * <code>optional .dstore.values.StringValue operator2 = 30005;</code>
+       * <code>.dstore.values.StringValue operator2 = 30005;</code>
        */
       boolean hasOperator2();
       /**
@@ -2805,7 +2805,7 @@ public final class OmGetCampaignBonusItemsPu {
        * Operator für die Bedingung "Condition2". Mögliche Werte :- "&lt;" oder "&lt;=", falls "Operator1" "&gt;" oder "&gt;=" enthält- bel. Zeichen (Trennzeichen für Werte-Menge), falls "Operator1" "IN" oder "!I" enthält
        * </pre>
        *
-       * <code>optional .dstore.values.StringValue operator2 = 30005;</code>
+       * <code>.dstore.values.StringValue operator2 = 30005;</code>
        */
       io.dstore.values.StringValue getOperator2();
       /**
@@ -2813,7 +2813,7 @@ public final class OmGetCampaignBonusItemsPu {
        * Operator für die Bedingung "Condition2". Mögliche Werte :- "&lt;" oder "&lt;=", falls "Operator1" "&gt;" oder "&gt;=" enthält- bel. Zeichen (Trennzeichen für Werte-Menge), falls "Operator1" "IN" oder "!I" enthält
        * </pre>
        *
-       * <code>optional .dstore.values.StringValue operator2 = 30005;</code>
+       * <code>.dstore.values.StringValue operator2 = 30005;</code>
        */
       io.dstore.values.StringValueOrBuilder getOperator2OrBuilder();
 
@@ -2822,7 +2822,7 @@ public final class OmGetCampaignBonusItemsPu {
        * Bezeichnung der Bedingungs-Gruppe "ItemConditionGroupID"
        * </pre>
        *
-       * <code>optional .dstore.values.StringValue item_condition_group_description = 30006;</code>
+       * <code>.dstore.values.StringValue item_condition_group_description = 30006;</code>
        */
       boolean hasItemConditionGroupDescription();
       /**
@@ -2830,7 +2830,7 @@ public final class OmGetCampaignBonusItemsPu {
        * Bezeichnung der Bedingungs-Gruppe "ItemConditionGroupID"
        * </pre>
        *
-       * <code>optional .dstore.values.StringValue item_condition_group_description = 30006;</code>
+       * <code>.dstore.values.StringValue item_condition_group_description = 30006;</code>
        */
       io.dstore.values.StringValue getItemConditionGroupDescription();
       /**
@@ -2838,7 +2838,7 @@ public final class OmGetCampaignBonusItemsPu {
        * Bezeichnung der Bedingungs-Gruppe "ItemConditionGroupID"
        * </pre>
        *
-       * <code>optional .dstore.values.StringValue item_condition_group_description = 30006;</code>
+       * <code>.dstore.values.StringValue item_condition_group_description = 30006;</code>
        */
       io.dstore.values.StringValueOrBuilder getItemConditionGroupDescriptionOrBuilder();
 
@@ -2847,7 +2847,7 @@ public final class OmGetCampaignBonusItemsPu {
        * Gibt an, ob die der "ItemConditionGroupID" zugeordneten Bedingungs-Teile logisch mit UND verknüpft werden ("1") oder mit ODER ("0")
        * </pre>
        *
-       * <code>optional .dstore.values.BooleanValue combine_parts_with_a_n_d_operator = 30007;</code>
+       * <code>.dstore.values.BooleanValue combine_parts_with_a_n_d_operator = 30007;</code>
        */
       boolean hasCombinePartsWithANDOperator();
       /**
@@ -2855,7 +2855,7 @@ public final class OmGetCampaignBonusItemsPu {
        * Gibt an, ob die der "ItemConditionGroupID" zugeordneten Bedingungs-Teile logisch mit UND verknüpft werden ("1") oder mit ODER ("0")
        * </pre>
        *
-       * <code>optional .dstore.values.BooleanValue combine_parts_with_a_n_d_operator = 30007;</code>
+       * <code>.dstore.values.BooleanValue combine_parts_with_a_n_d_operator = 30007;</code>
        */
       io.dstore.values.BooleanValue getCombinePartsWithANDOperator();
       /**
@@ -2863,7 +2863,7 @@ public final class OmGetCampaignBonusItemsPu {
        * Gibt an, ob die der "ItemConditionGroupID" zugeordneten Bedingungs-Teile logisch mit UND verknüpft werden ("1") oder mit ODER ("0")
        * </pre>
        *
-       * <code>optional .dstore.values.BooleanValue combine_parts_with_a_n_d_operator = 30007;</code>
+       * <code>.dstore.values.BooleanValue combine_parts_with_a_n_d_operator = 30007;</code>
        */
       io.dstore.values.BooleanValueOrBuilder getCombinePartsWithANDOperatorOrBuilder();
 
@@ -2872,7 +2872,7 @@ public final class OmGetCampaignBonusItemsPu {
        * Was soll zwecks Prüfung der Bedingung zu "NodeCharacteristicID" (wenn rekursiv) gewählt werden ?"0" : direkte Eigenschaft (also eine Merkmal-ID)"1" : rekursiv ausgewertete Eigenschaft"2" : zugehör. Beschreibung der Eigenschaft (also der Merkmal-ID)
        * </pre>
        *
-       * <code>optional .dstore.values.IntegerValue recursive_evaluation = 30008;</code>
+       * <code>.dstore.values.IntegerValue recursive_evaluation = 30008;</code>
        */
       boolean hasRecursiveEvaluation();
       /**
@@ -2880,7 +2880,7 @@ public final class OmGetCampaignBonusItemsPu {
        * Was soll zwecks Prüfung der Bedingung zu "NodeCharacteristicID" (wenn rekursiv) gewählt werden ?"0" : direkte Eigenschaft (also eine Merkmal-ID)"1" : rekursiv ausgewertete Eigenschaft"2" : zugehör. Beschreibung der Eigenschaft (also der Merkmal-ID)
        * </pre>
        *
-       * <code>optional .dstore.values.IntegerValue recursive_evaluation = 30008;</code>
+       * <code>.dstore.values.IntegerValue recursive_evaluation = 30008;</code>
        */
       io.dstore.values.IntegerValue getRecursiveEvaluation();
       /**
@@ -2888,7 +2888,7 @@ public final class OmGetCampaignBonusItemsPu {
        * Was soll zwecks Prüfung der Bedingung zu "NodeCharacteristicID" (wenn rekursiv) gewählt werden ?"0" : direkte Eigenschaft (also eine Merkmal-ID)"1" : rekursiv ausgewertete Eigenschaft"2" : zugehör. Beschreibung der Eigenschaft (also der Merkmal-ID)
        * </pre>
        *
-       * <code>optional .dstore.values.IntegerValue recursive_evaluation = 30008;</code>
+       * <code>.dstore.values.IntegerValue recursive_evaluation = 30008;</code>
        */
       io.dstore.values.IntegerValueOrBuilder getRecursiveEvaluationOrBuilder();
 
@@ -2897,7 +2897,7 @@ public final class OmGetCampaignBonusItemsPu {
        * Bestimmt die Reihenfolge von "ItemConditionPartID" innerhalb aller der Bedingungs-Gruppe "ItemConditionGroupID" zugeordneten Bedingungs-Teile
        * </pre>
        *
-       * <code>optional .dstore.values.IntegerValue item_part_sort_no = 30009;</code>
+       * <code>.dstore.values.IntegerValue item_part_sort_no = 30009;</code>
        */
       boolean hasItemPartSortNo();
       /**
@@ -2905,7 +2905,7 @@ public final class OmGetCampaignBonusItemsPu {
        * Bestimmt die Reihenfolge von "ItemConditionPartID" innerhalb aller der Bedingungs-Gruppe "ItemConditionGroupID" zugeordneten Bedingungs-Teile
        * </pre>
        *
-       * <code>optional .dstore.values.IntegerValue item_part_sort_no = 30009;</code>
+       * <code>.dstore.values.IntegerValue item_part_sort_no = 30009;</code>
        */
       io.dstore.values.IntegerValue getItemPartSortNo();
       /**
@@ -2913,7 +2913,7 @@ public final class OmGetCampaignBonusItemsPu {
        * Bestimmt die Reihenfolge von "ItemConditionPartID" innerhalb aller der Bedingungs-Gruppe "ItemConditionGroupID" zugeordneten Bedingungs-Teile
        * </pre>
        *
-       * <code>optional .dstore.values.IntegerValue item_part_sort_no = 30009;</code>
+       * <code>.dstore.values.IntegerValue item_part_sort_no = 30009;</code>
        */
       io.dstore.values.IntegerValueOrBuilder getItemPartSortNoOrBuilder();
 
@@ -2922,7 +2922,7 @@ public final class OmGetCampaignBonusItemsPu {
        * Um den (Artikel-)Bedingungs-Teil "ItemConditionPartID" zu erfüllen, muß ein Element im Artikelbaum ein Vorgänger-Element besitzen, dessen "TreeNodeID" aus der hier angegebenen Menge von IDs kommt. Sonderfall ",," bedeutet "beliebiger Vorgänger".
        * </pre>
        *
-       * <code>optional .dstore.values.StringValue domain_tree_node_ids = 30011;</code>
+       * <code>.dstore.values.StringValue domain_tree_node_ids = 30011;</code>
        */
       boolean hasDomainTreeNodeIds();
       /**
@@ -2930,7 +2930,7 @@ public final class OmGetCampaignBonusItemsPu {
        * Um den (Artikel-)Bedingungs-Teil "ItemConditionPartID" zu erfüllen, muß ein Element im Artikelbaum ein Vorgänger-Element besitzen, dessen "TreeNodeID" aus der hier angegebenen Menge von IDs kommt. Sonderfall ",," bedeutet "beliebiger Vorgänger".
        * </pre>
        *
-       * <code>optional .dstore.values.StringValue domain_tree_node_ids = 30011;</code>
+       * <code>.dstore.values.StringValue domain_tree_node_ids = 30011;</code>
        */
       io.dstore.values.StringValue getDomainTreeNodeIds();
       /**
@@ -2938,7 +2938,7 @@ public final class OmGetCampaignBonusItemsPu {
        * Um den (Artikel-)Bedingungs-Teil "ItemConditionPartID" zu erfüllen, muß ein Element im Artikelbaum ein Vorgänger-Element besitzen, dessen "TreeNodeID" aus der hier angegebenen Menge von IDs kommt. Sonderfall ",," bedeutet "beliebiger Vorgänger".
        * </pre>
        *
-       * <code>optional .dstore.values.StringValue domain_tree_node_ids = 30011;</code>
+       * <code>.dstore.values.StringValue domain_tree_node_ids = 30011;</code>
        */
       io.dstore.values.StringValueOrBuilder getDomainTreeNodeIdsOrBuilder();
 
@@ -2947,7 +2947,7 @@ public final class OmGetCampaignBonusItemsPu {
        * Um "ItemConditionPartID" zu erfüllen, muß ein Element im Artikelbaum eine Eigenschaft zu diesem Merkmal besitzen, die der durch "Operator1" bis "Condition2" formulierten Bedingung genügt. Sonderfall "-1" : "KEINE Eigenschafts-Bedingung" (immer erfüllt).
        * </pre>
        *
-       * <code>optional .dstore.values.IntegerValue node_characteristic_id = 30012;</code>
+       * <code>.dstore.values.IntegerValue node_characteristic_id = 30012;</code>
        */
       boolean hasNodeCharacteristicId();
       /**
@@ -2955,7 +2955,7 @@ public final class OmGetCampaignBonusItemsPu {
        * Um "ItemConditionPartID" zu erfüllen, muß ein Element im Artikelbaum eine Eigenschaft zu diesem Merkmal besitzen, die der durch "Operator1" bis "Condition2" formulierten Bedingung genügt. Sonderfall "-1" : "KEINE Eigenschafts-Bedingung" (immer erfüllt).
        * </pre>
        *
-       * <code>optional .dstore.values.IntegerValue node_characteristic_id = 30012;</code>
+       * <code>.dstore.values.IntegerValue node_characteristic_id = 30012;</code>
        */
       io.dstore.values.IntegerValue getNodeCharacteristicId();
       /**
@@ -2963,7 +2963,7 @@ public final class OmGetCampaignBonusItemsPu {
        * Um "ItemConditionPartID" zu erfüllen, muß ein Element im Artikelbaum eine Eigenschaft zu diesem Merkmal besitzen, die der durch "Operator1" bis "Condition2" formulierten Bedingung genügt. Sonderfall "-1" : "KEINE Eigenschafts-Bedingung" (immer erfüllt).
        * </pre>
        *
-       * <code>optional .dstore.values.IntegerValue node_characteristic_id = 30012;</code>
+       * <code>.dstore.values.IntegerValue node_characteristic_id = 30012;</code>
        */
       io.dstore.values.IntegerValueOrBuilder getNodeCharacteristicIdOrBuilder();
 
@@ -2972,7 +2972,7 @@ public final class OmGetCampaignBonusItemsPu {
        * ID eines Bedingungs-Teils, das Bestandteil von "ItemConditionGroupID" ist
        * </pre>
        *
-       * <code>optional .dstore.values.IntegerValue item_condition_part_id = 30013;</code>
+       * <code>.dstore.values.IntegerValue item_condition_part_id = 30013;</code>
        */
       boolean hasItemConditionPartId();
       /**
@@ -2980,7 +2980,7 @@ public final class OmGetCampaignBonusItemsPu {
        * ID eines Bedingungs-Teils, das Bestandteil von "ItemConditionGroupID" ist
        * </pre>
        *
-       * <code>optional .dstore.values.IntegerValue item_condition_part_id = 30013;</code>
+       * <code>.dstore.values.IntegerValue item_condition_part_id = 30013;</code>
        */
       io.dstore.values.IntegerValue getItemConditionPartId();
       /**
@@ -2988,7 +2988,7 @@ public final class OmGetCampaignBonusItemsPu {
        * ID eines Bedingungs-Teils, das Bestandteil von "ItemConditionGroupID" ist
        * </pre>
        *
-       * <code>optional .dstore.values.IntegerValue item_condition_part_id = 30013;</code>
+       * <code>.dstore.values.IntegerValue item_condition_part_id = 30013;</code>
        */
       io.dstore.values.IntegerValueOrBuilder getItemConditionPartIdOrBuilder();
 
@@ -2997,7 +2997,7 @@ public final class OmGetCampaignBonusItemsPu {
        * Gibt an, ob die der "ItemConditionID" zugeordneten (Artikel-)Bedingungs-Gruppen logisch mit UND verknüpft werden ("1") oder mit ODER ("0")
        * </pre>
        *
-       * <code>optional .dstore.values.BooleanValue combine_groups_with_a_n_d_operator = 30017;</code>
+       * <code>.dstore.values.BooleanValue combine_groups_with_a_n_d_operator = 30017;</code>
        */
       boolean hasCombineGroupsWithANDOperator();
       /**
@@ -3005,7 +3005,7 @@ public final class OmGetCampaignBonusItemsPu {
        * Gibt an, ob die der "ItemConditionID" zugeordneten (Artikel-)Bedingungs-Gruppen logisch mit UND verknüpft werden ("1") oder mit ODER ("0")
        * </pre>
        *
-       * <code>optional .dstore.values.BooleanValue combine_groups_with_a_n_d_operator = 30017;</code>
+       * <code>.dstore.values.BooleanValue combine_groups_with_a_n_d_operator = 30017;</code>
        */
       io.dstore.values.BooleanValue getCombineGroupsWithANDOperator();
       /**
@@ -3013,7 +3013,7 @@ public final class OmGetCampaignBonusItemsPu {
        * Gibt an, ob die der "ItemConditionID" zugeordneten (Artikel-)Bedingungs-Gruppen logisch mit UND verknüpft werden ("1") oder mit ODER ("0")
        * </pre>
        *
-       * <code>optional .dstore.values.BooleanValue combine_groups_with_a_n_d_operator = 30017;</code>
+       * <code>.dstore.values.BooleanValue combine_groups_with_a_n_d_operator = 30017;</code>
        */
       io.dstore.values.BooleanValueOrBuilder getCombineGroupsWithANDOperatorOrBuilder();
 
@@ -3022,7 +3022,7 @@ public final class OmGetCampaignBonusItemsPu {
        * Bezeichnung des Bedingungs-Teils "ItemConditionPartID"
        * </pre>
        *
-       * <code>optional .dstore.values.StringValue item_condition_part_description = 30018;</code>
+       * <code>.dstore.values.StringValue item_condition_part_description = 30018;</code>
        */
       boolean hasItemConditionPartDescription();
       /**
@@ -3030,7 +3030,7 @@ public final class OmGetCampaignBonusItemsPu {
        * Bezeichnung des Bedingungs-Teils "ItemConditionPartID"
        * </pre>
        *
-       * <code>optional .dstore.values.StringValue item_condition_part_description = 30018;</code>
+       * <code>.dstore.values.StringValue item_condition_part_description = 30018;</code>
        */
       io.dstore.values.StringValue getItemConditionPartDescription();
       /**
@@ -3038,7 +3038,7 @@ public final class OmGetCampaignBonusItemsPu {
        * Bezeichnung des Bedingungs-Teils "ItemConditionPartID"
        * </pre>
        *
-       * <code>optional .dstore.values.StringValue item_condition_part_description = 30018;</code>
+       * <code>.dstore.values.StringValue item_condition_part_description = 30018;</code>
        */
       io.dstore.values.StringValueOrBuilder getItemConditionPartDescriptionOrBuilder();
 
@@ -3047,7 +3047,7 @@ public final class OmGetCampaignBonusItemsPu {
        * Um den (Artikel-)Bedingungs-Teil "ItemConditionPartID" zu erfüllen, muß die Hierarchie ("LevelID") eines Artikel-Elementes aus der hier angegebenen Menge der Hierarchien ("LevelID"s) kommen. Sonderfall ",," bedeutet "beliebige Hierarchie".
        * </pre>
        *
-       * <code>optional .dstore.values.StringValue level_ids = 30019;</code>
+       * <code>.dstore.values.StringValue level_ids = 30019;</code>
        */
       boolean hasLevelIds();
       /**
@@ -3055,7 +3055,7 @@ public final class OmGetCampaignBonusItemsPu {
        * Um den (Artikel-)Bedingungs-Teil "ItemConditionPartID" zu erfüllen, muß die Hierarchie ("LevelID") eines Artikel-Elementes aus der hier angegebenen Menge der Hierarchien ("LevelID"s) kommen. Sonderfall ",," bedeutet "beliebige Hierarchie".
        * </pre>
        *
-       * <code>optional .dstore.values.StringValue level_ids = 30019;</code>
+       * <code>.dstore.values.StringValue level_ids = 30019;</code>
        */
       io.dstore.values.StringValue getLevelIds();
       /**
@@ -3063,7 +3063,7 @@ public final class OmGetCampaignBonusItemsPu {
        * Um den (Artikel-)Bedingungs-Teil "ItemConditionPartID" zu erfüllen, muß die Hierarchie ("LevelID") eines Artikel-Elementes aus der hier angegebenen Menge der Hierarchien ("LevelID"s) kommen. Sonderfall ",," bedeutet "beliebige Hierarchie".
        * </pre>
        *
-       * <code>optional .dstore.values.StringValue level_ids = 30019;</code>
+       * <code>.dstore.values.StringValue level_ids = 30019;</code>
        */
       io.dstore.values.StringValueOrBuilder getLevelIdsOrBuilder();
 
@@ -3072,7 +3072,7 @@ public final class OmGetCampaignBonusItemsPu {
        * ID einer Bedingungs-Gruppe, die Bestandteil von "ItemConditionID" ist
        * </pre>
        *
-       * <code>optional .dstore.values.IntegerValue item_condition_group_id = 30020;</code>
+       * <code>.dstore.values.IntegerValue item_condition_group_id = 30020;</code>
        */
       boolean hasItemConditionGroupId();
       /**
@@ -3080,7 +3080,7 @@ public final class OmGetCampaignBonusItemsPu {
        * ID einer Bedingungs-Gruppe, die Bestandteil von "ItemConditionID" ist
        * </pre>
        *
-       * <code>optional .dstore.values.IntegerValue item_condition_group_id = 30020;</code>
+       * <code>.dstore.values.IntegerValue item_condition_group_id = 30020;</code>
        */
       io.dstore.values.IntegerValue getItemConditionGroupId();
       /**
@@ -3088,7 +3088,7 @@ public final class OmGetCampaignBonusItemsPu {
        * ID einer Bedingungs-Gruppe, die Bestandteil von "ItemConditionID" ist
        * </pre>
        *
-       * <code>optional .dstore.values.IntegerValue item_condition_group_id = 30020;</code>
+       * <code>.dstore.values.IntegerValue item_condition_group_id = 30020;</code>
        */
       io.dstore.values.IntegerValueOrBuilder getItemConditionGroupIdOrBuilder();
 
@@ -3097,7 +3097,7 @@ public final class OmGetCampaignBonusItemsPu {
        * Welche Eigenschaften zu "NodeCharacteristicID" hinsichtlich Vererbung sollen bei Prüfung der Eigenschafts-Bedingung beachtet werden :"-1" : Alle"0" : unvererbte"1" : direkte u. einfach geerbte"2" : direkte u. einfach oder zweifach geerbteusw.
        * </pre>
        *
-       * <code>optional .dstore.values.IntegerValue inherit_depth = 30023;</code>
+       * <code>.dstore.values.IntegerValue inherit_depth = 30023;</code>
        */
       boolean hasInheritDepth();
       /**
@@ -3105,7 +3105,7 @@ public final class OmGetCampaignBonusItemsPu {
        * Welche Eigenschaften zu "NodeCharacteristicID" hinsichtlich Vererbung sollen bei Prüfung der Eigenschafts-Bedingung beachtet werden :"-1" : Alle"0" : unvererbte"1" : direkte u. einfach geerbte"2" : direkte u. einfach oder zweifach geerbteusw.
        * </pre>
        *
-       * <code>optional .dstore.values.IntegerValue inherit_depth = 30023;</code>
+       * <code>.dstore.values.IntegerValue inherit_depth = 30023;</code>
        */
       io.dstore.values.IntegerValue getInheritDepth();
       /**
@@ -3113,7 +3113,7 @@ public final class OmGetCampaignBonusItemsPu {
        * Welche Eigenschaften zu "NodeCharacteristicID" hinsichtlich Vererbung sollen bei Prüfung der Eigenschafts-Bedingung beachtet werden :"-1" : Alle"0" : unvererbte"1" : direkte u. einfach geerbte"2" : direkte u. einfach oder zweifach geerbteusw.
        * </pre>
        *
-       * <code>optional .dstore.values.IntegerValue inherit_depth = 30023;</code>
+       * <code>.dstore.values.IntegerValue inherit_depth = 30023;</code>
        */
       io.dstore.values.IntegerValueOrBuilder getInheritDepthOrBuilder();
     }
@@ -3565,7 +3565,7 @@ public final class OmGetCampaignBonusItemsPu {
       public static final int ROW_ID_FIELD_NUMBER = 10000;
       private int rowId_;
       /**
-       * <code>optional int32 row_id = 10000;</code>
+       * <code>int32 row_id = 10000;</code>
        */
       public int getRowId() {
         return rowId_;
@@ -3578,7 +3578,7 @@ public final class OmGetCampaignBonusItemsPu {
        * Bezeichnung der "NodeID"
        * </pre>
        *
-       * <code>optional .dstore.values.StringValue node_description = 10001;</code>
+       * <code>.dstore.values.StringValue node_description = 10001;</code>
        */
       public boolean hasNodeDescription() {
         return nodeDescription_ != null;
@@ -3588,7 +3588,7 @@ public final class OmGetCampaignBonusItemsPu {
        * Bezeichnung der "NodeID"
        * </pre>
        *
-       * <code>optional .dstore.values.StringValue node_description = 10001;</code>
+       * <code>.dstore.values.StringValue node_description = 10001;</code>
        */
       public io.dstore.values.StringValue getNodeDescription() {
         return nodeDescription_ == null ? io.dstore.values.StringValue.getDefaultInstance() : nodeDescription_;
@@ -3598,7 +3598,7 @@ public final class OmGetCampaignBonusItemsPu {
        * Bezeichnung der "NodeID"
        * </pre>
        *
-       * <code>optional .dstore.values.StringValue node_description = 10001;</code>
+       * <code>.dstore.values.StringValue node_description = 10001;</code>
        */
       public io.dstore.values.StringValueOrBuilder getNodeDescriptionOrBuilder() {
         return getNodeDescription();
@@ -3611,7 +3611,7 @@ public final class OmGetCampaignBonusItemsPu {
        * Eigenschaften der "NodeID" zum 2. Merkmal in  "&#64;SortByCharacteristicIDList"
        * </pre>
        *
-       * <code>optional .dstore.values.StringValue value2 = 10002;</code>
+       * <code>.dstore.values.StringValue value2 = 10002;</code>
        */
       public boolean hasValue2() {
         return value2_ != null;
@@ -3621,7 +3621,7 @@ public final class OmGetCampaignBonusItemsPu {
        * Eigenschaften der "NodeID" zum 2. Merkmal in  "&#64;SortByCharacteristicIDList"
        * </pre>
        *
-       * <code>optional .dstore.values.StringValue value2 = 10002;</code>
+       * <code>.dstore.values.StringValue value2 = 10002;</code>
        */
       public io.dstore.values.StringValue getValue2() {
         return value2_ == null ? io.dstore.values.StringValue.getDefaultInstance() : value2_;
@@ -3631,7 +3631,7 @@ public final class OmGetCampaignBonusItemsPu {
        * Eigenschaften der "NodeID" zum 2. Merkmal in  "&#64;SortByCharacteristicIDList"
        * </pre>
        *
-       * <code>optional .dstore.values.StringValue value2 = 10002;</code>
+       * <code>.dstore.values.StringValue value2 = 10002;</code>
        */
       public io.dstore.values.StringValueOrBuilder getValue2OrBuilder() {
         return getValue2();
@@ -3644,7 +3644,7 @@ public final class OmGetCampaignBonusItemsPu {
        * Eigenschaften der "NodeID" zum 3. Merkmal in  "&#64;SortByCharacteristicIDList"
        * </pre>
        *
-       * <code>optional .dstore.values.StringValue value3 = 10003;</code>
+       * <code>.dstore.values.StringValue value3 = 10003;</code>
        */
       public boolean hasValue3() {
         return value3_ != null;
@@ -3654,7 +3654,7 @@ public final class OmGetCampaignBonusItemsPu {
        * Eigenschaften der "NodeID" zum 3. Merkmal in  "&#64;SortByCharacteristicIDList"
        * </pre>
        *
-       * <code>optional .dstore.values.StringValue value3 = 10003;</code>
+       * <code>.dstore.values.StringValue value3 = 10003;</code>
        */
       public io.dstore.values.StringValue getValue3() {
         return value3_ == null ? io.dstore.values.StringValue.getDefaultInstance() : value3_;
@@ -3664,7 +3664,7 @@ public final class OmGetCampaignBonusItemsPu {
        * Eigenschaften der "NodeID" zum 3. Merkmal in  "&#64;SortByCharacteristicIDList"
        * </pre>
        *
-       * <code>optional .dstore.values.StringValue value3 = 10003;</code>
+       * <code>.dstore.values.StringValue value3 = 10003;</code>
        */
       public io.dstore.values.StringValueOrBuilder getValue3OrBuilder() {
         return getValue3();
@@ -3677,7 +3677,7 @@ public final class OmGetCampaignBonusItemsPu {
        * Eigenschaften der "NodeID" zum 1. Merkmal in  "&#64;SortByCharacteristicIDList"
        * </pre>
        *
-       * <code>optional .dstore.values.StringValue value1 = 10004;</code>
+       * <code>.dstore.values.StringValue value1 = 10004;</code>
        */
       public boolean hasValue1() {
         return value1_ != null;
@@ -3687,7 +3687,7 @@ public final class OmGetCampaignBonusItemsPu {
        * Eigenschaften der "NodeID" zum 1. Merkmal in  "&#64;SortByCharacteristicIDList"
        * </pre>
        *
-       * <code>optional .dstore.values.StringValue value1 = 10004;</code>
+       * <code>.dstore.values.StringValue value1 = 10004;</code>
        */
       public io.dstore.values.StringValue getValue1() {
         return value1_ == null ? io.dstore.values.StringValue.getDefaultInstance() : value1_;
@@ -3697,7 +3697,7 @@ public final class OmGetCampaignBonusItemsPu {
        * Eigenschaften der "NodeID" zum 1. Merkmal in  "&#64;SortByCharacteristicIDList"
        * </pre>
        *
-       * <code>optional .dstore.values.StringValue value1 = 10004;</code>
+       * <code>.dstore.values.StringValue value1 = 10004;</code>
        */
       public io.dstore.values.StringValueOrBuilder getValue1OrBuilder() {
         return getValue1();
@@ -3710,7 +3710,7 @@ public final class OmGetCampaignBonusItemsPu {
        * ID eines Bonus-Sets, das Teil des Benefits "BenefitID" ist
        * </pre>
        *
-       * <code>optional .dstore.values.IntegerValue item_set_id = 10005;</code>
+       * <code>.dstore.values.IntegerValue item_set_id = 10005;</code>
        */
       public boolean hasItemSetId() {
         return itemSetId_ != null;
@@ -3720,7 +3720,7 @@ public final class OmGetCampaignBonusItemsPu {
        * ID eines Bonus-Sets, das Teil des Benefits "BenefitID" ist
        * </pre>
        *
-       * <code>optional .dstore.values.IntegerValue item_set_id = 10005;</code>
+       * <code>.dstore.values.IntegerValue item_set_id = 10005;</code>
        */
       public io.dstore.values.IntegerValue getItemSetId() {
         return itemSetId_ == null ? io.dstore.values.IntegerValue.getDefaultInstance() : itemSetId_;
@@ -3730,7 +3730,7 @@ public final class OmGetCampaignBonusItemsPu {
        * ID eines Bonus-Sets, das Teil des Benefits "BenefitID" ist
        * </pre>
        *
-       * <code>optional .dstore.values.IntegerValue item_set_id = 10005;</code>
+       * <code>.dstore.values.IntegerValue item_set_id = 10005;</code>
        */
       public io.dstore.values.IntegerValueOrBuilder getItemSetIdOrBuilder() {
         return getItemSetId();
@@ -3743,7 +3743,7 @@ public final class OmGetCampaignBonusItemsPu {
        * ID des zugehörigen Artikel-Elementes
        * </pre>
        *
-       * <code>optional .dstore.values.IntegerValue node_id = 10006;</code>
+       * <code>.dstore.values.IntegerValue node_id = 10006;</code>
        */
       public boolean hasNodeId() {
         return nodeId_ != null;
@@ -3753,7 +3753,7 @@ public final class OmGetCampaignBonusItemsPu {
        * ID des zugehörigen Artikel-Elementes
        * </pre>
        *
-       * <code>optional .dstore.values.IntegerValue node_id = 10006;</code>
+       * <code>.dstore.values.IntegerValue node_id = 10006;</code>
        */
       public io.dstore.values.IntegerValue getNodeId() {
         return nodeId_ == null ? io.dstore.values.IntegerValue.getDefaultInstance() : nodeId_;
@@ -3763,7 +3763,7 @@ public final class OmGetCampaignBonusItemsPu {
        * ID des zugehörigen Artikel-Elementes
        * </pre>
        *
-       * <code>optional .dstore.values.IntegerValue node_id = 10006;</code>
+       * <code>.dstore.values.IntegerValue node_id = 10006;</code>
        */
       public io.dstore.values.IntegerValueOrBuilder getNodeIdOrBuilder() {
         return getNodeId();
@@ -3776,7 +3776,7 @@ public final class OmGetCampaignBonusItemsPu {
        * ID eines gefundenen Elementes im Artikelbaum, welches die Bedingungen der "ItemSetID" erfüllt
        * </pre>
        *
-       * <code>optional .dstore.values.IntegerValue tree_node_id = 10007;</code>
+       * <code>.dstore.values.IntegerValue tree_node_id = 10007;</code>
        */
       public boolean hasTreeNodeId() {
         return treeNodeId_ != null;
@@ -3786,7 +3786,7 @@ public final class OmGetCampaignBonusItemsPu {
        * ID eines gefundenen Elementes im Artikelbaum, welches die Bedingungen der "ItemSetID" erfüllt
        * </pre>
        *
-       * <code>optional .dstore.values.IntegerValue tree_node_id = 10007;</code>
+       * <code>.dstore.values.IntegerValue tree_node_id = 10007;</code>
        */
       public io.dstore.values.IntegerValue getTreeNodeId() {
         return treeNodeId_ == null ? io.dstore.values.IntegerValue.getDefaultInstance() : treeNodeId_;
@@ -3796,7 +3796,7 @@ public final class OmGetCampaignBonusItemsPu {
        * ID eines gefundenen Elementes im Artikelbaum, welches die Bedingungen der "ItemSetID" erfüllt
        * </pre>
        *
-       * <code>optional .dstore.values.IntegerValue tree_node_id = 10007;</code>
+       * <code>.dstore.values.IntegerValue tree_node_id = 10007;</code>
        */
       public io.dstore.values.IntegerValueOrBuilder getTreeNodeIdOrBuilder() {
         return getTreeNodeId();
@@ -3809,7 +3809,7 @@ public final class OmGetCampaignBonusItemsPu {
        * Gibt an, ob Bonus-Artikel nur aus einem Set gewählt werden dürfen ("1") oder aus jedem einzelnen Set ("0")
        * </pre>
        *
-       * <code>optional .dstore.values.BooleanValue bonus_from_one_set_only = 10008;</code>
+       * <code>.dstore.values.BooleanValue bonus_from_one_set_only = 10008;</code>
        */
       public boolean hasBonusFromOneSetOnly() {
         return bonusFromOneSetOnly_ != null;
@@ -3819,7 +3819,7 @@ public final class OmGetCampaignBonusItemsPu {
        * Gibt an, ob Bonus-Artikel nur aus einem Set gewählt werden dürfen ("1") oder aus jedem einzelnen Set ("0")
        * </pre>
        *
-       * <code>optional .dstore.values.BooleanValue bonus_from_one_set_only = 10008;</code>
+       * <code>.dstore.values.BooleanValue bonus_from_one_set_only = 10008;</code>
        */
       public io.dstore.values.BooleanValue getBonusFromOneSetOnly() {
         return bonusFromOneSetOnly_ == null ? io.dstore.values.BooleanValue.getDefaultInstance() : bonusFromOneSetOnly_;
@@ -3829,7 +3829,7 @@ public final class OmGetCampaignBonusItemsPu {
        * Gibt an, ob Bonus-Artikel nur aus einem Set gewählt werden dürfen ("1") oder aus jedem einzelnen Set ("0")
        * </pre>
        *
-       * <code>optional .dstore.values.BooleanValue bonus_from_one_set_only = 10008;</code>
+       * <code>.dstore.values.BooleanValue bonus_from_one_set_only = 10008;</code>
        */
       public io.dstore.values.BooleanValueOrBuilder getBonusFromOneSetOnlyOrBuilder() {
         return getBonusFromOneSetOnly();
@@ -3842,7 +3842,7 @@ public final class OmGetCampaignBonusItemsPu {
        * Gibt an, wieviele unterschiedliche Bonus-Artikel aus dem Set "ItemSetID" gewählt werden dürfen
        * </pre>
        *
-       * <code>optional .dstore.values.IntegerValue max_quantity = 10009;</code>
+       * <code>.dstore.values.IntegerValue max_quantity = 10009;</code>
        */
       public boolean hasMaxQuantity() {
         return maxQuantity_ != null;
@@ -3852,7 +3852,7 @@ public final class OmGetCampaignBonusItemsPu {
        * Gibt an, wieviele unterschiedliche Bonus-Artikel aus dem Set "ItemSetID" gewählt werden dürfen
        * </pre>
        *
-       * <code>optional .dstore.values.IntegerValue max_quantity = 10009;</code>
+       * <code>.dstore.values.IntegerValue max_quantity = 10009;</code>
        */
       public io.dstore.values.IntegerValue getMaxQuantity() {
         return maxQuantity_ == null ? io.dstore.values.IntegerValue.getDefaultInstance() : maxQuantity_;
@@ -3862,7 +3862,7 @@ public final class OmGetCampaignBonusItemsPu {
        * Gibt an, wieviele unterschiedliche Bonus-Artikel aus dem Set "ItemSetID" gewählt werden dürfen
        * </pre>
        *
-       * <code>optional .dstore.values.IntegerValue max_quantity = 10009;</code>
+       * <code>.dstore.values.IntegerValue max_quantity = 10009;</code>
        */
       public io.dstore.values.IntegerValueOrBuilder getMaxQuantityOrBuilder() {
         return getMaxQuantity();
@@ -3875,7 +3875,7 @@ public final class OmGetCampaignBonusItemsPu {
        * ID der Artikel-Bedingung, die das Set "ItemSetID" definiert. Die genaue Definition der Bedingung erhält man durch den Aufruf dieser Prozedur mit "&#64;OnlyDefinition = 2".
        * </pre>
        *
-       * <code>optional .dstore.values.IntegerValue item_condition_id = 20001;</code>
+       * <code>.dstore.values.IntegerValue item_condition_id = 20001;</code>
        */
       public boolean hasItemConditionId() {
         return itemConditionId_ != null;
@@ -3885,7 +3885,7 @@ public final class OmGetCampaignBonusItemsPu {
        * ID der Artikel-Bedingung, die das Set "ItemSetID" definiert. Die genaue Definition der Bedingung erhält man durch den Aufruf dieser Prozedur mit "&#64;OnlyDefinition = 2".
        * </pre>
        *
-       * <code>optional .dstore.values.IntegerValue item_condition_id = 20001;</code>
+       * <code>.dstore.values.IntegerValue item_condition_id = 20001;</code>
        */
       public io.dstore.values.IntegerValue getItemConditionId() {
         return itemConditionId_ == null ? io.dstore.values.IntegerValue.getDefaultInstance() : itemConditionId_;
@@ -3895,7 +3895,7 @@ public final class OmGetCampaignBonusItemsPu {
        * ID der Artikel-Bedingung, die das Set "ItemSetID" definiert. Die genaue Definition der Bedingung erhält man durch den Aufruf dieser Prozedur mit "&#64;OnlyDefinition = 2".
        * </pre>
        *
-       * <code>optional .dstore.values.IntegerValue item_condition_id = 20001;</code>
+       * <code>.dstore.values.IntegerValue item_condition_id = 20001;</code>
        */
       public io.dstore.values.IntegerValueOrBuilder getItemConditionIdOrBuilder() {
         return getItemConditionId();
@@ -3908,7 +3908,7 @@ public final class OmGetCampaignBonusItemsPu {
        * Bezeichnung der Artikel-Bedingung "ItemConditionID"
        * </pre>
        *
-       * <code>optional .dstore.values.StringValue item_condition_description = 20005;</code>
+       * <code>.dstore.values.StringValue item_condition_description = 20005;</code>
        */
       public boolean hasItemConditionDescription() {
         return itemConditionDescription_ != null;
@@ -3918,7 +3918,7 @@ public final class OmGetCampaignBonusItemsPu {
        * Bezeichnung der Artikel-Bedingung "ItemConditionID"
        * </pre>
        *
-       * <code>optional .dstore.values.StringValue item_condition_description = 20005;</code>
+       * <code>.dstore.values.StringValue item_condition_description = 20005;</code>
        */
       public io.dstore.values.StringValue getItemConditionDescription() {
         return itemConditionDescription_ == null ? io.dstore.values.StringValue.getDefaultInstance() : itemConditionDescription_;
@@ -3928,7 +3928,7 @@ public final class OmGetCampaignBonusItemsPu {
        * Bezeichnung der Artikel-Bedingung "ItemConditionID"
        * </pre>
        *
-       * <code>optional .dstore.values.StringValue item_condition_description = 20005;</code>
+       * <code>.dstore.values.StringValue item_condition_description = 20005;</code>
        */
       public io.dstore.values.StringValueOrBuilder getItemConditionDescriptionOrBuilder() {
         return getItemConditionDescription();
@@ -3941,7 +3941,7 @@ public final class OmGetCampaignBonusItemsPu {
        * Bestimmt die Reihenfolge von "ItemSetID" innerhalb aller "BenefitID" zugeordneten Sets
        * </pre>
        *
-       * <code>optional .dstore.values.IntegerValue sort_no = 20006;</code>
+       * <code>.dstore.values.IntegerValue sort_no = 20006;</code>
        */
       public boolean hasSortNo() {
         return sortNo_ != null;
@@ -3951,7 +3951,7 @@ public final class OmGetCampaignBonusItemsPu {
        * Bestimmt die Reihenfolge von "ItemSetID" innerhalb aller "BenefitID" zugeordneten Sets
        * </pre>
        *
-       * <code>optional .dstore.values.IntegerValue sort_no = 20006;</code>
+       * <code>.dstore.values.IntegerValue sort_no = 20006;</code>
        */
       public io.dstore.values.IntegerValue getSortNo() {
         return sortNo_ == null ? io.dstore.values.IntegerValue.getDefaultInstance() : sortNo_;
@@ -3961,7 +3961,7 @@ public final class OmGetCampaignBonusItemsPu {
        * Bestimmt die Reihenfolge von "ItemSetID" innerhalb aller "BenefitID" zugeordneten Sets
        * </pre>
        *
-       * <code>optional .dstore.values.IntegerValue sort_no = 20006;</code>
+       * <code>.dstore.values.IntegerValue sort_no = 20006;</code>
        */
       public io.dstore.values.IntegerValueOrBuilder getSortNoOrBuilder() {
         return getSortNo();
@@ -3974,7 +3974,7 @@ public final class OmGetCampaignBonusItemsPu {
        * Bestimmt die Reihenfolge von "ItemConditionGroupID" innerhalb aller der Artikel-Bedingung "ItemConditionID" zugeordneten Bedingungs-Gruppen
        * </pre>
        *
-       * <code>optional .dstore.values.IntegerValue item_group_sort_no = 30001;</code>
+       * <code>.dstore.values.IntegerValue item_group_sort_no = 30001;</code>
        */
       public boolean hasItemGroupSortNo() {
         return itemGroupSortNo_ != null;
@@ -3984,7 +3984,7 @@ public final class OmGetCampaignBonusItemsPu {
        * Bestimmt die Reihenfolge von "ItemConditionGroupID" innerhalb aller der Artikel-Bedingung "ItemConditionID" zugeordneten Bedingungs-Gruppen
        * </pre>
        *
-       * <code>optional .dstore.values.IntegerValue item_group_sort_no = 30001;</code>
+       * <code>.dstore.values.IntegerValue item_group_sort_no = 30001;</code>
        */
       public io.dstore.values.IntegerValue getItemGroupSortNo() {
         return itemGroupSortNo_ == null ? io.dstore.values.IntegerValue.getDefaultInstance() : itemGroupSortNo_;
@@ -3994,7 +3994,7 @@ public final class OmGetCampaignBonusItemsPu {
        * Bestimmt die Reihenfolge von "ItemConditionGroupID" innerhalb aller der Artikel-Bedingung "ItemConditionID" zugeordneten Bedingungs-Gruppen
        * </pre>
        *
-       * <code>optional .dstore.values.IntegerValue item_group_sort_no = 30001;</code>
+       * <code>.dstore.values.IntegerValue item_group_sort_no = 30001;</code>
        */
       public io.dstore.values.IntegerValueOrBuilder getItemGroupSortNoOrBuilder() {
         return getItemGroupSortNo();
@@ -4007,7 +4007,7 @@ public final class OmGetCampaignBonusItemsPu {
        * Operator für die Bedingung "Condition1". Mögliche Werte :- "="- "!=" / "&lt;&gt;"  - "~" / "!~" (LIKE / NOT LIKE)- "&gt;"- "&lt;"- "&gt;="- "&lt;="- "IN" / "!I" (in / NICHT in Menge von "Value"-Werten)- "E" / "!E" (IRGENDEINE / KEINE Eigenschaft)
        * </pre>
        *
-       * <code>optional .dstore.values.StringValue operator1 = 30002;</code>
+       * <code>.dstore.values.StringValue operator1 = 30002;</code>
        */
       public boolean hasOperator1() {
         return operator1_ != null;
@@ -4017,7 +4017,7 @@ public final class OmGetCampaignBonusItemsPu {
        * Operator für die Bedingung "Condition1". Mögliche Werte :- "="- "!=" / "&lt;&gt;"  - "~" / "!~" (LIKE / NOT LIKE)- "&gt;"- "&lt;"- "&gt;="- "&lt;="- "IN" / "!I" (in / NICHT in Menge von "Value"-Werten)- "E" / "!E" (IRGENDEINE / KEINE Eigenschaft)
        * </pre>
        *
-       * <code>optional .dstore.values.StringValue operator1 = 30002;</code>
+       * <code>.dstore.values.StringValue operator1 = 30002;</code>
        */
       public io.dstore.values.StringValue getOperator1() {
         return operator1_ == null ? io.dstore.values.StringValue.getDefaultInstance() : operator1_;
@@ -4027,7 +4027,7 @@ public final class OmGetCampaignBonusItemsPu {
        * Operator für die Bedingung "Condition1". Mögliche Werte :- "="- "!=" / "&lt;&gt;"  - "~" / "!~" (LIKE / NOT LIKE)- "&gt;"- "&lt;"- "&gt;="- "&lt;="- "IN" / "!I" (in / NICHT in Menge von "Value"-Werten)- "E" / "!E" (IRGENDEINE / KEINE Eigenschaft)
        * </pre>
        *
-       * <code>optional .dstore.values.StringValue operator1 = 30002;</code>
+       * <code>.dstore.values.StringValue operator1 = 30002;</code>
        */
       public io.dstore.values.StringValueOrBuilder getOperator1OrBuilder() {
         return getOperator1();
@@ -4040,7 +4040,7 @@ public final class OmGetCampaignBonusItemsPu {
        * Bedingung, die in Verbindung mit "Operator1" anzuwenden ist ("NULL", falls "Operator1" den Wert "E" oder "!E" hat)
        * </pre>
        *
-       * <code>optional .dstore.values.StringValue condition1 = 30003;</code>
+       * <code>.dstore.values.StringValue condition1 = 30003;</code>
        */
       public boolean hasCondition1() {
         return condition1_ != null;
@@ -4050,7 +4050,7 @@ public final class OmGetCampaignBonusItemsPu {
        * Bedingung, die in Verbindung mit "Operator1" anzuwenden ist ("NULL", falls "Operator1" den Wert "E" oder "!E" hat)
        * </pre>
        *
-       * <code>optional .dstore.values.StringValue condition1 = 30003;</code>
+       * <code>.dstore.values.StringValue condition1 = 30003;</code>
        */
       public io.dstore.values.StringValue getCondition1() {
         return condition1_ == null ? io.dstore.values.StringValue.getDefaultInstance() : condition1_;
@@ -4060,7 +4060,7 @@ public final class OmGetCampaignBonusItemsPu {
        * Bedingung, die in Verbindung mit "Operator1" anzuwenden ist ("NULL", falls "Operator1" den Wert "E" oder "!E" hat)
        * </pre>
        *
-       * <code>optional .dstore.values.StringValue condition1 = 30003;</code>
+       * <code>.dstore.values.StringValue condition1 = 30003;</code>
        */
       public io.dstore.values.StringValueOrBuilder getCondition1OrBuilder() {
         return getCondition1();
@@ -4073,7 +4073,7 @@ public final class OmGetCampaignBonusItemsPu {
        * Bedingung, die in Verbindung mit "Operator2" anzuwenden ist (nur belegt, wenn "Operator2" den Wert "&lt;" oder "&lt;=" enthält)
        * </pre>
        *
-       * <code>optional .dstore.values.StringValue condition2 = 30004;</code>
+       * <code>.dstore.values.StringValue condition2 = 30004;</code>
        */
       public boolean hasCondition2() {
         return condition2_ != null;
@@ -4083,7 +4083,7 @@ public final class OmGetCampaignBonusItemsPu {
        * Bedingung, die in Verbindung mit "Operator2" anzuwenden ist (nur belegt, wenn "Operator2" den Wert "&lt;" oder "&lt;=" enthält)
        * </pre>
        *
-       * <code>optional .dstore.values.StringValue condition2 = 30004;</code>
+       * <code>.dstore.values.StringValue condition2 = 30004;</code>
        */
       public io.dstore.values.StringValue getCondition2() {
         return condition2_ == null ? io.dstore.values.StringValue.getDefaultInstance() : condition2_;
@@ -4093,7 +4093,7 @@ public final class OmGetCampaignBonusItemsPu {
        * Bedingung, die in Verbindung mit "Operator2" anzuwenden ist (nur belegt, wenn "Operator2" den Wert "&lt;" oder "&lt;=" enthält)
        * </pre>
        *
-       * <code>optional .dstore.values.StringValue condition2 = 30004;</code>
+       * <code>.dstore.values.StringValue condition2 = 30004;</code>
        */
       public io.dstore.values.StringValueOrBuilder getCondition2OrBuilder() {
         return getCondition2();
@@ -4106,7 +4106,7 @@ public final class OmGetCampaignBonusItemsPu {
        * Operator für die Bedingung "Condition2". Mögliche Werte :- "&lt;" oder "&lt;=", falls "Operator1" "&gt;" oder "&gt;=" enthält- bel. Zeichen (Trennzeichen für Werte-Menge), falls "Operator1" "IN" oder "!I" enthält
        * </pre>
        *
-       * <code>optional .dstore.values.StringValue operator2 = 30005;</code>
+       * <code>.dstore.values.StringValue operator2 = 30005;</code>
        */
       public boolean hasOperator2() {
         return operator2_ != null;
@@ -4116,7 +4116,7 @@ public final class OmGetCampaignBonusItemsPu {
        * Operator für die Bedingung "Condition2". Mögliche Werte :- "&lt;" oder "&lt;=", falls "Operator1" "&gt;" oder "&gt;=" enthält- bel. Zeichen (Trennzeichen für Werte-Menge), falls "Operator1" "IN" oder "!I" enthält
        * </pre>
        *
-       * <code>optional .dstore.values.StringValue operator2 = 30005;</code>
+       * <code>.dstore.values.StringValue operator2 = 30005;</code>
        */
       public io.dstore.values.StringValue getOperator2() {
         return operator2_ == null ? io.dstore.values.StringValue.getDefaultInstance() : operator2_;
@@ -4126,7 +4126,7 @@ public final class OmGetCampaignBonusItemsPu {
        * Operator für die Bedingung "Condition2". Mögliche Werte :- "&lt;" oder "&lt;=", falls "Operator1" "&gt;" oder "&gt;=" enthält- bel. Zeichen (Trennzeichen für Werte-Menge), falls "Operator1" "IN" oder "!I" enthält
        * </pre>
        *
-       * <code>optional .dstore.values.StringValue operator2 = 30005;</code>
+       * <code>.dstore.values.StringValue operator2 = 30005;</code>
        */
       public io.dstore.values.StringValueOrBuilder getOperator2OrBuilder() {
         return getOperator2();
@@ -4139,7 +4139,7 @@ public final class OmGetCampaignBonusItemsPu {
        * Bezeichnung der Bedingungs-Gruppe "ItemConditionGroupID"
        * </pre>
        *
-       * <code>optional .dstore.values.StringValue item_condition_group_description = 30006;</code>
+       * <code>.dstore.values.StringValue item_condition_group_description = 30006;</code>
        */
       public boolean hasItemConditionGroupDescription() {
         return itemConditionGroupDescription_ != null;
@@ -4149,7 +4149,7 @@ public final class OmGetCampaignBonusItemsPu {
        * Bezeichnung der Bedingungs-Gruppe "ItemConditionGroupID"
        * </pre>
        *
-       * <code>optional .dstore.values.StringValue item_condition_group_description = 30006;</code>
+       * <code>.dstore.values.StringValue item_condition_group_description = 30006;</code>
        */
       public io.dstore.values.StringValue getItemConditionGroupDescription() {
         return itemConditionGroupDescription_ == null ? io.dstore.values.StringValue.getDefaultInstance() : itemConditionGroupDescription_;
@@ -4159,7 +4159,7 @@ public final class OmGetCampaignBonusItemsPu {
        * Bezeichnung der Bedingungs-Gruppe "ItemConditionGroupID"
        * </pre>
        *
-       * <code>optional .dstore.values.StringValue item_condition_group_description = 30006;</code>
+       * <code>.dstore.values.StringValue item_condition_group_description = 30006;</code>
        */
       public io.dstore.values.StringValueOrBuilder getItemConditionGroupDescriptionOrBuilder() {
         return getItemConditionGroupDescription();
@@ -4172,7 +4172,7 @@ public final class OmGetCampaignBonusItemsPu {
        * Gibt an, ob die der "ItemConditionGroupID" zugeordneten Bedingungs-Teile logisch mit UND verknüpft werden ("1") oder mit ODER ("0")
        * </pre>
        *
-       * <code>optional .dstore.values.BooleanValue combine_parts_with_a_n_d_operator = 30007;</code>
+       * <code>.dstore.values.BooleanValue combine_parts_with_a_n_d_operator = 30007;</code>
        */
       public boolean hasCombinePartsWithANDOperator() {
         return combinePartsWithANDOperator_ != null;
@@ -4182,7 +4182,7 @@ public final class OmGetCampaignBonusItemsPu {
        * Gibt an, ob die der "ItemConditionGroupID" zugeordneten Bedingungs-Teile logisch mit UND verknüpft werden ("1") oder mit ODER ("0")
        * </pre>
        *
-       * <code>optional .dstore.values.BooleanValue combine_parts_with_a_n_d_operator = 30007;</code>
+       * <code>.dstore.values.BooleanValue combine_parts_with_a_n_d_operator = 30007;</code>
        */
       public io.dstore.values.BooleanValue getCombinePartsWithANDOperator() {
         return combinePartsWithANDOperator_ == null ? io.dstore.values.BooleanValue.getDefaultInstance() : combinePartsWithANDOperator_;
@@ -4192,7 +4192,7 @@ public final class OmGetCampaignBonusItemsPu {
        * Gibt an, ob die der "ItemConditionGroupID" zugeordneten Bedingungs-Teile logisch mit UND verknüpft werden ("1") oder mit ODER ("0")
        * </pre>
        *
-       * <code>optional .dstore.values.BooleanValue combine_parts_with_a_n_d_operator = 30007;</code>
+       * <code>.dstore.values.BooleanValue combine_parts_with_a_n_d_operator = 30007;</code>
        */
       public io.dstore.values.BooleanValueOrBuilder getCombinePartsWithANDOperatorOrBuilder() {
         return getCombinePartsWithANDOperator();
@@ -4205,7 +4205,7 @@ public final class OmGetCampaignBonusItemsPu {
        * Was soll zwecks Prüfung der Bedingung zu "NodeCharacteristicID" (wenn rekursiv) gewählt werden ?"0" : direkte Eigenschaft (also eine Merkmal-ID)"1" : rekursiv ausgewertete Eigenschaft"2" : zugehör. Beschreibung der Eigenschaft (also der Merkmal-ID)
        * </pre>
        *
-       * <code>optional .dstore.values.IntegerValue recursive_evaluation = 30008;</code>
+       * <code>.dstore.values.IntegerValue recursive_evaluation = 30008;</code>
        */
       public boolean hasRecursiveEvaluation() {
         return recursiveEvaluation_ != null;
@@ -4215,7 +4215,7 @@ public final class OmGetCampaignBonusItemsPu {
        * Was soll zwecks Prüfung der Bedingung zu "NodeCharacteristicID" (wenn rekursiv) gewählt werden ?"0" : direkte Eigenschaft (also eine Merkmal-ID)"1" : rekursiv ausgewertete Eigenschaft"2" : zugehör. Beschreibung der Eigenschaft (also der Merkmal-ID)
        * </pre>
        *
-       * <code>optional .dstore.values.IntegerValue recursive_evaluation = 30008;</code>
+       * <code>.dstore.values.IntegerValue recursive_evaluation = 30008;</code>
        */
       public io.dstore.values.IntegerValue getRecursiveEvaluation() {
         return recursiveEvaluation_ == null ? io.dstore.values.IntegerValue.getDefaultInstance() : recursiveEvaluation_;
@@ -4225,7 +4225,7 @@ public final class OmGetCampaignBonusItemsPu {
        * Was soll zwecks Prüfung der Bedingung zu "NodeCharacteristicID" (wenn rekursiv) gewählt werden ?"0" : direkte Eigenschaft (also eine Merkmal-ID)"1" : rekursiv ausgewertete Eigenschaft"2" : zugehör. Beschreibung der Eigenschaft (also der Merkmal-ID)
        * </pre>
        *
-       * <code>optional .dstore.values.IntegerValue recursive_evaluation = 30008;</code>
+       * <code>.dstore.values.IntegerValue recursive_evaluation = 30008;</code>
        */
       public io.dstore.values.IntegerValueOrBuilder getRecursiveEvaluationOrBuilder() {
         return getRecursiveEvaluation();
@@ -4238,7 +4238,7 @@ public final class OmGetCampaignBonusItemsPu {
        * Bestimmt die Reihenfolge von "ItemConditionPartID" innerhalb aller der Bedingungs-Gruppe "ItemConditionGroupID" zugeordneten Bedingungs-Teile
        * </pre>
        *
-       * <code>optional .dstore.values.IntegerValue item_part_sort_no = 30009;</code>
+       * <code>.dstore.values.IntegerValue item_part_sort_no = 30009;</code>
        */
       public boolean hasItemPartSortNo() {
         return itemPartSortNo_ != null;
@@ -4248,7 +4248,7 @@ public final class OmGetCampaignBonusItemsPu {
        * Bestimmt die Reihenfolge von "ItemConditionPartID" innerhalb aller der Bedingungs-Gruppe "ItemConditionGroupID" zugeordneten Bedingungs-Teile
        * </pre>
        *
-       * <code>optional .dstore.values.IntegerValue item_part_sort_no = 30009;</code>
+       * <code>.dstore.values.IntegerValue item_part_sort_no = 30009;</code>
        */
       public io.dstore.values.IntegerValue getItemPartSortNo() {
         return itemPartSortNo_ == null ? io.dstore.values.IntegerValue.getDefaultInstance() : itemPartSortNo_;
@@ -4258,7 +4258,7 @@ public final class OmGetCampaignBonusItemsPu {
        * Bestimmt die Reihenfolge von "ItemConditionPartID" innerhalb aller der Bedingungs-Gruppe "ItemConditionGroupID" zugeordneten Bedingungs-Teile
        * </pre>
        *
-       * <code>optional .dstore.values.IntegerValue item_part_sort_no = 30009;</code>
+       * <code>.dstore.values.IntegerValue item_part_sort_no = 30009;</code>
        */
       public io.dstore.values.IntegerValueOrBuilder getItemPartSortNoOrBuilder() {
         return getItemPartSortNo();
@@ -4271,7 +4271,7 @@ public final class OmGetCampaignBonusItemsPu {
        * Um den (Artikel-)Bedingungs-Teil "ItemConditionPartID" zu erfüllen, muß ein Element im Artikelbaum ein Vorgänger-Element besitzen, dessen "TreeNodeID" aus der hier angegebenen Menge von IDs kommt. Sonderfall ",," bedeutet "beliebiger Vorgänger".
        * </pre>
        *
-       * <code>optional .dstore.values.StringValue domain_tree_node_ids = 30011;</code>
+       * <code>.dstore.values.StringValue domain_tree_node_ids = 30011;</code>
        */
       public boolean hasDomainTreeNodeIds() {
         return domainTreeNodeIds_ != null;
@@ -4281,7 +4281,7 @@ public final class OmGetCampaignBonusItemsPu {
        * Um den (Artikel-)Bedingungs-Teil "ItemConditionPartID" zu erfüllen, muß ein Element im Artikelbaum ein Vorgänger-Element besitzen, dessen "TreeNodeID" aus der hier angegebenen Menge von IDs kommt. Sonderfall ",," bedeutet "beliebiger Vorgänger".
        * </pre>
        *
-       * <code>optional .dstore.values.StringValue domain_tree_node_ids = 30011;</code>
+       * <code>.dstore.values.StringValue domain_tree_node_ids = 30011;</code>
        */
       public io.dstore.values.StringValue getDomainTreeNodeIds() {
         return domainTreeNodeIds_ == null ? io.dstore.values.StringValue.getDefaultInstance() : domainTreeNodeIds_;
@@ -4291,7 +4291,7 @@ public final class OmGetCampaignBonusItemsPu {
        * Um den (Artikel-)Bedingungs-Teil "ItemConditionPartID" zu erfüllen, muß ein Element im Artikelbaum ein Vorgänger-Element besitzen, dessen "TreeNodeID" aus der hier angegebenen Menge von IDs kommt. Sonderfall ",," bedeutet "beliebiger Vorgänger".
        * </pre>
        *
-       * <code>optional .dstore.values.StringValue domain_tree_node_ids = 30011;</code>
+       * <code>.dstore.values.StringValue domain_tree_node_ids = 30011;</code>
        */
       public io.dstore.values.StringValueOrBuilder getDomainTreeNodeIdsOrBuilder() {
         return getDomainTreeNodeIds();
@@ -4304,7 +4304,7 @@ public final class OmGetCampaignBonusItemsPu {
        * Um "ItemConditionPartID" zu erfüllen, muß ein Element im Artikelbaum eine Eigenschaft zu diesem Merkmal besitzen, die der durch "Operator1" bis "Condition2" formulierten Bedingung genügt. Sonderfall "-1" : "KEINE Eigenschafts-Bedingung" (immer erfüllt).
        * </pre>
        *
-       * <code>optional .dstore.values.IntegerValue node_characteristic_id = 30012;</code>
+       * <code>.dstore.values.IntegerValue node_characteristic_id = 30012;</code>
        */
       public boolean hasNodeCharacteristicId() {
         return nodeCharacteristicId_ != null;
@@ -4314,7 +4314,7 @@ public final class OmGetCampaignBonusItemsPu {
        * Um "ItemConditionPartID" zu erfüllen, muß ein Element im Artikelbaum eine Eigenschaft zu diesem Merkmal besitzen, die der durch "Operator1" bis "Condition2" formulierten Bedingung genügt. Sonderfall "-1" : "KEINE Eigenschafts-Bedingung" (immer erfüllt).
        * </pre>
        *
-       * <code>optional .dstore.values.IntegerValue node_characteristic_id = 30012;</code>
+       * <code>.dstore.values.IntegerValue node_characteristic_id = 30012;</code>
        */
       public io.dstore.values.IntegerValue getNodeCharacteristicId() {
         return nodeCharacteristicId_ == null ? io.dstore.values.IntegerValue.getDefaultInstance() : nodeCharacteristicId_;
@@ -4324,7 +4324,7 @@ public final class OmGetCampaignBonusItemsPu {
        * Um "ItemConditionPartID" zu erfüllen, muß ein Element im Artikelbaum eine Eigenschaft zu diesem Merkmal besitzen, die der durch "Operator1" bis "Condition2" formulierten Bedingung genügt. Sonderfall "-1" : "KEINE Eigenschafts-Bedingung" (immer erfüllt).
        * </pre>
        *
-       * <code>optional .dstore.values.IntegerValue node_characteristic_id = 30012;</code>
+       * <code>.dstore.values.IntegerValue node_characteristic_id = 30012;</code>
        */
       public io.dstore.values.IntegerValueOrBuilder getNodeCharacteristicIdOrBuilder() {
         return getNodeCharacteristicId();
@@ -4337,7 +4337,7 @@ public final class OmGetCampaignBonusItemsPu {
        * ID eines Bedingungs-Teils, das Bestandteil von "ItemConditionGroupID" ist
        * </pre>
        *
-       * <code>optional .dstore.values.IntegerValue item_condition_part_id = 30013;</code>
+       * <code>.dstore.values.IntegerValue item_condition_part_id = 30013;</code>
        */
       public boolean hasItemConditionPartId() {
         return itemConditionPartId_ != null;
@@ -4347,7 +4347,7 @@ public final class OmGetCampaignBonusItemsPu {
        * ID eines Bedingungs-Teils, das Bestandteil von "ItemConditionGroupID" ist
        * </pre>
        *
-       * <code>optional .dstore.values.IntegerValue item_condition_part_id = 30013;</code>
+       * <code>.dstore.values.IntegerValue item_condition_part_id = 30013;</code>
        */
       public io.dstore.values.IntegerValue getItemConditionPartId() {
         return itemConditionPartId_ == null ? io.dstore.values.IntegerValue.getDefaultInstance() : itemConditionPartId_;
@@ -4357,7 +4357,7 @@ public final class OmGetCampaignBonusItemsPu {
        * ID eines Bedingungs-Teils, das Bestandteil von "ItemConditionGroupID" ist
        * </pre>
        *
-       * <code>optional .dstore.values.IntegerValue item_condition_part_id = 30013;</code>
+       * <code>.dstore.values.IntegerValue item_condition_part_id = 30013;</code>
        */
       public io.dstore.values.IntegerValueOrBuilder getItemConditionPartIdOrBuilder() {
         return getItemConditionPartId();
@@ -4370,7 +4370,7 @@ public final class OmGetCampaignBonusItemsPu {
        * Gibt an, ob die der "ItemConditionID" zugeordneten (Artikel-)Bedingungs-Gruppen logisch mit UND verknüpft werden ("1") oder mit ODER ("0")
        * </pre>
        *
-       * <code>optional .dstore.values.BooleanValue combine_groups_with_a_n_d_operator = 30017;</code>
+       * <code>.dstore.values.BooleanValue combine_groups_with_a_n_d_operator = 30017;</code>
        */
       public boolean hasCombineGroupsWithANDOperator() {
         return combineGroupsWithANDOperator_ != null;
@@ -4380,7 +4380,7 @@ public final class OmGetCampaignBonusItemsPu {
        * Gibt an, ob die der "ItemConditionID" zugeordneten (Artikel-)Bedingungs-Gruppen logisch mit UND verknüpft werden ("1") oder mit ODER ("0")
        * </pre>
        *
-       * <code>optional .dstore.values.BooleanValue combine_groups_with_a_n_d_operator = 30017;</code>
+       * <code>.dstore.values.BooleanValue combine_groups_with_a_n_d_operator = 30017;</code>
        */
       public io.dstore.values.BooleanValue getCombineGroupsWithANDOperator() {
         return combineGroupsWithANDOperator_ == null ? io.dstore.values.BooleanValue.getDefaultInstance() : combineGroupsWithANDOperator_;
@@ -4390,7 +4390,7 @@ public final class OmGetCampaignBonusItemsPu {
        * Gibt an, ob die der "ItemConditionID" zugeordneten (Artikel-)Bedingungs-Gruppen logisch mit UND verknüpft werden ("1") oder mit ODER ("0")
        * </pre>
        *
-       * <code>optional .dstore.values.BooleanValue combine_groups_with_a_n_d_operator = 30017;</code>
+       * <code>.dstore.values.BooleanValue combine_groups_with_a_n_d_operator = 30017;</code>
        */
       public io.dstore.values.BooleanValueOrBuilder getCombineGroupsWithANDOperatorOrBuilder() {
         return getCombineGroupsWithANDOperator();
@@ -4403,7 +4403,7 @@ public final class OmGetCampaignBonusItemsPu {
        * Bezeichnung des Bedingungs-Teils "ItemConditionPartID"
        * </pre>
        *
-       * <code>optional .dstore.values.StringValue item_condition_part_description = 30018;</code>
+       * <code>.dstore.values.StringValue item_condition_part_description = 30018;</code>
        */
       public boolean hasItemConditionPartDescription() {
         return itemConditionPartDescription_ != null;
@@ -4413,7 +4413,7 @@ public final class OmGetCampaignBonusItemsPu {
        * Bezeichnung des Bedingungs-Teils "ItemConditionPartID"
        * </pre>
        *
-       * <code>optional .dstore.values.StringValue item_condition_part_description = 30018;</code>
+       * <code>.dstore.values.StringValue item_condition_part_description = 30018;</code>
        */
       public io.dstore.values.StringValue getItemConditionPartDescription() {
         return itemConditionPartDescription_ == null ? io.dstore.values.StringValue.getDefaultInstance() : itemConditionPartDescription_;
@@ -4423,7 +4423,7 @@ public final class OmGetCampaignBonusItemsPu {
        * Bezeichnung des Bedingungs-Teils "ItemConditionPartID"
        * </pre>
        *
-       * <code>optional .dstore.values.StringValue item_condition_part_description = 30018;</code>
+       * <code>.dstore.values.StringValue item_condition_part_description = 30018;</code>
        */
       public io.dstore.values.StringValueOrBuilder getItemConditionPartDescriptionOrBuilder() {
         return getItemConditionPartDescription();
@@ -4436,7 +4436,7 @@ public final class OmGetCampaignBonusItemsPu {
        * Um den (Artikel-)Bedingungs-Teil "ItemConditionPartID" zu erfüllen, muß die Hierarchie ("LevelID") eines Artikel-Elementes aus der hier angegebenen Menge der Hierarchien ("LevelID"s) kommen. Sonderfall ",," bedeutet "beliebige Hierarchie".
        * </pre>
        *
-       * <code>optional .dstore.values.StringValue level_ids = 30019;</code>
+       * <code>.dstore.values.StringValue level_ids = 30019;</code>
        */
       public boolean hasLevelIds() {
         return levelIds_ != null;
@@ -4446,7 +4446,7 @@ public final class OmGetCampaignBonusItemsPu {
        * Um den (Artikel-)Bedingungs-Teil "ItemConditionPartID" zu erfüllen, muß die Hierarchie ("LevelID") eines Artikel-Elementes aus der hier angegebenen Menge der Hierarchien ("LevelID"s) kommen. Sonderfall ",," bedeutet "beliebige Hierarchie".
        * </pre>
        *
-       * <code>optional .dstore.values.StringValue level_ids = 30019;</code>
+       * <code>.dstore.values.StringValue level_ids = 30019;</code>
        */
       public io.dstore.values.StringValue getLevelIds() {
         return levelIds_ == null ? io.dstore.values.StringValue.getDefaultInstance() : levelIds_;
@@ -4456,7 +4456,7 @@ public final class OmGetCampaignBonusItemsPu {
        * Um den (Artikel-)Bedingungs-Teil "ItemConditionPartID" zu erfüllen, muß die Hierarchie ("LevelID") eines Artikel-Elementes aus der hier angegebenen Menge der Hierarchien ("LevelID"s) kommen. Sonderfall ",," bedeutet "beliebige Hierarchie".
        * </pre>
        *
-       * <code>optional .dstore.values.StringValue level_ids = 30019;</code>
+       * <code>.dstore.values.StringValue level_ids = 30019;</code>
        */
       public io.dstore.values.StringValueOrBuilder getLevelIdsOrBuilder() {
         return getLevelIds();
@@ -4469,7 +4469,7 @@ public final class OmGetCampaignBonusItemsPu {
        * ID einer Bedingungs-Gruppe, die Bestandteil von "ItemConditionID" ist
        * </pre>
        *
-       * <code>optional .dstore.values.IntegerValue item_condition_group_id = 30020;</code>
+       * <code>.dstore.values.IntegerValue item_condition_group_id = 30020;</code>
        */
       public boolean hasItemConditionGroupId() {
         return itemConditionGroupId_ != null;
@@ -4479,7 +4479,7 @@ public final class OmGetCampaignBonusItemsPu {
        * ID einer Bedingungs-Gruppe, die Bestandteil von "ItemConditionID" ist
        * </pre>
        *
-       * <code>optional .dstore.values.IntegerValue item_condition_group_id = 30020;</code>
+       * <code>.dstore.values.IntegerValue item_condition_group_id = 30020;</code>
        */
       public io.dstore.values.IntegerValue getItemConditionGroupId() {
         return itemConditionGroupId_ == null ? io.dstore.values.IntegerValue.getDefaultInstance() : itemConditionGroupId_;
@@ -4489,7 +4489,7 @@ public final class OmGetCampaignBonusItemsPu {
        * ID einer Bedingungs-Gruppe, die Bestandteil von "ItemConditionID" ist
        * </pre>
        *
-       * <code>optional .dstore.values.IntegerValue item_condition_group_id = 30020;</code>
+       * <code>.dstore.values.IntegerValue item_condition_group_id = 30020;</code>
        */
       public io.dstore.values.IntegerValueOrBuilder getItemConditionGroupIdOrBuilder() {
         return getItemConditionGroupId();
@@ -4502,7 +4502,7 @@ public final class OmGetCampaignBonusItemsPu {
        * Welche Eigenschaften zu "NodeCharacteristicID" hinsichtlich Vererbung sollen bei Prüfung der Eigenschafts-Bedingung beachtet werden :"-1" : Alle"0" : unvererbte"1" : direkte u. einfach geerbte"2" : direkte u. einfach oder zweifach geerbteusw.
        * </pre>
        *
-       * <code>optional .dstore.values.IntegerValue inherit_depth = 30023;</code>
+       * <code>.dstore.values.IntegerValue inherit_depth = 30023;</code>
        */
       public boolean hasInheritDepth() {
         return inheritDepth_ != null;
@@ -4512,7 +4512,7 @@ public final class OmGetCampaignBonusItemsPu {
        * Welche Eigenschaften zu "NodeCharacteristicID" hinsichtlich Vererbung sollen bei Prüfung der Eigenschafts-Bedingung beachtet werden :"-1" : Alle"0" : unvererbte"1" : direkte u. einfach geerbte"2" : direkte u. einfach oder zweifach geerbteusw.
        * </pre>
        *
-       * <code>optional .dstore.values.IntegerValue inherit_depth = 30023;</code>
+       * <code>.dstore.values.IntegerValue inherit_depth = 30023;</code>
        */
       public io.dstore.values.IntegerValue getInheritDepth() {
         return inheritDepth_ == null ? io.dstore.values.IntegerValue.getDefaultInstance() : inheritDepth_;
@@ -4522,7 +4522,7 @@ public final class OmGetCampaignBonusItemsPu {
        * Welche Eigenschaften zu "NodeCharacteristicID" hinsichtlich Vererbung sollen bei Prüfung der Eigenschafts-Bedingung beachtet werden :"-1" : Alle"0" : unvererbte"1" : direkte u. einfach geerbte"2" : direkte u. einfach oder zweifach geerbteusw.
        * </pre>
        *
-       * <code>optional .dstore.values.IntegerValue inherit_depth = 30023;</code>
+       * <code>.dstore.values.IntegerValue inherit_depth = 30023;</code>
        */
       public io.dstore.values.IntegerValueOrBuilder getInheritDepthOrBuilder() {
         return getInheritDepth();
@@ -4929,7 +4929,7 @@ public final class OmGetCampaignBonusItemsPu {
           return memoizedHashCode;
         }
         int hash = 41;
-        hash = (19 * hash) + getDescriptorForType().hashCode();
+        hash = (19 * hash) + getDescriptor().hashCode();
         hash = (37 * hash) + ROW_ID_FIELD_NUMBER;
         hash = (53 * hash) + getRowId();
         if (hasNodeDescription()) {
@@ -5669,13 +5669,13 @@ public final class OmGetCampaignBonusItemsPu {
 
         private int rowId_ ;
         /**
-         * <code>optional int32 row_id = 10000;</code>
+         * <code>int32 row_id = 10000;</code>
          */
         public int getRowId() {
           return rowId_;
         }
         /**
-         * <code>optional int32 row_id = 10000;</code>
+         * <code>int32 row_id = 10000;</code>
          */
         public Builder setRowId(int value) {
           
@@ -5684,7 +5684,7 @@ public final class OmGetCampaignBonusItemsPu {
           return this;
         }
         /**
-         * <code>optional int32 row_id = 10000;</code>
+         * <code>int32 row_id = 10000;</code>
          */
         public Builder clearRowId() {
           
@@ -5701,7 +5701,7 @@ public final class OmGetCampaignBonusItemsPu {
          * Bezeichnung der "NodeID"
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue node_description = 10001;</code>
+         * <code>.dstore.values.StringValue node_description = 10001;</code>
          */
         public boolean hasNodeDescription() {
           return nodeDescriptionBuilder_ != null || nodeDescription_ != null;
@@ -5711,7 +5711,7 @@ public final class OmGetCampaignBonusItemsPu {
          * Bezeichnung der "NodeID"
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue node_description = 10001;</code>
+         * <code>.dstore.values.StringValue node_description = 10001;</code>
          */
         public io.dstore.values.StringValue getNodeDescription() {
           if (nodeDescriptionBuilder_ == null) {
@@ -5725,7 +5725,7 @@ public final class OmGetCampaignBonusItemsPu {
          * Bezeichnung der "NodeID"
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue node_description = 10001;</code>
+         * <code>.dstore.values.StringValue node_description = 10001;</code>
          */
         public Builder setNodeDescription(io.dstore.values.StringValue value) {
           if (nodeDescriptionBuilder_ == null) {
@@ -5745,7 +5745,7 @@ public final class OmGetCampaignBonusItemsPu {
          * Bezeichnung der "NodeID"
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue node_description = 10001;</code>
+         * <code>.dstore.values.StringValue node_description = 10001;</code>
          */
         public Builder setNodeDescription(
             io.dstore.values.StringValue.Builder builderForValue) {
@@ -5763,7 +5763,7 @@ public final class OmGetCampaignBonusItemsPu {
          * Bezeichnung der "NodeID"
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue node_description = 10001;</code>
+         * <code>.dstore.values.StringValue node_description = 10001;</code>
          */
         public Builder mergeNodeDescription(io.dstore.values.StringValue value) {
           if (nodeDescriptionBuilder_ == null) {
@@ -5785,7 +5785,7 @@ public final class OmGetCampaignBonusItemsPu {
          * Bezeichnung der "NodeID"
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue node_description = 10001;</code>
+         * <code>.dstore.values.StringValue node_description = 10001;</code>
          */
         public Builder clearNodeDescription() {
           if (nodeDescriptionBuilder_ == null) {
@@ -5803,7 +5803,7 @@ public final class OmGetCampaignBonusItemsPu {
          * Bezeichnung der "NodeID"
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue node_description = 10001;</code>
+         * <code>.dstore.values.StringValue node_description = 10001;</code>
          */
         public io.dstore.values.StringValue.Builder getNodeDescriptionBuilder() {
           
@@ -5815,7 +5815,7 @@ public final class OmGetCampaignBonusItemsPu {
          * Bezeichnung der "NodeID"
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue node_description = 10001;</code>
+         * <code>.dstore.values.StringValue node_description = 10001;</code>
          */
         public io.dstore.values.StringValueOrBuilder getNodeDescriptionOrBuilder() {
           if (nodeDescriptionBuilder_ != null) {
@@ -5830,7 +5830,7 @@ public final class OmGetCampaignBonusItemsPu {
          * Bezeichnung der "NodeID"
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue node_description = 10001;</code>
+         * <code>.dstore.values.StringValue node_description = 10001;</code>
          */
         private com.google.protobuf.SingleFieldBuilderV3<
             io.dstore.values.StringValue, io.dstore.values.StringValue.Builder, io.dstore.values.StringValueOrBuilder> 
@@ -5854,7 +5854,7 @@ public final class OmGetCampaignBonusItemsPu {
          * Eigenschaften der "NodeID" zum 2. Merkmal in  "&#64;SortByCharacteristicIDList"
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue value2 = 10002;</code>
+         * <code>.dstore.values.StringValue value2 = 10002;</code>
          */
         public boolean hasValue2() {
           return value2Builder_ != null || value2_ != null;
@@ -5864,7 +5864,7 @@ public final class OmGetCampaignBonusItemsPu {
          * Eigenschaften der "NodeID" zum 2. Merkmal in  "&#64;SortByCharacteristicIDList"
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue value2 = 10002;</code>
+         * <code>.dstore.values.StringValue value2 = 10002;</code>
          */
         public io.dstore.values.StringValue getValue2() {
           if (value2Builder_ == null) {
@@ -5878,7 +5878,7 @@ public final class OmGetCampaignBonusItemsPu {
          * Eigenschaften der "NodeID" zum 2. Merkmal in  "&#64;SortByCharacteristicIDList"
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue value2 = 10002;</code>
+         * <code>.dstore.values.StringValue value2 = 10002;</code>
          */
         public Builder setValue2(io.dstore.values.StringValue value) {
           if (value2Builder_ == null) {
@@ -5898,7 +5898,7 @@ public final class OmGetCampaignBonusItemsPu {
          * Eigenschaften der "NodeID" zum 2. Merkmal in  "&#64;SortByCharacteristicIDList"
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue value2 = 10002;</code>
+         * <code>.dstore.values.StringValue value2 = 10002;</code>
          */
         public Builder setValue2(
             io.dstore.values.StringValue.Builder builderForValue) {
@@ -5916,7 +5916,7 @@ public final class OmGetCampaignBonusItemsPu {
          * Eigenschaften der "NodeID" zum 2. Merkmal in  "&#64;SortByCharacteristicIDList"
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue value2 = 10002;</code>
+         * <code>.dstore.values.StringValue value2 = 10002;</code>
          */
         public Builder mergeValue2(io.dstore.values.StringValue value) {
           if (value2Builder_ == null) {
@@ -5938,7 +5938,7 @@ public final class OmGetCampaignBonusItemsPu {
          * Eigenschaften der "NodeID" zum 2. Merkmal in  "&#64;SortByCharacteristicIDList"
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue value2 = 10002;</code>
+         * <code>.dstore.values.StringValue value2 = 10002;</code>
          */
         public Builder clearValue2() {
           if (value2Builder_ == null) {
@@ -5956,7 +5956,7 @@ public final class OmGetCampaignBonusItemsPu {
          * Eigenschaften der "NodeID" zum 2. Merkmal in  "&#64;SortByCharacteristicIDList"
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue value2 = 10002;</code>
+         * <code>.dstore.values.StringValue value2 = 10002;</code>
          */
         public io.dstore.values.StringValue.Builder getValue2Builder() {
           
@@ -5968,7 +5968,7 @@ public final class OmGetCampaignBonusItemsPu {
          * Eigenschaften der "NodeID" zum 2. Merkmal in  "&#64;SortByCharacteristicIDList"
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue value2 = 10002;</code>
+         * <code>.dstore.values.StringValue value2 = 10002;</code>
          */
         public io.dstore.values.StringValueOrBuilder getValue2OrBuilder() {
           if (value2Builder_ != null) {
@@ -5983,7 +5983,7 @@ public final class OmGetCampaignBonusItemsPu {
          * Eigenschaften der "NodeID" zum 2. Merkmal in  "&#64;SortByCharacteristicIDList"
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue value2 = 10002;</code>
+         * <code>.dstore.values.StringValue value2 = 10002;</code>
          */
         private com.google.protobuf.SingleFieldBuilderV3<
             io.dstore.values.StringValue, io.dstore.values.StringValue.Builder, io.dstore.values.StringValueOrBuilder> 
@@ -6007,7 +6007,7 @@ public final class OmGetCampaignBonusItemsPu {
          * Eigenschaften der "NodeID" zum 3. Merkmal in  "&#64;SortByCharacteristicIDList"
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue value3 = 10003;</code>
+         * <code>.dstore.values.StringValue value3 = 10003;</code>
          */
         public boolean hasValue3() {
           return value3Builder_ != null || value3_ != null;
@@ -6017,7 +6017,7 @@ public final class OmGetCampaignBonusItemsPu {
          * Eigenschaften der "NodeID" zum 3. Merkmal in  "&#64;SortByCharacteristicIDList"
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue value3 = 10003;</code>
+         * <code>.dstore.values.StringValue value3 = 10003;</code>
          */
         public io.dstore.values.StringValue getValue3() {
           if (value3Builder_ == null) {
@@ -6031,7 +6031,7 @@ public final class OmGetCampaignBonusItemsPu {
          * Eigenschaften der "NodeID" zum 3. Merkmal in  "&#64;SortByCharacteristicIDList"
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue value3 = 10003;</code>
+         * <code>.dstore.values.StringValue value3 = 10003;</code>
          */
         public Builder setValue3(io.dstore.values.StringValue value) {
           if (value3Builder_ == null) {
@@ -6051,7 +6051,7 @@ public final class OmGetCampaignBonusItemsPu {
          * Eigenschaften der "NodeID" zum 3. Merkmal in  "&#64;SortByCharacteristicIDList"
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue value3 = 10003;</code>
+         * <code>.dstore.values.StringValue value3 = 10003;</code>
          */
         public Builder setValue3(
             io.dstore.values.StringValue.Builder builderForValue) {
@@ -6069,7 +6069,7 @@ public final class OmGetCampaignBonusItemsPu {
          * Eigenschaften der "NodeID" zum 3. Merkmal in  "&#64;SortByCharacteristicIDList"
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue value3 = 10003;</code>
+         * <code>.dstore.values.StringValue value3 = 10003;</code>
          */
         public Builder mergeValue3(io.dstore.values.StringValue value) {
           if (value3Builder_ == null) {
@@ -6091,7 +6091,7 @@ public final class OmGetCampaignBonusItemsPu {
          * Eigenschaften der "NodeID" zum 3. Merkmal in  "&#64;SortByCharacteristicIDList"
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue value3 = 10003;</code>
+         * <code>.dstore.values.StringValue value3 = 10003;</code>
          */
         public Builder clearValue3() {
           if (value3Builder_ == null) {
@@ -6109,7 +6109,7 @@ public final class OmGetCampaignBonusItemsPu {
          * Eigenschaften der "NodeID" zum 3. Merkmal in  "&#64;SortByCharacteristicIDList"
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue value3 = 10003;</code>
+         * <code>.dstore.values.StringValue value3 = 10003;</code>
          */
         public io.dstore.values.StringValue.Builder getValue3Builder() {
           
@@ -6121,7 +6121,7 @@ public final class OmGetCampaignBonusItemsPu {
          * Eigenschaften der "NodeID" zum 3. Merkmal in  "&#64;SortByCharacteristicIDList"
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue value3 = 10003;</code>
+         * <code>.dstore.values.StringValue value3 = 10003;</code>
          */
         public io.dstore.values.StringValueOrBuilder getValue3OrBuilder() {
           if (value3Builder_ != null) {
@@ -6136,7 +6136,7 @@ public final class OmGetCampaignBonusItemsPu {
          * Eigenschaften der "NodeID" zum 3. Merkmal in  "&#64;SortByCharacteristicIDList"
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue value3 = 10003;</code>
+         * <code>.dstore.values.StringValue value3 = 10003;</code>
          */
         private com.google.protobuf.SingleFieldBuilderV3<
             io.dstore.values.StringValue, io.dstore.values.StringValue.Builder, io.dstore.values.StringValueOrBuilder> 
@@ -6160,7 +6160,7 @@ public final class OmGetCampaignBonusItemsPu {
          * Eigenschaften der "NodeID" zum 1. Merkmal in  "&#64;SortByCharacteristicIDList"
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue value1 = 10004;</code>
+         * <code>.dstore.values.StringValue value1 = 10004;</code>
          */
         public boolean hasValue1() {
           return value1Builder_ != null || value1_ != null;
@@ -6170,7 +6170,7 @@ public final class OmGetCampaignBonusItemsPu {
          * Eigenschaften der "NodeID" zum 1. Merkmal in  "&#64;SortByCharacteristicIDList"
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue value1 = 10004;</code>
+         * <code>.dstore.values.StringValue value1 = 10004;</code>
          */
         public io.dstore.values.StringValue getValue1() {
           if (value1Builder_ == null) {
@@ -6184,7 +6184,7 @@ public final class OmGetCampaignBonusItemsPu {
          * Eigenschaften der "NodeID" zum 1. Merkmal in  "&#64;SortByCharacteristicIDList"
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue value1 = 10004;</code>
+         * <code>.dstore.values.StringValue value1 = 10004;</code>
          */
         public Builder setValue1(io.dstore.values.StringValue value) {
           if (value1Builder_ == null) {
@@ -6204,7 +6204,7 @@ public final class OmGetCampaignBonusItemsPu {
          * Eigenschaften der "NodeID" zum 1. Merkmal in  "&#64;SortByCharacteristicIDList"
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue value1 = 10004;</code>
+         * <code>.dstore.values.StringValue value1 = 10004;</code>
          */
         public Builder setValue1(
             io.dstore.values.StringValue.Builder builderForValue) {
@@ -6222,7 +6222,7 @@ public final class OmGetCampaignBonusItemsPu {
          * Eigenschaften der "NodeID" zum 1. Merkmal in  "&#64;SortByCharacteristicIDList"
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue value1 = 10004;</code>
+         * <code>.dstore.values.StringValue value1 = 10004;</code>
          */
         public Builder mergeValue1(io.dstore.values.StringValue value) {
           if (value1Builder_ == null) {
@@ -6244,7 +6244,7 @@ public final class OmGetCampaignBonusItemsPu {
          * Eigenschaften der "NodeID" zum 1. Merkmal in  "&#64;SortByCharacteristicIDList"
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue value1 = 10004;</code>
+         * <code>.dstore.values.StringValue value1 = 10004;</code>
          */
         public Builder clearValue1() {
           if (value1Builder_ == null) {
@@ -6262,7 +6262,7 @@ public final class OmGetCampaignBonusItemsPu {
          * Eigenschaften der "NodeID" zum 1. Merkmal in  "&#64;SortByCharacteristicIDList"
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue value1 = 10004;</code>
+         * <code>.dstore.values.StringValue value1 = 10004;</code>
          */
         public io.dstore.values.StringValue.Builder getValue1Builder() {
           
@@ -6274,7 +6274,7 @@ public final class OmGetCampaignBonusItemsPu {
          * Eigenschaften der "NodeID" zum 1. Merkmal in  "&#64;SortByCharacteristicIDList"
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue value1 = 10004;</code>
+         * <code>.dstore.values.StringValue value1 = 10004;</code>
          */
         public io.dstore.values.StringValueOrBuilder getValue1OrBuilder() {
           if (value1Builder_ != null) {
@@ -6289,7 +6289,7 @@ public final class OmGetCampaignBonusItemsPu {
          * Eigenschaften der "NodeID" zum 1. Merkmal in  "&#64;SortByCharacteristicIDList"
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue value1 = 10004;</code>
+         * <code>.dstore.values.StringValue value1 = 10004;</code>
          */
         private com.google.protobuf.SingleFieldBuilderV3<
             io.dstore.values.StringValue, io.dstore.values.StringValue.Builder, io.dstore.values.StringValueOrBuilder> 
@@ -6313,7 +6313,7 @@ public final class OmGetCampaignBonusItemsPu {
          * ID eines Bonus-Sets, das Teil des Benefits "BenefitID" ist
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue item_set_id = 10005;</code>
+         * <code>.dstore.values.IntegerValue item_set_id = 10005;</code>
          */
         public boolean hasItemSetId() {
           return itemSetIdBuilder_ != null || itemSetId_ != null;
@@ -6323,7 +6323,7 @@ public final class OmGetCampaignBonusItemsPu {
          * ID eines Bonus-Sets, das Teil des Benefits "BenefitID" ist
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue item_set_id = 10005;</code>
+         * <code>.dstore.values.IntegerValue item_set_id = 10005;</code>
          */
         public io.dstore.values.IntegerValue getItemSetId() {
           if (itemSetIdBuilder_ == null) {
@@ -6337,7 +6337,7 @@ public final class OmGetCampaignBonusItemsPu {
          * ID eines Bonus-Sets, das Teil des Benefits "BenefitID" ist
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue item_set_id = 10005;</code>
+         * <code>.dstore.values.IntegerValue item_set_id = 10005;</code>
          */
         public Builder setItemSetId(io.dstore.values.IntegerValue value) {
           if (itemSetIdBuilder_ == null) {
@@ -6357,7 +6357,7 @@ public final class OmGetCampaignBonusItemsPu {
          * ID eines Bonus-Sets, das Teil des Benefits "BenefitID" ist
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue item_set_id = 10005;</code>
+         * <code>.dstore.values.IntegerValue item_set_id = 10005;</code>
          */
         public Builder setItemSetId(
             io.dstore.values.IntegerValue.Builder builderForValue) {
@@ -6375,7 +6375,7 @@ public final class OmGetCampaignBonusItemsPu {
          * ID eines Bonus-Sets, das Teil des Benefits "BenefitID" ist
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue item_set_id = 10005;</code>
+         * <code>.dstore.values.IntegerValue item_set_id = 10005;</code>
          */
         public Builder mergeItemSetId(io.dstore.values.IntegerValue value) {
           if (itemSetIdBuilder_ == null) {
@@ -6397,7 +6397,7 @@ public final class OmGetCampaignBonusItemsPu {
          * ID eines Bonus-Sets, das Teil des Benefits "BenefitID" ist
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue item_set_id = 10005;</code>
+         * <code>.dstore.values.IntegerValue item_set_id = 10005;</code>
          */
         public Builder clearItemSetId() {
           if (itemSetIdBuilder_ == null) {
@@ -6415,7 +6415,7 @@ public final class OmGetCampaignBonusItemsPu {
          * ID eines Bonus-Sets, das Teil des Benefits "BenefitID" ist
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue item_set_id = 10005;</code>
+         * <code>.dstore.values.IntegerValue item_set_id = 10005;</code>
          */
         public io.dstore.values.IntegerValue.Builder getItemSetIdBuilder() {
           
@@ -6427,7 +6427,7 @@ public final class OmGetCampaignBonusItemsPu {
          * ID eines Bonus-Sets, das Teil des Benefits "BenefitID" ist
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue item_set_id = 10005;</code>
+         * <code>.dstore.values.IntegerValue item_set_id = 10005;</code>
          */
         public io.dstore.values.IntegerValueOrBuilder getItemSetIdOrBuilder() {
           if (itemSetIdBuilder_ != null) {
@@ -6442,7 +6442,7 @@ public final class OmGetCampaignBonusItemsPu {
          * ID eines Bonus-Sets, das Teil des Benefits "BenefitID" ist
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue item_set_id = 10005;</code>
+         * <code>.dstore.values.IntegerValue item_set_id = 10005;</code>
          */
         private com.google.protobuf.SingleFieldBuilderV3<
             io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> 
@@ -6466,7 +6466,7 @@ public final class OmGetCampaignBonusItemsPu {
          * ID des zugehörigen Artikel-Elementes
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue node_id = 10006;</code>
+         * <code>.dstore.values.IntegerValue node_id = 10006;</code>
          */
         public boolean hasNodeId() {
           return nodeIdBuilder_ != null || nodeId_ != null;
@@ -6476,7 +6476,7 @@ public final class OmGetCampaignBonusItemsPu {
          * ID des zugehörigen Artikel-Elementes
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue node_id = 10006;</code>
+         * <code>.dstore.values.IntegerValue node_id = 10006;</code>
          */
         public io.dstore.values.IntegerValue getNodeId() {
           if (nodeIdBuilder_ == null) {
@@ -6490,7 +6490,7 @@ public final class OmGetCampaignBonusItemsPu {
          * ID des zugehörigen Artikel-Elementes
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue node_id = 10006;</code>
+         * <code>.dstore.values.IntegerValue node_id = 10006;</code>
          */
         public Builder setNodeId(io.dstore.values.IntegerValue value) {
           if (nodeIdBuilder_ == null) {
@@ -6510,7 +6510,7 @@ public final class OmGetCampaignBonusItemsPu {
          * ID des zugehörigen Artikel-Elementes
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue node_id = 10006;</code>
+         * <code>.dstore.values.IntegerValue node_id = 10006;</code>
          */
         public Builder setNodeId(
             io.dstore.values.IntegerValue.Builder builderForValue) {
@@ -6528,7 +6528,7 @@ public final class OmGetCampaignBonusItemsPu {
          * ID des zugehörigen Artikel-Elementes
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue node_id = 10006;</code>
+         * <code>.dstore.values.IntegerValue node_id = 10006;</code>
          */
         public Builder mergeNodeId(io.dstore.values.IntegerValue value) {
           if (nodeIdBuilder_ == null) {
@@ -6550,7 +6550,7 @@ public final class OmGetCampaignBonusItemsPu {
          * ID des zugehörigen Artikel-Elementes
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue node_id = 10006;</code>
+         * <code>.dstore.values.IntegerValue node_id = 10006;</code>
          */
         public Builder clearNodeId() {
           if (nodeIdBuilder_ == null) {
@@ -6568,7 +6568,7 @@ public final class OmGetCampaignBonusItemsPu {
          * ID des zugehörigen Artikel-Elementes
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue node_id = 10006;</code>
+         * <code>.dstore.values.IntegerValue node_id = 10006;</code>
          */
         public io.dstore.values.IntegerValue.Builder getNodeIdBuilder() {
           
@@ -6580,7 +6580,7 @@ public final class OmGetCampaignBonusItemsPu {
          * ID des zugehörigen Artikel-Elementes
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue node_id = 10006;</code>
+         * <code>.dstore.values.IntegerValue node_id = 10006;</code>
          */
         public io.dstore.values.IntegerValueOrBuilder getNodeIdOrBuilder() {
           if (nodeIdBuilder_ != null) {
@@ -6595,7 +6595,7 @@ public final class OmGetCampaignBonusItemsPu {
          * ID des zugehörigen Artikel-Elementes
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue node_id = 10006;</code>
+         * <code>.dstore.values.IntegerValue node_id = 10006;</code>
          */
         private com.google.protobuf.SingleFieldBuilderV3<
             io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> 
@@ -6619,7 +6619,7 @@ public final class OmGetCampaignBonusItemsPu {
          * ID eines gefundenen Elementes im Artikelbaum, welches die Bedingungen der "ItemSetID" erfüllt
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue tree_node_id = 10007;</code>
+         * <code>.dstore.values.IntegerValue tree_node_id = 10007;</code>
          */
         public boolean hasTreeNodeId() {
           return treeNodeIdBuilder_ != null || treeNodeId_ != null;
@@ -6629,7 +6629,7 @@ public final class OmGetCampaignBonusItemsPu {
          * ID eines gefundenen Elementes im Artikelbaum, welches die Bedingungen der "ItemSetID" erfüllt
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue tree_node_id = 10007;</code>
+         * <code>.dstore.values.IntegerValue tree_node_id = 10007;</code>
          */
         public io.dstore.values.IntegerValue getTreeNodeId() {
           if (treeNodeIdBuilder_ == null) {
@@ -6643,7 +6643,7 @@ public final class OmGetCampaignBonusItemsPu {
          * ID eines gefundenen Elementes im Artikelbaum, welches die Bedingungen der "ItemSetID" erfüllt
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue tree_node_id = 10007;</code>
+         * <code>.dstore.values.IntegerValue tree_node_id = 10007;</code>
          */
         public Builder setTreeNodeId(io.dstore.values.IntegerValue value) {
           if (treeNodeIdBuilder_ == null) {
@@ -6663,7 +6663,7 @@ public final class OmGetCampaignBonusItemsPu {
          * ID eines gefundenen Elementes im Artikelbaum, welches die Bedingungen der "ItemSetID" erfüllt
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue tree_node_id = 10007;</code>
+         * <code>.dstore.values.IntegerValue tree_node_id = 10007;</code>
          */
         public Builder setTreeNodeId(
             io.dstore.values.IntegerValue.Builder builderForValue) {
@@ -6681,7 +6681,7 @@ public final class OmGetCampaignBonusItemsPu {
          * ID eines gefundenen Elementes im Artikelbaum, welches die Bedingungen der "ItemSetID" erfüllt
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue tree_node_id = 10007;</code>
+         * <code>.dstore.values.IntegerValue tree_node_id = 10007;</code>
          */
         public Builder mergeTreeNodeId(io.dstore.values.IntegerValue value) {
           if (treeNodeIdBuilder_ == null) {
@@ -6703,7 +6703,7 @@ public final class OmGetCampaignBonusItemsPu {
          * ID eines gefundenen Elementes im Artikelbaum, welches die Bedingungen der "ItemSetID" erfüllt
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue tree_node_id = 10007;</code>
+         * <code>.dstore.values.IntegerValue tree_node_id = 10007;</code>
          */
         public Builder clearTreeNodeId() {
           if (treeNodeIdBuilder_ == null) {
@@ -6721,7 +6721,7 @@ public final class OmGetCampaignBonusItemsPu {
          * ID eines gefundenen Elementes im Artikelbaum, welches die Bedingungen der "ItemSetID" erfüllt
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue tree_node_id = 10007;</code>
+         * <code>.dstore.values.IntegerValue tree_node_id = 10007;</code>
          */
         public io.dstore.values.IntegerValue.Builder getTreeNodeIdBuilder() {
           
@@ -6733,7 +6733,7 @@ public final class OmGetCampaignBonusItemsPu {
          * ID eines gefundenen Elementes im Artikelbaum, welches die Bedingungen der "ItemSetID" erfüllt
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue tree_node_id = 10007;</code>
+         * <code>.dstore.values.IntegerValue tree_node_id = 10007;</code>
          */
         public io.dstore.values.IntegerValueOrBuilder getTreeNodeIdOrBuilder() {
           if (treeNodeIdBuilder_ != null) {
@@ -6748,7 +6748,7 @@ public final class OmGetCampaignBonusItemsPu {
          * ID eines gefundenen Elementes im Artikelbaum, welches die Bedingungen der "ItemSetID" erfüllt
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue tree_node_id = 10007;</code>
+         * <code>.dstore.values.IntegerValue tree_node_id = 10007;</code>
          */
         private com.google.protobuf.SingleFieldBuilderV3<
             io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> 
@@ -6772,7 +6772,7 @@ public final class OmGetCampaignBonusItemsPu {
          * Gibt an, ob Bonus-Artikel nur aus einem Set gewählt werden dürfen ("1") oder aus jedem einzelnen Set ("0")
          * </pre>
          *
-         * <code>optional .dstore.values.BooleanValue bonus_from_one_set_only = 10008;</code>
+         * <code>.dstore.values.BooleanValue bonus_from_one_set_only = 10008;</code>
          */
         public boolean hasBonusFromOneSetOnly() {
           return bonusFromOneSetOnlyBuilder_ != null || bonusFromOneSetOnly_ != null;
@@ -6782,7 +6782,7 @@ public final class OmGetCampaignBonusItemsPu {
          * Gibt an, ob Bonus-Artikel nur aus einem Set gewählt werden dürfen ("1") oder aus jedem einzelnen Set ("0")
          * </pre>
          *
-         * <code>optional .dstore.values.BooleanValue bonus_from_one_set_only = 10008;</code>
+         * <code>.dstore.values.BooleanValue bonus_from_one_set_only = 10008;</code>
          */
         public io.dstore.values.BooleanValue getBonusFromOneSetOnly() {
           if (bonusFromOneSetOnlyBuilder_ == null) {
@@ -6796,7 +6796,7 @@ public final class OmGetCampaignBonusItemsPu {
          * Gibt an, ob Bonus-Artikel nur aus einem Set gewählt werden dürfen ("1") oder aus jedem einzelnen Set ("0")
          * </pre>
          *
-         * <code>optional .dstore.values.BooleanValue bonus_from_one_set_only = 10008;</code>
+         * <code>.dstore.values.BooleanValue bonus_from_one_set_only = 10008;</code>
          */
         public Builder setBonusFromOneSetOnly(io.dstore.values.BooleanValue value) {
           if (bonusFromOneSetOnlyBuilder_ == null) {
@@ -6816,7 +6816,7 @@ public final class OmGetCampaignBonusItemsPu {
          * Gibt an, ob Bonus-Artikel nur aus einem Set gewählt werden dürfen ("1") oder aus jedem einzelnen Set ("0")
          * </pre>
          *
-         * <code>optional .dstore.values.BooleanValue bonus_from_one_set_only = 10008;</code>
+         * <code>.dstore.values.BooleanValue bonus_from_one_set_only = 10008;</code>
          */
         public Builder setBonusFromOneSetOnly(
             io.dstore.values.BooleanValue.Builder builderForValue) {
@@ -6834,7 +6834,7 @@ public final class OmGetCampaignBonusItemsPu {
          * Gibt an, ob Bonus-Artikel nur aus einem Set gewählt werden dürfen ("1") oder aus jedem einzelnen Set ("0")
          * </pre>
          *
-         * <code>optional .dstore.values.BooleanValue bonus_from_one_set_only = 10008;</code>
+         * <code>.dstore.values.BooleanValue bonus_from_one_set_only = 10008;</code>
          */
         public Builder mergeBonusFromOneSetOnly(io.dstore.values.BooleanValue value) {
           if (bonusFromOneSetOnlyBuilder_ == null) {
@@ -6856,7 +6856,7 @@ public final class OmGetCampaignBonusItemsPu {
          * Gibt an, ob Bonus-Artikel nur aus einem Set gewählt werden dürfen ("1") oder aus jedem einzelnen Set ("0")
          * </pre>
          *
-         * <code>optional .dstore.values.BooleanValue bonus_from_one_set_only = 10008;</code>
+         * <code>.dstore.values.BooleanValue bonus_from_one_set_only = 10008;</code>
          */
         public Builder clearBonusFromOneSetOnly() {
           if (bonusFromOneSetOnlyBuilder_ == null) {
@@ -6874,7 +6874,7 @@ public final class OmGetCampaignBonusItemsPu {
          * Gibt an, ob Bonus-Artikel nur aus einem Set gewählt werden dürfen ("1") oder aus jedem einzelnen Set ("0")
          * </pre>
          *
-         * <code>optional .dstore.values.BooleanValue bonus_from_one_set_only = 10008;</code>
+         * <code>.dstore.values.BooleanValue bonus_from_one_set_only = 10008;</code>
          */
         public io.dstore.values.BooleanValue.Builder getBonusFromOneSetOnlyBuilder() {
           
@@ -6886,7 +6886,7 @@ public final class OmGetCampaignBonusItemsPu {
          * Gibt an, ob Bonus-Artikel nur aus einem Set gewählt werden dürfen ("1") oder aus jedem einzelnen Set ("0")
          * </pre>
          *
-         * <code>optional .dstore.values.BooleanValue bonus_from_one_set_only = 10008;</code>
+         * <code>.dstore.values.BooleanValue bonus_from_one_set_only = 10008;</code>
          */
         public io.dstore.values.BooleanValueOrBuilder getBonusFromOneSetOnlyOrBuilder() {
           if (bonusFromOneSetOnlyBuilder_ != null) {
@@ -6901,7 +6901,7 @@ public final class OmGetCampaignBonusItemsPu {
          * Gibt an, ob Bonus-Artikel nur aus einem Set gewählt werden dürfen ("1") oder aus jedem einzelnen Set ("0")
          * </pre>
          *
-         * <code>optional .dstore.values.BooleanValue bonus_from_one_set_only = 10008;</code>
+         * <code>.dstore.values.BooleanValue bonus_from_one_set_only = 10008;</code>
          */
         private com.google.protobuf.SingleFieldBuilderV3<
             io.dstore.values.BooleanValue, io.dstore.values.BooleanValue.Builder, io.dstore.values.BooleanValueOrBuilder> 
@@ -6925,7 +6925,7 @@ public final class OmGetCampaignBonusItemsPu {
          * Gibt an, wieviele unterschiedliche Bonus-Artikel aus dem Set "ItemSetID" gewählt werden dürfen
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue max_quantity = 10009;</code>
+         * <code>.dstore.values.IntegerValue max_quantity = 10009;</code>
          */
         public boolean hasMaxQuantity() {
           return maxQuantityBuilder_ != null || maxQuantity_ != null;
@@ -6935,7 +6935,7 @@ public final class OmGetCampaignBonusItemsPu {
          * Gibt an, wieviele unterschiedliche Bonus-Artikel aus dem Set "ItemSetID" gewählt werden dürfen
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue max_quantity = 10009;</code>
+         * <code>.dstore.values.IntegerValue max_quantity = 10009;</code>
          */
         public io.dstore.values.IntegerValue getMaxQuantity() {
           if (maxQuantityBuilder_ == null) {
@@ -6949,7 +6949,7 @@ public final class OmGetCampaignBonusItemsPu {
          * Gibt an, wieviele unterschiedliche Bonus-Artikel aus dem Set "ItemSetID" gewählt werden dürfen
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue max_quantity = 10009;</code>
+         * <code>.dstore.values.IntegerValue max_quantity = 10009;</code>
          */
         public Builder setMaxQuantity(io.dstore.values.IntegerValue value) {
           if (maxQuantityBuilder_ == null) {
@@ -6969,7 +6969,7 @@ public final class OmGetCampaignBonusItemsPu {
          * Gibt an, wieviele unterschiedliche Bonus-Artikel aus dem Set "ItemSetID" gewählt werden dürfen
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue max_quantity = 10009;</code>
+         * <code>.dstore.values.IntegerValue max_quantity = 10009;</code>
          */
         public Builder setMaxQuantity(
             io.dstore.values.IntegerValue.Builder builderForValue) {
@@ -6987,7 +6987,7 @@ public final class OmGetCampaignBonusItemsPu {
          * Gibt an, wieviele unterschiedliche Bonus-Artikel aus dem Set "ItemSetID" gewählt werden dürfen
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue max_quantity = 10009;</code>
+         * <code>.dstore.values.IntegerValue max_quantity = 10009;</code>
          */
         public Builder mergeMaxQuantity(io.dstore.values.IntegerValue value) {
           if (maxQuantityBuilder_ == null) {
@@ -7009,7 +7009,7 @@ public final class OmGetCampaignBonusItemsPu {
          * Gibt an, wieviele unterschiedliche Bonus-Artikel aus dem Set "ItemSetID" gewählt werden dürfen
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue max_quantity = 10009;</code>
+         * <code>.dstore.values.IntegerValue max_quantity = 10009;</code>
          */
         public Builder clearMaxQuantity() {
           if (maxQuantityBuilder_ == null) {
@@ -7027,7 +7027,7 @@ public final class OmGetCampaignBonusItemsPu {
          * Gibt an, wieviele unterschiedliche Bonus-Artikel aus dem Set "ItemSetID" gewählt werden dürfen
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue max_quantity = 10009;</code>
+         * <code>.dstore.values.IntegerValue max_quantity = 10009;</code>
          */
         public io.dstore.values.IntegerValue.Builder getMaxQuantityBuilder() {
           
@@ -7039,7 +7039,7 @@ public final class OmGetCampaignBonusItemsPu {
          * Gibt an, wieviele unterschiedliche Bonus-Artikel aus dem Set "ItemSetID" gewählt werden dürfen
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue max_quantity = 10009;</code>
+         * <code>.dstore.values.IntegerValue max_quantity = 10009;</code>
          */
         public io.dstore.values.IntegerValueOrBuilder getMaxQuantityOrBuilder() {
           if (maxQuantityBuilder_ != null) {
@@ -7054,7 +7054,7 @@ public final class OmGetCampaignBonusItemsPu {
          * Gibt an, wieviele unterschiedliche Bonus-Artikel aus dem Set "ItemSetID" gewählt werden dürfen
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue max_quantity = 10009;</code>
+         * <code>.dstore.values.IntegerValue max_quantity = 10009;</code>
          */
         private com.google.protobuf.SingleFieldBuilderV3<
             io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> 
@@ -7078,7 +7078,7 @@ public final class OmGetCampaignBonusItemsPu {
          * ID der Artikel-Bedingung, die das Set "ItemSetID" definiert. Die genaue Definition der Bedingung erhält man durch den Aufruf dieser Prozedur mit "&#64;OnlyDefinition = 2".
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue item_condition_id = 20001;</code>
+         * <code>.dstore.values.IntegerValue item_condition_id = 20001;</code>
          */
         public boolean hasItemConditionId() {
           return itemConditionIdBuilder_ != null || itemConditionId_ != null;
@@ -7088,7 +7088,7 @@ public final class OmGetCampaignBonusItemsPu {
          * ID der Artikel-Bedingung, die das Set "ItemSetID" definiert. Die genaue Definition der Bedingung erhält man durch den Aufruf dieser Prozedur mit "&#64;OnlyDefinition = 2".
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue item_condition_id = 20001;</code>
+         * <code>.dstore.values.IntegerValue item_condition_id = 20001;</code>
          */
         public io.dstore.values.IntegerValue getItemConditionId() {
           if (itemConditionIdBuilder_ == null) {
@@ -7102,7 +7102,7 @@ public final class OmGetCampaignBonusItemsPu {
          * ID der Artikel-Bedingung, die das Set "ItemSetID" definiert. Die genaue Definition der Bedingung erhält man durch den Aufruf dieser Prozedur mit "&#64;OnlyDefinition = 2".
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue item_condition_id = 20001;</code>
+         * <code>.dstore.values.IntegerValue item_condition_id = 20001;</code>
          */
         public Builder setItemConditionId(io.dstore.values.IntegerValue value) {
           if (itemConditionIdBuilder_ == null) {
@@ -7122,7 +7122,7 @@ public final class OmGetCampaignBonusItemsPu {
          * ID der Artikel-Bedingung, die das Set "ItemSetID" definiert. Die genaue Definition der Bedingung erhält man durch den Aufruf dieser Prozedur mit "&#64;OnlyDefinition = 2".
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue item_condition_id = 20001;</code>
+         * <code>.dstore.values.IntegerValue item_condition_id = 20001;</code>
          */
         public Builder setItemConditionId(
             io.dstore.values.IntegerValue.Builder builderForValue) {
@@ -7140,7 +7140,7 @@ public final class OmGetCampaignBonusItemsPu {
          * ID der Artikel-Bedingung, die das Set "ItemSetID" definiert. Die genaue Definition der Bedingung erhält man durch den Aufruf dieser Prozedur mit "&#64;OnlyDefinition = 2".
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue item_condition_id = 20001;</code>
+         * <code>.dstore.values.IntegerValue item_condition_id = 20001;</code>
          */
         public Builder mergeItemConditionId(io.dstore.values.IntegerValue value) {
           if (itemConditionIdBuilder_ == null) {
@@ -7162,7 +7162,7 @@ public final class OmGetCampaignBonusItemsPu {
          * ID der Artikel-Bedingung, die das Set "ItemSetID" definiert. Die genaue Definition der Bedingung erhält man durch den Aufruf dieser Prozedur mit "&#64;OnlyDefinition = 2".
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue item_condition_id = 20001;</code>
+         * <code>.dstore.values.IntegerValue item_condition_id = 20001;</code>
          */
         public Builder clearItemConditionId() {
           if (itemConditionIdBuilder_ == null) {
@@ -7180,7 +7180,7 @@ public final class OmGetCampaignBonusItemsPu {
          * ID der Artikel-Bedingung, die das Set "ItemSetID" definiert. Die genaue Definition der Bedingung erhält man durch den Aufruf dieser Prozedur mit "&#64;OnlyDefinition = 2".
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue item_condition_id = 20001;</code>
+         * <code>.dstore.values.IntegerValue item_condition_id = 20001;</code>
          */
         public io.dstore.values.IntegerValue.Builder getItemConditionIdBuilder() {
           
@@ -7192,7 +7192,7 @@ public final class OmGetCampaignBonusItemsPu {
          * ID der Artikel-Bedingung, die das Set "ItemSetID" definiert. Die genaue Definition der Bedingung erhält man durch den Aufruf dieser Prozedur mit "&#64;OnlyDefinition = 2".
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue item_condition_id = 20001;</code>
+         * <code>.dstore.values.IntegerValue item_condition_id = 20001;</code>
          */
         public io.dstore.values.IntegerValueOrBuilder getItemConditionIdOrBuilder() {
           if (itemConditionIdBuilder_ != null) {
@@ -7207,7 +7207,7 @@ public final class OmGetCampaignBonusItemsPu {
          * ID der Artikel-Bedingung, die das Set "ItemSetID" definiert. Die genaue Definition der Bedingung erhält man durch den Aufruf dieser Prozedur mit "&#64;OnlyDefinition = 2".
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue item_condition_id = 20001;</code>
+         * <code>.dstore.values.IntegerValue item_condition_id = 20001;</code>
          */
         private com.google.protobuf.SingleFieldBuilderV3<
             io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> 
@@ -7231,7 +7231,7 @@ public final class OmGetCampaignBonusItemsPu {
          * Bezeichnung der Artikel-Bedingung "ItemConditionID"
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue item_condition_description = 20005;</code>
+         * <code>.dstore.values.StringValue item_condition_description = 20005;</code>
          */
         public boolean hasItemConditionDescription() {
           return itemConditionDescriptionBuilder_ != null || itemConditionDescription_ != null;
@@ -7241,7 +7241,7 @@ public final class OmGetCampaignBonusItemsPu {
          * Bezeichnung der Artikel-Bedingung "ItemConditionID"
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue item_condition_description = 20005;</code>
+         * <code>.dstore.values.StringValue item_condition_description = 20005;</code>
          */
         public io.dstore.values.StringValue getItemConditionDescription() {
           if (itemConditionDescriptionBuilder_ == null) {
@@ -7255,7 +7255,7 @@ public final class OmGetCampaignBonusItemsPu {
          * Bezeichnung der Artikel-Bedingung "ItemConditionID"
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue item_condition_description = 20005;</code>
+         * <code>.dstore.values.StringValue item_condition_description = 20005;</code>
          */
         public Builder setItemConditionDescription(io.dstore.values.StringValue value) {
           if (itemConditionDescriptionBuilder_ == null) {
@@ -7275,7 +7275,7 @@ public final class OmGetCampaignBonusItemsPu {
          * Bezeichnung der Artikel-Bedingung "ItemConditionID"
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue item_condition_description = 20005;</code>
+         * <code>.dstore.values.StringValue item_condition_description = 20005;</code>
          */
         public Builder setItemConditionDescription(
             io.dstore.values.StringValue.Builder builderForValue) {
@@ -7293,7 +7293,7 @@ public final class OmGetCampaignBonusItemsPu {
          * Bezeichnung der Artikel-Bedingung "ItemConditionID"
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue item_condition_description = 20005;</code>
+         * <code>.dstore.values.StringValue item_condition_description = 20005;</code>
          */
         public Builder mergeItemConditionDescription(io.dstore.values.StringValue value) {
           if (itemConditionDescriptionBuilder_ == null) {
@@ -7315,7 +7315,7 @@ public final class OmGetCampaignBonusItemsPu {
          * Bezeichnung der Artikel-Bedingung "ItemConditionID"
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue item_condition_description = 20005;</code>
+         * <code>.dstore.values.StringValue item_condition_description = 20005;</code>
          */
         public Builder clearItemConditionDescription() {
           if (itemConditionDescriptionBuilder_ == null) {
@@ -7333,7 +7333,7 @@ public final class OmGetCampaignBonusItemsPu {
          * Bezeichnung der Artikel-Bedingung "ItemConditionID"
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue item_condition_description = 20005;</code>
+         * <code>.dstore.values.StringValue item_condition_description = 20005;</code>
          */
         public io.dstore.values.StringValue.Builder getItemConditionDescriptionBuilder() {
           
@@ -7345,7 +7345,7 @@ public final class OmGetCampaignBonusItemsPu {
          * Bezeichnung der Artikel-Bedingung "ItemConditionID"
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue item_condition_description = 20005;</code>
+         * <code>.dstore.values.StringValue item_condition_description = 20005;</code>
          */
         public io.dstore.values.StringValueOrBuilder getItemConditionDescriptionOrBuilder() {
           if (itemConditionDescriptionBuilder_ != null) {
@@ -7360,7 +7360,7 @@ public final class OmGetCampaignBonusItemsPu {
          * Bezeichnung der Artikel-Bedingung "ItemConditionID"
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue item_condition_description = 20005;</code>
+         * <code>.dstore.values.StringValue item_condition_description = 20005;</code>
          */
         private com.google.protobuf.SingleFieldBuilderV3<
             io.dstore.values.StringValue, io.dstore.values.StringValue.Builder, io.dstore.values.StringValueOrBuilder> 
@@ -7384,7 +7384,7 @@ public final class OmGetCampaignBonusItemsPu {
          * Bestimmt die Reihenfolge von "ItemSetID" innerhalb aller "BenefitID" zugeordneten Sets
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue sort_no = 20006;</code>
+         * <code>.dstore.values.IntegerValue sort_no = 20006;</code>
          */
         public boolean hasSortNo() {
           return sortNoBuilder_ != null || sortNo_ != null;
@@ -7394,7 +7394,7 @@ public final class OmGetCampaignBonusItemsPu {
          * Bestimmt die Reihenfolge von "ItemSetID" innerhalb aller "BenefitID" zugeordneten Sets
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue sort_no = 20006;</code>
+         * <code>.dstore.values.IntegerValue sort_no = 20006;</code>
          */
         public io.dstore.values.IntegerValue getSortNo() {
           if (sortNoBuilder_ == null) {
@@ -7408,7 +7408,7 @@ public final class OmGetCampaignBonusItemsPu {
          * Bestimmt die Reihenfolge von "ItemSetID" innerhalb aller "BenefitID" zugeordneten Sets
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue sort_no = 20006;</code>
+         * <code>.dstore.values.IntegerValue sort_no = 20006;</code>
          */
         public Builder setSortNo(io.dstore.values.IntegerValue value) {
           if (sortNoBuilder_ == null) {
@@ -7428,7 +7428,7 @@ public final class OmGetCampaignBonusItemsPu {
          * Bestimmt die Reihenfolge von "ItemSetID" innerhalb aller "BenefitID" zugeordneten Sets
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue sort_no = 20006;</code>
+         * <code>.dstore.values.IntegerValue sort_no = 20006;</code>
          */
         public Builder setSortNo(
             io.dstore.values.IntegerValue.Builder builderForValue) {
@@ -7446,7 +7446,7 @@ public final class OmGetCampaignBonusItemsPu {
          * Bestimmt die Reihenfolge von "ItemSetID" innerhalb aller "BenefitID" zugeordneten Sets
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue sort_no = 20006;</code>
+         * <code>.dstore.values.IntegerValue sort_no = 20006;</code>
          */
         public Builder mergeSortNo(io.dstore.values.IntegerValue value) {
           if (sortNoBuilder_ == null) {
@@ -7468,7 +7468,7 @@ public final class OmGetCampaignBonusItemsPu {
          * Bestimmt die Reihenfolge von "ItemSetID" innerhalb aller "BenefitID" zugeordneten Sets
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue sort_no = 20006;</code>
+         * <code>.dstore.values.IntegerValue sort_no = 20006;</code>
          */
         public Builder clearSortNo() {
           if (sortNoBuilder_ == null) {
@@ -7486,7 +7486,7 @@ public final class OmGetCampaignBonusItemsPu {
          * Bestimmt die Reihenfolge von "ItemSetID" innerhalb aller "BenefitID" zugeordneten Sets
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue sort_no = 20006;</code>
+         * <code>.dstore.values.IntegerValue sort_no = 20006;</code>
          */
         public io.dstore.values.IntegerValue.Builder getSortNoBuilder() {
           
@@ -7498,7 +7498,7 @@ public final class OmGetCampaignBonusItemsPu {
          * Bestimmt die Reihenfolge von "ItemSetID" innerhalb aller "BenefitID" zugeordneten Sets
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue sort_no = 20006;</code>
+         * <code>.dstore.values.IntegerValue sort_no = 20006;</code>
          */
         public io.dstore.values.IntegerValueOrBuilder getSortNoOrBuilder() {
           if (sortNoBuilder_ != null) {
@@ -7513,7 +7513,7 @@ public final class OmGetCampaignBonusItemsPu {
          * Bestimmt die Reihenfolge von "ItemSetID" innerhalb aller "BenefitID" zugeordneten Sets
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue sort_no = 20006;</code>
+         * <code>.dstore.values.IntegerValue sort_no = 20006;</code>
          */
         private com.google.protobuf.SingleFieldBuilderV3<
             io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> 
@@ -7537,7 +7537,7 @@ public final class OmGetCampaignBonusItemsPu {
          * Bestimmt die Reihenfolge von "ItemConditionGroupID" innerhalb aller der Artikel-Bedingung "ItemConditionID" zugeordneten Bedingungs-Gruppen
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue item_group_sort_no = 30001;</code>
+         * <code>.dstore.values.IntegerValue item_group_sort_no = 30001;</code>
          */
         public boolean hasItemGroupSortNo() {
           return itemGroupSortNoBuilder_ != null || itemGroupSortNo_ != null;
@@ -7547,7 +7547,7 @@ public final class OmGetCampaignBonusItemsPu {
          * Bestimmt die Reihenfolge von "ItemConditionGroupID" innerhalb aller der Artikel-Bedingung "ItemConditionID" zugeordneten Bedingungs-Gruppen
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue item_group_sort_no = 30001;</code>
+         * <code>.dstore.values.IntegerValue item_group_sort_no = 30001;</code>
          */
         public io.dstore.values.IntegerValue getItemGroupSortNo() {
           if (itemGroupSortNoBuilder_ == null) {
@@ -7561,7 +7561,7 @@ public final class OmGetCampaignBonusItemsPu {
          * Bestimmt die Reihenfolge von "ItemConditionGroupID" innerhalb aller der Artikel-Bedingung "ItemConditionID" zugeordneten Bedingungs-Gruppen
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue item_group_sort_no = 30001;</code>
+         * <code>.dstore.values.IntegerValue item_group_sort_no = 30001;</code>
          */
         public Builder setItemGroupSortNo(io.dstore.values.IntegerValue value) {
           if (itemGroupSortNoBuilder_ == null) {
@@ -7581,7 +7581,7 @@ public final class OmGetCampaignBonusItemsPu {
          * Bestimmt die Reihenfolge von "ItemConditionGroupID" innerhalb aller der Artikel-Bedingung "ItemConditionID" zugeordneten Bedingungs-Gruppen
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue item_group_sort_no = 30001;</code>
+         * <code>.dstore.values.IntegerValue item_group_sort_no = 30001;</code>
          */
         public Builder setItemGroupSortNo(
             io.dstore.values.IntegerValue.Builder builderForValue) {
@@ -7599,7 +7599,7 @@ public final class OmGetCampaignBonusItemsPu {
          * Bestimmt die Reihenfolge von "ItemConditionGroupID" innerhalb aller der Artikel-Bedingung "ItemConditionID" zugeordneten Bedingungs-Gruppen
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue item_group_sort_no = 30001;</code>
+         * <code>.dstore.values.IntegerValue item_group_sort_no = 30001;</code>
          */
         public Builder mergeItemGroupSortNo(io.dstore.values.IntegerValue value) {
           if (itemGroupSortNoBuilder_ == null) {
@@ -7621,7 +7621,7 @@ public final class OmGetCampaignBonusItemsPu {
          * Bestimmt die Reihenfolge von "ItemConditionGroupID" innerhalb aller der Artikel-Bedingung "ItemConditionID" zugeordneten Bedingungs-Gruppen
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue item_group_sort_no = 30001;</code>
+         * <code>.dstore.values.IntegerValue item_group_sort_no = 30001;</code>
          */
         public Builder clearItemGroupSortNo() {
           if (itemGroupSortNoBuilder_ == null) {
@@ -7639,7 +7639,7 @@ public final class OmGetCampaignBonusItemsPu {
          * Bestimmt die Reihenfolge von "ItemConditionGroupID" innerhalb aller der Artikel-Bedingung "ItemConditionID" zugeordneten Bedingungs-Gruppen
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue item_group_sort_no = 30001;</code>
+         * <code>.dstore.values.IntegerValue item_group_sort_no = 30001;</code>
          */
         public io.dstore.values.IntegerValue.Builder getItemGroupSortNoBuilder() {
           
@@ -7651,7 +7651,7 @@ public final class OmGetCampaignBonusItemsPu {
          * Bestimmt die Reihenfolge von "ItemConditionGroupID" innerhalb aller der Artikel-Bedingung "ItemConditionID" zugeordneten Bedingungs-Gruppen
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue item_group_sort_no = 30001;</code>
+         * <code>.dstore.values.IntegerValue item_group_sort_no = 30001;</code>
          */
         public io.dstore.values.IntegerValueOrBuilder getItemGroupSortNoOrBuilder() {
           if (itemGroupSortNoBuilder_ != null) {
@@ -7666,7 +7666,7 @@ public final class OmGetCampaignBonusItemsPu {
          * Bestimmt die Reihenfolge von "ItemConditionGroupID" innerhalb aller der Artikel-Bedingung "ItemConditionID" zugeordneten Bedingungs-Gruppen
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue item_group_sort_no = 30001;</code>
+         * <code>.dstore.values.IntegerValue item_group_sort_no = 30001;</code>
          */
         private com.google.protobuf.SingleFieldBuilderV3<
             io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> 
@@ -7690,7 +7690,7 @@ public final class OmGetCampaignBonusItemsPu {
          * Operator für die Bedingung "Condition1". Mögliche Werte :- "="- "!=" / "&lt;&gt;"  - "~" / "!~" (LIKE / NOT LIKE)- "&gt;"- "&lt;"- "&gt;="- "&lt;="- "IN" / "!I" (in / NICHT in Menge von "Value"-Werten)- "E" / "!E" (IRGENDEINE / KEINE Eigenschaft)
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue operator1 = 30002;</code>
+         * <code>.dstore.values.StringValue operator1 = 30002;</code>
          */
         public boolean hasOperator1() {
           return operator1Builder_ != null || operator1_ != null;
@@ -7700,7 +7700,7 @@ public final class OmGetCampaignBonusItemsPu {
          * Operator für die Bedingung "Condition1". Mögliche Werte :- "="- "!=" / "&lt;&gt;"  - "~" / "!~" (LIKE / NOT LIKE)- "&gt;"- "&lt;"- "&gt;="- "&lt;="- "IN" / "!I" (in / NICHT in Menge von "Value"-Werten)- "E" / "!E" (IRGENDEINE / KEINE Eigenschaft)
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue operator1 = 30002;</code>
+         * <code>.dstore.values.StringValue operator1 = 30002;</code>
          */
         public io.dstore.values.StringValue getOperator1() {
           if (operator1Builder_ == null) {
@@ -7714,7 +7714,7 @@ public final class OmGetCampaignBonusItemsPu {
          * Operator für die Bedingung "Condition1". Mögliche Werte :- "="- "!=" / "&lt;&gt;"  - "~" / "!~" (LIKE / NOT LIKE)- "&gt;"- "&lt;"- "&gt;="- "&lt;="- "IN" / "!I" (in / NICHT in Menge von "Value"-Werten)- "E" / "!E" (IRGENDEINE / KEINE Eigenschaft)
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue operator1 = 30002;</code>
+         * <code>.dstore.values.StringValue operator1 = 30002;</code>
          */
         public Builder setOperator1(io.dstore.values.StringValue value) {
           if (operator1Builder_ == null) {
@@ -7734,7 +7734,7 @@ public final class OmGetCampaignBonusItemsPu {
          * Operator für die Bedingung "Condition1". Mögliche Werte :- "="- "!=" / "&lt;&gt;"  - "~" / "!~" (LIKE / NOT LIKE)- "&gt;"- "&lt;"- "&gt;="- "&lt;="- "IN" / "!I" (in / NICHT in Menge von "Value"-Werten)- "E" / "!E" (IRGENDEINE / KEINE Eigenschaft)
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue operator1 = 30002;</code>
+         * <code>.dstore.values.StringValue operator1 = 30002;</code>
          */
         public Builder setOperator1(
             io.dstore.values.StringValue.Builder builderForValue) {
@@ -7752,7 +7752,7 @@ public final class OmGetCampaignBonusItemsPu {
          * Operator für die Bedingung "Condition1". Mögliche Werte :- "="- "!=" / "&lt;&gt;"  - "~" / "!~" (LIKE / NOT LIKE)- "&gt;"- "&lt;"- "&gt;="- "&lt;="- "IN" / "!I" (in / NICHT in Menge von "Value"-Werten)- "E" / "!E" (IRGENDEINE / KEINE Eigenschaft)
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue operator1 = 30002;</code>
+         * <code>.dstore.values.StringValue operator1 = 30002;</code>
          */
         public Builder mergeOperator1(io.dstore.values.StringValue value) {
           if (operator1Builder_ == null) {
@@ -7774,7 +7774,7 @@ public final class OmGetCampaignBonusItemsPu {
          * Operator für die Bedingung "Condition1". Mögliche Werte :- "="- "!=" / "&lt;&gt;"  - "~" / "!~" (LIKE / NOT LIKE)- "&gt;"- "&lt;"- "&gt;="- "&lt;="- "IN" / "!I" (in / NICHT in Menge von "Value"-Werten)- "E" / "!E" (IRGENDEINE / KEINE Eigenschaft)
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue operator1 = 30002;</code>
+         * <code>.dstore.values.StringValue operator1 = 30002;</code>
          */
         public Builder clearOperator1() {
           if (operator1Builder_ == null) {
@@ -7792,7 +7792,7 @@ public final class OmGetCampaignBonusItemsPu {
          * Operator für die Bedingung "Condition1". Mögliche Werte :- "="- "!=" / "&lt;&gt;"  - "~" / "!~" (LIKE / NOT LIKE)- "&gt;"- "&lt;"- "&gt;="- "&lt;="- "IN" / "!I" (in / NICHT in Menge von "Value"-Werten)- "E" / "!E" (IRGENDEINE / KEINE Eigenschaft)
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue operator1 = 30002;</code>
+         * <code>.dstore.values.StringValue operator1 = 30002;</code>
          */
         public io.dstore.values.StringValue.Builder getOperator1Builder() {
           
@@ -7804,7 +7804,7 @@ public final class OmGetCampaignBonusItemsPu {
          * Operator für die Bedingung "Condition1". Mögliche Werte :- "="- "!=" / "&lt;&gt;"  - "~" / "!~" (LIKE / NOT LIKE)- "&gt;"- "&lt;"- "&gt;="- "&lt;="- "IN" / "!I" (in / NICHT in Menge von "Value"-Werten)- "E" / "!E" (IRGENDEINE / KEINE Eigenschaft)
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue operator1 = 30002;</code>
+         * <code>.dstore.values.StringValue operator1 = 30002;</code>
          */
         public io.dstore.values.StringValueOrBuilder getOperator1OrBuilder() {
           if (operator1Builder_ != null) {
@@ -7819,7 +7819,7 @@ public final class OmGetCampaignBonusItemsPu {
          * Operator für die Bedingung "Condition1". Mögliche Werte :- "="- "!=" / "&lt;&gt;"  - "~" / "!~" (LIKE / NOT LIKE)- "&gt;"- "&lt;"- "&gt;="- "&lt;="- "IN" / "!I" (in / NICHT in Menge von "Value"-Werten)- "E" / "!E" (IRGENDEINE / KEINE Eigenschaft)
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue operator1 = 30002;</code>
+         * <code>.dstore.values.StringValue operator1 = 30002;</code>
          */
         private com.google.protobuf.SingleFieldBuilderV3<
             io.dstore.values.StringValue, io.dstore.values.StringValue.Builder, io.dstore.values.StringValueOrBuilder> 
@@ -7843,7 +7843,7 @@ public final class OmGetCampaignBonusItemsPu {
          * Bedingung, die in Verbindung mit "Operator1" anzuwenden ist ("NULL", falls "Operator1" den Wert "E" oder "!E" hat)
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue condition1 = 30003;</code>
+         * <code>.dstore.values.StringValue condition1 = 30003;</code>
          */
         public boolean hasCondition1() {
           return condition1Builder_ != null || condition1_ != null;
@@ -7853,7 +7853,7 @@ public final class OmGetCampaignBonusItemsPu {
          * Bedingung, die in Verbindung mit "Operator1" anzuwenden ist ("NULL", falls "Operator1" den Wert "E" oder "!E" hat)
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue condition1 = 30003;</code>
+         * <code>.dstore.values.StringValue condition1 = 30003;</code>
          */
         public io.dstore.values.StringValue getCondition1() {
           if (condition1Builder_ == null) {
@@ -7867,7 +7867,7 @@ public final class OmGetCampaignBonusItemsPu {
          * Bedingung, die in Verbindung mit "Operator1" anzuwenden ist ("NULL", falls "Operator1" den Wert "E" oder "!E" hat)
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue condition1 = 30003;</code>
+         * <code>.dstore.values.StringValue condition1 = 30003;</code>
          */
         public Builder setCondition1(io.dstore.values.StringValue value) {
           if (condition1Builder_ == null) {
@@ -7887,7 +7887,7 @@ public final class OmGetCampaignBonusItemsPu {
          * Bedingung, die in Verbindung mit "Operator1" anzuwenden ist ("NULL", falls "Operator1" den Wert "E" oder "!E" hat)
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue condition1 = 30003;</code>
+         * <code>.dstore.values.StringValue condition1 = 30003;</code>
          */
         public Builder setCondition1(
             io.dstore.values.StringValue.Builder builderForValue) {
@@ -7905,7 +7905,7 @@ public final class OmGetCampaignBonusItemsPu {
          * Bedingung, die in Verbindung mit "Operator1" anzuwenden ist ("NULL", falls "Operator1" den Wert "E" oder "!E" hat)
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue condition1 = 30003;</code>
+         * <code>.dstore.values.StringValue condition1 = 30003;</code>
          */
         public Builder mergeCondition1(io.dstore.values.StringValue value) {
           if (condition1Builder_ == null) {
@@ -7927,7 +7927,7 @@ public final class OmGetCampaignBonusItemsPu {
          * Bedingung, die in Verbindung mit "Operator1" anzuwenden ist ("NULL", falls "Operator1" den Wert "E" oder "!E" hat)
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue condition1 = 30003;</code>
+         * <code>.dstore.values.StringValue condition1 = 30003;</code>
          */
         public Builder clearCondition1() {
           if (condition1Builder_ == null) {
@@ -7945,7 +7945,7 @@ public final class OmGetCampaignBonusItemsPu {
          * Bedingung, die in Verbindung mit "Operator1" anzuwenden ist ("NULL", falls "Operator1" den Wert "E" oder "!E" hat)
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue condition1 = 30003;</code>
+         * <code>.dstore.values.StringValue condition1 = 30003;</code>
          */
         public io.dstore.values.StringValue.Builder getCondition1Builder() {
           
@@ -7957,7 +7957,7 @@ public final class OmGetCampaignBonusItemsPu {
          * Bedingung, die in Verbindung mit "Operator1" anzuwenden ist ("NULL", falls "Operator1" den Wert "E" oder "!E" hat)
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue condition1 = 30003;</code>
+         * <code>.dstore.values.StringValue condition1 = 30003;</code>
          */
         public io.dstore.values.StringValueOrBuilder getCondition1OrBuilder() {
           if (condition1Builder_ != null) {
@@ -7972,7 +7972,7 @@ public final class OmGetCampaignBonusItemsPu {
          * Bedingung, die in Verbindung mit "Operator1" anzuwenden ist ("NULL", falls "Operator1" den Wert "E" oder "!E" hat)
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue condition1 = 30003;</code>
+         * <code>.dstore.values.StringValue condition1 = 30003;</code>
          */
         private com.google.protobuf.SingleFieldBuilderV3<
             io.dstore.values.StringValue, io.dstore.values.StringValue.Builder, io.dstore.values.StringValueOrBuilder> 
@@ -7996,7 +7996,7 @@ public final class OmGetCampaignBonusItemsPu {
          * Bedingung, die in Verbindung mit "Operator2" anzuwenden ist (nur belegt, wenn "Operator2" den Wert "&lt;" oder "&lt;=" enthält)
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue condition2 = 30004;</code>
+         * <code>.dstore.values.StringValue condition2 = 30004;</code>
          */
         public boolean hasCondition2() {
           return condition2Builder_ != null || condition2_ != null;
@@ -8006,7 +8006,7 @@ public final class OmGetCampaignBonusItemsPu {
          * Bedingung, die in Verbindung mit "Operator2" anzuwenden ist (nur belegt, wenn "Operator2" den Wert "&lt;" oder "&lt;=" enthält)
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue condition2 = 30004;</code>
+         * <code>.dstore.values.StringValue condition2 = 30004;</code>
          */
         public io.dstore.values.StringValue getCondition2() {
           if (condition2Builder_ == null) {
@@ -8020,7 +8020,7 @@ public final class OmGetCampaignBonusItemsPu {
          * Bedingung, die in Verbindung mit "Operator2" anzuwenden ist (nur belegt, wenn "Operator2" den Wert "&lt;" oder "&lt;=" enthält)
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue condition2 = 30004;</code>
+         * <code>.dstore.values.StringValue condition2 = 30004;</code>
          */
         public Builder setCondition2(io.dstore.values.StringValue value) {
           if (condition2Builder_ == null) {
@@ -8040,7 +8040,7 @@ public final class OmGetCampaignBonusItemsPu {
          * Bedingung, die in Verbindung mit "Operator2" anzuwenden ist (nur belegt, wenn "Operator2" den Wert "&lt;" oder "&lt;=" enthält)
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue condition2 = 30004;</code>
+         * <code>.dstore.values.StringValue condition2 = 30004;</code>
          */
         public Builder setCondition2(
             io.dstore.values.StringValue.Builder builderForValue) {
@@ -8058,7 +8058,7 @@ public final class OmGetCampaignBonusItemsPu {
          * Bedingung, die in Verbindung mit "Operator2" anzuwenden ist (nur belegt, wenn "Operator2" den Wert "&lt;" oder "&lt;=" enthält)
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue condition2 = 30004;</code>
+         * <code>.dstore.values.StringValue condition2 = 30004;</code>
          */
         public Builder mergeCondition2(io.dstore.values.StringValue value) {
           if (condition2Builder_ == null) {
@@ -8080,7 +8080,7 @@ public final class OmGetCampaignBonusItemsPu {
          * Bedingung, die in Verbindung mit "Operator2" anzuwenden ist (nur belegt, wenn "Operator2" den Wert "&lt;" oder "&lt;=" enthält)
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue condition2 = 30004;</code>
+         * <code>.dstore.values.StringValue condition2 = 30004;</code>
          */
         public Builder clearCondition2() {
           if (condition2Builder_ == null) {
@@ -8098,7 +8098,7 @@ public final class OmGetCampaignBonusItemsPu {
          * Bedingung, die in Verbindung mit "Operator2" anzuwenden ist (nur belegt, wenn "Operator2" den Wert "&lt;" oder "&lt;=" enthält)
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue condition2 = 30004;</code>
+         * <code>.dstore.values.StringValue condition2 = 30004;</code>
          */
         public io.dstore.values.StringValue.Builder getCondition2Builder() {
           
@@ -8110,7 +8110,7 @@ public final class OmGetCampaignBonusItemsPu {
          * Bedingung, die in Verbindung mit "Operator2" anzuwenden ist (nur belegt, wenn "Operator2" den Wert "&lt;" oder "&lt;=" enthält)
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue condition2 = 30004;</code>
+         * <code>.dstore.values.StringValue condition2 = 30004;</code>
          */
         public io.dstore.values.StringValueOrBuilder getCondition2OrBuilder() {
           if (condition2Builder_ != null) {
@@ -8125,7 +8125,7 @@ public final class OmGetCampaignBonusItemsPu {
          * Bedingung, die in Verbindung mit "Operator2" anzuwenden ist (nur belegt, wenn "Operator2" den Wert "&lt;" oder "&lt;=" enthält)
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue condition2 = 30004;</code>
+         * <code>.dstore.values.StringValue condition2 = 30004;</code>
          */
         private com.google.protobuf.SingleFieldBuilderV3<
             io.dstore.values.StringValue, io.dstore.values.StringValue.Builder, io.dstore.values.StringValueOrBuilder> 
@@ -8149,7 +8149,7 @@ public final class OmGetCampaignBonusItemsPu {
          * Operator für die Bedingung "Condition2". Mögliche Werte :- "&lt;" oder "&lt;=", falls "Operator1" "&gt;" oder "&gt;=" enthält- bel. Zeichen (Trennzeichen für Werte-Menge), falls "Operator1" "IN" oder "!I" enthält
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue operator2 = 30005;</code>
+         * <code>.dstore.values.StringValue operator2 = 30005;</code>
          */
         public boolean hasOperator2() {
           return operator2Builder_ != null || operator2_ != null;
@@ -8159,7 +8159,7 @@ public final class OmGetCampaignBonusItemsPu {
          * Operator für die Bedingung "Condition2". Mögliche Werte :- "&lt;" oder "&lt;=", falls "Operator1" "&gt;" oder "&gt;=" enthält- bel. Zeichen (Trennzeichen für Werte-Menge), falls "Operator1" "IN" oder "!I" enthält
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue operator2 = 30005;</code>
+         * <code>.dstore.values.StringValue operator2 = 30005;</code>
          */
         public io.dstore.values.StringValue getOperator2() {
           if (operator2Builder_ == null) {
@@ -8173,7 +8173,7 @@ public final class OmGetCampaignBonusItemsPu {
          * Operator für die Bedingung "Condition2". Mögliche Werte :- "&lt;" oder "&lt;=", falls "Operator1" "&gt;" oder "&gt;=" enthält- bel. Zeichen (Trennzeichen für Werte-Menge), falls "Operator1" "IN" oder "!I" enthält
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue operator2 = 30005;</code>
+         * <code>.dstore.values.StringValue operator2 = 30005;</code>
          */
         public Builder setOperator2(io.dstore.values.StringValue value) {
           if (operator2Builder_ == null) {
@@ -8193,7 +8193,7 @@ public final class OmGetCampaignBonusItemsPu {
          * Operator für die Bedingung "Condition2". Mögliche Werte :- "&lt;" oder "&lt;=", falls "Operator1" "&gt;" oder "&gt;=" enthält- bel. Zeichen (Trennzeichen für Werte-Menge), falls "Operator1" "IN" oder "!I" enthält
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue operator2 = 30005;</code>
+         * <code>.dstore.values.StringValue operator2 = 30005;</code>
          */
         public Builder setOperator2(
             io.dstore.values.StringValue.Builder builderForValue) {
@@ -8211,7 +8211,7 @@ public final class OmGetCampaignBonusItemsPu {
          * Operator für die Bedingung "Condition2". Mögliche Werte :- "&lt;" oder "&lt;=", falls "Operator1" "&gt;" oder "&gt;=" enthält- bel. Zeichen (Trennzeichen für Werte-Menge), falls "Operator1" "IN" oder "!I" enthält
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue operator2 = 30005;</code>
+         * <code>.dstore.values.StringValue operator2 = 30005;</code>
          */
         public Builder mergeOperator2(io.dstore.values.StringValue value) {
           if (operator2Builder_ == null) {
@@ -8233,7 +8233,7 @@ public final class OmGetCampaignBonusItemsPu {
          * Operator für die Bedingung "Condition2". Mögliche Werte :- "&lt;" oder "&lt;=", falls "Operator1" "&gt;" oder "&gt;=" enthält- bel. Zeichen (Trennzeichen für Werte-Menge), falls "Operator1" "IN" oder "!I" enthält
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue operator2 = 30005;</code>
+         * <code>.dstore.values.StringValue operator2 = 30005;</code>
          */
         public Builder clearOperator2() {
           if (operator2Builder_ == null) {
@@ -8251,7 +8251,7 @@ public final class OmGetCampaignBonusItemsPu {
          * Operator für die Bedingung "Condition2". Mögliche Werte :- "&lt;" oder "&lt;=", falls "Operator1" "&gt;" oder "&gt;=" enthält- bel. Zeichen (Trennzeichen für Werte-Menge), falls "Operator1" "IN" oder "!I" enthält
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue operator2 = 30005;</code>
+         * <code>.dstore.values.StringValue operator2 = 30005;</code>
          */
         public io.dstore.values.StringValue.Builder getOperator2Builder() {
           
@@ -8263,7 +8263,7 @@ public final class OmGetCampaignBonusItemsPu {
          * Operator für die Bedingung "Condition2". Mögliche Werte :- "&lt;" oder "&lt;=", falls "Operator1" "&gt;" oder "&gt;=" enthält- bel. Zeichen (Trennzeichen für Werte-Menge), falls "Operator1" "IN" oder "!I" enthält
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue operator2 = 30005;</code>
+         * <code>.dstore.values.StringValue operator2 = 30005;</code>
          */
         public io.dstore.values.StringValueOrBuilder getOperator2OrBuilder() {
           if (operator2Builder_ != null) {
@@ -8278,7 +8278,7 @@ public final class OmGetCampaignBonusItemsPu {
          * Operator für die Bedingung "Condition2". Mögliche Werte :- "&lt;" oder "&lt;=", falls "Operator1" "&gt;" oder "&gt;=" enthält- bel. Zeichen (Trennzeichen für Werte-Menge), falls "Operator1" "IN" oder "!I" enthält
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue operator2 = 30005;</code>
+         * <code>.dstore.values.StringValue operator2 = 30005;</code>
          */
         private com.google.protobuf.SingleFieldBuilderV3<
             io.dstore.values.StringValue, io.dstore.values.StringValue.Builder, io.dstore.values.StringValueOrBuilder> 
@@ -8302,7 +8302,7 @@ public final class OmGetCampaignBonusItemsPu {
          * Bezeichnung der Bedingungs-Gruppe "ItemConditionGroupID"
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue item_condition_group_description = 30006;</code>
+         * <code>.dstore.values.StringValue item_condition_group_description = 30006;</code>
          */
         public boolean hasItemConditionGroupDescription() {
           return itemConditionGroupDescriptionBuilder_ != null || itemConditionGroupDescription_ != null;
@@ -8312,7 +8312,7 @@ public final class OmGetCampaignBonusItemsPu {
          * Bezeichnung der Bedingungs-Gruppe "ItemConditionGroupID"
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue item_condition_group_description = 30006;</code>
+         * <code>.dstore.values.StringValue item_condition_group_description = 30006;</code>
          */
         public io.dstore.values.StringValue getItemConditionGroupDescription() {
           if (itemConditionGroupDescriptionBuilder_ == null) {
@@ -8326,7 +8326,7 @@ public final class OmGetCampaignBonusItemsPu {
          * Bezeichnung der Bedingungs-Gruppe "ItemConditionGroupID"
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue item_condition_group_description = 30006;</code>
+         * <code>.dstore.values.StringValue item_condition_group_description = 30006;</code>
          */
         public Builder setItemConditionGroupDescription(io.dstore.values.StringValue value) {
           if (itemConditionGroupDescriptionBuilder_ == null) {
@@ -8346,7 +8346,7 @@ public final class OmGetCampaignBonusItemsPu {
          * Bezeichnung der Bedingungs-Gruppe "ItemConditionGroupID"
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue item_condition_group_description = 30006;</code>
+         * <code>.dstore.values.StringValue item_condition_group_description = 30006;</code>
          */
         public Builder setItemConditionGroupDescription(
             io.dstore.values.StringValue.Builder builderForValue) {
@@ -8364,7 +8364,7 @@ public final class OmGetCampaignBonusItemsPu {
          * Bezeichnung der Bedingungs-Gruppe "ItemConditionGroupID"
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue item_condition_group_description = 30006;</code>
+         * <code>.dstore.values.StringValue item_condition_group_description = 30006;</code>
          */
         public Builder mergeItemConditionGroupDescription(io.dstore.values.StringValue value) {
           if (itemConditionGroupDescriptionBuilder_ == null) {
@@ -8386,7 +8386,7 @@ public final class OmGetCampaignBonusItemsPu {
          * Bezeichnung der Bedingungs-Gruppe "ItemConditionGroupID"
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue item_condition_group_description = 30006;</code>
+         * <code>.dstore.values.StringValue item_condition_group_description = 30006;</code>
          */
         public Builder clearItemConditionGroupDescription() {
           if (itemConditionGroupDescriptionBuilder_ == null) {
@@ -8404,7 +8404,7 @@ public final class OmGetCampaignBonusItemsPu {
          * Bezeichnung der Bedingungs-Gruppe "ItemConditionGroupID"
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue item_condition_group_description = 30006;</code>
+         * <code>.dstore.values.StringValue item_condition_group_description = 30006;</code>
          */
         public io.dstore.values.StringValue.Builder getItemConditionGroupDescriptionBuilder() {
           
@@ -8416,7 +8416,7 @@ public final class OmGetCampaignBonusItemsPu {
          * Bezeichnung der Bedingungs-Gruppe "ItemConditionGroupID"
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue item_condition_group_description = 30006;</code>
+         * <code>.dstore.values.StringValue item_condition_group_description = 30006;</code>
          */
         public io.dstore.values.StringValueOrBuilder getItemConditionGroupDescriptionOrBuilder() {
           if (itemConditionGroupDescriptionBuilder_ != null) {
@@ -8431,7 +8431,7 @@ public final class OmGetCampaignBonusItemsPu {
          * Bezeichnung der Bedingungs-Gruppe "ItemConditionGroupID"
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue item_condition_group_description = 30006;</code>
+         * <code>.dstore.values.StringValue item_condition_group_description = 30006;</code>
          */
         private com.google.protobuf.SingleFieldBuilderV3<
             io.dstore.values.StringValue, io.dstore.values.StringValue.Builder, io.dstore.values.StringValueOrBuilder> 
@@ -8455,7 +8455,7 @@ public final class OmGetCampaignBonusItemsPu {
          * Gibt an, ob die der "ItemConditionGroupID" zugeordneten Bedingungs-Teile logisch mit UND verknüpft werden ("1") oder mit ODER ("0")
          * </pre>
          *
-         * <code>optional .dstore.values.BooleanValue combine_parts_with_a_n_d_operator = 30007;</code>
+         * <code>.dstore.values.BooleanValue combine_parts_with_a_n_d_operator = 30007;</code>
          */
         public boolean hasCombinePartsWithANDOperator() {
           return combinePartsWithANDOperatorBuilder_ != null || combinePartsWithANDOperator_ != null;
@@ -8465,7 +8465,7 @@ public final class OmGetCampaignBonusItemsPu {
          * Gibt an, ob die der "ItemConditionGroupID" zugeordneten Bedingungs-Teile logisch mit UND verknüpft werden ("1") oder mit ODER ("0")
          * </pre>
          *
-         * <code>optional .dstore.values.BooleanValue combine_parts_with_a_n_d_operator = 30007;</code>
+         * <code>.dstore.values.BooleanValue combine_parts_with_a_n_d_operator = 30007;</code>
          */
         public io.dstore.values.BooleanValue getCombinePartsWithANDOperator() {
           if (combinePartsWithANDOperatorBuilder_ == null) {
@@ -8479,7 +8479,7 @@ public final class OmGetCampaignBonusItemsPu {
          * Gibt an, ob die der "ItemConditionGroupID" zugeordneten Bedingungs-Teile logisch mit UND verknüpft werden ("1") oder mit ODER ("0")
          * </pre>
          *
-         * <code>optional .dstore.values.BooleanValue combine_parts_with_a_n_d_operator = 30007;</code>
+         * <code>.dstore.values.BooleanValue combine_parts_with_a_n_d_operator = 30007;</code>
          */
         public Builder setCombinePartsWithANDOperator(io.dstore.values.BooleanValue value) {
           if (combinePartsWithANDOperatorBuilder_ == null) {
@@ -8499,7 +8499,7 @@ public final class OmGetCampaignBonusItemsPu {
          * Gibt an, ob die der "ItemConditionGroupID" zugeordneten Bedingungs-Teile logisch mit UND verknüpft werden ("1") oder mit ODER ("0")
          * </pre>
          *
-         * <code>optional .dstore.values.BooleanValue combine_parts_with_a_n_d_operator = 30007;</code>
+         * <code>.dstore.values.BooleanValue combine_parts_with_a_n_d_operator = 30007;</code>
          */
         public Builder setCombinePartsWithANDOperator(
             io.dstore.values.BooleanValue.Builder builderForValue) {
@@ -8517,7 +8517,7 @@ public final class OmGetCampaignBonusItemsPu {
          * Gibt an, ob die der "ItemConditionGroupID" zugeordneten Bedingungs-Teile logisch mit UND verknüpft werden ("1") oder mit ODER ("0")
          * </pre>
          *
-         * <code>optional .dstore.values.BooleanValue combine_parts_with_a_n_d_operator = 30007;</code>
+         * <code>.dstore.values.BooleanValue combine_parts_with_a_n_d_operator = 30007;</code>
          */
         public Builder mergeCombinePartsWithANDOperator(io.dstore.values.BooleanValue value) {
           if (combinePartsWithANDOperatorBuilder_ == null) {
@@ -8539,7 +8539,7 @@ public final class OmGetCampaignBonusItemsPu {
          * Gibt an, ob die der "ItemConditionGroupID" zugeordneten Bedingungs-Teile logisch mit UND verknüpft werden ("1") oder mit ODER ("0")
          * </pre>
          *
-         * <code>optional .dstore.values.BooleanValue combine_parts_with_a_n_d_operator = 30007;</code>
+         * <code>.dstore.values.BooleanValue combine_parts_with_a_n_d_operator = 30007;</code>
          */
         public Builder clearCombinePartsWithANDOperator() {
           if (combinePartsWithANDOperatorBuilder_ == null) {
@@ -8557,7 +8557,7 @@ public final class OmGetCampaignBonusItemsPu {
          * Gibt an, ob die der "ItemConditionGroupID" zugeordneten Bedingungs-Teile logisch mit UND verknüpft werden ("1") oder mit ODER ("0")
          * </pre>
          *
-         * <code>optional .dstore.values.BooleanValue combine_parts_with_a_n_d_operator = 30007;</code>
+         * <code>.dstore.values.BooleanValue combine_parts_with_a_n_d_operator = 30007;</code>
          */
         public io.dstore.values.BooleanValue.Builder getCombinePartsWithANDOperatorBuilder() {
           
@@ -8569,7 +8569,7 @@ public final class OmGetCampaignBonusItemsPu {
          * Gibt an, ob die der "ItemConditionGroupID" zugeordneten Bedingungs-Teile logisch mit UND verknüpft werden ("1") oder mit ODER ("0")
          * </pre>
          *
-         * <code>optional .dstore.values.BooleanValue combine_parts_with_a_n_d_operator = 30007;</code>
+         * <code>.dstore.values.BooleanValue combine_parts_with_a_n_d_operator = 30007;</code>
          */
         public io.dstore.values.BooleanValueOrBuilder getCombinePartsWithANDOperatorOrBuilder() {
           if (combinePartsWithANDOperatorBuilder_ != null) {
@@ -8584,7 +8584,7 @@ public final class OmGetCampaignBonusItemsPu {
          * Gibt an, ob die der "ItemConditionGroupID" zugeordneten Bedingungs-Teile logisch mit UND verknüpft werden ("1") oder mit ODER ("0")
          * </pre>
          *
-         * <code>optional .dstore.values.BooleanValue combine_parts_with_a_n_d_operator = 30007;</code>
+         * <code>.dstore.values.BooleanValue combine_parts_with_a_n_d_operator = 30007;</code>
          */
         private com.google.protobuf.SingleFieldBuilderV3<
             io.dstore.values.BooleanValue, io.dstore.values.BooleanValue.Builder, io.dstore.values.BooleanValueOrBuilder> 
@@ -8608,7 +8608,7 @@ public final class OmGetCampaignBonusItemsPu {
          * Was soll zwecks Prüfung der Bedingung zu "NodeCharacteristicID" (wenn rekursiv) gewählt werden ?"0" : direkte Eigenschaft (also eine Merkmal-ID)"1" : rekursiv ausgewertete Eigenschaft"2" : zugehör. Beschreibung der Eigenschaft (also der Merkmal-ID)
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue recursive_evaluation = 30008;</code>
+         * <code>.dstore.values.IntegerValue recursive_evaluation = 30008;</code>
          */
         public boolean hasRecursiveEvaluation() {
           return recursiveEvaluationBuilder_ != null || recursiveEvaluation_ != null;
@@ -8618,7 +8618,7 @@ public final class OmGetCampaignBonusItemsPu {
          * Was soll zwecks Prüfung der Bedingung zu "NodeCharacteristicID" (wenn rekursiv) gewählt werden ?"0" : direkte Eigenschaft (also eine Merkmal-ID)"1" : rekursiv ausgewertete Eigenschaft"2" : zugehör. Beschreibung der Eigenschaft (also der Merkmal-ID)
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue recursive_evaluation = 30008;</code>
+         * <code>.dstore.values.IntegerValue recursive_evaluation = 30008;</code>
          */
         public io.dstore.values.IntegerValue getRecursiveEvaluation() {
           if (recursiveEvaluationBuilder_ == null) {
@@ -8632,7 +8632,7 @@ public final class OmGetCampaignBonusItemsPu {
          * Was soll zwecks Prüfung der Bedingung zu "NodeCharacteristicID" (wenn rekursiv) gewählt werden ?"0" : direkte Eigenschaft (also eine Merkmal-ID)"1" : rekursiv ausgewertete Eigenschaft"2" : zugehör. Beschreibung der Eigenschaft (also der Merkmal-ID)
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue recursive_evaluation = 30008;</code>
+         * <code>.dstore.values.IntegerValue recursive_evaluation = 30008;</code>
          */
         public Builder setRecursiveEvaluation(io.dstore.values.IntegerValue value) {
           if (recursiveEvaluationBuilder_ == null) {
@@ -8652,7 +8652,7 @@ public final class OmGetCampaignBonusItemsPu {
          * Was soll zwecks Prüfung der Bedingung zu "NodeCharacteristicID" (wenn rekursiv) gewählt werden ?"0" : direkte Eigenschaft (also eine Merkmal-ID)"1" : rekursiv ausgewertete Eigenschaft"2" : zugehör. Beschreibung der Eigenschaft (also der Merkmal-ID)
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue recursive_evaluation = 30008;</code>
+         * <code>.dstore.values.IntegerValue recursive_evaluation = 30008;</code>
          */
         public Builder setRecursiveEvaluation(
             io.dstore.values.IntegerValue.Builder builderForValue) {
@@ -8670,7 +8670,7 @@ public final class OmGetCampaignBonusItemsPu {
          * Was soll zwecks Prüfung der Bedingung zu "NodeCharacteristicID" (wenn rekursiv) gewählt werden ?"0" : direkte Eigenschaft (also eine Merkmal-ID)"1" : rekursiv ausgewertete Eigenschaft"2" : zugehör. Beschreibung der Eigenschaft (also der Merkmal-ID)
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue recursive_evaluation = 30008;</code>
+         * <code>.dstore.values.IntegerValue recursive_evaluation = 30008;</code>
          */
         public Builder mergeRecursiveEvaluation(io.dstore.values.IntegerValue value) {
           if (recursiveEvaluationBuilder_ == null) {
@@ -8692,7 +8692,7 @@ public final class OmGetCampaignBonusItemsPu {
          * Was soll zwecks Prüfung der Bedingung zu "NodeCharacteristicID" (wenn rekursiv) gewählt werden ?"0" : direkte Eigenschaft (also eine Merkmal-ID)"1" : rekursiv ausgewertete Eigenschaft"2" : zugehör. Beschreibung der Eigenschaft (also der Merkmal-ID)
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue recursive_evaluation = 30008;</code>
+         * <code>.dstore.values.IntegerValue recursive_evaluation = 30008;</code>
          */
         public Builder clearRecursiveEvaluation() {
           if (recursiveEvaluationBuilder_ == null) {
@@ -8710,7 +8710,7 @@ public final class OmGetCampaignBonusItemsPu {
          * Was soll zwecks Prüfung der Bedingung zu "NodeCharacteristicID" (wenn rekursiv) gewählt werden ?"0" : direkte Eigenschaft (also eine Merkmal-ID)"1" : rekursiv ausgewertete Eigenschaft"2" : zugehör. Beschreibung der Eigenschaft (also der Merkmal-ID)
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue recursive_evaluation = 30008;</code>
+         * <code>.dstore.values.IntegerValue recursive_evaluation = 30008;</code>
          */
         public io.dstore.values.IntegerValue.Builder getRecursiveEvaluationBuilder() {
           
@@ -8722,7 +8722,7 @@ public final class OmGetCampaignBonusItemsPu {
          * Was soll zwecks Prüfung der Bedingung zu "NodeCharacteristicID" (wenn rekursiv) gewählt werden ?"0" : direkte Eigenschaft (also eine Merkmal-ID)"1" : rekursiv ausgewertete Eigenschaft"2" : zugehör. Beschreibung der Eigenschaft (also der Merkmal-ID)
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue recursive_evaluation = 30008;</code>
+         * <code>.dstore.values.IntegerValue recursive_evaluation = 30008;</code>
          */
         public io.dstore.values.IntegerValueOrBuilder getRecursiveEvaluationOrBuilder() {
           if (recursiveEvaluationBuilder_ != null) {
@@ -8737,7 +8737,7 @@ public final class OmGetCampaignBonusItemsPu {
          * Was soll zwecks Prüfung der Bedingung zu "NodeCharacteristicID" (wenn rekursiv) gewählt werden ?"0" : direkte Eigenschaft (also eine Merkmal-ID)"1" : rekursiv ausgewertete Eigenschaft"2" : zugehör. Beschreibung der Eigenschaft (also der Merkmal-ID)
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue recursive_evaluation = 30008;</code>
+         * <code>.dstore.values.IntegerValue recursive_evaluation = 30008;</code>
          */
         private com.google.protobuf.SingleFieldBuilderV3<
             io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> 
@@ -8761,7 +8761,7 @@ public final class OmGetCampaignBonusItemsPu {
          * Bestimmt die Reihenfolge von "ItemConditionPartID" innerhalb aller der Bedingungs-Gruppe "ItemConditionGroupID" zugeordneten Bedingungs-Teile
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue item_part_sort_no = 30009;</code>
+         * <code>.dstore.values.IntegerValue item_part_sort_no = 30009;</code>
          */
         public boolean hasItemPartSortNo() {
           return itemPartSortNoBuilder_ != null || itemPartSortNo_ != null;
@@ -8771,7 +8771,7 @@ public final class OmGetCampaignBonusItemsPu {
          * Bestimmt die Reihenfolge von "ItemConditionPartID" innerhalb aller der Bedingungs-Gruppe "ItemConditionGroupID" zugeordneten Bedingungs-Teile
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue item_part_sort_no = 30009;</code>
+         * <code>.dstore.values.IntegerValue item_part_sort_no = 30009;</code>
          */
         public io.dstore.values.IntegerValue getItemPartSortNo() {
           if (itemPartSortNoBuilder_ == null) {
@@ -8785,7 +8785,7 @@ public final class OmGetCampaignBonusItemsPu {
          * Bestimmt die Reihenfolge von "ItemConditionPartID" innerhalb aller der Bedingungs-Gruppe "ItemConditionGroupID" zugeordneten Bedingungs-Teile
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue item_part_sort_no = 30009;</code>
+         * <code>.dstore.values.IntegerValue item_part_sort_no = 30009;</code>
          */
         public Builder setItemPartSortNo(io.dstore.values.IntegerValue value) {
           if (itemPartSortNoBuilder_ == null) {
@@ -8805,7 +8805,7 @@ public final class OmGetCampaignBonusItemsPu {
          * Bestimmt die Reihenfolge von "ItemConditionPartID" innerhalb aller der Bedingungs-Gruppe "ItemConditionGroupID" zugeordneten Bedingungs-Teile
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue item_part_sort_no = 30009;</code>
+         * <code>.dstore.values.IntegerValue item_part_sort_no = 30009;</code>
          */
         public Builder setItemPartSortNo(
             io.dstore.values.IntegerValue.Builder builderForValue) {
@@ -8823,7 +8823,7 @@ public final class OmGetCampaignBonusItemsPu {
          * Bestimmt die Reihenfolge von "ItemConditionPartID" innerhalb aller der Bedingungs-Gruppe "ItemConditionGroupID" zugeordneten Bedingungs-Teile
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue item_part_sort_no = 30009;</code>
+         * <code>.dstore.values.IntegerValue item_part_sort_no = 30009;</code>
          */
         public Builder mergeItemPartSortNo(io.dstore.values.IntegerValue value) {
           if (itemPartSortNoBuilder_ == null) {
@@ -8845,7 +8845,7 @@ public final class OmGetCampaignBonusItemsPu {
          * Bestimmt die Reihenfolge von "ItemConditionPartID" innerhalb aller der Bedingungs-Gruppe "ItemConditionGroupID" zugeordneten Bedingungs-Teile
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue item_part_sort_no = 30009;</code>
+         * <code>.dstore.values.IntegerValue item_part_sort_no = 30009;</code>
          */
         public Builder clearItemPartSortNo() {
           if (itemPartSortNoBuilder_ == null) {
@@ -8863,7 +8863,7 @@ public final class OmGetCampaignBonusItemsPu {
          * Bestimmt die Reihenfolge von "ItemConditionPartID" innerhalb aller der Bedingungs-Gruppe "ItemConditionGroupID" zugeordneten Bedingungs-Teile
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue item_part_sort_no = 30009;</code>
+         * <code>.dstore.values.IntegerValue item_part_sort_no = 30009;</code>
          */
         public io.dstore.values.IntegerValue.Builder getItemPartSortNoBuilder() {
           
@@ -8875,7 +8875,7 @@ public final class OmGetCampaignBonusItemsPu {
          * Bestimmt die Reihenfolge von "ItemConditionPartID" innerhalb aller der Bedingungs-Gruppe "ItemConditionGroupID" zugeordneten Bedingungs-Teile
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue item_part_sort_no = 30009;</code>
+         * <code>.dstore.values.IntegerValue item_part_sort_no = 30009;</code>
          */
         public io.dstore.values.IntegerValueOrBuilder getItemPartSortNoOrBuilder() {
           if (itemPartSortNoBuilder_ != null) {
@@ -8890,7 +8890,7 @@ public final class OmGetCampaignBonusItemsPu {
          * Bestimmt die Reihenfolge von "ItemConditionPartID" innerhalb aller der Bedingungs-Gruppe "ItemConditionGroupID" zugeordneten Bedingungs-Teile
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue item_part_sort_no = 30009;</code>
+         * <code>.dstore.values.IntegerValue item_part_sort_no = 30009;</code>
          */
         private com.google.protobuf.SingleFieldBuilderV3<
             io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> 
@@ -8914,7 +8914,7 @@ public final class OmGetCampaignBonusItemsPu {
          * Um den (Artikel-)Bedingungs-Teil "ItemConditionPartID" zu erfüllen, muß ein Element im Artikelbaum ein Vorgänger-Element besitzen, dessen "TreeNodeID" aus der hier angegebenen Menge von IDs kommt. Sonderfall ",," bedeutet "beliebiger Vorgänger".
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue domain_tree_node_ids = 30011;</code>
+         * <code>.dstore.values.StringValue domain_tree_node_ids = 30011;</code>
          */
         public boolean hasDomainTreeNodeIds() {
           return domainTreeNodeIdsBuilder_ != null || domainTreeNodeIds_ != null;
@@ -8924,7 +8924,7 @@ public final class OmGetCampaignBonusItemsPu {
          * Um den (Artikel-)Bedingungs-Teil "ItemConditionPartID" zu erfüllen, muß ein Element im Artikelbaum ein Vorgänger-Element besitzen, dessen "TreeNodeID" aus der hier angegebenen Menge von IDs kommt. Sonderfall ",," bedeutet "beliebiger Vorgänger".
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue domain_tree_node_ids = 30011;</code>
+         * <code>.dstore.values.StringValue domain_tree_node_ids = 30011;</code>
          */
         public io.dstore.values.StringValue getDomainTreeNodeIds() {
           if (domainTreeNodeIdsBuilder_ == null) {
@@ -8938,7 +8938,7 @@ public final class OmGetCampaignBonusItemsPu {
          * Um den (Artikel-)Bedingungs-Teil "ItemConditionPartID" zu erfüllen, muß ein Element im Artikelbaum ein Vorgänger-Element besitzen, dessen "TreeNodeID" aus der hier angegebenen Menge von IDs kommt. Sonderfall ",," bedeutet "beliebiger Vorgänger".
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue domain_tree_node_ids = 30011;</code>
+         * <code>.dstore.values.StringValue domain_tree_node_ids = 30011;</code>
          */
         public Builder setDomainTreeNodeIds(io.dstore.values.StringValue value) {
           if (domainTreeNodeIdsBuilder_ == null) {
@@ -8958,7 +8958,7 @@ public final class OmGetCampaignBonusItemsPu {
          * Um den (Artikel-)Bedingungs-Teil "ItemConditionPartID" zu erfüllen, muß ein Element im Artikelbaum ein Vorgänger-Element besitzen, dessen "TreeNodeID" aus der hier angegebenen Menge von IDs kommt. Sonderfall ",," bedeutet "beliebiger Vorgänger".
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue domain_tree_node_ids = 30011;</code>
+         * <code>.dstore.values.StringValue domain_tree_node_ids = 30011;</code>
          */
         public Builder setDomainTreeNodeIds(
             io.dstore.values.StringValue.Builder builderForValue) {
@@ -8976,7 +8976,7 @@ public final class OmGetCampaignBonusItemsPu {
          * Um den (Artikel-)Bedingungs-Teil "ItemConditionPartID" zu erfüllen, muß ein Element im Artikelbaum ein Vorgänger-Element besitzen, dessen "TreeNodeID" aus der hier angegebenen Menge von IDs kommt. Sonderfall ",," bedeutet "beliebiger Vorgänger".
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue domain_tree_node_ids = 30011;</code>
+         * <code>.dstore.values.StringValue domain_tree_node_ids = 30011;</code>
          */
         public Builder mergeDomainTreeNodeIds(io.dstore.values.StringValue value) {
           if (domainTreeNodeIdsBuilder_ == null) {
@@ -8998,7 +8998,7 @@ public final class OmGetCampaignBonusItemsPu {
          * Um den (Artikel-)Bedingungs-Teil "ItemConditionPartID" zu erfüllen, muß ein Element im Artikelbaum ein Vorgänger-Element besitzen, dessen "TreeNodeID" aus der hier angegebenen Menge von IDs kommt. Sonderfall ",," bedeutet "beliebiger Vorgänger".
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue domain_tree_node_ids = 30011;</code>
+         * <code>.dstore.values.StringValue domain_tree_node_ids = 30011;</code>
          */
         public Builder clearDomainTreeNodeIds() {
           if (domainTreeNodeIdsBuilder_ == null) {
@@ -9016,7 +9016,7 @@ public final class OmGetCampaignBonusItemsPu {
          * Um den (Artikel-)Bedingungs-Teil "ItemConditionPartID" zu erfüllen, muß ein Element im Artikelbaum ein Vorgänger-Element besitzen, dessen "TreeNodeID" aus der hier angegebenen Menge von IDs kommt. Sonderfall ",," bedeutet "beliebiger Vorgänger".
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue domain_tree_node_ids = 30011;</code>
+         * <code>.dstore.values.StringValue domain_tree_node_ids = 30011;</code>
          */
         public io.dstore.values.StringValue.Builder getDomainTreeNodeIdsBuilder() {
           
@@ -9028,7 +9028,7 @@ public final class OmGetCampaignBonusItemsPu {
          * Um den (Artikel-)Bedingungs-Teil "ItemConditionPartID" zu erfüllen, muß ein Element im Artikelbaum ein Vorgänger-Element besitzen, dessen "TreeNodeID" aus der hier angegebenen Menge von IDs kommt. Sonderfall ",," bedeutet "beliebiger Vorgänger".
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue domain_tree_node_ids = 30011;</code>
+         * <code>.dstore.values.StringValue domain_tree_node_ids = 30011;</code>
          */
         public io.dstore.values.StringValueOrBuilder getDomainTreeNodeIdsOrBuilder() {
           if (domainTreeNodeIdsBuilder_ != null) {
@@ -9043,7 +9043,7 @@ public final class OmGetCampaignBonusItemsPu {
          * Um den (Artikel-)Bedingungs-Teil "ItemConditionPartID" zu erfüllen, muß ein Element im Artikelbaum ein Vorgänger-Element besitzen, dessen "TreeNodeID" aus der hier angegebenen Menge von IDs kommt. Sonderfall ",," bedeutet "beliebiger Vorgänger".
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue domain_tree_node_ids = 30011;</code>
+         * <code>.dstore.values.StringValue domain_tree_node_ids = 30011;</code>
          */
         private com.google.protobuf.SingleFieldBuilderV3<
             io.dstore.values.StringValue, io.dstore.values.StringValue.Builder, io.dstore.values.StringValueOrBuilder> 
@@ -9067,7 +9067,7 @@ public final class OmGetCampaignBonusItemsPu {
          * Um "ItemConditionPartID" zu erfüllen, muß ein Element im Artikelbaum eine Eigenschaft zu diesem Merkmal besitzen, die der durch "Operator1" bis "Condition2" formulierten Bedingung genügt. Sonderfall "-1" : "KEINE Eigenschafts-Bedingung" (immer erfüllt).
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue node_characteristic_id = 30012;</code>
+         * <code>.dstore.values.IntegerValue node_characteristic_id = 30012;</code>
          */
         public boolean hasNodeCharacteristicId() {
           return nodeCharacteristicIdBuilder_ != null || nodeCharacteristicId_ != null;
@@ -9077,7 +9077,7 @@ public final class OmGetCampaignBonusItemsPu {
          * Um "ItemConditionPartID" zu erfüllen, muß ein Element im Artikelbaum eine Eigenschaft zu diesem Merkmal besitzen, die der durch "Operator1" bis "Condition2" formulierten Bedingung genügt. Sonderfall "-1" : "KEINE Eigenschafts-Bedingung" (immer erfüllt).
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue node_characteristic_id = 30012;</code>
+         * <code>.dstore.values.IntegerValue node_characteristic_id = 30012;</code>
          */
         public io.dstore.values.IntegerValue getNodeCharacteristicId() {
           if (nodeCharacteristicIdBuilder_ == null) {
@@ -9091,7 +9091,7 @@ public final class OmGetCampaignBonusItemsPu {
          * Um "ItemConditionPartID" zu erfüllen, muß ein Element im Artikelbaum eine Eigenschaft zu diesem Merkmal besitzen, die der durch "Operator1" bis "Condition2" formulierten Bedingung genügt. Sonderfall "-1" : "KEINE Eigenschafts-Bedingung" (immer erfüllt).
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue node_characteristic_id = 30012;</code>
+         * <code>.dstore.values.IntegerValue node_characteristic_id = 30012;</code>
          */
         public Builder setNodeCharacteristicId(io.dstore.values.IntegerValue value) {
           if (nodeCharacteristicIdBuilder_ == null) {
@@ -9111,7 +9111,7 @@ public final class OmGetCampaignBonusItemsPu {
          * Um "ItemConditionPartID" zu erfüllen, muß ein Element im Artikelbaum eine Eigenschaft zu diesem Merkmal besitzen, die der durch "Operator1" bis "Condition2" formulierten Bedingung genügt. Sonderfall "-1" : "KEINE Eigenschafts-Bedingung" (immer erfüllt).
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue node_characteristic_id = 30012;</code>
+         * <code>.dstore.values.IntegerValue node_characteristic_id = 30012;</code>
          */
         public Builder setNodeCharacteristicId(
             io.dstore.values.IntegerValue.Builder builderForValue) {
@@ -9129,7 +9129,7 @@ public final class OmGetCampaignBonusItemsPu {
          * Um "ItemConditionPartID" zu erfüllen, muß ein Element im Artikelbaum eine Eigenschaft zu diesem Merkmal besitzen, die der durch "Operator1" bis "Condition2" formulierten Bedingung genügt. Sonderfall "-1" : "KEINE Eigenschafts-Bedingung" (immer erfüllt).
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue node_characteristic_id = 30012;</code>
+         * <code>.dstore.values.IntegerValue node_characteristic_id = 30012;</code>
          */
         public Builder mergeNodeCharacteristicId(io.dstore.values.IntegerValue value) {
           if (nodeCharacteristicIdBuilder_ == null) {
@@ -9151,7 +9151,7 @@ public final class OmGetCampaignBonusItemsPu {
          * Um "ItemConditionPartID" zu erfüllen, muß ein Element im Artikelbaum eine Eigenschaft zu diesem Merkmal besitzen, die der durch "Operator1" bis "Condition2" formulierten Bedingung genügt. Sonderfall "-1" : "KEINE Eigenschafts-Bedingung" (immer erfüllt).
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue node_characteristic_id = 30012;</code>
+         * <code>.dstore.values.IntegerValue node_characteristic_id = 30012;</code>
          */
         public Builder clearNodeCharacteristicId() {
           if (nodeCharacteristicIdBuilder_ == null) {
@@ -9169,7 +9169,7 @@ public final class OmGetCampaignBonusItemsPu {
          * Um "ItemConditionPartID" zu erfüllen, muß ein Element im Artikelbaum eine Eigenschaft zu diesem Merkmal besitzen, die der durch "Operator1" bis "Condition2" formulierten Bedingung genügt. Sonderfall "-1" : "KEINE Eigenschafts-Bedingung" (immer erfüllt).
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue node_characteristic_id = 30012;</code>
+         * <code>.dstore.values.IntegerValue node_characteristic_id = 30012;</code>
          */
         public io.dstore.values.IntegerValue.Builder getNodeCharacteristicIdBuilder() {
           
@@ -9181,7 +9181,7 @@ public final class OmGetCampaignBonusItemsPu {
          * Um "ItemConditionPartID" zu erfüllen, muß ein Element im Artikelbaum eine Eigenschaft zu diesem Merkmal besitzen, die der durch "Operator1" bis "Condition2" formulierten Bedingung genügt. Sonderfall "-1" : "KEINE Eigenschafts-Bedingung" (immer erfüllt).
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue node_characteristic_id = 30012;</code>
+         * <code>.dstore.values.IntegerValue node_characteristic_id = 30012;</code>
          */
         public io.dstore.values.IntegerValueOrBuilder getNodeCharacteristicIdOrBuilder() {
           if (nodeCharacteristicIdBuilder_ != null) {
@@ -9196,7 +9196,7 @@ public final class OmGetCampaignBonusItemsPu {
          * Um "ItemConditionPartID" zu erfüllen, muß ein Element im Artikelbaum eine Eigenschaft zu diesem Merkmal besitzen, die der durch "Operator1" bis "Condition2" formulierten Bedingung genügt. Sonderfall "-1" : "KEINE Eigenschafts-Bedingung" (immer erfüllt).
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue node_characteristic_id = 30012;</code>
+         * <code>.dstore.values.IntegerValue node_characteristic_id = 30012;</code>
          */
         private com.google.protobuf.SingleFieldBuilderV3<
             io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> 
@@ -9220,7 +9220,7 @@ public final class OmGetCampaignBonusItemsPu {
          * ID eines Bedingungs-Teils, das Bestandteil von "ItemConditionGroupID" ist
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue item_condition_part_id = 30013;</code>
+         * <code>.dstore.values.IntegerValue item_condition_part_id = 30013;</code>
          */
         public boolean hasItemConditionPartId() {
           return itemConditionPartIdBuilder_ != null || itemConditionPartId_ != null;
@@ -9230,7 +9230,7 @@ public final class OmGetCampaignBonusItemsPu {
          * ID eines Bedingungs-Teils, das Bestandteil von "ItemConditionGroupID" ist
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue item_condition_part_id = 30013;</code>
+         * <code>.dstore.values.IntegerValue item_condition_part_id = 30013;</code>
          */
         public io.dstore.values.IntegerValue getItemConditionPartId() {
           if (itemConditionPartIdBuilder_ == null) {
@@ -9244,7 +9244,7 @@ public final class OmGetCampaignBonusItemsPu {
          * ID eines Bedingungs-Teils, das Bestandteil von "ItemConditionGroupID" ist
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue item_condition_part_id = 30013;</code>
+         * <code>.dstore.values.IntegerValue item_condition_part_id = 30013;</code>
          */
         public Builder setItemConditionPartId(io.dstore.values.IntegerValue value) {
           if (itemConditionPartIdBuilder_ == null) {
@@ -9264,7 +9264,7 @@ public final class OmGetCampaignBonusItemsPu {
          * ID eines Bedingungs-Teils, das Bestandteil von "ItemConditionGroupID" ist
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue item_condition_part_id = 30013;</code>
+         * <code>.dstore.values.IntegerValue item_condition_part_id = 30013;</code>
          */
         public Builder setItemConditionPartId(
             io.dstore.values.IntegerValue.Builder builderForValue) {
@@ -9282,7 +9282,7 @@ public final class OmGetCampaignBonusItemsPu {
          * ID eines Bedingungs-Teils, das Bestandteil von "ItemConditionGroupID" ist
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue item_condition_part_id = 30013;</code>
+         * <code>.dstore.values.IntegerValue item_condition_part_id = 30013;</code>
          */
         public Builder mergeItemConditionPartId(io.dstore.values.IntegerValue value) {
           if (itemConditionPartIdBuilder_ == null) {
@@ -9304,7 +9304,7 @@ public final class OmGetCampaignBonusItemsPu {
          * ID eines Bedingungs-Teils, das Bestandteil von "ItemConditionGroupID" ist
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue item_condition_part_id = 30013;</code>
+         * <code>.dstore.values.IntegerValue item_condition_part_id = 30013;</code>
          */
         public Builder clearItemConditionPartId() {
           if (itemConditionPartIdBuilder_ == null) {
@@ -9322,7 +9322,7 @@ public final class OmGetCampaignBonusItemsPu {
          * ID eines Bedingungs-Teils, das Bestandteil von "ItemConditionGroupID" ist
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue item_condition_part_id = 30013;</code>
+         * <code>.dstore.values.IntegerValue item_condition_part_id = 30013;</code>
          */
         public io.dstore.values.IntegerValue.Builder getItemConditionPartIdBuilder() {
           
@@ -9334,7 +9334,7 @@ public final class OmGetCampaignBonusItemsPu {
          * ID eines Bedingungs-Teils, das Bestandteil von "ItemConditionGroupID" ist
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue item_condition_part_id = 30013;</code>
+         * <code>.dstore.values.IntegerValue item_condition_part_id = 30013;</code>
          */
         public io.dstore.values.IntegerValueOrBuilder getItemConditionPartIdOrBuilder() {
           if (itemConditionPartIdBuilder_ != null) {
@@ -9349,7 +9349,7 @@ public final class OmGetCampaignBonusItemsPu {
          * ID eines Bedingungs-Teils, das Bestandteil von "ItemConditionGroupID" ist
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue item_condition_part_id = 30013;</code>
+         * <code>.dstore.values.IntegerValue item_condition_part_id = 30013;</code>
          */
         private com.google.protobuf.SingleFieldBuilderV3<
             io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> 
@@ -9373,7 +9373,7 @@ public final class OmGetCampaignBonusItemsPu {
          * Gibt an, ob die der "ItemConditionID" zugeordneten (Artikel-)Bedingungs-Gruppen logisch mit UND verknüpft werden ("1") oder mit ODER ("0")
          * </pre>
          *
-         * <code>optional .dstore.values.BooleanValue combine_groups_with_a_n_d_operator = 30017;</code>
+         * <code>.dstore.values.BooleanValue combine_groups_with_a_n_d_operator = 30017;</code>
          */
         public boolean hasCombineGroupsWithANDOperator() {
           return combineGroupsWithANDOperatorBuilder_ != null || combineGroupsWithANDOperator_ != null;
@@ -9383,7 +9383,7 @@ public final class OmGetCampaignBonusItemsPu {
          * Gibt an, ob die der "ItemConditionID" zugeordneten (Artikel-)Bedingungs-Gruppen logisch mit UND verknüpft werden ("1") oder mit ODER ("0")
          * </pre>
          *
-         * <code>optional .dstore.values.BooleanValue combine_groups_with_a_n_d_operator = 30017;</code>
+         * <code>.dstore.values.BooleanValue combine_groups_with_a_n_d_operator = 30017;</code>
          */
         public io.dstore.values.BooleanValue getCombineGroupsWithANDOperator() {
           if (combineGroupsWithANDOperatorBuilder_ == null) {
@@ -9397,7 +9397,7 @@ public final class OmGetCampaignBonusItemsPu {
          * Gibt an, ob die der "ItemConditionID" zugeordneten (Artikel-)Bedingungs-Gruppen logisch mit UND verknüpft werden ("1") oder mit ODER ("0")
          * </pre>
          *
-         * <code>optional .dstore.values.BooleanValue combine_groups_with_a_n_d_operator = 30017;</code>
+         * <code>.dstore.values.BooleanValue combine_groups_with_a_n_d_operator = 30017;</code>
          */
         public Builder setCombineGroupsWithANDOperator(io.dstore.values.BooleanValue value) {
           if (combineGroupsWithANDOperatorBuilder_ == null) {
@@ -9417,7 +9417,7 @@ public final class OmGetCampaignBonusItemsPu {
          * Gibt an, ob die der "ItemConditionID" zugeordneten (Artikel-)Bedingungs-Gruppen logisch mit UND verknüpft werden ("1") oder mit ODER ("0")
          * </pre>
          *
-         * <code>optional .dstore.values.BooleanValue combine_groups_with_a_n_d_operator = 30017;</code>
+         * <code>.dstore.values.BooleanValue combine_groups_with_a_n_d_operator = 30017;</code>
          */
         public Builder setCombineGroupsWithANDOperator(
             io.dstore.values.BooleanValue.Builder builderForValue) {
@@ -9435,7 +9435,7 @@ public final class OmGetCampaignBonusItemsPu {
          * Gibt an, ob die der "ItemConditionID" zugeordneten (Artikel-)Bedingungs-Gruppen logisch mit UND verknüpft werden ("1") oder mit ODER ("0")
          * </pre>
          *
-         * <code>optional .dstore.values.BooleanValue combine_groups_with_a_n_d_operator = 30017;</code>
+         * <code>.dstore.values.BooleanValue combine_groups_with_a_n_d_operator = 30017;</code>
          */
         public Builder mergeCombineGroupsWithANDOperator(io.dstore.values.BooleanValue value) {
           if (combineGroupsWithANDOperatorBuilder_ == null) {
@@ -9457,7 +9457,7 @@ public final class OmGetCampaignBonusItemsPu {
          * Gibt an, ob die der "ItemConditionID" zugeordneten (Artikel-)Bedingungs-Gruppen logisch mit UND verknüpft werden ("1") oder mit ODER ("0")
          * </pre>
          *
-         * <code>optional .dstore.values.BooleanValue combine_groups_with_a_n_d_operator = 30017;</code>
+         * <code>.dstore.values.BooleanValue combine_groups_with_a_n_d_operator = 30017;</code>
          */
         public Builder clearCombineGroupsWithANDOperator() {
           if (combineGroupsWithANDOperatorBuilder_ == null) {
@@ -9475,7 +9475,7 @@ public final class OmGetCampaignBonusItemsPu {
          * Gibt an, ob die der "ItemConditionID" zugeordneten (Artikel-)Bedingungs-Gruppen logisch mit UND verknüpft werden ("1") oder mit ODER ("0")
          * </pre>
          *
-         * <code>optional .dstore.values.BooleanValue combine_groups_with_a_n_d_operator = 30017;</code>
+         * <code>.dstore.values.BooleanValue combine_groups_with_a_n_d_operator = 30017;</code>
          */
         public io.dstore.values.BooleanValue.Builder getCombineGroupsWithANDOperatorBuilder() {
           
@@ -9487,7 +9487,7 @@ public final class OmGetCampaignBonusItemsPu {
          * Gibt an, ob die der "ItemConditionID" zugeordneten (Artikel-)Bedingungs-Gruppen logisch mit UND verknüpft werden ("1") oder mit ODER ("0")
          * </pre>
          *
-         * <code>optional .dstore.values.BooleanValue combine_groups_with_a_n_d_operator = 30017;</code>
+         * <code>.dstore.values.BooleanValue combine_groups_with_a_n_d_operator = 30017;</code>
          */
         public io.dstore.values.BooleanValueOrBuilder getCombineGroupsWithANDOperatorOrBuilder() {
           if (combineGroupsWithANDOperatorBuilder_ != null) {
@@ -9502,7 +9502,7 @@ public final class OmGetCampaignBonusItemsPu {
          * Gibt an, ob die der "ItemConditionID" zugeordneten (Artikel-)Bedingungs-Gruppen logisch mit UND verknüpft werden ("1") oder mit ODER ("0")
          * </pre>
          *
-         * <code>optional .dstore.values.BooleanValue combine_groups_with_a_n_d_operator = 30017;</code>
+         * <code>.dstore.values.BooleanValue combine_groups_with_a_n_d_operator = 30017;</code>
          */
         private com.google.protobuf.SingleFieldBuilderV3<
             io.dstore.values.BooleanValue, io.dstore.values.BooleanValue.Builder, io.dstore.values.BooleanValueOrBuilder> 
@@ -9526,7 +9526,7 @@ public final class OmGetCampaignBonusItemsPu {
          * Bezeichnung des Bedingungs-Teils "ItemConditionPartID"
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue item_condition_part_description = 30018;</code>
+         * <code>.dstore.values.StringValue item_condition_part_description = 30018;</code>
          */
         public boolean hasItemConditionPartDescription() {
           return itemConditionPartDescriptionBuilder_ != null || itemConditionPartDescription_ != null;
@@ -9536,7 +9536,7 @@ public final class OmGetCampaignBonusItemsPu {
          * Bezeichnung des Bedingungs-Teils "ItemConditionPartID"
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue item_condition_part_description = 30018;</code>
+         * <code>.dstore.values.StringValue item_condition_part_description = 30018;</code>
          */
         public io.dstore.values.StringValue getItemConditionPartDescription() {
           if (itemConditionPartDescriptionBuilder_ == null) {
@@ -9550,7 +9550,7 @@ public final class OmGetCampaignBonusItemsPu {
          * Bezeichnung des Bedingungs-Teils "ItemConditionPartID"
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue item_condition_part_description = 30018;</code>
+         * <code>.dstore.values.StringValue item_condition_part_description = 30018;</code>
          */
         public Builder setItemConditionPartDescription(io.dstore.values.StringValue value) {
           if (itemConditionPartDescriptionBuilder_ == null) {
@@ -9570,7 +9570,7 @@ public final class OmGetCampaignBonusItemsPu {
          * Bezeichnung des Bedingungs-Teils "ItemConditionPartID"
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue item_condition_part_description = 30018;</code>
+         * <code>.dstore.values.StringValue item_condition_part_description = 30018;</code>
          */
         public Builder setItemConditionPartDescription(
             io.dstore.values.StringValue.Builder builderForValue) {
@@ -9588,7 +9588,7 @@ public final class OmGetCampaignBonusItemsPu {
          * Bezeichnung des Bedingungs-Teils "ItemConditionPartID"
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue item_condition_part_description = 30018;</code>
+         * <code>.dstore.values.StringValue item_condition_part_description = 30018;</code>
          */
         public Builder mergeItemConditionPartDescription(io.dstore.values.StringValue value) {
           if (itemConditionPartDescriptionBuilder_ == null) {
@@ -9610,7 +9610,7 @@ public final class OmGetCampaignBonusItemsPu {
          * Bezeichnung des Bedingungs-Teils "ItemConditionPartID"
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue item_condition_part_description = 30018;</code>
+         * <code>.dstore.values.StringValue item_condition_part_description = 30018;</code>
          */
         public Builder clearItemConditionPartDescription() {
           if (itemConditionPartDescriptionBuilder_ == null) {
@@ -9628,7 +9628,7 @@ public final class OmGetCampaignBonusItemsPu {
          * Bezeichnung des Bedingungs-Teils "ItemConditionPartID"
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue item_condition_part_description = 30018;</code>
+         * <code>.dstore.values.StringValue item_condition_part_description = 30018;</code>
          */
         public io.dstore.values.StringValue.Builder getItemConditionPartDescriptionBuilder() {
           
@@ -9640,7 +9640,7 @@ public final class OmGetCampaignBonusItemsPu {
          * Bezeichnung des Bedingungs-Teils "ItemConditionPartID"
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue item_condition_part_description = 30018;</code>
+         * <code>.dstore.values.StringValue item_condition_part_description = 30018;</code>
          */
         public io.dstore.values.StringValueOrBuilder getItemConditionPartDescriptionOrBuilder() {
           if (itemConditionPartDescriptionBuilder_ != null) {
@@ -9655,7 +9655,7 @@ public final class OmGetCampaignBonusItemsPu {
          * Bezeichnung des Bedingungs-Teils "ItemConditionPartID"
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue item_condition_part_description = 30018;</code>
+         * <code>.dstore.values.StringValue item_condition_part_description = 30018;</code>
          */
         private com.google.protobuf.SingleFieldBuilderV3<
             io.dstore.values.StringValue, io.dstore.values.StringValue.Builder, io.dstore.values.StringValueOrBuilder> 
@@ -9679,7 +9679,7 @@ public final class OmGetCampaignBonusItemsPu {
          * Um den (Artikel-)Bedingungs-Teil "ItemConditionPartID" zu erfüllen, muß die Hierarchie ("LevelID") eines Artikel-Elementes aus der hier angegebenen Menge der Hierarchien ("LevelID"s) kommen. Sonderfall ",," bedeutet "beliebige Hierarchie".
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue level_ids = 30019;</code>
+         * <code>.dstore.values.StringValue level_ids = 30019;</code>
          */
         public boolean hasLevelIds() {
           return levelIdsBuilder_ != null || levelIds_ != null;
@@ -9689,7 +9689,7 @@ public final class OmGetCampaignBonusItemsPu {
          * Um den (Artikel-)Bedingungs-Teil "ItemConditionPartID" zu erfüllen, muß die Hierarchie ("LevelID") eines Artikel-Elementes aus der hier angegebenen Menge der Hierarchien ("LevelID"s) kommen. Sonderfall ",," bedeutet "beliebige Hierarchie".
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue level_ids = 30019;</code>
+         * <code>.dstore.values.StringValue level_ids = 30019;</code>
          */
         public io.dstore.values.StringValue getLevelIds() {
           if (levelIdsBuilder_ == null) {
@@ -9703,7 +9703,7 @@ public final class OmGetCampaignBonusItemsPu {
          * Um den (Artikel-)Bedingungs-Teil "ItemConditionPartID" zu erfüllen, muß die Hierarchie ("LevelID") eines Artikel-Elementes aus der hier angegebenen Menge der Hierarchien ("LevelID"s) kommen. Sonderfall ",," bedeutet "beliebige Hierarchie".
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue level_ids = 30019;</code>
+         * <code>.dstore.values.StringValue level_ids = 30019;</code>
          */
         public Builder setLevelIds(io.dstore.values.StringValue value) {
           if (levelIdsBuilder_ == null) {
@@ -9723,7 +9723,7 @@ public final class OmGetCampaignBonusItemsPu {
          * Um den (Artikel-)Bedingungs-Teil "ItemConditionPartID" zu erfüllen, muß die Hierarchie ("LevelID") eines Artikel-Elementes aus der hier angegebenen Menge der Hierarchien ("LevelID"s) kommen. Sonderfall ",," bedeutet "beliebige Hierarchie".
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue level_ids = 30019;</code>
+         * <code>.dstore.values.StringValue level_ids = 30019;</code>
          */
         public Builder setLevelIds(
             io.dstore.values.StringValue.Builder builderForValue) {
@@ -9741,7 +9741,7 @@ public final class OmGetCampaignBonusItemsPu {
          * Um den (Artikel-)Bedingungs-Teil "ItemConditionPartID" zu erfüllen, muß die Hierarchie ("LevelID") eines Artikel-Elementes aus der hier angegebenen Menge der Hierarchien ("LevelID"s) kommen. Sonderfall ",," bedeutet "beliebige Hierarchie".
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue level_ids = 30019;</code>
+         * <code>.dstore.values.StringValue level_ids = 30019;</code>
          */
         public Builder mergeLevelIds(io.dstore.values.StringValue value) {
           if (levelIdsBuilder_ == null) {
@@ -9763,7 +9763,7 @@ public final class OmGetCampaignBonusItemsPu {
          * Um den (Artikel-)Bedingungs-Teil "ItemConditionPartID" zu erfüllen, muß die Hierarchie ("LevelID") eines Artikel-Elementes aus der hier angegebenen Menge der Hierarchien ("LevelID"s) kommen. Sonderfall ",," bedeutet "beliebige Hierarchie".
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue level_ids = 30019;</code>
+         * <code>.dstore.values.StringValue level_ids = 30019;</code>
          */
         public Builder clearLevelIds() {
           if (levelIdsBuilder_ == null) {
@@ -9781,7 +9781,7 @@ public final class OmGetCampaignBonusItemsPu {
          * Um den (Artikel-)Bedingungs-Teil "ItemConditionPartID" zu erfüllen, muß die Hierarchie ("LevelID") eines Artikel-Elementes aus der hier angegebenen Menge der Hierarchien ("LevelID"s) kommen. Sonderfall ",," bedeutet "beliebige Hierarchie".
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue level_ids = 30019;</code>
+         * <code>.dstore.values.StringValue level_ids = 30019;</code>
          */
         public io.dstore.values.StringValue.Builder getLevelIdsBuilder() {
           
@@ -9793,7 +9793,7 @@ public final class OmGetCampaignBonusItemsPu {
          * Um den (Artikel-)Bedingungs-Teil "ItemConditionPartID" zu erfüllen, muß die Hierarchie ("LevelID") eines Artikel-Elementes aus der hier angegebenen Menge der Hierarchien ("LevelID"s) kommen. Sonderfall ",," bedeutet "beliebige Hierarchie".
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue level_ids = 30019;</code>
+         * <code>.dstore.values.StringValue level_ids = 30019;</code>
          */
         public io.dstore.values.StringValueOrBuilder getLevelIdsOrBuilder() {
           if (levelIdsBuilder_ != null) {
@@ -9808,7 +9808,7 @@ public final class OmGetCampaignBonusItemsPu {
          * Um den (Artikel-)Bedingungs-Teil "ItemConditionPartID" zu erfüllen, muß die Hierarchie ("LevelID") eines Artikel-Elementes aus der hier angegebenen Menge der Hierarchien ("LevelID"s) kommen. Sonderfall ",," bedeutet "beliebige Hierarchie".
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue level_ids = 30019;</code>
+         * <code>.dstore.values.StringValue level_ids = 30019;</code>
          */
         private com.google.protobuf.SingleFieldBuilderV3<
             io.dstore.values.StringValue, io.dstore.values.StringValue.Builder, io.dstore.values.StringValueOrBuilder> 
@@ -9832,7 +9832,7 @@ public final class OmGetCampaignBonusItemsPu {
          * ID einer Bedingungs-Gruppe, die Bestandteil von "ItemConditionID" ist
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue item_condition_group_id = 30020;</code>
+         * <code>.dstore.values.IntegerValue item_condition_group_id = 30020;</code>
          */
         public boolean hasItemConditionGroupId() {
           return itemConditionGroupIdBuilder_ != null || itemConditionGroupId_ != null;
@@ -9842,7 +9842,7 @@ public final class OmGetCampaignBonusItemsPu {
          * ID einer Bedingungs-Gruppe, die Bestandteil von "ItemConditionID" ist
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue item_condition_group_id = 30020;</code>
+         * <code>.dstore.values.IntegerValue item_condition_group_id = 30020;</code>
          */
         public io.dstore.values.IntegerValue getItemConditionGroupId() {
           if (itemConditionGroupIdBuilder_ == null) {
@@ -9856,7 +9856,7 @@ public final class OmGetCampaignBonusItemsPu {
          * ID einer Bedingungs-Gruppe, die Bestandteil von "ItemConditionID" ist
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue item_condition_group_id = 30020;</code>
+         * <code>.dstore.values.IntegerValue item_condition_group_id = 30020;</code>
          */
         public Builder setItemConditionGroupId(io.dstore.values.IntegerValue value) {
           if (itemConditionGroupIdBuilder_ == null) {
@@ -9876,7 +9876,7 @@ public final class OmGetCampaignBonusItemsPu {
          * ID einer Bedingungs-Gruppe, die Bestandteil von "ItemConditionID" ist
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue item_condition_group_id = 30020;</code>
+         * <code>.dstore.values.IntegerValue item_condition_group_id = 30020;</code>
          */
         public Builder setItemConditionGroupId(
             io.dstore.values.IntegerValue.Builder builderForValue) {
@@ -9894,7 +9894,7 @@ public final class OmGetCampaignBonusItemsPu {
          * ID einer Bedingungs-Gruppe, die Bestandteil von "ItemConditionID" ist
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue item_condition_group_id = 30020;</code>
+         * <code>.dstore.values.IntegerValue item_condition_group_id = 30020;</code>
          */
         public Builder mergeItemConditionGroupId(io.dstore.values.IntegerValue value) {
           if (itemConditionGroupIdBuilder_ == null) {
@@ -9916,7 +9916,7 @@ public final class OmGetCampaignBonusItemsPu {
          * ID einer Bedingungs-Gruppe, die Bestandteil von "ItemConditionID" ist
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue item_condition_group_id = 30020;</code>
+         * <code>.dstore.values.IntegerValue item_condition_group_id = 30020;</code>
          */
         public Builder clearItemConditionGroupId() {
           if (itemConditionGroupIdBuilder_ == null) {
@@ -9934,7 +9934,7 @@ public final class OmGetCampaignBonusItemsPu {
          * ID einer Bedingungs-Gruppe, die Bestandteil von "ItemConditionID" ist
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue item_condition_group_id = 30020;</code>
+         * <code>.dstore.values.IntegerValue item_condition_group_id = 30020;</code>
          */
         public io.dstore.values.IntegerValue.Builder getItemConditionGroupIdBuilder() {
           
@@ -9946,7 +9946,7 @@ public final class OmGetCampaignBonusItemsPu {
          * ID einer Bedingungs-Gruppe, die Bestandteil von "ItemConditionID" ist
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue item_condition_group_id = 30020;</code>
+         * <code>.dstore.values.IntegerValue item_condition_group_id = 30020;</code>
          */
         public io.dstore.values.IntegerValueOrBuilder getItemConditionGroupIdOrBuilder() {
           if (itemConditionGroupIdBuilder_ != null) {
@@ -9961,7 +9961,7 @@ public final class OmGetCampaignBonusItemsPu {
          * ID einer Bedingungs-Gruppe, die Bestandteil von "ItemConditionID" ist
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue item_condition_group_id = 30020;</code>
+         * <code>.dstore.values.IntegerValue item_condition_group_id = 30020;</code>
          */
         private com.google.protobuf.SingleFieldBuilderV3<
             io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> 
@@ -9985,7 +9985,7 @@ public final class OmGetCampaignBonusItemsPu {
          * Welche Eigenschaften zu "NodeCharacteristicID" hinsichtlich Vererbung sollen bei Prüfung der Eigenschafts-Bedingung beachtet werden :"-1" : Alle"0" : unvererbte"1" : direkte u. einfach geerbte"2" : direkte u. einfach oder zweifach geerbteusw.
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue inherit_depth = 30023;</code>
+         * <code>.dstore.values.IntegerValue inherit_depth = 30023;</code>
          */
         public boolean hasInheritDepth() {
           return inheritDepthBuilder_ != null || inheritDepth_ != null;
@@ -9995,7 +9995,7 @@ public final class OmGetCampaignBonusItemsPu {
          * Welche Eigenschaften zu "NodeCharacteristicID" hinsichtlich Vererbung sollen bei Prüfung der Eigenschafts-Bedingung beachtet werden :"-1" : Alle"0" : unvererbte"1" : direkte u. einfach geerbte"2" : direkte u. einfach oder zweifach geerbteusw.
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue inherit_depth = 30023;</code>
+         * <code>.dstore.values.IntegerValue inherit_depth = 30023;</code>
          */
         public io.dstore.values.IntegerValue getInheritDepth() {
           if (inheritDepthBuilder_ == null) {
@@ -10009,7 +10009,7 @@ public final class OmGetCampaignBonusItemsPu {
          * Welche Eigenschaften zu "NodeCharacteristicID" hinsichtlich Vererbung sollen bei Prüfung der Eigenschafts-Bedingung beachtet werden :"-1" : Alle"0" : unvererbte"1" : direkte u. einfach geerbte"2" : direkte u. einfach oder zweifach geerbteusw.
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue inherit_depth = 30023;</code>
+         * <code>.dstore.values.IntegerValue inherit_depth = 30023;</code>
          */
         public Builder setInheritDepth(io.dstore.values.IntegerValue value) {
           if (inheritDepthBuilder_ == null) {
@@ -10029,7 +10029,7 @@ public final class OmGetCampaignBonusItemsPu {
          * Welche Eigenschaften zu "NodeCharacteristicID" hinsichtlich Vererbung sollen bei Prüfung der Eigenschafts-Bedingung beachtet werden :"-1" : Alle"0" : unvererbte"1" : direkte u. einfach geerbte"2" : direkte u. einfach oder zweifach geerbteusw.
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue inherit_depth = 30023;</code>
+         * <code>.dstore.values.IntegerValue inherit_depth = 30023;</code>
          */
         public Builder setInheritDepth(
             io.dstore.values.IntegerValue.Builder builderForValue) {
@@ -10047,7 +10047,7 @@ public final class OmGetCampaignBonusItemsPu {
          * Welche Eigenschaften zu "NodeCharacteristicID" hinsichtlich Vererbung sollen bei Prüfung der Eigenschafts-Bedingung beachtet werden :"-1" : Alle"0" : unvererbte"1" : direkte u. einfach geerbte"2" : direkte u. einfach oder zweifach geerbteusw.
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue inherit_depth = 30023;</code>
+         * <code>.dstore.values.IntegerValue inherit_depth = 30023;</code>
          */
         public Builder mergeInheritDepth(io.dstore.values.IntegerValue value) {
           if (inheritDepthBuilder_ == null) {
@@ -10069,7 +10069,7 @@ public final class OmGetCampaignBonusItemsPu {
          * Welche Eigenschaften zu "NodeCharacteristicID" hinsichtlich Vererbung sollen bei Prüfung der Eigenschafts-Bedingung beachtet werden :"-1" : Alle"0" : unvererbte"1" : direkte u. einfach geerbte"2" : direkte u. einfach oder zweifach geerbteusw.
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue inherit_depth = 30023;</code>
+         * <code>.dstore.values.IntegerValue inherit_depth = 30023;</code>
          */
         public Builder clearInheritDepth() {
           if (inheritDepthBuilder_ == null) {
@@ -10087,7 +10087,7 @@ public final class OmGetCampaignBonusItemsPu {
          * Welche Eigenschaften zu "NodeCharacteristicID" hinsichtlich Vererbung sollen bei Prüfung der Eigenschafts-Bedingung beachtet werden :"-1" : Alle"0" : unvererbte"1" : direkte u. einfach geerbte"2" : direkte u. einfach oder zweifach geerbteusw.
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue inherit_depth = 30023;</code>
+         * <code>.dstore.values.IntegerValue inherit_depth = 30023;</code>
          */
         public io.dstore.values.IntegerValue.Builder getInheritDepthBuilder() {
           
@@ -10099,7 +10099,7 @@ public final class OmGetCampaignBonusItemsPu {
          * Welche Eigenschaften zu "NodeCharacteristicID" hinsichtlich Vererbung sollen bei Prüfung der Eigenschafts-Bedingung beachtet werden :"-1" : Alle"0" : unvererbte"1" : direkte u. einfach geerbte"2" : direkte u. einfach oder zweifach geerbteusw.
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue inherit_depth = 30023;</code>
+         * <code>.dstore.values.IntegerValue inherit_depth = 30023;</code>
          */
         public io.dstore.values.IntegerValueOrBuilder getInheritDepthOrBuilder() {
           if (inheritDepthBuilder_ != null) {
@@ -10114,7 +10114,7 @@ public final class OmGetCampaignBonusItemsPu {
          * Welche Eigenschaften zu "NodeCharacteristicID" hinsichtlich Vererbung sollen bei Prüfung der Eigenschafts-Bedingung beachtet werden :"-1" : Alle"0" : unvererbte"1" : direkte u. einfach geerbte"2" : direkte u. einfach oder zweifach geerbteusw.
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue inherit_depth = 30023;</code>
+         * <code>.dstore.values.IntegerValue inherit_depth = 30023;</code>
          */
         private com.google.protobuf.SingleFieldBuilderV3<
             io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> 
@@ -10374,7 +10374,7 @@ public final class OmGetCampaignBonusItemsPu {
         return memoizedHashCode;
       }
       int hash = 41;
-      hash = (19 * hash) + getDescriptorForType().hashCode();
+      hash = (19 * hash) + getDescriptor().hashCode();
       if (getMetaInformationCount() > 0) {
         hash = (37 * hash) + META_INFORMATION_FIELD_NUMBER;
         hash = (53 * hash) + getMetaInformationList().hashCode();

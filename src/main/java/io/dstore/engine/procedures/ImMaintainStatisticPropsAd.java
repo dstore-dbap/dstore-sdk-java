@@ -19,110 +19,110 @@ public final class ImMaintainStatisticPropsAd {
       com.google.protobuf.MessageOrBuilder {
 
     /**
-     * <code>optional .dstore.values.IntegerValue node_characteristic_id = 1;</code>
+     * <code>.dstore.values.IntegerValue node_characteristic_id = 1;</code>
      */
     boolean hasNodeCharacteristicId();
     /**
-     * <code>optional .dstore.values.IntegerValue node_characteristic_id = 1;</code>
+     * <code>.dstore.values.IntegerValue node_characteristic_id = 1;</code>
      */
     io.dstore.values.IntegerValue getNodeCharacteristicId();
     /**
-     * <code>optional .dstore.values.IntegerValue node_characteristic_id = 1;</code>
+     * <code>.dstore.values.IntegerValue node_characteristic_id = 1;</code>
      */
     io.dstore.values.IntegerValueOrBuilder getNodeCharacteristicIdOrBuilder();
 
     /**
-     * <code>optional bool node_characteristic_id_null = 1001;</code>
+     * <code>bool node_characteristic_id_null = 1001;</code>
      */
     boolean getNodeCharacteristicIdNull();
 
     /**
-     * <code>optional .dstore.values.IntegerValue level_id = 2;</code>
+     * <code>.dstore.values.IntegerValue level_id = 2;</code>
      */
     boolean hasLevelId();
     /**
-     * <code>optional .dstore.values.IntegerValue level_id = 2;</code>
+     * <code>.dstore.values.IntegerValue level_id = 2;</code>
      */
     io.dstore.values.IntegerValue getLevelId();
     /**
-     * <code>optional .dstore.values.IntegerValue level_id = 2;</code>
+     * <code>.dstore.values.IntegerValue level_id = 2;</code>
      */
     io.dstore.values.IntegerValueOrBuilder getLevelIdOrBuilder();
 
     /**
-     * <code>optional bool level_id_null = 1002;</code>
+     * <code>bool level_id_null = 1002;</code>
      */
     boolean getLevelIdNull();
 
     /**
-     * <code>optional .dstore.values.IntegerValue number_of_days = 3;</code>
+     * <code>.dstore.values.IntegerValue number_of_days = 3;</code>
      */
     boolean hasNumberOfDays();
     /**
-     * <code>optional .dstore.values.IntegerValue number_of_days = 3;</code>
+     * <code>.dstore.values.IntegerValue number_of_days = 3;</code>
      */
     io.dstore.values.IntegerValue getNumberOfDays();
     /**
-     * <code>optional .dstore.values.IntegerValue number_of_days = 3;</code>
+     * <code>.dstore.values.IntegerValue number_of_days = 3;</code>
      */
     io.dstore.values.IntegerValueOrBuilder getNumberOfDaysOrBuilder();
 
     /**
-     * <code>optional bool number_of_days_null = 1003;</code>
+     * <code>bool number_of_days_null = 1003;</code>
      */
     boolean getNumberOfDaysNull();
 
     /**
-     * <code>optional .dstore.values.IntegerValue domain_tree_node_id = 4;</code>
+     * <code>.dstore.values.IntegerValue domain_tree_node_id = 4;</code>
      */
     boolean hasDomainTreeNodeId();
     /**
-     * <code>optional .dstore.values.IntegerValue domain_tree_node_id = 4;</code>
+     * <code>.dstore.values.IntegerValue domain_tree_node_id = 4;</code>
      */
     io.dstore.values.IntegerValue getDomainTreeNodeId();
     /**
-     * <code>optional .dstore.values.IntegerValue domain_tree_node_id = 4;</code>
+     * <code>.dstore.values.IntegerValue domain_tree_node_id = 4;</code>
      */
     io.dstore.values.IntegerValueOrBuilder getDomainTreeNodeIdOrBuilder();
 
     /**
-     * <code>optional bool domain_tree_node_id_null = 1004;</code>
+     * <code>bool domain_tree_node_id_null = 1004;</code>
      */
     boolean getDomainTreeNodeIdNull();
 
     /**
-     * <code>optional .dstore.values.IntegerValue basic_characteristic_no = 5;</code>
+     * <code>.dstore.values.IntegerValue basic_characteristic_no = 5;</code>
      */
     boolean hasBasicCharacteristicNo();
     /**
-     * <code>optional .dstore.values.IntegerValue basic_characteristic_no = 5;</code>
+     * <code>.dstore.values.IntegerValue basic_characteristic_no = 5;</code>
      */
     io.dstore.values.IntegerValue getBasicCharacteristicNo();
     /**
-     * <code>optional .dstore.values.IntegerValue basic_characteristic_no = 5;</code>
+     * <code>.dstore.values.IntegerValue basic_characteristic_no = 5;</code>
      */
     io.dstore.values.IntegerValueOrBuilder getBasicCharacteristicNoOrBuilder();
 
     /**
-     * <code>optional bool basic_characteristic_no_null = 1005;</code>
+     * <code>bool basic_characteristic_no_null = 1005;</code>
      */
     boolean getBasicCharacteristicNoNull();
 
     /**
-     * <code>optional .dstore.values.IntegerValue max_nodes_to_process = 6;</code>
+     * <code>.dstore.values.IntegerValue max_nodes_to_process = 6;</code>
      */
     boolean hasMaxNodesToProcess();
     /**
-     * <code>optional .dstore.values.IntegerValue max_nodes_to_process = 6;</code>
+     * <code>.dstore.values.IntegerValue max_nodes_to_process = 6;</code>
      */
     io.dstore.values.IntegerValue getMaxNodesToProcess();
     /**
-     * <code>optional .dstore.values.IntegerValue max_nodes_to_process = 6;</code>
+     * <code>.dstore.values.IntegerValue max_nodes_to_process = 6;</code>
      */
     io.dstore.values.IntegerValueOrBuilder getMaxNodesToProcessOrBuilder();
 
     /**
-     * <code>optional bool max_nodes_to_process_null = 1006;</code>
+     * <code>bool max_nodes_to_process_null = 1006;</code>
      */
     boolean getMaxNodesToProcessNull();
   }
@@ -305,19 +305,19 @@ public final class ImMaintainStatisticPropsAd {
     public static final int NODE_CHARACTERISTIC_ID_FIELD_NUMBER = 1;
     private io.dstore.values.IntegerValue nodeCharacteristicId_;
     /**
-     * <code>optional .dstore.values.IntegerValue node_characteristic_id = 1;</code>
+     * <code>.dstore.values.IntegerValue node_characteristic_id = 1;</code>
      */
     public boolean hasNodeCharacteristicId() {
       return nodeCharacteristicId_ != null;
     }
     /**
-     * <code>optional .dstore.values.IntegerValue node_characteristic_id = 1;</code>
+     * <code>.dstore.values.IntegerValue node_characteristic_id = 1;</code>
      */
     public io.dstore.values.IntegerValue getNodeCharacteristicId() {
       return nodeCharacteristicId_ == null ? io.dstore.values.IntegerValue.getDefaultInstance() : nodeCharacteristicId_;
     }
     /**
-     * <code>optional .dstore.values.IntegerValue node_characteristic_id = 1;</code>
+     * <code>.dstore.values.IntegerValue node_characteristic_id = 1;</code>
      */
     public io.dstore.values.IntegerValueOrBuilder getNodeCharacteristicIdOrBuilder() {
       return getNodeCharacteristicId();
@@ -326,7 +326,7 @@ public final class ImMaintainStatisticPropsAd {
     public static final int NODE_CHARACTERISTIC_ID_NULL_FIELD_NUMBER = 1001;
     private boolean nodeCharacteristicIdNull_;
     /**
-     * <code>optional bool node_characteristic_id_null = 1001;</code>
+     * <code>bool node_characteristic_id_null = 1001;</code>
      */
     public boolean getNodeCharacteristicIdNull() {
       return nodeCharacteristicIdNull_;
@@ -335,19 +335,19 @@ public final class ImMaintainStatisticPropsAd {
     public static final int LEVEL_ID_FIELD_NUMBER = 2;
     private io.dstore.values.IntegerValue levelId_;
     /**
-     * <code>optional .dstore.values.IntegerValue level_id = 2;</code>
+     * <code>.dstore.values.IntegerValue level_id = 2;</code>
      */
     public boolean hasLevelId() {
       return levelId_ != null;
     }
     /**
-     * <code>optional .dstore.values.IntegerValue level_id = 2;</code>
+     * <code>.dstore.values.IntegerValue level_id = 2;</code>
      */
     public io.dstore.values.IntegerValue getLevelId() {
       return levelId_ == null ? io.dstore.values.IntegerValue.getDefaultInstance() : levelId_;
     }
     /**
-     * <code>optional .dstore.values.IntegerValue level_id = 2;</code>
+     * <code>.dstore.values.IntegerValue level_id = 2;</code>
      */
     public io.dstore.values.IntegerValueOrBuilder getLevelIdOrBuilder() {
       return getLevelId();
@@ -356,7 +356,7 @@ public final class ImMaintainStatisticPropsAd {
     public static final int LEVEL_ID_NULL_FIELD_NUMBER = 1002;
     private boolean levelIdNull_;
     /**
-     * <code>optional bool level_id_null = 1002;</code>
+     * <code>bool level_id_null = 1002;</code>
      */
     public boolean getLevelIdNull() {
       return levelIdNull_;
@@ -365,19 +365,19 @@ public final class ImMaintainStatisticPropsAd {
     public static final int NUMBER_OF_DAYS_FIELD_NUMBER = 3;
     private io.dstore.values.IntegerValue numberOfDays_;
     /**
-     * <code>optional .dstore.values.IntegerValue number_of_days = 3;</code>
+     * <code>.dstore.values.IntegerValue number_of_days = 3;</code>
      */
     public boolean hasNumberOfDays() {
       return numberOfDays_ != null;
     }
     /**
-     * <code>optional .dstore.values.IntegerValue number_of_days = 3;</code>
+     * <code>.dstore.values.IntegerValue number_of_days = 3;</code>
      */
     public io.dstore.values.IntegerValue getNumberOfDays() {
       return numberOfDays_ == null ? io.dstore.values.IntegerValue.getDefaultInstance() : numberOfDays_;
     }
     /**
-     * <code>optional .dstore.values.IntegerValue number_of_days = 3;</code>
+     * <code>.dstore.values.IntegerValue number_of_days = 3;</code>
      */
     public io.dstore.values.IntegerValueOrBuilder getNumberOfDaysOrBuilder() {
       return getNumberOfDays();
@@ -386,7 +386,7 @@ public final class ImMaintainStatisticPropsAd {
     public static final int NUMBER_OF_DAYS_NULL_FIELD_NUMBER = 1003;
     private boolean numberOfDaysNull_;
     /**
-     * <code>optional bool number_of_days_null = 1003;</code>
+     * <code>bool number_of_days_null = 1003;</code>
      */
     public boolean getNumberOfDaysNull() {
       return numberOfDaysNull_;
@@ -395,19 +395,19 @@ public final class ImMaintainStatisticPropsAd {
     public static final int DOMAIN_TREE_NODE_ID_FIELD_NUMBER = 4;
     private io.dstore.values.IntegerValue domainTreeNodeId_;
     /**
-     * <code>optional .dstore.values.IntegerValue domain_tree_node_id = 4;</code>
+     * <code>.dstore.values.IntegerValue domain_tree_node_id = 4;</code>
      */
     public boolean hasDomainTreeNodeId() {
       return domainTreeNodeId_ != null;
     }
     /**
-     * <code>optional .dstore.values.IntegerValue domain_tree_node_id = 4;</code>
+     * <code>.dstore.values.IntegerValue domain_tree_node_id = 4;</code>
      */
     public io.dstore.values.IntegerValue getDomainTreeNodeId() {
       return domainTreeNodeId_ == null ? io.dstore.values.IntegerValue.getDefaultInstance() : domainTreeNodeId_;
     }
     /**
-     * <code>optional .dstore.values.IntegerValue domain_tree_node_id = 4;</code>
+     * <code>.dstore.values.IntegerValue domain_tree_node_id = 4;</code>
      */
     public io.dstore.values.IntegerValueOrBuilder getDomainTreeNodeIdOrBuilder() {
       return getDomainTreeNodeId();
@@ -416,7 +416,7 @@ public final class ImMaintainStatisticPropsAd {
     public static final int DOMAIN_TREE_NODE_ID_NULL_FIELD_NUMBER = 1004;
     private boolean domainTreeNodeIdNull_;
     /**
-     * <code>optional bool domain_tree_node_id_null = 1004;</code>
+     * <code>bool domain_tree_node_id_null = 1004;</code>
      */
     public boolean getDomainTreeNodeIdNull() {
       return domainTreeNodeIdNull_;
@@ -425,19 +425,19 @@ public final class ImMaintainStatisticPropsAd {
     public static final int BASIC_CHARACTERISTIC_NO_FIELD_NUMBER = 5;
     private io.dstore.values.IntegerValue basicCharacteristicNo_;
     /**
-     * <code>optional .dstore.values.IntegerValue basic_characteristic_no = 5;</code>
+     * <code>.dstore.values.IntegerValue basic_characteristic_no = 5;</code>
      */
     public boolean hasBasicCharacteristicNo() {
       return basicCharacteristicNo_ != null;
     }
     /**
-     * <code>optional .dstore.values.IntegerValue basic_characteristic_no = 5;</code>
+     * <code>.dstore.values.IntegerValue basic_characteristic_no = 5;</code>
      */
     public io.dstore.values.IntegerValue getBasicCharacteristicNo() {
       return basicCharacteristicNo_ == null ? io.dstore.values.IntegerValue.getDefaultInstance() : basicCharacteristicNo_;
     }
     /**
-     * <code>optional .dstore.values.IntegerValue basic_characteristic_no = 5;</code>
+     * <code>.dstore.values.IntegerValue basic_characteristic_no = 5;</code>
      */
     public io.dstore.values.IntegerValueOrBuilder getBasicCharacteristicNoOrBuilder() {
       return getBasicCharacteristicNo();
@@ -446,7 +446,7 @@ public final class ImMaintainStatisticPropsAd {
     public static final int BASIC_CHARACTERISTIC_NO_NULL_FIELD_NUMBER = 1005;
     private boolean basicCharacteristicNoNull_;
     /**
-     * <code>optional bool basic_characteristic_no_null = 1005;</code>
+     * <code>bool basic_characteristic_no_null = 1005;</code>
      */
     public boolean getBasicCharacteristicNoNull() {
       return basicCharacteristicNoNull_;
@@ -455,19 +455,19 @@ public final class ImMaintainStatisticPropsAd {
     public static final int MAX_NODES_TO_PROCESS_FIELD_NUMBER = 6;
     private io.dstore.values.IntegerValue maxNodesToProcess_;
     /**
-     * <code>optional .dstore.values.IntegerValue max_nodes_to_process = 6;</code>
+     * <code>.dstore.values.IntegerValue max_nodes_to_process = 6;</code>
      */
     public boolean hasMaxNodesToProcess() {
       return maxNodesToProcess_ != null;
     }
     /**
-     * <code>optional .dstore.values.IntegerValue max_nodes_to_process = 6;</code>
+     * <code>.dstore.values.IntegerValue max_nodes_to_process = 6;</code>
      */
     public io.dstore.values.IntegerValue getMaxNodesToProcess() {
       return maxNodesToProcess_ == null ? io.dstore.values.IntegerValue.getDefaultInstance() : maxNodesToProcess_;
     }
     /**
-     * <code>optional .dstore.values.IntegerValue max_nodes_to_process = 6;</code>
+     * <code>.dstore.values.IntegerValue max_nodes_to_process = 6;</code>
      */
     public io.dstore.values.IntegerValueOrBuilder getMaxNodesToProcessOrBuilder() {
       return getMaxNodesToProcess();
@@ -476,7 +476,7 @@ public final class ImMaintainStatisticPropsAd {
     public static final int MAX_NODES_TO_PROCESS_NULL_FIELD_NUMBER = 1006;
     private boolean maxNodesToProcessNull_;
     /**
-     * <code>optional bool max_nodes_to_process_null = 1006;</code>
+     * <code>bool max_nodes_to_process_null = 1006;</code>
      */
     public boolean getMaxNodesToProcessNull() {
       return maxNodesToProcessNull_;
@@ -652,7 +652,7 @@ public final class ImMaintainStatisticPropsAd {
         return memoizedHashCode;
       }
       int hash = 41;
-      hash = (19 * hash) + getDescriptorForType().hashCode();
+      hash = (19 * hash) + getDescriptor().hashCode();
       if (hasNodeCharacteristicId()) {
         hash = (37 * hash) + NODE_CHARACTERISTIC_ID_FIELD_NUMBER;
         hash = (53 * hash) + getNodeCharacteristicId().hashCode();
@@ -1026,13 +1026,13 @@ public final class ImMaintainStatisticPropsAd {
       private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> nodeCharacteristicIdBuilder_;
       /**
-       * <code>optional .dstore.values.IntegerValue node_characteristic_id = 1;</code>
+       * <code>.dstore.values.IntegerValue node_characteristic_id = 1;</code>
        */
       public boolean hasNodeCharacteristicId() {
         return nodeCharacteristicIdBuilder_ != null || nodeCharacteristicId_ != null;
       }
       /**
-       * <code>optional .dstore.values.IntegerValue node_characteristic_id = 1;</code>
+       * <code>.dstore.values.IntegerValue node_characteristic_id = 1;</code>
        */
       public io.dstore.values.IntegerValue getNodeCharacteristicId() {
         if (nodeCharacteristicIdBuilder_ == null) {
@@ -1042,7 +1042,7 @@ public final class ImMaintainStatisticPropsAd {
         }
       }
       /**
-       * <code>optional .dstore.values.IntegerValue node_characteristic_id = 1;</code>
+       * <code>.dstore.values.IntegerValue node_characteristic_id = 1;</code>
        */
       public Builder setNodeCharacteristicId(io.dstore.values.IntegerValue value) {
         if (nodeCharacteristicIdBuilder_ == null) {
@@ -1058,7 +1058,7 @@ public final class ImMaintainStatisticPropsAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.IntegerValue node_characteristic_id = 1;</code>
+       * <code>.dstore.values.IntegerValue node_characteristic_id = 1;</code>
        */
       public Builder setNodeCharacteristicId(
           io.dstore.values.IntegerValue.Builder builderForValue) {
@@ -1072,7 +1072,7 @@ public final class ImMaintainStatisticPropsAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.IntegerValue node_characteristic_id = 1;</code>
+       * <code>.dstore.values.IntegerValue node_characteristic_id = 1;</code>
        */
       public Builder mergeNodeCharacteristicId(io.dstore.values.IntegerValue value) {
         if (nodeCharacteristicIdBuilder_ == null) {
@@ -1090,7 +1090,7 @@ public final class ImMaintainStatisticPropsAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.IntegerValue node_characteristic_id = 1;</code>
+       * <code>.dstore.values.IntegerValue node_characteristic_id = 1;</code>
        */
       public Builder clearNodeCharacteristicId() {
         if (nodeCharacteristicIdBuilder_ == null) {
@@ -1104,7 +1104,7 @@ public final class ImMaintainStatisticPropsAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.IntegerValue node_characteristic_id = 1;</code>
+       * <code>.dstore.values.IntegerValue node_characteristic_id = 1;</code>
        */
       public io.dstore.values.IntegerValue.Builder getNodeCharacteristicIdBuilder() {
         
@@ -1112,7 +1112,7 @@ public final class ImMaintainStatisticPropsAd {
         return getNodeCharacteristicIdFieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .dstore.values.IntegerValue node_characteristic_id = 1;</code>
+       * <code>.dstore.values.IntegerValue node_characteristic_id = 1;</code>
        */
       public io.dstore.values.IntegerValueOrBuilder getNodeCharacteristicIdOrBuilder() {
         if (nodeCharacteristicIdBuilder_ != null) {
@@ -1123,7 +1123,7 @@ public final class ImMaintainStatisticPropsAd {
         }
       }
       /**
-       * <code>optional .dstore.values.IntegerValue node_characteristic_id = 1;</code>
+       * <code>.dstore.values.IntegerValue node_characteristic_id = 1;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> 
@@ -1141,13 +1141,13 @@ public final class ImMaintainStatisticPropsAd {
 
       private boolean nodeCharacteristicIdNull_ ;
       /**
-       * <code>optional bool node_characteristic_id_null = 1001;</code>
+       * <code>bool node_characteristic_id_null = 1001;</code>
        */
       public boolean getNodeCharacteristicIdNull() {
         return nodeCharacteristicIdNull_;
       }
       /**
-       * <code>optional bool node_characteristic_id_null = 1001;</code>
+       * <code>bool node_characteristic_id_null = 1001;</code>
        */
       public Builder setNodeCharacteristicIdNull(boolean value) {
         
@@ -1156,7 +1156,7 @@ public final class ImMaintainStatisticPropsAd {
         return this;
       }
       /**
-       * <code>optional bool node_characteristic_id_null = 1001;</code>
+       * <code>bool node_characteristic_id_null = 1001;</code>
        */
       public Builder clearNodeCharacteristicIdNull() {
         
@@ -1169,13 +1169,13 @@ public final class ImMaintainStatisticPropsAd {
       private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> levelIdBuilder_;
       /**
-       * <code>optional .dstore.values.IntegerValue level_id = 2;</code>
+       * <code>.dstore.values.IntegerValue level_id = 2;</code>
        */
       public boolean hasLevelId() {
         return levelIdBuilder_ != null || levelId_ != null;
       }
       /**
-       * <code>optional .dstore.values.IntegerValue level_id = 2;</code>
+       * <code>.dstore.values.IntegerValue level_id = 2;</code>
        */
       public io.dstore.values.IntegerValue getLevelId() {
         if (levelIdBuilder_ == null) {
@@ -1185,7 +1185,7 @@ public final class ImMaintainStatisticPropsAd {
         }
       }
       /**
-       * <code>optional .dstore.values.IntegerValue level_id = 2;</code>
+       * <code>.dstore.values.IntegerValue level_id = 2;</code>
        */
       public Builder setLevelId(io.dstore.values.IntegerValue value) {
         if (levelIdBuilder_ == null) {
@@ -1201,7 +1201,7 @@ public final class ImMaintainStatisticPropsAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.IntegerValue level_id = 2;</code>
+       * <code>.dstore.values.IntegerValue level_id = 2;</code>
        */
       public Builder setLevelId(
           io.dstore.values.IntegerValue.Builder builderForValue) {
@@ -1215,7 +1215,7 @@ public final class ImMaintainStatisticPropsAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.IntegerValue level_id = 2;</code>
+       * <code>.dstore.values.IntegerValue level_id = 2;</code>
        */
       public Builder mergeLevelId(io.dstore.values.IntegerValue value) {
         if (levelIdBuilder_ == null) {
@@ -1233,7 +1233,7 @@ public final class ImMaintainStatisticPropsAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.IntegerValue level_id = 2;</code>
+       * <code>.dstore.values.IntegerValue level_id = 2;</code>
        */
       public Builder clearLevelId() {
         if (levelIdBuilder_ == null) {
@@ -1247,7 +1247,7 @@ public final class ImMaintainStatisticPropsAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.IntegerValue level_id = 2;</code>
+       * <code>.dstore.values.IntegerValue level_id = 2;</code>
        */
       public io.dstore.values.IntegerValue.Builder getLevelIdBuilder() {
         
@@ -1255,7 +1255,7 @@ public final class ImMaintainStatisticPropsAd {
         return getLevelIdFieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .dstore.values.IntegerValue level_id = 2;</code>
+       * <code>.dstore.values.IntegerValue level_id = 2;</code>
        */
       public io.dstore.values.IntegerValueOrBuilder getLevelIdOrBuilder() {
         if (levelIdBuilder_ != null) {
@@ -1266,7 +1266,7 @@ public final class ImMaintainStatisticPropsAd {
         }
       }
       /**
-       * <code>optional .dstore.values.IntegerValue level_id = 2;</code>
+       * <code>.dstore.values.IntegerValue level_id = 2;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> 
@@ -1284,13 +1284,13 @@ public final class ImMaintainStatisticPropsAd {
 
       private boolean levelIdNull_ ;
       /**
-       * <code>optional bool level_id_null = 1002;</code>
+       * <code>bool level_id_null = 1002;</code>
        */
       public boolean getLevelIdNull() {
         return levelIdNull_;
       }
       /**
-       * <code>optional bool level_id_null = 1002;</code>
+       * <code>bool level_id_null = 1002;</code>
        */
       public Builder setLevelIdNull(boolean value) {
         
@@ -1299,7 +1299,7 @@ public final class ImMaintainStatisticPropsAd {
         return this;
       }
       /**
-       * <code>optional bool level_id_null = 1002;</code>
+       * <code>bool level_id_null = 1002;</code>
        */
       public Builder clearLevelIdNull() {
         
@@ -1312,13 +1312,13 @@ public final class ImMaintainStatisticPropsAd {
       private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> numberOfDaysBuilder_;
       /**
-       * <code>optional .dstore.values.IntegerValue number_of_days = 3;</code>
+       * <code>.dstore.values.IntegerValue number_of_days = 3;</code>
        */
       public boolean hasNumberOfDays() {
         return numberOfDaysBuilder_ != null || numberOfDays_ != null;
       }
       /**
-       * <code>optional .dstore.values.IntegerValue number_of_days = 3;</code>
+       * <code>.dstore.values.IntegerValue number_of_days = 3;</code>
        */
       public io.dstore.values.IntegerValue getNumberOfDays() {
         if (numberOfDaysBuilder_ == null) {
@@ -1328,7 +1328,7 @@ public final class ImMaintainStatisticPropsAd {
         }
       }
       /**
-       * <code>optional .dstore.values.IntegerValue number_of_days = 3;</code>
+       * <code>.dstore.values.IntegerValue number_of_days = 3;</code>
        */
       public Builder setNumberOfDays(io.dstore.values.IntegerValue value) {
         if (numberOfDaysBuilder_ == null) {
@@ -1344,7 +1344,7 @@ public final class ImMaintainStatisticPropsAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.IntegerValue number_of_days = 3;</code>
+       * <code>.dstore.values.IntegerValue number_of_days = 3;</code>
        */
       public Builder setNumberOfDays(
           io.dstore.values.IntegerValue.Builder builderForValue) {
@@ -1358,7 +1358,7 @@ public final class ImMaintainStatisticPropsAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.IntegerValue number_of_days = 3;</code>
+       * <code>.dstore.values.IntegerValue number_of_days = 3;</code>
        */
       public Builder mergeNumberOfDays(io.dstore.values.IntegerValue value) {
         if (numberOfDaysBuilder_ == null) {
@@ -1376,7 +1376,7 @@ public final class ImMaintainStatisticPropsAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.IntegerValue number_of_days = 3;</code>
+       * <code>.dstore.values.IntegerValue number_of_days = 3;</code>
        */
       public Builder clearNumberOfDays() {
         if (numberOfDaysBuilder_ == null) {
@@ -1390,7 +1390,7 @@ public final class ImMaintainStatisticPropsAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.IntegerValue number_of_days = 3;</code>
+       * <code>.dstore.values.IntegerValue number_of_days = 3;</code>
        */
       public io.dstore.values.IntegerValue.Builder getNumberOfDaysBuilder() {
         
@@ -1398,7 +1398,7 @@ public final class ImMaintainStatisticPropsAd {
         return getNumberOfDaysFieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .dstore.values.IntegerValue number_of_days = 3;</code>
+       * <code>.dstore.values.IntegerValue number_of_days = 3;</code>
        */
       public io.dstore.values.IntegerValueOrBuilder getNumberOfDaysOrBuilder() {
         if (numberOfDaysBuilder_ != null) {
@@ -1409,7 +1409,7 @@ public final class ImMaintainStatisticPropsAd {
         }
       }
       /**
-       * <code>optional .dstore.values.IntegerValue number_of_days = 3;</code>
+       * <code>.dstore.values.IntegerValue number_of_days = 3;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> 
@@ -1427,13 +1427,13 @@ public final class ImMaintainStatisticPropsAd {
 
       private boolean numberOfDaysNull_ ;
       /**
-       * <code>optional bool number_of_days_null = 1003;</code>
+       * <code>bool number_of_days_null = 1003;</code>
        */
       public boolean getNumberOfDaysNull() {
         return numberOfDaysNull_;
       }
       /**
-       * <code>optional bool number_of_days_null = 1003;</code>
+       * <code>bool number_of_days_null = 1003;</code>
        */
       public Builder setNumberOfDaysNull(boolean value) {
         
@@ -1442,7 +1442,7 @@ public final class ImMaintainStatisticPropsAd {
         return this;
       }
       /**
-       * <code>optional bool number_of_days_null = 1003;</code>
+       * <code>bool number_of_days_null = 1003;</code>
        */
       public Builder clearNumberOfDaysNull() {
         
@@ -1455,13 +1455,13 @@ public final class ImMaintainStatisticPropsAd {
       private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> domainTreeNodeIdBuilder_;
       /**
-       * <code>optional .dstore.values.IntegerValue domain_tree_node_id = 4;</code>
+       * <code>.dstore.values.IntegerValue domain_tree_node_id = 4;</code>
        */
       public boolean hasDomainTreeNodeId() {
         return domainTreeNodeIdBuilder_ != null || domainTreeNodeId_ != null;
       }
       /**
-       * <code>optional .dstore.values.IntegerValue domain_tree_node_id = 4;</code>
+       * <code>.dstore.values.IntegerValue domain_tree_node_id = 4;</code>
        */
       public io.dstore.values.IntegerValue getDomainTreeNodeId() {
         if (domainTreeNodeIdBuilder_ == null) {
@@ -1471,7 +1471,7 @@ public final class ImMaintainStatisticPropsAd {
         }
       }
       /**
-       * <code>optional .dstore.values.IntegerValue domain_tree_node_id = 4;</code>
+       * <code>.dstore.values.IntegerValue domain_tree_node_id = 4;</code>
        */
       public Builder setDomainTreeNodeId(io.dstore.values.IntegerValue value) {
         if (domainTreeNodeIdBuilder_ == null) {
@@ -1487,7 +1487,7 @@ public final class ImMaintainStatisticPropsAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.IntegerValue domain_tree_node_id = 4;</code>
+       * <code>.dstore.values.IntegerValue domain_tree_node_id = 4;</code>
        */
       public Builder setDomainTreeNodeId(
           io.dstore.values.IntegerValue.Builder builderForValue) {
@@ -1501,7 +1501,7 @@ public final class ImMaintainStatisticPropsAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.IntegerValue domain_tree_node_id = 4;</code>
+       * <code>.dstore.values.IntegerValue domain_tree_node_id = 4;</code>
        */
       public Builder mergeDomainTreeNodeId(io.dstore.values.IntegerValue value) {
         if (domainTreeNodeIdBuilder_ == null) {
@@ -1519,7 +1519,7 @@ public final class ImMaintainStatisticPropsAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.IntegerValue domain_tree_node_id = 4;</code>
+       * <code>.dstore.values.IntegerValue domain_tree_node_id = 4;</code>
        */
       public Builder clearDomainTreeNodeId() {
         if (domainTreeNodeIdBuilder_ == null) {
@@ -1533,7 +1533,7 @@ public final class ImMaintainStatisticPropsAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.IntegerValue domain_tree_node_id = 4;</code>
+       * <code>.dstore.values.IntegerValue domain_tree_node_id = 4;</code>
        */
       public io.dstore.values.IntegerValue.Builder getDomainTreeNodeIdBuilder() {
         
@@ -1541,7 +1541,7 @@ public final class ImMaintainStatisticPropsAd {
         return getDomainTreeNodeIdFieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .dstore.values.IntegerValue domain_tree_node_id = 4;</code>
+       * <code>.dstore.values.IntegerValue domain_tree_node_id = 4;</code>
        */
       public io.dstore.values.IntegerValueOrBuilder getDomainTreeNodeIdOrBuilder() {
         if (domainTreeNodeIdBuilder_ != null) {
@@ -1552,7 +1552,7 @@ public final class ImMaintainStatisticPropsAd {
         }
       }
       /**
-       * <code>optional .dstore.values.IntegerValue domain_tree_node_id = 4;</code>
+       * <code>.dstore.values.IntegerValue domain_tree_node_id = 4;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> 
@@ -1570,13 +1570,13 @@ public final class ImMaintainStatisticPropsAd {
 
       private boolean domainTreeNodeIdNull_ ;
       /**
-       * <code>optional bool domain_tree_node_id_null = 1004;</code>
+       * <code>bool domain_tree_node_id_null = 1004;</code>
        */
       public boolean getDomainTreeNodeIdNull() {
         return domainTreeNodeIdNull_;
       }
       /**
-       * <code>optional bool domain_tree_node_id_null = 1004;</code>
+       * <code>bool domain_tree_node_id_null = 1004;</code>
        */
       public Builder setDomainTreeNodeIdNull(boolean value) {
         
@@ -1585,7 +1585,7 @@ public final class ImMaintainStatisticPropsAd {
         return this;
       }
       /**
-       * <code>optional bool domain_tree_node_id_null = 1004;</code>
+       * <code>bool domain_tree_node_id_null = 1004;</code>
        */
       public Builder clearDomainTreeNodeIdNull() {
         
@@ -1598,13 +1598,13 @@ public final class ImMaintainStatisticPropsAd {
       private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> basicCharacteristicNoBuilder_;
       /**
-       * <code>optional .dstore.values.IntegerValue basic_characteristic_no = 5;</code>
+       * <code>.dstore.values.IntegerValue basic_characteristic_no = 5;</code>
        */
       public boolean hasBasicCharacteristicNo() {
         return basicCharacteristicNoBuilder_ != null || basicCharacteristicNo_ != null;
       }
       /**
-       * <code>optional .dstore.values.IntegerValue basic_characteristic_no = 5;</code>
+       * <code>.dstore.values.IntegerValue basic_characteristic_no = 5;</code>
        */
       public io.dstore.values.IntegerValue getBasicCharacteristicNo() {
         if (basicCharacteristicNoBuilder_ == null) {
@@ -1614,7 +1614,7 @@ public final class ImMaintainStatisticPropsAd {
         }
       }
       /**
-       * <code>optional .dstore.values.IntegerValue basic_characteristic_no = 5;</code>
+       * <code>.dstore.values.IntegerValue basic_characteristic_no = 5;</code>
        */
       public Builder setBasicCharacteristicNo(io.dstore.values.IntegerValue value) {
         if (basicCharacteristicNoBuilder_ == null) {
@@ -1630,7 +1630,7 @@ public final class ImMaintainStatisticPropsAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.IntegerValue basic_characteristic_no = 5;</code>
+       * <code>.dstore.values.IntegerValue basic_characteristic_no = 5;</code>
        */
       public Builder setBasicCharacteristicNo(
           io.dstore.values.IntegerValue.Builder builderForValue) {
@@ -1644,7 +1644,7 @@ public final class ImMaintainStatisticPropsAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.IntegerValue basic_characteristic_no = 5;</code>
+       * <code>.dstore.values.IntegerValue basic_characteristic_no = 5;</code>
        */
       public Builder mergeBasicCharacteristicNo(io.dstore.values.IntegerValue value) {
         if (basicCharacteristicNoBuilder_ == null) {
@@ -1662,7 +1662,7 @@ public final class ImMaintainStatisticPropsAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.IntegerValue basic_characteristic_no = 5;</code>
+       * <code>.dstore.values.IntegerValue basic_characteristic_no = 5;</code>
        */
       public Builder clearBasicCharacteristicNo() {
         if (basicCharacteristicNoBuilder_ == null) {
@@ -1676,7 +1676,7 @@ public final class ImMaintainStatisticPropsAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.IntegerValue basic_characteristic_no = 5;</code>
+       * <code>.dstore.values.IntegerValue basic_characteristic_no = 5;</code>
        */
       public io.dstore.values.IntegerValue.Builder getBasicCharacteristicNoBuilder() {
         
@@ -1684,7 +1684,7 @@ public final class ImMaintainStatisticPropsAd {
         return getBasicCharacteristicNoFieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .dstore.values.IntegerValue basic_characteristic_no = 5;</code>
+       * <code>.dstore.values.IntegerValue basic_characteristic_no = 5;</code>
        */
       public io.dstore.values.IntegerValueOrBuilder getBasicCharacteristicNoOrBuilder() {
         if (basicCharacteristicNoBuilder_ != null) {
@@ -1695,7 +1695,7 @@ public final class ImMaintainStatisticPropsAd {
         }
       }
       /**
-       * <code>optional .dstore.values.IntegerValue basic_characteristic_no = 5;</code>
+       * <code>.dstore.values.IntegerValue basic_characteristic_no = 5;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> 
@@ -1713,13 +1713,13 @@ public final class ImMaintainStatisticPropsAd {
 
       private boolean basicCharacteristicNoNull_ ;
       /**
-       * <code>optional bool basic_characteristic_no_null = 1005;</code>
+       * <code>bool basic_characteristic_no_null = 1005;</code>
        */
       public boolean getBasicCharacteristicNoNull() {
         return basicCharacteristicNoNull_;
       }
       /**
-       * <code>optional bool basic_characteristic_no_null = 1005;</code>
+       * <code>bool basic_characteristic_no_null = 1005;</code>
        */
       public Builder setBasicCharacteristicNoNull(boolean value) {
         
@@ -1728,7 +1728,7 @@ public final class ImMaintainStatisticPropsAd {
         return this;
       }
       /**
-       * <code>optional bool basic_characteristic_no_null = 1005;</code>
+       * <code>bool basic_characteristic_no_null = 1005;</code>
        */
       public Builder clearBasicCharacteristicNoNull() {
         
@@ -1741,13 +1741,13 @@ public final class ImMaintainStatisticPropsAd {
       private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> maxNodesToProcessBuilder_;
       /**
-       * <code>optional .dstore.values.IntegerValue max_nodes_to_process = 6;</code>
+       * <code>.dstore.values.IntegerValue max_nodes_to_process = 6;</code>
        */
       public boolean hasMaxNodesToProcess() {
         return maxNodesToProcessBuilder_ != null || maxNodesToProcess_ != null;
       }
       /**
-       * <code>optional .dstore.values.IntegerValue max_nodes_to_process = 6;</code>
+       * <code>.dstore.values.IntegerValue max_nodes_to_process = 6;</code>
        */
       public io.dstore.values.IntegerValue getMaxNodesToProcess() {
         if (maxNodesToProcessBuilder_ == null) {
@@ -1757,7 +1757,7 @@ public final class ImMaintainStatisticPropsAd {
         }
       }
       /**
-       * <code>optional .dstore.values.IntegerValue max_nodes_to_process = 6;</code>
+       * <code>.dstore.values.IntegerValue max_nodes_to_process = 6;</code>
        */
       public Builder setMaxNodesToProcess(io.dstore.values.IntegerValue value) {
         if (maxNodesToProcessBuilder_ == null) {
@@ -1773,7 +1773,7 @@ public final class ImMaintainStatisticPropsAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.IntegerValue max_nodes_to_process = 6;</code>
+       * <code>.dstore.values.IntegerValue max_nodes_to_process = 6;</code>
        */
       public Builder setMaxNodesToProcess(
           io.dstore.values.IntegerValue.Builder builderForValue) {
@@ -1787,7 +1787,7 @@ public final class ImMaintainStatisticPropsAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.IntegerValue max_nodes_to_process = 6;</code>
+       * <code>.dstore.values.IntegerValue max_nodes_to_process = 6;</code>
        */
       public Builder mergeMaxNodesToProcess(io.dstore.values.IntegerValue value) {
         if (maxNodesToProcessBuilder_ == null) {
@@ -1805,7 +1805,7 @@ public final class ImMaintainStatisticPropsAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.IntegerValue max_nodes_to_process = 6;</code>
+       * <code>.dstore.values.IntegerValue max_nodes_to_process = 6;</code>
        */
       public Builder clearMaxNodesToProcess() {
         if (maxNodesToProcessBuilder_ == null) {
@@ -1819,7 +1819,7 @@ public final class ImMaintainStatisticPropsAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.IntegerValue max_nodes_to_process = 6;</code>
+       * <code>.dstore.values.IntegerValue max_nodes_to_process = 6;</code>
        */
       public io.dstore.values.IntegerValue.Builder getMaxNodesToProcessBuilder() {
         
@@ -1827,7 +1827,7 @@ public final class ImMaintainStatisticPropsAd {
         return getMaxNodesToProcessFieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .dstore.values.IntegerValue max_nodes_to_process = 6;</code>
+       * <code>.dstore.values.IntegerValue max_nodes_to_process = 6;</code>
        */
       public io.dstore.values.IntegerValueOrBuilder getMaxNodesToProcessOrBuilder() {
         if (maxNodesToProcessBuilder_ != null) {
@@ -1838,7 +1838,7 @@ public final class ImMaintainStatisticPropsAd {
         }
       }
       /**
-       * <code>optional .dstore.values.IntegerValue max_nodes_to_process = 6;</code>
+       * <code>.dstore.values.IntegerValue max_nodes_to_process = 6;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> 
@@ -1856,13 +1856,13 @@ public final class ImMaintainStatisticPropsAd {
 
       private boolean maxNodesToProcessNull_ ;
       /**
-       * <code>optional bool max_nodes_to_process_null = 1006;</code>
+       * <code>bool max_nodes_to_process_null = 1006;</code>
        */
       public boolean getMaxNodesToProcessNull() {
         return maxNodesToProcessNull_;
       }
       /**
-       * <code>optional bool max_nodes_to_process_null = 1006;</code>
+       * <code>bool max_nodes_to_process_null = 1006;</code>
        */
       public Builder setMaxNodesToProcessNull(boolean value) {
         
@@ -1871,7 +1871,7 @@ public final class ImMaintainStatisticPropsAd {
         return this;
       }
       /**
-       * <code>optional bool max_nodes_to_process_null = 1006;</code>
+       * <code>bool max_nodes_to_process_null = 1006;</code>
        */
       public Builder clearMaxNodesToProcessNull() {
         
@@ -2130,7 +2130,7 @@ public final class ImMaintainStatisticPropsAd {
         com.google.protobuf.MessageOrBuilder {
 
       /**
-       * <code>optional int32 row_id = 10000;</code>
+       * <code>int32 row_id = 10000;</code>
        */
       int getRowId();
     }
@@ -2205,7 +2205,7 @@ public final class ImMaintainStatisticPropsAd {
       public static final int ROW_ID_FIELD_NUMBER = 10000;
       private int rowId_;
       /**
-       * <code>optional int32 row_id = 10000;</code>
+       * <code>int32 row_id = 10000;</code>
        */
       public int getRowId() {
         return rowId_;
@@ -2264,7 +2264,7 @@ public final class ImMaintainStatisticPropsAd {
           return memoizedHashCode;
         }
         int hash = 41;
-        hash = (19 * hash) + getDescriptorForType().hashCode();
+        hash = (19 * hash) + getDescriptor().hashCode();
         hash = (37 * hash) + ROW_ID_FIELD_NUMBER;
         hash = (53 * hash) + getRowId();
         hash = (29 * hash) + unknownFields.hashCode();
@@ -2482,13 +2482,13 @@ public final class ImMaintainStatisticPropsAd {
 
         private int rowId_ ;
         /**
-         * <code>optional int32 row_id = 10000;</code>
+         * <code>int32 row_id = 10000;</code>
          */
         public int getRowId() {
           return rowId_;
         }
         /**
-         * <code>optional int32 row_id = 10000;</code>
+         * <code>int32 row_id = 10000;</code>
          */
         public Builder setRowId(int value) {
           
@@ -2497,7 +2497,7 @@ public final class ImMaintainStatisticPropsAd {
           return this;
         }
         /**
-         * <code>optional int32 row_id = 10000;</code>
+         * <code>int32 row_id = 10000;</code>
          */
         public Builder clearRowId() {
           
@@ -2750,7 +2750,7 @@ public final class ImMaintainStatisticPropsAd {
         return memoizedHashCode;
       }
       int hash = 41;
-      hash = (19 * hash) + getDescriptorForType().hashCode();
+      hash = (19 * hash) + getDescriptor().hashCode();
       if (getMetaInformationCount() > 0) {
         hash = (37 * hash) + META_INFORMATION_FIELD_NUMBER;
         hash = (53 * hash) + getMetaInformationList().hashCode();

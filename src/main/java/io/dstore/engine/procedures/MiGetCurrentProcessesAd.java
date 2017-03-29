@@ -19,20 +19,20 @@ public final class MiGetCurrentProcessesAd {
       com.google.protobuf.MessageOrBuilder {
 
     /**
-     * <code>optional .dstore.values.IntegerValue server_process_id = 1;</code>
+     * <code>.dstore.values.IntegerValue server_process_id = 1;</code>
      */
     boolean hasServerProcessId();
     /**
-     * <code>optional .dstore.values.IntegerValue server_process_id = 1;</code>
+     * <code>.dstore.values.IntegerValue server_process_id = 1;</code>
      */
     io.dstore.values.IntegerValue getServerProcessId();
     /**
-     * <code>optional .dstore.values.IntegerValue server_process_id = 1;</code>
+     * <code>.dstore.values.IntegerValue server_process_id = 1;</code>
      */
     io.dstore.values.IntegerValueOrBuilder getServerProcessIdOrBuilder();
 
     /**
-     * <code>optional bool server_process_id_null = 1001;</code>
+     * <code>bool server_process_id_null = 1001;</code>
      */
     boolean getServerProcessIdNull();
   }
@@ -120,19 +120,19 @@ public final class MiGetCurrentProcessesAd {
     public static final int SERVER_PROCESS_ID_FIELD_NUMBER = 1;
     private io.dstore.values.IntegerValue serverProcessId_;
     /**
-     * <code>optional .dstore.values.IntegerValue server_process_id = 1;</code>
+     * <code>.dstore.values.IntegerValue server_process_id = 1;</code>
      */
     public boolean hasServerProcessId() {
       return serverProcessId_ != null;
     }
     /**
-     * <code>optional .dstore.values.IntegerValue server_process_id = 1;</code>
+     * <code>.dstore.values.IntegerValue server_process_id = 1;</code>
      */
     public io.dstore.values.IntegerValue getServerProcessId() {
       return serverProcessId_ == null ? io.dstore.values.IntegerValue.getDefaultInstance() : serverProcessId_;
     }
     /**
-     * <code>optional .dstore.values.IntegerValue server_process_id = 1;</code>
+     * <code>.dstore.values.IntegerValue server_process_id = 1;</code>
      */
     public io.dstore.values.IntegerValueOrBuilder getServerProcessIdOrBuilder() {
       return getServerProcessId();
@@ -141,7 +141,7 @@ public final class MiGetCurrentProcessesAd {
     public static final int SERVER_PROCESS_ID_NULL_FIELD_NUMBER = 1001;
     private boolean serverProcessIdNull_;
     /**
-     * <code>optional bool server_process_id_null = 1001;</code>
+     * <code>bool server_process_id_null = 1001;</code>
      */
     public boolean getServerProcessIdNull() {
       return serverProcessIdNull_;
@@ -212,7 +212,7 @@ public final class MiGetCurrentProcessesAd {
         return memoizedHashCode;
       }
       int hash = 41;
-      hash = (19 * hash) + getDescriptorForType().hashCode();
+      hash = (19 * hash) + getDescriptor().hashCode();
       if (hasServerProcessId()) {
         hash = (37 * hash) + SERVER_PROCESS_ID_FIELD_NUMBER;
         hash = (53 * hash) + getServerProcessId().hashCode();
@@ -451,13 +451,13 @@ public final class MiGetCurrentProcessesAd {
       private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> serverProcessIdBuilder_;
       /**
-       * <code>optional .dstore.values.IntegerValue server_process_id = 1;</code>
+       * <code>.dstore.values.IntegerValue server_process_id = 1;</code>
        */
       public boolean hasServerProcessId() {
         return serverProcessIdBuilder_ != null || serverProcessId_ != null;
       }
       /**
-       * <code>optional .dstore.values.IntegerValue server_process_id = 1;</code>
+       * <code>.dstore.values.IntegerValue server_process_id = 1;</code>
        */
       public io.dstore.values.IntegerValue getServerProcessId() {
         if (serverProcessIdBuilder_ == null) {
@@ -467,7 +467,7 @@ public final class MiGetCurrentProcessesAd {
         }
       }
       /**
-       * <code>optional .dstore.values.IntegerValue server_process_id = 1;</code>
+       * <code>.dstore.values.IntegerValue server_process_id = 1;</code>
        */
       public Builder setServerProcessId(io.dstore.values.IntegerValue value) {
         if (serverProcessIdBuilder_ == null) {
@@ -483,7 +483,7 @@ public final class MiGetCurrentProcessesAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.IntegerValue server_process_id = 1;</code>
+       * <code>.dstore.values.IntegerValue server_process_id = 1;</code>
        */
       public Builder setServerProcessId(
           io.dstore.values.IntegerValue.Builder builderForValue) {
@@ -497,7 +497,7 @@ public final class MiGetCurrentProcessesAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.IntegerValue server_process_id = 1;</code>
+       * <code>.dstore.values.IntegerValue server_process_id = 1;</code>
        */
       public Builder mergeServerProcessId(io.dstore.values.IntegerValue value) {
         if (serverProcessIdBuilder_ == null) {
@@ -515,7 +515,7 @@ public final class MiGetCurrentProcessesAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.IntegerValue server_process_id = 1;</code>
+       * <code>.dstore.values.IntegerValue server_process_id = 1;</code>
        */
       public Builder clearServerProcessId() {
         if (serverProcessIdBuilder_ == null) {
@@ -529,7 +529,7 @@ public final class MiGetCurrentProcessesAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.IntegerValue server_process_id = 1;</code>
+       * <code>.dstore.values.IntegerValue server_process_id = 1;</code>
        */
       public io.dstore.values.IntegerValue.Builder getServerProcessIdBuilder() {
         
@@ -537,7 +537,7 @@ public final class MiGetCurrentProcessesAd {
         return getServerProcessIdFieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .dstore.values.IntegerValue server_process_id = 1;</code>
+       * <code>.dstore.values.IntegerValue server_process_id = 1;</code>
        */
       public io.dstore.values.IntegerValueOrBuilder getServerProcessIdOrBuilder() {
         if (serverProcessIdBuilder_ != null) {
@@ -548,7 +548,7 @@ public final class MiGetCurrentProcessesAd {
         }
       }
       /**
-       * <code>optional .dstore.values.IntegerValue server_process_id = 1;</code>
+       * <code>.dstore.values.IntegerValue server_process_id = 1;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> 
@@ -566,13 +566,13 @@ public final class MiGetCurrentProcessesAd {
 
       private boolean serverProcessIdNull_ ;
       /**
-       * <code>optional bool server_process_id_null = 1001;</code>
+       * <code>bool server_process_id_null = 1001;</code>
        */
       public boolean getServerProcessIdNull() {
         return serverProcessIdNull_;
       }
       /**
-       * <code>optional bool server_process_id_null = 1001;</code>
+       * <code>bool server_process_id_null = 1001;</code>
        */
       public Builder setServerProcessIdNull(boolean value) {
         
@@ -581,7 +581,7 @@ public final class MiGetCurrentProcessesAd {
         return this;
       }
       /**
-       * <code>optional bool server_process_id_null = 1001;</code>
+       * <code>bool server_process_id_null = 1001;</code>
        */
       public Builder clearServerProcessIdNull() {
         
@@ -840,7 +840,7 @@ public final class MiGetCurrentProcessesAd {
         com.google.protobuf.MessageOrBuilder {
 
       /**
-       * <code>optional int32 row_id = 10000;</code>
+       * <code>int32 row_id = 10000;</code>
        */
       int getRowId();
 
@@ -849,7 +849,7 @@ public final class MiGetCurrentProcessesAd {
        * Unter welchem "login" wurde der Prozeß eröffnet
        * </pre>
        *
-       * <code>optional .dstore.values.StringValue login_name = 10001;</code>
+       * <code>.dstore.values.StringValue login_name = 10001;</code>
        */
       boolean hasLoginName();
       /**
@@ -857,7 +857,7 @@ public final class MiGetCurrentProcessesAd {
        * Unter welchem "login" wurde der Prozeß eröffnet
        * </pre>
        *
-       * <code>optional .dstore.values.StringValue login_name = 10001;</code>
+       * <code>.dstore.values.StringValue login_name = 10001;</code>
        */
       io.dstore.values.StringValue getLoginName();
       /**
@@ -865,7 +865,7 @@ public final class MiGetCurrentProcessesAd {
        * Unter welchem "login" wurde der Prozeß eröffnet
        * </pre>
        *
-       * <code>optional .dstore.values.StringValue login_name = 10001;</code>
+       * <code>.dstore.values.StringValue login_name = 10001;</code>
        */
       io.dstore.values.StringValueOrBuilder getLoginNameOrBuilder();
 
@@ -874,7 +874,7 @@ public final class MiGetCurrentProcessesAd {
        * Unter welcher Prozess-Kennung (in der Regel eine ID) der entsprechende Client-Prozess (auf "HostName") läuft
        * </pre>
        *
-       * <code>optional .dstore.values.StringValue host_process = 10002;</code>
+       * <code>.dstore.values.StringValue host_process = 10002;</code>
        */
       boolean hasHostProcess();
       /**
@@ -882,7 +882,7 @@ public final class MiGetCurrentProcessesAd {
        * Unter welcher Prozess-Kennung (in der Regel eine ID) der entsprechende Client-Prozess (auf "HostName") läuft
        * </pre>
        *
-       * <code>optional .dstore.values.StringValue host_process = 10002;</code>
+       * <code>.dstore.values.StringValue host_process = 10002;</code>
        */
       io.dstore.values.StringValue getHostProcess();
       /**
@@ -890,7 +890,7 @@ public final class MiGetCurrentProcessesAd {
        * Unter welcher Prozess-Kennung (in der Regel eine ID) der entsprechende Client-Prozess (auf "HostName") läuft
        * </pre>
        *
-       * <code>optional .dstore.values.StringValue host_process = 10002;</code>
+       * <code>.dstore.values.StringValue host_process = 10002;</code>
        */
       io.dstore.values.StringValueOrBuilder getHostProcessOrBuilder();
 
@@ -899,7 +899,7 @@ public final class MiGetCurrentProcessesAd {
        * Was macht der Prozeß gerade ("running", "lock sleep", etc.)
        * </pre>
        *
-       * <code>optional .dstore.values.StringValue process_status = 10003;</code>
+       * <code>.dstore.values.StringValue process_status = 10003;</code>
        */
       boolean hasProcessStatus();
       /**
@@ -907,7 +907,7 @@ public final class MiGetCurrentProcessesAd {
        * Was macht der Prozeß gerade ("running", "lock sleep", etc.)
        * </pre>
        *
-       * <code>optional .dstore.values.StringValue process_status = 10003;</code>
+       * <code>.dstore.values.StringValue process_status = 10003;</code>
        */
       io.dstore.values.StringValue getProcessStatus();
       /**
@@ -915,7 +915,7 @@ public final class MiGetCurrentProcessesAd {
        * Was macht der Prozeß gerade ("running", "lock sleep", etc.)
        * </pre>
        *
-       * <code>optional .dstore.values.StringValue process_status = 10003;</code>
+       * <code>.dstore.values.StringValue process_status = 10003;</code>
        */
       io.dstore.values.StringValueOrBuilder getProcessStatusOrBuilder();
 
@@ -924,7 +924,7 @@ public final class MiGetCurrentProcessesAd {
        * Was für eine Art von Kommando wird gerade ausgeführt
        * </pre>
        *
-       * <code>optional .dstore.values.StringValue command = 10004;</code>
+       * <code>.dstore.values.StringValue command = 10004;</code>
        */
       boolean hasCommand();
       /**
@@ -932,7 +932,7 @@ public final class MiGetCurrentProcessesAd {
        * Was für eine Art von Kommando wird gerade ausgeführt
        * </pre>
        *
-       * <code>optional .dstore.values.StringValue command = 10004;</code>
+       * <code>.dstore.values.StringValue command = 10004;</code>
        */
       io.dstore.values.StringValue getCommand();
       /**
@@ -940,7 +940,7 @@ public final class MiGetCurrentProcessesAd {
        * Was für eine Art von Kommando wird gerade ausgeführt
        * </pre>
        *
-       * <code>optional .dstore.values.StringValue command = 10004;</code>
+       * <code>.dstore.values.StringValue command = 10004;</code>
        */
       io.dstore.values.StringValueOrBuilder getCommandOrBuilder();
 
@@ -949,7 +949,7 @@ public final class MiGetCurrentProcessesAd {
        * ID eines anderen Prozesses, durch den dieser Prozeß ge"blocked" wird. Ein Wert von "0" bedeutet, daß der Prozess NICHT blockiert wird.
        * </pre>
        *
-       * <code>optional .dstore.values.IntegerValue blocking_process_id = 10005;</code>
+       * <code>.dstore.values.IntegerValue blocking_process_id = 10005;</code>
        */
       boolean hasBlockingProcessId();
       /**
@@ -957,7 +957,7 @@ public final class MiGetCurrentProcessesAd {
        * ID eines anderen Prozesses, durch den dieser Prozeß ge"blocked" wird. Ein Wert von "0" bedeutet, daß der Prozess NICHT blockiert wird.
        * </pre>
        *
-       * <code>optional .dstore.values.IntegerValue blocking_process_id = 10005;</code>
+       * <code>.dstore.values.IntegerValue blocking_process_id = 10005;</code>
        */
       io.dstore.values.IntegerValue getBlockingProcessId();
       /**
@@ -965,7 +965,7 @@ public final class MiGetCurrentProcessesAd {
        * ID eines anderen Prozesses, durch den dieser Prozeß ge"blocked" wird. Ein Wert von "0" bedeutet, daß der Prozess NICHT blockiert wird.
        * </pre>
        *
-       * <code>optional .dstore.values.IntegerValue blocking_process_id = 10005;</code>
+       * <code>.dstore.values.IntegerValue blocking_process_id = 10005;</code>
        */
       io.dstore.values.IntegerValueOrBuilder getBlockingProcessIdOrBuilder();
 
@@ -974,7 +974,7 @@ public final class MiGetCurrentProcessesAd {
        * Die Server-Prozeß-ID
        * </pre>
        *
-       * <code>optional .dstore.values.IntegerValue server_process_id = 10006;</code>
+       * <code>.dstore.values.IntegerValue server_process_id = 10006;</code>
        */
       boolean hasServerProcessId();
       /**
@@ -982,7 +982,7 @@ public final class MiGetCurrentProcessesAd {
        * Die Server-Prozeß-ID
        * </pre>
        *
-       * <code>optional .dstore.values.IntegerValue server_process_id = 10006;</code>
+       * <code>.dstore.values.IntegerValue server_process_id = 10006;</code>
        */
       io.dstore.values.IntegerValue getServerProcessId();
       /**
@@ -990,7 +990,7 @@ public final class MiGetCurrentProcessesAd {
        * Die Server-Prozeß-ID
        * </pre>
        *
-       * <code>optional .dstore.values.IntegerValue server_process_id = 10006;</code>
+       * <code>.dstore.values.IntegerValue server_process_id = 10006;</code>
        */
       io.dstore.values.IntegerValueOrBuilder getServerProcessIdOrBuilder();
 
@@ -999,7 +999,7 @@ public final class MiGetCurrentProcessesAd {
        * Der Name der Datenbank, in der sich der Prozeß gerade befindet
        * </pre>
        *
-       * <code>optional .dstore.values.StringValue d_b_name = 10007;</code>
+       * <code>.dstore.values.StringValue d_b_name = 10007;</code>
        */
       boolean hasDBName();
       /**
@@ -1007,7 +1007,7 @@ public final class MiGetCurrentProcessesAd {
        * Der Name der Datenbank, in der sich der Prozeß gerade befindet
        * </pre>
        *
-       * <code>optional .dstore.values.StringValue d_b_name = 10007;</code>
+       * <code>.dstore.values.StringValue d_b_name = 10007;</code>
        */
       io.dstore.values.StringValue getDBName();
       /**
@@ -1015,7 +1015,7 @@ public final class MiGetCurrentProcessesAd {
        * Der Name der Datenbank, in der sich der Prozeß gerade befindet
        * </pre>
        *
-       * <code>optional .dstore.values.StringValue d_b_name = 10007;</code>
+       * <code>.dstore.values.StringValue d_b_name = 10007;</code>
        */
       io.dstore.values.StringValueOrBuilder getDBNameOrBuilder();
 
@@ -1024,7 +1024,7 @@ public final class MiGetCurrentProcessesAd {
        * Name des Programms auf dem Client, der den Prozeß gestartet hat (setzt voraus, daß der Client dies beim Verbindungsaufbau übermittelt hat !)
        * </pre>
        *
-       * <code>optional .dstore.values.StringValue program_name = 10008;</code>
+       * <code>.dstore.values.StringValue program_name = 10008;</code>
        */
       boolean hasProgramName();
       /**
@@ -1032,7 +1032,7 @@ public final class MiGetCurrentProcessesAd {
        * Name des Programms auf dem Client, der den Prozeß gestartet hat (setzt voraus, daß der Client dies beim Verbindungsaufbau übermittelt hat !)
        * </pre>
        *
-       * <code>optional .dstore.values.StringValue program_name = 10008;</code>
+       * <code>.dstore.values.StringValue program_name = 10008;</code>
        */
       io.dstore.values.StringValue getProgramName();
       /**
@@ -1040,7 +1040,7 @@ public final class MiGetCurrentProcessesAd {
        * Name des Programms auf dem Client, der den Prozeß gestartet hat (setzt voraus, daß der Client dies beim Verbindungsaufbau übermittelt hat !)
        * </pre>
        *
-       * <code>optional .dstore.values.StringValue program_name = 10008;</code>
+       * <code>.dstore.values.StringValue program_name = 10008;</code>
        */
       io.dstore.values.StringValueOrBuilder getProgramNameOrBuilder();
 
@@ -1049,7 +1049,7 @@ public final class MiGetCurrentProcessesAd {
        * Name des Client-Rechners, der den Prozeß gestartet hat
        * </pre>
        *
-       * <code>optional .dstore.values.StringValue host_name = 10009;</code>
+       * <code>.dstore.values.StringValue host_name = 10009;</code>
        */
       boolean hasHostName();
       /**
@@ -1057,7 +1057,7 @@ public final class MiGetCurrentProcessesAd {
        * Name des Client-Rechners, der den Prozeß gestartet hat
        * </pre>
        *
-       * <code>optional .dstore.values.StringValue host_name = 10009;</code>
+       * <code>.dstore.values.StringValue host_name = 10009;</code>
        */
       io.dstore.values.StringValue getHostName();
       /**
@@ -1065,7 +1065,7 @@ public final class MiGetCurrentProcessesAd {
        * Name des Client-Rechners, der den Prozeß gestartet hat
        * </pre>
        *
-       * <code>optional .dstore.values.StringValue host_name = 10009;</code>
+       * <code>.dstore.values.StringValue host_name = 10009;</code>
        */
       io.dstore.values.StringValueOrBuilder getHostNameOrBuilder();
     }
@@ -1257,7 +1257,7 @@ public final class MiGetCurrentProcessesAd {
       public static final int ROW_ID_FIELD_NUMBER = 10000;
       private int rowId_;
       /**
-       * <code>optional int32 row_id = 10000;</code>
+       * <code>int32 row_id = 10000;</code>
        */
       public int getRowId() {
         return rowId_;
@@ -1270,7 +1270,7 @@ public final class MiGetCurrentProcessesAd {
        * Unter welchem "login" wurde der Prozeß eröffnet
        * </pre>
        *
-       * <code>optional .dstore.values.StringValue login_name = 10001;</code>
+       * <code>.dstore.values.StringValue login_name = 10001;</code>
        */
       public boolean hasLoginName() {
         return loginName_ != null;
@@ -1280,7 +1280,7 @@ public final class MiGetCurrentProcessesAd {
        * Unter welchem "login" wurde der Prozeß eröffnet
        * </pre>
        *
-       * <code>optional .dstore.values.StringValue login_name = 10001;</code>
+       * <code>.dstore.values.StringValue login_name = 10001;</code>
        */
       public io.dstore.values.StringValue getLoginName() {
         return loginName_ == null ? io.dstore.values.StringValue.getDefaultInstance() : loginName_;
@@ -1290,7 +1290,7 @@ public final class MiGetCurrentProcessesAd {
        * Unter welchem "login" wurde der Prozeß eröffnet
        * </pre>
        *
-       * <code>optional .dstore.values.StringValue login_name = 10001;</code>
+       * <code>.dstore.values.StringValue login_name = 10001;</code>
        */
       public io.dstore.values.StringValueOrBuilder getLoginNameOrBuilder() {
         return getLoginName();
@@ -1303,7 +1303,7 @@ public final class MiGetCurrentProcessesAd {
        * Unter welcher Prozess-Kennung (in der Regel eine ID) der entsprechende Client-Prozess (auf "HostName") läuft
        * </pre>
        *
-       * <code>optional .dstore.values.StringValue host_process = 10002;</code>
+       * <code>.dstore.values.StringValue host_process = 10002;</code>
        */
       public boolean hasHostProcess() {
         return hostProcess_ != null;
@@ -1313,7 +1313,7 @@ public final class MiGetCurrentProcessesAd {
        * Unter welcher Prozess-Kennung (in der Regel eine ID) der entsprechende Client-Prozess (auf "HostName") läuft
        * </pre>
        *
-       * <code>optional .dstore.values.StringValue host_process = 10002;</code>
+       * <code>.dstore.values.StringValue host_process = 10002;</code>
        */
       public io.dstore.values.StringValue getHostProcess() {
         return hostProcess_ == null ? io.dstore.values.StringValue.getDefaultInstance() : hostProcess_;
@@ -1323,7 +1323,7 @@ public final class MiGetCurrentProcessesAd {
        * Unter welcher Prozess-Kennung (in der Regel eine ID) der entsprechende Client-Prozess (auf "HostName") läuft
        * </pre>
        *
-       * <code>optional .dstore.values.StringValue host_process = 10002;</code>
+       * <code>.dstore.values.StringValue host_process = 10002;</code>
        */
       public io.dstore.values.StringValueOrBuilder getHostProcessOrBuilder() {
         return getHostProcess();
@@ -1336,7 +1336,7 @@ public final class MiGetCurrentProcessesAd {
        * Was macht der Prozeß gerade ("running", "lock sleep", etc.)
        * </pre>
        *
-       * <code>optional .dstore.values.StringValue process_status = 10003;</code>
+       * <code>.dstore.values.StringValue process_status = 10003;</code>
        */
       public boolean hasProcessStatus() {
         return processStatus_ != null;
@@ -1346,7 +1346,7 @@ public final class MiGetCurrentProcessesAd {
        * Was macht der Prozeß gerade ("running", "lock sleep", etc.)
        * </pre>
        *
-       * <code>optional .dstore.values.StringValue process_status = 10003;</code>
+       * <code>.dstore.values.StringValue process_status = 10003;</code>
        */
       public io.dstore.values.StringValue getProcessStatus() {
         return processStatus_ == null ? io.dstore.values.StringValue.getDefaultInstance() : processStatus_;
@@ -1356,7 +1356,7 @@ public final class MiGetCurrentProcessesAd {
        * Was macht der Prozeß gerade ("running", "lock sleep", etc.)
        * </pre>
        *
-       * <code>optional .dstore.values.StringValue process_status = 10003;</code>
+       * <code>.dstore.values.StringValue process_status = 10003;</code>
        */
       public io.dstore.values.StringValueOrBuilder getProcessStatusOrBuilder() {
         return getProcessStatus();
@@ -1369,7 +1369,7 @@ public final class MiGetCurrentProcessesAd {
        * Was für eine Art von Kommando wird gerade ausgeführt
        * </pre>
        *
-       * <code>optional .dstore.values.StringValue command = 10004;</code>
+       * <code>.dstore.values.StringValue command = 10004;</code>
        */
       public boolean hasCommand() {
         return command_ != null;
@@ -1379,7 +1379,7 @@ public final class MiGetCurrentProcessesAd {
        * Was für eine Art von Kommando wird gerade ausgeführt
        * </pre>
        *
-       * <code>optional .dstore.values.StringValue command = 10004;</code>
+       * <code>.dstore.values.StringValue command = 10004;</code>
        */
       public io.dstore.values.StringValue getCommand() {
         return command_ == null ? io.dstore.values.StringValue.getDefaultInstance() : command_;
@@ -1389,7 +1389,7 @@ public final class MiGetCurrentProcessesAd {
        * Was für eine Art von Kommando wird gerade ausgeführt
        * </pre>
        *
-       * <code>optional .dstore.values.StringValue command = 10004;</code>
+       * <code>.dstore.values.StringValue command = 10004;</code>
        */
       public io.dstore.values.StringValueOrBuilder getCommandOrBuilder() {
         return getCommand();
@@ -1402,7 +1402,7 @@ public final class MiGetCurrentProcessesAd {
        * ID eines anderen Prozesses, durch den dieser Prozeß ge"blocked" wird. Ein Wert von "0" bedeutet, daß der Prozess NICHT blockiert wird.
        * </pre>
        *
-       * <code>optional .dstore.values.IntegerValue blocking_process_id = 10005;</code>
+       * <code>.dstore.values.IntegerValue blocking_process_id = 10005;</code>
        */
       public boolean hasBlockingProcessId() {
         return blockingProcessId_ != null;
@@ -1412,7 +1412,7 @@ public final class MiGetCurrentProcessesAd {
        * ID eines anderen Prozesses, durch den dieser Prozeß ge"blocked" wird. Ein Wert von "0" bedeutet, daß der Prozess NICHT blockiert wird.
        * </pre>
        *
-       * <code>optional .dstore.values.IntegerValue blocking_process_id = 10005;</code>
+       * <code>.dstore.values.IntegerValue blocking_process_id = 10005;</code>
        */
       public io.dstore.values.IntegerValue getBlockingProcessId() {
         return blockingProcessId_ == null ? io.dstore.values.IntegerValue.getDefaultInstance() : blockingProcessId_;
@@ -1422,7 +1422,7 @@ public final class MiGetCurrentProcessesAd {
        * ID eines anderen Prozesses, durch den dieser Prozeß ge"blocked" wird. Ein Wert von "0" bedeutet, daß der Prozess NICHT blockiert wird.
        * </pre>
        *
-       * <code>optional .dstore.values.IntegerValue blocking_process_id = 10005;</code>
+       * <code>.dstore.values.IntegerValue blocking_process_id = 10005;</code>
        */
       public io.dstore.values.IntegerValueOrBuilder getBlockingProcessIdOrBuilder() {
         return getBlockingProcessId();
@@ -1435,7 +1435,7 @@ public final class MiGetCurrentProcessesAd {
        * Die Server-Prozeß-ID
        * </pre>
        *
-       * <code>optional .dstore.values.IntegerValue server_process_id = 10006;</code>
+       * <code>.dstore.values.IntegerValue server_process_id = 10006;</code>
        */
       public boolean hasServerProcessId() {
         return serverProcessId_ != null;
@@ -1445,7 +1445,7 @@ public final class MiGetCurrentProcessesAd {
        * Die Server-Prozeß-ID
        * </pre>
        *
-       * <code>optional .dstore.values.IntegerValue server_process_id = 10006;</code>
+       * <code>.dstore.values.IntegerValue server_process_id = 10006;</code>
        */
       public io.dstore.values.IntegerValue getServerProcessId() {
         return serverProcessId_ == null ? io.dstore.values.IntegerValue.getDefaultInstance() : serverProcessId_;
@@ -1455,7 +1455,7 @@ public final class MiGetCurrentProcessesAd {
        * Die Server-Prozeß-ID
        * </pre>
        *
-       * <code>optional .dstore.values.IntegerValue server_process_id = 10006;</code>
+       * <code>.dstore.values.IntegerValue server_process_id = 10006;</code>
        */
       public io.dstore.values.IntegerValueOrBuilder getServerProcessIdOrBuilder() {
         return getServerProcessId();
@@ -1468,7 +1468,7 @@ public final class MiGetCurrentProcessesAd {
        * Der Name der Datenbank, in der sich der Prozeß gerade befindet
        * </pre>
        *
-       * <code>optional .dstore.values.StringValue d_b_name = 10007;</code>
+       * <code>.dstore.values.StringValue d_b_name = 10007;</code>
        */
       public boolean hasDBName() {
         return dBName_ != null;
@@ -1478,7 +1478,7 @@ public final class MiGetCurrentProcessesAd {
        * Der Name der Datenbank, in der sich der Prozeß gerade befindet
        * </pre>
        *
-       * <code>optional .dstore.values.StringValue d_b_name = 10007;</code>
+       * <code>.dstore.values.StringValue d_b_name = 10007;</code>
        */
       public io.dstore.values.StringValue getDBName() {
         return dBName_ == null ? io.dstore.values.StringValue.getDefaultInstance() : dBName_;
@@ -1488,7 +1488,7 @@ public final class MiGetCurrentProcessesAd {
        * Der Name der Datenbank, in der sich der Prozeß gerade befindet
        * </pre>
        *
-       * <code>optional .dstore.values.StringValue d_b_name = 10007;</code>
+       * <code>.dstore.values.StringValue d_b_name = 10007;</code>
        */
       public io.dstore.values.StringValueOrBuilder getDBNameOrBuilder() {
         return getDBName();
@@ -1501,7 +1501,7 @@ public final class MiGetCurrentProcessesAd {
        * Name des Programms auf dem Client, der den Prozeß gestartet hat (setzt voraus, daß der Client dies beim Verbindungsaufbau übermittelt hat !)
        * </pre>
        *
-       * <code>optional .dstore.values.StringValue program_name = 10008;</code>
+       * <code>.dstore.values.StringValue program_name = 10008;</code>
        */
       public boolean hasProgramName() {
         return programName_ != null;
@@ -1511,7 +1511,7 @@ public final class MiGetCurrentProcessesAd {
        * Name des Programms auf dem Client, der den Prozeß gestartet hat (setzt voraus, daß der Client dies beim Verbindungsaufbau übermittelt hat !)
        * </pre>
        *
-       * <code>optional .dstore.values.StringValue program_name = 10008;</code>
+       * <code>.dstore.values.StringValue program_name = 10008;</code>
        */
       public io.dstore.values.StringValue getProgramName() {
         return programName_ == null ? io.dstore.values.StringValue.getDefaultInstance() : programName_;
@@ -1521,7 +1521,7 @@ public final class MiGetCurrentProcessesAd {
        * Name des Programms auf dem Client, der den Prozeß gestartet hat (setzt voraus, daß der Client dies beim Verbindungsaufbau übermittelt hat !)
        * </pre>
        *
-       * <code>optional .dstore.values.StringValue program_name = 10008;</code>
+       * <code>.dstore.values.StringValue program_name = 10008;</code>
        */
       public io.dstore.values.StringValueOrBuilder getProgramNameOrBuilder() {
         return getProgramName();
@@ -1534,7 +1534,7 @@ public final class MiGetCurrentProcessesAd {
        * Name des Client-Rechners, der den Prozeß gestartet hat
        * </pre>
        *
-       * <code>optional .dstore.values.StringValue host_name = 10009;</code>
+       * <code>.dstore.values.StringValue host_name = 10009;</code>
        */
       public boolean hasHostName() {
         return hostName_ != null;
@@ -1544,7 +1544,7 @@ public final class MiGetCurrentProcessesAd {
        * Name des Client-Rechners, der den Prozeß gestartet hat
        * </pre>
        *
-       * <code>optional .dstore.values.StringValue host_name = 10009;</code>
+       * <code>.dstore.values.StringValue host_name = 10009;</code>
        */
       public io.dstore.values.StringValue getHostName() {
         return hostName_ == null ? io.dstore.values.StringValue.getDefaultInstance() : hostName_;
@@ -1554,7 +1554,7 @@ public final class MiGetCurrentProcessesAd {
        * Name des Client-Rechners, der den Prozeß gestartet hat
        * </pre>
        *
-       * <code>optional .dstore.values.StringValue host_name = 10009;</code>
+       * <code>.dstore.values.StringValue host_name = 10009;</code>
        */
       public io.dstore.values.StringValueOrBuilder getHostNameOrBuilder() {
         return getHostName();
@@ -1721,7 +1721,7 @@ public final class MiGetCurrentProcessesAd {
           return memoizedHashCode;
         }
         int hash = 41;
-        hash = (19 * hash) + getDescriptorForType().hashCode();
+        hash = (19 * hash) + getDescriptor().hashCode();
         hash = (37 * hash) + ROW_ID_FIELD_NUMBER;
         hash = (53 * hash) + getRowId();
         if (hasLoginName()) {
@@ -2101,13 +2101,13 @@ public final class MiGetCurrentProcessesAd {
 
         private int rowId_ ;
         /**
-         * <code>optional int32 row_id = 10000;</code>
+         * <code>int32 row_id = 10000;</code>
          */
         public int getRowId() {
           return rowId_;
         }
         /**
-         * <code>optional int32 row_id = 10000;</code>
+         * <code>int32 row_id = 10000;</code>
          */
         public Builder setRowId(int value) {
           
@@ -2116,7 +2116,7 @@ public final class MiGetCurrentProcessesAd {
           return this;
         }
         /**
-         * <code>optional int32 row_id = 10000;</code>
+         * <code>int32 row_id = 10000;</code>
          */
         public Builder clearRowId() {
           
@@ -2133,7 +2133,7 @@ public final class MiGetCurrentProcessesAd {
          * Unter welchem "login" wurde der Prozeß eröffnet
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue login_name = 10001;</code>
+         * <code>.dstore.values.StringValue login_name = 10001;</code>
          */
         public boolean hasLoginName() {
           return loginNameBuilder_ != null || loginName_ != null;
@@ -2143,7 +2143,7 @@ public final class MiGetCurrentProcessesAd {
          * Unter welchem "login" wurde der Prozeß eröffnet
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue login_name = 10001;</code>
+         * <code>.dstore.values.StringValue login_name = 10001;</code>
          */
         public io.dstore.values.StringValue getLoginName() {
           if (loginNameBuilder_ == null) {
@@ -2157,7 +2157,7 @@ public final class MiGetCurrentProcessesAd {
          * Unter welchem "login" wurde der Prozeß eröffnet
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue login_name = 10001;</code>
+         * <code>.dstore.values.StringValue login_name = 10001;</code>
          */
         public Builder setLoginName(io.dstore.values.StringValue value) {
           if (loginNameBuilder_ == null) {
@@ -2177,7 +2177,7 @@ public final class MiGetCurrentProcessesAd {
          * Unter welchem "login" wurde der Prozeß eröffnet
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue login_name = 10001;</code>
+         * <code>.dstore.values.StringValue login_name = 10001;</code>
          */
         public Builder setLoginName(
             io.dstore.values.StringValue.Builder builderForValue) {
@@ -2195,7 +2195,7 @@ public final class MiGetCurrentProcessesAd {
          * Unter welchem "login" wurde der Prozeß eröffnet
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue login_name = 10001;</code>
+         * <code>.dstore.values.StringValue login_name = 10001;</code>
          */
         public Builder mergeLoginName(io.dstore.values.StringValue value) {
           if (loginNameBuilder_ == null) {
@@ -2217,7 +2217,7 @@ public final class MiGetCurrentProcessesAd {
          * Unter welchem "login" wurde der Prozeß eröffnet
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue login_name = 10001;</code>
+         * <code>.dstore.values.StringValue login_name = 10001;</code>
          */
         public Builder clearLoginName() {
           if (loginNameBuilder_ == null) {
@@ -2235,7 +2235,7 @@ public final class MiGetCurrentProcessesAd {
          * Unter welchem "login" wurde der Prozeß eröffnet
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue login_name = 10001;</code>
+         * <code>.dstore.values.StringValue login_name = 10001;</code>
          */
         public io.dstore.values.StringValue.Builder getLoginNameBuilder() {
           
@@ -2247,7 +2247,7 @@ public final class MiGetCurrentProcessesAd {
          * Unter welchem "login" wurde der Prozeß eröffnet
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue login_name = 10001;</code>
+         * <code>.dstore.values.StringValue login_name = 10001;</code>
          */
         public io.dstore.values.StringValueOrBuilder getLoginNameOrBuilder() {
           if (loginNameBuilder_ != null) {
@@ -2262,7 +2262,7 @@ public final class MiGetCurrentProcessesAd {
          * Unter welchem "login" wurde der Prozeß eröffnet
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue login_name = 10001;</code>
+         * <code>.dstore.values.StringValue login_name = 10001;</code>
          */
         private com.google.protobuf.SingleFieldBuilderV3<
             io.dstore.values.StringValue, io.dstore.values.StringValue.Builder, io.dstore.values.StringValueOrBuilder> 
@@ -2286,7 +2286,7 @@ public final class MiGetCurrentProcessesAd {
          * Unter welcher Prozess-Kennung (in der Regel eine ID) der entsprechende Client-Prozess (auf "HostName") läuft
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue host_process = 10002;</code>
+         * <code>.dstore.values.StringValue host_process = 10002;</code>
          */
         public boolean hasHostProcess() {
           return hostProcessBuilder_ != null || hostProcess_ != null;
@@ -2296,7 +2296,7 @@ public final class MiGetCurrentProcessesAd {
          * Unter welcher Prozess-Kennung (in der Regel eine ID) der entsprechende Client-Prozess (auf "HostName") läuft
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue host_process = 10002;</code>
+         * <code>.dstore.values.StringValue host_process = 10002;</code>
          */
         public io.dstore.values.StringValue getHostProcess() {
           if (hostProcessBuilder_ == null) {
@@ -2310,7 +2310,7 @@ public final class MiGetCurrentProcessesAd {
          * Unter welcher Prozess-Kennung (in der Regel eine ID) der entsprechende Client-Prozess (auf "HostName") läuft
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue host_process = 10002;</code>
+         * <code>.dstore.values.StringValue host_process = 10002;</code>
          */
         public Builder setHostProcess(io.dstore.values.StringValue value) {
           if (hostProcessBuilder_ == null) {
@@ -2330,7 +2330,7 @@ public final class MiGetCurrentProcessesAd {
          * Unter welcher Prozess-Kennung (in der Regel eine ID) der entsprechende Client-Prozess (auf "HostName") läuft
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue host_process = 10002;</code>
+         * <code>.dstore.values.StringValue host_process = 10002;</code>
          */
         public Builder setHostProcess(
             io.dstore.values.StringValue.Builder builderForValue) {
@@ -2348,7 +2348,7 @@ public final class MiGetCurrentProcessesAd {
          * Unter welcher Prozess-Kennung (in der Regel eine ID) der entsprechende Client-Prozess (auf "HostName") läuft
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue host_process = 10002;</code>
+         * <code>.dstore.values.StringValue host_process = 10002;</code>
          */
         public Builder mergeHostProcess(io.dstore.values.StringValue value) {
           if (hostProcessBuilder_ == null) {
@@ -2370,7 +2370,7 @@ public final class MiGetCurrentProcessesAd {
          * Unter welcher Prozess-Kennung (in der Regel eine ID) der entsprechende Client-Prozess (auf "HostName") läuft
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue host_process = 10002;</code>
+         * <code>.dstore.values.StringValue host_process = 10002;</code>
          */
         public Builder clearHostProcess() {
           if (hostProcessBuilder_ == null) {
@@ -2388,7 +2388,7 @@ public final class MiGetCurrentProcessesAd {
          * Unter welcher Prozess-Kennung (in der Regel eine ID) der entsprechende Client-Prozess (auf "HostName") läuft
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue host_process = 10002;</code>
+         * <code>.dstore.values.StringValue host_process = 10002;</code>
          */
         public io.dstore.values.StringValue.Builder getHostProcessBuilder() {
           
@@ -2400,7 +2400,7 @@ public final class MiGetCurrentProcessesAd {
          * Unter welcher Prozess-Kennung (in der Regel eine ID) der entsprechende Client-Prozess (auf "HostName") läuft
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue host_process = 10002;</code>
+         * <code>.dstore.values.StringValue host_process = 10002;</code>
          */
         public io.dstore.values.StringValueOrBuilder getHostProcessOrBuilder() {
           if (hostProcessBuilder_ != null) {
@@ -2415,7 +2415,7 @@ public final class MiGetCurrentProcessesAd {
          * Unter welcher Prozess-Kennung (in der Regel eine ID) der entsprechende Client-Prozess (auf "HostName") läuft
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue host_process = 10002;</code>
+         * <code>.dstore.values.StringValue host_process = 10002;</code>
          */
         private com.google.protobuf.SingleFieldBuilderV3<
             io.dstore.values.StringValue, io.dstore.values.StringValue.Builder, io.dstore.values.StringValueOrBuilder> 
@@ -2439,7 +2439,7 @@ public final class MiGetCurrentProcessesAd {
          * Was macht der Prozeß gerade ("running", "lock sleep", etc.)
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue process_status = 10003;</code>
+         * <code>.dstore.values.StringValue process_status = 10003;</code>
          */
         public boolean hasProcessStatus() {
           return processStatusBuilder_ != null || processStatus_ != null;
@@ -2449,7 +2449,7 @@ public final class MiGetCurrentProcessesAd {
          * Was macht der Prozeß gerade ("running", "lock sleep", etc.)
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue process_status = 10003;</code>
+         * <code>.dstore.values.StringValue process_status = 10003;</code>
          */
         public io.dstore.values.StringValue getProcessStatus() {
           if (processStatusBuilder_ == null) {
@@ -2463,7 +2463,7 @@ public final class MiGetCurrentProcessesAd {
          * Was macht der Prozeß gerade ("running", "lock sleep", etc.)
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue process_status = 10003;</code>
+         * <code>.dstore.values.StringValue process_status = 10003;</code>
          */
         public Builder setProcessStatus(io.dstore.values.StringValue value) {
           if (processStatusBuilder_ == null) {
@@ -2483,7 +2483,7 @@ public final class MiGetCurrentProcessesAd {
          * Was macht der Prozeß gerade ("running", "lock sleep", etc.)
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue process_status = 10003;</code>
+         * <code>.dstore.values.StringValue process_status = 10003;</code>
          */
         public Builder setProcessStatus(
             io.dstore.values.StringValue.Builder builderForValue) {
@@ -2501,7 +2501,7 @@ public final class MiGetCurrentProcessesAd {
          * Was macht der Prozeß gerade ("running", "lock sleep", etc.)
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue process_status = 10003;</code>
+         * <code>.dstore.values.StringValue process_status = 10003;</code>
          */
         public Builder mergeProcessStatus(io.dstore.values.StringValue value) {
           if (processStatusBuilder_ == null) {
@@ -2523,7 +2523,7 @@ public final class MiGetCurrentProcessesAd {
          * Was macht der Prozeß gerade ("running", "lock sleep", etc.)
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue process_status = 10003;</code>
+         * <code>.dstore.values.StringValue process_status = 10003;</code>
          */
         public Builder clearProcessStatus() {
           if (processStatusBuilder_ == null) {
@@ -2541,7 +2541,7 @@ public final class MiGetCurrentProcessesAd {
          * Was macht der Prozeß gerade ("running", "lock sleep", etc.)
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue process_status = 10003;</code>
+         * <code>.dstore.values.StringValue process_status = 10003;</code>
          */
         public io.dstore.values.StringValue.Builder getProcessStatusBuilder() {
           
@@ -2553,7 +2553,7 @@ public final class MiGetCurrentProcessesAd {
          * Was macht der Prozeß gerade ("running", "lock sleep", etc.)
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue process_status = 10003;</code>
+         * <code>.dstore.values.StringValue process_status = 10003;</code>
          */
         public io.dstore.values.StringValueOrBuilder getProcessStatusOrBuilder() {
           if (processStatusBuilder_ != null) {
@@ -2568,7 +2568,7 @@ public final class MiGetCurrentProcessesAd {
          * Was macht der Prozeß gerade ("running", "lock sleep", etc.)
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue process_status = 10003;</code>
+         * <code>.dstore.values.StringValue process_status = 10003;</code>
          */
         private com.google.protobuf.SingleFieldBuilderV3<
             io.dstore.values.StringValue, io.dstore.values.StringValue.Builder, io.dstore.values.StringValueOrBuilder> 
@@ -2592,7 +2592,7 @@ public final class MiGetCurrentProcessesAd {
          * Was für eine Art von Kommando wird gerade ausgeführt
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue command = 10004;</code>
+         * <code>.dstore.values.StringValue command = 10004;</code>
          */
         public boolean hasCommand() {
           return commandBuilder_ != null || command_ != null;
@@ -2602,7 +2602,7 @@ public final class MiGetCurrentProcessesAd {
          * Was für eine Art von Kommando wird gerade ausgeführt
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue command = 10004;</code>
+         * <code>.dstore.values.StringValue command = 10004;</code>
          */
         public io.dstore.values.StringValue getCommand() {
           if (commandBuilder_ == null) {
@@ -2616,7 +2616,7 @@ public final class MiGetCurrentProcessesAd {
          * Was für eine Art von Kommando wird gerade ausgeführt
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue command = 10004;</code>
+         * <code>.dstore.values.StringValue command = 10004;</code>
          */
         public Builder setCommand(io.dstore.values.StringValue value) {
           if (commandBuilder_ == null) {
@@ -2636,7 +2636,7 @@ public final class MiGetCurrentProcessesAd {
          * Was für eine Art von Kommando wird gerade ausgeführt
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue command = 10004;</code>
+         * <code>.dstore.values.StringValue command = 10004;</code>
          */
         public Builder setCommand(
             io.dstore.values.StringValue.Builder builderForValue) {
@@ -2654,7 +2654,7 @@ public final class MiGetCurrentProcessesAd {
          * Was für eine Art von Kommando wird gerade ausgeführt
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue command = 10004;</code>
+         * <code>.dstore.values.StringValue command = 10004;</code>
          */
         public Builder mergeCommand(io.dstore.values.StringValue value) {
           if (commandBuilder_ == null) {
@@ -2676,7 +2676,7 @@ public final class MiGetCurrentProcessesAd {
          * Was für eine Art von Kommando wird gerade ausgeführt
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue command = 10004;</code>
+         * <code>.dstore.values.StringValue command = 10004;</code>
          */
         public Builder clearCommand() {
           if (commandBuilder_ == null) {
@@ -2694,7 +2694,7 @@ public final class MiGetCurrentProcessesAd {
          * Was für eine Art von Kommando wird gerade ausgeführt
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue command = 10004;</code>
+         * <code>.dstore.values.StringValue command = 10004;</code>
          */
         public io.dstore.values.StringValue.Builder getCommandBuilder() {
           
@@ -2706,7 +2706,7 @@ public final class MiGetCurrentProcessesAd {
          * Was für eine Art von Kommando wird gerade ausgeführt
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue command = 10004;</code>
+         * <code>.dstore.values.StringValue command = 10004;</code>
          */
         public io.dstore.values.StringValueOrBuilder getCommandOrBuilder() {
           if (commandBuilder_ != null) {
@@ -2721,7 +2721,7 @@ public final class MiGetCurrentProcessesAd {
          * Was für eine Art von Kommando wird gerade ausgeführt
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue command = 10004;</code>
+         * <code>.dstore.values.StringValue command = 10004;</code>
          */
         private com.google.protobuf.SingleFieldBuilderV3<
             io.dstore.values.StringValue, io.dstore.values.StringValue.Builder, io.dstore.values.StringValueOrBuilder> 
@@ -2745,7 +2745,7 @@ public final class MiGetCurrentProcessesAd {
          * ID eines anderen Prozesses, durch den dieser Prozeß ge"blocked" wird. Ein Wert von "0" bedeutet, daß der Prozess NICHT blockiert wird.
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue blocking_process_id = 10005;</code>
+         * <code>.dstore.values.IntegerValue blocking_process_id = 10005;</code>
          */
         public boolean hasBlockingProcessId() {
           return blockingProcessIdBuilder_ != null || blockingProcessId_ != null;
@@ -2755,7 +2755,7 @@ public final class MiGetCurrentProcessesAd {
          * ID eines anderen Prozesses, durch den dieser Prozeß ge"blocked" wird. Ein Wert von "0" bedeutet, daß der Prozess NICHT blockiert wird.
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue blocking_process_id = 10005;</code>
+         * <code>.dstore.values.IntegerValue blocking_process_id = 10005;</code>
          */
         public io.dstore.values.IntegerValue getBlockingProcessId() {
           if (blockingProcessIdBuilder_ == null) {
@@ -2769,7 +2769,7 @@ public final class MiGetCurrentProcessesAd {
          * ID eines anderen Prozesses, durch den dieser Prozeß ge"blocked" wird. Ein Wert von "0" bedeutet, daß der Prozess NICHT blockiert wird.
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue blocking_process_id = 10005;</code>
+         * <code>.dstore.values.IntegerValue blocking_process_id = 10005;</code>
          */
         public Builder setBlockingProcessId(io.dstore.values.IntegerValue value) {
           if (blockingProcessIdBuilder_ == null) {
@@ -2789,7 +2789,7 @@ public final class MiGetCurrentProcessesAd {
          * ID eines anderen Prozesses, durch den dieser Prozeß ge"blocked" wird. Ein Wert von "0" bedeutet, daß der Prozess NICHT blockiert wird.
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue blocking_process_id = 10005;</code>
+         * <code>.dstore.values.IntegerValue blocking_process_id = 10005;</code>
          */
         public Builder setBlockingProcessId(
             io.dstore.values.IntegerValue.Builder builderForValue) {
@@ -2807,7 +2807,7 @@ public final class MiGetCurrentProcessesAd {
          * ID eines anderen Prozesses, durch den dieser Prozeß ge"blocked" wird. Ein Wert von "0" bedeutet, daß der Prozess NICHT blockiert wird.
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue blocking_process_id = 10005;</code>
+         * <code>.dstore.values.IntegerValue blocking_process_id = 10005;</code>
          */
         public Builder mergeBlockingProcessId(io.dstore.values.IntegerValue value) {
           if (blockingProcessIdBuilder_ == null) {
@@ -2829,7 +2829,7 @@ public final class MiGetCurrentProcessesAd {
          * ID eines anderen Prozesses, durch den dieser Prozeß ge"blocked" wird. Ein Wert von "0" bedeutet, daß der Prozess NICHT blockiert wird.
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue blocking_process_id = 10005;</code>
+         * <code>.dstore.values.IntegerValue blocking_process_id = 10005;</code>
          */
         public Builder clearBlockingProcessId() {
           if (blockingProcessIdBuilder_ == null) {
@@ -2847,7 +2847,7 @@ public final class MiGetCurrentProcessesAd {
          * ID eines anderen Prozesses, durch den dieser Prozeß ge"blocked" wird. Ein Wert von "0" bedeutet, daß der Prozess NICHT blockiert wird.
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue blocking_process_id = 10005;</code>
+         * <code>.dstore.values.IntegerValue blocking_process_id = 10005;</code>
          */
         public io.dstore.values.IntegerValue.Builder getBlockingProcessIdBuilder() {
           
@@ -2859,7 +2859,7 @@ public final class MiGetCurrentProcessesAd {
          * ID eines anderen Prozesses, durch den dieser Prozeß ge"blocked" wird. Ein Wert von "0" bedeutet, daß der Prozess NICHT blockiert wird.
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue blocking_process_id = 10005;</code>
+         * <code>.dstore.values.IntegerValue blocking_process_id = 10005;</code>
          */
         public io.dstore.values.IntegerValueOrBuilder getBlockingProcessIdOrBuilder() {
           if (blockingProcessIdBuilder_ != null) {
@@ -2874,7 +2874,7 @@ public final class MiGetCurrentProcessesAd {
          * ID eines anderen Prozesses, durch den dieser Prozeß ge"blocked" wird. Ein Wert von "0" bedeutet, daß der Prozess NICHT blockiert wird.
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue blocking_process_id = 10005;</code>
+         * <code>.dstore.values.IntegerValue blocking_process_id = 10005;</code>
          */
         private com.google.protobuf.SingleFieldBuilderV3<
             io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> 
@@ -2898,7 +2898,7 @@ public final class MiGetCurrentProcessesAd {
          * Die Server-Prozeß-ID
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue server_process_id = 10006;</code>
+         * <code>.dstore.values.IntegerValue server_process_id = 10006;</code>
          */
         public boolean hasServerProcessId() {
           return serverProcessIdBuilder_ != null || serverProcessId_ != null;
@@ -2908,7 +2908,7 @@ public final class MiGetCurrentProcessesAd {
          * Die Server-Prozeß-ID
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue server_process_id = 10006;</code>
+         * <code>.dstore.values.IntegerValue server_process_id = 10006;</code>
          */
         public io.dstore.values.IntegerValue getServerProcessId() {
           if (serverProcessIdBuilder_ == null) {
@@ -2922,7 +2922,7 @@ public final class MiGetCurrentProcessesAd {
          * Die Server-Prozeß-ID
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue server_process_id = 10006;</code>
+         * <code>.dstore.values.IntegerValue server_process_id = 10006;</code>
          */
         public Builder setServerProcessId(io.dstore.values.IntegerValue value) {
           if (serverProcessIdBuilder_ == null) {
@@ -2942,7 +2942,7 @@ public final class MiGetCurrentProcessesAd {
          * Die Server-Prozeß-ID
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue server_process_id = 10006;</code>
+         * <code>.dstore.values.IntegerValue server_process_id = 10006;</code>
          */
         public Builder setServerProcessId(
             io.dstore.values.IntegerValue.Builder builderForValue) {
@@ -2960,7 +2960,7 @@ public final class MiGetCurrentProcessesAd {
          * Die Server-Prozeß-ID
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue server_process_id = 10006;</code>
+         * <code>.dstore.values.IntegerValue server_process_id = 10006;</code>
          */
         public Builder mergeServerProcessId(io.dstore.values.IntegerValue value) {
           if (serverProcessIdBuilder_ == null) {
@@ -2982,7 +2982,7 @@ public final class MiGetCurrentProcessesAd {
          * Die Server-Prozeß-ID
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue server_process_id = 10006;</code>
+         * <code>.dstore.values.IntegerValue server_process_id = 10006;</code>
          */
         public Builder clearServerProcessId() {
           if (serverProcessIdBuilder_ == null) {
@@ -3000,7 +3000,7 @@ public final class MiGetCurrentProcessesAd {
          * Die Server-Prozeß-ID
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue server_process_id = 10006;</code>
+         * <code>.dstore.values.IntegerValue server_process_id = 10006;</code>
          */
         public io.dstore.values.IntegerValue.Builder getServerProcessIdBuilder() {
           
@@ -3012,7 +3012,7 @@ public final class MiGetCurrentProcessesAd {
          * Die Server-Prozeß-ID
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue server_process_id = 10006;</code>
+         * <code>.dstore.values.IntegerValue server_process_id = 10006;</code>
          */
         public io.dstore.values.IntegerValueOrBuilder getServerProcessIdOrBuilder() {
           if (serverProcessIdBuilder_ != null) {
@@ -3027,7 +3027,7 @@ public final class MiGetCurrentProcessesAd {
          * Die Server-Prozeß-ID
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue server_process_id = 10006;</code>
+         * <code>.dstore.values.IntegerValue server_process_id = 10006;</code>
          */
         private com.google.protobuf.SingleFieldBuilderV3<
             io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> 
@@ -3051,7 +3051,7 @@ public final class MiGetCurrentProcessesAd {
          * Der Name der Datenbank, in der sich der Prozeß gerade befindet
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue d_b_name = 10007;</code>
+         * <code>.dstore.values.StringValue d_b_name = 10007;</code>
          */
         public boolean hasDBName() {
           return dBNameBuilder_ != null || dBName_ != null;
@@ -3061,7 +3061,7 @@ public final class MiGetCurrentProcessesAd {
          * Der Name der Datenbank, in der sich der Prozeß gerade befindet
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue d_b_name = 10007;</code>
+         * <code>.dstore.values.StringValue d_b_name = 10007;</code>
          */
         public io.dstore.values.StringValue getDBName() {
           if (dBNameBuilder_ == null) {
@@ -3075,7 +3075,7 @@ public final class MiGetCurrentProcessesAd {
          * Der Name der Datenbank, in der sich der Prozeß gerade befindet
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue d_b_name = 10007;</code>
+         * <code>.dstore.values.StringValue d_b_name = 10007;</code>
          */
         public Builder setDBName(io.dstore.values.StringValue value) {
           if (dBNameBuilder_ == null) {
@@ -3095,7 +3095,7 @@ public final class MiGetCurrentProcessesAd {
          * Der Name der Datenbank, in der sich der Prozeß gerade befindet
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue d_b_name = 10007;</code>
+         * <code>.dstore.values.StringValue d_b_name = 10007;</code>
          */
         public Builder setDBName(
             io.dstore.values.StringValue.Builder builderForValue) {
@@ -3113,7 +3113,7 @@ public final class MiGetCurrentProcessesAd {
          * Der Name der Datenbank, in der sich der Prozeß gerade befindet
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue d_b_name = 10007;</code>
+         * <code>.dstore.values.StringValue d_b_name = 10007;</code>
          */
         public Builder mergeDBName(io.dstore.values.StringValue value) {
           if (dBNameBuilder_ == null) {
@@ -3135,7 +3135,7 @@ public final class MiGetCurrentProcessesAd {
          * Der Name der Datenbank, in der sich der Prozeß gerade befindet
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue d_b_name = 10007;</code>
+         * <code>.dstore.values.StringValue d_b_name = 10007;</code>
          */
         public Builder clearDBName() {
           if (dBNameBuilder_ == null) {
@@ -3153,7 +3153,7 @@ public final class MiGetCurrentProcessesAd {
          * Der Name der Datenbank, in der sich der Prozeß gerade befindet
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue d_b_name = 10007;</code>
+         * <code>.dstore.values.StringValue d_b_name = 10007;</code>
          */
         public io.dstore.values.StringValue.Builder getDBNameBuilder() {
           
@@ -3165,7 +3165,7 @@ public final class MiGetCurrentProcessesAd {
          * Der Name der Datenbank, in der sich der Prozeß gerade befindet
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue d_b_name = 10007;</code>
+         * <code>.dstore.values.StringValue d_b_name = 10007;</code>
          */
         public io.dstore.values.StringValueOrBuilder getDBNameOrBuilder() {
           if (dBNameBuilder_ != null) {
@@ -3180,7 +3180,7 @@ public final class MiGetCurrentProcessesAd {
          * Der Name der Datenbank, in der sich der Prozeß gerade befindet
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue d_b_name = 10007;</code>
+         * <code>.dstore.values.StringValue d_b_name = 10007;</code>
          */
         private com.google.protobuf.SingleFieldBuilderV3<
             io.dstore.values.StringValue, io.dstore.values.StringValue.Builder, io.dstore.values.StringValueOrBuilder> 
@@ -3204,7 +3204,7 @@ public final class MiGetCurrentProcessesAd {
          * Name des Programms auf dem Client, der den Prozeß gestartet hat (setzt voraus, daß der Client dies beim Verbindungsaufbau übermittelt hat !)
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue program_name = 10008;</code>
+         * <code>.dstore.values.StringValue program_name = 10008;</code>
          */
         public boolean hasProgramName() {
           return programNameBuilder_ != null || programName_ != null;
@@ -3214,7 +3214,7 @@ public final class MiGetCurrentProcessesAd {
          * Name des Programms auf dem Client, der den Prozeß gestartet hat (setzt voraus, daß der Client dies beim Verbindungsaufbau übermittelt hat !)
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue program_name = 10008;</code>
+         * <code>.dstore.values.StringValue program_name = 10008;</code>
          */
         public io.dstore.values.StringValue getProgramName() {
           if (programNameBuilder_ == null) {
@@ -3228,7 +3228,7 @@ public final class MiGetCurrentProcessesAd {
          * Name des Programms auf dem Client, der den Prozeß gestartet hat (setzt voraus, daß der Client dies beim Verbindungsaufbau übermittelt hat !)
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue program_name = 10008;</code>
+         * <code>.dstore.values.StringValue program_name = 10008;</code>
          */
         public Builder setProgramName(io.dstore.values.StringValue value) {
           if (programNameBuilder_ == null) {
@@ -3248,7 +3248,7 @@ public final class MiGetCurrentProcessesAd {
          * Name des Programms auf dem Client, der den Prozeß gestartet hat (setzt voraus, daß der Client dies beim Verbindungsaufbau übermittelt hat !)
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue program_name = 10008;</code>
+         * <code>.dstore.values.StringValue program_name = 10008;</code>
          */
         public Builder setProgramName(
             io.dstore.values.StringValue.Builder builderForValue) {
@@ -3266,7 +3266,7 @@ public final class MiGetCurrentProcessesAd {
          * Name des Programms auf dem Client, der den Prozeß gestartet hat (setzt voraus, daß der Client dies beim Verbindungsaufbau übermittelt hat !)
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue program_name = 10008;</code>
+         * <code>.dstore.values.StringValue program_name = 10008;</code>
          */
         public Builder mergeProgramName(io.dstore.values.StringValue value) {
           if (programNameBuilder_ == null) {
@@ -3288,7 +3288,7 @@ public final class MiGetCurrentProcessesAd {
          * Name des Programms auf dem Client, der den Prozeß gestartet hat (setzt voraus, daß der Client dies beim Verbindungsaufbau übermittelt hat !)
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue program_name = 10008;</code>
+         * <code>.dstore.values.StringValue program_name = 10008;</code>
          */
         public Builder clearProgramName() {
           if (programNameBuilder_ == null) {
@@ -3306,7 +3306,7 @@ public final class MiGetCurrentProcessesAd {
          * Name des Programms auf dem Client, der den Prozeß gestartet hat (setzt voraus, daß der Client dies beim Verbindungsaufbau übermittelt hat !)
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue program_name = 10008;</code>
+         * <code>.dstore.values.StringValue program_name = 10008;</code>
          */
         public io.dstore.values.StringValue.Builder getProgramNameBuilder() {
           
@@ -3318,7 +3318,7 @@ public final class MiGetCurrentProcessesAd {
          * Name des Programms auf dem Client, der den Prozeß gestartet hat (setzt voraus, daß der Client dies beim Verbindungsaufbau übermittelt hat !)
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue program_name = 10008;</code>
+         * <code>.dstore.values.StringValue program_name = 10008;</code>
          */
         public io.dstore.values.StringValueOrBuilder getProgramNameOrBuilder() {
           if (programNameBuilder_ != null) {
@@ -3333,7 +3333,7 @@ public final class MiGetCurrentProcessesAd {
          * Name des Programms auf dem Client, der den Prozeß gestartet hat (setzt voraus, daß der Client dies beim Verbindungsaufbau übermittelt hat !)
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue program_name = 10008;</code>
+         * <code>.dstore.values.StringValue program_name = 10008;</code>
          */
         private com.google.protobuf.SingleFieldBuilderV3<
             io.dstore.values.StringValue, io.dstore.values.StringValue.Builder, io.dstore.values.StringValueOrBuilder> 
@@ -3357,7 +3357,7 @@ public final class MiGetCurrentProcessesAd {
          * Name des Client-Rechners, der den Prozeß gestartet hat
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue host_name = 10009;</code>
+         * <code>.dstore.values.StringValue host_name = 10009;</code>
          */
         public boolean hasHostName() {
           return hostNameBuilder_ != null || hostName_ != null;
@@ -3367,7 +3367,7 @@ public final class MiGetCurrentProcessesAd {
          * Name des Client-Rechners, der den Prozeß gestartet hat
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue host_name = 10009;</code>
+         * <code>.dstore.values.StringValue host_name = 10009;</code>
          */
         public io.dstore.values.StringValue getHostName() {
           if (hostNameBuilder_ == null) {
@@ -3381,7 +3381,7 @@ public final class MiGetCurrentProcessesAd {
          * Name des Client-Rechners, der den Prozeß gestartet hat
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue host_name = 10009;</code>
+         * <code>.dstore.values.StringValue host_name = 10009;</code>
          */
         public Builder setHostName(io.dstore.values.StringValue value) {
           if (hostNameBuilder_ == null) {
@@ -3401,7 +3401,7 @@ public final class MiGetCurrentProcessesAd {
          * Name des Client-Rechners, der den Prozeß gestartet hat
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue host_name = 10009;</code>
+         * <code>.dstore.values.StringValue host_name = 10009;</code>
          */
         public Builder setHostName(
             io.dstore.values.StringValue.Builder builderForValue) {
@@ -3419,7 +3419,7 @@ public final class MiGetCurrentProcessesAd {
          * Name des Client-Rechners, der den Prozeß gestartet hat
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue host_name = 10009;</code>
+         * <code>.dstore.values.StringValue host_name = 10009;</code>
          */
         public Builder mergeHostName(io.dstore.values.StringValue value) {
           if (hostNameBuilder_ == null) {
@@ -3441,7 +3441,7 @@ public final class MiGetCurrentProcessesAd {
          * Name des Client-Rechners, der den Prozeß gestartet hat
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue host_name = 10009;</code>
+         * <code>.dstore.values.StringValue host_name = 10009;</code>
          */
         public Builder clearHostName() {
           if (hostNameBuilder_ == null) {
@@ -3459,7 +3459,7 @@ public final class MiGetCurrentProcessesAd {
          * Name des Client-Rechners, der den Prozeß gestartet hat
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue host_name = 10009;</code>
+         * <code>.dstore.values.StringValue host_name = 10009;</code>
          */
         public io.dstore.values.StringValue.Builder getHostNameBuilder() {
           
@@ -3471,7 +3471,7 @@ public final class MiGetCurrentProcessesAd {
          * Name des Client-Rechners, der den Prozeß gestartet hat
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue host_name = 10009;</code>
+         * <code>.dstore.values.StringValue host_name = 10009;</code>
          */
         public io.dstore.values.StringValueOrBuilder getHostNameOrBuilder() {
           if (hostNameBuilder_ != null) {
@@ -3486,7 +3486,7 @@ public final class MiGetCurrentProcessesAd {
          * Name des Client-Rechners, der den Prozeß gestartet hat
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue host_name = 10009;</code>
+         * <code>.dstore.values.StringValue host_name = 10009;</code>
          */
         private com.google.protobuf.SingleFieldBuilderV3<
             io.dstore.values.StringValue, io.dstore.values.StringValue.Builder, io.dstore.values.StringValueOrBuilder> 
@@ -3746,7 +3746,7 @@ public final class MiGetCurrentProcessesAd {
         return memoizedHashCode;
       }
       int hash = 41;
-      hash = (19 * hash) + getDescriptorForType().hashCode();
+      hash = (19 * hash) + getDescriptor().hashCode();
       if (getMetaInformationCount() > 0) {
         hash = (37 * hash) + META_INFORMATION_FIELD_NUMBER;
         hash = (53 * hash) + getMetaInformationList().hashCode();

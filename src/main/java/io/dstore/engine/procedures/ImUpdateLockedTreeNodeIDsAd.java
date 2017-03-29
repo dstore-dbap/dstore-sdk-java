@@ -19,56 +19,56 @@ public final class ImUpdateLockedTreeNodeIDsAd {
       com.google.protobuf.MessageOrBuilder {
 
     /**
-     * <code>optional .dstore.values.IntegerValue user_id = 1;</code>
+     * <code>.dstore.values.IntegerValue user_id = 1;</code>
      */
     boolean hasUserId();
     /**
-     * <code>optional .dstore.values.IntegerValue user_id = 1;</code>
+     * <code>.dstore.values.IntegerValue user_id = 1;</code>
      */
     io.dstore.values.IntegerValue getUserId();
     /**
-     * <code>optional .dstore.values.IntegerValue user_id = 1;</code>
+     * <code>.dstore.values.IntegerValue user_id = 1;</code>
      */
     io.dstore.values.IntegerValueOrBuilder getUserIdOrBuilder();
 
     /**
-     * <code>optional bool user_id_null = 1001;</code>
+     * <code>bool user_id_null = 1001;</code>
      */
     boolean getUserIdNull();
 
     /**
-     * <code>optional .dstore.values.IntegerValue tree_node_id = 2;</code>
+     * <code>.dstore.values.IntegerValue tree_node_id = 2;</code>
      */
     boolean hasTreeNodeId();
     /**
-     * <code>optional .dstore.values.IntegerValue tree_node_id = 2;</code>
+     * <code>.dstore.values.IntegerValue tree_node_id = 2;</code>
      */
     io.dstore.values.IntegerValue getTreeNodeId();
     /**
-     * <code>optional .dstore.values.IntegerValue tree_node_id = 2;</code>
+     * <code>.dstore.values.IntegerValue tree_node_id = 2;</code>
      */
     io.dstore.values.IntegerValueOrBuilder getTreeNodeIdOrBuilder();
 
     /**
-     * <code>optional bool tree_node_id_null = 1002;</code>
+     * <code>bool tree_node_id_null = 1002;</code>
      */
     boolean getTreeNodeIdNull();
 
     /**
-     * <code>optional .dstore.values.BooleanValue lock_tree_node_id = 3;</code>
+     * <code>.dstore.values.BooleanValue lock_tree_node_id = 3;</code>
      */
     boolean hasLockTreeNodeId();
     /**
-     * <code>optional .dstore.values.BooleanValue lock_tree_node_id = 3;</code>
+     * <code>.dstore.values.BooleanValue lock_tree_node_id = 3;</code>
      */
     io.dstore.values.BooleanValue getLockTreeNodeId();
     /**
-     * <code>optional .dstore.values.BooleanValue lock_tree_node_id = 3;</code>
+     * <code>.dstore.values.BooleanValue lock_tree_node_id = 3;</code>
      */
     io.dstore.values.BooleanValueOrBuilder getLockTreeNodeIdOrBuilder();
 
     /**
-     * <code>optional bool lock_tree_node_id_null = 1003;</code>
+     * <code>bool lock_tree_node_id_null = 1003;</code>
      */
     boolean getLockTreeNodeIdNull();
   }
@@ -194,19 +194,19 @@ public final class ImUpdateLockedTreeNodeIDsAd {
     public static final int USER_ID_FIELD_NUMBER = 1;
     private io.dstore.values.IntegerValue userId_;
     /**
-     * <code>optional .dstore.values.IntegerValue user_id = 1;</code>
+     * <code>.dstore.values.IntegerValue user_id = 1;</code>
      */
     public boolean hasUserId() {
       return userId_ != null;
     }
     /**
-     * <code>optional .dstore.values.IntegerValue user_id = 1;</code>
+     * <code>.dstore.values.IntegerValue user_id = 1;</code>
      */
     public io.dstore.values.IntegerValue getUserId() {
       return userId_ == null ? io.dstore.values.IntegerValue.getDefaultInstance() : userId_;
     }
     /**
-     * <code>optional .dstore.values.IntegerValue user_id = 1;</code>
+     * <code>.dstore.values.IntegerValue user_id = 1;</code>
      */
     public io.dstore.values.IntegerValueOrBuilder getUserIdOrBuilder() {
       return getUserId();
@@ -215,7 +215,7 @@ public final class ImUpdateLockedTreeNodeIDsAd {
     public static final int USER_ID_NULL_FIELD_NUMBER = 1001;
     private boolean userIdNull_;
     /**
-     * <code>optional bool user_id_null = 1001;</code>
+     * <code>bool user_id_null = 1001;</code>
      */
     public boolean getUserIdNull() {
       return userIdNull_;
@@ -224,19 +224,19 @@ public final class ImUpdateLockedTreeNodeIDsAd {
     public static final int TREE_NODE_ID_FIELD_NUMBER = 2;
     private io.dstore.values.IntegerValue treeNodeId_;
     /**
-     * <code>optional .dstore.values.IntegerValue tree_node_id = 2;</code>
+     * <code>.dstore.values.IntegerValue tree_node_id = 2;</code>
      */
     public boolean hasTreeNodeId() {
       return treeNodeId_ != null;
     }
     /**
-     * <code>optional .dstore.values.IntegerValue tree_node_id = 2;</code>
+     * <code>.dstore.values.IntegerValue tree_node_id = 2;</code>
      */
     public io.dstore.values.IntegerValue getTreeNodeId() {
       return treeNodeId_ == null ? io.dstore.values.IntegerValue.getDefaultInstance() : treeNodeId_;
     }
     /**
-     * <code>optional .dstore.values.IntegerValue tree_node_id = 2;</code>
+     * <code>.dstore.values.IntegerValue tree_node_id = 2;</code>
      */
     public io.dstore.values.IntegerValueOrBuilder getTreeNodeIdOrBuilder() {
       return getTreeNodeId();
@@ -245,7 +245,7 @@ public final class ImUpdateLockedTreeNodeIDsAd {
     public static final int TREE_NODE_ID_NULL_FIELD_NUMBER = 1002;
     private boolean treeNodeIdNull_;
     /**
-     * <code>optional bool tree_node_id_null = 1002;</code>
+     * <code>bool tree_node_id_null = 1002;</code>
      */
     public boolean getTreeNodeIdNull() {
       return treeNodeIdNull_;
@@ -254,19 +254,19 @@ public final class ImUpdateLockedTreeNodeIDsAd {
     public static final int LOCK_TREE_NODE_ID_FIELD_NUMBER = 3;
     private io.dstore.values.BooleanValue lockTreeNodeId_;
     /**
-     * <code>optional .dstore.values.BooleanValue lock_tree_node_id = 3;</code>
+     * <code>.dstore.values.BooleanValue lock_tree_node_id = 3;</code>
      */
     public boolean hasLockTreeNodeId() {
       return lockTreeNodeId_ != null;
     }
     /**
-     * <code>optional .dstore.values.BooleanValue lock_tree_node_id = 3;</code>
+     * <code>.dstore.values.BooleanValue lock_tree_node_id = 3;</code>
      */
     public io.dstore.values.BooleanValue getLockTreeNodeId() {
       return lockTreeNodeId_ == null ? io.dstore.values.BooleanValue.getDefaultInstance() : lockTreeNodeId_;
     }
     /**
-     * <code>optional .dstore.values.BooleanValue lock_tree_node_id = 3;</code>
+     * <code>.dstore.values.BooleanValue lock_tree_node_id = 3;</code>
      */
     public io.dstore.values.BooleanValueOrBuilder getLockTreeNodeIdOrBuilder() {
       return getLockTreeNodeId();
@@ -275,7 +275,7 @@ public final class ImUpdateLockedTreeNodeIDsAd {
     public static final int LOCK_TREE_NODE_ID_NULL_FIELD_NUMBER = 1003;
     private boolean lockTreeNodeIdNull_;
     /**
-     * <code>optional bool lock_tree_node_id_null = 1003;</code>
+     * <code>bool lock_tree_node_id_null = 1003;</code>
      */
     public boolean getLockTreeNodeIdNull() {
       return lockTreeNodeIdNull_;
@@ -388,7 +388,7 @@ public final class ImUpdateLockedTreeNodeIDsAd {
         return memoizedHashCode;
       }
       int hash = 41;
-      hash = (19 * hash) + getDescriptorForType().hashCode();
+      hash = (19 * hash) + getDescriptor().hashCode();
       if (hasUserId()) {
         hash = (37 * hash) + USER_ID_FIELD_NUMBER;
         hash = (53 * hash) + getUserId().hashCode();
@@ -681,13 +681,13 @@ public final class ImUpdateLockedTreeNodeIDsAd {
       private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> userIdBuilder_;
       /**
-       * <code>optional .dstore.values.IntegerValue user_id = 1;</code>
+       * <code>.dstore.values.IntegerValue user_id = 1;</code>
        */
       public boolean hasUserId() {
         return userIdBuilder_ != null || userId_ != null;
       }
       /**
-       * <code>optional .dstore.values.IntegerValue user_id = 1;</code>
+       * <code>.dstore.values.IntegerValue user_id = 1;</code>
        */
       public io.dstore.values.IntegerValue getUserId() {
         if (userIdBuilder_ == null) {
@@ -697,7 +697,7 @@ public final class ImUpdateLockedTreeNodeIDsAd {
         }
       }
       /**
-       * <code>optional .dstore.values.IntegerValue user_id = 1;</code>
+       * <code>.dstore.values.IntegerValue user_id = 1;</code>
        */
       public Builder setUserId(io.dstore.values.IntegerValue value) {
         if (userIdBuilder_ == null) {
@@ -713,7 +713,7 @@ public final class ImUpdateLockedTreeNodeIDsAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.IntegerValue user_id = 1;</code>
+       * <code>.dstore.values.IntegerValue user_id = 1;</code>
        */
       public Builder setUserId(
           io.dstore.values.IntegerValue.Builder builderForValue) {
@@ -727,7 +727,7 @@ public final class ImUpdateLockedTreeNodeIDsAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.IntegerValue user_id = 1;</code>
+       * <code>.dstore.values.IntegerValue user_id = 1;</code>
        */
       public Builder mergeUserId(io.dstore.values.IntegerValue value) {
         if (userIdBuilder_ == null) {
@@ -745,7 +745,7 @@ public final class ImUpdateLockedTreeNodeIDsAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.IntegerValue user_id = 1;</code>
+       * <code>.dstore.values.IntegerValue user_id = 1;</code>
        */
       public Builder clearUserId() {
         if (userIdBuilder_ == null) {
@@ -759,7 +759,7 @@ public final class ImUpdateLockedTreeNodeIDsAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.IntegerValue user_id = 1;</code>
+       * <code>.dstore.values.IntegerValue user_id = 1;</code>
        */
       public io.dstore.values.IntegerValue.Builder getUserIdBuilder() {
         
@@ -767,7 +767,7 @@ public final class ImUpdateLockedTreeNodeIDsAd {
         return getUserIdFieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .dstore.values.IntegerValue user_id = 1;</code>
+       * <code>.dstore.values.IntegerValue user_id = 1;</code>
        */
       public io.dstore.values.IntegerValueOrBuilder getUserIdOrBuilder() {
         if (userIdBuilder_ != null) {
@@ -778,7 +778,7 @@ public final class ImUpdateLockedTreeNodeIDsAd {
         }
       }
       /**
-       * <code>optional .dstore.values.IntegerValue user_id = 1;</code>
+       * <code>.dstore.values.IntegerValue user_id = 1;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> 
@@ -796,13 +796,13 @@ public final class ImUpdateLockedTreeNodeIDsAd {
 
       private boolean userIdNull_ ;
       /**
-       * <code>optional bool user_id_null = 1001;</code>
+       * <code>bool user_id_null = 1001;</code>
        */
       public boolean getUserIdNull() {
         return userIdNull_;
       }
       /**
-       * <code>optional bool user_id_null = 1001;</code>
+       * <code>bool user_id_null = 1001;</code>
        */
       public Builder setUserIdNull(boolean value) {
         
@@ -811,7 +811,7 @@ public final class ImUpdateLockedTreeNodeIDsAd {
         return this;
       }
       /**
-       * <code>optional bool user_id_null = 1001;</code>
+       * <code>bool user_id_null = 1001;</code>
        */
       public Builder clearUserIdNull() {
         
@@ -824,13 +824,13 @@ public final class ImUpdateLockedTreeNodeIDsAd {
       private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> treeNodeIdBuilder_;
       /**
-       * <code>optional .dstore.values.IntegerValue tree_node_id = 2;</code>
+       * <code>.dstore.values.IntegerValue tree_node_id = 2;</code>
        */
       public boolean hasTreeNodeId() {
         return treeNodeIdBuilder_ != null || treeNodeId_ != null;
       }
       /**
-       * <code>optional .dstore.values.IntegerValue tree_node_id = 2;</code>
+       * <code>.dstore.values.IntegerValue tree_node_id = 2;</code>
        */
       public io.dstore.values.IntegerValue getTreeNodeId() {
         if (treeNodeIdBuilder_ == null) {
@@ -840,7 +840,7 @@ public final class ImUpdateLockedTreeNodeIDsAd {
         }
       }
       /**
-       * <code>optional .dstore.values.IntegerValue tree_node_id = 2;</code>
+       * <code>.dstore.values.IntegerValue tree_node_id = 2;</code>
        */
       public Builder setTreeNodeId(io.dstore.values.IntegerValue value) {
         if (treeNodeIdBuilder_ == null) {
@@ -856,7 +856,7 @@ public final class ImUpdateLockedTreeNodeIDsAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.IntegerValue tree_node_id = 2;</code>
+       * <code>.dstore.values.IntegerValue tree_node_id = 2;</code>
        */
       public Builder setTreeNodeId(
           io.dstore.values.IntegerValue.Builder builderForValue) {
@@ -870,7 +870,7 @@ public final class ImUpdateLockedTreeNodeIDsAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.IntegerValue tree_node_id = 2;</code>
+       * <code>.dstore.values.IntegerValue tree_node_id = 2;</code>
        */
       public Builder mergeTreeNodeId(io.dstore.values.IntegerValue value) {
         if (treeNodeIdBuilder_ == null) {
@@ -888,7 +888,7 @@ public final class ImUpdateLockedTreeNodeIDsAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.IntegerValue tree_node_id = 2;</code>
+       * <code>.dstore.values.IntegerValue tree_node_id = 2;</code>
        */
       public Builder clearTreeNodeId() {
         if (treeNodeIdBuilder_ == null) {
@@ -902,7 +902,7 @@ public final class ImUpdateLockedTreeNodeIDsAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.IntegerValue tree_node_id = 2;</code>
+       * <code>.dstore.values.IntegerValue tree_node_id = 2;</code>
        */
       public io.dstore.values.IntegerValue.Builder getTreeNodeIdBuilder() {
         
@@ -910,7 +910,7 @@ public final class ImUpdateLockedTreeNodeIDsAd {
         return getTreeNodeIdFieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .dstore.values.IntegerValue tree_node_id = 2;</code>
+       * <code>.dstore.values.IntegerValue tree_node_id = 2;</code>
        */
       public io.dstore.values.IntegerValueOrBuilder getTreeNodeIdOrBuilder() {
         if (treeNodeIdBuilder_ != null) {
@@ -921,7 +921,7 @@ public final class ImUpdateLockedTreeNodeIDsAd {
         }
       }
       /**
-       * <code>optional .dstore.values.IntegerValue tree_node_id = 2;</code>
+       * <code>.dstore.values.IntegerValue tree_node_id = 2;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> 
@@ -939,13 +939,13 @@ public final class ImUpdateLockedTreeNodeIDsAd {
 
       private boolean treeNodeIdNull_ ;
       /**
-       * <code>optional bool tree_node_id_null = 1002;</code>
+       * <code>bool tree_node_id_null = 1002;</code>
        */
       public boolean getTreeNodeIdNull() {
         return treeNodeIdNull_;
       }
       /**
-       * <code>optional bool tree_node_id_null = 1002;</code>
+       * <code>bool tree_node_id_null = 1002;</code>
        */
       public Builder setTreeNodeIdNull(boolean value) {
         
@@ -954,7 +954,7 @@ public final class ImUpdateLockedTreeNodeIDsAd {
         return this;
       }
       /**
-       * <code>optional bool tree_node_id_null = 1002;</code>
+       * <code>bool tree_node_id_null = 1002;</code>
        */
       public Builder clearTreeNodeIdNull() {
         
@@ -967,13 +967,13 @@ public final class ImUpdateLockedTreeNodeIDsAd {
       private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.values.BooleanValue, io.dstore.values.BooleanValue.Builder, io.dstore.values.BooleanValueOrBuilder> lockTreeNodeIdBuilder_;
       /**
-       * <code>optional .dstore.values.BooleanValue lock_tree_node_id = 3;</code>
+       * <code>.dstore.values.BooleanValue lock_tree_node_id = 3;</code>
        */
       public boolean hasLockTreeNodeId() {
         return lockTreeNodeIdBuilder_ != null || lockTreeNodeId_ != null;
       }
       /**
-       * <code>optional .dstore.values.BooleanValue lock_tree_node_id = 3;</code>
+       * <code>.dstore.values.BooleanValue lock_tree_node_id = 3;</code>
        */
       public io.dstore.values.BooleanValue getLockTreeNodeId() {
         if (lockTreeNodeIdBuilder_ == null) {
@@ -983,7 +983,7 @@ public final class ImUpdateLockedTreeNodeIDsAd {
         }
       }
       /**
-       * <code>optional .dstore.values.BooleanValue lock_tree_node_id = 3;</code>
+       * <code>.dstore.values.BooleanValue lock_tree_node_id = 3;</code>
        */
       public Builder setLockTreeNodeId(io.dstore.values.BooleanValue value) {
         if (lockTreeNodeIdBuilder_ == null) {
@@ -999,7 +999,7 @@ public final class ImUpdateLockedTreeNodeIDsAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.BooleanValue lock_tree_node_id = 3;</code>
+       * <code>.dstore.values.BooleanValue lock_tree_node_id = 3;</code>
        */
       public Builder setLockTreeNodeId(
           io.dstore.values.BooleanValue.Builder builderForValue) {
@@ -1013,7 +1013,7 @@ public final class ImUpdateLockedTreeNodeIDsAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.BooleanValue lock_tree_node_id = 3;</code>
+       * <code>.dstore.values.BooleanValue lock_tree_node_id = 3;</code>
        */
       public Builder mergeLockTreeNodeId(io.dstore.values.BooleanValue value) {
         if (lockTreeNodeIdBuilder_ == null) {
@@ -1031,7 +1031,7 @@ public final class ImUpdateLockedTreeNodeIDsAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.BooleanValue lock_tree_node_id = 3;</code>
+       * <code>.dstore.values.BooleanValue lock_tree_node_id = 3;</code>
        */
       public Builder clearLockTreeNodeId() {
         if (lockTreeNodeIdBuilder_ == null) {
@@ -1045,7 +1045,7 @@ public final class ImUpdateLockedTreeNodeIDsAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.BooleanValue lock_tree_node_id = 3;</code>
+       * <code>.dstore.values.BooleanValue lock_tree_node_id = 3;</code>
        */
       public io.dstore.values.BooleanValue.Builder getLockTreeNodeIdBuilder() {
         
@@ -1053,7 +1053,7 @@ public final class ImUpdateLockedTreeNodeIDsAd {
         return getLockTreeNodeIdFieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .dstore.values.BooleanValue lock_tree_node_id = 3;</code>
+       * <code>.dstore.values.BooleanValue lock_tree_node_id = 3;</code>
        */
       public io.dstore.values.BooleanValueOrBuilder getLockTreeNodeIdOrBuilder() {
         if (lockTreeNodeIdBuilder_ != null) {
@@ -1064,7 +1064,7 @@ public final class ImUpdateLockedTreeNodeIDsAd {
         }
       }
       /**
-       * <code>optional .dstore.values.BooleanValue lock_tree_node_id = 3;</code>
+       * <code>.dstore.values.BooleanValue lock_tree_node_id = 3;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.values.BooleanValue, io.dstore.values.BooleanValue.Builder, io.dstore.values.BooleanValueOrBuilder> 
@@ -1082,13 +1082,13 @@ public final class ImUpdateLockedTreeNodeIDsAd {
 
       private boolean lockTreeNodeIdNull_ ;
       /**
-       * <code>optional bool lock_tree_node_id_null = 1003;</code>
+       * <code>bool lock_tree_node_id_null = 1003;</code>
        */
       public boolean getLockTreeNodeIdNull() {
         return lockTreeNodeIdNull_;
       }
       /**
-       * <code>optional bool lock_tree_node_id_null = 1003;</code>
+       * <code>bool lock_tree_node_id_null = 1003;</code>
        */
       public Builder setLockTreeNodeIdNull(boolean value) {
         
@@ -1097,7 +1097,7 @@ public final class ImUpdateLockedTreeNodeIDsAd {
         return this;
       }
       /**
-       * <code>optional bool lock_tree_node_id_null = 1003;</code>
+       * <code>bool lock_tree_node_id_null = 1003;</code>
        */
       public Builder clearLockTreeNodeIdNull() {
         
@@ -1356,7 +1356,7 @@ public final class ImUpdateLockedTreeNodeIDsAd {
         com.google.protobuf.MessageOrBuilder {
 
       /**
-       * <code>optional int32 row_id = 10000;</code>
+       * <code>int32 row_id = 10000;</code>
        */
       int getRowId();
     }
@@ -1431,7 +1431,7 @@ public final class ImUpdateLockedTreeNodeIDsAd {
       public static final int ROW_ID_FIELD_NUMBER = 10000;
       private int rowId_;
       /**
-       * <code>optional int32 row_id = 10000;</code>
+       * <code>int32 row_id = 10000;</code>
        */
       public int getRowId() {
         return rowId_;
@@ -1490,7 +1490,7 @@ public final class ImUpdateLockedTreeNodeIDsAd {
           return memoizedHashCode;
         }
         int hash = 41;
-        hash = (19 * hash) + getDescriptorForType().hashCode();
+        hash = (19 * hash) + getDescriptor().hashCode();
         hash = (37 * hash) + ROW_ID_FIELD_NUMBER;
         hash = (53 * hash) + getRowId();
         hash = (29 * hash) + unknownFields.hashCode();
@@ -1708,13 +1708,13 @@ public final class ImUpdateLockedTreeNodeIDsAd {
 
         private int rowId_ ;
         /**
-         * <code>optional int32 row_id = 10000;</code>
+         * <code>int32 row_id = 10000;</code>
          */
         public int getRowId() {
           return rowId_;
         }
         /**
-         * <code>optional int32 row_id = 10000;</code>
+         * <code>int32 row_id = 10000;</code>
          */
         public Builder setRowId(int value) {
           
@@ -1723,7 +1723,7 @@ public final class ImUpdateLockedTreeNodeIDsAd {
           return this;
         }
         /**
-         * <code>optional int32 row_id = 10000;</code>
+         * <code>int32 row_id = 10000;</code>
          */
         public Builder clearRowId() {
           
@@ -1976,7 +1976,7 @@ public final class ImUpdateLockedTreeNodeIDsAd {
         return memoizedHashCode;
       }
       int hash = 41;
-      hash = (19 * hash) + getDescriptorForType().hashCode();
+      hash = (19 * hash) + getDescriptor().hashCode();
       if (getMetaInformationCount() > 0) {
         hash = (37 * hash) + META_INFORMATION_FIELD_NUMBER;
         hash = (53 * hash) + getMetaInformationList().hashCode();

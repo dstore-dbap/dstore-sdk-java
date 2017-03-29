@@ -19,38 +19,38 @@ public final class ImGetCorrespondingValuesAd {
       com.google.protobuf.MessageOrBuilder {
 
     /**
-     * <code>optional .dstore.values.IntegerValue get_corr_vals_for_value_id = 1;</code>
+     * <code>.dstore.values.IntegerValue get_corr_vals_for_value_id = 1;</code>
      */
     boolean hasGetCorrValsForValueId();
     /**
-     * <code>optional .dstore.values.IntegerValue get_corr_vals_for_value_id = 1;</code>
+     * <code>.dstore.values.IntegerValue get_corr_vals_for_value_id = 1;</code>
      */
     io.dstore.values.IntegerValue getGetCorrValsForValueId();
     /**
-     * <code>optional .dstore.values.IntegerValue get_corr_vals_for_value_id = 1;</code>
+     * <code>.dstore.values.IntegerValue get_corr_vals_for_value_id = 1;</code>
      */
     io.dstore.values.IntegerValueOrBuilder getGetCorrValsForValueIdOrBuilder();
 
     /**
-     * <code>optional bool get_corr_vals_for_value_id_null = 1001;</code>
+     * <code>bool get_corr_vals_for_value_id_null = 1001;</code>
      */
     boolean getGetCorrValsForValueIdNull();
 
     /**
-     * <code>optional .dstore.values.IntegerValue get_corr_vals_for_vals_of_charac_id = 2;</code>
+     * <code>.dstore.values.IntegerValue get_corr_vals_for_vals_of_charac_id = 2;</code>
      */
     boolean hasGetCorrValsForValsOfCharacId();
     /**
-     * <code>optional .dstore.values.IntegerValue get_corr_vals_for_vals_of_charac_id = 2;</code>
+     * <code>.dstore.values.IntegerValue get_corr_vals_for_vals_of_charac_id = 2;</code>
      */
     io.dstore.values.IntegerValue getGetCorrValsForValsOfCharacId();
     /**
-     * <code>optional .dstore.values.IntegerValue get_corr_vals_for_vals_of_charac_id = 2;</code>
+     * <code>.dstore.values.IntegerValue get_corr_vals_for_vals_of_charac_id = 2;</code>
      */
     io.dstore.values.IntegerValueOrBuilder getGetCorrValsForValsOfCharacIdOrBuilder();
 
     /**
-     * <code>optional bool get_corr_vals_for_vals_of_charac_id_null = 1002;</code>
+     * <code>bool get_corr_vals_for_vals_of_charac_id_null = 1002;</code>
      */
     boolean getGetCorrValsForValsOfCharacIdNull();
   }
@@ -157,19 +157,19 @@ public final class ImGetCorrespondingValuesAd {
     public static final int GET_CORR_VALS_FOR_VALUE_ID_FIELD_NUMBER = 1;
     private io.dstore.values.IntegerValue getCorrValsForValueId_;
     /**
-     * <code>optional .dstore.values.IntegerValue get_corr_vals_for_value_id = 1;</code>
+     * <code>.dstore.values.IntegerValue get_corr_vals_for_value_id = 1;</code>
      */
     public boolean hasGetCorrValsForValueId() {
       return getCorrValsForValueId_ != null;
     }
     /**
-     * <code>optional .dstore.values.IntegerValue get_corr_vals_for_value_id = 1;</code>
+     * <code>.dstore.values.IntegerValue get_corr_vals_for_value_id = 1;</code>
      */
     public io.dstore.values.IntegerValue getGetCorrValsForValueId() {
       return getCorrValsForValueId_ == null ? io.dstore.values.IntegerValue.getDefaultInstance() : getCorrValsForValueId_;
     }
     /**
-     * <code>optional .dstore.values.IntegerValue get_corr_vals_for_value_id = 1;</code>
+     * <code>.dstore.values.IntegerValue get_corr_vals_for_value_id = 1;</code>
      */
     public io.dstore.values.IntegerValueOrBuilder getGetCorrValsForValueIdOrBuilder() {
       return getGetCorrValsForValueId();
@@ -178,7 +178,7 @@ public final class ImGetCorrespondingValuesAd {
     public static final int GET_CORR_VALS_FOR_VALUE_ID_NULL_FIELD_NUMBER = 1001;
     private boolean getCorrValsForValueIdNull_;
     /**
-     * <code>optional bool get_corr_vals_for_value_id_null = 1001;</code>
+     * <code>bool get_corr_vals_for_value_id_null = 1001;</code>
      */
     public boolean getGetCorrValsForValueIdNull() {
       return getCorrValsForValueIdNull_;
@@ -187,19 +187,19 @@ public final class ImGetCorrespondingValuesAd {
     public static final int GET_CORR_VALS_FOR_VALS_OF_CHARAC_ID_FIELD_NUMBER = 2;
     private io.dstore.values.IntegerValue getCorrValsForValsOfCharacId_;
     /**
-     * <code>optional .dstore.values.IntegerValue get_corr_vals_for_vals_of_charac_id = 2;</code>
+     * <code>.dstore.values.IntegerValue get_corr_vals_for_vals_of_charac_id = 2;</code>
      */
     public boolean hasGetCorrValsForValsOfCharacId() {
       return getCorrValsForValsOfCharacId_ != null;
     }
     /**
-     * <code>optional .dstore.values.IntegerValue get_corr_vals_for_vals_of_charac_id = 2;</code>
+     * <code>.dstore.values.IntegerValue get_corr_vals_for_vals_of_charac_id = 2;</code>
      */
     public io.dstore.values.IntegerValue getGetCorrValsForValsOfCharacId() {
       return getCorrValsForValsOfCharacId_ == null ? io.dstore.values.IntegerValue.getDefaultInstance() : getCorrValsForValsOfCharacId_;
     }
     /**
-     * <code>optional .dstore.values.IntegerValue get_corr_vals_for_vals_of_charac_id = 2;</code>
+     * <code>.dstore.values.IntegerValue get_corr_vals_for_vals_of_charac_id = 2;</code>
      */
     public io.dstore.values.IntegerValueOrBuilder getGetCorrValsForValsOfCharacIdOrBuilder() {
       return getGetCorrValsForValsOfCharacId();
@@ -208,7 +208,7 @@ public final class ImGetCorrespondingValuesAd {
     public static final int GET_CORR_VALS_FOR_VALS_OF_CHARAC_ID_NULL_FIELD_NUMBER = 1002;
     private boolean getCorrValsForValsOfCharacIdNull_;
     /**
-     * <code>optional bool get_corr_vals_for_vals_of_charac_id_null = 1002;</code>
+     * <code>bool get_corr_vals_for_vals_of_charac_id_null = 1002;</code>
      */
     public boolean getGetCorrValsForValsOfCharacIdNull() {
       return getCorrValsForValsOfCharacIdNull_;
@@ -300,7 +300,7 @@ public final class ImGetCorrespondingValuesAd {
         return memoizedHashCode;
       }
       int hash = 41;
-      hash = (19 * hash) + getDescriptorForType().hashCode();
+      hash = (19 * hash) + getDescriptor().hashCode();
       if (hasGetCorrValsForValueId()) {
         hash = (37 * hash) + GET_CORR_VALS_FOR_VALUE_ID_FIELD_NUMBER;
         hash = (53 * hash) + getGetCorrValsForValueId().hashCode();
@@ -566,13 +566,13 @@ public final class ImGetCorrespondingValuesAd {
       private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> getCorrValsForValueIdBuilder_;
       /**
-       * <code>optional .dstore.values.IntegerValue get_corr_vals_for_value_id = 1;</code>
+       * <code>.dstore.values.IntegerValue get_corr_vals_for_value_id = 1;</code>
        */
       public boolean hasGetCorrValsForValueId() {
         return getCorrValsForValueIdBuilder_ != null || getCorrValsForValueId_ != null;
       }
       /**
-       * <code>optional .dstore.values.IntegerValue get_corr_vals_for_value_id = 1;</code>
+       * <code>.dstore.values.IntegerValue get_corr_vals_for_value_id = 1;</code>
        */
       public io.dstore.values.IntegerValue getGetCorrValsForValueId() {
         if (getCorrValsForValueIdBuilder_ == null) {
@@ -582,7 +582,7 @@ public final class ImGetCorrespondingValuesAd {
         }
       }
       /**
-       * <code>optional .dstore.values.IntegerValue get_corr_vals_for_value_id = 1;</code>
+       * <code>.dstore.values.IntegerValue get_corr_vals_for_value_id = 1;</code>
        */
       public Builder setGetCorrValsForValueId(io.dstore.values.IntegerValue value) {
         if (getCorrValsForValueIdBuilder_ == null) {
@@ -598,7 +598,7 @@ public final class ImGetCorrespondingValuesAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.IntegerValue get_corr_vals_for_value_id = 1;</code>
+       * <code>.dstore.values.IntegerValue get_corr_vals_for_value_id = 1;</code>
        */
       public Builder setGetCorrValsForValueId(
           io.dstore.values.IntegerValue.Builder builderForValue) {
@@ -612,7 +612,7 @@ public final class ImGetCorrespondingValuesAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.IntegerValue get_corr_vals_for_value_id = 1;</code>
+       * <code>.dstore.values.IntegerValue get_corr_vals_for_value_id = 1;</code>
        */
       public Builder mergeGetCorrValsForValueId(io.dstore.values.IntegerValue value) {
         if (getCorrValsForValueIdBuilder_ == null) {
@@ -630,7 +630,7 @@ public final class ImGetCorrespondingValuesAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.IntegerValue get_corr_vals_for_value_id = 1;</code>
+       * <code>.dstore.values.IntegerValue get_corr_vals_for_value_id = 1;</code>
        */
       public Builder clearGetCorrValsForValueId() {
         if (getCorrValsForValueIdBuilder_ == null) {
@@ -644,7 +644,7 @@ public final class ImGetCorrespondingValuesAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.IntegerValue get_corr_vals_for_value_id = 1;</code>
+       * <code>.dstore.values.IntegerValue get_corr_vals_for_value_id = 1;</code>
        */
       public io.dstore.values.IntegerValue.Builder getGetCorrValsForValueIdBuilder() {
         
@@ -652,7 +652,7 @@ public final class ImGetCorrespondingValuesAd {
         return getGetCorrValsForValueIdFieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .dstore.values.IntegerValue get_corr_vals_for_value_id = 1;</code>
+       * <code>.dstore.values.IntegerValue get_corr_vals_for_value_id = 1;</code>
        */
       public io.dstore.values.IntegerValueOrBuilder getGetCorrValsForValueIdOrBuilder() {
         if (getCorrValsForValueIdBuilder_ != null) {
@@ -663,7 +663,7 @@ public final class ImGetCorrespondingValuesAd {
         }
       }
       /**
-       * <code>optional .dstore.values.IntegerValue get_corr_vals_for_value_id = 1;</code>
+       * <code>.dstore.values.IntegerValue get_corr_vals_for_value_id = 1;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> 
@@ -681,13 +681,13 @@ public final class ImGetCorrespondingValuesAd {
 
       private boolean getCorrValsForValueIdNull_ ;
       /**
-       * <code>optional bool get_corr_vals_for_value_id_null = 1001;</code>
+       * <code>bool get_corr_vals_for_value_id_null = 1001;</code>
        */
       public boolean getGetCorrValsForValueIdNull() {
         return getCorrValsForValueIdNull_;
       }
       /**
-       * <code>optional bool get_corr_vals_for_value_id_null = 1001;</code>
+       * <code>bool get_corr_vals_for_value_id_null = 1001;</code>
        */
       public Builder setGetCorrValsForValueIdNull(boolean value) {
         
@@ -696,7 +696,7 @@ public final class ImGetCorrespondingValuesAd {
         return this;
       }
       /**
-       * <code>optional bool get_corr_vals_for_value_id_null = 1001;</code>
+       * <code>bool get_corr_vals_for_value_id_null = 1001;</code>
        */
       public Builder clearGetCorrValsForValueIdNull() {
         
@@ -709,13 +709,13 @@ public final class ImGetCorrespondingValuesAd {
       private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> getCorrValsForValsOfCharacIdBuilder_;
       /**
-       * <code>optional .dstore.values.IntegerValue get_corr_vals_for_vals_of_charac_id = 2;</code>
+       * <code>.dstore.values.IntegerValue get_corr_vals_for_vals_of_charac_id = 2;</code>
        */
       public boolean hasGetCorrValsForValsOfCharacId() {
         return getCorrValsForValsOfCharacIdBuilder_ != null || getCorrValsForValsOfCharacId_ != null;
       }
       /**
-       * <code>optional .dstore.values.IntegerValue get_corr_vals_for_vals_of_charac_id = 2;</code>
+       * <code>.dstore.values.IntegerValue get_corr_vals_for_vals_of_charac_id = 2;</code>
        */
       public io.dstore.values.IntegerValue getGetCorrValsForValsOfCharacId() {
         if (getCorrValsForValsOfCharacIdBuilder_ == null) {
@@ -725,7 +725,7 @@ public final class ImGetCorrespondingValuesAd {
         }
       }
       /**
-       * <code>optional .dstore.values.IntegerValue get_corr_vals_for_vals_of_charac_id = 2;</code>
+       * <code>.dstore.values.IntegerValue get_corr_vals_for_vals_of_charac_id = 2;</code>
        */
       public Builder setGetCorrValsForValsOfCharacId(io.dstore.values.IntegerValue value) {
         if (getCorrValsForValsOfCharacIdBuilder_ == null) {
@@ -741,7 +741,7 @@ public final class ImGetCorrespondingValuesAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.IntegerValue get_corr_vals_for_vals_of_charac_id = 2;</code>
+       * <code>.dstore.values.IntegerValue get_corr_vals_for_vals_of_charac_id = 2;</code>
        */
       public Builder setGetCorrValsForValsOfCharacId(
           io.dstore.values.IntegerValue.Builder builderForValue) {
@@ -755,7 +755,7 @@ public final class ImGetCorrespondingValuesAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.IntegerValue get_corr_vals_for_vals_of_charac_id = 2;</code>
+       * <code>.dstore.values.IntegerValue get_corr_vals_for_vals_of_charac_id = 2;</code>
        */
       public Builder mergeGetCorrValsForValsOfCharacId(io.dstore.values.IntegerValue value) {
         if (getCorrValsForValsOfCharacIdBuilder_ == null) {
@@ -773,7 +773,7 @@ public final class ImGetCorrespondingValuesAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.IntegerValue get_corr_vals_for_vals_of_charac_id = 2;</code>
+       * <code>.dstore.values.IntegerValue get_corr_vals_for_vals_of_charac_id = 2;</code>
        */
       public Builder clearGetCorrValsForValsOfCharacId() {
         if (getCorrValsForValsOfCharacIdBuilder_ == null) {
@@ -787,7 +787,7 @@ public final class ImGetCorrespondingValuesAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.IntegerValue get_corr_vals_for_vals_of_charac_id = 2;</code>
+       * <code>.dstore.values.IntegerValue get_corr_vals_for_vals_of_charac_id = 2;</code>
        */
       public io.dstore.values.IntegerValue.Builder getGetCorrValsForValsOfCharacIdBuilder() {
         
@@ -795,7 +795,7 @@ public final class ImGetCorrespondingValuesAd {
         return getGetCorrValsForValsOfCharacIdFieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .dstore.values.IntegerValue get_corr_vals_for_vals_of_charac_id = 2;</code>
+       * <code>.dstore.values.IntegerValue get_corr_vals_for_vals_of_charac_id = 2;</code>
        */
       public io.dstore.values.IntegerValueOrBuilder getGetCorrValsForValsOfCharacIdOrBuilder() {
         if (getCorrValsForValsOfCharacIdBuilder_ != null) {
@@ -806,7 +806,7 @@ public final class ImGetCorrespondingValuesAd {
         }
       }
       /**
-       * <code>optional .dstore.values.IntegerValue get_corr_vals_for_vals_of_charac_id = 2;</code>
+       * <code>.dstore.values.IntegerValue get_corr_vals_for_vals_of_charac_id = 2;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> 
@@ -824,13 +824,13 @@ public final class ImGetCorrespondingValuesAd {
 
       private boolean getCorrValsForValsOfCharacIdNull_ ;
       /**
-       * <code>optional bool get_corr_vals_for_vals_of_charac_id_null = 1002;</code>
+       * <code>bool get_corr_vals_for_vals_of_charac_id_null = 1002;</code>
        */
       public boolean getGetCorrValsForValsOfCharacIdNull() {
         return getCorrValsForValsOfCharacIdNull_;
       }
       /**
-       * <code>optional bool get_corr_vals_for_vals_of_charac_id_null = 1002;</code>
+       * <code>bool get_corr_vals_for_vals_of_charac_id_null = 1002;</code>
        */
       public Builder setGetCorrValsForValsOfCharacIdNull(boolean value) {
         
@@ -839,7 +839,7 @@ public final class ImGetCorrespondingValuesAd {
         return this;
       }
       /**
-       * <code>optional bool get_corr_vals_for_vals_of_charac_id_null = 1002;</code>
+       * <code>bool get_corr_vals_for_vals_of_charac_id_null = 1002;</code>
        */
       public Builder clearGetCorrValsForValsOfCharacIdNull() {
         
@@ -1098,7 +1098,7 @@ public final class ImGetCorrespondingValuesAd {
         com.google.protobuf.MessageOrBuilder {
 
       /**
-       * <code>optional int32 row_id = 10000;</code>
+       * <code>int32 row_id = 10000;</code>
        */
       int getRowId();
 
@@ -1107,7 +1107,7 @@ public final class ImGetCorrespondingValuesAd {
        * Eigenschaft, die zur Eigenschaft "Value" korrespondiert
        * </pre>
        *
-       * <code>optional .dstore.values.StringValue corresponding_value = 10001;</code>
+       * <code>.dstore.values.StringValue corresponding_value = 10001;</code>
        */
       boolean hasCorrespondingValue();
       /**
@@ -1115,7 +1115,7 @@ public final class ImGetCorrespondingValuesAd {
        * Eigenschaft, die zur Eigenschaft "Value" korrespondiert
        * </pre>
        *
-       * <code>optional .dstore.values.StringValue corresponding_value = 10001;</code>
+       * <code>.dstore.values.StringValue corresponding_value = 10001;</code>
        */
       io.dstore.values.StringValue getCorrespondingValue();
       /**
@@ -1123,7 +1123,7 @@ public final class ImGetCorrespondingValuesAd {
        * Eigenschaft, die zur Eigenschaft "Value" korrespondiert
        * </pre>
        *
-       * <code>optional .dstore.values.StringValue corresponding_value = 10001;</code>
+       * <code>.dstore.values.StringValue corresponding_value = 10001;</code>
        */
       io.dstore.values.StringValueOrBuilder getCorrespondingValueOrBuilder();
 
@@ -1132,7 +1132,7 @@ public final class ImGetCorrespondingValuesAd {
        * ID des Merkmals zu dem "CorrespondingValue" gehört
        * </pre>
        *
-       * <code>optional .dstore.values.IntegerValue corresponding_charac_id = 10002;</code>
+       * <code>.dstore.values.IntegerValue corresponding_charac_id = 10002;</code>
        */
       boolean hasCorrespondingCharacId();
       /**
@@ -1140,7 +1140,7 @@ public final class ImGetCorrespondingValuesAd {
        * ID des Merkmals zu dem "CorrespondingValue" gehört
        * </pre>
        *
-       * <code>optional .dstore.values.IntegerValue corresponding_charac_id = 10002;</code>
+       * <code>.dstore.values.IntegerValue corresponding_charac_id = 10002;</code>
        */
       io.dstore.values.IntegerValue getCorrespondingCharacId();
       /**
@@ -1148,7 +1148,7 @@ public final class ImGetCorrespondingValuesAd {
        * ID des Merkmals zu dem "CorrespondingValue" gehört
        * </pre>
        *
-       * <code>optional .dstore.values.IntegerValue corresponding_charac_id = 10002;</code>
+       * <code>.dstore.values.IntegerValue corresponding_charac_id = 10002;</code>
        */
       io.dstore.values.IntegerValueOrBuilder getCorrespondingCharacIdOrBuilder();
 
@@ -1157,7 +1157,7 @@ public final class ImGetCorrespondingValuesAd {
        * ID der Eigenschaft "CorrespondingValue"
        * </pre>
        *
-       * <code>optional .dstore.values.IntegerValue corresponding_value_id = 10003;</code>
+       * <code>.dstore.values.IntegerValue corresponding_value_id = 10003;</code>
        */
       boolean hasCorrespondingValueId();
       /**
@@ -1165,7 +1165,7 @@ public final class ImGetCorrespondingValuesAd {
        * ID der Eigenschaft "CorrespondingValue"
        * </pre>
        *
-       * <code>optional .dstore.values.IntegerValue corresponding_value_id = 10003;</code>
+       * <code>.dstore.values.IntegerValue corresponding_value_id = 10003;</code>
        */
       io.dstore.values.IntegerValue getCorrespondingValueId();
       /**
@@ -1173,7 +1173,7 @@ public final class ImGetCorrespondingValuesAd {
        * ID der Eigenschaft "CorrespondingValue"
        * </pre>
        *
-       * <code>optional .dstore.values.IntegerValue corresponding_value_id = 10003;</code>
+       * <code>.dstore.values.IntegerValue corresponding_value_id = 10003;</code>
        */
       io.dstore.values.IntegerValueOrBuilder getCorrespondingValueIdOrBuilder();
 
@@ -1182,7 +1182,7 @@ public final class ImGetCorrespondingValuesAd {
        * Eine Eigenschaft, den Artikel-Elemente haben können
        * </pre>
        *
-       * <code>optional .dstore.values.StringValue value = 10004;</code>
+       * <code>.dstore.values.StringValue value = 10004;</code>
        */
       boolean hasValue();
       /**
@@ -1190,7 +1190,7 @@ public final class ImGetCorrespondingValuesAd {
        * Eine Eigenschaft, den Artikel-Elemente haben können
        * </pre>
        *
-       * <code>optional .dstore.values.StringValue value = 10004;</code>
+       * <code>.dstore.values.StringValue value = 10004;</code>
        */
       io.dstore.values.StringValue getValue();
       /**
@@ -1198,7 +1198,7 @@ public final class ImGetCorrespondingValuesAd {
        * Eine Eigenschaft, den Artikel-Elemente haben können
        * </pre>
        *
-       * <code>optional .dstore.values.StringValue value = 10004;</code>
+       * <code>.dstore.values.StringValue value = 10004;</code>
        */
       io.dstore.values.StringValueOrBuilder getValueOrBuilder();
 
@@ -1207,7 +1207,7 @@ public final class ImGetCorrespondingValuesAd {
        * Bezeichnung des Merkmals "CorrespondingCharacID"
        * </pre>
        *
-       * <code>optional .dstore.values.StringValue corresponding_charac_description = 10005;</code>
+       * <code>.dstore.values.StringValue corresponding_charac_description = 10005;</code>
        */
       boolean hasCorrespondingCharacDescription();
       /**
@@ -1215,7 +1215,7 @@ public final class ImGetCorrespondingValuesAd {
        * Bezeichnung des Merkmals "CorrespondingCharacID"
        * </pre>
        *
-       * <code>optional .dstore.values.StringValue corresponding_charac_description = 10005;</code>
+       * <code>.dstore.values.StringValue corresponding_charac_description = 10005;</code>
        */
       io.dstore.values.StringValue getCorrespondingCharacDescription();
       /**
@@ -1223,7 +1223,7 @@ public final class ImGetCorrespondingValuesAd {
        * Bezeichnung des Merkmals "CorrespondingCharacID"
        * </pre>
        *
-       * <code>optional .dstore.values.StringValue corresponding_charac_description = 10005;</code>
+       * <code>.dstore.values.StringValue corresponding_charac_description = 10005;</code>
        */
       io.dstore.values.StringValueOrBuilder getCorrespondingCharacDescriptionOrBuilder();
 
@@ -1232,7 +1232,7 @@ public final class ImGetCorrespondingValuesAd {
        * ID der Eigenschaft "Value"
        * </pre>
        *
-       * <code>optional .dstore.values.IntegerValue value_id = 10006;</code>
+       * <code>.dstore.values.IntegerValue value_id = 10006;</code>
        */
       boolean hasValueId();
       /**
@@ -1240,7 +1240,7 @@ public final class ImGetCorrespondingValuesAd {
        * ID der Eigenschaft "Value"
        * </pre>
        *
-       * <code>optional .dstore.values.IntegerValue value_id = 10006;</code>
+       * <code>.dstore.values.IntegerValue value_id = 10006;</code>
        */
       io.dstore.values.IntegerValue getValueId();
       /**
@@ -1248,7 +1248,7 @@ public final class ImGetCorrespondingValuesAd {
        * ID der Eigenschaft "Value"
        * </pre>
        *
-       * <code>optional .dstore.values.IntegerValue value_id = 10006;</code>
+       * <code>.dstore.values.IntegerValue value_id = 10006;</code>
        */
       io.dstore.values.IntegerValueOrBuilder getValueIdOrBuilder();
     }
@@ -1401,7 +1401,7 @@ public final class ImGetCorrespondingValuesAd {
       public static final int ROW_ID_FIELD_NUMBER = 10000;
       private int rowId_;
       /**
-       * <code>optional int32 row_id = 10000;</code>
+       * <code>int32 row_id = 10000;</code>
        */
       public int getRowId() {
         return rowId_;
@@ -1414,7 +1414,7 @@ public final class ImGetCorrespondingValuesAd {
        * Eigenschaft, die zur Eigenschaft "Value" korrespondiert
        * </pre>
        *
-       * <code>optional .dstore.values.StringValue corresponding_value = 10001;</code>
+       * <code>.dstore.values.StringValue corresponding_value = 10001;</code>
        */
       public boolean hasCorrespondingValue() {
         return correspondingValue_ != null;
@@ -1424,7 +1424,7 @@ public final class ImGetCorrespondingValuesAd {
        * Eigenschaft, die zur Eigenschaft "Value" korrespondiert
        * </pre>
        *
-       * <code>optional .dstore.values.StringValue corresponding_value = 10001;</code>
+       * <code>.dstore.values.StringValue corresponding_value = 10001;</code>
        */
       public io.dstore.values.StringValue getCorrespondingValue() {
         return correspondingValue_ == null ? io.dstore.values.StringValue.getDefaultInstance() : correspondingValue_;
@@ -1434,7 +1434,7 @@ public final class ImGetCorrespondingValuesAd {
        * Eigenschaft, die zur Eigenschaft "Value" korrespondiert
        * </pre>
        *
-       * <code>optional .dstore.values.StringValue corresponding_value = 10001;</code>
+       * <code>.dstore.values.StringValue corresponding_value = 10001;</code>
        */
       public io.dstore.values.StringValueOrBuilder getCorrespondingValueOrBuilder() {
         return getCorrespondingValue();
@@ -1447,7 +1447,7 @@ public final class ImGetCorrespondingValuesAd {
        * ID des Merkmals zu dem "CorrespondingValue" gehört
        * </pre>
        *
-       * <code>optional .dstore.values.IntegerValue corresponding_charac_id = 10002;</code>
+       * <code>.dstore.values.IntegerValue corresponding_charac_id = 10002;</code>
        */
       public boolean hasCorrespondingCharacId() {
         return correspondingCharacId_ != null;
@@ -1457,7 +1457,7 @@ public final class ImGetCorrespondingValuesAd {
        * ID des Merkmals zu dem "CorrespondingValue" gehört
        * </pre>
        *
-       * <code>optional .dstore.values.IntegerValue corresponding_charac_id = 10002;</code>
+       * <code>.dstore.values.IntegerValue corresponding_charac_id = 10002;</code>
        */
       public io.dstore.values.IntegerValue getCorrespondingCharacId() {
         return correspondingCharacId_ == null ? io.dstore.values.IntegerValue.getDefaultInstance() : correspondingCharacId_;
@@ -1467,7 +1467,7 @@ public final class ImGetCorrespondingValuesAd {
        * ID des Merkmals zu dem "CorrespondingValue" gehört
        * </pre>
        *
-       * <code>optional .dstore.values.IntegerValue corresponding_charac_id = 10002;</code>
+       * <code>.dstore.values.IntegerValue corresponding_charac_id = 10002;</code>
        */
       public io.dstore.values.IntegerValueOrBuilder getCorrespondingCharacIdOrBuilder() {
         return getCorrespondingCharacId();
@@ -1480,7 +1480,7 @@ public final class ImGetCorrespondingValuesAd {
        * ID der Eigenschaft "CorrespondingValue"
        * </pre>
        *
-       * <code>optional .dstore.values.IntegerValue corresponding_value_id = 10003;</code>
+       * <code>.dstore.values.IntegerValue corresponding_value_id = 10003;</code>
        */
       public boolean hasCorrespondingValueId() {
         return correspondingValueId_ != null;
@@ -1490,7 +1490,7 @@ public final class ImGetCorrespondingValuesAd {
        * ID der Eigenschaft "CorrespondingValue"
        * </pre>
        *
-       * <code>optional .dstore.values.IntegerValue corresponding_value_id = 10003;</code>
+       * <code>.dstore.values.IntegerValue corresponding_value_id = 10003;</code>
        */
       public io.dstore.values.IntegerValue getCorrespondingValueId() {
         return correspondingValueId_ == null ? io.dstore.values.IntegerValue.getDefaultInstance() : correspondingValueId_;
@@ -1500,7 +1500,7 @@ public final class ImGetCorrespondingValuesAd {
        * ID der Eigenschaft "CorrespondingValue"
        * </pre>
        *
-       * <code>optional .dstore.values.IntegerValue corresponding_value_id = 10003;</code>
+       * <code>.dstore.values.IntegerValue corresponding_value_id = 10003;</code>
        */
       public io.dstore.values.IntegerValueOrBuilder getCorrespondingValueIdOrBuilder() {
         return getCorrespondingValueId();
@@ -1513,7 +1513,7 @@ public final class ImGetCorrespondingValuesAd {
        * Eine Eigenschaft, den Artikel-Elemente haben können
        * </pre>
        *
-       * <code>optional .dstore.values.StringValue value = 10004;</code>
+       * <code>.dstore.values.StringValue value = 10004;</code>
        */
       public boolean hasValue() {
         return value_ != null;
@@ -1523,7 +1523,7 @@ public final class ImGetCorrespondingValuesAd {
        * Eine Eigenschaft, den Artikel-Elemente haben können
        * </pre>
        *
-       * <code>optional .dstore.values.StringValue value = 10004;</code>
+       * <code>.dstore.values.StringValue value = 10004;</code>
        */
       public io.dstore.values.StringValue getValue() {
         return value_ == null ? io.dstore.values.StringValue.getDefaultInstance() : value_;
@@ -1533,7 +1533,7 @@ public final class ImGetCorrespondingValuesAd {
        * Eine Eigenschaft, den Artikel-Elemente haben können
        * </pre>
        *
-       * <code>optional .dstore.values.StringValue value = 10004;</code>
+       * <code>.dstore.values.StringValue value = 10004;</code>
        */
       public io.dstore.values.StringValueOrBuilder getValueOrBuilder() {
         return getValue();
@@ -1546,7 +1546,7 @@ public final class ImGetCorrespondingValuesAd {
        * Bezeichnung des Merkmals "CorrespondingCharacID"
        * </pre>
        *
-       * <code>optional .dstore.values.StringValue corresponding_charac_description = 10005;</code>
+       * <code>.dstore.values.StringValue corresponding_charac_description = 10005;</code>
        */
       public boolean hasCorrespondingCharacDescription() {
         return correspondingCharacDescription_ != null;
@@ -1556,7 +1556,7 @@ public final class ImGetCorrespondingValuesAd {
        * Bezeichnung des Merkmals "CorrespondingCharacID"
        * </pre>
        *
-       * <code>optional .dstore.values.StringValue corresponding_charac_description = 10005;</code>
+       * <code>.dstore.values.StringValue corresponding_charac_description = 10005;</code>
        */
       public io.dstore.values.StringValue getCorrespondingCharacDescription() {
         return correspondingCharacDescription_ == null ? io.dstore.values.StringValue.getDefaultInstance() : correspondingCharacDescription_;
@@ -1566,7 +1566,7 @@ public final class ImGetCorrespondingValuesAd {
        * Bezeichnung des Merkmals "CorrespondingCharacID"
        * </pre>
        *
-       * <code>optional .dstore.values.StringValue corresponding_charac_description = 10005;</code>
+       * <code>.dstore.values.StringValue corresponding_charac_description = 10005;</code>
        */
       public io.dstore.values.StringValueOrBuilder getCorrespondingCharacDescriptionOrBuilder() {
         return getCorrespondingCharacDescription();
@@ -1579,7 +1579,7 @@ public final class ImGetCorrespondingValuesAd {
        * ID der Eigenschaft "Value"
        * </pre>
        *
-       * <code>optional .dstore.values.IntegerValue value_id = 10006;</code>
+       * <code>.dstore.values.IntegerValue value_id = 10006;</code>
        */
       public boolean hasValueId() {
         return valueId_ != null;
@@ -1589,7 +1589,7 @@ public final class ImGetCorrespondingValuesAd {
        * ID der Eigenschaft "Value"
        * </pre>
        *
-       * <code>optional .dstore.values.IntegerValue value_id = 10006;</code>
+       * <code>.dstore.values.IntegerValue value_id = 10006;</code>
        */
       public io.dstore.values.IntegerValue getValueId() {
         return valueId_ == null ? io.dstore.values.IntegerValue.getDefaultInstance() : valueId_;
@@ -1599,7 +1599,7 @@ public final class ImGetCorrespondingValuesAd {
        * ID der Eigenschaft "Value"
        * </pre>
        *
-       * <code>optional .dstore.values.IntegerValue value_id = 10006;</code>
+       * <code>.dstore.values.IntegerValue value_id = 10006;</code>
        */
       public io.dstore.values.IntegerValueOrBuilder getValueIdOrBuilder() {
         return getValueId();
@@ -1730,7 +1730,7 @@ public final class ImGetCorrespondingValuesAd {
           return memoizedHashCode;
         }
         int hash = 41;
-        hash = (19 * hash) + getDescriptorForType().hashCode();
+        hash = (19 * hash) + getDescriptor().hashCode();
         hash = (37 * hash) + ROW_ID_FIELD_NUMBER;
         hash = (53 * hash) + getRowId();
         if (hasCorrespondingValue()) {
@@ -2056,13 +2056,13 @@ public final class ImGetCorrespondingValuesAd {
 
         private int rowId_ ;
         /**
-         * <code>optional int32 row_id = 10000;</code>
+         * <code>int32 row_id = 10000;</code>
          */
         public int getRowId() {
           return rowId_;
         }
         /**
-         * <code>optional int32 row_id = 10000;</code>
+         * <code>int32 row_id = 10000;</code>
          */
         public Builder setRowId(int value) {
           
@@ -2071,7 +2071,7 @@ public final class ImGetCorrespondingValuesAd {
           return this;
         }
         /**
-         * <code>optional int32 row_id = 10000;</code>
+         * <code>int32 row_id = 10000;</code>
          */
         public Builder clearRowId() {
           
@@ -2088,7 +2088,7 @@ public final class ImGetCorrespondingValuesAd {
          * Eigenschaft, die zur Eigenschaft "Value" korrespondiert
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue corresponding_value = 10001;</code>
+         * <code>.dstore.values.StringValue corresponding_value = 10001;</code>
          */
         public boolean hasCorrespondingValue() {
           return correspondingValueBuilder_ != null || correspondingValue_ != null;
@@ -2098,7 +2098,7 @@ public final class ImGetCorrespondingValuesAd {
          * Eigenschaft, die zur Eigenschaft "Value" korrespondiert
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue corresponding_value = 10001;</code>
+         * <code>.dstore.values.StringValue corresponding_value = 10001;</code>
          */
         public io.dstore.values.StringValue getCorrespondingValue() {
           if (correspondingValueBuilder_ == null) {
@@ -2112,7 +2112,7 @@ public final class ImGetCorrespondingValuesAd {
          * Eigenschaft, die zur Eigenschaft "Value" korrespondiert
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue corresponding_value = 10001;</code>
+         * <code>.dstore.values.StringValue corresponding_value = 10001;</code>
          */
         public Builder setCorrespondingValue(io.dstore.values.StringValue value) {
           if (correspondingValueBuilder_ == null) {
@@ -2132,7 +2132,7 @@ public final class ImGetCorrespondingValuesAd {
          * Eigenschaft, die zur Eigenschaft "Value" korrespondiert
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue corresponding_value = 10001;</code>
+         * <code>.dstore.values.StringValue corresponding_value = 10001;</code>
          */
         public Builder setCorrespondingValue(
             io.dstore.values.StringValue.Builder builderForValue) {
@@ -2150,7 +2150,7 @@ public final class ImGetCorrespondingValuesAd {
          * Eigenschaft, die zur Eigenschaft "Value" korrespondiert
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue corresponding_value = 10001;</code>
+         * <code>.dstore.values.StringValue corresponding_value = 10001;</code>
          */
         public Builder mergeCorrespondingValue(io.dstore.values.StringValue value) {
           if (correspondingValueBuilder_ == null) {
@@ -2172,7 +2172,7 @@ public final class ImGetCorrespondingValuesAd {
          * Eigenschaft, die zur Eigenschaft "Value" korrespondiert
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue corresponding_value = 10001;</code>
+         * <code>.dstore.values.StringValue corresponding_value = 10001;</code>
          */
         public Builder clearCorrespondingValue() {
           if (correspondingValueBuilder_ == null) {
@@ -2190,7 +2190,7 @@ public final class ImGetCorrespondingValuesAd {
          * Eigenschaft, die zur Eigenschaft "Value" korrespondiert
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue corresponding_value = 10001;</code>
+         * <code>.dstore.values.StringValue corresponding_value = 10001;</code>
          */
         public io.dstore.values.StringValue.Builder getCorrespondingValueBuilder() {
           
@@ -2202,7 +2202,7 @@ public final class ImGetCorrespondingValuesAd {
          * Eigenschaft, die zur Eigenschaft "Value" korrespondiert
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue corresponding_value = 10001;</code>
+         * <code>.dstore.values.StringValue corresponding_value = 10001;</code>
          */
         public io.dstore.values.StringValueOrBuilder getCorrespondingValueOrBuilder() {
           if (correspondingValueBuilder_ != null) {
@@ -2217,7 +2217,7 @@ public final class ImGetCorrespondingValuesAd {
          * Eigenschaft, die zur Eigenschaft "Value" korrespondiert
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue corresponding_value = 10001;</code>
+         * <code>.dstore.values.StringValue corresponding_value = 10001;</code>
          */
         private com.google.protobuf.SingleFieldBuilderV3<
             io.dstore.values.StringValue, io.dstore.values.StringValue.Builder, io.dstore.values.StringValueOrBuilder> 
@@ -2241,7 +2241,7 @@ public final class ImGetCorrespondingValuesAd {
          * ID des Merkmals zu dem "CorrespondingValue" gehört
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue corresponding_charac_id = 10002;</code>
+         * <code>.dstore.values.IntegerValue corresponding_charac_id = 10002;</code>
          */
         public boolean hasCorrespondingCharacId() {
           return correspondingCharacIdBuilder_ != null || correspondingCharacId_ != null;
@@ -2251,7 +2251,7 @@ public final class ImGetCorrespondingValuesAd {
          * ID des Merkmals zu dem "CorrespondingValue" gehört
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue corresponding_charac_id = 10002;</code>
+         * <code>.dstore.values.IntegerValue corresponding_charac_id = 10002;</code>
          */
         public io.dstore.values.IntegerValue getCorrespondingCharacId() {
           if (correspondingCharacIdBuilder_ == null) {
@@ -2265,7 +2265,7 @@ public final class ImGetCorrespondingValuesAd {
          * ID des Merkmals zu dem "CorrespondingValue" gehört
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue corresponding_charac_id = 10002;</code>
+         * <code>.dstore.values.IntegerValue corresponding_charac_id = 10002;</code>
          */
         public Builder setCorrespondingCharacId(io.dstore.values.IntegerValue value) {
           if (correspondingCharacIdBuilder_ == null) {
@@ -2285,7 +2285,7 @@ public final class ImGetCorrespondingValuesAd {
          * ID des Merkmals zu dem "CorrespondingValue" gehört
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue corresponding_charac_id = 10002;</code>
+         * <code>.dstore.values.IntegerValue corresponding_charac_id = 10002;</code>
          */
         public Builder setCorrespondingCharacId(
             io.dstore.values.IntegerValue.Builder builderForValue) {
@@ -2303,7 +2303,7 @@ public final class ImGetCorrespondingValuesAd {
          * ID des Merkmals zu dem "CorrespondingValue" gehört
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue corresponding_charac_id = 10002;</code>
+         * <code>.dstore.values.IntegerValue corresponding_charac_id = 10002;</code>
          */
         public Builder mergeCorrespondingCharacId(io.dstore.values.IntegerValue value) {
           if (correspondingCharacIdBuilder_ == null) {
@@ -2325,7 +2325,7 @@ public final class ImGetCorrespondingValuesAd {
          * ID des Merkmals zu dem "CorrespondingValue" gehört
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue corresponding_charac_id = 10002;</code>
+         * <code>.dstore.values.IntegerValue corresponding_charac_id = 10002;</code>
          */
         public Builder clearCorrespondingCharacId() {
           if (correspondingCharacIdBuilder_ == null) {
@@ -2343,7 +2343,7 @@ public final class ImGetCorrespondingValuesAd {
          * ID des Merkmals zu dem "CorrespondingValue" gehört
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue corresponding_charac_id = 10002;</code>
+         * <code>.dstore.values.IntegerValue corresponding_charac_id = 10002;</code>
          */
         public io.dstore.values.IntegerValue.Builder getCorrespondingCharacIdBuilder() {
           
@@ -2355,7 +2355,7 @@ public final class ImGetCorrespondingValuesAd {
          * ID des Merkmals zu dem "CorrespondingValue" gehört
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue corresponding_charac_id = 10002;</code>
+         * <code>.dstore.values.IntegerValue corresponding_charac_id = 10002;</code>
          */
         public io.dstore.values.IntegerValueOrBuilder getCorrespondingCharacIdOrBuilder() {
           if (correspondingCharacIdBuilder_ != null) {
@@ -2370,7 +2370,7 @@ public final class ImGetCorrespondingValuesAd {
          * ID des Merkmals zu dem "CorrespondingValue" gehört
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue corresponding_charac_id = 10002;</code>
+         * <code>.dstore.values.IntegerValue corresponding_charac_id = 10002;</code>
          */
         private com.google.protobuf.SingleFieldBuilderV3<
             io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> 
@@ -2394,7 +2394,7 @@ public final class ImGetCorrespondingValuesAd {
          * ID der Eigenschaft "CorrespondingValue"
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue corresponding_value_id = 10003;</code>
+         * <code>.dstore.values.IntegerValue corresponding_value_id = 10003;</code>
          */
         public boolean hasCorrespondingValueId() {
           return correspondingValueIdBuilder_ != null || correspondingValueId_ != null;
@@ -2404,7 +2404,7 @@ public final class ImGetCorrespondingValuesAd {
          * ID der Eigenschaft "CorrespondingValue"
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue corresponding_value_id = 10003;</code>
+         * <code>.dstore.values.IntegerValue corresponding_value_id = 10003;</code>
          */
         public io.dstore.values.IntegerValue getCorrespondingValueId() {
           if (correspondingValueIdBuilder_ == null) {
@@ -2418,7 +2418,7 @@ public final class ImGetCorrespondingValuesAd {
          * ID der Eigenschaft "CorrespondingValue"
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue corresponding_value_id = 10003;</code>
+         * <code>.dstore.values.IntegerValue corresponding_value_id = 10003;</code>
          */
         public Builder setCorrespondingValueId(io.dstore.values.IntegerValue value) {
           if (correspondingValueIdBuilder_ == null) {
@@ -2438,7 +2438,7 @@ public final class ImGetCorrespondingValuesAd {
          * ID der Eigenschaft "CorrespondingValue"
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue corresponding_value_id = 10003;</code>
+         * <code>.dstore.values.IntegerValue corresponding_value_id = 10003;</code>
          */
         public Builder setCorrespondingValueId(
             io.dstore.values.IntegerValue.Builder builderForValue) {
@@ -2456,7 +2456,7 @@ public final class ImGetCorrespondingValuesAd {
          * ID der Eigenschaft "CorrespondingValue"
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue corresponding_value_id = 10003;</code>
+         * <code>.dstore.values.IntegerValue corresponding_value_id = 10003;</code>
          */
         public Builder mergeCorrespondingValueId(io.dstore.values.IntegerValue value) {
           if (correspondingValueIdBuilder_ == null) {
@@ -2478,7 +2478,7 @@ public final class ImGetCorrespondingValuesAd {
          * ID der Eigenschaft "CorrespondingValue"
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue corresponding_value_id = 10003;</code>
+         * <code>.dstore.values.IntegerValue corresponding_value_id = 10003;</code>
          */
         public Builder clearCorrespondingValueId() {
           if (correspondingValueIdBuilder_ == null) {
@@ -2496,7 +2496,7 @@ public final class ImGetCorrespondingValuesAd {
          * ID der Eigenschaft "CorrespondingValue"
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue corresponding_value_id = 10003;</code>
+         * <code>.dstore.values.IntegerValue corresponding_value_id = 10003;</code>
          */
         public io.dstore.values.IntegerValue.Builder getCorrespondingValueIdBuilder() {
           
@@ -2508,7 +2508,7 @@ public final class ImGetCorrespondingValuesAd {
          * ID der Eigenschaft "CorrespondingValue"
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue corresponding_value_id = 10003;</code>
+         * <code>.dstore.values.IntegerValue corresponding_value_id = 10003;</code>
          */
         public io.dstore.values.IntegerValueOrBuilder getCorrespondingValueIdOrBuilder() {
           if (correspondingValueIdBuilder_ != null) {
@@ -2523,7 +2523,7 @@ public final class ImGetCorrespondingValuesAd {
          * ID der Eigenschaft "CorrespondingValue"
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue corresponding_value_id = 10003;</code>
+         * <code>.dstore.values.IntegerValue corresponding_value_id = 10003;</code>
          */
         private com.google.protobuf.SingleFieldBuilderV3<
             io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> 
@@ -2547,7 +2547,7 @@ public final class ImGetCorrespondingValuesAd {
          * Eine Eigenschaft, den Artikel-Elemente haben können
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue value = 10004;</code>
+         * <code>.dstore.values.StringValue value = 10004;</code>
          */
         public boolean hasValue() {
           return valueBuilder_ != null || value_ != null;
@@ -2557,7 +2557,7 @@ public final class ImGetCorrespondingValuesAd {
          * Eine Eigenschaft, den Artikel-Elemente haben können
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue value = 10004;</code>
+         * <code>.dstore.values.StringValue value = 10004;</code>
          */
         public io.dstore.values.StringValue getValue() {
           if (valueBuilder_ == null) {
@@ -2571,7 +2571,7 @@ public final class ImGetCorrespondingValuesAd {
          * Eine Eigenschaft, den Artikel-Elemente haben können
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue value = 10004;</code>
+         * <code>.dstore.values.StringValue value = 10004;</code>
          */
         public Builder setValue(io.dstore.values.StringValue value) {
           if (valueBuilder_ == null) {
@@ -2591,7 +2591,7 @@ public final class ImGetCorrespondingValuesAd {
          * Eine Eigenschaft, den Artikel-Elemente haben können
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue value = 10004;</code>
+         * <code>.dstore.values.StringValue value = 10004;</code>
          */
         public Builder setValue(
             io.dstore.values.StringValue.Builder builderForValue) {
@@ -2609,7 +2609,7 @@ public final class ImGetCorrespondingValuesAd {
          * Eine Eigenschaft, den Artikel-Elemente haben können
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue value = 10004;</code>
+         * <code>.dstore.values.StringValue value = 10004;</code>
          */
         public Builder mergeValue(io.dstore.values.StringValue value) {
           if (valueBuilder_ == null) {
@@ -2631,7 +2631,7 @@ public final class ImGetCorrespondingValuesAd {
          * Eine Eigenschaft, den Artikel-Elemente haben können
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue value = 10004;</code>
+         * <code>.dstore.values.StringValue value = 10004;</code>
          */
         public Builder clearValue() {
           if (valueBuilder_ == null) {
@@ -2649,7 +2649,7 @@ public final class ImGetCorrespondingValuesAd {
          * Eine Eigenschaft, den Artikel-Elemente haben können
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue value = 10004;</code>
+         * <code>.dstore.values.StringValue value = 10004;</code>
          */
         public io.dstore.values.StringValue.Builder getValueBuilder() {
           
@@ -2661,7 +2661,7 @@ public final class ImGetCorrespondingValuesAd {
          * Eine Eigenschaft, den Artikel-Elemente haben können
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue value = 10004;</code>
+         * <code>.dstore.values.StringValue value = 10004;</code>
          */
         public io.dstore.values.StringValueOrBuilder getValueOrBuilder() {
           if (valueBuilder_ != null) {
@@ -2676,7 +2676,7 @@ public final class ImGetCorrespondingValuesAd {
          * Eine Eigenschaft, den Artikel-Elemente haben können
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue value = 10004;</code>
+         * <code>.dstore.values.StringValue value = 10004;</code>
          */
         private com.google.protobuf.SingleFieldBuilderV3<
             io.dstore.values.StringValue, io.dstore.values.StringValue.Builder, io.dstore.values.StringValueOrBuilder> 
@@ -2700,7 +2700,7 @@ public final class ImGetCorrespondingValuesAd {
          * Bezeichnung des Merkmals "CorrespondingCharacID"
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue corresponding_charac_description = 10005;</code>
+         * <code>.dstore.values.StringValue corresponding_charac_description = 10005;</code>
          */
         public boolean hasCorrespondingCharacDescription() {
           return correspondingCharacDescriptionBuilder_ != null || correspondingCharacDescription_ != null;
@@ -2710,7 +2710,7 @@ public final class ImGetCorrespondingValuesAd {
          * Bezeichnung des Merkmals "CorrespondingCharacID"
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue corresponding_charac_description = 10005;</code>
+         * <code>.dstore.values.StringValue corresponding_charac_description = 10005;</code>
          */
         public io.dstore.values.StringValue getCorrespondingCharacDescription() {
           if (correspondingCharacDescriptionBuilder_ == null) {
@@ -2724,7 +2724,7 @@ public final class ImGetCorrespondingValuesAd {
          * Bezeichnung des Merkmals "CorrespondingCharacID"
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue corresponding_charac_description = 10005;</code>
+         * <code>.dstore.values.StringValue corresponding_charac_description = 10005;</code>
          */
         public Builder setCorrespondingCharacDescription(io.dstore.values.StringValue value) {
           if (correspondingCharacDescriptionBuilder_ == null) {
@@ -2744,7 +2744,7 @@ public final class ImGetCorrespondingValuesAd {
          * Bezeichnung des Merkmals "CorrespondingCharacID"
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue corresponding_charac_description = 10005;</code>
+         * <code>.dstore.values.StringValue corresponding_charac_description = 10005;</code>
          */
         public Builder setCorrespondingCharacDescription(
             io.dstore.values.StringValue.Builder builderForValue) {
@@ -2762,7 +2762,7 @@ public final class ImGetCorrespondingValuesAd {
          * Bezeichnung des Merkmals "CorrespondingCharacID"
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue corresponding_charac_description = 10005;</code>
+         * <code>.dstore.values.StringValue corresponding_charac_description = 10005;</code>
          */
         public Builder mergeCorrespondingCharacDescription(io.dstore.values.StringValue value) {
           if (correspondingCharacDescriptionBuilder_ == null) {
@@ -2784,7 +2784,7 @@ public final class ImGetCorrespondingValuesAd {
          * Bezeichnung des Merkmals "CorrespondingCharacID"
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue corresponding_charac_description = 10005;</code>
+         * <code>.dstore.values.StringValue corresponding_charac_description = 10005;</code>
          */
         public Builder clearCorrespondingCharacDescription() {
           if (correspondingCharacDescriptionBuilder_ == null) {
@@ -2802,7 +2802,7 @@ public final class ImGetCorrespondingValuesAd {
          * Bezeichnung des Merkmals "CorrespondingCharacID"
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue corresponding_charac_description = 10005;</code>
+         * <code>.dstore.values.StringValue corresponding_charac_description = 10005;</code>
          */
         public io.dstore.values.StringValue.Builder getCorrespondingCharacDescriptionBuilder() {
           
@@ -2814,7 +2814,7 @@ public final class ImGetCorrespondingValuesAd {
          * Bezeichnung des Merkmals "CorrespondingCharacID"
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue corresponding_charac_description = 10005;</code>
+         * <code>.dstore.values.StringValue corresponding_charac_description = 10005;</code>
          */
         public io.dstore.values.StringValueOrBuilder getCorrespondingCharacDescriptionOrBuilder() {
           if (correspondingCharacDescriptionBuilder_ != null) {
@@ -2829,7 +2829,7 @@ public final class ImGetCorrespondingValuesAd {
          * Bezeichnung des Merkmals "CorrespondingCharacID"
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue corresponding_charac_description = 10005;</code>
+         * <code>.dstore.values.StringValue corresponding_charac_description = 10005;</code>
          */
         private com.google.protobuf.SingleFieldBuilderV3<
             io.dstore.values.StringValue, io.dstore.values.StringValue.Builder, io.dstore.values.StringValueOrBuilder> 
@@ -2853,7 +2853,7 @@ public final class ImGetCorrespondingValuesAd {
          * ID der Eigenschaft "Value"
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue value_id = 10006;</code>
+         * <code>.dstore.values.IntegerValue value_id = 10006;</code>
          */
         public boolean hasValueId() {
           return valueIdBuilder_ != null || valueId_ != null;
@@ -2863,7 +2863,7 @@ public final class ImGetCorrespondingValuesAd {
          * ID der Eigenschaft "Value"
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue value_id = 10006;</code>
+         * <code>.dstore.values.IntegerValue value_id = 10006;</code>
          */
         public io.dstore.values.IntegerValue getValueId() {
           if (valueIdBuilder_ == null) {
@@ -2877,7 +2877,7 @@ public final class ImGetCorrespondingValuesAd {
          * ID der Eigenschaft "Value"
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue value_id = 10006;</code>
+         * <code>.dstore.values.IntegerValue value_id = 10006;</code>
          */
         public Builder setValueId(io.dstore.values.IntegerValue value) {
           if (valueIdBuilder_ == null) {
@@ -2897,7 +2897,7 @@ public final class ImGetCorrespondingValuesAd {
          * ID der Eigenschaft "Value"
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue value_id = 10006;</code>
+         * <code>.dstore.values.IntegerValue value_id = 10006;</code>
          */
         public Builder setValueId(
             io.dstore.values.IntegerValue.Builder builderForValue) {
@@ -2915,7 +2915,7 @@ public final class ImGetCorrespondingValuesAd {
          * ID der Eigenschaft "Value"
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue value_id = 10006;</code>
+         * <code>.dstore.values.IntegerValue value_id = 10006;</code>
          */
         public Builder mergeValueId(io.dstore.values.IntegerValue value) {
           if (valueIdBuilder_ == null) {
@@ -2937,7 +2937,7 @@ public final class ImGetCorrespondingValuesAd {
          * ID der Eigenschaft "Value"
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue value_id = 10006;</code>
+         * <code>.dstore.values.IntegerValue value_id = 10006;</code>
          */
         public Builder clearValueId() {
           if (valueIdBuilder_ == null) {
@@ -2955,7 +2955,7 @@ public final class ImGetCorrespondingValuesAd {
          * ID der Eigenschaft "Value"
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue value_id = 10006;</code>
+         * <code>.dstore.values.IntegerValue value_id = 10006;</code>
          */
         public io.dstore.values.IntegerValue.Builder getValueIdBuilder() {
           
@@ -2967,7 +2967,7 @@ public final class ImGetCorrespondingValuesAd {
          * ID der Eigenschaft "Value"
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue value_id = 10006;</code>
+         * <code>.dstore.values.IntegerValue value_id = 10006;</code>
          */
         public io.dstore.values.IntegerValueOrBuilder getValueIdOrBuilder() {
           if (valueIdBuilder_ != null) {
@@ -2982,7 +2982,7 @@ public final class ImGetCorrespondingValuesAd {
          * ID der Eigenschaft "Value"
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue value_id = 10006;</code>
+         * <code>.dstore.values.IntegerValue value_id = 10006;</code>
          */
         private com.google.protobuf.SingleFieldBuilderV3<
             io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> 
@@ -3242,7 +3242,7 @@ public final class ImGetCorrespondingValuesAd {
         return memoizedHashCode;
       }
       int hash = 41;
-      hash = (19 * hash) + getDescriptorForType().hashCode();
+      hash = (19 * hash) + getDescriptor().hashCode();
       if (getMetaInformationCount() > 0) {
         hash = (37 * hash) + META_INFORMATION_FIELD_NUMBER;
         hash = (53 * hash) + getMetaInformationList().hashCode();

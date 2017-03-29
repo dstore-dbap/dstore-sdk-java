@@ -19,38 +19,38 @@ public final class ImSetTemplateAd {
       com.google.protobuf.MessageOrBuilder {
 
     /**
-     * <code>optional .dstore.values.IntegerValue target_template_id = 1;</code>
+     * <code>.dstore.values.IntegerValue target_template_id = 1;</code>
      */
     boolean hasTargetTemplateId();
     /**
-     * <code>optional .dstore.values.IntegerValue target_template_id = 1;</code>
+     * <code>.dstore.values.IntegerValue target_template_id = 1;</code>
      */
     io.dstore.values.IntegerValue getTargetTemplateId();
     /**
-     * <code>optional .dstore.values.IntegerValue target_template_id = 1;</code>
+     * <code>.dstore.values.IntegerValue target_template_id = 1;</code>
      */
     io.dstore.values.IntegerValueOrBuilder getTargetTemplateIdOrBuilder();
 
     /**
-     * <code>optional bool target_template_id_null = 1001;</code>
+     * <code>bool target_template_id_null = 1001;</code>
      */
     boolean getTargetTemplateIdNull();
 
     /**
-     * <code>optional .dstore.values.IntegerValue source_template_id = 2;</code>
+     * <code>.dstore.values.IntegerValue source_template_id = 2;</code>
      */
     boolean hasSourceTemplateId();
     /**
-     * <code>optional .dstore.values.IntegerValue source_template_id = 2;</code>
+     * <code>.dstore.values.IntegerValue source_template_id = 2;</code>
      */
     io.dstore.values.IntegerValue getSourceTemplateId();
     /**
-     * <code>optional .dstore.values.IntegerValue source_template_id = 2;</code>
+     * <code>.dstore.values.IntegerValue source_template_id = 2;</code>
      */
     io.dstore.values.IntegerValueOrBuilder getSourceTemplateIdOrBuilder();
 
     /**
-     * <code>optional bool source_template_id_null = 1002;</code>
+     * <code>bool source_template_id_null = 1002;</code>
      */
     boolean getSourceTemplateIdNull();
   }
@@ -157,19 +157,19 @@ public final class ImSetTemplateAd {
     public static final int TARGET_TEMPLATE_ID_FIELD_NUMBER = 1;
     private io.dstore.values.IntegerValue targetTemplateId_;
     /**
-     * <code>optional .dstore.values.IntegerValue target_template_id = 1;</code>
+     * <code>.dstore.values.IntegerValue target_template_id = 1;</code>
      */
     public boolean hasTargetTemplateId() {
       return targetTemplateId_ != null;
     }
     /**
-     * <code>optional .dstore.values.IntegerValue target_template_id = 1;</code>
+     * <code>.dstore.values.IntegerValue target_template_id = 1;</code>
      */
     public io.dstore.values.IntegerValue getTargetTemplateId() {
       return targetTemplateId_ == null ? io.dstore.values.IntegerValue.getDefaultInstance() : targetTemplateId_;
     }
     /**
-     * <code>optional .dstore.values.IntegerValue target_template_id = 1;</code>
+     * <code>.dstore.values.IntegerValue target_template_id = 1;</code>
      */
     public io.dstore.values.IntegerValueOrBuilder getTargetTemplateIdOrBuilder() {
       return getTargetTemplateId();
@@ -178,7 +178,7 @@ public final class ImSetTemplateAd {
     public static final int TARGET_TEMPLATE_ID_NULL_FIELD_NUMBER = 1001;
     private boolean targetTemplateIdNull_;
     /**
-     * <code>optional bool target_template_id_null = 1001;</code>
+     * <code>bool target_template_id_null = 1001;</code>
      */
     public boolean getTargetTemplateIdNull() {
       return targetTemplateIdNull_;
@@ -187,19 +187,19 @@ public final class ImSetTemplateAd {
     public static final int SOURCE_TEMPLATE_ID_FIELD_NUMBER = 2;
     private io.dstore.values.IntegerValue sourceTemplateId_;
     /**
-     * <code>optional .dstore.values.IntegerValue source_template_id = 2;</code>
+     * <code>.dstore.values.IntegerValue source_template_id = 2;</code>
      */
     public boolean hasSourceTemplateId() {
       return sourceTemplateId_ != null;
     }
     /**
-     * <code>optional .dstore.values.IntegerValue source_template_id = 2;</code>
+     * <code>.dstore.values.IntegerValue source_template_id = 2;</code>
      */
     public io.dstore.values.IntegerValue getSourceTemplateId() {
       return sourceTemplateId_ == null ? io.dstore.values.IntegerValue.getDefaultInstance() : sourceTemplateId_;
     }
     /**
-     * <code>optional .dstore.values.IntegerValue source_template_id = 2;</code>
+     * <code>.dstore.values.IntegerValue source_template_id = 2;</code>
      */
     public io.dstore.values.IntegerValueOrBuilder getSourceTemplateIdOrBuilder() {
       return getSourceTemplateId();
@@ -208,7 +208,7 @@ public final class ImSetTemplateAd {
     public static final int SOURCE_TEMPLATE_ID_NULL_FIELD_NUMBER = 1002;
     private boolean sourceTemplateIdNull_;
     /**
-     * <code>optional bool source_template_id_null = 1002;</code>
+     * <code>bool source_template_id_null = 1002;</code>
      */
     public boolean getSourceTemplateIdNull() {
       return sourceTemplateIdNull_;
@@ -300,7 +300,7 @@ public final class ImSetTemplateAd {
         return memoizedHashCode;
       }
       int hash = 41;
-      hash = (19 * hash) + getDescriptorForType().hashCode();
+      hash = (19 * hash) + getDescriptor().hashCode();
       if (hasTargetTemplateId()) {
         hash = (37 * hash) + TARGET_TEMPLATE_ID_FIELD_NUMBER;
         hash = (53 * hash) + getTargetTemplateId().hashCode();
@@ -566,13 +566,13 @@ public final class ImSetTemplateAd {
       private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> targetTemplateIdBuilder_;
       /**
-       * <code>optional .dstore.values.IntegerValue target_template_id = 1;</code>
+       * <code>.dstore.values.IntegerValue target_template_id = 1;</code>
        */
       public boolean hasTargetTemplateId() {
         return targetTemplateIdBuilder_ != null || targetTemplateId_ != null;
       }
       /**
-       * <code>optional .dstore.values.IntegerValue target_template_id = 1;</code>
+       * <code>.dstore.values.IntegerValue target_template_id = 1;</code>
        */
       public io.dstore.values.IntegerValue getTargetTemplateId() {
         if (targetTemplateIdBuilder_ == null) {
@@ -582,7 +582,7 @@ public final class ImSetTemplateAd {
         }
       }
       /**
-       * <code>optional .dstore.values.IntegerValue target_template_id = 1;</code>
+       * <code>.dstore.values.IntegerValue target_template_id = 1;</code>
        */
       public Builder setTargetTemplateId(io.dstore.values.IntegerValue value) {
         if (targetTemplateIdBuilder_ == null) {
@@ -598,7 +598,7 @@ public final class ImSetTemplateAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.IntegerValue target_template_id = 1;</code>
+       * <code>.dstore.values.IntegerValue target_template_id = 1;</code>
        */
       public Builder setTargetTemplateId(
           io.dstore.values.IntegerValue.Builder builderForValue) {
@@ -612,7 +612,7 @@ public final class ImSetTemplateAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.IntegerValue target_template_id = 1;</code>
+       * <code>.dstore.values.IntegerValue target_template_id = 1;</code>
        */
       public Builder mergeTargetTemplateId(io.dstore.values.IntegerValue value) {
         if (targetTemplateIdBuilder_ == null) {
@@ -630,7 +630,7 @@ public final class ImSetTemplateAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.IntegerValue target_template_id = 1;</code>
+       * <code>.dstore.values.IntegerValue target_template_id = 1;</code>
        */
       public Builder clearTargetTemplateId() {
         if (targetTemplateIdBuilder_ == null) {
@@ -644,7 +644,7 @@ public final class ImSetTemplateAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.IntegerValue target_template_id = 1;</code>
+       * <code>.dstore.values.IntegerValue target_template_id = 1;</code>
        */
       public io.dstore.values.IntegerValue.Builder getTargetTemplateIdBuilder() {
         
@@ -652,7 +652,7 @@ public final class ImSetTemplateAd {
         return getTargetTemplateIdFieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .dstore.values.IntegerValue target_template_id = 1;</code>
+       * <code>.dstore.values.IntegerValue target_template_id = 1;</code>
        */
       public io.dstore.values.IntegerValueOrBuilder getTargetTemplateIdOrBuilder() {
         if (targetTemplateIdBuilder_ != null) {
@@ -663,7 +663,7 @@ public final class ImSetTemplateAd {
         }
       }
       /**
-       * <code>optional .dstore.values.IntegerValue target_template_id = 1;</code>
+       * <code>.dstore.values.IntegerValue target_template_id = 1;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> 
@@ -681,13 +681,13 @@ public final class ImSetTemplateAd {
 
       private boolean targetTemplateIdNull_ ;
       /**
-       * <code>optional bool target_template_id_null = 1001;</code>
+       * <code>bool target_template_id_null = 1001;</code>
        */
       public boolean getTargetTemplateIdNull() {
         return targetTemplateIdNull_;
       }
       /**
-       * <code>optional bool target_template_id_null = 1001;</code>
+       * <code>bool target_template_id_null = 1001;</code>
        */
       public Builder setTargetTemplateIdNull(boolean value) {
         
@@ -696,7 +696,7 @@ public final class ImSetTemplateAd {
         return this;
       }
       /**
-       * <code>optional bool target_template_id_null = 1001;</code>
+       * <code>bool target_template_id_null = 1001;</code>
        */
       public Builder clearTargetTemplateIdNull() {
         
@@ -709,13 +709,13 @@ public final class ImSetTemplateAd {
       private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> sourceTemplateIdBuilder_;
       /**
-       * <code>optional .dstore.values.IntegerValue source_template_id = 2;</code>
+       * <code>.dstore.values.IntegerValue source_template_id = 2;</code>
        */
       public boolean hasSourceTemplateId() {
         return sourceTemplateIdBuilder_ != null || sourceTemplateId_ != null;
       }
       /**
-       * <code>optional .dstore.values.IntegerValue source_template_id = 2;</code>
+       * <code>.dstore.values.IntegerValue source_template_id = 2;</code>
        */
       public io.dstore.values.IntegerValue getSourceTemplateId() {
         if (sourceTemplateIdBuilder_ == null) {
@@ -725,7 +725,7 @@ public final class ImSetTemplateAd {
         }
       }
       /**
-       * <code>optional .dstore.values.IntegerValue source_template_id = 2;</code>
+       * <code>.dstore.values.IntegerValue source_template_id = 2;</code>
        */
       public Builder setSourceTemplateId(io.dstore.values.IntegerValue value) {
         if (sourceTemplateIdBuilder_ == null) {
@@ -741,7 +741,7 @@ public final class ImSetTemplateAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.IntegerValue source_template_id = 2;</code>
+       * <code>.dstore.values.IntegerValue source_template_id = 2;</code>
        */
       public Builder setSourceTemplateId(
           io.dstore.values.IntegerValue.Builder builderForValue) {
@@ -755,7 +755,7 @@ public final class ImSetTemplateAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.IntegerValue source_template_id = 2;</code>
+       * <code>.dstore.values.IntegerValue source_template_id = 2;</code>
        */
       public Builder mergeSourceTemplateId(io.dstore.values.IntegerValue value) {
         if (sourceTemplateIdBuilder_ == null) {
@@ -773,7 +773,7 @@ public final class ImSetTemplateAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.IntegerValue source_template_id = 2;</code>
+       * <code>.dstore.values.IntegerValue source_template_id = 2;</code>
        */
       public Builder clearSourceTemplateId() {
         if (sourceTemplateIdBuilder_ == null) {
@@ -787,7 +787,7 @@ public final class ImSetTemplateAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.IntegerValue source_template_id = 2;</code>
+       * <code>.dstore.values.IntegerValue source_template_id = 2;</code>
        */
       public io.dstore.values.IntegerValue.Builder getSourceTemplateIdBuilder() {
         
@@ -795,7 +795,7 @@ public final class ImSetTemplateAd {
         return getSourceTemplateIdFieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .dstore.values.IntegerValue source_template_id = 2;</code>
+       * <code>.dstore.values.IntegerValue source_template_id = 2;</code>
        */
       public io.dstore.values.IntegerValueOrBuilder getSourceTemplateIdOrBuilder() {
         if (sourceTemplateIdBuilder_ != null) {
@@ -806,7 +806,7 @@ public final class ImSetTemplateAd {
         }
       }
       /**
-       * <code>optional .dstore.values.IntegerValue source_template_id = 2;</code>
+       * <code>.dstore.values.IntegerValue source_template_id = 2;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> 
@@ -824,13 +824,13 @@ public final class ImSetTemplateAd {
 
       private boolean sourceTemplateIdNull_ ;
       /**
-       * <code>optional bool source_template_id_null = 1002;</code>
+       * <code>bool source_template_id_null = 1002;</code>
        */
       public boolean getSourceTemplateIdNull() {
         return sourceTemplateIdNull_;
       }
       /**
-       * <code>optional bool source_template_id_null = 1002;</code>
+       * <code>bool source_template_id_null = 1002;</code>
        */
       public Builder setSourceTemplateIdNull(boolean value) {
         
@@ -839,7 +839,7 @@ public final class ImSetTemplateAd {
         return this;
       }
       /**
-       * <code>optional bool source_template_id_null = 1002;</code>
+       * <code>bool source_template_id_null = 1002;</code>
        */
       public Builder clearSourceTemplateIdNull() {
         
@@ -1098,7 +1098,7 @@ public final class ImSetTemplateAd {
         com.google.protobuf.MessageOrBuilder {
 
       /**
-       * <code>optional int32 row_id = 10000;</code>
+       * <code>int32 row_id = 10000;</code>
        */
       int getRowId();
     }
@@ -1173,7 +1173,7 @@ public final class ImSetTemplateAd {
       public static final int ROW_ID_FIELD_NUMBER = 10000;
       private int rowId_;
       /**
-       * <code>optional int32 row_id = 10000;</code>
+       * <code>int32 row_id = 10000;</code>
        */
       public int getRowId() {
         return rowId_;
@@ -1232,7 +1232,7 @@ public final class ImSetTemplateAd {
           return memoizedHashCode;
         }
         int hash = 41;
-        hash = (19 * hash) + getDescriptorForType().hashCode();
+        hash = (19 * hash) + getDescriptor().hashCode();
         hash = (37 * hash) + ROW_ID_FIELD_NUMBER;
         hash = (53 * hash) + getRowId();
         hash = (29 * hash) + unknownFields.hashCode();
@@ -1450,13 +1450,13 @@ public final class ImSetTemplateAd {
 
         private int rowId_ ;
         /**
-         * <code>optional int32 row_id = 10000;</code>
+         * <code>int32 row_id = 10000;</code>
          */
         public int getRowId() {
           return rowId_;
         }
         /**
-         * <code>optional int32 row_id = 10000;</code>
+         * <code>int32 row_id = 10000;</code>
          */
         public Builder setRowId(int value) {
           
@@ -1465,7 +1465,7 @@ public final class ImSetTemplateAd {
           return this;
         }
         /**
-         * <code>optional int32 row_id = 10000;</code>
+         * <code>int32 row_id = 10000;</code>
          */
         public Builder clearRowId() {
           
@@ -1718,7 +1718,7 @@ public final class ImSetTemplateAd {
         return memoizedHashCode;
       }
       int hash = 41;
-      hash = (19 * hash) + getDescriptorForType().hashCode();
+      hash = (19 * hash) + getDescriptor().hashCode();
       if (getMetaInformationCount() > 0) {
         hash = (37 * hash) + META_INFORMATION_FIELD_NUMBER;
         hash = (53 * hash) + getMetaInformationList().hashCode();

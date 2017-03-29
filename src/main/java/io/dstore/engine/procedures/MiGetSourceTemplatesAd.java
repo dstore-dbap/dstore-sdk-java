@@ -123,7 +123,7 @@ public final class MiGetSourceTemplatesAd {
         return memoizedHashCode;
       }
       int hash = 41;
-      hash = (19 * hash) + getDescriptorForType().hashCode();
+      hash = (19 * hash) + getDescriptor().hashCode();
       hash = (29 * hash) + unknownFields.hashCode();
       memoizedHashCode = hash;
       return hash;
@@ -581,7 +581,7 @@ public final class MiGetSourceTemplatesAd {
         com.google.protobuf.MessageOrBuilder {
 
       /**
-       * <code>optional int32 row_id = 10000;</code>
+       * <code>int32 row_id = 10000;</code>
        */
       int getRowId();
 
@@ -590,7 +590,7 @@ public final class MiGetSourceTemplatesAd {
        * Bezeichnung des Templates "TemplateID"
        * </pre>
        *
-       * <code>optional .dstore.values.StringValue description = 10001;</code>
+       * <code>.dstore.values.StringValue description = 10001;</code>
        */
       boolean hasDescription();
       /**
@@ -598,7 +598,7 @@ public final class MiGetSourceTemplatesAd {
        * Bezeichnung des Templates "TemplateID"
        * </pre>
        *
-       * <code>optional .dstore.values.StringValue description = 10001;</code>
+       * <code>.dstore.values.StringValue description = 10001;</code>
        */
       io.dstore.values.StringValue getDescription();
       /**
@@ -606,7 +606,7 @@ public final class MiGetSourceTemplatesAd {
        * Bezeichnung des Templates "TemplateID"
        * </pre>
        *
-       * <code>optional .dstore.values.StringValue description = 10001;</code>
+       * <code>.dstore.values.StringValue description = 10001;</code>
        */
       io.dstore.values.StringValueOrBuilder getDescriptionOrBuilder();
 
@@ -615,7 +615,7 @@ public final class MiGetSourceTemplatesAd {
        * ID eines "SourceTemplates". Damit ist eine Art "Kontext" gemeint, unter dem ein "Elelement" dargestellt wird. Z.B. soll die Produktansicht eines Artikel-Elementes in einem Suchergebnis anders sein als in der "Normalansicht".
        * </pre>
        *
-       * <code>optional .dstore.values.IntegerValue template_id = 10002;</code>
+       * <code>.dstore.values.IntegerValue template_id = 10002;</code>
        */
       boolean hasTemplateId();
       /**
@@ -623,7 +623,7 @@ public final class MiGetSourceTemplatesAd {
        * ID eines "SourceTemplates". Damit ist eine Art "Kontext" gemeint, unter dem ein "Elelement" dargestellt wird. Z.B. soll die Produktansicht eines Artikel-Elementes in einem Suchergebnis anders sein als in der "Normalansicht".
        * </pre>
        *
-       * <code>optional .dstore.values.IntegerValue template_id = 10002;</code>
+       * <code>.dstore.values.IntegerValue template_id = 10002;</code>
        */
       io.dstore.values.IntegerValue getTemplateId();
       /**
@@ -631,7 +631,7 @@ public final class MiGetSourceTemplatesAd {
        * ID eines "SourceTemplates". Damit ist eine Art "Kontext" gemeint, unter dem ein "Elelement" dargestellt wird. Z.B. soll die Produktansicht eines Artikel-Elementes in einem Suchergebnis anders sein als in der "Normalansicht".
        * </pre>
        *
-       * <code>optional .dstore.values.IntegerValue template_id = 10002;</code>
+       * <code>.dstore.values.IntegerValue template_id = 10002;</code>
        */
       io.dstore.values.IntegerValueOrBuilder getTemplateIdOrBuilder();
     }
@@ -732,7 +732,7 @@ public final class MiGetSourceTemplatesAd {
       public static final int ROW_ID_FIELD_NUMBER = 10000;
       private int rowId_;
       /**
-       * <code>optional int32 row_id = 10000;</code>
+       * <code>int32 row_id = 10000;</code>
        */
       public int getRowId() {
         return rowId_;
@@ -745,7 +745,7 @@ public final class MiGetSourceTemplatesAd {
        * Bezeichnung des Templates "TemplateID"
        * </pre>
        *
-       * <code>optional .dstore.values.StringValue description = 10001;</code>
+       * <code>.dstore.values.StringValue description = 10001;</code>
        */
       public boolean hasDescription() {
         return description_ != null;
@@ -755,7 +755,7 @@ public final class MiGetSourceTemplatesAd {
        * Bezeichnung des Templates "TemplateID"
        * </pre>
        *
-       * <code>optional .dstore.values.StringValue description = 10001;</code>
+       * <code>.dstore.values.StringValue description = 10001;</code>
        */
       public io.dstore.values.StringValue getDescription() {
         return description_ == null ? io.dstore.values.StringValue.getDefaultInstance() : description_;
@@ -765,7 +765,7 @@ public final class MiGetSourceTemplatesAd {
        * Bezeichnung des Templates "TemplateID"
        * </pre>
        *
-       * <code>optional .dstore.values.StringValue description = 10001;</code>
+       * <code>.dstore.values.StringValue description = 10001;</code>
        */
       public io.dstore.values.StringValueOrBuilder getDescriptionOrBuilder() {
         return getDescription();
@@ -778,7 +778,7 @@ public final class MiGetSourceTemplatesAd {
        * ID eines "SourceTemplates". Damit ist eine Art "Kontext" gemeint, unter dem ein "Elelement" dargestellt wird. Z.B. soll die Produktansicht eines Artikel-Elementes in einem Suchergebnis anders sein als in der "Normalansicht".
        * </pre>
        *
-       * <code>optional .dstore.values.IntegerValue template_id = 10002;</code>
+       * <code>.dstore.values.IntegerValue template_id = 10002;</code>
        */
       public boolean hasTemplateId() {
         return templateId_ != null;
@@ -788,7 +788,7 @@ public final class MiGetSourceTemplatesAd {
        * ID eines "SourceTemplates". Damit ist eine Art "Kontext" gemeint, unter dem ein "Elelement" dargestellt wird. Z.B. soll die Produktansicht eines Artikel-Elementes in einem Suchergebnis anders sein als in der "Normalansicht".
        * </pre>
        *
-       * <code>optional .dstore.values.IntegerValue template_id = 10002;</code>
+       * <code>.dstore.values.IntegerValue template_id = 10002;</code>
        */
       public io.dstore.values.IntegerValue getTemplateId() {
         return templateId_ == null ? io.dstore.values.IntegerValue.getDefaultInstance() : templateId_;
@@ -798,7 +798,7 @@ public final class MiGetSourceTemplatesAd {
        * ID eines "SourceTemplates". Damit ist eine Art "Kontext" gemeint, unter dem ein "Elelement" dargestellt wird. Z.B. soll die Produktansicht eines Artikel-Elementes in einem Suchergebnis anders sein als in der "Normalansicht".
        * </pre>
        *
-       * <code>optional .dstore.values.IntegerValue template_id = 10002;</code>
+       * <code>.dstore.values.IntegerValue template_id = 10002;</code>
        */
       public io.dstore.values.IntegerValueOrBuilder getTemplateIdOrBuilder() {
         return getTemplateId();
@@ -881,7 +881,7 @@ public final class MiGetSourceTemplatesAd {
           return memoizedHashCode;
         }
         int hash = 41;
-        hash = (19 * hash) + getDescriptorForType().hashCode();
+        hash = (19 * hash) + getDescriptor().hashCode();
         hash = (37 * hash) + ROW_ID_FIELD_NUMBER;
         hash = (53 * hash) + getRowId();
         if (hasDescription()) {
@@ -1135,13 +1135,13 @@ public final class MiGetSourceTemplatesAd {
 
         private int rowId_ ;
         /**
-         * <code>optional int32 row_id = 10000;</code>
+         * <code>int32 row_id = 10000;</code>
          */
         public int getRowId() {
           return rowId_;
         }
         /**
-         * <code>optional int32 row_id = 10000;</code>
+         * <code>int32 row_id = 10000;</code>
          */
         public Builder setRowId(int value) {
           
@@ -1150,7 +1150,7 @@ public final class MiGetSourceTemplatesAd {
           return this;
         }
         /**
-         * <code>optional int32 row_id = 10000;</code>
+         * <code>int32 row_id = 10000;</code>
          */
         public Builder clearRowId() {
           
@@ -1167,7 +1167,7 @@ public final class MiGetSourceTemplatesAd {
          * Bezeichnung des Templates "TemplateID"
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue description = 10001;</code>
+         * <code>.dstore.values.StringValue description = 10001;</code>
          */
         public boolean hasDescription() {
           return descriptionBuilder_ != null || description_ != null;
@@ -1177,7 +1177,7 @@ public final class MiGetSourceTemplatesAd {
          * Bezeichnung des Templates "TemplateID"
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue description = 10001;</code>
+         * <code>.dstore.values.StringValue description = 10001;</code>
          */
         public io.dstore.values.StringValue getDescription() {
           if (descriptionBuilder_ == null) {
@@ -1191,7 +1191,7 @@ public final class MiGetSourceTemplatesAd {
          * Bezeichnung des Templates "TemplateID"
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue description = 10001;</code>
+         * <code>.dstore.values.StringValue description = 10001;</code>
          */
         public Builder setDescription(io.dstore.values.StringValue value) {
           if (descriptionBuilder_ == null) {
@@ -1211,7 +1211,7 @@ public final class MiGetSourceTemplatesAd {
          * Bezeichnung des Templates "TemplateID"
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue description = 10001;</code>
+         * <code>.dstore.values.StringValue description = 10001;</code>
          */
         public Builder setDescription(
             io.dstore.values.StringValue.Builder builderForValue) {
@@ -1229,7 +1229,7 @@ public final class MiGetSourceTemplatesAd {
          * Bezeichnung des Templates "TemplateID"
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue description = 10001;</code>
+         * <code>.dstore.values.StringValue description = 10001;</code>
          */
         public Builder mergeDescription(io.dstore.values.StringValue value) {
           if (descriptionBuilder_ == null) {
@@ -1251,7 +1251,7 @@ public final class MiGetSourceTemplatesAd {
          * Bezeichnung des Templates "TemplateID"
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue description = 10001;</code>
+         * <code>.dstore.values.StringValue description = 10001;</code>
          */
         public Builder clearDescription() {
           if (descriptionBuilder_ == null) {
@@ -1269,7 +1269,7 @@ public final class MiGetSourceTemplatesAd {
          * Bezeichnung des Templates "TemplateID"
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue description = 10001;</code>
+         * <code>.dstore.values.StringValue description = 10001;</code>
          */
         public io.dstore.values.StringValue.Builder getDescriptionBuilder() {
           
@@ -1281,7 +1281,7 @@ public final class MiGetSourceTemplatesAd {
          * Bezeichnung des Templates "TemplateID"
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue description = 10001;</code>
+         * <code>.dstore.values.StringValue description = 10001;</code>
          */
         public io.dstore.values.StringValueOrBuilder getDescriptionOrBuilder() {
           if (descriptionBuilder_ != null) {
@@ -1296,7 +1296,7 @@ public final class MiGetSourceTemplatesAd {
          * Bezeichnung des Templates "TemplateID"
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue description = 10001;</code>
+         * <code>.dstore.values.StringValue description = 10001;</code>
          */
         private com.google.protobuf.SingleFieldBuilderV3<
             io.dstore.values.StringValue, io.dstore.values.StringValue.Builder, io.dstore.values.StringValueOrBuilder> 
@@ -1320,7 +1320,7 @@ public final class MiGetSourceTemplatesAd {
          * ID eines "SourceTemplates". Damit ist eine Art "Kontext" gemeint, unter dem ein "Elelement" dargestellt wird. Z.B. soll die Produktansicht eines Artikel-Elementes in einem Suchergebnis anders sein als in der "Normalansicht".
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue template_id = 10002;</code>
+         * <code>.dstore.values.IntegerValue template_id = 10002;</code>
          */
         public boolean hasTemplateId() {
           return templateIdBuilder_ != null || templateId_ != null;
@@ -1330,7 +1330,7 @@ public final class MiGetSourceTemplatesAd {
          * ID eines "SourceTemplates". Damit ist eine Art "Kontext" gemeint, unter dem ein "Elelement" dargestellt wird. Z.B. soll die Produktansicht eines Artikel-Elementes in einem Suchergebnis anders sein als in der "Normalansicht".
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue template_id = 10002;</code>
+         * <code>.dstore.values.IntegerValue template_id = 10002;</code>
          */
         public io.dstore.values.IntegerValue getTemplateId() {
           if (templateIdBuilder_ == null) {
@@ -1344,7 +1344,7 @@ public final class MiGetSourceTemplatesAd {
          * ID eines "SourceTemplates". Damit ist eine Art "Kontext" gemeint, unter dem ein "Elelement" dargestellt wird. Z.B. soll die Produktansicht eines Artikel-Elementes in einem Suchergebnis anders sein als in der "Normalansicht".
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue template_id = 10002;</code>
+         * <code>.dstore.values.IntegerValue template_id = 10002;</code>
          */
         public Builder setTemplateId(io.dstore.values.IntegerValue value) {
           if (templateIdBuilder_ == null) {
@@ -1364,7 +1364,7 @@ public final class MiGetSourceTemplatesAd {
          * ID eines "SourceTemplates". Damit ist eine Art "Kontext" gemeint, unter dem ein "Elelement" dargestellt wird. Z.B. soll die Produktansicht eines Artikel-Elementes in einem Suchergebnis anders sein als in der "Normalansicht".
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue template_id = 10002;</code>
+         * <code>.dstore.values.IntegerValue template_id = 10002;</code>
          */
         public Builder setTemplateId(
             io.dstore.values.IntegerValue.Builder builderForValue) {
@@ -1382,7 +1382,7 @@ public final class MiGetSourceTemplatesAd {
          * ID eines "SourceTemplates". Damit ist eine Art "Kontext" gemeint, unter dem ein "Elelement" dargestellt wird. Z.B. soll die Produktansicht eines Artikel-Elementes in einem Suchergebnis anders sein als in der "Normalansicht".
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue template_id = 10002;</code>
+         * <code>.dstore.values.IntegerValue template_id = 10002;</code>
          */
         public Builder mergeTemplateId(io.dstore.values.IntegerValue value) {
           if (templateIdBuilder_ == null) {
@@ -1404,7 +1404,7 @@ public final class MiGetSourceTemplatesAd {
          * ID eines "SourceTemplates". Damit ist eine Art "Kontext" gemeint, unter dem ein "Elelement" dargestellt wird. Z.B. soll die Produktansicht eines Artikel-Elementes in einem Suchergebnis anders sein als in der "Normalansicht".
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue template_id = 10002;</code>
+         * <code>.dstore.values.IntegerValue template_id = 10002;</code>
          */
         public Builder clearTemplateId() {
           if (templateIdBuilder_ == null) {
@@ -1422,7 +1422,7 @@ public final class MiGetSourceTemplatesAd {
          * ID eines "SourceTemplates". Damit ist eine Art "Kontext" gemeint, unter dem ein "Elelement" dargestellt wird. Z.B. soll die Produktansicht eines Artikel-Elementes in einem Suchergebnis anders sein als in der "Normalansicht".
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue template_id = 10002;</code>
+         * <code>.dstore.values.IntegerValue template_id = 10002;</code>
          */
         public io.dstore.values.IntegerValue.Builder getTemplateIdBuilder() {
           
@@ -1434,7 +1434,7 @@ public final class MiGetSourceTemplatesAd {
          * ID eines "SourceTemplates". Damit ist eine Art "Kontext" gemeint, unter dem ein "Elelement" dargestellt wird. Z.B. soll die Produktansicht eines Artikel-Elementes in einem Suchergebnis anders sein als in der "Normalansicht".
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue template_id = 10002;</code>
+         * <code>.dstore.values.IntegerValue template_id = 10002;</code>
          */
         public io.dstore.values.IntegerValueOrBuilder getTemplateIdOrBuilder() {
           if (templateIdBuilder_ != null) {
@@ -1449,7 +1449,7 @@ public final class MiGetSourceTemplatesAd {
          * ID eines "SourceTemplates". Damit ist eine Art "Kontext" gemeint, unter dem ein "Elelement" dargestellt wird. Z.B. soll die Produktansicht eines Artikel-Elementes in einem Suchergebnis anders sein als in der "Normalansicht".
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue template_id = 10002;</code>
+         * <code>.dstore.values.IntegerValue template_id = 10002;</code>
          */
         private com.google.protobuf.SingleFieldBuilderV3<
             io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> 
@@ -1709,7 +1709,7 @@ public final class MiGetSourceTemplatesAd {
         return memoizedHashCode;
       }
       int hash = 41;
-      hash = (19 * hash) + getDescriptorForType().hashCode();
+      hash = (19 * hash) + getDescriptor().hashCode();
       if (getMetaInformationCount() > 0) {
         hash = (37 * hash) + META_INFORMATION_FIELD_NUMBER;
         hash = (53 * hash) + getMetaInformationList().hashCode();

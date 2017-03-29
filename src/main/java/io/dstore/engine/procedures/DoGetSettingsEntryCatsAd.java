@@ -19,20 +19,20 @@ public final class DoGetSettingsEntryCatsAd {
       com.google.protobuf.MessageOrBuilder {
 
     /**
-     * <code>optional .dstore.values.IntegerValue settings_entry_category_id = 1;</code>
+     * <code>.dstore.values.IntegerValue settings_entry_category_id = 1;</code>
      */
     boolean hasSettingsEntryCategoryId();
     /**
-     * <code>optional .dstore.values.IntegerValue settings_entry_category_id = 1;</code>
+     * <code>.dstore.values.IntegerValue settings_entry_category_id = 1;</code>
      */
     io.dstore.values.IntegerValue getSettingsEntryCategoryId();
     /**
-     * <code>optional .dstore.values.IntegerValue settings_entry_category_id = 1;</code>
+     * <code>.dstore.values.IntegerValue settings_entry_category_id = 1;</code>
      */
     io.dstore.values.IntegerValueOrBuilder getSettingsEntryCategoryIdOrBuilder();
 
     /**
-     * <code>optional bool settings_entry_category_id_null = 1001;</code>
+     * <code>bool settings_entry_category_id_null = 1001;</code>
      */
     boolean getSettingsEntryCategoryIdNull();
   }
@@ -120,19 +120,19 @@ public final class DoGetSettingsEntryCatsAd {
     public static final int SETTINGS_ENTRY_CATEGORY_ID_FIELD_NUMBER = 1;
     private io.dstore.values.IntegerValue settingsEntryCategoryId_;
     /**
-     * <code>optional .dstore.values.IntegerValue settings_entry_category_id = 1;</code>
+     * <code>.dstore.values.IntegerValue settings_entry_category_id = 1;</code>
      */
     public boolean hasSettingsEntryCategoryId() {
       return settingsEntryCategoryId_ != null;
     }
     /**
-     * <code>optional .dstore.values.IntegerValue settings_entry_category_id = 1;</code>
+     * <code>.dstore.values.IntegerValue settings_entry_category_id = 1;</code>
      */
     public io.dstore.values.IntegerValue getSettingsEntryCategoryId() {
       return settingsEntryCategoryId_ == null ? io.dstore.values.IntegerValue.getDefaultInstance() : settingsEntryCategoryId_;
     }
     /**
-     * <code>optional .dstore.values.IntegerValue settings_entry_category_id = 1;</code>
+     * <code>.dstore.values.IntegerValue settings_entry_category_id = 1;</code>
      */
     public io.dstore.values.IntegerValueOrBuilder getSettingsEntryCategoryIdOrBuilder() {
       return getSettingsEntryCategoryId();
@@ -141,7 +141,7 @@ public final class DoGetSettingsEntryCatsAd {
     public static final int SETTINGS_ENTRY_CATEGORY_ID_NULL_FIELD_NUMBER = 1001;
     private boolean settingsEntryCategoryIdNull_;
     /**
-     * <code>optional bool settings_entry_category_id_null = 1001;</code>
+     * <code>bool settings_entry_category_id_null = 1001;</code>
      */
     public boolean getSettingsEntryCategoryIdNull() {
       return settingsEntryCategoryIdNull_;
@@ -212,7 +212,7 @@ public final class DoGetSettingsEntryCatsAd {
         return memoizedHashCode;
       }
       int hash = 41;
-      hash = (19 * hash) + getDescriptorForType().hashCode();
+      hash = (19 * hash) + getDescriptor().hashCode();
       if (hasSettingsEntryCategoryId()) {
         hash = (37 * hash) + SETTINGS_ENTRY_CATEGORY_ID_FIELD_NUMBER;
         hash = (53 * hash) + getSettingsEntryCategoryId().hashCode();
@@ -451,13 +451,13 @@ public final class DoGetSettingsEntryCatsAd {
       private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> settingsEntryCategoryIdBuilder_;
       /**
-       * <code>optional .dstore.values.IntegerValue settings_entry_category_id = 1;</code>
+       * <code>.dstore.values.IntegerValue settings_entry_category_id = 1;</code>
        */
       public boolean hasSettingsEntryCategoryId() {
         return settingsEntryCategoryIdBuilder_ != null || settingsEntryCategoryId_ != null;
       }
       /**
-       * <code>optional .dstore.values.IntegerValue settings_entry_category_id = 1;</code>
+       * <code>.dstore.values.IntegerValue settings_entry_category_id = 1;</code>
        */
       public io.dstore.values.IntegerValue getSettingsEntryCategoryId() {
         if (settingsEntryCategoryIdBuilder_ == null) {
@@ -467,7 +467,7 @@ public final class DoGetSettingsEntryCatsAd {
         }
       }
       /**
-       * <code>optional .dstore.values.IntegerValue settings_entry_category_id = 1;</code>
+       * <code>.dstore.values.IntegerValue settings_entry_category_id = 1;</code>
        */
       public Builder setSettingsEntryCategoryId(io.dstore.values.IntegerValue value) {
         if (settingsEntryCategoryIdBuilder_ == null) {
@@ -483,7 +483,7 @@ public final class DoGetSettingsEntryCatsAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.IntegerValue settings_entry_category_id = 1;</code>
+       * <code>.dstore.values.IntegerValue settings_entry_category_id = 1;</code>
        */
       public Builder setSettingsEntryCategoryId(
           io.dstore.values.IntegerValue.Builder builderForValue) {
@@ -497,7 +497,7 @@ public final class DoGetSettingsEntryCatsAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.IntegerValue settings_entry_category_id = 1;</code>
+       * <code>.dstore.values.IntegerValue settings_entry_category_id = 1;</code>
        */
       public Builder mergeSettingsEntryCategoryId(io.dstore.values.IntegerValue value) {
         if (settingsEntryCategoryIdBuilder_ == null) {
@@ -515,7 +515,7 @@ public final class DoGetSettingsEntryCatsAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.IntegerValue settings_entry_category_id = 1;</code>
+       * <code>.dstore.values.IntegerValue settings_entry_category_id = 1;</code>
        */
       public Builder clearSettingsEntryCategoryId() {
         if (settingsEntryCategoryIdBuilder_ == null) {
@@ -529,7 +529,7 @@ public final class DoGetSettingsEntryCatsAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.IntegerValue settings_entry_category_id = 1;</code>
+       * <code>.dstore.values.IntegerValue settings_entry_category_id = 1;</code>
        */
       public io.dstore.values.IntegerValue.Builder getSettingsEntryCategoryIdBuilder() {
         
@@ -537,7 +537,7 @@ public final class DoGetSettingsEntryCatsAd {
         return getSettingsEntryCategoryIdFieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .dstore.values.IntegerValue settings_entry_category_id = 1;</code>
+       * <code>.dstore.values.IntegerValue settings_entry_category_id = 1;</code>
        */
       public io.dstore.values.IntegerValueOrBuilder getSettingsEntryCategoryIdOrBuilder() {
         if (settingsEntryCategoryIdBuilder_ != null) {
@@ -548,7 +548,7 @@ public final class DoGetSettingsEntryCatsAd {
         }
       }
       /**
-       * <code>optional .dstore.values.IntegerValue settings_entry_category_id = 1;</code>
+       * <code>.dstore.values.IntegerValue settings_entry_category_id = 1;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> 
@@ -566,13 +566,13 @@ public final class DoGetSettingsEntryCatsAd {
 
       private boolean settingsEntryCategoryIdNull_ ;
       /**
-       * <code>optional bool settings_entry_category_id_null = 1001;</code>
+       * <code>bool settings_entry_category_id_null = 1001;</code>
        */
       public boolean getSettingsEntryCategoryIdNull() {
         return settingsEntryCategoryIdNull_;
       }
       /**
-       * <code>optional bool settings_entry_category_id_null = 1001;</code>
+       * <code>bool settings_entry_category_id_null = 1001;</code>
        */
       public Builder setSettingsEntryCategoryIdNull(boolean value) {
         
@@ -581,7 +581,7 @@ public final class DoGetSettingsEntryCatsAd {
         return this;
       }
       /**
-       * <code>optional bool settings_entry_category_id_null = 1001;</code>
+       * <code>bool settings_entry_category_id_null = 1001;</code>
        */
       public Builder clearSettingsEntryCategoryIdNull() {
         
@@ -840,7 +840,7 @@ public final class DoGetSettingsEntryCatsAd {
         com.google.protobuf.MessageOrBuilder {
 
       /**
-       * <code>optional int32 row_id = 10000;</code>
+       * <code>int32 row_id = 10000;</code>
        */
       int getRowId();
 
@@ -849,7 +849,7 @@ public final class DoGetSettingsEntryCatsAd {
        * ID einer Kategorie von Settings-Einträgen
        * </pre>
        *
-       * <code>optional .dstore.values.IntegerValue settings_entry_category_id = 10001;</code>
+       * <code>.dstore.values.IntegerValue settings_entry_category_id = 10001;</code>
        */
       boolean hasSettingsEntryCategoryId();
       /**
@@ -857,7 +857,7 @@ public final class DoGetSettingsEntryCatsAd {
        * ID einer Kategorie von Settings-Einträgen
        * </pre>
        *
-       * <code>optional .dstore.values.IntegerValue settings_entry_category_id = 10001;</code>
+       * <code>.dstore.values.IntegerValue settings_entry_category_id = 10001;</code>
        */
       io.dstore.values.IntegerValue getSettingsEntryCategoryId();
       /**
@@ -865,7 +865,7 @@ public final class DoGetSettingsEntryCatsAd {
        * ID einer Kategorie von Settings-Einträgen
        * </pre>
        *
-       * <code>optional .dstore.values.IntegerValue settings_entry_category_id = 10001;</code>
+       * <code>.dstore.values.IntegerValue settings_entry_category_id = 10001;</code>
        */
       io.dstore.values.IntegerValueOrBuilder getSettingsEntryCategoryIdOrBuilder();
 
@@ -874,7 +874,7 @@ public final class DoGetSettingsEntryCatsAd {
        * Bezeichnung der Kategorie "SettingEntryCategoryID"
        * </pre>
        *
-       * <code>optional .dstore.values.StringValue settings_entry_category = 10002;</code>
+       * <code>.dstore.values.StringValue settings_entry_category = 10002;</code>
        */
       boolean hasSettingsEntryCategory();
       /**
@@ -882,7 +882,7 @@ public final class DoGetSettingsEntryCatsAd {
        * Bezeichnung der Kategorie "SettingEntryCategoryID"
        * </pre>
        *
-       * <code>optional .dstore.values.StringValue settings_entry_category = 10002;</code>
+       * <code>.dstore.values.StringValue settings_entry_category = 10002;</code>
        */
       io.dstore.values.StringValue getSettingsEntryCategory();
       /**
@@ -890,7 +890,7 @@ public final class DoGetSettingsEntryCatsAd {
        * Bezeichnung der Kategorie "SettingEntryCategoryID"
        * </pre>
        *
-       * <code>optional .dstore.values.StringValue settings_entry_category = 10002;</code>
+       * <code>.dstore.values.StringValue settings_entry_category = 10002;</code>
        */
       io.dstore.values.StringValueOrBuilder getSettingsEntryCategoryOrBuilder();
     }
@@ -991,7 +991,7 @@ public final class DoGetSettingsEntryCatsAd {
       public static final int ROW_ID_FIELD_NUMBER = 10000;
       private int rowId_;
       /**
-       * <code>optional int32 row_id = 10000;</code>
+       * <code>int32 row_id = 10000;</code>
        */
       public int getRowId() {
         return rowId_;
@@ -1004,7 +1004,7 @@ public final class DoGetSettingsEntryCatsAd {
        * ID einer Kategorie von Settings-Einträgen
        * </pre>
        *
-       * <code>optional .dstore.values.IntegerValue settings_entry_category_id = 10001;</code>
+       * <code>.dstore.values.IntegerValue settings_entry_category_id = 10001;</code>
        */
       public boolean hasSettingsEntryCategoryId() {
         return settingsEntryCategoryId_ != null;
@@ -1014,7 +1014,7 @@ public final class DoGetSettingsEntryCatsAd {
        * ID einer Kategorie von Settings-Einträgen
        * </pre>
        *
-       * <code>optional .dstore.values.IntegerValue settings_entry_category_id = 10001;</code>
+       * <code>.dstore.values.IntegerValue settings_entry_category_id = 10001;</code>
        */
       public io.dstore.values.IntegerValue getSettingsEntryCategoryId() {
         return settingsEntryCategoryId_ == null ? io.dstore.values.IntegerValue.getDefaultInstance() : settingsEntryCategoryId_;
@@ -1024,7 +1024,7 @@ public final class DoGetSettingsEntryCatsAd {
        * ID einer Kategorie von Settings-Einträgen
        * </pre>
        *
-       * <code>optional .dstore.values.IntegerValue settings_entry_category_id = 10001;</code>
+       * <code>.dstore.values.IntegerValue settings_entry_category_id = 10001;</code>
        */
       public io.dstore.values.IntegerValueOrBuilder getSettingsEntryCategoryIdOrBuilder() {
         return getSettingsEntryCategoryId();
@@ -1037,7 +1037,7 @@ public final class DoGetSettingsEntryCatsAd {
        * Bezeichnung der Kategorie "SettingEntryCategoryID"
        * </pre>
        *
-       * <code>optional .dstore.values.StringValue settings_entry_category = 10002;</code>
+       * <code>.dstore.values.StringValue settings_entry_category = 10002;</code>
        */
       public boolean hasSettingsEntryCategory() {
         return settingsEntryCategory_ != null;
@@ -1047,7 +1047,7 @@ public final class DoGetSettingsEntryCatsAd {
        * Bezeichnung der Kategorie "SettingEntryCategoryID"
        * </pre>
        *
-       * <code>optional .dstore.values.StringValue settings_entry_category = 10002;</code>
+       * <code>.dstore.values.StringValue settings_entry_category = 10002;</code>
        */
       public io.dstore.values.StringValue getSettingsEntryCategory() {
         return settingsEntryCategory_ == null ? io.dstore.values.StringValue.getDefaultInstance() : settingsEntryCategory_;
@@ -1057,7 +1057,7 @@ public final class DoGetSettingsEntryCatsAd {
        * Bezeichnung der Kategorie "SettingEntryCategoryID"
        * </pre>
        *
-       * <code>optional .dstore.values.StringValue settings_entry_category = 10002;</code>
+       * <code>.dstore.values.StringValue settings_entry_category = 10002;</code>
        */
       public io.dstore.values.StringValueOrBuilder getSettingsEntryCategoryOrBuilder() {
         return getSettingsEntryCategory();
@@ -1140,7 +1140,7 @@ public final class DoGetSettingsEntryCatsAd {
           return memoizedHashCode;
         }
         int hash = 41;
-        hash = (19 * hash) + getDescriptorForType().hashCode();
+        hash = (19 * hash) + getDescriptor().hashCode();
         hash = (37 * hash) + ROW_ID_FIELD_NUMBER;
         hash = (53 * hash) + getRowId();
         if (hasSettingsEntryCategoryId()) {
@@ -1394,13 +1394,13 @@ public final class DoGetSettingsEntryCatsAd {
 
         private int rowId_ ;
         /**
-         * <code>optional int32 row_id = 10000;</code>
+         * <code>int32 row_id = 10000;</code>
          */
         public int getRowId() {
           return rowId_;
         }
         /**
-         * <code>optional int32 row_id = 10000;</code>
+         * <code>int32 row_id = 10000;</code>
          */
         public Builder setRowId(int value) {
           
@@ -1409,7 +1409,7 @@ public final class DoGetSettingsEntryCatsAd {
           return this;
         }
         /**
-         * <code>optional int32 row_id = 10000;</code>
+         * <code>int32 row_id = 10000;</code>
          */
         public Builder clearRowId() {
           
@@ -1426,7 +1426,7 @@ public final class DoGetSettingsEntryCatsAd {
          * ID einer Kategorie von Settings-Einträgen
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue settings_entry_category_id = 10001;</code>
+         * <code>.dstore.values.IntegerValue settings_entry_category_id = 10001;</code>
          */
         public boolean hasSettingsEntryCategoryId() {
           return settingsEntryCategoryIdBuilder_ != null || settingsEntryCategoryId_ != null;
@@ -1436,7 +1436,7 @@ public final class DoGetSettingsEntryCatsAd {
          * ID einer Kategorie von Settings-Einträgen
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue settings_entry_category_id = 10001;</code>
+         * <code>.dstore.values.IntegerValue settings_entry_category_id = 10001;</code>
          */
         public io.dstore.values.IntegerValue getSettingsEntryCategoryId() {
           if (settingsEntryCategoryIdBuilder_ == null) {
@@ -1450,7 +1450,7 @@ public final class DoGetSettingsEntryCatsAd {
          * ID einer Kategorie von Settings-Einträgen
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue settings_entry_category_id = 10001;</code>
+         * <code>.dstore.values.IntegerValue settings_entry_category_id = 10001;</code>
          */
         public Builder setSettingsEntryCategoryId(io.dstore.values.IntegerValue value) {
           if (settingsEntryCategoryIdBuilder_ == null) {
@@ -1470,7 +1470,7 @@ public final class DoGetSettingsEntryCatsAd {
          * ID einer Kategorie von Settings-Einträgen
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue settings_entry_category_id = 10001;</code>
+         * <code>.dstore.values.IntegerValue settings_entry_category_id = 10001;</code>
          */
         public Builder setSettingsEntryCategoryId(
             io.dstore.values.IntegerValue.Builder builderForValue) {
@@ -1488,7 +1488,7 @@ public final class DoGetSettingsEntryCatsAd {
          * ID einer Kategorie von Settings-Einträgen
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue settings_entry_category_id = 10001;</code>
+         * <code>.dstore.values.IntegerValue settings_entry_category_id = 10001;</code>
          */
         public Builder mergeSettingsEntryCategoryId(io.dstore.values.IntegerValue value) {
           if (settingsEntryCategoryIdBuilder_ == null) {
@@ -1510,7 +1510,7 @@ public final class DoGetSettingsEntryCatsAd {
          * ID einer Kategorie von Settings-Einträgen
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue settings_entry_category_id = 10001;</code>
+         * <code>.dstore.values.IntegerValue settings_entry_category_id = 10001;</code>
          */
         public Builder clearSettingsEntryCategoryId() {
           if (settingsEntryCategoryIdBuilder_ == null) {
@@ -1528,7 +1528,7 @@ public final class DoGetSettingsEntryCatsAd {
          * ID einer Kategorie von Settings-Einträgen
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue settings_entry_category_id = 10001;</code>
+         * <code>.dstore.values.IntegerValue settings_entry_category_id = 10001;</code>
          */
         public io.dstore.values.IntegerValue.Builder getSettingsEntryCategoryIdBuilder() {
           
@@ -1540,7 +1540,7 @@ public final class DoGetSettingsEntryCatsAd {
          * ID einer Kategorie von Settings-Einträgen
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue settings_entry_category_id = 10001;</code>
+         * <code>.dstore.values.IntegerValue settings_entry_category_id = 10001;</code>
          */
         public io.dstore.values.IntegerValueOrBuilder getSettingsEntryCategoryIdOrBuilder() {
           if (settingsEntryCategoryIdBuilder_ != null) {
@@ -1555,7 +1555,7 @@ public final class DoGetSettingsEntryCatsAd {
          * ID einer Kategorie von Settings-Einträgen
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue settings_entry_category_id = 10001;</code>
+         * <code>.dstore.values.IntegerValue settings_entry_category_id = 10001;</code>
          */
         private com.google.protobuf.SingleFieldBuilderV3<
             io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> 
@@ -1579,7 +1579,7 @@ public final class DoGetSettingsEntryCatsAd {
          * Bezeichnung der Kategorie "SettingEntryCategoryID"
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue settings_entry_category = 10002;</code>
+         * <code>.dstore.values.StringValue settings_entry_category = 10002;</code>
          */
         public boolean hasSettingsEntryCategory() {
           return settingsEntryCategoryBuilder_ != null || settingsEntryCategory_ != null;
@@ -1589,7 +1589,7 @@ public final class DoGetSettingsEntryCatsAd {
          * Bezeichnung der Kategorie "SettingEntryCategoryID"
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue settings_entry_category = 10002;</code>
+         * <code>.dstore.values.StringValue settings_entry_category = 10002;</code>
          */
         public io.dstore.values.StringValue getSettingsEntryCategory() {
           if (settingsEntryCategoryBuilder_ == null) {
@@ -1603,7 +1603,7 @@ public final class DoGetSettingsEntryCatsAd {
          * Bezeichnung der Kategorie "SettingEntryCategoryID"
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue settings_entry_category = 10002;</code>
+         * <code>.dstore.values.StringValue settings_entry_category = 10002;</code>
          */
         public Builder setSettingsEntryCategory(io.dstore.values.StringValue value) {
           if (settingsEntryCategoryBuilder_ == null) {
@@ -1623,7 +1623,7 @@ public final class DoGetSettingsEntryCatsAd {
          * Bezeichnung der Kategorie "SettingEntryCategoryID"
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue settings_entry_category = 10002;</code>
+         * <code>.dstore.values.StringValue settings_entry_category = 10002;</code>
          */
         public Builder setSettingsEntryCategory(
             io.dstore.values.StringValue.Builder builderForValue) {
@@ -1641,7 +1641,7 @@ public final class DoGetSettingsEntryCatsAd {
          * Bezeichnung der Kategorie "SettingEntryCategoryID"
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue settings_entry_category = 10002;</code>
+         * <code>.dstore.values.StringValue settings_entry_category = 10002;</code>
          */
         public Builder mergeSettingsEntryCategory(io.dstore.values.StringValue value) {
           if (settingsEntryCategoryBuilder_ == null) {
@@ -1663,7 +1663,7 @@ public final class DoGetSettingsEntryCatsAd {
          * Bezeichnung der Kategorie "SettingEntryCategoryID"
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue settings_entry_category = 10002;</code>
+         * <code>.dstore.values.StringValue settings_entry_category = 10002;</code>
          */
         public Builder clearSettingsEntryCategory() {
           if (settingsEntryCategoryBuilder_ == null) {
@@ -1681,7 +1681,7 @@ public final class DoGetSettingsEntryCatsAd {
          * Bezeichnung der Kategorie "SettingEntryCategoryID"
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue settings_entry_category = 10002;</code>
+         * <code>.dstore.values.StringValue settings_entry_category = 10002;</code>
          */
         public io.dstore.values.StringValue.Builder getSettingsEntryCategoryBuilder() {
           
@@ -1693,7 +1693,7 @@ public final class DoGetSettingsEntryCatsAd {
          * Bezeichnung der Kategorie "SettingEntryCategoryID"
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue settings_entry_category = 10002;</code>
+         * <code>.dstore.values.StringValue settings_entry_category = 10002;</code>
          */
         public io.dstore.values.StringValueOrBuilder getSettingsEntryCategoryOrBuilder() {
           if (settingsEntryCategoryBuilder_ != null) {
@@ -1708,7 +1708,7 @@ public final class DoGetSettingsEntryCatsAd {
          * Bezeichnung der Kategorie "SettingEntryCategoryID"
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue settings_entry_category = 10002;</code>
+         * <code>.dstore.values.StringValue settings_entry_category = 10002;</code>
          */
         private com.google.protobuf.SingleFieldBuilderV3<
             io.dstore.values.StringValue, io.dstore.values.StringValue.Builder, io.dstore.values.StringValueOrBuilder> 
@@ -1968,7 +1968,7 @@ public final class DoGetSettingsEntryCatsAd {
         return memoizedHashCode;
       }
       int hash = 41;
-      hash = (19 * hash) + getDescriptorForType().hashCode();
+      hash = (19 * hash) + getDescriptor().hashCode();
       if (getMetaInformationCount() > 0) {
         hash = (37 * hash) + META_INFORMATION_FIELD_NUMBER;
         hash = (53 * hash) + getMetaInformationList().hashCode();

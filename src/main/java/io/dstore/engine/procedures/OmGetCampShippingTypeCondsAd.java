@@ -19,20 +19,20 @@ public final class OmGetCampShippingTypeCondsAd {
       com.google.protobuf.MessageOrBuilder {
 
     /**
-     * <code>optional .dstore.values.IntegerValue condition_id = 1;</code>
+     * <code>.dstore.values.IntegerValue condition_id = 1;</code>
      */
     boolean hasConditionId();
     /**
-     * <code>optional .dstore.values.IntegerValue condition_id = 1;</code>
+     * <code>.dstore.values.IntegerValue condition_id = 1;</code>
      */
     io.dstore.values.IntegerValue getConditionId();
     /**
-     * <code>optional .dstore.values.IntegerValue condition_id = 1;</code>
+     * <code>.dstore.values.IntegerValue condition_id = 1;</code>
      */
     io.dstore.values.IntegerValueOrBuilder getConditionIdOrBuilder();
 
     /**
-     * <code>optional bool condition_id_null = 1001;</code>
+     * <code>bool condition_id_null = 1001;</code>
      */
     boolean getConditionIdNull();
   }
@@ -120,19 +120,19 @@ public final class OmGetCampShippingTypeCondsAd {
     public static final int CONDITION_ID_FIELD_NUMBER = 1;
     private io.dstore.values.IntegerValue conditionId_;
     /**
-     * <code>optional .dstore.values.IntegerValue condition_id = 1;</code>
+     * <code>.dstore.values.IntegerValue condition_id = 1;</code>
      */
     public boolean hasConditionId() {
       return conditionId_ != null;
     }
     /**
-     * <code>optional .dstore.values.IntegerValue condition_id = 1;</code>
+     * <code>.dstore.values.IntegerValue condition_id = 1;</code>
      */
     public io.dstore.values.IntegerValue getConditionId() {
       return conditionId_ == null ? io.dstore.values.IntegerValue.getDefaultInstance() : conditionId_;
     }
     /**
-     * <code>optional .dstore.values.IntegerValue condition_id = 1;</code>
+     * <code>.dstore.values.IntegerValue condition_id = 1;</code>
      */
     public io.dstore.values.IntegerValueOrBuilder getConditionIdOrBuilder() {
       return getConditionId();
@@ -141,7 +141,7 @@ public final class OmGetCampShippingTypeCondsAd {
     public static final int CONDITION_ID_NULL_FIELD_NUMBER = 1001;
     private boolean conditionIdNull_;
     /**
-     * <code>optional bool condition_id_null = 1001;</code>
+     * <code>bool condition_id_null = 1001;</code>
      */
     public boolean getConditionIdNull() {
       return conditionIdNull_;
@@ -212,7 +212,7 @@ public final class OmGetCampShippingTypeCondsAd {
         return memoizedHashCode;
       }
       int hash = 41;
-      hash = (19 * hash) + getDescriptorForType().hashCode();
+      hash = (19 * hash) + getDescriptor().hashCode();
       if (hasConditionId()) {
         hash = (37 * hash) + CONDITION_ID_FIELD_NUMBER;
         hash = (53 * hash) + getConditionId().hashCode();
@@ -451,13 +451,13 @@ public final class OmGetCampShippingTypeCondsAd {
       private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> conditionIdBuilder_;
       /**
-       * <code>optional .dstore.values.IntegerValue condition_id = 1;</code>
+       * <code>.dstore.values.IntegerValue condition_id = 1;</code>
        */
       public boolean hasConditionId() {
         return conditionIdBuilder_ != null || conditionId_ != null;
       }
       /**
-       * <code>optional .dstore.values.IntegerValue condition_id = 1;</code>
+       * <code>.dstore.values.IntegerValue condition_id = 1;</code>
        */
       public io.dstore.values.IntegerValue getConditionId() {
         if (conditionIdBuilder_ == null) {
@@ -467,7 +467,7 @@ public final class OmGetCampShippingTypeCondsAd {
         }
       }
       /**
-       * <code>optional .dstore.values.IntegerValue condition_id = 1;</code>
+       * <code>.dstore.values.IntegerValue condition_id = 1;</code>
        */
       public Builder setConditionId(io.dstore.values.IntegerValue value) {
         if (conditionIdBuilder_ == null) {
@@ -483,7 +483,7 @@ public final class OmGetCampShippingTypeCondsAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.IntegerValue condition_id = 1;</code>
+       * <code>.dstore.values.IntegerValue condition_id = 1;</code>
        */
       public Builder setConditionId(
           io.dstore.values.IntegerValue.Builder builderForValue) {
@@ -497,7 +497,7 @@ public final class OmGetCampShippingTypeCondsAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.IntegerValue condition_id = 1;</code>
+       * <code>.dstore.values.IntegerValue condition_id = 1;</code>
        */
       public Builder mergeConditionId(io.dstore.values.IntegerValue value) {
         if (conditionIdBuilder_ == null) {
@@ -515,7 +515,7 @@ public final class OmGetCampShippingTypeCondsAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.IntegerValue condition_id = 1;</code>
+       * <code>.dstore.values.IntegerValue condition_id = 1;</code>
        */
       public Builder clearConditionId() {
         if (conditionIdBuilder_ == null) {
@@ -529,7 +529,7 @@ public final class OmGetCampShippingTypeCondsAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.IntegerValue condition_id = 1;</code>
+       * <code>.dstore.values.IntegerValue condition_id = 1;</code>
        */
       public io.dstore.values.IntegerValue.Builder getConditionIdBuilder() {
         
@@ -537,7 +537,7 @@ public final class OmGetCampShippingTypeCondsAd {
         return getConditionIdFieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .dstore.values.IntegerValue condition_id = 1;</code>
+       * <code>.dstore.values.IntegerValue condition_id = 1;</code>
        */
       public io.dstore.values.IntegerValueOrBuilder getConditionIdOrBuilder() {
         if (conditionIdBuilder_ != null) {
@@ -548,7 +548,7 @@ public final class OmGetCampShippingTypeCondsAd {
         }
       }
       /**
-       * <code>optional .dstore.values.IntegerValue condition_id = 1;</code>
+       * <code>.dstore.values.IntegerValue condition_id = 1;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> 
@@ -566,13 +566,13 @@ public final class OmGetCampShippingTypeCondsAd {
 
       private boolean conditionIdNull_ ;
       /**
-       * <code>optional bool condition_id_null = 1001;</code>
+       * <code>bool condition_id_null = 1001;</code>
        */
       public boolean getConditionIdNull() {
         return conditionIdNull_;
       }
       /**
-       * <code>optional bool condition_id_null = 1001;</code>
+       * <code>bool condition_id_null = 1001;</code>
        */
       public Builder setConditionIdNull(boolean value) {
         
@@ -581,7 +581,7 @@ public final class OmGetCampShippingTypeCondsAd {
         return this;
       }
       /**
-       * <code>optional bool condition_id_null = 1001;</code>
+       * <code>bool condition_id_null = 1001;</code>
        */
       public Builder clearConditionIdNull() {
         
@@ -840,7 +840,7 @@ public final class OmGetCampShippingTypeCondsAd {
         com.google.protobuf.MessageOrBuilder {
 
       /**
-       * <code>optional int32 row_id = 10000;</code>
+       * <code>int32 row_id = 10000;</code>
        */
       int getRowId();
 
@@ -849,7 +849,7 @@ public final class OmGetCampShippingTypeCondsAd {
        * Liste von "ShippingTypeID"s (durch "," getrennt), die besagt, daß je nach "NegateFilter" eine der angegebenen Versandsarten ausgewählt sein muß oder eben NICHT ausgewählt sein darf (um die Bedingung zu erfüllen)
        * </pre>
        *
-       * <code>optional .dstore.values.StringValue filter_by_shipping_type_ids = 10001;</code>
+       * <code>.dstore.values.StringValue filter_by_shipping_type_ids = 10001;</code>
        */
       boolean hasFilterByShippingTypeIds();
       /**
@@ -857,7 +857,7 @@ public final class OmGetCampShippingTypeCondsAd {
        * Liste von "ShippingTypeID"s (durch "," getrennt), die besagt, daß je nach "NegateFilter" eine der angegebenen Versandsarten ausgewählt sein muß oder eben NICHT ausgewählt sein darf (um die Bedingung zu erfüllen)
        * </pre>
        *
-       * <code>optional .dstore.values.StringValue filter_by_shipping_type_ids = 10001;</code>
+       * <code>.dstore.values.StringValue filter_by_shipping_type_ids = 10001;</code>
        */
       io.dstore.values.StringValue getFilterByShippingTypeIds();
       /**
@@ -865,7 +865,7 @@ public final class OmGetCampShippingTypeCondsAd {
        * Liste von "ShippingTypeID"s (durch "," getrennt), die besagt, daß je nach "NegateFilter" eine der angegebenen Versandsarten ausgewählt sein muß oder eben NICHT ausgewählt sein darf (um die Bedingung zu erfüllen)
        * </pre>
        *
-       * <code>optional .dstore.values.StringValue filter_by_shipping_type_ids = 10001;</code>
+       * <code>.dstore.values.StringValue filter_by_shipping_type_ids = 10001;</code>
        */
       io.dstore.values.StringValueOrBuilder getFilterByShippingTypeIdsOrBuilder();
 
@@ -874,7 +874,7 @@ public final class OmGetCampShippingTypeCondsAd {
        * ID einer "Versandsart-Bedingung" (derzeit natürlich immer identisch mit "&#64;ConditionID")
        * </pre>
        *
-       * <code>optional .dstore.values.IntegerValue condition_id = 10002;</code>
+       * <code>.dstore.values.IntegerValue condition_id = 10002;</code>
        */
       boolean hasConditionId();
       /**
@@ -882,7 +882,7 @@ public final class OmGetCampShippingTypeCondsAd {
        * ID einer "Versandsart-Bedingung" (derzeit natürlich immer identisch mit "&#64;ConditionID")
        * </pre>
        *
-       * <code>optional .dstore.values.IntegerValue condition_id = 10002;</code>
+       * <code>.dstore.values.IntegerValue condition_id = 10002;</code>
        */
       io.dstore.values.IntegerValue getConditionId();
       /**
@@ -890,7 +890,7 @@ public final class OmGetCampShippingTypeCondsAd {
        * ID einer "Versandsart-Bedingung" (derzeit natürlich immer identisch mit "&#64;ConditionID")
        * </pre>
        *
-       * <code>optional .dstore.values.IntegerValue condition_id = 10002;</code>
+       * <code>.dstore.values.IntegerValue condition_id = 10002;</code>
        */
       io.dstore.values.IntegerValueOrBuilder getConditionIdOrBuilder();
 
@@ -899,7 +899,7 @@ public final class OmGetCampShippingTypeCondsAd {
        * Gibt an, ob eine der in "FilterByShippingTypeIDs" angegebenen Versandsarten ausgewählt sein muß ("0") oder NICHT ausgewählt sein darf ("1") um die Bedingung zu erfüllen
        * </pre>
        *
-       * <code>optional .dstore.values.BooleanValue negate_filter = 10003;</code>
+       * <code>.dstore.values.BooleanValue negate_filter = 10003;</code>
        */
       boolean hasNegateFilter();
       /**
@@ -907,7 +907,7 @@ public final class OmGetCampShippingTypeCondsAd {
        * Gibt an, ob eine der in "FilterByShippingTypeIDs" angegebenen Versandsarten ausgewählt sein muß ("0") oder NICHT ausgewählt sein darf ("1") um die Bedingung zu erfüllen
        * </pre>
        *
-       * <code>optional .dstore.values.BooleanValue negate_filter = 10003;</code>
+       * <code>.dstore.values.BooleanValue negate_filter = 10003;</code>
        */
       io.dstore.values.BooleanValue getNegateFilter();
       /**
@@ -915,7 +915,7 @@ public final class OmGetCampShippingTypeCondsAd {
        * Gibt an, ob eine der in "FilterByShippingTypeIDs" angegebenen Versandsarten ausgewählt sein muß ("0") oder NICHT ausgewählt sein darf ("1") um die Bedingung zu erfüllen
        * </pre>
        *
-       * <code>optional .dstore.values.BooleanValue negate_filter = 10003;</code>
+       * <code>.dstore.values.BooleanValue negate_filter = 10003;</code>
        */
       io.dstore.values.BooleanValueOrBuilder getNegateFilterOrBuilder();
     }
@@ -1029,7 +1029,7 @@ public final class OmGetCampShippingTypeCondsAd {
       public static final int ROW_ID_FIELD_NUMBER = 10000;
       private int rowId_;
       /**
-       * <code>optional int32 row_id = 10000;</code>
+       * <code>int32 row_id = 10000;</code>
        */
       public int getRowId() {
         return rowId_;
@@ -1042,7 +1042,7 @@ public final class OmGetCampShippingTypeCondsAd {
        * Liste von "ShippingTypeID"s (durch "," getrennt), die besagt, daß je nach "NegateFilter" eine der angegebenen Versandsarten ausgewählt sein muß oder eben NICHT ausgewählt sein darf (um die Bedingung zu erfüllen)
        * </pre>
        *
-       * <code>optional .dstore.values.StringValue filter_by_shipping_type_ids = 10001;</code>
+       * <code>.dstore.values.StringValue filter_by_shipping_type_ids = 10001;</code>
        */
       public boolean hasFilterByShippingTypeIds() {
         return filterByShippingTypeIds_ != null;
@@ -1052,7 +1052,7 @@ public final class OmGetCampShippingTypeCondsAd {
        * Liste von "ShippingTypeID"s (durch "," getrennt), die besagt, daß je nach "NegateFilter" eine der angegebenen Versandsarten ausgewählt sein muß oder eben NICHT ausgewählt sein darf (um die Bedingung zu erfüllen)
        * </pre>
        *
-       * <code>optional .dstore.values.StringValue filter_by_shipping_type_ids = 10001;</code>
+       * <code>.dstore.values.StringValue filter_by_shipping_type_ids = 10001;</code>
        */
       public io.dstore.values.StringValue getFilterByShippingTypeIds() {
         return filterByShippingTypeIds_ == null ? io.dstore.values.StringValue.getDefaultInstance() : filterByShippingTypeIds_;
@@ -1062,7 +1062,7 @@ public final class OmGetCampShippingTypeCondsAd {
        * Liste von "ShippingTypeID"s (durch "," getrennt), die besagt, daß je nach "NegateFilter" eine der angegebenen Versandsarten ausgewählt sein muß oder eben NICHT ausgewählt sein darf (um die Bedingung zu erfüllen)
        * </pre>
        *
-       * <code>optional .dstore.values.StringValue filter_by_shipping_type_ids = 10001;</code>
+       * <code>.dstore.values.StringValue filter_by_shipping_type_ids = 10001;</code>
        */
       public io.dstore.values.StringValueOrBuilder getFilterByShippingTypeIdsOrBuilder() {
         return getFilterByShippingTypeIds();
@@ -1075,7 +1075,7 @@ public final class OmGetCampShippingTypeCondsAd {
        * ID einer "Versandsart-Bedingung" (derzeit natürlich immer identisch mit "&#64;ConditionID")
        * </pre>
        *
-       * <code>optional .dstore.values.IntegerValue condition_id = 10002;</code>
+       * <code>.dstore.values.IntegerValue condition_id = 10002;</code>
        */
       public boolean hasConditionId() {
         return conditionId_ != null;
@@ -1085,7 +1085,7 @@ public final class OmGetCampShippingTypeCondsAd {
        * ID einer "Versandsart-Bedingung" (derzeit natürlich immer identisch mit "&#64;ConditionID")
        * </pre>
        *
-       * <code>optional .dstore.values.IntegerValue condition_id = 10002;</code>
+       * <code>.dstore.values.IntegerValue condition_id = 10002;</code>
        */
       public io.dstore.values.IntegerValue getConditionId() {
         return conditionId_ == null ? io.dstore.values.IntegerValue.getDefaultInstance() : conditionId_;
@@ -1095,7 +1095,7 @@ public final class OmGetCampShippingTypeCondsAd {
        * ID einer "Versandsart-Bedingung" (derzeit natürlich immer identisch mit "&#64;ConditionID")
        * </pre>
        *
-       * <code>optional .dstore.values.IntegerValue condition_id = 10002;</code>
+       * <code>.dstore.values.IntegerValue condition_id = 10002;</code>
        */
       public io.dstore.values.IntegerValueOrBuilder getConditionIdOrBuilder() {
         return getConditionId();
@@ -1108,7 +1108,7 @@ public final class OmGetCampShippingTypeCondsAd {
        * Gibt an, ob eine der in "FilterByShippingTypeIDs" angegebenen Versandsarten ausgewählt sein muß ("0") oder NICHT ausgewählt sein darf ("1") um die Bedingung zu erfüllen
        * </pre>
        *
-       * <code>optional .dstore.values.BooleanValue negate_filter = 10003;</code>
+       * <code>.dstore.values.BooleanValue negate_filter = 10003;</code>
        */
       public boolean hasNegateFilter() {
         return negateFilter_ != null;
@@ -1118,7 +1118,7 @@ public final class OmGetCampShippingTypeCondsAd {
        * Gibt an, ob eine der in "FilterByShippingTypeIDs" angegebenen Versandsarten ausgewählt sein muß ("0") oder NICHT ausgewählt sein darf ("1") um die Bedingung zu erfüllen
        * </pre>
        *
-       * <code>optional .dstore.values.BooleanValue negate_filter = 10003;</code>
+       * <code>.dstore.values.BooleanValue negate_filter = 10003;</code>
        */
       public io.dstore.values.BooleanValue getNegateFilter() {
         return negateFilter_ == null ? io.dstore.values.BooleanValue.getDefaultInstance() : negateFilter_;
@@ -1128,7 +1128,7 @@ public final class OmGetCampShippingTypeCondsAd {
        * Gibt an, ob eine der in "FilterByShippingTypeIDs" angegebenen Versandsarten ausgewählt sein muß ("0") oder NICHT ausgewählt sein darf ("1") um die Bedingung zu erfüllen
        * </pre>
        *
-       * <code>optional .dstore.values.BooleanValue negate_filter = 10003;</code>
+       * <code>.dstore.values.BooleanValue negate_filter = 10003;</code>
        */
       public io.dstore.values.BooleanValueOrBuilder getNegateFilterOrBuilder() {
         return getNegateFilter();
@@ -1223,7 +1223,7 @@ public final class OmGetCampShippingTypeCondsAd {
           return memoizedHashCode;
         }
         int hash = 41;
-        hash = (19 * hash) + getDescriptorForType().hashCode();
+        hash = (19 * hash) + getDescriptor().hashCode();
         hash = (37 * hash) + ROW_ID_FIELD_NUMBER;
         hash = (53 * hash) + getRowId();
         if (hasFilterByShippingTypeIds()) {
@@ -1495,13 +1495,13 @@ public final class OmGetCampShippingTypeCondsAd {
 
         private int rowId_ ;
         /**
-         * <code>optional int32 row_id = 10000;</code>
+         * <code>int32 row_id = 10000;</code>
          */
         public int getRowId() {
           return rowId_;
         }
         /**
-         * <code>optional int32 row_id = 10000;</code>
+         * <code>int32 row_id = 10000;</code>
          */
         public Builder setRowId(int value) {
           
@@ -1510,7 +1510,7 @@ public final class OmGetCampShippingTypeCondsAd {
           return this;
         }
         /**
-         * <code>optional int32 row_id = 10000;</code>
+         * <code>int32 row_id = 10000;</code>
          */
         public Builder clearRowId() {
           
@@ -1527,7 +1527,7 @@ public final class OmGetCampShippingTypeCondsAd {
          * Liste von "ShippingTypeID"s (durch "," getrennt), die besagt, daß je nach "NegateFilter" eine der angegebenen Versandsarten ausgewählt sein muß oder eben NICHT ausgewählt sein darf (um die Bedingung zu erfüllen)
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue filter_by_shipping_type_ids = 10001;</code>
+         * <code>.dstore.values.StringValue filter_by_shipping_type_ids = 10001;</code>
          */
         public boolean hasFilterByShippingTypeIds() {
           return filterByShippingTypeIdsBuilder_ != null || filterByShippingTypeIds_ != null;
@@ -1537,7 +1537,7 @@ public final class OmGetCampShippingTypeCondsAd {
          * Liste von "ShippingTypeID"s (durch "," getrennt), die besagt, daß je nach "NegateFilter" eine der angegebenen Versandsarten ausgewählt sein muß oder eben NICHT ausgewählt sein darf (um die Bedingung zu erfüllen)
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue filter_by_shipping_type_ids = 10001;</code>
+         * <code>.dstore.values.StringValue filter_by_shipping_type_ids = 10001;</code>
          */
         public io.dstore.values.StringValue getFilterByShippingTypeIds() {
           if (filterByShippingTypeIdsBuilder_ == null) {
@@ -1551,7 +1551,7 @@ public final class OmGetCampShippingTypeCondsAd {
          * Liste von "ShippingTypeID"s (durch "," getrennt), die besagt, daß je nach "NegateFilter" eine der angegebenen Versandsarten ausgewählt sein muß oder eben NICHT ausgewählt sein darf (um die Bedingung zu erfüllen)
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue filter_by_shipping_type_ids = 10001;</code>
+         * <code>.dstore.values.StringValue filter_by_shipping_type_ids = 10001;</code>
          */
         public Builder setFilterByShippingTypeIds(io.dstore.values.StringValue value) {
           if (filterByShippingTypeIdsBuilder_ == null) {
@@ -1571,7 +1571,7 @@ public final class OmGetCampShippingTypeCondsAd {
          * Liste von "ShippingTypeID"s (durch "," getrennt), die besagt, daß je nach "NegateFilter" eine der angegebenen Versandsarten ausgewählt sein muß oder eben NICHT ausgewählt sein darf (um die Bedingung zu erfüllen)
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue filter_by_shipping_type_ids = 10001;</code>
+         * <code>.dstore.values.StringValue filter_by_shipping_type_ids = 10001;</code>
          */
         public Builder setFilterByShippingTypeIds(
             io.dstore.values.StringValue.Builder builderForValue) {
@@ -1589,7 +1589,7 @@ public final class OmGetCampShippingTypeCondsAd {
          * Liste von "ShippingTypeID"s (durch "," getrennt), die besagt, daß je nach "NegateFilter" eine der angegebenen Versandsarten ausgewählt sein muß oder eben NICHT ausgewählt sein darf (um die Bedingung zu erfüllen)
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue filter_by_shipping_type_ids = 10001;</code>
+         * <code>.dstore.values.StringValue filter_by_shipping_type_ids = 10001;</code>
          */
         public Builder mergeFilterByShippingTypeIds(io.dstore.values.StringValue value) {
           if (filterByShippingTypeIdsBuilder_ == null) {
@@ -1611,7 +1611,7 @@ public final class OmGetCampShippingTypeCondsAd {
          * Liste von "ShippingTypeID"s (durch "," getrennt), die besagt, daß je nach "NegateFilter" eine der angegebenen Versandsarten ausgewählt sein muß oder eben NICHT ausgewählt sein darf (um die Bedingung zu erfüllen)
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue filter_by_shipping_type_ids = 10001;</code>
+         * <code>.dstore.values.StringValue filter_by_shipping_type_ids = 10001;</code>
          */
         public Builder clearFilterByShippingTypeIds() {
           if (filterByShippingTypeIdsBuilder_ == null) {
@@ -1629,7 +1629,7 @@ public final class OmGetCampShippingTypeCondsAd {
          * Liste von "ShippingTypeID"s (durch "," getrennt), die besagt, daß je nach "NegateFilter" eine der angegebenen Versandsarten ausgewählt sein muß oder eben NICHT ausgewählt sein darf (um die Bedingung zu erfüllen)
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue filter_by_shipping_type_ids = 10001;</code>
+         * <code>.dstore.values.StringValue filter_by_shipping_type_ids = 10001;</code>
          */
         public io.dstore.values.StringValue.Builder getFilterByShippingTypeIdsBuilder() {
           
@@ -1641,7 +1641,7 @@ public final class OmGetCampShippingTypeCondsAd {
          * Liste von "ShippingTypeID"s (durch "," getrennt), die besagt, daß je nach "NegateFilter" eine der angegebenen Versandsarten ausgewählt sein muß oder eben NICHT ausgewählt sein darf (um die Bedingung zu erfüllen)
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue filter_by_shipping_type_ids = 10001;</code>
+         * <code>.dstore.values.StringValue filter_by_shipping_type_ids = 10001;</code>
          */
         public io.dstore.values.StringValueOrBuilder getFilterByShippingTypeIdsOrBuilder() {
           if (filterByShippingTypeIdsBuilder_ != null) {
@@ -1656,7 +1656,7 @@ public final class OmGetCampShippingTypeCondsAd {
          * Liste von "ShippingTypeID"s (durch "," getrennt), die besagt, daß je nach "NegateFilter" eine der angegebenen Versandsarten ausgewählt sein muß oder eben NICHT ausgewählt sein darf (um die Bedingung zu erfüllen)
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue filter_by_shipping_type_ids = 10001;</code>
+         * <code>.dstore.values.StringValue filter_by_shipping_type_ids = 10001;</code>
          */
         private com.google.protobuf.SingleFieldBuilderV3<
             io.dstore.values.StringValue, io.dstore.values.StringValue.Builder, io.dstore.values.StringValueOrBuilder> 
@@ -1680,7 +1680,7 @@ public final class OmGetCampShippingTypeCondsAd {
          * ID einer "Versandsart-Bedingung" (derzeit natürlich immer identisch mit "&#64;ConditionID")
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue condition_id = 10002;</code>
+         * <code>.dstore.values.IntegerValue condition_id = 10002;</code>
          */
         public boolean hasConditionId() {
           return conditionIdBuilder_ != null || conditionId_ != null;
@@ -1690,7 +1690,7 @@ public final class OmGetCampShippingTypeCondsAd {
          * ID einer "Versandsart-Bedingung" (derzeit natürlich immer identisch mit "&#64;ConditionID")
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue condition_id = 10002;</code>
+         * <code>.dstore.values.IntegerValue condition_id = 10002;</code>
          */
         public io.dstore.values.IntegerValue getConditionId() {
           if (conditionIdBuilder_ == null) {
@@ -1704,7 +1704,7 @@ public final class OmGetCampShippingTypeCondsAd {
          * ID einer "Versandsart-Bedingung" (derzeit natürlich immer identisch mit "&#64;ConditionID")
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue condition_id = 10002;</code>
+         * <code>.dstore.values.IntegerValue condition_id = 10002;</code>
          */
         public Builder setConditionId(io.dstore.values.IntegerValue value) {
           if (conditionIdBuilder_ == null) {
@@ -1724,7 +1724,7 @@ public final class OmGetCampShippingTypeCondsAd {
          * ID einer "Versandsart-Bedingung" (derzeit natürlich immer identisch mit "&#64;ConditionID")
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue condition_id = 10002;</code>
+         * <code>.dstore.values.IntegerValue condition_id = 10002;</code>
          */
         public Builder setConditionId(
             io.dstore.values.IntegerValue.Builder builderForValue) {
@@ -1742,7 +1742,7 @@ public final class OmGetCampShippingTypeCondsAd {
          * ID einer "Versandsart-Bedingung" (derzeit natürlich immer identisch mit "&#64;ConditionID")
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue condition_id = 10002;</code>
+         * <code>.dstore.values.IntegerValue condition_id = 10002;</code>
          */
         public Builder mergeConditionId(io.dstore.values.IntegerValue value) {
           if (conditionIdBuilder_ == null) {
@@ -1764,7 +1764,7 @@ public final class OmGetCampShippingTypeCondsAd {
          * ID einer "Versandsart-Bedingung" (derzeit natürlich immer identisch mit "&#64;ConditionID")
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue condition_id = 10002;</code>
+         * <code>.dstore.values.IntegerValue condition_id = 10002;</code>
          */
         public Builder clearConditionId() {
           if (conditionIdBuilder_ == null) {
@@ -1782,7 +1782,7 @@ public final class OmGetCampShippingTypeCondsAd {
          * ID einer "Versandsart-Bedingung" (derzeit natürlich immer identisch mit "&#64;ConditionID")
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue condition_id = 10002;</code>
+         * <code>.dstore.values.IntegerValue condition_id = 10002;</code>
          */
         public io.dstore.values.IntegerValue.Builder getConditionIdBuilder() {
           
@@ -1794,7 +1794,7 @@ public final class OmGetCampShippingTypeCondsAd {
          * ID einer "Versandsart-Bedingung" (derzeit natürlich immer identisch mit "&#64;ConditionID")
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue condition_id = 10002;</code>
+         * <code>.dstore.values.IntegerValue condition_id = 10002;</code>
          */
         public io.dstore.values.IntegerValueOrBuilder getConditionIdOrBuilder() {
           if (conditionIdBuilder_ != null) {
@@ -1809,7 +1809,7 @@ public final class OmGetCampShippingTypeCondsAd {
          * ID einer "Versandsart-Bedingung" (derzeit natürlich immer identisch mit "&#64;ConditionID")
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue condition_id = 10002;</code>
+         * <code>.dstore.values.IntegerValue condition_id = 10002;</code>
          */
         private com.google.protobuf.SingleFieldBuilderV3<
             io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> 
@@ -1833,7 +1833,7 @@ public final class OmGetCampShippingTypeCondsAd {
          * Gibt an, ob eine der in "FilterByShippingTypeIDs" angegebenen Versandsarten ausgewählt sein muß ("0") oder NICHT ausgewählt sein darf ("1") um die Bedingung zu erfüllen
          * </pre>
          *
-         * <code>optional .dstore.values.BooleanValue negate_filter = 10003;</code>
+         * <code>.dstore.values.BooleanValue negate_filter = 10003;</code>
          */
         public boolean hasNegateFilter() {
           return negateFilterBuilder_ != null || negateFilter_ != null;
@@ -1843,7 +1843,7 @@ public final class OmGetCampShippingTypeCondsAd {
          * Gibt an, ob eine der in "FilterByShippingTypeIDs" angegebenen Versandsarten ausgewählt sein muß ("0") oder NICHT ausgewählt sein darf ("1") um die Bedingung zu erfüllen
          * </pre>
          *
-         * <code>optional .dstore.values.BooleanValue negate_filter = 10003;</code>
+         * <code>.dstore.values.BooleanValue negate_filter = 10003;</code>
          */
         public io.dstore.values.BooleanValue getNegateFilter() {
           if (negateFilterBuilder_ == null) {
@@ -1857,7 +1857,7 @@ public final class OmGetCampShippingTypeCondsAd {
          * Gibt an, ob eine der in "FilterByShippingTypeIDs" angegebenen Versandsarten ausgewählt sein muß ("0") oder NICHT ausgewählt sein darf ("1") um die Bedingung zu erfüllen
          * </pre>
          *
-         * <code>optional .dstore.values.BooleanValue negate_filter = 10003;</code>
+         * <code>.dstore.values.BooleanValue negate_filter = 10003;</code>
          */
         public Builder setNegateFilter(io.dstore.values.BooleanValue value) {
           if (negateFilterBuilder_ == null) {
@@ -1877,7 +1877,7 @@ public final class OmGetCampShippingTypeCondsAd {
          * Gibt an, ob eine der in "FilterByShippingTypeIDs" angegebenen Versandsarten ausgewählt sein muß ("0") oder NICHT ausgewählt sein darf ("1") um die Bedingung zu erfüllen
          * </pre>
          *
-         * <code>optional .dstore.values.BooleanValue negate_filter = 10003;</code>
+         * <code>.dstore.values.BooleanValue negate_filter = 10003;</code>
          */
         public Builder setNegateFilter(
             io.dstore.values.BooleanValue.Builder builderForValue) {
@@ -1895,7 +1895,7 @@ public final class OmGetCampShippingTypeCondsAd {
          * Gibt an, ob eine der in "FilterByShippingTypeIDs" angegebenen Versandsarten ausgewählt sein muß ("0") oder NICHT ausgewählt sein darf ("1") um die Bedingung zu erfüllen
          * </pre>
          *
-         * <code>optional .dstore.values.BooleanValue negate_filter = 10003;</code>
+         * <code>.dstore.values.BooleanValue negate_filter = 10003;</code>
          */
         public Builder mergeNegateFilter(io.dstore.values.BooleanValue value) {
           if (negateFilterBuilder_ == null) {
@@ -1917,7 +1917,7 @@ public final class OmGetCampShippingTypeCondsAd {
          * Gibt an, ob eine der in "FilterByShippingTypeIDs" angegebenen Versandsarten ausgewählt sein muß ("0") oder NICHT ausgewählt sein darf ("1") um die Bedingung zu erfüllen
          * </pre>
          *
-         * <code>optional .dstore.values.BooleanValue negate_filter = 10003;</code>
+         * <code>.dstore.values.BooleanValue negate_filter = 10003;</code>
          */
         public Builder clearNegateFilter() {
           if (negateFilterBuilder_ == null) {
@@ -1935,7 +1935,7 @@ public final class OmGetCampShippingTypeCondsAd {
          * Gibt an, ob eine der in "FilterByShippingTypeIDs" angegebenen Versandsarten ausgewählt sein muß ("0") oder NICHT ausgewählt sein darf ("1") um die Bedingung zu erfüllen
          * </pre>
          *
-         * <code>optional .dstore.values.BooleanValue negate_filter = 10003;</code>
+         * <code>.dstore.values.BooleanValue negate_filter = 10003;</code>
          */
         public io.dstore.values.BooleanValue.Builder getNegateFilterBuilder() {
           
@@ -1947,7 +1947,7 @@ public final class OmGetCampShippingTypeCondsAd {
          * Gibt an, ob eine der in "FilterByShippingTypeIDs" angegebenen Versandsarten ausgewählt sein muß ("0") oder NICHT ausgewählt sein darf ("1") um die Bedingung zu erfüllen
          * </pre>
          *
-         * <code>optional .dstore.values.BooleanValue negate_filter = 10003;</code>
+         * <code>.dstore.values.BooleanValue negate_filter = 10003;</code>
          */
         public io.dstore.values.BooleanValueOrBuilder getNegateFilterOrBuilder() {
           if (negateFilterBuilder_ != null) {
@@ -1962,7 +1962,7 @@ public final class OmGetCampShippingTypeCondsAd {
          * Gibt an, ob eine der in "FilterByShippingTypeIDs" angegebenen Versandsarten ausgewählt sein muß ("0") oder NICHT ausgewählt sein darf ("1") um die Bedingung zu erfüllen
          * </pre>
          *
-         * <code>optional .dstore.values.BooleanValue negate_filter = 10003;</code>
+         * <code>.dstore.values.BooleanValue negate_filter = 10003;</code>
          */
         private com.google.protobuf.SingleFieldBuilderV3<
             io.dstore.values.BooleanValue, io.dstore.values.BooleanValue.Builder, io.dstore.values.BooleanValueOrBuilder> 
@@ -2222,7 +2222,7 @@ public final class OmGetCampShippingTypeCondsAd {
         return memoizedHashCode;
       }
       int hash = 41;
-      hash = (19 * hash) + getDescriptorForType().hashCode();
+      hash = (19 * hash) + getDescriptor().hashCode();
       if (getMetaInformationCount() > 0) {
         hash = (37 * hash) + META_INFORMATION_FIELD_NUMBER;
         hash = (53 * hash) + getMetaInformationList().hashCode();

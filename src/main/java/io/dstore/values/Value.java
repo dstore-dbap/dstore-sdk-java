@@ -229,7 +229,7 @@ public  final class Value extends
 
   public static final int INTEGER_VALUE_FIELD_NUMBER = 10;
   /**
-   * <code>optional .dstore.values.IntegerValue integer_value = 10;</code>
+   * <code>.dstore.values.IntegerValue integer_value = 10;</code>
    */
   public io.dstore.values.IntegerValue getIntegerValue() {
     if (valueCase_ == 10) {
@@ -238,7 +238,7 @@ public  final class Value extends
     return io.dstore.values.IntegerValue.getDefaultInstance();
   }
   /**
-   * <code>optional .dstore.values.IntegerValue integer_value = 10;</code>
+   * <code>.dstore.values.IntegerValue integer_value = 10;</code>
    */
   public io.dstore.values.IntegerValueOrBuilder getIntegerValueOrBuilder() {
     if (valueCase_ == 10) {
@@ -249,7 +249,7 @@ public  final class Value extends
 
   public static final int STRING_VALUE_FIELD_NUMBER = 11;
   /**
-   * <code>optional .dstore.values.StringValue string_value = 11;</code>
+   * <code>.dstore.values.StringValue string_value = 11;</code>
    */
   public io.dstore.values.StringValue getStringValue() {
     if (valueCase_ == 11) {
@@ -258,7 +258,7 @@ public  final class Value extends
     return io.dstore.values.StringValue.getDefaultInstance();
   }
   /**
-   * <code>optional .dstore.values.StringValue string_value = 11;</code>
+   * <code>.dstore.values.StringValue string_value = 11;</code>
    */
   public io.dstore.values.StringValueOrBuilder getStringValueOrBuilder() {
     if (valueCase_ == 11) {
@@ -269,7 +269,7 @@ public  final class Value extends
 
   public static final int BYTE_VALUE_FIELD_NUMBER = 12;
   /**
-   * <code>optional .dstore.values.BytesValue byte_value = 12;</code>
+   * <code>.dstore.values.BytesValue byte_value = 12;</code>
    */
   public io.dstore.values.BytesValue getByteValue() {
     if (valueCase_ == 12) {
@@ -278,7 +278,7 @@ public  final class Value extends
     return io.dstore.values.BytesValue.getDefaultInstance();
   }
   /**
-   * <code>optional .dstore.values.BytesValue byte_value = 12;</code>
+   * <code>.dstore.values.BytesValue byte_value = 12;</code>
    */
   public io.dstore.values.BytesValueOrBuilder getByteValueOrBuilder() {
     if (valueCase_ == 12) {
@@ -289,7 +289,7 @@ public  final class Value extends
 
   public static final int DOUBLE_VALUE_FIELD_NUMBER = 13;
   /**
-   * <code>optional .dstore.values.DoubleValue double_value = 13;</code>
+   * <code>.dstore.values.DoubleValue double_value = 13;</code>
    */
   public io.dstore.values.DoubleValue getDoubleValue() {
     if (valueCase_ == 13) {
@@ -298,7 +298,7 @@ public  final class Value extends
     return io.dstore.values.DoubleValue.getDefaultInstance();
   }
   /**
-   * <code>optional .dstore.values.DoubleValue double_value = 13;</code>
+   * <code>.dstore.values.DoubleValue double_value = 13;</code>
    */
   public io.dstore.values.DoubleValueOrBuilder getDoubleValueOrBuilder() {
     if (valueCase_ == 13) {
@@ -309,7 +309,7 @@ public  final class Value extends
 
   public static final int BOOLEAN_VALUE_FIELD_NUMBER = 14;
   /**
-   * <code>optional .dstore.values.BooleanValue boolean_value = 14;</code>
+   * <code>.dstore.values.BooleanValue boolean_value = 14;</code>
    */
   public io.dstore.values.BooleanValue getBooleanValue() {
     if (valueCase_ == 14) {
@@ -318,7 +318,7 @@ public  final class Value extends
     return io.dstore.values.BooleanValue.getDefaultInstance();
   }
   /**
-   * <code>optional .dstore.values.BooleanValue boolean_value = 14;</code>
+   * <code>.dstore.values.BooleanValue boolean_value = 14;</code>
    */
   public io.dstore.values.BooleanValueOrBuilder getBooleanValueOrBuilder() {
     if (valueCase_ == 14) {
@@ -329,7 +329,7 @@ public  final class Value extends
 
   public static final int DECIMAL_VALUE_FIELD_NUMBER = 15;
   /**
-   * <code>optional .dstore.values.DecimalValue decimal_value = 15;</code>
+   * <code>.dstore.values.DecimalValue decimal_value = 15;</code>
    */
   public io.dstore.values.DecimalValue getDecimalValue() {
     if (valueCase_ == 15) {
@@ -338,7 +338,7 @@ public  final class Value extends
     return io.dstore.values.DecimalValue.getDefaultInstance();
   }
   /**
-   * <code>optional .dstore.values.DecimalValue decimal_value = 15;</code>
+   * <code>.dstore.values.DecimalValue decimal_value = 15;</code>
    */
   public io.dstore.values.DecimalValueOrBuilder getDecimalValueOrBuilder() {
     if (valueCase_ == 15) {
@@ -349,7 +349,7 @@ public  final class Value extends
 
   public static final int TIMESTAMP_VALUE_FIELD_NUMBER = 16;
   /**
-   * <code>optional .dstore.values.TimestampValue timestamp_value = 16;</code>
+   * <code>.dstore.values.TimestampValue timestamp_value = 16;</code>
    */
   public io.dstore.values.TimestampValue getTimestampValue() {
     if (valueCase_ == 16) {
@@ -358,7 +358,7 @@ public  final class Value extends
     return io.dstore.values.TimestampValue.getDefaultInstance();
   }
   /**
-   * <code>optional .dstore.values.TimestampValue timestamp_value = 16;</code>
+   * <code>.dstore.values.TimestampValue timestamp_value = 16;</code>
    */
   public io.dstore.values.TimestampValueOrBuilder getTimestampValueOrBuilder() {
     if (valueCase_ == 16) {
@@ -369,7 +369,7 @@ public  final class Value extends
 
   public static final int LONG_VALUE_FIELD_NUMBER = 17;
   /**
-   * <code>optional .dstore.values.LongValue long_value = 17;</code>
+   * <code>.dstore.values.LongValue long_value = 17;</code>
    */
   public io.dstore.values.LongValue getLongValue() {
     if (valueCase_ == 17) {
@@ -378,7 +378,7 @@ public  final class Value extends
     return io.dstore.values.LongValue.getDefaultInstance();
   }
   /**
-   * <code>optional .dstore.values.LongValue long_value = 17;</code>
+   * <code>.dstore.values.LongValue long_value = 17;</code>
    */
   public io.dstore.values.LongValueOrBuilder getLongValueOrBuilder() {
     if (valueCase_ == 17) {
@@ -526,7 +526,7 @@ public  final class Value extends
       return memoizedHashCode;
     }
     int hash = 41;
-    hash = (19 * hash) + getDescriptorForType().hashCode();
+    hash = (19 * hash) + getDescriptor().hashCode();
     switch (valueCase_) {
       case 10:
         hash = (37 * hash) + INTEGER_VALUE_FIELD_NUMBER;
@@ -884,7 +884,7 @@ public  final class Value extends
     private com.google.protobuf.SingleFieldBuilderV3<
         io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> integerValueBuilder_;
     /**
-     * <code>optional .dstore.values.IntegerValue integer_value = 10;</code>
+     * <code>.dstore.values.IntegerValue integer_value = 10;</code>
      */
     public io.dstore.values.IntegerValue getIntegerValue() {
       if (integerValueBuilder_ == null) {
@@ -900,7 +900,7 @@ public  final class Value extends
       }
     }
     /**
-     * <code>optional .dstore.values.IntegerValue integer_value = 10;</code>
+     * <code>.dstore.values.IntegerValue integer_value = 10;</code>
      */
     public Builder setIntegerValue(io.dstore.values.IntegerValue value) {
       if (integerValueBuilder_ == null) {
@@ -916,7 +916,7 @@ public  final class Value extends
       return this;
     }
     /**
-     * <code>optional .dstore.values.IntegerValue integer_value = 10;</code>
+     * <code>.dstore.values.IntegerValue integer_value = 10;</code>
      */
     public Builder setIntegerValue(
         io.dstore.values.IntegerValue.Builder builderForValue) {
@@ -930,7 +930,7 @@ public  final class Value extends
       return this;
     }
     /**
-     * <code>optional .dstore.values.IntegerValue integer_value = 10;</code>
+     * <code>.dstore.values.IntegerValue integer_value = 10;</code>
      */
     public Builder mergeIntegerValue(io.dstore.values.IntegerValue value) {
       if (integerValueBuilder_ == null) {
@@ -952,7 +952,7 @@ public  final class Value extends
       return this;
     }
     /**
-     * <code>optional .dstore.values.IntegerValue integer_value = 10;</code>
+     * <code>.dstore.values.IntegerValue integer_value = 10;</code>
      */
     public Builder clearIntegerValue() {
       if (integerValueBuilder_ == null) {
@@ -971,13 +971,13 @@ public  final class Value extends
       return this;
     }
     /**
-     * <code>optional .dstore.values.IntegerValue integer_value = 10;</code>
+     * <code>.dstore.values.IntegerValue integer_value = 10;</code>
      */
     public io.dstore.values.IntegerValue.Builder getIntegerValueBuilder() {
       return getIntegerValueFieldBuilder().getBuilder();
     }
     /**
-     * <code>optional .dstore.values.IntegerValue integer_value = 10;</code>
+     * <code>.dstore.values.IntegerValue integer_value = 10;</code>
      */
     public io.dstore.values.IntegerValueOrBuilder getIntegerValueOrBuilder() {
       if ((valueCase_ == 10) && (integerValueBuilder_ != null)) {
@@ -990,7 +990,7 @@ public  final class Value extends
       }
     }
     /**
-     * <code>optional .dstore.values.IntegerValue integer_value = 10;</code>
+     * <code>.dstore.values.IntegerValue integer_value = 10;</code>
      */
     private com.google.protobuf.SingleFieldBuilderV3<
         io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> 
@@ -1014,7 +1014,7 @@ public  final class Value extends
     private com.google.protobuf.SingleFieldBuilderV3<
         io.dstore.values.StringValue, io.dstore.values.StringValue.Builder, io.dstore.values.StringValueOrBuilder> stringValueBuilder_;
     /**
-     * <code>optional .dstore.values.StringValue string_value = 11;</code>
+     * <code>.dstore.values.StringValue string_value = 11;</code>
      */
     public io.dstore.values.StringValue getStringValue() {
       if (stringValueBuilder_ == null) {
@@ -1030,7 +1030,7 @@ public  final class Value extends
       }
     }
     /**
-     * <code>optional .dstore.values.StringValue string_value = 11;</code>
+     * <code>.dstore.values.StringValue string_value = 11;</code>
      */
     public Builder setStringValue(io.dstore.values.StringValue value) {
       if (stringValueBuilder_ == null) {
@@ -1046,7 +1046,7 @@ public  final class Value extends
       return this;
     }
     /**
-     * <code>optional .dstore.values.StringValue string_value = 11;</code>
+     * <code>.dstore.values.StringValue string_value = 11;</code>
      */
     public Builder setStringValue(
         io.dstore.values.StringValue.Builder builderForValue) {
@@ -1060,7 +1060,7 @@ public  final class Value extends
       return this;
     }
     /**
-     * <code>optional .dstore.values.StringValue string_value = 11;</code>
+     * <code>.dstore.values.StringValue string_value = 11;</code>
      */
     public Builder mergeStringValue(io.dstore.values.StringValue value) {
       if (stringValueBuilder_ == null) {
@@ -1082,7 +1082,7 @@ public  final class Value extends
       return this;
     }
     /**
-     * <code>optional .dstore.values.StringValue string_value = 11;</code>
+     * <code>.dstore.values.StringValue string_value = 11;</code>
      */
     public Builder clearStringValue() {
       if (stringValueBuilder_ == null) {
@@ -1101,13 +1101,13 @@ public  final class Value extends
       return this;
     }
     /**
-     * <code>optional .dstore.values.StringValue string_value = 11;</code>
+     * <code>.dstore.values.StringValue string_value = 11;</code>
      */
     public io.dstore.values.StringValue.Builder getStringValueBuilder() {
       return getStringValueFieldBuilder().getBuilder();
     }
     /**
-     * <code>optional .dstore.values.StringValue string_value = 11;</code>
+     * <code>.dstore.values.StringValue string_value = 11;</code>
      */
     public io.dstore.values.StringValueOrBuilder getStringValueOrBuilder() {
       if ((valueCase_ == 11) && (stringValueBuilder_ != null)) {
@@ -1120,7 +1120,7 @@ public  final class Value extends
       }
     }
     /**
-     * <code>optional .dstore.values.StringValue string_value = 11;</code>
+     * <code>.dstore.values.StringValue string_value = 11;</code>
      */
     private com.google.protobuf.SingleFieldBuilderV3<
         io.dstore.values.StringValue, io.dstore.values.StringValue.Builder, io.dstore.values.StringValueOrBuilder> 
@@ -1144,7 +1144,7 @@ public  final class Value extends
     private com.google.protobuf.SingleFieldBuilderV3<
         io.dstore.values.BytesValue, io.dstore.values.BytesValue.Builder, io.dstore.values.BytesValueOrBuilder> byteValueBuilder_;
     /**
-     * <code>optional .dstore.values.BytesValue byte_value = 12;</code>
+     * <code>.dstore.values.BytesValue byte_value = 12;</code>
      */
     public io.dstore.values.BytesValue getByteValue() {
       if (byteValueBuilder_ == null) {
@@ -1160,7 +1160,7 @@ public  final class Value extends
       }
     }
     /**
-     * <code>optional .dstore.values.BytesValue byte_value = 12;</code>
+     * <code>.dstore.values.BytesValue byte_value = 12;</code>
      */
     public Builder setByteValue(io.dstore.values.BytesValue value) {
       if (byteValueBuilder_ == null) {
@@ -1176,7 +1176,7 @@ public  final class Value extends
       return this;
     }
     /**
-     * <code>optional .dstore.values.BytesValue byte_value = 12;</code>
+     * <code>.dstore.values.BytesValue byte_value = 12;</code>
      */
     public Builder setByteValue(
         io.dstore.values.BytesValue.Builder builderForValue) {
@@ -1190,7 +1190,7 @@ public  final class Value extends
       return this;
     }
     /**
-     * <code>optional .dstore.values.BytesValue byte_value = 12;</code>
+     * <code>.dstore.values.BytesValue byte_value = 12;</code>
      */
     public Builder mergeByteValue(io.dstore.values.BytesValue value) {
       if (byteValueBuilder_ == null) {
@@ -1212,7 +1212,7 @@ public  final class Value extends
       return this;
     }
     /**
-     * <code>optional .dstore.values.BytesValue byte_value = 12;</code>
+     * <code>.dstore.values.BytesValue byte_value = 12;</code>
      */
     public Builder clearByteValue() {
       if (byteValueBuilder_ == null) {
@@ -1231,13 +1231,13 @@ public  final class Value extends
       return this;
     }
     /**
-     * <code>optional .dstore.values.BytesValue byte_value = 12;</code>
+     * <code>.dstore.values.BytesValue byte_value = 12;</code>
      */
     public io.dstore.values.BytesValue.Builder getByteValueBuilder() {
       return getByteValueFieldBuilder().getBuilder();
     }
     /**
-     * <code>optional .dstore.values.BytesValue byte_value = 12;</code>
+     * <code>.dstore.values.BytesValue byte_value = 12;</code>
      */
     public io.dstore.values.BytesValueOrBuilder getByteValueOrBuilder() {
       if ((valueCase_ == 12) && (byteValueBuilder_ != null)) {
@@ -1250,7 +1250,7 @@ public  final class Value extends
       }
     }
     /**
-     * <code>optional .dstore.values.BytesValue byte_value = 12;</code>
+     * <code>.dstore.values.BytesValue byte_value = 12;</code>
      */
     private com.google.protobuf.SingleFieldBuilderV3<
         io.dstore.values.BytesValue, io.dstore.values.BytesValue.Builder, io.dstore.values.BytesValueOrBuilder> 
@@ -1274,7 +1274,7 @@ public  final class Value extends
     private com.google.protobuf.SingleFieldBuilderV3<
         io.dstore.values.DoubleValue, io.dstore.values.DoubleValue.Builder, io.dstore.values.DoubleValueOrBuilder> doubleValueBuilder_;
     /**
-     * <code>optional .dstore.values.DoubleValue double_value = 13;</code>
+     * <code>.dstore.values.DoubleValue double_value = 13;</code>
      */
     public io.dstore.values.DoubleValue getDoubleValue() {
       if (doubleValueBuilder_ == null) {
@@ -1290,7 +1290,7 @@ public  final class Value extends
       }
     }
     /**
-     * <code>optional .dstore.values.DoubleValue double_value = 13;</code>
+     * <code>.dstore.values.DoubleValue double_value = 13;</code>
      */
     public Builder setDoubleValue(io.dstore.values.DoubleValue value) {
       if (doubleValueBuilder_ == null) {
@@ -1306,7 +1306,7 @@ public  final class Value extends
       return this;
     }
     /**
-     * <code>optional .dstore.values.DoubleValue double_value = 13;</code>
+     * <code>.dstore.values.DoubleValue double_value = 13;</code>
      */
     public Builder setDoubleValue(
         io.dstore.values.DoubleValue.Builder builderForValue) {
@@ -1320,7 +1320,7 @@ public  final class Value extends
       return this;
     }
     /**
-     * <code>optional .dstore.values.DoubleValue double_value = 13;</code>
+     * <code>.dstore.values.DoubleValue double_value = 13;</code>
      */
     public Builder mergeDoubleValue(io.dstore.values.DoubleValue value) {
       if (doubleValueBuilder_ == null) {
@@ -1342,7 +1342,7 @@ public  final class Value extends
       return this;
     }
     /**
-     * <code>optional .dstore.values.DoubleValue double_value = 13;</code>
+     * <code>.dstore.values.DoubleValue double_value = 13;</code>
      */
     public Builder clearDoubleValue() {
       if (doubleValueBuilder_ == null) {
@@ -1361,13 +1361,13 @@ public  final class Value extends
       return this;
     }
     /**
-     * <code>optional .dstore.values.DoubleValue double_value = 13;</code>
+     * <code>.dstore.values.DoubleValue double_value = 13;</code>
      */
     public io.dstore.values.DoubleValue.Builder getDoubleValueBuilder() {
       return getDoubleValueFieldBuilder().getBuilder();
     }
     /**
-     * <code>optional .dstore.values.DoubleValue double_value = 13;</code>
+     * <code>.dstore.values.DoubleValue double_value = 13;</code>
      */
     public io.dstore.values.DoubleValueOrBuilder getDoubleValueOrBuilder() {
       if ((valueCase_ == 13) && (doubleValueBuilder_ != null)) {
@@ -1380,7 +1380,7 @@ public  final class Value extends
       }
     }
     /**
-     * <code>optional .dstore.values.DoubleValue double_value = 13;</code>
+     * <code>.dstore.values.DoubleValue double_value = 13;</code>
      */
     private com.google.protobuf.SingleFieldBuilderV3<
         io.dstore.values.DoubleValue, io.dstore.values.DoubleValue.Builder, io.dstore.values.DoubleValueOrBuilder> 
@@ -1404,7 +1404,7 @@ public  final class Value extends
     private com.google.protobuf.SingleFieldBuilderV3<
         io.dstore.values.BooleanValue, io.dstore.values.BooleanValue.Builder, io.dstore.values.BooleanValueOrBuilder> booleanValueBuilder_;
     /**
-     * <code>optional .dstore.values.BooleanValue boolean_value = 14;</code>
+     * <code>.dstore.values.BooleanValue boolean_value = 14;</code>
      */
     public io.dstore.values.BooleanValue getBooleanValue() {
       if (booleanValueBuilder_ == null) {
@@ -1420,7 +1420,7 @@ public  final class Value extends
       }
     }
     /**
-     * <code>optional .dstore.values.BooleanValue boolean_value = 14;</code>
+     * <code>.dstore.values.BooleanValue boolean_value = 14;</code>
      */
     public Builder setBooleanValue(io.dstore.values.BooleanValue value) {
       if (booleanValueBuilder_ == null) {
@@ -1436,7 +1436,7 @@ public  final class Value extends
       return this;
     }
     /**
-     * <code>optional .dstore.values.BooleanValue boolean_value = 14;</code>
+     * <code>.dstore.values.BooleanValue boolean_value = 14;</code>
      */
     public Builder setBooleanValue(
         io.dstore.values.BooleanValue.Builder builderForValue) {
@@ -1450,7 +1450,7 @@ public  final class Value extends
       return this;
     }
     /**
-     * <code>optional .dstore.values.BooleanValue boolean_value = 14;</code>
+     * <code>.dstore.values.BooleanValue boolean_value = 14;</code>
      */
     public Builder mergeBooleanValue(io.dstore.values.BooleanValue value) {
       if (booleanValueBuilder_ == null) {
@@ -1472,7 +1472,7 @@ public  final class Value extends
       return this;
     }
     /**
-     * <code>optional .dstore.values.BooleanValue boolean_value = 14;</code>
+     * <code>.dstore.values.BooleanValue boolean_value = 14;</code>
      */
     public Builder clearBooleanValue() {
       if (booleanValueBuilder_ == null) {
@@ -1491,13 +1491,13 @@ public  final class Value extends
       return this;
     }
     /**
-     * <code>optional .dstore.values.BooleanValue boolean_value = 14;</code>
+     * <code>.dstore.values.BooleanValue boolean_value = 14;</code>
      */
     public io.dstore.values.BooleanValue.Builder getBooleanValueBuilder() {
       return getBooleanValueFieldBuilder().getBuilder();
     }
     /**
-     * <code>optional .dstore.values.BooleanValue boolean_value = 14;</code>
+     * <code>.dstore.values.BooleanValue boolean_value = 14;</code>
      */
     public io.dstore.values.BooleanValueOrBuilder getBooleanValueOrBuilder() {
       if ((valueCase_ == 14) && (booleanValueBuilder_ != null)) {
@@ -1510,7 +1510,7 @@ public  final class Value extends
       }
     }
     /**
-     * <code>optional .dstore.values.BooleanValue boolean_value = 14;</code>
+     * <code>.dstore.values.BooleanValue boolean_value = 14;</code>
      */
     private com.google.protobuf.SingleFieldBuilderV3<
         io.dstore.values.BooleanValue, io.dstore.values.BooleanValue.Builder, io.dstore.values.BooleanValueOrBuilder> 
@@ -1534,7 +1534,7 @@ public  final class Value extends
     private com.google.protobuf.SingleFieldBuilderV3<
         io.dstore.values.DecimalValue, io.dstore.values.DecimalValue.Builder, io.dstore.values.DecimalValueOrBuilder> decimalValueBuilder_;
     /**
-     * <code>optional .dstore.values.DecimalValue decimal_value = 15;</code>
+     * <code>.dstore.values.DecimalValue decimal_value = 15;</code>
      */
     public io.dstore.values.DecimalValue getDecimalValue() {
       if (decimalValueBuilder_ == null) {
@@ -1550,7 +1550,7 @@ public  final class Value extends
       }
     }
     /**
-     * <code>optional .dstore.values.DecimalValue decimal_value = 15;</code>
+     * <code>.dstore.values.DecimalValue decimal_value = 15;</code>
      */
     public Builder setDecimalValue(io.dstore.values.DecimalValue value) {
       if (decimalValueBuilder_ == null) {
@@ -1566,7 +1566,7 @@ public  final class Value extends
       return this;
     }
     /**
-     * <code>optional .dstore.values.DecimalValue decimal_value = 15;</code>
+     * <code>.dstore.values.DecimalValue decimal_value = 15;</code>
      */
     public Builder setDecimalValue(
         io.dstore.values.DecimalValue.Builder builderForValue) {
@@ -1580,7 +1580,7 @@ public  final class Value extends
       return this;
     }
     /**
-     * <code>optional .dstore.values.DecimalValue decimal_value = 15;</code>
+     * <code>.dstore.values.DecimalValue decimal_value = 15;</code>
      */
     public Builder mergeDecimalValue(io.dstore.values.DecimalValue value) {
       if (decimalValueBuilder_ == null) {
@@ -1602,7 +1602,7 @@ public  final class Value extends
       return this;
     }
     /**
-     * <code>optional .dstore.values.DecimalValue decimal_value = 15;</code>
+     * <code>.dstore.values.DecimalValue decimal_value = 15;</code>
      */
     public Builder clearDecimalValue() {
       if (decimalValueBuilder_ == null) {
@@ -1621,13 +1621,13 @@ public  final class Value extends
       return this;
     }
     /**
-     * <code>optional .dstore.values.DecimalValue decimal_value = 15;</code>
+     * <code>.dstore.values.DecimalValue decimal_value = 15;</code>
      */
     public io.dstore.values.DecimalValue.Builder getDecimalValueBuilder() {
       return getDecimalValueFieldBuilder().getBuilder();
     }
     /**
-     * <code>optional .dstore.values.DecimalValue decimal_value = 15;</code>
+     * <code>.dstore.values.DecimalValue decimal_value = 15;</code>
      */
     public io.dstore.values.DecimalValueOrBuilder getDecimalValueOrBuilder() {
       if ((valueCase_ == 15) && (decimalValueBuilder_ != null)) {
@@ -1640,7 +1640,7 @@ public  final class Value extends
       }
     }
     /**
-     * <code>optional .dstore.values.DecimalValue decimal_value = 15;</code>
+     * <code>.dstore.values.DecimalValue decimal_value = 15;</code>
      */
     private com.google.protobuf.SingleFieldBuilderV3<
         io.dstore.values.DecimalValue, io.dstore.values.DecimalValue.Builder, io.dstore.values.DecimalValueOrBuilder> 
@@ -1664,7 +1664,7 @@ public  final class Value extends
     private com.google.protobuf.SingleFieldBuilderV3<
         io.dstore.values.TimestampValue, io.dstore.values.TimestampValue.Builder, io.dstore.values.TimestampValueOrBuilder> timestampValueBuilder_;
     /**
-     * <code>optional .dstore.values.TimestampValue timestamp_value = 16;</code>
+     * <code>.dstore.values.TimestampValue timestamp_value = 16;</code>
      */
     public io.dstore.values.TimestampValue getTimestampValue() {
       if (timestampValueBuilder_ == null) {
@@ -1680,7 +1680,7 @@ public  final class Value extends
       }
     }
     /**
-     * <code>optional .dstore.values.TimestampValue timestamp_value = 16;</code>
+     * <code>.dstore.values.TimestampValue timestamp_value = 16;</code>
      */
     public Builder setTimestampValue(io.dstore.values.TimestampValue value) {
       if (timestampValueBuilder_ == null) {
@@ -1696,7 +1696,7 @@ public  final class Value extends
       return this;
     }
     /**
-     * <code>optional .dstore.values.TimestampValue timestamp_value = 16;</code>
+     * <code>.dstore.values.TimestampValue timestamp_value = 16;</code>
      */
     public Builder setTimestampValue(
         io.dstore.values.TimestampValue.Builder builderForValue) {
@@ -1710,7 +1710,7 @@ public  final class Value extends
       return this;
     }
     /**
-     * <code>optional .dstore.values.TimestampValue timestamp_value = 16;</code>
+     * <code>.dstore.values.TimestampValue timestamp_value = 16;</code>
      */
     public Builder mergeTimestampValue(io.dstore.values.TimestampValue value) {
       if (timestampValueBuilder_ == null) {
@@ -1732,7 +1732,7 @@ public  final class Value extends
       return this;
     }
     /**
-     * <code>optional .dstore.values.TimestampValue timestamp_value = 16;</code>
+     * <code>.dstore.values.TimestampValue timestamp_value = 16;</code>
      */
     public Builder clearTimestampValue() {
       if (timestampValueBuilder_ == null) {
@@ -1751,13 +1751,13 @@ public  final class Value extends
       return this;
     }
     /**
-     * <code>optional .dstore.values.TimestampValue timestamp_value = 16;</code>
+     * <code>.dstore.values.TimestampValue timestamp_value = 16;</code>
      */
     public io.dstore.values.TimestampValue.Builder getTimestampValueBuilder() {
       return getTimestampValueFieldBuilder().getBuilder();
     }
     /**
-     * <code>optional .dstore.values.TimestampValue timestamp_value = 16;</code>
+     * <code>.dstore.values.TimestampValue timestamp_value = 16;</code>
      */
     public io.dstore.values.TimestampValueOrBuilder getTimestampValueOrBuilder() {
       if ((valueCase_ == 16) && (timestampValueBuilder_ != null)) {
@@ -1770,7 +1770,7 @@ public  final class Value extends
       }
     }
     /**
-     * <code>optional .dstore.values.TimestampValue timestamp_value = 16;</code>
+     * <code>.dstore.values.TimestampValue timestamp_value = 16;</code>
      */
     private com.google.protobuf.SingleFieldBuilderV3<
         io.dstore.values.TimestampValue, io.dstore.values.TimestampValue.Builder, io.dstore.values.TimestampValueOrBuilder> 
@@ -1794,7 +1794,7 @@ public  final class Value extends
     private com.google.protobuf.SingleFieldBuilderV3<
         io.dstore.values.LongValue, io.dstore.values.LongValue.Builder, io.dstore.values.LongValueOrBuilder> longValueBuilder_;
     /**
-     * <code>optional .dstore.values.LongValue long_value = 17;</code>
+     * <code>.dstore.values.LongValue long_value = 17;</code>
      */
     public io.dstore.values.LongValue getLongValue() {
       if (longValueBuilder_ == null) {
@@ -1810,7 +1810,7 @@ public  final class Value extends
       }
     }
     /**
-     * <code>optional .dstore.values.LongValue long_value = 17;</code>
+     * <code>.dstore.values.LongValue long_value = 17;</code>
      */
     public Builder setLongValue(io.dstore.values.LongValue value) {
       if (longValueBuilder_ == null) {
@@ -1826,7 +1826,7 @@ public  final class Value extends
       return this;
     }
     /**
-     * <code>optional .dstore.values.LongValue long_value = 17;</code>
+     * <code>.dstore.values.LongValue long_value = 17;</code>
      */
     public Builder setLongValue(
         io.dstore.values.LongValue.Builder builderForValue) {
@@ -1840,7 +1840,7 @@ public  final class Value extends
       return this;
     }
     /**
-     * <code>optional .dstore.values.LongValue long_value = 17;</code>
+     * <code>.dstore.values.LongValue long_value = 17;</code>
      */
     public Builder mergeLongValue(io.dstore.values.LongValue value) {
       if (longValueBuilder_ == null) {
@@ -1862,7 +1862,7 @@ public  final class Value extends
       return this;
     }
     /**
-     * <code>optional .dstore.values.LongValue long_value = 17;</code>
+     * <code>.dstore.values.LongValue long_value = 17;</code>
      */
     public Builder clearLongValue() {
       if (longValueBuilder_ == null) {
@@ -1881,13 +1881,13 @@ public  final class Value extends
       return this;
     }
     /**
-     * <code>optional .dstore.values.LongValue long_value = 17;</code>
+     * <code>.dstore.values.LongValue long_value = 17;</code>
      */
     public io.dstore.values.LongValue.Builder getLongValueBuilder() {
       return getLongValueFieldBuilder().getBuilder();
     }
     /**
-     * <code>optional .dstore.values.LongValue long_value = 17;</code>
+     * <code>.dstore.values.LongValue long_value = 17;</code>
      */
     public io.dstore.values.LongValueOrBuilder getLongValueOrBuilder() {
       if ((valueCase_ == 17) && (longValueBuilder_ != null)) {
@@ -1900,7 +1900,7 @@ public  final class Value extends
       }
     }
     /**
-     * <code>optional .dstore.values.LongValue long_value = 17;</code>
+     * <code>.dstore.values.LongValue long_value = 17;</code>
      */
     private com.google.protobuf.SingleFieldBuilderV3<
         io.dstore.values.LongValue, io.dstore.values.LongValue.Builder, io.dstore.values.LongValueOrBuilder> 

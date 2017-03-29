@@ -19,182 +19,182 @@ public final class ImGetItemConditionPartsAd {
       com.google.protobuf.MessageOrBuilder {
 
     /**
-     * <code>optional .dstore.values.IntegerValue condition_part_id = 1;</code>
+     * <code>.dstore.values.IntegerValue condition_part_id = 1;</code>
      */
     boolean hasConditionPartId();
     /**
-     * <code>optional .dstore.values.IntegerValue condition_part_id = 1;</code>
+     * <code>.dstore.values.IntegerValue condition_part_id = 1;</code>
      */
     io.dstore.values.IntegerValue getConditionPartId();
     /**
-     * <code>optional .dstore.values.IntegerValue condition_part_id = 1;</code>
+     * <code>.dstore.values.IntegerValue condition_part_id = 1;</code>
      */
     io.dstore.values.IntegerValueOrBuilder getConditionPartIdOrBuilder();
 
     /**
-     * <code>optional bool condition_part_id_null = 1001;</code>
+     * <code>bool condition_part_id_null = 1001;</code>
      */
     boolean getConditionPartIdNull();
 
     /**
-     * <code>optional .dstore.values.StringValue condition_part_description_like = 2;</code>
+     * <code>.dstore.values.StringValue condition_part_description_like = 2;</code>
      */
     boolean hasConditionPartDescriptionLike();
     /**
-     * <code>optional .dstore.values.StringValue condition_part_description_like = 2;</code>
+     * <code>.dstore.values.StringValue condition_part_description_like = 2;</code>
      */
     io.dstore.values.StringValue getConditionPartDescriptionLike();
     /**
-     * <code>optional .dstore.values.StringValue condition_part_description_like = 2;</code>
+     * <code>.dstore.values.StringValue condition_part_description_like = 2;</code>
      */
     io.dstore.values.StringValueOrBuilder getConditionPartDescriptionLikeOrBuilder();
 
     /**
-     * <code>optional bool condition_part_description_like_null = 1002;</code>
+     * <code>bool condition_part_description_like_null = 1002;</code>
      */
     boolean getConditionPartDescriptionLikeNull();
 
     /**
-     * <code>optional .dstore.values.BooleanValue get_unused_condition_parts = 3;</code>
+     * <code>.dstore.values.BooleanValue get_unused_condition_parts = 3;</code>
      */
     boolean hasGetUnusedConditionParts();
     /**
-     * <code>optional .dstore.values.BooleanValue get_unused_condition_parts = 3;</code>
+     * <code>.dstore.values.BooleanValue get_unused_condition_parts = 3;</code>
      */
     io.dstore.values.BooleanValue getGetUnusedConditionParts();
     /**
-     * <code>optional .dstore.values.BooleanValue get_unused_condition_parts = 3;</code>
+     * <code>.dstore.values.BooleanValue get_unused_condition_parts = 3;</code>
      */
     io.dstore.values.BooleanValueOrBuilder getGetUnusedConditionPartsOrBuilder();
 
     /**
-     * <code>optional bool get_unused_condition_parts_null = 1003;</code>
+     * <code>bool get_unused_condition_parts_null = 1003;</code>
      */
     boolean getGetUnusedConditionPartsNull();
 
     /**
-     * <code>optional .dstore.values.IntegerValue order_by = 4;</code>
+     * <code>.dstore.values.IntegerValue order_by = 4;</code>
      */
     boolean hasOrderBy();
     /**
-     * <code>optional .dstore.values.IntegerValue order_by = 4;</code>
+     * <code>.dstore.values.IntegerValue order_by = 4;</code>
      */
     io.dstore.values.IntegerValue getOrderBy();
     /**
-     * <code>optional .dstore.values.IntegerValue order_by = 4;</code>
+     * <code>.dstore.values.IntegerValue order_by = 4;</code>
      */
     io.dstore.values.IntegerValueOrBuilder getOrderByOrBuilder();
 
     /**
-     * <code>optional bool order_by_null = 1004;</code>
+     * <code>bool order_by_null = 1004;</code>
      */
     boolean getOrderByNull();
 
     /**
-     * <code>optional .dstore.values.IntegerValue row_count = 5;</code>
+     * <code>.dstore.values.IntegerValue row_count = 5;</code>
      */
     boolean hasRowCount();
     /**
-     * <code>optional .dstore.values.IntegerValue row_count = 5;</code>
+     * <code>.dstore.values.IntegerValue row_count = 5;</code>
      */
     io.dstore.values.IntegerValue getRowCount();
     /**
-     * <code>optional .dstore.values.IntegerValue row_count = 5;</code>
+     * <code>.dstore.values.IntegerValue row_count = 5;</code>
      */
     io.dstore.values.IntegerValueOrBuilder getRowCountOrBuilder();
 
     /**
-     * <code>optional bool row_count_null = 1005;</code>
+     * <code>bool row_count_null = 1005;</code>
      */
     boolean getRowCountNull();
 
     /**
-     * <code>optional .dstore.values.IntegerValue only_cond_parts_with_node_charac_id = 6;</code>
+     * <code>.dstore.values.IntegerValue only_cond_parts_with_node_charac_id = 6;</code>
      */
     boolean hasOnlyCondPartsWithNodeCharacId();
     /**
-     * <code>optional .dstore.values.IntegerValue only_cond_parts_with_node_charac_id = 6;</code>
+     * <code>.dstore.values.IntegerValue only_cond_parts_with_node_charac_id = 6;</code>
      */
     io.dstore.values.IntegerValue getOnlyCondPartsWithNodeCharacId();
     /**
-     * <code>optional .dstore.values.IntegerValue only_cond_parts_with_node_charac_id = 6;</code>
+     * <code>.dstore.values.IntegerValue only_cond_parts_with_node_charac_id = 6;</code>
      */
     io.dstore.values.IntegerValueOrBuilder getOnlyCondPartsWithNodeCharacIdOrBuilder();
 
     /**
-     * <code>optional bool only_cond_parts_with_node_charac_id_null = 1006;</code>
+     * <code>bool only_cond_parts_with_node_charac_id_null = 1006;</code>
      */
     boolean getOnlyCondPartsWithNodeCharacIdNull();
 
     /**
-     * <code>optional .dstore.values.IntegerValue only_cond_parts_with_dom_t_node_id1 = 7;</code>
+     * <code>.dstore.values.IntegerValue only_cond_parts_with_dom_t_node_id1 = 7;</code>
      */
     boolean hasOnlyCondPartsWithDomTNodeId1();
     /**
-     * <code>optional .dstore.values.IntegerValue only_cond_parts_with_dom_t_node_id1 = 7;</code>
+     * <code>.dstore.values.IntegerValue only_cond_parts_with_dom_t_node_id1 = 7;</code>
      */
     io.dstore.values.IntegerValue getOnlyCondPartsWithDomTNodeId1();
     /**
-     * <code>optional .dstore.values.IntegerValue only_cond_parts_with_dom_t_node_id1 = 7;</code>
+     * <code>.dstore.values.IntegerValue only_cond_parts_with_dom_t_node_id1 = 7;</code>
      */
     io.dstore.values.IntegerValueOrBuilder getOnlyCondPartsWithDomTNodeId1OrBuilder();
 
     /**
-     * <code>optional bool only_cond_parts_with_dom_t_node_id1_null = 1007;</code>
+     * <code>bool only_cond_parts_with_dom_t_node_id1_null = 1007;</code>
      */
     boolean getOnlyCondPartsWithDomTNodeId1Null();
 
     /**
-     * <code>optional .dstore.values.IntegerValue only_cond_parts_with_dom_t_node_id2 = 8;</code>
+     * <code>.dstore.values.IntegerValue only_cond_parts_with_dom_t_node_id2 = 8;</code>
      */
     boolean hasOnlyCondPartsWithDomTNodeId2();
     /**
-     * <code>optional .dstore.values.IntegerValue only_cond_parts_with_dom_t_node_id2 = 8;</code>
+     * <code>.dstore.values.IntegerValue only_cond_parts_with_dom_t_node_id2 = 8;</code>
      */
     io.dstore.values.IntegerValue getOnlyCondPartsWithDomTNodeId2();
     /**
-     * <code>optional .dstore.values.IntegerValue only_cond_parts_with_dom_t_node_id2 = 8;</code>
+     * <code>.dstore.values.IntegerValue only_cond_parts_with_dom_t_node_id2 = 8;</code>
      */
     io.dstore.values.IntegerValueOrBuilder getOnlyCondPartsWithDomTNodeId2OrBuilder();
 
     /**
-     * <code>optional bool only_cond_parts_with_dom_t_node_id2_null = 1008;</code>
+     * <code>bool only_cond_parts_with_dom_t_node_id2_null = 1008;</code>
      */
     boolean getOnlyCondPartsWithDomTNodeId2Null();
 
     /**
-     * <code>optional .dstore.values.IntegerValue only_cond_parts_with_dom_t_node_id3 = 9;</code>
+     * <code>.dstore.values.IntegerValue only_cond_parts_with_dom_t_node_id3 = 9;</code>
      */
     boolean hasOnlyCondPartsWithDomTNodeId3();
     /**
-     * <code>optional .dstore.values.IntegerValue only_cond_parts_with_dom_t_node_id3 = 9;</code>
+     * <code>.dstore.values.IntegerValue only_cond_parts_with_dom_t_node_id3 = 9;</code>
      */
     io.dstore.values.IntegerValue getOnlyCondPartsWithDomTNodeId3();
     /**
-     * <code>optional .dstore.values.IntegerValue only_cond_parts_with_dom_t_node_id3 = 9;</code>
+     * <code>.dstore.values.IntegerValue only_cond_parts_with_dom_t_node_id3 = 9;</code>
      */
     io.dstore.values.IntegerValueOrBuilder getOnlyCondPartsWithDomTNodeId3OrBuilder();
 
     /**
-     * <code>optional bool only_cond_parts_with_dom_t_node_id3_null = 1009;</code>
+     * <code>bool only_cond_parts_with_dom_t_node_id3_null = 1009;</code>
      */
     boolean getOnlyCondPartsWithDomTNodeId3Null();
 
     /**
-     * <code>optional .dstore.values.IntegerValue output_into_one_id = 10;</code>
+     * <code>.dstore.values.IntegerValue output_into_one_id = 10;</code>
      */
     boolean hasOutputIntoOneId();
     /**
-     * <code>optional .dstore.values.IntegerValue output_into_one_id = 10;</code>
+     * <code>.dstore.values.IntegerValue output_into_one_id = 10;</code>
      */
     io.dstore.values.IntegerValue getOutputIntoOneId();
     /**
-     * <code>optional .dstore.values.IntegerValue output_into_one_id = 10;</code>
+     * <code>.dstore.values.IntegerValue output_into_one_id = 10;</code>
      */
     io.dstore.values.IntegerValueOrBuilder getOutputIntoOneIdOrBuilder();
 
     /**
-     * <code>optional bool output_into_one_id_null = 1010;</code>
+     * <code>bool output_into_one_id_null = 1010;</code>
      */
     boolean getOutputIntoOneIdNull();
   }
@@ -453,19 +453,19 @@ public final class ImGetItemConditionPartsAd {
     public static final int CONDITION_PART_ID_FIELD_NUMBER = 1;
     private io.dstore.values.IntegerValue conditionPartId_;
     /**
-     * <code>optional .dstore.values.IntegerValue condition_part_id = 1;</code>
+     * <code>.dstore.values.IntegerValue condition_part_id = 1;</code>
      */
     public boolean hasConditionPartId() {
       return conditionPartId_ != null;
     }
     /**
-     * <code>optional .dstore.values.IntegerValue condition_part_id = 1;</code>
+     * <code>.dstore.values.IntegerValue condition_part_id = 1;</code>
      */
     public io.dstore.values.IntegerValue getConditionPartId() {
       return conditionPartId_ == null ? io.dstore.values.IntegerValue.getDefaultInstance() : conditionPartId_;
     }
     /**
-     * <code>optional .dstore.values.IntegerValue condition_part_id = 1;</code>
+     * <code>.dstore.values.IntegerValue condition_part_id = 1;</code>
      */
     public io.dstore.values.IntegerValueOrBuilder getConditionPartIdOrBuilder() {
       return getConditionPartId();
@@ -474,7 +474,7 @@ public final class ImGetItemConditionPartsAd {
     public static final int CONDITION_PART_ID_NULL_FIELD_NUMBER = 1001;
     private boolean conditionPartIdNull_;
     /**
-     * <code>optional bool condition_part_id_null = 1001;</code>
+     * <code>bool condition_part_id_null = 1001;</code>
      */
     public boolean getConditionPartIdNull() {
       return conditionPartIdNull_;
@@ -483,19 +483,19 @@ public final class ImGetItemConditionPartsAd {
     public static final int CONDITION_PART_DESCRIPTION_LIKE_FIELD_NUMBER = 2;
     private io.dstore.values.StringValue conditionPartDescriptionLike_;
     /**
-     * <code>optional .dstore.values.StringValue condition_part_description_like = 2;</code>
+     * <code>.dstore.values.StringValue condition_part_description_like = 2;</code>
      */
     public boolean hasConditionPartDescriptionLike() {
       return conditionPartDescriptionLike_ != null;
     }
     /**
-     * <code>optional .dstore.values.StringValue condition_part_description_like = 2;</code>
+     * <code>.dstore.values.StringValue condition_part_description_like = 2;</code>
      */
     public io.dstore.values.StringValue getConditionPartDescriptionLike() {
       return conditionPartDescriptionLike_ == null ? io.dstore.values.StringValue.getDefaultInstance() : conditionPartDescriptionLike_;
     }
     /**
-     * <code>optional .dstore.values.StringValue condition_part_description_like = 2;</code>
+     * <code>.dstore.values.StringValue condition_part_description_like = 2;</code>
      */
     public io.dstore.values.StringValueOrBuilder getConditionPartDescriptionLikeOrBuilder() {
       return getConditionPartDescriptionLike();
@@ -504,7 +504,7 @@ public final class ImGetItemConditionPartsAd {
     public static final int CONDITION_PART_DESCRIPTION_LIKE_NULL_FIELD_NUMBER = 1002;
     private boolean conditionPartDescriptionLikeNull_;
     /**
-     * <code>optional bool condition_part_description_like_null = 1002;</code>
+     * <code>bool condition_part_description_like_null = 1002;</code>
      */
     public boolean getConditionPartDescriptionLikeNull() {
       return conditionPartDescriptionLikeNull_;
@@ -513,19 +513,19 @@ public final class ImGetItemConditionPartsAd {
     public static final int GET_UNUSED_CONDITION_PARTS_FIELD_NUMBER = 3;
     private io.dstore.values.BooleanValue getUnusedConditionParts_;
     /**
-     * <code>optional .dstore.values.BooleanValue get_unused_condition_parts = 3;</code>
+     * <code>.dstore.values.BooleanValue get_unused_condition_parts = 3;</code>
      */
     public boolean hasGetUnusedConditionParts() {
       return getUnusedConditionParts_ != null;
     }
     /**
-     * <code>optional .dstore.values.BooleanValue get_unused_condition_parts = 3;</code>
+     * <code>.dstore.values.BooleanValue get_unused_condition_parts = 3;</code>
      */
     public io.dstore.values.BooleanValue getGetUnusedConditionParts() {
       return getUnusedConditionParts_ == null ? io.dstore.values.BooleanValue.getDefaultInstance() : getUnusedConditionParts_;
     }
     /**
-     * <code>optional .dstore.values.BooleanValue get_unused_condition_parts = 3;</code>
+     * <code>.dstore.values.BooleanValue get_unused_condition_parts = 3;</code>
      */
     public io.dstore.values.BooleanValueOrBuilder getGetUnusedConditionPartsOrBuilder() {
       return getGetUnusedConditionParts();
@@ -534,7 +534,7 @@ public final class ImGetItemConditionPartsAd {
     public static final int GET_UNUSED_CONDITION_PARTS_NULL_FIELD_NUMBER = 1003;
     private boolean getUnusedConditionPartsNull_;
     /**
-     * <code>optional bool get_unused_condition_parts_null = 1003;</code>
+     * <code>bool get_unused_condition_parts_null = 1003;</code>
      */
     public boolean getGetUnusedConditionPartsNull() {
       return getUnusedConditionPartsNull_;
@@ -543,19 +543,19 @@ public final class ImGetItemConditionPartsAd {
     public static final int ORDER_BY_FIELD_NUMBER = 4;
     private io.dstore.values.IntegerValue orderBy_;
     /**
-     * <code>optional .dstore.values.IntegerValue order_by = 4;</code>
+     * <code>.dstore.values.IntegerValue order_by = 4;</code>
      */
     public boolean hasOrderBy() {
       return orderBy_ != null;
     }
     /**
-     * <code>optional .dstore.values.IntegerValue order_by = 4;</code>
+     * <code>.dstore.values.IntegerValue order_by = 4;</code>
      */
     public io.dstore.values.IntegerValue getOrderBy() {
       return orderBy_ == null ? io.dstore.values.IntegerValue.getDefaultInstance() : orderBy_;
     }
     /**
-     * <code>optional .dstore.values.IntegerValue order_by = 4;</code>
+     * <code>.dstore.values.IntegerValue order_by = 4;</code>
      */
     public io.dstore.values.IntegerValueOrBuilder getOrderByOrBuilder() {
       return getOrderBy();
@@ -564,7 +564,7 @@ public final class ImGetItemConditionPartsAd {
     public static final int ORDER_BY_NULL_FIELD_NUMBER = 1004;
     private boolean orderByNull_;
     /**
-     * <code>optional bool order_by_null = 1004;</code>
+     * <code>bool order_by_null = 1004;</code>
      */
     public boolean getOrderByNull() {
       return orderByNull_;
@@ -573,19 +573,19 @@ public final class ImGetItemConditionPartsAd {
     public static final int ROW_COUNT_FIELD_NUMBER = 5;
     private io.dstore.values.IntegerValue rowCount_;
     /**
-     * <code>optional .dstore.values.IntegerValue row_count = 5;</code>
+     * <code>.dstore.values.IntegerValue row_count = 5;</code>
      */
     public boolean hasRowCount() {
       return rowCount_ != null;
     }
     /**
-     * <code>optional .dstore.values.IntegerValue row_count = 5;</code>
+     * <code>.dstore.values.IntegerValue row_count = 5;</code>
      */
     public io.dstore.values.IntegerValue getRowCount() {
       return rowCount_ == null ? io.dstore.values.IntegerValue.getDefaultInstance() : rowCount_;
     }
     /**
-     * <code>optional .dstore.values.IntegerValue row_count = 5;</code>
+     * <code>.dstore.values.IntegerValue row_count = 5;</code>
      */
     public io.dstore.values.IntegerValueOrBuilder getRowCountOrBuilder() {
       return getRowCount();
@@ -594,7 +594,7 @@ public final class ImGetItemConditionPartsAd {
     public static final int ROW_COUNT_NULL_FIELD_NUMBER = 1005;
     private boolean rowCountNull_;
     /**
-     * <code>optional bool row_count_null = 1005;</code>
+     * <code>bool row_count_null = 1005;</code>
      */
     public boolean getRowCountNull() {
       return rowCountNull_;
@@ -603,19 +603,19 @@ public final class ImGetItemConditionPartsAd {
     public static final int ONLY_COND_PARTS_WITH_NODE_CHARAC_ID_FIELD_NUMBER = 6;
     private io.dstore.values.IntegerValue onlyCondPartsWithNodeCharacId_;
     /**
-     * <code>optional .dstore.values.IntegerValue only_cond_parts_with_node_charac_id = 6;</code>
+     * <code>.dstore.values.IntegerValue only_cond_parts_with_node_charac_id = 6;</code>
      */
     public boolean hasOnlyCondPartsWithNodeCharacId() {
       return onlyCondPartsWithNodeCharacId_ != null;
     }
     /**
-     * <code>optional .dstore.values.IntegerValue only_cond_parts_with_node_charac_id = 6;</code>
+     * <code>.dstore.values.IntegerValue only_cond_parts_with_node_charac_id = 6;</code>
      */
     public io.dstore.values.IntegerValue getOnlyCondPartsWithNodeCharacId() {
       return onlyCondPartsWithNodeCharacId_ == null ? io.dstore.values.IntegerValue.getDefaultInstance() : onlyCondPartsWithNodeCharacId_;
     }
     /**
-     * <code>optional .dstore.values.IntegerValue only_cond_parts_with_node_charac_id = 6;</code>
+     * <code>.dstore.values.IntegerValue only_cond_parts_with_node_charac_id = 6;</code>
      */
     public io.dstore.values.IntegerValueOrBuilder getOnlyCondPartsWithNodeCharacIdOrBuilder() {
       return getOnlyCondPartsWithNodeCharacId();
@@ -624,7 +624,7 @@ public final class ImGetItemConditionPartsAd {
     public static final int ONLY_COND_PARTS_WITH_NODE_CHARAC_ID_NULL_FIELD_NUMBER = 1006;
     private boolean onlyCondPartsWithNodeCharacIdNull_;
     /**
-     * <code>optional bool only_cond_parts_with_node_charac_id_null = 1006;</code>
+     * <code>bool only_cond_parts_with_node_charac_id_null = 1006;</code>
      */
     public boolean getOnlyCondPartsWithNodeCharacIdNull() {
       return onlyCondPartsWithNodeCharacIdNull_;
@@ -633,19 +633,19 @@ public final class ImGetItemConditionPartsAd {
     public static final int ONLY_COND_PARTS_WITH_DOM_T_NODE_ID1_FIELD_NUMBER = 7;
     private io.dstore.values.IntegerValue onlyCondPartsWithDomTNodeId1_;
     /**
-     * <code>optional .dstore.values.IntegerValue only_cond_parts_with_dom_t_node_id1 = 7;</code>
+     * <code>.dstore.values.IntegerValue only_cond_parts_with_dom_t_node_id1 = 7;</code>
      */
     public boolean hasOnlyCondPartsWithDomTNodeId1() {
       return onlyCondPartsWithDomTNodeId1_ != null;
     }
     /**
-     * <code>optional .dstore.values.IntegerValue only_cond_parts_with_dom_t_node_id1 = 7;</code>
+     * <code>.dstore.values.IntegerValue only_cond_parts_with_dom_t_node_id1 = 7;</code>
      */
     public io.dstore.values.IntegerValue getOnlyCondPartsWithDomTNodeId1() {
       return onlyCondPartsWithDomTNodeId1_ == null ? io.dstore.values.IntegerValue.getDefaultInstance() : onlyCondPartsWithDomTNodeId1_;
     }
     /**
-     * <code>optional .dstore.values.IntegerValue only_cond_parts_with_dom_t_node_id1 = 7;</code>
+     * <code>.dstore.values.IntegerValue only_cond_parts_with_dom_t_node_id1 = 7;</code>
      */
     public io.dstore.values.IntegerValueOrBuilder getOnlyCondPartsWithDomTNodeId1OrBuilder() {
       return getOnlyCondPartsWithDomTNodeId1();
@@ -654,7 +654,7 @@ public final class ImGetItemConditionPartsAd {
     public static final int ONLY_COND_PARTS_WITH_DOM_T_NODE_ID1_NULL_FIELD_NUMBER = 1007;
     private boolean onlyCondPartsWithDomTNodeId1Null_;
     /**
-     * <code>optional bool only_cond_parts_with_dom_t_node_id1_null = 1007;</code>
+     * <code>bool only_cond_parts_with_dom_t_node_id1_null = 1007;</code>
      */
     public boolean getOnlyCondPartsWithDomTNodeId1Null() {
       return onlyCondPartsWithDomTNodeId1Null_;
@@ -663,19 +663,19 @@ public final class ImGetItemConditionPartsAd {
     public static final int ONLY_COND_PARTS_WITH_DOM_T_NODE_ID2_FIELD_NUMBER = 8;
     private io.dstore.values.IntegerValue onlyCondPartsWithDomTNodeId2_;
     /**
-     * <code>optional .dstore.values.IntegerValue only_cond_parts_with_dom_t_node_id2 = 8;</code>
+     * <code>.dstore.values.IntegerValue only_cond_parts_with_dom_t_node_id2 = 8;</code>
      */
     public boolean hasOnlyCondPartsWithDomTNodeId2() {
       return onlyCondPartsWithDomTNodeId2_ != null;
     }
     /**
-     * <code>optional .dstore.values.IntegerValue only_cond_parts_with_dom_t_node_id2 = 8;</code>
+     * <code>.dstore.values.IntegerValue only_cond_parts_with_dom_t_node_id2 = 8;</code>
      */
     public io.dstore.values.IntegerValue getOnlyCondPartsWithDomTNodeId2() {
       return onlyCondPartsWithDomTNodeId2_ == null ? io.dstore.values.IntegerValue.getDefaultInstance() : onlyCondPartsWithDomTNodeId2_;
     }
     /**
-     * <code>optional .dstore.values.IntegerValue only_cond_parts_with_dom_t_node_id2 = 8;</code>
+     * <code>.dstore.values.IntegerValue only_cond_parts_with_dom_t_node_id2 = 8;</code>
      */
     public io.dstore.values.IntegerValueOrBuilder getOnlyCondPartsWithDomTNodeId2OrBuilder() {
       return getOnlyCondPartsWithDomTNodeId2();
@@ -684,7 +684,7 @@ public final class ImGetItemConditionPartsAd {
     public static final int ONLY_COND_PARTS_WITH_DOM_T_NODE_ID2_NULL_FIELD_NUMBER = 1008;
     private boolean onlyCondPartsWithDomTNodeId2Null_;
     /**
-     * <code>optional bool only_cond_parts_with_dom_t_node_id2_null = 1008;</code>
+     * <code>bool only_cond_parts_with_dom_t_node_id2_null = 1008;</code>
      */
     public boolean getOnlyCondPartsWithDomTNodeId2Null() {
       return onlyCondPartsWithDomTNodeId2Null_;
@@ -693,19 +693,19 @@ public final class ImGetItemConditionPartsAd {
     public static final int ONLY_COND_PARTS_WITH_DOM_T_NODE_ID3_FIELD_NUMBER = 9;
     private io.dstore.values.IntegerValue onlyCondPartsWithDomTNodeId3_;
     /**
-     * <code>optional .dstore.values.IntegerValue only_cond_parts_with_dom_t_node_id3 = 9;</code>
+     * <code>.dstore.values.IntegerValue only_cond_parts_with_dom_t_node_id3 = 9;</code>
      */
     public boolean hasOnlyCondPartsWithDomTNodeId3() {
       return onlyCondPartsWithDomTNodeId3_ != null;
     }
     /**
-     * <code>optional .dstore.values.IntegerValue only_cond_parts_with_dom_t_node_id3 = 9;</code>
+     * <code>.dstore.values.IntegerValue only_cond_parts_with_dom_t_node_id3 = 9;</code>
      */
     public io.dstore.values.IntegerValue getOnlyCondPartsWithDomTNodeId3() {
       return onlyCondPartsWithDomTNodeId3_ == null ? io.dstore.values.IntegerValue.getDefaultInstance() : onlyCondPartsWithDomTNodeId3_;
     }
     /**
-     * <code>optional .dstore.values.IntegerValue only_cond_parts_with_dom_t_node_id3 = 9;</code>
+     * <code>.dstore.values.IntegerValue only_cond_parts_with_dom_t_node_id3 = 9;</code>
      */
     public io.dstore.values.IntegerValueOrBuilder getOnlyCondPartsWithDomTNodeId3OrBuilder() {
       return getOnlyCondPartsWithDomTNodeId3();
@@ -714,7 +714,7 @@ public final class ImGetItemConditionPartsAd {
     public static final int ONLY_COND_PARTS_WITH_DOM_T_NODE_ID3_NULL_FIELD_NUMBER = 1009;
     private boolean onlyCondPartsWithDomTNodeId3Null_;
     /**
-     * <code>optional bool only_cond_parts_with_dom_t_node_id3_null = 1009;</code>
+     * <code>bool only_cond_parts_with_dom_t_node_id3_null = 1009;</code>
      */
     public boolean getOnlyCondPartsWithDomTNodeId3Null() {
       return onlyCondPartsWithDomTNodeId3Null_;
@@ -723,19 +723,19 @@ public final class ImGetItemConditionPartsAd {
     public static final int OUTPUT_INTO_ONE_ID_FIELD_NUMBER = 10;
     private io.dstore.values.IntegerValue outputIntoOneId_;
     /**
-     * <code>optional .dstore.values.IntegerValue output_into_one_id = 10;</code>
+     * <code>.dstore.values.IntegerValue output_into_one_id = 10;</code>
      */
     public boolean hasOutputIntoOneId() {
       return outputIntoOneId_ != null;
     }
     /**
-     * <code>optional .dstore.values.IntegerValue output_into_one_id = 10;</code>
+     * <code>.dstore.values.IntegerValue output_into_one_id = 10;</code>
      */
     public io.dstore.values.IntegerValue getOutputIntoOneId() {
       return outputIntoOneId_ == null ? io.dstore.values.IntegerValue.getDefaultInstance() : outputIntoOneId_;
     }
     /**
-     * <code>optional .dstore.values.IntegerValue output_into_one_id = 10;</code>
+     * <code>.dstore.values.IntegerValue output_into_one_id = 10;</code>
      */
     public io.dstore.values.IntegerValueOrBuilder getOutputIntoOneIdOrBuilder() {
       return getOutputIntoOneId();
@@ -744,7 +744,7 @@ public final class ImGetItemConditionPartsAd {
     public static final int OUTPUT_INTO_ONE_ID_NULL_FIELD_NUMBER = 1010;
     private boolean outputIntoOneIdNull_;
     /**
-     * <code>optional bool output_into_one_id_null = 1010;</code>
+     * <code>bool output_into_one_id_null = 1010;</code>
      */
     public boolean getOutputIntoOneIdNull() {
       return outputIntoOneIdNull_;
@@ -1004,7 +1004,7 @@ public final class ImGetItemConditionPartsAd {
         return memoizedHashCode;
       }
       int hash = 41;
-      hash = (19 * hash) + getDescriptorForType().hashCode();
+      hash = (19 * hash) + getDescriptor().hashCode();
       if (hasConditionPartId()) {
         hash = (37 * hash) + CONDITION_PART_ID_FIELD_NUMBER;
         hash = (53 * hash) + getConditionPartId().hashCode();
@@ -1486,13 +1486,13 @@ public final class ImGetItemConditionPartsAd {
       private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> conditionPartIdBuilder_;
       /**
-       * <code>optional .dstore.values.IntegerValue condition_part_id = 1;</code>
+       * <code>.dstore.values.IntegerValue condition_part_id = 1;</code>
        */
       public boolean hasConditionPartId() {
         return conditionPartIdBuilder_ != null || conditionPartId_ != null;
       }
       /**
-       * <code>optional .dstore.values.IntegerValue condition_part_id = 1;</code>
+       * <code>.dstore.values.IntegerValue condition_part_id = 1;</code>
        */
       public io.dstore.values.IntegerValue getConditionPartId() {
         if (conditionPartIdBuilder_ == null) {
@@ -1502,7 +1502,7 @@ public final class ImGetItemConditionPartsAd {
         }
       }
       /**
-       * <code>optional .dstore.values.IntegerValue condition_part_id = 1;</code>
+       * <code>.dstore.values.IntegerValue condition_part_id = 1;</code>
        */
       public Builder setConditionPartId(io.dstore.values.IntegerValue value) {
         if (conditionPartIdBuilder_ == null) {
@@ -1518,7 +1518,7 @@ public final class ImGetItemConditionPartsAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.IntegerValue condition_part_id = 1;</code>
+       * <code>.dstore.values.IntegerValue condition_part_id = 1;</code>
        */
       public Builder setConditionPartId(
           io.dstore.values.IntegerValue.Builder builderForValue) {
@@ -1532,7 +1532,7 @@ public final class ImGetItemConditionPartsAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.IntegerValue condition_part_id = 1;</code>
+       * <code>.dstore.values.IntegerValue condition_part_id = 1;</code>
        */
       public Builder mergeConditionPartId(io.dstore.values.IntegerValue value) {
         if (conditionPartIdBuilder_ == null) {
@@ -1550,7 +1550,7 @@ public final class ImGetItemConditionPartsAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.IntegerValue condition_part_id = 1;</code>
+       * <code>.dstore.values.IntegerValue condition_part_id = 1;</code>
        */
       public Builder clearConditionPartId() {
         if (conditionPartIdBuilder_ == null) {
@@ -1564,7 +1564,7 @@ public final class ImGetItemConditionPartsAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.IntegerValue condition_part_id = 1;</code>
+       * <code>.dstore.values.IntegerValue condition_part_id = 1;</code>
        */
       public io.dstore.values.IntegerValue.Builder getConditionPartIdBuilder() {
         
@@ -1572,7 +1572,7 @@ public final class ImGetItemConditionPartsAd {
         return getConditionPartIdFieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .dstore.values.IntegerValue condition_part_id = 1;</code>
+       * <code>.dstore.values.IntegerValue condition_part_id = 1;</code>
        */
       public io.dstore.values.IntegerValueOrBuilder getConditionPartIdOrBuilder() {
         if (conditionPartIdBuilder_ != null) {
@@ -1583,7 +1583,7 @@ public final class ImGetItemConditionPartsAd {
         }
       }
       /**
-       * <code>optional .dstore.values.IntegerValue condition_part_id = 1;</code>
+       * <code>.dstore.values.IntegerValue condition_part_id = 1;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> 
@@ -1601,13 +1601,13 @@ public final class ImGetItemConditionPartsAd {
 
       private boolean conditionPartIdNull_ ;
       /**
-       * <code>optional bool condition_part_id_null = 1001;</code>
+       * <code>bool condition_part_id_null = 1001;</code>
        */
       public boolean getConditionPartIdNull() {
         return conditionPartIdNull_;
       }
       /**
-       * <code>optional bool condition_part_id_null = 1001;</code>
+       * <code>bool condition_part_id_null = 1001;</code>
        */
       public Builder setConditionPartIdNull(boolean value) {
         
@@ -1616,7 +1616,7 @@ public final class ImGetItemConditionPartsAd {
         return this;
       }
       /**
-       * <code>optional bool condition_part_id_null = 1001;</code>
+       * <code>bool condition_part_id_null = 1001;</code>
        */
       public Builder clearConditionPartIdNull() {
         
@@ -1629,13 +1629,13 @@ public final class ImGetItemConditionPartsAd {
       private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.values.StringValue, io.dstore.values.StringValue.Builder, io.dstore.values.StringValueOrBuilder> conditionPartDescriptionLikeBuilder_;
       /**
-       * <code>optional .dstore.values.StringValue condition_part_description_like = 2;</code>
+       * <code>.dstore.values.StringValue condition_part_description_like = 2;</code>
        */
       public boolean hasConditionPartDescriptionLike() {
         return conditionPartDescriptionLikeBuilder_ != null || conditionPartDescriptionLike_ != null;
       }
       /**
-       * <code>optional .dstore.values.StringValue condition_part_description_like = 2;</code>
+       * <code>.dstore.values.StringValue condition_part_description_like = 2;</code>
        */
       public io.dstore.values.StringValue getConditionPartDescriptionLike() {
         if (conditionPartDescriptionLikeBuilder_ == null) {
@@ -1645,7 +1645,7 @@ public final class ImGetItemConditionPartsAd {
         }
       }
       /**
-       * <code>optional .dstore.values.StringValue condition_part_description_like = 2;</code>
+       * <code>.dstore.values.StringValue condition_part_description_like = 2;</code>
        */
       public Builder setConditionPartDescriptionLike(io.dstore.values.StringValue value) {
         if (conditionPartDescriptionLikeBuilder_ == null) {
@@ -1661,7 +1661,7 @@ public final class ImGetItemConditionPartsAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.StringValue condition_part_description_like = 2;</code>
+       * <code>.dstore.values.StringValue condition_part_description_like = 2;</code>
        */
       public Builder setConditionPartDescriptionLike(
           io.dstore.values.StringValue.Builder builderForValue) {
@@ -1675,7 +1675,7 @@ public final class ImGetItemConditionPartsAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.StringValue condition_part_description_like = 2;</code>
+       * <code>.dstore.values.StringValue condition_part_description_like = 2;</code>
        */
       public Builder mergeConditionPartDescriptionLike(io.dstore.values.StringValue value) {
         if (conditionPartDescriptionLikeBuilder_ == null) {
@@ -1693,7 +1693,7 @@ public final class ImGetItemConditionPartsAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.StringValue condition_part_description_like = 2;</code>
+       * <code>.dstore.values.StringValue condition_part_description_like = 2;</code>
        */
       public Builder clearConditionPartDescriptionLike() {
         if (conditionPartDescriptionLikeBuilder_ == null) {
@@ -1707,7 +1707,7 @@ public final class ImGetItemConditionPartsAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.StringValue condition_part_description_like = 2;</code>
+       * <code>.dstore.values.StringValue condition_part_description_like = 2;</code>
        */
       public io.dstore.values.StringValue.Builder getConditionPartDescriptionLikeBuilder() {
         
@@ -1715,7 +1715,7 @@ public final class ImGetItemConditionPartsAd {
         return getConditionPartDescriptionLikeFieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .dstore.values.StringValue condition_part_description_like = 2;</code>
+       * <code>.dstore.values.StringValue condition_part_description_like = 2;</code>
        */
       public io.dstore.values.StringValueOrBuilder getConditionPartDescriptionLikeOrBuilder() {
         if (conditionPartDescriptionLikeBuilder_ != null) {
@@ -1726,7 +1726,7 @@ public final class ImGetItemConditionPartsAd {
         }
       }
       /**
-       * <code>optional .dstore.values.StringValue condition_part_description_like = 2;</code>
+       * <code>.dstore.values.StringValue condition_part_description_like = 2;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.values.StringValue, io.dstore.values.StringValue.Builder, io.dstore.values.StringValueOrBuilder> 
@@ -1744,13 +1744,13 @@ public final class ImGetItemConditionPartsAd {
 
       private boolean conditionPartDescriptionLikeNull_ ;
       /**
-       * <code>optional bool condition_part_description_like_null = 1002;</code>
+       * <code>bool condition_part_description_like_null = 1002;</code>
        */
       public boolean getConditionPartDescriptionLikeNull() {
         return conditionPartDescriptionLikeNull_;
       }
       /**
-       * <code>optional bool condition_part_description_like_null = 1002;</code>
+       * <code>bool condition_part_description_like_null = 1002;</code>
        */
       public Builder setConditionPartDescriptionLikeNull(boolean value) {
         
@@ -1759,7 +1759,7 @@ public final class ImGetItemConditionPartsAd {
         return this;
       }
       /**
-       * <code>optional bool condition_part_description_like_null = 1002;</code>
+       * <code>bool condition_part_description_like_null = 1002;</code>
        */
       public Builder clearConditionPartDescriptionLikeNull() {
         
@@ -1772,13 +1772,13 @@ public final class ImGetItemConditionPartsAd {
       private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.values.BooleanValue, io.dstore.values.BooleanValue.Builder, io.dstore.values.BooleanValueOrBuilder> getUnusedConditionPartsBuilder_;
       /**
-       * <code>optional .dstore.values.BooleanValue get_unused_condition_parts = 3;</code>
+       * <code>.dstore.values.BooleanValue get_unused_condition_parts = 3;</code>
        */
       public boolean hasGetUnusedConditionParts() {
         return getUnusedConditionPartsBuilder_ != null || getUnusedConditionParts_ != null;
       }
       /**
-       * <code>optional .dstore.values.BooleanValue get_unused_condition_parts = 3;</code>
+       * <code>.dstore.values.BooleanValue get_unused_condition_parts = 3;</code>
        */
       public io.dstore.values.BooleanValue getGetUnusedConditionParts() {
         if (getUnusedConditionPartsBuilder_ == null) {
@@ -1788,7 +1788,7 @@ public final class ImGetItemConditionPartsAd {
         }
       }
       /**
-       * <code>optional .dstore.values.BooleanValue get_unused_condition_parts = 3;</code>
+       * <code>.dstore.values.BooleanValue get_unused_condition_parts = 3;</code>
        */
       public Builder setGetUnusedConditionParts(io.dstore.values.BooleanValue value) {
         if (getUnusedConditionPartsBuilder_ == null) {
@@ -1804,7 +1804,7 @@ public final class ImGetItemConditionPartsAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.BooleanValue get_unused_condition_parts = 3;</code>
+       * <code>.dstore.values.BooleanValue get_unused_condition_parts = 3;</code>
        */
       public Builder setGetUnusedConditionParts(
           io.dstore.values.BooleanValue.Builder builderForValue) {
@@ -1818,7 +1818,7 @@ public final class ImGetItemConditionPartsAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.BooleanValue get_unused_condition_parts = 3;</code>
+       * <code>.dstore.values.BooleanValue get_unused_condition_parts = 3;</code>
        */
       public Builder mergeGetUnusedConditionParts(io.dstore.values.BooleanValue value) {
         if (getUnusedConditionPartsBuilder_ == null) {
@@ -1836,7 +1836,7 @@ public final class ImGetItemConditionPartsAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.BooleanValue get_unused_condition_parts = 3;</code>
+       * <code>.dstore.values.BooleanValue get_unused_condition_parts = 3;</code>
        */
       public Builder clearGetUnusedConditionParts() {
         if (getUnusedConditionPartsBuilder_ == null) {
@@ -1850,7 +1850,7 @@ public final class ImGetItemConditionPartsAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.BooleanValue get_unused_condition_parts = 3;</code>
+       * <code>.dstore.values.BooleanValue get_unused_condition_parts = 3;</code>
        */
       public io.dstore.values.BooleanValue.Builder getGetUnusedConditionPartsBuilder() {
         
@@ -1858,7 +1858,7 @@ public final class ImGetItemConditionPartsAd {
         return getGetUnusedConditionPartsFieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .dstore.values.BooleanValue get_unused_condition_parts = 3;</code>
+       * <code>.dstore.values.BooleanValue get_unused_condition_parts = 3;</code>
        */
       public io.dstore.values.BooleanValueOrBuilder getGetUnusedConditionPartsOrBuilder() {
         if (getUnusedConditionPartsBuilder_ != null) {
@@ -1869,7 +1869,7 @@ public final class ImGetItemConditionPartsAd {
         }
       }
       /**
-       * <code>optional .dstore.values.BooleanValue get_unused_condition_parts = 3;</code>
+       * <code>.dstore.values.BooleanValue get_unused_condition_parts = 3;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.values.BooleanValue, io.dstore.values.BooleanValue.Builder, io.dstore.values.BooleanValueOrBuilder> 
@@ -1887,13 +1887,13 @@ public final class ImGetItemConditionPartsAd {
 
       private boolean getUnusedConditionPartsNull_ ;
       /**
-       * <code>optional bool get_unused_condition_parts_null = 1003;</code>
+       * <code>bool get_unused_condition_parts_null = 1003;</code>
        */
       public boolean getGetUnusedConditionPartsNull() {
         return getUnusedConditionPartsNull_;
       }
       /**
-       * <code>optional bool get_unused_condition_parts_null = 1003;</code>
+       * <code>bool get_unused_condition_parts_null = 1003;</code>
        */
       public Builder setGetUnusedConditionPartsNull(boolean value) {
         
@@ -1902,7 +1902,7 @@ public final class ImGetItemConditionPartsAd {
         return this;
       }
       /**
-       * <code>optional bool get_unused_condition_parts_null = 1003;</code>
+       * <code>bool get_unused_condition_parts_null = 1003;</code>
        */
       public Builder clearGetUnusedConditionPartsNull() {
         
@@ -1915,13 +1915,13 @@ public final class ImGetItemConditionPartsAd {
       private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> orderByBuilder_;
       /**
-       * <code>optional .dstore.values.IntegerValue order_by = 4;</code>
+       * <code>.dstore.values.IntegerValue order_by = 4;</code>
        */
       public boolean hasOrderBy() {
         return orderByBuilder_ != null || orderBy_ != null;
       }
       /**
-       * <code>optional .dstore.values.IntegerValue order_by = 4;</code>
+       * <code>.dstore.values.IntegerValue order_by = 4;</code>
        */
       public io.dstore.values.IntegerValue getOrderBy() {
         if (orderByBuilder_ == null) {
@@ -1931,7 +1931,7 @@ public final class ImGetItemConditionPartsAd {
         }
       }
       /**
-       * <code>optional .dstore.values.IntegerValue order_by = 4;</code>
+       * <code>.dstore.values.IntegerValue order_by = 4;</code>
        */
       public Builder setOrderBy(io.dstore.values.IntegerValue value) {
         if (orderByBuilder_ == null) {
@@ -1947,7 +1947,7 @@ public final class ImGetItemConditionPartsAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.IntegerValue order_by = 4;</code>
+       * <code>.dstore.values.IntegerValue order_by = 4;</code>
        */
       public Builder setOrderBy(
           io.dstore.values.IntegerValue.Builder builderForValue) {
@@ -1961,7 +1961,7 @@ public final class ImGetItemConditionPartsAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.IntegerValue order_by = 4;</code>
+       * <code>.dstore.values.IntegerValue order_by = 4;</code>
        */
       public Builder mergeOrderBy(io.dstore.values.IntegerValue value) {
         if (orderByBuilder_ == null) {
@@ -1979,7 +1979,7 @@ public final class ImGetItemConditionPartsAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.IntegerValue order_by = 4;</code>
+       * <code>.dstore.values.IntegerValue order_by = 4;</code>
        */
       public Builder clearOrderBy() {
         if (orderByBuilder_ == null) {
@@ -1993,7 +1993,7 @@ public final class ImGetItemConditionPartsAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.IntegerValue order_by = 4;</code>
+       * <code>.dstore.values.IntegerValue order_by = 4;</code>
        */
       public io.dstore.values.IntegerValue.Builder getOrderByBuilder() {
         
@@ -2001,7 +2001,7 @@ public final class ImGetItemConditionPartsAd {
         return getOrderByFieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .dstore.values.IntegerValue order_by = 4;</code>
+       * <code>.dstore.values.IntegerValue order_by = 4;</code>
        */
       public io.dstore.values.IntegerValueOrBuilder getOrderByOrBuilder() {
         if (orderByBuilder_ != null) {
@@ -2012,7 +2012,7 @@ public final class ImGetItemConditionPartsAd {
         }
       }
       /**
-       * <code>optional .dstore.values.IntegerValue order_by = 4;</code>
+       * <code>.dstore.values.IntegerValue order_by = 4;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> 
@@ -2030,13 +2030,13 @@ public final class ImGetItemConditionPartsAd {
 
       private boolean orderByNull_ ;
       /**
-       * <code>optional bool order_by_null = 1004;</code>
+       * <code>bool order_by_null = 1004;</code>
        */
       public boolean getOrderByNull() {
         return orderByNull_;
       }
       /**
-       * <code>optional bool order_by_null = 1004;</code>
+       * <code>bool order_by_null = 1004;</code>
        */
       public Builder setOrderByNull(boolean value) {
         
@@ -2045,7 +2045,7 @@ public final class ImGetItemConditionPartsAd {
         return this;
       }
       /**
-       * <code>optional bool order_by_null = 1004;</code>
+       * <code>bool order_by_null = 1004;</code>
        */
       public Builder clearOrderByNull() {
         
@@ -2058,13 +2058,13 @@ public final class ImGetItemConditionPartsAd {
       private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> rowCountBuilder_;
       /**
-       * <code>optional .dstore.values.IntegerValue row_count = 5;</code>
+       * <code>.dstore.values.IntegerValue row_count = 5;</code>
        */
       public boolean hasRowCount() {
         return rowCountBuilder_ != null || rowCount_ != null;
       }
       /**
-       * <code>optional .dstore.values.IntegerValue row_count = 5;</code>
+       * <code>.dstore.values.IntegerValue row_count = 5;</code>
        */
       public io.dstore.values.IntegerValue getRowCount() {
         if (rowCountBuilder_ == null) {
@@ -2074,7 +2074,7 @@ public final class ImGetItemConditionPartsAd {
         }
       }
       /**
-       * <code>optional .dstore.values.IntegerValue row_count = 5;</code>
+       * <code>.dstore.values.IntegerValue row_count = 5;</code>
        */
       public Builder setRowCount(io.dstore.values.IntegerValue value) {
         if (rowCountBuilder_ == null) {
@@ -2090,7 +2090,7 @@ public final class ImGetItemConditionPartsAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.IntegerValue row_count = 5;</code>
+       * <code>.dstore.values.IntegerValue row_count = 5;</code>
        */
       public Builder setRowCount(
           io.dstore.values.IntegerValue.Builder builderForValue) {
@@ -2104,7 +2104,7 @@ public final class ImGetItemConditionPartsAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.IntegerValue row_count = 5;</code>
+       * <code>.dstore.values.IntegerValue row_count = 5;</code>
        */
       public Builder mergeRowCount(io.dstore.values.IntegerValue value) {
         if (rowCountBuilder_ == null) {
@@ -2122,7 +2122,7 @@ public final class ImGetItemConditionPartsAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.IntegerValue row_count = 5;</code>
+       * <code>.dstore.values.IntegerValue row_count = 5;</code>
        */
       public Builder clearRowCount() {
         if (rowCountBuilder_ == null) {
@@ -2136,7 +2136,7 @@ public final class ImGetItemConditionPartsAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.IntegerValue row_count = 5;</code>
+       * <code>.dstore.values.IntegerValue row_count = 5;</code>
        */
       public io.dstore.values.IntegerValue.Builder getRowCountBuilder() {
         
@@ -2144,7 +2144,7 @@ public final class ImGetItemConditionPartsAd {
         return getRowCountFieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .dstore.values.IntegerValue row_count = 5;</code>
+       * <code>.dstore.values.IntegerValue row_count = 5;</code>
        */
       public io.dstore.values.IntegerValueOrBuilder getRowCountOrBuilder() {
         if (rowCountBuilder_ != null) {
@@ -2155,7 +2155,7 @@ public final class ImGetItemConditionPartsAd {
         }
       }
       /**
-       * <code>optional .dstore.values.IntegerValue row_count = 5;</code>
+       * <code>.dstore.values.IntegerValue row_count = 5;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> 
@@ -2173,13 +2173,13 @@ public final class ImGetItemConditionPartsAd {
 
       private boolean rowCountNull_ ;
       /**
-       * <code>optional bool row_count_null = 1005;</code>
+       * <code>bool row_count_null = 1005;</code>
        */
       public boolean getRowCountNull() {
         return rowCountNull_;
       }
       /**
-       * <code>optional bool row_count_null = 1005;</code>
+       * <code>bool row_count_null = 1005;</code>
        */
       public Builder setRowCountNull(boolean value) {
         
@@ -2188,7 +2188,7 @@ public final class ImGetItemConditionPartsAd {
         return this;
       }
       /**
-       * <code>optional bool row_count_null = 1005;</code>
+       * <code>bool row_count_null = 1005;</code>
        */
       public Builder clearRowCountNull() {
         
@@ -2201,13 +2201,13 @@ public final class ImGetItemConditionPartsAd {
       private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> onlyCondPartsWithNodeCharacIdBuilder_;
       /**
-       * <code>optional .dstore.values.IntegerValue only_cond_parts_with_node_charac_id = 6;</code>
+       * <code>.dstore.values.IntegerValue only_cond_parts_with_node_charac_id = 6;</code>
        */
       public boolean hasOnlyCondPartsWithNodeCharacId() {
         return onlyCondPartsWithNodeCharacIdBuilder_ != null || onlyCondPartsWithNodeCharacId_ != null;
       }
       /**
-       * <code>optional .dstore.values.IntegerValue only_cond_parts_with_node_charac_id = 6;</code>
+       * <code>.dstore.values.IntegerValue only_cond_parts_with_node_charac_id = 6;</code>
        */
       public io.dstore.values.IntegerValue getOnlyCondPartsWithNodeCharacId() {
         if (onlyCondPartsWithNodeCharacIdBuilder_ == null) {
@@ -2217,7 +2217,7 @@ public final class ImGetItemConditionPartsAd {
         }
       }
       /**
-       * <code>optional .dstore.values.IntegerValue only_cond_parts_with_node_charac_id = 6;</code>
+       * <code>.dstore.values.IntegerValue only_cond_parts_with_node_charac_id = 6;</code>
        */
       public Builder setOnlyCondPartsWithNodeCharacId(io.dstore.values.IntegerValue value) {
         if (onlyCondPartsWithNodeCharacIdBuilder_ == null) {
@@ -2233,7 +2233,7 @@ public final class ImGetItemConditionPartsAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.IntegerValue only_cond_parts_with_node_charac_id = 6;</code>
+       * <code>.dstore.values.IntegerValue only_cond_parts_with_node_charac_id = 6;</code>
        */
       public Builder setOnlyCondPartsWithNodeCharacId(
           io.dstore.values.IntegerValue.Builder builderForValue) {
@@ -2247,7 +2247,7 @@ public final class ImGetItemConditionPartsAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.IntegerValue only_cond_parts_with_node_charac_id = 6;</code>
+       * <code>.dstore.values.IntegerValue only_cond_parts_with_node_charac_id = 6;</code>
        */
       public Builder mergeOnlyCondPartsWithNodeCharacId(io.dstore.values.IntegerValue value) {
         if (onlyCondPartsWithNodeCharacIdBuilder_ == null) {
@@ -2265,7 +2265,7 @@ public final class ImGetItemConditionPartsAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.IntegerValue only_cond_parts_with_node_charac_id = 6;</code>
+       * <code>.dstore.values.IntegerValue only_cond_parts_with_node_charac_id = 6;</code>
        */
       public Builder clearOnlyCondPartsWithNodeCharacId() {
         if (onlyCondPartsWithNodeCharacIdBuilder_ == null) {
@@ -2279,7 +2279,7 @@ public final class ImGetItemConditionPartsAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.IntegerValue only_cond_parts_with_node_charac_id = 6;</code>
+       * <code>.dstore.values.IntegerValue only_cond_parts_with_node_charac_id = 6;</code>
        */
       public io.dstore.values.IntegerValue.Builder getOnlyCondPartsWithNodeCharacIdBuilder() {
         
@@ -2287,7 +2287,7 @@ public final class ImGetItemConditionPartsAd {
         return getOnlyCondPartsWithNodeCharacIdFieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .dstore.values.IntegerValue only_cond_parts_with_node_charac_id = 6;</code>
+       * <code>.dstore.values.IntegerValue only_cond_parts_with_node_charac_id = 6;</code>
        */
       public io.dstore.values.IntegerValueOrBuilder getOnlyCondPartsWithNodeCharacIdOrBuilder() {
         if (onlyCondPartsWithNodeCharacIdBuilder_ != null) {
@@ -2298,7 +2298,7 @@ public final class ImGetItemConditionPartsAd {
         }
       }
       /**
-       * <code>optional .dstore.values.IntegerValue only_cond_parts_with_node_charac_id = 6;</code>
+       * <code>.dstore.values.IntegerValue only_cond_parts_with_node_charac_id = 6;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> 
@@ -2316,13 +2316,13 @@ public final class ImGetItemConditionPartsAd {
 
       private boolean onlyCondPartsWithNodeCharacIdNull_ ;
       /**
-       * <code>optional bool only_cond_parts_with_node_charac_id_null = 1006;</code>
+       * <code>bool only_cond_parts_with_node_charac_id_null = 1006;</code>
        */
       public boolean getOnlyCondPartsWithNodeCharacIdNull() {
         return onlyCondPartsWithNodeCharacIdNull_;
       }
       /**
-       * <code>optional bool only_cond_parts_with_node_charac_id_null = 1006;</code>
+       * <code>bool only_cond_parts_with_node_charac_id_null = 1006;</code>
        */
       public Builder setOnlyCondPartsWithNodeCharacIdNull(boolean value) {
         
@@ -2331,7 +2331,7 @@ public final class ImGetItemConditionPartsAd {
         return this;
       }
       /**
-       * <code>optional bool only_cond_parts_with_node_charac_id_null = 1006;</code>
+       * <code>bool only_cond_parts_with_node_charac_id_null = 1006;</code>
        */
       public Builder clearOnlyCondPartsWithNodeCharacIdNull() {
         
@@ -2344,13 +2344,13 @@ public final class ImGetItemConditionPartsAd {
       private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> onlyCondPartsWithDomTNodeId1Builder_;
       /**
-       * <code>optional .dstore.values.IntegerValue only_cond_parts_with_dom_t_node_id1 = 7;</code>
+       * <code>.dstore.values.IntegerValue only_cond_parts_with_dom_t_node_id1 = 7;</code>
        */
       public boolean hasOnlyCondPartsWithDomTNodeId1() {
         return onlyCondPartsWithDomTNodeId1Builder_ != null || onlyCondPartsWithDomTNodeId1_ != null;
       }
       /**
-       * <code>optional .dstore.values.IntegerValue only_cond_parts_with_dom_t_node_id1 = 7;</code>
+       * <code>.dstore.values.IntegerValue only_cond_parts_with_dom_t_node_id1 = 7;</code>
        */
       public io.dstore.values.IntegerValue getOnlyCondPartsWithDomTNodeId1() {
         if (onlyCondPartsWithDomTNodeId1Builder_ == null) {
@@ -2360,7 +2360,7 @@ public final class ImGetItemConditionPartsAd {
         }
       }
       /**
-       * <code>optional .dstore.values.IntegerValue only_cond_parts_with_dom_t_node_id1 = 7;</code>
+       * <code>.dstore.values.IntegerValue only_cond_parts_with_dom_t_node_id1 = 7;</code>
        */
       public Builder setOnlyCondPartsWithDomTNodeId1(io.dstore.values.IntegerValue value) {
         if (onlyCondPartsWithDomTNodeId1Builder_ == null) {
@@ -2376,7 +2376,7 @@ public final class ImGetItemConditionPartsAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.IntegerValue only_cond_parts_with_dom_t_node_id1 = 7;</code>
+       * <code>.dstore.values.IntegerValue only_cond_parts_with_dom_t_node_id1 = 7;</code>
        */
       public Builder setOnlyCondPartsWithDomTNodeId1(
           io.dstore.values.IntegerValue.Builder builderForValue) {
@@ -2390,7 +2390,7 @@ public final class ImGetItemConditionPartsAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.IntegerValue only_cond_parts_with_dom_t_node_id1 = 7;</code>
+       * <code>.dstore.values.IntegerValue only_cond_parts_with_dom_t_node_id1 = 7;</code>
        */
       public Builder mergeOnlyCondPartsWithDomTNodeId1(io.dstore.values.IntegerValue value) {
         if (onlyCondPartsWithDomTNodeId1Builder_ == null) {
@@ -2408,7 +2408,7 @@ public final class ImGetItemConditionPartsAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.IntegerValue only_cond_parts_with_dom_t_node_id1 = 7;</code>
+       * <code>.dstore.values.IntegerValue only_cond_parts_with_dom_t_node_id1 = 7;</code>
        */
       public Builder clearOnlyCondPartsWithDomTNodeId1() {
         if (onlyCondPartsWithDomTNodeId1Builder_ == null) {
@@ -2422,7 +2422,7 @@ public final class ImGetItemConditionPartsAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.IntegerValue only_cond_parts_with_dom_t_node_id1 = 7;</code>
+       * <code>.dstore.values.IntegerValue only_cond_parts_with_dom_t_node_id1 = 7;</code>
        */
       public io.dstore.values.IntegerValue.Builder getOnlyCondPartsWithDomTNodeId1Builder() {
         
@@ -2430,7 +2430,7 @@ public final class ImGetItemConditionPartsAd {
         return getOnlyCondPartsWithDomTNodeId1FieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .dstore.values.IntegerValue only_cond_parts_with_dom_t_node_id1 = 7;</code>
+       * <code>.dstore.values.IntegerValue only_cond_parts_with_dom_t_node_id1 = 7;</code>
        */
       public io.dstore.values.IntegerValueOrBuilder getOnlyCondPartsWithDomTNodeId1OrBuilder() {
         if (onlyCondPartsWithDomTNodeId1Builder_ != null) {
@@ -2441,7 +2441,7 @@ public final class ImGetItemConditionPartsAd {
         }
       }
       /**
-       * <code>optional .dstore.values.IntegerValue only_cond_parts_with_dom_t_node_id1 = 7;</code>
+       * <code>.dstore.values.IntegerValue only_cond_parts_with_dom_t_node_id1 = 7;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> 
@@ -2459,13 +2459,13 @@ public final class ImGetItemConditionPartsAd {
 
       private boolean onlyCondPartsWithDomTNodeId1Null_ ;
       /**
-       * <code>optional bool only_cond_parts_with_dom_t_node_id1_null = 1007;</code>
+       * <code>bool only_cond_parts_with_dom_t_node_id1_null = 1007;</code>
        */
       public boolean getOnlyCondPartsWithDomTNodeId1Null() {
         return onlyCondPartsWithDomTNodeId1Null_;
       }
       /**
-       * <code>optional bool only_cond_parts_with_dom_t_node_id1_null = 1007;</code>
+       * <code>bool only_cond_parts_with_dom_t_node_id1_null = 1007;</code>
        */
       public Builder setOnlyCondPartsWithDomTNodeId1Null(boolean value) {
         
@@ -2474,7 +2474,7 @@ public final class ImGetItemConditionPartsAd {
         return this;
       }
       /**
-       * <code>optional bool only_cond_parts_with_dom_t_node_id1_null = 1007;</code>
+       * <code>bool only_cond_parts_with_dom_t_node_id1_null = 1007;</code>
        */
       public Builder clearOnlyCondPartsWithDomTNodeId1Null() {
         
@@ -2487,13 +2487,13 @@ public final class ImGetItemConditionPartsAd {
       private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> onlyCondPartsWithDomTNodeId2Builder_;
       /**
-       * <code>optional .dstore.values.IntegerValue only_cond_parts_with_dom_t_node_id2 = 8;</code>
+       * <code>.dstore.values.IntegerValue only_cond_parts_with_dom_t_node_id2 = 8;</code>
        */
       public boolean hasOnlyCondPartsWithDomTNodeId2() {
         return onlyCondPartsWithDomTNodeId2Builder_ != null || onlyCondPartsWithDomTNodeId2_ != null;
       }
       /**
-       * <code>optional .dstore.values.IntegerValue only_cond_parts_with_dom_t_node_id2 = 8;</code>
+       * <code>.dstore.values.IntegerValue only_cond_parts_with_dom_t_node_id2 = 8;</code>
        */
       public io.dstore.values.IntegerValue getOnlyCondPartsWithDomTNodeId2() {
         if (onlyCondPartsWithDomTNodeId2Builder_ == null) {
@@ -2503,7 +2503,7 @@ public final class ImGetItemConditionPartsAd {
         }
       }
       /**
-       * <code>optional .dstore.values.IntegerValue only_cond_parts_with_dom_t_node_id2 = 8;</code>
+       * <code>.dstore.values.IntegerValue only_cond_parts_with_dom_t_node_id2 = 8;</code>
        */
       public Builder setOnlyCondPartsWithDomTNodeId2(io.dstore.values.IntegerValue value) {
         if (onlyCondPartsWithDomTNodeId2Builder_ == null) {
@@ -2519,7 +2519,7 @@ public final class ImGetItemConditionPartsAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.IntegerValue only_cond_parts_with_dom_t_node_id2 = 8;</code>
+       * <code>.dstore.values.IntegerValue only_cond_parts_with_dom_t_node_id2 = 8;</code>
        */
       public Builder setOnlyCondPartsWithDomTNodeId2(
           io.dstore.values.IntegerValue.Builder builderForValue) {
@@ -2533,7 +2533,7 @@ public final class ImGetItemConditionPartsAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.IntegerValue only_cond_parts_with_dom_t_node_id2 = 8;</code>
+       * <code>.dstore.values.IntegerValue only_cond_parts_with_dom_t_node_id2 = 8;</code>
        */
       public Builder mergeOnlyCondPartsWithDomTNodeId2(io.dstore.values.IntegerValue value) {
         if (onlyCondPartsWithDomTNodeId2Builder_ == null) {
@@ -2551,7 +2551,7 @@ public final class ImGetItemConditionPartsAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.IntegerValue only_cond_parts_with_dom_t_node_id2 = 8;</code>
+       * <code>.dstore.values.IntegerValue only_cond_parts_with_dom_t_node_id2 = 8;</code>
        */
       public Builder clearOnlyCondPartsWithDomTNodeId2() {
         if (onlyCondPartsWithDomTNodeId2Builder_ == null) {
@@ -2565,7 +2565,7 @@ public final class ImGetItemConditionPartsAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.IntegerValue only_cond_parts_with_dom_t_node_id2 = 8;</code>
+       * <code>.dstore.values.IntegerValue only_cond_parts_with_dom_t_node_id2 = 8;</code>
        */
       public io.dstore.values.IntegerValue.Builder getOnlyCondPartsWithDomTNodeId2Builder() {
         
@@ -2573,7 +2573,7 @@ public final class ImGetItemConditionPartsAd {
         return getOnlyCondPartsWithDomTNodeId2FieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .dstore.values.IntegerValue only_cond_parts_with_dom_t_node_id2 = 8;</code>
+       * <code>.dstore.values.IntegerValue only_cond_parts_with_dom_t_node_id2 = 8;</code>
        */
       public io.dstore.values.IntegerValueOrBuilder getOnlyCondPartsWithDomTNodeId2OrBuilder() {
         if (onlyCondPartsWithDomTNodeId2Builder_ != null) {
@@ -2584,7 +2584,7 @@ public final class ImGetItemConditionPartsAd {
         }
       }
       /**
-       * <code>optional .dstore.values.IntegerValue only_cond_parts_with_dom_t_node_id2 = 8;</code>
+       * <code>.dstore.values.IntegerValue only_cond_parts_with_dom_t_node_id2 = 8;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> 
@@ -2602,13 +2602,13 @@ public final class ImGetItemConditionPartsAd {
 
       private boolean onlyCondPartsWithDomTNodeId2Null_ ;
       /**
-       * <code>optional bool only_cond_parts_with_dom_t_node_id2_null = 1008;</code>
+       * <code>bool only_cond_parts_with_dom_t_node_id2_null = 1008;</code>
        */
       public boolean getOnlyCondPartsWithDomTNodeId2Null() {
         return onlyCondPartsWithDomTNodeId2Null_;
       }
       /**
-       * <code>optional bool only_cond_parts_with_dom_t_node_id2_null = 1008;</code>
+       * <code>bool only_cond_parts_with_dom_t_node_id2_null = 1008;</code>
        */
       public Builder setOnlyCondPartsWithDomTNodeId2Null(boolean value) {
         
@@ -2617,7 +2617,7 @@ public final class ImGetItemConditionPartsAd {
         return this;
       }
       /**
-       * <code>optional bool only_cond_parts_with_dom_t_node_id2_null = 1008;</code>
+       * <code>bool only_cond_parts_with_dom_t_node_id2_null = 1008;</code>
        */
       public Builder clearOnlyCondPartsWithDomTNodeId2Null() {
         
@@ -2630,13 +2630,13 @@ public final class ImGetItemConditionPartsAd {
       private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> onlyCondPartsWithDomTNodeId3Builder_;
       /**
-       * <code>optional .dstore.values.IntegerValue only_cond_parts_with_dom_t_node_id3 = 9;</code>
+       * <code>.dstore.values.IntegerValue only_cond_parts_with_dom_t_node_id3 = 9;</code>
        */
       public boolean hasOnlyCondPartsWithDomTNodeId3() {
         return onlyCondPartsWithDomTNodeId3Builder_ != null || onlyCondPartsWithDomTNodeId3_ != null;
       }
       /**
-       * <code>optional .dstore.values.IntegerValue only_cond_parts_with_dom_t_node_id3 = 9;</code>
+       * <code>.dstore.values.IntegerValue only_cond_parts_with_dom_t_node_id3 = 9;</code>
        */
       public io.dstore.values.IntegerValue getOnlyCondPartsWithDomTNodeId3() {
         if (onlyCondPartsWithDomTNodeId3Builder_ == null) {
@@ -2646,7 +2646,7 @@ public final class ImGetItemConditionPartsAd {
         }
       }
       /**
-       * <code>optional .dstore.values.IntegerValue only_cond_parts_with_dom_t_node_id3 = 9;</code>
+       * <code>.dstore.values.IntegerValue only_cond_parts_with_dom_t_node_id3 = 9;</code>
        */
       public Builder setOnlyCondPartsWithDomTNodeId3(io.dstore.values.IntegerValue value) {
         if (onlyCondPartsWithDomTNodeId3Builder_ == null) {
@@ -2662,7 +2662,7 @@ public final class ImGetItemConditionPartsAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.IntegerValue only_cond_parts_with_dom_t_node_id3 = 9;</code>
+       * <code>.dstore.values.IntegerValue only_cond_parts_with_dom_t_node_id3 = 9;</code>
        */
       public Builder setOnlyCondPartsWithDomTNodeId3(
           io.dstore.values.IntegerValue.Builder builderForValue) {
@@ -2676,7 +2676,7 @@ public final class ImGetItemConditionPartsAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.IntegerValue only_cond_parts_with_dom_t_node_id3 = 9;</code>
+       * <code>.dstore.values.IntegerValue only_cond_parts_with_dom_t_node_id3 = 9;</code>
        */
       public Builder mergeOnlyCondPartsWithDomTNodeId3(io.dstore.values.IntegerValue value) {
         if (onlyCondPartsWithDomTNodeId3Builder_ == null) {
@@ -2694,7 +2694,7 @@ public final class ImGetItemConditionPartsAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.IntegerValue only_cond_parts_with_dom_t_node_id3 = 9;</code>
+       * <code>.dstore.values.IntegerValue only_cond_parts_with_dom_t_node_id3 = 9;</code>
        */
       public Builder clearOnlyCondPartsWithDomTNodeId3() {
         if (onlyCondPartsWithDomTNodeId3Builder_ == null) {
@@ -2708,7 +2708,7 @@ public final class ImGetItemConditionPartsAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.IntegerValue only_cond_parts_with_dom_t_node_id3 = 9;</code>
+       * <code>.dstore.values.IntegerValue only_cond_parts_with_dom_t_node_id3 = 9;</code>
        */
       public io.dstore.values.IntegerValue.Builder getOnlyCondPartsWithDomTNodeId3Builder() {
         
@@ -2716,7 +2716,7 @@ public final class ImGetItemConditionPartsAd {
         return getOnlyCondPartsWithDomTNodeId3FieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .dstore.values.IntegerValue only_cond_parts_with_dom_t_node_id3 = 9;</code>
+       * <code>.dstore.values.IntegerValue only_cond_parts_with_dom_t_node_id3 = 9;</code>
        */
       public io.dstore.values.IntegerValueOrBuilder getOnlyCondPartsWithDomTNodeId3OrBuilder() {
         if (onlyCondPartsWithDomTNodeId3Builder_ != null) {
@@ -2727,7 +2727,7 @@ public final class ImGetItemConditionPartsAd {
         }
       }
       /**
-       * <code>optional .dstore.values.IntegerValue only_cond_parts_with_dom_t_node_id3 = 9;</code>
+       * <code>.dstore.values.IntegerValue only_cond_parts_with_dom_t_node_id3 = 9;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> 
@@ -2745,13 +2745,13 @@ public final class ImGetItemConditionPartsAd {
 
       private boolean onlyCondPartsWithDomTNodeId3Null_ ;
       /**
-       * <code>optional bool only_cond_parts_with_dom_t_node_id3_null = 1009;</code>
+       * <code>bool only_cond_parts_with_dom_t_node_id3_null = 1009;</code>
        */
       public boolean getOnlyCondPartsWithDomTNodeId3Null() {
         return onlyCondPartsWithDomTNodeId3Null_;
       }
       /**
-       * <code>optional bool only_cond_parts_with_dom_t_node_id3_null = 1009;</code>
+       * <code>bool only_cond_parts_with_dom_t_node_id3_null = 1009;</code>
        */
       public Builder setOnlyCondPartsWithDomTNodeId3Null(boolean value) {
         
@@ -2760,7 +2760,7 @@ public final class ImGetItemConditionPartsAd {
         return this;
       }
       /**
-       * <code>optional bool only_cond_parts_with_dom_t_node_id3_null = 1009;</code>
+       * <code>bool only_cond_parts_with_dom_t_node_id3_null = 1009;</code>
        */
       public Builder clearOnlyCondPartsWithDomTNodeId3Null() {
         
@@ -2773,13 +2773,13 @@ public final class ImGetItemConditionPartsAd {
       private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> outputIntoOneIdBuilder_;
       /**
-       * <code>optional .dstore.values.IntegerValue output_into_one_id = 10;</code>
+       * <code>.dstore.values.IntegerValue output_into_one_id = 10;</code>
        */
       public boolean hasOutputIntoOneId() {
         return outputIntoOneIdBuilder_ != null || outputIntoOneId_ != null;
       }
       /**
-       * <code>optional .dstore.values.IntegerValue output_into_one_id = 10;</code>
+       * <code>.dstore.values.IntegerValue output_into_one_id = 10;</code>
        */
       public io.dstore.values.IntegerValue getOutputIntoOneId() {
         if (outputIntoOneIdBuilder_ == null) {
@@ -2789,7 +2789,7 @@ public final class ImGetItemConditionPartsAd {
         }
       }
       /**
-       * <code>optional .dstore.values.IntegerValue output_into_one_id = 10;</code>
+       * <code>.dstore.values.IntegerValue output_into_one_id = 10;</code>
        */
       public Builder setOutputIntoOneId(io.dstore.values.IntegerValue value) {
         if (outputIntoOneIdBuilder_ == null) {
@@ -2805,7 +2805,7 @@ public final class ImGetItemConditionPartsAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.IntegerValue output_into_one_id = 10;</code>
+       * <code>.dstore.values.IntegerValue output_into_one_id = 10;</code>
        */
       public Builder setOutputIntoOneId(
           io.dstore.values.IntegerValue.Builder builderForValue) {
@@ -2819,7 +2819,7 @@ public final class ImGetItemConditionPartsAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.IntegerValue output_into_one_id = 10;</code>
+       * <code>.dstore.values.IntegerValue output_into_one_id = 10;</code>
        */
       public Builder mergeOutputIntoOneId(io.dstore.values.IntegerValue value) {
         if (outputIntoOneIdBuilder_ == null) {
@@ -2837,7 +2837,7 @@ public final class ImGetItemConditionPartsAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.IntegerValue output_into_one_id = 10;</code>
+       * <code>.dstore.values.IntegerValue output_into_one_id = 10;</code>
        */
       public Builder clearOutputIntoOneId() {
         if (outputIntoOneIdBuilder_ == null) {
@@ -2851,7 +2851,7 @@ public final class ImGetItemConditionPartsAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.IntegerValue output_into_one_id = 10;</code>
+       * <code>.dstore.values.IntegerValue output_into_one_id = 10;</code>
        */
       public io.dstore.values.IntegerValue.Builder getOutputIntoOneIdBuilder() {
         
@@ -2859,7 +2859,7 @@ public final class ImGetItemConditionPartsAd {
         return getOutputIntoOneIdFieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .dstore.values.IntegerValue output_into_one_id = 10;</code>
+       * <code>.dstore.values.IntegerValue output_into_one_id = 10;</code>
        */
       public io.dstore.values.IntegerValueOrBuilder getOutputIntoOneIdOrBuilder() {
         if (outputIntoOneIdBuilder_ != null) {
@@ -2870,7 +2870,7 @@ public final class ImGetItemConditionPartsAd {
         }
       }
       /**
-       * <code>optional .dstore.values.IntegerValue output_into_one_id = 10;</code>
+       * <code>.dstore.values.IntegerValue output_into_one_id = 10;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> 
@@ -2888,13 +2888,13 @@ public final class ImGetItemConditionPartsAd {
 
       private boolean outputIntoOneIdNull_ ;
       /**
-       * <code>optional bool output_into_one_id_null = 1010;</code>
+       * <code>bool output_into_one_id_null = 1010;</code>
        */
       public boolean getOutputIntoOneIdNull() {
         return outputIntoOneIdNull_;
       }
       /**
-       * <code>optional bool output_into_one_id_null = 1010;</code>
+       * <code>bool output_into_one_id_null = 1010;</code>
        */
       public Builder setOutputIntoOneIdNull(boolean value) {
         
@@ -2903,7 +2903,7 @@ public final class ImGetItemConditionPartsAd {
         return this;
       }
       /**
-       * <code>optional bool output_into_one_id_null = 1010;</code>
+       * <code>bool output_into_one_id_null = 1010;</code>
        */
       public Builder clearOutputIntoOneIdNull() {
         
@@ -3162,7 +3162,7 @@ public final class ImGetItemConditionPartsAd {
         com.google.protobuf.MessageOrBuilder {
 
       /**
-       * <code>optional int32 row_id = 10000;</code>
+       * <code>int32 row_id = 10000;</code>
        */
       int getRowId();
 
@@ -3171,7 +3171,7 @@ public final class ImGetItemConditionPartsAd {
        * Wird der (Artikel-)Bedingungs-Teil "&#64;ConditionPartID" in einer Bedingungs-Gruppe verwendet ("1") oder nicht ("0") ?
        * </pre>
        *
-       * <code>optional .dstore.values.BooleanValue used_in_an_item_condition_group = 10001;</code>
+       * <code>.dstore.values.BooleanValue used_in_an_item_condition_group = 10001;</code>
        */
       boolean hasUsedInAnItemConditionGroup();
       /**
@@ -3179,7 +3179,7 @@ public final class ImGetItemConditionPartsAd {
        * Wird der (Artikel-)Bedingungs-Teil "&#64;ConditionPartID" in einer Bedingungs-Gruppe verwendet ("1") oder nicht ("0") ?
        * </pre>
        *
-       * <code>optional .dstore.values.BooleanValue used_in_an_item_condition_group = 10001;</code>
+       * <code>.dstore.values.BooleanValue used_in_an_item_condition_group = 10001;</code>
        */
       io.dstore.values.BooleanValue getUsedInAnItemConditionGroup();
       /**
@@ -3187,7 +3187,7 @@ public final class ImGetItemConditionPartsAd {
        * Wird der (Artikel-)Bedingungs-Teil "&#64;ConditionPartID" in einer Bedingungs-Gruppe verwendet ("1") oder nicht ("0") ?
        * </pre>
        *
-       * <code>optional .dstore.values.BooleanValue used_in_an_item_condition_group = 10001;</code>
+       * <code>.dstore.values.BooleanValue used_in_an_item_condition_group = 10001;</code>
        */
       io.dstore.values.BooleanValueOrBuilder getUsedInAnItemConditionGroupOrBuilder();
 
@@ -3196,7 +3196,7 @@ public final class ImGetItemConditionPartsAd {
        * Wird der (Artikel-)Bedingungs-Teil "&#64;ConditionPartID" in einer Verkaufs-Aktion (eine sog. "Campaign") um zusätzliche Kriterien erweitert ("1") oder nicht ("0") ?
        * </pre>
        *
-       * <code>optional .dstore.values.BooleanValue used_in_campaign_item_cond_parts = 10002;</code>
+       * <code>.dstore.values.BooleanValue used_in_campaign_item_cond_parts = 10002;</code>
        */
       boolean hasUsedInCampaignItemCondParts();
       /**
@@ -3204,7 +3204,7 @@ public final class ImGetItemConditionPartsAd {
        * Wird der (Artikel-)Bedingungs-Teil "&#64;ConditionPartID" in einer Verkaufs-Aktion (eine sog. "Campaign") um zusätzliche Kriterien erweitert ("1") oder nicht ("0") ?
        * </pre>
        *
-       * <code>optional .dstore.values.BooleanValue used_in_campaign_item_cond_parts = 10002;</code>
+       * <code>.dstore.values.BooleanValue used_in_campaign_item_cond_parts = 10002;</code>
        */
       io.dstore.values.BooleanValue getUsedInCampaignItemCondParts();
       /**
@@ -3212,7 +3212,7 @@ public final class ImGetItemConditionPartsAd {
        * Wird der (Artikel-)Bedingungs-Teil "&#64;ConditionPartID" in einer Verkaufs-Aktion (eine sog. "Campaign") um zusätzliche Kriterien erweitert ("1") oder nicht ("0") ?
        * </pre>
        *
-       * <code>optional .dstore.values.BooleanValue used_in_campaign_item_cond_parts = 10002;</code>
+       * <code>.dstore.values.BooleanValue used_in_campaign_item_cond_parts = 10002;</code>
        */
       io.dstore.values.BooleanValueOrBuilder getUsedInCampaignItemCondPartsOrBuilder();
 
@@ -3221,7 +3221,7 @@ public final class ImGetItemConditionPartsAd {
        * ID eines (Artikel-)Bedingungs-Teils
        * </pre>
        *
-       * <code>optional .dstore.values.IntegerValue condition_part_id = 10003;</code>
+       * <code>.dstore.values.IntegerValue condition_part_id = 10003;</code>
        */
       boolean hasConditionPartId();
       /**
@@ -3229,7 +3229,7 @@ public final class ImGetItemConditionPartsAd {
        * ID eines (Artikel-)Bedingungs-Teils
        * </pre>
        *
-       * <code>optional .dstore.values.IntegerValue condition_part_id = 10003;</code>
+       * <code>.dstore.values.IntegerValue condition_part_id = 10003;</code>
        */
       io.dstore.values.IntegerValue getConditionPartId();
       /**
@@ -3237,7 +3237,7 @@ public final class ImGetItemConditionPartsAd {
        * ID eines (Artikel-)Bedingungs-Teils
        * </pre>
        *
-       * <code>optional .dstore.values.IntegerValue condition_part_id = 10003;</code>
+       * <code>.dstore.values.IntegerValue condition_part_id = 10003;</code>
        */
       io.dstore.values.IntegerValueOrBuilder getConditionPartIdOrBuilder();
 
@@ -3246,7 +3246,7 @@ public final class ImGetItemConditionPartsAd {
        * Zeitpunkt, an dem der (Artikel-)Bedingungs-Teil "&#64;ConditionPartID" zuletzt geändert wurde (kann "NULL" sein)
        * </pre>
        *
-       * <code>optional .dstore.values.TimestampValue edited_at_date_and_time = 10004;</code>
+       * <code>.dstore.values.TimestampValue edited_at_date_and_time = 10004;</code>
        */
       boolean hasEditedAtDateAndTime();
       /**
@@ -3254,7 +3254,7 @@ public final class ImGetItemConditionPartsAd {
        * Zeitpunkt, an dem der (Artikel-)Bedingungs-Teil "&#64;ConditionPartID" zuletzt geändert wurde (kann "NULL" sein)
        * </pre>
        *
-       * <code>optional .dstore.values.TimestampValue edited_at_date_and_time = 10004;</code>
+       * <code>.dstore.values.TimestampValue edited_at_date_and_time = 10004;</code>
        */
       io.dstore.values.TimestampValue getEditedAtDateAndTime();
       /**
@@ -3262,7 +3262,7 @@ public final class ImGetItemConditionPartsAd {
        * Zeitpunkt, an dem der (Artikel-)Bedingungs-Teil "&#64;ConditionPartID" zuletzt geändert wurde (kann "NULL" sein)
        * </pre>
        *
-       * <code>optional .dstore.values.TimestampValue edited_at_date_and_time = 10004;</code>
+       * <code>.dstore.values.TimestampValue edited_at_date_and_time = 10004;</code>
        */
       io.dstore.values.TimestampValueOrBuilder getEditedAtDateAndTimeOrBuilder();
 
@@ -3271,7 +3271,7 @@ public final class ImGetItemConditionPartsAd {
        * Zeitpunkt, an dem der (Artikel-)Bedingungs-Teil "&#64;ConditionPartID" erstellt wurde
        * </pre>
        *
-       * <code>optional .dstore.values.TimestampValue created_at_date_and_time = 10005;</code>
+       * <code>.dstore.values.TimestampValue created_at_date_and_time = 10005;</code>
        */
       boolean hasCreatedAtDateAndTime();
       /**
@@ -3279,7 +3279,7 @@ public final class ImGetItemConditionPartsAd {
        * Zeitpunkt, an dem der (Artikel-)Bedingungs-Teil "&#64;ConditionPartID" erstellt wurde
        * </pre>
        *
-       * <code>optional .dstore.values.TimestampValue created_at_date_and_time = 10005;</code>
+       * <code>.dstore.values.TimestampValue created_at_date_and_time = 10005;</code>
        */
       io.dstore.values.TimestampValue getCreatedAtDateAndTime();
       /**
@@ -3287,7 +3287,7 @@ public final class ImGetItemConditionPartsAd {
        * Zeitpunkt, an dem der (Artikel-)Bedingungs-Teil "&#64;ConditionPartID" erstellt wurde
        * </pre>
        *
-       * <code>optional .dstore.values.TimestampValue created_at_date_and_time = 10005;</code>
+       * <code>.dstore.values.TimestampValue created_at_date_and_time = 10005;</code>
        */
       io.dstore.values.TimestampValueOrBuilder getCreatedAtDateAndTimeOrBuilder();
 
@@ -3296,7 +3296,7 @@ public final class ImGetItemConditionPartsAd {
        * Bezeichnung des (Artikel-)Bedingungs-Teils "ConditionPartID"
        * </pre>
        *
-       * <code>optional .dstore.values.StringValue condition_part_description = 10006;</code>
+       * <code>.dstore.values.StringValue condition_part_description = 10006;</code>
        */
       boolean hasConditionPartDescription();
       /**
@@ -3304,7 +3304,7 @@ public final class ImGetItemConditionPartsAd {
        * Bezeichnung des (Artikel-)Bedingungs-Teils "ConditionPartID"
        * </pre>
        *
-       * <code>optional .dstore.values.StringValue condition_part_description = 10006;</code>
+       * <code>.dstore.values.StringValue condition_part_description = 10006;</code>
        */
       io.dstore.values.StringValue getConditionPartDescription();
       /**
@@ -3312,7 +3312,7 @@ public final class ImGetItemConditionPartsAd {
        * Bezeichnung des (Artikel-)Bedingungs-Teils "ConditionPartID"
        * </pre>
        *
-       * <code>optional .dstore.values.StringValue condition_part_description = 10006;</code>
+       * <code>.dstore.values.StringValue condition_part_description = 10006;</code>
        */
       io.dstore.values.StringValueOrBuilder getConditionPartDescriptionOrBuilder();
 
@@ -3321,7 +3321,7 @@ public final class ImGetItemConditionPartsAd {
        * Operator für die Bedingung "Condition1". Mögliche Werte :- "="- "!=" / "&lt;&gt;"  - "~" / "!~" (LIKE / NOT LIKE)- "&gt;"- "&lt;"- "&gt;="- "&lt;="- "IN" / "!I" (in / NICHT in Menge von "Value"-Werten)- "E" / "!E" (IRGENDEINE / KEINE Eigenschaft)
        * </pre>
        *
-       * <code>optional .dstore.values.StringValue operator1 = 30001;</code>
+       * <code>.dstore.values.StringValue operator1 = 30001;</code>
        */
       boolean hasOperator1();
       /**
@@ -3329,7 +3329,7 @@ public final class ImGetItemConditionPartsAd {
        * Operator für die Bedingung "Condition1". Mögliche Werte :- "="- "!=" / "&lt;&gt;"  - "~" / "!~" (LIKE / NOT LIKE)- "&gt;"- "&lt;"- "&gt;="- "&lt;="- "IN" / "!I" (in / NICHT in Menge von "Value"-Werten)- "E" / "!E" (IRGENDEINE / KEINE Eigenschaft)
        * </pre>
        *
-       * <code>optional .dstore.values.StringValue operator1 = 30001;</code>
+       * <code>.dstore.values.StringValue operator1 = 30001;</code>
        */
       io.dstore.values.StringValue getOperator1();
       /**
@@ -3337,7 +3337,7 @@ public final class ImGetItemConditionPartsAd {
        * Operator für die Bedingung "Condition1". Mögliche Werte :- "="- "!=" / "&lt;&gt;"  - "~" / "!~" (LIKE / NOT LIKE)- "&gt;"- "&lt;"- "&gt;="- "&lt;="- "IN" / "!I" (in / NICHT in Menge von "Value"-Werten)- "E" / "!E" (IRGENDEINE / KEINE Eigenschaft)
        * </pre>
        *
-       * <code>optional .dstore.values.StringValue operator1 = 30001;</code>
+       * <code>.dstore.values.StringValue operator1 = 30001;</code>
        */
       io.dstore.values.StringValueOrBuilder getOperator1OrBuilder();
 
@@ -3346,7 +3346,7 @@ public final class ImGetItemConditionPartsAd {
        * Bedingung, die in Verbindung mit "Operator1" anzuwenden ist ("NULL", falls "Operator1" den Wert "E" oder "!E" hat)
        * </pre>
        *
-       * <code>optional .dstore.values.StringValue condition1 = 30002;</code>
+       * <code>.dstore.values.StringValue condition1 = 30002;</code>
        */
       boolean hasCondition1();
       /**
@@ -3354,7 +3354,7 @@ public final class ImGetItemConditionPartsAd {
        * Bedingung, die in Verbindung mit "Operator1" anzuwenden ist ("NULL", falls "Operator1" den Wert "E" oder "!E" hat)
        * </pre>
        *
-       * <code>optional .dstore.values.StringValue condition1 = 30002;</code>
+       * <code>.dstore.values.StringValue condition1 = 30002;</code>
        */
       io.dstore.values.StringValue getCondition1();
       /**
@@ -3362,7 +3362,7 @@ public final class ImGetItemConditionPartsAd {
        * Bedingung, die in Verbindung mit "Operator1" anzuwenden ist ("NULL", falls "Operator1" den Wert "E" oder "!E" hat)
        * </pre>
        *
-       * <code>optional .dstore.values.StringValue condition1 = 30002;</code>
+       * <code>.dstore.values.StringValue condition1 = 30002;</code>
        */
       io.dstore.values.StringValueOrBuilder getCondition1OrBuilder();
 
@@ -3371,7 +3371,7 @@ public final class ImGetItemConditionPartsAd {
        * Bedingung, die in Verbindung mit "Operator2" anzuwenden ist (nur belegt, wenn "Operator2" den Wert "&lt;" oder "&lt;=" enthält)
        * </pre>
        *
-       * <code>optional .dstore.values.StringValue condition2 = 30003;</code>
+       * <code>.dstore.values.StringValue condition2 = 30003;</code>
        */
       boolean hasCondition2();
       /**
@@ -3379,7 +3379,7 @@ public final class ImGetItemConditionPartsAd {
        * Bedingung, die in Verbindung mit "Operator2" anzuwenden ist (nur belegt, wenn "Operator2" den Wert "&lt;" oder "&lt;=" enthält)
        * </pre>
        *
-       * <code>optional .dstore.values.StringValue condition2 = 30003;</code>
+       * <code>.dstore.values.StringValue condition2 = 30003;</code>
        */
       io.dstore.values.StringValue getCondition2();
       /**
@@ -3387,7 +3387,7 @@ public final class ImGetItemConditionPartsAd {
        * Bedingung, die in Verbindung mit "Operator2" anzuwenden ist (nur belegt, wenn "Operator2" den Wert "&lt;" oder "&lt;=" enthält)
        * </pre>
        *
-       * <code>optional .dstore.values.StringValue condition2 = 30003;</code>
+       * <code>.dstore.values.StringValue condition2 = 30003;</code>
        */
       io.dstore.values.StringValueOrBuilder getCondition2OrBuilder();
 
@@ -3396,7 +3396,7 @@ public final class ImGetItemConditionPartsAd {
        * Operator für die Bedingung "Condition2". Mögliche Werte :- "&lt;" oder "&lt;=", falls "Operator1" "&gt;" oder "&gt;=" enthält- bel. Zeichen (Trennzeichen für Werte-Menge), falls "Operator1" "IN" oder "!I" enthält
        * </pre>
        *
-       * <code>optional .dstore.values.StringValue operator2 = 30004;</code>
+       * <code>.dstore.values.StringValue operator2 = 30004;</code>
        */
       boolean hasOperator2();
       /**
@@ -3404,7 +3404,7 @@ public final class ImGetItemConditionPartsAd {
        * Operator für die Bedingung "Condition2". Mögliche Werte :- "&lt;" oder "&lt;=", falls "Operator1" "&gt;" oder "&gt;=" enthält- bel. Zeichen (Trennzeichen für Werte-Menge), falls "Operator1" "IN" oder "!I" enthält
        * </pre>
        *
-       * <code>optional .dstore.values.StringValue operator2 = 30004;</code>
+       * <code>.dstore.values.StringValue operator2 = 30004;</code>
        */
       io.dstore.values.StringValue getOperator2();
       /**
@@ -3412,7 +3412,7 @@ public final class ImGetItemConditionPartsAd {
        * Operator für die Bedingung "Condition2". Mögliche Werte :- "&lt;" oder "&lt;=", falls "Operator1" "&gt;" oder "&gt;=" enthält- bel. Zeichen (Trennzeichen für Werte-Menge), falls "Operator1" "IN" oder "!I" enthält
        * </pre>
        *
-       * <code>optional .dstore.values.StringValue operator2 = 30004;</code>
+       * <code>.dstore.values.StringValue operator2 = 30004;</code>
        */
       io.dstore.values.StringValueOrBuilder getOperator2OrBuilder();
 
@@ -3421,7 +3421,7 @@ public final class ImGetItemConditionPartsAd {
        * Was soll zwecks Prüfung der Bedingung zu "NodeCharacteristicID" (wenn rekursiv) gewählt werden ?"0" : direkte Eigenschaft (also eine Merkmal-ID)"1" : rekursiv ausgewertete Eigenschaft"2" : zugehör. Beschreibung der Eigenschaft (also der Merkmal-ID)
        * </pre>
        *
-       * <code>optional .dstore.values.IntegerValue recursive_evaluation = 30006;</code>
+       * <code>.dstore.values.IntegerValue recursive_evaluation = 30006;</code>
        */
       boolean hasRecursiveEvaluation();
       /**
@@ -3429,7 +3429,7 @@ public final class ImGetItemConditionPartsAd {
        * Was soll zwecks Prüfung der Bedingung zu "NodeCharacteristicID" (wenn rekursiv) gewählt werden ?"0" : direkte Eigenschaft (also eine Merkmal-ID)"1" : rekursiv ausgewertete Eigenschaft"2" : zugehör. Beschreibung der Eigenschaft (also der Merkmal-ID)
        * </pre>
        *
-       * <code>optional .dstore.values.IntegerValue recursive_evaluation = 30006;</code>
+       * <code>.dstore.values.IntegerValue recursive_evaluation = 30006;</code>
        */
       io.dstore.values.IntegerValue getRecursiveEvaluation();
       /**
@@ -3437,7 +3437,7 @@ public final class ImGetItemConditionPartsAd {
        * Was soll zwecks Prüfung der Bedingung zu "NodeCharacteristicID" (wenn rekursiv) gewählt werden ?"0" : direkte Eigenschaft (also eine Merkmal-ID)"1" : rekursiv ausgewertete Eigenschaft"2" : zugehör. Beschreibung der Eigenschaft (also der Merkmal-ID)
        * </pre>
        *
-       * <code>optional .dstore.values.IntegerValue recursive_evaluation = 30006;</code>
+       * <code>.dstore.values.IntegerValue recursive_evaluation = 30006;</code>
        */
       io.dstore.values.IntegerValueOrBuilder getRecursiveEvaluationOrBuilder();
 
@@ -3446,7 +3446,7 @@ public final class ImGetItemConditionPartsAd {
        * Um den (Artikel-)Bedingungs-Teil "&#64;ConditionPartID" zu erfüllen, muß ein Element im Artikelbaum ein Vorgänger-Element besitzen, dessen "TreeNodeID" aus der hier angegebenen Menge von IDs kommt. Sonderfall ",," bedeutet "beliebiger Vorgänger".
        * </pre>
        *
-       * <code>optional .dstore.values.StringValue domain_tree_node_ids = 30007;</code>
+       * <code>.dstore.values.StringValue domain_tree_node_ids = 30007;</code>
        */
       boolean hasDomainTreeNodeIds();
       /**
@@ -3454,7 +3454,7 @@ public final class ImGetItemConditionPartsAd {
        * Um den (Artikel-)Bedingungs-Teil "&#64;ConditionPartID" zu erfüllen, muß ein Element im Artikelbaum ein Vorgänger-Element besitzen, dessen "TreeNodeID" aus der hier angegebenen Menge von IDs kommt. Sonderfall ",," bedeutet "beliebiger Vorgänger".
        * </pre>
        *
-       * <code>optional .dstore.values.StringValue domain_tree_node_ids = 30007;</code>
+       * <code>.dstore.values.StringValue domain_tree_node_ids = 30007;</code>
        */
       io.dstore.values.StringValue getDomainTreeNodeIds();
       /**
@@ -3462,7 +3462,7 @@ public final class ImGetItemConditionPartsAd {
        * Um den (Artikel-)Bedingungs-Teil "&#64;ConditionPartID" zu erfüllen, muß ein Element im Artikelbaum ein Vorgänger-Element besitzen, dessen "TreeNodeID" aus der hier angegebenen Menge von IDs kommt. Sonderfall ",," bedeutet "beliebiger Vorgänger".
        * </pre>
        *
-       * <code>optional .dstore.values.StringValue domain_tree_node_ids = 30007;</code>
+       * <code>.dstore.values.StringValue domain_tree_node_ids = 30007;</code>
        */
       io.dstore.values.StringValueOrBuilder getDomainTreeNodeIdsOrBuilder();
 
@@ -3471,7 +3471,7 @@ public final class ImGetItemConditionPartsAd {
        * ID eines Merkmals. Um "&#64;ConditionPartID" zu erfüllen, muß ein Element im Artikelbaum eine Eigenschaft zu diesem Merkmal besitzen, die der Bedingung ("Operator1" etc.) genügt. Sonderfall "-1" : "KEINE Eigenschafts-Bedingung" (ist also immer erfüllt).
        * </pre>
        *
-       * <code>optional .dstore.values.IntegerValue node_characteristic_id = 30008;</code>
+       * <code>.dstore.values.IntegerValue node_characteristic_id = 30008;</code>
        */
       boolean hasNodeCharacteristicId();
       /**
@@ -3479,7 +3479,7 @@ public final class ImGetItemConditionPartsAd {
        * ID eines Merkmals. Um "&#64;ConditionPartID" zu erfüllen, muß ein Element im Artikelbaum eine Eigenschaft zu diesem Merkmal besitzen, die der Bedingung ("Operator1" etc.) genügt. Sonderfall "-1" : "KEINE Eigenschafts-Bedingung" (ist also immer erfüllt).
        * </pre>
        *
-       * <code>optional .dstore.values.IntegerValue node_characteristic_id = 30008;</code>
+       * <code>.dstore.values.IntegerValue node_characteristic_id = 30008;</code>
        */
       io.dstore.values.IntegerValue getNodeCharacteristicId();
       /**
@@ -3487,7 +3487,7 @@ public final class ImGetItemConditionPartsAd {
        * ID eines Merkmals. Um "&#64;ConditionPartID" zu erfüllen, muß ein Element im Artikelbaum eine Eigenschaft zu diesem Merkmal besitzen, die der Bedingung ("Operator1" etc.) genügt. Sonderfall "-1" : "KEINE Eigenschafts-Bedingung" (ist also immer erfüllt).
        * </pre>
        *
-       * <code>optional .dstore.values.IntegerValue node_characteristic_id = 30008;</code>
+       * <code>.dstore.values.IntegerValue node_characteristic_id = 30008;</code>
        */
       io.dstore.values.IntegerValueOrBuilder getNodeCharacteristicIdOrBuilder();
 
@@ -3496,7 +3496,7 @@ public final class ImGetItemConditionPartsAd {
        * Um den (Artikel-)Bedingungs-Teil "&#64;ConditionPartID" zu erfüllen, muß die Hierarchie ("LevelID") eines Artikel-Elementes aus der hier angegebenen Menge der Hierarchien ("LevelID"s) kommen. Sonderfall ",," bedeutet "beliebige Hierarchie".
        * </pre>
        *
-       * <code>optional .dstore.values.StringValue level_ids = 30011;</code>
+       * <code>.dstore.values.StringValue level_ids = 30011;</code>
        */
       boolean hasLevelIds();
       /**
@@ -3504,7 +3504,7 @@ public final class ImGetItemConditionPartsAd {
        * Um den (Artikel-)Bedingungs-Teil "&#64;ConditionPartID" zu erfüllen, muß die Hierarchie ("LevelID") eines Artikel-Elementes aus der hier angegebenen Menge der Hierarchien ("LevelID"s) kommen. Sonderfall ",," bedeutet "beliebige Hierarchie".
        * </pre>
        *
-       * <code>optional .dstore.values.StringValue level_ids = 30011;</code>
+       * <code>.dstore.values.StringValue level_ids = 30011;</code>
        */
       io.dstore.values.StringValue getLevelIds();
       /**
@@ -3512,7 +3512,7 @@ public final class ImGetItemConditionPartsAd {
        * Um den (Artikel-)Bedingungs-Teil "&#64;ConditionPartID" zu erfüllen, muß die Hierarchie ("LevelID") eines Artikel-Elementes aus der hier angegebenen Menge der Hierarchien ("LevelID"s) kommen. Sonderfall ",," bedeutet "beliebige Hierarchie".
        * </pre>
        *
-       * <code>optional .dstore.values.StringValue level_ids = 30011;</code>
+       * <code>.dstore.values.StringValue level_ids = 30011;</code>
        */
       io.dstore.values.StringValueOrBuilder getLevelIdsOrBuilder();
 
@@ -3521,7 +3521,7 @@ public final class ImGetItemConditionPartsAd {
        * Welche Eigenschaften zu "NodeCharacteristicID" hinsichtlich Vererbung sollen bei Prüfung der Eigenschafts-Bedingung beachtet werden :"-1" : Alle"0" : unvererbte"1" : direkte u. einfach geerbte"2" : direkte u. einfach oder zweifach geerbteusw.
        * </pre>
        *
-       * <code>optional .dstore.values.IntegerValue inherit_depth = 30014;</code>
+       * <code>.dstore.values.IntegerValue inherit_depth = 30014;</code>
        */
       boolean hasInheritDepth();
       /**
@@ -3529,7 +3529,7 @@ public final class ImGetItemConditionPartsAd {
        * Welche Eigenschaften zu "NodeCharacteristicID" hinsichtlich Vererbung sollen bei Prüfung der Eigenschafts-Bedingung beachtet werden :"-1" : Alle"0" : unvererbte"1" : direkte u. einfach geerbte"2" : direkte u. einfach oder zweifach geerbteusw.
        * </pre>
        *
-       * <code>optional .dstore.values.IntegerValue inherit_depth = 30014;</code>
+       * <code>.dstore.values.IntegerValue inherit_depth = 30014;</code>
        */
       io.dstore.values.IntegerValue getInheritDepth();
       /**
@@ -3537,7 +3537,7 @@ public final class ImGetItemConditionPartsAd {
        * Welche Eigenschaften zu "NodeCharacteristicID" hinsichtlich Vererbung sollen bei Prüfung der Eigenschafts-Bedingung beachtet werden :"-1" : Alle"0" : unvererbte"1" : direkte u. einfach geerbte"2" : direkte u. einfach oder zweifach geerbteusw.
        * </pre>
        *
-       * <code>optional .dstore.values.IntegerValue inherit_depth = 30014;</code>
+       * <code>.dstore.values.IntegerValue inherit_depth = 30014;</code>
        */
       io.dstore.values.IntegerValueOrBuilder getInheritDepthOrBuilder();
     }
@@ -3807,7 +3807,7 @@ public final class ImGetItemConditionPartsAd {
       public static final int ROW_ID_FIELD_NUMBER = 10000;
       private int rowId_;
       /**
-       * <code>optional int32 row_id = 10000;</code>
+       * <code>int32 row_id = 10000;</code>
        */
       public int getRowId() {
         return rowId_;
@@ -3820,7 +3820,7 @@ public final class ImGetItemConditionPartsAd {
        * Wird der (Artikel-)Bedingungs-Teil "&#64;ConditionPartID" in einer Bedingungs-Gruppe verwendet ("1") oder nicht ("0") ?
        * </pre>
        *
-       * <code>optional .dstore.values.BooleanValue used_in_an_item_condition_group = 10001;</code>
+       * <code>.dstore.values.BooleanValue used_in_an_item_condition_group = 10001;</code>
        */
       public boolean hasUsedInAnItemConditionGroup() {
         return usedInAnItemConditionGroup_ != null;
@@ -3830,7 +3830,7 @@ public final class ImGetItemConditionPartsAd {
        * Wird der (Artikel-)Bedingungs-Teil "&#64;ConditionPartID" in einer Bedingungs-Gruppe verwendet ("1") oder nicht ("0") ?
        * </pre>
        *
-       * <code>optional .dstore.values.BooleanValue used_in_an_item_condition_group = 10001;</code>
+       * <code>.dstore.values.BooleanValue used_in_an_item_condition_group = 10001;</code>
        */
       public io.dstore.values.BooleanValue getUsedInAnItemConditionGroup() {
         return usedInAnItemConditionGroup_ == null ? io.dstore.values.BooleanValue.getDefaultInstance() : usedInAnItemConditionGroup_;
@@ -3840,7 +3840,7 @@ public final class ImGetItemConditionPartsAd {
        * Wird der (Artikel-)Bedingungs-Teil "&#64;ConditionPartID" in einer Bedingungs-Gruppe verwendet ("1") oder nicht ("0") ?
        * </pre>
        *
-       * <code>optional .dstore.values.BooleanValue used_in_an_item_condition_group = 10001;</code>
+       * <code>.dstore.values.BooleanValue used_in_an_item_condition_group = 10001;</code>
        */
       public io.dstore.values.BooleanValueOrBuilder getUsedInAnItemConditionGroupOrBuilder() {
         return getUsedInAnItemConditionGroup();
@@ -3853,7 +3853,7 @@ public final class ImGetItemConditionPartsAd {
        * Wird der (Artikel-)Bedingungs-Teil "&#64;ConditionPartID" in einer Verkaufs-Aktion (eine sog. "Campaign") um zusätzliche Kriterien erweitert ("1") oder nicht ("0") ?
        * </pre>
        *
-       * <code>optional .dstore.values.BooleanValue used_in_campaign_item_cond_parts = 10002;</code>
+       * <code>.dstore.values.BooleanValue used_in_campaign_item_cond_parts = 10002;</code>
        */
       public boolean hasUsedInCampaignItemCondParts() {
         return usedInCampaignItemCondParts_ != null;
@@ -3863,7 +3863,7 @@ public final class ImGetItemConditionPartsAd {
        * Wird der (Artikel-)Bedingungs-Teil "&#64;ConditionPartID" in einer Verkaufs-Aktion (eine sog. "Campaign") um zusätzliche Kriterien erweitert ("1") oder nicht ("0") ?
        * </pre>
        *
-       * <code>optional .dstore.values.BooleanValue used_in_campaign_item_cond_parts = 10002;</code>
+       * <code>.dstore.values.BooleanValue used_in_campaign_item_cond_parts = 10002;</code>
        */
       public io.dstore.values.BooleanValue getUsedInCampaignItemCondParts() {
         return usedInCampaignItemCondParts_ == null ? io.dstore.values.BooleanValue.getDefaultInstance() : usedInCampaignItemCondParts_;
@@ -3873,7 +3873,7 @@ public final class ImGetItemConditionPartsAd {
        * Wird der (Artikel-)Bedingungs-Teil "&#64;ConditionPartID" in einer Verkaufs-Aktion (eine sog. "Campaign") um zusätzliche Kriterien erweitert ("1") oder nicht ("0") ?
        * </pre>
        *
-       * <code>optional .dstore.values.BooleanValue used_in_campaign_item_cond_parts = 10002;</code>
+       * <code>.dstore.values.BooleanValue used_in_campaign_item_cond_parts = 10002;</code>
        */
       public io.dstore.values.BooleanValueOrBuilder getUsedInCampaignItemCondPartsOrBuilder() {
         return getUsedInCampaignItemCondParts();
@@ -3886,7 +3886,7 @@ public final class ImGetItemConditionPartsAd {
        * ID eines (Artikel-)Bedingungs-Teils
        * </pre>
        *
-       * <code>optional .dstore.values.IntegerValue condition_part_id = 10003;</code>
+       * <code>.dstore.values.IntegerValue condition_part_id = 10003;</code>
        */
       public boolean hasConditionPartId() {
         return conditionPartId_ != null;
@@ -3896,7 +3896,7 @@ public final class ImGetItemConditionPartsAd {
        * ID eines (Artikel-)Bedingungs-Teils
        * </pre>
        *
-       * <code>optional .dstore.values.IntegerValue condition_part_id = 10003;</code>
+       * <code>.dstore.values.IntegerValue condition_part_id = 10003;</code>
        */
       public io.dstore.values.IntegerValue getConditionPartId() {
         return conditionPartId_ == null ? io.dstore.values.IntegerValue.getDefaultInstance() : conditionPartId_;
@@ -3906,7 +3906,7 @@ public final class ImGetItemConditionPartsAd {
        * ID eines (Artikel-)Bedingungs-Teils
        * </pre>
        *
-       * <code>optional .dstore.values.IntegerValue condition_part_id = 10003;</code>
+       * <code>.dstore.values.IntegerValue condition_part_id = 10003;</code>
        */
       public io.dstore.values.IntegerValueOrBuilder getConditionPartIdOrBuilder() {
         return getConditionPartId();
@@ -3919,7 +3919,7 @@ public final class ImGetItemConditionPartsAd {
        * Zeitpunkt, an dem der (Artikel-)Bedingungs-Teil "&#64;ConditionPartID" zuletzt geändert wurde (kann "NULL" sein)
        * </pre>
        *
-       * <code>optional .dstore.values.TimestampValue edited_at_date_and_time = 10004;</code>
+       * <code>.dstore.values.TimestampValue edited_at_date_and_time = 10004;</code>
        */
       public boolean hasEditedAtDateAndTime() {
         return editedAtDateAndTime_ != null;
@@ -3929,7 +3929,7 @@ public final class ImGetItemConditionPartsAd {
        * Zeitpunkt, an dem der (Artikel-)Bedingungs-Teil "&#64;ConditionPartID" zuletzt geändert wurde (kann "NULL" sein)
        * </pre>
        *
-       * <code>optional .dstore.values.TimestampValue edited_at_date_and_time = 10004;</code>
+       * <code>.dstore.values.TimestampValue edited_at_date_and_time = 10004;</code>
        */
       public io.dstore.values.TimestampValue getEditedAtDateAndTime() {
         return editedAtDateAndTime_ == null ? io.dstore.values.TimestampValue.getDefaultInstance() : editedAtDateAndTime_;
@@ -3939,7 +3939,7 @@ public final class ImGetItemConditionPartsAd {
        * Zeitpunkt, an dem der (Artikel-)Bedingungs-Teil "&#64;ConditionPartID" zuletzt geändert wurde (kann "NULL" sein)
        * </pre>
        *
-       * <code>optional .dstore.values.TimestampValue edited_at_date_and_time = 10004;</code>
+       * <code>.dstore.values.TimestampValue edited_at_date_and_time = 10004;</code>
        */
       public io.dstore.values.TimestampValueOrBuilder getEditedAtDateAndTimeOrBuilder() {
         return getEditedAtDateAndTime();
@@ -3952,7 +3952,7 @@ public final class ImGetItemConditionPartsAd {
        * Zeitpunkt, an dem der (Artikel-)Bedingungs-Teil "&#64;ConditionPartID" erstellt wurde
        * </pre>
        *
-       * <code>optional .dstore.values.TimestampValue created_at_date_and_time = 10005;</code>
+       * <code>.dstore.values.TimestampValue created_at_date_and_time = 10005;</code>
        */
       public boolean hasCreatedAtDateAndTime() {
         return createdAtDateAndTime_ != null;
@@ -3962,7 +3962,7 @@ public final class ImGetItemConditionPartsAd {
        * Zeitpunkt, an dem der (Artikel-)Bedingungs-Teil "&#64;ConditionPartID" erstellt wurde
        * </pre>
        *
-       * <code>optional .dstore.values.TimestampValue created_at_date_and_time = 10005;</code>
+       * <code>.dstore.values.TimestampValue created_at_date_and_time = 10005;</code>
        */
       public io.dstore.values.TimestampValue getCreatedAtDateAndTime() {
         return createdAtDateAndTime_ == null ? io.dstore.values.TimestampValue.getDefaultInstance() : createdAtDateAndTime_;
@@ -3972,7 +3972,7 @@ public final class ImGetItemConditionPartsAd {
        * Zeitpunkt, an dem der (Artikel-)Bedingungs-Teil "&#64;ConditionPartID" erstellt wurde
        * </pre>
        *
-       * <code>optional .dstore.values.TimestampValue created_at_date_and_time = 10005;</code>
+       * <code>.dstore.values.TimestampValue created_at_date_and_time = 10005;</code>
        */
       public io.dstore.values.TimestampValueOrBuilder getCreatedAtDateAndTimeOrBuilder() {
         return getCreatedAtDateAndTime();
@@ -3985,7 +3985,7 @@ public final class ImGetItemConditionPartsAd {
        * Bezeichnung des (Artikel-)Bedingungs-Teils "ConditionPartID"
        * </pre>
        *
-       * <code>optional .dstore.values.StringValue condition_part_description = 10006;</code>
+       * <code>.dstore.values.StringValue condition_part_description = 10006;</code>
        */
       public boolean hasConditionPartDescription() {
         return conditionPartDescription_ != null;
@@ -3995,7 +3995,7 @@ public final class ImGetItemConditionPartsAd {
        * Bezeichnung des (Artikel-)Bedingungs-Teils "ConditionPartID"
        * </pre>
        *
-       * <code>optional .dstore.values.StringValue condition_part_description = 10006;</code>
+       * <code>.dstore.values.StringValue condition_part_description = 10006;</code>
        */
       public io.dstore.values.StringValue getConditionPartDescription() {
         return conditionPartDescription_ == null ? io.dstore.values.StringValue.getDefaultInstance() : conditionPartDescription_;
@@ -4005,7 +4005,7 @@ public final class ImGetItemConditionPartsAd {
        * Bezeichnung des (Artikel-)Bedingungs-Teils "ConditionPartID"
        * </pre>
        *
-       * <code>optional .dstore.values.StringValue condition_part_description = 10006;</code>
+       * <code>.dstore.values.StringValue condition_part_description = 10006;</code>
        */
       public io.dstore.values.StringValueOrBuilder getConditionPartDescriptionOrBuilder() {
         return getConditionPartDescription();
@@ -4018,7 +4018,7 @@ public final class ImGetItemConditionPartsAd {
        * Operator für die Bedingung "Condition1". Mögliche Werte :- "="- "!=" / "&lt;&gt;"  - "~" / "!~" (LIKE / NOT LIKE)- "&gt;"- "&lt;"- "&gt;="- "&lt;="- "IN" / "!I" (in / NICHT in Menge von "Value"-Werten)- "E" / "!E" (IRGENDEINE / KEINE Eigenschaft)
        * </pre>
        *
-       * <code>optional .dstore.values.StringValue operator1 = 30001;</code>
+       * <code>.dstore.values.StringValue operator1 = 30001;</code>
        */
       public boolean hasOperator1() {
         return operator1_ != null;
@@ -4028,7 +4028,7 @@ public final class ImGetItemConditionPartsAd {
        * Operator für die Bedingung "Condition1". Mögliche Werte :- "="- "!=" / "&lt;&gt;"  - "~" / "!~" (LIKE / NOT LIKE)- "&gt;"- "&lt;"- "&gt;="- "&lt;="- "IN" / "!I" (in / NICHT in Menge von "Value"-Werten)- "E" / "!E" (IRGENDEINE / KEINE Eigenschaft)
        * </pre>
        *
-       * <code>optional .dstore.values.StringValue operator1 = 30001;</code>
+       * <code>.dstore.values.StringValue operator1 = 30001;</code>
        */
       public io.dstore.values.StringValue getOperator1() {
         return operator1_ == null ? io.dstore.values.StringValue.getDefaultInstance() : operator1_;
@@ -4038,7 +4038,7 @@ public final class ImGetItemConditionPartsAd {
        * Operator für die Bedingung "Condition1". Mögliche Werte :- "="- "!=" / "&lt;&gt;"  - "~" / "!~" (LIKE / NOT LIKE)- "&gt;"- "&lt;"- "&gt;="- "&lt;="- "IN" / "!I" (in / NICHT in Menge von "Value"-Werten)- "E" / "!E" (IRGENDEINE / KEINE Eigenschaft)
        * </pre>
        *
-       * <code>optional .dstore.values.StringValue operator1 = 30001;</code>
+       * <code>.dstore.values.StringValue operator1 = 30001;</code>
        */
       public io.dstore.values.StringValueOrBuilder getOperator1OrBuilder() {
         return getOperator1();
@@ -4051,7 +4051,7 @@ public final class ImGetItemConditionPartsAd {
        * Bedingung, die in Verbindung mit "Operator1" anzuwenden ist ("NULL", falls "Operator1" den Wert "E" oder "!E" hat)
        * </pre>
        *
-       * <code>optional .dstore.values.StringValue condition1 = 30002;</code>
+       * <code>.dstore.values.StringValue condition1 = 30002;</code>
        */
       public boolean hasCondition1() {
         return condition1_ != null;
@@ -4061,7 +4061,7 @@ public final class ImGetItemConditionPartsAd {
        * Bedingung, die in Verbindung mit "Operator1" anzuwenden ist ("NULL", falls "Operator1" den Wert "E" oder "!E" hat)
        * </pre>
        *
-       * <code>optional .dstore.values.StringValue condition1 = 30002;</code>
+       * <code>.dstore.values.StringValue condition1 = 30002;</code>
        */
       public io.dstore.values.StringValue getCondition1() {
         return condition1_ == null ? io.dstore.values.StringValue.getDefaultInstance() : condition1_;
@@ -4071,7 +4071,7 @@ public final class ImGetItemConditionPartsAd {
        * Bedingung, die in Verbindung mit "Operator1" anzuwenden ist ("NULL", falls "Operator1" den Wert "E" oder "!E" hat)
        * </pre>
        *
-       * <code>optional .dstore.values.StringValue condition1 = 30002;</code>
+       * <code>.dstore.values.StringValue condition1 = 30002;</code>
        */
       public io.dstore.values.StringValueOrBuilder getCondition1OrBuilder() {
         return getCondition1();
@@ -4084,7 +4084,7 @@ public final class ImGetItemConditionPartsAd {
        * Bedingung, die in Verbindung mit "Operator2" anzuwenden ist (nur belegt, wenn "Operator2" den Wert "&lt;" oder "&lt;=" enthält)
        * </pre>
        *
-       * <code>optional .dstore.values.StringValue condition2 = 30003;</code>
+       * <code>.dstore.values.StringValue condition2 = 30003;</code>
        */
       public boolean hasCondition2() {
         return condition2_ != null;
@@ -4094,7 +4094,7 @@ public final class ImGetItemConditionPartsAd {
        * Bedingung, die in Verbindung mit "Operator2" anzuwenden ist (nur belegt, wenn "Operator2" den Wert "&lt;" oder "&lt;=" enthält)
        * </pre>
        *
-       * <code>optional .dstore.values.StringValue condition2 = 30003;</code>
+       * <code>.dstore.values.StringValue condition2 = 30003;</code>
        */
       public io.dstore.values.StringValue getCondition2() {
         return condition2_ == null ? io.dstore.values.StringValue.getDefaultInstance() : condition2_;
@@ -4104,7 +4104,7 @@ public final class ImGetItemConditionPartsAd {
        * Bedingung, die in Verbindung mit "Operator2" anzuwenden ist (nur belegt, wenn "Operator2" den Wert "&lt;" oder "&lt;=" enthält)
        * </pre>
        *
-       * <code>optional .dstore.values.StringValue condition2 = 30003;</code>
+       * <code>.dstore.values.StringValue condition2 = 30003;</code>
        */
       public io.dstore.values.StringValueOrBuilder getCondition2OrBuilder() {
         return getCondition2();
@@ -4117,7 +4117,7 @@ public final class ImGetItemConditionPartsAd {
        * Operator für die Bedingung "Condition2". Mögliche Werte :- "&lt;" oder "&lt;=", falls "Operator1" "&gt;" oder "&gt;=" enthält- bel. Zeichen (Trennzeichen für Werte-Menge), falls "Operator1" "IN" oder "!I" enthält
        * </pre>
        *
-       * <code>optional .dstore.values.StringValue operator2 = 30004;</code>
+       * <code>.dstore.values.StringValue operator2 = 30004;</code>
        */
       public boolean hasOperator2() {
         return operator2_ != null;
@@ -4127,7 +4127,7 @@ public final class ImGetItemConditionPartsAd {
        * Operator für die Bedingung "Condition2". Mögliche Werte :- "&lt;" oder "&lt;=", falls "Operator1" "&gt;" oder "&gt;=" enthält- bel. Zeichen (Trennzeichen für Werte-Menge), falls "Operator1" "IN" oder "!I" enthält
        * </pre>
        *
-       * <code>optional .dstore.values.StringValue operator2 = 30004;</code>
+       * <code>.dstore.values.StringValue operator2 = 30004;</code>
        */
       public io.dstore.values.StringValue getOperator2() {
         return operator2_ == null ? io.dstore.values.StringValue.getDefaultInstance() : operator2_;
@@ -4137,7 +4137,7 @@ public final class ImGetItemConditionPartsAd {
        * Operator für die Bedingung "Condition2". Mögliche Werte :- "&lt;" oder "&lt;=", falls "Operator1" "&gt;" oder "&gt;=" enthält- bel. Zeichen (Trennzeichen für Werte-Menge), falls "Operator1" "IN" oder "!I" enthält
        * </pre>
        *
-       * <code>optional .dstore.values.StringValue operator2 = 30004;</code>
+       * <code>.dstore.values.StringValue operator2 = 30004;</code>
        */
       public io.dstore.values.StringValueOrBuilder getOperator2OrBuilder() {
         return getOperator2();
@@ -4150,7 +4150,7 @@ public final class ImGetItemConditionPartsAd {
        * Was soll zwecks Prüfung der Bedingung zu "NodeCharacteristicID" (wenn rekursiv) gewählt werden ?"0" : direkte Eigenschaft (also eine Merkmal-ID)"1" : rekursiv ausgewertete Eigenschaft"2" : zugehör. Beschreibung der Eigenschaft (also der Merkmal-ID)
        * </pre>
        *
-       * <code>optional .dstore.values.IntegerValue recursive_evaluation = 30006;</code>
+       * <code>.dstore.values.IntegerValue recursive_evaluation = 30006;</code>
        */
       public boolean hasRecursiveEvaluation() {
         return recursiveEvaluation_ != null;
@@ -4160,7 +4160,7 @@ public final class ImGetItemConditionPartsAd {
        * Was soll zwecks Prüfung der Bedingung zu "NodeCharacteristicID" (wenn rekursiv) gewählt werden ?"0" : direkte Eigenschaft (also eine Merkmal-ID)"1" : rekursiv ausgewertete Eigenschaft"2" : zugehör. Beschreibung der Eigenschaft (also der Merkmal-ID)
        * </pre>
        *
-       * <code>optional .dstore.values.IntegerValue recursive_evaluation = 30006;</code>
+       * <code>.dstore.values.IntegerValue recursive_evaluation = 30006;</code>
        */
       public io.dstore.values.IntegerValue getRecursiveEvaluation() {
         return recursiveEvaluation_ == null ? io.dstore.values.IntegerValue.getDefaultInstance() : recursiveEvaluation_;
@@ -4170,7 +4170,7 @@ public final class ImGetItemConditionPartsAd {
        * Was soll zwecks Prüfung der Bedingung zu "NodeCharacteristicID" (wenn rekursiv) gewählt werden ?"0" : direkte Eigenschaft (also eine Merkmal-ID)"1" : rekursiv ausgewertete Eigenschaft"2" : zugehör. Beschreibung der Eigenschaft (also der Merkmal-ID)
        * </pre>
        *
-       * <code>optional .dstore.values.IntegerValue recursive_evaluation = 30006;</code>
+       * <code>.dstore.values.IntegerValue recursive_evaluation = 30006;</code>
        */
       public io.dstore.values.IntegerValueOrBuilder getRecursiveEvaluationOrBuilder() {
         return getRecursiveEvaluation();
@@ -4183,7 +4183,7 @@ public final class ImGetItemConditionPartsAd {
        * Um den (Artikel-)Bedingungs-Teil "&#64;ConditionPartID" zu erfüllen, muß ein Element im Artikelbaum ein Vorgänger-Element besitzen, dessen "TreeNodeID" aus der hier angegebenen Menge von IDs kommt. Sonderfall ",," bedeutet "beliebiger Vorgänger".
        * </pre>
        *
-       * <code>optional .dstore.values.StringValue domain_tree_node_ids = 30007;</code>
+       * <code>.dstore.values.StringValue domain_tree_node_ids = 30007;</code>
        */
       public boolean hasDomainTreeNodeIds() {
         return domainTreeNodeIds_ != null;
@@ -4193,7 +4193,7 @@ public final class ImGetItemConditionPartsAd {
        * Um den (Artikel-)Bedingungs-Teil "&#64;ConditionPartID" zu erfüllen, muß ein Element im Artikelbaum ein Vorgänger-Element besitzen, dessen "TreeNodeID" aus der hier angegebenen Menge von IDs kommt. Sonderfall ",," bedeutet "beliebiger Vorgänger".
        * </pre>
        *
-       * <code>optional .dstore.values.StringValue domain_tree_node_ids = 30007;</code>
+       * <code>.dstore.values.StringValue domain_tree_node_ids = 30007;</code>
        */
       public io.dstore.values.StringValue getDomainTreeNodeIds() {
         return domainTreeNodeIds_ == null ? io.dstore.values.StringValue.getDefaultInstance() : domainTreeNodeIds_;
@@ -4203,7 +4203,7 @@ public final class ImGetItemConditionPartsAd {
        * Um den (Artikel-)Bedingungs-Teil "&#64;ConditionPartID" zu erfüllen, muß ein Element im Artikelbaum ein Vorgänger-Element besitzen, dessen "TreeNodeID" aus der hier angegebenen Menge von IDs kommt. Sonderfall ",," bedeutet "beliebiger Vorgänger".
        * </pre>
        *
-       * <code>optional .dstore.values.StringValue domain_tree_node_ids = 30007;</code>
+       * <code>.dstore.values.StringValue domain_tree_node_ids = 30007;</code>
        */
       public io.dstore.values.StringValueOrBuilder getDomainTreeNodeIdsOrBuilder() {
         return getDomainTreeNodeIds();
@@ -4216,7 +4216,7 @@ public final class ImGetItemConditionPartsAd {
        * ID eines Merkmals. Um "&#64;ConditionPartID" zu erfüllen, muß ein Element im Artikelbaum eine Eigenschaft zu diesem Merkmal besitzen, die der Bedingung ("Operator1" etc.) genügt. Sonderfall "-1" : "KEINE Eigenschafts-Bedingung" (ist also immer erfüllt).
        * </pre>
        *
-       * <code>optional .dstore.values.IntegerValue node_characteristic_id = 30008;</code>
+       * <code>.dstore.values.IntegerValue node_characteristic_id = 30008;</code>
        */
       public boolean hasNodeCharacteristicId() {
         return nodeCharacteristicId_ != null;
@@ -4226,7 +4226,7 @@ public final class ImGetItemConditionPartsAd {
        * ID eines Merkmals. Um "&#64;ConditionPartID" zu erfüllen, muß ein Element im Artikelbaum eine Eigenschaft zu diesem Merkmal besitzen, die der Bedingung ("Operator1" etc.) genügt. Sonderfall "-1" : "KEINE Eigenschafts-Bedingung" (ist also immer erfüllt).
        * </pre>
        *
-       * <code>optional .dstore.values.IntegerValue node_characteristic_id = 30008;</code>
+       * <code>.dstore.values.IntegerValue node_characteristic_id = 30008;</code>
        */
       public io.dstore.values.IntegerValue getNodeCharacteristicId() {
         return nodeCharacteristicId_ == null ? io.dstore.values.IntegerValue.getDefaultInstance() : nodeCharacteristicId_;
@@ -4236,7 +4236,7 @@ public final class ImGetItemConditionPartsAd {
        * ID eines Merkmals. Um "&#64;ConditionPartID" zu erfüllen, muß ein Element im Artikelbaum eine Eigenschaft zu diesem Merkmal besitzen, die der Bedingung ("Operator1" etc.) genügt. Sonderfall "-1" : "KEINE Eigenschafts-Bedingung" (ist also immer erfüllt).
        * </pre>
        *
-       * <code>optional .dstore.values.IntegerValue node_characteristic_id = 30008;</code>
+       * <code>.dstore.values.IntegerValue node_characteristic_id = 30008;</code>
        */
       public io.dstore.values.IntegerValueOrBuilder getNodeCharacteristicIdOrBuilder() {
         return getNodeCharacteristicId();
@@ -4249,7 +4249,7 @@ public final class ImGetItemConditionPartsAd {
        * Um den (Artikel-)Bedingungs-Teil "&#64;ConditionPartID" zu erfüllen, muß die Hierarchie ("LevelID") eines Artikel-Elementes aus der hier angegebenen Menge der Hierarchien ("LevelID"s) kommen. Sonderfall ",," bedeutet "beliebige Hierarchie".
        * </pre>
        *
-       * <code>optional .dstore.values.StringValue level_ids = 30011;</code>
+       * <code>.dstore.values.StringValue level_ids = 30011;</code>
        */
       public boolean hasLevelIds() {
         return levelIds_ != null;
@@ -4259,7 +4259,7 @@ public final class ImGetItemConditionPartsAd {
        * Um den (Artikel-)Bedingungs-Teil "&#64;ConditionPartID" zu erfüllen, muß die Hierarchie ("LevelID") eines Artikel-Elementes aus der hier angegebenen Menge der Hierarchien ("LevelID"s) kommen. Sonderfall ",," bedeutet "beliebige Hierarchie".
        * </pre>
        *
-       * <code>optional .dstore.values.StringValue level_ids = 30011;</code>
+       * <code>.dstore.values.StringValue level_ids = 30011;</code>
        */
       public io.dstore.values.StringValue getLevelIds() {
         return levelIds_ == null ? io.dstore.values.StringValue.getDefaultInstance() : levelIds_;
@@ -4269,7 +4269,7 @@ public final class ImGetItemConditionPartsAd {
        * Um den (Artikel-)Bedingungs-Teil "&#64;ConditionPartID" zu erfüllen, muß die Hierarchie ("LevelID") eines Artikel-Elementes aus der hier angegebenen Menge der Hierarchien ("LevelID"s) kommen. Sonderfall ",," bedeutet "beliebige Hierarchie".
        * </pre>
        *
-       * <code>optional .dstore.values.StringValue level_ids = 30011;</code>
+       * <code>.dstore.values.StringValue level_ids = 30011;</code>
        */
       public io.dstore.values.StringValueOrBuilder getLevelIdsOrBuilder() {
         return getLevelIds();
@@ -4282,7 +4282,7 @@ public final class ImGetItemConditionPartsAd {
        * Welche Eigenschaften zu "NodeCharacteristicID" hinsichtlich Vererbung sollen bei Prüfung der Eigenschafts-Bedingung beachtet werden :"-1" : Alle"0" : unvererbte"1" : direkte u. einfach geerbte"2" : direkte u. einfach oder zweifach geerbteusw.
        * </pre>
        *
-       * <code>optional .dstore.values.IntegerValue inherit_depth = 30014;</code>
+       * <code>.dstore.values.IntegerValue inherit_depth = 30014;</code>
        */
       public boolean hasInheritDepth() {
         return inheritDepth_ != null;
@@ -4292,7 +4292,7 @@ public final class ImGetItemConditionPartsAd {
        * Welche Eigenschaften zu "NodeCharacteristicID" hinsichtlich Vererbung sollen bei Prüfung der Eigenschafts-Bedingung beachtet werden :"-1" : Alle"0" : unvererbte"1" : direkte u. einfach geerbte"2" : direkte u. einfach oder zweifach geerbteusw.
        * </pre>
        *
-       * <code>optional .dstore.values.IntegerValue inherit_depth = 30014;</code>
+       * <code>.dstore.values.IntegerValue inherit_depth = 30014;</code>
        */
       public io.dstore.values.IntegerValue getInheritDepth() {
         return inheritDepth_ == null ? io.dstore.values.IntegerValue.getDefaultInstance() : inheritDepth_;
@@ -4302,7 +4302,7 @@ public final class ImGetItemConditionPartsAd {
        * Welche Eigenschaften zu "NodeCharacteristicID" hinsichtlich Vererbung sollen bei Prüfung der Eigenschafts-Bedingung beachtet werden :"-1" : Alle"0" : unvererbte"1" : direkte u. einfach geerbte"2" : direkte u. einfach oder zweifach geerbteusw.
        * </pre>
        *
-       * <code>optional .dstore.values.IntegerValue inherit_depth = 30014;</code>
+       * <code>.dstore.values.IntegerValue inherit_depth = 30014;</code>
        */
       public io.dstore.values.IntegerValueOrBuilder getInheritDepthOrBuilder() {
         return getInheritDepth();
@@ -4541,7 +4541,7 @@ public final class ImGetItemConditionPartsAd {
           return memoizedHashCode;
         }
         int hash = 41;
-        hash = (19 * hash) + getDescriptorForType().hashCode();
+        hash = (19 * hash) + getDescriptor().hashCode();
         hash = (37 * hash) + ROW_ID_FIELD_NUMBER;
         hash = (53 * hash) + getRowId();
         if (hasUsedInAnItemConditionGroup()) {
@@ -5029,13 +5029,13 @@ public final class ImGetItemConditionPartsAd {
 
         private int rowId_ ;
         /**
-         * <code>optional int32 row_id = 10000;</code>
+         * <code>int32 row_id = 10000;</code>
          */
         public int getRowId() {
           return rowId_;
         }
         /**
-         * <code>optional int32 row_id = 10000;</code>
+         * <code>int32 row_id = 10000;</code>
          */
         public Builder setRowId(int value) {
           
@@ -5044,7 +5044,7 @@ public final class ImGetItemConditionPartsAd {
           return this;
         }
         /**
-         * <code>optional int32 row_id = 10000;</code>
+         * <code>int32 row_id = 10000;</code>
          */
         public Builder clearRowId() {
           
@@ -5061,7 +5061,7 @@ public final class ImGetItemConditionPartsAd {
          * Wird der (Artikel-)Bedingungs-Teil "&#64;ConditionPartID" in einer Bedingungs-Gruppe verwendet ("1") oder nicht ("0") ?
          * </pre>
          *
-         * <code>optional .dstore.values.BooleanValue used_in_an_item_condition_group = 10001;</code>
+         * <code>.dstore.values.BooleanValue used_in_an_item_condition_group = 10001;</code>
          */
         public boolean hasUsedInAnItemConditionGroup() {
           return usedInAnItemConditionGroupBuilder_ != null || usedInAnItemConditionGroup_ != null;
@@ -5071,7 +5071,7 @@ public final class ImGetItemConditionPartsAd {
          * Wird der (Artikel-)Bedingungs-Teil "&#64;ConditionPartID" in einer Bedingungs-Gruppe verwendet ("1") oder nicht ("0") ?
          * </pre>
          *
-         * <code>optional .dstore.values.BooleanValue used_in_an_item_condition_group = 10001;</code>
+         * <code>.dstore.values.BooleanValue used_in_an_item_condition_group = 10001;</code>
          */
         public io.dstore.values.BooleanValue getUsedInAnItemConditionGroup() {
           if (usedInAnItemConditionGroupBuilder_ == null) {
@@ -5085,7 +5085,7 @@ public final class ImGetItemConditionPartsAd {
          * Wird der (Artikel-)Bedingungs-Teil "&#64;ConditionPartID" in einer Bedingungs-Gruppe verwendet ("1") oder nicht ("0") ?
          * </pre>
          *
-         * <code>optional .dstore.values.BooleanValue used_in_an_item_condition_group = 10001;</code>
+         * <code>.dstore.values.BooleanValue used_in_an_item_condition_group = 10001;</code>
          */
         public Builder setUsedInAnItemConditionGroup(io.dstore.values.BooleanValue value) {
           if (usedInAnItemConditionGroupBuilder_ == null) {
@@ -5105,7 +5105,7 @@ public final class ImGetItemConditionPartsAd {
          * Wird der (Artikel-)Bedingungs-Teil "&#64;ConditionPartID" in einer Bedingungs-Gruppe verwendet ("1") oder nicht ("0") ?
          * </pre>
          *
-         * <code>optional .dstore.values.BooleanValue used_in_an_item_condition_group = 10001;</code>
+         * <code>.dstore.values.BooleanValue used_in_an_item_condition_group = 10001;</code>
          */
         public Builder setUsedInAnItemConditionGroup(
             io.dstore.values.BooleanValue.Builder builderForValue) {
@@ -5123,7 +5123,7 @@ public final class ImGetItemConditionPartsAd {
          * Wird der (Artikel-)Bedingungs-Teil "&#64;ConditionPartID" in einer Bedingungs-Gruppe verwendet ("1") oder nicht ("0") ?
          * </pre>
          *
-         * <code>optional .dstore.values.BooleanValue used_in_an_item_condition_group = 10001;</code>
+         * <code>.dstore.values.BooleanValue used_in_an_item_condition_group = 10001;</code>
          */
         public Builder mergeUsedInAnItemConditionGroup(io.dstore.values.BooleanValue value) {
           if (usedInAnItemConditionGroupBuilder_ == null) {
@@ -5145,7 +5145,7 @@ public final class ImGetItemConditionPartsAd {
          * Wird der (Artikel-)Bedingungs-Teil "&#64;ConditionPartID" in einer Bedingungs-Gruppe verwendet ("1") oder nicht ("0") ?
          * </pre>
          *
-         * <code>optional .dstore.values.BooleanValue used_in_an_item_condition_group = 10001;</code>
+         * <code>.dstore.values.BooleanValue used_in_an_item_condition_group = 10001;</code>
          */
         public Builder clearUsedInAnItemConditionGroup() {
           if (usedInAnItemConditionGroupBuilder_ == null) {
@@ -5163,7 +5163,7 @@ public final class ImGetItemConditionPartsAd {
          * Wird der (Artikel-)Bedingungs-Teil "&#64;ConditionPartID" in einer Bedingungs-Gruppe verwendet ("1") oder nicht ("0") ?
          * </pre>
          *
-         * <code>optional .dstore.values.BooleanValue used_in_an_item_condition_group = 10001;</code>
+         * <code>.dstore.values.BooleanValue used_in_an_item_condition_group = 10001;</code>
          */
         public io.dstore.values.BooleanValue.Builder getUsedInAnItemConditionGroupBuilder() {
           
@@ -5175,7 +5175,7 @@ public final class ImGetItemConditionPartsAd {
          * Wird der (Artikel-)Bedingungs-Teil "&#64;ConditionPartID" in einer Bedingungs-Gruppe verwendet ("1") oder nicht ("0") ?
          * </pre>
          *
-         * <code>optional .dstore.values.BooleanValue used_in_an_item_condition_group = 10001;</code>
+         * <code>.dstore.values.BooleanValue used_in_an_item_condition_group = 10001;</code>
          */
         public io.dstore.values.BooleanValueOrBuilder getUsedInAnItemConditionGroupOrBuilder() {
           if (usedInAnItemConditionGroupBuilder_ != null) {
@@ -5190,7 +5190,7 @@ public final class ImGetItemConditionPartsAd {
          * Wird der (Artikel-)Bedingungs-Teil "&#64;ConditionPartID" in einer Bedingungs-Gruppe verwendet ("1") oder nicht ("0") ?
          * </pre>
          *
-         * <code>optional .dstore.values.BooleanValue used_in_an_item_condition_group = 10001;</code>
+         * <code>.dstore.values.BooleanValue used_in_an_item_condition_group = 10001;</code>
          */
         private com.google.protobuf.SingleFieldBuilderV3<
             io.dstore.values.BooleanValue, io.dstore.values.BooleanValue.Builder, io.dstore.values.BooleanValueOrBuilder> 
@@ -5214,7 +5214,7 @@ public final class ImGetItemConditionPartsAd {
          * Wird der (Artikel-)Bedingungs-Teil "&#64;ConditionPartID" in einer Verkaufs-Aktion (eine sog. "Campaign") um zusätzliche Kriterien erweitert ("1") oder nicht ("0") ?
          * </pre>
          *
-         * <code>optional .dstore.values.BooleanValue used_in_campaign_item_cond_parts = 10002;</code>
+         * <code>.dstore.values.BooleanValue used_in_campaign_item_cond_parts = 10002;</code>
          */
         public boolean hasUsedInCampaignItemCondParts() {
           return usedInCampaignItemCondPartsBuilder_ != null || usedInCampaignItemCondParts_ != null;
@@ -5224,7 +5224,7 @@ public final class ImGetItemConditionPartsAd {
          * Wird der (Artikel-)Bedingungs-Teil "&#64;ConditionPartID" in einer Verkaufs-Aktion (eine sog. "Campaign") um zusätzliche Kriterien erweitert ("1") oder nicht ("0") ?
          * </pre>
          *
-         * <code>optional .dstore.values.BooleanValue used_in_campaign_item_cond_parts = 10002;</code>
+         * <code>.dstore.values.BooleanValue used_in_campaign_item_cond_parts = 10002;</code>
          */
         public io.dstore.values.BooleanValue getUsedInCampaignItemCondParts() {
           if (usedInCampaignItemCondPartsBuilder_ == null) {
@@ -5238,7 +5238,7 @@ public final class ImGetItemConditionPartsAd {
          * Wird der (Artikel-)Bedingungs-Teil "&#64;ConditionPartID" in einer Verkaufs-Aktion (eine sog. "Campaign") um zusätzliche Kriterien erweitert ("1") oder nicht ("0") ?
          * </pre>
          *
-         * <code>optional .dstore.values.BooleanValue used_in_campaign_item_cond_parts = 10002;</code>
+         * <code>.dstore.values.BooleanValue used_in_campaign_item_cond_parts = 10002;</code>
          */
         public Builder setUsedInCampaignItemCondParts(io.dstore.values.BooleanValue value) {
           if (usedInCampaignItemCondPartsBuilder_ == null) {
@@ -5258,7 +5258,7 @@ public final class ImGetItemConditionPartsAd {
          * Wird der (Artikel-)Bedingungs-Teil "&#64;ConditionPartID" in einer Verkaufs-Aktion (eine sog. "Campaign") um zusätzliche Kriterien erweitert ("1") oder nicht ("0") ?
          * </pre>
          *
-         * <code>optional .dstore.values.BooleanValue used_in_campaign_item_cond_parts = 10002;</code>
+         * <code>.dstore.values.BooleanValue used_in_campaign_item_cond_parts = 10002;</code>
          */
         public Builder setUsedInCampaignItemCondParts(
             io.dstore.values.BooleanValue.Builder builderForValue) {
@@ -5276,7 +5276,7 @@ public final class ImGetItemConditionPartsAd {
          * Wird der (Artikel-)Bedingungs-Teil "&#64;ConditionPartID" in einer Verkaufs-Aktion (eine sog. "Campaign") um zusätzliche Kriterien erweitert ("1") oder nicht ("0") ?
          * </pre>
          *
-         * <code>optional .dstore.values.BooleanValue used_in_campaign_item_cond_parts = 10002;</code>
+         * <code>.dstore.values.BooleanValue used_in_campaign_item_cond_parts = 10002;</code>
          */
         public Builder mergeUsedInCampaignItemCondParts(io.dstore.values.BooleanValue value) {
           if (usedInCampaignItemCondPartsBuilder_ == null) {
@@ -5298,7 +5298,7 @@ public final class ImGetItemConditionPartsAd {
          * Wird der (Artikel-)Bedingungs-Teil "&#64;ConditionPartID" in einer Verkaufs-Aktion (eine sog. "Campaign") um zusätzliche Kriterien erweitert ("1") oder nicht ("0") ?
          * </pre>
          *
-         * <code>optional .dstore.values.BooleanValue used_in_campaign_item_cond_parts = 10002;</code>
+         * <code>.dstore.values.BooleanValue used_in_campaign_item_cond_parts = 10002;</code>
          */
         public Builder clearUsedInCampaignItemCondParts() {
           if (usedInCampaignItemCondPartsBuilder_ == null) {
@@ -5316,7 +5316,7 @@ public final class ImGetItemConditionPartsAd {
          * Wird der (Artikel-)Bedingungs-Teil "&#64;ConditionPartID" in einer Verkaufs-Aktion (eine sog. "Campaign") um zusätzliche Kriterien erweitert ("1") oder nicht ("0") ?
          * </pre>
          *
-         * <code>optional .dstore.values.BooleanValue used_in_campaign_item_cond_parts = 10002;</code>
+         * <code>.dstore.values.BooleanValue used_in_campaign_item_cond_parts = 10002;</code>
          */
         public io.dstore.values.BooleanValue.Builder getUsedInCampaignItemCondPartsBuilder() {
           
@@ -5328,7 +5328,7 @@ public final class ImGetItemConditionPartsAd {
          * Wird der (Artikel-)Bedingungs-Teil "&#64;ConditionPartID" in einer Verkaufs-Aktion (eine sog. "Campaign") um zusätzliche Kriterien erweitert ("1") oder nicht ("0") ?
          * </pre>
          *
-         * <code>optional .dstore.values.BooleanValue used_in_campaign_item_cond_parts = 10002;</code>
+         * <code>.dstore.values.BooleanValue used_in_campaign_item_cond_parts = 10002;</code>
          */
         public io.dstore.values.BooleanValueOrBuilder getUsedInCampaignItemCondPartsOrBuilder() {
           if (usedInCampaignItemCondPartsBuilder_ != null) {
@@ -5343,7 +5343,7 @@ public final class ImGetItemConditionPartsAd {
          * Wird der (Artikel-)Bedingungs-Teil "&#64;ConditionPartID" in einer Verkaufs-Aktion (eine sog. "Campaign") um zusätzliche Kriterien erweitert ("1") oder nicht ("0") ?
          * </pre>
          *
-         * <code>optional .dstore.values.BooleanValue used_in_campaign_item_cond_parts = 10002;</code>
+         * <code>.dstore.values.BooleanValue used_in_campaign_item_cond_parts = 10002;</code>
          */
         private com.google.protobuf.SingleFieldBuilderV3<
             io.dstore.values.BooleanValue, io.dstore.values.BooleanValue.Builder, io.dstore.values.BooleanValueOrBuilder> 
@@ -5367,7 +5367,7 @@ public final class ImGetItemConditionPartsAd {
          * ID eines (Artikel-)Bedingungs-Teils
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue condition_part_id = 10003;</code>
+         * <code>.dstore.values.IntegerValue condition_part_id = 10003;</code>
          */
         public boolean hasConditionPartId() {
           return conditionPartIdBuilder_ != null || conditionPartId_ != null;
@@ -5377,7 +5377,7 @@ public final class ImGetItemConditionPartsAd {
          * ID eines (Artikel-)Bedingungs-Teils
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue condition_part_id = 10003;</code>
+         * <code>.dstore.values.IntegerValue condition_part_id = 10003;</code>
          */
         public io.dstore.values.IntegerValue getConditionPartId() {
           if (conditionPartIdBuilder_ == null) {
@@ -5391,7 +5391,7 @@ public final class ImGetItemConditionPartsAd {
          * ID eines (Artikel-)Bedingungs-Teils
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue condition_part_id = 10003;</code>
+         * <code>.dstore.values.IntegerValue condition_part_id = 10003;</code>
          */
         public Builder setConditionPartId(io.dstore.values.IntegerValue value) {
           if (conditionPartIdBuilder_ == null) {
@@ -5411,7 +5411,7 @@ public final class ImGetItemConditionPartsAd {
          * ID eines (Artikel-)Bedingungs-Teils
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue condition_part_id = 10003;</code>
+         * <code>.dstore.values.IntegerValue condition_part_id = 10003;</code>
          */
         public Builder setConditionPartId(
             io.dstore.values.IntegerValue.Builder builderForValue) {
@@ -5429,7 +5429,7 @@ public final class ImGetItemConditionPartsAd {
          * ID eines (Artikel-)Bedingungs-Teils
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue condition_part_id = 10003;</code>
+         * <code>.dstore.values.IntegerValue condition_part_id = 10003;</code>
          */
         public Builder mergeConditionPartId(io.dstore.values.IntegerValue value) {
           if (conditionPartIdBuilder_ == null) {
@@ -5451,7 +5451,7 @@ public final class ImGetItemConditionPartsAd {
          * ID eines (Artikel-)Bedingungs-Teils
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue condition_part_id = 10003;</code>
+         * <code>.dstore.values.IntegerValue condition_part_id = 10003;</code>
          */
         public Builder clearConditionPartId() {
           if (conditionPartIdBuilder_ == null) {
@@ -5469,7 +5469,7 @@ public final class ImGetItemConditionPartsAd {
          * ID eines (Artikel-)Bedingungs-Teils
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue condition_part_id = 10003;</code>
+         * <code>.dstore.values.IntegerValue condition_part_id = 10003;</code>
          */
         public io.dstore.values.IntegerValue.Builder getConditionPartIdBuilder() {
           
@@ -5481,7 +5481,7 @@ public final class ImGetItemConditionPartsAd {
          * ID eines (Artikel-)Bedingungs-Teils
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue condition_part_id = 10003;</code>
+         * <code>.dstore.values.IntegerValue condition_part_id = 10003;</code>
          */
         public io.dstore.values.IntegerValueOrBuilder getConditionPartIdOrBuilder() {
           if (conditionPartIdBuilder_ != null) {
@@ -5496,7 +5496,7 @@ public final class ImGetItemConditionPartsAd {
          * ID eines (Artikel-)Bedingungs-Teils
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue condition_part_id = 10003;</code>
+         * <code>.dstore.values.IntegerValue condition_part_id = 10003;</code>
          */
         private com.google.protobuf.SingleFieldBuilderV3<
             io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> 
@@ -5520,7 +5520,7 @@ public final class ImGetItemConditionPartsAd {
          * Zeitpunkt, an dem der (Artikel-)Bedingungs-Teil "&#64;ConditionPartID" zuletzt geändert wurde (kann "NULL" sein)
          * </pre>
          *
-         * <code>optional .dstore.values.TimestampValue edited_at_date_and_time = 10004;</code>
+         * <code>.dstore.values.TimestampValue edited_at_date_and_time = 10004;</code>
          */
         public boolean hasEditedAtDateAndTime() {
           return editedAtDateAndTimeBuilder_ != null || editedAtDateAndTime_ != null;
@@ -5530,7 +5530,7 @@ public final class ImGetItemConditionPartsAd {
          * Zeitpunkt, an dem der (Artikel-)Bedingungs-Teil "&#64;ConditionPartID" zuletzt geändert wurde (kann "NULL" sein)
          * </pre>
          *
-         * <code>optional .dstore.values.TimestampValue edited_at_date_and_time = 10004;</code>
+         * <code>.dstore.values.TimestampValue edited_at_date_and_time = 10004;</code>
          */
         public io.dstore.values.TimestampValue getEditedAtDateAndTime() {
           if (editedAtDateAndTimeBuilder_ == null) {
@@ -5544,7 +5544,7 @@ public final class ImGetItemConditionPartsAd {
          * Zeitpunkt, an dem der (Artikel-)Bedingungs-Teil "&#64;ConditionPartID" zuletzt geändert wurde (kann "NULL" sein)
          * </pre>
          *
-         * <code>optional .dstore.values.TimestampValue edited_at_date_and_time = 10004;</code>
+         * <code>.dstore.values.TimestampValue edited_at_date_and_time = 10004;</code>
          */
         public Builder setEditedAtDateAndTime(io.dstore.values.TimestampValue value) {
           if (editedAtDateAndTimeBuilder_ == null) {
@@ -5564,7 +5564,7 @@ public final class ImGetItemConditionPartsAd {
          * Zeitpunkt, an dem der (Artikel-)Bedingungs-Teil "&#64;ConditionPartID" zuletzt geändert wurde (kann "NULL" sein)
          * </pre>
          *
-         * <code>optional .dstore.values.TimestampValue edited_at_date_and_time = 10004;</code>
+         * <code>.dstore.values.TimestampValue edited_at_date_and_time = 10004;</code>
          */
         public Builder setEditedAtDateAndTime(
             io.dstore.values.TimestampValue.Builder builderForValue) {
@@ -5582,7 +5582,7 @@ public final class ImGetItemConditionPartsAd {
          * Zeitpunkt, an dem der (Artikel-)Bedingungs-Teil "&#64;ConditionPartID" zuletzt geändert wurde (kann "NULL" sein)
          * </pre>
          *
-         * <code>optional .dstore.values.TimestampValue edited_at_date_and_time = 10004;</code>
+         * <code>.dstore.values.TimestampValue edited_at_date_and_time = 10004;</code>
          */
         public Builder mergeEditedAtDateAndTime(io.dstore.values.TimestampValue value) {
           if (editedAtDateAndTimeBuilder_ == null) {
@@ -5604,7 +5604,7 @@ public final class ImGetItemConditionPartsAd {
          * Zeitpunkt, an dem der (Artikel-)Bedingungs-Teil "&#64;ConditionPartID" zuletzt geändert wurde (kann "NULL" sein)
          * </pre>
          *
-         * <code>optional .dstore.values.TimestampValue edited_at_date_and_time = 10004;</code>
+         * <code>.dstore.values.TimestampValue edited_at_date_and_time = 10004;</code>
          */
         public Builder clearEditedAtDateAndTime() {
           if (editedAtDateAndTimeBuilder_ == null) {
@@ -5622,7 +5622,7 @@ public final class ImGetItemConditionPartsAd {
          * Zeitpunkt, an dem der (Artikel-)Bedingungs-Teil "&#64;ConditionPartID" zuletzt geändert wurde (kann "NULL" sein)
          * </pre>
          *
-         * <code>optional .dstore.values.TimestampValue edited_at_date_and_time = 10004;</code>
+         * <code>.dstore.values.TimestampValue edited_at_date_and_time = 10004;</code>
          */
         public io.dstore.values.TimestampValue.Builder getEditedAtDateAndTimeBuilder() {
           
@@ -5634,7 +5634,7 @@ public final class ImGetItemConditionPartsAd {
          * Zeitpunkt, an dem der (Artikel-)Bedingungs-Teil "&#64;ConditionPartID" zuletzt geändert wurde (kann "NULL" sein)
          * </pre>
          *
-         * <code>optional .dstore.values.TimestampValue edited_at_date_and_time = 10004;</code>
+         * <code>.dstore.values.TimestampValue edited_at_date_and_time = 10004;</code>
          */
         public io.dstore.values.TimestampValueOrBuilder getEditedAtDateAndTimeOrBuilder() {
           if (editedAtDateAndTimeBuilder_ != null) {
@@ -5649,7 +5649,7 @@ public final class ImGetItemConditionPartsAd {
          * Zeitpunkt, an dem der (Artikel-)Bedingungs-Teil "&#64;ConditionPartID" zuletzt geändert wurde (kann "NULL" sein)
          * </pre>
          *
-         * <code>optional .dstore.values.TimestampValue edited_at_date_and_time = 10004;</code>
+         * <code>.dstore.values.TimestampValue edited_at_date_and_time = 10004;</code>
          */
         private com.google.protobuf.SingleFieldBuilderV3<
             io.dstore.values.TimestampValue, io.dstore.values.TimestampValue.Builder, io.dstore.values.TimestampValueOrBuilder> 
@@ -5673,7 +5673,7 @@ public final class ImGetItemConditionPartsAd {
          * Zeitpunkt, an dem der (Artikel-)Bedingungs-Teil "&#64;ConditionPartID" erstellt wurde
          * </pre>
          *
-         * <code>optional .dstore.values.TimestampValue created_at_date_and_time = 10005;</code>
+         * <code>.dstore.values.TimestampValue created_at_date_and_time = 10005;</code>
          */
         public boolean hasCreatedAtDateAndTime() {
           return createdAtDateAndTimeBuilder_ != null || createdAtDateAndTime_ != null;
@@ -5683,7 +5683,7 @@ public final class ImGetItemConditionPartsAd {
          * Zeitpunkt, an dem der (Artikel-)Bedingungs-Teil "&#64;ConditionPartID" erstellt wurde
          * </pre>
          *
-         * <code>optional .dstore.values.TimestampValue created_at_date_and_time = 10005;</code>
+         * <code>.dstore.values.TimestampValue created_at_date_and_time = 10005;</code>
          */
         public io.dstore.values.TimestampValue getCreatedAtDateAndTime() {
           if (createdAtDateAndTimeBuilder_ == null) {
@@ -5697,7 +5697,7 @@ public final class ImGetItemConditionPartsAd {
          * Zeitpunkt, an dem der (Artikel-)Bedingungs-Teil "&#64;ConditionPartID" erstellt wurde
          * </pre>
          *
-         * <code>optional .dstore.values.TimestampValue created_at_date_and_time = 10005;</code>
+         * <code>.dstore.values.TimestampValue created_at_date_and_time = 10005;</code>
          */
         public Builder setCreatedAtDateAndTime(io.dstore.values.TimestampValue value) {
           if (createdAtDateAndTimeBuilder_ == null) {
@@ -5717,7 +5717,7 @@ public final class ImGetItemConditionPartsAd {
          * Zeitpunkt, an dem der (Artikel-)Bedingungs-Teil "&#64;ConditionPartID" erstellt wurde
          * </pre>
          *
-         * <code>optional .dstore.values.TimestampValue created_at_date_and_time = 10005;</code>
+         * <code>.dstore.values.TimestampValue created_at_date_and_time = 10005;</code>
          */
         public Builder setCreatedAtDateAndTime(
             io.dstore.values.TimestampValue.Builder builderForValue) {
@@ -5735,7 +5735,7 @@ public final class ImGetItemConditionPartsAd {
          * Zeitpunkt, an dem der (Artikel-)Bedingungs-Teil "&#64;ConditionPartID" erstellt wurde
          * </pre>
          *
-         * <code>optional .dstore.values.TimestampValue created_at_date_and_time = 10005;</code>
+         * <code>.dstore.values.TimestampValue created_at_date_and_time = 10005;</code>
          */
         public Builder mergeCreatedAtDateAndTime(io.dstore.values.TimestampValue value) {
           if (createdAtDateAndTimeBuilder_ == null) {
@@ -5757,7 +5757,7 @@ public final class ImGetItemConditionPartsAd {
          * Zeitpunkt, an dem der (Artikel-)Bedingungs-Teil "&#64;ConditionPartID" erstellt wurde
          * </pre>
          *
-         * <code>optional .dstore.values.TimestampValue created_at_date_and_time = 10005;</code>
+         * <code>.dstore.values.TimestampValue created_at_date_and_time = 10005;</code>
          */
         public Builder clearCreatedAtDateAndTime() {
           if (createdAtDateAndTimeBuilder_ == null) {
@@ -5775,7 +5775,7 @@ public final class ImGetItemConditionPartsAd {
          * Zeitpunkt, an dem der (Artikel-)Bedingungs-Teil "&#64;ConditionPartID" erstellt wurde
          * </pre>
          *
-         * <code>optional .dstore.values.TimestampValue created_at_date_and_time = 10005;</code>
+         * <code>.dstore.values.TimestampValue created_at_date_and_time = 10005;</code>
          */
         public io.dstore.values.TimestampValue.Builder getCreatedAtDateAndTimeBuilder() {
           
@@ -5787,7 +5787,7 @@ public final class ImGetItemConditionPartsAd {
          * Zeitpunkt, an dem der (Artikel-)Bedingungs-Teil "&#64;ConditionPartID" erstellt wurde
          * </pre>
          *
-         * <code>optional .dstore.values.TimestampValue created_at_date_and_time = 10005;</code>
+         * <code>.dstore.values.TimestampValue created_at_date_and_time = 10005;</code>
          */
         public io.dstore.values.TimestampValueOrBuilder getCreatedAtDateAndTimeOrBuilder() {
           if (createdAtDateAndTimeBuilder_ != null) {
@@ -5802,7 +5802,7 @@ public final class ImGetItemConditionPartsAd {
          * Zeitpunkt, an dem der (Artikel-)Bedingungs-Teil "&#64;ConditionPartID" erstellt wurde
          * </pre>
          *
-         * <code>optional .dstore.values.TimestampValue created_at_date_and_time = 10005;</code>
+         * <code>.dstore.values.TimestampValue created_at_date_and_time = 10005;</code>
          */
         private com.google.protobuf.SingleFieldBuilderV3<
             io.dstore.values.TimestampValue, io.dstore.values.TimestampValue.Builder, io.dstore.values.TimestampValueOrBuilder> 
@@ -5826,7 +5826,7 @@ public final class ImGetItemConditionPartsAd {
          * Bezeichnung des (Artikel-)Bedingungs-Teils "ConditionPartID"
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue condition_part_description = 10006;</code>
+         * <code>.dstore.values.StringValue condition_part_description = 10006;</code>
          */
         public boolean hasConditionPartDescription() {
           return conditionPartDescriptionBuilder_ != null || conditionPartDescription_ != null;
@@ -5836,7 +5836,7 @@ public final class ImGetItemConditionPartsAd {
          * Bezeichnung des (Artikel-)Bedingungs-Teils "ConditionPartID"
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue condition_part_description = 10006;</code>
+         * <code>.dstore.values.StringValue condition_part_description = 10006;</code>
          */
         public io.dstore.values.StringValue getConditionPartDescription() {
           if (conditionPartDescriptionBuilder_ == null) {
@@ -5850,7 +5850,7 @@ public final class ImGetItemConditionPartsAd {
          * Bezeichnung des (Artikel-)Bedingungs-Teils "ConditionPartID"
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue condition_part_description = 10006;</code>
+         * <code>.dstore.values.StringValue condition_part_description = 10006;</code>
          */
         public Builder setConditionPartDescription(io.dstore.values.StringValue value) {
           if (conditionPartDescriptionBuilder_ == null) {
@@ -5870,7 +5870,7 @@ public final class ImGetItemConditionPartsAd {
          * Bezeichnung des (Artikel-)Bedingungs-Teils "ConditionPartID"
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue condition_part_description = 10006;</code>
+         * <code>.dstore.values.StringValue condition_part_description = 10006;</code>
          */
         public Builder setConditionPartDescription(
             io.dstore.values.StringValue.Builder builderForValue) {
@@ -5888,7 +5888,7 @@ public final class ImGetItemConditionPartsAd {
          * Bezeichnung des (Artikel-)Bedingungs-Teils "ConditionPartID"
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue condition_part_description = 10006;</code>
+         * <code>.dstore.values.StringValue condition_part_description = 10006;</code>
          */
         public Builder mergeConditionPartDescription(io.dstore.values.StringValue value) {
           if (conditionPartDescriptionBuilder_ == null) {
@@ -5910,7 +5910,7 @@ public final class ImGetItemConditionPartsAd {
          * Bezeichnung des (Artikel-)Bedingungs-Teils "ConditionPartID"
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue condition_part_description = 10006;</code>
+         * <code>.dstore.values.StringValue condition_part_description = 10006;</code>
          */
         public Builder clearConditionPartDescription() {
           if (conditionPartDescriptionBuilder_ == null) {
@@ -5928,7 +5928,7 @@ public final class ImGetItemConditionPartsAd {
          * Bezeichnung des (Artikel-)Bedingungs-Teils "ConditionPartID"
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue condition_part_description = 10006;</code>
+         * <code>.dstore.values.StringValue condition_part_description = 10006;</code>
          */
         public io.dstore.values.StringValue.Builder getConditionPartDescriptionBuilder() {
           
@@ -5940,7 +5940,7 @@ public final class ImGetItemConditionPartsAd {
          * Bezeichnung des (Artikel-)Bedingungs-Teils "ConditionPartID"
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue condition_part_description = 10006;</code>
+         * <code>.dstore.values.StringValue condition_part_description = 10006;</code>
          */
         public io.dstore.values.StringValueOrBuilder getConditionPartDescriptionOrBuilder() {
           if (conditionPartDescriptionBuilder_ != null) {
@@ -5955,7 +5955,7 @@ public final class ImGetItemConditionPartsAd {
          * Bezeichnung des (Artikel-)Bedingungs-Teils "ConditionPartID"
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue condition_part_description = 10006;</code>
+         * <code>.dstore.values.StringValue condition_part_description = 10006;</code>
          */
         private com.google.protobuf.SingleFieldBuilderV3<
             io.dstore.values.StringValue, io.dstore.values.StringValue.Builder, io.dstore.values.StringValueOrBuilder> 
@@ -5979,7 +5979,7 @@ public final class ImGetItemConditionPartsAd {
          * Operator für die Bedingung "Condition1". Mögliche Werte :- "="- "!=" / "&lt;&gt;"  - "~" / "!~" (LIKE / NOT LIKE)- "&gt;"- "&lt;"- "&gt;="- "&lt;="- "IN" / "!I" (in / NICHT in Menge von "Value"-Werten)- "E" / "!E" (IRGENDEINE / KEINE Eigenschaft)
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue operator1 = 30001;</code>
+         * <code>.dstore.values.StringValue operator1 = 30001;</code>
          */
         public boolean hasOperator1() {
           return operator1Builder_ != null || operator1_ != null;
@@ -5989,7 +5989,7 @@ public final class ImGetItemConditionPartsAd {
          * Operator für die Bedingung "Condition1". Mögliche Werte :- "="- "!=" / "&lt;&gt;"  - "~" / "!~" (LIKE / NOT LIKE)- "&gt;"- "&lt;"- "&gt;="- "&lt;="- "IN" / "!I" (in / NICHT in Menge von "Value"-Werten)- "E" / "!E" (IRGENDEINE / KEINE Eigenschaft)
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue operator1 = 30001;</code>
+         * <code>.dstore.values.StringValue operator1 = 30001;</code>
          */
         public io.dstore.values.StringValue getOperator1() {
           if (operator1Builder_ == null) {
@@ -6003,7 +6003,7 @@ public final class ImGetItemConditionPartsAd {
          * Operator für die Bedingung "Condition1". Mögliche Werte :- "="- "!=" / "&lt;&gt;"  - "~" / "!~" (LIKE / NOT LIKE)- "&gt;"- "&lt;"- "&gt;="- "&lt;="- "IN" / "!I" (in / NICHT in Menge von "Value"-Werten)- "E" / "!E" (IRGENDEINE / KEINE Eigenschaft)
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue operator1 = 30001;</code>
+         * <code>.dstore.values.StringValue operator1 = 30001;</code>
          */
         public Builder setOperator1(io.dstore.values.StringValue value) {
           if (operator1Builder_ == null) {
@@ -6023,7 +6023,7 @@ public final class ImGetItemConditionPartsAd {
          * Operator für die Bedingung "Condition1". Mögliche Werte :- "="- "!=" / "&lt;&gt;"  - "~" / "!~" (LIKE / NOT LIKE)- "&gt;"- "&lt;"- "&gt;="- "&lt;="- "IN" / "!I" (in / NICHT in Menge von "Value"-Werten)- "E" / "!E" (IRGENDEINE / KEINE Eigenschaft)
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue operator1 = 30001;</code>
+         * <code>.dstore.values.StringValue operator1 = 30001;</code>
          */
         public Builder setOperator1(
             io.dstore.values.StringValue.Builder builderForValue) {
@@ -6041,7 +6041,7 @@ public final class ImGetItemConditionPartsAd {
          * Operator für die Bedingung "Condition1". Mögliche Werte :- "="- "!=" / "&lt;&gt;"  - "~" / "!~" (LIKE / NOT LIKE)- "&gt;"- "&lt;"- "&gt;="- "&lt;="- "IN" / "!I" (in / NICHT in Menge von "Value"-Werten)- "E" / "!E" (IRGENDEINE / KEINE Eigenschaft)
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue operator1 = 30001;</code>
+         * <code>.dstore.values.StringValue operator1 = 30001;</code>
          */
         public Builder mergeOperator1(io.dstore.values.StringValue value) {
           if (operator1Builder_ == null) {
@@ -6063,7 +6063,7 @@ public final class ImGetItemConditionPartsAd {
          * Operator für die Bedingung "Condition1". Mögliche Werte :- "="- "!=" / "&lt;&gt;"  - "~" / "!~" (LIKE / NOT LIKE)- "&gt;"- "&lt;"- "&gt;="- "&lt;="- "IN" / "!I" (in / NICHT in Menge von "Value"-Werten)- "E" / "!E" (IRGENDEINE / KEINE Eigenschaft)
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue operator1 = 30001;</code>
+         * <code>.dstore.values.StringValue operator1 = 30001;</code>
          */
         public Builder clearOperator1() {
           if (operator1Builder_ == null) {
@@ -6081,7 +6081,7 @@ public final class ImGetItemConditionPartsAd {
          * Operator für die Bedingung "Condition1". Mögliche Werte :- "="- "!=" / "&lt;&gt;"  - "~" / "!~" (LIKE / NOT LIKE)- "&gt;"- "&lt;"- "&gt;="- "&lt;="- "IN" / "!I" (in / NICHT in Menge von "Value"-Werten)- "E" / "!E" (IRGENDEINE / KEINE Eigenschaft)
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue operator1 = 30001;</code>
+         * <code>.dstore.values.StringValue operator1 = 30001;</code>
          */
         public io.dstore.values.StringValue.Builder getOperator1Builder() {
           
@@ -6093,7 +6093,7 @@ public final class ImGetItemConditionPartsAd {
          * Operator für die Bedingung "Condition1". Mögliche Werte :- "="- "!=" / "&lt;&gt;"  - "~" / "!~" (LIKE / NOT LIKE)- "&gt;"- "&lt;"- "&gt;="- "&lt;="- "IN" / "!I" (in / NICHT in Menge von "Value"-Werten)- "E" / "!E" (IRGENDEINE / KEINE Eigenschaft)
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue operator1 = 30001;</code>
+         * <code>.dstore.values.StringValue operator1 = 30001;</code>
          */
         public io.dstore.values.StringValueOrBuilder getOperator1OrBuilder() {
           if (operator1Builder_ != null) {
@@ -6108,7 +6108,7 @@ public final class ImGetItemConditionPartsAd {
          * Operator für die Bedingung "Condition1". Mögliche Werte :- "="- "!=" / "&lt;&gt;"  - "~" / "!~" (LIKE / NOT LIKE)- "&gt;"- "&lt;"- "&gt;="- "&lt;="- "IN" / "!I" (in / NICHT in Menge von "Value"-Werten)- "E" / "!E" (IRGENDEINE / KEINE Eigenschaft)
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue operator1 = 30001;</code>
+         * <code>.dstore.values.StringValue operator1 = 30001;</code>
          */
         private com.google.protobuf.SingleFieldBuilderV3<
             io.dstore.values.StringValue, io.dstore.values.StringValue.Builder, io.dstore.values.StringValueOrBuilder> 
@@ -6132,7 +6132,7 @@ public final class ImGetItemConditionPartsAd {
          * Bedingung, die in Verbindung mit "Operator1" anzuwenden ist ("NULL", falls "Operator1" den Wert "E" oder "!E" hat)
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue condition1 = 30002;</code>
+         * <code>.dstore.values.StringValue condition1 = 30002;</code>
          */
         public boolean hasCondition1() {
           return condition1Builder_ != null || condition1_ != null;
@@ -6142,7 +6142,7 @@ public final class ImGetItemConditionPartsAd {
          * Bedingung, die in Verbindung mit "Operator1" anzuwenden ist ("NULL", falls "Operator1" den Wert "E" oder "!E" hat)
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue condition1 = 30002;</code>
+         * <code>.dstore.values.StringValue condition1 = 30002;</code>
          */
         public io.dstore.values.StringValue getCondition1() {
           if (condition1Builder_ == null) {
@@ -6156,7 +6156,7 @@ public final class ImGetItemConditionPartsAd {
          * Bedingung, die in Verbindung mit "Operator1" anzuwenden ist ("NULL", falls "Operator1" den Wert "E" oder "!E" hat)
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue condition1 = 30002;</code>
+         * <code>.dstore.values.StringValue condition1 = 30002;</code>
          */
         public Builder setCondition1(io.dstore.values.StringValue value) {
           if (condition1Builder_ == null) {
@@ -6176,7 +6176,7 @@ public final class ImGetItemConditionPartsAd {
          * Bedingung, die in Verbindung mit "Operator1" anzuwenden ist ("NULL", falls "Operator1" den Wert "E" oder "!E" hat)
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue condition1 = 30002;</code>
+         * <code>.dstore.values.StringValue condition1 = 30002;</code>
          */
         public Builder setCondition1(
             io.dstore.values.StringValue.Builder builderForValue) {
@@ -6194,7 +6194,7 @@ public final class ImGetItemConditionPartsAd {
          * Bedingung, die in Verbindung mit "Operator1" anzuwenden ist ("NULL", falls "Operator1" den Wert "E" oder "!E" hat)
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue condition1 = 30002;</code>
+         * <code>.dstore.values.StringValue condition1 = 30002;</code>
          */
         public Builder mergeCondition1(io.dstore.values.StringValue value) {
           if (condition1Builder_ == null) {
@@ -6216,7 +6216,7 @@ public final class ImGetItemConditionPartsAd {
          * Bedingung, die in Verbindung mit "Operator1" anzuwenden ist ("NULL", falls "Operator1" den Wert "E" oder "!E" hat)
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue condition1 = 30002;</code>
+         * <code>.dstore.values.StringValue condition1 = 30002;</code>
          */
         public Builder clearCondition1() {
           if (condition1Builder_ == null) {
@@ -6234,7 +6234,7 @@ public final class ImGetItemConditionPartsAd {
          * Bedingung, die in Verbindung mit "Operator1" anzuwenden ist ("NULL", falls "Operator1" den Wert "E" oder "!E" hat)
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue condition1 = 30002;</code>
+         * <code>.dstore.values.StringValue condition1 = 30002;</code>
          */
         public io.dstore.values.StringValue.Builder getCondition1Builder() {
           
@@ -6246,7 +6246,7 @@ public final class ImGetItemConditionPartsAd {
          * Bedingung, die in Verbindung mit "Operator1" anzuwenden ist ("NULL", falls "Operator1" den Wert "E" oder "!E" hat)
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue condition1 = 30002;</code>
+         * <code>.dstore.values.StringValue condition1 = 30002;</code>
          */
         public io.dstore.values.StringValueOrBuilder getCondition1OrBuilder() {
           if (condition1Builder_ != null) {
@@ -6261,7 +6261,7 @@ public final class ImGetItemConditionPartsAd {
          * Bedingung, die in Verbindung mit "Operator1" anzuwenden ist ("NULL", falls "Operator1" den Wert "E" oder "!E" hat)
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue condition1 = 30002;</code>
+         * <code>.dstore.values.StringValue condition1 = 30002;</code>
          */
         private com.google.protobuf.SingleFieldBuilderV3<
             io.dstore.values.StringValue, io.dstore.values.StringValue.Builder, io.dstore.values.StringValueOrBuilder> 
@@ -6285,7 +6285,7 @@ public final class ImGetItemConditionPartsAd {
          * Bedingung, die in Verbindung mit "Operator2" anzuwenden ist (nur belegt, wenn "Operator2" den Wert "&lt;" oder "&lt;=" enthält)
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue condition2 = 30003;</code>
+         * <code>.dstore.values.StringValue condition2 = 30003;</code>
          */
         public boolean hasCondition2() {
           return condition2Builder_ != null || condition2_ != null;
@@ -6295,7 +6295,7 @@ public final class ImGetItemConditionPartsAd {
          * Bedingung, die in Verbindung mit "Operator2" anzuwenden ist (nur belegt, wenn "Operator2" den Wert "&lt;" oder "&lt;=" enthält)
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue condition2 = 30003;</code>
+         * <code>.dstore.values.StringValue condition2 = 30003;</code>
          */
         public io.dstore.values.StringValue getCondition2() {
           if (condition2Builder_ == null) {
@@ -6309,7 +6309,7 @@ public final class ImGetItemConditionPartsAd {
          * Bedingung, die in Verbindung mit "Operator2" anzuwenden ist (nur belegt, wenn "Operator2" den Wert "&lt;" oder "&lt;=" enthält)
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue condition2 = 30003;</code>
+         * <code>.dstore.values.StringValue condition2 = 30003;</code>
          */
         public Builder setCondition2(io.dstore.values.StringValue value) {
           if (condition2Builder_ == null) {
@@ -6329,7 +6329,7 @@ public final class ImGetItemConditionPartsAd {
          * Bedingung, die in Verbindung mit "Operator2" anzuwenden ist (nur belegt, wenn "Operator2" den Wert "&lt;" oder "&lt;=" enthält)
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue condition2 = 30003;</code>
+         * <code>.dstore.values.StringValue condition2 = 30003;</code>
          */
         public Builder setCondition2(
             io.dstore.values.StringValue.Builder builderForValue) {
@@ -6347,7 +6347,7 @@ public final class ImGetItemConditionPartsAd {
          * Bedingung, die in Verbindung mit "Operator2" anzuwenden ist (nur belegt, wenn "Operator2" den Wert "&lt;" oder "&lt;=" enthält)
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue condition2 = 30003;</code>
+         * <code>.dstore.values.StringValue condition2 = 30003;</code>
          */
         public Builder mergeCondition2(io.dstore.values.StringValue value) {
           if (condition2Builder_ == null) {
@@ -6369,7 +6369,7 @@ public final class ImGetItemConditionPartsAd {
          * Bedingung, die in Verbindung mit "Operator2" anzuwenden ist (nur belegt, wenn "Operator2" den Wert "&lt;" oder "&lt;=" enthält)
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue condition2 = 30003;</code>
+         * <code>.dstore.values.StringValue condition2 = 30003;</code>
          */
         public Builder clearCondition2() {
           if (condition2Builder_ == null) {
@@ -6387,7 +6387,7 @@ public final class ImGetItemConditionPartsAd {
          * Bedingung, die in Verbindung mit "Operator2" anzuwenden ist (nur belegt, wenn "Operator2" den Wert "&lt;" oder "&lt;=" enthält)
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue condition2 = 30003;</code>
+         * <code>.dstore.values.StringValue condition2 = 30003;</code>
          */
         public io.dstore.values.StringValue.Builder getCondition2Builder() {
           
@@ -6399,7 +6399,7 @@ public final class ImGetItemConditionPartsAd {
          * Bedingung, die in Verbindung mit "Operator2" anzuwenden ist (nur belegt, wenn "Operator2" den Wert "&lt;" oder "&lt;=" enthält)
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue condition2 = 30003;</code>
+         * <code>.dstore.values.StringValue condition2 = 30003;</code>
          */
         public io.dstore.values.StringValueOrBuilder getCondition2OrBuilder() {
           if (condition2Builder_ != null) {
@@ -6414,7 +6414,7 @@ public final class ImGetItemConditionPartsAd {
          * Bedingung, die in Verbindung mit "Operator2" anzuwenden ist (nur belegt, wenn "Operator2" den Wert "&lt;" oder "&lt;=" enthält)
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue condition2 = 30003;</code>
+         * <code>.dstore.values.StringValue condition2 = 30003;</code>
          */
         private com.google.protobuf.SingleFieldBuilderV3<
             io.dstore.values.StringValue, io.dstore.values.StringValue.Builder, io.dstore.values.StringValueOrBuilder> 
@@ -6438,7 +6438,7 @@ public final class ImGetItemConditionPartsAd {
          * Operator für die Bedingung "Condition2". Mögliche Werte :- "&lt;" oder "&lt;=", falls "Operator1" "&gt;" oder "&gt;=" enthält- bel. Zeichen (Trennzeichen für Werte-Menge), falls "Operator1" "IN" oder "!I" enthält
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue operator2 = 30004;</code>
+         * <code>.dstore.values.StringValue operator2 = 30004;</code>
          */
         public boolean hasOperator2() {
           return operator2Builder_ != null || operator2_ != null;
@@ -6448,7 +6448,7 @@ public final class ImGetItemConditionPartsAd {
          * Operator für die Bedingung "Condition2". Mögliche Werte :- "&lt;" oder "&lt;=", falls "Operator1" "&gt;" oder "&gt;=" enthält- bel. Zeichen (Trennzeichen für Werte-Menge), falls "Operator1" "IN" oder "!I" enthält
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue operator2 = 30004;</code>
+         * <code>.dstore.values.StringValue operator2 = 30004;</code>
          */
         public io.dstore.values.StringValue getOperator2() {
           if (operator2Builder_ == null) {
@@ -6462,7 +6462,7 @@ public final class ImGetItemConditionPartsAd {
          * Operator für die Bedingung "Condition2". Mögliche Werte :- "&lt;" oder "&lt;=", falls "Operator1" "&gt;" oder "&gt;=" enthält- bel. Zeichen (Trennzeichen für Werte-Menge), falls "Operator1" "IN" oder "!I" enthält
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue operator2 = 30004;</code>
+         * <code>.dstore.values.StringValue operator2 = 30004;</code>
          */
         public Builder setOperator2(io.dstore.values.StringValue value) {
           if (operator2Builder_ == null) {
@@ -6482,7 +6482,7 @@ public final class ImGetItemConditionPartsAd {
          * Operator für die Bedingung "Condition2". Mögliche Werte :- "&lt;" oder "&lt;=", falls "Operator1" "&gt;" oder "&gt;=" enthält- bel. Zeichen (Trennzeichen für Werte-Menge), falls "Operator1" "IN" oder "!I" enthält
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue operator2 = 30004;</code>
+         * <code>.dstore.values.StringValue operator2 = 30004;</code>
          */
         public Builder setOperator2(
             io.dstore.values.StringValue.Builder builderForValue) {
@@ -6500,7 +6500,7 @@ public final class ImGetItemConditionPartsAd {
          * Operator für die Bedingung "Condition2". Mögliche Werte :- "&lt;" oder "&lt;=", falls "Operator1" "&gt;" oder "&gt;=" enthält- bel. Zeichen (Trennzeichen für Werte-Menge), falls "Operator1" "IN" oder "!I" enthält
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue operator2 = 30004;</code>
+         * <code>.dstore.values.StringValue operator2 = 30004;</code>
          */
         public Builder mergeOperator2(io.dstore.values.StringValue value) {
           if (operator2Builder_ == null) {
@@ -6522,7 +6522,7 @@ public final class ImGetItemConditionPartsAd {
          * Operator für die Bedingung "Condition2". Mögliche Werte :- "&lt;" oder "&lt;=", falls "Operator1" "&gt;" oder "&gt;=" enthält- bel. Zeichen (Trennzeichen für Werte-Menge), falls "Operator1" "IN" oder "!I" enthält
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue operator2 = 30004;</code>
+         * <code>.dstore.values.StringValue operator2 = 30004;</code>
          */
         public Builder clearOperator2() {
           if (operator2Builder_ == null) {
@@ -6540,7 +6540,7 @@ public final class ImGetItemConditionPartsAd {
          * Operator für die Bedingung "Condition2". Mögliche Werte :- "&lt;" oder "&lt;=", falls "Operator1" "&gt;" oder "&gt;=" enthält- bel. Zeichen (Trennzeichen für Werte-Menge), falls "Operator1" "IN" oder "!I" enthält
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue operator2 = 30004;</code>
+         * <code>.dstore.values.StringValue operator2 = 30004;</code>
          */
         public io.dstore.values.StringValue.Builder getOperator2Builder() {
           
@@ -6552,7 +6552,7 @@ public final class ImGetItemConditionPartsAd {
          * Operator für die Bedingung "Condition2". Mögliche Werte :- "&lt;" oder "&lt;=", falls "Operator1" "&gt;" oder "&gt;=" enthält- bel. Zeichen (Trennzeichen für Werte-Menge), falls "Operator1" "IN" oder "!I" enthält
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue operator2 = 30004;</code>
+         * <code>.dstore.values.StringValue operator2 = 30004;</code>
          */
         public io.dstore.values.StringValueOrBuilder getOperator2OrBuilder() {
           if (operator2Builder_ != null) {
@@ -6567,7 +6567,7 @@ public final class ImGetItemConditionPartsAd {
          * Operator für die Bedingung "Condition2". Mögliche Werte :- "&lt;" oder "&lt;=", falls "Operator1" "&gt;" oder "&gt;=" enthält- bel. Zeichen (Trennzeichen für Werte-Menge), falls "Operator1" "IN" oder "!I" enthält
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue operator2 = 30004;</code>
+         * <code>.dstore.values.StringValue operator2 = 30004;</code>
          */
         private com.google.protobuf.SingleFieldBuilderV3<
             io.dstore.values.StringValue, io.dstore.values.StringValue.Builder, io.dstore.values.StringValueOrBuilder> 
@@ -6591,7 +6591,7 @@ public final class ImGetItemConditionPartsAd {
          * Was soll zwecks Prüfung der Bedingung zu "NodeCharacteristicID" (wenn rekursiv) gewählt werden ?"0" : direkte Eigenschaft (also eine Merkmal-ID)"1" : rekursiv ausgewertete Eigenschaft"2" : zugehör. Beschreibung der Eigenschaft (also der Merkmal-ID)
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue recursive_evaluation = 30006;</code>
+         * <code>.dstore.values.IntegerValue recursive_evaluation = 30006;</code>
          */
         public boolean hasRecursiveEvaluation() {
           return recursiveEvaluationBuilder_ != null || recursiveEvaluation_ != null;
@@ -6601,7 +6601,7 @@ public final class ImGetItemConditionPartsAd {
          * Was soll zwecks Prüfung der Bedingung zu "NodeCharacteristicID" (wenn rekursiv) gewählt werden ?"0" : direkte Eigenschaft (also eine Merkmal-ID)"1" : rekursiv ausgewertete Eigenschaft"2" : zugehör. Beschreibung der Eigenschaft (also der Merkmal-ID)
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue recursive_evaluation = 30006;</code>
+         * <code>.dstore.values.IntegerValue recursive_evaluation = 30006;</code>
          */
         public io.dstore.values.IntegerValue getRecursiveEvaluation() {
           if (recursiveEvaluationBuilder_ == null) {
@@ -6615,7 +6615,7 @@ public final class ImGetItemConditionPartsAd {
          * Was soll zwecks Prüfung der Bedingung zu "NodeCharacteristicID" (wenn rekursiv) gewählt werden ?"0" : direkte Eigenschaft (also eine Merkmal-ID)"1" : rekursiv ausgewertete Eigenschaft"2" : zugehör. Beschreibung der Eigenschaft (also der Merkmal-ID)
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue recursive_evaluation = 30006;</code>
+         * <code>.dstore.values.IntegerValue recursive_evaluation = 30006;</code>
          */
         public Builder setRecursiveEvaluation(io.dstore.values.IntegerValue value) {
           if (recursiveEvaluationBuilder_ == null) {
@@ -6635,7 +6635,7 @@ public final class ImGetItemConditionPartsAd {
          * Was soll zwecks Prüfung der Bedingung zu "NodeCharacteristicID" (wenn rekursiv) gewählt werden ?"0" : direkte Eigenschaft (also eine Merkmal-ID)"1" : rekursiv ausgewertete Eigenschaft"2" : zugehör. Beschreibung der Eigenschaft (also der Merkmal-ID)
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue recursive_evaluation = 30006;</code>
+         * <code>.dstore.values.IntegerValue recursive_evaluation = 30006;</code>
          */
         public Builder setRecursiveEvaluation(
             io.dstore.values.IntegerValue.Builder builderForValue) {
@@ -6653,7 +6653,7 @@ public final class ImGetItemConditionPartsAd {
          * Was soll zwecks Prüfung der Bedingung zu "NodeCharacteristicID" (wenn rekursiv) gewählt werden ?"0" : direkte Eigenschaft (also eine Merkmal-ID)"1" : rekursiv ausgewertete Eigenschaft"2" : zugehör. Beschreibung der Eigenschaft (also der Merkmal-ID)
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue recursive_evaluation = 30006;</code>
+         * <code>.dstore.values.IntegerValue recursive_evaluation = 30006;</code>
          */
         public Builder mergeRecursiveEvaluation(io.dstore.values.IntegerValue value) {
           if (recursiveEvaluationBuilder_ == null) {
@@ -6675,7 +6675,7 @@ public final class ImGetItemConditionPartsAd {
          * Was soll zwecks Prüfung der Bedingung zu "NodeCharacteristicID" (wenn rekursiv) gewählt werden ?"0" : direkte Eigenschaft (also eine Merkmal-ID)"1" : rekursiv ausgewertete Eigenschaft"2" : zugehör. Beschreibung der Eigenschaft (also der Merkmal-ID)
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue recursive_evaluation = 30006;</code>
+         * <code>.dstore.values.IntegerValue recursive_evaluation = 30006;</code>
          */
         public Builder clearRecursiveEvaluation() {
           if (recursiveEvaluationBuilder_ == null) {
@@ -6693,7 +6693,7 @@ public final class ImGetItemConditionPartsAd {
          * Was soll zwecks Prüfung der Bedingung zu "NodeCharacteristicID" (wenn rekursiv) gewählt werden ?"0" : direkte Eigenschaft (also eine Merkmal-ID)"1" : rekursiv ausgewertete Eigenschaft"2" : zugehör. Beschreibung der Eigenschaft (also der Merkmal-ID)
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue recursive_evaluation = 30006;</code>
+         * <code>.dstore.values.IntegerValue recursive_evaluation = 30006;</code>
          */
         public io.dstore.values.IntegerValue.Builder getRecursiveEvaluationBuilder() {
           
@@ -6705,7 +6705,7 @@ public final class ImGetItemConditionPartsAd {
          * Was soll zwecks Prüfung der Bedingung zu "NodeCharacteristicID" (wenn rekursiv) gewählt werden ?"0" : direkte Eigenschaft (also eine Merkmal-ID)"1" : rekursiv ausgewertete Eigenschaft"2" : zugehör. Beschreibung der Eigenschaft (also der Merkmal-ID)
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue recursive_evaluation = 30006;</code>
+         * <code>.dstore.values.IntegerValue recursive_evaluation = 30006;</code>
          */
         public io.dstore.values.IntegerValueOrBuilder getRecursiveEvaluationOrBuilder() {
           if (recursiveEvaluationBuilder_ != null) {
@@ -6720,7 +6720,7 @@ public final class ImGetItemConditionPartsAd {
          * Was soll zwecks Prüfung der Bedingung zu "NodeCharacteristicID" (wenn rekursiv) gewählt werden ?"0" : direkte Eigenschaft (also eine Merkmal-ID)"1" : rekursiv ausgewertete Eigenschaft"2" : zugehör. Beschreibung der Eigenschaft (also der Merkmal-ID)
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue recursive_evaluation = 30006;</code>
+         * <code>.dstore.values.IntegerValue recursive_evaluation = 30006;</code>
          */
         private com.google.protobuf.SingleFieldBuilderV3<
             io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> 
@@ -6744,7 +6744,7 @@ public final class ImGetItemConditionPartsAd {
          * Um den (Artikel-)Bedingungs-Teil "&#64;ConditionPartID" zu erfüllen, muß ein Element im Artikelbaum ein Vorgänger-Element besitzen, dessen "TreeNodeID" aus der hier angegebenen Menge von IDs kommt. Sonderfall ",," bedeutet "beliebiger Vorgänger".
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue domain_tree_node_ids = 30007;</code>
+         * <code>.dstore.values.StringValue domain_tree_node_ids = 30007;</code>
          */
         public boolean hasDomainTreeNodeIds() {
           return domainTreeNodeIdsBuilder_ != null || domainTreeNodeIds_ != null;
@@ -6754,7 +6754,7 @@ public final class ImGetItemConditionPartsAd {
          * Um den (Artikel-)Bedingungs-Teil "&#64;ConditionPartID" zu erfüllen, muß ein Element im Artikelbaum ein Vorgänger-Element besitzen, dessen "TreeNodeID" aus der hier angegebenen Menge von IDs kommt. Sonderfall ",," bedeutet "beliebiger Vorgänger".
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue domain_tree_node_ids = 30007;</code>
+         * <code>.dstore.values.StringValue domain_tree_node_ids = 30007;</code>
          */
         public io.dstore.values.StringValue getDomainTreeNodeIds() {
           if (domainTreeNodeIdsBuilder_ == null) {
@@ -6768,7 +6768,7 @@ public final class ImGetItemConditionPartsAd {
          * Um den (Artikel-)Bedingungs-Teil "&#64;ConditionPartID" zu erfüllen, muß ein Element im Artikelbaum ein Vorgänger-Element besitzen, dessen "TreeNodeID" aus der hier angegebenen Menge von IDs kommt. Sonderfall ",," bedeutet "beliebiger Vorgänger".
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue domain_tree_node_ids = 30007;</code>
+         * <code>.dstore.values.StringValue domain_tree_node_ids = 30007;</code>
          */
         public Builder setDomainTreeNodeIds(io.dstore.values.StringValue value) {
           if (domainTreeNodeIdsBuilder_ == null) {
@@ -6788,7 +6788,7 @@ public final class ImGetItemConditionPartsAd {
          * Um den (Artikel-)Bedingungs-Teil "&#64;ConditionPartID" zu erfüllen, muß ein Element im Artikelbaum ein Vorgänger-Element besitzen, dessen "TreeNodeID" aus der hier angegebenen Menge von IDs kommt. Sonderfall ",," bedeutet "beliebiger Vorgänger".
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue domain_tree_node_ids = 30007;</code>
+         * <code>.dstore.values.StringValue domain_tree_node_ids = 30007;</code>
          */
         public Builder setDomainTreeNodeIds(
             io.dstore.values.StringValue.Builder builderForValue) {
@@ -6806,7 +6806,7 @@ public final class ImGetItemConditionPartsAd {
          * Um den (Artikel-)Bedingungs-Teil "&#64;ConditionPartID" zu erfüllen, muß ein Element im Artikelbaum ein Vorgänger-Element besitzen, dessen "TreeNodeID" aus der hier angegebenen Menge von IDs kommt. Sonderfall ",," bedeutet "beliebiger Vorgänger".
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue domain_tree_node_ids = 30007;</code>
+         * <code>.dstore.values.StringValue domain_tree_node_ids = 30007;</code>
          */
         public Builder mergeDomainTreeNodeIds(io.dstore.values.StringValue value) {
           if (domainTreeNodeIdsBuilder_ == null) {
@@ -6828,7 +6828,7 @@ public final class ImGetItemConditionPartsAd {
          * Um den (Artikel-)Bedingungs-Teil "&#64;ConditionPartID" zu erfüllen, muß ein Element im Artikelbaum ein Vorgänger-Element besitzen, dessen "TreeNodeID" aus der hier angegebenen Menge von IDs kommt. Sonderfall ",," bedeutet "beliebiger Vorgänger".
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue domain_tree_node_ids = 30007;</code>
+         * <code>.dstore.values.StringValue domain_tree_node_ids = 30007;</code>
          */
         public Builder clearDomainTreeNodeIds() {
           if (domainTreeNodeIdsBuilder_ == null) {
@@ -6846,7 +6846,7 @@ public final class ImGetItemConditionPartsAd {
          * Um den (Artikel-)Bedingungs-Teil "&#64;ConditionPartID" zu erfüllen, muß ein Element im Artikelbaum ein Vorgänger-Element besitzen, dessen "TreeNodeID" aus der hier angegebenen Menge von IDs kommt. Sonderfall ",," bedeutet "beliebiger Vorgänger".
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue domain_tree_node_ids = 30007;</code>
+         * <code>.dstore.values.StringValue domain_tree_node_ids = 30007;</code>
          */
         public io.dstore.values.StringValue.Builder getDomainTreeNodeIdsBuilder() {
           
@@ -6858,7 +6858,7 @@ public final class ImGetItemConditionPartsAd {
          * Um den (Artikel-)Bedingungs-Teil "&#64;ConditionPartID" zu erfüllen, muß ein Element im Artikelbaum ein Vorgänger-Element besitzen, dessen "TreeNodeID" aus der hier angegebenen Menge von IDs kommt. Sonderfall ",," bedeutet "beliebiger Vorgänger".
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue domain_tree_node_ids = 30007;</code>
+         * <code>.dstore.values.StringValue domain_tree_node_ids = 30007;</code>
          */
         public io.dstore.values.StringValueOrBuilder getDomainTreeNodeIdsOrBuilder() {
           if (domainTreeNodeIdsBuilder_ != null) {
@@ -6873,7 +6873,7 @@ public final class ImGetItemConditionPartsAd {
          * Um den (Artikel-)Bedingungs-Teil "&#64;ConditionPartID" zu erfüllen, muß ein Element im Artikelbaum ein Vorgänger-Element besitzen, dessen "TreeNodeID" aus der hier angegebenen Menge von IDs kommt. Sonderfall ",," bedeutet "beliebiger Vorgänger".
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue domain_tree_node_ids = 30007;</code>
+         * <code>.dstore.values.StringValue domain_tree_node_ids = 30007;</code>
          */
         private com.google.protobuf.SingleFieldBuilderV3<
             io.dstore.values.StringValue, io.dstore.values.StringValue.Builder, io.dstore.values.StringValueOrBuilder> 
@@ -6897,7 +6897,7 @@ public final class ImGetItemConditionPartsAd {
          * ID eines Merkmals. Um "&#64;ConditionPartID" zu erfüllen, muß ein Element im Artikelbaum eine Eigenschaft zu diesem Merkmal besitzen, die der Bedingung ("Operator1" etc.) genügt. Sonderfall "-1" : "KEINE Eigenschafts-Bedingung" (ist also immer erfüllt).
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue node_characteristic_id = 30008;</code>
+         * <code>.dstore.values.IntegerValue node_characteristic_id = 30008;</code>
          */
         public boolean hasNodeCharacteristicId() {
           return nodeCharacteristicIdBuilder_ != null || nodeCharacteristicId_ != null;
@@ -6907,7 +6907,7 @@ public final class ImGetItemConditionPartsAd {
          * ID eines Merkmals. Um "&#64;ConditionPartID" zu erfüllen, muß ein Element im Artikelbaum eine Eigenschaft zu diesem Merkmal besitzen, die der Bedingung ("Operator1" etc.) genügt. Sonderfall "-1" : "KEINE Eigenschafts-Bedingung" (ist also immer erfüllt).
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue node_characteristic_id = 30008;</code>
+         * <code>.dstore.values.IntegerValue node_characteristic_id = 30008;</code>
          */
         public io.dstore.values.IntegerValue getNodeCharacteristicId() {
           if (nodeCharacteristicIdBuilder_ == null) {
@@ -6921,7 +6921,7 @@ public final class ImGetItemConditionPartsAd {
          * ID eines Merkmals. Um "&#64;ConditionPartID" zu erfüllen, muß ein Element im Artikelbaum eine Eigenschaft zu diesem Merkmal besitzen, die der Bedingung ("Operator1" etc.) genügt. Sonderfall "-1" : "KEINE Eigenschafts-Bedingung" (ist also immer erfüllt).
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue node_characteristic_id = 30008;</code>
+         * <code>.dstore.values.IntegerValue node_characteristic_id = 30008;</code>
          */
         public Builder setNodeCharacteristicId(io.dstore.values.IntegerValue value) {
           if (nodeCharacteristicIdBuilder_ == null) {
@@ -6941,7 +6941,7 @@ public final class ImGetItemConditionPartsAd {
          * ID eines Merkmals. Um "&#64;ConditionPartID" zu erfüllen, muß ein Element im Artikelbaum eine Eigenschaft zu diesem Merkmal besitzen, die der Bedingung ("Operator1" etc.) genügt. Sonderfall "-1" : "KEINE Eigenschafts-Bedingung" (ist also immer erfüllt).
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue node_characteristic_id = 30008;</code>
+         * <code>.dstore.values.IntegerValue node_characteristic_id = 30008;</code>
          */
         public Builder setNodeCharacteristicId(
             io.dstore.values.IntegerValue.Builder builderForValue) {
@@ -6959,7 +6959,7 @@ public final class ImGetItemConditionPartsAd {
          * ID eines Merkmals. Um "&#64;ConditionPartID" zu erfüllen, muß ein Element im Artikelbaum eine Eigenschaft zu diesem Merkmal besitzen, die der Bedingung ("Operator1" etc.) genügt. Sonderfall "-1" : "KEINE Eigenschafts-Bedingung" (ist also immer erfüllt).
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue node_characteristic_id = 30008;</code>
+         * <code>.dstore.values.IntegerValue node_characteristic_id = 30008;</code>
          */
         public Builder mergeNodeCharacteristicId(io.dstore.values.IntegerValue value) {
           if (nodeCharacteristicIdBuilder_ == null) {
@@ -6981,7 +6981,7 @@ public final class ImGetItemConditionPartsAd {
          * ID eines Merkmals. Um "&#64;ConditionPartID" zu erfüllen, muß ein Element im Artikelbaum eine Eigenschaft zu diesem Merkmal besitzen, die der Bedingung ("Operator1" etc.) genügt. Sonderfall "-1" : "KEINE Eigenschafts-Bedingung" (ist also immer erfüllt).
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue node_characteristic_id = 30008;</code>
+         * <code>.dstore.values.IntegerValue node_characteristic_id = 30008;</code>
          */
         public Builder clearNodeCharacteristicId() {
           if (nodeCharacteristicIdBuilder_ == null) {
@@ -6999,7 +6999,7 @@ public final class ImGetItemConditionPartsAd {
          * ID eines Merkmals. Um "&#64;ConditionPartID" zu erfüllen, muß ein Element im Artikelbaum eine Eigenschaft zu diesem Merkmal besitzen, die der Bedingung ("Operator1" etc.) genügt. Sonderfall "-1" : "KEINE Eigenschafts-Bedingung" (ist also immer erfüllt).
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue node_characteristic_id = 30008;</code>
+         * <code>.dstore.values.IntegerValue node_characteristic_id = 30008;</code>
          */
         public io.dstore.values.IntegerValue.Builder getNodeCharacteristicIdBuilder() {
           
@@ -7011,7 +7011,7 @@ public final class ImGetItemConditionPartsAd {
          * ID eines Merkmals. Um "&#64;ConditionPartID" zu erfüllen, muß ein Element im Artikelbaum eine Eigenschaft zu diesem Merkmal besitzen, die der Bedingung ("Operator1" etc.) genügt. Sonderfall "-1" : "KEINE Eigenschafts-Bedingung" (ist also immer erfüllt).
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue node_characteristic_id = 30008;</code>
+         * <code>.dstore.values.IntegerValue node_characteristic_id = 30008;</code>
          */
         public io.dstore.values.IntegerValueOrBuilder getNodeCharacteristicIdOrBuilder() {
           if (nodeCharacteristicIdBuilder_ != null) {
@@ -7026,7 +7026,7 @@ public final class ImGetItemConditionPartsAd {
          * ID eines Merkmals. Um "&#64;ConditionPartID" zu erfüllen, muß ein Element im Artikelbaum eine Eigenschaft zu diesem Merkmal besitzen, die der Bedingung ("Operator1" etc.) genügt. Sonderfall "-1" : "KEINE Eigenschafts-Bedingung" (ist also immer erfüllt).
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue node_characteristic_id = 30008;</code>
+         * <code>.dstore.values.IntegerValue node_characteristic_id = 30008;</code>
          */
         private com.google.protobuf.SingleFieldBuilderV3<
             io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> 
@@ -7050,7 +7050,7 @@ public final class ImGetItemConditionPartsAd {
          * Um den (Artikel-)Bedingungs-Teil "&#64;ConditionPartID" zu erfüllen, muß die Hierarchie ("LevelID") eines Artikel-Elementes aus der hier angegebenen Menge der Hierarchien ("LevelID"s) kommen. Sonderfall ",," bedeutet "beliebige Hierarchie".
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue level_ids = 30011;</code>
+         * <code>.dstore.values.StringValue level_ids = 30011;</code>
          */
         public boolean hasLevelIds() {
           return levelIdsBuilder_ != null || levelIds_ != null;
@@ -7060,7 +7060,7 @@ public final class ImGetItemConditionPartsAd {
          * Um den (Artikel-)Bedingungs-Teil "&#64;ConditionPartID" zu erfüllen, muß die Hierarchie ("LevelID") eines Artikel-Elementes aus der hier angegebenen Menge der Hierarchien ("LevelID"s) kommen. Sonderfall ",," bedeutet "beliebige Hierarchie".
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue level_ids = 30011;</code>
+         * <code>.dstore.values.StringValue level_ids = 30011;</code>
          */
         public io.dstore.values.StringValue getLevelIds() {
           if (levelIdsBuilder_ == null) {
@@ -7074,7 +7074,7 @@ public final class ImGetItemConditionPartsAd {
          * Um den (Artikel-)Bedingungs-Teil "&#64;ConditionPartID" zu erfüllen, muß die Hierarchie ("LevelID") eines Artikel-Elementes aus der hier angegebenen Menge der Hierarchien ("LevelID"s) kommen. Sonderfall ",," bedeutet "beliebige Hierarchie".
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue level_ids = 30011;</code>
+         * <code>.dstore.values.StringValue level_ids = 30011;</code>
          */
         public Builder setLevelIds(io.dstore.values.StringValue value) {
           if (levelIdsBuilder_ == null) {
@@ -7094,7 +7094,7 @@ public final class ImGetItemConditionPartsAd {
          * Um den (Artikel-)Bedingungs-Teil "&#64;ConditionPartID" zu erfüllen, muß die Hierarchie ("LevelID") eines Artikel-Elementes aus der hier angegebenen Menge der Hierarchien ("LevelID"s) kommen. Sonderfall ",," bedeutet "beliebige Hierarchie".
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue level_ids = 30011;</code>
+         * <code>.dstore.values.StringValue level_ids = 30011;</code>
          */
         public Builder setLevelIds(
             io.dstore.values.StringValue.Builder builderForValue) {
@@ -7112,7 +7112,7 @@ public final class ImGetItemConditionPartsAd {
          * Um den (Artikel-)Bedingungs-Teil "&#64;ConditionPartID" zu erfüllen, muß die Hierarchie ("LevelID") eines Artikel-Elementes aus der hier angegebenen Menge der Hierarchien ("LevelID"s) kommen. Sonderfall ",," bedeutet "beliebige Hierarchie".
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue level_ids = 30011;</code>
+         * <code>.dstore.values.StringValue level_ids = 30011;</code>
          */
         public Builder mergeLevelIds(io.dstore.values.StringValue value) {
           if (levelIdsBuilder_ == null) {
@@ -7134,7 +7134,7 @@ public final class ImGetItemConditionPartsAd {
          * Um den (Artikel-)Bedingungs-Teil "&#64;ConditionPartID" zu erfüllen, muß die Hierarchie ("LevelID") eines Artikel-Elementes aus der hier angegebenen Menge der Hierarchien ("LevelID"s) kommen. Sonderfall ",," bedeutet "beliebige Hierarchie".
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue level_ids = 30011;</code>
+         * <code>.dstore.values.StringValue level_ids = 30011;</code>
          */
         public Builder clearLevelIds() {
           if (levelIdsBuilder_ == null) {
@@ -7152,7 +7152,7 @@ public final class ImGetItemConditionPartsAd {
          * Um den (Artikel-)Bedingungs-Teil "&#64;ConditionPartID" zu erfüllen, muß die Hierarchie ("LevelID") eines Artikel-Elementes aus der hier angegebenen Menge der Hierarchien ("LevelID"s) kommen. Sonderfall ",," bedeutet "beliebige Hierarchie".
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue level_ids = 30011;</code>
+         * <code>.dstore.values.StringValue level_ids = 30011;</code>
          */
         public io.dstore.values.StringValue.Builder getLevelIdsBuilder() {
           
@@ -7164,7 +7164,7 @@ public final class ImGetItemConditionPartsAd {
          * Um den (Artikel-)Bedingungs-Teil "&#64;ConditionPartID" zu erfüllen, muß die Hierarchie ("LevelID") eines Artikel-Elementes aus der hier angegebenen Menge der Hierarchien ("LevelID"s) kommen. Sonderfall ",," bedeutet "beliebige Hierarchie".
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue level_ids = 30011;</code>
+         * <code>.dstore.values.StringValue level_ids = 30011;</code>
          */
         public io.dstore.values.StringValueOrBuilder getLevelIdsOrBuilder() {
           if (levelIdsBuilder_ != null) {
@@ -7179,7 +7179,7 @@ public final class ImGetItemConditionPartsAd {
          * Um den (Artikel-)Bedingungs-Teil "&#64;ConditionPartID" zu erfüllen, muß die Hierarchie ("LevelID") eines Artikel-Elementes aus der hier angegebenen Menge der Hierarchien ("LevelID"s) kommen. Sonderfall ",," bedeutet "beliebige Hierarchie".
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue level_ids = 30011;</code>
+         * <code>.dstore.values.StringValue level_ids = 30011;</code>
          */
         private com.google.protobuf.SingleFieldBuilderV3<
             io.dstore.values.StringValue, io.dstore.values.StringValue.Builder, io.dstore.values.StringValueOrBuilder> 
@@ -7203,7 +7203,7 @@ public final class ImGetItemConditionPartsAd {
          * Welche Eigenschaften zu "NodeCharacteristicID" hinsichtlich Vererbung sollen bei Prüfung der Eigenschafts-Bedingung beachtet werden :"-1" : Alle"0" : unvererbte"1" : direkte u. einfach geerbte"2" : direkte u. einfach oder zweifach geerbteusw.
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue inherit_depth = 30014;</code>
+         * <code>.dstore.values.IntegerValue inherit_depth = 30014;</code>
          */
         public boolean hasInheritDepth() {
           return inheritDepthBuilder_ != null || inheritDepth_ != null;
@@ -7213,7 +7213,7 @@ public final class ImGetItemConditionPartsAd {
          * Welche Eigenschaften zu "NodeCharacteristicID" hinsichtlich Vererbung sollen bei Prüfung der Eigenschafts-Bedingung beachtet werden :"-1" : Alle"0" : unvererbte"1" : direkte u. einfach geerbte"2" : direkte u. einfach oder zweifach geerbteusw.
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue inherit_depth = 30014;</code>
+         * <code>.dstore.values.IntegerValue inherit_depth = 30014;</code>
          */
         public io.dstore.values.IntegerValue getInheritDepth() {
           if (inheritDepthBuilder_ == null) {
@@ -7227,7 +7227,7 @@ public final class ImGetItemConditionPartsAd {
          * Welche Eigenschaften zu "NodeCharacteristicID" hinsichtlich Vererbung sollen bei Prüfung der Eigenschafts-Bedingung beachtet werden :"-1" : Alle"0" : unvererbte"1" : direkte u. einfach geerbte"2" : direkte u. einfach oder zweifach geerbteusw.
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue inherit_depth = 30014;</code>
+         * <code>.dstore.values.IntegerValue inherit_depth = 30014;</code>
          */
         public Builder setInheritDepth(io.dstore.values.IntegerValue value) {
           if (inheritDepthBuilder_ == null) {
@@ -7247,7 +7247,7 @@ public final class ImGetItemConditionPartsAd {
          * Welche Eigenschaften zu "NodeCharacteristicID" hinsichtlich Vererbung sollen bei Prüfung der Eigenschafts-Bedingung beachtet werden :"-1" : Alle"0" : unvererbte"1" : direkte u. einfach geerbte"2" : direkte u. einfach oder zweifach geerbteusw.
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue inherit_depth = 30014;</code>
+         * <code>.dstore.values.IntegerValue inherit_depth = 30014;</code>
          */
         public Builder setInheritDepth(
             io.dstore.values.IntegerValue.Builder builderForValue) {
@@ -7265,7 +7265,7 @@ public final class ImGetItemConditionPartsAd {
          * Welche Eigenschaften zu "NodeCharacteristicID" hinsichtlich Vererbung sollen bei Prüfung der Eigenschafts-Bedingung beachtet werden :"-1" : Alle"0" : unvererbte"1" : direkte u. einfach geerbte"2" : direkte u. einfach oder zweifach geerbteusw.
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue inherit_depth = 30014;</code>
+         * <code>.dstore.values.IntegerValue inherit_depth = 30014;</code>
          */
         public Builder mergeInheritDepth(io.dstore.values.IntegerValue value) {
           if (inheritDepthBuilder_ == null) {
@@ -7287,7 +7287,7 @@ public final class ImGetItemConditionPartsAd {
          * Welche Eigenschaften zu "NodeCharacteristicID" hinsichtlich Vererbung sollen bei Prüfung der Eigenschafts-Bedingung beachtet werden :"-1" : Alle"0" : unvererbte"1" : direkte u. einfach geerbte"2" : direkte u. einfach oder zweifach geerbteusw.
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue inherit_depth = 30014;</code>
+         * <code>.dstore.values.IntegerValue inherit_depth = 30014;</code>
          */
         public Builder clearInheritDepth() {
           if (inheritDepthBuilder_ == null) {
@@ -7305,7 +7305,7 @@ public final class ImGetItemConditionPartsAd {
          * Welche Eigenschaften zu "NodeCharacteristicID" hinsichtlich Vererbung sollen bei Prüfung der Eigenschafts-Bedingung beachtet werden :"-1" : Alle"0" : unvererbte"1" : direkte u. einfach geerbte"2" : direkte u. einfach oder zweifach geerbteusw.
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue inherit_depth = 30014;</code>
+         * <code>.dstore.values.IntegerValue inherit_depth = 30014;</code>
          */
         public io.dstore.values.IntegerValue.Builder getInheritDepthBuilder() {
           
@@ -7317,7 +7317,7 @@ public final class ImGetItemConditionPartsAd {
          * Welche Eigenschaften zu "NodeCharacteristicID" hinsichtlich Vererbung sollen bei Prüfung der Eigenschafts-Bedingung beachtet werden :"-1" : Alle"0" : unvererbte"1" : direkte u. einfach geerbte"2" : direkte u. einfach oder zweifach geerbteusw.
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue inherit_depth = 30014;</code>
+         * <code>.dstore.values.IntegerValue inherit_depth = 30014;</code>
          */
         public io.dstore.values.IntegerValueOrBuilder getInheritDepthOrBuilder() {
           if (inheritDepthBuilder_ != null) {
@@ -7332,7 +7332,7 @@ public final class ImGetItemConditionPartsAd {
          * Welche Eigenschaften zu "NodeCharacteristicID" hinsichtlich Vererbung sollen bei Prüfung der Eigenschafts-Bedingung beachtet werden :"-1" : Alle"0" : unvererbte"1" : direkte u. einfach geerbte"2" : direkte u. einfach oder zweifach geerbteusw.
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue inherit_depth = 30014;</code>
+         * <code>.dstore.values.IntegerValue inherit_depth = 30014;</code>
          */
         private com.google.protobuf.SingleFieldBuilderV3<
             io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> 
@@ -7592,7 +7592,7 @@ public final class ImGetItemConditionPartsAd {
         return memoizedHashCode;
       }
       int hash = 41;
-      hash = (19 * hash) + getDescriptorForType().hashCode();
+      hash = (19 * hash) + getDescriptor().hashCode();
       if (getMetaInformationCount() > 0) {
         hash = (37 * hash) + META_INFORMATION_FIELD_NUMBER;
         hash = (53 * hash) + getMetaInformationList().hashCode();

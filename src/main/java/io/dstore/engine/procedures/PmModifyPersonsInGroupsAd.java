@@ -19,56 +19,56 @@ public final class PmModifyPersonsInGroupsAd {
       com.google.protobuf.MessageOrBuilder {
 
     /**
-     * <code>optional .dstore.values.IntegerValue person_id = 1;</code>
+     * <code>.dstore.values.IntegerValue person_id = 1;</code>
      */
     boolean hasPersonId();
     /**
-     * <code>optional .dstore.values.IntegerValue person_id = 1;</code>
+     * <code>.dstore.values.IntegerValue person_id = 1;</code>
      */
     io.dstore.values.IntegerValue getPersonId();
     /**
-     * <code>optional .dstore.values.IntegerValue person_id = 1;</code>
+     * <code>.dstore.values.IntegerValue person_id = 1;</code>
      */
     io.dstore.values.IntegerValueOrBuilder getPersonIdOrBuilder();
 
     /**
-     * <code>optional bool person_id_null = 1001;</code>
+     * <code>bool person_id_null = 1001;</code>
      */
     boolean getPersonIdNull();
 
     /**
-     * <code>optional .dstore.values.IntegerValue group_id = 2;</code>
+     * <code>.dstore.values.IntegerValue group_id = 2;</code>
      */
     boolean hasGroupId();
     /**
-     * <code>optional .dstore.values.IntegerValue group_id = 2;</code>
+     * <code>.dstore.values.IntegerValue group_id = 2;</code>
      */
     io.dstore.values.IntegerValue getGroupId();
     /**
-     * <code>optional .dstore.values.IntegerValue group_id = 2;</code>
+     * <code>.dstore.values.IntegerValue group_id = 2;</code>
      */
     io.dstore.values.IntegerValueOrBuilder getGroupIdOrBuilder();
 
     /**
-     * <code>optional bool group_id_null = 1002;</code>
+     * <code>bool group_id_null = 1002;</code>
      */
     boolean getGroupIdNull();
 
     /**
-     * <code>optional .dstore.values.BooleanValue revoke = 3;</code>
+     * <code>.dstore.values.BooleanValue revoke = 3;</code>
      */
     boolean hasRevoke();
     /**
-     * <code>optional .dstore.values.BooleanValue revoke = 3;</code>
+     * <code>.dstore.values.BooleanValue revoke = 3;</code>
      */
     io.dstore.values.BooleanValue getRevoke();
     /**
-     * <code>optional .dstore.values.BooleanValue revoke = 3;</code>
+     * <code>.dstore.values.BooleanValue revoke = 3;</code>
      */
     io.dstore.values.BooleanValueOrBuilder getRevokeOrBuilder();
 
     /**
-     * <code>optional bool revoke_null = 1003;</code>
+     * <code>bool revoke_null = 1003;</code>
      */
     boolean getRevokeNull();
   }
@@ -194,19 +194,19 @@ public final class PmModifyPersonsInGroupsAd {
     public static final int PERSON_ID_FIELD_NUMBER = 1;
     private io.dstore.values.IntegerValue personId_;
     /**
-     * <code>optional .dstore.values.IntegerValue person_id = 1;</code>
+     * <code>.dstore.values.IntegerValue person_id = 1;</code>
      */
     public boolean hasPersonId() {
       return personId_ != null;
     }
     /**
-     * <code>optional .dstore.values.IntegerValue person_id = 1;</code>
+     * <code>.dstore.values.IntegerValue person_id = 1;</code>
      */
     public io.dstore.values.IntegerValue getPersonId() {
       return personId_ == null ? io.dstore.values.IntegerValue.getDefaultInstance() : personId_;
     }
     /**
-     * <code>optional .dstore.values.IntegerValue person_id = 1;</code>
+     * <code>.dstore.values.IntegerValue person_id = 1;</code>
      */
     public io.dstore.values.IntegerValueOrBuilder getPersonIdOrBuilder() {
       return getPersonId();
@@ -215,7 +215,7 @@ public final class PmModifyPersonsInGroupsAd {
     public static final int PERSON_ID_NULL_FIELD_NUMBER = 1001;
     private boolean personIdNull_;
     /**
-     * <code>optional bool person_id_null = 1001;</code>
+     * <code>bool person_id_null = 1001;</code>
      */
     public boolean getPersonIdNull() {
       return personIdNull_;
@@ -224,19 +224,19 @@ public final class PmModifyPersonsInGroupsAd {
     public static final int GROUP_ID_FIELD_NUMBER = 2;
     private io.dstore.values.IntegerValue groupId_;
     /**
-     * <code>optional .dstore.values.IntegerValue group_id = 2;</code>
+     * <code>.dstore.values.IntegerValue group_id = 2;</code>
      */
     public boolean hasGroupId() {
       return groupId_ != null;
     }
     /**
-     * <code>optional .dstore.values.IntegerValue group_id = 2;</code>
+     * <code>.dstore.values.IntegerValue group_id = 2;</code>
      */
     public io.dstore.values.IntegerValue getGroupId() {
       return groupId_ == null ? io.dstore.values.IntegerValue.getDefaultInstance() : groupId_;
     }
     /**
-     * <code>optional .dstore.values.IntegerValue group_id = 2;</code>
+     * <code>.dstore.values.IntegerValue group_id = 2;</code>
      */
     public io.dstore.values.IntegerValueOrBuilder getGroupIdOrBuilder() {
       return getGroupId();
@@ -245,7 +245,7 @@ public final class PmModifyPersonsInGroupsAd {
     public static final int GROUP_ID_NULL_FIELD_NUMBER = 1002;
     private boolean groupIdNull_;
     /**
-     * <code>optional bool group_id_null = 1002;</code>
+     * <code>bool group_id_null = 1002;</code>
      */
     public boolean getGroupIdNull() {
       return groupIdNull_;
@@ -254,19 +254,19 @@ public final class PmModifyPersonsInGroupsAd {
     public static final int REVOKE_FIELD_NUMBER = 3;
     private io.dstore.values.BooleanValue revoke_;
     /**
-     * <code>optional .dstore.values.BooleanValue revoke = 3;</code>
+     * <code>.dstore.values.BooleanValue revoke = 3;</code>
      */
     public boolean hasRevoke() {
       return revoke_ != null;
     }
     /**
-     * <code>optional .dstore.values.BooleanValue revoke = 3;</code>
+     * <code>.dstore.values.BooleanValue revoke = 3;</code>
      */
     public io.dstore.values.BooleanValue getRevoke() {
       return revoke_ == null ? io.dstore.values.BooleanValue.getDefaultInstance() : revoke_;
     }
     /**
-     * <code>optional .dstore.values.BooleanValue revoke = 3;</code>
+     * <code>.dstore.values.BooleanValue revoke = 3;</code>
      */
     public io.dstore.values.BooleanValueOrBuilder getRevokeOrBuilder() {
       return getRevoke();
@@ -275,7 +275,7 @@ public final class PmModifyPersonsInGroupsAd {
     public static final int REVOKE_NULL_FIELD_NUMBER = 1003;
     private boolean revokeNull_;
     /**
-     * <code>optional bool revoke_null = 1003;</code>
+     * <code>bool revoke_null = 1003;</code>
      */
     public boolean getRevokeNull() {
       return revokeNull_;
@@ -388,7 +388,7 @@ public final class PmModifyPersonsInGroupsAd {
         return memoizedHashCode;
       }
       int hash = 41;
-      hash = (19 * hash) + getDescriptorForType().hashCode();
+      hash = (19 * hash) + getDescriptor().hashCode();
       if (hasPersonId()) {
         hash = (37 * hash) + PERSON_ID_FIELD_NUMBER;
         hash = (53 * hash) + getPersonId().hashCode();
@@ -681,13 +681,13 @@ public final class PmModifyPersonsInGroupsAd {
       private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> personIdBuilder_;
       /**
-       * <code>optional .dstore.values.IntegerValue person_id = 1;</code>
+       * <code>.dstore.values.IntegerValue person_id = 1;</code>
        */
       public boolean hasPersonId() {
         return personIdBuilder_ != null || personId_ != null;
       }
       /**
-       * <code>optional .dstore.values.IntegerValue person_id = 1;</code>
+       * <code>.dstore.values.IntegerValue person_id = 1;</code>
        */
       public io.dstore.values.IntegerValue getPersonId() {
         if (personIdBuilder_ == null) {
@@ -697,7 +697,7 @@ public final class PmModifyPersonsInGroupsAd {
         }
       }
       /**
-       * <code>optional .dstore.values.IntegerValue person_id = 1;</code>
+       * <code>.dstore.values.IntegerValue person_id = 1;</code>
        */
       public Builder setPersonId(io.dstore.values.IntegerValue value) {
         if (personIdBuilder_ == null) {
@@ -713,7 +713,7 @@ public final class PmModifyPersonsInGroupsAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.IntegerValue person_id = 1;</code>
+       * <code>.dstore.values.IntegerValue person_id = 1;</code>
        */
       public Builder setPersonId(
           io.dstore.values.IntegerValue.Builder builderForValue) {
@@ -727,7 +727,7 @@ public final class PmModifyPersonsInGroupsAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.IntegerValue person_id = 1;</code>
+       * <code>.dstore.values.IntegerValue person_id = 1;</code>
        */
       public Builder mergePersonId(io.dstore.values.IntegerValue value) {
         if (personIdBuilder_ == null) {
@@ -745,7 +745,7 @@ public final class PmModifyPersonsInGroupsAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.IntegerValue person_id = 1;</code>
+       * <code>.dstore.values.IntegerValue person_id = 1;</code>
        */
       public Builder clearPersonId() {
         if (personIdBuilder_ == null) {
@@ -759,7 +759,7 @@ public final class PmModifyPersonsInGroupsAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.IntegerValue person_id = 1;</code>
+       * <code>.dstore.values.IntegerValue person_id = 1;</code>
        */
       public io.dstore.values.IntegerValue.Builder getPersonIdBuilder() {
         
@@ -767,7 +767,7 @@ public final class PmModifyPersonsInGroupsAd {
         return getPersonIdFieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .dstore.values.IntegerValue person_id = 1;</code>
+       * <code>.dstore.values.IntegerValue person_id = 1;</code>
        */
       public io.dstore.values.IntegerValueOrBuilder getPersonIdOrBuilder() {
         if (personIdBuilder_ != null) {
@@ -778,7 +778,7 @@ public final class PmModifyPersonsInGroupsAd {
         }
       }
       /**
-       * <code>optional .dstore.values.IntegerValue person_id = 1;</code>
+       * <code>.dstore.values.IntegerValue person_id = 1;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> 
@@ -796,13 +796,13 @@ public final class PmModifyPersonsInGroupsAd {
 
       private boolean personIdNull_ ;
       /**
-       * <code>optional bool person_id_null = 1001;</code>
+       * <code>bool person_id_null = 1001;</code>
        */
       public boolean getPersonIdNull() {
         return personIdNull_;
       }
       /**
-       * <code>optional bool person_id_null = 1001;</code>
+       * <code>bool person_id_null = 1001;</code>
        */
       public Builder setPersonIdNull(boolean value) {
         
@@ -811,7 +811,7 @@ public final class PmModifyPersonsInGroupsAd {
         return this;
       }
       /**
-       * <code>optional bool person_id_null = 1001;</code>
+       * <code>bool person_id_null = 1001;</code>
        */
       public Builder clearPersonIdNull() {
         
@@ -824,13 +824,13 @@ public final class PmModifyPersonsInGroupsAd {
       private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> groupIdBuilder_;
       /**
-       * <code>optional .dstore.values.IntegerValue group_id = 2;</code>
+       * <code>.dstore.values.IntegerValue group_id = 2;</code>
        */
       public boolean hasGroupId() {
         return groupIdBuilder_ != null || groupId_ != null;
       }
       /**
-       * <code>optional .dstore.values.IntegerValue group_id = 2;</code>
+       * <code>.dstore.values.IntegerValue group_id = 2;</code>
        */
       public io.dstore.values.IntegerValue getGroupId() {
         if (groupIdBuilder_ == null) {
@@ -840,7 +840,7 @@ public final class PmModifyPersonsInGroupsAd {
         }
       }
       /**
-       * <code>optional .dstore.values.IntegerValue group_id = 2;</code>
+       * <code>.dstore.values.IntegerValue group_id = 2;</code>
        */
       public Builder setGroupId(io.dstore.values.IntegerValue value) {
         if (groupIdBuilder_ == null) {
@@ -856,7 +856,7 @@ public final class PmModifyPersonsInGroupsAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.IntegerValue group_id = 2;</code>
+       * <code>.dstore.values.IntegerValue group_id = 2;</code>
        */
       public Builder setGroupId(
           io.dstore.values.IntegerValue.Builder builderForValue) {
@@ -870,7 +870,7 @@ public final class PmModifyPersonsInGroupsAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.IntegerValue group_id = 2;</code>
+       * <code>.dstore.values.IntegerValue group_id = 2;</code>
        */
       public Builder mergeGroupId(io.dstore.values.IntegerValue value) {
         if (groupIdBuilder_ == null) {
@@ -888,7 +888,7 @@ public final class PmModifyPersonsInGroupsAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.IntegerValue group_id = 2;</code>
+       * <code>.dstore.values.IntegerValue group_id = 2;</code>
        */
       public Builder clearGroupId() {
         if (groupIdBuilder_ == null) {
@@ -902,7 +902,7 @@ public final class PmModifyPersonsInGroupsAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.IntegerValue group_id = 2;</code>
+       * <code>.dstore.values.IntegerValue group_id = 2;</code>
        */
       public io.dstore.values.IntegerValue.Builder getGroupIdBuilder() {
         
@@ -910,7 +910,7 @@ public final class PmModifyPersonsInGroupsAd {
         return getGroupIdFieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .dstore.values.IntegerValue group_id = 2;</code>
+       * <code>.dstore.values.IntegerValue group_id = 2;</code>
        */
       public io.dstore.values.IntegerValueOrBuilder getGroupIdOrBuilder() {
         if (groupIdBuilder_ != null) {
@@ -921,7 +921,7 @@ public final class PmModifyPersonsInGroupsAd {
         }
       }
       /**
-       * <code>optional .dstore.values.IntegerValue group_id = 2;</code>
+       * <code>.dstore.values.IntegerValue group_id = 2;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> 
@@ -939,13 +939,13 @@ public final class PmModifyPersonsInGroupsAd {
 
       private boolean groupIdNull_ ;
       /**
-       * <code>optional bool group_id_null = 1002;</code>
+       * <code>bool group_id_null = 1002;</code>
        */
       public boolean getGroupIdNull() {
         return groupIdNull_;
       }
       /**
-       * <code>optional bool group_id_null = 1002;</code>
+       * <code>bool group_id_null = 1002;</code>
        */
       public Builder setGroupIdNull(boolean value) {
         
@@ -954,7 +954,7 @@ public final class PmModifyPersonsInGroupsAd {
         return this;
       }
       /**
-       * <code>optional bool group_id_null = 1002;</code>
+       * <code>bool group_id_null = 1002;</code>
        */
       public Builder clearGroupIdNull() {
         
@@ -967,13 +967,13 @@ public final class PmModifyPersonsInGroupsAd {
       private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.values.BooleanValue, io.dstore.values.BooleanValue.Builder, io.dstore.values.BooleanValueOrBuilder> revokeBuilder_;
       /**
-       * <code>optional .dstore.values.BooleanValue revoke = 3;</code>
+       * <code>.dstore.values.BooleanValue revoke = 3;</code>
        */
       public boolean hasRevoke() {
         return revokeBuilder_ != null || revoke_ != null;
       }
       /**
-       * <code>optional .dstore.values.BooleanValue revoke = 3;</code>
+       * <code>.dstore.values.BooleanValue revoke = 3;</code>
        */
       public io.dstore.values.BooleanValue getRevoke() {
         if (revokeBuilder_ == null) {
@@ -983,7 +983,7 @@ public final class PmModifyPersonsInGroupsAd {
         }
       }
       /**
-       * <code>optional .dstore.values.BooleanValue revoke = 3;</code>
+       * <code>.dstore.values.BooleanValue revoke = 3;</code>
        */
       public Builder setRevoke(io.dstore.values.BooleanValue value) {
         if (revokeBuilder_ == null) {
@@ -999,7 +999,7 @@ public final class PmModifyPersonsInGroupsAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.BooleanValue revoke = 3;</code>
+       * <code>.dstore.values.BooleanValue revoke = 3;</code>
        */
       public Builder setRevoke(
           io.dstore.values.BooleanValue.Builder builderForValue) {
@@ -1013,7 +1013,7 @@ public final class PmModifyPersonsInGroupsAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.BooleanValue revoke = 3;</code>
+       * <code>.dstore.values.BooleanValue revoke = 3;</code>
        */
       public Builder mergeRevoke(io.dstore.values.BooleanValue value) {
         if (revokeBuilder_ == null) {
@@ -1031,7 +1031,7 @@ public final class PmModifyPersonsInGroupsAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.BooleanValue revoke = 3;</code>
+       * <code>.dstore.values.BooleanValue revoke = 3;</code>
        */
       public Builder clearRevoke() {
         if (revokeBuilder_ == null) {
@@ -1045,7 +1045,7 @@ public final class PmModifyPersonsInGroupsAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.BooleanValue revoke = 3;</code>
+       * <code>.dstore.values.BooleanValue revoke = 3;</code>
        */
       public io.dstore.values.BooleanValue.Builder getRevokeBuilder() {
         
@@ -1053,7 +1053,7 @@ public final class PmModifyPersonsInGroupsAd {
         return getRevokeFieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .dstore.values.BooleanValue revoke = 3;</code>
+       * <code>.dstore.values.BooleanValue revoke = 3;</code>
        */
       public io.dstore.values.BooleanValueOrBuilder getRevokeOrBuilder() {
         if (revokeBuilder_ != null) {
@@ -1064,7 +1064,7 @@ public final class PmModifyPersonsInGroupsAd {
         }
       }
       /**
-       * <code>optional .dstore.values.BooleanValue revoke = 3;</code>
+       * <code>.dstore.values.BooleanValue revoke = 3;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.values.BooleanValue, io.dstore.values.BooleanValue.Builder, io.dstore.values.BooleanValueOrBuilder> 
@@ -1082,13 +1082,13 @@ public final class PmModifyPersonsInGroupsAd {
 
       private boolean revokeNull_ ;
       /**
-       * <code>optional bool revoke_null = 1003;</code>
+       * <code>bool revoke_null = 1003;</code>
        */
       public boolean getRevokeNull() {
         return revokeNull_;
       }
       /**
-       * <code>optional bool revoke_null = 1003;</code>
+       * <code>bool revoke_null = 1003;</code>
        */
       public Builder setRevokeNull(boolean value) {
         
@@ -1097,7 +1097,7 @@ public final class PmModifyPersonsInGroupsAd {
         return this;
       }
       /**
-       * <code>optional bool revoke_null = 1003;</code>
+       * <code>bool revoke_null = 1003;</code>
        */
       public Builder clearRevokeNull() {
         
@@ -1356,7 +1356,7 @@ public final class PmModifyPersonsInGroupsAd {
         com.google.protobuf.MessageOrBuilder {
 
       /**
-       * <code>optional int32 row_id = 10000;</code>
+       * <code>int32 row_id = 10000;</code>
        */
       int getRowId();
     }
@@ -1431,7 +1431,7 @@ public final class PmModifyPersonsInGroupsAd {
       public static final int ROW_ID_FIELD_NUMBER = 10000;
       private int rowId_;
       /**
-       * <code>optional int32 row_id = 10000;</code>
+       * <code>int32 row_id = 10000;</code>
        */
       public int getRowId() {
         return rowId_;
@@ -1490,7 +1490,7 @@ public final class PmModifyPersonsInGroupsAd {
           return memoizedHashCode;
         }
         int hash = 41;
-        hash = (19 * hash) + getDescriptorForType().hashCode();
+        hash = (19 * hash) + getDescriptor().hashCode();
         hash = (37 * hash) + ROW_ID_FIELD_NUMBER;
         hash = (53 * hash) + getRowId();
         hash = (29 * hash) + unknownFields.hashCode();
@@ -1708,13 +1708,13 @@ public final class PmModifyPersonsInGroupsAd {
 
         private int rowId_ ;
         /**
-         * <code>optional int32 row_id = 10000;</code>
+         * <code>int32 row_id = 10000;</code>
          */
         public int getRowId() {
           return rowId_;
         }
         /**
-         * <code>optional int32 row_id = 10000;</code>
+         * <code>int32 row_id = 10000;</code>
          */
         public Builder setRowId(int value) {
           
@@ -1723,7 +1723,7 @@ public final class PmModifyPersonsInGroupsAd {
           return this;
         }
         /**
-         * <code>optional int32 row_id = 10000;</code>
+         * <code>int32 row_id = 10000;</code>
          */
         public Builder clearRowId() {
           
@@ -1976,7 +1976,7 @@ public final class PmModifyPersonsInGroupsAd {
         return memoizedHashCode;
       }
       int hash = 41;
-      hash = (19 * hash) + getDescriptorForType().hashCode();
+      hash = (19 * hash) + getDescriptor().hashCode();
       if (getMetaInformationCount() > 0) {
         hash = (37 * hash) + META_INFORMATION_FIELD_NUMBER;
         hash = (53 * hash) + getMetaInformationList().hashCode();

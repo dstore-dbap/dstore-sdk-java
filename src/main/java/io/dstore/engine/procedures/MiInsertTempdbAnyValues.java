@@ -19,92 +19,92 @@ public final class MiInsertTempdbAnyValues {
       com.google.protobuf.MessageOrBuilder {
 
     /**
-     * <code>optional .dstore.values.StringValue id_list = 1;</code>
+     * <code>.dstore.values.StringValue id_list = 1;</code>
      */
     boolean hasIdList();
     /**
-     * <code>optional .dstore.values.StringValue id_list = 1;</code>
+     * <code>.dstore.values.StringValue id_list = 1;</code>
      */
     io.dstore.values.StringValue getIdList();
     /**
-     * <code>optional .dstore.values.StringValue id_list = 1;</code>
+     * <code>.dstore.values.StringValue id_list = 1;</code>
      */
     io.dstore.values.StringValueOrBuilder getIdListOrBuilder();
 
     /**
-     * <code>optional bool id_list_null = 1001;</code>
+     * <code>bool id_list_null = 1001;</code>
      */
     boolean getIdListNull();
 
     /**
-     * <code>optional .dstore.values.StringValue value_list = 2;</code>
+     * <code>.dstore.values.StringValue value_list = 2;</code>
      */
     boolean hasValueList();
     /**
-     * <code>optional .dstore.values.StringValue value_list = 2;</code>
+     * <code>.dstore.values.StringValue value_list = 2;</code>
      */
     io.dstore.values.StringValue getValueList();
     /**
-     * <code>optional .dstore.values.StringValue value_list = 2;</code>
+     * <code>.dstore.values.StringValue value_list = 2;</code>
      */
     io.dstore.values.StringValueOrBuilder getValueListOrBuilder();
 
     /**
-     * <code>optional bool value_list_null = 1002;</code>
+     * <code>bool value_list_null = 1002;</code>
      */
     boolean getValueListNull();
 
     /**
-     * <code>optional .dstore.values.BooleanValue delete = 3;</code>
+     * <code>.dstore.values.BooleanValue delete = 3;</code>
      */
     boolean hasDelete();
     /**
-     * <code>optional .dstore.values.BooleanValue delete = 3;</code>
+     * <code>.dstore.values.BooleanValue delete = 3;</code>
      */
     io.dstore.values.BooleanValue getDelete();
     /**
-     * <code>optional .dstore.values.BooleanValue delete = 3;</code>
+     * <code>.dstore.values.BooleanValue delete = 3;</code>
      */
     io.dstore.values.BooleanValueOrBuilder getDeleteOrBuilder();
 
     /**
-     * <code>optional bool delete_null = 1003;</code>
+     * <code>bool delete_null = 1003;</code>
      */
     boolean getDeleteNull();
 
     /**
-     * <code>optional .dstore.values.StringValue separator = 4;</code>
+     * <code>.dstore.values.StringValue separator = 4;</code>
      */
     boolean hasSeparator();
     /**
-     * <code>optional .dstore.values.StringValue separator = 4;</code>
+     * <code>.dstore.values.StringValue separator = 4;</code>
      */
     io.dstore.values.StringValue getSeparator();
     /**
-     * <code>optional .dstore.values.StringValue separator = 4;</code>
+     * <code>.dstore.values.StringValue separator = 4;</code>
      */
     io.dstore.values.StringValueOrBuilder getSeparatorOrBuilder();
 
     /**
-     * <code>optional bool separator_null = 1004;</code>
+     * <code>bool separator_null = 1004;</code>
      */
     boolean getSeparatorNull();
 
     /**
-     * <code>optional .dstore.values.BooleanValue check_byte_length_for_strings = 5;</code>
+     * <code>.dstore.values.BooleanValue check_byte_length_for_strings = 5;</code>
      */
     boolean hasCheckByteLengthForStrings();
     /**
-     * <code>optional .dstore.values.BooleanValue check_byte_length_for_strings = 5;</code>
+     * <code>.dstore.values.BooleanValue check_byte_length_for_strings = 5;</code>
      */
     io.dstore.values.BooleanValue getCheckByteLengthForStrings();
     /**
-     * <code>optional .dstore.values.BooleanValue check_byte_length_for_strings = 5;</code>
+     * <code>.dstore.values.BooleanValue check_byte_length_for_strings = 5;</code>
      */
     io.dstore.values.BooleanValueOrBuilder getCheckByteLengthForStringsOrBuilder();
 
     /**
-     * <code>optional bool check_byte_length_for_strings_null = 1005;</code>
+     * <code>bool check_byte_length_for_strings_null = 1005;</code>
      */
     boolean getCheckByteLengthForStringsNull();
   }
@@ -268,19 +268,19 @@ public final class MiInsertTempdbAnyValues {
     public static final int ID_LIST_FIELD_NUMBER = 1;
     private io.dstore.values.StringValue idList_;
     /**
-     * <code>optional .dstore.values.StringValue id_list = 1;</code>
+     * <code>.dstore.values.StringValue id_list = 1;</code>
      */
     public boolean hasIdList() {
       return idList_ != null;
     }
     /**
-     * <code>optional .dstore.values.StringValue id_list = 1;</code>
+     * <code>.dstore.values.StringValue id_list = 1;</code>
      */
     public io.dstore.values.StringValue getIdList() {
       return idList_ == null ? io.dstore.values.StringValue.getDefaultInstance() : idList_;
     }
     /**
-     * <code>optional .dstore.values.StringValue id_list = 1;</code>
+     * <code>.dstore.values.StringValue id_list = 1;</code>
      */
     public io.dstore.values.StringValueOrBuilder getIdListOrBuilder() {
       return getIdList();
@@ -289,7 +289,7 @@ public final class MiInsertTempdbAnyValues {
     public static final int ID_LIST_NULL_FIELD_NUMBER = 1001;
     private boolean idListNull_;
     /**
-     * <code>optional bool id_list_null = 1001;</code>
+     * <code>bool id_list_null = 1001;</code>
      */
     public boolean getIdListNull() {
       return idListNull_;
@@ -298,19 +298,19 @@ public final class MiInsertTempdbAnyValues {
     public static final int VALUE_LIST_FIELD_NUMBER = 2;
     private io.dstore.values.StringValue valueList_;
     /**
-     * <code>optional .dstore.values.StringValue value_list = 2;</code>
+     * <code>.dstore.values.StringValue value_list = 2;</code>
      */
     public boolean hasValueList() {
       return valueList_ != null;
     }
     /**
-     * <code>optional .dstore.values.StringValue value_list = 2;</code>
+     * <code>.dstore.values.StringValue value_list = 2;</code>
      */
     public io.dstore.values.StringValue getValueList() {
       return valueList_ == null ? io.dstore.values.StringValue.getDefaultInstance() : valueList_;
     }
     /**
-     * <code>optional .dstore.values.StringValue value_list = 2;</code>
+     * <code>.dstore.values.StringValue value_list = 2;</code>
      */
     public io.dstore.values.StringValueOrBuilder getValueListOrBuilder() {
       return getValueList();
@@ -319,7 +319,7 @@ public final class MiInsertTempdbAnyValues {
     public static final int VALUE_LIST_NULL_FIELD_NUMBER = 1002;
     private boolean valueListNull_;
     /**
-     * <code>optional bool value_list_null = 1002;</code>
+     * <code>bool value_list_null = 1002;</code>
      */
     public boolean getValueListNull() {
       return valueListNull_;
@@ -328,19 +328,19 @@ public final class MiInsertTempdbAnyValues {
     public static final int DELETE_FIELD_NUMBER = 3;
     private io.dstore.values.BooleanValue delete_;
     /**
-     * <code>optional .dstore.values.BooleanValue delete = 3;</code>
+     * <code>.dstore.values.BooleanValue delete = 3;</code>
      */
     public boolean hasDelete() {
       return delete_ != null;
     }
     /**
-     * <code>optional .dstore.values.BooleanValue delete = 3;</code>
+     * <code>.dstore.values.BooleanValue delete = 3;</code>
      */
     public io.dstore.values.BooleanValue getDelete() {
       return delete_ == null ? io.dstore.values.BooleanValue.getDefaultInstance() : delete_;
     }
     /**
-     * <code>optional .dstore.values.BooleanValue delete = 3;</code>
+     * <code>.dstore.values.BooleanValue delete = 3;</code>
      */
     public io.dstore.values.BooleanValueOrBuilder getDeleteOrBuilder() {
       return getDelete();
@@ -349,7 +349,7 @@ public final class MiInsertTempdbAnyValues {
     public static final int DELETE_NULL_FIELD_NUMBER = 1003;
     private boolean deleteNull_;
     /**
-     * <code>optional bool delete_null = 1003;</code>
+     * <code>bool delete_null = 1003;</code>
      */
     public boolean getDeleteNull() {
       return deleteNull_;
@@ -358,19 +358,19 @@ public final class MiInsertTempdbAnyValues {
     public static final int SEPARATOR_FIELD_NUMBER = 4;
     private io.dstore.values.StringValue separator_;
     /**
-     * <code>optional .dstore.values.StringValue separator = 4;</code>
+     * <code>.dstore.values.StringValue separator = 4;</code>
      */
     public boolean hasSeparator() {
       return separator_ != null;
     }
     /**
-     * <code>optional .dstore.values.StringValue separator = 4;</code>
+     * <code>.dstore.values.StringValue separator = 4;</code>
      */
     public io.dstore.values.StringValue getSeparator() {
       return separator_ == null ? io.dstore.values.StringValue.getDefaultInstance() : separator_;
     }
     /**
-     * <code>optional .dstore.values.StringValue separator = 4;</code>
+     * <code>.dstore.values.StringValue separator = 4;</code>
      */
     public io.dstore.values.StringValueOrBuilder getSeparatorOrBuilder() {
       return getSeparator();
@@ -379,7 +379,7 @@ public final class MiInsertTempdbAnyValues {
     public static final int SEPARATOR_NULL_FIELD_NUMBER = 1004;
     private boolean separatorNull_;
     /**
-     * <code>optional bool separator_null = 1004;</code>
+     * <code>bool separator_null = 1004;</code>
      */
     public boolean getSeparatorNull() {
       return separatorNull_;
@@ -388,19 +388,19 @@ public final class MiInsertTempdbAnyValues {
     public static final int CHECK_BYTE_LENGTH_FOR_STRINGS_FIELD_NUMBER = 5;
     private io.dstore.values.BooleanValue checkByteLengthForStrings_;
     /**
-     * <code>optional .dstore.values.BooleanValue check_byte_length_for_strings = 5;</code>
+     * <code>.dstore.values.BooleanValue check_byte_length_for_strings = 5;</code>
      */
     public boolean hasCheckByteLengthForStrings() {
       return checkByteLengthForStrings_ != null;
     }
     /**
-     * <code>optional .dstore.values.BooleanValue check_byte_length_for_strings = 5;</code>
+     * <code>.dstore.values.BooleanValue check_byte_length_for_strings = 5;</code>
      */
     public io.dstore.values.BooleanValue getCheckByteLengthForStrings() {
       return checkByteLengthForStrings_ == null ? io.dstore.values.BooleanValue.getDefaultInstance() : checkByteLengthForStrings_;
     }
     /**
-     * <code>optional .dstore.values.BooleanValue check_byte_length_for_strings = 5;</code>
+     * <code>.dstore.values.BooleanValue check_byte_length_for_strings = 5;</code>
      */
     public io.dstore.values.BooleanValueOrBuilder getCheckByteLengthForStringsOrBuilder() {
       return getCheckByteLengthForStrings();
@@ -409,7 +409,7 @@ public final class MiInsertTempdbAnyValues {
     public static final int CHECK_BYTE_LENGTH_FOR_STRINGS_NULL_FIELD_NUMBER = 1005;
     private boolean checkByteLengthForStringsNull_;
     /**
-     * <code>optional bool check_byte_length_for_strings_null = 1005;</code>
+     * <code>bool check_byte_length_for_strings_null = 1005;</code>
      */
     public boolean getCheckByteLengthForStringsNull() {
       return checkByteLengthForStringsNull_;
@@ -564,7 +564,7 @@ public final class MiInsertTempdbAnyValues {
         return memoizedHashCode;
       }
       int hash = 41;
-      hash = (19 * hash) + getDescriptorForType().hashCode();
+      hash = (19 * hash) + getDescriptor().hashCode();
       if (hasIdList()) {
         hash = (37 * hash) + ID_LIST_FIELD_NUMBER;
         hash = (53 * hash) + getIdList().hashCode();
@@ -911,13 +911,13 @@ public final class MiInsertTempdbAnyValues {
       private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.values.StringValue, io.dstore.values.StringValue.Builder, io.dstore.values.StringValueOrBuilder> idListBuilder_;
       /**
-       * <code>optional .dstore.values.StringValue id_list = 1;</code>
+       * <code>.dstore.values.StringValue id_list = 1;</code>
        */
       public boolean hasIdList() {
         return idListBuilder_ != null || idList_ != null;
       }
       /**
-       * <code>optional .dstore.values.StringValue id_list = 1;</code>
+       * <code>.dstore.values.StringValue id_list = 1;</code>
        */
       public io.dstore.values.StringValue getIdList() {
         if (idListBuilder_ == null) {
@@ -927,7 +927,7 @@ public final class MiInsertTempdbAnyValues {
         }
       }
       /**
-       * <code>optional .dstore.values.StringValue id_list = 1;</code>
+       * <code>.dstore.values.StringValue id_list = 1;</code>
        */
       public Builder setIdList(io.dstore.values.StringValue value) {
         if (idListBuilder_ == null) {
@@ -943,7 +943,7 @@ public final class MiInsertTempdbAnyValues {
         return this;
       }
       /**
-       * <code>optional .dstore.values.StringValue id_list = 1;</code>
+       * <code>.dstore.values.StringValue id_list = 1;</code>
        */
       public Builder setIdList(
           io.dstore.values.StringValue.Builder builderForValue) {
@@ -957,7 +957,7 @@ public final class MiInsertTempdbAnyValues {
         return this;
       }
       /**
-       * <code>optional .dstore.values.StringValue id_list = 1;</code>
+       * <code>.dstore.values.StringValue id_list = 1;</code>
        */
       public Builder mergeIdList(io.dstore.values.StringValue value) {
         if (idListBuilder_ == null) {
@@ -975,7 +975,7 @@ public final class MiInsertTempdbAnyValues {
         return this;
       }
       /**
-       * <code>optional .dstore.values.StringValue id_list = 1;</code>
+       * <code>.dstore.values.StringValue id_list = 1;</code>
        */
       public Builder clearIdList() {
         if (idListBuilder_ == null) {
@@ -989,7 +989,7 @@ public final class MiInsertTempdbAnyValues {
         return this;
       }
       /**
-       * <code>optional .dstore.values.StringValue id_list = 1;</code>
+       * <code>.dstore.values.StringValue id_list = 1;</code>
        */
       public io.dstore.values.StringValue.Builder getIdListBuilder() {
         
@@ -997,7 +997,7 @@ public final class MiInsertTempdbAnyValues {
         return getIdListFieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .dstore.values.StringValue id_list = 1;</code>
+       * <code>.dstore.values.StringValue id_list = 1;</code>
        */
       public io.dstore.values.StringValueOrBuilder getIdListOrBuilder() {
         if (idListBuilder_ != null) {
@@ -1008,7 +1008,7 @@ public final class MiInsertTempdbAnyValues {
         }
       }
       /**
-       * <code>optional .dstore.values.StringValue id_list = 1;</code>
+       * <code>.dstore.values.StringValue id_list = 1;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.values.StringValue, io.dstore.values.StringValue.Builder, io.dstore.values.StringValueOrBuilder> 
@@ -1026,13 +1026,13 @@ public final class MiInsertTempdbAnyValues {
 
       private boolean idListNull_ ;
       /**
-       * <code>optional bool id_list_null = 1001;</code>
+       * <code>bool id_list_null = 1001;</code>
        */
       public boolean getIdListNull() {
         return idListNull_;
       }
       /**
-       * <code>optional bool id_list_null = 1001;</code>
+       * <code>bool id_list_null = 1001;</code>
        */
       public Builder setIdListNull(boolean value) {
         
@@ -1041,7 +1041,7 @@ public final class MiInsertTempdbAnyValues {
         return this;
       }
       /**
-       * <code>optional bool id_list_null = 1001;</code>
+       * <code>bool id_list_null = 1001;</code>
        */
       public Builder clearIdListNull() {
         
@@ -1054,13 +1054,13 @@ public final class MiInsertTempdbAnyValues {
       private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.values.StringValue, io.dstore.values.StringValue.Builder, io.dstore.values.StringValueOrBuilder> valueListBuilder_;
       /**
-       * <code>optional .dstore.values.StringValue value_list = 2;</code>
+       * <code>.dstore.values.StringValue value_list = 2;</code>
        */
       public boolean hasValueList() {
         return valueListBuilder_ != null || valueList_ != null;
       }
       /**
-       * <code>optional .dstore.values.StringValue value_list = 2;</code>
+       * <code>.dstore.values.StringValue value_list = 2;</code>
        */
       public io.dstore.values.StringValue getValueList() {
         if (valueListBuilder_ == null) {
@@ -1070,7 +1070,7 @@ public final class MiInsertTempdbAnyValues {
         }
       }
       /**
-       * <code>optional .dstore.values.StringValue value_list = 2;</code>
+       * <code>.dstore.values.StringValue value_list = 2;</code>
        */
       public Builder setValueList(io.dstore.values.StringValue value) {
         if (valueListBuilder_ == null) {
@@ -1086,7 +1086,7 @@ public final class MiInsertTempdbAnyValues {
         return this;
       }
       /**
-       * <code>optional .dstore.values.StringValue value_list = 2;</code>
+       * <code>.dstore.values.StringValue value_list = 2;</code>
        */
       public Builder setValueList(
           io.dstore.values.StringValue.Builder builderForValue) {
@@ -1100,7 +1100,7 @@ public final class MiInsertTempdbAnyValues {
         return this;
       }
       /**
-       * <code>optional .dstore.values.StringValue value_list = 2;</code>
+       * <code>.dstore.values.StringValue value_list = 2;</code>
        */
       public Builder mergeValueList(io.dstore.values.StringValue value) {
         if (valueListBuilder_ == null) {
@@ -1118,7 +1118,7 @@ public final class MiInsertTempdbAnyValues {
         return this;
       }
       /**
-       * <code>optional .dstore.values.StringValue value_list = 2;</code>
+       * <code>.dstore.values.StringValue value_list = 2;</code>
        */
       public Builder clearValueList() {
         if (valueListBuilder_ == null) {
@@ -1132,7 +1132,7 @@ public final class MiInsertTempdbAnyValues {
         return this;
       }
       /**
-       * <code>optional .dstore.values.StringValue value_list = 2;</code>
+       * <code>.dstore.values.StringValue value_list = 2;</code>
        */
       public io.dstore.values.StringValue.Builder getValueListBuilder() {
         
@@ -1140,7 +1140,7 @@ public final class MiInsertTempdbAnyValues {
         return getValueListFieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .dstore.values.StringValue value_list = 2;</code>
+       * <code>.dstore.values.StringValue value_list = 2;</code>
        */
       public io.dstore.values.StringValueOrBuilder getValueListOrBuilder() {
         if (valueListBuilder_ != null) {
@@ -1151,7 +1151,7 @@ public final class MiInsertTempdbAnyValues {
         }
       }
       /**
-       * <code>optional .dstore.values.StringValue value_list = 2;</code>
+       * <code>.dstore.values.StringValue value_list = 2;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.values.StringValue, io.dstore.values.StringValue.Builder, io.dstore.values.StringValueOrBuilder> 
@@ -1169,13 +1169,13 @@ public final class MiInsertTempdbAnyValues {
 
       private boolean valueListNull_ ;
       /**
-       * <code>optional bool value_list_null = 1002;</code>
+       * <code>bool value_list_null = 1002;</code>
        */
       public boolean getValueListNull() {
         return valueListNull_;
       }
       /**
-       * <code>optional bool value_list_null = 1002;</code>
+       * <code>bool value_list_null = 1002;</code>
        */
       public Builder setValueListNull(boolean value) {
         
@@ -1184,7 +1184,7 @@ public final class MiInsertTempdbAnyValues {
         return this;
       }
       /**
-       * <code>optional bool value_list_null = 1002;</code>
+       * <code>bool value_list_null = 1002;</code>
        */
       public Builder clearValueListNull() {
         
@@ -1197,13 +1197,13 @@ public final class MiInsertTempdbAnyValues {
       private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.values.BooleanValue, io.dstore.values.BooleanValue.Builder, io.dstore.values.BooleanValueOrBuilder> deleteBuilder_;
       /**
-       * <code>optional .dstore.values.BooleanValue delete = 3;</code>
+       * <code>.dstore.values.BooleanValue delete = 3;</code>
        */
       public boolean hasDelete() {
         return deleteBuilder_ != null || delete_ != null;
       }
       /**
-       * <code>optional .dstore.values.BooleanValue delete = 3;</code>
+       * <code>.dstore.values.BooleanValue delete = 3;</code>
        */
       public io.dstore.values.BooleanValue getDelete() {
         if (deleteBuilder_ == null) {
@@ -1213,7 +1213,7 @@ public final class MiInsertTempdbAnyValues {
         }
       }
       /**
-       * <code>optional .dstore.values.BooleanValue delete = 3;</code>
+       * <code>.dstore.values.BooleanValue delete = 3;</code>
        */
       public Builder setDelete(io.dstore.values.BooleanValue value) {
         if (deleteBuilder_ == null) {
@@ -1229,7 +1229,7 @@ public final class MiInsertTempdbAnyValues {
         return this;
       }
       /**
-       * <code>optional .dstore.values.BooleanValue delete = 3;</code>
+       * <code>.dstore.values.BooleanValue delete = 3;</code>
        */
       public Builder setDelete(
           io.dstore.values.BooleanValue.Builder builderForValue) {
@@ -1243,7 +1243,7 @@ public final class MiInsertTempdbAnyValues {
         return this;
       }
       /**
-       * <code>optional .dstore.values.BooleanValue delete = 3;</code>
+       * <code>.dstore.values.BooleanValue delete = 3;</code>
        */
       public Builder mergeDelete(io.dstore.values.BooleanValue value) {
         if (deleteBuilder_ == null) {
@@ -1261,7 +1261,7 @@ public final class MiInsertTempdbAnyValues {
         return this;
       }
       /**
-       * <code>optional .dstore.values.BooleanValue delete = 3;</code>
+       * <code>.dstore.values.BooleanValue delete = 3;</code>
        */
       public Builder clearDelete() {
         if (deleteBuilder_ == null) {
@@ -1275,7 +1275,7 @@ public final class MiInsertTempdbAnyValues {
         return this;
       }
       /**
-       * <code>optional .dstore.values.BooleanValue delete = 3;</code>
+       * <code>.dstore.values.BooleanValue delete = 3;</code>
        */
       public io.dstore.values.BooleanValue.Builder getDeleteBuilder() {
         
@@ -1283,7 +1283,7 @@ public final class MiInsertTempdbAnyValues {
         return getDeleteFieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .dstore.values.BooleanValue delete = 3;</code>
+       * <code>.dstore.values.BooleanValue delete = 3;</code>
        */
       public io.dstore.values.BooleanValueOrBuilder getDeleteOrBuilder() {
         if (deleteBuilder_ != null) {
@@ -1294,7 +1294,7 @@ public final class MiInsertTempdbAnyValues {
         }
       }
       /**
-       * <code>optional .dstore.values.BooleanValue delete = 3;</code>
+       * <code>.dstore.values.BooleanValue delete = 3;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.values.BooleanValue, io.dstore.values.BooleanValue.Builder, io.dstore.values.BooleanValueOrBuilder> 
@@ -1312,13 +1312,13 @@ public final class MiInsertTempdbAnyValues {
 
       private boolean deleteNull_ ;
       /**
-       * <code>optional bool delete_null = 1003;</code>
+       * <code>bool delete_null = 1003;</code>
        */
       public boolean getDeleteNull() {
         return deleteNull_;
       }
       /**
-       * <code>optional bool delete_null = 1003;</code>
+       * <code>bool delete_null = 1003;</code>
        */
       public Builder setDeleteNull(boolean value) {
         
@@ -1327,7 +1327,7 @@ public final class MiInsertTempdbAnyValues {
         return this;
       }
       /**
-       * <code>optional bool delete_null = 1003;</code>
+       * <code>bool delete_null = 1003;</code>
        */
       public Builder clearDeleteNull() {
         
@@ -1340,13 +1340,13 @@ public final class MiInsertTempdbAnyValues {
       private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.values.StringValue, io.dstore.values.StringValue.Builder, io.dstore.values.StringValueOrBuilder> separatorBuilder_;
       /**
-       * <code>optional .dstore.values.StringValue separator = 4;</code>
+       * <code>.dstore.values.StringValue separator = 4;</code>
        */
       public boolean hasSeparator() {
         return separatorBuilder_ != null || separator_ != null;
       }
       /**
-       * <code>optional .dstore.values.StringValue separator = 4;</code>
+       * <code>.dstore.values.StringValue separator = 4;</code>
        */
       public io.dstore.values.StringValue getSeparator() {
         if (separatorBuilder_ == null) {
@@ -1356,7 +1356,7 @@ public final class MiInsertTempdbAnyValues {
         }
       }
       /**
-       * <code>optional .dstore.values.StringValue separator = 4;</code>
+       * <code>.dstore.values.StringValue separator = 4;</code>
        */
       public Builder setSeparator(io.dstore.values.StringValue value) {
         if (separatorBuilder_ == null) {
@@ -1372,7 +1372,7 @@ public final class MiInsertTempdbAnyValues {
         return this;
       }
       /**
-       * <code>optional .dstore.values.StringValue separator = 4;</code>
+       * <code>.dstore.values.StringValue separator = 4;</code>
        */
       public Builder setSeparator(
           io.dstore.values.StringValue.Builder builderForValue) {
@@ -1386,7 +1386,7 @@ public final class MiInsertTempdbAnyValues {
         return this;
       }
       /**
-       * <code>optional .dstore.values.StringValue separator = 4;</code>
+       * <code>.dstore.values.StringValue separator = 4;</code>
        */
       public Builder mergeSeparator(io.dstore.values.StringValue value) {
         if (separatorBuilder_ == null) {
@@ -1404,7 +1404,7 @@ public final class MiInsertTempdbAnyValues {
         return this;
       }
       /**
-       * <code>optional .dstore.values.StringValue separator = 4;</code>
+       * <code>.dstore.values.StringValue separator = 4;</code>
        */
       public Builder clearSeparator() {
         if (separatorBuilder_ == null) {
@@ -1418,7 +1418,7 @@ public final class MiInsertTempdbAnyValues {
         return this;
       }
       /**
-       * <code>optional .dstore.values.StringValue separator = 4;</code>
+       * <code>.dstore.values.StringValue separator = 4;</code>
        */
       public io.dstore.values.StringValue.Builder getSeparatorBuilder() {
         
@@ -1426,7 +1426,7 @@ public final class MiInsertTempdbAnyValues {
         return getSeparatorFieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .dstore.values.StringValue separator = 4;</code>
+       * <code>.dstore.values.StringValue separator = 4;</code>
        */
       public io.dstore.values.StringValueOrBuilder getSeparatorOrBuilder() {
         if (separatorBuilder_ != null) {
@@ -1437,7 +1437,7 @@ public final class MiInsertTempdbAnyValues {
         }
       }
       /**
-       * <code>optional .dstore.values.StringValue separator = 4;</code>
+       * <code>.dstore.values.StringValue separator = 4;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.values.StringValue, io.dstore.values.StringValue.Builder, io.dstore.values.StringValueOrBuilder> 
@@ -1455,13 +1455,13 @@ public final class MiInsertTempdbAnyValues {
 
       private boolean separatorNull_ ;
       /**
-       * <code>optional bool separator_null = 1004;</code>
+       * <code>bool separator_null = 1004;</code>
        */
       public boolean getSeparatorNull() {
         return separatorNull_;
       }
       /**
-       * <code>optional bool separator_null = 1004;</code>
+       * <code>bool separator_null = 1004;</code>
        */
       public Builder setSeparatorNull(boolean value) {
         
@@ -1470,7 +1470,7 @@ public final class MiInsertTempdbAnyValues {
         return this;
       }
       /**
-       * <code>optional bool separator_null = 1004;</code>
+       * <code>bool separator_null = 1004;</code>
        */
       public Builder clearSeparatorNull() {
         
@@ -1483,13 +1483,13 @@ public final class MiInsertTempdbAnyValues {
       private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.values.BooleanValue, io.dstore.values.BooleanValue.Builder, io.dstore.values.BooleanValueOrBuilder> checkByteLengthForStringsBuilder_;
       /**
-       * <code>optional .dstore.values.BooleanValue check_byte_length_for_strings = 5;</code>
+       * <code>.dstore.values.BooleanValue check_byte_length_for_strings = 5;</code>
        */
       public boolean hasCheckByteLengthForStrings() {
         return checkByteLengthForStringsBuilder_ != null || checkByteLengthForStrings_ != null;
       }
       /**
-       * <code>optional .dstore.values.BooleanValue check_byte_length_for_strings = 5;</code>
+       * <code>.dstore.values.BooleanValue check_byte_length_for_strings = 5;</code>
        */
       public io.dstore.values.BooleanValue getCheckByteLengthForStrings() {
         if (checkByteLengthForStringsBuilder_ == null) {
@@ -1499,7 +1499,7 @@ public final class MiInsertTempdbAnyValues {
         }
       }
       /**
-       * <code>optional .dstore.values.BooleanValue check_byte_length_for_strings = 5;</code>
+       * <code>.dstore.values.BooleanValue check_byte_length_for_strings = 5;</code>
        */
       public Builder setCheckByteLengthForStrings(io.dstore.values.BooleanValue value) {
         if (checkByteLengthForStringsBuilder_ == null) {
@@ -1515,7 +1515,7 @@ public final class MiInsertTempdbAnyValues {
         return this;
       }
       /**
-       * <code>optional .dstore.values.BooleanValue check_byte_length_for_strings = 5;</code>
+       * <code>.dstore.values.BooleanValue check_byte_length_for_strings = 5;</code>
        */
       public Builder setCheckByteLengthForStrings(
           io.dstore.values.BooleanValue.Builder builderForValue) {
@@ -1529,7 +1529,7 @@ public final class MiInsertTempdbAnyValues {
         return this;
       }
       /**
-       * <code>optional .dstore.values.BooleanValue check_byte_length_for_strings = 5;</code>
+       * <code>.dstore.values.BooleanValue check_byte_length_for_strings = 5;</code>
        */
       public Builder mergeCheckByteLengthForStrings(io.dstore.values.BooleanValue value) {
         if (checkByteLengthForStringsBuilder_ == null) {
@@ -1547,7 +1547,7 @@ public final class MiInsertTempdbAnyValues {
         return this;
       }
       /**
-       * <code>optional .dstore.values.BooleanValue check_byte_length_for_strings = 5;</code>
+       * <code>.dstore.values.BooleanValue check_byte_length_for_strings = 5;</code>
        */
       public Builder clearCheckByteLengthForStrings() {
         if (checkByteLengthForStringsBuilder_ == null) {
@@ -1561,7 +1561,7 @@ public final class MiInsertTempdbAnyValues {
         return this;
       }
       /**
-       * <code>optional .dstore.values.BooleanValue check_byte_length_for_strings = 5;</code>
+       * <code>.dstore.values.BooleanValue check_byte_length_for_strings = 5;</code>
        */
       public io.dstore.values.BooleanValue.Builder getCheckByteLengthForStringsBuilder() {
         
@@ -1569,7 +1569,7 @@ public final class MiInsertTempdbAnyValues {
         return getCheckByteLengthForStringsFieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .dstore.values.BooleanValue check_byte_length_for_strings = 5;</code>
+       * <code>.dstore.values.BooleanValue check_byte_length_for_strings = 5;</code>
        */
       public io.dstore.values.BooleanValueOrBuilder getCheckByteLengthForStringsOrBuilder() {
         if (checkByteLengthForStringsBuilder_ != null) {
@@ -1580,7 +1580,7 @@ public final class MiInsertTempdbAnyValues {
         }
       }
       /**
-       * <code>optional .dstore.values.BooleanValue check_byte_length_for_strings = 5;</code>
+       * <code>.dstore.values.BooleanValue check_byte_length_for_strings = 5;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.values.BooleanValue, io.dstore.values.BooleanValue.Builder, io.dstore.values.BooleanValueOrBuilder> 
@@ -1598,13 +1598,13 @@ public final class MiInsertTempdbAnyValues {
 
       private boolean checkByteLengthForStringsNull_ ;
       /**
-       * <code>optional bool check_byte_length_for_strings_null = 1005;</code>
+       * <code>bool check_byte_length_for_strings_null = 1005;</code>
        */
       public boolean getCheckByteLengthForStringsNull() {
         return checkByteLengthForStringsNull_;
       }
       /**
-       * <code>optional bool check_byte_length_for_strings_null = 1005;</code>
+       * <code>bool check_byte_length_for_strings_null = 1005;</code>
        */
       public Builder setCheckByteLengthForStringsNull(boolean value) {
         
@@ -1613,7 +1613,7 @@ public final class MiInsertTempdbAnyValues {
         return this;
       }
       /**
-       * <code>optional bool check_byte_length_for_strings_null = 1005;</code>
+       * <code>bool check_byte_length_for_strings_null = 1005;</code>
        */
       public Builder clearCheckByteLengthForStringsNull() {
         
@@ -1872,7 +1872,7 @@ public final class MiInsertTempdbAnyValues {
         com.google.protobuf.MessageOrBuilder {
 
       /**
-       * <code>optional int32 row_id = 10000;</code>
+       * <code>int32 row_id = 10000;</code>
        */
       int getRowId();
     }
@@ -1947,7 +1947,7 @@ public final class MiInsertTempdbAnyValues {
       public static final int ROW_ID_FIELD_NUMBER = 10000;
       private int rowId_;
       /**
-       * <code>optional int32 row_id = 10000;</code>
+       * <code>int32 row_id = 10000;</code>
        */
       public int getRowId() {
         return rowId_;
@@ -2006,7 +2006,7 @@ public final class MiInsertTempdbAnyValues {
           return memoizedHashCode;
         }
         int hash = 41;
-        hash = (19 * hash) + getDescriptorForType().hashCode();
+        hash = (19 * hash) + getDescriptor().hashCode();
         hash = (37 * hash) + ROW_ID_FIELD_NUMBER;
         hash = (53 * hash) + getRowId();
         hash = (29 * hash) + unknownFields.hashCode();
@@ -2224,13 +2224,13 @@ public final class MiInsertTempdbAnyValues {
 
         private int rowId_ ;
         /**
-         * <code>optional int32 row_id = 10000;</code>
+         * <code>int32 row_id = 10000;</code>
          */
         public int getRowId() {
           return rowId_;
         }
         /**
-         * <code>optional int32 row_id = 10000;</code>
+         * <code>int32 row_id = 10000;</code>
          */
         public Builder setRowId(int value) {
           
@@ -2239,7 +2239,7 @@ public final class MiInsertTempdbAnyValues {
           return this;
         }
         /**
-         * <code>optional int32 row_id = 10000;</code>
+         * <code>int32 row_id = 10000;</code>
          */
         public Builder clearRowId() {
           
@@ -2492,7 +2492,7 @@ public final class MiInsertTempdbAnyValues {
         return memoizedHashCode;
       }
       int hash = 41;
-      hash = (19 * hash) + getDescriptorForType().hashCode();
+      hash = (19 * hash) + getDescriptor().hashCode();
       if (getMetaInformationCount() > 0) {
         hash = (37 * hash) + META_INFORMATION_FIELD_NUMBER;
         hash = (53 * hash) + getMetaInformationList().hashCode();

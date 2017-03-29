@@ -19,56 +19,56 @@ public final class ImGetValueDetailsPu {
       com.google.protobuf.MessageOrBuilder {
 
     /**
-     * <code>optional .dstore.values.IntegerValue tree_node_id = 1;</code>
+     * <code>.dstore.values.IntegerValue tree_node_id = 1;</code>
      */
     boolean hasTreeNodeId();
     /**
-     * <code>optional .dstore.values.IntegerValue tree_node_id = 1;</code>
+     * <code>.dstore.values.IntegerValue tree_node_id = 1;</code>
      */
     io.dstore.values.IntegerValue getTreeNodeId();
     /**
-     * <code>optional .dstore.values.IntegerValue tree_node_id = 1;</code>
+     * <code>.dstore.values.IntegerValue tree_node_id = 1;</code>
      */
     io.dstore.values.IntegerValueOrBuilder getTreeNodeIdOrBuilder();
 
     /**
-     * <code>optional bool tree_node_id_null = 1001;</code>
+     * <code>bool tree_node_id_null = 1001;</code>
      */
     boolean getTreeNodeIdNull();
 
     /**
-     * <code>optional .dstore.values.IntegerValue node_characteristic_id = 2;</code>
+     * <code>.dstore.values.IntegerValue node_characteristic_id = 2;</code>
      */
     boolean hasNodeCharacteristicId();
     /**
-     * <code>optional .dstore.values.IntegerValue node_characteristic_id = 2;</code>
+     * <code>.dstore.values.IntegerValue node_characteristic_id = 2;</code>
      */
     io.dstore.values.IntegerValue getNodeCharacteristicId();
     /**
-     * <code>optional .dstore.values.IntegerValue node_characteristic_id = 2;</code>
+     * <code>.dstore.values.IntegerValue node_characteristic_id = 2;</code>
      */
     io.dstore.values.IntegerValueOrBuilder getNodeCharacteristicIdOrBuilder();
 
     /**
-     * <code>optional bool node_characteristic_id_null = 1002;</code>
+     * <code>bool node_characteristic_id_null = 1002;</code>
      */
     boolean getNodeCharacteristicIdNull();
 
     /**
-     * <code>optional .dstore.values.StringValue value = 3;</code>
+     * <code>.dstore.values.StringValue value = 3;</code>
      */
     boolean hasValue();
     /**
-     * <code>optional .dstore.values.StringValue value = 3;</code>
+     * <code>.dstore.values.StringValue value = 3;</code>
      */
     io.dstore.values.StringValue getValue();
     /**
-     * <code>optional .dstore.values.StringValue value = 3;</code>
+     * <code>.dstore.values.StringValue value = 3;</code>
      */
     io.dstore.values.StringValueOrBuilder getValueOrBuilder();
 
     /**
-     * <code>optional bool value_null = 1003;</code>
+     * <code>bool value_null = 1003;</code>
      */
     boolean getValueNull();
   }
@@ -194,19 +194,19 @@ public final class ImGetValueDetailsPu {
     public static final int TREE_NODE_ID_FIELD_NUMBER = 1;
     private io.dstore.values.IntegerValue treeNodeId_;
     /**
-     * <code>optional .dstore.values.IntegerValue tree_node_id = 1;</code>
+     * <code>.dstore.values.IntegerValue tree_node_id = 1;</code>
      */
     public boolean hasTreeNodeId() {
       return treeNodeId_ != null;
     }
     /**
-     * <code>optional .dstore.values.IntegerValue tree_node_id = 1;</code>
+     * <code>.dstore.values.IntegerValue tree_node_id = 1;</code>
      */
     public io.dstore.values.IntegerValue getTreeNodeId() {
       return treeNodeId_ == null ? io.dstore.values.IntegerValue.getDefaultInstance() : treeNodeId_;
     }
     /**
-     * <code>optional .dstore.values.IntegerValue tree_node_id = 1;</code>
+     * <code>.dstore.values.IntegerValue tree_node_id = 1;</code>
      */
     public io.dstore.values.IntegerValueOrBuilder getTreeNodeIdOrBuilder() {
       return getTreeNodeId();
@@ -215,7 +215,7 @@ public final class ImGetValueDetailsPu {
     public static final int TREE_NODE_ID_NULL_FIELD_NUMBER = 1001;
     private boolean treeNodeIdNull_;
     /**
-     * <code>optional bool tree_node_id_null = 1001;</code>
+     * <code>bool tree_node_id_null = 1001;</code>
      */
     public boolean getTreeNodeIdNull() {
       return treeNodeIdNull_;
@@ -224,19 +224,19 @@ public final class ImGetValueDetailsPu {
     public static final int NODE_CHARACTERISTIC_ID_FIELD_NUMBER = 2;
     private io.dstore.values.IntegerValue nodeCharacteristicId_;
     /**
-     * <code>optional .dstore.values.IntegerValue node_characteristic_id = 2;</code>
+     * <code>.dstore.values.IntegerValue node_characteristic_id = 2;</code>
      */
     public boolean hasNodeCharacteristicId() {
       return nodeCharacteristicId_ != null;
     }
     /**
-     * <code>optional .dstore.values.IntegerValue node_characteristic_id = 2;</code>
+     * <code>.dstore.values.IntegerValue node_characteristic_id = 2;</code>
      */
     public io.dstore.values.IntegerValue getNodeCharacteristicId() {
       return nodeCharacteristicId_ == null ? io.dstore.values.IntegerValue.getDefaultInstance() : nodeCharacteristicId_;
     }
     /**
-     * <code>optional .dstore.values.IntegerValue node_characteristic_id = 2;</code>
+     * <code>.dstore.values.IntegerValue node_characteristic_id = 2;</code>
      */
     public io.dstore.values.IntegerValueOrBuilder getNodeCharacteristicIdOrBuilder() {
       return getNodeCharacteristicId();
@@ -245,7 +245,7 @@ public final class ImGetValueDetailsPu {
     public static final int NODE_CHARACTERISTIC_ID_NULL_FIELD_NUMBER = 1002;
     private boolean nodeCharacteristicIdNull_;
     /**
-     * <code>optional bool node_characteristic_id_null = 1002;</code>
+     * <code>bool node_characteristic_id_null = 1002;</code>
      */
     public boolean getNodeCharacteristicIdNull() {
       return nodeCharacteristicIdNull_;
@@ -254,19 +254,19 @@ public final class ImGetValueDetailsPu {
     public static final int VALUE_FIELD_NUMBER = 3;
     private io.dstore.values.StringValue value_;
     /**
-     * <code>optional .dstore.values.StringValue value = 3;</code>
+     * <code>.dstore.values.StringValue value = 3;</code>
      */
     public boolean hasValue() {
       return value_ != null;
     }
     /**
-     * <code>optional .dstore.values.StringValue value = 3;</code>
+     * <code>.dstore.values.StringValue value = 3;</code>
      */
     public io.dstore.values.StringValue getValue() {
       return value_ == null ? io.dstore.values.StringValue.getDefaultInstance() : value_;
     }
     /**
-     * <code>optional .dstore.values.StringValue value = 3;</code>
+     * <code>.dstore.values.StringValue value = 3;</code>
      */
     public io.dstore.values.StringValueOrBuilder getValueOrBuilder() {
       return getValue();
@@ -275,7 +275,7 @@ public final class ImGetValueDetailsPu {
     public static final int VALUE_NULL_FIELD_NUMBER = 1003;
     private boolean valueNull_;
     /**
-     * <code>optional bool value_null = 1003;</code>
+     * <code>bool value_null = 1003;</code>
      */
     public boolean getValueNull() {
       return valueNull_;
@@ -388,7 +388,7 @@ public final class ImGetValueDetailsPu {
         return memoizedHashCode;
       }
       int hash = 41;
-      hash = (19 * hash) + getDescriptorForType().hashCode();
+      hash = (19 * hash) + getDescriptor().hashCode();
       if (hasTreeNodeId()) {
         hash = (37 * hash) + TREE_NODE_ID_FIELD_NUMBER;
         hash = (53 * hash) + getTreeNodeId().hashCode();
@@ -681,13 +681,13 @@ public final class ImGetValueDetailsPu {
       private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> treeNodeIdBuilder_;
       /**
-       * <code>optional .dstore.values.IntegerValue tree_node_id = 1;</code>
+       * <code>.dstore.values.IntegerValue tree_node_id = 1;</code>
        */
       public boolean hasTreeNodeId() {
         return treeNodeIdBuilder_ != null || treeNodeId_ != null;
       }
       /**
-       * <code>optional .dstore.values.IntegerValue tree_node_id = 1;</code>
+       * <code>.dstore.values.IntegerValue tree_node_id = 1;</code>
        */
       public io.dstore.values.IntegerValue getTreeNodeId() {
         if (treeNodeIdBuilder_ == null) {
@@ -697,7 +697,7 @@ public final class ImGetValueDetailsPu {
         }
       }
       /**
-       * <code>optional .dstore.values.IntegerValue tree_node_id = 1;</code>
+       * <code>.dstore.values.IntegerValue tree_node_id = 1;</code>
        */
       public Builder setTreeNodeId(io.dstore.values.IntegerValue value) {
         if (treeNodeIdBuilder_ == null) {
@@ -713,7 +713,7 @@ public final class ImGetValueDetailsPu {
         return this;
       }
       /**
-       * <code>optional .dstore.values.IntegerValue tree_node_id = 1;</code>
+       * <code>.dstore.values.IntegerValue tree_node_id = 1;</code>
        */
       public Builder setTreeNodeId(
           io.dstore.values.IntegerValue.Builder builderForValue) {
@@ -727,7 +727,7 @@ public final class ImGetValueDetailsPu {
         return this;
       }
       /**
-       * <code>optional .dstore.values.IntegerValue tree_node_id = 1;</code>
+       * <code>.dstore.values.IntegerValue tree_node_id = 1;</code>
        */
       public Builder mergeTreeNodeId(io.dstore.values.IntegerValue value) {
         if (treeNodeIdBuilder_ == null) {
@@ -745,7 +745,7 @@ public final class ImGetValueDetailsPu {
         return this;
       }
       /**
-       * <code>optional .dstore.values.IntegerValue tree_node_id = 1;</code>
+       * <code>.dstore.values.IntegerValue tree_node_id = 1;</code>
        */
       public Builder clearTreeNodeId() {
         if (treeNodeIdBuilder_ == null) {
@@ -759,7 +759,7 @@ public final class ImGetValueDetailsPu {
         return this;
       }
       /**
-       * <code>optional .dstore.values.IntegerValue tree_node_id = 1;</code>
+       * <code>.dstore.values.IntegerValue tree_node_id = 1;</code>
        */
       public io.dstore.values.IntegerValue.Builder getTreeNodeIdBuilder() {
         
@@ -767,7 +767,7 @@ public final class ImGetValueDetailsPu {
         return getTreeNodeIdFieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .dstore.values.IntegerValue tree_node_id = 1;</code>
+       * <code>.dstore.values.IntegerValue tree_node_id = 1;</code>
        */
       public io.dstore.values.IntegerValueOrBuilder getTreeNodeIdOrBuilder() {
         if (treeNodeIdBuilder_ != null) {
@@ -778,7 +778,7 @@ public final class ImGetValueDetailsPu {
         }
       }
       /**
-       * <code>optional .dstore.values.IntegerValue tree_node_id = 1;</code>
+       * <code>.dstore.values.IntegerValue tree_node_id = 1;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> 
@@ -796,13 +796,13 @@ public final class ImGetValueDetailsPu {
 
       private boolean treeNodeIdNull_ ;
       /**
-       * <code>optional bool tree_node_id_null = 1001;</code>
+       * <code>bool tree_node_id_null = 1001;</code>
        */
       public boolean getTreeNodeIdNull() {
         return treeNodeIdNull_;
       }
       /**
-       * <code>optional bool tree_node_id_null = 1001;</code>
+       * <code>bool tree_node_id_null = 1001;</code>
        */
       public Builder setTreeNodeIdNull(boolean value) {
         
@@ -811,7 +811,7 @@ public final class ImGetValueDetailsPu {
         return this;
       }
       /**
-       * <code>optional bool tree_node_id_null = 1001;</code>
+       * <code>bool tree_node_id_null = 1001;</code>
        */
       public Builder clearTreeNodeIdNull() {
         
@@ -824,13 +824,13 @@ public final class ImGetValueDetailsPu {
       private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> nodeCharacteristicIdBuilder_;
       /**
-       * <code>optional .dstore.values.IntegerValue node_characteristic_id = 2;</code>
+       * <code>.dstore.values.IntegerValue node_characteristic_id = 2;</code>
        */
       public boolean hasNodeCharacteristicId() {
         return nodeCharacteristicIdBuilder_ != null || nodeCharacteristicId_ != null;
       }
       /**
-       * <code>optional .dstore.values.IntegerValue node_characteristic_id = 2;</code>
+       * <code>.dstore.values.IntegerValue node_characteristic_id = 2;</code>
        */
       public io.dstore.values.IntegerValue getNodeCharacteristicId() {
         if (nodeCharacteristicIdBuilder_ == null) {
@@ -840,7 +840,7 @@ public final class ImGetValueDetailsPu {
         }
       }
       /**
-       * <code>optional .dstore.values.IntegerValue node_characteristic_id = 2;</code>
+       * <code>.dstore.values.IntegerValue node_characteristic_id = 2;</code>
        */
       public Builder setNodeCharacteristicId(io.dstore.values.IntegerValue value) {
         if (nodeCharacteristicIdBuilder_ == null) {
@@ -856,7 +856,7 @@ public final class ImGetValueDetailsPu {
         return this;
       }
       /**
-       * <code>optional .dstore.values.IntegerValue node_characteristic_id = 2;</code>
+       * <code>.dstore.values.IntegerValue node_characteristic_id = 2;</code>
        */
       public Builder setNodeCharacteristicId(
           io.dstore.values.IntegerValue.Builder builderForValue) {
@@ -870,7 +870,7 @@ public final class ImGetValueDetailsPu {
         return this;
       }
       /**
-       * <code>optional .dstore.values.IntegerValue node_characteristic_id = 2;</code>
+       * <code>.dstore.values.IntegerValue node_characteristic_id = 2;</code>
        */
       public Builder mergeNodeCharacteristicId(io.dstore.values.IntegerValue value) {
         if (nodeCharacteristicIdBuilder_ == null) {
@@ -888,7 +888,7 @@ public final class ImGetValueDetailsPu {
         return this;
       }
       /**
-       * <code>optional .dstore.values.IntegerValue node_characteristic_id = 2;</code>
+       * <code>.dstore.values.IntegerValue node_characteristic_id = 2;</code>
        */
       public Builder clearNodeCharacteristicId() {
         if (nodeCharacteristicIdBuilder_ == null) {
@@ -902,7 +902,7 @@ public final class ImGetValueDetailsPu {
         return this;
       }
       /**
-       * <code>optional .dstore.values.IntegerValue node_characteristic_id = 2;</code>
+       * <code>.dstore.values.IntegerValue node_characteristic_id = 2;</code>
        */
       public io.dstore.values.IntegerValue.Builder getNodeCharacteristicIdBuilder() {
         
@@ -910,7 +910,7 @@ public final class ImGetValueDetailsPu {
         return getNodeCharacteristicIdFieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .dstore.values.IntegerValue node_characteristic_id = 2;</code>
+       * <code>.dstore.values.IntegerValue node_characteristic_id = 2;</code>
        */
       public io.dstore.values.IntegerValueOrBuilder getNodeCharacteristicIdOrBuilder() {
         if (nodeCharacteristicIdBuilder_ != null) {
@@ -921,7 +921,7 @@ public final class ImGetValueDetailsPu {
         }
       }
       /**
-       * <code>optional .dstore.values.IntegerValue node_characteristic_id = 2;</code>
+       * <code>.dstore.values.IntegerValue node_characteristic_id = 2;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> 
@@ -939,13 +939,13 @@ public final class ImGetValueDetailsPu {
 
       private boolean nodeCharacteristicIdNull_ ;
       /**
-       * <code>optional bool node_characteristic_id_null = 1002;</code>
+       * <code>bool node_characteristic_id_null = 1002;</code>
        */
       public boolean getNodeCharacteristicIdNull() {
         return nodeCharacteristicIdNull_;
       }
       /**
-       * <code>optional bool node_characteristic_id_null = 1002;</code>
+       * <code>bool node_characteristic_id_null = 1002;</code>
        */
       public Builder setNodeCharacteristicIdNull(boolean value) {
         
@@ -954,7 +954,7 @@ public final class ImGetValueDetailsPu {
         return this;
       }
       /**
-       * <code>optional bool node_characteristic_id_null = 1002;</code>
+       * <code>bool node_characteristic_id_null = 1002;</code>
        */
       public Builder clearNodeCharacteristicIdNull() {
         
@@ -967,13 +967,13 @@ public final class ImGetValueDetailsPu {
       private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.values.StringValue, io.dstore.values.StringValue.Builder, io.dstore.values.StringValueOrBuilder> valueBuilder_;
       /**
-       * <code>optional .dstore.values.StringValue value = 3;</code>
+       * <code>.dstore.values.StringValue value = 3;</code>
        */
       public boolean hasValue() {
         return valueBuilder_ != null || value_ != null;
       }
       /**
-       * <code>optional .dstore.values.StringValue value = 3;</code>
+       * <code>.dstore.values.StringValue value = 3;</code>
        */
       public io.dstore.values.StringValue getValue() {
         if (valueBuilder_ == null) {
@@ -983,7 +983,7 @@ public final class ImGetValueDetailsPu {
         }
       }
       /**
-       * <code>optional .dstore.values.StringValue value = 3;</code>
+       * <code>.dstore.values.StringValue value = 3;</code>
        */
       public Builder setValue(io.dstore.values.StringValue value) {
         if (valueBuilder_ == null) {
@@ -999,7 +999,7 @@ public final class ImGetValueDetailsPu {
         return this;
       }
       /**
-       * <code>optional .dstore.values.StringValue value = 3;</code>
+       * <code>.dstore.values.StringValue value = 3;</code>
        */
       public Builder setValue(
           io.dstore.values.StringValue.Builder builderForValue) {
@@ -1013,7 +1013,7 @@ public final class ImGetValueDetailsPu {
         return this;
       }
       /**
-       * <code>optional .dstore.values.StringValue value = 3;</code>
+       * <code>.dstore.values.StringValue value = 3;</code>
        */
       public Builder mergeValue(io.dstore.values.StringValue value) {
         if (valueBuilder_ == null) {
@@ -1031,7 +1031,7 @@ public final class ImGetValueDetailsPu {
         return this;
       }
       /**
-       * <code>optional .dstore.values.StringValue value = 3;</code>
+       * <code>.dstore.values.StringValue value = 3;</code>
        */
       public Builder clearValue() {
         if (valueBuilder_ == null) {
@@ -1045,7 +1045,7 @@ public final class ImGetValueDetailsPu {
         return this;
       }
       /**
-       * <code>optional .dstore.values.StringValue value = 3;</code>
+       * <code>.dstore.values.StringValue value = 3;</code>
        */
       public io.dstore.values.StringValue.Builder getValueBuilder() {
         
@@ -1053,7 +1053,7 @@ public final class ImGetValueDetailsPu {
         return getValueFieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .dstore.values.StringValue value = 3;</code>
+       * <code>.dstore.values.StringValue value = 3;</code>
        */
       public io.dstore.values.StringValueOrBuilder getValueOrBuilder() {
         if (valueBuilder_ != null) {
@@ -1064,7 +1064,7 @@ public final class ImGetValueDetailsPu {
         }
       }
       /**
-       * <code>optional .dstore.values.StringValue value = 3;</code>
+       * <code>.dstore.values.StringValue value = 3;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.values.StringValue, io.dstore.values.StringValue.Builder, io.dstore.values.StringValueOrBuilder> 
@@ -1082,13 +1082,13 @@ public final class ImGetValueDetailsPu {
 
       private boolean valueNull_ ;
       /**
-       * <code>optional bool value_null = 1003;</code>
+       * <code>bool value_null = 1003;</code>
        */
       public boolean getValueNull() {
         return valueNull_;
       }
       /**
-       * <code>optional bool value_null = 1003;</code>
+       * <code>bool value_null = 1003;</code>
        */
       public Builder setValueNull(boolean value) {
         
@@ -1097,7 +1097,7 @@ public final class ImGetValueDetailsPu {
         return this;
       }
       /**
-       * <code>optional bool value_null = 1003;</code>
+       * <code>bool value_null = 1003;</code>
        */
       public Builder clearValueNull() {
         
@@ -1356,7 +1356,7 @@ public final class ImGetValueDetailsPu {
         com.google.protobuf.MessageOrBuilder {
 
       /**
-       * <code>optional int32 row_id = 10000;</code>
+       * <code>int32 row_id = 10000;</code>
        */
       int getRowId();
 
@@ -1365,7 +1365,7 @@ public final class ImGetValueDetailsPu {
        * Details zur Eigenschaft "Value"
        * </pre>
        *
-       * <code>optional .dstore.values.StringValue details = 10001;</code>
+       * <code>.dstore.values.StringValue details = 10001;</code>
        */
       boolean hasDetails();
       /**
@@ -1373,7 +1373,7 @@ public final class ImGetValueDetailsPu {
        * Details zur Eigenschaft "Value"
        * </pre>
        *
-       * <code>optional .dstore.values.StringValue details = 10001;</code>
+       * <code>.dstore.values.StringValue details = 10001;</code>
        */
       io.dstore.values.StringValue getDetails();
       /**
@@ -1381,7 +1381,7 @@ public final class ImGetValueDetailsPu {
        * Details zur Eigenschaft "Value"
        * </pre>
        *
-       * <code>optional .dstore.values.StringValue details = 10001;</code>
+       * <code>.dstore.values.StringValue details = 10001;</code>
        */
       io.dstore.values.StringValueOrBuilder getDetailsOrBuilder();
 
@@ -1390,7 +1390,7 @@ public final class ImGetValueDetailsPu {
        * Die aktuelle Eigenschaft des Elementes "&#64;TreeNodeID" zum Merkmal "&#64;NodeCharacteristicID"
        * </pre>
        *
-       * <code>optional .dstore.values.StringValue value = 10002;</code>
+       * <code>.dstore.values.StringValue value = 10002;</code>
        */
       boolean hasValue();
       /**
@@ -1398,7 +1398,7 @@ public final class ImGetValueDetailsPu {
        * Die aktuelle Eigenschaft des Elementes "&#64;TreeNodeID" zum Merkmal "&#64;NodeCharacteristicID"
        * </pre>
        *
-       * <code>optional .dstore.values.StringValue value = 10002;</code>
+       * <code>.dstore.values.StringValue value = 10002;</code>
        */
       io.dstore.values.StringValue getValue();
       /**
@@ -1406,7 +1406,7 @@ public final class ImGetValueDetailsPu {
        * Die aktuelle Eigenschaft des Elementes "&#64;TreeNodeID" zum Merkmal "&#64;NodeCharacteristicID"
        * </pre>
        *
-       * <code>optional .dstore.values.StringValue value = 10002;</code>
+       * <code>.dstore.values.StringValue value = 10002;</code>
        */
       io.dstore.values.StringValueOrBuilder getValueOrBuilder();
 
@@ -1415,7 +1415,7 @@ public final class ImGetValueDetailsPu {
        * ID der aktuellen Eigenschaft ("Value") des Elementes "&#64;TreeNodeID" zum Merkmal "&#64;NodeCharacteristicID"
        * </pre>
        *
-       * <code>optional .dstore.values.IntegerValue value_id = 10003;</code>
+       * <code>.dstore.values.IntegerValue value_id = 10003;</code>
        */
       boolean hasValueId();
       /**
@@ -1423,7 +1423,7 @@ public final class ImGetValueDetailsPu {
        * ID der aktuellen Eigenschaft ("Value") des Elementes "&#64;TreeNodeID" zum Merkmal "&#64;NodeCharacteristicID"
        * </pre>
        *
-       * <code>optional .dstore.values.IntegerValue value_id = 10003;</code>
+       * <code>.dstore.values.IntegerValue value_id = 10003;</code>
        */
       io.dstore.values.IntegerValue getValueId();
       /**
@@ -1431,7 +1431,7 @@ public final class ImGetValueDetailsPu {
        * ID der aktuellen Eigenschaft ("Value") des Elementes "&#64;TreeNodeID" zum Merkmal "&#64;NodeCharacteristicID"
        * </pre>
        *
-       * <code>optional .dstore.values.IntegerValue value_id = 10003;</code>
+       * <code>.dstore.values.IntegerValue value_id = 10003;</code>
        */
       io.dstore.values.IntegerValueOrBuilder getValueIdOrBuilder();
     }
@@ -1545,7 +1545,7 @@ public final class ImGetValueDetailsPu {
       public static final int ROW_ID_FIELD_NUMBER = 10000;
       private int rowId_;
       /**
-       * <code>optional int32 row_id = 10000;</code>
+       * <code>int32 row_id = 10000;</code>
        */
       public int getRowId() {
         return rowId_;
@@ -1558,7 +1558,7 @@ public final class ImGetValueDetailsPu {
        * Details zur Eigenschaft "Value"
        * </pre>
        *
-       * <code>optional .dstore.values.StringValue details = 10001;</code>
+       * <code>.dstore.values.StringValue details = 10001;</code>
        */
       public boolean hasDetails() {
         return details_ != null;
@@ -1568,7 +1568,7 @@ public final class ImGetValueDetailsPu {
        * Details zur Eigenschaft "Value"
        * </pre>
        *
-       * <code>optional .dstore.values.StringValue details = 10001;</code>
+       * <code>.dstore.values.StringValue details = 10001;</code>
        */
       public io.dstore.values.StringValue getDetails() {
         return details_ == null ? io.dstore.values.StringValue.getDefaultInstance() : details_;
@@ -1578,7 +1578,7 @@ public final class ImGetValueDetailsPu {
        * Details zur Eigenschaft "Value"
        * </pre>
        *
-       * <code>optional .dstore.values.StringValue details = 10001;</code>
+       * <code>.dstore.values.StringValue details = 10001;</code>
        */
       public io.dstore.values.StringValueOrBuilder getDetailsOrBuilder() {
         return getDetails();
@@ -1591,7 +1591,7 @@ public final class ImGetValueDetailsPu {
        * Die aktuelle Eigenschaft des Elementes "&#64;TreeNodeID" zum Merkmal "&#64;NodeCharacteristicID"
        * </pre>
        *
-       * <code>optional .dstore.values.StringValue value = 10002;</code>
+       * <code>.dstore.values.StringValue value = 10002;</code>
        */
       public boolean hasValue() {
         return value_ != null;
@@ -1601,7 +1601,7 @@ public final class ImGetValueDetailsPu {
        * Die aktuelle Eigenschaft des Elementes "&#64;TreeNodeID" zum Merkmal "&#64;NodeCharacteristicID"
        * </pre>
        *
-       * <code>optional .dstore.values.StringValue value = 10002;</code>
+       * <code>.dstore.values.StringValue value = 10002;</code>
        */
       public io.dstore.values.StringValue getValue() {
         return value_ == null ? io.dstore.values.StringValue.getDefaultInstance() : value_;
@@ -1611,7 +1611,7 @@ public final class ImGetValueDetailsPu {
        * Die aktuelle Eigenschaft des Elementes "&#64;TreeNodeID" zum Merkmal "&#64;NodeCharacteristicID"
        * </pre>
        *
-       * <code>optional .dstore.values.StringValue value = 10002;</code>
+       * <code>.dstore.values.StringValue value = 10002;</code>
        */
       public io.dstore.values.StringValueOrBuilder getValueOrBuilder() {
         return getValue();
@@ -1624,7 +1624,7 @@ public final class ImGetValueDetailsPu {
        * ID der aktuellen Eigenschaft ("Value") des Elementes "&#64;TreeNodeID" zum Merkmal "&#64;NodeCharacteristicID"
        * </pre>
        *
-       * <code>optional .dstore.values.IntegerValue value_id = 10003;</code>
+       * <code>.dstore.values.IntegerValue value_id = 10003;</code>
        */
       public boolean hasValueId() {
         return valueId_ != null;
@@ -1634,7 +1634,7 @@ public final class ImGetValueDetailsPu {
        * ID der aktuellen Eigenschaft ("Value") des Elementes "&#64;TreeNodeID" zum Merkmal "&#64;NodeCharacteristicID"
        * </pre>
        *
-       * <code>optional .dstore.values.IntegerValue value_id = 10003;</code>
+       * <code>.dstore.values.IntegerValue value_id = 10003;</code>
        */
       public io.dstore.values.IntegerValue getValueId() {
         return valueId_ == null ? io.dstore.values.IntegerValue.getDefaultInstance() : valueId_;
@@ -1644,7 +1644,7 @@ public final class ImGetValueDetailsPu {
        * ID der aktuellen Eigenschaft ("Value") des Elementes "&#64;TreeNodeID" zum Merkmal "&#64;NodeCharacteristicID"
        * </pre>
        *
-       * <code>optional .dstore.values.IntegerValue value_id = 10003;</code>
+       * <code>.dstore.values.IntegerValue value_id = 10003;</code>
        */
       public io.dstore.values.IntegerValueOrBuilder getValueIdOrBuilder() {
         return getValueId();
@@ -1739,7 +1739,7 @@ public final class ImGetValueDetailsPu {
           return memoizedHashCode;
         }
         int hash = 41;
-        hash = (19 * hash) + getDescriptorForType().hashCode();
+        hash = (19 * hash) + getDescriptor().hashCode();
         hash = (37 * hash) + ROW_ID_FIELD_NUMBER;
         hash = (53 * hash) + getRowId();
         if (hasDetails()) {
@@ -2011,13 +2011,13 @@ public final class ImGetValueDetailsPu {
 
         private int rowId_ ;
         /**
-         * <code>optional int32 row_id = 10000;</code>
+         * <code>int32 row_id = 10000;</code>
          */
         public int getRowId() {
           return rowId_;
         }
         /**
-         * <code>optional int32 row_id = 10000;</code>
+         * <code>int32 row_id = 10000;</code>
          */
         public Builder setRowId(int value) {
           
@@ -2026,7 +2026,7 @@ public final class ImGetValueDetailsPu {
           return this;
         }
         /**
-         * <code>optional int32 row_id = 10000;</code>
+         * <code>int32 row_id = 10000;</code>
          */
         public Builder clearRowId() {
           
@@ -2043,7 +2043,7 @@ public final class ImGetValueDetailsPu {
          * Details zur Eigenschaft "Value"
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue details = 10001;</code>
+         * <code>.dstore.values.StringValue details = 10001;</code>
          */
         public boolean hasDetails() {
           return detailsBuilder_ != null || details_ != null;
@@ -2053,7 +2053,7 @@ public final class ImGetValueDetailsPu {
          * Details zur Eigenschaft "Value"
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue details = 10001;</code>
+         * <code>.dstore.values.StringValue details = 10001;</code>
          */
         public io.dstore.values.StringValue getDetails() {
           if (detailsBuilder_ == null) {
@@ -2067,7 +2067,7 @@ public final class ImGetValueDetailsPu {
          * Details zur Eigenschaft "Value"
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue details = 10001;</code>
+         * <code>.dstore.values.StringValue details = 10001;</code>
          */
         public Builder setDetails(io.dstore.values.StringValue value) {
           if (detailsBuilder_ == null) {
@@ -2087,7 +2087,7 @@ public final class ImGetValueDetailsPu {
          * Details zur Eigenschaft "Value"
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue details = 10001;</code>
+         * <code>.dstore.values.StringValue details = 10001;</code>
          */
         public Builder setDetails(
             io.dstore.values.StringValue.Builder builderForValue) {
@@ -2105,7 +2105,7 @@ public final class ImGetValueDetailsPu {
          * Details zur Eigenschaft "Value"
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue details = 10001;</code>
+         * <code>.dstore.values.StringValue details = 10001;</code>
          */
         public Builder mergeDetails(io.dstore.values.StringValue value) {
           if (detailsBuilder_ == null) {
@@ -2127,7 +2127,7 @@ public final class ImGetValueDetailsPu {
          * Details zur Eigenschaft "Value"
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue details = 10001;</code>
+         * <code>.dstore.values.StringValue details = 10001;</code>
          */
         public Builder clearDetails() {
           if (detailsBuilder_ == null) {
@@ -2145,7 +2145,7 @@ public final class ImGetValueDetailsPu {
          * Details zur Eigenschaft "Value"
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue details = 10001;</code>
+         * <code>.dstore.values.StringValue details = 10001;</code>
          */
         public io.dstore.values.StringValue.Builder getDetailsBuilder() {
           
@@ -2157,7 +2157,7 @@ public final class ImGetValueDetailsPu {
          * Details zur Eigenschaft "Value"
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue details = 10001;</code>
+         * <code>.dstore.values.StringValue details = 10001;</code>
          */
         public io.dstore.values.StringValueOrBuilder getDetailsOrBuilder() {
           if (detailsBuilder_ != null) {
@@ -2172,7 +2172,7 @@ public final class ImGetValueDetailsPu {
          * Details zur Eigenschaft "Value"
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue details = 10001;</code>
+         * <code>.dstore.values.StringValue details = 10001;</code>
          */
         private com.google.protobuf.SingleFieldBuilderV3<
             io.dstore.values.StringValue, io.dstore.values.StringValue.Builder, io.dstore.values.StringValueOrBuilder> 
@@ -2196,7 +2196,7 @@ public final class ImGetValueDetailsPu {
          * Die aktuelle Eigenschaft des Elementes "&#64;TreeNodeID" zum Merkmal "&#64;NodeCharacteristicID"
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue value = 10002;</code>
+         * <code>.dstore.values.StringValue value = 10002;</code>
          */
         public boolean hasValue() {
           return valueBuilder_ != null || value_ != null;
@@ -2206,7 +2206,7 @@ public final class ImGetValueDetailsPu {
          * Die aktuelle Eigenschaft des Elementes "&#64;TreeNodeID" zum Merkmal "&#64;NodeCharacteristicID"
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue value = 10002;</code>
+         * <code>.dstore.values.StringValue value = 10002;</code>
          */
         public io.dstore.values.StringValue getValue() {
           if (valueBuilder_ == null) {
@@ -2220,7 +2220,7 @@ public final class ImGetValueDetailsPu {
          * Die aktuelle Eigenschaft des Elementes "&#64;TreeNodeID" zum Merkmal "&#64;NodeCharacteristicID"
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue value = 10002;</code>
+         * <code>.dstore.values.StringValue value = 10002;</code>
          */
         public Builder setValue(io.dstore.values.StringValue value) {
           if (valueBuilder_ == null) {
@@ -2240,7 +2240,7 @@ public final class ImGetValueDetailsPu {
          * Die aktuelle Eigenschaft des Elementes "&#64;TreeNodeID" zum Merkmal "&#64;NodeCharacteristicID"
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue value = 10002;</code>
+         * <code>.dstore.values.StringValue value = 10002;</code>
          */
         public Builder setValue(
             io.dstore.values.StringValue.Builder builderForValue) {
@@ -2258,7 +2258,7 @@ public final class ImGetValueDetailsPu {
          * Die aktuelle Eigenschaft des Elementes "&#64;TreeNodeID" zum Merkmal "&#64;NodeCharacteristicID"
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue value = 10002;</code>
+         * <code>.dstore.values.StringValue value = 10002;</code>
          */
         public Builder mergeValue(io.dstore.values.StringValue value) {
           if (valueBuilder_ == null) {
@@ -2280,7 +2280,7 @@ public final class ImGetValueDetailsPu {
          * Die aktuelle Eigenschaft des Elementes "&#64;TreeNodeID" zum Merkmal "&#64;NodeCharacteristicID"
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue value = 10002;</code>
+         * <code>.dstore.values.StringValue value = 10002;</code>
          */
         public Builder clearValue() {
           if (valueBuilder_ == null) {
@@ -2298,7 +2298,7 @@ public final class ImGetValueDetailsPu {
          * Die aktuelle Eigenschaft des Elementes "&#64;TreeNodeID" zum Merkmal "&#64;NodeCharacteristicID"
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue value = 10002;</code>
+         * <code>.dstore.values.StringValue value = 10002;</code>
          */
         public io.dstore.values.StringValue.Builder getValueBuilder() {
           
@@ -2310,7 +2310,7 @@ public final class ImGetValueDetailsPu {
          * Die aktuelle Eigenschaft des Elementes "&#64;TreeNodeID" zum Merkmal "&#64;NodeCharacteristicID"
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue value = 10002;</code>
+         * <code>.dstore.values.StringValue value = 10002;</code>
          */
         public io.dstore.values.StringValueOrBuilder getValueOrBuilder() {
           if (valueBuilder_ != null) {
@@ -2325,7 +2325,7 @@ public final class ImGetValueDetailsPu {
          * Die aktuelle Eigenschaft des Elementes "&#64;TreeNodeID" zum Merkmal "&#64;NodeCharacteristicID"
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue value = 10002;</code>
+         * <code>.dstore.values.StringValue value = 10002;</code>
          */
         private com.google.protobuf.SingleFieldBuilderV3<
             io.dstore.values.StringValue, io.dstore.values.StringValue.Builder, io.dstore.values.StringValueOrBuilder> 
@@ -2349,7 +2349,7 @@ public final class ImGetValueDetailsPu {
          * ID der aktuellen Eigenschaft ("Value") des Elementes "&#64;TreeNodeID" zum Merkmal "&#64;NodeCharacteristicID"
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue value_id = 10003;</code>
+         * <code>.dstore.values.IntegerValue value_id = 10003;</code>
          */
         public boolean hasValueId() {
           return valueIdBuilder_ != null || valueId_ != null;
@@ -2359,7 +2359,7 @@ public final class ImGetValueDetailsPu {
          * ID der aktuellen Eigenschaft ("Value") des Elementes "&#64;TreeNodeID" zum Merkmal "&#64;NodeCharacteristicID"
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue value_id = 10003;</code>
+         * <code>.dstore.values.IntegerValue value_id = 10003;</code>
          */
         public io.dstore.values.IntegerValue getValueId() {
           if (valueIdBuilder_ == null) {
@@ -2373,7 +2373,7 @@ public final class ImGetValueDetailsPu {
          * ID der aktuellen Eigenschaft ("Value") des Elementes "&#64;TreeNodeID" zum Merkmal "&#64;NodeCharacteristicID"
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue value_id = 10003;</code>
+         * <code>.dstore.values.IntegerValue value_id = 10003;</code>
          */
         public Builder setValueId(io.dstore.values.IntegerValue value) {
           if (valueIdBuilder_ == null) {
@@ -2393,7 +2393,7 @@ public final class ImGetValueDetailsPu {
          * ID der aktuellen Eigenschaft ("Value") des Elementes "&#64;TreeNodeID" zum Merkmal "&#64;NodeCharacteristicID"
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue value_id = 10003;</code>
+         * <code>.dstore.values.IntegerValue value_id = 10003;</code>
          */
         public Builder setValueId(
             io.dstore.values.IntegerValue.Builder builderForValue) {
@@ -2411,7 +2411,7 @@ public final class ImGetValueDetailsPu {
          * ID der aktuellen Eigenschaft ("Value") des Elementes "&#64;TreeNodeID" zum Merkmal "&#64;NodeCharacteristicID"
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue value_id = 10003;</code>
+         * <code>.dstore.values.IntegerValue value_id = 10003;</code>
          */
         public Builder mergeValueId(io.dstore.values.IntegerValue value) {
           if (valueIdBuilder_ == null) {
@@ -2433,7 +2433,7 @@ public final class ImGetValueDetailsPu {
          * ID der aktuellen Eigenschaft ("Value") des Elementes "&#64;TreeNodeID" zum Merkmal "&#64;NodeCharacteristicID"
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue value_id = 10003;</code>
+         * <code>.dstore.values.IntegerValue value_id = 10003;</code>
          */
         public Builder clearValueId() {
           if (valueIdBuilder_ == null) {
@@ -2451,7 +2451,7 @@ public final class ImGetValueDetailsPu {
          * ID der aktuellen Eigenschaft ("Value") des Elementes "&#64;TreeNodeID" zum Merkmal "&#64;NodeCharacteristicID"
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue value_id = 10003;</code>
+         * <code>.dstore.values.IntegerValue value_id = 10003;</code>
          */
         public io.dstore.values.IntegerValue.Builder getValueIdBuilder() {
           
@@ -2463,7 +2463,7 @@ public final class ImGetValueDetailsPu {
          * ID der aktuellen Eigenschaft ("Value") des Elementes "&#64;TreeNodeID" zum Merkmal "&#64;NodeCharacteristicID"
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue value_id = 10003;</code>
+         * <code>.dstore.values.IntegerValue value_id = 10003;</code>
          */
         public io.dstore.values.IntegerValueOrBuilder getValueIdOrBuilder() {
           if (valueIdBuilder_ != null) {
@@ -2478,7 +2478,7 @@ public final class ImGetValueDetailsPu {
          * ID der aktuellen Eigenschaft ("Value") des Elementes "&#64;TreeNodeID" zum Merkmal "&#64;NodeCharacteristicID"
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue value_id = 10003;</code>
+         * <code>.dstore.values.IntegerValue value_id = 10003;</code>
          */
         private com.google.protobuf.SingleFieldBuilderV3<
             io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> 
@@ -2738,7 +2738,7 @@ public final class ImGetValueDetailsPu {
         return memoizedHashCode;
       }
       int hash = 41;
-      hash = (19 * hash) + getDescriptorForType().hashCode();
+      hash = (19 * hash) + getDescriptor().hashCode();
       if (getMetaInformationCount() > 0) {
         hash = (37 * hash) + META_INFORMATION_FIELD_NUMBER;
         hash = (53 * hash) + getMetaInformationList().hashCode();

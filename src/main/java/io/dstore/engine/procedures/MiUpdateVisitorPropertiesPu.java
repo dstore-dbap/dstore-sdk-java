@@ -19,74 +19,74 @@ public final class MiUpdateVisitorPropertiesPu {
       com.google.protobuf.MessageOrBuilder {
 
     /**
-     * <code>optional .dstore.values.StringValue unique_id = 1;</code>
+     * <code>.dstore.values.StringValue unique_id = 1;</code>
      */
     boolean hasUniqueId();
     /**
-     * <code>optional .dstore.values.StringValue unique_id = 1;</code>
+     * <code>.dstore.values.StringValue unique_id = 1;</code>
      */
     io.dstore.values.StringValue getUniqueId();
     /**
-     * <code>optional .dstore.values.StringValue unique_id = 1;</code>
+     * <code>.dstore.values.StringValue unique_id = 1;</code>
      */
     io.dstore.values.StringValueOrBuilder getUniqueIdOrBuilder();
 
     /**
-     * <code>optional bool unique_id_null = 1001;</code>
+     * <code>bool unique_id_null = 1001;</code>
      */
     boolean getUniqueIdNull();
 
     /**
-     * <code>optional .dstore.values.IntegerValue country_id = 2;</code>
+     * <code>.dstore.values.IntegerValue country_id = 2;</code>
      */
     boolean hasCountryId();
     /**
-     * <code>optional .dstore.values.IntegerValue country_id = 2;</code>
+     * <code>.dstore.values.IntegerValue country_id = 2;</code>
      */
     io.dstore.values.IntegerValue getCountryId();
     /**
-     * <code>optional .dstore.values.IntegerValue country_id = 2;</code>
+     * <code>.dstore.values.IntegerValue country_id = 2;</code>
      */
     io.dstore.values.IntegerValueOrBuilder getCountryIdOrBuilder();
 
     /**
-     * <code>optional bool country_id_null = 1002;</code>
+     * <code>bool country_id_null = 1002;</code>
      */
     boolean getCountryIdNull();
 
     /**
-     * <code>optional .dstore.values.IntegerValue language_id = 3;</code>
+     * <code>.dstore.values.IntegerValue language_id = 3;</code>
      */
     boolean hasLanguageId();
     /**
-     * <code>optional .dstore.values.IntegerValue language_id = 3;</code>
+     * <code>.dstore.values.IntegerValue language_id = 3;</code>
      */
     io.dstore.values.IntegerValue getLanguageId();
     /**
-     * <code>optional .dstore.values.IntegerValue language_id = 3;</code>
+     * <code>.dstore.values.IntegerValue language_id = 3;</code>
      */
     io.dstore.values.IntegerValueOrBuilder getLanguageIdOrBuilder();
 
     /**
-     * <code>optional bool language_id_null = 1003;</code>
+     * <code>bool language_id_null = 1003;</code>
      */
     boolean getLanguageIdNull();
 
     /**
-     * <code>optional .dstore.values.IntegerValue currency_id = 4;</code>
+     * <code>.dstore.values.IntegerValue currency_id = 4;</code>
      */
     boolean hasCurrencyId();
     /**
-     * <code>optional .dstore.values.IntegerValue currency_id = 4;</code>
+     * <code>.dstore.values.IntegerValue currency_id = 4;</code>
      */
     io.dstore.values.IntegerValue getCurrencyId();
     /**
-     * <code>optional .dstore.values.IntegerValue currency_id = 4;</code>
+     * <code>.dstore.values.IntegerValue currency_id = 4;</code>
      */
     io.dstore.values.IntegerValueOrBuilder getCurrencyIdOrBuilder();
 
     /**
-     * <code>optional bool currency_id_null = 1004;</code>
+     * <code>bool currency_id_null = 1004;</code>
      */
     boolean getCurrencyIdNull();
   }
@@ -231,19 +231,19 @@ public final class MiUpdateVisitorPropertiesPu {
     public static final int UNIQUE_ID_FIELD_NUMBER = 1;
     private io.dstore.values.StringValue uniqueId_;
     /**
-     * <code>optional .dstore.values.StringValue unique_id = 1;</code>
+     * <code>.dstore.values.StringValue unique_id = 1;</code>
      */
     public boolean hasUniqueId() {
       return uniqueId_ != null;
     }
     /**
-     * <code>optional .dstore.values.StringValue unique_id = 1;</code>
+     * <code>.dstore.values.StringValue unique_id = 1;</code>
      */
     public io.dstore.values.StringValue getUniqueId() {
       return uniqueId_ == null ? io.dstore.values.StringValue.getDefaultInstance() : uniqueId_;
     }
     /**
-     * <code>optional .dstore.values.StringValue unique_id = 1;</code>
+     * <code>.dstore.values.StringValue unique_id = 1;</code>
      */
     public io.dstore.values.StringValueOrBuilder getUniqueIdOrBuilder() {
       return getUniqueId();
@@ -252,7 +252,7 @@ public final class MiUpdateVisitorPropertiesPu {
     public static final int UNIQUE_ID_NULL_FIELD_NUMBER = 1001;
     private boolean uniqueIdNull_;
     /**
-     * <code>optional bool unique_id_null = 1001;</code>
+     * <code>bool unique_id_null = 1001;</code>
      */
     public boolean getUniqueIdNull() {
       return uniqueIdNull_;
@@ -261,19 +261,19 @@ public final class MiUpdateVisitorPropertiesPu {
     public static final int COUNTRY_ID_FIELD_NUMBER = 2;
     private io.dstore.values.IntegerValue countryId_;
     /**
-     * <code>optional .dstore.values.IntegerValue country_id = 2;</code>
+     * <code>.dstore.values.IntegerValue country_id = 2;</code>
      */
     public boolean hasCountryId() {
       return countryId_ != null;
     }
     /**
-     * <code>optional .dstore.values.IntegerValue country_id = 2;</code>
+     * <code>.dstore.values.IntegerValue country_id = 2;</code>
      */
     public io.dstore.values.IntegerValue getCountryId() {
       return countryId_ == null ? io.dstore.values.IntegerValue.getDefaultInstance() : countryId_;
     }
     /**
-     * <code>optional .dstore.values.IntegerValue country_id = 2;</code>
+     * <code>.dstore.values.IntegerValue country_id = 2;</code>
      */
     public io.dstore.values.IntegerValueOrBuilder getCountryIdOrBuilder() {
       return getCountryId();
@@ -282,7 +282,7 @@ public final class MiUpdateVisitorPropertiesPu {
     public static final int COUNTRY_ID_NULL_FIELD_NUMBER = 1002;
     private boolean countryIdNull_;
     /**
-     * <code>optional bool country_id_null = 1002;</code>
+     * <code>bool country_id_null = 1002;</code>
      */
     public boolean getCountryIdNull() {
       return countryIdNull_;
@@ -291,19 +291,19 @@ public final class MiUpdateVisitorPropertiesPu {
     public static final int LANGUAGE_ID_FIELD_NUMBER = 3;
     private io.dstore.values.IntegerValue languageId_;
     /**
-     * <code>optional .dstore.values.IntegerValue language_id = 3;</code>
+     * <code>.dstore.values.IntegerValue language_id = 3;</code>
      */
     public boolean hasLanguageId() {
       return languageId_ != null;
     }
     /**
-     * <code>optional .dstore.values.IntegerValue language_id = 3;</code>
+     * <code>.dstore.values.IntegerValue language_id = 3;</code>
      */
     public io.dstore.values.IntegerValue getLanguageId() {
       return languageId_ == null ? io.dstore.values.IntegerValue.getDefaultInstance() : languageId_;
     }
     /**
-     * <code>optional .dstore.values.IntegerValue language_id = 3;</code>
+     * <code>.dstore.values.IntegerValue language_id = 3;</code>
      */
     public io.dstore.values.IntegerValueOrBuilder getLanguageIdOrBuilder() {
       return getLanguageId();
@@ -312,7 +312,7 @@ public final class MiUpdateVisitorPropertiesPu {
     public static final int LANGUAGE_ID_NULL_FIELD_NUMBER = 1003;
     private boolean languageIdNull_;
     /**
-     * <code>optional bool language_id_null = 1003;</code>
+     * <code>bool language_id_null = 1003;</code>
      */
     public boolean getLanguageIdNull() {
       return languageIdNull_;
@@ -321,19 +321,19 @@ public final class MiUpdateVisitorPropertiesPu {
     public static final int CURRENCY_ID_FIELD_NUMBER = 4;
     private io.dstore.values.IntegerValue currencyId_;
     /**
-     * <code>optional .dstore.values.IntegerValue currency_id = 4;</code>
+     * <code>.dstore.values.IntegerValue currency_id = 4;</code>
      */
     public boolean hasCurrencyId() {
       return currencyId_ != null;
     }
     /**
-     * <code>optional .dstore.values.IntegerValue currency_id = 4;</code>
+     * <code>.dstore.values.IntegerValue currency_id = 4;</code>
      */
     public io.dstore.values.IntegerValue getCurrencyId() {
       return currencyId_ == null ? io.dstore.values.IntegerValue.getDefaultInstance() : currencyId_;
     }
     /**
-     * <code>optional .dstore.values.IntegerValue currency_id = 4;</code>
+     * <code>.dstore.values.IntegerValue currency_id = 4;</code>
      */
     public io.dstore.values.IntegerValueOrBuilder getCurrencyIdOrBuilder() {
       return getCurrencyId();
@@ -342,7 +342,7 @@ public final class MiUpdateVisitorPropertiesPu {
     public static final int CURRENCY_ID_NULL_FIELD_NUMBER = 1004;
     private boolean currencyIdNull_;
     /**
-     * <code>optional bool currency_id_null = 1004;</code>
+     * <code>bool currency_id_null = 1004;</code>
      */
     public boolean getCurrencyIdNull() {
       return currencyIdNull_;
@@ -476,7 +476,7 @@ public final class MiUpdateVisitorPropertiesPu {
         return memoizedHashCode;
       }
       int hash = 41;
-      hash = (19 * hash) + getDescriptorForType().hashCode();
+      hash = (19 * hash) + getDescriptor().hashCode();
       if (hasUniqueId()) {
         hash = (37 * hash) + UNIQUE_ID_FIELD_NUMBER;
         hash = (53 * hash) + getUniqueId().hashCode();
@@ -796,13 +796,13 @@ public final class MiUpdateVisitorPropertiesPu {
       private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.values.StringValue, io.dstore.values.StringValue.Builder, io.dstore.values.StringValueOrBuilder> uniqueIdBuilder_;
       /**
-       * <code>optional .dstore.values.StringValue unique_id = 1;</code>
+       * <code>.dstore.values.StringValue unique_id = 1;</code>
        */
       public boolean hasUniqueId() {
         return uniqueIdBuilder_ != null || uniqueId_ != null;
       }
       /**
-       * <code>optional .dstore.values.StringValue unique_id = 1;</code>
+       * <code>.dstore.values.StringValue unique_id = 1;</code>
        */
       public io.dstore.values.StringValue getUniqueId() {
         if (uniqueIdBuilder_ == null) {
@@ -812,7 +812,7 @@ public final class MiUpdateVisitorPropertiesPu {
         }
       }
       /**
-       * <code>optional .dstore.values.StringValue unique_id = 1;</code>
+       * <code>.dstore.values.StringValue unique_id = 1;</code>
        */
       public Builder setUniqueId(io.dstore.values.StringValue value) {
         if (uniqueIdBuilder_ == null) {
@@ -828,7 +828,7 @@ public final class MiUpdateVisitorPropertiesPu {
         return this;
       }
       /**
-       * <code>optional .dstore.values.StringValue unique_id = 1;</code>
+       * <code>.dstore.values.StringValue unique_id = 1;</code>
        */
       public Builder setUniqueId(
           io.dstore.values.StringValue.Builder builderForValue) {
@@ -842,7 +842,7 @@ public final class MiUpdateVisitorPropertiesPu {
         return this;
       }
       /**
-       * <code>optional .dstore.values.StringValue unique_id = 1;</code>
+       * <code>.dstore.values.StringValue unique_id = 1;</code>
        */
       public Builder mergeUniqueId(io.dstore.values.StringValue value) {
         if (uniqueIdBuilder_ == null) {
@@ -860,7 +860,7 @@ public final class MiUpdateVisitorPropertiesPu {
         return this;
       }
       /**
-       * <code>optional .dstore.values.StringValue unique_id = 1;</code>
+       * <code>.dstore.values.StringValue unique_id = 1;</code>
        */
       public Builder clearUniqueId() {
         if (uniqueIdBuilder_ == null) {
@@ -874,7 +874,7 @@ public final class MiUpdateVisitorPropertiesPu {
         return this;
       }
       /**
-       * <code>optional .dstore.values.StringValue unique_id = 1;</code>
+       * <code>.dstore.values.StringValue unique_id = 1;</code>
        */
       public io.dstore.values.StringValue.Builder getUniqueIdBuilder() {
         
@@ -882,7 +882,7 @@ public final class MiUpdateVisitorPropertiesPu {
         return getUniqueIdFieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .dstore.values.StringValue unique_id = 1;</code>
+       * <code>.dstore.values.StringValue unique_id = 1;</code>
        */
       public io.dstore.values.StringValueOrBuilder getUniqueIdOrBuilder() {
         if (uniqueIdBuilder_ != null) {
@@ -893,7 +893,7 @@ public final class MiUpdateVisitorPropertiesPu {
         }
       }
       /**
-       * <code>optional .dstore.values.StringValue unique_id = 1;</code>
+       * <code>.dstore.values.StringValue unique_id = 1;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.values.StringValue, io.dstore.values.StringValue.Builder, io.dstore.values.StringValueOrBuilder> 
@@ -911,13 +911,13 @@ public final class MiUpdateVisitorPropertiesPu {
 
       private boolean uniqueIdNull_ ;
       /**
-       * <code>optional bool unique_id_null = 1001;</code>
+       * <code>bool unique_id_null = 1001;</code>
        */
       public boolean getUniqueIdNull() {
         return uniqueIdNull_;
       }
       /**
-       * <code>optional bool unique_id_null = 1001;</code>
+       * <code>bool unique_id_null = 1001;</code>
        */
       public Builder setUniqueIdNull(boolean value) {
         
@@ -926,7 +926,7 @@ public final class MiUpdateVisitorPropertiesPu {
         return this;
       }
       /**
-       * <code>optional bool unique_id_null = 1001;</code>
+       * <code>bool unique_id_null = 1001;</code>
        */
       public Builder clearUniqueIdNull() {
         
@@ -939,13 +939,13 @@ public final class MiUpdateVisitorPropertiesPu {
       private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> countryIdBuilder_;
       /**
-       * <code>optional .dstore.values.IntegerValue country_id = 2;</code>
+       * <code>.dstore.values.IntegerValue country_id = 2;</code>
        */
       public boolean hasCountryId() {
         return countryIdBuilder_ != null || countryId_ != null;
       }
       /**
-       * <code>optional .dstore.values.IntegerValue country_id = 2;</code>
+       * <code>.dstore.values.IntegerValue country_id = 2;</code>
        */
       public io.dstore.values.IntegerValue getCountryId() {
         if (countryIdBuilder_ == null) {
@@ -955,7 +955,7 @@ public final class MiUpdateVisitorPropertiesPu {
         }
       }
       /**
-       * <code>optional .dstore.values.IntegerValue country_id = 2;</code>
+       * <code>.dstore.values.IntegerValue country_id = 2;</code>
        */
       public Builder setCountryId(io.dstore.values.IntegerValue value) {
         if (countryIdBuilder_ == null) {
@@ -971,7 +971,7 @@ public final class MiUpdateVisitorPropertiesPu {
         return this;
       }
       /**
-       * <code>optional .dstore.values.IntegerValue country_id = 2;</code>
+       * <code>.dstore.values.IntegerValue country_id = 2;</code>
        */
       public Builder setCountryId(
           io.dstore.values.IntegerValue.Builder builderForValue) {
@@ -985,7 +985,7 @@ public final class MiUpdateVisitorPropertiesPu {
         return this;
       }
       /**
-       * <code>optional .dstore.values.IntegerValue country_id = 2;</code>
+       * <code>.dstore.values.IntegerValue country_id = 2;</code>
        */
       public Builder mergeCountryId(io.dstore.values.IntegerValue value) {
         if (countryIdBuilder_ == null) {
@@ -1003,7 +1003,7 @@ public final class MiUpdateVisitorPropertiesPu {
         return this;
       }
       /**
-       * <code>optional .dstore.values.IntegerValue country_id = 2;</code>
+       * <code>.dstore.values.IntegerValue country_id = 2;</code>
        */
       public Builder clearCountryId() {
         if (countryIdBuilder_ == null) {
@@ -1017,7 +1017,7 @@ public final class MiUpdateVisitorPropertiesPu {
         return this;
       }
       /**
-       * <code>optional .dstore.values.IntegerValue country_id = 2;</code>
+       * <code>.dstore.values.IntegerValue country_id = 2;</code>
        */
       public io.dstore.values.IntegerValue.Builder getCountryIdBuilder() {
         
@@ -1025,7 +1025,7 @@ public final class MiUpdateVisitorPropertiesPu {
         return getCountryIdFieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .dstore.values.IntegerValue country_id = 2;</code>
+       * <code>.dstore.values.IntegerValue country_id = 2;</code>
        */
       public io.dstore.values.IntegerValueOrBuilder getCountryIdOrBuilder() {
         if (countryIdBuilder_ != null) {
@@ -1036,7 +1036,7 @@ public final class MiUpdateVisitorPropertiesPu {
         }
       }
       /**
-       * <code>optional .dstore.values.IntegerValue country_id = 2;</code>
+       * <code>.dstore.values.IntegerValue country_id = 2;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> 
@@ -1054,13 +1054,13 @@ public final class MiUpdateVisitorPropertiesPu {
 
       private boolean countryIdNull_ ;
       /**
-       * <code>optional bool country_id_null = 1002;</code>
+       * <code>bool country_id_null = 1002;</code>
        */
       public boolean getCountryIdNull() {
         return countryIdNull_;
       }
       /**
-       * <code>optional bool country_id_null = 1002;</code>
+       * <code>bool country_id_null = 1002;</code>
        */
       public Builder setCountryIdNull(boolean value) {
         
@@ -1069,7 +1069,7 @@ public final class MiUpdateVisitorPropertiesPu {
         return this;
       }
       /**
-       * <code>optional bool country_id_null = 1002;</code>
+       * <code>bool country_id_null = 1002;</code>
        */
       public Builder clearCountryIdNull() {
         
@@ -1082,13 +1082,13 @@ public final class MiUpdateVisitorPropertiesPu {
       private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> languageIdBuilder_;
       /**
-       * <code>optional .dstore.values.IntegerValue language_id = 3;</code>
+       * <code>.dstore.values.IntegerValue language_id = 3;</code>
        */
       public boolean hasLanguageId() {
         return languageIdBuilder_ != null || languageId_ != null;
       }
       /**
-       * <code>optional .dstore.values.IntegerValue language_id = 3;</code>
+       * <code>.dstore.values.IntegerValue language_id = 3;</code>
        */
       public io.dstore.values.IntegerValue getLanguageId() {
         if (languageIdBuilder_ == null) {
@@ -1098,7 +1098,7 @@ public final class MiUpdateVisitorPropertiesPu {
         }
       }
       /**
-       * <code>optional .dstore.values.IntegerValue language_id = 3;</code>
+       * <code>.dstore.values.IntegerValue language_id = 3;</code>
        */
       public Builder setLanguageId(io.dstore.values.IntegerValue value) {
         if (languageIdBuilder_ == null) {
@@ -1114,7 +1114,7 @@ public final class MiUpdateVisitorPropertiesPu {
         return this;
       }
       /**
-       * <code>optional .dstore.values.IntegerValue language_id = 3;</code>
+       * <code>.dstore.values.IntegerValue language_id = 3;</code>
        */
       public Builder setLanguageId(
           io.dstore.values.IntegerValue.Builder builderForValue) {
@@ -1128,7 +1128,7 @@ public final class MiUpdateVisitorPropertiesPu {
         return this;
       }
       /**
-       * <code>optional .dstore.values.IntegerValue language_id = 3;</code>
+       * <code>.dstore.values.IntegerValue language_id = 3;</code>
        */
       public Builder mergeLanguageId(io.dstore.values.IntegerValue value) {
         if (languageIdBuilder_ == null) {
@@ -1146,7 +1146,7 @@ public final class MiUpdateVisitorPropertiesPu {
         return this;
       }
       /**
-       * <code>optional .dstore.values.IntegerValue language_id = 3;</code>
+       * <code>.dstore.values.IntegerValue language_id = 3;</code>
        */
       public Builder clearLanguageId() {
         if (languageIdBuilder_ == null) {
@@ -1160,7 +1160,7 @@ public final class MiUpdateVisitorPropertiesPu {
         return this;
       }
       /**
-       * <code>optional .dstore.values.IntegerValue language_id = 3;</code>
+       * <code>.dstore.values.IntegerValue language_id = 3;</code>
        */
       public io.dstore.values.IntegerValue.Builder getLanguageIdBuilder() {
         
@@ -1168,7 +1168,7 @@ public final class MiUpdateVisitorPropertiesPu {
         return getLanguageIdFieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .dstore.values.IntegerValue language_id = 3;</code>
+       * <code>.dstore.values.IntegerValue language_id = 3;</code>
        */
       public io.dstore.values.IntegerValueOrBuilder getLanguageIdOrBuilder() {
         if (languageIdBuilder_ != null) {
@@ -1179,7 +1179,7 @@ public final class MiUpdateVisitorPropertiesPu {
         }
       }
       /**
-       * <code>optional .dstore.values.IntegerValue language_id = 3;</code>
+       * <code>.dstore.values.IntegerValue language_id = 3;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> 
@@ -1197,13 +1197,13 @@ public final class MiUpdateVisitorPropertiesPu {
 
       private boolean languageIdNull_ ;
       /**
-       * <code>optional bool language_id_null = 1003;</code>
+       * <code>bool language_id_null = 1003;</code>
        */
       public boolean getLanguageIdNull() {
         return languageIdNull_;
       }
       /**
-       * <code>optional bool language_id_null = 1003;</code>
+       * <code>bool language_id_null = 1003;</code>
        */
       public Builder setLanguageIdNull(boolean value) {
         
@@ -1212,7 +1212,7 @@ public final class MiUpdateVisitorPropertiesPu {
         return this;
       }
       /**
-       * <code>optional bool language_id_null = 1003;</code>
+       * <code>bool language_id_null = 1003;</code>
        */
       public Builder clearLanguageIdNull() {
         
@@ -1225,13 +1225,13 @@ public final class MiUpdateVisitorPropertiesPu {
       private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> currencyIdBuilder_;
       /**
-       * <code>optional .dstore.values.IntegerValue currency_id = 4;</code>
+       * <code>.dstore.values.IntegerValue currency_id = 4;</code>
        */
       public boolean hasCurrencyId() {
         return currencyIdBuilder_ != null || currencyId_ != null;
       }
       /**
-       * <code>optional .dstore.values.IntegerValue currency_id = 4;</code>
+       * <code>.dstore.values.IntegerValue currency_id = 4;</code>
        */
       public io.dstore.values.IntegerValue getCurrencyId() {
         if (currencyIdBuilder_ == null) {
@@ -1241,7 +1241,7 @@ public final class MiUpdateVisitorPropertiesPu {
         }
       }
       /**
-       * <code>optional .dstore.values.IntegerValue currency_id = 4;</code>
+       * <code>.dstore.values.IntegerValue currency_id = 4;</code>
        */
       public Builder setCurrencyId(io.dstore.values.IntegerValue value) {
         if (currencyIdBuilder_ == null) {
@@ -1257,7 +1257,7 @@ public final class MiUpdateVisitorPropertiesPu {
         return this;
       }
       /**
-       * <code>optional .dstore.values.IntegerValue currency_id = 4;</code>
+       * <code>.dstore.values.IntegerValue currency_id = 4;</code>
        */
       public Builder setCurrencyId(
           io.dstore.values.IntegerValue.Builder builderForValue) {
@@ -1271,7 +1271,7 @@ public final class MiUpdateVisitorPropertiesPu {
         return this;
       }
       /**
-       * <code>optional .dstore.values.IntegerValue currency_id = 4;</code>
+       * <code>.dstore.values.IntegerValue currency_id = 4;</code>
        */
       public Builder mergeCurrencyId(io.dstore.values.IntegerValue value) {
         if (currencyIdBuilder_ == null) {
@@ -1289,7 +1289,7 @@ public final class MiUpdateVisitorPropertiesPu {
         return this;
       }
       /**
-       * <code>optional .dstore.values.IntegerValue currency_id = 4;</code>
+       * <code>.dstore.values.IntegerValue currency_id = 4;</code>
        */
       public Builder clearCurrencyId() {
         if (currencyIdBuilder_ == null) {
@@ -1303,7 +1303,7 @@ public final class MiUpdateVisitorPropertiesPu {
         return this;
       }
       /**
-       * <code>optional .dstore.values.IntegerValue currency_id = 4;</code>
+       * <code>.dstore.values.IntegerValue currency_id = 4;</code>
        */
       public io.dstore.values.IntegerValue.Builder getCurrencyIdBuilder() {
         
@@ -1311,7 +1311,7 @@ public final class MiUpdateVisitorPropertiesPu {
         return getCurrencyIdFieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .dstore.values.IntegerValue currency_id = 4;</code>
+       * <code>.dstore.values.IntegerValue currency_id = 4;</code>
        */
       public io.dstore.values.IntegerValueOrBuilder getCurrencyIdOrBuilder() {
         if (currencyIdBuilder_ != null) {
@@ -1322,7 +1322,7 @@ public final class MiUpdateVisitorPropertiesPu {
         }
       }
       /**
-       * <code>optional .dstore.values.IntegerValue currency_id = 4;</code>
+       * <code>.dstore.values.IntegerValue currency_id = 4;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> 
@@ -1340,13 +1340,13 @@ public final class MiUpdateVisitorPropertiesPu {
 
       private boolean currencyIdNull_ ;
       /**
-       * <code>optional bool currency_id_null = 1004;</code>
+       * <code>bool currency_id_null = 1004;</code>
        */
       public boolean getCurrencyIdNull() {
         return currencyIdNull_;
       }
       /**
-       * <code>optional bool currency_id_null = 1004;</code>
+       * <code>bool currency_id_null = 1004;</code>
        */
       public Builder setCurrencyIdNull(boolean value) {
         
@@ -1355,7 +1355,7 @@ public final class MiUpdateVisitorPropertiesPu {
         return this;
       }
       /**
-       * <code>optional bool currency_id_null = 1004;</code>
+       * <code>bool currency_id_null = 1004;</code>
        */
       public Builder clearCurrencyIdNull() {
         
@@ -1614,7 +1614,7 @@ public final class MiUpdateVisitorPropertiesPu {
         com.google.protobuf.MessageOrBuilder {
 
       /**
-       * <code>optional int32 row_id = 10000;</code>
+       * <code>int32 row_id = 10000;</code>
        */
       int getRowId();
     }
@@ -1689,7 +1689,7 @@ public final class MiUpdateVisitorPropertiesPu {
       public static final int ROW_ID_FIELD_NUMBER = 10000;
       private int rowId_;
       /**
-       * <code>optional int32 row_id = 10000;</code>
+       * <code>int32 row_id = 10000;</code>
        */
       public int getRowId() {
         return rowId_;
@@ -1748,7 +1748,7 @@ public final class MiUpdateVisitorPropertiesPu {
           return memoizedHashCode;
         }
         int hash = 41;
-        hash = (19 * hash) + getDescriptorForType().hashCode();
+        hash = (19 * hash) + getDescriptor().hashCode();
         hash = (37 * hash) + ROW_ID_FIELD_NUMBER;
         hash = (53 * hash) + getRowId();
         hash = (29 * hash) + unknownFields.hashCode();
@@ -1966,13 +1966,13 @@ public final class MiUpdateVisitorPropertiesPu {
 
         private int rowId_ ;
         /**
-         * <code>optional int32 row_id = 10000;</code>
+         * <code>int32 row_id = 10000;</code>
          */
         public int getRowId() {
           return rowId_;
         }
         /**
-         * <code>optional int32 row_id = 10000;</code>
+         * <code>int32 row_id = 10000;</code>
          */
         public Builder setRowId(int value) {
           
@@ -1981,7 +1981,7 @@ public final class MiUpdateVisitorPropertiesPu {
           return this;
         }
         /**
-         * <code>optional int32 row_id = 10000;</code>
+         * <code>int32 row_id = 10000;</code>
          */
         public Builder clearRowId() {
           
@@ -2234,7 +2234,7 @@ public final class MiUpdateVisitorPropertiesPu {
         return memoizedHashCode;
       }
       int hash = 41;
-      hash = (19 * hash) + getDescriptorForType().hashCode();
+      hash = (19 * hash) + getDescriptor().hashCode();
       if (getMetaInformationCount() > 0) {
         hash = (37 * hash) + META_INFORMATION_FIELD_NUMBER;
         hash = (53 * hash) + getMetaInformationList().hashCode();

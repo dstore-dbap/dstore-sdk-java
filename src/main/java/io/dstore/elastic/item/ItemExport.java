@@ -19,20 +19,20 @@ public final class ItemExport {
       com.google.protobuf.MessageOrBuilder {
 
     /**
-     * <code>optional .dstore.elastic.BoolQuery query = 1;</code>
+     * <code>.dstore.elastic.BoolQuery query = 1;</code>
      */
     boolean hasQuery();
     /**
-     * <code>optional .dstore.elastic.BoolQuery query = 1;</code>
+     * <code>.dstore.elastic.BoolQuery query = 1;</code>
      */
     io.dstore.elastic.BoolQuery getQuery();
     /**
-     * <code>optional .dstore.elastic.BoolQuery query = 1;</code>
+     * <code>.dstore.elastic.BoolQuery query = 1;</code>
      */
     io.dstore.elastic.BoolQueryOrBuilder getQueryOrBuilder();
 
     /**
-     * <code>optional bool only_matching_variants = 2;</code>
+     * <code>bool only_matching_variants = 2;</code>
      */
     boolean getOnlyMatchingVariants();
 
@@ -222,19 +222,19 @@ public final class ItemExport {
     public static final int QUERY_FIELD_NUMBER = 1;
     private io.dstore.elastic.BoolQuery query_;
     /**
-     * <code>optional .dstore.elastic.BoolQuery query = 1;</code>
+     * <code>.dstore.elastic.BoolQuery query = 1;</code>
      */
     public boolean hasQuery() {
       return query_ != null;
     }
     /**
-     * <code>optional .dstore.elastic.BoolQuery query = 1;</code>
+     * <code>.dstore.elastic.BoolQuery query = 1;</code>
      */
     public io.dstore.elastic.BoolQuery getQuery() {
       return query_ == null ? io.dstore.elastic.BoolQuery.getDefaultInstance() : query_;
     }
     /**
-     * <code>optional .dstore.elastic.BoolQuery query = 1;</code>
+     * <code>.dstore.elastic.BoolQuery query = 1;</code>
      */
     public io.dstore.elastic.BoolQueryOrBuilder getQueryOrBuilder() {
       return getQuery();
@@ -243,7 +243,7 @@ public final class ItemExport {
     public static final int ONLY_MATCHING_VARIANTS_FIELD_NUMBER = 2;
     private boolean onlyMatchingVariants_;
     /**
-     * <code>optional bool only_matching_variants = 2;</code>
+     * <code>bool only_matching_variants = 2;</code>
      */
     public boolean getOnlyMatchingVariants() {
       return onlyMatchingVariants_;
@@ -442,7 +442,7 @@ public final class ItemExport {
         return memoizedHashCode;
       }
       int hash = 41;
-      hash = (19 * hash) + getDescriptorForType().hashCode();
+      hash = (19 * hash) + getDescriptor().hashCode();
       if (hasQuery()) {
         hash = (37 * hash) + QUERY_FIELD_NUMBER;
         hash = (53 * hash) + getQuery().hashCode();
@@ -773,13 +773,13 @@ public final class ItemExport {
       private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.elastic.BoolQuery, io.dstore.elastic.BoolQuery.Builder, io.dstore.elastic.BoolQueryOrBuilder> queryBuilder_;
       /**
-       * <code>optional .dstore.elastic.BoolQuery query = 1;</code>
+       * <code>.dstore.elastic.BoolQuery query = 1;</code>
        */
       public boolean hasQuery() {
         return queryBuilder_ != null || query_ != null;
       }
       /**
-       * <code>optional .dstore.elastic.BoolQuery query = 1;</code>
+       * <code>.dstore.elastic.BoolQuery query = 1;</code>
        */
       public io.dstore.elastic.BoolQuery getQuery() {
         if (queryBuilder_ == null) {
@@ -789,7 +789,7 @@ public final class ItemExport {
         }
       }
       /**
-       * <code>optional .dstore.elastic.BoolQuery query = 1;</code>
+       * <code>.dstore.elastic.BoolQuery query = 1;</code>
        */
       public Builder setQuery(io.dstore.elastic.BoolQuery value) {
         if (queryBuilder_ == null) {
@@ -805,7 +805,7 @@ public final class ItemExport {
         return this;
       }
       /**
-       * <code>optional .dstore.elastic.BoolQuery query = 1;</code>
+       * <code>.dstore.elastic.BoolQuery query = 1;</code>
        */
       public Builder setQuery(
           io.dstore.elastic.BoolQuery.Builder builderForValue) {
@@ -819,7 +819,7 @@ public final class ItemExport {
         return this;
       }
       /**
-       * <code>optional .dstore.elastic.BoolQuery query = 1;</code>
+       * <code>.dstore.elastic.BoolQuery query = 1;</code>
        */
       public Builder mergeQuery(io.dstore.elastic.BoolQuery value) {
         if (queryBuilder_ == null) {
@@ -837,7 +837,7 @@ public final class ItemExport {
         return this;
       }
       /**
-       * <code>optional .dstore.elastic.BoolQuery query = 1;</code>
+       * <code>.dstore.elastic.BoolQuery query = 1;</code>
        */
       public Builder clearQuery() {
         if (queryBuilder_ == null) {
@@ -851,7 +851,7 @@ public final class ItemExport {
         return this;
       }
       /**
-       * <code>optional .dstore.elastic.BoolQuery query = 1;</code>
+       * <code>.dstore.elastic.BoolQuery query = 1;</code>
        */
       public io.dstore.elastic.BoolQuery.Builder getQueryBuilder() {
         
@@ -859,7 +859,7 @@ public final class ItemExport {
         return getQueryFieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .dstore.elastic.BoolQuery query = 1;</code>
+       * <code>.dstore.elastic.BoolQuery query = 1;</code>
        */
       public io.dstore.elastic.BoolQueryOrBuilder getQueryOrBuilder() {
         if (queryBuilder_ != null) {
@@ -870,7 +870,7 @@ public final class ItemExport {
         }
       }
       /**
-       * <code>optional .dstore.elastic.BoolQuery query = 1;</code>
+       * <code>.dstore.elastic.BoolQuery query = 1;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.elastic.BoolQuery, io.dstore.elastic.BoolQuery.Builder, io.dstore.elastic.BoolQueryOrBuilder> 
@@ -888,13 +888,13 @@ public final class ItemExport {
 
       private boolean onlyMatchingVariants_ ;
       /**
-       * <code>optional bool only_matching_variants = 2;</code>
+       * <code>bool only_matching_variants = 2;</code>
        */
       public boolean getOnlyMatchingVariants() {
         return onlyMatchingVariants_;
       }
       /**
-       * <code>optional bool only_matching_variants = 2;</code>
+       * <code>bool only_matching_variants = 2;</code>
        */
       public Builder setOnlyMatchingVariants(boolean value) {
         
@@ -903,7 +903,7 @@ public final class ItemExport {
         return this;
       }
       /**
-       * <code>optional bool only_matching_variants = 2;</code>
+       * <code>bool only_matching_variants = 2;</code>
        */
       public Builder clearOnlyMatchingVariants() {
         
@@ -1393,7 +1393,7 @@ public final class ItemExport {
       com.google.protobuf.MessageOrBuilder {
 
     /**
-     * <code>optional int32 total_hits = 1;</code>
+     * <code>int32 total_hits = 1;</code>
      */
     int getTotalHits();
 
@@ -1422,11 +1422,11 @@ public final class ItemExport {
         int index);
 
     /**
-     * <code>optional string elastic_query_string = 3;</code>
+     * <code>string elastic_query_string = 3;</code>
      */
     java.lang.String getElasticQueryString();
     /**
-     * <code>optional string elastic_query_string = 3;</code>
+     * <code>string elastic_query_string = 3;</code>
      */
     com.google.protobuf.ByteString
         getElasticQueryStringBytes();
@@ -1523,7 +1523,7 @@ public final class ItemExport {
     public static final int TOTAL_HITS_FIELD_NUMBER = 1;
     private int totalHits_;
     /**
-     * <code>optional int32 total_hits = 1;</code>
+     * <code>int32 total_hits = 1;</code>
      */
     public int getTotalHits() {
       return totalHits_;
@@ -1567,7 +1567,7 @@ public final class ItemExport {
     public static final int ELASTIC_QUERY_STRING_FIELD_NUMBER = 3;
     private volatile java.lang.Object elasticQueryString_;
     /**
-     * <code>optional string elastic_query_string = 3;</code>
+     * <code>string elastic_query_string = 3;</code>
      */
     public java.lang.String getElasticQueryString() {
       java.lang.Object ref = elasticQueryString_;
@@ -1582,7 +1582,7 @@ public final class ItemExport {
       }
     }
     /**
-     * <code>optional string elastic_query_string = 3;</code>
+     * <code>string elastic_query_string = 3;</code>
      */
     public com.google.protobuf.ByteString
         getElasticQueryStringBytes() {
@@ -1668,7 +1668,7 @@ public final class ItemExport {
         return memoizedHashCode;
       }
       int hash = 41;
-      hash = (19 * hash) + getDescriptorForType().hashCode();
+      hash = (19 * hash) + getDescriptor().hashCode();
       hash = (37 * hash) + TOTAL_HITS_FIELD_NUMBER;
       hash = (53 * hash) + getTotalHits();
       if (getItemCount() > 0) {
@@ -1945,13 +1945,13 @@ public final class ItemExport {
 
       private int totalHits_ ;
       /**
-       * <code>optional int32 total_hits = 1;</code>
+       * <code>int32 total_hits = 1;</code>
        */
       public int getTotalHits() {
         return totalHits_;
       }
       /**
-       * <code>optional int32 total_hits = 1;</code>
+       * <code>int32 total_hits = 1;</code>
        */
       public Builder setTotalHits(int value) {
         
@@ -1960,7 +1960,7 @@ public final class ItemExport {
         return this;
       }
       /**
-       * <code>optional int32 total_hits = 1;</code>
+       * <code>int32 total_hits = 1;</code>
        */
       public Builder clearTotalHits() {
         
@@ -2211,7 +2211,7 @@ public final class ItemExport {
 
       private java.lang.Object elasticQueryString_ = "";
       /**
-       * <code>optional string elastic_query_string = 3;</code>
+       * <code>string elastic_query_string = 3;</code>
        */
       public java.lang.String getElasticQueryString() {
         java.lang.Object ref = elasticQueryString_;
@@ -2226,7 +2226,7 @@ public final class ItemExport {
         }
       }
       /**
-       * <code>optional string elastic_query_string = 3;</code>
+       * <code>string elastic_query_string = 3;</code>
        */
       public com.google.protobuf.ByteString
           getElasticQueryStringBytes() {
@@ -2242,7 +2242,7 @@ public final class ItemExport {
         }
       }
       /**
-       * <code>optional string elastic_query_string = 3;</code>
+       * <code>string elastic_query_string = 3;</code>
        */
       public Builder setElasticQueryString(
           java.lang.String value) {
@@ -2255,7 +2255,7 @@ public final class ItemExport {
         return this;
       }
       /**
-       * <code>optional string elastic_query_string = 3;</code>
+       * <code>string elastic_query_string = 3;</code>
        */
       public Builder clearElasticQueryString() {
         
@@ -2264,7 +2264,7 @@ public final class ItemExport {
         return this;
       }
       /**
-       * <code>optional string elastic_query_string = 3;</code>
+       * <code>string elastic_query_string = 3;</code>
        */
       public Builder setElasticQueryStringBytes(
           com.google.protobuf.ByteString value) {

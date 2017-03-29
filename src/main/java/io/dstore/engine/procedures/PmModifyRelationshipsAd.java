@@ -19,56 +19,56 @@ public final class PmModifyRelationshipsAd {
       com.google.protobuf.MessageOrBuilder {
 
     /**
-     * <code>optional .dstore.values.IntegerValue relationship_id = 1;</code>
+     * <code>.dstore.values.IntegerValue relationship_id = 1;</code>
      */
     boolean hasRelationshipId();
     /**
-     * <code>optional .dstore.values.IntegerValue relationship_id = 1;</code>
+     * <code>.dstore.values.IntegerValue relationship_id = 1;</code>
      */
     io.dstore.values.IntegerValue getRelationshipId();
     /**
-     * <code>optional .dstore.values.IntegerValue relationship_id = 1;</code>
+     * <code>.dstore.values.IntegerValue relationship_id = 1;</code>
      */
     io.dstore.values.IntegerValueOrBuilder getRelationshipIdOrBuilder();
 
     /**
-     * <code>optional bool relationship_id_null = 1001;</code>
+     * <code>bool relationship_id_null = 1001;</code>
      */
     boolean getRelationshipIdNull();
 
     /**
-     * <code>optional .dstore.values.StringValue relationship = 2;</code>
+     * <code>.dstore.values.StringValue relationship = 2;</code>
      */
     boolean hasRelationship();
     /**
-     * <code>optional .dstore.values.StringValue relationship = 2;</code>
+     * <code>.dstore.values.StringValue relationship = 2;</code>
      */
     io.dstore.values.StringValue getRelationship();
     /**
-     * <code>optional .dstore.values.StringValue relationship = 2;</code>
+     * <code>.dstore.values.StringValue relationship = 2;</code>
      */
     io.dstore.values.StringValueOrBuilder getRelationshipOrBuilder();
 
     /**
-     * <code>optional bool relationship_null = 1002;</code>
+     * <code>bool relationship_null = 1002;</code>
      */
     boolean getRelationshipNull();
 
     /**
-     * <code>optional .dstore.values.BooleanValue delete_relationship = 3;</code>
+     * <code>.dstore.values.BooleanValue delete_relationship = 3;</code>
      */
     boolean hasDeleteRelationship();
     /**
-     * <code>optional .dstore.values.BooleanValue delete_relationship = 3;</code>
+     * <code>.dstore.values.BooleanValue delete_relationship = 3;</code>
      */
     io.dstore.values.BooleanValue getDeleteRelationship();
     /**
-     * <code>optional .dstore.values.BooleanValue delete_relationship = 3;</code>
+     * <code>.dstore.values.BooleanValue delete_relationship = 3;</code>
      */
     io.dstore.values.BooleanValueOrBuilder getDeleteRelationshipOrBuilder();
 
     /**
-     * <code>optional bool delete_relationship_null = 1003;</code>
+     * <code>bool delete_relationship_null = 1003;</code>
      */
     boolean getDeleteRelationshipNull();
   }
@@ -194,19 +194,19 @@ public final class PmModifyRelationshipsAd {
     public static final int RELATIONSHIP_ID_FIELD_NUMBER = 1;
     private io.dstore.values.IntegerValue relationshipId_;
     /**
-     * <code>optional .dstore.values.IntegerValue relationship_id = 1;</code>
+     * <code>.dstore.values.IntegerValue relationship_id = 1;</code>
      */
     public boolean hasRelationshipId() {
       return relationshipId_ != null;
     }
     /**
-     * <code>optional .dstore.values.IntegerValue relationship_id = 1;</code>
+     * <code>.dstore.values.IntegerValue relationship_id = 1;</code>
      */
     public io.dstore.values.IntegerValue getRelationshipId() {
       return relationshipId_ == null ? io.dstore.values.IntegerValue.getDefaultInstance() : relationshipId_;
     }
     /**
-     * <code>optional .dstore.values.IntegerValue relationship_id = 1;</code>
+     * <code>.dstore.values.IntegerValue relationship_id = 1;</code>
      */
     public io.dstore.values.IntegerValueOrBuilder getRelationshipIdOrBuilder() {
       return getRelationshipId();
@@ -215,7 +215,7 @@ public final class PmModifyRelationshipsAd {
     public static final int RELATIONSHIP_ID_NULL_FIELD_NUMBER = 1001;
     private boolean relationshipIdNull_;
     /**
-     * <code>optional bool relationship_id_null = 1001;</code>
+     * <code>bool relationship_id_null = 1001;</code>
      */
     public boolean getRelationshipIdNull() {
       return relationshipIdNull_;
@@ -224,19 +224,19 @@ public final class PmModifyRelationshipsAd {
     public static final int RELATIONSHIP_FIELD_NUMBER = 2;
     private io.dstore.values.StringValue relationship_;
     /**
-     * <code>optional .dstore.values.StringValue relationship = 2;</code>
+     * <code>.dstore.values.StringValue relationship = 2;</code>
      */
     public boolean hasRelationship() {
       return relationship_ != null;
     }
     /**
-     * <code>optional .dstore.values.StringValue relationship = 2;</code>
+     * <code>.dstore.values.StringValue relationship = 2;</code>
      */
     public io.dstore.values.StringValue getRelationship() {
       return relationship_ == null ? io.dstore.values.StringValue.getDefaultInstance() : relationship_;
     }
     /**
-     * <code>optional .dstore.values.StringValue relationship = 2;</code>
+     * <code>.dstore.values.StringValue relationship = 2;</code>
      */
     public io.dstore.values.StringValueOrBuilder getRelationshipOrBuilder() {
       return getRelationship();
@@ -245,7 +245,7 @@ public final class PmModifyRelationshipsAd {
     public static final int RELATIONSHIP_NULL_FIELD_NUMBER = 1002;
     private boolean relationshipNull_;
     /**
-     * <code>optional bool relationship_null = 1002;</code>
+     * <code>bool relationship_null = 1002;</code>
      */
     public boolean getRelationshipNull() {
       return relationshipNull_;
@@ -254,19 +254,19 @@ public final class PmModifyRelationshipsAd {
     public static final int DELETE_RELATIONSHIP_FIELD_NUMBER = 3;
     private io.dstore.values.BooleanValue deleteRelationship_;
     /**
-     * <code>optional .dstore.values.BooleanValue delete_relationship = 3;</code>
+     * <code>.dstore.values.BooleanValue delete_relationship = 3;</code>
      */
     public boolean hasDeleteRelationship() {
       return deleteRelationship_ != null;
     }
     /**
-     * <code>optional .dstore.values.BooleanValue delete_relationship = 3;</code>
+     * <code>.dstore.values.BooleanValue delete_relationship = 3;</code>
      */
     public io.dstore.values.BooleanValue getDeleteRelationship() {
       return deleteRelationship_ == null ? io.dstore.values.BooleanValue.getDefaultInstance() : deleteRelationship_;
     }
     /**
-     * <code>optional .dstore.values.BooleanValue delete_relationship = 3;</code>
+     * <code>.dstore.values.BooleanValue delete_relationship = 3;</code>
      */
     public io.dstore.values.BooleanValueOrBuilder getDeleteRelationshipOrBuilder() {
       return getDeleteRelationship();
@@ -275,7 +275,7 @@ public final class PmModifyRelationshipsAd {
     public static final int DELETE_RELATIONSHIP_NULL_FIELD_NUMBER = 1003;
     private boolean deleteRelationshipNull_;
     /**
-     * <code>optional bool delete_relationship_null = 1003;</code>
+     * <code>bool delete_relationship_null = 1003;</code>
      */
     public boolean getDeleteRelationshipNull() {
       return deleteRelationshipNull_;
@@ -388,7 +388,7 @@ public final class PmModifyRelationshipsAd {
         return memoizedHashCode;
       }
       int hash = 41;
-      hash = (19 * hash) + getDescriptorForType().hashCode();
+      hash = (19 * hash) + getDescriptor().hashCode();
       if (hasRelationshipId()) {
         hash = (37 * hash) + RELATIONSHIP_ID_FIELD_NUMBER;
         hash = (53 * hash) + getRelationshipId().hashCode();
@@ -681,13 +681,13 @@ public final class PmModifyRelationshipsAd {
       private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> relationshipIdBuilder_;
       /**
-       * <code>optional .dstore.values.IntegerValue relationship_id = 1;</code>
+       * <code>.dstore.values.IntegerValue relationship_id = 1;</code>
        */
       public boolean hasRelationshipId() {
         return relationshipIdBuilder_ != null || relationshipId_ != null;
       }
       /**
-       * <code>optional .dstore.values.IntegerValue relationship_id = 1;</code>
+       * <code>.dstore.values.IntegerValue relationship_id = 1;</code>
        */
       public io.dstore.values.IntegerValue getRelationshipId() {
         if (relationshipIdBuilder_ == null) {
@@ -697,7 +697,7 @@ public final class PmModifyRelationshipsAd {
         }
       }
       /**
-       * <code>optional .dstore.values.IntegerValue relationship_id = 1;</code>
+       * <code>.dstore.values.IntegerValue relationship_id = 1;</code>
        */
       public Builder setRelationshipId(io.dstore.values.IntegerValue value) {
         if (relationshipIdBuilder_ == null) {
@@ -713,7 +713,7 @@ public final class PmModifyRelationshipsAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.IntegerValue relationship_id = 1;</code>
+       * <code>.dstore.values.IntegerValue relationship_id = 1;</code>
        */
       public Builder setRelationshipId(
           io.dstore.values.IntegerValue.Builder builderForValue) {
@@ -727,7 +727,7 @@ public final class PmModifyRelationshipsAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.IntegerValue relationship_id = 1;</code>
+       * <code>.dstore.values.IntegerValue relationship_id = 1;</code>
        */
       public Builder mergeRelationshipId(io.dstore.values.IntegerValue value) {
         if (relationshipIdBuilder_ == null) {
@@ -745,7 +745,7 @@ public final class PmModifyRelationshipsAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.IntegerValue relationship_id = 1;</code>
+       * <code>.dstore.values.IntegerValue relationship_id = 1;</code>
        */
       public Builder clearRelationshipId() {
         if (relationshipIdBuilder_ == null) {
@@ -759,7 +759,7 @@ public final class PmModifyRelationshipsAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.IntegerValue relationship_id = 1;</code>
+       * <code>.dstore.values.IntegerValue relationship_id = 1;</code>
        */
       public io.dstore.values.IntegerValue.Builder getRelationshipIdBuilder() {
         
@@ -767,7 +767,7 @@ public final class PmModifyRelationshipsAd {
         return getRelationshipIdFieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .dstore.values.IntegerValue relationship_id = 1;</code>
+       * <code>.dstore.values.IntegerValue relationship_id = 1;</code>
        */
       public io.dstore.values.IntegerValueOrBuilder getRelationshipIdOrBuilder() {
         if (relationshipIdBuilder_ != null) {
@@ -778,7 +778,7 @@ public final class PmModifyRelationshipsAd {
         }
       }
       /**
-       * <code>optional .dstore.values.IntegerValue relationship_id = 1;</code>
+       * <code>.dstore.values.IntegerValue relationship_id = 1;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> 
@@ -796,13 +796,13 @@ public final class PmModifyRelationshipsAd {
 
       private boolean relationshipIdNull_ ;
       /**
-       * <code>optional bool relationship_id_null = 1001;</code>
+       * <code>bool relationship_id_null = 1001;</code>
        */
       public boolean getRelationshipIdNull() {
         return relationshipIdNull_;
       }
       /**
-       * <code>optional bool relationship_id_null = 1001;</code>
+       * <code>bool relationship_id_null = 1001;</code>
        */
       public Builder setRelationshipIdNull(boolean value) {
         
@@ -811,7 +811,7 @@ public final class PmModifyRelationshipsAd {
         return this;
       }
       /**
-       * <code>optional bool relationship_id_null = 1001;</code>
+       * <code>bool relationship_id_null = 1001;</code>
        */
       public Builder clearRelationshipIdNull() {
         
@@ -824,13 +824,13 @@ public final class PmModifyRelationshipsAd {
       private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.values.StringValue, io.dstore.values.StringValue.Builder, io.dstore.values.StringValueOrBuilder> relationshipBuilder_;
       /**
-       * <code>optional .dstore.values.StringValue relationship = 2;</code>
+       * <code>.dstore.values.StringValue relationship = 2;</code>
        */
       public boolean hasRelationship() {
         return relationshipBuilder_ != null || relationship_ != null;
       }
       /**
-       * <code>optional .dstore.values.StringValue relationship = 2;</code>
+       * <code>.dstore.values.StringValue relationship = 2;</code>
        */
       public io.dstore.values.StringValue getRelationship() {
         if (relationshipBuilder_ == null) {
@@ -840,7 +840,7 @@ public final class PmModifyRelationshipsAd {
         }
       }
       /**
-       * <code>optional .dstore.values.StringValue relationship = 2;</code>
+       * <code>.dstore.values.StringValue relationship = 2;</code>
        */
       public Builder setRelationship(io.dstore.values.StringValue value) {
         if (relationshipBuilder_ == null) {
@@ -856,7 +856,7 @@ public final class PmModifyRelationshipsAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.StringValue relationship = 2;</code>
+       * <code>.dstore.values.StringValue relationship = 2;</code>
        */
       public Builder setRelationship(
           io.dstore.values.StringValue.Builder builderForValue) {
@@ -870,7 +870,7 @@ public final class PmModifyRelationshipsAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.StringValue relationship = 2;</code>
+       * <code>.dstore.values.StringValue relationship = 2;</code>
        */
       public Builder mergeRelationship(io.dstore.values.StringValue value) {
         if (relationshipBuilder_ == null) {
@@ -888,7 +888,7 @@ public final class PmModifyRelationshipsAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.StringValue relationship = 2;</code>
+       * <code>.dstore.values.StringValue relationship = 2;</code>
        */
       public Builder clearRelationship() {
         if (relationshipBuilder_ == null) {
@@ -902,7 +902,7 @@ public final class PmModifyRelationshipsAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.StringValue relationship = 2;</code>
+       * <code>.dstore.values.StringValue relationship = 2;</code>
        */
       public io.dstore.values.StringValue.Builder getRelationshipBuilder() {
         
@@ -910,7 +910,7 @@ public final class PmModifyRelationshipsAd {
         return getRelationshipFieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .dstore.values.StringValue relationship = 2;</code>
+       * <code>.dstore.values.StringValue relationship = 2;</code>
        */
       public io.dstore.values.StringValueOrBuilder getRelationshipOrBuilder() {
         if (relationshipBuilder_ != null) {
@@ -921,7 +921,7 @@ public final class PmModifyRelationshipsAd {
         }
       }
       /**
-       * <code>optional .dstore.values.StringValue relationship = 2;</code>
+       * <code>.dstore.values.StringValue relationship = 2;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.values.StringValue, io.dstore.values.StringValue.Builder, io.dstore.values.StringValueOrBuilder> 
@@ -939,13 +939,13 @@ public final class PmModifyRelationshipsAd {
 
       private boolean relationshipNull_ ;
       /**
-       * <code>optional bool relationship_null = 1002;</code>
+       * <code>bool relationship_null = 1002;</code>
        */
       public boolean getRelationshipNull() {
         return relationshipNull_;
       }
       /**
-       * <code>optional bool relationship_null = 1002;</code>
+       * <code>bool relationship_null = 1002;</code>
        */
       public Builder setRelationshipNull(boolean value) {
         
@@ -954,7 +954,7 @@ public final class PmModifyRelationshipsAd {
         return this;
       }
       /**
-       * <code>optional bool relationship_null = 1002;</code>
+       * <code>bool relationship_null = 1002;</code>
        */
       public Builder clearRelationshipNull() {
         
@@ -967,13 +967,13 @@ public final class PmModifyRelationshipsAd {
       private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.values.BooleanValue, io.dstore.values.BooleanValue.Builder, io.dstore.values.BooleanValueOrBuilder> deleteRelationshipBuilder_;
       /**
-       * <code>optional .dstore.values.BooleanValue delete_relationship = 3;</code>
+       * <code>.dstore.values.BooleanValue delete_relationship = 3;</code>
        */
       public boolean hasDeleteRelationship() {
         return deleteRelationshipBuilder_ != null || deleteRelationship_ != null;
       }
       /**
-       * <code>optional .dstore.values.BooleanValue delete_relationship = 3;</code>
+       * <code>.dstore.values.BooleanValue delete_relationship = 3;</code>
        */
       public io.dstore.values.BooleanValue getDeleteRelationship() {
         if (deleteRelationshipBuilder_ == null) {
@@ -983,7 +983,7 @@ public final class PmModifyRelationshipsAd {
         }
       }
       /**
-       * <code>optional .dstore.values.BooleanValue delete_relationship = 3;</code>
+       * <code>.dstore.values.BooleanValue delete_relationship = 3;</code>
        */
       public Builder setDeleteRelationship(io.dstore.values.BooleanValue value) {
         if (deleteRelationshipBuilder_ == null) {
@@ -999,7 +999,7 @@ public final class PmModifyRelationshipsAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.BooleanValue delete_relationship = 3;</code>
+       * <code>.dstore.values.BooleanValue delete_relationship = 3;</code>
        */
       public Builder setDeleteRelationship(
           io.dstore.values.BooleanValue.Builder builderForValue) {
@@ -1013,7 +1013,7 @@ public final class PmModifyRelationshipsAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.BooleanValue delete_relationship = 3;</code>
+       * <code>.dstore.values.BooleanValue delete_relationship = 3;</code>
        */
       public Builder mergeDeleteRelationship(io.dstore.values.BooleanValue value) {
         if (deleteRelationshipBuilder_ == null) {
@@ -1031,7 +1031,7 @@ public final class PmModifyRelationshipsAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.BooleanValue delete_relationship = 3;</code>
+       * <code>.dstore.values.BooleanValue delete_relationship = 3;</code>
        */
       public Builder clearDeleteRelationship() {
         if (deleteRelationshipBuilder_ == null) {
@@ -1045,7 +1045,7 @@ public final class PmModifyRelationshipsAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.BooleanValue delete_relationship = 3;</code>
+       * <code>.dstore.values.BooleanValue delete_relationship = 3;</code>
        */
       public io.dstore.values.BooleanValue.Builder getDeleteRelationshipBuilder() {
         
@@ -1053,7 +1053,7 @@ public final class PmModifyRelationshipsAd {
         return getDeleteRelationshipFieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .dstore.values.BooleanValue delete_relationship = 3;</code>
+       * <code>.dstore.values.BooleanValue delete_relationship = 3;</code>
        */
       public io.dstore.values.BooleanValueOrBuilder getDeleteRelationshipOrBuilder() {
         if (deleteRelationshipBuilder_ != null) {
@@ -1064,7 +1064,7 @@ public final class PmModifyRelationshipsAd {
         }
       }
       /**
-       * <code>optional .dstore.values.BooleanValue delete_relationship = 3;</code>
+       * <code>.dstore.values.BooleanValue delete_relationship = 3;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.values.BooleanValue, io.dstore.values.BooleanValue.Builder, io.dstore.values.BooleanValueOrBuilder> 
@@ -1082,13 +1082,13 @@ public final class PmModifyRelationshipsAd {
 
       private boolean deleteRelationshipNull_ ;
       /**
-       * <code>optional bool delete_relationship_null = 1003;</code>
+       * <code>bool delete_relationship_null = 1003;</code>
        */
       public boolean getDeleteRelationshipNull() {
         return deleteRelationshipNull_;
       }
       /**
-       * <code>optional bool delete_relationship_null = 1003;</code>
+       * <code>bool delete_relationship_null = 1003;</code>
        */
       public Builder setDeleteRelationshipNull(boolean value) {
         
@@ -1097,7 +1097,7 @@ public final class PmModifyRelationshipsAd {
         return this;
       }
       /**
-       * <code>optional bool delete_relationship_null = 1003;</code>
+       * <code>bool delete_relationship_null = 1003;</code>
        */
       public Builder clearDeleteRelationshipNull() {
         
@@ -1356,7 +1356,7 @@ public final class PmModifyRelationshipsAd {
         com.google.protobuf.MessageOrBuilder {
 
       /**
-       * <code>optional int32 row_id = 10000;</code>
+       * <code>int32 row_id = 10000;</code>
        */
       int getRowId();
     }
@@ -1431,7 +1431,7 @@ public final class PmModifyRelationshipsAd {
       public static final int ROW_ID_FIELD_NUMBER = 10000;
       private int rowId_;
       /**
-       * <code>optional int32 row_id = 10000;</code>
+       * <code>int32 row_id = 10000;</code>
        */
       public int getRowId() {
         return rowId_;
@@ -1490,7 +1490,7 @@ public final class PmModifyRelationshipsAd {
           return memoizedHashCode;
         }
         int hash = 41;
-        hash = (19 * hash) + getDescriptorForType().hashCode();
+        hash = (19 * hash) + getDescriptor().hashCode();
         hash = (37 * hash) + ROW_ID_FIELD_NUMBER;
         hash = (53 * hash) + getRowId();
         hash = (29 * hash) + unknownFields.hashCode();
@@ -1708,13 +1708,13 @@ public final class PmModifyRelationshipsAd {
 
         private int rowId_ ;
         /**
-         * <code>optional int32 row_id = 10000;</code>
+         * <code>int32 row_id = 10000;</code>
          */
         public int getRowId() {
           return rowId_;
         }
         /**
-         * <code>optional int32 row_id = 10000;</code>
+         * <code>int32 row_id = 10000;</code>
          */
         public Builder setRowId(int value) {
           
@@ -1723,7 +1723,7 @@ public final class PmModifyRelationshipsAd {
           return this;
         }
         /**
-         * <code>optional int32 row_id = 10000;</code>
+         * <code>int32 row_id = 10000;</code>
          */
         public Builder clearRowId() {
           
@@ -1976,7 +1976,7 @@ public final class PmModifyRelationshipsAd {
         return memoizedHashCode;
       }
       int hash = 41;
-      hash = (19 * hash) + getDescriptorForType().hashCode();
+      hash = (19 * hash) + getDescriptor().hashCode();
       if (getMetaInformationCount() > 0) {
         hash = (37 * hash) + META_INFORMATION_FIELD_NUMBER;
         hash = (53 * hash) + getMetaInformationList().hashCode();

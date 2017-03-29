@@ -19,56 +19,56 @@ public final class OmModifyTaxTypesAd {
       com.google.protobuf.MessageOrBuilder {
 
     /**
-     * <code>optional .dstore.values.IntegerValue tax_type_id = 1;</code>
+     * <code>.dstore.values.IntegerValue tax_type_id = 1;</code>
      */
     boolean hasTaxTypeId();
     /**
-     * <code>optional .dstore.values.IntegerValue tax_type_id = 1;</code>
+     * <code>.dstore.values.IntegerValue tax_type_id = 1;</code>
      */
     io.dstore.values.IntegerValue getTaxTypeId();
     /**
-     * <code>optional .dstore.values.IntegerValue tax_type_id = 1;</code>
+     * <code>.dstore.values.IntegerValue tax_type_id = 1;</code>
      */
     io.dstore.values.IntegerValueOrBuilder getTaxTypeIdOrBuilder();
 
     /**
-     * <code>optional bool tax_type_id_null = 1001;</code>
+     * <code>bool tax_type_id_null = 1001;</code>
      */
     boolean getTaxTypeIdNull();
 
     /**
-     * <code>optional .dstore.values.StringValue tax_type = 2;</code>
+     * <code>.dstore.values.StringValue tax_type = 2;</code>
      */
     boolean hasTaxType();
     /**
-     * <code>optional .dstore.values.StringValue tax_type = 2;</code>
+     * <code>.dstore.values.StringValue tax_type = 2;</code>
      */
     io.dstore.values.StringValue getTaxType();
     /**
-     * <code>optional .dstore.values.StringValue tax_type = 2;</code>
+     * <code>.dstore.values.StringValue tax_type = 2;</code>
      */
     io.dstore.values.StringValueOrBuilder getTaxTypeOrBuilder();
 
     /**
-     * <code>optional bool tax_type_null = 1002;</code>
+     * <code>bool tax_type_null = 1002;</code>
      */
     boolean getTaxTypeNull();
 
     /**
-     * <code>optional .dstore.values.BooleanValue delete = 3;</code>
+     * <code>.dstore.values.BooleanValue delete = 3;</code>
      */
     boolean hasDelete();
     /**
-     * <code>optional .dstore.values.BooleanValue delete = 3;</code>
+     * <code>.dstore.values.BooleanValue delete = 3;</code>
      */
     io.dstore.values.BooleanValue getDelete();
     /**
-     * <code>optional .dstore.values.BooleanValue delete = 3;</code>
+     * <code>.dstore.values.BooleanValue delete = 3;</code>
      */
     io.dstore.values.BooleanValueOrBuilder getDeleteOrBuilder();
 
     /**
-     * <code>optional bool delete_null = 1003;</code>
+     * <code>bool delete_null = 1003;</code>
      */
     boolean getDeleteNull();
   }
@@ -194,19 +194,19 @@ public final class OmModifyTaxTypesAd {
     public static final int TAX_TYPE_ID_FIELD_NUMBER = 1;
     private io.dstore.values.IntegerValue taxTypeId_;
     /**
-     * <code>optional .dstore.values.IntegerValue tax_type_id = 1;</code>
+     * <code>.dstore.values.IntegerValue tax_type_id = 1;</code>
      */
     public boolean hasTaxTypeId() {
       return taxTypeId_ != null;
     }
     /**
-     * <code>optional .dstore.values.IntegerValue tax_type_id = 1;</code>
+     * <code>.dstore.values.IntegerValue tax_type_id = 1;</code>
      */
     public io.dstore.values.IntegerValue getTaxTypeId() {
       return taxTypeId_ == null ? io.dstore.values.IntegerValue.getDefaultInstance() : taxTypeId_;
     }
     /**
-     * <code>optional .dstore.values.IntegerValue tax_type_id = 1;</code>
+     * <code>.dstore.values.IntegerValue tax_type_id = 1;</code>
      */
     public io.dstore.values.IntegerValueOrBuilder getTaxTypeIdOrBuilder() {
       return getTaxTypeId();
@@ -215,7 +215,7 @@ public final class OmModifyTaxTypesAd {
     public static final int TAX_TYPE_ID_NULL_FIELD_NUMBER = 1001;
     private boolean taxTypeIdNull_;
     /**
-     * <code>optional bool tax_type_id_null = 1001;</code>
+     * <code>bool tax_type_id_null = 1001;</code>
      */
     public boolean getTaxTypeIdNull() {
       return taxTypeIdNull_;
@@ -224,19 +224,19 @@ public final class OmModifyTaxTypesAd {
     public static final int TAX_TYPE_FIELD_NUMBER = 2;
     private io.dstore.values.StringValue taxType_;
     /**
-     * <code>optional .dstore.values.StringValue tax_type = 2;</code>
+     * <code>.dstore.values.StringValue tax_type = 2;</code>
      */
     public boolean hasTaxType() {
       return taxType_ != null;
     }
     /**
-     * <code>optional .dstore.values.StringValue tax_type = 2;</code>
+     * <code>.dstore.values.StringValue tax_type = 2;</code>
      */
     public io.dstore.values.StringValue getTaxType() {
       return taxType_ == null ? io.dstore.values.StringValue.getDefaultInstance() : taxType_;
     }
     /**
-     * <code>optional .dstore.values.StringValue tax_type = 2;</code>
+     * <code>.dstore.values.StringValue tax_type = 2;</code>
      */
     public io.dstore.values.StringValueOrBuilder getTaxTypeOrBuilder() {
       return getTaxType();
@@ -245,7 +245,7 @@ public final class OmModifyTaxTypesAd {
     public static final int TAX_TYPE_NULL_FIELD_NUMBER = 1002;
     private boolean taxTypeNull_;
     /**
-     * <code>optional bool tax_type_null = 1002;</code>
+     * <code>bool tax_type_null = 1002;</code>
      */
     public boolean getTaxTypeNull() {
       return taxTypeNull_;
@@ -254,19 +254,19 @@ public final class OmModifyTaxTypesAd {
     public static final int DELETE_FIELD_NUMBER = 3;
     private io.dstore.values.BooleanValue delete_;
     /**
-     * <code>optional .dstore.values.BooleanValue delete = 3;</code>
+     * <code>.dstore.values.BooleanValue delete = 3;</code>
      */
     public boolean hasDelete() {
       return delete_ != null;
     }
     /**
-     * <code>optional .dstore.values.BooleanValue delete = 3;</code>
+     * <code>.dstore.values.BooleanValue delete = 3;</code>
      */
     public io.dstore.values.BooleanValue getDelete() {
       return delete_ == null ? io.dstore.values.BooleanValue.getDefaultInstance() : delete_;
     }
     /**
-     * <code>optional .dstore.values.BooleanValue delete = 3;</code>
+     * <code>.dstore.values.BooleanValue delete = 3;</code>
      */
     public io.dstore.values.BooleanValueOrBuilder getDeleteOrBuilder() {
       return getDelete();
@@ -275,7 +275,7 @@ public final class OmModifyTaxTypesAd {
     public static final int DELETE_NULL_FIELD_NUMBER = 1003;
     private boolean deleteNull_;
     /**
-     * <code>optional bool delete_null = 1003;</code>
+     * <code>bool delete_null = 1003;</code>
      */
     public boolean getDeleteNull() {
       return deleteNull_;
@@ -388,7 +388,7 @@ public final class OmModifyTaxTypesAd {
         return memoizedHashCode;
       }
       int hash = 41;
-      hash = (19 * hash) + getDescriptorForType().hashCode();
+      hash = (19 * hash) + getDescriptor().hashCode();
       if (hasTaxTypeId()) {
         hash = (37 * hash) + TAX_TYPE_ID_FIELD_NUMBER;
         hash = (53 * hash) + getTaxTypeId().hashCode();
@@ -681,13 +681,13 @@ public final class OmModifyTaxTypesAd {
       private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> taxTypeIdBuilder_;
       /**
-       * <code>optional .dstore.values.IntegerValue tax_type_id = 1;</code>
+       * <code>.dstore.values.IntegerValue tax_type_id = 1;</code>
        */
       public boolean hasTaxTypeId() {
         return taxTypeIdBuilder_ != null || taxTypeId_ != null;
       }
       /**
-       * <code>optional .dstore.values.IntegerValue tax_type_id = 1;</code>
+       * <code>.dstore.values.IntegerValue tax_type_id = 1;</code>
        */
       public io.dstore.values.IntegerValue getTaxTypeId() {
         if (taxTypeIdBuilder_ == null) {
@@ -697,7 +697,7 @@ public final class OmModifyTaxTypesAd {
         }
       }
       /**
-       * <code>optional .dstore.values.IntegerValue tax_type_id = 1;</code>
+       * <code>.dstore.values.IntegerValue tax_type_id = 1;</code>
        */
       public Builder setTaxTypeId(io.dstore.values.IntegerValue value) {
         if (taxTypeIdBuilder_ == null) {
@@ -713,7 +713,7 @@ public final class OmModifyTaxTypesAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.IntegerValue tax_type_id = 1;</code>
+       * <code>.dstore.values.IntegerValue tax_type_id = 1;</code>
        */
       public Builder setTaxTypeId(
           io.dstore.values.IntegerValue.Builder builderForValue) {
@@ -727,7 +727,7 @@ public final class OmModifyTaxTypesAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.IntegerValue tax_type_id = 1;</code>
+       * <code>.dstore.values.IntegerValue tax_type_id = 1;</code>
        */
       public Builder mergeTaxTypeId(io.dstore.values.IntegerValue value) {
         if (taxTypeIdBuilder_ == null) {
@@ -745,7 +745,7 @@ public final class OmModifyTaxTypesAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.IntegerValue tax_type_id = 1;</code>
+       * <code>.dstore.values.IntegerValue tax_type_id = 1;</code>
        */
       public Builder clearTaxTypeId() {
         if (taxTypeIdBuilder_ == null) {
@@ -759,7 +759,7 @@ public final class OmModifyTaxTypesAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.IntegerValue tax_type_id = 1;</code>
+       * <code>.dstore.values.IntegerValue tax_type_id = 1;</code>
        */
       public io.dstore.values.IntegerValue.Builder getTaxTypeIdBuilder() {
         
@@ -767,7 +767,7 @@ public final class OmModifyTaxTypesAd {
         return getTaxTypeIdFieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .dstore.values.IntegerValue tax_type_id = 1;</code>
+       * <code>.dstore.values.IntegerValue tax_type_id = 1;</code>
        */
       public io.dstore.values.IntegerValueOrBuilder getTaxTypeIdOrBuilder() {
         if (taxTypeIdBuilder_ != null) {
@@ -778,7 +778,7 @@ public final class OmModifyTaxTypesAd {
         }
       }
       /**
-       * <code>optional .dstore.values.IntegerValue tax_type_id = 1;</code>
+       * <code>.dstore.values.IntegerValue tax_type_id = 1;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> 
@@ -796,13 +796,13 @@ public final class OmModifyTaxTypesAd {
 
       private boolean taxTypeIdNull_ ;
       /**
-       * <code>optional bool tax_type_id_null = 1001;</code>
+       * <code>bool tax_type_id_null = 1001;</code>
        */
       public boolean getTaxTypeIdNull() {
         return taxTypeIdNull_;
       }
       /**
-       * <code>optional bool tax_type_id_null = 1001;</code>
+       * <code>bool tax_type_id_null = 1001;</code>
        */
       public Builder setTaxTypeIdNull(boolean value) {
         
@@ -811,7 +811,7 @@ public final class OmModifyTaxTypesAd {
         return this;
       }
       /**
-       * <code>optional bool tax_type_id_null = 1001;</code>
+       * <code>bool tax_type_id_null = 1001;</code>
        */
       public Builder clearTaxTypeIdNull() {
         
@@ -824,13 +824,13 @@ public final class OmModifyTaxTypesAd {
       private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.values.StringValue, io.dstore.values.StringValue.Builder, io.dstore.values.StringValueOrBuilder> taxTypeBuilder_;
       /**
-       * <code>optional .dstore.values.StringValue tax_type = 2;</code>
+       * <code>.dstore.values.StringValue tax_type = 2;</code>
        */
       public boolean hasTaxType() {
         return taxTypeBuilder_ != null || taxType_ != null;
       }
       /**
-       * <code>optional .dstore.values.StringValue tax_type = 2;</code>
+       * <code>.dstore.values.StringValue tax_type = 2;</code>
        */
       public io.dstore.values.StringValue getTaxType() {
         if (taxTypeBuilder_ == null) {
@@ -840,7 +840,7 @@ public final class OmModifyTaxTypesAd {
         }
       }
       /**
-       * <code>optional .dstore.values.StringValue tax_type = 2;</code>
+       * <code>.dstore.values.StringValue tax_type = 2;</code>
        */
       public Builder setTaxType(io.dstore.values.StringValue value) {
         if (taxTypeBuilder_ == null) {
@@ -856,7 +856,7 @@ public final class OmModifyTaxTypesAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.StringValue tax_type = 2;</code>
+       * <code>.dstore.values.StringValue tax_type = 2;</code>
        */
       public Builder setTaxType(
           io.dstore.values.StringValue.Builder builderForValue) {
@@ -870,7 +870,7 @@ public final class OmModifyTaxTypesAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.StringValue tax_type = 2;</code>
+       * <code>.dstore.values.StringValue tax_type = 2;</code>
        */
       public Builder mergeTaxType(io.dstore.values.StringValue value) {
         if (taxTypeBuilder_ == null) {
@@ -888,7 +888,7 @@ public final class OmModifyTaxTypesAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.StringValue tax_type = 2;</code>
+       * <code>.dstore.values.StringValue tax_type = 2;</code>
        */
       public Builder clearTaxType() {
         if (taxTypeBuilder_ == null) {
@@ -902,7 +902,7 @@ public final class OmModifyTaxTypesAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.StringValue tax_type = 2;</code>
+       * <code>.dstore.values.StringValue tax_type = 2;</code>
        */
       public io.dstore.values.StringValue.Builder getTaxTypeBuilder() {
         
@@ -910,7 +910,7 @@ public final class OmModifyTaxTypesAd {
         return getTaxTypeFieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .dstore.values.StringValue tax_type = 2;</code>
+       * <code>.dstore.values.StringValue tax_type = 2;</code>
        */
       public io.dstore.values.StringValueOrBuilder getTaxTypeOrBuilder() {
         if (taxTypeBuilder_ != null) {
@@ -921,7 +921,7 @@ public final class OmModifyTaxTypesAd {
         }
       }
       /**
-       * <code>optional .dstore.values.StringValue tax_type = 2;</code>
+       * <code>.dstore.values.StringValue tax_type = 2;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.values.StringValue, io.dstore.values.StringValue.Builder, io.dstore.values.StringValueOrBuilder> 
@@ -939,13 +939,13 @@ public final class OmModifyTaxTypesAd {
 
       private boolean taxTypeNull_ ;
       /**
-       * <code>optional bool tax_type_null = 1002;</code>
+       * <code>bool tax_type_null = 1002;</code>
        */
       public boolean getTaxTypeNull() {
         return taxTypeNull_;
       }
       /**
-       * <code>optional bool tax_type_null = 1002;</code>
+       * <code>bool tax_type_null = 1002;</code>
        */
       public Builder setTaxTypeNull(boolean value) {
         
@@ -954,7 +954,7 @@ public final class OmModifyTaxTypesAd {
         return this;
       }
       /**
-       * <code>optional bool tax_type_null = 1002;</code>
+       * <code>bool tax_type_null = 1002;</code>
        */
       public Builder clearTaxTypeNull() {
         
@@ -967,13 +967,13 @@ public final class OmModifyTaxTypesAd {
       private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.values.BooleanValue, io.dstore.values.BooleanValue.Builder, io.dstore.values.BooleanValueOrBuilder> deleteBuilder_;
       /**
-       * <code>optional .dstore.values.BooleanValue delete = 3;</code>
+       * <code>.dstore.values.BooleanValue delete = 3;</code>
        */
       public boolean hasDelete() {
         return deleteBuilder_ != null || delete_ != null;
       }
       /**
-       * <code>optional .dstore.values.BooleanValue delete = 3;</code>
+       * <code>.dstore.values.BooleanValue delete = 3;</code>
        */
       public io.dstore.values.BooleanValue getDelete() {
         if (deleteBuilder_ == null) {
@@ -983,7 +983,7 @@ public final class OmModifyTaxTypesAd {
         }
       }
       /**
-       * <code>optional .dstore.values.BooleanValue delete = 3;</code>
+       * <code>.dstore.values.BooleanValue delete = 3;</code>
        */
       public Builder setDelete(io.dstore.values.BooleanValue value) {
         if (deleteBuilder_ == null) {
@@ -999,7 +999,7 @@ public final class OmModifyTaxTypesAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.BooleanValue delete = 3;</code>
+       * <code>.dstore.values.BooleanValue delete = 3;</code>
        */
       public Builder setDelete(
           io.dstore.values.BooleanValue.Builder builderForValue) {
@@ -1013,7 +1013,7 @@ public final class OmModifyTaxTypesAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.BooleanValue delete = 3;</code>
+       * <code>.dstore.values.BooleanValue delete = 3;</code>
        */
       public Builder mergeDelete(io.dstore.values.BooleanValue value) {
         if (deleteBuilder_ == null) {
@@ -1031,7 +1031,7 @@ public final class OmModifyTaxTypesAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.BooleanValue delete = 3;</code>
+       * <code>.dstore.values.BooleanValue delete = 3;</code>
        */
       public Builder clearDelete() {
         if (deleteBuilder_ == null) {
@@ -1045,7 +1045,7 @@ public final class OmModifyTaxTypesAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.BooleanValue delete = 3;</code>
+       * <code>.dstore.values.BooleanValue delete = 3;</code>
        */
       public io.dstore.values.BooleanValue.Builder getDeleteBuilder() {
         
@@ -1053,7 +1053,7 @@ public final class OmModifyTaxTypesAd {
         return getDeleteFieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .dstore.values.BooleanValue delete = 3;</code>
+       * <code>.dstore.values.BooleanValue delete = 3;</code>
        */
       public io.dstore.values.BooleanValueOrBuilder getDeleteOrBuilder() {
         if (deleteBuilder_ != null) {
@@ -1064,7 +1064,7 @@ public final class OmModifyTaxTypesAd {
         }
       }
       /**
-       * <code>optional .dstore.values.BooleanValue delete = 3;</code>
+       * <code>.dstore.values.BooleanValue delete = 3;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.values.BooleanValue, io.dstore.values.BooleanValue.Builder, io.dstore.values.BooleanValueOrBuilder> 
@@ -1082,13 +1082,13 @@ public final class OmModifyTaxTypesAd {
 
       private boolean deleteNull_ ;
       /**
-       * <code>optional bool delete_null = 1003;</code>
+       * <code>bool delete_null = 1003;</code>
        */
       public boolean getDeleteNull() {
         return deleteNull_;
       }
       /**
-       * <code>optional bool delete_null = 1003;</code>
+       * <code>bool delete_null = 1003;</code>
        */
       public Builder setDeleteNull(boolean value) {
         
@@ -1097,7 +1097,7 @@ public final class OmModifyTaxTypesAd {
         return this;
       }
       /**
-       * <code>optional bool delete_null = 1003;</code>
+       * <code>bool delete_null = 1003;</code>
        */
       public Builder clearDeleteNull() {
         
@@ -1356,7 +1356,7 @@ public final class OmModifyTaxTypesAd {
         com.google.protobuf.MessageOrBuilder {
 
       /**
-       * <code>optional int32 row_id = 10000;</code>
+       * <code>int32 row_id = 10000;</code>
        */
       int getRowId();
     }
@@ -1431,7 +1431,7 @@ public final class OmModifyTaxTypesAd {
       public static final int ROW_ID_FIELD_NUMBER = 10000;
       private int rowId_;
       /**
-       * <code>optional int32 row_id = 10000;</code>
+       * <code>int32 row_id = 10000;</code>
        */
       public int getRowId() {
         return rowId_;
@@ -1490,7 +1490,7 @@ public final class OmModifyTaxTypesAd {
           return memoizedHashCode;
         }
         int hash = 41;
-        hash = (19 * hash) + getDescriptorForType().hashCode();
+        hash = (19 * hash) + getDescriptor().hashCode();
         hash = (37 * hash) + ROW_ID_FIELD_NUMBER;
         hash = (53 * hash) + getRowId();
         hash = (29 * hash) + unknownFields.hashCode();
@@ -1708,13 +1708,13 @@ public final class OmModifyTaxTypesAd {
 
         private int rowId_ ;
         /**
-         * <code>optional int32 row_id = 10000;</code>
+         * <code>int32 row_id = 10000;</code>
          */
         public int getRowId() {
           return rowId_;
         }
         /**
-         * <code>optional int32 row_id = 10000;</code>
+         * <code>int32 row_id = 10000;</code>
          */
         public Builder setRowId(int value) {
           
@@ -1723,7 +1723,7 @@ public final class OmModifyTaxTypesAd {
           return this;
         }
         /**
-         * <code>optional int32 row_id = 10000;</code>
+         * <code>int32 row_id = 10000;</code>
          */
         public Builder clearRowId() {
           
@@ -1976,7 +1976,7 @@ public final class OmModifyTaxTypesAd {
         return memoizedHashCode;
       }
       int hash = 41;
-      hash = (19 * hash) + getDescriptorForType().hashCode();
+      hash = (19 * hash) + getDescriptor().hashCode();
       if (getMetaInformationCount() > 0) {
         hash = (37 * hash) + META_INFORMATION_FIELD_NUMBER;
         hash = (53 * hash) + getMetaInformationList().hashCode();

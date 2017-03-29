@@ -19,164 +19,164 @@ public final class OmModifyCampaignPeriodDefsAd {
       com.google.protobuf.MessageOrBuilder {
 
     /**
-     * <code>optional .dstore.values.IntegerValue campaign_id = 1;</code>
+     * <code>.dstore.values.IntegerValue campaign_id = 1;</code>
      */
     boolean hasCampaignId();
     /**
-     * <code>optional .dstore.values.IntegerValue campaign_id = 1;</code>
+     * <code>.dstore.values.IntegerValue campaign_id = 1;</code>
      */
     io.dstore.values.IntegerValue getCampaignId();
     /**
-     * <code>optional .dstore.values.IntegerValue campaign_id = 1;</code>
+     * <code>.dstore.values.IntegerValue campaign_id = 1;</code>
      */
     io.dstore.values.IntegerValueOrBuilder getCampaignIdOrBuilder();
 
     /**
-     * <code>optional bool campaign_id_null = 1001;</code>
+     * <code>bool campaign_id_null = 1001;</code>
      */
     boolean getCampaignIdNull();
 
     /**
-     * <code>optional .dstore.values.IntegerValue period_definition_id = 2;</code>
+     * <code>.dstore.values.IntegerValue period_definition_id = 2;</code>
      */
     boolean hasPeriodDefinitionId();
     /**
-     * <code>optional .dstore.values.IntegerValue period_definition_id = 2;</code>
+     * <code>.dstore.values.IntegerValue period_definition_id = 2;</code>
      */
     io.dstore.values.IntegerValue getPeriodDefinitionId();
     /**
-     * <code>optional .dstore.values.IntegerValue period_definition_id = 2;</code>
+     * <code>.dstore.values.IntegerValue period_definition_id = 2;</code>
      */
     io.dstore.values.IntegerValueOrBuilder getPeriodDefinitionIdOrBuilder();
 
     /**
-     * <code>optional bool period_definition_id_null = 1002;</code>
+     * <code>bool period_definition_id_null = 1002;</code>
      */
     boolean getPeriodDefinitionIdNull();
 
     /**
-     * <code>optional .dstore.values.StringValue period_definition_name = 3;</code>
+     * <code>.dstore.values.StringValue period_definition_name = 3;</code>
      */
     boolean hasPeriodDefinitionName();
     /**
-     * <code>optional .dstore.values.StringValue period_definition_name = 3;</code>
+     * <code>.dstore.values.StringValue period_definition_name = 3;</code>
      */
     io.dstore.values.StringValue getPeriodDefinitionName();
     /**
-     * <code>optional .dstore.values.StringValue period_definition_name = 3;</code>
+     * <code>.dstore.values.StringValue period_definition_name = 3;</code>
      */
     io.dstore.values.StringValueOrBuilder getPeriodDefinitionNameOrBuilder();
 
     /**
-     * <code>optional bool period_definition_name_null = 1003;</code>
+     * <code>bool period_definition_name_null = 1003;</code>
      */
     boolean getPeriodDefinitionNameNull();
 
     /**
-     * <code>optional .dstore.values.TimestampValue start_date_and_time = 4;</code>
+     * <code>.dstore.values.TimestampValue start_date_and_time = 4;</code>
      */
     boolean hasStartDateAndTime();
     /**
-     * <code>optional .dstore.values.TimestampValue start_date_and_time = 4;</code>
+     * <code>.dstore.values.TimestampValue start_date_and_time = 4;</code>
      */
     io.dstore.values.TimestampValue getStartDateAndTime();
     /**
-     * <code>optional .dstore.values.TimestampValue start_date_and_time = 4;</code>
+     * <code>.dstore.values.TimestampValue start_date_and_time = 4;</code>
      */
     io.dstore.values.TimestampValueOrBuilder getStartDateAndTimeOrBuilder();
 
     /**
-     * <code>optional bool start_date_and_time_null = 1004;</code>
+     * <code>bool start_date_and_time_null = 1004;</code>
      */
     boolean getStartDateAndTimeNull();
 
     /**
-     * <code>optional .dstore.values.TimestampValue end_date_and_time = 5;</code>
+     * <code>.dstore.values.TimestampValue end_date_and_time = 5;</code>
      */
     boolean hasEndDateAndTime();
     /**
-     * <code>optional .dstore.values.TimestampValue end_date_and_time = 5;</code>
+     * <code>.dstore.values.TimestampValue end_date_and_time = 5;</code>
      */
     io.dstore.values.TimestampValue getEndDateAndTime();
     /**
-     * <code>optional .dstore.values.TimestampValue end_date_and_time = 5;</code>
+     * <code>.dstore.values.TimestampValue end_date_and_time = 5;</code>
      */
     io.dstore.values.TimestampValueOrBuilder getEndDateAndTimeOrBuilder();
 
     /**
-     * <code>optional bool end_date_and_time_null = 1005;</code>
+     * <code>bool end_date_and_time_null = 1005;</code>
      */
     boolean getEndDateAndTimeNull();
 
     /**
-     * <code>optional .dstore.values.IntegerValue repeat_every_x_time_units = 6;</code>
+     * <code>.dstore.values.IntegerValue repeat_every_x_time_units = 6;</code>
      */
     boolean hasRepeatEveryXTimeUnits();
     /**
-     * <code>optional .dstore.values.IntegerValue repeat_every_x_time_units = 6;</code>
+     * <code>.dstore.values.IntegerValue repeat_every_x_time_units = 6;</code>
      */
     io.dstore.values.IntegerValue getRepeatEveryXTimeUnits();
     /**
-     * <code>optional .dstore.values.IntegerValue repeat_every_x_time_units = 6;</code>
+     * <code>.dstore.values.IntegerValue repeat_every_x_time_units = 6;</code>
      */
     io.dstore.values.IntegerValueOrBuilder getRepeatEveryXTimeUnitsOrBuilder();
 
     /**
-     * <code>optional bool repeat_every_x_time_units_null = 1006;</code>
+     * <code>bool repeat_every_x_time_units_null = 1006;</code>
      */
     boolean getRepeatEveryXTimeUnitsNull();
 
     /**
-     * <code>optional .dstore.values.IntegerValue time_unit_id = 7;</code>
+     * <code>.dstore.values.IntegerValue time_unit_id = 7;</code>
      */
     boolean hasTimeUnitId();
     /**
-     * <code>optional .dstore.values.IntegerValue time_unit_id = 7;</code>
+     * <code>.dstore.values.IntegerValue time_unit_id = 7;</code>
      */
     io.dstore.values.IntegerValue getTimeUnitId();
     /**
-     * <code>optional .dstore.values.IntegerValue time_unit_id = 7;</code>
+     * <code>.dstore.values.IntegerValue time_unit_id = 7;</code>
      */
     io.dstore.values.IntegerValueOrBuilder getTimeUnitIdOrBuilder();
 
     /**
-     * <code>optional bool time_unit_id_null = 1007;</code>
+     * <code>bool time_unit_id_null = 1007;</code>
      */
     boolean getTimeUnitIdNull();
 
     /**
-     * <code>optional .dstore.values.TimestampValue repeat_until = 8;</code>
+     * <code>.dstore.values.TimestampValue repeat_until = 8;</code>
      */
     boolean hasRepeatUntil();
     /**
-     * <code>optional .dstore.values.TimestampValue repeat_until = 8;</code>
+     * <code>.dstore.values.TimestampValue repeat_until = 8;</code>
      */
     io.dstore.values.TimestampValue getRepeatUntil();
     /**
-     * <code>optional .dstore.values.TimestampValue repeat_until = 8;</code>
+     * <code>.dstore.values.TimestampValue repeat_until = 8;</code>
      */
     io.dstore.values.TimestampValueOrBuilder getRepeatUntilOrBuilder();
 
     /**
-     * <code>optional bool repeat_until_null = 1008;</code>
+     * <code>bool repeat_until_null = 1008;</code>
      */
     boolean getRepeatUntilNull();
 
     /**
-     * <code>optional .dstore.values.BooleanValue delete_period_definition = 9;</code>
+     * <code>.dstore.values.BooleanValue delete_period_definition = 9;</code>
      */
     boolean hasDeletePeriodDefinition();
     /**
-     * <code>optional .dstore.values.BooleanValue delete_period_definition = 9;</code>
+     * <code>.dstore.values.BooleanValue delete_period_definition = 9;</code>
      */
     io.dstore.values.BooleanValue getDeletePeriodDefinition();
     /**
-     * <code>optional .dstore.values.BooleanValue delete_period_definition = 9;</code>
+     * <code>.dstore.values.BooleanValue delete_period_definition = 9;</code>
      */
     io.dstore.values.BooleanValueOrBuilder getDeletePeriodDefinitionOrBuilder();
 
     /**
-     * <code>optional bool delete_period_definition_null = 1009;</code>
+     * <code>bool delete_period_definition_null = 1009;</code>
      */
     boolean getDeletePeriodDefinitionNull();
   }
@@ -416,19 +416,19 @@ public final class OmModifyCampaignPeriodDefsAd {
     public static final int CAMPAIGN_ID_FIELD_NUMBER = 1;
     private io.dstore.values.IntegerValue campaignId_;
     /**
-     * <code>optional .dstore.values.IntegerValue campaign_id = 1;</code>
+     * <code>.dstore.values.IntegerValue campaign_id = 1;</code>
      */
     public boolean hasCampaignId() {
       return campaignId_ != null;
     }
     /**
-     * <code>optional .dstore.values.IntegerValue campaign_id = 1;</code>
+     * <code>.dstore.values.IntegerValue campaign_id = 1;</code>
      */
     public io.dstore.values.IntegerValue getCampaignId() {
       return campaignId_ == null ? io.dstore.values.IntegerValue.getDefaultInstance() : campaignId_;
     }
     /**
-     * <code>optional .dstore.values.IntegerValue campaign_id = 1;</code>
+     * <code>.dstore.values.IntegerValue campaign_id = 1;</code>
      */
     public io.dstore.values.IntegerValueOrBuilder getCampaignIdOrBuilder() {
       return getCampaignId();
@@ -437,7 +437,7 @@ public final class OmModifyCampaignPeriodDefsAd {
     public static final int CAMPAIGN_ID_NULL_FIELD_NUMBER = 1001;
     private boolean campaignIdNull_;
     /**
-     * <code>optional bool campaign_id_null = 1001;</code>
+     * <code>bool campaign_id_null = 1001;</code>
      */
     public boolean getCampaignIdNull() {
       return campaignIdNull_;
@@ -446,19 +446,19 @@ public final class OmModifyCampaignPeriodDefsAd {
     public static final int PERIOD_DEFINITION_ID_FIELD_NUMBER = 2;
     private io.dstore.values.IntegerValue periodDefinitionId_;
     /**
-     * <code>optional .dstore.values.IntegerValue period_definition_id = 2;</code>
+     * <code>.dstore.values.IntegerValue period_definition_id = 2;</code>
      */
     public boolean hasPeriodDefinitionId() {
       return periodDefinitionId_ != null;
     }
     /**
-     * <code>optional .dstore.values.IntegerValue period_definition_id = 2;</code>
+     * <code>.dstore.values.IntegerValue period_definition_id = 2;</code>
      */
     public io.dstore.values.IntegerValue getPeriodDefinitionId() {
       return periodDefinitionId_ == null ? io.dstore.values.IntegerValue.getDefaultInstance() : periodDefinitionId_;
     }
     /**
-     * <code>optional .dstore.values.IntegerValue period_definition_id = 2;</code>
+     * <code>.dstore.values.IntegerValue period_definition_id = 2;</code>
      */
     public io.dstore.values.IntegerValueOrBuilder getPeriodDefinitionIdOrBuilder() {
       return getPeriodDefinitionId();
@@ -467,7 +467,7 @@ public final class OmModifyCampaignPeriodDefsAd {
     public static final int PERIOD_DEFINITION_ID_NULL_FIELD_NUMBER = 1002;
     private boolean periodDefinitionIdNull_;
     /**
-     * <code>optional bool period_definition_id_null = 1002;</code>
+     * <code>bool period_definition_id_null = 1002;</code>
      */
     public boolean getPeriodDefinitionIdNull() {
       return periodDefinitionIdNull_;
@@ -476,19 +476,19 @@ public final class OmModifyCampaignPeriodDefsAd {
     public static final int PERIOD_DEFINITION_NAME_FIELD_NUMBER = 3;
     private io.dstore.values.StringValue periodDefinitionName_;
     /**
-     * <code>optional .dstore.values.StringValue period_definition_name = 3;</code>
+     * <code>.dstore.values.StringValue period_definition_name = 3;</code>
      */
     public boolean hasPeriodDefinitionName() {
       return periodDefinitionName_ != null;
     }
     /**
-     * <code>optional .dstore.values.StringValue period_definition_name = 3;</code>
+     * <code>.dstore.values.StringValue period_definition_name = 3;</code>
      */
     public io.dstore.values.StringValue getPeriodDefinitionName() {
       return periodDefinitionName_ == null ? io.dstore.values.StringValue.getDefaultInstance() : periodDefinitionName_;
     }
     /**
-     * <code>optional .dstore.values.StringValue period_definition_name = 3;</code>
+     * <code>.dstore.values.StringValue period_definition_name = 3;</code>
      */
     public io.dstore.values.StringValueOrBuilder getPeriodDefinitionNameOrBuilder() {
       return getPeriodDefinitionName();
@@ -497,7 +497,7 @@ public final class OmModifyCampaignPeriodDefsAd {
     public static final int PERIOD_DEFINITION_NAME_NULL_FIELD_NUMBER = 1003;
     private boolean periodDefinitionNameNull_;
     /**
-     * <code>optional bool period_definition_name_null = 1003;</code>
+     * <code>bool period_definition_name_null = 1003;</code>
      */
     public boolean getPeriodDefinitionNameNull() {
       return periodDefinitionNameNull_;
@@ -506,19 +506,19 @@ public final class OmModifyCampaignPeriodDefsAd {
     public static final int START_DATE_AND_TIME_FIELD_NUMBER = 4;
     private io.dstore.values.TimestampValue startDateAndTime_;
     /**
-     * <code>optional .dstore.values.TimestampValue start_date_and_time = 4;</code>
+     * <code>.dstore.values.TimestampValue start_date_and_time = 4;</code>
      */
     public boolean hasStartDateAndTime() {
       return startDateAndTime_ != null;
     }
     /**
-     * <code>optional .dstore.values.TimestampValue start_date_and_time = 4;</code>
+     * <code>.dstore.values.TimestampValue start_date_and_time = 4;</code>
      */
     public io.dstore.values.TimestampValue getStartDateAndTime() {
       return startDateAndTime_ == null ? io.dstore.values.TimestampValue.getDefaultInstance() : startDateAndTime_;
     }
     /**
-     * <code>optional .dstore.values.TimestampValue start_date_and_time = 4;</code>
+     * <code>.dstore.values.TimestampValue start_date_and_time = 4;</code>
      */
     public io.dstore.values.TimestampValueOrBuilder getStartDateAndTimeOrBuilder() {
       return getStartDateAndTime();
@@ -527,7 +527,7 @@ public final class OmModifyCampaignPeriodDefsAd {
     public static final int START_DATE_AND_TIME_NULL_FIELD_NUMBER = 1004;
     private boolean startDateAndTimeNull_;
     /**
-     * <code>optional bool start_date_and_time_null = 1004;</code>
+     * <code>bool start_date_and_time_null = 1004;</code>
      */
     public boolean getStartDateAndTimeNull() {
       return startDateAndTimeNull_;
@@ -536,19 +536,19 @@ public final class OmModifyCampaignPeriodDefsAd {
     public static final int END_DATE_AND_TIME_FIELD_NUMBER = 5;
     private io.dstore.values.TimestampValue endDateAndTime_;
     /**
-     * <code>optional .dstore.values.TimestampValue end_date_and_time = 5;</code>
+     * <code>.dstore.values.TimestampValue end_date_and_time = 5;</code>
      */
     public boolean hasEndDateAndTime() {
       return endDateAndTime_ != null;
     }
     /**
-     * <code>optional .dstore.values.TimestampValue end_date_and_time = 5;</code>
+     * <code>.dstore.values.TimestampValue end_date_and_time = 5;</code>
      */
     public io.dstore.values.TimestampValue getEndDateAndTime() {
       return endDateAndTime_ == null ? io.dstore.values.TimestampValue.getDefaultInstance() : endDateAndTime_;
     }
     /**
-     * <code>optional .dstore.values.TimestampValue end_date_and_time = 5;</code>
+     * <code>.dstore.values.TimestampValue end_date_and_time = 5;</code>
      */
     public io.dstore.values.TimestampValueOrBuilder getEndDateAndTimeOrBuilder() {
       return getEndDateAndTime();
@@ -557,7 +557,7 @@ public final class OmModifyCampaignPeriodDefsAd {
     public static final int END_DATE_AND_TIME_NULL_FIELD_NUMBER = 1005;
     private boolean endDateAndTimeNull_;
     /**
-     * <code>optional bool end_date_and_time_null = 1005;</code>
+     * <code>bool end_date_and_time_null = 1005;</code>
      */
     public boolean getEndDateAndTimeNull() {
       return endDateAndTimeNull_;
@@ -566,19 +566,19 @@ public final class OmModifyCampaignPeriodDefsAd {
     public static final int REPEAT_EVERY_X_TIME_UNITS_FIELD_NUMBER = 6;
     private io.dstore.values.IntegerValue repeatEveryXTimeUnits_;
     /**
-     * <code>optional .dstore.values.IntegerValue repeat_every_x_time_units = 6;</code>
+     * <code>.dstore.values.IntegerValue repeat_every_x_time_units = 6;</code>
      */
     public boolean hasRepeatEveryXTimeUnits() {
       return repeatEveryXTimeUnits_ != null;
     }
     /**
-     * <code>optional .dstore.values.IntegerValue repeat_every_x_time_units = 6;</code>
+     * <code>.dstore.values.IntegerValue repeat_every_x_time_units = 6;</code>
      */
     public io.dstore.values.IntegerValue getRepeatEveryXTimeUnits() {
       return repeatEveryXTimeUnits_ == null ? io.dstore.values.IntegerValue.getDefaultInstance() : repeatEveryXTimeUnits_;
     }
     /**
-     * <code>optional .dstore.values.IntegerValue repeat_every_x_time_units = 6;</code>
+     * <code>.dstore.values.IntegerValue repeat_every_x_time_units = 6;</code>
      */
     public io.dstore.values.IntegerValueOrBuilder getRepeatEveryXTimeUnitsOrBuilder() {
       return getRepeatEveryXTimeUnits();
@@ -587,7 +587,7 @@ public final class OmModifyCampaignPeriodDefsAd {
     public static final int REPEAT_EVERY_X_TIME_UNITS_NULL_FIELD_NUMBER = 1006;
     private boolean repeatEveryXTimeUnitsNull_;
     /**
-     * <code>optional bool repeat_every_x_time_units_null = 1006;</code>
+     * <code>bool repeat_every_x_time_units_null = 1006;</code>
      */
     public boolean getRepeatEveryXTimeUnitsNull() {
       return repeatEveryXTimeUnitsNull_;
@@ -596,19 +596,19 @@ public final class OmModifyCampaignPeriodDefsAd {
     public static final int TIME_UNIT_ID_FIELD_NUMBER = 7;
     private io.dstore.values.IntegerValue timeUnitId_;
     /**
-     * <code>optional .dstore.values.IntegerValue time_unit_id = 7;</code>
+     * <code>.dstore.values.IntegerValue time_unit_id = 7;</code>
      */
     public boolean hasTimeUnitId() {
       return timeUnitId_ != null;
     }
     /**
-     * <code>optional .dstore.values.IntegerValue time_unit_id = 7;</code>
+     * <code>.dstore.values.IntegerValue time_unit_id = 7;</code>
      */
     public io.dstore.values.IntegerValue getTimeUnitId() {
       return timeUnitId_ == null ? io.dstore.values.IntegerValue.getDefaultInstance() : timeUnitId_;
     }
     /**
-     * <code>optional .dstore.values.IntegerValue time_unit_id = 7;</code>
+     * <code>.dstore.values.IntegerValue time_unit_id = 7;</code>
      */
     public io.dstore.values.IntegerValueOrBuilder getTimeUnitIdOrBuilder() {
       return getTimeUnitId();
@@ -617,7 +617,7 @@ public final class OmModifyCampaignPeriodDefsAd {
     public static final int TIME_UNIT_ID_NULL_FIELD_NUMBER = 1007;
     private boolean timeUnitIdNull_;
     /**
-     * <code>optional bool time_unit_id_null = 1007;</code>
+     * <code>bool time_unit_id_null = 1007;</code>
      */
     public boolean getTimeUnitIdNull() {
       return timeUnitIdNull_;
@@ -626,19 +626,19 @@ public final class OmModifyCampaignPeriodDefsAd {
     public static final int REPEAT_UNTIL_FIELD_NUMBER = 8;
     private io.dstore.values.TimestampValue repeatUntil_;
     /**
-     * <code>optional .dstore.values.TimestampValue repeat_until = 8;</code>
+     * <code>.dstore.values.TimestampValue repeat_until = 8;</code>
      */
     public boolean hasRepeatUntil() {
       return repeatUntil_ != null;
     }
     /**
-     * <code>optional .dstore.values.TimestampValue repeat_until = 8;</code>
+     * <code>.dstore.values.TimestampValue repeat_until = 8;</code>
      */
     public io.dstore.values.TimestampValue getRepeatUntil() {
       return repeatUntil_ == null ? io.dstore.values.TimestampValue.getDefaultInstance() : repeatUntil_;
     }
     /**
-     * <code>optional .dstore.values.TimestampValue repeat_until = 8;</code>
+     * <code>.dstore.values.TimestampValue repeat_until = 8;</code>
      */
     public io.dstore.values.TimestampValueOrBuilder getRepeatUntilOrBuilder() {
       return getRepeatUntil();
@@ -647,7 +647,7 @@ public final class OmModifyCampaignPeriodDefsAd {
     public static final int REPEAT_UNTIL_NULL_FIELD_NUMBER = 1008;
     private boolean repeatUntilNull_;
     /**
-     * <code>optional bool repeat_until_null = 1008;</code>
+     * <code>bool repeat_until_null = 1008;</code>
      */
     public boolean getRepeatUntilNull() {
       return repeatUntilNull_;
@@ -656,19 +656,19 @@ public final class OmModifyCampaignPeriodDefsAd {
     public static final int DELETE_PERIOD_DEFINITION_FIELD_NUMBER = 9;
     private io.dstore.values.BooleanValue deletePeriodDefinition_;
     /**
-     * <code>optional .dstore.values.BooleanValue delete_period_definition = 9;</code>
+     * <code>.dstore.values.BooleanValue delete_period_definition = 9;</code>
      */
     public boolean hasDeletePeriodDefinition() {
       return deletePeriodDefinition_ != null;
     }
     /**
-     * <code>optional .dstore.values.BooleanValue delete_period_definition = 9;</code>
+     * <code>.dstore.values.BooleanValue delete_period_definition = 9;</code>
      */
     public io.dstore.values.BooleanValue getDeletePeriodDefinition() {
       return deletePeriodDefinition_ == null ? io.dstore.values.BooleanValue.getDefaultInstance() : deletePeriodDefinition_;
     }
     /**
-     * <code>optional .dstore.values.BooleanValue delete_period_definition = 9;</code>
+     * <code>.dstore.values.BooleanValue delete_period_definition = 9;</code>
      */
     public io.dstore.values.BooleanValueOrBuilder getDeletePeriodDefinitionOrBuilder() {
       return getDeletePeriodDefinition();
@@ -677,7 +677,7 @@ public final class OmModifyCampaignPeriodDefsAd {
     public static final int DELETE_PERIOD_DEFINITION_NULL_FIELD_NUMBER = 1009;
     private boolean deletePeriodDefinitionNull_;
     /**
-     * <code>optional bool delete_period_definition_null = 1009;</code>
+     * <code>bool delete_period_definition_null = 1009;</code>
      */
     public boolean getDeletePeriodDefinitionNull() {
       return deletePeriodDefinitionNull_;
@@ -916,7 +916,7 @@ public final class OmModifyCampaignPeriodDefsAd {
         return memoizedHashCode;
       }
       int hash = 41;
-      hash = (19 * hash) + getDescriptorForType().hashCode();
+      hash = (19 * hash) + getDescriptor().hashCode();
       if (hasCampaignId()) {
         hash = (37 * hash) + CAMPAIGN_ID_FIELD_NUMBER;
         hash = (53 * hash) + getCampaignId().hashCode();
@@ -1371,13 +1371,13 @@ public final class OmModifyCampaignPeriodDefsAd {
       private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> campaignIdBuilder_;
       /**
-       * <code>optional .dstore.values.IntegerValue campaign_id = 1;</code>
+       * <code>.dstore.values.IntegerValue campaign_id = 1;</code>
        */
       public boolean hasCampaignId() {
         return campaignIdBuilder_ != null || campaignId_ != null;
       }
       /**
-       * <code>optional .dstore.values.IntegerValue campaign_id = 1;</code>
+       * <code>.dstore.values.IntegerValue campaign_id = 1;</code>
        */
       public io.dstore.values.IntegerValue getCampaignId() {
         if (campaignIdBuilder_ == null) {
@@ -1387,7 +1387,7 @@ public final class OmModifyCampaignPeriodDefsAd {
         }
       }
       /**
-       * <code>optional .dstore.values.IntegerValue campaign_id = 1;</code>
+       * <code>.dstore.values.IntegerValue campaign_id = 1;</code>
        */
       public Builder setCampaignId(io.dstore.values.IntegerValue value) {
         if (campaignIdBuilder_ == null) {
@@ -1403,7 +1403,7 @@ public final class OmModifyCampaignPeriodDefsAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.IntegerValue campaign_id = 1;</code>
+       * <code>.dstore.values.IntegerValue campaign_id = 1;</code>
        */
       public Builder setCampaignId(
           io.dstore.values.IntegerValue.Builder builderForValue) {
@@ -1417,7 +1417,7 @@ public final class OmModifyCampaignPeriodDefsAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.IntegerValue campaign_id = 1;</code>
+       * <code>.dstore.values.IntegerValue campaign_id = 1;</code>
        */
       public Builder mergeCampaignId(io.dstore.values.IntegerValue value) {
         if (campaignIdBuilder_ == null) {
@@ -1435,7 +1435,7 @@ public final class OmModifyCampaignPeriodDefsAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.IntegerValue campaign_id = 1;</code>
+       * <code>.dstore.values.IntegerValue campaign_id = 1;</code>
        */
       public Builder clearCampaignId() {
         if (campaignIdBuilder_ == null) {
@@ -1449,7 +1449,7 @@ public final class OmModifyCampaignPeriodDefsAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.IntegerValue campaign_id = 1;</code>
+       * <code>.dstore.values.IntegerValue campaign_id = 1;</code>
        */
       public io.dstore.values.IntegerValue.Builder getCampaignIdBuilder() {
         
@@ -1457,7 +1457,7 @@ public final class OmModifyCampaignPeriodDefsAd {
         return getCampaignIdFieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .dstore.values.IntegerValue campaign_id = 1;</code>
+       * <code>.dstore.values.IntegerValue campaign_id = 1;</code>
        */
       public io.dstore.values.IntegerValueOrBuilder getCampaignIdOrBuilder() {
         if (campaignIdBuilder_ != null) {
@@ -1468,7 +1468,7 @@ public final class OmModifyCampaignPeriodDefsAd {
         }
       }
       /**
-       * <code>optional .dstore.values.IntegerValue campaign_id = 1;</code>
+       * <code>.dstore.values.IntegerValue campaign_id = 1;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> 
@@ -1486,13 +1486,13 @@ public final class OmModifyCampaignPeriodDefsAd {
 
       private boolean campaignIdNull_ ;
       /**
-       * <code>optional bool campaign_id_null = 1001;</code>
+       * <code>bool campaign_id_null = 1001;</code>
        */
       public boolean getCampaignIdNull() {
         return campaignIdNull_;
       }
       /**
-       * <code>optional bool campaign_id_null = 1001;</code>
+       * <code>bool campaign_id_null = 1001;</code>
        */
       public Builder setCampaignIdNull(boolean value) {
         
@@ -1501,7 +1501,7 @@ public final class OmModifyCampaignPeriodDefsAd {
         return this;
       }
       /**
-       * <code>optional bool campaign_id_null = 1001;</code>
+       * <code>bool campaign_id_null = 1001;</code>
        */
       public Builder clearCampaignIdNull() {
         
@@ -1514,13 +1514,13 @@ public final class OmModifyCampaignPeriodDefsAd {
       private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> periodDefinitionIdBuilder_;
       /**
-       * <code>optional .dstore.values.IntegerValue period_definition_id = 2;</code>
+       * <code>.dstore.values.IntegerValue period_definition_id = 2;</code>
        */
       public boolean hasPeriodDefinitionId() {
         return periodDefinitionIdBuilder_ != null || periodDefinitionId_ != null;
       }
       /**
-       * <code>optional .dstore.values.IntegerValue period_definition_id = 2;</code>
+       * <code>.dstore.values.IntegerValue period_definition_id = 2;</code>
        */
       public io.dstore.values.IntegerValue getPeriodDefinitionId() {
         if (periodDefinitionIdBuilder_ == null) {
@@ -1530,7 +1530,7 @@ public final class OmModifyCampaignPeriodDefsAd {
         }
       }
       /**
-       * <code>optional .dstore.values.IntegerValue period_definition_id = 2;</code>
+       * <code>.dstore.values.IntegerValue period_definition_id = 2;</code>
        */
       public Builder setPeriodDefinitionId(io.dstore.values.IntegerValue value) {
         if (periodDefinitionIdBuilder_ == null) {
@@ -1546,7 +1546,7 @@ public final class OmModifyCampaignPeriodDefsAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.IntegerValue period_definition_id = 2;</code>
+       * <code>.dstore.values.IntegerValue period_definition_id = 2;</code>
        */
       public Builder setPeriodDefinitionId(
           io.dstore.values.IntegerValue.Builder builderForValue) {
@@ -1560,7 +1560,7 @@ public final class OmModifyCampaignPeriodDefsAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.IntegerValue period_definition_id = 2;</code>
+       * <code>.dstore.values.IntegerValue period_definition_id = 2;</code>
        */
       public Builder mergePeriodDefinitionId(io.dstore.values.IntegerValue value) {
         if (periodDefinitionIdBuilder_ == null) {
@@ -1578,7 +1578,7 @@ public final class OmModifyCampaignPeriodDefsAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.IntegerValue period_definition_id = 2;</code>
+       * <code>.dstore.values.IntegerValue period_definition_id = 2;</code>
        */
       public Builder clearPeriodDefinitionId() {
         if (periodDefinitionIdBuilder_ == null) {
@@ -1592,7 +1592,7 @@ public final class OmModifyCampaignPeriodDefsAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.IntegerValue period_definition_id = 2;</code>
+       * <code>.dstore.values.IntegerValue period_definition_id = 2;</code>
        */
       public io.dstore.values.IntegerValue.Builder getPeriodDefinitionIdBuilder() {
         
@@ -1600,7 +1600,7 @@ public final class OmModifyCampaignPeriodDefsAd {
         return getPeriodDefinitionIdFieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .dstore.values.IntegerValue period_definition_id = 2;</code>
+       * <code>.dstore.values.IntegerValue period_definition_id = 2;</code>
        */
       public io.dstore.values.IntegerValueOrBuilder getPeriodDefinitionIdOrBuilder() {
         if (periodDefinitionIdBuilder_ != null) {
@@ -1611,7 +1611,7 @@ public final class OmModifyCampaignPeriodDefsAd {
         }
       }
       /**
-       * <code>optional .dstore.values.IntegerValue period_definition_id = 2;</code>
+       * <code>.dstore.values.IntegerValue period_definition_id = 2;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> 
@@ -1629,13 +1629,13 @@ public final class OmModifyCampaignPeriodDefsAd {
 
       private boolean periodDefinitionIdNull_ ;
       /**
-       * <code>optional bool period_definition_id_null = 1002;</code>
+       * <code>bool period_definition_id_null = 1002;</code>
        */
       public boolean getPeriodDefinitionIdNull() {
         return periodDefinitionIdNull_;
       }
       /**
-       * <code>optional bool period_definition_id_null = 1002;</code>
+       * <code>bool period_definition_id_null = 1002;</code>
        */
       public Builder setPeriodDefinitionIdNull(boolean value) {
         
@@ -1644,7 +1644,7 @@ public final class OmModifyCampaignPeriodDefsAd {
         return this;
       }
       /**
-       * <code>optional bool period_definition_id_null = 1002;</code>
+       * <code>bool period_definition_id_null = 1002;</code>
        */
       public Builder clearPeriodDefinitionIdNull() {
         
@@ -1657,13 +1657,13 @@ public final class OmModifyCampaignPeriodDefsAd {
       private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.values.StringValue, io.dstore.values.StringValue.Builder, io.dstore.values.StringValueOrBuilder> periodDefinitionNameBuilder_;
       /**
-       * <code>optional .dstore.values.StringValue period_definition_name = 3;</code>
+       * <code>.dstore.values.StringValue period_definition_name = 3;</code>
        */
       public boolean hasPeriodDefinitionName() {
         return periodDefinitionNameBuilder_ != null || periodDefinitionName_ != null;
       }
       /**
-       * <code>optional .dstore.values.StringValue period_definition_name = 3;</code>
+       * <code>.dstore.values.StringValue period_definition_name = 3;</code>
        */
       public io.dstore.values.StringValue getPeriodDefinitionName() {
         if (periodDefinitionNameBuilder_ == null) {
@@ -1673,7 +1673,7 @@ public final class OmModifyCampaignPeriodDefsAd {
         }
       }
       /**
-       * <code>optional .dstore.values.StringValue period_definition_name = 3;</code>
+       * <code>.dstore.values.StringValue period_definition_name = 3;</code>
        */
       public Builder setPeriodDefinitionName(io.dstore.values.StringValue value) {
         if (periodDefinitionNameBuilder_ == null) {
@@ -1689,7 +1689,7 @@ public final class OmModifyCampaignPeriodDefsAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.StringValue period_definition_name = 3;</code>
+       * <code>.dstore.values.StringValue period_definition_name = 3;</code>
        */
       public Builder setPeriodDefinitionName(
           io.dstore.values.StringValue.Builder builderForValue) {
@@ -1703,7 +1703,7 @@ public final class OmModifyCampaignPeriodDefsAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.StringValue period_definition_name = 3;</code>
+       * <code>.dstore.values.StringValue period_definition_name = 3;</code>
        */
       public Builder mergePeriodDefinitionName(io.dstore.values.StringValue value) {
         if (periodDefinitionNameBuilder_ == null) {
@@ -1721,7 +1721,7 @@ public final class OmModifyCampaignPeriodDefsAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.StringValue period_definition_name = 3;</code>
+       * <code>.dstore.values.StringValue period_definition_name = 3;</code>
        */
       public Builder clearPeriodDefinitionName() {
         if (periodDefinitionNameBuilder_ == null) {
@@ -1735,7 +1735,7 @@ public final class OmModifyCampaignPeriodDefsAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.StringValue period_definition_name = 3;</code>
+       * <code>.dstore.values.StringValue period_definition_name = 3;</code>
        */
       public io.dstore.values.StringValue.Builder getPeriodDefinitionNameBuilder() {
         
@@ -1743,7 +1743,7 @@ public final class OmModifyCampaignPeriodDefsAd {
         return getPeriodDefinitionNameFieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .dstore.values.StringValue period_definition_name = 3;</code>
+       * <code>.dstore.values.StringValue period_definition_name = 3;</code>
        */
       public io.dstore.values.StringValueOrBuilder getPeriodDefinitionNameOrBuilder() {
         if (periodDefinitionNameBuilder_ != null) {
@@ -1754,7 +1754,7 @@ public final class OmModifyCampaignPeriodDefsAd {
         }
       }
       /**
-       * <code>optional .dstore.values.StringValue period_definition_name = 3;</code>
+       * <code>.dstore.values.StringValue period_definition_name = 3;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.values.StringValue, io.dstore.values.StringValue.Builder, io.dstore.values.StringValueOrBuilder> 
@@ -1772,13 +1772,13 @@ public final class OmModifyCampaignPeriodDefsAd {
 
       private boolean periodDefinitionNameNull_ ;
       /**
-       * <code>optional bool period_definition_name_null = 1003;</code>
+       * <code>bool period_definition_name_null = 1003;</code>
        */
       public boolean getPeriodDefinitionNameNull() {
         return periodDefinitionNameNull_;
       }
       /**
-       * <code>optional bool period_definition_name_null = 1003;</code>
+       * <code>bool period_definition_name_null = 1003;</code>
        */
       public Builder setPeriodDefinitionNameNull(boolean value) {
         
@@ -1787,7 +1787,7 @@ public final class OmModifyCampaignPeriodDefsAd {
         return this;
       }
       /**
-       * <code>optional bool period_definition_name_null = 1003;</code>
+       * <code>bool period_definition_name_null = 1003;</code>
        */
       public Builder clearPeriodDefinitionNameNull() {
         
@@ -1800,13 +1800,13 @@ public final class OmModifyCampaignPeriodDefsAd {
       private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.values.TimestampValue, io.dstore.values.TimestampValue.Builder, io.dstore.values.TimestampValueOrBuilder> startDateAndTimeBuilder_;
       /**
-       * <code>optional .dstore.values.TimestampValue start_date_and_time = 4;</code>
+       * <code>.dstore.values.TimestampValue start_date_and_time = 4;</code>
        */
       public boolean hasStartDateAndTime() {
         return startDateAndTimeBuilder_ != null || startDateAndTime_ != null;
       }
       /**
-       * <code>optional .dstore.values.TimestampValue start_date_and_time = 4;</code>
+       * <code>.dstore.values.TimestampValue start_date_and_time = 4;</code>
        */
       public io.dstore.values.TimestampValue getStartDateAndTime() {
         if (startDateAndTimeBuilder_ == null) {
@@ -1816,7 +1816,7 @@ public final class OmModifyCampaignPeriodDefsAd {
         }
       }
       /**
-       * <code>optional .dstore.values.TimestampValue start_date_and_time = 4;</code>
+       * <code>.dstore.values.TimestampValue start_date_and_time = 4;</code>
        */
       public Builder setStartDateAndTime(io.dstore.values.TimestampValue value) {
         if (startDateAndTimeBuilder_ == null) {
@@ -1832,7 +1832,7 @@ public final class OmModifyCampaignPeriodDefsAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.TimestampValue start_date_and_time = 4;</code>
+       * <code>.dstore.values.TimestampValue start_date_and_time = 4;</code>
        */
       public Builder setStartDateAndTime(
           io.dstore.values.TimestampValue.Builder builderForValue) {
@@ -1846,7 +1846,7 @@ public final class OmModifyCampaignPeriodDefsAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.TimestampValue start_date_and_time = 4;</code>
+       * <code>.dstore.values.TimestampValue start_date_and_time = 4;</code>
        */
       public Builder mergeStartDateAndTime(io.dstore.values.TimestampValue value) {
         if (startDateAndTimeBuilder_ == null) {
@@ -1864,7 +1864,7 @@ public final class OmModifyCampaignPeriodDefsAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.TimestampValue start_date_and_time = 4;</code>
+       * <code>.dstore.values.TimestampValue start_date_and_time = 4;</code>
        */
       public Builder clearStartDateAndTime() {
         if (startDateAndTimeBuilder_ == null) {
@@ -1878,7 +1878,7 @@ public final class OmModifyCampaignPeriodDefsAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.TimestampValue start_date_and_time = 4;</code>
+       * <code>.dstore.values.TimestampValue start_date_and_time = 4;</code>
        */
       public io.dstore.values.TimestampValue.Builder getStartDateAndTimeBuilder() {
         
@@ -1886,7 +1886,7 @@ public final class OmModifyCampaignPeriodDefsAd {
         return getStartDateAndTimeFieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .dstore.values.TimestampValue start_date_and_time = 4;</code>
+       * <code>.dstore.values.TimestampValue start_date_and_time = 4;</code>
        */
       public io.dstore.values.TimestampValueOrBuilder getStartDateAndTimeOrBuilder() {
         if (startDateAndTimeBuilder_ != null) {
@@ -1897,7 +1897,7 @@ public final class OmModifyCampaignPeriodDefsAd {
         }
       }
       /**
-       * <code>optional .dstore.values.TimestampValue start_date_and_time = 4;</code>
+       * <code>.dstore.values.TimestampValue start_date_and_time = 4;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.values.TimestampValue, io.dstore.values.TimestampValue.Builder, io.dstore.values.TimestampValueOrBuilder> 
@@ -1915,13 +1915,13 @@ public final class OmModifyCampaignPeriodDefsAd {
 
       private boolean startDateAndTimeNull_ ;
       /**
-       * <code>optional bool start_date_and_time_null = 1004;</code>
+       * <code>bool start_date_and_time_null = 1004;</code>
        */
       public boolean getStartDateAndTimeNull() {
         return startDateAndTimeNull_;
       }
       /**
-       * <code>optional bool start_date_and_time_null = 1004;</code>
+       * <code>bool start_date_and_time_null = 1004;</code>
        */
       public Builder setStartDateAndTimeNull(boolean value) {
         
@@ -1930,7 +1930,7 @@ public final class OmModifyCampaignPeriodDefsAd {
         return this;
       }
       /**
-       * <code>optional bool start_date_and_time_null = 1004;</code>
+       * <code>bool start_date_and_time_null = 1004;</code>
        */
       public Builder clearStartDateAndTimeNull() {
         
@@ -1943,13 +1943,13 @@ public final class OmModifyCampaignPeriodDefsAd {
       private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.values.TimestampValue, io.dstore.values.TimestampValue.Builder, io.dstore.values.TimestampValueOrBuilder> endDateAndTimeBuilder_;
       /**
-       * <code>optional .dstore.values.TimestampValue end_date_and_time = 5;</code>
+       * <code>.dstore.values.TimestampValue end_date_and_time = 5;</code>
        */
       public boolean hasEndDateAndTime() {
         return endDateAndTimeBuilder_ != null || endDateAndTime_ != null;
       }
       /**
-       * <code>optional .dstore.values.TimestampValue end_date_and_time = 5;</code>
+       * <code>.dstore.values.TimestampValue end_date_and_time = 5;</code>
        */
       public io.dstore.values.TimestampValue getEndDateAndTime() {
         if (endDateAndTimeBuilder_ == null) {
@@ -1959,7 +1959,7 @@ public final class OmModifyCampaignPeriodDefsAd {
         }
       }
       /**
-       * <code>optional .dstore.values.TimestampValue end_date_and_time = 5;</code>
+       * <code>.dstore.values.TimestampValue end_date_and_time = 5;</code>
        */
       public Builder setEndDateAndTime(io.dstore.values.TimestampValue value) {
         if (endDateAndTimeBuilder_ == null) {
@@ -1975,7 +1975,7 @@ public final class OmModifyCampaignPeriodDefsAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.TimestampValue end_date_and_time = 5;</code>
+       * <code>.dstore.values.TimestampValue end_date_and_time = 5;</code>
        */
       public Builder setEndDateAndTime(
           io.dstore.values.TimestampValue.Builder builderForValue) {
@@ -1989,7 +1989,7 @@ public final class OmModifyCampaignPeriodDefsAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.TimestampValue end_date_and_time = 5;</code>
+       * <code>.dstore.values.TimestampValue end_date_and_time = 5;</code>
        */
       public Builder mergeEndDateAndTime(io.dstore.values.TimestampValue value) {
         if (endDateAndTimeBuilder_ == null) {
@@ -2007,7 +2007,7 @@ public final class OmModifyCampaignPeriodDefsAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.TimestampValue end_date_and_time = 5;</code>
+       * <code>.dstore.values.TimestampValue end_date_and_time = 5;</code>
        */
       public Builder clearEndDateAndTime() {
         if (endDateAndTimeBuilder_ == null) {
@@ -2021,7 +2021,7 @@ public final class OmModifyCampaignPeriodDefsAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.TimestampValue end_date_and_time = 5;</code>
+       * <code>.dstore.values.TimestampValue end_date_and_time = 5;</code>
        */
       public io.dstore.values.TimestampValue.Builder getEndDateAndTimeBuilder() {
         
@@ -2029,7 +2029,7 @@ public final class OmModifyCampaignPeriodDefsAd {
         return getEndDateAndTimeFieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .dstore.values.TimestampValue end_date_and_time = 5;</code>
+       * <code>.dstore.values.TimestampValue end_date_and_time = 5;</code>
        */
       public io.dstore.values.TimestampValueOrBuilder getEndDateAndTimeOrBuilder() {
         if (endDateAndTimeBuilder_ != null) {
@@ -2040,7 +2040,7 @@ public final class OmModifyCampaignPeriodDefsAd {
         }
       }
       /**
-       * <code>optional .dstore.values.TimestampValue end_date_and_time = 5;</code>
+       * <code>.dstore.values.TimestampValue end_date_and_time = 5;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.values.TimestampValue, io.dstore.values.TimestampValue.Builder, io.dstore.values.TimestampValueOrBuilder> 
@@ -2058,13 +2058,13 @@ public final class OmModifyCampaignPeriodDefsAd {
 
       private boolean endDateAndTimeNull_ ;
       /**
-       * <code>optional bool end_date_and_time_null = 1005;</code>
+       * <code>bool end_date_and_time_null = 1005;</code>
        */
       public boolean getEndDateAndTimeNull() {
         return endDateAndTimeNull_;
       }
       /**
-       * <code>optional bool end_date_and_time_null = 1005;</code>
+       * <code>bool end_date_and_time_null = 1005;</code>
        */
       public Builder setEndDateAndTimeNull(boolean value) {
         
@@ -2073,7 +2073,7 @@ public final class OmModifyCampaignPeriodDefsAd {
         return this;
       }
       /**
-       * <code>optional bool end_date_and_time_null = 1005;</code>
+       * <code>bool end_date_and_time_null = 1005;</code>
        */
       public Builder clearEndDateAndTimeNull() {
         
@@ -2086,13 +2086,13 @@ public final class OmModifyCampaignPeriodDefsAd {
       private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> repeatEveryXTimeUnitsBuilder_;
       /**
-       * <code>optional .dstore.values.IntegerValue repeat_every_x_time_units = 6;</code>
+       * <code>.dstore.values.IntegerValue repeat_every_x_time_units = 6;</code>
        */
       public boolean hasRepeatEveryXTimeUnits() {
         return repeatEveryXTimeUnitsBuilder_ != null || repeatEveryXTimeUnits_ != null;
       }
       /**
-       * <code>optional .dstore.values.IntegerValue repeat_every_x_time_units = 6;</code>
+       * <code>.dstore.values.IntegerValue repeat_every_x_time_units = 6;</code>
        */
       public io.dstore.values.IntegerValue getRepeatEveryXTimeUnits() {
         if (repeatEveryXTimeUnitsBuilder_ == null) {
@@ -2102,7 +2102,7 @@ public final class OmModifyCampaignPeriodDefsAd {
         }
       }
       /**
-       * <code>optional .dstore.values.IntegerValue repeat_every_x_time_units = 6;</code>
+       * <code>.dstore.values.IntegerValue repeat_every_x_time_units = 6;</code>
        */
       public Builder setRepeatEveryXTimeUnits(io.dstore.values.IntegerValue value) {
         if (repeatEveryXTimeUnitsBuilder_ == null) {
@@ -2118,7 +2118,7 @@ public final class OmModifyCampaignPeriodDefsAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.IntegerValue repeat_every_x_time_units = 6;</code>
+       * <code>.dstore.values.IntegerValue repeat_every_x_time_units = 6;</code>
        */
       public Builder setRepeatEveryXTimeUnits(
           io.dstore.values.IntegerValue.Builder builderForValue) {
@@ -2132,7 +2132,7 @@ public final class OmModifyCampaignPeriodDefsAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.IntegerValue repeat_every_x_time_units = 6;</code>
+       * <code>.dstore.values.IntegerValue repeat_every_x_time_units = 6;</code>
        */
       public Builder mergeRepeatEveryXTimeUnits(io.dstore.values.IntegerValue value) {
         if (repeatEveryXTimeUnitsBuilder_ == null) {
@@ -2150,7 +2150,7 @@ public final class OmModifyCampaignPeriodDefsAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.IntegerValue repeat_every_x_time_units = 6;</code>
+       * <code>.dstore.values.IntegerValue repeat_every_x_time_units = 6;</code>
        */
       public Builder clearRepeatEveryXTimeUnits() {
         if (repeatEveryXTimeUnitsBuilder_ == null) {
@@ -2164,7 +2164,7 @@ public final class OmModifyCampaignPeriodDefsAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.IntegerValue repeat_every_x_time_units = 6;</code>
+       * <code>.dstore.values.IntegerValue repeat_every_x_time_units = 6;</code>
        */
       public io.dstore.values.IntegerValue.Builder getRepeatEveryXTimeUnitsBuilder() {
         
@@ -2172,7 +2172,7 @@ public final class OmModifyCampaignPeriodDefsAd {
         return getRepeatEveryXTimeUnitsFieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .dstore.values.IntegerValue repeat_every_x_time_units = 6;</code>
+       * <code>.dstore.values.IntegerValue repeat_every_x_time_units = 6;</code>
        */
       public io.dstore.values.IntegerValueOrBuilder getRepeatEveryXTimeUnitsOrBuilder() {
         if (repeatEveryXTimeUnitsBuilder_ != null) {
@@ -2183,7 +2183,7 @@ public final class OmModifyCampaignPeriodDefsAd {
         }
       }
       /**
-       * <code>optional .dstore.values.IntegerValue repeat_every_x_time_units = 6;</code>
+       * <code>.dstore.values.IntegerValue repeat_every_x_time_units = 6;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> 
@@ -2201,13 +2201,13 @@ public final class OmModifyCampaignPeriodDefsAd {
 
       private boolean repeatEveryXTimeUnitsNull_ ;
       /**
-       * <code>optional bool repeat_every_x_time_units_null = 1006;</code>
+       * <code>bool repeat_every_x_time_units_null = 1006;</code>
        */
       public boolean getRepeatEveryXTimeUnitsNull() {
         return repeatEveryXTimeUnitsNull_;
       }
       /**
-       * <code>optional bool repeat_every_x_time_units_null = 1006;</code>
+       * <code>bool repeat_every_x_time_units_null = 1006;</code>
        */
       public Builder setRepeatEveryXTimeUnitsNull(boolean value) {
         
@@ -2216,7 +2216,7 @@ public final class OmModifyCampaignPeriodDefsAd {
         return this;
       }
       /**
-       * <code>optional bool repeat_every_x_time_units_null = 1006;</code>
+       * <code>bool repeat_every_x_time_units_null = 1006;</code>
        */
       public Builder clearRepeatEveryXTimeUnitsNull() {
         
@@ -2229,13 +2229,13 @@ public final class OmModifyCampaignPeriodDefsAd {
       private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> timeUnitIdBuilder_;
       /**
-       * <code>optional .dstore.values.IntegerValue time_unit_id = 7;</code>
+       * <code>.dstore.values.IntegerValue time_unit_id = 7;</code>
        */
       public boolean hasTimeUnitId() {
         return timeUnitIdBuilder_ != null || timeUnitId_ != null;
       }
       /**
-       * <code>optional .dstore.values.IntegerValue time_unit_id = 7;</code>
+       * <code>.dstore.values.IntegerValue time_unit_id = 7;</code>
        */
       public io.dstore.values.IntegerValue getTimeUnitId() {
         if (timeUnitIdBuilder_ == null) {
@@ -2245,7 +2245,7 @@ public final class OmModifyCampaignPeriodDefsAd {
         }
       }
       /**
-       * <code>optional .dstore.values.IntegerValue time_unit_id = 7;</code>
+       * <code>.dstore.values.IntegerValue time_unit_id = 7;</code>
        */
       public Builder setTimeUnitId(io.dstore.values.IntegerValue value) {
         if (timeUnitIdBuilder_ == null) {
@@ -2261,7 +2261,7 @@ public final class OmModifyCampaignPeriodDefsAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.IntegerValue time_unit_id = 7;</code>
+       * <code>.dstore.values.IntegerValue time_unit_id = 7;</code>
        */
       public Builder setTimeUnitId(
           io.dstore.values.IntegerValue.Builder builderForValue) {
@@ -2275,7 +2275,7 @@ public final class OmModifyCampaignPeriodDefsAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.IntegerValue time_unit_id = 7;</code>
+       * <code>.dstore.values.IntegerValue time_unit_id = 7;</code>
        */
       public Builder mergeTimeUnitId(io.dstore.values.IntegerValue value) {
         if (timeUnitIdBuilder_ == null) {
@@ -2293,7 +2293,7 @@ public final class OmModifyCampaignPeriodDefsAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.IntegerValue time_unit_id = 7;</code>
+       * <code>.dstore.values.IntegerValue time_unit_id = 7;</code>
        */
       public Builder clearTimeUnitId() {
         if (timeUnitIdBuilder_ == null) {
@@ -2307,7 +2307,7 @@ public final class OmModifyCampaignPeriodDefsAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.IntegerValue time_unit_id = 7;</code>
+       * <code>.dstore.values.IntegerValue time_unit_id = 7;</code>
        */
       public io.dstore.values.IntegerValue.Builder getTimeUnitIdBuilder() {
         
@@ -2315,7 +2315,7 @@ public final class OmModifyCampaignPeriodDefsAd {
         return getTimeUnitIdFieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .dstore.values.IntegerValue time_unit_id = 7;</code>
+       * <code>.dstore.values.IntegerValue time_unit_id = 7;</code>
        */
       public io.dstore.values.IntegerValueOrBuilder getTimeUnitIdOrBuilder() {
         if (timeUnitIdBuilder_ != null) {
@@ -2326,7 +2326,7 @@ public final class OmModifyCampaignPeriodDefsAd {
         }
       }
       /**
-       * <code>optional .dstore.values.IntegerValue time_unit_id = 7;</code>
+       * <code>.dstore.values.IntegerValue time_unit_id = 7;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> 
@@ -2344,13 +2344,13 @@ public final class OmModifyCampaignPeriodDefsAd {
 
       private boolean timeUnitIdNull_ ;
       /**
-       * <code>optional bool time_unit_id_null = 1007;</code>
+       * <code>bool time_unit_id_null = 1007;</code>
        */
       public boolean getTimeUnitIdNull() {
         return timeUnitIdNull_;
       }
       /**
-       * <code>optional bool time_unit_id_null = 1007;</code>
+       * <code>bool time_unit_id_null = 1007;</code>
        */
       public Builder setTimeUnitIdNull(boolean value) {
         
@@ -2359,7 +2359,7 @@ public final class OmModifyCampaignPeriodDefsAd {
         return this;
       }
       /**
-       * <code>optional bool time_unit_id_null = 1007;</code>
+       * <code>bool time_unit_id_null = 1007;</code>
        */
       public Builder clearTimeUnitIdNull() {
         
@@ -2372,13 +2372,13 @@ public final class OmModifyCampaignPeriodDefsAd {
       private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.values.TimestampValue, io.dstore.values.TimestampValue.Builder, io.dstore.values.TimestampValueOrBuilder> repeatUntilBuilder_;
       /**
-       * <code>optional .dstore.values.TimestampValue repeat_until = 8;</code>
+       * <code>.dstore.values.TimestampValue repeat_until = 8;</code>
        */
       public boolean hasRepeatUntil() {
         return repeatUntilBuilder_ != null || repeatUntil_ != null;
       }
       /**
-       * <code>optional .dstore.values.TimestampValue repeat_until = 8;</code>
+       * <code>.dstore.values.TimestampValue repeat_until = 8;</code>
        */
       public io.dstore.values.TimestampValue getRepeatUntil() {
         if (repeatUntilBuilder_ == null) {
@@ -2388,7 +2388,7 @@ public final class OmModifyCampaignPeriodDefsAd {
         }
       }
       /**
-       * <code>optional .dstore.values.TimestampValue repeat_until = 8;</code>
+       * <code>.dstore.values.TimestampValue repeat_until = 8;</code>
        */
       public Builder setRepeatUntil(io.dstore.values.TimestampValue value) {
         if (repeatUntilBuilder_ == null) {
@@ -2404,7 +2404,7 @@ public final class OmModifyCampaignPeriodDefsAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.TimestampValue repeat_until = 8;</code>
+       * <code>.dstore.values.TimestampValue repeat_until = 8;</code>
        */
       public Builder setRepeatUntil(
           io.dstore.values.TimestampValue.Builder builderForValue) {
@@ -2418,7 +2418,7 @@ public final class OmModifyCampaignPeriodDefsAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.TimestampValue repeat_until = 8;</code>
+       * <code>.dstore.values.TimestampValue repeat_until = 8;</code>
        */
       public Builder mergeRepeatUntil(io.dstore.values.TimestampValue value) {
         if (repeatUntilBuilder_ == null) {
@@ -2436,7 +2436,7 @@ public final class OmModifyCampaignPeriodDefsAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.TimestampValue repeat_until = 8;</code>
+       * <code>.dstore.values.TimestampValue repeat_until = 8;</code>
        */
       public Builder clearRepeatUntil() {
         if (repeatUntilBuilder_ == null) {
@@ -2450,7 +2450,7 @@ public final class OmModifyCampaignPeriodDefsAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.TimestampValue repeat_until = 8;</code>
+       * <code>.dstore.values.TimestampValue repeat_until = 8;</code>
        */
       public io.dstore.values.TimestampValue.Builder getRepeatUntilBuilder() {
         
@@ -2458,7 +2458,7 @@ public final class OmModifyCampaignPeriodDefsAd {
         return getRepeatUntilFieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .dstore.values.TimestampValue repeat_until = 8;</code>
+       * <code>.dstore.values.TimestampValue repeat_until = 8;</code>
        */
       public io.dstore.values.TimestampValueOrBuilder getRepeatUntilOrBuilder() {
         if (repeatUntilBuilder_ != null) {
@@ -2469,7 +2469,7 @@ public final class OmModifyCampaignPeriodDefsAd {
         }
       }
       /**
-       * <code>optional .dstore.values.TimestampValue repeat_until = 8;</code>
+       * <code>.dstore.values.TimestampValue repeat_until = 8;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.values.TimestampValue, io.dstore.values.TimestampValue.Builder, io.dstore.values.TimestampValueOrBuilder> 
@@ -2487,13 +2487,13 @@ public final class OmModifyCampaignPeriodDefsAd {
 
       private boolean repeatUntilNull_ ;
       /**
-       * <code>optional bool repeat_until_null = 1008;</code>
+       * <code>bool repeat_until_null = 1008;</code>
        */
       public boolean getRepeatUntilNull() {
         return repeatUntilNull_;
       }
       /**
-       * <code>optional bool repeat_until_null = 1008;</code>
+       * <code>bool repeat_until_null = 1008;</code>
        */
       public Builder setRepeatUntilNull(boolean value) {
         
@@ -2502,7 +2502,7 @@ public final class OmModifyCampaignPeriodDefsAd {
         return this;
       }
       /**
-       * <code>optional bool repeat_until_null = 1008;</code>
+       * <code>bool repeat_until_null = 1008;</code>
        */
       public Builder clearRepeatUntilNull() {
         
@@ -2515,13 +2515,13 @@ public final class OmModifyCampaignPeriodDefsAd {
       private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.values.BooleanValue, io.dstore.values.BooleanValue.Builder, io.dstore.values.BooleanValueOrBuilder> deletePeriodDefinitionBuilder_;
       /**
-       * <code>optional .dstore.values.BooleanValue delete_period_definition = 9;</code>
+       * <code>.dstore.values.BooleanValue delete_period_definition = 9;</code>
        */
       public boolean hasDeletePeriodDefinition() {
         return deletePeriodDefinitionBuilder_ != null || deletePeriodDefinition_ != null;
       }
       /**
-       * <code>optional .dstore.values.BooleanValue delete_period_definition = 9;</code>
+       * <code>.dstore.values.BooleanValue delete_period_definition = 9;</code>
        */
       public io.dstore.values.BooleanValue getDeletePeriodDefinition() {
         if (deletePeriodDefinitionBuilder_ == null) {
@@ -2531,7 +2531,7 @@ public final class OmModifyCampaignPeriodDefsAd {
         }
       }
       /**
-       * <code>optional .dstore.values.BooleanValue delete_period_definition = 9;</code>
+       * <code>.dstore.values.BooleanValue delete_period_definition = 9;</code>
        */
       public Builder setDeletePeriodDefinition(io.dstore.values.BooleanValue value) {
         if (deletePeriodDefinitionBuilder_ == null) {
@@ -2547,7 +2547,7 @@ public final class OmModifyCampaignPeriodDefsAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.BooleanValue delete_period_definition = 9;</code>
+       * <code>.dstore.values.BooleanValue delete_period_definition = 9;</code>
        */
       public Builder setDeletePeriodDefinition(
           io.dstore.values.BooleanValue.Builder builderForValue) {
@@ -2561,7 +2561,7 @@ public final class OmModifyCampaignPeriodDefsAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.BooleanValue delete_period_definition = 9;</code>
+       * <code>.dstore.values.BooleanValue delete_period_definition = 9;</code>
        */
       public Builder mergeDeletePeriodDefinition(io.dstore.values.BooleanValue value) {
         if (deletePeriodDefinitionBuilder_ == null) {
@@ -2579,7 +2579,7 @@ public final class OmModifyCampaignPeriodDefsAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.BooleanValue delete_period_definition = 9;</code>
+       * <code>.dstore.values.BooleanValue delete_period_definition = 9;</code>
        */
       public Builder clearDeletePeriodDefinition() {
         if (deletePeriodDefinitionBuilder_ == null) {
@@ -2593,7 +2593,7 @@ public final class OmModifyCampaignPeriodDefsAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.BooleanValue delete_period_definition = 9;</code>
+       * <code>.dstore.values.BooleanValue delete_period_definition = 9;</code>
        */
       public io.dstore.values.BooleanValue.Builder getDeletePeriodDefinitionBuilder() {
         
@@ -2601,7 +2601,7 @@ public final class OmModifyCampaignPeriodDefsAd {
         return getDeletePeriodDefinitionFieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .dstore.values.BooleanValue delete_period_definition = 9;</code>
+       * <code>.dstore.values.BooleanValue delete_period_definition = 9;</code>
        */
       public io.dstore.values.BooleanValueOrBuilder getDeletePeriodDefinitionOrBuilder() {
         if (deletePeriodDefinitionBuilder_ != null) {
@@ -2612,7 +2612,7 @@ public final class OmModifyCampaignPeriodDefsAd {
         }
       }
       /**
-       * <code>optional .dstore.values.BooleanValue delete_period_definition = 9;</code>
+       * <code>.dstore.values.BooleanValue delete_period_definition = 9;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.values.BooleanValue, io.dstore.values.BooleanValue.Builder, io.dstore.values.BooleanValueOrBuilder> 
@@ -2630,13 +2630,13 @@ public final class OmModifyCampaignPeriodDefsAd {
 
       private boolean deletePeriodDefinitionNull_ ;
       /**
-       * <code>optional bool delete_period_definition_null = 1009;</code>
+       * <code>bool delete_period_definition_null = 1009;</code>
        */
       public boolean getDeletePeriodDefinitionNull() {
         return deletePeriodDefinitionNull_;
       }
       /**
-       * <code>optional bool delete_period_definition_null = 1009;</code>
+       * <code>bool delete_period_definition_null = 1009;</code>
        */
       public Builder setDeletePeriodDefinitionNull(boolean value) {
         
@@ -2645,7 +2645,7 @@ public final class OmModifyCampaignPeriodDefsAd {
         return this;
       }
       /**
-       * <code>optional bool delete_period_definition_null = 1009;</code>
+       * <code>bool delete_period_definition_null = 1009;</code>
        */
       public Builder clearDeletePeriodDefinitionNull() {
         
@@ -2904,7 +2904,7 @@ public final class OmModifyCampaignPeriodDefsAd {
         com.google.protobuf.MessageOrBuilder {
 
       /**
-       * <code>optional int32 row_id = 10000;</code>
+       * <code>int32 row_id = 10000;</code>
        */
       int getRowId();
     }
@@ -2979,7 +2979,7 @@ public final class OmModifyCampaignPeriodDefsAd {
       public static final int ROW_ID_FIELD_NUMBER = 10000;
       private int rowId_;
       /**
-       * <code>optional int32 row_id = 10000;</code>
+       * <code>int32 row_id = 10000;</code>
        */
       public int getRowId() {
         return rowId_;
@@ -3038,7 +3038,7 @@ public final class OmModifyCampaignPeriodDefsAd {
           return memoizedHashCode;
         }
         int hash = 41;
-        hash = (19 * hash) + getDescriptorForType().hashCode();
+        hash = (19 * hash) + getDescriptor().hashCode();
         hash = (37 * hash) + ROW_ID_FIELD_NUMBER;
         hash = (53 * hash) + getRowId();
         hash = (29 * hash) + unknownFields.hashCode();
@@ -3256,13 +3256,13 @@ public final class OmModifyCampaignPeriodDefsAd {
 
         private int rowId_ ;
         /**
-         * <code>optional int32 row_id = 10000;</code>
+         * <code>int32 row_id = 10000;</code>
          */
         public int getRowId() {
           return rowId_;
         }
         /**
-         * <code>optional int32 row_id = 10000;</code>
+         * <code>int32 row_id = 10000;</code>
          */
         public Builder setRowId(int value) {
           
@@ -3271,7 +3271,7 @@ public final class OmModifyCampaignPeriodDefsAd {
           return this;
         }
         /**
-         * <code>optional int32 row_id = 10000;</code>
+         * <code>int32 row_id = 10000;</code>
          */
         public Builder clearRowId() {
           
@@ -3524,7 +3524,7 @@ public final class OmModifyCampaignPeriodDefsAd {
         return memoizedHashCode;
       }
       int hash = 41;
-      hash = (19 * hash) + getDescriptorForType().hashCode();
+      hash = (19 * hash) + getDescriptor().hashCode();
       if (getMetaInformationCount() > 0) {
         hash = (37 * hash) + META_INFORMATION_FIELD_NUMBER;
         hash = (53 * hash) + getMetaInformationList().hashCode();

@@ -19,38 +19,38 @@ public final class ImDeleteTreeNodesAd {
       com.google.protobuf.MessageOrBuilder {
 
     /**
-     * <code>optional .dstore.values.StringValue tree_node_list = 1;</code>
+     * <code>.dstore.values.StringValue tree_node_list = 1;</code>
      */
     boolean hasTreeNodeList();
     /**
-     * <code>optional .dstore.values.StringValue tree_node_list = 1;</code>
+     * <code>.dstore.values.StringValue tree_node_list = 1;</code>
      */
     io.dstore.values.StringValue getTreeNodeList();
     /**
-     * <code>optional .dstore.values.StringValue tree_node_list = 1;</code>
+     * <code>.dstore.values.StringValue tree_node_list = 1;</code>
      */
     io.dstore.values.StringValueOrBuilder getTreeNodeListOrBuilder();
 
     /**
-     * <code>optional bool tree_node_list_null = 1001;</code>
+     * <code>bool tree_node_list_null = 1001;</code>
      */
     boolean getTreeNodeListNull();
 
     /**
-     * <code>optional .dstore.values.BooleanValue cascade_clones = 2;</code>
+     * <code>.dstore.values.BooleanValue cascade_clones = 2;</code>
      */
     boolean hasCascadeClones();
     /**
-     * <code>optional .dstore.values.BooleanValue cascade_clones = 2;</code>
+     * <code>.dstore.values.BooleanValue cascade_clones = 2;</code>
      */
     io.dstore.values.BooleanValue getCascadeClones();
     /**
-     * <code>optional .dstore.values.BooleanValue cascade_clones = 2;</code>
+     * <code>.dstore.values.BooleanValue cascade_clones = 2;</code>
      */
     io.dstore.values.BooleanValueOrBuilder getCascadeClonesOrBuilder();
 
     /**
-     * <code>optional bool cascade_clones_null = 1002;</code>
+     * <code>bool cascade_clones_null = 1002;</code>
      */
     boolean getCascadeClonesNull();
   }
@@ -157,19 +157,19 @@ public final class ImDeleteTreeNodesAd {
     public static final int TREE_NODE_LIST_FIELD_NUMBER = 1;
     private io.dstore.values.StringValue treeNodeList_;
     /**
-     * <code>optional .dstore.values.StringValue tree_node_list = 1;</code>
+     * <code>.dstore.values.StringValue tree_node_list = 1;</code>
      */
     public boolean hasTreeNodeList() {
       return treeNodeList_ != null;
     }
     /**
-     * <code>optional .dstore.values.StringValue tree_node_list = 1;</code>
+     * <code>.dstore.values.StringValue tree_node_list = 1;</code>
      */
     public io.dstore.values.StringValue getTreeNodeList() {
       return treeNodeList_ == null ? io.dstore.values.StringValue.getDefaultInstance() : treeNodeList_;
     }
     /**
-     * <code>optional .dstore.values.StringValue tree_node_list = 1;</code>
+     * <code>.dstore.values.StringValue tree_node_list = 1;</code>
      */
     public io.dstore.values.StringValueOrBuilder getTreeNodeListOrBuilder() {
       return getTreeNodeList();
@@ -178,7 +178,7 @@ public final class ImDeleteTreeNodesAd {
     public static final int TREE_NODE_LIST_NULL_FIELD_NUMBER = 1001;
     private boolean treeNodeListNull_;
     /**
-     * <code>optional bool tree_node_list_null = 1001;</code>
+     * <code>bool tree_node_list_null = 1001;</code>
      */
     public boolean getTreeNodeListNull() {
       return treeNodeListNull_;
@@ -187,19 +187,19 @@ public final class ImDeleteTreeNodesAd {
     public static final int CASCADE_CLONES_FIELD_NUMBER = 2;
     private io.dstore.values.BooleanValue cascadeClones_;
     /**
-     * <code>optional .dstore.values.BooleanValue cascade_clones = 2;</code>
+     * <code>.dstore.values.BooleanValue cascade_clones = 2;</code>
      */
     public boolean hasCascadeClones() {
       return cascadeClones_ != null;
     }
     /**
-     * <code>optional .dstore.values.BooleanValue cascade_clones = 2;</code>
+     * <code>.dstore.values.BooleanValue cascade_clones = 2;</code>
      */
     public io.dstore.values.BooleanValue getCascadeClones() {
       return cascadeClones_ == null ? io.dstore.values.BooleanValue.getDefaultInstance() : cascadeClones_;
     }
     /**
-     * <code>optional .dstore.values.BooleanValue cascade_clones = 2;</code>
+     * <code>.dstore.values.BooleanValue cascade_clones = 2;</code>
      */
     public io.dstore.values.BooleanValueOrBuilder getCascadeClonesOrBuilder() {
       return getCascadeClones();
@@ -208,7 +208,7 @@ public final class ImDeleteTreeNodesAd {
     public static final int CASCADE_CLONES_NULL_FIELD_NUMBER = 1002;
     private boolean cascadeClonesNull_;
     /**
-     * <code>optional bool cascade_clones_null = 1002;</code>
+     * <code>bool cascade_clones_null = 1002;</code>
      */
     public boolean getCascadeClonesNull() {
       return cascadeClonesNull_;
@@ -300,7 +300,7 @@ public final class ImDeleteTreeNodesAd {
         return memoizedHashCode;
       }
       int hash = 41;
-      hash = (19 * hash) + getDescriptorForType().hashCode();
+      hash = (19 * hash) + getDescriptor().hashCode();
       if (hasTreeNodeList()) {
         hash = (37 * hash) + TREE_NODE_LIST_FIELD_NUMBER;
         hash = (53 * hash) + getTreeNodeList().hashCode();
@@ -566,13 +566,13 @@ public final class ImDeleteTreeNodesAd {
       private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.values.StringValue, io.dstore.values.StringValue.Builder, io.dstore.values.StringValueOrBuilder> treeNodeListBuilder_;
       /**
-       * <code>optional .dstore.values.StringValue tree_node_list = 1;</code>
+       * <code>.dstore.values.StringValue tree_node_list = 1;</code>
        */
       public boolean hasTreeNodeList() {
         return treeNodeListBuilder_ != null || treeNodeList_ != null;
       }
       /**
-       * <code>optional .dstore.values.StringValue tree_node_list = 1;</code>
+       * <code>.dstore.values.StringValue tree_node_list = 1;</code>
        */
       public io.dstore.values.StringValue getTreeNodeList() {
         if (treeNodeListBuilder_ == null) {
@@ -582,7 +582,7 @@ public final class ImDeleteTreeNodesAd {
         }
       }
       /**
-       * <code>optional .dstore.values.StringValue tree_node_list = 1;</code>
+       * <code>.dstore.values.StringValue tree_node_list = 1;</code>
        */
       public Builder setTreeNodeList(io.dstore.values.StringValue value) {
         if (treeNodeListBuilder_ == null) {
@@ -598,7 +598,7 @@ public final class ImDeleteTreeNodesAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.StringValue tree_node_list = 1;</code>
+       * <code>.dstore.values.StringValue tree_node_list = 1;</code>
        */
       public Builder setTreeNodeList(
           io.dstore.values.StringValue.Builder builderForValue) {
@@ -612,7 +612,7 @@ public final class ImDeleteTreeNodesAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.StringValue tree_node_list = 1;</code>
+       * <code>.dstore.values.StringValue tree_node_list = 1;</code>
        */
       public Builder mergeTreeNodeList(io.dstore.values.StringValue value) {
         if (treeNodeListBuilder_ == null) {
@@ -630,7 +630,7 @@ public final class ImDeleteTreeNodesAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.StringValue tree_node_list = 1;</code>
+       * <code>.dstore.values.StringValue tree_node_list = 1;</code>
        */
       public Builder clearTreeNodeList() {
         if (treeNodeListBuilder_ == null) {
@@ -644,7 +644,7 @@ public final class ImDeleteTreeNodesAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.StringValue tree_node_list = 1;</code>
+       * <code>.dstore.values.StringValue tree_node_list = 1;</code>
        */
       public io.dstore.values.StringValue.Builder getTreeNodeListBuilder() {
         
@@ -652,7 +652,7 @@ public final class ImDeleteTreeNodesAd {
         return getTreeNodeListFieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .dstore.values.StringValue tree_node_list = 1;</code>
+       * <code>.dstore.values.StringValue tree_node_list = 1;</code>
        */
       public io.dstore.values.StringValueOrBuilder getTreeNodeListOrBuilder() {
         if (treeNodeListBuilder_ != null) {
@@ -663,7 +663,7 @@ public final class ImDeleteTreeNodesAd {
         }
       }
       /**
-       * <code>optional .dstore.values.StringValue tree_node_list = 1;</code>
+       * <code>.dstore.values.StringValue tree_node_list = 1;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.values.StringValue, io.dstore.values.StringValue.Builder, io.dstore.values.StringValueOrBuilder> 
@@ -681,13 +681,13 @@ public final class ImDeleteTreeNodesAd {
 
       private boolean treeNodeListNull_ ;
       /**
-       * <code>optional bool tree_node_list_null = 1001;</code>
+       * <code>bool tree_node_list_null = 1001;</code>
        */
       public boolean getTreeNodeListNull() {
         return treeNodeListNull_;
       }
       /**
-       * <code>optional bool tree_node_list_null = 1001;</code>
+       * <code>bool tree_node_list_null = 1001;</code>
        */
       public Builder setTreeNodeListNull(boolean value) {
         
@@ -696,7 +696,7 @@ public final class ImDeleteTreeNodesAd {
         return this;
       }
       /**
-       * <code>optional bool tree_node_list_null = 1001;</code>
+       * <code>bool tree_node_list_null = 1001;</code>
        */
       public Builder clearTreeNodeListNull() {
         
@@ -709,13 +709,13 @@ public final class ImDeleteTreeNodesAd {
       private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.values.BooleanValue, io.dstore.values.BooleanValue.Builder, io.dstore.values.BooleanValueOrBuilder> cascadeClonesBuilder_;
       /**
-       * <code>optional .dstore.values.BooleanValue cascade_clones = 2;</code>
+       * <code>.dstore.values.BooleanValue cascade_clones = 2;</code>
        */
       public boolean hasCascadeClones() {
         return cascadeClonesBuilder_ != null || cascadeClones_ != null;
       }
       /**
-       * <code>optional .dstore.values.BooleanValue cascade_clones = 2;</code>
+       * <code>.dstore.values.BooleanValue cascade_clones = 2;</code>
        */
       public io.dstore.values.BooleanValue getCascadeClones() {
         if (cascadeClonesBuilder_ == null) {
@@ -725,7 +725,7 @@ public final class ImDeleteTreeNodesAd {
         }
       }
       /**
-       * <code>optional .dstore.values.BooleanValue cascade_clones = 2;</code>
+       * <code>.dstore.values.BooleanValue cascade_clones = 2;</code>
        */
       public Builder setCascadeClones(io.dstore.values.BooleanValue value) {
         if (cascadeClonesBuilder_ == null) {
@@ -741,7 +741,7 @@ public final class ImDeleteTreeNodesAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.BooleanValue cascade_clones = 2;</code>
+       * <code>.dstore.values.BooleanValue cascade_clones = 2;</code>
        */
       public Builder setCascadeClones(
           io.dstore.values.BooleanValue.Builder builderForValue) {
@@ -755,7 +755,7 @@ public final class ImDeleteTreeNodesAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.BooleanValue cascade_clones = 2;</code>
+       * <code>.dstore.values.BooleanValue cascade_clones = 2;</code>
        */
       public Builder mergeCascadeClones(io.dstore.values.BooleanValue value) {
         if (cascadeClonesBuilder_ == null) {
@@ -773,7 +773,7 @@ public final class ImDeleteTreeNodesAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.BooleanValue cascade_clones = 2;</code>
+       * <code>.dstore.values.BooleanValue cascade_clones = 2;</code>
        */
       public Builder clearCascadeClones() {
         if (cascadeClonesBuilder_ == null) {
@@ -787,7 +787,7 @@ public final class ImDeleteTreeNodesAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.BooleanValue cascade_clones = 2;</code>
+       * <code>.dstore.values.BooleanValue cascade_clones = 2;</code>
        */
       public io.dstore.values.BooleanValue.Builder getCascadeClonesBuilder() {
         
@@ -795,7 +795,7 @@ public final class ImDeleteTreeNodesAd {
         return getCascadeClonesFieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .dstore.values.BooleanValue cascade_clones = 2;</code>
+       * <code>.dstore.values.BooleanValue cascade_clones = 2;</code>
        */
       public io.dstore.values.BooleanValueOrBuilder getCascadeClonesOrBuilder() {
         if (cascadeClonesBuilder_ != null) {
@@ -806,7 +806,7 @@ public final class ImDeleteTreeNodesAd {
         }
       }
       /**
-       * <code>optional .dstore.values.BooleanValue cascade_clones = 2;</code>
+       * <code>.dstore.values.BooleanValue cascade_clones = 2;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.values.BooleanValue, io.dstore.values.BooleanValue.Builder, io.dstore.values.BooleanValueOrBuilder> 
@@ -824,13 +824,13 @@ public final class ImDeleteTreeNodesAd {
 
       private boolean cascadeClonesNull_ ;
       /**
-       * <code>optional bool cascade_clones_null = 1002;</code>
+       * <code>bool cascade_clones_null = 1002;</code>
        */
       public boolean getCascadeClonesNull() {
         return cascadeClonesNull_;
       }
       /**
-       * <code>optional bool cascade_clones_null = 1002;</code>
+       * <code>bool cascade_clones_null = 1002;</code>
        */
       public Builder setCascadeClonesNull(boolean value) {
         
@@ -839,7 +839,7 @@ public final class ImDeleteTreeNodesAd {
         return this;
       }
       /**
-       * <code>optional bool cascade_clones_null = 1002;</code>
+       * <code>bool cascade_clones_null = 1002;</code>
        */
       public Builder clearCascadeClonesNull() {
         
@@ -1098,7 +1098,7 @@ public final class ImDeleteTreeNodesAd {
         com.google.protobuf.MessageOrBuilder {
 
       /**
-       * <code>optional int32 row_id = 10000;</code>
+       * <code>int32 row_id = 10000;</code>
        */
       int getRowId();
     }
@@ -1173,7 +1173,7 @@ public final class ImDeleteTreeNodesAd {
       public static final int ROW_ID_FIELD_NUMBER = 10000;
       private int rowId_;
       /**
-       * <code>optional int32 row_id = 10000;</code>
+       * <code>int32 row_id = 10000;</code>
        */
       public int getRowId() {
         return rowId_;
@@ -1232,7 +1232,7 @@ public final class ImDeleteTreeNodesAd {
           return memoizedHashCode;
         }
         int hash = 41;
-        hash = (19 * hash) + getDescriptorForType().hashCode();
+        hash = (19 * hash) + getDescriptor().hashCode();
         hash = (37 * hash) + ROW_ID_FIELD_NUMBER;
         hash = (53 * hash) + getRowId();
         hash = (29 * hash) + unknownFields.hashCode();
@@ -1450,13 +1450,13 @@ public final class ImDeleteTreeNodesAd {
 
         private int rowId_ ;
         /**
-         * <code>optional int32 row_id = 10000;</code>
+         * <code>int32 row_id = 10000;</code>
          */
         public int getRowId() {
           return rowId_;
         }
         /**
-         * <code>optional int32 row_id = 10000;</code>
+         * <code>int32 row_id = 10000;</code>
          */
         public Builder setRowId(int value) {
           
@@ -1465,7 +1465,7 @@ public final class ImDeleteTreeNodesAd {
           return this;
         }
         /**
-         * <code>optional int32 row_id = 10000;</code>
+         * <code>int32 row_id = 10000;</code>
          */
         public Builder clearRowId() {
           
@@ -1718,7 +1718,7 @@ public final class ImDeleteTreeNodesAd {
         return memoizedHashCode;
       }
       int hash = 41;
-      hash = (19 * hash) + getDescriptorForType().hashCode();
+      hash = (19 * hash) + getDescriptor().hashCode();
       if (getMetaInformationCount() > 0) {
         hash = (37 * hash) + META_INFORMATION_FIELD_NUMBER;
         hash = (53 * hash) + getMetaInformationList().hashCode();

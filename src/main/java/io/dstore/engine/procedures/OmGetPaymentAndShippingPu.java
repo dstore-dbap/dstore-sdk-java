@@ -19,182 +19,182 @@ public final class OmGetPaymentAndShippingPu {
       com.google.protobuf.MessageOrBuilder {
 
     /**
-     * <code>optional .dstore.values.IntegerValue result = 1;</code>
+     * <code>.dstore.values.IntegerValue result = 1;</code>
      */
     boolean hasResult();
     /**
-     * <code>optional .dstore.values.IntegerValue result = 1;</code>
+     * <code>.dstore.values.IntegerValue result = 1;</code>
      */
     io.dstore.values.IntegerValue getResult();
     /**
-     * <code>optional .dstore.values.IntegerValue result = 1;</code>
+     * <code>.dstore.values.IntegerValue result = 1;</code>
      */
     io.dstore.values.IntegerValueOrBuilder getResultOrBuilder();
 
     /**
-     * <code>optional bool result_null = 1001;</code>
+     * <code>bool result_null = 1001;</code>
      */
     boolean getResultNull();
 
     /**
-     * <code>optional .dstore.values.StringValue unique_id = 2;</code>
+     * <code>.dstore.values.StringValue unique_id = 2;</code>
      */
     boolean hasUniqueId();
     /**
-     * <code>optional .dstore.values.StringValue unique_id = 2;</code>
+     * <code>.dstore.values.StringValue unique_id = 2;</code>
      */
     io.dstore.values.StringValue getUniqueId();
     /**
-     * <code>optional .dstore.values.StringValue unique_id = 2;</code>
+     * <code>.dstore.values.StringValue unique_id = 2;</code>
      */
     io.dstore.values.StringValueOrBuilder getUniqueIdOrBuilder();
 
     /**
-     * <code>optional bool unique_id_null = 1002;</code>
+     * <code>bool unique_id_null = 1002;</code>
      */
     boolean getUniqueIdNull();
 
     /**
-     * <code>optional .dstore.values.IntegerValue person_id = 3;</code>
+     * <code>.dstore.values.IntegerValue person_id = 3;</code>
      */
     boolean hasPersonId();
     /**
-     * <code>optional .dstore.values.IntegerValue person_id = 3;</code>
+     * <code>.dstore.values.IntegerValue person_id = 3;</code>
      */
     io.dstore.values.IntegerValue getPersonId();
     /**
-     * <code>optional .dstore.values.IntegerValue person_id = 3;</code>
+     * <code>.dstore.values.IntegerValue person_id = 3;</code>
      */
     io.dstore.values.IntegerValueOrBuilder getPersonIdOrBuilder();
 
     /**
-     * <code>optional bool person_id_null = 1003;</code>
+     * <code>bool person_id_null = 1003;</code>
      */
     boolean getPersonIdNull();
 
     /**
-     * <code>optional .dstore.values.IntegerValue delivery_person_id = 4;</code>
+     * <code>.dstore.values.IntegerValue delivery_person_id = 4;</code>
      */
     boolean hasDeliveryPersonId();
     /**
-     * <code>optional .dstore.values.IntegerValue delivery_person_id = 4;</code>
+     * <code>.dstore.values.IntegerValue delivery_person_id = 4;</code>
      */
     io.dstore.values.IntegerValue getDeliveryPersonId();
     /**
-     * <code>optional .dstore.values.IntegerValue delivery_person_id = 4;</code>
+     * <code>.dstore.values.IntegerValue delivery_person_id = 4;</code>
      */
     io.dstore.values.IntegerValueOrBuilder getDeliveryPersonIdOrBuilder();
 
     /**
-     * <code>optional bool delivery_person_id_null = 1004;</code>
+     * <code>bool delivery_person_id_null = 1004;</code>
      */
     boolean getDeliveryPersonIdNull();
 
     /**
-     * <code>optional .dstore.values.DecimalValue brutto_sum = 5;</code>
+     * <code>.dstore.values.DecimalValue brutto_sum = 5;</code>
      */
     boolean hasBruttoSum();
     /**
-     * <code>optional .dstore.values.DecimalValue brutto_sum = 5;</code>
+     * <code>.dstore.values.DecimalValue brutto_sum = 5;</code>
      */
     io.dstore.values.DecimalValue getBruttoSum();
     /**
-     * <code>optional .dstore.values.DecimalValue brutto_sum = 5;</code>
+     * <code>.dstore.values.DecimalValue brutto_sum = 5;</code>
      */
     io.dstore.values.DecimalValueOrBuilder getBruttoSumOrBuilder();
 
     /**
-     * <code>optional bool brutto_sum_null = 1005;</code>
+     * <code>bool brutto_sum_null = 1005;</code>
      */
     boolean getBruttoSumNull();
 
     /**
-     * <code>optional .dstore.values.DecimalValue netto_sum = 6;</code>
+     * <code>.dstore.values.DecimalValue netto_sum = 6;</code>
      */
     boolean hasNettoSum();
     /**
-     * <code>optional .dstore.values.DecimalValue netto_sum = 6;</code>
+     * <code>.dstore.values.DecimalValue netto_sum = 6;</code>
      */
     io.dstore.values.DecimalValue getNettoSum();
     /**
-     * <code>optional .dstore.values.DecimalValue netto_sum = 6;</code>
+     * <code>.dstore.values.DecimalValue netto_sum = 6;</code>
      */
     io.dstore.values.DecimalValueOrBuilder getNettoSumOrBuilder();
 
     /**
-     * <code>optional bool netto_sum_null = 1006;</code>
+     * <code>bool netto_sum_null = 1006;</code>
      */
     boolean getNettoSumNull();
 
     /**
-     * <code>optional .dstore.values.IntegerValue payment_for_shipping_id = 7;</code>
+     * <code>.dstore.values.IntegerValue payment_for_shipping_id = 7;</code>
      */
     boolean hasPaymentForShippingId();
     /**
-     * <code>optional .dstore.values.IntegerValue payment_for_shipping_id = 7;</code>
+     * <code>.dstore.values.IntegerValue payment_for_shipping_id = 7;</code>
      */
     io.dstore.values.IntegerValue getPaymentForShippingId();
     /**
-     * <code>optional .dstore.values.IntegerValue payment_for_shipping_id = 7;</code>
+     * <code>.dstore.values.IntegerValue payment_for_shipping_id = 7;</code>
      */
     io.dstore.values.IntegerValueOrBuilder getPaymentForShippingIdOrBuilder();
 
     /**
-     * <code>optional bool payment_for_shipping_id_null = 1007;</code>
+     * <code>bool payment_for_shipping_id_null = 1007;</code>
      */
     boolean getPaymentForShippingIdNull();
 
     /**
-     * <code>optional .dstore.values.TimestampValue date = 8;</code>
+     * <code>.dstore.values.TimestampValue date = 8;</code>
      */
     boolean hasDate();
     /**
-     * <code>optional .dstore.values.TimestampValue date = 8;</code>
+     * <code>.dstore.values.TimestampValue date = 8;</code>
      */
     io.dstore.values.TimestampValue getDate();
     /**
-     * <code>optional .dstore.values.TimestampValue date = 8;</code>
+     * <code>.dstore.values.TimestampValue date = 8;</code>
      */
     io.dstore.values.TimestampValueOrBuilder getDateOrBuilder();
 
     /**
-     * <code>optional bool date_null = 1008;</code>
+     * <code>bool date_null = 1008;</code>
      */
     boolean getDateNull();
 
     /**
-     * <code>optional .dstore.values.BooleanValue select_missing_result_reason = 9;</code>
+     * <code>.dstore.values.BooleanValue select_missing_result_reason = 9;</code>
      */
     boolean hasSelectMissingResultReason();
     /**
-     * <code>optional .dstore.values.BooleanValue select_missing_result_reason = 9;</code>
+     * <code>.dstore.values.BooleanValue select_missing_result_reason = 9;</code>
      */
     io.dstore.values.BooleanValue getSelectMissingResultReason();
     /**
-     * <code>optional .dstore.values.BooleanValue select_missing_result_reason = 9;</code>
+     * <code>.dstore.values.BooleanValue select_missing_result_reason = 9;</code>
      */
     io.dstore.values.BooleanValueOrBuilder getSelectMissingResultReasonOrBuilder();
 
     /**
-     * <code>optional bool select_missing_result_reason_null = 1009;</code>
+     * <code>bool select_missing_result_reason_null = 1009;</code>
      */
     boolean getSelectMissingResultReasonNull();
 
     /**
-     * <code>optional .dstore.values.BooleanValue calculate_costs = 10;</code>
+     * <code>.dstore.values.BooleanValue calculate_costs = 10;</code>
      */
     boolean hasCalculateCosts();
     /**
-     * <code>optional .dstore.values.BooleanValue calculate_costs = 10;</code>
+     * <code>.dstore.values.BooleanValue calculate_costs = 10;</code>
      */
     io.dstore.values.BooleanValue getCalculateCosts();
     /**
-     * <code>optional .dstore.values.BooleanValue calculate_costs = 10;</code>
+     * <code>.dstore.values.BooleanValue calculate_costs = 10;</code>
      */
     io.dstore.values.BooleanValueOrBuilder getCalculateCostsOrBuilder();
 
     /**
-     * <code>optional bool calculate_costs_null = 1010;</code>
+     * <code>bool calculate_costs_null = 1010;</code>
      */
     boolean getCalculateCostsNull();
   }
@@ -453,19 +453,19 @@ public final class OmGetPaymentAndShippingPu {
     public static final int RESULT_FIELD_NUMBER = 1;
     private io.dstore.values.IntegerValue result_;
     /**
-     * <code>optional .dstore.values.IntegerValue result = 1;</code>
+     * <code>.dstore.values.IntegerValue result = 1;</code>
      */
     public boolean hasResult() {
       return result_ != null;
     }
     /**
-     * <code>optional .dstore.values.IntegerValue result = 1;</code>
+     * <code>.dstore.values.IntegerValue result = 1;</code>
      */
     public io.dstore.values.IntegerValue getResult() {
       return result_ == null ? io.dstore.values.IntegerValue.getDefaultInstance() : result_;
     }
     /**
-     * <code>optional .dstore.values.IntegerValue result = 1;</code>
+     * <code>.dstore.values.IntegerValue result = 1;</code>
      */
     public io.dstore.values.IntegerValueOrBuilder getResultOrBuilder() {
       return getResult();
@@ -474,7 +474,7 @@ public final class OmGetPaymentAndShippingPu {
     public static final int RESULT_NULL_FIELD_NUMBER = 1001;
     private boolean resultNull_;
     /**
-     * <code>optional bool result_null = 1001;</code>
+     * <code>bool result_null = 1001;</code>
      */
     public boolean getResultNull() {
       return resultNull_;
@@ -483,19 +483,19 @@ public final class OmGetPaymentAndShippingPu {
     public static final int UNIQUE_ID_FIELD_NUMBER = 2;
     private io.dstore.values.StringValue uniqueId_;
     /**
-     * <code>optional .dstore.values.StringValue unique_id = 2;</code>
+     * <code>.dstore.values.StringValue unique_id = 2;</code>
      */
     public boolean hasUniqueId() {
       return uniqueId_ != null;
     }
     /**
-     * <code>optional .dstore.values.StringValue unique_id = 2;</code>
+     * <code>.dstore.values.StringValue unique_id = 2;</code>
      */
     public io.dstore.values.StringValue getUniqueId() {
       return uniqueId_ == null ? io.dstore.values.StringValue.getDefaultInstance() : uniqueId_;
     }
     /**
-     * <code>optional .dstore.values.StringValue unique_id = 2;</code>
+     * <code>.dstore.values.StringValue unique_id = 2;</code>
      */
     public io.dstore.values.StringValueOrBuilder getUniqueIdOrBuilder() {
       return getUniqueId();
@@ -504,7 +504,7 @@ public final class OmGetPaymentAndShippingPu {
     public static final int UNIQUE_ID_NULL_FIELD_NUMBER = 1002;
     private boolean uniqueIdNull_;
     /**
-     * <code>optional bool unique_id_null = 1002;</code>
+     * <code>bool unique_id_null = 1002;</code>
      */
     public boolean getUniqueIdNull() {
       return uniqueIdNull_;
@@ -513,19 +513,19 @@ public final class OmGetPaymentAndShippingPu {
     public static final int PERSON_ID_FIELD_NUMBER = 3;
     private io.dstore.values.IntegerValue personId_;
     /**
-     * <code>optional .dstore.values.IntegerValue person_id = 3;</code>
+     * <code>.dstore.values.IntegerValue person_id = 3;</code>
      */
     public boolean hasPersonId() {
       return personId_ != null;
     }
     /**
-     * <code>optional .dstore.values.IntegerValue person_id = 3;</code>
+     * <code>.dstore.values.IntegerValue person_id = 3;</code>
      */
     public io.dstore.values.IntegerValue getPersonId() {
       return personId_ == null ? io.dstore.values.IntegerValue.getDefaultInstance() : personId_;
     }
     /**
-     * <code>optional .dstore.values.IntegerValue person_id = 3;</code>
+     * <code>.dstore.values.IntegerValue person_id = 3;</code>
      */
     public io.dstore.values.IntegerValueOrBuilder getPersonIdOrBuilder() {
       return getPersonId();
@@ -534,7 +534,7 @@ public final class OmGetPaymentAndShippingPu {
     public static final int PERSON_ID_NULL_FIELD_NUMBER = 1003;
     private boolean personIdNull_;
     /**
-     * <code>optional bool person_id_null = 1003;</code>
+     * <code>bool person_id_null = 1003;</code>
      */
     public boolean getPersonIdNull() {
       return personIdNull_;
@@ -543,19 +543,19 @@ public final class OmGetPaymentAndShippingPu {
     public static final int DELIVERY_PERSON_ID_FIELD_NUMBER = 4;
     private io.dstore.values.IntegerValue deliveryPersonId_;
     /**
-     * <code>optional .dstore.values.IntegerValue delivery_person_id = 4;</code>
+     * <code>.dstore.values.IntegerValue delivery_person_id = 4;</code>
      */
     public boolean hasDeliveryPersonId() {
       return deliveryPersonId_ != null;
     }
     /**
-     * <code>optional .dstore.values.IntegerValue delivery_person_id = 4;</code>
+     * <code>.dstore.values.IntegerValue delivery_person_id = 4;</code>
      */
     public io.dstore.values.IntegerValue getDeliveryPersonId() {
       return deliveryPersonId_ == null ? io.dstore.values.IntegerValue.getDefaultInstance() : deliveryPersonId_;
     }
     /**
-     * <code>optional .dstore.values.IntegerValue delivery_person_id = 4;</code>
+     * <code>.dstore.values.IntegerValue delivery_person_id = 4;</code>
      */
     public io.dstore.values.IntegerValueOrBuilder getDeliveryPersonIdOrBuilder() {
       return getDeliveryPersonId();
@@ -564,7 +564,7 @@ public final class OmGetPaymentAndShippingPu {
     public static final int DELIVERY_PERSON_ID_NULL_FIELD_NUMBER = 1004;
     private boolean deliveryPersonIdNull_;
     /**
-     * <code>optional bool delivery_person_id_null = 1004;</code>
+     * <code>bool delivery_person_id_null = 1004;</code>
      */
     public boolean getDeliveryPersonIdNull() {
       return deliveryPersonIdNull_;
@@ -573,19 +573,19 @@ public final class OmGetPaymentAndShippingPu {
     public static final int BRUTTO_SUM_FIELD_NUMBER = 5;
     private io.dstore.values.DecimalValue bruttoSum_;
     /**
-     * <code>optional .dstore.values.DecimalValue brutto_sum = 5;</code>
+     * <code>.dstore.values.DecimalValue brutto_sum = 5;</code>
      */
     public boolean hasBruttoSum() {
       return bruttoSum_ != null;
     }
     /**
-     * <code>optional .dstore.values.DecimalValue brutto_sum = 5;</code>
+     * <code>.dstore.values.DecimalValue brutto_sum = 5;</code>
      */
     public io.dstore.values.DecimalValue getBruttoSum() {
       return bruttoSum_ == null ? io.dstore.values.DecimalValue.getDefaultInstance() : bruttoSum_;
     }
     /**
-     * <code>optional .dstore.values.DecimalValue brutto_sum = 5;</code>
+     * <code>.dstore.values.DecimalValue brutto_sum = 5;</code>
      */
     public io.dstore.values.DecimalValueOrBuilder getBruttoSumOrBuilder() {
       return getBruttoSum();
@@ -594,7 +594,7 @@ public final class OmGetPaymentAndShippingPu {
     public static final int BRUTTO_SUM_NULL_FIELD_NUMBER = 1005;
     private boolean bruttoSumNull_;
     /**
-     * <code>optional bool brutto_sum_null = 1005;</code>
+     * <code>bool brutto_sum_null = 1005;</code>
      */
     public boolean getBruttoSumNull() {
       return bruttoSumNull_;
@@ -603,19 +603,19 @@ public final class OmGetPaymentAndShippingPu {
     public static final int NETTO_SUM_FIELD_NUMBER = 6;
     private io.dstore.values.DecimalValue nettoSum_;
     /**
-     * <code>optional .dstore.values.DecimalValue netto_sum = 6;</code>
+     * <code>.dstore.values.DecimalValue netto_sum = 6;</code>
      */
     public boolean hasNettoSum() {
       return nettoSum_ != null;
     }
     /**
-     * <code>optional .dstore.values.DecimalValue netto_sum = 6;</code>
+     * <code>.dstore.values.DecimalValue netto_sum = 6;</code>
      */
     public io.dstore.values.DecimalValue getNettoSum() {
       return nettoSum_ == null ? io.dstore.values.DecimalValue.getDefaultInstance() : nettoSum_;
     }
     /**
-     * <code>optional .dstore.values.DecimalValue netto_sum = 6;</code>
+     * <code>.dstore.values.DecimalValue netto_sum = 6;</code>
      */
     public io.dstore.values.DecimalValueOrBuilder getNettoSumOrBuilder() {
       return getNettoSum();
@@ -624,7 +624,7 @@ public final class OmGetPaymentAndShippingPu {
     public static final int NETTO_SUM_NULL_FIELD_NUMBER = 1006;
     private boolean nettoSumNull_;
     /**
-     * <code>optional bool netto_sum_null = 1006;</code>
+     * <code>bool netto_sum_null = 1006;</code>
      */
     public boolean getNettoSumNull() {
       return nettoSumNull_;
@@ -633,19 +633,19 @@ public final class OmGetPaymentAndShippingPu {
     public static final int PAYMENT_FOR_SHIPPING_ID_FIELD_NUMBER = 7;
     private io.dstore.values.IntegerValue paymentForShippingId_;
     /**
-     * <code>optional .dstore.values.IntegerValue payment_for_shipping_id = 7;</code>
+     * <code>.dstore.values.IntegerValue payment_for_shipping_id = 7;</code>
      */
     public boolean hasPaymentForShippingId() {
       return paymentForShippingId_ != null;
     }
     /**
-     * <code>optional .dstore.values.IntegerValue payment_for_shipping_id = 7;</code>
+     * <code>.dstore.values.IntegerValue payment_for_shipping_id = 7;</code>
      */
     public io.dstore.values.IntegerValue getPaymentForShippingId() {
       return paymentForShippingId_ == null ? io.dstore.values.IntegerValue.getDefaultInstance() : paymentForShippingId_;
     }
     /**
-     * <code>optional .dstore.values.IntegerValue payment_for_shipping_id = 7;</code>
+     * <code>.dstore.values.IntegerValue payment_for_shipping_id = 7;</code>
      */
     public io.dstore.values.IntegerValueOrBuilder getPaymentForShippingIdOrBuilder() {
       return getPaymentForShippingId();
@@ -654,7 +654,7 @@ public final class OmGetPaymentAndShippingPu {
     public static final int PAYMENT_FOR_SHIPPING_ID_NULL_FIELD_NUMBER = 1007;
     private boolean paymentForShippingIdNull_;
     /**
-     * <code>optional bool payment_for_shipping_id_null = 1007;</code>
+     * <code>bool payment_for_shipping_id_null = 1007;</code>
      */
     public boolean getPaymentForShippingIdNull() {
       return paymentForShippingIdNull_;
@@ -663,19 +663,19 @@ public final class OmGetPaymentAndShippingPu {
     public static final int DATE_FIELD_NUMBER = 8;
     private io.dstore.values.TimestampValue date_;
     /**
-     * <code>optional .dstore.values.TimestampValue date = 8;</code>
+     * <code>.dstore.values.TimestampValue date = 8;</code>
      */
     public boolean hasDate() {
       return date_ != null;
     }
     /**
-     * <code>optional .dstore.values.TimestampValue date = 8;</code>
+     * <code>.dstore.values.TimestampValue date = 8;</code>
      */
     public io.dstore.values.TimestampValue getDate() {
       return date_ == null ? io.dstore.values.TimestampValue.getDefaultInstance() : date_;
     }
     /**
-     * <code>optional .dstore.values.TimestampValue date = 8;</code>
+     * <code>.dstore.values.TimestampValue date = 8;</code>
      */
     public io.dstore.values.TimestampValueOrBuilder getDateOrBuilder() {
       return getDate();
@@ -684,7 +684,7 @@ public final class OmGetPaymentAndShippingPu {
     public static final int DATE_NULL_FIELD_NUMBER = 1008;
     private boolean dateNull_;
     /**
-     * <code>optional bool date_null = 1008;</code>
+     * <code>bool date_null = 1008;</code>
      */
     public boolean getDateNull() {
       return dateNull_;
@@ -693,19 +693,19 @@ public final class OmGetPaymentAndShippingPu {
     public static final int SELECT_MISSING_RESULT_REASON_FIELD_NUMBER = 9;
     private io.dstore.values.BooleanValue selectMissingResultReason_;
     /**
-     * <code>optional .dstore.values.BooleanValue select_missing_result_reason = 9;</code>
+     * <code>.dstore.values.BooleanValue select_missing_result_reason = 9;</code>
      */
     public boolean hasSelectMissingResultReason() {
       return selectMissingResultReason_ != null;
     }
     /**
-     * <code>optional .dstore.values.BooleanValue select_missing_result_reason = 9;</code>
+     * <code>.dstore.values.BooleanValue select_missing_result_reason = 9;</code>
      */
     public io.dstore.values.BooleanValue getSelectMissingResultReason() {
       return selectMissingResultReason_ == null ? io.dstore.values.BooleanValue.getDefaultInstance() : selectMissingResultReason_;
     }
     /**
-     * <code>optional .dstore.values.BooleanValue select_missing_result_reason = 9;</code>
+     * <code>.dstore.values.BooleanValue select_missing_result_reason = 9;</code>
      */
     public io.dstore.values.BooleanValueOrBuilder getSelectMissingResultReasonOrBuilder() {
       return getSelectMissingResultReason();
@@ -714,7 +714,7 @@ public final class OmGetPaymentAndShippingPu {
     public static final int SELECT_MISSING_RESULT_REASON_NULL_FIELD_NUMBER = 1009;
     private boolean selectMissingResultReasonNull_;
     /**
-     * <code>optional bool select_missing_result_reason_null = 1009;</code>
+     * <code>bool select_missing_result_reason_null = 1009;</code>
      */
     public boolean getSelectMissingResultReasonNull() {
       return selectMissingResultReasonNull_;
@@ -723,19 +723,19 @@ public final class OmGetPaymentAndShippingPu {
     public static final int CALCULATE_COSTS_FIELD_NUMBER = 10;
     private io.dstore.values.BooleanValue calculateCosts_;
     /**
-     * <code>optional .dstore.values.BooleanValue calculate_costs = 10;</code>
+     * <code>.dstore.values.BooleanValue calculate_costs = 10;</code>
      */
     public boolean hasCalculateCosts() {
       return calculateCosts_ != null;
     }
     /**
-     * <code>optional .dstore.values.BooleanValue calculate_costs = 10;</code>
+     * <code>.dstore.values.BooleanValue calculate_costs = 10;</code>
      */
     public io.dstore.values.BooleanValue getCalculateCosts() {
       return calculateCosts_ == null ? io.dstore.values.BooleanValue.getDefaultInstance() : calculateCosts_;
     }
     /**
-     * <code>optional .dstore.values.BooleanValue calculate_costs = 10;</code>
+     * <code>.dstore.values.BooleanValue calculate_costs = 10;</code>
      */
     public io.dstore.values.BooleanValueOrBuilder getCalculateCostsOrBuilder() {
       return getCalculateCosts();
@@ -744,7 +744,7 @@ public final class OmGetPaymentAndShippingPu {
     public static final int CALCULATE_COSTS_NULL_FIELD_NUMBER = 1010;
     private boolean calculateCostsNull_;
     /**
-     * <code>optional bool calculate_costs_null = 1010;</code>
+     * <code>bool calculate_costs_null = 1010;</code>
      */
     public boolean getCalculateCostsNull() {
       return calculateCostsNull_;
@@ -1004,7 +1004,7 @@ public final class OmGetPaymentAndShippingPu {
         return memoizedHashCode;
       }
       int hash = 41;
-      hash = (19 * hash) + getDescriptorForType().hashCode();
+      hash = (19 * hash) + getDescriptor().hashCode();
       if (hasResult()) {
         hash = (37 * hash) + RESULT_FIELD_NUMBER;
         hash = (53 * hash) + getResult().hashCode();
@@ -1486,13 +1486,13 @@ public final class OmGetPaymentAndShippingPu {
       private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> resultBuilder_;
       /**
-       * <code>optional .dstore.values.IntegerValue result = 1;</code>
+       * <code>.dstore.values.IntegerValue result = 1;</code>
        */
       public boolean hasResult() {
         return resultBuilder_ != null || result_ != null;
       }
       /**
-       * <code>optional .dstore.values.IntegerValue result = 1;</code>
+       * <code>.dstore.values.IntegerValue result = 1;</code>
        */
       public io.dstore.values.IntegerValue getResult() {
         if (resultBuilder_ == null) {
@@ -1502,7 +1502,7 @@ public final class OmGetPaymentAndShippingPu {
         }
       }
       /**
-       * <code>optional .dstore.values.IntegerValue result = 1;</code>
+       * <code>.dstore.values.IntegerValue result = 1;</code>
        */
       public Builder setResult(io.dstore.values.IntegerValue value) {
         if (resultBuilder_ == null) {
@@ -1518,7 +1518,7 @@ public final class OmGetPaymentAndShippingPu {
         return this;
       }
       /**
-       * <code>optional .dstore.values.IntegerValue result = 1;</code>
+       * <code>.dstore.values.IntegerValue result = 1;</code>
        */
       public Builder setResult(
           io.dstore.values.IntegerValue.Builder builderForValue) {
@@ -1532,7 +1532,7 @@ public final class OmGetPaymentAndShippingPu {
         return this;
       }
       /**
-       * <code>optional .dstore.values.IntegerValue result = 1;</code>
+       * <code>.dstore.values.IntegerValue result = 1;</code>
        */
       public Builder mergeResult(io.dstore.values.IntegerValue value) {
         if (resultBuilder_ == null) {
@@ -1550,7 +1550,7 @@ public final class OmGetPaymentAndShippingPu {
         return this;
       }
       /**
-       * <code>optional .dstore.values.IntegerValue result = 1;</code>
+       * <code>.dstore.values.IntegerValue result = 1;</code>
        */
       public Builder clearResult() {
         if (resultBuilder_ == null) {
@@ -1564,7 +1564,7 @@ public final class OmGetPaymentAndShippingPu {
         return this;
       }
       /**
-       * <code>optional .dstore.values.IntegerValue result = 1;</code>
+       * <code>.dstore.values.IntegerValue result = 1;</code>
        */
       public io.dstore.values.IntegerValue.Builder getResultBuilder() {
         
@@ -1572,7 +1572,7 @@ public final class OmGetPaymentAndShippingPu {
         return getResultFieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .dstore.values.IntegerValue result = 1;</code>
+       * <code>.dstore.values.IntegerValue result = 1;</code>
        */
       public io.dstore.values.IntegerValueOrBuilder getResultOrBuilder() {
         if (resultBuilder_ != null) {
@@ -1583,7 +1583,7 @@ public final class OmGetPaymentAndShippingPu {
         }
       }
       /**
-       * <code>optional .dstore.values.IntegerValue result = 1;</code>
+       * <code>.dstore.values.IntegerValue result = 1;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> 
@@ -1601,13 +1601,13 @@ public final class OmGetPaymentAndShippingPu {
 
       private boolean resultNull_ ;
       /**
-       * <code>optional bool result_null = 1001;</code>
+       * <code>bool result_null = 1001;</code>
        */
       public boolean getResultNull() {
         return resultNull_;
       }
       /**
-       * <code>optional bool result_null = 1001;</code>
+       * <code>bool result_null = 1001;</code>
        */
       public Builder setResultNull(boolean value) {
         
@@ -1616,7 +1616,7 @@ public final class OmGetPaymentAndShippingPu {
         return this;
       }
       /**
-       * <code>optional bool result_null = 1001;</code>
+       * <code>bool result_null = 1001;</code>
        */
       public Builder clearResultNull() {
         
@@ -1629,13 +1629,13 @@ public final class OmGetPaymentAndShippingPu {
       private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.values.StringValue, io.dstore.values.StringValue.Builder, io.dstore.values.StringValueOrBuilder> uniqueIdBuilder_;
       /**
-       * <code>optional .dstore.values.StringValue unique_id = 2;</code>
+       * <code>.dstore.values.StringValue unique_id = 2;</code>
        */
       public boolean hasUniqueId() {
         return uniqueIdBuilder_ != null || uniqueId_ != null;
       }
       /**
-       * <code>optional .dstore.values.StringValue unique_id = 2;</code>
+       * <code>.dstore.values.StringValue unique_id = 2;</code>
        */
       public io.dstore.values.StringValue getUniqueId() {
         if (uniqueIdBuilder_ == null) {
@@ -1645,7 +1645,7 @@ public final class OmGetPaymentAndShippingPu {
         }
       }
       /**
-       * <code>optional .dstore.values.StringValue unique_id = 2;</code>
+       * <code>.dstore.values.StringValue unique_id = 2;</code>
        */
       public Builder setUniqueId(io.dstore.values.StringValue value) {
         if (uniqueIdBuilder_ == null) {
@@ -1661,7 +1661,7 @@ public final class OmGetPaymentAndShippingPu {
         return this;
       }
       /**
-       * <code>optional .dstore.values.StringValue unique_id = 2;</code>
+       * <code>.dstore.values.StringValue unique_id = 2;</code>
        */
       public Builder setUniqueId(
           io.dstore.values.StringValue.Builder builderForValue) {
@@ -1675,7 +1675,7 @@ public final class OmGetPaymentAndShippingPu {
         return this;
       }
       /**
-       * <code>optional .dstore.values.StringValue unique_id = 2;</code>
+       * <code>.dstore.values.StringValue unique_id = 2;</code>
        */
       public Builder mergeUniqueId(io.dstore.values.StringValue value) {
         if (uniqueIdBuilder_ == null) {
@@ -1693,7 +1693,7 @@ public final class OmGetPaymentAndShippingPu {
         return this;
       }
       /**
-       * <code>optional .dstore.values.StringValue unique_id = 2;</code>
+       * <code>.dstore.values.StringValue unique_id = 2;</code>
        */
       public Builder clearUniqueId() {
         if (uniqueIdBuilder_ == null) {
@@ -1707,7 +1707,7 @@ public final class OmGetPaymentAndShippingPu {
         return this;
       }
       /**
-       * <code>optional .dstore.values.StringValue unique_id = 2;</code>
+       * <code>.dstore.values.StringValue unique_id = 2;</code>
        */
       public io.dstore.values.StringValue.Builder getUniqueIdBuilder() {
         
@@ -1715,7 +1715,7 @@ public final class OmGetPaymentAndShippingPu {
         return getUniqueIdFieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .dstore.values.StringValue unique_id = 2;</code>
+       * <code>.dstore.values.StringValue unique_id = 2;</code>
        */
       public io.dstore.values.StringValueOrBuilder getUniqueIdOrBuilder() {
         if (uniqueIdBuilder_ != null) {
@@ -1726,7 +1726,7 @@ public final class OmGetPaymentAndShippingPu {
         }
       }
       /**
-       * <code>optional .dstore.values.StringValue unique_id = 2;</code>
+       * <code>.dstore.values.StringValue unique_id = 2;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.values.StringValue, io.dstore.values.StringValue.Builder, io.dstore.values.StringValueOrBuilder> 
@@ -1744,13 +1744,13 @@ public final class OmGetPaymentAndShippingPu {
 
       private boolean uniqueIdNull_ ;
       /**
-       * <code>optional bool unique_id_null = 1002;</code>
+       * <code>bool unique_id_null = 1002;</code>
        */
       public boolean getUniqueIdNull() {
         return uniqueIdNull_;
       }
       /**
-       * <code>optional bool unique_id_null = 1002;</code>
+       * <code>bool unique_id_null = 1002;</code>
        */
       public Builder setUniqueIdNull(boolean value) {
         
@@ -1759,7 +1759,7 @@ public final class OmGetPaymentAndShippingPu {
         return this;
       }
       /**
-       * <code>optional bool unique_id_null = 1002;</code>
+       * <code>bool unique_id_null = 1002;</code>
        */
       public Builder clearUniqueIdNull() {
         
@@ -1772,13 +1772,13 @@ public final class OmGetPaymentAndShippingPu {
       private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> personIdBuilder_;
       /**
-       * <code>optional .dstore.values.IntegerValue person_id = 3;</code>
+       * <code>.dstore.values.IntegerValue person_id = 3;</code>
        */
       public boolean hasPersonId() {
         return personIdBuilder_ != null || personId_ != null;
       }
       /**
-       * <code>optional .dstore.values.IntegerValue person_id = 3;</code>
+       * <code>.dstore.values.IntegerValue person_id = 3;</code>
        */
       public io.dstore.values.IntegerValue getPersonId() {
         if (personIdBuilder_ == null) {
@@ -1788,7 +1788,7 @@ public final class OmGetPaymentAndShippingPu {
         }
       }
       /**
-       * <code>optional .dstore.values.IntegerValue person_id = 3;</code>
+       * <code>.dstore.values.IntegerValue person_id = 3;</code>
        */
       public Builder setPersonId(io.dstore.values.IntegerValue value) {
         if (personIdBuilder_ == null) {
@@ -1804,7 +1804,7 @@ public final class OmGetPaymentAndShippingPu {
         return this;
       }
       /**
-       * <code>optional .dstore.values.IntegerValue person_id = 3;</code>
+       * <code>.dstore.values.IntegerValue person_id = 3;</code>
        */
       public Builder setPersonId(
           io.dstore.values.IntegerValue.Builder builderForValue) {
@@ -1818,7 +1818,7 @@ public final class OmGetPaymentAndShippingPu {
         return this;
       }
       /**
-       * <code>optional .dstore.values.IntegerValue person_id = 3;</code>
+       * <code>.dstore.values.IntegerValue person_id = 3;</code>
        */
       public Builder mergePersonId(io.dstore.values.IntegerValue value) {
         if (personIdBuilder_ == null) {
@@ -1836,7 +1836,7 @@ public final class OmGetPaymentAndShippingPu {
         return this;
       }
       /**
-       * <code>optional .dstore.values.IntegerValue person_id = 3;</code>
+       * <code>.dstore.values.IntegerValue person_id = 3;</code>
        */
       public Builder clearPersonId() {
         if (personIdBuilder_ == null) {
@@ -1850,7 +1850,7 @@ public final class OmGetPaymentAndShippingPu {
         return this;
       }
       /**
-       * <code>optional .dstore.values.IntegerValue person_id = 3;</code>
+       * <code>.dstore.values.IntegerValue person_id = 3;</code>
        */
       public io.dstore.values.IntegerValue.Builder getPersonIdBuilder() {
         
@@ -1858,7 +1858,7 @@ public final class OmGetPaymentAndShippingPu {
         return getPersonIdFieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .dstore.values.IntegerValue person_id = 3;</code>
+       * <code>.dstore.values.IntegerValue person_id = 3;</code>
        */
       public io.dstore.values.IntegerValueOrBuilder getPersonIdOrBuilder() {
         if (personIdBuilder_ != null) {
@@ -1869,7 +1869,7 @@ public final class OmGetPaymentAndShippingPu {
         }
       }
       /**
-       * <code>optional .dstore.values.IntegerValue person_id = 3;</code>
+       * <code>.dstore.values.IntegerValue person_id = 3;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> 
@@ -1887,13 +1887,13 @@ public final class OmGetPaymentAndShippingPu {
 
       private boolean personIdNull_ ;
       /**
-       * <code>optional bool person_id_null = 1003;</code>
+       * <code>bool person_id_null = 1003;</code>
        */
       public boolean getPersonIdNull() {
         return personIdNull_;
       }
       /**
-       * <code>optional bool person_id_null = 1003;</code>
+       * <code>bool person_id_null = 1003;</code>
        */
       public Builder setPersonIdNull(boolean value) {
         
@@ -1902,7 +1902,7 @@ public final class OmGetPaymentAndShippingPu {
         return this;
       }
       /**
-       * <code>optional bool person_id_null = 1003;</code>
+       * <code>bool person_id_null = 1003;</code>
        */
       public Builder clearPersonIdNull() {
         
@@ -1915,13 +1915,13 @@ public final class OmGetPaymentAndShippingPu {
       private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> deliveryPersonIdBuilder_;
       /**
-       * <code>optional .dstore.values.IntegerValue delivery_person_id = 4;</code>
+       * <code>.dstore.values.IntegerValue delivery_person_id = 4;</code>
        */
       public boolean hasDeliveryPersonId() {
         return deliveryPersonIdBuilder_ != null || deliveryPersonId_ != null;
       }
       /**
-       * <code>optional .dstore.values.IntegerValue delivery_person_id = 4;</code>
+       * <code>.dstore.values.IntegerValue delivery_person_id = 4;</code>
        */
       public io.dstore.values.IntegerValue getDeliveryPersonId() {
         if (deliveryPersonIdBuilder_ == null) {
@@ -1931,7 +1931,7 @@ public final class OmGetPaymentAndShippingPu {
         }
       }
       /**
-       * <code>optional .dstore.values.IntegerValue delivery_person_id = 4;</code>
+       * <code>.dstore.values.IntegerValue delivery_person_id = 4;</code>
        */
       public Builder setDeliveryPersonId(io.dstore.values.IntegerValue value) {
         if (deliveryPersonIdBuilder_ == null) {
@@ -1947,7 +1947,7 @@ public final class OmGetPaymentAndShippingPu {
         return this;
       }
       /**
-       * <code>optional .dstore.values.IntegerValue delivery_person_id = 4;</code>
+       * <code>.dstore.values.IntegerValue delivery_person_id = 4;</code>
        */
       public Builder setDeliveryPersonId(
           io.dstore.values.IntegerValue.Builder builderForValue) {
@@ -1961,7 +1961,7 @@ public final class OmGetPaymentAndShippingPu {
         return this;
       }
       /**
-       * <code>optional .dstore.values.IntegerValue delivery_person_id = 4;</code>
+       * <code>.dstore.values.IntegerValue delivery_person_id = 4;</code>
        */
       public Builder mergeDeliveryPersonId(io.dstore.values.IntegerValue value) {
         if (deliveryPersonIdBuilder_ == null) {
@@ -1979,7 +1979,7 @@ public final class OmGetPaymentAndShippingPu {
         return this;
       }
       /**
-       * <code>optional .dstore.values.IntegerValue delivery_person_id = 4;</code>
+       * <code>.dstore.values.IntegerValue delivery_person_id = 4;</code>
        */
       public Builder clearDeliveryPersonId() {
         if (deliveryPersonIdBuilder_ == null) {
@@ -1993,7 +1993,7 @@ public final class OmGetPaymentAndShippingPu {
         return this;
       }
       /**
-       * <code>optional .dstore.values.IntegerValue delivery_person_id = 4;</code>
+       * <code>.dstore.values.IntegerValue delivery_person_id = 4;</code>
        */
       public io.dstore.values.IntegerValue.Builder getDeliveryPersonIdBuilder() {
         
@@ -2001,7 +2001,7 @@ public final class OmGetPaymentAndShippingPu {
         return getDeliveryPersonIdFieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .dstore.values.IntegerValue delivery_person_id = 4;</code>
+       * <code>.dstore.values.IntegerValue delivery_person_id = 4;</code>
        */
       public io.dstore.values.IntegerValueOrBuilder getDeliveryPersonIdOrBuilder() {
         if (deliveryPersonIdBuilder_ != null) {
@@ -2012,7 +2012,7 @@ public final class OmGetPaymentAndShippingPu {
         }
       }
       /**
-       * <code>optional .dstore.values.IntegerValue delivery_person_id = 4;</code>
+       * <code>.dstore.values.IntegerValue delivery_person_id = 4;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> 
@@ -2030,13 +2030,13 @@ public final class OmGetPaymentAndShippingPu {
 
       private boolean deliveryPersonIdNull_ ;
       /**
-       * <code>optional bool delivery_person_id_null = 1004;</code>
+       * <code>bool delivery_person_id_null = 1004;</code>
        */
       public boolean getDeliveryPersonIdNull() {
         return deliveryPersonIdNull_;
       }
       /**
-       * <code>optional bool delivery_person_id_null = 1004;</code>
+       * <code>bool delivery_person_id_null = 1004;</code>
        */
       public Builder setDeliveryPersonIdNull(boolean value) {
         
@@ -2045,7 +2045,7 @@ public final class OmGetPaymentAndShippingPu {
         return this;
       }
       /**
-       * <code>optional bool delivery_person_id_null = 1004;</code>
+       * <code>bool delivery_person_id_null = 1004;</code>
        */
       public Builder clearDeliveryPersonIdNull() {
         
@@ -2058,13 +2058,13 @@ public final class OmGetPaymentAndShippingPu {
       private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.values.DecimalValue, io.dstore.values.DecimalValue.Builder, io.dstore.values.DecimalValueOrBuilder> bruttoSumBuilder_;
       /**
-       * <code>optional .dstore.values.DecimalValue brutto_sum = 5;</code>
+       * <code>.dstore.values.DecimalValue brutto_sum = 5;</code>
        */
       public boolean hasBruttoSum() {
         return bruttoSumBuilder_ != null || bruttoSum_ != null;
       }
       /**
-       * <code>optional .dstore.values.DecimalValue brutto_sum = 5;</code>
+       * <code>.dstore.values.DecimalValue brutto_sum = 5;</code>
        */
       public io.dstore.values.DecimalValue getBruttoSum() {
         if (bruttoSumBuilder_ == null) {
@@ -2074,7 +2074,7 @@ public final class OmGetPaymentAndShippingPu {
         }
       }
       /**
-       * <code>optional .dstore.values.DecimalValue brutto_sum = 5;</code>
+       * <code>.dstore.values.DecimalValue brutto_sum = 5;</code>
        */
       public Builder setBruttoSum(io.dstore.values.DecimalValue value) {
         if (bruttoSumBuilder_ == null) {
@@ -2090,7 +2090,7 @@ public final class OmGetPaymentAndShippingPu {
         return this;
       }
       /**
-       * <code>optional .dstore.values.DecimalValue brutto_sum = 5;</code>
+       * <code>.dstore.values.DecimalValue brutto_sum = 5;</code>
        */
       public Builder setBruttoSum(
           io.dstore.values.DecimalValue.Builder builderForValue) {
@@ -2104,7 +2104,7 @@ public final class OmGetPaymentAndShippingPu {
         return this;
       }
       /**
-       * <code>optional .dstore.values.DecimalValue brutto_sum = 5;</code>
+       * <code>.dstore.values.DecimalValue brutto_sum = 5;</code>
        */
       public Builder mergeBruttoSum(io.dstore.values.DecimalValue value) {
         if (bruttoSumBuilder_ == null) {
@@ -2122,7 +2122,7 @@ public final class OmGetPaymentAndShippingPu {
         return this;
       }
       /**
-       * <code>optional .dstore.values.DecimalValue brutto_sum = 5;</code>
+       * <code>.dstore.values.DecimalValue brutto_sum = 5;</code>
        */
       public Builder clearBruttoSum() {
         if (bruttoSumBuilder_ == null) {
@@ -2136,7 +2136,7 @@ public final class OmGetPaymentAndShippingPu {
         return this;
       }
       /**
-       * <code>optional .dstore.values.DecimalValue brutto_sum = 5;</code>
+       * <code>.dstore.values.DecimalValue brutto_sum = 5;</code>
        */
       public io.dstore.values.DecimalValue.Builder getBruttoSumBuilder() {
         
@@ -2144,7 +2144,7 @@ public final class OmGetPaymentAndShippingPu {
         return getBruttoSumFieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .dstore.values.DecimalValue brutto_sum = 5;</code>
+       * <code>.dstore.values.DecimalValue brutto_sum = 5;</code>
        */
       public io.dstore.values.DecimalValueOrBuilder getBruttoSumOrBuilder() {
         if (bruttoSumBuilder_ != null) {
@@ -2155,7 +2155,7 @@ public final class OmGetPaymentAndShippingPu {
         }
       }
       /**
-       * <code>optional .dstore.values.DecimalValue brutto_sum = 5;</code>
+       * <code>.dstore.values.DecimalValue brutto_sum = 5;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.values.DecimalValue, io.dstore.values.DecimalValue.Builder, io.dstore.values.DecimalValueOrBuilder> 
@@ -2173,13 +2173,13 @@ public final class OmGetPaymentAndShippingPu {
 
       private boolean bruttoSumNull_ ;
       /**
-       * <code>optional bool brutto_sum_null = 1005;</code>
+       * <code>bool brutto_sum_null = 1005;</code>
        */
       public boolean getBruttoSumNull() {
         return bruttoSumNull_;
       }
       /**
-       * <code>optional bool brutto_sum_null = 1005;</code>
+       * <code>bool brutto_sum_null = 1005;</code>
        */
       public Builder setBruttoSumNull(boolean value) {
         
@@ -2188,7 +2188,7 @@ public final class OmGetPaymentAndShippingPu {
         return this;
       }
       /**
-       * <code>optional bool brutto_sum_null = 1005;</code>
+       * <code>bool brutto_sum_null = 1005;</code>
        */
       public Builder clearBruttoSumNull() {
         
@@ -2201,13 +2201,13 @@ public final class OmGetPaymentAndShippingPu {
       private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.values.DecimalValue, io.dstore.values.DecimalValue.Builder, io.dstore.values.DecimalValueOrBuilder> nettoSumBuilder_;
       /**
-       * <code>optional .dstore.values.DecimalValue netto_sum = 6;</code>
+       * <code>.dstore.values.DecimalValue netto_sum = 6;</code>
        */
       public boolean hasNettoSum() {
         return nettoSumBuilder_ != null || nettoSum_ != null;
       }
       /**
-       * <code>optional .dstore.values.DecimalValue netto_sum = 6;</code>
+       * <code>.dstore.values.DecimalValue netto_sum = 6;</code>
        */
       public io.dstore.values.DecimalValue getNettoSum() {
         if (nettoSumBuilder_ == null) {
@@ -2217,7 +2217,7 @@ public final class OmGetPaymentAndShippingPu {
         }
       }
       /**
-       * <code>optional .dstore.values.DecimalValue netto_sum = 6;</code>
+       * <code>.dstore.values.DecimalValue netto_sum = 6;</code>
        */
       public Builder setNettoSum(io.dstore.values.DecimalValue value) {
         if (nettoSumBuilder_ == null) {
@@ -2233,7 +2233,7 @@ public final class OmGetPaymentAndShippingPu {
         return this;
       }
       /**
-       * <code>optional .dstore.values.DecimalValue netto_sum = 6;</code>
+       * <code>.dstore.values.DecimalValue netto_sum = 6;</code>
        */
       public Builder setNettoSum(
           io.dstore.values.DecimalValue.Builder builderForValue) {
@@ -2247,7 +2247,7 @@ public final class OmGetPaymentAndShippingPu {
         return this;
       }
       /**
-       * <code>optional .dstore.values.DecimalValue netto_sum = 6;</code>
+       * <code>.dstore.values.DecimalValue netto_sum = 6;</code>
        */
       public Builder mergeNettoSum(io.dstore.values.DecimalValue value) {
         if (nettoSumBuilder_ == null) {
@@ -2265,7 +2265,7 @@ public final class OmGetPaymentAndShippingPu {
         return this;
       }
       /**
-       * <code>optional .dstore.values.DecimalValue netto_sum = 6;</code>
+       * <code>.dstore.values.DecimalValue netto_sum = 6;</code>
        */
       public Builder clearNettoSum() {
         if (nettoSumBuilder_ == null) {
@@ -2279,7 +2279,7 @@ public final class OmGetPaymentAndShippingPu {
         return this;
       }
       /**
-       * <code>optional .dstore.values.DecimalValue netto_sum = 6;</code>
+       * <code>.dstore.values.DecimalValue netto_sum = 6;</code>
        */
       public io.dstore.values.DecimalValue.Builder getNettoSumBuilder() {
         
@@ -2287,7 +2287,7 @@ public final class OmGetPaymentAndShippingPu {
         return getNettoSumFieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .dstore.values.DecimalValue netto_sum = 6;</code>
+       * <code>.dstore.values.DecimalValue netto_sum = 6;</code>
        */
       public io.dstore.values.DecimalValueOrBuilder getNettoSumOrBuilder() {
         if (nettoSumBuilder_ != null) {
@@ -2298,7 +2298,7 @@ public final class OmGetPaymentAndShippingPu {
         }
       }
       /**
-       * <code>optional .dstore.values.DecimalValue netto_sum = 6;</code>
+       * <code>.dstore.values.DecimalValue netto_sum = 6;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.values.DecimalValue, io.dstore.values.DecimalValue.Builder, io.dstore.values.DecimalValueOrBuilder> 
@@ -2316,13 +2316,13 @@ public final class OmGetPaymentAndShippingPu {
 
       private boolean nettoSumNull_ ;
       /**
-       * <code>optional bool netto_sum_null = 1006;</code>
+       * <code>bool netto_sum_null = 1006;</code>
        */
       public boolean getNettoSumNull() {
         return nettoSumNull_;
       }
       /**
-       * <code>optional bool netto_sum_null = 1006;</code>
+       * <code>bool netto_sum_null = 1006;</code>
        */
       public Builder setNettoSumNull(boolean value) {
         
@@ -2331,7 +2331,7 @@ public final class OmGetPaymentAndShippingPu {
         return this;
       }
       /**
-       * <code>optional bool netto_sum_null = 1006;</code>
+       * <code>bool netto_sum_null = 1006;</code>
        */
       public Builder clearNettoSumNull() {
         
@@ -2344,13 +2344,13 @@ public final class OmGetPaymentAndShippingPu {
       private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> paymentForShippingIdBuilder_;
       /**
-       * <code>optional .dstore.values.IntegerValue payment_for_shipping_id = 7;</code>
+       * <code>.dstore.values.IntegerValue payment_for_shipping_id = 7;</code>
        */
       public boolean hasPaymentForShippingId() {
         return paymentForShippingIdBuilder_ != null || paymentForShippingId_ != null;
       }
       /**
-       * <code>optional .dstore.values.IntegerValue payment_for_shipping_id = 7;</code>
+       * <code>.dstore.values.IntegerValue payment_for_shipping_id = 7;</code>
        */
       public io.dstore.values.IntegerValue getPaymentForShippingId() {
         if (paymentForShippingIdBuilder_ == null) {
@@ -2360,7 +2360,7 @@ public final class OmGetPaymentAndShippingPu {
         }
       }
       /**
-       * <code>optional .dstore.values.IntegerValue payment_for_shipping_id = 7;</code>
+       * <code>.dstore.values.IntegerValue payment_for_shipping_id = 7;</code>
        */
       public Builder setPaymentForShippingId(io.dstore.values.IntegerValue value) {
         if (paymentForShippingIdBuilder_ == null) {
@@ -2376,7 +2376,7 @@ public final class OmGetPaymentAndShippingPu {
         return this;
       }
       /**
-       * <code>optional .dstore.values.IntegerValue payment_for_shipping_id = 7;</code>
+       * <code>.dstore.values.IntegerValue payment_for_shipping_id = 7;</code>
        */
       public Builder setPaymentForShippingId(
           io.dstore.values.IntegerValue.Builder builderForValue) {
@@ -2390,7 +2390,7 @@ public final class OmGetPaymentAndShippingPu {
         return this;
       }
       /**
-       * <code>optional .dstore.values.IntegerValue payment_for_shipping_id = 7;</code>
+       * <code>.dstore.values.IntegerValue payment_for_shipping_id = 7;</code>
        */
       public Builder mergePaymentForShippingId(io.dstore.values.IntegerValue value) {
         if (paymentForShippingIdBuilder_ == null) {
@@ -2408,7 +2408,7 @@ public final class OmGetPaymentAndShippingPu {
         return this;
       }
       /**
-       * <code>optional .dstore.values.IntegerValue payment_for_shipping_id = 7;</code>
+       * <code>.dstore.values.IntegerValue payment_for_shipping_id = 7;</code>
        */
       public Builder clearPaymentForShippingId() {
         if (paymentForShippingIdBuilder_ == null) {
@@ -2422,7 +2422,7 @@ public final class OmGetPaymentAndShippingPu {
         return this;
       }
       /**
-       * <code>optional .dstore.values.IntegerValue payment_for_shipping_id = 7;</code>
+       * <code>.dstore.values.IntegerValue payment_for_shipping_id = 7;</code>
        */
       public io.dstore.values.IntegerValue.Builder getPaymentForShippingIdBuilder() {
         
@@ -2430,7 +2430,7 @@ public final class OmGetPaymentAndShippingPu {
         return getPaymentForShippingIdFieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .dstore.values.IntegerValue payment_for_shipping_id = 7;</code>
+       * <code>.dstore.values.IntegerValue payment_for_shipping_id = 7;</code>
        */
       public io.dstore.values.IntegerValueOrBuilder getPaymentForShippingIdOrBuilder() {
         if (paymentForShippingIdBuilder_ != null) {
@@ -2441,7 +2441,7 @@ public final class OmGetPaymentAndShippingPu {
         }
       }
       /**
-       * <code>optional .dstore.values.IntegerValue payment_for_shipping_id = 7;</code>
+       * <code>.dstore.values.IntegerValue payment_for_shipping_id = 7;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> 
@@ -2459,13 +2459,13 @@ public final class OmGetPaymentAndShippingPu {
 
       private boolean paymentForShippingIdNull_ ;
       /**
-       * <code>optional bool payment_for_shipping_id_null = 1007;</code>
+       * <code>bool payment_for_shipping_id_null = 1007;</code>
        */
       public boolean getPaymentForShippingIdNull() {
         return paymentForShippingIdNull_;
       }
       /**
-       * <code>optional bool payment_for_shipping_id_null = 1007;</code>
+       * <code>bool payment_for_shipping_id_null = 1007;</code>
        */
       public Builder setPaymentForShippingIdNull(boolean value) {
         
@@ -2474,7 +2474,7 @@ public final class OmGetPaymentAndShippingPu {
         return this;
       }
       /**
-       * <code>optional bool payment_for_shipping_id_null = 1007;</code>
+       * <code>bool payment_for_shipping_id_null = 1007;</code>
        */
       public Builder clearPaymentForShippingIdNull() {
         
@@ -2487,13 +2487,13 @@ public final class OmGetPaymentAndShippingPu {
       private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.values.TimestampValue, io.dstore.values.TimestampValue.Builder, io.dstore.values.TimestampValueOrBuilder> dateBuilder_;
       /**
-       * <code>optional .dstore.values.TimestampValue date = 8;</code>
+       * <code>.dstore.values.TimestampValue date = 8;</code>
        */
       public boolean hasDate() {
         return dateBuilder_ != null || date_ != null;
       }
       /**
-       * <code>optional .dstore.values.TimestampValue date = 8;</code>
+       * <code>.dstore.values.TimestampValue date = 8;</code>
        */
       public io.dstore.values.TimestampValue getDate() {
         if (dateBuilder_ == null) {
@@ -2503,7 +2503,7 @@ public final class OmGetPaymentAndShippingPu {
         }
       }
       /**
-       * <code>optional .dstore.values.TimestampValue date = 8;</code>
+       * <code>.dstore.values.TimestampValue date = 8;</code>
        */
       public Builder setDate(io.dstore.values.TimestampValue value) {
         if (dateBuilder_ == null) {
@@ -2519,7 +2519,7 @@ public final class OmGetPaymentAndShippingPu {
         return this;
       }
       /**
-       * <code>optional .dstore.values.TimestampValue date = 8;</code>
+       * <code>.dstore.values.TimestampValue date = 8;</code>
        */
       public Builder setDate(
           io.dstore.values.TimestampValue.Builder builderForValue) {
@@ -2533,7 +2533,7 @@ public final class OmGetPaymentAndShippingPu {
         return this;
       }
       /**
-       * <code>optional .dstore.values.TimestampValue date = 8;</code>
+       * <code>.dstore.values.TimestampValue date = 8;</code>
        */
       public Builder mergeDate(io.dstore.values.TimestampValue value) {
         if (dateBuilder_ == null) {
@@ -2551,7 +2551,7 @@ public final class OmGetPaymentAndShippingPu {
         return this;
       }
       /**
-       * <code>optional .dstore.values.TimestampValue date = 8;</code>
+       * <code>.dstore.values.TimestampValue date = 8;</code>
        */
       public Builder clearDate() {
         if (dateBuilder_ == null) {
@@ -2565,7 +2565,7 @@ public final class OmGetPaymentAndShippingPu {
         return this;
       }
       /**
-       * <code>optional .dstore.values.TimestampValue date = 8;</code>
+       * <code>.dstore.values.TimestampValue date = 8;</code>
        */
       public io.dstore.values.TimestampValue.Builder getDateBuilder() {
         
@@ -2573,7 +2573,7 @@ public final class OmGetPaymentAndShippingPu {
         return getDateFieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .dstore.values.TimestampValue date = 8;</code>
+       * <code>.dstore.values.TimestampValue date = 8;</code>
        */
       public io.dstore.values.TimestampValueOrBuilder getDateOrBuilder() {
         if (dateBuilder_ != null) {
@@ -2584,7 +2584,7 @@ public final class OmGetPaymentAndShippingPu {
         }
       }
       /**
-       * <code>optional .dstore.values.TimestampValue date = 8;</code>
+       * <code>.dstore.values.TimestampValue date = 8;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.values.TimestampValue, io.dstore.values.TimestampValue.Builder, io.dstore.values.TimestampValueOrBuilder> 
@@ -2602,13 +2602,13 @@ public final class OmGetPaymentAndShippingPu {
 
       private boolean dateNull_ ;
       /**
-       * <code>optional bool date_null = 1008;</code>
+       * <code>bool date_null = 1008;</code>
        */
       public boolean getDateNull() {
         return dateNull_;
       }
       /**
-       * <code>optional bool date_null = 1008;</code>
+       * <code>bool date_null = 1008;</code>
        */
       public Builder setDateNull(boolean value) {
         
@@ -2617,7 +2617,7 @@ public final class OmGetPaymentAndShippingPu {
         return this;
       }
       /**
-       * <code>optional bool date_null = 1008;</code>
+       * <code>bool date_null = 1008;</code>
        */
       public Builder clearDateNull() {
         
@@ -2630,13 +2630,13 @@ public final class OmGetPaymentAndShippingPu {
       private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.values.BooleanValue, io.dstore.values.BooleanValue.Builder, io.dstore.values.BooleanValueOrBuilder> selectMissingResultReasonBuilder_;
       /**
-       * <code>optional .dstore.values.BooleanValue select_missing_result_reason = 9;</code>
+       * <code>.dstore.values.BooleanValue select_missing_result_reason = 9;</code>
        */
       public boolean hasSelectMissingResultReason() {
         return selectMissingResultReasonBuilder_ != null || selectMissingResultReason_ != null;
       }
       /**
-       * <code>optional .dstore.values.BooleanValue select_missing_result_reason = 9;</code>
+       * <code>.dstore.values.BooleanValue select_missing_result_reason = 9;</code>
        */
       public io.dstore.values.BooleanValue getSelectMissingResultReason() {
         if (selectMissingResultReasonBuilder_ == null) {
@@ -2646,7 +2646,7 @@ public final class OmGetPaymentAndShippingPu {
         }
       }
       /**
-       * <code>optional .dstore.values.BooleanValue select_missing_result_reason = 9;</code>
+       * <code>.dstore.values.BooleanValue select_missing_result_reason = 9;</code>
        */
       public Builder setSelectMissingResultReason(io.dstore.values.BooleanValue value) {
         if (selectMissingResultReasonBuilder_ == null) {
@@ -2662,7 +2662,7 @@ public final class OmGetPaymentAndShippingPu {
         return this;
       }
       /**
-       * <code>optional .dstore.values.BooleanValue select_missing_result_reason = 9;</code>
+       * <code>.dstore.values.BooleanValue select_missing_result_reason = 9;</code>
        */
       public Builder setSelectMissingResultReason(
           io.dstore.values.BooleanValue.Builder builderForValue) {
@@ -2676,7 +2676,7 @@ public final class OmGetPaymentAndShippingPu {
         return this;
       }
       /**
-       * <code>optional .dstore.values.BooleanValue select_missing_result_reason = 9;</code>
+       * <code>.dstore.values.BooleanValue select_missing_result_reason = 9;</code>
        */
       public Builder mergeSelectMissingResultReason(io.dstore.values.BooleanValue value) {
         if (selectMissingResultReasonBuilder_ == null) {
@@ -2694,7 +2694,7 @@ public final class OmGetPaymentAndShippingPu {
         return this;
       }
       /**
-       * <code>optional .dstore.values.BooleanValue select_missing_result_reason = 9;</code>
+       * <code>.dstore.values.BooleanValue select_missing_result_reason = 9;</code>
        */
       public Builder clearSelectMissingResultReason() {
         if (selectMissingResultReasonBuilder_ == null) {
@@ -2708,7 +2708,7 @@ public final class OmGetPaymentAndShippingPu {
         return this;
       }
       /**
-       * <code>optional .dstore.values.BooleanValue select_missing_result_reason = 9;</code>
+       * <code>.dstore.values.BooleanValue select_missing_result_reason = 9;</code>
        */
       public io.dstore.values.BooleanValue.Builder getSelectMissingResultReasonBuilder() {
         
@@ -2716,7 +2716,7 @@ public final class OmGetPaymentAndShippingPu {
         return getSelectMissingResultReasonFieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .dstore.values.BooleanValue select_missing_result_reason = 9;</code>
+       * <code>.dstore.values.BooleanValue select_missing_result_reason = 9;</code>
        */
       public io.dstore.values.BooleanValueOrBuilder getSelectMissingResultReasonOrBuilder() {
         if (selectMissingResultReasonBuilder_ != null) {
@@ -2727,7 +2727,7 @@ public final class OmGetPaymentAndShippingPu {
         }
       }
       /**
-       * <code>optional .dstore.values.BooleanValue select_missing_result_reason = 9;</code>
+       * <code>.dstore.values.BooleanValue select_missing_result_reason = 9;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.values.BooleanValue, io.dstore.values.BooleanValue.Builder, io.dstore.values.BooleanValueOrBuilder> 
@@ -2745,13 +2745,13 @@ public final class OmGetPaymentAndShippingPu {
 
       private boolean selectMissingResultReasonNull_ ;
       /**
-       * <code>optional bool select_missing_result_reason_null = 1009;</code>
+       * <code>bool select_missing_result_reason_null = 1009;</code>
        */
       public boolean getSelectMissingResultReasonNull() {
         return selectMissingResultReasonNull_;
       }
       /**
-       * <code>optional bool select_missing_result_reason_null = 1009;</code>
+       * <code>bool select_missing_result_reason_null = 1009;</code>
        */
       public Builder setSelectMissingResultReasonNull(boolean value) {
         
@@ -2760,7 +2760,7 @@ public final class OmGetPaymentAndShippingPu {
         return this;
       }
       /**
-       * <code>optional bool select_missing_result_reason_null = 1009;</code>
+       * <code>bool select_missing_result_reason_null = 1009;</code>
        */
       public Builder clearSelectMissingResultReasonNull() {
         
@@ -2773,13 +2773,13 @@ public final class OmGetPaymentAndShippingPu {
       private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.values.BooleanValue, io.dstore.values.BooleanValue.Builder, io.dstore.values.BooleanValueOrBuilder> calculateCostsBuilder_;
       /**
-       * <code>optional .dstore.values.BooleanValue calculate_costs = 10;</code>
+       * <code>.dstore.values.BooleanValue calculate_costs = 10;</code>
        */
       public boolean hasCalculateCosts() {
         return calculateCostsBuilder_ != null || calculateCosts_ != null;
       }
       /**
-       * <code>optional .dstore.values.BooleanValue calculate_costs = 10;</code>
+       * <code>.dstore.values.BooleanValue calculate_costs = 10;</code>
        */
       public io.dstore.values.BooleanValue getCalculateCosts() {
         if (calculateCostsBuilder_ == null) {
@@ -2789,7 +2789,7 @@ public final class OmGetPaymentAndShippingPu {
         }
       }
       /**
-       * <code>optional .dstore.values.BooleanValue calculate_costs = 10;</code>
+       * <code>.dstore.values.BooleanValue calculate_costs = 10;</code>
        */
       public Builder setCalculateCosts(io.dstore.values.BooleanValue value) {
         if (calculateCostsBuilder_ == null) {
@@ -2805,7 +2805,7 @@ public final class OmGetPaymentAndShippingPu {
         return this;
       }
       /**
-       * <code>optional .dstore.values.BooleanValue calculate_costs = 10;</code>
+       * <code>.dstore.values.BooleanValue calculate_costs = 10;</code>
        */
       public Builder setCalculateCosts(
           io.dstore.values.BooleanValue.Builder builderForValue) {
@@ -2819,7 +2819,7 @@ public final class OmGetPaymentAndShippingPu {
         return this;
       }
       /**
-       * <code>optional .dstore.values.BooleanValue calculate_costs = 10;</code>
+       * <code>.dstore.values.BooleanValue calculate_costs = 10;</code>
        */
       public Builder mergeCalculateCosts(io.dstore.values.BooleanValue value) {
         if (calculateCostsBuilder_ == null) {
@@ -2837,7 +2837,7 @@ public final class OmGetPaymentAndShippingPu {
         return this;
       }
       /**
-       * <code>optional .dstore.values.BooleanValue calculate_costs = 10;</code>
+       * <code>.dstore.values.BooleanValue calculate_costs = 10;</code>
        */
       public Builder clearCalculateCosts() {
         if (calculateCostsBuilder_ == null) {
@@ -2851,7 +2851,7 @@ public final class OmGetPaymentAndShippingPu {
         return this;
       }
       /**
-       * <code>optional .dstore.values.BooleanValue calculate_costs = 10;</code>
+       * <code>.dstore.values.BooleanValue calculate_costs = 10;</code>
        */
       public io.dstore.values.BooleanValue.Builder getCalculateCostsBuilder() {
         
@@ -2859,7 +2859,7 @@ public final class OmGetPaymentAndShippingPu {
         return getCalculateCostsFieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .dstore.values.BooleanValue calculate_costs = 10;</code>
+       * <code>.dstore.values.BooleanValue calculate_costs = 10;</code>
        */
       public io.dstore.values.BooleanValueOrBuilder getCalculateCostsOrBuilder() {
         if (calculateCostsBuilder_ != null) {
@@ -2870,7 +2870,7 @@ public final class OmGetPaymentAndShippingPu {
         }
       }
       /**
-       * <code>optional .dstore.values.BooleanValue calculate_costs = 10;</code>
+       * <code>.dstore.values.BooleanValue calculate_costs = 10;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.values.BooleanValue, io.dstore.values.BooleanValue.Builder, io.dstore.values.BooleanValueOrBuilder> 
@@ -2888,13 +2888,13 @@ public final class OmGetPaymentAndShippingPu {
 
       private boolean calculateCostsNull_ ;
       /**
-       * <code>optional bool calculate_costs_null = 1010;</code>
+       * <code>bool calculate_costs_null = 1010;</code>
        */
       public boolean getCalculateCostsNull() {
         return calculateCostsNull_;
       }
       /**
-       * <code>optional bool calculate_costs_null = 1010;</code>
+       * <code>bool calculate_costs_null = 1010;</code>
        */
       public Builder setCalculateCostsNull(boolean value) {
         
@@ -2903,7 +2903,7 @@ public final class OmGetPaymentAndShippingPu {
         return this;
       }
       /**
-       * <code>optional bool calculate_costs_null = 1010;</code>
+       * <code>bool calculate_costs_null = 1010;</code>
        */
       public Builder clearCalculateCostsNull() {
         
@@ -3162,7 +3162,7 @@ public final class OmGetPaymentAndShippingPu {
         com.google.protobuf.MessageOrBuilder {
 
       /**
-       * <code>optional int32 row_id = 10000;</code>
+       * <code>int32 row_id = 10000;</code>
        */
       int getRowId();
 
@@ -3171,7 +3171,7 @@ public final class OmGetPaymentAndShippingPu {
        * ID der zur Zahlungsart "PaymentTypeID" hinterlegten "Region" (die bestimmte Länder zusammenfaßt). Wir geben diesen Datensatz nur dann aus, wenn der Auftraggeber ("&#64;PersonID") aus einem Land kommt, das dieser Region angehört.
        * </pre>
        *
-       * <code>optional .dstore.values.IntegerValue region_id_payment_type = 10001;</code>
+       * <code>.dstore.values.IntegerValue region_id_payment_type = 10001;</code>
        */
       boolean hasRegionIdPaymentType();
       /**
@@ -3179,7 +3179,7 @@ public final class OmGetPaymentAndShippingPu {
        * ID der zur Zahlungsart "PaymentTypeID" hinterlegten "Region" (die bestimmte Länder zusammenfaßt). Wir geben diesen Datensatz nur dann aus, wenn der Auftraggeber ("&#64;PersonID") aus einem Land kommt, das dieser Region angehört.
        * </pre>
        *
-       * <code>optional .dstore.values.IntegerValue region_id_payment_type = 10001;</code>
+       * <code>.dstore.values.IntegerValue region_id_payment_type = 10001;</code>
        */
       io.dstore.values.IntegerValue getRegionIdPaymentType();
       /**
@@ -3187,7 +3187,7 @@ public final class OmGetPaymentAndShippingPu {
        * ID der zur Zahlungsart "PaymentTypeID" hinterlegten "Region" (die bestimmte Länder zusammenfaßt). Wir geben diesen Datensatz nur dann aus, wenn der Auftraggeber ("&#64;PersonID") aus einem Land kommt, das dieser Region angehört.
        * </pre>
        *
-       * <code>optional .dstore.values.IntegerValue region_id_payment_type = 10001;</code>
+       * <code>.dstore.values.IntegerValue region_id_payment_type = 10001;</code>
        */
       io.dstore.values.IntegerValueOrBuilder getRegionIdPaymentTypeOrBuilder();
 
@@ -3196,7 +3196,7 @@ public final class OmGetPaymentAndShippingPu {
        * ID einer gefundenen Zahlungsart-Versandart-Kombination (die für die übergebenen Parameter gültig ist)
        * </pre>
        *
-       * <code>optional .dstore.values.IntegerValue payment_for_shipping_id = 10002;</code>
+       * <code>.dstore.values.IntegerValue payment_for_shipping_id = 10002;</code>
        */
       boolean hasPaymentForShippingId();
       /**
@@ -3204,7 +3204,7 @@ public final class OmGetPaymentAndShippingPu {
        * ID einer gefundenen Zahlungsart-Versandart-Kombination (die für die übergebenen Parameter gültig ist)
        * </pre>
        *
-       * <code>optional .dstore.values.IntegerValue payment_for_shipping_id = 10002;</code>
+       * <code>.dstore.values.IntegerValue payment_for_shipping_id = 10002;</code>
        */
       io.dstore.values.IntegerValue getPaymentForShippingId();
       /**
@@ -3212,7 +3212,7 @@ public final class OmGetPaymentAndShippingPu {
        * ID einer gefundenen Zahlungsart-Versandart-Kombination (die für die übergebenen Parameter gültig ist)
        * </pre>
        *
-       * <code>optional .dstore.values.IntegerValue payment_for_shipping_id = 10002;</code>
+       * <code>.dstore.values.IntegerValue payment_for_shipping_id = 10002;</code>
        */
       io.dstore.values.IntegerValueOrBuilder getPaymentForShippingIdOrBuilder();
 
@@ -3221,7 +3221,7 @@ public final class OmGetPaymentAndShippingPu {
        * ID der Versandart der Kombination "PaymentForShippingID"
        * </pre>
        *
-       * <code>optional .dstore.values.IntegerValue shipping_type_id = 10003;</code>
+       * <code>.dstore.values.IntegerValue shipping_type_id = 10003;</code>
        */
       boolean hasShippingTypeId();
       /**
@@ -3229,7 +3229,7 @@ public final class OmGetPaymentAndShippingPu {
        * ID der Versandart der Kombination "PaymentForShippingID"
        * </pre>
        *
-       * <code>optional .dstore.values.IntegerValue shipping_type_id = 10003;</code>
+       * <code>.dstore.values.IntegerValue shipping_type_id = 10003;</code>
        */
       io.dstore.values.IntegerValue getShippingTypeId();
       /**
@@ -3237,7 +3237,7 @@ public final class OmGetPaymentAndShippingPu {
        * ID der Versandart der Kombination "PaymentForShippingID"
        * </pre>
        *
-       * <code>optional .dstore.values.IntegerValue shipping_type_id = 10003;</code>
+       * <code>.dstore.values.IntegerValue shipping_type_id = 10003;</code>
        */
       io.dstore.values.IntegerValueOrBuilder getShippingTypeIdOrBuilder();
 
@@ -3246,7 +3246,7 @@ public final class OmGetPaymentAndShippingPu {
        * Bezeichnung der Zahlungsart-Versandart-Kombination "PaymentForShippingID"
        * </pre>
        *
-       * <code>optional .dstore.values.StringValue payment_for_shipping_description = 10004;</code>
+       * <code>.dstore.values.StringValue payment_for_shipping_description = 10004;</code>
        */
       boolean hasPaymentForShippingDescription();
       /**
@@ -3254,7 +3254,7 @@ public final class OmGetPaymentAndShippingPu {
        * Bezeichnung der Zahlungsart-Versandart-Kombination "PaymentForShippingID"
        * </pre>
        *
-       * <code>optional .dstore.values.StringValue payment_for_shipping_description = 10004;</code>
+       * <code>.dstore.values.StringValue payment_for_shipping_description = 10004;</code>
        */
       io.dstore.values.StringValue getPaymentForShippingDescription();
       /**
@@ -3262,7 +3262,7 @@ public final class OmGetPaymentAndShippingPu {
        * Bezeichnung der Zahlungsart-Versandart-Kombination "PaymentForShippingID"
        * </pre>
        *
-       * <code>optional .dstore.values.StringValue payment_for_shipping_description = 10004;</code>
+       * <code>.dstore.values.StringValue payment_for_shipping_description = 10004;</code>
        */
       io.dstore.values.StringValueOrBuilder getPaymentForShippingDescriptionOrBuilder();
 
@@ -3271,7 +3271,7 @@ public final class OmGetPaymentAndShippingPu {
        * ID der Zahlungsart der Kombination "PaymentForShippingID"
        * </pre>
        *
-       * <code>optional .dstore.values.IntegerValue payment_type_id = 10005;</code>
+       * <code>.dstore.values.IntegerValue payment_type_id = 10005;</code>
        */
       boolean hasPaymentTypeId();
       /**
@@ -3279,7 +3279,7 @@ public final class OmGetPaymentAndShippingPu {
        * ID der Zahlungsart der Kombination "PaymentForShippingID"
        * </pre>
        *
-       * <code>optional .dstore.values.IntegerValue payment_type_id = 10005;</code>
+       * <code>.dstore.values.IntegerValue payment_type_id = 10005;</code>
        */
       io.dstore.values.IntegerValue getPaymentTypeId();
       /**
@@ -3287,7 +3287,7 @@ public final class OmGetPaymentAndShippingPu {
        * ID der Zahlungsart der Kombination "PaymentForShippingID"
        * </pre>
        *
-       * <code>optional .dstore.values.IntegerValue payment_type_id = 10005;</code>
+       * <code>.dstore.values.IntegerValue payment_type_id = 10005;</code>
        */
       io.dstore.values.IntegerValueOrBuilder getPaymentTypeIdOrBuilder();
 
@@ -3296,7 +3296,7 @@ public final class OmGetPaymentAndShippingPu {
        * ID der zur Versandart "ShippingTypeID" hinterlegten "Region" (die bestimmte Länder zusammenfaßt). Wir geben diesen Datensatz nur dann aus, wenn die Person, an die die Ware zu liefern ist ("&#64;DeliveryPersonID"), aus einem Land dieser Region kommt.
        * </pre>
        *
-       * <code>optional .dstore.values.IntegerValue region_id_shipping_type = 10006;</code>
+       * <code>.dstore.values.IntegerValue region_id_shipping_type = 10006;</code>
        */
       boolean hasRegionIdShippingType();
       /**
@@ -3304,7 +3304,7 @@ public final class OmGetPaymentAndShippingPu {
        * ID der zur Versandart "ShippingTypeID" hinterlegten "Region" (die bestimmte Länder zusammenfaßt). Wir geben diesen Datensatz nur dann aus, wenn die Person, an die die Ware zu liefern ist ("&#64;DeliveryPersonID"), aus einem Land dieser Region kommt.
        * </pre>
        *
-       * <code>optional .dstore.values.IntegerValue region_id_shipping_type = 10006;</code>
+       * <code>.dstore.values.IntegerValue region_id_shipping_type = 10006;</code>
        */
       io.dstore.values.IntegerValue getRegionIdShippingType();
       /**
@@ -3312,7 +3312,7 @@ public final class OmGetPaymentAndShippingPu {
        * ID der zur Versandart "ShippingTypeID" hinterlegten "Region" (die bestimmte Länder zusammenfaßt). Wir geben diesen Datensatz nur dann aus, wenn die Person, an die die Ware zu liefern ist ("&#64;DeliveryPersonID"), aus einem Land dieser Region kommt.
        * </pre>
        *
-       * <code>optional .dstore.values.IntegerValue region_id_shipping_type = 10006;</code>
+       * <code>.dstore.values.IntegerValue region_id_shipping_type = 10006;</code>
        */
       io.dstore.values.IntegerValueOrBuilder getRegionIdShippingTypeOrBuilder();
 
@@ -3321,7 +3321,7 @@ public final class OmGetPaymentAndShippingPu {
        * ID einer Kategorie von Personen-Merkmalen. Gibt an, daß der Auftraggeber - falls er die Zahlungsart "PaymentTypeID" wählt - Eigenschaften zu den Merkmalen dieser Kategorie hinterlegen muß (Beispiel : Kreditkartendaten bei Kreditkarten-Zahlung).
        * </pre>
        *
-       * <code>optional .dstore.values.IntegerValue person_charac_category_id = 10007;</code>
+       * <code>.dstore.values.IntegerValue person_charac_category_id = 10007;</code>
        */
       boolean hasPersonCharacCategoryId();
       /**
@@ -3329,7 +3329,7 @@ public final class OmGetPaymentAndShippingPu {
        * ID einer Kategorie von Personen-Merkmalen. Gibt an, daß der Auftraggeber - falls er die Zahlungsart "PaymentTypeID" wählt - Eigenschaften zu den Merkmalen dieser Kategorie hinterlegen muß (Beispiel : Kreditkartendaten bei Kreditkarten-Zahlung).
        * </pre>
        *
-       * <code>optional .dstore.values.IntegerValue person_charac_category_id = 10007;</code>
+       * <code>.dstore.values.IntegerValue person_charac_category_id = 10007;</code>
        */
       io.dstore.values.IntegerValue getPersonCharacCategoryId();
       /**
@@ -3337,7 +3337,7 @@ public final class OmGetPaymentAndShippingPu {
        * ID einer Kategorie von Personen-Merkmalen. Gibt an, daß der Auftraggeber - falls er die Zahlungsart "PaymentTypeID" wählt - Eigenschaften zu den Merkmalen dieser Kategorie hinterlegen muß (Beispiel : Kreditkartendaten bei Kreditkarten-Zahlung).
        * </pre>
        *
-       * <code>optional .dstore.values.IntegerValue person_charac_category_id = 10007;</code>
+       * <code>.dstore.values.IntegerValue person_charac_category_id = 10007;</code>
        */
       io.dstore.values.IntegerValueOrBuilder getPersonCharacCategoryIdOrBuilder();
 
@@ -3346,7 +3346,7 @@ public final class OmGetPaymentAndShippingPu {
        * Eine Zahl, die den Grund angibt, warum keine gültige Kombination aus Zahlungs- und Versandart gefunden wurde (siehe Beschreibung)
        * </pre>
        *
-       * <code>optional .dstore.values.IntegerValue error_code = 20001;</code>
+       * <code>.dstore.values.IntegerValue error_code = 20001;</code>
        */
       boolean hasErrorCode();
       /**
@@ -3354,7 +3354,7 @@ public final class OmGetPaymentAndShippingPu {
        * Eine Zahl, die den Grund angibt, warum keine gültige Kombination aus Zahlungs- und Versandart gefunden wurde (siehe Beschreibung)
        * </pre>
        *
-       * <code>optional .dstore.values.IntegerValue error_code = 20001;</code>
+       * <code>.dstore.values.IntegerValue error_code = 20001;</code>
        */
       io.dstore.values.IntegerValue getErrorCode();
       /**
@@ -3362,7 +3362,7 @@ public final class OmGetPaymentAndShippingPu {
        * Eine Zahl, die den Grund angibt, warum keine gültige Kombination aus Zahlungs- und Versandart gefunden wurde (siehe Beschreibung)
        * </pre>
        *
-       * <code>optional .dstore.values.IntegerValue error_code = 20001;</code>
+       * <code>.dstore.values.IntegerValue error_code = 20001;</code>
        */
       io.dstore.values.IntegerValueOrBuilder getErrorCodeOrBuilder();
 
@@ -3371,7 +3371,7 @@ public final class OmGetPaymentAndShippingPu {
        * (Netto-)Kosten für die Zahlungsart "PaymentTypeID" - in der zum Besucher hinterlegten Währung
        * </pre>
        *
-       * <code>optional .dstore.values.DecimalValue payment_cost = 30001;</code>
+       * <code>.dstore.values.DecimalValue payment_cost = 30001;</code>
        */
       boolean hasPaymentCost();
       /**
@@ -3379,7 +3379,7 @@ public final class OmGetPaymentAndShippingPu {
        * (Netto-)Kosten für die Zahlungsart "PaymentTypeID" - in der zum Besucher hinterlegten Währung
        * </pre>
        *
-       * <code>optional .dstore.values.DecimalValue payment_cost = 30001;</code>
+       * <code>.dstore.values.DecimalValue payment_cost = 30001;</code>
        */
       io.dstore.values.DecimalValue getPaymentCost();
       /**
@@ -3387,7 +3387,7 @@ public final class OmGetPaymentAndShippingPu {
        * (Netto-)Kosten für die Zahlungsart "PaymentTypeID" - in der zum Besucher hinterlegten Währung
        * </pre>
        *
-       * <code>optional .dstore.values.DecimalValue payment_cost = 30001;</code>
+       * <code>.dstore.values.DecimalValue payment_cost = 30001;</code>
        */
       io.dstore.values.DecimalValueOrBuilder getPaymentCostOrBuilder();
 
@@ -3396,7 +3396,7 @@ public final class OmGetPaymentAndShippingPu {
        * (Netto-)Kosten für die Versandart "ShippingTypeID" - in der zum Besucher hinterlegten Währung
        * </pre>
        *
-       * <code>optional .dstore.values.DecimalValue shipping_cost = 30004;</code>
+       * <code>.dstore.values.DecimalValue shipping_cost = 30004;</code>
        */
       boolean hasShippingCost();
       /**
@@ -3404,7 +3404,7 @@ public final class OmGetPaymentAndShippingPu {
        * (Netto-)Kosten für die Versandart "ShippingTypeID" - in der zum Besucher hinterlegten Währung
        * </pre>
        *
-       * <code>optional .dstore.values.DecimalValue shipping_cost = 30004;</code>
+       * <code>.dstore.values.DecimalValue shipping_cost = 30004;</code>
        */
       io.dstore.values.DecimalValue getShippingCost();
       /**
@@ -3412,7 +3412,7 @@ public final class OmGetPaymentAndShippingPu {
        * (Netto-)Kosten für die Versandart "ShippingTypeID" - in der zum Besucher hinterlegten Währung
        * </pre>
        *
-       * <code>optional .dstore.values.DecimalValue shipping_cost = 30004;</code>
+       * <code>.dstore.values.DecimalValue shipping_cost = 30004;</code>
        */
       io.dstore.values.DecimalValueOrBuilder getShippingCostOrBuilder();
 
@@ -3421,7 +3421,7 @@ public final class OmGetPaymentAndShippingPu {
        * Brutto-Kosten für die Versandart "ShippingTypeID" - in der zum Besucher hinterlegten Währung
        * </pre>
        *
-       * <code>optional .dstore.values.DecimalValue shipping_cost_brutto = 30009;</code>
+       * <code>.dstore.values.DecimalValue shipping_cost_brutto = 30009;</code>
        */
       boolean hasShippingCostBrutto();
       /**
@@ -3429,7 +3429,7 @@ public final class OmGetPaymentAndShippingPu {
        * Brutto-Kosten für die Versandart "ShippingTypeID" - in der zum Besucher hinterlegten Währung
        * </pre>
        *
-       * <code>optional .dstore.values.DecimalValue shipping_cost_brutto = 30009;</code>
+       * <code>.dstore.values.DecimalValue shipping_cost_brutto = 30009;</code>
        */
       io.dstore.values.DecimalValue getShippingCostBrutto();
       /**
@@ -3437,7 +3437,7 @@ public final class OmGetPaymentAndShippingPu {
        * Brutto-Kosten für die Versandart "ShippingTypeID" - in der zum Besucher hinterlegten Währung
        * </pre>
        *
-       * <code>optional .dstore.values.DecimalValue shipping_cost_brutto = 30009;</code>
+       * <code>.dstore.values.DecimalValue shipping_cost_brutto = 30009;</code>
        */
       io.dstore.values.DecimalValueOrBuilder getShippingCostBruttoOrBuilder();
 
@@ -3446,7 +3446,7 @@ public final class OmGetPaymentAndShippingPu {
        * Brutto-Kosten für die Zahlungsart "PaymentTypeID" - in der zum Besucher hinterlegten Währung
        * </pre>
        *
-       * <code>optional .dstore.values.DecimalValue payment_cost_brutto = 30010;</code>
+       * <code>.dstore.values.DecimalValue payment_cost_brutto = 30010;</code>
        */
       boolean hasPaymentCostBrutto();
       /**
@@ -3454,7 +3454,7 @@ public final class OmGetPaymentAndShippingPu {
        * Brutto-Kosten für die Zahlungsart "PaymentTypeID" - in der zum Besucher hinterlegten Währung
        * </pre>
        *
-       * <code>optional .dstore.values.DecimalValue payment_cost_brutto = 30010;</code>
+       * <code>.dstore.values.DecimalValue payment_cost_brutto = 30010;</code>
        */
       io.dstore.values.DecimalValue getPaymentCostBrutto();
       /**
@@ -3462,7 +3462,7 @@ public final class OmGetPaymentAndShippingPu {
        * Brutto-Kosten für die Zahlungsart "PaymentTypeID" - in der zum Besucher hinterlegten Währung
        * </pre>
        *
-       * <code>optional .dstore.values.DecimalValue payment_cost_brutto = 30010;</code>
+       * <code>.dstore.values.DecimalValue payment_cost_brutto = 30010;</code>
        */
       io.dstore.values.DecimalValueOrBuilder getPaymentCostBruttoOrBuilder();
     }
@@ -3693,7 +3693,7 @@ public final class OmGetPaymentAndShippingPu {
       public static final int ROW_ID_FIELD_NUMBER = 10000;
       private int rowId_;
       /**
-       * <code>optional int32 row_id = 10000;</code>
+       * <code>int32 row_id = 10000;</code>
        */
       public int getRowId() {
         return rowId_;
@@ -3706,7 +3706,7 @@ public final class OmGetPaymentAndShippingPu {
        * ID der zur Zahlungsart "PaymentTypeID" hinterlegten "Region" (die bestimmte Länder zusammenfaßt). Wir geben diesen Datensatz nur dann aus, wenn der Auftraggeber ("&#64;PersonID") aus einem Land kommt, das dieser Region angehört.
        * </pre>
        *
-       * <code>optional .dstore.values.IntegerValue region_id_payment_type = 10001;</code>
+       * <code>.dstore.values.IntegerValue region_id_payment_type = 10001;</code>
        */
       public boolean hasRegionIdPaymentType() {
         return regionIdPaymentType_ != null;
@@ -3716,7 +3716,7 @@ public final class OmGetPaymentAndShippingPu {
        * ID der zur Zahlungsart "PaymentTypeID" hinterlegten "Region" (die bestimmte Länder zusammenfaßt). Wir geben diesen Datensatz nur dann aus, wenn der Auftraggeber ("&#64;PersonID") aus einem Land kommt, das dieser Region angehört.
        * </pre>
        *
-       * <code>optional .dstore.values.IntegerValue region_id_payment_type = 10001;</code>
+       * <code>.dstore.values.IntegerValue region_id_payment_type = 10001;</code>
        */
       public io.dstore.values.IntegerValue getRegionIdPaymentType() {
         return regionIdPaymentType_ == null ? io.dstore.values.IntegerValue.getDefaultInstance() : regionIdPaymentType_;
@@ -3726,7 +3726,7 @@ public final class OmGetPaymentAndShippingPu {
        * ID der zur Zahlungsart "PaymentTypeID" hinterlegten "Region" (die bestimmte Länder zusammenfaßt). Wir geben diesen Datensatz nur dann aus, wenn der Auftraggeber ("&#64;PersonID") aus einem Land kommt, das dieser Region angehört.
        * </pre>
        *
-       * <code>optional .dstore.values.IntegerValue region_id_payment_type = 10001;</code>
+       * <code>.dstore.values.IntegerValue region_id_payment_type = 10001;</code>
        */
       public io.dstore.values.IntegerValueOrBuilder getRegionIdPaymentTypeOrBuilder() {
         return getRegionIdPaymentType();
@@ -3739,7 +3739,7 @@ public final class OmGetPaymentAndShippingPu {
        * ID einer gefundenen Zahlungsart-Versandart-Kombination (die für die übergebenen Parameter gültig ist)
        * </pre>
        *
-       * <code>optional .dstore.values.IntegerValue payment_for_shipping_id = 10002;</code>
+       * <code>.dstore.values.IntegerValue payment_for_shipping_id = 10002;</code>
        */
       public boolean hasPaymentForShippingId() {
         return paymentForShippingId_ != null;
@@ -3749,7 +3749,7 @@ public final class OmGetPaymentAndShippingPu {
        * ID einer gefundenen Zahlungsart-Versandart-Kombination (die für die übergebenen Parameter gültig ist)
        * </pre>
        *
-       * <code>optional .dstore.values.IntegerValue payment_for_shipping_id = 10002;</code>
+       * <code>.dstore.values.IntegerValue payment_for_shipping_id = 10002;</code>
        */
       public io.dstore.values.IntegerValue getPaymentForShippingId() {
         return paymentForShippingId_ == null ? io.dstore.values.IntegerValue.getDefaultInstance() : paymentForShippingId_;
@@ -3759,7 +3759,7 @@ public final class OmGetPaymentAndShippingPu {
        * ID einer gefundenen Zahlungsart-Versandart-Kombination (die für die übergebenen Parameter gültig ist)
        * </pre>
        *
-       * <code>optional .dstore.values.IntegerValue payment_for_shipping_id = 10002;</code>
+       * <code>.dstore.values.IntegerValue payment_for_shipping_id = 10002;</code>
        */
       public io.dstore.values.IntegerValueOrBuilder getPaymentForShippingIdOrBuilder() {
         return getPaymentForShippingId();
@@ -3772,7 +3772,7 @@ public final class OmGetPaymentAndShippingPu {
        * ID der Versandart der Kombination "PaymentForShippingID"
        * </pre>
        *
-       * <code>optional .dstore.values.IntegerValue shipping_type_id = 10003;</code>
+       * <code>.dstore.values.IntegerValue shipping_type_id = 10003;</code>
        */
       public boolean hasShippingTypeId() {
         return shippingTypeId_ != null;
@@ -3782,7 +3782,7 @@ public final class OmGetPaymentAndShippingPu {
        * ID der Versandart der Kombination "PaymentForShippingID"
        * </pre>
        *
-       * <code>optional .dstore.values.IntegerValue shipping_type_id = 10003;</code>
+       * <code>.dstore.values.IntegerValue shipping_type_id = 10003;</code>
        */
       public io.dstore.values.IntegerValue getShippingTypeId() {
         return shippingTypeId_ == null ? io.dstore.values.IntegerValue.getDefaultInstance() : shippingTypeId_;
@@ -3792,7 +3792,7 @@ public final class OmGetPaymentAndShippingPu {
        * ID der Versandart der Kombination "PaymentForShippingID"
        * </pre>
        *
-       * <code>optional .dstore.values.IntegerValue shipping_type_id = 10003;</code>
+       * <code>.dstore.values.IntegerValue shipping_type_id = 10003;</code>
        */
       public io.dstore.values.IntegerValueOrBuilder getShippingTypeIdOrBuilder() {
         return getShippingTypeId();
@@ -3805,7 +3805,7 @@ public final class OmGetPaymentAndShippingPu {
        * Bezeichnung der Zahlungsart-Versandart-Kombination "PaymentForShippingID"
        * </pre>
        *
-       * <code>optional .dstore.values.StringValue payment_for_shipping_description = 10004;</code>
+       * <code>.dstore.values.StringValue payment_for_shipping_description = 10004;</code>
        */
       public boolean hasPaymentForShippingDescription() {
         return paymentForShippingDescription_ != null;
@@ -3815,7 +3815,7 @@ public final class OmGetPaymentAndShippingPu {
        * Bezeichnung der Zahlungsart-Versandart-Kombination "PaymentForShippingID"
        * </pre>
        *
-       * <code>optional .dstore.values.StringValue payment_for_shipping_description = 10004;</code>
+       * <code>.dstore.values.StringValue payment_for_shipping_description = 10004;</code>
        */
       public io.dstore.values.StringValue getPaymentForShippingDescription() {
         return paymentForShippingDescription_ == null ? io.dstore.values.StringValue.getDefaultInstance() : paymentForShippingDescription_;
@@ -3825,7 +3825,7 @@ public final class OmGetPaymentAndShippingPu {
        * Bezeichnung der Zahlungsart-Versandart-Kombination "PaymentForShippingID"
        * </pre>
        *
-       * <code>optional .dstore.values.StringValue payment_for_shipping_description = 10004;</code>
+       * <code>.dstore.values.StringValue payment_for_shipping_description = 10004;</code>
        */
       public io.dstore.values.StringValueOrBuilder getPaymentForShippingDescriptionOrBuilder() {
         return getPaymentForShippingDescription();
@@ -3838,7 +3838,7 @@ public final class OmGetPaymentAndShippingPu {
        * ID der Zahlungsart der Kombination "PaymentForShippingID"
        * </pre>
        *
-       * <code>optional .dstore.values.IntegerValue payment_type_id = 10005;</code>
+       * <code>.dstore.values.IntegerValue payment_type_id = 10005;</code>
        */
       public boolean hasPaymentTypeId() {
         return paymentTypeId_ != null;
@@ -3848,7 +3848,7 @@ public final class OmGetPaymentAndShippingPu {
        * ID der Zahlungsart der Kombination "PaymentForShippingID"
        * </pre>
        *
-       * <code>optional .dstore.values.IntegerValue payment_type_id = 10005;</code>
+       * <code>.dstore.values.IntegerValue payment_type_id = 10005;</code>
        */
       public io.dstore.values.IntegerValue getPaymentTypeId() {
         return paymentTypeId_ == null ? io.dstore.values.IntegerValue.getDefaultInstance() : paymentTypeId_;
@@ -3858,7 +3858,7 @@ public final class OmGetPaymentAndShippingPu {
        * ID der Zahlungsart der Kombination "PaymentForShippingID"
        * </pre>
        *
-       * <code>optional .dstore.values.IntegerValue payment_type_id = 10005;</code>
+       * <code>.dstore.values.IntegerValue payment_type_id = 10005;</code>
        */
       public io.dstore.values.IntegerValueOrBuilder getPaymentTypeIdOrBuilder() {
         return getPaymentTypeId();
@@ -3871,7 +3871,7 @@ public final class OmGetPaymentAndShippingPu {
        * ID der zur Versandart "ShippingTypeID" hinterlegten "Region" (die bestimmte Länder zusammenfaßt). Wir geben diesen Datensatz nur dann aus, wenn die Person, an die die Ware zu liefern ist ("&#64;DeliveryPersonID"), aus einem Land dieser Region kommt.
        * </pre>
        *
-       * <code>optional .dstore.values.IntegerValue region_id_shipping_type = 10006;</code>
+       * <code>.dstore.values.IntegerValue region_id_shipping_type = 10006;</code>
        */
       public boolean hasRegionIdShippingType() {
         return regionIdShippingType_ != null;
@@ -3881,7 +3881,7 @@ public final class OmGetPaymentAndShippingPu {
        * ID der zur Versandart "ShippingTypeID" hinterlegten "Region" (die bestimmte Länder zusammenfaßt). Wir geben diesen Datensatz nur dann aus, wenn die Person, an die die Ware zu liefern ist ("&#64;DeliveryPersonID"), aus einem Land dieser Region kommt.
        * </pre>
        *
-       * <code>optional .dstore.values.IntegerValue region_id_shipping_type = 10006;</code>
+       * <code>.dstore.values.IntegerValue region_id_shipping_type = 10006;</code>
        */
       public io.dstore.values.IntegerValue getRegionIdShippingType() {
         return regionIdShippingType_ == null ? io.dstore.values.IntegerValue.getDefaultInstance() : regionIdShippingType_;
@@ -3891,7 +3891,7 @@ public final class OmGetPaymentAndShippingPu {
        * ID der zur Versandart "ShippingTypeID" hinterlegten "Region" (die bestimmte Länder zusammenfaßt). Wir geben diesen Datensatz nur dann aus, wenn die Person, an die die Ware zu liefern ist ("&#64;DeliveryPersonID"), aus einem Land dieser Region kommt.
        * </pre>
        *
-       * <code>optional .dstore.values.IntegerValue region_id_shipping_type = 10006;</code>
+       * <code>.dstore.values.IntegerValue region_id_shipping_type = 10006;</code>
        */
       public io.dstore.values.IntegerValueOrBuilder getRegionIdShippingTypeOrBuilder() {
         return getRegionIdShippingType();
@@ -3904,7 +3904,7 @@ public final class OmGetPaymentAndShippingPu {
        * ID einer Kategorie von Personen-Merkmalen. Gibt an, daß der Auftraggeber - falls er die Zahlungsart "PaymentTypeID" wählt - Eigenschaften zu den Merkmalen dieser Kategorie hinterlegen muß (Beispiel : Kreditkartendaten bei Kreditkarten-Zahlung).
        * </pre>
        *
-       * <code>optional .dstore.values.IntegerValue person_charac_category_id = 10007;</code>
+       * <code>.dstore.values.IntegerValue person_charac_category_id = 10007;</code>
        */
       public boolean hasPersonCharacCategoryId() {
         return personCharacCategoryId_ != null;
@@ -3914,7 +3914,7 @@ public final class OmGetPaymentAndShippingPu {
        * ID einer Kategorie von Personen-Merkmalen. Gibt an, daß der Auftraggeber - falls er die Zahlungsart "PaymentTypeID" wählt - Eigenschaften zu den Merkmalen dieser Kategorie hinterlegen muß (Beispiel : Kreditkartendaten bei Kreditkarten-Zahlung).
        * </pre>
        *
-       * <code>optional .dstore.values.IntegerValue person_charac_category_id = 10007;</code>
+       * <code>.dstore.values.IntegerValue person_charac_category_id = 10007;</code>
        */
       public io.dstore.values.IntegerValue getPersonCharacCategoryId() {
         return personCharacCategoryId_ == null ? io.dstore.values.IntegerValue.getDefaultInstance() : personCharacCategoryId_;
@@ -3924,7 +3924,7 @@ public final class OmGetPaymentAndShippingPu {
        * ID einer Kategorie von Personen-Merkmalen. Gibt an, daß der Auftraggeber - falls er die Zahlungsart "PaymentTypeID" wählt - Eigenschaften zu den Merkmalen dieser Kategorie hinterlegen muß (Beispiel : Kreditkartendaten bei Kreditkarten-Zahlung).
        * </pre>
        *
-       * <code>optional .dstore.values.IntegerValue person_charac_category_id = 10007;</code>
+       * <code>.dstore.values.IntegerValue person_charac_category_id = 10007;</code>
        */
       public io.dstore.values.IntegerValueOrBuilder getPersonCharacCategoryIdOrBuilder() {
         return getPersonCharacCategoryId();
@@ -3937,7 +3937,7 @@ public final class OmGetPaymentAndShippingPu {
        * Eine Zahl, die den Grund angibt, warum keine gültige Kombination aus Zahlungs- und Versandart gefunden wurde (siehe Beschreibung)
        * </pre>
        *
-       * <code>optional .dstore.values.IntegerValue error_code = 20001;</code>
+       * <code>.dstore.values.IntegerValue error_code = 20001;</code>
        */
       public boolean hasErrorCode() {
         return errorCode_ != null;
@@ -3947,7 +3947,7 @@ public final class OmGetPaymentAndShippingPu {
        * Eine Zahl, die den Grund angibt, warum keine gültige Kombination aus Zahlungs- und Versandart gefunden wurde (siehe Beschreibung)
        * </pre>
        *
-       * <code>optional .dstore.values.IntegerValue error_code = 20001;</code>
+       * <code>.dstore.values.IntegerValue error_code = 20001;</code>
        */
       public io.dstore.values.IntegerValue getErrorCode() {
         return errorCode_ == null ? io.dstore.values.IntegerValue.getDefaultInstance() : errorCode_;
@@ -3957,7 +3957,7 @@ public final class OmGetPaymentAndShippingPu {
        * Eine Zahl, die den Grund angibt, warum keine gültige Kombination aus Zahlungs- und Versandart gefunden wurde (siehe Beschreibung)
        * </pre>
        *
-       * <code>optional .dstore.values.IntegerValue error_code = 20001;</code>
+       * <code>.dstore.values.IntegerValue error_code = 20001;</code>
        */
       public io.dstore.values.IntegerValueOrBuilder getErrorCodeOrBuilder() {
         return getErrorCode();
@@ -3970,7 +3970,7 @@ public final class OmGetPaymentAndShippingPu {
        * (Netto-)Kosten für die Zahlungsart "PaymentTypeID" - in der zum Besucher hinterlegten Währung
        * </pre>
        *
-       * <code>optional .dstore.values.DecimalValue payment_cost = 30001;</code>
+       * <code>.dstore.values.DecimalValue payment_cost = 30001;</code>
        */
       public boolean hasPaymentCost() {
         return paymentCost_ != null;
@@ -3980,7 +3980,7 @@ public final class OmGetPaymentAndShippingPu {
        * (Netto-)Kosten für die Zahlungsart "PaymentTypeID" - in der zum Besucher hinterlegten Währung
        * </pre>
        *
-       * <code>optional .dstore.values.DecimalValue payment_cost = 30001;</code>
+       * <code>.dstore.values.DecimalValue payment_cost = 30001;</code>
        */
       public io.dstore.values.DecimalValue getPaymentCost() {
         return paymentCost_ == null ? io.dstore.values.DecimalValue.getDefaultInstance() : paymentCost_;
@@ -3990,7 +3990,7 @@ public final class OmGetPaymentAndShippingPu {
        * (Netto-)Kosten für die Zahlungsart "PaymentTypeID" - in der zum Besucher hinterlegten Währung
        * </pre>
        *
-       * <code>optional .dstore.values.DecimalValue payment_cost = 30001;</code>
+       * <code>.dstore.values.DecimalValue payment_cost = 30001;</code>
        */
       public io.dstore.values.DecimalValueOrBuilder getPaymentCostOrBuilder() {
         return getPaymentCost();
@@ -4003,7 +4003,7 @@ public final class OmGetPaymentAndShippingPu {
        * (Netto-)Kosten für die Versandart "ShippingTypeID" - in der zum Besucher hinterlegten Währung
        * </pre>
        *
-       * <code>optional .dstore.values.DecimalValue shipping_cost = 30004;</code>
+       * <code>.dstore.values.DecimalValue shipping_cost = 30004;</code>
        */
       public boolean hasShippingCost() {
         return shippingCost_ != null;
@@ -4013,7 +4013,7 @@ public final class OmGetPaymentAndShippingPu {
        * (Netto-)Kosten für die Versandart "ShippingTypeID" - in der zum Besucher hinterlegten Währung
        * </pre>
        *
-       * <code>optional .dstore.values.DecimalValue shipping_cost = 30004;</code>
+       * <code>.dstore.values.DecimalValue shipping_cost = 30004;</code>
        */
       public io.dstore.values.DecimalValue getShippingCost() {
         return shippingCost_ == null ? io.dstore.values.DecimalValue.getDefaultInstance() : shippingCost_;
@@ -4023,7 +4023,7 @@ public final class OmGetPaymentAndShippingPu {
        * (Netto-)Kosten für die Versandart "ShippingTypeID" - in der zum Besucher hinterlegten Währung
        * </pre>
        *
-       * <code>optional .dstore.values.DecimalValue shipping_cost = 30004;</code>
+       * <code>.dstore.values.DecimalValue shipping_cost = 30004;</code>
        */
       public io.dstore.values.DecimalValueOrBuilder getShippingCostOrBuilder() {
         return getShippingCost();
@@ -4036,7 +4036,7 @@ public final class OmGetPaymentAndShippingPu {
        * Brutto-Kosten für die Versandart "ShippingTypeID" - in der zum Besucher hinterlegten Währung
        * </pre>
        *
-       * <code>optional .dstore.values.DecimalValue shipping_cost_brutto = 30009;</code>
+       * <code>.dstore.values.DecimalValue shipping_cost_brutto = 30009;</code>
        */
       public boolean hasShippingCostBrutto() {
         return shippingCostBrutto_ != null;
@@ -4046,7 +4046,7 @@ public final class OmGetPaymentAndShippingPu {
        * Brutto-Kosten für die Versandart "ShippingTypeID" - in der zum Besucher hinterlegten Währung
        * </pre>
        *
-       * <code>optional .dstore.values.DecimalValue shipping_cost_brutto = 30009;</code>
+       * <code>.dstore.values.DecimalValue shipping_cost_brutto = 30009;</code>
        */
       public io.dstore.values.DecimalValue getShippingCostBrutto() {
         return shippingCostBrutto_ == null ? io.dstore.values.DecimalValue.getDefaultInstance() : shippingCostBrutto_;
@@ -4056,7 +4056,7 @@ public final class OmGetPaymentAndShippingPu {
        * Brutto-Kosten für die Versandart "ShippingTypeID" - in der zum Besucher hinterlegten Währung
        * </pre>
        *
-       * <code>optional .dstore.values.DecimalValue shipping_cost_brutto = 30009;</code>
+       * <code>.dstore.values.DecimalValue shipping_cost_brutto = 30009;</code>
        */
       public io.dstore.values.DecimalValueOrBuilder getShippingCostBruttoOrBuilder() {
         return getShippingCostBrutto();
@@ -4069,7 +4069,7 @@ public final class OmGetPaymentAndShippingPu {
        * Brutto-Kosten für die Zahlungsart "PaymentTypeID" - in der zum Besucher hinterlegten Währung
        * </pre>
        *
-       * <code>optional .dstore.values.DecimalValue payment_cost_brutto = 30010;</code>
+       * <code>.dstore.values.DecimalValue payment_cost_brutto = 30010;</code>
        */
       public boolean hasPaymentCostBrutto() {
         return paymentCostBrutto_ != null;
@@ -4079,7 +4079,7 @@ public final class OmGetPaymentAndShippingPu {
        * Brutto-Kosten für die Zahlungsart "PaymentTypeID" - in der zum Besucher hinterlegten Währung
        * </pre>
        *
-       * <code>optional .dstore.values.DecimalValue payment_cost_brutto = 30010;</code>
+       * <code>.dstore.values.DecimalValue payment_cost_brutto = 30010;</code>
        */
       public io.dstore.values.DecimalValue getPaymentCostBrutto() {
         return paymentCostBrutto_ == null ? io.dstore.values.DecimalValue.getDefaultInstance() : paymentCostBrutto_;
@@ -4089,7 +4089,7 @@ public final class OmGetPaymentAndShippingPu {
        * Brutto-Kosten für die Zahlungsart "PaymentTypeID" - in der zum Besucher hinterlegten Währung
        * </pre>
        *
-       * <code>optional .dstore.values.DecimalValue payment_cost_brutto = 30010;</code>
+       * <code>.dstore.values.DecimalValue payment_cost_brutto = 30010;</code>
        */
       public io.dstore.values.DecimalValueOrBuilder getPaymentCostBruttoOrBuilder() {
         return getPaymentCostBrutto();
@@ -4292,7 +4292,7 @@ public final class OmGetPaymentAndShippingPu {
           return memoizedHashCode;
         }
         int hash = 41;
-        hash = (19 * hash) + getDescriptorForType().hashCode();
+        hash = (19 * hash) + getDescriptor().hashCode();
         hash = (37 * hash) + ROW_ID_FIELD_NUMBER;
         hash = (53 * hash) + getRowId();
         if (hasRegionIdPaymentType()) {
@@ -4726,13 +4726,13 @@ public final class OmGetPaymentAndShippingPu {
 
         private int rowId_ ;
         /**
-         * <code>optional int32 row_id = 10000;</code>
+         * <code>int32 row_id = 10000;</code>
          */
         public int getRowId() {
           return rowId_;
         }
         /**
-         * <code>optional int32 row_id = 10000;</code>
+         * <code>int32 row_id = 10000;</code>
          */
         public Builder setRowId(int value) {
           
@@ -4741,7 +4741,7 @@ public final class OmGetPaymentAndShippingPu {
           return this;
         }
         /**
-         * <code>optional int32 row_id = 10000;</code>
+         * <code>int32 row_id = 10000;</code>
          */
         public Builder clearRowId() {
           
@@ -4758,7 +4758,7 @@ public final class OmGetPaymentAndShippingPu {
          * ID der zur Zahlungsart "PaymentTypeID" hinterlegten "Region" (die bestimmte Länder zusammenfaßt). Wir geben diesen Datensatz nur dann aus, wenn der Auftraggeber ("&#64;PersonID") aus einem Land kommt, das dieser Region angehört.
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue region_id_payment_type = 10001;</code>
+         * <code>.dstore.values.IntegerValue region_id_payment_type = 10001;</code>
          */
         public boolean hasRegionIdPaymentType() {
           return regionIdPaymentTypeBuilder_ != null || regionIdPaymentType_ != null;
@@ -4768,7 +4768,7 @@ public final class OmGetPaymentAndShippingPu {
          * ID der zur Zahlungsart "PaymentTypeID" hinterlegten "Region" (die bestimmte Länder zusammenfaßt). Wir geben diesen Datensatz nur dann aus, wenn der Auftraggeber ("&#64;PersonID") aus einem Land kommt, das dieser Region angehört.
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue region_id_payment_type = 10001;</code>
+         * <code>.dstore.values.IntegerValue region_id_payment_type = 10001;</code>
          */
         public io.dstore.values.IntegerValue getRegionIdPaymentType() {
           if (regionIdPaymentTypeBuilder_ == null) {
@@ -4782,7 +4782,7 @@ public final class OmGetPaymentAndShippingPu {
          * ID der zur Zahlungsart "PaymentTypeID" hinterlegten "Region" (die bestimmte Länder zusammenfaßt). Wir geben diesen Datensatz nur dann aus, wenn der Auftraggeber ("&#64;PersonID") aus einem Land kommt, das dieser Region angehört.
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue region_id_payment_type = 10001;</code>
+         * <code>.dstore.values.IntegerValue region_id_payment_type = 10001;</code>
          */
         public Builder setRegionIdPaymentType(io.dstore.values.IntegerValue value) {
           if (regionIdPaymentTypeBuilder_ == null) {
@@ -4802,7 +4802,7 @@ public final class OmGetPaymentAndShippingPu {
          * ID der zur Zahlungsart "PaymentTypeID" hinterlegten "Region" (die bestimmte Länder zusammenfaßt). Wir geben diesen Datensatz nur dann aus, wenn der Auftraggeber ("&#64;PersonID") aus einem Land kommt, das dieser Region angehört.
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue region_id_payment_type = 10001;</code>
+         * <code>.dstore.values.IntegerValue region_id_payment_type = 10001;</code>
          */
         public Builder setRegionIdPaymentType(
             io.dstore.values.IntegerValue.Builder builderForValue) {
@@ -4820,7 +4820,7 @@ public final class OmGetPaymentAndShippingPu {
          * ID der zur Zahlungsart "PaymentTypeID" hinterlegten "Region" (die bestimmte Länder zusammenfaßt). Wir geben diesen Datensatz nur dann aus, wenn der Auftraggeber ("&#64;PersonID") aus einem Land kommt, das dieser Region angehört.
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue region_id_payment_type = 10001;</code>
+         * <code>.dstore.values.IntegerValue region_id_payment_type = 10001;</code>
          */
         public Builder mergeRegionIdPaymentType(io.dstore.values.IntegerValue value) {
           if (regionIdPaymentTypeBuilder_ == null) {
@@ -4842,7 +4842,7 @@ public final class OmGetPaymentAndShippingPu {
          * ID der zur Zahlungsart "PaymentTypeID" hinterlegten "Region" (die bestimmte Länder zusammenfaßt). Wir geben diesen Datensatz nur dann aus, wenn der Auftraggeber ("&#64;PersonID") aus einem Land kommt, das dieser Region angehört.
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue region_id_payment_type = 10001;</code>
+         * <code>.dstore.values.IntegerValue region_id_payment_type = 10001;</code>
          */
         public Builder clearRegionIdPaymentType() {
           if (regionIdPaymentTypeBuilder_ == null) {
@@ -4860,7 +4860,7 @@ public final class OmGetPaymentAndShippingPu {
          * ID der zur Zahlungsart "PaymentTypeID" hinterlegten "Region" (die bestimmte Länder zusammenfaßt). Wir geben diesen Datensatz nur dann aus, wenn der Auftraggeber ("&#64;PersonID") aus einem Land kommt, das dieser Region angehört.
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue region_id_payment_type = 10001;</code>
+         * <code>.dstore.values.IntegerValue region_id_payment_type = 10001;</code>
          */
         public io.dstore.values.IntegerValue.Builder getRegionIdPaymentTypeBuilder() {
           
@@ -4872,7 +4872,7 @@ public final class OmGetPaymentAndShippingPu {
          * ID der zur Zahlungsart "PaymentTypeID" hinterlegten "Region" (die bestimmte Länder zusammenfaßt). Wir geben diesen Datensatz nur dann aus, wenn der Auftraggeber ("&#64;PersonID") aus einem Land kommt, das dieser Region angehört.
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue region_id_payment_type = 10001;</code>
+         * <code>.dstore.values.IntegerValue region_id_payment_type = 10001;</code>
          */
         public io.dstore.values.IntegerValueOrBuilder getRegionIdPaymentTypeOrBuilder() {
           if (regionIdPaymentTypeBuilder_ != null) {
@@ -4887,7 +4887,7 @@ public final class OmGetPaymentAndShippingPu {
          * ID der zur Zahlungsart "PaymentTypeID" hinterlegten "Region" (die bestimmte Länder zusammenfaßt). Wir geben diesen Datensatz nur dann aus, wenn der Auftraggeber ("&#64;PersonID") aus einem Land kommt, das dieser Region angehört.
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue region_id_payment_type = 10001;</code>
+         * <code>.dstore.values.IntegerValue region_id_payment_type = 10001;</code>
          */
         private com.google.protobuf.SingleFieldBuilderV3<
             io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> 
@@ -4911,7 +4911,7 @@ public final class OmGetPaymentAndShippingPu {
          * ID einer gefundenen Zahlungsart-Versandart-Kombination (die für die übergebenen Parameter gültig ist)
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue payment_for_shipping_id = 10002;</code>
+         * <code>.dstore.values.IntegerValue payment_for_shipping_id = 10002;</code>
          */
         public boolean hasPaymentForShippingId() {
           return paymentForShippingIdBuilder_ != null || paymentForShippingId_ != null;
@@ -4921,7 +4921,7 @@ public final class OmGetPaymentAndShippingPu {
          * ID einer gefundenen Zahlungsart-Versandart-Kombination (die für die übergebenen Parameter gültig ist)
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue payment_for_shipping_id = 10002;</code>
+         * <code>.dstore.values.IntegerValue payment_for_shipping_id = 10002;</code>
          */
         public io.dstore.values.IntegerValue getPaymentForShippingId() {
           if (paymentForShippingIdBuilder_ == null) {
@@ -4935,7 +4935,7 @@ public final class OmGetPaymentAndShippingPu {
          * ID einer gefundenen Zahlungsart-Versandart-Kombination (die für die übergebenen Parameter gültig ist)
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue payment_for_shipping_id = 10002;</code>
+         * <code>.dstore.values.IntegerValue payment_for_shipping_id = 10002;</code>
          */
         public Builder setPaymentForShippingId(io.dstore.values.IntegerValue value) {
           if (paymentForShippingIdBuilder_ == null) {
@@ -4955,7 +4955,7 @@ public final class OmGetPaymentAndShippingPu {
          * ID einer gefundenen Zahlungsart-Versandart-Kombination (die für die übergebenen Parameter gültig ist)
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue payment_for_shipping_id = 10002;</code>
+         * <code>.dstore.values.IntegerValue payment_for_shipping_id = 10002;</code>
          */
         public Builder setPaymentForShippingId(
             io.dstore.values.IntegerValue.Builder builderForValue) {
@@ -4973,7 +4973,7 @@ public final class OmGetPaymentAndShippingPu {
          * ID einer gefundenen Zahlungsart-Versandart-Kombination (die für die übergebenen Parameter gültig ist)
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue payment_for_shipping_id = 10002;</code>
+         * <code>.dstore.values.IntegerValue payment_for_shipping_id = 10002;</code>
          */
         public Builder mergePaymentForShippingId(io.dstore.values.IntegerValue value) {
           if (paymentForShippingIdBuilder_ == null) {
@@ -4995,7 +4995,7 @@ public final class OmGetPaymentAndShippingPu {
          * ID einer gefundenen Zahlungsart-Versandart-Kombination (die für die übergebenen Parameter gültig ist)
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue payment_for_shipping_id = 10002;</code>
+         * <code>.dstore.values.IntegerValue payment_for_shipping_id = 10002;</code>
          */
         public Builder clearPaymentForShippingId() {
           if (paymentForShippingIdBuilder_ == null) {
@@ -5013,7 +5013,7 @@ public final class OmGetPaymentAndShippingPu {
          * ID einer gefundenen Zahlungsart-Versandart-Kombination (die für die übergebenen Parameter gültig ist)
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue payment_for_shipping_id = 10002;</code>
+         * <code>.dstore.values.IntegerValue payment_for_shipping_id = 10002;</code>
          */
         public io.dstore.values.IntegerValue.Builder getPaymentForShippingIdBuilder() {
           
@@ -5025,7 +5025,7 @@ public final class OmGetPaymentAndShippingPu {
          * ID einer gefundenen Zahlungsart-Versandart-Kombination (die für die übergebenen Parameter gültig ist)
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue payment_for_shipping_id = 10002;</code>
+         * <code>.dstore.values.IntegerValue payment_for_shipping_id = 10002;</code>
          */
         public io.dstore.values.IntegerValueOrBuilder getPaymentForShippingIdOrBuilder() {
           if (paymentForShippingIdBuilder_ != null) {
@@ -5040,7 +5040,7 @@ public final class OmGetPaymentAndShippingPu {
          * ID einer gefundenen Zahlungsart-Versandart-Kombination (die für die übergebenen Parameter gültig ist)
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue payment_for_shipping_id = 10002;</code>
+         * <code>.dstore.values.IntegerValue payment_for_shipping_id = 10002;</code>
          */
         private com.google.protobuf.SingleFieldBuilderV3<
             io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> 
@@ -5064,7 +5064,7 @@ public final class OmGetPaymentAndShippingPu {
          * ID der Versandart der Kombination "PaymentForShippingID"
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue shipping_type_id = 10003;</code>
+         * <code>.dstore.values.IntegerValue shipping_type_id = 10003;</code>
          */
         public boolean hasShippingTypeId() {
           return shippingTypeIdBuilder_ != null || shippingTypeId_ != null;
@@ -5074,7 +5074,7 @@ public final class OmGetPaymentAndShippingPu {
          * ID der Versandart der Kombination "PaymentForShippingID"
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue shipping_type_id = 10003;</code>
+         * <code>.dstore.values.IntegerValue shipping_type_id = 10003;</code>
          */
         public io.dstore.values.IntegerValue getShippingTypeId() {
           if (shippingTypeIdBuilder_ == null) {
@@ -5088,7 +5088,7 @@ public final class OmGetPaymentAndShippingPu {
          * ID der Versandart der Kombination "PaymentForShippingID"
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue shipping_type_id = 10003;</code>
+         * <code>.dstore.values.IntegerValue shipping_type_id = 10003;</code>
          */
         public Builder setShippingTypeId(io.dstore.values.IntegerValue value) {
           if (shippingTypeIdBuilder_ == null) {
@@ -5108,7 +5108,7 @@ public final class OmGetPaymentAndShippingPu {
          * ID der Versandart der Kombination "PaymentForShippingID"
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue shipping_type_id = 10003;</code>
+         * <code>.dstore.values.IntegerValue shipping_type_id = 10003;</code>
          */
         public Builder setShippingTypeId(
             io.dstore.values.IntegerValue.Builder builderForValue) {
@@ -5126,7 +5126,7 @@ public final class OmGetPaymentAndShippingPu {
          * ID der Versandart der Kombination "PaymentForShippingID"
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue shipping_type_id = 10003;</code>
+         * <code>.dstore.values.IntegerValue shipping_type_id = 10003;</code>
          */
         public Builder mergeShippingTypeId(io.dstore.values.IntegerValue value) {
           if (shippingTypeIdBuilder_ == null) {
@@ -5148,7 +5148,7 @@ public final class OmGetPaymentAndShippingPu {
          * ID der Versandart der Kombination "PaymentForShippingID"
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue shipping_type_id = 10003;</code>
+         * <code>.dstore.values.IntegerValue shipping_type_id = 10003;</code>
          */
         public Builder clearShippingTypeId() {
           if (shippingTypeIdBuilder_ == null) {
@@ -5166,7 +5166,7 @@ public final class OmGetPaymentAndShippingPu {
          * ID der Versandart der Kombination "PaymentForShippingID"
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue shipping_type_id = 10003;</code>
+         * <code>.dstore.values.IntegerValue shipping_type_id = 10003;</code>
          */
         public io.dstore.values.IntegerValue.Builder getShippingTypeIdBuilder() {
           
@@ -5178,7 +5178,7 @@ public final class OmGetPaymentAndShippingPu {
          * ID der Versandart der Kombination "PaymentForShippingID"
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue shipping_type_id = 10003;</code>
+         * <code>.dstore.values.IntegerValue shipping_type_id = 10003;</code>
          */
         public io.dstore.values.IntegerValueOrBuilder getShippingTypeIdOrBuilder() {
           if (shippingTypeIdBuilder_ != null) {
@@ -5193,7 +5193,7 @@ public final class OmGetPaymentAndShippingPu {
          * ID der Versandart der Kombination "PaymentForShippingID"
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue shipping_type_id = 10003;</code>
+         * <code>.dstore.values.IntegerValue shipping_type_id = 10003;</code>
          */
         private com.google.protobuf.SingleFieldBuilderV3<
             io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> 
@@ -5217,7 +5217,7 @@ public final class OmGetPaymentAndShippingPu {
          * Bezeichnung der Zahlungsart-Versandart-Kombination "PaymentForShippingID"
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue payment_for_shipping_description = 10004;</code>
+         * <code>.dstore.values.StringValue payment_for_shipping_description = 10004;</code>
          */
         public boolean hasPaymentForShippingDescription() {
           return paymentForShippingDescriptionBuilder_ != null || paymentForShippingDescription_ != null;
@@ -5227,7 +5227,7 @@ public final class OmGetPaymentAndShippingPu {
          * Bezeichnung der Zahlungsart-Versandart-Kombination "PaymentForShippingID"
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue payment_for_shipping_description = 10004;</code>
+         * <code>.dstore.values.StringValue payment_for_shipping_description = 10004;</code>
          */
         public io.dstore.values.StringValue getPaymentForShippingDescription() {
           if (paymentForShippingDescriptionBuilder_ == null) {
@@ -5241,7 +5241,7 @@ public final class OmGetPaymentAndShippingPu {
          * Bezeichnung der Zahlungsart-Versandart-Kombination "PaymentForShippingID"
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue payment_for_shipping_description = 10004;</code>
+         * <code>.dstore.values.StringValue payment_for_shipping_description = 10004;</code>
          */
         public Builder setPaymentForShippingDescription(io.dstore.values.StringValue value) {
           if (paymentForShippingDescriptionBuilder_ == null) {
@@ -5261,7 +5261,7 @@ public final class OmGetPaymentAndShippingPu {
          * Bezeichnung der Zahlungsart-Versandart-Kombination "PaymentForShippingID"
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue payment_for_shipping_description = 10004;</code>
+         * <code>.dstore.values.StringValue payment_for_shipping_description = 10004;</code>
          */
         public Builder setPaymentForShippingDescription(
             io.dstore.values.StringValue.Builder builderForValue) {
@@ -5279,7 +5279,7 @@ public final class OmGetPaymentAndShippingPu {
          * Bezeichnung der Zahlungsart-Versandart-Kombination "PaymentForShippingID"
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue payment_for_shipping_description = 10004;</code>
+         * <code>.dstore.values.StringValue payment_for_shipping_description = 10004;</code>
          */
         public Builder mergePaymentForShippingDescription(io.dstore.values.StringValue value) {
           if (paymentForShippingDescriptionBuilder_ == null) {
@@ -5301,7 +5301,7 @@ public final class OmGetPaymentAndShippingPu {
          * Bezeichnung der Zahlungsart-Versandart-Kombination "PaymentForShippingID"
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue payment_for_shipping_description = 10004;</code>
+         * <code>.dstore.values.StringValue payment_for_shipping_description = 10004;</code>
          */
         public Builder clearPaymentForShippingDescription() {
           if (paymentForShippingDescriptionBuilder_ == null) {
@@ -5319,7 +5319,7 @@ public final class OmGetPaymentAndShippingPu {
          * Bezeichnung der Zahlungsart-Versandart-Kombination "PaymentForShippingID"
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue payment_for_shipping_description = 10004;</code>
+         * <code>.dstore.values.StringValue payment_for_shipping_description = 10004;</code>
          */
         public io.dstore.values.StringValue.Builder getPaymentForShippingDescriptionBuilder() {
           
@@ -5331,7 +5331,7 @@ public final class OmGetPaymentAndShippingPu {
          * Bezeichnung der Zahlungsart-Versandart-Kombination "PaymentForShippingID"
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue payment_for_shipping_description = 10004;</code>
+         * <code>.dstore.values.StringValue payment_for_shipping_description = 10004;</code>
          */
         public io.dstore.values.StringValueOrBuilder getPaymentForShippingDescriptionOrBuilder() {
           if (paymentForShippingDescriptionBuilder_ != null) {
@@ -5346,7 +5346,7 @@ public final class OmGetPaymentAndShippingPu {
          * Bezeichnung der Zahlungsart-Versandart-Kombination "PaymentForShippingID"
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue payment_for_shipping_description = 10004;</code>
+         * <code>.dstore.values.StringValue payment_for_shipping_description = 10004;</code>
          */
         private com.google.protobuf.SingleFieldBuilderV3<
             io.dstore.values.StringValue, io.dstore.values.StringValue.Builder, io.dstore.values.StringValueOrBuilder> 
@@ -5370,7 +5370,7 @@ public final class OmGetPaymentAndShippingPu {
          * ID der Zahlungsart der Kombination "PaymentForShippingID"
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue payment_type_id = 10005;</code>
+         * <code>.dstore.values.IntegerValue payment_type_id = 10005;</code>
          */
         public boolean hasPaymentTypeId() {
           return paymentTypeIdBuilder_ != null || paymentTypeId_ != null;
@@ -5380,7 +5380,7 @@ public final class OmGetPaymentAndShippingPu {
          * ID der Zahlungsart der Kombination "PaymentForShippingID"
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue payment_type_id = 10005;</code>
+         * <code>.dstore.values.IntegerValue payment_type_id = 10005;</code>
          */
         public io.dstore.values.IntegerValue getPaymentTypeId() {
           if (paymentTypeIdBuilder_ == null) {
@@ -5394,7 +5394,7 @@ public final class OmGetPaymentAndShippingPu {
          * ID der Zahlungsart der Kombination "PaymentForShippingID"
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue payment_type_id = 10005;</code>
+         * <code>.dstore.values.IntegerValue payment_type_id = 10005;</code>
          */
         public Builder setPaymentTypeId(io.dstore.values.IntegerValue value) {
           if (paymentTypeIdBuilder_ == null) {
@@ -5414,7 +5414,7 @@ public final class OmGetPaymentAndShippingPu {
          * ID der Zahlungsart der Kombination "PaymentForShippingID"
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue payment_type_id = 10005;</code>
+         * <code>.dstore.values.IntegerValue payment_type_id = 10005;</code>
          */
         public Builder setPaymentTypeId(
             io.dstore.values.IntegerValue.Builder builderForValue) {
@@ -5432,7 +5432,7 @@ public final class OmGetPaymentAndShippingPu {
          * ID der Zahlungsart der Kombination "PaymentForShippingID"
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue payment_type_id = 10005;</code>
+         * <code>.dstore.values.IntegerValue payment_type_id = 10005;</code>
          */
         public Builder mergePaymentTypeId(io.dstore.values.IntegerValue value) {
           if (paymentTypeIdBuilder_ == null) {
@@ -5454,7 +5454,7 @@ public final class OmGetPaymentAndShippingPu {
          * ID der Zahlungsart der Kombination "PaymentForShippingID"
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue payment_type_id = 10005;</code>
+         * <code>.dstore.values.IntegerValue payment_type_id = 10005;</code>
          */
         public Builder clearPaymentTypeId() {
           if (paymentTypeIdBuilder_ == null) {
@@ -5472,7 +5472,7 @@ public final class OmGetPaymentAndShippingPu {
          * ID der Zahlungsart der Kombination "PaymentForShippingID"
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue payment_type_id = 10005;</code>
+         * <code>.dstore.values.IntegerValue payment_type_id = 10005;</code>
          */
         public io.dstore.values.IntegerValue.Builder getPaymentTypeIdBuilder() {
           
@@ -5484,7 +5484,7 @@ public final class OmGetPaymentAndShippingPu {
          * ID der Zahlungsart der Kombination "PaymentForShippingID"
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue payment_type_id = 10005;</code>
+         * <code>.dstore.values.IntegerValue payment_type_id = 10005;</code>
          */
         public io.dstore.values.IntegerValueOrBuilder getPaymentTypeIdOrBuilder() {
           if (paymentTypeIdBuilder_ != null) {
@@ -5499,7 +5499,7 @@ public final class OmGetPaymentAndShippingPu {
          * ID der Zahlungsart der Kombination "PaymentForShippingID"
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue payment_type_id = 10005;</code>
+         * <code>.dstore.values.IntegerValue payment_type_id = 10005;</code>
          */
         private com.google.protobuf.SingleFieldBuilderV3<
             io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> 
@@ -5523,7 +5523,7 @@ public final class OmGetPaymentAndShippingPu {
          * ID der zur Versandart "ShippingTypeID" hinterlegten "Region" (die bestimmte Länder zusammenfaßt). Wir geben diesen Datensatz nur dann aus, wenn die Person, an die die Ware zu liefern ist ("&#64;DeliveryPersonID"), aus einem Land dieser Region kommt.
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue region_id_shipping_type = 10006;</code>
+         * <code>.dstore.values.IntegerValue region_id_shipping_type = 10006;</code>
          */
         public boolean hasRegionIdShippingType() {
           return regionIdShippingTypeBuilder_ != null || regionIdShippingType_ != null;
@@ -5533,7 +5533,7 @@ public final class OmGetPaymentAndShippingPu {
          * ID der zur Versandart "ShippingTypeID" hinterlegten "Region" (die bestimmte Länder zusammenfaßt). Wir geben diesen Datensatz nur dann aus, wenn die Person, an die die Ware zu liefern ist ("&#64;DeliveryPersonID"), aus einem Land dieser Region kommt.
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue region_id_shipping_type = 10006;</code>
+         * <code>.dstore.values.IntegerValue region_id_shipping_type = 10006;</code>
          */
         public io.dstore.values.IntegerValue getRegionIdShippingType() {
           if (regionIdShippingTypeBuilder_ == null) {
@@ -5547,7 +5547,7 @@ public final class OmGetPaymentAndShippingPu {
          * ID der zur Versandart "ShippingTypeID" hinterlegten "Region" (die bestimmte Länder zusammenfaßt). Wir geben diesen Datensatz nur dann aus, wenn die Person, an die die Ware zu liefern ist ("&#64;DeliveryPersonID"), aus einem Land dieser Region kommt.
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue region_id_shipping_type = 10006;</code>
+         * <code>.dstore.values.IntegerValue region_id_shipping_type = 10006;</code>
          */
         public Builder setRegionIdShippingType(io.dstore.values.IntegerValue value) {
           if (regionIdShippingTypeBuilder_ == null) {
@@ -5567,7 +5567,7 @@ public final class OmGetPaymentAndShippingPu {
          * ID der zur Versandart "ShippingTypeID" hinterlegten "Region" (die bestimmte Länder zusammenfaßt). Wir geben diesen Datensatz nur dann aus, wenn die Person, an die die Ware zu liefern ist ("&#64;DeliveryPersonID"), aus einem Land dieser Region kommt.
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue region_id_shipping_type = 10006;</code>
+         * <code>.dstore.values.IntegerValue region_id_shipping_type = 10006;</code>
          */
         public Builder setRegionIdShippingType(
             io.dstore.values.IntegerValue.Builder builderForValue) {
@@ -5585,7 +5585,7 @@ public final class OmGetPaymentAndShippingPu {
          * ID der zur Versandart "ShippingTypeID" hinterlegten "Region" (die bestimmte Länder zusammenfaßt). Wir geben diesen Datensatz nur dann aus, wenn die Person, an die die Ware zu liefern ist ("&#64;DeliveryPersonID"), aus einem Land dieser Region kommt.
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue region_id_shipping_type = 10006;</code>
+         * <code>.dstore.values.IntegerValue region_id_shipping_type = 10006;</code>
          */
         public Builder mergeRegionIdShippingType(io.dstore.values.IntegerValue value) {
           if (regionIdShippingTypeBuilder_ == null) {
@@ -5607,7 +5607,7 @@ public final class OmGetPaymentAndShippingPu {
          * ID der zur Versandart "ShippingTypeID" hinterlegten "Region" (die bestimmte Länder zusammenfaßt). Wir geben diesen Datensatz nur dann aus, wenn die Person, an die die Ware zu liefern ist ("&#64;DeliveryPersonID"), aus einem Land dieser Region kommt.
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue region_id_shipping_type = 10006;</code>
+         * <code>.dstore.values.IntegerValue region_id_shipping_type = 10006;</code>
          */
         public Builder clearRegionIdShippingType() {
           if (regionIdShippingTypeBuilder_ == null) {
@@ -5625,7 +5625,7 @@ public final class OmGetPaymentAndShippingPu {
          * ID der zur Versandart "ShippingTypeID" hinterlegten "Region" (die bestimmte Länder zusammenfaßt). Wir geben diesen Datensatz nur dann aus, wenn die Person, an die die Ware zu liefern ist ("&#64;DeliveryPersonID"), aus einem Land dieser Region kommt.
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue region_id_shipping_type = 10006;</code>
+         * <code>.dstore.values.IntegerValue region_id_shipping_type = 10006;</code>
          */
         public io.dstore.values.IntegerValue.Builder getRegionIdShippingTypeBuilder() {
           
@@ -5637,7 +5637,7 @@ public final class OmGetPaymentAndShippingPu {
          * ID der zur Versandart "ShippingTypeID" hinterlegten "Region" (die bestimmte Länder zusammenfaßt). Wir geben diesen Datensatz nur dann aus, wenn die Person, an die die Ware zu liefern ist ("&#64;DeliveryPersonID"), aus einem Land dieser Region kommt.
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue region_id_shipping_type = 10006;</code>
+         * <code>.dstore.values.IntegerValue region_id_shipping_type = 10006;</code>
          */
         public io.dstore.values.IntegerValueOrBuilder getRegionIdShippingTypeOrBuilder() {
           if (regionIdShippingTypeBuilder_ != null) {
@@ -5652,7 +5652,7 @@ public final class OmGetPaymentAndShippingPu {
          * ID der zur Versandart "ShippingTypeID" hinterlegten "Region" (die bestimmte Länder zusammenfaßt). Wir geben diesen Datensatz nur dann aus, wenn die Person, an die die Ware zu liefern ist ("&#64;DeliveryPersonID"), aus einem Land dieser Region kommt.
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue region_id_shipping_type = 10006;</code>
+         * <code>.dstore.values.IntegerValue region_id_shipping_type = 10006;</code>
          */
         private com.google.protobuf.SingleFieldBuilderV3<
             io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> 
@@ -5676,7 +5676,7 @@ public final class OmGetPaymentAndShippingPu {
          * ID einer Kategorie von Personen-Merkmalen. Gibt an, daß der Auftraggeber - falls er die Zahlungsart "PaymentTypeID" wählt - Eigenschaften zu den Merkmalen dieser Kategorie hinterlegen muß (Beispiel : Kreditkartendaten bei Kreditkarten-Zahlung).
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue person_charac_category_id = 10007;</code>
+         * <code>.dstore.values.IntegerValue person_charac_category_id = 10007;</code>
          */
         public boolean hasPersonCharacCategoryId() {
           return personCharacCategoryIdBuilder_ != null || personCharacCategoryId_ != null;
@@ -5686,7 +5686,7 @@ public final class OmGetPaymentAndShippingPu {
          * ID einer Kategorie von Personen-Merkmalen. Gibt an, daß der Auftraggeber - falls er die Zahlungsart "PaymentTypeID" wählt - Eigenschaften zu den Merkmalen dieser Kategorie hinterlegen muß (Beispiel : Kreditkartendaten bei Kreditkarten-Zahlung).
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue person_charac_category_id = 10007;</code>
+         * <code>.dstore.values.IntegerValue person_charac_category_id = 10007;</code>
          */
         public io.dstore.values.IntegerValue getPersonCharacCategoryId() {
           if (personCharacCategoryIdBuilder_ == null) {
@@ -5700,7 +5700,7 @@ public final class OmGetPaymentAndShippingPu {
          * ID einer Kategorie von Personen-Merkmalen. Gibt an, daß der Auftraggeber - falls er die Zahlungsart "PaymentTypeID" wählt - Eigenschaften zu den Merkmalen dieser Kategorie hinterlegen muß (Beispiel : Kreditkartendaten bei Kreditkarten-Zahlung).
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue person_charac_category_id = 10007;</code>
+         * <code>.dstore.values.IntegerValue person_charac_category_id = 10007;</code>
          */
         public Builder setPersonCharacCategoryId(io.dstore.values.IntegerValue value) {
           if (personCharacCategoryIdBuilder_ == null) {
@@ -5720,7 +5720,7 @@ public final class OmGetPaymentAndShippingPu {
          * ID einer Kategorie von Personen-Merkmalen. Gibt an, daß der Auftraggeber - falls er die Zahlungsart "PaymentTypeID" wählt - Eigenschaften zu den Merkmalen dieser Kategorie hinterlegen muß (Beispiel : Kreditkartendaten bei Kreditkarten-Zahlung).
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue person_charac_category_id = 10007;</code>
+         * <code>.dstore.values.IntegerValue person_charac_category_id = 10007;</code>
          */
         public Builder setPersonCharacCategoryId(
             io.dstore.values.IntegerValue.Builder builderForValue) {
@@ -5738,7 +5738,7 @@ public final class OmGetPaymentAndShippingPu {
          * ID einer Kategorie von Personen-Merkmalen. Gibt an, daß der Auftraggeber - falls er die Zahlungsart "PaymentTypeID" wählt - Eigenschaften zu den Merkmalen dieser Kategorie hinterlegen muß (Beispiel : Kreditkartendaten bei Kreditkarten-Zahlung).
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue person_charac_category_id = 10007;</code>
+         * <code>.dstore.values.IntegerValue person_charac_category_id = 10007;</code>
          */
         public Builder mergePersonCharacCategoryId(io.dstore.values.IntegerValue value) {
           if (personCharacCategoryIdBuilder_ == null) {
@@ -5760,7 +5760,7 @@ public final class OmGetPaymentAndShippingPu {
          * ID einer Kategorie von Personen-Merkmalen. Gibt an, daß der Auftraggeber - falls er die Zahlungsart "PaymentTypeID" wählt - Eigenschaften zu den Merkmalen dieser Kategorie hinterlegen muß (Beispiel : Kreditkartendaten bei Kreditkarten-Zahlung).
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue person_charac_category_id = 10007;</code>
+         * <code>.dstore.values.IntegerValue person_charac_category_id = 10007;</code>
          */
         public Builder clearPersonCharacCategoryId() {
           if (personCharacCategoryIdBuilder_ == null) {
@@ -5778,7 +5778,7 @@ public final class OmGetPaymentAndShippingPu {
          * ID einer Kategorie von Personen-Merkmalen. Gibt an, daß der Auftraggeber - falls er die Zahlungsart "PaymentTypeID" wählt - Eigenschaften zu den Merkmalen dieser Kategorie hinterlegen muß (Beispiel : Kreditkartendaten bei Kreditkarten-Zahlung).
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue person_charac_category_id = 10007;</code>
+         * <code>.dstore.values.IntegerValue person_charac_category_id = 10007;</code>
          */
         public io.dstore.values.IntegerValue.Builder getPersonCharacCategoryIdBuilder() {
           
@@ -5790,7 +5790,7 @@ public final class OmGetPaymentAndShippingPu {
          * ID einer Kategorie von Personen-Merkmalen. Gibt an, daß der Auftraggeber - falls er die Zahlungsart "PaymentTypeID" wählt - Eigenschaften zu den Merkmalen dieser Kategorie hinterlegen muß (Beispiel : Kreditkartendaten bei Kreditkarten-Zahlung).
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue person_charac_category_id = 10007;</code>
+         * <code>.dstore.values.IntegerValue person_charac_category_id = 10007;</code>
          */
         public io.dstore.values.IntegerValueOrBuilder getPersonCharacCategoryIdOrBuilder() {
           if (personCharacCategoryIdBuilder_ != null) {
@@ -5805,7 +5805,7 @@ public final class OmGetPaymentAndShippingPu {
          * ID einer Kategorie von Personen-Merkmalen. Gibt an, daß der Auftraggeber - falls er die Zahlungsart "PaymentTypeID" wählt - Eigenschaften zu den Merkmalen dieser Kategorie hinterlegen muß (Beispiel : Kreditkartendaten bei Kreditkarten-Zahlung).
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue person_charac_category_id = 10007;</code>
+         * <code>.dstore.values.IntegerValue person_charac_category_id = 10007;</code>
          */
         private com.google.protobuf.SingleFieldBuilderV3<
             io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> 
@@ -5829,7 +5829,7 @@ public final class OmGetPaymentAndShippingPu {
          * Eine Zahl, die den Grund angibt, warum keine gültige Kombination aus Zahlungs- und Versandart gefunden wurde (siehe Beschreibung)
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue error_code = 20001;</code>
+         * <code>.dstore.values.IntegerValue error_code = 20001;</code>
          */
         public boolean hasErrorCode() {
           return errorCodeBuilder_ != null || errorCode_ != null;
@@ -5839,7 +5839,7 @@ public final class OmGetPaymentAndShippingPu {
          * Eine Zahl, die den Grund angibt, warum keine gültige Kombination aus Zahlungs- und Versandart gefunden wurde (siehe Beschreibung)
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue error_code = 20001;</code>
+         * <code>.dstore.values.IntegerValue error_code = 20001;</code>
          */
         public io.dstore.values.IntegerValue getErrorCode() {
           if (errorCodeBuilder_ == null) {
@@ -5853,7 +5853,7 @@ public final class OmGetPaymentAndShippingPu {
          * Eine Zahl, die den Grund angibt, warum keine gültige Kombination aus Zahlungs- und Versandart gefunden wurde (siehe Beschreibung)
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue error_code = 20001;</code>
+         * <code>.dstore.values.IntegerValue error_code = 20001;</code>
          */
         public Builder setErrorCode(io.dstore.values.IntegerValue value) {
           if (errorCodeBuilder_ == null) {
@@ -5873,7 +5873,7 @@ public final class OmGetPaymentAndShippingPu {
          * Eine Zahl, die den Grund angibt, warum keine gültige Kombination aus Zahlungs- und Versandart gefunden wurde (siehe Beschreibung)
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue error_code = 20001;</code>
+         * <code>.dstore.values.IntegerValue error_code = 20001;</code>
          */
         public Builder setErrorCode(
             io.dstore.values.IntegerValue.Builder builderForValue) {
@@ -5891,7 +5891,7 @@ public final class OmGetPaymentAndShippingPu {
          * Eine Zahl, die den Grund angibt, warum keine gültige Kombination aus Zahlungs- und Versandart gefunden wurde (siehe Beschreibung)
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue error_code = 20001;</code>
+         * <code>.dstore.values.IntegerValue error_code = 20001;</code>
          */
         public Builder mergeErrorCode(io.dstore.values.IntegerValue value) {
           if (errorCodeBuilder_ == null) {
@@ -5913,7 +5913,7 @@ public final class OmGetPaymentAndShippingPu {
          * Eine Zahl, die den Grund angibt, warum keine gültige Kombination aus Zahlungs- und Versandart gefunden wurde (siehe Beschreibung)
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue error_code = 20001;</code>
+         * <code>.dstore.values.IntegerValue error_code = 20001;</code>
          */
         public Builder clearErrorCode() {
           if (errorCodeBuilder_ == null) {
@@ -5931,7 +5931,7 @@ public final class OmGetPaymentAndShippingPu {
          * Eine Zahl, die den Grund angibt, warum keine gültige Kombination aus Zahlungs- und Versandart gefunden wurde (siehe Beschreibung)
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue error_code = 20001;</code>
+         * <code>.dstore.values.IntegerValue error_code = 20001;</code>
          */
         public io.dstore.values.IntegerValue.Builder getErrorCodeBuilder() {
           
@@ -5943,7 +5943,7 @@ public final class OmGetPaymentAndShippingPu {
          * Eine Zahl, die den Grund angibt, warum keine gültige Kombination aus Zahlungs- und Versandart gefunden wurde (siehe Beschreibung)
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue error_code = 20001;</code>
+         * <code>.dstore.values.IntegerValue error_code = 20001;</code>
          */
         public io.dstore.values.IntegerValueOrBuilder getErrorCodeOrBuilder() {
           if (errorCodeBuilder_ != null) {
@@ -5958,7 +5958,7 @@ public final class OmGetPaymentAndShippingPu {
          * Eine Zahl, die den Grund angibt, warum keine gültige Kombination aus Zahlungs- und Versandart gefunden wurde (siehe Beschreibung)
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue error_code = 20001;</code>
+         * <code>.dstore.values.IntegerValue error_code = 20001;</code>
          */
         private com.google.protobuf.SingleFieldBuilderV3<
             io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> 
@@ -5982,7 +5982,7 @@ public final class OmGetPaymentAndShippingPu {
          * (Netto-)Kosten für die Zahlungsart "PaymentTypeID" - in der zum Besucher hinterlegten Währung
          * </pre>
          *
-         * <code>optional .dstore.values.DecimalValue payment_cost = 30001;</code>
+         * <code>.dstore.values.DecimalValue payment_cost = 30001;</code>
          */
         public boolean hasPaymentCost() {
           return paymentCostBuilder_ != null || paymentCost_ != null;
@@ -5992,7 +5992,7 @@ public final class OmGetPaymentAndShippingPu {
          * (Netto-)Kosten für die Zahlungsart "PaymentTypeID" - in der zum Besucher hinterlegten Währung
          * </pre>
          *
-         * <code>optional .dstore.values.DecimalValue payment_cost = 30001;</code>
+         * <code>.dstore.values.DecimalValue payment_cost = 30001;</code>
          */
         public io.dstore.values.DecimalValue getPaymentCost() {
           if (paymentCostBuilder_ == null) {
@@ -6006,7 +6006,7 @@ public final class OmGetPaymentAndShippingPu {
          * (Netto-)Kosten für die Zahlungsart "PaymentTypeID" - in der zum Besucher hinterlegten Währung
          * </pre>
          *
-         * <code>optional .dstore.values.DecimalValue payment_cost = 30001;</code>
+         * <code>.dstore.values.DecimalValue payment_cost = 30001;</code>
          */
         public Builder setPaymentCost(io.dstore.values.DecimalValue value) {
           if (paymentCostBuilder_ == null) {
@@ -6026,7 +6026,7 @@ public final class OmGetPaymentAndShippingPu {
          * (Netto-)Kosten für die Zahlungsart "PaymentTypeID" - in der zum Besucher hinterlegten Währung
          * </pre>
          *
-         * <code>optional .dstore.values.DecimalValue payment_cost = 30001;</code>
+         * <code>.dstore.values.DecimalValue payment_cost = 30001;</code>
          */
         public Builder setPaymentCost(
             io.dstore.values.DecimalValue.Builder builderForValue) {
@@ -6044,7 +6044,7 @@ public final class OmGetPaymentAndShippingPu {
          * (Netto-)Kosten für die Zahlungsart "PaymentTypeID" - in der zum Besucher hinterlegten Währung
          * </pre>
          *
-         * <code>optional .dstore.values.DecimalValue payment_cost = 30001;</code>
+         * <code>.dstore.values.DecimalValue payment_cost = 30001;</code>
          */
         public Builder mergePaymentCost(io.dstore.values.DecimalValue value) {
           if (paymentCostBuilder_ == null) {
@@ -6066,7 +6066,7 @@ public final class OmGetPaymentAndShippingPu {
          * (Netto-)Kosten für die Zahlungsart "PaymentTypeID" - in der zum Besucher hinterlegten Währung
          * </pre>
          *
-         * <code>optional .dstore.values.DecimalValue payment_cost = 30001;</code>
+         * <code>.dstore.values.DecimalValue payment_cost = 30001;</code>
          */
         public Builder clearPaymentCost() {
           if (paymentCostBuilder_ == null) {
@@ -6084,7 +6084,7 @@ public final class OmGetPaymentAndShippingPu {
          * (Netto-)Kosten für die Zahlungsart "PaymentTypeID" - in der zum Besucher hinterlegten Währung
          * </pre>
          *
-         * <code>optional .dstore.values.DecimalValue payment_cost = 30001;</code>
+         * <code>.dstore.values.DecimalValue payment_cost = 30001;</code>
          */
         public io.dstore.values.DecimalValue.Builder getPaymentCostBuilder() {
           
@@ -6096,7 +6096,7 @@ public final class OmGetPaymentAndShippingPu {
          * (Netto-)Kosten für die Zahlungsart "PaymentTypeID" - in der zum Besucher hinterlegten Währung
          * </pre>
          *
-         * <code>optional .dstore.values.DecimalValue payment_cost = 30001;</code>
+         * <code>.dstore.values.DecimalValue payment_cost = 30001;</code>
          */
         public io.dstore.values.DecimalValueOrBuilder getPaymentCostOrBuilder() {
           if (paymentCostBuilder_ != null) {
@@ -6111,7 +6111,7 @@ public final class OmGetPaymentAndShippingPu {
          * (Netto-)Kosten für die Zahlungsart "PaymentTypeID" - in der zum Besucher hinterlegten Währung
          * </pre>
          *
-         * <code>optional .dstore.values.DecimalValue payment_cost = 30001;</code>
+         * <code>.dstore.values.DecimalValue payment_cost = 30001;</code>
          */
         private com.google.protobuf.SingleFieldBuilderV3<
             io.dstore.values.DecimalValue, io.dstore.values.DecimalValue.Builder, io.dstore.values.DecimalValueOrBuilder> 
@@ -6135,7 +6135,7 @@ public final class OmGetPaymentAndShippingPu {
          * (Netto-)Kosten für die Versandart "ShippingTypeID" - in der zum Besucher hinterlegten Währung
          * </pre>
          *
-         * <code>optional .dstore.values.DecimalValue shipping_cost = 30004;</code>
+         * <code>.dstore.values.DecimalValue shipping_cost = 30004;</code>
          */
         public boolean hasShippingCost() {
           return shippingCostBuilder_ != null || shippingCost_ != null;
@@ -6145,7 +6145,7 @@ public final class OmGetPaymentAndShippingPu {
          * (Netto-)Kosten für die Versandart "ShippingTypeID" - in der zum Besucher hinterlegten Währung
          * </pre>
          *
-         * <code>optional .dstore.values.DecimalValue shipping_cost = 30004;</code>
+         * <code>.dstore.values.DecimalValue shipping_cost = 30004;</code>
          */
         public io.dstore.values.DecimalValue getShippingCost() {
           if (shippingCostBuilder_ == null) {
@@ -6159,7 +6159,7 @@ public final class OmGetPaymentAndShippingPu {
          * (Netto-)Kosten für die Versandart "ShippingTypeID" - in der zum Besucher hinterlegten Währung
          * </pre>
          *
-         * <code>optional .dstore.values.DecimalValue shipping_cost = 30004;</code>
+         * <code>.dstore.values.DecimalValue shipping_cost = 30004;</code>
          */
         public Builder setShippingCost(io.dstore.values.DecimalValue value) {
           if (shippingCostBuilder_ == null) {
@@ -6179,7 +6179,7 @@ public final class OmGetPaymentAndShippingPu {
          * (Netto-)Kosten für die Versandart "ShippingTypeID" - in der zum Besucher hinterlegten Währung
          * </pre>
          *
-         * <code>optional .dstore.values.DecimalValue shipping_cost = 30004;</code>
+         * <code>.dstore.values.DecimalValue shipping_cost = 30004;</code>
          */
         public Builder setShippingCost(
             io.dstore.values.DecimalValue.Builder builderForValue) {
@@ -6197,7 +6197,7 @@ public final class OmGetPaymentAndShippingPu {
          * (Netto-)Kosten für die Versandart "ShippingTypeID" - in der zum Besucher hinterlegten Währung
          * </pre>
          *
-         * <code>optional .dstore.values.DecimalValue shipping_cost = 30004;</code>
+         * <code>.dstore.values.DecimalValue shipping_cost = 30004;</code>
          */
         public Builder mergeShippingCost(io.dstore.values.DecimalValue value) {
           if (shippingCostBuilder_ == null) {
@@ -6219,7 +6219,7 @@ public final class OmGetPaymentAndShippingPu {
          * (Netto-)Kosten für die Versandart "ShippingTypeID" - in der zum Besucher hinterlegten Währung
          * </pre>
          *
-         * <code>optional .dstore.values.DecimalValue shipping_cost = 30004;</code>
+         * <code>.dstore.values.DecimalValue shipping_cost = 30004;</code>
          */
         public Builder clearShippingCost() {
           if (shippingCostBuilder_ == null) {
@@ -6237,7 +6237,7 @@ public final class OmGetPaymentAndShippingPu {
          * (Netto-)Kosten für die Versandart "ShippingTypeID" - in der zum Besucher hinterlegten Währung
          * </pre>
          *
-         * <code>optional .dstore.values.DecimalValue shipping_cost = 30004;</code>
+         * <code>.dstore.values.DecimalValue shipping_cost = 30004;</code>
          */
         public io.dstore.values.DecimalValue.Builder getShippingCostBuilder() {
           
@@ -6249,7 +6249,7 @@ public final class OmGetPaymentAndShippingPu {
          * (Netto-)Kosten für die Versandart "ShippingTypeID" - in der zum Besucher hinterlegten Währung
          * </pre>
          *
-         * <code>optional .dstore.values.DecimalValue shipping_cost = 30004;</code>
+         * <code>.dstore.values.DecimalValue shipping_cost = 30004;</code>
          */
         public io.dstore.values.DecimalValueOrBuilder getShippingCostOrBuilder() {
           if (shippingCostBuilder_ != null) {
@@ -6264,7 +6264,7 @@ public final class OmGetPaymentAndShippingPu {
          * (Netto-)Kosten für die Versandart "ShippingTypeID" - in der zum Besucher hinterlegten Währung
          * </pre>
          *
-         * <code>optional .dstore.values.DecimalValue shipping_cost = 30004;</code>
+         * <code>.dstore.values.DecimalValue shipping_cost = 30004;</code>
          */
         private com.google.protobuf.SingleFieldBuilderV3<
             io.dstore.values.DecimalValue, io.dstore.values.DecimalValue.Builder, io.dstore.values.DecimalValueOrBuilder> 
@@ -6288,7 +6288,7 @@ public final class OmGetPaymentAndShippingPu {
          * Brutto-Kosten für die Versandart "ShippingTypeID" - in der zum Besucher hinterlegten Währung
          * </pre>
          *
-         * <code>optional .dstore.values.DecimalValue shipping_cost_brutto = 30009;</code>
+         * <code>.dstore.values.DecimalValue shipping_cost_brutto = 30009;</code>
          */
         public boolean hasShippingCostBrutto() {
           return shippingCostBruttoBuilder_ != null || shippingCostBrutto_ != null;
@@ -6298,7 +6298,7 @@ public final class OmGetPaymentAndShippingPu {
          * Brutto-Kosten für die Versandart "ShippingTypeID" - in der zum Besucher hinterlegten Währung
          * </pre>
          *
-         * <code>optional .dstore.values.DecimalValue shipping_cost_brutto = 30009;</code>
+         * <code>.dstore.values.DecimalValue shipping_cost_brutto = 30009;</code>
          */
         public io.dstore.values.DecimalValue getShippingCostBrutto() {
           if (shippingCostBruttoBuilder_ == null) {
@@ -6312,7 +6312,7 @@ public final class OmGetPaymentAndShippingPu {
          * Brutto-Kosten für die Versandart "ShippingTypeID" - in der zum Besucher hinterlegten Währung
          * </pre>
          *
-         * <code>optional .dstore.values.DecimalValue shipping_cost_brutto = 30009;</code>
+         * <code>.dstore.values.DecimalValue shipping_cost_brutto = 30009;</code>
          */
         public Builder setShippingCostBrutto(io.dstore.values.DecimalValue value) {
           if (shippingCostBruttoBuilder_ == null) {
@@ -6332,7 +6332,7 @@ public final class OmGetPaymentAndShippingPu {
          * Brutto-Kosten für die Versandart "ShippingTypeID" - in der zum Besucher hinterlegten Währung
          * </pre>
          *
-         * <code>optional .dstore.values.DecimalValue shipping_cost_brutto = 30009;</code>
+         * <code>.dstore.values.DecimalValue shipping_cost_brutto = 30009;</code>
          */
         public Builder setShippingCostBrutto(
             io.dstore.values.DecimalValue.Builder builderForValue) {
@@ -6350,7 +6350,7 @@ public final class OmGetPaymentAndShippingPu {
          * Brutto-Kosten für die Versandart "ShippingTypeID" - in der zum Besucher hinterlegten Währung
          * </pre>
          *
-         * <code>optional .dstore.values.DecimalValue shipping_cost_brutto = 30009;</code>
+         * <code>.dstore.values.DecimalValue shipping_cost_brutto = 30009;</code>
          */
         public Builder mergeShippingCostBrutto(io.dstore.values.DecimalValue value) {
           if (shippingCostBruttoBuilder_ == null) {
@@ -6372,7 +6372,7 @@ public final class OmGetPaymentAndShippingPu {
          * Brutto-Kosten für die Versandart "ShippingTypeID" - in der zum Besucher hinterlegten Währung
          * </pre>
          *
-         * <code>optional .dstore.values.DecimalValue shipping_cost_brutto = 30009;</code>
+         * <code>.dstore.values.DecimalValue shipping_cost_brutto = 30009;</code>
          */
         public Builder clearShippingCostBrutto() {
           if (shippingCostBruttoBuilder_ == null) {
@@ -6390,7 +6390,7 @@ public final class OmGetPaymentAndShippingPu {
          * Brutto-Kosten für die Versandart "ShippingTypeID" - in der zum Besucher hinterlegten Währung
          * </pre>
          *
-         * <code>optional .dstore.values.DecimalValue shipping_cost_brutto = 30009;</code>
+         * <code>.dstore.values.DecimalValue shipping_cost_brutto = 30009;</code>
          */
         public io.dstore.values.DecimalValue.Builder getShippingCostBruttoBuilder() {
           
@@ -6402,7 +6402,7 @@ public final class OmGetPaymentAndShippingPu {
          * Brutto-Kosten für die Versandart "ShippingTypeID" - in der zum Besucher hinterlegten Währung
          * </pre>
          *
-         * <code>optional .dstore.values.DecimalValue shipping_cost_brutto = 30009;</code>
+         * <code>.dstore.values.DecimalValue shipping_cost_brutto = 30009;</code>
          */
         public io.dstore.values.DecimalValueOrBuilder getShippingCostBruttoOrBuilder() {
           if (shippingCostBruttoBuilder_ != null) {
@@ -6417,7 +6417,7 @@ public final class OmGetPaymentAndShippingPu {
          * Brutto-Kosten für die Versandart "ShippingTypeID" - in der zum Besucher hinterlegten Währung
          * </pre>
          *
-         * <code>optional .dstore.values.DecimalValue shipping_cost_brutto = 30009;</code>
+         * <code>.dstore.values.DecimalValue shipping_cost_brutto = 30009;</code>
          */
         private com.google.protobuf.SingleFieldBuilderV3<
             io.dstore.values.DecimalValue, io.dstore.values.DecimalValue.Builder, io.dstore.values.DecimalValueOrBuilder> 
@@ -6441,7 +6441,7 @@ public final class OmGetPaymentAndShippingPu {
          * Brutto-Kosten für die Zahlungsart "PaymentTypeID" - in der zum Besucher hinterlegten Währung
          * </pre>
          *
-         * <code>optional .dstore.values.DecimalValue payment_cost_brutto = 30010;</code>
+         * <code>.dstore.values.DecimalValue payment_cost_brutto = 30010;</code>
          */
         public boolean hasPaymentCostBrutto() {
           return paymentCostBruttoBuilder_ != null || paymentCostBrutto_ != null;
@@ -6451,7 +6451,7 @@ public final class OmGetPaymentAndShippingPu {
          * Brutto-Kosten für die Zahlungsart "PaymentTypeID" - in der zum Besucher hinterlegten Währung
          * </pre>
          *
-         * <code>optional .dstore.values.DecimalValue payment_cost_brutto = 30010;</code>
+         * <code>.dstore.values.DecimalValue payment_cost_brutto = 30010;</code>
          */
         public io.dstore.values.DecimalValue getPaymentCostBrutto() {
           if (paymentCostBruttoBuilder_ == null) {
@@ -6465,7 +6465,7 @@ public final class OmGetPaymentAndShippingPu {
          * Brutto-Kosten für die Zahlungsart "PaymentTypeID" - in der zum Besucher hinterlegten Währung
          * </pre>
          *
-         * <code>optional .dstore.values.DecimalValue payment_cost_brutto = 30010;</code>
+         * <code>.dstore.values.DecimalValue payment_cost_brutto = 30010;</code>
          */
         public Builder setPaymentCostBrutto(io.dstore.values.DecimalValue value) {
           if (paymentCostBruttoBuilder_ == null) {
@@ -6485,7 +6485,7 @@ public final class OmGetPaymentAndShippingPu {
          * Brutto-Kosten für die Zahlungsart "PaymentTypeID" - in der zum Besucher hinterlegten Währung
          * </pre>
          *
-         * <code>optional .dstore.values.DecimalValue payment_cost_brutto = 30010;</code>
+         * <code>.dstore.values.DecimalValue payment_cost_brutto = 30010;</code>
          */
         public Builder setPaymentCostBrutto(
             io.dstore.values.DecimalValue.Builder builderForValue) {
@@ -6503,7 +6503,7 @@ public final class OmGetPaymentAndShippingPu {
          * Brutto-Kosten für die Zahlungsart "PaymentTypeID" - in der zum Besucher hinterlegten Währung
          * </pre>
          *
-         * <code>optional .dstore.values.DecimalValue payment_cost_brutto = 30010;</code>
+         * <code>.dstore.values.DecimalValue payment_cost_brutto = 30010;</code>
          */
         public Builder mergePaymentCostBrutto(io.dstore.values.DecimalValue value) {
           if (paymentCostBruttoBuilder_ == null) {
@@ -6525,7 +6525,7 @@ public final class OmGetPaymentAndShippingPu {
          * Brutto-Kosten für die Zahlungsart "PaymentTypeID" - in der zum Besucher hinterlegten Währung
          * </pre>
          *
-         * <code>optional .dstore.values.DecimalValue payment_cost_brutto = 30010;</code>
+         * <code>.dstore.values.DecimalValue payment_cost_brutto = 30010;</code>
          */
         public Builder clearPaymentCostBrutto() {
           if (paymentCostBruttoBuilder_ == null) {
@@ -6543,7 +6543,7 @@ public final class OmGetPaymentAndShippingPu {
          * Brutto-Kosten für die Zahlungsart "PaymentTypeID" - in der zum Besucher hinterlegten Währung
          * </pre>
          *
-         * <code>optional .dstore.values.DecimalValue payment_cost_brutto = 30010;</code>
+         * <code>.dstore.values.DecimalValue payment_cost_brutto = 30010;</code>
          */
         public io.dstore.values.DecimalValue.Builder getPaymentCostBruttoBuilder() {
           
@@ -6555,7 +6555,7 @@ public final class OmGetPaymentAndShippingPu {
          * Brutto-Kosten für die Zahlungsart "PaymentTypeID" - in der zum Besucher hinterlegten Währung
          * </pre>
          *
-         * <code>optional .dstore.values.DecimalValue payment_cost_brutto = 30010;</code>
+         * <code>.dstore.values.DecimalValue payment_cost_brutto = 30010;</code>
          */
         public io.dstore.values.DecimalValueOrBuilder getPaymentCostBruttoOrBuilder() {
           if (paymentCostBruttoBuilder_ != null) {
@@ -6570,7 +6570,7 @@ public final class OmGetPaymentAndShippingPu {
          * Brutto-Kosten für die Zahlungsart "PaymentTypeID" - in der zum Besucher hinterlegten Währung
          * </pre>
          *
-         * <code>optional .dstore.values.DecimalValue payment_cost_brutto = 30010;</code>
+         * <code>.dstore.values.DecimalValue payment_cost_brutto = 30010;</code>
          */
         private com.google.protobuf.SingleFieldBuilderV3<
             io.dstore.values.DecimalValue, io.dstore.values.DecimalValue.Builder, io.dstore.values.DecimalValueOrBuilder> 
@@ -6830,7 +6830,7 @@ public final class OmGetPaymentAndShippingPu {
         return memoizedHashCode;
       }
       int hash = 41;
-      hash = (19 * hash) + getDescriptorForType().hashCode();
+      hash = (19 * hash) + getDescriptor().hashCode();
       if (getMetaInformationCount() > 0) {
         hash = (37 * hash) + META_INFORMATION_FIELD_NUMBER;
         hash = (53 * hash) + getMetaInformationList().hashCode();

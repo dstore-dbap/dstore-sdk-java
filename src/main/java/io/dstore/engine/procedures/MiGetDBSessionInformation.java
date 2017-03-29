@@ -19,20 +19,20 @@ public final class MiGetDBSessionInformation {
       com.google.protobuf.MessageOrBuilder {
 
     /**
-     * <code>optional .dstore.values.StringValue information_list = 1;</code>
+     * <code>.dstore.values.StringValue information_list = 1;</code>
      */
     boolean hasInformationList();
     /**
-     * <code>optional .dstore.values.StringValue information_list = 1;</code>
+     * <code>.dstore.values.StringValue information_list = 1;</code>
      */
     io.dstore.values.StringValue getInformationList();
     /**
-     * <code>optional .dstore.values.StringValue information_list = 1;</code>
+     * <code>.dstore.values.StringValue information_list = 1;</code>
      */
     io.dstore.values.StringValueOrBuilder getInformationListOrBuilder();
 
     /**
-     * <code>optional bool information_list_null = 1001;</code>
+     * <code>bool information_list_null = 1001;</code>
      */
     boolean getInformationListNull();
   }
@@ -120,19 +120,19 @@ public final class MiGetDBSessionInformation {
     public static final int INFORMATION_LIST_FIELD_NUMBER = 1;
     private io.dstore.values.StringValue informationList_;
     /**
-     * <code>optional .dstore.values.StringValue information_list = 1;</code>
+     * <code>.dstore.values.StringValue information_list = 1;</code>
      */
     public boolean hasInformationList() {
       return informationList_ != null;
     }
     /**
-     * <code>optional .dstore.values.StringValue information_list = 1;</code>
+     * <code>.dstore.values.StringValue information_list = 1;</code>
      */
     public io.dstore.values.StringValue getInformationList() {
       return informationList_ == null ? io.dstore.values.StringValue.getDefaultInstance() : informationList_;
     }
     /**
-     * <code>optional .dstore.values.StringValue information_list = 1;</code>
+     * <code>.dstore.values.StringValue information_list = 1;</code>
      */
     public io.dstore.values.StringValueOrBuilder getInformationListOrBuilder() {
       return getInformationList();
@@ -141,7 +141,7 @@ public final class MiGetDBSessionInformation {
     public static final int INFORMATION_LIST_NULL_FIELD_NUMBER = 1001;
     private boolean informationListNull_;
     /**
-     * <code>optional bool information_list_null = 1001;</code>
+     * <code>bool information_list_null = 1001;</code>
      */
     public boolean getInformationListNull() {
       return informationListNull_;
@@ -212,7 +212,7 @@ public final class MiGetDBSessionInformation {
         return memoizedHashCode;
       }
       int hash = 41;
-      hash = (19 * hash) + getDescriptorForType().hashCode();
+      hash = (19 * hash) + getDescriptor().hashCode();
       if (hasInformationList()) {
         hash = (37 * hash) + INFORMATION_LIST_FIELD_NUMBER;
         hash = (53 * hash) + getInformationList().hashCode();
@@ -451,13 +451,13 @@ public final class MiGetDBSessionInformation {
       private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.values.StringValue, io.dstore.values.StringValue.Builder, io.dstore.values.StringValueOrBuilder> informationListBuilder_;
       /**
-       * <code>optional .dstore.values.StringValue information_list = 1;</code>
+       * <code>.dstore.values.StringValue information_list = 1;</code>
        */
       public boolean hasInformationList() {
         return informationListBuilder_ != null || informationList_ != null;
       }
       /**
-       * <code>optional .dstore.values.StringValue information_list = 1;</code>
+       * <code>.dstore.values.StringValue information_list = 1;</code>
        */
       public io.dstore.values.StringValue getInformationList() {
         if (informationListBuilder_ == null) {
@@ -467,7 +467,7 @@ public final class MiGetDBSessionInformation {
         }
       }
       /**
-       * <code>optional .dstore.values.StringValue information_list = 1;</code>
+       * <code>.dstore.values.StringValue information_list = 1;</code>
        */
       public Builder setInformationList(io.dstore.values.StringValue value) {
         if (informationListBuilder_ == null) {
@@ -483,7 +483,7 @@ public final class MiGetDBSessionInformation {
         return this;
       }
       /**
-       * <code>optional .dstore.values.StringValue information_list = 1;</code>
+       * <code>.dstore.values.StringValue information_list = 1;</code>
        */
       public Builder setInformationList(
           io.dstore.values.StringValue.Builder builderForValue) {
@@ -497,7 +497,7 @@ public final class MiGetDBSessionInformation {
         return this;
       }
       /**
-       * <code>optional .dstore.values.StringValue information_list = 1;</code>
+       * <code>.dstore.values.StringValue information_list = 1;</code>
        */
       public Builder mergeInformationList(io.dstore.values.StringValue value) {
         if (informationListBuilder_ == null) {
@@ -515,7 +515,7 @@ public final class MiGetDBSessionInformation {
         return this;
       }
       /**
-       * <code>optional .dstore.values.StringValue information_list = 1;</code>
+       * <code>.dstore.values.StringValue information_list = 1;</code>
        */
       public Builder clearInformationList() {
         if (informationListBuilder_ == null) {
@@ -529,7 +529,7 @@ public final class MiGetDBSessionInformation {
         return this;
       }
       /**
-       * <code>optional .dstore.values.StringValue information_list = 1;</code>
+       * <code>.dstore.values.StringValue information_list = 1;</code>
        */
       public io.dstore.values.StringValue.Builder getInformationListBuilder() {
         
@@ -537,7 +537,7 @@ public final class MiGetDBSessionInformation {
         return getInformationListFieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .dstore.values.StringValue information_list = 1;</code>
+       * <code>.dstore.values.StringValue information_list = 1;</code>
        */
       public io.dstore.values.StringValueOrBuilder getInformationListOrBuilder() {
         if (informationListBuilder_ != null) {
@@ -548,7 +548,7 @@ public final class MiGetDBSessionInformation {
         }
       }
       /**
-       * <code>optional .dstore.values.StringValue information_list = 1;</code>
+       * <code>.dstore.values.StringValue information_list = 1;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.values.StringValue, io.dstore.values.StringValue.Builder, io.dstore.values.StringValueOrBuilder> 
@@ -566,13 +566,13 @@ public final class MiGetDBSessionInformation {
 
       private boolean informationListNull_ ;
       /**
-       * <code>optional bool information_list_null = 1001;</code>
+       * <code>bool information_list_null = 1001;</code>
        */
       public boolean getInformationListNull() {
         return informationListNull_;
       }
       /**
-       * <code>optional bool information_list_null = 1001;</code>
+       * <code>bool information_list_null = 1001;</code>
        */
       public Builder setInformationListNull(boolean value) {
         
@@ -581,7 +581,7 @@ public final class MiGetDBSessionInformation {
         return this;
       }
       /**
-       * <code>optional bool information_list_null = 1001;</code>
+       * <code>bool information_list_null = 1001;</code>
        */
       public Builder clearInformationListNull() {
         
@@ -840,7 +840,7 @@ public final class MiGetDBSessionInformation {
         com.google.protobuf.MessageOrBuilder {
 
       /**
-       * <code>optional int32 row_id = 10000;</code>
+       * <code>int32 row_id = 10000;</code>
        */
       int getRowId();
 
@@ -849,7 +849,7 @@ public final class MiGetDBSessionInformation {
        * Beschreibung/Erklärung (auf Englisch), um was es sich bei der gelieferten Information handelt. Hinweis : Mit "this database" ist immer die Datenbank gemeint, in der diese Prozedur hier installiert ist und ausgeführt wird.
        * </pre>
        *
-       * <code>optional .dstore.values.StringValue description = 10001;</code>
+       * <code>.dstore.values.StringValue description = 10001;</code>
        */
       boolean hasDescription();
       /**
@@ -857,7 +857,7 @@ public final class MiGetDBSessionInformation {
        * Beschreibung/Erklärung (auf Englisch), um was es sich bei der gelieferten Information handelt. Hinweis : Mit "this database" ist immer die Datenbank gemeint, in der diese Prozedur hier installiert ist und ausgeführt wird.
        * </pre>
        *
-       * <code>optional .dstore.values.StringValue description = 10001;</code>
+       * <code>.dstore.values.StringValue description = 10001;</code>
        */
       io.dstore.values.StringValue getDescription();
       /**
@@ -865,7 +865,7 @@ public final class MiGetDBSessionInformation {
        * Beschreibung/Erklärung (auf Englisch), um was es sich bei der gelieferten Information handelt. Hinweis : Mit "this database" ist immer die Datenbank gemeint, in der diese Prozedur hier installiert ist und ausgeführt wird.
        * </pre>
        *
-       * <code>optional .dstore.values.StringValue description = 10001;</code>
+       * <code>.dstore.values.StringValue description = 10001;</code>
        */
       io.dstore.values.StringValueOrBuilder getDescriptionOrBuilder();
 
@@ -874,7 +874,7 @@ public final class MiGetDBSessionInformation {
        * Wert der Information (wie z.B. der Name der Datenbank, die ID des Benutzers etc.)
        * </pre>
        *
-       * <code>optional .dstore.values.StringValue value = 10002;</code>
+       * <code>.dstore.values.StringValue value = 10002;</code>
        */
       boolean hasValue();
       /**
@@ -882,7 +882,7 @@ public final class MiGetDBSessionInformation {
        * Wert der Information (wie z.B. der Name der Datenbank, die ID des Benutzers etc.)
        * </pre>
        *
-       * <code>optional .dstore.values.StringValue value = 10002;</code>
+       * <code>.dstore.values.StringValue value = 10002;</code>
        */
       io.dstore.values.StringValue getValue();
       /**
@@ -890,7 +890,7 @@ public final class MiGetDBSessionInformation {
        * Wert der Information (wie z.B. der Name der Datenbank, die ID des Benutzers etc.)
        * </pre>
        *
-       * <code>optional .dstore.values.StringValue value = 10002;</code>
+       * <code>.dstore.values.StringValue value = 10002;</code>
        */
       io.dstore.values.StringValueOrBuilder getValueOrBuilder();
 
@@ -899,7 +899,7 @@ public final class MiGetDBSessionInformation {
        * Name der Information (wie z.B. "UserName" oder "DBLoginID")
        * </pre>
        *
-       * <code>optional .dstore.values.StringValue information = 10003;</code>
+       * <code>.dstore.values.StringValue information = 10003;</code>
        */
       boolean hasInformation();
       /**
@@ -907,7 +907,7 @@ public final class MiGetDBSessionInformation {
        * Name der Information (wie z.B. "UserName" oder "DBLoginID")
        * </pre>
        *
-       * <code>optional .dstore.values.StringValue information = 10003;</code>
+       * <code>.dstore.values.StringValue information = 10003;</code>
        */
       io.dstore.values.StringValue getInformation();
       /**
@@ -915,7 +915,7 @@ public final class MiGetDBSessionInformation {
        * Name der Information (wie z.B. "UserName" oder "DBLoginID")
        * </pre>
        *
-       * <code>optional .dstore.values.StringValue information = 10003;</code>
+       * <code>.dstore.values.StringValue information = 10003;</code>
        */
       io.dstore.values.StringValueOrBuilder getInformationOrBuilder();
     }
@@ -1029,7 +1029,7 @@ public final class MiGetDBSessionInformation {
       public static final int ROW_ID_FIELD_NUMBER = 10000;
       private int rowId_;
       /**
-       * <code>optional int32 row_id = 10000;</code>
+       * <code>int32 row_id = 10000;</code>
        */
       public int getRowId() {
         return rowId_;
@@ -1042,7 +1042,7 @@ public final class MiGetDBSessionInformation {
        * Beschreibung/Erklärung (auf Englisch), um was es sich bei der gelieferten Information handelt. Hinweis : Mit "this database" ist immer die Datenbank gemeint, in der diese Prozedur hier installiert ist und ausgeführt wird.
        * </pre>
        *
-       * <code>optional .dstore.values.StringValue description = 10001;</code>
+       * <code>.dstore.values.StringValue description = 10001;</code>
        */
       public boolean hasDescription() {
         return description_ != null;
@@ -1052,7 +1052,7 @@ public final class MiGetDBSessionInformation {
        * Beschreibung/Erklärung (auf Englisch), um was es sich bei der gelieferten Information handelt. Hinweis : Mit "this database" ist immer die Datenbank gemeint, in der diese Prozedur hier installiert ist und ausgeführt wird.
        * </pre>
        *
-       * <code>optional .dstore.values.StringValue description = 10001;</code>
+       * <code>.dstore.values.StringValue description = 10001;</code>
        */
       public io.dstore.values.StringValue getDescription() {
         return description_ == null ? io.dstore.values.StringValue.getDefaultInstance() : description_;
@@ -1062,7 +1062,7 @@ public final class MiGetDBSessionInformation {
        * Beschreibung/Erklärung (auf Englisch), um was es sich bei der gelieferten Information handelt. Hinweis : Mit "this database" ist immer die Datenbank gemeint, in der diese Prozedur hier installiert ist und ausgeführt wird.
        * </pre>
        *
-       * <code>optional .dstore.values.StringValue description = 10001;</code>
+       * <code>.dstore.values.StringValue description = 10001;</code>
        */
       public io.dstore.values.StringValueOrBuilder getDescriptionOrBuilder() {
         return getDescription();
@@ -1075,7 +1075,7 @@ public final class MiGetDBSessionInformation {
        * Wert der Information (wie z.B. der Name der Datenbank, die ID des Benutzers etc.)
        * </pre>
        *
-       * <code>optional .dstore.values.StringValue value = 10002;</code>
+       * <code>.dstore.values.StringValue value = 10002;</code>
        */
       public boolean hasValue() {
         return value_ != null;
@@ -1085,7 +1085,7 @@ public final class MiGetDBSessionInformation {
        * Wert der Information (wie z.B. der Name der Datenbank, die ID des Benutzers etc.)
        * </pre>
        *
-       * <code>optional .dstore.values.StringValue value = 10002;</code>
+       * <code>.dstore.values.StringValue value = 10002;</code>
        */
       public io.dstore.values.StringValue getValue() {
         return value_ == null ? io.dstore.values.StringValue.getDefaultInstance() : value_;
@@ -1095,7 +1095,7 @@ public final class MiGetDBSessionInformation {
        * Wert der Information (wie z.B. der Name der Datenbank, die ID des Benutzers etc.)
        * </pre>
        *
-       * <code>optional .dstore.values.StringValue value = 10002;</code>
+       * <code>.dstore.values.StringValue value = 10002;</code>
        */
       public io.dstore.values.StringValueOrBuilder getValueOrBuilder() {
         return getValue();
@@ -1108,7 +1108,7 @@ public final class MiGetDBSessionInformation {
        * Name der Information (wie z.B. "UserName" oder "DBLoginID")
        * </pre>
        *
-       * <code>optional .dstore.values.StringValue information = 10003;</code>
+       * <code>.dstore.values.StringValue information = 10003;</code>
        */
       public boolean hasInformation() {
         return information_ != null;
@@ -1118,7 +1118,7 @@ public final class MiGetDBSessionInformation {
        * Name der Information (wie z.B. "UserName" oder "DBLoginID")
        * </pre>
        *
-       * <code>optional .dstore.values.StringValue information = 10003;</code>
+       * <code>.dstore.values.StringValue information = 10003;</code>
        */
       public io.dstore.values.StringValue getInformation() {
         return information_ == null ? io.dstore.values.StringValue.getDefaultInstance() : information_;
@@ -1128,7 +1128,7 @@ public final class MiGetDBSessionInformation {
        * Name der Information (wie z.B. "UserName" oder "DBLoginID")
        * </pre>
        *
-       * <code>optional .dstore.values.StringValue information = 10003;</code>
+       * <code>.dstore.values.StringValue information = 10003;</code>
        */
       public io.dstore.values.StringValueOrBuilder getInformationOrBuilder() {
         return getInformation();
@@ -1223,7 +1223,7 @@ public final class MiGetDBSessionInformation {
           return memoizedHashCode;
         }
         int hash = 41;
-        hash = (19 * hash) + getDescriptorForType().hashCode();
+        hash = (19 * hash) + getDescriptor().hashCode();
         hash = (37 * hash) + ROW_ID_FIELD_NUMBER;
         hash = (53 * hash) + getRowId();
         if (hasDescription()) {
@@ -1495,13 +1495,13 @@ public final class MiGetDBSessionInformation {
 
         private int rowId_ ;
         /**
-         * <code>optional int32 row_id = 10000;</code>
+         * <code>int32 row_id = 10000;</code>
          */
         public int getRowId() {
           return rowId_;
         }
         /**
-         * <code>optional int32 row_id = 10000;</code>
+         * <code>int32 row_id = 10000;</code>
          */
         public Builder setRowId(int value) {
           
@@ -1510,7 +1510,7 @@ public final class MiGetDBSessionInformation {
           return this;
         }
         /**
-         * <code>optional int32 row_id = 10000;</code>
+         * <code>int32 row_id = 10000;</code>
          */
         public Builder clearRowId() {
           
@@ -1527,7 +1527,7 @@ public final class MiGetDBSessionInformation {
          * Beschreibung/Erklärung (auf Englisch), um was es sich bei der gelieferten Information handelt. Hinweis : Mit "this database" ist immer die Datenbank gemeint, in der diese Prozedur hier installiert ist und ausgeführt wird.
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue description = 10001;</code>
+         * <code>.dstore.values.StringValue description = 10001;</code>
          */
         public boolean hasDescription() {
           return descriptionBuilder_ != null || description_ != null;
@@ -1537,7 +1537,7 @@ public final class MiGetDBSessionInformation {
          * Beschreibung/Erklärung (auf Englisch), um was es sich bei der gelieferten Information handelt. Hinweis : Mit "this database" ist immer die Datenbank gemeint, in der diese Prozedur hier installiert ist und ausgeführt wird.
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue description = 10001;</code>
+         * <code>.dstore.values.StringValue description = 10001;</code>
          */
         public io.dstore.values.StringValue getDescription() {
           if (descriptionBuilder_ == null) {
@@ -1551,7 +1551,7 @@ public final class MiGetDBSessionInformation {
          * Beschreibung/Erklärung (auf Englisch), um was es sich bei der gelieferten Information handelt. Hinweis : Mit "this database" ist immer die Datenbank gemeint, in der diese Prozedur hier installiert ist und ausgeführt wird.
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue description = 10001;</code>
+         * <code>.dstore.values.StringValue description = 10001;</code>
          */
         public Builder setDescription(io.dstore.values.StringValue value) {
           if (descriptionBuilder_ == null) {
@@ -1571,7 +1571,7 @@ public final class MiGetDBSessionInformation {
          * Beschreibung/Erklärung (auf Englisch), um was es sich bei der gelieferten Information handelt. Hinweis : Mit "this database" ist immer die Datenbank gemeint, in der diese Prozedur hier installiert ist und ausgeführt wird.
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue description = 10001;</code>
+         * <code>.dstore.values.StringValue description = 10001;</code>
          */
         public Builder setDescription(
             io.dstore.values.StringValue.Builder builderForValue) {
@@ -1589,7 +1589,7 @@ public final class MiGetDBSessionInformation {
          * Beschreibung/Erklärung (auf Englisch), um was es sich bei der gelieferten Information handelt. Hinweis : Mit "this database" ist immer die Datenbank gemeint, in der diese Prozedur hier installiert ist und ausgeführt wird.
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue description = 10001;</code>
+         * <code>.dstore.values.StringValue description = 10001;</code>
          */
         public Builder mergeDescription(io.dstore.values.StringValue value) {
           if (descriptionBuilder_ == null) {
@@ -1611,7 +1611,7 @@ public final class MiGetDBSessionInformation {
          * Beschreibung/Erklärung (auf Englisch), um was es sich bei der gelieferten Information handelt. Hinweis : Mit "this database" ist immer die Datenbank gemeint, in der diese Prozedur hier installiert ist und ausgeführt wird.
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue description = 10001;</code>
+         * <code>.dstore.values.StringValue description = 10001;</code>
          */
         public Builder clearDescription() {
           if (descriptionBuilder_ == null) {
@@ -1629,7 +1629,7 @@ public final class MiGetDBSessionInformation {
          * Beschreibung/Erklärung (auf Englisch), um was es sich bei der gelieferten Information handelt. Hinweis : Mit "this database" ist immer die Datenbank gemeint, in der diese Prozedur hier installiert ist und ausgeführt wird.
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue description = 10001;</code>
+         * <code>.dstore.values.StringValue description = 10001;</code>
          */
         public io.dstore.values.StringValue.Builder getDescriptionBuilder() {
           
@@ -1641,7 +1641,7 @@ public final class MiGetDBSessionInformation {
          * Beschreibung/Erklärung (auf Englisch), um was es sich bei der gelieferten Information handelt. Hinweis : Mit "this database" ist immer die Datenbank gemeint, in der diese Prozedur hier installiert ist und ausgeführt wird.
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue description = 10001;</code>
+         * <code>.dstore.values.StringValue description = 10001;</code>
          */
         public io.dstore.values.StringValueOrBuilder getDescriptionOrBuilder() {
           if (descriptionBuilder_ != null) {
@@ -1656,7 +1656,7 @@ public final class MiGetDBSessionInformation {
          * Beschreibung/Erklärung (auf Englisch), um was es sich bei der gelieferten Information handelt. Hinweis : Mit "this database" ist immer die Datenbank gemeint, in der diese Prozedur hier installiert ist und ausgeführt wird.
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue description = 10001;</code>
+         * <code>.dstore.values.StringValue description = 10001;</code>
          */
         private com.google.protobuf.SingleFieldBuilderV3<
             io.dstore.values.StringValue, io.dstore.values.StringValue.Builder, io.dstore.values.StringValueOrBuilder> 
@@ -1680,7 +1680,7 @@ public final class MiGetDBSessionInformation {
          * Wert der Information (wie z.B. der Name der Datenbank, die ID des Benutzers etc.)
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue value = 10002;</code>
+         * <code>.dstore.values.StringValue value = 10002;</code>
          */
         public boolean hasValue() {
           return valueBuilder_ != null || value_ != null;
@@ -1690,7 +1690,7 @@ public final class MiGetDBSessionInformation {
          * Wert der Information (wie z.B. der Name der Datenbank, die ID des Benutzers etc.)
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue value = 10002;</code>
+         * <code>.dstore.values.StringValue value = 10002;</code>
          */
         public io.dstore.values.StringValue getValue() {
           if (valueBuilder_ == null) {
@@ -1704,7 +1704,7 @@ public final class MiGetDBSessionInformation {
          * Wert der Information (wie z.B. der Name der Datenbank, die ID des Benutzers etc.)
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue value = 10002;</code>
+         * <code>.dstore.values.StringValue value = 10002;</code>
          */
         public Builder setValue(io.dstore.values.StringValue value) {
           if (valueBuilder_ == null) {
@@ -1724,7 +1724,7 @@ public final class MiGetDBSessionInformation {
          * Wert der Information (wie z.B. der Name der Datenbank, die ID des Benutzers etc.)
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue value = 10002;</code>
+         * <code>.dstore.values.StringValue value = 10002;</code>
          */
         public Builder setValue(
             io.dstore.values.StringValue.Builder builderForValue) {
@@ -1742,7 +1742,7 @@ public final class MiGetDBSessionInformation {
          * Wert der Information (wie z.B. der Name der Datenbank, die ID des Benutzers etc.)
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue value = 10002;</code>
+         * <code>.dstore.values.StringValue value = 10002;</code>
          */
         public Builder mergeValue(io.dstore.values.StringValue value) {
           if (valueBuilder_ == null) {
@@ -1764,7 +1764,7 @@ public final class MiGetDBSessionInformation {
          * Wert der Information (wie z.B. der Name der Datenbank, die ID des Benutzers etc.)
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue value = 10002;</code>
+         * <code>.dstore.values.StringValue value = 10002;</code>
          */
         public Builder clearValue() {
           if (valueBuilder_ == null) {
@@ -1782,7 +1782,7 @@ public final class MiGetDBSessionInformation {
          * Wert der Information (wie z.B. der Name der Datenbank, die ID des Benutzers etc.)
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue value = 10002;</code>
+         * <code>.dstore.values.StringValue value = 10002;</code>
          */
         public io.dstore.values.StringValue.Builder getValueBuilder() {
           
@@ -1794,7 +1794,7 @@ public final class MiGetDBSessionInformation {
          * Wert der Information (wie z.B. der Name der Datenbank, die ID des Benutzers etc.)
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue value = 10002;</code>
+         * <code>.dstore.values.StringValue value = 10002;</code>
          */
         public io.dstore.values.StringValueOrBuilder getValueOrBuilder() {
           if (valueBuilder_ != null) {
@@ -1809,7 +1809,7 @@ public final class MiGetDBSessionInformation {
          * Wert der Information (wie z.B. der Name der Datenbank, die ID des Benutzers etc.)
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue value = 10002;</code>
+         * <code>.dstore.values.StringValue value = 10002;</code>
          */
         private com.google.protobuf.SingleFieldBuilderV3<
             io.dstore.values.StringValue, io.dstore.values.StringValue.Builder, io.dstore.values.StringValueOrBuilder> 
@@ -1833,7 +1833,7 @@ public final class MiGetDBSessionInformation {
          * Name der Information (wie z.B. "UserName" oder "DBLoginID")
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue information = 10003;</code>
+         * <code>.dstore.values.StringValue information = 10003;</code>
          */
         public boolean hasInformation() {
           return informationBuilder_ != null || information_ != null;
@@ -1843,7 +1843,7 @@ public final class MiGetDBSessionInformation {
          * Name der Information (wie z.B. "UserName" oder "DBLoginID")
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue information = 10003;</code>
+         * <code>.dstore.values.StringValue information = 10003;</code>
          */
         public io.dstore.values.StringValue getInformation() {
           if (informationBuilder_ == null) {
@@ -1857,7 +1857,7 @@ public final class MiGetDBSessionInformation {
          * Name der Information (wie z.B. "UserName" oder "DBLoginID")
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue information = 10003;</code>
+         * <code>.dstore.values.StringValue information = 10003;</code>
          */
         public Builder setInformation(io.dstore.values.StringValue value) {
           if (informationBuilder_ == null) {
@@ -1877,7 +1877,7 @@ public final class MiGetDBSessionInformation {
          * Name der Information (wie z.B. "UserName" oder "DBLoginID")
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue information = 10003;</code>
+         * <code>.dstore.values.StringValue information = 10003;</code>
          */
         public Builder setInformation(
             io.dstore.values.StringValue.Builder builderForValue) {
@@ -1895,7 +1895,7 @@ public final class MiGetDBSessionInformation {
          * Name der Information (wie z.B. "UserName" oder "DBLoginID")
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue information = 10003;</code>
+         * <code>.dstore.values.StringValue information = 10003;</code>
          */
         public Builder mergeInformation(io.dstore.values.StringValue value) {
           if (informationBuilder_ == null) {
@@ -1917,7 +1917,7 @@ public final class MiGetDBSessionInformation {
          * Name der Information (wie z.B. "UserName" oder "DBLoginID")
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue information = 10003;</code>
+         * <code>.dstore.values.StringValue information = 10003;</code>
          */
         public Builder clearInformation() {
           if (informationBuilder_ == null) {
@@ -1935,7 +1935,7 @@ public final class MiGetDBSessionInformation {
          * Name der Information (wie z.B. "UserName" oder "DBLoginID")
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue information = 10003;</code>
+         * <code>.dstore.values.StringValue information = 10003;</code>
          */
         public io.dstore.values.StringValue.Builder getInformationBuilder() {
           
@@ -1947,7 +1947,7 @@ public final class MiGetDBSessionInformation {
          * Name der Information (wie z.B. "UserName" oder "DBLoginID")
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue information = 10003;</code>
+         * <code>.dstore.values.StringValue information = 10003;</code>
          */
         public io.dstore.values.StringValueOrBuilder getInformationOrBuilder() {
           if (informationBuilder_ != null) {
@@ -1962,7 +1962,7 @@ public final class MiGetDBSessionInformation {
          * Name der Information (wie z.B. "UserName" oder "DBLoginID")
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue information = 10003;</code>
+         * <code>.dstore.values.StringValue information = 10003;</code>
          */
         private com.google.protobuf.SingleFieldBuilderV3<
             io.dstore.values.StringValue, io.dstore.values.StringValue.Builder, io.dstore.values.StringValueOrBuilder> 
@@ -2222,7 +2222,7 @@ public final class MiGetDBSessionInformation {
         return memoizedHashCode;
       }
       int hash = 41;
-      hash = (19 * hash) + getDescriptorForType().hashCode();
+      hash = (19 * hash) + getDescriptor().hashCode();
       if (getMetaInformationCount() > 0) {
         hash = (37 * hash) + META_INFORMATION_FIELD_NUMBER;
         hash = (53 * hash) + getMetaInformationList().hashCode();

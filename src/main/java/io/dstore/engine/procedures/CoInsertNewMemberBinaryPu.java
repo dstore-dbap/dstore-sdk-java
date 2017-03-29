@@ -19,200 +19,200 @@ public final class CoInsertNewMemberBinaryPu {
       com.google.protobuf.MessageOrBuilder {
 
     /**
-     * <code>optional .dstore.values.StringValue unique_id = 1;</code>
+     * <code>.dstore.values.StringValue unique_id = 1;</code>
      */
     boolean hasUniqueId();
     /**
-     * <code>optional .dstore.values.StringValue unique_id = 1;</code>
+     * <code>.dstore.values.StringValue unique_id = 1;</code>
      */
     io.dstore.values.StringValue getUniqueId();
     /**
-     * <code>optional .dstore.values.StringValue unique_id = 1;</code>
+     * <code>.dstore.values.StringValue unique_id = 1;</code>
      */
     io.dstore.values.StringValueOrBuilder getUniqueIdOrBuilder();
 
     /**
-     * <code>optional bool unique_id_null = 1001;</code>
+     * <code>bool unique_id_null = 1001;</code>
      */
     boolean getUniqueIdNull();
 
     /**
-     * <code>optional .dstore.values.StringValue person_identification_values = 2;</code>
+     * <code>.dstore.values.StringValue person_identification_values = 2;</code>
      */
     boolean hasPersonIdentificationValues();
     /**
-     * <code>optional .dstore.values.StringValue person_identification_values = 2;</code>
+     * <code>.dstore.values.StringValue person_identification_values = 2;</code>
      */
     io.dstore.values.StringValue getPersonIdentificationValues();
     /**
-     * <code>optional .dstore.values.StringValue person_identification_values = 2;</code>
+     * <code>.dstore.values.StringValue person_identification_values = 2;</code>
      */
     io.dstore.values.StringValueOrBuilder getPersonIdentificationValuesOrBuilder();
 
     /**
-     * <code>optional bool person_identification_values_null = 1002;</code>
+     * <code>bool person_identification_values_null = 1002;</code>
      */
     boolean getPersonIdentificationValuesNull();
 
     /**
-     * <code>optional .dstore.values.IntegerValue community_id = 3;</code>
+     * <code>.dstore.values.IntegerValue community_id = 3;</code>
      */
     boolean hasCommunityId();
     /**
-     * <code>optional .dstore.values.IntegerValue community_id = 3;</code>
+     * <code>.dstore.values.IntegerValue community_id = 3;</code>
      */
     io.dstore.values.IntegerValue getCommunityId();
     /**
-     * <code>optional .dstore.values.IntegerValue community_id = 3;</code>
+     * <code>.dstore.values.IntegerValue community_id = 3;</code>
      */
     io.dstore.values.IntegerValueOrBuilder getCommunityIdOrBuilder();
 
     /**
-     * <code>optional bool community_id_null = 1003;</code>
+     * <code>bool community_id_null = 1003;</code>
      */
     boolean getCommunityIdNull();
 
     /**
-     * <code>optional .dstore.values.IntegerValue community_member_id = 4;</code>
+     * <code>.dstore.values.IntegerValue community_member_id = 4;</code>
      */
     boolean hasCommunityMemberId();
     /**
-     * <code>optional .dstore.values.IntegerValue community_member_id = 4;</code>
+     * <code>.dstore.values.IntegerValue community_member_id = 4;</code>
      */
     io.dstore.values.IntegerValue getCommunityMemberId();
     /**
-     * <code>optional .dstore.values.IntegerValue community_member_id = 4;</code>
+     * <code>.dstore.values.IntegerValue community_member_id = 4;</code>
      */
     io.dstore.values.IntegerValueOrBuilder getCommunityMemberIdOrBuilder();
 
     /**
-     * <code>optional bool community_member_id_null = 1004;</code>
+     * <code>bool community_member_id_null = 1004;</code>
      */
     boolean getCommunityMemberIdNull();
 
     /**
-     * <code>optional .dstore.values.IntegerValue community_binary_category_id = 5;</code>
+     * <code>.dstore.values.IntegerValue community_binary_category_id = 5;</code>
      */
     boolean hasCommunityBinaryCategoryId();
     /**
-     * <code>optional .dstore.values.IntegerValue community_binary_category_id = 5;</code>
+     * <code>.dstore.values.IntegerValue community_binary_category_id = 5;</code>
      */
     io.dstore.values.IntegerValue getCommunityBinaryCategoryId();
     /**
-     * <code>optional .dstore.values.IntegerValue community_binary_category_id = 5;</code>
+     * <code>.dstore.values.IntegerValue community_binary_category_id = 5;</code>
      */
     io.dstore.values.IntegerValueOrBuilder getCommunityBinaryCategoryIdOrBuilder();
 
     /**
-     * <code>optional bool community_binary_category_id_null = 1005;</code>
+     * <code>bool community_binary_category_id_null = 1005;</code>
      */
     boolean getCommunityBinaryCategoryIdNull();
 
     /**
-     * <code>optional .dstore.values.StringValue binary_description = 6;</code>
+     * <code>.dstore.values.StringValue binary_description = 6;</code>
      */
     boolean hasBinaryDescription();
     /**
-     * <code>optional .dstore.values.StringValue binary_description = 6;</code>
+     * <code>.dstore.values.StringValue binary_description = 6;</code>
      */
     io.dstore.values.StringValue getBinaryDescription();
     /**
-     * <code>optional .dstore.values.StringValue binary_description = 6;</code>
+     * <code>.dstore.values.StringValue binary_description = 6;</code>
      */
     io.dstore.values.StringValueOrBuilder getBinaryDescriptionOrBuilder();
 
     /**
-     * <code>optional bool binary_description_null = 1006;</code>
+     * <code>bool binary_description_null = 1006;</code>
      */
     boolean getBinaryDescriptionNull();
 
     /**
-     * <code>optional .dstore.values.StringValue m_d5_hash = 7;</code>
+     * <code>.dstore.values.StringValue m_d5_hash = 7;</code>
      */
     boolean hasMD5Hash();
     /**
-     * <code>optional .dstore.values.StringValue m_d5_hash = 7;</code>
+     * <code>.dstore.values.StringValue m_d5_hash = 7;</code>
      */
     io.dstore.values.StringValue getMD5Hash();
     /**
-     * <code>optional .dstore.values.StringValue m_d5_hash = 7;</code>
+     * <code>.dstore.values.StringValue m_d5_hash = 7;</code>
      */
     io.dstore.values.StringValueOrBuilder getMD5HashOrBuilder();
 
     /**
-     * <code>optional bool m_d5_hash_null = 1007;</code>
+     * <code>bool m_d5_hash_null = 1007;</code>
      */
     boolean getMD5HashNull();
 
     /**
-     * <code>optional .dstore.values.TimestampValue file_date_and_time = 8;</code>
+     * <code>.dstore.values.TimestampValue file_date_and_time = 8;</code>
      */
     boolean hasFileDateAndTime();
     /**
-     * <code>optional .dstore.values.TimestampValue file_date_and_time = 8;</code>
+     * <code>.dstore.values.TimestampValue file_date_and_time = 8;</code>
      */
     io.dstore.values.TimestampValue getFileDateAndTime();
     /**
-     * <code>optional .dstore.values.TimestampValue file_date_and_time = 8;</code>
+     * <code>.dstore.values.TimestampValue file_date_and_time = 8;</code>
      */
     io.dstore.values.TimestampValueOrBuilder getFileDateAndTimeOrBuilder();
 
     /**
-     * <code>optional bool file_date_and_time_null = 1008;</code>
+     * <code>bool file_date_and_time_null = 1008;</code>
      */
     boolean getFileDateAndTimeNull();
 
     /**
-     * <code>optional .dstore.values.IntegerValue filesize_in_k_b = 9;</code>
+     * <code>.dstore.values.IntegerValue filesize_in_k_b = 9;</code>
      */
     boolean hasFilesizeInKB();
     /**
-     * <code>optional .dstore.values.IntegerValue filesize_in_k_b = 9;</code>
+     * <code>.dstore.values.IntegerValue filesize_in_k_b = 9;</code>
      */
     io.dstore.values.IntegerValue getFilesizeInKB();
     /**
-     * <code>optional .dstore.values.IntegerValue filesize_in_k_b = 9;</code>
+     * <code>.dstore.values.IntegerValue filesize_in_k_b = 9;</code>
      */
     io.dstore.values.IntegerValueOrBuilder getFilesizeInKBOrBuilder();
 
     /**
-     * <code>optional bool filesize_in_k_b_null = 1009;</code>
+     * <code>bool filesize_in_k_b_null = 1009;</code>
      */
     boolean getFilesizeInKBNull();
 
     /**
-     * <code>optional .dstore.values.StringValue content_type = 10;</code>
+     * <code>.dstore.values.StringValue content_type = 10;</code>
      */
     boolean hasContentType();
     /**
-     * <code>optional .dstore.values.StringValue content_type = 10;</code>
+     * <code>.dstore.values.StringValue content_type = 10;</code>
      */
     io.dstore.values.StringValue getContentType();
     /**
-     * <code>optional .dstore.values.StringValue content_type = 10;</code>
+     * <code>.dstore.values.StringValue content_type = 10;</code>
      */
     io.dstore.values.StringValueOrBuilder getContentTypeOrBuilder();
 
     /**
-     * <code>optional bool content_type_null = 1010;</code>
+     * <code>bool content_type_null = 1010;</code>
      */
     boolean getContentTypeNull();
 
     /**
-     * <code>optional .dstore.values.StringValue separator_in_ident_vals = 11;</code>
+     * <code>.dstore.values.StringValue separator_in_ident_vals = 11;</code>
      */
     boolean hasSeparatorInIdentVals();
     /**
-     * <code>optional .dstore.values.StringValue separator_in_ident_vals = 11;</code>
+     * <code>.dstore.values.StringValue separator_in_ident_vals = 11;</code>
      */
     io.dstore.values.StringValue getSeparatorInIdentVals();
     /**
-     * <code>optional .dstore.values.StringValue separator_in_ident_vals = 11;</code>
+     * <code>.dstore.values.StringValue separator_in_ident_vals = 11;</code>
      */
     io.dstore.values.StringValueOrBuilder getSeparatorInIdentValsOrBuilder();
 
     /**
-     * <code>optional bool separator_in_ident_vals_null = 1011;</code>
+     * <code>bool separator_in_ident_vals_null = 1011;</code>
      */
     boolean getSeparatorInIdentValsNull();
   }
@@ -490,19 +490,19 @@ public final class CoInsertNewMemberBinaryPu {
     public static final int UNIQUE_ID_FIELD_NUMBER = 1;
     private io.dstore.values.StringValue uniqueId_;
     /**
-     * <code>optional .dstore.values.StringValue unique_id = 1;</code>
+     * <code>.dstore.values.StringValue unique_id = 1;</code>
      */
     public boolean hasUniqueId() {
       return uniqueId_ != null;
     }
     /**
-     * <code>optional .dstore.values.StringValue unique_id = 1;</code>
+     * <code>.dstore.values.StringValue unique_id = 1;</code>
      */
     public io.dstore.values.StringValue getUniqueId() {
       return uniqueId_ == null ? io.dstore.values.StringValue.getDefaultInstance() : uniqueId_;
     }
     /**
-     * <code>optional .dstore.values.StringValue unique_id = 1;</code>
+     * <code>.dstore.values.StringValue unique_id = 1;</code>
      */
     public io.dstore.values.StringValueOrBuilder getUniqueIdOrBuilder() {
       return getUniqueId();
@@ -511,7 +511,7 @@ public final class CoInsertNewMemberBinaryPu {
     public static final int UNIQUE_ID_NULL_FIELD_NUMBER = 1001;
     private boolean uniqueIdNull_;
     /**
-     * <code>optional bool unique_id_null = 1001;</code>
+     * <code>bool unique_id_null = 1001;</code>
      */
     public boolean getUniqueIdNull() {
       return uniqueIdNull_;
@@ -520,19 +520,19 @@ public final class CoInsertNewMemberBinaryPu {
     public static final int PERSON_IDENTIFICATION_VALUES_FIELD_NUMBER = 2;
     private io.dstore.values.StringValue personIdentificationValues_;
     /**
-     * <code>optional .dstore.values.StringValue person_identification_values = 2;</code>
+     * <code>.dstore.values.StringValue person_identification_values = 2;</code>
      */
     public boolean hasPersonIdentificationValues() {
       return personIdentificationValues_ != null;
     }
     /**
-     * <code>optional .dstore.values.StringValue person_identification_values = 2;</code>
+     * <code>.dstore.values.StringValue person_identification_values = 2;</code>
      */
     public io.dstore.values.StringValue getPersonIdentificationValues() {
       return personIdentificationValues_ == null ? io.dstore.values.StringValue.getDefaultInstance() : personIdentificationValues_;
     }
     /**
-     * <code>optional .dstore.values.StringValue person_identification_values = 2;</code>
+     * <code>.dstore.values.StringValue person_identification_values = 2;</code>
      */
     public io.dstore.values.StringValueOrBuilder getPersonIdentificationValuesOrBuilder() {
       return getPersonIdentificationValues();
@@ -541,7 +541,7 @@ public final class CoInsertNewMemberBinaryPu {
     public static final int PERSON_IDENTIFICATION_VALUES_NULL_FIELD_NUMBER = 1002;
     private boolean personIdentificationValuesNull_;
     /**
-     * <code>optional bool person_identification_values_null = 1002;</code>
+     * <code>bool person_identification_values_null = 1002;</code>
      */
     public boolean getPersonIdentificationValuesNull() {
       return personIdentificationValuesNull_;
@@ -550,19 +550,19 @@ public final class CoInsertNewMemberBinaryPu {
     public static final int COMMUNITY_ID_FIELD_NUMBER = 3;
     private io.dstore.values.IntegerValue communityId_;
     /**
-     * <code>optional .dstore.values.IntegerValue community_id = 3;</code>
+     * <code>.dstore.values.IntegerValue community_id = 3;</code>
      */
     public boolean hasCommunityId() {
       return communityId_ != null;
     }
     /**
-     * <code>optional .dstore.values.IntegerValue community_id = 3;</code>
+     * <code>.dstore.values.IntegerValue community_id = 3;</code>
      */
     public io.dstore.values.IntegerValue getCommunityId() {
       return communityId_ == null ? io.dstore.values.IntegerValue.getDefaultInstance() : communityId_;
     }
     /**
-     * <code>optional .dstore.values.IntegerValue community_id = 3;</code>
+     * <code>.dstore.values.IntegerValue community_id = 3;</code>
      */
     public io.dstore.values.IntegerValueOrBuilder getCommunityIdOrBuilder() {
       return getCommunityId();
@@ -571,7 +571,7 @@ public final class CoInsertNewMemberBinaryPu {
     public static final int COMMUNITY_ID_NULL_FIELD_NUMBER = 1003;
     private boolean communityIdNull_;
     /**
-     * <code>optional bool community_id_null = 1003;</code>
+     * <code>bool community_id_null = 1003;</code>
      */
     public boolean getCommunityIdNull() {
       return communityIdNull_;
@@ -580,19 +580,19 @@ public final class CoInsertNewMemberBinaryPu {
     public static final int COMMUNITY_MEMBER_ID_FIELD_NUMBER = 4;
     private io.dstore.values.IntegerValue communityMemberId_;
     /**
-     * <code>optional .dstore.values.IntegerValue community_member_id = 4;</code>
+     * <code>.dstore.values.IntegerValue community_member_id = 4;</code>
      */
     public boolean hasCommunityMemberId() {
       return communityMemberId_ != null;
     }
     /**
-     * <code>optional .dstore.values.IntegerValue community_member_id = 4;</code>
+     * <code>.dstore.values.IntegerValue community_member_id = 4;</code>
      */
     public io.dstore.values.IntegerValue getCommunityMemberId() {
       return communityMemberId_ == null ? io.dstore.values.IntegerValue.getDefaultInstance() : communityMemberId_;
     }
     /**
-     * <code>optional .dstore.values.IntegerValue community_member_id = 4;</code>
+     * <code>.dstore.values.IntegerValue community_member_id = 4;</code>
      */
     public io.dstore.values.IntegerValueOrBuilder getCommunityMemberIdOrBuilder() {
       return getCommunityMemberId();
@@ -601,7 +601,7 @@ public final class CoInsertNewMemberBinaryPu {
     public static final int COMMUNITY_MEMBER_ID_NULL_FIELD_NUMBER = 1004;
     private boolean communityMemberIdNull_;
     /**
-     * <code>optional bool community_member_id_null = 1004;</code>
+     * <code>bool community_member_id_null = 1004;</code>
      */
     public boolean getCommunityMemberIdNull() {
       return communityMemberIdNull_;
@@ -610,19 +610,19 @@ public final class CoInsertNewMemberBinaryPu {
     public static final int COMMUNITY_BINARY_CATEGORY_ID_FIELD_NUMBER = 5;
     private io.dstore.values.IntegerValue communityBinaryCategoryId_;
     /**
-     * <code>optional .dstore.values.IntegerValue community_binary_category_id = 5;</code>
+     * <code>.dstore.values.IntegerValue community_binary_category_id = 5;</code>
      */
     public boolean hasCommunityBinaryCategoryId() {
       return communityBinaryCategoryId_ != null;
     }
     /**
-     * <code>optional .dstore.values.IntegerValue community_binary_category_id = 5;</code>
+     * <code>.dstore.values.IntegerValue community_binary_category_id = 5;</code>
      */
     public io.dstore.values.IntegerValue getCommunityBinaryCategoryId() {
       return communityBinaryCategoryId_ == null ? io.dstore.values.IntegerValue.getDefaultInstance() : communityBinaryCategoryId_;
     }
     /**
-     * <code>optional .dstore.values.IntegerValue community_binary_category_id = 5;</code>
+     * <code>.dstore.values.IntegerValue community_binary_category_id = 5;</code>
      */
     public io.dstore.values.IntegerValueOrBuilder getCommunityBinaryCategoryIdOrBuilder() {
       return getCommunityBinaryCategoryId();
@@ -631,7 +631,7 @@ public final class CoInsertNewMemberBinaryPu {
     public static final int COMMUNITY_BINARY_CATEGORY_ID_NULL_FIELD_NUMBER = 1005;
     private boolean communityBinaryCategoryIdNull_;
     /**
-     * <code>optional bool community_binary_category_id_null = 1005;</code>
+     * <code>bool community_binary_category_id_null = 1005;</code>
      */
     public boolean getCommunityBinaryCategoryIdNull() {
       return communityBinaryCategoryIdNull_;
@@ -640,19 +640,19 @@ public final class CoInsertNewMemberBinaryPu {
     public static final int BINARY_DESCRIPTION_FIELD_NUMBER = 6;
     private io.dstore.values.StringValue binaryDescription_;
     /**
-     * <code>optional .dstore.values.StringValue binary_description = 6;</code>
+     * <code>.dstore.values.StringValue binary_description = 6;</code>
      */
     public boolean hasBinaryDescription() {
       return binaryDescription_ != null;
     }
     /**
-     * <code>optional .dstore.values.StringValue binary_description = 6;</code>
+     * <code>.dstore.values.StringValue binary_description = 6;</code>
      */
     public io.dstore.values.StringValue getBinaryDescription() {
       return binaryDescription_ == null ? io.dstore.values.StringValue.getDefaultInstance() : binaryDescription_;
     }
     /**
-     * <code>optional .dstore.values.StringValue binary_description = 6;</code>
+     * <code>.dstore.values.StringValue binary_description = 6;</code>
      */
     public io.dstore.values.StringValueOrBuilder getBinaryDescriptionOrBuilder() {
       return getBinaryDescription();
@@ -661,7 +661,7 @@ public final class CoInsertNewMemberBinaryPu {
     public static final int BINARY_DESCRIPTION_NULL_FIELD_NUMBER = 1006;
     private boolean binaryDescriptionNull_;
     /**
-     * <code>optional bool binary_description_null = 1006;</code>
+     * <code>bool binary_description_null = 1006;</code>
      */
     public boolean getBinaryDescriptionNull() {
       return binaryDescriptionNull_;
@@ -670,19 +670,19 @@ public final class CoInsertNewMemberBinaryPu {
     public static final int M_D5_HASH_FIELD_NUMBER = 7;
     private io.dstore.values.StringValue mD5Hash_;
     /**
-     * <code>optional .dstore.values.StringValue m_d5_hash = 7;</code>
+     * <code>.dstore.values.StringValue m_d5_hash = 7;</code>
      */
     public boolean hasMD5Hash() {
       return mD5Hash_ != null;
     }
     /**
-     * <code>optional .dstore.values.StringValue m_d5_hash = 7;</code>
+     * <code>.dstore.values.StringValue m_d5_hash = 7;</code>
      */
     public io.dstore.values.StringValue getMD5Hash() {
       return mD5Hash_ == null ? io.dstore.values.StringValue.getDefaultInstance() : mD5Hash_;
     }
     /**
-     * <code>optional .dstore.values.StringValue m_d5_hash = 7;</code>
+     * <code>.dstore.values.StringValue m_d5_hash = 7;</code>
      */
     public io.dstore.values.StringValueOrBuilder getMD5HashOrBuilder() {
       return getMD5Hash();
@@ -691,7 +691,7 @@ public final class CoInsertNewMemberBinaryPu {
     public static final int M_D5_HASH_NULL_FIELD_NUMBER = 1007;
     private boolean mD5HashNull_;
     /**
-     * <code>optional bool m_d5_hash_null = 1007;</code>
+     * <code>bool m_d5_hash_null = 1007;</code>
      */
     public boolean getMD5HashNull() {
       return mD5HashNull_;
@@ -700,19 +700,19 @@ public final class CoInsertNewMemberBinaryPu {
     public static final int FILE_DATE_AND_TIME_FIELD_NUMBER = 8;
     private io.dstore.values.TimestampValue fileDateAndTime_;
     /**
-     * <code>optional .dstore.values.TimestampValue file_date_and_time = 8;</code>
+     * <code>.dstore.values.TimestampValue file_date_and_time = 8;</code>
      */
     public boolean hasFileDateAndTime() {
       return fileDateAndTime_ != null;
     }
     /**
-     * <code>optional .dstore.values.TimestampValue file_date_and_time = 8;</code>
+     * <code>.dstore.values.TimestampValue file_date_and_time = 8;</code>
      */
     public io.dstore.values.TimestampValue getFileDateAndTime() {
       return fileDateAndTime_ == null ? io.dstore.values.TimestampValue.getDefaultInstance() : fileDateAndTime_;
     }
     /**
-     * <code>optional .dstore.values.TimestampValue file_date_and_time = 8;</code>
+     * <code>.dstore.values.TimestampValue file_date_and_time = 8;</code>
      */
     public io.dstore.values.TimestampValueOrBuilder getFileDateAndTimeOrBuilder() {
       return getFileDateAndTime();
@@ -721,7 +721,7 @@ public final class CoInsertNewMemberBinaryPu {
     public static final int FILE_DATE_AND_TIME_NULL_FIELD_NUMBER = 1008;
     private boolean fileDateAndTimeNull_;
     /**
-     * <code>optional bool file_date_and_time_null = 1008;</code>
+     * <code>bool file_date_and_time_null = 1008;</code>
      */
     public boolean getFileDateAndTimeNull() {
       return fileDateAndTimeNull_;
@@ -730,19 +730,19 @@ public final class CoInsertNewMemberBinaryPu {
     public static final int FILESIZE_IN_K_B_FIELD_NUMBER = 9;
     private io.dstore.values.IntegerValue filesizeInKB_;
     /**
-     * <code>optional .dstore.values.IntegerValue filesize_in_k_b = 9;</code>
+     * <code>.dstore.values.IntegerValue filesize_in_k_b = 9;</code>
      */
     public boolean hasFilesizeInKB() {
       return filesizeInKB_ != null;
     }
     /**
-     * <code>optional .dstore.values.IntegerValue filesize_in_k_b = 9;</code>
+     * <code>.dstore.values.IntegerValue filesize_in_k_b = 9;</code>
      */
     public io.dstore.values.IntegerValue getFilesizeInKB() {
       return filesizeInKB_ == null ? io.dstore.values.IntegerValue.getDefaultInstance() : filesizeInKB_;
     }
     /**
-     * <code>optional .dstore.values.IntegerValue filesize_in_k_b = 9;</code>
+     * <code>.dstore.values.IntegerValue filesize_in_k_b = 9;</code>
      */
     public io.dstore.values.IntegerValueOrBuilder getFilesizeInKBOrBuilder() {
       return getFilesizeInKB();
@@ -751,7 +751,7 @@ public final class CoInsertNewMemberBinaryPu {
     public static final int FILESIZE_IN_K_B_NULL_FIELD_NUMBER = 1009;
     private boolean filesizeInKBNull_;
     /**
-     * <code>optional bool filesize_in_k_b_null = 1009;</code>
+     * <code>bool filesize_in_k_b_null = 1009;</code>
      */
     public boolean getFilesizeInKBNull() {
       return filesizeInKBNull_;
@@ -760,19 +760,19 @@ public final class CoInsertNewMemberBinaryPu {
     public static final int CONTENT_TYPE_FIELD_NUMBER = 10;
     private io.dstore.values.StringValue contentType_;
     /**
-     * <code>optional .dstore.values.StringValue content_type = 10;</code>
+     * <code>.dstore.values.StringValue content_type = 10;</code>
      */
     public boolean hasContentType() {
       return contentType_ != null;
     }
     /**
-     * <code>optional .dstore.values.StringValue content_type = 10;</code>
+     * <code>.dstore.values.StringValue content_type = 10;</code>
      */
     public io.dstore.values.StringValue getContentType() {
       return contentType_ == null ? io.dstore.values.StringValue.getDefaultInstance() : contentType_;
     }
     /**
-     * <code>optional .dstore.values.StringValue content_type = 10;</code>
+     * <code>.dstore.values.StringValue content_type = 10;</code>
      */
     public io.dstore.values.StringValueOrBuilder getContentTypeOrBuilder() {
       return getContentType();
@@ -781,7 +781,7 @@ public final class CoInsertNewMemberBinaryPu {
     public static final int CONTENT_TYPE_NULL_FIELD_NUMBER = 1010;
     private boolean contentTypeNull_;
     /**
-     * <code>optional bool content_type_null = 1010;</code>
+     * <code>bool content_type_null = 1010;</code>
      */
     public boolean getContentTypeNull() {
       return contentTypeNull_;
@@ -790,19 +790,19 @@ public final class CoInsertNewMemberBinaryPu {
     public static final int SEPARATOR_IN_IDENT_VALS_FIELD_NUMBER = 11;
     private io.dstore.values.StringValue separatorInIdentVals_;
     /**
-     * <code>optional .dstore.values.StringValue separator_in_ident_vals = 11;</code>
+     * <code>.dstore.values.StringValue separator_in_ident_vals = 11;</code>
      */
     public boolean hasSeparatorInIdentVals() {
       return separatorInIdentVals_ != null;
     }
     /**
-     * <code>optional .dstore.values.StringValue separator_in_ident_vals = 11;</code>
+     * <code>.dstore.values.StringValue separator_in_ident_vals = 11;</code>
      */
     public io.dstore.values.StringValue getSeparatorInIdentVals() {
       return separatorInIdentVals_ == null ? io.dstore.values.StringValue.getDefaultInstance() : separatorInIdentVals_;
     }
     /**
-     * <code>optional .dstore.values.StringValue separator_in_ident_vals = 11;</code>
+     * <code>.dstore.values.StringValue separator_in_ident_vals = 11;</code>
      */
     public io.dstore.values.StringValueOrBuilder getSeparatorInIdentValsOrBuilder() {
       return getSeparatorInIdentVals();
@@ -811,7 +811,7 @@ public final class CoInsertNewMemberBinaryPu {
     public static final int SEPARATOR_IN_IDENT_VALS_NULL_FIELD_NUMBER = 1011;
     private boolean separatorInIdentValsNull_;
     /**
-     * <code>optional bool separator_in_ident_vals_null = 1011;</code>
+     * <code>bool separator_in_ident_vals_null = 1011;</code>
      */
     public boolean getSeparatorInIdentValsNull() {
       return separatorInIdentValsNull_;
@@ -1092,7 +1092,7 @@ public final class CoInsertNewMemberBinaryPu {
         return memoizedHashCode;
       }
       int hash = 41;
-      hash = (19 * hash) + getDescriptorForType().hashCode();
+      hash = (19 * hash) + getDescriptor().hashCode();
       if (hasUniqueId()) {
         hash = (37 * hash) + UNIQUE_ID_FIELD_NUMBER;
         hash = (53 * hash) + getUniqueId().hashCode();
@@ -1601,13 +1601,13 @@ public final class CoInsertNewMemberBinaryPu {
       private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.values.StringValue, io.dstore.values.StringValue.Builder, io.dstore.values.StringValueOrBuilder> uniqueIdBuilder_;
       /**
-       * <code>optional .dstore.values.StringValue unique_id = 1;</code>
+       * <code>.dstore.values.StringValue unique_id = 1;</code>
        */
       public boolean hasUniqueId() {
         return uniqueIdBuilder_ != null || uniqueId_ != null;
       }
       /**
-       * <code>optional .dstore.values.StringValue unique_id = 1;</code>
+       * <code>.dstore.values.StringValue unique_id = 1;</code>
        */
       public io.dstore.values.StringValue getUniqueId() {
         if (uniqueIdBuilder_ == null) {
@@ -1617,7 +1617,7 @@ public final class CoInsertNewMemberBinaryPu {
         }
       }
       /**
-       * <code>optional .dstore.values.StringValue unique_id = 1;</code>
+       * <code>.dstore.values.StringValue unique_id = 1;</code>
        */
       public Builder setUniqueId(io.dstore.values.StringValue value) {
         if (uniqueIdBuilder_ == null) {
@@ -1633,7 +1633,7 @@ public final class CoInsertNewMemberBinaryPu {
         return this;
       }
       /**
-       * <code>optional .dstore.values.StringValue unique_id = 1;</code>
+       * <code>.dstore.values.StringValue unique_id = 1;</code>
        */
       public Builder setUniqueId(
           io.dstore.values.StringValue.Builder builderForValue) {
@@ -1647,7 +1647,7 @@ public final class CoInsertNewMemberBinaryPu {
         return this;
       }
       /**
-       * <code>optional .dstore.values.StringValue unique_id = 1;</code>
+       * <code>.dstore.values.StringValue unique_id = 1;</code>
        */
       public Builder mergeUniqueId(io.dstore.values.StringValue value) {
         if (uniqueIdBuilder_ == null) {
@@ -1665,7 +1665,7 @@ public final class CoInsertNewMemberBinaryPu {
         return this;
       }
       /**
-       * <code>optional .dstore.values.StringValue unique_id = 1;</code>
+       * <code>.dstore.values.StringValue unique_id = 1;</code>
        */
       public Builder clearUniqueId() {
         if (uniqueIdBuilder_ == null) {
@@ -1679,7 +1679,7 @@ public final class CoInsertNewMemberBinaryPu {
         return this;
       }
       /**
-       * <code>optional .dstore.values.StringValue unique_id = 1;</code>
+       * <code>.dstore.values.StringValue unique_id = 1;</code>
        */
       public io.dstore.values.StringValue.Builder getUniqueIdBuilder() {
         
@@ -1687,7 +1687,7 @@ public final class CoInsertNewMemberBinaryPu {
         return getUniqueIdFieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .dstore.values.StringValue unique_id = 1;</code>
+       * <code>.dstore.values.StringValue unique_id = 1;</code>
        */
       public io.dstore.values.StringValueOrBuilder getUniqueIdOrBuilder() {
         if (uniqueIdBuilder_ != null) {
@@ -1698,7 +1698,7 @@ public final class CoInsertNewMemberBinaryPu {
         }
       }
       /**
-       * <code>optional .dstore.values.StringValue unique_id = 1;</code>
+       * <code>.dstore.values.StringValue unique_id = 1;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.values.StringValue, io.dstore.values.StringValue.Builder, io.dstore.values.StringValueOrBuilder> 
@@ -1716,13 +1716,13 @@ public final class CoInsertNewMemberBinaryPu {
 
       private boolean uniqueIdNull_ ;
       /**
-       * <code>optional bool unique_id_null = 1001;</code>
+       * <code>bool unique_id_null = 1001;</code>
        */
       public boolean getUniqueIdNull() {
         return uniqueIdNull_;
       }
       /**
-       * <code>optional bool unique_id_null = 1001;</code>
+       * <code>bool unique_id_null = 1001;</code>
        */
       public Builder setUniqueIdNull(boolean value) {
         
@@ -1731,7 +1731,7 @@ public final class CoInsertNewMemberBinaryPu {
         return this;
       }
       /**
-       * <code>optional bool unique_id_null = 1001;</code>
+       * <code>bool unique_id_null = 1001;</code>
        */
       public Builder clearUniqueIdNull() {
         
@@ -1744,13 +1744,13 @@ public final class CoInsertNewMemberBinaryPu {
       private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.values.StringValue, io.dstore.values.StringValue.Builder, io.dstore.values.StringValueOrBuilder> personIdentificationValuesBuilder_;
       /**
-       * <code>optional .dstore.values.StringValue person_identification_values = 2;</code>
+       * <code>.dstore.values.StringValue person_identification_values = 2;</code>
        */
       public boolean hasPersonIdentificationValues() {
         return personIdentificationValuesBuilder_ != null || personIdentificationValues_ != null;
       }
       /**
-       * <code>optional .dstore.values.StringValue person_identification_values = 2;</code>
+       * <code>.dstore.values.StringValue person_identification_values = 2;</code>
        */
       public io.dstore.values.StringValue getPersonIdentificationValues() {
         if (personIdentificationValuesBuilder_ == null) {
@@ -1760,7 +1760,7 @@ public final class CoInsertNewMemberBinaryPu {
         }
       }
       /**
-       * <code>optional .dstore.values.StringValue person_identification_values = 2;</code>
+       * <code>.dstore.values.StringValue person_identification_values = 2;</code>
        */
       public Builder setPersonIdentificationValues(io.dstore.values.StringValue value) {
         if (personIdentificationValuesBuilder_ == null) {
@@ -1776,7 +1776,7 @@ public final class CoInsertNewMemberBinaryPu {
         return this;
       }
       /**
-       * <code>optional .dstore.values.StringValue person_identification_values = 2;</code>
+       * <code>.dstore.values.StringValue person_identification_values = 2;</code>
        */
       public Builder setPersonIdentificationValues(
           io.dstore.values.StringValue.Builder builderForValue) {
@@ -1790,7 +1790,7 @@ public final class CoInsertNewMemberBinaryPu {
         return this;
       }
       /**
-       * <code>optional .dstore.values.StringValue person_identification_values = 2;</code>
+       * <code>.dstore.values.StringValue person_identification_values = 2;</code>
        */
       public Builder mergePersonIdentificationValues(io.dstore.values.StringValue value) {
         if (personIdentificationValuesBuilder_ == null) {
@@ -1808,7 +1808,7 @@ public final class CoInsertNewMemberBinaryPu {
         return this;
       }
       /**
-       * <code>optional .dstore.values.StringValue person_identification_values = 2;</code>
+       * <code>.dstore.values.StringValue person_identification_values = 2;</code>
        */
       public Builder clearPersonIdentificationValues() {
         if (personIdentificationValuesBuilder_ == null) {
@@ -1822,7 +1822,7 @@ public final class CoInsertNewMemberBinaryPu {
         return this;
       }
       /**
-       * <code>optional .dstore.values.StringValue person_identification_values = 2;</code>
+       * <code>.dstore.values.StringValue person_identification_values = 2;</code>
        */
       public io.dstore.values.StringValue.Builder getPersonIdentificationValuesBuilder() {
         
@@ -1830,7 +1830,7 @@ public final class CoInsertNewMemberBinaryPu {
         return getPersonIdentificationValuesFieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .dstore.values.StringValue person_identification_values = 2;</code>
+       * <code>.dstore.values.StringValue person_identification_values = 2;</code>
        */
       public io.dstore.values.StringValueOrBuilder getPersonIdentificationValuesOrBuilder() {
         if (personIdentificationValuesBuilder_ != null) {
@@ -1841,7 +1841,7 @@ public final class CoInsertNewMemberBinaryPu {
         }
       }
       /**
-       * <code>optional .dstore.values.StringValue person_identification_values = 2;</code>
+       * <code>.dstore.values.StringValue person_identification_values = 2;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.values.StringValue, io.dstore.values.StringValue.Builder, io.dstore.values.StringValueOrBuilder> 
@@ -1859,13 +1859,13 @@ public final class CoInsertNewMemberBinaryPu {
 
       private boolean personIdentificationValuesNull_ ;
       /**
-       * <code>optional bool person_identification_values_null = 1002;</code>
+       * <code>bool person_identification_values_null = 1002;</code>
        */
       public boolean getPersonIdentificationValuesNull() {
         return personIdentificationValuesNull_;
       }
       /**
-       * <code>optional bool person_identification_values_null = 1002;</code>
+       * <code>bool person_identification_values_null = 1002;</code>
        */
       public Builder setPersonIdentificationValuesNull(boolean value) {
         
@@ -1874,7 +1874,7 @@ public final class CoInsertNewMemberBinaryPu {
         return this;
       }
       /**
-       * <code>optional bool person_identification_values_null = 1002;</code>
+       * <code>bool person_identification_values_null = 1002;</code>
        */
       public Builder clearPersonIdentificationValuesNull() {
         
@@ -1887,13 +1887,13 @@ public final class CoInsertNewMemberBinaryPu {
       private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> communityIdBuilder_;
       /**
-       * <code>optional .dstore.values.IntegerValue community_id = 3;</code>
+       * <code>.dstore.values.IntegerValue community_id = 3;</code>
        */
       public boolean hasCommunityId() {
         return communityIdBuilder_ != null || communityId_ != null;
       }
       /**
-       * <code>optional .dstore.values.IntegerValue community_id = 3;</code>
+       * <code>.dstore.values.IntegerValue community_id = 3;</code>
        */
       public io.dstore.values.IntegerValue getCommunityId() {
         if (communityIdBuilder_ == null) {
@@ -1903,7 +1903,7 @@ public final class CoInsertNewMemberBinaryPu {
         }
       }
       /**
-       * <code>optional .dstore.values.IntegerValue community_id = 3;</code>
+       * <code>.dstore.values.IntegerValue community_id = 3;</code>
        */
       public Builder setCommunityId(io.dstore.values.IntegerValue value) {
         if (communityIdBuilder_ == null) {
@@ -1919,7 +1919,7 @@ public final class CoInsertNewMemberBinaryPu {
         return this;
       }
       /**
-       * <code>optional .dstore.values.IntegerValue community_id = 3;</code>
+       * <code>.dstore.values.IntegerValue community_id = 3;</code>
        */
       public Builder setCommunityId(
           io.dstore.values.IntegerValue.Builder builderForValue) {
@@ -1933,7 +1933,7 @@ public final class CoInsertNewMemberBinaryPu {
         return this;
       }
       /**
-       * <code>optional .dstore.values.IntegerValue community_id = 3;</code>
+       * <code>.dstore.values.IntegerValue community_id = 3;</code>
        */
       public Builder mergeCommunityId(io.dstore.values.IntegerValue value) {
         if (communityIdBuilder_ == null) {
@@ -1951,7 +1951,7 @@ public final class CoInsertNewMemberBinaryPu {
         return this;
       }
       /**
-       * <code>optional .dstore.values.IntegerValue community_id = 3;</code>
+       * <code>.dstore.values.IntegerValue community_id = 3;</code>
        */
       public Builder clearCommunityId() {
         if (communityIdBuilder_ == null) {
@@ -1965,7 +1965,7 @@ public final class CoInsertNewMemberBinaryPu {
         return this;
       }
       /**
-       * <code>optional .dstore.values.IntegerValue community_id = 3;</code>
+       * <code>.dstore.values.IntegerValue community_id = 3;</code>
        */
       public io.dstore.values.IntegerValue.Builder getCommunityIdBuilder() {
         
@@ -1973,7 +1973,7 @@ public final class CoInsertNewMemberBinaryPu {
         return getCommunityIdFieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .dstore.values.IntegerValue community_id = 3;</code>
+       * <code>.dstore.values.IntegerValue community_id = 3;</code>
        */
       public io.dstore.values.IntegerValueOrBuilder getCommunityIdOrBuilder() {
         if (communityIdBuilder_ != null) {
@@ -1984,7 +1984,7 @@ public final class CoInsertNewMemberBinaryPu {
         }
       }
       /**
-       * <code>optional .dstore.values.IntegerValue community_id = 3;</code>
+       * <code>.dstore.values.IntegerValue community_id = 3;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> 
@@ -2002,13 +2002,13 @@ public final class CoInsertNewMemberBinaryPu {
 
       private boolean communityIdNull_ ;
       /**
-       * <code>optional bool community_id_null = 1003;</code>
+       * <code>bool community_id_null = 1003;</code>
        */
       public boolean getCommunityIdNull() {
         return communityIdNull_;
       }
       /**
-       * <code>optional bool community_id_null = 1003;</code>
+       * <code>bool community_id_null = 1003;</code>
        */
       public Builder setCommunityIdNull(boolean value) {
         
@@ -2017,7 +2017,7 @@ public final class CoInsertNewMemberBinaryPu {
         return this;
       }
       /**
-       * <code>optional bool community_id_null = 1003;</code>
+       * <code>bool community_id_null = 1003;</code>
        */
       public Builder clearCommunityIdNull() {
         
@@ -2030,13 +2030,13 @@ public final class CoInsertNewMemberBinaryPu {
       private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> communityMemberIdBuilder_;
       /**
-       * <code>optional .dstore.values.IntegerValue community_member_id = 4;</code>
+       * <code>.dstore.values.IntegerValue community_member_id = 4;</code>
        */
       public boolean hasCommunityMemberId() {
         return communityMemberIdBuilder_ != null || communityMemberId_ != null;
       }
       /**
-       * <code>optional .dstore.values.IntegerValue community_member_id = 4;</code>
+       * <code>.dstore.values.IntegerValue community_member_id = 4;</code>
        */
       public io.dstore.values.IntegerValue getCommunityMemberId() {
         if (communityMemberIdBuilder_ == null) {
@@ -2046,7 +2046,7 @@ public final class CoInsertNewMemberBinaryPu {
         }
       }
       /**
-       * <code>optional .dstore.values.IntegerValue community_member_id = 4;</code>
+       * <code>.dstore.values.IntegerValue community_member_id = 4;</code>
        */
       public Builder setCommunityMemberId(io.dstore.values.IntegerValue value) {
         if (communityMemberIdBuilder_ == null) {
@@ -2062,7 +2062,7 @@ public final class CoInsertNewMemberBinaryPu {
         return this;
       }
       /**
-       * <code>optional .dstore.values.IntegerValue community_member_id = 4;</code>
+       * <code>.dstore.values.IntegerValue community_member_id = 4;</code>
        */
       public Builder setCommunityMemberId(
           io.dstore.values.IntegerValue.Builder builderForValue) {
@@ -2076,7 +2076,7 @@ public final class CoInsertNewMemberBinaryPu {
         return this;
       }
       /**
-       * <code>optional .dstore.values.IntegerValue community_member_id = 4;</code>
+       * <code>.dstore.values.IntegerValue community_member_id = 4;</code>
        */
       public Builder mergeCommunityMemberId(io.dstore.values.IntegerValue value) {
         if (communityMemberIdBuilder_ == null) {
@@ -2094,7 +2094,7 @@ public final class CoInsertNewMemberBinaryPu {
         return this;
       }
       /**
-       * <code>optional .dstore.values.IntegerValue community_member_id = 4;</code>
+       * <code>.dstore.values.IntegerValue community_member_id = 4;</code>
        */
       public Builder clearCommunityMemberId() {
         if (communityMemberIdBuilder_ == null) {
@@ -2108,7 +2108,7 @@ public final class CoInsertNewMemberBinaryPu {
         return this;
       }
       /**
-       * <code>optional .dstore.values.IntegerValue community_member_id = 4;</code>
+       * <code>.dstore.values.IntegerValue community_member_id = 4;</code>
        */
       public io.dstore.values.IntegerValue.Builder getCommunityMemberIdBuilder() {
         
@@ -2116,7 +2116,7 @@ public final class CoInsertNewMemberBinaryPu {
         return getCommunityMemberIdFieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .dstore.values.IntegerValue community_member_id = 4;</code>
+       * <code>.dstore.values.IntegerValue community_member_id = 4;</code>
        */
       public io.dstore.values.IntegerValueOrBuilder getCommunityMemberIdOrBuilder() {
         if (communityMemberIdBuilder_ != null) {
@@ -2127,7 +2127,7 @@ public final class CoInsertNewMemberBinaryPu {
         }
       }
       /**
-       * <code>optional .dstore.values.IntegerValue community_member_id = 4;</code>
+       * <code>.dstore.values.IntegerValue community_member_id = 4;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> 
@@ -2145,13 +2145,13 @@ public final class CoInsertNewMemberBinaryPu {
 
       private boolean communityMemberIdNull_ ;
       /**
-       * <code>optional bool community_member_id_null = 1004;</code>
+       * <code>bool community_member_id_null = 1004;</code>
        */
       public boolean getCommunityMemberIdNull() {
         return communityMemberIdNull_;
       }
       /**
-       * <code>optional bool community_member_id_null = 1004;</code>
+       * <code>bool community_member_id_null = 1004;</code>
        */
       public Builder setCommunityMemberIdNull(boolean value) {
         
@@ -2160,7 +2160,7 @@ public final class CoInsertNewMemberBinaryPu {
         return this;
       }
       /**
-       * <code>optional bool community_member_id_null = 1004;</code>
+       * <code>bool community_member_id_null = 1004;</code>
        */
       public Builder clearCommunityMemberIdNull() {
         
@@ -2173,13 +2173,13 @@ public final class CoInsertNewMemberBinaryPu {
       private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> communityBinaryCategoryIdBuilder_;
       /**
-       * <code>optional .dstore.values.IntegerValue community_binary_category_id = 5;</code>
+       * <code>.dstore.values.IntegerValue community_binary_category_id = 5;</code>
        */
       public boolean hasCommunityBinaryCategoryId() {
         return communityBinaryCategoryIdBuilder_ != null || communityBinaryCategoryId_ != null;
       }
       /**
-       * <code>optional .dstore.values.IntegerValue community_binary_category_id = 5;</code>
+       * <code>.dstore.values.IntegerValue community_binary_category_id = 5;</code>
        */
       public io.dstore.values.IntegerValue getCommunityBinaryCategoryId() {
         if (communityBinaryCategoryIdBuilder_ == null) {
@@ -2189,7 +2189,7 @@ public final class CoInsertNewMemberBinaryPu {
         }
       }
       /**
-       * <code>optional .dstore.values.IntegerValue community_binary_category_id = 5;</code>
+       * <code>.dstore.values.IntegerValue community_binary_category_id = 5;</code>
        */
       public Builder setCommunityBinaryCategoryId(io.dstore.values.IntegerValue value) {
         if (communityBinaryCategoryIdBuilder_ == null) {
@@ -2205,7 +2205,7 @@ public final class CoInsertNewMemberBinaryPu {
         return this;
       }
       /**
-       * <code>optional .dstore.values.IntegerValue community_binary_category_id = 5;</code>
+       * <code>.dstore.values.IntegerValue community_binary_category_id = 5;</code>
        */
       public Builder setCommunityBinaryCategoryId(
           io.dstore.values.IntegerValue.Builder builderForValue) {
@@ -2219,7 +2219,7 @@ public final class CoInsertNewMemberBinaryPu {
         return this;
       }
       /**
-       * <code>optional .dstore.values.IntegerValue community_binary_category_id = 5;</code>
+       * <code>.dstore.values.IntegerValue community_binary_category_id = 5;</code>
        */
       public Builder mergeCommunityBinaryCategoryId(io.dstore.values.IntegerValue value) {
         if (communityBinaryCategoryIdBuilder_ == null) {
@@ -2237,7 +2237,7 @@ public final class CoInsertNewMemberBinaryPu {
         return this;
       }
       /**
-       * <code>optional .dstore.values.IntegerValue community_binary_category_id = 5;</code>
+       * <code>.dstore.values.IntegerValue community_binary_category_id = 5;</code>
        */
       public Builder clearCommunityBinaryCategoryId() {
         if (communityBinaryCategoryIdBuilder_ == null) {
@@ -2251,7 +2251,7 @@ public final class CoInsertNewMemberBinaryPu {
         return this;
       }
       /**
-       * <code>optional .dstore.values.IntegerValue community_binary_category_id = 5;</code>
+       * <code>.dstore.values.IntegerValue community_binary_category_id = 5;</code>
        */
       public io.dstore.values.IntegerValue.Builder getCommunityBinaryCategoryIdBuilder() {
         
@@ -2259,7 +2259,7 @@ public final class CoInsertNewMemberBinaryPu {
         return getCommunityBinaryCategoryIdFieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .dstore.values.IntegerValue community_binary_category_id = 5;</code>
+       * <code>.dstore.values.IntegerValue community_binary_category_id = 5;</code>
        */
       public io.dstore.values.IntegerValueOrBuilder getCommunityBinaryCategoryIdOrBuilder() {
         if (communityBinaryCategoryIdBuilder_ != null) {
@@ -2270,7 +2270,7 @@ public final class CoInsertNewMemberBinaryPu {
         }
       }
       /**
-       * <code>optional .dstore.values.IntegerValue community_binary_category_id = 5;</code>
+       * <code>.dstore.values.IntegerValue community_binary_category_id = 5;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> 
@@ -2288,13 +2288,13 @@ public final class CoInsertNewMemberBinaryPu {
 
       private boolean communityBinaryCategoryIdNull_ ;
       /**
-       * <code>optional bool community_binary_category_id_null = 1005;</code>
+       * <code>bool community_binary_category_id_null = 1005;</code>
        */
       public boolean getCommunityBinaryCategoryIdNull() {
         return communityBinaryCategoryIdNull_;
       }
       /**
-       * <code>optional bool community_binary_category_id_null = 1005;</code>
+       * <code>bool community_binary_category_id_null = 1005;</code>
        */
       public Builder setCommunityBinaryCategoryIdNull(boolean value) {
         
@@ -2303,7 +2303,7 @@ public final class CoInsertNewMemberBinaryPu {
         return this;
       }
       /**
-       * <code>optional bool community_binary_category_id_null = 1005;</code>
+       * <code>bool community_binary_category_id_null = 1005;</code>
        */
       public Builder clearCommunityBinaryCategoryIdNull() {
         
@@ -2316,13 +2316,13 @@ public final class CoInsertNewMemberBinaryPu {
       private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.values.StringValue, io.dstore.values.StringValue.Builder, io.dstore.values.StringValueOrBuilder> binaryDescriptionBuilder_;
       /**
-       * <code>optional .dstore.values.StringValue binary_description = 6;</code>
+       * <code>.dstore.values.StringValue binary_description = 6;</code>
        */
       public boolean hasBinaryDescription() {
         return binaryDescriptionBuilder_ != null || binaryDescription_ != null;
       }
       /**
-       * <code>optional .dstore.values.StringValue binary_description = 6;</code>
+       * <code>.dstore.values.StringValue binary_description = 6;</code>
        */
       public io.dstore.values.StringValue getBinaryDescription() {
         if (binaryDescriptionBuilder_ == null) {
@@ -2332,7 +2332,7 @@ public final class CoInsertNewMemberBinaryPu {
         }
       }
       /**
-       * <code>optional .dstore.values.StringValue binary_description = 6;</code>
+       * <code>.dstore.values.StringValue binary_description = 6;</code>
        */
       public Builder setBinaryDescription(io.dstore.values.StringValue value) {
         if (binaryDescriptionBuilder_ == null) {
@@ -2348,7 +2348,7 @@ public final class CoInsertNewMemberBinaryPu {
         return this;
       }
       /**
-       * <code>optional .dstore.values.StringValue binary_description = 6;</code>
+       * <code>.dstore.values.StringValue binary_description = 6;</code>
        */
       public Builder setBinaryDescription(
           io.dstore.values.StringValue.Builder builderForValue) {
@@ -2362,7 +2362,7 @@ public final class CoInsertNewMemberBinaryPu {
         return this;
       }
       /**
-       * <code>optional .dstore.values.StringValue binary_description = 6;</code>
+       * <code>.dstore.values.StringValue binary_description = 6;</code>
        */
       public Builder mergeBinaryDescription(io.dstore.values.StringValue value) {
         if (binaryDescriptionBuilder_ == null) {
@@ -2380,7 +2380,7 @@ public final class CoInsertNewMemberBinaryPu {
         return this;
       }
       /**
-       * <code>optional .dstore.values.StringValue binary_description = 6;</code>
+       * <code>.dstore.values.StringValue binary_description = 6;</code>
        */
       public Builder clearBinaryDescription() {
         if (binaryDescriptionBuilder_ == null) {
@@ -2394,7 +2394,7 @@ public final class CoInsertNewMemberBinaryPu {
         return this;
       }
       /**
-       * <code>optional .dstore.values.StringValue binary_description = 6;</code>
+       * <code>.dstore.values.StringValue binary_description = 6;</code>
        */
       public io.dstore.values.StringValue.Builder getBinaryDescriptionBuilder() {
         
@@ -2402,7 +2402,7 @@ public final class CoInsertNewMemberBinaryPu {
         return getBinaryDescriptionFieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .dstore.values.StringValue binary_description = 6;</code>
+       * <code>.dstore.values.StringValue binary_description = 6;</code>
        */
       public io.dstore.values.StringValueOrBuilder getBinaryDescriptionOrBuilder() {
         if (binaryDescriptionBuilder_ != null) {
@@ -2413,7 +2413,7 @@ public final class CoInsertNewMemberBinaryPu {
         }
       }
       /**
-       * <code>optional .dstore.values.StringValue binary_description = 6;</code>
+       * <code>.dstore.values.StringValue binary_description = 6;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.values.StringValue, io.dstore.values.StringValue.Builder, io.dstore.values.StringValueOrBuilder> 
@@ -2431,13 +2431,13 @@ public final class CoInsertNewMemberBinaryPu {
 
       private boolean binaryDescriptionNull_ ;
       /**
-       * <code>optional bool binary_description_null = 1006;</code>
+       * <code>bool binary_description_null = 1006;</code>
        */
       public boolean getBinaryDescriptionNull() {
         return binaryDescriptionNull_;
       }
       /**
-       * <code>optional bool binary_description_null = 1006;</code>
+       * <code>bool binary_description_null = 1006;</code>
        */
       public Builder setBinaryDescriptionNull(boolean value) {
         
@@ -2446,7 +2446,7 @@ public final class CoInsertNewMemberBinaryPu {
         return this;
       }
       /**
-       * <code>optional bool binary_description_null = 1006;</code>
+       * <code>bool binary_description_null = 1006;</code>
        */
       public Builder clearBinaryDescriptionNull() {
         
@@ -2459,13 +2459,13 @@ public final class CoInsertNewMemberBinaryPu {
       private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.values.StringValue, io.dstore.values.StringValue.Builder, io.dstore.values.StringValueOrBuilder> mD5HashBuilder_;
       /**
-       * <code>optional .dstore.values.StringValue m_d5_hash = 7;</code>
+       * <code>.dstore.values.StringValue m_d5_hash = 7;</code>
        */
       public boolean hasMD5Hash() {
         return mD5HashBuilder_ != null || mD5Hash_ != null;
       }
       /**
-       * <code>optional .dstore.values.StringValue m_d5_hash = 7;</code>
+       * <code>.dstore.values.StringValue m_d5_hash = 7;</code>
        */
       public io.dstore.values.StringValue getMD5Hash() {
         if (mD5HashBuilder_ == null) {
@@ -2475,7 +2475,7 @@ public final class CoInsertNewMemberBinaryPu {
         }
       }
       /**
-       * <code>optional .dstore.values.StringValue m_d5_hash = 7;</code>
+       * <code>.dstore.values.StringValue m_d5_hash = 7;</code>
        */
       public Builder setMD5Hash(io.dstore.values.StringValue value) {
         if (mD5HashBuilder_ == null) {
@@ -2491,7 +2491,7 @@ public final class CoInsertNewMemberBinaryPu {
         return this;
       }
       /**
-       * <code>optional .dstore.values.StringValue m_d5_hash = 7;</code>
+       * <code>.dstore.values.StringValue m_d5_hash = 7;</code>
        */
       public Builder setMD5Hash(
           io.dstore.values.StringValue.Builder builderForValue) {
@@ -2505,7 +2505,7 @@ public final class CoInsertNewMemberBinaryPu {
         return this;
       }
       /**
-       * <code>optional .dstore.values.StringValue m_d5_hash = 7;</code>
+       * <code>.dstore.values.StringValue m_d5_hash = 7;</code>
        */
       public Builder mergeMD5Hash(io.dstore.values.StringValue value) {
         if (mD5HashBuilder_ == null) {
@@ -2523,7 +2523,7 @@ public final class CoInsertNewMemberBinaryPu {
         return this;
       }
       /**
-       * <code>optional .dstore.values.StringValue m_d5_hash = 7;</code>
+       * <code>.dstore.values.StringValue m_d5_hash = 7;</code>
        */
       public Builder clearMD5Hash() {
         if (mD5HashBuilder_ == null) {
@@ -2537,7 +2537,7 @@ public final class CoInsertNewMemberBinaryPu {
         return this;
       }
       /**
-       * <code>optional .dstore.values.StringValue m_d5_hash = 7;</code>
+       * <code>.dstore.values.StringValue m_d5_hash = 7;</code>
        */
       public io.dstore.values.StringValue.Builder getMD5HashBuilder() {
         
@@ -2545,7 +2545,7 @@ public final class CoInsertNewMemberBinaryPu {
         return getMD5HashFieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .dstore.values.StringValue m_d5_hash = 7;</code>
+       * <code>.dstore.values.StringValue m_d5_hash = 7;</code>
        */
       public io.dstore.values.StringValueOrBuilder getMD5HashOrBuilder() {
         if (mD5HashBuilder_ != null) {
@@ -2556,7 +2556,7 @@ public final class CoInsertNewMemberBinaryPu {
         }
       }
       /**
-       * <code>optional .dstore.values.StringValue m_d5_hash = 7;</code>
+       * <code>.dstore.values.StringValue m_d5_hash = 7;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.values.StringValue, io.dstore.values.StringValue.Builder, io.dstore.values.StringValueOrBuilder> 
@@ -2574,13 +2574,13 @@ public final class CoInsertNewMemberBinaryPu {
 
       private boolean mD5HashNull_ ;
       /**
-       * <code>optional bool m_d5_hash_null = 1007;</code>
+       * <code>bool m_d5_hash_null = 1007;</code>
        */
       public boolean getMD5HashNull() {
         return mD5HashNull_;
       }
       /**
-       * <code>optional bool m_d5_hash_null = 1007;</code>
+       * <code>bool m_d5_hash_null = 1007;</code>
        */
       public Builder setMD5HashNull(boolean value) {
         
@@ -2589,7 +2589,7 @@ public final class CoInsertNewMemberBinaryPu {
         return this;
       }
       /**
-       * <code>optional bool m_d5_hash_null = 1007;</code>
+       * <code>bool m_d5_hash_null = 1007;</code>
        */
       public Builder clearMD5HashNull() {
         
@@ -2602,13 +2602,13 @@ public final class CoInsertNewMemberBinaryPu {
       private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.values.TimestampValue, io.dstore.values.TimestampValue.Builder, io.dstore.values.TimestampValueOrBuilder> fileDateAndTimeBuilder_;
       /**
-       * <code>optional .dstore.values.TimestampValue file_date_and_time = 8;</code>
+       * <code>.dstore.values.TimestampValue file_date_and_time = 8;</code>
        */
       public boolean hasFileDateAndTime() {
         return fileDateAndTimeBuilder_ != null || fileDateAndTime_ != null;
       }
       /**
-       * <code>optional .dstore.values.TimestampValue file_date_and_time = 8;</code>
+       * <code>.dstore.values.TimestampValue file_date_and_time = 8;</code>
        */
       public io.dstore.values.TimestampValue getFileDateAndTime() {
         if (fileDateAndTimeBuilder_ == null) {
@@ -2618,7 +2618,7 @@ public final class CoInsertNewMemberBinaryPu {
         }
       }
       /**
-       * <code>optional .dstore.values.TimestampValue file_date_and_time = 8;</code>
+       * <code>.dstore.values.TimestampValue file_date_and_time = 8;</code>
        */
       public Builder setFileDateAndTime(io.dstore.values.TimestampValue value) {
         if (fileDateAndTimeBuilder_ == null) {
@@ -2634,7 +2634,7 @@ public final class CoInsertNewMemberBinaryPu {
         return this;
       }
       /**
-       * <code>optional .dstore.values.TimestampValue file_date_and_time = 8;</code>
+       * <code>.dstore.values.TimestampValue file_date_and_time = 8;</code>
        */
       public Builder setFileDateAndTime(
           io.dstore.values.TimestampValue.Builder builderForValue) {
@@ -2648,7 +2648,7 @@ public final class CoInsertNewMemberBinaryPu {
         return this;
       }
       /**
-       * <code>optional .dstore.values.TimestampValue file_date_and_time = 8;</code>
+       * <code>.dstore.values.TimestampValue file_date_and_time = 8;</code>
        */
       public Builder mergeFileDateAndTime(io.dstore.values.TimestampValue value) {
         if (fileDateAndTimeBuilder_ == null) {
@@ -2666,7 +2666,7 @@ public final class CoInsertNewMemberBinaryPu {
         return this;
       }
       /**
-       * <code>optional .dstore.values.TimestampValue file_date_and_time = 8;</code>
+       * <code>.dstore.values.TimestampValue file_date_and_time = 8;</code>
        */
       public Builder clearFileDateAndTime() {
         if (fileDateAndTimeBuilder_ == null) {
@@ -2680,7 +2680,7 @@ public final class CoInsertNewMemberBinaryPu {
         return this;
       }
       /**
-       * <code>optional .dstore.values.TimestampValue file_date_and_time = 8;</code>
+       * <code>.dstore.values.TimestampValue file_date_and_time = 8;</code>
        */
       public io.dstore.values.TimestampValue.Builder getFileDateAndTimeBuilder() {
         
@@ -2688,7 +2688,7 @@ public final class CoInsertNewMemberBinaryPu {
         return getFileDateAndTimeFieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .dstore.values.TimestampValue file_date_and_time = 8;</code>
+       * <code>.dstore.values.TimestampValue file_date_and_time = 8;</code>
        */
       public io.dstore.values.TimestampValueOrBuilder getFileDateAndTimeOrBuilder() {
         if (fileDateAndTimeBuilder_ != null) {
@@ -2699,7 +2699,7 @@ public final class CoInsertNewMemberBinaryPu {
         }
       }
       /**
-       * <code>optional .dstore.values.TimestampValue file_date_and_time = 8;</code>
+       * <code>.dstore.values.TimestampValue file_date_and_time = 8;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.values.TimestampValue, io.dstore.values.TimestampValue.Builder, io.dstore.values.TimestampValueOrBuilder> 
@@ -2717,13 +2717,13 @@ public final class CoInsertNewMemberBinaryPu {
 
       private boolean fileDateAndTimeNull_ ;
       /**
-       * <code>optional bool file_date_and_time_null = 1008;</code>
+       * <code>bool file_date_and_time_null = 1008;</code>
        */
       public boolean getFileDateAndTimeNull() {
         return fileDateAndTimeNull_;
       }
       /**
-       * <code>optional bool file_date_and_time_null = 1008;</code>
+       * <code>bool file_date_and_time_null = 1008;</code>
        */
       public Builder setFileDateAndTimeNull(boolean value) {
         
@@ -2732,7 +2732,7 @@ public final class CoInsertNewMemberBinaryPu {
         return this;
       }
       /**
-       * <code>optional bool file_date_and_time_null = 1008;</code>
+       * <code>bool file_date_and_time_null = 1008;</code>
        */
       public Builder clearFileDateAndTimeNull() {
         
@@ -2745,13 +2745,13 @@ public final class CoInsertNewMemberBinaryPu {
       private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> filesizeInKBBuilder_;
       /**
-       * <code>optional .dstore.values.IntegerValue filesize_in_k_b = 9;</code>
+       * <code>.dstore.values.IntegerValue filesize_in_k_b = 9;</code>
        */
       public boolean hasFilesizeInKB() {
         return filesizeInKBBuilder_ != null || filesizeInKB_ != null;
       }
       /**
-       * <code>optional .dstore.values.IntegerValue filesize_in_k_b = 9;</code>
+       * <code>.dstore.values.IntegerValue filesize_in_k_b = 9;</code>
        */
       public io.dstore.values.IntegerValue getFilesizeInKB() {
         if (filesizeInKBBuilder_ == null) {
@@ -2761,7 +2761,7 @@ public final class CoInsertNewMemberBinaryPu {
         }
       }
       /**
-       * <code>optional .dstore.values.IntegerValue filesize_in_k_b = 9;</code>
+       * <code>.dstore.values.IntegerValue filesize_in_k_b = 9;</code>
        */
       public Builder setFilesizeInKB(io.dstore.values.IntegerValue value) {
         if (filesizeInKBBuilder_ == null) {
@@ -2777,7 +2777,7 @@ public final class CoInsertNewMemberBinaryPu {
         return this;
       }
       /**
-       * <code>optional .dstore.values.IntegerValue filesize_in_k_b = 9;</code>
+       * <code>.dstore.values.IntegerValue filesize_in_k_b = 9;</code>
        */
       public Builder setFilesizeInKB(
           io.dstore.values.IntegerValue.Builder builderForValue) {
@@ -2791,7 +2791,7 @@ public final class CoInsertNewMemberBinaryPu {
         return this;
       }
       /**
-       * <code>optional .dstore.values.IntegerValue filesize_in_k_b = 9;</code>
+       * <code>.dstore.values.IntegerValue filesize_in_k_b = 9;</code>
        */
       public Builder mergeFilesizeInKB(io.dstore.values.IntegerValue value) {
         if (filesizeInKBBuilder_ == null) {
@@ -2809,7 +2809,7 @@ public final class CoInsertNewMemberBinaryPu {
         return this;
       }
       /**
-       * <code>optional .dstore.values.IntegerValue filesize_in_k_b = 9;</code>
+       * <code>.dstore.values.IntegerValue filesize_in_k_b = 9;</code>
        */
       public Builder clearFilesizeInKB() {
         if (filesizeInKBBuilder_ == null) {
@@ -2823,7 +2823,7 @@ public final class CoInsertNewMemberBinaryPu {
         return this;
       }
       /**
-       * <code>optional .dstore.values.IntegerValue filesize_in_k_b = 9;</code>
+       * <code>.dstore.values.IntegerValue filesize_in_k_b = 9;</code>
        */
       public io.dstore.values.IntegerValue.Builder getFilesizeInKBBuilder() {
         
@@ -2831,7 +2831,7 @@ public final class CoInsertNewMemberBinaryPu {
         return getFilesizeInKBFieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .dstore.values.IntegerValue filesize_in_k_b = 9;</code>
+       * <code>.dstore.values.IntegerValue filesize_in_k_b = 9;</code>
        */
       public io.dstore.values.IntegerValueOrBuilder getFilesizeInKBOrBuilder() {
         if (filesizeInKBBuilder_ != null) {
@@ -2842,7 +2842,7 @@ public final class CoInsertNewMemberBinaryPu {
         }
       }
       /**
-       * <code>optional .dstore.values.IntegerValue filesize_in_k_b = 9;</code>
+       * <code>.dstore.values.IntegerValue filesize_in_k_b = 9;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> 
@@ -2860,13 +2860,13 @@ public final class CoInsertNewMemberBinaryPu {
 
       private boolean filesizeInKBNull_ ;
       /**
-       * <code>optional bool filesize_in_k_b_null = 1009;</code>
+       * <code>bool filesize_in_k_b_null = 1009;</code>
        */
       public boolean getFilesizeInKBNull() {
         return filesizeInKBNull_;
       }
       /**
-       * <code>optional bool filesize_in_k_b_null = 1009;</code>
+       * <code>bool filesize_in_k_b_null = 1009;</code>
        */
       public Builder setFilesizeInKBNull(boolean value) {
         
@@ -2875,7 +2875,7 @@ public final class CoInsertNewMemberBinaryPu {
         return this;
       }
       /**
-       * <code>optional bool filesize_in_k_b_null = 1009;</code>
+       * <code>bool filesize_in_k_b_null = 1009;</code>
        */
       public Builder clearFilesizeInKBNull() {
         
@@ -2888,13 +2888,13 @@ public final class CoInsertNewMemberBinaryPu {
       private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.values.StringValue, io.dstore.values.StringValue.Builder, io.dstore.values.StringValueOrBuilder> contentTypeBuilder_;
       /**
-       * <code>optional .dstore.values.StringValue content_type = 10;</code>
+       * <code>.dstore.values.StringValue content_type = 10;</code>
        */
       public boolean hasContentType() {
         return contentTypeBuilder_ != null || contentType_ != null;
       }
       /**
-       * <code>optional .dstore.values.StringValue content_type = 10;</code>
+       * <code>.dstore.values.StringValue content_type = 10;</code>
        */
       public io.dstore.values.StringValue getContentType() {
         if (contentTypeBuilder_ == null) {
@@ -2904,7 +2904,7 @@ public final class CoInsertNewMemberBinaryPu {
         }
       }
       /**
-       * <code>optional .dstore.values.StringValue content_type = 10;</code>
+       * <code>.dstore.values.StringValue content_type = 10;</code>
        */
       public Builder setContentType(io.dstore.values.StringValue value) {
         if (contentTypeBuilder_ == null) {
@@ -2920,7 +2920,7 @@ public final class CoInsertNewMemberBinaryPu {
         return this;
       }
       /**
-       * <code>optional .dstore.values.StringValue content_type = 10;</code>
+       * <code>.dstore.values.StringValue content_type = 10;</code>
        */
       public Builder setContentType(
           io.dstore.values.StringValue.Builder builderForValue) {
@@ -2934,7 +2934,7 @@ public final class CoInsertNewMemberBinaryPu {
         return this;
       }
       /**
-       * <code>optional .dstore.values.StringValue content_type = 10;</code>
+       * <code>.dstore.values.StringValue content_type = 10;</code>
        */
       public Builder mergeContentType(io.dstore.values.StringValue value) {
         if (contentTypeBuilder_ == null) {
@@ -2952,7 +2952,7 @@ public final class CoInsertNewMemberBinaryPu {
         return this;
       }
       /**
-       * <code>optional .dstore.values.StringValue content_type = 10;</code>
+       * <code>.dstore.values.StringValue content_type = 10;</code>
        */
       public Builder clearContentType() {
         if (contentTypeBuilder_ == null) {
@@ -2966,7 +2966,7 @@ public final class CoInsertNewMemberBinaryPu {
         return this;
       }
       /**
-       * <code>optional .dstore.values.StringValue content_type = 10;</code>
+       * <code>.dstore.values.StringValue content_type = 10;</code>
        */
       public io.dstore.values.StringValue.Builder getContentTypeBuilder() {
         
@@ -2974,7 +2974,7 @@ public final class CoInsertNewMemberBinaryPu {
         return getContentTypeFieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .dstore.values.StringValue content_type = 10;</code>
+       * <code>.dstore.values.StringValue content_type = 10;</code>
        */
       public io.dstore.values.StringValueOrBuilder getContentTypeOrBuilder() {
         if (contentTypeBuilder_ != null) {
@@ -2985,7 +2985,7 @@ public final class CoInsertNewMemberBinaryPu {
         }
       }
       /**
-       * <code>optional .dstore.values.StringValue content_type = 10;</code>
+       * <code>.dstore.values.StringValue content_type = 10;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.values.StringValue, io.dstore.values.StringValue.Builder, io.dstore.values.StringValueOrBuilder> 
@@ -3003,13 +3003,13 @@ public final class CoInsertNewMemberBinaryPu {
 
       private boolean contentTypeNull_ ;
       /**
-       * <code>optional bool content_type_null = 1010;</code>
+       * <code>bool content_type_null = 1010;</code>
        */
       public boolean getContentTypeNull() {
         return contentTypeNull_;
       }
       /**
-       * <code>optional bool content_type_null = 1010;</code>
+       * <code>bool content_type_null = 1010;</code>
        */
       public Builder setContentTypeNull(boolean value) {
         
@@ -3018,7 +3018,7 @@ public final class CoInsertNewMemberBinaryPu {
         return this;
       }
       /**
-       * <code>optional bool content_type_null = 1010;</code>
+       * <code>bool content_type_null = 1010;</code>
        */
       public Builder clearContentTypeNull() {
         
@@ -3031,13 +3031,13 @@ public final class CoInsertNewMemberBinaryPu {
       private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.values.StringValue, io.dstore.values.StringValue.Builder, io.dstore.values.StringValueOrBuilder> separatorInIdentValsBuilder_;
       /**
-       * <code>optional .dstore.values.StringValue separator_in_ident_vals = 11;</code>
+       * <code>.dstore.values.StringValue separator_in_ident_vals = 11;</code>
        */
       public boolean hasSeparatorInIdentVals() {
         return separatorInIdentValsBuilder_ != null || separatorInIdentVals_ != null;
       }
       /**
-       * <code>optional .dstore.values.StringValue separator_in_ident_vals = 11;</code>
+       * <code>.dstore.values.StringValue separator_in_ident_vals = 11;</code>
        */
       public io.dstore.values.StringValue getSeparatorInIdentVals() {
         if (separatorInIdentValsBuilder_ == null) {
@@ -3047,7 +3047,7 @@ public final class CoInsertNewMemberBinaryPu {
         }
       }
       /**
-       * <code>optional .dstore.values.StringValue separator_in_ident_vals = 11;</code>
+       * <code>.dstore.values.StringValue separator_in_ident_vals = 11;</code>
        */
       public Builder setSeparatorInIdentVals(io.dstore.values.StringValue value) {
         if (separatorInIdentValsBuilder_ == null) {
@@ -3063,7 +3063,7 @@ public final class CoInsertNewMemberBinaryPu {
         return this;
       }
       /**
-       * <code>optional .dstore.values.StringValue separator_in_ident_vals = 11;</code>
+       * <code>.dstore.values.StringValue separator_in_ident_vals = 11;</code>
        */
       public Builder setSeparatorInIdentVals(
           io.dstore.values.StringValue.Builder builderForValue) {
@@ -3077,7 +3077,7 @@ public final class CoInsertNewMemberBinaryPu {
         return this;
       }
       /**
-       * <code>optional .dstore.values.StringValue separator_in_ident_vals = 11;</code>
+       * <code>.dstore.values.StringValue separator_in_ident_vals = 11;</code>
        */
       public Builder mergeSeparatorInIdentVals(io.dstore.values.StringValue value) {
         if (separatorInIdentValsBuilder_ == null) {
@@ -3095,7 +3095,7 @@ public final class CoInsertNewMemberBinaryPu {
         return this;
       }
       /**
-       * <code>optional .dstore.values.StringValue separator_in_ident_vals = 11;</code>
+       * <code>.dstore.values.StringValue separator_in_ident_vals = 11;</code>
        */
       public Builder clearSeparatorInIdentVals() {
         if (separatorInIdentValsBuilder_ == null) {
@@ -3109,7 +3109,7 @@ public final class CoInsertNewMemberBinaryPu {
         return this;
       }
       /**
-       * <code>optional .dstore.values.StringValue separator_in_ident_vals = 11;</code>
+       * <code>.dstore.values.StringValue separator_in_ident_vals = 11;</code>
        */
       public io.dstore.values.StringValue.Builder getSeparatorInIdentValsBuilder() {
         
@@ -3117,7 +3117,7 @@ public final class CoInsertNewMemberBinaryPu {
         return getSeparatorInIdentValsFieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .dstore.values.StringValue separator_in_ident_vals = 11;</code>
+       * <code>.dstore.values.StringValue separator_in_ident_vals = 11;</code>
        */
       public io.dstore.values.StringValueOrBuilder getSeparatorInIdentValsOrBuilder() {
         if (separatorInIdentValsBuilder_ != null) {
@@ -3128,7 +3128,7 @@ public final class CoInsertNewMemberBinaryPu {
         }
       }
       /**
-       * <code>optional .dstore.values.StringValue separator_in_ident_vals = 11;</code>
+       * <code>.dstore.values.StringValue separator_in_ident_vals = 11;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.values.StringValue, io.dstore.values.StringValue.Builder, io.dstore.values.StringValueOrBuilder> 
@@ -3146,13 +3146,13 @@ public final class CoInsertNewMemberBinaryPu {
 
       private boolean separatorInIdentValsNull_ ;
       /**
-       * <code>optional bool separator_in_ident_vals_null = 1011;</code>
+       * <code>bool separator_in_ident_vals_null = 1011;</code>
        */
       public boolean getSeparatorInIdentValsNull() {
         return separatorInIdentValsNull_;
       }
       /**
-       * <code>optional bool separator_in_ident_vals_null = 1011;</code>
+       * <code>bool separator_in_ident_vals_null = 1011;</code>
        */
       public Builder setSeparatorInIdentValsNull(boolean value) {
         
@@ -3161,7 +3161,7 @@ public final class CoInsertNewMemberBinaryPu {
         return this;
       }
       /**
-       * <code>optional bool separator_in_ident_vals_null = 1011;</code>
+       * <code>bool separator_in_ident_vals_null = 1011;</code>
        */
       public Builder clearSeparatorInIdentValsNull() {
         
@@ -3420,7 +3420,7 @@ public final class CoInsertNewMemberBinaryPu {
         com.google.protobuf.MessageOrBuilder {
 
       /**
-       * <code>optional int32 row_id = 10000;</code>
+       * <code>int32 row_id = 10000;</code>
        */
       int getRowId();
     }
@@ -3495,7 +3495,7 @@ public final class CoInsertNewMemberBinaryPu {
       public static final int ROW_ID_FIELD_NUMBER = 10000;
       private int rowId_;
       /**
-       * <code>optional int32 row_id = 10000;</code>
+       * <code>int32 row_id = 10000;</code>
        */
       public int getRowId() {
         return rowId_;
@@ -3554,7 +3554,7 @@ public final class CoInsertNewMemberBinaryPu {
           return memoizedHashCode;
         }
         int hash = 41;
-        hash = (19 * hash) + getDescriptorForType().hashCode();
+        hash = (19 * hash) + getDescriptor().hashCode();
         hash = (37 * hash) + ROW_ID_FIELD_NUMBER;
         hash = (53 * hash) + getRowId();
         hash = (29 * hash) + unknownFields.hashCode();
@@ -3772,13 +3772,13 @@ public final class CoInsertNewMemberBinaryPu {
 
         private int rowId_ ;
         /**
-         * <code>optional int32 row_id = 10000;</code>
+         * <code>int32 row_id = 10000;</code>
          */
         public int getRowId() {
           return rowId_;
         }
         /**
-         * <code>optional int32 row_id = 10000;</code>
+         * <code>int32 row_id = 10000;</code>
          */
         public Builder setRowId(int value) {
           
@@ -3787,7 +3787,7 @@ public final class CoInsertNewMemberBinaryPu {
           return this;
         }
         /**
-         * <code>optional int32 row_id = 10000;</code>
+         * <code>int32 row_id = 10000;</code>
          */
         public Builder clearRowId() {
           
@@ -4040,7 +4040,7 @@ public final class CoInsertNewMemberBinaryPu {
         return memoizedHashCode;
       }
       int hash = 41;
-      hash = (19 * hash) + getDescriptorForType().hashCode();
+      hash = (19 * hash) + getDescriptor().hashCode();
       if (getMetaInformationCount() > 0) {
         hash = (37 * hash) + META_INFORMATION_FIELD_NUMBER;
         hash = (53 * hash) + getMetaInformationList().hashCode();

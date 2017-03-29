@@ -19,38 +19,38 @@ public final class OmGetBillContentInfoAd {
       com.google.protobuf.MessageOrBuilder {
 
     /**
-     * <code>optional .dstore.values.IntegerValue bill_content_id = 1;</code>
+     * <code>.dstore.values.IntegerValue bill_content_id = 1;</code>
      */
     boolean hasBillContentId();
     /**
-     * <code>optional .dstore.values.IntegerValue bill_content_id = 1;</code>
+     * <code>.dstore.values.IntegerValue bill_content_id = 1;</code>
      */
     io.dstore.values.IntegerValue getBillContentId();
     /**
-     * <code>optional .dstore.values.IntegerValue bill_content_id = 1;</code>
+     * <code>.dstore.values.IntegerValue bill_content_id = 1;</code>
      */
     io.dstore.values.IntegerValueOrBuilder getBillContentIdOrBuilder();
 
     /**
-     * <code>optional bool bill_content_id_null = 1001;</code>
+     * <code>bool bill_content_id_null = 1001;</code>
      */
     boolean getBillContentIdNull();
 
     /**
-     * <code>optional .dstore.values.StringValue information_type_id_list = 2;</code>
+     * <code>.dstore.values.StringValue information_type_id_list = 2;</code>
      */
     boolean hasInformationTypeIdList();
     /**
-     * <code>optional .dstore.values.StringValue information_type_id_list = 2;</code>
+     * <code>.dstore.values.StringValue information_type_id_list = 2;</code>
      */
     io.dstore.values.StringValue getInformationTypeIdList();
     /**
-     * <code>optional .dstore.values.StringValue information_type_id_list = 2;</code>
+     * <code>.dstore.values.StringValue information_type_id_list = 2;</code>
      */
     io.dstore.values.StringValueOrBuilder getInformationTypeIdListOrBuilder();
 
     /**
-     * <code>optional bool information_type_id_list_null = 1002;</code>
+     * <code>bool information_type_id_list_null = 1002;</code>
      */
     boolean getInformationTypeIdListNull();
   }
@@ -157,19 +157,19 @@ public final class OmGetBillContentInfoAd {
     public static final int BILL_CONTENT_ID_FIELD_NUMBER = 1;
     private io.dstore.values.IntegerValue billContentId_;
     /**
-     * <code>optional .dstore.values.IntegerValue bill_content_id = 1;</code>
+     * <code>.dstore.values.IntegerValue bill_content_id = 1;</code>
      */
     public boolean hasBillContentId() {
       return billContentId_ != null;
     }
     /**
-     * <code>optional .dstore.values.IntegerValue bill_content_id = 1;</code>
+     * <code>.dstore.values.IntegerValue bill_content_id = 1;</code>
      */
     public io.dstore.values.IntegerValue getBillContentId() {
       return billContentId_ == null ? io.dstore.values.IntegerValue.getDefaultInstance() : billContentId_;
     }
     /**
-     * <code>optional .dstore.values.IntegerValue bill_content_id = 1;</code>
+     * <code>.dstore.values.IntegerValue bill_content_id = 1;</code>
      */
     public io.dstore.values.IntegerValueOrBuilder getBillContentIdOrBuilder() {
       return getBillContentId();
@@ -178,7 +178,7 @@ public final class OmGetBillContentInfoAd {
     public static final int BILL_CONTENT_ID_NULL_FIELD_NUMBER = 1001;
     private boolean billContentIdNull_;
     /**
-     * <code>optional bool bill_content_id_null = 1001;</code>
+     * <code>bool bill_content_id_null = 1001;</code>
      */
     public boolean getBillContentIdNull() {
       return billContentIdNull_;
@@ -187,19 +187,19 @@ public final class OmGetBillContentInfoAd {
     public static final int INFORMATION_TYPE_ID_LIST_FIELD_NUMBER = 2;
     private io.dstore.values.StringValue informationTypeIdList_;
     /**
-     * <code>optional .dstore.values.StringValue information_type_id_list = 2;</code>
+     * <code>.dstore.values.StringValue information_type_id_list = 2;</code>
      */
     public boolean hasInformationTypeIdList() {
       return informationTypeIdList_ != null;
     }
     /**
-     * <code>optional .dstore.values.StringValue information_type_id_list = 2;</code>
+     * <code>.dstore.values.StringValue information_type_id_list = 2;</code>
      */
     public io.dstore.values.StringValue getInformationTypeIdList() {
       return informationTypeIdList_ == null ? io.dstore.values.StringValue.getDefaultInstance() : informationTypeIdList_;
     }
     /**
-     * <code>optional .dstore.values.StringValue information_type_id_list = 2;</code>
+     * <code>.dstore.values.StringValue information_type_id_list = 2;</code>
      */
     public io.dstore.values.StringValueOrBuilder getInformationTypeIdListOrBuilder() {
       return getInformationTypeIdList();
@@ -208,7 +208,7 @@ public final class OmGetBillContentInfoAd {
     public static final int INFORMATION_TYPE_ID_LIST_NULL_FIELD_NUMBER = 1002;
     private boolean informationTypeIdListNull_;
     /**
-     * <code>optional bool information_type_id_list_null = 1002;</code>
+     * <code>bool information_type_id_list_null = 1002;</code>
      */
     public boolean getInformationTypeIdListNull() {
       return informationTypeIdListNull_;
@@ -300,7 +300,7 @@ public final class OmGetBillContentInfoAd {
         return memoizedHashCode;
       }
       int hash = 41;
-      hash = (19 * hash) + getDescriptorForType().hashCode();
+      hash = (19 * hash) + getDescriptor().hashCode();
       if (hasBillContentId()) {
         hash = (37 * hash) + BILL_CONTENT_ID_FIELD_NUMBER;
         hash = (53 * hash) + getBillContentId().hashCode();
@@ -566,13 +566,13 @@ public final class OmGetBillContentInfoAd {
       private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> billContentIdBuilder_;
       /**
-       * <code>optional .dstore.values.IntegerValue bill_content_id = 1;</code>
+       * <code>.dstore.values.IntegerValue bill_content_id = 1;</code>
        */
       public boolean hasBillContentId() {
         return billContentIdBuilder_ != null || billContentId_ != null;
       }
       /**
-       * <code>optional .dstore.values.IntegerValue bill_content_id = 1;</code>
+       * <code>.dstore.values.IntegerValue bill_content_id = 1;</code>
        */
       public io.dstore.values.IntegerValue getBillContentId() {
         if (billContentIdBuilder_ == null) {
@@ -582,7 +582,7 @@ public final class OmGetBillContentInfoAd {
         }
       }
       /**
-       * <code>optional .dstore.values.IntegerValue bill_content_id = 1;</code>
+       * <code>.dstore.values.IntegerValue bill_content_id = 1;</code>
        */
       public Builder setBillContentId(io.dstore.values.IntegerValue value) {
         if (billContentIdBuilder_ == null) {
@@ -598,7 +598,7 @@ public final class OmGetBillContentInfoAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.IntegerValue bill_content_id = 1;</code>
+       * <code>.dstore.values.IntegerValue bill_content_id = 1;</code>
        */
       public Builder setBillContentId(
           io.dstore.values.IntegerValue.Builder builderForValue) {
@@ -612,7 +612,7 @@ public final class OmGetBillContentInfoAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.IntegerValue bill_content_id = 1;</code>
+       * <code>.dstore.values.IntegerValue bill_content_id = 1;</code>
        */
       public Builder mergeBillContentId(io.dstore.values.IntegerValue value) {
         if (billContentIdBuilder_ == null) {
@@ -630,7 +630,7 @@ public final class OmGetBillContentInfoAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.IntegerValue bill_content_id = 1;</code>
+       * <code>.dstore.values.IntegerValue bill_content_id = 1;</code>
        */
       public Builder clearBillContentId() {
         if (billContentIdBuilder_ == null) {
@@ -644,7 +644,7 @@ public final class OmGetBillContentInfoAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.IntegerValue bill_content_id = 1;</code>
+       * <code>.dstore.values.IntegerValue bill_content_id = 1;</code>
        */
       public io.dstore.values.IntegerValue.Builder getBillContentIdBuilder() {
         
@@ -652,7 +652,7 @@ public final class OmGetBillContentInfoAd {
         return getBillContentIdFieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .dstore.values.IntegerValue bill_content_id = 1;</code>
+       * <code>.dstore.values.IntegerValue bill_content_id = 1;</code>
        */
       public io.dstore.values.IntegerValueOrBuilder getBillContentIdOrBuilder() {
         if (billContentIdBuilder_ != null) {
@@ -663,7 +663,7 @@ public final class OmGetBillContentInfoAd {
         }
       }
       /**
-       * <code>optional .dstore.values.IntegerValue bill_content_id = 1;</code>
+       * <code>.dstore.values.IntegerValue bill_content_id = 1;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> 
@@ -681,13 +681,13 @@ public final class OmGetBillContentInfoAd {
 
       private boolean billContentIdNull_ ;
       /**
-       * <code>optional bool bill_content_id_null = 1001;</code>
+       * <code>bool bill_content_id_null = 1001;</code>
        */
       public boolean getBillContentIdNull() {
         return billContentIdNull_;
       }
       /**
-       * <code>optional bool bill_content_id_null = 1001;</code>
+       * <code>bool bill_content_id_null = 1001;</code>
        */
       public Builder setBillContentIdNull(boolean value) {
         
@@ -696,7 +696,7 @@ public final class OmGetBillContentInfoAd {
         return this;
       }
       /**
-       * <code>optional bool bill_content_id_null = 1001;</code>
+       * <code>bool bill_content_id_null = 1001;</code>
        */
       public Builder clearBillContentIdNull() {
         
@@ -709,13 +709,13 @@ public final class OmGetBillContentInfoAd {
       private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.values.StringValue, io.dstore.values.StringValue.Builder, io.dstore.values.StringValueOrBuilder> informationTypeIdListBuilder_;
       /**
-       * <code>optional .dstore.values.StringValue information_type_id_list = 2;</code>
+       * <code>.dstore.values.StringValue information_type_id_list = 2;</code>
        */
       public boolean hasInformationTypeIdList() {
         return informationTypeIdListBuilder_ != null || informationTypeIdList_ != null;
       }
       /**
-       * <code>optional .dstore.values.StringValue information_type_id_list = 2;</code>
+       * <code>.dstore.values.StringValue information_type_id_list = 2;</code>
        */
       public io.dstore.values.StringValue getInformationTypeIdList() {
         if (informationTypeIdListBuilder_ == null) {
@@ -725,7 +725,7 @@ public final class OmGetBillContentInfoAd {
         }
       }
       /**
-       * <code>optional .dstore.values.StringValue information_type_id_list = 2;</code>
+       * <code>.dstore.values.StringValue information_type_id_list = 2;</code>
        */
       public Builder setInformationTypeIdList(io.dstore.values.StringValue value) {
         if (informationTypeIdListBuilder_ == null) {
@@ -741,7 +741,7 @@ public final class OmGetBillContentInfoAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.StringValue information_type_id_list = 2;</code>
+       * <code>.dstore.values.StringValue information_type_id_list = 2;</code>
        */
       public Builder setInformationTypeIdList(
           io.dstore.values.StringValue.Builder builderForValue) {
@@ -755,7 +755,7 @@ public final class OmGetBillContentInfoAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.StringValue information_type_id_list = 2;</code>
+       * <code>.dstore.values.StringValue information_type_id_list = 2;</code>
        */
       public Builder mergeInformationTypeIdList(io.dstore.values.StringValue value) {
         if (informationTypeIdListBuilder_ == null) {
@@ -773,7 +773,7 @@ public final class OmGetBillContentInfoAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.StringValue information_type_id_list = 2;</code>
+       * <code>.dstore.values.StringValue information_type_id_list = 2;</code>
        */
       public Builder clearInformationTypeIdList() {
         if (informationTypeIdListBuilder_ == null) {
@@ -787,7 +787,7 @@ public final class OmGetBillContentInfoAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.StringValue information_type_id_list = 2;</code>
+       * <code>.dstore.values.StringValue information_type_id_list = 2;</code>
        */
       public io.dstore.values.StringValue.Builder getInformationTypeIdListBuilder() {
         
@@ -795,7 +795,7 @@ public final class OmGetBillContentInfoAd {
         return getInformationTypeIdListFieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .dstore.values.StringValue information_type_id_list = 2;</code>
+       * <code>.dstore.values.StringValue information_type_id_list = 2;</code>
        */
       public io.dstore.values.StringValueOrBuilder getInformationTypeIdListOrBuilder() {
         if (informationTypeIdListBuilder_ != null) {
@@ -806,7 +806,7 @@ public final class OmGetBillContentInfoAd {
         }
       }
       /**
-       * <code>optional .dstore.values.StringValue information_type_id_list = 2;</code>
+       * <code>.dstore.values.StringValue information_type_id_list = 2;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.values.StringValue, io.dstore.values.StringValue.Builder, io.dstore.values.StringValueOrBuilder> 
@@ -824,13 +824,13 @@ public final class OmGetBillContentInfoAd {
 
       private boolean informationTypeIdListNull_ ;
       /**
-       * <code>optional bool information_type_id_list_null = 1002;</code>
+       * <code>bool information_type_id_list_null = 1002;</code>
        */
       public boolean getInformationTypeIdListNull() {
         return informationTypeIdListNull_;
       }
       /**
-       * <code>optional bool information_type_id_list_null = 1002;</code>
+       * <code>bool information_type_id_list_null = 1002;</code>
        */
       public Builder setInformationTypeIdListNull(boolean value) {
         
@@ -839,7 +839,7 @@ public final class OmGetBillContentInfoAd {
         return this;
       }
       /**
-       * <code>optional bool information_type_id_list_null = 1002;</code>
+       * <code>bool information_type_id_list_null = 1002;</code>
        */
       public Builder clearInformationTypeIdListNull() {
         
@@ -1098,7 +1098,7 @@ public final class OmGetBillContentInfoAd {
         com.google.protobuf.MessageOrBuilder {
 
       /**
-       * <code>optional int32 row_id = 10000;</code>
+       * <code>int32 row_id = 10000;</code>
        */
       int getRowId();
 
@@ -1107,7 +1107,7 @@ public final class OmGetBillContentInfoAd {
        * ID des "dStore"-Benutzers (der in "UserInfo" registriert ist) der die Information hinterlegt hat
        * </pre>
        *
-       * <code>optional .dstore.values.IntegerValue created_by_user_id = 10001;</code>
+       * <code>.dstore.values.IntegerValue created_by_user_id = 10001;</code>
        */
       boolean hasCreatedByUserId();
       /**
@@ -1115,7 +1115,7 @@ public final class OmGetBillContentInfoAd {
        * ID des "dStore"-Benutzers (der in "UserInfo" registriert ist) der die Information hinterlegt hat
        * </pre>
        *
-       * <code>optional .dstore.values.IntegerValue created_by_user_id = 10001;</code>
+       * <code>.dstore.values.IntegerValue created_by_user_id = 10001;</code>
        */
       io.dstore.values.IntegerValue getCreatedByUserId();
       /**
@@ -1123,7 +1123,7 @@ public final class OmGetBillContentInfoAd {
        * ID des "dStore"-Benutzers (der in "UserInfo" registriert ist) der die Information hinterlegt hat
        * </pre>
        *
-       * <code>optional .dstore.values.IntegerValue created_by_user_id = 10001;</code>
+       * <code>.dstore.values.IntegerValue created_by_user_id = 10001;</code>
        */
       io.dstore.values.IntegerValueOrBuilder getCreatedByUserIdOrBuilder();
 
@@ -1132,7 +1132,7 @@ public final class OmGetBillContentInfoAd {
        * ID einer Rechnungs-Position (die auf einer Auftrags-Position basiert)
        * </pre>
        *
-       * <code>optional .dstore.values.IntegerValue bill_content_id = 10002;</code>
+       * <code>.dstore.values.IntegerValue bill_content_id = 10002;</code>
        */
       boolean hasBillContentId();
       /**
@@ -1140,7 +1140,7 @@ public final class OmGetBillContentInfoAd {
        * ID einer Rechnungs-Position (die auf einer Auftrags-Position basiert)
        * </pre>
        *
-       * <code>optional .dstore.values.IntegerValue bill_content_id = 10002;</code>
+       * <code>.dstore.values.IntegerValue bill_content_id = 10002;</code>
        */
       io.dstore.values.IntegerValue getBillContentId();
       /**
@@ -1148,7 +1148,7 @@ public final class OmGetBillContentInfoAd {
        * ID einer Rechnungs-Position (die auf einer Auftrags-Position basiert)
        * </pre>
        *
-       * <code>optional .dstore.values.IntegerValue bill_content_id = 10002;</code>
+       * <code>.dstore.values.IntegerValue bill_content_id = 10002;</code>
        */
       io.dstore.values.IntegerValueOrBuilder getBillContentIdOrBuilder();
 
@@ -1157,7 +1157,7 @@ public final class OmGetBillContentInfoAd {
        * ID eines Informationstyps, also um was es sich bei der Zusatz-Information "Information" handelt
        * </pre>
        *
-       * <code>optional .dstore.values.IntegerValue information_type_id = 10003;</code>
+       * <code>.dstore.values.IntegerValue information_type_id = 10003;</code>
        */
       boolean hasInformationTypeId();
       /**
@@ -1165,7 +1165,7 @@ public final class OmGetBillContentInfoAd {
        * ID eines Informationstyps, also um was es sich bei der Zusatz-Information "Information" handelt
        * </pre>
        *
-       * <code>optional .dstore.values.IntegerValue information_type_id = 10003;</code>
+       * <code>.dstore.values.IntegerValue information_type_id = 10003;</code>
        */
       io.dstore.values.IntegerValue getInformationTypeId();
       /**
@@ -1173,7 +1173,7 @@ public final class OmGetBillContentInfoAd {
        * ID eines Informationstyps, also um was es sich bei der Zusatz-Information "Information" handelt
        * </pre>
        *
-       * <code>optional .dstore.values.IntegerValue information_type_id = 10003;</code>
+       * <code>.dstore.values.IntegerValue information_type_id = 10003;</code>
        */
       io.dstore.values.IntegerValueOrBuilder getInformationTypeIdOrBuilder();
 
@@ -1182,7 +1182,7 @@ public final class OmGetBillContentInfoAd {
        * Bezeichnung der "InformationTypeID"
        * </pre>
        *
-       * <code>optional .dstore.values.StringValue information_type = 10004;</code>
+       * <code>.dstore.values.StringValue information_type = 10004;</code>
        */
       boolean hasInformationType();
       /**
@@ -1190,7 +1190,7 @@ public final class OmGetBillContentInfoAd {
        * Bezeichnung der "InformationTypeID"
        * </pre>
        *
-       * <code>optional .dstore.values.StringValue information_type = 10004;</code>
+       * <code>.dstore.values.StringValue information_type = 10004;</code>
        */
       io.dstore.values.StringValue getInformationType();
       /**
@@ -1198,7 +1198,7 @@ public final class OmGetBillContentInfoAd {
        * Bezeichnung der "InformationTypeID"
        * </pre>
        *
-       * <code>optional .dstore.values.StringValue information_type = 10004;</code>
+       * <code>.dstore.values.StringValue information_type = 10004;</code>
        */
       io.dstore.values.StringValueOrBuilder getInformationTypeOrBuilder();
 
@@ -1207,7 +1207,7 @@ public final class OmGetBillContentInfoAd {
        * Die zur Rechnungs-Position "BillContentID" hinterlegt Information des Typs "InformationTypeID"
        * </pre>
        *
-       * <code>optional .dstore.values.StringValue information = 10005;</code>
+       * <code>.dstore.values.StringValue information = 10005;</code>
        */
       boolean hasInformation();
       /**
@@ -1215,7 +1215,7 @@ public final class OmGetBillContentInfoAd {
        * Die zur Rechnungs-Position "BillContentID" hinterlegt Information des Typs "InformationTypeID"
        * </pre>
        *
-       * <code>optional .dstore.values.StringValue information = 10005;</code>
+       * <code>.dstore.values.StringValue information = 10005;</code>
        */
       io.dstore.values.StringValue getInformation();
       /**
@@ -1223,7 +1223,7 @@ public final class OmGetBillContentInfoAd {
        * Die zur Rechnungs-Position "BillContentID" hinterlegt Information des Typs "InformationTypeID"
        * </pre>
        *
-       * <code>optional .dstore.values.StringValue information = 10005;</code>
+       * <code>.dstore.values.StringValue information = 10005;</code>
        */
       io.dstore.values.StringValueOrBuilder getInformationOrBuilder();
 
@@ -1232,7 +1232,7 @@ public final class OmGetBillContentInfoAd {
        * Wann wurde die Information "Information" zur "BillContentID" hinterlegt ?
        * </pre>
        *
-       * <code>optional .dstore.values.TimestampValue created_at_date_and_time = 10006;</code>
+       * <code>.dstore.values.TimestampValue created_at_date_and_time = 10006;</code>
        */
       boolean hasCreatedAtDateAndTime();
       /**
@@ -1240,7 +1240,7 @@ public final class OmGetBillContentInfoAd {
        * Wann wurde die Information "Information" zur "BillContentID" hinterlegt ?
        * </pre>
        *
-       * <code>optional .dstore.values.TimestampValue created_at_date_and_time = 10006;</code>
+       * <code>.dstore.values.TimestampValue created_at_date_and_time = 10006;</code>
        */
       io.dstore.values.TimestampValue getCreatedAtDateAndTime();
       /**
@@ -1248,7 +1248,7 @@ public final class OmGetBillContentInfoAd {
        * Wann wurde die Information "Information" zur "BillContentID" hinterlegt ?
        * </pre>
        *
-       * <code>optional .dstore.values.TimestampValue created_at_date_and_time = 10006;</code>
+       * <code>.dstore.values.TimestampValue created_at_date_and_time = 10006;</code>
        */
       io.dstore.values.TimestampValueOrBuilder getCreatedAtDateAndTimeOrBuilder();
     }
@@ -1401,7 +1401,7 @@ public final class OmGetBillContentInfoAd {
       public static final int ROW_ID_FIELD_NUMBER = 10000;
       private int rowId_;
       /**
-       * <code>optional int32 row_id = 10000;</code>
+       * <code>int32 row_id = 10000;</code>
        */
       public int getRowId() {
         return rowId_;
@@ -1414,7 +1414,7 @@ public final class OmGetBillContentInfoAd {
        * ID des "dStore"-Benutzers (der in "UserInfo" registriert ist) der die Information hinterlegt hat
        * </pre>
        *
-       * <code>optional .dstore.values.IntegerValue created_by_user_id = 10001;</code>
+       * <code>.dstore.values.IntegerValue created_by_user_id = 10001;</code>
        */
       public boolean hasCreatedByUserId() {
         return createdByUserId_ != null;
@@ -1424,7 +1424,7 @@ public final class OmGetBillContentInfoAd {
        * ID des "dStore"-Benutzers (der in "UserInfo" registriert ist) der die Information hinterlegt hat
        * </pre>
        *
-       * <code>optional .dstore.values.IntegerValue created_by_user_id = 10001;</code>
+       * <code>.dstore.values.IntegerValue created_by_user_id = 10001;</code>
        */
       public io.dstore.values.IntegerValue getCreatedByUserId() {
         return createdByUserId_ == null ? io.dstore.values.IntegerValue.getDefaultInstance() : createdByUserId_;
@@ -1434,7 +1434,7 @@ public final class OmGetBillContentInfoAd {
        * ID des "dStore"-Benutzers (der in "UserInfo" registriert ist) der die Information hinterlegt hat
        * </pre>
        *
-       * <code>optional .dstore.values.IntegerValue created_by_user_id = 10001;</code>
+       * <code>.dstore.values.IntegerValue created_by_user_id = 10001;</code>
        */
       public io.dstore.values.IntegerValueOrBuilder getCreatedByUserIdOrBuilder() {
         return getCreatedByUserId();
@@ -1447,7 +1447,7 @@ public final class OmGetBillContentInfoAd {
        * ID einer Rechnungs-Position (die auf einer Auftrags-Position basiert)
        * </pre>
        *
-       * <code>optional .dstore.values.IntegerValue bill_content_id = 10002;</code>
+       * <code>.dstore.values.IntegerValue bill_content_id = 10002;</code>
        */
       public boolean hasBillContentId() {
         return billContentId_ != null;
@@ -1457,7 +1457,7 @@ public final class OmGetBillContentInfoAd {
        * ID einer Rechnungs-Position (die auf einer Auftrags-Position basiert)
        * </pre>
        *
-       * <code>optional .dstore.values.IntegerValue bill_content_id = 10002;</code>
+       * <code>.dstore.values.IntegerValue bill_content_id = 10002;</code>
        */
       public io.dstore.values.IntegerValue getBillContentId() {
         return billContentId_ == null ? io.dstore.values.IntegerValue.getDefaultInstance() : billContentId_;
@@ -1467,7 +1467,7 @@ public final class OmGetBillContentInfoAd {
        * ID einer Rechnungs-Position (die auf einer Auftrags-Position basiert)
        * </pre>
        *
-       * <code>optional .dstore.values.IntegerValue bill_content_id = 10002;</code>
+       * <code>.dstore.values.IntegerValue bill_content_id = 10002;</code>
        */
       public io.dstore.values.IntegerValueOrBuilder getBillContentIdOrBuilder() {
         return getBillContentId();
@@ -1480,7 +1480,7 @@ public final class OmGetBillContentInfoAd {
        * ID eines Informationstyps, also um was es sich bei der Zusatz-Information "Information" handelt
        * </pre>
        *
-       * <code>optional .dstore.values.IntegerValue information_type_id = 10003;</code>
+       * <code>.dstore.values.IntegerValue information_type_id = 10003;</code>
        */
       public boolean hasInformationTypeId() {
         return informationTypeId_ != null;
@@ -1490,7 +1490,7 @@ public final class OmGetBillContentInfoAd {
        * ID eines Informationstyps, also um was es sich bei der Zusatz-Information "Information" handelt
        * </pre>
        *
-       * <code>optional .dstore.values.IntegerValue information_type_id = 10003;</code>
+       * <code>.dstore.values.IntegerValue information_type_id = 10003;</code>
        */
       public io.dstore.values.IntegerValue getInformationTypeId() {
         return informationTypeId_ == null ? io.dstore.values.IntegerValue.getDefaultInstance() : informationTypeId_;
@@ -1500,7 +1500,7 @@ public final class OmGetBillContentInfoAd {
        * ID eines Informationstyps, also um was es sich bei der Zusatz-Information "Information" handelt
        * </pre>
        *
-       * <code>optional .dstore.values.IntegerValue information_type_id = 10003;</code>
+       * <code>.dstore.values.IntegerValue information_type_id = 10003;</code>
        */
       public io.dstore.values.IntegerValueOrBuilder getInformationTypeIdOrBuilder() {
         return getInformationTypeId();
@@ -1513,7 +1513,7 @@ public final class OmGetBillContentInfoAd {
        * Bezeichnung der "InformationTypeID"
        * </pre>
        *
-       * <code>optional .dstore.values.StringValue information_type = 10004;</code>
+       * <code>.dstore.values.StringValue information_type = 10004;</code>
        */
       public boolean hasInformationType() {
         return informationType_ != null;
@@ -1523,7 +1523,7 @@ public final class OmGetBillContentInfoAd {
        * Bezeichnung der "InformationTypeID"
        * </pre>
        *
-       * <code>optional .dstore.values.StringValue information_type = 10004;</code>
+       * <code>.dstore.values.StringValue information_type = 10004;</code>
        */
       public io.dstore.values.StringValue getInformationType() {
         return informationType_ == null ? io.dstore.values.StringValue.getDefaultInstance() : informationType_;
@@ -1533,7 +1533,7 @@ public final class OmGetBillContentInfoAd {
        * Bezeichnung der "InformationTypeID"
        * </pre>
        *
-       * <code>optional .dstore.values.StringValue information_type = 10004;</code>
+       * <code>.dstore.values.StringValue information_type = 10004;</code>
        */
       public io.dstore.values.StringValueOrBuilder getInformationTypeOrBuilder() {
         return getInformationType();
@@ -1546,7 +1546,7 @@ public final class OmGetBillContentInfoAd {
        * Die zur Rechnungs-Position "BillContentID" hinterlegt Information des Typs "InformationTypeID"
        * </pre>
        *
-       * <code>optional .dstore.values.StringValue information = 10005;</code>
+       * <code>.dstore.values.StringValue information = 10005;</code>
        */
       public boolean hasInformation() {
         return information_ != null;
@@ -1556,7 +1556,7 @@ public final class OmGetBillContentInfoAd {
        * Die zur Rechnungs-Position "BillContentID" hinterlegt Information des Typs "InformationTypeID"
        * </pre>
        *
-       * <code>optional .dstore.values.StringValue information = 10005;</code>
+       * <code>.dstore.values.StringValue information = 10005;</code>
        */
       public io.dstore.values.StringValue getInformation() {
         return information_ == null ? io.dstore.values.StringValue.getDefaultInstance() : information_;
@@ -1566,7 +1566,7 @@ public final class OmGetBillContentInfoAd {
        * Die zur Rechnungs-Position "BillContentID" hinterlegt Information des Typs "InformationTypeID"
        * </pre>
        *
-       * <code>optional .dstore.values.StringValue information = 10005;</code>
+       * <code>.dstore.values.StringValue information = 10005;</code>
        */
       public io.dstore.values.StringValueOrBuilder getInformationOrBuilder() {
         return getInformation();
@@ -1579,7 +1579,7 @@ public final class OmGetBillContentInfoAd {
        * Wann wurde die Information "Information" zur "BillContentID" hinterlegt ?
        * </pre>
        *
-       * <code>optional .dstore.values.TimestampValue created_at_date_and_time = 10006;</code>
+       * <code>.dstore.values.TimestampValue created_at_date_and_time = 10006;</code>
        */
       public boolean hasCreatedAtDateAndTime() {
         return createdAtDateAndTime_ != null;
@@ -1589,7 +1589,7 @@ public final class OmGetBillContentInfoAd {
        * Wann wurde die Information "Information" zur "BillContentID" hinterlegt ?
        * </pre>
        *
-       * <code>optional .dstore.values.TimestampValue created_at_date_and_time = 10006;</code>
+       * <code>.dstore.values.TimestampValue created_at_date_and_time = 10006;</code>
        */
       public io.dstore.values.TimestampValue getCreatedAtDateAndTime() {
         return createdAtDateAndTime_ == null ? io.dstore.values.TimestampValue.getDefaultInstance() : createdAtDateAndTime_;
@@ -1599,7 +1599,7 @@ public final class OmGetBillContentInfoAd {
        * Wann wurde die Information "Information" zur "BillContentID" hinterlegt ?
        * </pre>
        *
-       * <code>optional .dstore.values.TimestampValue created_at_date_and_time = 10006;</code>
+       * <code>.dstore.values.TimestampValue created_at_date_and_time = 10006;</code>
        */
       public io.dstore.values.TimestampValueOrBuilder getCreatedAtDateAndTimeOrBuilder() {
         return getCreatedAtDateAndTime();
@@ -1730,7 +1730,7 @@ public final class OmGetBillContentInfoAd {
           return memoizedHashCode;
         }
         int hash = 41;
-        hash = (19 * hash) + getDescriptorForType().hashCode();
+        hash = (19 * hash) + getDescriptor().hashCode();
         hash = (37 * hash) + ROW_ID_FIELD_NUMBER;
         hash = (53 * hash) + getRowId();
         if (hasCreatedByUserId()) {
@@ -2056,13 +2056,13 @@ public final class OmGetBillContentInfoAd {
 
         private int rowId_ ;
         /**
-         * <code>optional int32 row_id = 10000;</code>
+         * <code>int32 row_id = 10000;</code>
          */
         public int getRowId() {
           return rowId_;
         }
         /**
-         * <code>optional int32 row_id = 10000;</code>
+         * <code>int32 row_id = 10000;</code>
          */
         public Builder setRowId(int value) {
           
@@ -2071,7 +2071,7 @@ public final class OmGetBillContentInfoAd {
           return this;
         }
         /**
-         * <code>optional int32 row_id = 10000;</code>
+         * <code>int32 row_id = 10000;</code>
          */
         public Builder clearRowId() {
           
@@ -2088,7 +2088,7 @@ public final class OmGetBillContentInfoAd {
          * ID des "dStore"-Benutzers (der in "UserInfo" registriert ist) der die Information hinterlegt hat
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue created_by_user_id = 10001;</code>
+         * <code>.dstore.values.IntegerValue created_by_user_id = 10001;</code>
          */
         public boolean hasCreatedByUserId() {
           return createdByUserIdBuilder_ != null || createdByUserId_ != null;
@@ -2098,7 +2098,7 @@ public final class OmGetBillContentInfoAd {
          * ID des "dStore"-Benutzers (der in "UserInfo" registriert ist) der die Information hinterlegt hat
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue created_by_user_id = 10001;</code>
+         * <code>.dstore.values.IntegerValue created_by_user_id = 10001;</code>
          */
         public io.dstore.values.IntegerValue getCreatedByUserId() {
           if (createdByUserIdBuilder_ == null) {
@@ -2112,7 +2112,7 @@ public final class OmGetBillContentInfoAd {
          * ID des "dStore"-Benutzers (der in "UserInfo" registriert ist) der die Information hinterlegt hat
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue created_by_user_id = 10001;</code>
+         * <code>.dstore.values.IntegerValue created_by_user_id = 10001;</code>
          */
         public Builder setCreatedByUserId(io.dstore.values.IntegerValue value) {
           if (createdByUserIdBuilder_ == null) {
@@ -2132,7 +2132,7 @@ public final class OmGetBillContentInfoAd {
          * ID des "dStore"-Benutzers (der in "UserInfo" registriert ist) der die Information hinterlegt hat
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue created_by_user_id = 10001;</code>
+         * <code>.dstore.values.IntegerValue created_by_user_id = 10001;</code>
          */
         public Builder setCreatedByUserId(
             io.dstore.values.IntegerValue.Builder builderForValue) {
@@ -2150,7 +2150,7 @@ public final class OmGetBillContentInfoAd {
          * ID des "dStore"-Benutzers (der in "UserInfo" registriert ist) der die Information hinterlegt hat
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue created_by_user_id = 10001;</code>
+         * <code>.dstore.values.IntegerValue created_by_user_id = 10001;</code>
          */
         public Builder mergeCreatedByUserId(io.dstore.values.IntegerValue value) {
           if (createdByUserIdBuilder_ == null) {
@@ -2172,7 +2172,7 @@ public final class OmGetBillContentInfoAd {
          * ID des "dStore"-Benutzers (der in "UserInfo" registriert ist) der die Information hinterlegt hat
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue created_by_user_id = 10001;</code>
+         * <code>.dstore.values.IntegerValue created_by_user_id = 10001;</code>
          */
         public Builder clearCreatedByUserId() {
           if (createdByUserIdBuilder_ == null) {
@@ -2190,7 +2190,7 @@ public final class OmGetBillContentInfoAd {
          * ID des "dStore"-Benutzers (der in "UserInfo" registriert ist) der die Information hinterlegt hat
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue created_by_user_id = 10001;</code>
+         * <code>.dstore.values.IntegerValue created_by_user_id = 10001;</code>
          */
         public io.dstore.values.IntegerValue.Builder getCreatedByUserIdBuilder() {
           
@@ -2202,7 +2202,7 @@ public final class OmGetBillContentInfoAd {
          * ID des "dStore"-Benutzers (der in "UserInfo" registriert ist) der die Information hinterlegt hat
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue created_by_user_id = 10001;</code>
+         * <code>.dstore.values.IntegerValue created_by_user_id = 10001;</code>
          */
         public io.dstore.values.IntegerValueOrBuilder getCreatedByUserIdOrBuilder() {
           if (createdByUserIdBuilder_ != null) {
@@ -2217,7 +2217,7 @@ public final class OmGetBillContentInfoAd {
          * ID des "dStore"-Benutzers (der in "UserInfo" registriert ist) der die Information hinterlegt hat
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue created_by_user_id = 10001;</code>
+         * <code>.dstore.values.IntegerValue created_by_user_id = 10001;</code>
          */
         private com.google.protobuf.SingleFieldBuilderV3<
             io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> 
@@ -2241,7 +2241,7 @@ public final class OmGetBillContentInfoAd {
          * ID einer Rechnungs-Position (die auf einer Auftrags-Position basiert)
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue bill_content_id = 10002;</code>
+         * <code>.dstore.values.IntegerValue bill_content_id = 10002;</code>
          */
         public boolean hasBillContentId() {
           return billContentIdBuilder_ != null || billContentId_ != null;
@@ -2251,7 +2251,7 @@ public final class OmGetBillContentInfoAd {
          * ID einer Rechnungs-Position (die auf einer Auftrags-Position basiert)
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue bill_content_id = 10002;</code>
+         * <code>.dstore.values.IntegerValue bill_content_id = 10002;</code>
          */
         public io.dstore.values.IntegerValue getBillContentId() {
           if (billContentIdBuilder_ == null) {
@@ -2265,7 +2265,7 @@ public final class OmGetBillContentInfoAd {
          * ID einer Rechnungs-Position (die auf einer Auftrags-Position basiert)
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue bill_content_id = 10002;</code>
+         * <code>.dstore.values.IntegerValue bill_content_id = 10002;</code>
          */
         public Builder setBillContentId(io.dstore.values.IntegerValue value) {
           if (billContentIdBuilder_ == null) {
@@ -2285,7 +2285,7 @@ public final class OmGetBillContentInfoAd {
          * ID einer Rechnungs-Position (die auf einer Auftrags-Position basiert)
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue bill_content_id = 10002;</code>
+         * <code>.dstore.values.IntegerValue bill_content_id = 10002;</code>
          */
         public Builder setBillContentId(
             io.dstore.values.IntegerValue.Builder builderForValue) {
@@ -2303,7 +2303,7 @@ public final class OmGetBillContentInfoAd {
          * ID einer Rechnungs-Position (die auf einer Auftrags-Position basiert)
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue bill_content_id = 10002;</code>
+         * <code>.dstore.values.IntegerValue bill_content_id = 10002;</code>
          */
         public Builder mergeBillContentId(io.dstore.values.IntegerValue value) {
           if (billContentIdBuilder_ == null) {
@@ -2325,7 +2325,7 @@ public final class OmGetBillContentInfoAd {
          * ID einer Rechnungs-Position (die auf einer Auftrags-Position basiert)
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue bill_content_id = 10002;</code>
+         * <code>.dstore.values.IntegerValue bill_content_id = 10002;</code>
          */
         public Builder clearBillContentId() {
           if (billContentIdBuilder_ == null) {
@@ -2343,7 +2343,7 @@ public final class OmGetBillContentInfoAd {
          * ID einer Rechnungs-Position (die auf einer Auftrags-Position basiert)
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue bill_content_id = 10002;</code>
+         * <code>.dstore.values.IntegerValue bill_content_id = 10002;</code>
          */
         public io.dstore.values.IntegerValue.Builder getBillContentIdBuilder() {
           
@@ -2355,7 +2355,7 @@ public final class OmGetBillContentInfoAd {
          * ID einer Rechnungs-Position (die auf einer Auftrags-Position basiert)
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue bill_content_id = 10002;</code>
+         * <code>.dstore.values.IntegerValue bill_content_id = 10002;</code>
          */
         public io.dstore.values.IntegerValueOrBuilder getBillContentIdOrBuilder() {
           if (billContentIdBuilder_ != null) {
@@ -2370,7 +2370,7 @@ public final class OmGetBillContentInfoAd {
          * ID einer Rechnungs-Position (die auf einer Auftrags-Position basiert)
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue bill_content_id = 10002;</code>
+         * <code>.dstore.values.IntegerValue bill_content_id = 10002;</code>
          */
         private com.google.protobuf.SingleFieldBuilderV3<
             io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> 
@@ -2394,7 +2394,7 @@ public final class OmGetBillContentInfoAd {
          * ID eines Informationstyps, also um was es sich bei der Zusatz-Information "Information" handelt
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue information_type_id = 10003;</code>
+         * <code>.dstore.values.IntegerValue information_type_id = 10003;</code>
          */
         public boolean hasInformationTypeId() {
           return informationTypeIdBuilder_ != null || informationTypeId_ != null;
@@ -2404,7 +2404,7 @@ public final class OmGetBillContentInfoAd {
          * ID eines Informationstyps, also um was es sich bei der Zusatz-Information "Information" handelt
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue information_type_id = 10003;</code>
+         * <code>.dstore.values.IntegerValue information_type_id = 10003;</code>
          */
         public io.dstore.values.IntegerValue getInformationTypeId() {
           if (informationTypeIdBuilder_ == null) {
@@ -2418,7 +2418,7 @@ public final class OmGetBillContentInfoAd {
          * ID eines Informationstyps, also um was es sich bei der Zusatz-Information "Information" handelt
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue information_type_id = 10003;</code>
+         * <code>.dstore.values.IntegerValue information_type_id = 10003;</code>
          */
         public Builder setInformationTypeId(io.dstore.values.IntegerValue value) {
           if (informationTypeIdBuilder_ == null) {
@@ -2438,7 +2438,7 @@ public final class OmGetBillContentInfoAd {
          * ID eines Informationstyps, also um was es sich bei der Zusatz-Information "Information" handelt
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue information_type_id = 10003;</code>
+         * <code>.dstore.values.IntegerValue information_type_id = 10003;</code>
          */
         public Builder setInformationTypeId(
             io.dstore.values.IntegerValue.Builder builderForValue) {
@@ -2456,7 +2456,7 @@ public final class OmGetBillContentInfoAd {
          * ID eines Informationstyps, also um was es sich bei der Zusatz-Information "Information" handelt
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue information_type_id = 10003;</code>
+         * <code>.dstore.values.IntegerValue information_type_id = 10003;</code>
          */
         public Builder mergeInformationTypeId(io.dstore.values.IntegerValue value) {
           if (informationTypeIdBuilder_ == null) {
@@ -2478,7 +2478,7 @@ public final class OmGetBillContentInfoAd {
          * ID eines Informationstyps, also um was es sich bei der Zusatz-Information "Information" handelt
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue information_type_id = 10003;</code>
+         * <code>.dstore.values.IntegerValue information_type_id = 10003;</code>
          */
         public Builder clearInformationTypeId() {
           if (informationTypeIdBuilder_ == null) {
@@ -2496,7 +2496,7 @@ public final class OmGetBillContentInfoAd {
          * ID eines Informationstyps, also um was es sich bei der Zusatz-Information "Information" handelt
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue information_type_id = 10003;</code>
+         * <code>.dstore.values.IntegerValue information_type_id = 10003;</code>
          */
         public io.dstore.values.IntegerValue.Builder getInformationTypeIdBuilder() {
           
@@ -2508,7 +2508,7 @@ public final class OmGetBillContentInfoAd {
          * ID eines Informationstyps, also um was es sich bei der Zusatz-Information "Information" handelt
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue information_type_id = 10003;</code>
+         * <code>.dstore.values.IntegerValue information_type_id = 10003;</code>
          */
         public io.dstore.values.IntegerValueOrBuilder getInformationTypeIdOrBuilder() {
           if (informationTypeIdBuilder_ != null) {
@@ -2523,7 +2523,7 @@ public final class OmGetBillContentInfoAd {
          * ID eines Informationstyps, also um was es sich bei der Zusatz-Information "Information" handelt
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue information_type_id = 10003;</code>
+         * <code>.dstore.values.IntegerValue information_type_id = 10003;</code>
          */
         private com.google.protobuf.SingleFieldBuilderV3<
             io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> 
@@ -2547,7 +2547,7 @@ public final class OmGetBillContentInfoAd {
          * Bezeichnung der "InformationTypeID"
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue information_type = 10004;</code>
+         * <code>.dstore.values.StringValue information_type = 10004;</code>
          */
         public boolean hasInformationType() {
           return informationTypeBuilder_ != null || informationType_ != null;
@@ -2557,7 +2557,7 @@ public final class OmGetBillContentInfoAd {
          * Bezeichnung der "InformationTypeID"
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue information_type = 10004;</code>
+         * <code>.dstore.values.StringValue information_type = 10004;</code>
          */
         public io.dstore.values.StringValue getInformationType() {
           if (informationTypeBuilder_ == null) {
@@ -2571,7 +2571,7 @@ public final class OmGetBillContentInfoAd {
          * Bezeichnung der "InformationTypeID"
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue information_type = 10004;</code>
+         * <code>.dstore.values.StringValue information_type = 10004;</code>
          */
         public Builder setInformationType(io.dstore.values.StringValue value) {
           if (informationTypeBuilder_ == null) {
@@ -2591,7 +2591,7 @@ public final class OmGetBillContentInfoAd {
          * Bezeichnung der "InformationTypeID"
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue information_type = 10004;</code>
+         * <code>.dstore.values.StringValue information_type = 10004;</code>
          */
         public Builder setInformationType(
             io.dstore.values.StringValue.Builder builderForValue) {
@@ -2609,7 +2609,7 @@ public final class OmGetBillContentInfoAd {
          * Bezeichnung der "InformationTypeID"
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue information_type = 10004;</code>
+         * <code>.dstore.values.StringValue information_type = 10004;</code>
          */
         public Builder mergeInformationType(io.dstore.values.StringValue value) {
           if (informationTypeBuilder_ == null) {
@@ -2631,7 +2631,7 @@ public final class OmGetBillContentInfoAd {
          * Bezeichnung der "InformationTypeID"
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue information_type = 10004;</code>
+         * <code>.dstore.values.StringValue information_type = 10004;</code>
          */
         public Builder clearInformationType() {
           if (informationTypeBuilder_ == null) {
@@ -2649,7 +2649,7 @@ public final class OmGetBillContentInfoAd {
          * Bezeichnung der "InformationTypeID"
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue information_type = 10004;</code>
+         * <code>.dstore.values.StringValue information_type = 10004;</code>
          */
         public io.dstore.values.StringValue.Builder getInformationTypeBuilder() {
           
@@ -2661,7 +2661,7 @@ public final class OmGetBillContentInfoAd {
          * Bezeichnung der "InformationTypeID"
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue information_type = 10004;</code>
+         * <code>.dstore.values.StringValue information_type = 10004;</code>
          */
         public io.dstore.values.StringValueOrBuilder getInformationTypeOrBuilder() {
           if (informationTypeBuilder_ != null) {
@@ -2676,7 +2676,7 @@ public final class OmGetBillContentInfoAd {
          * Bezeichnung der "InformationTypeID"
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue information_type = 10004;</code>
+         * <code>.dstore.values.StringValue information_type = 10004;</code>
          */
         private com.google.protobuf.SingleFieldBuilderV3<
             io.dstore.values.StringValue, io.dstore.values.StringValue.Builder, io.dstore.values.StringValueOrBuilder> 
@@ -2700,7 +2700,7 @@ public final class OmGetBillContentInfoAd {
          * Die zur Rechnungs-Position "BillContentID" hinterlegt Information des Typs "InformationTypeID"
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue information = 10005;</code>
+         * <code>.dstore.values.StringValue information = 10005;</code>
          */
         public boolean hasInformation() {
           return informationBuilder_ != null || information_ != null;
@@ -2710,7 +2710,7 @@ public final class OmGetBillContentInfoAd {
          * Die zur Rechnungs-Position "BillContentID" hinterlegt Information des Typs "InformationTypeID"
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue information = 10005;</code>
+         * <code>.dstore.values.StringValue information = 10005;</code>
          */
         public io.dstore.values.StringValue getInformation() {
           if (informationBuilder_ == null) {
@@ -2724,7 +2724,7 @@ public final class OmGetBillContentInfoAd {
          * Die zur Rechnungs-Position "BillContentID" hinterlegt Information des Typs "InformationTypeID"
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue information = 10005;</code>
+         * <code>.dstore.values.StringValue information = 10005;</code>
          */
         public Builder setInformation(io.dstore.values.StringValue value) {
           if (informationBuilder_ == null) {
@@ -2744,7 +2744,7 @@ public final class OmGetBillContentInfoAd {
          * Die zur Rechnungs-Position "BillContentID" hinterlegt Information des Typs "InformationTypeID"
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue information = 10005;</code>
+         * <code>.dstore.values.StringValue information = 10005;</code>
          */
         public Builder setInformation(
             io.dstore.values.StringValue.Builder builderForValue) {
@@ -2762,7 +2762,7 @@ public final class OmGetBillContentInfoAd {
          * Die zur Rechnungs-Position "BillContentID" hinterlegt Information des Typs "InformationTypeID"
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue information = 10005;</code>
+         * <code>.dstore.values.StringValue information = 10005;</code>
          */
         public Builder mergeInformation(io.dstore.values.StringValue value) {
           if (informationBuilder_ == null) {
@@ -2784,7 +2784,7 @@ public final class OmGetBillContentInfoAd {
          * Die zur Rechnungs-Position "BillContentID" hinterlegt Information des Typs "InformationTypeID"
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue information = 10005;</code>
+         * <code>.dstore.values.StringValue information = 10005;</code>
          */
         public Builder clearInformation() {
           if (informationBuilder_ == null) {
@@ -2802,7 +2802,7 @@ public final class OmGetBillContentInfoAd {
          * Die zur Rechnungs-Position "BillContentID" hinterlegt Information des Typs "InformationTypeID"
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue information = 10005;</code>
+         * <code>.dstore.values.StringValue information = 10005;</code>
          */
         public io.dstore.values.StringValue.Builder getInformationBuilder() {
           
@@ -2814,7 +2814,7 @@ public final class OmGetBillContentInfoAd {
          * Die zur Rechnungs-Position "BillContentID" hinterlegt Information des Typs "InformationTypeID"
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue information = 10005;</code>
+         * <code>.dstore.values.StringValue information = 10005;</code>
          */
         public io.dstore.values.StringValueOrBuilder getInformationOrBuilder() {
           if (informationBuilder_ != null) {
@@ -2829,7 +2829,7 @@ public final class OmGetBillContentInfoAd {
          * Die zur Rechnungs-Position "BillContentID" hinterlegt Information des Typs "InformationTypeID"
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue information = 10005;</code>
+         * <code>.dstore.values.StringValue information = 10005;</code>
          */
         private com.google.protobuf.SingleFieldBuilderV3<
             io.dstore.values.StringValue, io.dstore.values.StringValue.Builder, io.dstore.values.StringValueOrBuilder> 
@@ -2853,7 +2853,7 @@ public final class OmGetBillContentInfoAd {
          * Wann wurde die Information "Information" zur "BillContentID" hinterlegt ?
          * </pre>
          *
-         * <code>optional .dstore.values.TimestampValue created_at_date_and_time = 10006;</code>
+         * <code>.dstore.values.TimestampValue created_at_date_and_time = 10006;</code>
          */
         public boolean hasCreatedAtDateAndTime() {
           return createdAtDateAndTimeBuilder_ != null || createdAtDateAndTime_ != null;
@@ -2863,7 +2863,7 @@ public final class OmGetBillContentInfoAd {
          * Wann wurde die Information "Information" zur "BillContentID" hinterlegt ?
          * </pre>
          *
-         * <code>optional .dstore.values.TimestampValue created_at_date_and_time = 10006;</code>
+         * <code>.dstore.values.TimestampValue created_at_date_and_time = 10006;</code>
          */
         public io.dstore.values.TimestampValue getCreatedAtDateAndTime() {
           if (createdAtDateAndTimeBuilder_ == null) {
@@ -2877,7 +2877,7 @@ public final class OmGetBillContentInfoAd {
          * Wann wurde die Information "Information" zur "BillContentID" hinterlegt ?
          * </pre>
          *
-         * <code>optional .dstore.values.TimestampValue created_at_date_and_time = 10006;</code>
+         * <code>.dstore.values.TimestampValue created_at_date_and_time = 10006;</code>
          */
         public Builder setCreatedAtDateAndTime(io.dstore.values.TimestampValue value) {
           if (createdAtDateAndTimeBuilder_ == null) {
@@ -2897,7 +2897,7 @@ public final class OmGetBillContentInfoAd {
          * Wann wurde die Information "Information" zur "BillContentID" hinterlegt ?
          * </pre>
          *
-         * <code>optional .dstore.values.TimestampValue created_at_date_and_time = 10006;</code>
+         * <code>.dstore.values.TimestampValue created_at_date_and_time = 10006;</code>
          */
         public Builder setCreatedAtDateAndTime(
             io.dstore.values.TimestampValue.Builder builderForValue) {
@@ -2915,7 +2915,7 @@ public final class OmGetBillContentInfoAd {
          * Wann wurde die Information "Information" zur "BillContentID" hinterlegt ?
          * </pre>
          *
-         * <code>optional .dstore.values.TimestampValue created_at_date_and_time = 10006;</code>
+         * <code>.dstore.values.TimestampValue created_at_date_and_time = 10006;</code>
          */
         public Builder mergeCreatedAtDateAndTime(io.dstore.values.TimestampValue value) {
           if (createdAtDateAndTimeBuilder_ == null) {
@@ -2937,7 +2937,7 @@ public final class OmGetBillContentInfoAd {
          * Wann wurde die Information "Information" zur "BillContentID" hinterlegt ?
          * </pre>
          *
-         * <code>optional .dstore.values.TimestampValue created_at_date_and_time = 10006;</code>
+         * <code>.dstore.values.TimestampValue created_at_date_and_time = 10006;</code>
          */
         public Builder clearCreatedAtDateAndTime() {
           if (createdAtDateAndTimeBuilder_ == null) {
@@ -2955,7 +2955,7 @@ public final class OmGetBillContentInfoAd {
          * Wann wurde die Information "Information" zur "BillContentID" hinterlegt ?
          * </pre>
          *
-         * <code>optional .dstore.values.TimestampValue created_at_date_and_time = 10006;</code>
+         * <code>.dstore.values.TimestampValue created_at_date_and_time = 10006;</code>
          */
         public io.dstore.values.TimestampValue.Builder getCreatedAtDateAndTimeBuilder() {
           
@@ -2967,7 +2967,7 @@ public final class OmGetBillContentInfoAd {
          * Wann wurde die Information "Information" zur "BillContentID" hinterlegt ?
          * </pre>
          *
-         * <code>optional .dstore.values.TimestampValue created_at_date_and_time = 10006;</code>
+         * <code>.dstore.values.TimestampValue created_at_date_and_time = 10006;</code>
          */
         public io.dstore.values.TimestampValueOrBuilder getCreatedAtDateAndTimeOrBuilder() {
           if (createdAtDateAndTimeBuilder_ != null) {
@@ -2982,7 +2982,7 @@ public final class OmGetBillContentInfoAd {
          * Wann wurde die Information "Information" zur "BillContentID" hinterlegt ?
          * </pre>
          *
-         * <code>optional .dstore.values.TimestampValue created_at_date_and_time = 10006;</code>
+         * <code>.dstore.values.TimestampValue created_at_date_and_time = 10006;</code>
          */
         private com.google.protobuf.SingleFieldBuilderV3<
             io.dstore.values.TimestampValue, io.dstore.values.TimestampValue.Builder, io.dstore.values.TimestampValueOrBuilder> 
@@ -3242,7 +3242,7 @@ public final class OmGetBillContentInfoAd {
         return memoizedHashCode;
       }
       int hash = 41;
-      hash = (19 * hash) + getDescriptorForType().hashCode();
+      hash = (19 * hash) + getDescriptor().hashCode();
       if (getMetaInformationCount() > 0) {
         hash = (37 * hash) + META_INFORMATION_FIELD_NUMBER;
         hash = (53 * hash) + getMetaInformationList().hashCode();

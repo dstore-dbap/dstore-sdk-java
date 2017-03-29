@@ -19,164 +19,164 @@ public final class FoModifyPostingCharacsAd {
       com.google.protobuf.MessageOrBuilder {
 
     /**
-     * <code>optional .dstore.values.IntegerValue posting_characteristic_id = 1;</code>
+     * <code>.dstore.values.IntegerValue posting_characteristic_id = 1;</code>
      */
     boolean hasPostingCharacteristicId();
     /**
-     * <code>optional .dstore.values.IntegerValue posting_characteristic_id = 1;</code>
+     * <code>.dstore.values.IntegerValue posting_characteristic_id = 1;</code>
      */
     io.dstore.values.IntegerValue getPostingCharacteristicId();
     /**
-     * <code>optional .dstore.values.IntegerValue posting_characteristic_id = 1;</code>
+     * <code>.dstore.values.IntegerValue posting_characteristic_id = 1;</code>
      */
     io.dstore.values.IntegerValueOrBuilder getPostingCharacteristicIdOrBuilder();
 
     /**
-     * <code>optional bool posting_characteristic_id_null = 1001;</code>
+     * <code>bool posting_characteristic_id_null = 1001;</code>
      */
     boolean getPostingCharacteristicIdNull();
 
     /**
-     * <code>optional .dstore.values.StringValue characteristic_description = 2;</code>
+     * <code>.dstore.values.StringValue characteristic_description = 2;</code>
      */
     boolean hasCharacteristicDescription();
     /**
-     * <code>optional .dstore.values.StringValue characteristic_description = 2;</code>
+     * <code>.dstore.values.StringValue characteristic_description = 2;</code>
      */
     io.dstore.values.StringValue getCharacteristicDescription();
     /**
-     * <code>optional .dstore.values.StringValue characteristic_description = 2;</code>
+     * <code>.dstore.values.StringValue characteristic_description = 2;</code>
      */
     io.dstore.values.StringValueOrBuilder getCharacteristicDescriptionOrBuilder();
 
     /**
-     * <code>optional bool characteristic_description_null = 1002;</code>
+     * <code>bool characteristic_description_null = 1002;</code>
      */
     boolean getCharacteristicDescriptionNull();
 
     /**
-     * <code>optional .dstore.values.IntegerValue field_type_id = 3;</code>
+     * <code>.dstore.values.IntegerValue field_type_id = 3;</code>
      */
     boolean hasFieldTypeId();
     /**
-     * <code>optional .dstore.values.IntegerValue field_type_id = 3;</code>
+     * <code>.dstore.values.IntegerValue field_type_id = 3;</code>
      */
     io.dstore.values.IntegerValue getFieldTypeId();
     /**
-     * <code>optional .dstore.values.IntegerValue field_type_id = 3;</code>
+     * <code>.dstore.values.IntegerValue field_type_id = 3;</code>
      */
     io.dstore.values.IntegerValueOrBuilder getFieldTypeIdOrBuilder();
 
     /**
-     * <code>optional bool field_type_id_null = 1003;</code>
+     * <code>bool field_type_id_null = 1003;</code>
      */
     boolean getFieldTypeIdNull();
 
     /**
-     * <code>optional .dstore.values.IntegerValue property_modification_allowed = 4;</code>
+     * <code>.dstore.values.IntegerValue property_modification_allowed = 4;</code>
      */
     boolean hasPropertyModificationAllowed();
     /**
-     * <code>optional .dstore.values.IntegerValue property_modification_allowed = 4;</code>
+     * <code>.dstore.values.IntegerValue property_modification_allowed = 4;</code>
      */
     io.dstore.values.IntegerValue getPropertyModificationAllowed();
     /**
-     * <code>optional .dstore.values.IntegerValue property_modification_allowed = 4;</code>
+     * <code>.dstore.values.IntegerValue property_modification_allowed = 4;</code>
      */
     io.dstore.values.IntegerValueOrBuilder getPropertyModificationAllowedOrBuilder();
 
     /**
-     * <code>optional bool property_modification_allowed_null = 1004;</code>
+     * <code>bool property_modification_allowed_null = 1004;</code>
      */
     boolean getPropertyModificationAllowedNull();
 
     /**
-     * <code>optional .dstore.values.IntegerValue common_characteristic = 5;</code>
+     * <code>.dstore.values.IntegerValue common_characteristic = 5;</code>
      */
     boolean hasCommonCharacteristic();
     /**
-     * <code>optional .dstore.values.IntegerValue common_characteristic = 5;</code>
+     * <code>.dstore.values.IntegerValue common_characteristic = 5;</code>
      */
     io.dstore.values.IntegerValue getCommonCharacteristic();
     /**
-     * <code>optional .dstore.values.IntegerValue common_characteristic = 5;</code>
+     * <code>.dstore.values.IntegerValue common_characteristic = 5;</code>
      */
     io.dstore.values.IntegerValueOrBuilder getCommonCharacteristicOrBuilder();
 
     /**
-     * <code>optional bool common_characteristic_null = 1005;</code>
+     * <code>bool common_characteristic_null = 1005;</code>
      */
     boolean getCommonCharacteristicNull();
 
     /**
-     * <code>optional .dstore.values.BooleanValue predefined_values = 6;</code>
+     * <code>.dstore.values.BooleanValue predefined_values = 6;</code>
      */
     boolean hasPredefinedValues();
     /**
-     * <code>optional .dstore.values.BooleanValue predefined_values = 6;</code>
+     * <code>.dstore.values.BooleanValue predefined_values = 6;</code>
      */
     io.dstore.values.BooleanValue getPredefinedValues();
     /**
-     * <code>optional .dstore.values.BooleanValue predefined_values = 6;</code>
+     * <code>.dstore.values.BooleanValue predefined_values = 6;</code>
      */
     io.dstore.values.BooleanValueOrBuilder getPredefinedValuesOrBuilder();
 
     /**
-     * <code>optional bool predefined_values_null = 1006;</code>
+     * <code>bool predefined_values_null = 1006;</code>
      */
     boolean getPredefinedValuesNull();
 
     /**
-     * <code>optional .dstore.values.BooleanValue check_posting_visibility = 7;</code>
+     * <code>.dstore.values.BooleanValue check_posting_visibility = 7;</code>
      */
     boolean hasCheckPostingVisibility();
     /**
-     * <code>optional .dstore.values.BooleanValue check_posting_visibility = 7;</code>
+     * <code>.dstore.values.BooleanValue check_posting_visibility = 7;</code>
      */
     io.dstore.values.BooleanValue getCheckPostingVisibility();
     /**
-     * <code>optional .dstore.values.BooleanValue check_posting_visibility = 7;</code>
+     * <code>.dstore.values.BooleanValue check_posting_visibility = 7;</code>
      */
     io.dstore.values.BooleanValueOrBuilder getCheckPostingVisibilityOrBuilder();
 
     /**
-     * <code>optional bool check_posting_visibility_null = 1007;</code>
+     * <code>bool check_posting_visibility_null = 1007;</code>
      */
     boolean getCheckPostingVisibilityNull();
 
     /**
-     * <code>optional .dstore.values.IntegerValue max_number_of_properties = 8;</code>
+     * <code>.dstore.values.IntegerValue max_number_of_properties = 8;</code>
      */
     boolean hasMaxNumberOfProperties();
     /**
-     * <code>optional .dstore.values.IntegerValue max_number_of_properties = 8;</code>
+     * <code>.dstore.values.IntegerValue max_number_of_properties = 8;</code>
      */
     io.dstore.values.IntegerValue getMaxNumberOfProperties();
     /**
-     * <code>optional .dstore.values.IntegerValue max_number_of_properties = 8;</code>
+     * <code>.dstore.values.IntegerValue max_number_of_properties = 8;</code>
      */
     io.dstore.values.IntegerValueOrBuilder getMaxNumberOfPropertiesOrBuilder();
 
     /**
-     * <code>optional bool max_number_of_properties_null = 1008;</code>
+     * <code>bool max_number_of_properties_null = 1008;</code>
      */
     boolean getMaxNumberOfPropertiesNull();
 
     /**
-     * <code>optional .dstore.values.IntegerValue delete_characteristic = 9;</code>
+     * <code>.dstore.values.IntegerValue delete_characteristic = 9;</code>
      */
     boolean hasDeleteCharacteristic();
     /**
-     * <code>optional .dstore.values.IntegerValue delete_characteristic = 9;</code>
+     * <code>.dstore.values.IntegerValue delete_characteristic = 9;</code>
      */
     io.dstore.values.IntegerValue getDeleteCharacteristic();
     /**
-     * <code>optional .dstore.values.IntegerValue delete_characteristic = 9;</code>
+     * <code>.dstore.values.IntegerValue delete_characteristic = 9;</code>
      */
     io.dstore.values.IntegerValueOrBuilder getDeleteCharacteristicOrBuilder();
 
     /**
-     * <code>optional bool delete_characteristic_null = 1009;</code>
+     * <code>bool delete_characteristic_null = 1009;</code>
      */
     boolean getDeleteCharacteristicNull();
   }
@@ -416,19 +416,19 @@ public final class FoModifyPostingCharacsAd {
     public static final int POSTING_CHARACTERISTIC_ID_FIELD_NUMBER = 1;
     private io.dstore.values.IntegerValue postingCharacteristicId_;
     /**
-     * <code>optional .dstore.values.IntegerValue posting_characteristic_id = 1;</code>
+     * <code>.dstore.values.IntegerValue posting_characteristic_id = 1;</code>
      */
     public boolean hasPostingCharacteristicId() {
       return postingCharacteristicId_ != null;
     }
     /**
-     * <code>optional .dstore.values.IntegerValue posting_characteristic_id = 1;</code>
+     * <code>.dstore.values.IntegerValue posting_characteristic_id = 1;</code>
      */
     public io.dstore.values.IntegerValue getPostingCharacteristicId() {
       return postingCharacteristicId_ == null ? io.dstore.values.IntegerValue.getDefaultInstance() : postingCharacteristicId_;
     }
     /**
-     * <code>optional .dstore.values.IntegerValue posting_characteristic_id = 1;</code>
+     * <code>.dstore.values.IntegerValue posting_characteristic_id = 1;</code>
      */
     public io.dstore.values.IntegerValueOrBuilder getPostingCharacteristicIdOrBuilder() {
       return getPostingCharacteristicId();
@@ -437,7 +437,7 @@ public final class FoModifyPostingCharacsAd {
     public static final int POSTING_CHARACTERISTIC_ID_NULL_FIELD_NUMBER = 1001;
     private boolean postingCharacteristicIdNull_;
     /**
-     * <code>optional bool posting_characteristic_id_null = 1001;</code>
+     * <code>bool posting_characteristic_id_null = 1001;</code>
      */
     public boolean getPostingCharacteristicIdNull() {
       return postingCharacteristicIdNull_;
@@ -446,19 +446,19 @@ public final class FoModifyPostingCharacsAd {
     public static final int CHARACTERISTIC_DESCRIPTION_FIELD_NUMBER = 2;
     private io.dstore.values.StringValue characteristicDescription_;
     /**
-     * <code>optional .dstore.values.StringValue characteristic_description = 2;</code>
+     * <code>.dstore.values.StringValue characteristic_description = 2;</code>
      */
     public boolean hasCharacteristicDescription() {
       return characteristicDescription_ != null;
     }
     /**
-     * <code>optional .dstore.values.StringValue characteristic_description = 2;</code>
+     * <code>.dstore.values.StringValue characteristic_description = 2;</code>
      */
     public io.dstore.values.StringValue getCharacteristicDescription() {
       return characteristicDescription_ == null ? io.dstore.values.StringValue.getDefaultInstance() : characteristicDescription_;
     }
     /**
-     * <code>optional .dstore.values.StringValue characteristic_description = 2;</code>
+     * <code>.dstore.values.StringValue characteristic_description = 2;</code>
      */
     public io.dstore.values.StringValueOrBuilder getCharacteristicDescriptionOrBuilder() {
       return getCharacteristicDescription();
@@ -467,7 +467,7 @@ public final class FoModifyPostingCharacsAd {
     public static final int CHARACTERISTIC_DESCRIPTION_NULL_FIELD_NUMBER = 1002;
     private boolean characteristicDescriptionNull_;
     /**
-     * <code>optional bool characteristic_description_null = 1002;</code>
+     * <code>bool characteristic_description_null = 1002;</code>
      */
     public boolean getCharacteristicDescriptionNull() {
       return characteristicDescriptionNull_;
@@ -476,19 +476,19 @@ public final class FoModifyPostingCharacsAd {
     public static final int FIELD_TYPE_ID_FIELD_NUMBER = 3;
     private io.dstore.values.IntegerValue fieldTypeId_;
     /**
-     * <code>optional .dstore.values.IntegerValue field_type_id = 3;</code>
+     * <code>.dstore.values.IntegerValue field_type_id = 3;</code>
      */
     public boolean hasFieldTypeId() {
       return fieldTypeId_ != null;
     }
     /**
-     * <code>optional .dstore.values.IntegerValue field_type_id = 3;</code>
+     * <code>.dstore.values.IntegerValue field_type_id = 3;</code>
      */
     public io.dstore.values.IntegerValue getFieldTypeId() {
       return fieldTypeId_ == null ? io.dstore.values.IntegerValue.getDefaultInstance() : fieldTypeId_;
     }
     /**
-     * <code>optional .dstore.values.IntegerValue field_type_id = 3;</code>
+     * <code>.dstore.values.IntegerValue field_type_id = 3;</code>
      */
     public io.dstore.values.IntegerValueOrBuilder getFieldTypeIdOrBuilder() {
       return getFieldTypeId();
@@ -497,7 +497,7 @@ public final class FoModifyPostingCharacsAd {
     public static final int FIELD_TYPE_ID_NULL_FIELD_NUMBER = 1003;
     private boolean fieldTypeIdNull_;
     /**
-     * <code>optional bool field_type_id_null = 1003;</code>
+     * <code>bool field_type_id_null = 1003;</code>
      */
     public boolean getFieldTypeIdNull() {
       return fieldTypeIdNull_;
@@ -506,19 +506,19 @@ public final class FoModifyPostingCharacsAd {
     public static final int PROPERTY_MODIFICATION_ALLOWED_FIELD_NUMBER = 4;
     private io.dstore.values.IntegerValue propertyModificationAllowed_;
     /**
-     * <code>optional .dstore.values.IntegerValue property_modification_allowed = 4;</code>
+     * <code>.dstore.values.IntegerValue property_modification_allowed = 4;</code>
      */
     public boolean hasPropertyModificationAllowed() {
       return propertyModificationAllowed_ != null;
     }
     /**
-     * <code>optional .dstore.values.IntegerValue property_modification_allowed = 4;</code>
+     * <code>.dstore.values.IntegerValue property_modification_allowed = 4;</code>
      */
     public io.dstore.values.IntegerValue getPropertyModificationAllowed() {
       return propertyModificationAllowed_ == null ? io.dstore.values.IntegerValue.getDefaultInstance() : propertyModificationAllowed_;
     }
     /**
-     * <code>optional .dstore.values.IntegerValue property_modification_allowed = 4;</code>
+     * <code>.dstore.values.IntegerValue property_modification_allowed = 4;</code>
      */
     public io.dstore.values.IntegerValueOrBuilder getPropertyModificationAllowedOrBuilder() {
       return getPropertyModificationAllowed();
@@ -527,7 +527,7 @@ public final class FoModifyPostingCharacsAd {
     public static final int PROPERTY_MODIFICATION_ALLOWED_NULL_FIELD_NUMBER = 1004;
     private boolean propertyModificationAllowedNull_;
     /**
-     * <code>optional bool property_modification_allowed_null = 1004;</code>
+     * <code>bool property_modification_allowed_null = 1004;</code>
      */
     public boolean getPropertyModificationAllowedNull() {
       return propertyModificationAllowedNull_;
@@ -536,19 +536,19 @@ public final class FoModifyPostingCharacsAd {
     public static final int COMMON_CHARACTERISTIC_FIELD_NUMBER = 5;
     private io.dstore.values.IntegerValue commonCharacteristic_;
     /**
-     * <code>optional .dstore.values.IntegerValue common_characteristic = 5;</code>
+     * <code>.dstore.values.IntegerValue common_characteristic = 5;</code>
      */
     public boolean hasCommonCharacteristic() {
       return commonCharacteristic_ != null;
     }
     /**
-     * <code>optional .dstore.values.IntegerValue common_characteristic = 5;</code>
+     * <code>.dstore.values.IntegerValue common_characteristic = 5;</code>
      */
     public io.dstore.values.IntegerValue getCommonCharacteristic() {
       return commonCharacteristic_ == null ? io.dstore.values.IntegerValue.getDefaultInstance() : commonCharacteristic_;
     }
     /**
-     * <code>optional .dstore.values.IntegerValue common_characteristic = 5;</code>
+     * <code>.dstore.values.IntegerValue common_characteristic = 5;</code>
      */
     public io.dstore.values.IntegerValueOrBuilder getCommonCharacteristicOrBuilder() {
       return getCommonCharacteristic();
@@ -557,7 +557,7 @@ public final class FoModifyPostingCharacsAd {
     public static final int COMMON_CHARACTERISTIC_NULL_FIELD_NUMBER = 1005;
     private boolean commonCharacteristicNull_;
     /**
-     * <code>optional bool common_characteristic_null = 1005;</code>
+     * <code>bool common_characteristic_null = 1005;</code>
      */
     public boolean getCommonCharacteristicNull() {
       return commonCharacteristicNull_;
@@ -566,19 +566,19 @@ public final class FoModifyPostingCharacsAd {
     public static final int PREDEFINED_VALUES_FIELD_NUMBER = 6;
     private io.dstore.values.BooleanValue predefinedValues_;
     /**
-     * <code>optional .dstore.values.BooleanValue predefined_values = 6;</code>
+     * <code>.dstore.values.BooleanValue predefined_values = 6;</code>
      */
     public boolean hasPredefinedValues() {
       return predefinedValues_ != null;
     }
     /**
-     * <code>optional .dstore.values.BooleanValue predefined_values = 6;</code>
+     * <code>.dstore.values.BooleanValue predefined_values = 6;</code>
      */
     public io.dstore.values.BooleanValue getPredefinedValues() {
       return predefinedValues_ == null ? io.dstore.values.BooleanValue.getDefaultInstance() : predefinedValues_;
     }
     /**
-     * <code>optional .dstore.values.BooleanValue predefined_values = 6;</code>
+     * <code>.dstore.values.BooleanValue predefined_values = 6;</code>
      */
     public io.dstore.values.BooleanValueOrBuilder getPredefinedValuesOrBuilder() {
       return getPredefinedValues();
@@ -587,7 +587,7 @@ public final class FoModifyPostingCharacsAd {
     public static final int PREDEFINED_VALUES_NULL_FIELD_NUMBER = 1006;
     private boolean predefinedValuesNull_;
     /**
-     * <code>optional bool predefined_values_null = 1006;</code>
+     * <code>bool predefined_values_null = 1006;</code>
      */
     public boolean getPredefinedValuesNull() {
       return predefinedValuesNull_;
@@ -596,19 +596,19 @@ public final class FoModifyPostingCharacsAd {
     public static final int CHECK_POSTING_VISIBILITY_FIELD_NUMBER = 7;
     private io.dstore.values.BooleanValue checkPostingVisibility_;
     /**
-     * <code>optional .dstore.values.BooleanValue check_posting_visibility = 7;</code>
+     * <code>.dstore.values.BooleanValue check_posting_visibility = 7;</code>
      */
     public boolean hasCheckPostingVisibility() {
       return checkPostingVisibility_ != null;
     }
     /**
-     * <code>optional .dstore.values.BooleanValue check_posting_visibility = 7;</code>
+     * <code>.dstore.values.BooleanValue check_posting_visibility = 7;</code>
      */
     public io.dstore.values.BooleanValue getCheckPostingVisibility() {
       return checkPostingVisibility_ == null ? io.dstore.values.BooleanValue.getDefaultInstance() : checkPostingVisibility_;
     }
     /**
-     * <code>optional .dstore.values.BooleanValue check_posting_visibility = 7;</code>
+     * <code>.dstore.values.BooleanValue check_posting_visibility = 7;</code>
      */
     public io.dstore.values.BooleanValueOrBuilder getCheckPostingVisibilityOrBuilder() {
       return getCheckPostingVisibility();
@@ -617,7 +617,7 @@ public final class FoModifyPostingCharacsAd {
     public static final int CHECK_POSTING_VISIBILITY_NULL_FIELD_NUMBER = 1007;
     private boolean checkPostingVisibilityNull_;
     /**
-     * <code>optional bool check_posting_visibility_null = 1007;</code>
+     * <code>bool check_posting_visibility_null = 1007;</code>
      */
     public boolean getCheckPostingVisibilityNull() {
       return checkPostingVisibilityNull_;
@@ -626,19 +626,19 @@ public final class FoModifyPostingCharacsAd {
     public static final int MAX_NUMBER_OF_PROPERTIES_FIELD_NUMBER = 8;
     private io.dstore.values.IntegerValue maxNumberOfProperties_;
     /**
-     * <code>optional .dstore.values.IntegerValue max_number_of_properties = 8;</code>
+     * <code>.dstore.values.IntegerValue max_number_of_properties = 8;</code>
      */
     public boolean hasMaxNumberOfProperties() {
       return maxNumberOfProperties_ != null;
     }
     /**
-     * <code>optional .dstore.values.IntegerValue max_number_of_properties = 8;</code>
+     * <code>.dstore.values.IntegerValue max_number_of_properties = 8;</code>
      */
     public io.dstore.values.IntegerValue getMaxNumberOfProperties() {
       return maxNumberOfProperties_ == null ? io.dstore.values.IntegerValue.getDefaultInstance() : maxNumberOfProperties_;
     }
     /**
-     * <code>optional .dstore.values.IntegerValue max_number_of_properties = 8;</code>
+     * <code>.dstore.values.IntegerValue max_number_of_properties = 8;</code>
      */
     public io.dstore.values.IntegerValueOrBuilder getMaxNumberOfPropertiesOrBuilder() {
       return getMaxNumberOfProperties();
@@ -647,7 +647,7 @@ public final class FoModifyPostingCharacsAd {
     public static final int MAX_NUMBER_OF_PROPERTIES_NULL_FIELD_NUMBER = 1008;
     private boolean maxNumberOfPropertiesNull_;
     /**
-     * <code>optional bool max_number_of_properties_null = 1008;</code>
+     * <code>bool max_number_of_properties_null = 1008;</code>
      */
     public boolean getMaxNumberOfPropertiesNull() {
       return maxNumberOfPropertiesNull_;
@@ -656,19 +656,19 @@ public final class FoModifyPostingCharacsAd {
     public static final int DELETE_CHARACTERISTIC_FIELD_NUMBER = 9;
     private io.dstore.values.IntegerValue deleteCharacteristic_;
     /**
-     * <code>optional .dstore.values.IntegerValue delete_characteristic = 9;</code>
+     * <code>.dstore.values.IntegerValue delete_characteristic = 9;</code>
      */
     public boolean hasDeleteCharacteristic() {
       return deleteCharacteristic_ != null;
     }
     /**
-     * <code>optional .dstore.values.IntegerValue delete_characteristic = 9;</code>
+     * <code>.dstore.values.IntegerValue delete_characteristic = 9;</code>
      */
     public io.dstore.values.IntegerValue getDeleteCharacteristic() {
       return deleteCharacteristic_ == null ? io.dstore.values.IntegerValue.getDefaultInstance() : deleteCharacteristic_;
     }
     /**
-     * <code>optional .dstore.values.IntegerValue delete_characteristic = 9;</code>
+     * <code>.dstore.values.IntegerValue delete_characteristic = 9;</code>
      */
     public io.dstore.values.IntegerValueOrBuilder getDeleteCharacteristicOrBuilder() {
       return getDeleteCharacteristic();
@@ -677,7 +677,7 @@ public final class FoModifyPostingCharacsAd {
     public static final int DELETE_CHARACTERISTIC_NULL_FIELD_NUMBER = 1009;
     private boolean deleteCharacteristicNull_;
     /**
-     * <code>optional bool delete_characteristic_null = 1009;</code>
+     * <code>bool delete_characteristic_null = 1009;</code>
      */
     public boolean getDeleteCharacteristicNull() {
       return deleteCharacteristicNull_;
@@ -916,7 +916,7 @@ public final class FoModifyPostingCharacsAd {
         return memoizedHashCode;
       }
       int hash = 41;
-      hash = (19 * hash) + getDescriptorForType().hashCode();
+      hash = (19 * hash) + getDescriptor().hashCode();
       if (hasPostingCharacteristicId()) {
         hash = (37 * hash) + POSTING_CHARACTERISTIC_ID_FIELD_NUMBER;
         hash = (53 * hash) + getPostingCharacteristicId().hashCode();
@@ -1371,13 +1371,13 @@ public final class FoModifyPostingCharacsAd {
       private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> postingCharacteristicIdBuilder_;
       /**
-       * <code>optional .dstore.values.IntegerValue posting_characteristic_id = 1;</code>
+       * <code>.dstore.values.IntegerValue posting_characteristic_id = 1;</code>
        */
       public boolean hasPostingCharacteristicId() {
         return postingCharacteristicIdBuilder_ != null || postingCharacteristicId_ != null;
       }
       /**
-       * <code>optional .dstore.values.IntegerValue posting_characteristic_id = 1;</code>
+       * <code>.dstore.values.IntegerValue posting_characteristic_id = 1;</code>
        */
       public io.dstore.values.IntegerValue getPostingCharacteristicId() {
         if (postingCharacteristicIdBuilder_ == null) {
@@ -1387,7 +1387,7 @@ public final class FoModifyPostingCharacsAd {
         }
       }
       /**
-       * <code>optional .dstore.values.IntegerValue posting_characteristic_id = 1;</code>
+       * <code>.dstore.values.IntegerValue posting_characteristic_id = 1;</code>
        */
       public Builder setPostingCharacteristicId(io.dstore.values.IntegerValue value) {
         if (postingCharacteristicIdBuilder_ == null) {
@@ -1403,7 +1403,7 @@ public final class FoModifyPostingCharacsAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.IntegerValue posting_characteristic_id = 1;</code>
+       * <code>.dstore.values.IntegerValue posting_characteristic_id = 1;</code>
        */
       public Builder setPostingCharacteristicId(
           io.dstore.values.IntegerValue.Builder builderForValue) {
@@ -1417,7 +1417,7 @@ public final class FoModifyPostingCharacsAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.IntegerValue posting_characteristic_id = 1;</code>
+       * <code>.dstore.values.IntegerValue posting_characteristic_id = 1;</code>
        */
       public Builder mergePostingCharacteristicId(io.dstore.values.IntegerValue value) {
         if (postingCharacteristicIdBuilder_ == null) {
@@ -1435,7 +1435,7 @@ public final class FoModifyPostingCharacsAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.IntegerValue posting_characteristic_id = 1;</code>
+       * <code>.dstore.values.IntegerValue posting_characteristic_id = 1;</code>
        */
       public Builder clearPostingCharacteristicId() {
         if (postingCharacteristicIdBuilder_ == null) {
@@ -1449,7 +1449,7 @@ public final class FoModifyPostingCharacsAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.IntegerValue posting_characteristic_id = 1;</code>
+       * <code>.dstore.values.IntegerValue posting_characteristic_id = 1;</code>
        */
       public io.dstore.values.IntegerValue.Builder getPostingCharacteristicIdBuilder() {
         
@@ -1457,7 +1457,7 @@ public final class FoModifyPostingCharacsAd {
         return getPostingCharacteristicIdFieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .dstore.values.IntegerValue posting_characteristic_id = 1;</code>
+       * <code>.dstore.values.IntegerValue posting_characteristic_id = 1;</code>
        */
       public io.dstore.values.IntegerValueOrBuilder getPostingCharacteristicIdOrBuilder() {
         if (postingCharacteristicIdBuilder_ != null) {
@@ -1468,7 +1468,7 @@ public final class FoModifyPostingCharacsAd {
         }
       }
       /**
-       * <code>optional .dstore.values.IntegerValue posting_characteristic_id = 1;</code>
+       * <code>.dstore.values.IntegerValue posting_characteristic_id = 1;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> 
@@ -1486,13 +1486,13 @@ public final class FoModifyPostingCharacsAd {
 
       private boolean postingCharacteristicIdNull_ ;
       /**
-       * <code>optional bool posting_characteristic_id_null = 1001;</code>
+       * <code>bool posting_characteristic_id_null = 1001;</code>
        */
       public boolean getPostingCharacteristicIdNull() {
         return postingCharacteristicIdNull_;
       }
       /**
-       * <code>optional bool posting_characteristic_id_null = 1001;</code>
+       * <code>bool posting_characteristic_id_null = 1001;</code>
        */
       public Builder setPostingCharacteristicIdNull(boolean value) {
         
@@ -1501,7 +1501,7 @@ public final class FoModifyPostingCharacsAd {
         return this;
       }
       /**
-       * <code>optional bool posting_characteristic_id_null = 1001;</code>
+       * <code>bool posting_characteristic_id_null = 1001;</code>
        */
       public Builder clearPostingCharacteristicIdNull() {
         
@@ -1514,13 +1514,13 @@ public final class FoModifyPostingCharacsAd {
       private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.values.StringValue, io.dstore.values.StringValue.Builder, io.dstore.values.StringValueOrBuilder> characteristicDescriptionBuilder_;
       /**
-       * <code>optional .dstore.values.StringValue characteristic_description = 2;</code>
+       * <code>.dstore.values.StringValue characteristic_description = 2;</code>
        */
       public boolean hasCharacteristicDescription() {
         return characteristicDescriptionBuilder_ != null || characteristicDescription_ != null;
       }
       /**
-       * <code>optional .dstore.values.StringValue characteristic_description = 2;</code>
+       * <code>.dstore.values.StringValue characteristic_description = 2;</code>
        */
       public io.dstore.values.StringValue getCharacteristicDescription() {
         if (characteristicDescriptionBuilder_ == null) {
@@ -1530,7 +1530,7 @@ public final class FoModifyPostingCharacsAd {
         }
       }
       /**
-       * <code>optional .dstore.values.StringValue characteristic_description = 2;</code>
+       * <code>.dstore.values.StringValue characteristic_description = 2;</code>
        */
       public Builder setCharacteristicDescription(io.dstore.values.StringValue value) {
         if (characteristicDescriptionBuilder_ == null) {
@@ -1546,7 +1546,7 @@ public final class FoModifyPostingCharacsAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.StringValue characteristic_description = 2;</code>
+       * <code>.dstore.values.StringValue characteristic_description = 2;</code>
        */
       public Builder setCharacteristicDescription(
           io.dstore.values.StringValue.Builder builderForValue) {
@@ -1560,7 +1560,7 @@ public final class FoModifyPostingCharacsAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.StringValue characteristic_description = 2;</code>
+       * <code>.dstore.values.StringValue characteristic_description = 2;</code>
        */
       public Builder mergeCharacteristicDescription(io.dstore.values.StringValue value) {
         if (characteristicDescriptionBuilder_ == null) {
@@ -1578,7 +1578,7 @@ public final class FoModifyPostingCharacsAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.StringValue characteristic_description = 2;</code>
+       * <code>.dstore.values.StringValue characteristic_description = 2;</code>
        */
       public Builder clearCharacteristicDescription() {
         if (characteristicDescriptionBuilder_ == null) {
@@ -1592,7 +1592,7 @@ public final class FoModifyPostingCharacsAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.StringValue characteristic_description = 2;</code>
+       * <code>.dstore.values.StringValue characteristic_description = 2;</code>
        */
       public io.dstore.values.StringValue.Builder getCharacteristicDescriptionBuilder() {
         
@@ -1600,7 +1600,7 @@ public final class FoModifyPostingCharacsAd {
         return getCharacteristicDescriptionFieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .dstore.values.StringValue characteristic_description = 2;</code>
+       * <code>.dstore.values.StringValue characteristic_description = 2;</code>
        */
       public io.dstore.values.StringValueOrBuilder getCharacteristicDescriptionOrBuilder() {
         if (characteristicDescriptionBuilder_ != null) {
@@ -1611,7 +1611,7 @@ public final class FoModifyPostingCharacsAd {
         }
       }
       /**
-       * <code>optional .dstore.values.StringValue characteristic_description = 2;</code>
+       * <code>.dstore.values.StringValue characteristic_description = 2;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.values.StringValue, io.dstore.values.StringValue.Builder, io.dstore.values.StringValueOrBuilder> 
@@ -1629,13 +1629,13 @@ public final class FoModifyPostingCharacsAd {
 
       private boolean characteristicDescriptionNull_ ;
       /**
-       * <code>optional bool characteristic_description_null = 1002;</code>
+       * <code>bool characteristic_description_null = 1002;</code>
        */
       public boolean getCharacteristicDescriptionNull() {
         return characteristicDescriptionNull_;
       }
       /**
-       * <code>optional bool characteristic_description_null = 1002;</code>
+       * <code>bool characteristic_description_null = 1002;</code>
        */
       public Builder setCharacteristicDescriptionNull(boolean value) {
         
@@ -1644,7 +1644,7 @@ public final class FoModifyPostingCharacsAd {
         return this;
       }
       /**
-       * <code>optional bool characteristic_description_null = 1002;</code>
+       * <code>bool characteristic_description_null = 1002;</code>
        */
       public Builder clearCharacteristicDescriptionNull() {
         
@@ -1657,13 +1657,13 @@ public final class FoModifyPostingCharacsAd {
       private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> fieldTypeIdBuilder_;
       /**
-       * <code>optional .dstore.values.IntegerValue field_type_id = 3;</code>
+       * <code>.dstore.values.IntegerValue field_type_id = 3;</code>
        */
       public boolean hasFieldTypeId() {
         return fieldTypeIdBuilder_ != null || fieldTypeId_ != null;
       }
       /**
-       * <code>optional .dstore.values.IntegerValue field_type_id = 3;</code>
+       * <code>.dstore.values.IntegerValue field_type_id = 3;</code>
        */
       public io.dstore.values.IntegerValue getFieldTypeId() {
         if (fieldTypeIdBuilder_ == null) {
@@ -1673,7 +1673,7 @@ public final class FoModifyPostingCharacsAd {
         }
       }
       /**
-       * <code>optional .dstore.values.IntegerValue field_type_id = 3;</code>
+       * <code>.dstore.values.IntegerValue field_type_id = 3;</code>
        */
       public Builder setFieldTypeId(io.dstore.values.IntegerValue value) {
         if (fieldTypeIdBuilder_ == null) {
@@ -1689,7 +1689,7 @@ public final class FoModifyPostingCharacsAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.IntegerValue field_type_id = 3;</code>
+       * <code>.dstore.values.IntegerValue field_type_id = 3;</code>
        */
       public Builder setFieldTypeId(
           io.dstore.values.IntegerValue.Builder builderForValue) {
@@ -1703,7 +1703,7 @@ public final class FoModifyPostingCharacsAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.IntegerValue field_type_id = 3;</code>
+       * <code>.dstore.values.IntegerValue field_type_id = 3;</code>
        */
       public Builder mergeFieldTypeId(io.dstore.values.IntegerValue value) {
         if (fieldTypeIdBuilder_ == null) {
@@ -1721,7 +1721,7 @@ public final class FoModifyPostingCharacsAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.IntegerValue field_type_id = 3;</code>
+       * <code>.dstore.values.IntegerValue field_type_id = 3;</code>
        */
       public Builder clearFieldTypeId() {
         if (fieldTypeIdBuilder_ == null) {
@@ -1735,7 +1735,7 @@ public final class FoModifyPostingCharacsAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.IntegerValue field_type_id = 3;</code>
+       * <code>.dstore.values.IntegerValue field_type_id = 3;</code>
        */
       public io.dstore.values.IntegerValue.Builder getFieldTypeIdBuilder() {
         
@@ -1743,7 +1743,7 @@ public final class FoModifyPostingCharacsAd {
         return getFieldTypeIdFieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .dstore.values.IntegerValue field_type_id = 3;</code>
+       * <code>.dstore.values.IntegerValue field_type_id = 3;</code>
        */
       public io.dstore.values.IntegerValueOrBuilder getFieldTypeIdOrBuilder() {
         if (fieldTypeIdBuilder_ != null) {
@@ -1754,7 +1754,7 @@ public final class FoModifyPostingCharacsAd {
         }
       }
       /**
-       * <code>optional .dstore.values.IntegerValue field_type_id = 3;</code>
+       * <code>.dstore.values.IntegerValue field_type_id = 3;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> 
@@ -1772,13 +1772,13 @@ public final class FoModifyPostingCharacsAd {
 
       private boolean fieldTypeIdNull_ ;
       /**
-       * <code>optional bool field_type_id_null = 1003;</code>
+       * <code>bool field_type_id_null = 1003;</code>
        */
       public boolean getFieldTypeIdNull() {
         return fieldTypeIdNull_;
       }
       /**
-       * <code>optional bool field_type_id_null = 1003;</code>
+       * <code>bool field_type_id_null = 1003;</code>
        */
       public Builder setFieldTypeIdNull(boolean value) {
         
@@ -1787,7 +1787,7 @@ public final class FoModifyPostingCharacsAd {
         return this;
       }
       /**
-       * <code>optional bool field_type_id_null = 1003;</code>
+       * <code>bool field_type_id_null = 1003;</code>
        */
       public Builder clearFieldTypeIdNull() {
         
@@ -1800,13 +1800,13 @@ public final class FoModifyPostingCharacsAd {
       private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> propertyModificationAllowedBuilder_;
       /**
-       * <code>optional .dstore.values.IntegerValue property_modification_allowed = 4;</code>
+       * <code>.dstore.values.IntegerValue property_modification_allowed = 4;</code>
        */
       public boolean hasPropertyModificationAllowed() {
         return propertyModificationAllowedBuilder_ != null || propertyModificationAllowed_ != null;
       }
       /**
-       * <code>optional .dstore.values.IntegerValue property_modification_allowed = 4;</code>
+       * <code>.dstore.values.IntegerValue property_modification_allowed = 4;</code>
        */
       public io.dstore.values.IntegerValue getPropertyModificationAllowed() {
         if (propertyModificationAllowedBuilder_ == null) {
@@ -1816,7 +1816,7 @@ public final class FoModifyPostingCharacsAd {
         }
       }
       /**
-       * <code>optional .dstore.values.IntegerValue property_modification_allowed = 4;</code>
+       * <code>.dstore.values.IntegerValue property_modification_allowed = 4;</code>
        */
       public Builder setPropertyModificationAllowed(io.dstore.values.IntegerValue value) {
         if (propertyModificationAllowedBuilder_ == null) {
@@ -1832,7 +1832,7 @@ public final class FoModifyPostingCharacsAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.IntegerValue property_modification_allowed = 4;</code>
+       * <code>.dstore.values.IntegerValue property_modification_allowed = 4;</code>
        */
       public Builder setPropertyModificationAllowed(
           io.dstore.values.IntegerValue.Builder builderForValue) {
@@ -1846,7 +1846,7 @@ public final class FoModifyPostingCharacsAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.IntegerValue property_modification_allowed = 4;</code>
+       * <code>.dstore.values.IntegerValue property_modification_allowed = 4;</code>
        */
       public Builder mergePropertyModificationAllowed(io.dstore.values.IntegerValue value) {
         if (propertyModificationAllowedBuilder_ == null) {
@@ -1864,7 +1864,7 @@ public final class FoModifyPostingCharacsAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.IntegerValue property_modification_allowed = 4;</code>
+       * <code>.dstore.values.IntegerValue property_modification_allowed = 4;</code>
        */
       public Builder clearPropertyModificationAllowed() {
         if (propertyModificationAllowedBuilder_ == null) {
@@ -1878,7 +1878,7 @@ public final class FoModifyPostingCharacsAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.IntegerValue property_modification_allowed = 4;</code>
+       * <code>.dstore.values.IntegerValue property_modification_allowed = 4;</code>
        */
       public io.dstore.values.IntegerValue.Builder getPropertyModificationAllowedBuilder() {
         
@@ -1886,7 +1886,7 @@ public final class FoModifyPostingCharacsAd {
         return getPropertyModificationAllowedFieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .dstore.values.IntegerValue property_modification_allowed = 4;</code>
+       * <code>.dstore.values.IntegerValue property_modification_allowed = 4;</code>
        */
       public io.dstore.values.IntegerValueOrBuilder getPropertyModificationAllowedOrBuilder() {
         if (propertyModificationAllowedBuilder_ != null) {
@@ -1897,7 +1897,7 @@ public final class FoModifyPostingCharacsAd {
         }
       }
       /**
-       * <code>optional .dstore.values.IntegerValue property_modification_allowed = 4;</code>
+       * <code>.dstore.values.IntegerValue property_modification_allowed = 4;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> 
@@ -1915,13 +1915,13 @@ public final class FoModifyPostingCharacsAd {
 
       private boolean propertyModificationAllowedNull_ ;
       /**
-       * <code>optional bool property_modification_allowed_null = 1004;</code>
+       * <code>bool property_modification_allowed_null = 1004;</code>
        */
       public boolean getPropertyModificationAllowedNull() {
         return propertyModificationAllowedNull_;
       }
       /**
-       * <code>optional bool property_modification_allowed_null = 1004;</code>
+       * <code>bool property_modification_allowed_null = 1004;</code>
        */
       public Builder setPropertyModificationAllowedNull(boolean value) {
         
@@ -1930,7 +1930,7 @@ public final class FoModifyPostingCharacsAd {
         return this;
       }
       /**
-       * <code>optional bool property_modification_allowed_null = 1004;</code>
+       * <code>bool property_modification_allowed_null = 1004;</code>
        */
       public Builder clearPropertyModificationAllowedNull() {
         
@@ -1943,13 +1943,13 @@ public final class FoModifyPostingCharacsAd {
       private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> commonCharacteristicBuilder_;
       /**
-       * <code>optional .dstore.values.IntegerValue common_characteristic = 5;</code>
+       * <code>.dstore.values.IntegerValue common_characteristic = 5;</code>
        */
       public boolean hasCommonCharacteristic() {
         return commonCharacteristicBuilder_ != null || commonCharacteristic_ != null;
       }
       /**
-       * <code>optional .dstore.values.IntegerValue common_characteristic = 5;</code>
+       * <code>.dstore.values.IntegerValue common_characteristic = 5;</code>
        */
       public io.dstore.values.IntegerValue getCommonCharacteristic() {
         if (commonCharacteristicBuilder_ == null) {
@@ -1959,7 +1959,7 @@ public final class FoModifyPostingCharacsAd {
         }
       }
       /**
-       * <code>optional .dstore.values.IntegerValue common_characteristic = 5;</code>
+       * <code>.dstore.values.IntegerValue common_characteristic = 5;</code>
        */
       public Builder setCommonCharacteristic(io.dstore.values.IntegerValue value) {
         if (commonCharacteristicBuilder_ == null) {
@@ -1975,7 +1975,7 @@ public final class FoModifyPostingCharacsAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.IntegerValue common_characteristic = 5;</code>
+       * <code>.dstore.values.IntegerValue common_characteristic = 5;</code>
        */
       public Builder setCommonCharacteristic(
           io.dstore.values.IntegerValue.Builder builderForValue) {
@@ -1989,7 +1989,7 @@ public final class FoModifyPostingCharacsAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.IntegerValue common_characteristic = 5;</code>
+       * <code>.dstore.values.IntegerValue common_characteristic = 5;</code>
        */
       public Builder mergeCommonCharacteristic(io.dstore.values.IntegerValue value) {
         if (commonCharacteristicBuilder_ == null) {
@@ -2007,7 +2007,7 @@ public final class FoModifyPostingCharacsAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.IntegerValue common_characteristic = 5;</code>
+       * <code>.dstore.values.IntegerValue common_characteristic = 5;</code>
        */
       public Builder clearCommonCharacteristic() {
         if (commonCharacteristicBuilder_ == null) {
@@ -2021,7 +2021,7 @@ public final class FoModifyPostingCharacsAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.IntegerValue common_characteristic = 5;</code>
+       * <code>.dstore.values.IntegerValue common_characteristic = 5;</code>
        */
       public io.dstore.values.IntegerValue.Builder getCommonCharacteristicBuilder() {
         
@@ -2029,7 +2029,7 @@ public final class FoModifyPostingCharacsAd {
         return getCommonCharacteristicFieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .dstore.values.IntegerValue common_characteristic = 5;</code>
+       * <code>.dstore.values.IntegerValue common_characteristic = 5;</code>
        */
       public io.dstore.values.IntegerValueOrBuilder getCommonCharacteristicOrBuilder() {
         if (commonCharacteristicBuilder_ != null) {
@@ -2040,7 +2040,7 @@ public final class FoModifyPostingCharacsAd {
         }
       }
       /**
-       * <code>optional .dstore.values.IntegerValue common_characteristic = 5;</code>
+       * <code>.dstore.values.IntegerValue common_characteristic = 5;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> 
@@ -2058,13 +2058,13 @@ public final class FoModifyPostingCharacsAd {
 
       private boolean commonCharacteristicNull_ ;
       /**
-       * <code>optional bool common_characteristic_null = 1005;</code>
+       * <code>bool common_characteristic_null = 1005;</code>
        */
       public boolean getCommonCharacteristicNull() {
         return commonCharacteristicNull_;
       }
       /**
-       * <code>optional bool common_characteristic_null = 1005;</code>
+       * <code>bool common_characteristic_null = 1005;</code>
        */
       public Builder setCommonCharacteristicNull(boolean value) {
         
@@ -2073,7 +2073,7 @@ public final class FoModifyPostingCharacsAd {
         return this;
       }
       /**
-       * <code>optional bool common_characteristic_null = 1005;</code>
+       * <code>bool common_characteristic_null = 1005;</code>
        */
       public Builder clearCommonCharacteristicNull() {
         
@@ -2086,13 +2086,13 @@ public final class FoModifyPostingCharacsAd {
       private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.values.BooleanValue, io.dstore.values.BooleanValue.Builder, io.dstore.values.BooleanValueOrBuilder> predefinedValuesBuilder_;
       /**
-       * <code>optional .dstore.values.BooleanValue predefined_values = 6;</code>
+       * <code>.dstore.values.BooleanValue predefined_values = 6;</code>
        */
       public boolean hasPredefinedValues() {
         return predefinedValuesBuilder_ != null || predefinedValues_ != null;
       }
       /**
-       * <code>optional .dstore.values.BooleanValue predefined_values = 6;</code>
+       * <code>.dstore.values.BooleanValue predefined_values = 6;</code>
        */
       public io.dstore.values.BooleanValue getPredefinedValues() {
         if (predefinedValuesBuilder_ == null) {
@@ -2102,7 +2102,7 @@ public final class FoModifyPostingCharacsAd {
         }
       }
       /**
-       * <code>optional .dstore.values.BooleanValue predefined_values = 6;</code>
+       * <code>.dstore.values.BooleanValue predefined_values = 6;</code>
        */
       public Builder setPredefinedValues(io.dstore.values.BooleanValue value) {
         if (predefinedValuesBuilder_ == null) {
@@ -2118,7 +2118,7 @@ public final class FoModifyPostingCharacsAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.BooleanValue predefined_values = 6;</code>
+       * <code>.dstore.values.BooleanValue predefined_values = 6;</code>
        */
       public Builder setPredefinedValues(
           io.dstore.values.BooleanValue.Builder builderForValue) {
@@ -2132,7 +2132,7 @@ public final class FoModifyPostingCharacsAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.BooleanValue predefined_values = 6;</code>
+       * <code>.dstore.values.BooleanValue predefined_values = 6;</code>
        */
       public Builder mergePredefinedValues(io.dstore.values.BooleanValue value) {
         if (predefinedValuesBuilder_ == null) {
@@ -2150,7 +2150,7 @@ public final class FoModifyPostingCharacsAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.BooleanValue predefined_values = 6;</code>
+       * <code>.dstore.values.BooleanValue predefined_values = 6;</code>
        */
       public Builder clearPredefinedValues() {
         if (predefinedValuesBuilder_ == null) {
@@ -2164,7 +2164,7 @@ public final class FoModifyPostingCharacsAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.BooleanValue predefined_values = 6;</code>
+       * <code>.dstore.values.BooleanValue predefined_values = 6;</code>
        */
       public io.dstore.values.BooleanValue.Builder getPredefinedValuesBuilder() {
         
@@ -2172,7 +2172,7 @@ public final class FoModifyPostingCharacsAd {
         return getPredefinedValuesFieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .dstore.values.BooleanValue predefined_values = 6;</code>
+       * <code>.dstore.values.BooleanValue predefined_values = 6;</code>
        */
       public io.dstore.values.BooleanValueOrBuilder getPredefinedValuesOrBuilder() {
         if (predefinedValuesBuilder_ != null) {
@@ -2183,7 +2183,7 @@ public final class FoModifyPostingCharacsAd {
         }
       }
       /**
-       * <code>optional .dstore.values.BooleanValue predefined_values = 6;</code>
+       * <code>.dstore.values.BooleanValue predefined_values = 6;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.values.BooleanValue, io.dstore.values.BooleanValue.Builder, io.dstore.values.BooleanValueOrBuilder> 
@@ -2201,13 +2201,13 @@ public final class FoModifyPostingCharacsAd {
 
       private boolean predefinedValuesNull_ ;
       /**
-       * <code>optional bool predefined_values_null = 1006;</code>
+       * <code>bool predefined_values_null = 1006;</code>
        */
       public boolean getPredefinedValuesNull() {
         return predefinedValuesNull_;
       }
       /**
-       * <code>optional bool predefined_values_null = 1006;</code>
+       * <code>bool predefined_values_null = 1006;</code>
        */
       public Builder setPredefinedValuesNull(boolean value) {
         
@@ -2216,7 +2216,7 @@ public final class FoModifyPostingCharacsAd {
         return this;
       }
       /**
-       * <code>optional bool predefined_values_null = 1006;</code>
+       * <code>bool predefined_values_null = 1006;</code>
        */
       public Builder clearPredefinedValuesNull() {
         
@@ -2229,13 +2229,13 @@ public final class FoModifyPostingCharacsAd {
       private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.values.BooleanValue, io.dstore.values.BooleanValue.Builder, io.dstore.values.BooleanValueOrBuilder> checkPostingVisibilityBuilder_;
       /**
-       * <code>optional .dstore.values.BooleanValue check_posting_visibility = 7;</code>
+       * <code>.dstore.values.BooleanValue check_posting_visibility = 7;</code>
        */
       public boolean hasCheckPostingVisibility() {
         return checkPostingVisibilityBuilder_ != null || checkPostingVisibility_ != null;
       }
       /**
-       * <code>optional .dstore.values.BooleanValue check_posting_visibility = 7;</code>
+       * <code>.dstore.values.BooleanValue check_posting_visibility = 7;</code>
        */
       public io.dstore.values.BooleanValue getCheckPostingVisibility() {
         if (checkPostingVisibilityBuilder_ == null) {
@@ -2245,7 +2245,7 @@ public final class FoModifyPostingCharacsAd {
         }
       }
       /**
-       * <code>optional .dstore.values.BooleanValue check_posting_visibility = 7;</code>
+       * <code>.dstore.values.BooleanValue check_posting_visibility = 7;</code>
        */
       public Builder setCheckPostingVisibility(io.dstore.values.BooleanValue value) {
         if (checkPostingVisibilityBuilder_ == null) {
@@ -2261,7 +2261,7 @@ public final class FoModifyPostingCharacsAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.BooleanValue check_posting_visibility = 7;</code>
+       * <code>.dstore.values.BooleanValue check_posting_visibility = 7;</code>
        */
       public Builder setCheckPostingVisibility(
           io.dstore.values.BooleanValue.Builder builderForValue) {
@@ -2275,7 +2275,7 @@ public final class FoModifyPostingCharacsAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.BooleanValue check_posting_visibility = 7;</code>
+       * <code>.dstore.values.BooleanValue check_posting_visibility = 7;</code>
        */
       public Builder mergeCheckPostingVisibility(io.dstore.values.BooleanValue value) {
         if (checkPostingVisibilityBuilder_ == null) {
@@ -2293,7 +2293,7 @@ public final class FoModifyPostingCharacsAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.BooleanValue check_posting_visibility = 7;</code>
+       * <code>.dstore.values.BooleanValue check_posting_visibility = 7;</code>
        */
       public Builder clearCheckPostingVisibility() {
         if (checkPostingVisibilityBuilder_ == null) {
@@ -2307,7 +2307,7 @@ public final class FoModifyPostingCharacsAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.BooleanValue check_posting_visibility = 7;</code>
+       * <code>.dstore.values.BooleanValue check_posting_visibility = 7;</code>
        */
       public io.dstore.values.BooleanValue.Builder getCheckPostingVisibilityBuilder() {
         
@@ -2315,7 +2315,7 @@ public final class FoModifyPostingCharacsAd {
         return getCheckPostingVisibilityFieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .dstore.values.BooleanValue check_posting_visibility = 7;</code>
+       * <code>.dstore.values.BooleanValue check_posting_visibility = 7;</code>
        */
       public io.dstore.values.BooleanValueOrBuilder getCheckPostingVisibilityOrBuilder() {
         if (checkPostingVisibilityBuilder_ != null) {
@@ -2326,7 +2326,7 @@ public final class FoModifyPostingCharacsAd {
         }
       }
       /**
-       * <code>optional .dstore.values.BooleanValue check_posting_visibility = 7;</code>
+       * <code>.dstore.values.BooleanValue check_posting_visibility = 7;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.values.BooleanValue, io.dstore.values.BooleanValue.Builder, io.dstore.values.BooleanValueOrBuilder> 
@@ -2344,13 +2344,13 @@ public final class FoModifyPostingCharacsAd {
 
       private boolean checkPostingVisibilityNull_ ;
       /**
-       * <code>optional bool check_posting_visibility_null = 1007;</code>
+       * <code>bool check_posting_visibility_null = 1007;</code>
        */
       public boolean getCheckPostingVisibilityNull() {
         return checkPostingVisibilityNull_;
       }
       /**
-       * <code>optional bool check_posting_visibility_null = 1007;</code>
+       * <code>bool check_posting_visibility_null = 1007;</code>
        */
       public Builder setCheckPostingVisibilityNull(boolean value) {
         
@@ -2359,7 +2359,7 @@ public final class FoModifyPostingCharacsAd {
         return this;
       }
       /**
-       * <code>optional bool check_posting_visibility_null = 1007;</code>
+       * <code>bool check_posting_visibility_null = 1007;</code>
        */
       public Builder clearCheckPostingVisibilityNull() {
         
@@ -2372,13 +2372,13 @@ public final class FoModifyPostingCharacsAd {
       private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> maxNumberOfPropertiesBuilder_;
       /**
-       * <code>optional .dstore.values.IntegerValue max_number_of_properties = 8;</code>
+       * <code>.dstore.values.IntegerValue max_number_of_properties = 8;</code>
        */
       public boolean hasMaxNumberOfProperties() {
         return maxNumberOfPropertiesBuilder_ != null || maxNumberOfProperties_ != null;
       }
       /**
-       * <code>optional .dstore.values.IntegerValue max_number_of_properties = 8;</code>
+       * <code>.dstore.values.IntegerValue max_number_of_properties = 8;</code>
        */
       public io.dstore.values.IntegerValue getMaxNumberOfProperties() {
         if (maxNumberOfPropertiesBuilder_ == null) {
@@ -2388,7 +2388,7 @@ public final class FoModifyPostingCharacsAd {
         }
       }
       /**
-       * <code>optional .dstore.values.IntegerValue max_number_of_properties = 8;</code>
+       * <code>.dstore.values.IntegerValue max_number_of_properties = 8;</code>
        */
       public Builder setMaxNumberOfProperties(io.dstore.values.IntegerValue value) {
         if (maxNumberOfPropertiesBuilder_ == null) {
@@ -2404,7 +2404,7 @@ public final class FoModifyPostingCharacsAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.IntegerValue max_number_of_properties = 8;</code>
+       * <code>.dstore.values.IntegerValue max_number_of_properties = 8;</code>
        */
       public Builder setMaxNumberOfProperties(
           io.dstore.values.IntegerValue.Builder builderForValue) {
@@ -2418,7 +2418,7 @@ public final class FoModifyPostingCharacsAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.IntegerValue max_number_of_properties = 8;</code>
+       * <code>.dstore.values.IntegerValue max_number_of_properties = 8;</code>
        */
       public Builder mergeMaxNumberOfProperties(io.dstore.values.IntegerValue value) {
         if (maxNumberOfPropertiesBuilder_ == null) {
@@ -2436,7 +2436,7 @@ public final class FoModifyPostingCharacsAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.IntegerValue max_number_of_properties = 8;</code>
+       * <code>.dstore.values.IntegerValue max_number_of_properties = 8;</code>
        */
       public Builder clearMaxNumberOfProperties() {
         if (maxNumberOfPropertiesBuilder_ == null) {
@@ -2450,7 +2450,7 @@ public final class FoModifyPostingCharacsAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.IntegerValue max_number_of_properties = 8;</code>
+       * <code>.dstore.values.IntegerValue max_number_of_properties = 8;</code>
        */
       public io.dstore.values.IntegerValue.Builder getMaxNumberOfPropertiesBuilder() {
         
@@ -2458,7 +2458,7 @@ public final class FoModifyPostingCharacsAd {
         return getMaxNumberOfPropertiesFieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .dstore.values.IntegerValue max_number_of_properties = 8;</code>
+       * <code>.dstore.values.IntegerValue max_number_of_properties = 8;</code>
        */
       public io.dstore.values.IntegerValueOrBuilder getMaxNumberOfPropertiesOrBuilder() {
         if (maxNumberOfPropertiesBuilder_ != null) {
@@ -2469,7 +2469,7 @@ public final class FoModifyPostingCharacsAd {
         }
       }
       /**
-       * <code>optional .dstore.values.IntegerValue max_number_of_properties = 8;</code>
+       * <code>.dstore.values.IntegerValue max_number_of_properties = 8;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> 
@@ -2487,13 +2487,13 @@ public final class FoModifyPostingCharacsAd {
 
       private boolean maxNumberOfPropertiesNull_ ;
       /**
-       * <code>optional bool max_number_of_properties_null = 1008;</code>
+       * <code>bool max_number_of_properties_null = 1008;</code>
        */
       public boolean getMaxNumberOfPropertiesNull() {
         return maxNumberOfPropertiesNull_;
       }
       /**
-       * <code>optional bool max_number_of_properties_null = 1008;</code>
+       * <code>bool max_number_of_properties_null = 1008;</code>
        */
       public Builder setMaxNumberOfPropertiesNull(boolean value) {
         
@@ -2502,7 +2502,7 @@ public final class FoModifyPostingCharacsAd {
         return this;
       }
       /**
-       * <code>optional bool max_number_of_properties_null = 1008;</code>
+       * <code>bool max_number_of_properties_null = 1008;</code>
        */
       public Builder clearMaxNumberOfPropertiesNull() {
         
@@ -2515,13 +2515,13 @@ public final class FoModifyPostingCharacsAd {
       private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> deleteCharacteristicBuilder_;
       /**
-       * <code>optional .dstore.values.IntegerValue delete_characteristic = 9;</code>
+       * <code>.dstore.values.IntegerValue delete_characteristic = 9;</code>
        */
       public boolean hasDeleteCharacteristic() {
         return deleteCharacteristicBuilder_ != null || deleteCharacteristic_ != null;
       }
       /**
-       * <code>optional .dstore.values.IntegerValue delete_characteristic = 9;</code>
+       * <code>.dstore.values.IntegerValue delete_characteristic = 9;</code>
        */
       public io.dstore.values.IntegerValue getDeleteCharacteristic() {
         if (deleteCharacteristicBuilder_ == null) {
@@ -2531,7 +2531,7 @@ public final class FoModifyPostingCharacsAd {
         }
       }
       /**
-       * <code>optional .dstore.values.IntegerValue delete_characteristic = 9;</code>
+       * <code>.dstore.values.IntegerValue delete_characteristic = 9;</code>
        */
       public Builder setDeleteCharacteristic(io.dstore.values.IntegerValue value) {
         if (deleteCharacteristicBuilder_ == null) {
@@ -2547,7 +2547,7 @@ public final class FoModifyPostingCharacsAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.IntegerValue delete_characteristic = 9;</code>
+       * <code>.dstore.values.IntegerValue delete_characteristic = 9;</code>
        */
       public Builder setDeleteCharacteristic(
           io.dstore.values.IntegerValue.Builder builderForValue) {
@@ -2561,7 +2561,7 @@ public final class FoModifyPostingCharacsAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.IntegerValue delete_characteristic = 9;</code>
+       * <code>.dstore.values.IntegerValue delete_characteristic = 9;</code>
        */
       public Builder mergeDeleteCharacteristic(io.dstore.values.IntegerValue value) {
         if (deleteCharacteristicBuilder_ == null) {
@@ -2579,7 +2579,7 @@ public final class FoModifyPostingCharacsAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.IntegerValue delete_characteristic = 9;</code>
+       * <code>.dstore.values.IntegerValue delete_characteristic = 9;</code>
        */
       public Builder clearDeleteCharacteristic() {
         if (deleteCharacteristicBuilder_ == null) {
@@ -2593,7 +2593,7 @@ public final class FoModifyPostingCharacsAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.IntegerValue delete_characteristic = 9;</code>
+       * <code>.dstore.values.IntegerValue delete_characteristic = 9;</code>
        */
       public io.dstore.values.IntegerValue.Builder getDeleteCharacteristicBuilder() {
         
@@ -2601,7 +2601,7 @@ public final class FoModifyPostingCharacsAd {
         return getDeleteCharacteristicFieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .dstore.values.IntegerValue delete_characteristic = 9;</code>
+       * <code>.dstore.values.IntegerValue delete_characteristic = 9;</code>
        */
       public io.dstore.values.IntegerValueOrBuilder getDeleteCharacteristicOrBuilder() {
         if (deleteCharacteristicBuilder_ != null) {
@@ -2612,7 +2612,7 @@ public final class FoModifyPostingCharacsAd {
         }
       }
       /**
-       * <code>optional .dstore.values.IntegerValue delete_characteristic = 9;</code>
+       * <code>.dstore.values.IntegerValue delete_characteristic = 9;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> 
@@ -2630,13 +2630,13 @@ public final class FoModifyPostingCharacsAd {
 
       private boolean deleteCharacteristicNull_ ;
       /**
-       * <code>optional bool delete_characteristic_null = 1009;</code>
+       * <code>bool delete_characteristic_null = 1009;</code>
        */
       public boolean getDeleteCharacteristicNull() {
         return deleteCharacteristicNull_;
       }
       /**
-       * <code>optional bool delete_characteristic_null = 1009;</code>
+       * <code>bool delete_characteristic_null = 1009;</code>
        */
       public Builder setDeleteCharacteristicNull(boolean value) {
         
@@ -2645,7 +2645,7 @@ public final class FoModifyPostingCharacsAd {
         return this;
       }
       /**
-       * <code>optional bool delete_characteristic_null = 1009;</code>
+       * <code>bool delete_characteristic_null = 1009;</code>
        */
       public Builder clearDeleteCharacteristicNull() {
         
@@ -2779,15 +2779,15 @@ public final class FoModifyPostingCharacsAd {
         int index);
 
     /**
-     * <code>optional .dstore.values.IntegerValue posting_characteristic_id = 101;</code>
+     * <code>.dstore.values.IntegerValue posting_characteristic_id = 101;</code>
      */
     boolean hasPostingCharacteristicId();
     /**
-     * <code>optional .dstore.values.IntegerValue posting_characteristic_id = 101;</code>
+     * <code>.dstore.values.IntegerValue posting_characteristic_id = 101;</code>
      */
     io.dstore.values.IntegerValue getPostingCharacteristicId();
     /**
-     * <code>optional .dstore.values.IntegerValue posting_characteristic_id = 101;</code>
+     * <code>.dstore.values.IntegerValue posting_characteristic_id = 101;</code>
      */
     io.dstore.values.IntegerValueOrBuilder getPostingCharacteristicIdOrBuilder();
   }
@@ -2910,7 +2910,7 @@ public final class FoModifyPostingCharacsAd {
         com.google.protobuf.MessageOrBuilder {
 
       /**
-       * <code>optional int32 row_id = 10000;</code>
+       * <code>int32 row_id = 10000;</code>
        */
       int getRowId();
     }
@@ -2985,7 +2985,7 @@ public final class FoModifyPostingCharacsAd {
       public static final int ROW_ID_FIELD_NUMBER = 10000;
       private int rowId_;
       /**
-       * <code>optional int32 row_id = 10000;</code>
+       * <code>int32 row_id = 10000;</code>
        */
       public int getRowId() {
         return rowId_;
@@ -3044,7 +3044,7 @@ public final class FoModifyPostingCharacsAd {
           return memoizedHashCode;
         }
         int hash = 41;
-        hash = (19 * hash) + getDescriptorForType().hashCode();
+        hash = (19 * hash) + getDescriptor().hashCode();
         hash = (37 * hash) + ROW_ID_FIELD_NUMBER;
         hash = (53 * hash) + getRowId();
         hash = (29 * hash) + unknownFields.hashCode();
@@ -3262,13 +3262,13 @@ public final class FoModifyPostingCharacsAd {
 
         private int rowId_ ;
         /**
-         * <code>optional int32 row_id = 10000;</code>
+         * <code>int32 row_id = 10000;</code>
          */
         public int getRowId() {
           return rowId_;
         }
         /**
-         * <code>optional int32 row_id = 10000;</code>
+         * <code>int32 row_id = 10000;</code>
          */
         public Builder setRowId(int value) {
           
@@ -3277,7 +3277,7 @@ public final class FoModifyPostingCharacsAd {
           return this;
         }
         /**
-         * <code>optional int32 row_id = 10000;</code>
+         * <code>int32 row_id = 10000;</code>
          */
         public Builder clearRowId() {
           
@@ -3443,19 +3443,19 @@ public final class FoModifyPostingCharacsAd {
     public static final int POSTING_CHARACTERISTIC_ID_FIELD_NUMBER = 101;
     private io.dstore.values.IntegerValue postingCharacteristicId_;
     /**
-     * <code>optional .dstore.values.IntegerValue posting_characteristic_id = 101;</code>
+     * <code>.dstore.values.IntegerValue posting_characteristic_id = 101;</code>
      */
     public boolean hasPostingCharacteristicId() {
       return postingCharacteristicId_ != null;
     }
     /**
-     * <code>optional .dstore.values.IntegerValue posting_characteristic_id = 101;</code>
+     * <code>.dstore.values.IntegerValue posting_characteristic_id = 101;</code>
      */
     public io.dstore.values.IntegerValue getPostingCharacteristicId() {
       return postingCharacteristicId_ == null ? io.dstore.values.IntegerValue.getDefaultInstance() : postingCharacteristicId_;
     }
     /**
-     * <code>optional .dstore.values.IntegerValue posting_characteristic_id = 101;</code>
+     * <code>.dstore.values.IntegerValue posting_characteristic_id = 101;</code>
      */
     public io.dstore.values.IntegerValueOrBuilder getPostingCharacteristicIdOrBuilder() {
       return getPostingCharacteristicId();
@@ -3544,7 +3544,7 @@ public final class FoModifyPostingCharacsAd {
         return memoizedHashCode;
       }
       int hash = 41;
-      hash = (19 * hash) + getDescriptorForType().hashCode();
+      hash = (19 * hash) + getDescriptor().hashCode();
       if (getMetaInformationCount() > 0) {
         hash = (37 * hash) + META_INFORMATION_FIELD_NUMBER;
         hash = (53 * hash) + getMetaInformationList().hashCode();
@@ -4636,13 +4636,13 @@ public final class FoModifyPostingCharacsAd {
       private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> postingCharacteristicIdBuilder_;
       /**
-       * <code>optional .dstore.values.IntegerValue posting_characteristic_id = 101;</code>
+       * <code>.dstore.values.IntegerValue posting_characteristic_id = 101;</code>
        */
       public boolean hasPostingCharacteristicId() {
         return postingCharacteristicIdBuilder_ != null || postingCharacteristicId_ != null;
       }
       /**
-       * <code>optional .dstore.values.IntegerValue posting_characteristic_id = 101;</code>
+       * <code>.dstore.values.IntegerValue posting_characteristic_id = 101;</code>
        */
       public io.dstore.values.IntegerValue getPostingCharacteristicId() {
         if (postingCharacteristicIdBuilder_ == null) {
@@ -4652,7 +4652,7 @@ public final class FoModifyPostingCharacsAd {
         }
       }
       /**
-       * <code>optional .dstore.values.IntegerValue posting_characteristic_id = 101;</code>
+       * <code>.dstore.values.IntegerValue posting_characteristic_id = 101;</code>
        */
       public Builder setPostingCharacteristicId(io.dstore.values.IntegerValue value) {
         if (postingCharacteristicIdBuilder_ == null) {
@@ -4668,7 +4668,7 @@ public final class FoModifyPostingCharacsAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.IntegerValue posting_characteristic_id = 101;</code>
+       * <code>.dstore.values.IntegerValue posting_characteristic_id = 101;</code>
        */
       public Builder setPostingCharacteristicId(
           io.dstore.values.IntegerValue.Builder builderForValue) {
@@ -4682,7 +4682,7 @@ public final class FoModifyPostingCharacsAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.IntegerValue posting_characteristic_id = 101;</code>
+       * <code>.dstore.values.IntegerValue posting_characteristic_id = 101;</code>
        */
       public Builder mergePostingCharacteristicId(io.dstore.values.IntegerValue value) {
         if (postingCharacteristicIdBuilder_ == null) {
@@ -4700,7 +4700,7 @@ public final class FoModifyPostingCharacsAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.IntegerValue posting_characteristic_id = 101;</code>
+       * <code>.dstore.values.IntegerValue posting_characteristic_id = 101;</code>
        */
       public Builder clearPostingCharacteristicId() {
         if (postingCharacteristicIdBuilder_ == null) {
@@ -4714,7 +4714,7 @@ public final class FoModifyPostingCharacsAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.IntegerValue posting_characteristic_id = 101;</code>
+       * <code>.dstore.values.IntegerValue posting_characteristic_id = 101;</code>
        */
       public io.dstore.values.IntegerValue.Builder getPostingCharacteristicIdBuilder() {
         
@@ -4722,7 +4722,7 @@ public final class FoModifyPostingCharacsAd {
         return getPostingCharacteristicIdFieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .dstore.values.IntegerValue posting_characteristic_id = 101;</code>
+       * <code>.dstore.values.IntegerValue posting_characteristic_id = 101;</code>
        */
       public io.dstore.values.IntegerValueOrBuilder getPostingCharacteristicIdOrBuilder() {
         if (postingCharacteristicIdBuilder_ != null) {
@@ -4733,7 +4733,7 @@ public final class FoModifyPostingCharacsAd {
         }
       }
       /**
-       * <code>optional .dstore.values.IntegerValue posting_characteristic_id = 101;</code>
+       * <code>.dstore.values.IntegerValue posting_characteristic_id = 101;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> 

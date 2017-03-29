@@ -19,92 +19,92 @@ public final class OmGetVoucherTypesAd {
       com.google.protobuf.MessageOrBuilder {
 
     /**
-     * <code>optional .dstore.values.IntegerValue voucher_type_id = 1;</code>
+     * <code>.dstore.values.IntegerValue voucher_type_id = 1;</code>
      */
     boolean hasVoucherTypeId();
     /**
-     * <code>optional .dstore.values.IntegerValue voucher_type_id = 1;</code>
+     * <code>.dstore.values.IntegerValue voucher_type_id = 1;</code>
      */
     io.dstore.values.IntegerValue getVoucherTypeId();
     /**
-     * <code>optional .dstore.values.IntegerValue voucher_type_id = 1;</code>
+     * <code>.dstore.values.IntegerValue voucher_type_id = 1;</code>
      */
     io.dstore.values.IntegerValueOrBuilder getVoucherTypeIdOrBuilder();
 
     /**
-     * <code>optional bool voucher_type_id_null = 1001;</code>
+     * <code>bool voucher_type_id_null = 1001;</code>
      */
     boolean getVoucherTypeIdNull();
 
     /**
-     * <code>optional .dstore.values.IntegerValue v_code_origin_type_id = 2;</code>
+     * <code>.dstore.values.IntegerValue v_code_origin_type_id = 2;</code>
      */
     boolean hasVCodeOriginTypeId();
     /**
-     * <code>optional .dstore.values.IntegerValue v_code_origin_type_id = 2;</code>
+     * <code>.dstore.values.IntegerValue v_code_origin_type_id = 2;</code>
      */
     io.dstore.values.IntegerValue getVCodeOriginTypeId();
     /**
-     * <code>optional .dstore.values.IntegerValue v_code_origin_type_id = 2;</code>
+     * <code>.dstore.values.IntegerValue v_code_origin_type_id = 2;</code>
      */
     io.dstore.values.IntegerValueOrBuilder getVCodeOriginTypeIdOrBuilder();
 
     /**
-     * <code>optional bool v_code_origin_type_id_null = 1002;</code>
+     * <code>bool v_code_origin_type_id_null = 1002;</code>
      */
     boolean getVCodeOriginTypeIdNull();
 
     /**
-     * <code>optional .dstore.values.IntegerValue code_status = 3;</code>
+     * <code>.dstore.values.IntegerValue code_status = 3;</code>
      */
     boolean hasCodeStatus();
     /**
-     * <code>optional .dstore.values.IntegerValue code_status = 3;</code>
+     * <code>.dstore.values.IntegerValue code_status = 3;</code>
      */
     io.dstore.values.IntegerValue getCodeStatus();
     /**
-     * <code>optional .dstore.values.IntegerValue code_status = 3;</code>
+     * <code>.dstore.values.IntegerValue code_status = 3;</code>
      */
     io.dstore.values.IntegerValueOrBuilder getCodeStatusOrBuilder();
 
     /**
-     * <code>optional bool code_status_null = 1003;</code>
+     * <code>bool code_status_null = 1003;</code>
      */
     boolean getCodeStatusNull();
 
     /**
-     * <code>optional .dstore.values.BooleanValue sort_by_code_creation_date = 4;</code>
+     * <code>.dstore.values.BooleanValue sort_by_code_creation_date = 4;</code>
      */
     boolean hasSortByCodeCreationDate();
     /**
-     * <code>optional .dstore.values.BooleanValue sort_by_code_creation_date = 4;</code>
+     * <code>.dstore.values.BooleanValue sort_by_code_creation_date = 4;</code>
      */
     io.dstore.values.BooleanValue getSortByCodeCreationDate();
     /**
-     * <code>optional .dstore.values.BooleanValue sort_by_code_creation_date = 4;</code>
+     * <code>.dstore.values.BooleanValue sort_by_code_creation_date = 4;</code>
      */
     io.dstore.values.BooleanValueOrBuilder getSortByCodeCreationDateOrBuilder();
 
     /**
-     * <code>optional bool sort_by_code_creation_date_null = 1004;</code>
+     * <code>bool sort_by_code_creation_date_null = 1004;</code>
      */
     boolean getSortByCodeCreationDateNull();
 
     /**
-     * <code>optional .dstore.values.IntegerValue output_into_one_id = 5;</code>
+     * <code>.dstore.values.IntegerValue output_into_one_id = 5;</code>
      */
     boolean hasOutputIntoOneId();
     /**
-     * <code>optional .dstore.values.IntegerValue output_into_one_id = 5;</code>
+     * <code>.dstore.values.IntegerValue output_into_one_id = 5;</code>
      */
     io.dstore.values.IntegerValue getOutputIntoOneId();
     /**
-     * <code>optional .dstore.values.IntegerValue output_into_one_id = 5;</code>
+     * <code>.dstore.values.IntegerValue output_into_one_id = 5;</code>
      */
     io.dstore.values.IntegerValueOrBuilder getOutputIntoOneIdOrBuilder();
 
     /**
-     * <code>optional bool output_into_one_id_null = 1005;</code>
+     * <code>bool output_into_one_id_null = 1005;</code>
      */
     boolean getOutputIntoOneIdNull();
   }
@@ -268,19 +268,19 @@ public final class OmGetVoucherTypesAd {
     public static final int VOUCHER_TYPE_ID_FIELD_NUMBER = 1;
     private io.dstore.values.IntegerValue voucherTypeId_;
     /**
-     * <code>optional .dstore.values.IntegerValue voucher_type_id = 1;</code>
+     * <code>.dstore.values.IntegerValue voucher_type_id = 1;</code>
      */
     public boolean hasVoucherTypeId() {
       return voucherTypeId_ != null;
     }
     /**
-     * <code>optional .dstore.values.IntegerValue voucher_type_id = 1;</code>
+     * <code>.dstore.values.IntegerValue voucher_type_id = 1;</code>
      */
     public io.dstore.values.IntegerValue getVoucherTypeId() {
       return voucherTypeId_ == null ? io.dstore.values.IntegerValue.getDefaultInstance() : voucherTypeId_;
     }
     /**
-     * <code>optional .dstore.values.IntegerValue voucher_type_id = 1;</code>
+     * <code>.dstore.values.IntegerValue voucher_type_id = 1;</code>
      */
     public io.dstore.values.IntegerValueOrBuilder getVoucherTypeIdOrBuilder() {
       return getVoucherTypeId();
@@ -289,7 +289,7 @@ public final class OmGetVoucherTypesAd {
     public static final int VOUCHER_TYPE_ID_NULL_FIELD_NUMBER = 1001;
     private boolean voucherTypeIdNull_;
     /**
-     * <code>optional bool voucher_type_id_null = 1001;</code>
+     * <code>bool voucher_type_id_null = 1001;</code>
      */
     public boolean getVoucherTypeIdNull() {
       return voucherTypeIdNull_;
@@ -298,19 +298,19 @@ public final class OmGetVoucherTypesAd {
     public static final int V_CODE_ORIGIN_TYPE_ID_FIELD_NUMBER = 2;
     private io.dstore.values.IntegerValue vCodeOriginTypeId_;
     /**
-     * <code>optional .dstore.values.IntegerValue v_code_origin_type_id = 2;</code>
+     * <code>.dstore.values.IntegerValue v_code_origin_type_id = 2;</code>
      */
     public boolean hasVCodeOriginTypeId() {
       return vCodeOriginTypeId_ != null;
     }
     /**
-     * <code>optional .dstore.values.IntegerValue v_code_origin_type_id = 2;</code>
+     * <code>.dstore.values.IntegerValue v_code_origin_type_id = 2;</code>
      */
     public io.dstore.values.IntegerValue getVCodeOriginTypeId() {
       return vCodeOriginTypeId_ == null ? io.dstore.values.IntegerValue.getDefaultInstance() : vCodeOriginTypeId_;
     }
     /**
-     * <code>optional .dstore.values.IntegerValue v_code_origin_type_id = 2;</code>
+     * <code>.dstore.values.IntegerValue v_code_origin_type_id = 2;</code>
      */
     public io.dstore.values.IntegerValueOrBuilder getVCodeOriginTypeIdOrBuilder() {
       return getVCodeOriginTypeId();
@@ -319,7 +319,7 @@ public final class OmGetVoucherTypesAd {
     public static final int V_CODE_ORIGIN_TYPE_ID_NULL_FIELD_NUMBER = 1002;
     private boolean vCodeOriginTypeIdNull_;
     /**
-     * <code>optional bool v_code_origin_type_id_null = 1002;</code>
+     * <code>bool v_code_origin_type_id_null = 1002;</code>
      */
     public boolean getVCodeOriginTypeIdNull() {
       return vCodeOriginTypeIdNull_;
@@ -328,19 +328,19 @@ public final class OmGetVoucherTypesAd {
     public static final int CODE_STATUS_FIELD_NUMBER = 3;
     private io.dstore.values.IntegerValue codeStatus_;
     /**
-     * <code>optional .dstore.values.IntegerValue code_status = 3;</code>
+     * <code>.dstore.values.IntegerValue code_status = 3;</code>
      */
     public boolean hasCodeStatus() {
       return codeStatus_ != null;
     }
     /**
-     * <code>optional .dstore.values.IntegerValue code_status = 3;</code>
+     * <code>.dstore.values.IntegerValue code_status = 3;</code>
      */
     public io.dstore.values.IntegerValue getCodeStatus() {
       return codeStatus_ == null ? io.dstore.values.IntegerValue.getDefaultInstance() : codeStatus_;
     }
     /**
-     * <code>optional .dstore.values.IntegerValue code_status = 3;</code>
+     * <code>.dstore.values.IntegerValue code_status = 3;</code>
      */
     public io.dstore.values.IntegerValueOrBuilder getCodeStatusOrBuilder() {
       return getCodeStatus();
@@ -349,7 +349,7 @@ public final class OmGetVoucherTypesAd {
     public static final int CODE_STATUS_NULL_FIELD_NUMBER = 1003;
     private boolean codeStatusNull_;
     /**
-     * <code>optional bool code_status_null = 1003;</code>
+     * <code>bool code_status_null = 1003;</code>
      */
     public boolean getCodeStatusNull() {
       return codeStatusNull_;
@@ -358,19 +358,19 @@ public final class OmGetVoucherTypesAd {
     public static final int SORT_BY_CODE_CREATION_DATE_FIELD_NUMBER = 4;
     private io.dstore.values.BooleanValue sortByCodeCreationDate_;
     /**
-     * <code>optional .dstore.values.BooleanValue sort_by_code_creation_date = 4;</code>
+     * <code>.dstore.values.BooleanValue sort_by_code_creation_date = 4;</code>
      */
     public boolean hasSortByCodeCreationDate() {
       return sortByCodeCreationDate_ != null;
     }
     /**
-     * <code>optional .dstore.values.BooleanValue sort_by_code_creation_date = 4;</code>
+     * <code>.dstore.values.BooleanValue sort_by_code_creation_date = 4;</code>
      */
     public io.dstore.values.BooleanValue getSortByCodeCreationDate() {
       return sortByCodeCreationDate_ == null ? io.dstore.values.BooleanValue.getDefaultInstance() : sortByCodeCreationDate_;
     }
     /**
-     * <code>optional .dstore.values.BooleanValue sort_by_code_creation_date = 4;</code>
+     * <code>.dstore.values.BooleanValue sort_by_code_creation_date = 4;</code>
      */
     public io.dstore.values.BooleanValueOrBuilder getSortByCodeCreationDateOrBuilder() {
       return getSortByCodeCreationDate();
@@ -379,7 +379,7 @@ public final class OmGetVoucherTypesAd {
     public static final int SORT_BY_CODE_CREATION_DATE_NULL_FIELD_NUMBER = 1004;
     private boolean sortByCodeCreationDateNull_;
     /**
-     * <code>optional bool sort_by_code_creation_date_null = 1004;</code>
+     * <code>bool sort_by_code_creation_date_null = 1004;</code>
      */
     public boolean getSortByCodeCreationDateNull() {
       return sortByCodeCreationDateNull_;
@@ -388,19 +388,19 @@ public final class OmGetVoucherTypesAd {
     public static final int OUTPUT_INTO_ONE_ID_FIELD_NUMBER = 5;
     private io.dstore.values.IntegerValue outputIntoOneId_;
     /**
-     * <code>optional .dstore.values.IntegerValue output_into_one_id = 5;</code>
+     * <code>.dstore.values.IntegerValue output_into_one_id = 5;</code>
      */
     public boolean hasOutputIntoOneId() {
       return outputIntoOneId_ != null;
     }
     /**
-     * <code>optional .dstore.values.IntegerValue output_into_one_id = 5;</code>
+     * <code>.dstore.values.IntegerValue output_into_one_id = 5;</code>
      */
     public io.dstore.values.IntegerValue getOutputIntoOneId() {
       return outputIntoOneId_ == null ? io.dstore.values.IntegerValue.getDefaultInstance() : outputIntoOneId_;
     }
     /**
-     * <code>optional .dstore.values.IntegerValue output_into_one_id = 5;</code>
+     * <code>.dstore.values.IntegerValue output_into_one_id = 5;</code>
      */
     public io.dstore.values.IntegerValueOrBuilder getOutputIntoOneIdOrBuilder() {
       return getOutputIntoOneId();
@@ -409,7 +409,7 @@ public final class OmGetVoucherTypesAd {
     public static final int OUTPUT_INTO_ONE_ID_NULL_FIELD_NUMBER = 1005;
     private boolean outputIntoOneIdNull_;
     /**
-     * <code>optional bool output_into_one_id_null = 1005;</code>
+     * <code>bool output_into_one_id_null = 1005;</code>
      */
     public boolean getOutputIntoOneIdNull() {
       return outputIntoOneIdNull_;
@@ -564,7 +564,7 @@ public final class OmGetVoucherTypesAd {
         return memoizedHashCode;
       }
       int hash = 41;
-      hash = (19 * hash) + getDescriptorForType().hashCode();
+      hash = (19 * hash) + getDescriptor().hashCode();
       if (hasVoucherTypeId()) {
         hash = (37 * hash) + VOUCHER_TYPE_ID_FIELD_NUMBER;
         hash = (53 * hash) + getVoucherTypeId().hashCode();
@@ -911,13 +911,13 @@ public final class OmGetVoucherTypesAd {
       private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> voucherTypeIdBuilder_;
       /**
-       * <code>optional .dstore.values.IntegerValue voucher_type_id = 1;</code>
+       * <code>.dstore.values.IntegerValue voucher_type_id = 1;</code>
        */
       public boolean hasVoucherTypeId() {
         return voucherTypeIdBuilder_ != null || voucherTypeId_ != null;
       }
       /**
-       * <code>optional .dstore.values.IntegerValue voucher_type_id = 1;</code>
+       * <code>.dstore.values.IntegerValue voucher_type_id = 1;</code>
        */
       public io.dstore.values.IntegerValue getVoucherTypeId() {
         if (voucherTypeIdBuilder_ == null) {
@@ -927,7 +927,7 @@ public final class OmGetVoucherTypesAd {
         }
       }
       /**
-       * <code>optional .dstore.values.IntegerValue voucher_type_id = 1;</code>
+       * <code>.dstore.values.IntegerValue voucher_type_id = 1;</code>
        */
       public Builder setVoucherTypeId(io.dstore.values.IntegerValue value) {
         if (voucherTypeIdBuilder_ == null) {
@@ -943,7 +943,7 @@ public final class OmGetVoucherTypesAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.IntegerValue voucher_type_id = 1;</code>
+       * <code>.dstore.values.IntegerValue voucher_type_id = 1;</code>
        */
       public Builder setVoucherTypeId(
           io.dstore.values.IntegerValue.Builder builderForValue) {
@@ -957,7 +957,7 @@ public final class OmGetVoucherTypesAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.IntegerValue voucher_type_id = 1;</code>
+       * <code>.dstore.values.IntegerValue voucher_type_id = 1;</code>
        */
       public Builder mergeVoucherTypeId(io.dstore.values.IntegerValue value) {
         if (voucherTypeIdBuilder_ == null) {
@@ -975,7 +975,7 @@ public final class OmGetVoucherTypesAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.IntegerValue voucher_type_id = 1;</code>
+       * <code>.dstore.values.IntegerValue voucher_type_id = 1;</code>
        */
       public Builder clearVoucherTypeId() {
         if (voucherTypeIdBuilder_ == null) {
@@ -989,7 +989,7 @@ public final class OmGetVoucherTypesAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.IntegerValue voucher_type_id = 1;</code>
+       * <code>.dstore.values.IntegerValue voucher_type_id = 1;</code>
        */
       public io.dstore.values.IntegerValue.Builder getVoucherTypeIdBuilder() {
         
@@ -997,7 +997,7 @@ public final class OmGetVoucherTypesAd {
         return getVoucherTypeIdFieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .dstore.values.IntegerValue voucher_type_id = 1;</code>
+       * <code>.dstore.values.IntegerValue voucher_type_id = 1;</code>
        */
       public io.dstore.values.IntegerValueOrBuilder getVoucherTypeIdOrBuilder() {
         if (voucherTypeIdBuilder_ != null) {
@@ -1008,7 +1008,7 @@ public final class OmGetVoucherTypesAd {
         }
       }
       /**
-       * <code>optional .dstore.values.IntegerValue voucher_type_id = 1;</code>
+       * <code>.dstore.values.IntegerValue voucher_type_id = 1;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> 
@@ -1026,13 +1026,13 @@ public final class OmGetVoucherTypesAd {
 
       private boolean voucherTypeIdNull_ ;
       /**
-       * <code>optional bool voucher_type_id_null = 1001;</code>
+       * <code>bool voucher_type_id_null = 1001;</code>
        */
       public boolean getVoucherTypeIdNull() {
         return voucherTypeIdNull_;
       }
       /**
-       * <code>optional bool voucher_type_id_null = 1001;</code>
+       * <code>bool voucher_type_id_null = 1001;</code>
        */
       public Builder setVoucherTypeIdNull(boolean value) {
         
@@ -1041,7 +1041,7 @@ public final class OmGetVoucherTypesAd {
         return this;
       }
       /**
-       * <code>optional bool voucher_type_id_null = 1001;</code>
+       * <code>bool voucher_type_id_null = 1001;</code>
        */
       public Builder clearVoucherTypeIdNull() {
         
@@ -1054,13 +1054,13 @@ public final class OmGetVoucherTypesAd {
       private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> vCodeOriginTypeIdBuilder_;
       /**
-       * <code>optional .dstore.values.IntegerValue v_code_origin_type_id = 2;</code>
+       * <code>.dstore.values.IntegerValue v_code_origin_type_id = 2;</code>
        */
       public boolean hasVCodeOriginTypeId() {
         return vCodeOriginTypeIdBuilder_ != null || vCodeOriginTypeId_ != null;
       }
       /**
-       * <code>optional .dstore.values.IntegerValue v_code_origin_type_id = 2;</code>
+       * <code>.dstore.values.IntegerValue v_code_origin_type_id = 2;</code>
        */
       public io.dstore.values.IntegerValue getVCodeOriginTypeId() {
         if (vCodeOriginTypeIdBuilder_ == null) {
@@ -1070,7 +1070,7 @@ public final class OmGetVoucherTypesAd {
         }
       }
       /**
-       * <code>optional .dstore.values.IntegerValue v_code_origin_type_id = 2;</code>
+       * <code>.dstore.values.IntegerValue v_code_origin_type_id = 2;</code>
        */
       public Builder setVCodeOriginTypeId(io.dstore.values.IntegerValue value) {
         if (vCodeOriginTypeIdBuilder_ == null) {
@@ -1086,7 +1086,7 @@ public final class OmGetVoucherTypesAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.IntegerValue v_code_origin_type_id = 2;</code>
+       * <code>.dstore.values.IntegerValue v_code_origin_type_id = 2;</code>
        */
       public Builder setVCodeOriginTypeId(
           io.dstore.values.IntegerValue.Builder builderForValue) {
@@ -1100,7 +1100,7 @@ public final class OmGetVoucherTypesAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.IntegerValue v_code_origin_type_id = 2;</code>
+       * <code>.dstore.values.IntegerValue v_code_origin_type_id = 2;</code>
        */
       public Builder mergeVCodeOriginTypeId(io.dstore.values.IntegerValue value) {
         if (vCodeOriginTypeIdBuilder_ == null) {
@@ -1118,7 +1118,7 @@ public final class OmGetVoucherTypesAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.IntegerValue v_code_origin_type_id = 2;</code>
+       * <code>.dstore.values.IntegerValue v_code_origin_type_id = 2;</code>
        */
       public Builder clearVCodeOriginTypeId() {
         if (vCodeOriginTypeIdBuilder_ == null) {
@@ -1132,7 +1132,7 @@ public final class OmGetVoucherTypesAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.IntegerValue v_code_origin_type_id = 2;</code>
+       * <code>.dstore.values.IntegerValue v_code_origin_type_id = 2;</code>
        */
       public io.dstore.values.IntegerValue.Builder getVCodeOriginTypeIdBuilder() {
         
@@ -1140,7 +1140,7 @@ public final class OmGetVoucherTypesAd {
         return getVCodeOriginTypeIdFieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .dstore.values.IntegerValue v_code_origin_type_id = 2;</code>
+       * <code>.dstore.values.IntegerValue v_code_origin_type_id = 2;</code>
        */
       public io.dstore.values.IntegerValueOrBuilder getVCodeOriginTypeIdOrBuilder() {
         if (vCodeOriginTypeIdBuilder_ != null) {
@@ -1151,7 +1151,7 @@ public final class OmGetVoucherTypesAd {
         }
       }
       /**
-       * <code>optional .dstore.values.IntegerValue v_code_origin_type_id = 2;</code>
+       * <code>.dstore.values.IntegerValue v_code_origin_type_id = 2;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> 
@@ -1169,13 +1169,13 @@ public final class OmGetVoucherTypesAd {
 
       private boolean vCodeOriginTypeIdNull_ ;
       /**
-       * <code>optional bool v_code_origin_type_id_null = 1002;</code>
+       * <code>bool v_code_origin_type_id_null = 1002;</code>
        */
       public boolean getVCodeOriginTypeIdNull() {
         return vCodeOriginTypeIdNull_;
       }
       /**
-       * <code>optional bool v_code_origin_type_id_null = 1002;</code>
+       * <code>bool v_code_origin_type_id_null = 1002;</code>
        */
       public Builder setVCodeOriginTypeIdNull(boolean value) {
         
@@ -1184,7 +1184,7 @@ public final class OmGetVoucherTypesAd {
         return this;
       }
       /**
-       * <code>optional bool v_code_origin_type_id_null = 1002;</code>
+       * <code>bool v_code_origin_type_id_null = 1002;</code>
        */
       public Builder clearVCodeOriginTypeIdNull() {
         
@@ -1197,13 +1197,13 @@ public final class OmGetVoucherTypesAd {
       private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> codeStatusBuilder_;
       /**
-       * <code>optional .dstore.values.IntegerValue code_status = 3;</code>
+       * <code>.dstore.values.IntegerValue code_status = 3;</code>
        */
       public boolean hasCodeStatus() {
         return codeStatusBuilder_ != null || codeStatus_ != null;
       }
       /**
-       * <code>optional .dstore.values.IntegerValue code_status = 3;</code>
+       * <code>.dstore.values.IntegerValue code_status = 3;</code>
        */
       public io.dstore.values.IntegerValue getCodeStatus() {
         if (codeStatusBuilder_ == null) {
@@ -1213,7 +1213,7 @@ public final class OmGetVoucherTypesAd {
         }
       }
       /**
-       * <code>optional .dstore.values.IntegerValue code_status = 3;</code>
+       * <code>.dstore.values.IntegerValue code_status = 3;</code>
        */
       public Builder setCodeStatus(io.dstore.values.IntegerValue value) {
         if (codeStatusBuilder_ == null) {
@@ -1229,7 +1229,7 @@ public final class OmGetVoucherTypesAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.IntegerValue code_status = 3;</code>
+       * <code>.dstore.values.IntegerValue code_status = 3;</code>
        */
       public Builder setCodeStatus(
           io.dstore.values.IntegerValue.Builder builderForValue) {
@@ -1243,7 +1243,7 @@ public final class OmGetVoucherTypesAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.IntegerValue code_status = 3;</code>
+       * <code>.dstore.values.IntegerValue code_status = 3;</code>
        */
       public Builder mergeCodeStatus(io.dstore.values.IntegerValue value) {
         if (codeStatusBuilder_ == null) {
@@ -1261,7 +1261,7 @@ public final class OmGetVoucherTypesAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.IntegerValue code_status = 3;</code>
+       * <code>.dstore.values.IntegerValue code_status = 3;</code>
        */
       public Builder clearCodeStatus() {
         if (codeStatusBuilder_ == null) {
@@ -1275,7 +1275,7 @@ public final class OmGetVoucherTypesAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.IntegerValue code_status = 3;</code>
+       * <code>.dstore.values.IntegerValue code_status = 3;</code>
        */
       public io.dstore.values.IntegerValue.Builder getCodeStatusBuilder() {
         
@@ -1283,7 +1283,7 @@ public final class OmGetVoucherTypesAd {
         return getCodeStatusFieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .dstore.values.IntegerValue code_status = 3;</code>
+       * <code>.dstore.values.IntegerValue code_status = 3;</code>
        */
       public io.dstore.values.IntegerValueOrBuilder getCodeStatusOrBuilder() {
         if (codeStatusBuilder_ != null) {
@@ -1294,7 +1294,7 @@ public final class OmGetVoucherTypesAd {
         }
       }
       /**
-       * <code>optional .dstore.values.IntegerValue code_status = 3;</code>
+       * <code>.dstore.values.IntegerValue code_status = 3;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> 
@@ -1312,13 +1312,13 @@ public final class OmGetVoucherTypesAd {
 
       private boolean codeStatusNull_ ;
       /**
-       * <code>optional bool code_status_null = 1003;</code>
+       * <code>bool code_status_null = 1003;</code>
        */
       public boolean getCodeStatusNull() {
         return codeStatusNull_;
       }
       /**
-       * <code>optional bool code_status_null = 1003;</code>
+       * <code>bool code_status_null = 1003;</code>
        */
       public Builder setCodeStatusNull(boolean value) {
         
@@ -1327,7 +1327,7 @@ public final class OmGetVoucherTypesAd {
         return this;
       }
       /**
-       * <code>optional bool code_status_null = 1003;</code>
+       * <code>bool code_status_null = 1003;</code>
        */
       public Builder clearCodeStatusNull() {
         
@@ -1340,13 +1340,13 @@ public final class OmGetVoucherTypesAd {
       private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.values.BooleanValue, io.dstore.values.BooleanValue.Builder, io.dstore.values.BooleanValueOrBuilder> sortByCodeCreationDateBuilder_;
       /**
-       * <code>optional .dstore.values.BooleanValue sort_by_code_creation_date = 4;</code>
+       * <code>.dstore.values.BooleanValue sort_by_code_creation_date = 4;</code>
        */
       public boolean hasSortByCodeCreationDate() {
         return sortByCodeCreationDateBuilder_ != null || sortByCodeCreationDate_ != null;
       }
       /**
-       * <code>optional .dstore.values.BooleanValue sort_by_code_creation_date = 4;</code>
+       * <code>.dstore.values.BooleanValue sort_by_code_creation_date = 4;</code>
        */
       public io.dstore.values.BooleanValue getSortByCodeCreationDate() {
         if (sortByCodeCreationDateBuilder_ == null) {
@@ -1356,7 +1356,7 @@ public final class OmGetVoucherTypesAd {
         }
       }
       /**
-       * <code>optional .dstore.values.BooleanValue sort_by_code_creation_date = 4;</code>
+       * <code>.dstore.values.BooleanValue sort_by_code_creation_date = 4;</code>
        */
       public Builder setSortByCodeCreationDate(io.dstore.values.BooleanValue value) {
         if (sortByCodeCreationDateBuilder_ == null) {
@@ -1372,7 +1372,7 @@ public final class OmGetVoucherTypesAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.BooleanValue sort_by_code_creation_date = 4;</code>
+       * <code>.dstore.values.BooleanValue sort_by_code_creation_date = 4;</code>
        */
       public Builder setSortByCodeCreationDate(
           io.dstore.values.BooleanValue.Builder builderForValue) {
@@ -1386,7 +1386,7 @@ public final class OmGetVoucherTypesAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.BooleanValue sort_by_code_creation_date = 4;</code>
+       * <code>.dstore.values.BooleanValue sort_by_code_creation_date = 4;</code>
        */
       public Builder mergeSortByCodeCreationDate(io.dstore.values.BooleanValue value) {
         if (sortByCodeCreationDateBuilder_ == null) {
@@ -1404,7 +1404,7 @@ public final class OmGetVoucherTypesAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.BooleanValue sort_by_code_creation_date = 4;</code>
+       * <code>.dstore.values.BooleanValue sort_by_code_creation_date = 4;</code>
        */
       public Builder clearSortByCodeCreationDate() {
         if (sortByCodeCreationDateBuilder_ == null) {
@@ -1418,7 +1418,7 @@ public final class OmGetVoucherTypesAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.BooleanValue sort_by_code_creation_date = 4;</code>
+       * <code>.dstore.values.BooleanValue sort_by_code_creation_date = 4;</code>
        */
       public io.dstore.values.BooleanValue.Builder getSortByCodeCreationDateBuilder() {
         
@@ -1426,7 +1426,7 @@ public final class OmGetVoucherTypesAd {
         return getSortByCodeCreationDateFieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .dstore.values.BooleanValue sort_by_code_creation_date = 4;</code>
+       * <code>.dstore.values.BooleanValue sort_by_code_creation_date = 4;</code>
        */
       public io.dstore.values.BooleanValueOrBuilder getSortByCodeCreationDateOrBuilder() {
         if (sortByCodeCreationDateBuilder_ != null) {
@@ -1437,7 +1437,7 @@ public final class OmGetVoucherTypesAd {
         }
       }
       /**
-       * <code>optional .dstore.values.BooleanValue sort_by_code_creation_date = 4;</code>
+       * <code>.dstore.values.BooleanValue sort_by_code_creation_date = 4;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.values.BooleanValue, io.dstore.values.BooleanValue.Builder, io.dstore.values.BooleanValueOrBuilder> 
@@ -1455,13 +1455,13 @@ public final class OmGetVoucherTypesAd {
 
       private boolean sortByCodeCreationDateNull_ ;
       /**
-       * <code>optional bool sort_by_code_creation_date_null = 1004;</code>
+       * <code>bool sort_by_code_creation_date_null = 1004;</code>
        */
       public boolean getSortByCodeCreationDateNull() {
         return sortByCodeCreationDateNull_;
       }
       /**
-       * <code>optional bool sort_by_code_creation_date_null = 1004;</code>
+       * <code>bool sort_by_code_creation_date_null = 1004;</code>
        */
       public Builder setSortByCodeCreationDateNull(boolean value) {
         
@@ -1470,7 +1470,7 @@ public final class OmGetVoucherTypesAd {
         return this;
       }
       /**
-       * <code>optional bool sort_by_code_creation_date_null = 1004;</code>
+       * <code>bool sort_by_code_creation_date_null = 1004;</code>
        */
       public Builder clearSortByCodeCreationDateNull() {
         
@@ -1483,13 +1483,13 @@ public final class OmGetVoucherTypesAd {
       private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> outputIntoOneIdBuilder_;
       /**
-       * <code>optional .dstore.values.IntegerValue output_into_one_id = 5;</code>
+       * <code>.dstore.values.IntegerValue output_into_one_id = 5;</code>
        */
       public boolean hasOutputIntoOneId() {
         return outputIntoOneIdBuilder_ != null || outputIntoOneId_ != null;
       }
       /**
-       * <code>optional .dstore.values.IntegerValue output_into_one_id = 5;</code>
+       * <code>.dstore.values.IntegerValue output_into_one_id = 5;</code>
        */
       public io.dstore.values.IntegerValue getOutputIntoOneId() {
         if (outputIntoOneIdBuilder_ == null) {
@@ -1499,7 +1499,7 @@ public final class OmGetVoucherTypesAd {
         }
       }
       /**
-       * <code>optional .dstore.values.IntegerValue output_into_one_id = 5;</code>
+       * <code>.dstore.values.IntegerValue output_into_one_id = 5;</code>
        */
       public Builder setOutputIntoOneId(io.dstore.values.IntegerValue value) {
         if (outputIntoOneIdBuilder_ == null) {
@@ -1515,7 +1515,7 @@ public final class OmGetVoucherTypesAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.IntegerValue output_into_one_id = 5;</code>
+       * <code>.dstore.values.IntegerValue output_into_one_id = 5;</code>
        */
       public Builder setOutputIntoOneId(
           io.dstore.values.IntegerValue.Builder builderForValue) {
@@ -1529,7 +1529,7 @@ public final class OmGetVoucherTypesAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.IntegerValue output_into_one_id = 5;</code>
+       * <code>.dstore.values.IntegerValue output_into_one_id = 5;</code>
        */
       public Builder mergeOutputIntoOneId(io.dstore.values.IntegerValue value) {
         if (outputIntoOneIdBuilder_ == null) {
@@ -1547,7 +1547,7 @@ public final class OmGetVoucherTypesAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.IntegerValue output_into_one_id = 5;</code>
+       * <code>.dstore.values.IntegerValue output_into_one_id = 5;</code>
        */
       public Builder clearOutputIntoOneId() {
         if (outputIntoOneIdBuilder_ == null) {
@@ -1561,7 +1561,7 @@ public final class OmGetVoucherTypesAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.IntegerValue output_into_one_id = 5;</code>
+       * <code>.dstore.values.IntegerValue output_into_one_id = 5;</code>
        */
       public io.dstore.values.IntegerValue.Builder getOutputIntoOneIdBuilder() {
         
@@ -1569,7 +1569,7 @@ public final class OmGetVoucherTypesAd {
         return getOutputIntoOneIdFieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .dstore.values.IntegerValue output_into_one_id = 5;</code>
+       * <code>.dstore.values.IntegerValue output_into_one_id = 5;</code>
        */
       public io.dstore.values.IntegerValueOrBuilder getOutputIntoOneIdOrBuilder() {
         if (outputIntoOneIdBuilder_ != null) {
@@ -1580,7 +1580,7 @@ public final class OmGetVoucherTypesAd {
         }
       }
       /**
-       * <code>optional .dstore.values.IntegerValue output_into_one_id = 5;</code>
+       * <code>.dstore.values.IntegerValue output_into_one_id = 5;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> 
@@ -1598,13 +1598,13 @@ public final class OmGetVoucherTypesAd {
 
       private boolean outputIntoOneIdNull_ ;
       /**
-       * <code>optional bool output_into_one_id_null = 1005;</code>
+       * <code>bool output_into_one_id_null = 1005;</code>
        */
       public boolean getOutputIntoOneIdNull() {
         return outputIntoOneIdNull_;
       }
       /**
-       * <code>optional bool output_into_one_id_null = 1005;</code>
+       * <code>bool output_into_one_id_null = 1005;</code>
        */
       public Builder setOutputIntoOneIdNull(boolean value) {
         
@@ -1613,7 +1613,7 @@ public final class OmGetVoucherTypesAd {
         return this;
       }
       /**
-       * <code>optional bool output_into_one_id_null = 1005;</code>
+       * <code>bool output_into_one_id_null = 1005;</code>
        */
       public Builder clearOutputIntoOneIdNull() {
         
@@ -1872,7 +1872,7 @@ public final class OmGetVoucherTypesAd {
         com.google.protobuf.MessageOrBuilder {
 
       /**
-       * <code>optional int32 row_id = 10000;</code>
+       * <code>int32 row_id = 10000;</code>
        */
       int getRowId();
 
@@ -1881,7 +1881,7 @@ public final class OmGetVoucherTypesAd {
        * Die Bezeichnung der Herkunftsart "VCodeOriginTypeID"
        * </pre>
        *
-       * <code>optional .dstore.values.StringValue v_code_origin_type = 10001;</code>
+       * <code>.dstore.values.StringValue v_code_origin_type = 10001;</code>
        */
       boolean hasVCodeOriginType();
       /**
@@ -1889,7 +1889,7 @@ public final class OmGetVoucherTypesAd {
        * Die Bezeichnung der Herkunftsart "VCodeOriginTypeID"
        * </pre>
        *
-       * <code>optional .dstore.values.StringValue v_code_origin_type = 10001;</code>
+       * <code>.dstore.values.StringValue v_code_origin_type = 10001;</code>
        */
       io.dstore.values.StringValue getVCodeOriginType();
       /**
@@ -1897,7 +1897,7 @@ public final class OmGetVoucherTypesAd {
        * Die Bezeichnung der Herkunftsart "VCodeOriginTypeID"
        * </pre>
        *
-       * <code>optional .dstore.values.StringValue v_code_origin_type = 10001;</code>
+       * <code>.dstore.values.StringValue v_code_origin_type = 10001;</code>
        */
       io.dstore.values.StringValueOrBuilder getVCodeOriginTypeOrBuilder();
 
@@ -1906,7 +1906,7 @@ public final class OmGetVoucherTypesAd {
        * Zeitpunkt bis zu dem ein Code der Aktion gültig ist (egal wann er generiert wird). Kann "NULL" sein. Ist gleichzeitig "ValidForXDays" auch "NULL", muß bei Generierung eines Codes die Gültigkeitsdauer angegeben werden (s. "om_CreateVoucherCodes_Ad").
        * </pre>
        *
-       * <code>optional .dstore.values.TimestampValue default_valid_until = 10002;</code>
+       * <code>.dstore.values.TimestampValue default_valid_until = 10002;</code>
        */
       boolean hasDefaultValidUntil();
       /**
@@ -1914,7 +1914,7 @@ public final class OmGetVoucherTypesAd {
        * Zeitpunkt bis zu dem ein Code der Aktion gültig ist (egal wann er generiert wird). Kann "NULL" sein. Ist gleichzeitig "ValidForXDays" auch "NULL", muß bei Generierung eines Codes die Gültigkeitsdauer angegeben werden (s. "om_CreateVoucherCodes_Ad").
        * </pre>
        *
-       * <code>optional .dstore.values.TimestampValue default_valid_until = 10002;</code>
+       * <code>.dstore.values.TimestampValue default_valid_until = 10002;</code>
        */
       io.dstore.values.TimestampValue getDefaultValidUntil();
       /**
@@ -1922,7 +1922,7 @@ public final class OmGetVoucherTypesAd {
        * Zeitpunkt bis zu dem ein Code der Aktion gültig ist (egal wann er generiert wird). Kann "NULL" sein. Ist gleichzeitig "ValidForXDays" auch "NULL", muß bei Generierung eines Codes die Gültigkeitsdauer angegeben werden (s. "om_CreateVoucherCodes_Ad").
        * </pre>
        *
-       * <code>optional .dstore.values.TimestampValue default_valid_until = 10002;</code>
+       * <code>.dstore.values.TimestampValue default_valid_until = 10002;</code>
        */
       io.dstore.values.TimestampValueOrBuilder getDefaultValidUntilOrBuilder();
 
@@ -1931,7 +1931,7 @@ public final class OmGetVoucherTypesAd {
        * Das Pattern, nach welchem Codes zur Aktion erzeugt werden. Immer "NULL", wenn die Herkunftsart "Importiert" ist, ansonsten entweder eine feste Zeichenkette (d.h. es gibt genau EINEN Code) oder eine "Generierungs-Funktion" (z.B. '#randomstr(10)#').
        * </pre>
        *
-       * <code>optional .dstore.values.StringValue generation_pattern = 10003;</code>
+       * <code>.dstore.values.StringValue generation_pattern = 10003;</code>
        */
       boolean hasGenerationPattern();
       /**
@@ -1939,7 +1939,7 @@ public final class OmGetVoucherTypesAd {
        * Das Pattern, nach welchem Codes zur Aktion erzeugt werden. Immer "NULL", wenn die Herkunftsart "Importiert" ist, ansonsten entweder eine feste Zeichenkette (d.h. es gibt genau EINEN Code) oder eine "Generierungs-Funktion" (z.B. '#randomstr(10)#').
        * </pre>
        *
-       * <code>optional .dstore.values.StringValue generation_pattern = 10003;</code>
+       * <code>.dstore.values.StringValue generation_pattern = 10003;</code>
        */
       io.dstore.values.StringValue getGenerationPattern();
       /**
@@ -1947,7 +1947,7 @@ public final class OmGetVoucherTypesAd {
        * Das Pattern, nach welchem Codes zur Aktion erzeugt werden. Immer "NULL", wenn die Herkunftsart "Importiert" ist, ansonsten entweder eine feste Zeichenkette (d.h. es gibt genau EINEN Code) oder eine "Generierungs-Funktion" (z.B. '#randomstr(10)#').
        * </pre>
        *
-       * <code>optional .dstore.values.StringValue generation_pattern = 10003;</code>
+       * <code>.dstore.values.StringValue generation_pattern = 10003;</code>
        */
       io.dstore.values.StringValueOrBuilder getGenerationPatternOrBuilder();
 
@@ -1956,7 +1956,7 @@ public final class OmGetVoucherTypesAd {
        * Anzahl Tage, die ein Code der Aktion ab dem Zeitpunkt seiner Generierung gültig sein soll. Immer "NULL" wenn "DefaultValidUntil" NICHT "NULL" ist. Das sich hieraus ergebende "Gültig bis"-Datum kann bei der Generierung eines Codes überschrieben werden.
        * </pre>
        *
-       * <code>optional .dstore.values.IntegerValue valid_for_x_days = 10004;</code>
+       * <code>.dstore.values.IntegerValue valid_for_x_days = 10004;</code>
        */
       boolean hasValidForXDays();
       /**
@@ -1964,7 +1964,7 @@ public final class OmGetVoucherTypesAd {
        * Anzahl Tage, die ein Code der Aktion ab dem Zeitpunkt seiner Generierung gültig sein soll. Immer "NULL" wenn "DefaultValidUntil" NICHT "NULL" ist. Das sich hieraus ergebende "Gültig bis"-Datum kann bei der Generierung eines Codes überschrieben werden.
        * </pre>
        *
-       * <code>optional .dstore.values.IntegerValue valid_for_x_days = 10004;</code>
+       * <code>.dstore.values.IntegerValue valid_for_x_days = 10004;</code>
        */
       io.dstore.values.IntegerValue getValidForXDays();
       /**
@@ -1972,7 +1972,7 @@ public final class OmGetVoucherTypesAd {
        * Anzahl Tage, die ein Code der Aktion ab dem Zeitpunkt seiner Generierung gültig sein soll. Immer "NULL" wenn "DefaultValidUntil" NICHT "NULL" ist. Das sich hieraus ergebende "Gültig bis"-Datum kann bei der Generierung eines Codes überschrieben werden.
        * </pre>
        *
-       * <code>optional .dstore.values.IntegerValue valid_for_x_days = 10004;</code>
+       * <code>.dstore.values.IntegerValue valid_for_x_days = 10004;</code>
        */
       io.dstore.values.IntegerValueOrBuilder getValidForXDaysOrBuilder();
 
@@ -1981,7 +1981,7 @@ public final class OmGetVoucherTypesAd {
        * ID einer Gutschein-Aktion
        * </pre>
        *
-       * <code>optional .dstore.values.IntegerValue voucher_type_id = 10005;</code>
+       * <code>.dstore.values.IntegerValue voucher_type_id = 10005;</code>
        */
       boolean hasVoucherTypeId();
       /**
@@ -1989,7 +1989,7 @@ public final class OmGetVoucherTypesAd {
        * ID einer Gutschein-Aktion
        * </pre>
        *
-       * <code>optional .dstore.values.IntegerValue voucher_type_id = 10005;</code>
+       * <code>.dstore.values.IntegerValue voucher_type_id = 10005;</code>
        */
       io.dstore.values.IntegerValue getVoucherTypeId();
       /**
@@ -1997,7 +1997,7 @@ public final class OmGetVoucherTypesAd {
        * ID einer Gutschein-Aktion
        * </pre>
        *
-       * <code>optional .dstore.values.IntegerValue voucher_type_id = 10005;</code>
+       * <code>.dstore.values.IntegerValue voucher_type_id = 10005;</code>
        */
       io.dstore.values.IntegerValueOrBuilder getVoucherTypeIdOrBuilder();
 
@@ -2006,7 +2006,7 @@ public final class OmGetVoucherTypesAd {
        * Gibt an, wie oft ein Code der Aktion von einer Person eingelöst werden kann ("NULL" bedeutet "unendlich oft"). Dieser Wert ist immer "&lt;= XTimesUsable", da ein Code nicht öfter von einer Person eingelöst werden kann als er insgesamt einlösbar ist.
        * </pre>
        *
-       * <code>optional .dstore.values.IntegerValue x_times_usable_per_person = 10006;</code>
+       * <code>.dstore.values.IntegerValue x_times_usable_per_person = 10006;</code>
        */
       boolean hasXTimesUsablePerPerson();
       /**
@@ -2014,7 +2014,7 @@ public final class OmGetVoucherTypesAd {
        * Gibt an, wie oft ein Code der Aktion von einer Person eingelöst werden kann ("NULL" bedeutet "unendlich oft"). Dieser Wert ist immer "&lt;= XTimesUsable", da ein Code nicht öfter von einer Person eingelöst werden kann als er insgesamt einlösbar ist.
        * </pre>
        *
-       * <code>optional .dstore.values.IntegerValue x_times_usable_per_person = 10006;</code>
+       * <code>.dstore.values.IntegerValue x_times_usable_per_person = 10006;</code>
        */
       io.dstore.values.IntegerValue getXTimesUsablePerPerson();
       /**
@@ -2022,7 +2022,7 @@ public final class OmGetVoucherTypesAd {
        * Gibt an, wie oft ein Code der Aktion von einer Person eingelöst werden kann ("NULL" bedeutet "unendlich oft"). Dieser Wert ist immer "&lt;= XTimesUsable", da ein Code nicht öfter von einer Person eingelöst werden kann als er insgesamt einlösbar ist.
        * </pre>
        *
-       * <code>optional .dstore.values.IntegerValue x_times_usable_per_person = 10006;</code>
+       * <code>.dstore.values.IntegerValue x_times_usable_per_person = 10006;</code>
        */
       io.dstore.values.IntegerValueOrBuilder getXTimesUsablePerPersonOrBuilder();
 
@@ -2031,7 +2031,7 @@ public final class OmGetVoucherTypesAd {
        * Die Bezeichnung der "VoucherTypeID", also praktisch der Name der Aktion
        * </pre>
        *
-       * <code>optional .dstore.values.StringValue voucher_type_description = 10007;</code>
+       * <code>.dstore.values.StringValue voucher_type_description = 10007;</code>
        */
       boolean hasVoucherTypeDescription();
       /**
@@ -2039,7 +2039,7 @@ public final class OmGetVoucherTypesAd {
        * Die Bezeichnung der "VoucherTypeID", also praktisch der Name der Aktion
        * </pre>
        *
-       * <code>optional .dstore.values.StringValue voucher_type_description = 10007;</code>
+       * <code>.dstore.values.StringValue voucher_type_description = 10007;</code>
        */
       io.dstore.values.StringValue getVoucherTypeDescription();
       /**
@@ -2047,7 +2047,7 @@ public final class OmGetVoucherTypesAd {
        * Die Bezeichnung der "VoucherTypeID", also praktisch der Name der Aktion
        * </pre>
        *
-       * <code>optional .dstore.values.StringValue voucher_type_description = 10007;</code>
+       * <code>.dstore.values.StringValue voucher_type_description = 10007;</code>
        */
       io.dstore.values.StringValueOrBuilder getVoucherTypeDescriptionOrBuilder();
 
@@ -2056,7 +2056,7 @@ public final class OmGetVoucherTypesAd {
        * Gibt an, wie oft ein Code der Aktion generell eingelöst werden kann ("NULL" bedeutet "unendlich oft"). Diese Einstellung gilt unabhängig von "XTimesUsablePerPerson" !
        * </pre>
        *
-       * <code>optional .dstore.values.IntegerValue x_times_usable = 10008;</code>
+       * <code>.dstore.values.IntegerValue x_times_usable = 10008;</code>
        */
       boolean hasXTimesUsable();
       /**
@@ -2064,7 +2064,7 @@ public final class OmGetVoucherTypesAd {
        * Gibt an, wie oft ein Code der Aktion generell eingelöst werden kann ("NULL" bedeutet "unendlich oft"). Diese Einstellung gilt unabhängig von "XTimesUsablePerPerson" !
        * </pre>
        *
-       * <code>optional .dstore.values.IntegerValue x_times_usable = 10008;</code>
+       * <code>.dstore.values.IntegerValue x_times_usable = 10008;</code>
        */
       io.dstore.values.IntegerValue getXTimesUsable();
       /**
@@ -2072,7 +2072,7 @@ public final class OmGetVoucherTypesAd {
        * Gibt an, wie oft ein Code der Aktion generell eingelöst werden kann ("NULL" bedeutet "unendlich oft"). Diese Einstellung gilt unabhängig von "XTimesUsablePerPerson" !
        * </pre>
        *
-       * <code>optional .dstore.values.IntegerValue x_times_usable = 10008;</code>
+       * <code>.dstore.values.IntegerValue x_times_usable = 10008;</code>
        */
       io.dstore.values.IntegerValueOrBuilder getXTimesUsableOrBuilder();
 
@@ -2081,7 +2081,7 @@ public final class OmGetVoucherTypesAd {
        * ID der Herkunftsart zum "VoucherType". Mögliche Werte s. "om_GetVCodeOriginTypes_Ad".
        * </pre>
        *
-       * <code>optional .dstore.values.IntegerValue v_code_origin_type_id = 10009;</code>
+       * <code>.dstore.values.IntegerValue v_code_origin_type_id = 10009;</code>
        */
       boolean hasVCodeOriginTypeId();
       /**
@@ -2089,7 +2089,7 @@ public final class OmGetVoucherTypesAd {
        * ID der Herkunftsart zum "VoucherType". Mögliche Werte s. "om_GetVCodeOriginTypes_Ad".
        * </pre>
        *
-       * <code>optional .dstore.values.IntegerValue v_code_origin_type_id = 10009;</code>
+       * <code>.dstore.values.IntegerValue v_code_origin_type_id = 10009;</code>
        */
       io.dstore.values.IntegerValue getVCodeOriginTypeId();
       /**
@@ -2097,7 +2097,7 @@ public final class OmGetVoucherTypesAd {
        * ID der Herkunftsart zum "VoucherType". Mögliche Werte s. "om_GetVCodeOriginTypes_Ad".
        * </pre>
        *
-       * <code>optional .dstore.values.IntegerValue v_code_origin_type_id = 10009;</code>
+       * <code>.dstore.values.IntegerValue v_code_origin_type_id = 10009;</code>
        */
       io.dstore.values.IntegerValueOrBuilder getVCodeOriginTypeIdOrBuilder();
 
@@ -2106,7 +2106,7 @@ public final class OmGetVoucherTypesAd {
        * Gibt an, ob Codes zur Aktion generiert/importiert werden können bzw. noch gültig sind. Mögliche Werte :- "0" : Erstellung und Einlösung möglich- "1" : Einlösung möglich, aber keine Erstellung- "2" : KEINE Erstellung und Einlösung möglich
        * </pre>
        *
-       * <code>optional .dstore.values.IntegerValue code_status = 10010;</code>
+       * <code>.dstore.values.IntegerValue code_status = 10010;</code>
        */
       boolean hasCodeStatus();
       /**
@@ -2114,7 +2114,7 @@ public final class OmGetVoucherTypesAd {
        * Gibt an, ob Codes zur Aktion generiert/importiert werden können bzw. noch gültig sind. Mögliche Werte :- "0" : Erstellung und Einlösung möglich- "1" : Einlösung möglich, aber keine Erstellung- "2" : KEINE Erstellung und Einlösung möglich
        * </pre>
        *
-       * <code>optional .dstore.values.IntegerValue code_status = 10010;</code>
+       * <code>.dstore.values.IntegerValue code_status = 10010;</code>
        */
       io.dstore.values.IntegerValue getCodeStatus();
       /**
@@ -2122,7 +2122,7 @@ public final class OmGetVoucherTypesAd {
        * Gibt an, ob Codes zur Aktion generiert/importiert werden können bzw. noch gültig sind. Mögliche Werte :- "0" : Erstellung und Einlösung möglich- "1" : Einlösung möglich, aber keine Erstellung- "2" : KEINE Erstellung und Einlösung möglich
        * </pre>
        *
-       * <code>optional .dstore.values.IntegerValue code_status = 10010;</code>
+       * <code>.dstore.values.IntegerValue code_status = 10010;</code>
        */
       io.dstore.values.IntegerValueOrBuilder getCodeStatusOrBuilder();
 
@@ -2131,7 +2131,7 @@ public final class OmGetVoucherTypesAd {
        * Bezeichnung der Bonus-Art "BenefitTypeID".
        * </pre>
        *
-       * <code>optional .dstore.values.StringValue benefit_type_description = 10011;</code>
+       * <code>.dstore.values.StringValue benefit_type_description = 10011;</code>
        */
       boolean hasBenefitTypeDescription();
       /**
@@ -2139,7 +2139,7 @@ public final class OmGetVoucherTypesAd {
        * Bezeichnung der Bonus-Art "BenefitTypeID".
        * </pre>
        *
-       * <code>optional .dstore.values.StringValue benefit_type_description = 10011;</code>
+       * <code>.dstore.values.StringValue benefit_type_description = 10011;</code>
        */
       io.dstore.values.StringValue getBenefitTypeDescription();
       /**
@@ -2147,7 +2147,7 @@ public final class OmGetVoucherTypesAd {
        * Bezeichnung der Bonus-Art "BenefitTypeID".
        * </pre>
        *
-       * <code>optional .dstore.values.StringValue benefit_type_description = 10011;</code>
+       * <code>.dstore.values.StringValue benefit_type_description = 10011;</code>
        */
       io.dstore.values.StringValueOrBuilder getBenefitTypeDescriptionOrBuilder();
 
@@ -2156,7 +2156,7 @@ public final class OmGetVoucherTypesAd {
        * ID einer Art von Bonus, die der Kunde bei Einlösung erhält (z.B. "Bonus-Artikel"). Mögliche Werte s. "om_GetBenefitTypes_Ad".
        * </pre>
        *
-       * <code>optional .dstore.values.IntegerValue benefit_type_id = 10012;</code>
+       * <code>.dstore.values.IntegerValue benefit_type_id = 10012;</code>
        */
       boolean hasBenefitTypeId();
       /**
@@ -2164,7 +2164,7 @@ public final class OmGetVoucherTypesAd {
        * ID einer Art von Bonus, die der Kunde bei Einlösung erhält (z.B. "Bonus-Artikel"). Mögliche Werte s. "om_GetBenefitTypes_Ad".
        * </pre>
        *
-       * <code>optional .dstore.values.IntegerValue benefit_type_id = 10012;</code>
+       * <code>.dstore.values.IntegerValue benefit_type_id = 10012;</code>
        */
       io.dstore.values.IntegerValue getBenefitTypeId();
       /**
@@ -2172,7 +2172,7 @@ public final class OmGetVoucherTypesAd {
        * ID einer Art von Bonus, die der Kunde bei Einlösung erhält (z.B. "Bonus-Artikel"). Mögliche Werte s. "om_GetBenefitTypes_Ad".
        * </pre>
        *
-       * <code>optional .dstore.values.IntegerValue benefit_type_id = 10012;</code>
+       * <code>.dstore.values.IntegerValue benefit_type_id = 10012;</code>
        */
       io.dstore.values.IntegerValueOrBuilder getBenefitTypeIdOrBuilder();
 
@@ -2181,7 +2181,7 @@ public final class OmGetVoucherTypesAd {
        * Der Zeitpunkt, an dem zuletzt ein Code der Aktion generiert wurde
        * </pre>
        *
-       * <code>optional .dstore.values.TimestampValue last_code_created_at = 20010;</code>
+       * <code>.dstore.values.TimestampValue last_code_created_at = 20010;</code>
        */
       boolean hasLastCodeCreatedAt();
       /**
@@ -2189,7 +2189,7 @@ public final class OmGetVoucherTypesAd {
        * Der Zeitpunkt, an dem zuletzt ein Code der Aktion generiert wurde
        * </pre>
        *
-       * <code>optional .dstore.values.TimestampValue last_code_created_at = 20010;</code>
+       * <code>.dstore.values.TimestampValue last_code_created_at = 20010;</code>
        */
       io.dstore.values.TimestampValue getLastCodeCreatedAt();
       /**
@@ -2197,7 +2197,7 @@ public final class OmGetVoucherTypesAd {
        * Der Zeitpunkt, an dem zuletzt ein Code der Aktion generiert wurde
        * </pre>
        *
-       * <code>optional .dstore.values.TimestampValue last_code_created_at = 20010;</code>
+       * <code>.dstore.values.TimestampValue last_code_created_at = 20010;</code>
        */
       io.dstore.values.TimestampValueOrBuilder getLastCodeCreatedAtOrBuilder();
     }
@@ -2441,7 +2441,7 @@ public final class OmGetVoucherTypesAd {
       public static final int ROW_ID_FIELD_NUMBER = 10000;
       private int rowId_;
       /**
-       * <code>optional int32 row_id = 10000;</code>
+       * <code>int32 row_id = 10000;</code>
        */
       public int getRowId() {
         return rowId_;
@@ -2454,7 +2454,7 @@ public final class OmGetVoucherTypesAd {
        * Die Bezeichnung der Herkunftsart "VCodeOriginTypeID"
        * </pre>
        *
-       * <code>optional .dstore.values.StringValue v_code_origin_type = 10001;</code>
+       * <code>.dstore.values.StringValue v_code_origin_type = 10001;</code>
        */
       public boolean hasVCodeOriginType() {
         return vCodeOriginType_ != null;
@@ -2464,7 +2464,7 @@ public final class OmGetVoucherTypesAd {
        * Die Bezeichnung der Herkunftsart "VCodeOriginTypeID"
        * </pre>
        *
-       * <code>optional .dstore.values.StringValue v_code_origin_type = 10001;</code>
+       * <code>.dstore.values.StringValue v_code_origin_type = 10001;</code>
        */
       public io.dstore.values.StringValue getVCodeOriginType() {
         return vCodeOriginType_ == null ? io.dstore.values.StringValue.getDefaultInstance() : vCodeOriginType_;
@@ -2474,7 +2474,7 @@ public final class OmGetVoucherTypesAd {
        * Die Bezeichnung der Herkunftsart "VCodeOriginTypeID"
        * </pre>
        *
-       * <code>optional .dstore.values.StringValue v_code_origin_type = 10001;</code>
+       * <code>.dstore.values.StringValue v_code_origin_type = 10001;</code>
        */
       public io.dstore.values.StringValueOrBuilder getVCodeOriginTypeOrBuilder() {
         return getVCodeOriginType();
@@ -2487,7 +2487,7 @@ public final class OmGetVoucherTypesAd {
        * Zeitpunkt bis zu dem ein Code der Aktion gültig ist (egal wann er generiert wird). Kann "NULL" sein. Ist gleichzeitig "ValidForXDays" auch "NULL", muß bei Generierung eines Codes die Gültigkeitsdauer angegeben werden (s. "om_CreateVoucherCodes_Ad").
        * </pre>
        *
-       * <code>optional .dstore.values.TimestampValue default_valid_until = 10002;</code>
+       * <code>.dstore.values.TimestampValue default_valid_until = 10002;</code>
        */
       public boolean hasDefaultValidUntil() {
         return defaultValidUntil_ != null;
@@ -2497,7 +2497,7 @@ public final class OmGetVoucherTypesAd {
        * Zeitpunkt bis zu dem ein Code der Aktion gültig ist (egal wann er generiert wird). Kann "NULL" sein. Ist gleichzeitig "ValidForXDays" auch "NULL", muß bei Generierung eines Codes die Gültigkeitsdauer angegeben werden (s. "om_CreateVoucherCodes_Ad").
        * </pre>
        *
-       * <code>optional .dstore.values.TimestampValue default_valid_until = 10002;</code>
+       * <code>.dstore.values.TimestampValue default_valid_until = 10002;</code>
        */
       public io.dstore.values.TimestampValue getDefaultValidUntil() {
         return defaultValidUntil_ == null ? io.dstore.values.TimestampValue.getDefaultInstance() : defaultValidUntil_;
@@ -2507,7 +2507,7 @@ public final class OmGetVoucherTypesAd {
        * Zeitpunkt bis zu dem ein Code der Aktion gültig ist (egal wann er generiert wird). Kann "NULL" sein. Ist gleichzeitig "ValidForXDays" auch "NULL", muß bei Generierung eines Codes die Gültigkeitsdauer angegeben werden (s. "om_CreateVoucherCodes_Ad").
        * </pre>
        *
-       * <code>optional .dstore.values.TimestampValue default_valid_until = 10002;</code>
+       * <code>.dstore.values.TimestampValue default_valid_until = 10002;</code>
        */
       public io.dstore.values.TimestampValueOrBuilder getDefaultValidUntilOrBuilder() {
         return getDefaultValidUntil();
@@ -2520,7 +2520,7 @@ public final class OmGetVoucherTypesAd {
        * Das Pattern, nach welchem Codes zur Aktion erzeugt werden. Immer "NULL", wenn die Herkunftsart "Importiert" ist, ansonsten entweder eine feste Zeichenkette (d.h. es gibt genau EINEN Code) oder eine "Generierungs-Funktion" (z.B. '#randomstr(10)#').
        * </pre>
        *
-       * <code>optional .dstore.values.StringValue generation_pattern = 10003;</code>
+       * <code>.dstore.values.StringValue generation_pattern = 10003;</code>
        */
       public boolean hasGenerationPattern() {
         return generationPattern_ != null;
@@ -2530,7 +2530,7 @@ public final class OmGetVoucherTypesAd {
        * Das Pattern, nach welchem Codes zur Aktion erzeugt werden. Immer "NULL", wenn die Herkunftsart "Importiert" ist, ansonsten entweder eine feste Zeichenkette (d.h. es gibt genau EINEN Code) oder eine "Generierungs-Funktion" (z.B. '#randomstr(10)#').
        * </pre>
        *
-       * <code>optional .dstore.values.StringValue generation_pattern = 10003;</code>
+       * <code>.dstore.values.StringValue generation_pattern = 10003;</code>
        */
       public io.dstore.values.StringValue getGenerationPattern() {
         return generationPattern_ == null ? io.dstore.values.StringValue.getDefaultInstance() : generationPattern_;
@@ -2540,7 +2540,7 @@ public final class OmGetVoucherTypesAd {
        * Das Pattern, nach welchem Codes zur Aktion erzeugt werden. Immer "NULL", wenn die Herkunftsart "Importiert" ist, ansonsten entweder eine feste Zeichenkette (d.h. es gibt genau EINEN Code) oder eine "Generierungs-Funktion" (z.B. '#randomstr(10)#').
        * </pre>
        *
-       * <code>optional .dstore.values.StringValue generation_pattern = 10003;</code>
+       * <code>.dstore.values.StringValue generation_pattern = 10003;</code>
        */
       public io.dstore.values.StringValueOrBuilder getGenerationPatternOrBuilder() {
         return getGenerationPattern();
@@ -2553,7 +2553,7 @@ public final class OmGetVoucherTypesAd {
        * Anzahl Tage, die ein Code der Aktion ab dem Zeitpunkt seiner Generierung gültig sein soll. Immer "NULL" wenn "DefaultValidUntil" NICHT "NULL" ist. Das sich hieraus ergebende "Gültig bis"-Datum kann bei der Generierung eines Codes überschrieben werden.
        * </pre>
        *
-       * <code>optional .dstore.values.IntegerValue valid_for_x_days = 10004;</code>
+       * <code>.dstore.values.IntegerValue valid_for_x_days = 10004;</code>
        */
       public boolean hasValidForXDays() {
         return validForXDays_ != null;
@@ -2563,7 +2563,7 @@ public final class OmGetVoucherTypesAd {
        * Anzahl Tage, die ein Code der Aktion ab dem Zeitpunkt seiner Generierung gültig sein soll. Immer "NULL" wenn "DefaultValidUntil" NICHT "NULL" ist. Das sich hieraus ergebende "Gültig bis"-Datum kann bei der Generierung eines Codes überschrieben werden.
        * </pre>
        *
-       * <code>optional .dstore.values.IntegerValue valid_for_x_days = 10004;</code>
+       * <code>.dstore.values.IntegerValue valid_for_x_days = 10004;</code>
        */
       public io.dstore.values.IntegerValue getValidForXDays() {
         return validForXDays_ == null ? io.dstore.values.IntegerValue.getDefaultInstance() : validForXDays_;
@@ -2573,7 +2573,7 @@ public final class OmGetVoucherTypesAd {
        * Anzahl Tage, die ein Code der Aktion ab dem Zeitpunkt seiner Generierung gültig sein soll. Immer "NULL" wenn "DefaultValidUntil" NICHT "NULL" ist. Das sich hieraus ergebende "Gültig bis"-Datum kann bei der Generierung eines Codes überschrieben werden.
        * </pre>
        *
-       * <code>optional .dstore.values.IntegerValue valid_for_x_days = 10004;</code>
+       * <code>.dstore.values.IntegerValue valid_for_x_days = 10004;</code>
        */
       public io.dstore.values.IntegerValueOrBuilder getValidForXDaysOrBuilder() {
         return getValidForXDays();
@@ -2586,7 +2586,7 @@ public final class OmGetVoucherTypesAd {
        * ID einer Gutschein-Aktion
        * </pre>
        *
-       * <code>optional .dstore.values.IntegerValue voucher_type_id = 10005;</code>
+       * <code>.dstore.values.IntegerValue voucher_type_id = 10005;</code>
        */
       public boolean hasVoucherTypeId() {
         return voucherTypeId_ != null;
@@ -2596,7 +2596,7 @@ public final class OmGetVoucherTypesAd {
        * ID einer Gutschein-Aktion
        * </pre>
        *
-       * <code>optional .dstore.values.IntegerValue voucher_type_id = 10005;</code>
+       * <code>.dstore.values.IntegerValue voucher_type_id = 10005;</code>
        */
       public io.dstore.values.IntegerValue getVoucherTypeId() {
         return voucherTypeId_ == null ? io.dstore.values.IntegerValue.getDefaultInstance() : voucherTypeId_;
@@ -2606,7 +2606,7 @@ public final class OmGetVoucherTypesAd {
        * ID einer Gutschein-Aktion
        * </pre>
        *
-       * <code>optional .dstore.values.IntegerValue voucher_type_id = 10005;</code>
+       * <code>.dstore.values.IntegerValue voucher_type_id = 10005;</code>
        */
       public io.dstore.values.IntegerValueOrBuilder getVoucherTypeIdOrBuilder() {
         return getVoucherTypeId();
@@ -2619,7 +2619,7 @@ public final class OmGetVoucherTypesAd {
        * Gibt an, wie oft ein Code der Aktion von einer Person eingelöst werden kann ("NULL" bedeutet "unendlich oft"). Dieser Wert ist immer "&lt;= XTimesUsable", da ein Code nicht öfter von einer Person eingelöst werden kann als er insgesamt einlösbar ist.
        * </pre>
        *
-       * <code>optional .dstore.values.IntegerValue x_times_usable_per_person = 10006;</code>
+       * <code>.dstore.values.IntegerValue x_times_usable_per_person = 10006;</code>
        */
       public boolean hasXTimesUsablePerPerson() {
         return xTimesUsablePerPerson_ != null;
@@ -2629,7 +2629,7 @@ public final class OmGetVoucherTypesAd {
        * Gibt an, wie oft ein Code der Aktion von einer Person eingelöst werden kann ("NULL" bedeutet "unendlich oft"). Dieser Wert ist immer "&lt;= XTimesUsable", da ein Code nicht öfter von einer Person eingelöst werden kann als er insgesamt einlösbar ist.
        * </pre>
        *
-       * <code>optional .dstore.values.IntegerValue x_times_usable_per_person = 10006;</code>
+       * <code>.dstore.values.IntegerValue x_times_usable_per_person = 10006;</code>
        */
       public io.dstore.values.IntegerValue getXTimesUsablePerPerson() {
         return xTimesUsablePerPerson_ == null ? io.dstore.values.IntegerValue.getDefaultInstance() : xTimesUsablePerPerson_;
@@ -2639,7 +2639,7 @@ public final class OmGetVoucherTypesAd {
        * Gibt an, wie oft ein Code der Aktion von einer Person eingelöst werden kann ("NULL" bedeutet "unendlich oft"). Dieser Wert ist immer "&lt;= XTimesUsable", da ein Code nicht öfter von einer Person eingelöst werden kann als er insgesamt einlösbar ist.
        * </pre>
        *
-       * <code>optional .dstore.values.IntegerValue x_times_usable_per_person = 10006;</code>
+       * <code>.dstore.values.IntegerValue x_times_usable_per_person = 10006;</code>
        */
       public io.dstore.values.IntegerValueOrBuilder getXTimesUsablePerPersonOrBuilder() {
         return getXTimesUsablePerPerson();
@@ -2652,7 +2652,7 @@ public final class OmGetVoucherTypesAd {
        * Die Bezeichnung der "VoucherTypeID", also praktisch der Name der Aktion
        * </pre>
        *
-       * <code>optional .dstore.values.StringValue voucher_type_description = 10007;</code>
+       * <code>.dstore.values.StringValue voucher_type_description = 10007;</code>
        */
       public boolean hasVoucherTypeDescription() {
         return voucherTypeDescription_ != null;
@@ -2662,7 +2662,7 @@ public final class OmGetVoucherTypesAd {
        * Die Bezeichnung der "VoucherTypeID", also praktisch der Name der Aktion
        * </pre>
        *
-       * <code>optional .dstore.values.StringValue voucher_type_description = 10007;</code>
+       * <code>.dstore.values.StringValue voucher_type_description = 10007;</code>
        */
       public io.dstore.values.StringValue getVoucherTypeDescription() {
         return voucherTypeDescription_ == null ? io.dstore.values.StringValue.getDefaultInstance() : voucherTypeDescription_;
@@ -2672,7 +2672,7 @@ public final class OmGetVoucherTypesAd {
        * Die Bezeichnung der "VoucherTypeID", also praktisch der Name der Aktion
        * </pre>
        *
-       * <code>optional .dstore.values.StringValue voucher_type_description = 10007;</code>
+       * <code>.dstore.values.StringValue voucher_type_description = 10007;</code>
        */
       public io.dstore.values.StringValueOrBuilder getVoucherTypeDescriptionOrBuilder() {
         return getVoucherTypeDescription();
@@ -2685,7 +2685,7 @@ public final class OmGetVoucherTypesAd {
        * Gibt an, wie oft ein Code der Aktion generell eingelöst werden kann ("NULL" bedeutet "unendlich oft"). Diese Einstellung gilt unabhängig von "XTimesUsablePerPerson" !
        * </pre>
        *
-       * <code>optional .dstore.values.IntegerValue x_times_usable = 10008;</code>
+       * <code>.dstore.values.IntegerValue x_times_usable = 10008;</code>
        */
       public boolean hasXTimesUsable() {
         return xTimesUsable_ != null;
@@ -2695,7 +2695,7 @@ public final class OmGetVoucherTypesAd {
        * Gibt an, wie oft ein Code der Aktion generell eingelöst werden kann ("NULL" bedeutet "unendlich oft"). Diese Einstellung gilt unabhängig von "XTimesUsablePerPerson" !
        * </pre>
        *
-       * <code>optional .dstore.values.IntegerValue x_times_usable = 10008;</code>
+       * <code>.dstore.values.IntegerValue x_times_usable = 10008;</code>
        */
       public io.dstore.values.IntegerValue getXTimesUsable() {
         return xTimesUsable_ == null ? io.dstore.values.IntegerValue.getDefaultInstance() : xTimesUsable_;
@@ -2705,7 +2705,7 @@ public final class OmGetVoucherTypesAd {
        * Gibt an, wie oft ein Code der Aktion generell eingelöst werden kann ("NULL" bedeutet "unendlich oft"). Diese Einstellung gilt unabhängig von "XTimesUsablePerPerson" !
        * </pre>
        *
-       * <code>optional .dstore.values.IntegerValue x_times_usable = 10008;</code>
+       * <code>.dstore.values.IntegerValue x_times_usable = 10008;</code>
        */
       public io.dstore.values.IntegerValueOrBuilder getXTimesUsableOrBuilder() {
         return getXTimesUsable();
@@ -2718,7 +2718,7 @@ public final class OmGetVoucherTypesAd {
        * ID der Herkunftsart zum "VoucherType". Mögliche Werte s. "om_GetVCodeOriginTypes_Ad".
        * </pre>
        *
-       * <code>optional .dstore.values.IntegerValue v_code_origin_type_id = 10009;</code>
+       * <code>.dstore.values.IntegerValue v_code_origin_type_id = 10009;</code>
        */
       public boolean hasVCodeOriginTypeId() {
         return vCodeOriginTypeId_ != null;
@@ -2728,7 +2728,7 @@ public final class OmGetVoucherTypesAd {
        * ID der Herkunftsart zum "VoucherType". Mögliche Werte s. "om_GetVCodeOriginTypes_Ad".
        * </pre>
        *
-       * <code>optional .dstore.values.IntegerValue v_code_origin_type_id = 10009;</code>
+       * <code>.dstore.values.IntegerValue v_code_origin_type_id = 10009;</code>
        */
       public io.dstore.values.IntegerValue getVCodeOriginTypeId() {
         return vCodeOriginTypeId_ == null ? io.dstore.values.IntegerValue.getDefaultInstance() : vCodeOriginTypeId_;
@@ -2738,7 +2738,7 @@ public final class OmGetVoucherTypesAd {
        * ID der Herkunftsart zum "VoucherType". Mögliche Werte s. "om_GetVCodeOriginTypes_Ad".
        * </pre>
        *
-       * <code>optional .dstore.values.IntegerValue v_code_origin_type_id = 10009;</code>
+       * <code>.dstore.values.IntegerValue v_code_origin_type_id = 10009;</code>
        */
       public io.dstore.values.IntegerValueOrBuilder getVCodeOriginTypeIdOrBuilder() {
         return getVCodeOriginTypeId();
@@ -2751,7 +2751,7 @@ public final class OmGetVoucherTypesAd {
        * Gibt an, ob Codes zur Aktion generiert/importiert werden können bzw. noch gültig sind. Mögliche Werte :- "0" : Erstellung und Einlösung möglich- "1" : Einlösung möglich, aber keine Erstellung- "2" : KEINE Erstellung und Einlösung möglich
        * </pre>
        *
-       * <code>optional .dstore.values.IntegerValue code_status = 10010;</code>
+       * <code>.dstore.values.IntegerValue code_status = 10010;</code>
        */
       public boolean hasCodeStatus() {
         return codeStatus_ != null;
@@ -2761,7 +2761,7 @@ public final class OmGetVoucherTypesAd {
        * Gibt an, ob Codes zur Aktion generiert/importiert werden können bzw. noch gültig sind. Mögliche Werte :- "0" : Erstellung und Einlösung möglich- "1" : Einlösung möglich, aber keine Erstellung- "2" : KEINE Erstellung und Einlösung möglich
        * </pre>
        *
-       * <code>optional .dstore.values.IntegerValue code_status = 10010;</code>
+       * <code>.dstore.values.IntegerValue code_status = 10010;</code>
        */
       public io.dstore.values.IntegerValue getCodeStatus() {
         return codeStatus_ == null ? io.dstore.values.IntegerValue.getDefaultInstance() : codeStatus_;
@@ -2771,7 +2771,7 @@ public final class OmGetVoucherTypesAd {
        * Gibt an, ob Codes zur Aktion generiert/importiert werden können bzw. noch gültig sind. Mögliche Werte :- "0" : Erstellung und Einlösung möglich- "1" : Einlösung möglich, aber keine Erstellung- "2" : KEINE Erstellung und Einlösung möglich
        * </pre>
        *
-       * <code>optional .dstore.values.IntegerValue code_status = 10010;</code>
+       * <code>.dstore.values.IntegerValue code_status = 10010;</code>
        */
       public io.dstore.values.IntegerValueOrBuilder getCodeStatusOrBuilder() {
         return getCodeStatus();
@@ -2784,7 +2784,7 @@ public final class OmGetVoucherTypesAd {
        * Bezeichnung der Bonus-Art "BenefitTypeID".
        * </pre>
        *
-       * <code>optional .dstore.values.StringValue benefit_type_description = 10011;</code>
+       * <code>.dstore.values.StringValue benefit_type_description = 10011;</code>
        */
       public boolean hasBenefitTypeDescription() {
         return benefitTypeDescription_ != null;
@@ -2794,7 +2794,7 @@ public final class OmGetVoucherTypesAd {
        * Bezeichnung der Bonus-Art "BenefitTypeID".
        * </pre>
        *
-       * <code>optional .dstore.values.StringValue benefit_type_description = 10011;</code>
+       * <code>.dstore.values.StringValue benefit_type_description = 10011;</code>
        */
       public io.dstore.values.StringValue getBenefitTypeDescription() {
         return benefitTypeDescription_ == null ? io.dstore.values.StringValue.getDefaultInstance() : benefitTypeDescription_;
@@ -2804,7 +2804,7 @@ public final class OmGetVoucherTypesAd {
        * Bezeichnung der Bonus-Art "BenefitTypeID".
        * </pre>
        *
-       * <code>optional .dstore.values.StringValue benefit_type_description = 10011;</code>
+       * <code>.dstore.values.StringValue benefit_type_description = 10011;</code>
        */
       public io.dstore.values.StringValueOrBuilder getBenefitTypeDescriptionOrBuilder() {
         return getBenefitTypeDescription();
@@ -2817,7 +2817,7 @@ public final class OmGetVoucherTypesAd {
        * ID einer Art von Bonus, die der Kunde bei Einlösung erhält (z.B. "Bonus-Artikel"). Mögliche Werte s. "om_GetBenefitTypes_Ad".
        * </pre>
        *
-       * <code>optional .dstore.values.IntegerValue benefit_type_id = 10012;</code>
+       * <code>.dstore.values.IntegerValue benefit_type_id = 10012;</code>
        */
       public boolean hasBenefitTypeId() {
         return benefitTypeId_ != null;
@@ -2827,7 +2827,7 @@ public final class OmGetVoucherTypesAd {
        * ID einer Art von Bonus, die der Kunde bei Einlösung erhält (z.B. "Bonus-Artikel"). Mögliche Werte s. "om_GetBenefitTypes_Ad".
        * </pre>
        *
-       * <code>optional .dstore.values.IntegerValue benefit_type_id = 10012;</code>
+       * <code>.dstore.values.IntegerValue benefit_type_id = 10012;</code>
        */
       public io.dstore.values.IntegerValue getBenefitTypeId() {
         return benefitTypeId_ == null ? io.dstore.values.IntegerValue.getDefaultInstance() : benefitTypeId_;
@@ -2837,7 +2837,7 @@ public final class OmGetVoucherTypesAd {
        * ID einer Art von Bonus, die der Kunde bei Einlösung erhält (z.B. "Bonus-Artikel"). Mögliche Werte s. "om_GetBenefitTypes_Ad".
        * </pre>
        *
-       * <code>optional .dstore.values.IntegerValue benefit_type_id = 10012;</code>
+       * <code>.dstore.values.IntegerValue benefit_type_id = 10012;</code>
        */
       public io.dstore.values.IntegerValueOrBuilder getBenefitTypeIdOrBuilder() {
         return getBenefitTypeId();
@@ -2850,7 +2850,7 @@ public final class OmGetVoucherTypesAd {
        * Der Zeitpunkt, an dem zuletzt ein Code der Aktion generiert wurde
        * </pre>
        *
-       * <code>optional .dstore.values.TimestampValue last_code_created_at = 20010;</code>
+       * <code>.dstore.values.TimestampValue last_code_created_at = 20010;</code>
        */
       public boolean hasLastCodeCreatedAt() {
         return lastCodeCreatedAt_ != null;
@@ -2860,7 +2860,7 @@ public final class OmGetVoucherTypesAd {
        * Der Zeitpunkt, an dem zuletzt ein Code der Aktion generiert wurde
        * </pre>
        *
-       * <code>optional .dstore.values.TimestampValue last_code_created_at = 20010;</code>
+       * <code>.dstore.values.TimestampValue last_code_created_at = 20010;</code>
        */
       public io.dstore.values.TimestampValue getLastCodeCreatedAt() {
         return lastCodeCreatedAt_ == null ? io.dstore.values.TimestampValue.getDefaultInstance() : lastCodeCreatedAt_;
@@ -2870,7 +2870,7 @@ public final class OmGetVoucherTypesAd {
        * Der Zeitpunkt, an dem zuletzt ein Code der Aktion generiert wurde
        * </pre>
        *
-       * <code>optional .dstore.values.TimestampValue last_code_created_at = 20010;</code>
+       * <code>.dstore.values.TimestampValue last_code_created_at = 20010;</code>
        */
       public io.dstore.values.TimestampValueOrBuilder getLastCodeCreatedAtOrBuilder() {
         return getLastCodeCreatedAt();
@@ -3085,7 +3085,7 @@ public final class OmGetVoucherTypesAd {
           return memoizedHashCode;
         }
         int hash = 41;
-        hash = (19 * hash) + getDescriptorForType().hashCode();
+        hash = (19 * hash) + getDescriptor().hashCode();
         hash = (37 * hash) + ROW_ID_FIELD_NUMBER;
         hash = (53 * hash) + getRowId();
         if (hasVCodeOriginType()) {
@@ -3537,13 +3537,13 @@ public final class OmGetVoucherTypesAd {
 
         private int rowId_ ;
         /**
-         * <code>optional int32 row_id = 10000;</code>
+         * <code>int32 row_id = 10000;</code>
          */
         public int getRowId() {
           return rowId_;
         }
         /**
-         * <code>optional int32 row_id = 10000;</code>
+         * <code>int32 row_id = 10000;</code>
          */
         public Builder setRowId(int value) {
           
@@ -3552,7 +3552,7 @@ public final class OmGetVoucherTypesAd {
           return this;
         }
         /**
-         * <code>optional int32 row_id = 10000;</code>
+         * <code>int32 row_id = 10000;</code>
          */
         public Builder clearRowId() {
           
@@ -3569,7 +3569,7 @@ public final class OmGetVoucherTypesAd {
          * Die Bezeichnung der Herkunftsart "VCodeOriginTypeID"
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue v_code_origin_type = 10001;</code>
+         * <code>.dstore.values.StringValue v_code_origin_type = 10001;</code>
          */
         public boolean hasVCodeOriginType() {
           return vCodeOriginTypeBuilder_ != null || vCodeOriginType_ != null;
@@ -3579,7 +3579,7 @@ public final class OmGetVoucherTypesAd {
          * Die Bezeichnung der Herkunftsart "VCodeOriginTypeID"
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue v_code_origin_type = 10001;</code>
+         * <code>.dstore.values.StringValue v_code_origin_type = 10001;</code>
          */
         public io.dstore.values.StringValue getVCodeOriginType() {
           if (vCodeOriginTypeBuilder_ == null) {
@@ -3593,7 +3593,7 @@ public final class OmGetVoucherTypesAd {
          * Die Bezeichnung der Herkunftsart "VCodeOriginTypeID"
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue v_code_origin_type = 10001;</code>
+         * <code>.dstore.values.StringValue v_code_origin_type = 10001;</code>
          */
         public Builder setVCodeOriginType(io.dstore.values.StringValue value) {
           if (vCodeOriginTypeBuilder_ == null) {
@@ -3613,7 +3613,7 @@ public final class OmGetVoucherTypesAd {
          * Die Bezeichnung der Herkunftsart "VCodeOriginTypeID"
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue v_code_origin_type = 10001;</code>
+         * <code>.dstore.values.StringValue v_code_origin_type = 10001;</code>
          */
         public Builder setVCodeOriginType(
             io.dstore.values.StringValue.Builder builderForValue) {
@@ -3631,7 +3631,7 @@ public final class OmGetVoucherTypesAd {
          * Die Bezeichnung der Herkunftsart "VCodeOriginTypeID"
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue v_code_origin_type = 10001;</code>
+         * <code>.dstore.values.StringValue v_code_origin_type = 10001;</code>
          */
         public Builder mergeVCodeOriginType(io.dstore.values.StringValue value) {
           if (vCodeOriginTypeBuilder_ == null) {
@@ -3653,7 +3653,7 @@ public final class OmGetVoucherTypesAd {
          * Die Bezeichnung der Herkunftsart "VCodeOriginTypeID"
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue v_code_origin_type = 10001;</code>
+         * <code>.dstore.values.StringValue v_code_origin_type = 10001;</code>
          */
         public Builder clearVCodeOriginType() {
           if (vCodeOriginTypeBuilder_ == null) {
@@ -3671,7 +3671,7 @@ public final class OmGetVoucherTypesAd {
          * Die Bezeichnung der Herkunftsart "VCodeOriginTypeID"
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue v_code_origin_type = 10001;</code>
+         * <code>.dstore.values.StringValue v_code_origin_type = 10001;</code>
          */
         public io.dstore.values.StringValue.Builder getVCodeOriginTypeBuilder() {
           
@@ -3683,7 +3683,7 @@ public final class OmGetVoucherTypesAd {
          * Die Bezeichnung der Herkunftsart "VCodeOriginTypeID"
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue v_code_origin_type = 10001;</code>
+         * <code>.dstore.values.StringValue v_code_origin_type = 10001;</code>
          */
         public io.dstore.values.StringValueOrBuilder getVCodeOriginTypeOrBuilder() {
           if (vCodeOriginTypeBuilder_ != null) {
@@ -3698,7 +3698,7 @@ public final class OmGetVoucherTypesAd {
          * Die Bezeichnung der Herkunftsart "VCodeOriginTypeID"
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue v_code_origin_type = 10001;</code>
+         * <code>.dstore.values.StringValue v_code_origin_type = 10001;</code>
          */
         private com.google.protobuf.SingleFieldBuilderV3<
             io.dstore.values.StringValue, io.dstore.values.StringValue.Builder, io.dstore.values.StringValueOrBuilder> 
@@ -3722,7 +3722,7 @@ public final class OmGetVoucherTypesAd {
          * Zeitpunkt bis zu dem ein Code der Aktion gültig ist (egal wann er generiert wird). Kann "NULL" sein. Ist gleichzeitig "ValidForXDays" auch "NULL", muß bei Generierung eines Codes die Gültigkeitsdauer angegeben werden (s. "om_CreateVoucherCodes_Ad").
          * </pre>
          *
-         * <code>optional .dstore.values.TimestampValue default_valid_until = 10002;</code>
+         * <code>.dstore.values.TimestampValue default_valid_until = 10002;</code>
          */
         public boolean hasDefaultValidUntil() {
           return defaultValidUntilBuilder_ != null || defaultValidUntil_ != null;
@@ -3732,7 +3732,7 @@ public final class OmGetVoucherTypesAd {
          * Zeitpunkt bis zu dem ein Code der Aktion gültig ist (egal wann er generiert wird). Kann "NULL" sein. Ist gleichzeitig "ValidForXDays" auch "NULL", muß bei Generierung eines Codes die Gültigkeitsdauer angegeben werden (s. "om_CreateVoucherCodes_Ad").
          * </pre>
          *
-         * <code>optional .dstore.values.TimestampValue default_valid_until = 10002;</code>
+         * <code>.dstore.values.TimestampValue default_valid_until = 10002;</code>
          */
         public io.dstore.values.TimestampValue getDefaultValidUntil() {
           if (defaultValidUntilBuilder_ == null) {
@@ -3746,7 +3746,7 @@ public final class OmGetVoucherTypesAd {
          * Zeitpunkt bis zu dem ein Code der Aktion gültig ist (egal wann er generiert wird). Kann "NULL" sein. Ist gleichzeitig "ValidForXDays" auch "NULL", muß bei Generierung eines Codes die Gültigkeitsdauer angegeben werden (s. "om_CreateVoucherCodes_Ad").
          * </pre>
          *
-         * <code>optional .dstore.values.TimestampValue default_valid_until = 10002;</code>
+         * <code>.dstore.values.TimestampValue default_valid_until = 10002;</code>
          */
         public Builder setDefaultValidUntil(io.dstore.values.TimestampValue value) {
           if (defaultValidUntilBuilder_ == null) {
@@ -3766,7 +3766,7 @@ public final class OmGetVoucherTypesAd {
          * Zeitpunkt bis zu dem ein Code der Aktion gültig ist (egal wann er generiert wird). Kann "NULL" sein. Ist gleichzeitig "ValidForXDays" auch "NULL", muß bei Generierung eines Codes die Gültigkeitsdauer angegeben werden (s. "om_CreateVoucherCodes_Ad").
          * </pre>
          *
-         * <code>optional .dstore.values.TimestampValue default_valid_until = 10002;</code>
+         * <code>.dstore.values.TimestampValue default_valid_until = 10002;</code>
          */
         public Builder setDefaultValidUntil(
             io.dstore.values.TimestampValue.Builder builderForValue) {
@@ -3784,7 +3784,7 @@ public final class OmGetVoucherTypesAd {
          * Zeitpunkt bis zu dem ein Code der Aktion gültig ist (egal wann er generiert wird). Kann "NULL" sein. Ist gleichzeitig "ValidForXDays" auch "NULL", muß bei Generierung eines Codes die Gültigkeitsdauer angegeben werden (s. "om_CreateVoucherCodes_Ad").
          * </pre>
          *
-         * <code>optional .dstore.values.TimestampValue default_valid_until = 10002;</code>
+         * <code>.dstore.values.TimestampValue default_valid_until = 10002;</code>
          */
         public Builder mergeDefaultValidUntil(io.dstore.values.TimestampValue value) {
           if (defaultValidUntilBuilder_ == null) {
@@ -3806,7 +3806,7 @@ public final class OmGetVoucherTypesAd {
          * Zeitpunkt bis zu dem ein Code der Aktion gültig ist (egal wann er generiert wird). Kann "NULL" sein. Ist gleichzeitig "ValidForXDays" auch "NULL", muß bei Generierung eines Codes die Gültigkeitsdauer angegeben werden (s. "om_CreateVoucherCodes_Ad").
          * </pre>
          *
-         * <code>optional .dstore.values.TimestampValue default_valid_until = 10002;</code>
+         * <code>.dstore.values.TimestampValue default_valid_until = 10002;</code>
          */
         public Builder clearDefaultValidUntil() {
           if (defaultValidUntilBuilder_ == null) {
@@ -3824,7 +3824,7 @@ public final class OmGetVoucherTypesAd {
          * Zeitpunkt bis zu dem ein Code der Aktion gültig ist (egal wann er generiert wird). Kann "NULL" sein. Ist gleichzeitig "ValidForXDays" auch "NULL", muß bei Generierung eines Codes die Gültigkeitsdauer angegeben werden (s. "om_CreateVoucherCodes_Ad").
          * </pre>
          *
-         * <code>optional .dstore.values.TimestampValue default_valid_until = 10002;</code>
+         * <code>.dstore.values.TimestampValue default_valid_until = 10002;</code>
          */
         public io.dstore.values.TimestampValue.Builder getDefaultValidUntilBuilder() {
           
@@ -3836,7 +3836,7 @@ public final class OmGetVoucherTypesAd {
          * Zeitpunkt bis zu dem ein Code der Aktion gültig ist (egal wann er generiert wird). Kann "NULL" sein. Ist gleichzeitig "ValidForXDays" auch "NULL", muß bei Generierung eines Codes die Gültigkeitsdauer angegeben werden (s. "om_CreateVoucherCodes_Ad").
          * </pre>
          *
-         * <code>optional .dstore.values.TimestampValue default_valid_until = 10002;</code>
+         * <code>.dstore.values.TimestampValue default_valid_until = 10002;</code>
          */
         public io.dstore.values.TimestampValueOrBuilder getDefaultValidUntilOrBuilder() {
           if (defaultValidUntilBuilder_ != null) {
@@ -3851,7 +3851,7 @@ public final class OmGetVoucherTypesAd {
          * Zeitpunkt bis zu dem ein Code der Aktion gültig ist (egal wann er generiert wird). Kann "NULL" sein. Ist gleichzeitig "ValidForXDays" auch "NULL", muß bei Generierung eines Codes die Gültigkeitsdauer angegeben werden (s. "om_CreateVoucherCodes_Ad").
          * </pre>
          *
-         * <code>optional .dstore.values.TimestampValue default_valid_until = 10002;</code>
+         * <code>.dstore.values.TimestampValue default_valid_until = 10002;</code>
          */
         private com.google.protobuf.SingleFieldBuilderV3<
             io.dstore.values.TimestampValue, io.dstore.values.TimestampValue.Builder, io.dstore.values.TimestampValueOrBuilder> 
@@ -3875,7 +3875,7 @@ public final class OmGetVoucherTypesAd {
          * Das Pattern, nach welchem Codes zur Aktion erzeugt werden. Immer "NULL", wenn die Herkunftsart "Importiert" ist, ansonsten entweder eine feste Zeichenkette (d.h. es gibt genau EINEN Code) oder eine "Generierungs-Funktion" (z.B. '#randomstr(10)#').
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue generation_pattern = 10003;</code>
+         * <code>.dstore.values.StringValue generation_pattern = 10003;</code>
          */
         public boolean hasGenerationPattern() {
           return generationPatternBuilder_ != null || generationPattern_ != null;
@@ -3885,7 +3885,7 @@ public final class OmGetVoucherTypesAd {
          * Das Pattern, nach welchem Codes zur Aktion erzeugt werden. Immer "NULL", wenn die Herkunftsart "Importiert" ist, ansonsten entweder eine feste Zeichenkette (d.h. es gibt genau EINEN Code) oder eine "Generierungs-Funktion" (z.B. '#randomstr(10)#').
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue generation_pattern = 10003;</code>
+         * <code>.dstore.values.StringValue generation_pattern = 10003;</code>
          */
         public io.dstore.values.StringValue getGenerationPattern() {
           if (generationPatternBuilder_ == null) {
@@ -3899,7 +3899,7 @@ public final class OmGetVoucherTypesAd {
          * Das Pattern, nach welchem Codes zur Aktion erzeugt werden. Immer "NULL", wenn die Herkunftsart "Importiert" ist, ansonsten entweder eine feste Zeichenkette (d.h. es gibt genau EINEN Code) oder eine "Generierungs-Funktion" (z.B. '#randomstr(10)#').
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue generation_pattern = 10003;</code>
+         * <code>.dstore.values.StringValue generation_pattern = 10003;</code>
          */
         public Builder setGenerationPattern(io.dstore.values.StringValue value) {
           if (generationPatternBuilder_ == null) {
@@ -3919,7 +3919,7 @@ public final class OmGetVoucherTypesAd {
          * Das Pattern, nach welchem Codes zur Aktion erzeugt werden. Immer "NULL", wenn die Herkunftsart "Importiert" ist, ansonsten entweder eine feste Zeichenkette (d.h. es gibt genau EINEN Code) oder eine "Generierungs-Funktion" (z.B. '#randomstr(10)#').
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue generation_pattern = 10003;</code>
+         * <code>.dstore.values.StringValue generation_pattern = 10003;</code>
          */
         public Builder setGenerationPattern(
             io.dstore.values.StringValue.Builder builderForValue) {
@@ -3937,7 +3937,7 @@ public final class OmGetVoucherTypesAd {
          * Das Pattern, nach welchem Codes zur Aktion erzeugt werden. Immer "NULL", wenn die Herkunftsart "Importiert" ist, ansonsten entweder eine feste Zeichenkette (d.h. es gibt genau EINEN Code) oder eine "Generierungs-Funktion" (z.B. '#randomstr(10)#').
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue generation_pattern = 10003;</code>
+         * <code>.dstore.values.StringValue generation_pattern = 10003;</code>
          */
         public Builder mergeGenerationPattern(io.dstore.values.StringValue value) {
           if (generationPatternBuilder_ == null) {
@@ -3959,7 +3959,7 @@ public final class OmGetVoucherTypesAd {
          * Das Pattern, nach welchem Codes zur Aktion erzeugt werden. Immer "NULL", wenn die Herkunftsart "Importiert" ist, ansonsten entweder eine feste Zeichenkette (d.h. es gibt genau EINEN Code) oder eine "Generierungs-Funktion" (z.B. '#randomstr(10)#').
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue generation_pattern = 10003;</code>
+         * <code>.dstore.values.StringValue generation_pattern = 10003;</code>
          */
         public Builder clearGenerationPattern() {
           if (generationPatternBuilder_ == null) {
@@ -3977,7 +3977,7 @@ public final class OmGetVoucherTypesAd {
          * Das Pattern, nach welchem Codes zur Aktion erzeugt werden. Immer "NULL", wenn die Herkunftsart "Importiert" ist, ansonsten entweder eine feste Zeichenkette (d.h. es gibt genau EINEN Code) oder eine "Generierungs-Funktion" (z.B. '#randomstr(10)#').
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue generation_pattern = 10003;</code>
+         * <code>.dstore.values.StringValue generation_pattern = 10003;</code>
          */
         public io.dstore.values.StringValue.Builder getGenerationPatternBuilder() {
           
@@ -3989,7 +3989,7 @@ public final class OmGetVoucherTypesAd {
          * Das Pattern, nach welchem Codes zur Aktion erzeugt werden. Immer "NULL", wenn die Herkunftsart "Importiert" ist, ansonsten entweder eine feste Zeichenkette (d.h. es gibt genau EINEN Code) oder eine "Generierungs-Funktion" (z.B. '#randomstr(10)#').
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue generation_pattern = 10003;</code>
+         * <code>.dstore.values.StringValue generation_pattern = 10003;</code>
          */
         public io.dstore.values.StringValueOrBuilder getGenerationPatternOrBuilder() {
           if (generationPatternBuilder_ != null) {
@@ -4004,7 +4004,7 @@ public final class OmGetVoucherTypesAd {
          * Das Pattern, nach welchem Codes zur Aktion erzeugt werden. Immer "NULL", wenn die Herkunftsart "Importiert" ist, ansonsten entweder eine feste Zeichenkette (d.h. es gibt genau EINEN Code) oder eine "Generierungs-Funktion" (z.B. '#randomstr(10)#').
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue generation_pattern = 10003;</code>
+         * <code>.dstore.values.StringValue generation_pattern = 10003;</code>
          */
         private com.google.protobuf.SingleFieldBuilderV3<
             io.dstore.values.StringValue, io.dstore.values.StringValue.Builder, io.dstore.values.StringValueOrBuilder> 
@@ -4028,7 +4028,7 @@ public final class OmGetVoucherTypesAd {
          * Anzahl Tage, die ein Code der Aktion ab dem Zeitpunkt seiner Generierung gültig sein soll. Immer "NULL" wenn "DefaultValidUntil" NICHT "NULL" ist. Das sich hieraus ergebende "Gültig bis"-Datum kann bei der Generierung eines Codes überschrieben werden.
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue valid_for_x_days = 10004;</code>
+         * <code>.dstore.values.IntegerValue valid_for_x_days = 10004;</code>
          */
         public boolean hasValidForXDays() {
           return validForXDaysBuilder_ != null || validForXDays_ != null;
@@ -4038,7 +4038,7 @@ public final class OmGetVoucherTypesAd {
          * Anzahl Tage, die ein Code der Aktion ab dem Zeitpunkt seiner Generierung gültig sein soll. Immer "NULL" wenn "DefaultValidUntil" NICHT "NULL" ist. Das sich hieraus ergebende "Gültig bis"-Datum kann bei der Generierung eines Codes überschrieben werden.
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue valid_for_x_days = 10004;</code>
+         * <code>.dstore.values.IntegerValue valid_for_x_days = 10004;</code>
          */
         public io.dstore.values.IntegerValue getValidForXDays() {
           if (validForXDaysBuilder_ == null) {
@@ -4052,7 +4052,7 @@ public final class OmGetVoucherTypesAd {
          * Anzahl Tage, die ein Code der Aktion ab dem Zeitpunkt seiner Generierung gültig sein soll. Immer "NULL" wenn "DefaultValidUntil" NICHT "NULL" ist. Das sich hieraus ergebende "Gültig bis"-Datum kann bei der Generierung eines Codes überschrieben werden.
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue valid_for_x_days = 10004;</code>
+         * <code>.dstore.values.IntegerValue valid_for_x_days = 10004;</code>
          */
         public Builder setValidForXDays(io.dstore.values.IntegerValue value) {
           if (validForXDaysBuilder_ == null) {
@@ -4072,7 +4072,7 @@ public final class OmGetVoucherTypesAd {
          * Anzahl Tage, die ein Code der Aktion ab dem Zeitpunkt seiner Generierung gültig sein soll. Immer "NULL" wenn "DefaultValidUntil" NICHT "NULL" ist. Das sich hieraus ergebende "Gültig bis"-Datum kann bei der Generierung eines Codes überschrieben werden.
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue valid_for_x_days = 10004;</code>
+         * <code>.dstore.values.IntegerValue valid_for_x_days = 10004;</code>
          */
         public Builder setValidForXDays(
             io.dstore.values.IntegerValue.Builder builderForValue) {
@@ -4090,7 +4090,7 @@ public final class OmGetVoucherTypesAd {
          * Anzahl Tage, die ein Code der Aktion ab dem Zeitpunkt seiner Generierung gültig sein soll. Immer "NULL" wenn "DefaultValidUntil" NICHT "NULL" ist. Das sich hieraus ergebende "Gültig bis"-Datum kann bei der Generierung eines Codes überschrieben werden.
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue valid_for_x_days = 10004;</code>
+         * <code>.dstore.values.IntegerValue valid_for_x_days = 10004;</code>
          */
         public Builder mergeValidForXDays(io.dstore.values.IntegerValue value) {
           if (validForXDaysBuilder_ == null) {
@@ -4112,7 +4112,7 @@ public final class OmGetVoucherTypesAd {
          * Anzahl Tage, die ein Code der Aktion ab dem Zeitpunkt seiner Generierung gültig sein soll. Immer "NULL" wenn "DefaultValidUntil" NICHT "NULL" ist. Das sich hieraus ergebende "Gültig bis"-Datum kann bei der Generierung eines Codes überschrieben werden.
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue valid_for_x_days = 10004;</code>
+         * <code>.dstore.values.IntegerValue valid_for_x_days = 10004;</code>
          */
         public Builder clearValidForXDays() {
           if (validForXDaysBuilder_ == null) {
@@ -4130,7 +4130,7 @@ public final class OmGetVoucherTypesAd {
          * Anzahl Tage, die ein Code der Aktion ab dem Zeitpunkt seiner Generierung gültig sein soll. Immer "NULL" wenn "DefaultValidUntil" NICHT "NULL" ist. Das sich hieraus ergebende "Gültig bis"-Datum kann bei der Generierung eines Codes überschrieben werden.
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue valid_for_x_days = 10004;</code>
+         * <code>.dstore.values.IntegerValue valid_for_x_days = 10004;</code>
          */
         public io.dstore.values.IntegerValue.Builder getValidForXDaysBuilder() {
           
@@ -4142,7 +4142,7 @@ public final class OmGetVoucherTypesAd {
          * Anzahl Tage, die ein Code der Aktion ab dem Zeitpunkt seiner Generierung gültig sein soll. Immer "NULL" wenn "DefaultValidUntil" NICHT "NULL" ist. Das sich hieraus ergebende "Gültig bis"-Datum kann bei der Generierung eines Codes überschrieben werden.
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue valid_for_x_days = 10004;</code>
+         * <code>.dstore.values.IntegerValue valid_for_x_days = 10004;</code>
          */
         public io.dstore.values.IntegerValueOrBuilder getValidForXDaysOrBuilder() {
           if (validForXDaysBuilder_ != null) {
@@ -4157,7 +4157,7 @@ public final class OmGetVoucherTypesAd {
          * Anzahl Tage, die ein Code der Aktion ab dem Zeitpunkt seiner Generierung gültig sein soll. Immer "NULL" wenn "DefaultValidUntil" NICHT "NULL" ist. Das sich hieraus ergebende "Gültig bis"-Datum kann bei der Generierung eines Codes überschrieben werden.
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue valid_for_x_days = 10004;</code>
+         * <code>.dstore.values.IntegerValue valid_for_x_days = 10004;</code>
          */
         private com.google.protobuf.SingleFieldBuilderV3<
             io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> 
@@ -4181,7 +4181,7 @@ public final class OmGetVoucherTypesAd {
          * ID einer Gutschein-Aktion
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue voucher_type_id = 10005;</code>
+         * <code>.dstore.values.IntegerValue voucher_type_id = 10005;</code>
          */
         public boolean hasVoucherTypeId() {
           return voucherTypeIdBuilder_ != null || voucherTypeId_ != null;
@@ -4191,7 +4191,7 @@ public final class OmGetVoucherTypesAd {
          * ID einer Gutschein-Aktion
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue voucher_type_id = 10005;</code>
+         * <code>.dstore.values.IntegerValue voucher_type_id = 10005;</code>
          */
         public io.dstore.values.IntegerValue getVoucherTypeId() {
           if (voucherTypeIdBuilder_ == null) {
@@ -4205,7 +4205,7 @@ public final class OmGetVoucherTypesAd {
          * ID einer Gutschein-Aktion
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue voucher_type_id = 10005;</code>
+         * <code>.dstore.values.IntegerValue voucher_type_id = 10005;</code>
          */
         public Builder setVoucherTypeId(io.dstore.values.IntegerValue value) {
           if (voucherTypeIdBuilder_ == null) {
@@ -4225,7 +4225,7 @@ public final class OmGetVoucherTypesAd {
          * ID einer Gutschein-Aktion
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue voucher_type_id = 10005;</code>
+         * <code>.dstore.values.IntegerValue voucher_type_id = 10005;</code>
          */
         public Builder setVoucherTypeId(
             io.dstore.values.IntegerValue.Builder builderForValue) {
@@ -4243,7 +4243,7 @@ public final class OmGetVoucherTypesAd {
          * ID einer Gutschein-Aktion
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue voucher_type_id = 10005;</code>
+         * <code>.dstore.values.IntegerValue voucher_type_id = 10005;</code>
          */
         public Builder mergeVoucherTypeId(io.dstore.values.IntegerValue value) {
           if (voucherTypeIdBuilder_ == null) {
@@ -4265,7 +4265,7 @@ public final class OmGetVoucherTypesAd {
          * ID einer Gutschein-Aktion
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue voucher_type_id = 10005;</code>
+         * <code>.dstore.values.IntegerValue voucher_type_id = 10005;</code>
          */
         public Builder clearVoucherTypeId() {
           if (voucherTypeIdBuilder_ == null) {
@@ -4283,7 +4283,7 @@ public final class OmGetVoucherTypesAd {
          * ID einer Gutschein-Aktion
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue voucher_type_id = 10005;</code>
+         * <code>.dstore.values.IntegerValue voucher_type_id = 10005;</code>
          */
         public io.dstore.values.IntegerValue.Builder getVoucherTypeIdBuilder() {
           
@@ -4295,7 +4295,7 @@ public final class OmGetVoucherTypesAd {
          * ID einer Gutschein-Aktion
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue voucher_type_id = 10005;</code>
+         * <code>.dstore.values.IntegerValue voucher_type_id = 10005;</code>
          */
         public io.dstore.values.IntegerValueOrBuilder getVoucherTypeIdOrBuilder() {
           if (voucherTypeIdBuilder_ != null) {
@@ -4310,7 +4310,7 @@ public final class OmGetVoucherTypesAd {
          * ID einer Gutschein-Aktion
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue voucher_type_id = 10005;</code>
+         * <code>.dstore.values.IntegerValue voucher_type_id = 10005;</code>
          */
         private com.google.protobuf.SingleFieldBuilderV3<
             io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> 
@@ -4334,7 +4334,7 @@ public final class OmGetVoucherTypesAd {
          * Gibt an, wie oft ein Code der Aktion von einer Person eingelöst werden kann ("NULL" bedeutet "unendlich oft"). Dieser Wert ist immer "&lt;= XTimesUsable", da ein Code nicht öfter von einer Person eingelöst werden kann als er insgesamt einlösbar ist.
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue x_times_usable_per_person = 10006;</code>
+         * <code>.dstore.values.IntegerValue x_times_usable_per_person = 10006;</code>
          */
         public boolean hasXTimesUsablePerPerson() {
           return xTimesUsablePerPersonBuilder_ != null || xTimesUsablePerPerson_ != null;
@@ -4344,7 +4344,7 @@ public final class OmGetVoucherTypesAd {
          * Gibt an, wie oft ein Code der Aktion von einer Person eingelöst werden kann ("NULL" bedeutet "unendlich oft"). Dieser Wert ist immer "&lt;= XTimesUsable", da ein Code nicht öfter von einer Person eingelöst werden kann als er insgesamt einlösbar ist.
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue x_times_usable_per_person = 10006;</code>
+         * <code>.dstore.values.IntegerValue x_times_usable_per_person = 10006;</code>
          */
         public io.dstore.values.IntegerValue getXTimesUsablePerPerson() {
           if (xTimesUsablePerPersonBuilder_ == null) {
@@ -4358,7 +4358,7 @@ public final class OmGetVoucherTypesAd {
          * Gibt an, wie oft ein Code der Aktion von einer Person eingelöst werden kann ("NULL" bedeutet "unendlich oft"). Dieser Wert ist immer "&lt;= XTimesUsable", da ein Code nicht öfter von einer Person eingelöst werden kann als er insgesamt einlösbar ist.
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue x_times_usable_per_person = 10006;</code>
+         * <code>.dstore.values.IntegerValue x_times_usable_per_person = 10006;</code>
          */
         public Builder setXTimesUsablePerPerson(io.dstore.values.IntegerValue value) {
           if (xTimesUsablePerPersonBuilder_ == null) {
@@ -4378,7 +4378,7 @@ public final class OmGetVoucherTypesAd {
          * Gibt an, wie oft ein Code der Aktion von einer Person eingelöst werden kann ("NULL" bedeutet "unendlich oft"). Dieser Wert ist immer "&lt;= XTimesUsable", da ein Code nicht öfter von einer Person eingelöst werden kann als er insgesamt einlösbar ist.
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue x_times_usable_per_person = 10006;</code>
+         * <code>.dstore.values.IntegerValue x_times_usable_per_person = 10006;</code>
          */
         public Builder setXTimesUsablePerPerson(
             io.dstore.values.IntegerValue.Builder builderForValue) {
@@ -4396,7 +4396,7 @@ public final class OmGetVoucherTypesAd {
          * Gibt an, wie oft ein Code der Aktion von einer Person eingelöst werden kann ("NULL" bedeutet "unendlich oft"). Dieser Wert ist immer "&lt;= XTimesUsable", da ein Code nicht öfter von einer Person eingelöst werden kann als er insgesamt einlösbar ist.
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue x_times_usable_per_person = 10006;</code>
+         * <code>.dstore.values.IntegerValue x_times_usable_per_person = 10006;</code>
          */
         public Builder mergeXTimesUsablePerPerson(io.dstore.values.IntegerValue value) {
           if (xTimesUsablePerPersonBuilder_ == null) {
@@ -4418,7 +4418,7 @@ public final class OmGetVoucherTypesAd {
          * Gibt an, wie oft ein Code der Aktion von einer Person eingelöst werden kann ("NULL" bedeutet "unendlich oft"). Dieser Wert ist immer "&lt;= XTimesUsable", da ein Code nicht öfter von einer Person eingelöst werden kann als er insgesamt einlösbar ist.
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue x_times_usable_per_person = 10006;</code>
+         * <code>.dstore.values.IntegerValue x_times_usable_per_person = 10006;</code>
          */
         public Builder clearXTimesUsablePerPerson() {
           if (xTimesUsablePerPersonBuilder_ == null) {
@@ -4436,7 +4436,7 @@ public final class OmGetVoucherTypesAd {
          * Gibt an, wie oft ein Code der Aktion von einer Person eingelöst werden kann ("NULL" bedeutet "unendlich oft"). Dieser Wert ist immer "&lt;= XTimesUsable", da ein Code nicht öfter von einer Person eingelöst werden kann als er insgesamt einlösbar ist.
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue x_times_usable_per_person = 10006;</code>
+         * <code>.dstore.values.IntegerValue x_times_usable_per_person = 10006;</code>
          */
         public io.dstore.values.IntegerValue.Builder getXTimesUsablePerPersonBuilder() {
           
@@ -4448,7 +4448,7 @@ public final class OmGetVoucherTypesAd {
          * Gibt an, wie oft ein Code der Aktion von einer Person eingelöst werden kann ("NULL" bedeutet "unendlich oft"). Dieser Wert ist immer "&lt;= XTimesUsable", da ein Code nicht öfter von einer Person eingelöst werden kann als er insgesamt einlösbar ist.
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue x_times_usable_per_person = 10006;</code>
+         * <code>.dstore.values.IntegerValue x_times_usable_per_person = 10006;</code>
          */
         public io.dstore.values.IntegerValueOrBuilder getXTimesUsablePerPersonOrBuilder() {
           if (xTimesUsablePerPersonBuilder_ != null) {
@@ -4463,7 +4463,7 @@ public final class OmGetVoucherTypesAd {
          * Gibt an, wie oft ein Code der Aktion von einer Person eingelöst werden kann ("NULL" bedeutet "unendlich oft"). Dieser Wert ist immer "&lt;= XTimesUsable", da ein Code nicht öfter von einer Person eingelöst werden kann als er insgesamt einlösbar ist.
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue x_times_usable_per_person = 10006;</code>
+         * <code>.dstore.values.IntegerValue x_times_usable_per_person = 10006;</code>
          */
         private com.google.protobuf.SingleFieldBuilderV3<
             io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> 
@@ -4487,7 +4487,7 @@ public final class OmGetVoucherTypesAd {
          * Die Bezeichnung der "VoucherTypeID", also praktisch der Name der Aktion
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue voucher_type_description = 10007;</code>
+         * <code>.dstore.values.StringValue voucher_type_description = 10007;</code>
          */
         public boolean hasVoucherTypeDescription() {
           return voucherTypeDescriptionBuilder_ != null || voucherTypeDescription_ != null;
@@ -4497,7 +4497,7 @@ public final class OmGetVoucherTypesAd {
          * Die Bezeichnung der "VoucherTypeID", also praktisch der Name der Aktion
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue voucher_type_description = 10007;</code>
+         * <code>.dstore.values.StringValue voucher_type_description = 10007;</code>
          */
         public io.dstore.values.StringValue getVoucherTypeDescription() {
           if (voucherTypeDescriptionBuilder_ == null) {
@@ -4511,7 +4511,7 @@ public final class OmGetVoucherTypesAd {
          * Die Bezeichnung der "VoucherTypeID", also praktisch der Name der Aktion
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue voucher_type_description = 10007;</code>
+         * <code>.dstore.values.StringValue voucher_type_description = 10007;</code>
          */
         public Builder setVoucherTypeDescription(io.dstore.values.StringValue value) {
           if (voucherTypeDescriptionBuilder_ == null) {
@@ -4531,7 +4531,7 @@ public final class OmGetVoucherTypesAd {
          * Die Bezeichnung der "VoucherTypeID", also praktisch der Name der Aktion
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue voucher_type_description = 10007;</code>
+         * <code>.dstore.values.StringValue voucher_type_description = 10007;</code>
          */
         public Builder setVoucherTypeDescription(
             io.dstore.values.StringValue.Builder builderForValue) {
@@ -4549,7 +4549,7 @@ public final class OmGetVoucherTypesAd {
          * Die Bezeichnung der "VoucherTypeID", also praktisch der Name der Aktion
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue voucher_type_description = 10007;</code>
+         * <code>.dstore.values.StringValue voucher_type_description = 10007;</code>
          */
         public Builder mergeVoucherTypeDescription(io.dstore.values.StringValue value) {
           if (voucherTypeDescriptionBuilder_ == null) {
@@ -4571,7 +4571,7 @@ public final class OmGetVoucherTypesAd {
          * Die Bezeichnung der "VoucherTypeID", also praktisch der Name der Aktion
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue voucher_type_description = 10007;</code>
+         * <code>.dstore.values.StringValue voucher_type_description = 10007;</code>
          */
         public Builder clearVoucherTypeDescription() {
           if (voucherTypeDescriptionBuilder_ == null) {
@@ -4589,7 +4589,7 @@ public final class OmGetVoucherTypesAd {
          * Die Bezeichnung der "VoucherTypeID", also praktisch der Name der Aktion
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue voucher_type_description = 10007;</code>
+         * <code>.dstore.values.StringValue voucher_type_description = 10007;</code>
          */
         public io.dstore.values.StringValue.Builder getVoucherTypeDescriptionBuilder() {
           
@@ -4601,7 +4601,7 @@ public final class OmGetVoucherTypesAd {
          * Die Bezeichnung der "VoucherTypeID", also praktisch der Name der Aktion
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue voucher_type_description = 10007;</code>
+         * <code>.dstore.values.StringValue voucher_type_description = 10007;</code>
          */
         public io.dstore.values.StringValueOrBuilder getVoucherTypeDescriptionOrBuilder() {
           if (voucherTypeDescriptionBuilder_ != null) {
@@ -4616,7 +4616,7 @@ public final class OmGetVoucherTypesAd {
          * Die Bezeichnung der "VoucherTypeID", also praktisch der Name der Aktion
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue voucher_type_description = 10007;</code>
+         * <code>.dstore.values.StringValue voucher_type_description = 10007;</code>
          */
         private com.google.protobuf.SingleFieldBuilderV3<
             io.dstore.values.StringValue, io.dstore.values.StringValue.Builder, io.dstore.values.StringValueOrBuilder> 
@@ -4640,7 +4640,7 @@ public final class OmGetVoucherTypesAd {
          * Gibt an, wie oft ein Code der Aktion generell eingelöst werden kann ("NULL" bedeutet "unendlich oft"). Diese Einstellung gilt unabhängig von "XTimesUsablePerPerson" !
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue x_times_usable = 10008;</code>
+         * <code>.dstore.values.IntegerValue x_times_usable = 10008;</code>
          */
         public boolean hasXTimesUsable() {
           return xTimesUsableBuilder_ != null || xTimesUsable_ != null;
@@ -4650,7 +4650,7 @@ public final class OmGetVoucherTypesAd {
          * Gibt an, wie oft ein Code der Aktion generell eingelöst werden kann ("NULL" bedeutet "unendlich oft"). Diese Einstellung gilt unabhängig von "XTimesUsablePerPerson" !
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue x_times_usable = 10008;</code>
+         * <code>.dstore.values.IntegerValue x_times_usable = 10008;</code>
          */
         public io.dstore.values.IntegerValue getXTimesUsable() {
           if (xTimesUsableBuilder_ == null) {
@@ -4664,7 +4664,7 @@ public final class OmGetVoucherTypesAd {
          * Gibt an, wie oft ein Code der Aktion generell eingelöst werden kann ("NULL" bedeutet "unendlich oft"). Diese Einstellung gilt unabhängig von "XTimesUsablePerPerson" !
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue x_times_usable = 10008;</code>
+         * <code>.dstore.values.IntegerValue x_times_usable = 10008;</code>
          */
         public Builder setXTimesUsable(io.dstore.values.IntegerValue value) {
           if (xTimesUsableBuilder_ == null) {
@@ -4684,7 +4684,7 @@ public final class OmGetVoucherTypesAd {
          * Gibt an, wie oft ein Code der Aktion generell eingelöst werden kann ("NULL" bedeutet "unendlich oft"). Diese Einstellung gilt unabhängig von "XTimesUsablePerPerson" !
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue x_times_usable = 10008;</code>
+         * <code>.dstore.values.IntegerValue x_times_usable = 10008;</code>
          */
         public Builder setXTimesUsable(
             io.dstore.values.IntegerValue.Builder builderForValue) {
@@ -4702,7 +4702,7 @@ public final class OmGetVoucherTypesAd {
          * Gibt an, wie oft ein Code der Aktion generell eingelöst werden kann ("NULL" bedeutet "unendlich oft"). Diese Einstellung gilt unabhängig von "XTimesUsablePerPerson" !
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue x_times_usable = 10008;</code>
+         * <code>.dstore.values.IntegerValue x_times_usable = 10008;</code>
          */
         public Builder mergeXTimesUsable(io.dstore.values.IntegerValue value) {
           if (xTimesUsableBuilder_ == null) {
@@ -4724,7 +4724,7 @@ public final class OmGetVoucherTypesAd {
          * Gibt an, wie oft ein Code der Aktion generell eingelöst werden kann ("NULL" bedeutet "unendlich oft"). Diese Einstellung gilt unabhängig von "XTimesUsablePerPerson" !
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue x_times_usable = 10008;</code>
+         * <code>.dstore.values.IntegerValue x_times_usable = 10008;</code>
          */
         public Builder clearXTimesUsable() {
           if (xTimesUsableBuilder_ == null) {
@@ -4742,7 +4742,7 @@ public final class OmGetVoucherTypesAd {
          * Gibt an, wie oft ein Code der Aktion generell eingelöst werden kann ("NULL" bedeutet "unendlich oft"). Diese Einstellung gilt unabhängig von "XTimesUsablePerPerson" !
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue x_times_usable = 10008;</code>
+         * <code>.dstore.values.IntegerValue x_times_usable = 10008;</code>
          */
         public io.dstore.values.IntegerValue.Builder getXTimesUsableBuilder() {
           
@@ -4754,7 +4754,7 @@ public final class OmGetVoucherTypesAd {
          * Gibt an, wie oft ein Code der Aktion generell eingelöst werden kann ("NULL" bedeutet "unendlich oft"). Diese Einstellung gilt unabhängig von "XTimesUsablePerPerson" !
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue x_times_usable = 10008;</code>
+         * <code>.dstore.values.IntegerValue x_times_usable = 10008;</code>
          */
         public io.dstore.values.IntegerValueOrBuilder getXTimesUsableOrBuilder() {
           if (xTimesUsableBuilder_ != null) {
@@ -4769,7 +4769,7 @@ public final class OmGetVoucherTypesAd {
          * Gibt an, wie oft ein Code der Aktion generell eingelöst werden kann ("NULL" bedeutet "unendlich oft"). Diese Einstellung gilt unabhängig von "XTimesUsablePerPerson" !
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue x_times_usable = 10008;</code>
+         * <code>.dstore.values.IntegerValue x_times_usable = 10008;</code>
          */
         private com.google.protobuf.SingleFieldBuilderV3<
             io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> 
@@ -4793,7 +4793,7 @@ public final class OmGetVoucherTypesAd {
          * ID der Herkunftsart zum "VoucherType". Mögliche Werte s. "om_GetVCodeOriginTypes_Ad".
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue v_code_origin_type_id = 10009;</code>
+         * <code>.dstore.values.IntegerValue v_code_origin_type_id = 10009;</code>
          */
         public boolean hasVCodeOriginTypeId() {
           return vCodeOriginTypeIdBuilder_ != null || vCodeOriginTypeId_ != null;
@@ -4803,7 +4803,7 @@ public final class OmGetVoucherTypesAd {
          * ID der Herkunftsart zum "VoucherType". Mögliche Werte s. "om_GetVCodeOriginTypes_Ad".
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue v_code_origin_type_id = 10009;</code>
+         * <code>.dstore.values.IntegerValue v_code_origin_type_id = 10009;</code>
          */
         public io.dstore.values.IntegerValue getVCodeOriginTypeId() {
           if (vCodeOriginTypeIdBuilder_ == null) {
@@ -4817,7 +4817,7 @@ public final class OmGetVoucherTypesAd {
          * ID der Herkunftsart zum "VoucherType". Mögliche Werte s. "om_GetVCodeOriginTypes_Ad".
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue v_code_origin_type_id = 10009;</code>
+         * <code>.dstore.values.IntegerValue v_code_origin_type_id = 10009;</code>
          */
         public Builder setVCodeOriginTypeId(io.dstore.values.IntegerValue value) {
           if (vCodeOriginTypeIdBuilder_ == null) {
@@ -4837,7 +4837,7 @@ public final class OmGetVoucherTypesAd {
          * ID der Herkunftsart zum "VoucherType". Mögliche Werte s. "om_GetVCodeOriginTypes_Ad".
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue v_code_origin_type_id = 10009;</code>
+         * <code>.dstore.values.IntegerValue v_code_origin_type_id = 10009;</code>
          */
         public Builder setVCodeOriginTypeId(
             io.dstore.values.IntegerValue.Builder builderForValue) {
@@ -4855,7 +4855,7 @@ public final class OmGetVoucherTypesAd {
          * ID der Herkunftsart zum "VoucherType". Mögliche Werte s. "om_GetVCodeOriginTypes_Ad".
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue v_code_origin_type_id = 10009;</code>
+         * <code>.dstore.values.IntegerValue v_code_origin_type_id = 10009;</code>
          */
         public Builder mergeVCodeOriginTypeId(io.dstore.values.IntegerValue value) {
           if (vCodeOriginTypeIdBuilder_ == null) {
@@ -4877,7 +4877,7 @@ public final class OmGetVoucherTypesAd {
          * ID der Herkunftsart zum "VoucherType". Mögliche Werte s. "om_GetVCodeOriginTypes_Ad".
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue v_code_origin_type_id = 10009;</code>
+         * <code>.dstore.values.IntegerValue v_code_origin_type_id = 10009;</code>
          */
         public Builder clearVCodeOriginTypeId() {
           if (vCodeOriginTypeIdBuilder_ == null) {
@@ -4895,7 +4895,7 @@ public final class OmGetVoucherTypesAd {
          * ID der Herkunftsart zum "VoucherType". Mögliche Werte s. "om_GetVCodeOriginTypes_Ad".
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue v_code_origin_type_id = 10009;</code>
+         * <code>.dstore.values.IntegerValue v_code_origin_type_id = 10009;</code>
          */
         public io.dstore.values.IntegerValue.Builder getVCodeOriginTypeIdBuilder() {
           
@@ -4907,7 +4907,7 @@ public final class OmGetVoucherTypesAd {
          * ID der Herkunftsart zum "VoucherType". Mögliche Werte s. "om_GetVCodeOriginTypes_Ad".
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue v_code_origin_type_id = 10009;</code>
+         * <code>.dstore.values.IntegerValue v_code_origin_type_id = 10009;</code>
          */
         public io.dstore.values.IntegerValueOrBuilder getVCodeOriginTypeIdOrBuilder() {
           if (vCodeOriginTypeIdBuilder_ != null) {
@@ -4922,7 +4922,7 @@ public final class OmGetVoucherTypesAd {
          * ID der Herkunftsart zum "VoucherType". Mögliche Werte s. "om_GetVCodeOriginTypes_Ad".
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue v_code_origin_type_id = 10009;</code>
+         * <code>.dstore.values.IntegerValue v_code_origin_type_id = 10009;</code>
          */
         private com.google.protobuf.SingleFieldBuilderV3<
             io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> 
@@ -4946,7 +4946,7 @@ public final class OmGetVoucherTypesAd {
          * Gibt an, ob Codes zur Aktion generiert/importiert werden können bzw. noch gültig sind. Mögliche Werte :- "0" : Erstellung und Einlösung möglich- "1" : Einlösung möglich, aber keine Erstellung- "2" : KEINE Erstellung und Einlösung möglich
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue code_status = 10010;</code>
+         * <code>.dstore.values.IntegerValue code_status = 10010;</code>
          */
         public boolean hasCodeStatus() {
           return codeStatusBuilder_ != null || codeStatus_ != null;
@@ -4956,7 +4956,7 @@ public final class OmGetVoucherTypesAd {
          * Gibt an, ob Codes zur Aktion generiert/importiert werden können bzw. noch gültig sind. Mögliche Werte :- "0" : Erstellung und Einlösung möglich- "1" : Einlösung möglich, aber keine Erstellung- "2" : KEINE Erstellung und Einlösung möglich
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue code_status = 10010;</code>
+         * <code>.dstore.values.IntegerValue code_status = 10010;</code>
          */
         public io.dstore.values.IntegerValue getCodeStatus() {
           if (codeStatusBuilder_ == null) {
@@ -4970,7 +4970,7 @@ public final class OmGetVoucherTypesAd {
          * Gibt an, ob Codes zur Aktion generiert/importiert werden können bzw. noch gültig sind. Mögliche Werte :- "0" : Erstellung und Einlösung möglich- "1" : Einlösung möglich, aber keine Erstellung- "2" : KEINE Erstellung und Einlösung möglich
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue code_status = 10010;</code>
+         * <code>.dstore.values.IntegerValue code_status = 10010;</code>
          */
         public Builder setCodeStatus(io.dstore.values.IntegerValue value) {
           if (codeStatusBuilder_ == null) {
@@ -4990,7 +4990,7 @@ public final class OmGetVoucherTypesAd {
          * Gibt an, ob Codes zur Aktion generiert/importiert werden können bzw. noch gültig sind. Mögliche Werte :- "0" : Erstellung und Einlösung möglich- "1" : Einlösung möglich, aber keine Erstellung- "2" : KEINE Erstellung und Einlösung möglich
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue code_status = 10010;</code>
+         * <code>.dstore.values.IntegerValue code_status = 10010;</code>
          */
         public Builder setCodeStatus(
             io.dstore.values.IntegerValue.Builder builderForValue) {
@@ -5008,7 +5008,7 @@ public final class OmGetVoucherTypesAd {
          * Gibt an, ob Codes zur Aktion generiert/importiert werden können bzw. noch gültig sind. Mögliche Werte :- "0" : Erstellung und Einlösung möglich- "1" : Einlösung möglich, aber keine Erstellung- "2" : KEINE Erstellung und Einlösung möglich
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue code_status = 10010;</code>
+         * <code>.dstore.values.IntegerValue code_status = 10010;</code>
          */
         public Builder mergeCodeStatus(io.dstore.values.IntegerValue value) {
           if (codeStatusBuilder_ == null) {
@@ -5030,7 +5030,7 @@ public final class OmGetVoucherTypesAd {
          * Gibt an, ob Codes zur Aktion generiert/importiert werden können bzw. noch gültig sind. Mögliche Werte :- "0" : Erstellung und Einlösung möglich- "1" : Einlösung möglich, aber keine Erstellung- "2" : KEINE Erstellung und Einlösung möglich
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue code_status = 10010;</code>
+         * <code>.dstore.values.IntegerValue code_status = 10010;</code>
          */
         public Builder clearCodeStatus() {
           if (codeStatusBuilder_ == null) {
@@ -5048,7 +5048,7 @@ public final class OmGetVoucherTypesAd {
          * Gibt an, ob Codes zur Aktion generiert/importiert werden können bzw. noch gültig sind. Mögliche Werte :- "0" : Erstellung und Einlösung möglich- "1" : Einlösung möglich, aber keine Erstellung- "2" : KEINE Erstellung und Einlösung möglich
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue code_status = 10010;</code>
+         * <code>.dstore.values.IntegerValue code_status = 10010;</code>
          */
         public io.dstore.values.IntegerValue.Builder getCodeStatusBuilder() {
           
@@ -5060,7 +5060,7 @@ public final class OmGetVoucherTypesAd {
          * Gibt an, ob Codes zur Aktion generiert/importiert werden können bzw. noch gültig sind. Mögliche Werte :- "0" : Erstellung und Einlösung möglich- "1" : Einlösung möglich, aber keine Erstellung- "2" : KEINE Erstellung und Einlösung möglich
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue code_status = 10010;</code>
+         * <code>.dstore.values.IntegerValue code_status = 10010;</code>
          */
         public io.dstore.values.IntegerValueOrBuilder getCodeStatusOrBuilder() {
           if (codeStatusBuilder_ != null) {
@@ -5075,7 +5075,7 @@ public final class OmGetVoucherTypesAd {
          * Gibt an, ob Codes zur Aktion generiert/importiert werden können bzw. noch gültig sind. Mögliche Werte :- "0" : Erstellung und Einlösung möglich- "1" : Einlösung möglich, aber keine Erstellung- "2" : KEINE Erstellung und Einlösung möglich
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue code_status = 10010;</code>
+         * <code>.dstore.values.IntegerValue code_status = 10010;</code>
          */
         private com.google.protobuf.SingleFieldBuilderV3<
             io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> 
@@ -5099,7 +5099,7 @@ public final class OmGetVoucherTypesAd {
          * Bezeichnung der Bonus-Art "BenefitTypeID".
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue benefit_type_description = 10011;</code>
+         * <code>.dstore.values.StringValue benefit_type_description = 10011;</code>
          */
         public boolean hasBenefitTypeDescription() {
           return benefitTypeDescriptionBuilder_ != null || benefitTypeDescription_ != null;
@@ -5109,7 +5109,7 @@ public final class OmGetVoucherTypesAd {
          * Bezeichnung der Bonus-Art "BenefitTypeID".
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue benefit_type_description = 10011;</code>
+         * <code>.dstore.values.StringValue benefit_type_description = 10011;</code>
          */
         public io.dstore.values.StringValue getBenefitTypeDescription() {
           if (benefitTypeDescriptionBuilder_ == null) {
@@ -5123,7 +5123,7 @@ public final class OmGetVoucherTypesAd {
          * Bezeichnung der Bonus-Art "BenefitTypeID".
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue benefit_type_description = 10011;</code>
+         * <code>.dstore.values.StringValue benefit_type_description = 10011;</code>
          */
         public Builder setBenefitTypeDescription(io.dstore.values.StringValue value) {
           if (benefitTypeDescriptionBuilder_ == null) {
@@ -5143,7 +5143,7 @@ public final class OmGetVoucherTypesAd {
          * Bezeichnung der Bonus-Art "BenefitTypeID".
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue benefit_type_description = 10011;</code>
+         * <code>.dstore.values.StringValue benefit_type_description = 10011;</code>
          */
         public Builder setBenefitTypeDescription(
             io.dstore.values.StringValue.Builder builderForValue) {
@@ -5161,7 +5161,7 @@ public final class OmGetVoucherTypesAd {
          * Bezeichnung der Bonus-Art "BenefitTypeID".
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue benefit_type_description = 10011;</code>
+         * <code>.dstore.values.StringValue benefit_type_description = 10011;</code>
          */
         public Builder mergeBenefitTypeDescription(io.dstore.values.StringValue value) {
           if (benefitTypeDescriptionBuilder_ == null) {
@@ -5183,7 +5183,7 @@ public final class OmGetVoucherTypesAd {
          * Bezeichnung der Bonus-Art "BenefitTypeID".
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue benefit_type_description = 10011;</code>
+         * <code>.dstore.values.StringValue benefit_type_description = 10011;</code>
          */
         public Builder clearBenefitTypeDescription() {
           if (benefitTypeDescriptionBuilder_ == null) {
@@ -5201,7 +5201,7 @@ public final class OmGetVoucherTypesAd {
          * Bezeichnung der Bonus-Art "BenefitTypeID".
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue benefit_type_description = 10011;</code>
+         * <code>.dstore.values.StringValue benefit_type_description = 10011;</code>
          */
         public io.dstore.values.StringValue.Builder getBenefitTypeDescriptionBuilder() {
           
@@ -5213,7 +5213,7 @@ public final class OmGetVoucherTypesAd {
          * Bezeichnung der Bonus-Art "BenefitTypeID".
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue benefit_type_description = 10011;</code>
+         * <code>.dstore.values.StringValue benefit_type_description = 10011;</code>
          */
         public io.dstore.values.StringValueOrBuilder getBenefitTypeDescriptionOrBuilder() {
           if (benefitTypeDescriptionBuilder_ != null) {
@@ -5228,7 +5228,7 @@ public final class OmGetVoucherTypesAd {
          * Bezeichnung der Bonus-Art "BenefitTypeID".
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue benefit_type_description = 10011;</code>
+         * <code>.dstore.values.StringValue benefit_type_description = 10011;</code>
          */
         private com.google.protobuf.SingleFieldBuilderV3<
             io.dstore.values.StringValue, io.dstore.values.StringValue.Builder, io.dstore.values.StringValueOrBuilder> 
@@ -5252,7 +5252,7 @@ public final class OmGetVoucherTypesAd {
          * ID einer Art von Bonus, die der Kunde bei Einlösung erhält (z.B. "Bonus-Artikel"). Mögliche Werte s. "om_GetBenefitTypes_Ad".
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue benefit_type_id = 10012;</code>
+         * <code>.dstore.values.IntegerValue benefit_type_id = 10012;</code>
          */
         public boolean hasBenefitTypeId() {
           return benefitTypeIdBuilder_ != null || benefitTypeId_ != null;
@@ -5262,7 +5262,7 @@ public final class OmGetVoucherTypesAd {
          * ID einer Art von Bonus, die der Kunde bei Einlösung erhält (z.B. "Bonus-Artikel"). Mögliche Werte s. "om_GetBenefitTypes_Ad".
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue benefit_type_id = 10012;</code>
+         * <code>.dstore.values.IntegerValue benefit_type_id = 10012;</code>
          */
         public io.dstore.values.IntegerValue getBenefitTypeId() {
           if (benefitTypeIdBuilder_ == null) {
@@ -5276,7 +5276,7 @@ public final class OmGetVoucherTypesAd {
          * ID einer Art von Bonus, die der Kunde bei Einlösung erhält (z.B. "Bonus-Artikel"). Mögliche Werte s. "om_GetBenefitTypes_Ad".
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue benefit_type_id = 10012;</code>
+         * <code>.dstore.values.IntegerValue benefit_type_id = 10012;</code>
          */
         public Builder setBenefitTypeId(io.dstore.values.IntegerValue value) {
           if (benefitTypeIdBuilder_ == null) {
@@ -5296,7 +5296,7 @@ public final class OmGetVoucherTypesAd {
          * ID einer Art von Bonus, die der Kunde bei Einlösung erhält (z.B. "Bonus-Artikel"). Mögliche Werte s. "om_GetBenefitTypes_Ad".
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue benefit_type_id = 10012;</code>
+         * <code>.dstore.values.IntegerValue benefit_type_id = 10012;</code>
          */
         public Builder setBenefitTypeId(
             io.dstore.values.IntegerValue.Builder builderForValue) {
@@ -5314,7 +5314,7 @@ public final class OmGetVoucherTypesAd {
          * ID einer Art von Bonus, die der Kunde bei Einlösung erhält (z.B. "Bonus-Artikel"). Mögliche Werte s. "om_GetBenefitTypes_Ad".
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue benefit_type_id = 10012;</code>
+         * <code>.dstore.values.IntegerValue benefit_type_id = 10012;</code>
          */
         public Builder mergeBenefitTypeId(io.dstore.values.IntegerValue value) {
           if (benefitTypeIdBuilder_ == null) {
@@ -5336,7 +5336,7 @@ public final class OmGetVoucherTypesAd {
          * ID einer Art von Bonus, die der Kunde bei Einlösung erhält (z.B. "Bonus-Artikel"). Mögliche Werte s. "om_GetBenefitTypes_Ad".
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue benefit_type_id = 10012;</code>
+         * <code>.dstore.values.IntegerValue benefit_type_id = 10012;</code>
          */
         public Builder clearBenefitTypeId() {
           if (benefitTypeIdBuilder_ == null) {
@@ -5354,7 +5354,7 @@ public final class OmGetVoucherTypesAd {
          * ID einer Art von Bonus, die der Kunde bei Einlösung erhält (z.B. "Bonus-Artikel"). Mögliche Werte s. "om_GetBenefitTypes_Ad".
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue benefit_type_id = 10012;</code>
+         * <code>.dstore.values.IntegerValue benefit_type_id = 10012;</code>
          */
         public io.dstore.values.IntegerValue.Builder getBenefitTypeIdBuilder() {
           
@@ -5366,7 +5366,7 @@ public final class OmGetVoucherTypesAd {
          * ID einer Art von Bonus, die der Kunde bei Einlösung erhält (z.B. "Bonus-Artikel"). Mögliche Werte s. "om_GetBenefitTypes_Ad".
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue benefit_type_id = 10012;</code>
+         * <code>.dstore.values.IntegerValue benefit_type_id = 10012;</code>
          */
         public io.dstore.values.IntegerValueOrBuilder getBenefitTypeIdOrBuilder() {
           if (benefitTypeIdBuilder_ != null) {
@@ -5381,7 +5381,7 @@ public final class OmGetVoucherTypesAd {
          * ID einer Art von Bonus, die der Kunde bei Einlösung erhält (z.B. "Bonus-Artikel"). Mögliche Werte s. "om_GetBenefitTypes_Ad".
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue benefit_type_id = 10012;</code>
+         * <code>.dstore.values.IntegerValue benefit_type_id = 10012;</code>
          */
         private com.google.protobuf.SingleFieldBuilderV3<
             io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> 
@@ -5405,7 +5405,7 @@ public final class OmGetVoucherTypesAd {
          * Der Zeitpunkt, an dem zuletzt ein Code der Aktion generiert wurde
          * </pre>
          *
-         * <code>optional .dstore.values.TimestampValue last_code_created_at = 20010;</code>
+         * <code>.dstore.values.TimestampValue last_code_created_at = 20010;</code>
          */
         public boolean hasLastCodeCreatedAt() {
           return lastCodeCreatedAtBuilder_ != null || lastCodeCreatedAt_ != null;
@@ -5415,7 +5415,7 @@ public final class OmGetVoucherTypesAd {
          * Der Zeitpunkt, an dem zuletzt ein Code der Aktion generiert wurde
          * </pre>
          *
-         * <code>optional .dstore.values.TimestampValue last_code_created_at = 20010;</code>
+         * <code>.dstore.values.TimestampValue last_code_created_at = 20010;</code>
          */
         public io.dstore.values.TimestampValue getLastCodeCreatedAt() {
           if (lastCodeCreatedAtBuilder_ == null) {
@@ -5429,7 +5429,7 @@ public final class OmGetVoucherTypesAd {
          * Der Zeitpunkt, an dem zuletzt ein Code der Aktion generiert wurde
          * </pre>
          *
-         * <code>optional .dstore.values.TimestampValue last_code_created_at = 20010;</code>
+         * <code>.dstore.values.TimestampValue last_code_created_at = 20010;</code>
          */
         public Builder setLastCodeCreatedAt(io.dstore.values.TimestampValue value) {
           if (lastCodeCreatedAtBuilder_ == null) {
@@ -5449,7 +5449,7 @@ public final class OmGetVoucherTypesAd {
          * Der Zeitpunkt, an dem zuletzt ein Code der Aktion generiert wurde
          * </pre>
          *
-         * <code>optional .dstore.values.TimestampValue last_code_created_at = 20010;</code>
+         * <code>.dstore.values.TimestampValue last_code_created_at = 20010;</code>
          */
         public Builder setLastCodeCreatedAt(
             io.dstore.values.TimestampValue.Builder builderForValue) {
@@ -5467,7 +5467,7 @@ public final class OmGetVoucherTypesAd {
          * Der Zeitpunkt, an dem zuletzt ein Code der Aktion generiert wurde
          * </pre>
          *
-         * <code>optional .dstore.values.TimestampValue last_code_created_at = 20010;</code>
+         * <code>.dstore.values.TimestampValue last_code_created_at = 20010;</code>
          */
         public Builder mergeLastCodeCreatedAt(io.dstore.values.TimestampValue value) {
           if (lastCodeCreatedAtBuilder_ == null) {
@@ -5489,7 +5489,7 @@ public final class OmGetVoucherTypesAd {
          * Der Zeitpunkt, an dem zuletzt ein Code der Aktion generiert wurde
          * </pre>
          *
-         * <code>optional .dstore.values.TimestampValue last_code_created_at = 20010;</code>
+         * <code>.dstore.values.TimestampValue last_code_created_at = 20010;</code>
          */
         public Builder clearLastCodeCreatedAt() {
           if (lastCodeCreatedAtBuilder_ == null) {
@@ -5507,7 +5507,7 @@ public final class OmGetVoucherTypesAd {
          * Der Zeitpunkt, an dem zuletzt ein Code der Aktion generiert wurde
          * </pre>
          *
-         * <code>optional .dstore.values.TimestampValue last_code_created_at = 20010;</code>
+         * <code>.dstore.values.TimestampValue last_code_created_at = 20010;</code>
          */
         public io.dstore.values.TimestampValue.Builder getLastCodeCreatedAtBuilder() {
           
@@ -5519,7 +5519,7 @@ public final class OmGetVoucherTypesAd {
          * Der Zeitpunkt, an dem zuletzt ein Code der Aktion generiert wurde
          * </pre>
          *
-         * <code>optional .dstore.values.TimestampValue last_code_created_at = 20010;</code>
+         * <code>.dstore.values.TimestampValue last_code_created_at = 20010;</code>
          */
         public io.dstore.values.TimestampValueOrBuilder getLastCodeCreatedAtOrBuilder() {
           if (lastCodeCreatedAtBuilder_ != null) {
@@ -5534,7 +5534,7 @@ public final class OmGetVoucherTypesAd {
          * Der Zeitpunkt, an dem zuletzt ein Code der Aktion generiert wurde
          * </pre>
          *
-         * <code>optional .dstore.values.TimestampValue last_code_created_at = 20010;</code>
+         * <code>.dstore.values.TimestampValue last_code_created_at = 20010;</code>
          */
         private com.google.protobuf.SingleFieldBuilderV3<
             io.dstore.values.TimestampValue, io.dstore.values.TimestampValue.Builder, io.dstore.values.TimestampValueOrBuilder> 
@@ -5794,7 +5794,7 @@ public final class OmGetVoucherTypesAd {
         return memoizedHashCode;
       }
       int hash = 41;
-      hash = (19 * hash) + getDescriptorForType().hashCode();
+      hash = (19 * hash) + getDescriptor().hashCode();
       if (getMetaInformationCount() > 0) {
         hash = (37 * hash) + META_INFORMATION_FIELD_NUMBER;
         hash = (53 * hash) + getMetaInformationList().hashCode();

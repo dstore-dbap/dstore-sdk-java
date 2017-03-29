@@ -19,20 +19,20 @@ public final class AcGetCommandsAd {
       com.google.protobuf.MessageOrBuilder {
 
     /**
-     * <code>optional .dstore.values.IntegerValue command_id = 1;</code>
+     * <code>.dstore.values.IntegerValue command_id = 1;</code>
      */
     boolean hasCommandId();
     /**
-     * <code>optional .dstore.values.IntegerValue command_id = 1;</code>
+     * <code>.dstore.values.IntegerValue command_id = 1;</code>
      */
     io.dstore.values.IntegerValue getCommandId();
     /**
-     * <code>optional .dstore.values.IntegerValue command_id = 1;</code>
+     * <code>.dstore.values.IntegerValue command_id = 1;</code>
      */
     io.dstore.values.IntegerValueOrBuilder getCommandIdOrBuilder();
 
     /**
-     * <code>optional bool command_id_null = 1001;</code>
+     * <code>bool command_id_null = 1001;</code>
      */
     boolean getCommandIdNull();
   }
@@ -120,19 +120,19 @@ public final class AcGetCommandsAd {
     public static final int COMMAND_ID_FIELD_NUMBER = 1;
     private io.dstore.values.IntegerValue commandId_;
     /**
-     * <code>optional .dstore.values.IntegerValue command_id = 1;</code>
+     * <code>.dstore.values.IntegerValue command_id = 1;</code>
      */
     public boolean hasCommandId() {
       return commandId_ != null;
     }
     /**
-     * <code>optional .dstore.values.IntegerValue command_id = 1;</code>
+     * <code>.dstore.values.IntegerValue command_id = 1;</code>
      */
     public io.dstore.values.IntegerValue getCommandId() {
       return commandId_ == null ? io.dstore.values.IntegerValue.getDefaultInstance() : commandId_;
     }
     /**
-     * <code>optional .dstore.values.IntegerValue command_id = 1;</code>
+     * <code>.dstore.values.IntegerValue command_id = 1;</code>
      */
     public io.dstore.values.IntegerValueOrBuilder getCommandIdOrBuilder() {
       return getCommandId();
@@ -141,7 +141,7 @@ public final class AcGetCommandsAd {
     public static final int COMMAND_ID_NULL_FIELD_NUMBER = 1001;
     private boolean commandIdNull_;
     /**
-     * <code>optional bool command_id_null = 1001;</code>
+     * <code>bool command_id_null = 1001;</code>
      */
     public boolean getCommandIdNull() {
       return commandIdNull_;
@@ -212,7 +212,7 @@ public final class AcGetCommandsAd {
         return memoizedHashCode;
       }
       int hash = 41;
-      hash = (19 * hash) + getDescriptorForType().hashCode();
+      hash = (19 * hash) + getDescriptor().hashCode();
       if (hasCommandId()) {
         hash = (37 * hash) + COMMAND_ID_FIELD_NUMBER;
         hash = (53 * hash) + getCommandId().hashCode();
@@ -451,13 +451,13 @@ public final class AcGetCommandsAd {
       private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> commandIdBuilder_;
       /**
-       * <code>optional .dstore.values.IntegerValue command_id = 1;</code>
+       * <code>.dstore.values.IntegerValue command_id = 1;</code>
        */
       public boolean hasCommandId() {
         return commandIdBuilder_ != null || commandId_ != null;
       }
       /**
-       * <code>optional .dstore.values.IntegerValue command_id = 1;</code>
+       * <code>.dstore.values.IntegerValue command_id = 1;</code>
        */
       public io.dstore.values.IntegerValue getCommandId() {
         if (commandIdBuilder_ == null) {
@@ -467,7 +467,7 @@ public final class AcGetCommandsAd {
         }
       }
       /**
-       * <code>optional .dstore.values.IntegerValue command_id = 1;</code>
+       * <code>.dstore.values.IntegerValue command_id = 1;</code>
        */
       public Builder setCommandId(io.dstore.values.IntegerValue value) {
         if (commandIdBuilder_ == null) {
@@ -483,7 +483,7 @@ public final class AcGetCommandsAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.IntegerValue command_id = 1;</code>
+       * <code>.dstore.values.IntegerValue command_id = 1;</code>
        */
       public Builder setCommandId(
           io.dstore.values.IntegerValue.Builder builderForValue) {
@@ -497,7 +497,7 @@ public final class AcGetCommandsAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.IntegerValue command_id = 1;</code>
+       * <code>.dstore.values.IntegerValue command_id = 1;</code>
        */
       public Builder mergeCommandId(io.dstore.values.IntegerValue value) {
         if (commandIdBuilder_ == null) {
@@ -515,7 +515,7 @@ public final class AcGetCommandsAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.IntegerValue command_id = 1;</code>
+       * <code>.dstore.values.IntegerValue command_id = 1;</code>
        */
       public Builder clearCommandId() {
         if (commandIdBuilder_ == null) {
@@ -529,7 +529,7 @@ public final class AcGetCommandsAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.IntegerValue command_id = 1;</code>
+       * <code>.dstore.values.IntegerValue command_id = 1;</code>
        */
       public io.dstore.values.IntegerValue.Builder getCommandIdBuilder() {
         
@@ -537,7 +537,7 @@ public final class AcGetCommandsAd {
         return getCommandIdFieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .dstore.values.IntegerValue command_id = 1;</code>
+       * <code>.dstore.values.IntegerValue command_id = 1;</code>
        */
       public io.dstore.values.IntegerValueOrBuilder getCommandIdOrBuilder() {
         if (commandIdBuilder_ != null) {
@@ -548,7 +548,7 @@ public final class AcGetCommandsAd {
         }
       }
       /**
-       * <code>optional .dstore.values.IntegerValue command_id = 1;</code>
+       * <code>.dstore.values.IntegerValue command_id = 1;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> 
@@ -566,13 +566,13 @@ public final class AcGetCommandsAd {
 
       private boolean commandIdNull_ ;
       /**
-       * <code>optional bool command_id_null = 1001;</code>
+       * <code>bool command_id_null = 1001;</code>
        */
       public boolean getCommandIdNull() {
         return commandIdNull_;
       }
       /**
-       * <code>optional bool command_id_null = 1001;</code>
+       * <code>bool command_id_null = 1001;</code>
        */
       public Builder setCommandIdNull(boolean value) {
         
@@ -581,7 +581,7 @@ public final class AcGetCommandsAd {
         return this;
       }
       /**
-       * <code>optional bool command_id_null = 1001;</code>
+       * <code>bool command_id_null = 1001;</code>
        */
       public Builder clearCommandIdNull() {
         
@@ -840,7 +840,7 @@ public final class AcGetCommandsAd {
         com.google.protobuf.MessageOrBuilder {
 
       /**
-       * <code>optional int32 row_id = 10000;</code>
+       * <code>int32 row_id = 10000;</code>
        */
       int getRowId();
 
@@ -849,7 +849,7 @@ public final class AcGetCommandsAd {
        * Aufruf (Kommando) des Programms, mit dem eine Action" abgearbeitet werden kann (z.B. "/usr/bin/mail")
        * </pre>
        *
-       * <code>optional .dstore.values.StringValue command = 10001;</code>
+       * <code>.dstore.values.StringValue command = 10001;</code>
        */
       boolean hasCommand();
       /**
@@ -857,7 +857,7 @@ public final class AcGetCommandsAd {
        * Aufruf (Kommando) des Programms, mit dem eine Action" abgearbeitet werden kann (z.B. "/usr/bin/mail")
        * </pre>
        *
-       * <code>optional .dstore.values.StringValue command = 10001;</code>
+       * <code>.dstore.values.StringValue command = 10001;</code>
        */
       io.dstore.values.StringValue getCommand();
       /**
@@ -865,7 +865,7 @@ public final class AcGetCommandsAd {
        * Aufruf (Kommando) des Programms, mit dem eine Action" abgearbeitet werden kann (z.B. "/usr/bin/mail")
        * </pre>
        *
-       * <code>optional .dstore.values.StringValue command = 10001;</code>
+       * <code>.dstore.values.StringValue command = 10001;</code>
        */
       io.dstore.values.StringValueOrBuilder getCommandOrBuilder();
 
@@ -874,7 +874,7 @@ public final class AcGetCommandsAd {
        * Beschreibung des Kommandos "CommandID" (z.B. "Mailprogramm")
        * </pre>
        *
-       * <code>optional .dstore.values.StringValue command_description = 10002;</code>
+       * <code>.dstore.values.StringValue command_description = 10002;</code>
        */
       boolean hasCommandDescription();
       /**
@@ -882,7 +882,7 @@ public final class AcGetCommandsAd {
        * Beschreibung des Kommandos "CommandID" (z.B. "Mailprogramm")
        * </pre>
        *
-       * <code>optional .dstore.values.StringValue command_description = 10002;</code>
+       * <code>.dstore.values.StringValue command_description = 10002;</code>
        */
       io.dstore.values.StringValue getCommandDescription();
       /**
@@ -890,7 +890,7 @@ public final class AcGetCommandsAd {
        * Beschreibung des Kommandos "CommandID" (z.B. "Mailprogramm")
        * </pre>
        *
-       * <code>optional .dstore.values.StringValue command_description = 10002;</code>
+       * <code>.dstore.values.StringValue command_description = 10002;</code>
        */
       io.dstore.values.StringValueOrBuilder getCommandDescriptionOrBuilder();
 
@@ -899,7 +899,7 @@ public final class AcGetCommandsAd {
        * ID eines Kommandos (bzw. Programms), mit dem "Actions" abgearbeitet werden können
        * </pre>
        *
-       * <code>optional .dstore.values.IntegerValue command_id = 10003;</code>
+       * <code>.dstore.values.IntegerValue command_id = 10003;</code>
        */
       boolean hasCommandId();
       /**
@@ -907,7 +907,7 @@ public final class AcGetCommandsAd {
        * ID eines Kommandos (bzw. Programms), mit dem "Actions" abgearbeitet werden können
        * </pre>
        *
-       * <code>optional .dstore.values.IntegerValue command_id = 10003;</code>
+       * <code>.dstore.values.IntegerValue command_id = 10003;</code>
        */
       io.dstore.values.IntegerValue getCommandId();
       /**
@@ -915,7 +915,7 @@ public final class AcGetCommandsAd {
        * ID eines Kommandos (bzw. Programms), mit dem "Actions" abgearbeitet werden können
        * </pre>
        *
-       * <code>optional .dstore.values.IntegerValue command_id = 10003;</code>
+       * <code>.dstore.values.IntegerValue command_id = 10003;</code>
        */
       io.dstore.values.IntegerValueOrBuilder getCommandIdOrBuilder();
     }
@@ -1029,7 +1029,7 @@ public final class AcGetCommandsAd {
       public static final int ROW_ID_FIELD_NUMBER = 10000;
       private int rowId_;
       /**
-       * <code>optional int32 row_id = 10000;</code>
+       * <code>int32 row_id = 10000;</code>
        */
       public int getRowId() {
         return rowId_;
@@ -1042,7 +1042,7 @@ public final class AcGetCommandsAd {
        * Aufruf (Kommando) des Programms, mit dem eine Action" abgearbeitet werden kann (z.B. "/usr/bin/mail")
        * </pre>
        *
-       * <code>optional .dstore.values.StringValue command = 10001;</code>
+       * <code>.dstore.values.StringValue command = 10001;</code>
        */
       public boolean hasCommand() {
         return command_ != null;
@@ -1052,7 +1052,7 @@ public final class AcGetCommandsAd {
        * Aufruf (Kommando) des Programms, mit dem eine Action" abgearbeitet werden kann (z.B. "/usr/bin/mail")
        * </pre>
        *
-       * <code>optional .dstore.values.StringValue command = 10001;</code>
+       * <code>.dstore.values.StringValue command = 10001;</code>
        */
       public io.dstore.values.StringValue getCommand() {
         return command_ == null ? io.dstore.values.StringValue.getDefaultInstance() : command_;
@@ -1062,7 +1062,7 @@ public final class AcGetCommandsAd {
        * Aufruf (Kommando) des Programms, mit dem eine Action" abgearbeitet werden kann (z.B. "/usr/bin/mail")
        * </pre>
        *
-       * <code>optional .dstore.values.StringValue command = 10001;</code>
+       * <code>.dstore.values.StringValue command = 10001;</code>
        */
       public io.dstore.values.StringValueOrBuilder getCommandOrBuilder() {
         return getCommand();
@@ -1075,7 +1075,7 @@ public final class AcGetCommandsAd {
        * Beschreibung des Kommandos "CommandID" (z.B. "Mailprogramm")
        * </pre>
        *
-       * <code>optional .dstore.values.StringValue command_description = 10002;</code>
+       * <code>.dstore.values.StringValue command_description = 10002;</code>
        */
       public boolean hasCommandDescription() {
         return commandDescription_ != null;
@@ -1085,7 +1085,7 @@ public final class AcGetCommandsAd {
        * Beschreibung des Kommandos "CommandID" (z.B. "Mailprogramm")
        * </pre>
        *
-       * <code>optional .dstore.values.StringValue command_description = 10002;</code>
+       * <code>.dstore.values.StringValue command_description = 10002;</code>
        */
       public io.dstore.values.StringValue getCommandDescription() {
         return commandDescription_ == null ? io.dstore.values.StringValue.getDefaultInstance() : commandDescription_;
@@ -1095,7 +1095,7 @@ public final class AcGetCommandsAd {
        * Beschreibung des Kommandos "CommandID" (z.B. "Mailprogramm")
        * </pre>
        *
-       * <code>optional .dstore.values.StringValue command_description = 10002;</code>
+       * <code>.dstore.values.StringValue command_description = 10002;</code>
        */
       public io.dstore.values.StringValueOrBuilder getCommandDescriptionOrBuilder() {
         return getCommandDescription();
@@ -1108,7 +1108,7 @@ public final class AcGetCommandsAd {
        * ID eines Kommandos (bzw. Programms), mit dem "Actions" abgearbeitet werden können
        * </pre>
        *
-       * <code>optional .dstore.values.IntegerValue command_id = 10003;</code>
+       * <code>.dstore.values.IntegerValue command_id = 10003;</code>
        */
       public boolean hasCommandId() {
         return commandId_ != null;
@@ -1118,7 +1118,7 @@ public final class AcGetCommandsAd {
        * ID eines Kommandos (bzw. Programms), mit dem "Actions" abgearbeitet werden können
        * </pre>
        *
-       * <code>optional .dstore.values.IntegerValue command_id = 10003;</code>
+       * <code>.dstore.values.IntegerValue command_id = 10003;</code>
        */
       public io.dstore.values.IntegerValue getCommandId() {
         return commandId_ == null ? io.dstore.values.IntegerValue.getDefaultInstance() : commandId_;
@@ -1128,7 +1128,7 @@ public final class AcGetCommandsAd {
        * ID eines Kommandos (bzw. Programms), mit dem "Actions" abgearbeitet werden können
        * </pre>
        *
-       * <code>optional .dstore.values.IntegerValue command_id = 10003;</code>
+       * <code>.dstore.values.IntegerValue command_id = 10003;</code>
        */
       public io.dstore.values.IntegerValueOrBuilder getCommandIdOrBuilder() {
         return getCommandId();
@@ -1223,7 +1223,7 @@ public final class AcGetCommandsAd {
           return memoizedHashCode;
         }
         int hash = 41;
-        hash = (19 * hash) + getDescriptorForType().hashCode();
+        hash = (19 * hash) + getDescriptor().hashCode();
         hash = (37 * hash) + ROW_ID_FIELD_NUMBER;
         hash = (53 * hash) + getRowId();
         if (hasCommand()) {
@@ -1495,13 +1495,13 @@ public final class AcGetCommandsAd {
 
         private int rowId_ ;
         /**
-         * <code>optional int32 row_id = 10000;</code>
+         * <code>int32 row_id = 10000;</code>
          */
         public int getRowId() {
           return rowId_;
         }
         /**
-         * <code>optional int32 row_id = 10000;</code>
+         * <code>int32 row_id = 10000;</code>
          */
         public Builder setRowId(int value) {
           
@@ -1510,7 +1510,7 @@ public final class AcGetCommandsAd {
           return this;
         }
         /**
-         * <code>optional int32 row_id = 10000;</code>
+         * <code>int32 row_id = 10000;</code>
          */
         public Builder clearRowId() {
           
@@ -1527,7 +1527,7 @@ public final class AcGetCommandsAd {
          * Aufruf (Kommando) des Programms, mit dem eine Action" abgearbeitet werden kann (z.B. "/usr/bin/mail")
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue command = 10001;</code>
+         * <code>.dstore.values.StringValue command = 10001;</code>
          */
         public boolean hasCommand() {
           return commandBuilder_ != null || command_ != null;
@@ -1537,7 +1537,7 @@ public final class AcGetCommandsAd {
          * Aufruf (Kommando) des Programms, mit dem eine Action" abgearbeitet werden kann (z.B. "/usr/bin/mail")
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue command = 10001;</code>
+         * <code>.dstore.values.StringValue command = 10001;</code>
          */
         public io.dstore.values.StringValue getCommand() {
           if (commandBuilder_ == null) {
@@ -1551,7 +1551,7 @@ public final class AcGetCommandsAd {
          * Aufruf (Kommando) des Programms, mit dem eine Action" abgearbeitet werden kann (z.B. "/usr/bin/mail")
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue command = 10001;</code>
+         * <code>.dstore.values.StringValue command = 10001;</code>
          */
         public Builder setCommand(io.dstore.values.StringValue value) {
           if (commandBuilder_ == null) {
@@ -1571,7 +1571,7 @@ public final class AcGetCommandsAd {
          * Aufruf (Kommando) des Programms, mit dem eine Action" abgearbeitet werden kann (z.B. "/usr/bin/mail")
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue command = 10001;</code>
+         * <code>.dstore.values.StringValue command = 10001;</code>
          */
         public Builder setCommand(
             io.dstore.values.StringValue.Builder builderForValue) {
@@ -1589,7 +1589,7 @@ public final class AcGetCommandsAd {
          * Aufruf (Kommando) des Programms, mit dem eine Action" abgearbeitet werden kann (z.B. "/usr/bin/mail")
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue command = 10001;</code>
+         * <code>.dstore.values.StringValue command = 10001;</code>
          */
         public Builder mergeCommand(io.dstore.values.StringValue value) {
           if (commandBuilder_ == null) {
@@ -1611,7 +1611,7 @@ public final class AcGetCommandsAd {
          * Aufruf (Kommando) des Programms, mit dem eine Action" abgearbeitet werden kann (z.B. "/usr/bin/mail")
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue command = 10001;</code>
+         * <code>.dstore.values.StringValue command = 10001;</code>
          */
         public Builder clearCommand() {
           if (commandBuilder_ == null) {
@@ -1629,7 +1629,7 @@ public final class AcGetCommandsAd {
          * Aufruf (Kommando) des Programms, mit dem eine Action" abgearbeitet werden kann (z.B. "/usr/bin/mail")
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue command = 10001;</code>
+         * <code>.dstore.values.StringValue command = 10001;</code>
          */
         public io.dstore.values.StringValue.Builder getCommandBuilder() {
           
@@ -1641,7 +1641,7 @@ public final class AcGetCommandsAd {
          * Aufruf (Kommando) des Programms, mit dem eine Action" abgearbeitet werden kann (z.B. "/usr/bin/mail")
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue command = 10001;</code>
+         * <code>.dstore.values.StringValue command = 10001;</code>
          */
         public io.dstore.values.StringValueOrBuilder getCommandOrBuilder() {
           if (commandBuilder_ != null) {
@@ -1656,7 +1656,7 @@ public final class AcGetCommandsAd {
          * Aufruf (Kommando) des Programms, mit dem eine Action" abgearbeitet werden kann (z.B. "/usr/bin/mail")
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue command = 10001;</code>
+         * <code>.dstore.values.StringValue command = 10001;</code>
          */
         private com.google.protobuf.SingleFieldBuilderV3<
             io.dstore.values.StringValue, io.dstore.values.StringValue.Builder, io.dstore.values.StringValueOrBuilder> 
@@ -1680,7 +1680,7 @@ public final class AcGetCommandsAd {
          * Beschreibung des Kommandos "CommandID" (z.B. "Mailprogramm")
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue command_description = 10002;</code>
+         * <code>.dstore.values.StringValue command_description = 10002;</code>
          */
         public boolean hasCommandDescription() {
           return commandDescriptionBuilder_ != null || commandDescription_ != null;
@@ -1690,7 +1690,7 @@ public final class AcGetCommandsAd {
          * Beschreibung des Kommandos "CommandID" (z.B. "Mailprogramm")
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue command_description = 10002;</code>
+         * <code>.dstore.values.StringValue command_description = 10002;</code>
          */
         public io.dstore.values.StringValue getCommandDescription() {
           if (commandDescriptionBuilder_ == null) {
@@ -1704,7 +1704,7 @@ public final class AcGetCommandsAd {
          * Beschreibung des Kommandos "CommandID" (z.B. "Mailprogramm")
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue command_description = 10002;</code>
+         * <code>.dstore.values.StringValue command_description = 10002;</code>
          */
         public Builder setCommandDescription(io.dstore.values.StringValue value) {
           if (commandDescriptionBuilder_ == null) {
@@ -1724,7 +1724,7 @@ public final class AcGetCommandsAd {
          * Beschreibung des Kommandos "CommandID" (z.B. "Mailprogramm")
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue command_description = 10002;</code>
+         * <code>.dstore.values.StringValue command_description = 10002;</code>
          */
         public Builder setCommandDescription(
             io.dstore.values.StringValue.Builder builderForValue) {
@@ -1742,7 +1742,7 @@ public final class AcGetCommandsAd {
          * Beschreibung des Kommandos "CommandID" (z.B. "Mailprogramm")
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue command_description = 10002;</code>
+         * <code>.dstore.values.StringValue command_description = 10002;</code>
          */
         public Builder mergeCommandDescription(io.dstore.values.StringValue value) {
           if (commandDescriptionBuilder_ == null) {
@@ -1764,7 +1764,7 @@ public final class AcGetCommandsAd {
          * Beschreibung des Kommandos "CommandID" (z.B. "Mailprogramm")
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue command_description = 10002;</code>
+         * <code>.dstore.values.StringValue command_description = 10002;</code>
          */
         public Builder clearCommandDescription() {
           if (commandDescriptionBuilder_ == null) {
@@ -1782,7 +1782,7 @@ public final class AcGetCommandsAd {
          * Beschreibung des Kommandos "CommandID" (z.B. "Mailprogramm")
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue command_description = 10002;</code>
+         * <code>.dstore.values.StringValue command_description = 10002;</code>
          */
         public io.dstore.values.StringValue.Builder getCommandDescriptionBuilder() {
           
@@ -1794,7 +1794,7 @@ public final class AcGetCommandsAd {
          * Beschreibung des Kommandos "CommandID" (z.B. "Mailprogramm")
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue command_description = 10002;</code>
+         * <code>.dstore.values.StringValue command_description = 10002;</code>
          */
         public io.dstore.values.StringValueOrBuilder getCommandDescriptionOrBuilder() {
           if (commandDescriptionBuilder_ != null) {
@@ -1809,7 +1809,7 @@ public final class AcGetCommandsAd {
          * Beschreibung des Kommandos "CommandID" (z.B. "Mailprogramm")
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue command_description = 10002;</code>
+         * <code>.dstore.values.StringValue command_description = 10002;</code>
          */
         private com.google.protobuf.SingleFieldBuilderV3<
             io.dstore.values.StringValue, io.dstore.values.StringValue.Builder, io.dstore.values.StringValueOrBuilder> 
@@ -1833,7 +1833,7 @@ public final class AcGetCommandsAd {
          * ID eines Kommandos (bzw. Programms), mit dem "Actions" abgearbeitet werden können
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue command_id = 10003;</code>
+         * <code>.dstore.values.IntegerValue command_id = 10003;</code>
          */
         public boolean hasCommandId() {
           return commandIdBuilder_ != null || commandId_ != null;
@@ -1843,7 +1843,7 @@ public final class AcGetCommandsAd {
          * ID eines Kommandos (bzw. Programms), mit dem "Actions" abgearbeitet werden können
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue command_id = 10003;</code>
+         * <code>.dstore.values.IntegerValue command_id = 10003;</code>
          */
         public io.dstore.values.IntegerValue getCommandId() {
           if (commandIdBuilder_ == null) {
@@ -1857,7 +1857,7 @@ public final class AcGetCommandsAd {
          * ID eines Kommandos (bzw. Programms), mit dem "Actions" abgearbeitet werden können
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue command_id = 10003;</code>
+         * <code>.dstore.values.IntegerValue command_id = 10003;</code>
          */
         public Builder setCommandId(io.dstore.values.IntegerValue value) {
           if (commandIdBuilder_ == null) {
@@ -1877,7 +1877,7 @@ public final class AcGetCommandsAd {
          * ID eines Kommandos (bzw. Programms), mit dem "Actions" abgearbeitet werden können
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue command_id = 10003;</code>
+         * <code>.dstore.values.IntegerValue command_id = 10003;</code>
          */
         public Builder setCommandId(
             io.dstore.values.IntegerValue.Builder builderForValue) {
@@ -1895,7 +1895,7 @@ public final class AcGetCommandsAd {
          * ID eines Kommandos (bzw. Programms), mit dem "Actions" abgearbeitet werden können
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue command_id = 10003;</code>
+         * <code>.dstore.values.IntegerValue command_id = 10003;</code>
          */
         public Builder mergeCommandId(io.dstore.values.IntegerValue value) {
           if (commandIdBuilder_ == null) {
@@ -1917,7 +1917,7 @@ public final class AcGetCommandsAd {
          * ID eines Kommandos (bzw. Programms), mit dem "Actions" abgearbeitet werden können
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue command_id = 10003;</code>
+         * <code>.dstore.values.IntegerValue command_id = 10003;</code>
          */
         public Builder clearCommandId() {
           if (commandIdBuilder_ == null) {
@@ -1935,7 +1935,7 @@ public final class AcGetCommandsAd {
          * ID eines Kommandos (bzw. Programms), mit dem "Actions" abgearbeitet werden können
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue command_id = 10003;</code>
+         * <code>.dstore.values.IntegerValue command_id = 10003;</code>
          */
         public io.dstore.values.IntegerValue.Builder getCommandIdBuilder() {
           
@@ -1947,7 +1947,7 @@ public final class AcGetCommandsAd {
          * ID eines Kommandos (bzw. Programms), mit dem "Actions" abgearbeitet werden können
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue command_id = 10003;</code>
+         * <code>.dstore.values.IntegerValue command_id = 10003;</code>
          */
         public io.dstore.values.IntegerValueOrBuilder getCommandIdOrBuilder() {
           if (commandIdBuilder_ != null) {
@@ -1962,7 +1962,7 @@ public final class AcGetCommandsAd {
          * ID eines Kommandos (bzw. Programms), mit dem "Actions" abgearbeitet werden können
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue command_id = 10003;</code>
+         * <code>.dstore.values.IntegerValue command_id = 10003;</code>
          */
         private com.google.protobuf.SingleFieldBuilderV3<
             io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> 
@@ -2222,7 +2222,7 @@ public final class AcGetCommandsAd {
         return memoizedHashCode;
       }
       int hash = 41;
-      hash = (19 * hash) + getDescriptorForType().hashCode();
+      hash = (19 * hash) + getDescriptor().hashCode();
       if (getMetaInformationCount() > 0) {
         hash = (37 * hash) + META_INFORMATION_FIELD_NUMBER;
         hash = (53 * hash) + getMetaInformationList().hashCode();

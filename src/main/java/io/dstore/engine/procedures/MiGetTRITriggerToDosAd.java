@@ -19,38 +19,38 @@ public final class MiGetTRITriggerToDosAd {
       com.google.protobuf.MessageOrBuilder {
 
     /**
-     * <code>optional .dstore.values.IntegerValue trigger_id = 1;</code>
+     * <code>.dstore.values.IntegerValue trigger_id = 1;</code>
      */
     boolean hasTriggerId();
     /**
-     * <code>optional .dstore.values.IntegerValue trigger_id = 1;</code>
+     * <code>.dstore.values.IntegerValue trigger_id = 1;</code>
      */
     io.dstore.values.IntegerValue getTriggerId();
     /**
-     * <code>optional .dstore.values.IntegerValue trigger_id = 1;</code>
+     * <code>.dstore.values.IntegerValue trigger_id = 1;</code>
      */
     io.dstore.values.IntegerValueOrBuilder getTriggerIdOrBuilder();
 
     /**
-     * <code>optional bool trigger_id_null = 1001;</code>
+     * <code>bool trigger_id_null = 1001;</code>
      */
     boolean getTriggerIdNull();
 
     /**
-     * <code>optional .dstore.values.IntegerValue work_step_no = 2;</code>
+     * <code>.dstore.values.IntegerValue work_step_no = 2;</code>
      */
     boolean hasWorkStepNo();
     /**
-     * <code>optional .dstore.values.IntegerValue work_step_no = 2;</code>
+     * <code>.dstore.values.IntegerValue work_step_no = 2;</code>
      */
     io.dstore.values.IntegerValue getWorkStepNo();
     /**
-     * <code>optional .dstore.values.IntegerValue work_step_no = 2;</code>
+     * <code>.dstore.values.IntegerValue work_step_no = 2;</code>
      */
     io.dstore.values.IntegerValueOrBuilder getWorkStepNoOrBuilder();
 
     /**
-     * <code>optional bool work_step_no_null = 1002;</code>
+     * <code>bool work_step_no_null = 1002;</code>
      */
     boolean getWorkStepNoNull();
   }
@@ -157,19 +157,19 @@ public final class MiGetTRITriggerToDosAd {
     public static final int TRIGGER_ID_FIELD_NUMBER = 1;
     private io.dstore.values.IntegerValue triggerId_;
     /**
-     * <code>optional .dstore.values.IntegerValue trigger_id = 1;</code>
+     * <code>.dstore.values.IntegerValue trigger_id = 1;</code>
      */
     public boolean hasTriggerId() {
       return triggerId_ != null;
     }
     /**
-     * <code>optional .dstore.values.IntegerValue trigger_id = 1;</code>
+     * <code>.dstore.values.IntegerValue trigger_id = 1;</code>
      */
     public io.dstore.values.IntegerValue getTriggerId() {
       return triggerId_ == null ? io.dstore.values.IntegerValue.getDefaultInstance() : triggerId_;
     }
     /**
-     * <code>optional .dstore.values.IntegerValue trigger_id = 1;</code>
+     * <code>.dstore.values.IntegerValue trigger_id = 1;</code>
      */
     public io.dstore.values.IntegerValueOrBuilder getTriggerIdOrBuilder() {
       return getTriggerId();
@@ -178,7 +178,7 @@ public final class MiGetTRITriggerToDosAd {
     public static final int TRIGGER_ID_NULL_FIELD_NUMBER = 1001;
     private boolean triggerIdNull_;
     /**
-     * <code>optional bool trigger_id_null = 1001;</code>
+     * <code>bool trigger_id_null = 1001;</code>
      */
     public boolean getTriggerIdNull() {
       return triggerIdNull_;
@@ -187,19 +187,19 @@ public final class MiGetTRITriggerToDosAd {
     public static final int WORK_STEP_NO_FIELD_NUMBER = 2;
     private io.dstore.values.IntegerValue workStepNo_;
     /**
-     * <code>optional .dstore.values.IntegerValue work_step_no = 2;</code>
+     * <code>.dstore.values.IntegerValue work_step_no = 2;</code>
      */
     public boolean hasWorkStepNo() {
       return workStepNo_ != null;
     }
     /**
-     * <code>optional .dstore.values.IntegerValue work_step_no = 2;</code>
+     * <code>.dstore.values.IntegerValue work_step_no = 2;</code>
      */
     public io.dstore.values.IntegerValue getWorkStepNo() {
       return workStepNo_ == null ? io.dstore.values.IntegerValue.getDefaultInstance() : workStepNo_;
     }
     /**
-     * <code>optional .dstore.values.IntegerValue work_step_no = 2;</code>
+     * <code>.dstore.values.IntegerValue work_step_no = 2;</code>
      */
     public io.dstore.values.IntegerValueOrBuilder getWorkStepNoOrBuilder() {
       return getWorkStepNo();
@@ -208,7 +208,7 @@ public final class MiGetTRITriggerToDosAd {
     public static final int WORK_STEP_NO_NULL_FIELD_NUMBER = 1002;
     private boolean workStepNoNull_;
     /**
-     * <code>optional bool work_step_no_null = 1002;</code>
+     * <code>bool work_step_no_null = 1002;</code>
      */
     public boolean getWorkStepNoNull() {
       return workStepNoNull_;
@@ -300,7 +300,7 @@ public final class MiGetTRITriggerToDosAd {
         return memoizedHashCode;
       }
       int hash = 41;
-      hash = (19 * hash) + getDescriptorForType().hashCode();
+      hash = (19 * hash) + getDescriptor().hashCode();
       if (hasTriggerId()) {
         hash = (37 * hash) + TRIGGER_ID_FIELD_NUMBER;
         hash = (53 * hash) + getTriggerId().hashCode();
@@ -566,13 +566,13 @@ public final class MiGetTRITriggerToDosAd {
       private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> triggerIdBuilder_;
       /**
-       * <code>optional .dstore.values.IntegerValue trigger_id = 1;</code>
+       * <code>.dstore.values.IntegerValue trigger_id = 1;</code>
        */
       public boolean hasTriggerId() {
         return triggerIdBuilder_ != null || triggerId_ != null;
       }
       /**
-       * <code>optional .dstore.values.IntegerValue trigger_id = 1;</code>
+       * <code>.dstore.values.IntegerValue trigger_id = 1;</code>
        */
       public io.dstore.values.IntegerValue getTriggerId() {
         if (triggerIdBuilder_ == null) {
@@ -582,7 +582,7 @@ public final class MiGetTRITriggerToDosAd {
         }
       }
       /**
-       * <code>optional .dstore.values.IntegerValue trigger_id = 1;</code>
+       * <code>.dstore.values.IntegerValue trigger_id = 1;</code>
        */
       public Builder setTriggerId(io.dstore.values.IntegerValue value) {
         if (triggerIdBuilder_ == null) {
@@ -598,7 +598,7 @@ public final class MiGetTRITriggerToDosAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.IntegerValue trigger_id = 1;</code>
+       * <code>.dstore.values.IntegerValue trigger_id = 1;</code>
        */
       public Builder setTriggerId(
           io.dstore.values.IntegerValue.Builder builderForValue) {
@@ -612,7 +612,7 @@ public final class MiGetTRITriggerToDosAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.IntegerValue trigger_id = 1;</code>
+       * <code>.dstore.values.IntegerValue trigger_id = 1;</code>
        */
       public Builder mergeTriggerId(io.dstore.values.IntegerValue value) {
         if (triggerIdBuilder_ == null) {
@@ -630,7 +630,7 @@ public final class MiGetTRITriggerToDosAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.IntegerValue trigger_id = 1;</code>
+       * <code>.dstore.values.IntegerValue trigger_id = 1;</code>
        */
       public Builder clearTriggerId() {
         if (triggerIdBuilder_ == null) {
@@ -644,7 +644,7 @@ public final class MiGetTRITriggerToDosAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.IntegerValue trigger_id = 1;</code>
+       * <code>.dstore.values.IntegerValue trigger_id = 1;</code>
        */
       public io.dstore.values.IntegerValue.Builder getTriggerIdBuilder() {
         
@@ -652,7 +652,7 @@ public final class MiGetTRITriggerToDosAd {
         return getTriggerIdFieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .dstore.values.IntegerValue trigger_id = 1;</code>
+       * <code>.dstore.values.IntegerValue trigger_id = 1;</code>
        */
       public io.dstore.values.IntegerValueOrBuilder getTriggerIdOrBuilder() {
         if (triggerIdBuilder_ != null) {
@@ -663,7 +663,7 @@ public final class MiGetTRITriggerToDosAd {
         }
       }
       /**
-       * <code>optional .dstore.values.IntegerValue trigger_id = 1;</code>
+       * <code>.dstore.values.IntegerValue trigger_id = 1;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> 
@@ -681,13 +681,13 @@ public final class MiGetTRITriggerToDosAd {
 
       private boolean triggerIdNull_ ;
       /**
-       * <code>optional bool trigger_id_null = 1001;</code>
+       * <code>bool trigger_id_null = 1001;</code>
        */
       public boolean getTriggerIdNull() {
         return triggerIdNull_;
       }
       /**
-       * <code>optional bool trigger_id_null = 1001;</code>
+       * <code>bool trigger_id_null = 1001;</code>
        */
       public Builder setTriggerIdNull(boolean value) {
         
@@ -696,7 +696,7 @@ public final class MiGetTRITriggerToDosAd {
         return this;
       }
       /**
-       * <code>optional bool trigger_id_null = 1001;</code>
+       * <code>bool trigger_id_null = 1001;</code>
        */
       public Builder clearTriggerIdNull() {
         
@@ -709,13 +709,13 @@ public final class MiGetTRITriggerToDosAd {
       private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> workStepNoBuilder_;
       /**
-       * <code>optional .dstore.values.IntegerValue work_step_no = 2;</code>
+       * <code>.dstore.values.IntegerValue work_step_no = 2;</code>
        */
       public boolean hasWorkStepNo() {
         return workStepNoBuilder_ != null || workStepNo_ != null;
       }
       /**
-       * <code>optional .dstore.values.IntegerValue work_step_no = 2;</code>
+       * <code>.dstore.values.IntegerValue work_step_no = 2;</code>
        */
       public io.dstore.values.IntegerValue getWorkStepNo() {
         if (workStepNoBuilder_ == null) {
@@ -725,7 +725,7 @@ public final class MiGetTRITriggerToDosAd {
         }
       }
       /**
-       * <code>optional .dstore.values.IntegerValue work_step_no = 2;</code>
+       * <code>.dstore.values.IntegerValue work_step_no = 2;</code>
        */
       public Builder setWorkStepNo(io.dstore.values.IntegerValue value) {
         if (workStepNoBuilder_ == null) {
@@ -741,7 +741,7 @@ public final class MiGetTRITriggerToDosAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.IntegerValue work_step_no = 2;</code>
+       * <code>.dstore.values.IntegerValue work_step_no = 2;</code>
        */
       public Builder setWorkStepNo(
           io.dstore.values.IntegerValue.Builder builderForValue) {
@@ -755,7 +755,7 @@ public final class MiGetTRITriggerToDosAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.IntegerValue work_step_no = 2;</code>
+       * <code>.dstore.values.IntegerValue work_step_no = 2;</code>
        */
       public Builder mergeWorkStepNo(io.dstore.values.IntegerValue value) {
         if (workStepNoBuilder_ == null) {
@@ -773,7 +773,7 @@ public final class MiGetTRITriggerToDosAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.IntegerValue work_step_no = 2;</code>
+       * <code>.dstore.values.IntegerValue work_step_no = 2;</code>
        */
       public Builder clearWorkStepNo() {
         if (workStepNoBuilder_ == null) {
@@ -787,7 +787,7 @@ public final class MiGetTRITriggerToDosAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.IntegerValue work_step_no = 2;</code>
+       * <code>.dstore.values.IntegerValue work_step_no = 2;</code>
        */
       public io.dstore.values.IntegerValue.Builder getWorkStepNoBuilder() {
         
@@ -795,7 +795,7 @@ public final class MiGetTRITriggerToDosAd {
         return getWorkStepNoFieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .dstore.values.IntegerValue work_step_no = 2;</code>
+       * <code>.dstore.values.IntegerValue work_step_no = 2;</code>
        */
       public io.dstore.values.IntegerValueOrBuilder getWorkStepNoOrBuilder() {
         if (workStepNoBuilder_ != null) {
@@ -806,7 +806,7 @@ public final class MiGetTRITriggerToDosAd {
         }
       }
       /**
-       * <code>optional .dstore.values.IntegerValue work_step_no = 2;</code>
+       * <code>.dstore.values.IntegerValue work_step_no = 2;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> 
@@ -824,13 +824,13 @@ public final class MiGetTRITriggerToDosAd {
 
       private boolean workStepNoNull_ ;
       /**
-       * <code>optional bool work_step_no_null = 1002;</code>
+       * <code>bool work_step_no_null = 1002;</code>
        */
       public boolean getWorkStepNoNull() {
         return workStepNoNull_;
       }
       /**
-       * <code>optional bool work_step_no_null = 1002;</code>
+       * <code>bool work_step_no_null = 1002;</code>
        */
       public Builder setWorkStepNoNull(boolean value) {
         
@@ -839,7 +839,7 @@ public final class MiGetTRITriggerToDosAd {
         return this;
       }
       /**
-       * <code>optional bool work_step_no_null = 1002;</code>
+       * <code>bool work_step_no_null = 1002;</code>
        */
       public Builder clearWorkStepNoNull() {
         
@@ -1098,7 +1098,7 @@ public final class MiGetTRITriggerToDosAd {
         com.google.protobuf.MessageOrBuilder {
 
       /**
-       * <code>optional int32 row_id = 10000;</code>
+       * <code>int32 row_id = 10000;</code>
        */
       int getRowId();
 
@@ -1107,7 +1107,7 @@ public final class MiGetTRITriggerToDosAd {
        * Optionaler Iterator (s. "mi_ModifyTRITriggerToDos_Ad", Parameter "&#64;IterationList")
        * </pre>
        *
-       * <code>optional .dstore.values.StringValue iteration_list = 10001;</code>
+       * <code>.dstore.values.StringValue iteration_list = 10001;</code>
        */
       boolean hasIterationList();
       /**
@@ -1115,7 +1115,7 @@ public final class MiGetTRITriggerToDosAd {
        * Optionaler Iterator (s. "mi_ModifyTRITriggerToDos_Ad", Parameter "&#64;IterationList")
        * </pre>
        *
-       * <code>optional .dstore.values.StringValue iteration_list = 10001;</code>
+       * <code>.dstore.values.StringValue iteration_list = 10001;</code>
        */
       io.dstore.values.StringValue getIterationList();
       /**
@@ -1123,7 +1123,7 @@ public final class MiGetTRITriggerToDosAd {
        * Optionaler Iterator (s. "mi_ModifyTRITriggerToDos_Ad", Parameter "&#64;IterationList")
        * </pre>
        *
-       * <code>optional .dstore.values.StringValue iteration_list = 10001;</code>
+       * <code>.dstore.values.StringValue iteration_list = 10001;</code>
        */
       io.dstore.values.StringValueOrBuilder getIterationListOrBuilder();
 
@@ -1132,7 +1132,7 @@ public final class MiGetTRITriggerToDosAd {
        * X-te Anweisung (bei "1" angefangen, maximal "255"). Die Nummer bestimmt die Reihenfolge in der die Anweisungen des Arbeitsschrittes ausgeführt werden
        * </pre>
        *
-       * <code>optional .dstore.values.IntegerValue to_do_no = 10002;</code>
+       * <code>.dstore.values.IntegerValue to_do_no = 10002;</code>
        */
       boolean hasToDoNo();
       /**
@@ -1140,7 +1140,7 @@ public final class MiGetTRITriggerToDosAd {
        * X-te Anweisung (bei "1" angefangen, maximal "255"). Die Nummer bestimmt die Reihenfolge in der die Anweisungen des Arbeitsschrittes ausgeführt werden
        * </pre>
        *
-       * <code>optional .dstore.values.IntegerValue to_do_no = 10002;</code>
+       * <code>.dstore.values.IntegerValue to_do_no = 10002;</code>
        */
       io.dstore.values.IntegerValue getToDoNo();
       /**
@@ -1148,7 +1148,7 @@ public final class MiGetTRITriggerToDosAd {
        * X-te Anweisung (bei "1" angefangen, maximal "255"). Die Nummer bestimmt die Reihenfolge in der die Anweisungen des Arbeitsschrittes ausgeführt werden
        * </pre>
        *
-       * <code>optional .dstore.values.IntegerValue to_do_no = 10002;</code>
+       * <code>.dstore.values.IntegerValue to_do_no = 10002;</code>
        */
       io.dstore.values.IntegerValueOrBuilder getToDoNoOrBuilder();
 
@@ -1157,7 +1157,7 @@ public final class MiGetTRITriggerToDosAd {
        * "TRI-Ausdruck", der einen Prozedur-Aufruf darstellt (die eigentliche "Anweisung" also)
        * </pre>
        *
-       * <code>optional .dstore.values.StringValue proc_call = 10003;</code>
+       * <code>.dstore.values.StringValue proc_call = 10003;</code>
        */
       boolean hasProcCall();
       /**
@@ -1165,7 +1165,7 @@ public final class MiGetTRITriggerToDosAd {
        * "TRI-Ausdruck", der einen Prozedur-Aufruf darstellt (die eigentliche "Anweisung" also)
        * </pre>
        *
-       * <code>optional .dstore.values.StringValue proc_call = 10003;</code>
+       * <code>.dstore.values.StringValue proc_call = 10003;</code>
        */
       io.dstore.values.StringValue getProcCall();
       /**
@@ -1173,7 +1173,7 @@ public final class MiGetTRITriggerToDosAd {
        * "TRI-Ausdruck", der einen Prozedur-Aufruf darstellt (die eigentliche "Anweisung" also)
        * </pre>
        *
-       * <code>optional .dstore.values.StringValue proc_call = 10003;</code>
+       * <code>.dstore.values.StringValue proc_call = 10003;</code>
        */
       io.dstore.values.StringValueOrBuilder getProcCallOrBuilder();
     }
@@ -1287,7 +1287,7 @@ public final class MiGetTRITriggerToDosAd {
       public static final int ROW_ID_FIELD_NUMBER = 10000;
       private int rowId_;
       /**
-       * <code>optional int32 row_id = 10000;</code>
+       * <code>int32 row_id = 10000;</code>
        */
       public int getRowId() {
         return rowId_;
@@ -1300,7 +1300,7 @@ public final class MiGetTRITriggerToDosAd {
        * Optionaler Iterator (s. "mi_ModifyTRITriggerToDos_Ad", Parameter "&#64;IterationList")
        * </pre>
        *
-       * <code>optional .dstore.values.StringValue iteration_list = 10001;</code>
+       * <code>.dstore.values.StringValue iteration_list = 10001;</code>
        */
       public boolean hasIterationList() {
         return iterationList_ != null;
@@ -1310,7 +1310,7 @@ public final class MiGetTRITriggerToDosAd {
        * Optionaler Iterator (s. "mi_ModifyTRITriggerToDos_Ad", Parameter "&#64;IterationList")
        * </pre>
        *
-       * <code>optional .dstore.values.StringValue iteration_list = 10001;</code>
+       * <code>.dstore.values.StringValue iteration_list = 10001;</code>
        */
       public io.dstore.values.StringValue getIterationList() {
         return iterationList_ == null ? io.dstore.values.StringValue.getDefaultInstance() : iterationList_;
@@ -1320,7 +1320,7 @@ public final class MiGetTRITriggerToDosAd {
        * Optionaler Iterator (s. "mi_ModifyTRITriggerToDos_Ad", Parameter "&#64;IterationList")
        * </pre>
        *
-       * <code>optional .dstore.values.StringValue iteration_list = 10001;</code>
+       * <code>.dstore.values.StringValue iteration_list = 10001;</code>
        */
       public io.dstore.values.StringValueOrBuilder getIterationListOrBuilder() {
         return getIterationList();
@@ -1333,7 +1333,7 @@ public final class MiGetTRITriggerToDosAd {
        * X-te Anweisung (bei "1" angefangen, maximal "255"). Die Nummer bestimmt die Reihenfolge in der die Anweisungen des Arbeitsschrittes ausgeführt werden
        * </pre>
        *
-       * <code>optional .dstore.values.IntegerValue to_do_no = 10002;</code>
+       * <code>.dstore.values.IntegerValue to_do_no = 10002;</code>
        */
       public boolean hasToDoNo() {
         return toDoNo_ != null;
@@ -1343,7 +1343,7 @@ public final class MiGetTRITriggerToDosAd {
        * X-te Anweisung (bei "1" angefangen, maximal "255"). Die Nummer bestimmt die Reihenfolge in der die Anweisungen des Arbeitsschrittes ausgeführt werden
        * </pre>
        *
-       * <code>optional .dstore.values.IntegerValue to_do_no = 10002;</code>
+       * <code>.dstore.values.IntegerValue to_do_no = 10002;</code>
        */
       public io.dstore.values.IntegerValue getToDoNo() {
         return toDoNo_ == null ? io.dstore.values.IntegerValue.getDefaultInstance() : toDoNo_;
@@ -1353,7 +1353,7 @@ public final class MiGetTRITriggerToDosAd {
        * X-te Anweisung (bei "1" angefangen, maximal "255"). Die Nummer bestimmt die Reihenfolge in der die Anweisungen des Arbeitsschrittes ausgeführt werden
        * </pre>
        *
-       * <code>optional .dstore.values.IntegerValue to_do_no = 10002;</code>
+       * <code>.dstore.values.IntegerValue to_do_no = 10002;</code>
        */
       public io.dstore.values.IntegerValueOrBuilder getToDoNoOrBuilder() {
         return getToDoNo();
@@ -1366,7 +1366,7 @@ public final class MiGetTRITriggerToDosAd {
        * "TRI-Ausdruck", der einen Prozedur-Aufruf darstellt (die eigentliche "Anweisung" also)
        * </pre>
        *
-       * <code>optional .dstore.values.StringValue proc_call = 10003;</code>
+       * <code>.dstore.values.StringValue proc_call = 10003;</code>
        */
       public boolean hasProcCall() {
         return procCall_ != null;
@@ -1376,7 +1376,7 @@ public final class MiGetTRITriggerToDosAd {
        * "TRI-Ausdruck", der einen Prozedur-Aufruf darstellt (die eigentliche "Anweisung" also)
        * </pre>
        *
-       * <code>optional .dstore.values.StringValue proc_call = 10003;</code>
+       * <code>.dstore.values.StringValue proc_call = 10003;</code>
        */
       public io.dstore.values.StringValue getProcCall() {
         return procCall_ == null ? io.dstore.values.StringValue.getDefaultInstance() : procCall_;
@@ -1386,7 +1386,7 @@ public final class MiGetTRITriggerToDosAd {
        * "TRI-Ausdruck", der einen Prozedur-Aufruf darstellt (die eigentliche "Anweisung" also)
        * </pre>
        *
-       * <code>optional .dstore.values.StringValue proc_call = 10003;</code>
+       * <code>.dstore.values.StringValue proc_call = 10003;</code>
        */
       public io.dstore.values.StringValueOrBuilder getProcCallOrBuilder() {
         return getProcCall();
@@ -1481,7 +1481,7 @@ public final class MiGetTRITriggerToDosAd {
           return memoizedHashCode;
         }
         int hash = 41;
-        hash = (19 * hash) + getDescriptorForType().hashCode();
+        hash = (19 * hash) + getDescriptor().hashCode();
         hash = (37 * hash) + ROW_ID_FIELD_NUMBER;
         hash = (53 * hash) + getRowId();
         if (hasIterationList()) {
@@ -1753,13 +1753,13 @@ public final class MiGetTRITriggerToDosAd {
 
         private int rowId_ ;
         /**
-         * <code>optional int32 row_id = 10000;</code>
+         * <code>int32 row_id = 10000;</code>
          */
         public int getRowId() {
           return rowId_;
         }
         /**
-         * <code>optional int32 row_id = 10000;</code>
+         * <code>int32 row_id = 10000;</code>
          */
         public Builder setRowId(int value) {
           
@@ -1768,7 +1768,7 @@ public final class MiGetTRITriggerToDosAd {
           return this;
         }
         /**
-         * <code>optional int32 row_id = 10000;</code>
+         * <code>int32 row_id = 10000;</code>
          */
         public Builder clearRowId() {
           
@@ -1785,7 +1785,7 @@ public final class MiGetTRITriggerToDosAd {
          * Optionaler Iterator (s. "mi_ModifyTRITriggerToDos_Ad", Parameter "&#64;IterationList")
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue iteration_list = 10001;</code>
+         * <code>.dstore.values.StringValue iteration_list = 10001;</code>
          */
         public boolean hasIterationList() {
           return iterationListBuilder_ != null || iterationList_ != null;
@@ -1795,7 +1795,7 @@ public final class MiGetTRITriggerToDosAd {
          * Optionaler Iterator (s. "mi_ModifyTRITriggerToDos_Ad", Parameter "&#64;IterationList")
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue iteration_list = 10001;</code>
+         * <code>.dstore.values.StringValue iteration_list = 10001;</code>
          */
         public io.dstore.values.StringValue getIterationList() {
           if (iterationListBuilder_ == null) {
@@ -1809,7 +1809,7 @@ public final class MiGetTRITriggerToDosAd {
          * Optionaler Iterator (s. "mi_ModifyTRITriggerToDos_Ad", Parameter "&#64;IterationList")
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue iteration_list = 10001;</code>
+         * <code>.dstore.values.StringValue iteration_list = 10001;</code>
          */
         public Builder setIterationList(io.dstore.values.StringValue value) {
           if (iterationListBuilder_ == null) {
@@ -1829,7 +1829,7 @@ public final class MiGetTRITriggerToDosAd {
          * Optionaler Iterator (s. "mi_ModifyTRITriggerToDos_Ad", Parameter "&#64;IterationList")
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue iteration_list = 10001;</code>
+         * <code>.dstore.values.StringValue iteration_list = 10001;</code>
          */
         public Builder setIterationList(
             io.dstore.values.StringValue.Builder builderForValue) {
@@ -1847,7 +1847,7 @@ public final class MiGetTRITriggerToDosAd {
          * Optionaler Iterator (s. "mi_ModifyTRITriggerToDos_Ad", Parameter "&#64;IterationList")
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue iteration_list = 10001;</code>
+         * <code>.dstore.values.StringValue iteration_list = 10001;</code>
          */
         public Builder mergeIterationList(io.dstore.values.StringValue value) {
           if (iterationListBuilder_ == null) {
@@ -1869,7 +1869,7 @@ public final class MiGetTRITriggerToDosAd {
          * Optionaler Iterator (s. "mi_ModifyTRITriggerToDos_Ad", Parameter "&#64;IterationList")
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue iteration_list = 10001;</code>
+         * <code>.dstore.values.StringValue iteration_list = 10001;</code>
          */
         public Builder clearIterationList() {
           if (iterationListBuilder_ == null) {
@@ -1887,7 +1887,7 @@ public final class MiGetTRITriggerToDosAd {
          * Optionaler Iterator (s. "mi_ModifyTRITriggerToDos_Ad", Parameter "&#64;IterationList")
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue iteration_list = 10001;</code>
+         * <code>.dstore.values.StringValue iteration_list = 10001;</code>
          */
         public io.dstore.values.StringValue.Builder getIterationListBuilder() {
           
@@ -1899,7 +1899,7 @@ public final class MiGetTRITriggerToDosAd {
          * Optionaler Iterator (s. "mi_ModifyTRITriggerToDos_Ad", Parameter "&#64;IterationList")
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue iteration_list = 10001;</code>
+         * <code>.dstore.values.StringValue iteration_list = 10001;</code>
          */
         public io.dstore.values.StringValueOrBuilder getIterationListOrBuilder() {
           if (iterationListBuilder_ != null) {
@@ -1914,7 +1914,7 @@ public final class MiGetTRITriggerToDosAd {
          * Optionaler Iterator (s. "mi_ModifyTRITriggerToDos_Ad", Parameter "&#64;IterationList")
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue iteration_list = 10001;</code>
+         * <code>.dstore.values.StringValue iteration_list = 10001;</code>
          */
         private com.google.protobuf.SingleFieldBuilderV3<
             io.dstore.values.StringValue, io.dstore.values.StringValue.Builder, io.dstore.values.StringValueOrBuilder> 
@@ -1938,7 +1938,7 @@ public final class MiGetTRITriggerToDosAd {
          * X-te Anweisung (bei "1" angefangen, maximal "255"). Die Nummer bestimmt die Reihenfolge in der die Anweisungen des Arbeitsschrittes ausgeführt werden
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue to_do_no = 10002;</code>
+         * <code>.dstore.values.IntegerValue to_do_no = 10002;</code>
          */
         public boolean hasToDoNo() {
           return toDoNoBuilder_ != null || toDoNo_ != null;
@@ -1948,7 +1948,7 @@ public final class MiGetTRITriggerToDosAd {
          * X-te Anweisung (bei "1" angefangen, maximal "255"). Die Nummer bestimmt die Reihenfolge in der die Anweisungen des Arbeitsschrittes ausgeführt werden
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue to_do_no = 10002;</code>
+         * <code>.dstore.values.IntegerValue to_do_no = 10002;</code>
          */
         public io.dstore.values.IntegerValue getToDoNo() {
           if (toDoNoBuilder_ == null) {
@@ -1962,7 +1962,7 @@ public final class MiGetTRITriggerToDosAd {
          * X-te Anweisung (bei "1" angefangen, maximal "255"). Die Nummer bestimmt die Reihenfolge in der die Anweisungen des Arbeitsschrittes ausgeführt werden
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue to_do_no = 10002;</code>
+         * <code>.dstore.values.IntegerValue to_do_no = 10002;</code>
          */
         public Builder setToDoNo(io.dstore.values.IntegerValue value) {
           if (toDoNoBuilder_ == null) {
@@ -1982,7 +1982,7 @@ public final class MiGetTRITriggerToDosAd {
          * X-te Anweisung (bei "1" angefangen, maximal "255"). Die Nummer bestimmt die Reihenfolge in der die Anweisungen des Arbeitsschrittes ausgeführt werden
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue to_do_no = 10002;</code>
+         * <code>.dstore.values.IntegerValue to_do_no = 10002;</code>
          */
         public Builder setToDoNo(
             io.dstore.values.IntegerValue.Builder builderForValue) {
@@ -2000,7 +2000,7 @@ public final class MiGetTRITriggerToDosAd {
          * X-te Anweisung (bei "1" angefangen, maximal "255"). Die Nummer bestimmt die Reihenfolge in der die Anweisungen des Arbeitsschrittes ausgeführt werden
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue to_do_no = 10002;</code>
+         * <code>.dstore.values.IntegerValue to_do_no = 10002;</code>
          */
         public Builder mergeToDoNo(io.dstore.values.IntegerValue value) {
           if (toDoNoBuilder_ == null) {
@@ -2022,7 +2022,7 @@ public final class MiGetTRITriggerToDosAd {
          * X-te Anweisung (bei "1" angefangen, maximal "255"). Die Nummer bestimmt die Reihenfolge in der die Anweisungen des Arbeitsschrittes ausgeführt werden
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue to_do_no = 10002;</code>
+         * <code>.dstore.values.IntegerValue to_do_no = 10002;</code>
          */
         public Builder clearToDoNo() {
           if (toDoNoBuilder_ == null) {
@@ -2040,7 +2040,7 @@ public final class MiGetTRITriggerToDosAd {
          * X-te Anweisung (bei "1" angefangen, maximal "255"). Die Nummer bestimmt die Reihenfolge in der die Anweisungen des Arbeitsschrittes ausgeführt werden
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue to_do_no = 10002;</code>
+         * <code>.dstore.values.IntegerValue to_do_no = 10002;</code>
          */
         public io.dstore.values.IntegerValue.Builder getToDoNoBuilder() {
           
@@ -2052,7 +2052,7 @@ public final class MiGetTRITriggerToDosAd {
          * X-te Anweisung (bei "1" angefangen, maximal "255"). Die Nummer bestimmt die Reihenfolge in der die Anweisungen des Arbeitsschrittes ausgeführt werden
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue to_do_no = 10002;</code>
+         * <code>.dstore.values.IntegerValue to_do_no = 10002;</code>
          */
         public io.dstore.values.IntegerValueOrBuilder getToDoNoOrBuilder() {
           if (toDoNoBuilder_ != null) {
@@ -2067,7 +2067,7 @@ public final class MiGetTRITriggerToDosAd {
          * X-te Anweisung (bei "1" angefangen, maximal "255"). Die Nummer bestimmt die Reihenfolge in der die Anweisungen des Arbeitsschrittes ausgeführt werden
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue to_do_no = 10002;</code>
+         * <code>.dstore.values.IntegerValue to_do_no = 10002;</code>
          */
         private com.google.protobuf.SingleFieldBuilderV3<
             io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> 
@@ -2091,7 +2091,7 @@ public final class MiGetTRITriggerToDosAd {
          * "TRI-Ausdruck", der einen Prozedur-Aufruf darstellt (die eigentliche "Anweisung" also)
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue proc_call = 10003;</code>
+         * <code>.dstore.values.StringValue proc_call = 10003;</code>
          */
         public boolean hasProcCall() {
           return procCallBuilder_ != null || procCall_ != null;
@@ -2101,7 +2101,7 @@ public final class MiGetTRITriggerToDosAd {
          * "TRI-Ausdruck", der einen Prozedur-Aufruf darstellt (die eigentliche "Anweisung" also)
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue proc_call = 10003;</code>
+         * <code>.dstore.values.StringValue proc_call = 10003;</code>
          */
         public io.dstore.values.StringValue getProcCall() {
           if (procCallBuilder_ == null) {
@@ -2115,7 +2115,7 @@ public final class MiGetTRITriggerToDosAd {
          * "TRI-Ausdruck", der einen Prozedur-Aufruf darstellt (die eigentliche "Anweisung" also)
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue proc_call = 10003;</code>
+         * <code>.dstore.values.StringValue proc_call = 10003;</code>
          */
         public Builder setProcCall(io.dstore.values.StringValue value) {
           if (procCallBuilder_ == null) {
@@ -2135,7 +2135,7 @@ public final class MiGetTRITriggerToDosAd {
          * "TRI-Ausdruck", der einen Prozedur-Aufruf darstellt (die eigentliche "Anweisung" also)
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue proc_call = 10003;</code>
+         * <code>.dstore.values.StringValue proc_call = 10003;</code>
          */
         public Builder setProcCall(
             io.dstore.values.StringValue.Builder builderForValue) {
@@ -2153,7 +2153,7 @@ public final class MiGetTRITriggerToDosAd {
          * "TRI-Ausdruck", der einen Prozedur-Aufruf darstellt (die eigentliche "Anweisung" also)
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue proc_call = 10003;</code>
+         * <code>.dstore.values.StringValue proc_call = 10003;</code>
          */
         public Builder mergeProcCall(io.dstore.values.StringValue value) {
           if (procCallBuilder_ == null) {
@@ -2175,7 +2175,7 @@ public final class MiGetTRITriggerToDosAd {
          * "TRI-Ausdruck", der einen Prozedur-Aufruf darstellt (die eigentliche "Anweisung" also)
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue proc_call = 10003;</code>
+         * <code>.dstore.values.StringValue proc_call = 10003;</code>
          */
         public Builder clearProcCall() {
           if (procCallBuilder_ == null) {
@@ -2193,7 +2193,7 @@ public final class MiGetTRITriggerToDosAd {
          * "TRI-Ausdruck", der einen Prozedur-Aufruf darstellt (die eigentliche "Anweisung" also)
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue proc_call = 10003;</code>
+         * <code>.dstore.values.StringValue proc_call = 10003;</code>
          */
         public io.dstore.values.StringValue.Builder getProcCallBuilder() {
           
@@ -2205,7 +2205,7 @@ public final class MiGetTRITriggerToDosAd {
          * "TRI-Ausdruck", der einen Prozedur-Aufruf darstellt (die eigentliche "Anweisung" also)
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue proc_call = 10003;</code>
+         * <code>.dstore.values.StringValue proc_call = 10003;</code>
          */
         public io.dstore.values.StringValueOrBuilder getProcCallOrBuilder() {
           if (procCallBuilder_ != null) {
@@ -2220,7 +2220,7 @@ public final class MiGetTRITriggerToDosAd {
          * "TRI-Ausdruck", der einen Prozedur-Aufruf darstellt (die eigentliche "Anweisung" also)
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue proc_call = 10003;</code>
+         * <code>.dstore.values.StringValue proc_call = 10003;</code>
          */
         private com.google.protobuf.SingleFieldBuilderV3<
             io.dstore.values.StringValue, io.dstore.values.StringValue.Builder, io.dstore.values.StringValueOrBuilder> 
@@ -2480,7 +2480,7 @@ public final class MiGetTRITriggerToDosAd {
         return memoizedHashCode;
       }
       int hash = 41;
-      hash = (19 * hash) + getDescriptorForType().hashCode();
+      hash = (19 * hash) + getDescriptor().hashCode();
       if (getMetaInformationCount() > 0) {
         hash = (37 * hash) + META_INFORMATION_FIELD_NUMBER;
         hash = (53 * hash) + getMetaInformationList().hashCode();

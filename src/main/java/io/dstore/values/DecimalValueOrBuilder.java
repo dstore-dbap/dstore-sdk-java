@@ -12,7 +12,7 @@ public interface DecimalValueOrBuilder extends
    * Encoded with decimal separator "."
    * </pre>
    *
-   * <code>optional string value = 1;</code>
+   * <code>string value = 1;</code>
    */
   java.lang.String getValue();
   /**
@@ -20,7 +20,7 @@ public interface DecimalValueOrBuilder extends
    * Encoded with decimal separator "."
    * </pre>
    *
-   * <code>optional string value = 1;</code>
+   * <code>string value = 1;</code>
    */
   com.google.protobuf.ByteString
       getValueBytes();

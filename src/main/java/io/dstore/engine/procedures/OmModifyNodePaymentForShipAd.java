@@ -19,92 +19,92 @@ public final class OmModifyNodePaymentForShipAd {
       com.google.protobuf.MessageOrBuilder {
 
     /**
-     * <code>optional .dstore.values.IntegerValue tree_node_id = 1;</code>
+     * <code>.dstore.values.IntegerValue tree_node_id = 1;</code>
      */
     boolean hasTreeNodeId();
     /**
-     * <code>optional .dstore.values.IntegerValue tree_node_id = 1;</code>
+     * <code>.dstore.values.IntegerValue tree_node_id = 1;</code>
      */
     io.dstore.values.IntegerValue getTreeNodeId();
     /**
-     * <code>optional .dstore.values.IntegerValue tree_node_id = 1;</code>
+     * <code>.dstore.values.IntegerValue tree_node_id = 1;</code>
      */
     io.dstore.values.IntegerValueOrBuilder getTreeNodeIdOrBuilder();
 
     /**
-     * <code>optional bool tree_node_id_null = 1001;</code>
+     * <code>bool tree_node_id_null = 1001;</code>
      */
     boolean getTreeNodeIdNull();
 
     /**
-     * <code>optional .dstore.values.IntegerValue payment_for_shipping_id = 2;</code>
+     * <code>.dstore.values.IntegerValue payment_for_shipping_id = 2;</code>
      */
     boolean hasPaymentForShippingId();
     /**
-     * <code>optional .dstore.values.IntegerValue payment_for_shipping_id = 2;</code>
+     * <code>.dstore.values.IntegerValue payment_for_shipping_id = 2;</code>
      */
     io.dstore.values.IntegerValue getPaymentForShippingId();
     /**
-     * <code>optional .dstore.values.IntegerValue payment_for_shipping_id = 2;</code>
+     * <code>.dstore.values.IntegerValue payment_for_shipping_id = 2;</code>
      */
     io.dstore.values.IntegerValueOrBuilder getPaymentForShippingIdOrBuilder();
 
     /**
-     * <code>optional bool payment_for_shipping_id_null = 1002;</code>
+     * <code>bool payment_for_shipping_id_null = 1002;</code>
      */
     boolean getPaymentForShippingIdNull();
 
     /**
-     * <code>optional .dstore.values.BooleanValue hide_when_ordered_alone = 3;</code>
+     * <code>.dstore.values.BooleanValue hide_when_ordered_alone = 3;</code>
      */
     boolean hasHideWhenOrderedAlone();
     /**
-     * <code>optional .dstore.values.BooleanValue hide_when_ordered_alone = 3;</code>
+     * <code>.dstore.values.BooleanValue hide_when_ordered_alone = 3;</code>
      */
     io.dstore.values.BooleanValue getHideWhenOrderedAlone();
     /**
-     * <code>optional .dstore.values.BooleanValue hide_when_ordered_alone = 3;</code>
+     * <code>.dstore.values.BooleanValue hide_when_ordered_alone = 3;</code>
      */
     io.dstore.values.BooleanValueOrBuilder getHideWhenOrderedAloneOrBuilder();
 
     /**
-     * <code>optional bool hide_when_ordered_alone_null = 1003;</code>
+     * <code>bool hide_when_ordered_alone_null = 1003;</code>
      */
     boolean getHideWhenOrderedAloneNull();
 
     /**
-     * <code>optional .dstore.values.BooleanValue always = 4;</code>
+     * <code>.dstore.values.BooleanValue always = 4;</code>
      */
     boolean hasAlways();
     /**
-     * <code>optional .dstore.values.BooleanValue always = 4;</code>
+     * <code>.dstore.values.BooleanValue always = 4;</code>
      */
     io.dstore.values.BooleanValue getAlways();
     /**
-     * <code>optional .dstore.values.BooleanValue always = 4;</code>
+     * <code>.dstore.values.BooleanValue always = 4;</code>
      */
     io.dstore.values.BooleanValueOrBuilder getAlwaysOrBuilder();
 
     /**
-     * <code>optional bool always_null = 1004;</code>
+     * <code>bool always_null = 1004;</code>
      */
     boolean getAlwaysNull();
 
     /**
-     * <code>optional .dstore.values.BooleanValue delete = 5;</code>
+     * <code>.dstore.values.BooleanValue delete = 5;</code>
      */
     boolean hasDelete();
     /**
-     * <code>optional .dstore.values.BooleanValue delete = 5;</code>
+     * <code>.dstore.values.BooleanValue delete = 5;</code>
      */
     io.dstore.values.BooleanValue getDelete();
     /**
-     * <code>optional .dstore.values.BooleanValue delete = 5;</code>
+     * <code>.dstore.values.BooleanValue delete = 5;</code>
      */
     io.dstore.values.BooleanValueOrBuilder getDeleteOrBuilder();
 
     /**
-     * <code>optional bool delete_null = 1005;</code>
+     * <code>bool delete_null = 1005;</code>
      */
     boolean getDeleteNull();
   }
@@ -268,19 +268,19 @@ public final class OmModifyNodePaymentForShipAd {
     public static final int TREE_NODE_ID_FIELD_NUMBER = 1;
     private io.dstore.values.IntegerValue treeNodeId_;
     /**
-     * <code>optional .dstore.values.IntegerValue tree_node_id = 1;</code>
+     * <code>.dstore.values.IntegerValue tree_node_id = 1;</code>
      */
     public boolean hasTreeNodeId() {
       return treeNodeId_ != null;
     }
     /**
-     * <code>optional .dstore.values.IntegerValue tree_node_id = 1;</code>
+     * <code>.dstore.values.IntegerValue tree_node_id = 1;</code>
      */
     public io.dstore.values.IntegerValue getTreeNodeId() {
       return treeNodeId_ == null ? io.dstore.values.IntegerValue.getDefaultInstance() : treeNodeId_;
     }
     /**
-     * <code>optional .dstore.values.IntegerValue tree_node_id = 1;</code>
+     * <code>.dstore.values.IntegerValue tree_node_id = 1;</code>
      */
     public io.dstore.values.IntegerValueOrBuilder getTreeNodeIdOrBuilder() {
       return getTreeNodeId();
@@ -289,7 +289,7 @@ public final class OmModifyNodePaymentForShipAd {
     public static final int TREE_NODE_ID_NULL_FIELD_NUMBER = 1001;
     private boolean treeNodeIdNull_;
     /**
-     * <code>optional bool tree_node_id_null = 1001;</code>
+     * <code>bool tree_node_id_null = 1001;</code>
      */
     public boolean getTreeNodeIdNull() {
       return treeNodeIdNull_;
@@ -298,19 +298,19 @@ public final class OmModifyNodePaymentForShipAd {
     public static final int PAYMENT_FOR_SHIPPING_ID_FIELD_NUMBER = 2;
     private io.dstore.values.IntegerValue paymentForShippingId_;
     /**
-     * <code>optional .dstore.values.IntegerValue payment_for_shipping_id = 2;</code>
+     * <code>.dstore.values.IntegerValue payment_for_shipping_id = 2;</code>
      */
     public boolean hasPaymentForShippingId() {
       return paymentForShippingId_ != null;
     }
     /**
-     * <code>optional .dstore.values.IntegerValue payment_for_shipping_id = 2;</code>
+     * <code>.dstore.values.IntegerValue payment_for_shipping_id = 2;</code>
      */
     public io.dstore.values.IntegerValue getPaymentForShippingId() {
       return paymentForShippingId_ == null ? io.dstore.values.IntegerValue.getDefaultInstance() : paymentForShippingId_;
     }
     /**
-     * <code>optional .dstore.values.IntegerValue payment_for_shipping_id = 2;</code>
+     * <code>.dstore.values.IntegerValue payment_for_shipping_id = 2;</code>
      */
     public io.dstore.values.IntegerValueOrBuilder getPaymentForShippingIdOrBuilder() {
       return getPaymentForShippingId();
@@ -319,7 +319,7 @@ public final class OmModifyNodePaymentForShipAd {
     public static final int PAYMENT_FOR_SHIPPING_ID_NULL_FIELD_NUMBER = 1002;
     private boolean paymentForShippingIdNull_;
     /**
-     * <code>optional bool payment_for_shipping_id_null = 1002;</code>
+     * <code>bool payment_for_shipping_id_null = 1002;</code>
      */
     public boolean getPaymentForShippingIdNull() {
       return paymentForShippingIdNull_;
@@ -328,19 +328,19 @@ public final class OmModifyNodePaymentForShipAd {
     public static final int HIDE_WHEN_ORDERED_ALONE_FIELD_NUMBER = 3;
     private io.dstore.values.BooleanValue hideWhenOrderedAlone_;
     /**
-     * <code>optional .dstore.values.BooleanValue hide_when_ordered_alone = 3;</code>
+     * <code>.dstore.values.BooleanValue hide_when_ordered_alone = 3;</code>
      */
     public boolean hasHideWhenOrderedAlone() {
       return hideWhenOrderedAlone_ != null;
     }
     /**
-     * <code>optional .dstore.values.BooleanValue hide_when_ordered_alone = 3;</code>
+     * <code>.dstore.values.BooleanValue hide_when_ordered_alone = 3;</code>
      */
     public io.dstore.values.BooleanValue getHideWhenOrderedAlone() {
       return hideWhenOrderedAlone_ == null ? io.dstore.values.BooleanValue.getDefaultInstance() : hideWhenOrderedAlone_;
     }
     /**
-     * <code>optional .dstore.values.BooleanValue hide_when_ordered_alone = 3;</code>
+     * <code>.dstore.values.BooleanValue hide_when_ordered_alone = 3;</code>
      */
     public io.dstore.values.BooleanValueOrBuilder getHideWhenOrderedAloneOrBuilder() {
       return getHideWhenOrderedAlone();
@@ -349,7 +349,7 @@ public final class OmModifyNodePaymentForShipAd {
     public static final int HIDE_WHEN_ORDERED_ALONE_NULL_FIELD_NUMBER = 1003;
     private boolean hideWhenOrderedAloneNull_;
     /**
-     * <code>optional bool hide_when_ordered_alone_null = 1003;</code>
+     * <code>bool hide_when_ordered_alone_null = 1003;</code>
      */
     public boolean getHideWhenOrderedAloneNull() {
       return hideWhenOrderedAloneNull_;
@@ -358,19 +358,19 @@ public final class OmModifyNodePaymentForShipAd {
     public static final int ALWAYS_FIELD_NUMBER = 4;
     private io.dstore.values.BooleanValue always_;
     /**
-     * <code>optional .dstore.values.BooleanValue always = 4;</code>
+     * <code>.dstore.values.BooleanValue always = 4;</code>
      */
     public boolean hasAlways() {
       return always_ != null;
     }
     /**
-     * <code>optional .dstore.values.BooleanValue always = 4;</code>
+     * <code>.dstore.values.BooleanValue always = 4;</code>
      */
     public io.dstore.values.BooleanValue getAlways() {
       return always_ == null ? io.dstore.values.BooleanValue.getDefaultInstance() : always_;
     }
     /**
-     * <code>optional .dstore.values.BooleanValue always = 4;</code>
+     * <code>.dstore.values.BooleanValue always = 4;</code>
      */
     public io.dstore.values.BooleanValueOrBuilder getAlwaysOrBuilder() {
       return getAlways();
@@ -379,7 +379,7 @@ public final class OmModifyNodePaymentForShipAd {
     public static final int ALWAYS_NULL_FIELD_NUMBER = 1004;
     private boolean alwaysNull_;
     /**
-     * <code>optional bool always_null = 1004;</code>
+     * <code>bool always_null = 1004;</code>
      */
     public boolean getAlwaysNull() {
       return alwaysNull_;
@@ -388,19 +388,19 @@ public final class OmModifyNodePaymentForShipAd {
     public static final int DELETE_FIELD_NUMBER = 5;
     private io.dstore.values.BooleanValue delete_;
     /**
-     * <code>optional .dstore.values.BooleanValue delete = 5;</code>
+     * <code>.dstore.values.BooleanValue delete = 5;</code>
      */
     public boolean hasDelete() {
       return delete_ != null;
     }
     /**
-     * <code>optional .dstore.values.BooleanValue delete = 5;</code>
+     * <code>.dstore.values.BooleanValue delete = 5;</code>
      */
     public io.dstore.values.BooleanValue getDelete() {
       return delete_ == null ? io.dstore.values.BooleanValue.getDefaultInstance() : delete_;
     }
     /**
-     * <code>optional .dstore.values.BooleanValue delete = 5;</code>
+     * <code>.dstore.values.BooleanValue delete = 5;</code>
      */
     public io.dstore.values.BooleanValueOrBuilder getDeleteOrBuilder() {
       return getDelete();
@@ -409,7 +409,7 @@ public final class OmModifyNodePaymentForShipAd {
     public static final int DELETE_NULL_FIELD_NUMBER = 1005;
     private boolean deleteNull_;
     /**
-     * <code>optional bool delete_null = 1005;</code>
+     * <code>bool delete_null = 1005;</code>
      */
     public boolean getDeleteNull() {
       return deleteNull_;
@@ -564,7 +564,7 @@ public final class OmModifyNodePaymentForShipAd {
         return memoizedHashCode;
       }
       int hash = 41;
-      hash = (19 * hash) + getDescriptorForType().hashCode();
+      hash = (19 * hash) + getDescriptor().hashCode();
       if (hasTreeNodeId()) {
         hash = (37 * hash) + TREE_NODE_ID_FIELD_NUMBER;
         hash = (53 * hash) + getTreeNodeId().hashCode();
@@ -911,13 +911,13 @@ public final class OmModifyNodePaymentForShipAd {
       private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> treeNodeIdBuilder_;
       /**
-       * <code>optional .dstore.values.IntegerValue tree_node_id = 1;</code>
+       * <code>.dstore.values.IntegerValue tree_node_id = 1;</code>
        */
       public boolean hasTreeNodeId() {
         return treeNodeIdBuilder_ != null || treeNodeId_ != null;
       }
       /**
-       * <code>optional .dstore.values.IntegerValue tree_node_id = 1;</code>
+       * <code>.dstore.values.IntegerValue tree_node_id = 1;</code>
        */
       public io.dstore.values.IntegerValue getTreeNodeId() {
         if (treeNodeIdBuilder_ == null) {
@@ -927,7 +927,7 @@ public final class OmModifyNodePaymentForShipAd {
         }
       }
       /**
-       * <code>optional .dstore.values.IntegerValue tree_node_id = 1;</code>
+       * <code>.dstore.values.IntegerValue tree_node_id = 1;</code>
        */
       public Builder setTreeNodeId(io.dstore.values.IntegerValue value) {
         if (treeNodeIdBuilder_ == null) {
@@ -943,7 +943,7 @@ public final class OmModifyNodePaymentForShipAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.IntegerValue tree_node_id = 1;</code>
+       * <code>.dstore.values.IntegerValue tree_node_id = 1;</code>
        */
       public Builder setTreeNodeId(
           io.dstore.values.IntegerValue.Builder builderForValue) {
@@ -957,7 +957,7 @@ public final class OmModifyNodePaymentForShipAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.IntegerValue tree_node_id = 1;</code>
+       * <code>.dstore.values.IntegerValue tree_node_id = 1;</code>
        */
       public Builder mergeTreeNodeId(io.dstore.values.IntegerValue value) {
         if (treeNodeIdBuilder_ == null) {
@@ -975,7 +975,7 @@ public final class OmModifyNodePaymentForShipAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.IntegerValue tree_node_id = 1;</code>
+       * <code>.dstore.values.IntegerValue tree_node_id = 1;</code>
        */
       public Builder clearTreeNodeId() {
         if (treeNodeIdBuilder_ == null) {
@@ -989,7 +989,7 @@ public final class OmModifyNodePaymentForShipAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.IntegerValue tree_node_id = 1;</code>
+       * <code>.dstore.values.IntegerValue tree_node_id = 1;</code>
        */
       public io.dstore.values.IntegerValue.Builder getTreeNodeIdBuilder() {
         
@@ -997,7 +997,7 @@ public final class OmModifyNodePaymentForShipAd {
         return getTreeNodeIdFieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .dstore.values.IntegerValue tree_node_id = 1;</code>
+       * <code>.dstore.values.IntegerValue tree_node_id = 1;</code>
        */
       public io.dstore.values.IntegerValueOrBuilder getTreeNodeIdOrBuilder() {
         if (treeNodeIdBuilder_ != null) {
@@ -1008,7 +1008,7 @@ public final class OmModifyNodePaymentForShipAd {
         }
       }
       /**
-       * <code>optional .dstore.values.IntegerValue tree_node_id = 1;</code>
+       * <code>.dstore.values.IntegerValue tree_node_id = 1;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> 
@@ -1026,13 +1026,13 @@ public final class OmModifyNodePaymentForShipAd {
 
       private boolean treeNodeIdNull_ ;
       /**
-       * <code>optional bool tree_node_id_null = 1001;</code>
+       * <code>bool tree_node_id_null = 1001;</code>
        */
       public boolean getTreeNodeIdNull() {
         return treeNodeIdNull_;
       }
       /**
-       * <code>optional bool tree_node_id_null = 1001;</code>
+       * <code>bool tree_node_id_null = 1001;</code>
        */
       public Builder setTreeNodeIdNull(boolean value) {
         
@@ -1041,7 +1041,7 @@ public final class OmModifyNodePaymentForShipAd {
         return this;
       }
       /**
-       * <code>optional bool tree_node_id_null = 1001;</code>
+       * <code>bool tree_node_id_null = 1001;</code>
        */
       public Builder clearTreeNodeIdNull() {
         
@@ -1054,13 +1054,13 @@ public final class OmModifyNodePaymentForShipAd {
       private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> paymentForShippingIdBuilder_;
       /**
-       * <code>optional .dstore.values.IntegerValue payment_for_shipping_id = 2;</code>
+       * <code>.dstore.values.IntegerValue payment_for_shipping_id = 2;</code>
        */
       public boolean hasPaymentForShippingId() {
         return paymentForShippingIdBuilder_ != null || paymentForShippingId_ != null;
       }
       /**
-       * <code>optional .dstore.values.IntegerValue payment_for_shipping_id = 2;</code>
+       * <code>.dstore.values.IntegerValue payment_for_shipping_id = 2;</code>
        */
       public io.dstore.values.IntegerValue getPaymentForShippingId() {
         if (paymentForShippingIdBuilder_ == null) {
@@ -1070,7 +1070,7 @@ public final class OmModifyNodePaymentForShipAd {
         }
       }
       /**
-       * <code>optional .dstore.values.IntegerValue payment_for_shipping_id = 2;</code>
+       * <code>.dstore.values.IntegerValue payment_for_shipping_id = 2;</code>
        */
       public Builder setPaymentForShippingId(io.dstore.values.IntegerValue value) {
         if (paymentForShippingIdBuilder_ == null) {
@@ -1086,7 +1086,7 @@ public final class OmModifyNodePaymentForShipAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.IntegerValue payment_for_shipping_id = 2;</code>
+       * <code>.dstore.values.IntegerValue payment_for_shipping_id = 2;</code>
        */
       public Builder setPaymentForShippingId(
           io.dstore.values.IntegerValue.Builder builderForValue) {
@@ -1100,7 +1100,7 @@ public final class OmModifyNodePaymentForShipAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.IntegerValue payment_for_shipping_id = 2;</code>
+       * <code>.dstore.values.IntegerValue payment_for_shipping_id = 2;</code>
        */
       public Builder mergePaymentForShippingId(io.dstore.values.IntegerValue value) {
         if (paymentForShippingIdBuilder_ == null) {
@@ -1118,7 +1118,7 @@ public final class OmModifyNodePaymentForShipAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.IntegerValue payment_for_shipping_id = 2;</code>
+       * <code>.dstore.values.IntegerValue payment_for_shipping_id = 2;</code>
        */
       public Builder clearPaymentForShippingId() {
         if (paymentForShippingIdBuilder_ == null) {
@@ -1132,7 +1132,7 @@ public final class OmModifyNodePaymentForShipAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.IntegerValue payment_for_shipping_id = 2;</code>
+       * <code>.dstore.values.IntegerValue payment_for_shipping_id = 2;</code>
        */
       public io.dstore.values.IntegerValue.Builder getPaymentForShippingIdBuilder() {
         
@@ -1140,7 +1140,7 @@ public final class OmModifyNodePaymentForShipAd {
         return getPaymentForShippingIdFieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .dstore.values.IntegerValue payment_for_shipping_id = 2;</code>
+       * <code>.dstore.values.IntegerValue payment_for_shipping_id = 2;</code>
        */
       public io.dstore.values.IntegerValueOrBuilder getPaymentForShippingIdOrBuilder() {
         if (paymentForShippingIdBuilder_ != null) {
@@ -1151,7 +1151,7 @@ public final class OmModifyNodePaymentForShipAd {
         }
       }
       /**
-       * <code>optional .dstore.values.IntegerValue payment_for_shipping_id = 2;</code>
+       * <code>.dstore.values.IntegerValue payment_for_shipping_id = 2;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> 
@@ -1169,13 +1169,13 @@ public final class OmModifyNodePaymentForShipAd {
 
       private boolean paymentForShippingIdNull_ ;
       /**
-       * <code>optional bool payment_for_shipping_id_null = 1002;</code>
+       * <code>bool payment_for_shipping_id_null = 1002;</code>
        */
       public boolean getPaymentForShippingIdNull() {
         return paymentForShippingIdNull_;
       }
       /**
-       * <code>optional bool payment_for_shipping_id_null = 1002;</code>
+       * <code>bool payment_for_shipping_id_null = 1002;</code>
        */
       public Builder setPaymentForShippingIdNull(boolean value) {
         
@@ -1184,7 +1184,7 @@ public final class OmModifyNodePaymentForShipAd {
         return this;
       }
       /**
-       * <code>optional bool payment_for_shipping_id_null = 1002;</code>
+       * <code>bool payment_for_shipping_id_null = 1002;</code>
        */
       public Builder clearPaymentForShippingIdNull() {
         
@@ -1197,13 +1197,13 @@ public final class OmModifyNodePaymentForShipAd {
       private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.values.BooleanValue, io.dstore.values.BooleanValue.Builder, io.dstore.values.BooleanValueOrBuilder> hideWhenOrderedAloneBuilder_;
       /**
-       * <code>optional .dstore.values.BooleanValue hide_when_ordered_alone = 3;</code>
+       * <code>.dstore.values.BooleanValue hide_when_ordered_alone = 3;</code>
        */
       public boolean hasHideWhenOrderedAlone() {
         return hideWhenOrderedAloneBuilder_ != null || hideWhenOrderedAlone_ != null;
       }
       /**
-       * <code>optional .dstore.values.BooleanValue hide_when_ordered_alone = 3;</code>
+       * <code>.dstore.values.BooleanValue hide_when_ordered_alone = 3;</code>
        */
       public io.dstore.values.BooleanValue getHideWhenOrderedAlone() {
         if (hideWhenOrderedAloneBuilder_ == null) {
@@ -1213,7 +1213,7 @@ public final class OmModifyNodePaymentForShipAd {
         }
       }
       /**
-       * <code>optional .dstore.values.BooleanValue hide_when_ordered_alone = 3;</code>
+       * <code>.dstore.values.BooleanValue hide_when_ordered_alone = 3;</code>
        */
       public Builder setHideWhenOrderedAlone(io.dstore.values.BooleanValue value) {
         if (hideWhenOrderedAloneBuilder_ == null) {
@@ -1229,7 +1229,7 @@ public final class OmModifyNodePaymentForShipAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.BooleanValue hide_when_ordered_alone = 3;</code>
+       * <code>.dstore.values.BooleanValue hide_when_ordered_alone = 3;</code>
        */
       public Builder setHideWhenOrderedAlone(
           io.dstore.values.BooleanValue.Builder builderForValue) {
@@ -1243,7 +1243,7 @@ public final class OmModifyNodePaymentForShipAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.BooleanValue hide_when_ordered_alone = 3;</code>
+       * <code>.dstore.values.BooleanValue hide_when_ordered_alone = 3;</code>
        */
       public Builder mergeHideWhenOrderedAlone(io.dstore.values.BooleanValue value) {
         if (hideWhenOrderedAloneBuilder_ == null) {
@@ -1261,7 +1261,7 @@ public final class OmModifyNodePaymentForShipAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.BooleanValue hide_when_ordered_alone = 3;</code>
+       * <code>.dstore.values.BooleanValue hide_when_ordered_alone = 3;</code>
        */
       public Builder clearHideWhenOrderedAlone() {
         if (hideWhenOrderedAloneBuilder_ == null) {
@@ -1275,7 +1275,7 @@ public final class OmModifyNodePaymentForShipAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.BooleanValue hide_when_ordered_alone = 3;</code>
+       * <code>.dstore.values.BooleanValue hide_when_ordered_alone = 3;</code>
        */
       public io.dstore.values.BooleanValue.Builder getHideWhenOrderedAloneBuilder() {
         
@@ -1283,7 +1283,7 @@ public final class OmModifyNodePaymentForShipAd {
         return getHideWhenOrderedAloneFieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .dstore.values.BooleanValue hide_when_ordered_alone = 3;</code>
+       * <code>.dstore.values.BooleanValue hide_when_ordered_alone = 3;</code>
        */
       public io.dstore.values.BooleanValueOrBuilder getHideWhenOrderedAloneOrBuilder() {
         if (hideWhenOrderedAloneBuilder_ != null) {
@@ -1294,7 +1294,7 @@ public final class OmModifyNodePaymentForShipAd {
         }
       }
       /**
-       * <code>optional .dstore.values.BooleanValue hide_when_ordered_alone = 3;</code>
+       * <code>.dstore.values.BooleanValue hide_when_ordered_alone = 3;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.values.BooleanValue, io.dstore.values.BooleanValue.Builder, io.dstore.values.BooleanValueOrBuilder> 
@@ -1312,13 +1312,13 @@ public final class OmModifyNodePaymentForShipAd {
 
       private boolean hideWhenOrderedAloneNull_ ;
       /**
-       * <code>optional bool hide_when_ordered_alone_null = 1003;</code>
+       * <code>bool hide_when_ordered_alone_null = 1003;</code>
        */
       public boolean getHideWhenOrderedAloneNull() {
         return hideWhenOrderedAloneNull_;
       }
       /**
-       * <code>optional bool hide_when_ordered_alone_null = 1003;</code>
+       * <code>bool hide_when_ordered_alone_null = 1003;</code>
        */
       public Builder setHideWhenOrderedAloneNull(boolean value) {
         
@@ -1327,7 +1327,7 @@ public final class OmModifyNodePaymentForShipAd {
         return this;
       }
       /**
-       * <code>optional bool hide_when_ordered_alone_null = 1003;</code>
+       * <code>bool hide_when_ordered_alone_null = 1003;</code>
        */
       public Builder clearHideWhenOrderedAloneNull() {
         
@@ -1340,13 +1340,13 @@ public final class OmModifyNodePaymentForShipAd {
       private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.values.BooleanValue, io.dstore.values.BooleanValue.Builder, io.dstore.values.BooleanValueOrBuilder> alwaysBuilder_;
       /**
-       * <code>optional .dstore.values.BooleanValue always = 4;</code>
+       * <code>.dstore.values.BooleanValue always = 4;</code>
        */
       public boolean hasAlways() {
         return alwaysBuilder_ != null || always_ != null;
       }
       /**
-       * <code>optional .dstore.values.BooleanValue always = 4;</code>
+       * <code>.dstore.values.BooleanValue always = 4;</code>
        */
       public io.dstore.values.BooleanValue getAlways() {
         if (alwaysBuilder_ == null) {
@@ -1356,7 +1356,7 @@ public final class OmModifyNodePaymentForShipAd {
         }
       }
       /**
-       * <code>optional .dstore.values.BooleanValue always = 4;</code>
+       * <code>.dstore.values.BooleanValue always = 4;</code>
        */
       public Builder setAlways(io.dstore.values.BooleanValue value) {
         if (alwaysBuilder_ == null) {
@@ -1372,7 +1372,7 @@ public final class OmModifyNodePaymentForShipAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.BooleanValue always = 4;</code>
+       * <code>.dstore.values.BooleanValue always = 4;</code>
        */
       public Builder setAlways(
           io.dstore.values.BooleanValue.Builder builderForValue) {
@@ -1386,7 +1386,7 @@ public final class OmModifyNodePaymentForShipAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.BooleanValue always = 4;</code>
+       * <code>.dstore.values.BooleanValue always = 4;</code>
        */
       public Builder mergeAlways(io.dstore.values.BooleanValue value) {
         if (alwaysBuilder_ == null) {
@@ -1404,7 +1404,7 @@ public final class OmModifyNodePaymentForShipAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.BooleanValue always = 4;</code>
+       * <code>.dstore.values.BooleanValue always = 4;</code>
        */
       public Builder clearAlways() {
         if (alwaysBuilder_ == null) {
@@ -1418,7 +1418,7 @@ public final class OmModifyNodePaymentForShipAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.BooleanValue always = 4;</code>
+       * <code>.dstore.values.BooleanValue always = 4;</code>
        */
       public io.dstore.values.BooleanValue.Builder getAlwaysBuilder() {
         
@@ -1426,7 +1426,7 @@ public final class OmModifyNodePaymentForShipAd {
         return getAlwaysFieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .dstore.values.BooleanValue always = 4;</code>
+       * <code>.dstore.values.BooleanValue always = 4;</code>
        */
       public io.dstore.values.BooleanValueOrBuilder getAlwaysOrBuilder() {
         if (alwaysBuilder_ != null) {
@@ -1437,7 +1437,7 @@ public final class OmModifyNodePaymentForShipAd {
         }
       }
       /**
-       * <code>optional .dstore.values.BooleanValue always = 4;</code>
+       * <code>.dstore.values.BooleanValue always = 4;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.values.BooleanValue, io.dstore.values.BooleanValue.Builder, io.dstore.values.BooleanValueOrBuilder> 
@@ -1455,13 +1455,13 @@ public final class OmModifyNodePaymentForShipAd {
 
       private boolean alwaysNull_ ;
       /**
-       * <code>optional bool always_null = 1004;</code>
+       * <code>bool always_null = 1004;</code>
        */
       public boolean getAlwaysNull() {
         return alwaysNull_;
       }
       /**
-       * <code>optional bool always_null = 1004;</code>
+       * <code>bool always_null = 1004;</code>
        */
       public Builder setAlwaysNull(boolean value) {
         
@@ -1470,7 +1470,7 @@ public final class OmModifyNodePaymentForShipAd {
         return this;
       }
       /**
-       * <code>optional bool always_null = 1004;</code>
+       * <code>bool always_null = 1004;</code>
        */
       public Builder clearAlwaysNull() {
         
@@ -1483,13 +1483,13 @@ public final class OmModifyNodePaymentForShipAd {
       private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.values.BooleanValue, io.dstore.values.BooleanValue.Builder, io.dstore.values.BooleanValueOrBuilder> deleteBuilder_;
       /**
-       * <code>optional .dstore.values.BooleanValue delete = 5;</code>
+       * <code>.dstore.values.BooleanValue delete = 5;</code>
        */
       public boolean hasDelete() {
         return deleteBuilder_ != null || delete_ != null;
       }
       /**
-       * <code>optional .dstore.values.BooleanValue delete = 5;</code>
+       * <code>.dstore.values.BooleanValue delete = 5;</code>
        */
       public io.dstore.values.BooleanValue getDelete() {
         if (deleteBuilder_ == null) {
@@ -1499,7 +1499,7 @@ public final class OmModifyNodePaymentForShipAd {
         }
       }
       /**
-       * <code>optional .dstore.values.BooleanValue delete = 5;</code>
+       * <code>.dstore.values.BooleanValue delete = 5;</code>
        */
       public Builder setDelete(io.dstore.values.BooleanValue value) {
         if (deleteBuilder_ == null) {
@@ -1515,7 +1515,7 @@ public final class OmModifyNodePaymentForShipAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.BooleanValue delete = 5;</code>
+       * <code>.dstore.values.BooleanValue delete = 5;</code>
        */
       public Builder setDelete(
           io.dstore.values.BooleanValue.Builder builderForValue) {
@@ -1529,7 +1529,7 @@ public final class OmModifyNodePaymentForShipAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.BooleanValue delete = 5;</code>
+       * <code>.dstore.values.BooleanValue delete = 5;</code>
        */
       public Builder mergeDelete(io.dstore.values.BooleanValue value) {
         if (deleteBuilder_ == null) {
@@ -1547,7 +1547,7 @@ public final class OmModifyNodePaymentForShipAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.BooleanValue delete = 5;</code>
+       * <code>.dstore.values.BooleanValue delete = 5;</code>
        */
       public Builder clearDelete() {
         if (deleteBuilder_ == null) {
@@ -1561,7 +1561,7 @@ public final class OmModifyNodePaymentForShipAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.BooleanValue delete = 5;</code>
+       * <code>.dstore.values.BooleanValue delete = 5;</code>
        */
       public io.dstore.values.BooleanValue.Builder getDeleteBuilder() {
         
@@ -1569,7 +1569,7 @@ public final class OmModifyNodePaymentForShipAd {
         return getDeleteFieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .dstore.values.BooleanValue delete = 5;</code>
+       * <code>.dstore.values.BooleanValue delete = 5;</code>
        */
       public io.dstore.values.BooleanValueOrBuilder getDeleteOrBuilder() {
         if (deleteBuilder_ != null) {
@@ -1580,7 +1580,7 @@ public final class OmModifyNodePaymentForShipAd {
         }
       }
       /**
-       * <code>optional .dstore.values.BooleanValue delete = 5;</code>
+       * <code>.dstore.values.BooleanValue delete = 5;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.values.BooleanValue, io.dstore.values.BooleanValue.Builder, io.dstore.values.BooleanValueOrBuilder> 
@@ -1598,13 +1598,13 @@ public final class OmModifyNodePaymentForShipAd {
 
       private boolean deleteNull_ ;
       /**
-       * <code>optional bool delete_null = 1005;</code>
+       * <code>bool delete_null = 1005;</code>
        */
       public boolean getDeleteNull() {
         return deleteNull_;
       }
       /**
-       * <code>optional bool delete_null = 1005;</code>
+       * <code>bool delete_null = 1005;</code>
        */
       public Builder setDeleteNull(boolean value) {
         
@@ -1613,7 +1613,7 @@ public final class OmModifyNodePaymentForShipAd {
         return this;
       }
       /**
-       * <code>optional bool delete_null = 1005;</code>
+       * <code>bool delete_null = 1005;</code>
        */
       public Builder clearDeleteNull() {
         
@@ -1872,7 +1872,7 @@ public final class OmModifyNodePaymentForShipAd {
         com.google.protobuf.MessageOrBuilder {
 
       /**
-       * <code>optional int32 row_id = 10000;</code>
+       * <code>int32 row_id = 10000;</code>
        */
       int getRowId();
     }
@@ -1947,7 +1947,7 @@ public final class OmModifyNodePaymentForShipAd {
       public static final int ROW_ID_FIELD_NUMBER = 10000;
       private int rowId_;
       /**
-       * <code>optional int32 row_id = 10000;</code>
+       * <code>int32 row_id = 10000;</code>
        */
       public int getRowId() {
         return rowId_;
@@ -2006,7 +2006,7 @@ public final class OmModifyNodePaymentForShipAd {
           return memoizedHashCode;
         }
         int hash = 41;
-        hash = (19 * hash) + getDescriptorForType().hashCode();
+        hash = (19 * hash) + getDescriptor().hashCode();
         hash = (37 * hash) + ROW_ID_FIELD_NUMBER;
         hash = (53 * hash) + getRowId();
         hash = (29 * hash) + unknownFields.hashCode();
@@ -2224,13 +2224,13 @@ public final class OmModifyNodePaymentForShipAd {
 
         private int rowId_ ;
         /**
-         * <code>optional int32 row_id = 10000;</code>
+         * <code>int32 row_id = 10000;</code>
          */
         public int getRowId() {
           return rowId_;
         }
         /**
-         * <code>optional int32 row_id = 10000;</code>
+         * <code>int32 row_id = 10000;</code>
          */
         public Builder setRowId(int value) {
           
@@ -2239,7 +2239,7 @@ public final class OmModifyNodePaymentForShipAd {
           return this;
         }
         /**
-         * <code>optional int32 row_id = 10000;</code>
+         * <code>int32 row_id = 10000;</code>
          */
         public Builder clearRowId() {
           
@@ -2492,7 +2492,7 @@ public final class OmModifyNodePaymentForShipAd {
         return memoizedHashCode;
       }
       int hash = 41;
-      hash = (19 * hash) + getDescriptorForType().hashCode();
+      hash = (19 * hash) + getDescriptor().hashCode();
       if (getMetaInformationCount() > 0) {
         hash = (37 * hash) + META_INFORMATION_FIELD_NUMBER;
         hash = (53 * hash) + getMetaInformationList().hashCode();

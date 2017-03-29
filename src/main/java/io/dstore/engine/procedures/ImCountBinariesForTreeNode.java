@@ -19,20 +19,20 @@ public final class ImCountBinariesForTreeNode {
       com.google.protobuf.MessageOrBuilder {
 
     /**
-     * <code>optional .dstore.values.IntegerValue tree_node_id = 1;</code>
+     * <code>.dstore.values.IntegerValue tree_node_id = 1;</code>
      */
     boolean hasTreeNodeId();
     /**
-     * <code>optional .dstore.values.IntegerValue tree_node_id = 1;</code>
+     * <code>.dstore.values.IntegerValue tree_node_id = 1;</code>
      */
     io.dstore.values.IntegerValue getTreeNodeId();
     /**
-     * <code>optional .dstore.values.IntegerValue tree_node_id = 1;</code>
+     * <code>.dstore.values.IntegerValue tree_node_id = 1;</code>
      */
     io.dstore.values.IntegerValueOrBuilder getTreeNodeIdOrBuilder();
 
     /**
-     * <code>optional bool tree_node_id_null = 1001;</code>
+     * <code>bool tree_node_id_null = 1001;</code>
      */
     boolean getTreeNodeIdNull();
   }
@@ -120,19 +120,19 @@ public final class ImCountBinariesForTreeNode {
     public static final int TREE_NODE_ID_FIELD_NUMBER = 1;
     private io.dstore.values.IntegerValue treeNodeId_;
     /**
-     * <code>optional .dstore.values.IntegerValue tree_node_id = 1;</code>
+     * <code>.dstore.values.IntegerValue tree_node_id = 1;</code>
      */
     public boolean hasTreeNodeId() {
       return treeNodeId_ != null;
     }
     /**
-     * <code>optional .dstore.values.IntegerValue tree_node_id = 1;</code>
+     * <code>.dstore.values.IntegerValue tree_node_id = 1;</code>
      */
     public io.dstore.values.IntegerValue getTreeNodeId() {
       return treeNodeId_ == null ? io.dstore.values.IntegerValue.getDefaultInstance() : treeNodeId_;
     }
     /**
-     * <code>optional .dstore.values.IntegerValue tree_node_id = 1;</code>
+     * <code>.dstore.values.IntegerValue tree_node_id = 1;</code>
      */
     public io.dstore.values.IntegerValueOrBuilder getTreeNodeIdOrBuilder() {
       return getTreeNodeId();
@@ -141,7 +141,7 @@ public final class ImCountBinariesForTreeNode {
     public static final int TREE_NODE_ID_NULL_FIELD_NUMBER = 1001;
     private boolean treeNodeIdNull_;
     /**
-     * <code>optional bool tree_node_id_null = 1001;</code>
+     * <code>bool tree_node_id_null = 1001;</code>
      */
     public boolean getTreeNodeIdNull() {
       return treeNodeIdNull_;
@@ -212,7 +212,7 @@ public final class ImCountBinariesForTreeNode {
         return memoizedHashCode;
       }
       int hash = 41;
-      hash = (19 * hash) + getDescriptorForType().hashCode();
+      hash = (19 * hash) + getDescriptor().hashCode();
       if (hasTreeNodeId()) {
         hash = (37 * hash) + TREE_NODE_ID_FIELD_NUMBER;
         hash = (53 * hash) + getTreeNodeId().hashCode();
@@ -451,13 +451,13 @@ public final class ImCountBinariesForTreeNode {
       private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> treeNodeIdBuilder_;
       /**
-       * <code>optional .dstore.values.IntegerValue tree_node_id = 1;</code>
+       * <code>.dstore.values.IntegerValue tree_node_id = 1;</code>
        */
       public boolean hasTreeNodeId() {
         return treeNodeIdBuilder_ != null || treeNodeId_ != null;
       }
       /**
-       * <code>optional .dstore.values.IntegerValue tree_node_id = 1;</code>
+       * <code>.dstore.values.IntegerValue tree_node_id = 1;</code>
        */
       public io.dstore.values.IntegerValue getTreeNodeId() {
         if (treeNodeIdBuilder_ == null) {
@@ -467,7 +467,7 @@ public final class ImCountBinariesForTreeNode {
         }
       }
       /**
-       * <code>optional .dstore.values.IntegerValue tree_node_id = 1;</code>
+       * <code>.dstore.values.IntegerValue tree_node_id = 1;</code>
        */
       public Builder setTreeNodeId(io.dstore.values.IntegerValue value) {
         if (treeNodeIdBuilder_ == null) {
@@ -483,7 +483,7 @@ public final class ImCountBinariesForTreeNode {
         return this;
       }
       /**
-       * <code>optional .dstore.values.IntegerValue tree_node_id = 1;</code>
+       * <code>.dstore.values.IntegerValue tree_node_id = 1;</code>
        */
       public Builder setTreeNodeId(
           io.dstore.values.IntegerValue.Builder builderForValue) {
@@ -497,7 +497,7 @@ public final class ImCountBinariesForTreeNode {
         return this;
       }
       /**
-       * <code>optional .dstore.values.IntegerValue tree_node_id = 1;</code>
+       * <code>.dstore.values.IntegerValue tree_node_id = 1;</code>
        */
       public Builder mergeTreeNodeId(io.dstore.values.IntegerValue value) {
         if (treeNodeIdBuilder_ == null) {
@@ -515,7 +515,7 @@ public final class ImCountBinariesForTreeNode {
         return this;
       }
       /**
-       * <code>optional .dstore.values.IntegerValue tree_node_id = 1;</code>
+       * <code>.dstore.values.IntegerValue tree_node_id = 1;</code>
        */
       public Builder clearTreeNodeId() {
         if (treeNodeIdBuilder_ == null) {
@@ -529,7 +529,7 @@ public final class ImCountBinariesForTreeNode {
         return this;
       }
       /**
-       * <code>optional .dstore.values.IntegerValue tree_node_id = 1;</code>
+       * <code>.dstore.values.IntegerValue tree_node_id = 1;</code>
        */
       public io.dstore.values.IntegerValue.Builder getTreeNodeIdBuilder() {
         
@@ -537,7 +537,7 @@ public final class ImCountBinariesForTreeNode {
         return getTreeNodeIdFieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .dstore.values.IntegerValue tree_node_id = 1;</code>
+       * <code>.dstore.values.IntegerValue tree_node_id = 1;</code>
        */
       public io.dstore.values.IntegerValueOrBuilder getTreeNodeIdOrBuilder() {
         if (treeNodeIdBuilder_ != null) {
@@ -548,7 +548,7 @@ public final class ImCountBinariesForTreeNode {
         }
       }
       /**
-       * <code>optional .dstore.values.IntegerValue tree_node_id = 1;</code>
+       * <code>.dstore.values.IntegerValue tree_node_id = 1;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> 
@@ -566,13 +566,13 @@ public final class ImCountBinariesForTreeNode {
 
       private boolean treeNodeIdNull_ ;
       /**
-       * <code>optional bool tree_node_id_null = 1001;</code>
+       * <code>bool tree_node_id_null = 1001;</code>
        */
       public boolean getTreeNodeIdNull() {
         return treeNodeIdNull_;
       }
       /**
-       * <code>optional bool tree_node_id_null = 1001;</code>
+       * <code>bool tree_node_id_null = 1001;</code>
        */
       public Builder setTreeNodeIdNull(boolean value) {
         
@@ -581,7 +581,7 @@ public final class ImCountBinariesForTreeNode {
         return this;
       }
       /**
-       * <code>optional bool tree_node_id_null = 1001;</code>
+       * <code>bool tree_node_id_null = 1001;</code>
        */
       public Builder clearTreeNodeIdNull() {
         
@@ -840,7 +840,7 @@ public final class ImCountBinariesForTreeNode {
         com.google.protobuf.MessageOrBuilder {
 
       /**
-       * <code>optional int32 row_id = 10000;</code>
+       * <code>int32 row_id = 10000;</code>
        */
       int getRowId();
 
@@ -849,7 +849,7 @@ public final class ImCountBinariesForTreeNode {
        * Anzahl der zugewiesenen Binärobjekte
        * </pre>
        *
-       * <code>optional .dstore.values.IntegerValue number_of_binaries = 10001;</code>
+       * <code>.dstore.values.IntegerValue number_of_binaries = 10001;</code>
        */
       boolean hasNumberOfBinaries();
       /**
@@ -857,7 +857,7 @@ public final class ImCountBinariesForTreeNode {
        * Anzahl der zugewiesenen Binärobjekte
        * </pre>
        *
-       * <code>optional .dstore.values.IntegerValue number_of_binaries = 10001;</code>
+       * <code>.dstore.values.IntegerValue number_of_binaries = 10001;</code>
        */
       io.dstore.values.IntegerValue getNumberOfBinaries();
       /**
@@ -865,7 +865,7 @@ public final class ImCountBinariesForTreeNode {
        * Anzahl der zugewiesenen Binärobjekte
        * </pre>
        *
-       * <code>optional .dstore.values.IntegerValue number_of_binaries = 10001;</code>
+       * <code>.dstore.values.IntegerValue number_of_binaries = 10001;</code>
        */
       io.dstore.values.IntegerValueOrBuilder getNumberOfBinariesOrBuilder();
 
@@ -874,7 +874,7 @@ public final class ImCountBinariesForTreeNode {
        * Zur "&#64;TreeNodeID" zugehörige ID des Artikel-Elementes
        * </pre>
        *
-       * <code>optional .dstore.values.IntegerValue node_id = 10002;</code>
+       * <code>.dstore.values.IntegerValue node_id = 10002;</code>
        */
       boolean hasNodeId();
       /**
@@ -882,7 +882,7 @@ public final class ImCountBinariesForTreeNode {
        * Zur "&#64;TreeNodeID" zugehörige ID des Artikel-Elementes
        * </pre>
        *
-       * <code>optional .dstore.values.IntegerValue node_id = 10002;</code>
+       * <code>.dstore.values.IntegerValue node_id = 10002;</code>
        */
       io.dstore.values.IntegerValue getNodeId();
       /**
@@ -890,7 +890,7 @@ public final class ImCountBinariesForTreeNode {
        * Zur "&#64;TreeNodeID" zugehörige ID des Artikel-Elementes
        * </pre>
        *
-       * <code>optional .dstore.values.IntegerValue node_id = 10002;</code>
+       * <code>.dstore.values.IntegerValue node_id = 10002;</code>
        */
       io.dstore.values.IntegerValueOrBuilder getNodeIdOrBuilder();
     }
@@ -991,7 +991,7 @@ public final class ImCountBinariesForTreeNode {
       public static final int ROW_ID_FIELD_NUMBER = 10000;
       private int rowId_;
       /**
-       * <code>optional int32 row_id = 10000;</code>
+       * <code>int32 row_id = 10000;</code>
        */
       public int getRowId() {
         return rowId_;
@@ -1004,7 +1004,7 @@ public final class ImCountBinariesForTreeNode {
        * Anzahl der zugewiesenen Binärobjekte
        * </pre>
        *
-       * <code>optional .dstore.values.IntegerValue number_of_binaries = 10001;</code>
+       * <code>.dstore.values.IntegerValue number_of_binaries = 10001;</code>
        */
       public boolean hasNumberOfBinaries() {
         return numberOfBinaries_ != null;
@@ -1014,7 +1014,7 @@ public final class ImCountBinariesForTreeNode {
        * Anzahl der zugewiesenen Binärobjekte
        * </pre>
        *
-       * <code>optional .dstore.values.IntegerValue number_of_binaries = 10001;</code>
+       * <code>.dstore.values.IntegerValue number_of_binaries = 10001;</code>
        */
       public io.dstore.values.IntegerValue getNumberOfBinaries() {
         return numberOfBinaries_ == null ? io.dstore.values.IntegerValue.getDefaultInstance() : numberOfBinaries_;
@@ -1024,7 +1024,7 @@ public final class ImCountBinariesForTreeNode {
        * Anzahl der zugewiesenen Binärobjekte
        * </pre>
        *
-       * <code>optional .dstore.values.IntegerValue number_of_binaries = 10001;</code>
+       * <code>.dstore.values.IntegerValue number_of_binaries = 10001;</code>
        */
       public io.dstore.values.IntegerValueOrBuilder getNumberOfBinariesOrBuilder() {
         return getNumberOfBinaries();
@@ -1037,7 +1037,7 @@ public final class ImCountBinariesForTreeNode {
        * Zur "&#64;TreeNodeID" zugehörige ID des Artikel-Elementes
        * </pre>
        *
-       * <code>optional .dstore.values.IntegerValue node_id = 10002;</code>
+       * <code>.dstore.values.IntegerValue node_id = 10002;</code>
        */
       public boolean hasNodeId() {
         return nodeId_ != null;
@@ -1047,7 +1047,7 @@ public final class ImCountBinariesForTreeNode {
        * Zur "&#64;TreeNodeID" zugehörige ID des Artikel-Elementes
        * </pre>
        *
-       * <code>optional .dstore.values.IntegerValue node_id = 10002;</code>
+       * <code>.dstore.values.IntegerValue node_id = 10002;</code>
        */
       public io.dstore.values.IntegerValue getNodeId() {
         return nodeId_ == null ? io.dstore.values.IntegerValue.getDefaultInstance() : nodeId_;
@@ -1057,7 +1057,7 @@ public final class ImCountBinariesForTreeNode {
        * Zur "&#64;TreeNodeID" zugehörige ID des Artikel-Elementes
        * </pre>
        *
-       * <code>optional .dstore.values.IntegerValue node_id = 10002;</code>
+       * <code>.dstore.values.IntegerValue node_id = 10002;</code>
        */
       public io.dstore.values.IntegerValueOrBuilder getNodeIdOrBuilder() {
         return getNodeId();
@@ -1140,7 +1140,7 @@ public final class ImCountBinariesForTreeNode {
           return memoizedHashCode;
         }
         int hash = 41;
-        hash = (19 * hash) + getDescriptorForType().hashCode();
+        hash = (19 * hash) + getDescriptor().hashCode();
         hash = (37 * hash) + ROW_ID_FIELD_NUMBER;
         hash = (53 * hash) + getRowId();
         if (hasNumberOfBinaries()) {
@@ -1394,13 +1394,13 @@ public final class ImCountBinariesForTreeNode {
 
         private int rowId_ ;
         /**
-         * <code>optional int32 row_id = 10000;</code>
+         * <code>int32 row_id = 10000;</code>
          */
         public int getRowId() {
           return rowId_;
         }
         /**
-         * <code>optional int32 row_id = 10000;</code>
+         * <code>int32 row_id = 10000;</code>
          */
         public Builder setRowId(int value) {
           
@@ -1409,7 +1409,7 @@ public final class ImCountBinariesForTreeNode {
           return this;
         }
         /**
-         * <code>optional int32 row_id = 10000;</code>
+         * <code>int32 row_id = 10000;</code>
          */
         public Builder clearRowId() {
           
@@ -1426,7 +1426,7 @@ public final class ImCountBinariesForTreeNode {
          * Anzahl der zugewiesenen Binärobjekte
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue number_of_binaries = 10001;</code>
+         * <code>.dstore.values.IntegerValue number_of_binaries = 10001;</code>
          */
         public boolean hasNumberOfBinaries() {
           return numberOfBinariesBuilder_ != null || numberOfBinaries_ != null;
@@ -1436,7 +1436,7 @@ public final class ImCountBinariesForTreeNode {
          * Anzahl der zugewiesenen Binärobjekte
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue number_of_binaries = 10001;</code>
+         * <code>.dstore.values.IntegerValue number_of_binaries = 10001;</code>
          */
         public io.dstore.values.IntegerValue getNumberOfBinaries() {
           if (numberOfBinariesBuilder_ == null) {
@@ -1450,7 +1450,7 @@ public final class ImCountBinariesForTreeNode {
          * Anzahl der zugewiesenen Binärobjekte
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue number_of_binaries = 10001;</code>
+         * <code>.dstore.values.IntegerValue number_of_binaries = 10001;</code>
          */
         public Builder setNumberOfBinaries(io.dstore.values.IntegerValue value) {
           if (numberOfBinariesBuilder_ == null) {
@@ -1470,7 +1470,7 @@ public final class ImCountBinariesForTreeNode {
          * Anzahl der zugewiesenen Binärobjekte
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue number_of_binaries = 10001;</code>
+         * <code>.dstore.values.IntegerValue number_of_binaries = 10001;</code>
          */
         public Builder setNumberOfBinaries(
             io.dstore.values.IntegerValue.Builder builderForValue) {
@@ -1488,7 +1488,7 @@ public final class ImCountBinariesForTreeNode {
          * Anzahl der zugewiesenen Binärobjekte
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue number_of_binaries = 10001;</code>
+         * <code>.dstore.values.IntegerValue number_of_binaries = 10001;</code>
          */
         public Builder mergeNumberOfBinaries(io.dstore.values.IntegerValue value) {
           if (numberOfBinariesBuilder_ == null) {
@@ -1510,7 +1510,7 @@ public final class ImCountBinariesForTreeNode {
          * Anzahl der zugewiesenen Binärobjekte
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue number_of_binaries = 10001;</code>
+         * <code>.dstore.values.IntegerValue number_of_binaries = 10001;</code>
          */
         public Builder clearNumberOfBinaries() {
           if (numberOfBinariesBuilder_ == null) {
@@ -1528,7 +1528,7 @@ public final class ImCountBinariesForTreeNode {
          * Anzahl der zugewiesenen Binärobjekte
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue number_of_binaries = 10001;</code>
+         * <code>.dstore.values.IntegerValue number_of_binaries = 10001;</code>
          */
         public io.dstore.values.IntegerValue.Builder getNumberOfBinariesBuilder() {
           
@@ -1540,7 +1540,7 @@ public final class ImCountBinariesForTreeNode {
          * Anzahl der zugewiesenen Binärobjekte
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue number_of_binaries = 10001;</code>
+         * <code>.dstore.values.IntegerValue number_of_binaries = 10001;</code>
          */
         public io.dstore.values.IntegerValueOrBuilder getNumberOfBinariesOrBuilder() {
           if (numberOfBinariesBuilder_ != null) {
@@ -1555,7 +1555,7 @@ public final class ImCountBinariesForTreeNode {
          * Anzahl der zugewiesenen Binärobjekte
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue number_of_binaries = 10001;</code>
+         * <code>.dstore.values.IntegerValue number_of_binaries = 10001;</code>
          */
         private com.google.protobuf.SingleFieldBuilderV3<
             io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> 
@@ -1579,7 +1579,7 @@ public final class ImCountBinariesForTreeNode {
          * Zur "&#64;TreeNodeID" zugehörige ID des Artikel-Elementes
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue node_id = 10002;</code>
+         * <code>.dstore.values.IntegerValue node_id = 10002;</code>
          */
         public boolean hasNodeId() {
           return nodeIdBuilder_ != null || nodeId_ != null;
@@ -1589,7 +1589,7 @@ public final class ImCountBinariesForTreeNode {
          * Zur "&#64;TreeNodeID" zugehörige ID des Artikel-Elementes
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue node_id = 10002;</code>
+         * <code>.dstore.values.IntegerValue node_id = 10002;</code>
          */
         public io.dstore.values.IntegerValue getNodeId() {
           if (nodeIdBuilder_ == null) {
@@ -1603,7 +1603,7 @@ public final class ImCountBinariesForTreeNode {
          * Zur "&#64;TreeNodeID" zugehörige ID des Artikel-Elementes
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue node_id = 10002;</code>
+         * <code>.dstore.values.IntegerValue node_id = 10002;</code>
          */
         public Builder setNodeId(io.dstore.values.IntegerValue value) {
           if (nodeIdBuilder_ == null) {
@@ -1623,7 +1623,7 @@ public final class ImCountBinariesForTreeNode {
          * Zur "&#64;TreeNodeID" zugehörige ID des Artikel-Elementes
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue node_id = 10002;</code>
+         * <code>.dstore.values.IntegerValue node_id = 10002;</code>
          */
         public Builder setNodeId(
             io.dstore.values.IntegerValue.Builder builderForValue) {
@@ -1641,7 +1641,7 @@ public final class ImCountBinariesForTreeNode {
          * Zur "&#64;TreeNodeID" zugehörige ID des Artikel-Elementes
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue node_id = 10002;</code>
+         * <code>.dstore.values.IntegerValue node_id = 10002;</code>
          */
         public Builder mergeNodeId(io.dstore.values.IntegerValue value) {
           if (nodeIdBuilder_ == null) {
@@ -1663,7 +1663,7 @@ public final class ImCountBinariesForTreeNode {
          * Zur "&#64;TreeNodeID" zugehörige ID des Artikel-Elementes
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue node_id = 10002;</code>
+         * <code>.dstore.values.IntegerValue node_id = 10002;</code>
          */
         public Builder clearNodeId() {
           if (nodeIdBuilder_ == null) {
@@ -1681,7 +1681,7 @@ public final class ImCountBinariesForTreeNode {
          * Zur "&#64;TreeNodeID" zugehörige ID des Artikel-Elementes
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue node_id = 10002;</code>
+         * <code>.dstore.values.IntegerValue node_id = 10002;</code>
          */
         public io.dstore.values.IntegerValue.Builder getNodeIdBuilder() {
           
@@ -1693,7 +1693,7 @@ public final class ImCountBinariesForTreeNode {
          * Zur "&#64;TreeNodeID" zugehörige ID des Artikel-Elementes
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue node_id = 10002;</code>
+         * <code>.dstore.values.IntegerValue node_id = 10002;</code>
          */
         public io.dstore.values.IntegerValueOrBuilder getNodeIdOrBuilder() {
           if (nodeIdBuilder_ != null) {
@@ -1708,7 +1708,7 @@ public final class ImCountBinariesForTreeNode {
          * Zur "&#64;TreeNodeID" zugehörige ID des Artikel-Elementes
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue node_id = 10002;</code>
+         * <code>.dstore.values.IntegerValue node_id = 10002;</code>
          */
         private com.google.protobuf.SingleFieldBuilderV3<
             io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> 
@@ -1968,7 +1968,7 @@ public final class ImCountBinariesForTreeNode {
         return memoizedHashCode;
       }
       int hash = 41;
-      hash = (19 * hash) + getDescriptorForType().hashCode();
+      hash = (19 * hash) + getDescriptor().hashCode();
       if (getMetaInformationCount() > 0) {
         hash = (37 * hash) + META_INFORMATION_FIELD_NUMBER;
         hash = (53 * hash) + getMetaInformationList().hashCode();

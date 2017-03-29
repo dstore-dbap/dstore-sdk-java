@@ -19,20 +19,20 @@ public final class OmGetRequiredInfoForPayAd {
       com.google.protobuf.MessageOrBuilder {
 
     /**
-     * <code>optional .dstore.values.IntegerValue payment_for_shipping_id = 1;</code>
+     * <code>.dstore.values.IntegerValue payment_for_shipping_id = 1;</code>
      */
     boolean hasPaymentForShippingId();
     /**
-     * <code>optional .dstore.values.IntegerValue payment_for_shipping_id = 1;</code>
+     * <code>.dstore.values.IntegerValue payment_for_shipping_id = 1;</code>
      */
     io.dstore.values.IntegerValue getPaymentForShippingId();
     /**
-     * <code>optional .dstore.values.IntegerValue payment_for_shipping_id = 1;</code>
+     * <code>.dstore.values.IntegerValue payment_for_shipping_id = 1;</code>
      */
     io.dstore.values.IntegerValueOrBuilder getPaymentForShippingIdOrBuilder();
 
     /**
-     * <code>optional bool payment_for_shipping_id_null = 1001;</code>
+     * <code>bool payment_for_shipping_id_null = 1001;</code>
      */
     boolean getPaymentForShippingIdNull();
   }
@@ -120,19 +120,19 @@ public final class OmGetRequiredInfoForPayAd {
     public static final int PAYMENT_FOR_SHIPPING_ID_FIELD_NUMBER = 1;
     private io.dstore.values.IntegerValue paymentForShippingId_;
     /**
-     * <code>optional .dstore.values.IntegerValue payment_for_shipping_id = 1;</code>
+     * <code>.dstore.values.IntegerValue payment_for_shipping_id = 1;</code>
      */
     public boolean hasPaymentForShippingId() {
       return paymentForShippingId_ != null;
     }
     /**
-     * <code>optional .dstore.values.IntegerValue payment_for_shipping_id = 1;</code>
+     * <code>.dstore.values.IntegerValue payment_for_shipping_id = 1;</code>
      */
     public io.dstore.values.IntegerValue getPaymentForShippingId() {
       return paymentForShippingId_ == null ? io.dstore.values.IntegerValue.getDefaultInstance() : paymentForShippingId_;
     }
     /**
-     * <code>optional .dstore.values.IntegerValue payment_for_shipping_id = 1;</code>
+     * <code>.dstore.values.IntegerValue payment_for_shipping_id = 1;</code>
      */
     public io.dstore.values.IntegerValueOrBuilder getPaymentForShippingIdOrBuilder() {
       return getPaymentForShippingId();
@@ -141,7 +141,7 @@ public final class OmGetRequiredInfoForPayAd {
     public static final int PAYMENT_FOR_SHIPPING_ID_NULL_FIELD_NUMBER = 1001;
     private boolean paymentForShippingIdNull_;
     /**
-     * <code>optional bool payment_for_shipping_id_null = 1001;</code>
+     * <code>bool payment_for_shipping_id_null = 1001;</code>
      */
     public boolean getPaymentForShippingIdNull() {
       return paymentForShippingIdNull_;
@@ -212,7 +212,7 @@ public final class OmGetRequiredInfoForPayAd {
         return memoizedHashCode;
       }
       int hash = 41;
-      hash = (19 * hash) + getDescriptorForType().hashCode();
+      hash = (19 * hash) + getDescriptor().hashCode();
       if (hasPaymentForShippingId()) {
         hash = (37 * hash) + PAYMENT_FOR_SHIPPING_ID_FIELD_NUMBER;
         hash = (53 * hash) + getPaymentForShippingId().hashCode();
@@ -451,13 +451,13 @@ public final class OmGetRequiredInfoForPayAd {
       private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> paymentForShippingIdBuilder_;
       /**
-       * <code>optional .dstore.values.IntegerValue payment_for_shipping_id = 1;</code>
+       * <code>.dstore.values.IntegerValue payment_for_shipping_id = 1;</code>
        */
       public boolean hasPaymentForShippingId() {
         return paymentForShippingIdBuilder_ != null || paymentForShippingId_ != null;
       }
       /**
-       * <code>optional .dstore.values.IntegerValue payment_for_shipping_id = 1;</code>
+       * <code>.dstore.values.IntegerValue payment_for_shipping_id = 1;</code>
        */
       public io.dstore.values.IntegerValue getPaymentForShippingId() {
         if (paymentForShippingIdBuilder_ == null) {
@@ -467,7 +467,7 @@ public final class OmGetRequiredInfoForPayAd {
         }
       }
       /**
-       * <code>optional .dstore.values.IntegerValue payment_for_shipping_id = 1;</code>
+       * <code>.dstore.values.IntegerValue payment_for_shipping_id = 1;</code>
        */
       public Builder setPaymentForShippingId(io.dstore.values.IntegerValue value) {
         if (paymentForShippingIdBuilder_ == null) {
@@ -483,7 +483,7 @@ public final class OmGetRequiredInfoForPayAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.IntegerValue payment_for_shipping_id = 1;</code>
+       * <code>.dstore.values.IntegerValue payment_for_shipping_id = 1;</code>
        */
       public Builder setPaymentForShippingId(
           io.dstore.values.IntegerValue.Builder builderForValue) {
@@ -497,7 +497,7 @@ public final class OmGetRequiredInfoForPayAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.IntegerValue payment_for_shipping_id = 1;</code>
+       * <code>.dstore.values.IntegerValue payment_for_shipping_id = 1;</code>
        */
       public Builder mergePaymentForShippingId(io.dstore.values.IntegerValue value) {
         if (paymentForShippingIdBuilder_ == null) {
@@ -515,7 +515,7 @@ public final class OmGetRequiredInfoForPayAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.IntegerValue payment_for_shipping_id = 1;</code>
+       * <code>.dstore.values.IntegerValue payment_for_shipping_id = 1;</code>
        */
       public Builder clearPaymentForShippingId() {
         if (paymentForShippingIdBuilder_ == null) {
@@ -529,7 +529,7 @@ public final class OmGetRequiredInfoForPayAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.IntegerValue payment_for_shipping_id = 1;</code>
+       * <code>.dstore.values.IntegerValue payment_for_shipping_id = 1;</code>
        */
       public io.dstore.values.IntegerValue.Builder getPaymentForShippingIdBuilder() {
         
@@ -537,7 +537,7 @@ public final class OmGetRequiredInfoForPayAd {
         return getPaymentForShippingIdFieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .dstore.values.IntegerValue payment_for_shipping_id = 1;</code>
+       * <code>.dstore.values.IntegerValue payment_for_shipping_id = 1;</code>
        */
       public io.dstore.values.IntegerValueOrBuilder getPaymentForShippingIdOrBuilder() {
         if (paymentForShippingIdBuilder_ != null) {
@@ -548,7 +548,7 @@ public final class OmGetRequiredInfoForPayAd {
         }
       }
       /**
-       * <code>optional .dstore.values.IntegerValue payment_for_shipping_id = 1;</code>
+       * <code>.dstore.values.IntegerValue payment_for_shipping_id = 1;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> 
@@ -566,13 +566,13 @@ public final class OmGetRequiredInfoForPayAd {
 
       private boolean paymentForShippingIdNull_ ;
       /**
-       * <code>optional bool payment_for_shipping_id_null = 1001;</code>
+       * <code>bool payment_for_shipping_id_null = 1001;</code>
        */
       public boolean getPaymentForShippingIdNull() {
         return paymentForShippingIdNull_;
       }
       /**
-       * <code>optional bool payment_for_shipping_id_null = 1001;</code>
+       * <code>bool payment_for_shipping_id_null = 1001;</code>
        */
       public Builder setPaymentForShippingIdNull(boolean value) {
         
@@ -581,7 +581,7 @@ public final class OmGetRequiredInfoForPayAd {
         return this;
       }
       /**
-       * <code>optional bool payment_for_shipping_id_null = 1001;</code>
+       * <code>bool payment_for_shipping_id_null = 1001;</code>
        */
       public Builder clearPaymentForShippingIdNull() {
         
@@ -840,7 +840,7 @@ public final class OmGetRequiredInfoForPayAd {
         com.google.protobuf.MessageOrBuilder {
 
       /**
-       * <code>optional int32 row_id = 10000;</code>
+       * <code>int32 row_id = 10000;</code>
        */
       int getRowId();
 
@@ -849,7 +849,7 @@ public final class OmGetRequiredInfoForPayAd {
        * ID einer Zahlungsart-Versandart-Kombination, zu der es mindestens eine Pflicht-Merkmal-Kategorie gibt
        * </pre>
        *
-       * <code>optional .dstore.values.IntegerValue payment_for_shipping_id = 10001;</code>
+       * <code>.dstore.values.IntegerValue payment_for_shipping_id = 10001;</code>
        */
       boolean hasPaymentForShippingId();
       /**
@@ -857,7 +857,7 @@ public final class OmGetRequiredInfoForPayAd {
        * ID einer Zahlungsart-Versandart-Kombination, zu der es mindestens eine Pflicht-Merkmal-Kategorie gibt
        * </pre>
        *
-       * <code>optional .dstore.values.IntegerValue payment_for_shipping_id = 10001;</code>
+       * <code>.dstore.values.IntegerValue payment_for_shipping_id = 10001;</code>
        */
       io.dstore.values.IntegerValue getPaymentForShippingId();
       /**
@@ -865,7 +865,7 @@ public final class OmGetRequiredInfoForPayAd {
        * ID einer Zahlungsart-Versandart-Kombination, zu der es mindestens eine Pflicht-Merkmal-Kategorie gibt
        * </pre>
        *
-       * <code>optional .dstore.values.IntegerValue payment_for_shipping_id = 10001;</code>
+       * <code>.dstore.values.IntegerValue payment_for_shipping_id = 10001;</code>
        */
       io.dstore.values.IntegerValueOrBuilder getPaymentForShippingIdOrBuilder();
 
@@ -874,7 +874,7 @@ public final class OmGetRequiredInfoForPayAd {
        * Bezeichnung der Kategorie "PersonCharacCategoryID"
        * </pre>
        *
-       * <code>optional .dstore.values.StringValue category_description = 10002;</code>
+       * <code>.dstore.values.StringValue category_description = 10002;</code>
        */
       boolean hasCategoryDescription();
       /**
@@ -882,7 +882,7 @@ public final class OmGetRequiredInfoForPayAd {
        * Bezeichnung der Kategorie "PersonCharacCategoryID"
        * </pre>
        *
-       * <code>optional .dstore.values.StringValue category_description = 10002;</code>
+       * <code>.dstore.values.StringValue category_description = 10002;</code>
        */
       io.dstore.values.StringValue getCategoryDescription();
       /**
@@ -890,7 +890,7 @@ public final class OmGetRequiredInfoForPayAd {
        * Bezeichnung der Kategorie "PersonCharacCategoryID"
        * </pre>
        *
-       * <code>optional .dstore.values.StringValue category_description = 10002;</code>
+       * <code>.dstore.values.StringValue category_description = 10002;</code>
        */
       io.dstore.values.StringValueOrBuilder getCategoryDescriptionOrBuilder();
 
@@ -899,7 +899,7 @@ public final class OmGetRequiredInfoForPayAd {
        * Bezeichnung der Zahlungsart-Versandart-Kombination "PaymentForShippingID"
        * </pre>
        *
-       * <code>optional .dstore.values.StringValue payment_for_shipping_description = 10003;</code>
+       * <code>.dstore.values.StringValue payment_for_shipping_description = 10003;</code>
        */
       boolean hasPaymentForShippingDescription();
       /**
@@ -907,7 +907,7 @@ public final class OmGetRequiredInfoForPayAd {
        * Bezeichnung der Zahlungsart-Versandart-Kombination "PaymentForShippingID"
        * </pre>
        *
-       * <code>optional .dstore.values.StringValue payment_for_shipping_description = 10003;</code>
+       * <code>.dstore.values.StringValue payment_for_shipping_description = 10003;</code>
        */
       io.dstore.values.StringValue getPaymentForShippingDescription();
       /**
@@ -915,7 +915,7 @@ public final class OmGetRequiredInfoForPayAd {
        * Bezeichnung der Zahlungsart-Versandart-Kombination "PaymentForShippingID"
        * </pre>
        *
-       * <code>optional .dstore.values.StringValue payment_for_shipping_description = 10003;</code>
+       * <code>.dstore.values.StringValue payment_for_shipping_description = 10003;</code>
        */
       io.dstore.values.StringValueOrBuilder getPaymentForShippingDescriptionOrBuilder();
 
@@ -924,7 +924,7 @@ public final class OmGetRequiredInfoForPayAd {
        * ID einer Kategorie von Personen-Merkmalen. Gibt an, daß der Auftraggeber - falls er die Kombination "PaymentForShippingID" wählt - Eigenschaften zu den Merkmalen dieser Kategorie hinterlegen muß (Beispiel : Kreditkartendaten bei Kreditkarten-Zahlung).
        * </pre>
        *
-       * <code>optional .dstore.values.IntegerValue person_charac_category_id = 10004;</code>
+       * <code>.dstore.values.IntegerValue person_charac_category_id = 10004;</code>
        */
       boolean hasPersonCharacCategoryId();
       /**
@@ -932,7 +932,7 @@ public final class OmGetRequiredInfoForPayAd {
        * ID einer Kategorie von Personen-Merkmalen. Gibt an, daß der Auftraggeber - falls er die Kombination "PaymentForShippingID" wählt - Eigenschaften zu den Merkmalen dieser Kategorie hinterlegen muß (Beispiel : Kreditkartendaten bei Kreditkarten-Zahlung).
        * </pre>
        *
-       * <code>optional .dstore.values.IntegerValue person_charac_category_id = 10004;</code>
+       * <code>.dstore.values.IntegerValue person_charac_category_id = 10004;</code>
        */
       io.dstore.values.IntegerValue getPersonCharacCategoryId();
       /**
@@ -940,7 +940,7 @@ public final class OmGetRequiredInfoForPayAd {
        * ID einer Kategorie von Personen-Merkmalen. Gibt an, daß der Auftraggeber - falls er die Kombination "PaymentForShippingID" wählt - Eigenschaften zu den Merkmalen dieser Kategorie hinterlegen muß (Beispiel : Kreditkartendaten bei Kreditkarten-Zahlung).
        * </pre>
        *
-       * <code>optional .dstore.values.IntegerValue person_charac_category_id = 10004;</code>
+       * <code>.dstore.values.IntegerValue person_charac_category_id = 10004;</code>
        */
       io.dstore.values.IntegerValueOrBuilder getPersonCharacCategoryIdOrBuilder();
     }
@@ -1067,7 +1067,7 @@ public final class OmGetRequiredInfoForPayAd {
       public static final int ROW_ID_FIELD_NUMBER = 10000;
       private int rowId_;
       /**
-       * <code>optional int32 row_id = 10000;</code>
+       * <code>int32 row_id = 10000;</code>
        */
       public int getRowId() {
         return rowId_;
@@ -1080,7 +1080,7 @@ public final class OmGetRequiredInfoForPayAd {
        * ID einer Zahlungsart-Versandart-Kombination, zu der es mindestens eine Pflicht-Merkmal-Kategorie gibt
        * </pre>
        *
-       * <code>optional .dstore.values.IntegerValue payment_for_shipping_id = 10001;</code>
+       * <code>.dstore.values.IntegerValue payment_for_shipping_id = 10001;</code>
        */
       public boolean hasPaymentForShippingId() {
         return paymentForShippingId_ != null;
@@ -1090,7 +1090,7 @@ public final class OmGetRequiredInfoForPayAd {
        * ID einer Zahlungsart-Versandart-Kombination, zu der es mindestens eine Pflicht-Merkmal-Kategorie gibt
        * </pre>
        *
-       * <code>optional .dstore.values.IntegerValue payment_for_shipping_id = 10001;</code>
+       * <code>.dstore.values.IntegerValue payment_for_shipping_id = 10001;</code>
        */
       public io.dstore.values.IntegerValue getPaymentForShippingId() {
         return paymentForShippingId_ == null ? io.dstore.values.IntegerValue.getDefaultInstance() : paymentForShippingId_;
@@ -1100,7 +1100,7 @@ public final class OmGetRequiredInfoForPayAd {
        * ID einer Zahlungsart-Versandart-Kombination, zu der es mindestens eine Pflicht-Merkmal-Kategorie gibt
        * </pre>
        *
-       * <code>optional .dstore.values.IntegerValue payment_for_shipping_id = 10001;</code>
+       * <code>.dstore.values.IntegerValue payment_for_shipping_id = 10001;</code>
        */
       public io.dstore.values.IntegerValueOrBuilder getPaymentForShippingIdOrBuilder() {
         return getPaymentForShippingId();
@@ -1113,7 +1113,7 @@ public final class OmGetRequiredInfoForPayAd {
        * Bezeichnung der Kategorie "PersonCharacCategoryID"
        * </pre>
        *
-       * <code>optional .dstore.values.StringValue category_description = 10002;</code>
+       * <code>.dstore.values.StringValue category_description = 10002;</code>
        */
       public boolean hasCategoryDescription() {
         return categoryDescription_ != null;
@@ -1123,7 +1123,7 @@ public final class OmGetRequiredInfoForPayAd {
        * Bezeichnung der Kategorie "PersonCharacCategoryID"
        * </pre>
        *
-       * <code>optional .dstore.values.StringValue category_description = 10002;</code>
+       * <code>.dstore.values.StringValue category_description = 10002;</code>
        */
       public io.dstore.values.StringValue getCategoryDescription() {
         return categoryDescription_ == null ? io.dstore.values.StringValue.getDefaultInstance() : categoryDescription_;
@@ -1133,7 +1133,7 @@ public final class OmGetRequiredInfoForPayAd {
        * Bezeichnung der Kategorie "PersonCharacCategoryID"
        * </pre>
        *
-       * <code>optional .dstore.values.StringValue category_description = 10002;</code>
+       * <code>.dstore.values.StringValue category_description = 10002;</code>
        */
       public io.dstore.values.StringValueOrBuilder getCategoryDescriptionOrBuilder() {
         return getCategoryDescription();
@@ -1146,7 +1146,7 @@ public final class OmGetRequiredInfoForPayAd {
        * Bezeichnung der Zahlungsart-Versandart-Kombination "PaymentForShippingID"
        * </pre>
        *
-       * <code>optional .dstore.values.StringValue payment_for_shipping_description = 10003;</code>
+       * <code>.dstore.values.StringValue payment_for_shipping_description = 10003;</code>
        */
       public boolean hasPaymentForShippingDescription() {
         return paymentForShippingDescription_ != null;
@@ -1156,7 +1156,7 @@ public final class OmGetRequiredInfoForPayAd {
        * Bezeichnung der Zahlungsart-Versandart-Kombination "PaymentForShippingID"
        * </pre>
        *
-       * <code>optional .dstore.values.StringValue payment_for_shipping_description = 10003;</code>
+       * <code>.dstore.values.StringValue payment_for_shipping_description = 10003;</code>
        */
       public io.dstore.values.StringValue getPaymentForShippingDescription() {
         return paymentForShippingDescription_ == null ? io.dstore.values.StringValue.getDefaultInstance() : paymentForShippingDescription_;
@@ -1166,7 +1166,7 @@ public final class OmGetRequiredInfoForPayAd {
        * Bezeichnung der Zahlungsart-Versandart-Kombination "PaymentForShippingID"
        * </pre>
        *
-       * <code>optional .dstore.values.StringValue payment_for_shipping_description = 10003;</code>
+       * <code>.dstore.values.StringValue payment_for_shipping_description = 10003;</code>
        */
       public io.dstore.values.StringValueOrBuilder getPaymentForShippingDescriptionOrBuilder() {
         return getPaymentForShippingDescription();
@@ -1179,7 +1179,7 @@ public final class OmGetRequiredInfoForPayAd {
        * ID einer Kategorie von Personen-Merkmalen. Gibt an, daß der Auftraggeber - falls er die Kombination "PaymentForShippingID" wählt - Eigenschaften zu den Merkmalen dieser Kategorie hinterlegen muß (Beispiel : Kreditkartendaten bei Kreditkarten-Zahlung).
        * </pre>
        *
-       * <code>optional .dstore.values.IntegerValue person_charac_category_id = 10004;</code>
+       * <code>.dstore.values.IntegerValue person_charac_category_id = 10004;</code>
        */
       public boolean hasPersonCharacCategoryId() {
         return personCharacCategoryId_ != null;
@@ -1189,7 +1189,7 @@ public final class OmGetRequiredInfoForPayAd {
        * ID einer Kategorie von Personen-Merkmalen. Gibt an, daß der Auftraggeber - falls er die Kombination "PaymentForShippingID" wählt - Eigenschaften zu den Merkmalen dieser Kategorie hinterlegen muß (Beispiel : Kreditkartendaten bei Kreditkarten-Zahlung).
        * </pre>
        *
-       * <code>optional .dstore.values.IntegerValue person_charac_category_id = 10004;</code>
+       * <code>.dstore.values.IntegerValue person_charac_category_id = 10004;</code>
        */
       public io.dstore.values.IntegerValue getPersonCharacCategoryId() {
         return personCharacCategoryId_ == null ? io.dstore.values.IntegerValue.getDefaultInstance() : personCharacCategoryId_;
@@ -1199,7 +1199,7 @@ public final class OmGetRequiredInfoForPayAd {
        * ID einer Kategorie von Personen-Merkmalen. Gibt an, daß der Auftraggeber - falls er die Kombination "PaymentForShippingID" wählt - Eigenschaften zu den Merkmalen dieser Kategorie hinterlegen muß (Beispiel : Kreditkartendaten bei Kreditkarten-Zahlung).
        * </pre>
        *
-       * <code>optional .dstore.values.IntegerValue person_charac_category_id = 10004;</code>
+       * <code>.dstore.values.IntegerValue person_charac_category_id = 10004;</code>
        */
       public io.dstore.values.IntegerValueOrBuilder getPersonCharacCategoryIdOrBuilder() {
         return getPersonCharacCategoryId();
@@ -1306,7 +1306,7 @@ public final class OmGetRequiredInfoForPayAd {
           return memoizedHashCode;
         }
         int hash = 41;
-        hash = (19 * hash) + getDescriptorForType().hashCode();
+        hash = (19 * hash) + getDescriptor().hashCode();
         hash = (37 * hash) + ROW_ID_FIELD_NUMBER;
         hash = (53 * hash) + getRowId();
         if (hasPaymentForShippingId()) {
@@ -1596,13 +1596,13 @@ public final class OmGetRequiredInfoForPayAd {
 
         private int rowId_ ;
         /**
-         * <code>optional int32 row_id = 10000;</code>
+         * <code>int32 row_id = 10000;</code>
          */
         public int getRowId() {
           return rowId_;
         }
         /**
-         * <code>optional int32 row_id = 10000;</code>
+         * <code>int32 row_id = 10000;</code>
          */
         public Builder setRowId(int value) {
           
@@ -1611,7 +1611,7 @@ public final class OmGetRequiredInfoForPayAd {
           return this;
         }
         /**
-         * <code>optional int32 row_id = 10000;</code>
+         * <code>int32 row_id = 10000;</code>
          */
         public Builder clearRowId() {
           
@@ -1628,7 +1628,7 @@ public final class OmGetRequiredInfoForPayAd {
          * ID einer Zahlungsart-Versandart-Kombination, zu der es mindestens eine Pflicht-Merkmal-Kategorie gibt
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue payment_for_shipping_id = 10001;</code>
+         * <code>.dstore.values.IntegerValue payment_for_shipping_id = 10001;</code>
          */
         public boolean hasPaymentForShippingId() {
           return paymentForShippingIdBuilder_ != null || paymentForShippingId_ != null;
@@ -1638,7 +1638,7 @@ public final class OmGetRequiredInfoForPayAd {
          * ID einer Zahlungsart-Versandart-Kombination, zu der es mindestens eine Pflicht-Merkmal-Kategorie gibt
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue payment_for_shipping_id = 10001;</code>
+         * <code>.dstore.values.IntegerValue payment_for_shipping_id = 10001;</code>
          */
         public io.dstore.values.IntegerValue getPaymentForShippingId() {
           if (paymentForShippingIdBuilder_ == null) {
@@ -1652,7 +1652,7 @@ public final class OmGetRequiredInfoForPayAd {
          * ID einer Zahlungsart-Versandart-Kombination, zu der es mindestens eine Pflicht-Merkmal-Kategorie gibt
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue payment_for_shipping_id = 10001;</code>
+         * <code>.dstore.values.IntegerValue payment_for_shipping_id = 10001;</code>
          */
         public Builder setPaymentForShippingId(io.dstore.values.IntegerValue value) {
           if (paymentForShippingIdBuilder_ == null) {
@@ -1672,7 +1672,7 @@ public final class OmGetRequiredInfoForPayAd {
          * ID einer Zahlungsart-Versandart-Kombination, zu der es mindestens eine Pflicht-Merkmal-Kategorie gibt
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue payment_for_shipping_id = 10001;</code>
+         * <code>.dstore.values.IntegerValue payment_for_shipping_id = 10001;</code>
          */
         public Builder setPaymentForShippingId(
             io.dstore.values.IntegerValue.Builder builderForValue) {
@@ -1690,7 +1690,7 @@ public final class OmGetRequiredInfoForPayAd {
          * ID einer Zahlungsart-Versandart-Kombination, zu der es mindestens eine Pflicht-Merkmal-Kategorie gibt
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue payment_for_shipping_id = 10001;</code>
+         * <code>.dstore.values.IntegerValue payment_for_shipping_id = 10001;</code>
          */
         public Builder mergePaymentForShippingId(io.dstore.values.IntegerValue value) {
           if (paymentForShippingIdBuilder_ == null) {
@@ -1712,7 +1712,7 @@ public final class OmGetRequiredInfoForPayAd {
          * ID einer Zahlungsart-Versandart-Kombination, zu der es mindestens eine Pflicht-Merkmal-Kategorie gibt
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue payment_for_shipping_id = 10001;</code>
+         * <code>.dstore.values.IntegerValue payment_for_shipping_id = 10001;</code>
          */
         public Builder clearPaymentForShippingId() {
           if (paymentForShippingIdBuilder_ == null) {
@@ -1730,7 +1730,7 @@ public final class OmGetRequiredInfoForPayAd {
          * ID einer Zahlungsart-Versandart-Kombination, zu der es mindestens eine Pflicht-Merkmal-Kategorie gibt
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue payment_for_shipping_id = 10001;</code>
+         * <code>.dstore.values.IntegerValue payment_for_shipping_id = 10001;</code>
          */
         public io.dstore.values.IntegerValue.Builder getPaymentForShippingIdBuilder() {
           
@@ -1742,7 +1742,7 @@ public final class OmGetRequiredInfoForPayAd {
          * ID einer Zahlungsart-Versandart-Kombination, zu der es mindestens eine Pflicht-Merkmal-Kategorie gibt
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue payment_for_shipping_id = 10001;</code>
+         * <code>.dstore.values.IntegerValue payment_for_shipping_id = 10001;</code>
          */
         public io.dstore.values.IntegerValueOrBuilder getPaymentForShippingIdOrBuilder() {
           if (paymentForShippingIdBuilder_ != null) {
@@ -1757,7 +1757,7 @@ public final class OmGetRequiredInfoForPayAd {
          * ID einer Zahlungsart-Versandart-Kombination, zu der es mindestens eine Pflicht-Merkmal-Kategorie gibt
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue payment_for_shipping_id = 10001;</code>
+         * <code>.dstore.values.IntegerValue payment_for_shipping_id = 10001;</code>
          */
         private com.google.protobuf.SingleFieldBuilderV3<
             io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> 
@@ -1781,7 +1781,7 @@ public final class OmGetRequiredInfoForPayAd {
          * Bezeichnung der Kategorie "PersonCharacCategoryID"
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue category_description = 10002;</code>
+         * <code>.dstore.values.StringValue category_description = 10002;</code>
          */
         public boolean hasCategoryDescription() {
           return categoryDescriptionBuilder_ != null || categoryDescription_ != null;
@@ -1791,7 +1791,7 @@ public final class OmGetRequiredInfoForPayAd {
          * Bezeichnung der Kategorie "PersonCharacCategoryID"
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue category_description = 10002;</code>
+         * <code>.dstore.values.StringValue category_description = 10002;</code>
          */
         public io.dstore.values.StringValue getCategoryDescription() {
           if (categoryDescriptionBuilder_ == null) {
@@ -1805,7 +1805,7 @@ public final class OmGetRequiredInfoForPayAd {
          * Bezeichnung der Kategorie "PersonCharacCategoryID"
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue category_description = 10002;</code>
+         * <code>.dstore.values.StringValue category_description = 10002;</code>
          */
         public Builder setCategoryDescription(io.dstore.values.StringValue value) {
           if (categoryDescriptionBuilder_ == null) {
@@ -1825,7 +1825,7 @@ public final class OmGetRequiredInfoForPayAd {
          * Bezeichnung der Kategorie "PersonCharacCategoryID"
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue category_description = 10002;</code>
+         * <code>.dstore.values.StringValue category_description = 10002;</code>
          */
         public Builder setCategoryDescription(
             io.dstore.values.StringValue.Builder builderForValue) {
@@ -1843,7 +1843,7 @@ public final class OmGetRequiredInfoForPayAd {
          * Bezeichnung der Kategorie "PersonCharacCategoryID"
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue category_description = 10002;</code>
+         * <code>.dstore.values.StringValue category_description = 10002;</code>
          */
         public Builder mergeCategoryDescription(io.dstore.values.StringValue value) {
           if (categoryDescriptionBuilder_ == null) {
@@ -1865,7 +1865,7 @@ public final class OmGetRequiredInfoForPayAd {
          * Bezeichnung der Kategorie "PersonCharacCategoryID"
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue category_description = 10002;</code>
+         * <code>.dstore.values.StringValue category_description = 10002;</code>
          */
         public Builder clearCategoryDescription() {
           if (categoryDescriptionBuilder_ == null) {
@@ -1883,7 +1883,7 @@ public final class OmGetRequiredInfoForPayAd {
          * Bezeichnung der Kategorie "PersonCharacCategoryID"
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue category_description = 10002;</code>
+         * <code>.dstore.values.StringValue category_description = 10002;</code>
          */
         public io.dstore.values.StringValue.Builder getCategoryDescriptionBuilder() {
           
@@ -1895,7 +1895,7 @@ public final class OmGetRequiredInfoForPayAd {
          * Bezeichnung der Kategorie "PersonCharacCategoryID"
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue category_description = 10002;</code>
+         * <code>.dstore.values.StringValue category_description = 10002;</code>
          */
         public io.dstore.values.StringValueOrBuilder getCategoryDescriptionOrBuilder() {
           if (categoryDescriptionBuilder_ != null) {
@@ -1910,7 +1910,7 @@ public final class OmGetRequiredInfoForPayAd {
          * Bezeichnung der Kategorie "PersonCharacCategoryID"
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue category_description = 10002;</code>
+         * <code>.dstore.values.StringValue category_description = 10002;</code>
          */
         private com.google.protobuf.SingleFieldBuilderV3<
             io.dstore.values.StringValue, io.dstore.values.StringValue.Builder, io.dstore.values.StringValueOrBuilder> 
@@ -1934,7 +1934,7 @@ public final class OmGetRequiredInfoForPayAd {
          * Bezeichnung der Zahlungsart-Versandart-Kombination "PaymentForShippingID"
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue payment_for_shipping_description = 10003;</code>
+         * <code>.dstore.values.StringValue payment_for_shipping_description = 10003;</code>
          */
         public boolean hasPaymentForShippingDescription() {
           return paymentForShippingDescriptionBuilder_ != null || paymentForShippingDescription_ != null;
@@ -1944,7 +1944,7 @@ public final class OmGetRequiredInfoForPayAd {
          * Bezeichnung der Zahlungsart-Versandart-Kombination "PaymentForShippingID"
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue payment_for_shipping_description = 10003;</code>
+         * <code>.dstore.values.StringValue payment_for_shipping_description = 10003;</code>
          */
         public io.dstore.values.StringValue getPaymentForShippingDescription() {
           if (paymentForShippingDescriptionBuilder_ == null) {
@@ -1958,7 +1958,7 @@ public final class OmGetRequiredInfoForPayAd {
          * Bezeichnung der Zahlungsart-Versandart-Kombination "PaymentForShippingID"
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue payment_for_shipping_description = 10003;</code>
+         * <code>.dstore.values.StringValue payment_for_shipping_description = 10003;</code>
          */
         public Builder setPaymentForShippingDescription(io.dstore.values.StringValue value) {
           if (paymentForShippingDescriptionBuilder_ == null) {
@@ -1978,7 +1978,7 @@ public final class OmGetRequiredInfoForPayAd {
          * Bezeichnung der Zahlungsart-Versandart-Kombination "PaymentForShippingID"
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue payment_for_shipping_description = 10003;</code>
+         * <code>.dstore.values.StringValue payment_for_shipping_description = 10003;</code>
          */
         public Builder setPaymentForShippingDescription(
             io.dstore.values.StringValue.Builder builderForValue) {
@@ -1996,7 +1996,7 @@ public final class OmGetRequiredInfoForPayAd {
          * Bezeichnung der Zahlungsart-Versandart-Kombination "PaymentForShippingID"
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue payment_for_shipping_description = 10003;</code>
+         * <code>.dstore.values.StringValue payment_for_shipping_description = 10003;</code>
          */
         public Builder mergePaymentForShippingDescription(io.dstore.values.StringValue value) {
           if (paymentForShippingDescriptionBuilder_ == null) {
@@ -2018,7 +2018,7 @@ public final class OmGetRequiredInfoForPayAd {
          * Bezeichnung der Zahlungsart-Versandart-Kombination "PaymentForShippingID"
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue payment_for_shipping_description = 10003;</code>
+         * <code>.dstore.values.StringValue payment_for_shipping_description = 10003;</code>
          */
         public Builder clearPaymentForShippingDescription() {
           if (paymentForShippingDescriptionBuilder_ == null) {
@@ -2036,7 +2036,7 @@ public final class OmGetRequiredInfoForPayAd {
          * Bezeichnung der Zahlungsart-Versandart-Kombination "PaymentForShippingID"
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue payment_for_shipping_description = 10003;</code>
+         * <code>.dstore.values.StringValue payment_for_shipping_description = 10003;</code>
          */
         public io.dstore.values.StringValue.Builder getPaymentForShippingDescriptionBuilder() {
           
@@ -2048,7 +2048,7 @@ public final class OmGetRequiredInfoForPayAd {
          * Bezeichnung der Zahlungsart-Versandart-Kombination "PaymentForShippingID"
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue payment_for_shipping_description = 10003;</code>
+         * <code>.dstore.values.StringValue payment_for_shipping_description = 10003;</code>
          */
         public io.dstore.values.StringValueOrBuilder getPaymentForShippingDescriptionOrBuilder() {
           if (paymentForShippingDescriptionBuilder_ != null) {
@@ -2063,7 +2063,7 @@ public final class OmGetRequiredInfoForPayAd {
          * Bezeichnung der Zahlungsart-Versandart-Kombination "PaymentForShippingID"
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue payment_for_shipping_description = 10003;</code>
+         * <code>.dstore.values.StringValue payment_for_shipping_description = 10003;</code>
          */
         private com.google.protobuf.SingleFieldBuilderV3<
             io.dstore.values.StringValue, io.dstore.values.StringValue.Builder, io.dstore.values.StringValueOrBuilder> 
@@ -2087,7 +2087,7 @@ public final class OmGetRequiredInfoForPayAd {
          * ID einer Kategorie von Personen-Merkmalen. Gibt an, daß der Auftraggeber - falls er die Kombination "PaymentForShippingID" wählt - Eigenschaften zu den Merkmalen dieser Kategorie hinterlegen muß (Beispiel : Kreditkartendaten bei Kreditkarten-Zahlung).
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue person_charac_category_id = 10004;</code>
+         * <code>.dstore.values.IntegerValue person_charac_category_id = 10004;</code>
          */
         public boolean hasPersonCharacCategoryId() {
           return personCharacCategoryIdBuilder_ != null || personCharacCategoryId_ != null;
@@ -2097,7 +2097,7 @@ public final class OmGetRequiredInfoForPayAd {
          * ID einer Kategorie von Personen-Merkmalen. Gibt an, daß der Auftraggeber - falls er die Kombination "PaymentForShippingID" wählt - Eigenschaften zu den Merkmalen dieser Kategorie hinterlegen muß (Beispiel : Kreditkartendaten bei Kreditkarten-Zahlung).
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue person_charac_category_id = 10004;</code>
+         * <code>.dstore.values.IntegerValue person_charac_category_id = 10004;</code>
          */
         public io.dstore.values.IntegerValue getPersonCharacCategoryId() {
           if (personCharacCategoryIdBuilder_ == null) {
@@ -2111,7 +2111,7 @@ public final class OmGetRequiredInfoForPayAd {
          * ID einer Kategorie von Personen-Merkmalen. Gibt an, daß der Auftraggeber - falls er die Kombination "PaymentForShippingID" wählt - Eigenschaften zu den Merkmalen dieser Kategorie hinterlegen muß (Beispiel : Kreditkartendaten bei Kreditkarten-Zahlung).
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue person_charac_category_id = 10004;</code>
+         * <code>.dstore.values.IntegerValue person_charac_category_id = 10004;</code>
          */
         public Builder setPersonCharacCategoryId(io.dstore.values.IntegerValue value) {
           if (personCharacCategoryIdBuilder_ == null) {
@@ -2131,7 +2131,7 @@ public final class OmGetRequiredInfoForPayAd {
          * ID einer Kategorie von Personen-Merkmalen. Gibt an, daß der Auftraggeber - falls er die Kombination "PaymentForShippingID" wählt - Eigenschaften zu den Merkmalen dieser Kategorie hinterlegen muß (Beispiel : Kreditkartendaten bei Kreditkarten-Zahlung).
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue person_charac_category_id = 10004;</code>
+         * <code>.dstore.values.IntegerValue person_charac_category_id = 10004;</code>
          */
         public Builder setPersonCharacCategoryId(
             io.dstore.values.IntegerValue.Builder builderForValue) {
@@ -2149,7 +2149,7 @@ public final class OmGetRequiredInfoForPayAd {
          * ID einer Kategorie von Personen-Merkmalen. Gibt an, daß der Auftraggeber - falls er die Kombination "PaymentForShippingID" wählt - Eigenschaften zu den Merkmalen dieser Kategorie hinterlegen muß (Beispiel : Kreditkartendaten bei Kreditkarten-Zahlung).
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue person_charac_category_id = 10004;</code>
+         * <code>.dstore.values.IntegerValue person_charac_category_id = 10004;</code>
          */
         public Builder mergePersonCharacCategoryId(io.dstore.values.IntegerValue value) {
           if (personCharacCategoryIdBuilder_ == null) {
@@ -2171,7 +2171,7 @@ public final class OmGetRequiredInfoForPayAd {
          * ID einer Kategorie von Personen-Merkmalen. Gibt an, daß der Auftraggeber - falls er die Kombination "PaymentForShippingID" wählt - Eigenschaften zu den Merkmalen dieser Kategorie hinterlegen muß (Beispiel : Kreditkartendaten bei Kreditkarten-Zahlung).
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue person_charac_category_id = 10004;</code>
+         * <code>.dstore.values.IntegerValue person_charac_category_id = 10004;</code>
          */
         public Builder clearPersonCharacCategoryId() {
           if (personCharacCategoryIdBuilder_ == null) {
@@ -2189,7 +2189,7 @@ public final class OmGetRequiredInfoForPayAd {
          * ID einer Kategorie von Personen-Merkmalen. Gibt an, daß der Auftraggeber - falls er die Kombination "PaymentForShippingID" wählt - Eigenschaften zu den Merkmalen dieser Kategorie hinterlegen muß (Beispiel : Kreditkartendaten bei Kreditkarten-Zahlung).
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue person_charac_category_id = 10004;</code>
+         * <code>.dstore.values.IntegerValue person_charac_category_id = 10004;</code>
          */
         public io.dstore.values.IntegerValue.Builder getPersonCharacCategoryIdBuilder() {
           
@@ -2201,7 +2201,7 @@ public final class OmGetRequiredInfoForPayAd {
          * ID einer Kategorie von Personen-Merkmalen. Gibt an, daß der Auftraggeber - falls er die Kombination "PaymentForShippingID" wählt - Eigenschaften zu den Merkmalen dieser Kategorie hinterlegen muß (Beispiel : Kreditkartendaten bei Kreditkarten-Zahlung).
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue person_charac_category_id = 10004;</code>
+         * <code>.dstore.values.IntegerValue person_charac_category_id = 10004;</code>
          */
         public io.dstore.values.IntegerValueOrBuilder getPersonCharacCategoryIdOrBuilder() {
           if (personCharacCategoryIdBuilder_ != null) {
@@ -2216,7 +2216,7 @@ public final class OmGetRequiredInfoForPayAd {
          * ID einer Kategorie von Personen-Merkmalen. Gibt an, daß der Auftraggeber - falls er die Kombination "PaymentForShippingID" wählt - Eigenschaften zu den Merkmalen dieser Kategorie hinterlegen muß (Beispiel : Kreditkartendaten bei Kreditkarten-Zahlung).
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue person_charac_category_id = 10004;</code>
+         * <code>.dstore.values.IntegerValue person_charac_category_id = 10004;</code>
          */
         private com.google.protobuf.SingleFieldBuilderV3<
             io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> 
@@ -2476,7 +2476,7 @@ public final class OmGetRequiredInfoForPayAd {
         return memoizedHashCode;
       }
       int hash = 41;
-      hash = (19 * hash) + getDescriptorForType().hashCode();
+      hash = (19 * hash) + getDescriptor().hashCode();
       if (getMetaInformationCount() > 0) {
         hash = (37 * hash) + META_INFORMATION_FIELD_NUMBER;
         hash = (53 * hash) + getMetaInformationList().hashCode();

@@ -19,20 +19,20 @@ public final class ImGetPageTreeNodesAd {
       com.google.protobuf.MessageOrBuilder {
 
     /**
-     * <code>optional .dstore.values.BooleanValue include_inactive = 1;</code>
+     * <code>.dstore.values.BooleanValue include_inactive = 1;</code>
      */
     boolean hasIncludeInactive();
     /**
-     * <code>optional .dstore.values.BooleanValue include_inactive = 1;</code>
+     * <code>.dstore.values.BooleanValue include_inactive = 1;</code>
      */
     io.dstore.values.BooleanValue getIncludeInactive();
     /**
-     * <code>optional .dstore.values.BooleanValue include_inactive = 1;</code>
+     * <code>.dstore.values.BooleanValue include_inactive = 1;</code>
      */
     io.dstore.values.BooleanValueOrBuilder getIncludeInactiveOrBuilder();
 
     /**
-     * <code>optional bool include_inactive_null = 1001;</code>
+     * <code>bool include_inactive_null = 1001;</code>
      */
     boolean getIncludeInactiveNull();
   }
@@ -120,19 +120,19 @@ public final class ImGetPageTreeNodesAd {
     public static final int INCLUDE_INACTIVE_FIELD_NUMBER = 1;
     private io.dstore.values.BooleanValue includeInactive_;
     /**
-     * <code>optional .dstore.values.BooleanValue include_inactive = 1;</code>
+     * <code>.dstore.values.BooleanValue include_inactive = 1;</code>
      */
     public boolean hasIncludeInactive() {
       return includeInactive_ != null;
     }
     /**
-     * <code>optional .dstore.values.BooleanValue include_inactive = 1;</code>
+     * <code>.dstore.values.BooleanValue include_inactive = 1;</code>
      */
     public io.dstore.values.BooleanValue getIncludeInactive() {
       return includeInactive_ == null ? io.dstore.values.BooleanValue.getDefaultInstance() : includeInactive_;
     }
     /**
-     * <code>optional .dstore.values.BooleanValue include_inactive = 1;</code>
+     * <code>.dstore.values.BooleanValue include_inactive = 1;</code>
      */
     public io.dstore.values.BooleanValueOrBuilder getIncludeInactiveOrBuilder() {
       return getIncludeInactive();
@@ -141,7 +141,7 @@ public final class ImGetPageTreeNodesAd {
     public static final int INCLUDE_INACTIVE_NULL_FIELD_NUMBER = 1001;
     private boolean includeInactiveNull_;
     /**
-     * <code>optional bool include_inactive_null = 1001;</code>
+     * <code>bool include_inactive_null = 1001;</code>
      */
     public boolean getIncludeInactiveNull() {
       return includeInactiveNull_;
@@ -212,7 +212,7 @@ public final class ImGetPageTreeNodesAd {
         return memoizedHashCode;
       }
       int hash = 41;
-      hash = (19 * hash) + getDescriptorForType().hashCode();
+      hash = (19 * hash) + getDescriptor().hashCode();
       if (hasIncludeInactive()) {
         hash = (37 * hash) + INCLUDE_INACTIVE_FIELD_NUMBER;
         hash = (53 * hash) + getIncludeInactive().hashCode();
@@ -451,13 +451,13 @@ public final class ImGetPageTreeNodesAd {
       private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.values.BooleanValue, io.dstore.values.BooleanValue.Builder, io.dstore.values.BooleanValueOrBuilder> includeInactiveBuilder_;
       /**
-       * <code>optional .dstore.values.BooleanValue include_inactive = 1;</code>
+       * <code>.dstore.values.BooleanValue include_inactive = 1;</code>
        */
       public boolean hasIncludeInactive() {
         return includeInactiveBuilder_ != null || includeInactive_ != null;
       }
       /**
-       * <code>optional .dstore.values.BooleanValue include_inactive = 1;</code>
+       * <code>.dstore.values.BooleanValue include_inactive = 1;</code>
        */
       public io.dstore.values.BooleanValue getIncludeInactive() {
         if (includeInactiveBuilder_ == null) {
@@ -467,7 +467,7 @@ public final class ImGetPageTreeNodesAd {
         }
       }
       /**
-       * <code>optional .dstore.values.BooleanValue include_inactive = 1;</code>
+       * <code>.dstore.values.BooleanValue include_inactive = 1;</code>
        */
       public Builder setIncludeInactive(io.dstore.values.BooleanValue value) {
         if (includeInactiveBuilder_ == null) {
@@ -483,7 +483,7 @@ public final class ImGetPageTreeNodesAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.BooleanValue include_inactive = 1;</code>
+       * <code>.dstore.values.BooleanValue include_inactive = 1;</code>
        */
       public Builder setIncludeInactive(
           io.dstore.values.BooleanValue.Builder builderForValue) {
@@ -497,7 +497,7 @@ public final class ImGetPageTreeNodesAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.BooleanValue include_inactive = 1;</code>
+       * <code>.dstore.values.BooleanValue include_inactive = 1;</code>
        */
       public Builder mergeIncludeInactive(io.dstore.values.BooleanValue value) {
         if (includeInactiveBuilder_ == null) {
@@ -515,7 +515,7 @@ public final class ImGetPageTreeNodesAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.BooleanValue include_inactive = 1;</code>
+       * <code>.dstore.values.BooleanValue include_inactive = 1;</code>
        */
       public Builder clearIncludeInactive() {
         if (includeInactiveBuilder_ == null) {
@@ -529,7 +529,7 @@ public final class ImGetPageTreeNodesAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.BooleanValue include_inactive = 1;</code>
+       * <code>.dstore.values.BooleanValue include_inactive = 1;</code>
        */
       public io.dstore.values.BooleanValue.Builder getIncludeInactiveBuilder() {
         
@@ -537,7 +537,7 @@ public final class ImGetPageTreeNodesAd {
         return getIncludeInactiveFieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .dstore.values.BooleanValue include_inactive = 1;</code>
+       * <code>.dstore.values.BooleanValue include_inactive = 1;</code>
        */
       public io.dstore.values.BooleanValueOrBuilder getIncludeInactiveOrBuilder() {
         if (includeInactiveBuilder_ != null) {
@@ -548,7 +548,7 @@ public final class ImGetPageTreeNodesAd {
         }
       }
       /**
-       * <code>optional .dstore.values.BooleanValue include_inactive = 1;</code>
+       * <code>.dstore.values.BooleanValue include_inactive = 1;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.values.BooleanValue, io.dstore.values.BooleanValue.Builder, io.dstore.values.BooleanValueOrBuilder> 
@@ -566,13 +566,13 @@ public final class ImGetPageTreeNodesAd {
 
       private boolean includeInactiveNull_ ;
       /**
-       * <code>optional bool include_inactive_null = 1001;</code>
+       * <code>bool include_inactive_null = 1001;</code>
        */
       public boolean getIncludeInactiveNull() {
         return includeInactiveNull_;
       }
       /**
-       * <code>optional bool include_inactive_null = 1001;</code>
+       * <code>bool include_inactive_null = 1001;</code>
        */
       public Builder setIncludeInactiveNull(boolean value) {
         
@@ -581,7 +581,7 @@ public final class ImGetPageTreeNodesAd {
         return this;
       }
       /**
-       * <code>optional bool include_inactive_null = 1001;</code>
+       * <code>bool include_inactive_null = 1001;</code>
        */
       public Builder clearIncludeInactiveNull() {
         
@@ -840,7 +840,7 @@ public final class ImGetPageTreeNodesAd {
         com.google.protobuf.MessageOrBuilder {
 
       /**
-       * <code>optional int32 row_id = 10000;</code>
+       * <code>int32 row_id = 10000;</code>
        */
       int getRowId();
 
@@ -849,7 +849,7 @@ public final class ImGetPageTreeNodesAd {
        * Bezeichnung der "Page"
        * </pre>
        *
-       * <code>optional .dstore.values.StringValue node_description = 10001;</code>
+       * <code>.dstore.values.StringValue node_description = 10001;</code>
        */
       boolean hasNodeDescription();
       /**
@@ -857,7 +857,7 @@ public final class ImGetPageTreeNodesAd {
        * Bezeichnung der "Page"
        * </pre>
        *
-       * <code>optional .dstore.values.StringValue node_description = 10001;</code>
+       * <code>.dstore.values.StringValue node_description = 10001;</code>
        */
       io.dstore.values.StringValue getNodeDescription();
       /**
@@ -865,7 +865,7 @@ public final class ImGetPageTreeNodesAd {
        * Bezeichnung der "Page"
        * </pre>
        *
-       * <code>optional .dstore.values.StringValue node_description = 10001;</code>
+       * <code>.dstore.values.StringValue node_description = 10001;</code>
        */
       io.dstore.values.StringValueOrBuilder getNodeDescriptionOrBuilder();
 
@@ -874,7 +874,7 @@ public final class ImGetPageTreeNodesAd {
        * Ist "TreeNodeID" z.Zt. aktiviert ? ("0" : Nein, "1" : Ja)
        * </pre>
        *
-       * <code>optional .dstore.values.BooleanValue active = 10002;</code>
+       * <code>.dstore.values.BooleanValue active = 10002;</code>
        */
       boolean hasActive();
       /**
@@ -882,7 +882,7 @@ public final class ImGetPageTreeNodesAd {
        * Ist "TreeNodeID" z.Zt. aktiviert ? ("0" : Nein, "1" : Ja)
        * </pre>
        *
-       * <code>optional .dstore.values.BooleanValue active = 10002;</code>
+       * <code>.dstore.values.BooleanValue active = 10002;</code>
        */
       io.dstore.values.BooleanValue getActive();
       /**
@@ -890,7 +890,7 @@ public final class ImGetPageTreeNodesAd {
        * Ist "TreeNodeID" z.Zt. aktiviert ? ("0" : Nein, "1" : Ja)
        * </pre>
        *
-       * <code>optional .dstore.values.BooleanValue active = 10002;</code>
+       * <code>.dstore.values.BooleanValue active = 10002;</code>
        */
       io.dstore.values.BooleanValueOrBuilder getActiveOrBuilder();
 
@@ -899,7 +899,7 @@ public final class ImGetPageTreeNodesAd {
        * ID eines Elementes in "TreeView", das NICHT zum Artikelbaum gehört. Der Wert ist daher immer kleiner als "0"
        * </pre>
        *
-       * <code>optional .dstore.values.IntegerValue tree_node_id = 10003;</code>
+       * <code>.dstore.values.IntegerValue tree_node_id = 10003;</code>
        */
       boolean hasTreeNodeId();
       /**
@@ -907,7 +907,7 @@ public final class ImGetPageTreeNodesAd {
        * ID eines Elementes in "TreeView", das NICHT zum Artikelbaum gehört. Der Wert ist daher immer kleiner als "0"
        * </pre>
        *
-       * <code>optional .dstore.values.IntegerValue tree_node_id = 10003;</code>
+       * <code>.dstore.values.IntegerValue tree_node_id = 10003;</code>
        */
       io.dstore.values.IntegerValue getTreeNodeId();
       /**
@@ -915,7 +915,7 @@ public final class ImGetPageTreeNodesAd {
        * ID eines Elementes in "TreeView", das NICHT zum Artikelbaum gehört. Der Wert ist daher immer kleiner als "0"
        * </pre>
        *
-       * <code>optional .dstore.values.IntegerValue tree_node_id = 10003;</code>
+       * <code>.dstore.values.IntegerValue tree_node_id = 10003;</code>
        */
       io.dstore.values.IntegerValueOrBuilder getTreeNodeIdOrBuilder();
 
@@ -924,7 +924,7 @@ public final class ImGetPageTreeNodesAd {
        * ID des zur "TreeNodeID" gehörenden Elementes aus "dStore". Wert ist ebenfalls immer kleiner als "0"
        * </pre>
        *
-       * <code>optional .dstore.values.IntegerValue node_id = 10004;</code>
+       * <code>.dstore.values.IntegerValue node_id = 10004;</code>
        */
       boolean hasNodeId();
       /**
@@ -932,7 +932,7 @@ public final class ImGetPageTreeNodesAd {
        * ID des zur "TreeNodeID" gehörenden Elementes aus "dStore". Wert ist ebenfalls immer kleiner als "0"
        * </pre>
        *
-       * <code>optional .dstore.values.IntegerValue node_id = 10004;</code>
+       * <code>.dstore.values.IntegerValue node_id = 10004;</code>
        */
       io.dstore.values.IntegerValue getNodeId();
       /**
@@ -940,7 +940,7 @@ public final class ImGetPageTreeNodesAd {
        * ID des zur "TreeNodeID" gehörenden Elementes aus "dStore". Wert ist ebenfalls immer kleiner als "0"
        * </pre>
        *
-       * <code>optional .dstore.values.IntegerValue node_id = 10004;</code>
+       * <code>.dstore.values.IntegerValue node_id = 10004;</code>
        */
       io.dstore.values.IntegerValueOrBuilder getNodeIdOrBuilder();
 
@@ -949,7 +949,7 @@ public final class ImGetPageTreeNodesAd {
        * Ist "TreeNodeID" als gelöscht markiert ? ("0" : Nein, "1" : Ja)
        * </pre>
        *
-       * <code>optional .dstore.values.BooleanValue deleted = 10005;</code>
+       * <code>.dstore.values.BooleanValue deleted = 10005;</code>
        */
       boolean hasDeleted();
       /**
@@ -957,7 +957,7 @@ public final class ImGetPageTreeNodesAd {
        * Ist "TreeNodeID" als gelöscht markiert ? ("0" : Nein, "1" : Ja)
        * </pre>
        *
-       * <code>optional .dstore.values.BooleanValue deleted = 10005;</code>
+       * <code>.dstore.values.BooleanValue deleted = 10005;</code>
        */
       io.dstore.values.BooleanValue getDeleted();
       /**
@@ -965,7 +965,7 @@ public final class ImGetPageTreeNodesAd {
        * Ist "TreeNodeID" als gelöscht markiert ? ("0" : Nein, "1" : Ja)
        * </pre>
        *
-       * <code>optional .dstore.values.BooleanValue deleted = 10005;</code>
+       * <code>.dstore.values.BooleanValue deleted = 10005;</code>
        */
       io.dstore.values.BooleanValueOrBuilder getDeletedOrBuilder();
 
@@ -974,7 +974,7 @@ public final class ImGetPageTreeNodesAd {
        * ID der Hierarchie; ist für "Page"s immer "0" (evtl. wird später aber auch hier eine Baumstruktur erlaubt sein)
        * </pre>
        *
-       * <code>optional .dstore.values.IntegerValue level_id = 10006;</code>
+       * <code>.dstore.values.IntegerValue level_id = 10006;</code>
        */
       boolean hasLevelId();
       /**
@@ -982,7 +982,7 @@ public final class ImGetPageTreeNodesAd {
        * ID der Hierarchie; ist für "Page"s immer "0" (evtl. wird später aber auch hier eine Baumstruktur erlaubt sein)
        * </pre>
        *
-       * <code>optional .dstore.values.IntegerValue level_id = 10006;</code>
+       * <code>.dstore.values.IntegerValue level_id = 10006;</code>
        */
       io.dstore.values.IntegerValue getLevelId();
       /**
@@ -990,7 +990,7 @@ public final class ImGetPageTreeNodesAd {
        * ID der Hierarchie; ist für "Page"s immer "0" (evtl. wird später aber auch hier eine Baumstruktur erlaubt sein)
        * </pre>
        *
-       * <code>optional .dstore.values.IntegerValue level_id = 10006;</code>
+       * <code>.dstore.values.IntegerValue level_id = 10006;</code>
        */
       io.dstore.values.IntegerValueOrBuilder getLevelIdOrBuilder();
 
@@ -999,7 +999,7 @@ public final class ImGetPageTreeNodesAd {
        * ID eines Symbols, mit dem die Page "NodeID" dargestellt wird
        * </pre>
        *
-       * <code>optional .dstore.values.IntegerValue symbol_id = 10007;</code>
+       * <code>.dstore.values.IntegerValue symbol_id = 10007;</code>
        */
       boolean hasSymbolId();
       /**
@@ -1007,7 +1007,7 @@ public final class ImGetPageTreeNodesAd {
        * ID eines Symbols, mit dem die Page "NodeID" dargestellt wird
        * </pre>
        *
-       * <code>optional .dstore.values.IntegerValue symbol_id = 10007;</code>
+       * <code>.dstore.values.IntegerValue symbol_id = 10007;</code>
        */
       io.dstore.values.IntegerValue getSymbolId();
       /**
@@ -1015,7 +1015,7 @@ public final class ImGetPageTreeNodesAd {
        * ID eines Symbols, mit dem die Page "NodeID" dargestellt wird
        * </pre>
        *
-       * <code>optional .dstore.values.IntegerValue symbol_id = 10007;</code>
+       * <code>.dstore.values.IntegerValue symbol_id = 10007;</code>
        */
       io.dstore.values.IntegerValueOrBuilder getSymbolIdOrBuilder();
     }
@@ -1181,7 +1181,7 @@ public final class ImGetPageTreeNodesAd {
       public static final int ROW_ID_FIELD_NUMBER = 10000;
       private int rowId_;
       /**
-       * <code>optional int32 row_id = 10000;</code>
+       * <code>int32 row_id = 10000;</code>
        */
       public int getRowId() {
         return rowId_;
@@ -1194,7 +1194,7 @@ public final class ImGetPageTreeNodesAd {
        * Bezeichnung der "Page"
        * </pre>
        *
-       * <code>optional .dstore.values.StringValue node_description = 10001;</code>
+       * <code>.dstore.values.StringValue node_description = 10001;</code>
        */
       public boolean hasNodeDescription() {
         return nodeDescription_ != null;
@@ -1204,7 +1204,7 @@ public final class ImGetPageTreeNodesAd {
        * Bezeichnung der "Page"
        * </pre>
        *
-       * <code>optional .dstore.values.StringValue node_description = 10001;</code>
+       * <code>.dstore.values.StringValue node_description = 10001;</code>
        */
       public io.dstore.values.StringValue getNodeDescription() {
         return nodeDescription_ == null ? io.dstore.values.StringValue.getDefaultInstance() : nodeDescription_;
@@ -1214,7 +1214,7 @@ public final class ImGetPageTreeNodesAd {
        * Bezeichnung der "Page"
        * </pre>
        *
-       * <code>optional .dstore.values.StringValue node_description = 10001;</code>
+       * <code>.dstore.values.StringValue node_description = 10001;</code>
        */
       public io.dstore.values.StringValueOrBuilder getNodeDescriptionOrBuilder() {
         return getNodeDescription();
@@ -1227,7 +1227,7 @@ public final class ImGetPageTreeNodesAd {
        * Ist "TreeNodeID" z.Zt. aktiviert ? ("0" : Nein, "1" : Ja)
        * </pre>
        *
-       * <code>optional .dstore.values.BooleanValue active = 10002;</code>
+       * <code>.dstore.values.BooleanValue active = 10002;</code>
        */
       public boolean hasActive() {
         return active_ != null;
@@ -1237,7 +1237,7 @@ public final class ImGetPageTreeNodesAd {
        * Ist "TreeNodeID" z.Zt. aktiviert ? ("0" : Nein, "1" : Ja)
        * </pre>
        *
-       * <code>optional .dstore.values.BooleanValue active = 10002;</code>
+       * <code>.dstore.values.BooleanValue active = 10002;</code>
        */
       public io.dstore.values.BooleanValue getActive() {
         return active_ == null ? io.dstore.values.BooleanValue.getDefaultInstance() : active_;
@@ -1247,7 +1247,7 @@ public final class ImGetPageTreeNodesAd {
        * Ist "TreeNodeID" z.Zt. aktiviert ? ("0" : Nein, "1" : Ja)
        * </pre>
        *
-       * <code>optional .dstore.values.BooleanValue active = 10002;</code>
+       * <code>.dstore.values.BooleanValue active = 10002;</code>
        */
       public io.dstore.values.BooleanValueOrBuilder getActiveOrBuilder() {
         return getActive();
@@ -1260,7 +1260,7 @@ public final class ImGetPageTreeNodesAd {
        * ID eines Elementes in "TreeView", das NICHT zum Artikelbaum gehört. Der Wert ist daher immer kleiner als "0"
        * </pre>
        *
-       * <code>optional .dstore.values.IntegerValue tree_node_id = 10003;</code>
+       * <code>.dstore.values.IntegerValue tree_node_id = 10003;</code>
        */
       public boolean hasTreeNodeId() {
         return treeNodeId_ != null;
@@ -1270,7 +1270,7 @@ public final class ImGetPageTreeNodesAd {
        * ID eines Elementes in "TreeView", das NICHT zum Artikelbaum gehört. Der Wert ist daher immer kleiner als "0"
        * </pre>
        *
-       * <code>optional .dstore.values.IntegerValue tree_node_id = 10003;</code>
+       * <code>.dstore.values.IntegerValue tree_node_id = 10003;</code>
        */
       public io.dstore.values.IntegerValue getTreeNodeId() {
         return treeNodeId_ == null ? io.dstore.values.IntegerValue.getDefaultInstance() : treeNodeId_;
@@ -1280,7 +1280,7 @@ public final class ImGetPageTreeNodesAd {
        * ID eines Elementes in "TreeView", das NICHT zum Artikelbaum gehört. Der Wert ist daher immer kleiner als "0"
        * </pre>
        *
-       * <code>optional .dstore.values.IntegerValue tree_node_id = 10003;</code>
+       * <code>.dstore.values.IntegerValue tree_node_id = 10003;</code>
        */
       public io.dstore.values.IntegerValueOrBuilder getTreeNodeIdOrBuilder() {
         return getTreeNodeId();
@@ -1293,7 +1293,7 @@ public final class ImGetPageTreeNodesAd {
        * ID des zur "TreeNodeID" gehörenden Elementes aus "dStore". Wert ist ebenfalls immer kleiner als "0"
        * </pre>
        *
-       * <code>optional .dstore.values.IntegerValue node_id = 10004;</code>
+       * <code>.dstore.values.IntegerValue node_id = 10004;</code>
        */
       public boolean hasNodeId() {
         return nodeId_ != null;
@@ -1303,7 +1303,7 @@ public final class ImGetPageTreeNodesAd {
        * ID des zur "TreeNodeID" gehörenden Elementes aus "dStore". Wert ist ebenfalls immer kleiner als "0"
        * </pre>
        *
-       * <code>optional .dstore.values.IntegerValue node_id = 10004;</code>
+       * <code>.dstore.values.IntegerValue node_id = 10004;</code>
        */
       public io.dstore.values.IntegerValue getNodeId() {
         return nodeId_ == null ? io.dstore.values.IntegerValue.getDefaultInstance() : nodeId_;
@@ -1313,7 +1313,7 @@ public final class ImGetPageTreeNodesAd {
        * ID des zur "TreeNodeID" gehörenden Elementes aus "dStore". Wert ist ebenfalls immer kleiner als "0"
        * </pre>
        *
-       * <code>optional .dstore.values.IntegerValue node_id = 10004;</code>
+       * <code>.dstore.values.IntegerValue node_id = 10004;</code>
        */
       public io.dstore.values.IntegerValueOrBuilder getNodeIdOrBuilder() {
         return getNodeId();
@@ -1326,7 +1326,7 @@ public final class ImGetPageTreeNodesAd {
        * Ist "TreeNodeID" als gelöscht markiert ? ("0" : Nein, "1" : Ja)
        * </pre>
        *
-       * <code>optional .dstore.values.BooleanValue deleted = 10005;</code>
+       * <code>.dstore.values.BooleanValue deleted = 10005;</code>
        */
       public boolean hasDeleted() {
         return deleted_ != null;
@@ -1336,7 +1336,7 @@ public final class ImGetPageTreeNodesAd {
        * Ist "TreeNodeID" als gelöscht markiert ? ("0" : Nein, "1" : Ja)
        * </pre>
        *
-       * <code>optional .dstore.values.BooleanValue deleted = 10005;</code>
+       * <code>.dstore.values.BooleanValue deleted = 10005;</code>
        */
       public io.dstore.values.BooleanValue getDeleted() {
         return deleted_ == null ? io.dstore.values.BooleanValue.getDefaultInstance() : deleted_;
@@ -1346,7 +1346,7 @@ public final class ImGetPageTreeNodesAd {
        * Ist "TreeNodeID" als gelöscht markiert ? ("0" : Nein, "1" : Ja)
        * </pre>
        *
-       * <code>optional .dstore.values.BooleanValue deleted = 10005;</code>
+       * <code>.dstore.values.BooleanValue deleted = 10005;</code>
        */
       public io.dstore.values.BooleanValueOrBuilder getDeletedOrBuilder() {
         return getDeleted();
@@ -1359,7 +1359,7 @@ public final class ImGetPageTreeNodesAd {
        * ID der Hierarchie; ist für "Page"s immer "0" (evtl. wird später aber auch hier eine Baumstruktur erlaubt sein)
        * </pre>
        *
-       * <code>optional .dstore.values.IntegerValue level_id = 10006;</code>
+       * <code>.dstore.values.IntegerValue level_id = 10006;</code>
        */
       public boolean hasLevelId() {
         return levelId_ != null;
@@ -1369,7 +1369,7 @@ public final class ImGetPageTreeNodesAd {
        * ID der Hierarchie; ist für "Page"s immer "0" (evtl. wird später aber auch hier eine Baumstruktur erlaubt sein)
        * </pre>
        *
-       * <code>optional .dstore.values.IntegerValue level_id = 10006;</code>
+       * <code>.dstore.values.IntegerValue level_id = 10006;</code>
        */
       public io.dstore.values.IntegerValue getLevelId() {
         return levelId_ == null ? io.dstore.values.IntegerValue.getDefaultInstance() : levelId_;
@@ -1379,7 +1379,7 @@ public final class ImGetPageTreeNodesAd {
        * ID der Hierarchie; ist für "Page"s immer "0" (evtl. wird später aber auch hier eine Baumstruktur erlaubt sein)
        * </pre>
        *
-       * <code>optional .dstore.values.IntegerValue level_id = 10006;</code>
+       * <code>.dstore.values.IntegerValue level_id = 10006;</code>
        */
       public io.dstore.values.IntegerValueOrBuilder getLevelIdOrBuilder() {
         return getLevelId();
@@ -1392,7 +1392,7 @@ public final class ImGetPageTreeNodesAd {
        * ID eines Symbols, mit dem die Page "NodeID" dargestellt wird
        * </pre>
        *
-       * <code>optional .dstore.values.IntegerValue symbol_id = 10007;</code>
+       * <code>.dstore.values.IntegerValue symbol_id = 10007;</code>
        */
       public boolean hasSymbolId() {
         return symbolId_ != null;
@@ -1402,7 +1402,7 @@ public final class ImGetPageTreeNodesAd {
        * ID eines Symbols, mit dem die Page "NodeID" dargestellt wird
        * </pre>
        *
-       * <code>optional .dstore.values.IntegerValue symbol_id = 10007;</code>
+       * <code>.dstore.values.IntegerValue symbol_id = 10007;</code>
        */
       public io.dstore.values.IntegerValue getSymbolId() {
         return symbolId_ == null ? io.dstore.values.IntegerValue.getDefaultInstance() : symbolId_;
@@ -1412,7 +1412,7 @@ public final class ImGetPageTreeNodesAd {
        * ID eines Symbols, mit dem die Page "NodeID" dargestellt wird
        * </pre>
        *
-       * <code>optional .dstore.values.IntegerValue symbol_id = 10007;</code>
+       * <code>.dstore.values.IntegerValue symbol_id = 10007;</code>
        */
       public io.dstore.values.IntegerValueOrBuilder getSymbolIdOrBuilder() {
         return getSymbolId();
@@ -1555,7 +1555,7 @@ public final class ImGetPageTreeNodesAd {
           return memoizedHashCode;
         }
         int hash = 41;
-        hash = (19 * hash) + getDescriptorForType().hashCode();
+        hash = (19 * hash) + getDescriptor().hashCode();
         hash = (37 * hash) + ROW_ID_FIELD_NUMBER;
         hash = (53 * hash) + getRowId();
         if (hasNodeDescription()) {
@@ -1899,13 +1899,13 @@ public final class ImGetPageTreeNodesAd {
 
         private int rowId_ ;
         /**
-         * <code>optional int32 row_id = 10000;</code>
+         * <code>int32 row_id = 10000;</code>
          */
         public int getRowId() {
           return rowId_;
         }
         /**
-         * <code>optional int32 row_id = 10000;</code>
+         * <code>int32 row_id = 10000;</code>
          */
         public Builder setRowId(int value) {
           
@@ -1914,7 +1914,7 @@ public final class ImGetPageTreeNodesAd {
           return this;
         }
         /**
-         * <code>optional int32 row_id = 10000;</code>
+         * <code>int32 row_id = 10000;</code>
          */
         public Builder clearRowId() {
           
@@ -1931,7 +1931,7 @@ public final class ImGetPageTreeNodesAd {
          * Bezeichnung der "Page"
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue node_description = 10001;</code>
+         * <code>.dstore.values.StringValue node_description = 10001;</code>
          */
         public boolean hasNodeDescription() {
           return nodeDescriptionBuilder_ != null || nodeDescription_ != null;
@@ -1941,7 +1941,7 @@ public final class ImGetPageTreeNodesAd {
          * Bezeichnung der "Page"
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue node_description = 10001;</code>
+         * <code>.dstore.values.StringValue node_description = 10001;</code>
          */
         public io.dstore.values.StringValue getNodeDescription() {
           if (nodeDescriptionBuilder_ == null) {
@@ -1955,7 +1955,7 @@ public final class ImGetPageTreeNodesAd {
          * Bezeichnung der "Page"
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue node_description = 10001;</code>
+         * <code>.dstore.values.StringValue node_description = 10001;</code>
          */
         public Builder setNodeDescription(io.dstore.values.StringValue value) {
           if (nodeDescriptionBuilder_ == null) {
@@ -1975,7 +1975,7 @@ public final class ImGetPageTreeNodesAd {
          * Bezeichnung der "Page"
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue node_description = 10001;</code>
+         * <code>.dstore.values.StringValue node_description = 10001;</code>
          */
         public Builder setNodeDescription(
             io.dstore.values.StringValue.Builder builderForValue) {
@@ -1993,7 +1993,7 @@ public final class ImGetPageTreeNodesAd {
          * Bezeichnung der "Page"
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue node_description = 10001;</code>
+         * <code>.dstore.values.StringValue node_description = 10001;</code>
          */
         public Builder mergeNodeDescription(io.dstore.values.StringValue value) {
           if (nodeDescriptionBuilder_ == null) {
@@ -2015,7 +2015,7 @@ public final class ImGetPageTreeNodesAd {
          * Bezeichnung der "Page"
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue node_description = 10001;</code>
+         * <code>.dstore.values.StringValue node_description = 10001;</code>
          */
         public Builder clearNodeDescription() {
           if (nodeDescriptionBuilder_ == null) {
@@ -2033,7 +2033,7 @@ public final class ImGetPageTreeNodesAd {
          * Bezeichnung der "Page"
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue node_description = 10001;</code>
+         * <code>.dstore.values.StringValue node_description = 10001;</code>
          */
         public io.dstore.values.StringValue.Builder getNodeDescriptionBuilder() {
           
@@ -2045,7 +2045,7 @@ public final class ImGetPageTreeNodesAd {
          * Bezeichnung der "Page"
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue node_description = 10001;</code>
+         * <code>.dstore.values.StringValue node_description = 10001;</code>
          */
         public io.dstore.values.StringValueOrBuilder getNodeDescriptionOrBuilder() {
           if (nodeDescriptionBuilder_ != null) {
@@ -2060,7 +2060,7 @@ public final class ImGetPageTreeNodesAd {
          * Bezeichnung der "Page"
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue node_description = 10001;</code>
+         * <code>.dstore.values.StringValue node_description = 10001;</code>
          */
         private com.google.protobuf.SingleFieldBuilderV3<
             io.dstore.values.StringValue, io.dstore.values.StringValue.Builder, io.dstore.values.StringValueOrBuilder> 
@@ -2084,7 +2084,7 @@ public final class ImGetPageTreeNodesAd {
          * Ist "TreeNodeID" z.Zt. aktiviert ? ("0" : Nein, "1" : Ja)
          * </pre>
          *
-         * <code>optional .dstore.values.BooleanValue active = 10002;</code>
+         * <code>.dstore.values.BooleanValue active = 10002;</code>
          */
         public boolean hasActive() {
           return activeBuilder_ != null || active_ != null;
@@ -2094,7 +2094,7 @@ public final class ImGetPageTreeNodesAd {
          * Ist "TreeNodeID" z.Zt. aktiviert ? ("0" : Nein, "1" : Ja)
          * </pre>
          *
-         * <code>optional .dstore.values.BooleanValue active = 10002;</code>
+         * <code>.dstore.values.BooleanValue active = 10002;</code>
          */
         public io.dstore.values.BooleanValue getActive() {
           if (activeBuilder_ == null) {
@@ -2108,7 +2108,7 @@ public final class ImGetPageTreeNodesAd {
          * Ist "TreeNodeID" z.Zt. aktiviert ? ("0" : Nein, "1" : Ja)
          * </pre>
          *
-         * <code>optional .dstore.values.BooleanValue active = 10002;</code>
+         * <code>.dstore.values.BooleanValue active = 10002;</code>
          */
         public Builder setActive(io.dstore.values.BooleanValue value) {
           if (activeBuilder_ == null) {
@@ -2128,7 +2128,7 @@ public final class ImGetPageTreeNodesAd {
          * Ist "TreeNodeID" z.Zt. aktiviert ? ("0" : Nein, "1" : Ja)
          * </pre>
          *
-         * <code>optional .dstore.values.BooleanValue active = 10002;</code>
+         * <code>.dstore.values.BooleanValue active = 10002;</code>
          */
         public Builder setActive(
             io.dstore.values.BooleanValue.Builder builderForValue) {
@@ -2146,7 +2146,7 @@ public final class ImGetPageTreeNodesAd {
          * Ist "TreeNodeID" z.Zt. aktiviert ? ("0" : Nein, "1" : Ja)
          * </pre>
          *
-         * <code>optional .dstore.values.BooleanValue active = 10002;</code>
+         * <code>.dstore.values.BooleanValue active = 10002;</code>
          */
         public Builder mergeActive(io.dstore.values.BooleanValue value) {
           if (activeBuilder_ == null) {
@@ -2168,7 +2168,7 @@ public final class ImGetPageTreeNodesAd {
          * Ist "TreeNodeID" z.Zt. aktiviert ? ("0" : Nein, "1" : Ja)
          * </pre>
          *
-         * <code>optional .dstore.values.BooleanValue active = 10002;</code>
+         * <code>.dstore.values.BooleanValue active = 10002;</code>
          */
         public Builder clearActive() {
           if (activeBuilder_ == null) {
@@ -2186,7 +2186,7 @@ public final class ImGetPageTreeNodesAd {
          * Ist "TreeNodeID" z.Zt. aktiviert ? ("0" : Nein, "1" : Ja)
          * </pre>
          *
-         * <code>optional .dstore.values.BooleanValue active = 10002;</code>
+         * <code>.dstore.values.BooleanValue active = 10002;</code>
          */
         public io.dstore.values.BooleanValue.Builder getActiveBuilder() {
           
@@ -2198,7 +2198,7 @@ public final class ImGetPageTreeNodesAd {
          * Ist "TreeNodeID" z.Zt. aktiviert ? ("0" : Nein, "1" : Ja)
          * </pre>
          *
-         * <code>optional .dstore.values.BooleanValue active = 10002;</code>
+         * <code>.dstore.values.BooleanValue active = 10002;</code>
          */
         public io.dstore.values.BooleanValueOrBuilder getActiveOrBuilder() {
           if (activeBuilder_ != null) {
@@ -2213,7 +2213,7 @@ public final class ImGetPageTreeNodesAd {
          * Ist "TreeNodeID" z.Zt. aktiviert ? ("0" : Nein, "1" : Ja)
          * </pre>
          *
-         * <code>optional .dstore.values.BooleanValue active = 10002;</code>
+         * <code>.dstore.values.BooleanValue active = 10002;</code>
          */
         private com.google.protobuf.SingleFieldBuilderV3<
             io.dstore.values.BooleanValue, io.dstore.values.BooleanValue.Builder, io.dstore.values.BooleanValueOrBuilder> 
@@ -2237,7 +2237,7 @@ public final class ImGetPageTreeNodesAd {
          * ID eines Elementes in "TreeView", das NICHT zum Artikelbaum gehört. Der Wert ist daher immer kleiner als "0"
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue tree_node_id = 10003;</code>
+         * <code>.dstore.values.IntegerValue tree_node_id = 10003;</code>
          */
         public boolean hasTreeNodeId() {
           return treeNodeIdBuilder_ != null || treeNodeId_ != null;
@@ -2247,7 +2247,7 @@ public final class ImGetPageTreeNodesAd {
          * ID eines Elementes in "TreeView", das NICHT zum Artikelbaum gehört. Der Wert ist daher immer kleiner als "0"
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue tree_node_id = 10003;</code>
+         * <code>.dstore.values.IntegerValue tree_node_id = 10003;</code>
          */
         public io.dstore.values.IntegerValue getTreeNodeId() {
           if (treeNodeIdBuilder_ == null) {
@@ -2261,7 +2261,7 @@ public final class ImGetPageTreeNodesAd {
          * ID eines Elementes in "TreeView", das NICHT zum Artikelbaum gehört. Der Wert ist daher immer kleiner als "0"
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue tree_node_id = 10003;</code>
+         * <code>.dstore.values.IntegerValue tree_node_id = 10003;</code>
          */
         public Builder setTreeNodeId(io.dstore.values.IntegerValue value) {
           if (treeNodeIdBuilder_ == null) {
@@ -2281,7 +2281,7 @@ public final class ImGetPageTreeNodesAd {
          * ID eines Elementes in "TreeView", das NICHT zum Artikelbaum gehört. Der Wert ist daher immer kleiner als "0"
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue tree_node_id = 10003;</code>
+         * <code>.dstore.values.IntegerValue tree_node_id = 10003;</code>
          */
         public Builder setTreeNodeId(
             io.dstore.values.IntegerValue.Builder builderForValue) {
@@ -2299,7 +2299,7 @@ public final class ImGetPageTreeNodesAd {
          * ID eines Elementes in "TreeView", das NICHT zum Artikelbaum gehört. Der Wert ist daher immer kleiner als "0"
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue tree_node_id = 10003;</code>
+         * <code>.dstore.values.IntegerValue tree_node_id = 10003;</code>
          */
         public Builder mergeTreeNodeId(io.dstore.values.IntegerValue value) {
           if (treeNodeIdBuilder_ == null) {
@@ -2321,7 +2321,7 @@ public final class ImGetPageTreeNodesAd {
          * ID eines Elementes in "TreeView", das NICHT zum Artikelbaum gehört. Der Wert ist daher immer kleiner als "0"
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue tree_node_id = 10003;</code>
+         * <code>.dstore.values.IntegerValue tree_node_id = 10003;</code>
          */
         public Builder clearTreeNodeId() {
           if (treeNodeIdBuilder_ == null) {
@@ -2339,7 +2339,7 @@ public final class ImGetPageTreeNodesAd {
          * ID eines Elementes in "TreeView", das NICHT zum Artikelbaum gehört. Der Wert ist daher immer kleiner als "0"
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue tree_node_id = 10003;</code>
+         * <code>.dstore.values.IntegerValue tree_node_id = 10003;</code>
          */
         public io.dstore.values.IntegerValue.Builder getTreeNodeIdBuilder() {
           
@@ -2351,7 +2351,7 @@ public final class ImGetPageTreeNodesAd {
          * ID eines Elementes in "TreeView", das NICHT zum Artikelbaum gehört. Der Wert ist daher immer kleiner als "0"
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue tree_node_id = 10003;</code>
+         * <code>.dstore.values.IntegerValue tree_node_id = 10003;</code>
          */
         public io.dstore.values.IntegerValueOrBuilder getTreeNodeIdOrBuilder() {
           if (treeNodeIdBuilder_ != null) {
@@ -2366,7 +2366,7 @@ public final class ImGetPageTreeNodesAd {
          * ID eines Elementes in "TreeView", das NICHT zum Artikelbaum gehört. Der Wert ist daher immer kleiner als "0"
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue tree_node_id = 10003;</code>
+         * <code>.dstore.values.IntegerValue tree_node_id = 10003;</code>
          */
         private com.google.protobuf.SingleFieldBuilderV3<
             io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> 
@@ -2390,7 +2390,7 @@ public final class ImGetPageTreeNodesAd {
          * ID des zur "TreeNodeID" gehörenden Elementes aus "dStore". Wert ist ebenfalls immer kleiner als "0"
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue node_id = 10004;</code>
+         * <code>.dstore.values.IntegerValue node_id = 10004;</code>
          */
         public boolean hasNodeId() {
           return nodeIdBuilder_ != null || nodeId_ != null;
@@ -2400,7 +2400,7 @@ public final class ImGetPageTreeNodesAd {
          * ID des zur "TreeNodeID" gehörenden Elementes aus "dStore". Wert ist ebenfalls immer kleiner als "0"
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue node_id = 10004;</code>
+         * <code>.dstore.values.IntegerValue node_id = 10004;</code>
          */
         public io.dstore.values.IntegerValue getNodeId() {
           if (nodeIdBuilder_ == null) {
@@ -2414,7 +2414,7 @@ public final class ImGetPageTreeNodesAd {
          * ID des zur "TreeNodeID" gehörenden Elementes aus "dStore". Wert ist ebenfalls immer kleiner als "0"
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue node_id = 10004;</code>
+         * <code>.dstore.values.IntegerValue node_id = 10004;</code>
          */
         public Builder setNodeId(io.dstore.values.IntegerValue value) {
           if (nodeIdBuilder_ == null) {
@@ -2434,7 +2434,7 @@ public final class ImGetPageTreeNodesAd {
          * ID des zur "TreeNodeID" gehörenden Elementes aus "dStore". Wert ist ebenfalls immer kleiner als "0"
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue node_id = 10004;</code>
+         * <code>.dstore.values.IntegerValue node_id = 10004;</code>
          */
         public Builder setNodeId(
             io.dstore.values.IntegerValue.Builder builderForValue) {
@@ -2452,7 +2452,7 @@ public final class ImGetPageTreeNodesAd {
          * ID des zur "TreeNodeID" gehörenden Elementes aus "dStore". Wert ist ebenfalls immer kleiner als "0"
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue node_id = 10004;</code>
+         * <code>.dstore.values.IntegerValue node_id = 10004;</code>
          */
         public Builder mergeNodeId(io.dstore.values.IntegerValue value) {
           if (nodeIdBuilder_ == null) {
@@ -2474,7 +2474,7 @@ public final class ImGetPageTreeNodesAd {
          * ID des zur "TreeNodeID" gehörenden Elementes aus "dStore". Wert ist ebenfalls immer kleiner als "0"
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue node_id = 10004;</code>
+         * <code>.dstore.values.IntegerValue node_id = 10004;</code>
          */
         public Builder clearNodeId() {
           if (nodeIdBuilder_ == null) {
@@ -2492,7 +2492,7 @@ public final class ImGetPageTreeNodesAd {
          * ID des zur "TreeNodeID" gehörenden Elementes aus "dStore". Wert ist ebenfalls immer kleiner als "0"
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue node_id = 10004;</code>
+         * <code>.dstore.values.IntegerValue node_id = 10004;</code>
          */
         public io.dstore.values.IntegerValue.Builder getNodeIdBuilder() {
           
@@ -2504,7 +2504,7 @@ public final class ImGetPageTreeNodesAd {
          * ID des zur "TreeNodeID" gehörenden Elementes aus "dStore". Wert ist ebenfalls immer kleiner als "0"
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue node_id = 10004;</code>
+         * <code>.dstore.values.IntegerValue node_id = 10004;</code>
          */
         public io.dstore.values.IntegerValueOrBuilder getNodeIdOrBuilder() {
           if (nodeIdBuilder_ != null) {
@@ -2519,7 +2519,7 @@ public final class ImGetPageTreeNodesAd {
          * ID des zur "TreeNodeID" gehörenden Elementes aus "dStore". Wert ist ebenfalls immer kleiner als "0"
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue node_id = 10004;</code>
+         * <code>.dstore.values.IntegerValue node_id = 10004;</code>
          */
         private com.google.protobuf.SingleFieldBuilderV3<
             io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> 
@@ -2543,7 +2543,7 @@ public final class ImGetPageTreeNodesAd {
          * Ist "TreeNodeID" als gelöscht markiert ? ("0" : Nein, "1" : Ja)
          * </pre>
          *
-         * <code>optional .dstore.values.BooleanValue deleted = 10005;</code>
+         * <code>.dstore.values.BooleanValue deleted = 10005;</code>
          */
         public boolean hasDeleted() {
           return deletedBuilder_ != null || deleted_ != null;
@@ -2553,7 +2553,7 @@ public final class ImGetPageTreeNodesAd {
          * Ist "TreeNodeID" als gelöscht markiert ? ("0" : Nein, "1" : Ja)
          * </pre>
          *
-         * <code>optional .dstore.values.BooleanValue deleted = 10005;</code>
+         * <code>.dstore.values.BooleanValue deleted = 10005;</code>
          */
         public io.dstore.values.BooleanValue getDeleted() {
           if (deletedBuilder_ == null) {
@@ -2567,7 +2567,7 @@ public final class ImGetPageTreeNodesAd {
          * Ist "TreeNodeID" als gelöscht markiert ? ("0" : Nein, "1" : Ja)
          * </pre>
          *
-         * <code>optional .dstore.values.BooleanValue deleted = 10005;</code>
+         * <code>.dstore.values.BooleanValue deleted = 10005;</code>
          */
         public Builder setDeleted(io.dstore.values.BooleanValue value) {
           if (deletedBuilder_ == null) {
@@ -2587,7 +2587,7 @@ public final class ImGetPageTreeNodesAd {
          * Ist "TreeNodeID" als gelöscht markiert ? ("0" : Nein, "1" : Ja)
          * </pre>
          *
-         * <code>optional .dstore.values.BooleanValue deleted = 10005;</code>
+         * <code>.dstore.values.BooleanValue deleted = 10005;</code>
          */
         public Builder setDeleted(
             io.dstore.values.BooleanValue.Builder builderForValue) {
@@ -2605,7 +2605,7 @@ public final class ImGetPageTreeNodesAd {
          * Ist "TreeNodeID" als gelöscht markiert ? ("0" : Nein, "1" : Ja)
          * </pre>
          *
-         * <code>optional .dstore.values.BooleanValue deleted = 10005;</code>
+         * <code>.dstore.values.BooleanValue deleted = 10005;</code>
          */
         public Builder mergeDeleted(io.dstore.values.BooleanValue value) {
           if (deletedBuilder_ == null) {
@@ -2627,7 +2627,7 @@ public final class ImGetPageTreeNodesAd {
          * Ist "TreeNodeID" als gelöscht markiert ? ("0" : Nein, "1" : Ja)
          * </pre>
          *
-         * <code>optional .dstore.values.BooleanValue deleted = 10005;</code>
+         * <code>.dstore.values.BooleanValue deleted = 10005;</code>
          */
         public Builder clearDeleted() {
           if (deletedBuilder_ == null) {
@@ -2645,7 +2645,7 @@ public final class ImGetPageTreeNodesAd {
          * Ist "TreeNodeID" als gelöscht markiert ? ("0" : Nein, "1" : Ja)
          * </pre>
          *
-         * <code>optional .dstore.values.BooleanValue deleted = 10005;</code>
+         * <code>.dstore.values.BooleanValue deleted = 10005;</code>
          */
         public io.dstore.values.BooleanValue.Builder getDeletedBuilder() {
           
@@ -2657,7 +2657,7 @@ public final class ImGetPageTreeNodesAd {
          * Ist "TreeNodeID" als gelöscht markiert ? ("0" : Nein, "1" : Ja)
          * </pre>
          *
-         * <code>optional .dstore.values.BooleanValue deleted = 10005;</code>
+         * <code>.dstore.values.BooleanValue deleted = 10005;</code>
          */
         public io.dstore.values.BooleanValueOrBuilder getDeletedOrBuilder() {
           if (deletedBuilder_ != null) {
@@ -2672,7 +2672,7 @@ public final class ImGetPageTreeNodesAd {
          * Ist "TreeNodeID" als gelöscht markiert ? ("0" : Nein, "1" : Ja)
          * </pre>
          *
-         * <code>optional .dstore.values.BooleanValue deleted = 10005;</code>
+         * <code>.dstore.values.BooleanValue deleted = 10005;</code>
          */
         private com.google.protobuf.SingleFieldBuilderV3<
             io.dstore.values.BooleanValue, io.dstore.values.BooleanValue.Builder, io.dstore.values.BooleanValueOrBuilder> 
@@ -2696,7 +2696,7 @@ public final class ImGetPageTreeNodesAd {
          * ID der Hierarchie; ist für "Page"s immer "0" (evtl. wird später aber auch hier eine Baumstruktur erlaubt sein)
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue level_id = 10006;</code>
+         * <code>.dstore.values.IntegerValue level_id = 10006;</code>
          */
         public boolean hasLevelId() {
           return levelIdBuilder_ != null || levelId_ != null;
@@ -2706,7 +2706,7 @@ public final class ImGetPageTreeNodesAd {
          * ID der Hierarchie; ist für "Page"s immer "0" (evtl. wird später aber auch hier eine Baumstruktur erlaubt sein)
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue level_id = 10006;</code>
+         * <code>.dstore.values.IntegerValue level_id = 10006;</code>
          */
         public io.dstore.values.IntegerValue getLevelId() {
           if (levelIdBuilder_ == null) {
@@ -2720,7 +2720,7 @@ public final class ImGetPageTreeNodesAd {
          * ID der Hierarchie; ist für "Page"s immer "0" (evtl. wird später aber auch hier eine Baumstruktur erlaubt sein)
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue level_id = 10006;</code>
+         * <code>.dstore.values.IntegerValue level_id = 10006;</code>
          */
         public Builder setLevelId(io.dstore.values.IntegerValue value) {
           if (levelIdBuilder_ == null) {
@@ -2740,7 +2740,7 @@ public final class ImGetPageTreeNodesAd {
          * ID der Hierarchie; ist für "Page"s immer "0" (evtl. wird später aber auch hier eine Baumstruktur erlaubt sein)
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue level_id = 10006;</code>
+         * <code>.dstore.values.IntegerValue level_id = 10006;</code>
          */
         public Builder setLevelId(
             io.dstore.values.IntegerValue.Builder builderForValue) {
@@ -2758,7 +2758,7 @@ public final class ImGetPageTreeNodesAd {
          * ID der Hierarchie; ist für "Page"s immer "0" (evtl. wird später aber auch hier eine Baumstruktur erlaubt sein)
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue level_id = 10006;</code>
+         * <code>.dstore.values.IntegerValue level_id = 10006;</code>
          */
         public Builder mergeLevelId(io.dstore.values.IntegerValue value) {
           if (levelIdBuilder_ == null) {
@@ -2780,7 +2780,7 @@ public final class ImGetPageTreeNodesAd {
          * ID der Hierarchie; ist für "Page"s immer "0" (evtl. wird später aber auch hier eine Baumstruktur erlaubt sein)
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue level_id = 10006;</code>
+         * <code>.dstore.values.IntegerValue level_id = 10006;</code>
          */
         public Builder clearLevelId() {
           if (levelIdBuilder_ == null) {
@@ -2798,7 +2798,7 @@ public final class ImGetPageTreeNodesAd {
          * ID der Hierarchie; ist für "Page"s immer "0" (evtl. wird später aber auch hier eine Baumstruktur erlaubt sein)
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue level_id = 10006;</code>
+         * <code>.dstore.values.IntegerValue level_id = 10006;</code>
          */
         public io.dstore.values.IntegerValue.Builder getLevelIdBuilder() {
           
@@ -2810,7 +2810,7 @@ public final class ImGetPageTreeNodesAd {
          * ID der Hierarchie; ist für "Page"s immer "0" (evtl. wird später aber auch hier eine Baumstruktur erlaubt sein)
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue level_id = 10006;</code>
+         * <code>.dstore.values.IntegerValue level_id = 10006;</code>
          */
         public io.dstore.values.IntegerValueOrBuilder getLevelIdOrBuilder() {
           if (levelIdBuilder_ != null) {
@@ -2825,7 +2825,7 @@ public final class ImGetPageTreeNodesAd {
          * ID der Hierarchie; ist für "Page"s immer "0" (evtl. wird später aber auch hier eine Baumstruktur erlaubt sein)
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue level_id = 10006;</code>
+         * <code>.dstore.values.IntegerValue level_id = 10006;</code>
          */
         private com.google.protobuf.SingleFieldBuilderV3<
             io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> 
@@ -2849,7 +2849,7 @@ public final class ImGetPageTreeNodesAd {
          * ID eines Symbols, mit dem die Page "NodeID" dargestellt wird
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue symbol_id = 10007;</code>
+         * <code>.dstore.values.IntegerValue symbol_id = 10007;</code>
          */
         public boolean hasSymbolId() {
           return symbolIdBuilder_ != null || symbolId_ != null;
@@ -2859,7 +2859,7 @@ public final class ImGetPageTreeNodesAd {
          * ID eines Symbols, mit dem die Page "NodeID" dargestellt wird
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue symbol_id = 10007;</code>
+         * <code>.dstore.values.IntegerValue symbol_id = 10007;</code>
          */
         public io.dstore.values.IntegerValue getSymbolId() {
           if (symbolIdBuilder_ == null) {
@@ -2873,7 +2873,7 @@ public final class ImGetPageTreeNodesAd {
          * ID eines Symbols, mit dem die Page "NodeID" dargestellt wird
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue symbol_id = 10007;</code>
+         * <code>.dstore.values.IntegerValue symbol_id = 10007;</code>
          */
         public Builder setSymbolId(io.dstore.values.IntegerValue value) {
           if (symbolIdBuilder_ == null) {
@@ -2893,7 +2893,7 @@ public final class ImGetPageTreeNodesAd {
          * ID eines Symbols, mit dem die Page "NodeID" dargestellt wird
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue symbol_id = 10007;</code>
+         * <code>.dstore.values.IntegerValue symbol_id = 10007;</code>
          */
         public Builder setSymbolId(
             io.dstore.values.IntegerValue.Builder builderForValue) {
@@ -2911,7 +2911,7 @@ public final class ImGetPageTreeNodesAd {
          * ID eines Symbols, mit dem die Page "NodeID" dargestellt wird
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue symbol_id = 10007;</code>
+         * <code>.dstore.values.IntegerValue symbol_id = 10007;</code>
          */
         public Builder mergeSymbolId(io.dstore.values.IntegerValue value) {
           if (symbolIdBuilder_ == null) {
@@ -2933,7 +2933,7 @@ public final class ImGetPageTreeNodesAd {
          * ID eines Symbols, mit dem die Page "NodeID" dargestellt wird
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue symbol_id = 10007;</code>
+         * <code>.dstore.values.IntegerValue symbol_id = 10007;</code>
          */
         public Builder clearSymbolId() {
           if (symbolIdBuilder_ == null) {
@@ -2951,7 +2951,7 @@ public final class ImGetPageTreeNodesAd {
          * ID eines Symbols, mit dem die Page "NodeID" dargestellt wird
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue symbol_id = 10007;</code>
+         * <code>.dstore.values.IntegerValue symbol_id = 10007;</code>
          */
         public io.dstore.values.IntegerValue.Builder getSymbolIdBuilder() {
           
@@ -2963,7 +2963,7 @@ public final class ImGetPageTreeNodesAd {
          * ID eines Symbols, mit dem die Page "NodeID" dargestellt wird
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue symbol_id = 10007;</code>
+         * <code>.dstore.values.IntegerValue symbol_id = 10007;</code>
          */
         public io.dstore.values.IntegerValueOrBuilder getSymbolIdOrBuilder() {
           if (symbolIdBuilder_ != null) {
@@ -2978,7 +2978,7 @@ public final class ImGetPageTreeNodesAd {
          * ID eines Symbols, mit dem die Page "NodeID" dargestellt wird
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue symbol_id = 10007;</code>
+         * <code>.dstore.values.IntegerValue symbol_id = 10007;</code>
          */
         private com.google.protobuf.SingleFieldBuilderV3<
             io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> 
@@ -3238,7 +3238,7 @@ public final class ImGetPageTreeNodesAd {
         return memoizedHashCode;
       }
       int hash = 41;
-      hash = (19 * hash) + getDescriptorForType().hashCode();
+      hash = (19 * hash) + getDescriptor().hashCode();
       if (getMetaInformationCount() > 0) {
         hash = (37 * hash) + META_INFORMATION_FIELD_NUMBER;
         hash = (53 * hash) + getMetaInformationList().hashCode();

@@ -19,38 +19,38 @@ public final class PmGetPersonCharacValueIDAd {
       com.google.protobuf.MessageOrBuilder {
 
     /**
-     * <code>optional .dstore.values.IntegerValue person_characteristic_id = 1;</code>
+     * <code>.dstore.values.IntegerValue person_characteristic_id = 1;</code>
      */
     boolean hasPersonCharacteristicId();
     /**
-     * <code>optional .dstore.values.IntegerValue person_characteristic_id = 1;</code>
+     * <code>.dstore.values.IntegerValue person_characteristic_id = 1;</code>
      */
     io.dstore.values.IntegerValue getPersonCharacteristicId();
     /**
-     * <code>optional .dstore.values.IntegerValue person_characteristic_id = 1;</code>
+     * <code>.dstore.values.IntegerValue person_characteristic_id = 1;</code>
      */
     io.dstore.values.IntegerValueOrBuilder getPersonCharacteristicIdOrBuilder();
 
     /**
-     * <code>optional bool person_characteristic_id_null = 1001;</code>
+     * <code>bool person_characteristic_id_null = 1001;</code>
      */
     boolean getPersonCharacteristicIdNull();
 
     /**
-     * <code>optional .dstore.values.StringValue value = 2;</code>
+     * <code>.dstore.values.StringValue value = 2;</code>
      */
     boolean hasValue();
     /**
-     * <code>optional .dstore.values.StringValue value = 2;</code>
+     * <code>.dstore.values.StringValue value = 2;</code>
      */
     io.dstore.values.StringValue getValue();
     /**
-     * <code>optional .dstore.values.StringValue value = 2;</code>
+     * <code>.dstore.values.StringValue value = 2;</code>
      */
     io.dstore.values.StringValueOrBuilder getValueOrBuilder();
 
     /**
-     * <code>optional bool value_null = 1002;</code>
+     * <code>bool value_null = 1002;</code>
      */
     boolean getValueNull();
   }
@@ -157,19 +157,19 @@ public final class PmGetPersonCharacValueIDAd {
     public static final int PERSON_CHARACTERISTIC_ID_FIELD_NUMBER = 1;
     private io.dstore.values.IntegerValue personCharacteristicId_;
     /**
-     * <code>optional .dstore.values.IntegerValue person_characteristic_id = 1;</code>
+     * <code>.dstore.values.IntegerValue person_characteristic_id = 1;</code>
      */
     public boolean hasPersonCharacteristicId() {
       return personCharacteristicId_ != null;
     }
     /**
-     * <code>optional .dstore.values.IntegerValue person_characteristic_id = 1;</code>
+     * <code>.dstore.values.IntegerValue person_characteristic_id = 1;</code>
      */
     public io.dstore.values.IntegerValue getPersonCharacteristicId() {
       return personCharacteristicId_ == null ? io.dstore.values.IntegerValue.getDefaultInstance() : personCharacteristicId_;
     }
     /**
-     * <code>optional .dstore.values.IntegerValue person_characteristic_id = 1;</code>
+     * <code>.dstore.values.IntegerValue person_characteristic_id = 1;</code>
      */
     public io.dstore.values.IntegerValueOrBuilder getPersonCharacteristicIdOrBuilder() {
       return getPersonCharacteristicId();
@@ -178,7 +178,7 @@ public final class PmGetPersonCharacValueIDAd {
     public static final int PERSON_CHARACTERISTIC_ID_NULL_FIELD_NUMBER = 1001;
     private boolean personCharacteristicIdNull_;
     /**
-     * <code>optional bool person_characteristic_id_null = 1001;</code>
+     * <code>bool person_characteristic_id_null = 1001;</code>
      */
     public boolean getPersonCharacteristicIdNull() {
       return personCharacteristicIdNull_;
@@ -187,19 +187,19 @@ public final class PmGetPersonCharacValueIDAd {
     public static final int VALUE_FIELD_NUMBER = 2;
     private io.dstore.values.StringValue value_;
     /**
-     * <code>optional .dstore.values.StringValue value = 2;</code>
+     * <code>.dstore.values.StringValue value = 2;</code>
      */
     public boolean hasValue() {
       return value_ != null;
     }
     /**
-     * <code>optional .dstore.values.StringValue value = 2;</code>
+     * <code>.dstore.values.StringValue value = 2;</code>
      */
     public io.dstore.values.StringValue getValue() {
       return value_ == null ? io.dstore.values.StringValue.getDefaultInstance() : value_;
     }
     /**
-     * <code>optional .dstore.values.StringValue value = 2;</code>
+     * <code>.dstore.values.StringValue value = 2;</code>
      */
     public io.dstore.values.StringValueOrBuilder getValueOrBuilder() {
       return getValue();
@@ -208,7 +208,7 @@ public final class PmGetPersonCharacValueIDAd {
     public static final int VALUE_NULL_FIELD_NUMBER = 1002;
     private boolean valueNull_;
     /**
-     * <code>optional bool value_null = 1002;</code>
+     * <code>bool value_null = 1002;</code>
      */
     public boolean getValueNull() {
       return valueNull_;
@@ -300,7 +300,7 @@ public final class PmGetPersonCharacValueIDAd {
         return memoizedHashCode;
       }
       int hash = 41;
-      hash = (19 * hash) + getDescriptorForType().hashCode();
+      hash = (19 * hash) + getDescriptor().hashCode();
       if (hasPersonCharacteristicId()) {
         hash = (37 * hash) + PERSON_CHARACTERISTIC_ID_FIELD_NUMBER;
         hash = (53 * hash) + getPersonCharacteristicId().hashCode();
@@ -566,13 +566,13 @@ public final class PmGetPersonCharacValueIDAd {
       private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> personCharacteristicIdBuilder_;
       /**
-       * <code>optional .dstore.values.IntegerValue person_characteristic_id = 1;</code>
+       * <code>.dstore.values.IntegerValue person_characteristic_id = 1;</code>
        */
       public boolean hasPersonCharacteristicId() {
         return personCharacteristicIdBuilder_ != null || personCharacteristicId_ != null;
       }
       /**
-       * <code>optional .dstore.values.IntegerValue person_characteristic_id = 1;</code>
+       * <code>.dstore.values.IntegerValue person_characteristic_id = 1;</code>
        */
       public io.dstore.values.IntegerValue getPersonCharacteristicId() {
         if (personCharacteristicIdBuilder_ == null) {
@@ -582,7 +582,7 @@ public final class PmGetPersonCharacValueIDAd {
         }
       }
       /**
-       * <code>optional .dstore.values.IntegerValue person_characteristic_id = 1;</code>
+       * <code>.dstore.values.IntegerValue person_characteristic_id = 1;</code>
        */
       public Builder setPersonCharacteristicId(io.dstore.values.IntegerValue value) {
         if (personCharacteristicIdBuilder_ == null) {
@@ -598,7 +598,7 @@ public final class PmGetPersonCharacValueIDAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.IntegerValue person_characteristic_id = 1;</code>
+       * <code>.dstore.values.IntegerValue person_characteristic_id = 1;</code>
        */
       public Builder setPersonCharacteristicId(
           io.dstore.values.IntegerValue.Builder builderForValue) {
@@ -612,7 +612,7 @@ public final class PmGetPersonCharacValueIDAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.IntegerValue person_characteristic_id = 1;</code>
+       * <code>.dstore.values.IntegerValue person_characteristic_id = 1;</code>
        */
       public Builder mergePersonCharacteristicId(io.dstore.values.IntegerValue value) {
         if (personCharacteristicIdBuilder_ == null) {
@@ -630,7 +630,7 @@ public final class PmGetPersonCharacValueIDAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.IntegerValue person_characteristic_id = 1;</code>
+       * <code>.dstore.values.IntegerValue person_characteristic_id = 1;</code>
        */
       public Builder clearPersonCharacteristicId() {
         if (personCharacteristicIdBuilder_ == null) {
@@ -644,7 +644,7 @@ public final class PmGetPersonCharacValueIDAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.IntegerValue person_characteristic_id = 1;</code>
+       * <code>.dstore.values.IntegerValue person_characteristic_id = 1;</code>
        */
       public io.dstore.values.IntegerValue.Builder getPersonCharacteristicIdBuilder() {
         
@@ -652,7 +652,7 @@ public final class PmGetPersonCharacValueIDAd {
         return getPersonCharacteristicIdFieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .dstore.values.IntegerValue person_characteristic_id = 1;</code>
+       * <code>.dstore.values.IntegerValue person_characteristic_id = 1;</code>
        */
       public io.dstore.values.IntegerValueOrBuilder getPersonCharacteristicIdOrBuilder() {
         if (personCharacteristicIdBuilder_ != null) {
@@ -663,7 +663,7 @@ public final class PmGetPersonCharacValueIDAd {
         }
       }
       /**
-       * <code>optional .dstore.values.IntegerValue person_characteristic_id = 1;</code>
+       * <code>.dstore.values.IntegerValue person_characteristic_id = 1;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> 
@@ -681,13 +681,13 @@ public final class PmGetPersonCharacValueIDAd {
 
       private boolean personCharacteristicIdNull_ ;
       /**
-       * <code>optional bool person_characteristic_id_null = 1001;</code>
+       * <code>bool person_characteristic_id_null = 1001;</code>
        */
       public boolean getPersonCharacteristicIdNull() {
         return personCharacteristicIdNull_;
       }
       /**
-       * <code>optional bool person_characteristic_id_null = 1001;</code>
+       * <code>bool person_characteristic_id_null = 1001;</code>
        */
       public Builder setPersonCharacteristicIdNull(boolean value) {
         
@@ -696,7 +696,7 @@ public final class PmGetPersonCharacValueIDAd {
         return this;
       }
       /**
-       * <code>optional bool person_characteristic_id_null = 1001;</code>
+       * <code>bool person_characteristic_id_null = 1001;</code>
        */
       public Builder clearPersonCharacteristicIdNull() {
         
@@ -709,13 +709,13 @@ public final class PmGetPersonCharacValueIDAd {
       private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.values.StringValue, io.dstore.values.StringValue.Builder, io.dstore.values.StringValueOrBuilder> valueBuilder_;
       /**
-       * <code>optional .dstore.values.StringValue value = 2;</code>
+       * <code>.dstore.values.StringValue value = 2;</code>
        */
       public boolean hasValue() {
         return valueBuilder_ != null || value_ != null;
       }
       /**
-       * <code>optional .dstore.values.StringValue value = 2;</code>
+       * <code>.dstore.values.StringValue value = 2;</code>
        */
       public io.dstore.values.StringValue getValue() {
         if (valueBuilder_ == null) {
@@ -725,7 +725,7 @@ public final class PmGetPersonCharacValueIDAd {
         }
       }
       /**
-       * <code>optional .dstore.values.StringValue value = 2;</code>
+       * <code>.dstore.values.StringValue value = 2;</code>
        */
       public Builder setValue(io.dstore.values.StringValue value) {
         if (valueBuilder_ == null) {
@@ -741,7 +741,7 @@ public final class PmGetPersonCharacValueIDAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.StringValue value = 2;</code>
+       * <code>.dstore.values.StringValue value = 2;</code>
        */
       public Builder setValue(
           io.dstore.values.StringValue.Builder builderForValue) {
@@ -755,7 +755,7 @@ public final class PmGetPersonCharacValueIDAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.StringValue value = 2;</code>
+       * <code>.dstore.values.StringValue value = 2;</code>
        */
       public Builder mergeValue(io.dstore.values.StringValue value) {
         if (valueBuilder_ == null) {
@@ -773,7 +773,7 @@ public final class PmGetPersonCharacValueIDAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.StringValue value = 2;</code>
+       * <code>.dstore.values.StringValue value = 2;</code>
        */
       public Builder clearValue() {
         if (valueBuilder_ == null) {
@@ -787,7 +787,7 @@ public final class PmGetPersonCharacValueIDAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.StringValue value = 2;</code>
+       * <code>.dstore.values.StringValue value = 2;</code>
        */
       public io.dstore.values.StringValue.Builder getValueBuilder() {
         
@@ -795,7 +795,7 @@ public final class PmGetPersonCharacValueIDAd {
         return getValueFieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .dstore.values.StringValue value = 2;</code>
+       * <code>.dstore.values.StringValue value = 2;</code>
        */
       public io.dstore.values.StringValueOrBuilder getValueOrBuilder() {
         if (valueBuilder_ != null) {
@@ -806,7 +806,7 @@ public final class PmGetPersonCharacValueIDAd {
         }
       }
       /**
-       * <code>optional .dstore.values.StringValue value = 2;</code>
+       * <code>.dstore.values.StringValue value = 2;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.values.StringValue, io.dstore.values.StringValue.Builder, io.dstore.values.StringValueOrBuilder> 
@@ -824,13 +824,13 @@ public final class PmGetPersonCharacValueIDAd {
 
       private boolean valueNull_ ;
       /**
-       * <code>optional bool value_null = 1002;</code>
+       * <code>bool value_null = 1002;</code>
        */
       public boolean getValueNull() {
         return valueNull_;
       }
       /**
-       * <code>optional bool value_null = 1002;</code>
+       * <code>bool value_null = 1002;</code>
        */
       public Builder setValueNull(boolean value) {
         
@@ -839,7 +839,7 @@ public final class PmGetPersonCharacValueIDAd {
         return this;
       }
       /**
-       * <code>optional bool value_null = 1002;</code>
+       * <code>bool value_null = 1002;</code>
        */
       public Builder clearValueNull() {
         
@@ -1098,7 +1098,7 @@ public final class PmGetPersonCharacValueIDAd {
         com.google.protobuf.MessageOrBuilder {
 
       /**
-       * <code>optional int32 row_id = 10000;</code>
+       * <code>int32 row_id = 10000;</code>
        */
       int getRowId();
 
@@ -1107,7 +1107,7 @@ public final class PmGetPersonCharacValueIDAd {
        * ID des Personen-Merkmals, zu dem die Eigenschaft "&#64;Value" gehört. Besteht für ein Merkmal eine lesende (vollst. o. eingeschr.) Zugriffsbeschränkung (s. "pm_GetPChAccRestrForUsers_Ad") für den Aufrufer, FEHLT der entsprechende Datensatz im Ergebnis !
        * </pre>
        *
-       * <code>optional .dstore.values.IntegerValue person_characteristic_id = 10001;</code>
+       * <code>.dstore.values.IntegerValue person_characteristic_id = 10001;</code>
        */
       boolean hasPersonCharacteristicId();
       /**
@@ -1115,7 +1115,7 @@ public final class PmGetPersonCharacValueIDAd {
        * ID des Personen-Merkmals, zu dem die Eigenschaft "&#64;Value" gehört. Besteht für ein Merkmal eine lesende (vollst. o. eingeschr.) Zugriffsbeschränkung (s. "pm_GetPChAccRestrForUsers_Ad") für den Aufrufer, FEHLT der entsprechende Datensatz im Ergebnis !
        * </pre>
        *
-       * <code>optional .dstore.values.IntegerValue person_characteristic_id = 10001;</code>
+       * <code>.dstore.values.IntegerValue person_characteristic_id = 10001;</code>
        */
       io.dstore.values.IntegerValue getPersonCharacteristicId();
       /**
@@ -1123,7 +1123,7 @@ public final class PmGetPersonCharacValueIDAd {
        * ID des Personen-Merkmals, zu dem die Eigenschaft "&#64;Value" gehört. Besteht für ein Merkmal eine lesende (vollst. o. eingeschr.) Zugriffsbeschränkung (s. "pm_GetPChAccRestrForUsers_Ad") für den Aufrufer, FEHLT der entsprechende Datensatz im Ergebnis !
        * </pre>
        *
-       * <code>optional .dstore.values.IntegerValue person_characteristic_id = 10001;</code>
+       * <code>.dstore.values.IntegerValue person_characteristic_id = 10001;</code>
        */
       io.dstore.values.IntegerValueOrBuilder getPersonCharacteristicIdOrBuilder();
 
@@ -1132,7 +1132,7 @@ public final class PmGetPersonCharacValueIDAd {
        * ID der Eigenschaft "&#64;Value"
        * </pre>
        *
-       * <code>optional .dstore.values.IntegerValue value_id = 10002;</code>
+       * <code>.dstore.values.IntegerValue value_id = 10002;</code>
        */
       boolean hasValueId();
       /**
@@ -1140,7 +1140,7 @@ public final class PmGetPersonCharacValueIDAd {
        * ID der Eigenschaft "&#64;Value"
        * </pre>
        *
-       * <code>optional .dstore.values.IntegerValue value_id = 10002;</code>
+       * <code>.dstore.values.IntegerValue value_id = 10002;</code>
        */
       io.dstore.values.IntegerValue getValueId();
       /**
@@ -1148,7 +1148,7 @@ public final class PmGetPersonCharacValueIDAd {
        * ID der Eigenschaft "&#64;Value"
        * </pre>
        *
-       * <code>optional .dstore.values.IntegerValue value_id = 10002;</code>
+       * <code>.dstore.values.IntegerValue value_id = 10002;</code>
        */
       io.dstore.values.IntegerValueOrBuilder getValueIdOrBuilder();
     }
@@ -1249,7 +1249,7 @@ public final class PmGetPersonCharacValueIDAd {
       public static final int ROW_ID_FIELD_NUMBER = 10000;
       private int rowId_;
       /**
-       * <code>optional int32 row_id = 10000;</code>
+       * <code>int32 row_id = 10000;</code>
        */
       public int getRowId() {
         return rowId_;
@@ -1262,7 +1262,7 @@ public final class PmGetPersonCharacValueIDAd {
        * ID des Personen-Merkmals, zu dem die Eigenschaft "&#64;Value" gehört. Besteht für ein Merkmal eine lesende (vollst. o. eingeschr.) Zugriffsbeschränkung (s. "pm_GetPChAccRestrForUsers_Ad") für den Aufrufer, FEHLT der entsprechende Datensatz im Ergebnis !
        * </pre>
        *
-       * <code>optional .dstore.values.IntegerValue person_characteristic_id = 10001;</code>
+       * <code>.dstore.values.IntegerValue person_characteristic_id = 10001;</code>
        */
       public boolean hasPersonCharacteristicId() {
         return personCharacteristicId_ != null;
@@ -1272,7 +1272,7 @@ public final class PmGetPersonCharacValueIDAd {
        * ID des Personen-Merkmals, zu dem die Eigenschaft "&#64;Value" gehört. Besteht für ein Merkmal eine lesende (vollst. o. eingeschr.) Zugriffsbeschränkung (s. "pm_GetPChAccRestrForUsers_Ad") für den Aufrufer, FEHLT der entsprechende Datensatz im Ergebnis !
        * </pre>
        *
-       * <code>optional .dstore.values.IntegerValue person_characteristic_id = 10001;</code>
+       * <code>.dstore.values.IntegerValue person_characteristic_id = 10001;</code>
        */
       public io.dstore.values.IntegerValue getPersonCharacteristicId() {
         return personCharacteristicId_ == null ? io.dstore.values.IntegerValue.getDefaultInstance() : personCharacteristicId_;
@@ -1282,7 +1282,7 @@ public final class PmGetPersonCharacValueIDAd {
        * ID des Personen-Merkmals, zu dem die Eigenschaft "&#64;Value" gehört. Besteht für ein Merkmal eine lesende (vollst. o. eingeschr.) Zugriffsbeschränkung (s. "pm_GetPChAccRestrForUsers_Ad") für den Aufrufer, FEHLT der entsprechende Datensatz im Ergebnis !
        * </pre>
        *
-       * <code>optional .dstore.values.IntegerValue person_characteristic_id = 10001;</code>
+       * <code>.dstore.values.IntegerValue person_characteristic_id = 10001;</code>
        */
       public io.dstore.values.IntegerValueOrBuilder getPersonCharacteristicIdOrBuilder() {
         return getPersonCharacteristicId();
@@ -1295,7 +1295,7 @@ public final class PmGetPersonCharacValueIDAd {
        * ID der Eigenschaft "&#64;Value"
        * </pre>
        *
-       * <code>optional .dstore.values.IntegerValue value_id = 10002;</code>
+       * <code>.dstore.values.IntegerValue value_id = 10002;</code>
        */
       public boolean hasValueId() {
         return valueId_ != null;
@@ -1305,7 +1305,7 @@ public final class PmGetPersonCharacValueIDAd {
        * ID der Eigenschaft "&#64;Value"
        * </pre>
        *
-       * <code>optional .dstore.values.IntegerValue value_id = 10002;</code>
+       * <code>.dstore.values.IntegerValue value_id = 10002;</code>
        */
       public io.dstore.values.IntegerValue getValueId() {
         return valueId_ == null ? io.dstore.values.IntegerValue.getDefaultInstance() : valueId_;
@@ -1315,7 +1315,7 @@ public final class PmGetPersonCharacValueIDAd {
        * ID der Eigenschaft "&#64;Value"
        * </pre>
        *
-       * <code>optional .dstore.values.IntegerValue value_id = 10002;</code>
+       * <code>.dstore.values.IntegerValue value_id = 10002;</code>
        */
       public io.dstore.values.IntegerValueOrBuilder getValueIdOrBuilder() {
         return getValueId();
@@ -1398,7 +1398,7 @@ public final class PmGetPersonCharacValueIDAd {
           return memoizedHashCode;
         }
         int hash = 41;
-        hash = (19 * hash) + getDescriptorForType().hashCode();
+        hash = (19 * hash) + getDescriptor().hashCode();
         hash = (37 * hash) + ROW_ID_FIELD_NUMBER;
         hash = (53 * hash) + getRowId();
         if (hasPersonCharacteristicId()) {
@@ -1652,13 +1652,13 @@ public final class PmGetPersonCharacValueIDAd {
 
         private int rowId_ ;
         /**
-         * <code>optional int32 row_id = 10000;</code>
+         * <code>int32 row_id = 10000;</code>
          */
         public int getRowId() {
           return rowId_;
         }
         /**
-         * <code>optional int32 row_id = 10000;</code>
+         * <code>int32 row_id = 10000;</code>
          */
         public Builder setRowId(int value) {
           
@@ -1667,7 +1667,7 @@ public final class PmGetPersonCharacValueIDAd {
           return this;
         }
         /**
-         * <code>optional int32 row_id = 10000;</code>
+         * <code>int32 row_id = 10000;</code>
          */
         public Builder clearRowId() {
           
@@ -1684,7 +1684,7 @@ public final class PmGetPersonCharacValueIDAd {
          * ID des Personen-Merkmals, zu dem die Eigenschaft "&#64;Value" gehört. Besteht für ein Merkmal eine lesende (vollst. o. eingeschr.) Zugriffsbeschränkung (s. "pm_GetPChAccRestrForUsers_Ad") für den Aufrufer, FEHLT der entsprechende Datensatz im Ergebnis !
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue person_characteristic_id = 10001;</code>
+         * <code>.dstore.values.IntegerValue person_characteristic_id = 10001;</code>
          */
         public boolean hasPersonCharacteristicId() {
           return personCharacteristicIdBuilder_ != null || personCharacteristicId_ != null;
@@ -1694,7 +1694,7 @@ public final class PmGetPersonCharacValueIDAd {
          * ID des Personen-Merkmals, zu dem die Eigenschaft "&#64;Value" gehört. Besteht für ein Merkmal eine lesende (vollst. o. eingeschr.) Zugriffsbeschränkung (s. "pm_GetPChAccRestrForUsers_Ad") für den Aufrufer, FEHLT der entsprechende Datensatz im Ergebnis !
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue person_characteristic_id = 10001;</code>
+         * <code>.dstore.values.IntegerValue person_characteristic_id = 10001;</code>
          */
         public io.dstore.values.IntegerValue getPersonCharacteristicId() {
           if (personCharacteristicIdBuilder_ == null) {
@@ -1708,7 +1708,7 @@ public final class PmGetPersonCharacValueIDAd {
          * ID des Personen-Merkmals, zu dem die Eigenschaft "&#64;Value" gehört. Besteht für ein Merkmal eine lesende (vollst. o. eingeschr.) Zugriffsbeschränkung (s. "pm_GetPChAccRestrForUsers_Ad") für den Aufrufer, FEHLT der entsprechende Datensatz im Ergebnis !
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue person_characteristic_id = 10001;</code>
+         * <code>.dstore.values.IntegerValue person_characteristic_id = 10001;</code>
          */
         public Builder setPersonCharacteristicId(io.dstore.values.IntegerValue value) {
           if (personCharacteristicIdBuilder_ == null) {
@@ -1728,7 +1728,7 @@ public final class PmGetPersonCharacValueIDAd {
          * ID des Personen-Merkmals, zu dem die Eigenschaft "&#64;Value" gehört. Besteht für ein Merkmal eine lesende (vollst. o. eingeschr.) Zugriffsbeschränkung (s. "pm_GetPChAccRestrForUsers_Ad") für den Aufrufer, FEHLT der entsprechende Datensatz im Ergebnis !
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue person_characteristic_id = 10001;</code>
+         * <code>.dstore.values.IntegerValue person_characteristic_id = 10001;</code>
          */
         public Builder setPersonCharacteristicId(
             io.dstore.values.IntegerValue.Builder builderForValue) {
@@ -1746,7 +1746,7 @@ public final class PmGetPersonCharacValueIDAd {
          * ID des Personen-Merkmals, zu dem die Eigenschaft "&#64;Value" gehört. Besteht für ein Merkmal eine lesende (vollst. o. eingeschr.) Zugriffsbeschränkung (s. "pm_GetPChAccRestrForUsers_Ad") für den Aufrufer, FEHLT der entsprechende Datensatz im Ergebnis !
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue person_characteristic_id = 10001;</code>
+         * <code>.dstore.values.IntegerValue person_characteristic_id = 10001;</code>
          */
         public Builder mergePersonCharacteristicId(io.dstore.values.IntegerValue value) {
           if (personCharacteristicIdBuilder_ == null) {
@@ -1768,7 +1768,7 @@ public final class PmGetPersonCharacValueIDAd {
          * ID des Personen-Merkmals, zu dem die Eigenschaft "&#64;Value" gehört. Besteht für ein Merkmal eine lesende (vollst. o. eingeschr.) Zugriffsbeschränkung (s. "pm_GetPChAccRestrForUsers_Ad") für den Aufrufer, FEHLT der entsprechende Datensatz im Ergebnis !
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue person_characteristic_id = 10001;</code>
+         * <code>.dstore.values.IntegerValue person_characteristic_id = 10001;</code>
          */
         public Builder clearPersonCharacteristicId() {
           if (personCharacteristicIdBuilder_ == null) {
@@ -1786,7 +1786,7 @@ public final class PmGetPersonCharacValueIDAd {
          * ID des Personen-Merkmals, zu dem die Eigenschaft "&#64;Value" gehört. Besteht für ein Merkmal eine lesende (vollst. o. eingeschr.) Zugriffsbeschränkung (s. "pm_GetPChAccRestrForUsers_Ad") für den Aufrufer, FEHLT der entsprechende Datensatz im Ergebnis !
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue person_characteristic_id = 10001;</code>
+         * <code>.dstore.values.IntegerValue person_characteristic_id = 10001;</code>
          */
         public io.dstore.values.IntegerValue.Builder getPersonCharacteristicIdBuilder() {
           
@@ -1798,7 +1798,7 @@ public final class PmGetPersonCharacValueIDAd {
          * ID des Personen-Merkmals, zu dem die Eigenschaft "&#64;Value" gehört. Besteht für ein Merkmal eine lesende (vollst. o. eingeschr.) Zugriffsbeschränkung (s. "pm_GetPChAccRestrForUsers_Ad") für den Aufrufer, FEHLT der entsprechende Datensatz im Ergebnis !
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue person_characteristic_id = 10001;</code>
+         * <code>.dstore.values.IntegerValue person_characteristic_id = 10001;</code>
          */
         public io.dstore.values.IntegerValueOrBuilder getPersonCharacteristicIdOrBuilder() {
           if (personCharacteristicIdBuilder_ != null) {
@@ -1813,7 +1813,7 @@ public final class PmGetPersonCharacValueIDAd {
          * ID des Personen-Merkmals, zu dem die Eigenschaft "&#64;Value" gehört. Besteht für ein Merkmal eine lesende (vollst. o. eingeschr.) Zugriffsbeschränkung (s. "pm_GetPChAccRestrForUsers_Ad") für den Aufrufer, FEHLT der entsprechende Datensatz im Ergebnis !
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue person_characteristic_id = 10001;</code>
+         * <code>.dstore.values.IntegerValue person_characteristic_id = 10001;</code>
          */
         private com.google.protobuf.SingleFieldBuilderV3<
             io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> 
@@ -1837,7 +1837,7 @@ public final class PmGetPersonCharacValueIDAd {
          * ID der Eigenschaft "&#64;Value"
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue value_id = 10002;</code>
+         * <code>.dstore.values.IntegerValue value_id = 10002;</code>
          */
         public boolean hasValueId() {
           return valueIdBuilder_ != null || valueId_ != null;
@@ -1847,7 +1847,7 @@ public final class PmGetPersonCharacValueIDAd {
          * ID der Eigenschaft "&#64;Value"
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue value_id = 10002;</code>
+         * <code>.dstore.values.IntegerValue value_id = 10002;</code>
          */
         public io.dstore.values.IntegerValue getValueId() {
           if (valueIdBuilder_ == null) {
@@ -1861,7 +1861,7 @@ public final class PmGetPersonCharacValueIDAd {
          * ID der Eigenschaft "&#64;Value"
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue value_id = 10002;</code>
+         * <code>.dstore.values.IntegerValue value_id = 10002;</code>
          */
         public Builder setValueId(io.dstore.values.IntegerValue value) {
           if (valueIdBuilder_ == null) {
@@ -1881,7 +1881,7 @@ public final class PmGetPersonCharacValueIDAd {
          * ID der Eigenschaft "&#64;Value"
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue value_id = 10002;</code>
+         * <code>.dstore.values.IntegerValue value_id = 10002;</code>
          */
         public Builder setValueId(
             io.dstore.values.IntegerValue.Builder builderForValue) {
@@ -1899,7 +1899,7 @@ public final class PmGetPersonCharacValueIDAd {
          * ID der Eigenschaft "&#64;Value"
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue value_id = 10002;</code>
+         * <code>.dstore.values.IntegerValue value_id = 10002;</code>
          */
         public Builder mergeValueId(io.dstore.values.IntegerValue value) {
           if (valueIdBuilder_ == null) {
@@ -1921,7 +1921,7 @@ public final class PmGetPersonCharacValueIDAd {
          * ID der Eigenschaft "&#64;Value"
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue value_id = 10002;</code>
+         * <code>.dstore.values.IntegerValue value_id = 10002;</code>
          */
         public Builder clearValueId() {
           if (valueIdBuilder_ == null) {
@@ -1939,7 +1939,7 @@ public final class PmGetPersonCharacValueIDAd {
          * ID der Eigenschaft "&#64;Value"
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue value_id = 10002;</code>
+         * <code>.dstore.values.IntegerValue value_id = 10002;</code>
          */
         public io.dstore.values.IntegerValue.Builder getValueIdBuilder() {
           
@@ -1951,7 +1951,7 @@ public final class PmGetPersonCharacValueIDAd {
          * ID der Eigenschaft "&#64;Value"
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue value_id = 10002;</code>
+         * <code>.dstore.values.IntegerValue value_id = 10002;</code>
          */
         public io.dstore.values.IntegerValueOrBuilder getValueIdOrBuilder() {
           if (valueIdBuilder_ != null) {
@@ -1966,7 +1966,7 @@ public final class PmGetPersonCharacValueIDAd {
          * ID der Eigenschaft "&#64;Value"
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue value_id = 10002;</code>
+         * <code>.dstore.values.IntegerValue value_id = 10002;</code>
          */
         private com.google.protobuf.SingleFieldBuilderV3<
             io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> 
@@ -2226,7 +2226,7 @@ public final class PmGetPersonCharacValueIDAd {
         return memoizedHashCode;
       }
       int hash = 41;
-      hash = (19 * hash) + getDescriptorForType().hashCode();
+      hash = (19 * hash) + getDescriptor().hashCode();
       if (getMetaInformationCount() > 0) {
         hash = (37 * hash) + META_INFORMATION_FIELD_NUMBER;
         hash = (53 * hash) + getMetaInformationList().hashCode();

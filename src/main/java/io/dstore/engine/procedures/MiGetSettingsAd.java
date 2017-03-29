@@ -19,56 +19,56 @@ public final class MiGetSettingsAd {
       com.google.protobuf.MessageOrBuilder {
 
     /**
-     * <code>optional .dstore.values.IntegerValue user_id = 1;</code>
+     * <code>.dstore.values.IntegerValue user_id = 1;</code>
      */
     boolean hasUserId();
     /**
-     * <code>optional .dstore.values.IntegerValue user_id = 1;</code>
+     * <code>.dstore.values.IntegerValue user_id = 1;</code>
      */
     io.dstore.values.IntegerValue getUserId();
     /**
-     * <code>optional .dstore.values.IntegerValue user_id = 1;</code>
+     * <code>.dstore.values.IntegerValue user_id = 1;</code>
      */
     io.dstore.values.IntegerValueOrBuilder getUserIdOrBuilder();
 
     /**
-     * <code>optional bool user_id_null = 1001;</code>
+     * <code>bool user_id_null = 1001;</code>
      */
     boolean getUserIdNull();
 
     /**
-     * <code>optional .dstore.values.StringValue key_variable = 2;</code>
+     * <code>.dstore.values.StringValue key_variable = 2;</code>
      */
     boolean hasKeyVariable();
     /**
-     * <code>optional .dstore.values.StringValue key_variable = 2;</code>
+     * <code>.dstore.values.StringValue key_variable = 2;</code>
      */
     io.dstore.values.StringValue getKeyVariable();
     /**
-     * <code>optional .dstore.values.StringValue key_variable = 2;</code>
+     * <code>.dstore.values.StringValue key_variable = 2;</code>
      */
     io.dstore.values.StringValueOrBuilder getKeyVariableOrBuilder();
 
     /**
-     * <code>optional bool key_variable_null = 1002;</code>
+     * <code>bool key_variable_null = 1002;</code>
      */
     boolean getKeyVariableNull();
 
     /**
-     * <code>optional .dstore.values.BooleanValue search_for_key_variable_with_like = 3;</code>
+     * <code>.dstore.values.BooleanValue search_for_key_variable_with_like = 3;</code>
      */
     boolean hasSearchForKeyVariableWithLike();
     /**
-     * <code>optional .dstore.values.BooleanValue search_for_key_variable_with_like = 3;</code>
+     * <code>.dstore.values.BooleanValue search_for_key_variable_with_like = 3;</code>
      */
     io.dstore.values.BooleanValue getSearchForKeyVariableWithLike();
     /**
-     * <code>optional .dstore.values.BooleanValue search_for_key_variable_with_like = 3;</code>
+     * <code>.dstore.values.BooleanValue search_for_key_variable_with_like = 3;</code>
      */
     io.dstore.values.BooleanValueOrBuilder getSearchForKeyVariableWithLikeOrBuilder();
 
     /**
-     * <code>optional bool search_for_key_variable_with_like_null = 1003;</code>
+     * <code>bool search_for_key_variable_with_like_null = 1003;</code>
      */
     boolean getSearchForKeyVariableWithLikeNull();
   }
@@ -194,19 +194,19 @@ public final class MiGetSettingsAd {
     public static final int USER_ID_FIELD_NUMBER = 1;
     private io.dstore.values.IntegerValue userId_;
     /**
-     * <code>optional .dstore.values.IntegerValue user_id = 1;</code>
+     * <code>.dstore.values.IntegerValue user_id = 1;</code>
      */
     public boolean hasUserId() {
       return userId_ != null;
     }
     /**
-     * <code>optional .dstore.values.IntegerValue user_id = 1;</code>
+     * <code>.dstore.values.IntegerValue user_id = 1;</code>
      */
     public io.dstore.values.IntegerValue getUserId() {
       return userId_ == null ? io.dstore.values.IntegerValue.getDefaultInstance() : userId_;
     }
     /**
-     * <code>optional .dstore.values.IntegerValue user_id = 1;</code>
+     * <code>.dstore.values.IntegerValue user_id = 1;</code>
      */
     public io.dstore.values.IntegerValueOrBuilder getUserIdOrBuilder() {
       return getUserId();
@@ -215,7 +215,7 @@ public final class MiGetSettingsAd {
     public static final int USER_ID_NULL_FIELD_NUMBER = 1001;
     private boolean userIdNull_;
     /**
-     * <code>optional bool user_id_null = 1001;</code>
+     * <code>bool user_id_null = 1001;</code>
      */
     public boolean getUserIdNull() {
       return userIdNull_;
@@ -224,19 +224,19 @@ public final class MiGetSettingsAd {
     public static final int KEY_VARIABLE_FIELD_NUMBER = 2;
     private io.dstore.values.StringValue keyVariable_;
     /**
-     * <code>optional .dstore.values.StringValue key_variable = 2;</code>
+     * <code>.dstore.values.StringValue key_variable = 2;</code>
      */
     public boolean hasKeyVariable() {
       return keyVariable_ != null;
     }
     /**
-     * <code>optional .dstore.values.StringValue key_variable = 2;</code>
+     * <code>.dstore.values.StringValue key_variable = 2;</code>
      */
     public io.dstore.values.StringValue getKeyVariable() {
       return keyVariable_ == null ? io.dstore.values.StringValue.getDefaultInstance() : keyVariable_;
     }
     /**
-     * <code>optional .dstore.values.StringValue key_variable = 2;</code>
+     * <code>.dstore.values.StringValue key_variable = 2;</code>
      */
     public io.dstore.values.StringValueOrBuilder getKeyVariableOrBuilder() {
       return getKeyVariable();
@@ -245,7 +245,7 @@ public final class MiGetSettingsAd {
     public static final int KEY_VARIABLE_NULL_FIELD_NUMBER = 1002;
     private boolean keyVariableNull_;
     /**
-     * <code>optional bool key_variable_null = 1002;</code>
+     * <code>bool key_variable_null = 1002;</code>
      */
     public boolean getKeyVariableNull() {
       return keyVariableNull_;
@@ -254,19 +254,19 @@ public final class MiGetSettingsAd {
     public static final int SEARCH_FOR_KEY_VARIABLE_WITH_LIKE_FIELD_NUMBER = 3;
     private io.dstore.values.BooleanValue searchForKeyVariableWithLike_;
     /**
-     * <code>optional .dstore.values.BooleanValue search_for_key_variable_with_like = 3;</code>
+     * <code>.dstore.values.BooleanValue search_for_key_variable_with_like = 3;</code>
      */
     public boolean hasSearchForKeyVariableWithLike() {
       return searchForKeyVariableWithLike_ != null;
     }
     /**
-     * <code>optional .dstore.values.BooleanValue search_for_key_variable_with_like = 3;</code>
+     * <code>.dstore.values.BooleanValue search_for_key_variable_with_like = 3;</code>
      */
     public io.dstore.values.BooleanValue getSearchForKeyVariableWithLike() {
       return searchForKeyVariableWithLike_ == null ? io.dstore.values.BooleanValue.getDefaultInstance() : searchForKeyVariableWithLike_;
     }
     /**
-     * <code>optional .dstore.values.BooleanValue search_for_key_variable_with_like = 3;</code>
+     * <code>.dstore.values.BooleanValue search_for_key_variable_with_like = 3;</code>
      */
     public io.dstore.values.BooleanValueOrBuilder getSearchForKeyVariableWithLikeOrBuilder() {
       return getSearchForKeyVariableWithLike();
@@ -275,7 +275,7 @@ public final class MiGetSettingsAd {
     public static final int SEARCH_FOR_KEY_VARIABLE_WITH_LIKE_NULL_FIELD_NUMBER = 1003;
     private boolean searchForKeyVariableWithLikeNull_;
     /**
-     * <code>optional bool search_for_key_variable_with_like_null = 1003;</code>
+     * <code>bool search_for_key_variable_with_like_null = 1003;</code>
      */
     public boolean getSearchForKeyVariableWithLikeNull() {
       return searchForKeyVariableWithLikeNull_;
@@ -388,7 +388,7 @@ public final class MiGetSettingsAd {
         return memoizedHashCode;
       }
       int hash = 41;
-      hash = (19 * hash) + getDescriptorForType().hashCode();
+      hash = (19 * hash) + getDescriptor().hashCode();
       if (hasUserId()) {
         hash = (37 * hash) + USER_ID_FIELD_NUMBER;
         hash = (53 * hash) + getUserId().hashCode();
@@ -681,13 +681,13 @@ public final class MiGetSettingsAd {
       private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> userIdBuilder_;
       /**
-       * <code>optional .dstore.values.IntegerValue user_id = 1;</code>
+       * <code>.dstore.values.IntegerValue user_id = 1;</code>
        */
       public boolean hasUserId() {
         return userIdBuilder_ != null || userId_ != null;
       }
       /**
-       * <code>optional .dstore.values.IntegerValue user_id = 1;</code>
+       * <code>.dstore.values.IntegerValue user_id = 1;</code>
        */
       public io.dstore.values.IntegerValue getUserId() {
         if (userIdBuilder_ == null) {
@@ -697,7 +697,7 @@ public final class MiGetSettingsAd {
         }
       }
       /**
-       * <code>optional .dstore.values.IntegerValue user_id = 1;</code>
+       * <code>.dstore.values.IntegerValue user_id = 1;</code>
        */
       public Builder setUserId(io.dstore.values.IntegerValue value) {
         if (userIdBuilder_ == null) {
@@ -713,7 +713,7 @@ public final class MiGetSettingsAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.IntegerValue user_id = 1;</code>
+       * <code>.dstore.values.IntegerValue user_id = 1;</code>
        */
       public Builder setUserId(
           io.dstore.values.IntegerValue.Builder builderForValue) {
@@ -727,7 +727,7 @@ public final class MiGetSettingsAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.IntegerValue user_id = 1;</code>
+       * <code>.dstore.values.IntegerValue user_id = 1;</code>
        */
       public Builder mergeUserId(io.dstore.values.IntegerValue value) {
         if (userIdBuilder_ == null) {
@@ -745,7 +745,7 @@ public final class MiGetSettingsAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.IntegerValue user_id = 1;</code>
+       * <code>.dstore.values.IntegerValue user_id = 1;</code>
        */
       public Builder clearUserId() {
         if (userIdBuilder_ == null) {
@@ -759,7 +759,7 @@ public final class MiGetSettingsAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.IntegerValue user_id = 1;</code>
+       * <code>.dstore.values.IntegerValue user_id = 1;</code>
        */
       public io.dstore.values.IntegerValue.Builder getUserIdBuilder() {
         
@@ -767,7 +767,7 @@ public final class MiGetSettingsAd {
         return getUserIdFieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .dstore.values.IntegerValue user_id = 1;</code>
+       * <code>.dstore.values.IntegerValue user_id = 1;</code>
        */
       public io.dstore.values.IntegerValueOrBuilder getUserIdOrBuilder() {
         if (userIdBuilder_ != null) {
@@ -778,7 +778,7 @@ public final class MiGetSettingsAd {
         }
       }
       /**
-       * <code>optional .dstore.values.IntegerValue user_id = 1;</code>
+       * <code>.dstore.values.IntegerValue user_id = 1;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> 
@@ -796,13 +796,13 @@ public final class MiGetSettingsAd {
 
       private boolean userIdNull_ ;
       /**
-       * <code>optional bool user_id_null = 1001;</code>
+       * <code>bool user_id_null = 1001;</code>
        */
       public boolean getUserIdNull() {
         return userIdNull_;
       }
       /**
-       * <code>optional bool user_id_null = 1001;</code>
+       * <code>bool user_id_null = 1001;</code>
        */
       public Builder setUserIdNull(boolean value) {
         
@@ -811,7 +811,7 @@ public final class MiGetSettingsAd {
         return this;
       }
       /**
-       * <code>optional bool user_id_null = 1001;</code>
+       * <code>bool user_id_null = 1001;</code>
        */
       public Builder clearUserIdNull() {
         
@@ -824,13 +824,13 @@ public final class MiGetSettingsAd {
       private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.values.StringValue, io.dstore.values.StringValue.Builder, io.dstore.values.StringValueOrBuilder> keyVariableBuilder_;
       /**
-       * <code>optional .dstore.values.StringValue key_variable = 2;</code>
+       * <code>.dstore.values.StringValue key_variable = 2;</code>
        */
       public boolean hasKeyVariable() {
         return keyVariableBuilder_ != null || keyVariable_ != null;
       }
       /**
-       * <code>optional .dstore.values.StringValue key_variable = 2;</code>
+       * <code>.dstore.values.StringValue key_variable = 2;</code>
        */
       public io.dstore.values.StringValue getKeyVariable() {
         if (keyVariableBuilder_ == null) {
@@ -840,7 +840,7 @@ public final class MiGetSettingsAd {
         }
       }
       /**
-       * <code>optional .dstore.values.StringValue key_variable = 2;</code>
+       * <code>.dstore.values.StringValue key_variable = 2;</code>
        */
       public Builder setKeyVariable(io.dstore.values.StringValue value) {
         if (keyVariableBuilder_ == null) {
@@ -856,7 +856,7 @@ public final class MiGetSettingsAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.StringValue key_variable = 2;</code>
+       * <code>.dstore.values.StringValue key_variable = 2;</code>
        */
       public Builder setKeyVariable(
           io.dstore.values.StringValue.Builder builderForValue) {
@@ -870,7 +870,7 @@ public final class MiGetSettingsAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.StringValue key_variable = 2;</code>
+       * <code>.dstore.values.StringValue key_variable = 2;</code>
        */
       public Builder mergeKeyVariable(io.dstore.values.StringValue value) {
         if (keyVariableBuilder_ == null) {
@@ -888,7 +888,7 @@ public final class MiGetSettingsAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.StringValue key_variable = 2;</code>
+       * <code>.dstore.values.StringValue key_variable = 2;</code>
        */
       public Builder clearKeyVariable() {
         if (keyVariableBuilder_ == null) {
@@ -902,7 +902,7 @@ public final class MiGetSettingsAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.StringValue key_variable = 2;</code>
+       * <code>.dstore.values.StringValue key_variable = 2;</code>
        */
       public io.dstore.values.StringValue.Builder getKeyVariableBuilder() {
         
@@ -910,7 +910,7 @@ public final class MiGetSettingsAd {
         return getKeyVariableFieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .dstore.values.StringValue key_variable = 2;</code>
+       * <code>.dstore.values.StringValue key_variable = 2;</code>
        */
       public io.dstore.values.StringValueOrBuilder getKeyVariableOrBuilder() {
         if (keyVariableBuilder_ != null) {
@@ -921,7 +921,7 @@ public final class MiGetSettingsAd {
         }
       }
       /**
-       * <code>optional .dstore.values.StringValue key_variable = 2;</code>
+       * <code>.dstore.values.StringValue key_variable = 2;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.values.StringValue, io.dstore.values.StringValue.Builder, io.dstore.values.StringValueOrBuilder> 
@@ -939,13 +939,13 @@ public final class MiGetSettingsAd {
 
       private boolean keyVariableNull_ ;
       /**
-       * <code>optional bool key_variable_null = 1002;</code>
+       * <code>bool key_variable_null = 1002;</code>
        */
       public boolean getKeyVariableNull() {
         return keyVariableNull_;
       }
       /**
-       * <code>optional bool key_variable_null = 1002;</code>
+       * <code>bool key_variable_null = 1002;</code>
        */
       public Builder setKeyVariableNull(boolean value) {
         
@@ -954,7 +954,7 @@ public final class MiGetSettingsAd {
         return this;
       }
       /**
-       * <code>optional bool key_variable_null = 1002;</code>
+       * <code>bool key_variable_null = 1002;</code>
        */
       public Builder clearKeyVariableNull() {
         
@@ -967,13 +967,13 @@ public final class MiGetSettingsAd {
       private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.values.BooleanValue, io.dstore.values.BooleanValue.Builder, io.dstore.values.BooleanValueOrBuilder> searchForKeyVariableWithLikeBuilder_;
       /**
-       * <code>optional .dstore.values.BooleanValue search_for_key_variable_with_like = 3;</code>
+       * <code>.dstore.values.BooleanValue search_for_key_variable_with_like = 3;</code>
        */
       public boolean hasSearchForKeyVariableWithLike() {
         return searchForKeyVariableWithLikeBuilder_ != null || searchForKeyVariableWithLike_ != null;
       }
       /**
-       * <code>optional .dstore.values.BooleanValue search_for_key_variable_with_like = 3;</code>
+       * <code>.dstore.values.BooleanValue search_for_key_variable_with_like = 3;</code>
        */
       public io.dstore.values.BooleanValue getSearchForKeyVariableWithLike() {
         if (searchForKeyVariableWithLikeBuilder_ == null) {
@@ -983,7 +983,7 @@ public final class MiGetSettingsAd {
         }
       }
       /**
-       * <code>optional .dstore.values.BooleanValue search_for_key_variable_with_like = 3;</code>
+       * <code>.dstore.values.BooleanValue search_for_key_variable_with_like = 3;</code>
        */
       public Builder setSearchForKeyVariableWithLike(io.dstore.values.BooleanValue value) {
         if (searchForKeyVariableWithLikeBuilder_ == null) {
@@ -999,7 +999,7 @@ public final class MiGetSettingsAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.BooleanValue search_for_key_variable_with_like = 3;</code>
+       * <code>.dstore.values.BooleanValue search_for_key_variable_with_like = 3;</code>
        */
       public Builder setSearchForKeyVariableWithLike(
           io.dstore.values.BooleanValue.Builder builderForValue) {
@@ -1013,7 +1013,7 @@ public final class MiGetSettingsAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.BooleanValue search_for_key_variable_with_like = 3;</code>
+       * <code>.dstore.values.BooleanValue search_for_key_variable_with_like = 3;</code>
        */
       public Builder mergeSearchForKeyVariableWithLike(io.dstore.values.BooleanValue value) {
         if (searchForKeyVariableWithLikeBuilder_ == null) {
@@ -1031,7 +1031,7 @@ public final class MiGetSettingsAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.BooleanValue search_for_key_variable_with_like = 3;</code>
+       * <code>.dstore.values.BooleanValue search_for_key_variable_with_like = 3;</code>
        */
       public Builder clearSearchForKeyVariableWithLike() {
         if (searchForKeyVariableWithLikeBuilder_ == null) {
@@ -1045,7 +1045,7 @@ public final class MiGetSettingsAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.BooleanValue search_for_key_variable_with_like = 3;</code>
+       * <code>.dstore.values.BooleanValue search_for_key_variable_with_like = 3;</code>
        */
       public io.dstore.values.BooleanValue.Builder getSearchForKeyVariableWithLikeBuilder() {
         
@@ -1053,7 +1053,7 @@ public final class MiGetSettingsAd {
         return getSearchForKeyVariableWithLikeFieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .dstore.values.BooleanValue search_for_key_variable_with_like = 3;</code>
+       * <code>.dstore.values.BooleanValue search_for_key_variable_with_like = 3;</code>
        */
       public io.dstore.values.BooleanValueOrBuilder getSearchForKeyVariableWithLikeOrBuilder() {
         if (searchForKeyVariableWithLikeBuilder_ != null) {
@@ -1064,7 +1064,7 @@ public final class MiGetSettingsAd {
         }
       }
       /**
-       * <code>optional .dstore.values.BooleanValue search_for_key_variable_with_like = 3;</code>
+       * <code>.dstore.values.BooleanValue search_for_key_variable_with_like = 3;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.values.BooleanValue, io.dstore.values.BooleanValue.Builder, io.dstore.values.BooleanValueOrBuilder> 
@@ -1082,13 +1082,13 @@ public final class MiGetSettingsAd {
 
       private boolean searchForKeyVariableWithLikeNull_ ;
       /**
-       * <code>optional bool search_for_key_variable_with_like_null = 1003;</code>
+       * <code>bool search_for_key_variable_with_like_null = 1003;</code>
        */
       public boolean getSearchForKeyVariableWithLikeNull() {
         return searchForKeyVariableWithLikeNull_;
       }
       /**
-       * <code>optional bool search_for_key_variable_with_like_null = 1003;</code>
+       * <code>bool search_for_key_variable_with_like_null = 1003;</code>
        */
       public Builder setSearchForKeyVariableWithLikeNull(boolean value) {
         
@@ -1097,7 +1097,7 @@ public final class MiGetSettingsAd {
         return this;
       }
       /**
-       * <code>optional bool search_for_key_variable_with_like_null = 1003;</code>
+       * <code>bool search_for_key_variable_with_like_null = 1003;</code>
        */
       public Builder clearSearchForKeyVariableWithLikeNull() {
         
@@ -1356,7 +1356,7 @@ public final class MiGetSettingsAd {
         com.google.protobuf.MessageOrBuilder {
 
       /**
-       * <code>optional int32 row_id = 10000;</code>
+       * <code>int32 row_id = 10000;</code>
        */
       int getRowId();
 
@@ -1365,7 +1365,7 @@ public final class MiGetSettingsAd {
        * Name des Benutzers "UserID"
        * </pre>
        *
-       * <code>optional .dstore.values.StringValue user_name = 10001;</code>
+       * <code>.dstore.values.StringValue user_name = 10001;</code>
        */
       boolean hasUserName();
       /**
@@ -1373,7 +1373,7 @@ public final class MiGetSettingsAd {
        * Name des Benutzers "UserID"
        * </pre>
        *
-       * <code>optional .dstore.values.StringValue user_name = 10001;</code>
+       * <code>.dstore.values.StringValue user_name = 10001;</code>
        */
       io.dstore.values.StringValue getUserName();
       /**
@@ -1381,7 +1381,7 @@ public final class MiGetSettingsAd {
        * Name des Benutzers "UserID"
        * </pre>
        *
-       * <code>optional .dstore.values.StringValue user_name = 10001;</code>
+       * <code>.dstore.values.StringValue user_name = 10001;</code>
        */
       io.dstore.values.StringValueOrBuilder getUserNameOrBuilder();
 
@@ -1390,7 +1390,7 @@ public final class MiGetSettingsAd {
        * ID eines im "dStore" registrierten Benutzers (aus der Tabelle "UserInfo"), zu dem "Value" zum Schlüssel "KeyVariable" hinterlegt ist.Anmerkung: Es gibt einen speziellen Benutzer mit der ID "-1", durch den GLOBALE Einstellungen gekennzeichnet werden.
        * </pre>
        *
-       * <code>optional .dstore.values.IntegerValue user_id = 10002;</code>
+       * <code>.dstore.values.IntegerValue user_id = 10002;</code>
        */
       boolean hasUserId();
       /**
@@ -1398,7 +1398,7 @@ public final class MiGetSettingsAd {
        * ID eines im "dStore" registrierten Benutzers (aus der Tabelle "UserInfo"), zu dem "Value" zum Schlüssel "KeyVariable" hinterlegt ist.Anmerkung: Es gibt einen speziellen Benutzer mit der ID "-1", durch den GLOBALE Einstellungen gekennzeichnet werden.
        * </pre>
        *
-       * <code>optional .dstore.values.IntegerValue user_id = 10002;</code>
+       * <code>.dstore.values.IntegerValue user_id = 10002;</code>
        */
       io.dstore.values.IntegerValue getUserId();
       /**
@@ -1406,7 +1406,7 @@ public final class MiGetSettingsAd {
        * ID eines im "dStore" registrierten Benutzers (aus der Tabelle "UserInfo"), zu dem "Value" zum Schlüssel "KeyVariable" hinterlegt ist.Anmerkung: Es gibt einen speziellen Benutzer mit der ID "-1", durch den GLOBALE Einstellungen gekennzeichnet werden.
        * </pre>
        *
-       * <code>optional .dstore.values.IntegerValue user_id = 10002;</code>
+       * <code>.dstore.values.IntegerValue user_id = 10002;</code>
        */
       io.dstore.values.IntegerValueOrBuilder getUserIdOrBuilder();
 
@@ -1415,7 +1415,7 @@ public final class MiGetSettingsAd {
        * Der für den Benutzer "UserID" zum Schlüssel "KeyVariable" hinterlegte Wert
        * </pre>
        *
-       * <code>optional .dstore.values.StringValue value = 10003;</code>
+       * <code>.dstore.values.StringValue value = 10003;</code>
        */
       boolean hasValue();
       /**
@@ -1423,7 +1423,7 @@ public final class MiGetSettingsAd {
        * Der für den Benutzer "UserID" zum Schlüssel "KeyVariable" hinterlegte Wert
        * </pre>
        *
-       * <code>optional .dstore.values.StringValue value = 10003;</code>
+       * <code>.dstore.values.StringValue value = 10003;</code>
        */
       io.dstore.values.StringValue getValue();
       /**
@@ -1431,7 +1431,7 @@ public final class MiGetSettingsAd {
        * Der für den Benutzer "UserID" zum Schlüssel "KeyVariable" hinterlegte Wert
        * </pre>
        *
-       * <code>optional .dstore.values.StringValue value = 10003;</code>
+       * <code>.dstore.values.StringValue value = 10003;</code>
        */
       io.dstore.values.StringValueOrBuilder getValueOrBuilder();
 
@@ -1440,7 +1440,7 @@ public final class MiGetSettingsAd {
        * Ein Schlüssel (z.B. "dStore-Version"). Mögliche Werte : siehe Rückgabemenge von " do_GetSettingsDescriptions_Ad 'Settings' "
        * </pre>
        *
-       * <code>optional .dstore.values.StringValue key_variable = 10004;</code>
+       * <code>.dstore.values.StringValue key_variable = 10004;</code>
        */
       boolean hasKeyVariable();
       /**
@@ -1448,7 +1448,7 @@ public final class MiGetSettingsAd {
        * Ein Schlüssel (z.B. "dStore-Version"). Mögliche Werte : siehe Rückgabemenge von " do_GetSettingsDescriptions_Ad 'Settings' "
        * </pre>
        *
-       * <code>optional .dstore.values.StringValue key_variable = 10004;</code>
+       * <code>.dstore.values.StringValue key_variable = 10004;</code>
        */
       io.dstore.values.StringValue getKeyVariable();
       /**
@@ -1456,7 +1456,7 @@ public final class MiGetSettingsAd {
        * Ein Schlüssel (z.B. "dStore-Version"). Mögliche Werte : siehe Rückgabemenge von " do_GetSettingsDescriptions_Ad 'Settings' "
        * </pre>
        *
-       * <code>optional .dstore.values.StringValue key_variable = 10004;</code>
+       * <code>.dstore.values.StringValue key_variable = 10004;</code>
        */
       io.dstore.values.StringValueOrBuilder getKeyVariableOrBuilder();
     }
@@ -1583,7 +1583,7 @@ public final class MiGetSettingsAd {
       public static final int ROW_ID_FIELD_NUMBER = 10000;
       private int rowId_;
       /**
-       * <code>optional int32 row_id = 10000;</code>
+       * <code>int32 row_id = 10000;</code>
        */
       public int getRowId() {
         return rowId_;
@@ -1596,7 +1596,7 @@ public final class MiGetSettingsAd {
        * Name des Benutzers "UserID"
        * </pre>
        *
-       * <code>optional .dstore.values.StringValue user_name = 10001;</code>
+       * <code>.dstore.values.StringValue user_name = 10001;</code>
        */
       public boolean hasUserName() {
         return userName_ != null;
@@ -1606,7 +1606,7 @@ public final class MiGetSettingsAd {
        * Name des Benutzers "UserID"
        * </pre>
        *
-       * <code>optional .dstore.values.StringValue user_name = 10001;</code>
+       * <code>.dstore.values.StringValue user_name = 10001;</code>
        */
       public io.dstore.values.StringValue getUserName() {
         return userName_ == null ? io.dstore.values.StringValue.getDefaultInstance() : userName_;
@@ -1616,7 +1616,7 @@ public final class MiGetSettingsAd {
        * Name des Benutzers "UserID"
        * </pre>
        *
-       * <code>optional .dstore.values.StringValue user_name = 10001;</code>
+       * <code>.dstore.values.StringValue user_name = 10001;</code>
        */
       public io.dstore.values.StringValueOrBuilder getUserNameOrBuilder() {
         return getUserName();
@@ -1629,7 +1629,7 @@ public final class MiGetSettingsAd {
        * ID eines im "dStore" registrierten Benutzers (aus der Tabelle "UserInfo"), zu dem "Value" zum Schlüssel "KeyVariable" hinterlegt ist.Anmerkung: Es gibt einen speziellen Benutzer mit der ID "-1", durch den GLOBALE Einstellungen gekennzeichnet werden.
        * </pre>
        *
-       * <code>optional .dstore.values.IntegerValue user_id = 10002;</code>
+       * <code>.dstore.values.IntegerValue user_id = 10002;</code>
        */
       public boolean hasUserId() {
         return userId_ != null;
@@ -1639,7 +1639,7 @@ public final class MiGetSettingsAd {
        * ID eines im "dStore" registrierten Benutzers (aus der Tabelle "UserInfo"), zu dem "Value" zum Schlüssel "KeyVariable" hinterlegt ist.Anmerkung: Es gibt einen speziellen Benutzer mit der ID "-1", durch den GLOBALE Einstellungen gekennzeichnet werden.
        * </pre>
        *
-       * <code>optional .dstore.values.IntegerValue user_id = 10002;</code>
+       * <code>.dstore.values.IntegerValue user_id = 10002;</code>
        */
       public io.dstore.values.IntegerValue getUserId() {
         return userId_ == null ? io.dstore.values.IntegerValue.getDefaultInstance() : userId_;
@@ -1649,7 +1649,7 @@ public final class MiGetSettingsAd {
        * ID eines im "dStore" registrierten Benutzers (aus der Tabelle "UserInfo"), zu dem "Value" zum Schlüssel "KeyVariable" hinterlegt ist.Anmerkung: Es gibt einen speziellen Benutzer mit der ID "-1", durch den GLOBALE Einstellungen gekennzeichnet werden.
        * </pre>
        *
-       * <code>optional .dstore.values.IntegerValue user_id = 10002;</code>
+       * <code>.dstore.values.IntegerValue user_id = 10002;</code>
        */
       public io.dstore.values.IntegerValueOrBuilder getUserIdOrBuilder() {
         return getUserId();
@@ -1662,7 +1662,7 @@ public final class MiGetSettingsAd {
        * Der für den Benutzer "UserID" zum Schlüssel "KeyVariable" hinterlegte Wert
        * </pre>
        *
-       * <code>optional .dstore.values.StringValue value = 10003;</code>
+       * <code>.dstore.values.StringValue value = 10003;</code>
        */
       public boolean hasValue() {
         return value_ != null;
@@ -1672,7 +1672,7 @@ public final class MiGetSettingsAd {
        * Der für den Benutzer "UserID" zum Schlüssel "KeyVariable" hinterlegte Wert
        * </pre>
        *
-       * <code>optional .dstore.values.StringValue value = 10003;</code>
+       * <code>.dstore.values.StringValue value = 10003;</code>
        */
       public io.dstore.values.StringValue getValue() {
         return value_ == null ? io.dstore.values.StringValue.getDefaultInstance() : value_;
@@ -1682,7 +1682,7 @@ public final class MiGetSettingsAd {
        * Der für den Benutzer "UserID" zum Schlüssel "KeyVariable" hinterlegte Wert
        * </pre>
        *
-       * <code>optional .dstore.values.StringValue value = 10003;</code>
+       * <code>.dstore.values.StringValue value = 10003;</code>
        */
       public io.dstore.values.StringValueOrBuilder getValueOrBuilder() {
         return getValue();
@@ -1695,7 +1695,7 @@ public final class MiGetSettingsAd {
        * Ein Schlüssel (z.B. "dStore-Version"). Mögliche Werte : siehe Rückgabemenge von " do_GetSettingsDescriptions_Ad 'Settings' "
        * </pre>
        *
-       * <code>optional .dstore.values.StringValue key_variable = 10004;</code>
+       * <code>.dstore.values.StringValue key_variable = 10004;</code>
        */
       public boolean hasKeyVariable() {
         return keyVariable_ != null;
@@ -1705,7 +1705,7 @@ public final class MiGetSettingsAd {
        * Ein Schlüssel (z.B. "dStore-Version"). Mögliche Werte : siehe Rückgabemenge von " do_GetSettingsDescriptions_Ad 'Settings' "
        * </pre>
        *
-       * <code>optional .dstore.values.StringValue key_variable = 10004;</code>
+       * <code>.dstore.values.StringValue key_variable = 10004;</code>
        */
       public io.dstore.values.StringValue getKeyVariable() {
         return keyVariable_ == null ? io.dstore.values.StringValue.getDefaultInstance() : keyVariable_;
@@ -1715,7 +1715,7 @@ public final class MiGetSettingsAd {
        * Ein Schlüssel (z.B. "dStore-Version"). Mögliche Werte : siehe Rückgabemenge von " do_GetSettingsDescriptions_Ad 'Settings' "
        * </pre>
        *
-       * <code>optional .dstore.values.StringValue key_variable = 10004;</code>
+       * <code>.dstore.values.StringValue key_variable = 10004;</code>
        */
       public io.dstore.values.StringValueOrBuilder getKeyVariableOrBuilder() {
         return getKeyVariable();
@@ -1822,7 +1822,7 @@ public final class MiGetSettingsAd {
           return memoizedHashCode;
         }
         int hash = 41;
-        hash = (19 * hash) + getDescriptorForType().hashCode();
+        hash = (19 * hash) + getDescriptor().hashCode();
         hash = (37 * hash) + ROW_ID_FIELD_NUMBER;
         hash = (53 * hash) + getRowId();
         if (hasUserName()) {
@@ -2112,13 +2112,13 @@ public final class MiGetSettingsAd {
 
         private int rowId_ ;
         /**
-         * <code>optional int32 row_id = 10000;</code>
+         * <code>int32 row_id = 10000;</code>
          */
         public int getRowId() {
           return rowId_;
         }
         /**
-         * <code>optional int32 row_id = 10000;</code>
+         * <code>int32 row_id = 10000;</code>
          */
         public Builder setRowId(int value) {
           
@@ -2127,7 +2127,7 @@ public final class MiGetSettingsAd {
           return this;
         }
         /**
-         * <code>optional int32 row_id = 10000;</code>
+         * <code>int32 row_id = 10000;</code>
          */
         public Builder clearRowId() {
           
@@ -2144,7 +2144,7 @@ public final class MiGetSettingsAd {
          * Name des Benutzers "UserID"
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue user_name = 10001;</code>
+         * <code>.dstore.values.StringValue user_name = 10001;</code>
          */
         public boolean hasUserName() {
           return userNameBuilder_ != null || userName_ != null;
@@ -2154,7 +2154,7 @@ public final class MiGetSettingsAd {
          * Name des Benutzers "UserID"
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue user_name = 10001;</code>
+         * <code>.dstore.values.StringValue user_name = 10001;</code>
          */
         public io.dstore.values.StringValue getUserName() {
           if (userNameBuilder_ == null) {
@@ -2168,7 +2168,7 @@ public final class MiGetSettingsAd {
          * Name des Benutzers "UserID"
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue user_name = 10001;</code>
+         * <code>.dstore.values.StringValue user_name = 10001;</code>
          */
         public Builder setUserName(io.dstore.values.StringValue value) {
           if (userNameBuilder_ == null) {
@@ -2188,7 +2188,7 @@ public final class MiGetSettingsAd {
          * Name des Benutzers "UserID"
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue user_name = 10001;</code>
+         * <code>.dstore.values.StringValue user_name = 10001;</code>
          */
         public Builder setUserName(
             io.dstore.values.StringValue.Builder builderForValue) {
@@ -2206,7 +2206,7 @@ public final class MiGetSettingsAd {
          * Name des Benutzers "UserID"
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue user_name = 10001;</code>
+         * <code>.dstore.values.StringValue user_name = 10001;</code>
          */
         public Builder mergeUserName(io.dstore.values.StringValue value) {
           if (userNameBuilder_ == null) {
@@ -2228,7 +2228,7 @@ public final class MiGetSettingsAd {
          * Name des Benutzers "UserID"
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue user_name = 10001;</code>
+         * <code>.dstore.values.StringValue user_name = 10001;</code>
          */
         public Builder clearUserName() {
           if (userNameBuilder_ == null) {
@@ -2246,7 +2246,7 @@ public final class MiGetSettingsAd {
          * Name des Benutzers "UserID"
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue user_name = 10001;</code>
+         * <code>.dstore.values.StringValue user_name = 10001;</code>
          */
         public io.dstore.values.StringValue.Builder getUserNameBuilder() {
           
@@ -2258,7 +2258,7 @@ public final class MiGetSettingsAd {
          * Name des Benutzers "UserID"
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue user_name = 10001;</code>
+         * <code>.dstore.values.StringValue user_name = 10001;</code>
          */
         public io.dstore.values.StringValueOrBuilder getUserNameOrBuilder() {
           if (userNameBuilder_ != null) {
@@ -2273,7 +2273,7 @@ public final class MiGetSettingsAd {
          * Name des Benutzers "UserID"
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue user_name = 10001;</code>
+         * <code>.dstore.values.StringValue user_name = 10001;</code>
          */
         private com.google.protobuf.SingleFieldBuilderV3<
             io.dstore.values.StringValue, io.dstore.values.StringValue.Builder, io.dstore.values.StringValueOrBuilder> 
@@ -2297,7 +2297,7 @@ public final class MiGetSettingsAd {
          * ID eines im "dStore" registrierten Benutzers (aus der Tabelle "UserInfo"), zu dem "Value" zum Schlüssel "KeyVariable" hinterlegt ist.Anmerkung: Es gibt einen speziellen Benutzer mit der ID "-1", durch den GLOBALE Einstellungen gekennzeichnet werden.
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue user_id = 10002;</code>
+         * <code>.dstore.values.IntegerValue user_id = 10002;</code>
          */
         public boolean hasUserId() {
           return userIdBuilder_ != null || userId_ != null;
@@ -2307,7 +2307,7 @@ public final class MiGetSettingsAd {
          * ID eines im "dStore" registrierten Benutzers (aus der Tabelle "UserInfo"), zu dem "Value" zum Schlüssel "KeyVariable" hinterlegt ist.Anmerkung: Es gibt einen speziellen Benutzer mit der ID "-1", durch den GLOBALE Einstellungen gekennzeichnet werden.
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue user_id = 10002;</code>
+         * <code>.dstore.values.IntegerValue user_id = 10002;</code>
          */
         public io.dstore.values.IntegerValue getUserId() {
           if (userIdBuilder_ == null) {
@@ -2321,7 +2321,7 @@ public final class MiGetSettingsAd {
          * ID eines im "dStore" registrierten Benutzers (aus der Tabelle "UserInfo"), zu dem "Value" zum Schlüssel "KeyVariable" hinterlegt ist.Anmerkung: Es gibt einen speziellen Benutzer mit der ID "-1", durch den GLOBALE Einstellungen gekennzeichnet werden.
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue user_id = 10002;</code>
+         * <code>.dstore.values.IntegerValue user_id = 10002;</code>
          */
         public Builder setUserId(io.dstore.values.IntegerValue value) {
           if (userIdBuilder_ == null) {
@@ -2341,7 +2341,7 @@ public final class MiGetSettingsAd {
          * ID eines im "dStore" registrierten Benutzers (aus der Tabelle "UserInfo"), zu dem "Value" zum Schlüssel "KeyVariable" hinterlegt ist.Anmerkung: Es gibt einen speziellen Benutzer mit der ID "-1", durch den GLOBALE Einstellungen gekennzeichnet werden.
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue user_id = 10002;</code>
+         * <code>.dstore.values.IntegerValue user_id = 10002;</code>
          */
         public Builder setUserId(
             io.dstore.values.IntegerValue.Builder builderForValue) {
@@ -2359,7 +2359,7 @@ public final class MiGetSettingsAd {
          * ID eines im "dStore" registrierten Benutzers (aus der Tabelle "UserInfo"), zu dem "Value" zum Schlüssel "KeyVariable" hinterlegt ist.Anmerkung: Es gibt einen speziellen Benutzer mit der ID "-1", durch den GLOBALE Einstellungen gekennzeichnet werden.
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue user_id = 10002;</code>
+         * <code>.dstore.values.IntegerValue user_id = 10002;</code>
          */
         public Builder mergeUserId(io.dstore.values.IntegerValue value) {
           if (userIdBuilder_ == null) {
@@ -2381,7 +2381,7 @@ public final class MiGetSettingsAd {
          * ID eines im "dStore" registrierten Benutzers (aus der Tabelle "UserInfo"), zu dem "Value" zum Schlüssel "KeyVariable" hinterlegt ist.Anmerkung: Es gibt einen speziellen Benutzer mit der ID "-1", durch den GLOBALE Einstellungen gekennzeichnet werden.
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue user_id = 10002;</code>
+         * <code>.dstore.values.IntegerValue user_id = 10002;</code>
          */
         public Builder clearUserId() {
           if (userIdBuilder_ == null) {
@@ -2399,7 +2399,7 @@ public final class MiGetSettingsAd {
          * ID eines im "dStore" registrierten Benutzers (aus der Tabelle "UserInfo"), zu dem "Value" zum Schlüssel "KeyVariable" hinterlegt ist.Anmerkung: Es gibt einen speziellen Benutzer mit der ID "-1", durch den GLOBALE Einstellungen gekennzeichnet werden.
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue user_id = 10002;</code>
+         * <code>.dstore.values.IntegerValue user_id = 10002;</code>
          */
         public io.dstore.values.IntegerValue.Builder getUserIdBuilder() {
           
@@ -2411,7 +2411,7 @@ public final class MiGetSettingsAd {
          * ID eines im "dStore" registrierten Benutzers (aus der Tabelle "UserInfo"), zu dem "Value" zum Schlüssel "KeyVariable" hinterlegt ist.Anmerkung: Es gibt einen speziellen Benutzer mit der ID "-1", durch den GLOBALE Einstellungen gekennzeichnet werden.
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue user_id = 10002;</code>
+         * <code>.dstore.values.IntegerValue user_id = 10002;</code>
          */
         public io.dstore.values.IntegerValueOrBuilder getUserIdOrBuilder() {
           if (userIdBuilder_ != null) {
@@ -2426,7 +2426,7 @@ public final class MiGetSettingsAd {
          * ID eines im "dStore" registrierten Benutzers (aus der Tabelle "UserInfo"), zu dem "Value" zum Schlüssel "KeyVariable" hinterlegt ist.Anmerkung: Es gibt einen speziellen Benutzer mit der ID "-1", durch den GLOBALE Einstellungen gekennzeichnet werden.
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue user_id = 10002;</code>
+         * <code>.dstore.values.IntegerValue user_id = 10002;</code>
          */
         private com.google.protobuf.SingleFieldBuilderV3<
             io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> 
@@ -2450,7 +2450,7 @@ public final class MiGetSettingsAd {
          * Der für den Benutzer "UserID" zum Schlüssel "KeyVariable" hinterlegte Wert
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue value = 10003;</code>
+         * <code>.dstore.values.StringValue value = 10003;</code>
          */
         public boolean hasValue() {
           return valueBuilder_ != null || value_ != null;
@@ -2460,7 +2460,7 @@ public final class MiGetSettingsAd {
          * Der für den Benutzer "UserID" zum Schlüssel "KeyVariable" hinterlegte Wert
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue value = 10003;</code>
+         * <code>.dstore.values.StringValue value = 10003;</code>
          */
         public io.dstore.values.StringValue getValue() {
           if (valueBuilder_ == null) {
@@ -2474,7 +2474,7 @@ public final class MiGetSettingsAd {
          * Der für den Benutzer "UserID" zum Schlüssel "KeyVariable" hinterlegte Wert
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue value = 10003;</code>
+         * <code>.dstore.values.StringValue value = 10003;</code>
          */
         public Builder setValue(io.dstore.values.StringValue value) {
           if (valueBuilder_ == null) {
@@ -2494,7 +2494,7 @@ public final class MiGetSettingsAd {
          * Der für den Benutzer "UserID" zum Schlüssel "KeyVariable" hinterlegte Wert
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue value = 10003;</code>
+         * <code>.dstore.values.StringValue value = 10003;</code>
          */
         public Builder setValue(
             io.dstore.values.StringValue.Builder builderForValue) {
@@ -2512,7 +2512,7 @@ public final class MiGetSettingsAd {
          * Der für den Benutzer "UserID" zum Schlüssel "KeyVariable" hinterlegte Wert
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue value = 10003;</code>
+         * <code>.dstore.values.StringValue value = 10003;</code>
          */
         public Builder mergeValue(io.dstore.values.StringValue value) {
           if (valueBuilder_ == null) {
@@ -2534,7 +2534,7 @@ public final class MiGetSettingsAd {
          * Der für den Benutzer "UserID" zum Schlüssel "KeyVariable" hinterlegte Wert
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue value = 10003;</code>
+         * <code>.dstore.values.StringValue value = 10003;</code>
          */
         public Builder clearValue() {
           if (valueBuilder_ == null) {
@@ -2552,7 +2552,7 @@ public final class MiGetSettingsAd {
          * Der für den Benutzer "UserID" zum Schlüssel "KeyVariable" hinterlegte Wert
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue value = 10003;</code>
+         * <code>.dstore.values.StringValue value = 10003;</code>
          */
         public io.dstore.values.StringValue.Builder getValueBuilder() {
           
@@ -2564,7 +2564,7 @@ public final class MiGetSettingsAd {
          * Der für den Benutzer "UserID" zum Schlüssel "KeyVariable" hinterlegte Wert
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue value = 10003;</code>
+         * <code>.dstore.values.StringValue value = 10003;</code>
          */
         public io.dstore.values.StringValueOrBuilder getValueOrBuilder() {
           if (valueBuilder_ != null) {
@@ -2579,7 +2579,7 @@ public final class MiGetSettingsAd {
          * Der für den Benutzer "UserID" zum Schlüssel "KeyVariable" hinterlegte Wert
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue value = 10003;</code>
+         * <code>.dstore.values.StringValue value = 10003;</code>
          */
         private com.google.protobuf.SingleFieldBuilderV3<
             io.dstore.values.StringValue, io.dstore.values.StringValue.Builder, io.dstore.values.StringValueOrBuilder> 
@@ -2603,7 +2603,7 @@ public final class MiGetSettingsAd {
          * Ein Schlüssel (z.B. "dStore-Version"). Mögliche Werte : siehe Rückgabemenge von " do_GetSettingsDescriptions_Ad 'Settings' "
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue key_variable = 10004;</code>
+         * <code>.dstore.values.StringValue key_variable = 10004;</code>
          */
         public boolean hasKeyVariable() {
           return keyVariableBuilder_ != null || keyVariable_ != null;
@@ -2613,7 +2613,7 @@ public final class MiGetSettingsAd {
          * Ein Schlüssel (z.B. "dStore-Version"). Mögliche Werte : siehe Rückgabemenge von " do_GetSettingsDescriptions_Ad 'Settings' "
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue key_variable = 10004;</code>
+         * <code>.dstore.values.StringValue key_variable = 10004;</code>
          */
         public io.dstore.values.StringValue getKeyVariable() {
           if (keyVariableBuilder_ == null) {
@@ -2627,7 +2627,7 @@ public final class MiGetSettingsAd {
          * Ein Schlüssel (z.B. "dStore-Version"). Mögliche Werte : siehe Rückgabemenge von " do_GetSettingsDescriptions_Ad 'Settings' "
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue key_variable = 10004;</code>
+         * <code>.dstore.values.StringValue key_variable = 10004;</code>
          */
         public Builder setKeyVariable(io.dstore.values.StringValue value) {
           if (keyVariableBuilder_ == null) {
@@ -2647,7 +2647,7 @@ public final class MiGetSettingsAd {
          * Ein Schlüssel (z.B. "dStore-Version"). Mögliche Werte : siehe Rückgabemenge von " do_GetSettingsDescriptions_Ad 'Settings' "
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue key_variable = 10004;</code>
+         * <code>.dstore.values.StringValue key_variable = 10004;</code>
          */
         public Builder setKeyVariable(
             io.dstore.values.StringValue.Builder builderForValue) {
@@ -2665,7 +2665,7 @@ public final class MiGetSettingsAd {
          * Ein Schlüssel (z.B. "dStore-Version"). Mögliche Werte : siehe Rückgabemenge von " do_GetSettingsDescriptions_Ad 'Settings' "
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue key_variable = 10004;</code>
+         * <code>.dstore.values.StringValue key_variable = 10004;</code>
          */
         public Builder mergeKeyVariable(io.dstore.values.StringValue value) {
           if (keyVariableBuilder_ == null) {
@@ -2687,7 +2687,7 @@ public final class MiGetSettingsAd {
          * Ein Schlüssel (z.B. "dStore-Version"). Mögliche Werte : siehe Rückgabemenge von " do_GetSettingsDescriptions_Ad 'Settings' "
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue key_variable = 10004;</code>
+         * <code>.dstore.values.StringValue key_variable = 10004;</code>
          */
         public Builder clearKeyVariable() {
           if (keyVariableBuilder_ == null) {
@@ -2705,7 +2705,7 @@ public final class MiGetSettingsAd {
          * Ein Schlüssel (z.B. "dStore-Version"). Mögliche Werte : siehe Rückgabemenge von " do_GetSettingsDescriptions_Ad 'Settings' "
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue key_variable = 10004;</code>
+         * <code>.dstore.values.StringValue key_variable = 10004;</code>
          */
         public io.dstore.values.StringValue.Builder getKeyVariableBuilder() {
           
@@ -2717,7 +2717,7 @@ public final class MiGetSettingsAd {
          * Ein Schlüssel (z.B. "dStore-Version"). Mögliche Werte : siehe Rückgabemenge von " do_GetSettingsDescriptions_Ad 'Settings' "
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue key_variable = 10004;</code>
+         * <code>.dstore.values.StringValue key_variable = 10004;</code>
          */
         public io.dstore.values.StringValueOrBuilder getKeyVariableOrBuilder() {
           if (keyVariableBuilder_ != null) {
@@ -2732,7 +2732,7 @@ public final class MiGetSettingsAd {
          * Ein Schlüssel (z.B. "dStore-Version"). Mögliche Werte : siehe Rückgabemenge von " do_GetSettingsDescriptions_Ad 'Settings' "
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue key_variable = 10004;</code>
+         * <code>.dstore.values.StringValue key_variable = 10004;</code>
          */
         private com.google.protobuf.SingleFieldBuilderV3<
             io.dstore.values.StringValue, io.dstore.values.StringValue.Builder, io.dstore.values.StringValueOrBuilder> 
@@ -2992,7 +2992,7 @@ public final class MiGetSettingsAd {
         return memoizedHashCode;
       }
       int hash = 41;
-      hash = (19 * hash) + getDescriptorForType().hashCode();
+      hash = (19 * hash) + getDescriptor().hashCode();
       if (getMetaInformationCount() > 0) {
         hash = (37 * hash) + META_INFORMATION_FIELD_NUMBER;
         hash = (53 * hash) + getMetaInformationList().hashCode();

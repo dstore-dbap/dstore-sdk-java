@@ -74,7 +74,7 @@ public  final class LongValue extends
   public static final int VALUE_FIELD_NUMBER = 1;
   private long value_;
   /**
-   * <code>optional int64 value = 1;</code>
+   * <code>int64 value = 1;</code>
    */
   public long getValue() {
     return value_;
@@ -133,7 +133,7 @@ public  final class LongValue extends
       return memoizedHashCode;
     }
     int hash = 41;
-    hash = (19 * hash) + getDescriptorForType().hashCode();
+    hash = (19 * hash) + getDescriptor().hashCode();
     hash = (37 * hash) + VALUE_FIELD_NUMBER;
     hash = (53 * hash) + com.google.protobuf.Internal.hashLong(
         getValue());
@@ -352,13 +352,13 @@ public  final class LongValue extends
 
     private long value_ ;
     /**
-     * <code>optional int64 value = 1;</code>
+     * <code>int64 value = 1;</code>
      */
     public long getValue() {
       return value_;
     }
     /**
-     * <code>optional int64 value = 1;</code>
+     * <code>int64 value = 1;</code>
      */
     public Builder setValue(long value) {
       
@@ -367,7 +367,7 @@ public  final class LongValue extends
       return this;
     }
     /**
-     * <code>optional int64 value = 1;</code>
+     * <code>int64 value = 1;</code>
      */
     public Builder clearValue() {
       

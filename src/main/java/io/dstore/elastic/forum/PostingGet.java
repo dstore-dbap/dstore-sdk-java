@@ -23,7 +23,7 @@ public final class PostingGet {
      * Danach wird das Suchergebnis gefiltert
      * </pre>
      *
-     * <code>optional .dstore.elastic.BoolQuery query = 1;</code>
+     * <code>.dstore.elastic.BoolQuery query = 1;</code>
      */
     boolean hasQuery();
     /**
@@ -31,7 +31,7 @@ public final class PostingGet {
      * Danach wird das Suchergebnis gefiltert
      * </pre>
      *
-     * <code>optional .dstore.elastic.BoolQuery query = 1;</code>
+     * <code>.dstore.elastic.BoolQuery query = 1;</code>
      */
     io.dstore.elastic.BoolQuery getQuery();
     /**
@@ -39,7 +39,7 @@ public final class PostingGet {
      * Danach wird das Suchergebnis gefiltert
      * </pre>
      *
-     * <code>optional .dstore.elastic.BoolQuery query = 1;</code>
+     * <code>.dstore.elastic.BoolQuery query = 1;</code>
      */
     io.dstore.elastic.BoolQueryOrBuilder getQueryOrBuilder();
 
@@ -48,12 +48,12 @@ public final class PostingGet {
      * Paginierung GET /_search?size=5&amp;from=5
      * </pre>
      *
-     * <code>optional int32 from = 10;</code>
+     * <code>int32 from = 10;</code>
      */
     int getFrom();
 
     /**
-     * <code>optional int32 size = 11;</code>
+     * <code>int32 size = 11;</code>
      */
     int getSize();
 
@@ -285,7 +285,7 @@ public final class PostingGet {
      * Danach wird das Suchergebnis gefiltert
      * </pre>
      *
-     * <code>optional .dstore.elastic.BoolQuery query = 1;</code>
+     * <code>.dstore.elastic.BoolQuery query = 1;</code>
      */
     public boolean hasQuery() {
       return query_ != null;
@@ -295,7 +295,7 @@ public final class PostingGet {
      * Danach wird das Suchergebnis gefiltert
      * </pre>
      *
-     * <code>optional .dstore.elastic.BoolQuery query = 1;</code>
+     * <code>.dstore.elastic.BoolQuery query = 1;</code>
      */
     public io.dstore.elastic.BoolQuery getQuery() {
       return query_ == null ? io.dstore.elastic.BoolQuery.getDefaultInstance() : query_;
@@ -305,7 +305,7 @@ public final class PostingGet {
      * Danach wird das Suchergebnis gefiltert
      * </pre>
      *
-     * <code>optional .dstore.elastic.BoolQuery query = 1;</code>
+     * <code>.dstore.elastic.BoolQuery query = 1;</code>
      */
     public io.dstore.elastic.BoolQueryOrBuilder getQueryOrBuilder() {
       return getQuery();
@@ -318,7 +318,7 @@ public final class PostingGet {
      * Paginierung GET /_search?size=5&amp;from=5
      * </pre>
      *
-     * <code>optional int32 from = 10;</code>
+     * <code>int32 from = 10;</code>
      */
     public int getFrom() {
       return from_;
@@ -327,7 +327,7 @@ public final class PostingGet {
     public static final int SIZE_FIELD_NUMBER = 11;
     private int size_;
     /**
-     * <code>optional int32 size = 11;</code>
+     * <code>int32 size = 11;</code>
      */
     public int getSize() {
       return size_;
@@ -577,7 +577,7 @@ public final class PostingGet {
         return memoizedHashCode;
       }
       int hash = 41;
-      hash = (19 * hash) + getDescriptorForType().hashCode();
+      hash = (19 * hash) + getDescriptor().hashCode();
       if (hasQuery()) {
         hash = (37 * hash) + QUERY_FIELD_NUMBER;
         hash = (53 * hash) + getQuery().hashCode();
@@ -940,7 +940,7 @@ public final class PostingGet {
        * Danach wird das Suchergebnis gefiltert
        * </pre>
        *
-       * <code>optional .dstore.elastic.BoolQuery query = 1;</code>
+       * <code>.dstore.elastic.BoolQuery query = 1;</code>
        */
       public boolean hasQuery() {
         return queryBuilder_ != null || query_ != null;
@@ -950,7 +950,7 @@ public final class PostingGet {
        * Danach wird das Suchergebnis gefiltert
        * </pre>
        *
-       * <code>optional .dstore.elastic.BoolQuery query = 1;</code>
+       * <code>.dstore.elastic.BoolQuery query = 1;</code>
        */
       public io.dstore.elastic.BoolQuery getQuery() {
         if (queryBuilder_ == null) {
@@ -964,7 +964,7 @@ public final class PostingGet {
        * Danach wird das Suchergebnis gefiltert
        * </pre>
        *
-       * <code>optional .dstore.elastic.BoolQuery query = 1;</code>
+       * <code>.dstore.elastic.BoolQuery query = 1;</code>
        */
       public Builder setQuery(io.dstore.elastic.BoolQuery value) {
         if (queryBuilder_ == null) {
@@ -984,7 +984,7 @@ public final class PostingGet {
        * Danach wird das Suchergebnis gefiltert
        * </pre>
        *
-       * <code>optional .dstore.elastic.BoolQuery query = 1;</code>
+       * <code>.dstore.elastic.BoolQuery query = 1;</code>
        */
       public Builder setQuery(
           io.dstore.elastic.BoolQuery.Builder builderForValue) {
@@ -1002,7 +1002,7 @@ public final class PostingGet {
        * Danach wird das Suchergebnis gefiltert
        * </pre>
        *
-       * <code>optional .dstore.elastic.BoolQuery query = 1;</code>
+       * <code>.dstore.elastic.BoolQuery query = 1;</code>
        */
       public Builder mergeQuery(io.dstore.elastic.BoolQuery value) {
         if (queryBuilder_ == null) {
@@ -1024,7 +1024,7 @@ public final class PostingGet {
        * Danach wird das Suchergebnis gefiltert
        * </pre>
        *
-       * <code>optional .dstore.elastic.BoolQuery query = 1;</code>
+       * <code>.dstore.elastic.BoolQuery query = 1;</code>
        */
       public Builder clearQuery() {
         if (queryBuilder_ == null) {
@@ -1042,7 +1042,7 @@ public final class PostingGet {
        * Danach wird das Suchergebnis gefiltert
        * </pre>
        *
-       * <code>optional .dstore.elastic.BoolQuery query = 1;</code>
+       * <code>.dstore.elastic.BoolQuery query = 1;</code>
        */
       public io.dstore.elastic.BoolQuery.Builder getQueryBuilder() {
         
@@ -1054,7 +1054,7 @@ public final class PostingGet {
        * Danach wird das Suchergebnis gefiltert
        * </pre>
        *
-       * <code>optional .dstore.elastic.BoolQuery query = 1;</code>
+       * <code>.dstore.elastic.BoolQuery query = 1;</code>
        */
       public io.dstore.elastic.BoolQueryOrBuilder getQueryOrBuilder() {
         if (queryBuilder_ != null) {
@@ -1069,7 +1069,7 @@ public final class PostingGet {
        * Danach wird das Suchergebnis gefiltert
        * </pre>
        *
-       * <code>optional .dstore.elastic.BoolQuery query = 1;</code>
+       * <code>.dstore.elastic.BoolQuery query = 1;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.elastic.BoolQuery, io.dstore.elastic.BoolQuery.Builder, io.dstore.elastic.BoolQueryOrBuilder> 
@@ -1091,7 +1091,7 @@ public final class PostingGet {
        * Paginierung GET /_search?size=5&amp;from=5
        * </pre>
        *
-       * <code>optional int32 from = 10;</code>
+       * <code>int32 from = 10;</code>
        */
       public int getFrom() {
         return from_;
@@ -1101,7 +1101,7 @@ public final class PostingGet {
        * Paginierung GET /_search?size=5&amp;from=5
        * </pre>
        *
-       * <code>optional int32 from = 10;</code>
+       * <code>int32 from = 10;</code>
        */
       public Builder setFrom(int value) {
         
@@ -1114,7 +1114,7 @@ public final class PostingGet {
        * Paginierung GET /_search?size=5&amp;from=5
        * </pre>
        *
-       * <code>optional int32 from = 10;</code>
+       * <code>int32 from = 10;</code>
        */
       public Builder clearFrom() {
         
@@ -1125,13 +1125,13 @@ public final class PostingGet {
 
       private int size_ ;
       /**
-       * <code>optional int32 size = 11;</code>
+       * <code>int32 size = 11;</code>
        */
       public int getSize() {
         return size_;
       }
       /**
-       * <code>optional int32 size = 11;</code>
+       * <code>int32 size = 11;</code>
        */
       public Builder setSize(int value) {
         
@@ -1140,7 +1140,7 @@ public final class PostingGet {
         return this;
       }
       /**
-       * <code>optional int32 size = 11;</code>
+       * <code>int32 size = 11;</code>
        */
       public Builder clearSize() {
         
@@ -1724,7 +1724,7 @@ public final class PostingGet {
       com.google.protobuf.MessageOrBuilder {
 
     /**
-     * <code>optional int32 total_hits = 2;</code>
+     * <code>int32 total_hits = 2;</code>
      */
     int getTotalHits();
 
@@ -1753,11 +1753,11 @@ public final class PostingGet {
         int index);
 
     /**
-     * <code>optional string elastic_query_string = 5;</code>
+     * <code>string elastic_query_string = 5;</code>
      */
     java.lang.String getElasticQueryString();
     /**
-     * <code>optional string elastic_query_string = 5;</code>
+     * <code>string elastic_query_string = 5;</code>
      */
     com.google.protobuf.ByteString
         getElasticQueryStringBytes();
@@ -1892,11 +1892,11 @@ public final class PostingGet {
         com.google.protobuf.MessageOrBuilder {
 
       /**
-       * <code>optional string field_name = 1;</code>
+       * <code>string field_name = 1;</code>
        */
       java.lang.String getFieldName();
       /**
-       * <code>optional string field_name = 1;</code>
+       * <code>string field_name = 1;</code>
        */
       com.google.protobuf.ByteString
           getFieldNameBytes();
@@ -2012,20 +2012,20 @@ public final class PostingGet {
           com.google.protobuf.MessageOrBuilder {
 
         /**
-         * <code>optional .dstore.values.Value value = 1;</code>
+         * <code>.dstore.values.Value value = 1;</code>
          */
         boolean hasValue();
         /**
-         * <code>optional .dstore.values.Value value = 1;</code>
+         * <code>.dstore.values.Value value = 1;</code>
          */
         io.dstore.values.Value getValue();
         /**
-         * <code>optional .dstore.values.Value value = 1;</code>
+         * <code>.dstore.values.Value value = 1;</code>
          */
         io.dstore.values.ValueOrBuilder getValueOrBuilder();
 
         /**
-         * <code>optional int32 count = 2;</code>
+         * <code>int32 count = 2;</code>
          */
         int getCount();
       }
@@ -2113,19 +2113,19 @@ public final class PostingGet {
         public static final int VALUE_FIELD_NUMBER = 1;
         private io.dstore.values.Value value_;
         /**
-         * <code>optional .dstore.values.Value value = 1;</code>
+         * <code>.dstore.values.Value value = 1;</code>
          */
         public boolean hasValue() {
           return value_ != null;
         }
         /**
-         * <code>optional .dstore.values.Value value = 1;</code>
+         * <code>.dstore.values.Value value = 1;</code>
          */
         public io.dstore.values.Value getValue() {
           return value_ == null ? io.dstore.values.Value.getDefaultInstance() : value_;
         }
         /**
-         * <code>optional .dstore.values.Value value = 1;</code>
+         * <code>.dstore.values.Value value = 1;</code>
          */
         public io.dstore.values.ValueOrBuilder getValueOrBuilder() {
           return getValue();
@@ -2134,7 +2134,7 @@ public final class PostingGet {
         public static final int COUNT_FIELD_NUMBER = 2;
         private int count_;
         /**
-         * <code>optional int32 count = 2;</code>
+         * <code>int32 count = 2;</code>
          */
         public int getCount() {
           return count_;
@@ -2205,7 +2205,7 @@ public final class PostingGet {
             return memoizedHashCode;
           }
           int hash = 41;
-          hash = (19 * hash) + getDescriptorForType().hashCode();
+          hash = (19 * hash) + getDescriptor().hashCode();
           if (hasValue()) {
             hash = (37 * hash) + VALUE_FIELD_NUMBER;
             hash = (53 * hash) + getValue().hashCode();
@@ -2443,13 +2443,13 @@ public final class PostingGet {
           private com.google.protobuf.SingleFieldBuilderV3<
               io.dstore.values.Value, io.dstore.values.Value.Builder, io.dstore.values.ValueOrBuilder> valueBuilder_;
           /**
-           * <code>optional .dstore.values.Value value = 1;</code>
+           * <code>.dstore.values.Value value = 1;</code>
            */
           public boolean hasValue() {
             return valueBuilder_ != null || value_ != null;
           }
           /**
-           * <code>optional .dstore.values.Value value = 1;</code>
+           * <code>.dstore.values.Value value = 1;</code>
            */
           public io.dstore.values.Value getValue() {
             if (valueBuilder_ == null) {
@@ -2459,7 +2459,7 @@ public final class PostingGet {
             }
           }
           /**
-           * <code>optional .dstore.values.Value value = 1;</code>
+           * <code>.dstore.values.Value value = 1;</code>
            */
           public Builder setValue(io.dstore.values.Value value) {
             if (valueBuilder_ == null) {
@@ -2475,7 +2475,7 @@ public final class PostingGet {
             return this;
           }
           /**
-           * <code>optional .dstore.values.Value value = 1;</code>
+           * <code>.dstore.values.Value value = 1;</code>
            */
           public Builder setValue(
               io.dstore.values.Value.Builder builderForValue) {
@@ -2489,7 +2489,7 @@ public final class PostingGet {
             return this;
           }
           /**
-           * <code>optional .dstore.values.Value value = 1;</code>
+           * <code>.dstore.values.Value value = 1;</code>
            */
           public Builder mergeValue(io.dstore.values.Value value) {
             if (valueBuilder_ == null) {
@@ -2507,7 +2507,7 @@ public final class PostingGet {
             return this;
           }
           /**
-           * <code>optional .dstore.values.Value value = 1;</code>
+           * <code>.dstore.values.Value value = 1;</code>
            */
           public Builder clearValue() {
             if (valueBuilder_ == null) {
@@ -2521,7 +2521,7 @@ public final class PostingGet {
             return this;
           }
           /**
-           * <code>optional .dstore.values.Value value = 1;</code>
+           * <code>.dstore.values.Value value = 1;</code>
            */
           public io.dstore.values.Value.Builder getValueBuilder() {
             
@@ -2529,7 +2529,7 @@ public final class PostingGet {
             return getValueFieldBuilder().getBuilder();
           }
           /**
-           * <code>optional .dstore.values.Value value = 1;</code>
+           * <code>.dstore.values.Value value = 1;</code>
            */
           public io.dstore.values.ValueOrBuilder getValueOrBuilder() {
             if (valueBuilder_ != null) {
@@ -2540,7 +2540,7 @@ public final class PostingGet {
             }
           }
           /**
-           * <code>optional .dstore.values.Value value = 1;</code>
+           * <code>.dstore.values.Value value = 1;</code>
            */
           private com.google.protobuf.SingleFieldBuilderV3<
               io.dstore.values.Value, io.dstore.values.Value.Builder, io.dstore.values.ValueOrBuilder> 
@@ -2558,13 +2558,13 @@ public final class PostingGet {
 
           private int count_ ;
           /**
-           * <code>optional int32 count = 2;</code>
+           * <code>int32 count = 2;</code>
            */
           public int getCount() {
             return count_;
           }
           /**
-           * <code>optional int32 count = 2;</code>
+           * <code>int32 count = 2;</code>
            */
           public Builder setCount(int value) {
             
@@ -2573,7 +2573,7 @@ public final class PostingGet {
             return this;
           }
           /**
-           * <code>optional int32 count = 2;</code>
+           * <code>int32 count = 2;</code>
            */
           public Builder clearCount() {
             
@@ -2634,7 +2634,7 @@ public final class PostingGet {
       public static final int FIELD_NAME_FIELD_NUMBER = 1;
       private volatile java.lang.Object fieldName_;
       /**
-       * <code>optional string field_name = 1;</code>
+       * <code>string field_name = 1;</code>
        */
       public java.lang.String getFieldName() {
         java.lang.Object ref = fieldName_;
@@ -2649,7 +2649,7 @@ public final class PostingGet {
         }
       }
       /**
-       * <code>optional string field_name = 1;</code>
+       * <code>string field_name = 1;</code>
        */
       public com.google.protobuf.ByteString
           getFieldNameBytes() {
@@ -2761,7 +2761,7 @@ public final class PostingGet {
           return memoizedHashCode;
         }
         int hash = 41;
-        hash = (19 * hash) + getDescriptorForType().hashCode();
+        hash = (19 * hash) + getDescriptor().hashCode();
         hash = (37 * hash) + FIELD_NAME_FIELD_NUMBER;
         hash = (53 * hash) + getFieldName().hashCode();
         if (getValueCount() > 0) {
@@ -3030,7 +3030,7 @@ public final class PostingGet {
 
         private java.lang.Object fieldName_ = "";
         /**
-         * <code>optional string field_name = 1;</code>
+         * <code>string field_name = 1;</code>
          */
         public java.lang.String getFieldName() {
           java.lang.Object ref = fieldName_;
@@ -3045,7 +3045,7 @@ public final class PostingGet {
           }
         }
         /**
-         * <code>optional string field_name = 1;</code>
+         * <code>string field_name = 1;</code>
          */
         public com.google.protobuf.ByteString
             getFieldNameBytes() {
@@ -3061,7 +3061,7 @@ public final class PostingGet {
           }
         }
         /**
-         * <code>optional string field_name = 1;</code>
+         * <code>string field_name = 1;</code>
          */
         public Builder setFieldName(
             java.lang.String value) {
@@ -3074,7 +3074,7 @@ public final class PostingGet {
           return this;
         }
         /**
-         * <code>optional string field_name = 1;</code>
+         * <code>string field_name = 1;</code>
          */
         public Builder clearFieldName() {
           
@@ -3083,7 +3083,7 @@ public final class PostingGet {
           return this;
         }
         /**
-         * <code>optional string field_name = 1;</code>
+         * <code>string field_name = 1;</code>
          */
         public Builder setFieldNameBytes(
             com.google.protobuf.ByteString value) {
@@ -3389,7 +3389,7 @@ public final class PostingGet {
     public static final int TOTAL_HITS_FIELD_NUMBER = 2;
     private int totalHits_;
     /**
-     * <code>optional int32 total_hits = 2;</code>
+     * <code>int32 total_hits = 2;</code>
      */
     public int getTotalHits() {
       return totalHits_;
@@ -3433,7 +3433,7 @@ public final class PostingGet {
     public static final int ELASTIC_QUERY_STRING_FIELD_NUMBER = 5;
     private volatile java.lang.Object elasticQueryString_;
     /**
-     * <code>optional string elastic_query_string = 5;</code>
+     * <code>string elastic_query_string = 5;</code>
      */
     public java.lang.String getElasticQueryString() {
       java.lang.Object ref = elasticQueryString_;
@@ -3448,7 +3448,7 @@ public final class PostingGet {
       }
     }
     /**
-     * <code>optional string elastic_query_string = 5;</code>
+     * <code>string elastic_query_string = 5;</code>
      */
     public com.google.protobuf.ByteString
         getElasticQueryStringBytes() {
@@ -3578,7 +3578,7 @@ public final class PostingGet {
         return memoizedHashCode;
       }
       int hash = 41;
-      hash = (19 * hash) + getDescriptorForType().hashCode();
+      hash = (19 * hash) + getDescriptor().hashCode();
       hash = (37 * hash) + TOTAL_HITS_FIELD_NUMBER;
       hash = (53 * hash) + getTotalHits();
       if (getPostingCount() > 0) {
@@ -3901,13 +3901,13 @@ public final class PostingGet {
 
       private int totalHits_ ;
       /**
-       * <code>optional int32 total_hits = 2;</code>
+       * <code>int32 total_hits = 2;</code>
        */
       public int getTotalHits() {
         return totalHits_;
       }
       /**
-       * <code>optional int32 total_hits = 2;</code>
+       * <code>int32 total_hits = 2;</code>
        */
       public Builder setTotalHits(int value) {
         
@@ -3916,7 +3916,7 @@ public final class PostingGet {
         return this;
       }
       /**
-       * <code>optional int32 total_hits = 2;</code>
+       * <code>int32 total_hits = 2;</code>
        */
       public Builder clearTotalHits() {
         
@@ -4167,7 +4167,7 @@ public final class PostingGet {
 
       private java.lang.Object elasticQueryString_ = "";
       /**
-       * <code>optional string elastic_query_string = 5;</code>
+       * <code>string elastic_query_string = 5;</code>
        */
       public java.lang.String getElasticQueryString() {
         java.lang.Object ref = elasticQueryString_;
@@ -4182,7 +4182,7 @@ public final class PostingGet {
         }
       }
       /**
-       * <code>optional string elastic_query_string = 5;</code>
+       * <code>string elastic_query_string = 5;</code>
        */
       public com.google.protobuf.ByteString
           getElasticQueryStringBytes() {
@@ -4198,7 +4198,7 @@ public final class PostingGet {
         }
       }
       /**
-       * <code>optional string elastic_query_string = 5;</code>
+       * <code>string elastic_query_string = 5;</code>
        */
       public Builder setElasticQueryString(
           java.lang.String value) {
@@ -4211,7 +4211,7 @@ public final class PostingGet {
         return this;
       }
       /**
-       * <code>optional string elastic_query_string = 5;</code>
+       * <code>string elastic_query_string = 5;</code>
        */
       public Builder clearElasticQueryString() {
         
@@ -4220,7 +4220,7 @@ public final class PostingGet {
         return this;
       }
       /**
-       * <code>optional string elastic_query_string = 5;</code>
+       * <code>string elastic_query_string = 5;</code>
        */
       public Builder setElasticQueryStringBytes(
           com.google.protobuf.ByteString value) {

@@ -19,38 +19,38 @@ public final class ImMoveTreeNodesAd {
       com.google.protobuf.MessageOrBuilder {
 
     /**
-     * <code>optional .dstore.values.IntegerValue target_tree_node_id = 1;</code>
+     * <code>.dstore.values.IntegerValue target_tree_node_id = 1;</code>
      */
     boolean hasTargetTreeNodeId();
     /**
-     * <code>optional .dstore.values.IntegerValue target_tree_node_id = 1;</code>
+     * <code>.dstore.values.IntegerValue target_tree_node_id = 1;</code>
      */
     io.dstore.values.IntegerValue getTargetTreeNodeId();
     /**
-     * <code>optional .dstore.values.IntegerValue target_tree_node_id = 1;</code>
+     * <code>.dstore.values.IntegerValue target_tree_node_id = 1;</code>
      */
     io.dstore.values.IntegerValueOrBuilder getTargetTreeNodeIdOrBuilder();
 
     /**
-     * <code>optional bool target_tree_node_id_null = 1001;</code>
+     * <code>bool target_tree_node_id_null = 1001;</code>
      */
     boolean getTargetTreeNodeIdNull();
 
     /**
-     * <code>optional .dstore.values.BooleanValue resort = 2;</code>
+     * <code>.dstore.values.BooleanValue resort = 2;</code>
      */
     boolean hasResort();
     /**
-     * <code>optional .dstore.values.BooleanValue resort = 2;</code>
+     * <code>.dstore.values.BooleanValue resort = 2;</code>
      */
     io.dstore.values.BooleanValue getResort();
     /**
-     * <code>optional .dstore.values.BooleanValue resort = 2;</code>
+     * <code>.dstore.values.BooleanValue resort = 2;</code>
      */
     io.dstore.values.BooleanValueOrBuilder getResortOrBuilder();
 
     /**
-     * <code>optional bool resort_null = 1002;</code>
+     * <code>bool resort_null = 1002;</code>
      */
     boolean getResortNull();
   }
@@ -157,19 +157,19 @@ public final class ImMoveTreeNodesAd {
     public static final int TARGET_TREE_NODE_ID_FIELD_NUMBER = 1;
     private io.dstore.values.IntegerValue targetTreeNodeId_;
     /**
-     * <code>optional .dstore.values.IntegerValue target_tree_node_id = 1;</code>
+     * <code>.dstore.values.IntegerValue target_tree_node_id = 1;</code>
      */
     public boolean hasTargetTreeNodeId() {
       return targetTreeNodeId_ != null;
     }
     /**
-     * <code>optional .dstore.values.IntegerValue target_tree_node_id = 1;</code>
+     * <code>.dstore.values.IntegerValue target_tree_node_id = 1;</code>
      */
     public io.dstore.values.IntegerValue getTargetTreeNodeId() {
       return targetTreeNodeId_ == null ? io.dstore.values.IntegerValue.getDefaultInstance() : targetTreeNodeId_;
     }
     /**
-     * <code>optional .dstore.values.IntegerValue target_tree_node_id = 1;</code>
+     * <code>.dstore.values.IntegerValue target_tree_node_id = 1;</code>
      */
     public io.dstore.values.IntegerValueOrBuilder getTargetTreeNodeIdOrBuilder() {
       return getTargetTreeNodeId();
@@ -178,7 +178,7 @@ public final class ImMoveTreeNodesAd {
     public static final int TARGET_TREE_NODE_ID_NULL_FIELD_NUMBER = 1001;
     private boolean targetTreeNodeIdNull_;
     /**
-     * <code>optional bool target_tree_node_id_null = 1001;</code>
+     * <code>bool target_tree_node_id_null = 1001;</code>
      */
     public boolean getTargetTreeNodeIdNull() {
       return targetTreeNodeIdNull_;
@@ -187,19 +187,19 @@ public final class ImMoveTreeNodesAd {
     public static final int RESORT_FIELD_NUMBER = 2;
     private io.dstore.values.BooleanValue resort_;
     /**
-     * <code>optional .dstore.values.BooleanValue resort = 2;</code>
+     * <code>.dstore.values.BooleanValue resort = 2;</code>
      */
     public boolean hasResort() {
       return resort_ != null;
     }
     /**
-     * <code>optional .dstore.values.BooleanValue resort = 2;</code>
+     * <code>.dstore.values.BooleanValue resort = 2;</code>
      */
     public io.dstore.values.BooleanValue getResort() {
       return resort_ == null ? io.dstore.values.BooleanValue.getDefaultInstance() : resort_;
     }
     /**
-     * <code>optional .dstore.values.BooleanValue resort = 2;</code>
+     * <code>.dstore.values.BooleanValue resort = 2;</code>
      */
     public io.dstore.values.BooleanValueOrBuilder getResortOrBuilder() {
       return getResort();
@@ -208,7 +208,7 @@ public final class ImMoveTreeNodesAd {
     public static final int RESORT_NULL_FIELD_NUMBER = 1002;
     private boolean resortNull_;
     /**
-     * <code>optional bool resort_null = 1002;</code>
+     * <code>bool resort_null = 1002;</code>
      */
     public boolean getResortNull() {
       return resortNull_;
@@ -300,7 +300,7 @@ public final class ImMoveTreeNodesAd {
         return memoizedHashCode;
       }
       int hash = 41;
-      hash = (19 * hash) + getDescriptorForType().hashCode();
+      hash = (19 * hash) + getDescriptor().hashCode();
       if (hasTargetTreeNodeId()) {
         hash = (37 * hash) + TARGET_TREE_NODE_ID_FIELD_NUMBER;
         hash = (53 * hash) + getTargetTreeNodeId().hashCode();
@@ -566,13 +566,13 @@ public final class ImMoveTreeNodesAd {
       private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> targetTreeNodeIdBuilder_;
       /**
-       * <code>optional .dstore.values.IntegerValue target_tree_node_id = 1;</code>
+       * <code>.dstore.values.IntegerValue target_tree_node_id = 1;</code>
        */
       public boolean hasTargetTreeNodeId() {
         return targetTreeNodeIdBuilder_ != null || targetTreeNodeId_ != null;
       }
       /**
-       * <code>optional .dstore.values.IntegerValue target_tree_node_id = 1;</code>
+       * <code>.dstore.values.IntegerValue target_tree_node_id = 1;</code>
        */
       public io.dstore.values.IntegerValue getTargetTreeNodeId() {
         if (targetTreeNodeIdBuilder_ == null) {
@@ -582,7 +582,7 @@ public final class ImMoveTreeNodesAd {
         }
       }
       /**
-       * <code>optional .dstore.values.IntegerValue target_tree_node_id = 1;</code>
+       * <code>.dstore.values.IntegerValue target_tree_node_id = 1;</code>
        */
       public Builder setTargetTreeNodeId(io.dstore.values.IntegerValue value) {
         if (targetTreeNodeIdBuilder_ == null) {
@@ -598,7 +598,7 @@ public final class ImMoveTreeNodesAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.IntegerValue target_tree_node_id = 1;</code>
+       * <code>.dstore.values.IntegerValue target_tree_node_id = 1;</code>
        */
       public Builder setTargetTreeNodeId(
           io.dstore.values.IntegerValue.Builder builderForValue) {
@@ -612,7 +612,7 @@ public final class ImMoveTreeNodesAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.IntegerValue target_tree_node_id = 1;</code>
+       * <code>.dstore.values.IntegerValue target_tree_node_id = 1;</code>
        */
       public Builder mergeTargetTreeNodeId(io.dstore.values.IntegerValue value) {
         if (targetTreeNodeIdBuilder_ == null) {
@@ -630,7 +630,7 @@ public final class ImMoveTreeNodesAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.IntegerValue target_tree_node_id = 1;</code>
+       * <code>.dstore.values.IntegerValue target_tree_node_id = 1;</code>
        */
       public Builder clearTargetTreeNodeId() {
         if (targetTreeNodeIdBuilder_ == null) {
@@ -644,7 +644,7 @@ public final class ImMoveTreeNodesAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.IntegerValue target_tree_node_id = 1;</code>
+       * <code>.dstore.values.IntegerValue target_tree_node_id = 1;</code>
        */
       public io.dstore.values.IntegerValue.Builder getTargetTreeNodeIdBuilder() {
         
@@ -652,7 +652,7 @@ public final class ImMoveTreeNodesAd {
         return getTargetTreeNodeIdFieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .dstore.values.IntegerValue target_tree_node_id = 1;</code>
+       * <code>.dstore.values.IntegerValue target_tree_node_id = 1;</code>
        */
       public io.dstore.values.IntegerValueOrBuilder getTargetTreeNodeIdOrBuilder() {
         if (targetTreeNodeIdBuilder_ != null) {
@@ -663,7 +663,7 @@ public final class ImMoveTreeNodesAd {
         }
       }
       /**
-       * <code>optional .dstore.values.IntegerValue target_tree_node_id = 1;</code>
+       * <code>.dstore.values.IntegerValue target_tree_node_id = 1;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> 
@@ -681,13 +681,13 @@ public final class ImMoveTreeNodesAd {
 
       private boolean targetTreeNodeIdNull_ ;
       /**
-       * <code>optional bool target_tree_node_id_null = 1001;</code>
+       * <code>bool target_tree_node_id_null = 1001;</code>
        */
       public boolean getTargetTreeNodeIdNull() {
         return targetTreeNodeIdNull_;
       }
       /**
-       * <code>optional bool target_tree_node_id_null = 1001;</code>
+       * <code>bool target_tree_node_id_null = 1001;</code>
        */
       public Builder setTargetTreeNodeIdNull(boolean value) {
         
@@ -696,7 +696,7 @@ public final class ImMoveTreeNodesAd {
         return this;
       }
       /**
-       * <code>optional bool target_tree_node_id_null = 1001;</code>
+       * <code>bool target_tree_node_id_null = 1001;</code>
        */
       public Builder clearTargetTreeNodeIdNull() {
         
@@ -709,13 +709,13 @@ public final class ImMoveTreeNodesAd {
       private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.values.BooleanValue, io.dstore.values.BooleanValue.Builder, io.dstore.values.BooleanValueOrBuilder> resortBuilder_;
       /**
-       * <code>optional .dstore.values.BooleanValue resort = 2;</code>
+       * <code>.dstore.values.BooleanValue resort = 2;</code>
        */
       public boolean hasResort() {
         return resortBuilder_ != null || resort_ != null;
       }
       /**
-       * <code>optional .dstore.values.BooleanValue resort = 2;</code>
+       * <code>.dstore.values.BooleanValue resort = 2;</code>
        */
       public io.dstore.values.BooleanValue getResort() {
         if (resortBuilder_ == null) {
@@ -725,7 +725,7 @@ public final class ImMoveTreeNodesAd {
         }
       }
       /**
-       * <code>optional .dstore.values.BooleanValue resort = 2;</code>
+       * <code>.dstore.values.BooleanValue resort = 2;</code>
        */
       public Builder setResort(io.dstore.values.BooleanValue value) {
         if (resortBuilder_ == null) {
@@ -741,7 +741,7 @@ public final class ImMoveTreeNodesAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.BooleanValue resort = 2;</code>
+       * <code>.dstore.values.BooleanValue resort = 2;</code>
        */
       public Builder setResort(
           io.dstore.values.BooleanValue.Builder builderForValue) {
@@ -755,7 +755,7 @@ public final class ImMoveTreeNodesAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.BooleanValue resort = 2;</code>
+       * <code>.dstore.values.BooleanValue resort = 2;</code>
        */
       public Builder mergeResort(io.dstore.values.BooleanValue value) {
         if (resortBuilder_ == null) {
@@ -773,7 +773,7 @@ public final class ImMoveTreeNodesAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.BooleanValue resort = 2;</code>
+       * <code>.dstore.values.BooleanValue resort = 2;</code>
        */
       public Builder clearResort() {
         if (resortBuilder_ == null) {
@@ -787,7 +787,7 @@ public final class ImMoveTreeNodesAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.BooleanValue resort = 2;</code>
+       * <code>.dstore.values.BooleanValue resort = 2;</code>
        */
       public io.dstore.values.BooleanValue.Builder getResortBuilder() {
         
@@ -795,7 +795,7 @@ public final class ImMoveTreeNodesAd {
         return getResortFieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .dstore.values.BooleanValue resort = 2;</code>
+       * <code>.dstore.values.BooleanValue resort = 2;</code>
        */
       public io.dstore.values.BooleanValueOrBuilder getResortOrBuilder() {
         if (resortBuilder_ != null) {
@@ -806,7 +806,7 @@ public final class ImMoveTreeNodesAd {
         }
       }
       /**
-       * <code>optional .dstore.values.BooleanValue resort = 2;</code>
+       * <code>.dstore.values.BooleanValue resort = 2;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.values.BooleanValue, io.dstore.values.BooleanValue.Builder, io.dstore.values.BooleanValueOrBuilder> 
@@ -824,13 +824,13 @@ public final class ImMoveTreeNodesAd {
 
       private boolean resortNull_ ;
       /**
-       * <code>optional bool resort_null = 1002;</code>
+       * <code>bool resort_null = 1002;</code>
        */
       public boolean getResortNull() {
         return resortNull_;
       }
       /**
-       * <code>optional bool resort_null = 1002;</code>
+       * <code>bool resort_null = 1002;</code>
        */
       public Builder setResortNull(boolean value) {
         
@@ -839,7 +839,7 @@ public final class ImMoveTreeNodesAd {
         return this;
       }
       /**
-       * <code>optional bool resort_null = 1002;</code>
+       * <code>bool resort_null = 1002;</code>
        */
       public Builder clearResortNull() {
         
@@ -1098,7 +1098,7 @@ public final class ImMoveTreeNodesAd {
         com.google.protobuf.MessageOrBuilder {
 
       /**
-       * <code>optional int32 row_id = 10000;</code>
+       * <code>int32 row_id = 10000;</code>
        */
       int getRowId();
     }
@@ -1173,7 +1173,7 @@ public final class ImMoveTreeNodesAd {
       public static final int ROW_ID_FIELD_NUMBER = 10000;
       private int rowId_;
       /**
-       * <code>optional int32 row_id = 10000;</code>
+       * <code>int32 row_id = 10000;</code>
        */
       public int getRowId() {
         return rowId_;
@@ -1232,7 +1232,7 @@ public final class ImMoveTreeNodesAd {
           return memoizedHashCode;
         }
         int hash = 41;
-        hash = (19 * hash) + getDescriptorForType().hashCode();
+        hash = (19 * hash) + getDescriptor().hashCode();
         hash = (37 * hash) + ROW_ID_FIELD_NUMBER;
         hash = (53 * hash) + getRowId();
         hash = (29 * hash) + unknownFields.hashCode();
@@ -1450,13 +1450,13 @@ public final class ImMoveTreeNodesAd {
 
         private int rowId_ ;
         /**
-         * <code>optional int32 row_id = 10000;</code>
+         * <code>int32 row_id = 10000;</code>
          */
         public int getRowId() {
           return rowId_;
         }
         /**
-         * <code>optional int32 row_id = 10000;</code>
+         * <code>int32 row_id = 10000;</code>
          */
         public Builder setRowId(int value) {
           
@@ -1465,7 +1465,7 @@ public final class ImMoveTreeNodesAd {
           return this;
         }
         /**
-         * <code>optional int32 row_id = 10000;</code>
+         * <code>int32 row_id = 10000;</code>
          */
         public Builder clearRowId() {
           
@@ -1718,7 +1718,7 @@ public final class ImMoveTreeNodesAd {
         return memoizedHashCode;
       }
       int hash = 41;
-      hash = (19 * hash) + getDescriptorForType().hashCode();
+      hash = (19 * hash) + getDescriptor().hashCode();
       if (getMetaInformationCount() > 0) {
         hash = (37 * hash) + META_INFORMATION_FIELD_NUMBER;
         hash = (53 * hash) + getMetaInformationList().hashCode();

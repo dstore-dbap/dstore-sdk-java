@@ -19,146 +19,146 @@ public final class CoModifyBinaryCategoriesAd {
       com.google.protobuf.MessageOrBuilder {
 
     /**
-     * <code>optional .dstore.values.IntegerValue community_binary_category_id = 1;</code>
+     * <code>.dstore.values.IntegerValue community_binary_category_id = 1;</code>
      */
     boolean hasCommunityBinaryCategoryId();
     /**
-     * <code>optional .dstore.values.IntegerValue community_binary_category_id = 1;</code>
+     * <code>.dstore.values.IntegerValue community_binary_category_id = 1;</code>
      */
     io.dstore.values.IntegerValue getCommunityBinaryCategoryId();
     /**
-     * <code>optional .dstore.values.IntegerValue community_binary_category_id = 1;</code>
+     * <code>.dstore.values.IntegerValue community_binary_category_id = 1;</code>
      */
     io.dstore.values.IntegerValueOrBuilder getCommunityBinaryCategoryIdOrBuilder();
 
     /**
-     * <code>optional bool community_binary_category_id_null = 1001;</code>
+     * <code>bool community_binary_category_id_null = 1001;</code>
      */
     boolean getCommunityBinaryCategoryIdNull();
 
     /**
-     * <code>optional .dstore.values.IntegerValue community_id = 2;</code>
+     * <code>.dstore.values.IntegerValue community_id = 2;</code>
      */
     boolean hasCommunityId();
     /**
-     * <code>optional .dstore.values.IntegerValue community_id = 2;</code>
+     * <code>.dstore.values.IntegerValue community_id = 2;</code>
      */
     io.dstore.values.IntegerValue getCommunityId();
     /**
-     * <code>optional .dstore.values.IntegerValue community_id = 2;</code>
+     * <code>.dstore.values.IntegerValue community_id = 2;</code>
      */
     io.dstore.values.IntegerValueOrBuilder getCommunityIdOrBuilder();
 
     /**
-     * <code>optional bool community_id_null = 1002;</code>
+     * <code>bool community_id_null = 1002;</code>
      */
     boolean getCommunityIdNull();
 
     /**
-     * <code>optional .dstore.values.StringValue community_binary_category = 3;</code>
+     * <code>.dstore.values.StringValue community_binary_category = 3;</code>
      */
     boolean hasCommunityBinaryCategory();
     /**
-     * <code>optional .dstore.values.StringValue community_binary_category = 3;</code>
+     * <code>.dstore.values.StringValue community_binary_category = 3;</code>
      */
     io.dstore.values.StringValue getCommunityBinaryCategory();
     /**
-     * <code>optional .dstore.values.StringValue community_binary_category = 3;</code>
+     * <code>.dstore.values.StringValue community_binary_category = 3;</code>
      */
     io.dstore.values.StringValueOrBuilder getCommunityBinaryCategoryOrBuilder();
 
     /**
-     * <code>optional bool community_binary_category_null = 1003;</code>
+     * <code>bool community_binary_category_null = 1003;</code>
      */
     boolean getCommunityBinaryCategoryNull();
 
     /**
-     * <code>optional .dstore.values.IntegerValue sort_no = 4;</code>
+     * <code>.dstore.values.IntegerValue sort_no = 4;</code>
      */
     boolean hasSortNo();
     /**
-     * <code>optional .dstore.values.IntegerValue sort_no = 4;</code>
+     * <code>.dstore.values.IntegerValue sort_no = 4;</code>
      */
     io.dstore.values.IntegerValue getSortNo();
     /**
-     * <code>optional .dstore.values.IntegerValue sort_no = 4;</code>
+     * <code>.dstore.values.IntegerValue sort_no = 4;</code>
      */
     io.dstore.values.IntegerValueOrBuilder getSortNoOrBuilder();
 
     /**
-     * <code>optional bool sort_no_null = 1004;</code>
+     * <code>bool sort_no_null = 1004;</code>
      */
     boolean getSortNoNull();
 
     /**
-     * <code>optional .dstore.values.IntegerValue access_level = 5;</code>
+     * <code>.dstore.values.IntegerValue access_level = 5;</code>
      */
     boolean hasAccessLevel();
     /**
-     * <code>optional .dstore.values.IntegerValue access_level = 5;</code>
+     * <code>.dstore.values.IntegerValue access_level = 5;</code>
      */
     io.dstore.values.IntegerValue getAccessLevel();
     /**
-     * <code>optional .dstore.values.IntegerValue access_level = 5;</code>
+     * <code>.dstore.values.IntegerValue access_level = 5;</code>
      */
     io.dstore.values.IntegerValueOrBuilder getAccessLevelOrBuilder();
 
     /**
-     * <code>optional bool access_level_null = 1005;</code>
+     * <code>bool access_level_null = 1005;</code>
      */
     boolean getAccessLevelNull();
 
     /**
-     * <code>optional .dstore.values.IntegerValue binary_quota_in_k_b = 6;</code>
+     * <code>.dstore.values.IntegerValue binary_quota_in_k_b = 6;</code>
      */
     boolean hasBinaryQuotaInKB();
     /**
-     * <code>optional .dstore.values.IntegerValue binary_quota_in_k_b = 6;</code>
+     * <code>.dstore.values.IntegerValue binary_quota_in_k_b = 6;</code>
      */
     io.dstore.values.IntegerValue getBinaryQuotaInKB();
     /**
-     * <code>optional .dstore.values.IntegerValue binary_quota_in_k_b = 6;</code>
+     * <code>.dstore.values.IntegerValue binary_quota_in_k_b = 6;</code>
      */
     io.dstore.values.IntegerValueOrBuilder getBinaryQuotaInKBOrBuilder();
 
     /**
-     * <code>optional bool binary_quota_in_k_b_null = 1006;</code>
+     * <code>bool binary_quota_in_k_b_null = 1006;</code>
      */
     boolean getBinaryQuotaInKBNull();
 
     /**
-     * <code>optional .dstore.values.IntegerValue max_number_of_binaries = 7;</code>
+     * <code>.dstore.values.IntegerValue max_number_of_binaries = 7;</code>
      */
     boolean hasMaxNumberOfBinaries();
     /**
-     * <code>optional .dstore.values.IntegerValue max_number_of_binaries = 7;</code>
+     * <code>.dstore.values.IntegerValue max_number_of_binaries = 7;</code>
      */
     io.dstore.values.IntegerValue getMaxNumberOfBinaries();
     /**
-     * <code>optional .dstore.values.IntegerValue max_number_of_binaries = 7;</code>
+     * <code>.dstore.values.IntegerValue max_number_of_binaries = 7;</code>
      */
     io.dstore.values.IntegerValueOrBuilder getMaxNumberOfBinariesOrBuilder();
 
     /**
-     * <code>optional bool max_number_of_binaries_null = 1007;</code>
+     * <code>bool max_number_of_binaries_null = 1007;</code>
      */
     boolean getMaxNumberOfBinariesNull();
 
     /**
-     * <code>optional .dstore.values.BooleanValue delete_binary_category = 8;</code>
+     * <code>.dstore.values.BooleanValue delete_binary_category = 8;</code>
      */
     boolean hasDeleteBinaryCategory();
     /**
-     * <code>optional .dstore.values.BooleanValue delete_binary_category = 8;</code>
+     * <code>.dstore.values.BooleanValue delete_binary_category = 8;</code>
      */
     io.dstore.values.BooleanValue getDeleteBinaryCategory();
     /**
-     * <code>optional .dstore.values.BooleanValue delete_binary_category = 8;</code>
+     * <code>.dstore.values.BooleanValue delete_binary_category = 8;</code>
      */
     io.dstore.values.BooleanValueOrBuilder getDeleteBinaryCategoryOrBuilder();
 
     /**
-     * <code>optional bool delete_binary_category_null = 1008;</code>
+     * <code>bool delete_binary_category_null = 1008;</code>
      */
     boolean getDeleteBinaryCategoryNull();
   }
@@ -379,19 +379,19 @@ public final class CoModifyBinaryCategoriesAd {
     public static final int COMMUNITY_BINARY_CATEGORY_ID_FIELD_NUMBER = 1;
     private io.dstore.values.IntegerValue communityBinaryCategoryId_;
     /**
-     * <code>optional .dstore.values.IntegerValue community_binary_category_id = 1;</code>
+     * <code>.dstore.values.IntegerValue community_binary_category_id = 1;</code>
      */
     public boolean hasCommunityBinaryCategoryId() {
       return communityBinaryCategoryId_ != null;
     }
     /**
-     * <code>optional .dstore.values.IntegerValue community_binary_category_id = 1;</code>
+     * <code>.dstore.values.IntegerValue community_binary_category_id = 1;</code>
      */
     public io.dstore.values.IntegerValue getCommunityBinaryCategoryId() {
       return communityBinaryCategoryId_ == null ? io.dstore.values.IntegerValue.getDefaultInstance() : communityBinaryCategoryId_;
     }
     /**
-     * <code>optional .dstore.values.IntegerValue community_binary_category_id = 1;</code>
+     * <code>.dstore.values.IntegerValue community_binary_category_id = 1;</code>
      */
     public io.dstore.values.IntegerValueOrBuilder getCommunityBinaryCategoryIdOrBuilder() {
       return getCommunityBinaryCategoryId();
@@ -400,7 +400,7 @@ public final class CoModifyBinaryCategoriesAd {
     public static final int COMMUNITY_BINARY_CATEGORY_ID_NULL_FIELD_NUMBER = 1001;
     private boolean communityBinaryCategoryIdNull_;
     /**
-     * <code>optional bool community_binary_category_id_null = 1001;</code>
+     * <code>bool community_binary_category_id_null = 1001;</code>
      */
     public boolean getCommunityBinaryCategoryIdNull() {
       return communityBinaryCategoryIdNull_;
@@ -409,19 +409,19 @@ public final class CoModifyBinaryCategoriesAd {
     public static final int COMMUNITY_ID_FIELD_NUMBER = 2;
     private io.dstore.values.IntegerValue communityId_;
     /**
-     * <code>optional .dstore.values.IntegerValue community_id = 2;</code>
+     * <code>.dstore.values.IntegerValue community_id = 2;</code>
      */
     public boolean hasCommunityId() {
       return communityId_ != null;
     }
     /**
-     * <code>optional .dstore.values.IntegerValue community_id = 2;</code>
+     * <code>.dstore.values.IntegerValue community_id = 2;</code>
      */
     public io.dstore.values.IntegerValue getCommunityId() {
       return communityId_ == null ? io.dstore.values.IntegerValue.getDefaultInstance() : communityId_;
     }
     /**
-     * <code>optional .dstore.values.IntegerValue community_id = 2;</code>
+     * <code>.dstore.values.IntegerValue community_id = 2;</code>
      */
     public io.dstore.values.IntegerValueOrBuilder getCommunityIdOrBuilder() {
       return getCommunityId();
@@ -430,7 +430,7 @@ public final class CoModifyBinaryCategoriesAd {
     public static final int COMMUNITY_ID_NULL_FIELD_NUMBER = 1002;
     private boolean communityIdNull_;
     /**
-     * <code>optional bool community_id_null = 1002;</code>
+     * <code>bool community_id_null = 1002;</code>
      */
     public boolean getCommunityIdNull() {
       return communityIdNull_;
@@ -439,19 +439,19 @@ public final class CoModifyBinaryCategoriesAd {
     public static final int COMMUNITY_BINARY_CATEGORY_FIELD_NUMBER = 3;
     private io.dstore.values.StringValue communityBinaryCategory_;
     /**
-     * <code>optional .dstore.values.StringValue community_binary_category = 3;</code>
+     * <code>.dstore.values.StringValue community_binary_category = 3;</code>
      */
     public boolean hasCommunityBinaryCategory() {
       return communityBinaryCategory_ != null;
     }
     /**
-     * <code>optional .dstore.values.StringValue community_binary_category = 3;</code>
+     * <code>.dstore.values.StringValue community_binary_category = 3;</code>
      */
     public io.dstore.values.StringValue getCommunityBinaryCategory() {
       return communityBinaryCategory_ == null ? io.dstore.values.StringValue.getDefaultInstance() : communityBinaryCategory_;
     }
     /**
-     * <code>optional .dstore.values.StringValue community_binary_category = 3;</code>
+     * <code>.dstore.values.StringValue community_binary_category = 3;</code>
      */
     public io.dstore.values.StringValueOrBuilder getCommunityBinaryCategoryOrBuilder() {
       return getCommunityBinaryCategory();
@@ -460,7 +460,7 @@ public final class CoModifyBinaryCategoriesAd {
     public static final int COMMUNITY_BINARY_CATEGORY_NULL_FIELD_NUMBER = 1003;
     private boolean communityBinaryCategoryNull_;
     /**
-     * <code>optional bool community_binary_category_null = 1003;</code>
+     * <code>bool community_binary_category_null = 1003;</code>
      */
     public boolean getCommunityBinaryCategoryNull() {
       return communityBinaryCategoryNull_;
@@ -469,19 +469,19 @@ public final class CoModifyBinaryCategoriesAd {
     public static final int SORT_NO_FIELD_NUMBER = 4;
     private io.dstore.values.IntegerValue sortNo_;
     /**
-     * <code>optional .dstore.values.IntegerValue sort_no = 4;</code>
+     * <code>.dstore.values.IntegerValue sort_no = 4;</code>
      */
     public boolean hasSortNo() {
       return sortNo_ != null;
     }
     /**
-     * <code>optional .dstore.values.IntegerValue sort_no = 4;</code>
+     * <code>.dstore.values.IntegerValue sort_no = 4;</code>
      */
     public io.dstore.values.IntegerValue getSortNo() {
       return sortNo_ == null ? io.dstore.values.IntegerValue.getDefaultInstance() : sortNo_;
     }
     /**
-     * <code>optional .dstore.values.IntegerValue sort_no = 4;</code>
+     * <code>.dstore.values.IntegerValue sort_no = 4;</code>
      */
     public io.dstore.values.IntegerValueOrBuilder getSortNoOrBuilder() {
       return getSortNo();
@@ -490,7 +490,7 @@ public final class CoModifyBinaryCategoriesAd {
     public static final int SORT_NO_NULL_FIELD_NUMBER = 1004;
     private boolean sortNoNull_;
     /**
-     * <code>optional bool sort_no_null = 1004;</code>
+     * <code>bool sort_no_null = 1004;</code>
      */
     public boolean getSortNoNull() {
       return sortNoNull_;
@@ -499,19 +499,19 @@ public final class CoModifyBinaryCategoriesAd {
     public static final int ACCESS_LEVEL_FIELD_NUMBER = 5;
     private io.dstore.values.IntegerValue accessLevel_;
     /**
-     * <code>optional .dstore.values.IntegerValue access_level = 5;</code>
+     * <code>.dstore.values.IntegerValue access_level = 5;</code>
      */
     public boolean hasAccessLevel() {
       return accessLevel_ != null;
     }
     /**
-     * <code>optional .dstore.values.IntegerValue access_level = 5;</code>
+     * <code>.dstore.values.IntegerValue access_level = 5;</code>
      */
     public io.dstore.values.IntegerValue getAccessLevel() {
       return accessLevel_ == null ? io.dstore.values.IntegerValue.getDefaultInstance() : accessLevel_;
     }
     /**
-     * <code>optional .dstore.values.IntegerValue access_level = 5;</code>
+     * <code>.dstore.values.IntegerValue access_level = 5;</code>
      */
     public io.dstore.values.IntegerValueOrBuilder getAccessLevelOrBuilder() {
       return getAccessLevel();
@@ -520,7 +520,7 @@ public final class CoModifyBinaryCategoriesAd {
     public static final int ACCESS_LEVEL_NULL_FIELD_NUMBER = 1005;
     private boolean accessLevelNull_;
     /**
-     * <code>optional bool access_level_null = 1005;</code>
+     * <code>bool access_level_null = 1005;</code>
      */
     public boolean getAccessLevelNull() {
       return accessLevelNull_;
@@ -529,19 +529,19 @@ public final class CoModifyBinaryCategoriesAd {
     public static final int BINARY_QUOTA_IN_K_B_FIELD_NUMBER = 6;
     private io.dstore.values.IntegerValue binaryQuotaInKB_;
     /**
-     * <code>optional .dstore.values.IntegerValue binary_quota_in_k_b = 6;</code>
+     * <code>.dstore.values.IntegerValue binary_quota_in_k_b = 6;</code>
      */
     public boolean hasBinaryQuotaInKB() {
       return binaryQuotaInKB_ != null;
     }
     /**
-     * <code>optional .dstore.values.IntegerValue binary_quota_in_k_b = 6;</code>
+     * <code>.dstore.values.IntegerValue binary_quota_in_k_b = 6;</code>
      */
     public io.dstore.values.IntegerValue getBinaryQuotaInKB() {
       return binaryQuotaInKB_ == null ? io.dstore.values.IntegerValue.getDefaultInstance() : binaryQuotaInKB_;
     }
     /**
-     * <code>optional .dstore.values.IntegerValue binary_quota_in_k_b = 6;</code>
+     * <code>.dstore.values.IntegerValue binary_quota_in_k_b = 6;</code>
      */
     public io.dstore.values.IntegerValueOrBuilder getBinaryQuotaInKBOrBuilder() {
       return getBinaryQuotaInKB();
@@ -550,7 +550,7 @@ public final class CoModifyBinaryCategoriesAd {
     public static final int BINARY_QUOTA_IN_K_B_NULL_FIELD_NUMBER = 1006;
     private boolean binaryQuotaInKBNull_;
     /**
-     * <code>optional bool binary_quota_in_k_b_null = 1006;</code>
+     * <code>bool binary_quota_in_k_b_null = 1006;</code>
      */
     public boolean getBinaryQuotaInKBNull() {
       return binaryQuotaInKBNull_;
@@ -559,19 +559,19 @@ public final class CoModifyBinaryCategoriesAd {
     public static final int MAX_NUMBER_OF_BINARIES_FIELD_NUMBER = 7;
     private io.dstore.values.IntegerValue maxNumberOfBinaries_;
     /**
-     * <code>optional .dstore.values.IntegerValue max_number_of_binaries = 7;</code>
+     * <code>.dstore.values.IntegerValue max_number_of_binaries = 7;</code>
      */
     public boolean hasMaxNumberOfBinaries() {
       return maxNumberOfBinaries_ != null;
     }
     /**
-     * <code>optional .dstore.values.IntegerValue max_number_of_binaries = 7;</code>
+     * <code>.dstore.values.IntegerValue max_number_of_binaries = 7;</code>
      */
     public io.dstore.values.IntegerValue getMaxNumberOfBinaries() {
       return maxNumberOfBinaries_ == null ? io.dstore.values.IntegerValue.getDefaultInstance() : maxNumberOfBinaries_;
     }
     /**
-     * <code>optional .dstore.values.IntegerValue max_number_of_binaries = 7;</code>
+     * <code>.dstore.values.IntegerValue max_number_of_binaries = 7;</code>
      */
     public io.dstore.values.IntegerValueOrBuilder getMaxNumberOfBinariesOrBuilder() {
       return getMaxNumberOfBinaries();
@@ -580,7 +580,7 @@ public final class CoModifyBinaryCategoriesAd {
     public static final int MAX_NUMBER_OF_BINARIES_NULL_FIELD_NUMBER = 1007;
     private boolean maxNumberOfBinariesNull_;
     /**
-     * <code>optional bool max_number_of_binaries_null = 1007;</code>
+     * <code>bool max_number_of_binaries_null = 1007;</code>
      */
     public boolean getMaxNumberOfBinariesNull() {
       return maxNumberOfBinariesNull_;
@@ -589,19 +589,19 @@ public final class CoModifyBinaryCategoriesAd {
     public static final int DELETE_BINARY_CATEGORY_FIELD_NUMBER = 8;
     private io.dstore.values.BooleanValue deleteBinaryCategory_;
     /**
-     * <code>optional .dstore.values.BooleanValue delete_binary_category = 8;</code>
+     * <code>.dstore.values.BooleanValue delete_binary_category = 8;</code>
      */
     public boolean hasDeleteBinaryCategory() {
       return deleteBinaryCategory_ != null;
     }
     /**
-     * <code>optional .dstore.values.BooleanValue delete_binary_category = 8;</code>
+     * <code>.dstore.values.BooleanValue delete_binary_category = 8;</code>
      */
     public io.dstore.values.BooleanValue getDeleteBinaryCategory() {
       return deleteBinaryCategory_ == null ? io.dstore.values.BooleanValue.getDefaultInstance() : deleteBinaryCategory_;
     }
     /**
-     * <code>optional .dstore.values.BooleanValue delete_binary_category = 8;</code>
+     * <code>.dstore.values.BooleanValue delete_binary_category = 8;</code>
      */
     public io.dstore.values.BooleanValueOrBuilder getDeleteBinaryCategoryOrBuilder() {
       return getDeleteBinaryCategory();
@@ -610,7 +610,7 @@ public final class CoModifyBinaryCategoriesAd {
     public static final int DELETE_BINARY_CATEGORY_NULL_FIELD_NUMBER = 1008;
     private boolean deleteBinaryCategoryNull_;
     /**
-     * <code>optional bool delete_binary_category_null = 1008;</code>
+     * <code>bool delete_binary_category_null = 1008;</code>
      */
     public boolean getDeleteBinaryCategoryNull() {
       return deleteBinaryCategoryNull_;
@@ -828,7 +828,7 @@ public final class CoModifyBinaryCategoriesAd {
         return memoizedHashCode;
       }
       int hash = 41;
-      hash = (19 * hash) + getDescriptorForType().hashCode();
+      hash = (19 * hash) + getDescriptor().hashCode();
       if (hasCommunityBinaryCategoryId()) {
         hash = (37 * hash) + COMMUNITY_BINARY_CATEGORY_ID_FIELD_NUMBER;
         hash = (53 * hash) + getCommunityBinaryCategoryId().hashCode();
@@ -1256,13 +1256,13 @@ public final class CoModifyBinaryCategoriesAd {
       private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> communityBinaryCategoryIdBuilder_;
       /**
-       * <code>optional .dstore.values.IntegerValue community_binary_category_id = 1;</code>
+       * <code>.dstore.values.IntegerValue community_binary_category_id = 1;</code>
        */
       public boolean hasCommunityBinaryCategoryId() {
         return communityBinaryCategoryIdBuilder_ != null || communityBinaryCategoryId_ != null;
       }
       /**
-       * <code>optional .dstore.values.IntegerValue community_binary_category_id = 1;</code>
+       * <code>.dstore.values.IntegerValue community_binary_category_id = 1;</code>
        */
       public io.dstore.values.IntegerValue getCommunityBinaryCategoryId() {
         if (communityBinaryCategoryIdBuilder_ == null) {
@@ -1272,7 +1272,7 @@ public final class CoModifyBinaryCategoriesAd {
         }
       }
       /**
-       * <code>optional .dstore.values.IntegerValue community_binary_category_id = 1;</code>
+       * <code>.dstore.values.IntegerValue community_binary_category_id = 1;</code>
        */
       public Builder setCommunityBinaryCategoryId(io.dstore.values.IntegerValue value) {
         if (communityBinaryCategoryIdBuilder_ == null) {
@@ -1288,7 +1288,7 @@ public final class CoModifyBinaryCategoriesAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.IntegerValue community_binary_category_id = 1;</code>
+       * <code>.dstore.values.IntegerValue community_binary_category_id = 1;</code>
        */
       public Builder setCommunityBinaryCategoryId(
           io.dstore.values.IntegerValue.Builder builderForValue) {
@@ -1302,7 +1302,7 @@ public final class CoModifyBinaryCategoriesAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.IntegerValue community_binary_category_id = 1;</code>
+       * <code>.dstore.values.IntegerValue community_binary_category_id = 1;</code>
        */
       public Builder mergeCommunityBinaryCategoryId(io.dstore.values.IntegerValue value) {
         if (communityBinaryCategoryIdBuilder_ == null) {
@@ -1320,7 +1320,7 @@ public final class CoModifyBinaryCategoriesAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.IntegerValue community_binary_category_id = 1;</code>
+       * <code>.dstore.values.IntegerValue community_binary_category_id = 1;</code>
        */
       public Builder clearCommunityBinaryCategoryId() {
         if (communityBinaryCategoryIdBuilder_ == null) {
@@ -1334,7 +1334,7 @@ public final class CoModifyBinaryCategoriesAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.IntegerValue community_binary_category_id = 1;</code>
+       * <code>.dstore.values.IntegerValue community_binary_category_id = 1;</code>
        */
       public io.dstore.values.IntegerValue.Builder getCommunityBinaryCategoryIdBuilder() {
         
@@ -1342,7 +1342,7 @@ public final class CoModifyBinaryCategoriesAd {
         return getCommunityBinaryCategoryIdFieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .dstore.values.IntegerValue community_binary_category_id = 1;</code>
+       * <code>.dstore.values.IntegerValue community_binary_category_id = 1;</code>
        */
       public io.dstore.values.IntegerValueOrBuilder getCommunityBinaryCategoryIdOrBuilder() {
         if (communityBinaryCategoryIdBuilder_ != null) {
@@ -1353,7 +1353,7 @@ public final class CoModifyBinaryCategoriesAd {
         }
       }
       /**
-       * <code>optional .dstore.values.IntegerValue community_binary_category_id = 1;</code>
+       * <code>.dstore.values.IntegerValue community_binary_category_id = 1;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> 
@@ -1371,13 +1371,13 @@ public final class CoModifyBinaryCategoriesAd {
 
       private boolean communityBinaryCategoryIdNull_ ;
       /**
-       * <code>optional bool community_binary_category_id_null = 1001;</code>
+       * <code>bool community_binary_category_id_null = 1001;</code>
        */
       public boolean getCommunityBinaryCategoryIdNull() {
         return communityBinaryCategoryIdNull_;
       }
       /**
-       * <code>optional bool community_binary_category_id_null = 1001;</code>
+       * <code>bool community_binary_category_id_null = 1001;</code>
        */
       public Builder setCommunityBinaryCategoryIdNull(boolean value) {
         
@@ -1386,7 +1386,7 @@ public final class CoModifyBinaryCategoriesAd {
         return this;
       }
       /**
-       * <code>optional bool community_binary_category_id_null = 1001;</code>
+       * <code>bool community_binary_category_id_null = 1001;</code>
        */
       public Builder clearCommunityBinaryCategoryIdNull() {
         
@@ -1399,13 +1399,13 @@ public final class CoModifyBinaryCategoriesAd {
       private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> communityIdBuilder_;
       /**
-       * <code>optional .dstore.values.IntegerValue community_id = 2;</code>
+       * <code>.dstore.values.IntegerValue community_id = 2;</code>
        */
       public boolean hasCommunityId() {
         return communityIdBuilder_ != null || communityId_ != null;
       }
       /**
-       * <code>optional .dstore.values.IntegerValue community_id = 2;</code>
+       * <code>.dstore.values.IntegerValue community_id = 2;</code>
        */
       public io.dstore.values.IntegerValue getCommunityId() {
         if (communityIdBuilder_ == null) {
@@ -1415,7 +1415,7 @@ public final class CoModifyBinaryCategoriesAd {
         }
       }
       /**
-       * <code>optional .dstore.values.IntegerValue community_id = 2;</code>
+       * <code>.dstore.values.IntegerValue community_id = 2;</code>
        */
       public Builder setCommunityId(io.dstore.values.IntegerValue value) {
         if (communityIdBuilder_ == null) {
@@ -1431,7 +1431,7 @@ public final class CoModifyBinaryCategoriesAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.IntegerValue community_id = 2;</code>
+       * <code>.dstore.values.IntegerValue community_id = 2;</code>
        */
       public Builder setCommunityId(
           io.dstore.values.IntegerValue.Builder builderForValue) {
@@ -1445,7 +1445,7 @@ public final class CoModifyBinaryCategoriesAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.IntegerValue community_id = 2;</code>
+       * <code>.dstore.values.IntegerValue community_id = 2;</code>
        */
       public Builder mergeCommunityId(io.dstore.values.IntegerValue value) {
         if (communityIdBuilder_ == null) {
@@ -1463,7 +1463,7 @@ public final class CoModifyBinaryCategoriesAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.IntegerValue community_id = 2;</code>
+       * <code>.dstore.values.IntegerValue community_id = 2;</code>
        */
       public Builder clearCommunityId() {
         if (communityIdBuilder_ == null) {
@@ -1477,7 +1477,7 @@ public final class CoModifyBinaryCategoriesAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.IntegerValue community_id = 2;</code>
+       * <code>.dstore.values.IntegerValue community_id = 2;</code>
        */
       public io.dstore.values.IntegerValue.Builder getCommunityIdBuilder() {
         
@@ -1485,7 +1485,7 @@ public final class CoModifyBinaryCategoriesAd {
         return getCommunityIdFieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .dstore.values.IntegerValue community_id = 2;</code>
+       * <code>.dstore.values.IntegerValue community_id = 2;</code>
        */
       public io.dstore.values.IntegerValueOrBuilder getCommunityIdOrBuilder() {
         if (communityIdBuilder_ != null) {
@@ -1496,7 +1496,7 @@ public final class CoModifyBinaryCategoriesAd {
         }
       }
       /**
-       * <code>optional .dstore.values.IntegerValue community_id = 2;</code>
+       * <code>.dstore.values.IntegerValue community_id = 2;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> 
@@ -1514,13 +1514,13 @@ public final class CoModifyBinaryCategoriesAd {
 
       private boolean communityIdNull_ ;
       /**
-       * <code>optional bool community_id_null = 1002;</code>
+       * <code>bool community_id_null = 1002;</code>
        */
       public boolean getCommunityIdNull() {
         return communityIdNull_;
       }
       /**
-       * <code>optional bool community_id_null = 1002;</code>
+       * <code>bool community_id_null = 1002;</code>
        */
       public Builder setCommunityIdNull(boolean value) {
         
@@ -1529,7 +1529,7 @@ public final class CoModifyBinaryCategoriesAd {
         return this;
       }
       /**
-       * <code>optional bool community_id_null = 1002;</code>
+       * <code>bool community_id_null = 1002;</code>
        */
       public Builder clearCommunityIdNull() {
         
@@ -1542,13 +1542,13 @@ public final class CoModifyBinaryCategoriesAd {
       private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.values.StringValue, io.dstore.values.StringValue.Builder, io.dstore.values.StringValueOrBuilder> communityBinaryCategoryBuilder_;
       /**
-       * <code>optional .dstore.values.StringValue community_binary_category = 3;</code>
+       * <code>.dstore.values.StringValue community_binary_category = 3;</code>
        */
       public boolean hasCommunityBinaryCategory() {
         return communityBinaryCategoryBuilder_ != null || communityBinaryCategory_ != null;
       }
       /**
-       * <code>optional .dstore.values.StringValue community_binary_category = 3;</code>
+       * <code>.dstore.values.StringValue community_binary_category = 3;</code>
        */
       public io.dstore.values.StringValue getCommunityBinaryCategory() {
         if (communityBinaryCategoryBuilder_ == null) {
@@ -1558,7 +1558,7 @@ public final class CoModifyBinaryCategoriesAd {
         }
       }
       /**
-       * <code>optional .dstore.values.StringValue community_binary_category = 3;</code>
+       * <code>.dstore.values.StringValue community_binary_category = 3;</code>
        */
       public Builder setCommunityBinaryCategory(io.dstore.values.StringValue value) {
         if (communityBinaryCategoryBuilder_ == null) {
@@ -1574,7 +1574,7 @@ public final class CoModifyBinaryCategoriesAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.StringValue community_binary_category = 3;</code>
+       * <code>.dstore.values.StringValue community_binary_category = 3;</code>
        */
       public Builder setCommunityBinaryCategory(
           io.dstore.values.StringValue.Builder builderForValue) {
@@ -1588,7 +1588,7 @@ public final class CoModifyBinaryCategoriesAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.StringValue community_binary_category = 3;</code>
+       * <code>.dstore.values.StringValue community_binary_category = 3;</code>
        */
       public Builder mergeCommunityBinaryCategory(io.dstore.values.StringValue value) {
         if (communityBinaryCategoryBuilder_ == null) {
@@ -1606,7 +1606,7 @@ public final class CoModifyBinaryCategoriesAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.StringValue community_binary_category = 3;</code>
+       * <code>.dstore.values.StringValue community_binary_category = 3;</code>
        */
       public Builder clearCommunityBinaryCategory() {
         if (communityBinaryCategoryBuilder_ == null) {
@@ -1620,7 +1620,7 @@ public final class CoModifyBinaryCategoriesAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.StringValue community_binary_category = 3;</code>
+       * <code>.dstore.values.StringValue community_binary_category = 3;</code>
        */
       public io.dstore.values.StringValue.Builder getCommunityBinaryCategoryBuilder() {
         
@@ -1628,7 +1628,7 @@ public final class CoModifyBinaryCategoriesAd {
         return getCommunityBinaryCategoryFieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .dstore.values.StringValue community_binary_category = 3;</code>
+       * <code>.dstore.values.StringValue community_binary_category = 3;</code>
        */
       public io.dstore.values.StringValueOrBuilder getCommunityBinaryCategoryOrBuilder() {
         if (communityBinaryCategoryBuilder_ != null) {
@@ -1639,7 +1639,7 @@ public final class CoModifyBinaryCategoriesAd {
         }
       }
       /**
-       * <code>optional .dstore.values.StringValue community_binary_category = 3;</code>
+       * <code>.dstore.values.StringValue community_binary_category = 3;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.values.StringValue, io.dstore.values.StringValue.Builder, io.dstore.values.StringValueOrBuilder> 
@@ -1657,13 +1657,13 @@ public final class CoModifyBinaryCategoriesAd {
 
       private boolean communityBinaryCategoryNull_ ;
       /**
-       * <code>optional bool community_binary_category_null = 1003;</code>
+       * <code>bool community_binary_category_null = 1003;</code>
        */
       public boolean getCommunityBinaryCategoryNull() {
         return communityBinaryCategoryNull_;
       }
       /**
-       * <code>optional bool community_binary_category_null = 1003;</code>
+       * <code>bool community_binary_category_null = 1003;</code>
        */
       public Builder setCommunityBinaryCategoryNull(boolean value) {
         
@@ -1672,7 +1672,7 @@ public final class CoModifyBinaryCategoriesAd {
         return this;
       }
       /**
-       * <code>optional bool community_binary_category_null = 1003;</code>
+       * <code>bool community_binary_category_null = 1003;</code>
        */
       public Builder clearCommunityBinaryCategoryNull() {
         
@@ -1685,13 +1685,13 @@ public final class CoModifyBinaryCategoriesAd {
       private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> sortNoBuilder_;
       /**
-       * <code>optional .dstore.values.IntegerValue sort_no = 4;</code>
+       * <code>.dstore.values.IntegerValue sort_no = 4;</code>
        */
       public boolean hasSortNo() {
         return sortNoBuilder_ != null || sortNo_ != null;
       }
       /**
-       * <code>optional .dstore.values.IntegerValue sort_no = 4;</code>
+       * <code>.dstore.values.IntegerValue sort_no = 4;</code>
        */
       public io.dstore.values.IntegerValue getSortNo() {
         if (sortNoBuilder_ == null) {
@@ -1701,7 +1701,7 @@ public final class CoModifyBinaryCategoriesAd {
         }
       }
       /**
-       * <code>optional .dstore.values.IntegerValue sort_no = 4;</code>
+       * <code>.dstore.values.IntegerValue sort_no = 4;</code>
        */
       public Builder setSortNo(io.dstore.values.IntegerValue value) {
         if (sortNoBuilder_ == null) {
@@ -1717,7 +1717,7 @@ public final class CoModifyBinaryCategoriesAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.IntegerValue sort_no = 4;</code>
+       * <code>.dstore.values.IntegerValue sort_no = 4;</code>
        */
       public Builder setSortNo(
           io.dstore.values.IntegerValue.Builder builderForValue) {
@@ -1731,7 +1731,7 @@ public final class CoModifyBinaryCategoriesAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.IntegerValue sort_no = 4;</code>
+       * <code>.dstore.values.IntegerValue sort_no = 4;</code>
        */
       public Builder mergeSortNo(io.dstore.values.IntegerValue value) {
         if (sortNoBuilder_ == null) {
@@ -1749,7 +1749,7 @@ public final class CoModifyBinaryCategoriesAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.IntegerValue sort_no = 4;</code>
+       * <code>.dstore.values.IntegerValue sort_no = 4;</code>
        */
       public Builder clearSortNo() {
         if (sortNoBuilder_ == null) {
@@ -1763,7 +1763,7 @@ public final class CoModifyBinaryCategoriesAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.IntegerValue sort_no = 4;</code>
+       * <code>.dstore.values.IntegerValue sort_no = 4;</code>
        */
       public io.dstore.values.IntegerValue.Builder getSortNoBuilder() {
         
@@ -1771,7 +1771,7 @@ public final class CoModifyBinaryCategoriesAd {
         return getSortNoFieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .dstore.values.IntegerValue sort_no = 4;</code>
+       * <code>.dstore.values.IntegerValue sort_no = 4;</code>
        */
       public io.dstore.values.IntegerValueOrBuilder getSortNoOrBuilder() {
         if (sortNoBuilder_ != null) {
@@ -1782,7 +1782,7 @@ public final class CoModifyBinaryCategoriesAd {
         }
       }
       /**
-       * <code>optional .dstore.values.IntegerValue sort_no = 4;</code>
+       * <code>.dstore.values.IntegerValue sort_no = 4;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> 
@@ -1800,13 +1800,13 @@ public final class CoModifyBinaryCategoriesAd {
 
       private boolean sortNoNull_ ;
       /**
-       * <code>optional bool sort_no_null = 1004;</code>
+       * <code>bool sort_no_null = 1004;</code>
        */
       public boolean getSortNoNull() {
         return sortNoNull_;
       }
       /**
-       * <code>optional bool sort_no_null = 1004;</code>
+       * <code>bool sort_no_null = 1004;</code>
        */
       public Builder setSortNoNull(boolean value) {
         
@@ -1815,7 +1815,7 @@ public final class CoModifyBinaryCategoriesAd {
         return this;
       }
       /**
-       * <code>optional bool sort_no_null = 1004;</code>
+       * <code>bool sort_no_null = 1004;</code>
        */
       public Builder clearSortNoNull() {
         
@@ -1828,13 +1828,13 @@ public final class CoModifyBinaryCategoriesAd {
       private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> accessLevelBuilder_;
       /**
-       * <code>optional .dstore.values.IntegerValue access_level = 5;</code>
+       * <code>.dstore.values.IntegerValue access_level = 5;</code>
        */
       public boolean hasAccessLevel() {
         return accessLevelBuilder_ != null || accessLevel_ != null;
       }
       /**
-       * <code>optional .dstore.values.IntegerValue access_level = 5;</code>
+       * <code>.dstore.values.IntegerValue access_level = 5;</code>
        */
       public io.dstore.values.IntegerValue getAccessLevel() {
         if (accessLevelBuilder_ == null) {
@@ -1844,7 +1844,7 @@ public final class CoModifyBinaryCategoriesAd {
         }
       }
       /**
-       * <code>optional .dstore.values.IntegerValue access_level = 5;</code>
+       * <code>.dstore.values.IntegerValue access_level = 5;</code>
        */
       public Builder setAccessLevel(io.dstore.values.IntegerValue value) {
         if (accessLevelBuilder_ == null) {
@@ -1860,7 +1860,7 @@ public final class CoModifyBinaryCategoriesAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.IntegerValue access_level = 5;</code>
+       * <code>.dstore.values.IntegerValue access_level = 5;</code>
        */
       public Builder setAccessLevel(
           io.dstore.values.IntegerValue.Builder builderForValue) {
@@ -1874,7 +1874,7 @@ public final class CoModifyBinaryCategoriesAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.IntegerValue access_level = 5;</code>
+       * <code>.dstore.values.IntegerValue access_level = 5;</code>
        */
       public Builder mergeAccessLevel(io.dstore.values.IntegerValue value) {
         if (accessLevelBuilder_ == null) {
@@ -1892,7 +1892,7 @@ public final class CoModifyBinaryCategoriesAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.IntegerValue access_level = 5;</code>
+       * <code>.dstore.values.IntegerValue access_level = 5;</code>
        */
       public Builder clearAccessLevel() {
         if (accessLevelBuilder_ == null) {
@@ -1906,7 +1906,7 @@ public final class CoModifyBinaryCategoriesAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.IntegerValue access_level = 5;</code>
+       * <code>.dstore.values.IntegerValue access_level = 5;</code>
        */
       public io.dstore.values.IntegerValue.Builder getAccessLevelBuilder() {
         
@@ -1914,7 +1914,7 @@ public final class CoModifyBinaryCategoriesAd {
         return getAccessLevelFieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .dstore.values.IntegerValue access_level = 5;</code>
+       * <code>.dstore.values.IntegerValue access_level = 5;</code>
        */
       public io.dstore.values.IntegerValueOrBuilder getAccessLevelOrBuilder() {
         if (accessLevelBuilder_ != null) {
@@ -1925,7 +1925,7 @@ public final class CoModifyBinaryCategoriesAd {
         }
       }
       /**
-       * <code>optional .dstore.values.IntegerValue access_level = 5;</code>
+       * <code>.dstore.values.IntegerValue access_level = 5;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> 
@@ -1943,13 +1943,13 @@ public final class CoModifyBinaryCategoriesAd {
 
       private boolean accessLevelNull_ ;
       /**
-       * <code>optional bool access_level_null = 1005;</code>
+       * <code>bool access_level_null = 1005;</code>
        */
       public boolean getAccessLevelNull() {
         return accessLevelNull_;
       }
       /**
-       * <code>optional bool access_level_null = 1005;</code>
+       * <code>bool access_level_null = 1005;</code>
        */
       public Builder setAccessLevelNull(boolean value) {
         
@@ -1958,7 +1958,7 @@ public final class CoModifyBinaryCategoriesAd {
         return this;
       }
       /**
-       * <code>optional bool access_level_null = 1005;</code>
+       * <code>bool access_level_null = 1005;</code>
        */
       public Builder clearAccessLevelNull() {
         
@@ -1971,13 +1971,13 @@ public final class CoModifyBinaryCategoriesAd {
       private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> binaryQuotaInKBBuilder_;
       /**
-       * <code>optional .dstore.values.IntegerValue binary_quota_in_k_b = 6;</code>
+       * <code>.dstore.values.IntegerValue binary_quota_in_k_b = 6;</code>
        */
       public boolean hasBinaryQuotaInKB() {
         return binaryQuotaInKBBuilder_ != null || binaryQuotaInKB_ != null;
       }
       /**
-       * <code>optional .dstore.values.IntegerValue binary_quota_in_k_b = 6;</code>
+       * <code>.dstore.values.IntegerValue binary_quota_in_k_b = 6;</code>
        */
       public io.dstore.values.IntegerValue getBinaryQuotaInKB() {
         if (binaryQuotaInKBBuilder_ == null) {
@@ -1987,7 +1987,7 @@ public final class CoModifyBinaryCategoriesAd {
         }
       }
       /**
-       * <code>optional .dstore.values.IntegerValue binary_quota_in_k_b = 6;</code>
+       * <code>.dstore.values.IntegerValue binary_quota_in_k_b = 6;</code>
        */
       public Builder setBinaryQuotaInKB(io.dstore.values.IntegerValue value) {
         if (binaryQuotaInKBBuilder_ == null) {
@@ -2003,7 +2003,7 @@ public final class CoModifyBinaryCategoriesAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.IntegerValue binary_quota_in_k_b = 6;</code>
+       * <code>.dstore.values.IntegerValue binary_quota_in_k_b = 6;</code>
        */
       public Builder setBinaryQuotaInKB(
           io.dstore.values.IntegerValue.Builder builderForValue) {
@@ -2017,7 +2017,7 @@ public final class CoModifyBinaryCategoriesAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.IntegerValue binary_quota_in_k_b = 6;</code>
+       * <code>.dstore.values.IntegerValue binary_quota_in_k_b = 6;</code>
        */
       public Builder mergeBinaryQuotaInKB(io.dstore.values.IntegerValue value) {
         if (binaryQuotaInKBBuilder_ == null) {
@@ -2035,7 +2035,7 @@ public final class CoModifyBinaryCategoriesAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.IntegerValue binary_quota_in_k_b = 6;</code>
+       * <code>.dstore.values.IntegerValue binary_quota_in_k_b = 6;</code>
        */
       public Builder clearBinaryQuotaInKB() {
         if (binaryQuotaInKBBuilder_ == null) {
@@ -2049,7 +2049,7 @@ public final class CoModifyBinaryCategoriesAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.IntegerValue binary_quota_in_k_b = 6;</code>
+       * <code>.dstore.values.IntegerValue binary_quota_in_k_b = 6;</code>
        */
       public io.dstore.values.IntegerValue.Builder getBinaryQuotaInKBBuilder() {
         
@@ -2057,7 +2057,7 @@ public final class CoModifyBinaryCategoriesAd {
         return getBinaryQuotaInKBFieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .dstore.values.IntegerValue binary_quota_in_k_b = 6;</code>
+       * <code>.dstore.values.IntegerValue binary_quota_in_k_b = 6;</code>
        */
       public io.dstore.values.IntegerValueOrBuilder getBinaryQuotaInKBOrBuilder() {
         if (binaryQuotaInKBBuilder_ != null) {
@@ -2068,7 +2068,7 @@ public final class CoModifyBinaryCategoriesAd {
         }
       }
       /**
-       * <code>optional .dstore.values.IntegerValue binary_quota_in_k_b = 6;</code>
+       * <code>.dstore.values.IntegerValue binary_quota_in_k_b = 6;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> 
@@ -2086,13 +2086,13 @@ public final class CoModifyBinaryCategoriesAd {
 
       private boolean binaryQuotaInKBNull_ ;
       /**
-       * <code>optional bool binary_quota_in_k_b_null = 1006;</code>
+       * <code>bool binary_quota_in_k_b_null = 1006;</code>
        */
       public boolean getBinaryQuotaInKBNull() {
         return binaryQuotaInKBNull_;
       }
       /**
-       * <code>optional bool binary_quota_in_k_b_null = 1006;</code>
+       * <code>bool binary_quota_in_k_b_null = 1006;</code>
        */
       public Builder setBinaryQuotaInKBNull(boolean value) {
         
@@ -2101,7 +2101,7 @@ public final class CoModifyBinaryCategoriesAd {
         return this;
       }
       /**
-       * <code>optional bool binary_quota_in_k_b_null = 1006;</code>
+       * <code>bool binary_quota_in_k_b_null = 1006;</code>
        */
       public Builder clearBinaryQuotaInKBNull() {
         
@@ -2114,13 +2114,13 @@ public final class CoModifyBinaryCategoriesAd {
       private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> maxNumberOfBinariesBuilder_;
       /**
-       * <code>optional .dstore.values.IntegerValue max_number_of_binaries = 7;</code>
+       * <code>.dstore.values.IntegerValue max_number_of_binaries = 7;</code>
        */
       public boolean hasMaxNumberOfBinaries() {
         return maxNumberOfBinariesBuilder_ != null || maxNumberOfBinaries_ != null;
       }
       /**
-       * <code>optional .dstore.values.IntegerValue max_number_of_binaries = 7;</code>
+       * <code>.dstore.values.IntegerValue max_number_of_binaries = 7;</code>
        */
       public io.dstore.values.IntegerValue getMaxNumberOfBinaries() {
         if (maxNumberOfBinariesBuilder_ == null) {
@@ -2130,7 +2130,7 @@ public final class CoModifyBinaryCategoriesAd {
         }
       }
       /**
-       * <code>optional .dstore.values.IntegerValue max_number_of_binaries = 7;</code>
+       * <code>.dstore.values.IntegerValue max_number_of_binaries = 7;</code>
        */
       public Builder setMaxNumberOfBinaries(io.dstore.values.IntegerValue value) {
         if (maxNumberOfBinariesBuilder_ == null) {
@@ -2146,7 +2146,7 @@ public final class CoModifyBinaryCategoriesAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.IntegerValue max_number_of_binaries = 7;</code>
+       * <code>.dstore.values.IntegerValue max_number_of_binaries = 7;</code>
        */
       public Builder setMaxNumberOfBinaries(
           io.dstore.values.IntegerValue.Builder builderForValue) {
@@ -2160,7 +2160,7 @@ public final class CoModifyBinaryCategoriesAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.IntegerValue max_number_of_binaries = 7;</code>
+       * <code>.dstore.values.IntegerValue max_number_of_binaries = 7;</code>
        */
       public Builder mergeMaxNumberOfBinaries(io.dstore.values.IntegerValue value) {
         if (maxNumberOfBinariesBuilder_ == null) {
@@ -2178,7 +2178,7 @@ public final class CoModifyBinaryCategoriesAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.IntegerValue max_number_of_binaries = 7;</code>
+       * <code>.dstore.values.IntegerValue max_number_of_binaries = 7;</code>
        */
       public Builder clearMaxNumberOfBinaries() {
         if (maxNumberOfBinariesBuilder_ == null) {
@@ -2192,7 +2192,7 @@ public final class CoModifyBinaryCategoriesAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.IntegerValue max_number_of_binaries = 7;</code>
+       * <code>.dstore.values.IntegerValue max_number_of_binaries = 7;</code>
        */
       public io.dstore.values.IntegerValue.Builder getMaxNumberOfBinariesBuilder() {
         
@@ -2200,7 +2200,7 @@ public final class CoModifyBinaryCategoriesAd {
         return getMaxNumberOfBinariesFieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .dstore.values.IntegerValue max_number_of_binaries = 7;</code>
+       * <code>.dstore.values.IntegerValue max_number_of_binaries = 7;</code>
        */
       public io.dstore.values.IntegerValueOrBuilder getMaxNumberOfBinariesOrBuilder() {
         if (maxNumberOfBinariesBuilder_ != null) {
@@ -2211,7 +2211,7 @@ public final class CoModifyBinaryCategoriesAd {
         }
       }
       /**
-       * <code>optional .dstore.values.IntegerValue max_number_of_binaries = 7;</code>
+       * <code>.dstore.values.IntegerValue max_number_of_binaries = 7;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> 
@@ -2229,13 +2229,13 @@ public final class CoModifyBinaryCategoriesAd {
 
       private boolean maxNumberOfBinariesNull_ ;
       /**
-       * <code>optional bool max_number_of_binaries_null = 1007;</code>
+       * <code>bool max_number_of_binaries_null = 1007;</code>
        */
       public boolean getMaxNumberOfBinariesNull() {
         return maxNumberOfBinariesNull_;
       }
       /**
-       * <code>optional bool max_number_of_binaries_null = 1007;</code>
+       * <code>bool max_number_of_binaries_null = 1007;</code>
        */
       public Builder setMaxNumberOfBinariesNull(boolean value) {
         
@@ -2244,7 +2244,7 @@ public final class CoModifyBinaryCategoriesAd {
         return this;
       }
       /**
-       * <code>optional bool max_number_of_binaries_null = 1007;</code>
+       * <code>bool max_number_of_binaries_null = 1007;</code>
        */
       public Builder clearMaxNumberOfBinariesNull() {
         
@@ -2257,13 +2257,13 @@ public final class CoModifyBinaryCategoriesAd {
       private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.values.BooleanValue, io.dstore.values.BooleanValue.Builder, io.dstore.values.BooleanValueOrBuilder> deleteBinaryCategoryBuilder_;
       /**
-       * <code>optional .dstore.values.BooleanValue delete_binary_category = 8;</code>
+       * <code>.dstore.values.BooleanValue delete_binary_category = 8;</code>
        */
       public boolean hasDeleteBinaryCategory() {
         return deleteBinaryCategoryBuilder_ != null || deleteBinaryCategory_ != null;
       }
       /**
-       * <code>optional .dstore.values.BooleanValue delete_binary_category = 8;</code>
+       * <code>.dstore.values.BooleanValue delete_binary_category = 8;</code>
        */
       public io.dstore.values.BooleanValue getDeleteBinaryCategory() {
         if (deleteBinaryCategoryBuilder_ == null) {
@@ -2273,7 +2273,7 @@ public final class CoModifyBinaryCategoriesAd {
         }
       }
       /**
-       * <code>optional .dstore.values.BooleanValue delete_binary_category = 8;</code>
+       * <code>.dstore.values.BooleanValue delete_binary_category = 8;</code>
        */
       public Builder setDeleteBinaryCategory(io.dstore.values.BooleanValue value) {
         if (deleteBinaryCategoryBuilder_ == null) {
@@ -2289,7 +2289,7 @@ public final class CoModifyBinaryCategoriesAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.BooleanValue delete_binary_category = 8;</code>
+       * <code>.dstore.values.BooleanValue delete_binary_category = 8;</code>
        */
       public Builder setDeleteBinaryCategory(
           io.dstore.values.BooleanValue.Builder builderForValue) {
@@ -2303,7 +2303,7 @@ public final class CoModifyBinaryCategoriesAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.BooleanValue delete_binary_category = 8;</code>
+       * <code>.dstore.values.BooleanValue delete_binary_category = 8;</code>
        */
       public Builder mergeDeleteBinaryCategory(io.dstore.values.BooleanValue value) {
         if (deleteBinaryCategoryBuilder_ == null) {
@@ -2321,7 +2321,7 @@ public final class CoModifyBinaryCategoriesAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.BooleanValue delete_binary_category = 8;</code>
+       * <code>.dstore.values.BooleanValue delete_binary_category = 8;</code>
        */
       public Builder clearDeleteBinaryCategory() {
         if (deleteBinaryCategoryBuilder_ == null) {
@@ -2335,7 +2335,7 @@ public final class CoModifyBinaryCategoriesAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.BooleanValue delete_binary_category = 8;</code>
+       * <code>.dstore.values.BooleanValue delete_binary_category = 8;</code>
        */
       public io.dstore.values.BooleanValue.Builder getDeleteBinaryCategoryBuilder() {
         
@@ -2343,7 +2343,7 @@ public final class CoModifyBinaryCategoriesAd {
         return getDeleteBinaryCategoryFieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .dstore.values.BooleanValue delete_binary_category = 8;</code>
+       * <code>.dstore.values.BooleanValue delete_binary_category = 8;</code>
        */
       public io.dstore.values.BooleanValueOrBuilder getDeleteBinaryCategoryOrBuilder() {
         if (deleteBinaryCategoryBuilder_ != null) {
@@ -2354,7 +2354,7 @@ public final class CoModifyBinaryCategoriesAd {
         }
       }
       /**
-       * <code>optional .dstore.values.BooleanValue delete_binary_category = 8;</code>
+       * <code>.dstore.values.BooleanValue delete_binary_category = 8;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.values.BooleanValue, io.dstore.values.BooleanValue.Builder, io.dstore.values.BooleanValueOrBuilder> 
@@ -2372,13 +2372,13 @@ public final class CoModifyBinaryCategoriesAd {
 
       private boolean deleteBinaryCategoryNull_ ;
       /**
-       * <code>optional bool delete_binary_category_null = 1008;</code>
+       * <code>bool delete_binary_category_null = 1008;</code>
        */
       public boolean getDeleteBinaryCategoryNull() {
         return deleteBinaryCategoryNull_;
       }
       /**
-       * <code>optional bool delete_binary_category_null = 1008;</code>
+       * <code>bool delete_binary_category_null = 1008;</code>
        */
       public Builder setDeleteBinaryCategoryNull(boolean value) {
         
@@ -2387,7 +2387,7 @@ public final class CoModifyBinaryCategoriesAd {
         return this;
       }
       /**
-       * <code>optional bool delete_binary_category_null = 1008;</code>
+       * <code>bool delete_binary_category_null = 1008;</code>
        */
       public Builder clearDeleteBinaryCategoryNull() {
         
@@ -2646,7 +2646,7 @@ public final class CoModifyBinaryCategoriesAd {
         com.google.protobuf.MessageOrBuilder {
 
       /**
-       * <code>optional int32 row_id = 10000;</code>
+       * <code>int32 row_id = 10000;</code>
        */
       int getRowId();
     }
@@ -2721,7 +2721,7 @@ public final class CoModifyBinaryCategoriesAd {
       public static final int ROW_ID_FIELD_NUMBER = 10000;
       private int rowId_;
       /**
-       * <code>optional int32 row_id = 10000;</code>
+       * <code>int32 row_id = 10000;</code>
        */
       public int getRowId() {
         return rowId_;
@@ -2780,7 +2780,7 @@ public final class CoModifyBinaryCategoriesAd {
           return memoizedHashCode;
         }
         int hash = 41;
-        hash = (19 * hash) + getDescriptorForType().hashCode();
+        hash = (19 * hash) + getDescriptor().hashCode();
         hash = (37 * hash) + ROW_ID_FIELD_NUMBER;
         hash = (53 * hash) + getRowId();
         hash = (29 * hash) + unknownFields.hashCode();
@@ -2998,13 +2998,13 @@ public final class CoModifyBinaryCategoriesAd {
 
         private int rowId_ ;
         /**
-         * <code>optional int32 row_id = 10000;</code>
+         * <code>int32 row_id = 10000;</code>
          */
         public int getRowId() {
           return rowId_;
         }
         /**
-         * <code>optional int32 row_id = 10000;</code>
+         * <code>int32 row_id = 10000;</code>
          */
         public Builder setRowId(int value) {
           
@@ -3013,7 +3013,7 @@ public final class CoModifyBinaryCategoriesAd {
           return this;
         }
         /**
-         * <code>optional int32 row_id = 10000;</code>
+         * <code>int32 row_id = 10000;</code>
          */
         public Builder clearRowId() {
           
@@ -3266,7 +3266,7 @@ public final class CoModifyBinaryCategoriesAd {
         return memoizedHashCode;
       }
       int hash = 41;
-      hash = (19 * hash) + getDescriptorForType().hashCode();
+      hash = (19 * hash) + getDescriptor().hashCode();
       if (getMetaInformationCount() > 0) {
         hash = (37 * hash) + META_INFORMATION_FIELD_NUMBER;
         hash = (53 * hash) + getMetaInformationList().hashCode();

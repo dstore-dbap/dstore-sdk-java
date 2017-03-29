@@ -19,56 +19,56 @@ public final class OmValidateVoucherCodePu {
       com.google.protobuf.MessageOrBuilder {
 
     /**
-     * <code>optional .dstore.values.StringValue unique_id = 1;</code>
+     * <code>.dstore.values.StringValue unique_id = 1;</code>
      */
     boolean hasUniqueId();
     /**
-     * <code>optional .dstore.values.StringValue unique_id = 1;</code>
+     * <code>.dstore.values.StringValue unique_id = 1;</code>
      */
     io.dstore.values.StringValue getUniqueId();
     /**
-     * <code>optional .dstore.values.StringValue unique_id = 1;</code>
+     * <code>.dstore.values.StringValue unique_id = 1;</code>
      */
     io.dstore.values.StringValueOrBuilder getUniqueIdOrBuilder();
 
     /**
-     * <code>optional bool unique_id_null = 1001;</code>
+     * <code>bool unique_id_null = 1001;</code>
      */
     boolean getUniqueIdNull();
 
     /**
-     * <code>optional .dstore.values.StringValue voucher_code = 2;</code>
+     * <code>.dstore.values.StringValue voucher_code = 2;</code>
      */
     boolean hasVoucherCode();
     /**
-     * <code>optional .dstore.values.StringValue voucher_code = 2;</code>
+     * <code>.dstore.values.StringValue voucher_code = 2;</code>
      */
     io.dstore.values.StringValue getVoucherCode();
     /**
-     * <code>optional .dstore.values.StringValue voucher_code = 2;</code>
+     * <code>.dstore.values.StringValue voucher_code = 2;</code>
      */
     io.dstore.values.StringValueOrBuilder getVoucherCodeOrBuilder();
 
     /**
-     * <code>optional bool voucher_code_null = 1002;</code>
+     * <code>bool voucher_code_null = 1002;</code>
      */
     boolean getVoucherCodeNull();
 
     /**
-     * <code>optional .dstore.values.IntegerValue person_id = 3;</code>
+     * <code>.dstore.values.IntegerValue person_id = 3;</code>
      */
     boolean hasPersonId();
     /**
-     * <code>optional .dstore.values.IntegerValue person_id = 3;</code>
+     * <code>.dstore.values.IntegerValue person_id = 3;</code>
      */
     io.dstore.values.IntegerValue getPersonId();
     /**
-     * <code>optional .dstore.values.IntegerValue person_id = 3;</code>
+     * <code>.dstore.values.IntegerValue person_id = 3;</code>
      */
     io.dstore.values.IntegerValueOrBuilder getPersonIdOrBuilder();
 
     /**
-     * <code>optional bool person_id_null = 1003;</code>
+     * <code>bool person_id_null = 1003;</code>
      */
     boolean getPersonIdNull();
   }
@@ -194,19 +194,19 @@ public final class OmValidateVoucherCodePu {
     public static final int UNIQUE_ID_FIELD_NUMBER = 1;
     private io.dstore.values.StringValue uniqueId_;
     /**
-     * <code>optional .dstore.values.StringValue unique_id = 1;</code>
+     * <code>.dstore.values.StringValue unique_id = 1;</code>
      */
     public boolean hasUniqueId() {
       return uniqueId_ != null;
     }
     /**
-     * <code>optional .dstore.values.StringValue unique_id = 1;</code>
+     * <code>.dstore.values.StringValue unique_id = 1;</code>
      */
     public io.dstore.values.StringValue getUniqueId() {
       return uniqueId_ == null ? io.dstore.values.StringValue.getDefaultInstance() : uniqueId_;
     }
     /**
-     * <code>optional .dstore.values.StringValue unique_id = 1;</code>
+     * <code>.dstore.values.StringValue unique_id = 1;</code>
      */
     public io.dstore.values.StringValueOrBuilder getUniqueIdOrBuilder() {
       return getUniqueId();
@@ -215,7 +215,7 @@ public final class OmValidateVoucherCodePu {
     public static final int UNIQUE_ID_NULL_FIELD_NUMBER = 1001;
     private boolean uniqueIdNull_;
     /**
-     * <code>optional bool unique_id_null = 1001;</code>
+     * <code>bool unique_id_null = 1001;</code>
      */
     public boolean getUniqueIdNull() {
       return uniqueIdNull_;
@@ -224,19 +224,19 @@ public final class OmValidateVoucherCodePu {
     public static final int VOUCHER_CODE_FIELD_NUMBER = 2;
     private io.dstore.values.StringValue voucherCode_;
     /**
-     * <code>optional .dstore.values.StringValue voucher_code = 2;</code>
+     * <code>.dstore.values.StringValue voucher_code = 2;</code>
      */
     public boolean hasVoucherCode() {
       return voucherCode_ != null;
     }
     /**
-     * <code>optional .dstore.values.StringValue voucher_code = 2;</code>
+     * <code>.dstore.values.StringValue voucher_code = 2;</code>
      */
     public io.dstore.values.StringValue getVoucherCode() {
       return voucherCode_ == null ? io.dstore.values.StringValue.getDefaultInstance() : voucherCode_;
     }
     /**
-     * <code>optional .dstore.values.StringValue voucher_code = 2;</code>
+     * <code>.dstore.values.StringValue voucher_code = 2;</code>
      */
     public io.dstore.values.StringValueOrBuilder getVoucherCodeOrBuilder() {
       return getVoucherCode();
@@ -245,7 +245,7 @@ public final class OmValidateVoucherCodePu {
     public static final int VOUCHER_CODE_NULL_FIELD_NUMBER = 1002;
     private boolean voucherCodeNull_;
     /**
-     * <code>optional bool voucher_code_null = 1002;</code>
+     * <code>bool voucher_code_null = 1002;</code>
      */
     public boolean getVoucherCodeNull() {
       return voucherCodeNull_;
@@ -254,19 +254,19 @@ public final class OmValidateVoucherCodePu {
     public static final int PERSON_ID_FIELD_NUMBER = 3;
     private io.dstore.values.IntegerValue personId_;
     /**
-     * <code>optional .dstore.values.IntegerValue person_id = 3;</code>
+     * <code>.dstore.values.IntegerValue person_id = 3;</code>
      */
     public boolean hasPersonId() {
       return personId_ != null;
     }
     /**
-     * <code>optional .dstore.values.IntegerValue person_id = 3;</code>
+     * <code>.dstore.values.IntegerValue person_id = 3;</code>
      */
     public io.dstore.values.IntegerValue getPersonId() {
       return personId_ == null ? io.dstore.values.IntegerValue.getDefaultInstance() : personId_;
     }
     /**
-     * <code>optional .dstore.values.IntegerValue person_id = 3;</code>
+     * <code>.dstore.values.IntegerValue person_id = 3;</code>
      */
     public io.dstore.values.IntegerValueOrBuilder getPersonIdOrBuilder() {
       return getPersonId();
@@ -275,7 +275,7 @@ public final class OmValidateVoucherCodePu {
     public static final int PERSON_ID_NULL_FIELD_NUMBER = 1003;
     private boolean personIdNull_;
     /**
-     * <code>optional bool person_id_null = 1003;</code>
+     * <code>bool person_id_null = 1003;</code>
      */
     public boolean getPersonIdNull() {
       return personIdNull_;
@@ -388,7 +388,7 @@ public final class OmValidateVoucherCodePu {
         return memoizedHashCode;
       }
       int hash = 41;
-      hash = (19 * hash) + getDescriptorForType().hashCode();
+      hash = (19 * hash) + getDescriptor().hashCode();
       if (hasUniqueId()) {
         hash = (37 * hash) + UNIQUE_ID_FIELD_NUMBER;
         hash = (53 * hash) + getUniqueId().hashCode();
@@ -681,13 +681,13 @@ public final class OmValidateVoucherCodePu {
       private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.values.StringValue, io.dstore.values.StringValue.Builder, io.dstore.values.StringValueOrBuilder> uniqueIdBuilder_;
       /**
-       * <code>optional .dstore.values.StringValue unique_id = 1;</code>
+       * <code>.dstore.values.StringValue unique_id = 1;</code>
        */
       public boolean hasUniqueId() {
         return uniqueIdBuilder_ != null || uniqueId_ != null;
       }
       /**
-       * <code>optional .dstore.values.StringValue unique_id = 1;</code>
+       * <code>.dstore.values.StringValue unique_id = 1;</code>
        */
       public io.dstore.values.StringValue getUniqueId() {
         if (uniqueIdBuilder_ == null) {
@@ -697,7 +697,7 @@ public final class OmValidateVoucherCodePu {
         }
       }
       /**
-       * <code>optional .dstore.values.StringValue unique_id = 1;</code>
+       * <code>.dstore.values.StringValue unique_id = 1;</code>
        */
       public Builder setUniqueId(io.dstore.values.StringValue value) {
         if (uniqueIdBuilder_ == null) {
@@ -713,7 +713,7 @@ public final class OmValidateVoucherCodePu {
         return this;
       }
       /**
-       * <code>optional .dstore.values.StringValue unique_id = 1;</code>
+       * <code>.dstore.values.StringValue unique_id = 1;</code>
        */
       public Builder setUniqueId(
           io.dstore.values.StringValue.Builder builderForValue) {
@@ -727,7 +727,7 @@ public final class OmValidateVoucherCodePu {
         return this;
       }
       /**
-       * <code>optional .dstore.values.StringValue unique_id = 1;</code>
+       * <code>.dstore.values.StringValue unique_id = 1;</code>
        */
       public Builder mergeUniqueId(io.dstore.values.StringValue value) {
         if (uniqueIdBuilder_ == null) {
@@ -745,7 +745,7 @@ public final class OmValidateVoucherCodePu {
         return this;
       }
       /**
-       * <code>optional .dstore.values.StringValue unique_id = 1;</code>
+       * <code>.dstore.values.StringValue unique_id = 1;</code>
        */
       public Builder clearUniqueId() {
         if (uniqueIdBuilder_ == null) {
@@ -759,7 +759,7 @@ public final class OmValidateVoucherCodePu {
         return this;
       }
       /**
-       * <code>optional .dstore.values.StringValue unique_id = 1;</code>
+       * <code>.dstore.values.StringValue unique_id = 1;</code>
        */
       public io.dstore.values.StringValue.Builder getUniqueIdBuilder() {
         
@@ -767,7 +767,7 @@ public final class OmValidateVoucherCodePu {
         return getUniqueIdFieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .dstore.values.StringValue unique_id = 1;</code>
+       * <code>.dstore.values.StringValue unique_id = 1;</code>
        */
       public io.dstore.values.StringValueOrBuilder getUniqueIdOrBuilder() {
         if (uniqueIdBuilder_ != null) {
@@ -778,7 +778,7 @@ public final class OmValidateVoucherCodePu {
         }
       }
       /**
-       * <code>optional .dstore.values.StringValue unique_id = 1;</code>
+       * <code>.dstore.values.StringValue unique_id = 1;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.values.StringValue, io.dstore.values.StringValue.Builder, io.dstore.values.StringValueOrBuilder> 
@@ -796,13 +796,13 @@ public final class OmValidateVoucherCodePu {
 
       private boolean uniqueIdNull_ ;
       /**
-       * <code>optional bool unique_id_null = 1001;</code>
+       * <code>bool unique_id_null = 1001;</code>
        */
       public boolean getUniqueIdNull() {
         return uniqueIdNull_;
       }
       /**
-       * <code>optional bool unique_id_null = 1001;</code>
+       * <code>bool unique_id_null = 1001;</code>
        */
       public Builder setUniqueIdNull(boolean value) {
         
@@ -811,7 +811,7 @@ public final class OmValidateVoucherCodePu {
         return this;
       }
       /**
-       * <code>optional bool unique_id_null = 1001;</code>
+       * <code>bool unique_id_null = 1001;</code>
        */
       public Builder clearUniqueIdNull() {
         
@@ -824,13 +824,13 @@ public final class OmValidateVoucherCodePu {
       private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.values.StringValue, io.dstore.values.StringValue.Builder, io.dstore.values.StringValueOrBuilder> voucherCodeBuilder_;
       /**
-       * <code>optional .dstore.values.StringValue voucher_code = 2;</code>
+       * <code>.dstore.values.StringValue voucher_code = 2;</code>
        */
       public boolean hasVoucherCode() {
         return voucherCodeBuilder_ != null || voucherCode_ != null;
       }
       /**
-       * <code>optional .dstore.values.StringValue voucher_code = 2;</code>
+       * <code>.dstore.values.StringValue voucher_code = 2;</code>
        */
       public io.dstore.values.StringValue getVoucherCode() {
         if (voucherCodeBuilder_ == null) {
@@ -840,7 +840,7 @@ public final class OmValidateVoucherCodePu {
         }
       }
       /**
-       * <code>optional .dstore.values.StringValue voucher_code = 2;</code>
+       * <code>.dstore.values.StringValue voucher_code = 2;</code>
        */
       public Builder setVoucherCode(io.dstore.values.StringValue value) {
         if (voucherCodeBuilder_ == null) {
@@ -856,7 +856,7 @@ public final class OmValidateVoucherCodePu {
         return this;
       }
       /**
-       * <code>optional .dstore.values.StringValue voucher_code = 2;</code>
+       * <code>.dstore.values.StringValue voucher_code = 2;</code>
        */
       public Builder setVoucherCode(
           io.dstore.values.StringValue.Builder builderForValue) {
@@ -870,7 +870,7 @@ public final class OmValidateVoucherCodePu {
         return this;
       }
       /**
-       * <code>optional .dstore.values.StringValue voucher_code = 2;</code>
+       * <code>.dstore.values.StringValue voucher_code = 2;</code>
        */
       public Builder mergeVoucherCode(io.dstore.values.StringValue value) {
         if (voucherCodeBuilder_ == null) {
@@ -888,7 +888,7 @@ public final class OmValidateVoucherCodePu {
         return this;
       }
       /**
-       * <code>optional .dstore.values.StringValue voucher_code = 2;</code>
+       * <code>.dstore.values.StringValue voucher_code = 2;</code>
        */
       public Builder clearVoucherCode() {
         if (voucherCodeBuilder_ == null) {
@@ -902,7 +902,7 @@ public final class OmValidateVoucherCodePu {
         return this;
       }
       /**
-       * <code>optional .dstore.values.StringValue voucher_code = 2;</code>
+       * <code>.dstore.values.StringValue voucher_code = 2;</code>
        */
       public io.dstore.values.StringValue.Builder getVoucherCodeBuilder() {
         
@@ -910,7 +910,7 @@ public final class OmValidateVoucherCodePu {
         return getVoucherCodeFieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .dstore.values.StringValue voucher_code = 2;</code>
+       * <code>.dstore.values.StringValue voucher_code = 2;</code>
        */
       public io.dstore.values.StringValueOrBuilder getVoucherCodeOrBuilder() {
         if (voucherCodeBuilder_ != null) {
@@ -921,7 +921,7 @@ public final class OmValidateVoucherCodePu {
         }
       }
       /**
-       * <code>optional .dstore.values.StringValue voucher_code = 2;</code>
+       * <code>.dstore.values.StringValue voucher_code = 2;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.values.StringValue, io.dstore.values.StringValue.Builder, io.dstore.values.StringValueOrBuilder> 
@@ -939,13 +939,13 @@ public final class OmValidateVoucherCodePu {
 
       private boolean voucherCodeNull_ ;
       /**
-       * <code>optional bool voucher_code_null = 1002;</code>
+       * <code>bool voucher_code_null = 1002;</code>
        */
       public boolean getVoucherCodeNull() {
         return voucherCodeNull_;
       }
       /**
-       * <code>optional bool voucher_code_null = 1002;</code>
+       * <code>bool voucher_code_null = 1002;</code>
        */
       public Builder setVoucherCodeNull(boolean value) {
         
@@ -954,7 +954,7 @@ public final class OmValidateVoucherCodePu {
         return this;
       }
       /**
-       * <code>optional bool voucher_code_null = 1002;</code>
+       * <code>bool voucher_code_null = 1002;</code>
        */
       public Builder clearVoucherCodeNull() {
         
@@ -967,13 +967,13 @@ public final class OmValidateVoucherCodePu {
       private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> personIdBuilder_;
       /**
-       * <code>optional .dstore.values.IntegerValue person_id = 3;</code>
+       * <code>.dstore.values.IntegerValue person_id = 3;</code>
        */
       public boolean hasPersonId() {
         return personIdBuilder_ != null || personId_ != null;
       }
       /**
-       * <code>optional .dstore.values.IntegerValue person_id = 3;</code>
+       * <code>.dstore.values.IntegerValue person_id = 3;</code>
        */
       public io.dstore.values.IntegerValue getPersonId() {
         if (personIdBuilder_ == null) {
@@ -983,7 +983,7 @@ public final class OmValidateVoucherCodePu {
         }
       }
       /**
-       * <code>optional .dstore.values.IntegerValue person_id = 3;</code>
+       * <code>.dstore.values.IntegerValue person_id = 3;</code>
        */
       public Builder setPersonId(io.dstore.values.IntegerValue value) {
         if (personIdBuilder_ == null) {
@@ -999,7 +999,7 @@ public final class OmValidateVoucherCodePu {
         return this;
       }
       /**
-       * <code>optional .dstore.values.IntegerValue person_id = 3;</code>
+       * <code>.dstore.values.IntegerValue person_id = 3;</code>
        */
       public Builder setPersonId(
           io.dstore.values.IntegerValue.Builder builderForValue) {
@@ -1013,7 +1013,7 @@ public final class OmValidateVoucherCodePu {
         return this;
       }
       /**
-       * <code>optional .dstore.values.IntegerValue person_id = 3;</code>
+       * <code>.dstore.values.IntegerValue person_id = 3;</code>
        */
       public Builder mergePersonId(io.dstore.values.IntegerValue value) {
         if (personIdBuilder_ == null) {
@@ -1031,7 +1031,7 @@ public final class OmValidateVoucherCodePu {
         return this;
       }
       /**
-       * <code>optional .dstore.values.IntegerValue person_id = 3;</code>
+       * <code>.dstore.values.IntegerValue person_id = 3;</code>
        */
       public Builder clearPersonId() {
         if (personIdBuilder_ == null) {
@@ -1045,7 +1045,7 @@ public final class OmValidateVoucherCodePu {
         return this;
       }
       /**
-       * <code>optional .dstore.values.IntegerValue person_id = 3;</code>
+       * <code>.dstore.values.IntegerValue person_id = 3;</code>
        */
       public io.dstore.values.IntegerValue.Builder getPersonIdBuilder() {
         
@@ -1053,7 +1053,7 @@ public final class OmValidateVoucherCodePu {
         return getPersonIdFieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .dstore.values.IntegerValue person_id = 3;</code>
+       * <code>.dstore.values.IntegerValue person_id = 3;</code>
        */
       public io.dstore.values.IntegerValueOrBuilder getPersonIdOrBuilder() {
         if (personIdBuilder_ != null) {
@@ -1064,7 +1064,7 @@ public final class OmValidateVoucherCodePu {
         }
       }
       /**
-       * <code>optional .dstore.values.IntegerValue person_id = 3;</code>
+       * <code>.dstore.values.IntegerValue person_id = 3;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> 
@@ -1082,13 +1082,13 @@ public final class OmValidateVoucherCodePu {
 
       private boolean personIdNull_ ;
       /**
-       * <code>optional bool person_id_null = 1003;</code>
+       * <code>bool person_id_null = 1003;</code>
        */
       public boolean getPersonIdNull() {
         return personIdNull_;
       }
       /**
-       * <code>optional bool person_id_null = 1003;</code>
+       * <code>bool person_id_null = 1003;</code>
        */
       public Builder setPersonIdNull(boolean value) {
         
@@ -1097,7 +1097,7 @@ public final class OmValidateVoucherCodePu {
         return this;
       }
       /**
-       * <code>optional bool person_id_null = 1003;</code>
+       * <code>bool person_id_null = 1003;</code>
        */
       public Builder clearPersonIdNull() {
         
@@ -1356,7 +1356,7 @@ public final class OmValidateVoucherCodePu {
         com.google.protobuf.MessageOrBuilder {
 
       /**
-       * <code>optional int32 row_id = 10000;</code>
+       * <code>int32 row_id = 10000;</code>
        */
       int getRowId();
     }
@@ -1431,7 +1431,7 @@ public final class OmValidateVoucherCodePu {
       public static final int ROW_ID_FIELD_NUMBER = 10000;
       private int rowId_;
       /**
-       * <code>optional int32 row_id = 10000;</code>
+       * <code>int32 row_id = 10000;</code>
        */
       public int getRowId() {
         return rowId_;
@@ -1490,7 +1490,7 @@ public final class OmValidateVoucherCodePu {
           return memoizedHashCode;
         }
         int hash = 41;
-        hash = (19 * hash) + getDescriptorForType().hashCode();
+        hash = (19 * hash) + getDescriptor().hashCode();
         hash = (37 * hash) + ROW_ID_FIELD_NUMBER;
         hash = (53 * hash) + getRowId();
         hash = (29 * hash) + unknownFields.hashCode();
@@ -1708,13 +1708,13 @@ public final class OmValidateVoucherCodePu {
 
         private int rowId_ ;
         /**
-         * <code>optional int32 row_id = 10000;</code>
+         * <code>int32 row_id = 10000;</code>
          */
         public int getRowId() {
           return rowId_;
         }
         /**
-         * <code>optional int32 row_id = 10000;</code>
+         * <code>int32 row_id = 10000;</code>
          */
         public Builder setRowId(int value) {
           
@@ -1723,7 +1723,7 @@ public final class OmValidateVoucherCodePu {
           return this;
         }
         /**
-         * <code>optional int32 row_id = 10000;</code>
+         * <code>int32 row_id = 10000;</code>
          */
         public Builder clearRowId() {
           
@@ -1976,7 +1976,7 @@ public final class OmValidateVoucherCodePu {
         return memoizedHashCode;
       }
       int hash = 41;
-      hash = (19 * hash) + getDescriptorForType().hashCode();
+      hash = (19 * hash) + getDescriptor().hashCode();
       if (getMetaInformationCount() > 0) {
         hash = (37 * hash) + META_INFORMATION_FIELD_NUMBER;
         hash = (53 * hash) + getMetaInformationList().hashCode();

@@ -274,7 +274,7 @@ public  final class BoolQuery extends
   public static final int MINIMUM_SHOULD_MATCH_FIELD_NUMBER = 5;
   private volatile java.lang.Object minimumShouldMatch_;
   /**
-   * <code>optional string minimum_should_match = 5;</code>
+   * <code>string minimum_should_match = 5;</code>
    */
   public java.lang.String getMinimumShouldMatch() {
     java.lang.Object ref = minimumShouldMatch_;
@@ -289,7 +289,7 @@ public  final class BoolQuery extends
     }
   }
   /**
-   * <code>optional string minimum_should_match = 5;</code>
+   * <code>string minimum_should_match = 5;</code>
    */
   public com.google.protobuf.ByteString
       getMinimumShouldMatchBytes() {
@@ -308,7 +308,7 @@ public  final class BoolQuery extends
   public static final int BOOST_FIELD_NUMBER = 6;
   private double boost_;
   /**
-   * <code>optional double boost = 6;</code>
+   * <code>double boost = 6;</code>
    */
   public double getBoost() {
     return boost_;
@@ -413,7 +413,7 @@ public  final class BoolQuery extends
       return memoizedHashCode;
     }
     int hash = 41;
-    hash = (19 * hash) + getDescriptorForType().hashCode();
+    hash = (19 * hash) + getDescriptor().hashCode();
     if (getFilterCount() > 0) {
       hash = (37 * hash) + FILTER_FIELD_NUMBER;
       hash = (53 * hash) + getFilterList().hashCode();
@@ -1789,7 +1789,7 @@ public  final class BoolQuery extends
 
     private java.lang.Object minimumShouldMatch_ = "";
     /**
-     * <code>optional string minimum_should_match = 5;</code>
+     * <code>string minimum_should_match = 5;</code>
      */
     public java.lang.String getMinimumShouldMatch() {
       java.lang.Object ref = minimumShouldMatch_;
@@ -1804,7 +1804,7 @@ public  final class BoolQuery extends
       }
     }
     /**
-     * <code>optional string minimum_should_match = 5;</code>
+     * <code>string minimum_should_match = 5;</code>
      */
     public com.google.protobuf.ByteString
         getMinimumShouldMatchBytes() {
@@ -1820,7 +1820,7 @@ public  final class BoolQuery extends
       }
     }
     /**
-     * <code>optional string minimum_should_match = 5;</code>
+     * <code>string minimum_should_match = 5;</code>
      */
     public Builder setMinimumShouldMatch(
         java.lang.String value) {
@@ -1833,7 +1833,7 @@ public  final class BoolQuery extends
       return this;
     }
     /**
-     * <code>optional string minimum_should_match = 5;</code>
+     * <code>string minimum_should_match = 5;</code>
      */
     public Builder clearMinimumShouldMatch() {
       
@@ -1842,7 +1842,7 @@ public  final class BoolQuery extends
       return this;
     }
     /**
-     * <code>optional string minimum_should_match = 5;</code>
+     * <code>string minimum_should_match = 5;</code>
      */
     public Builder setMinimumShouldMatchBytes(
         com.google.protobuf.ByteString value) {
@@ -1858,13 +1858,13 @@ public  final class BoolQuery extends
 
     private double boost_ ;
     /**
-     * <code>optional double boost = 6;</code>
+     * <code>double boost = 6;</code>
      */
     public double getBoost() {
       return boost_;
     }
     /**
-     * <code>optional double boost = 6;</code>
+     * <code>double boost = 6;</code>
      */
     public Builder setBoost(double value) {
       
@@ -1873,7 +1873,7 @@ public  final class BoolQuery extends
       return this;
     }
     /**
-     * <code>optional double boost = 6;</code>
+     * <code>double boost = 6;</code>
      */
     public Builder clearBoost() {
       

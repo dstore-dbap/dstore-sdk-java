@@ -19,254 +19,254 @@ public final class StGetDSSIndexTrendAd {
       com.google.protobuf.MessageOrBuilder {
 
     /**
-     * <code>optional .dstore.values.IntegerValue domain_tree_node_id = 1;</code>
+     * <code>.dstore.values.IntegerValue domain_tree_node_id = 1;</code>
      */
     boolean hasDomainTreeNodeId();
     /**
-     * <code>optional .dstore.values.IntegerValue domain_tree_node_id = 1;</code>
+     * <code>.dstore.values.IntegerValue domain_tree_node_id = 1;</code>
      */
     io.dstore.values.IntegerValue getDomainTreeNodeId();
     /**
-     * <code>optional .dstore.values.IntegerValue domain_tree_node_id = 1;</code>
+     * <code>.dstore.values.IntegerValue domain_tree_node_id = 1;</code>
      */
     io.dstore.values.IntegerValueOrBuilder getDomainTreeNodeIdOrBuilder();
 
     /**
-     * <code>optional bool domain_tree_node_id_null = 1001;</code>
+     * <code>bool domain_tree_node_id_null = 1001;</code>
      */
     boolean getDomainTreeNodeIdNull();
 
     /**
-     * <code>optional .dstore.values.IntegerValue intervalls = 2;</code>
+     * <code>.dstore.values.IntegerValue intervalls = 2;</code>
      */
     boolean hasIntervalls();
     /**
-     * <code>optional .dstore.values.IntegerValue intervalls = 2;</code>
+     * <code>.dstore.values.IntegerValue intervalls = 2;</code>
      */
     io.dstore.values.IntegerValue getIntervalls();
     /**
-     * <code>optional .dstore.values.IntegerValue intervalls = 2;</code>
+     * <code>.dstore.values.IntegerValue intervalls = 2;</code>
      */
     io.dstore.values.IntegerValueOrBuilder getIntervallsOrBuilder();
 
     /**
-     * <code>optional bool intervalls_null = 1002;</code>
+     * <code>bool intervalls_null = 1002;</code>
      */
     boolean getIntervallsNull();
 
     /**
-     * <code>optional .dstore.values.IntegerValue minutes_per_intervall = 3;</code>
+     * <code>.dstore.values.IntegerValue minutes_per_intervall = 3;</code>
      */
     boolean hasMinutesPerIntervall();
     /**
-     * <code>optional .dstore.values.IntegerValue minutes_per_intervall = 3;</code>
+     * <code>.dstore.values.IntegerValue minutes_per_intervall = 3;</code>
      */
     io.dstore.values.IntegerValue getMinutesPerIntervall();
     /**
-     * <code>optional .dstore.values.IntegerValue minutes_per_intervall = 3;</code>
+     * <code>.dstore.values.IntegerValue minutes_per_intervall = 3;</code>
      */
     io.dstore.values.IntegerValueOrBuilder getMinutesPerIntervallOrBuilder();
 
     /**
-     * <code>optional bool minutes_per_intervall_null = 1003;</code>
+     * <code>bool minutes_per_intervall_null = 1003;</code>
      */
     boolean getMinutesPerIntervallNull();
 
     /**
-     * <code>optional .dstore.values.IntegerValue group_by_nodes_on_level = 4;</code>
+     * <code>.dstore.values.IntegerValue group_by_nodes_on_level = 4;</code>
      */
     boolean hasGroupByNodesOnLevel();
     /**
-     * <code>optional .dstore.values.IntegerValue group_by_nodes_on_level = 4;</code>
+     * <code>.dstore.values.IntegerValue group_by_nodes_on_level = 4;</code>
      */
     io.dstore.values.IntegerValue getGroupByNodesOnLevel();
     /**
-     * <code>optional .dstore.values.IntegerValue group_by_nodes_on_level = 4;</code>
+     * <code>.dstore.values.IntegerValue group_by_nodes_on_level = 4;</code>
      */
     io.dstore.values.IntegerValueOrBuilder getGroupByNodesOnLevelOrBuilder();
 
     /**
-     * <code>optional bool group_by_nodes_on_level_null = 1004;</code>
+     * <code>bool group_by_nodes_on_level_null = 1004;</code>
      */
     boolean getGroupByNodesOnLevelNull();
 
     /**
-     * <code>optional .dstore.values.BooleanValue is_level_id = 5;</code>
+     * <code>.dstore.values.BooleanValue is_level_id = 5;</code>
      */
     boolean hasIsLevelId();
     /**
-     * <code>optional .dstore.values.BooleanValue is_level_id = 5;</code>
+     * <code>.dstore.values.BooleanValue is_level_id = 5;</code>
      */
     io.dstore.values.BooleanValue getIsLevelId();
     /**
-     * <code>optional .dstore.values.BooleanValue is_level_id = 5;</code>
+     * <code>.dstore.values.BooleanValue is_level_id = 5;</code>
      */
     io.dstore.values.BooleanValueOrBuilder getIsLevelIdOrBuilder();
 
     /**
-     * <code>optional bool is_level_id_null = 1005;</code>
+     * <code>bool is_level_id_null = 1005;</code>
      */
     boolean getIsLevelIdNull();
 
     /**
-     * <code>optional .dstore.values.IntegerValue group_by_node_characteristic_id = 6;</code>
+     * <code>.dstore.values.IntegerValue group_by_node_characteristic_id = 6;</code>
      */
     boolean hasGroupByNodeCharacteristicId();
     /**
-     * <code>optional .dstore.values.IntegerValue group_by_node_characteristic_id = 6;</code>
+     * <code>.dstore.values.IntegerValue group_by_node_characteristic_id = 6;</code>
      */
     io.dstore.values.IntegerValue getGroupByNodeCharacteristicId();
     /**
-     * <code>optional .dstore.values.IntegerValue group_by_node_characteristic_id = 6;</code>
+     * <code>.dstore.values.IntegerValue group_by_node_characteristic_id = 6;</code>
      */
     io.dstore.values.IntegerValueOrBuilder getGroupByNodeCharacteristicIdOrBuilder();
 
     /**
-     * <code>optional bool group_by_node_characteristic_id_null = 1006;</code>
+     * <code>bool group_by_node_characteristic_id_null = 1006;</code>
      */
     boolean getGroupByNodeCharacteristicIdNull();
 
     /**
-     * <code>optional .dstore.values.BooleanValue only_values_in_one_id = 7;</code>
+     * <code>.dstore.values.BooleanValue only_values_in_one_id = 7;</code>
      */
     boolean hasOnlyValuesInOneId();
     /**
-     * <code>optional .dstore.values.BooleanValue only_values_in_one_id = 7;</code>
+     * <code>.dstore.values.BooleanValue only_values_in_one_id = 7;</code>
      */
     io.dstore.values.BooleanValue getOnlyValuesInOneId();
     /**
-     * <code>optional .dstore.values.BooleanValue only_values_in_one_id = 7;</code>
+     * <code>.dstore.values.BooleanValue only_values_in_one_id = 7;</code>
      */
     io.dstore.values.BooleanValueOrBuilder getOnlyValuesInOneIdOrBuilder();
 
     /**
-     * <code>optional bool only_values_in_one_id_null = 1007;</code>
+     * <code>bool only_values_in_one_id_null = 1007;</code>
      */
     boolean getOnlyValuesInOneIdNull();
 
     /**
-     * <code>optional .dstore.values.BooleanValue ids_in_one_id_are_tree_node_ids = 8;</code>
+     * <code>.dstore.values.BooleanValue ids_in_one_id_are_tree_node_ids = 8;</code>
      */
     boolean hasIdsInOneIdAreTreeNodeIds();
     /**
-     * <code>optional .dstore.values.BooleanValue ids_in_one_id_are_tree_node_ids = 8;</code>
+     * <code>.dstore.values.BooleanValue ids_in_one_id_are_tree_node_ids = 8;</code>
      */
     io.dstore.values.BooleanValue getIdsInOneIdAreTreeNodeIds();
     /**
-     * <code>optional .dstore.values.BooleanValue ids_in_one_id_are_tree_node_ids = 8;</code>
+     * <code>.dstore.values.BooleanValue ids_in_one_id_are_tree_node_ids = 8;</code>
      */
     io.dstore.values.BooleanValueOrBuilder getIdsInOneIdAreTreeNodeIdsOrBuilder();
 
     /**
-     * <code>optional bool ids_in_one_id_are_tree_node_ids_null = 1008;</code>
+     * <code>bool ids_in_one_id_are_tree_node_ids_null = 1008;</code>
      */
     boolean getIdsInOneIdAreTreeNodeIdsNull();
 
     /**
-     * <code>optional .dstore.values.DecimalValue weight_views = 9;</code>
+     * <code>.dstore.values.DecimalValue weight_views = 9;</code>
      */
     boolean hasWeightViews();
     /**
-     * <code>optional .dstore.values.DecimalValue weight_views = 9;</code>
+     * <code>.dstore.values.DecimalValue weight_views = 9;</code>
      */
     io.dstore.values.DecimalValue getWeightViews();
     /**
-     * <code>optional .dstore.values.DecimalValue weight_views = 9;</code>
+     * <code>.dstore.values.DecimalValue weight_views = 9;</code>
      */
     io.dstore.values.DecimalValueOrBuilder getWeightViewsOrBuilder();
 
     /**
-     * <code>optional bool weight_views_null = 1009;</code>
+     * <code>bool weight_views_null = 1009;</code>
      */
     boolean getWeightViewsNull();
 
     /**
-     * <code>optional .dstore.values.DecimalValue weight_buying_interest = 10;</code>
+     * <code>.dstore.values.DecimalValue weight_buying_interest = 10;</code>
      */
     boolean hasWeightBuyingInterest();
     /**
-     * <code>optional .dstore.values.DecimalValue weight_buying_interest = 10;</code>
+     * <code>.dstore.values.DecimalValue weight_buying_interest = 10;</code>
      */
     io.dstore.values.DecimalValue getWeightBuyingInterest();
     /**
-     * <code>optional .dstore.values.DecimalValue weight_buying_interest = 10;</code>
+     * <code>.dstore.values.DecimalValue weight_buying_interest = 10;</code>
      */
     io.dstore.values.DecimalValueOrBuilder getWeightBuyingInterestOrBuilder();
 
     /**
-     * <code>optional bool weight_buying_interest_null = 1010;</code>
+     * <code>bool weight_buying_interest_null = 1010;</code>
      */
     boolean getWeightBuyingInterestNull();
 
     /**
-     * <code>optional .dstore.values.DecimalValue weight_order = 11;</code>
+     * <code>.dstore.values.DecimalValue weight_order = 11;</code>
      */
     boolean hasWeightOrder();
     /**
-     * <code>optional .dstore.values.DecimalValue weight_order = 11;</code>
+     * <code>.dstore.values.DecimalValue weight_order = 11;</code>
      */
     io.dstore.values.DecimalValue getWeightOrder();
     /**
-     * <code>optional .dstore.values.DecimalValue weight_order = 11;</code>
+     * <code>.dstore.values.DecimalValue weight_order = 11;</code>
      */
     io.dstore.values.DecimalValueOrBuilder getWeightOrderOrBuilder();
 
     /**
-     * <code>optional bool weight_order_null = 1011;</code>
+     * <code>bool weight_order_null = 1011;</code>
      */
     boolean getWeightOrderNull();
 
     /**
-     * <code>optional .dstore.values.BooleanValue include_deactivated_nodes = 12;</code>
+     * <code>.dstore.values.BooleanValue include_deactivated_nodes = 12;</code>
      */
     boolean hasIncludeDeactivatedNodes();
     /**
-     * <code>optional .dstore.values.BooleanValue include_deactivated_nodes = 12;</code>
+     * <code>.dstore.values.BooleanValue include_deactivated_nodes = 12;</code>
      */
     io.dstore.values.BooleanValue getIncludeDeactivatedNodes();
     /**
-     * <code>optional .dstore.values.BooleanValue include_deactivated_nodes = 12;</code>
+     * <code>.dstore.values.BooleanValue include_deactivated_nodes = 12;</code>
      */
     io.dstore.values.BooleanValueOrBuilder getIncludeDeactivatedNodesOrBuilder();
 
     /**
-     * <code>optional bool include_deactivated_nodes_null = 1012;</code>
+     * <code>bool include_deactivated_nodes_null = 1012;</code>
      */
     boolean getIncludeDeactivatedNodesNull();
 
     /**
-     * <code>optional .dstore.values.BooleanValue include_nodes_without_tree_node_id = 13;</code>
+     * <code>.dstore.values.BooleanValue include_nodes_without_tree_node_id = 13;</code>
      */
     boolean hasIncludeNodesWithoutTreeNodeId();
     /**
-     * <code>optional .dstore.values.BooleanValue include_nodes_without_tree_node_id = 13;</code>
+     * <code>.dstore.values.BooleanValue include_nodes_without_tree_node_id = 13;</code>
      */
     io.dstore.values.BooleanValue getIncludeNodesWithoutTreeNodeId();
     /**
-     * <code>optional .dstore.values.BooleanValue include_nodes_without_tree_node_id = 13;</code>
+     * <code>.dstore.values.BooleanValue include_nodes_without_tree_node_id = 13;</code>
      */
     io.dstore.values.BooleanValueOrBuilder getIncludeNodesWithoutTreeNodeIdOrBuilder();
 
     /**
-     * <code>optional bool include_nodes_without_tree_node_id_null = 1013;</code>
+     * <code>bool include_nodes_without_tree_node_id_null = 1013;</code>
      */
     boolean getIncludeNodesWithoutTreeNodeIdNull();
 
     /**
-     * <code>optional .dstore.values.IntegerValue order_result_by_intervall = 14;</code>
+     * <code>.dstore.values.IntegerValue order_result_by_intervall = 14;</code>
      */
     boolean hasOrderResultByIntervall();
     /**
-     * <code>optional .dstore.values.IntegerValue order_result_by_intervall = 14;</code>
+     * <code>.dstore.values.IntegerValue order_result_by_intervall = 14;</code>
      */
     io.dstore.values.IntegerValue getOrderResultByIntervall();
     /**
-     * <code>optional .dstore.values.IntegerValue order_result_by_intervall = 14;</code>
+     * <code>.dstore.values.IntegerValue order_result_by_intervall = 14;</code>
      */
     io.dstore.values.IntegerValueOrBuilder getOrderResultByIntervallOrBuilder();
 
     /**
-     * <code>optional bool order_result_by_intervall_null = 1014;</code>
+     * <code>bool order_result_by_intervall_null = 1014;</code>
      */
     boolean getOrderResultByIntervallNull();
   }
@@ -601,19 +601,19 @@ public final class StGetDSSIndexTrendAd {
     public static final int DOMAIN_TREE_NODE_ID_FIELD_NUMBER = 1;
     private io.dstore.values.IntegerValue domainTreeNodeId_;
     /**
-     * <code>optional .dstore.values.IntegerValue domain_tree_node_id = 1;</code>
+     * <code>.dstore.values.IntegerValue domain_tree_node_id = 1;</code>
      */
     public boolean hasDomainTreeNodeId() {
       return domainTreeNodeId_ != null;
     }
     /**
-     * <code>optional .dstore.values.IntegerValue domain_tree_node_id = 1;</code>
+     * <code>.dstore.values.IntegerValue domain_tree_node_id = 1;</code>
      */
     public io.dstore.values.IntegerValue getDomainTreeNodeId() {
       return domainTreeNodeId_ == null ? io.dstore.values.IntegerValue.getDefaultInstance() : domainTreeNodeId_;
     }
     /**
-     * <code>optional .dstore.values.IntegerValue domain_tree_node_id = 1;</code>
+     * <code>.dstore.values.IntegerValue domain_tree_node_id = 1;</code>
      */
     public io.dstore.values.IntegerValueOrBuilder getDomainTreeNodeIdOrBuilder() {
       return getDomainTreeNodeId();
@@ -622,7 +622,7 @@ public final class StGetDSSIndexTrendAd {
     public static final int DOMAIN_TREE_NODE_ID_NULL_FIELD_NUMBER = 1001;
     private boolean domainTreeNodeIdNull_;
     /**
-     * <code>optional bool domain_tree_node_id_null = 1001;</code>
+     * <code>bool domain_tree_node_id_null = 1001;</code>
      */
     public boolean getDomainTreeNodeIdNull() {
       return domainTreeNodeIdNull_;
@@ -631,19 +631,19 @@ public final class StGetDSSIndexTrendAd {
     public static final int INTERVALLS_FIELD_NUMBER = 2;
     private io.dstore.values.IntegerValue intervalls_;
     /**
-     * <code>optional .dstore.values.IntegerValue intervalls = 2;</code>
+     * <code>.dstore.values.IntegerValue intervalls = 2;</code>
      */
     public boolean hasIntervalls() {
       return intervalls_ != null;
     }
     /**
-     * <code>optional .dstore.values.IntegerValue intervalls = 2;</code>
+     * <code>.dstore.values.IntegerValue intervalls = 2;</code>
      */
     public io.dstore.values.IntegerValue getIntervalls() {
       return intervalls_ == null ? io.dstore.values.IntegerValue.getDefaultInstance() : intervalls_;
     }
     /**
-     * <code>optional .dstore.values.IntegerValue intervalls = 2;</code>
+     * <code>.dstore.values.IntegerValue intervalls = 2;</code>
      */
     public io.dstore.values.IntegerValueOrBuilder getIntervallsOrBuilder() {
       return getIntervalls();
@@ -652,7 +652,7 @@ public final class StGetDSSIndexTrendAd {
     public static final int INTERVALLS_NULL_FIELD_NUMBER = 1002;
     private boolean intervallsNull_;
     /**
-     * <code>optional bool intervalls_null = 1002;</code>
+     * <code>bool intervalls_null = 1002;</code>
      */
     public boolean getIntervallsNull() {
       return intervallsNull_;
@@ -661,19 +661,19 @@ public final class StGetDSSIndexTrendAd {
     public static final int MINUTES_PER_INTERVALL_FIELD_NUMBER = 3;
     private io.dstore.values.IntegerValue minutesPerIntervall_;
     /**
-     * <code>optional .dstore.values.IntegerValue minutes_per_intervall = 3;</code>
+     * <code>.dstore.values.IntegerValue minutes_per_intervall = 3;</code>
      */
     public boolean hasMinutesPerIntervall() {
       return minutesPerIntervall_ != null;
     }
     /**
-     * <code>optional .dstore.values.IntegerValue minutes_per_intervall = 3;</code>
+     * <code>.dstore.values.IntegerValue minutes_per_intervall = 3;</code>
      */
     public io.dstore.values.IntegerValue getMinutesPerIntervall() {
       return minutesPerIntervall_ == null ? io.dstore.values.IntegerValue.getDefaultInstance() : minutesPerIntervall_;
     }
     /**
-     * <code>optional .dstore.values.IntegerValue minutes_per_intervall = 3;</code>
+     * <code>.dstore.values.IntegerValue minutes_per_intervall = 3;</code>
      */
     public io.dstore.values.IntegerValueOrBuilder getMinutesPerIntervallOrBuilder() {
       return getMinutesPerIntervall();
@@ -682,7 +682,7 @@ public final class StGetDSSIndexTrendAd {
     public static final int MINUTES_PER_INTERVALL_NULL_FIELD_NUMBER = 1003;
     private boolean minutesPerIntervallNull_;
     /**
-     * <code>optional bool minutes_per_intervall_null = 1003;</code>
+     * <code>bool minutes_per_intervall_null = 1003;</code>
      */
     public boolean getMinutesPerIntervallNull() {
       return minutesPerIntervallNull_;
@@ -691,19 +691,19 @@ public final class StGetDSSIndexTrendAd {
     public static final int GROUP_BY_NODES_ON_LEVEL_FIELD_NUMBER = 4;
     private io.dstore.values.IntegerValue groupByNodesOnLevel_;
     /**
-     * <code>optional .dstore.values.IntegerValue group_by_nodes_on_level = 4;</code>
+     * <code>.dstore.values.IntegerValue group_by_nodes_on_level = 4;</code>
      */
     public boolean hasGroupByNodesOnLevel() {
       return groupByNodesOnLevel_ != null;
     }
     /**
-     * <code>optional .dstore.values.IntegerValue group_by_nodes_on_level = 4;</code>
+     * <code>.dstore.values.IntegerValue group_by_nodes_on_level = 4;</code>
      */
     public io.dstore.values.IntegerValue getGroupByNodesOnLevel() {
       return groupByNodesOnLevel_ == null ? io.dstore.values.IntegerValue.getDefaultInstance() : groupByNodesOnLevel_;
     }
     /**
-     * <code>optional .dstore.values.IntegerValue group_by_nodes_on_level = 4;</code>
+     * <code>.dstore.values.IntegerValue group_by_nodes_on_level = 4;</code>
      */
     public io.dstore.values.IntegerValueOrBuilder getGroupByNodesOnLevelOrBuilder() {
       return getGroupByNodesOnLevel();
@@ -712,7 +712,7 @@ public final class StGetDSSIndexTrendAd {
     public static final int GROUP_BY_NODES_ON_LEVEL_NULL_FIELD_NUMBER = 1004;
     private boolean groupByNodesOnLevelNull_;
     /**
-     * <code>optional bool group_by_nodes_on_level_null = 1004;</code>
+     * <code>bool group_by_nodes_on_level_null = 1004;</code>
      */
     public boolean getGroupByNodesOnLevelNull() {
       return groupByNodesOnLevelNull_;
@@ -721,19 +721,19 @@ public final class StGetDSSIndexTrendAd {
     public static final int IS_LEVEL_ID_FIELD_NUMBER = 5;
     private io.dstore.values.BooleanValue isLevelId_;
     /**
-     * <code>optional .dstore.values.BooleanValue is_level_id = 5;</code>
+     * <code>.dstore.values.BooleanValue is_level_id = 5;</code>
      */
     public boolean hasIsLevelId() {
       return isLevelId_ != null;
     }
     /**
-     * <code>optional .dstore.values.BooleanValue is_level_id = 5;</code>
+     * <code>.dstore.values.BooleanValue is_level_id = 5;</code>
      */
     public io.dstore.values.BooleanValue getIsLevelId() {
       return isLevelId_ == null ? io.dstore.values.BooleanValue.getDefaultInstance() : isLevelId_;
     }
     /**
-     * <code>optional .dstore.values.BooleanValue is_level_id = 5;</code>
+     * <code>.dstore.values.BooleanValue is_level_id = 5;</code>
      */
     public io.dstore.values.BooleanValueOrBuilder getIsLevelIdOrBuilder() {
       return getIsLevelId();
@@ -742,7 +742,7 @@ public final class StGetDSSIndexTrendAd {
     public static final int IS_LEVEL_ID_NULL_FIELD_NUMBER = 1005;
     private boolean isLevelIdNull_;
     /**
-     * <code>optional bool is_level_id_null = 1005;</code>
+     * <code>bool is_level_id_null = 1005;</code>
      */
     public boolean getIsLevelIdNull() {
       return isLevelIdNull_;
@@ -751,19 +751,19 @@ public final class StGetDSSIndexTrendAd {
     public static final int GROUP_BY_NODE_CHARACTERISTIC_ID_FIELD_NUMBER = 6;
     private io.dstore.values.IntegerValue groupByNodeCharacteristicId_;
     /**
-     * <code>optional .dstore.values.IntegerValue group_by_node_characteristic_id = 6;</code>
+     * <code>.dstore.values.IntegerValue group_by_node_characteristic_id = 6;</code>
      */
     public boolean hasGroupByNodeCharacteristicId() {
       return groupByNodeCharacteristicId_ != null;
     }
     /**
-     * <code>optional .dstore.values.IntegerValue group_by_node_characteristic_id = 6;</code>
+     * <code>.dstore.values.IntegerValue group_by_node_characteristic_id = 6;</code>
      */
     public io.dstore.values.IntegerValue getGroupByNodeCharacteristicId() {
       return groupByNodeCharacteristicId_ == null ? io.dstore.values.IntegerValue.getDefaultInstance() : groupByNodeCharacteristicId_;
     }
     /**
-     * <code>optional .dstore.values.IntegerValue group_by_node_characteristic_id = 6;</code>
+     * <code>.dstore.values.IntegerValue group_by_node_characteristic_id = 6;</code>
      */
     public io.dstore.values.IntegerValueOrBuilder getGroupByNodeCharacteristicIdOrBuilder() {
       return getGroupByNodeCharacteristicId();
@@ -772,7 +772,7 @@ public final class StGetDSSIndexTrendAd {
     public static final int GROUP_BY_NODE_CHARACTERISTIC_ID_NULL_FIELD_NUMBER = 1006;
     private boolean groupByNodeCharacteristicIdNull_;
     /**
-     * <code>optional bool group_by_node_characteristic_id_null = 1006;</code>
+     * <code>bool group_by_node_characteristic_id_null = 1006;</code>
      */
     public boolean getGroupByNodeCharacteristicIdNull() {
       return groupByNodeCharacteristicIdNull_;
@@ -781,19 +781,19 @@ public final class StGetDSSIndexTrendAd {
     public static final int ONLY_VALUES_IN_ONE_ID_FIELD_NUMBER = 7;
     private io.dstore.values.BooleanValue onlyValuesInOneId_;
     /**
-     * <code>optional .dstore.values.BooleanValue only_values_in_one_id = 7;</code>
+     * <code>.dstore.values.BooleanValue only_values_in_one_id = 7;</code>
      */
     public boolean hasOnlyValuesInOneId() {
       return onlyValuesInOneId_ != null;
     }
     /**
-     * <code>optional .dstore.values.BooleanValue only_values_in_one_id = 7;</code>
+     * <code>.dstore.values.BooleanValue only_values_in_one_id = 7;</code>
      */
     public io.dstore.values.BooleanValue getOnlyValuesInOneId() {
       return onlyValuesInOneId_ == null ? io.dstore.values.BooleanValue.getDefaultInstance() : onlyValuesInOneId_;
     }
     /**
-     * <code>optional .dstore.values.BooleanValue only_values_in_one_id = 7;</code>
+     * <code>.dstore.values.BooleanValue only_values_in_one_id = 7;</code>
      */
     public io.dstore.values.BooleanValueOrBuilder getOnlyValuesInOneIdOrBuilder() {
       return getOnlyValuesInOneId();
@@ -802,7 +802,7 @@ public final class StGetDSSIndexTrendAd {
     public static final int ONLY_VALUES_IN_ONE_ID_NULL_FIELD_NUMBER = 1007;
     private boolean onlyValuesInOneIdNull_;
     /**
-     * <code>optional bool only_values_in_one_id_null = 1007;</code>
+     * <code>bool only_values_in_one_id_null = 1007;</code>
      */
     public boolean getOnlyValuesInOneIdNull() {
       return onlyValuesInOneIdNull_;
@@ -811,19 +811,19 @@ public final class StGetDSSIndexTrendAd {
     public static final int IDS_IN_ONE_ID_ARE_TREE_NODE_IDS_FIELD_NUMBER = 8;
     private io.dstore.values.BooleanValue idsInOneIdAreTreeNodeIds_;
     /**
-     * <code>optional .dstore.values.BooleanValue ids_in_one_id_are_tree_node_ids = 8;</code>
+     * <code>.dstore.values.BooleanValue ids_in_one_id_are_tree_node_ids = 8;</code>
      */
     public boolean hasIdsInOneIdAreTreeNodeIds() {
       return idsInOneIdAreTreeNodeIds_ != null;
     }
     /**
-     * <code>optional .dstore.values.BooleanValue ids_in_one_id_are_tree_node_ids = 8;</code>
+     * <code>.dstore.values.BooleanValue ids_in_one_id_are_tree_node_ids = 8;</code>
      */
     public io.dstore.values.BooleanValue getIdsInOneIdAreTreeNodeIds() {
       return idsInOneIdAreTreeNodeIds_ == null ? io.dstore.values.BooleanValue.getDefaultInstance() : idsInOneIdAreTreeNodeIds_;
     }
     /**
-     * <code>optional .dstore.values.BooleanValue ids_in_one_id_are_tree_node_ids = 8;</code>
+     * <code>.dstore.values.BooleanValue ids_in_one_id_are_tree_node_ids = 8;</code>
      */
     public io.dstore.values.BooleanValueOrBuilder getIdsInOneIdAreTreeNodeIdsOrBuilder() {
       return getIdsInOneIdAreTreeNodeIds();
@@ -832,7 +832,7 @@ public final class StGetDSSIndexTrendAd {
     public static final int IDS_IN_ONE_ID_ARE_TREE_NODE_IDS_NULL_FIELD_NUMBER = 1008;
     private boolean idsInOneIdAreTreeNodeIdsNull_;
     /**
-     * <code>optional bool ids_in_one_id_are_tree_node_ids_null = 1008;</code>
+     * <code>bool ids_in_one_id_are_tree_node_ids_null = 1008;</code>
      */
     public boolean getIdsInOneIdAreTreeNodeIdsNull() {
       return idsInOneIdAreTreeNodeIdsNull_;
@@ -841,19 +841,19 @@ public final class StGetDSSIndexTrendAd {
     public static final int WEIGHT_VIEWS_FIELD_NUMBER = 9;
     private io.dstore.values.DecimalValue weightViews_;
     /**
-     * <code>optional .dstore.values.DecimalValue weight_views = 9;</code>
+     * <code>.dstore.values.DecimalValue weight_views = 9;</code>
      */
     public boolean hasWeightViews() {
       return weightViews_ != null;
     }
     /**
-     * <code>optional .dstore.values.DecimalValue weight_views = 9;</code>
+     * <code>.dstore.values.DecimalValue weight_views = 9;</code>
      */
     public io.dstore.values.DecimalValue getWeightViews() {
       return weightViews_ == null ? io.dstore.values.DecimalValue.getDefaultInstance() : weightViews_;
     }
     /**
-     * <code>optional .dstore.values.DecimalValue weight_views = 9;</code>
+     * <code>.dstore.values.DecimalValue weight_views = 9;</code>
      */
     public io.dstore.values.DecimalValueOrBuilder getWeightViewsOrBuilder() {
       return getWeightViews();
@@ -862,7 +862,7 @@ public final class StGetDSSIndexTrendAd {
     public static final int WEIGHT_VIEWS_NULL_FIELD_NUMBER = 1009;
     private boolean weightViewsNull_;
     /**
-     * <code>optional bool weight_views_null = 1009;</code>
+     * <code>bool weight_views_null = 1009;</code>
      */
     public boolean getWeightViewsNull() {
       return weightViewsNull_;
@@ -871,19 +871,19 @@ public final class StGetDSSIndexTrendAd {
     public static final int WEIGHT_BUYING_INTEREST_FIELD_NUMBER = 10;
     private io.dstore.values.DecimalValue weightBuyingInterest_;
     /**
-     * <code>optional .dstore.values.DecimalValue weight_buying_interest = 10;</code>
+     * <code>.dstore.values.DecimalValue weight_buying_interest = 10;</code>
      */
     public boolean hasWeightBuyingInterest() {
       return weightBuyingInterest_ != null;
     }
     /**
-     * <code>optional .dstore.values.DecimalValue weight_buying_interest = 10;</code>
+     * <code>.dstore.values.DecimalValue weight_buying_interest = 10;</code>
      */
     public io.dstore.values.DecimalValue getWeightBuyingInterest() {
       return weightBuyingInterest_ == null ? io.dstore.values.DecimalValue.getDefaultInstance() : weightBuyingInterest_;
     }
     /**
-     * <code>optional .dstore.values.DecimalValue weight_buying_interest = 10;</code>
+     * <code>.dstore.values.DecimalValue weight_buying_interest = 10;</code>
      */
     public io.dstore.values.DecimalValueOrBuilder getWeightBuyingInterestOrBuilder() {
       return getWeightBuyingInterest();
@@ -892,7 +892,7 @@ public final class StGetDSSIndexTrendAd {
     public static final int WEIGHT_BUYING_INTEREST_NULL_FIELD_NUMBER = 1010;
     private boolean weightBuyingInterestNull_;
     /**
-     * <code>optional bool weight_buying_interest_null = 1010;</code>
+     * <code>bool weight_buying_interest_null = 1010;</code>
      */
     public boolean getWeightBuyingInterestNull() {
       return weightBuyingInterestNull_;
@@ -901,19 +901,19 @@ public final class StGetDSSIndexTrendAd {
     public static final int WEIGHT_ORDER_FIELD_NUMBER = 11;
     private io.dstore.values.DecimalValue weightOrder_;
     /**
-     * <code>optional .dstore.values.DecimalValue weight_order = 11;</code>
+     * <code>.dstore.values.DecimalValue weight_order = 11;</code>
      */
     public boolean hasWeightOrder() {
       return weightOrder_ != null;
     }
     /**
-     * <code>optional .dstore.values.DecimalValue weight_order = 11;</code>
+     * <code>.dstore.values.DecimalValue weight_order = 11;</code>
      */
     public io.dstore.values.DecimalValue getWeightOrder() {
       return weightOrder_ == null ? io.dstore.values.DecimalValue.getDefaultInstance() : weightOrder_;
     }
     /**
-     * <code>optional .dstore.values.DecimalValue weight_order = 11;</code>
+     * <code>.dstore.values.DecimalValue weight_order = 11;</code>
      */
     public io.dstore.values.DecimalValueOrBuilder getWeightOrderOrBuilder() {
       return getWeightOrder();
@@ -922,7 +922,7 @@ public final class StGetDSSIndexTrendAd {
     public static final int WEIGHT_ORDER_NULL_FIELD_NUMBER = 1011;
     private boolean weightOrderNull_;
     /**
-     * <code>optional bool weight_order_null = 1011;</code>
+     * <code>bool weight_order_null = 1011;</code>
      */
     public boolean getWeightOrderNull() {
       return weightOrderNull_;
@@ -931,19 +931,19 @@ public final class StGetDSSIndexTrendAd {
     public static final int INCLUDE_DEACTIVATED_NODES_FIELD_NUMBER = 12;
     private io.dstore.values.BooleanValue includeDeactivatedNodes_;
     /**
-     * <code>optional .dstore.values.BooleanValue include_deactivated_nodes = 12;</code>
+     * <code>.dstore.values.BooleanValue include_deactivated_nodes = 12;</code>
      */
     public boolean hasIncludeDeactivatedNodes() {
       return includeDeactivatedNodes_ != null;
     }
     /**
-     * <code>optional .dstore.values.BooleanValue include_deactivated_nodes = 12;</code>
+     * <code>.dstore.values.BooleanValue include_deactivated_nodes = 12;</code>
      */
     public io.dstore.values.BooleanValue getIncludeDeactivatedNodes() {
       return includeDeactivatedNodes_ == null ? io.dstore.values.BooleanValue.getDefaultInstance() : includeDeactivatedNodes_;
     }
     /**
-     * <code>optional .dstore.values.BooleanValue include_deactivated_nodes = 12;</code>
+     * <code>.dstore.values.BooleanValue include_deactivated_nodes = 12;</code>
      */
     public io.dstore.values.BooleanValueOrBuilder getIncludeDeactivatedNodesOrBuilder() {
       return getIncludeDeactivatedNodes();
@@ -952,7 +952,7 @@ public final class StGetDSSIndexTrendAd {
     public static final int INCLUDE_DEACTIVATED_NODES_NULL_FIELD_NUMBER = 1012;
     private boolean includeDeactivatedNodesNull_;
     /**
-     * <code>optional bool include_deactivated_nodes_null = 1012;</code>
+     * <code>bool include_deactivated_nodes_null = 1012;</code>
      */
     public boolean getIncludeDeactivatedNodesNull() {
       return includeDeactivatedNodesNull_;
@@ -961,19 +961,19 @@ public final class StGetDSSIndexTrendAd {
     public static final int INCLUDE_NODES_WITHOUT_TREE_NODE_ID_FIELD_NUMBER = 13;
     private io.dstore.values.BooleanValue includeNodesWithoutTreeNodeId_;
     /**
-     * <code>optional .dstore.values.BooleanValue include_nodes_without_tree_node_id = 13;</code>
+     * <code>.dstore.values.BooleanValue include_nodes_without_tree_node_id = 13;</code>
      */
     public boolean hasIncludeNodesWithoutTreeNodeId() {
       return includeNodesWithoutTreeNodeId_ != null;
     }
     /**
-     * <code>optional .dstore.values.BooleanValue include_nodes_without_tree_node_id = 13;</code>
+     * <code>.dstore.values.BooleanValue include_nodes_without_tree_node_id = 13;</code>
      */
     public io.dstore.values.BooleanValue getIncludeNodesWithoutTreeNodeId() {
       return includeNodesWithoutTreeNodeId_ == null ? io.dstore.values.BooleanValue.getDefaultInstance() : includeNodesWithoutTreeNodeId_;
     }
     /**
-     * <code>optional .dstore.values.BooleanValue include_nodes_without_tree_node_id = 13;</code>
+     * <code>.dstore.values.BooleanValue include_nodes_without_tree_node_id = 13;</code>
      */
     public io.dstore.values.BooleanValueOrBuilder getIncludeNodesWithoutTreeNodeIdOrBuilder() {
       return getIncludeNodesWithoutTreeNodeId();
@@ -982,7 +982,7 @@ public final class StGetDSSIndexTrendAd {
     public static final int INCLUDE_NODES_WITHOUT_TREE_NODE_ID_NULL_FIELD_NUMBER = 1013;
     private boolean includeNodesWithoutTreeNodeIdNull_;
     /**
-     * <code>optional bool include_nodes_without_tree_node_id_null = 1013;</code>
+     * <code>bool include_nodes_without_tree_node_id_null = 1013;</code>
      */
     public boolean getIncludeNodesWithoutTreeNodeIdNull() {
       return includeNodesWithoutTreeNodeIdNull_;
@@ -991,19 +991,19 @@ public final class StGetDSSIndexTrendAd {
     public static final int ORDER_RESULT_BY_INTERVALL_FIELD_NUMBER = 14;
     private io.dstore.values.IntegerValue orderResultByIntervall_;
     /**
-     * <code>optional .dstore.values.IntegerValue order_result_by_intervall = 14;</code>
+     * <code>.dstore.values.IntegerValue order_result_by_intervall = 14;</code>
      */
     public boolean hasOrderResultByIntervall() {
       return orderResultByIntervall_ != null;
     }
     /**
-     * <code>optional .dstore.values.IntegerValue order_result_by_intervall = 14;</code>
+     * <code>.dstore.values.IntegerValue order_result_by_intervall = 14;</code>
      */
     public io.dstore.values.IntegerValue getOrderResultByIntervall() {
       return orderResultByIntervall_ == null ? io.dstore.values.IntegerValue.getDefaultInstance() : orderResultByIntervall_;
     }
     /**
-     * <code>optional .dstore.values.IntegerValue order_result_by_intervall = 14;</code>
+     * <code>.dstore.values.IntegerValue order_result_by_intervall = 14;</code>
      */
     public io.dstore.values.IntegerValueOrBuilder getOrderResultByIntervallOrBuilder() {
       return getOrderResultByIntervall();
@@ -1012,7 +1012,7 @@ public final class StGetDSSIndexTrendAd {
     public static final int ORDER_RESULT_BY_INTERVALL_NULL_FIELD_NUMBER = 1014;
     private boolean orderResultByIntervallNull_;
     /**
-     * <code>optional bool order_result_by_intervall_null = 1014;</code>
+     * <code>bool order_result_by_intervall_null = 1014;</code>
      */
     public boolean getOrderResultByIntervallNull() {
       return orderResultByIntervallNull_;
@@ -1356,7 +1356,7 @@ public final class StGetDSSIndexTrendAd {
         return memoizedHashCode;
       }
       int hash = 41;
-      hash = (19 * hash) + getDescriptorForType().hashCode();
+      hash = (19 * hash) + getDescriptor().hashCode();
       if (hasDomainTreeNodeId()) {
         hash = (37 * hash) + DOMAIN_TREE_NODE_ID_FIELD_NUMBER;
         hash = (53 * hash) + getDomainTreeNodeId().hashCode();
@@ -1946,13 +1946,13 @@ public final class StGetDSSIndexTrendAd {
       private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> domainTreeNodeIdBuilder_;
       /**
-       * <code>optional .dstore.values.IntegerValue domain_tree_node_id = 1;</code>
+       * <code>.dstore.values.IntegerValue domain_tree_node_id = 1;</code>
        */
       public boolean hasDomainTreeNodeId() {
         return domainTreeNodeIdBuilder_ != null || domainTreeNodeId_ != null;
       }
       /**
-       * <code>optional .dstore.values.IntegerValue domain_tree_node_id = 1;</code>
+       * <code>.dstore.values.IntegerValue domain_tree_node_id = 1;</code>
        */
       public io.dstore.values.IntegerValue getDomainTreeNodeId() {
         if (domainTreeNodeIdBuilder_ == null) {
@@ -1962,7 +1962,7 @@ public final class StGetDSSIndexTrendAd {
         }
       }
       /**
-       * <code>optional .dstore.values.IntegerValue domain_tree_node_id = 1;</code>
+       * <code>.dstore.values.IntegerValue domain_tree_node_id = 1;</code>
        */
       public Builder setDomainTreeNodeId(io.dstore.values.IntegerValue value) {
         if (domainTreeNodeIdBuilder_ == null) {
@@ -1978,7 +1978,7 @@ public final class StGetDSSIndexTrendAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.IntegerValue domain_tree_node_id = 1;</code>
+       * <code>.dstore.values.IntegerValue domain_tree_node_id = 1;</code>
        */
       public Builder setDomainTreeNodeId(
           io.dstore.values.IntegerValue.Builder builderForValue) {
@@ -1992,7 +1992,7 @@ public final class StGetDSSIndexTrendAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.IntegerValue domain_tree_node_id = 1;</code>
+       * <code>.dstore.values.IntegerValue domain_tree_node_id = 1;</code>
        */
       public Builder mergeDomainTreeNodeId(io.dstore.values.IntegerValue value) {
         if (domainTreeNodeIdBuilder_ == null) {
@@ -2010,7 +2010,7 @@ public final class StGetDSSIndexTrendAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.IntegerValue domain_tree_node_id = 1;</code>
+       * <code>.dstore.values.IntegerValue domain_tree_node_id = 1;</code>
        */
       public Builder clearDomainTreeNodeId() {
         if (domainTreeNodeIdBuilder_ == null) {
@@ -2024,7 +2024,7 @@ public final class StGetDSSIndexTrendAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.IntegerValue domain_tree_node_id = 1;</code>
+       * <code>.dstore.values.IntegerValue domain_tree_node_id = 1;</code>
        */
       public io.dstore.values.IntegerValue.Builder getDomainTreeNodeIdBuilder() {
         
@@ -2032,7 +2032,7 @@ public final class StGetDSSIndexTrendAd {
         return getDomainTreeNodeIdFieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .dstore.values.IntegerValue domain_tree_node_id = 1;</code>
+       * <code>.dstore.values.IntegerValue domain_tree_node_id = 1;</code>
        */
       public io.dstore.values.IntegerValueOrBuilder getDomainTreeNodeIdOrBuilder() {
         if (domainTreeNodeIdBuilder_ != null) {
@@ -2043,7 +2043,7 @@ public final class StGetDSSIndexTrendAd {
         }
       }
       /**
-       * <code>optional .dstore.values.IntegerValue domain_tree_node_id = 1;</code>
+       * <code>.dstore.values.IntegerValue domain_tree_node_id = 1;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> 
@@ -2061,13 +2061,13 @@ public final class StGetDSSIndexTrendAd {
 
       private boolean domainTreeNodeIdNull_ ;
       /**
-       * <code>optional bool domain_tree_node_id_null = 1001;</code>
+       * <code>bool domain_tree_node_id_null = 1001;</code>
        */
       public boolean getDomainTreeNodeIdNull() {
         return domainTreeNodeIdNull_;
       }
       /**
-       * <code>optional bool domain_tree_node_id_null = 1001;</code>
+       * <code>bool domain_tree_node_id_null = 1001;</code>
        */
       public Builder setDomainTreeNodeIdNull(boolean value) {
         
@@ -2076,7 +2076,7 @@ public final class StGetDSSIndexTrendAd {
         return this;
       }
       /**
-       * <code>optional bool domain_tree_node_id_null = 1001;</code>
+       * <code>bool domain_tree_node_id_null = 1001;</code>
        */
       public Builder clearDomainTreeNodeIdNull() {
         
@@ -2089,13 +2089,13 @@ public final class StGetDSSIndexTrendAd {
       private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> intervallsBuilder_;
       /**
-       * <code>optional .dstore.values.IntegerValue intervalls = 2;</code>
+       * <code>.dstore.values.IntegerValue intervalls = 2;</code>
        */
       public boolean hasIntervalls() {
         return intervallsBuilder_ != null || intervalls_ != null;
       }
       /**
-       * <code>optional .dstore.values.IntegerValue intervalls = 2;</code>
+       * <code>.dstore.values.IntegerValue intervalls = 2;</code>
        */
       public io.dstore.values.IntegerValue getIntervalls() {
         if (intervallsBuilder_ == null) {
@@ -2105,7 +2105,7 @@ public final class StGetDSSIndexTrendAd {
         }
       }
       /**
-       * <code>optional .dstore.values.IntegerValue intervalls = 2;</code>
+       * <code>.dstore.values.IntegerValue intervalls = 2;</code>
        */
       public Builder setIntervalls(io.dstore.values.IntegerValue value) {
         if (intervallsBuilder_ == null) {
@@ -2121,7 +2121,7 @@ public final class StGetDSSIndexTrendAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.IntegerValue intervalls = 2;</code>
+       * <code>.dstore.values.IntegerValue intervalls = 2;</code>
        */
       public Builder setIntervalls(
           io.dstore.values.IntegerValue.Builder builderForValue) {
@@ -2135,7 +2135,7 @@ public final class StGetDSSIndexTrendAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.IntegerValue intervalls = 2;</code>
+       * <code>.dstore.values.IntegerValue intervalls = 2;</code>
        */
       public Builder mergeIntervalls(io.dstore.values.IntegerValue value) {
         if (intervallsBuilder_ == null) {
@@ -2153,7 +2153,7 @@ public final class StGetDSSIndexTrendAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.IntegerValue intervalls = 2;</code>
+       * <code>.dstore.values.IntegerValue intervalls = 2;</code>
        */
       public Builder clearIntervalls() {
         if (intervallsBuilder_ == null) {
@@ -2167,7 +2167,7 @@ public final class StGetDSSIndexTrendAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.IntegerValue intervalls = 2;</code>
+       * <code>.dstore.values.IntegerValue intervalls = 2;</code>
        */
       public io.dstore.values.IntegerValue.Builder getIntervallsBuilder() {
         
@@ -2175,7 +2175,7 @@ public final class StGetDSSIndexTrendAd {
         return getIntervallsFieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .dstore.values.IntegerValue intervalls = 2;</code>
+       * <code>.dstore.values.IntegerValue intervalls = 2;</code>
        */
       public io.dstore.values.IntegerValueOrBuilder getIntervallsOrBuilder() {
         if (intervallsBuilder_ != null) {
@@ -2186,7 +2186,7 @@ public final class StGetDSSIndexTrendAd {
         }
       }
       /**
-       * <code>optional .dstore.values.IntegerValue intervalls = 2;</code>
+       * <code>.dstore.values.IntegerValue intervalls = 2;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> 
@@ -2204,13 +2204,13 @@ public final class StGetDSSIndexTrendAd {
 
       private boolean intervallsNull_ ;
       /**
-       * <code>optional bool intervalls_null = 1002;</code>
+       * <code>bool intervalls_null = 1002;</code>
        */
       public boolean getIntervallsNull() {
         return intervallsNull_;
       }
       /**
-       * <code>optional bool intervalls_null = 1002;</code>
+       * <code>bool intervalls_null = 1002;</code>
        */
       public Builder setIntervallsNull(boolean value) {
         
@@ -2219,7 +2219,7 @@ public final class StGetDSSIndexTrendAd {
         return this;
       }
       /**
-       * <code>optional bool intervalls_null = 1002;</code>
+       * <code>bool intervalls_null = 1002;</code>
        */
       public Builder clearIntervallsNull() {
         
@@ -2232,13 +2232,13 @@ public final class StGetDSSIndexTrendAd {
       private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> minutesPerIntervallBuilder_;
       /**
-       * <code>optional .dstore.values.IntegerValue minutes_per_intervall = 3;</code>
+       * <code>.dstore.values.IntegerValue minutes_per_intervall = 3;</code>
        */
       public boolean hasMinutesPerIntervall() {
         return minutesPerIntervallBuilder_ != null || minutesPerIntervall_ != null;
       }
       /**
-       * <code>optional .dstore.values.IntegerValue minutes_per_intervall = 3;</code>
+       * <code>.dstore.values.IntegerValue minutes_per_intervall = 3;</code>
        */
       public io.dstore.values.IntegerValue getMinutesPerIntervall() {
         if (minutesPerIntervallBuilder_ == null) {
@@ -2248,7 +2248,7 @@ public final class StGetDSSIndexTrendAd {
         }
       }
       /**
-       * <code>optional .dstore.values.IntegerValue minutes_per_intervall = 3;</code>
+       * <code>.dstore.values.IntegerValue minutes_per_intervall = 3;</code>
        */
       public Builder setMinutesPerIntervall(io.dstore.values.IntegerValue value) {
         if (minutesPerIntervallBuilder_ == null) {
@@ -2264,7 +2264,7 @@ public final class StGetDSSIndexTrendAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.IntegerValue minutes_per_intervall = 3;</code>
+       * <code>.dstore.values.IntegerValue minutes_per_intervall = 3;</code>
        */
       public Builder setMinutesPerIntervall(
           io.dstore.values.IntegerValue.Builder builderForValue) {
@@ -2278,7 +2278,7 @@ public final class StGetDSSIndexTrendAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.IntegerValue minutes_per_intervall = 3;</code>
+       * <code>.dstore.values.IntegerValue minutes_per_intervall = 3;</code>
        */
       public Builder mergeMinutesPerIntervall(io.dstore.values.IntegerValue value) {
         if (minutesPerIntervallBuilder_ == null) {
@@ -2296,7 +2296,7 @@ public final class StGetDSSIndexTrendAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.IntegerValue minutes_per_intervall = 3;</code>
+       * <code>.dstore.values.IntegerValue minutes_per_intervall = 3;</code>
        */
       public Builder clearMinutesPerIntervall() {
         if (minutesPerIntervallBuilder_ == null) {
@@ -2310,7 +2310,7 @@ public final class StGetDSSIndexTrendAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.IntegerValue minutes_per_intervall = 3;</code>
+       * <code>.dstore.values.IntegerValue minutes_per_intervall = 3;</code>
        */
       public io.dstore.values.IntegerValue.Builder getMinutesPerIntervallBuilder() {
         
@@ -2318,7 +2318,7 @@ public final class StGetDSSIndexTrendAd {
         return getMinutesPerIntervallFieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .dstore.values.IntegerValue minutes_per_intervall = 3;</code>
+       * <code>.dstore.values.IntegerValue minutes_per_intervall = 3;</code>
        */
       public io.dstore.values.IntegerValueOrBuilder getMinutesPerIntervallOrBuilder() {
         if (minutesPerIntervallBuilder_ != null) {
@@ -2329,7 +2329,7 @@ public final class StGetDSSIndexTrendAd {
         }
       }
       /**
-       * <code>optional .dstore.values.IntegerValue minutes_per_intervall = 3;</code>
+       * <code>.dstore.values.IntegerValue minutes_per_intervall = 3;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> 
@@ -2347,13 +2347,13 @@ public final class StGetDSSIndexTrendAd {
 
       private boolean minutesPerIntervallNull_ ;
       /**
-       * <code>optional bool minutes_per_intervall_null = 1003;</code>
+       * <code>bool minutes_per_intervall_null = 1003;</code>
        */
       public boolean getMinutesPerIntervallNull() {
         return minutesPerIntervallNull_;
       }
       /**
-       * <code>optional bool minutes_per_intervall_null = 1003;</code>
+       * <code>bool minutes_per_intervall_null = 1003;</code>
        */
       public Builder setMinutesPerIntervallNull(boolean value) {
         
@@ -2362,7 +2362,7 @@ public final class StGetDSSIndexTrendAd {
         return this;
       }
       /**
-       * <code>optional bool minutes_per_intervall_null = 1003;</code>
+       * <code>bool minutes_per_intervall_null = 1003;</code>
        */
       public Builder clearMinutesPerIntervallNull() {
         
@@ -2375,13 +2375,13 @@ public final class StGetDSSIndexTrendAd {
       private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> groupByNodesOnLevelBuilder_;
       /**
-       * <code>optional .dstore.values.IntegerValue group_by_nodes_on_level = 4;</code>
+       * <code>.dstore.values.IntegerValue group_by_nodes_on_level = 4;</code>
        */
       public boolean hasGroupByNodesOnLevel() {
         return groupByNodesOnLevelBuilder_ != null || groupByNodesOnLevel_ != null;
       }
       /**
-       * <code>optional .dstore.values.IntegerValue group_by_nodes_on_level = 4;</code>
+       * <code>.dstore.values.IntegerValue group_by_nodes_on_level = 4;</code>
        */
       public io.dstore.values.IntegerValue getGroupByNodesOnLevel() {
         if (groupByNodesOnLevelBuilder_ == null) {
@@ -2391,7 +2391,7 @@ public final class StGetDSSIndexTrendAd {
         }
       }
       /**
-       * <code>optional .dstore.values.IntegerValue group_by_nodes_on_level = 4;</code>
+       * <code>.dstore.values.IntegerValue group_by_nodes_on_level = 4;</code>
        */
       public Builder setGroupByNodesOnLevel(io.dstore.values.IntegerValue value) {
         if (groupByNodesOnLevelBuilder_ == null) {
@@ -2407,7 +2407,7 @@ public final class StGetDSSIndexTrendAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.IntegerValue group_by_nodes_on_level = 4;</code>
+       * <code>.dstore.values.IntegerValue group_by_nodes_on_level = 4;</code>
        */
       public Builder setGroupByNodesOnLevel(
           io.dstore.values.IntegerValue.Builder builderForValue) {
@@ -2421,7 +2421,7 @@ public final class StGetDSSIndexTrendAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.IntegerValue group_by_nodes_on_level = 4;</code>
+       * <code>.dstore.values.IntegerValue group_by_nodes_on_level = 4;</code>
        */
       public Builder mergeGroupByNodesOnLevel(io.dstore.values.IntegerValue value) {
         if (groupByNodesOnLevelBuilder_ == null) {
@@ -2439,7 +2439,7 @@ public final class StGetDSSIndexTrendAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.IntegerValue group_by_nodes_on_level = 4;</code>
+       * <code>.dstore.values.IntegerValue group_by_nodes_on_level = 4;</code>
        */
       public Builder clearGroupByNodesOnLevel() {
         if (groupByNodesOnLevelBuilder_ == null) {
@@ -2453,7 +2453,7 @@ public final class StGetDSSIndexTrendAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.IntegerValue group_by_nodes_on_level = 4;</code>
+       * <code>.dstore.values.IntegerValue group_by_nodes_on_level = 4;</code>
        */
       public io.dstore.values.IntegerValue.Builder getGroupByNodesOnLevelBuilder() {
         
@@ -2461,7 +2461,7 @@ public final class StGetDSSIndexTrendAd {
         return getGroupByNodesOnLevelFieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .dstore.values.IntegerValue group_by_nodes_on_level = 4;</code>
+       * <code>.dstore.values.IntegerValue group_by_nodes_on_level = 4;</code>
        */
       public io.dstore.values.IntegerValueOrBuilder getGroupByNodesOnLevelOrBuilder() {
         if (groupByNodesOnLevelBuilder_ != null) {
@@ -2472,7 +2472,7 @@ public final class StGetDSSIndexTrendAd {
         }
       }
       /**
-       * <code>optional .dstore.values.IntegerValue group_by_nodes_on_level = 4;</code>
+       * <code>.dstore.values.IntegerValue group_by_nodes_on_level = 4;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> 
@@ -2490,13 +2490,13 @@ public final class StGetDSSIndexTrendAd {
 
       private boolean groupByNodesOnLevelNull_ ;
       /**
-       * <code>optional bool group_by_nodes_on_level_null = 1004;</code>
+       * <code>bool group_by_nodes_on_level_null = 1004;</code>
        */
       public boolean getGroupByNodesOnLevelNull() {
         return groupByNodesOnLevelNull_;
       }
       /**
-       * <code>optional bool group_by_nodes_on_level_null = 1004;</code>
+       * <code>bool group_by_nodes_on_level_null = 1004;</code>
        */
       public Builder setGroupByNodesOnLevelNull(boolean value) {
         
@@ -2505,7 +2505,7 @@ public final class StGetDSSIndexTrendAd {
         return this;
       }
       /**
-       * <code>optional bool group_by_nodes_on_level_null = 1004;</code>
+       * <code>bool group_by_nodes_on_level_null = 1004;</code>
        */
       public Builder clearGroupByNodesOnLevelNull() {
         
@@ -2518,13 +2518,13 @@ public final class StGetDSSIndexTrendAd {
       private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.values.BooleanValue, io.dstore.values.BooleanValue.Builder, io.dstore.values.BooleanValueOrBuilder> isLevelIdBuilder_;
       /**
-       * <code>optional .dstore.values.BooleanValue is_level_id = 5;</code>
+       * <code>.dstore.values.BooleanValue is_level_id = 5;</code>
        */
       public boolean hasIsLevelId() {
         return isLevelIdBuilder_ != null || isLevelId_ != null;
       }
       /**
-       * <code>optional .dstore.values.BooleanValue is_level_id = 5;</code>
+       * <code>.dstore.values.BooleanValue is_level_id = 5;</code>
        */
       public io.dstore.values.BooleanValue getIsLevelId() {
         if (isLevelIdBuilder_ == null) {
@@ -2534,7 +2534,7 @@ public final class StGetDSSIndexTrendAd {
         }
       }
       /**
-       * <code>optional .dstore.values.BooleanValue is_level_id = 5;</code>
+       * <code>.dstore.values.BooleanValue is_level_id = 5;</code>
        */
       public Builder setIsLevelId(io.dstore.values.BooleanValue value) {
         if (isLevelIdBuilder_ == null) {
@@ -2550,7 +2550,7 @@ public final class StGetDSSIndexTrendAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.BooleanValue is_level_id = 5;</code>
+       * <code>.dstore.values.BooleanValue is_level_id = 5;</code>
        */
       public Builder setIsLevelId(
           io.dstore.values.BooleanValue.Builder builderForValue) {
@@ -2564,7 +2564,7 @@ public final class StGetDSSIndexTrendAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.BooleanValue is_level_id = 5;</code>
+       * <code>.dstore.values.BooleanValue is_level_id = 5;</code>
        */
       public Builder mergeIsLevelId(io.dstore.values.BooleanValue value) {
         if (isLevelIdBuilder_ == null) {
@@ -2582,7 +2582,7 @@ public final class StGetDSSIndexTrendAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.BooleanValue is_level_id = 5;</code>
+       * <code>.dstore.values.BooleanValue is_level_id = 5;</code>
        */
       public Builder clearIsLevelId() {
         if (isLevelIdBuilder_ == null) {
@@ -2596,7 +2596,7 @@ public final class StGetDSSIndexTrendAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.BooleanValue is_level_id = 5;</code>
+       * <code>.dstore.values.BooleanValue is_level_id = 5;</code>
        */
       public io.dstore.values.BooleanValue.Builder getIsLevelIdBuilder() {
         
@@ -2604,7 +2604,7 @@ public final class StGetDSSIndexTrendAd {
         return getIsLevelIdFieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .dstore.values.BooleanValue is_level_id = 5;</code>
+       * <code>.dstore.values.BooleanValue is_level_id = 5;</code>
        */
       public io.dstore.values.BooleanValueOrBuilder getIsLevelIdOrBuilder() {
         if (isLevelIdBuilder_ != null) {
@@ -2615,7 +2615,7 @@ public final class StGetDSSIndexTrendAd {
         }
       }
       /**
-       * <code>optional .dstore.values.BooleanValue is_level_id = 5;</code>
+       * <code>.dstore.values.BooleanValue is_level_id = 5;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.values.BooleanValue, io.dstore.values.BooleanValue.Builder, io.dstore.values.BooleanValueOrBuilder> 
@@ -2633,13 +2633,13 @@ public final class StGetDSSIndexTrendAd {
 
       private boolean isLevelIdNull_ ;
       /**
-       * <code>optional bool is_level_id_null = 1005;</code>
+       * <code>bool is_level_id_null = 1005;</code>
        */
       public boolean getIsLevelIdNull() {
         return isLevelIdNull_;
       }
       /**
-       * <code>optional bool is_level_id_null = 1005;</code>
+       * <code>bool is_level_id_null = 1005;</code>
        */
       public Builder setIsLevelIdNull(boolean value) {
         
@@ -2648,7 +2648,7 @@ public final class StGetDSSIndexTrendAd {
         return this;
       }
       /**
-       * <code>optional bool is_level_id_null = 1005;</code>
+       * <code>bool is_level_id_null = 1005;</code>
        */
       public Builder clearIsLevelIdNull() {
         
@@ -2661,13 +2661,13 @@ public final class StGetDSSIndexTrendAd {
       private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> groupByNodeCharacteristicIdBuilder_;
       /**
-       * <code>optional .dstore.values.IntegerValue group_by_node_characteristic_id = 6;</code>
+       * <code>.dstore.values.IntegerValue group_by_node_characteristic_id = 6;</code>
        */
       public boolean hasGroupByNodeCharacteristicId() {
         return groupByNodeCharacteristicIdBuilder_ != null || groupByNodeCharacteristicId_ != null;
       }
       /**
-       * <code>optional .dstore.values.IntegerValue group_by_node_characteristic_id = 6;</code>
+       * <code>.dstore.values.IntegerValue group_by_node_characteristic_id = 6;</code>
        */
       public io.dstore.values.IntegerValue getGroupByNodeCharacteristicId() {
         if (groupByNodeCharacteristicIdBuilder_ == null) {
@@ -2677,7 +2677,7 @@ public final class StGetDSSIndexTrendAd {
         }
       }
       /**
-       * <code>optional .dstore.values.IntegerValue group_by_node_characteristic_id = 6;</code>
+       * <code>.dstore.values.IntegerValue group_by_node_characteristic_id = 6;</code>
        */
       public Builder setGroupByNodeCharacteristicId(io.dstore.values.IntegerValue value) {
         if (groupByNodeCharacteristicIdBuilder_ == null) {
@@ -2693,7 +2693,7 @@ public final class StGetDSSIndexTrendAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.IntegerValue group_by_node_characteristic_id = 6;</code>
+       * <code>.dstore.values.IntegerValue group_by_node_characteristic_id = 6;</code>
        */
       public Builder setGroupByNodeCharacteristicId(
           io.dstore.values.IntegerValue.Builder builderForValue) {
@@ -2707,7 +2707,7 @@ public final class StGetDSSIndexTrendAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.IntegerValue group_by_node_characteristic_id = 6;</code>
+       * <code>.dstore.values.IntegerValue group_by_node_characteristic_id = 6;</code>
        */
       public Builder mergeGroupByNodeCharacteristicId(io.dstore.values.IntegerValue value) {
         if (groupByNodeCharacteristicIdBuilder_ == null) {
@@ -2725,7 +2725,7 @@ public final class StGetDSSIndexTrendAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.IntegerValue group_by_node_characteristic_id = 6;</code>
+       * <code>.dstore.values.IntegerValue group_by_node_characteristic_id = 6;</code>
        */
       public Builder clearGroupByNodeCharacteristicId() {
         if (groupByNodeCharacteristicIdBuilder_ == null) {
@@ -2739,7 +2739,7 @@ public final class StGetDSSIndexTrendAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.IntegerValue group_by_node_characteristic_id = 6;</code>
+       * <code>.dstore.values.IntegerValue group_by_node_characteristic_id = 6;</code>
        */
       public io.dstore.values.IntegerValue.Builder getGroupByNodeCharacteristicIdBuilder() {
         
@@ -2747,7 +2747,7 @@ public final class StGetDSSIndexTrendAd {
         return getGroupByNodeCharacteristicIdFieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .dstore.values.IntegerValue group_by_node_characteristic_id = 6;</code>
+       * <code>.dstore.values.IntegerValue group_by_node_characteristic_id = 6;</code>
        */
       public io.dstore.values.IntegerValueOrBuilder getGroupByNodeCharacteristicIdOrBuilder() {
         if (groupByNodeCharacteristicIdBuilder_ != null) {
@@ -2758,7 +2758,7 @@ public final class StGetDSSIndexTrendAd {
         }
       }
       /**
-       * <code>optional .dstore.values.IntegerValue group_by_node_characteristic_id = 6;</code>
+       * <code>.dstore.values.IntegerValue group_by_node_characteristic_id = 6;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> 
@@ -2776,13 +2776,13 @@ public final class StGetDSSIndexTrendAd {
 
       private boolean groupByNodeCharacteristicIdNull_ ;
       /**
-       * <code>optional bool group_by_node_characteristic_id_null = 1006;</code>
+       * <code>bool group_by_node_characteristic_id_null = 1006;</code>
        */
       public boolean getGroupByNodeCharacteristicIdNull() {
         return groupByNodeCharacteristicIdNull_;
       }
       /**
-       * <code>optional bool group_by_node_characteristic_id_null = 1006;</code>
+       * <code>bool group_by_node_characteristic_id_null = 1006;</code>
        */
       public Builder setGroupByNodeCharacteristicIdNull(boolean value) {
         
@@ -2791,7 +2791,7 @@ public final class StGetDSSIndexTrendAd {
         return this;
       }
       /**
-       * <code>optional bool group_by_node_characteristic_id_null = 1006;</code>
+       * <code>bool group_by_node_characteristic_id_null = 1006;</code>
        */
       public Builder clearGroupByNodeCharacteristicIdNull() {
         
@@ -2804,13 +2804,13 @@ public final class StGetDSSIndexTrendAd {
       private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.values.BooleanValue, io.dstore.values.BooleanValue.Builder, io.dstore.values.BooleanValueOrBuilder> onlyValuesInOneIdBuilder_;
       /**
-       * <code>optional .dstore.values.BooleanValue only_values_in_one_id = 7;</code>
+       * <code>.dstore.values.BooleanValue only_values_in_one_id = 7;</code>
        */
       public boolean hasOnlyValuesInOneId() {
         return onlyValuesInOneIdBuilder_ != null || onlyValuesInOneId_ != null;
       }
       /**
-       * <code>optional .dstore.values.BooleanValue only_values_in_one_id = 7;</code>
+       * <code>.dstore.values.BooleanValue only_values_in_one_id = 7;</code>
        */
       public io.dstore.values.BooleanValue getOnlyValuesInOneId() {
         if (onlyValuesInOneIdBuilder_ == null) {
@@ -2820,7 +2820,7 @@ public final class StGetDSSIndexTrendAd {
         }
       }
       /**
-       * <code>optional .dstore.values.BooleanValue only_values_in_one_id = 7;</code>
+       * <code>.dstore.values.BooleanValue only_values_in_one_id = 7;</code>
        */
       public Builder setOnlyValuesInOneId(io.dstore.values.BooleanValue value) {
         if (onlyValuesInOneIdBuilder_ == null) {
@@ -2836,7 +2836,7 @@ public final class StGetDSSIndexTrendAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.BooleanValue only_values_in_one_id = 7;</code>
+       * <code>.dstore.values.BooleanValue only_values_in_one_id = 7;</code>
        */
       public Builder setOnlyValuesInOneId(
           io.dstore.values.BooleanValue.Builder builderForValue) {
@@ -2850,7 +2850,7 @@ public final class StGetDSSIndexTrendAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.BooleanValue only_values_in_one_id = 7;</code>
+       * <code>.dstore.values.BooleanValue only_values_in_one_id = 7;</code>
        */
       public Builder mergeOnlyValuesInOneId(io.dstore.values.BooleanValue value) {
         if (onlyValuesInOneIdBuilder_ == null) {
@@ -2868,7 +2868,7 @@ public final class StGetDSSIndexTrendAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.BooleanValue only_values_in_one_id = 7;</code>
+       * <code>.dstore.values.BooleanValue only_values_in_one_id = 7;</code>
        */
       public Builder clearOnlyValuesInOneId() {
         if (onlyValuesInOneIdBuilder_ == null) {
@@ -2882,7 +2882,7 @@ public final class StGetDSSIndexTrendAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.BooleanValue only_values_in_one_id = 7;</code>
+       * <code>.dstore.values.BooleanValue only_values_in_one_id = 7;</code>
        */
       public io.dstore.values.BooleanValue.Builder getOnlyValuesInOneIdBuilder() {
         
@@ -2890,7 +2890,7 @@ public final class StGetDSSIndexTrendAd {
         return getOnlyValuesInOneIdFieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .dstore.values.BooleanValue only_values_in_one_id = 7;</code>
+       * <code>.dstore.values.BooleanValue only_values_in_one_id = 7;</code>
        */
       public io.dstore.values.BooleanValueOrBuilder getOnlyValuesInOneIdOrBuilder() {
         if (onlyValuesInOneIdBuilder_ != null) {
@@ -2901,7 +2901,7 @@ public final class StGetDSSIndexTrendAd {
         }
       }
       /**
-       * <code>optional .dstore.values.BooleanValue only_values_in_one_id = 7;</code>
+       * <code>.dstore.values.BooleanValue only_values_in_one_id = 7;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.values.BooleanValue, io.dstore.values.BooleanValue.Builder, io.dstore.values.BooleanValueOrBuilder> 
@@ -2919,13 +2919,13 @@ public final class StGetDSSIndexTrendAd {
 
       private boolean onlyValuesInOneIdNull_ ;
       /**
-       * <code>optional bool only_values_in_one_id_null = 1007;</code>
+       * <code>bool only_values_in_one_id_null = 1007;</code>
        */
       public boolean getOnlyValuesInOneIdNull() {
         return onlyValuesInOneIdNull_;
       }
       /**
-       * <code>optional bool only_values_in_one_id_null = 1007;</code>
+       * <code>bool only_values_in_one_id_null = 1007;</code>
        */
       public Builder setOnlyValuesInOneIdNull(boolean value) {
         
@@ -2934,7 +2934,7 @@ public final class StGetDSSIndexTrendAd {
         return this;
       }
       /**
-       * <code>optional bool only_values_in_one_id_null = 1007;</code>
+       * <code>bool only_values_in_one_id_null = 1007;</code>
        */
       public Builder clearOnlyValuesInOneIdNull() {
         
@@ -2947,13 +2947,13 @@ public final class StGetDSSIndexTrendAd {
       private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.values.BooleanValue, io.dstore.values.BooleanValue.Builder, io.dstore.values.BooleanValueOrBuilder> idsInOneIdAreTreeNodeIdsBuilder_;
       /**
-       * <code>optional .dstore.values.BooleanValue ids_in_one_id_are_tree_node_ids = 8;</code>
+       * <code>.dstore.values.BooleanValue ids_in_one_id_are_tree_node_ids = 8;</code>
        */
       public boolean hasIdsInOneIdAreTreeNodeIds() {
         return idsInOneIdAreTreeNodeIdsBuilder_ != null || idsInOneIdAreTreeNodeIds_ != null;
       }
       /**
-       * <code>optional .dstore.values.BooleanValue ids_in_one_id_are_tree_node_ids = 8;</code>
+       * <code>.dstore.values.BooleanValue ids_in_one_id_are_tree_node_ids = 8;</code>
        */
       public io.dstore.values.BooleanValue getIdsInOneIdAreTreeNodeIds() {
         if (idsInOneIdAreTreeNodeIdsBuilder_ == null) {
@@ -2963,7 +2963,7 @@ public final class StGetDSSIndexTrendAd {
         }
       }
       /**
-       * <code>optional .dstore.values.BooleanValue ids_in_one_id_are_tree_node_ids = 8;</code>
+       * <code>.dstore.values.BooleanValue ids_in_one_id_are_tree_node_ids = 8;</code>
        */
       public Builder setIdsInOneIdAreTreeNodeIds(io.dstore.values.BooleanValue value) {
         if (idsInOneIdAreTreeNodeIdsBuilder_ == null) {
@@ -2979,7 +2979,7 @@ public final class StGetDSSIndexTrendAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.BooleanValue ids_in_one_id_are_tree_node_ids = 8;</code>
+       * <code>.dstore.values.BooleanValue ids_in_one_id_are_tree_node_ids = 8;</code>
        */
       public Builder setIdsInOneIdAreTreeNodeIds(
           io.dstore.values.BooleanValue.Builder builderForValue) {
@@ -2993,7 +2993,7 @@ public final class StGetDSSIndexTrendAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.BooleanValue ids_in_one_id_are_tree_node_ids = 8;</code>
+       * <code>.dstore.values.BooleanValue ids_in_one_id_are_tree_node_ids = 8;</code>
        */
       public Builder mergeIdsInOneIdAreTreeNodeIds(io.dstore.values.BooleanValue value) {
         if (idsInOneIdAreTreeNodeIdsBuilder_ == null) {
@@ -3011,7 +3011,7 @@ public final class StGetDSSIndexTrendAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.BooleanValue ids_in_one_id_are_tree_node_ids = 8;</code>
+       * <code>.dstore.values.BooleanValue ids_in_one_id_are_tree_node_ids = 8;</code>
        */
       public Builder clearIdsInOneIdAreTreeNodeIds() {
         if (idsInOneIdAreTreeNodeIdsBuilder_ == null) {
@@ -3025,7 +3025,7 @@ public final class StGetDSSIndexTrendAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.BooleanValue ids_in_one_id_are_tree_node_ids = 8;</code>
+       * <code>.dstore.values.BooleanValue ids_in_one_id_are_tree_node_ids = 8;</code>
        */
       public io.dstore.values.BooleanValue.Builder getIdsInOneIdAreTreeNodeIdsBuilder() {
         
@@ -3033,7 +3033,7 @@ public final class StGetDSSIndexTrendAd {
         return getIdsInOneIdAreTreeNodeIdsFieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .dstore.values.BooleanValue ids_in_one_id_are_tree_node_ids = 8;</code>
+       * <code>.dstore.values.BooleanValue ids_in_one_id_are_tree_node_ids = 8;</code>
        */
       public io.dstore.values.BooleanValueOrBuilder getIdsInOneIdAreTreeNodeIdsOrBuilder() {
         if (idsInOneIdAreTreeNodeIdsBuilder_ != null) {
@@ -3044,7 +3044,7 @@ public final class StGetDSSIndexTrendAd {
         }
       }
       /**
-       * <code>optional .dstore.values.BooleanValue ids_in_one_id_are_tree_node_ids = 8;</code>
+       * <code>.dstore.values.BooleanValue ids_in_one_id_are_tree_node_ids = 8;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.values.BooleanValue, io.dstore.values.BooleanValue.Builder, io.dstore.values.BooleanValueOrBuilder> 
@@ -3062,13 +3062,13 @@ public final class StGetDSSIndexTrendAd {
 
       private boolean idsInOneIdAreTreeNodeIdsNull_ ;
       /**
-       * <code>optional bool ids_in_one_id_are_tree_node_ids_null = 1008;</code>
+       * <code>bool ids_in_one_id_are_tree_node_ids_null = 1008;</code>
        */
       public boolean getIdsInOneIdAreTreeNodeIdsNull() {
         return idsInOneIdAreTreeNodeIdsNull_;
       }
       /**
-       * <code>optional bool ids_in_one_id_are_tree_node_ids_null = 1008;</code>
+       * <code>bool ids_in_one_id_are_tree_node_ids_null = 1008;</code>
        */
       public Builder setIdsInOneIdAreTreeNodeIdsNull(boolean value) {
         
@@ -3077,7 +3077,7 @@ public final class StGetDSSIndexTrendAd {
         return this;
       }
       /**
-       * <code>optional bool ids_in_one_id_are_tree_node_ids_null = 1008;</code>
+       * <code>bool ids_in_one_id_are_tree_node_ids_null = 1008;</code>
        */
       public Builder clearIdsInOneIdAreTreeNodeIdsNull() {
         
@@ -3090,13 +3090,13 @@ public final class StGetDSSIndexTrendAd {
       private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.values.DecimalValue, io.dstore.values.DecimalValue.Builder, io.dstore.values.DecimalValueOrBuilder> weightViewsBuilder_;
       /**
-       * <code>optional .dstore.values.DecimalValue weight_views = 9;</code>
+       * <code>.dstore.values.DecimalValue weight_views = 9;</code>
        */
       public boolean hasWeightViews() {
         return weightViewsBuilder_ != null || weightViews_ != null;
       }
       /**
-       * <code>optional .dstore.values.DecimalValue weight_views = 9;</code>
+       * <code>.dstore.values.DecimalValue weight_views = 9;</code>
        */
       public io.dstore.values.DecimalValue getWeightViews() {
         if (weightViewsBuilder_ == null) {
@@ -3106,7 +3106,7 @@ public final class StGetDSSIndexTrendAd {
         }
       }
       /**
-       * <code>optional .dstore.values.DecimalValue weight_views = 9;</code>
+       * <code>.dstore.values.DecimalValue weight_views = 9;</code>
        */
       public Builder setWeightViews(io.dstore.values.DecimalValue value) {
         if (weightViewsBuilder_ == null) {
@@ -3122,7 +3122,7 @@ public final class StGetDSSIndexTrendAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.DecimalValue weight_views = 9;</code>
+       * <code>.dstore.values.DecimalValue weight_views = 9;</code>
        */
       public Builder setWeightViews(
           io.dstore.values.DecimalValue.Builder builderForValue) {
@@ -3136,7 +3136,7 @@ public final class StGetDSSIndexTrendAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.DecimalValue weight_views = 9;</code>
+       * <code>.dstore.values.DecimalValue weight_views = 9;</code>
        */
       public Builder mergeWeightViews(io.dstore.values.DecimalValue value) {
         if (weightViewsBuilder_ == null) {
@@ -3154,7 +3154,7 @@ public final class StGetDSSIndexTrendAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.DecimalValue weight_views = 9;</code>
+       * <code>.dstore.values.DecimalValue weight_views = 9;</code>
        */
       public Builder clearWeightViews() {
         if (weightViewsBuilder_ == null) {
@@ -3168,7 +3168,7 @@ public final class StGetDSSIndexTrendAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.DecimalValue weight_views = 9;</code>
+       * <code>.dstore.values.DecimalValue weight_views = 9;</code>
        */
       public io.dstore.values.DecimalValue.Builder getWeightViewsBuilder() {
         
@@ -3176,7 +3176,7 @@ public final class StGetDSSIndexTrendAd {
         return getWeightViewsFieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .dstore.values.DecimalValue weight_views = 9;</code>
+       * <code>.dstore.values.DecimalValue weight_views = 9;</code>
        */
       public io.dstore.values.DecimalValueOrBuilder getWeightViewsOrBuilder() {
         if (weightViewsBuilder_ != null) {
@@ -3187,7 +3187,7 @@ public final class StGetDSSIndexTrendAd {
         }
       }
       /**
-       * <code>optional .dstore.values.DecimalValue weight_views = 9;</code>
+       * <code>.dstore.values.DecimalValue weight_views = 9;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.values.DecimalValue, io.dstore.values.DecimalValue.Builder, io.dstore.values.DecimalValueOrBuilder> 
@@ -3205,13 +3205,13 @@ public final class StGetDSSIndexTrendAd {
 
       private boolean weightViewsNull_ ;
       /**
-       * <code>optional bool weight_views_null = 1009;</code>
+       * <code>bool weight_views_null = 1009;</code>
        */
       public boolean getWeightViewsNull() {
         return weightViewsNull_;
       }
       /**
-       * <code>optional bool weight_views_null = 1009;</code>
+       * <code>bool weight_views_null = 1009;</code>
        */
       public Builder setWeightViewsNull(boolean value) {
         
@@ -3220,7 +3220,7 @@ public final class StGetDSSIndexTrendAd {
         return this;
       }
       /**
-       * <code>optional bool weight_views_null = 1009;</code>
+       * <code>bool weight_views_null = 1009;</code>
        */
       public Builder clearWeightViewsNull() {
         
@@ -3233,13 +3233,13 @@ public final class StGetDSSIndexTrendAd {
       private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.values.DecimalValue, io.dstore.values.DecimalValue.Builder, io.dstore.values.DecimalValueOrBuilder> weightBuyingInterestBuilder_;
       /**
-       * <code>optional .dstore.values.DecimalValue weight_buying_interest = 10;</code>
+       * <code>.dstore.values.DecimalValue weight_buying_interest = 10;</code>
        */
       public boolean hasWeightBuyingInterest() {
         return weightBuyingInterestBuilder_ != null || weightBuyingInterest_ != null;
       }
       /**
-       * <code>optional .dstore.values.DecimalValue weight_buying_interest = 10;</code>
+       * <code>.dstore.values.DecimalValue weight_buying_interest = 10;</code>
        */
       public io.dstore.values.DecimalValue getWeightBuyingInterest() {
         if (weightBuyingInterestBuilder_ == null) {
@@ -3249,7 +3249,7 @@ public final class StGetDSSIndexTrendAd {
         }
       }
       /**
-       * <code>optional .dstore.values.DecimalValue weight_buying_interest = 10;</code>
+       * <code>.dstore.values.DecimalValue weight_buying_interest = 10;</code>
        */
       public Builder setWeightBuyingInterest(io.dstore.values.DecimalValue value) {
         if (weightBuyingInterestBuilder_ == null) {
@@ -3265,7 +3265,7 @@ public final class StGetDSSIndexTrendAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.DecimalValue weight_buying_interest = 10;</code>
+       * <code>.dstore.values.DecimalValue weight_buying_interest = 10;</code>
        */
       public Builder setWeightBuyingInterest(
           io.dstore.values.DecimalValue.Builder builderForValue) {
@@ -3279,7 +3279,7 @@ public final class StGetDSSIndexTrendAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.DecimalValue weight_buying_interest = 10;</code>
+       * <code>.dstore.values.DecimalValue weight_buying_interest = 10;</code>
        */
       public Builder mergeWeightBuyingInterest(io.dstore.values.DecimalValue value) {
         if (weightBuyingInterestBuilder_ == null) {
@@ -3297,7 +3297,7 @@ public final class StGetDSSIndexTrendAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.DecimalValue weight_buying_interest = 10;</code>
+       * <code>.dstore.values.DecimalValue weight_buying_interest = 10;</code>
        */
       public Builder clearWeightBuyingInterest() {
         if (weightBuyingInterestBuilder_ == null) {
@@ -3311,7 +3311,7 @@ public final class StGetDSSIndexTrendAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.DecimalValue weight_buying_interest = 10;</code>
+       * <code>.dstore.values.DecimalValue weight_buying_interest = 10;</code>
        */
       public io.dstore.values.DecimalValue.Builder getWeightBuyingInterestBuilder() {
         
@@ -3319,7 +3319,7 @@ public final class StGetDSSIndexTrendAd {
         return getWeightBuyingInterestFieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .dstore.values.DecimalValue weight_buying_interest = 10;</code>
+       * <code>.dstore.values.DecimalValue weight_buying_interest = 10;</code>
        */
       public io.dstore.values.DecimalValueOrBuilder getWeightBuyingInterestOrBuilder() {
         if (weightBuyingInterestBuilder_ != null) {
@@ -3330,7 +3330,7 @@ public final class StGetDSSIndexTrendAd {
         }
       }
       /**
-       * <code>optional .dstore.values.DecimalValue weight_buying_interest = 10;</code>
+       * <code>.dstore.values.DecimalValue weight_buying_interest = 10;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.values.DecimalValue, io.dstore.values.DecimalValue.Builder, io.dstore.values.DecimalValueOrBuilder> 
@@ -3348,13 +3348,13 @@ public final class StGetDSSIndexTrendAd {
 
       private boolean weightBuyingInterestNull_ ;
       /**
-       * <code>optional bool weight_buying_interest_null = 1010;</code>
+       * <code>bool weight_buying_interest_null = 1010;</code>
        */
       public boolean getWeightBuyingInterestNull() {
         return weightBuyingInterestNull_;
       }
       /**
-       * <code>optional bool weight_buying_interest_null = 1010;</code>
+       * <code>bool weight_buying_interest_null = 1010;</code>
        */
       public Builder setWeightBuyingInterestNull(boolean value) {
         
@@ -3363,7 +3363,7 @@ public final class StGetDSSIndexTrendAd {
         return this;
       }
       /**
-       * <code>optional bool weight_buying_interest_null = 1010;</code>
+       * <code>bool weight_buying_interest_null = 1010;</code>
        */
       public Builder clearWeightBuyingInterestNull() {
         
@@ -3376,13 +3376,13 @@ public final class StGetDSSIndexTrendAd {
       private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.values.DecimalValue, io.dstore.values.DecimalValue.Builder, io.dstore.values.DecimalValueOrBuilder> weightOrderBuilder_;
       /**
-       * <code>optional .dstore.values.DecimalValue weight_order = 11;</code>
+       * <code>.dstore.values.DecimalValue weight_order = 11;</code>
        */
       public boolean hasWeightOrder() {
         return weightOrderBuilder_ != null || weightOrder_ != null;
       }
       /**
-       * <code>optional .dstore.values.DecimalValue weight_order = 11;</code>
+       * <code>.dstore.values.DecimalValue weight_order = 11;</code>
        */
       public io.dstore.values.DecimalValue getWeightOrder() {
         if (weightOrderBuilder_ == null) {
@@ -3392,7 +3392,7 @@ public final class StGetDSSIndexTrendAd {
         }
       }
       /**
-       * <code>optional .dstore.values.DecimalValue weight_order = 11;</code>
+       * <code>.dstore.values.DecimalValue weight_order = 11;</code>
        */
       public Builder setWeightOrder(io.dstore.values.DecimalValue value) {
         if (weightOrderBuilder_ == null) {
@@ -3408,7 +3408,7 @@ public final class StGetDSSIndexTrendAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.DecimalValue weight_order = 11;</code>
+       * <code>.dstore.values.DecimalValue weight_order = 11;</code>
        */
       public Builder setWeightOrder(
           io.dstore.values.DecimalValue.Builder builderForValue) {
@@ -3422,7 +3422,7 @@ public final class StGetDSSIndexTrendAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.DecimalValue weight_order = 11;</code>
+       * <code>.dstore.values.DecimalValue weight_order = 11;</code>
        */
       public Builder mergeWeightOrder(io.dstore.values.DecimalValue value) {
         if (weightOrderBuilder_ == null) {
@@ -3440,7 +3440,7 @@ public final class StGetDSSIndexTrendAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.DecimalValue weight_order = 11;</code>
+       * <code>.dstore.values.DecimalValue weight_order = 11;</code>
        */
       public Builder clearWeightOrder() {
         if (weightOrderBuilder_ == null) {
@@ -3454,7 +3454,7 @@ public final class StGetDSSIndexTrendAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.DecimalValue weight_order = 11;</code>
+       * <code>.dstore.values.DecimalValue weight_order = 11;</code>
        */
       public io.dstore.values.DecimalValue.Builder getWeightOrderBuilder() {
         
@@ -3462,7 +3462,7 @@ public final class StGetDSSIndexTrendAd {
         return getWeightOrderFieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .dstore.values.DecimalValue weight_order = 11;</code>
+       * <code>.dstore.values.DecimalValue weight_order = 11;</code>
        */
       public io.dstore.values.DecimalValueOrBuilder getWeightOrderOrBuilder() {
         if (weightOrderBuilder_ != null) {
@@ -3473,7 +3473,7 @@ public final class StGetDSSIndexTrendAd {
         }
       }
       /**
-       * <code>optional .dstore.values.DecimalValue weight_order = 11;</code>
+       * <code>.dstore.values.DecimalValue weight_order = 11;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.values.DecimalValue, io.dstore.values.DecimalValue.Builder, io.dstore.values.DecimalValueOrBuilder> 
@@ -3491,13 +3491,13 @@ public final class StGetDSSIndexTrendAd {
 
       private boolean weightOrderNull_ ;
       /**
-       * <code>optional bool weight_order_null = 1011;</code>
+       * <code>bool weight_order_null = 1011;</code>
        */
       public boolean getWeightOrderNull() {
         return weightOrderNull_;
       }
       /**
-       * <code>optional bool weight_order_null = 1011;</code>
+       * <code>bool weight_order_null = 1011;</code>
        */
       public Builder setWeightOrderNull(boolean value) {
         
@@ -3506,7 +3506,7 @@ public final class StGetDSSIndexTrendAd {
         return this;
       }
       /**
-       * <code>optional bool weight_order_null = 1011;</code>
+       * <code>bool weight_order_null = 1011;</code>
        */
       public Builder clearWeightOrderNull() {
         
@@ -3519,13 +3519,13 @@ public final class StGetDSSIndexTrendAd {
       private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.values.BooleanValue, io.dstore.values.BooleanValue.Builder, io.dstore.values.BooleanValueOrBuilder> includeDeactivatedNodesBuilder_;
       /**
-       * <code>optional .dstore.values.BooleanValue include_deactivated_nodes = 12;</code>
+       * <code>.dstore.values.BooleanValue include_deactivated_nodes = 12;</code>
        */
       public boolean hasIncludeDeactivatedNodes() {
         return includeDeactivatedNodesBuilder_ != null || includeDeactivatedNodes_ != null;
       }
       /**
-       * <code>optional .dstore.values.BooleanValue include_deactivated_nodes = 12;</code>
+       * <code>.dstore.values.BooleanValue include_deactivated_nodes = 12;</code>
        */
       public io.dstore.values.BooleanValue getIncludeDeactivatedNodes() {
         if (includeDeactivatedNodesBuilder_ == null) {
@@ -3535,7 +3535,7 @@ public final class StGetDSSIndexTrendAd {
         }
       }
       /**
-       * <code>optional .dstore.values.BooleanValue include_deactivated_nodes = 12;</code>
+       * <code>.dstore.values.BooleanValue include_deactivated_nodes = 12;</code>
        */
       public Builder setIncludeDeactivatedNodes(io.dstore.values.BooleanValue value) {
         if (includeDeactivatedNodesBuilder_ == null) {
@@ -3551,7 +3551,7 @@ public final class StGetDSSIndexTrendAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.BooleanValue include_deactivated_nodes = 12;</code>
+       * <code>.dstore.values.BooleanValue include_deactivated_nodes = 12;</code>
        */
       public Builder setIncludeDeactivatedNodes(
           io.dstore.values.BooleanValue.Builder builderForValue) {
@@ -3565,7 +3565,7 @@ public final class StGetDSSIndexTrendAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.BooleanValue include_deactivated_nodes = 12;</code>
+       * <code>.dstore.values.BooleanValue include_deactivated_nodes = 12;</code>
        */
       public Builder mergeIncludeDeactivatedNodes(io.dstore.values.BooleanValue value) {
         if (includeDeactivatedNodesBuilder_ == null) {
@@ -3583,7 +3583,7 @@ public final class StGetDSSIndexTrendAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.BooleanValue include_deactivated_nodes = 12;</code>
+       * <code>.dstore.values.BooleanValue include_deactivated_nodes = 12;</code>
        */
       public Builder clearIncludeDeactivatedNodes() {
         if (includeDeactivatedNodesBuilder_ == null) {
@@ -3597,7 +3597,7 @@ public final class StGetDSSIndexTrendAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.BooleanValue include_deactivated_nodes = 12;</code>
+       * <code>.dstore.values.BooleanValue include_deactivated_nodes = 12;</code>
        */
       public io.dstore.values.BooleanValue.Builder getIncludeDeactivatedNodesBuilder() {
         
@@ -3605,7 +3605,7 @@ public final class StGetDSSIndexTrendAd {
         return getIncludeDeactivatedNodesFieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .dstore.values.BooleanValue include_deactivated_nodes = 12;</code>
+       * <code>.dstore.values.BooleanValue include_deactivated_nodes = 12;</code>
        */
       public io.dstore.values.BooleanValueOrBuilder getIncludeDeactivatedNodesOrBuilder() {
         if (includeDeactivatedNodesBuilder_ != null) {
@@ -3616,7 +3616,7 @@ public final class StGetDSSIndexTrendAd {
         }
       }
       /**
-       * <code>optional .dstore.values.BooleanValue include_deactivated_nodes = 12;</code>
+       * <code>.dstore.values.BooleanValue include_deactivated_nodes = 12;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.values.BooleanValue, io.dstore.values.BooleanValue.Builder, io.dstore.values.BooleanValueOrBuilder> 
@@ -3634,13 +3634,13 @@ public final class StGetDSSIndexTrendAd {
 
       private boolean includeDeactivatedNodesNull_ ;
       /**
-       * <code>optional bool include_deactivated_nodes_null = 1012;</code>
+       * <code>bool include_deactivated_nodes_null = 1012;</code>
        */
       public boolean getIncludeDeactivatedNodesNull() {
         return includeDeactivatedNodesNull_;
       }
       /**
-       * <code>optional bool include_deactivated_nodes_null = 1012;</code>
+       * <code>bool include_deactivated_nodes_null = 1012;</code>
        */
       public Builder setIncludeDeactivatedNodesNull(boolean value) {
         
@@ -3649,7 +3649,7 @@ public final class StGetDSSIndexTrendAd {
         return this;
       }
       /**
-       * <code>optional bool include_deactivated_nodes_null = 1012;</code>
+       * <code>bool include_deactivated_nodes_null = 1012;</code>
        */
       public Builder clearIncludeDeactivatedNodesNull() {
         
@@ -3662,13 +3662,13 @@ public final class StGetDSSIndexTrendAd {
       private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.values.BooleanValue, io.dstore.values.BooleanValue.Builder, io.dstore.values.BooleanValueOrBuilder> includeNodesWithoutTreeNodeIdBuilder_;
       /**
-       * <code>optional .dstore.values.BooleanValue include_nodes_without_tree_node_id = 13;</code>
+       * <code>.dstore.values.BooleanValue include_nodes_without_tree_node_id = 13;</code>
        */
       public boolean hasIncludeNodesWithoutTreeNodeId() {
         return includeNodesWithoutTreeNodeIdBuilder_ != null || includeNodesWithoutTreeNodeId_ != null;
       }
       /**
-       * <code>optional .dstore.values.BooleanValue include_nodes_without_tree_node_id = 13;</code>
+       * <code>.dstore.values.BooleanValue include_nodes_without_tree_node_id = 13;</code>
        */
       public io.dstore.values.BooleanValue getIncludeNodesWithoutTreeNodeId() {
         if (includeNodesWithoutTreeNodeIdBuilder_ == null) {
@@ -3678,7 +3678,7 @@ public final class StGetDSSIndexTrendAd {
         }
       }
       /**
-       * <code>optional .dstore.values.BooleanValue include_nodes_without_tree_node_id = 13;</code>
+       * <code>.dstore.values.BooleanValue include_nodes_without_tree_node_id = 13;</code>
        */
       public Builder setIncludeNodesWithoutTreeNodeId(io.dstore.values.BooleanValue value) {
         if (includeNodesWithoutTreeNodeIdBuilder_ == null) {
@@ -3694,7 +3694,7 @@ public final class StGetDSSIndexTrendAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.BooleanValue include_nodes_without_tree_node_id = 13;</code>
+       * <code>.dstore.values.BooleanValue include_nodes_without_tree_node_id = 13;</code>
        */
       public Builder setIncludeNodesWithoutTreeNodeId(
           io.dstore.values.BooleanValue.Builder builderForValue) {
@@ -3708,7 +3708,7 @@ public final class StGetDSSIndexTrendAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.BooleanValue include_nodes_without_tree_node_id = 13;</code>
+       * <code>.dstore.values.BooleanValue include_nodes_without_tree_node_id = 13;</code>
        */
       public Builder mergeIncludeNodesWithoutTreeNodeId(io.dstore.values.BooleanValue value) {
         if (includeNodesWithoutTreeNodeIdBuilder_ == null) {
@@ -3726,7 +3726,7 @@ public final class StGetDSSIndexTrendAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.BooleanValue include_nodes_without_tree_node_id = 13;</code>
+       * <code>.dstore.values.BooleanValue include_nodes_without_tree_node_id = 13;</code>
        */
       public Builder clearIncludeNodesWithoutTreeNodeId() {
         if (includeNodesWithoutTreeNodeIdBuilder_ == null) {
@@ -3740,7 +3740,7 @@ public final class StGetDSSIndexTrendAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.BooleanValue include_nodes_without_tree_node_id = 13;</code>
+       * <code>.dstore.values.BooleanValue include_nodes_without_tree_node_id = 13;</code>
        */
       public io.dstore.values.BooleanValue.Builder getIncludeNodesWithoutTreeNodeIdBuilder() {
         
@@ -3748,7 +3748,7 @@ public final class StGetDSSIndexTrendAd {
         return getIncludeNodesWithoutTreeNodeIdFieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .dstore.values.BooleanValue include_nodes_without_tree_node_id = 13;</code>
+       * <code>.dstore.values.BooleanValue include_nodes_without_tree_node_id = 13;</code>
        */
       public io.dstore.values.BooleanValueOrBuilder getIncludeNodesWithoutTreeNodeIdOrBuilder() {
         if (includeNodesWithoutTreeNodeIdBuilder_ != null) {
@@ -3759,7 +3759,7 @@ public final class StGetDSSIndexTrendAd {
         }
       }
       /**
-       * <code>optional .dstore.values.BooleanValue include_nodes_without_tree_node_id = 13;</code>
+       * <code>.dstore.values.BooleanValue include_nodes_without_tree_node_id = 13;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.values.BooleanValue, io.dstore.values.BooleanValue.Builder, io.dstore.values.BooleanValueOrBuilder> 
@@ -3777,13 +3777,13 @@ public final class StGetDSSIndexTrendAd {
 
       private boolean includeNodesWithoutTreeNodeIdNull_ ;
       /**
-       * <code>optional bool include_nodes_without_tree_node_id_null = 1013;</code>
+       * <code>bool include_nodes_without_tree_node_id_null = 1013;</code>
        */
       public boolean getIncludeNodesWithoutTreeNodeIdNull() {
         return includeNodesWithoutTreeNodeIdNull_;
       }
       /**
-       * <code>optional bool include_nodes_without_tree_node_id_null = 1013;</code>
+       * <code>bool include_nodes_without_tree_node_id_null = 1013;</code>
        */
       public Builder setIncludeNodesWithoutTreeNodeIdNull(boolean value) {
         
@@ -3792,7 +3792,7 @@ public final class StGetDSSIndexTrendAd {
         return this;
       }
       /**
-       * <code>optional bool include_nodes_without_tree_node_id_null = 1013;</code>
+       * <code>bool include_nodes_without_tree_node_id_null = 1013;</code>
        */
       public Builder clearIncludeNodesWithoutTreeNodeIdNull() {
         
@@ -3805,13 +3805,13 @@ public final class StGetDSSIndexTrendAd {
       private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> orderResultByIntervallBuilder_;
       /**
-       * <code>optional .dstore.values.IntegerValue order_result_by_intervall = 14;</code>
+       * <code>.dstore.values.IntegerValue order_result_by_intervall = 14;</code>
        */
       public boolean hasOrderResultByIntervall() {
         return orderResultByIntervallBuilder_ != null || orderResultByIntervall_ != null;
       }
       /**
-       * <code>optional .dstore.values.IntegerValue order_result_by_intervall = 14;</code>
+       * <code>.dstore.values.IntegerValue order_result_by_intervall = 14;</code>
        */
       public io.dstore.values.IntegerValue getOrderResultByIntervall() {
         if (orderResultByIntervallBuilder_ == null) {
@@ -3821,7 +3821,7 @@ public final class StGetDSSIndexTrendAd {
         }
       }
       /**
-       * <code>optional .dstore.values.IntegerValue order_result_by_intervall = 14;</code>
+       * <code>.dstore.values.IntegerValue order_result_by_intervall = 14;</code>
        */
       public Builder setOrderResultByIntervall(io.dstore.values.IntegerValue value) {
         if (orderResultByIntervallBuilder_ == null) {
@@ -3837,7 +3837,7 @@ public final class StGetDSSIndexTrendAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.IntegerValue order_result_by_intervall = 14;</code>
+       * <code>.dstore.values.IntegerValue order_result_by_intervall = 14;</code>
        */
       public Builder setOrderResultByIntervall(
           io.dstore.values.IntegerValue.Builder builderForValue) {
@@ -3851,7 +3851,7 @@ public final class StGetDSSIndexTrendAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.IntegerValue order_result_by_intervall = 14;</code>
+       * <code>.dstore.values.IntegerValue order_result_by_intervall = 14;</code>
        */
       public Builder mergeOrderResultByIntervall(io.dstore.values.IntegerValue value) {
         if (orderResultByIntervallBuilder_ == null) {
@@ -3869,7 +3869,7 @@ public final class StGetDSSIndexTrendAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.IntegerValue order_result_by_intervall = 14;</code>
+       * <code>.dstore.values.IntegerValue order_result_by_intervall = 14;</code>
        */
       public Builder clearOrderResultByIntervall() {
         if (orderResultByIntervallBuilder_ == null) {
@@ -3883,7 +3883,7 @@ public final class StGetDSSIndexTrendAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.IntegerValue order_result_by_intervall = 14;</code>
+       * <code>.dstore.values.IntegerValue order_result_by_intervall = 14;</code>
        */
       public io.dstore.values.IntegerValue.Builder getOrderResultByIntervallBuilder() {
         
@@ -3891,7 +3891,7 @@ public final class StGetDSSIndexTrendAd {
         return getOrderResultByIntervallFieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .dstore.values.IntegerValue order_result_by_intervall = 14;</code>
+       * <code>.dstore.values.IntegerValue order_result_by_intervall = 14;</code>
        */
       public io.dstore.values.IntegerValueOrBuilder getOrderResultByIntervallOrBuilder() {
         if (orderResultByIntervallBuilder_ != null) {
@@ -3902,7 +3902,7 @@ public final class StGetDSSIndexTrendAd {
         }
       }
       /**
-       * <code>optional .dstore.values.IntegerValue order_result_by_intervall = 14;</code>
+       * <code>.dstore.values.IntegerValue order_result_by_intervall = 14;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> 
@@ -3920,13 +3920,13 @@ public final class StGetDSSIndexTrendAd {
 
       private boolean orderResultByIntervallNull_ ;
       /**
-       * <code>optional bool order_result_by_intervall_null = 1014;</code>
+       * <code>bool order_result_by_intervall_null = 1014;</code>
        */
       public boolean getOrderResultByIntervallNull() {
         return orderResultByIntervallNull_;
       }
       /**
-       * <code>optional bool order_result_by_intervall_null = 1014;</code>
+       * <code>bool order_result_by_intervall_null = 1014;</code>
        */
       public Builder setOrderResultByIntervallNull(boolean value) {
         
@@ -3935,7 +3935,7 @@ public final class StGetDSSIndexTrendAd {
         return this;
       }
       /**
-       * <code>optional bool order_result_by_intervall_null = 1014;</code>
+       * <code>bool order_result_by_intervall_null = 1014;</code>
        */
       public Builder clearOrderResultByIntervallNull() {
         
@@ -4194,7 +4194,7 @@ public final class StGetDSSIndexTrendAd {
         com.google.protobuf.MessageOrBuilder {
 
       /**
-       * <code>optional int32 row_id = 10000;</code>
+       * <code>int32 row_id = 10000;</code>
        */
       int getRowId();
 
@@ -4203,7 +4203,7 @@ public final class StGetDSSIndexTrendAd {
        * Zeitpunkt des Beginns des Intervalls "Intervall"
        * </pre>
        *
-       * <code>optional .dstore.values.TimestampValue intervall_start = 10001;</code>
+       * <code>.dstore.values.TimestampValue intervall_start = 10001;</code>
        */
       boolean hasIntervallStart();
       /**
@@ -4211,7 +4211,7 @@ public final class StGetDSSIndexTrendAd {
        * Zeitpunkt des Beginns des Intervalls "Intervall"
        * </pre>
        *
-       * <code>optional .dstore.values.TimestampValue intervall_start = 10001;</code>
+       * <code>.dstore.values.TimestampValue intervall_start = 10001;</code>
        */
       io.dstore.values.TimestampValue getIntervallStart();
       /**
@@ -4219,7 +4219,7 @@ public final class StGetDSSIndexTrendAd {
        * Zeitpunkt des Beginns des Intervalls "Intervall"
        * </pre>
        *
-       * <code>optional .dstore.values.TimestampValue intervall_start = 10001;</code>
+       * <code>.dstore.values.TimestampValue intervall_start = 10001;</code>
        */
       io.dstore.values.TimestampValueOrBuilder getIntervallStartOrBuilder();
 
@@ -4228,7 +4228,7 @@ public final class StGetDSSIndexTrendAd {
        * Summe der "Bestellungen" (Werte zur Basis-Kenzahl mit "BasicCharacteristicNumber = 4" - es wird gezählt, wie OFT ein Produkt bestellt wurde) zum Element "TrendOf_ID" im Zeitraum "IntervallStart" bis "IntervallStart + &#64;MinutesPerIntervall Minuten"
        * </pre>
        *
-       * <code>optional .dstore.values.DecimalValue orders = 10002;</code>
+       * <code>.dstore.values.DecimalValue orders = 10002;</code>
        */
       boolean hasOrders();
       /**
@@ -4236,7 +4236,7 @@ public final class StGetDSSIndexTrendAd {
        * Summe der "Bestellungen" (Werte zur Basis-Kenzahl mit "BasicCharacteristicNumber = 4" - es wird gezählt, wie OFT ein Produkt bestellt wurde) zum Element "TrendOf_ID" im Zeitraum "IntervallStart" bis "IntervallStart + &#64;MinutesPerIntervall Minuten"
        * </pre>
        *
-       * <code>optional .dstore.values.DecimalValue orders = 10002;</code>
+       * <code>.dstore.values.DecimalValue orders = 10002;</code>
        */
       io.dstore.values.DecimalValue getOrders();
       /**
@@ -4244,7 +4244,7 @@ public final class StGetDSSIndexTrendAd {
        * Summe der "Bestellungen" (Werte zur Basis-Kenzahl mit "BasicCharacteristicNumber = 4" - es wird gezählt, wie OFT ein Produkt bestellt wurde) zum Element "TrendOf_ID" im Zeitraum "IntervallStart" bis "IntervallStart + &#64;MinutesPerIntervall Minuten"
        * </pre>
        *
-       * <code>optional .dstore.values.DecimalValue orders = 10002;</code>
+       * <code>.dstore.values.DecimalValue orders = 10002;</code>
        */
       io.dstore.values.DecimalValueOrBuilder getOrdersOrBuilder();
 
@@ -4253,7 +4253,7 @@ public final class StGetDSSIndexTrendAd {
        * Zusammengesetzte Kennzahl nach der Formel :(Views * &#64;Weight_Views) + (BuyingInterests * &#64;Weight_BuyingInterest) + (Orders * &#64;Weight_Order)
        * </pre>
        *
-       * <code>optional .dstore.values.DecimalValue v_b_o_index = 10003;</code>
+       * <code>.dstore.values.DecimalValue v_b_o_index = 10003;</code>
        */
       boolean hasVBOIndex();
       /**
@@ -4261,7 +4261,7 @@ public final class StGetDSSIndexTrendAd {
        * Zusammengesetzte Kennzahl nach der Formel :(Views * &#64;Weight_Views) + (BuyingInterests * &#64;Weight_BuyingInterest) + (Orders * &#64;Weight_Order)
        * </pre>
        *
-       * <code>optional .dstore.values.DecimalValue v_b_o_index = 10003;</code>
+       * <code>.dstore.values.DecimalValue v_b_o_index = 10003;</code>
        */
       io.dstore.values.DecimalValue getVBOIndex();
       /**
@@ -4269,7 +4269,7 @@ public final class StGetDSSIndexTrendAd {
        * Zusammengesetzte Kennzahl nach der Formel :(Views * &#64;Weight_Views) + (BuyingInterests * &#64;Weight_BuyingInterest) + (Orders * &#64;Weight_Order)
        * </pre>
        *
-       * <code>optional .dstore.values.DecimalValue v_b_o_index = 10003;</code>
+       * <code>.dstore.values.DecimalValue v_b_o_index = 10003;</code>
        */
       io.dstore.values.DecimalValueOrBuilder getVBOIndexOrBuilder();
 
@@ -4278,7 +4278,7 @@ public final class StGetDSSIndexTrendAd {
        * ID des Elementes auf das sich die Angaben beziehen, also entweder die ID eines Artikel-Elementes oder die ID einer Eigenschaft (falls eine "&#64;GroupByNodeCharacteristicID" angegeben wurde oder Eigenschaften in "tempdb.dbo.OneID" übergeben wurden)
        * </pre>
        *
-       * <code>optional .dstore.values.IntegerValue trend_of_id = 10004;</code>
+       * <code>.dstore.values.IntegerValue trend_of_id = 10004;</code>
        */
       boolean hasTrendOfId();
       /**
@@ -4286,7 +4286,7 @@ public final class StGetDSSIndexTrendAd {
        * ID des Elementes auf das sich die Angaben beziehen, also entweder die ID eines Artikel-Elementes oder die ID einer Eigenschaft (falls eine "&#64;GroupByNodeCharacteristicID" angegeben wurde oder Eigenschaften in "tempdb.dbo.OneID" übergeben wurden)
        * </pre>
        *
-       * <code>optional .dstore.values.IntegerValue trend_of_id = 10004;</code>
+       * <code>.dstore.values.IntegerValue trend_of_id = 10004;</code>
        */
       io.dstore.values.IntegerValue getTrendOfId();
       /**
@@ -4294,7 +4294,7 @@ public final class StGetDSSIndexTrendAd {
        * ID des Elementes auf das sich die Angaben beziehen, also entweder die ID eines Artikel-Elementes oder die ID einer Eigenschaft (falls eine "&#64;GroupByNodeCharacteristicID" angegeben wurde oder Eigenschaften in "tempdb.dbo.OneID" übergeben wurden)
        * </pre>
        *
-       * <code>optional .dstore.values.IntegerValue trend_of_id = 10004;</code>
+       * <code>.dstore.values.IntegerValue trend_of_id = 10004;</code>
        */
       io.dstore.values.IntegerValueOrBuilder getTrendOfIdOrBuilder();
 
@@ -4303,7 +4303,7 @@ public final class StGetDSSIndexTrendAd {
        * Summe der "Views" (Werte zur Basis-Kenzahl mit "BasicCharacteristicNumber = 1") zum Element "TrendOf_ID" im Zeitraum "IntervallStart" bis "IntervallStart + &#64;MinutesPerIntervall Minuten"
        * </pre>
        *
-       * <code>optional .dstore.values.DecimalValue views = 10005;</code>
+       * <code>.dstore.values.DecimalValue views = 10005;</code>
        */
       boolean hasViews();
       /**
@@ -4311,7 +4311,7 @@ public final class StGetDSSIndexTrendAd {
        * Summe der "Views" (Werte zur Basis-Kenzahl mit "BasicCharacteristicNumber = 1") zum Element "TrendOf_ID" im Zeitraum "IntervallStart" bis "IntervallStart + &#64;MinutesPerIntervall Minuten"
        * </pre>
        *
-       * <code>optional .dstore.values.DecimalValue views = 10005;</code>
+       * <code>.dstore.values.DecimalValue views = 10005;</code>
        */
       io.dstore.values.DecimalValue getViews();
       /**
@@ -4319,7 +4319,7 @@ public final class StGetDSSIndexTrendAd {
        * Summe der "Views" (Werte zur Basis-Kenzahl mit "BasicCharacteristicNumber = 1") zum Element "TrendOf_ID" im Zeitraum "IntervallStart" bis "IntervallStart + &#64;MinutesPerIntervall Minuten"
        * </pre>
        *
-       * <code>optional .dstore.values.DecimalValue views = 10005;</code>
+       * <code>.dstore.values.DecimalValue views = 10005;</code>
        */
       io.dstore.values.DecimalValueOrBuilder getViewsOrBuilder();
 
@@ -4328,7 +4328,7 @@ public final class StGetDSSIndexTrendAd {
        * Bezeichnung des Elementes "TrendOf_ID" - also entweder eine "NodeDescription" oder ein "Value"
        * </pre>
        *
-       * <code>optional .dstore.values.StringValue trend_of_description = 10006;</code>
+       * <code>.dstore.values.StringValue trend_of_description = 10006;</code>
        */
       boolean hasTrendOfDescription();
       /**
@@ -4336,7 +4336,7 @@ public final class StGetDSSIndexTrendAd {
        * Bezeichnung des Elementes "TrendOf_ID" - also entweder eine "NodeDescription" oder ein "Value"
        * </pre>
        *
-       * <code>optional .dstore.values.StringValue trend_of_description = 10006;</code>
+       * <code>.dstore.values.StringValue trend_of_description = 10006;</code>
        */
       io.dstore.values.StringValue getTrendOfDescription();
       /**
@@ -4344,7 +4344,7 @@ public final class StGetDSSIndexTrendAd {
        * Bezeichnung des Elementes "TrendOf_ID" - also entweder eine "NodeDescription" oder ein "Value"
        * </pre>
        *
-       * <code>optional .dstore.values.StringValue trend_of_description = 10006;</code>
+       * <code>.dstore.values.StringValue trend_of_description = 10006;</code>
        */
       io.dstore.values.StringValueOrBuilder getTrendOfDescriptionOrBuilder();
 
@@ -4353,7 +4353,7 @@ public final class StGetDSSIndexTrendAd {
        * Nummer des Intervalls (von 1 bis "&#64;Intervalls")
        * </pre>
        *
-       * <code>optional .dstore.values.IntegerValue intervall = 10007;</code>
+       * <code>.dstore.values.IntegerValue intervall = 10007;</code>
        */
       boolean hasIntervall();
       /**
@@ -4361,7 +4361,7 @@ public final class StGetDSSIndexTrendAd {
        * Nummer des Intervalls (von 1 bis "&#64;Intervalls")
        * </pre>
        *
-       * <code>optional .dstore.values.IntegerValue intervall = 10007;</code>
+       * <code>.dstore.values.IntegerValue intervall = 10007;</code>
        */
       io.dstore.values.IntegerValue getIntervall();
       /**
@@ -4369,7 +4369,7 @@ public final class StGetDSSIndexTrendAd {
        * Nummer des Intervalls (von 1 bis "&#64;Intervalls")
        * </pre>
        *
-       * <code>optional .dstore.values.IntegerValue intervall = 10007;</code>
+       * <code>.dstore.values.IntegerValue intervall = 10007;</code>
        */
       io.dstore.values.IntegerValueOrBuilder getIntervallOrBuilder();
 
@@ -4378,7 +4378,7 @@ public final class StGetDSSIndexTrendAd {
        * Summe der "Kaufinteressen" (Werte zur Basis-Kenzahl mit "BasicCharacteristicNumber = 2") zum Element "TrendOf_ID" im Zeitraum "IntervallStart" bis "IntervallStart + &#64;MinutesPerIntervall Minuten"
        * </pre>
        *
-       * <code>optional .dstore.values.DecimalValue buying_interests = 10008;</code>
+       * <code>.dstore.values.DecimalValue buying_interests = 10008;</code>
        */
       boolean hasBuyingInterests();
       /**
@@ -4386,7 +4386,7 @@ public final class StGetDSSIndexTrendAd {
        * Summe der "Kaufinteressen" (Werte zur Basis-Kenzahl mit "BasicCharacteristicNumber = 2") zum Element "TrendOf_ID" im Zeitraum "IntervallStart" bis "IntervallStart + &#64;MinutesPerIntervall Minuten"
        * </pre>
        *
-       * <code>optional .dstore.values.DecimalValue buying_interests = 10008;</code>
+       * <code>.dstore.values.DecimalValue buying_interests = 10008;</code>
        */
       io.dstore.values.DecimalValue getBuyingInterests();
       /**
@@ -4394,7 +4394,7 @@ public final class StGetDSSIndexTrendAd {
        * Summe der "Kaufinteressen" (Werte zur Basis-Kenzahl mit "BasicCharacteristicNumber = 2") zum Element "TrendOf_ID" im Zeitraum "IntervallStart" bis "IntervallStart + &#64;MinutesPerIntervall Minuten"
        * </pre>
        *
-       * <code>optional .dstore.values.DecimalValue buying_interests = 10008;</code>
+       * <code>.dstore.values.DecimalValue buying_interests = 10008;</code>
        */
       io.dstore.values.DecimalValueOrBuilder getBuyingInterestsOrBuilder();
     }
@@ -4573,7 +4573,7 @@ public final class StGetDSSIndexTrendAd {
       public static final int ROW_ID_FIELD_NUMBER = 10000;
       private int rowId_;
       /**
-       * <code>optional int32 row_id = 10000;</code>
+       * <code>int32 row_id = 10000;</code>
        */
       public int getRowId() {
         return rowId_;
@@ -4586,7 +4586,7 @@ public final class StGetDSSIndexTrendAd {
        * Zeitpunkt des Beginns des Intervalls "Intervall"
        * </pre>
        *
-       * <code>optional .dstore.values.TimestampValue intervall_start = 10001;</code>
+       * <code>.dstore.values.TimestampValue intervall_start = 10001;</code>
        */
       public boolean hasIntervallStart() {
         return intervallStart_ != null;
@@ -4596,7 +4596,7 @@ public final class StGetDSSIndexTrendAd {
        * Zeitpunkt des Beginns des Intervalls "Intervall"
        * </pre>
        *
-       * <code>optional .dstore.values.TimestampValue intervall_start = 10001;</code>
+       * <code>.dstore.values.TimestampValue intervall_start = 10001;</code>
        */
       public io.dstore.values.TimestampValue getIntervallStart() {
         return intervallStart_ == null ? io.dstore.values.TimestampValue.getDefaultInstance() : intervallStart_;
@@ -4606,7 +4606,7 @@ public final class StGetDSSIndexTrendAd {
        * Zeitpunkt des Beginns des Intervalls "Intervall"
        * </pre>
        *
-       * <code>optional .dstore.values.TimestampValue intervall_start = 10001;</code>
+       * <code>.dstore.values.TimestampValue intervall_start = 10001;</code>
        */
       public io.dstore.values.TimestampValueOrBuilder getIntervallStartOrBuilder() {
         return getIntervallStart();
@@ -4619,7 +4619,7 @@ public final class StGetDSSIndexTrendAd {
        * Summe der "Bestellungen" (Werte zur Basis-Kenzahl mit "BasicCharacteristicNumber = 4" - es wird gezählt, wie OFT ein Produkt bestellt wurde) zum Element "TrendOf_ID" im Zeitraum "IntervallStart" bis "IntervallStart + &#64;MinutesPerIntervall Minuten"
        * </pre>
        *
-       * <code>optional .dstore.values.DecimalValue orders = 10002;</code>
+       * <code>.dstore.values.DecimalValue orders = 10002;</code>
        */
       public boolean hasOrders() {
         return orders_ != null;
@@ -4629,7 +4629,7 @@ public final class StGetDSSIndexTrendAd {
        * Summe der "Bestellungen" (Werte zur Basis-Kenzahl mit "BasicCharacteristicNumber = 4" - es wird gezählt, wie OFT ein Produkt bestellt wurde) zum Element "TrendOf_ID" im Zeitraum "IntervallStart" bis "IntervallStart + &#64;MinutesPerIntervall Minuten"
        * </pre>
        *
-       * <code>optional .dstore.values.DecimalValue orders = 10002;</code>
+       * <code>.dstore.values.DecimalValue orders = 10002;</code>
        */
       public io.dstore.values.DecimalValue getOrders() {
         return orders_ == null ? io.dstore.values.DecimalValue.getDefaultInstance() : orders_;
@@ -4639,7 +4639,7 @@ public final class StGetDSSIndexTrendAd {
        * Summe der "Bestellungen" (Werte zur Basis-Kenzahl mit "BasicCharacteristicNumber = 4" - es wird gezählt, wie OFT ein Produkt bestellt wurde) zum Element "TrendOf_ID" im Zeitraum "IntervallStart" bis "IntervallStart + &#64;MinutesPerIntervall Minuten"
        * </pre>
        *
-       * <code>optional .dstore.values.DecimalValue orders = 10002;</code>
+       * <code>.dstore.values.DecimalValue orders = 10002;</code>
        */
       public io.dstore.values.DecimalValueOrBuilder getOrdersOrBuilder() {
         return getOrders();
@@ -4652,7 +4652,7 @@ public final class StGetDSSIndexTrendAd {
        * Zusammengesetzte Kennzahl nach der Formel :(Views * &#64;Weight_Views) + (BuyingInterests * &#64;Weight_BuyingInterest) + (Orders * &#64;Weight_Order)
        * </pre>
        *
-       * <code>optional .dstore.values.DecimalValue v_b_o_index = 10003;</code>
+       * <code>.dstore.values.DecimalValue v_b_o_index = 10003;</code>
        */
       public boolean hasVBOIndex() {
         return vBOIndex_ != null;
@@ -4662,7 +4662,7 @@ public final class StGetDSSIndexTrendAd {
        * Zusammengesetzte Kennzahl nach der Formel :(Views * &#64;Weight_Views) + (BuyingInterests * &#64;Weight_BuyingInterest) + (Orders * &#64;Weight_Order)
        * </pre>
        *
-       * <code>optional .dstore.values.DecimalValue v_b_o_index = 10003;</code>
+       * <code>.dstore.values.DecimalValue v_b_o_index = 10003;</code>
        */
       public io.dstore.values.DecimalValue getVBOIndex() {
         return vBOIndex_ == null ? io.dstore.values.DecimalValue.getDefaultInstance() : vBOIndex_;
@@ -4672,7 +4672,7 @@ public final class StGetDSSIndexTrendAd {
        * Zusammengesetzte Kennzahl nach der Formel :(Views * &#64;Weight_Views) + (BuyingInterests * &#64;Weight_BuyingInterest) + (Orders * &#64;Weight_Order)
        * </pre>
        *
-       * <code>optional .dstore.values.DecimalValue v_b_o_index = 10003;</code>
+       * <code>.dstore.values.DecimalValue v_b_o_index = 10003;</code>
        */
       public io.dstore.values.DecimalValueOrBuilder getVBOIndexOrBuilder() {
         return getVBOIndex();
@@ -4685,7 +4685,7 @@ public final class StGetDSSIndexTrendAd {
        * ID des Elementes auf das sich die Angaben beziehen, also entweder die ID eines Artikel-Elementes oder die ID einer Eigenschaft (falls eine "&#64;GroupByNodeCharacteristicID" angegeben wurde oder Eigenschaften in "tempdb.dbo.OneID" übergeben wurden)
        * </pre>
        *
-       * <code>optional .dstore.values.IntegerValue trend_of_id = 10004;</code>
+       * <code>.dstore.values.IntegerValue trend_of_id = 10004;</code>
        */
       public boolean hasTrendOfId() {
         return trendOfId_ != null;
@@ -4695,7 +4695,7 @@ public final class StGetDSSIndexTrendAd {
        * ID des Elementes auf das sich die Angaben beziehen, also entweder die ID eines Artikel-Elementes oder die ID einer Eigenschaft (falls eine "&#64;GroupByNodeCharacteristicID" angegeben wurde oder Eigenschaften in "tempdb.dbo.OneID" übergeben wurden)
        * </pre>
        *
-       * <code>optional .dstore.values.IntegerValue trend_of_id = 10004;</code>
+       * <code>.dstore.values.IntegerValue trend_of_id = 10004;</code>
        */
       public io.dstore.values.IntegerValue getTrendOfId() {
         return trendOfId_ == null ? io.dstore.values.IntegerValue.getDefaultInstance() : trendOfId_;
@@ -4705,7 +4705,7 @@ public final class StGetDSSIndexTrendAd {
        * ID des Elementes auf das sich die Angaben beziehen, also entweder die ID eines Artikel-Elementes oder die ID einer Eigenschaft (falls eine "&#64;GroupByNodeCharacteristicID" angegeben wurde oder Eigenschaften in "tempdb.dbo.OneID" übergeben wurden)
        * </pre>
        *
-       * <code>optional .dstore.values.IntegerValue trend_of_id = 10004;</code>
+       * <code>.dstore.values.IntegerValue trend_of_id = 10004;</code>
        */
       public io.dstore.values.IntegerValueOrBuilder getTrendOfIdOrBuilder() {
         return getTrendOfId();
@@ -4718,7 +4718,7 @@ public final class StGetDSSIndexTrendAd {
        * Summe der "Views" (Werte zur Basis-Kenzahl mit "BasicCharacteristicNumber = 1") zum Element "TrendOf_ID" im Zeitraum "IntervallStart" bis "IntervallStart + &#64;MinutesPerIntervall Minuten"
        * </pre>
        *
-       * <code>optional .dstore.values.DecimalValue views = 10005;</code>
+       * <code>.dstore.values.DecimalValue views = 10005;</code>
        */
       public boolean hasViews() {
         return views_ != null;
@@ -4728,7 +4728,7 @@ public final class StGetDSSIndexTrendAd {
        * Summe der "Views" (Werte zur Basis-Kenzahl mit "BasicCharacteristicNumber = 1") zum Element "TrendOf_ID" im Zeitraum "IntervallStart" bis "IntervallStart + &#64;MinutesPerIntervall Minuten"
        * </pre>
        *
-       * <code>optional .dstore.values.DecimalValue views = 10005;</code>
+       * <code>.dstore.values.DecimalValue views = 10005;</code>
        */
       public io.dstore.values.DecimalValue getViews() {
         return views_ == null ? io.dstore.values.DecimalValue.getDefaultInstance() : views_;
@@ -4738,7 +4738,7 @@ public final class StGetDSSIndexTrendAd {
        * Summe der "Views" (Werte zur Basis-Kenzahl mit "BasicCharacteristicNumber = 1") zum Element "TrendOf_ID" im Zeitraum "IntervallStart" bis "IntervallStart + &#64;MinutesPerIntervall Minuten"
        * </pre>
        *
-       * <code>optional .dstore.values.DecimalValue views = 10005;</code>
+       * <code>.dstore.values.DecimalValue views = 10005;</code>
        */
       public io.dstore.values.DecimalValueOrBuilder getViewsOrBuilder() {
         return getViews();
@@ -4751,7 +4751,7 @@ public final class StGetDSSIndexTrendAd {
        * Bezeichnung des Elementes "TrendOf_ID" - also entweder eine "NodeDescription" oder ein "Value"
        * </pre>
        *
-       * <code>optional .dstore.values.StringValue trend_of_description = 10006;</code>
+       * <code>.dstore.values.StringValue trend_of_description = 10006;</code>
        */
       public boolean hasTrendOfDescription() {
         return trendOfDescription_ != null;
@@ -4761,7 +4761,7 @@ public final class StGetDSSIndexTrendAd {
        * Bezeichnung des Elementes "TrendOf_ID" - also entweder eine "NodeDescription" oder ein "Value"
        * </pre>
        *
-       * <code>optional .dstore.values.StringValue trend_of_description = 10006;</code>
+       * <code>.dstore.values.StringValue trend_of_description = 10006;</code>
        */
       public io.dstore.values.StringValue getTrendOfDescription() {
         return trendOfDescription_ == null ? io.dstore.values.StringValue.getDefaultInstance() : trendOfDescription_;
@@ -4771,7 +4771,7 @@ public final class StGetDSSIndexTrendAd {
        * Bezeichnung des Elementes "TrendOf_ID" - also entweder eine "NodeDescription" oder ein "Value"
        * </pre>
        *
-       * <code>optional .dstore.values.StringValue trend_of_description = 10006;</code>
+       * <code>.dstore.values.StringValue trend_of_description = 10006;</code>
        */
       public io.dstore.values.StringValueOrBuilder getTrendOfDescriptionOrBuilder() {
         return getTrendOfDescription();
@@ -4784,7 +4784,7 @@ public final class StGetDSSIndexTrendAd {
        * Nummer des Intervalls (von 1 bis "&#64;Intervalls")
        * </pre>
        *
-       * <code>optional .dstore.values.IntegerValue intervall = 10007;</code>
+       * <code>.dstore.values.IntegerValue intervall = 10007;</code>
        */
       public boolean hasIntervall() {
         return intervall_ != null;
@@ -4794,7 +4794,7 @@ public final class StGetDSSIndexTrendAd {
        * Nummer des Intervalls (von 1 bis "&#64;Intervalls")
        * </pre>
        *
-       * <code>optional .dstore.values.IntegerValue intervall = 10007;</code>
+       * <code>.dstore.values.IntegerValue intervall = 10007;</code>
        */
       public io.dstore.values.IntegerValue getIntervall() {
         return intervall_ == null ? io.dstore.values.IntegerValue.getDefaultInstance() : intervall_;
@@ -4804,7 +4804,7 @@ public final class StGetDSSIndexTrendAd {
        * Nummer des Intervalls (von 1 bis "&#64;Intervalls")
        * </pre>
        *
-       * <code>optional .dstore.values.IntegerValue intervall = 10007;</code>
+       * <code>.dstore.values.IntegerValue intervall = 10007;</code>
        */
       public io.dstore.values.IntegerValueOrBuilder getIntervallOrBuilder() {
         return getIntervall();
@@ -4817,7 +4817,7 @@ public final class StGetDSSIndexTrendAd {
        * Summe der "Kaufinteressen" (Werte zur Basis-Kenzahl mit "BasicCharacteristicNumber = 2") zum Element "TrendOf_ID" im Zeitraum "IntervallStart" bis "IntervallStart + &#64;MinutesPerIntervall Minuten"
        * </pre>
        *
-       * <code>optional .dstore.values.DecimalValue buying_interests = 10008;</code>
+       * <code>.dstore.values.DecimalValue buying_interests = 10008;</code>
        */
       public boolean hasBuyingInterests() {
         return buyingInterests_ != null;
@@ -4827,7 +4827,7 @@ public final class StGetDSSIndexTrendAd {
        * Summe der "Kaufinteressen" (Werte zur Basis-Kenzahl mit "BasicCharacteristicNumber = 2") zum Element "TrendOf_ID" im Zeitraum "IntervallStart" bis "IntervallStart + &#64;MinutesPerIntervall Minuten"
        * </pre>
        *
-       * <code>optional .dstore.values.DecimalValue buying_interests = 10008;</code>
+       * <code>.dstore.values.DecimalValue buying_interests = 10008;</code>
        */
       public io.dstore.values.DecimalValue getBuyingInterests() {
         return buyingInterests_ == null ? io.dstore.values.DecimalValue.getDefaultInstance() : buyingInterests_;
@@ -4837,7 +4837,7 @@ public final class StGetDSSIndexTrendAd {
        * Summe der "Kaufinteressen" (Werte zur Basis-Kenzahl mit "BasicCharacteristicNumber = 2") zum Element "TrendOf_ID" im Zeitraum "IntervallStart" bis "IntervallStart + &#64;MinutesPerIntervall Minuten"
        * </pre>
        *
-       * <code>optional .dstore.values.DecimalValue buying_interests = 10008;</code>
+       * <code>.dstore.values.DecimalValue buying_interests = 10008;</code>
        */
       public io.dstore.values.DecimalValueOrBuilder getBuyingInterestsOrBuilder() {
         return getBuyingInterests();
@@ -4992,7 +4992,7 @@ public final class StGetDSSIndexTrendAd {
           return memoizedHashCode;
         }
         int hash = 41;
-        hash = (19 * hash) + getDescriptorForType().hashCode();
+        hash = (19 * hash) + getDescriptor().hashCode();
         hash = (37 * hash) + ROW_ID_FIELD_NUMBER;
         hash = (53 * hash) + getRowId();
         if (hasIntervallStart()) {
@@ -5354,13 +5354,13 @@ public final class StGetDSSIndexTrendAd {
 
         private int rowId_ ;
         /**
-         * <code>optional int32 row_id = 10000;</code>
+         * <code>int32 row_id = 10000;</code>
          */
         public int getRowId() {
           return rowId_;
         }
         /**
-         * <code>optional int32 row_id = 10000;</code>
+         * <code>int32 row_id = 10000;</code>
          */
         public Builder setRowId(int value) {
           
@@ -5369,7 +5369,7 @@ public final class StGetDSSIndexTrendAd {
           return this;
         }
         /**
-         * <code>optional int32 row_id = 10000;</code>
+         * <code>int32 row_id = 10000;</code>
          */
         public Builder clearRowId() {
           
@@ -5386,7 +5386,7 @@ public final class StGetDSSIndexTrendAd {
          * Zeitpunkt des Beginns des Intervalls "Intervall"
          * </pre>
          *
-         * <code>optional .dstore.values.TimestampValue intervall_start = 10001;</code>
+         * <code>.dstore.values.TimestampValue intervall_start = 10001;</code>
          */
         public boolean hasIntervallStart() {
           return intervallStartBuilder_ != null || intervallStart_ != null;
@@ -5396,7 +5396,7 @@ public final class StGetDSSIndexTrendAd {
          * Zeitpunkt des Beginns des Intervalls "Intervall"
          * </pre>
          *
-         * <code>optional .dstore.values.TimestampValue intervall_start = 10001;</code>
+         * <code>.dstore.values.TimestampValue intervall_start = 10001;</code>
          */
         public io.dstore.values.TimestampValue getIntervallStart() {
           if (intervallStartBuilder_ == null) {
@@ -5410,7 +5410,7 @@ public final class StGetDSSIndexTrendAd {
          * Zeitpunkt des Beginns des Intervalls "Intervall"
          * </pre>
          *
-         * <code>optional .dstore.values.TimestampValue intervall_start = 10001;</code>
+         * <code>.dstore.values.TimestampValue intervall_start = 10001;</code>
          */
         public Builder setIntervallStart(io.dstore.values.TimestampValue value) {
           if (intervallStartBuilder_ == null) {
@@ -5430,7 +5430,7 @@ public final class StGetDSSIndexTrendAd {
          * Zeitpunkt des Beginns des Intervalls "Intervall"
          * </pre>
          *
-         * <code>optional .dstore.values.TimestampValue intervall_start = 10001;</code>
+         * <code>.dstore.values.TimestampValue intervall_start = 10001;</code>
          */
         public Builder setIntervallStart(
             io.dstore.values.TimestampValue.Builder builderForValue) {
@@ -5448,7 +5448,7 @@ public final class StGetDSSIndexTrendAd {
          * Zeitpunkt des Beginns des Intervalls "Intervall"
          * </pre>
          *
-         * <code>optional .dstore.values.TimestampValue intervall_start = 10001;</code>
+         * <code>.dstore.values.TimestampValue intervall_start = 10001;</code>
          */
         public Builder mergeIntervallStart(io.dstore.values.TimestampValue value) {
           if (intervallStartBuilder_ == null) {
@@ -5470,7 +5470,7 @@ public final class StGetDSSIndexTrendAd {
          * Zeitpunkt des Beginns des Intervalls "Intervall"
          * </pre>
          *
-         * <code>optional .dstore.values.TimestampValue intervall_start = 10001;</code>
+         * <code>.dstore.values.TimestampValue intervall_start = 10001;</code>
          */
         public Builder clearIntervallStart() {
           if (intervallStartBuilder_ == null) {
@@ -5488,7 +5488,7 @@ public final class StGetDSSIndexTrendAd {
          * Zeitpunkt des Beginns des Intervalls "Intervall"
          * </pre>
          *
-         * <code>optional .dstore.values.TimestampValue intervall_start = 10001;</code>
+         * <code>.dstore.values.TimestampValue intervall_start = 10001;</code>
          */
         public io.dstore.values.TimestampValue.Builder getIntervallStartBuilder() {
           
@@ -5500,7 +5500,7 @@ public final class StGetDSSIndexTrendAd {
          * Zeitpunkt des Beginns des Intervalls "Intervall"
          * </pre>
          *
-         * <code>optional .dstore.values.TimestampValue intervall_start = 10001;</code>
+         * <code>.dstore.values.TimestampValue intervall_start = 10001;</code>
          */
         public io.dstore.values.TimestampValueOrBuilder getIntervallStartOrBuilder() {
           if (intervallStartBuilder_ != null) {
@@ -5515,7 +5515,7 @@ public final class StGetDSSIndexTrendAd {
          * Zeitpunkt des Beginns des Intervalls "Intervall"
          * </pre>
          *
-         * <code>optional .dstore.values.TimestampValue intervall_start = 10001;</code>
+         * <code>.dstore.values.TimestampValue intervall_start = 10001;</code>
          */
         private com.google.protobuf.SingleFieldBuilderV3<
             io.dstore.values.TimestampValue, io.dstore.values.TimestampValue.Builder, io.dstore.values.TimestampValueOrBuilder> 
@@ -5539,7 +5539,7 @@ public final class StGetDSSIndexTrendAd {
          * Summe der "Bestellungen" (Werte zur Basis-Kenzahl mit "BasicCharacteristicNumber = 4" - es wird gezählt, wie OFT ein Produkt bestellt wurde) zum Element "TrendOf_ID" im Zeitraum "IntervallStart" bis "IntervallStart + &#64;MinutesPerIntervall Minuten"
          * </pre>
          *
-         * <code>optional .dstore.values.DecimalValue orders = 10002;</code>
+         * <code>.dstore.values.DecimalValue orders = 10002;</code>
          */
         public boolean hasOrders() {
           return ordersBuilder_ != null || orders_ != null;
@@ -5549,7 +5549,7 @@ public final class StGetDSSIndexTrendAd {
          * Summe der "Bestellungen" (Werte zur Basis-Kenzahl mit "BasicCharacteristicNumber = 4" - es wird gezählt, wie OFT ein Produkt bestellt wurde) zum Element "TrendOf_ID" im Zeitraum "IntervallStart" bis "IntervallStart + &#64;MinutesPerIntervall Minuten"
          * </pre>
          *
-         * <code>optional .dstore.values.DecimalValue orders = 10002;</code>
+         * <code>.dstore.values.DecimalValue orders = 10002;</code>
          */
         public io.dstore.values.DecimalValue getOrders() {
           if (ordersBuilder_ == null) {
@@ -5563,7 +5563,7 @@ public final class StGetDSSIndexTrendAd {
          * Summe der "Bestellungen" (Werte zur Basis-Kenzahl mit "BasicCharacteristicNumber = 4" - es wird gezählt, wie OFT ein Produkt bestellt wurde) zum Element "TrendOf_ID" im Zeitraum "IntervallStart" bis "IntervallStart + &#64;MinutesPerIntervall Minuten"
          * </pre>
          *
-         * <code>optional .dstore.values.DecimalValue orders = 10002;</code>
+         * <code>.dstore.values.DecimalValue orders = 10002;</code>
          */
         public Builder setOrders(io.dstore.values.DecimalValue value) {
           if (ordersBuilder_ == null) {
@@ -5583,7 +5583,7 @@ public final class StGetDSSIndexTrendAd {
          * Summe der "Bestellungen" (Werte zur Basis-Kenzahl mit "BasicCharacteristicNumber = 4" - es wird gezählt, wie OFT ein Produkt bestellt wurde) zum Element "TrendOf_ID" im Zeitraum "IntervallStart" bis "IntervallStart + &#64;MinutesPerIntervall Minuten"
          * </pre>
          *
-         * <code>optional .dstore.values.DecimalValue orders = 10002;</code>
+         * <code>.dstore.values.DecimalValue orders = 10002;</code>
          */
         public Builder setOrders(
             io.dstore.values.DecimalValue.Builder builderForValue) {
@@ -5601,7 +5601,7 @@ public final class StGetDSSIndexTrendAd {
          * Summe der "Bestellungen" (Werte zur Basis-Kenzahl mit "BasicCharacteristicNumber = 4" - es wird gezählt, wie OFT ein Produkt bestellt wurde) zum Element "TrendOf_ID" im Zeitraum "IntervallStart" bis "IntervallStart + &#64;MinutesPerIntervall Minuten"
          * </pre>
          *
-         * <code>optional .dstore.values.DecimalValue orders = 10002;</code>
+         * <code>.dstore.values.DecimalValue orders = 10002;</code>
          */
         public Builder mergeOrders(io.dstore.values.DecimalValue value) {
           if (ordersBuilder_ == null) {
@@ -5623,7 +5623,7 @@ public final class StGetDSSIndexTrendAd {
          * Summe der "Bestellungen" (Werte zur Basis-Kenzahl mit "BasicCharacteristicNumber = 4" - es wird gezählt, wie OFT ein Produkt bestellt wurde) zum Element "TrendOf_ID" im Zeitraum "IntervallStart" bis "IntervallStart + &#64;MinutesPerIntervall Minuten"
          * </pre>
          *
-         * <code>optional .dstore.values.DecimalValue orders = 10002;</code>
+         * <code>.dstore.values.DecimalValue orders = 10002;</code>
          */
         public Builder clearOrders() {
           if (ordersBuilder_ == null) {
@@ -5641,7 +5641,7 @@ public final class StGetDSSIndexTrendAd {
          * Summe der "Bestellungen" (Werte zur Basis-Kenzahl mit "BasicCharacteristicNumber = 4" - es wird gezählt, wie OFT ein Produkt bestellt wurde) zum Element "TrendOf_ID" im Zeitraum "IntervallStart" bis "IntervallStart + &#64;MinutesPerIntervall Minuten"
          * </pre>
          *
-         * <code>optional .dstore.values.DecimalValue orders = 10002;</code>
+         * <code>.dstore.values.DecimalValue orders = 10002;</code>
          */
         public io.dstore.values.DecimalValue.Builder getOrdersBuilder() {
           
@@ -5653,7 +5653,7 @@ public final class StGetDSSIndexTrendAd {
          * Summe der "Bestellungen" (Werte zur Basis-Kenzahl mit "BasicCharacteristicNumber = 4" - es wird gezählt, wie OFT ein Produkt bestellt wurde) zum Element "TrendOf_ID" im Zeitraum "IntervallStart" bis "IntervallStart + &#64;MinutesPerIntervall Minuten"
          * </pre>
          *
-         * <code>optional .dstore.values.DecimalValue orders = 10002;</code>
+         * <code>.dstore.values.DecimalValue orders = 10002;</code>
          */
         public io.dstore.values.DecimalValueOrBuilder getOrdersOrBuilder() {
           if (ordersBuilder_ != null) {
@@ -5668,7 +5668,7 @@ public final class StGetDSSIndexTrendAd {
          * Summe der "Bestellungen" (Werte zur Basis-Kenzahl mit "BasicCharacteristicNumber = 4" - es wird gezählt, wie OFT ein Produkt bestellt wurde) zum Element "TrendOf_ID" im Zeitraum "IntervallStart" bis "IntervallStart + &#64;MinutesPerIntervall Minuten"
          * </pre>
          *
-         * <code>optional .dstore.values.DecimalValue orders = 10002;</code>
+         * <code>.dstore.values.DecimalValue orders = 10002;</code>
          */
         private com.google.protobuf.SingleFieldBuilderV3<
             io.dstore.values.DecimalValue, io.dstore.values.DecimalValue.Builder, io.dstore.values.DecimalValueOrBuilder> 
@@ -5692,7 +5692,7 @@ public final class StGetDSSIndexTrendAd {
          * Zusammengesetzte Kennzahl nach der Formel :(Views * &#64;Weight_Views) + (BuyingInterests * &#64;Weight_BuyingInterest) + (Orders * &#64;Weight_Order)
          * </pre>
          *
-         * <code>optional .dstore.values.DecimalValue v_b_o_index = 10003;</code>
+         * <code>.dstore.values.DecimalValue v_b_o_index = 10003;</code>
          */
         public boolean hasVBOIndex() {
           return vBOIndexBuilder_ != null || vBOIndex_ != null;
@@ -5702,7 +5702,7 @@ public final class StGetDSSIndexTrendAd {
          * Zusammengesetzte Kennzahl nach der Formel :(Views * &#64;Weight_Views) + (BuyingInterests * &#64;Weight_BuyingInterest) + (Orders * &#64;Weight_Order)
          * </pre>
          *
-         * <code>optional .dstore.values.DecimalValue v_b_o_index = 10003;</code>
+         * <code>.dstore.values.DecimalValue v_b_o_index = 10003;</code>
          */
         public io.dstore.values.DecimalValue getVBOIndex() {
           if (vBOIndexBuilder_ == null) {
@@ -5716,7 +5716,7 @@ public final class StGetDSSIndexTrendAd {
          * Zusammengesetzte Kennzahl nach der Formel :(Views * &#64;Weight_Views) + (BuyingInterests * &#64;Weight_BuyingInterest) + (Orders * &#64;Weight_Order)
          * </pre>
          *
-         * <code>optional .dstore.values.DecimalValue v_b_o_index = 10003;</code>
+         * <code>.dstore.values.DecimalValue v_b_o_index = 10003;</code>
          */
         public Builder setVBOIndex(io.dstore.values.DecimalValue value) {
           if (vBOIndexBuilder_ == null) {
@@ -5736,7 +5736,7 @@ public final class StGetDSSIndexTrendAd {
          * Zusammengesetzte Kennzahl nach der Formel :(Views * &#64;Weight_Views) + (BuyingInterests * &#64;Weight_BuyingInterest) + (Orders * &#64;Weight_Order)
          * </pre>
          *
-         * <code>optional .dstore.values.DecimalValue v_b_o_index = 10003;</code>
+         * <code>.dstore.values.DecimalValue v_b_o_index = 10003;</code>
          */
         public Builder setVBOIndex(
             io.dstore.values.DecimalValue.Builder builderForValue) {
@@ -5754,7 +5754,7 @@ public final class StGetDSSIndexTrendAd {
          * Zusammengesetzte Kennzahl nach der Formel :(Views * &#64;Weight_Views) + (BuyingInterests * &#64;Weight_BuyingInterest) + (Orders * &#64;Weight_Order)
          * </pre>
          *
-         * <code>optional .dstore.values.DecimalValue v_b_o_index = 10003;</code>
+         * <code>.dstore.values.DecimalValue v_b_o_index = 10003;</code>
          */
         public Builder mergeVBOIndex(io.dstore.values.DecimalValue value) {
           if (vBOIndexBuilder_ == null) {
@@ -5776,7 +5776,7 @@ public final class StGetDSSIndexTrendAd {
          * Zusammengesetzte Kennzahl nach der Formel :(Views * &#64;Weight_Views) + (BuyingInterests * &#64;Weight_BuyingInterest) + (Orders * &#64;Weight_Order)
          * </pre>
          *
-         * <code>optional .dstore.values.DecimalValue v_b_o_index = 10003;</code>
+         * <code>.dstore.values.DecimalValue v_b_o_index = 10003;</code>
          */
         public Builder clearVBOIndex() {
           if (vBOIndexBuilder_ == null) {
@@ -5794,7 +5794,7 @@ public final class StGetDSSIndexTrendAd {
          * Zusammengesetzte Kennzahl nach der Formel :(Views * &#64;Weight_Views) + (BuyingInterests * &#64;Weight_BuyingInterest) + (Orders * &#64;Weight_Order)
          * </pre>
          *
-         * <code>optional .dstore.values.DecimalValue v_b_o_index = 10003;</code>
+         * <code>.dstore.values.DecimalValue v_b_o_index = 10003;</code>
          */
         public io.dstore.values.DecimalValue.Builder getVBOIndexBuilder() {
           
@@ -5806,7 +5806,7 @@ public final class StGetDSSIndexTrendAd {
          * Zusammengesetzte Kennzahl nach der Formel :(Views * &#64;Weight_Views) + (BuyingInterests * &#64;Weight_BuyingInterest) + (Orders * &#64;Weight_Order)
          * </pre>
          *
-         * <code>optional .dstore.values.DecimalValue v_b_o_index = 10003;</code>
+         * <code>.dstore.values.DecimalValue v_b_o_index = 10003;</code>
          */
         public io.dstore.values.DecimalValueOrBuilder getVBOIndexOrBuilder() {
           if (vBOIndexBuilder_ != null) {
@@ -5821,7 +5821,7 @@ public final class StGetDSSIndexTrendAd {
          * Zusammengesetzte Kennzahl nach der Formel :(Views * &#64;Weight_Views) + (BuyingInterests * &#64;Weight_BuyingInterest) + (Orders * &#64;Weight_Order)
          * </pre>
          *
-         * <code>optional .dstore.values.DecimalValue v_b_o_index = 10003;</code>
+         * <code>.dstore.values.DecimalValue v_b_o_index = 10003;</code>
          */
         private com.google.protobuf.SingleFieldBuilderV3<
             io.dstore.values.DecimalValue, io.dstore.values.DecimalValue.Builder, io.dstore.values.DecimalValueOrBuilder> 
@@ -5845,7 +5845,7 @@ public final class StGetDSSIndexTrendAd {
          * ID des Elementes auf das sich die Angaben beziehen, also entweder die ID eines Artikel-Elementes oder die ID einer Eigenschaft (falls eine "&#64;GroupByNodeCharacteristicID" angegeben wurde oder Eigenschaften in "tempdb.dbo.OneID" übergeben wurden)
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue trend_of_id = 10004;</code>
+         * <code>.dstore.values.IntegerValue trend_of_id = 10004;</code>
          */
         public boolean hasTrendOfId() {
           return trendOfIdBuilder_ != null || trendOfId_ != null;
@@ -5855,7 +5855,7 @@ public final class StGetDSSIndexTrendAd {
          * ID des Elementes auf das sich die Angaben beziehen, also entweder die ID eines Artikel-Elementes oder die ID einer Eigenschaft (falls eine "&#64;GroupByNodeCharacteristicID" angegeben wurde oder Eigenschaften in "tempdb.dbo.OneID" übergeben wurden)
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue trend_of_id = 10004;</code>
+         * <code>.dstore.values.IntegerValue trend_of_id = 10004;</code>
          */
         public io.dstore.values.IntegerValue getTrendOfId() {
           if (trendOfIdBuilder_ == null) {
@@ -5869,7 +5869,7 @@ public final class StGetDSSIndexTrendAd {
          * ID des Elementes auf das sich die Angaben beziehen, also entweder die ID eines Artikel-Elementes oder die ID einer Eigenschaft (falls eine "&#64;GroupByNodeCharacteristicID" angegeben wurde oder Eigenschaften in "tempdb.dbo.OneID" übergeben wurden)
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue trend_of_id = 10004;</code>
+         * <code>.dstore.values.IntegerValue trend_of_id = 10004;</code>
          */
         public Builder setTrendOfId(io.dstore.values.IntegerValue value) {
           if (trendOfIdBuilder_ == null) {
@@ -5889,7 +5889,7 @@ public final class StGetDSSIndexTrendAd {
          * ID des Elementes auf das sich die Angaben beziehen, also entweder die ID eines Artikel-Elementes oder die ID einer Eigenschaft (falls eine "&#64;GroupByNodeCharacteristicID" angegeben wurde oder Eigenschaften in "tempdb.dbo.OneID" übergeben wurden)
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue trend_of_id = 10004;</code>
+         * <code>.dstore.values.IntegerValue trend_of_id = 10004;</code>
          */
         public Builder setTrendOfId(
             io.dstore.values.IntegerValue.Builder builderForValue) {
@@ -5907,7 +5907,7 @@ public final class StGetDSSIndexTrendAd {
          * ID des Elementes auf das sich die Angaben beziehen, also entweder die ID eines Artikel-Elementes oder die ID einer Eigenschaft (falls eine "&#64;GroupByNodeCharacteristicID" angegeben wurde oder Eigenschaften in "tempdb.dbo.OneID" übergeben wurden)
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue trend_of_id = 10004;</code>
+         * <code>.dstore.values.IntegerValue trend_of_id = 10004;</code>
          */
         public Builder mergeTrendOfId(io.dstore.values.IntegerValue value) {
           if (trendOfIdBuilder_ == null) {
@@ -5929,7 +5929,7 @@ public final class StGetDSSIndexTrendAd {
          * ID des Elementes auf das sich die Angaben beziehen, also entweder die ID eines Artikel-Elementes oder die ID einer Eigenschaft (falls eine "&#64;GroupByNodeCharacteristicID" angegeben wurde oder Eigenschaften in "tempdb.dbo.OneID" übergeben wurden)
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue trend_of_id = 10004;</code>
+         * <code>.dstore.values.IntegerValue trend_of_id = 10004;</code>
          */
         public Builder clearTrendOfId() {
           if (trendOfIdBuilder_ == null) {
@@ -5947,7 +5947,7 @@ public final class StGetDSSIndexTrendAd {
          * ID des Elementes auf das sich die Angaben beziehen, also entweder die ID eines Artikel-Elementes oder die ID einer Eigenschaft (falls eine "&#64;GroupByNodeCharacteristicID" angegeben wurde oder Eigenschaften in "tempdb.dbo.OneID" übergeben wurden)
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue trend_of_id = 10004;</code>
+         * <code>.dstore.values.IntegerValue trend_of_id = 10004;</code>
          */
         public io.dstore.values.IntegerValue.Builder getTrendOfIdBuilder() {
           
@@ -5959,7 +5959,7 @@ public final class StGetDSSIndexTrendAd {
          * ID des Elementes auf das sich die Angaben beziehen, also entweder die ID eines Artikel-Elementes oder die ID einer Eigenschaft (falls eine "&#64;GroupByNodeCharacteristicID" angegeben wurde oder Eigenschaften in "tempdb.dbo.OneID" übergeben wurden)
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue trend_of_id = 10004;</code>
+         * <code>.dstore.values.IntegerValue trend_of_id = 10004;</code>
          */
         public io.dstore.values.IntegerValueOrBuilder getTrendOfIdOrBuilder() {
           if (trendOfIdBuilder_ != null) {
@@ -5974,7 +5974,7 @@ public final class StGetDSSIndexTrendAd {
          * ID des Elementes auf das sich die Angaben beziehen, also entweder die ID eines Artikel-Elementes oder die ID einer Eigenschaft (falls eine "&#64;GroupByNodeCharacteristicID" angegeben wurde oder Eigenschaften in "tempdb.dbo.OneID" übergeben wurden)
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue trend_of_id = 10004;</code>
+         * <code>.dstore.values.IntegerValue trend_of_id = 10004;</code>
          */
         private com.google.protobuf.SingleFieldBuilderV3<
             io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> 
@@ -5998,7 +5998,7 @@ public final class StGetDSSIndexTrendAd {
          * Summe der "Views" (Werte zur Basis-Kenzahl mit "BasicCharacteristicNumber = 1") zum Element "TrendOf_ID" im Zeitraum "IntervallStart" bis "IntervallStart + &#64;MinutesPerIntervall Minuten"
          * </pre>
          *
-         * <code>optional .dstore.values.DecimalValue views = 10005;</code>
+         * <code>.dstore.values.DecimalValue views = 10005;</code>
          */
         public boolean hasViews() {
           return viewsBuilder_ != null || views_ != null;
@@ -6008,7 +6008,7 @@ public final class StGetDSSIndexTrendAd {
          * Summe der "Views" (Werte zur Basis-Kenzahl mit "BasicCharacteristicNumber = 1") zum Element "TrendOf_ID" im Zeitraum "IntervallStart" bis "IntervallStart + &#64;MinutesPerIntervall Minuten"
          * </pre>
          *
-         * <code>optional .dstore.values.DecimalValue views = 10005;</code>
+         * <code>.dstore.values.DecimalValue views = 10005;</code>
          */
         public io.dstore.values.DecimalValue getViews() {
           if (viewsBuilder_ == null) {
@@ -6022,7 +6022,7 @@ public final class StGetDSSIndexTrendAd {
          * Summe der "Views" (Werte zur Basis-Kenzahl mit "BasicCharacteristicNumber = 1") zum Element "TrendOf_ID" im Zeitraum "IntervallStart" bis "IntervallStart + &#64;MinutesPerIntervall Minuten"
          * </pre>
          *
-         * <code>optional .dstore.values.DecimalValue views = 10005;</code>
+         * <code>.dstore.values.DecimalValue views = 10005;</code>
          */
         public Builder setViews(io.dstore.values.DecimalValue value) {
           if (viewsBuilder_ == null) {
@@ -6042,7 +6042,7 @@ public final class StGetDSSIndexTrendAd {
          * Summe der "Views" (Werte zur Basis-Kenzahl mit "BasicCharacteristicNumber = 1") zum Element "TrendOf_ID" im Zeitraum "IntervallStart" bis "IntervallStart + &#64;MinutesPerIntervall Minuten"
          * </pre>
          *
-         * <code>optional .dstore.values.DecimalValue views = 10005;</code>
+         * <code>.dstore.values.DecimalValue views = 10005;</code>
          */
         public Builder setViews(
             io.dstore.values.DecimalValue.Builder builderForValue) {
@@ -6060,7 +6060,7 @@ public final class StGetDSSIndexTrendAd {
          * Summe der "Views" (Werte zur Basis-Kenzahl mit "BasicCharacteristicNumber = 1") zum Element "TrendOf_ID" im Zeitraum "IntervallStart" bis "IntervallStart + &#64;MinutesPerIntervall Minuten"
          * </pre>
          *
-         * <code>optional .dstore.values.DecimalValue views = 10005;</code>
+         * <code>.dstore.values.DecimalValue views = 10005;</code>
          */
         public Builder mergeViews(io.dstore.values.DecimalValue value) {
           if (viewsBuilder_ == null) {
@@ -6082,7 +6082,7 @@ public final class StGetDSSIndexTrendAd {
          * Summe der "Views" (Werte zur Basis-Kenzahl mit "BasicCharacteristicNumber = 1") zum Element "TrendOf_ID" im Zeitraum "IntervallStart" bis "IntervallStart + &#64;MinutesPerIntervall Minuten"
          * </pre>
          *
-         * <code>optional .dstore.values.DecimalValue views = 10005;</code>
+         * <code>.dstore.values.DecimalValue views = 10005;</code>
          */
         public Builder clearViews() {
           if (viewsBuilder_ == null) {
@@ -6100,7 +6100,7 @@ public final class StGetDSSIndexTrendAd {
          * Summe der "Views" (Werte zur Basis-Kenzahl mit "BasicCharacteristicNumber = 1") zum Element "TrendOf_ID" im Zeitraum "IntervallStart" bis "IntervallStart + &#64;MinutesPerIntervall Minuten"
          * </pre>
          *
-         * <code>optional .dstore.values.DecimalValue views = 10005;</code>
+         * <code>.dstore.values.DecimalValue views = 10005;</code>
          */
         public io.dstore.values.DecimalValue.Builder getViewsBuilder() {
           
@@ -6112,7 +6112,7 @@ public final class StGetDSSIndexTrendAd {
          * Summe der "Views" (Werte zur Basis-Kenzahl mit "BasicCharacteristicNumber = 1") zum Element "TrendOf_ID" im Zeitraum "IntervallStart" bis "IntervallStart + &#64;MinutesPerIntervall Minuten"
          * </pre>
          *
-         * <code>optional .dstore.values.DecimalValue views = 10005;</code>
+         * <code>.dstore.values.DecimalValue views = 10005;</code>
          */
         public io.dstore.values.DecimalValueOrBuilder getViewsOrBuilder() {
           if (viewsBuilder_ != null) {
@@ -6127,7 +6127,7 @@ public final class StGetDSSIndexTrendAd {
          * Summe der "Views" (Werte zur Basis-Kenzahl mit "BasicCharacteristicNumber = 1") zum Element "TrendOf_ID" im Zeitraum "IntervallStart" bis "IntervallStart + &#64;MinutesPerIntervall Minuten"
          * </pre>
          *
-         * <code>optional .dstore.values.DecimalValue views = 10005;</code>
+         * <code>.dstore.values.DecimalValue views = 10005;</code>
          */
         private com.google.protobuf.SingleFieldBuilderV3<
             io.dstore.values.DecimalValue, io.dstore.values.DecimalValue.Builder, io.dstore.values.DecimalValueOrBuilder> 
@@ -6151,7 +6151,7 @@ public final class StGetDSSIndexTrendAd {
          * Bezeichnung des Elementes "TrendOf_ID" - also entweder eine "NodeDescription" oder ein "Value"
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue trend_of_description = 10006;</code>
+         * <code>.dstore.values.StringValue trend_of_description = 10006;</code>
          */
         public boolean hasTrendOfDescription() {
           return trendOfDescriptionBuilder_ != null || trendOfDescription_ != null;
@@ -6161,7 +6161,7 @@ public final class StGetDSSIndexTrendAd {
          * Bezeichnung des Elementes "TrendOf_ID" - also entweder eine "NodeDescription" oder ein "Value"
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue trend_of_description = 10006;</code>
+         * <code>.dstore.values.StringValue trend_of_description = 10006;</code>
          */
         public io.dstore.values.StringValue getTrendOfDescription() {
           if (trendOfDescriptionBuilder_ == null) {
@@ -6175,7 +6175,7 @@ public final class StGetDSSIndexTrendAd {
          * Bezeichnung des Elementes "TrendOf_ID" - also entweder eine "NodeDescription" oder ein "Value"
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue trend_of_description = 10006;</code>
+         * <code>.dstore.values.StringValue trend_of_description = 10006;</code>
          */
         public Builder setTrendOfDescription(io.dstore.values.StringValue value) {
           if (trendOfDescriptionBuilder_ == null) {
@@ -6195,7 +6195,7 @@ public final class StGetDSSIndexTrendAd {
          * Bezeichnung des Elementes "TrendOf_ID" - also entweder eine "NodeDescription" oder ein "Value"
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue trend_of_description = 10006;</code>
+         * <code>.dstore.values.StringValue trend_of_description = 10006;</code>
          */
         public Builder setTrendOfDescription(
             io.dstore.values.StringValue.Builder builderForValue) {
@@ -6213,7 +6213,7 @@ public final class StGetDSSIndexTrendAd {
          * Bezeichnung des Elementes "TrendOf_ID" - also entweder eine "NodeDescription" oder ein "Value"
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue trend_of_description = 10006;</code>
+         * <code>.dstore.values.StringValue trend_of_description = 10006;</code>
          */
         public Builder mergeTrendOfDescription(io.dstore.values.StringValue value) {
           if (trendOfDescriptionBuilder_ == null) {
@@ -6235,7 +6235,7 @@ public final class StGetDSSIndexTrendAd {
          * Bezeichnung des Elementes "TrendOf_ID" - also entweder eine "NodeDescription" oder ein "Value"
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue trend_of_description = 10006;</code>
+         * <code>.dstore.values.StringValue trend_of_description = 10006;</code>
          */
         public Builder clearTrendOfDescription() {
           if (trendOfDescriptionBuilder_ == null) {
@@ -6253,7 +6253,7 @@ public final class StGetDSSIndexTrendAd {
          * Bezeichnung des Elementes "TrendOf_ID" - also entweder eine "NodeDescription" oder ein "Value"
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue trend_of_description = 10006;</code>
+         * <code>.dstore.values.StringValue trend_of_description = 10006;</code>
          */
         public io.dstore.values.StringValue.Builder getTrendOfDescriptionBuilder() {
           
@@ -6265,7 +6265,7 @@ public final class StGetDSSIndexTrendAd {
          * Bezeichnung des Elementes "TrendOf_ID" - also entweder eine "NodeDescription" oder ein "Value"
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue trend_of_description = 10006;</code>
+         * <code>.dstore.values.StringValue trend_of_description = 10006;</code>
          */
         public io.dstore.values.StringValueOrBuilder getTrendOfDescriptionOrBuilder() {
           if (trendOfDescriptionBuilder_ != null) {
@@ -6280,7 +6280,7 @@ public final class StGetDSSIndexTrendAd {
          * Bezeichnung des Elementes "TrendOf_ID" - also entweder eine "NodeDescription" oder ein "Value"
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue trend_of_description = 10006;</code>
+         * <code>.dstore.values.StringValue trend_of_description = 10006;</code>
          */
         private com.google.protobuf.SingleFieldBuilderV3<
             io.dstore.values.StringValue, io.dstore.values.StringValue.Builder, io.dstore.values.StringValueOrBuilder> 
@@ -6304,7 +6304,7 @@ public final class StGetDSSIndexTrendAd {
          * Nummer des Intervalls (von 1 bis "&#64;Intervalls")
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue intervall = 10007;</code>
+         * <code>.dstore.values.IntegerValue intervall = 10007;</code>
          */
         public boolean hasIntervall() {
           return intervallBuilder_ != null || intervall_ != null;
@@ -6314,7 +6314,7 @@ public final class StGetDSSIndexTrendAd {
          * Nummer des Intervalls (von 1 bis "&#64;Intervalls")
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue intervall = 10007;</code>
+         * <code>.dstore.values.IntegerValue intervall = 10007;</code>
          */
         public io.dstore.values.IntegerValue getIntervall() {
           if (intervallBuilder_ == null) {
@@ -6328,7 +6328,7 @@ public final class StGetDSSIndexTrendAd {
          * Nummer des Intervalls (von 1 bis "&#64;Intervalls")
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue intervall = 10007;</code>
+         * <code>.dstore.values.IntegerValue intervall = 10007;</code>
          */
         public Builder setIntervall(io.dstore.values.IntegerValue value) {
           if (intervallBuilder_ == null) {
@@ -6348,7 +6348,7 @@ public final class StGetDSSIndexTrendAd {
          * Nummer des Intervalls (von 1 bis "&#64;Intervalls")
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue intervall = 10007;</code>
+         * <code>.dstore.values.IntegerValue intervall = 10007;</code>
          */
         public Builder setIntervall(
             io.dstore.values.IntegerValue.Builder builderForValue) {
@@ -6366,7 +6366,7 @@ public final class StGetDSSIndexTrendAd {
          * Nummer des Intervalls (von 1 bis "&#64;Intervalls")
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue intervall = 10007;</code>
+         * <code>.dstore.values.IntegerValue intervall = 10007;</code>
          */
         public Builder mergeIntervall(io.dstore.values.IntegerValue value) {
           if (intervallBuilder_ == null) {
@@ -6388,7 +6388,7 @@ public final class StGetDSSIndexTrendAd {
          * Nummer des Intervalls (von 1 bis "&#64;Intervalls")
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue intervall = 10007;</code>
+         * <code>.dstore.values.IntegerValue intervall = 10007;</code>
          */
         public Builder clearIntervall() {
           if (intervallBuilder_ == null) {
@@ -6406,7 +6406,7 @@ public final class StGetDSSIndexTrendAd {
          * Nummer des Intervalls (von 1 bis "&#64;Intervalls")
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue intervall = 10007;</code>
+         * <code>.dstore.values.IntegerValue intervall = 10007;</code>
          */
         public io.dstore.values.IntegerValue.Builder getIntervallBuilder() {
           
@@ -6418,7 +6418,7 @@ public final class StGetDSSIndexTrendAd {
          * Nummer des Intervalls (von 1 bis "&#64;Intervalls")
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue intervall = 10007;</code>
+         * <code>.dstore.values.IntegerValue intervall = 10007;</code>
          */
         public io.dstore.values.IntegerValueOrBuilder getIntervallOrBuilder() {
           if (intervallBuilder_ != null) {
@@ -6433,7 +6433,7 @@ public final class StGetDSSIndexTrendAd {
          * Nummer des Intervalls (von 1 bis "&#64;Intervalls")
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue intervall = 10007;</code>
+         * <code>.dstore.values.IntegerValue intervall = 10007;</code>
          */
         private com.google.protobuf.SingleFieldBuilderV3<
             io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> 
@@ -6457,7 +6457,7 @@ public final class StGetDSSIndexTrendAd {
          * Summe der "Kaufinteressen" (Werte zur Basis-Kenzahl mit "BasicCharacteristicNumber = 2") zum Element "TrendOf_ID" im Zeitraum "IntervallStart" bis "IntervallStart + &#64;MinutesPerIntervall Minuten"
          * </pre>
          *
-         * <code>optional .dstore.values.DecimalValue buying_interests = 10008;</code>
+         * <code>.dstore.values.DecimalValue buying_interests = 10008;</code>
          */
         public boolean hasBuyingInterests() {
           return buyingInterestsBuilder_ != null || buyingInterests_ != null;
@@ -6467,7 +6467,7 @@ public final class StGetDSSIndexTrendAd {
          * Summe der "Kaufinteressen" (Werte zur Basis-Kenzahl mit "BasicCharacteristicNumber = 2") zum Element "TrendOf_ID" im Zeitraum "IntervallStart" bis "IntervallStart + &#64;MinutesPerIntervall Minuten"
          * </pre>
          *
-         * <code>optional .dstore.values.DecimalValue buying_interests = 10008;</code>
+         * <code>.dstore.values.DecimalValue buying_interests = 10008;</code>
          */
         public io.dstore.values.DecimalValue getBuyingInterests() {
           if (buyingInterestsBuilder_ == null) {
@@ -6481,7 +6481,7 @@ public final class StGetDSSIndexTrendAd {
          * Summe der "Kaufinteressen" (Werte zur Basis-Kenzahl mit "BasicCharacteristicNumber = 2") zum Element "TrendOf_ID" im Zeitraum "IntervallStart" bis "IntervallStart + &#64;MinutesPerIntervall Minuten"
          * </pre>
          *
-         * <code>optional .dstore.values.DecimalValue buying_interests = 10008;</code>
+         * <code>.dstore.values.DecimalValue buying_interests = 10008;</code>
          */
         public Builder setBuyingInterests(io.dstore.values.DecimalValue value) {
           if (buyingInterestsBuilder_ == null) {
@@ -6501,7 +6501,7 @@ public final class StGetDSSIndexTrendAd {
          * Summe der "Kaufinteressen" (Werte zur Basis-Kenzahl mit "BasicCharacteristicNumber = 2") zum Element "TrendOf_ID" im Zeitraum "IntervallStart" bis "IntervallStart + &#64;MinutesPerIntervall Minuten"
          * </pre>
          *
-         * <code>optional .dstore.values.DecimalValue buying_interests = 10008;</code>
+         * <code>.dstore.values.DecimalValue buying_interests = 10008;</code>
          */
         public Builder setBuyingInterests(
             io.dstore.values.DecimalValue.Builder builderForValue) {
@@ -6519,7 +6519,7 @@ public final class StGetDSSIndexTrendAd {
          * Summe der "Kaufinteressen" (Werte zur Basis-Kenzahl mit "BasicCharacteristicNumber = 2") zum Element "TrendOf_ID" im Zeitraum "IntervallStart" bis "IntervallStart + &#64;MinutesPerIntervall Minuten"
          * </pre>
          *
-         * <code>optional .dstore.values.DecimalValue buying_interests = 10008;</code>
+         * <code>.dstore.values.DecimalValue buying_interests = 10008;</code>
          */
         public Builder mergeBuyingInterests(io.dstore.values.DecimalValue value) {
           if (buyingInterestsBuilder_ == null) {
@@ -6541,7 +6541,7 @@ public final class StGetDSSIndexTrendAd {
          * Summe der "Kaufinteressen" (Werte zur Basis-Kenzahl mit "BasicCharacteristicNumber = 2") zum Element "TrendOf_ID" im Zeitraum "IntervallStart" bis "IntervallStart + &#64;MinutesPerIntervall Minuten"
          * </pre>
          *
-         * <code>optional .dstore.values.DecimalValue buying_interests = 10008;</code>
+         * <code>.dstore.values.DecimalValue buying_interests = 10008;</code>
          */
         public Builder clearBuyingInterests() {
           if (buyingInterestsBuilder_ == null) {
@@ -6559,7 +6559,7 @@ public final class StGetDSSIndexTrendAd {
          * Summe der "Kaufinteressen" (Werte zur Basis-Kenzahl mit "BasicCharacteristicNumber = 2") zum Element "TrendOf_ID" im Zeitraum "IntervallStart" bis "IntervallStart + &#64;MinutesPerIntervall Minuten"
          * </pre>
          *
-         * <code>optional .dstore.values.DecimalValue buying_interests = 10008;</code>
+         * <code>.dstore.values.DecimalValue buying_interests = 10008;</code>
          */
         public io.dstore.values.DecimalValue.Builder getBuyingInterestsBuilder() {
           
@@ -6571,7 +6571,7 @@ public final class StGetDSSIndexTrendAd {
          * Summe der "Kaufinteressen" (Werte zur Basis-Kenzahl mit "BasicCharacteristicNumber = 2") zum Element "TrendOf_ID" im Zeitraum "IntervallStart" bis "IntervallStart + &#64;MinutesPerIntervall Minuten"
          * </pre>
          *
-         * <code>optional .dstore.values.DecimalValue buying_interests = 10008;</code>
+         * <code>.dstore.values.DecimalValue buying_interests = 10008;</code>
          */
         public io.dstore.values.DecimalValueOrBuilder getBuyingInterestsOrBuilder() {
           if (buyingInterestsBuilder_ != null) {
@@ -6586,7 +6586,7 @@ public final class StGetDSSIndexTrendAd {
          * Summe der "Kaufinteressen" (Werte zur Basis-Kenzahl mit "BasicCharacteristicNumber = 2") zum Element "TrendOf_ID" im Zeitraum "IntervallStart" bis "IntervallStart + &#64;MinutesPerIntervall Minuten"
          * </pre>
          *
-         * <code>optional .dstore.values.DecimalValue buying_interests = 10008;</code>
+         * <code>.dstore.values.DecimalValue buying_interests = 10008;</code>
          */
         private com.google.protobuf.SingleFieldBuilderV3<
             io.dstore.values.DecimalValue, io.dstore.values.DecimalValue.Builder, io.dstore.values.DecimalValueOrBuilder> 
@@ -6846,7 +6846,7 @@ public final class StGetDSSIndexTrendAd {
         return memoizedHashCode;
       }
       int hash = 41;
-      hash = (19 * hash) + getDescriptorForType().hashCode();
+      hash = (19 * hash) + getDescriptor().hashCode();
       if (getMetaInformationCount() > 0) {
         hash = (37 * hash) + META_INFORMATION_FIELD_NUMBER;
         hash = (53 * hash) + getMetaInformationList().hashCode();

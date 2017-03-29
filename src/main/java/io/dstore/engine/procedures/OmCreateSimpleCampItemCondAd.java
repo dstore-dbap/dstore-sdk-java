@@ -19,488 +19,488 @@ public final class OmCreateSimpleCampItemCondAd {
       com.google.protobuf.MessageOrBuilder {
 
     /**
-     * <code>optional .dstore.values.IntegerValue campaign_id = 1;</code>
+     * <code>.dstore.values.IntegerValue campaign_id = 1;</code>
      */
     boolean hasCampaignId();
     /**
-     * <code>optional .dstore.values.IntegerValue campaign_id = 1;</code>
+     * <code>.dstore.values.IntegerValue campaign_id = 1;</code>
      */
     io.dstore.values.IntegerValue getCampaignId();
     /**
-     * <code>optional .dstore.values.IntegerValue campaign_id = 1;</code>
+     * <code>.dstore.values.IntegerValue campaign_id = 1;</code>
      */
     io.dstore.values.IntegerValueOrBuilder getCampaignIdOrBuilder();
 
     /**
-     * <code>optional bool campaign_id_null = 1001;</code>
+     * <code>bool campaign_id_null = 1001;</code>
      */
     boolean getCampaignIdNull();
 
     /**
-     * <code>optional .dstore.values.StringValue condition_description = 2;</code>
+     * <code>.dstore.values.StringValue condition_description = 2;</code>
      */
     boolean hasConditionDescription();
     /**
-     * <code>optional .dstore.values.StringValue condition_description = 2;</code>
+     * <code>.dstore.values.StringValue condition_description = 2;</code>
      */
     io.dstore.values.StringValue getConditionDescription();
     /**
-     * <code>optional .dstore.values.StringValue condition_description = 2;</code>
+     * <code>.dstore.values.StringValue condition_description = 2;</code>
      */
     io.dstore.values.StringValueOrBuilder getConditionDescriptionOrBuilder();
 
     /**
-     * <code>optional bool condition_description_null = 1002;</code>
+     * <code>bool condition_description_null = 1002;</code>
      */
     boolean getConditionDescriptionNull();
 
     /**
-     * <code>optional .dstore.values.IntegerValue condition_id = 3;</code>
+     * <code>.dstore.values.IntegerValue condition_id = 3;</code>
      */
     boolean hasConditionId();
     /**
-     * <code>optional .dstore.values.IntegerValue condition_id = 3;</code>
+     * <code>.dstore.values.IntegerValue condition_id = 3;</code>
      */
     io.dstore.values.IntegerValue getConditionId();
     /**
-     * <code>optional .dstore.values.IntegerValue condition_id = 3;</code>
+     * <code>.dstore.values.IntegerValue condition_id = 3;</code>
      */
     io.dstore.values.IntegerValueOrBuilder getConditionIdOrBuilder();
 
     /**
-     * <code>optional bool condition_id_null = 1003;</code>
+     * <code>bool condition_id_null = 1003;</code>
      */
     boolean getConditionIdNull();
 
     /**
-     * <code>optional .dstore.values.IntegerValue item_condition_id = 4;</code>
+     * <code>.dstore.values.IntegerValue item_condition_id = 4;</code>
      */
     boolean hasItemConditionId();
     /**
-     * <code>optional .dstore.values.IntegerValue item_condition_id = 4;</code>
+     * <code>.dstore.values.IntegerValue item_condition_id = 4;</code>
      */
     io.dstore.values.IntegerValue getItemConditionId();
     /**
-     * <code>optional .dstore.values.IntegerValue item_condition_id = 4;</code>
+     * <code>.dstore.values.IntegerValue item_condition_id = 4;</code>
      */
     io.dstore.values.IntegerValueOrBuilder getItemConditionIdOrBuilder();
 
     /**
-     * <code>optional bool item_condition_id_null = 1004;</code>
+     * <code>bool item_condition_id_null = 1004;</code>
      */
     boolean getItemConditionIdNull();
 
     /**
-     * <code>optional .dstore.values.IntegerValue item_condition_group_id = 5;</code>
+     * <code>.dstore.values.IntegerValue item_condition_group_id = 5;</code>
      */
     boolean hasItemConditionGroupId();
     /**
-     * <code>optional .dstore.values.IntegerValue item_condition_group_id = 5;</code>
+     * <code>.dstore.values.IntegerValue item_condition_group_id = 5;</code>
      */
     io.dstore.values.IntegerValue getItemConditionGroupId();
     /**
-     * <code>optional .dstore.values.IntegerValue item_condition_group_id = 5;</code>
+     * <code>.dstore.values.IntegerValue item_condition_group_id = 5;</code>
      */
     io.dstore.values.IntegerValueOrBuilder getItemConditionGroupIdOrBuilder();
 
     /**
-     * <code>optional bool item_condition_group_id_null = 1005;</code>
+     * <code>bool item_condition_group_id_null = 1005;</code>
      */
     boolean getItemConditionGroupIdNull();
 
     /**
-     * <code>optional .dstore.values.IntegerValue item_condition_part_id = 6;</code>
+     * <code>.dstore.values.IntegerValue item_condition_part_id = 6;</code>
      */
     boolean hasItemConditionPartId();
     /**
-     * <code>optional .dstore.values.IntegerValue item_condition_part_id = 6;</code>
+     * <code>.dstore.values.IntegerValue item_condition_part_id = 6;</code>
      */
     io.dstore.values.IntegerValue getItemConditionPartId();
     /**
-     * <code>optional .dstore.values.IntegerValue item_condition_part_id = 6;</code>
+     * <code>.dstore.values.IntegerValue item_condition_part_id = 6;</code>
      */
     io.dstore.values.IntegerValueOrBuilder getItemConditionPartIdOrBuilder();
 
     /**
-     * <code>optional bool item_condition_part_id_null = 1006;</code>
+     * <code>bool item_condition_part_id_null = 1006;</code>
      */
     boolean getItemConditionPartIdNull();
 
     /**
-     * <code>optional .dstore.values.StringValue level_ids = 7;</code>
+     * <code>.dstore.values.StringValue level_ids = 7;</code>
      */
     boolean hasLevelIds();
     /**
-     * <code>optional .dstore.values.StringValue level_ids = 7;</code>
+     * <code>.dstore.values.StringValue level_ids = 7;</code>
      */
     io.dstore.values.StringValue getLevelIds();
     /**
-     * <code>optional .dstore.values.StringValue level_ids = 7;</code>
+     * <code>.dstore.values.StringValue level_ids = 7;</code>
      */
     io.dstore.values.StringValueOrBuilder getLevelIdsOrBuilder();
 
     /**
-     * <code>optional bool level_ids_null = 1007;</code>
+     * <code>bool level_ids_null = 1007;</code>
      */
     boolean getLevelIdsNull();
 
     /**
-     * <code>optional .dstore.values.StringValue domain_tree_node_ids = 8;</code>
+     * <code>.dstore.values.StringValue domain_tree_node_ids = 8;</code>
      */
     boolean hasDomainTreeNodeIds();
     /**
-     * <code>optional .dstore.values.StringValue domain_tree_node_ids = 8;</code>
+     * <code>.dstore.values.StringValue domain_tree_node_ids = 8;</code>
      */
     io.dstore.values.StringValue getDomainTreeNodeIds();
     /**
-     * <code>optional .dstore.values.StringValue domain_tree_node_ids = 8;</code>
+     * <code>.dstore.values.StringValue domain_tree_node_ids = 8;</code>
      */
     io.dstore.values.StringValueOrBuilder getDomainTreeNodeIdsOrBuilder();
 
     /**
-     * <code>optional bool domain_tree_node_ids_null = 1008;</code>
+     * <code>bool domain_tree_node_ids_null = 1008;</code>
      */
     boolean getDomainTreeNodeIdsNull();
 
     /**
-     * <code>optional .dstore.values.IntegerValue node_characteristic_id = 9;</code>
+     * <code>.dstore.values.IntegerValue node_characteristic_id = 9;</code>
      */
     boolean hasNodeCharacteristicId();
     /**
-     * <code>optional .dstore.values.IntegerValue node_characteristic_id = 9;</code>
+     * <code>.dstore.values.IntegerValue node_characteristic_id = 9;</code>
      */
     io.dstore.values.IntegerValue getNodeCharacteristicId();
     /**
-     * <code>optional .dstore.values.IntegerValue node_characteristic_id = 9;</code>
+     * <code>.dstore.values.IntegerValue node_characteristic_id = 9;</code>
      */
     io.dstore.values.IntegerValueOrBuilder getNodeCharacteristicIdOrBuilder();
 
     /**
-     * <code>optional bool node_characteristic_id_null = 1009;</code>
+     * <code>bool node_characteristic_id_null = 1009;</code>
      */
     boolean getNodeCharacteristicIdNull();
 
     /**
-     * <code>optional .dstore.values.StringValue operator1 = 10;</code>
+     * <code>.dstore.values.StringValue operator1 = 10;</code>
      */
     boolean hasOperator1();
     /**
-     * <code>optional .dstore.values.StringValue operator1 = 10;</code>
+     * <code>.dstore.values.StringValue operator1 = 10;</code>
      */
     io.dstore.values.StringValue getOperator1();
     /**
-     * <code>optional .dstore.values.StringValue operator1 = 10;</code>
+     * <code>.dstore.values.StringValue operator1 = 10;</code>
      */
     io.dstore.values.StringValueOrBuilder getOperator1OrBuilder();
 
     /**
-     * <code>optional bool operator1_null = 1010;</code>
+     * <code>bool operator1_null = 1010;</code>
      */
     boolean getOperator1Null();
 
     /**
-     * <code>optional .dstore.values.StringValue condition1 = 11;</code>
+     * <code>.dstore.values.StringValue condition1 = 11;</code>
      */
     boolean hasCondition1();
     /**
-     * <code>optional .dstore.values.StringValue condition1 = 11;</code>
+     * <code>.dstore.values.StringValue condition1 = 11;</code>
      */
     io.dstore.values.StringValue getCondition1();
     /**
-     * <code>optional .dstore.values.StringValue condition1 = 11;</code>
+     * <code>.dstore.values.StringValue condition1 = 11;</code>
      */
     io.dstore.values.StringValueOrBuilder getCondition1OrBuilder();
 
     /**
-     * <code>optional bool condition1_null = 1011;</code>
+     * <code>bool condition1_null = 1011;</code>
      */
     boolean getCondition1Null();
 
     /**
-     * <code>optional .dstore.values.StringValue operator2 = 12;</code>
+     * <code>.dstore.values.StringValue operator2 = 12;</code>
      */
     boolean hasOperator2();
     /**
-     * <code>optional .dstore.values.StringValue operator2 = 12;</code>
+     * <code>.dstore.values.StringValue operator2 = 12;</code>
      */
     io.dstore.values.StringValue getOperator2();
     /**
-     * <code>optional .dstore.values.StringValue operator2 = 12;</code>
+     * <code>.dstore.values.StringValue operator2 = 12;</code>
      */
     io.dstore.values.StringValueOrBuilder getOperator2OrBuilder();
 
     /**
-     * <code>optional bool operator2_null = 1012;</code>
+     * <code>bool operator2_null = 1012;</code>
      */
     boolean getOperator2Null();
 
     /**
-     * <code>optional .dstore.values.StringValue condition2 = 13;</code>
+     * <code>.dstore.values.StringValue condition2 = 13;</code>
      */
     boolean hasCondition2();
     /**
-     * <code>optional .dstore.values.StringValue condition2 = 13;</code>
+     * <code>.dstore.values.StringValue condition2 = 13;</code>
      */
     io.dstore.values.StringValue getCondition2();
     /**
-     * <code>optional .dstore.values.StringValue condition2 = 13;</code>
+     * <code>.dstore.values.StringValue condition2 = 13;</code>
      */
     io.dstore.values.StringValueOrBuilder getCondition2OrBuilder();
 
     /**
-     * <code>optional bool condition2_null = 1013;</code>
+     * <code>bool condition2_null = 1013;</code>
      */
     boolean getCondition2Null();
 
     /**
-     * <code>optional .dstore.values.IntegerValue inherit_depth = 14;</code>
+     * <code>.dstore.values.IntegerValue inherit_depth = 14;</code>
      */
     boolean hasInheritDepth();
     /**
-     * <code>optional .dstore.values.IntegerValue inherit_depth = 14;</code>
+     * <code>.dstore.values.IntegerValue inherit_depth = 14;</code>
      */
     io.dstore.values.IntegerValue getInheritDepth();
     /**
-     * <code>optional .dstore.values.IntegerValue inherit_depth = 14;</code>
+     * <code>.dstore.values.IntegerValue inherit_depth = 14;</code>
      */
     io.dstore.values.IntegerValueOrBuilder getInheritDepthOrBuilder();
 
     /**
-     * <code>optional bool inherit_depth_null = 1014;</code>
+     * <code>bool inherit_depth_null = 1014;</code>
      */
     boolean getInheritDepthNull();
 
     /**
-     * <code>optional .dstore.values.IntegerValue recursive_evaluation = 15;</code>
+     * <code>.dstore.values.IntegerValue recursive_evaluation = 15;</code>
      */
     boolean hasRecursiveEvaluation();
     /**
-     * <code>optional .dstore.values.IntegerValue recursive_evaluation = 15;</code>
+     * <code>.dstore.values.IntegerValue recursive_evaluation = 15;</code>
      */
     io.dstore.values.IntegerValue getRecursiveEvaluation();
     /**
-     * <code>optional .dstore.values.IntegerValue recursive_evaluation = 15;</code>
+     * <code>.dstore.values.IntegerValue recursive_evaluation = 15;</code>
      */
     io.dstore.values.IntegerValueOrBuilder getRecursiveEvaluationOrBuilder();
 
     /**
-     * <code>optional bool recursive_evaluation_null = 1015;</code>
+     * <code>bool recursive_evaluation_null = 1015;</code>
      */
     boolean getRecursiveEvaluationNull();
 
     /**
-     * <code>optional .dstore.values.StringValue country = 16;</code>
+     * <code>.dstore.values.StringValue country = 16;</code>
      */
     boolean hasCountry();
     /**
-     * <code>optional .dstore.values.StringValue country = 16;</code>
+     * <code>.dstore.values.StringValue country = 16;</code>
      */
     io.dstore.values.StringValue getCountry();
     /**
-     * <code>optional .dstore.values.StringValue country = 16;</code>
+     * <code>.dstore.values.StringValue country = 16;</code>
      */
     io.dstore.values.StringValueOrBuilder getCountryOrBuilder();
 
     /**
-     * <code>optional bool country_null = 1016;</code>
+     * <code>bool country_null = 1016;</code>
      */
     boolean getCountryNull();
 
     /**
-     * <code>optional .dstore.values.StringValue extended_condition_description = 17;</code>
+     * <code>.dstore.values.StringValue extended_condition_description = 17;</code>
      */
     boolean hasExtendedConditionDescription();
     /**
-     * <code>optional .dstore.values.StringValue extended_condition_description = 17;</code>
+     * <code>.dstore.values.StringValue extended_condition_description = 17;</code>
      */
     io.dstore.values.StringValue getExtendedConditionDescription();
     /**
-     * <code>optional .dstore.values.StringValue extended_condition_description = 17;</code>
+     * <code>.dstore.values.StringValue extended_condition_description = 17;</code>
      */
     io.dstore.values.StringValueOrBuilder getExtendedConditionDescriptionOrBuilder();
 
     /**
-     * <code>optional bool extended_condition_description_null = 1017;</code>
+     * <code>bool extended_condition_description_null = 1017;</code>
      */
     boolean getExtendedConditionDescriptionNull();
 
     /**
-     * <code>optional .dstore.values.IntegerValue min_number_of_items = 18;</code>
+     * <code>.dstore.values.IntegerValue min_number_of_items = 18;</code>
      */
     boolean hasMinNumberOfItems();
     /**
-     * <code>optional .dstore.values.IntegerValue min_number_of_items = 18;</code>
+     * <code>.dstore.values.IntegerValue min_number_of_items = 18;</code>
      */
     io.dstore.values.IntegerValue getMinNumberOfItems();
     /**
-     * <code>optional .dstore.values.IntegerValue min_number_of_items = 18;</code>
+     * <code>.dstore.values.IntegerValue min_number_of_items = 18;</code>
      */
     io.dstore.values.IntegerValueOrBuilder getMinNumberOfItemsOrBuilder();
 
     /**
-     * <code>optional bool min_number_of_items_null = 1018;</code>
+     * <code>bool min_number_of_items_null = 1018;</code>
      */
     boolean getMinNumberOfItemsNull();
 
     /**
-     * <code>optional .dstore.values.IntegerValue max_number_of_items = 19;</code>
+     * <code>.dstore.values.IntegerValue max_number_of_items = 19;</code>
      */
     boolean hasMaxNumberOfItems();
     /**
-     * <code>optional .dstore.values.IntegerValue max_number_of_items = 19;</code>
+     * <code>.dstore.values.IntegerValue max_number_of_items = 19;</code>
      */
     io.dstore.values.IntegerValue getMaxNumberOfItems();
     /**
-     * <code>optional .dstore.values.IntegerValue max_number_of_items = 19;</code>
+     * <code>.dstore.values.IntegerValue max_number_of_items = 19;</code>
      */
     io.dstore.values.IntegerValueOrBuilder getMaxNumberOfItemsOrBuilder();
 
     /**
-     * <code>optional bool max_number_of_items_null = 1019;</code>
+     * <code>bool max_number_of_items_null = 1019;</code>
      */
     boolean getMaxNumberOfItemsNull();
 
     /**
-     * <code>optional .dstore.values.IntegerValue from_quantity = 20;</code>
+     * <code>.dstore.values.IntegerValue from_quantity = 20;</code>
      */
     boolean hasFromQuantity();
     /**
-     * <code>optional .dstore.values.IntegerValue from_quantity = 20;</code>
+     * <code>.dstore.values.IntegerValue from_quantity = 20;</code>
      */
     io.dstore.values.IntegerValue getFromQuantity();
     /**
-     * <code>optional .dstore.values.IntegerValue from_quantity = 20;</code>
+     * <code>.dstore.values.IntegerValue from_quantity = 20;</code>
      */
     io.dstore.values.IntegerValueOrBuilder getFromQuantityOrBuilder();
 
     /**
-     * <code>optional bool from_quantity_null = 1020;</code>
+     * <code>bool from_quantity_null = 1020;</code>
      */
     boolean getFromQuantityNull();
 
     /**
-     * <code>optional .dstore.values.IntegerValue to_quantity = 21;</code>
+     * <code>.dstore.values.IntegerValue to_quantity = 21;</code>
      */
     boolean hasToQuantity();
     /**
-     * <code>optional .dstore.values.IntegerValue to_quantity = 21;</code>
+     * <code>.dstore.values.IntegerValue to_quantity = 21;</code>
      */
     io.dstore.values.IntegerValue getToQuantity();
     /**
-     * <code>optional .dstore.values.IntegerValue to_quantity = 21;</code>
+     * <code>.dstore.values.IntegerValue to_quantity = 21;</code>
      */
     io.dstore.values.IntegerValueOrBuilder getToQuantityOrBuilder();
 
     /**
-     * <code>optional bool to_quantity_null = 1021;</code>
+     * <code>bool to_quantity_null = 1021;</code>
      */
     boolean getToQuantityNull();
 
     /**
-     * <code>optional .dstore.values.DecimalValue from_item_basic_price = 22;</code>
+     * <code>.dstore.values.DecimalValue from_item_basic_price = 22;</code>
      */
     boolean hasFromItemBasicPrice();
     /**
-     * <code>optional .dstore.values.DecimalValue from_item_basic_price = 22;</code>
+     * <code>.dstore.values.DecimalValue from_item_basic_price = 22;</code>
      */
     io.dstore.values.DecimalValue getFromItemBasicPrice();
     /**
-     * <code>optional .dstore.values.DecimalValue from_item_basic_price = 22;</code>
+     * <code>.dstore.values.DecimalValue from_item_basic_price = 22;</code>
      */
     io.dstore.values.DecimalValueOrBuilder getFromItemBasicPriceOrBuilder();
 
     /**
-     * <code>optional bool from_item_basic_price_null = 1022;</code>
+     * <code>bool from_item_basic_price_null = 1022;</code>
      */
     boolean getFromItemBasicPriceNull();
 
     /**
-     * <code>optional .dstore.values.DecimalValue to_item_basic_price = 23;</code>
+     * <code>.dstore.values.DecimalValue to_item_basic_price = 23;</code>
      */
     boolean hasToItemBasicPrice();
     /**
-     * <code>optional .dstore.values.DecimalValue to_item_basic_price = 23;</code>
+     * <code>.dstore.values.DecimalValue to_item_basic_price = 23;</code>
      */
     io.dstore.values.DecimalValue getToItemBasicPrice();
     /**
-     * <code>optional .dstore.values.DecimalValue to_item_basic_price = 23;</code>
+     * <code>.dstore.values.DecimalValue to_item_basic_price = 23;</code>
      */
     io.dstore.values.DecimalValueOrBuilder getToItemBasicPriceOrBuilder();
 
     /**
-     * <code>optional bool to_item_basic_price_null = 1023;</code>
+     * <code>bool to_item_basic_price_null = 1023;</code>
      */
     boolean getToItemBasicPriceNull();
 
     /**
-     * <code>optional .dstore.values.DecimalValue from_basic_price_sum = 24;</code>
+     * <code>.dstore.values.DecimalValue from_basic_price_sum = 24;</code>
      */
     boolean hasFromBasicPriceSum();
     /**
-     * <code>optional .dstore.values.DecimalValue from_basic_price_sum = 24;</code>
+     * <code>.dstore.values.DecimalValue from_basic_price_sum = 24;</code>
      */
     io.dstore.values.DecimalValue getFromBasicPriceSum();
     /**
-     * <code>optional .dstore.values.DecimalValue from_basic_price_sum = 24;</code>
+     * <code>.dstore.values.DecimalValue from_basic_price_sum = 24;</code>
      */
     io.dstore.values.DecimalValueOrBuilder getFromBasicPriceSumOrBuilder();
 
     /**
-     * <code>optional bool from_basic_price_sum_null = 1024;</code>
+     * <code>bool from_basic_price_sum_null = 1024;</code>
      */
     boolean getFromBasicPriceSumNull();
 
     /**
-     * <code>optional .dstore.values.DecimalValue to_basic_price_sum = 25;</code>
+     * <code>.dstore.values.DecimalValue to_basic_price_sum = 25;</code>
      */
     boolean hasToBasicPriceSum();
     /**
-     * <code>optional .dstore.values.DecimalValue to_basic_price_sum = 25;</code>
+     * <code>.dstore.values.DecimalValue to_basic_price_sum = 25;</code>
      */
     io.dstore.values.DecimalValue getToBasicPriceSum();
     /**
-     * <code>optional .dstore.values.DecimalValue to_basic_price_sum = 25;</code>
+     * <code>.dstore.values.DecimalValue to_basic_price_sum = 25;</code>
      */
     io.dstore.values.DecimalValueOrBuilder getToBasicPriceSumOrBuilder();
 
     /**
-     * <code>optional bool to_basic_price_sum_null = 1025;</code>
+     * <code>bool to_basic_price_sum_null = 1025;</code>
      */
     boolean getToBasicPriceSumNull();
 
     /**
-     * <code>optional .dstore.values.BooleanValue combine_groups_with_a_n_d_operator = 26;</code>
+     * <code>.dstore.values.BooleanValue combine_groups_with_a_n_d_operator = 26;</code>
      */
     boolean hasCombineGroupsWithANDOperator();
     /**
-     * <code>optional .dstore.values.BooleanValue combine_groups_with_a_n_d_operator = 26;</code>
+     * <code>.dstore.values.BooleanValue combine_groups_with_a_n_d_operator = 26;</code>
      */
     io.dstore.values.BooleanValue getCombineGroupsWithANDOperator();
     /**
-     * <code>optional .dstore.values.BooleanValue combine_groups_with_a_n_d_operator = 26;</code>
+     * <code>.dstore.values.BooleanValue combine_groups_with_a_n_d_operator = 26;</code>
      */
     io.dstore.values.BooleanValueOrBuilder getCombineGroupsWithANDOperatorOrBuilder();
 
     /**
-     * <code>optional bool combine_groups_with_a_n_d_operator_null = 1026;</code>
+     * <code>bool combine_groups_with_a_n_d_operator_null = 1026;</code>
      */
     boolean getCombineGroupsWithANDOperatorNull();
 
     /**
-     * <code>optional .dstore.values.BooleanValue combine_parts_with_a_n_d_operator = 27;</code>
+     * <code>.dstore.values.BooleanValue combine_parts_with_a_n_d_operator = 27;</code>
      */
     boolean hasCombinePartsWithANDOperator();
     /**
-     * <code>optional .dstore.values.BooleanValue combine_parts_with_a_n_d_operator = 27;</code>
+     * <code>.dstore.values.BooleanValue combine_parts_with_a_n_d_operator = 27;</code>
      */
     io.dstore.values.BooleanValue getCombinePartsWithANDOperator();
     /**
-     * <code>optional .dstore.values.BooleanValue combine_parts_with_a_n_d_operator = 27;</code>
+     * <code>.dstore.values.BooleanValue combine_parts_with_a_n_d_operator = 27;</code>
      */
     io.dstore.values.BooleanValueOrBuilder getCombinePartsWithANDOperatorOrBuilder();
 
     /**
-     * <code>optional bool combine_parts_with_a_n_d_operator_null = 1027;</code>
+     * <code>bool combine_parts_with_a_n_d_operator_null = 1027;</code>
      */
     boolean getCombinePartsWithANDOperatorNull();
   }
@@ -1083,19 +1083,19 @@ public final class OmCreateSimpleCampItemCondAd {
     public static final int CAMPAIGN_ID_FIELD_NUMBER = 1;
     private io.dstore.values.IntegerValue campaignId_;
     /**
-     * <code>optional .dstore.values.IntegerValue campaign_id = 1;</code>
+     * <code>.dstore.values.IntegerValue campaign_id = 1;</code>
      */
     public boolean hasCampaignId() {
       return campaignId_ != null;
     }
     /**
-     * <code>optional .dstore.values.IntegerValue campaign_id = 1;</code>
+     * <code>.dstore.values.IntegerValue campaign_id = 1;</code>
      */
     public io.dstore.values.IntegerValue getCampaignId() {
       return campaignId_ == null ? io.dstore.values.IntegerValue.getDefaultInstance() : campaignId_;
     }
     /**
-     * <code>optional .dstore.values.IntegerValue campaign_id = 1;</code>
+     * <code>.dstore.values.IntegerValue campaign_id = 1;</code>
      */
     public io.dstore.values.IntegerValueOrBuilder getCampaignIdOrBuilder() {
       return getCampaignId();
@@ -1104,7 +1104,7 @@ public final class OmCreateSimpleCampItemCondAd {
     public static final int CAMPAIGN_ID_NULL_FIELD_NUMBER = 1001;
     private boolean campaignIdNull_;
     /**
-     * <code>optional bool campaign_id_null = 1001;</code>
+     * <code>bool campaign_id_null = 1001;</code>
      */
     public boolean getCampaignIdNull() {
       return campaignIdNull_;
@@ -1113,19 +1113,19 @@ public final class OmCreateSimpleCampItemCondAd {
     public static final int CONDITION_DESCRIPTION_FIELD_NUMBER = 2;
     private io.dstore.values.StringValue conditionDescription_;
     /**
-     * <code>optional .dstore.values.StringValue condition_description = 2;</code>
+     * <code>.dstore.values.StringValue condition_description = 2;</code>
      */
     public boolean hasConditionDescription() {
       return conditionDescription_ != null;
     }
     /**
-     * <code>optional .dstore.values.StringValue condition_description = 2;</code>
+     * <code>.dstore.values.StringValue condition_description = 2;</code>
      */
     public io.dstore.values.StringValue getConditionDescription() {
       return conditionDescription_ == null ? io.dstore.values.StringValue.getDefaultInstance() : conditionDescription_;
     }
     /**
-     * <code>optional .dstore.values.StringValue condition_description = 2;</code>
+     * <code>.dstore.values.StringValue condition_description = 2;</code>
      */
     public io.dstore.values.StringValueOrBuilder getConditionDescriptionOrBuilder() {
       return getConditionDescription();
@@ -1134,7 +1134,7 @@ public final class OmCreateSimpleCampItemCondAd {
     public static final int CONDITION_DESCRIPTION_NULL_FIELD_NUMBER = 1002;
     private boolean conditionDescriptionNull_;
     /**
-     * <code>optional bool condition_description_null = 1002;</code>
+     * <code>bool condition_description_null = 1002;</code>
      */
     public boolean getConditionDescriptionNull() {
       return conditionDescriptionNull_;
@@ -1143,19 +1143,19 @@ public final class OmCreateSimpleCampItemCondAd {
     public static final int CONDITION_ID_FIELD_NUMBER = 3;
     private io.dstore.values.IntegerValue conditionId_;
     /**
-     * <code>optional .dstore.values.IntegerValue condition_id = 3;</code>
+     * <code>.dstore.values.IntegerValue condition_id = 3;</code>
      */
     public boolean hasConditionId() {
       return conditionId_ != null;
     }
     /**
-     * <code>optional .dstore.values.IntegerValue condition_id = 3;</code>
+     * <code>.dstore.values.IntegerValue condition_id = 3;</code>
      */
     public io.dstore.values.IntegerValue getConditionId() {
       return conditionId_ == null ? io.dstore.values.IntegerValue.getDefaultInstance() : conditionId_;
     }
     /**
-     * <code>optional .dstore.values.IntegerValue condition_id = 3;</code>
+     * <code>.dstore.values.IntegerValue condition_id = 3;</code>
      */
     public io.dstore.values.IntegerValueOrBuilder getConditionIdOrBuilder() {
       return getConditionId();
@@ -1164,7 +1164,7 @@ public final class OmCreateSimpleCampItemCondAd {
     public static final int CONDITION_ID_NULL_FIELD_NUMBER = 1003;
     private boolean conditionIdNull_;
     /**
-     * <code>optional bool condition_id_null = 1003;</code>
+     * <code>bool condition_id_null = 1003;</code>
      */
     public boolean getConditionIdNull() {
       return conditionIdNull_;
@@ -1173,19 +1173,19 @@ public final class OmCreateSimpleCampItemCondAd {
     public static final int ITEM_CONDITION_ID_FIELD_NUMBER = 4;
     private io.dstore.values.IntegerValue itemConditionId_;
     /**
-     * <code>optional .dstore.values.IntegerValue item_condition_id = 4;</code>
+     * <code>.dstore.values.IntegerValue item_condition_id = 4;</code>
      */
     public boolean hasItemConditionId() {
       return itemConditionId_ != null;
     }
     /**
-     * <code>optional .dstore.values.IntegerValue item_condition_id = 4;</code>
+     * <code>.dstore.values.IntegerValue item_condition_id = 4;</code>
      */
     public io.dstore.values.IntegerValue getItemConditionId() {
       return itemConditionId_ == null ? io.dstore.values.IntegerValue.getDefaultInstance() : itemConditionId_;
     }
     /**
-     * <code>optional .dstore.values.IntegerValue item_condition_id = 4;</code>
+     * <code>.dstore.values.IntegerValue item_condition_id = 4;</code>
      */
     public io.dstore.values.IntegerValueOrBuilder getItemConditionIdOrBuilder() {
       return getItemConditionId();
@@ -1194,7 +1194,7 @@ public final class OmCreateSimpleCampItemCondAd {
     public static final int ITEM_CONDITION_ID_NULL_FIELD_NUMBER = 1004;
     private boolean itemConditionIdNull_;
     /**
-     * <code>optional bool item_condition_id_null = 1004;</code>
+     * <code>bool item_condition_id_null = 1004;</code>
      */
     public boolean getItemConditionIdNull() {
       return itemConditionIdNull_;
@@ -1203,19 +1203,19 @@ public final class OmCreateSimpleCampItemCondAd {
     public static final int ITEM_CONDITION_GROUP_ID_FIELD_NUMBER = 5;
     private io.dstore.values.IntegerValue itemConditionGroupId_;
     /**
-     * <code>optional .dstore.values.IntegerValue item_condition_group_id = 5;</code>
+     * <code>.dstore.values.IntegerValue item_condition_group_id = 5;</code>
      */
     public boolean hasItemConditionGroupId() {
       return itemConditionGroupId_ != null;
     }
     /**
-     * <code>optional .dstore.values.IntegerValue item_condition_group_id = 5;</code>
+     * <code>.dstore.values.IntegerValue item_condition_group_id = 5;</code>
      */
     public io.dstore.values.IntegerValue getItemConditionGroupId() {
       return itemConditionGroupId_ == null ? io.dstore.values.IntegerValue.getDefaultInstance() : itemConditionGroupId_;
     }
     /**
-     * <code>optional .dstore.values.IntegerValue item_condition_group_id = 5;</code>
+     * <code>.dstore.values.IntegerValue item_condition_group_id = 5;</code>
      */
     public io.dstore.values.IntegerValueOrBuilder getItemConditionGroupIdOrBuilder() {
       return getItemConditionGroupId();
@@ -1224,7 +1224,7 @@ public final class OmCreateSimpleCampItemCondAd {
     public static final int ITEM_CONDITION_GROUP_ID_NULL_FIELD_NUMBER = 1005;
     private boolean itemConditionGroupIdNull_;
     /**
-     * <code>optional bool item_condition_group_id_null = 1005;</code>
+     * <code>bool item_condition_group_id_null = 1005;</code>
      */
     public boolean getItemConditionGroupIdNull() {
       return itemConditionGroupIdNull_;
@@ -1233,19 +1233,19 @@ public final class OmCreateSimpleCampItemCondAd {
     public static final int ITEM_CONDITION_PART_ID_FIELD_NUMBER = 6;
     private io.dstore.values.IntegerValue itemConditionPartId_;
     /**
-     * <code>optional .dstore.values.IntegerValue item_condition_part_id = 6;</code>
+     * <code>.dstore.values.IntegerValue item_condition_part_id = 6;</code>
      */
     public boolean hasItemConditionPartId() {
       return itemConditionPartId_ != null;
     }
     /**
-     * <code>optional .dstore.values.IntegerValue item_condition_part_id = 6;</code>
+     * <code>.dstore.values.IntegerValue item_condition_part_id = 6;</code>
      */
     public io.dstore.values.IntegerValue getItemConditionPartId() {
       return itemConditionPartId_ == null ? io.dstore.values.IntegerValue.getDefaultInstance() : itemConditionPartId_;
     }
     /**
-     * <code>optional .dstore.values.IntegerValue item_condition_part_id = 6;</code>
+     * <code>.dstore.values.IntegerValue item_condition_part_id = 6;</code>
      */
     public io.dstore.values.IntegerValueOrBuilder getItemConditionPartIdOrBuilder() {
       return getItemConditionPartId();
@@ -1254,7 +1254,7 @@ public final class OmCreateSimpleCampItemCondAd {
     public static final int ITEM_CONDITION_PART_ID_NULL_FIELD_NUMBER = 1006;
     private boolean itemConditionPartIdNull_;
     /**
-     * <code>optional bool item_condition_part_id_null = 1006;</code>
+     * <code>bool item_condition_part_id_null = 1006;</code>
      */
     public boolean getItemConditionPartIdNull() {
       return itemConditionPartIdNull_;
@@ -1263,19 +1263,19 @@ public final class OmCreateSimpleCampItemCondAd {
     public static final int LEVEL_IDS_FIELD_NUMBER = 7;
     private io.dstore.values.StringValue levelIds_;
     /**
-     * <code>optional .dstore.values.StringValue level_ids = 7;</code>
+     * <code>.dstore.values.StringValue level_ids = 7;</code>
      */
     public boolean hasLevelIds() {
       return levelIds_ != null;
     }
     /**
-     * <code>optional .dstore.values.StringValue level_ids = 7;</code>
+     * <code>.dstore.values.StringValue level_ids = 7;</code>
      */
     public io.dstore.values.StringValue getLevelIds() {
       return levelIds_ == null ? io.dstore.values.StringValue.getDefaultInstance() : levelIds_;
     }
     /**
-     * <code>optional .dstore.values.StringValue level_ids = 7;</code>
+     * <code>.dstore.values.StringValue level_ids = 7;</code>
      */
     public io.dstore.values.StringValueOrBuilder getLevelIdsOrBuilder() {
       return getLevelIds();
@@ -1284,7 +1284,7 @@ public final class OmCreateSimpleCampItemCondAd {
     public static final int LEVEL_IDS_NULL_FIELD_NUMBER = 1007;
     private boolean levelIdsNull_;
     /**
-     * <code>optional bool level_ids_null = 1007;</code>
+     * <code>bool level_ids_null = 1007;</code>
      */
     public boolean getLevelIdsNull() {
       return levelIdsNull_;
@@ -1293,19 +1293,19 @@ public final class OmCreateSimpleCampItemCondAd {
     public static final int DOMAIN_TREE_NODE_IDS_FIELD_NUMBER = 8;
     private io.dstore.values.StringValue domainTreeNodeIds_;
     /**
-     * <code>optional .dstore.values.StringValue domain_tree_node_ids = 8;</code>
+     * <code>.dstore.values.StringValue domain_tree_node_ids = 8;</code>
      */
     public boolean hasDomainTreeNodeIds() {
       return domainTreeNodeIds_ != null;
     }
     /**
-     * <code>optional .dstore.values.StringValue domain_tree_node_ids = 8;</code>
+     * <code>.dstore.values.StringValue domain_tree_node_ids = 8;</code>
      */
     public io.dstore.values.StringValue getDomainTreeNodeIds() {
       return domainTreeNodeIds_ == null ? io.dstore.values.StringValue.getDefaultInstance() : domainTreeNodeIds_;
     }
     /**
-     * <code>optional .dstore.values.StringValue domain_tree_node_ids = 8;</code>
+     * <code>.dstore.values.StringValue domain_tree_node_ids = 8;</code>
      */
     public io.dstore.values.StringValueOrBuilder getDomainTreeNodeIdsOrBuilder() {
       return getDomainTreeNodeIds();
@@ -1314,7 +1314,7 @@ public final class OmCreateSimpleCampItemCondAd {
     public static final int DOMAIN_TREE_NODE_IDS_NULL_FIELD_NUMBER = 1008;
     private boolean domainTreeNodeIdsNull_;
     /**
-     * <code>optional bool domain_tree_node_ids_null = 1008;</code>
+     * <code>bool domain_tree_node_ids_null = 1008;</code>
      */
     public boolean getDomainTreeNodeIdsNull() {
       return domainTreeNodeIdsNull_;
@@ -1323,19 +1323,19 @@ public final class OmCreateSimpleCampItemCondAd {
     public static final int NODE_CHARACTERISTIC_ID_FIELD_NUMBER = 9;
     private io.dstore.values.IntegerValue nodeCharacteristicId_;
     /**
-     * <code>optional .dstore.values.IntegerValue node_characteristic_id = 9;</code>
+     * <code>.dstore.values.IntegerValue node_characteristic_id = 9;</code>
      */
     public boolean hasNodeCharacteristicId() {
       return nodeCharacteristicId_ != null;
     }
     /**
-     * <code>optional .dstore.values.IntegerValue node_characteristic_id = 9;</code>
+     * <code>.dstore.values.IntegerValue node_characteristic_id = 9;</code>
      */
     public io.dstore.values.IntegerValue getNodeCharacteristicId() {
       return nodeCharacteristicId_ == null ? io.dstore.values.IntegerValue.getDefaultInstance() : nodeCharacteristicId_;
     }
     /**
-     * <code>optional .dstore.values.IntegerValue node_characteristic_id = 9;</code>
+     * <code>.dstore.values.IntegerValue node_characteristic_id = 9;</code>
      */
     public io.dstore.values.IntegerValueOrBuilder getNodeCharacteristicIdOrBuilder() {
       return getNodeCharacteristicId();
@@ -1344,7 +1344,7 @@ public final class OmCreateSimpleCampItemCondAd {
     public static final int NODE_CHARACTERISTIC_ID_NULL_FIELD_NUMBER = 1009;
     private boolean nodeCharacteristicIdNull_;
     /**
-     * <code>optional bool node_characteristic_id_null = 1009;</code>
+     * <code>bool node_characteristic_id_null = 1009;</code>
      */
     public boolean getNodeCharacteristicIdNull() {
       return nodeCharacteristicIdNull_;
@@ -1353,19 +1353,19 @@ public final class OmCreateSimpleCampItemCondAd {
     public static final int OPERATOR1_FIELD_NUMBER = 10;
     private io.dstore.values.StringValue operator1_;
     /**
-     * <code>optional .dstore.values.StringValue operator1 = 10;</code>
+     * <code>.dstore.values.StringValue operator1 = 10;</code>
      */
     public boolean hasOperator1() {
       return operator1_ != null;
     }
     /**
-     * <code>optional .dstore.values.StringValue operator1 = 10;</code>
+     * <code>.dstore.values.StringValue operator1 = 10;</code>
      */
     public io.dstore.values.StringValue getOperator1() {
       return operator1_ == null ? io.dstore.values.StringValue.getDefaultInstance() : operator1_;
     }
     /**
-     * <code>optional .dstore.values.StringValue operator1 = 10;</code>
+     * <code>.dstore.values.StringValue operator1 = 10;</code>
      */
     public io.dstore.values.StringValueOrBuilder getOperator1OrBuilder() {
       return getOperator1();
@@ -1374,7 +1374,7 @@ public final class OmCreateSimpleCampItemCondAd {
     public static final int OPERATOR1_NULL_FIELD_NUMBER = 1010;
     private boolean operator1Null_;
     /**
-     * <code>optional bool operator1_null = 1010;</code>
+     * <code>bool operator1_null = 1010;</code>
      */
     public boolean getOperator1Null() {
       return operator1Null_;
@@ -1383,19 +1383,19 @@ public final class OmCreateSimpleCampItemCondAd {
     public static final int CONDITION1_FIELD_NUMBER = 11;
     private io.dstore.values.StringValue condition1_;
     /**
-     * <code>optional .dstore.values.StringValue condition1 = 11;</code>
+     * <code>.dstore.values.StringValue condition1 = 11;</code>
      */
     public boolean hasCondition1() {
       return condition1_ != null;
     }
     /**
-     * <code>optional .dstore.values.StringValue condition1 = 11;</code>
+     * <code>.dstore.values.StringValue condition1 = 11;</code>
      */
     public io.dstore.values.StringValue getCondition1() {
       return condition1_ == null ? io.dstore.values.StringValue.getDefaultInstance() : condition1_;
     }
     /**
-     * <code>optional .dstore.values.StringValue condition1 = 11;</code>
+     * <code>.dstore.values.StringValue condition1 = 11;</code>
      */
     public io.dstore.values.StringValueOrBuilder getCondition1OrBuilder() {
       return getCondition1();
@@ -1404,7 +1404,7 @@ public final class OmCreateSimpleCampItemCondAd {
     public static final int CONDITION1_NULL_FIELD_NUMBER = 1011;
     private boolean condition1Null_;
     /**
-     * <code>optional bool condition1_null = 1011;</code>
+     * <code>bool condition1_null = 1011;</code>
      */
     public boolean getCondition1Null() {
       return condition1Null_;
@@ -1413,19 +1413,19 @@ public final class OmCreateSimpleCampItemCondAd {
     public static final int OPERATOR2_FIELD_NUMBER = 12;
     private io.dstore.values.StringValue operator2_;
     /**
-     * <code>optional .dstore.values.StringValue operator2 = 12;</code>
+     * <code>.dstore.values.StringValue operator2 = 12;</code>
      */
     public boolean hasOperator2() {
       return operator2_ != null;
     }
     /**
-     * <code>optional .dstore.values.StringValue operator2 = 12;</code>
+     * <code>.dstore.values.StringValue operator2 = 12;</code>
      */
     public io.dstore.values.StringValue getOperator2() {
       return operator2_ == null ? io.dstore.values.StringValue.getDefaultInstance() : operator2_;
     }
     /**
-     * <code>optional .dstore.values.StringValue operator2 = 12;</code>
+     * <code>.dstore.values.StringValue operator2 = 12;</code>
      */
     public io.dstore.values.StringValueOrBuilder getOperator2OrBuilder() {
       return getOperator2();
@@ -1434,7 +1434,7 @@ public final class OmCreateSimpleCampItemCondAd {
     public static final int OPERATOR2_NULL_FIELD_NUMBER = 1012;
     private boolean operator2Null_;
     /**
-     * <code>optional bool operator2_null = 1012;</code>
+     * <code>bool operator2_null = 1012;</code>
      */
     public boolean getOperator2Null() {
       return operator2Null_;
@@ -1443,19 +1443,19 @@ public final class OmCreateSimpleCampItemCondAd {
     public static final int CONDITION2_FIELD_NUMBER = 13;
     private io.dstore.values.StringValue condition2_;
     /**
-     * <code>optional .dstore.values.StringValue condition2 = 13;</code>
+     * <code>.dstore.values.StringValue condition2 = 13;</code>
      */
     public boolean hasCondition2() {
       return condition2_ != null;
     }
     /**
-     * <code>optional .dstore.values.StringValue condition2 = 13;</code>
+     * <code>.dstore.values.StringValue condition2 = 13;</code>
      */
     public io.dstore.values.StringValue getCondition2() {
       return condition2_ == null ? io.dstore.values.StringValue.getDefaultInstance() : condition2_;
     }
     /**
-     * <code>optional .dstore.values.StringValue condition2 = 13;</code>
+     * <code>.dstore.values.StringValue condition2 = 13;</code>
      */
     public io.dstore.values.StringValueOrBuilder getCondition2OrBuilder() {
       return getCondition2();
@@ -1464,7 +1464,7 @@ public final class OmCreateSimpleCampItemCondAd {
     public static final int CONDITION2_NULL_FIELD_NUMBER = 1013;
     private boolean condition2Null_;
     /**
-     * <code>optional bool condition2_null = 1013;</code>
+     * <code>bool condition2_null = 1013;</code>
      */
     public boolean getCondition2Null() {
       return condition2Null_;
@@ -1473,19 +1473,19 @@ public final class OmCreateSimpleCampItemCondAd {
     public static final int INHERIT_DEPTH_FIELD_NUMBER = 14;
     private io.dstore.values.IntegerValue inheritDepth_;
     /**
-     * <code>optional .dstore.values.IntegerValue inherit_depth = 14;</code>
+     * <code>.dstore.values.IntegerValue inherit_depth = 14;</code>
      */
     public boolean hasInheritDepth() {
       return inheritDepth_ != null;
     }
     /**
-     * <code>optional .dstore.values.IntegerValue inherit_depth = 14;</code>
+     * <code>.dstore.values.IntegerValue inherit_depth = 14;</code>
      */
     public io.dstore.values.IntegerValue getInheritDepth() {
       return inheritDepth_ == null ? io.dstore.values.IntegerValue.getDefaultInstance() : inheritDepth_;
     }
     /**
-     * <code>optional .dstore.values.IntegerValue inherit_depth = 14;</code>
+     * <code>.dstore.values.IntegerValue inherit_depth = 14;</code>
      */
     public io.dstore.values.IntegerValueOrBuilder getInheritDepthOrBuilder() {
       return getInheritDepth();
@@ -1494,7 +1494,7 @@ public final class OmCreateSimpleCampItemCondAd {
     public static final int INHERIT_DEPTH_NULL_FIELD_NUMBER = 1014;
     private boolean inheritDepthNull_;
     /**
-     * <code>optional bool inherit_depth_null = 1014;</code>
+     * <code>bool inherit_depth_null = 1014;</code>
      */
     public boolean getInheritDepthNull() {
       return inheritDepthNull_;
@@ -1503,19 +1503,19 @@ public final class OmCreateSimpleCampItemCondAd {
     public static final int RECURSIVE_EVALUATION_FIELD_NUMBER = 15;
     private io.dstore.values.IntegerValue recursiveEvaluation_;
     /**
-     * <code>optional .dstore.values.IntegerValue recursive_evaluation = 15;</code>
+     * <code>.dstore.values.IntegerValue recursive_evaluation = 15;</code>
      */
     public boolean hasRecursiveEvaluation() {
       return recursiveEvaluation_ != null;
     }
     /**
-     * <code>optional .dstore.values.IntegerValue recursive_evaluation = 15;</code>
+     * <code>.dstore.values.IntegerValue recursive_evaluation = 15;</code>
      */
     public io.dstore.values.IntegerValue getRecursiveEvaluation() {
       return recursiveEvaluation_ == null ? io.dstore.values.IntegerValue.getDefaultInstance() : recursiveEvaluation_;
     }
     /**
-     * <code>optional .dstore.values.IntegerValue recursive_evaluation = 15;</code>
+     * <code>.dstore.values.IntegerValue recursive_evaluation = 15;</code>
      */
     public io.dstore.values.IntegerValueOrBuilder getRecursiveEvaluationOrBuilder() {
       return getRecursiveEvaluation();
@@ -1524,7 +1524,7 @@ public final class OmCreateSimpleCampItemCondAd {
     public static final int RECURSIVE_EVALUATION_NULL_FIELD_NUMBER = 1015;
     private boolean recursiveEvaluationNull_;
     /**
-     * <code>optional bool recursive_evaluation_null = 1015;</code>
+     * <code>bool recursive_evaluation_null = 1015;</code>
      */
     public boolean getRecursiveEvaluationNull() {
       return recursiveEvaluationNull_;
@@ -1533,19 +1533,19 @@ public final class OmCreateSimpleCampItemCondAd {
     public static final int COUNTRY_FIELD_NUMBER = 16;
     private io.dstore.values.StringValue country_;
     /**
-     * <code>optional .dstore.values.StringValue country = 16;</code>
+     * <code>.dstore.values.StringValue country = 16;</code>
      */
     public boolean hasCountry() {
       return country_ != null;
     }
     /**
-     * <code>optional .dstore.values.StringValue country = 16;</code>
+     * <code>.dstore.values.StringValue country = 16;</code>
      */
     public io.dstore.values.StringValue getCountry() {
       return country_ == null ? io.dstore.values.StringValue.getDefaultInstance() : country_;
     }
     /**
-     * <code>optional .dstore.values.StringValue country = 16;</code>
+     * <code>.dstore.values.StringValue country = 16;</code>
      */
     public io.dstore.values.StringValueOrBuilder getCountryOrBuilder() {
       return getCountry();
@@ -1554,7 +1554,7 @@ public final class OmCreateSimpleCampItemCondAd {
     public static final int COUNTRY_NULL_FIELD_NUMBER = 1016;
     private boolean countryNull_;
     /**
-     * <code>optional bool country_null = 1016;</code>
+     * <code>bool country_null = 1016;</code>
      */
     public boolean getCountryNull() {
       return countryNull_;
@@ -1563,19 +1563,19 @@ public final class OmCreateSimpleCampItemCondAd {
     public static final int EXTENDED_CONDITION_DESCRIPTION_FIELD_NUMBER = 17;
     private io.dstore.values.StringValue extendedConditionDescription_;
     /**
-     * <code>optional .dstore.values.StringValue extended_condition_description = 17;</code>
+     * <code>.dstore.values.StringValue extended_condition_description = 17;</code>
      */
     public boolean hasExtendedConditionDescription() {
       return extendedConditionDescription_ != null;
     }
     /**
-     * <code>optional .dstore.values.StringValue extended_condition_description = 17;</code>
+     * <code>.dstore.values.StringValue extended_condition_description = 17;</code>
      */
     public io.dstore.values.StringValue getExtendedConditionDescription() {
       return extendedConditionDescription_ == null ? io.dstore.values.StringValue.getDefaultInstance() : extendedConditionDescription_;
     }
     /**
-     * <code>optional .dstore.values.StringValue extended_condition_description = 17;</code>
+     * <code>.dstore.values.StringValue extended_condition_description = 17;</code>
      */
     public io.dstore.values.StringValueOrBuilder getExtendedConditionDescriptionOrBuilder() {
       return getExtendedConditionDescription();
@@ -1584,7 +1584,7 @@ public final class OmCreateSimpleCampItemCondAd {
     public static final int EXTENDED_CONDITION_DESCRIPTION_NULL_FIELD_NUMBER = 1017;
     private boolean extendedConditionDescriptionNull_;
     /**
-     * <code>optional bool extended_condition_description_null = 1017;</code>
+     * <code>bool extended_condition_description_null = 1017;</code>
      */
     public boolean getExtendedConditionDescriptionNull() {
       return extendedConditionDescriptionNull_;
@@ -1593,19 +1593,19 @@ public final class OmCreateSimpleCampItemCondAd {
     public static final int MIN_NUMBER_OF_ITEMS_FIELD_NUMBER = 18;
     private io.dstore.values.IntegerValue minNumberOfItems_;
     /**
-     * <code>optional .dstore.values.IntegerValue min_number_of_items = 18;</code>
+     * <code>.dstore.values.IntegerValue min_number_of_items = 18;</code>
      */
     public boolean hasMinNumberOfItems() {
       return minNumberOfItems_ != null;
     }
     /**
-     * <code>optional .dstore.values.IntegerValue min_number_of_items = 18;</code>
+     * <code>.dstore.values.IntegerValue min_number_of_items = 18;</code>
      */
     public io.dstore.values.IntegerValue getMinNumberOfItems() {
       return minNumberOfItems_ == null ? io.dstore.values.IntegerValue.getDefaultInstance() : minNumberOfItems_;
     }
     /**
-     * <code>optional .dstore.values.IntegerValue min_number_of_items = 18;</code>
+     * <code>.dstore.values.IntegerValue min_number_of_items = 18;</code>
      */
     public io.dstore.values.IntegerValueOrBuilder getMinNumberOfItemsOrBuilder() {
       return getMinNumberOfItems();
@@ -1614,7 +1614,7 @@ public final class OmCreateSimpleCampItemCondAd {
     public static final int MIN_NUMBER_OF_ITEMS_NULL_FIELD_NUMBER = 1018;
     private boolean minNumberOfItemsNull_;
     /**
-     * <code>optional bool min_number_of_items_null = 1018;</code>
+     * <code>bool min_number_of_items_null = 1018;</code>
      */
     public boolean getMinNumberOfItemsNull() {
       return minNumberOfItemsNull_;
@@ -1623,19 +1623,19 @@ public final class OmCreateSimpleCampItemCondAd {
     public static final int MAX_NUMBER_OF_ITEMS_FIELD_NUMBER = 19;
     private io.dstore.values.IntegerValue maxNumberOfItems_;
     /**
-     * <code>optional .dstore.values.IntegerValue max_number_of_items = 19;</code>
+     * <code>.dstore.values.IntegerValue max_number_of_items = 19;</code>
      */
     public boolean hasMaxNumberOfItems() {
       return maxNumberOfItems_ != null;
     }
     /**
-     * <code>optional .dstore.values.IntegerValue max_number_of_items = 19;</code>
+     * <code>.dstore.values.IntegerValue max_number_of_items = 19;</code>
      */
     public io.dstore.values.IntegerValue getMaxNumberOfItems() {
       return maxNumberOfItems_ == null ? io.dstore.values.IntegerValue.getDefaultInstance() : maxNumberOfItems_;
     }
     /**
-     * <code>optional .dstore.values.IntegerValue max_number_of_items = 19;</code>
+     * <code>.dstore.values.IntegerValue max_number_of_items = 19;</code>
      */
     public io.dstore.values.IntegerValueOrBuilder getMaxNumberOfItemsOrBuilder() {
       return getMaxNumberOfItems();
@@ -1644,7 +1644,7 @@ public final class OmCreateSimpleCampItemCondAd {
     public static final int MAX_NUMBER_OF_ITEMS_NULL_FIELD_NUMBER = 1019;
     private boolean maxNumberOfItemsNull_;
     /**
-     * <code>optional bool max_number_of_items_null = 1019;</code>
+     * <code>bool max_number_of_items_null = 1019;</code>
      */
     public boolean getMaxNumberOfItemsNull() {
       return maxNumberOfItemsNull_;
@@ -1653,19 +1653,19 @@ public final class OmCreateSimpleCampItemCondAd {
     public static final int FROM_QUANTITY_FIELD_NUMBER = 20;
     private io.dstore.values.IntegerValue fromQuantity_;
     /**
-     * <code>optional .dstore.values.IntegerValue from_quantity = 20;</code>
+     * <code>.dstore.values.IntegerValue from_quantity = 20;</code>
      */
     public boolean hasFromQuantity() {
       return fromQuantity_ != null;
     }
     /**
-     * <code>optional .dstore.values.IntegerValue from_quantity = 20;</code>
+     * <code>.dstore.values.IntegerValue from_quantity = 20;</code>
      */
     public io.dstore.values.IntegerValue getFromQuantity() {
       return fromQuantity_ == null ? io.dstore.values.IntegerValue.getDefaultInstance() : fromQuantity_;
     }
     /**
-     * <code>optional .dstore.values.IntegerValue from_quantity = 20;</code>
+     * <code>.dstore.values.IntegerValue from_quantity = 20;</code>
      */
     public io.dstore.values.IntegerValueOrBuilder getFromQuantityOrBuilder() {
       return getFromQuantity();
@@ -1674,7 +1674,7 @@ public final class OmCreateSimpleCampItemCondAd {
     public static final int FROM_QUANTITY_NULL_FIELD_NUMBER = 1020;
     private boolean fromQuantityNull_;
     /**
-     * <code>optional bool from_quantity_null = 1020;</code>
+     * <code>bool from_quantity_null = 1020;</code>
      */
     public boolean getFromQuantityNull() {
       return fromQuantityNull_;
@@ -1683,19 +1683,19 @@ public final class OmCreateSimpleCampItemCondAd {
     public static final int TO_QUANTITY_FIELD_NUMBER = 21;
     private io.dstore.values.IntegerValue toQuantity_;
     /**
-     * <code>optional .dstore.values.IntegerValue to_quantity = 21;</code>
+     * <code>.dstore.values.IntegerValue to_quantity = 21;</code>
      */
     public boolean hasToQuantity() {
       return toQuantity_ != null;
     }
     /**
-     * <code>optional .dstore.values.IntegerValue to_quantity = 21;</code>
+     * <code>.dstore.values.IntegerValue to_quantity = 21;</code>
      */
     public io.dstore.values.IntegerValue getToQuantity() {
       return toQuantity_ == null ? io.dstore.values.IntegerValue.getDefaultInstance() : toQuantity_;
     }
     /**
-     * <code>optional .dstore.values.IntegerValue to_quantity = 21;</code>
+     * <code>.dstore.values.IntegerValue to_quantity = 21;</code>
      */
     public io.dstore.values.IntegerValueOrBuilder getToQuantityOrBuilder() {
       return getToQuantity();
@@ -1704,7 +1704,7 @@ public final class OmCreateSimpleCampItemCondAd {
     public static final int TO_QUANTITY_NULL_FIELD_NUMBER = 1021;
     private boolean toQuantityNull_;
     /**
-     * <code>optional bool to_quantity_null = 1021;</code>
+     * <code>bool to_quantity_null = 1021;</code>
      */
     public boolean getToQuantityNull() {
       return toQuantityNull_;
@@ -1713,19 +1713,19 @@ public final class OmCreateSimpleCampItemCondAd {
     public static final int FROM_ITEM_BASIC_PRICE_FIELD_NUMBER = 22;
     private io.dstore.values.DecimalValue fromItemBasicPrice_;
     /**
-     * <code>optional .dstore.values.DecimalValue from_item_basic_price = 22;</code>
+     * <code>.dstore.values.DecimalValue from_item_basic_price = 22;</code>
      */
     public boolean hasFromItemBasicPrice() {
       return fromItemBasicPrice_ != null;
     }
     /**
-     * <code>optional .dstore.values.DecimalValue from_item_basic_price = 22;</code>
+     * <code>.dstore.values.DecimalValue from_item_basic_price = 22;</code>
      */
     public io.dstore.values.DecimalValue getFromItemBasicPrice() {
       return fromItemBasicPrice_ == null ? io.dstore.values.DecimalValue.getDefaultInstance() : fromItemBasicPrice_;
     }
     /**
-     * <code>optional .dstore.values.DecimalValue from_item_basic_price = 22;</code>
+     * <code>.dstore.values.DecimalValue from_item_basic_price = 22;</code>
      */
     public io.dstore.values.DecimalValueOrBuilder getFromItemBasicPriceOrBuilder() {
       return getFromItemBasicPrice();
@@ -1734,7 +1734,7 @@ public final class OmCreateSimpleCampItemCondAd {
     public static final int FROM_ITEM_BASIC_PRICE_NULL_FIELD_NUMBER = 1022;
     private boolean fromItemBasicPriceNull_;
     /**
-     * <code>optional bool from_item_basic_price_null = 1022;</code>
+     * <code>bool from_item_basic_price_null = 1022;</code>
      */
     public boolean getFromItemBasicPriceNull() {
       return fromItemBasicPriceNull_;
@@ -1743,19 +1743,19 @@ public final class OmCreateSimpleCampItemCondAd {
     public static final int TO_ITEM_BASIC_PRICE_FIELD_NUMBER = 23;
     private io.dstore.values.DecimalValue toItemBasicPrice_;
     /**
-     * <code>optional .dstore.values.DecimalValue to_item_basic_price = 23;</code>
+     * <code>.dstore.values.DecimalValue to_item_basic_price = 23;</code>
      */
     public boolean hasToItemBasicPrice() {
       return toItemBasicPrice_ != null;
     }
     /**
-     * <code>optional .dstore.values.DecimalValue to_item_basic_price = 23;</code>
+     * <code>.dstore.values.DecimalValue to_item_basic_price = 23;</code>
      */
     public io.dstore.values.DecimalValue getToItemBasicPrice() {
       return toItemBasicPrice_ == null ? io.dstore.values.DecimalValue.getDefaultInstance() : toItemBasicPrice_;
     }
     /**
-     * <code>optional .dstore.values.DecimalValue to_item_basic_price = 23;</code>
+     * <code>.dstore.values.DecimalValue to_item_basic_price = 23;</code>
      */
     public io.dstore.values.DecimalValueOrBuilder getToItemBasicPriceOrBuilder() {
       return getToItemBasicPrice();
@@ -1764,7 +1764,7 @@ public final class OmCreateSimpleCampItemCondAd {
     public static final int TO_ITEM_BASIC_PRICE_NULL_FIELD_NUMBER = 1023;
     private boolean toItemBasicPriceNull_;
     /**
-     * <code>optional bool to_item_basic_price_null = 1023;</code>
+     * <code>bool to_item_basic_price_null = 1023;</code>
      */
     public boolean getToItemBasicPriceNull() {
       return toItemBasicPriceNull_;
@@ -1773,19 +1773,19 @@ public final class OmCreateSimpleCampItemCondAd {
     public static final int FROM_BASIC_PRICE_SUM_FIELD_NUMBER = 24;
     private io.dstore.values.DecimalValue fromBasicPriceSum_;
     /**
-     * <code>optional .dstore.values.DecimalValue from_basic_price_sum = 24;</code>
+     * <code>.dstore.values.DecimalValue from_basic_price_sum = 24;</code>
      */
     public boolean hasFromBasicPriceSum() {
       return fromBasicPriceSum_ != null;
     }
     /**
-     * <code>optional .dstore.values.DecimalValue from_basic_price_sum = 24;</code>
+     * <code>.dstore.values.DecimalValue from_basic_price_sum = 24;</code>
      */
     public io.dstore.values.DecimalValue getFromBasicPriceSum() {
       return fromBasicPriceSum_ == null ? io.dstore.values.DecimalValue.getDefaultInstance() : fromBasicPriceSum_;
     }
     /**
-     * <code>optional .dstore.values.DecimalValue from_basic_price_sum = 24;</code>
+     * <code>.dstore.values.DecimalValue from_basic_price_sum = 24;</code>
      */
     public io.dstore.values.DecimalValueOrBuilder getFromBasicPriceSumOrBuilder() {
       return getFromBasicPriceSum();
@@ -1794,7 +1794,7 @@ public final class OmCreateSimpleCampItemCondAd {
     public static final int FROM_BASIC_PRICE_SUM_NULL_FIELD_NUMBER = 1024;
     private boolean fromBasicPriceSumNull_;
     /**
-     * <code>optional bool from_basic_price_sum_null = 1024;</code>
+     * <code>bool from_basic_price_sum_null = 1024;</code>
      */
     public boolean getFromBasicPriceSumNull() {
       return fromBasicPriceSumNull_;
@@ -1803,19 +1803,19 @@ public final class OmCreateSimpleCampItemCondAd {
     public static final int TO_BASIC_PRICE_SUM_FIELD_NUMBER = 25;
     private io.dstore.values.DecimalValue toBasicPriceSum_;
     /**
-     * <code>optional .dstore.values.DecimalValue to_basic_price_sum = 25;</code>
+     * <code>.dstore.values.DecimalValue to_basic_price_sum = 25;</code>
      */
     public boolean hasToBasicPriceSum() {
       return toBasicPriceSum_ != null;
     }
     /**
-     * <code>optional .dstore.values.DecimalValue to_basic_price_sum = 25;</code>
+     * <code>.dstore.values.DecimalValue to_basic_price_sum = 25;</code>
      */
     public io.dstore.values.DecimalValue getToBasicPriceSum() {
       return toBasicPriceSum_ == null ? io.dstore.values.DecimalValue.getDefaultInstance() : toBasicPriceSum_;
     }
     /**
-     * <code>optional .dstore.values.DecimalValue to_basic_price_sum = 25;</code>
+     * <code>.dstore.values.DecimalValue to_basic_price_sum = 25;</code>
      */
     public io.dstore.values.DecimalValueOrBuilder getToBasicPriceSumOrBuilder() {
       return getToBasicPriceSum();
@@ -1824,7 +1824,7 @@ public final class OmCreateSimpleCampItemCondAd {
     public static final int TO_BASIC_PRICE_SUM_NULL_FIELD_NUMBER = 1025;
     private boolean toBasicPriceSumNull_;
     /**
-     * <code>optional bool to_basic_price_sum_null = 1025;</code>
+     * <code>bool to_basic_price_sum_null = 1025;</code>
      */
     public boolean getToBasicPriceSumNull() {
       return toBasicPriceSumNull_;
@@ -1833,19 +1833,19 @@ public final class OmCreateSimpleCampItemCondAd {
     public static final int COMBINE_GROUPS_WITH_A_N_D_OPERATOR_FIELD_NUMBER = 26;
     private io.dstore.values.BooleanValue combineGroupsWithANDOperator_;
     /**
-     * <code>optional .dstore.values.BooleanValue combine_groups_with_a_n_d_operator = 26;</code>
+     * <code>.dstore.values.BooleanValue combine_groups_with_a_n_d_operator = 26;</code>
      */
     public boolean hasCombineGroupsWithANDOperator() {
       return combineGroupsWithANDOperator_ != null;
     }
     /**
-     * <code>optional .dstore.values.BooleanValue combine_groups_with_a_n_d_operator = 26;</code>
+     * <code>.dstore.values.BooleanValue combine_groups_with_a_n_d_operator = 26;</code>
      */
     public io.dstore.values.BooleanValue getCombineGroupsWithANDOperator() {
       return combineGroupsWithANDOperator_ == null ? io.dstore.values.BooleanValue.getDefaultInstance() : combineGroupsWithANDOperator_;
     }
     /**
-     * <code>optional .dstore.values.BooleanValue combine_groups_with_a_n_d_operator = 26;</code>
+     * <code>.dstore.values.BooleanValue combine_groups_with_a_n_d_operator = 26;</code>
      */
     public io.dstore.values.BooleanValueOrBuilder getCombineGroupsWithANDOperatorOrBuilder() {
       return getCombineGroupsWithANDOperator();
@@ -1854,7 +1854,7 @@ public final class OmCreateSimpleCampItemCondAd {
     public static final int COMBINE_GROUPS_WITH_A_N_D_OPERATOR_NULL_FIELD_NUMBER = 1026;
     private boolean combineGroupsWithANDOperatorNull_;
     /**
-     * <code>optional bool combine_groups_with_a_n_d_operator_null = 1026;</code>
+     * <code>bool combine_groups_with_a_n_d_operator_null = 1026;</code>
      */
     public boolean getCombineGroupsWithANDOperatorNull() {
       return combineGroupsWithANDOperatorNull_;
@@ -1863,19 +1863,19 @@ public final class OmCreateSimpleCampItemCondAd {
     public static final int COMBINE_PARTS_WITH_A_N_D_OPERATOR_FIELD_NUMBER = 27;
     private io.dstore.values.BooleanValue combinePartsWithANDOperator_;
     /**
-     * <code>optional .dstore.values.BooleanValue combine_parts_with_a_n_d_operator = 27;</code>
+     * <code>.dstore.values.BooleanValue combine_parts_with_a_n_d_operator = 27;</code>
      */
     public boolean hasCombinePartsWithANDOperator() {
       return combinePartsWithANDOperator_ != null;
     }
     /**
-     * <code>optional .dstore.values.BooleanValue combine_parts_with_a_n_d_operator = 27;</code>
+     * <code>.dstore.values.BooleanValue combine_parts_with_a_n_d_operator = 27;</code>
      */
     public io.dstore.values.BooleanValue getCombinePartsWithANDOperator() {
       return combinePartsWithANDOperator_ == null ? io.dstore.values.BooleanValue.getDefaultInstance() : combinePartsWithANDOperator_;
     }
     /**
-     * <code>optional .dstore.values.BooleanValue combine_parts_with_a_n_d_operator = 27;</code>
+     * <code>.dstore.values.BooleanValue combine_parts_with_a_n_d_operator = 27;</code>
      */
     public io.dstore.values.BooleanValueOrBuilder getCombinePartsWithANDOperatorOrBuilder() {
       return getCombinePartsWithANDOperator();
@@ -1884,7 +1884,7 @@ public final class OmCreateSimpleCampItemCondAd {
     public static final int COMBINE_PARTS_WITH_A_N_D_OPERATOR_NULL_FIELD_NUMBER = 1027;
     private boolean combinePartsWithANDOperatorNull_;
     /**
-     * <code>optional bool combine_parts_with_a_n_d_operator_null = 1027;</code>
+     * <code>bool combine_parts_with_a_n_d_operator_null = 1027;</code>
      */
     public boolean getCombinePartsWithANDOperatorNull() {
       return combinePartsWithANDOperatorNull_;
@@ -2501,7 +2501,7 @@ public final class OmCreateSimpleCampItemCondAd {
         return memoizedHashCode;
       }
       int hash = 41;
-      hash = (19 * hash) + getDescriptorForType().hashCode();
+      hash = (19 * hash) + getDescriptor().hashCode();
       if (hasCampaignId()) {
         hash = (37 * hash) + CAMPAIGN_ID_FIELD_NUMBER;
         hash = (53 * hash) + getCampaignId().hashCode();
@@ -3442,13 +3442,13 @@ public final class OmCreateSimpleCampItemCondAd {
       private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> campaignIdBuilder_;
       /**
-       * <code>optional .dstore.values.IntegerValue campaign_id = 1;</code>
+       * <code>.dstore.values.IntegerValue campaign_id = 1;</code>
        */
       public boolean hasCampaignId() {
         return campaignIdBuilder_ != null || campaignId_ != null;
       }
       /**
-       * <code>optional .dstore.values.IntegerValue campaign_id = 1;</code>
+       * <code>.dstore.values.IntegerValue campaign_id = 1;</code>
        */
       public io.dstore.values.IntegerValue getCampaignId() {
         if (campaignIdBuilder_ == null) {
@@ -3458,7 +3458,7 @@ public final class OmCreateSimpleCampItemCondAd {
         }
       }
       /**
-       * <code>optional .dstore.values.IntegerValue campaign_id = 1;</code>
+       * <code>.dstore.values.IntegerValue campaign_id = 1;</code>
        */
       public Builder setCampaignId(io.dstore.values.IntegerValue value) {
         if (campaignIdBuilder_ == null) {
@@ -3474,7 +3474,7 @@ public final class OmCreateSimpleCampItemCondAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.IntegerValue campaign_id = 1;</code>
+       * <code>.dstore.values.IntegerValue campaign_id = 1;</code>
        */
       public Builder setCampaignId(
           io.dstore.values.IntegerValue.Builder builderForValue) {
@@ -3488,7 +3488,7 @@ public final class OmCreateSimpleCampItemCondAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.IntegerValue campaign_id = 1;</code>
+       * <code>.dstore.values.IntegerValue campaign_id = 1;</code>
        */
       public Builder mergeCampaignId(io.dstore.values.IntegerValue value) {
         if (campaignIdBuilder_ == null) {
@@ -3506,7 +3506,7 @@ public final class OmCreateSimpleCampItemCondAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.IntegerValue campaign_id = 1;</code>
+       * <code>.dstore.values.IntegerValue campaign_id = 1;</code>
        */
       public Builder clearCampaignId() {
         if (campaignIdBuilder_ == null) {
@@ -3520,7 +3520,7 @@ public final class OmCreateSimpleCampItemCondAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.IntegerValue campaign_id = 1;</code>
+       * <code>.dstore.values.IntegerValue campaign_id = 1;</code>
        */
       public io.dstore.values.IntegerValue.Builder getCampaignIdBuilder() {
         
@@ -3528,7 +3528,7 @@ public final class OmCreateSimpleCampItemCondAd {
         return getCampaignIdFieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .dstore.values.IntegerValue campaign_id = 1;</code>
+       * <code>.dstore.values.IntegerValue campaign_id = 1;</code>
        */
       public io.dstore.values.IntegerValueOrBuilder getCampaignIdOrBuilder() {
         if (campaignIdBuilder_ != null) {
@@ -3539,7 +3539,7 @@ public final class OmCreateSimpleCampItemCondAd {
         }
       }
       /**
-       * <code>optional .dstore.values.IntegerValue campaign_id = 1;</code>
+       * <code>.dstore.values.IntegerValue campaign_id = 1;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> 
@@ -3557,13 +3557,13 @@ public final class OmCreateSimpleCampItemCondAd {
 
       private boolean campaignIdNull_ ;
       /**
-       * <code>optional bool campaign_id_null = 1001;</code>
+       * <code>bool campaign_id_null = 1001;</code>
        */
       public boolean getCampaignIdNull() {
         return campaignIdNull_;
       }
       /**
-       * <code>optional bool campaign_id_null = 1001;</code>
+       * <code>bool campaign_id_null = 1001;</code>
        */
       public Builder setCampaignIdNull(boolean value) {
         
@@ -3572,7 +3572,7 @@ public final class OmCreateSimpleCampItemCondAd {
         return this;
       }
       /**
-       * <code>optional bool campaign_id_null = 1001;</code>
+       * <code>bool campaign_id_null = 1001;</code>
        */
       public Builder clearCampaignIdNull() {
         
@@ -3585,13 +3585,13 @@ public final class OmCreateSimpleCampItemCondAd {
       private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.values.StringValue, io.dstore.values.StringValue.Builder, io.dstore.values.StringValueOrBuilder> conditionDescriptionBuilder_;
       /**
-       * <code>optional .dstore.values.StringValue condition_description = 2;</code>
+       * <code>.dstore.values.StringValue condition_description = 2;</code>
        */
       public boolean hasConditionDescription() {
         return conditionDescriptionBuilder_ != null || conditionDescription_ != null;
       }
       /**
-       * <code>optional .dstore.values.StringValue condition_description = 2;</code>
+       * <code>.dstore.values.StringValue condition_description = 2;</code>
        */
       public io.dstore.values.StringValue getConditionDescription() {
         if (conditionDescriptionBuilder_ == null) {
@@ -3601,7 +3601,7 @@ public final class OmCreateSimpleCampItemCondAd {
         }
       }
       /**
-       * <code>optional .dstore.values.StringValue condition_description = 2;</code>
+       * <code>.dstore.values.StringValue condition_description = 2;</code>
        */
       public Builder setConditionDescription(io.dstore.values.StringValue value) {
         if (conditionDescriptionBuilder_ == null) {
@@ -3617,7 +3617,7 @@ public final class OmCreateSimpleCampItemCondAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.StringValue condition_description = 2;</code>
+       * <code>.dstore.values.StringValue condition_description = 2;</code>
        */
       public Builder setConditionDescription(
           io.dstore.values.StringValue.Builder builderForValue) {
@@ -3631,7 +3631,7 @@ public final class OmCreateSimpleCampItemCondAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.StringValue condition_description = 2;</code>
+       * <code>.dstore.values.StringValue condition_description = 2;</code>
        */
       public Builder mergeConditionDescription(io.dstore.values.StringValue value) {
         if (conditionDescriptionBuilder_ == null) {
@@ -3649,7 +3649,7 @@ public final class OmCreateSimpleCampItemCondAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.StringValue condition_description = 2;</code>
+       * <code>.dstore.values.StringValue condition_description = 2;</code>
        */
       public Builder clearConditionDescription() {
         if (conditionDescriptionBuilder_ == null) {
@@ -3663,7 +3663,7 @@ public final class OmCreateSimpleCampItemCondAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.StringValue condition_description = 2;</code>
+       * <code>.dstore.values.StringValue condition_description = 2;</code>
        */
       public io.dstore.values.StringValue.Builder getConditionDescriptionBuilder() {
         
@@ -3671,7 +3671,7 @@ public final class OmCreateSimpleCampItemCondAd {
         return getConditionDescriptionFieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .dstore.values.StringValue condition_description = 2;</code>
+       * <code>.dstore.values.StringValue condition_description = 2;</code>
        */
       public io.dstore.values.StringValueOrBuilder getConditionDescriptionOrBuilder() {
         if (conditionDescriptionBuilder_ != null) {
@@ -3682,7 +3682,7 @@ public final class OmCreateSimpleCampItemCondAd {
         }
       }
       /**
-       * <code>optional .dstore.values.StringValue condition_description = 2;</code>
+       * <code>.dstore.values.StringValue condition_description = 2;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.values.StringValue, io.dstore.values.StringValue.Builder, io.dstore.values.StringValueOrBuilder> 
@@ -3700,13 +3700,13 @@ public final class OmCreateSimpleCampItemCondAd {
 
       private boolean conditionDescriptionNull_ ;
       /**
-       * <code>optional bool condition_description_null = 1002;</code>
+       * <code>bool condition_description_null = 1002;</code>
        */
       public boolean getConditionDescriptionNull() {
         return conditionDescriptionNull_;
       }
       /**
-       * <code>optional bool condition_description_null = 1002;</code>
+       * <code>bool condition_description_null = 1002;</code>
        */
       public Builder setConditionDescriptionNull(boolean value) {
         
@@ -3715,7 +3715,7 @@ public final class OmCreateSimpleCampItemCondAd {
         return this;
       }
       /**
-       * <code>optional bool condition_description_null = 1002;</code>
+       * <code>bool condition_description_null = 1002;</code>
        */
       public Builder clearConditionDescriptionNull() {
         
@@ -3728,13 +3728,13 @@ public final class OmCreateSimpleCampItemCondAd {
       private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> conditionIdBuilder_;
       /**
-       * <code>optional .dstore.values.IntegerValue condition_id = 3;</code>
+       * <code>.dstore.values.IntegerValue condition_id = 3;</code>
        */
       public boolean hasConditionId() {
         return conditionIdBuilder_ != null || conditionId_ != null;
       }
       /**
-       * <code>optional .dstore.values.IntegerValue condition_id = 3;</code>
+       * <code>.dstore.values.IntegerValue condition_id = 3;</code>
        */
       public io.dstore.values.IntegerValue getConditionId() {
         if (conditionIdBuilder_ == null) {
@@ -3744,7 +3744,7 @@ public final class OmCreateSimpleCampItemCondAd {
         }
       }
       /**
-       * <code>optional .dstore.values.IntegerValue condition_id = 3;</code>
+       * <code>.dstore.values.IntegerValue condition_id = 3;</code>
        */
       public Builder setConditionId(io.dstore.values.IntegerValue value) {
         if (conditionIdBuilder_ == null) {
@@ -3760,7 +3760,7 @@ public final class OmCreateSimpleCampItemCondAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.IntegerValue condition_id = 3;</code>
+       * <code>.dstore.values.IntegerValue condition_id = 3;</code>
        */
       public Builder setConditionId(
           io.dstore.values.IntegerValue.Builder builderForValue) {
@@ -3774,7 +3774,7 @@ public final class OmCreateSimpleCampItemCondAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.IntegerValue condition_id = 3;</code>
+       * <code>.dstore.values.IntegerValue condition_id = 3;</code>
        */
       public Builder mergeConditionId(io.dstore.values.IntegerValue value) {
         if (conditionIdBuilder_ == null) {
@@ -3792,7 +3792,7 @@ public final class OmCreateSimpleCampItemCondAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.IntegerValue condition_id = 3;</code>
+       * <code>.dstore.values.IntegerValue condition_id = 3;</code>
        */
       public Builder clearConditionId() {
         if (conditionIdBuilder_ == null) {
@@ -3806,7 +3806,7 @@ public final class OmCreateSimpleCampItemCondAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.IntegerValue condition_id = 3;</code>
+       * <code>.dstore.values.IntegerValue condition_id = 3;</code>
        */
       public io.dstore.values.IntegerValue.Builder getConditionIdBuilder() {
         
@@ -3814,7 +3814,7 @@ public final class OmCreateSimpleCampItemCondAd {
         return getConditionIdFieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .dstore.values.IntegerValue condition_id = 3;</code>
+       * <code>.dstore.values.IntegerValue condition_id = 3;</code>
        */
       public io.dstore.values.IntegerValueOrBuilder getConditionIdOrBuilder() {
         if (conditionIdBuilder_ != null) {
@@ -3825,7 +3825,7 @@ public final class OmCreateSimpleCampItemCondAd {
         }
       }
       /**
-       * <code>optional .dstore.values.IntegerValue condition_id = 3;</code>
+       * <code>.dstore.values.IntegerValue condition_id = 3;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> 
@@ -3843,13 +3843,13 @@ public final class OmCreateSimpleCampItemCondAd {
 
       private boolean conditionIdNull_ ;
       /**
-       * <code>optional bool condition_id_null = 1003;</code>
+       * <code>bool condition_id_null = 1003;</code>
        */
       public boolean getConditionIdNull() {
         return conditionIdNull_;
       }
       /**
-       * <code>optional bool condition_id_null = 1003;</code>
+       * <code>bool condition_id_null = 1003;</code>
        */
       public Builder setConditionIdNull(boolean value) {
         
@@ -3858,7 +3858,7 @@ public final class OmCreateSimpleCampItemCondAd {
         return this;
       }
       /**
-       * <code>optional bool condition_id_null = 1003;</code>
+       * <code>bool condition_id_null = 1003;</code>
        */
       public Builder clearConditionIdNull() {
         
@@ -3871,13 +3871,13 @@ public final class OmCreateSimpleCampItemCondAd {
       private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> itemConditionIdBuilder_;
       /**
-       * <code>optional .dstore.values.IntegerValue item_condition_id = 4;</code>
+       * <code>.dstore.values.IntegerValue item_condition_id = 4;</code>
        */
       public boolean hasItemConditionId() {
         return itemConditionIdBuilder_ != null || itemConditionId_ != null;
       }
       /**
-       * <code>optional .dstore.values.IntegerValue item_condition_id = 4;</code>
+       * <code>.dstore.values.IntegerValue item_condition_id = 4;</code>
        */
       public io.dstore.values.IntegerValue getItemConditionId() {
         if (itemConditionIdBuilder_ == null) {
@@ -3887,7 +3887,7 @@ public final class OmCreateSimpleCampItemCondAd {
         }
       }
       /**
-       * <code>optional .dstore.values.IntegerValue item_condition_id = 4;</code>
+       * <code>.dstore.values.IntegerValue item_condition_id = 4;</code>
        */
       public Builder setItemConditionId(io.dstore.values.IntegerValue value) {
         if (itemConditionIdBuilder_ == null) {
@@ -3903,7 +3903,7 @@ public final class OmCreateSimpleCampItemCondAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.IntegerValue item_condition_id = 4;</code>
+       * <code>.dstore.values.IntegerValue item_condition_id = 4;</code>
        */
       public Builder setItemConditionId(
           io.dstore.values.IntegerValue.Builder builderForValue) {
@@ -3917,7 +3917,7 @@ public final class OmCreateSimpleCampItemCondAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.IntegerValue item_condition_id = 4;</code>
+       * <code>.dstore.values.IntegerValue item_condition_id = 4;</code>
        */
       public Builder mergeItemConditionId(io.dstore.values.IntegerValue value) {
         if (itemConditionIdBuilder_ == null) {
@@ -3935,7 +3935,7 @@ public final class OmCreateSimpleCampItemCondAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.IntegerValue item_condition_id = 4;</code>
+       * <code>.dstore.values.IntegerValue item_condition_id = 4;</code>
        */
       public Builder clearItemConditionId() {
         if (itemConditionIdBuilder_ == null) {
@@ -3949,7 +3949,7 @@ public final class OmCreateSimpleCampItemCondAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.IntegerValue item_condition_id = 4;</code>
+       * <code>.dstore.values.IntegerValue item_condition_id = 4;</code>
        */
       public io.dstore.values.IntegerValue.Builder getItemConditionIdBuilder() {
         
@@ -3957,7 +3957,7 @@ public final class OmCreateSimpleCampItemCondAd {
         return getItemConditionIdFieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .dstore.values.IntegerValue item_condition_id = 4;</code>
+       * <code>.dstore.values.IntegerValue item_condition_id = 4;</code>
        */
       public io.dstore.values.IntegerValueOrBuilder getItemConditionIdOrBuilder() {
         if (itemConditionIdBuilder_ != null) {
@@ -3968,7 +3968,7 @@ public final class OmCreateSimpleCampItemCondAd {
         }
       }
       /**
-       * <code>optional .dstore.values.IntegerValue item_condition_id = 4;</code>
+       * <code>.dstore.values.IntegerValue item_condition_id = 4;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> 
@@ -3986,13 +3986,13 @@ public final class OmCreateSimpleCampItemCondAd {
 
       private boolean itemConditionIdNull_ ;
       /**
-       * <code>optional bool item_condition_id_null = 1004;</code>
+       * <code>bool item_condition_id_null = 1004;</code>
        */
       public boolean getItemConditionIdNull() {
         return itemConditionIdNull_;
       }
       /**
-       * <code>optional bool item_condition_id_null = 1004;</code>
+       * <code>bool item_condition_id_null = 1004;</code>
        */
       public Builder setItemConditionIdNull(boolean value) {
         
@@ -4001,7 +4001,7 @@ public final class OmCreateSimpleCampItemCondAd {
         return this;
       }
       /**
-       * <code>optional bool item_condition_id_null = 1004;</code>
+       * <code>bool item_condition_id_null = 1004;</code>
        */
       public Builder clearItemConditionIdNull() {
         
@@ -4014,13 +4014,13 @@ public final class OmCreateSimpleCampItemCondAd {
       private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> itemConditionGroupIdBuilder_;
       /**
-       * <code>optional .dstore.values.IntegerValue item_condition_group_id = 5;</code>
+       * <code>.dstore.values.IntegerValue item_condition_group_id = 5;</code>
        */
       public boolean hasItemConditionGroupId() {
         return itemConditionGroupIdBuilder_ != null || itemConditionGroupId_ != null;
       }
       /**
-       * <code>optional .dstore.values.IntegerValue item_condition_group_id = 5;</code>
+       * <code>.dstore.values.IntegerValue item_condition_group_id = 5;</code>
        */
       public io.dstore.values.IntegerValue getItemConditionGroupId() {
         if (itemConditionGroupIdBuilder_ == null) {
@@ -4030,7 +4030,7 @@ public final class OmCreateSimpleCampItemCondAd {
         }
       }
       /**
-       * <code>optional .dstore.values.IntegerValue item_condition_group_id = 5;</code>
+       * <code>.dstore.values.IntegerValue item_condition_group_id = 5;</code>
        */
       public Builder setItemConditionGroupId(io.dstore.values.IntegerValue value) {
         if (itemConditionGroupIdBuilder_ == null) {
@@ -4046,7 +4046,7 @@ public final class OmCreateSimpleCampItemCondAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.IntegerValue item_condition_group_id = 5;</code>
+       * <code>.dstore.values.IntegerValue item_condition_group_id = 5;</code>
        */
       public Builder setItemConditionGroupId(
           io.dstore.values.IntegerValue.Builder builderForValue) {
@@ -4060,7 +4060,7 @@ public final class OmCreateSimpleCampItemCondAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.IntegerValue item_condition_group_id = 5;</code>
+       * <code>.dstore.values.IntegerValue item_condition_group_id = 5;</code>
        */
       public Builder mergeItemConditionGroupId(io.dstore.values.IntegerValue value) {
         if (itemConditionGroupIdBuilder_ == null) {
@@ -4078,7 +4078,7 @@ public final class OmCreateSimpleCampItemCondAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.IntegerValue item_condition_group_id = 5;</code>
+       * <code>.dstore.values.IntegerValue item_condition_group_id = 5;</code>
        */
       public Builder clearItemConditionGroupId() {
         if (itemConditionGroupIdBuilder_ == null) {
@@ -4092,7 +4092,7 @@ public final class OmCreateSimpleCampItemCondAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.IntegerValue item_condition_group_id = 5;</code>
+       * <code>.dstore.values.IntegerValue item_condition_group_id = 5;</code>
        */
       public io.dstore.values.IntegerValue.Builder getItemConditionGroupIdBuilder() {
         
@@ -4100,7 +4100,7 @@ public final class OmCreateSimpleCampItemCondAd {
         return getItemConditionGroupIdFieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .dstore.values.IntegerValue item_condition_group_id = 5;</code>
+       * <code>.dstore.values.IntegerValue item_condition_group_id = 5;</code>
        */
       public io.dstore.values.IntegerValueOrBuilder getItemConditionGroupIdOrBuilder() {
         if (itemConditionGroupIdBuilder_ != null) {
@@ -4111,7 +4111,7 @@ public final class OmCreateSimpleCampItemCondAd {
         }
       }
       /**
-       * <code>optional .dstore.values.IntegerValue item_condition_group_id = 5;</code>
+       * <code>.dstore.values.IntegerValue item_condition_group_id = 5;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> 
@@ -4129,13 +4129,13 @@ public final class OmCreateSimpleCampItemCondAd {
 
       private boolean itemConditionGroupIdNull_ ;
       /**
-       * <code>optional bool item_condition_group_id_null = 1005;</code>
+       * <code>bool item_condition_group_id_null = 1005;</code>
        */
       public boolean getItemConditionGroupIdNull() {
         return itemConditionGroupIdNull_;
       }
       /**
-       * <code>optional bool item_condition_group_id_null = 1005;</code>
+       * <code>bool item_condition_group_id_null = 1005;</code>
        */
       public Builder setItemConditionGroupIdNull(boolean value) {
         
@@ -4144,7 +4144,7 @@ public final class OmCreateSimpleCampItemCondAd {
         return this;
       }
       /**
-       * <code>optional bool item_condition_group_id_null = 1005;</code>
+       * <code>bool item_condition_group_id_null = 1005;</code>
        */
       public Builder clearItemConditionGroupIdNull() {
         
@@ -4157,13 +4157,13 @@ public final class OmCreateSimpleCampItemCondAd {
       private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> itemConditionPartIdBuilder_;
       /**
-       * <code>optional .dstore.values.IntegerValue item_condition_part_id = 6;</code>
+       * <code>.dstore.values.IntegerValue item_condition_part_id = 6;</code>
        */
       public boolean hasItemConditionPartId() {
         return itemConditionPartIdBuilder_ != null || itemConditionPartId_ != null;
       }
       /**
-       * <code>optional .dstore.values.IntegerValue item_condition_part_id = 6;</code>
+       * <code>.dstore.values.IntegerValue item_condition_part_id = 6;</code>
        */
       public io.dstore.values.IntegerValue getItemConditionPartId() {
         if (itemConditionPartIdBuilder_ == null) {
@@ -4173,7 +4173,7 @@ public final class OmCreateSimpleCampItemCondAd {
         }
       }
       /**
-       * <code>optional .dstore.values.IntegerValue item_condition_part_id = 6;</code>
+       * <code>.dstore.values.IntegerValue item_condition_part_id = 6;</code>
        */
       public Builder setItemConditionPartId(io.dstore.values.IntegerValue value) {
         if (itemConditionPartIdBuilder_ == null) {
@@ -4189,7 +4189,7 @@ public final class OmCreateSimpleCampItemCondAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.IntegerValue item_condition_part_id = 6;</code>
+       * <code>.dstore.values.IntegerValue item_condition_part_id = 6;</code>
        */
       public Builder setItemConditionPartId(
           io.dstore.values.IntegerValue.Builder builderForValue) {
@@ -4203,7 +4203,7 @@ public final class OmCreateSimpleCampItemCondAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.IntegerValue item_condition_part_id = 6;</code>
+       * <code>.dstore.values.IntegerValue item_condition_part_id = 6;</code>
        */
       public Builder mergeItemConditionPartId(io.dstore.values.IntegerValue value) {
         if (itemConditionPartIdBuilder_ == null) {
@@ -4221,7 +4221,7 @@ public final class OmCreateSimpleCampItemCondAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.IntegerValue item_condition_part_id = 6;</code>
+       * <code>.dstore.values.IntegerValue item_condition_part_id = 6;</code>
        */
       public Builder clearItemConditionPartId() {
         if (itemConditionPartIdBuilder_ == null) {
@@ -4235,7 +4235,7 @@ public final class OmCreateSimpleCampItemCondAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.IntegerValue item_condition_part_id = 6;</code>
+       * <code>.dstore.values.IntegerValue item_condition_part_id = 6;</code>
        */
       public io.dstore.values.IntegerValue.Builder getItemConditionPartIdBuilder() {
         
@@ -4243,7 +4243,7 @@ public final class OmCreateSimpleCampItemCondAd {
         return getItemConditionPartIdFieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .dstore.values.IntegerValue item_condition_part_id = 6;</code>
+       * <code>.dstore.values.IntegerValue item_condition_part_id = 6;</code>
        */
       public io.dstore.values.IntegerValueOrBuilder getItemConditionPartIdOrBuilder() {
         if (itemConditionPartIdBuilder_ != null) {
@@ -4254,7 +4254,7 @@ public final class OmCreateSimpleCampItemCondAd {
         }
       }
       /**
-       * <code>optional .dstore.values.IntegerValue item_condition_part_id = 6;</code>
+       * <code>.dstore.values.IntegerValue item_condition_part_id = 6;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> 
@@ -4272,13 +4272,13 @@ public final class OmCreateSimpleCampItemCondAd {
 
       private boolean itemConditionPartIdNull_ ;
       /**
-       * <code>optional bool item_condition_part_id_null = 1006;</code>
+       * <code>bool item_condition_part_id_null = 1006;</code>
        */
       public boolean getItemConditionPartIdNull() {
         return itemConditionPartIdNull_;
       }
       /**
-       * <code>optional bool item_condition_part_id_null = 1006;</code>
+       * <code>bool item_condition_part_id_null = 1006;</code>
        */
       public Builder setItemConditionPartIdNull(boolean value) {
         
@@ -4287,7 +4287,7 @@ public final class OmCreateSimpleCampItemCondAd {
         return this;
       }
       /**
-       * <code>optional bool item_condition_part_id_null = 1006;</code>
+       * <code>bool item_condition_part_id_null = 1006;</code>
        */
       public Builder clearItemConditionPartIdNull() {
         
@@ -4300,13 +4300,13 @@ public final class OmCreateSimpleCampItemCondAd {
       private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.values.StringValue, io.dstore.values.StringValue.Builder, io.dstore.values.StringValueOrBuilder> levelIdsBuilder_;
       /**
-       * <code>optional .dstore.values.StringValue level_ids = 7;</code>
+       * <code>.dstore.values.StringValue level_ids = 7;</code>
        */
       public boolean hasLevelIds() {
         return levelIdsBuilder_ != null || levelIds_ != null;
       }
       /**
-       * <code>optional .dstore.values.StringValue level_ids = 7;</code>
+       * <code>.dstore.values.StringValue level_ids = 7;</code>
        */
       public io.dstore.values.StringValue getLevelIds() {
         if (levelIdsBuilder_ == null) {
@@ -4316,7 +4316,7 @@ public final class OmCreateSimpleCampItemCondAd {
         }
       }
       /**
-       * <code>optional .dstore.values.StringValue level_ids = 7;</code>
+       * <code>.dstore.values.StringValue level_ids = 7;</code>
        */
       public Builder setLevelIds(io.dstore.values.StringValue value) {
         if (levelIdsBuilder_ == null) {
@@ -4332,7 +4332,7 @@ public final class OmCreateSimpleCampItemCondAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.StringValue level_ids = 7;</code>
+       * <code>.dstore.values.StringValue level_ids = 7;</code>
        */
       public Builder setLevelIds(
           io.dstore.values.StringValue.Builder builderForValue) {
@@ -4346,7 +4346,7 @@ public final class OmCreateSimpleCampItemCondAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.StringValue level_ids = 7;</code>
+       * <code>.dstore.values.StringValue level_ids = 7;</code>
        */
       public Builder mergeLevelIds(io.dstore.values.StringValue value) {
         if (levelIdsBuilder_ == null) {
@@ -4364,7 +4364,7 @@ public final class OmCreateSimpleCampItemCondAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.StringValue level_ids = 7;</code>
+       * <code>.dstore.values.StringValue level_ids = 7;</code>
        */
       public Builder clearLevelIds() {
         if (levelIdsBuilder_ == null) {
@@ -4378,7 +4378,7 @@ public final class OmCreateSimpleCampItemCondAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.StringValue level_ids = 7;</code>
+       * <code>.dstore.values.StringValue level_ids = 7;</code>
        */
       public io.dstore.values.StringValue.Builder getLevelIdsBuilder() {
         
@@ -4386,7 +4386,7 @@ public final class OmCreateSimpleCampItemCondAd {
         return getLevelIdsFieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .dstore.values.StringValue level_ids = 7;</code>
+       * <code>.dstore.values.StringValue level_ids = 7;</code>
        */
       public io.dstore.values.StringValueOrBuilder getLevelIdsOrBuilder() {
         if (levelIdsBuilder_ != null) {
@@ -4397,7 +4397,7 @@ public final class OmCreateSimpleCampItemCondAd {
         }
       }
       /**
-       * <code>optional .dstore.values.StringValue level_ids = 7;</code>
+       * <code>.dstore.values.StringValue level_ids = 7;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.values.StringValue, io.dstore.values.StringValue.Builder, io.dstore.values.StringValueOrBuilder> 
@@ -4415,13 +4415,13 @@ public final class OmCreateSimpleCampItemCondAd {
 
       private boolean levelIdsNull_ ;
       /**
-       * <code>optional bool level_ids_null = 1007;</code>
+       * <code>bool level_ids_null = 1007;</code>
        */
       public boolean getLevelIdsNull() {
         return levelIdsNull_;
       }
       /**
-       * <code>optional bool level_ids_null = 1007;</code>
+       * <code>bool level_ids_null = 1007;</code>
        */
       public Builder setLevelIdsNull(boolean value) {
         
@@ -4430,7 +4430,7 @@ public final class OmCreateSimpleCampItemCondAd {
         return this;
       }
       /**
-       * <code>optional bool level_ids_null = 1007;</code>
+       * <code>bool level_ids_null = 1007;</code>
        */
       public Builder clearLevelIdsNull() {
         
@@ -4443,13 +4443,13 @@ public final class OmCreateSimpleCampItemCondAd {
       private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.values.StringValue, io.dstore.values.StringValue.Builder, io.dstore.values.StringValueOrBuilder> domainTreeNodeIdsBuilder_;
       /**
-       * <code>optional .dstore.values.StringValue domain_tree_node_ids = 8;</code>
+       * <code>.dstore.values.StringValue domain_tree_node_ids = 8;</code>
        */
       public boolean hasDomainTreeNodeIds() {
         return domainTreeNodeIdsBuilder_ != null || domainTreeNodeIds_ != null;
       }
       /**
-       * <code>optional .dstore.values.StringValue domain_tree_node_ids = 8;</code>
+       * <code>.dstore.values.StringValue domain_tree_node_ids = 8;</code>
        */
       public io.dstore.values.StringValue getDomainTreeNodeIds() {
         if (domainTreeNodeIdsBuilder_ == null) {
@@ -4459,7 +4459,7 @@ public final class OmCreateSimpleCampItemCondAd {
         }
       }
       /**
-       * <code>optional .dstore.values.StringValue domain_tree_node_ids = 8;</code>
+       * <code>.dstore.values.StringValue domain_tree_node_ids = 8;</code>
        */
       public Builder setDomainTreeNodeIds(io.dstore.values.StringValue value) {
         if (domainTreeNodeIdsBuilder_ == null) {
@@ -4475,7 +4475,7 @@ public final class OmCreateSimpleCampItemCondAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.StringValue domain_tree_node_ids = 8;</code>
+       * <code>.dstore.values.StringValue domain_tree_node_ids = 8;</code>
        */
       public Builder setDomainTreeNodeIds(
           io.dstore.values.StringValue.Builder builderForValue) {
@@ -4489,7 +4489,7 @@ public final class OmCreateSimpleCampItemCondAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.StringValue domain_tree_node_ids = 8;</code>
+       * <code>.dstore.values.StringValue domain_tree_node_ids = 8;</code>
        */
       public Builder mergeDomainTreeNodeIds(io.dstore.values.StringValue value) {
         if (domainTreeNodeIdsBuilder_ == null) {
@@ -4507,7 +4507,7 @@ public final class OmCreateSimpleCampItemCondAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.StringValue domain_tree_node_ids = 8;</code>
+       * <code>.dstore.values.StringValue domain_tree_node_ids = 8;</code>
        */
       public Builder clearDomainTreeNodeIds() {
         if (domainTreeNodeIdsBuilder_ == null) {
@@ -4521,7 +4521,7 @@ public final class OmCreateSimpleCampItemCondAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.StringValue domain_tree_node_ids = 8;</code>
+       * <code>.dstore.values.StringValue domain_tree_node_ids = 8;</code>
        */
       public io.dstore.values.StringValue.Builder getDomainTreeNodeIdsBuilder() {
         
@@ -4529,7 +4529,7 @@ public final class OmCreateSimpleCampItemCondAd {
         return getDomainTreeNodeIdsFieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .dstore.values.StringValue domain_tree_node_ids = 8;</code>
+       * <code>.dstore.values.StringValue domain_tree_node_ids = 8;</code>
        */
       public io.dstore.values.StringValueOrBuilder getDomainTreeNodeIdsOrBuilder() {
         if (domainTreeNodeIdsBuilder_ != null) {
@@ -4540,7 +4540,7 @@ public final class OmCreateSimpleCampItemCondAd {
         }
       }
       /**
-       * <code>optional .dstore.values.StringValue domain_tree_node_ids = 8;</code>
+       * <code>.dstore.values.StringValue domain_tree_node_ids = 8;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.values.StringValue, io.dstore.values.StringValue.Builder, io.dstore.values.StringValueOrBuilder> 
@@ -4558,13 +4558,13 @@ public final class OmCreateSimpleCampItemCondAd {
 
       private boolean domainTreeNodeIdsNull_ ;
       /**
-       * <code>optional bool domain_tree_node_ids_null = 1008;</code>
+       * <code>bool domain_tree_node_ids_null = 1008;</code>
        */
       public boolean getDomainTreeNodeIdsNull() {
         return domainTreeNodeIdsNull_;
       }
       /**
-       * <code>optional bool domain_tree_node_ids_null = 1008;</code>
+       * <code>bool domain_tree_node_ids_null = 1008;</code>
        */
       public Builder setDomainTreeNodeIdsNull(boolean value) {
         
@@ -4573,7 +4573,7 @@ public final class OmCreateSimpleCampItemCondAd {
         return this;
       }
       /**
-       * <code>optional bool domain_tree_node_ids_null = 1008;</code>
+       * <code>bool domain_tree_node_ids_null = 1008;</code>
        */
       public Builder clearDomainTreeNodeIdsNull() {
         
@@ -4586,13 +4586,13 @@ public final class OmCreateSimpleCampItemCondAd {
       private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> nodeCharacteristicIdBuilder_;
       /**
-       * <code>optional .dstore.values.IntegerValue node_characteristic_id = 9;</code>
+       * <code>.dstore.values.IntegerValue node_characteristic_id = 9;</code>
        */
       public boolean hasNodeCharacteristicId() {
         return nodeCharacteristicIdBuilder_ != null || nodeCharacteristicId_ != null;
       }
       /**
-       * <code>optional .dstore.values.IntegerValue node_characteristic_id = 9;</code>
+       * <code>.dstore.values.IntegerValue node_characteristic_id = 9;</code>
        */
       public io.dstore.values.IntegerValue getNodeCharacteristicId() {
         if (nodeCharacteristicIdBuilder_ == null) {
@@ -4602,7 +4602,7 @@ public final class OmCreateSimpleCampItemCondAd {
         }
       }
       /**
-       * <code>optional .dstore.values.IntegerValue node_characteristic_id = 9;</code>
+       * <code>.dstore.values.IntegerValue node_characteristic_id = 9;</code>
        */
       public Builder setNodeCharacteristicId(io.dstore.values.IntegerValue value) {
         if (nodeCharacteristicIdBuilder_ == null) {
@@ -4618,7 +4618,7 @@ public final class OmCreateSimpleCampItemCondAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.IntegerValue node_characteristic_id = 9;</code>
+       * <code>.dstore.values.IntegerValue node_characteristic_id = 9;</code>
        */
       public Builder setNodeCharacteristicId(
           io.dstore.values.IntegerValue.Builder builderForValue) {
@@ -4632,7 +4632,7 @@ public final class OmCreateSimpleCampItemCondAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.IntegerValue node_characteristic_id = 9;</code>
+       * <code>.dstore.values.IntegerValue node_characteristic_id = 9;</code>
        */
       public Builder mergeNodeCharacteristicId(io.dstore.values.IntegerValue value) {
         if (nodeCharacteristicIdBuilder_ == null) {
@@ -4650,7 +4650,7 @@ public final class OmCreateSimpleCampItemCondAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.IntegerValue node_characteristic_id = 9;</code>
+       * <code>.dstore.values.IntegerValue node_characteristic_id = 9;</code>
        */
       public Builder clearNodeCharacteristicId() {
         if (nodeCharacteristicIdBuilder_ == null) {
@@ -4664,7 +4664,7 @@ public final class OmCreateSimpleCampItemCondAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.IntegerValue node_characteristic_id = 9;</code>
+       * <code>.dstore.values.IntegerValue node_characteristic_id = 9;</code>
        */
       public io.dstore.values.IntegerValue.Builder getNodeCharacteristicIdBuilder() {
         
@@ -4672,7 +4672,7 @@ public final class OmCreateSimpleCampItemCondAd {
         return getNodeCharacteristicIdFieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .dstore.values.IntegerValue node_characteristic_id = 9;</code>
+       * <code>.dstore.values.IntegerValue node_characteristic_id = 9;</code>
        */
       public io.dstore.values.IntegerValueOrBuilder getNodeCharacteristicIdOrBuilder() {
         if (nodeCharacteristicIdBuilder_ != null) {
@@ -4683,7 +4683,7 @@ public final class OmCreateSimpleCampItemCondAd {
         }
       }
       /**
-       * <code>optional .dstore.values.IntegerValue node_characteristic_id = 9;</code>
+       * <code>.dstore.values.IntegerValue node_characteristic_id = 9;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> 
@@ -4701,13 +4701,13 @@ public final class OmCreateSimpleCampItemCondAd {
 
       private boolean nodeCharacteristicIdNull_ ;
       /**
-       * <code>optional bool node_characteristic_id_null = 1009;</code>
+       * <code>bool node_characteristic_id_null = 1009;</code>
        */
       public boolean getNodeCharacteristicIdNull() {
         return nodeCharacteristicIdNull_;
       }
       /**
-       * <code>optional bool node_characteristic_id_null = 1009;</code>
+       * <code>bool node_characteristic_id_null = 1009;</code>
        */
       public Builder setNodeCharacteristicIdNull(boolean value) {
         
@@ -4716,7 +4716,7 @@ public final class OmCreateSimpleCampItemCondAd {
         return this;
       }
       /**
-       * <code>optional bool node_characteristic_id_null = 1009;</code>
+       * <code>bool node_characteristic_id_null = 1009;</code>
        */
       public Builder clearNodeCharacteristicIdNull() {
         
@@ -4729,13 +4729,13 @@ public final class OmCreateSimpleCampItemCondAd {
       private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.values.StringValue, io.dstore.values.StringValue.Builder, io.dstore.values.StringValueOrBuilder> operator1Builder_;
       /**
-       * <code>optional .dstore.values.StringValue operator1 = 10;</code>
+       * <code>.dstore.values.StringValue operator1 = 10;</code>
        */
       public boolean hasOperator1() {
         return operator1Builder_ != null || operator1_ != null;
       }
       /**
-       * <code>optional .dstore.values.StringValue operator1 = 10;</code>
+       * <code>.dstore.values.StringValue operator1 = 10;</code>
        */
       public io.dstore.values.StringValue getOperator1() {
         if (operator1Builder_ == null) {
@@ -4745,7 +4745,7 @@ public final class OmCreateSimpleCampItemCondAd {
         }
       }
       /**
-       * <code>optional .dstore.values.StringValue operator1 = 10;</code>
+       * <code>.dstore.values.StringValue operator1 = 10;</code>
        */
       public Builder setOperator1(io.dstore.values.StringValue value) {
         if (operator1Builder_ == null) {
@@ -4761,7 +4761,7 @@ public final class OmCreateSimpleCampItemCondAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.StringValue operator1 = 10;</code>
+       * <code>.dstore.values.StringValue operator1 = 10;</code>
        */
       public Builder setOperator1(
           io.dstore.values.StringValue.Builder builderForValue) {
@@ -4775,7 +4775,7 @@ public final class OmCreateSimpleCampItemCondAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.StringValue operator1 = 10;</code>
+       * <code>.dstore.values.StringValue operator1 = 10;</code>
        */
       public Builder mergeOperator1(io.dstore.values.StringValue value) {
         if (operator1Builder_ == null) {
@@ -4793,7 +4793,7 @@ public final class OmCreateSimpleCampItemCondAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.StringValue operator1 = 10;</code>
+       * <code>.dstore.values.StringValue operator1 = 10;</code>
        */
       public Builder clearOperator1() {
         if (operator1Builder_ == null) {
@@ -4807,7 +4807,7 @@ public final class OmCreateSimpleCampItemCondAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.StringValue operator1 = 10;</code>
+       * <code>.dstore.values.StringValue operator1 = 10;</code>
        */
       public io.dstore.values.StringValue.Builder getOperator1Builder() {
         
@@ -4815,7 +4815,7 @@ public final class OmCreateSimpleCampItemCondAd {
         return getOperator1FieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .dstore.values.StringValue operator1 = 10;</code>
+       * <code>.dstore.values.StringValue operator1 = 10;</code>
        */
       public io.dstore.values.StringValueOrBuilder getOperator1OrBuilder() {
         if (operator1Builder_ != null) {
@@ -4826,7 +4826,7 @@ public final class OmCreateSimpleCampItemCondAd {
         }
       }
       /**
-       * <code>optional .dstore.values.StringValue operator1 = 10;</code>
+       * <code>.dstore.values.StringValue operator1 = 10;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.values.StringValue, io.dstore.values.StringValue.Builder, io.dstore.values.StringValueOrBuilder> 
@@ -4844,13 +4844,13 @@ public final class OmCreateSimpleCampItemCondAd {
 
       private boolean operator1Null_ ;
       /**
-       * <code>optional bool operator1_null = 1010;</code>
+       * <code>bool operator1_null = 1010;</code>
        */
       public boolean getOperator1Null() {
         return operator1Null_;
       }
       /**
-       * <code>optional bool operator1_null = 1010;</code>
+       * <code>bool operator1_null = 1010;</code>
        */
       public Builder setOperator1Null(boolean value) {
         
@@ -4859,7 +4859,7 @@ public final class OmCreateSimpleCampItemCondAd {
         return this;
       }
       /**
-       * <code>optional bool operator1_null = 1010;</code>
+       * <code>bool operator1_null = 1010;</code>
        */
       public Builder clearOperator1Null() {
         
@@ -4872,13 +4872,13 @@ public final class OmCreateSimpleCampItemCondAd {
       private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.values.StringValue, io.dstore.values.StringValue.Builder, io.dstore.values.StringValueOrBuilder> condition1Builder_;
       /**
-       * <code>optional .dstore.values.StringValue condition1 = 11;</code>
+       * <code>.dstore.values.StringValue condition1 = 11;</code>
        */
       public boolean hasCondition1() {
         return condition1Builder_ != null || condition1_ != null;
       }
       /**
-       * <code>optional .dstore.values.StringValue condition1 = 11;</code>
+       * <code>.dstore.values.StringValue condition1 = 11;</code>
        */
       public io.dstore.values.StringValue getCondition1() {
         if (condition1Builder_ == null) {
@@ -4888,7 +4888,7 @@ public final class OmCreateSimpleCampItemCondAd {
         }
       }
       /**
-       * <code>optional .dstore.values.StringValue condition1 = 11;</code>
+       * <code>.dstore.values.StringValue condition1 = 11;</code>
        */
       public Builder setCondition1(io.dstore.values.StringValue value) {
         if (condition1Builder_ == null) {
@@ -4904,7 +4904,7 @@ public final class OmCreateSimpleCampItemCondAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.StringValue condition1 = 11;</code>
+       * <code>.dstore.values.StringValue condition1 = 11;</code>
        */
       public Builder setCondition1(
           io.dstore.values.StringValue.Builder builderForValue) {
@@ -4918,7 +4918,7 @@ public final class OmCreateSimpleCampItemCondAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.StringValue condition1 = 11;</code>
+       * <code>.dstore.values.StringValue condition1 = 11;</code>
        */
       public Builder mergeCondition1(io.dstore.values.StringValue value) {
         if (condition1Builder_ == null) {
@@ -4936,7 +4936,7 @@ public final class OmCreateSimpleCampItemCondAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.StringValue condition1 = 11;</code>
+       * <code>.dstore.values.StringValue condition1 = 11;</code>
        */
       public Builder clearCondition1() {
         if (condition1Builder_ == null) {
@@ -4950,7 +4950,7 @@ public final class OmCreateSimpleCampItemCondAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.StringValue condition1 = 11;</code>
+       * <code>.dstore.values.StringValue condition1 = 11;</code>
        */
       public io.dstore.values.StringValue.Builder getCondition1Builder() {
         
@@ -4958,7 +4958,7 @@ public final class OmCreateSimpleCampItemCondAd {
         return getCondition1FieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .dstore.values.StringValue condition1 = 11;</code>
+       * <code>.dstore.values.StringValue condition1 = 11;</code>
        */
       public io.dstore.values.StringValueOrBuilder getCondition1OrBuilder() {
         if (condition1Builder_ != null) {
@@ -4969,7 +4969,7 @@ public final class OmCreateSimpleCampItemCondAd {
         }
       }
       /**
-       * <code>optional .dstore.values.StringValue condition1 = 11;</code>
+       * <code>.dstore.values.StringValue condition1 = 11;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.values.StringValue, io.dstore.values.StringValue.Builder, io.dstore.values.StringValueOrBuilder> 
@@ -4987,13 +4987,13 @@ public final class OmCreateSimpleCampItemCondAd {
 
       private boolean condition1Null_ ;
       /**
-       * <code>optional bool condition1_null = 1011;</code>
+       * <code>bool condition1_null = 1011;</code>
        */
       public boolean getCondition1Null() {
         return condition1Null_;
       }
       /**
-       * <code>optional bool condition1_null = 1011;</code>
+       * <code>bool condition1_null = 1011;</code>
        */
       public Builder setCondition1Null(boolean value) {
         
@@ -5002,7 +5002,7 @@ public final class OmCreateSimpleCampItemCondAd {
         return this;
       }
       /**
-       * <code>optional bool condition1_null = 1011;</code>
+       * <code>bool condition1_null = 1011;</code>
        */
       public Builder clearCondition1Null() {
         
@@ -5015,13 +5015,13 @@ public final class OmCreateSimpleCampItemCondAd {
       private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.values.StringValue, io.dstore.values.StringValue.Builder, io.dstore.values.StringValueOrBuilder> operator2Builder_;
       /**
-       * <code>optional .dstore.values.StringValue operator2 = 12;</code>
+       * <code>.dstore.values.StringValue operator2 = 12;</code>
        */
       public boolean hasOperator2() {
         return operator2Builder_ != null || operator2_ != null;
       }
       /**
-       * <code>optional .dstore.values.StringValue operator2 = 12;</code>
+       * <code>.dstore.values.StringValue operator2 = 12;</code>
        */
       public io.dstore.values.StringValue getOperator2() {
         if (operator2Builder_ == null) {
@@ -5031,7 +5031,7 @@ public final class OmCreateSimpleCampItemCondAd {
         }
       }
       /**
-       * <code>optional .dstore.values.StringValue operator2 = 12;</code>
+       * <code>.dstore.values.StringValue operator2 = 12;</code>
        */
       public Builder setOperator2(io.dstore.values.StringValue value) {
         if (operator2Builder_ == null) {
@@ -5047,7 +5047,7 @@ public final class OmCreateSimpleCampItemCondAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.StringValue operator2 = 12;</code>
+       * <code>.dstore.values.StringValue operator2 = 12;</code>
        */
       public Builder setOperator2(
           io.dstore.values.StringValue.Builder builderForValue) {
@@ -5061,7 +5061,7 @@ public final class OmCreateSimpleCampItemCondAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.StringValue operator2 = 12;</code>
+       * <code>.dstore.values.StringValue operator2 = 12;</code>
        */
       public Builder mergeOperator2(io.dstore.values.StringValue value) {
         if (operator2Builder_ == null) {
@@ -5079,7 +5079,7 @@ public final class OmCreateSimpleCampItemCondAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.StringValue operator2 = 12;</code>
+       * <code>.dstore.values.StringValue operator2 = 12;</code>
        */
       public Builder clearOperator2() {
         if (operator2Builder_ == null) {
@@ -5093,7 +5093,7 @@ public final class OmCreateSimpleCampItemCondAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.StringValue operator2 = 12;</code>
+       * <code>.dstore.values.StringValue operator2 = 12;</code>
        */
       public io.dstore.values.StringValue.Builder getOperator2Builder() {
         
@@ -5101,7 +5101,7 @@ public final class OmCreateSimpleCampItemCondAd {
         return getOperator2FieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .dstore.values.StringValue operator2 = 12;</code>
+       * <code>.dstore.values.StringValue operator2 = 12;</code>
        */
       public io.dstore.values.StringValueOrBuilder getOperator2OrBuilder() {
         if (operator2Builder_ != null) {
@@ -5112,7 +5112,7 @@ public final class OmCreateSimpleCampItemCondAd {
         }
       }
       /**
-       * <code>optional .dstore.values.StringValue operator2 = 12;</code>
+       * <code>.dstore.values.StringValue operator2 = 12;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.values.StringValue, io.dstore.values.StringValue.Builder, io.dstore.values.StringValueOrBuilder> 
@@ -5130,13 +5130,13 @@ public final class OmCreateSimpleCampItemCondAd {
 
       private boolean operator2Null_ ;
       /**
-       * <code>optional bool operator2_null = 1012;</code>
+       * <code>bool operator2_null = 1012;</code>
        */
       public boolean getOperator2Null() {
         return operator2Null_;
       }
       /**
-       * <code>optional bool operator2_null = 1012;</code>
+       * <code>bool operator2_null = 1012;</code>
        */
       public Builder setOperator2Null(boolean value) {
         
@@ -5145,7 +5145,7 @@ public final class OmCreateSimpleCampItemCondAd {
         return this;
       }
       /**
-       * <code>optional bool operator2_null = 1012;</code>
+       * <code>bool operator2_null = 1012;</code>
        */
       public Builder clearOperator2Null() {
         
@@ -5158,13 +5158,13 @@ public final class OmCreateSimpleCampItemCondAd {
       private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.values.StringValue, io.dstore.values.StringValue.Builder, io.dstore.values.StringValueOrBuilder> condition2Builder_;
       /**
-       * <code>optional .dstore.values.StringValue condition2 = 13;</code>
+       * <code>.dstore.values.StringValue condition2 = 13;</code>
        */
       public boolean hasCondition2() {
         return condition2Builder_ != null || condition2_ != null;
       }
       /**
-       * <code>optional .dstore.values.StringValue condition2 = 13;</code>
+       * <code>.dstore.values.StringValue condition2 = 13;</code>
        */
       public io.dstore.values.StringValue getCondition2() {
         if (condition2Builder_ == null) {
@@ -5174,7 +5174,7 @@ public final class OmCreateSimpleCampItemCondAd {
         }
       }
       /**
-       * <code>optional .dstore.values.StringValue condition2 = 13;</code>
+       * <code>.dstore.values.StringValue condition2 = 13;</code>
        */
       public Builder setCondition2(io.dstore.values.StringValue value) {
         if (condition2Builder_ == null) {
@@ -5190,7 +5190,7 @@ public final class OmCreateSimpleCampItemCondAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.StringValue condition2 = 13;</code>
+       * <code>.dstore.values.StringValue condition2 = 13;</code>
        */
       public Builder setCondition2(
           io.dstore.values.StringValue.Builder builderForValue) {
@@ -5204,7 +5204,7 @@ public final class OmCreateSimpleCampItemCondAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.StringValue condition2 = 13;</code>
+       * <code>.dstore.values.StringValue condition2 = 13;</code>
        */
       public Builder mergeCondition2(io.dstore.values.StringValue value) {
         if (condition2Builder_ == null) {
@@ -5222,7 +5222,7 @@ public final class OmCreateSimpleCampItemCondAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.StringValue condition2 = 13;</code>
+       * <code>.dstore.values.StringValue condition2 = 13;</code>
        */
       public Builder clearCondition2() {
         if (condition2Builder_ == null) {
@@ -5236,7 +5236,7 @@ public final class OmCreateSimpleCampItemCondAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.StringValue condition2 = 13;</code>
+       * <code>.dstore.values.StringValue condition2 = 13;</code>
        */
       public io.dstore.values.StringValue.Builder getCondition2Builder() {
         
@@ -5244,7 +5244,7 @@ public final class OmCreateSimpleCampItemCondAd {
         return getCondition2FieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .dstore.values.StringValue condition2 = 13;</code>
+       * <code>.dstore.values.StringValue condition2 = 13;</code>
        */
       public io.dstore.values.StringValueOrBuilder getCondition2OrBuilder() {
         if (condition2Builder_ != null) {
@@ -5255,7 +5255,7 @@ public final class OmCreateSimpleCampItemCondAd {
         }
       }
       /**
-       * <code>optional .dstore.values.StringValue condition2 = 13;</code>
+       * <code>.dstore.values.StringValue condition2 = 13;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.values.StringValue, io.dstore.values.StringValue.Builder, io.dstore.values.StringValueOrBuilder> 
@@ -5273,13 +5273,13 @@ public final class OmCreateSimpleCampItemCondAd {
 
       private boolean condition2Null_ ;
       /**
-       * <code>optional bool condition2_null = 1013;</code>
+       * <code>bool condition2_null = 1013;</code>
        */
       public boolean getCondition2Null() {
         return condition2Null_;
       }
       /**
-       * <code>optional bool condition2_null = 1013;</code>
+       * <code>bool condition2_null = 1013;</code>
        */
       public Builder setCondition2Null(boolean value) {
         
@@ -5288,7 +5288,7 @@ public final class OmCreateSimpleCampItemCondAd {
         return this;
       }
       /**
-       * <code>optional bool condition2_null = 1013;</code>
+       * <code>bool condition2_null = 1013;</code>
        */
       public Builder clearCondition2Null() {
         
@@ -5301,13 +5301,13 @@ public final class OmCreateSimpleCampItemCondAd {
       private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> inheritDepthBuilder_;
       /**
-       * <code>optional .dstore.values.IntegerValue inherit_depth = 14;</code>
+       * <code>.dstore.values.IntegerValue inherit_depth = 14;</code>
        */
       public boolean hasInheritDepth() {
         return inheritDepthBuilder_ != null || inheritDepth_ != null;
       }
       /**
-       * <code>optional .dstore.values.IntegerValue inherit_depth = 14;</code>
+       * <code>.dstore.values.IntegerValue inherit_depth = 14;</code>
        */
       public io.dstore.values.IntegerValue getInheritDepth() {
         if (inheritDepthBuilder_ == null) {
@@ -5317,7 +5317,7 @@ public final class OmCreateSimpleCampItemCondAd {
         }
       }
       /**
-       * <code>optional .dstore.values.IntegerValue inherit_depth = 14;</code>
+       * <code>.dstore.values.IntegerValue inherit_depth = 14;</code>
        */
       public Builder setInheritDepth(io.dstore.values.IntegerValue value) {
         if (inheritDepthBuilder_ == null) {
@@ -5333,7 +5333,7 @@ public final class OmCreateSimpleCampItemCondAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.IntegerValue inherit_depth = 14;</code>
+       * <code>.dstore.values.IntegerValue inherit_depth = 14;</code>
        */
       public Builder setInheritDepth(
           io.dstore.values.IntegerValue.Builder builderForValue) {
@@ -5347,7 +5347,7 @@ public final class OmCreateSimpleCampItemCondAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.IntegerValue inherit_depth = 14;</code>
+       * <code>.dstore.values.IntegerValue inherit_depth = 14;</code>
        */
       public Builder mergeInheritDepth(io.dstore.values.IntegerValue value) {
         if (inheritDepthBuilder_ == null) {
@@ -5365,7 +5365,7 @@ public final class OmCreateSimpleCampItemCondAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.IntegerValue inherit_depth = 14;</code>
+       * <code>.dstore.values.IntegerValue inherit_depth = 14;</code>
        */
       public Builder clearInheritDepth() {
         if (inheritDepthBuilder_ == null) {
@@ -5379,7 +5379,7 @@ public final class OmCreateSimpleCampItemCondAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.IntegerValue inherit_depth = 14;</code>
+       * <code>.dstore.values.IntegerValue inherit_depth = 14;</code>
        */
       public io.dstore.values.IntegerValue.Builder getInheritDepthBuilder() {
         
@@ -5387,7 +5387,7 @@ public final class OmCreateSimpleCampItemCondAd {
         return getInheritDepthFieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .dstore.values.IntegerValue inherit_depth = 14;</code>
+       * <code>.dstore.values.IntegerValue inherit_depth = 14;</code>
        */
       public io.dstore.values.IntegerValueOrBuilder getInheritDepthOrBuilder() {
         if (inheritDepthBuilder_ != null) {
@@ -5398,7 +5398,7 @@ public final class OmCreateSimpleCampItemCondAd {
         }
       }
       /**
-       * <code>optional .dstore.values.IntegerValue inherit_depth = 14;</code>
+       * <code>.dstore.values.IntegerValue inherit_depth = 14;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> 
@@ -5416,13 +5416,13 @@ public final class OmCreateSimpleCampItemCondAd {
 
       private boolean inheritDepthNull_ ;
       /**
-       * <code>optional bool inherit_depth_null = 1014;</code>
+       * <code>bool inherit_depth_null = 1014;</code>
        */
       public boolean getInheritDepthNull() {
         return inheritDepthNull_;
       }
       /**
-       * <code>optional bool inherit_depth_null = 1014;</code>
+       * <code>bool inherit_depth_null = 1014;</code>
        */
       public Builder setInheritDepthNull(boolean value) {
         
@@ -5431,7 +5431,7 @@ public final class OmCreateSimpleCampItemCondAd {
         return this;
       }
       /**
-       * <code>optional bool inherit_depth_null = 1014;</code>
+       * <code>bool inherit_depth_null = 1014;</code>
        */
       public Builder clearInheritDepthNull() {
         
@@ -5444,13 +5444,13 @@ public final class OmCreateSimpleCampItemCondAd {
       private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> recursiveEvaluationBuilder_;
       /**
-       * <code>optional .dstore.values.IntegerValue recursive_evaluation = 15;</code>
+       * <code>.dstore.values.IntegerValue recursive_evaluation = 15;</code>
        */
       public boolean hasRecursiveEvaluation() {
         return recursiveEvaluationBuilder_ != null || recursiveEvaluation_ != null;
       }
       /**
-       * <code>optional .dstore.values.IntegerValue recursive_evaluation = 15;</code>
+       * <code>.dstore.values.IntegerValue recursive_evaluation = 15;</code>
        */
       public io.dstore.values.IntegerValue getRecursiveEvaluation() {
         if (recursiveEvaluationBuilder_ == null) {
@@ -5460,7 +5460,7 @@ public final class OmCreateSimpleCampItemCondAd {
         }
       }
       /**
-       * <code>optional .dstore.values.IntegerValue recursive_evaluation = 15;</code>
+       * <code>.dstore.values.IntegerValue recursive_evaluation = 15;</code>
        */
       public Builder setRecursiveEvaluation(io.dstore.values.IntegerValue value) {
         if (recursiveEvaluationBuilder_ == null) {
@@ -5476,7 +5476,7 @@ public final class OmCreateSimpleCampItemCondAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.IntegerValue recursive_evaluation = 15;</code>
+       * <code>.dstore.values.IntegerValue recursive_evaluation = 15;</code>
        */
       public Builder setRecursiveEvaluation(
           io.dstore.values.IntegerValue.Builder builderForValue) {
@@ -5490,7 +5490,7 @@ public final class OmCreateSimpleCampItemCondAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.IntegerValue recursive_evaluation = 15;</code>
+       * <code>.dstore.values.IntegerValue recursive_evaluation = 15;</code>
        */
       public Builder mergeRecursiveEvaluation(io.dstore.values.IntegerValue value) {
         if (recursiveEvaluationBuilder_ == null) {
@@ -5508,7 +5508,7 @@ public final class OmCreateSimpleCampItemCondAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.IntegerValue recursive_evaluation = 15;</code>
+       * <code>.dstore.values.IntegerValue recursive_evaluation = 15;</code>
        */
       public Builder clearRecursiveEvaluation() {
         if (recursiveEvaluationBuilder_ == null) {
@@ -5522,7 +5522,7 @@ public final class OmCreateSimpleCampItemCondAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.IntegerValue recursive_evaluation = 15;</code>
+       * <code>.dstore.values.IntegerValue recursive_evaluation = 15;</code>
        */
       public io.dstore.values.IntegerValue.Builder getRecursiveEvaluationBuilder() {
         
@@ -5530,7 +5530,7 @@ public final class OmCreateSimpleCampItemCondAd {
         return getRecursiveEvaluationFieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .dstore.values.IntegerValue recursive_evaluation = 15;</code>
+       * <code>.dstore.values.IntegerValue recursive_evaluation = 15;</code>
        */
       public io.dstore.values.IntegerValueOrBuilder getRecursiveEvaluationOrBuilder() {
         if (recursiveEvaluationBuilder_ != null) {
@@ -5541,7 +5541,7 @@ public final class OmCreateSimpleCampItemCondAd {
         }
       }
       /**
-       * <code>optional .dstore.values.IntegerValue recursive_evaluation = 15;</code>
+       * <code>.dstore.values.IntegerValue recursive_evaluation = 15;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> 
@@ -5559,13 +5559,13 @@ public final class OmCreateSimpleCampItemCondAd {
 
       private boolean recursiveEvaluationNull_ ;
       /**
-       * <code>optional bool recursive_evaluation_null = 1015;</code>
+       * <code>bool recursive_evaluation_null = 1015;</code>
        */
       public boolean getRecursiveEvaluationNull() {
         return recursiveEvaluationNull_;
       }
       /**
-       * <code>optional bool recursive_evaluation_null = 1015;</code>
+       * <code>bool recursive_evaluation_null = 1015;</code>
        */
       public Builder setRecursiveEvaluationNull(boolean value) {
         
@@ -5574,7 +5574,7 @@ public final class OmCreateSimpleCampItemCondAd {
         return this;
       }
       /**
-       * <code>optional bool recursive_evaluation_null = 1015;</code>
+       * <code>bool recursive_evaluation_null = 1015;</code>
        */
       public Builder clearRecursiveEvaluationNull() {
         
@@ -5587,13 +5587,13 @@ public final class OmCreateSimpleCampItemCondAd {
       private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.values.StringValue, io.dstore.values.StringValue.Builder, io.dstore.values.StringValueOrBuilder> countryBuilder_;
       /**
-       * <code>optional .dstore.values.StringValue country = 16;</code>
+       * <code>.dstore.values.StringValue country = 16;</code>
        */
       public boolean hasCountry() {
         return countryBuilder_ != null || country_ != null;
       }
       /**
-       * <code>optional .dstore.values.StringValue country = 16;</code>
+       * <code>.dstore.values.StringValue country = 16;</code>
        */
       public io.dstore.values.StringValue getCountry() {
         if (countryBuilder_ == null) {
@@ -5603,7 +5603,7 @@ public final class OmCreateSimpleCampItemCondAd {
         }
       }
       /**
-       * <code>optional .dstore.values.StringValue country = 16;</code>
+       * <code>.dstore.values.StringValue country = 16;</code>
        */
       public Builder setCountry(io.dstore.values.StringValue value) {
         if (countryBuilder_ == null) {
@@ -5619,7 +5619,7 @@ public final class OmCreateSimpleCampItemCondAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.StringValue country = 16;</code>
+       * <code>.dstore.values.StringValue country = 16;</code>
        */
       public Builder setCountry(
           io.dstore.values.StringValue.Builder builderForValue) {
@@ -5633,7 +5633,7 @@ public final class OmCreateSimpleCampItemCondAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.StringValue country = 16;</code>
+       * <code>.dstore.values.StringValue country = 16;</code>
        */
       public Builder mergeCountry(io.dstore.values.StringValue value) {
         if (countryBuilder_ == null) {
@@ -5651,7 +5651,7 @@ public final class OmCreateSimpleCampItemCondAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.StringValue country = 16;</code>
+       * <code>.dstore.values.StringValue country = 16;</code>
        */
       public Builder clearCountry() {
         if (countryBuilder_ == null) {
@@ -5665,7 +5665,7 @@ public final class OmCreateSimpleCampItemCondAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.StringValue country = 16;</code>
+       * <code>.dstore.values.StringValue country = 16;</code>
        */
       public io.dstore.values.StringValue.Builder getCountryBuilder() {
         
@@ -5673,7 +5673,7 @@ public final class OmCreateSimpleCampItemCondAd {
         return getCountryFieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .dstore.values.StringValue country = 16;</code>
+       * <code>.dstore.values.StringValue country = 16;</code>
        */
       public io.dstore.values.StringValueOrBuilder getCountryOrBuilder() {
         if (countryBuilder_ != null) {
@@ -5684,7 +5684,7 @@ public final class OmCreateSimpleCampItemCondAd {
         }
       }
       /**
-       * <code>optional .dstore.values.StringValue country = 16;</code>
+       * <code>.dstore.values.StringValue country = 16;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.values.StringValue, io.dstore.values.StringValue.Builder, io.dstore.values.StringValueOrBuilder> 
@@ -5702,13 +5702,13 @@ public final class OmCreateSimpleCampItemCondAd {
 
       private boolean countryNull_ ;
       /**
-       * <code>optional bool country_null = 1016;</code>
+       * <code>bool country_null = 1016;</code>
        */
       public boolean getCountryNull() {
         return countryNull_;
       }
       /**
-       * <code>optional bool country_null = 1016;</code>
+       * <code>bool country_null = 1016;</code>
        */
       public Builder setCountryNull(boolean value) {
         
@@ -5717,7 +5717,7 @@ public final class OmCreateSimpleCampItemCondAd {
         return this;
       }
       /**
-       * <code>optional bool country_null = 1016;</code>
+       * <code>bool country_null = 1016;</code>
        */
       public Builder clearCountryNull() {
         
@@ -5730,13 +5730,13 @@ public final class OmCreateSimpleCampItemCondAd {
       private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.values.StringValue, io.dstore.values.StringValue.Builder, io.dstore.values.StringValueOrBuilder> extendedConditionDescriptionBuilder_;
       /**
-       * <code>optional .dstore.values.StringValue extended_condition_description = 17;</code>
+       * <code>.dstore.values.StringValue extended_condition_description = 17;</code>
        */
       public boolean hasExtendedConditionDescription() {
         return extendedConditionDescriptionBuilder_ != null || extendedConditionDescription_ != null;
       }
       /**
-       * <code>optional .dstore.values.StringValue extended_condition_description = 17;</code>
+       * <code>.dstore.values.StringValue extended_condition_description = 17;</code>
        */
       public io.dstore.values.StringValue getExtendedConditionDescription() {
         if (extendedConditionDescriptionBuilder_ == null) {
@@ -5746,7 +5746,7 @@ public final class OmCreateSimpleCampItemCondAd {
         }
       }
       /**
-       * <code>optional .dstore.values.StringValue extended_condition_description = 17;</code>
+       * <code>.dstore.values.StringValue extended_condition_description = 17;</code>
        */
       public Builder setExtendedConditionDescription(io.dstore.values.StringValue value) {
         if (extendedConditionDescriptionBuilder_ == null) {
@@ -5762,7 +5762,7 @@ public final class OmCreateSimpleCampItemCondAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.StringValue extended_condition_description = 17;</code>
+       * <code>.dstore.values.StringValue extended_condition_description = 17;</code>
        */
       public Builder setExtendedConditionDescription(
           io.dstore.values.StringValue.Builder builderForValue) {
@@ -5776,7 +5776,7 @@ public final class OmCreateSimpleCampItemCondAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.StringValue extended_condition_description = 17;</code>
+       * <code>.dstore.values.StringValue extended_condition_description = 17;</code>
        */
       public Builder mergeExtendedConditionDescription(io.dstore.values.StringValue value) {
         if (extendedConditionDescriptionBuilder_ == null) {
@@ -5794,7 +5794,7 @@ public final class OmCreateSimpleCampItemCondAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.StringValue extended_condition_description = 17;</code>
+       * <code>.dstore.values.StringValue extended_condition_description = 17;</code>
        */
       public Builder clearExtendedConditionDescription() {
         if (extendedConditionDescriptionBuilder_ == null) {
@@ -5808,7 +5808,7 @@ public final class OmCreateSimpleCampItemCondAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.StringValue extended_condition_description = 17;</code>
+       * <code>.dstore.values.StringValue extended_condition_description = 17;</code>
        */
       public io.dstore.values.StringValue.Builder getExtendedConditionDescriptionBuilder() {
         
@@ -5816,7 +5816,7 @@ public final class OmCreateSimpleCampItemCondAd {
         return getExtendedConditionDescriptionFieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .dstore.values.StringValue extended_condition_description = 17;</code>
+       * <code>.dstore.values.StringValue extended_condition_description = 17;</code>
        */
       public io.dstore.values.StringValueOrBuilder getExtendedConditionDescriptionOrBuilder() {
         if (extendedConditionDescriptionBuilder_ != null) {
@@ -5827,7 +5827,7 @@ public final class OmCreateSimpleCampItemCondAd {
         }
       }
       /**
-       * <code>optional .dstore.values.StringValue extended_condition_description = 17;</code>
+       * <code>.dstore.values.StringValue extended_condition_description = 17;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.values.StringValue, io.dstore.values.StringValue.Builder, io.dstore.values.StringValueOrBuilder> 
@@ -5845,13 +5845,13 @@ public final class OmCreateSimpleCampItemCondAd {
 
       private boolean extendedConditionDescriptionNull_ ;
       /**
-       * <code>optional bool extended_condition_description_null = 1017;</code>
+       * <code>bool extended_condition_description_null = 1017;</code>
        */
       public boolean getExtendedConditionDescriptionNull() {
         return extendedConditionDescriptionNull_;
       }
       /**
-       * <code>optional bool extended_condition_description_null = 1017;</code>
+       * <code>bool extended_condition_description_null = 1017;</code>
        */
       public Builder setExtendedConditionDescriptionNull(boolean value) {
         
@@ -5860,7 +5860,7 @@ public final class OmCreateSimpleCampItemCondAd {
         return this;
       }
       /**
-       * <code>optional bool extended_condition_description_null = 1017;</code>
+       * <code>bool extended_condition_description_null = 1017;</code>
        */
       public Builder clearExtendedConditionDescriptionNull() {
         
@@ -5873,13 +5873,13 @@ public final class OmCreateSimpleCampItemCondAd {
       private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> minNumberOfItemsBuilder_;
       /**
-       * <code>optional .dstore.values.IntegerValue min_number_of_items = 18;</code>
+       * <code>.dstore.values.IntegerValue min_number_of_items = 18;</code>
        */
       public boolean hasMinNumberOfItems() {
         return minNumberOfItemsBuilder_ != null || minNumberOfItems_ != null;
       }
       /**
-       * <code>optional .dstore.values.IntegerValue min_number_of_items = 18;</code>
+       * <code>.dstore.values.IntegerValue min_number_of_items = 18;</code>
        */
       public io.dstore.values.IntegerValue getMinNumberOfItems() {
         if (minNumberOfItemsBuilder_ == null) {
@@ -5889,7 +5889,7 @@ public final class OmCreateSimpleCampItemCondAd {
         }
       }
       /**
-       * <code>optional .dstore.values.IntegerValue min_number_of_items = 18;</code>
+       * <code>.dstore.values.IntegerValue min_number_of_items = 18;</code>
        */
       public Builder setMinNumberOfItems(io.dstore.values.IntegerValue value) {
         if (minNumberOfItemsBuilder_ == null) {
@@ -5905,7 +5905,7 @@ public final class OmCreateSimpleCampItemCondAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.IntegerValue min_number_of_items = 18;</code>
+       * <code>.dstore.values.IntegerValue min_number_of_items = 18;</code>
        */
       public Builder setMinNumberOfItems(
           io.dstore.values.IntegerValue.Builder builderForValue) {
@@ -5919,7 +5919,7 @@ public final class OmCreateSimpleCampItemCondAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.IntegerValue min_number_of_items = 18;</code>
+       * <code>.dstore.values.IntegerValue min_number_of_items = 18;</code>
        */
       public Builder mergeMinNumberOfItems(io.dstore.values.IntegerValue value) {
         if (minNumberOfItemsBuilder_ == null) {
@@ -5937,7 +5937,7 @@ public final class OmCreateSimpleCampItemCondAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.IntegerValue min_number_of_items = 18;</code>
+       * <code>.dstore.values.IntegerValue min_number_of_items = 18;</code>
        */
       public Builder clearMinNumberOfItems() {
         if (minNumberOfItemsBuilder_ == null) {
@@ -5951,7 +5951,7 @@ public final class OmCreateSimpleCampItemCondAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.IntegerValue min_number_of_items = 18;</code>
+       * <code>.dstore.values.IntegerValue min_number_of_items = 18;</code>
        */
       public io.dstore.values.IntegerValue.Builder getMinNumberOfItemsBuilder() {
         
@@ -5959,7 +5959,7 @@ public final class OmCreateSimpleCampItemCondAd {
         return getMinNumberOfItemsFieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .dstore.values.IntegerValue min_number_of_items = 18;</code>
+       * <code>.dstore.values.IntegerValue min_number_of_items = 18;</code>
        */
       public io.dstore.values.IntegerValueOrBuilder getMinNumberOfItemsOrBuilder() {
         if (minNumberOfItemsBuilder_ != null) {
@@ -5970,7 +5970,7 @@ public final class OmCreateSimpleCampItemCondAd {
         }
       }
       /**
-       * <code>optional .dstore.values.IntegerValue min_number_of_items = 18;</code>
+       * <code>.dstore.values.IntegerValue min_number_of_items = 18;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> 
@@ -5988,13 +5988,13 @@ public final class OmCreateSimpleCampItemCondAd {
 
       private boolean minNumberOfItemsNull_ ;
       /**
-       * <code>optional bool min_number_of_items_null = 1018;</code>
+       * <code>bool min_number_of_items_null = 1018;</code>
        */
       public boolean getMinNumberOfItemsNull() {
         return minNumberOfItemsNull_;
       }
       /**
-       * <code>optional bool min_number_of_items_null = 1018;</code>
+       * <code>bool min_number_of_items_null = 1018;</code>
        */
       public Builder setMinNumberOfItemsNull(boolean value) {
         
@@ -6003,7 +6003,7 @@ public final class OmCreateSimpleCampItemCondAd {
         return this;
       }
       /**
-       * <code>optional bool min_number_of_items_null = 1018;</code>
+       * <code>bool min_number_of_items_null = 1018;</code>
        */
       public Builder clearMinNumberOfItemsNull() {
         
@@ -6016,13 +6016,13 @@ public final class OmCreateSimpleCampItemCondAd {
       private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> maxNumberOfItemsBuilder_;
       /**
-       * <code>optional .dstore.values.IntegerValue max_number_of_items = 19;</code>
+       * <code>.dstore.values.IntegerValue max_number_of_items = 19;</code>
        */
       public boolean hasMaxNumberOfItems() {
         return maxNumberOfItemsBuilder_ != null || maxNumberOfItems_ != null;
       }
       /**
-       * <code>optional .dstore.values.IntegerValue max_number_of_items = 19;</code>
+       * <code>.dstore.values.IntegerValue max_number_of_items = 19;</code>
        */
       public io.dstore.values.IntegerValue getMaxNumberOfItems() {
         if (maxNumberOfItemsBuilder_ == null) {
@@ -6032,7 +6032,7 @@ public final class OmCreateSimpleCampItemCondAd {
         }
       }
       /**
-       * <code>optional .dstore.values.IntegerValue max_number_of_items = 19;</code>
+       * <code>.dstore.values.IntegerValue max_number_of_items = 19;</code>
        */
       public Builder setMaxNumberOfItems(io.dstore.values.IntegerValue value) {
         if (maxNumberOfItemsBuilder_ == null) {
@@ -6048,7 +6048,7 @@ public final class OmCreateSimpleCampItemCondAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.IntegerValue max_number_of_items = 19;</code>
+       * <code>.dstore.values.IntegerValue max_number_of_items = 19;</code>
        */
       public Builder setMaxNumberOfItems(
           io.dstore.values.IntegerValue.Builder builderForValue) {
@@ -6062,7 +6062,7 @@ public final class OmCreateSimpleCampItemCondAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.IntegerValue max_number_of_items = 19;</code>
+       * <code>.dstore.values.IntegerValue max_number_of_items = 19;</code>
        */
       public Builder mergeMaxNumberOfItems(io.dstore.values.IntegerValue value) {
         if (maxNumberOfItemsBuilder_ == null) {
@@ -6080,7 +6080,7 @@ public final class OmCreateSimpleCampItemCondAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.IntegerValue max_number_of_items = 19;</code>
+       * <code>.dstore.values.IntegerValue max_number_of_items = 19;</code>
        */
       public Builder clearMaxNumberOfItems() {
         if (maxNumberOfItemsBuilder_ == null) {
@@ -6094,7 +6094,7 @@ public final class OmCreateSimpleCampItemCondAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.IntegerValue max_number_of_items = 19;</code>
+       * <code>.dstore.values.IntegerValue max_number_of_items = 19;</code>
        */
       public io.dstore.values.IntegerValue.Builder getMaxNumberOfItemsBuilder() {
         
@@ -6102,7 +6102,7 @@ public final class OmCreateSimpleCampItemCondAd {
         return getMaxNumberOfItemsFieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .dstore.values.IntegerValue max_number_of_items = 19;</code>
+       * <code>.dstore.values.IntegerValue max_number_of_items = 19;</code>
        */
       public io.dstore.values.IntegerValueOrBuilder getMaxNumberOfItemsOrBuilder() {
         if (maxNumberOfItemsBuilder_ != null) {
@@ -6113,7 +6113,7 @@ public final class OmCreateSimpleCampItemCondAd {
         }
       }
       /**
-       * <code>optional .dstore.values.IntegerValue max_number_of_items = 19;</code>
+       * <code>.dstore.values.IntegerValue max_number_of_items = 19;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> 
@@ -6131,13 +6131,13 @@ public final class OmCreateSimpleCampItemCondAd {
 
       private boolean maxNumberOfItemsNull_ ;
       /**
-       * <code>optional bool max_number_of_items_null = 1019;</code>
+       * <code>bool max_number_of_items_null = 1019;</code>
        */
       public boolean getMaxNumberOfItemsNull() {
         return maxNumberOfItemsNull_;
       }
       /**
-       * <code>optional bool max_number_of_items_null = 1019;</code>
+       * <code>bool max_number_of_items_null = 1019;</code>
        */
       public Builder setMaxNumberOfItemsNull(boolean value) {
         
@@ -6146,7 +6146,7 @@ public final class OmCreateSimpleCampItemCondAd {
         return this;
       }
       /**
-       * <code>optional bool max_number_of_items_null = 1019;</code>
+       * <code>bool max_number_of_items_null = 1019;</code>
        */
       public Builder clearMaxNumberOfItemsNull() {
         
@@ -6159,13 +6159,13 @@ public final class OmCreateSimpleCampItemCondAd {
       private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> fromQuantityBuilder_;
       /**
-       * <code>optional .dstore.values.IntegerValue from_quantity = 20;</code>
+       * <code>.dstore.values.IntegerValue from_quantity = 20;</code>
        */
       public boolean hasFromQuantity() {
         return fromQuantityBuilder_ != null || fromQuantity_ != null;
       }
       /**
-       * <code>optional .dstore.values.IntegerValue from_quantity = 20;</code>
+       * <code>.dstore.values.IntegerValue from_quantity = 20;</code>
        */
       public io.dstore.values.IntegerValue getFromQuantity() {
         if (fromQuantityBuilder_ == null) {
@@ -6175,7 +6175,7 @@ public final class OmCreateSimpleCampItemCondAd {
         }
       }
       /**
-       * <code>optional .dstore.values.IntegerValue from_quantity = 20;</code>
+       * <code>.dstore.values.IntegerValue from_quantity = 20;</code>
        */
       public Builder setFromQuantity(io.dstore.values.IntegerValue value) {
         if (fromQuantityBuilder_ == null) {
@@ -6191,7 +6191,7 @@ public final class OmCreateSimpleCampItemCondAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.IntegerValue from_quantity = 20;</code>
+       * <code>.dstore.values.IntegerValue from_quantity = 20;</code>
        */
       public Builder setFromQuantity(
           io.dstore.values.IntegerValue.Builder builderForValue) {
@@ -6205,7 +6205,7 @@ public final class OmCreateSimpleCampItemCondAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.IntegerValue from_quantity = 20;</code>
+       * <code>.dstore.values.IntegerValue from_quantity = 20;</code>
        */
       public Builder mergeFromQuantity(io.dstore.values.IntegerValue value) {
         if (fromQuantityBuilder_ == null) {
@@ -6223,7 +6223,7 @@ public final class OmCreateSimpleCampItemCondAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.IntegerValue from_quantity = 20;</code>
+       * <code>.dstore.values.IntegerValue from_quantity = 20;</code>
        */
       public Builder clearFromQuantity() {
         if (fromQuantityBuilder_ == null) {
@@ -6237,7 +6237,7 @@ public final class OmCreateSimpleCampItemCondAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.IntegerValue from_quantity = 20;</code>
+       * <code>.dstore.values.IntegerValue from_quantity = 20;</code>
        */
       public io.dstore.values.IntegerValue.Builder getFromQuantityBuilder() {
         
@@ -6245,7 +6245,7 @@ public final class OmCreateSimpleCampItemCondAd {
         return getFromQuantityFieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .dstore.values.IntegerValue from_quantity = 20;</code>
+       * <code>.dstore.values.IntegerValue from_quantity = 20;</code>
        */
       public io.dstore.values.IntegerValueOrBuilder getFromQuantityOrBuilder() {
         if (fromQuantityBuilder_ != null) {
@@ -6256,7 +6256,7 @@ public final class OmCreateSimpleCampItemCondAd {
         }
       }
       /**
-       * <code>optional .dstore.values.IntegerValue from_quantity = 20;</code>
+       * <code>.dstore.values.IntegerValue from_quantity = 20;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> 
@@ -6274,13 +6274,13 @@ public final class OmCreateSimpleCampItemCondAd {
 
       private boolean fromQuantityNull_ ;
       /**
-       * <code>optional bool from_quantity_null = 1020;</code>
+       * <code>bool from_quantity_null = 1020;</code>
        */
       public boolean getFromQuantityNull() {
         return fromQuantityNull_;
       }
       /**
-       * <code>optional bool from_quantity_null = 1020;</code>
+       * <code>bool from_quantity_null = 1020;</code>
        */
       public Builder setFromQuantityNull(boolean value) {
         
@@ -6289,7 +6289,7 @@ public final class OmCreateSimpleCampItemCondAd {
         return this;
       }
       /**
-       * <code>optional bool from_quantity_null = 1020;</code>
+       * <code>bool from_quantity_null = 1020;</code>
        */
       public Builder clearFromQuantityNull() {
         
@@ -6302,13 +6302,13 @@ public final class OmCreateSimpleCampItemCondAd {
       private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> toQuantityBuilder_;
       /**
-       * <code>optional .dstore.values.IntegerValue to_quantity = 21;</code>
+       * <code>.dstore.values.IntegerValue to_quantity = 21;</code>
        */
       public boolean hasToQuantity() {
         return toQuantityBuilder_ != null || toQuantity_ != null;
       }
       /**
-       * <code>optional .dstore.values.IntegerValue to_quantity = 21;</code>
+       * <code>.dstore.values.IntegerValue to_quantity = 21;</code>
        */
       public io.dstore.values.IntegerValue getToQuantity() {
         if (toQuantityBuilder_ == null) {
@@ -6318,7 +6318,7 @@ public final class OmCreateSimpleCampItemCondAd {
         }
       }
       /**
-       * <code>optional .dstore.values.IntegerValue to_quantity = 21;</code>
+       * <code>.dstore.values.IntegerValue to_quantity = 21;</code>
        */
       public Builder setToQuantity(io.dstore.values.IntegerValue value) {
         if (toQuantityBuilder_ == null) {
@@ -6334,7 +6334,7 @@ public final class OmCreateSimpleCampItemCondAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.IntegerValue to_quantity = 21;</code>
+       * <code>.dstore.values.IntegerValue to_quantity = 21;</code>
        */
       public Builder setToQuantity(
           io.dstore.values.IntegerValue.Builder builderForValue) {
@@ -6348,7 +6348,7 @@ public final class OmCreateSimpleCampItemCondAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.IntegerValue to_quantity = 21;</code>
+       * <code>.dstore.values.IntegerValue to_quantity = 21;</code>
        */
       public Builder mergeToQuantity(io.dstore.values.IntegerValue value) {
         if (toQuantityBuilder_ == null) {
@@ -6366,7 +6366,7 @@ public final class OmCreateSimpleCampItemCondAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.IntegerValue to_quantity = 21;</code>
+       * <code>.dstore.values.IntegerValue to_quantity = 21;</code>
        */
       public Builder clearToQuantity() {
         if (toQuantityBuilder_ == null) {
@@ -6380,7 +6380,7 @@ public final class OmCreateSimpleCampItemCondAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.IntegerValue to_quantity = 21;</code>
+       * <code>.dstore.values.IntegerValue to_quantity = 21;</code>
        */
       public io.dstore.values.IntegerValue.Builder getToQuantityBuilder() {
         
@@ -6388,7 +6388,7 @@ public final class OmCreateSimpleCampItemCondAd {
         return getToQuantityFieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .dstore.values.IntegerValue to_quantity = 21;</code>
+       * <code>.dstore.values.IntegerValue to_quantity = 21;</code>
        */
       public io.dstore.values.IntegerValueOrBuilder getToQuantityOrBuilder() {
         if (toQuantityBuilder_ != null) {
@@ -6399,7 +6399,7 @@ public final class OmCreateSimpleCampItemCondAd {
         }
       }
       /**
-       * <code>optional .dstore.values.IntegerValue to_quantity = 21;</code>
+       * <code>.dstore.values.IntegerValue to_quantity = 21;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> 
@@ -6417,13 +6417,13 @@ public final class OmCreateSimpleCampItemCondAd {
 
       private boolean toQuantityNull_ ;
       /**
-       * <code>optional bool to_quantity_null = 1021;</code>
+       * <code>bool to_quantity_null = 1021;</code>
        */
       public boolean getToQuantityNull() {
         return toQuantityNull_;
       }
       /**
-       * <code>optional bool to_quantity_null = 1021;</code>
+       * <code>bool to_quantity_null = 1021;</code>
        */
       public Builder setToQuantityNull(boolean value) {
         
@@ -6432,7 +6432,7 @@ public final class OmCreateSimpleCampItemCondAd {
         return this;
       }
       /**
-       * <code>optional bool to_quantity_null = 1021;</code>
+       * <code>bool to_quantity_null = 1021;</code>
        */
       public Builder clearToQuantityNull() {
         
@@ -6445,13 +6445,13 @@ public final class OmCreateSimpleCampItemCondAd {
       private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.values.DecimalValue, io.dstore.values.DecimalValue.Builder, io.dstore.values.DecimalValueOrBuilder> fromItemBasicPriceBuilder_;
       /**
-       * <code>optional .dstore.values.DecimalValue from_item_basic_price = 22;</code>
+       * <code>.dstore.values.DecimalValue from_item_basic_price = 22;</code>
        */
       public boolean hasFromItemBasicPrice() {
         return fromItemBasicPriceBuilder_ != null || fromItemBasicPrice_ != null;
       }
       /**
-       * <code>optional .dstore.values.DecimalValue from_item_basic_price = 22;</code>
+       * <code>.dstore.values.DecimalValue from_item_basic_price = 22;</code>
        */
       public io.dstore.values.DecimalValue getFromItemBasicPrice() {
         if (fromItemBasicPriceBuilder_ == null) {
@@ -6461,7 +6461,7 @@ public final class OmCreateSimpleCampItemCondAd {
         }
       }
       /**
-       * <code>optional .dstore.values.DecimalValue from_item_basic_price = 22;</code>
+       * <code>.dstore.values.DecimalValue from_item_basic_price = 22;</code>
        */
       public Builder setFromItemBasicPrice(io.dstore.values.DecimalValue value) {
         if (fromItemBasicPriceBuilder_ == null) {
@@ -6477,7 +6477,7 @@ public final class OmCreateSimpleCampItemCondAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.DecimalValue from_item_basic_price = 22;</code>
+       * <code>.dstore.values.DecimalValue from_item_basic_price = 22;</code>
        */
       public Builder setFromItemBasicPrice(
           io.dstore.values.DecimalValue.Builder builderForValue) {
@@ -6491,7 +6491,7 @@ public final class OmCreateSimpleCampItemCondAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.DecimalValue from_item_basic_price = 22;</code>
+       * <code>.dstore.values.DecimalValue from_item_basic_price = 22;</code>
        */
       public Builder mergeFromItemBasicPrice(io.dstore.values.DecimalValue value) {
         if (fromItemBasicPriceBuilder_ == null) {
@@ -6509,7 +6509,7 @@ public final class OmCreateSimpleCampItemCondAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.DecimalValue from_item_basic_price = 22;</code>
+       * <code>.dstore.values.DecimalValue from_item_basic_price = 22;</code>
        */
       public Builder clearFromItemBasicPrice() {
         if (fromItemBasicPriceBuilder_ == null) {
@@ -6523,7 +6523,7 @@ public final class OmCreateSimpleCampItemCondAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.DecimalValue from_item_basic_price = 22;</code>
+       * <code>.dstore.values.DecimalValue from_item_basic_price = 22;</code>
        */
       public io.dstore.values.DecimalValue.Builder getFromItemBasicPriceBuilder() {
         
@@ -6531,7 +6531,7 @@ public final class OmCreateSimpleCampItemCondAd {
         return getFromItemBasicPriceFieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .dstore.values.DecimalValue from_item_basic_price = 22;</code>
+       * <code>.dstore.values.DecimalValue from_item_basic_price = 22;</code>
        */
       public io.dstore.values.DecimalValueOrBuilder getFromItemBasicPriceOrBuilder() {
         if (fromItemBasicPriceBuilder_ != null) {
@@ -6542,7 +6542,7 @@ public final class OmCreateSimpleCampItemCondAd {
         }
       }
       /**
-       * <code>optional .dstore.values.DecimalValue from_item_basic_price = 22;</code>
+       * <code>.dstore.values.DecimalValue from_item_basic_price = 22;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.values.DecimalValue, io.dstore.values.DecimalValue.Builder, io.dstore.values.DecimalValueOrBuilder> 
@@ -6560,13 +6560,13 @@ public final class OmCreateSimpleCampItemCondAd {
 
       private boolean fromItemBasicPriceNull_ ;
       /**
-       * <code>optional bool from_item_basic_price_null = 1022;</code>
+       * <code>bool from_item_basic_price_null = 1022;</code>
        */
       public boolean getFromItemBasicPriceNull() {
         return fromItemBasicPriceNull_;
       }
       /**
-       * <code>optional bool from_item_basic_price_null = 1022;</code>
+       * <code>bool from_item_basic_price_null = 1022;</code>
        */
       public Builder setFromItemBasicPriceNull(boolean value) {
         
@@ -6575,7 +6575,7 @@ public final class OmCreateSimpleCampItemCondAd {
         return this;
       }
       /**
-       * <code>optional bool from_item_basic_price_null = 1022;</code>
+       * <code>bool from_item_basic_price_null = 1022;</code>
        */
       public Builder clearFromItemBasicPriceNull() {
         
@@ -6588,13 +6588,13 @@ public final class OmCreateSimpleCampItemCondAd {
       private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.values.DecimalValue, io.dstore.values.DecimalValue.Builder, io.dstore.values.DecimalValueOrBuilder> toItemBasicPriceBuilder_;
       /**
-       * <code>optional .dstore.values.DecimalValue to_item_basic_price = 23;</code>
+       * <code>.dstore.values.DecimalValue to_item_basic_price = 23;</code>
        */
       public boolean hasToItemBasicPrice() {
         return toItemBasicPriceBuilder_ != null || toItemBasicPrice_ != null;
       }
       /**
-       * <code>optional .dstore.values.DecimalValue to_item_basic_price = 23;</code>
+       * <code>.dstore.values.DecimalValue to_item_basic_price = 23;</code>
        */
       public io.dstore.values.DecimalValue getToItemBasicPrice() {
         if (toItemBasicPriceBuilder_ == null) {
@@ -6604,7 +6604,7 @@ public final class OmCreateSimpleCampItemCondAd {
         }
       }
       /**
-       * <code>optional .dstore.values.DecimalValue to_item_basic_price = 23;</code>
+       * <code>.dstore.values.DecimalValue to_item_basic_price = 23;</code>
        */
       public Builder setToItemBasicPrice(io.dstore.values.DecimalValue value) {
         if (toItemBasicPriceBuilder_ == null) {
@@ -6620,7 +6620,7 @@ public final class OmCreateSimpleCampItemCondAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.DecimalValue to_item_basic_price = 23;</code>
+       * <code>.dstore.values.DecimalValue to_item_basic_price = 23;</code>
        */
       public Builder setToItemBasicPrice(
           io.dstore.values.DecimalValue.Builder builderForValue) {
@@ -6634,7 +6634,7 @@ public final class OmCreateSimpleCampItemCondAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.DecimalValue to_item_basic_price = 23;</code>
+       * <code>.dstore.values.DecimalValue to_item_basic_price = 23;</code>
        */
       public Builder mergeToItemBasicPrice(io.dstore.values.DecimalValue value) {
         if (toItemBasicPriceBuilder_ == null) {
@@ -6652,7 +6652,7 @@ public final class OmCreateSimpleCampItemCondAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.DecimalValue to_item_basic_price = 23;</code>
+       * <code>.dstore.values.DecimalValue to_item_basic_price = 23;</code>
        */
       public Builder clearToItemBasicPrice() {
         if (toItemBasicPriceBuilder_ == null) {
@@ -6666,7 +6666,7 @@ public final class OmCreateSimpleCampItemCondAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.DecimalValue to_item_basic_price = 23;</code>
+       * <code>.dstore.values.DecimalValue to_item_basic_price = 23;</code>
        */
       public io.dstore.values.DecimalValue.Builder getToItemBasicPriceBuilder() {
         
@@ -6674,7 +6674,7 @@ public final class OmCreateSimpleCampItemCondAd {
         return getToItemBasicPriceFieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .dstore.values.DecimalValue to_item_basic_price = 23;</code>
+       * <code>.dstore.values.DecimalValue to_item_basic_price = 23;</code>
        */
       public io.dstore.values.DecimalValueOrBuilder getToItemBasicPriceOrBuilder() {
         if (toItemBasicPriceBuilder_ != null) {
@@ -6685,7 +6685,7 @@ public final class OmCreateSimpleCampItemCondAd {
         }
       }
       /**
-       * <code>optional .dstore.values.DecimalValue to_item_basic_price = 23;</code>
+       * <code>.dstore.values.DecimalValue to_item_basic_price = 23;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.values.DecimalValue, io.dstore.values.DecimalValue.Builder, io.dstore.values.DecimalValueOrBuilder> 
@@ -6703,13 +6703,13 @@ public final class OmCreateSimpleCampItemCondAd {
 
       private boolean toItemBasicPriceNull_ ;
       /**
-       * <code>optional bool to_item_basic_price_null = 1023;</code>
+       * <code>bool to_item_basic_price_null = 1023;</code>
        */
       public boolean getToItemBasicPriceNull() {
         return toItemBasicPriceNull_;
       }
       /**
-       * <code>optional bool to_item_basic_price_null = 1023;</code>
+       * <code>bool to_item_basic_price_null = 1023;</code>
        */
       public Builder setToItemBasicPriceNull(boolean value) {
         
@@ -6718,7 +6718,7 @@ public final class OmCreateSimpleCampItemCondAd {
         return this;
       }
       /**
-       * <code>optional bool to_item_basic_price_null = 1023;</code>
+       * <code>bool to_item_basic_price_null = 1023;</code>
        */
       public Builder clearToItemBasicPriceNull() {
         
@@ -6731,13 +6731,13 @@ public final class OmCreateSimpleCampItemCondAd {
       private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.values.DecimalValue, io.dstore.values.DecimalValue.Builder, io.dstore.values.DecimalValueOrBuilder> fromBasicPriceSumBuilder_;
       /**
-       * <code>optional .dstore.values.DecimalValue from_basic_price_sum = 24;</code>
+       * <code>.dstore.values.DecimalValue from_basic_price_sum = 24;</code>
        */
       public boolean hasFromBasicPriceSum() {
         return fromBasicPriceSumBuilder_ != null || fromBasicPriceSum_ != null;
       }
       /**
-       * <code>optional .dstore.values.DecimalValue from_basic_price_sum = 24;</code>
+       * <code>.dstore.values.DecimalValue from_basic_price_sum = 24;</code>
        */
       public io.dstore.values.DecimalValue getFromBasicPriceSum() {
         if (fromBasicPriceSumBuilder_ == null) {
@@ -6747,7 +6747,7 @@ public final class OmCreateSimpleCampItemCondAd {
         }
       }
       /**
-       * <code>optional .dstore.values.DecimalValue from_basic_price_sum = 24;</code>
+       * <code>.dstore.values.DecimalValue from_basic_price_sum = 24;</code>
        */
       public Builder setFromBasicPriceSum(io.dstore.values.DecimalValue value) {
         if (fromBasicPriceSumBuilder_ == null) {
@@ -6763,7 +6763,7 @@ public final class OmCreateSimpleCampItemCondAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.DecimalValue from_basic_price_sum = 24;</code>
+       * <code>.dstore.values.DecimalValue from_basic_price_sum = 24;</code>
        */
       public Builder setFromBasicPriceSum(
           io.dstore.values.DecimalValue.Builder builderForValue) {
@@ -6777,7 +6777,7 @@ public final class OmCreateSimpleCampItemCondAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.DecimalValue from_basic_price_sum = 24;</code>
+       * <code>.dstore.values.DecimalValue from_basic_price_sum = 24;</code>
        */
       public Builder mergeFromBasicPriceSum(io.dstore.values.DecimalValue value) {
         if (fromBasicPriceSumBuilder_ == null) {
@@ -6795,7 +6795,7 @@ public final class OmCreateSimpleCampItemCondAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.DecimalValue from_basic_price_sum = 24;</code>
+       * <code>.dstore.values.DecimalValue from_basic_price_sum = 24;</code>
        */
       public Builder clearFromBasicPriceSum() {
         if (fromBasicPriceSumBuilder_ == null) {
@@ -6809,7 +6809,7 @@ public final class OmCreateSimpleCampItemCondAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.DecimalValue from_basic_price_sum = 24;</code>
+       * <code>.dstore.values.DecimalValue from_basic_price_sum = 24;</code>
        */
       public io.dstore.values.DecimalValue.Builder getFromBasicPriceSumBuilder() {
         
@@ -6817,7 +6817,7 @@ public final class OmCreateSimpleCampItemCondAd {
         return getFromBasicPriceSumFieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .dstore.values.DecimalValue from_basic_price_sum = 24;</code>
+       * <code>.dstore.values.DecimalValue from_basic_price_sum = 24;</code>
        */
       public io.dstore.values.DecimalValueOrBuilder getFromBasicPriceSumOrBuilder() {
         if (fromBasicPriceSumBuilder_ != null) {
@@ -6828,7 +6828,7 @@ public final class OmCreateSimpleCampItemCondAd {
         }
       }
       /**
-       * <code>optional .dstore.values.DecimalValue from_basic_price_sum = 24;</code>
+       * <code>.dstore.values.DecimalValue from_basic_price_sum = 24;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.values.DecimalValue, io.dstore.values.DecimalValue.Builder, io.dstore.values.DecimalValueOrBuilder> 
@@ -6846,13 +6846,13 @@ public final class OmCreateSimpleCampItemCondAd {
 
       private boolean fromBasicPriceSumNull_ ;
       /**
-       * <code>optional bool from_basic_price_sum_null = 1024;</code>
+       * <code>bool from_basic_price_sum_null = 1024;</code>
        */
       public boolean getFromBasicPriceSumNull() {
         return fromBasicPriceSumNull_;
       }
       /**
-       * <code>optional bool from_basic_price_sum_null = 1024;</code>
+       * <code>bool from_basic_price_sum_null = 1024;</code>
        */
       public Builder setFromBasicPriceSumNull(boolean value) {
         
@@ -6861,7 +6861,7 @@ public final class OmCreateSimpleCampItemCondAd {
         return this;
       }
       /**
-       * <code>optional bool from_basic_price_sum_null = 1024;</code>
+       * <code>bool from_basic_price_sum_null = 1024;</code>
        */
       public Builder clearFromBasicPriceSumNull() {
         
@@ -6874,13 +6874,13 @@ public final class OmCreateSimpleCampItemCondAd {
       private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.values.DecimalValue, io.dstore.values.DecimalValue.Builder, io.dstore.values.DecimalValueOrBuilder> toBasicPriceSumBuilder_;
       /**
-       * <code>optional .dstore.values.DecimalValue to_basic_price_sum = 25;</code>
+       * <code>.dstore.values.DecimalValue to_basic_price_sum = 25;</code>
        */
       public boolean hasToBasicPriceSum() {
         return toBasicPriceSumBuilder_ != null || toBasicPriceSum_ != null;
       }
       /**
-       * <code>optional .dstore.values.DecimalValue to_basic_price_sum = 25;</code>
+       * <code>.dstore.values.DecimalValue to_basic_price_sum = 25;</code>
        */
       public io.dstore.values.DecimalValue getToBasicPriceSum() {
         if (toBasicPriceSumBuilder_ == null) {
@@ -6890,7 +6890,7 @@ public final class OmCreateSimpleCampItemCondAd {
         }
       }
       /**
-       * <code>optional .dstore.values.DecimalValue to_basic_price_sum = 25;</code>
+       * <code>.dstore.values.DecimalValue to_basic_price_sum = 25;</code>
        */
       public Builder setToBasicPriceSum(io.dstore.values.DecimalValue value) {
         if (toBasicPriceSumBuilder_ == null) {
@@ -6906,7 +6906,7 @@ public final class OmCreateSimpleCampItemCondAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.DecimalValue to_basic_price_sum = 25;</code>
+       * <code>.dstore.values.DecimalValue to_basic_price_sum = 25;</code>
        */
       public Builder setToBasicPriceSum(
           io.dstore.values.DecimalValue.Builder builderForValue) {
@@ -6920,7 +6920,7 @@ public final class OmCreateSimpleCampItemCondAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.DecimalValue to_basic_price_sum = 25;</code>
+       * <code>.dstore.values.DecimalValue to_basic_price_sum = 25;</code>
        */
       public Builder mergeToBasicPriceSum(io.dstore.values.DecimalValue value) {
         if (toBasicPriceSumBuilder_ == null) {
@@ -6938,7 +6938,7 @@ public final class OmCreateSimpleCampItemCondAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.DecimalValue to_basic_price_sum = 25;</code>
+       * <code>.dstore.values.DecimalValue to_basic_price_sum = 25;</code>
        */
       public Builder clearToBasicPriceSum() {
         if (toBasicPriceSumBuilder_ == null) {
@@ -6952,7 +6952,7 @@ public final class OmCreateSimpleCampItemCondAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.DecimalValue to_basic_price_sum = 25;</code>
+       * <code>.dstore.values.DecimalValue to_basic_price_sum = 25;</code>
        */
       public io.dstore.values.DecimalValue.Builder getToBasicPriceSumBuilder() {
         
@@ -6960,7 +6960,7 @@ public final class OmCreateSimpleCampItemCondAd {
         return getToBasicPriceSumFieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .dstore.values.DecimalValue to_basic_price_sum = 25;</code>
+       * <code>.dstore.values.DecimalValue to_basic_price_sum = 25;</code>
        */
       public io.dstore.values.DecimalValueOrBuilder getToBasicPriceSumOrBuilder() {
         if (toBasicPriceSumBuilder_ != null) {
@@ -6971,7 +6971,7 @@ public final class OmCreateSimpleCampItemCondAd {
         }
       }
       /**
-       * <code>optional .dstore.values.DecimalValue to_basic_price_sum = 25;</code>
+       * <code>.dstore.values.DecimalValue to_basic_price_sum = 25;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.values.DecimalValue, io.dstore.values.DecimalValue.Builder, io.dstore.values.DecimalValueOrBuilder> 
@@ -6989,13 +6989,13 @@ public final class OmCreateSimpleCampItemCondAd {
 
       private boolean toBasicPriceSumNull_ ;
       /**
-       * <code>optional bool to_basic_price_sum_null = 1025;</code>
+       * <code>bool to_basic_price_sum_null = 1025;</code>
        */
       public boolean getToBasicPriceSumNull() {
         return toBasicPriceSumNull_;
       }
       /**
-       * <code>optional bool to_basic_price_sum_null = 1025;</code>
+       * <code>bool to_basic_price_sum_null = 1025;</code>
        */
       public Builder setToBasicPriceSumNull(boolean value) {
         
@@ -7004,7 +7004,7 @@ public final class OmCreateSimpleCampItemCondAd {
         return this;
       }
       /**
-       * <code>optional bool to_basic_price_sum_null = 1025;</code>
+       * <code>bool to_basic_price_sum_null = 1025;</code>
        */
       public Builder clearToBasicPriceSumNull() {
         
@@ -7017,13 +7017,13 @@ public final class OmCreateSimpleCampItemCondAd {
       private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.values.BooleanValue, io.dstore.values.BooleanValue.Builder, io.dstore.values.BooleanValueOrBuilder> combineGroupsWithANDOperatorBuilder_;
       /**
-       * <code>optional .dstore.values.BooleanValue combine_groups_with_a_n_d_operator = 26;</code>
+       * <code>.dstore.values.BooleanValue combine_groups_with_a_n_d_operator = 26;</code>
        */
       public boolean hasCombineGroupsWithANDOperator() {
         return combineGroupsWithANDOperatorBuilder_ != null || combineGroupsWithANDOperator_ != null;
       }
       /**
-       * <code>optional .dstore.values.BooleanValue combine_groups_with_a_n_d_operator = 26;</code>
+       * <code>.dstore.values.BooleanValue combine_groups_with_a_n_d_operator = 26;</code>
        */
       public io.dstore.values.BooleanValue getCombineGroupsWithANDOperator() {
         if (combineGroupsWithANDOperatorBuilder_ == null) {
@@ -7033,7 +7033,7 @@ public final class OmCreateSimpleCampItemCondAd {
         }
       }
       /**
-       * <code>optional .dstore.values.BooleanValue combine_groups_with_a_n_d_operator = 26;</code>
+       * <code>.dstore.values.BooleanValue combine_groups_with_a_n_d_operator = 26;</code>
        */
       public Builder setCombineGroupsWithANDOperator(io.dstore.values.BooleanValue value) {
         if (combineGroupsWithANDOperatorBuilder_ == null) {
@@ -7049,7 +7049,7 @@ public final class OmCreateSimpleCampItemCondAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.BooleanValue combine_groups_with_a_n_d_operator = 26;</code>
+       * <code>.dstore.values.BooleanValue combine_groups_with_a_n_d_operator = 26;</code>
        */
       public Builder setCombineGroupsWithANDOperator(
           io.dstore.values.BooleanValue.Builder builderForValue) {
@@ -7063,7 +7063,7 @@ public final class OmCreateSimpleCampItemCondAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.BooleanValue combine_groups_with_a_n_d_operator = 26;</code>
+       * <code>.dstore.values.BooleanValue combine_groups_with_a_n_d_operator = 26;</code>
        */
       public Builder mergeCombineGroupsWithANDOperator(io.dstore.values.BooleanValue value) {
         if (combineGroupsWithANDOperatorBuilder_ == null) {
@@ -7081,7 +7081,7 @@ public final class OmCreateSimpleCampItemCondAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.BooleanValue combine_groups_with_a_n_d_operator = 26;</code>
+       * <code>.dstore.values.BooleanValue combine_groups_with_a_n_d_operator = 26;</code>
        */
       public Builder clearCombineGroupsWithANDOperator() {
         if (combineGroupsWithANDOperatorBuilder_ == null) {
@@ -7095,7 +7095,7 @@ public final class OmCreateSimpleCampItemCondAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.BooleanValue combine_groups_with_a_n_d_operator = 26;</code>
+       * <code>.dstore.values.BooleanValue combine_groups_with_a_n_d_operator = 26;</code>
        */
       public io.dstore.values.BooleanValue.Builder getCombineGroupsWithANDOperatorBuilder() {
         
@@ -7103,7 +7103,7 @@ public final class OmCreateSimpleCampItemCondAd {
         return getCombineGroupsWithANDOperatorFieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .dstore.values.BooleanValue combine_groups_with_a_n_d_operator = 26;</code>
+       * <code>.dstore.values.BooleanValue combine_groups_with_a_n_d_operator = 26;</code>
        */
       public io.dstore.values.BooleanValueOrBuilder getCombineGroupsWithANDOperatorOrBuilder() {
         if (combineGroupsWithANDOperatorBuilder_ != null) {
@@ -7114,7 +7114,7 @@ public final class OmCreateSimpleCampItemCondAd {
         }
       }
       /**
-       * <code>optional .dstore.values.BooleanValue combine_groups_with_a_n_d_operator = 26;</code>
+       * <code>.dstore.values.BooleanValue combine_groups_with_a_n_d_operator = 26;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.values.BooleanValue, io.dstore.values.BooleanValue.Builder, io.dstore.values.BooleanValueOrBuilder> 
@@ -7132,13 +7132,13 @@ public final class OmCreateSimpleCampItemCondAd {
 
       private boolean combineGroupsWithANDOperatorNull_ ;
       /**
-       * <code>optional bool combine_groups_with_a_n_d_operator_null = 1026;</code>
+       * <code>bool combine_groups_with_a_n_d_operator_null = 1026;</code>
        */
       public boolean getCombineGroupsWithANDOperatorNull() {
         return combineGroupsWithANDOperatorNull_;
       }
       /**
-       * <code>optional bool combine_groups_with_a_n_d_operator_null = 1026;</code>
+       * <code>bool combine_groups_with_a_n_d_operator_null = 1026;</code>
        */
       public Builder setCombineGroupsWithANDOperatorNull(boolean value) {
         
@@ -7147,7 +7147,7 @@ public final class OmCreateSimpleCampItemCondAd {
         return this;
       }
       /**
-       * <code>optional bool combine_groups_with_a_n_d_operator_null = 1026;</code>
+       * <code>bool combine_groups_with_a_n_d_operator_null = 1026;</code>
        */
       public Builder clearCombineGroupsWithANDOperatorNull() {
         
@@ -7160,13 +7160,13 @@ public final class OmCreateSimpleCampItemCondAd {
       private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.values.BooleanValue, io.dstore.values.BooleanValue.Builder, io.dstore.values.BooleanValueOrBuilder> combinePartsWithANDOperatorBuilder_;
       /**
-       * <code>optional .dstore.values.BooleanValue combine_parts_with_a_n_d_operator = 27;</code>
+       * <code>.dstore.values.BooleanValue combine_parts_with_a_n_d_operator = 27;</code>
        */
       public boolean hasCombinePartsWithANDOperator() {
         return combinePartsWithANDOperatorBuilder_ != null || combinePartsWithANDOperator_ != null;
       }
       /**
-       * <code>optional .dstore.values.BooleanValue combine_parts_with_a_n_d_operator = 27;</code>
+       * <code>.dstore.values.BooleanValue combine_parts_with_a_n_d_operator = 27;</code>
        */
       public io.dstore.values.BooleanValue getCombinePartsWithANDOperator() {
         if (combinePartsWithANDOperatorBuilder_ == null) {
@@ -7176,7 +7176,7 @@ public final class OmCreateSimpleCampItemCondAd {
         }
       }
       /**
-       * <code>optional .dstore.values.BooleanValue combine_parts_with_a_n_d_operator = 27;</code>
+       * <code>.dstore.values.BooleanValue combine_parts_with_a_n_d_operator = 27;</code>
        */
       public Builder setCombinePartsWithANDOperator(io.dstore.values.BooleanValue value) {
         if (combinePartsWithANDOperatorBuilder_ == null) {
@@ -7192,7 +7192,7 @@ public final class OmCreateSimpleCampItemCondAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.BooleanValue combine_parts_with_a_n_d_operator = 27;</code>
+       * <code>.dstore.values.BooleanValue combine_parts_with_a_n_d_operator = 27;</code>
        */
       public Builder setCombinePartsWithANDOperator(
           io.dstore.values.BooleanValue.Builder builderForValue) {
@@ -7206,7 +7206,7 @@ public final class OmCreateSimpleCampItemCondAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.BooleanValue combine_parts_with_a_n_d_operator = 27;</code>
+       * <code>.dstore.values.BooleanValue combine_parts_with_a_n_d_operator = 27;</code>
        */
       public Builder mergeCombinePartsWithANDOperator(io.dstore.values.BooleanValue value) {
         if (combinePartsWithANDOperatorBuilder_ == null) {
@@ -7224,7 +7224,7 @@ public final class OmCreateSimpleCampItemCondAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.BooleanValue combine_parts_with_a_n_d_operator = 27;</code>
+       * <code>.dstore.values.BooleanValue combine_parts_with_a_n_d_operator = 27;</code>
        */
       public Builder clearCombinePartsWithANDOperator() {
         if (combinePartsWithANDOperatorBuilder_ == null) {
@@ -7238,7 +7238,7 @@ public final class OmCreateSimpleCampItemCondAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.BooleanValue combine_parts_with_a_n_d_operator = 27;</code>
+       * <code>.dstore.values.BooleanValue combine_parts_with_a_n_d_operator = 27;</code>
        */
       public io.dstore.values.BooleanValue.Builder getCombinePartsWithANDOperatorBuilder() {
         
@@ -7246,7 +7246,7 @@ public final class OmCreateSimpleCampItemCondAd {
         return getCombinePartsWithANDOperatorFieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .dstore.values.BooleanValue combine_parts_with_a_n_d_operator = 27;</code>
+       * <code>.dstore.values.BooleanValue combine_parts_with_a_n_d_operator = 27;</code>
        */
       public io.dstore.values.BooleanValueOrBuilder getCombinePartsWithANDOperatorOrBuilder() {
         if (combinePartsWithANDOperatorBuilder_ != null) {
@@ -7257,7 +7257,7 @@ public final class OmCreateSimpleCampItemCondAd {
         }
       }
       /**
-       * <code>optional .dstore.values.BooleanValue combine_parts_with_a_n_d_operator = 27;</code>
+       * <code>.dstore.values.BooleanValue combine_parts_with_a_n_d_operator = 27;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.values.BooleanValue, io.dstore.values.BooleanValue.Builder, io.dstore.values.BooleanValueOrBuilder> 
@@ -7275,13 +7275,13 @@ public final class OmCreateSimpleCampItemCondAd {
 
       private boolean combinePartsWithANDOperatorNull_ ;
       /**
-       * <code>optional bool combine_parts_with_a_n_d_operator_null = 1027;</code>
+       * <code>bool combine_parts_with_a_n_d_operator_null = 1027;</code>
        */
       public boolean getCombinePartsWithANDOperatorNull() {
         return combinePartsWithANDOperatorNull_;
       }
       /**
-       * <code>optional bool combine_parts_with_a_n_d_operator_null = 1027;</code>
+       * <code>bool combine_parts_with_a_n_d_operator_null = 1027;</code>
        */
       public Builder setCombinePartsWithANDOperatorNull(boolean value) {
         
@@ -7290,7 +7290,7 @@ public final class OmCreateSimpleCampItemCondAd {
         return this;
       }
       /**
-       * <code>optional bool combine_parts_with_a_n_d_operator_null = 1027;</code>
+       * <code>bool combine_parts_with_a_n_d_operator_null = 1027;</code>
        */
       public Builder clearCombinePartsWithANDOperatorNull() {
         
@@ -7424,54 +7424,54 @@ public final class OmCreateSimpleCampItemCondAd {
         int index);
 
     /**
-     * <code>optional .dstore.values.IntegerValue condition_id = 101;</code>
+     * <code>.dstore.values.IntegerValue condition_id = 101;</code>
      */
     boolean hasConditionId();
     /**
-     * <code>optional .dstore.values.IntegerValue condition_id = 101;</code>
+     * <code>.dstore.values.IntegerValue condition_id = 101;</code>
      */
     io.dstore.values.IntegerValue getConditionId();
     /**
-     * <code>optional .dstore.values.IntegerValue condition_id = 101;</code>
+     * <code>.dstore.values.IntegerValue condition_id = 101;</code>
      */
     io.dstore.values.IntegerValueOrBuilder getConditionIdOrBuilder();
 
     /**
-     * <code>optional .dstore.values.IntegerValue item_condition_id = 102;</code>
+     * <code>.dstore.values.IntegerValue item_condition_id = 102;</code>
      */
     boolean hasItemConditionId();
     /**
-     * <code>optional .dstore.values.IntegerValue item_condition_id = 102;</code>
+     * <code>.dstore.values.IntegerValue item_condition_id = 102;</code>
      */
     io.dstore.values.IntegerValue getItemConditionId();
     /**
-     * <code>optional .dstore.values.IntegerValue item_condition_id = 102;</code>
+     * <code>.dstore.values.IntegerValue item_condition_id = 102;</code>
      */
     io.dstore.values.IntegerValueOrBuilder getItemConditionIdOrBuilder();
 
     /**
-     * <code>optional .dstore.values.IntegerValue item_condition_group_id = 103;</code>
+     * <code>.dstore.values.IntegerValue item_condition_group_id = 103;</code>
      */
     boolean hasItemConditionGroupId();
     /**
-     * <code>optional .dstore.values.IntegerValue item_condition_group_id = 103;</code>
+     * <code>.dstore.values.IntegerValue item_condition_group_id = 103;</code>
      */
     io.dstore.values.IntegerValue getItemConditionGroupId();
     /**
-     * <code>optional .dstore.values.IntegerValue item_condition_group_id = 103;</code>
+     * <code>.dstore.values.IntegerValue item_condition_group_id = 103;</code>
      */
     io.dstore.values.IntegerValueOrBuilder getItemConditionGroupIdOrBuilder();
 
     /**
-     * <code>optional .dstore.values.IntegerValue item_condition_part_id = 104;</code>
+     * <code>.dstore.values.IntegerValue item_condition_part_id = 104;</code>
      */
     boolean hasItemConditionPartId();
     /**
-     * <code>optional .dstore.values.IntegerValue item_condition_part_id = 104;</code>
+     * <code>.dstore.values.IntegerValue item_condition_part_id = 104;</code>
      */
     io.dstore.values.IntegerValue getItemConditionPartId();
     /**
-     * <code>optional .dstore.values.IntegerValue item_condition_part_id = 104;</code>
+     * <code>.dstore.values.IntegerValue item_condition_part_id = 104;</code>
      */
     io.dstore.values.IntegerValueOrBuilder getItemConditionPartIdOrBuilder();
   }
@@ -7633,7 +7633,7 @@ public final class OmCreateSimpleCampItemCondAd {
         com.google.protobuf.MessageOrBuilder {
 
       /**
-       * <code>optional int32 row_id = 10000;</code>
+       * <code>int32 row_id = 10000;</code>
        */
       int getRowId();
     }
@@ -7708,7 +7708,7 @@ public final class OmCreateSimpleCampItemCondAd {
       public static final int ROW_ID_FIELD_NUMBER = 10000;
       private int rowId_;
       /**
-       * <code>optional int32 row_id = 10000;</code>
+       * <code>int32 row_id = 10000;</code>
        */
       public int getRowId() {
         return rowId_;
@@ -7767,7 +7767,7 @@ public final class OmCreateSimpleCampItemCondAd {
           return memoizedHashCode;
         }
         int hash = 41;
-        hash = (19 * hash) + getDescriptorForType().hashCode();
+        hash = (19 * hash) + getDescriptor().hashCode();
         hash = (37 * hash) + ROW_ID_FIELD_NUMBER;
         hash = (53 * hash) + getRowId();
         hash = (29 * hash) + unknownFields.hashCode();
@@ -7985,13 +7985,13 @@ public final class OmCreateSimpleCampItemCondAd {
 
         private int rowId_ ;
         /**
-         * <code>optional int32 row_id = 10000;</code>
+         * <code>int32 row_id = 10000;</code>
          */
         public int getRowId() {
           return rowId_;
         }
         /**
-         * <code>optional int32 row_id = 10000;</code>
+         * <code>int32 row_id = 10000;</code>
          */
         public Builder setRowId(int value) {
           
@@ -8000,7 +8000,7 @@ public final class OmCreateSimpleCampItemCondAd {
           return this;
         }
         /**
-         * <code>optional int32 row_id = 10000;</code>
+         * <code>int32 row_id = 10000;</code>
          */
         public Builder clearRowId() {
           
@@ -8166,19 +8166,19 @@ public final class OmCreateSimpleCampItemCondAd {
     public static final int CONDITION_ID_FIELD_NUMBER = 101;
     private io.dstore.values.IntegerValue conditionId_;
     /**
-     * <code>optional .dstore.values.IntegerValue condition_id = 101;</code>
+     * <code>.dstore.values.IntegerValue condition_id = 101;</code>
      */
     public boolean hasConditionId() {
       return conditionId_ != null;
     }
     /**
-     * <code>optional .dstore.values.IntegerValue condition_id = 101;</code>
+     * <code>.dstore.values.IntegerValue condition_id = 101;</code>
      */
     public io.dstore.values.IntegerValue getConditionId() {
       return conditionId_ == null ? io.dstore.values.IntegerValue.getDefaultInstance() : conditionId_;
     }
     /**
-     * <code>optional .dstore.values.IntegerValue condition_id = 101;</code>
+     * <code>.dstore.values.IntegerValue condition_id = 101;</code>
      */
     public io.dstore.values.IntegerValueOrBuilder getConditionIdOrBuilder() {
       return getConditionId();
@@ -8187,19 +8187,19 @@ public final class OmCreateSimpleCampItemCondAd {
     public static final int ITEM_CONDITION_ID_FIELD_NUMBER = 102;
     private io.dstore.values.IntegerValue itemConditionId_;
     /**
-     * <code>optional .dstore.values.IntegerValue item_condition_id = 102;</code>
+     * <code>.dstore.values.IntegerValue item_condition_id = 102;</code>
      */
     public boolean hasItemConditionId() {
       return itemConditionId_ != null;
     }
     /**
-     * <code>optional .dstore.values.IntegerValue item_condition_id = 102;</code>
+     * <code>.dstore.values.IntegerValue item_condition_id = 102;</code>
      */
     public io.dstore.values.IntegerValue getItemConditionId() {
       return itemConditionId_ == null ? io.dstore.values.IntegerValue.getDefaultInstance() : itemConditionId_;
     }
     /**
-     * <code>optional .dstore.values.IntegerValue item_condition_id = 102;</code>
+     * <code>.dstore.values.IntegerValue item_condition_id = 102;</code>
      */
     public io.dstore.values.IntegerValueOrBuilder getItemConditionIdOrBuilder() {
       return getItemConditionId();
@@ -8208,19 +8208,19 @@ public final class OmCreateSimpleCampItemCondAd {
     public static final int ITEM_CONDITION_GROUP_ID_FIELD_NUMBER = 103;
     private io.dstore.values.IntegerValue itemConditionGroupId_;
     /**
-     * <code>optional .dstore.values.IntegerValue item_condition_group_id = 103;</code>
+     * <code>.dstore.values.IntegerValue item_condition_group_id = 103;</code>
      */
     public boolean hasItemConditionGroupId() {
       return itemConditionGroupId_ != null;
     }
     /**
-     * <code>optional .dstore.values.IntegerValue item_condition_group_id = 103;</code>
+     * <code>.dstore.values.IntegerValue item_condition_group_id = 103;</code>
      */
     public io.dstore.values.IntegerValue getItemConditionGroupId() {
       return itemConditionGroupId_ == null ? io.dstore.values.IntegerValue.getDefaultInstance() : itemConditionGroupId_;
     }
     /**
-     * <code>optional .dstore.values.IntegerValue item_condition_group_id = 103;</code>
+     * <code>.dstore.values.IntegerValue item_condition_group_id = 103;</code>
      */
     public io.dstore.values.IntegerValueOrBuilder getItemConditionGroupIdOrBuilder() {
       return getItemConditionGroupId();
@@ -8229,19 +8229,19 @@ public final class OmCreateSimpleCampItemCondAd {
     public static final int ITEM_CONDITION_PART_ID_FIELD_NUMBER = 104;
     private io.dstore.values.IntegerValue itemConditionPartId_;
     /**
-     * <code>optional .dstore.values.IntegerValue item_condition_part_id = 104;</code>
+     * <code>.dstore.values.IntegerValue item_condition_part_id = 104;</code>
      */
     public boolean hasItemConditionPartId() {
       return itemConditionPartId_ != null;
     }
     /**
-     * <code>optional .dstore.values.IntegerValue item_condition_part_id = 104;</code>
+     * <code>.dstore.values.IntegerValue item_condition_part_id = 104;</code>
      */
     public io.dstore.values.IntegerValue getItemConditionPartId() {
       return itemConditionPartId_ == null ? io.dstore.values.IntegerValue.getDefaultInstance() : itemConditionPartId_;
     }
     /**
-     * <code>optional .dstore.values.IntegerValue item_condition_part_id = 104;</code>
+     * <code>.dstore.values.IntegerValue item_condition_part_id = 104;</code>
      */
     public io.dstore.values.IntegerValueOrBuilder getItemConditionPartIdOrBuilder() {
       return getItemConditionPartId();
@@ -8366,7 +8366,7 @@ public final class OmCreateSimpleCampItemCondAd {
         return memoizedHashCode;
       }
       int hash = 41;
-      hash = (19 * hash) + getDescriptorForType().hashCode();
+      hash = (19 * hash) + getDescriptor().hashCode();
       if (getMetaInformationCount() > 0) {
         hash = (37 * hash) + META_INFORMATION_FIELD_NUMBER;
         hash = (53 * hash) + getMetaInformationList().hashCode();
@@ -9512,13 +9512,13 @@ public final class OmCreateSimpleCampItemCondAd {
       private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> conditionIdBuilder_;
       /**
-       * <code>optional .dstore.values.IntegerValue condition_id = 101;</code>
+       * <code>.dstore.values.IntegerValue condition_id = 101;</code>
        */
       public boolean hasConditionId() {
         return conditionIdBuilder_ != null || conditionId_ != null;
       }
       /**
-       * <code>optional .dstore.values.IntegerValue condition_id = 101;</code>
+       * <code>.dstore.values.IntegerValue condition_id = 101;</code>
        */
       public io.dstore.values.IntegerValue getConditionId() {
         if (conditionIdBuilder_ == null) {
@@ -9528,7 +9528,7 @@ public final class OmCreateSimpleCampItemCondAd {
         }
       }
       /**
-       * <code>optional .dstore.values.IntegerValue condition_id = 101;</code>
+       * <code>.dstore.values.IntegerValue condition_id = 101;</code>
        */
       public Builder setConditionId(io.dstore.values.IntegerValue value) {
         if (conditionIdBuilder_ == null) {
@@ -9544,7 +9544,7 @@ public final class OmCreateSimpleCampItemCondAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.IntegerValue condition_id = 101;</code>
+       * <code>.dstore.values.IntegerValue condition_id = 101;</code>
        */
       public Builder setConditionId(
           io.dstore.values.IntegerValue.Builder builderForValue) {
@@ -9558,7 +9558,7 @@ public final class OmCreateSimpleCampItemCondAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.IntegerValue condition_id = 101;</code>
+       * <code>.dstore.values.IntegerValue condition_id = 101;</code>
        */
       public Builder mergeConditionId(io.dstore.values.IntegerValue value) {
         if (conditionIdBuilder_ == null) {
@@ -9576,7 +9576,7 @@ public final class OmCreateSimpleCampItemCondAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.IntegerValue condition_id = 101;</code>
+       * <code>.dstore.values.IntegerValue condition_id = 101;</code>
        */
       public Builder clearConditionId() {
         if (conditionIdBuilder_ == null) {
@@ -9590,7 +9590,7 @@ public final class OmCreateSimpleCampItemCondAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.IntegerValue condition_id = 101;</code>
+       * <code>.dstore.values.IntegerValue condition_id = 101;</code>
        */
       public io.dstore.values.IntegerValue.Builder getConditionIdBuilder() {
         
@@ -9598,7 +9598,7 @@ public final class OmCreateSimpleCampItemCondAd {
         return getConditionIdFieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .dstore.values.IntegerValue condition_id = 101;</code>
+       * <code>.dstore.values.IntegerValue condition_id = 101;</code>
        */
       public io.dstore.values.IntegerValueOrBuilder getConditionIdOrBuilder() {
         if (conditionIdBuilder_ != null) {
@@ -9609,7 +9609,7 @@ public final class OmCreateSimpleCampItemCondAd {
         }
       }
       /**
-       * <code>optional .dstore.values.IntegerValue condition_id = 101;</code>
+       * <code>.dstore.values.IntegerValue condition_id = 101;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> 
@@ -9629,13 +9629,13 @@ public final class OmCreateSimpleCampItemCondAd {
       private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> itemConditionIdBuilder_;
       /**
-       * <code>optional .dstore.values.IntegerValue item_condition_id = 102;</code>
+       * <code>.dstore.values.IntegerValue item_condition_id = 102;</code>
        */
       public boolean hasItemConditionId() {
         return itemConditionIdBuilder_ != null || itemConditionId_ != null;
       }
       /**
-       * <code>optional .dstore.values.IntegerValue item_condition_id = 102;</code>
+       * <code>.dstore.values.IntegerValue item_condition_id = 102;</code>
        */
       public io.dstore.values.IntegerValue getItemConditionId() {
         if (itemConditionIdBuilder_ == null) {
@@ -9645,7 +9645,7 @@ public final class OmCreateSimpleCampItemCondAd {
         }
       }
       /**
-       * <code>optional .dstore.values.IntegerValue item_condition_id = 102;</code>
+       * <code>.dstore.values.IntegerValue item_condition_id = 102;</code>
        */
       public Builder setItemConditionId(io.dstore.values.IntegerValue value) {
         if (itemConditionIdBuilder_ == null) {
@@ -9661,7 +9661,7 @@ public final class OmCreateSimpleCampItemCondAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.IntegerValue item_condition_id = 102;</code>
+       * <code>.dstore.values.IntegerValue item_condition_id = 102;</code>
        */
       public Builder setItemConditionId(
           io.dstore.values.IntegerValue.Builder builderForValue) {
@@ -9675,7 +9675,7 @@ public final class OmCreateSimpleCampItemCondAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.IntegerValue item_condition_id = 102;</code>
+       * <code>.dstore.values.IntegerValue item_condition_id = 102;</code>
        */
       public Builder mergeItemConditionId(io.dstore.values.IntegerValue value) {
         if (itemConditionIdBuilder_ == null) {
@@ -9693,7 +9693,7 @@ public final class OmCreateSimpleCampItemCondAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.IntegerValue item_condition_id = 102;</code>
+       * <code>.dstore.values.IntegerValue item_condition_id = 102;</code>
        */
       public Builder clearItemConditionId() {
         if (itemConditionIdBuilder_ == null) {
@@ -9707,7 +9707,7 @@ public final class OmCreateSimpleCampItemCondAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.IntegerValue item_condition_id = 102;</code>
+       * <code>.dstore.values.IntegerValue item_condition_id = 102;</code>
        */
       public io.dstore.values.IntegerValue.Builder getItemConditionIdBuilder() {
         
@@ -9715,7 +9715,7 @@ public final class OmCreateSimpleCampItemCondAd {
         return getItemConditionIdFieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .dstore.values.IntegerValue item_condition_id = 102;</code>
+       * <code>.dstore.values.IntegerValue item_condition_id = 102;</code>
        */
       public io.dstore.values.IntegerValueOrBuilder getItemConditionIdOrBuilder() {
         if (itemConditionIdBuilder_ != null) {
@@ -9726,7 +9726,7 @@ public final class OmCreateSimpleCampItemCondAd {
         }
       }
       /**
-       * <code>optional .dstore.values.IntegerValue item_condition_id = 102;</code>
+       * <code>.dstore.values.IntegerValue item_condition_id = 102;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> 
@@ -9746,13 +9746,13 @@ public final class OmCreateSimpleCampItemCondAd {
       private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> itemConditionGroupIdBuilder_;
       /**
-       * <code>optional .dstore.values.IntegerValue item_condition_group_id = 103;</code>
+       * <code>.dstore.values.IntegerValue item_condition_group_id = 103;</code>
        */
       public boolean hasItemConditionGroupId() {
         return itemConditionGroupIdBuilder_ != null || itemConditionGroupId_ != null;
       }
       /**
-       * <code>optional .dstore.values.IntegerValue item_condition_group_id = 103;</code>
+       * <code>.dstore.values.IntegerValue item_condition_group_id = 103;</code>
        */
       public io.dstore.values.IntegerValue getItemConditionGroupId() {
         if (itemConditionGroupIdBuilder_ == null) {
@@ -9762,7 +9762,7 @@ public final class OmCreateSimpleCampItemCondAd {
         }
       }
       /**
-       * <code>optional .dstore.values.IntegerValue item_condition_group_id = 103;</code>
+       * <code>.dstore.values.IntegerValue item_condition_group_id = 103;</code>
        */
       public Builder setItemConditionGroupId(io.dstore.values.IntegerValue value) {
         if (itemConditionGroupIdBuilder_ == null) {
@@ -9778,7 +9778,7 @@ public final class OmCreateSimpleCampItemCondAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.IntegerValue item_condition_group_id = 103;</code>
+       * <code>.dstore.values.IntegerValue item_condition_group_id = 103;</code>
        */
       public Builder setItemConditionGroupId(
           io.dstore.values.IntegerValue.Builder builderForValue) {
@@ -9792,7 +9792,7 @@ public final class OmCreateSimpleCampItemCondAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.IntegerValue item_condition_group_id = 103;</code>
+       * <code>.dstore.values.IntegerValue item_condition_group_id = 103;</code>
        */
       public Builder mergeItemConditionGroupId(io.dstore.values.IntegerValue value) {
         if (itemConditionGroupIdBuilder_ == null) {
@@ -9810,7 +9810,7 @@ public final class OmCreateSimpleCampItemCondAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.IntegerValue item_condition_group_id = 103;</code>
+       * <code>.dstore.values.IntegerValue item_condition_group_id = 103;</code>
        */
       public Builder clearItemConditionGroupId() {
         if (itemConditionGroupIdBuilder_ == null) {
@@ -9824,7 +9824,7 @@ public final class OmCreateSimpleCampItemCondAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.IntegerValue item_condition_group_id = 103;</code>
+       * <code>.dstore.values.IntegerValue item_condition_group_id = 103;</code>
        */
       public io.dstore.values.IntegerValue.Builder getItemConditionGroupIdBuilder() {
         
@@ -9832,7 +9832,7 @@ public final class OmCreateSimpleCampItemCondAd {
         return getItemConditionGroupIdFieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .dstore.values.IntegerValue item_condition_group_id = 103;</code>
+       * <code>.dstore.values.IntegerValue item_condition_group_id = 103;</code>
        */
       public io.dstore.values.IntegerValueOrBuilder getItemConditionGroupIdOrBuilder() {
         if (itemConditionGroupIdBuilder_ != null) {
@@ -9843,7 +9843,7 @@ public final class OmCreateSimpleCampItemCondAd {
         }
       }
       /**
-       * <code>optional .dstore.values.IntegerValue item_condition_group_id = 103;</code>
+       * <code>.dstore.values.IntegerValue item_condition_group_id = 103;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> 
@@ -9863,13 +9863,13 @@ public final class OmCreateSimpleCampItemCondAd {
       private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> itemConditionPartIdBuilder_;
       /**
-       * <code>optional .dstore.values.IntegerValue item_condition_part_id = 104;</code>
+       * <code>.dstore.values.IntegerValue item_condition_part_id = 104;</code>
        */
       public boolean hasItemConditionPartId() {
         return itemConditionPartIdBuilder_ != null || itemConditionPartId_ != null;
       }
       /**
-       * <code>optional .dstore.values.IntegerValue item_condition_part_id = 104;</code>
+       * <code>.dstore.values.IntegerValue item_condition_part_id = 104;</code>
        */
       public io.dstore.values.IntegerValue getItemConditionPartId() {
         if (itemConditionPartIdBuilder_ == null) {
@@ -9879,7 +9879,7 @@ public final class OmCreateSimpleCampItemCondAd {
         }
       }
       /**
-       * <code>optional .dstore.values.IntegerValue item_condition_part_id = 104;</code>
+       * <code>.dstore.values.IntegerValue item_condition_part_id = 104;</code>
        */
       public Builder setItemConditionPartId(io.dstore.values.IntegerValue value) {
         if (itemConditionPartIdBuilder_ == null) {
@@ -9895,7 +9895,7 @@ public final class OmCreateSimpleCampItemCondAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.IntegerValue item_condition_part_id = 104;</code>
+       * <code>.dstore.values.IntegerValue item_condition_part_id = 104;</code>
        */
       public Builder setItemConditionPartId(
           io.dstore.values.IntegerValue.Builder builderForValue) {
@@ -9909,7 +9909,7 @@ public final class OmCreateSimpleCampItemCondAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.IntegerValue item_condition_part_id = 104;</code>
+       * <code>.dstore.values.IntegerValue item_condition_part_id = 104;</code>
        */
       public Builder mergeItemConditionPartId(io.dstore.values.IntegerValue value) {
         if (itemConditionPartIdBuilder_ == null) {
@@ -9927,7 +9927,7 @@ public final class OmCreateSimpleCampItemCondAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.IntegerValue item_condition_part_id = 104;</code>
+       * <code>.dstore.values.IntegerValue item_condition_part_id = 104;</code>
        */
       public Builder clearItemConditionPartId() {
         if (itemConditionPartIdBuilder_ == null) {
@@ -9941,7 +9941,7 @@ public final class OmCreateSimpleCampItemCondAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.IntegerValue item_condition_part_id = 104;</code>
+       * <code>.dstore.values.IntegerValue item_condition_part_id = 104;</code>
        */
       public io.dstore.values.IntegerValue.Builder getItemConditionPartIdBuilder() {
         
@@ -9949,7 +9949,7 @@ public final class OmCreateSimpleCampItemCondAd {
         return getItemConditionPartIdFieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .dstore.values.IntegerValue item_condition_part_id = 104;</code>
+       * <code>.dstore.values.IntegerValue item_condition_part_id = 104;</code>
        */
       public io.dstore.values.IntegerValueOrBuilder getItemConditionPartIdOrBuilder() {
         if (itemConditionPartIdBuilder_ != null) {
@@ -9960,7 +9960,7 @@ public final class OmCreateSimpleCampItemCondAd {
         }
       }
       /**
-       * <code>optional .dstore.values.IntegerValue item_condition_part_id = 104;</code>
+       * <code>.dstore.values.IntegerValue item_condition_part_id = 104;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> 

@@ -19,236 +19,236 @@ public final class FoCopyPostingPu {
       com.google.protobuf.MessageOrBuilder {
 
     /**
-     * <code>optional .dstore.values.StringValue person_identification_values = 1;</code>
+     * <code>.dstore.values.StringValue person_identification_values = 1;</code>
      */
     boolean hasPersonIdentificationValues();
     /**
-     * <code>optional .dstore.values.StringValue person_identification_values = 1;</code>
+     * <code>.dstore.values.StringValue person_identification_values = 1;</code>
      */
     io.dstore.values.StringValue getPersonIdentificationValues();
     /**
-     * <code>optional .dstore.values.StringValue person_identification_values = 1;</code>
+     * <code>.dstore.values.StringValue person_identification_values = 1;</code>
      */
     io.dstore.values.StringValueOrBuilder getPersonIdentificationValuesOrBuilder();
 
     /**
-     * <code>optional bool person_identification_values_null = 1001;</code>
+     * <code>bool person_identification_values_null = 1001;</code>
      */
     boolean getPersonIdentificationValuesNull();
 
     /**
-     * <code>optional .dstore.values.IntegerValue person_type_id = 2;</code>
+     * <code>.dstore.values.IntegerValue person_type_id = 2;</code>
      */
     boolean hasPersonTypeId();
     /**
-     * <code>optional .dstore.values.IntegerValue person_type_id = 2;</code>
+     * <code>.dstore.values.IntegerValue person_type_id = 2;</code>
      */
     io.dstore.values.IntegerValue getPersonTypeId();
     /**
-     * <code>optional .dstore.values.IntegerValue person_type_id = 2;</code>
+     * <code>.dstore.values.IntegerValue person_type_id = 2;</code>
      */
     io.dstore.values.IntegerValueOrBuilder getPersonTypeIdOrBuilder();
 
     /**
-     * <code>optional bool person_type_id_null = 1002;</code>
+     * <code>bool person_type_id_null = 1002;</code>
      */
     boolean getPersonTypeIdNull();
 
     /**
-     * <code>optional .dstore.values.StringValue unique_id = 3;</code>
+     * <code>.dstore.values.StringValue unique_id = 3;</code>
      */
     boolean hasUniqueId();
     /**
-     * <code>optional .dstore.values.StringValue unique_id = 3;</code>
+     * <code>.dstore.values.StringValue unique_id = 3;</code>
      */
     io.dstore.values.StringValue getUniqueId();
     /**
-     * <code>optional .dstore.values.StringValue unique_id = 3;</code>
+     * <code>.dstore.values.StringValue unique_id = 3;</code>
      */
     io.dstore.values.StringValueOrBuilder getUniqueIdOrBuilder();
 
     /**
-     * <code>optional bool unique_id_null = 1003;</code>
+     * <code>bool unique_id_null = 1003;</code>
      */
     boolean getUniqueIdNull();
 
     /**
-     * <code>optional .dstore.values.IntegerValue posting_id = 4;</code>
+     * <code>.dstore.values.IntegerValue posting_id = 4;</code>
      */
     boolean hasPostingId();
     /**
-     * <code>optional .dstore.values.IntegerValue posting_id = 4;</code>
+     * <code>.dstore.values.IntegerValue posting_id = 4;</code>
      */
     io.dstore.values.IntegerValue getPostingId();
     /**
-     * <code>optional .dstore.values.IntegerValue posting_id = 4;</code>
+     * <code>.dstore.values.IntegerValue posting_id = 4;</code>
      */
     io.dstore.values.IntegerValueOrBuilder getPostingIdOrBuilder();
 
     /**
-     * <code>optional bool posting_id_null = 1004;</code>
+     * <code>bool posting_id_null = 1004;</code>
      */
     boolean getPostingIdNull();
 
     /**
-     * <code>optional .dstore.values.IntegerValue target_forum_id = 5;</code>
+     * <code>.dstore.values.IntegerValue target_forum_id = 5;</code>
      */
     boolean hasTargetForumId();
     /**
-     * <code>optional .dstore.values.IntegerValue target_forum_id = 5;</code>
+     * <code>.dstore.values.IntegerValue target_forum_id = 5;</code>
      */
     io.dstore.values.IntegerValue getTargetForumId();
     /**
-     * <code>optional .dstore.values.IntegerValue target_forum_id = 5;</code>
+     * <code>.dstore.values.IntegerValue target_forum_id = 5;</code>
      */
     io.dstore.values.IntegerValueOrBuilder getTargetForumIdOrBuilder();
 
     /**
-     * <code>optional bool target_forum_id_null = 1005;</code>
+     * <code>bool target_forum_id_null = 1005;</code>
      */
     boolean getTargetForumIdNull();
 
     /**
-     * <code>optional .dstore.values.IntegerValue target_posting_id = 6;</code>
+     * <code>.dstore.values.IntegerValue target_posting_id = 6;</code>
      */
     boolean hasTargetPostingId();
     /**
-     * <code>optional .dstore.values.IntegerValue target_posting_id = 6;</code>
+     * <code>.dstore.values.IntegerValue target_posting_id = 6;</code>
      */
     io.dstore.values.IntegerValue getTargetPostingId();
     /**
-     * <code>optional .dstore.values.IntegerValue target_posting_id = 6;</code>
+     * <code>.dstore.values.IntegerValue target_posting_id = 6;</code>
      */
     io.dstore.values.IntegerValueOrBuilder getTargetPostingIdOrBuilder();
 
     /**
-     * <code>optional bool target_posting_id_null = 1006;</code>
+     * <code>bool target_posting_id_null = 1006;</code>
      */
     boolean getTargetPostingIdNull();
 
     /**
-     * <code>optional .dstore.values.BooleanValue keep_author = 7;</code>
+     * <code>.dstore.values.BooleanValue keep_author = 7;</code>
      */
     boolean hasKeepAuthor();
     /**
-     * <code>optional .dstore.values.BooleanValue keep_author = 7;</code>
+     * <code>.dstore.values.BooleanValue keep_author = 7;</code>
      */
     io.dstore.values.BooleanValue getKeepAuthor();
     /**
-     * <code>optional .dstore.values.BooleanValue keep_author = 7;</code>
+     * <code>.dstore.values.BooleanValue keep_author = 7;</code>
      */
     io.dstore.values.BooleanValueOrBuilder getKeepAuthorOrBuilder();
 
     /**
-     * <code>optional bool keep_author_null = 1007;</code>
+     * <code>bool keep_author_null = 1007;</code>
      */
     boolean getKeepAuthorNull();
 
     /**
-     * <code>optional .dstore.values.IntegerValue include_replies = 8;</code>
+     * <code>.dstore.values.IntegerValue include_replies = 8;</code>
      */
     boolean hasIncludeReplies();
     /**
-     * <code>optional .dstore.values.IntegerValue include_replies = 8;</code>
+     * <code>.dstore.values.IntegerValue include_replies = 8;</code>
      */
     io.dstore.values.IntegerValue getIncludeReplies();
     /**
-     * <code>optional .dstore.values.IntegerValue include_replies = 8;</code>
+     * <code>.dstore.values.IntegerValue include_replies = 8;</code>
      */
     io.dstore.values.IntegerValueOrBuilder getIncludeRepliesOrBuilder();
 
     /**
-     * <code>optional bool include_replies_null = 1008;</code>
+     * <code>bool include_replies_null = 1008;</code>
      */
     boolean getIncludeRepliesNull();
 
     /**
-     * <code>optional .dstore.values.IntegerValue include_binaries = 9;</code>
+     * <code>.dstore.values.IntegerValue include_binaries = 9;</code>
      */
     boolean hasIncludeBinaries();
     /**
-     * <code>optional .dstore.values.IntegerValue include_binaries = 9;</code>
+     * <code>.dstore.values.IntegerValue include_binaries = 9;</code>
      */
     io.dstore.values.IntegerValue getIncludeBinaries();
     /**
-     * <code>optional .dstore.values.IntegerValue include_binaries = 9;</code>
+     * <code>.dstore.values.IntegerValue include_binaries = 9;</code>
      */
     io.dstore.values.IntegerValueOrBuilder getIncludeBinariesOrBuilder();
 
     /**
-     * <code>optional bool include_binaries_null = 1009;</code>
+     * <code>bool include_binaries_null = 1009;</code>
      */
     boolean getIncludeBinariesNull();
 
     /**
-     * <code>optional .dstore.values.IntegerValue include_properties = 10;</code>
+     * <code>.dstore.values.IntegerValue include_properties = 10;</code>
      */
     boolean hasIncludeProperties();
     /**
-     * <code>optional .dstore.values.IntegerValue include_properties = 10;</code>
+     * <code>.dstore.values.IntegerValue include_properties = 10;</code>
      */
     io.dstore.values.IntegerValue getIncludeProperties();
     /**
-     * <code>optional .dstore.values.IntegerValue include_properties = 10;</code>
+     * <code>.dstore.values.IntegerValue include_properties = 10;</code>
      */
     io.dstore.values.IntegerValueOrBuilder getIncludePropertiesOrBuilder();
 
     /**
-     * <code>optional bool include_properties_null = 1010;</code>
+     * <code>bool include_properties_null = 1010;</code>
      */
     boolean getIncludePropertiesNull();
 
     /**
-     * <code>optional .dstore.values.StringValue author = 11;</code>
+     * <code>.dstore.values.StringValue author = 11;</code>
      */
     boolean hasAuthor();
     /**
-     * <code>optional .dstore.values.StringValue author = 11;</code>
+     * <code>.dstore.values.StringValue author = 11;</code>
      */
     io.dstore.values.StringValue getAuthor();
     /**
-     * <code>optional .dstore.values.StringValue author = 11;</code>
+     * <code>.dstore.values.StringValue author = 11;</code>
      */
     io.dstore.values.StringValueOrBuilder getAuthorOrBuilder();
 
     /**
-     * <code>optional bool author_null = 1011;</code>
+     * <code>bool author_null = 1011;</code>
      */
     boolean getAuthorNull();
 
     /**
-     * <code>optional .dstore.values.StringValue e_mail_of_author = 12;</code>
+     * <code>.dstore.values.StringValue e_mail_of_author = 12;</code>
      */
     boolean hasEMailOfAuthor();
     /**
-     * <code>optional .dstore.values.StringValue e_mail_of_author = 12;</code>
+     * <code>.dstore.values.StringValue e_mail_of_author = 12;</code>
      */
     io.dstore.values.StringValue getEMailOfAuthor();
     /**
-     * <code>optional .dstore.values.StringValue e_mail_of_author = 12;</code>
+     * <code>.dstore.values.StringValue e_mail_of_author = 12;</code>
      */
     io.dstore.values.StringValueOrBuilder getEMailOfAuthorOrBuilder();
 
     /**
-     * <code>optional bool e_mail_of_author_null = 1012;</code>
+     * <code>bool e_mail_of_author_null = 1012;</code>
      */
     boolean getEMailOfAuthorNull();
 
     /**
-     * <code>optional .dstore.values.StringValue separator_in_ident_vals = 13;</code>
+     * <code>.dstore.values.StringValue separator_in_ident_vals = 13;</code>
      */
     boolean hasSeparatorInIdentVals();
     /**
-     * <code>optional .dstore.values.StringValue separator_in_ident_vals = 13;</code>
+     * <code>.dstore.values.StringValue separator_in_ident_vals = 13;</code>
      */
     io.dstore.values.StringValue getSeparatorInIdentVals();
     /**
-     * <code>optional .dstore.values.StringValue separator_in_ident_vals = 13;</code>
+     * <code>.dstore.values.StringValue separator_in_ident_vals = 13;</code>
      */
     io.dstore.values.StringValueOrBuilder getSeparatorInIdentValsOrBuilder();
 
     /**
-     * <code>optional bool separator_in_ident_vals_null = 1013;</code>
+     * <code>bool separator_in_ident_vals_null = 1013;</code>
      */
     boolean getSeparatorInIdentValsNull();
   }
@@ -564,19 +564,19 @@ public final class FoCopyPostingPu {
     public static final int PERSON_IDENTIFICATION_VALUES_FIELD_NUMBER = 1;
     private io.dstore.values.StringValue personIdentificationValues_;
     /**
-     * <code>optional .dstore.values.StringValue person_identification_values = 1;</code>
+     * <code>.dstore.values.StringValue person_identification_values = 1;</code>
      */
     public boolean hasPersonIdentificationValues() {
       return personIdentificationValues_ != null;
     }
     /**
-     * <code>optional .dstore.values.StringValue person_identification_values = 1;</code>
+     * <code>.dstore.values.StringValue person_identification_values = 1;</code>
      */
     public io.dstore.values.StringValue getPersonIdentificationValues() {
       return personIdentificationValues_ == null ? io.dstore.values.StringValue.getDefaultInstance() : personIdentificationValues_;
     }
     /**
-     * <code>optional .dstore.values.StringValue person_identification_values = 1;</code>
+     * <code>.dstore.values.StringValue person_identification_values = 1;</code>
      */
     public io.dstore.values.StringValueOrBuilder getPersonIdentificationValuesOrBuilder() {
       return getPersonIdentificationValues();
@@ -585,7 +585,7 @@ public final class FoCopyPostingPu {
     public static final int PERSON_IDENTIFICATION_VALUES_NULL_FIELD_NUMBER = 1001;
     private boolean personIdentificationValuesNull_;
     /**
-     * <code>optional bool person_identification_values_null = 1001;</code>
+     * <code>bool person_identification_values_null = 1001;</code>
      */
     public boolean getPersonIdentificationValuesNull() {
       return personIdentificationValuesNull_;
@@ -594,19 +594,19 @@ public final class FoCopyPostingPu {
     public static final int PERSON_TYPE_ID_FIELD_NUMBER = 2;
     private io.dstore.values.IntegerValue personTypeId_;
     /**
-     * <code>optional .dstore.values.IntegerValue person_type_id = 2;</code>
+     * <code>.dstore.values.IntegerValue person_type_id = 2;</code>
      */
     public boolean hasPersonTypeId() {
       return personTypeId_ != null;
     }
     /**
-     * <code>optional .dstore.values.IntegerValue person_type_id = 2;</code>
+     * <code>.dstore.values.IntegerValue person_type_id = 2;</code>
      */
     public io.dstore.values.IntegerValue getPersonTypeId() {
       return personTypeId_ == null ? io.dstore.values.IntegerValue.getDefaultInstance() : personTypeId_;
     }
     /**
-     * <code>optional .dstore.values.IntegerValue person_type_id = 2;</code>
+     * <code>.dstore.values.IntegerValue person_type_id = 2;</code>
      */
     public io.dstore.values.IntegerValueOrBuilder getPersonTypeIdOrBuilder() {
       return getPersonTypeId();
@@ -615,7 +615,7 @@ public final class FoCopyPostingPu {
     public static final int PERSON_TYPE_ID_NULL_FIELD_NUMBER = 1002;
     private boolean personTypeIdNull_;
     /**
-     * <code>optional bool person_type_id_null = 1002;</code>
+     * <code>bool person_type_id_null = 1002;</code>
      */
     public boolean getPersonTypeIdNull() {
       return personTypeIdNull_;
@@ -624,19 +624,19 @@ public final class FoCopyPostingPu {
     public static final int UNIQUE_ID_FIELD_NUMBER = 3;
     private io.dstore.values.StringValue uniqueId_;
     /**
-     * <code>optional .dstore.values.StringValue unique_id = 3;</code>
+     * <code>.dstore.values.StringValue unique_id = 3;</code>
      */
     public boolean hasUniqueId() {
       return uniqueId_ != null;
     }
     /**
-     * <code>optional .dstore.values.StringValue unique_id = 3;</code>
+     * <code>.dstore.values.StringValue unique_id = 3;</code>
      */
     public io.dstore.values.StringValue getUniqueId() {
       return uniqueId_ == null ? io.dstore.values.StringValue.getDefaultInstance() : uniqueId_;
     }
     /**
-     * <code>optional .dstore.values.StringValue unique_id = 3;</code>
+     * <code>.dstore.values.StringValue unique_id = 3;</code>
      */
     public io.dstore.values.StringValueOrBuilder getUniqueIdOrBuilder() {
       return getUniqueId();
@@ -645,7 +645,7 @@ public final class FoCopyPostingPu {
     public static final int UNIQUE_ID_NULL_FIELD_NUMBER = 1003;
     private boolean uniqueIdNull_;
     /**
-     * <code>optional bool unique_id_null = 1003;</code>
+     * <code>bool unique_id_null = 1003;</code>
      */
     public boolean getUniqueIdNull() {
       return uniqueIdNull_;
@@ -654,19 +654,19 @@ public final class FoCopyPostingPu {
     public static final int POSTING_ID_FIELD_NUMBER = 4;
     private io.dstore.values.IntegerValue postingId_;
     /**
-     * <code>optional .dstore.values.IntegerValue posting_id = 4;</code>
+     * <code>.dstore.values.IntegerValue posting_id = 4;</code>
      */
     public boolean hasPostingId() {
       return postingId_ != null;
     }
     /**
-     * <code>optional .dstore.values.IntegerValue posting_id = 4;</code>
+     * <code>.dstore.values.IntegerValue posting_id = 4;</code>
      */
     public io.dstore.values.IntegerValue getPostingId() {
       return postingId_ == null ? io.dstore.values.IntegerValue.getDefaultInstance() : postingId_;
     }
     /**
-     * <code>optional .dstore.values.IntegerValue posting_id = 4;</code>
+     * <code>.dstore.values.IntegerValue posting_id = 4;</code>
      */
     public io.dstore.values.IntegerValueOrBuilder getPostingIdOrBuilder() {
       return getPostingId();
@@ -675,7 +675,7 @@ public final class FoCopyPostingPu {
     public static final int POSTING_ID_NULL_FIELD_NUMBER = 1004;
     private boolean postingIdNull_;
     /**
-     * <code>optional bool posting_id_null = 1004;</code>
+     * <code>bool posting_id_null = 1004;</code>
      */
     public boolean getPostingIdNull() {
       return postingIdNull_;
@@ -684,19 +684,19 @@ public final class FoCopyPostingPu {
     public static final int TARGET_FORUM_ID_FIELD_NUMBER = 5;
     private io.dstore.values.IntegerValue targetForumId_;
     /**
-     * <code>optional .dstore.values.IntegerValue target_forum_id = 5;</code>
+     * <code>.dstore.values.IntegerValue target_forum_id = 5;</code>
      */
     public boolean hasTargetForumId() {
       return targetForumId_ != null;
     }
     /**
-     * <code>optional .dstore.values.IntegerValue target_forum_id = 5;</code>
+     * <code>.dstore.values.IntegerValue target_forum_id = 5;</code>
      */
     public io.dstore.values.IntegerValue getTargetForumId() {
       return targetForumId_ == null ? io.dstore.values.IntegerValue.getDefaultInstance() : targetForumId_;
     }
     /**
-     * <code>optional .dstore.values.IntegerValue target_forum_id = 5;</code>
+     * <code>.dstore.values.IntegerValue target_forum_id = 5;</code>
      */
     public io.dstore.values.IntegerValueOrBuilder getTargetForumIdOrBuilder() {
       return getTargetForumId();
@@ -705,7 +705,7 @@ public final class FoCopyPostingPu {
     public static final int TARGET_FORUM_ID_NULL_FIELD_NUMBER = 1005;
     private boolean targetForumIdNull_;
     /**
-     * <code>optional bool target_forum_id_null = 1005;</code>
+     * <code>bool target_forum_id_null = 1005;</code>
      */
     public boolean getTargetForumIdNull() {
       return targetForumIdNull_;
@@ -714,19 +714,19 @@ public final class FoCopyPostingPu {
     public static final int TARGET_POSTING_ID_FIELD_NUMBER = 6;
     private io.dstore.values.IntegerValue targetPostingId_;
     /**
-     * <code>optional .dstore.values.IntegerValue target_posting_id = 6;</code>
+     * <code>.dstore.values.IntegerValue target_posting_id = 6;</code>
      */
     public boolean hasTargetPostingId() {
       return targetPostingId_ != null;
     }
     /**
-     * <code>optional .dstore.values.IntegerValue target_posting_id = 6;</code>
+     * <code>.dstore.values.IntegerValue target_posting_id = 6;</code>
      */
     public io.dstore.values.IntegerValue getTargetPostingId() {
       return targetPostingId_ == null ? io.dstore.values.IntegerValue.getDefaultInstance() : targetPostingId_;
     }
     /**
-     * <code>optional .dstore.values.IntegerValue target_posting_id = 6;</code>
+     * <code>.dstore.values.IntegerValue target_posting_id = 6;</code>
      */
     public io.dstore.values.IntegerValueOrBuilder getTargetPostingIdOrBuilder() {
       return getTargetPostingId();
@@ -735,7 +735,7 @@ public final class FoCopyPostingPu {
     public static final int TARGET_POSTING_ID_NULL_FIELD_NUMBER = 1006;
     private boolean targetPostingIdNull_;
     /**
-     * <code>optional bool target_posting_id_null = 1006;</code>
+     * <code>bool target_posting_id_null = 1006;</code>
      */
     public boolean getTargetPostingIdNull() {
       return targetPostingIdNull_;
@@ -744,19 +744,19 @@ public final class FoCopyPostingPu {
     public static final int KEEP_AUTHOR_FIELD_NUMBER = 7;
     private io.dstore.values.BooleanValue keepAuthor_;
     /**
-     * <code>optional .dstore.values.BooleanValue keep_author = 7;</code>
+     * <code>.dstore.values.BooleanValue keep_author = 7;</code>
      */
     public boolean hasKeepAuthor() {
       return keepAuthor_ != null;
     }
     /**
-     * <code>optional .dstore.values.BooleanValue keep_author = 7;</code>
+     * <code>.dstore.values.BooleanValue keep_author = 7;</code>
      */
     public io.dstore.values.BooleanValue getKeepAuthor() {
       return keepAuthor_ == null ? io.dstore.values.BooleanValue.getDefaultInstance() : keepAuthor_;
     }
     /**
-     * <code>optional .dstore.values.BooleanValue keep_author = 7;</code>
+     * <code>.dstore.values.BooleanValue keep_author = 7;</code>
      */
     public io.dstore.values.BooleanValueOrBuilder getKeepAuthorOrBuilder() {
       return getKeepAuthor();
@@ -765,7 +765,7 @@ public final class FoCopyPostingPu {
     public static final int KEEP_AUTHOR_NULL_FIELD_NUMBER = 1007;
     private boolean keepAuthorNull_;
     /**
-     * <code>optional bool keep_author_null = 1007;</code>
+     * <code>bool keep_author_null = 1007;</code>
      */
     public boolean getKeepAuthorNull() {
       return keepAuthorNull_;
@@ -774,19 +774,19 @@ public final class FoCopyPostingPu {
     public static final int INCLUDE_REPLIES_FIELD_NUMBER = 8;
     private io.dstore.values.IntegerValue includeReplies_;
     /**
-     * <code>optional .dstore.values.IntegerValue include_replies = 8;</code>
+     * <code>.dstore.values.IntegerValue include_replies = 8;</code>
      */
     public boolean hasIncludeReplies() {
       return includeReplies_ != null;
     }
     /**
-     * <code>optional .dstore.values.IntegerValue include_replies = 8;</code>
+     * <code>.dstore.values.IntegerValue include_replies = 8;</code>
      */
     public io.dstore.values.IntegerValue getIncludeReplies() {
       return includeReplies_ == null ? io.dstore.values.IntegerValue.getDefaultInstance() : includeReplies_;
     }
     /**
-     * <code>optional .dstore.values.IntegerValue include_replies = 8;</code>
+     * <code>.dstore.values.IntegerValue include_replies = 8;</code>
      */
     public io.dstore.values.IntegerValueOrBuilder getIncludeRepliesOrBuilder() {
       return getIncludeReplies();
@@ -795,7 +795,7 @@ public final class FoCopyPostingPu {
     public static final int INCLUDE_REPLIES_NULL_FIELD_NUMBER = 1008;
     private boolean includeRepliesNull_;
     /**
-     * <code>optional bool include_replies_null = 1008;</code>
+     * <code>bool include_replies_null = 1008;</code>
      */
     public boolean getIncludeRepliesNull() {
       return includeRepliesNull_;
@@ -804,19 +804,19 @@ public final class FoCopyPostingPu {
     public static final int INCLUDE_BINARIES_FIELD_NUMBER = 9;
     private io.dstore.values.IntegerValue includeBinaries_;
     /**
-     * <code>optional .dstore.values.IntegerValue include_binaries = 9;</code>
+     * <code>.dstore.values.IntegerValue include_binaries = 9;</code>
      */
     public boolean hasIncludeBinaries() {
       return includeBinaries_ != null;
     }
     /**
-     * <code>optional .dstore.values.IntegerValue include_binaries = 9;</code>
+     * <code>.dstore.values.IntegerValue include_binaries = 9;</code>
      */
     public io.dstore.values.IntegerValue getIncludeBinaries() {
       return includeBinaries_ == null ? io.dstore.values.IntegerValue.getDefaultInstance() : includeBinaries_;
     }
     /**
-     * <code>optional .dstore.values.IntegerValue include_binaries = 9;</code>
+     * <code>.dstore.values.IntegerValue include_binaries = 9;</code>
      */
     public io.dstore.values.IntegerValueOrBuilder getIncludeBinariesOrBuilder() {
       return getIncludeBinaries();
@@ -825,7 +825,7 @@ public final class FoCopyPostingPu {
     public static final int INCLUDE_BINARIES_NULL_FIELD_NUMBER = 1009;
     private boolean includeBinariesNull_;
     /**
-     * <code>optional bool include_binaries_null = 1009;</code>
+     * <code>bool include_binaries_null = 1009;</code>
      */
     public boolean getIncludeBinariesNull() {
       return includeBinariesNull_;
@@ -834,19 +834,19 @@ public final class FoCopyPostingPu {
     public static final int INCLUDE_PROPERTIES_FIELD_NUMBER = 10;
     private io.dstore.values.IntegerValue includeProperties_;
     /**
-     * <code>optional .dstore.values.IntegerValue include_properties = 10;</code>
+     * <code>.dstore.values.IntegerValue include_properties = 10;</code>
      */
     public boolean hasIncludeProperties() {
       return includeProperties_ != null;
     }
     /**
-     * <code>optional .dstore.values.IntegerValue include_properties = 10;</code>
+     * <code>.dstore.values.IntegerValue include_properties = 10;</code>
      */
     public io.dstore.values.IntegerValue getIncludeProperties() {
       return includeProperties_ == null ? io.dstore.values.IntegerValue.getDefaultInstance() : includeProperties_;
     }
     /**
-     * <code>optional .dstore.values.IntegerValue include_properties = 10;</code>
+     * <code>.dstore.values.IntegerValue include_properties = 10;</code>
      */
     public io.dstore.values.IntegerValueOrBuilder getIncludePropertiesOrBuilder() {
       return getIncludeProperties();
@@ -855,7 +855,7 @@ public final class FoCopyPostingPu {
     public static final int INCLUDE_PROPERTIES_NULL_FIELD_NUMBER = 1010;
     private boolean includePropertiesNull_;
     /**
-     * <code>optional bool include_properties_null = 1010;</code>
+     * <code>bool include_properties_null = 1010;</code>
      */
     public boolean getIncludePropertiesNull() {
       return includePropertiesNull_;
@@ -864,19 +864,19 @@ public final class FoCopyPostingPu {
     public static final int AUTHOR_FIELD_NUMBER = 11;
     private io.dstore.values.StringValue author_;
     /**
-     * <code>optional .dstore.values.StringValue author = 11;</code>
+     * <code>.dstore.values.StringValue author = 11;</code>
      */
     public boolean hasAuthor() {
       return author_ != null;
     }
     /**
-     * <code>optional .dstore.values.StringValue author = 11;</code>
+     * <code>.dstore.values.StringValue author = 11;</code>
      */
     public io.dstore.values.StringValue getAuthor() {
       return author_ == null ? io.dstore.values.StringValue.getDefaultInstance() : author_;
     }
     /**
-     * <code>optional .dstore.values.StringValue author = 11;</code>
+     * <code>.dstore.values.StringValue author = 11;</code>
      */
     public io.dstore.values.StringValueOrBuilder getAuthorOrBuilder() {
       return getAuthor();
@@ -885,7 +885,7 @@ public final class FoCopyPostingPu {
     public static final int AUTHOR_NULL_FIELD_NUMBER = 1011;
     private boolean authorNull_;
     /**
-     * <code>optional bool author_null = 1011;</code>
+     * <code>bool author_null = 1011;</code>
      */
     public boolean getAuthorNull() {
       return authorNull_;
@@ -894,19 +894,19 @@ public final class FoCopyPostingPu {
     public static final int E_MAIL_OF_AUTHOR_FIELD_NUMBER = 12;
     private io.dstore.values.StringValue eMailOfAuthor_;
     /**
-     * <code>optional .dstore.values.StringValue e_mail_of_author = 12;</code>
+     * <code>.dstore.values.StringValue e_mail_of_author = 12;</code>
      */
     public boolean hasEMailOfAuthor() {
       return eMailOfAuthor_ != null;
     }
     /**
-     * <code>optional .dstore.values.StringValue e_mail_of_author = 12;</code>
+     * <code>.dstore.values.StringValue e_mail_of_author = 12;</code>
      */
     public io.dstore.values.StringValue getEMailOfAuthor() {
       return eMailOfAuthor_ == null ? io.dstore.values.StringValue.getDefaultInstance() : eMailOfAuthor_;
     }
     /**
-     * <code>optional .dstore.values.StringValue e_mail_of_author = 12;</code>
+     * <code>.dstore.values.StringValue e_mail_of_author = 12;</code>
      */
     public io.dstore.values.StringValueOrBuilder getEMailOfAuthorOrBuilder() {
       return getEMailOfAuthor();
@@ -915,7 +915,7 @@ public final class FoCopyPostingPu {
     public static final int E_MAIL_OF_AUTHOR_NULL_FIELD_NUMBER = 1012;
     private boolean eMailOfAuthorNull_;
     /**
-     * <code>optional bool e_mail_of_author_null = 1012;</code>
+     * <code>bool e_mail_of_author_null = 1012;</code>
      */
     public boolean getEMailOfAuthorNull() {
       return eMailOfAuthorNull_;
@@ -924,19 +924,19 @@ public final class FoCopyPostingPu {
     public static final int SEPARATOR_IN_IDENT_VALS_FIELD_NUMBER = 13;
     private io.dstore.values.StringValue separatorInIdentVals_;
     /**
-     * <code>optional .dstore.values.StringValue separator_in_ident_vals = 13;</code>
+     * <code>.dstore.values.StringValue separator_in_ident_vals = 13;</code>
      */
     public boolean hasSeparatorInIdentVals() {
       return separatorInIdentVals_ != null;
     }
     /**
-     * <code>optional .dstore.values.StringValue separator_in_ident_vals = 13;</code>
+     * <code>.dstore.values.StringValue separator_in_ident_vals = 13;</code>
      */
     public io.dstore.values.StringValue getSeparatorInIdentVals() {
       return separatorInIdentVals_ == null ? io.dstore.values.StringValue.getDefaultInstance() : separatorInIdentVals_;
     }
     /**
-     * <code>optional .dstore.values.StringValue separator_in_ident_vals = 13;</code>
+     * <code>.dstore.values.StringValue separator_in_ident_vals = 13;</code>
      */
     public io.dstore.values.StringValueOrBuilder getSeparatorInIdentValsOrBuilder() {
       return getSeparatorInIdentVals();
@@ -945,7 +945,7 @@ public final class FoCopyPostingPu {
     public static final int SEPARATOR_IN_IDENT_VALS_NULL_FIELD_NUMBER = 1013;
     private boolean separatorInIdentValsNull_;
     /**
-     * <code>optional bool separator_in_ident_vals_null = 1013;</code>
+     * <code>bool separator_in_ident_vals_null = 1013;</code>
      */
     public boolean getSeparatorInIdentValsNull() {
       return separatorInIdentValsNull_;
@@ -1268,7 +1268,7 @@ public final class FoCopyPostingPu {
         return memoizedHashCode;
       }
       int hash = 41;
-      hash = (19 * hash) + getDescriptorForType().hashCode();
+      hash = (19 * hash) + getDescriptor().hashCode();
       if (hasPersonIdentificationValues()) {
         hash = (37 * hash) + PERSON_IDENTIFICATION_VALUES_FIELD_NUMBER;
         hash = (53 * hash) + getPersonIdentificationValues().hashCode();
@@ -1831,13 +1831,13 @@ public final class FoCopyPostingPu {
       private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.values.StringValue, io.dstore.values.StringValue.Builder, io.dstore.values.StringValueOrBuilder> personIdentificationValuesBuilder_;
       /**
-       * <code>optional .dstore.values.StringValue person_identification_values = 1;</code>
+       * <code>.dstore.values.StringValue person_identification_values = 1;</code>
        */
       public boolean hasPersonIdentificationValues() {
         return personIdentificationValuesBuilder_ != null || personIdentificationValues_ != null;
       }
       /**
-       * <code>optional .dstore.values.StringValue person_identification_values = 1;</code>
+       * <code>.dstore.values.StringValue person_identification_values = 1;</code>
        */
       public io.dstore.values.StringValue getPersonIdentificationValues() {
         if (personIdentificationValuesBuilder_ == null) {
@@ -1847,7 +1847,7 @@ public final class FoCopyPostingPu {
         }
       }
       /**
-       * <code>optional .dstore.values.StringValue person_identification_values = 1;</code>
+       * <code>.dstore.values.StringValue person_identification_values = 1;</code>
        */
       public Builder setPersonIdentificationValues(io.dstore.values.StringValue value) {
         if (personIdentificationValuesBuilder_ == null) {
@@ -1863,7 +1863,7 @@ public final class FoCopyPostingPu {
         return this;
       }
       /**
-       * <code>optional .dstore.values.StringValue person_identification_values = 1;</code>
+       * <code>.dstore.values.StringValue person_identification_values = 1;</code>
        */
       public Builder setPersonIdentificationValues(
           io.dstore.values.StringValue.Builder builderForValue) {
@@ -1877,7 +1877,7 @@ public final class FoCopyPostingPu {
         return this;
       }
       /**
-       * <code>optional .dstore.values.StringValue person_identification_values = 1;</code>
+       * <code>.dstore.values.StringValue person_identification_values = 1;</code>
        */
       public Builder mergePersonIdentificationValues(io.dstore.values.StringValue value) {
         if (personIdentificationValuesBuilder_ == null) {
@@ -1895,7 +1895,7 @@ public final class FoCopyPostingPu {
         return this;
       }
       /**
-       * <code>optional .dstore.values.StringValue person_identification_values = 1;</code>
+       * <code>.dstore.values.StringValue person_identification_values = 1;</code>
        */
       public Builder clearPersonIdentificationValues() {
         if (personIdentificationValuesBuilder_ == null) {
@@ -1909,7 +1909,7 @@ public final class FoCopyPostingPu {
         return this;
       }
       /**
-       * <code>optional .dstore.values.StringValue person_identification_values = 1;</code>
+       * <code>.dstore.values.StringValue person_identification_values = 1;</code>
        */
       public io.dstore.values.StringValue.Builder getPersonIdentificationValuesBuilder() {
         
@@ -1917,7 +1917,7 @@ public final class FoCopyPostingPu {
         return getPersonIdentificationValuesFieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .dstore.values.StringValue person_identification_values = 1;</code>
+       * <code>.dstore.values.StringValue person_identification_values = 1;</code>
        */
       public io.dstore.values.StringValueOrBuilder getPersonIdentificationValuesOrBuilder() {
         if (personIdentificationValuesBuilder_ != null) {
@@ -1928,7 +1928,7 @@ public final class FoCopyPostingPu {
         }
       }
       /**
-       * <code>optional .dstore.values.StringValue person_identification_values = 1;</code>
+       * <code>.dstore.values.StringValue person_identification_values = 1;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.values.StringValue, io.dstore.values.StringValue.Builder, io.dstore.values.StringValueOrBuilder> 
@@ -1946,13 +1946,13 @@ public final class FoCopyPostingPu {
 
       private boolean personIdentificationValuesNull_ ;
       /**
-       * <code>optional bool person_identification_values_null = 1001;</code>
+       * <code>bool person_identification_values_null = 1001;</code>
        */
       public boolean getPersonIdentificationValuesNull() {
         return personIdentificationValuesNull_;
       }
       /**
-       * <code>optional bool person_identification_values_null = 1001;</code>
+       * <code>bool person_identification_values_null = 1001;</code>
        */
       public Builder setPersonIdentificationValuesNull(boolean value) {
         
@@ -1961,7 +1961,7 @@ public final class FoCopyPostingPu {
         return this;
       }
       /**
-       * <code>optional bool person_identification_values_null = 1001;</code>
+       * <code>bool person_identification_values_null = 1001;</code>
        */
       public Builder clearPersonIdentificationValuesNull() {
         
@@ -1974,13 +1974,13 @@ public final class FoCopyPostingPu {
       private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> personTypeIdBuilder_;
       /**
-       * <code>optional .dstore.values.IntegerValue person_type_id = 2;</code>
+       * <code>.dstore.values.IntegerValue person_type_id = 2;</code>
        */
       public boolean hasPersonTypeId() {
         return personTypeIdBuilder_ != null || personTypeId_ != null;
       }
       /**
-       * <code>optional .dstore.values.IntegerValue person_type_id = 2;</code>
+       * <code>.dstore.values.IntegerValue person_type_id = 2;</code>
        */
       public io.dstore.values.IntegerValue getPersonTypeId() {
         if (personTypeIdBuilder_ == null) {
@@ -1990,7 +1990,7 @@ public final class FoCopyPostingPu {
         }
       }
       /**
-       * <code>optional .dstore.values.IntegerValue person_type_id = 2;</code>
+       * <code>.dstore.values.IntegerValue person_type_id = 2;</code>
        */
       public Builder setPersonTypeId(io.dstore.values.IntegerValue value) {
         if (personTypeIdBuilder_ == null) {
@@ -2006,7 +2006,7 @@ public final class FoCopyPostingPu {
         return this;
       }
       /**
-       * <code>optional .dstore.values.IntegerValue person_type_id = 2;</code>
+       * <code>.dstore.values.IntegerValue person_type_id = 2;</code>
        */
       public Builder setPersonTypeId(
           io.dstore.values.IntegerValue.Builder builderForValue) {
@@ -2020,7 +2020,7 @@ public final class FoCopyPostingPu {
         return this;
       }
       /**
-       * <code>optional .dstore.values.IntegerValue person_type_id = 2;</code>
+       * <code>.dstore.values.IntegerValue person_type_id = 2;</code>
        */
       public Builder mergePersonTypeId(io.dstore.values.IntegerValue value) {
         if (personTypeIdBuilder_ == null) {
@@ -2038,7 +2038,7 @@ public final class FoCopyPostingPu {
         return this;
       }
       /**
-       * <code>optional .dstore.values.IntegerValue person_type_id = 2;</code>
+       * <code>.dstore.values.IntegerValue person_type_id = 2;</code>
        */
       public Builder clearPersonTypeId() {
         if (personTypeIdBuilder_ == null) {
@@ -2052,7 +2052,7 @@ public final class FoCopyPostingPu {
         return this;
       }
       /**
-       * <code>optional .dstore.values.IntegerValue person_type_id = 2;</code>
+       * <code>.dstore.values.IntegerValue person_type_id = 2;</code>
        */
       public io.dstore.values.IntegerValue.Builder getPersonTypeIdBuilder() {
         
@@ -2060,7 +2060,7 @@ public final class FoCopyPostingPu {
         return getPersonTypeIdFieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .dstore.values.IntegerValue person_type_id = 2;</code>
+       * <code>.dstore.values.IntegerValue person_type_id = 2;</code>
        */
       public io.dstore.values.IntegerValueOrBuilder getPersonTypeIdOrBuilder() {
         if (personTypeIdBuilder_ != null) {
@@ -2071,7 +2071,7 @@ public final class FoCopyPostingPu {
         }
       }
       /**
-       * <code>optional .dstore.values.IntegerValue person_type_id = 2;</code>
+       * <code>.dstore.values.IntegerValue person_type_id = 2;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> 
@@ -2089,13 +2089,13 @@ public final class FoCopyPostingPu {
 
       private boolean personTypeIdNull_ ;
       /**
-       * <code>optional bool person_type_id_null = 1002;</code>
+       * <code>bool person_type_id_null = 1002;</code>
        */
       public boolean getPersonTypeIdNull() {
         return personTypeIdNull_;
       }
       /**
-       * <code>optional bool person_type_id_null = 1002;</code>
+       * <code>bool person_type_id_null = 1002;</code>
        */
       public Builder setPersonTypeIdNull(boolean value) {
         
@@ -2104,7 +2104,7 @@ public final class FoCopyPostingPu {
         return this;
       }
       /**
-       * <code>optional bool person_type_id_null = 1002;</code>
+       * <code>bool person_type_id_null = 1002;</code>
        */
       public Builder clearPersonTypeIdNull() {
         
@@ -2117,13 +2117,13 @@ public final class FoCopyPostingPu {
       private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.values.StringValue, io.dstore.values.StringValue.Builder, io.dstore.values.StringValueOrBuilder> uniqueIdBuilder_;
       /**
-       * <code>optional .dstore.values.StringValue unique_id = 3;</code>
+       * <code>.dstore.values.StringValue unique_id = 3;</code>
        */
       public boolean hasUniqueId() {
         return uniqueIdBuilder_ != null || uniqueId_ != null;
       }
       /**
-       * <code>optional .dstore.values.StringValue unique_id = 3;</code>
+       * <code>.dstore.values.StringValue unique_id = 3;</code>
        */
       public io.dstore.values.StringValue getUniqueId() {
         if (uniqueIdBuilder_ == null) {
@@ -2133,7 +2133,7 @@ public final class FoCopyPostingPu {
         }
       }
       /**
-       * <code>optional .dstore.values.StringValue unique_id = 3;</code>
+       * <code>.dstore.values.StringValue unique_id = 3;</code>
        */
       public Builder setUniqueId(io.dstore.values.StringValue value) {
         if (uniqueIdBuilder_ == null) {
@@ -2149,7 +2149,7 @@ public final class FoCopyPostingPu {
         return this;
       }
       /**
-       * <code>optional .dstore.values.StringValue unique_id = 3;</code>
+       * <code>.dstore.values.StringValue unique_id = 3;</code>
        */
       public Builder setUniqueId(
           io.dstore.values.StringValue.Builder builderForValue) {
@@ -2163,7 +2163,7 @@ public final class FoCopyPostingPu {
         return this;
       }
       /**
-       * <code>optional .dstore.values.StringValue unique_id = 3;</code>
+       * <code>.dstore.values.StringValue unique_id = 3;</code>
        */
       public Builder mergeUniqueId(io.dstore.values.StringValue value) {
         if (uniqueIdBuilder_ == null) {
@@ -2181,7 +2181,7 @@ public final class FoCopyPostingPu {
         return this;
       }
       /**
-       * <code>optional .dstore.values.StringValue unique_id = 3;</code>
+       * <code>.dstore.values.StringValue unique_id = 3;</code>
        */
       public Builder clearUniqueId() {
         if (uniqueIdBuilder_ == null) {
@@ -2195,7 +2195,7 @@ public final class FoCopyPostingPu {
         return this;
       }
       /**
-       * <code>optional .dstore.values.StringValue unique_id = 3;</code>
+       * <code>.dstore.values.StringValue unique_id = 3;</code>
        */
       public io.dstore.values.StringValue.Builder getUniqueIdBuilder() {
         
@@ -2203,7 +2203,7 @@ public final class FoCopyPostingPu {
         return getUniqueIdFieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .dstore.values.StringValue unique_id = 3;</code>
+       * <code>.dstore.values.StringValue unique_id = 3;</code>
        */
       public io.dstore.values.StringValueOrBuilder getUniqueIdOrBuilder() {
         if (uniqueIdBuilder_ != null) {
@@ -2214,7 +2214,7 @@ public final class FoCopyPostingPu {
         }
       }
       /**
-       * <code>optional .dstore.values.StringValue unique_id = 3;</code>
+       * <code>.dstore.values.StringValue unique_id = 3;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.values.StringValue, io.dstore.values.StringValue.Builder, io.dstore.values.StringValueOrBuilder> 
@@ -2232,13 +2232,13 @@ public final class FoCopyPostingPu {
 
       private boolean uniqueIdNull_ ;
       /**
-       * <code>optional bool unique_id_null = 1003;</code>
+       * <code>bool unique_id_null = 1003;</code>
        */
       public boolean getUniqueIdNull() {
         return uniqueIdNull_;
       }
       /**
-       * <code>optional bool unique_id_null = 1003;</code>
+       * <code>bool unique_id_null = 1003;</code>
        */
       public Builder setUniqueIdNull(boolean value) {
         
@@ -2247,7 +2247,7 @@ public final class FoCopyPostingPu {
         return this;
       }
       /**
-       * <code>optional bool unique_id_null = 1003;</code>
+       * <code>bool unique_id_null = 1003;</code>
        */
       public Builder clearUniqueIdNull() {
         
@@ -2260,13 +2260,13 @@ public final class FoCopyPostingPu {
       private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> postingIdBuilder_;
       /**
-       * <code>optional .dstore.values.IntegerValue posting_id = 4;</code>
+       * <code>.dstore.values.IntegerValue posting_id = 4;</code>
        */
       public boolean hasPostingId() {
         return postingIdBuilder_ != null || postingId_ != null;
       }
       /**
-       * <code>optional .dstore.values.IntegerValue posting_id = 4;</code>
+       * <code>.dstore.values.IntegerValue posting_id = 4;</code>
        */
       public io.dstore.values.IntegerValue getPostingId() {
         if (postingIdBuilder_ == null) {
@@ -2276,7 +2276,7 @@ public final class FoCopyPostingPu {
         }
       }
       /**
-       * <code>optional .dstore.values.IntegerValue posting_id = 4;</code>
+       * <code>.dstore.values.IntegerValue posting_id = 4;</code>
        */
       public Builder setPostingId(io.dstore.values.IntegerValue value) {
         if (postingIdBuilder_ == null) {
@@ -2292,7 +2292,7 @@ public final class FoCopyPostingPu {
         return this;
       }
       /**
-       * <code>optional .dstore.values.IntegerValue posting_id = 4;</code>
+       * <code>.dstore.values.IntegerValue posting_id = 4;</code>
        */
       public Builder setPostingId(
           io.dstore.values.IntegerValue.Builder builderForValue) {
@@ -2306,7 +2306,7 @@ public final class FoCopyPostingPu {
         return this;
       }
       /**
-       * <code>optional .dstore.values.IntegerValue posting_id = 4;</code>
+       * <code>.dstore.values.IntegerValue posting_id = 4;</code>
        */
       public Builder mergePostingId(io.dstore.values.IntegerValue value) {
         if (postingIdBuilder_ == null) {
@@ -2324,7 +2324,7 @@ public final class FoCopyPostingPu {
         return this;
       }
       /**
-       * <code>optional .dstore.values.IntegerValue posting_id = 4;</code>
+       * <code>.dstore.values.IntegerValue posting_id = 4;</code>
        */
       public Builder clearPostingId() {
         if (postingIdBuilder_ == null) {
@@ -2338,7 +2338,7 @@ public final class FoCopyPostingPu {
         return this;
       }
       /**
-       * <code>optional .dstore.values.IntegerValue posting_id = 4;</code>
+       * <code>.dstore.values.IntegerValue posting_id = 4;</code>
        */
       public io.dstore.values.IntegerValue.Builder getPostingIdBuilder() {
         
@@ -2346,7 +2346,7 @@ public final class FoCopyPostingPu {
         return getPostingIdFieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .dstore.values.IntegerValue posting_id = 4;</code>
+       * <code>.dstore.values.IntegerValue posting_id = 4;</code>
        */
       public io.dstore.values.IntegerValueOrBuilder getPostingIdOrBuilder() {
         if (postingIdBuilder_ != null) {
@@ -2357,7 +2357,7 @@ public final class FoCopyPostingPu {
         }
       }
       /**
-       * <code>optional .dstore.values.IntegerValue posting_id = 4;</code>
+       * <code>.dstore.values.IntegerValue posting_id = 4;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> 
@@ -2375,13 +2375,13 @@ public final class FoCopyPostingPu {
 
       private boolean postingIdNull_ ;
       /**
-       * <code>optional bool posting_id_null = 1004;</code>
+       * <code>bool posting_id_null = 1004;</code>
        */
       public boolean getPostingIdNull() {
         return postingIdNull_;
       }
       /**
-       * <code>optional bool posting_id_null = 1004;</code>
+       * <code>bool posting_id_null = 1004;</code>
        */
       public Builder setPostingIdNull(boolean value) {
         
@@ -2390,7 +2390,7 @@ public final class FoCopyPostingPu {
         return this;
       }
       /**
-       * <code>optional bool posting_id_null = 1004;</code>
+       * <code>bool posting_id_null = 1004;</code>
        */
       public Builder clearPostingIdNull() {
         
@@ -2403,13 +2403,13 @@ public final class FoCopyPostingPu {
       private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> targetForumIdBuilder_;
       /**
-       * <code>optional .dstore.values.IntegerValue target_forum_id = 5;</code>
+       * <code>.dstore.values.IntegerValue target_forum_id = 5;</code>
        */
       public boolean hasTargetForumId() {
         return targetForumIdBuilder_ != null || targetForumId_ != null;
       }
       /**
-       * <code>optional .dstore.values.IntegerValue target_forum_id = 5;</code>
+       * <code>.dstore.values.IntegerValue target_forum_id = 5;</code>
        */
       public io.dstore.values.IntegerValue getTargetForumId() {
         if (targetForumIdBuilder_ == null) {
@@ -2419,7 +2419,7 @@ public final class FoCopyPostingPu {
         }
       }
       /**
-       * <code>optional .dstore.values.IntegerValue target_forum_id = 5;</code>
+       * <code>.dstore.values.IntegerValue target_forum_id = 5;</code>
        */
       public Builder setTargetForumId(io.dstore.values.IntegerValue value) {
         if (targetForumIdBuilder_ == null) {
@@ -2435,7 +2435,7 @@ public final class FoCopyPostingPu {
         return this;
       }
       /**
-       * <code>optional .dstore.values.IntegerValue target_forum_id = 5;</code>
+       * <code>.dstore.values.IntegerValue target_forum_id = 5;</code>
        */
       public Builder setTargetForumId(
           io.dstore.values.IntegerValue.Builder builderForValue) {
@@ -2449,7 +2449,7 @@ public final class FoCopyPostingPu {
         return this;
       }
       /**
-       * <code>optional .dstore.values.IntegerValue target_forum_id = 5;</code>
+       * <code>.dstore.values.IntegerValue target_forum_id = 5;</code>
        */
       public Builder mergeTargetForumId(io.dstore.values.IntegerValue value) {
         if (targetForumIdBuilder_ == null) {
@@ -2467,7 +2467,7 @@ public final class FoCopyPostingPu {
         return this;
       }
       /**
-       * <code>optional .dstore.values.IntegerValue target_forum_id = 5;</code>
+       * <code>.dstore.values.IntegerValue target_forum_id = 5;</code>
        */
       public Builder clearTargetForumId() {
         if (targetForumIdBuilder_ == null) {
@@ -2481,7 +2481,7 @@ public final class FoCopyPostingPu {
         return this;
       }
       /**
-       * <code>optional .dstore.values.IntegerValue target_forum_id = 5;</code>
+       * <code>.dstore.values.IntegerValue target_forum_id = 5;</code>
        */
       public io.dstore.values.IntegerValue.Builder getTargetForumIdBuilder() {
         
@@ -2489,7 +2489,7 @@ public final class FoCopyPostingPu {
         return getTargetForumIdFieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .dstore.values.IntegerValue target_forum_id = 5;</code>
+       * <code>.dstore.values.IntegerValue target_forum_id = 5;</code>
        */
       public io.dstore.values.IntegerValueOrBuilder getTargetForumIdOrBuilder() {
         if (targetForumIdBuilder_ != null) {
@@ -2500,7 +2500,7 @@ public final class FoCopyPostingPu {
         }
       }
       /**
-       * <code>optional .dstore.values.IntegerValue target_forum_id = 5;</code>
+       * <code>.dstore.values.IntegerValue target_forum_id = 5;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> 
@@ -2518,13 +2518,13 @@ public final class FoCopyPostingPu {
 
       private boolean targetForumIdNull_ ;
       /**
-       * <code>optional bool target_forum_id_null = 1005;</code>
+       * <code>bool target_forum_id_null = 1005;</code>
        */
       public boolean getTargetForumIdNull() {
         return targetForumIdNull_;
       }
       /**
-       * <code>optional bool target_forum_id_null = 1005;</code>
+       * <code>bool target_forum_id_null = 1005;</code>
        */
       public Builder setTargetForumIdNull(boolean value) {
         
@@ -2533,7 +2533,7 @@ public final class FoCopyPostingPu {
         return this;
       }
       /**
-       * <code>optional bool target_forum_id_null = 1005;</code>
+       * <code>bool target_forum_id_null = 1005;</code>
        */
       public Builder clearTargetForumIdNull() {
         
@@ -2546,13 +2546,13 @@ public final class FoCopyPostingPu {
       private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> targetPostingIdBuilder_;
       /**
-       * <code>optional .dstore.values.IntegerValue target_posting_id = 6;</code>
+       * <code>.dstore.values.IntegerValue target_posting_id = 6;</code>
        */
       public boolean hasTargetPostingId() {
         return targetPostingIdBuilder_ != null || targetPostingId_ != null;
       }
       /**
-       * <code>optional .dstore.values.IntegerValue target_posting_id = 6;</code>
+       * <code>.dstore.values.IntegerValue target_posting_id = 6;</code>
        */
       public io.dstore.values.IntegerValue getTargetPostingId() {
         if (targetPostingIdBuilder_ == null) {
@@ -2562,7 +2562,7 @@ public final class FoCopyPostingPu {
         }
       }
       /**
-       * <code>optional .dstore.values.IntegerValue target_posting_id = 6;</code>
+       * <code>.dstore.values.IntegerValue target_posting_id = 6;</code>
        */
       public Builder setTargetPostingId(io.dstore.values.IntegerValue value) {
         if (targetPostingIdBuilder_ == null) {
@@ -2578,7 +2578,7 @@ public final class FoCopyPostingPu {
         return this;
       }
       /**
-       * <code>optional .dstore.values.IntegerValue target_posting_id = 6;</code>
+       * <code>.dstore.values.IntegerValue target_posting_id = 6;</code>
        */
       public Builder setTargetPostingId(
           io.dstore.values.IntegerValue.Builder builderForValue) {
@@ -2592,7 +2592,7 @@ public final class FoCopyPostingPu {
         return this;
       }
       /**
-       * <code>optional .dstore.values.IntegerValue target_posting_id = 6;</code>
+       * <code>.dstore.values.IntegerValue target_posting_id = 6;</code>
        */
       public Builder mergeTargetPostingId(io.dstore.values.IntegerValue value) {
         if (targetPostingIdBuilder_ == null) {
@@ -2610,7 +2610,7 @@ public final class FoCopyPostingPu {
         return this;
       }
       /**
-       * <code>optional .dstore.values.IntegerValue target_posting_id = 6;</code>
+       * <code>.dstore.values.IntegerValue target_posting_id = 6;</code>
        */
       public Builder clearTargetPostingId() {
         if (targetPostingIdBuilder_ == null) {
@@ -2624,7 +2624,7 @@ public final class FoCopyPostingPu {
         return this;
       }
       /**
-       * <code>optional .dstore.values.IntegerValue target_posting_id = 6;</code>
+       * <code>.dstore.values.IntegerValue target_posting_id = 6;</code>
        */
       public io.dstore.values.IntegerValue.Builder getTargetPostingIdBuilder() {
         
@@ -2632,7 +2632,7 @@ public final class FoCopyPostingPu {
         return getTargetPostingIdFieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .dstore.values.IntegerValue target_posting_id = 6;</code>
+       * <code>.dstore.values.IntegerValue target_posting_id = 6;</code>
        */
       public io.dstore.values.IntegerValueOrBuilder getTargetPostingIdOrBuilder() {
         if (targetPostingIdBuilder_ != null) {
@@ -2643,7 +2643,7 @@ public final class FoCopyPostingPu {
         }
       }
       /**
-       * <code>optional .dstore.values.IntegerValue target_posting_id = 6;</code>
+       * <code>.dstore.values.IntegerValue target_posting_id = 6;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> 
@@ -2661,13 +2661,13 @@ public final class FoCopyPostingPu {
 
       private boolean targetPostingIdNull_ ;
       /**
-       * <code>optional bool target_posting_id_null = 1006;</code>
+       * <code>bool target_posting_id_null = 1006;</code>
        */
       public boolean getTargetPostingIdNull() {
         return targetPostingIdNull_;
       }
       /**
-       * <code>optional bool target_posting_id_null = 1006;</code>
+       * <code>bool target_posting_id_null = 1006;</code>
        */
       public Builder setTargetPostingIdNull(boolean value) {
         
@@ -2676,7 +2676,7 @@ public final class FoCopyPostingPu {
         return this;
       }
       /**
-       * <code>optional bool target_posting_id_null = 1006;</code>
+       * <code>bool target_posting_id_null = 1006;</code>
        */
       public Builder clearTargetPostingIdNull() {
         
@@ -2689,13 +2689,13 @@ public final class FoCopyPostingPu {
       private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.values.BooleanValue, io.dstore.values.BooleanValue.Builder, io.dstore.values.BooleanValueOrBuilder> keepAuthorBuilder_;
       /**
-       * <code>optional .dstore.values.BooleanValue keep_author = 7;</code>
+       * <code>.dstore.values.BooleanValue keep_author = 7;</code>
        */
       public boolean hasKeepAuthor() {
         return keepAuthorBuilder_ != null || keepAuthor_ != null;
       }
       /**
-       * <code>optional .dstore.values.BooleanValue keep_author = 7;</code>
+       * <code>.dstore.values.BooleanValue keep_author = 7;</code>
        */
       public io.dstore.values.BooleanValue getKeepAuthor() {
         if (keepAuthorBuilder_ == null) {
@@ -2705,7 +2705,7 @@ public final class FoCopyPostingPu {
         }
       }
       /**
-       * <code>optional .dstore.values.BooleanValue keep_author = 7;</code>
+       * <code>.dstore.values.BooleanValue keep_author = 7;</code>
        */
       public Builder setKeepAuthor(io.dstore.values.BooleanValue value) {
         if (keepAuthorBuilder_ == null) {
@@ -2721,7 +2721,7 @@ public final class FoCopyPostingPu {
         return this;
       }
       /**
-       * <code>optional .dstore.values.BooleanValue keep_author = 7;</code>
+       * <code>.dstore.values.BooleanValue keep_author = 7;</code>
        */
       public Builder setKeepAuthor(
           io.dstore.values.BooleanValue.Builder builderForValue) {
@@ -2735,7 +2735,7 @@ public final class FoCopyPostingPu {
         return this;
       }
       /**
-       * <code>optional .dstore.values.BooleanValue keep_author = 7;</code>
+       * <code>.dstore.values.BooleanValue keep_author = 7;</code>
        */
       public Builder mergeKeepAuthor(io.dstore.values.BooleanValue value) {
         if (keepAuthorBuilder_ == null) {
@@ -2753,7 +2753,7 @@ public final class FoCopyPostingPu {
         return this;
       }
       /**
-       * <code>optional .dstore.values.BooleanValue keep_author = 7;</code>
+       * <code>.dstore.values.BooleanValue keep_author = 7;</code>
        */
       public Builder clearKeepAuthor() {
         if (keepAuthorBuilder_ == null) {
@@ -2767,7 +2767,7 @@ public final class FoCopyPostingPu {
         return this;
       }
       /**
-       * <code>optional .dstore.values.BooleanValue keep_author = 7;</code>
+       * <code>.dstore.values.BooleanValue keep_author = 7;</code>
        */
       public io.dstore.values.BooleanValue.Builder getKeepAuthorBuilder() {
         
@@ -2775,7 +2775,7 @@ public final class FoCopyPostingPu {
         return getKeepAuthorFieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .dstore.values.BooleanValue keep_author = 7;</code>
+       * <code>.dstore.values.BooleanValue keep_author = 7;</code>
        */
       public io.dstore.values.BooleanValueOrBuilder getKeepAuthorOrBuilder() {
         if (keepAuthorBuilder_ != null) {
@@ -2786,7 +2786,7 @@ public final class FoCopyPostingPu {
         }
       }
       /**
-       * <code>optional .dstore.values.BooleanValue keep_author = 7;</code>
+       * <code>.dstore.values.BooleanValue keep_author = 7;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.values.BooleanValue, io.dstore.values.BooleanValue.Builder, io.dstore.values.BooleanValueOrBuilder> 
@@ -2804,13 +2804,13 @@ public final class FoCopyPostingPu {
 
       private boolean keepAuthorNull_ ;
       /**
-       * <code>optional bool keep_author_null = 1007;</code>
+       * <code>bool keep_author_null = 1007;</code>
        */
       public boolean getKeepAuthorNull() {
         return keepAuthorNull_;
       }
       /**
-       * <code>optional bool keep_author_null = 1007;</code>
+       * <code>bool keep_author_null = 1007;</code>
        */
       public Builder setKeepAuthorNull(boolean value) {
         
@@ -2819,7 +2819,7 @@ public final class FoCopyPostingPu {
         return this;
       }
       /**
-       * <code>optional bool keep_author_null = 1007;</code>
+       * <code>bool keep_author_null = 1007;</code>
        */
       public Builder clearKeepAuthorNull() {
         
@@ -2832,13 +2832,13 @@ public final class FoCopyPostingPu {
       private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> includeRepliesBuilder_;
       /**
-       * <code>optional .dstore.values.IntegerValue include_replies = 8;</code>
+       * <code>.dstore.values.IntegerValue include_replies = 8;</code>
        */
       public boolean hasIncludeReplies() {
         return includeRepliesBuilder_ != null || includeReplies_ != null;
       }
       /**
-       * <code>optional .dstore.values.IntegerValue include_replies = 8;</code>
+       * <code>.dstore.values.IntegerValue include_replies = 8;</code>
        */
       public io.dstore.values.IntegerValue getIncludeReplies() {
         if (includeRepliesBuilder_ == null) {
@@ -2848,7 +2848,7 @@ public final class FoCopyPostingPu {
         }
       }
       /**
-       * <code>optional .dstore.values.IntegerValue include_replies = 8;</code>
+       * <code>.dstore.values.IntegerValue include_replies = 8;</code>
        */
       public Builder setIncludeReplies(io.dstore.values.IntegerValue value) {
         if (includeRepliesBuilder_ == null) {
@@ -2864,7 +2864,7 @@ public final class FoCopyPostingPu {
         return this;
       }
       /**
-       * <code>optional .dstore.values.IntegerValue include_replies = 8;</code>
+       * <code>.dstore.values.IntegerValue include_replies = 8;</code>
        */
       public Builder setIncludeReplies(
           io.dstore.values.IntegerValue.Builder builderForValue) {
@@ -2878,7 +2878,7 @@ public final class FoCopyPostingPu {
         return this;
       }
       /**
-       * <code>optional .dstore.values.IntegerValue include_replies = 8;</code>
+       * <code>.dstore.values.IntegerValue include_replies = 8;</code>
        */
       public Builder mergeIncludeReplies(io.dstore.values.IntegerValue value) {
         if (includeRepliesBuilder_ == null) {
@@ -2896,7 +2896,7 @@ public final class FoCopyPostingPu {
         return this;
       }
       /**
-       * <code>optional .dstore.values.IntegerValue include_replies = 8;</code>
+       * <code>.dstore.values.IntegerValue include_replies = 8;</code>
        */
       public Builder clearIncludeReplies() {
         if (includeRepliesBuilder_ == null) {
@@ -2910,7 +2910,7 @@ public final class FoCopyPostingPu {
         return this;
       }
       /**
-       * <code>optional .dstore.values.IntegerValue include_replies = 8;</code>
+       * <code>.dstore.values.IntegerValue include_replies = 8;</code>
        */
       public io.dstore.values.IntegerValue.Builder getIncludeRepliesBuilder() {
         
@@ -2918,7 +2918,7 @@ public final class FoCopyPostingPu {
         return getIncludeRepliesFieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .dstore.values.IntegerValue include_replies = 8;</code>
+       * <code>.dstore.values.IntegerValue include_replies = 8;</code>
        */
       public io.dstore.values.IntegerValueOrBuilder getIncludeRepliesOrBuilder() {
         if (includeRepliesBuilder_ != null) {
@@ -2929,7 +2929,7 @@ public final class FoCopyPostingPu {
         }
       }
       /**
-       * <code>optional .dstore.values.IntegerValue include_replies = 8;</code>
+       * <code>.dstore.values.IntegerValue include_replies = 8;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> 
@@ -2947,13 +2947,13 @@ public final class FoCopyPostingPu {
 
       private boolean includeRepliesNull_ ;
       /**
-       * <code>optional bool include_replies_null = 1008;</code>
+       * <code>bool include_replies_null = 1008;</code>
        */
       public boolean getIncludeRepliesNull() {
         return includeRepliesNull_;
       }
       /**
-       * <code>optional bool include_replies_null = 1008;</code>
+       * <code>bool include_replies_null = 1008;</code>
        */
       public Builder setIncludeRepliesNull(boolean value) {
         
@@ -2962,7 +2962,7 @@ public final class FoCopyPostingPu {
         return this;
       }
       /**
-       * <code>optional bool include_replies_null = 1008;</code>
+       * <code>bool include_replies_null = 1008;</code>
        */
       public Builder clearIncludeRepliesNull() {
         
@@ -2975,13 +2975,13 @@ public final class FoCopyPostingPu {
       private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> includeBinariesBuilder_;
       /**
-       * <code>optional .dstore.values.IntegerValue include_binaries = 9;</code>
+       * <code>.dstore.values.IntegerValue include_binaries = 9;</code>
        */
       public boolean hasIncludeBinaries() {
         return includeBinariesBuilder_ != null || includeBinaries_ != null;
       }
       /**
-       * <code>optional .dstore.values.IntegerValue include_binaries = 9;</code>
+       * <code>.dstore.values.IntegerValue include_binaries = 9;</code>
        */
       public io.dstore.values.IntegerValue getIncludeBinaries() {
         if (includeBinariesBuilder_ == null) {
@@ -2991,7 +2991,7 @@ public final class FoCopyPostingPu {
         }
       }
       /**
-       * <code>optional .dstore.values.IntegerValue include_binaries = 9;</code>
+       * <code>.dstore.values.IntegerValue include_binaries = 9;</code>
        */
       public Builder setIncludeBinaries(io.dstore.values.IntegerValue value) {
         if (includeBinariesBuilder_ == null) {
@@ -3007,7 +3007,7 @@ public final class FoCopyPostingPu {
         return this;
       }
       /**
-       * <code>optional .dstore.values.IntegerValue include_binaries = 9;</code>
+       * <code>.dstore.values.IntegerValue include_binaries = 9;</code>
        */
       public Builder setIncludeBinaries(
           io.dstore.values.IntegerValue.Builder builderForValue) {
@@ -3021,7 +3021,7 @@ public final class FoCopyPostingPu {
         return this;
       }
       /**
-       * <code>optional .dstore.values.IntegerValue include_binaries = 9;</code>
+       * <code>.dstore.values.IntegerValue include_binaries = 9;</code>
        */
       public Builder mergeIncludeBinaries(io.dstore.values.IntegerValue value) {
         if (includeBinariesBuilder_ == null) {
@@ -3039,7 +3039,7 @@ public final class FoCopyPostingPu {
         return this;
       }
       /**
-       * <code>optional .dstore.values.IntegerValue include_binaries = 9;</code>
+       * <code>.dstore.values.IntegerValue include_binaries = 9;</code>
        */
       public Builder clearIncludeBinaries() {
         if (includeBinariesBuilder_ == null) {
@@ -3053,7 +3053,7 @@ public final class FoCopyPostingPu {
         return this;
       }
       /**
-       * <code>optional .dstore.values.IntegerValue include_binaries = 9;</code>
+       * <code>.dstore.values.IntegerValue include_binaries = 9;</code>
        */
       public io.dstore.values.IntegerValue.Builder getIncludeBinariesBuilder() {
         
@@ -3061,7 +3061,7 @@ public final class FoCopyPostingPu {
         return getIncludeBinariesFieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .dstore.values.IntegerValue include_binaries = 9;</code>
+       * <code>.dstore.values.IntegerValue include_binaries = 9;</code>
        */
       public io.dstore.values.IntegerValueOrBuilder getIncludeBinariesOrBuilder() {
         if (includeBinariesBuilder_ != null) {
@@ -3072,7 +3072,7 @@ public final class FoCopyPostingPu {
         }
       }
       /**
-       * <code>optional .dstore.values.IntegerValue include_binaries = 9;</code>
+       * <code>.dstore.values.IntegerValue include_binaries = 9;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> 
@@ -3090,13 +3090,13 @@ public final class FoCopyPostingPu {
 
       private boolean includeBinariesNull_ ;
       /**
-       * <code>optional bool include_binaries_null = 1009;</code>
+       * <code>bool include_binaries_null = 1009;</code>
        */
       public boolean getIncludeBinariesNull() {
         return includeBinariesNull_;
       }
       /**
-       * <code>optional bool include_binaries_null = 1009;</code>
+       * <code>bool include_binaries_null = 1009;</code>
        */
       public Builder setIncludeBinariesNull(boolean value) {
         
@@ -3105,7 +3105,7 @@ public final class FoCopyPostingPu {
         return this;
       }
       /**
-       * <code>optional bool include_binaries_null = 1009;</code>
+       * <code>bool include_binaries_null = 1009;</code>
        */
       public Builder clearIncludeBinariesNull() {
         
@@ -3118,13 +3118,13 @@ public final class FoCopyPostingPu {
       private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> includePropertiesBuilder_;
       /**
-       * <code>optional .dstore.values.IntegerValue include_properties = 10;</code>
+       * <code>.dstore.values.IntegerValue include_properties = 10;</code>
        */
       public boolean hasIncludeProperties() {
         return includePropertiesBuilder_ != null || includeProperties_ != null;
       }
       /**
-       * <code>optional .dstore.values.IntegerValue include_properties = 10;</code>
+       * <code>.dstore.values.IntegerValue include_properties = 10;</code>
        */
       public io.dstore.values.IntegerValue getIncludeProperties() {
         if (includePropertiesBuilder_ == null) {
@@ -3134,7 +3134,7 @@ public final class FoCopyPostingPu {
         }
       }
       /**
-       * <code>optional .dstore.values.IntegerValue include_properties = 10;</code>
+       * <code>.dstore.values.IntegerValue include_properties = 10;</code>
        */
       public Builder setIncludeProperties(io.dstore.values.IntegerValue value) {
         if (includePropertiesBuilder_ == null) {
@@ -3150,7 +3150,7 @@ public final class FoCopyPostingPu {
         return this;
       }
       /**
-       * <code>optional .dstore.values.IntegerValue include_properties = 10;</code>
+       * <code>.dstore.values.IntegerValue include_properties = 10;</code>
        */
       public Builder setIncludeProperties(
           io.dstore.values.IntegerValue.Builder builderForValue) {
@@ -3164,7 +3164,7 @@ public final class FoCopyPostingPu {
         return this;
       }
       /**
-       * <code>optional .dstore.values.IntegerValue include_properties = 10;</code>
+       * <code>.dstore.values.IntegerValue include_properties = 10;</code>
        */
       public Builder mergeIncludeProperties(io.dstore.values.IntegerValue value) {
         if (includePropertiesBuilder_ == null) {
@@ -3182,7 +3182,7 @@ public final class FoCopyPostingPu {
         return this;
       }
       /**
-       * <code>optional .dstore.values.IntegerValue include_properties = 10;</code>
+       * <code>.dstore.values.IntegerValue include_properties = 10;</code>
        */
       public Builder clearIncludeProperties() {
         if (includePropertiesBuilder_ == null) {
@@ -3196,7 +3196,7 @@ public final class FoCopyPostingPu {
         return this;
       }
       /**
-       * <code>optional .dstore.values.IntegerValue include_properties = 10;</code>
+       * <code>.dstore.values.IntegerValue include_properties = 10;</code>
        */
       public io.dstore.values.IntegerValue.Builder getIncludePropertiesBuilder() {
         
@@ -3204,7 +3204,7 @@ public final class FoCopyPostingPu {
         return getIncludePropertiesFieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .dstore.values.IntegerValue include_properties = 10;</code>
+       * <code>.dstore.values.IntegerValue include_properties = 10;</code>
        */
       public io.dstore.values.IntegerValueOrBuilder getIncludePropertiesOrBuilder() {
         if (includePropertiesBuilder_ != null) {
@@ -3215,7 +3215,7 @@ public final class FoCopyPostingPu {
         }
       }
       /**
-       * <code>optional .dstore.values.IntegerValue include_properties = 10;</code>
+       * <code>.dstore.values.IntegerValue include_properties = 10;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> 
@@ -3233,13 +3233,13 @@ public final class FoCopyPostingPu {
 
       private boolean includePropertiesNull_ ;
       /**
-       * <code>optional bool include_properties_null = 1010;</code>
+       * <code>bool include_properties_null = 1010;</code>
        */
       public boolean getIncludePropertiesNull() {
         return includePropertiesNull_;
       }
       /**
-       * <code>optional bool include_properties_null = 1010;</code>
+       * <code>bool include_properties_null = 1010;</code>
        */
       public Builder setIncludePropertiesNull(boolean value) {
         
@@ -3248,7 +3248,7 @@ public final class FoCopyPostingPu {
         return this;
       }
       /**
-       * <code>optional bool include_properties_null = 1010;</code>
+       * <code>bool include_properties_null = 1010;</code>
        */
       public Builder clearIncludePropertiesNull() {
         
@@ -3261,13 +3261,13 @@ public final class FoCopyPostingPu {
       private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.values.StringValue, io.dstore.values.StringValue.Builder, io.dstore.values.StringValueOrBuilder> authorBuilder_;
       /**
-       * <code>optional .dstore.values.StringValue author = 11;</code>
+       * <code>.dstore.values.StringValue author = 11;</code>
        */
       public boolean hasAuthor() {
         return authorBuilder_ != null || author_ != null;
       }
       /**
-       * <code>optional .dstore.values.StringValue author = 11;</code>
+       * <code>.dstore.values.StringValue author = 11;</code>
        */
       public io.dstore.values.StringValue getAuthor() {
         if (authorBuilder_ == null) {
@@ -3277,7 +3277,7 @@ public final class FoCopyPostingPu {
         }
       }
       /**
-       * <code>optional .dstore.values.StringValue author = 11;</code>
+       * <code>.dstore.values.StringValue author = 11;</code>
        */
       public Builder setAuthor(io.dstore.values.StringValue value) {
         if (authorBuilder_ == null) {
@@ -3293,7 +3293,7 @@ public final class FoCopyPostingPu {
         return this;
       }
       /**
-       * <code>optional .dstore.values.StringValue author = 11;</code>
+       * <code>.dstore.values.StringValue author = 11;</code>
        */
       public Builder setAuthor(
           io.dstore.values.StringValue.Builder builderForValue) {
@@ -3307,7 +3307,7 @@ public final class FoCopyPostingPu {
         return this;
       }
       /**
-       * <code>optional .dstore.values.StringValue author = 11;</code>
+       * <code>.dstore.values.StringValue author = 11;</code>
        */
       public Builder mergeAuthor(io.dstore.values.StringValue value) {
         if (authorBuilder_ == null) {
@@ -3325,7 +3325,7 @@ public final class FoCopyPostingPu {
         return this;
       }
       /**
-       * <code>optional .dstore.values.StringValue author = 11;</code>
+       * <code>.dstore.values.StringValue author = 11;</code>
        */
       public Builder clearAuthor() {
         if (authorBuilder_ == null) {
@@ -3339,7 +3339,7 @@ public final class FoCopyPostingPu {
         return this;
       }
       /**
-       * <code>optional .dstore.values.StringValue author = 11;</code>
+       * <code>.dstore.values.StringValue author = 11;</code>
        */
       public io.dstore.values.StringValue.Builder getAuthorBuilder() {
         
@@ -3347,7 +3347,7 @@ public final class FoCopyPostingPu {
         return getAuthorFieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .dstore.values.StringValue author = 11;</code>
+       * <code>.dstore.values.StringValue author = 11;</code>
        */
       public io.dstore.values.StringValueOrBuilder getAuthorOrBuilder() {
         if (authorBuilder_ != null) {
@@ -3358,7 +3358,7 @@ public final class FoCopyPostingPu {
         }
       }
       /**
-       * <code>optional .dstore.values.StringValue author = 11;</code>
+       * <code>.dstore.values.StringValue author = 11;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.values.StringValue, io.dstore.values.StringValue.Builder, io.dstore.values.StringValueOrBuilder> 
@@ -3376,13 +3376,13 @@ public final class FoCopyPostingPu {
 
       private boolean authorNull_ ;
       /**
-       * <code>optional bool author_null = 1011;</code>
+       * <code>bool author_null = 1011;</code>
        */
       public boolean getAuthorNull() {
         return authorNull_;
       }
       /**
-       * <code>optional bool author_null = 1011;</code>
+       * <code>bool author_null = 1011;</code>
        */
       public Builder setAuthorNull(boolean value) {
         
@@ -3391,7 +3391,7 @@ public final class FoCopyPostingPu {
         return this;
       }
       /**
-       * <code>optional bool author_null = 1011;</code>
+       * <code>bool author_null = 1011;</code>
        */
       public Builder clearAuthorNull() {
         
@@ -3404,13 +3404,13 @@ public final class FoCopyPostingPu {
       private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.values.StringValue, io.dstore.values.StringValue.Builder, io.dstore.values.StringValueOrBuilder> eMailOfAuthorBuilder_;
       /**
-       * <code>optional .dstore.values.StringValue e_mail_of_author = 12;</code>
+       * <code>.dstore.values.StringValue e_mail_of_author = 12;</code>
        */
       public boolean hasEMailOfAuthor() {
         return eMailOfAuthorBuilder_ != null || eMailOfAuthor_ != null;
       }
       /**
-       * <code>optional .dstore.values.StringValue e_mail_of_author = 12;</code>
+       * <code>.dstore.values.StringValue e_mail_of_author = 12;</code>
        */
       public io.dstore.values.StringValue getEMailOfAuthor() {
         if (eMailOfAuthorBuilder_ == null) {
@@ -3420,7 +3420,7 @@ public final class FoCopyPostingPu {
         }
       }
       /**
-       * <code>optional .dstore.values.StringValue e_mail_of_author = 12;</code>
+       * <code>.dstore.values.StringValue e_mail_of_author = 12;</code>
        */
       public Builder setEMailOfAuthor(io.dstore.values.StringValue value) {
         if (eMailOfAuthorBuilder_ == null) {
@@ -3436,7 +3436,7 @@ public final class FoCopyPostingPu {
         return this;
       }
       /**
-       * <code>optional .dstore.values.StringValue e_mail_of_author = 12;</code>
+       * <code>.dstore.values.StringValue e_mail_of_author = 12;</code>
        */
       public Builder setEMailOfAuthor(
           io.dstore.values.StringValue.Builder builderForValue) {
@@ -3450,7 +3450,7 @@ public final class FoCopyPostingPu {
         return this;
       }
       /**
-       * <code>optional .dstore.values.StringValue e_mail_of_author = 12;</code>
+       * <code>.dstore.values.StringValue e_mail_of_author = 12;</code>
        */
       public Builder mergeEMailOfAuthor(io.dstore.values.StringValue value) {
         if (eMailOfAuthorBuilder_ == null) {
@@ -3468,7 +3468,7 @@ public final class FoCopyPostingPu {
         return this;
       }
       /**
-       * <code>optional .dstore.values.StringValue e_mail_of_author = 12;</code>
+       * <code>.dstore.values.StringValue e_mail_of_author = 12;</code>
        */
       public Builder clearEMailOfAuthor() {
         if (eMailOfAuthorBuilder_ == null) {
@@ -3482,7 +3482,7 @@ public final class FoCopyPostingPu {
         return this;
       }
       /**
-       * <code>optional .dstore.values.StringValue e_mail_of_author = 12;</code>
+       * <code>.dstore.values.StringValue e_mail_of_author = 12;</code>
        */
       public io.dstore.values.StringValue.Builder getEMailOfAuthorBuilder() {
         
@@ -3490,7 +3490,7 @@ public final class FoCopyPostingPu {
         return getEMailOfAuthorFieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .dstore.values.StringValue e_mail_of_author = 12;</code>
+       * <code>.dstore.values.StringValue e_mail_of_author = 12;</code>
        */
       public io.dstore.values.StringValueOrBuilder getEMailOfAuthorOrBuilder() {
         if (eMailOfAuthorBuilder_ != null) {
@@ -3501,7 +3501,7 @@ public final class FoCopyPostingPu {
         }
       }
       /**
-       * <code>optional .dstore.values.StringValue e_mail_of_author = 12;</code>
+       * <code>.dstore.values.StringValue e_mail_of_author = 12;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.values.StringValue, io.dstore.values.StringValue.Builder, io.dstore.values.StringValueOrBuilder> 
@@ -3519,13 +3519,13 @@ public final class FoCopyPostingPu {
 
       private boolean eMailOfAuthorNull_ ;
       /**
-       * <code>optional bool e_mail_of_author_null = 1012;</code>
+       * <code>bool e_mail_of_author_null = 1012;</code>
        */
       public boolean getEMailOfAuthorNull() {
         return eMailOfAuthorNull_;
       }
       /**
-       * <code>optional bool e_mail_of_author_null = 1012;</code>
+       * <code>bool e_mail_of_author_null = 1012;</code>
        */
       public Builder setEMailOfAuthorNull(boolean value) {
         
@@ -3534,7 +3534,7 @@ public final class FoCopyPostingPu {
         return this;
       }
       /**
-       * <code>optional bool e_mail_of_author_null = 1012;</code>
+       * <code>bool e_mail_of_author_null = 1012;</code>
        */
       public Builder clearEMailOfAuthorNull() {
         
@@ -3547,13 +3547,13 @@ public final class FoCopyPostingPu {
       private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.values.StringValue, io.dstore.values.StringValue.Builder, io.dstore.values.StringValueOrBuilder> separatorInIdentValsBuilder_;
       /**
-       * <code>optional .dstore.values.StringValue separator_in_ident_vals = 13;</code>
+       * <code>.dstore.values.StringValue separator_in_ident_vals = 13;</code>
        */
       public boolean hasSeparatorInIdentVals() {
         return separatorInIdentValsBuilder_ != null || separatorInIdentVals_ != null;
       }
       /**
-       * <code>optional .dstore.values.StringValue separator_in_ident_vals = 13;</code>
+       * <code>.dstore.values.StringValue separator_in_ident_vals = 13;</code>
        */
       public io.dstore.values.StringValue getSeparatorInIdentVals() {
         if (separatorInIdentValsBuilder_ == null) {
@@ -3563,7 +3563,7 @@ public final class FoCopyPostingPu {
         }
       }
       /**
-       * <code>optional .dstore.values.StringValue separator_in_ident_vals = 13;</code>
+       * <code>.dstore.values.StringValue separator_in_ident_vals = 13;</code>
        */
       public Builder setSeparatorInIdentVals(io.dstore.values.StringValue value) {
         if (separatorInIdentValsBuilder_ == null) {
@@ -3579,7 +3579,7 @@ public final class FoCopyPostingPu {
         return this;
       }
       /**
-       * <code>optional .dstore.values.StringValue separator_in_ident_vals = 13;</code>
+       * <code>.dstore.values.StringValue separator_in_ident_vals = 13;</code>
        */
       public Builder setSeparatorInIdentVals(
           io.dstore.values.StringValue.Builder builderForValue) {
@@ -3593,7 +3593,7 @@ public final class FoCopyPostingPu {
         return this;
       }
       /**
-       * <code>optional .dstore.values.StringValue separator_in_ident_vals = 13;</code>
+       * <code>.dstore.values.StringValue separator_in_ident_vals = 13;</code>
        */
       public Builder mergeSeparatorInIdentVals(io.dstore.values.StringValue value) {
         if (separatorInIdentValsBuilder_ == null) {
@@ -3611,7 +3611,7 @@ public final class FoCopyPostingPu {
         return this;
       }
       /**
-       * <code>optional .dstore.values.StringValue separator_in_ident_vals = 13;</code>
+       * <code>.dstore.values.StringValue separator_in_ident_vals = 13;</code>
        */
       public Builder clearSeparatorInIdentVals() {
         if (separatorInIdentValsBuilder_ == null) {
@@ -3625,7 +3625,7 @@ public final class FoCopyPostingPu {
         return this;
       }
       /**
-       * <code>optional .dstore.values.StringValue separator_in_ident_vals = 13;</code>
+       * <code>.dstore.values.StringValue separator_in_ident_vals = 13;</code>
        */
       public io.dstore.values.StringValue.Builder getSeparatorInIdentValsBuilder() {
         
@@ -3633,7 +3633,7 @@ public final class FoCopyPostingPu {
         return getSeparatorInIdentValsFieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .dstore.values.StringValue separator_in_ident_vals = 13;</code>
+       * <code>.dstore.values.StringValue separator_in_ident_vals = 13;</code>
        */
       public io.dstore.values.StringValueOrBuilder getSeparatorInIdentValsOrBuilder() {
         if (separatorInIdentValsBuilder_ != null) {
@@ -3644,7 +3644,7 @@ public final class FoCopyPostingPu {
         }
       }
       /**
-       * <code>optional .dstore.values.StringValue separator_in_ident_vals = 13;</code>
+       * <code>.dstore.values.StringValue separator_in_ident_vals = 13;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.values.StringValue, io.dstore.values.StringValue.Builder, io.dstore.values.StringValueOrBuilder> 
@@ -3662,13 +3662,13 @@ public final class FoCopyPostingPu {
 
       private boolean separatorInIdentValsNull_ ;
       /**
-       * <code>optional bool separator_in_ident_vals_null = 1013;</code>
+       * <code>bool separator_in_ident_vals_null = 1013;</code>
        */
       public boolean getSeparatorInIdentValsNull() {
         return separatorInIdentValsNull_;
       }
       /**
-       * <code>optional bool separator_in_ident_vals_null = 1013;</code>
+       * <code>bool separator_in_ident_vals_null = 1013;</code>
        */
       public Builder setSeparatorInIdentValsNull(boolean value) {
         
@@ -3677,7 +3677,7 @@ public final class FoCopyPostingPu {
         return this;
       }
       /**
-       * <code>optional bool separator_in_ident_vals_null = 1013;</code>
+       * <code>bool separator_in_ident_vals_null = 1013;</code>
        */
       public Builder clearSeparatorInIdentValsNull() {
         
@@ -3936,7 +3936,7 @@ public final class FoCopyPostingPu {
         com.google.protobuf.MessageOrBuilder {
 
       /**
-       * <code>optional int32 row_id = 10000;</code>
+       * <code>int32 row_id = 10000;</code>
        */
       int getRowId();
     }
@@ -4011,7 +4011,7 @@ public final class FoCopyPostingPu {
       public static final int ROW_ID_FIELD_NUMBER = 10000;
       private int rowId_;
       /**
-       * <code>optional int32 row_id = 10000;</code>
+       * <code>int32 row_id = 10000;</code>
        */
       public int getRowId() {
         return rowId_;
@@ -4070,7 +4070,7 @@ public final class FoCopyPostingPu {
           return memoizedHashCode;
         }
         int hash = 41;
-        hash = (19 * hash) + getDescriptorForType().hashCode();
+        hash = (19 * hash) + getDescriptor().hashCode();
         hash = (37 * hash) + ROW_ID_FIELD_NUMBER;
         hash = (53 * hash) + getRowId();
         hash = (29 * hash) + unknownFields.hashCode();
@@ -4288,13 +4288,13 @@ public final class FoCopyPostingPu {
 
         private int rowId_ ;
         /**
-         * <code>optional int32 row_id = 10000;</code>
+         * <code>int32 row_id = 10000;</code>
          */
         public int getRowId() {
           return rowId_;
         }
         /**
-         * <code>optional int32 row_id = 10000;</code>
+         * <code>int32 row_id = 10000;</code>
          */
         public Builder setRowId(int value) {
           
@@ -4303,7 +4303,7 @@ public final class FoCopyPostingPu {
           return this;
         }
         /**
-         * <code>optional int32 row_id = 10000;</code>
+         * <code>int32 row_id = 10000;</code>
          */
         public Builder clearRowId() {
           
@@ -4556,7 +4556,7 @@ public final class FoCopyPostingPu {
         return memoizedHashCode;
       }
       int hash = 41;
-      hash = (19 * hash) + getDescriptorForType().hashCode();
+      hash = (19 * hash) + getDescriptor().hashCode();
       if (getMetaInformationCount() > 0) {
         hash = (37 * hash) + META_INFORMATION_FIELD_NUMBER;
         hash = (53 * hash) + getMetaInformationList().hashCode();

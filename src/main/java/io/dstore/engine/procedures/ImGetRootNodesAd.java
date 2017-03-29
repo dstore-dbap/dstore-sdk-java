@@ -19,38 +19,38 @@ public final class ImGetRootNodesAd {
       com.google.protobuf.MessageOrBuilder {
 
     /**
-     * <code>optional .dstore.values.BooleanValue only_active = 1;</code>
+     * <code>.dstore.values.BooleanValue only_active = 1;</code>
      */
     boolean hasOnlyActive();
     /**
-     * <code>optional .dstore.values.BooleanValue only_active = 1;</code>
+     * <code>.dstore.values.BooleanValue only_active = 1;</code>
      */
     io.dstore.values.BooleanValue getOnlyActive();
     /**
-     * <code>optional .dstore.values.BooleanValue only_active = 1;</code>
+     * <code>.dstore.values.BooleanValue only_active = 1;</code>
      */
     io.dstore.values.BooleanValueOrBuilder getOnlyActiveOrBuilder();
 
     /**
-     * <code>optional bool only_active_null = 1001;</code>
+     * <code>bool only_active_null = 1001;</code>
      */
     boolean getOnlyActiveNull();
 
     /**
-     * <code>optional .dstore.values.BooleanValue only_not_deleted = 2;</code>
+     * <code>.dstore.values.BooleanValue only_not_deleted = 2;</code>
      */
     boolean hasOnlyNotDeleted();
     /**
-     * <code>optional .dstore.values.BooleanValue only_not_deleted = 2;</code>
+     * <code>.dstore.values.BooleanValue only_not_deleted = 2;</code>
      */
     io.dstore.values.BooleanValue getOnlyNotDeleted();
     /**
-     * <code>optional .dstore.values.BooleanValue only_not_deleted = 2;</code>
+     * <code>.dstore.values.BooleanValue only_not_deleted = 2;</code>
      */
     io.dstore.values.BooleanValueOrBuilder getOnlyNotDeletedOrBuilder();
 
     /**
-     * <code>optional bool only_not_deleted_null = 1002;</code>
+     * <code>bool only_not_deleted_null = 1002;</code>
      */
     boolean getOnlyNotDeletedNull();
   }
@@ -157,19 +157,19 @@ public final class ImGetRootNodesAd {
     public static final int ONLY_ACTIVE_FIELD_NUMBER = 1;
     private io.dstore.values.BooleanValue onlyActive_;
     /**
-     * <code>optional .dstore.values.BooleanValue only_active = 1;</code>
+     * <code>.dstore.values.BooleanValue only_active = 1;</code>
      */
     public boolean hasOnlyActive() {
       return onlyActive_ != null;
     }
     /**
-     * <code>optional .dstore.values.BooleanValue only_active = 1;</code>
+     * <code>.dstore.values.BooleanValue only_active = 1;</code>
      */
     public io.dstore.values.BooleanValue getOnlyActive() {
       return onlyActive_ == null ? io.dstore.values.BooleanValue.getDefaultInstance() : onlyActive_;
     }
     /**
-     * <code>optional .dstore.values.BooleanValue only_active = 1;</code>
+     * <code>.dstore.values.BooleanValue only_active = 1;</code>
      */
     public io.dstore.values.BooleanValueOrBuilder getOnlyActiveOrBuilder() {
       return getOnlyActive();
@@ -178,7 +178,7 @@ public final class ImGetRootNodesAd {
     public static final int ONLY_ACTIVE_NULL_FIELD_NUMBER = 1001;
     private boolean onlyActiveNull_;
     /**
-     * <code>optional bool only_active_null = 1001;</code>
+     * <code>bool only_active_null = 1001;</code>
      */
     public boolean getOnlyActiveNull() {
       return onlyActiveNull_;
@@ -187,19 +187,19 @@ public final class ImGetRootNodesAd {
     public static final int ONLY_NOT_DELETED_FIELD_NUMBER = 2;
     private io.dstore.values.BooleanValue onlyNotDeleted_;
     /**
-     * <code>optional .dstore.values.BooleanValue only_not_deleted = 2;</code>
+     * <code>.dstore.values.BooleanValue only_not_deleted = 2;</code>
      */
     public boolean hasOnlyNotDeleted() {
       return onlyNotDeleted_ != null;
     }
     /**
-     * <code>optional .dstore.values.BooleanValue only_not_deleted = 2;</code>
+     * <code>.dstore.values.BooleanValue only_not_deleted = 2;</code>
      */
     public io.dstore.values.BooleanValue getOnlyNotDeleted() {
       return onlyNotDeleted_ == null ? io.dstore.values.BooleanValue.getDefaultInstance() : onlyNotDeleted_;
     }
     /**
-     * <code>optional .dstore.values.BooleanValue only_not_deleted = 2;</code>
+     * <code>.dstore.values.BooleanValue only_not_deleted = 2;</code>
      */
     public io.dstore.values.BooleanValueOrBuilder getOnlyNotDeletedOrBuilder() {
       return getOnlyNotDeleted();
@@ -208,7 +208,7 @@ public final class ImGetRootNodesAd {
     public static final int ONLY_NOT_DELETED_NULL_FIELD_NUMBER = 1002;
     private boolean onlyNotDeletedNull_;
     /**
-     * <code>optional bool only_not_deleted_null = 1002;</code>
+     * <code>bool only_not_deleted_null = 1002;</code>
      */
     public boolean getOnlyNotDeletedNull() {
       return onlyNotDeletedNull_;
@@ -300,7 +300,7 @@ public final class ImGetRootNodesAd {
         return memoizedHashCode;
       }
       int hash = 41;
-      hash = (19 * hash) + getDescriptorForType().hashCode();
+      hash = (19 * hash) + getDescriptor().hashCode();
       if (hasOnlyActive()) {
         hash = (37 * hash) + ONLY_ACTIVE_FIELD_NUMBER;
         hash = (53 * hash) + getOnlyActive().hashCode();
@@ -566,13 +566,13 @@ public final class ImGetRootNodesAd {
       private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.values.BooleanValue, io.dstore.values.BooleanValue.Builder, io.dstore.values.BooleanValueOrBuilder> onlyActiveBuilder_;
       /**
-       * <code>optional .dstore.values.BooleanValue only_active = 1;</code>
+       * <code>.dstore.values.BooleanValue only_active = 1;</code>
        */
       public boolean hasOnlyActive() {
         return onlyActiveBuilder_ != null || onlyActive_ != null;
       }
       /**
-       * <code>optional .dstore.values.BooleanValue only_active = 1;</code>
+       * <code>.dstore.values.BooleanValue only_active = 1;</code>
        */
       public io.dstore.values.BooleanValue getOnlyActive() {
         if (onlyActiveBuilder_ == null) {
@@ -582,7 +582,7 @@ public final class ImGetRootNodesAd {
         }
       }
       /**
-       * <code>optional .dstore.values.BooleanValue only_active = 1;</code>
+       * <code>.dstore.values.BooleanValue only_active = 1;</code>
        */
       public Builder setOnlyActive(io.dstore.values.BooleanValue value) {
         if (onlyActiveBuilder_ == null) {
@@ -598,7 +598,7 @@ public final class ImGetRootNodesAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.BooleanValue only_active = 1;</code>
+       * <code>.dstore.values.BooleanValue only_active = 1;</code>
        */
       public Builder setOnlyActive(
           io.dstore.values.BooleanValue.Builder builderForValue) {
@@ -612,7 +612,7 @@ public final class ImGetRootNodesAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.BooleanValue only_active = 1;</code>
+       * <code>.dstore.values.BooleanValue only_active = 1;</code>
        */
       public Builder mergeOnlyActive(io.dstore.values.BooleanValue value) {
         if (onlyActiveBuilder_ == null) {
@@ -630,7 +630,7 @@ public final class ImGetRootNodesAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.BooleanValue only_active = 1;</code>
+       * <code>.dstore.values.BooleanValue only_active = 1;</code>
        */
       public Builder clearOnlyActive() {
         if (onlyActiveBuilder_ == null) {
@@ -644,7 +644,7 @@ public final class ImGetRootNodesAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.BooleanValue only_active = 1;</code>
+       * <code>.dstore.values.BooleanValue only_active = 1;</code>
        */
       public io.dstore.values.BooleanValue.Builder getOnlyActiveBuilder() {
         
@@ -652,7 +652,7 @@ public final class ImGetRootNodesAd {
         return getOnlyActiveFieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .dstore.values.BooleanValue only_active = 1;</code>
+       * <code>.dstore.values.BooleanValue only_active = 1;</code>
        */
       public io.dstore.values.BooleanValueOrBuilder getOnlyActiveOrBuilder() {
         if (onlyActiveBuilder_ != null) {
@@ -663,7 +663,7 @@ public final class ImGetRootNodesAd {
         }
       }
       /**
-       * <code>optional .dstore.values.BooleanValue only_active = 1;</code>
+       * <code>.dstore.values.BooleanValue only_active = 1;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.values.BooleanValue, io.dstore.values.BooleanValue.Builder, io.dstore.values.BooleanValueOrBuilder> 
@@ -681,13 +681,13 @@ public final class ImGetRootNodesAd {
 
       private boolean onlyActiveNull_ ;
       /**
-       * <code>optional bool only_active_null = 1001;</code>
+       * <code>bool only_active_null = 1001;</code>
        */
       public boolean getOnlyActiveNull() {
         return onlyActiveNull_;
       }
       /**
-       * <code>optional bool only_active_null = 1001;</code>
+       * <code>bool only_active_null = 1001;</code>
        */
       public Builder setOnlyActiveNull(boolean value) {
         
@@ -696,7 +696,7 @@ public final class ImGetRootNodesAd {
         return this;
       }
       /**
-       * <code>optional bool only_active_null = 1001;</code>
+       * <code>bool only_active_null = 1001;</code>
        */
       public Builder clearOnlyActiveNull() {
         
@@ -709,13 +709,13 @@ public final class ImGetRootNodesAd {
       private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.values.BooleanValue, io.dstore.values.BooleanValue.Builder, io.dstore.values.BooleanValueOrBuilder> onlyNotDeletedBuilder_;
       /**
-       * <code>optional .dstore.values.BooleanValue only_not_deleted = 2;</code>
+       * <code>.dstore.values.BooleanValue only_not_deleted = 2;</code>
        */
       public boolean hasOnlyNotDeleted() {
         return onlyNotDeletedBuilder_ != null || onlyNotDeleted_ != null;
       }
       /**
-       * <code>optional .dstore.values.BooleanValue only_not_deleted = 2;</code>
+       * <code>.dstore.values.BooleanValue only_not_deleted = 2;</code>
        */
       public io.dstore.values.BooleanValue getOnlyNotDeleted() {
         if (onlyNotDeletedBuilder_ == null) {
@@ -725,7 +725,7 @@ public final class ImGetRootNodesAd {
         }
       }
       /**
-       * <code>optional .dstore.values.BooleanValue only_not_deleted = 2;</code>
+       * <code>.dstore.values.BooleanValue only_not_deleted = 2;</code>
        */
       public Builder setOnlyNotDeleted(io.dstore.values.BooleanValue value) {
         if (onlyNotDeletedBuilder_ == null) {
@@ -741,7 +741,7 @@ public final class ImGetRootNodesAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.BooleanValue only_not_deleted = 2;</code>
+       * <code>.dstore.values.BooleanValue only_not_deleted = 2;</code>
        */
       public Builder setOnlyNotDeleted(
           io.dstore.values.BooleanValue.Builder builderForValue) {
@@ -755,7 +755,7 @@ public final class ImGetRootNodesAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.BooleanValue only_not_deleted = 2;</code>
+       * <code>.dstore.values.BooleanValue only_not_deleted = 2;</code>
        */
       public Builder mergeOnlyNotDeleted(io.dstore.values.BooleanValue value) {
         if (onlyNotDeletedBuilder_ == null) {
@@ -773,7 +773,7 @@ public final class ImGetRootNodesAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.BooleanValue only_not_deleted = 2;</code>
+       * <code>.dstore.values.BooleanValue only_not_deleted = 2;</code>
        */
       public Builder clearOnlyNotDeleted() {
         if (onlyNotDeletedBuilder_ == null) {
@@ -787,7 +787,7 @@ public final class ImGetRootNodesAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.BooleanValue only_not_deleted = 2;</code>
+       * <code>.dstore.values.BooleanValue only_not_deleted = 2;</code>
        */
       public io.dstore.values.BooleanValue.Builder getOnlyNotDeletedBuilder() {
         
@@ -795,7 +795,7 @@ public final class ImGetRootNodesAd {
         return getOnlyNotDeletedFieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .dstore.values.BooleanValue only_not_deleted = 2;</code>
+       * <code>.dstore.values.BooleanValue only_not_deleted = 2;</code>
        */
       public io.dstore.values.BooleanValueOrBuilder getOnlyNotDeletedOrBuilder() {
         if (onlyNotDeletedBuilder_ != null) {
@@ -806,7 +806,7 @@ public final class ImGetRootNodesAd {
         }
       }
       /**
-       * <code>optional .dstore.values.BooleanValue only_not_deleted = 2;</code>
+       * <code>.dstore.values.BooleanValue only_not_deleted = 2;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.values.BooleanValue, io.dstore.values.BooleanValue.Builder, io.dstore.values.BooleanValueOrBuilder> 
@@ -824,13 +824,13 @@ public final class ImGetRootNodesAd {
 
       private boolean onlyNotDeletedNull_ ;
       /**
-       * <code>optional bool only_not_deleted_null = 1002;</code>
+       * <code>bool only_not_deleted_null = 1002;</code>
        */
       public boolean getOnlyNotDeletedNull() {
         return onlyNotDeletedNull_;
       }
       /**
-       * <code>optional bool only_not_deleted_null = 1002;</code>
+       * <code>bool only_not_deleted_null = 1002;</code>
        */
       public Builder setOnlyNotDeletedNull(boolean value) {
         
@@ -839,7 +839,7 @@ public final class ImGetRootNodesAd {
         return this;
       }
       /**
-       * <code>optional bool only_not_deleted_null = 1002;</code>
+       * <code>bool only_not_deleted_null = 1002;</code>
        */
       public Builder clearOnlyNotDeletedNull() {
         
@@ -1098,7 +1098,7 @@ public final class ImGetRootNodesAd {
         com.google.protobuf.MessageOrBuilder {
 
       /**
-       * <code>optional int32 row_id = 10000;</code>
+       * <code>int32 row_id = 10000;</code>
        */
       int getRowId();
 
@@ -1107,7 +1107,7 @@ public final class ImGetRootNodesAd {
        * Bezeichnung der "NodeID"
        * </pre>
        *
-       * <code>optional .dstore.values.StringValue node_description = 10001;</code>
+       * <code>.dstore.values.StringValue node_description = 10001;</code>
        */
       boolean hasNodeDescription();
       /**
@@ -1115,7 +1115,7 @@ public final class ImGetRootNodesAd {
        * Bezeichnung der "NodeID"
        * </pre>
        *
-       * <code>optional .dstore.values.StringValue node_description = 10001;</code>
+       * <code>.dstore.values.StringValue node_description = 10001;</code>
        */
       io.dstore.values.StringValue getNodeDescription();
       /**
@@ -1123,7 +1123,7 @@ public final class ImGetRootNodesAd {
        * Bezeichnung der "NodeID"
        * </pre>
        *
-       * <code>optional .dstore.values.StringValue node_description = 10001;</code>
+       * <code>.dstore.values.StringValue node_description = 10001;</code>
        */
       io.dstore.values.StringValueOrBuilder getNodeDescriptionOrBuilder();
 
@@ -1132,7 +1132,7 @@ public final class ImGetRootNodesAd {
        * Ist "TreeNodeID" z.Zt. aktiviert ? ("0" : Nein, "1" : Ja)
        * </pre>
        *
-       * <code>optional .dstore.values.BooleanValue active = 10002;</code>
+       * <code>.dstore.values.BooleanValue active = 10002;</code>
        */
       boolean hasActive();
       /**
@@ -1140,7 +1140,7 @@ public final class ImGetRootNodesAd {
        * Ist "TreeNodeID" z.Zt. aktiviert ? ("0" : Nein, "1" : Ja)
        * </pre>
        *
-       * <code>optional .dstore.values.BooleanValue active = 10002;</code>
+       * <code>.dstore.values.BooleanValue active = 10002;</code>
        */
       io.dstore.values.BooleanValue getActive();
       /**
@@ -1148,7 +1148,7 @@ public final class ImGetRootNodesAd {
        * Ist "TreeNodeID" z.Zt. aktiviert ? ("0" : Nein, "1" : Ja)
        * </pre>
        *
-       * <code>optional .dstore.values.BooleanValue active = 10002;</code>
+       * <code>.dstore.values.BooleanValue active = 10002;</code>
        */
       io.dstore.values.BooleanValueOrBuilder getActiveOrBuilder();
 
@@ -1157,7 +1157,7 @@ public final class ImGetRootNodesAd {
        * Nummer der Hierarchie der "NodeID" (sollte immer "1" sein)
        * </pre>
        *
-       * <code>optional .dstore.values.IntegerValue level_no = 10003;</code>
+       * <code>.dstore.values.IntegerValue level_no = 10003;</code>
        */
       boolean hasLevelNo();
       /**
@@ -1165,7 +1165,7 @@ public final class ImGetRootNodesAd {
        * Nummer der Hierarchie der "NodeID" (sollte immer "1" sein)
        * </pre>
        *
-       * <code>optional .dstore.values.IntegerValue level_no = 10003;</code>
+       * <code>.dstore.values.IntegerValue level_no = 10003;</code>
        */
       io.dstore.values.IntegerValue getLevelNo();
       /**
@@ -1173,7 +1173,7 @@ public final class ImGetRootNodesAd {
        * Nummer der Hierarchie der "NodeID" (sollte immer "1" sein)
        * </pre>
        *
-       * <code>optional .dstore.values.IntegerValue level_no = 10003;</code>
+       * <code>.dstore.values.IntegerValue level_no = 10003;</code>
        */
       io.dstore.values.IntegerValueOrBuilder getLevelNoOrBuilder();
 
@@ -1182,7 +1182,7 @@ public final class ImGetRootNodesAd {
        * ID des zur "TreeNodeID" zugehörigen Elementes aus der Tabelle "dStore"
        * </pre>
        *
-       * <code>optional .dstore.values.IntegerValue node_id = 10004;</code>
+       * <code>.dstore.values.IntegerValue node_id = 10004;</code>
        */
       boolean hasNodeId();
       /**
@@ -1190,7 +1190,7 @@ public final class ImGetRootNodesAd {
        * ID des zur "TreeNodeID" zugehörigen Elementes aus der Tabelle "dStore"
        * </pre>
        *
-       * <code>optional .dstore.values.IntegerValue node_id = 10004;</code>
+       * <code>.dstore.values.IntegerValue node_id = 10004;</code>
        */
       io.dstore.values.IntegerValue getNodeId();
       /**
@@ -1198,7 +1198,7 @@ public final class ImGetRootNodesAd {
        * ID des zur "TreeNodeID" zugehörigen Elementes aus der Tabelle "dStore"
        * </pre>
        *
-       * <code>optional .dstore.values.IntegerValue node_id = 10004;</code>
+       * <code>.dstore.values.IntegerValue node_id = 10004;</code>
        */
       io.dstore.values.IntegerValueOrBuilder getNodeIdOrBuilder();
 
@@ -1207,7 +1207,7 @@ public final class ImGetRootNodesAd {
        * ID eines "Wurzel"-Elementes. Für den Artikelbaum gibt es nur ein Wurzel-Element, das die ID "0" hat. Alle anderen (sogenannten "PageTreeNodes") haben eine ID kleiner "0".
        * </pre>
        *
-       * <code>optional .dstore.values.IntegerValue tree_node_id = 10005;</code>
+       * <code>.dstore.values.IntegerValue tree_node_id = 10005;</code>
        */
       boolean hasTreeNodeId();
       /**
@@ -1215,7 +1215,7 @@ public final class ImGetRootNodesAd {
        * ID eines "Wurzel"-Elementes. Für den Artikelbaum gibt es nur ein Wurzel-Element, das die ID "0" hat. Alle anderen (sogenannten "PageTreeNodes") haben eine ID kleiner "0".
        * </pre>
        *
-       * <code>optional .dstore.values.IntegerValue tree_node_id = 10005;</code>
+       * <code>.dstore.values.IntegerValue tree_node_id = 10005;</code>
        */
       io.dstore.values.IntegerValue getTreeNodeId();
       /**
@@ -1223,7 +1223,7 @@ public final class ImGetRootNodesAd {
        * ID eines "Wurzel"-Elementes. Für den Artikelbaum gibt es nur ein Wurzel-Element, das die ID "0" hat. Alle anderen (sogenannten "PageTreeNodes") haben eine ID kleiner "0".
        * </pre>
        *
-       * <code>optional .dstore.values.IntegerValue tree_node_id = 10005;</code>
+       * <code>.dstore.values.IntegerValue tree_node_id = 10005;</code>
        */
       io.dstore.values.IntegerValueOrBuilder getTreeNodeIdOrBuilder();
 
@@ -1232,7 +1232,7 @@ public final class ImGetRootNodesAd {
        * Wieviele direkte Nachfolger-Elemente besitzt "TreeNodeID" ? ACHTUNG : Bei der Ermittlung dieser Zahl wird ebenfalls "&#64;OnlyActive" und "&#64;OnlyNotDeleted" entsprechend gefiltert !
        * </pre>
        *
-       * <code>optional .dstore.values.IntegerValue count_successors = 10006;</code>
+       * <code>.dstore.values.IntegerValue count_successors = 10006;</code>
        */
       boolean hasCountSuccessors();
       /**
@@ -1240,7 +1240,7 @@ public final class ImGetRootNodesAd {
        * Wieviele direkte Nachfolger-Elemente besitzt "TreeNodeID" ? ACHTUNG : Bei der Ermittlung dieser Zahl wird ebenfalls "&#64;OnlyActive" und "&#64;OnlyNotDeleted" entsprechend gefiltert !
        * </pre>
        *
-       * <code>optional .dstore.values.IntegerValue count_successors = 10006;</code>
+       * <code>.dstore.values.IntegerValue count_successors = 10006;</code>
        */
       io.dstore.values.IntegerValue getCountSuccessors();
       /**
@@ -1248,7 +1248,7 @@ public final class ImGetRootNodesAd {
        * Wieviele direkte Nachfolger-Elemente besitzt "TreeNodeID" ? ACHTUNG : Bei der Ermittlung dieser Zahl wird ebenfalls "&#64;OnlyActive" und "&#64;OnlyNotDeleted" entsprechend gefiltert !
        * </pre>
        *
-       * <code>optional .dstore.values.IntegerValue count_successors = 10006;</code>
+       * <code>.dstore.values.IntegerValue count_successors = 10006;</code>
        */
       io.dstore.values.IntegerValueOrBuilder getCountSuccessorsOrBuilder();
 
@@ -1257,7 +1257,7 @@ public final class ImGetRootNodesAd {
        * Bestimmt die Reihenfolge innerhalb aller Wurzel-Elemente
        * </pre>
        *
-       * <code>optional .dstore.values.IntegerValue sort_no = 10007;</code>
+       * <code>.dstore.values.IntegerValue sort_no = 10007;</code>
        */
       boolean hasSortNo();
       /**
@@ -1265,7 +1265,7 @@ public final class ImGetRootNodesAd {
        * Bestimmt die Reihenfolge innerhalb aller Wurzel-Elemente
        * </pre>
        *
-       * <code>optional .dstore.values.IntegerValue sort_no = 10007;</code>
+       * <code>.dstore.values.IntegerValue sort_no = 10007;</code>
        */
       io.dstore.values.IntegerValue getSortNo();
       /**
@@ -1273,7 +1273,7 @@ public final class ImGetRootNodesAd {
        * Bestimmt die Reihenfolge innerhalb aller Wurzel-Elemente
        * </pre>
        *
-       * <code>optional .dstore.values.IntegerValue sort_no = 10007;</code>
+       * <code>.dstore.values.IntegerValue sort_no = 10007;</code>
        */
       io.dstore.values.IntegerValueOrBuilder getSortNoOrBuilder();
 
@@ -1282,7 +1282,7 @@ public final class ImGetRootNodesAd {
        * ID eines Elementes, von dem Eigenschaften geerbt werden - diese Rückgabespalte hat eigentlich für Wurzel-Elemente keine Bedeutung, da im Regelfall immer vom Vorgänger (die genau diese Elemente ja nicht haben) geerbt wird...
        * </pre>
        *
-       * <code>optional .dstore.values.IntegerValue inherits_from = 10008;</code>
+       * <code>.dstore.values.IntegerValue inherits_from = 10008;</code>
        */
       boolean hasInheritsFrom();
       /**
@@ -1290,7 +1290,7 @@ public final class ImGetRootNodesAd {
        * ID eines Elementes, von dem Eigenschaften geerbt werden - diese Rückgabespalte hat eigentlich für Wurzel-Elemente keine Bedeutung, da im Regelfall immer vom Vorgänger (die genau diese Elemente ja nicht haben) geerbt wird...
        * </pre>
        *
-       * <code>optional .dstore.values.IntegerValue inherits_from = 10008;</code>
+       * <code>.dstore.values.IntegerValue inherits_from = 10008;</code>
        */
       io.dstore.values.IntegerValue getInheritsFrom();
       /**
@@ -1298,7 +1298,7 @@ public final class ImGetRootNodesAd {
        * ID eines Elementes, von dem Eigenschaften geerbt werden - diese Rückgabespalte hat eigentlich für Wurzel-Elemente keine Bedeutung, da im Regelfall immer vom Vorgänger (die genau diese Elemente ja nicht haben) geerbt wird...
        * </pre>
        *
-       * <code>optional .dstore.values.IntegerValue inherits_from = 10008;</code>
+       * <code>.dstore.values.IntegerValue inherits_from = 10008;</code>
        */
       io.dstore.values.IntegerValueOrBuilder getInheritsFromOrBuilder();
 
@@ -1307,7 +1307,7 @@ public final class ImGetRootNodesAd {
        * ID eines Symbols, das der "NodeID" zugeordnet ist
        * </pre>
        *
-       * <code>optional .dstore.values.IntegerValue symbol_id = 10009;</code>
+       * <code>.dstore.values.IntegerValue symbol_id = 10009;</code>
        */
       boolean hasSymbolId();
       /**
@@ -1315,7 +1315,7 @@ public final class ImGetRootNodesAd {
        * ID eines Symbols, das der "NodeID" zugeordnet ist
        * </pre>
        *
-       * <code>optional .dstore.values.IntegerValue symbol_id = 10009;</code>
+       * <code>.dstore.values.IntegerValue symbol_id = 10009;</code>
        */
       io.dstore.values.IntegerValue getSymbolId();
       /**
@@ -1323,7 +1323,7 @@ public final class ImGetRootNodesAd {
        * ID eines Symbols, das der "NodeID" zugeordnet ist
        * </pre>
        *
-       * <code>optional .dstore.values.IntegerValue symbol_id = 10009;</code>
+       * <code>.dstore.values.IntegerValue symbol_id = 10009;</code>
        */
       io.dstore.values.IntegerValueOrBuilder getSymbolIdOrBuilder();
     }
@@ -1515,7 +1515,7 @@ public final class ImGetRootNodesAd {
       public static final int ROW_ID_FIELD_NUMBER = 10000;
       private int rowId_;
       /**
-       * <code>optional int32 row_id = 10000;</code>
+       * <code>int32 row_id = 10000;</code>
        */
       public int getRowId() {
         return rowId_;
@@ -1528,7 +1528,7 @@ public final class ImGetRootNodesAd {
        * Bezeichnung der "NodeID"
        * </pre>
        *
-       * <code>optional .dstore.values.StringValue node_description = 10001;</code>
+       * <code>.dstore.values.StringValue node_description = 10001;</code>
        */
       public boolean hasNodeDescription() {
         return nodeDescription_ != null;
@@ -1538,7 +1538,7 @@ public final class ImGetRootNodesAd {
        * Bezeichnung der "NodeID"
        * </pre>
        *
-       * <code>optional .dstore.values.StringValue node_description = 10001;</code>
+       * <code>.dstore.values.StringValue node_description = 10001;</code>
        */
       public io.dstore.values.StringValue getNodeDescription() {
         return nodeDescription_ == null ? io.dstore.values.StringValue.getDefaultInstance() : nodeDescription_;
@@ -1548,7 +1548,7 @@ public final class ImGetRootNodesAd {
        * Bezeichnung der "NodeID"
        * </pre>
        *
-       * <code>optional .dstore.values.StringValue node_description = 10001;</code>
+       * <code>.dstore.values.StringValue node_description = 10001;</code>
        */
       public io.dstore.values.StringValueOrBuilder getNodeDescriptionOrBuilder() {
         return getNodeDescription();
@@ -1561,7 +1561,7 @@ public final class ImGetRootNodesAd {
        * Ist "TreeNodeID" z.Zt. aktiviert ? ("0" : Nein, "1" : Ja)
        * </pre>
        *
-       * <code>optional .dstore.values.BooleanValue active = 10002;</code>
+       * <code>.dstore.values.BooleanValue active = 10002;</code>
        */
       public boolean hasActive() {
         return active_ != null;
@@ -1571,7 +1571,7 @@ public final class ImGetRootNodesAd {
        * Ist "TreeNodeID" z.Zt. aktiviert ? ("0" : Nein, "1" : Ja)
        * </pre>
        *
-       * <code>optional .dstore.values.BooleanValue active = 10002;</code>
+       * <code>.dstore.values.BooleanValue active = 10002;</code>
        */
       public io.dstore.values.BooleanValue getActive() {
         return active_ == null ? io.dstore.values.BooleanValue.getDefaultInstance() : active_;
@@ -1581,7 +1581,7 @@ public final class ImGetRootNodesAd {
        * Ist "TreeNodeID" z.Zt. aktiviert ? ("0" : Nein, "1" : Ja)
        * </pre>
        *
-       * <code>optional .dstore.values.BooleanValue active = 10002;</code>
+       * <code>.dstore.values.BooleanValue active = 10002;</code>
        */
       public io.dstore.values.BooleanValueOrBuilder getActiveOrBuilder() {
         return getActive();
@@ -1594,7 +1594,7 @@ public final class ImGetRootNodesAd {
        * Nummer der Hierarchie der "NodeID" (sollte immer "1" sein)
        * </pre>
        *
-       * <code>optional .dstore.values.IntegerValue level_no = 10003;</code>
+       * <code>.dstore.values.IntegerValue level_no = 10003;</code>
        */
       public boolean hasLevelNo() {
         return levelNo_ != null;
@@ -1604,7 +1604,7 @@ public final class ImGetRootNodesAd {
        * Nummer der Hierarchie der "NodeID" (sollte immer "1" sein)
        * </pre>
        *
-       * <code>optional .dstore.values.IntegerValue level_no = 10003;</code>
+       * <code>.dstore.values.IntegerValue level_no = 10003;</code>
        */
       public io.dstore.values.IntegerValue getLevelNo() {
         return levelNo_ == null ? io.dstore.values.IntegerValue.getDefaultInstance() : levelNo_;
@@ -1614,7 +1614,7 @@ public final class ImGetRootNodesAd {
        * Nummer der Hierarchie der "NodeID" (sollte immer "1" sein)
        * </pre>
        *
-       * <code>optional .dstore.values.IntegerValue level_no = 10003;</code>
+       * <code>.dstore.values.IntegerValue level_no = 10003;</code>
        */
       public io.dstore.values.IntegerValueOrBuilder getLevelNoOrBuilder() {
         return getLevelNo();
@@ -1627,7 +1627,7 @@ public final class ImGetRootNodesAd {
        * ID des zur "TreeNodeID" zugehörigen Elementes aus der Tabelle "dStore"
        * </pre>
        *
-       * <code>optional .dstore.values.IntegerValue node_id = 10004;</code>
+       * <code>.dstore.values.IntegerValue node_id = 10004;</code>
        */
       public boolean hasNodeId() {
         return nodeId_ != null;
@@ -1637,7 +1637,7 @@ public final class ImGetRootNodesAd {
        * ID des zur "TreeNodeID" zugehörigen Elementes aus der Tabelle "dStore"
        * </pre>
        *
-       * <code>optional .dstore.values.IntegerValue node_id = 10004;</code>
+       * <code>.dstore.values.IntegerValue node_id = 10004;</code>
        */
       public io.dstore.values.IntegerValue getNodeId() {
         return nodeId_ == null ? io.dstore.values.IntegerValue.getDefaultInstance() : nodeId_;
@@ -1647,7 +1647,7 @@ public final class ImGetRootNodesAd {
        * ID des zur "TreeNodeID" zugehörigen Elementes aus der Tabelle "dStore"
        * </pre>
        *
-       * <code>optional .dstore.values.IntegerValue node_id = 10004;</code>
+       * <code>.dstore.values.IntegerValue node_id = 10004;</code>
        */
       public io.dstore.values.IntegerValueOrBuilder getNodeIdOrBuilder() {
         return getNodeId();
@@ -1660,7 +1660,7 @@ public final class ImGetRootNodesAd {
        * ID eines "Wurzel"-Elementes. Für den Artikelbaum gibt es nur ein Wurzel-Element, das die ID "0" hat. Alle anderen (sogenannten "PageTreeNodes") haben eine ID kleiner "0".
        * </pre>
        *
-       * <code>optional .dstore.values.IntegerValue tree_node_id = 10005;</code>
+       * <code>.dstore.values.IntegerValue tree_node_id = 10005;</code>
        */
       public boolean hasTreeNodeId() {
         return treeNodeId_ != null;
@@ -1670,7 +1670,7 @@ public final class ImGetRootNodesAd {
        * ID eines "Wurzel"-Elementes. Für den Artikelbaum gibt es nur ein Wurzel-Element, das die ID "0" hat. Alle anderen (sogenannten "PageTreeNodes") haben eine ID kleiner "0".
        * </pre>
        *
-       * <code>optional .dstore.values.IntegerValue tree_node_id = 10005;</code>
+       * <code>.dstore.values.IntegerValue tree_node_id = 10005;</code>
        */
       public io.dstore.values.IntegerValue getTreeNodeId() {
         return treeNodeId_ == null ? io.dstore.values.IntegerValue.getDefaultInstance() : treeNodeId_;
@@ -1680,7 +1680,7 @@ public final class ImGetRootNodesAd {
        * ID eines "Wurzel"-Elementes. Für den Artikelbaum gibt es nur ein Wurzel-Element, das die ID "0" hat. Alle anderen (sogenannten "PageTreeNodes") haben eine ID kleiner "0".
        * </pre>
        *
-       * <code>optional .dstore.values.IntegerValue tree_node_id = 10005;</code>
+       * <code>.dstore.values.IntegerValue tree_node_id = 10005;</code>
        */
       public io.dstore.values.IntegerValueOrBuilder getTreeNodeIdOrBuilder() {
         return getTreeNodeId();
@@ -1693,7 +1693,7 @@ public final class ImGetRootNodesAd {
        * Wieviele direkte Nachfolger-Elemente besitzt "TreeNodeID" ? ACHTUNG : Bei der Ermittlung dieser Zahl wird ebenfalls "&#64;OnlyActive" und "&#64;OnlyNotDeleted" entsprechend gefiltert !
        * </pre>
        *
-       * <code>optional .dstore.values.IntegerValue count_successors = 10006;</code>
+       * <code>.dstore.values.IntegerValue count_successors = 10006;</code>
        */
       public boolean hasCountSuccessors() {
         return countSuccessors_ != null;
@@ -1703,7 +1703,7 @@ public final class ImGetRootNodesAd {
        * Wieviele direkte Nachfolger-Elemente besitzt "TreeNodeID" ? ACHTUNG : Bei der Ermittlung dieser Zahl wird ebenfalls "&#64;OnlyActive" und "&#64;OnlyNotDeleted" entsprechend gefiltert !
        * </pre>
        *
-       * <code>optional .dstore.values.IntegerValue count_successors = 10006;</code>
+       * <code>.dstore.values.IntegerValue count_successors = 10006;</code>
        */
       public io.dstore.values.IntegerValue getCountSuccessors() {
         return countSuccessors_ == null ? io.dstore.values.IntegerValue.getDefaultInstance() : countSuccessors_;
@@ -1713,7 +1713,7 @@ public final class ImGetRootNodesAd {
        * Wieviele direkte Nachfolger-Elemente besitzt "TreeNodeID" ? ACHTUNG : Bei der Ermittlung dieser Zahl wird ebenfalls "&#64;OnlyActive" und "&#64;OnlyNotDeleted" entsprechend gefiltert !
        * </pre>
        *
-       * <code>optional .dstore.values.IntegerValue count_successors = 10006;</code>
+       * <code>.dstore.values.IntegerValue count_successors = 10006;</code>
        */
       public io.dstore.values.IntegerValueOrBuilder getCountSuccessorsOrBuilder() {
         return getCountSuccessors();
@@ -1726,7 +1726,7 @@ public final class ImGetRootNodesAd {
        * Bestimmt die Reihenfolge innerhalb aller Wurzel-Elemente
        * </pre>
        *
-       * <code>optional .dstore.values.IntegerValue sort_no = 10007;</code>
+       * <code>.dstore.values.IntegerValue sort_no = 10007;</code>
        */
       public boolean hasSortNo() {
         return sortNo_ != null;
@@ -1736,7 +1736,7 @@ public final class ImGetRootNodesAd {
        * Bestimmt die Reihenfolge innerhalb aller Wurzel-Elemente
        * </pre>
        *
-       * <code>optional .dstore.values.IntegerValue sort_no = 10007;</code>
+       * <code>.dstore.values.IntegerValue sort_no = 10007;</code>
        */
       public io.dstore.values.IntegerValue getSortNo() {
         return sortNo_ == null ? io.dstore.values.IntegerValue.getDefaultInstance() : sortNo_;
@@ -1746,7 +1746,7 @@ public final class ImGetRootNodesAd {
        * Bestimmt die Reihenfolge innerhalb aller Wurzel-Elemente
        * </pre>
        *
-       * <code>optional .dstore.values.IntegerValue sort_no = 10007;</code>
+       * <code>.dstore.values.IntegerValue sort_no = 10007;</code>
        */
       public io.dstore.values.IntegerValueOrBuilder getSortNoOrBuilder() {
         return getSortNo();
@@ -1759,7 +1759,7 @@ public final class ImGetRootNodesAd {
        * ID eines Elementes, von dem Eigenschaften geerbt werden - diese Rückgabespalte hat eigentlich für Wurzel-Elemente keine Bedeutung, da im Regelfall immer vom Vorgänger (die genau diese Elemente ja nicht haben) geerbt wird...
        * </pre>
        *
-       * <code>optional .dstore.values.IntegerValue inherits_from = 10008;</code>
+       * <code>.dstore.values.IntegerValue inherits_from = 10008;</code>
        */
       public boolean hasInheritsFrom() {
         return inheritsFrom_ != null;
@@ -1769,7 +1769,7 @@ public final class ImGetRootNodesAd {
        * ID eines Elementes, von dem Eigenschaften geerbt werden - diese Rückgabespalte hat eigentlich für Wurzel-Elemente keine Bedeutung, da im Regelfall immer vom Vorgänger (die genau diese Elemente ja nicht haben) geerbt wird...
        * </pre>
        *
-       * <code>optional .dstore.values.IntegerValue inherits_from = 10008;</code>
+       * <code>.dstore.values.IntegerValue inherits_from = 10008;</code>
        */
       public io.dstore.values.IntegerValue getInheritsFrom() {
         return inheritsFrom_ == null ? io.dstore.values.IntegerValue.getDefaultInstance() : inheritsFrom_;
@@ -1779,7 +1779,7 @@ public final class ImGetRootNodesAd {
        * ID eines Elementes, von dem Eigenschaften geerbt werden - diese Rückgabespalte hat eigentlich für Wurzel-Elemente keine Bedeutung, da im Regelfall immer vom Vorgänger (die genau diese Elemente ja nicht haben) geerbt wird...
        * </pre>
        *
-       * <code>optional .dstore.values.IntegerValue inherits_from = 10008;</code>
+       * <code>.dstore.values.IntegerValue inherits_from = 10008;</code>
        */
       public io.dstore.values.IntegerValueOrBuilder getInheritsFromOrBuilder() {
         return getInheritsFrom();
@@ -1792,7 +1792,7 @@ public final class ImGetRootNodesAd {
        * ID eines Symbols, das der "NodeID" zugeordnet ist
        * </pre>
        *
-       * <code>optional .dstore.values.IntegerValue symbol_id = 10009;</code>
+       * <code>.dstore.values.IntegerValue symbol_id = 10009;</code>
        */
       public boolean hasSymbolId() {
         return symbolId_ != null;
@@ -1802,7 +1802,7 @@ public final class ImGetRootNodesAd {
        * ID eines Symbols, das der "NodeID" zugeordnet ist
        * </pre>
        *
-       * <code>optional .dstore.values.IntegerValue symbol_id = 10009;</code>
+       * <code>.dstore.values.IntegerValue symbol_id = 10009;</code>
        */
       public io.dstore.values.IntegerValue getSymbolId() {
         return symbolId_ == null ? io.dstore.values.IntegerValue.getDefaultInstance() : symbolId_;
@@ -1812,7 +1812,7 @@ public final class ImGetRootNodesAd {
        * ID eines Symbols, das der "NodeID" zugeordnet ist
        * </pre>
        *
-       * <code>optional .dstore.values.IntegerValue symbol_id = 10009;</code>
+       * <code>.dstore.values.IntegerValue symbol_id = 10009;</code>
        */
       public io.dstore.values.IntegerValueOrBuilder getSymbolIdOrBuilder() {
         return getSymbolId();
@@ -1979,7 +1979,7 @@ public final class ImGetRootNodesAd {
           return memoizedHashCode;
         }
         int hash = 41;
-        hash = (19 * hash) + getDescriptorForType().hashCode();
+        hash = (19 * hash) + getDescriptor().hashCode();
         hash = (37 * hash) + ROW_ID_FIELD_NUMBER;
         hash = (53 * hash) + getRowId();
         if (hasNodeDescription()) {
@@ -2359,13 +2359,13 @@ public final class ImGetRootNodesAd {
 
         private int rowId_ ;
         /**
-         * <code>optional int32 row_id = 10000;</code>
+         * <code>int32 row_id = 10000;</code>
          */
         public int getRowId() {
           return rowId_;
         }
         /**
-         * <code>optional int32 row_id = 10000;</code>
+         * <code>int32 row_id = 10000;</code>
          */
         public Builder setRowId(int value) {
           
@@ -2374,7 +2374,7 @@ public final class ImGetRootNodesAd {
           return this;
         }
         /**
-         * <code>optional int32 row_id = 10000;</code>
+         * <code>int32 row_id = 10000;</code>
          */
         public Builder clearRowId() {
           
@@ -2391,7 +2391,7 @@ public final class ImGetRootNodesAd {
          * Bezeichnung der "NodeID"
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue node_description = 10001;</code>
+         * <code>.dstore.values.StringValue node_description = 10001;</code>
          */
         public boolean hasNodeDescription() {
           return nodeDescriptionBuilder_ != null || nodeDescription_ != null;
@@ -2401,7 +2401,7 @@ public final class ImGetRootNodesAd {
          * Bezeichnung der "NodeID"
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue node_description = 10001;</code>
+         * <code>.dstore.values.StringValue node_description = 10001;</code>
          */
         public io.dstore.values.StringValue getNodeDescription() {
           if (nodeDescriptionBuilder_ == null) {
@@ -2415,7 +2415,7 @@ public final class ImGetRootNodesAd {
          * Bezeichnung der "NodeID"
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue node_description = 10001;</code>
+         * <code>.dstore.values.StringValue node_description = 10001;</code>
          */
         public Builder setNodeDescription(io.dstore.values.StringValue value) {
           if (nodeDescriptionBuilder_ == null) {
@@ -2435,7 +2435,7 @@ public final class ImGetRootNodesAd {
          * Bezeichnung der "NodeID"
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue node_description = 10001;</code>
+         * <code>.dstore.values.StringValue node_description = 10001;</code>
          */
         public Builder setNodeDescription(
             io.dstore.values.StringValue.Builder builderForValue) {
@@ -2453,7 +2453,7 @@ public final class ImGetRootNodesAd {
          * Bezeichnung der "NodeID"
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue node_description = 10001;</code>
+         * <code>.dstore.values.StringValue node_description = 10001;</code>
          */
         public Builder mergeNodeDescription(io.dstore.values.StringValue value) {
           if (nodeDescriptionBuilder_ == null) {
@@ -2475,7 +2475,7 @@ public final class ImGetRootNodesAd {
          * Bezeichnung der "NodeID"
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue node_description = 10001;</code>
+         * <code>.dstore.values.StringValue node_description = 10001;</code>
          */
         public Builder clearNodeDescription() {
           if (nodeDescriptionBuilder_ == null) {
@@ -2493,7 +2493,7 @@ public final class ImGetRootNodesAd {
          * Bezeichnung der "NodeID"
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue node_description = 10001;</code>
+         * <code>.dstore.values.StringValue node_description = 10001;</code>
          */
         public io.dstore.values.StringValue.Builder getNodeDescriptionBuilder() {
           
@@ -2505,7 +2505,7 @@ public final class ImGetRootNodesAd {
          * Bezeichnung der "NodeID"
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue node_description = 10001;</code>
+         * <code>.dstore.values.StringValue node_description = 10001;</code>
          */
         public io.dstore.values.StringValueOrBuilder getNodeDescriptionOrBuilder() {
           if (nodeDescriptionBuilder_ != null) {
@@ -2520,7 +2520,7 @@ public final class ImGetRootNodesAd {
          * Bezeichnung der "NodeID"
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue node_description = 10001;</code>
+         * <code>.dstore.values.StringValue node_description = 10001;</code>
          */
         private com.google.protobuf.SingleFieldBuilderV3<
             io.dstore.values.StringValue, io.dstore.values.StringValue.Builder, io.dstore.values.StringValueOrBuilder> 
@@ -2544,7 +2544,7 @@ public final class ImGetRootNodesAd {
          * Ist "TreeNodeID" z.Zt. aktiviert ? ("0" : Nein, "1" : Ja)
          * </pre>
          *
-         * <code>optional .dstore.values.BooleanValue active = 10002;</code>
+         * <code>.dstore.values.BooleanValue active = 10002;</code>
          */
         public boolean hasActive() {
           return activeBuilder_ != null || active_ != null;
@@ -2554,7 +2554,7 @@ public final class ImGetRootNodesAd {
          * Ist "TreeNodeID" z.Zt. aktiviert ? ("0" : Nein, "1" : Ja)
          * </pre>
          *
-         * <code>optional .dstore.values.BooleanValue active = 10002;</code>
+         * <code>.dstore.values.BooleanValue active = 10002;</code>
          */
         public io.dstore.values.BooleanValue getActive() {
           if (activeBuilder_ == null) {
@@ -2568,7 +2568,7 @@ public final class ImGetRootNodesAd {
          * Ist "TreeNodeID" z.Zt. aktiviert ? ("0" : Nein, "1" : Ja)
          * </pre>
          *
-         * <code>optional .dstore.values.BooleanValue active = 10002;</code>
+         * <code>.dstore.values.BooleanValue active = 10002;</code>
          */
         public Builder setActive(io.dstore.values.BooleanValue value) {
           if (activeBuilder_ == null) {
@@ -2588,7 +2588,7 @@ public final class ImGetRootNodesAd {
          * Ist "TreeNodeID" z.Zt. aktiviert ? ("0" : Nein, "1" : Ja)
          * </pre>
          *
-         * <code>optional .dstore.values.BooleanValue active = 10002;</code>
+         * <code>.dstore.values.BooleanValue active = 10002;</code>
          */
         public Builder setActive(
             io.dstore.values.BooleanValue.Builder builderForValue) {
@@ -2606,7 +2606,7 @@ public final class ImGetRootNodesAd {
          * Ist "TreeNodeID" z.Zt. aktiviert ? ("0" : Nein, "1" : Ja)
          * </pre>
          *
-         * <code>optional .dstore.values.BooleanValue active = 10002;</code>
+         * <code>.dstore.values.BooleanValue active = 10002;</code>
          */
         public Builder mergeActive(io.dstore.values.BooleanValue value) {
           if (activeBuilder_ == null) {
@@ -2628,7 +2628,7 @@ public final class ImGetRootNodesAd {
          * Ist "TreeNodeID" z.Zt. aktiviert ? ("0" : Nein, "1" : Ja)
          * </pre>
          *
-         * <code>optional .dstore.values.BooleanValue active = 10002;</code>
+         * <code>.dstore.values.BooleanValue active = 10002;</code>
          */
         public Builder clearActive() {
           if (activeBuilder_ == null) {
@@ -2646,7 +2646,7 @@ public final class ImGetRootNodesAd {
          * Ist "TreeNodeID" z.Zt. aktiviert ? ("0" : Nein, "1" : Ja)
          * </pre>
          *
-         * <code>optional .dstore.values.BooleanValue active = 10002;</code>
+         * <code>.dstore.values.BooleanValue active = 10002;</code>
          */
         public io.dstore.values.BooleanValue.Builder getActiveBuilder() {
           
@@ -2658,7 +2658,7 @@ public final class ImGetRootNodesAd {
          * Ist "TreeNodeID" z.Zt. aktiviert ? ("0" : Nein, "1" : Ja)
          * </pre>
          *
-         * <code>optional .dstore.values.BooleanValue active = 10002;</code>
+         * <code>.dstore.values.BooleanValue active = 10002;</code>
          */
         public io.dstore.values.BooleanValueOrBuilder getActiveOrBuilder() {
           if (activeBuilder_ != null) {
@@ -2673,7 +2673,7 @@ public final class ImGetRootNodesAd {
          * Ist "TreeNodeID" z.Zt. aktiviert ? ("0" : Nein, "1" : Ja)
          * </pre>
          *
-         * <code>optional .dstore.values.BooleanValue active = 10002;</code>
+         * <code>.dstore.values.BooleanValue active = 10002;</code>
          */
         private com.google.protobuf.SingleFieldBuilderV3<
             io.dstore.values.BooleanValue, io.dstore.values.BooleanValue.Builder, io.dstore.values.BooleanValueOrBuilder> 
@@ -2697,7 +2697,7 @@ public final class ImGetRootNodesAd {
          * Nummer der Hierarchie der "NodeID" (sollte immer "1" sein)
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue level_no = 10003;</code>
+         * <code>.dstore.values.IntegerValue level_no = 10003;</code>
          */
         public boolean hasLevelNo() {
           return levelNoBuilder_ != null || levelNo_ != null;
@@ -2707,7 +2707,7 @@ public final class ImGetRootNodesAd {
          * Nummer der Hierarchie der "NodeID" (sollte immer "1" sein)
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue level_no = 10003;</code>
+         * <code>.dstore.values.IntegerValue level_no = 10003;</code>
          */
         public io.dstore.values.IntegerValue getLevelNo() {
           if (levelNoBuilder_ == null) {
@@ -2721,7 +2721,7 @@ public final class ImGetRootNodesAd {
          * Nummer der Hierarchie der "NodeID" (sollte immer "1" sein)
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue level_no = 10003;</code>
+         * <code>.dstore.values.IntegerValue level_no = 10003;</code>
          */
         public Builder setLevelNo(io.dstore.values.IntegerValue value) {
           if (levelNoBuilder_ == null) {
@@ -2741,7 +2741,7 @@ public final class ImGetRootNodesAd {
          * Nummer der Hierarchie der "NodeID" (sollte immer "1" sein)
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue level_no = 10003;</code>
+         * <code>.dstore.values.IntegerValue level_no = 10003;</code>
          */
         public Builder setLevelNo(
             io.dstore.values.IntegerValue.Builder builderForValue) {
@@ -2759,7 +2759,7 @@ public final class ImGetRootNodesAd {
          * Nummer der Hierarchie der "NodeID" (sollte immer "1" sein)
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue level_no = 10003;</code>
+         * <code>.dstore.values.IntegerValue level_no = 10003;</code>
          */
         public Builder mergeLevelNo(io.dstore.values.IntegerValue value) {
           if (levelNoBuilder_ == null) {
@@ -2781,7 +2781,7 @@ public final class ImGetRootNodesAd {
          * Nummer der Hierarchie der "NodeID" (sollte immer "1" sein)
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue level_no = 10003;</code>
+         * <code>.dstore.values.IntegerValue level_no = 10003;</code>
          */
         public Builder clearLevelNo() {
           if (levelNoBuilder_ == null) {
@@ -2799,7 +2799,7 @@ public final class ImGetRootNodesAd {
          * Nummer der Hierarchie der "NodeID" (sollte immer "1" sein)
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue level_no = 10003;</code>
+         * <code>.dstore.values.IntegerValue level_no = 10003;</code>
          */
         public io.dstore.values.IntegerValue.Builder getLevelNoBuilder() {
           
@@ -2811,7 +2811,7 @@ public final class ImGetRootNodesAd {
          * Nummer der Hierarchie der "NodeID" (sollte immer "1" sein)
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue level_no = 10003;</code>
+         * <code>.dstore.values.IntegerValue level_no = 10003;</code>
          */
         public io.dstore.values.IntegerValueOrBuilder getLevelNoOrBuilder() {
           if (levelNoBuilder_ != null) {
@@ -2826,7 +2826,7 @@ public final class ImGetRootNodesAd {
          * Nummer der Hierarchie der "NodeID" (sollte immer "1" sein)
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue level_no = 10003;</code>
+         * <code>.dstore.values.IntegerValue level_no = 10003;</code>
          */
         private com.google.protobuf.SingleFieldBuilderV3<
             io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> 
@@ -2850,7 +2850,7 @@ public final class ImGetRootNodesAd {
          * ID des zur "TreeNodeID" zugehörigen Elementes aus der Tabelle "dStore"
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue node_id = 10004;</code>
+         * <code>.dstore.values.IntegerValue node_id = 10004;</code>
          */
         public boolean hasNodeId() {
           return nodeIdBuilder_ != null || nodeId_ != null;
@@ -2860,7 +2860,7 @@ public final class ImGetRootNodesAd {
          * ID des zur "TreeNodeID" zugehörigen Elementes aus der Tabelle "dStore"
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue node_id = 10004;</code>
+         * <code>.dstore.values.IntegerValue node_id = 10004;</code>
          */
         public io.dstore.values.IntegerValue getNodeId() {
           if (nodeIdBuilder_ == null) {
@@ -2874,7 +2874,7 @@ public final class ImGetRootNodesAd {
          * ID des zur "TreeNodeID" zugehörigen Elementes aus der Tabelle "dStore"
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue node_id = 10004;</code>
+         * <code>.dstore.values.IntegerValue node_id = 10004;</code>
          */
         public Builder setNodeId(io.dstore.values.IntegerValue value) {
           if (nodeIdBuilder_ == null) {
@@ -2894,7 +2894,7 @@ public final class ImGetRootNodesAd {
          * ID des zur "TreeNodeID" zugehörigen Elementes aus der Tabelle "dStore"
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue node_id = 10004;</code>
+         * <code>.dstore.values.IntegerValue node_id = 10004;</code>
          */
         public Builder setNodeId(
             io.dstore.values.IntegerValue.Builder builderForValue) {
@@ -2912,7 +2912,7 @@ public final class ImGetRootNodesAd {
          * ID des zur "TreeNodeID" zugehörigen Elementes aus der Tabelle "dStore"
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue node_id = 10004;</code>
+         * <code>.dstore.values.IntegerValue node_id = 10004;</code>
          */
         public Builder mergeNodeId(io.dstore.values.IntegerValue value) {
           if (nodeIdBuilder_ == null) {
@@ -2934,7 +2934,7 @@ public final class ImGetRootNodesAd {
          * ID des zur "TreeNodeID" zugehörigen Elementes aus der Tabelle "dStore"
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue node_id = 10004;</code>
+         * <code>.dstore.values.IntegerValue node_id = 10004;</code>
          */
         public Builder clearNodeId() {
           if (nodeIdBuilder_ == null) {
@@ -2952,7 +2952,7 @@ public final class ImGetRootNodesAd {
          * ID des zur "TreeNodeID" zugehörigen Elementes aus der Tabelle "dStore"
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue node_id = 10004;</code>
+         * <code>.dstore.values.IntegerValue node_id = 10004;</code>
          */
         public io.dstore.values.IntegerValue.Builder getNodeIdBuilder() {
           
@@ -2964,7 +2964,7 @@ public final class ImGetRootNodesAd {
          * ID des zur "TreeNodeID" zugehörigen Elementes aus der Tabelle "dStore"
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue node_id = 10004;</code>
+         * <code>.dstore.values.IntegerValue node_id = 10004;</code>
          */
         public io.dstore.values.IntegerValueOrBuilder getNodeIdOrBuilder() {
           if (nodeIdBuilder_ != null) {
@@ -2979,7 +2979,7 @@ public final class ImGetRootNodesAd {
          * ID des zur "TreeNodeID" zugehörigen Elementes aus der Tabelle "dStore"
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue node_id = 10004;</code>
+         * <code>.dstore.values.IntegerValue node_id = 10004;</code>
          */
         private com.google.protobuf.SingleFieldBuilderV3<
             io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> 
@@ -3003,7 +3003,7 @@ public final class ImGetRootNodesAd {
          * ID eines "Wurzel"-Elementes. Für den Artikelbaum gibt es nur ein Wurzel-Element, das die ID "0" hat. Alle anderen (sogenannten "PageTreeNodes") haben eine ID kleiner "0".
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue tree_node_id = 10005;</code>
+         * <code>.dstore.values.IntegerValue tree_node_id = 10005;</code>
          */
         public boolean hasTreeNodeId() {
           return treeNodeIdBuilder_ != null || treeNodeId_ != null;
@@ -3013,7 +3013,7 @@ public final class ImGetRootNodesAd {
          * ID eines "Wurzel"-Elementes. Für den Artikelbaum gibt es nur ein Wurzel-Element, das die ID "0" hat. Alle anderen (sogenannten "PageTreeNodes") haben eine ID kleiner "0".
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue tree_node_id = 10005;</code>
+         * <code>.dstore.values.IntegerValue tree_node_id = 10005;</code>
          */
         public io.dstore.values.IntegerValue getTreeNodeId() {
           if (treeNodeIdBuilder_ == null) {
@@ -3027,7 +3027,7 @@ public final class ImGetRootNodesAd {
          * ID eines "Wurzel"-Elementes. Für den Artikelbaum gibt es nur ein Wurzel-Element, das die ID "0" hat. Alle anderen (sogenannten "PageTreeNodes") haben eine ID kleiner "0".
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue tree_node_id = 10005;</code>
+         * <code>.dstore.values.IntegerValue tree_node_id = 10005;</code>
          */
         public Builder setTreeNodeId(io.dstore.values.IntegerValue value) {
           if (treeNodeIdBuilder_ == null) {
@@ -3047,7 +3047,7 @@ public final class ImGetRootNodesAd {
          * ID eines "Wurzel"-Elementes. Für den Artikelbaum gibt es nur ein Wurzel-Element, das die ID "0" hat. Alle anderen (sogenannten "PageTreeNodes") haben eine ID kleiner "0".
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue tree_node_id = 10005;</code>
+         * <code>.dstore.values.IntegerValue tree_node_id = 10005;</code>
          */
         public Builder setTreeNodeId(
             io.dstore.values.IntegerValue.Builder builderForValue) {
@@ -3065,7 +3065,7 @@ public final class ImGetRootNodesAd {
          * ID eines "Wurzel"-Elementes. Für den Artikelbaum gibt es nur ein Wurzel-Element, das die ID "0" hat. Alle anderen (sogenannten "PageTreeNodes") haben eine ID kleiner "0".
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue tree_node_id = 10005;</code>
+         * <code>.dstore.values.IntegerValue tree_node_id = 10005;</code>
          */
         public Builder mergeTreeNodeId(io.dstore.values.IntegerValue value) {
           if (treeNodeIdBuilder_ == null) {
@@ -3087,7 +3087,7 @@ public final class ImGetRootNodesAd {
          * ID eines "Wurzel"-Elementes. Für den Artikelbaum gibt es nur ein Wurzel-Element, das die ID "0" hat. Alle anderen (sogenannten "PageTreeNodes") haben eine ID kleiner "0".
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue tree_node_id = 10005;</code>
+         * <code>.dstore.values.IntegerValue tree_node_id = 10005;</code>
          */
         public Builder clearTreeNodeId() {
           if (treeNodeIdBuilder_ == null) {
@@ -3105,7 +3105,7 @@ public final class ImGetRootNodesAd {
          * ID eines "Wurzel"-Elementes. Für den Artikelbaum gibt es nur ein Wurzel-Element, das die ID "0" hat. Alle anderen (sogenannten "PageTreeNodes") haben eine ID kleiner "0".
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue tree_node_id = 10005;</code>
+         * <code>.dstore.values.IntegerValue tree_node_id = 10005;</code>
          */
         public io.dstore.values.IntegerValue.Builder getTreeNodeIdBuilder() {
           
@@ -3117,7 +3117,7 @@ public final class ImGetRootNodesAd {
          * ID eines "Wurzel"-Elementes. Für den Artikelbaum gibt es nur ein Wurzel-Element, das die ID "0" hat. Alle anderen (sogenannten "PageTreeNodes") haben eine ID kleiner "0".
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue tree_node_id = 10005;</code>
+         * <code>.dstore.values.IntegerValue tree_node_id = 10005;</code>
          */
         public io.dstore.values.IntegerValueOrBuilder getTreeNodeIdOrBuilder() {
           if (treeNodeIdBuilder_ != null) {
@@ -3132,7 +3132,7 @@ public final class ImGetRootNodesAd {
          * ID eines "Wurzel"-Elementes. Für den Artikelbaum gibt es nur ein Wurzel-Element, das die ID "0" hat. Alle anderen (sogenannten "PageTreeNodes") haben eine ID kleiner "0".
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue tree_node_id = 10005;</code>
+         * <code>.dstore.values.IntegerValue tree_node_id = 10005;</code>
          */
         private com.google.protobuf.SingleFieldBuilderV3<
             io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> 
@@ -3156,7 +3156,7 @@ public final class ImGetRootNodesAd {
          * Wieviele direkte Nachfolger-Elemente besitzt "TreeNodeID" ? ACHTUNG : Bei der Ermittlung dieser Zahl wird ebenfalls "&#64;OnlyActive" und "&#64;OnlyNotDeleted" entsprechend gefiltert !
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue count_successors = 10006;</code>
+         * <code>.dstore.values.IntegerValue count_successors = 10006;</code>
          */
         public boolean hasCountSuccessors() {
           return countSuccessorsBuilder_ != null || countSuccessors_ != null;
@@ -3166,7 +3166,7 @@ public final class ImGetRootNodesAd {
          * Wieviele direkte Nachfolger-Elemente besitzt "TreeNodeID" ? ACHTUNG : Bei der Ermittlung dieser Zahl wird ebenfalls "&#64;OnlyActive" und "&#64;OnlyNotDeleted" entsprechend gefiltert !
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue count_successors = 10006;</code>
+         * <code>.dstore.values.IntegerValue count_successors = 10006;</code>
          */
         public io.dstore.values.IntegerValue getCountSuccessors() {
           if (countSuccessorsBuilder_ == null) {
@@ -3180,7 +3180,7 @@ public final class ImGetRootNodesAd {
          * Wieviele direkte Nachfolger-Elemente besitzt "TreeNodeID" ? ACHTUNG : Bei der Ermittlung dieser Zahl wird ebenfalls "&#64;OnlyActive" und "&#64;OnlyNotDeleted" entsprechend gefiltert !
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue count_successors = 10006;</code>
+         * <code>.dstore.values.IntegerValue count_successors = 10006;</code>
          */
         public Builder setCountSuccessors(io.dstore.values.IntegerValue value) {
           if (countSuccessorsBuilder_ == null) {
@@ -3200,7 +3200,7 @@ public final class ImGetRootNodesAd {
          * Wieviele direkte Nachfolger-Elemente besitzt "TreeNodeID" ? ACHTUNG : Bei der Ermittlung dieser Zahl wird ebenfalls "&#64;OnlyActive" und "&#64;OnlyNotDeleted" entsprechend gefiltert !
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue count_successors = 10006;</code>
+         * <code>.dstore.values.IntegerValue count_successors = 10006;</code>
          */
         public Builder setCountSuccessors(
             io.dstore.values.IntegerValue.Builder builderForValue) {
@@ -3218,7 +3218,7 @@ public final class ImGetRootNodesAd {
          * Wieviele direkte Nachfolger-Elemente besitzt "TreeNodeID" ? ACHTUNG : Bei der Ermittlung dieser Zahl wird ebenfalls "&#64;OnlyActive" und "&#64;OnlyNotDeleted" entsprechend gefiltert !
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue count_successors = 10006;</code>
+         * <code>.dstore.values.IntegerValue count_successors = 10006;</code>
          */
         public Builder mergeCountSuccessors(io.dstore.values.IntegerValue value) {
           if (countSuccessorsBuilder_ == null) {
@@ -3240,7 +3240,7 @@ public final class ImGetRootNodesAd {
          * Wieviele direkte Nachfolger-Elemente besitzt "TreeNodeID" ? ACHTUNG : Bei der Ermittlung dieser Zahl wird ebenfalls "&#64;OnlyActive" und "&#64;OnlyNotDeleted" entsprechend gefiltert !
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue count_successors = 10006;</code>
+         * <code>.dstore.values.IntegerValue count_successors = 10006;</code>
          */
         public Builder clearCountSuccessors() {
           if (countSuccessorsBuilder_ == null) {
@@ -3258,7 +3258,7 @@ public final class ImGetRootNodesAd {
          * Wieviele direkte Nachfolger-Elemente besitzt "TreeNodeID" ? ACHTUNG : Bei der Ermittlung dieser Zahl wird ebenfalls "&#64;OnlyActive" und "&#64;OnlyNotDeleted" entsprechend gefiltert !
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue count_successors = 10006;</code>
+         * <code>.dstore.values.IntegerValue count_successors = 10006;</code>
          */
         public io.dstore.values.IntegerValue.Builder getCountSuccessorsBuilder() {
           
@@ -3270,7 +3270,7 @@ public final class ImGetRootNodesAd {
          * Wieviele direkte Nachfolger-Elemente besitzt "TreeNodeID" ? ACHTUNG : Bei der Ermittlung dieser Zahl wird ebenfalls "&#64;OnlyActive" und "&#64;OnlyNotDeleted" entsprechend gefiltert !
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue count_successors = 10006;</code>
+         * <code>.dstore.values.IntegerValue count_successors = 10006;</code>
          */
         public io.dstore.values.IntegerValueOrBuilder getCountSuccessorsOrBuilder() {
           if (countSuccessorsBuilder_ != null) {
@@ -3285,7 +3285,7 @@ public final class ImGetRootNodesAd {
          * Wieviele direkte Nachfolger-Elemente besitzt "TreeNodeID" ? ACHTUNG : Bei der Ermittlung dieser Zahl wird ebenfalls "&#64;OnlyActive" und "&#64;OnlyNotDeleted" entsprechend gefiltert !
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue count_successors = 10006;</code>
+         * <code>.dstore.values.IntegerValue count_successors = 10006;</code>
          */
         private com.google.protobuf.SingleFieldBuilderV3<
             io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> 
@@ -3309,7 +3309,7 @@ public final class ImGetRootNodesAd {
          * Bestimmt die Reihenfolge innerhalb aller Wurzel-Elemente
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue sort_no = 10007;</code>
+         * <code>.dstore.values.IntegerValue sort_no = 10007;</code>
          */
         public boolean hasSortNo() {
           return sortNoBuilder_ != null || sortNo_ != null;
@@ -3319,7 +3319,7 @@ public final class ImGetRootNodesAd {
          * Bestimmt die Reihenfolge innerhalb aller Wurzel-Elemente
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue sort_no = 10007;</code>
+         * <code>.dstore.values.IntegerValue sort_no = 10007;</code>
          */
         public io.dstore.values.IntegerValue getSortNo() {
           if (sortNoBuilder_ == null) {
@@ -3333,7 +3333,7 @@ public final class ImGetRootNodesAd {
          * Bestimmt die Reihenfolge innerhalb aller Wurzel-Elemente
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue sort_no = 10007;</code>
+         * <code>.dstore.values.IntegerValue sort_no = 10007;</code>
          */
         public Builder setSortNo(io.dstore.values.IntegerValue value) {
           if (sortNoBuilder_ == null) {
@@ -3353,7 +3353,7 @@ public final class ImGetRootNodesAd {
          * Bestimmt die Reihenfolge innerhalb aller Wurzel-Elemente
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue sort_no = 10007;</code>
+         * <code>.dstore.values.IntegerValue sort_no = 10007;</code>
          */
         public Builder setSortNo(
             io.dstore.values.IntegerValue.Builder builderForValue) {
@@ -3371,7 +3371,7 @@ public final class ImGetRootNodesAd {
          * Bestimmt die Reihenfolge innerhalb aller Wurzel-Elemente
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue sort_no = 10007;</code>
+         * <code>.dstore.values.IntegerValue sort_no = 10007;</code>
          */
         public Builder mergeSortNo(io.dstore.values.IntegerValue value) {
           if (sortNoBuilder_ == null) {
@@ -3393,7 +3393,7 @@ public final class ImGetRootNodesAd {
          * Bestimmt die Reihenfolge innerhalb aller Wurzel-Elemente
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue sort_no = 10007;</code>
+         * <code>.dstore.values.IntegerValue sort_no = 10007;</code>
          */
         public Builder clearSortNo() {
           if (sortNoBuilder_ == null) {
@@ -3411,7 +3411,7 @@ public final class ImGetRootNodesAd {
          * Bestimmt die Reihenfolge innerhalb aller Wurzel-Elemente
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue sort_no = 10007;</code>
+         * <code>.dstore.values.IntegerValue sort_no = 10007;</code>
          */
         public io.dstore.values.IntegerValue.Builder getSortNoBuilder() {
           
@@ -3423,7 +3423,7 @@ public final class ImGetRootNodesAd {
          * Bestimmt die Reihenfolge innerhalb aller Wurzel-Elemente
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue sort_no = 10007;</code>
+         * <code>.dstore.values.IntegerValue sort_no = 10007;</code>
          */
         public io.dstore.values.IntegerValueOrBuilder getSortNoOrBuilder() {
           if (sortNoBuilder_ != null) {
@@ -3438,7 +3438,7 @@ public final class ImGetRootNodesAd {
          * Bestimmt die Reihenfolge innerhalb aller Wurzel-Elemente
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue sort_no = 10007;</code>
+         * <code>.dstore.values.IntegerValue sort_no = 10007;</code>
          */
         private com.google.protobuf.SingleFieldBuilderV3<
             io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> 
@@ -3462,7 +3462,7 @@ public final class ImGetRootNodesAd {
          * ID eines Elementes, von dem Eigenschaften geerbt werden - diese Rückgabespalte hat eigentlich für Wurzel-Elemente keine Bedeutung, da im Regelfall immer vom Vorgänger (die genau diese Elemente ja nicht haben) geerbt wird...
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue inherits_from = 10008;</code>
+         * <code>.dstore.values.IntegerValue inherits_from = 10008;</code>
          */
         public boolean hasInheritsFrom() {
           return inheritsFromBuilder_ != null || inheritsFrom_ != null;
@@ -3472,7 +3472,7 @@ public final class ImGetRootNodesAd {
          * ID eines Elementes, von dem Eigenschaften geerbt werden - diese Rückgabespalte hat eigentlich für Wurzel-Elemente keine Bedeutung, da im Regelfall immer vom Vorgänger (die genau diese Elemente ja nicht haben) geerbt wird...
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue inherits_from = 10008;</code>
+         * <code>.dstore.values.IntegerValue inherits_from = 10008;</code>
          */
         public io.dstore.values.IntegerValue getInheritsFrom() {
           if (inheritsFromBuilder_ == null) {
@@ -3486,7 +3486,7 @@ public final class ImGetRootNodesAd {
          * ID eines Elementes, von dem Eigenschaften geerbt werden - diese Rückgabespalte hat eigentlich für Wurzel-Elemente keine Bedeutung, da im Regelfall immer vom Vorgänger (die genau diese Elemente ja nicht haben) geerbt wird...
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue inherits_from = 10008;</code>
+         * <code>.dstore.values.IntegerValue inherits_from = 10008;</code>
          */
         public Builder setInheritsFrom(io.dstore.values.IntegerValue value) {
           if (inheritsFromBuilder_ == null) {
@@ -3506,7 +3506,7 @@ public final class ImGetRootNodesAd {
          * ID eines Elementes, von dem Eigenschaften geerbt werden - diese Rückgabespalte hat eigentlich für Wurzel-Elemente keine Bedeutung, da im Regelfall immer vom Vorgänger (die genau diese Elemente ja nicht haben) geerbt wird...
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue inherits_from = 10008;</code>
+         * <code>.dstore.values.IntegerValue inherits_from = 10008;</code>
          */
         public Builder setInheritsFrom(
             io.dstore.values.IntegerValue.Builder builderForValue) {
@@ -3524,7 +3524,7 @@ public final class ImGetRootNodesAd {
          * ID eines Elementes, von dem Eigenschaften geerbt werden - diese Rückgabespalte hat eigentlich für Wurzel-Elemente keine Bedeutung, da im Regelfall immer vom Vorgänger (die genau diese Elemente ja nicht haben) geerbt wird...
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue inherits_from = 10008;</code>
+         * <code>.dstore.values.IntegerValue inherits_from = 10008;</code>
          */
         public Builder mergeInheritsFrom(io.dstore.values.IntegerValue value) {
           if (inheritsFromBuilder_ == null) {
@@ -3546,7 +3546,7 @@ public final class ImGetRootNodesAd {
          * ID eines Elementes, von dem Eigenschaften geerbt werden - diese Rückgabespalte hat eigentlich für Wurzel-Elemente keine Bedeutung, da im Regelfall immer vom Vorgänger (die genau diese Elemente ja nicht haben) geerbt wird...
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue inherits_from = 10008;</code>
+         * <code>.dstore.values.IntegerValue inherits_from = 10008;</code>
          */
         public Builder clearInheritsFrom() {
           if (inheritsFromBuilder_ == null) {
@@ -3564,7 +3564,7 @@ public final class ImGetRootNodesAd {
          * ID eines Elementes, von dem Eigenschaften geerbt werden - diese Rückgabespalte hat eigentlich für Wurzel-Elemente keine Bedeutung, da im Regelfall immer vom Vorgänger (die genau diese Elemente ja nicht haben) geerbt wird...
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue inherits_from = 10008;</code>
+         * <code>.dstore.values.IntegerValue inherits_from = 10008;</code>
          */
         public io.dstore.values.IntegerValue.Builder getInheritsFromBuilder() {
           
@@ -3576,7 +3576,7 @@ public final class ImGetRootNodesAd {
          * ID eines Elementes, von dem Eigenschaften geerbt werden - diese Rückgabespalte hat eigentlich für Wurzel-Elemente keine Bedeutung, da im Regelfall immer vom Vorgänger (die genau diese Elemente ja nicht haben) geerbt wird...
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue inherits_from = 10008;</code>
+         * <code>.dstore.values.IntegerValue inherits_from = 10008;</code>
          */
         public io.dstore.values.IntegerValueOrBuilder getInheritsFromOrBuilder() {
           if (inheritsFromBuilder_ != null) {
@@ -3591,7 +3591,7 @@ public final class ImGetRootNodesAd {
          * ID eines Elementes, von dem Eigenschaften geerbt werden - diese Rückgabespalte hat eigentlich für Wurzel-Elemente keine Bedeutung, da im Regelfall immer vom Vorgänger (die genau diese Elemente ja nicht haben) geerbt wird...
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue inherits_from = 10008;</code>
+         * <code>.dstore.values.IntegerValue inherits_from = 10008;</code>
          */
         private com.google.protobuf.SingleFieldBuilderV3<
             io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> 
@@ -3615,7 +3615,7 @@ public final class ImGetRootNodesAd {
          * ID eines Symbols, das der "NodeID" zugeordnet ist
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue symbol_id = 10009;</code>
+         * <code>.dstore.values.IntegerValue symbol_id = 10009;</code>
          */
         public boolean hasSymbolId() {
           return symbolIdBuilder_ != null || symbolId_ != null;
@@ -3625,7 +3625,7 @@ public final class ImGetRootNodesAd {
          * ID eines Symbols, das der "NodeID" zugeordnet ist
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue symbol_id = 10009;</code>
+         * <code>.dstore.values.IntegerValue symbol_id = 10009;</code>
          */
         public io.dstore.values.IntegerValue getSymbolId() {
           if (symbolIdBuilder_ == null) {
@@ -3639,7 +3639,7 @@ public final class ImGetRootNodesAd {
          * ID eines Symbols, das der "NodeID" zugeordnet ist
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue symbol_id = 10009;</code>
+         * <code>.dstore.values.IntegerValue symbol_id = 10009;</code>
          */
         public Builder setSymbolId(io.dstore.values.IntegerValue value) {
           if (symbolIdBuilder_ == null) {
@@ -3659,7 +3659,7 @@ public final class ImGetRootNodesAd {
          * ID eines Symbols, das der "NodeID" zugeordnet ist
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue symbol_id = 10009;</code>
+         * <code>.dstore.values.IntegerValue symbol_id = 10009;</code>
          */
         public Builder setSymbolId(
             io.dstore.values.IntegerValue.Builder builderForValue) {
@@ -3677,7 +3677,7 @@ public final class ImGetRootNodesAd {
          * ID eines Symbols, das der "NodeID" zugeordnet ist
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue symbol_id = 10009;</code>
+         * <code>.dstore.values.IntegerValue symbol_id = 10009;</code>
          */
         public Builder mergeSymbolId(io.dstore.values.IntegerValue value) {
           if (symbolIdBuilder_ == null) {
@@ -3699,7 +3699,7 @@ public final class ImGetRootNodesAd {
          * ID eines Symbols, das der "NodeID" zugeordnet ist
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue symbol_id = 10009;</code>
+         * <code>.dstore.values.IntegerValue symbol_id = 10009;</code>
          */
         public Builder clearSymbolId() {
           if (symbolIdBuilder_ == null) {
@@ -3717,7 +3717,7 @@ public final class ImGetRootNodesAd {
          * ID eines Symbols, das der "NodeID" zugeordnet ist
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue symbol_id = 10009;</code>
+         * <code>.dstore.values.IntegerValue symbol_id = 10009;</code>
          */
         public io.dstore.values.IntegerValue.Builder getSymbolIdBuilder() {
           
@@ -3729,7 +3729,7 @@ public final class ImGetRootNodesAd {
          * ID eines Symbols, das der "NodeID" zugeordnet ist
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue symbol_id = 10009;</code>
+         * <code>.dstore.values.IntegerValue symbol_id = 10009;</code>
          */
         public io.dstore.values.IntegerValueOrBuilder getSymbolIdOrBuilder() {
           if (symbolIdBuilder_ != null) {
@@ -3744,7 +3744,7 @@ public final class ImGetRootNodesAd {
          * ID eines Symbols, das der "NodeID" zugeordnet ist
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue symbol_id = 10009;</code>
+         * <code>.dstore.values.IntegerValue symbol_id = 10009;</code>
          */
         private com.google.protobuf.SingleFieldBuilderV3<
             io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> 
@@ -4004,7 +4004,7 @@ public final class ImGetRootNodesAd {
         return memoizedHashCode;
       }
       int hash = 41;
-      hash = (19 * hash) + getDescriptorForType().hashCode();
+      hash = (19 * hash) + getDescriptor().hashCode();
       if (getMetaInformationCount() > 0) {
         hash = (37 * hash) + META_INFORMATION_FIELD_NUMBER;
         hash = (53 * hash) + getMetaInformationList().hashCode();

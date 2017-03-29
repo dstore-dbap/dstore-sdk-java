@@ -19,38 +19,38 @@ public final class ImSetProductDescriptionsAd {
       com.google.protobuf.MessageOrBuilder {
 
     /**
-     * <code>optional .dstore.values.IntegerValue language_id = 1;</code>
+     * <code>.dstore.values.IntegerValue language_id = 1;</code>
      */
     boolean hasLanguageId();
     /**
-     * <code>optional .dstore.values.IntegerValue language_id = 1;</code>
+     * <code>.dstore.values.IntegerValue language_id = 1;</code>
      */
     io.dstore.values.IntegerValue getLanguageId();
     /**
-     * <code>optional .dstore.values.IntegerValue language_id = 1;</code>
+     * <code>.dstore.values.IntegerValue language_id = 1;</code>
      */
     io.dstore.values.IntegerValueOrBuilder getLanguageIdOrBuilder();
 
     /**
-     * <code>optional bool language_id_null = 1001;</code>
+     * <code>bool language_id_null = 1001;</code>
      */
     boolean getLanguageIdNull();
 
     /**
-     * <code>optional .dstore.values.BooleanValue skip_elements_with_product_descr = 2;</code>
+     * <code>.dstore.values.BooleanValue skip_elements_with_product_descr = 2;</code>
      */
     boolean hasSkipElementsWithProductDescr();
     /**
-     * <code>optional .dstore.values.BooleanValue skip_elements_with_product_descr = 2;</code>
+     * <code>.dstore.values.BooleanValue skip_elements_with_product_descr = 2;</code>
      */
     io.dstore.values.BooleanValue getSkipElementsWithProductDescr();
     /**
-     * <code>optional .dstore.values.BooleanValue skip_elements_with_product_descr = 2;</code>
+     * <code>.dstore.values.BooleanValue skip_elements_with_product_descr = 2;</code>
      */
     io.dstore.values.BooleanValueOrBuilder getSkipElementsWithProductDescrOrBuilder();
 
     /**
-     * <code>optional bool skip_elements_with_product_descr_null = 1002;</code>
+     * <code>bool skip_elements_with_product_descr_null = 1002;</code>
      */
     boolean getSkipElementsWithProductDescrNull();
   }
@@ -157,19 +157,19 @@ public final class ImSetProductDescriptionsAd {
     public static final int LANGUAGE_ID_FIELD_NUMBER = 1;
     private io.dstore.values.IntegerValue languageId_;
     /**
-     * <code>optional .dstore.values.IntegerValue language_id = 1;</code>
+     * <code>.dstore.values.IntegerValue language_id = 1;</code>
      */
     public boolean hasLanguageId() {
       return languageId_ != null;
     }
     /**
-     * <code>optional .dstore.values.IntegerValue language_id = 1;</code>
+     * <code>.dstore.values.IntegerValue language_id = 1;</code>
      */
     public io.dstore.values.IntegerValue getLanguageId() {
       return languageId_ == null ? io.dstore.values.IntegerValue.getDefaultInstance() : languageId_;
     }
     /**
-     * <code>optional .dstore.values.IntegerValue language_id = 1;</code>
+     * <code>.dstore.values.IntegerValue language_id = 1;</code>
      */
     public io.dstore.values.IntegerValueOrBuilder getLanguageIdOrBuilder() {
       return getLanguageId();
@@ -178,7 +178,7 @@ public final class ImSetProductDescriptionsAd {
     public static final int LANGUAGE_ID_NULL_FIELD_NUMBER = 1001;
     private boolean languageIdNull_;
     /**
-     * <code>optional bool language_id_null = 1001;</code>
+     * <code>bool language_id_null = 1001;</code>
      */
     public boolean getLanguageIdNull() {
       return languageIdNull_;
@@ -187,19 +187,19 @@ public final class ImSetProductDescriptionsAd {
     public static final int SKIP_ELEMENTS_WITH_PRODUCT_DESCR_FIELD_NUMBER = 2;
     private io.dstore.values.BooleanValue skipElementsWithProductDescr_;
     /**
-     * <code>optional .dstore.values.BooleanValue skip_elements_with_product_descr = 2;</code>
+     * <code>.dstore.values.BooleanValue skip_elements_with_product_descr = 2;</code>
      */
     public boolean hasSkipElementsWithProductDescr() {
       return skipElementsWithProductDescr_ != null;
     }
     /**
-     * <code>optional .dstore.values.BooleanValue skip_elements_with_product_descr = 2;</code>
+     * <code>.dstore.values.BooleanValue skip_elements_with_product_descr = 2;</code>
      */
     public io.dstore.values.BooleanValue getSkipElementsWithProductDescr() {
       return skipElementsWithProductDescr_ == null ? io.dstore.values.BooleanValue.getDefaultInstance() : skipElementsWithProductDescr_;
     }
     /**
-     * <code>optional .dstore.values.BooleanValue skip_elements_with_product_descr = 2;</code>
+     * <code>.dstore.values.BooleanValue skip_elements_with_product_descr = 2;</code>
      */
     public io.dstore.values.BooleanValueOrBuilder getSkipElementsWithProductDescrOrBuilder() {
       return getSkipElementsWithProductDescr();
@@ -208,7 +208,7 @@ public final class ImSetProductDescriptionsAd {
     public static final int SKIP_ELEMENTS_WITH_PRODUCT_DESCR_NULL_FIELD_NUMBER = 1002;
     private boolean skipElementsWithProductDescrNull_;
     /**
-     * <code>optional bool skip_elements_with_product_descr_null = 1002;</code>
+     * <code>bool skip_elements_with_product_descr_null = 1002;</code>
      */
     public boolean getSkipElementsWithProductDescrNull() {
       return skipElementsWithProductDescrNull_;
@@ -300,7 +300,7 @@ public final class ImSetProductDescriptionsAd {
         return memoizedHashCode;
       }
       int hash = 41;
-      hash = (19 * hash) + getDescriptorForType().hashCode();
+      hash = (19 * hash) + getDescriptor().hashCode();
       if (hasLanguageId()) {
         hash = (37 * hash) + LANGUAGE_ID_FIELD_NUMBER;
         hash = (53 * hash) + getLanguageId().hashCode();
@@ -566,13 +566,13 @@ public final class ImSetProductDescriptionsAd {
       private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> languageIdBuilder_;
       /**
-       * <code>optional .dstore.values.IntegerValue language_id = 1;</code>
+       * <code>.dstore.values.IntegerValue language_id = 1;</code>
        */
       public boolean hasLanguageId() {
         return languageIdBuilder_ != null || languageId_ != null;
       }
       /**
-       * <code>optional .dstore.values.IntegerValue language_id = 1;</code>
+       * <code>.dstore.values.IntegerValue language_id = 1;</code>
        */
       public io.dstore.values.IntegerValue getLanguageId() {
         if (languageIdBuilder_ == null) {
@@ -582,7 +582,7 @@ public final class ImSetProductDescriptionsAd {
         }
       }
       /**
-       * <code>optional .dstore.values.IntegerValue language_id = 1;</code>
+       * <code>.dstore.values.IntegerValue language_id = 1;</code>
        */
       public Builder setLanguageId(io.dstore.values.IntegerValue value) {
         if (languageIdBuilder_ == null) {
@@ -598,7 +598,7 @@ public final class ImSetProductDescriptionsAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.IntegerValue language_id = 1;</code>
+       * <code>.dstore.values.IntegerValue language_id = 1;</code>
        */
       public Builder setLanguageId(
           io.dstore.values.IntegerValue.Builder builderForValue) {
@@ -612,7 +612,7 @@ public final class ImSetProductDescriptionsAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.IntegerValue language_id = 1;</code>
+       * <code>.dstore.values.IntegerValue language_id = 1;</code>
        */
       public Builder mergeLanguageId(io.dstore.values.IntegerValue value) {
         if (languageIdBuilder_ == null) {
@@ -630,7 +630,7 @@ public final class ImSetProductDescriptionsAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.IntegerValue language_id = 1;</code>
+       * <code>.dstore.values.IntegerValue language_id = 1;</code>
        */
       public Builder clearLanguageId() {
         if (languageIdBuilder_ == null) {
@@ -644,7 +644,7 @@ public final class ImSetProductDescriptionsAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.IntegerValue language_id = 1;</code>
+       * <code>.dstore.values.IntegerValue language_id = 1;</code>
        */
       public io.dstore.values.IntegerValue.Builder getLanguageIdBuilder() {
         
@@ -652,7 +652,7 @@ public final class ImSetProductDescriptionsAd {
         return getLanguageIdFieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .dstore.values.IntegerValue language_id = 1;</code>
+       * <code>.dstore.values.IntegerValue language_id = 1;</code>
        */
       public io.dstore.values.IntegerValueOrBuilder getLanguageIdOrBuilder() {
         if (languageIdBuilder_ != null) {
@@ -663,7 +663,7 @@ public final class ImSetProductDescriptionsAd {
         }
       }
       /**
-       * <code>optional .dstore.values.IntegerValue language_id = 1;</code>
+       * <code>.dstore.values.IntegerValue language_id = 1;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> 
@@ -681,13 +681,13 @@ public final class ImSetProductDescriptionsAd {
 
       private boolean languageIdNull_ ;
       /**
-       * <code>optional bool language_id_null = 1001;</code>
+       * <code>bool language_id_null = 1001;</code>
        */
       public boolean getLanguageIdNull() {
         return languageIdNull_;
       }
       /**
-       * <code>optional bool language_id_null = 1001;</code>
+       * <code>bool language_id_null = 1001;</code>
        */
       public Builder setLanguageIdNull(boolean value) {
         
@@ -696,7 +696,7 @@ public final class ImSetProductDescriptionsAd {
         return this;
       }
       /**
-       * <code>optional bool language_id_null = 1001;</code>
+       * <code>bool language_id_null = 1001;</code>
        */
       public Builder clearLanguageIdNull() {
         
@@ -709,13 +709,13 @@ public final class ImSetProductDescriptionsAd {
       private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.values.BooleanValue, io.dstore.values.BooleanValue.Builder, io.dstore.values.BooleanValueOrBuilder> skipElementsWithProductDescrBuilder_;
       /**
-       * <code>optional .dstore.values.BooleanValue skip_elements_with_product_descr = 2;</code>
+       * <code>.dstore.values.BooleanValue skip_elements_with_product_descr = 2;</code>
        */
       public boolean hasSkipElementsWithProductDescr() {
         return skipElementsWithProductDescrBuilder_ != null || skipElementsWithProductDescr_ != null;
       }
       /**
-       * <code>optional .dstore.values.BooleanValue skip_elements_with_product_descr = 2;</code>
+       * <code>.dstore.values.BooleanValue skip_elements_with_product_descr = 2;</code>
        */
       public io.dstore.values.BooleanValue getSkipElementsWithProductDescr() {
         if (skipElementsWithProductDescrBuilder_ == null) {
@@ -725,7 +725,7 @@ public final class ImSetProductDescriptionsAd {
         }
       }
       /**
-       * <code>optional .dstore.values.BooleanValue skip_elements_with_product_descr = 2;</code>
+       * <code>.dstore.values.BooleanValue skip_elements_with_product_descr = 2;</code>
        */
       public Builder setSkipElementsWithProductDescr(io.dstore.values.BooleanValue value) {
         if (skipElementsWithProductDescrBuilder_ == null) {
@@ -741,7 +741,7 @@ public final class ImSetProductDescriptionsAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.BooleanValue skip_elements_with_product_descr = 2;</code>
+       * <code>.dstore.values.BooleanValue skip_elements_with_product_descr = 2;</code>
        */
       public Builder setSkipElementsWithProductDescr(
           io.dstore.values.BooleanValue.Builder builderForValue) {
@@ -755,7 +755,7 @@ public final class ImSetProductDescriptionsAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.BooleanValue skip_elements_with_product_descr = 2;</code>
+       * <code>.dstore.values.BooleanValue skip_elements_with_product_descr = 2;</code>
        */
       public Builder mergeSkipElementsWithProductDescr(io.dstore.values.BooleanValue value) {
         if (skipElementsWithProductDescrBuilder_ == null) {
@@ -773,7 +773,7 @@ public final class ImSetProductDescriptionsAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.BooleanValue skip_elements_with_product_descr = 2;</code>
+       * <code>.dstore.values.BooleanValue skip_elements_with_product_descr = 2;</code>
        */
       public Builder clearSkipElementsWithProductDescr() {
         if (skipElementsWithProductDescrBuilder_ == null) {
@@ -787,7 +787,7 @@ public final class ImSetProductDescriptionsAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.BooleanValue skip_elements_with_product_descr = 2;</code>
+       * <code>.dstore.values.BooleanValue skip_elements_with_product_descr = 2;</code>
        */
       public io.dstore.values.BooleanValue.Builder getSkipElementsWithProductDescrBuilder() {
         
@@ -795,7 +795,7 @@ public final class ImSetProductDescriptionsAd {
         return getSkipElementsWithProductDescrFieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .dstore.values.BooleanValue skip_elements_with_product_descr = 2;</code>
+       * <code>.dstore.values.BooleanValue skip_elements_with_product_descr = 2;</code>
        */
       public io.dstore.values.BooleanValueOrBuilder getSkipElementsWithProductDescrOrBuilder() {
         if (skipElementsWithProductDescrBuilder_ != null) {
@@ -806,7 +806,7 @@ public final class ImSetProductDescriptionsAd {
         }
       }
       /**
-       * <code>optional .dstore.values.BooleanValue skip_elements_with_product_descr = 2;</code>
+       * <code>.dstore.values.BooleanValue skip_elements_with_product_descr = 2;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.values.BooleanValue, io.dstore.values.BooleanValue.Builder, io.dstore.values.BooleanValueOrBuilder> 
@@ -824,13 +824,13 @@ public final class ImSetProductDescriptionsAd {
 
       private boolean skipElementsWithProductDescrNull_ ;
       /**
-       * <code>optional bool skip_elements_with_product_descr_null = 1002;</code>
+       * <code>bool skip_elements_with_product_descr_null = 1002;</code>
        */
       public boolean getSkipElementsWithProductDescrNull() {
         return skipElementsWithProductDescrNull_;
       }
       /**
-       * <code>optional bool skip_elements_with_product_descr_null = 1002;</code>
+       * <code>bool skip_elements_with_product_descr_null = 1002;</code>
        */
       public Builder setSkipElementsWithProductDescrNull(boolean value) {
         
@@ -839,7 +839,7 @@ public final class ImSetProductDescriptionsAd {
         return this;
       }
       /**
-       * <code>optional bool skip_elements_with_product_descr_null = 1002;</code>
+       * <code>bool skip_elements_with_product_descr_null = 1002;</code>
        */
       public Builder clearSkipElementsWithProductDescrNull() {
         
@@ -1098,7 +1098,7 @@ public final class ImSetProductDescriptionsAd {
         com.google.protobuf.MessageOrBuilder {
 
       /**
-       * <code>optional int32 row_id = 10000;</code>
+       * <code>int32 row_id = 10000;</code>
        */
       int getRowId();
     }
@@ -1173,7 +1173,7 @@ public final class ImSetProductDescriptionsAd {
       public static final int ROW_ID_FIELD_NUMBER = 10000;
       private int rowId_;
       /**
-       * <code>optional int32 row_id = 10000;</code>
+       * <code>int32 row_id = 10000;</code>
        */
       public int getRowId() {
         return rowId_;
@@ -1232,7 +1232,7 @@ public final class ImSetProductDescriptionsAd {
           return memoizedHashCode;
         }
         int hash = 41;
-        hash = (19 * hash) + getDescriptorForType().hashCode();
+        hash = (19 * hash) + getDescriptor().hashCode();
         hash = (37 * hash) + ROW_ID_FIELD_NUMBER;
         hash = (53 * hash) + getRowId();
         hash = (29 * hash) + unknownFields.hashCode();
@@ -1450,13 +1450,13 @@ public final class ImSetProductDescriptionsAd {
 
         private int rowId_ ;
         /**
-         * <code>optional int32 row_id = 10000;</code>
+         * <code>int32 row_id = 10000;</code>
          */
         public int getRowId() {
           return rowId_;
         }
         /**
-         * <code>optional int32 row_id = 10000;</code>
+         * <code>int32 row_id = 10000;</code>
          */
         public Builder setRowId(int value) {
           
@@ -1465,7 +1465,7 @@ public final class ImSetProductDescriptionsAd {
           return this;
         }
         /**
-         * <code>optional int32 row_id = 10000;</code>
+         * <code>int32 row_id = 10000;</code>
          */
         public Builder clearRowId() {
           
@@ -1718,7 +1718,7 @@ public final class ImSetProductDescriptionsAd {
         return memoizedHashCode;
       }
       int hash = 41;
-      hash = (19 * hash) + getDescriptorForType().hashCode();
+      hash = (19 * hash) + getDescriptor().hashCode();
       if (getMetaInformationCount() > 0) {
         hash = (37 * hash) + META_INFORMATION_FIELD_NUMBER;
         hash = (53 * hash) + getMetaInformationList().hashCode();

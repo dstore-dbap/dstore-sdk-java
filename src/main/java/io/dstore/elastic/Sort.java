@@ -536,7 +536,7 @@ public  final class Sort extends
         return memoizedHashCode;
       }
       int hash = 41;
-      hash = (19 * hash) + getDescriptorForType().hashCode();
+      hash = (19 * hash) + getDescriptor().hashCode();
       hash = (29 * hash) + unknownFields.hashCode();
       memoizedHashCode = hash;
       return hash;
@@ -797,39 +797,39 @@ public  final class Sort extends
       com.google.protobuf.MessageOrBuilder {
 
     /**
-     * <code>optional string field_name = 1;</code>
+     * <code>string field_name = 1;</code>
      */
     java.lang.String getFieldName();
     /**
-     * <code>optional string field_name = 1;</code>
+     * <code>string field_name = 1;</code>
      */
     com.google.protobuf.ByteString
         getFieldNameBytes();
 
     /**
-     * <code>optional .dstore.elastic.Sort.Order sort_order = 2;</code>
+     * <code>.dstore.elastic.Sort.Order sort_order = 2;</code>
      */
     int getSortOrderValue();
     /**
-     * <code>optional .dstore.elastic.Sort.Order sort_order = 2;</code>
+     * <code>.dstore.elastic.Sort.Order sort_order = 2;</code>
      */
     io.dstore.elastic.Sort.Order getSortOrder();
 
     /**
-     * <code>optional .dstore.elastic.Sort.Missing missing_treatment = 3;</code>
+     * <code>.dstore.elastic.Sort.Missing missing_treatment = 3;</code>
      */
     int getMissingTreatmentValue();
     /**
-     * <code>optional .dstore.elastic.Sort.Missing missing_treatment = 3;</code>
+     * <code>.dstore.elastic.Sort.Missing missing_treatment = 3;</code>
      */
     io.dstore.elastic.Sort.Missing getMissingTreatment();
 
     /**
-     * <code>optional .dstore.elastic.Sort.Mode sort_mode = 4;</code>
+     * <code>.dstore.elastic.Sort.Mode sort_mode = 4;</code>
      */
     int getSortModeValue();
     /**
-     * <code>optional .dstore.elastic.Sort.Mode sort_mode = 4;</code>
+     * <code>.dstore.elastic.Sort.Mode sort_mode = 4;</code>
      */
     io.dstore.elastic.Sort.Mode getSortMode();
 
@@ -984,7 +984,7 @@ public  final class Sort extends
     public static final int FIELD_NAME_FIELD_NUMBER = 1;
     private volatile java.lang.Object fieldName_;
     /**
-     * <code>optional string field_name = 1;</code>
+     * <code>string field_name = 1;</code>
      */
     public java.lang.String getFieldName() {
       java.lang.Object ref = fieldName_;
@@ -999,7 +999,7 @@ public  final class Sort extends
       }
     }
     /**
-     * <code>optional string field_name = 1;</code>
+     * <code>string field_name = 1;</code>
      */
     public com.google.protobuf.ByteString
         getFieldNameBytes() {
@@ -1018,13 +1018,13 @@ public  final class Sort extends
     public static final int SORT_ORDER_FIELD_NUMBER = 2;
     private int sortOrder_;
     /**
-     * <code>optional .dstore.elastic.Sort.Order sort_order = 2;</code>
+     * <code>.dstore.elastic.Sort.Order sort_order = 2;</code>
      */
     public int getSortOrderValue() {
       return sortOrder_;
     }
     /**
-     * <code>optional .dstore.elastic.Sort.Order sort_order = 2;</code>
+     * <code>.dstore.elastic.Sort.Order sort_order = 2;</code>
      */
     public io.dstore.elastic.Sort.Order getSortOrder() {
       io.dstore.elastic.Sort.Order result = io.dstore.elastic.Sort.Order.valueOf(sortOrder_);
@@ -1034,13 +1034,13 @@ public  final class Sort extends
     public static final int MISSING_TREATMENT_FIELD_NUMBER = 3;
     private int missingTreatment_;
     /**
-     * <code>optional .dstore.elastic.Sort.Missing missing_treatment = 3;</code>
+     * <code>.dstore.elastic.Sort.Missing missing_treatment = 3;</code>
      */
     public int getMissingTreatmentValue() {
       return missingTreatment_;
     }
     /**
-     * <code>optional .dstore.elastic.Sort.Missing missing_treatment = 3;</code>
+     * <code>.dstore.elastic.Sort.Missing missing_treatment = 3;</code>
      */
     public io.dstore.elastic.Sort.Missing getMissingTreatment() {
       io.dstore.elastic.Sort.Missing result = io.dstore.elastic.Sort.Missing.valueOf(missingTreatment_);
@@ -1050,13 +1050,13 @@ public  final class Sort extends
     public static final int SORT_MODE_FIELD_NUMBER = 4;
     private int sortMode_;
     /**
-     * <code>optional .dstore.elastic.Sort.Mode sort_mode = 4;</code>
+     * <code>.dstore.elastic.Sort.Mode sort_mode = 4;</code>
      */
     public int getSortModeValue() {
       return sortMode_;
     }
     /**
-     * <code>optional .dstore.elastic.Sort.Mode sort_mode = 4;</code>
+     * <code>.dstore.elastic.Sort.Mode sort_mode = 4;</code>
      */
     public io.dstore.elastic.Sort.Mode getSortMode() {
       io.dstore.elastic.Sort.Mode result = io.dstore.elastic.Sort.Mode.valueOf(sortMode_);
@@ -1203,7 +1203,7 @@ public  final class Sort extends
         return memoizedHashCode;
       }
       int hash = 41;
-      hash = (19 * hash) + getDescriptorForType().hashCode();
+      hash = (19 * hash) + getDescriptor().hashCode();
       hash = (37 * hash) + FIELD_NAME_FIELD_NUMBER;
       hash = (53 * hash) + getFieldName().hashCode();
       hash = (37 * hash) + SORT_ORDER_FIELD_NUMBER;
@@ -1496,7 +1496,7 @@ public  final class Sort extends
 
       private java.lang.Object fieldName_ = "";
       /**
-       * <code>optional string field_name = 1;</code>
+       * <code>string field_name = 1;</code>
        */
       public java.lang.String getFieldName() {
         java.lang.Object ref = fieldName_;
@@ -1511,7 +1511,7 @@ public  final class Sort extends
         }
       }
       /**
-       * <code>optional string field_name = 1;</code>
+       * <code>string field_name = 1;</code>
        */
       public com.google.protobuf.ByteString
           getFieldNameBytes() {
@@ -1527,7 +1527,7 @@ public  final class Sort extends
         }
       }
       /**
-       * <code>optional string field_name = 1;</code>
+       * <code>string field_name = 1;</code>
        */
       public Builder setFieldName(
           java.lang.String value) {
@@ -1540,7 +1540,7 @@ public  final class Sort extends
         return this;
       }
       /**
-       * <code>optional string field_name = 1;</code>
+       * <code>string field_name = 1;</code>
        */
       public Builder clearFieldName() {
         
@@ -1549,7 +1549,7 @@ public  final class Sort extends
         return this;
       }
       /**
-       * <code>optional string field_name = 1;</code>
+       * <code>string field_name = 1;</code>
        */
       public Builder setFieldNameBytes(
           com.google.protobuf.ByteString value) {
@@ -1565,13 +1565,13 @@ public  final class Sort extends
 
       private int sortOrder_ = 0;
       /**
-       * <code>optional .dstore.elastic.Sort.Order sort_order = 2;</code>
+       * <code>.dstore.elastic.Sort.Order sort_order = 2;</code>
        */
       public int getSortOrderValue() {
         return sortOrder_;
       }
       /**
-       * <code>optional .dstore.elastic.Sort.Order sort_order = 2;</code>
+       * <code>.dstore.elastic.Sort.Order sort_order = 2;</code>
        */
       public Builder setSortOrderValue(int value) {
         sortOrder_ = value;
@@ -1579,14 +1579,14 @@ public  final class Sort extends
         return this;
       }
       /**
-       * <code>optional .dstore.elastic.Sort.Order sort_order = 2;</code>
+       * <code>.dstore.elastic.Sort.Order sort_order = 2;</code>
        */
       public io.dstore.elastic.Sort.Order getSortOrder() {
         io.dstore.elastic.Sort.Order result = io.dstore.elastic.Sort.Order.valueOf(sortOrder_);
         return result == null ? io.dstore.elastic.Sort.Order.UNRECOGNIZED : result;
       }
       /**
-       * <code>optional .dstore.elastic.Sort.Order sort_order = 2;</code>
+       * <code>.dstore.elastic.Sort.Order sort_order = 2;</code>
        */
       public Builder setSortOrder(io.dstore.elastic.Sort.Order value) {
         if (value == null) {
@@ -1598,7 +1598,7 @@ public  final class Sort extends
         return this;
       }
       /**
-       * <code>optional .dstore.elastic.Sort.Order sort_order = 2;</code>
+       * <code>.dstore.elastic.Sort.Order sort_order = 2;</code>
        */
       public Builder clearSortOrder() {
         
@@ -1609,13 +1609,13 @@ public  final class Sort extends
 
       private int missingTreatment_ = 0;
       /**
-       * <code>optional .dstore.elastic.Sort.Missing missing_treatment = 3;</code>
+       * <code>.dstore.elastic.Sort.Missing missing_treatment = 3;</code>
        */
       public int getMissingTreatmentValue() {
         return missingTreatment_;
       }
       /**
-       * <code>optional .dstore.elastic.Sort.Missing missing_treatment = 3;</code>
+       * <code>.dstore.elastic.Sort.Missing missing_treatment = 3;</code>
        */
       public Builder setMissingTreatmentValue(int value) {
         missingTreatment_ = value;
@@ -1623,14 +1623,14 @@ public  final class Sort extends
         return this;
       }
       /**
-       * <code>optional .dstore.elastic.Sort.Missing missing_treatment = 3;</code>
+       * <code>.dstore.elastic.Sort.Missing missing_treatment = 3;</code>
        */
       public io.dstore.elastic.Sort.Missing getMissingTreatment() {
         io.dstore.elastic.Sort.Missing result = io.dstore.elastic.Sort.Missing.valueOf(missingTreatment_);
         return result == null ? io.dstore.elastic.Sort.Missing.UNRECOGNIZED : result;
       }
       /**
-       * <code>optional .dstore.elastic.Sort.Missing missing_treatment = 3;</code>
+       * <code>.dstore.elastic.Sort.Missing missing_treatment = 3;</code>
        */
       public Builder setMissingTreatment(io.dstore.elastic.Sort.Missing value) {
         if (value == null) {
@@ -1642,7 +1642,7 @@ public  final class Sort extends
         return this;
       }
       /**
-       * <code>optional .dstore.elastic.Sort.Missing missing_treatment = 3;</code>
+       * <code>.dstore.elastic.Sort.Missing missing_treatment = 3;</code>
        */
       public Builder clearMissingTreatment() {
         
@@ -1653,13 +1653,13 @@ public  final class Sort extends
 
       private int sortMode_ = 0;
       /**
-       * <code>optional .dstore.elastic.Sort.Mode sort_mode = 4;</code>
+       * <code>.dstore.elastic.Sort.Mode sort_mode = 4;</code>
        */
       public int getSortModeValue() {
         return sortMode_;
       }
       /**
-       * <code>optional .dstore.elastic.Sort.Mode sort_mode = 4;</code>
+       * <code>.dstore.elastic.Sort.Mode sort_mode = 4;</code>
        */
       public Builder setSortModeValue(int value) {
         sortMode_ = value;
@@ -1667,14 +1667,14 @@ public  final class Sort extends
         return this;
       }
       /**
-       * <code>optional .dstore.elastic.Sort.Mode sort_mode = 4;</code>
+       * <code>.dstore.elastic.Sort.Mode sort_mode = 4;</code>
        */
       public io.dstore.elastic.Sort.Mode getSortMode() {
         io.dstore.elastic.Sort.Mode result = io.dstore.elastic.Sort.Mode.valueOf(sortMode_);
         return result == null ? io.dstore.elastic.Sort.Mode.UNRECOGNIZED : result;
       }
       /**
-       * <code>optional .dstore.elastic.Sort.Mode sort_mode = 4;</code>
+       * <code>.dstore.elastic.Sort.Mode sort_mode = 4;</code>
        */
       public Builder setSortMode(io.dstore.elastic.Sort.Mode value) {
         if (value == null) {
@@ -1686,7 +1686,7 @@ public  final class Sort extends
         return this;
       }
       /**
-       * <code>optional .dstore.elastic.Sort.Mode sort_mode = 4;</code>
+       * <code>.dstore.elastic.Sort.Mode sort_mode = 4;</code>
        */
       public Builder clearSortMode() {
         
@@ -2095,7 +2095,7 @@ public  final class Sort extends
 
   public static final int FIELD_SORT_FIELD_NUMBER = 1;
   /**
-   * <code>optional .dstore.elastic.Sort.FieldSort field_sort = 1;</code>
+   * <code>.dstore.elastic.Sort.FieldSort field_sort = 1;</code>
    */
   public io.dstore.elastic.Sort.FieldSort getFieldSort() {
     if (sortByCase_ == 1) {
@@ -2104,7 +2104,7 @@ public  final class Sort extends
     return io.dstore.elastic.Sort.FieldSort.getDefaultInstance();
   }
   /**
-   * <code>optional .dstore.elastic.Sort.FieldSort field_sort = 1;</code>
+   * <code>.dstore.elastic.Sort.FieldSort field_sort = 1;</code>
    */
   public io.dstore.elastic.Sort.FieldSortOrBuilder getFieldSortOrBuilder() {
     if (sortByCase_ == 1) {
@@ -2115,7 +2115,7 @@ public  final class Sort extends
 
   public static final int SCORE_SORT_FIELD_NUMBER = 2;
   /**
-   * <code>optional .dstore.elastic.Sort.ScoreSort score_sort = 2;</code>
+   * <code>.dstore.elastic.Sort.ScoreSort score_sort = 2;</code>
    */
   public io.dstore.elastic.Sort.ScoreSort getScoreSort() {
     if (sortByCase_ == 2) {
@@ -2124,7 +2124,7 @@ public  final class Sort extends
     return io.dstore.elastic.Sort.ScoreSort.getDefaultInstance();
   }
   /**
-   * <code>optional .dstore.elastic.Sort.ScoreSort score_sort = 2;</code>
+   * <code>.dstore.elastic.Sort.ScoreSort score_sort = 2;</code>
    */
   public io.dstore.elastic.Sort.ScoreSortOrBuilder getScoreSortOrBuilder() {
     if (sortByCase_ == 2) {
@@ -2206,7 +2206,7 @@ public  final class Sort extends
       return memoizedHashCode;
     }
     int hash = 41;
-    hash = (19 * hash) + getDescriptorForType().hashCode();
+    hash = (19 * hash) + getDescriptor().hashCode();
     switch (sortByCase_) {
       case 1:
         hash = (37 * hash) + FIELD_SORT_FIELD_NUMBER;
@@ -2478,7 +2478,7 @@ public  final class Sort extends
     private com.google.protobuf.SingleFieldBuilderV3<
         io.dstore.elastic.Sort.FieldSort, io.dstore.elastic.Sort.FieldSort.Builder, io.dstore.elastic.Sort.FieldSortOrBuilder> fieldSortBuilder_;
     /**
-     * <code>optional .dstore.elastic.Sort.FieldSort field_sort = 1;</code>
+     * <code>.dstore.elastic.Sort.FieldSort field_sort = 1;</code>
      */
     public io.dstore.elastic.Sort.FieldSort getFieldSort() {
       if (fieldSortBuilder_ == null) {
@@ -2494,7 +2494,7 @@ public  final class Sort extends
       }
     }
     /**
-     * <code>optional .dstore.elastic.Sort.FieldSort field_sort = 1;</code>
+     * <code>.dstore.elastic.Sort.FieldSort field_sort = 1;</code>
      */
     public Builder setFieldSort(io.dstore.elastic.Sort.FieldSort value) {
       if (fieldSortBuilder_ == null) {
@@ -2510,7 +2510,7 @@ public  final class Sort extends
       return this;
     }
     /**
-     * <code>optional .dstore.elastic.Sort.FieldSort field_sort = 1;</code>
+     * <code>.dstore.elastic.Sort.FieldSort field_sort = 1;</code>
      */
     public Builder setFieldSort(
         io.dstore.elastic.Sort.FieldSort.Builder builderForValue) {
@@ -2524,7 +2524,7 @@ public  final class Sort extends
       return this;
     }
     /**
-     * <code>optional .dstore.elastic.Sort.FieldSort field_sort = 1;</code>
+     * <code>.dstore.elastic.Sort.FieldSort field_sort = 1;</code>
      */
     public Builder mergeFieldSort(io.dstore.elastic.Sort.FieldSort value) {
       if (fieldSortBuilder_ == null) {
@@ -2546,7 +2546,7 @@ public  final class Sort extends
       return this;
     }
     /**
-     * <code>optional .dstore.elastic.Sort.FieldSort field_sort = 1;</code>
+     * <code>.dstore.elastic.Sort.FieldSort field_sort = 1;</code>
      */
     public Builder clearFieldSort() {
       if (fieldSortBuilder_ == null) {
@@ -2565,13 +2565,13 @@ public  final class Sort extends
       return this;
     }
     /**
-     * <code>optional .dstore.elastic.Sort.FieldSort field_sort = 1;</code>
+     * <code>.dstore.elastic.Sort.FieldSort field_sort = 1;</code>
      */
     public io.dstore.elastic.Sort.FieldSort.Builder getFieldSortBuilder() {
       return getFieldSortFieldBuilder().getBuilder();
     }
     /**
-     * <code>optional .dstore.elastic.Sort.FieldSort field_sort = 1;</code>
+     * <code>.dstore.elastic.Sort.FieldSort field_sort = 1;</code>
      */
     public io.dstore.elastic.Sort.FieldSortOrBuilder getFieldSortOrBuilder() {
       if ((sortByCase_ == 1) && (fieldSortBuilder_ != null)) {
@@ -2584,7 +2584,7 @@ public  final class Sort extends
       }
     }
     /**
-     * <code>optional .dstore.elastic.Sort.FieldSort field_sort = 1;</code>
+     * <code>.dstore.elastic.Sort.FieldSort field_sort = 1;</code>
      */
     private com.google.protobuf.SingleFieldBuilderV3<
         io.dstore.elastic.Sort.FieldSort, io.dstore.elastic.Sort.FieldSort.Builder, io.dstore.elastic.Sort.FieldSortOrBuilder> 
@@ -2608,7 +2608,7 @@ public  final class Sort extends
     private com.google.protobuf.SingleFieldBuilderV3<
         io.dstore.elastic.Sort.ScoreSort, io.dstore.elastic.Sort.ScoreSort.Builder, io.dstore.elastic.Sort.ScoreSortOrBuilder> scoreSortBuilder_;
     /**
-     * <code>optional .dstore.elastic.Sort.ScoreSort score_sort = 2;</code>
+     * <code>.dstore.elastic.Sort.ScoreSort score_sort = 2;</code>
      */
     public io.dstore.elastic.Sort.ScoreSort getScoreSort() {
       if (scoreSortBuilder_ == null) {
@@ -2624,7 +2624,7 @@ public  final class Sort extends
       }
     }
     /**
-     * <code>optional .dstore.elastic.Sort.ScoreSort score_sort = 2;</code>
+     * <code>.dstore.elastic.Sort.ScoreSort score_sort = 2;</code>
      */
     public Builder setScoreSort(io.dstore.elastic.Sort.ScoreSort value) {
       if (scoreSortBuilder_ == null) {
@@ -2640,7 +2640,7 @@ public  final class Sort extends
       return this;
     }
     /**
-     * <code>optional .dstore.elastic.Sort.ScoreSort score_sort = 2;</code>
+     * <code>.dstore.elastic.Sort.ScoreSort score_sort = 2;</code>
      */
     public Builder setScoreSort(
         io.dstore.elastic.Sort.ScoreSort.Builder builderForValue) {
@@ -2654,7 +2654,7 @@ public  final class Sort extends
       return this;
     }
     /**
-     * <code>optional .dstore.elastic.Sort.ScoreSort score_sort = 2;</code>
+     * <code>.dstore.elastic.Sort.ScoreSort score_sort = 2;</code>
      */
     public Builder mergeScoreSort(io.dstore.elastic.Sort.ScoreSort value) {
       if (scoreSortBuilder_ == null) {
@@ -2676,7 +2676,7 @@ public  final class Sort extends
       return this;
     }
     /**
-     * <code>optional .dstore.elastic.Sort.ScoreSort score_sort = 2;</code>
+     * <code>.dstore.elastic.Sort.ScoreSort score_sort = 2;</code>
      */
     public Builder clearScoreSort() {
       if (scoreSortBuilder_ == null) {
@@ -2695,13 +2695,13 @@ public  final class Sort extends
       return this;
     }
     /**
-     * <code>optional .dstore.elastic.Sort.ScoreSort score_sort = 2;</code>
+     * <code>.dstore.elastic.Sort.ScoreSort score_sort = 2;</code>
      */
     public io.dstore.elastic.Sort.ScoreSort.Builder getScoreSortBuilder() {
       return getScoreSortFieldBuilder().getBuilder();
     }
     /**
-     * <code>optional .dstore.elastic.Sort.ScoreSort score_sort = 2;</code>
+     * <code>.dstore.elastic.Sort.ScoreSort score_sort = 2;</code>
      */
     public io.dstore.elastic.Sort.ScoreSortOrBuilder getScoreSortOrBuilder() {
       if ((sortByCase_ == 2) && (scoreSortBuilder_ != null)) {
@@ -2714,7 +2714,7 @@ public  final class Sort extends
       }
     }
     /**
-     * <code>optional .dstore.elastic.Sort.ScoreSort score_sort = 2;</code>
+     * <code>.dstore.elastic.Sort.ScoreSort score_sort = 2;</code>
      */
     private com.google.protobuf.SingleFieldBuilderV3<
         io.dstore.elastic.Sort.ScoreSort, io.dstore.elastic.Sort.ScoreSort.Builder, io.dstore.elastic.Sort.ScoreSortOrBuilder> 

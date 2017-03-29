@@ -19,38 +19,38 @@ public final class OmGetCampVoucherCodeCondsAd {
       com.google.protobuf.MessageOrBuilder {
 
     /**
-     * <code>optional .dstore.values.IntegerValue condition_id = 1;</code>
+     * <code>.dstore.values.IntegerValue condition_id = 1;</code>
      */
     boolean hasConditionId();
     /**
-     * <code>optional .dstore.values.IntegerValue condition_id = 1;</code>
+     * <code>.dstore.values.IntegerValue condition_id = 1;</code>
      */
     io.dstore.values.IntegerValue getConditionId();
     /**
-     * <code>optional .dstore.values.IntegerValue condition_id = 1;</code>
+     * <code>.dstore.values.IntegerValue condition_id = 1;</code>
      */
     io.dstore.values.IntegerValueOrBuilder getConditionIdOrBuilder();
 
     /**
-     * <code>optional bool condition_id_null = 1001;</code>
+     * <code>bool condition_id_null = 1001;</code>
      */
     boolean getConditionIdNull();
 
     /**
-     * <code>optional .dstore.values.BooleanValue get_unused_conditions = 2;</code>
+     * <code>.dstore.values.BooleanValue get_unused_conditions = 2;</code>
      */
     boolean hasGetUnusedConditions();
     /**
-     * <code>optional .dstore.values.BooleanValue get_unused_conditions = 2;</code>
+     * <code>.dstore.values.BooleanValue get_unused_conditions = 2;</code>
      */
     io.dstore.values.BooleanValue getGetUnusedConditions();
     /**
-     * <code>optional .dstore.values.BooleanValue get_unused_conditions = 2;</code>
+     * <code>.dstore.values.BooleanValue get_unused_conditions = 2;</code>
      */
     io.dstore.values.BooleanValueOrBuilder getGetUnusedConditionsOrBuilder();
 
     /**
-     * <code>optional bool get_unused_conditions_null = 1002;</code>
+     * <code>bool get_unused_conditions_null = 1002;</code>
      */
     boolean getGetUnusedConditionsNull();
   }
@@ -157,19 +157,19 @@ public final class OmGetCampVoucherCodeCondsAd {
     public static final int CONDITION_ID_FIELD_NUMBER = 1;
     private io.dstore.values.IntegerValue conditionId_;
     /**
-     * <code>optional .dstore.values.IntegerValue condition_id = 1;</code>
+     * <code>.dstore.values.IntegerValue condition_id = 1;</code>
      */
     public boolean hasConditionId() {
       return conditionId_ != null;
     }
     /**
-     * <code>optional .dstore.values.IntegerValue condition_id = 1;</code>
+     * <code>.dstore.values.IntegerValue condition_id = 1;</code>
      */
     public io.dstore.values.IntegerValue getConditionId() {
       return conditionId_ == null ? io.dstore.values.IntegerValue.getDefaultInstance() : conditionId_;
     }
     /**
-     * <code>optional .dstore.values.IntegerValue condition_id = 1;</code>
+     * <code>.dstore.values.IntegerValue condition_id = 1;</code>
      */
     public io.dstore.values.IntegerValueOrBuilder getConditionIdOrBuilder() {
       return getConditionId();
@@ -178,7 +178,7 @@ public final class OmGetCampVoucherCodeCondsAd {
     public static final int CONDITION_ID_NULL_FIELD_NUMBER = 1001;
     private boolean conditionIdNull_;
     /**
-     * <code>optional bool condition_id_null = 1001;</code>
+     * <code>bool condition_id_null = 1001;</code>
      */
     public boolean getConditionIdNull() {
       return conditionIdNull_;
@@ -187,19 +187,19 @@ public final class OmGetCampVoucherCodeCondsAd {
     public static final int GET_UNUSED_CONDITIONS_FIELD_NUMBER = 2;
     private io.dstore.values.BooleanValue getUnusedConditions_;
     /**
-     * <code>optional .dstore.values.BooleanValue get_unused_conditions = 2;</code>
+     * <code>.dstore.values.BooleanValue get_unused_conditions = 2;</code>
      */
     public boolean hasGetUnusedConditions() {
       return getUnusedConditions_ != null;
     }
     /**
-     * <code>optional .dstore.values.BooleanValue get_unused_conditions = 2;</code>
+     * <code>.dstore.values.BooleanValue get_unused_conditions = 2;</code>
      */
     public io.dstore.values.BooleanValue getGetUnusedConditions() {
       return getUnusedConditions_ == null ? io.dstore.values.BooleanValue.getDefaultInstance() : getUnusedConditions_;
     }
     /**
-     * <code>optional .dstore.values.BooleanValue get_unused_conditions = 2;</code>
+     * <code>.dstore.values.BooleanValue get_unused_conditions = 2;</code>
      */
     public io.dstore.values.BooleanValueOrBuilder getGetUnusedConditionsOrBuilder() {
       return getGetUnusedConditions();
@@ -208,7 +208,7 @@ public final class OmGetCampVoucherCodeCondsAd {
     public static final int GET_UNUSED_CONDITIONS_NULL_FIELD_NUMBER = 1002;
     private boolean getUnusedConditionsNull_;
     /**
-     * <code>optional bool get_unused_conditions_null = 1002;</code>
+     * <code>bool get_unused_conditions_null = 1002;</code>
      */
     public boolean getGetUnusedConditionsNull() {
       return getUnusedConditionsNull_;
@@ -300,7 +300,7 @@ public final class OmGetCampVoucherCodeCondsAd {
         return memoizedHashCode;
       }
       int hash = 41;
-      hash = (19 * hash) + getDescriptorForType().hashCode();
+      hash = (19 * hash) + getDescriptor().hashCode();
       if (hasConditionId()) {
         hash = (37 * hash) + CONDITION_ID_FIELD_NUMBER;
         hash = (53 * hash) + getConditionId().hashCode();
@@ -566,13 +566,13 @@ public final class OmGetCampVoucherCodeCondsAd {
       private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> conditionIdBuilder_;
       /**
-       * <code>optional .dstore.values.IntegerValue condition_id = 1;</code>
+       * <code>.dstore.values.IntegerValue condition_id = 1;</code>
        */
       public boolean hasConditionId() {
         return conditionIdBuilder_ != null || conditionId_ != null;
       }
       /**
-       * <code>optional .dstore.values.IntegerValue condition_id = 1;</code>
+       * <code>.dstore.values.IntegerValue condition_id = 1;</code>
        */
       public io.dstore.values.IntegerValue getConditionId() {
         if (conditionIdBuilder_ == null) {
@@ -582,7 +582,7 @@ public final class OmGetCampVoucherCodeCondsAd {
         }
       }
       /**
-       * <code>optional .dstore.values.IntegerValue condition_id = 1;</code>
+       * <code>.dstore.values.IntegerValue condition_id = 1;</code>
        */
       public Builder setConditionId(io.dstore.values.IntegerValue value) {
         if (conditionIdBuilder_ == null) {
@@ -598,7 +598,7 @@ public final class OmGetCampVoucherCodeCondsAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.IntegerValue condition_id = 1;</code>
+       * <code>.dstore.values.IntegerValue condition_id = 1;</code>
        */
       public Builder setConditionId(
           io.dstore.values.IntegerValue.Builder builderForValue) {
@@ -612,7 +612,7 @@ public final class OmGetCampVoucherCodeCondsAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.IntegerValue condition_id = 1;</code>
+       * <code>.dstore.values.IntegerValue condition_id = 1;</code>
        */
       public Builder mergeConditionId(io.dstore.values.IntegerValue value) {
         if (conditionIdBuilder_ == null) {
@@ -630,7 +630,7 @@ public final class OmGetCampVoucherCodeCondsAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.IntegerValue condition_id = 1;</code>
+       * <code>.dstore.values.IntegerValue condition_id = 1;</code>
        */
       public Builder clearConditionId() {
         if (conditionIdBuilder_ == null) {
@@ -644,7 +644,7 @@ public final class OmGetCampVoucherCodeCondsAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.IntegerValue condition_id = 1;</code>
+       * <code>.dstore.values.IntegerValue condition_id = 1;</code>
        */
       public io.dstore.values.IntegerValue.Builder getConditionIdBuilder() {
         
@@ -652,7 +652,7 @@ public final class OmGetCampVoucherCodeCondsAd {
         return getConditionIdFieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .dstore.values.IntegerValue condition_id = 1;</code>
+       * <code>.dstore.values.IntegerValue condition_id = 1;</code>
        */
       public io.dstore.values.IntegerValueOrBuilder getConditionIdOrBuilder() {
         if (conditionIdBuilder_ != null) {
@@ -663,7 +663,7 @@ public final class OmGetCampVoucherCodeCondsAd {
         }
       }
       /**
-       * <code>optional .dstore.values.IntegerValue condition_id = 1;</code>
+       * <code>.dstore.values.IntegerValue condition_id = 1;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> 
@@ -681,13 +681,13 @@ public final class OmGetCampVoucherCodeCondsAd {
 
       private boolean conditionIdNull_ ;
       /**
-       * <code>optional bool condition_id_null = 1001;</code>
+       * <code>bool condition_id_null = 1001;</code>
        */
       public boolean getConditionIdNull() {
         return conditionIdNull_;
       }
       /**
-       * <code>optional bool condition_id_null = 1001;</code>
+       * <code>bool condition_id_null = 1001;</code>
        */
       public Builder setConditionIdNull(boolean value) {
         
@@ -696,7 +696,7 @@ public final class OmGetCampVoucherCodeCondsAd {
         return this;
       }
       /**
-       * <code>optional bool condition_id_null = 1001;</code>
+       * <code>bool condition_id_null = 1001;</code>
        */
       public Builder clearConditionIdNull() {
         
@@ -709,13 +709,13 @@ public final class OmGetCampVoucherCodeCondsAd {
       private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.values.BooleanValue, io.dstore.values.BooleanValue.Builder, io.dstore.values.BooleanValueOrBuilder> getUnusedConditionsBuilder_;
       /**
-       * <code>optional .dstore.values.BooleanValue get_unused_conditions = 2;</code>
+       * <code>.dstore.values.BooleanValue get_unused_conditions = 2;</code>
        */
       public boolean hasGetUnusedConditions() {
         return getUnusedConditionsBuilder_ != null || getUnusedConditions_ != null;
       }
       /**
-       * <code>optional .dstore.values.BooleanValue get_unused_conditions = 2;</code>
+       * <code>.dstore.values.BooleanValue get_unused_conditions = 2;</code>
        */
       public io.dstore.values.BooleanValue getGetUnusedConditions() {
         if (getUnusedConditionsBuilder_ == null) {
@@ -725,7 +725,7 @@ public final class OmGetCampVoucherCodeCondsAd {
         }
       }
       /**
-       * <code>optional .dstore.values.BooleanValue get_unused_conditions = 2;</code>
+       * <code>.dstore.values.BooleanValue get_unused_conditions = 2;</code>
        */
       public Builder setGetUnusedConditions(io.dstore.values.BooleanValue value) {
         if (getUnusedConditionsBuilder_ == null) {
@@ -741,7 +741,7 @@ public final class OmGetCampVoucherCodeCondsAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.BooleanValue get_unused_conditions = 2;</code>
+       * <code>.dstore.values.BooleanValue get_unused_conditions = 2;</code>
        */
       public Builder setGetUnusedConditions(
           io.dstore.values.BooleanValue.Builder builderForValue) {
@@ -755,7 +755,7 @@ public final class OmGetCampVoucherCodeCondsAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.BooleanValue get_unused_conditions = 2;</code>
+       * <code>.dstore.values.BooleanValue get_unused_conditions = 2;</code>
        */
       public Builder mergeGetUnusedConditions(io.dstore.values.BooleanValue value) {
         if (getUnusedConditionsBuilder_ == null) {
@@ -773,7 +773,7 @@ public final class OmGetCampVoucherCodeCondsAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.BooleanValue get_unused_conditions = 2;</code>
+       * <code>.dstore.values.BooleanValue get_unused_conditions = 2;</code>
        */
       public Builder clearGetUnusedConditions() {
         if (getUnusedConditionsBuilder_ == null) {
@@ -787,7 +787,7 @@ public final class OmGetCampVoucherCodeCondsAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.BooleanValue get_unused_conditions = 2;</code>
+       * <code>.dstore.values.BooleanValue get_unused_conditions = 2;</code>
        */
       public io.dstore.values.BooleanValue.Builder getGetUnusedConditionsBuilder() {
         
@@ -795,7 +795,7 @@ public final class OmGetCampVoucherCodeCondsAd {
         return getGetUnusedConditionsFieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .dstore.values.BooleanValue get_unused_conditions = 2;</code>
+       * <code>.dstore.values.BooleanValue get_unused_conditions = 2;</code>
        */
       public io.dstore.values.BooleanValueOrBuilder getGetUnusedConditionsOrBuilder() {
         if (getUnusedConditionsBuilder_ != null) {
@@ -806,7 +806,7 @@ public final class OmGetCampVoucherCodeCondsAd {
         }
       }
       /**
-       * <code>optional .dstore.values.BooleanValue get_unused_conditions = 2;</code>
+       * <code>.dstore.values.BooleanValue get_unused_conditions = 2;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.values.BooleanValue, io.dstore.values.BooleanValue.Builder, io.dstore.values.BooleanValueOrBuilder> 
@@ -824,13 +824,13 @@ public final class OmGetCampVoucherCodeCondsAd {
 
       private boolean getUnusedConditionsNull_ ;
       /**
-       * <code>optional bool get_unused_conditions_null = 1002;</code>
+       * <code>bool get_unused_conditions_null = 1002;</code>
        */
       public boolean getGetUnusedConditionsNull() {
         return getUnusedConditionsNull_;
       }
       /**
-       * <code>optional bool get_unused_conditions_null = 1002;</code>
+       * <code>bool get_unused_conditions_null = 1002;</code>
        */
       public Builder setGetUnusedConditionsNull(boolean value) {
         
@@ -839,7 +839,7 @@ public final class OmGetCampVoucherCodeCondsAd {
         return this;
       }
       /**
-       * <code>optional bool get_unused_conditions_null = 1002;</code>
+       * <code>bool get_unused_conditions_null = 1002;</code>
        */
       public Builder clearGetUnusedConditionsNull() {
         
@@ -1098,7 +1098,7 @@ public final class OmGetCampVoucherCodeCondsAd {
         com.google.protobuf.MessageOrBuilder {
 
       /**
-       * <code>optional int32 row_id = 10000;</code>
+       * <code>int32 row_id = 10000;</code>
        */
       int getRowId();
 
@@ -1107,7 +1107,7 @@ public final class OmGetCampVoucherCodeCondsAd {
        * Bezeichnung der Gutschein-Aktion "ValidCodeOfVoucherTypeID"
        * </pre>
        *
-       * <code>optional .dstore.values.StringValue voucher_type_description = 10001;</code>
+       * <code>.dstore.values.StringValue voucher_type_description = 10001;</code>
        */
       boolean hasVoucherTypeDescription();
       /**
@@ -1115,7 +1115,7 @@ public final class OmGetCampVoucherCodeCondsAd {
        * Bezeichnung der Gutschein-Aktion "ValidCodeOfVoucherTypeID"
        * </pre>
        *
-       * <code>optional .dstore.values.StringValue voucher_type_description = 10001;</code>
+       * <code>.dstore.values.StringValue voucher_type_description = 10001;</code>
        */
       io.dstore.values.StringValue getVoucherTypeDescription();
       /**
@@ -1123,7 +1123,7 @@ public final class OmGetCampVoucherCodeCondsAd {
        * Bezeichnung der Gutschein-Aktion "ValidCodeOfVoucherTypeID"
        * </pre>
        *
-       * <code>optional .dstore.values.StringValue voucher_type_description = 10001;</code>
+       * <code>.dstore.values.StringValue voucher_type_description = 10001;</code>
        */
       io.dstore.values.StringValueOrBuilder getVoucherTypeDescriptionOrBuilder();
 
@@ -1132,7 +1132,7 @@ public final class OmGetCampVoucherCodeCondsAd {
        * ID einer Gutschein-Aktion. Es muß ein gültiger Code dieser Aktion angegeben (sprich durch "om_ValidateVoucherCode_Pu" validiert) worden sein, um die Bedingung der Verkaufs-Aktion zu erfüllen.
        * </pre>
        *
-       * <code>optional .dstore.values.IntegerValue valid_code_of_voucher_type_id = 10002;</code>
+       * <code>.dstore.values.IntegerValue valid_code_of_voucher_type_id = 10002;</code>
        */
       boolean hasValidCodeOfVoucherTypeId();
       /**
@@ -1140,7 +1140,7 @@ public final class OmGetCampVoucherCodeCondsAd {
        * ID einer Gutschein-Aktion. Es muß ein gültiger Code dieser Aktion angegeben (sprich durch "om_ValidateVoucherCode_Pu" validiert) worden sein, um die Bedingung der Verkaufs-Aktion zu erfüllen.
        * </pre>
        *
-       * <code>optional .dstore.values.IntegerValue valid_code_of_voucher_type_id = 10002;</code>
+       * <code>.dstore.values.IntegerValue valid_code_of_voucher_type_id = 10002;</code>
        */
       io.dstore.values.IntegerValue getValidCodeOfVoucherTypeId();
       /**
@@ -1148,7 +1148,7 @@ public final class OmGetCampVoucherCodeCondsAd {
        * ID einer Gutschein-Aktion. Es muß ein gültiger Code dieser Aktion angegeben (sprich durch "om_ValidateVoucherCode_Pu" validiert) worden sein, um die Bedingung der Verkaufs-Aktion zu erfüllen.
        * </pre>
        *
-       * <code>optional .dstore.values.IntegerValue valid_code_of_voucher_type_id = 10002;</code>
+       * <code>.dstore.values.IntegerValue valid_code_of_voucher_type_id = 10002;</code>
        */
       io.dstore.values.IntegerValueOrBuilder getValidCodeOfVoucherTypeIdOrBuilder();
 
@@ -1157,7 +1157,7 @@ public final class OmGetCampVoucherCodeCondsAd {
        * ID einer "Gutscheincode-Bedingung" (derzeit natürlich immer identisch mit "&#64;ConditionID")
        * </pre>
        *
-       * <code>optional .dstore.values.IntegerValue condition_id = 10003;</code>
+       * <code>.dstore.values.IntegerValue condition_id = 10003;</code>
        */
       boolean hasConditionId();
       /**
@@ -1165,7 +1165,7 @@ public final class OmGetCampVoucherCodeCondsAd {
        * ID einer "Gutscheincode-Bedingung" (derzeit natürlich immer identisch mit "&#64;ConditionID")
        * </pre>
        *
-       * <code>optional .dstore.values.IntegerValue condition_id = 10003;</code>
+       * <code>.dstore.values.IntegerValue condition_id = 10003;</code>
        */
       io.dstore.values.IntegerValue getConditionId();
       /**
@@ -1173,7 +1173,7 @@ public final class OmGetCampVoucherCodeCondsAd {
        * ID einer "Gutscheincode-Bedingung" (derzeit natürlich immer identisch mit "&#64;ConditionID")
        * </pre>
        *
-       * <code>optional .dstore.values.IntegerValue condition_id = 10003;</code>
+       * <code>.dstore.values.IntegerValue condition_id = 10003;</code>
        */
       io.dstore.values.IntegerValueOrBuilder getConditionIdOrBuilder();
     }
@@ -1287,7 +1287,7 @@ public final class OmGetCampVoucherCodeCondsAd {
       public static final int ROW_ID_FIELD_NUMBER = 10000;
       private int rowId_;
       /**
-       * <code>optional int32 row_id = 10000;</code>
+       * <code>int32 row_id = 10000;</code>
        */
       public int getRowId() {
         return rowId_;
@@ -1300,7 +1300,7 @@ public final class OmGetCampVoucherCodeCondsAd {
        * Bezeichnung der Gutschein-Aktion "ValidCodeOfVoucherTypeID"
        * </pre>
        *
-       * <code>optional .dstore.values.StringValue voucher_type_description = 10001;</code>
+       * <code>.dstore.values.StringValue voucher_type_description = 10001;</code>
        */
       public boolean hasVoucherTypeDescription() {
         return voucherTypeDescription_ != null;
@@ -1310,7 +1310,7 @@ public final class OmGetCampVoucherCodeCondsAd {
        * Bezeichnung der Gutschein-Aktion "ValidCodeOfVoucherTypeID"
        * </pre>
        *
-       * <code>optional .dstore.values.StringValue voucher_type_description = 10001;</code>
+       * <code>.dstore.values.StringValue voucher_type_description = 10001;</code>
        */
       public io.dstore.values.StringValue getVoucherTypeDescription() {
         return voucherTypeDescription_ == null ? io.dstore.values.StringValue.getDefaultInstance() : voucherTypeDescription_;
@@ -1320,7 +1320,7 @@ public final class OmGetCampVoucherCodeCondsAd {
        * Bezeichnung der Gutschein-Aktion "ValidCodeOfVoucherTypeID"
        * </pre>
        *
-       * <code>optional .dstore.values.StringValue voucher_type_description = 10001;</code>
+       * <code>.dstore.values.StringValue voucher_type_description = 10001;</code>
        */
       public io.dstore.values.StringValueOrBuilder getVoucherTypeDescriptionOrBuilder() {
         return getVoucherTypeDescription();
@@ -1333,7 +1333,7 @@ public final class OmGetCampVoucherCodeCondsAd {
        * ID einer Gutschein-Aktion. Es muß ein gültiger Code dieser Aktion angegeben (sprich durch "om_ValidateVoucherCode_Pu" validiert) worden sein, um die Bedingung der Verkaufs-Aktion zu erfüllen.
        * </pre>
        *
-       * <code>optional .dstore.values.IntegerValue valid_code_of_voucher_type_id = 10002;</code>
+       * <code>.dstore.values.IntegerValue valid_code_of_voucher_type_id = 10002;</code>
        */
       public boolean hasValidCodeOfVoucherTypeId() {
         return validCodeOfVoucherTypeId_ != null;
@@ -1343,7 +1343,7 @@ public final class OmGetCampVoucherCodeCondsAd {
        * ID einer Gutschein-Aktion. Es muß ein gültiger Code dieser Aktion angegeben (sprich durch "om_ValidateVoucherCode_Pu" validiert) worden sein, um die Bedingung der Verkaufs-Aktion zu erfüllen.
        * </pre>
        *
-       * <code>optional .dstore.values.IntegerValue valid_code_of_voucher_type_id = 10002;</code>
+       * <code>.dstore.values.IntegerValue valid_code_of_voucher_type_id = 10002;</code>
        */
       public io.dstore.values.IntegerValue getValidCodeOfVoucherTypeId() {
         return validCodeOfVoucherTypeId_ == null ? io.dstore.values.IntegerValue.getDefaultInstance() : validCodeOfVoucherTypeId_;
@@ -1353,7 +1353,7 @@ public final class OmGetCampVoucherCodeCondsAd {
        * ID einer Gutschein-Aktion. Es muß ein gültiger Code dieser Aktion angegeben (sprich durch "om_ValidateVoucherCode_Pu" validiert) worden sein, um die Bedingung der Verkaufs-Aktion zu erfüllen.
        * </pre>
        *
-       * <code>optional .dstore.values.IntegerValue valid_code_of_voucher_type_id = 10002;</code>
+       * <code>.dstore.values.IntegerValue valid_code_of_voucher_type_id = 10002;</code>
        */
       public io.dstore.values.IntegerValueOrBuilder getValidCodeOfVoucherTypeIdOrBuilder() {
         return getValidCodeOfVoucherTypeId();
@@ -1366,7 +1366,7 @@ public final class OmGetCampVoucherCodeCondsAd {
        * ID einer "Gutscheincode-Bedingung" (derzeit natürlich immer identisch mit "&#64;ConditionID")
        * </pre>
        *
-       * <code>optional .dstore.values.IntegerValue condition_id = 10003;</code>
+       * <code>.dstore.values.IntegerValue condition_id = 10003;</code>
        */
       public boolean hasConditionId() {
         return conditionId_ != null;
@@ -1376,7 +1376,7 @@ public final class OmGetCampVoucherCodeCondsAd {
        * ID einer "Gutscheincode-Bedingung" (derzeit natürlich immer identisch mit "&#64;ConditionID")
        * </pre>
        *
-       * <code>optional .dstore.values.IntegerValue condition_id = 10003;</code>
+       * <code>.dstore.values.IntegerValue condition_id = 10003;</code>
        */
       public io.dstore.values.IntegerValue getConditionId() {
         return conditionId_ == null ? io.dstore.values.IntegerValue.getDefaultInstance() : conditionId_;
@@ -1386,7 +1386,7 @@ public final class OmGetCampVoucherCodeCondsAd {
        * ID einer "Gutscheincode-Bedingung" (derzeit natürlich immer identisch mit "&#64;ConditionID")
        * </pre>
        *
-       * <code>optional .dstore.values.IntegerValue condition_id = 10003;</code>
+       * <code>.dstore.values.IntegerValue condition_id = 10003;</code>
        */
       public io.dstore.values.IntegerValueOrBuilder getConditionIdOrBuilder() {
         return getConditionId();
@@ -1481,7 +1481,7 @@ public final class OmGetCampVoucherCodeCondsAd {
           return memoizedHashCode;
         }
         int hash = 41;
-        hash = (19 * hash) + getDescriptorForType().hashCode();
+        hash = (19 * hash) + getDescriptor().hashCode();
         hash = (37 * hash) + ROW_ID_FIELD_NUMBER;
         hash = (53 * hash) + getRowId();
         if (hasVoucherTypeDescription()) {
@@ -1753,13 +1753,13 @@ public final class OmGetCampVoucherCodeCondsAd {
 
         private int rowId_ ;
         /**
-         * <code>optional int32 row_id = 10000;</code>
+         * <code>int32 row_id = 10000;</code>
          */
         public int getRowId() {
           return rowId_;
         }
         /**
-         * <code>optional int32 row_id = 10000;</code>
+         * <code>int32 row_id = 10000;</code>
          */
         public Builder setRowId(int value) {
           
@@ -1768,7 +1768,7 @@ public final class OmGetCampVoucherCodeCondsAd {
           return this;
         }
         /**
-         * <code>optional int32 row_id = 10000;</code>
+         * <code>int32 row_id = 10000;</code>
          */
         public Builder clearRowId() {
           
@@ -1785,7 +1785,7 @@ public final class OmGetCampVoucherCodeCondsAd {
          * Bezeichnung der Gutschein-Aktion "ValidCodeOfVoucherTypeID"
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue voucher_type_description = 10001;</code>
+         * <code>.dstore.values.StringValue voucher_type_description = 10001;</code>
          */
         public boolean hasVoucherTypeDescription() {
           return voucherTypeDescriptionBuilder_ != null || voucherTypeDescription_ != null;
@@ -1795,7 +1795,7 @@ public final class OmGetCampVoucherCodeCondsAd {
          * Bezeichnung der Gutschein-Aktion "ValidCodeOfVoucherTypeID"
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue voucher_type_description = 10001;</code>
+         * <code>.dstore.values.StringValue voucher_type_description = 10001;</code>
          */
         public io.dstore.values.StringValue getVoucherTypeDescription() {
           if (voucherTypeDescriptionBuilder_ == null) {
@@ -1809,7 +1809,7 @@ public final class OmGetCampVoucherCodeCondsAd {
          * Bezeichnung der Gutschein-Aktion "ValidCodeOfVoucherTypeID"
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue voucher_type_description = 10001;</code>
+         * <code>.dstore.values.StringValue voucher_type_description = 10001;</code>
          */
         public Builder setVoucherTypeDescription(io.dstore.values.StringValue value) {
           if (voucherTypeDescriptionBuilder_ == null) {
@@ -1829,7 +1829,7 @@ public final class OmGetCampVoucherCodeCondsAd {
          * Bezeichnung der Gutschein-Aktion "ValidCodeOfVoucherTypeID"
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue voucher_type_description = 10001;</code>
+         * <code>.dstore.values.StringValue voucher_type_description = 10001;</code>
          */
         public Builder setVoucherTypeDescription(
             io.dstore.values.StringValue.Builder builderForValue) {
@@ -1847,7 +1847,7 @@ public final class OmGetCampVoucherCodeCondsAd {
          * Bezeichnung der Gutschein-Aktion "ValidCodeOfVoucherTypeID"
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue voucher_type_description = 10001;</code>
+         * <code>.dstore.values.StringValue voucher_type_description = 10001;</code>
          */
         public Builder mergeVoucherTypeDescription(io.dstore.values.StringValue value) {
           if (voucherTypeDescriptionBuilder_ == null) {
@@ -1869,7 +1869,7 @@ public final class OmGetCampVoucherCodeCondsAd {
          * Bezeichnung der Gutschein-Aktion "ValidCodeOfVoucherTypeID"
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue voucher_type_description = 10001;</code>
+         * <code>.dstore.values.StringValue voucher_type_description = 10001;</code>
          */
         public Builder clearVoucherTypeDescription() {
           if (voucherTypeDescriptionBuilder_ == null) {
@@ -1887,7 +1887,7 @@ public final class OmGetCampVoucherCodeCondsAd {
          * Bezeichnung der Gutschein-Aktion "ValidCodeOfVoucherTypeID"
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue voucher_type_description = 10001;</code>
+         * <code>.dstore.values.StringValue voucher_type_description = 10001;</code>
          */
         public io.dstore.values.StringValue.Builder getVoucherTypeDescriptionBuilder() {
           
@@ -1899,7 +1899,7 @@ public final class OmGetCampVoucherCodeCondsAd {
          * Bezeichnung der Gutschein-Aktion "ValidCodeOfVoucherTypeID"
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue voucher_type_description = 10001;</code>
+         * <code>.dstore.values.StringValue voucher_type_description = 10001;</code>
          */
         public io.dstore.values.StringValueOrBuilder getVoucherTypeDescriptionOrBuilder() {
           if (voucherTypeDescriptionBuilder_ != null) {
@@ -1914,7 +1914,7 @@ public final class OmGetCampVoucherCodeCondsAd {
          * Bezeichnung der Gutschein-Aktion "ValidCodeOfVoucherTypeID"
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue voucher_type_description = 10001;</code>
+         * <code>.dstore.values.StringValue voucher_type_description = 10001;</code>
          */
         private com.google.protobuf.SingleFieldBuilderV3<
             io.dstore.values.StringValue, io.dstore.values.StringValue.Builder, io.dstore.values.StringValueOrBuilder> 
@@ -1938,7 +1938,7 @@ public final class OmGetCampVoucherCodeCondsAd {
          * ID einer Gutschein-Aktion. Es muß ein gültiger Code dieser Aktion angegeben (sprich durch "om_ValidateVoucherCode_Pu" validiert) worden sein, um die Bedingung der Verkaufs-Aktion zu erfüllen.
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue valid_code_of_voucher_type_id = 10002;</code>
+         * <code>.dstore.values.IntegerValue valid_code_of_voucher_type_id = 10002;</code>
          */
         public boolean hasValidCodeOfVoucherTypeId() {
           return validCodeOfVoucherTypeIdBuilder_ != null || validCodeOfVoucherTypeId_ != null;
@@ -1948,7 +1948,7 @@ public final class OmGetCampVoucherCodeCondsAd {
          * ID einer Gutschein-Aktion. Es muß ein gültiger Code dieser Aktion angegeben (sprich durch "om_ValidateVoucherCode_Pu" validiert) worden sein, um die Bedingung der Verkaufs-Aktion zu erfüllen.
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue valid_code_of_voucher_type_id = 10002;</code>
+         * <code>.dstore.values.IntegerValue valid_code_of_voucher_type_id = 10002;</code>
          */
         public io.dstore.values.IntegerValue getValidCodeOfVoucherTypeId() {
           if (validCodeOfVoucherTypeIdBuilder_ == null) {
@@ -1962,7 +1962,7 @@ public final class OmGetCampVoucherCodeCondsAd {
          * ID einer Gutschein-Aktion. Es muß ein gültiger Code dieser Aktion angegeben (sprich durch "om_ValidateVoucherCode_Pu" validiert) worden sein, um die Bedingung der Verkaufs-Aktion zu erfüllen.
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue valid_code_of_voucher_type_id = 10002;</code>
+         * <code>.dstore.values.IntegerValue valid_code_of_voucher_type_id = 10002;</code>
          */
         public Builder setValidCodeOfVoucherTypeId(io.dstore.values.IntegerValue value) {
           if (validCodeOfVoucherTypeIdBuilder_ == null) {
@@ -1982,7 +1982,7 @@ public final class OmGetCampVoucherCodeCondsAd {
          * ID einer Gutschein-Aktion. Es muß ein gültiger Code dieser Aktion angegeben (sprich durch "om_ValidateVoucherCode_Pu" validiert) worden sein, um die Bedingung der Verkaufs-Aktion zu erfüllen.
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue valid_code_of_voucher_type_id = 10002;</code>
+         * <code>.dstore.values.IntegerValue valid_code_of_voucher_type_id = 10002;</code>
          */
         public Builder setValidCodeOfVoucherTypeId(
             io.dstore.values.IntegerValue.Builder builderForValue) {
@@ -2000,7 +2000,7 @@ public final class OmGetCampVoucherCodeCondsAd {
          * ID einer Gutschein-Aktion. Es muß ein gültiger Code dieser Aktion angegeben (sprich durch "om_ValidateVoucherCode_Pu" validiert) worden sein, um die Bedingung der Verkaufs-Aktion zu erfüllen.
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue valid_code_of_voucher_type_id = 10002;</code>
+         * <code>.dstore.values.IntegerValue valid_code_of_voucher_type_id = 10002;</code>
          */
         public Builder mergeValidCodeOfVoucherTypeId(io.dstore.values.IntegerValue value) {
           if (validCodeOfVoucherTypeIdBuilder_ == null) {
@@ -2022,7 +2022,7 @@ public final class OmGetCampVoucherCodeCondsAd {
          * ID einer Gutschein-Aktion. Es muß ein gültiger Code dieser Aktion angegeben (sprich durch "om_ValidateVoucherCode_Pu" validiert) worden sein, um die Bedingung der Verkaufs-Aktion zu erfüllen.
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue valid_code_of_voucher_type_id = 10002;</code>
+         * <code>.dstore.values.IntegerValue valid_code_of_voucher_type_id = 10002;</code>
          */
         public Builder clearValidCodeOfVoucherTypeId() {
           if (validCodeOfVoucherTypeIdBuilder_ == null) {
@@ -2040,7 +2040,7 @@ public final class OmGetCampVoucherCodeCondsAd {
          * ID einer Gutschein-Aktion. Es muß ein gültiger Code dieser Aktion angegeben (sprich durch "om_ValidateVoucherCode_Pu" validiert) worden sein, um die Bedingung der Verkaufs-Aktion zu erfüllen.
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue valid_code_of_voucher_type_id = 10002;</code>
+         * <code>.dstore.values.IntegerValue valid_code_of_voucher_type_id = 10002;</code>
          */
         public io.dstore.values.IntegerValue.Builder getValidCodeOfVoucherTypeIdBuilder() {
           
@@ -2052,7 +2052,7 @@ public final class OmGetCampVoucherCodeCondsAd {
          * ID einer Gutschein-Aktion. Es muß ein gültiger Code dieser Aktion angegeben (sprich durch "om_ValidateVoucherCode_Pu" validiert) worden sein, um die Bedingung der Verkaufs-Aktion zu erfüllen.
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue valid_code_of_voucher_type_id = 10002;</code>
+         * <code>.dstore.values.IntegerValue valid_code_of_voucher_type_id = 10002;</code>
          */
         public io.dstore.values.IntegerValueOrBuilder getValidCodeOfVoucherTypeIdOrBuilder() {
           if (validCodeOfVoucherTypeIdBuilder_ != null) {
@@ -2067,7 +2067,7 @@ public final class OmGetCampVoucherCodeCondsAd {
          * ID einer Gutschein-Aktion. Es muß ein gültiger Code dieser Aktion angegeben (sprich durch "om_ValidateVoucherCode_Pu" validiert) worden sein, um die Bedingung der Verkaufs-Aktion zu erfüllen.
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue valid_code_of_voucher_type_id = 10002;</code>
+         * <code>.dstore.values.IntegerValue valid_code_of_voucher_type_id = 10002;</code>
          */
         private com.google.protobuf.SingleFieldBuilderV3<
             io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> 
@@ -2091,7 +2091,7 @@ public final class OmGetCampVoucherCodeCondsAd {
          * ID einer "Gutscheincode-Bedingung" (derzeit natürlich immer identisch mit "&#64;ConditionID")
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue condition_id = 10003;</code>
+         * <code>.dstore.values.IntegerValue condition_id = 10003;</code>
          */
         public boolean hasConditionId() {
           return conditionIdBuilder_ != null || conditionId_ != null;
@@ -2101,7 +2101,7 @@ public final class OmGetCampVoucherCodeCondsAd {
          * ID einer "Gutscheincode-Bedingung" (derzeit natürlich immer identisch mit "&#64;ConditionID")
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue condition_id = 10003;</code>
+         * <code>.dstore.values.IntegerValue condition_id = 10003;</code>
          */
         public io.dstore.values.IntegerValue getConditionId() {
           if (conditionIdBuilder_ == null) {
@@ -2115,7 +2115,7 @@ public final class OmGetCampVoucherCodeCondsAd {
          * ID einer "Gutscheincode-Bedingung" (derzeit natürlich immer identisch mit "&#64;ConditionID")
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue condition_id = 10003;</code>
+         * <code>.dstore.values.IntegerValue condition_id = 10003;</code>
          */
         public Builder setConditionId(io.dstore.values.IntegerValue value) {
           if (conditionIdBuilder_ == null) {
@@ -2135,7 +2135,7 @@ public final class OmGetCampVoucherCodeCondsAd {
          * ID einer "Gutscheincode-Bedingung" (derzeit natürlich immer identisch mit "&#64;ConditionID")
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue condition_id = 10003;</code>
+         * <code>.dstore.values.IntegerValue condition_id = 10003;</code>
          */
         public Builder setConditionId(
             io.dstore.values.IntegerValue.Builder builderForValue) {
@@ -2153,7 +2153,7 @@ public final class OmGetCampVoucherCodeCondsAd {
          * ID einer "Gutscheincode-Bedingung" (derzeit natürlich immer identisch mit "&#64;ConditionID")
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue condition_id = 10003;</code>
+         * <code>.dstore.values.IntegerValue condition_id = 10003;</code>
          */
         public Builder mergeConditionId(io.dstore.values.IntegerValue value) {
           if (conditionIdBuilder_ == null) {
@@ -2175,7 +2175,7 @@ public final class OmGetCampVoucherCodeCondsAd {
          * ID einer "Gutscheincode-Bedingung" (derzeit natürlich immer identisch mit "&#64;ConditionID")
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue condition_id = 10003;</code>
+         * <code>.dstore.values.IntegerValue condition_id = 10003;</code>
          */
         public Builder clearConditionId() {
           if (conditionIdBuilder_ == null) {
@@ -2193,7 +2193,7 @@ public final class OmGetCampVoucherCodeCondsAd {
          * ID einer "Gutscheincode-Bedingung" (derzeit natürlich immer identisch mit "&#64;ConditionID")
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue condition_id = 10003;</code>
+         * <code>.dstore.values.IntegerValue condition_id = 10003;</code>
          */
         public io.dstore.values.IntegerValue.Builder getConditionIdBuilder() {
           
@@ -2205,7 +2205,7 @@ public final class OmGetCampVoucherCodeCondsAd {
          * ID einer "Gutscheincode-Bedingung" (derzeit natürlich immer identisch mit "&#64;ConditionID")
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue condition_id = 10003;</code>
+         * <code>.dstore.values.IntegerValue condition_id = 10003;</code>
          */
         public io.dstore.values.IntegerValueOrBuilder getConditionIdOrBuilder() {
           if (conditionIdBuilder_ != null) {
@@ -2220,7 +2220,7 @@ public final class OmGetCampVoucherCodeCondsAd {
          * ID einer "Gutscheincode-Bedingung" (derzeit natürlich immer identisch mit "&#64;ConditionID")
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue condition_id = 10003;</code>
+         * <code>.dstore.values.IntegerValue condition_id = 10003;</code>
          */
         private com.google.protobuf.SingleFieldBuilderV3<
             io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> 
@@ -2480,7 +2480,7 @@ public final class OmGetCampVoucherCodeCondsAd {
         return memoizedHashCode;
       }
       int hash = 41;
-      hash = (19 * hash) + getDescriptorForType().hashCode();
+      hash = (19 * hash) + getDescriptor().hashCode();
       if (getMetaInformationCount() > 0) {
         hash = (37 * hash) + META_INFORMATION_FIELD_NUMBER;
         hash = (53 * hash) + getMetaInformationList().hashCode();

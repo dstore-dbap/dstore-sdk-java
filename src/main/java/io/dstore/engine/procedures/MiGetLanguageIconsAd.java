@@ -123,7 +123,7 @@ public final class MiGetLanguageIconsAd {
         return memoizedHashCode;
       }
       int hash = 41;
-      hash = (19 * hash) + getDescriptorForType().hashCode();
+      hash = (19 * hash) + getDescriptor().hashCode();
       hash = (29 * hash) + unknownFields.hashCode();
       memoizedHashCode = hash;
       return hash;
@@ -581,7 +581,7 @@ public final class MiGetLanguageIconsAd {
         com.google.protobuf.MessageOrBuilder {
 
       /**
-       * <code>optional int32 row_id = 10000;</code>
+       * <code>int32 row_id = 10000;</code>
        */
       int getRowId();
 
@@ -590,7 +590,7 @@ public final class MiGetLanguageIconsAd {
        * Das "Icon" (also der Code einer Binärdatei), das die Sprache "LanguageID" symbolisieren soll
        * </pre>
        *
-       * <code>optional .dstore.values.BytesValue language_icon = 10001;</code>
+       * <code>.dstore.values.BytesValue language_icon = 10001;</code>
        */
       boolean hasLanguageIcon();
       /**
@@ -598,7 +598,7 @@ public final class MiGetLanguageIconsAd {
        * Das "Icon" (also der Code einer Binärdatei), das die Sprache "LanguageID" symbolisieren soll
        * </pre>
        *
-       * <code>optional .dstore.values.BytesValue language_icon = 10001;</code>
+       * <code>.dstore.values.BytesValue language_icon = 10001;</code>
        */
       io.dstore.values.BytesValue getLanguageIcon();
       /**
@@ -606,7 +606,7 @@ public final class MiGetLanguageIconsAd {
        * Das "Icon" (also der Code einer Binärdatei), das die Sprache "LanguageID" symbolisieren soll
        * </pre>
        *
-       * <code>optional .dstore.values.BytesValue language_icon = 10001;</code>
+       * <code>.dstore.values.BytesValue language_icon = 10001;</code>
        */
       io.dstore.values.BytesValueOrBuilder getLanguageIconOrBuilder();
 
@@ -615,7 +615,7 @@ public final class MiGetLanguageIconsAd {
        * ID einer Sprache, die im "dStore" registriert ist
        * </pre>
        *
-       * <code>optional .dstore.values.IntegerValue language_id = 10002;</code>
+       * <code>.dstore.values.IntegerValue language_id = 10002;</code>
        */
       boolean hasLanguageId();
       /**
@@ -623,7 +623,7 @@ public final class MiGetLanguageIconsAd {
        * ID einer Sprache, die im "dStore" registriert ist
        * </pre>
        *
-       * <code>optional .dstore.values.IntegerValue language_id = 10002;</code>
+       * <code>.dstore.values.IntegerValue language_id = 10002;</code>
        */
       io.dstore.values.IntegerValue getLanguageId();
       /**
@@ -631,7 +631,7 @@ public final class MiGetLanguageIconsAd {
        * ID einer Sprache, die im "dStore" registriert ist
        * </pre>
        *
-       * <code>optional .dstore.values.IntegerValue language_id = 10002;</code>
+       * <code>.dstore.values.IntegerValue language_id = 10002;</code>
        */
       io.dstore.values.IntegerValueOrBuilder getLanguageIdOrBuilder();
     }
@@ -732,7 +732,7 @@ public final class MiGetLanguageIconsAd {
       public static final int ROW_ID_FIELD_NUMBER = 10000;
       private int rowId_;
       /**
-       * <code>optional int32 row_id = 10000;</code>
+       * <code>int32 row_id = 10000;</code>
        */
       public int getRowId() {
         return rowId_;
@@ -745,7 +745,7 @@ public final class MiGetLanguageIconsAd {
        * Das "Icon" (also der Code einer Binärdatei), das die Sprache "LanguageID" symbolisieren soll
        * </pre>
        *
-       * <code>optional .dstore.values.BytesValue language_icon = 10001;</code>
+       * <code>.dstore.values.BytesValue language_icon = 10001;</code>
        */
       public boolean hasLanguageIcon() {
         return languageIcon_ != null;
@@ -755,7 +755,7 @@ public final class MiGetLanguageIconsAd {
        * Das "Icon" (also der Code einer Binärdatei), das die Sprache "LanguageID" symbolisieren soll
        * </pre>
        *
-       * <code>optional .dstore.values.BytesValue language_icon = 10001;</code>
+       * <code>.dstore.values.BytesValue language_icon = 10001;</code>
        */
       public io.dstore.values.BytesValue getLanguageIcon() {
         return languageIcon_ == null ? io.dstore.values.BytesValue.getDefaultInstance() : languageIcon_;
@@ -765,7 +765,7 @@ public final class MiGetLanguageIconsAd {
        * Das "Icon" (also der Code einer Binärdatei), das die Sprache "LanguageID" symbolisieren soll
        * </pre>
        *
-       * <code>optional .dstore.values.BytesValue language_icon = 10001;</code>
+       * <code>.dstore.values.BytesValue language_icon = 10001;</code>
        */
       public io.dstore.values.BytesValueOrBuilder getLanguageIconOrBuilder() {
         return getLanguageIcon();
@@ -778,7 +778,7 @@ public final class MiGetLanguageIconsAd {
        * ID einer Sprache, die im "dStore" registriert ist
        * </pre>
        *
-       * <code>optional .dstore.values.IntegerValue language_id = 10002;</code>
+       * <code>.dstore.values.IntegerValue language_id = 10002;</code>
        */
       public boolean hasLanguageId() {
         return languageId_ != null;
@@ -788,7 +788,7 @@ public final class MiGetLanguageIconsAd {
        * ID einer Sprache, die im "dStore" registriert ist
        * </pre>
        *
-       * <code>optional .dstore.values.IntegerValue language_id = 10002;</code>
+       * <code>.dstore.values.IntegerValue language_id = 10002;</code>
        */
       public io.dstore.values.IntegerValue getLanguageId() {
         return languageId_ == null ? io.dstore.values.IntegerValue.getDefaultInstance() : languageId_;
@@ -798,7 +798,7 @@ public final class MiGetLanguageIconsAd {
        * ID einer Sprache, die im "dStore" registriert ist
        * </pre>
        *
-       * <code>optional .dstore.values.IntegerValue language_id = 10002;</code>
+       * <code>.dstore.values.IntegerValue language_id = 10002;</code>
        */
       public io.dstore.values.IntegerValueOrBuilder getLanguageIdOrBuilder() {
         return getLanguageId();
@@ -881,7 +881,7 @@ public final class MiGetLanguageIconsAd {
           return memoizedHashCode;
         }
         int hash = 41;
-        hash = (19 * hash) + getDescriptorForType().hashCode();
+        hash = (19 * hash) + getDescriptor().hashCode();
         hash = (37 * hash) + ROW_ID_FIELD_NUMBER;
         hash = (53 * hash) + getRowId();
         if (hasLanguageIcon()) {
@@ -1135,13 +1135,13 @@ public final class MiGetLanguageIconsAd {
 
         private int rowId_ ;
         /**
-         * <code>optional int32 row_id = 10000;</code>
+         * <code>int32 row_id = 10000;</code>
          */
         public int getRowId() {
           return rowId_;
         }
         /**
-         * <code>optional int32 row_id = 10000;</code>
+         * <code>int32 row_id = 10000;</code>
          */
         public Builder setRowId(int value) {
           
@@ -1150,7 +1150,7 @@ public final class MiGetLanguageIconsAd {
           return this;
         }
         /**
-         * <code>optional int32 row_id = 10000;</code>
+         * <code>int32 row_id = 10000;</code>
          */
         public Builder clearRowId() {
           
@@ -1167,7 +1167,7 @@ public final class MiGetLanguageIconsAd {
          * Das "Icon" (also der Code einer Binärdatei), das die Sprache "LanguageID" symbolisieren soll
          * </pre>
          *
-         * <code>optional .dstore.values.BytesValue language_icon = 10001;</code>
+         * <code>.dstore.values.BytesValue language_icon = 10001;</code>
          */
         public boolean hasLanguageIcon() {
           return languageIconBuilder_ != null || languageIcon_ != null;
@@ -1177,7 +1177,7 @@ public final class MiGetLanguageIconsAd {
          * Das "Icon" (also der Code einer Binärdatei), das die Sprache "LanguageID" symbolisieren soll
          * </pre>
          *
-         * <code>optional .dstore.values.BytesValue language_icon = 10001;</code>
+         * <code>.dstore.values.BytesValue language_icon = 10001;</code>
          */
         public io.dstore.values.BytesValue getLanguageIcon() {
           if (languageIconBuilder_ == null) {
@@ -1191,7 +1191,7 @@ public final class MiGetLanguageIconsAd {
          * Das "Icon" (also der Code einer Binärdatei), das die Sprache "LanguageID" symbolisieren soll
          * </pre>
          *
-         * <code>optional .dstore.values.BytesValue language_icon = 10001;</code>
+         * <code>.dstore.values.BytesValue language_icon = 10001;</code>
          */
         public Builder setLanguageIcon(io.dstore.values.BytesValue value) {
           if (languageIconBuilder_ == null) {
@@ -1211,7 +1211,7 @@ public final class MiGetLanguageIconsAd {
          * Das "Icon" (also der Code einer Binärdatei), das die Sprache "LanguageID" symbolisieren soll
          * </pre>
          *
-         * <code>optional .dstore.values.BytesValue language_icon = 10001;</code>
+         * <code>.dstore.values.BytesValue language_icon = 10001;</code>
          */
         public Builder setLanguageIcon(
             io.dstore.values.BytesValue.Builder builderForValue) {
@@ -1229,7 +1229,7 @@ public final class MiGetLanguageIconsAd {
          * Das "Icon" (also der Code einer Binärdatei), das die Sprache "LanguageID" symbolisieren soll
          * </pre>
          *
-         * <code>optional .dstore.values.BytesValue language_icon = 10001;</code>
+         * <code>.dstore.values.BytesValue language_icon = 10001;</code>
          */
         public Builder mergeLanguageIcon(io.dstore.values.BytesValue value) {
           if (languageIconBuilder_ == null) {
@@ -1251,7 +1251,7 @@ public final class MiGetLanguageIconsAd {
          * Das "Icon" (also der Code einer Binärdatei), das die Sprache "LanguageID" symbolisieren soll
          * </pre>
          *
-         * <code>optional .dstore.values.BytesValue language_icon = 10001;</code>
+         * <code>.dstore.values.BytesValue language_icon = 10001;</code>
          */
         public Builder clearLanguageIcon() {
           if (languageIconBuilder_ == null) {
@@ -1269,7 +1269,7 @@ public final class MiGetLanguageIconsAd {
          * Das "Icon" (also der Code einer Binärdatei), das die Sprache "LanguageID" symbolisieren soll
          * </pre>
          *
-         * <code>optional .dstore.values.BytesValue language_icon = 10001;</code>
+         * <code>.dstore.values.BytesValue language_icon = 10001;</code>
          */
         public io.dstore.values.BytesValue.Builder getLanguageIconBuilder() {
           
@@ -1281,7 +1281,7 @@ public final class MiGetLanguageIconsAd {
          * Das "Icon" (also der Code einer Binärdatei), das die Sprache "LanguageID" symbolisieren soll
          * </pre>
          *
-         * <code>optional .dstore.values.BytesValue language_icon = 10001;</code>
+         * <code>.dstore.values.BytesValue language_icon = 10001;</code>
          */
         public io.dstore.values.BytesValueOrBuilder getLanguageIconOrBuilder() {
           if (languageIconBuilder_ != null) {
@@ -1296,7 +1296,7 @@ public final class MiGetLanguageIconsAd {
          * Das "Icon" (also der Code einer Binärdatei), das die Sprache "LanguageID" symbolisieren soll
          * </pre>
          *
-         * <code>optional .dstore.values.BytesValue language_icon = 10001;</code>
+         * <code>.dstore.values.BytesValue language_icon = 10001;</code>
          */
         private com.google.protobuf.SingleFieldBuilderV3<
             io.dstore.values.BytesValue, io.dstore.values.BytesValue.Builder, io.dstore.values.BytesValueOrBuilder> 
@@ -1320,7 +1320,7 @@ public final class MiGetLanguageIconsAd {
          * ID einer Sprache, die im "dStore" registriert ist
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue language_id = 10002;</code>
+         * <code>.dstore.values.IntegerValue language_id = 10002;</code>
          */
         public boolean hasLanguageId() {
           return languageIdBuilder_ != null || languageId_ != null;
@@ -1330,7 +1330,7 @@ public final class MiGetLanguageIconsAd {
          * ID einer Sprache, die im "dStore" registriert ist
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue language_id = 10002;</code>
+         * <code>.dstore.values.IntegerValue language_id = 10002;</code>
          */
         public io.dstore.values.IntegerValue getLanguageId() {
           if (languageIdBuilder_ == null) {
@@ -1344,7 +1344,7 @@ public final class MiGetLanguageIconsAd {
          * ID einer Sprache, die im "dStore" registriert ist
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue language_id = 10002;</code>
+         * <code>.dstore.values.IntegerValue language_id = 10002;</code>
          */
         public Builder setLanguageId(io.dstore.values.IntegerValue value) {
           if (languageIdBuilder_ == null) {
@@ -1364,7 +1364,7 @@ public final class MiGetLanguageIconsAd {
          * ID einer Sprache, die im "dStore" registriert ist
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue language_id = 10002;</code>
+         * <code>.dstore.values.IntegerValue language_id = 10002;</code>
          */
         public Builder setLanguageId(
             io.dstore.values.IntegerValue.Builder builderForValue) {
@@ -1382,7 +1382,7 @@ public final class MiGetLanguageIconsAd {
          * ID einer Sprache, die im "dStore" registriert ist
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue language_id = 10002;</code>
+         * <code>.dstore.values.IntegerValue language_id = 10002;</code>
          */
         public Builder mergeLanguageId(io.dstore.values.IntegerValue value) {
           if (languageIdBuilder_ == null) {
@@ -1404,7 +1404,7 @@ public final class MiGetLanguageIconsAd {
          * ID einer Sprache, die im "dStore" registriert ist
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue language_id = 10002;</code>
+         * <code>.dstore.values.IntegerValue language_id = 10002;</code>
          */
         public Builder clearLanguageId() {
           if (languageIdBuilder_ == null) {
@@ -1422,7 +1422,7 @@ public final class MiGetLanguageIconsAd {
          * ID einer Sprache, die im "dStore" registriert ist
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue language_id = 10002;</code>
+         * <code>.dstore.values.IntegerValue language_id = 10002;</code>
          */
         public io.dstore.values.IntegerValue.Builder getLanguageIdBuilder() {
           
@@ -1434,7 +1434,7 @@ public final class MiGetLanguageIconsAd {
          * ID einer Sprache, die im "dStore" registriert ist
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue language_id = 10002;</code>
+         * <code>.dstore.values.IntegerValue language_id = 10002;</code>
          */
         public io.dstore.values.IntegerValueOrBuilder getLanguageIdOrBuilder() {
           if (languageIdBuilder_ != null) {
@@ -1449,7 +1449,7 @@ public final class MiGetLanguageIconsAd {
          * ID einer Sprache, die im "dStore" registriert ist
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue language_id = 10002;</code>
+         * <code>.dstore.values.IntegerValue language_id = 10002;</code>
          */
         private com.google.protobuf.SingleFieldBuilderV3<
             io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> 
@@ -1709,7 +1709,7 @@ public final class MiGetLanguageIconsAd {
         return memoizedHashCode;
       }
       int hash = 41;
-      hash = (19 * hash) + getDescriptorForType().hashCode();
+      hash = (19 * hash) + getDescriptor().hashCode();
       if (getMetaInformationCount() > 0) {
         hash = (37 * hash) + META_INFORMATION_FIELD_NUMBER;
         hash = (53 * hash) + getMetaInformationList().hashCode();

@@ -19,74 +19,74 @@ public final class OmModifyCampsInCategoriesAd {
       com.google.protobuf.MessageOrBuilder {
 
     /**
-     * <code>optional .dstore.values.IntegerValue campaign_id = 1;</code>
+     * <code>.dstore.values.IntegerValue campaign_id = 1;</code>
      */
     boolean hasCampaignId();
     /**
-     * <code>optional .dstore.values.IntegerValue campaign_id = 1;</code>
+     * <code>.dstore.values.IntegerValue campaign_id = 1;</code>
      */
     io.dstore.values.IntegerValue getCampaignId();
     /**
-     * <code>optional .dstore.values.IntegerValue campaign_id = 1;</code>
+     * <code>.dstore.values.IntegerValue campaign_id = 1;</code>
      */
     io.dstore.values.IntegerValueOrBuilder getCampaignIdOrBuilder();
 
     /**
-     * <code>optional bool campaign_id_null = 1001;</code>
+     * <code>bool campaign_id_null = 1001;</code>
      */
     boolean getCampaignIdNull();
 
     /**
-     * <code>optional .dstore.values.IntegerValue campaign_category_id = 2;</code>
+     * <code>.dstore.values.IntegerValue campaign_category_id = 2;</code>
      */
     boolean hasCampaignCategoryId();
     /**
-     * <code>optional .dstore.values.IntegerValue campaign_category_id = 2;</code>
+     * <code>.dstore.values.IntegerValue campaign_category_id = 2;</code>
      */
     io.dstore.values.IntegerValue getCampaignCategoryId();
     /**
-     * <code>optional .dstore.values.IntegerValue campaign_category_id = 2;</code>
+     * <code>.dstore.values.IntegerValue campaign_category_id = 2;</code>
      */
     io.dstore.values.IntegerValueOrBuilder getCampaignCategoryIdOrBuilder();
 
     /**
-     * <code>optional bool campaign_category_id_null = 1002;</code>
+     * <code>bool campaign_category_id_null = 1002;</code>
      */
     boolean getCampaignCategoryIdNull();
 
     /**
-     * <code>optional .dstore.values.IntegerValue sort_no = 3;</code>
+     * <code>.dstore.values.IntegerValue sort_no = 3;</code>
      */
     boolean hasSortNo();
     /**
-     * <code>optional .dstore.values.IntegerValue sort_no = 3;</code>
+     * <code>.dstore.values.IntegerValue sort_no = 3;</code>
      */
     io.dstore.values.IntegerValue getSortNo();
     /**
-     * <code>optional .dstore.values.IntegerValue sort_no = 3;</code>
+     * <code>.dstore.values.IntegerValue sort_no = 3;</code>
      */
     io.dstore.values.IntegerValueOrBuilder getSortNoOrBuilder();
 
     /**
-     * <code>optional bool sort_no_null = 1003;</code>
+     * <code>bool sort_no_null = 1003;</code>
      */
     boolean getSortNoNull();
 
     /**
-     * <code>optional .dstore.values.BooleanValue delete = 4;</code>
+     * <code>.dstore.values.BooleanValue delete = 4;</code>
      */
     boolean hasDelete();
     /**
-     * <code>optional .dstore.values.BooleanValue delete = 4;</code>
+     * <code>.dstore.values.BooleanValue delete = 4;</code>
      */
     io.dstore.values.BooleanValue getDelete();
     /**
-     * <code>optional .dstore.values.BooleanValue delete = 4;</code>
+     * <code>.dstore.values.BooleanValue delete = 4;</code>
      */
     io.dstore.values.BooleanValueOrBuilder getDeleteOrBuilder();
 
     /**
-     * <code>optional bool delete_null = 1004;</code>
+     * <code>bool delete_null = 1004;</code>
      */
     boolean getDeleteNull();
   }
@@ -231,19 +231,19 @@ public final class OmModifyCampsInCategoriesAd {
     public static final int CAMPAIGN_ID_FIELD_NUMBER = 1;
     private io.dstore.values.IntegerValue campaignId_;
     /**
-     * <code>optional .dstore.values.IntegerValue campaign_id = 1;</code>
+     * <code>.dstore.values.IntegerValue campaign_id = 1;</code>
      */
     public boolean hasCampaignId() {
       return campaignId_ != null;
     }
     /**
-     * <code>optional .dstore.values.IntegerValue campaign_id = 1;</code>
+     * <code>.dstore.values.IntegerValue campaign_id = 1;</code>
      */
     public io.dstore.values.IntegerValue getCampaignId() {
       return campaignId_ == null ? io.dstore.values.IntegerValue.getDefaultInstance() : campaignId_;
     }
     /**
-     * <code>optional .dstore.values.IntegerValue campaign_id = 1;</code>
+     * <code>.dstore.values.IntegerValue campaign_id = 1;</code>
      */
     public io.dstore.values.IntegerValueOrBuilder getCampaignIdOrBuilder() {
       return getCampaignId();
@@ -252,7 +252,7 @@ public final class OmModifyCampsInCategoriesAd {
     public static final int CAMPAIGN_ID_NULL_FIELD_NUMBER = 1001;
     private boolean campaignIdNull_;
     /**
-     * <code>optional bool campaign_id_null = 1001;</code>
+     * <code>bool campaign_id_null = 1001;</code>
      */
     public boolean getCampaignIdNull() {
       return campaignIdNull_;
@@ -261,19 +261,19 @@ public final class OmModifyCampsInCategoriesAd {
     public static final int CAMPAIGN_CATEGORY_ID_FIELD_NUMBER = 2;
     private io.dstore.values.IntegerValue campaignCategoryId_;
     /**
-     * <code>optional .dstore.values.IntegerValue campaign_category_id = 2;</code>
+     * <code>.dstore.values.IntegerValue campaign_category_id = 2;</code>
      */
     public boolean hasCampaignCategoryId() {
       return campaignCategoryId_ != null;
     }
     /**
-     * <code>optional .dstore.values.IntegerValue campaign_category_id = 2;</code>
+     * <code>.dstore.values.IntegerValue campaign_category_id = 2;</code>
      */
     public io.dstore.values.IntegerValue getCampaignCategoryId() {
       return campaignCategoryId_ == null ? io.dstore.values.IntegerValue.getDefaultInstance() : campaignCategoryId_;
     }
     /**
-     * <code>optional .dstore.values.IntegerValue campaign_category_id = 2;</code>
+     * <code>.dstore.values.IntegerValue campaign_category_id = 2;</code>
      */
     public io.dstore.values.IntegerValueOrBuilder getCampaignCategoryIdOrBuilder() {
       return getCampaignCategoryId();
@@ -282,7 +282,7 @@ public final class OmModifyCampsInCategoriesAd {
     public static final int CAMPAIGN_CATEGORY_ID_NULL_FIELD_NUMBER = 1002;
     private boolean campaignCategoryIdNull_;
     /**
-     * <code>optional bool campaign_category_id_null = 1002;</code>
+     * <code>bool campaign_category_id_null = 1002;</code>
      */
     public boolean getCampaignCategoryIdNull() {
       return campaignCategoryIdNull_;
@@ -291,19 +291,19 @@ public final class OmModifyCampsInCategoriesAd {
     public static final int SORT_NO_FIELD_NUMBER = 3;
     private io.dstore.values.IntegerValue sortNo_;
     /**
-     * <code>optional .dstore.values.IntegerValue sort_no = 3;</code>
+     * <code>.dstore.values.IntegerValue sort_no = 3;</code>
      */
     public boolean hasSortNo() {
       return sortNo_ != null;
     }
     /**
-     * <code>optional .dstore.values.IntegerValue sort_no = 3;</code>
+     * <code>.dstore.values.IntegerValue sort_no = 3;</code>
      */
     public io.dstore.values.IntegerValue getSortNo() {
       return sortNo_ == null ? io.dstore.values.IntegerValue.getDefaultInstance() : sortNo_;
     }
     /**
-     * <code>optional .dstore.values.IntegerValue sort_no = 3;</code>
+     * <code>.dstore.values.IntegerValue sort_no = 3;</code>
      */
     public io.dstore.values.IntegerValueOrBuilder getSortNoOrBuilder() {
       return getSortNo();
@@ -312,7 +312,7 @@ public final class OmModifyCampsInCategoriesAd {
     public static final int SORT_NO_NULL_FIELD_NUMBER = 1003;
     private boolean sortNoNull_;
     /**
-     * <code>optional bool sort_no_null = 1003;</code>
+     * <code>bool sort_no_null = 1003;</code>
      */
     public boolean getSortNoNull() {
       return sortNoNull_;
@@ -321,19 +321,19 @@ public final class OmModifyCampsInCategoriesAd {
     public static final int DELETE_FIELD_NUMBER = 4;
     private io.dstore.values.BooleanValue delete_;
     /**
-     * <code>optional .dstore.values.BooleanValue delete = 4;</code>
+     * <code>.dstore.values.BooleanValue delete = 4;</code>
      */
     public boolean hasDelete() {
       return delete_ != null;
     }
     /**
-     * <code>optional .dstore.values.BooleanValue delete = 4;</code>
+     * <code>.dstore.values.BooleanValue delete = 4;</code>
      */
     public io.dstore.values.BooleanValue getDelete() {
       return delete_ == null ? io.dstore.values.BooleanValue.getDefaultInstance() : delete_;
     }
     /**
-     * <code>optional .dstore.values.BooleanValue delete = 4;</code>
+     * <code>.dstore.values.BooleanValue delete = 4;</code>
      */
     public io.dstore.values.BooleanValueOrBuilder getDeleteOrBuilder() {
       return getDelete();
@@ -342,7 +342,7 @@ public final class OmModifyCampsInCategoriesAd {
     public static final int DELETE_NULL_FIELD_NUMBER = 1004;
     private boolean deleteNull_;
     /**
-     * <code>optional bool delete_null = 1004;</code>
+     * <code>bool delete_null = 1004;</code>
      */
     public boolean getDeleteNull() {
       return deleteNull_;
@@ -476,7 +476,7 @@ public final class OmModifyCampsInCategoriesAd {
         return memoizedHashCode;
       }
       int hash = 41;
-      hash = (19 * hash) + getDescriptorForType().hashCode();
+      hash = (19 * hash) + getDescriptor().hashCode();
       if (hasCampaignId()) {
         hash = (37 * hash) + CAMPAIGN_ID_FIELD_NUMBER;
         hash = (53 * hash) + getCampaignId().hashCode();
@@ -796,13 +796,13 @@ public final class OmModifyCampsInCategoriesAd {
       private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> campaignIdBuilder_;
       /**
-       * <code>optional .dstore.values.IntegerValue campaign_id = 1;</code>
+       * <code>.dstore.values.IntegerValue campaign_id = 1;</code>
        */
       public boolean hasCampaignId() {
         return campaignIdBuilder_ != null || campaignId_ != null;
       }
       /**
-       * <code>optional .dstore.values.IntegerValue campaign_id = 1;</code>
+       * <code>.dstore.values.IntegerValue campaign_id = 1;</code>
        */
       public io.dstore.values.IntegerValue getCampaignId() {
         if (campaignIdBuilder_ == null) {
@@ -812,7 +812,7 @@ public final class OmModifyCampsInCategoriesAd {
         }
       }
       /**
-       * <code>optional .dstore.values.IntegerValue campaign_id = 1;</code>
+       * <code>.dstore.values.IntegerValue campaign_id = 1;</code>
        */
       public Builder setCampaignId(io.dstore.values.IntegerValue value) {
         if (campaignIdBuilder_ == null) {
@@ -828,7 +828,7 @@ public final class OmModifyCampsInCategoriesAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.IntegerValue campaign_id = 1;</code>
+       * <code>.dstore.values.IntegerValue campaign_id = 1;</code>
        */
       public Builder setCampaignId(
           io.dstore.values.IntegerValue.Builder builderForValue) {
@@ -842,7 +842,7 @@ public final class OmModifyCampsInCategoriesAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.IntegerValue campaign_id = 1;</code>
+       * <code>.dstore.values.IntegerValue campaign_id = 1;</code>
        */
       public Builder mergeCampaignId(io.dstore.values.IntegerValue value) {
         if (campaignIdBuilder_ == null) {
@@ -860,7 +860,7 @@ public final class OmModifyCampsInCategoriesAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.IntegerValue campaign_id = 1;</code>
+       * <code>.dstore.values.IntegerValue campaign_id = 1;</code>
        */
       public Builder clearCampaignId() {
         if (campaignIdBuilder_ == null) {
@@ -874,7 +874,7 @@ public final class OmModifyCampsInCategoriesAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.IntegerValue campaign_id = 1;</code>
+       * <code>.dstore.values.IntegerValue campaign_id = 1;</code>
        */
       public io.dstore.values.IntegerValue.Builder getCampaignIdBuilder() {
         
@@ -882,7 +882,7 @@ public final class OmModifyCampsInCategoriesAd {
         return getCampaignIdFieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .dstore.values.IntegerValue campaign_id = 1;</code>
+       * <code>.dstore.values.IntegerValue campaign_id = 1;</code>
        */
       public io.dstore.values.IntegerValueOrBuilder getCampaignIdOrBuilder() {
         if (campaignIdBuilder_ != null) {
@@ -893,7 +893,7 @@ public final class OmModifyCampsInCategoriesAd {
         }
       }
       /**
-       * <code>optional .dstore.values.IntegerValue campaign_id = 1;</code>
+       * <code>.dstore.values.IntegerValue campaign_id = 1;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> 
@@ -911,13 +911,13 @@ public final class OmModifyCampsInCategoriesAd {
 
       private boolean campaignIdNull_ ;
       /**
-       * <code>optional bool campaign_id_null = 1001;</code>
+       * <code>bool campaign_id_null = 1001;</code>
        */
       public boolean getCampaignIdNull() {
         return campaignIdNull_;
       }
       /**
-       * <code>optional bool campaign_id_null = 1001;</code>
+       * <code>bool campaign_id_null = 1001;</code>
        */
       public Builder setCampaignIdNull(boolean value) {
         
@@ -926,7 +926,7 @@ public final class OmModifyCampsInCategoriesAd {
         return this;
       }
       /**
-       * <code>optional bool campaign_id_null = 1001;</code>
+       * <code>bool campaign_id_null = 1001;</code>
        */
       public Builder clearCampaignIdNull() {
         
@@ -939,13 +939,13 @@ public final class OmModifyCampsInCategoriesAd {
       private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> campaignCategoryIdBuilder_;
       /**
-       * <code>optional .dstore.values.IntegerValue campaign_category_id = 2;</code>
+       * <code>.dstore.values.IntegerValue campaign_category_id = 2;</code>
        */
       public boolean hasCampaignCategoryId() {
         return campaignCategoryIdBuilder_ != null || campaignCategoryId_ != null;
       }
       /**
-       * <code>optional .dstore.values.IntegerValue campaign_category_id = 2;</code>
+       * <code>.dstore.values.IntegerValue campaign_category_id = 2;</code>
        */
       public io.dstore.values.IntegerValue getCampaignCategoryId() {
         if (campaignCategoryIdBuilder_ == null) {
@@ -955,7 +955,7 @@ public final class OmModifyCampsInCategoriesAd {
         }
       }
       /**
-       * <code>optional .dstore.values.IntegerValue campaign_category_id = 2;</code>
+       * <code>.dstore.values.IntegerValue campaign_category_id = 2;</code>
        */
       public Builder setCampaignCategoryId(io.dstore.values.IntegerValue value) {
         if (campaignCategoryIdBuilder_ == null) {
@@ -971,7 +971,7 @@ public final class OmModifyCampsInCategoriesAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.IntegerValue campaign_category_id = 2;</code>
+       * <code>.dstore.values.IntegerValue campaign_category_id = 2;</code>
        */
       public Builder setCampaignCategoryId(
           io.dstore.values.IntegerValue.Builder builderForValue) {
@@ -985,7 +985,7 @@ public final class OmModifyCampsInCategoriesAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.IntegerValue campaign_category_id = 2;</code>
+       * <code>.dstore.values.IntegerValue campaign_category_id = 2;</code>
        */
       public Builder mergeCampaignCategoryId(io.dstore.values.IntegerValue value) {
         if (campaignCategoryIdBuilder_ == null) {
@@ -1003,7 +1003,7 @@ public final class OmModifyCampsInCategoriesAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.IntegerValue campaign_category_id = 2;</code>
+       * <code>.dstore.values.IntegerValue campaign_category_id = 2;</code>
        */
       public Builder clearCampaignCategoryId() {
         if (campaignCategoryIdBuilder_ == null) {
@@ -1017,7 +1017,7 @@ public final class OmModifyCampsInCategoriesAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.IntegerValue campaign_category_id = 2;</code>
+       * <code>.dstore.values.IntegerValue campaign_category_id = 2;</code>
        */
       public io.dstore.values.IntegerValue.Builder getCampaignCategoryIdBuilder() {
         
@@ -1025,7 +1025,7 @@ public final class OmModifyCampsInCategoriesAd {
         return getCampaignCategoryIdFieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .dstore.values.IntegerValue campaign_category_id = 2;</code>
+       * <code>.dstore.values.IntegerValue campaign_category_id = 2;</code>
        */
       public io.dstore.values.IntegerValueOrBuilder getCampaignCategoryIdOrBuilder() {
         if (campaignCategoryIdBuilder_ != null) {
@@ -1036,7 +1036,7 @@ public final class OmModifyCampsInCategoriesAd {
         }
       }
       /**
-       * <code>optional .dstore.values.IntegerValue campaign_category_id = 2;</code>
+       * <code>.dstore.values.IntegerValue campaign_category_id = 2;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> 
@@ -1054,13 +1054,13 @@ public final class OmModifyCampsInCategoriesAd {
 
       private boolean campaignCategoryIdNull_ ;
       /**
-       * <code>optional bool campaign_category_id_null = 1002;</code>
+       * <code>bool campaign_category_id_null = 1002;</code>
        */
       public boolean getCampaignCategoryIdNull() {
         return campaignCategoryIdNull_;
       }
       /**
-       * <code>optional bool campaign_category_id_null = 1002;</code>
+       * <code>bool campaign_category_id_null = 1002;</code>
        */
       public Builder setCampaignCategoryIdNull(boolean value) {
         
@@ -1069,7 +1069,7 @@ public final class OmModifyCampsInCategoriesAd {
         return this;
       }
       /**
-       * <code>optional bool campaign_category_id_null = 1002;</code>
+       * <code>bool campaign_category_id_null = 1002;</code>
        */
       public Builder clearCampaignCategoryIdNull() {
         
@@ -1082,13 +1082,13 @@ public final class OmModifyCampsInCategoriesAd {
       private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> sortNoBuilder_;
       /**
-       * <code>optional .dstore.values.IntegerValue sort_no = 3;</code>
+       * <code>.dstore.values.IntegerValue sort_no = 3;</code>
        */
       public boolean hasSortNo() {
         return sortNoBuilder_ != null || sortNo_ != null;
       }
       /**
-       * <code>optional .dstore.values.IntegerValue sort_no = 3;</code>
+       * <code>.dstore.values.IntegerValue sort_no = 3;</code>
        */
       public io.dstore.values.IntegerValue getSortNo() {
         if (sortNoBuilder_ == null) {
@@ -1098,7 +1098,7 @@ public final class OmModifyCampsInCategoriesAd {
         }
       }
       /**
-       * <code>optional .dstore.values.IntegerValue sort_no = 3;</code>
+       * <code>.dstore.values.IntegerValue sort_no = 3;</code>
        */
       public Builder setSortNo(io.dstore.values.IntegerValue value) {
         if (sortNoBuilder_ == null) {
@@ -1114,7 +1114,7 @@ public final class OmModifyCampsInCategoriesAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.IntegerValue sort_no = 3;</code>
+       * <code>.dstore.values.IntegerValue sort_no = 3;</code>
        */
       public Builder setSortNo(
           io.dstore.values.IntegerValue.Builder builderForValue) {
@@ -1128,7 +1128,7 @@ public final class OmModifyCampsInCategoriesAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.IntegerValue sort_no = 3;</code>
+       * <code>.dstore.values.IntegerValue sort_no = 3;</code>
        */
       public Builder mergeSortNo(io.dstore.values.IntegerValue value) {
         if (sortNoBuilder_ == null) {
@@ -1146,7 +1146,7 @@ public final class OmModifyCampsInCategoriesAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.IntegerValue sort_no = 3;</code>
+       * <code>.dstore.values.IntegerValue sort_no = 3;</code>
        */
       public Builder clearSortNo() {
         if (sortNoBuilder_ == null) {
@@ -1160,7 +1160,7 @@ public final class OmModifyCampsInCategoriesAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.IntegerValue sort_no = 3;</code>
+       * <code>.dstore.values.IntegerValue sort_no = 3;</code>
        */
       public io.dstore.values.IntegerValue.Builder getSortNoBuilder() {
         
@@ -1168,7 +1168,7 @@ public final class OmModifyCampsInCategoriesAd {
         return getSortNoFieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .dstore.values.IntegerValue sort_no = 3;</code>
+       * <code>.dstore.values.IntegerValue sort_no = 3;</code>
        */
       public io.dstore.values.IntegerValueOrBuilder getSortNoOrBuilder() {
         if (sortNoBuilder_ != null) {
@@ -1179,7 +1179,7 @@ public final class OmModifyCampsInCategoriesAd {
         }
       }
       /**
-       * <code>optional .dstore.values.IntegerValue sort_no = 3;</code>
+       * <code>.dstore.values.IntegerValue sort_no = 3;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> 
@@ -1197,13 +1197,13 @@ public final class OmModifyCampsInCategoriesAd {
 
       private boolean sortNoNull_ ;
       /**
-       * <code>optional bool sort_no_null = 1003;</code>
+       * <code>bool sort_no_null = 1003;</code>
        */
       public boolean getSortNoNull() {
         return sortNoNull_;
       }
       /**
-       * <code>optional bool sort_no_null = 1003;</code>
+       * <code>bool sort_no_null = 1003;</code>
        */
       public Builder setSortNoNull(boolean value) {
         
@@ -1212,7 +1212,7 @@ public final class OmModifyCampsInCategoriesAd {
         return this;
       }
       /**
-       * <code>optional bool sort_no_null = 1003;</code>
+       * <code>bool sort_no_null = 1003;</code>
        */
       public Builder clearSortNoNull() {
         
@@ -1225,13 +1225,13 @@ public final class OmModifyCampsInCategoriesAd {
       private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.values.BooleanValue, io.dstore.values.BooleanValue.Builder, io.dstore.values.BooleanValueOrBuilder> deleteBuilder_;
       /**
-       * <code>optional .dstore.values.BooleanValue delete = 4;</code>
+       * <code>.dstore.values.BooleanValue delete = 4;</code>
        */
       public boolean hasDelete() {
         return deleteBuilder_ != null || delete_ != null;
       }
       /**
-       * <code>optional .dstore.values.BooleanValue delete = 4;</code>
+       * <code>.dstore.values.BooleanValue delete = 4;</code>
        */
       public io.dstore.values.BooleanValue getDelete() {
         if (deleteBuilder_ == null) {
@@ -1241,7 +1241,7 @@ public final class OmModifyCampsInCategoriesAd {
         }
       }
       /**
-       * <code>optional .dstore.values.BooleanValue delete = 4;</code>
+       * <code>.dstore.values.BooleanValue delete = 4;</code>
        */
       public Builder setDelete(io.dstore.values.BooleanValue value) {
         if (deleteBuilder_ == null) {
@@ -1257,7 +1257,7 @@ public final class OmModifyCampsInCategoriesAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.BooleanValue delete = 4;</code>
+       * <code>.dstore.values.BooleanValue delete = 4;</code>
        */
       public Builder setDelete(
           io.dstore.values.BooleanValue.Builder builderForValue) {
@@ -1271,7 +1271,7 @@ public final class OmModifyCampsInCategoriesAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.BooleanValue delete = 4;</code>
+       * <code>.dstore.values.BooleanValue delete = 4;</code>
        */
       public Builder mergeDelete(io.dstore.values.BooleanValue value) {
         if (deleteBuilder_ == null) {
@@ -1289,7 +1289,7 @@ public final class OmModifyCampsInCategoriesAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.BooleanValue delete = 4;</code>
+       * <code>.dstore.values.BooleanValue delete = 4;</code>
        */
       public Builder clearDelete() {
         if (deleteBuilder_ == null) {
@@ -1303,7 +1303,7 @@ public final class OmModifyCampsInCategoriesAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.BooleanValue delete = 4;</code>
+       * <code>.dstore.values.BooleanValue delete = 4;</code>
        */
       public io.dstore.values.BooleanValue.Builder getDeleteBuilder() {
         
@@ -1311,7 +1311,7 @@ public final class OmModifyCampsInCategoriesAd {
         return getDeleteFieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .dstore.values.BooleanValue delete = 4;</code>
+       * <code>.dstore.values.BooleanValue delete = 4;</code>
        */
       public io.dstore.values.BooleanValueOrBuilder getDeleteOrBuilder() {
         if (deleteBuilder_ != null) {
@@ -1322,7 +1322,7 @@ public final class OmModifyCampsInCategoriesAd {
         }
       }
       /**
-       * <code>optional .dstore.values.BooleanValue delete = 4;</code>
+       * <code>.dstore.values.BooleanValue delete = 4;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.values.BooleanValue, io.dstore.values.BooleanValue.Builder, io.dstore.values.BooleanValueOrBuilder> 
@@ -1340,13 +1340,13 @@ public final class OmModifyCampsInCategoriesAd {
 
       private boolean deleteNull_ ;
       /**
-       * <code>optional bool delete_null = 1004;</code>
+       * <code>bool delete_null = 1004;</code>
        */
       public boolean getDeleteNull() {
         return deleteNull_;
       }
       /**
-       * <code>optional bool delete_null = 1004;</code>
+       * <code>bool delete_null = 1004;</code>
        */
       public Builder setDeleteNull(boolean value) {
         
@@ -1355,7 +1355,7 @@ public final class OmModifyCampsInCategoriesAd {
         return this;
       }
       /**
-       * <code>optional bool delete_null = 1004;</code>
+       * <code>bool delete_null = 1004;</code>
        */
       public Builder clearDeleteNull() {
         
@@ -1614,7 +1614,7 @@ public final class OmModifyCampsInCategoriesAd {
         com.google.protobuf.MessageOrBuilder {
 
       /**
-       * <code>optional int32 row_id = 10000;</code>
+       * <code>int32 row_id = 10000;</code>
        */
       int getRowId();
     }
@@ -1689,7 +1689,7 @@ public final class OmModifyCampsInCategoriesAd {
       public static final int ROW_ID_FIELD_NUMBER = 10000;
       private int rowId_;
       /**
-       * <code>optional int32 row_id = 10000;</code>
+       * <code>int32 row_id = 10000;</code>
        */
       public int getRowId() {
         return rowId_;
@@ -1748,7 +1748,7 @@ public final class OmModifyCampsInCategoriesAd {
           return memoizedHashCode;
         }
         int hash = 41;
-        hash = (19 * hash) + getDescriptorForType().hashCode();
+        hash = (19 * hash) + getDescriptor().hashCode();
         hash = (37 * hash) + ROW_ID_FIELD_NUMBER;
         hash = (53 * hash) + getRowId();
         hash = (29 * hash) + unknownFields.hashCode();
@@ -1966,13 +1966,13 @@ public final class OmModifyCampsInCategoriesAd {
 
         private int rowId_ ;
         /**
-         * <code>optional int32 row_id = 10000;</code>
+         * <code>int32 row_id = 10000;</code>
          */
         public int getRowId() {
           return rowId_;
         }
         /**
-         * <code>optional int32 row_id = 10000;</code>
+         * <code>int32 row_id = 10000;</code>
          */
         public Builder setRowId(int value) {
           
@@ -1981,7 +1981,7 @@ public final class OmModifyCampsInCategoriesAd {
           return this;
         }
         /**
-         * <code>optional int32 row_id = 10000;</code>
+         * <code>int32 row_id = 10000;</code>
          */
         public Builder clearRowId() {
           
@@ -2234,7 +2234,7 @@ public final class OmModifyCampsInCategoriesAd {
         return memoizedHashCode;
       }
       int hash = 41;
-      hash = (19 * hash) + getDescriptorForType().hashCode();
+      hash = (19 * hash) + getDescriptor().hashCode();
       if (getMetaInformationCount() > 0) {
         hash = (37 * hash) + META_INFORMATION_FIELD_NUMBER;
         hash = (53 * hash) + getMetaInformationList().hashCode();

@@ -19,38 +19,38 @@ public final class AcGetActionStatusValuesAd {
       com.google.protobuf.MessageOrBuilder {
 
     /**
-     * <code>optional .dstore.values.IntegerValue command_id = 1;</code>
+     * <code>.dstore.values.IntegerValue command_id = 1;</code>
      */
     boolean hasCommandId();
     /**
-     * <code>optional .dstore.values.IntegerValue command_id = 1;</code>
+     * <code>.dstore.values.IntegerValue command_id = 1;</code>
      */
     io.dstore.values.IntegerValue getCommandId();
     /**
-     * <code>optional .dstore.values.IntegerValue command_id = 1;</code>
+     * <code>.dstore.values.IntegerValue command_id = 1;</code>
      */
     io.dstore.values.IntegerValueOrBuilder getCommandIdOrBuilder();
 
     /**
-     * <code>optional bool command_id_null = 1001;</code>
+     * <code>bool command_id_null = 1001;</code>
      */
     boolean getCommandIdNull();
 
     /**
-     * <code>optional .dstore.values.IntegerValue status_category_id = 2;</code>
+     * <code>.dstore.values.IntegerValue status_category_id = 2;</code>
      */
     boolean hasStatusCategoryId();
     /**
-     * <code>optional .dstore.values.IntegerValue status_category_id = 2;</code>
+     * <code>.dstore.values.IntegerValue status_category_id = 2;</code>
      */
     io.dstore.values.IntegerValue getStatusCategoryId();
     /**
-     * <code>optional .dstore.values.IntegerValue status_category_id = 2;</code>
+     * <code>.dstore.values.IntegerValue status_category_id = 2;</code>
      */
     io.dstore.values.IntegerValueOrBuilder getStatusCategoryIdOrBuilder();
 
     /**
-     * <code>optional bool status_category_id_null = 1002;</code>
+     * <code>bool status_category_id_null = 1002;</code>
      */
     boolean getStatusCategoryIdNull();
   }
@@ -157,19 +157,19 @@ public final class AcGetActionStatusValuesAd {
     public static final int COMMAND_ID_FIELD_NUMBER = 1;
     private io.dstore.values.IntegerValue commandId_;
     /**
-     * <code>optional .dstore.values.IntegerValue command_id = 1;</code>
+     * <code>.dstore.values.IntegerValue command_id = 1;</code>
      */
     public boolean hasCommandId() {
       return commandId_ != null;
     }
     /**
-     * <code>optional .dstore.values.IntegerValue command_id = 1;</code>
+     * <code>.dstore.values.IntegerValue command_id = 1;</code>
      */
     public io.dstore.values.IntegerValue getCommandId() {
       return commandId_ == null ? io.dstore.values.IntegerValue.getDefaultInstance() : commandId_;
     }
     /**
-     * <code>optional .dstore.values.IntegerValue command_id = 1;</code>
+     * <code>.dstore.values.IntegerValue command_id = 1;</code>
      */
     public io.dstore.values.IntegerValueOrBuilder getCommandIdOrBuilder() {
       return getCommandId();
@@ -178,7 +178,7 @@ public final class AcGetActionStatusValuesAd {
     public static final int COMMAND_ID_NULL_FIELD_NUMBER = 1001;
     private boolean commandIdNull_;
     /**
-     * <code>optional bool command_id_null = 1001;</code>
+     * <code>bool command_id_null = 1001;</code>
      */
     public boolean getCommandIdNull() {
       return commandIdNull_;
@@ -187,19 +187,19 @@ public final class AcGetActionStatusValuesAd {
     public static final int STATUS_CATEGORY_ID_FIELD_NUMBER = 2;
     private io.dstore.values.IntegerValue statusCategoryId_;
     /**
-     * <code>optional .dstore.values.IntegerValue status_category_id = 2;</code>
+     * <code>.dstore.values.IntegerValue status_category_id = 2;</code>
      */
     public boolean hasStatusCategoryId() {
       return statusCategoryId_ != null;
     }
     /**
-     * <code>optional .dstore.values.IntegerValue status_category_id = 2;</code>
+     * <code>.dstore.values.IntegerValue status_category_id = 2;</code>
      */
     public io.dstore.values.IntegerValue getStatusCategoryId() {
       return statusCategoryId_ == null ? io.dstore.values.IntegerValue.getDefaultInstance() : statusCategoryId_;
     }
     /**
-     * <code>optional .dstore.values.IntegerValue status_category_id = 2;</code>
+     * <code>.dstore.values.IntegerValue status_category_id = 2;</code>
      */
     public io.dstore.values.IntegerValueOrBuilder getStatusCategoryIdOrBuilder() {
       return getStatusCategoryId();
@@ -208,7 +208,7 @@ public final class AcGetActionStatusValuesAd {
     public static final int STATUS_CATEGORY_ID_NULL_FIELD_NUMBER = 1002;
     private boolean statusCategoryIdNull_;
     /**
-     * <code>optional bool status_category_id_null = 1002;</code>
+     * <code>bool status_category_id_null = 1002;</code>
      */
     public boolean getStatusCategoryIdNull() {
       return statusCategoryIdNull_;
@@ -300,7 +300,7 @@ public final class AcGetActionStatusValuesAd {
         return memoizedHashCode;
       }
       int hash = 41;
-      hash = (19 * hash) + getDescriptorForType().hashCode();
+      hash = (19 * hash) + getDescriptor().hashCode();
       if (hasCommandId()) {
         hash = (37 * hash) + COMMAND_ID_FIELD_NUMBER;
         hash = (53 * hash) + getCommandId().hashCode();
@@ -566,13 +566,13 @@ public final class AcGetActionStatusValuesAd {
       private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> commandIdBuilder_;
       /**
-       * <code>optional .dstore.values.IntegerValue command_id = 1;</code>
+       * <code>.dstore.values.IntegerValue command_id = 1;</code>
        */
       public boolean hasCommandId() {
         return commandIdBuilder_ != null || commandId_ != null;
       }
       /**
-       * <code>optional .dstore.values.IntegerValue command_id = 1;</code>
+       * <code>.dstore.values.IntegerValue command_id = 1;</code>
        */
       public io.dstore.values.IntegerValue getCommandId() {
         if (commandIdBuilder_ == null) {
@@ -582,7 +582,7 @@ public final class AcGetActionStatusValuesAd {
         }
       }
       /**
-       * <code>optional .dstore.values.IntegerValue command_id = 1;</code>
+       * <code>.dstore.values.IntegerValue command_id = 1;</code>
        */
       public Builder setCommandId(io.dstore.values.IntegerValue value) {
         if (commandIdBuilder_ == null) {
@@ -598,7 +598,7 @@ public final class AcGetActionStatusValuesAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.IntegerValue command_id = 1;</code>
+       * <code>.dstore.values.IntegerValue command_id = 1;</code>
        */
       public Builder setCommandId(
           io.dstore.values.IntegerValue.Builder builderForValue) {
@@ -612,7 +612,7 @@ public final class AcGetActionStatusValuesAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.IntegerValue command_id = 1;</code>
+       * <code>.dstore.values.IntegerValue command_id = 1;</code>
        */
       public Builder mergeCommandId(io.dstore.values.IntegerValue value) {
         if (commandIdBuilder_ == null) {
@@ -630,7 +630,7 @@ public final class AcGetActionStatusValuesAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.IntegerValue command_id = 1;</code>
+       * <code>.dstore.values.IntegerValue command_id = 1;</code>
        */
       public Builder clearCommandId() {
         if (commandIdBuilder_ == null) {
@@ -644,7 +644,7 @@ public final class AcGetActionStatusValuesAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.IntegerValue command_id = 1;</code>
+       * <code>.dstore.values.IntegerValue command_id = 1;</code>
        */
       public io.dstore.values.IntegerValue.Builder getCommandIdBuilder() {
         
@@ -652,7 +652,7 @@ public final class AcGetActionStatusValuesAd {
         return getCommandIdFieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .dstore.values.IntegerValue command_id = 1;</code>
+       * <code>.dstore.values.IntegerValue command_id = 1;</code>
        */
       public io.dstore.values.IntegerValueOrBuilder getCommandIdOrBuilder() {
         if (commandIdBuilder_ != null) {
@@ -663,7 +663,7 @@ public final class AcGetActionStatusValuesAd {
         }
       }
       /**
-       * <code>optional .dstore.values.IntegerValue command_id = 1;</code>
+       * <code>.dstore.values.IntegerValue command_id = 1;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> 
@@ -681,13 +681,13 @@ public final class AcGetActionStatusValuesAd {
 
       private boolean commandIdNull_ ;
       /**
-       * <code>optional bool command_id_null = 1001;</code>
+       * <code>bool command_id_null = 1001;</code>
        */
       public boolean getCommandIdNull() {
         return commandIdNull_;
       }
       /**
-       * <code>optional bool command_id_null = 1001;</code>
+       * <code>bool command_id_null = 1001;</code>
        */
       public Builder setCommandIdNull(boolean value) {
         
@@ -696,7 +696,7 @@ public final class AcGetActionStatusValuesAd {
         return this;
       }
       /**
-       * <code>optional bool command_id_null = 1001;</code>
+       * <code>bool command_id_null = 1001;</code>
        */
       public Builder clearCommandIdNull() {
         
@@ -709,13 +709,13 @@ public final class AcGetActionStatusValuesAd {
       private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> statusCategoryIdBuilder_;
       /**
-       * <code>optional .dstore.values.IntegerValue status_category_id = 2;</code>
+       * <code>.dstore.values.IntegerValue status_category_id = 2;</code>
        */
       public boolean hasStatusCategoryId() {
         return statusCategoryIdBuilder_ != null || statusCategoryId_ != null;
       }
       /**
-       * <code>optional .dstore.values.IntegerValue status_category_id = 2;</code>
+       * <code>.dstore.values.IntegerValue status_category_id = 2;</code>
        */
       public io.dstore.values.IntegerValue getStatusCategoryId() {
         if (statusCategoryIdBuilder_ == null) {
@@ -725,7 +725,7 @@ public final class AcGetActionStatusValuesAd {
         }
       }
       /**
-       * <code>optional .dstore.values.IntegerValue status_category_id = 2;</code>
+       * <code>.dstore.values.IntegerValue status_category_id = 2;</code>
        */
       public Builder setStatusCategoryId(io.dstore.values.IntegerValue value) {
         if (statusCategoryIdBuilder_ == null) {
@@ -741,7 +741,7 @@ public final class AcGetActionStatusValuesAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.IntegerValue status_category_id = 2;</code>
+       * <code>.dstore.values.IntegerValue status_category_id = 2;</code>
        */
       public Builder setStatusCategoryId(
           io.dstore.values.IntegerValue.Builder builderForValue) {
@@ -755,7 +755,7 @@ public final class AcGetActionStatusValuesAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.IntegerValue status_category_id = 2;</code>
+       * <code>.dstore.values.IntegerValue status_category_id = 2;</code>
        */
       public Builder mergeStatusCategoryId(io.dstore.values.IntegerValue value) {
         if (statusCategoryIdBuilder_ == null) {
@@ -773,7 +773,7 @@ public final class AcGetActionStatusValuesAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.IntegerValue status_category_id = 2;</code>
+       * <code>.dstore.values.IntegerValue status_category_id = 2;</code>
        */
       public Builder clearStatusCategoryId() {
         if (statusCategoryIdBuilder_ == null) {
@@ -787,7 +787,7 @@ public final class AcGetActionStatusValuesAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.IntegerValue status_category_id = 2;</code>
+       * <code>.dstore.values.IntegerValue status_category_id = 2;</code>
        */
       public io.dstore.values.IntegerValue.Builder getStatusCategoryIdBuilder() {
         
@@ -795,7 +795,7 @@ public final class AcGetActionStatusValuesAd {
         return getStatusCategoryIdFieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .dstore.values.IntegerValue status_category_id = 2;</code>
+       * <code>.dstore.values.IntegerValue status_category_id = 2;</code>
        */
       public io.dstore.values.IntegerValueOrBuilder getStatusCategoryIdOrBuilder() {
         if (statusCategoryIdBuilder_ != null) {
@@ -806,7 +806,7 @@ public final class AcGetActionStatusValuesAd {
         }
       }
       /**
-       * <code>optional .dstore.values.IntegerValue status_category_id = 2;</code>
+       * <code>.dstore.values.IntegerValue status_category_id = 2;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> 
@@ -824,13 +824,13 @@ public final class AcGetActionStatusValuesAd {
 
       private boolean statusCategoryIdNull_ ;
       /**
-       * <code>optional bool status_category_id_null = 1002;</code>
+       * <code>bool status_category_id_null = 1002;</code>
        */
       public boolean getStatusCategoryIdNull() {
         return statusCategoryIdNull_;
       }
       /**
-       * <code>optional bool status_category_id_null = 1002;</code>
+       * <code>bool status_category_id_null = 1002;</code>
        */
       public Builder setStatusCategoryIdNull(boolean value) {
         
@@ -839,7 +839,7 @@ public final class AcGetActionStatusValuesAd {
         return this;
       }
       /**
-       * <code>optional bool status_category_id_null = 1002;</code>
+       * <code>bool status_category_id_null = 1002;</code>
        */
       public Builder clearStatusCategoryIdNull() {
         
@@ -1098,7 +1098,7 @@ public final class AcGetActionStatusValuesAd {
         com.google.protobuf.MessageOrBuilder {
 
       /**
-       * <code>optional int32 row_id = 10000;</code>
+       * <code>int32 row_id = 10000;</code>
        */
       int getRowId();
 
@@ -1107,7 +1107,7 @@ public final class AcGetActionStatusValuesAd {
        * Ein möglicher Wert, den eine "Action" zur "CommandID" (bzw. zu einem beliebigen Kommando, falls "CommandID = -1" ist) als Status annehmen kann
        * </pre>
        *
-       * <code>optional .dstore.values.IntegerValue status = 10001;</code>
+       * <code>.dstore.values.IntegerValue status = 10001;</code>
        */
       boolean hasStatus();
       /**
@@ -1115,7 +1115,7 @@ public final class AcGetActionStatusValuesAd {
        * Ein möglicher Wert, den eine "Action" zur "CommandID" (bzw. zu einem beliebigen Kommando, falls "CommandID = -1" ist) als Status annehmen kann
        * </pre>
        *
-       * <code>optional .dstore.values.IntegerValue status = 10001;</code>
+       * <code>.dstore.values.IntegerValue status = 10001;</code>
        */
       io.dstore.values.IntegerValue getStatus();
       /**
@@ -1123,7 +1123,7 @@ public final class AcGetActionStatusValuesAd {
        * Ein möglicher Wert, den eine "Action" zur "CommandID" (bzw. zu einem beliebigen Kommando, falls "CommandID = -1" ist) als Status annehmen kann
        * </pre>
        *
-       * <code>optional .dstore.values.IntegerValue status = 10001;</code>
+       * <code>.dstore.values.IntegerValue status = 10001;</code>
        */
       io.dstore.values.IntegerValueOrBuilder getStatusOrBuilder();
 
@@ -1132,7 +1132,7 @@ public final class AcGetActionStatusValuesAd {
        * Bestimmt die Reihenfolge von "StatusCategoryID" innerhalb aller Status-Kategorien
        * </pre>
        *
-       * <code>optional .dstore.values.IntegerValue category_sort_no = 10002;</code>
+       * <code>.dstore.values.IntegerValue category_sort_no = 10002;</code>
        */
       boolean hasCategorySortNo();
       /**
@@ -1140,7 +1140,7 @@ public final class AcGetActionStatusValuesAd {
        * Bestimmt die Reihenfolge von "StatusCategoryID" innerhalb aller Status-Kategorien
        * </pre>
        *
-       * <code>optional .dstore.values.IntegerValue category_sort_no = 10002;</code>
+       * <code>.dstore.values.IntegerValue category_sort_no = 10002;</code>
        */
       io.dstore.values.IntegerValue getCategorySortNo();
       /**
@@ -1148,7 +1148,7 @@ public final class AcGetActionStatusValuesAd {
        * Bestimmt die Reihenfolge von "StatusCategoryID" innerhalb aller Status-Kategorien
        * </pre>
        *
-       * <code>optional .dstore.values.IntegerValue category_sort_no = 10002;</code>
+       * <code>.dstore.values.IntegerValue category_sort_no = 10002;</code>
        */
       io.dstore.values.IntegerValueOrBuilder getCategorySortNoOrBuilder();
 
@@ -1157,7 +1157,7 @@ public final class AcGetActionStatusValuesAd {
        * Kurz-Beschreibung des "Status"
        * </pre>
        *
-       * <code>optional .dstore.values.StringValue status_description = 10003;</code>
+       * <code>.dstore.values.StringValue status_description = 10003;</code>
        */
       boolean hasStatusDescription();
       /**
@@ -1165,7 +1165,7 @@ public final class AcGetActionStatusValuesAd {
        * Kurz-Beschreibung des "Status"
        * </pre>
        *
-       * <code>optional .dstore.values.StringValue status_description = 10003;</code>
+       * <code>.dstore.values.StringValue status_description = 10003;</code>
        */
       io.dstore.values.StringValue getStatusDescription();
       /**
@@ -1173,7 +1173,7 @@ public final class AcGetActionStatusValuesAd {
        * Kurz-Beschreibung des "Status"
        * </pre>
        *
-       * <code>optional .dstore.values.StringValue status_description = 10003;</code>
+       * <code>.dstore.values.StringValue status_description = 10003;</code>
        */
       io.dstore.values.StringValueOrBuilder getStatusDescriptionOrBuilder();
 
@@ -1182,7 +1182,7 @@ public final class AcGetActionStatusValuesAd {
        * Bezeichnung der Kategorie "StatusCategoryID"
        * </pre>
        *
-       * <code>optional .dstore.values.StringValue category_description = 10004;</code>
+       * <code>.dstore.values.StringValue category_description = 10004;</code>
        */
       boolean hasCategoryDescription();
       /**
@@ -1190,7 +1190,7 @@ public final class AcGetActionStatusValuesAd {
        * Bezeichnung der Kategorie "StatusCategoryID"
        * </pre>
        *
-       * <code>optional .dstore.values.StringValue category_description = 10004;</code>
+       * <code>.dstore.values.StringValue category_description = 10004;</code>
        */
       io.dstore.values.StringValue getCategoryDescription();
       /**
@@ -1198,7 +1198,7 @@ public final class AcGetActionStatusValuesAd {
        * Bezeichnung der Kategorie "StatusCategoryID"
        * </pre>
        *
-       * <code>optional .dstore.values.StringValue category_description = 10004;</code>
+       * <code>.dstore.values.StringValue category_description = 10004;</code>
        */
       io.dstore.values.StringValueOrBuilder getCategoryDescriptionOrBuilder();
 
@@ -1207,7 +1207,7 @@ public final class AcGetActionStatusValuesAd {
        * ID des Kommandos (bzw. Programms), mit dem die "Action" abgearbeitet werden soll.Hinweis : Der Wert "-1" steht für "beliebiges Kommando", bedeutet also quasi : "gilt für alle Kommandos".
        * </pre>
        *
-       * <code>optional .dstore.values.IntegerValue command_id = 10005;</code>
+       * <code>.dstore.values.IntegerValue command_id = 10005;</code>
        */
       boolean hasCommandId();
       /**
@@ -1215,7 +1215,7 @@ public final class AcGetActionStatusValuesAd {
        * ID des Kommandos (bzw. Programms), mit dem die "Action" abgearbeitet werden soll.Hinweis : Der Wert "-1" steht für "beliebiges Kommando", bedeutet also quasi : "gilt für alle Kommandos".
        * </pre>
        *
-       * <code>optional .dstore.values.IntegerValue command_id = 10005;</code>
+       * <code>.dstore.values.IntegerValue command_id = 10005;</code>
        */
       io.dstore.values.IntegerValue getCommandId();
       /**
@@ -1223,7 +1223,7 @@ public final class AcGetActionStatusValuesAd {
        * ID des Kommandos (bzw. Programms), mit dem die "Action" abgearbeitet werden soll.Hinweis : Der Wert "-1" steht für "beliebiges Kommando", bedeutet also quasi : "gilt für alle Kommandos".
        * </pre>
        *
-       * <code>optional .dstore.values.IntegerValue command_id = 10005;</code>
+       * <code>.dstore.values.IntegerValue command_id = 10005;</code>
        */
       io.dstore.values.IntegerValueOrBuilder getCommandIdOrBuilder();
 
@@ -1232,7 +1232,7 @@ public final class AcGetActionStatusValuesAd {
        * Bestimmt die Reihenfolge von "Status" innerhalb aller Status der Kategorie "StatusCategoryID"
        * </pre>
        *
-       * <code>optional .dstore.values.IntegerValue sort_no = 10006;</code>
+       * <code>.dstore.values.IntegerValue sort_no = 10006;</code>
        */
       boolean hasSortNo();
       /**
@@ -1240,7 +1240,7 @@ public final class AcGetActionStatusValuesAd {
        * Bestimmt die Reihenfolge von "Status" innerhalb aller Status der Kategorie "StatusCategoryID"
        * </pre>
        *
-       * <code>optional .dstore.values.IntegerValue sort_no = 10006;</code>
+       * <code>.dstore.values.IntegerValue sort_no = 10006;</code>
        */
       io.dstore.values.IntegerValue getSortNo();
       /**
@@ -1248,7 +1248,7 @@ public final class AcGetActionStatusValuesAd {
        * Bestimmt die Reihenfolge von "Status" innerhalb aller Status der Kategorie "StatusCategoryID"
        * </pre>
        *
-       * <code>optional .dstore.values.IntegerValue sort_no = 10006;</code>
+       * <code>.dstore.values.IntegerValue sort_no = 10006;</code>
        */
       io.dstore.values.IntegerValueOrBuilder getSortNoOrBuilder();
 
@@ -1257,7 +1257,7 @@ public final class AcGetActionStatusValuesAd {
        * Ausführliche Beschreibung des "Status"
        * </pre>
        *
-       * <code>optional .dstore.values.StringValue detailed_description = 10007;</code>
+       * <code>.dstore.values.StringValue detailed_description = 10007;</code>
        */
       boolean hasDetailedDescription();
       /**
@@ -1265,7 +1265,7 @@ public final class AcGetActionStatusValuesAd {
        * Ausführliche Beschreibung des "Status"
        * </pre>
        *
-       * <code>optional .dstore.values.StringValue detailed_description = 10007;</code>
+       * <code>.dstore.values.StringValue detailed_description = 10007;</code>
        */
       io.dstore.values.StringValue getDetailedDescription();
       /**
@@ -1273,7 +1273,7 @@ public final class AcGetActionStatusValuesAd {
        * Ausführliche Beschreibung des "Status"
        * </pre>
        *
-       * <code>optional .dstore.values.StringValue detailed_description = 10007;</code>
+       * <code>.dstore.values.StringValue detailed_description = 10007;</code>
        */
       io.dstore.values.StringValueOrBuilder getDetailedDescriptionOrBuilder();
 
@@ -1282,7 +1282,7 @@ public final class AcGetActionStatusValuesAd {
        * ID einer Status-Kategorie, der "Status" zugeordnet ist
        * </pre>
        *
-       * <code>optional .dstore.values.IntegerValue status_category_id = 10008;</code>
+       * <code>.dstore.values.IntegerValue status_category_id = 10008;</code>
        */
       boolean hasStatusCategoryId();
       /**
@@ -1290,7 +1290,7 @@ public final class AcGetActionStatusValuesAd {
        * ID einer Status-Kategorie, der "Status" zugeordnet ist
        * </pre>
        *
-       * <code>optional .dstore.values.IntegerValue status_category_id = 10008;</code>
+       * <code>.dstore.values.IntegerValue status_category_id = 10008;</code>
        */
       io.dstore.values.IntegerValue getStatusCategoryId();
       /**
@@ -1298,7 +1298,7 @@ public final class AcGetActionStatusValuesAd {
        * ID einer Status-Kategorie, der "Status" zugeordnet ist
        * </pre>
        *
-       * <code>optional .dstore.values.IntegerValue status_category_id = 10008;</code>
+       * <code>.dstore.values.IntegerValue status_category_id = 10008;</code>
        */
       io.dstore.values.IntegerValueOrBuilder getStatusCategoryIdOrBuilder();
     }
@@ -1477,7 +1477,7 @@ public final class AcGetActionStatusValuesAd {
       public static final int ROW_ID_FIELD_NUMBER = 10000;
       private int rowId_;
       /**
-       * <code>optional int32 row_id = 10000;</code>
+       * <code>int32 row_id = 10000;</code>
        */
       public int getRowId() {
         return rowId_;
@@ -1490,7 +1490,7 @@ public final class AcGetActionStatusValuesAd {
        * Ein möglicher Wert, den eine "Action" zur "CommandID" (bzw. zu einem beliebigen Kommando, falls "CommandID = -1" ist) als Status annehmen kann
        * </pre>
        *
-       * <code>optional .dstore.values.IntegerValue status = 10001;</code>
+       * <code>.dstore.values.IntegerValue status = 10001;</code>
        */
       public boolean hasStatus() {
         return status_ != null;
@@ -1500,7 +1500,7 @@ public final class AcGetActionStatusValuesAd {
        * Ein möglicher Wert, den eine "Action" zur "CommandID" (bzw. zu einem beliebigen Kommando, falls "CommandID = -1" ist) als Status annehmen kann
        * </pre>
        *
-       * <code>optional .dstore.values.IntegerValue status = 10001;</code>
+       * <code>.dstore.values.IntegerValue status = 10001;</code>
        */
       public io.dstore.values.IntegerValue getStatus() {
         return status_ == null ? io.dstore.values.IntegerValue.getDefaultInstance() : status_;
@@ -1510,7 +1510,7 @@ public final class AcGetActionStatusValuesAd {
        * Ein möglicher Wert, den eine "Action" zur "CommandID" (bzw. zu einem beliebigen Kommando, falls "CommandID = -1" ist) als Status annehmen kann
        * </pre>
        *
-       * <code>optional .dstore.values.IntegerValue status = 10001;</code>
+       * <code>.dstore.values.IntegerValue status = 10001;</code>
        */
       public io.dstore.values.IntegerValueOrBuilder getStatusOrBuilder() {
         return getStatus();
@@ -1523,7 +1523,7 @@ public final class AcGetActionStatusValuesAd {
        * Bestimmt die Reihenfolge von "StatusCategoryID" innerhalb aller Status-Kategorien
        * </pre>
        *
-       * <code>optional .dstore.values.IntegerValue category_sort_no = 10002;</code>
+       * <code>.dstore.values.IntegerValue category_sort_no = 10002;</code>
        */
       public boolean hasCategorySortNo() {
         return categorySortNo_ != null;
@@ -1533,7 +1533,7 @@ public final class AcGetActionStatusValuesAd {
        * Bestimmt die Reihenfolge von "StatusCategoryID" innerhalb aller Status-Kategorien
        * </pre>
        *
-       * <code>optional .dstore.values.IntegerValue category_sort_no = 10002;</code>
+       * <code>.dstore.values.IntegerValue category_sort_no = 10002;</code>
        */
       public io.dstore.values.IntegerValue getCategorySortNo() {
         return categorySortNo_ == null ? io.dstore.values.IntegerValue.getDefaultInstance() : categorySortNo_;
@@ -1543,7 +1543,7 @@ public final class AcGetActionStatusValuesAd {
        * Bestimmt die Reihenfolge von "StatusCategoryID" innerhalb aller Status-Kategorien
        * </pre>
        *
-       * <code>optional .dstore.values.IntegerValue category_sort_no = 10002;</code>
+       * <code>.dstore.values.IntegerValue category_sort_no = 10002;</code>
        */
       public io.dstore.values.IntegerValueOrBuilder getCategorySortNoOrBuilder() {
         return getCategorySortNo();
@@ -1556,7 +1556,7 @@ public final class AcGetActionStatusValuesAd {
        * Kurz-Beschreibung des "Status"
        * </pre>
        *
-       * <code>optional .dstore.values.StringValue status_description = 10003;</code>
+       * <code>.dstore.values.StringValue status_description = 10003;</code>
        */
       public boolean hasStatusDescription() {
         return statusDescription_ != null;
@@ -1566,7 +1566,7 @@ public final class AcGetActionStatusValuesAd {
        * Kurz-Beschreibung des "Status"
        * </pre>
        *
-       * <code>optional .dstore.values.StringValue status_description = 10003;</code>
+       * <code>.dstore.values.StringValue status_description = 10003;</code>
        */
       public io.dstore.values.StringValue getStatusDescription() {
         return statusDescription_ == null ? io.dstore.values.StringValue.getDefaultInstance() : statusDescription_;
@@ -1576,7 +1576,7 @@ public final class AcGetActionStatusValuesAd {
        * Kurz-Beschreibung des "Status"
        * </pre>
        *
-       * <code>optional .dstore.values.StringValue status_description = 10003;</code>
+       * <code>.dstore.values.StringValue status_description = 10003;</code>
        */
       public io.dstore.values.StringValueOrBuilder getStatusDescriptionOrBuilder() {
         return getStatusDescription();
@@ -1589,7 +1589,7 @@ public final class AcGetActionStatusValuesAd {
        * Bezeichnung der Kategorie "StatusCategoryID"
        * </pre>
        *
-       * <code>optional .dstore.values.StringValue category_description = 10004;</code>
+       * <code>.dstore.values.StringValue category_description = 10004;</code>
        */
       public boolean hasCategoryDescription() {
         return categoryDescription_ != null;
@@ -1599,7 +1599,7 @@ public final class AcGetActionStatusValuesAd {
        * Bezeichnung der Kategorie "StatusCategoryID"
        * </pre>
        *
-       * <code>optional .dstore.values.StringValue category_description = 10004;</code>
+       * <code>.dstore.values.StringValue category_description = 10004;</code>
        */
       public io.dstore.values.StringValue getCategoryDescription() {
         return categoryDescription_ == null ? io.dstore.values.StringValue.getDefaultInstance() : categoryDescription_;
@@ -1609,7 +1609,7 @@ public final class AcGetActionStatusValuesAd {
        * Bezeichnung der Kategorie "StatusCategoryID"
        * </pre>
        *
-       * <code>optional .dstore.values.StringValue category_description = 10004;</code>
+       * <code>.dstore.values.StringValue category_description = 10004;</code>
        */
       public io.dstore.values.StringValueOrBuilder getCategoryDescriptionOrBuilder() {
         return getCategoryDescription();
@@ -1622,7 +1622,7 @@ public final class AcGetActionStatusValuesAd {
        * ID des Kommandos (bzw. Programms), mit dem die "Action" abgearbeitet werden soll.Hinweis : Der Wert "-1" steht für "beliebiges Kommando", bedeutet also quasi : "gilt für alle Kommandos".
        * </pre>
        *
-       * <code>optional .dstore.values.IntegerValue command_id = 10005;</code>
+       * <code>.dstore.values.IntegerValue command_id = 10005;</code>
        */
       public boolean hasCommandId() {
         return commandId_ != null;
@@ -1632,7 +1632,7 @@ public final class AcGetActionStatusValuesAd {
        * ID des Kommandos (bzw. Programms), mit dem die "Action" abgearbeitet werden soll.Hinweis : Der Wert "-1" steht für "beliebiges Kommando", bedeutet also quasi : "gilt für alle Kommandos".
        * </pre>
        *
-       * <code>optional .dstore.values.IntegerValue command_id = 10005;</code>
+       * <code>.dstore.values.IntegerValue command_id = 10005;</code>
        */
       public io.dstore.values.IntegerValue getCommandId() {
         return commandId_ == null ? io.dstore.values.IntegerValue.getDefaultInstance() : commandId_;
@@ -1642,7 +1642,7 @@ public final class AcGetActionStatusValuesAd {
        * ID des Kommandos (bzw. Programms), mit dem die "Action" abgearbeitet werden soll.Hinweis : Der Wert "-1" steht für "beliebiges Kommando", bedeutet also quasi : "gilt für alle Kommandos".
        * </pre>
        *
-       * <code>optional .dstore.values.IntegerValue command_id = 10005;</code>
+       * <code>.dstore.values.IntegerValue command_id = 10005;</code>
        */
       public io.dstore.values.IntegerValueOrBuilder getCommandIdOrBuilder() {
         return getCommandId();
@@ -1655,7 +1655,7 @@ public final class AcGetActionStatusValuesAd {
        * Bestimmt die Reihenfolge von "Status" innerhalb aller Status der Kategorie "StatusCategoryID"
        * </pre>
        *
-       * <code>optional .dstore.values.IntegerValue sort_no = 10006;</code>
+       * <code>.dstore.values.IntegerValue sort_no = 10006;</code>
        */
       public boolean hasSortNo() {
         return sortNo_ != null;
@@ -1665,7 +1665,7 @@ public final class AcGetActionStatusValuesAd {
        * Bestimmt die Reihenfolge von "Status" innerhalb aller Status der Kategorie "StatusCategoryID"
        * </pre>
        *
-       * <code>optional .dstore.values.IntegerValue sort_no = 10006;</code>
+       * <code>.dstore.values.IntegerValue sort_no = 10006;</code>
        */
       public io.dstore.values.IntegerValue getSortNo() {
         return sortNo_ == null ? io.dstore.values.IntegerValue.getDefaultInstance() : sortNo_;
@@ -1675,7 +1675,7 @@ public final class AcGetActionStatusValuesAd {
        * Bestimmt die Reihenfolge von "Status" innerhalb aller Status der Kategorie "StatusCategoryID"
        * </pre>
        *
-       * <code>optional .dstore.values.IntegerValue sort_no = 10006;</code>
+       * <code>.dstore.values.IntegerValue sort_no = 10006;</code>
        */
       public io.dstore.values.IntegerValueOrBuilder getSortNoOrBuilder() {
         return getSortNo();
@@ -1688,7 +1688,7 @@ public final class AcGetActionStatusValuesAd {
        * Ausführliche Beschreibung des "Status"
        * </pre>
        *
-       * <code>optional .dstore.values.StringValue detailed_description = 10007;</code>
+       * <code>.dstore.values.StringValue detailed_description = 10007;</code>
        */
       public boolean hasDetailedDescription() {
         return detailedDescription_ != null;
@@ -1698,7 +1698,7 @@ public final class AcGetActionStatusValuesAd {
        * Ausführliche Beschreibung des "Status"
        * </pre>
        *
-       * <code>optional .dstore.values.StringValue detailed_description = 10007;</code>
+       * <code>.dstore.values.StringValue detailed_description = 10007;</code>
        */
       public io.dstore.values.StringValue getDetailedDescription() {
         return detailedDescription_ == null ? io.dstore.values.StringValue.getDefaultInstance() : detailedDescription_;
@@ -1708,7 +1708,7 @@ public final class AcGetActionStatusValuesAd {
        * Ausführliche Beschreibung des "Status"
        * </pre>
        *
-       * <code>optional .dstore.values.StringValue detailed_description = 10007;</code>
+       * <code>.dstore.values.StringValue detailed_description = 10007;</code>
        */
       public io.dstore.values.StringValueOrBuilder getDetailedDescriptionOrBuilder() {
         return getDetailedDescription();
@@ -1721,7 +1721,7 @@ public final class AcGetActionStatusValuesAd {
        * ID einer Status-Kategorie, der "Status" zugeordnet ist
        * </pre>
        *
-       * <code>optional .dstore.values.IntegerValue status_category_id = 10008;</code>
+       * <code>.dstore.values.IntegerValue status_category_id = 10008;</code>
        */
       public boolean hasStatusCategoryId() {
         return statusCategoryId_ != null;
@@ -1731,7 +1731,7 @@ public final class AcGetActionStatusValuesAd {
        * ID einer Status-Kategorie, der "Status" zugeordnet ist
        * </pre>
        *
-       * <code>optional .dstore.values.IntegerValue status_category_id = 10008;</code>
+       * <code>.dstore.values.IntegerValue status_category_id = 10008;</code>
        */
       public io.dstore.values.IntegerValue getStatusCategoryId() {
         return statusCategoryId_ == null ? io.dstore.values.IntegerValue.getDefaultInstance() : statusCategoryId_;
@@ -1741,7 +1741,7 @@ public final class AcGetActionStatusValuesAd {
        * ID einer Status-Kategorie, der "Status" zugeordnet ist
        * </pre>
        *
-       * <code>optional .dstore.values.IntegerValue status_category_id = 10008;</code>
+       * <code>.dstore.values.IntegerValue status_category_id = 10008;</code>
        */
       public io.dstore.values.IntegerValueOrBuilder getStatusCategoryIdOrBuilder() {
         return getStatusCategoryId();
@@ -1896,7 +1896,7 @@ public final class AcGetActionStatusValuesAd {
           return memoizedHashCode;
         }
         int hash = 41;
-        hash = (19 * hash) + getDescriptorForType().hashCode();
+        hash = (19 * hash) + getDescriptor().hashCode();
         hash = (37 * hash) + ROW_ID_FIELD_NUMBER;
         hash = (53 * hash) + getRowId();
         if (hasStatus()) {
@@ -2258,13 +2258,13 @@ public final class AcGetActionStatusValuesAd {
 
         private int rowId_ ;
         /**
-         * <code>optional int32 row_id = 10000;</code>
+         * <code>int32 row_id = 10000;</code>
          */
         public int getRowId() {
           return rowId_;
         }
         /**
-         * <code>optional int32 row_id = 10000;</code>
+         * <code>int32 row_id = 10000;</code>
          */
         public Builder setRowId(int value) {
           
@@ -2273,7 +2273,7 @@ public final class AcGetActionStatusValuesAd {
           return this;
         }
         /**
-         * <code>optional int32 row_id = 10000;</code>
+         * <code>int32 row_id = 10000;</code>
          */
         public Builder clearRowId() {
           
@@ -2290,7 +2290,7 @@ public final class AcGetActionStatusValuesAd {
          * Ein möglicher Wert, den eine "Action" zur "CommandID" (bzw. zu einem beliebigen Kommando, falls "CommandID = -1" ist) als Status annehmen kann
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue status = 10001;</code>
+         * <code>.dstore.values.IntegerValue status = 10001;</code>
          */
         public boolean hasStatus() {
           return statusBuilder_ != null || status_ != null;
@@ -2300,7 +2300,7 @@ public final class AcGetActionStatusValuesAd {
          * Ein möglicher Wert, den eine "Action" zur "CommandID" (bzw. zu einem beliebigen Kommando, falls "CommandID = -1" ist) als Status annehmen kann
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue status = 10001;</code>
+         * <code>.dstore.values.IntegerValue status = 10001;</code>
          */
         public io.dstore.values.IntegerValue getStatus() {
           if (statusBuilder_ == null) {
@@ -2314,7 +2314,7 @@ public final class AcGetActionStatusValuesAd {
          * Ein möglicher Wert, den eine "Action" zur "CommandID" (bzw. zu einem beliebigen Kommando, falls "CommandID = -1" ist) als Status annehmen kann
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue status = 10001;</code>
+         * <code>.dstore.values.IntegerValue status = 10001;</code>
          */
         public Builder setStatus(io.dstore.values.IntegerValue value) {
           if (statusBuilder_ == null) {
@@ -2334,7 +2334,7 @@ public final class AcGetActionStatusValuesAd {
          * Ein möglicher Wert, den eine "Action" zur "CommandID" (bzw. zu einem beliebigen Kommando, falls "CommandID = -1" ist) als Status annehmen kann
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue status = 10001;</code>
+         * <code>.dstore.values.IntegerValue status = 10001;</code>
          */
         public Builder setStatus(
             io.dstore.values.IntegerValue.Builder builderForValue) {
@@ -2352,7 +2352,7 @@ public final class AcGetActionStatusValuesAd {
          * Ein möglicher Wert, den eine "Action" zur "CommandID" (bzw. zu einem beliebigen Kommando, falls "CommandID = -1" ist) als Status annehmen kann
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue status = 10001;</code>
+         * <code>.dstore.values.IntegerValue status = 10001;</code>
          */
         public Builder mergeStatus(io.dstore.values.IntegerValue value) {
           if (statusBuilder_ == null) {
@@ -2374,7 +2374,7 @@ public final class AcGetActionStatusValuesAd {
          * Ein möglicher Wert, den eine "Action" zur "CommandID" (bzw. zu einem beliebigen Kommando, falls "CommandID = -1" ist) als Status annehmen kann
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue status = 10001;</code>
+         * <code>.dstore.values.IntegerValue status = 10001;</code>
          */
         public Builder clearStatus() {
           if (statusBuilder_ == null) {
@@ -2392,7 +2392,7 @@ public final class AcGetActionStatusValuesAd {
          * Ein möglicher Wert, den eine "Action" zur "CommandID" (bzw. zu einem beliebigen Kommando, falls "CommandID = -1" ist) als Status annehmen kann
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue status = 10001;</code>
+         * <code>.dstore.values.IntegerValue status = 10001;</code>
          */
         public io.dstore.values.IntegerValue.Builder getStatusBuilder() {
           
@@ -2404,7 +2404,7 @@ public final class AcGetActionStatusValuesAd {
          * Ein möglicher Wert, den eine "Action" zur "CommandID" (bzw. zu einem beliebigen Kommando, falls "CommandID = -1" ist) als Status annehmen kann
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue status = 10001;</code>
+         * <code>.dstore.values.IntegerValue status = 10001;</code>
          */
         public io.dstore.values.IntegerValueOrBuilder getStatusOrBuilder() {
           if (statusBuilder_ != null) {
@@ -2419,7 +2419,7 @@ public final class AcGetActionStatusValuesAd {
          * Ein möglicher Wert, den eine "Action" zur "CommandID" (bzw. zu einem beliebigen Kommando, falls "CommandID = -1" ist) als Status annehmen kann
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue status = 10001;</code>
+         * <code>.dstore.values.IntegerValue status = 10001;</code>
          */
         private com.google.protobuf.SingleFieldBuilderV3<
             io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> 
@@ -2443,7 +2443,7 @@ public final class AcGetActionStatusValuesAd {
          * Bestimmt die Reihenfolge von "StatusCategoryID" innerhalb aller Status-Kategorien
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue category_sort_no = 10002;</code>
+         * <code>.dstore.values.IntegerValue category_sort_no = 10002;</code>
          */
         public boolean hasCategorySortNo() {
           return categorySortNoBuilder_ != null || categorySortNo_ != null;
@@ -2453,7 +2453,7 @@ public final class AcGetActionStatusValuesAd {
          * Bestimmt die Reihenfolge von "StatusCategoryID" innerhalb aller Status-Kategorien
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue category_sort_no = 10002;</code>
+         * <code>.dstore.values.IntegerValue category_sort_no = 10002;</code>
          */
         public io.dstore.values.IntegerValue getCategorySortNo() {
           if (categorySortNoBuilder_ == null) {
@@ -2467,7 +2467,7 @@ public final class AcGetActionStatusValuesAd {
          * Bestimmt die Reihenfolge von "StatusCategoryID" innerhalb aller Status-Kategorien
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue category_sort_no = 10002;</code>
+         * <code>.dstore.values.IntegerValue category_sort_no = 10002;</code>
          */
         public Builder setCategorySortNo(io.dstore.values.IntegerValue value) {
           if (categorySortNoBuilder_ == null) {
@@ -2487,7 +2487,7 @@ public final class AcGetActionStatusValuesAd {
          * Bestimmt die Reihenfolge von "StatusCategoryID" innerhalb aller Status-Kategorien
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue category_sort_no = 10002;</code>
+         * <code>.dstore.values.IntegerValue category_sort_no = 10002;</code>
          */
         public Builder setCategorySortNo(
             io.dstore.values.IntegerValue.Builder builderForValue) {
@@ -2505,7 +2505,7 @@ public final class AcGetActionStatusValuesAd {
          * Bestimmt die Reihenfolge von "StatusCategoryID" innerhalb aller Status-Kategorien
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue category_sort_no = 10002;</code>
+         * <code>.dstore.values.IntegerValue category_sort_no = 10002;</code>
          */
         public Builder mergeCategorySortNo(io.dstore.values.IntegerValue value) {
           if (categorySortNoBuilder_ == null) {
@@ -2527,7 +2527,7 @@ public final class AcGetActionStatusValuesAd {
          * Bestimmt die Reihenfolge von "StatusCategoryID" innerhalb aller Status-Kategorien
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue category_sort_no = 10002;</code>
+         * <code>.dstore.values.IntegerValue category_sort_no = 10002;</code>
          */
         public Builder clearCategorySortNo() {
           if (categorySortNoBuilder_ == null) {
@@ -2545,7 +2545,7 @@ public final class AcGetActionStatusValuesAd {
          * Bestimmt die Reihenfolge von "StatusCategoryID" innerhalb aller Status-Kategorien
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue category_sort_no = 10002;</code>
+         * <code>.dstore.values.IntegerValue category_sort_no = 10002;</code>
          */
         public io.dstore.values.IntegerValue.Builder getCategorySortNoBuilder() {
           
@@ -2557,7 +2557,7 @@ public final class AcGetActionStatusValuesAd {
          * Bestimmt die Reihenfolge von "StatusCategoryID" innerhalb aller Status-Kategorien
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue category_sort_no = 10002;</code>
+         * <code>.dstore.values.IntegerValue category_sort_no = 10002;</code>
          */
         public io.dstore.values.IntegerValueOrBuilder getCategorySortNoOrBuilder() {
           if (categorySortNoBuilder_ != null) {
@@ -2572,7 +2572,7 @@ public final class AcGetActionStatusValuesAd {
          * Bestimmt die Reihenfolge von "StatusCategoryID" innerhalb aller Status-Kategorien
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue category_sort_no = 10002;</code>
+         * <code>.dstore.values.IntegerValue category_sort_no = 10002;</code>
          */
         private com.google.protobuf.SingleFieldBuilderV3<
             io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> 
@@ -2596,7 +2596,7 @@ public final class AcGetActionStatusValuesAd {
          * Kurz-Beschreibung des "Status"
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue status_description = 10003;</code>
+         * <code>.dstore.values.StringValue status_description = 10003;</code>
          */
         public boolean hasStatusDescription() {
           return statusDescriptionBuilder_ != null || statusDescription_ != null;
@@ -2606,7 +2606,7 @@ public final class AcGetActionStatusValuesAd {
          * Kurz-Beschreibung des "Status"
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue status_description = 10003;</code>
+         * <code>.dstore.values.StringValue status_description = 10003;</code>
          */
         public io.dstore.values.StringValue getStatusDescription() {
           if (statusDescriptionBuilder_ == null) {
@@ -2620,7 +2620,7 @@ public final class AcGetActionStatusValuesAd {
          * Kurz-Beschreibung des "Status"
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue status_description = 10003;</code>
+         * <code>.dstore.values.StringValue status_description = 10003;</code>
          */
         public Builder setStatusDescription(io.dstore.values.StringValue value) {
           if (statusDescriptionBuilder_ == null) {
@@ -2640,7 +2640,7 @@ public final class AcGetActionStatusValuesAd {
          * Kurz-Beschreibung des "Status"
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue status_description = 10003;</code>
+         * <code>.dstore.values.StringValue status_description = 10003;</code>
          */
         public Builder setStatusDescription(
             io.dstore.values.StringValue.Builder builderForValue) {
@@ -2658,7 +2658,7 @@ public final class AcGetActionStatusValuesAd {
          * Kurz-Beschreibung des "Status"
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue status_description = 10003;</code>
+         * <code>.dstore.values.StringValue status_description = 10003;</code>
          */
         public Builder mergeStatusDescription(io.dstore.values.StringValue value) {
           if (statusDescriptionBuilder_ == null) {
@@ -2680,7 +2680,7 @@ public final class AcGetActionStatusValuesAd {
          * Kurz-Beschreibung des "Status"
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue status_description = 10003;</code>
+         * <code>.dstore.values.StringValue status_description = 10003;</code>
          */
         public Builder clearStatusDescription() {
           if (statusDescriptionBuilder_ == null) {
@@ -2698,7 +2698,7 @@ public final class AcGetActionStatusValuesAd {
          * Kurz-Beschreibung des "Status"
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue status_description = 10003;</code>
+         * <code>.dstore.values.StringValue status_description = 10003;</code>
          */
         public io.dstore.values.StringValue.Builder getStatusDescriptionBuilder() {
           
@@ -2710,7 +2710,7 @@ public final class AcGetActionStatusValuesAd {
          * Kurz-Beschreibung des "Status"
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue status_description = 10003;</code>
+         * <code>.dstore.values.StringValue status_description = 10003;</code>
          */
         public io.dstore.values.StringValueOrBuilder getStatusDescriptionOrBuilder() {
           if (statusDescriptionBuilder_ != null) {
@@ -2725,7 +2725,7 @@ public final class AcGetActionStatusValuesAd {
          * Kurz-Beschreibung des "Status"
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue status_description = 10003;</code>
+         * <code>.dstore.values.StringValue status_description = 10003;</code>
          */
         private com.google.protobuf.SingleFieldBuilderV3<
             io.dstore.values.StringValue, io.dstore.values.StringValue.Builder, io.dstore.values.StringValueOrBuilder> 
@@ -2749,7 +2749,7 @@ public final class AcGetActionStatusValuesAd {
          * Bezeichnung der Kategorie "StatusCategoryID"
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue category_description = 10004;</code>
+         * <code>.dstore.values.StringValue category_description = 10004;</code>
          */
         public boolean hasCategoryDescription() {
           return categoryDescriptionBuilder_ != null || categoryDescription_ != null;
@@ -2759,7 +2759,7 @@ public final class AcGetActionStatusValuesAd {
          * Bezeichnung der Kategorie "StatusCategoryID"
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue category_description = 10004;</code>
+         * <code>.dstore.values.StringValue category_description = 10004;</code>
          */
         public io.dstore.values.StringValue getCategoryDescription() {
           if (categoryDescriptionBuilder_ == null) {
@@ -2773,7 +2773,7 @@ public final class AcGetActionStatusValuesAd {
          * Bezeichnung der Kategorie "StatusCategoryID"
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue category_description = 10004;</code>
+         * <code>.dstore.values.StringValue category_description = 10004;</code>
          */
         public Builder setCategoryDescription(io.dstore.values.StringValue value) {
           if (categoryDescriptionBuilder_ == null) {
@@ -2793,7 +2793,7 @@ public final class AcGetActionStatusValuesAd {
          * Bezeichnung der Kategorie "StatusCategoryID"
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue category_description = 10004;</code>
+         * <code>.dstore.values.StringValue category_description = 10004;</code>
          */
         public Builder setCategoryDescription(
             io.dstore.values.StringValue.Builder builderForValue) {
@@ -2811,7 +2811,7 @@ public final class AcGetActionStatusValuesAd {
          * Bezeichnung der Kategorie "StatusCategoryID"
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue category_description = 10004;</code>
+         * <code>.dstore.values.StringValue category_description = 10004;</code>
          */
         public Builder mergeCategoryDescription(io.dstore.values.StringValue value) {
           if (categoryDescriptionBuilder_ == null) {
@@ -2833,7 +2833,7 @@ public final class AcGetActionStatusValuesAd {
          * Bezeichnung der Kategorie "StatusCategoryID"
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue category_description = 10004;</code>
+         * <code>.dstore.values.StringValue category_description = 10004;</code>
          */
         public Builder clearCategoryDescription() {
           if (categoryDescriptionBuilder_ == null) {
@@ -2851,7 +2851,7 @@ public final class AcGetActionStatusValuesAd {
          * Bezeichnung der Kategorie "StatusCategoryID"
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue category_description = 10004;</code>
+         * <code>.dstore.values.StringValue category_description = 10004;</code>
          */
         public io.dstore.values.StringValue.Builder getCategoryDescriptionBuilder() {
           
@@ -2863,7 +2863,7 @@ public final class AcGetActionStatusValuesAd {
          * Bezeichnung der Kategorie "StatusCategoryID"
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue category_description = 10004;</code>
+         * <code>.dstore.values.StringValue category_description = 10004;</code>
          */
         public io.dstore.values.StringValueOrBuilder getCategoryDescriptionOrBuilder() {
           if (categoryDescriptionBuilder_ != null) {
@@ -2878,7 +2878,7 @@ public final class AcGetActionStatusValuesAd {
          * Bezeichnung der Kategorie "StatusCategoryID"
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue category_description = 10004;</code>
+         * <code>.dstore.values.StringValue category_description = 10004;</code>
          */
         private com.google.protobuf.SingleFieldBuilderV3<
             io.dstore.values.StringValue, io.dstore.values.StringValue.Builder, io.dstore.values.StringValueOrBuilder> 
@@ -2902,7 +2902,7 @@ public final class AcGetActionStatusValuesAd {
          * ID des Kommandos (bzw. Programms), mit dem die "Action" abgearbeitet werden soll.Hinweis : Der Wert "-1" steht für "beliebiges Kommando", bedeutet also quasi : "gilt für alle Kommandos".
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue command_id = 10005;</code>
+         * <code>.dstore.values.IntegerValue command_id = 10005;</code>
          */
         public boolean hasCommandId() {
           return commandIdBuilder_ != null || commandId_ != null;
@@ -2912,7 +2912,7 @@ public final class AcGetActionStatusValuesAd {
          * ID des Kommandos (bzw. Programms), mit dem die "Action" abgearbeitet werden soll.Hinweis : Der Wert "-1" steht für "beliebiges Kommando", bedeutet also quasi : "gilt für alle Kommandos".
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue command_id = 10005;</code>
+         * <code>.dstore.values.IntegerValue command_id = 10005;</code>
          */
         public io.dstore.values.IntegerValue getCommandId() {
           if (commandIdBuilder_ == null) {
@@ -2926,7 +2926,7 @@ public final class AcGetActionStatusValuesAd {
          * ID des Kommandos (bzw. Programms), mit dem die "Action" abgearbeitet werden soll.Hinweis : Der Wert "-1" steht für "beliebiges Kommando", bedeutet also quasi : "gilt für alle Kommandos".
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue command_id = 10005;</code>
+         * <code>.dstore.values.IntegerValue command_id = 10005;</code>
          */
         public Builder setCommandId(io.dstore.values.IntegerValue value) {
           if (commandIdBuilder_ == null) {
@@ -2946,7 +2946,7 @@ public final class AcGetActionStatusValuesAd {
          * ID des Kommandos (bzw. Programms), mit dem die "Action" abgearbeitet werden soll.Hinweis : Der Wert "-1" steht für "beliebiges Kommando", bedeutet also quasi : "gilt für alle Kommandos".
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue command_id = 10005;</code>
+         * <code>.dstore.values.IntegerValue command_id = 10005;</code>
          */
         public Builder setCommandId(
             io.dstore.values.IntegerValue.Builder builderForValue) {
@@ -2964,7 +2964,7 @@ public final class AcGetActionStatusValuesAd {
          * ID des Kommandos (bzw. Programms), mit dem die "Action" abgearbeitet werden soll.Hinweis : Der Wert "-1" steht für "beliebiges Kommando", bedeutet also quasi : "gilt für alle Kommandos".
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue command_id = 10005;</code>
+         * <code>.dstore.values.IntegerValue command_id = 10005;</code>
          */
         public Builder mergeCommandId(io.dstore.values.IntegerValue value) {
           if (commandIdBuilder_ == null) {
@@ -2986,7 +2986,7 @@ public final class AcGetActionStatusValuesAd {
          * ID des Kommandos (bzw. Programms), mit dem die "Action" abgearbeitet werden soll.Hinweis : Der Wert "-1" steht für "beliebiges Kommando", bedeutet also quasi : "gilt für alle Kommandos".
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue command_id = 10005;</code>
+         * <code>.dstore.values.IntegerValue command_id = 10005;</code>
          */
         public Builder clearCommandId() {
           if (commandIdBuilder_ == null) {
@@ -3004,7 +3004,7 @@ public final class AcGetActionStatusValuesAd {
          * ID des Kommandos (bzw. Programms), mit dem die "Action" abgearbeitet werden soll.Hinweis : Der Wert "-1" steht für "beliebiges Kommando", bedeutet also quasi : "gilt für alle Kommandos".
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue command_id = 10005;</code>
+         * <code>.dstore.values.IntegerValue command_id = 10005;</code>
          */
         public io.dstore.values.IntegerValue.Builder getCommandIdBuilder() {
           
@@ -3016,7 +3016,7 @@ public final class AcGetActionStatusValuesAd {
          * ID des Kommandos (bzw. Programms), mit dem die "Action" abgearbeitet werden soll.Hinweis : Der Wert "-1" steht für "beliebiges Kommando", bedeutet also quasi : "gilt für alle Kommandos".
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue command_id = 10005;</code>
+         * <code>.dstore.values.IntegerValue command_id = 10005;</code>
          */
         public io.dstore.values.IntegerValueOrBuilder getCommandIdOrBuilder() {
           if (commandIdBuilder_ != null) {
@@ -3031,7 +3031,7 @@ public final class AcGetActionStatusValuesAd {
          * ID des Kommandos (bzw. Programms), mit dem die "Action" abgearbeitet werden soll.Hinweis : Der Wert "-1" steht für "beliebiges Kommando", bedeutet also quasi : "gilt für alle Kommandos".
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue command_id = 10005;</code>
+         * <code>.dstore.values.IntegerValue command_id = 10005;</code>
          */
         private com.google.protobuf.SingleFieldBuilderV3<
             io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> 
@@ -3055,7 +3055,7 @@ public final class AcGetActionStatusValuesAd {
          * Bestimmt die Reihenfolge von "Status" innerhalb aller Status der Kategorie "StatusCategoryID"
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue sort_no = 10006;</code>
+         * <code>.dstore.values.IntegerValue sort_no = 10006;</code>
          */
         public boolean hasSortNo() {
           return sortNoBuilder_ != null || sortNo_ != null;
@@ -3065,7 +3065,7 @@ public final class AcGetActionStatusValuesAd {
          * Bestimmt die Reihenfolge von "Status" innerhalb aller Status der Kategorie "StatusCategoryID"
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue sort_no = 10006;</code>
+         * <code>.dstore.values.IntegerValue sort_no = 10006;</code>
          */
         public io.dstore.values.IntegerValue getSortNo() {
           if (sortNoBuilder_ == null) {
@@ -3079,7 +3079,7 @@ public final class AcGetActionStatusValuesAd {
          * Bestimmt die Reihenfolge von "Status" innerhalb aller Status der Kategorie "StatusCategoryID"
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue sort_no = 10006;</code>
+         * <code>.dstore.values.IntegerValue sort_no = 10006;</code>
          */
         public Builder setSortNo(io.dstore.values.IntegerValue value) {
           if (sortNoBuilder_ == null) {
@@ -3099,7 +3099,7 @@ public final class AcGetActionStatusValuesAd {
          * Bestimmt die Reihenfolge von "Status" innerhalb aller Status der Kategorie "StatusCategoryID"
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue sort_no = 10006;</code>
+         * <code>.dstore.values.IntegerValue sort_no = 10006;</code>
          */
         public Builder setSortNo(
             io.dstore.values.IntegerValue.Builder builderForValue) {
@@ -3117,7 +3117,7 @@ public final class AcGetActionStatusValuesAd {
          * Bestimmt die Reihenfolge von "Status" innerhalb aller Status der Kategorie "StatusCategoryID"
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue sort_no = 10006;</code>
+         * <code>.dstore.values.IntegerValue sort_no = 10006;</code>
          */
         public Builder mergeSortNo(io.dstore.values.IntegerValue value) {
           if (sortNoBuilder_ == null) {
@@ -3139,7 +3139,7 @@ public final class AcGetActionStatusValuesAd {
          * Bestimmt die Reihenfolge von "Status" innerhalb aller Status der Kategorie "StatusCategoryID"
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue sort_no = 10006;</code>
+         * <code>.dstore.values.IntegerValue sort_no = 10006;</code>
          */
         public Builder clearSortNo() {
           if (sortNoBuilder_ == null) {
@@ -3157,7 +3157,7 @@ public final class AcGetActionStatusValuesAd {
          * Bestimmt die Reihenfolge von "Status" innerhalb aller Status der Kategorie "StatusCategoryID"
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue sort_no = 10006;</code>
+         * <code>.dstore.values.IntegerValue sort_no = 10006;</code>
          */
         public io.dstore.values.IntegerValue.Builder getSortNoBuilder() {
           
@@ -3169,7 +3169,7 @@ public final class AcGetActionStatusValuesAd {
          * Bestimmt die Reihenfolge von "Status" innerhalb aller Status der Kategorie "StatusCategoryID"
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue sort_no = 10006;</code>
+         * <code>.dstore.values.IntegerValue sort_no = 10006;</code>
          */
         public io.dstore.values.IntegerValueOrBuilder getSortNoOrBuilder() {
           if (sortNoBuilder_ != null) {
@@ -3184,7 +3184,7 @@ public final class AcGetActionStatusValuesAd {
          * Bestimmt die Reihenfolge von "Status" innerhalb aller Status der Kategorie "StatusCategoryID"
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue sort_no = 10006;</code>
+         * <code>.dstore.values.IntegerValue sort_no = 10006;</code>
          */
         private com.google.protobuf.SingleFieldBuilderV3<
             io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> 
@@ -3208,7 +3208,7 @@ public final class AcGetActionStatusValuesAd {
          * Ausführliche Beschreibung des "Status"
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue detailed_description = 10007;</code>
+         * <code>.dstore.values.StringValue detailed_description = 10007;</code>
          */
         public boolean hasDetailedDescription() {
           return detailedDescriptionBuilder_ != null || detailedDescription_ != null;
@@ -3218,7 +3218,7 @@ public final class AcGetActionStatusValuesAd {
          * Ausführliche Beschreibung des "Status"
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue detailed_description = 10007;</code>
+         * <code>.dstore.values.StringValue detailed_description = 10007;</code>
          */
         public io.dstore.values.StringValue getDetailedDescription() {
           if (detailedDescriptionBuilder_ == null) {
@@ -3232,7 +3232,7 @@ public final class AcGetActionStatusValuesAd {
          * Ausführliche Beschreibung des "Status"
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue detailed_description = 10007;</code>
+         * <code>.dstore.values.StringValue detailed_description = 10007;</code>
          */
         public Builder setDetailedDescription(io.dstore.values.StringValue value) {
           if (detailedDescriptionBuilder_ == null) {
@@ -3252,7 +3252,7 @@ public final class AcGetActionStatusValuesAd {
          * Ausführliche Beschreibung des "Status"
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue detailed_description = 10007;</code>
+         * <code>.dstore.values.StringValue detailed_description = 10007;</code>
          */
         public Builder setDetailedDescription(
             io.dstore.values.StringValue.Builder builderForValue) {
@@ -3270,7 +3270,7 @@ public final class AcGetActionStatusValuesAd {
          * Ausführliche Beschreibung des "Status"
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue detailed_description = 10007;</code>
+         * <code>.dstore.values.StringValue detailed_description = 10007;</code>
          */
         public Builder mergeDetailedDescription(io.dstore.values.StringValue value) {
           if (detailedDescriptionBuilder_ == null) {
@@ -3292,7 +3292,7 @@ public final class AcGetActionStatusValuesAd {
          * Ausführliche Beschreibung des "Status"
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue detailed_description = 10007;</code>
+         * <code>.dstore.values.StringValue detailed_description = 10007;</code>
          */
         public Builder clearDetailedDescription() {
           if (detailedDescriptionBuilder_ == null) {
@@ -3310,7 +3310,7 @@ public final class AcGetActionStatusValuesAd {
          * Ausführliche Beschreibung des "Status"
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue detailed_description = 10007;</code>
+         * <code>.dstore.values.StringValue detailed_description = 10007;</code>
          */
         public io.dstore.values.StringValue.Builder getDetailedDescriptionBuilder() {
           
@@ -3322,7 +3322,7 @@ public final class AcGetActionStatusValuesAd {
          * Ausführliche Beschreibung des "Status"
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue detailed_description = 10007;</code>
+         * <code>.dstore.values.StringValue detailed_description = 10007;</code>
          */
         public io.dstore.values.StringValueOrBuilder getDetailedDescriptionOrBuilder() {
           if (detailedDescriptionBuilder_ != null) {
@@ -3337,7 +3337,7 @@ public final class AcGetActionStatusValuesAd {
          * Ausführliche Beschreibung des "Status"
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue detailed_description = 10007;</code>
+         * <code>.dstore.values.StringValue detailed_description = 10007;</code>
          */
         private com.google.protobuf.SingleFieldBuilderV3<
             io.dstore.values.StringValue, io.dstore.values.StringValue.Builder, io.dstore.values.StringValueOrBuilder> 
@@ -3361,7 +3361,7 @@ public final class AcGetActionStatusValuesAd {
          * ID einer Status-Kategorie, der "Status" zugeordnet ist
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue status_category_id = 10008;</code>
+         * <code>.dstore.values.IntegerValue status_category_id = 10008;</code>
          */
         public boolean hasStatusCategoryId() {
           return statusCategoryIdBuilder_ != null || statusCategoryId_ != null;
@@ -3371,7 +3371,7 @@ public final class AcGetActionStatusValuesAd {
          * ID einer Status-Kategorie, der "Status" zugeordnet ist
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue status_category_id = 10008;</code>
+         * <code>.dstore.values.IntegerValue status_category_id = 10008;</code>
          */
         public io.dstore.values.IntegerValue getStatusCategoryId() {
           if (statusCategoryIdBuilder_ == null) {
@@ -3385,7 +3385,7 @@ public final class AcGetActionStatusValuesAd {
          * ID einer Status-Kategorie, der "Status" zugeordnet ist
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue status_category_id = 10008;</code>
+         * <code>.dstore.values.IntegerValue status_category_id = 10008;</code>
          */
         public Builder setStatusCategoryId(io.dstore.values.IntegerValue value) {
           if (statusCategoryIdBuilder_ == null) {
@@ -3405,7 +3405,7 @@ public final class AcGetActionStatusValuesAd {
          * ID einer Status-Kategorie, der "Status" zugeordnet ist
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue status_category_id = 10008;</code>
+         * <code>.dstore.values.IntegerValue status_category_id = 10008;</code>
          */
         public Builder setStatusCategoryId(
             io.dstore.values.IntegerValue.Builder builderForValue) {
@@ -3423,7 +3423,7 @@ public final class AcGetActionStatusValuesAd {
          * ID einer Status-Kategorie, der "Status" zugeordnet ist
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue status_category_id = 10008;</code>
+         * <code>.dstore.values.IntegerValue status_category_id = 10008;</code>
          */
         public Builder mergeStatusCategoryId(io.dstore.values.IntegerValue value) {
           if (statusCategoryIdBuilder_ == null) {
@@ -3445,7 +3445,7 @@ public final class AcGetActionStatusValuesAd {
          * ID einer Status-Kategorie, der "Status" zugeordnet ist
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue status_category_id = 10008;</code>
+         * <code>.dstore.values.IntegerValue status_category_id = 10008;</code>
          */
         public Builder clearStatusCategoryId() {
           if (statusCategoryIdBuilder_ == null) {
@@ -3463,7 +3463,7 @@ public final class AcGetActionStatusValuesAd {
          * ID einer Status-Kategorie, der "Status" zugeordnet ist
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue status_category_id = 10008;</code>
+         * <code>.dstore.values.IntegerValue status_category_id = 10008;</code>
          */
         public io.dstore.values.IntegerValue.Builder getStatusCategoryIdBuilder() {
           
@@ -3475,7 +3475,7 @@ public final class AcGetActionStatusValuesAd {
          * ID einer Status-Kategorie, der "Status" zugeordnet ist
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue status_category_id = 10008;</code>
+         * <code>.dstore.values.IntegerValue status_category_id = 10008;</code>
          */
         public io.dstore.values.IntegerValueOrBuilder getStatusCategoryIdOrBuilder() {
           if (statusCategoryIdBuilder_ != null) {
@@ -3490,7 +3490,7 @@ public final class AcGetActionStatusValuesAd {
          * ID einer Status-Kategorie, der "Status" zugeordnet ist
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue status_category_id = 10008;</code>
+         * <code>.dstore.values.IntegerValue status_category_id = 10008;</code>
          */
         private com.google.protobuf.SingleFieldBuilderV3<
             io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> 
@@ -3750,7 +3750,7 @@ public final class AcGetActionStatusValuesAd {
         return memoizedHashCode;
       }
       int hash = 41;
-      hash = (19 * hash) + getDescriptorForType().hashCode();
+      hash = (19 * hash) + getDescriptor().hashCode();
       if (getMetaInformationCount() > 0) {
         hash = (37 * hash) + META_INFORMATION_FIELD_NUMBER;
         hash = (53 * hash) + getMetaInformationList().hashCode();

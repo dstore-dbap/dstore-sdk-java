@@ -19,56 +19,56 @@ public final class PmPostleitzahlenZumOrtPu {
       com.google.protobuf.MessageOrBuilder {
 
     /**
-     * <code>optional .dstore.values.StringValue ort = 1;</code>
+     * <code>.dstore.values.StringValue ort = 1;</code>
      */
     boolean hasOrt();
     /**
-     * <code>optional .dstore.values.StringValue ort = 1;</code>
+     * <code>.dstore.values.StringValue ort = 1;</code>
      */
     io.dstore.values.StringValue getOrt();
     /**
-     * <code>optional .dstore.values.StringValue ort = 1;</code>
+     * <code>.dstore.values.StringValue ort = 1;</code>
      */
     io.dstore.values.StringValueOrBuilder getOrtOrBuilder();
 
     /**
-     * <code>optional bool ort_null = 1001;</code>
+     * <code>bool ort_null = 1001;</code>
      */
     boolean getOrtNull();
 
     /**
-     * <code>optional .dstore.values.StringValue p_l_z = 2;</code>
+     * <code>.dstore.values.StringValue p_l_z = 2;</code>
      */
     boolean hasPLZ();
     /**
-     * <code>optional .dstore.values.StringValue p_l_z = 2;</code>
+     * <code>.dstore.values.StringValue p_l_z = 2;</code>
      */
     io.dstore.values.StringValue getPLZ();
     /**
-     * <code>optional .dstore.values.StringValue p_l_z = 2;</code>
+     * <code>.dstore.values.StringValue p_l_z = 2;</code>
      */
     io.dstore.values.StringValueOrBuilder getPLZOrBuilder();
 
     /**
-     * <code>optional bool p_l_z_null = 1002;</code>
+     * <code>bool p_l_z_null = 1002;</code>
      */
     boolean getPLZNull();
 
     /**
-     * <code>optional .dstore.values.BooleanValue return_result = 3;</code>
+     * <code>.dstore.values.BooleanValue return_result = 3;</code>
      */
     boolean hasReturnResult();
     /**
-     * <code>optional .dstore.values.BooleanValue return_result = 3;</code>
+     * <code>.dstore.values.BooleanValue return_result = 3;</code>
      */
     io.dstore.values.BooleanValue getReturnResult();
     /**
-     * <code>optional .dstore.values.BooleanValue return_result = 3;</code>
+     * <code>.dstore.values.BooleanValue return_result = 3;</code>
      */
     io.dstore.values.BooleanValueOrBuilder getReturnResultOrBuilder();
 
     /**
-     * <code>optional bool return_result_null = 1003;</code>
+     * <code>bool return_result_null = 1003;</code>
      */
     boolean getReturnResultNull();
   }
@@ -194,19 +194,19 @@ public final class PmPostleitzahlenZumOrtPu {
     public static final int ORT_FIELD_NUMBER = 1;
     private io.dstore.values.StringValue ort_;
     /**
-     * <code>optional .dstore.values.StringValue ort = 1;</code>
+     * <code>.dstore.values.StringValue ort = 1;</code>
      */
     public boolean hasOrt() {
       return ort_ != null;
     }
     /**
-     * <code>optional .dstore.values.StringValue ort = 1;</code>
+     * <code>.dstore.values.StringValue ort = 1;</code>
      */
     public io.dstore.values.StringValue getOrt() {
       return ort_ == null ? io.dstore.values.StringValue.getDefaultInstance() : ort_;
     }
     /**
-     * <code>optional .dstore.values.StringValue ort = 1;</code>
+     * <code>.dstore.values.StringValue ort = 1;</code>
      */
     public io.dstore.values.StringValueOrBuilder getOrtOrBuilder() {
       return getOrt();
@@ -215,7 +215,7 @@ public final class PmPostleitzahlenZumOrtPu {
     public static final int ORT_NULL_FIELD_NUMBER = 1001;
     private boolean ortNull_;
     /**
-     * <code>optional bool ort_null = 1001;</code>
+     * <code>bool ort_null = 1001;</code>
      */
     public boolean getOrtNull() {
       return ortNull_;
@@ -224,19 +224,19 @@ public final class PmPostleitzahlenZumOrtPu {
     public static final int P_L_Z_FIELD_NUMBER = 2;
     private io.dstore.values.StringValue pLZ_;
     /**
-     * <code>optional .dstore.values.StringValue p_l_z = 2;</code>
+     * <code>.dstore.values.StringValue p_l_z = 2;</code>
      */
     public boolean hasPLZ() {
       return pLZ_ != null;
     }
     /**
-     * <code>optional .dstore.values.StringValue p_l_z = 2;</code>
+     * <code>.dstore.values.StringValue p_l_z = 2;</code>
      */
     public io.dstore.values.StringValue getPLZ() {
       return pLZ_ == null ? io.dstore.values.StringValue.getDefaultInstance() : pLZ_;
     }
     /**
-     * <code>optional .dstore.values.StringValue p_l_z = 2;</code>
+     * <code>.dstore.values.StringValue p_l_z = 2;</code>
      */
     public io.dstore.values.StringValueOrBuilder getPLZOrBuilder() {
       return getPLZ();
@@ -245,7 +245,7 @@ public final class PmPostleitzahlenZumOrtPu {
     public static final int P_L_Z_NULL_FIELD_NUMBER = 1002;
     private boolean pLZNull_;
     /**
-     * <code>optional bool p_l_z_null = 1002;</code>
+     * <code>bool p_l_z_null = 1002;</code>
      */
     public boolean getPLZNull() {
       return pLZNull_;
@@ -254,19 +254,19 @@ public final class PmPostleitzahlenZumOrtPu {
     public static final int RETURN_RESULT_FIELD_NUMBER = 3;
     private io.dstore.values.BooleanValue returnResult_;
     /**
-     * <code>optional .dstore.values.BooleanValue return_result = 3;</code>
+     * <code>.dstore.values.BooleanValue return_result = 3;</code>
      */
     public boolean hasReturnResult() {
       return returnResult_ != null;
     }
     /**
-     * <code>optional .dstore.values.BooleanValue return_result = 3;</code>
+     * <code>.dstore.values.BooleanValue return_result = 3;</code>
      */
     public io.dstore.values.BooleanValue getReturnResult() {
       return returnResult_ == null ? io.dstore.values.BooleanValue.getDefaultInstance() : returnResult_;
     }
     /**
-     * <code>optional .dstore.values.BooleanValue return_result = 3;</code>
+     * <code>.dstore.values.BooleanValue return_result = 3;</code>
      */
     public io.dstore.values.BooleanValueOrBuilder getReturnResultOrBuilder() {
       return getReturnResult();
@@ -275,7 +275,7 @@ public final class PmPostleitzahlenZumOrtPu {
     public static final int RETURN_RESULT_NULL_FIELD_NUMBER = 1003;
     private boolean returnResultNull_;
     /**
-     * <code>optional bool return_result_null = 1003;</code>
+     * <code>bool return_result_null = 1003;</code>
      */
     public boolean getReturnResultNull() {
       return returnResultNull_;
@@ -388,7 +388,7 @@ public final class PmPostleitzahlenZumOrtPu {
         return memoizedHashCode;
       }
       int hash = 41;
-      hash = (19 * hash) + getDescriptorForType().hashCode();
+      hash = (19 * hash) + getDescriptor().hashCode();
       if (hasOrt()) {
         hash = (37 * hash) + ORT_FIELD_NUMBER;
         hash = (53 * hash) + getOrt().hashCode();
@@ -681,13 +681,13 @@ public final class PmPostleitzahlenZumOrtPu {
       private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.values.StringValue, io.dstore.values.StringValue.Builder, io.dstore.values.StringValueOrBuilder> ortBuilder_;
       /**
-       * <code>optional .dstore.values.StringValue ort = 1;</code>
+       * <code>.dstore.values.StringValue ort = 1;</code>
        */
       public boolean hasOrt() {
         return ortBuilder_ != null || ort_ != null;
       }
       /**
-       * <code>optional .dstore.values.StringValue ort = 1;</code>
+       * <code>.dstore.values.StringValue ort = 1;</code>
        */
       public io.dstore.values.StringValue getOrt() {
         if (ortBuilder_ == null) {
@@ -697,7 +697,7 @@ public final class PmPostleitzahlenZumOrtPu {
         }
       }
       /**
-       * <code>optional .dstore.values.StringValue ort = 1;</code>
+       * <code>.dstore.values.StringValue ort = 1;</code>
        */
       public Builder setOrt(io.dstore.values.StringValue value) {
         if (ortBuilder_ == null) {
@@ -713,7 +713,7 @@ public final class PmPostleitzahlenZumOrtPu {
         return this;
       }
       /**
-       * <code>optional .dstore.values.StringValue ort = 1;</code>
+       * <code>.dstore.values.StringValue ort = 1;</code>
        */
       public Builder setOrt(
           io.dstore.values.StringValue.Builder builderForValue) {
@@ -727,7 +727,7 @@ public final class PmPostleitzahlenZumOrtPu {
         return this;
       }
       /**
-       * <code>optional .dstore.values.StringValue ort = 1;</code>
+       * <code>.dstore.values.StringValue ort = 1;</code>
        */
       public Builder mergeOrt(io.dstore.values.StringValue value) {
         if (ortBuilder_ == null) {
@@ -745,7 +745,7 @@ public final class PmPostleitzahlenZumOrtPu {
         return this;
       }
       /**
-       * <code>optional .dstore.values.StringValue ort = 1;</code>
+       * <code>.dstore.values.StringValue ort = 1;</code>
        */
       public Builder clearOrt() {
         if (ortBuilder_ == null) {
@@ -759,7 +759,7 @@ public final class PmPostleitzahlenZumOrtPu {
         return this;
       }
       /**
-       * <code>optional .dstore.values.StringValue ort = 1;</code>
+       * <code>.dstore.values.StringValue ort = 1;</code>
        */
       public io.dstore.values.StringValue.Builder getOrtBuilder() {
         
@@ -767,7 +767,7 @@ public final class PmPostleitzahlenZumOrtPu {
         return getOrtFieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .dstore.values.StringValue ort = 1;</code>
+       * <code>.dstore.values.StringValue ort = 1;</code>
        */
       public io.dstore.values.StringValueOrBuilder getOrtOrBuilder() {
         if (ortBuilder_ != null) {
@@ -778,7 +778,7 @@ public final class PmPostleitzahlenZumOrtPu {
         }
       }
       /**
-       * <code>optional .dstore.values.StringValue ort = 1;</code>
+       * <code>.dstore.values.StringValue ort = 1;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.values.StringValue, io.dstore.values.StringValue.Builder, io.dstore.values.StringValueOrBuilder> 
@@ -796,13 +796,13 @@ public final class PmPostleitzahlenZumOrtPu {
 
       private boolean ortNull_ ;
       /**
-       * <code>optional bool ort_null = 1001;</code>
+       * <code>bool ort_null = 1001;</code>
        */
       public boolean getOrtNull() {
         return ortNull_;
       }
       /**
-       * <code>optional bool ort_null = 1001;</code>
+       * <code>bool ort_null = 1001;</code>
        */
       public Builder setOrtNull(boolean value) {
         
@@ -811,7 +811,7 @@ public final class PmPostleitzahlenZumOrtPu {
         return this;
       }
       /**
-       * <code>optional bool ort_null = 1001;</code>
+       * <code>bool ort_null = 1001;</code>
        */
       public Builder clearOrtNull() {
         
@@ -824,13 +824,13 @@ public final class PmPostleitzahlenZumOrtPu {
       private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.values.StringValue, io.dstore.values.StringValue.Builder, io.dstore.values.StringValueOrBuilder> pLZBuilder_;
       /**
-       * <code>optional .dstore.values.StringValue p_l_z = 2;</code>
+       * <code>.dstore.values.StringValue p_l_z = 2;</code>
        */
       public boolean hasPLZ() {
         return pLZBuilder_ != null || pLZ_ != null;
       }
       /**
-       * <code>optional .dstore.values.StringValue p_l_z = 2;</code>
+       * <code>.dstore.values.StringValue p_l_z = 2;</code>
        */
       public io.dstore.values.StringValue getPLZ() {
         if (pLZBuilder_ == null) {
@@ -840,7 +840,7 @@ public final class PmPostleitzahlenZumOrtPu {
         }
       }
       /**
-       * <code>optional .dstore.values.StringValue p_l_z = 2;</code>
+       * <code>.dstore.values.StringValue p_l_z = 2;</code>
        */
       public Builder setPLZ(io.dstore.values.StringValue value) {
         if (pLZBuilder_ == null) {
@@ -856,7 +856,7 @@ public final class PmPostleitzahlenZumOrtPu {
         return this;
       }
       /**
-       * <code>optional .dstore.values.StringValue p_l_z = 2;</code>
+       * <code>.dstore.values.StringValue p_l_z = 2;</code>
        */
       public Builder setPLZ(
           io.dstore.values.StringValue.Builder builderForValue) {
@@ -870,7 +870,7 @@ public final class PmPostleitzahlenZumOrtPu {
         return this;
       }
       /**
-       * <code>optional .dstore.values.StringValue p_l_z = 2;</code>
+       * <code>.dstore.values.StringValue p_l_z = 2;</code>
        */
       public Builder mergePLZ(io.dstore.values.StringValue value) {
         if (pLZBuilder_ == null) {
@@ -888,7 +888,7 @@ public final class PmPostleitzahlenZumOrtPu {
         return this;
       }
       /**
-       * <code>optional .dstore.values.StringValue p_l_z = 2;</code>
+       * <code>.dstore.values.StringValue p_l_z = 2;</code>
        */
       public Builder clearPLZ() {
         if (pLZBuilder_ == null) {
@@ -902,7 +902,7 @@ public final class PmPostleitzahlenZumOrtPu {
         return this;
       }
       /**
-       * <code>optional .dstore.values.StringValue p_l_z = 2;</code>
+       * <code>.dstore.values.StringValue p_l_z = 2;</code>
        */
       public io.dstore.values.StringValue.Builder getPLZBuilder() {
         
@@ -910,7 +910,7 @@ public final class PmPostleitzahlenZumOrtPu {
         return getPLZFieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .dstore.values.StringValue p_l_z = 2;</code>
+       * <code>.dstore.values.StringValue p_l_z = 2;</code>
        */
       public io.dstore.values.StringValueOrBuilder getPLZOrBuilder() {
         if (pLZBuilder_ != null) {
@@ -921,7 +921,7 @@ public final class PmPostleitzahlenZumOrtPu {
         }
       }
       /**
-       * <code>optional .dstore.values.StringValue p_l_z = 2;</code>
+       * <code>.dstore.values.StringValue p_l_z = 2;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.values.StringValue, io.dstore.values.StringValue.Builder, io.dstore.values.StringValueOrBuilder> 
@@ -939,13 +939,13 @@ public final class PmPostleitzahlenZumOrtPu {
 
       private boolean pLZNull_ ;
       /**
-       * <code>optional bool p_l_z_null = 1002;</code>
+       * <code>bool p_l_z_null = 1002;</code>
        */
       public boolean getPLZNull() {
         return pLZNull_;
       }
       /**
-       * <code>optional bool p_l_z_null = 1002;</code>
+       * <code>bool p_l_z_null = 1002;</code>
        */
       public Builder setPLZNull(boolean value) {
         
@@ -954,7 +954,7 @@ public final class PmPostleitzahlenZumOrtPu {
         return this;
       }
       /**
-       * <code>optional bool p_l_z_null = 1002;</code>
+       * <code>bool p_l_z_null = 1002;</code>
        */
       public Builder clearPLZNull() {
         
@@ -967,13 +967,13 @@ public final class PmPostleitzahlenZumOrtPu {
       private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.values.BooleanValue, io.dstore.values.BooleanValue.Builder, io.dstore.values.BooleanValueOrBuilder> returnResultBuilder_;
       /**
-       * <code>optional .dstore.values.BooleanValue return_result = 3;</code>
+       * <code>.dstore.values.BooleanValue return_result = 3;</code>
        */
       public boolean hasReturnResult() {
         return returnResultBuilder_ != null || returnResult_ != null;
       }
       /**
-       * <code>optional .dstore.values.BooleanValue return_result = 3;</code>
+       * <code>.dstore.values.BooleanValue return_result = 3;</code>
        */
       public io.dstore.values.BooleanValue getReturnResult() {
         if (returnResultBuilder_ == null) {
@@ -983,7 +983,7 @@ public final class PmPostleitzahlenZumOrtPu {
         }
       }
       /**
-       * <code>optional .dstore.values.BooleanValue return_result = 3;</code>
+       * <code>.dstore.values.BooleanValue return_result = 3;</code>
        */
       public Builder setReturnResult(io.dstore.values.BooleanValue value) {
         if (returnResultBuilder_ == null) {
@@ -999,7 +999,7 @@ public final class PmPostleitzahlenZumOrtPu {
         return this;
       }
       /**
-       * <code>optional .dstore.values.BooleanValue return_result = 3;</code>
+       * <code>.dstore.values.BooleanValue return_result = 3;</code>
        */
       public Builder setReturnResult(
           io.dstore.values.BooleanValue.Builder builderForValue) {
@@ -1013,7 +1013,7 @@ public final class PmPostleitzahlenZumOrtPu {
         return this;
       }
       /**
-       * <code>optional .dstore.values.BooleanValue return_result = 3;</code>
+       * <code>.dstore.values.BooleanValue return_result = 3;</code>
        */
       public Builder mergeReturnResult(io.dstore.values.BooleanValue value) {
         if (returnResultBuilder_ == null) {
@@ -1031,7 +1031,7 @@ public final class PmPostleitzahlenZumOrtPu {
         return this;
       }
       /**
-       * <code>optional .dstore.values.BooleanValue return_result = 3;</code>
+       * <code>.dstore.values.BooleanValue return_result = 3;</code>
        */
       public Builder clearReturnResult() {
         if (returnResultBuilder_ == null) {
@@ -1045,7 +1045,7 @@ public final class PmPostleitzahlenZumOrtPu {
         return this;
       }
       /**
-       * <code>optional .dstore.values.BooleanValue return_result = 3;</code>
+       * <code>.dstore.values.BooleanValue return_result = 3;</code>
        */
       public io.dstore.values.BooleanValue.Builder getReturnResultBuilder() {
         
@@ -1053,7 +1053,7 @@ public final class PmPostleitzahlenZumOrtPu {
         return getReturnResultFieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .dstore.values.BooleanValue return_result = 3;</code>
+       * <code>.dstore.values.BooleanValue return_result = 3;</code>
        */
       public io.dstore.values.BooleanValueOrBuilder getReturnResultOrBuilder() {
         if (returnResultBuilder_ != null) {
@@ -1064,7 +1064,7 @@ public final class PmPostleitzahlenZumOrtPu {
         }
       }
       /**
-       * <code>optional .dstore.values.BooleanValue return_result = 3;</code>
+       * <code>.dstore.values.BooleanValue return_result = 3;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.values.BooleanValue, io.dstore.values.BooleanValue.Builder, io.dstore.values.BooleanValueOrBuilder> 
@@ -1082,13 +1082,13 @@ public final class PmPostleitzahlenZumOrtPu {
 
       private boolean returnResultNull_ ;
       /**
-       * <code>optional bool return_result_null = 1003;</code>
+       * <code>bool return_result_null = 1003;</code>
        */
       public boolean getReturnResultNull() {
         return returnResultNull_;
       }
       /**
-       * <code>optional bool return_result_null = 1003;</code>
+       * <code>bool return_result_null = 1003;</code>
        */
       public Builder setReturnResultNull(boolean value) {
         
@@ -1097,7 +1097,7 @@ public final class PmPostleitzahlenZumOrtPu {
         return this;
       }
       /**
-       * <code>optional bool return_result_null = 1003;</code>
+       * <code>bool return_result_null = 1003;</code>
        */
       public Builder clearReturnResultNull() {
         
@@ -1356,7 +1356,7 @@ public final class PmPostleitzahlenZumOrtPu {
         com.google.protobuf.MessageOrBuilder {
 
       /**
-       * <code>optional int32 row_id = 10000;</code>
+       * <code>int32 row_id = 10000;</code>
        */
       int getRowId();
 
@@ -1365,7 +1365,7 @@ public final class PmPostleitzahlenZumOrtPu {
        * Immer "&#64;Ort" (der Sinn dieser Rückgabespalte kann nicht mehr festgestellt werden)
        * </pre>
        *
-       * <code>optional .dstore.values.StringValue ort = 10001;</code>
+       * <code>.dstore.values.StringValue ort = 10001;</code>
        */
       boolean hasOrt();
       /**
@@ -1373,7 +1373,7 @@ public final class PmPostleitzahlenZumOrtPu {
        * Immer "&#64;Ort" (der Sinn dieser Rückgabespalte kann nicht mehr festgestellt werden)
        * </pre>
        *
-       * <code>optional .dstore.values.StringValue ort = 10001;</code>
+       * <code>.dstore.values.StringValue ort = 10001;</code>
        */
       io.dstore.values.StringValue getOrt();
       /**
@@ -1381,7 +1381,7 @@ public final class PmPostleitzahlenZumOrtPu {
        * Immer "&#64;Ort" (der Sinn dieser Rückgabespalte kann nicht mehr festgestellt werden)
        * </pre>
        *
-       * <code>optional .dstore.values.StringValue ort = 10001;</code>
+       * <code>.dstore.values.StringValue ort = 10001;</code>
        */
       io.dstore.values.StringValueOrBuilder getOrtOrBuilder();
 
@@ -1390,7 +1390,7 @@ public final class PmPostleitzahlenZumOrtPu {
        * Manche Orte besitzen eine Zusatz, um gleichnamige Orte auseinander halten zu können
        * </pre>
        *
-       * <code>optional .dstore.values.StringValue ort_zusatz = 10002;</code>
+       * <code>.dstore.values.StringValue ort_zusatz = 10002;</code>
        */
       boolean hasOrtZusatz();
       /**
@@ -1398,7 +1398,7 @@ public final class PmPostleitzahlenZumOrtPu {
        * Manche Orte besitzen eine Zusatz, um gleichnamige Orte auseinander halten zu können
        * </pre>
        *
-       * <code>optional .dstore.values.StringValue ort_zusatz = 10002;</code>
+       * <code>.dstore.values.StringValue ort_zusatz = 10002;</code>
        */
       io.dstore.values.StringValue getOrtZusatz();
       /**
@@ -1406,7 +1406,7 @@ public final class PmPostleitzahlenZumOrtPu {
        * Manche Orte besitzen eine Zusatz, um gleichnamige Orte auseinander halten zu können
        * </pre>
        *
-       * <code>optional .dstore.values.StringValue ort_zusatz = 10002;</code>
+       * <code>.dstore.values.StringValue ort_zusatz = 10002;</code>
        */
       io.dstore.values.StringValueOrBuilder getOrtZusatzOrBuilder();
 
@@ -1415,7 +1415,7 @@ public final class PmPostleitzahlenZumOrtPu {
        * Gültige Postleitzahl für den "Ort" bzw. der Teil, der allen gültigen Postleitzahlen des "Ort"es gemeinsam ist
        * </pre>
        *
-       * <code>optional .dstore.values.StringValue p_l_z = 10003;</code>
+       * <code>.dstore.values.StringValue p_l_z = 10003;</code>
        */
       boolean hasPLZ();
       /**
@@ -1423,7 +1423,7 @@ public final class PmPostleitzahlenZumOrtPu {
        * Gültige Postleitzahl für den "Ort" bzw. der Teil, der allen gültigen Postleitzahlen des "Ort"es gemeinsam ist
        * </pre>
        *
-       * <code>optional .dstore.values.StringValue p_l_z = 10003;</code>
+       * <code>.dstore.values.StringValue p_l_z = 10003;</code>
        */
       io.dstore.values.StringValue getPLZ();
       /**
@@ -1431,7 +1431,7 @@ public final class PmPostleitzahlenZumOrtPu {
        * Gültige Postleitzahl für den "Ort" bzw. der Teil, der allen gültigen Postleitzahlen des "Ort"es gemeinsam ist
        * </pre>
        *
-       * <code>optional .dstore.values.StringValue p_l_z = 10003;</code>
+       * <code>.dstore.values.StringValue p_l_z = 10003;</code>
        */
       io.dstore.values.StringValueOrBuilder getPLZOrBuilder();
     }
@@ -1545,7 +1545,7 @@ public final class PmPostleitzahlenZumOrtPu {
       public static final int ROW_ID_FIELD_NUMBER = 10000;
       private int rowId_;
       /**
-       * <code>optional int32 row_id = 10000;</code>
+       * <code>int32 row_id = 10000;</code>
        */
       public int getRowId() {
         return rowId_;
@@ -1558,7 +1558,7 @@ public final class PmPostleitzahlenZumOrtPu {
        * Immer "&#64;Ort" (der Sinn dieser Rückgabespalte kann nicht mehr festgestellt werden)
        * </pre>
        *
-       * <code>optional .dstore.values.StringValue ort = 10001;</code>
+       * <code>.dstore.values.StringValue ort = 10001;</code>
        */
       public boolean hasOrt() {
         return ort_ != null;
@@ -1568,7 +1568,7 @@ public final class PmPostleitzahlenZumOrtPu {
        * Immer "&#64;Ort" (der Sinn dieser Rückgabespalte kann nicht mehr festgestellt werden)
        * </pre>
        *
-       * <code>optional .dstore.values.StringValue ort = 10001;</code>
+       * <code>.dstore.values.StringValue ort = 10001;</code>
        */
       public io.dstore.values.StringValue getOrt() {
         return ort_ == null ? io.dstore.values.StringValue.getDefaultInstance() : ort_;
@@ -1578,7 +1578,7 @@ public final class PmPostleitzahlenZumOrtPu {
        * Immer "&#64;Ort" (der Sinn dieser Rückgabespalte kann nicht mehr festgestellt werden)
        * </pre>
        *
-       * <code>optional .dstore.values.StringValue ort = 10001;</code>
+       * <code>.dstore.values.StringValue ort = 10001;</code>
        */
       public io.dstore.values.StringValueOrBuilder getOrtOrBuilder() {
         return getOrt();
@@ -1591,7 +1591,7 @@ public final class PmPostleitzahlenZumOrtPu {
        * Manche Orte besitzen eine Zusatz, um gleichnamige Orte auseinander halten zu können
        * </pre>
        *
-       * <code>optional .dstore.values.StringValue ort_zusatz = 10002;</code>
+       * <code>.dstore.values.StringValue ort_zusatz = 10002;</code>
        */
       public boolean hasOrtZusatz() {
         return ortZusatz_ != null;
@@ -1601,7 +1601,7 @@ public final class PmPostleitzahlenZumOrtPu {
        * Manche Orte besitzen eine Zusatz, um gleichnamige Orte auseinander halten zu können
        * </pre>
        *
-       * <code>optional .dstore.values.StringValue ort_zusatz = 10002;</code>
+       * <code>.dstore.values.StringValue ort_zusatz = 10002;</code>
        */
       public io.dstore.values.StringValue getOrtZusatz() {
         return ortZusatz_ == null ? io.dstore.values.StringValue.getDefaultInstance() : ortZusatz_;
@@ -1611,7 +1611,7 @@ public final class PmPostleitzahlenZumOrtPu {
        * Manche Orte besitzen eine Zusatz, um gleichnamige Orte auseinander halten zu können
        * </pre>
        *
-       * <code>optional .dstore.values.StringValue ort_zusatz = 10002;</code>
+       * <code>.dstore.values.StringValue ort_zusatz = 10002;</code>
        */
       public io.dstore.values.StringValueOrBuilder getOrtZusatzOrBuilder() {
         return getOrtZusatz();
@@ -1624,7 +1624,7 @@ public final class PmPostleitzahlenZumOrtPu {
        * Gültige Postleitzahl für den "Ort" bzw. der Teil, der allen gültigen Postleitzahlen des "Ort"es gemeinsam ist
        * </pre>
        *
-       * <code>optional .dstore.values.StringValue p_l_z = 10003;</code>
+       * <code>.dstore.values.StringValue p_l_z = 10003;</code>
        */
       public boolean hasPLZ() {
         return pLZ_ != null;
@@ -1634,7 +1634,7 @@ public final class PmPostleitzahlenZumOrtPu {
        * Gültige Postleitzahl für den "Ort" bzw. der Teil, der allen gültigen Postleitzahlen des "Ort"es gemeinsam ist
        * </pre>
        *
-       * <code>optional .dstore.values.StringValue p_l_z = 10003;</code>
+       * <code>.dstore.values.StringValue p_l_z = 10003;</code>
        */
       public io.dstore.values.StringValue getPLZ() {
         return pLZ_ == null ? io.dstore.values.StringValue.getDefaultInstance() : pLZ_;
@@ -1644,7 +1644,7 @@ public final class PmPostleitzahlenZumOrtPu {
        * Gültige Postleitzahl für den "Ort" bzw. der Teil, der allen gültigen Postleitzahlen des "Ort"es gemeinsam ist
        * </pre>
        *
-       * <code>optional .dstore.values.StringValue p_l_z = 10003;</code>
+       * <code>.dstore.values.StringValue p_l_z = 10003;</code>
        */
       public io.dstore.values.StringValueOrBuilder getPLZOrBuilder() {
         return getPLZ();
@@ -1739,7 +1739,7 @@ public final class PmPostleitzahlenZumOrtPu {
           return memoizedHashCode;
         }
         int hash = 41;
-        hash = (19 * hash) + getDescriptorForType().hashCode();
+        hash = (19 * hash) + getDescriptor().hashCode();
         hash = (37 * hash) + ROW_ID_FIELD_NUMBER;
         hash = (53 * hash) + getRowId();
         if (hasOrt()) {
@@ -2011,13 +2011,13 @@ public final class PmPostleitzahlenZumOrtPu {
 
         private int rowId_ ;
         /**
-         * <code>optional int32 row_id = 10000;</code>
+         * <code>int32 row_id = 10000;</code>
          */
         public int getRowId() {
           return rowId_;
         }
         /**
-         * <code>optional int32 row_id = 10000;</code>
+         * <code>int32 row_id = 10000;</code>
          */
         public Builder setRowId(int value) {
           
@@ -2026,7 +2026,7 @@ public final class PmPostleitzahlenZumOrtPu {
           return this;
         }
         /**
-         * <code>optional int32 row_id = 10000;</code>
+         * <code>int32 row_id = 10000;</code>
          */
         public Builder clearRowId() {
           
@@ -2043,7 +2043,7 @@ public final class PmPostleitzahlenZumOrtPu {
          * Immer "&#64;Ort" (der Sinn dieser Rückgabespalte kann nicht mehr festgestellt werden)
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue ort = 10001;</code>
+         * <code>.dstore.values.StringValue ort = 10001;</code>
          */
         public boolean hasOrt() {
           return ortBuilder_ != null || ort_ != null;
@@ -2053,7 +2053,7 @@ public final class PmPostleitzahlenZumOrtPu {
          * Immer "&#64;Ort" (der Sinn dieser Rückgabespalte kann nicht mehr festgestellt werden)
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue ort = 10001;</code>
+         * <code>.dstore.values.StringValue ort = 10001;</code>
          */
         public io.dstore.values.StringValue getOrt() {
           if (ortBuilder_ == null) {
@@ -2067,7 +2067,7 @@ public final class PmPostleitzahlenZumOrtPu {
          * Immer "&#64;Ort" (der Sinn dieser Rückgabespalte kann nicht mehr festgestellt werden)
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue ort = 10001;</code>
+         * <code>.dstore.values.StringValue ort = 10001;</code>
          */
         public Builder setOrt(io.dstore.values.StringValue value) {
           if (ortBuilder_ == null) {
@@ -2087,7 +2087,7 @@ public final class PmPostleitzahlenZumOrtPu {
          * Immer "&#64;Ort" (der Sinn dieser Rückgabespalte kann nicht mehr festgestellt werden)
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue ort = 10001;</code>
+         * <code>.dstore.values.StringValue ort = 10001;</code>
          */
         public Builder setOrt(
             io.dstore.values.StringValue.Builder builderForValue) {
@@ -2105,7 +2105,7 @@ public final class PmPostleitzahlenZumOrtPu {
          * Immer "&#64;Ort" (der Sinn dieser Rückgabespalte kann nicht mehr festgestellt werden)
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue ort = 10001;</code>
+         * <code>.dstore.values.StringValue ort = 10001;</code>
          */
         public Builder mergeOrt(io.dstore.values.StringValue value) {
           if (ortBuilder_ == null) {
@@ -2127,7 +2127,7 @@ public final class PmPostleitzahlenZumOrtPu {
          * Immer "&#64;Ort" (der Sinn dieser Rückgabespalte kann nicht mehr festgestellt werden)
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue ort = 10001;</code>
+         * <code>.dstore.values.StringValue ort = 10001;</code>
          */
         public Builder clearOrt() {
           if (ortBuilder_ == null) {
@@ -2145,7 +2145,7 @@ public final class PmPostleitzahlenZumOrtPu {
          * Immer "&#64;Ort" (der Sinn dieser Rückgabespalte kann nicht mehr festgestellt werden)
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue ort = 10001;</code>
+         * <code>.dstore.values.StringValue ort = 10001;</code>
          */
         public io.dstore.values.StringValue.Builder getOrtBuilder() {
           
@@ -2157,7 +2157,7 @@ public final class PmPostleitzahlenZumOrtPu {
          * Immer "&#64;Ort" (der Sinn dieser Rückgabespalte kann nicht mehr festgestellt werden)
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue ort = 10001;</code>
+         * <code>.dstore.values.StringValue ort = 10001;</code>
          */
         public io.dstore.values.StringValueOrBuilder getOrtOrBuilder() {
           if (ortBuilder_ != null) {
@@ -2172,7 +2172,7 @@ public final class PmPostleitzahlenZumOrtPu {
          * Immer "&#64;Ort" (der Sinn dieser Rückgabespalte kann nicht mehr festgestellt werden)
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue ort = 10001;</code>
+         * <code>.dstore.values.StringValue ort = 10001;</code>
          */
         private com.google.protobuf.SingleFieldBuilderV3<
             io.dstore.values.StringValue, io.dstore.values.StringValue.Builder, io.dstore.values.StringValueOrBuilder> 
@@ -2196,7 +2196,7 @@ public final class PmPostleitzahlenZumOrtPu {
          * Manche Orte besitzen eine Zusatz, um gleichnamige Orte auseinander halten zu können
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue ort_zusatz = 10002;</code>
+         * <code>.dstore.values.StringValue ort_zusatz = 10002;</code>
          */
         public boolean hasOrtZusatz() {
           return ortZusatzBuilder_ != null || ortZusatz_ != null;
@@ -2206,7 +2206,7 @@ public final class PmPostleitzahlenZumOrtPu {
          * Manche Orte besitzen eine Zusatz, um gleichnamige Orte auseinander halten zu können
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue ort_zusatz = 10002;</code>
+         * <code>.dstore.values.StringValue ort_zusatz = 10002;</code>
          */
         public io.dstore.values.StringValue getOrtZusatz() {
           if (ortZusatzBuilder_ == null) {
@@ -2220,7 +2220,7 @@ public final class PmPostleitzahlenZumOrtPu {
          * Manche Orte besitzen eine Zusatz, um gleichnamige Orte auseinander halten zu können
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue ort_zusatz = 10002;</code>
+         * <code>.dstore.values.StringValue ort_zusatz = 10002;</code>
          */
         public Builder setOrtZusatz(io.dstore.values.StringValue value) {
           if (ortZusatzBuilder_ == null) {
@@ -2240,7 +2240,7 @@ public final class PmPostleitzahlenZumOrtPu {
          * Manche Orte besitzen eine Zusatz, um gleichnamige Orte auseinander halten zu können
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue ort_zusatz = 10002;</code>
+         * <code>.dstore.values.StringValue ort_zusatz = 10002;</code>
          */
         public Builder setOrtZusatz(
             io.dstore.values.StringValue.Builder builderForValue) {
@@ -2258,7 +2258,7 @@ public final class PmPostleitzahlenZumOrtPu {
          * Manche Orte besitzen eine Zusatz, um gleichnamige Orte auseinander halten zu können
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue ort_zusatz = 10002;</code>
+         * <code>.dstore.values.StringValue ort_zusatz = 10002;</code>
          */
         public Builder mergeOrtZusatz(io.dstore.values.StringValue value) {
           if (ortZusatzBuilder_ == null) {
@@ -2280,7 +2280,7 @@ public final class PmPostleitzahlenZumOrtPu {
          * Manche Orte besitzen eine Zusatz, um gleichnamige Orte auseinander halten zu können
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue ort_zusatz = 10002;</code>
+         * <code>.dstore.values.StringValue ort_zusatz = 10002;</code>
          */
         public Builder clearOrtZusatz() {
           if (ortZusatzBuilder_ == null) {
@@ -2298,7 +2298,7 @@ public final class PmPostleitzahlenZumOrtPu {
          * Manche Orte besitzen eine Zusatz, um gleichnamige Orte auseinander halten zu können
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue ort_zusatz = 10002;</code>
+         * <code>.dstore.values.StringValue ort_zusatz = 10002;</code>
          */
         public io.dstore.values.StringValue.Builder getOrtZusatzBuilder() {
           
@@ -2310,7 +2310,7 @@ public final class PmPostleitzahlenZumOrtPu {
          * Manche Orte besitzen eine Zusatz, um gleichnamige Orte auseinander halten zu können
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue ort_zusatz = 10002;</code>
+         * <code>.dstore.values.StringValue ort_zusatz = 10002;</code>
          */
         public io.dstore.values.StringValueOrBuilder getOrtZusatzOrBuilder() {
           if (ortZusatzBuilder_ != null) {
@@ -2325,7 +2325,7 @@ public final class PmPostleitzahlenZumOrtPu {
          * Manche Orte besitzen eine Zusatz, um gleichnamige Orte auseinander halten zu können
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue ort_zusatz = 10002;</code>
+         * <code>.dstore.values.StringValue ort_zusatz = 10002;</code>
          */
         private com.google.protobuf.SingleFieldBuilderV3<
             io.dstore.values.StringValue, io.dstore.values.StringValue.Builder, io.dstore.values.StringValueOrBuilder> 
@@ -2349,7 +2349,7 @@ public final class PmPostleitzahlenZumOrtPu {
          * Gültige Postleitzahl für den "Ort" bzw. der Teil, der allen gültigen Postleitzahlen des "Ort"es gemeinsam ist
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue p_l_z = 10003;</code>
+         * <code>.dstore.values.StringValue p_l_z = 10003;</code>
          */
         public boolean hasPLZ() {
           return pLZBuilder_ != null || pLZ_ != null;
@@ -2359,7 +2359,7 @@ public final class PmPostleitzahlenZumOrtPu {
          * Gültige Postleitzahl für den "Ort" bzw. der Teil, der allen gültigen Postleitzahlen des "Ort"es gemeinsam ist
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue p_l_z = 10003;</code>
+         * <code>.dstore.values.StringValue p_l_z = 10003;</code>
          */
         public io.dstore.values.StringValue getPLZ() {
           if (pLZBuilder_ == null) {
@@ -2373,7 +2373,7 @@ public final class PmPostleitzahlenZumOrtPu {
          * Gültige Postleitzahl für den "Ort" bzw. der Teil, der allen gültigen Postleitzahlen des "Ort"es gemeinsam ist
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue p_l_z = 10003;</code>
+         * <code>.dstore.values.StringValue p_l_z = 10003;</code>
          */
         public Builder setPLZ(io.dstore.values.StringValue value) {
           if (pLZBuilder_ == null) {
@@ -2393,7 +2393,7 @@ public final class PmPostleitzahlenZumOrtPu {
          * Gültige Postleitzahl für den "Ort" bzw. der Teil, der allen gültigen Postleitzahlen des "Ort"es gemeinsam ist
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue p_l_z = 10003;</code>
+         * <code>.dstore.values.StringValue p_l_z = 10003;</code>
          */
         public Builder setPLZ(
             io.dstore.values.StringValue.Builder builderForValue) {
@@ -2411,7 +2411,7 @@ public final class PmPostleitzahlenZumOrtPu {
          * Gültige Postleitzahl für den "Ort" bzw. der Teil, der allen gültigen Postleitzahlen des "Ort"es gemeinsam ist
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue p_l_z = 10003;</code>
+         * <code>.dstore.values.StringValue p_l_z = 10003;</code>
          */
         public Builder mergePLZ(io.dstore.values.StringValue value) {
           if (pLZBuilder_ == null) {
@@ -2433,7 +2433,7 @@ public final class PmPostleitzahlenZumOrtPu {
          * Gültige Postleitzahl für den "Ort" bzw. der Teil, der allen gültigen Postleitzahlen des "Ort"es gemeinsam ist
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue p_l_z = 10003;</code>
+         * <code>.dstore.values.StringValue p_l_z = 10003;</code>
          */
         public Builder clearPLZ() {
           if (pLZBuilder_ == null) {
@@ -2451,7 +2451,7 @@ public final class PmPostleitzahlenZumOrtPu {
          * Gültige Postleitzahl für den "Ort" bzw. der Teil, der allen gültigen Postleitzahlen des "Ort"es gemeinsam ist
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue p_l_z = 10003;</code>
+         * <code>.dstore.values.StringValue p_l_z = 10003;</code>
          */
         public io.dstore.values.StringValue.Builder getPLZBuilder() {
           
@@ -2463,7 +2463,7 @@ public final class PmPostleitzahlenZumOrtPu {
          * Gültige Postleitzahl für den "Ort" bzw. der Teil, der allen gültigen Postleitzahlen des "Ort"es gemeinsam ist
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue p_l_z = 10003;</code>
+         * <code>.dstore.values.StringValue p_l_z = 10003;</code>
          */
         public io.dstore.values.StringValueOrBuilder getPLZOrBuilder() {
           if (pLZBuilder_ != null) {
@@ -2478,7 +2478,7 @@ public final class PmPostleitzahlenZumOrtPu {
          * Gültige Postleitzahl für den "Ort" bzw. der Teil, der allen gültigen Postleitzahlen des "Ort"es gemeinsam ist
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue p_l_z = 10003;</code>
+         * <code>.dstore.values.StringValue p_l_z = 10003;</code>
          */
         private com.google.protobuf.SingleFieldBuilderV3<
             io.dstore.values.StringValue, io.dstore.values.StringValue.Builder, io.dstore.values.StringValueOrBuilder> 
@@ -2738,7 +2738,7 @@ public final class PmPostleitzahlenZumOrtPu {
         return memoizedHashCode;
       }
       int hash = 41;
-      hash = (19 * hash) + getDescriptorForType().hashCode();
+      hash = (19 * hash) + getDescriptor().hashCode();
       if (getMetaInformationCount() > 0) {
         hash = (37 * hash) + META_INFORMATION_FIELD_NUMBER;
         hash = (53 * hash) + getMetaInformationList().hashCode();

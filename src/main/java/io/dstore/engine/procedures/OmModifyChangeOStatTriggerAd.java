@@ -19,74 +19,74 @@ public final class OmModifyChangeOStatTriggerAd {
       com.google.protobuf.MessageOrBuilder {
 
     /**
-     * <code>optional .dstore.values.IntegerValue change_order_state_trigger_id = 1;</code>
+     * <code>.dstore.values.IntegerValue change_order_state_trigger_id = 1;</code>
      */
     boolean hasChangeOrderStateTriggerId();
     /**
-     * <code>optional .dstore.values.IntegerValue change_order_state_trigger_id = 1;</code>
+     * <code>.dstore.values.IntegerValue change_order_state_trigger_id = 1;</code>
      */
     io.dstore.values.IntegerValue getChangeOrderStateTriggerId();
     /**
-     * <code>optional .dstore.values.IntegerValue change_order_state_trigger_id = 1;</code>
+     * <code>.dstore.values.IntegerValue change_order_state_trigger_id = 1;</code>
      */
     io.dstore.values.IntegerValueOrBuilder getChangeOrderStateTriggerIdOrBuilder();
 
     /**
-     * <code>optional bool change_order_state_trigger_id_null = 1001;</code>
+     * <code>bool change_order_state_trigger_id_null = 1001;</code>
      */
     boolean getChangeOrderStateTriggerIdNull();
 
     /**
-     * <code>optional .dstore.values.BooleanValue ignore_pos_already_in_order_state = 2;</code>
+     * <code>.dstore.values.BooleanValue ignore_pos_already_in_order_state = 2;</code>
      */
     boolean hasIgnorePosAlreadyInOrderState();
     /**
-     * <code>optional .dstore.values.BooleanValue ignore_pos_already_in_order_state = 2;</code>
+     * <code>.dstore.values.BooleanValue ignore_pos_already_in_order_state = 2;</code>
      */
     io.dstore.values.BooleanValue getIgnorePosAlreadyInOrderState();
     /**
-     * <code>optional .dstore.values.BooleanValue ignore_pos_already_in_order_state = 2;</code>
+     * <code>.dstore.values.BooleanValue ignore_pos_already_in_order_state = 2;</code>
      */
     io.dstore.values.BooleanValueOrBuilder getIgnorePosAlreadyInOrderStateOrBuilder();
 
     /**
-     * <code>optional bool ignore_pos_already_in_order_state_null = 1002;</code>
+     * <code>bool ignore_pos_already_in_order_state_null = 1002;</code>
      */
     boolean getIgnorePosAlreadyInOrderStateNull();
 
     /**
-     * <code>optional .dstore.values.StringValue suitable_for_order_state_id_list = 3;</code>
+     * <code>.dstore.values.StringValue suitable_for_order_state_id_list = 3;</code>
      */
     boolean hasSuitableForOrderStateIdList();
     /**
-     * <code>optional .dstore.values.StringValue suitable_for_order_state_id_list = 3;</code>
+     * <code>.dstore.values.StringValue suitable_for_order_state_id_list = 3;</code>
      */
     io.dstore.values.StringValue getSuitableForOrderStateIdList();
     /**
-     * <code>optional .dstore.values.StringValue suitable_for_order_state_id_list = 3;</code>
+     * <code>.dstore.values.StringValue suitable_for_order_state_id_list = 3;</code>
      */
     io.dstore.values.StringValueOrBuilder getSuitableForOrderStateIdListOrBuilder();
 
     /**
-     * <code>optional bool suitable_for_order_state_id_list_null = 1003;</code>
+     * <code>bool suitable_for_order_state_id_list_null = 1003;</code>
      */
     boolean getSuitableForOrderStateIdListNull();
 
     /**
-     * <code>optional .dstore.values.BooleanValue delete_trigger = 4;</code>
+     * <code>.dstore.values.BooleanValue delete_trigger = 4;</code>
      */
     boolean hasDeleteTrigger();
     /**
-     * <code>optional .dstore.values.BooleanValue delete_trigger = 4;</code>
+     * <code>.dstore.values.BooleanValue delete_trigger = 4;</code>
      */
     io.dstore.values.BooleanValue getDeleteTrigger();
     /**
-     * <code>optional .dstore.values.BooleanValue delete_trigger = 4;</code>
+     * <code>.dstore.values.BooleanValue delete_trigger = 4;</code>
      */
     io.dstore.values.BooleanValueOrBuilder getDeleteTriggerOrBuilder();
 
     /**
-     * <code>optional bool delete_trigger_null = 1004;</code>
+     * <code>bool delete_trigger_null = 1004;</code>
      */
     boolean getDeleteTriggerNull();
   }
@@ -231,19 +231,19 @@ public final class OmModifyChangeOStatTriggerAd {
     public static final int CHANGE_ORDER_STATE_TRIGGER_ID_FIELD_NUMBER = 1;
     private io.dstore.values.IntegerValue changeOrderStateTriggerId_;
     /**
-     * <code>optional .dstore.values.IntegerValue change_order_state_trigger_id = 1;</code>
+     * <code>.dstore.values.IntegerValue change_order_state_trigger_id = 1;</code>
      */
     public boolean hasChangeOrderStateTriggerId() {
       return changeOrderStateTriggerId_ != null;
     }
     /**
-     * <code>optional .dstore.values.IntegerValue change_order_state_trigger_id = 1;</code>
+     * <code>.dstore.values.IntegerValue change_order_state_trigger_id = 1;</code>
      */
     public io.dstore.values.IntegerValue getChangeOrderStateTriggerId() {
       return changeOrderStateTriggerId_ == null ? io.dstore.values.IntegerValue.getDefaultInstance() : changeOrderStateTriggerId_;
     }
     /**
-     * <code>optional .dstore.values.IntegerValue change_order_state_trigger_id = 1;</code>
+     * <code>.dstore.values.IntegerValue change_order_state_trigger_id = 1;</code>
      */
     public io.dstore.values.IntegerValueOrBuilder getChangeOrderStateTriggerIdOrBuilder() {
       return getChangeOrderStateTriggerId();
@@ -252,7 +252,7 @@ public final class OmModifyChangeOStatTriggerAd {
     public static final int CHANGE_ORDER_STATE_TRIGGER_ID_NULL_FIELD_NUMBER = 1001;
     private boolean changeOrderStateTriggerIdNull_;
     /**
-     * <code>optional bool change_order_state_trigger_id_null = 1001;</code>
+     * <code>bool change_order_state_trigger_id_null = 1001;</code>
      */
     public boolean getChangeOrderStateTriggerIdNull() {
       return changeOrderStateTriggerIdNull_;
@@ -261,19 +261,19 @@ public final class OmModifyChangeOStatTriggerAd {
     public static final int IGNORE_POS_ALREADY_IN_ORDER_STATE_FIELD_NUMBER = 2;
     private io.dstore.values.BooleanValue ignorePosAlreadyInOrderState_;
     /**
-     * <code>optional .dstore.values.BooleanValue ignore_pos_already_in_order_state = 2;</code>
+     * <code>.dstore.values.BooleanValue ignore_pos_already_in_order_state = 2;</code>
      */
     public boolean hasIgnorePosAlreadyInOrderState() {
       return ignorePosAlreadyInOrderState_ != null;
     }
     /**
-     * <code>optional .dstore.values.BooleanValue ignore_pos_already_in_order_state = 2;</code>
+     * <code>.dstore.values.BooleanValue ignore_pos_already_in_order_state = 2;</code>
      */
     public io.dstore.values.BooleanValue getIgnorePosAlreadyInOrderState() {
       return ignorePosAlreadyInOrderState_ == null ? io.dstore.values.BooleanValue.getDefaultInstance() : ignorePosAlreadyInOrderState_;
     }
     /**
-     * <code>optional .dstore.values.BooleanValue ignore_pos_already_in_order_state = 2;</code>
+     * <code>.dstore.values.BooleanValue ignore_pos_already_in_order_state = 2;</code>
      */
     public io.dstore.values.BooleanValueOrBuilder getIgnorePosAlreadyInOrderStateOrBuilder() {
       return getIgnorePosAlreadyInOrderState();
@@ -282,7 +282,7 @@ public final class OmModifyChangeOStatTriggerAd {
     public static final int IGNORE_POS_ALREADY_IN_ORDER_STATE_NULL_FIELD_NUMBER = 1002;
     private boolean ignorePosAlreadyInOrderStateNull_;
     /**
-     * <code>optional bool ignore_pos_already_in_order_state_null = 1002;</code>
+     * <code>bool ignore_pos_already_in_order_state_null = 1002;</code>
      */
     public boolean getIgnorePosAlreadyInOrderStateNull() {
       return ignorePosAlreadyInOrderStateNull_;
@@ -291,19 +291,19 @@ public final class OmModifyChangeOStatTriggerAd {
     public static final int SUITABLE_FOR_ORDER_STATE_ID_LIST_FIELD_NUMBER = 3;
     private io.dstore.values.StringValue suitableForOrderStateIdList_;
     /**
-     * <code>optional .dstore.values.StringValue suitable_for_order_state_id_list = 3;</code>
+     * <code>.dstore.values.StringValue suitable_for_order_state_id_list = 3;</code>
      */
     public boolean hasSuitableForOrderStateIdList() {
       return suitableForOrderStateIdList_ != null;
     }
     /**
-     * <code>optional .dstore.values.StringValue suitable_for_order_state_id_list = 3;</code>
+     * <code>.dstore.values.StringValue suitable_for_order_state_id_list = 3;</code>
      */
     public io.dstore.values.StringValue getSuitableForOrderStateIdList() {
       return suitableForOrderStateIdList_ == null ? io.dstore.values.StringValue.getDefaultInstance() : suitableForOrderStateIdList_;
     }
     /**
-     * <code>optional .dstore.values.StringValue suitable_for_order_state_id_list = 3;</code>
+     * <code>.dstore.values.StringValue suitable_for_order_state_id_list = 3;</code>
      */
     public io.dstore.values.StringValueOrBuilder getSuitableForOrderStateIdListOrBuilder() {
       return getSuitableForOrderStateIdList();
@@ -312,7 +312,7 @@ public final class OmModifyChangeOStatTriggerAd {
     public static final int SUITABLE_FOR_ORDER_STATE_ID_LIST_NULL_FIELD_NUMBER = 1003;
     private boolean suitableForOrderStateIdListNull_;
     /**
-     * <code>optional bool suitable_for_order_state_id_list_null = 1003;</code>
+     * <code>bool suitable_for_order_state_id_list_null = 1003;</code>
      */
     public boolean getSuitableForOrderStateIdListNull() {
       return suitableForOrderStateIdListNull_;
@@ -321,19 +321,19 @@ public final class OmModifyChangeOStatTriggerAd {
     public static final int DELETE_TRIGGER_FIELD_NUMBER = 4;
     private io.dstore.values.BooleanValue deleteTrigger_;
     /**
-     * <code>optional .dstore.values.BooleanValue delete_trigger = 4;</code>
+     * <code>.dstore.values.BooleanValue delete_trigger = 4;</code>
      */
     public boolean hasDeleteTrigger() {
       return deleteTrigger_ != null;
     }
     /**
-     * <code>optional .dstore.values.BooleanValue delete_trigger = 4;</code>
+     * <code>.dstore.values.BooleanValue delete_trigger = 4;</code>
      */
     public io.dstore.values.BooleanValue getDeleteTrigger() {
       return deleteTrigger_ == null ? io.dstore.values.BooleanValue.getDefaultInstance() : deleteTrigger_;
     }
     /**
-     * <code>optional .dstore.values.BooleanValue delete_trigger = 4;</code>
+     * <code>.dstore.values.BooleanValue delete_trigger = 4;</code>
      */
     public io.dstore.values.BooleanValueOrBuilder getDeleteTriggerOrBuilder() {
       return getDeleteTrigger();
@@ -342,7 +342,7 @@ public final class OmModifyChangeOStatTriggerAd {
     public static final int DELETE_TRIGGER_NULL_FIELD_NUMBER = 1004;
     private boolean deleteTriggerNull_;
     /**
-     * <code>optional bool delete_trigger_null = 1004;</code>
+     * <code>bool delete_trigger_null = 1004;</code>
      */
     public boolean getDeleteTriggerNull() {
       return deleteTriggerNull_;
@@ -476,7 +476,7 @@ public final class OmModifyChangeOStatTriggerAd {
         return memoizedHashCode;
       }
       int hash = 41;
-      hash = (19 * hash) + getDescriptorForType().hashCode();
+      hash = (19 * hash) + getDescriptor().hashCode();
       if (hasChangeOrderStateTriggerId()) {
         hash = (37 * hash) + CHANGE_ORDER_STATE_TRIGGER_ID_FIELD_NUMBER;
         hash = (53 * hash) + getChangeOrderStateTriggerId().hashCode();
@@ -796,13 +796,13 @@ public final class OmModifyChangeOStatTriggerAd {
       private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> changeOrderStateTriggerIdBuilder_;
       /**
-       * <code>optional .dstore.values.IntegerValue change_order_state_trigger_id = 1;</code>
+       * <code>.dstore.values.IntegerValue change_order_state_trigger_id = 1;</code>
        */
       public boolean hasChangeOrderStateTriggerId() {
         return changeOrderStateTriggerIdBuilder_ != null || changeOrderStateTriggerId_ != null;
       }
       /**
-       * <code>optional .dstore.values.IntegerValue change_order_state_trigger_id = 1;</code>
+       * <code>.dstore.values.IntegerValue change_order_state_trigger_id = 1;</code>
        */
       public io.dstore.values.IntegerValue getChangeOrderStateTriggerId() {
         if (changeOrderStateTriggerIdBuilder_ == null) {
@@ -812,7 +812,7 @@ public final class OmModifyChangeOStatTriggerAd {
         }
       }
       /**
-       * <code>optional .dstore.values.IntegerValue change_order_state_trigger_id = 1;</code>
+       * <code>.dstore.values.IntegerValue change_order_state_trigger_id = 1;</code>
        */
       public Builder setChangeOrderStateTriggerId(io.dstore.values.IntegerValue value) {
         if (changeOrderStateTriggerIdBuilder_ == null) {
@@ -828,7 +828,7 @@ public final class OmModifyChangeOStatTriggerAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.IntegerValue change_order_state_trigger_id = 1;</code>
+       * <code>.dstore.values.IntegerValue change_order_state_trigger_id = 1;</code>
        */
       public Builder setChangeOrderStateTriggerId(
           io.dstore.values.IntegerValue.Builder builderForValue) {
@@ -842,7 +842,7 @@ public final class OmModifyChangeOStatTriggerAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.IntegerValue change_order_state_trigger_id = 1;</code>
+       * <code>.dstore.values.IntegerValue change_order_state_trigger_id = 1;</code>
        */
       public Builder mergeChangeOrderStateTriggerId(io.dstore.values.IntegerValue value) {
         if (changeOrderStateTriggerIdBuilder_ == null) {
@@ -860,7 +860,7 @@ public final class OmModifyChangeOStatTriggerAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.IntegerValue change_order_state_trigger_id = 1;</code>
+       * <code>.dstore.values.IntegerValue change_order_state_trigger_id = 1;</code>
        */
       public Builder clearChangeOrderStateTriggerId() {
         if (changeOrderStateTriggerIdBuilder_ == null) {
@@ -874,7 +874,7 @@ public final class OmModifyChangeOStatTriggerAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.IntegerValue change_order_state_trigger_id = 1;</code>
+       * <code>.dstore.values.IntegerValue change_order_state_trigger_id = 1;</code>
        */
       public io.dstore.values.IntegerValue.Builder getChangeOrderStateTriggerIdBuilder() {
         
@@ -882,7 +882,7 @@ public final class OmModifyChangeOStatTriggerAd {
         return getChangeOrderStateTriggerIdFieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .dstore.values.IntegerValue change_order_state_trigger_id = 1;</code>
+       * <code>.dstore.values.IntegerValue change_order_state_trigger_id = 1;</code>
        */
       public io.dstore.values.IntegerValueOrBuilder getChangeOrderStateTriggerIdOrBuilder() {
         if (changeOrderStateTriggerIdBuilder_ != null) {
@@ -893,7 +893,7 @@ public final class OmModifyChangeOStatTriggerAd {
         }
       }
       /**
-       * <code>optional .dstore.values.IntegerValue change_order_state_trigger_id = 1;</code>
+       * <code>.dstore.values.IntegerValue change_order_state_trigger_id = 1;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> 
@@ -911,13 +911,13 @@ public final class OmModifyChangeOStatTriggerAd {
 
       private boolean changeOrderStateTriggerIdNull_ ;
       /**
-       * <code>optional bool change_order_state_trigger_id_null = 1001;</code>
+       * <code>bool change_order_state_trigger_id_null = 1001;</code>
        */
       public boolean getChangeOrderStateTriggerIdNull() {
         return changeOrderStateTriggerIdNull_;
       }
       /**
-       * <code>optional bool change_order_state_trigger_id_null = 1001;</code>
+       * <code>bool change_order_state_trigger_id_null = 1001;</code>
        */
       public Builder setChangeOrderStateTriggerIdNull(boolean value) {
         
@@ -926,7 +926,7 @@ public final class OmModifyChangeOStatTriggerAd {
         return this;
       }
       /**
-       * <code>optional bool change_order_state_trigger_id_null = 1001;</code>
+       * <code>bool change_order_state_trigger_id_null = 1001;</code>
        */
       public Builder clearChangeOrderStateTriggerIdNull() {
         
@@ -939,13 +939,13 @@ public final class OmModifyChangeOStatTriggerAd {
       private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.values.BooleanValue, io.dstore.values.BooleanValue.Builder, io.dstore.values.BooleanValueOrBuilder> ignorePosAlreadyInOrderStateBuilder_;
       /**
-       * <code>optional .dstore.values.BooleanValue ignore_pos_already_in_order_state = 2;</code>
+       * <code>.dstore.values.BooleanValue ignore_pos_already_in_order_state = 2;</code>
        */
       public boolean hasIgnorePosAlreadyInOrderState() {
         return ignorePosAlreadyInOrderStateBuilder_ != null || ignorePosAlreadyInOrderState_ != null;
       }
       /**
-       * <code>optional .dstore.values.BooleanValue ignore_pos_already_in_order_state = 2;</code>
+       * <code>.dstore.values.BooleanValue ignore_pos_already_in_order_state = 2;</code>
        */
       public io.dstore.values.BooleanValue getIgnorePosAlreadyInOrderState() {
         if (ignorePosAlreadyInOrderStateBuilder_ == null) {
@@ -955,7 +955,7 @@ public final class OmModifyChangeOStatTriggerAd {
         }
       }
       /**
-       * <code>optional .dstore.values.BooleanValue ignore_pos_already_in_order_state = 2;</code>
+       * <code>.dstore.values.BooleanValue ignore_pos_already_in_order_state = 2;</code>
        */
       public Builder setIgnorePosAlreadyInOrderState(io.dstore.values.BooleanValue value) {
         if (ignorePosAlreadyInOrderStateBuilder_ == null) {
@@ -971,7 +971,7 @@ public final class OmModifyChangeOStatTriggerAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.BooleanValue ignore_pos_already_in_order_state = 2;</code>
+       * <code>.dstore.values.BooleanValue ignore_pos_already_in_order_state = 2;</code>
        */
       public Builder setIgnorePosAlreadyInOrderState(
           io.dstore.values.BooleanValue.Builder builderForValue) {
@@ -985,7 +985,7 @@ public final class OmModifyChangeOStatTriggerAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.BooleanValue ignore_pos_already_in_order_state = 2;</code>
+       * <code>.dstore.values.BooleanValue ignore_pos_already_in_order_state = 2;</code>
        */
       public Builder mergeIgnorePosAlreadyInOrderState(io.dstore.values.BooleanValue value) {
         if (ignorePosAlreadyInOrderStateBuilder_ == null) {
@@ -1003,7 +1003,7 @@ public final class OmModifyChangeOStatTriggerAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.BooleanValue ignore_pos_already_in_order_state = 2;</code>
+       * <code>.dstore.values.BooleanValue ignore_pos_already_in_order_state = 2;</code>
        */
       public Builder clearIgnorePosAlreadyInOrderState() {
         if (ignorePosAlreadyInOrderStateBuilder_ == null) {
@@ -1017,7 +1017,7 @@ public final class OmModifyChangeOStatTriggerAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.BooleanValue ignore_pos_already_in_order_state = 2;</code>
+       * <code>.dstore.values.BooleanValue ignore_pos_already_in_order_state = 2;</code>
        */
       public io.dstore.values.BooleanValue.Builder getIgnorePosAlreadyInOrderStateBuilder() {
         
@@ -1025,7 +1025,7 @@ public final class OmModifyChangeOStatTriggerAd {
         return getIgnorePosAlreadyInOrderStateFieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .dstore.values.BooleanValue ignore_pos_already_in_order_state = 2;</code>
+       * <code>.dstore.values.BooleanValue ignore_pos_already_in_order_state = 2;</code>
        */
       public io.dstore.values.BooleanValueOrBuilder getIgnorePosAlreadyInOrderStateOrBuilder() {
         if (ignorePosAlreadyInOrderStateBuilder_ != null) {
@@ -1036,7 +1036,7 @@ public final class OmModifyChangeOStatTriggerAd {
         }
       }
       /**
-       * <code>optional .dstore.values.BooleanValue ignore_pos_already_in_order_state = 2;</code>
+       * <code>.dstore.values.BooleanValue ignore_pos_already_in_order_state = 2;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.values.BooleanValue, io.dstore.values.BooleanValue.Builder, io.dstore.values.BooleanValueOrBuilder> 
@@ -1054,13 +1054,13 @@ public final class OmModifyChangeOStatTriggerAd {
 
       private boolean ignorePosAlreadyInOrderStateNull_ ;
       /**
-       * <code>optional bool ignore_pos_already_in_order_state_null = 1002;</code>
+       * <code>bool ignore_pos_already_in_order_state_null = 1002;</code>
        */
       public boolean getIgnorePosAlreadyInOrderStateNull() {
         return ignorePosAlreadyInOrderStateNull_;
       }
       /**
-       * <code>optional bool ignore_pos_already_in_order_state_null = 1002;</code>
+       * <code>bool ignore_pos_already_in_order_state_null = 1002;</code>
        */
       public Builder setIgnorePosAlreadyInOrderStateNull(boolean value) {
         
@@ -1069,7 +1069,7 @@ public final class OmModifyChangeOStatTriggerAd {
         return this;
       }
       /**
-       * <code>optional bool ignore_pos_already_in_order_state_null = 1002;</code>
+       * <code>bool ignore_pos_already_in_order_state_null = 1002;</code>
        */
       public Builder clearIgnorePosAlreadyInOrderStateNull() {
         
@@ -1082,13 +1082,13 @@ public final class OmModifyChangeOStatTriggerAd {
       private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.values.StringValue, io.dstore.values.StringValue.Builder, io.dstore.values.StringValueOrBuilder> suitableForOrderStateIdListBuilder_;
       /**
-       * <code>optional .dstore.values.StringValue suitable_for_order_state_id_list = 3;</code>
+       * <code>.dstore.values.StringValue suitable_for_order_state_id_list = 3;</code>
        */
       public boolean hasSuitableForOrderStateIdList() {
         return suitableForOrderStateIdListBuilder_ != null || suitableForOrderStateIdList_ != null;
       }
       /**
-       * <code>optional .dstore.values.StringValue suitable_for_order_state_id_list = 3;</code>
+       * <code>.dstore.values.StringValue suitable_for_order_state_id_list = 3;</code>
        */
       public io.dstore.values.StringValue getSuitableForOrderStateIdList() {
         if (suitableForOrderStateIdListBuilder_ == null) {
@@ -1098,7 +1098,7 @@ public final class OmModifyChangeOStatTriggerAd {
         }
       }
       /**
-       * <code>optional .dstore.values.StringValue suitable_for_order_state_id_list = 3;</code>
+       * <code>.dstore.values.StringValue suitable_for_order_state_id_list = 3;</code>
        */
       public Builder setSuitableForOrderStateIdList(io.dstore.values.StringValue value) {
         if (suitableForOrderStateIdListBuilder_ == null) {
@@ -1114,7 +1114,7 @@ public final class OmModifyChangeOStatTriggerAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.StringValue suitable_for_order_state_id_list = 3;</code>
+       * <code>.dstore.values.StringValue suitable_for_order_state_id_list = 3;</code>
        */
       public Builder setSuitableForOrderStateIdList(
           io.dstore.values.StringValue.Builder builderForValue) {
@@ -1128,7 +1128,7 @@ public final class OmModifyChangeOStatTriggerAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.StringValue suitable_for_order_state_id_list = 3;</code>
+       * <code>.dstore.values.StringValue suitable_for_order_state_id_list = 3;</code>
        */
       public Builder mergeSuitableForOrderStateIdList(io.dstore.values.StringValue value) {
         if (suitableForOrderStateIdListBuilder_ == null) {
@@ -1146,7 +1146,7 @@ public final class OmModifyChangeOStatTriggerAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.StringValue suitable_for_order_state_id_list = 3;</code>
+       * <code>.dstore.values.StringValue suitable_for_order_state_id_list = 3;</code>
        */
       public Builder clearSuitableForOrderStateIdList() {
         if (suitableForOrderStateIdListBuilder_ == null) {
@@ -1160,7 +1160,7 @@ public final class OmModifyChangeOStatTriggerAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.StringValue suitable_for_order_state_id_list = 3;</code>
+       * <code>.dstore.values.StringValue suitable_for_order_state_id_list = 3;</code>
        */
       public io.dstore.values.StringValue.Builder getSuitableForOrderStateIdListBuilder() {
         
@@ -1168,7 +1168,7 @@ public final class OmModifyChangeOStatTriggerAd {
         return getSuitableForOrderStateIdListFieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .dstore.values.StringValue suitable_for_order_state_id_list = 3;</code>
+       * <code>.dstore.values.StringValue suitable_for_order_state_id_list = 3;</code>
        */
       public io.dstore.values.StringValueOrBuilder getSuitableForOrderStateIdListOrBuilder() {
         if (suitableForOrderStateIdListBuilder_ != null) {
@@ -1179,7 +1179,7 @@ public final class OmModifyChangeOStatTriggerAd {
         }
       }
       /**
-       * <code>optional .dstore.values.StringValue suitable_for_order_state_id_list = 3;</code>
+       * <code>.dstore.values.StringValue suitable_for_order_state_id_list = 3;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.values.StringValue, io.dstore.values.StringValue.Builder, io.dstore.values.StringValueOrBuilder> 
@@ -1197,13 +1197,13 @@ public final class OmModifyChangeOStatTriggerAd {
 
       private boolean suitableForOrderStateIdListNull_ ;
       /**
-       * <code>optional bool suitable_for_order_state_id_list_null = 1003;</code>
+       * <code>bool suitable_for_order_state_id_list_null = 1003;</code>
        */
       public boolean getSuitableForOrderStateIdListNull() {
         return suitableForOrderStateIdListNull_;
       }
       /**
-       * <code>optional bool suitable_for_order_state_id_list_null = 1003;</code>
+       * <code>bool suitable_for_order_state_id_list_null = 1003;</code>
        */
       public Builder setSuitableForOrderStateIdListNull(boolean value) {
         
@@ -1212,7 +1212,7 @@ public final class OmModifyChangeOStatTriggerAd {
         return this;
       }
       /**
-       * <code>optional bool suitable_for_order_state_id_list_null = 1003;</code>
+       * <code>bool suitable_for_order_state_id_list_null = 1003;</code>
        */
       public Builder clearSuitableForOrderStateIdListNull() {
         
@@ -1225,13 +1225,13 @@ public final class OmModifyChangeOStatTriggerAd {
       private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.values.BooleanValue, io.dstore.values.BooleanValue.Builder, io.dstore.values.BooleanValueOrBuilder> deleteTriggerBuilder_;
       /**
-       * <code>optional .dstore.values.BooleanValue delete_trigger = 4;</code>
+       * <code>.dstore.values.BooleanValue delete_trigger = 4;</code>
        */
       public boolean hasDeleteTrigger() {
         return deleteTriggerBuilder_ != null || deleteTrigger_ != null;
       }
       /**
-       * <code>optional .dstore.values.BooleanValue delete_trigger = 4;</code>
+       * <code>.dstore.values.BooleanValue delete_trigger = 4;</code>
        */
       public io.dstore.values.BooleanValue getDeleteTrigger() {
         if (deleteTriggerBuilder_ == null) {
@@ -1241,7 +1241,7 @@ public final class OmModifyChangeOStatTriggerAd {
         }
       }
       /**
-       * <code>optional .dstore.values.BooleanValue delete_trigger = 4;</code>
+       * <code>.dstore.values.BooleanValue delete_trigger = 4;</code>
        */
       public Builder setDeleteTrigger(io.dstore.values.BooleanValue value) {
         if (deleteTriggerBuilder_ == null) {
@@ -1257,7 +1257,7 @@ public final class OmModifyChangeOStatTriggerAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.BooleanValue delete_trigger = 4;</code>
+       * <code>.dstore.values.BooleanValue delete_trigger = 4;</code>
        */
       public Builder setDeleteTrigger(
           io.dstore.values.BooleanValue.Builder builderForValue) {
@@ -1271,7 +1271,7 @@ public final class OmModifyChangeOStatTriggerAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.BooleanValue delete_trigger = 4;</code>
+       * <code>.dstore.values.BooleanValue delete_trigger = 4;</code>
        */
       public Builder mergeDeleteTrigger(io.dstore.values.BooleanValue value) {
         if (deleteTriggerBuilder_ == null) {
@@ -1289,7 +1289,7 @@ public final class OmModifyChangeOStatTriggerAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.BooleanValue delete_trigger = 4;</code>
+       * <code>.dstore.values.BooleanValue delete_trigger = 4;</code>
        */
       public Builder clearDeleteTrigger() {
         if (deleteTriggerBuilder_ == null) {
@@ -1303,7 +1303,7 @@ public final class OmModifyChangeOStatTriggerAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.BooleanValue delete_trigger = 4;</code>
+       * <code>.dstore.values.BooleanValue delete_trigger = 4;</code>
        */
       public io.dstore.values.BooleanValue.Builder getDeleteTriggerBuilder() {
         
@@ -1311,7 +1311,7 @@ public final class OmModifyChangeOStatTriggerAd {
         return getDeleteTriggerFieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .dstore.values.BooleanValue delete_trigger = 4;</code>
+       * <code>.dstore.values.BooleanValue delete_trigger = 4;</code>
        */
       public io.dstore.values.BooleanValueOrBuilder getDeleteTriggerOrBuilder() {
         if (deleteTriggerBuilder_ != null) {
@@ -1322,7 +1322,7 @@ public final class OmModifyChangeOStatTriggerAd {
         }
       }
       /**
-       * <code>optional .dstore.values.BooleanValue delete_trigger = 4;</code>
+       * <code>.dstore.values.BooleanValue delete_trigger = 4;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.values.BooleanValue, io.dstore.values.BooleanValue.Builder, io.dstore.values.BooleanValueOrBuilder> 
@@ -1340,13 +1340,13 @@ public final class OmModifyChangeOStatTriggerAd {
 
       private boolean deleteTriggerNull_ ;
       /**
-       * <code>optional bool delete_trigger_null = 1004;</code>
+       * <code>bool delete_trigger_null = 1004;</code>
        */
       public boolean getDeleteTriggerNull() {
         return deleteTriggerNull_;
       }
       /**
-       * <code>optional bool delete_trigger_null = 1004;</code>
+       * <code>bool delete_trigger_null = 1004;</code>
        */
       public Builder setDeleteTriggerNull(boolean value) {
         
@@ -1355,7 +1355,7 @@ public final class OmModifyChangeOStatTriggerAd {
         return this;
       }
       /**
-       * <code>optional bool delete_trigger_null = 1004;</code>
+       * <code>bool delete_trigger_null = 1004;</code>
        */
       public Builder clearDeleteTriggerNull() {
         
@@ -1614,7 +1614,7 @@ public final class OmModifyChangeOStatTriggerAd {
         com.google.protobuf.MessageOrBuilder {
 
       /**
-       * <code>optional int32 row_id = 10000;</code>
+       * <code>int32 row_id = 10000;</code>
        */
       int getRowId();
     }
@@ -1689,7 +1689,7 @@ public final class OmModifyChangeOStatTriggerAd {
       public static final int ROW_ID_FIELD_NUMBER = 10000;
       private int rowId_;
       /**
-       * <code>optional int32 row_id = 10000;</code>
+       * <code>int32 row_id = 10000;</code>
        */
       public int getRowId() {
         return rowId_;
@@ -1748,7 +1748,7 @@ public final class OmModifyChangeOStatTriggerAd {
           return memoizedHashCode;
         }
         int hash = 41;
-        hash = (19 * hash) + getDescriptorForType().hashCode();
+        hash = (19 * hash) + getDescriptor().hashCode();
         hash = (37 * hash) + ROW_ID_FIELD_NUMBER;
         hash = (53 * hash) + getRowId();
         hash = (29 * hash) + unknownFields.hashCode();
@@ -1966,13 +1966,13 @@ public final class OmModifyChangeOStatTriggerAd {
 
         private int rowId_ ;
         /**
-         * <code>optional int32 row_id = 10000;</code>
+         * <code>int32 row_id = 10000;</code>
          */
         public int getRowId() {
           return rowId_;
         }
         /**
-         * <code>optional int32 row_id = 10000;</code>
+         * <code>int32 row_id = 10000;</code>
          */
         public Builder setRowId(int value) {
           
@@ -1981,7 +1981,7 @@ public final class OmModifyChangeOStatTriggerAd {
           return this;
         }
         /**
-         * <code>optional int32 row_id = 10000;</code>
+         * <code>int32 row_id = 10000;</code>
          */
         public Builder clearRowId() {
           
@@ -2234,7 +2234,7 @@ public final class OmModifyChangeOStatTriggerAd {
         return memoizedHashCode;
       }
       int hash = 41;
-      hash = (19 * hash) + getDescriptorForType().hashCode();
+      hash = (19 * hash) + getDescriptor().hashCode();
       if (getMetaInformationCount() > 0) {
         hash = (37 * hash) + META_INFORMATION_FIELD_NUMBER;
         hash = (53 * hash) + getMetaInformationList().hashCode();

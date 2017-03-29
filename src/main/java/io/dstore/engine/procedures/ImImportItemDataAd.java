@@ -19,254 +19,254 @@ public final class ImImportItemDataAd {
       com.google.protobuf.MessageOrBuilder {
 
     /**
-     * <code>optional .dstore.values.BooleanValue log_errors = 1;</code>
+     * <code>.dstore.values.BooleanValue log_errors = 1;</code>
      */
     boolean hasLogErrors();
     /**
-     * <code>optional .dstore.values.BooleanValue log_errors = 1;</code>
+     * <code>.dstore.values.BooleanValue log_errors = 1;</code>
      */
     io.dstore.values.BooleanValue getLogErrors();
     /**
-     * <code>optional .dstore.values.BooleanValue log_errors = 1;</code>
+     * <code>.dstore.values.BooleanValue log_errors = 1;</code>
      */
     io.dstore.values.BooleanValueOrBuilder getLogErrorsOrBuilder();
 
     /**
-     * <code>optional bool log_errors_null = 1001;</code>
+     * <code>bool log_errors_null = 1001;</code>
      */
     boolean getLogErrorsNull();
 
     /**
-     * <code>optional .dstore.values.BooleanValue update_sort_no = 2;</code>
+     * <code>.dstore.values.BooleanValue update_sort_no = 2;</code>
      */
     boolean hasUpdateSortNo();
     /**
-     * <code>optional .dstore.values.BooleanValue update_sort_no = 2;</code>
+     * <code>.dstore.values.BooleanValue update_sort_no = 2;</code>
      */
     io.dstore.values.BooleanValue getUpdateSortNo();
     /**
-     * <code>optional .dstore.values.BooleanValue update_sort_no = 2;</code>
+     * <code>.dstore.values.BooleanValue update_sort_no = 2;</code>
      */
     io.dstore.values.BooleanValueOrBuilder getUpdateSortNoOrBuilder();
 
     /**
-     * <code>optional bool update_sort_no_null = 1002;</code>
+     * <code>bool update_sort_no_null = 1002;</code>
      */
     boolean getUpdateSortNoNull();
 
     /**
-     * <code>optional .dstore.values.BooleanValue check_text_and_bit_characs = 3;</code>
+     * <code>.dstore.values.BooleanValue check_text_and_bit_characs = 3;</code>
      */
     boolean hasCheckTextAndBitCharacs();
     /**
-     * <code>optional .dstore.values.BooleanValue check_text_and_bit_characs = 3;</code>
+     * <code>.dstore.values.BooleanValue check_text_and_bit_characs = 3;</code>
      */
     io.dstore.values.BooleanValue getCheckTextAndBitCharacs();
     /**
-     * <code>optional .dstore.values.BooleanValue check_text_and_bit_characs = 3;</code>
+     * <code>.dstore.values.BooleanValue check_text_and_bit_characs = 3;</code>
      */
     io.dstore.values.BooleanValueOrBuilder getCheckTextAndBitCharacsOrBuilder();
 
     /**
-     * <code>optional bool check_text_and_bit_characs_null = 1003;</code>
+     * <code>bool check_text_and_bit_characs_null = 1003;</code>
      */
     boolean getCheckTextAndBitCharacsNull();
 
     /**
-     * <code>optional .dstore.values.BooleanValue check_except_text_and_bit_characs = 4;</code>
+     * <code>.dstore.values.BooleanValue check_except_text_and_bit_characs = 4;</code>
      */
     boolean hasCheckExceptTextAndBitCharacs();
     /**
-     * <code>optional .dstore.values.BooleanValue check_except_text_and_bit_characs = 4;</code>
+     * <code>.dstore.values.BooleanValue check_except_text_and_bit_characs = 4;</code>
      */
     io.dstore.values.BooleanValue getCheckExceptTextAndBitCharacs();
     /**
-     * <code>optional .dstore.values.BooleanValue check_except_text_and_bit_characs = 4;</code>
+     * <code>.dstore.values.BooleanValue check_except_text_and_bit_characs = 4;</code>
      */
     io.dstore.values.BooleanValueOrBuilder getCheckExceptTextAndBitCharacsOrBuilder();
 
     /**
-     * <code>optional bool check_except_text_and_bit_characs_null = 1004;</code>
+     * <code>bool check_except_text_and_bit_characs_null = 1004;</code>
      */
     boolean getCheckExceptTextAndBitCharacsNull();
 
     /**
-     * <code>optional .dstore.values.IntegerValue performance_tuning = 5;</code>
+     * <code>.dstore.values.IntegerValue performance_tuning = 5;</code>
      */
     boolean hasPerformanceTuning();
     /**
-     * <code>optional .dstore.values.IntegerValue performance_tuning = 5;</code>
+     * <code>.dstore.values.IntegerValue performance_tuning = 5;</code>
      */
     io.dstore.values.IntegerValue getPerformanceTuning();
     /**
-     * <code>optional .dstore.values.IntegerValue performance_tuning = 5;</code>
+     * <code>.dstore.values.IntegerValue performance_tuning = 5;</code>
      */
     io.dstore.values.IntegerValueOrBuilder getPerformanceTuningOrBuilder();
 
     /**
-     * <code>optional bool performance_tuning_null = 1005;</code>
+     * <code>bool performance_tuning_null = 1005;</code>
      */
     boolean getPerformanceTuningNull();
 
     /**
-     * <code>optional .dstore.values.BooleanValue activate_imported_items = 6;</code>
+     * <code>.dstore.values.BooleanValue activate_imported_items = 6;</code>
      */
     boolean hasActivateImportedItems();
     /**
-     * <code>optional .dstore.values.BooleanValue activate_imported_items = 6;</code>
+     * <code>.dstore.values.BooleanValue activate_imported_items = 6;</code>
      */
     io.dstore.values.BooleanValue getActivateImportedItems();
     /**
-     * <code>optional .dstore.values.BooleanValue activate_imported_items = 6;</code>
+     * <code>.dstore.values.BooleanValue activate_imported_items = 6;</code>
      */
     io.dstore.values.BooleanValueOrBuilder getActivateImportedItemsOrBuilder();
 
     /**
-     * <code>optional bool activate_imported_items_null = 1006;</code>
+     * <code>bool activate_imported_items_null = 1006;</code>
      */
     boolean getActivateImportedItemsNull();
 
     /**
-     * <code>optional .dstore.values.IntegerValue handle_existing_item_not_imported = 7;</code>
+     * <code>.dstore.values.IntegerValue handle_existing_item_not_imported = 7;</code>
      */
     boolean hasHandleExistingItemNotImported();
     /**
-     * <code>optional .dstore.values.IntegerValue handle_existing_item_not_imported = 7;</code>
+     * <code>.dstore.values.IntegerValue handle_existing_item_not_imported = 7;</code>
      */
     io.dstore.values.IntegerValue getHandleExistingItemNotImported();
     /**
-     * <code>optional .dstore.values.IntegerValue handle_existing_item_not_imported = 7;</code>
+     * <code>.dstore.values.IntegerValue handle_existing_item_not_imported = 7;</code>
      */
     io.dstore.values.IntegerValueOrBuilder getHandleExistingItemNotImportedOrBuilder();
 
     /**
-     * <code>optional bool handle_existing_item_not_imported_null = 1007;</code>
+     * <code>bool handle_existing_item_not_imported_null = 1007;</code>
      */
     boolean getHandleExistingItemNotImportedNull();
 
     /**
-     * <code>optional .dstore.values.BooleanValue dump_transaction = 8;</code>
+     * <code>.dstore.values.BooleanValue dump_transaction = 8;</code>
      */
     boolean hasDumpTransaction();
     /**
-     * <code>optional .dstore.values.BooleanValue dump_transaction = 8;</code>
+     * <code>.dstore.values.BooleanValue dump_transaction = 8;</code>
      */
     io.dstore.values.BooleanValue getDumpTransaction();
     /**
-     * <code>optional .dstore.values.BooleanValue dump_transaction = 8;</code>
+     * <code>.dstore.values.BooleanValue dump_transaction = 8;</code>
      */
     io.dstore.values.BooleanValueOrBuilder getDumpTransactionOrBuilder();
 
     /**
-     * <code>optional bool dump_transaction_null = 1008;</code>
+     * <code>bool dump_transaction_null = 1008;</code>
      */
     boolean getDumpTransactionNull();
 
     /**
-     * <code>optional .dstore.values.StringValue country = 9;</code>
+     * <code>.dstore.values.StringValue country = 9;</code>
      */
     boolean hasCountry();
     /**
-     * <code>optional .dstore.values.StringValue country = 9;</code>
+     * <code>.dstore.values.StringValue country = 9;</code>
      */
     io.dstore.values.StringValue getCountry();
     /**
-     * <code>optional .dstore.values.StringValue country = 9;</code>
+     * <code>.dstore.values.StringValue country = 9;</code>
      */
     io.dstore.values.StringValueOrBuilder getCountryOrBuilder();
 
     /**
-     * <code>optional bool country_null = 1009;</code>
+     * <code>bool country_null = 1009;</code>
      */
     boolean getCountryNull();
 
     /**
-     * <code>optional .dstore.values.BooleanValue empty_string_to_delete_details = 10;</code>
+     * <code>.dstore.values.BooleanValue empty_string_to_delete_details = 10;</code>
      */
     boolean hasEmptyStringToDeleteDetails();
     /**
-     * <code>optional .dstore.values.BooleanValue empty_string_to_delete_details = 10;</code>
+     * <code>.dstore.values.BooleanValue empty_string_to_delete_details = 10;</code>
      */
     io.dstore.values.BooleanValue getEmptyStringToDeleteDetails();
     /**
-     * <code>optional .dstore.values.BooleanValue empty_string_to_delete_details = 10;</code>
+     * <code>.dstore.values.BooleanValue empty_string_to_delete_details = 10;</code>
      */
     io.dstore.values.BooleanValueOrBuilder getEmptyStringToDeleteDetailsOrBuilder();
 
     /**
-     * <code>optional bool empty_string_to_delete_details_null = 1010;</code>
+     * <code>bool empty_string_to_delete_details_null = 1010;</code>
      */
     boolean getEmptyStringToDeleteDetailsNull();
 
     /**
-     * <code>optional .dstore.values.BooleanValue empty_string_to_delete_property = 11;</code>
+     * <code>.dstore.values.BooleanValue empty_string_to_delete_property = 11;</code>
      */
     boolean hasEmptyStringToDeleteProperty();
     /**
-     * <code>optional .dstore.values.BooleanValue empty_string_to_delete_property = 11;</code>
+     * <code>.dstore.values.BooleanValue empty_string_to_delete_property = 11;</code>
      */
     io.dstore.values.BooleanValue getEmptyStringToDeleteProperty();
     /**
-     * <code>optional .dstore.values.BooleanValue empty_string_to_delete_property = 11;</code>
+     * <code>.dstore.values.BooleanValue empty_string_to_delete_property = 11;</code>
      */
     io.dstore.values.BooleanValueOrBuilder getEmptyStringToDeletePropertyOrBuilder();
 
     /**
-     * <code>optional bool empty_string_to_delete_property_null = 1011;</code>
+     * <code>bool empty_string_to_delete_property_null = 1011;</code>
      */
     boolean getEmptyStringToDeletePropertyNull();
 
     /**
-     * <code>optional .dstore.values.TimestampValue error_date_and_time = 12;</code>
+     * <code>.dstore.values.TimestampValue error_date_and_time = 12;</code>
      */
     boolean hasErrorDateAndTime();
     /**
-     * <code>optional .dstore.values.TimestampValue error_date_and_time = 12;</code>
+     * <code>.dstore.values.TimestampValue error_date_and_time = 12;</code>
      */
     io.dstore.values.TimestampValue getErrorDateAndTime();
     /**
-     * <code>optional .dstore.values.TimestampValue error_date_and_time = 12;</code>
+     * <code>.dstore.values.TimestampValue error_date_and_time = 12;</code>
      */
     io.dstore.values.TimestampValueOrBuilder getErrorDateAndTimeOrBuilder();
 
     /**
-     * <code>optional bool error_date_and_time_null = 1012;</code>
+     * <code>bool error_date_and_time_null = 1012;</code>
      */
     boolean getErrorDateAndTimeNull();
 
     /**
-     * <code>optional .dstore.values.StringValue import_from_table_name = 13;</code>
+     * <code>.dstore.values.StringValue import_from_table_name = 13;</code>
      */
     boolean hasImportFromTableName();
     /**
-     * <code>optional .dstore.values.StringValue import_from_table_name = 13;</code>
+     * <code>.dstore.values.StringValue import_from_table_name = 13;</code>
      */
     io.dstore.values.StringValue getImportFromTableName();
     /**
-     * <code>optional .dstore.values.StringValue import_from_table_name = 13;</code>
+     * <code>.dstore.values.StringValue import_from_table_name = 13;</code>
      */
     io.dstore.values.StringValueOrBuilder getImportFromTableNameOrBuilder();
 
     /**
-     * <code>optional bool import_from_table_name_null = 1013;</code>
+     * <code>bool import_from_table_name_null = 1013;</code>
      */
     boolean getImportFromTableNameNull();
 
     /**
-     * <code>optional .dstore.values.StringValue debug_mode = 14;</code>
+     * <code>.dstore.values.StringValue debug_mode = 14;</code>
      */
     boolean hasDebugMode();
     /**
-     * <code>optional .dstore.values.StringValue debug_mode = 14;</code>
+     * <code>.dstore.values.StringValue debug_mode = 14;</code>
      */
     io.dstore.values.StringValue getDebugMode();
     /**
-     * <code>optional .dstore.values.StringValue debug_mode = 14;</code>
+     * <code>.dstore.values.StringValue debug_mode = 14;</code>
      */
     io.dstore.values.StringValueOrBuilder getDebugModeOrBuilder();
 
     /**
-     * <code>optional bool debug_mode_null = 1014;</code>
+     * <code>bool debug_mode_null = 1014;</code>
      */
     boolean getDebugModeNull();
   }
@@ -601,19 +601,19 @@ public final class ImImportItemDataAd {
     public static final int LOG_ERRORS_FIELD_NUMBER = 1;
     private io.dstore.values.BooleanValue logErrors_;
     /**
-     * <code>optional .dstore.values.BooleanValue log_errors = 1;</code>
+     * <code>.dstore.values.BooleanValue log_errors = 1;</code>
      */
     public boolean hasLogErrors() {
       return logErrors_ != null;
     }
     /**
-     * <code>optional .dstore.values.BooleanValue log_errors = 1;</code>
+     * <code>.dstore.values.BooleanValue log_errors = 1;</code>
      */
     public io.dstore.values.BooleanValue getLogErrors() {
       return logErrors_ == null ? io.dstore.values.BooleanValue.getDefaultInstance() : logErrors_;
     }
     /**
-     * <code>optional .dstore.values.BooleanValue log_errors = 1;</code>
+     * <code>.dstore.values.BooleanValue log_errors = 1;</code>
      */
     public io.dstore.values.BooleanValueOrBuilder getLogErrorsOrBuilder() {
       return getLogErrors();
@@ -622,7 +622,7 @@ public final class ImImportItemDataAd {
     public static final int LOG_ERRORS_NULL_FIELD_NUMBER = 1001;
     private boolean logErrorsNull_;
     /**
-     * <code>optional bool log_errors_null = 1001;</code>
+     * <code>bool log_errors_null = 1001;</code>
      */
     public boolean getLogErrorsNull() {
       return logErrorsNull_;
@@ -631,19 +631,19 @@ public final class ImImportItemDataAd {
     public static final int UPDATE_SORT_NO_FIELD_NUMBER = 2;
     private io.dstore.values.BooleanValue updateSortNo_;
     /**
-     * <code>optional .dstore.values.BooleanValue update_sort_no = 2;</code>
+     * <code>.dstore.values.BooleanValue update_sort_no = 2;</code>
      */
     public boolean hasUpdateSortNo() {
       return updateSortNo_ != null;
     }
     /**
-     * <code>optional .dstore.values.BooleanValue update_sort_no = 2;</code>
+     * <code>.dstore.values.BooleanValue update_sort_no = 2;</code>
      */
     public io.dstore.values.BooleanValue getUpdateSortNo() {
       return updateSortNo_ == null ? io.dstore.values.BooleanValue.getDefaultInstance() : updateSortNo_;
     }
     /**
-     * <code>optional .dstore.values.BooleanValue update_sort_no = 2;</code>
+     * <code>.dstore.values.BooleanValue update_sort_no = 2;</code>
      */
     public io.dstore.values.BooleanValueOrBuilder getUpdateSortNoOrBuilder() {
       return getUpdateSortNo();
@@ -652,7 +652,7 @@ public final class ImImportItemDataAd {
     public static final int UPDATE_SORT_NO_NULL_FIELD_NUMBER = 1002;
     private boolean updateSortNoNull_;
     /**
-     * <code>optional bool update_sort_no_null = 1002;</code>
+     * <code>bool update_sort_no_null = 1002;</code>
      */
     public boolean getUpdateSortNoNull() {
       return updateSortNoNull_;
@@ -661,19 +661,19 @@ public final class ImImportItemDataAd {
     public static final int CHECK_TEXT_AND_BIT_CHARACS_FIELD_NUMBER = 3;
     private io.dstore.values.BooleanValue checkTextAndBitCharacs_;
     /**
-     * <code>optional .dstore.values.BooleanValue check_text_and_bit_characs = 3;</code>
+     * <code>.dstore.values.BooleanValue check_text_and_bit_characs = 3;</code>
      */
     public boolean hasCheckTextAndBitCharacs() {
       return checkTextAndBitCharacs_ != null;
     }
     /**
-     * <code>optional .dstore.values.BooleanValue check_text_and_bit_characs = 3;</code>
+     * <code>.dstore.values.BooleanValue check_text_and_bit_characs = 3;</code>
      */
     public io.dstore.values.BooleanValue getCheckTextAndBitCharacs() {
       return checkTextAndBitCharacs_ == null ? io.dstore.values.BooleanValue.getDefaultInstance() : checkTextAndBitCharacs_;
     }
     /**
-     * <code>optional .dstore.values.BooleanValue check_text_and_bit_characs = 3;</code>
+     * <code>.dstore.values.BooleanValue check_text_and_bit_characs = 3;</code>
      */
     public io.dstore.values.BooleanValueOrBuilder getCheckTextAndBitCharacsOrBuilder() {
       return getCheckTextAndBitCharacs();
@@ -682,7 +682,7 @@ public final class ImImportItemDataAd {
     public static final int CHECK_TEXT_AND_BIT_CHARACS_NULL_FIELD_NUMBER = 1003;
     private boolean checkTextAndBitCharacsNull_;
     /**
-     * <code>optional bool check_text_and_bit_characs_null = 1003;</code>
+     * <code>bool check_text_and_bit_characs_null = 1003;</code>
      */
     public boolean getCheckTextAndBitCharacsNull() {
       return checkTextAndBitCharacsNull_;
@@ -691,19 +691,19 @@ public final class ImImportItemDataAd {
     public static final int CHECK_EXCEPT_TEXT_AND_BIT_CHARACS_FIELD_NUMBER = 4;
     private io.dstore.values.BooleanValue checkExceptTextAndBitCharacs_;
     /**
-     * <code>optional .dstore.values.BooleanValue check_except_text_and_bit_characs = 4;</code>
+     * <code>.dstore.values.BooleanValue check_except_text_and_bit_characs = 4;</code>
      */
     public boolean hasCheckExceptTextAndBitCharacs() {
       return checkExceptTextAndBitCharacs_ != null;
     }
     /**
-     * <code>optional .dstore.values.BooleanValue check_except_text_and_bit_characs = 4;</code>
+     * <code>.dstore.values.BooleanValue check_except_text_and_bit_characs = 4;</code>
      */
     public io.dstore.values.BooleanValue getCheckExceptTextAndBitCharacs() {
       return checkExceptTextAndBitCharacs_ == null ? io.dstore.values.BooleanValue.getDefaultInstance() : checkExceptTextAndBitCharacs_;
     }
     /**
-     * <code>optional .dstore.values.BooleanValue check_except_text_and_bit_characs = 4;</code>
+     * <code>.dstore.values.BooleanValue check_except_text_and_bit_characs = 4;</code>
      */
     public io.dstore.values.BooleanValueOrBuilder getCheckExceptTextAndBitCharacsOrBuilder() {
       return getCheckExceptTextAndBitCharacs();
@@ -712,7 +712,7 @@ public final class ImImportItemDataAd {
     public static final int CHECK_EXCEPT_TEXT_AND_BIT_CHARACS_NULL_FIELD_NUMBER = 1004;
     private boolean checkExceptTextAndBitCharacsNull_;
     /**
-     * <code>optional bool check_except_text_and_bit_characs_null = 1004;</code>
+     * <code>bool check_except_text_and_bit_characs_null = 1004;</code>
      */
     public boolean getCheckExceptTextAndBitCharacsNull() {
       return checkExceptTextAndBitCharacsNull_;
@@ -721,19 +721,19 @@ public final class ImImportItemDataAd {
     public static final int PERFORMANCE_TUNING_FIELD_NUMBER = 5;
     private io.dstore.values.IntegerValue performanceTuning_;
     /**
-     * <code>optional .dstore.values.IntegerValue performance_tuning = 5;</code>
+     * <code>.dstore.values.IntegerValue performance_tuning = 5;</code>
      */
     public boolean hasPerformanceTuning() {
       return performanceTuning_ != null;
     }
     /**
-     * <code>optional .dstore.values.IntegerValue performance_tuning = 5;</code>
+     * <code>.dstore.values.IntegerValue performance_tuning = 5;</code>
      */
     public io.dstore.values.IntegerValue getPerformanceTuning() {
       return performanceTuning_ == null ? io.dstore.values.IntegerValue.getDefaultInstance() : performanceTuning_;
     }
     /**
-     * <code>optional .dstore.values.IntegerValue performance_tuning = 5;</code>
+     * <code>.dstore.values.IntegerValue performance_tuning = 5;</code>
      */
     public io.dstore.values.IntegerValueOrBuilder getPerformanceTuningOrBuilder() {
       return getPerformanceTuning();
@@ -742,7 +742,7 @@ public final class ImImportItemDataAd {
     public static final int PERFORMANCE_TUNING_NULL_FIELD_NUMBER = 1005;
     private boolean performanceTuningNull_;
     /**
-     * <code>optional bool performance_tuning_null = 1005;</code>
+     * <code>bool performance_tuning_null = 1005;</code>
      */
     public boolean getPerformanceTuningNull() {
       return performanceTuningNull_;
@@ -751,19 +751,19 @@ public final class ImImportItemDataAd {
     public static final int ACTIVATE_IMPORTED_ITEMS_FIELD_NUMBER = 6;
     private io.dstore.values.BooleanValue activateImportedItems_;
     /**
-     * <code>optional .dstore.values.BooleanValue activate_imported_items = 6;</code>
+     * <code>.dstore.values.BooleanValue activate_imported_items = 6;</code>
      */
     public boolean hasActivateImportedItems() {
       return activateImportedItems_ != null;
     }
     /**
-     * <code>optional .dstore.values.BooleanValue activate_imported_items = 6;</code>
+     * <code>.dstore.values.BooleanValue activate_imported_items = 6;</code>
      */
     public io.dstore.values.BooleanValue getActivateImportedItems() {
       return activateImportedItems_ == null ? io.dstore.values.BooleanValue.getDefaultInstance() : activateImportedItems_;
     }
     /**
-     * <code>optional .dstore.values.BooleanValue activate_imported_items = 6;</code>
+     * <code>.dstore.values.BooleanValue activate_imported_items = 6;</code>
      */
     public io.dstore.values.BooleanValueOrBuilder getActivateImportedItemsOrBuilder() {
       return getActivateImportedItems();
@@ -772,7 +772,7 @@ public final class ImImportItemDataAd {
     public static final int ACTIVATE_IMPORTED_ITEMS_NULL_FIELD_NUMBER = 1006;
     private boolean activateImportedItemsNull_;
     /**
-     * <code>optional bool activate_imported_items_null = 1006;</code>
+     * <code>bool activate_imported_items_null = 1006;</code>
      */
     public boolean getActivateImportedItemsNull() {
       return activateImportedItemsNull_;
@@ -781,19 +781,19 @@ public final class ImImportItemDataAd {
     public static final int HANDLE_EXISTING_ITEM_NOT_IMPORTED_FIELD_NUMBER = 7;
     private io.dstore.values.IntegerValue handleExistingItemNotImported_;
     /**
-     * <code>optional .dstore.values.IntegerValue handle_existing_item_not_imported = 7;</code>
+     * <code>.dstore.values.IntegerValue handle_existing_item_not_imported = 7;</code>
      */
     public boolean hasHandleExistingItemNotImported() {
       return handleExistingItemNotImported_ != null;
     }
     /**
-     * <code>optional .dstore.values.IntegerValue handle_existing_item_not_imported = 7;</code>
+     * <code>.dstore.values.IntegerValue handle_existing_item_not_imported = 7;</code>
      */
     public io.dstore.values.IntegerValue getHandleExistingItemNotImported() {
       return handleExistingItemNotImported_ == null ? io.dstore.values.IntegerValue.getDefaultInstance() : handleExistingItemNotImported_;
     }
     /**
-     * <code>optional .dstore.values.IntegerValue handle_existing_item_not_imported = 7;</code>
+     * <code>.dstore.values.IntegerValue handle_existing_item_not_imported = 7;</code>
      */
     public io.dstore.values.IntegerValueOrBuilder getHandleExistingItemNotImportedOrBuilder() {
       return getHandleExistingItemNotImported();
@@ -802,7 +802,7 @@ public final class ImImportItemDataAd {
     public static final int HANDLE_EXISTING_ITEM_NOT_IMPORTED_NULL_FIELD_NUMBER = 1007;
     private boolean handleExistingItemNotImportedNull_;
     /**
-     * <code>optional bool handle_existing_item_not_imported_null = 1007;</code>
+     * <code>bool handle_existing_item_not_imported_null = 1007;</code>
      */
     public boolean getHandleExistingItemNotImportedNull() {
       return handleExistingItemNotImportedNull_;
@@ -811,19 +811,19 @@ public final class ImImportItemDataAd {
     public static final int DUMP_TRANSACTION_FIELD_NUMBER = 8;
     private io.dstore.values.BooleanValue dumpTransaction_;
     /**
-     * <code>optional .dstore.values.BooleanValue dump_transaction = 8;</code>
+     * <code>.dstore.values.BooleanValue dump_transaction = 8;</code>
      */
     public boolean hasDumpTransaction() {
       return dumpTransaction_ != null;
     }
     /**
-     * <code>optional .dstore.values.BooleanValue dump_transaction = 8;</code>
+     * <code>.dstore.values.BooleanValue dump_transaction = 8;</code>
      */
     public io.dstore.values.BooleanValue getDumpTransaction() {
       return dumpTransaction_ == null ? io.dstore.values.BooleanValue.getDefaultInstance() : dumpTransaction_;
     }
     /**
-     * <code>optional .dstore.values.BooleanValue dump_transaction = 8;</code>
+     * <code>.dstore.values.BooleanValue dump_transaction = 8;</code>
      */
     public io.dstore.values.BooleanValueOrBuilder getDumpTransactionOrBuilder() {
       return getDumpTransaction();
@@ -832,7 +832,7 @@ public final class ImImportItemDataAd {
     public static final int DUMP_TRANSACTION_NULL_FIELD_NUMBER = 1008;
     private boolean dumpTransactionNull_;
     /**
-     * <code>optional bool dump_transaction_null = 1008;</code>
+     * <code>bool dump_transaction_null = 1008;</code>
      */
     public boolean getDumpTransactionNull() {
       return dumpTransactionNull_;
@@ -841,19 +841,19 @@ public final class ImImportItemDataAd {
     public static final int COUNTRY_FIELD_NUMBER = 9;
     private io.dstore.values.StringValue country_;
     /**
-     * <code>optional .dstore.values.StringValue country = 9;</code>
+     * <code>.dstore.values.StringValue country = 9;</code>
      */
     public boolean hasCountry() {
       return country_ != null;
     }
     /**
-     * <code>optional .dstore.values.StringValue country = 9;</code>
+     * <code>.dstore.values.StringValue country = 9;</code>
      */
     public io.dstore.values.StringValue getCountry() {
       return country_ == null ? io.dstore.values.StringValue.getDefaultInstance() : country_;
     }
     /**
-     * <code>optional .dstore.values.StringValue country = 9;</code>
+     * <code>.dstore.values.StringValue country = 9;</code>
      */
     public io.dstore.values.StringValueOrBuilder getCountryOrBuilder() {
       return getCountry();
@@ -862,7 +862,7 @@ public final class ImImportItemDataAd {
     public static final int COUNTRY_NULL_FIELD_NUMBER = 1009;
     private boolean countryNull_;
     /**
-     * <code>optional bool country_null = 1009;</code>
+     * <code>bool country_null = 1009;</code>
      */
     public boolean getCountryNull() {
       return countryNull_;
@@ -871,19 +871,19 @@ public final class ImImportItemDataAd {
     public static final int EMPTY_STRING_TO_DELETE_DETAILS_FIELD_NUMBER = 10;
     private io.dstore.values.BooleanValue emptyStringToDeleteDetails_;
     /**
-     * <code>optional .dstore.values.BooleanValue empty_string_to_delete_details = 10;</code>
+     * <code>.dstore.values.BooleanValue empty_string_to_delete_details = 10;</code>
      */
     public boolean hasEmptyStringToDeleteDetails() {
       return emptyStringToDeleteDetails_ != null;
     }
     /**
-     * <code>optional .dstore.values.BooleanValue empty_string_to_delete_details = 10;</code>
+     * <code>.dstore.values.BooleanValue empty_string_to_delete_details = 10;</code>
      */
     public io.dstore.values.BooleanValue getEmptyStringToDeleteDetails() {
       return emptyStringToDeleteDetails_ == null ? io.dstore.values.BooleanValue.getDefaultInstance() : emptyStringToDeleteDetails_;
     }
     /**
-     * <code>optional .dstore.values.BooleanValue empty_string_to_delete_details = 10;</code>
+     * <code>.dstore.values.BooleanValue empty_string_to_delete_details = 10;</code>
      */
     public io.dstore.values.BooleanValueOrBuilder getEmptyStringToDeleteDetailsOrBuilder() {
       return getEmptyStringToDeleteDetails();
@@ -892,7 +892,7 @@ public final class ImImportItemDataAd {
     public static final int EMPTY_STRING_TO_DELETE_DETAILS_NULL_FIELD_NUMBER = 1010;
     private boolean emptyStringToDeleteDetailsNull_;
     /**
-     * <code>optional bool empty_string_to_delete_details_null = 1010;</code>
+     * <code>bool empty_string_to_delete_details_null = 1010;</code>
      */
     public boolean getEmptyStringToDeleteDetailsNull() {
       return emptyStringToDeleteDetailsNull_;
@@ -901,19 +901,19 @@ public final class ImImportItemDataAd {
     public static final int EMPTY_STRING_TO_DELETE_PROPERTY_FIELD_NUMBER = 11;
     private io.dstore.values.BooleanValue emptyStringToDeleteProperty_;
     /**
-     * <code>optional .dstore.values.BooleanValue empty_string_to_delete_property = 11;</code>
+     * <code>.dstore.values.BooleanValue empty_string_to_delete_property = 11;</code>
      */
     public boolean hasEmptyStringToDeleteProperty() {
       return emptyStringToDeleteProperty_ != null;
     }
     /**
-     * <code>optional .dstore.values.BooleanValue empty_string_to_delete_property = 11;</code>
+     * <code>.dstore.values.BooleanValue empty_string_to_delete_property = 11;</code>
      */
     public io.dstore.values.BooleanValue getEmptyStringToDeleteProperty() {
       return emptyStringToDeleteProperty_ == null ? io.dstore.values.BooleanValue.getDefaultInstance() : emptyStringToDeleteProperty_;
     }
     /**
-     * <code>optional .dstore.values.BooleanValue empty_string_to_delete_property = 11;</code>
+     * <code>.dstore.values.BooleanValue empty_string_to_delete_property = 11;</code>
      */
     public io.dstore.values.BooleanValueOrBuilder getEmptyStringToDeletePropertyOrBuilder() {
       return getEmptyStringToDeleteProperty();
@@ -922,7 +922,7 @@ public final class ImImportItemDataAd {
     public static final int EMPTY_STRING_TO_DELETE_PROPERTY_NULL_FIELD_NUMBER = 1011;
     private boolean emptyStringToDeletePropertyNull_;
     /**
-     * <code>optional bool empty_string_to_delete_property_null = 1011;</code>
+     * <code>bool empty_string_to_delete_property_null = 1011;</code>
      */
     public boolean getEmptyStringToDeletePropertyNull() {
       return emptyStringToDeletePropertyNull_;
@@ -931,19 +931,19 @@ public final class ImImportItemDataAd {
     public static final int ERROR_DATE_AND_TIME_FIELD_NUMBER = 12;
     private io.dstore.values.TimestampValue errorDateAndTime_;
     /**
-     * <code>optional .dstore.values.TimestampValue error_date_and_time = 12;</code>
+     * <code>.dstore.values.TimestampValue error_date_and_time = 12;</code>
      */
     public boolean hasErrorDateAndTime() {
       return errorDateAndTime_ != null;
     }
     /**
-     * <code>optional .dstore.values.TimestampValue error_date_and_time = 12;</code>
+     * <code>.dstore.values.TimestampValue error_date_and_time = 12;</code>
      */
     public io.dstore.values.TimestampValue getErrorDateAndTime() {
       return errorDateAndTime_ == null ? io.dstore.values.TimestampValue.getDefaultInstance() : errorDateAndTime_;
     }
     /**
-     * <code>optional .dstore.values.TimestampValue error_date_and_time = 12;</code>
+     * <code>.dstore.values.TimestampValue error_date_and_time = 12;</code>
      */
     public io.dstore.values.TimestampValueOrBuilder getErrorDateAndTimeOrBuilder() {
       return getErrorDateAndTime();
@@ -952,7 +952,7 @@ public final class ImImportItemDataAd {
     public static final int ERROR_DATE_AND_TIME_NULL_FIELD_NUMBER = 1012;
     private boolean errorDateAndTimeNull_;
     /**
-     * <code>optional bool error_date_and_time_null = 1012;</code>
+     * <code>bool error_date_and_time_null = 1012;</code>
      */
     public boolean getErrorDateAndTimeNull() {
       return errorDateAndTimeNull_;
@@ -961,19 +961,19 @@ public final class ImImportItemDataAd {
     public static final int IMPORT_FROM_TABLE_NAME_FIELD_NUMBER = 13;
     private io.dstore.values.StringValue importFromTableName_;
     /**
-     * <code>optional .dstore.values.StringValue import_from_table_name = 13;</code>
+     * <code>.dstore.values.StringValue import_from_table_name = 13;</code>
      */
     public boolean hasImportFromTableName() {
       return importFromTableName_ != null;
     }
     /**
-     * <code>optional .dstore.values.StringValue import_from_table_name = 13;</code>
+     * <code>.dstore.values.StringValue import_from_table_name = 13;</code>
      */
     public io.dstore.values.StringValue getImportFromTableName() {
       return importFromTableName_ == null ? io.dstore.values.StringValue.getDefaultInstance() : importFromTableName_;
     }
     /**
-     * <code>optional .dstore.values.StringValue import_from_table_name = 13;</code>
+     * <code>.dstore.values.StringValue import_from_table_name = 13;</code>
      */
     public io.dstore.values.StringValueOrBuilder getImportFromTableNameOrBuilder() {
       return getImportFromTableName();
@@ -982,7 +982,7 @@ public final class ImImportItemDataAd {
     public static final int IMPORT_FROM_TABLE_NAME_NULL_FIELD_NUMBER = 1013;
     private boolean importFromTableNameNull_;
     /**
-     * <code>optional bool import_from_table_name_null = 1013;</code>
+     * <code>bool import_from_table_name_null = 1013;</code>
      */
     public boolean getImportFromTableNameNull() {
       return importFromTableNameNull_;
@@ -991,19 +991,19 @@ public final class ImImportItemDataAd {
     public static final int DEBUG_MODE_FIELD_NUMBER = 14;
     private io.dstore.values.StringValue debugMode_;
     /**
-     * <code>optional .dstore.values.StringValue debug_mode = 14;</code>
+     * <code>.dstore.values.StringValue debug_mode = 14;</code>
      */
     public boolean hasDebugMode() {
       return debugMode_ != null;
     }
     /**
-     * <code>optional .dstore.values.StringValue debug_mode = 14;</code>
+     * <code>.dstore.values.StringValue debug_mode = 14;</code>
      */
     public io.dstore.values.StringValue getDebugMode() {
       return debugMode_ == null ? io.dstore.values.StringValue.getDefaultInstance() : debugMode_;
     }
     /**
-     * <code>optional .dstore.values.StringValue debug_mode = 14;</code>
+     * <code>.dstore.values.StringValue debug_mode = 14;</code>
      */
     public io.dstore.values.StringValueOrBuilder getDebugModeOrBuilder() {
       return getDebugMode();
@@ -1012,7 +1012,7 @@ public final class ImImportItemDataAd {
     public static final int DEBUG_MODE_NULL_FIELD_NUMBER = 1014;
     private boolean debugModeNull_;
     /**
-     * <code>optional bool debug_mode_null = 1014;</code>
+     * <code>bool debug_mode_null = 1014;</code>
      */
     public boolean getDebugModeNull() {
       return debugModeNull_;
@@ -1356,7 +1356,7 @@ public final class ImImportItemDataAd {
         return memoizedHashCode;
       }
       int hash = 41;
-      hash = (19 * hash) + getDescriptorForType().hashCode();
+      hash = (19 * hash) + getDescriptor().hashCode();
       if (hasLogErrors()) {
         hash = (37 * hash) + LOG_ERRORS_FIELD_NUMBER;
         hash = (53 * hash) + getLogErrors().hashCode();
@@ -1946,13 +1946,13 @@ public final class ImImportItemDataAd {
       private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.values.BooleanValue, io.dstore.values.BooleanValue.Builder, io.dstore.values.BooleanValueOrBuilder> logErrorsBuilder_;
       /**
-       * <code>optional .dstore.values.BooleanValue log_errors = 1;</code>
+       * <code>.dstore.values.BooleanValue log_errors = 1;</code>
        */
       public boolean hasLogErrors() {
         return logErrorsBuilder_ != null || logErrors_ != null;
       }
       /**
-       * <code>optional .dstore.values.BooleanValue log_errors = 1;</code>
+       * <code>.dstore.values.BooleanValue log_errors = 1;</code>
        */
       public io.dstore.values.BooleanValue getLogErrors() {
         if (logErrorsBuilder_ == null) {
@@ -1962,7 +1962,7 @@ public final class ImImportItemDataAd {
         }
       }
       /**
-       * <code>optional .dstore.values.BooleanValue log_errors = 1;</code>
+       * <code>.dstore.values.BooleanValue log_errors = 1;</code>
        */
       public Builder setLogErrors(io.dstore.values.BooleanValue value) {
         if (logErrorsBuilder_ == null) {
@@ -1978,7 +1978,7 @@ public final class ImImportItemDataAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.BooleanValue log_errors = 1;</code>
+       * <code>.dstore.values.BooleanValue log_errors = 1;</code>
        */
       public Builder setLogErrors(
           io.dstore.values.BooleanValue.Builder builderForValue) {
@@ -1992,7 +1992,7 @@ public final class ImImportItemDataAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.BooleanValue log_errors = 1;</code>
+       * <code>.dstore.values.BooleanValue log_errors = 1;</code>
        */
       public Builder mergeLogErrors(io.dstore.values.BooleanValue value) {
         if (logErrorsBuilder_ == null) {
@@ -2010,7 +2010,7 @@ public final class ImImportItemDataAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.BooleanValue log_errors = 1;</code>
+       * <code>.dstore.values.BooleanValue log_errors = 1;</code>
        */
       public Builder clearLogErrors() {
         if (logErrorsBuilder_ == null) {
@@ -2024,7 +2024,7 @@ public final class ImImportItemDataAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.BooleanValue log_errors = 1;</code>
+       * <code>.dstore.values.BooleanValue log_errors = 1;</code>
        */
       public io.dstore.values.BooleanValue.Builder getLogErrorsBuilder() {
         
@@ -2032,7 +2032,7 @@ public final class ImImportItemDataAd {
         return getLogErrorsFieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .dstore.values.BooleanValue log_errors = 1;</code>
+       * <code>.dstore.values.BooleanValue log_errors = 1;</code>
        */
       public io.dstore.values.BooleanValueOrBuilder getLogErrorsOrBuilder() {
         if (logErrorsBuilder_ != null) {
@@ -2043,7 +2043,7 @@ public final class ImImportItemDataAd {
         }
       }
       /**
-       * <code>optional .dstore.values.BooleanValue log_errors = 1;</code>
+       * <code>.dstore.values.BooleanValue log_errors = 1;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.values.BooleanValue, io.dstore.values.BooleanValue.Builder, io.dstore.values.BooleanValueOrBuilder> 
@@ -2061,13 +2061,13 @@ public final class ImImportItemDataAd {
 
       private boolean logErrorsNull_ ;
       /**
-       * <code>optional bool log_errors_null = 1001;</code>
+       * <code>bool log_errors_null = 1001;</code>
        */
       public boolean getLogErrorsNull() {
         return logErrorsNull_;
       }
       /**
-       * <code>optional bool log_errors_null = 1001;</code>
+       * <code>bool log_errors_null = 1001;</code>
        */
       public Builder setLogErrorsNull(boolean value) {
         
@@ -2076,7 +2076,7 @@ public final class ImImportItemDataAd {
         return this;
       }
       /**
-       * <code>optional bool log_errors_null = 1001;</code>
+       * <code>bool log_errors_null = 1001;</code>
        */
       public Builder clearLogErrorsNull() {
         
@@ -2089,13 +2089,13 @@ public final class ImImportItemDataAd {
       private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.values.BooleanValue, io.dstore.values.BooleanValue.Builder, io.dstore.values.BooleanValueOrBuilder> updateSortNoBuilder_;
       /**
-       * <code>optional .dstore.values.BooleanValue update_sort_no = 2;</code>
+       * <code>.dstore.values.BooleanValue update_sort_no = 2;</code>
        */
       public boolean hasUpdateSortNo() {
         return updateSortNoBuilder_ != null || updateSortNo_ != null;
       }
       /**
-       * <code>optional .dstore.values.BooleanValue update_sort_no = 2;</code>
+       * <code>.dstore.values.BooleanValue update_sort_no = 2;</code>
        */
       public io.dstore.values.BooleanValue getUpdateSortNo() {
         if (updateSortNoBuilder_ == null) {
@@ -2105,7 +2105,7 @@ public final class ImImportItemDataAd {
         }
       }
       /**
-       * <code>optional .dstore.values.BooleanValue update_sort_no = 2;</code>
+       * <code>.dstore.values.BooleanValue update_sort_no = 2;</code>
        */
       public Builder setUpdateSortNo(io.dstore.values.BooleanValue value) {
         if (updateSortNoBuilder_ == null) {
@@ -2121,7 +2121,7 @@ public final class ImImportItemDataAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.BooleanValue update_sort_no = 2;</code>
+       * <code>.dstore.values.BooleanValue update_sort_no = 2;</code>
        */
       public Builder setUpdateSortNo(
           io.dstore.values.BooleanValue.Builder builderForValue) {
@@ -2135,7 +2135,7 @@ public final class ImImportItemDataAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.BooleanValue update_sort_no = 2;</code>
+       * <code>.dstore.values.BooleanValue update_sort_no = 2;</code>
        */
       public Builder mergeUpdateSortNo(io.dstore.values.BooleanValue value) {
         if (updateSortNoBuilder_ == null) {
@@ -2153,7 +2153,7 @@ public final class ImImportItemDataAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.BooleanValue update_sort_no = 2;</code>
+       * <code>.dstore.values.BooleanValue update_sort_no = 2;</code>
        */
       public Builder clearUpdateSortNo() {
         if (updateSortNoBuilder_ == null) {
@@ -2167,7 +2167,7 @@ public final class ImImportItemDataAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.BooleanValue update_sort_no = 2;</code>
+       * <code>.dstore.values.BooleanValue update_sort_no = 2;</code>
        */
       public io.dstore.values.BooleanValue.Builder getUpdateSortNoBuilder() {
         
@@ -2175,7 +2175,7 @@ public final class ImImportItemDataAd {
         return getUpdateSortNoFieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .dstore.values.BooleanValue update_sort_no = 2;</code>
+       * <code>.dstore.values.BooleanValue update_sort_no = 2;</code>
        */
       public io.dstore.values.BooleanValueOrBuilder getUpdateSortNoOrBuilder() {
         if (updateSortNoBuilder_ != null) {
@@ -2186,7 +2186,7 @@ public final class ImImportItemDataAd {
         }
       }
       /**
-       * <code>optional .dstore.values.BooleanValue update_sort_no = 2;</code>
+       * <code>.dstore.values.BooleanValue update_sort_no = 2;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.values.BooleanValue, io.dstore.values.BooleanValue.Builder, io.dstore.values.BooleanValueOrBuilder> 
@@ -2204,13 +2204,13 @@ public final class ImImportItemDataAd {
 
       private boolean updateSortNoNull_ ;
       /**
-       * <code>optional bool update_sort_no_null = 1002;</code>
+       * <code>bool update_sort_no_null = 1002;</code>
        */
       public boolean getUpdateSortNoNull() {
         return updateSortNoNull_;
       }
       /**
-       * <code>optional bool update_sort_no_null = 1002;</code>
+       * <code>bool update_sort_no_null = 1002;</code>
        */
       public Builder setUpdateSortNoNull(boolean value) {
         
@@ -2219,7 +2219,7 @@ public final class ImImportItemDataAd {
         return this;
       }
       /**
-       * <code>optional bool update_sort_no_null = 1002;</code>
+       * <code>bool update_sort_no_null = 1002;</code>
        */
       public Builder clearUpdateSortNoNull() {
         
@@ -2232,13 +2232,13 @@ public final class ImImportItemDataAd {
       private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.values.BooleanValue, io.dstore.values.BooleanValue.Builder, io.dstore.values.BooleanValueOrBuilder> checkTextAndBitCharacsBuilder_;
       /**
-       * <code>optional .dstore.values.BooleanValue check_text_and_bit_characs = 3;</code>
+       * <code>.dstore.values.BooleanValue check_text_and_bit_characs = 3;</code>
        */
       public boolean hasCheckTextAndBitCharacs() {
         return checkTextAndBitCharacsBuilder_ != null || checkTextAndBitCharacs_ != null;
       }
       /**
-       * <code>optional .dstore.values.BooleanValue check_text_and_bit_characs = 3;</code>
+       * <code>.dstore.values.BooleanValue check_text_and_bit_characs = 3;</code>
        */
       public io.dstore.values.BooleanValue getCheckTextAndBitCharacs() {
         if (checkTextAndBitCharacsBuilder_ == null) {
@@ -2248,7 +2248,7 @@ public final class ImImportItemDataAd {
         }
       }
       /**
-       * <code>optional .dstore.values.BooleanValue check_text_and_bit_characs = 3;</code>
+       * <code>.dstore.values.BooleanValue check_text_and_bit_characs = 3;</code>
        */
       public Builder setCheckTextAndBitCharacs(io.dstore.values.BooleanValue value) {
         if (checkTextAndBitCharacsBuilder_ == null) {
@@ -2264,7 +2264,7 @@ public final class ImImportItemDataAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.BooleanValue check_text_and_bit_characs = 3;</code>
+       * <code>.dstore.values.BooleanValue check_text_and_bit_characs = 3;</code>
        */
       public Builder setCheckTextAndBitCharacs(
           io.dstore.values.BooleanValue.Builder builderForValue) {
@@ -2278,7 +2278,7 @@ public final class ImImportItemDataAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.BooleanValue check_text_and_bit_characs = 3;</code>
+       * <code>.dstore.values.BooleanValue check_text_and_bit_characs = 3;</code>
        */
       public Builder mergeCheckTextAndBitCharacs(io.dstore.values.BooleanValue value) {
         if (checkTextAndBitCharacsBuilder_ == null) {
@@ -2296,7 +2296,7 @@ public final class ImImportItemDataAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.BooleanValue check_text_and_bit_characs = 3;</code>
+       * <code>.dstore.values.BooleanValue check_text_and_bit_characs = 3;</code>
        */
       public Builder clearCheckTextAndBitCharacs() {
         if (checkTextAndBitCharacsBuilder_ == null) {
@@ -2310,7 +2310,7 @@ public final class ImImportItemDataAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.BooleanValue check_text_and_bit_characs = 3;</code>
+       * <code>.dstore.values.BooleanValue check_text_and_bit_characs = 3;</code>
        */
       public io.dstore.values.BooleanValue.Builder getCheckTextAndBitCharacsBuilder() {
         
@@ -2318,7 +2318,7 @@ public final class ImImportItemDataAd {
         return getCheckTextAndBitCharacsFieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .dstore.values.BooleanValue check_text_and_bit_characs = 3;</code>
+       * <code>.dstore.values.BooleanValue check_text_and_bit_characs = 3;</code>
        */
       public io.dstore.values.BooleanValueOrBuilder getCheckTextAndBitCharacsOrBuilder() {
         if (checkTextAndBitCharacsBuilder_ != null) {
@@ -2329,7 +2329,7 @@ public final class ImImportItemDataAd {
         }
       }
       /**
-       * <code>optional .dstore.values.BooleanValue check_text_and_bit_characs = 3;</code>
+       * <code>.dstore.values.BooleanValue check_text_and_bit_characs = 3;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.values.BooleanValue, io.dstore.values.BooleanValue.Builder, io.dstore.values.BooleanValueOrBuilder> 
@@ -2347,13 +2347,13 @@ public final class ImImportItemDataAd {
 
       private boolean checkTextAndBitCharacsNull_ ;
       /**
-       * <code>optional bool check_text_and_bit_characs_null = 1003;</code>
+       * <code>bool check_text_and_bit_characs_null = 1003;</code>
        */
       public boolean getCheckTextAndBitCharacsNull() {
         return checkTextAndBitCharacsNull_;
       }
       /**
-       * <code>optional bool check_text_and_bit_characs_null = 1003;</code>
+       * <code>bool check_text_and_bit_characs_null = 1003;</code>
        */
       public Builder setCheckTextAndBitCharacsNull(boolean value) {
         
@@ -2362,7 +2362,7 @@ public final class ImImportItemDataAd {
         return this;
       }
       /**
-       * <code>optional bool check_text_and_bit_characs_null = 1003;</code>
+       * <code>bool check_text_and_bit_characs_null = 1003;</code>
        */
       public Builder clearCheckTextAndBitCharacsNull() {
         
@@ -2375,13 +2375,13 @@ public final class ImImportItemDataAd {
       private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.values.BooleanValue, io.dstore.values.BooleanValue.Builder, io.dstore.values.BooleanValueOrBuilder> checkExceptTextAndBitCharacsBuilder_;
       /**
-       * <code>optional .dstore.values.BooleanValue check_except_text_and_bit_characs = 4;</code>
+       * <code>.dstore.values.BooleanValue check_except_text_and_bit_characs = 4;</code>
        */
       public boolean hasCheckExceptTextAndBitCharacs() {
         return checkExceptTextAndBitCharacsBuilder_ != null || checkExceptTextAndBitCharacs_ != null;
       }
       /**
-       * <code>optional .dstore.values.BooleanValue check_except_text_and_bit_characs = 4;</code>
+       * <code>.dstore.values.BooleanValue check_except_text_and_bit_characs = 4;</code>
        */
       public io.dstore.values.BooleanValue getCheckExceptTextAndBitCharacs() {
         if (checkExceptTextAndBitCharacsBuilder_ == null) {
@@ -2391,7 +2391,7 @@ public final class ImImportItemDataAd {
         }
       }
       /**
-       * <code>optional .dstore.values.BooleanValue check_except_text_and_bit_characs = 4;</code>
+       * <code>.dstore.values.BooleanValue check_except_text_and_bit_characs = 4;</code>
        */
       public Builder setCheckExceptTextAndBitCharacs(io.dstore.values.BooleanValue value) {
         if (checkExceptTextAndBitCharacsBuilder_ == null) {
@@ -2407,7 +2407,7 @@ public final class ImImportItemDataAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.BooleanValue check_except_text_and_bit_characs = 4;</code>
+       * <code>.dstore.values.BooleanValue check_except_text_and_bit_characs = 4;</code>
        */
       public Builder setCheckExceptTextAndBitCharacs(
           io.dstore.values.BooleanValue.Builder builderForValue) {
@@ -2421,7 +2421,7 @@ public final class ImImportItemDataAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.BooleanValue check_except_text_and_bit_characs = 4;</code>
+       * <code>.dstore.values.BooleanValue check_except_text_and_bit_characs = 4;</code>
        */
       public Builder mergeCheckExceptTextAndBitCharacs(io.dstore.values.BooleanValue value) {
         if (checkExceptTextAndBitCharacsBuilder_ == null) {
@@ -2439,7 +2439,7 @@ public final class ImImportItemDataAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.BooleanValue check_except_text_and_bit_characs = 4;</code>
+       * <code>.dstore.values.BooleanValue check_except_text_and_bit_characs = 4;</code>
        */
       public Builder clearCheckExceptTextAndBitCharacs() {
         if (checkExceptTextAndBitCharacsBuilder_ == null) {
@@ -2453,7 +2453,7 @@ public final class ImImportItemDataAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.BooleanValue check_except_text_and_bit_characs = 4;</code>
+       * <code>.dstore.values.BooleanValue check_except_text_and_bit_characs = 4;</code>
        */
       public io.dstore.values.BooleanValue.Builder getCheckExceptTextAndBitCharacsBuilder() {
         
@@ -2461,7 +2461,7 @@ public final class ImImportItemDataAd {
         return getCheckExceptTextAndBitCharacsFieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .dstore.values.BooleanValue check_except_text_and_bit_characs = 4;</code>
+       * <code>.dstore.values.BooleanValue check_except_text_and_bit_characs = 4;</code>
        */
       public io.dstore.values.BooleanValueOrBuilder getCheckExceptTextAndBitCharacsOrBuilder() {
         if (checkExceptTextAndBitCharacsBuilder_ != null) {
@@ -2472,7 +2472,7 @@ public final class ImImportItemDataAd {
         }
       }
       /**
-       * <code>optional .dstore.values.BooleanValue check_except_text_and_bit_characs = 4;</code>
+       * <code>.dstore.values.BooleanValue check_except_text_and_bit_characs = 4;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.values.BooleanValue, io.dstore.values.BooleanValue.Builder, io.dstore.values.BooleanValueOrBuilder> 
@@ -2490,13 +2490,13 @@ public final class ImImportItemDataAd {
 
       private boolean checkExceptTextAndBitCharacsNull_ ;
       /**
-       * <code>optional bool check_except_text_and_bit_characs_null = 1004;</code>
+       * <code>bool check_except_text_and_bit_characs_null = 1004;</code>
        */
       public boolean getCheckExceptTextAndBitCharacsNull() {
         return checkExceptTextAndBitCharacsNull_;
       }
       /**
-       * <code>optional bool check_except_text_and_bit_characs_null = 1004;</code>
+       * <code>bool check_except_text_and_bit_characs_null = 1004;</code>
        */
       public Builder setCheckExceptTextAndBitCharacsNull(boolean value) {
         
@@ -2505,7 +2505,7 @@ public final class ImImportItemDataAd {
         return this;
       }
       /**
-       * <code>optional bool check_except_text_and_bit_characs_null = 1004;</code>
+       * <code>bool check_except_text_and_bit_characs_null = 1004;</code>
        */
       public Builder clearCheckExceptTextAndBitCharacsNull() {
         
@@ -2518,13 +2518,13 @@ public final class ImImportItemDataAd {
       private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> performanceTuningBuilder_;
       /**
-       * <code>optional .dstore.values.IntegerValue performance_tuning = 5;</code>
+       * <code>.dstore.values.IntegerValue performance_tuning = 5;</code>
        */
       public boolean hasPerformanceTuning() {
         return performanceTuningBuilder_ != null || performanceTuning_ != null;
       }
       /**
-       * <code>optional .dstore.values.IntegerValue performance_tuning = 5;</code>
+       * <code>.dstore.values.IntegerValue performance_tuning = 5;</code>
        */
       public io.dstore.values.IntegerValue getPerformanceTuning() {
         if (performanceTuningBuilder_ == null) {
@@ -2534,7 +2534,7 @@ public final class ImImportItemDataAd {
         }
       }
       /**
-       * <code>optional .dstore.values.IntegerValue performance_tuning = 5;</code>
+       * <code>.dstore.values.IntegerValue performance_tuning = 5;</code>
        */
       public Builder setPerformanceTuning(io.dstore.values.IntegerValue value) {
         if (performanceTuningBuilder_ == null) {
@@ -2550,7 +2550,7 @@ public final class ImImportItemDataAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.IntegerValue performance_tuning = 5;</code>
+       * <code>.dstore.values.IntegerValue performance_tuning = 5;</code>
        */
       public Builder setPerformanceTuning(
           io.dstore.values.IntegerValue.Builder builderForValue) {
@@ -2564,7 +2564,7 @@ public final class ImImportItemDataAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.IntegerValue performance_tuning = 5;</code>
+       * <code>.dstore.values.IntegerValue performance_tuning = 5;</code>
        */
       public Builder mergePerformanceTuning(io.dstore.values.IntegerValue value) {
         if (performanceTuningBuilder_ == null) {
@@ -2582,7 +2582,7 @@ public final class ImImportItemDataAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.IntegerValue performance_tuning = 5;</code>
+       * <code>.dstore.values.IntegerValue performance_tuning = 5;</code>
        */
       public Builder clearPerformanceTuning() {
         if (performanceTuningBuilder_ == null) {
@@ -2596,7 +2596,7 @@ public final class ImImportItemDataAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.IntegerValue performance_tuning = 5;</code>
+       * <code>.dstore.values.IntegerValue performance_tuning = 5;</code>
        */
       public io.dstore.values.IntegerValue.Builder getPerformanceTuningBuilder() {
         
@@ -2604,7 +2604,7 @@ public final class ImImportItemDataAd {
         return getPerformanceTuningFieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .dstore.values.IntegerValue performance_tuning = 5;</code>
+       * <code>.dstore.values.IntegerValue performance_tuning = 5;</code>
        */
       public io.dstore.values.IntegerValueOrBuilder getPerformanceTuningOrBuilder() {
         if (performanceTuningBuilder_ != null) {
@@ -2615,7 +2615,7 @@ public final class ImImportItemDataAd {
         }
       }
       /**
-       * <code>optional .dstore.values.IntegerValue performance_tuning = 5;</code>
+       * <code>.dstore.values.IntegerValue performance_tuning = 5;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> 
@@ -2633,13 +2633,13 @@ public final class ImImportItemDataAd {
 
       private boolean performanceTuningNull_ ;
       /**
-       * <code>optional bool performance_tuning_null = 1005;</code>
+       * <code>bool performance_tuning_null = 1005;</code>
        */
       public boolean getPerformanceTuningNull() {
         return performanceTuningNull_;
       }
       /**
-       * <code>optional bool performance_tuning_null = 1005;</code>
+       * <code>bool performance_tuning_null = 1005;</code>
        */
       public Builder setPerformanceTuningNull(boolean value) {
         
@@ -2648,7 +2648,7 @@ public final class ImImportItemDataAd {
         return this;
       }
       /**
-       * <code>optional bool performance_tuning_null = 1005;</code>
+       * <code>bool performance_tuning_null = 1005;</code>
        */
       public Builder clearPerformanceTuningNull() {
         
@@ -2661,13 +2661,13 @@ public final class ImImportItemDataAd {
       private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.values.BooleanValue, io.dstore.values.BooleanValue.Builder, io.dstore.values.BooleanValueOrBuilder> activateImportedItemsBuilder_;
       /**
-       * <code>optional .dstore.values.BooleanValue activate_imported_items = 6;</code>
+       * <code>.dstore.values.BooleanValue activate_imported_items = 6;</code>
        */
       public boolean hasActivateImportedItems() {
         return activateImportedItemsBuilder_ != null || activateImportedItems_ != null;
       }
       /**
-       * <code>optional .dstore.values.BooleanValue activate_imported_items = 6;</code>
+       * <code>.dstore.values.BooleanValue activate_imported_items = 6;</code>
        */
       public io.dstore.values.BooleanValue getActivateImportedItems() {
         if (activateImportedItemsBuilder_ == null) {
@@ -2677,7 +2677,7 @@ public final class ImImportItemDataAd {
         }
       }
       /**
-       * <code>optional .dstore.values.BooleanValue activate_imported_items = 6;</code>
+       * <code>.dstore.values.BooleanValue activate_imported_items = 6;</code>
        */
       public Builder setActivateImportedItems(io.dstore.values.BooleanValue value) {
         if (activateImportedItemsBuilder_ == null) {
@@ -2693,7 +2693,7 @@ public final class ImImportItemDataAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.BooleanValue activate_imported_items = 6;</code>
+       * <code>.dstore.values.BooleanValue activate_imported_items = 6;</code>
        */
       public Builder setActivateImportedItems(
           io.dstore.values.BooleanValue.Builder builderForValue) {
@@ -2707,7 +2707,7 @@ public final class ImImportItemDataAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.BooleanValue activate_imported_items = 6;</code>
+       * <code>.dstore.values.BooleanValue activate_imported_items = 6;</code>
        */
       public Builder mergeActivateImportedItems(io.dstore.values.BooleanValue value) {
         if (activateImportedItemsBuilder_ == null) {
@@ -2725,7 +2725,7 @@ public final class ImImportItemDataAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.BooleanValue activate_imported_items = 6;</code>
+       * <code>.dstore.values.BooleanValue activate_imported_items = 6;</code>
        */
       public Builder clearActivateImportedItems() {
         if (activateImportedItemsBuilder_ == null) {
@@ -2739,7 +2739,7 @@ public final class ImImportItemDataAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.BooleanValue activate_imported_items = 6;</code>
+       * <code>.dstore.values.BooleanValue activate_imported_items = 6;</code>
        */
       public io.dstore.values.BooleanValue.Builder getActivateImportedItemsBuilder() {
         
@@ -2747,7 +2747,7 @@ public final class ImImportItemDataAd {
         return getActivateImportedItemsFieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .dstore.values.BooleanValue activate_imported_items = 6;</code>
+       * <code>.dstore.values.BooleanValue activate_imported_items = 6;</code>
        */
       public io.dstore.values.BooleanValueOrBuilder getActivateImportedItemsOrBuilder() {
         if (activateImportedItemsBuilder_ != null) {
@@ -2758,7 +2758,7 @@ public final class ImImportItemDataAd {
         }
       }
       /**
-       * <code>optional .dstore.values.BooleanValue activate_imported_items = 6;</code>
+       * <code>.dstore.values.BooleanValue activate_imported_items = 6;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.values.BooleanValue, io.dstore.values.BooleanValue.Builder, io.dstore.values.BooleanValueOrBuilder> 
@@ -2776,13 +2776,13 @@ public final class ImImportItemDataAd {
 
       private boolean activateImportedItemsNull_ ;
       /**
-       * <code>optional bool activate_imported_items_null = 1006;</code>
+       * <code>bool activate_imported_items_null = 1006;</code>
        */
       public boolean getActivateImportedItemsNull() {
         return activateImportedItemsNull_;
       }
       /**
-       * <code>optional bool activate_imported_items_null = 1006;</code>
+       * <code>bool activate_imported_items_null = 1006;</code>
        */
       public Builder setActivateImportedItemsNull(boolean value) {
         
@@ -2791,7 +2791,7 @@ public final class ImImportItemDataAd {
         return this;
       }
       /**
-       * <code>optional bool activate_imported_items_null = 1006;</code>
+       * <code>bool activate_imported_items_null = 1006;</code>
        */
       public Builder clearActivateImportedItemsNull() {
         
@@ -2804,13 +2804,13 @@ public final class ImImportItemDataAd {
       private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> handleExistingItemNotImportedBuilder_;
       /**
-       * <code>optional .dstore.values.IntegerValue handle_existing_item_not_imported = 7;</code>
+       * <code>.dstore.values.IntegerValue handle_existing_item_not_imported = 7;</code>
        */
       public boolean hasHandleExistingItemNotImported() {
         return handleExistingItemNotImportedBuilder_ != null || handleExistingItemNotImported_ != null;
       }
       /**
-       * <code>optional .dstore.values.IntegerValue handle_existing_item_not_imported = 7;</code>
+       * <code>.dstore.values.IntegerValue handle_existing_item_not_imported = 7;</code>
        */
       public io.dstore.values.IntegerValue getHandleExistingItemNotImported() {
         if (handleExistingItemNotImportedBuilder_ == null) {
@@ -2820,7 +2820,7 @@ public final class ImImportItemDataAd {
         }
       }
       /**
-       * <code>optional .dstore.values.IntegerValue handle_existing_item_not_imported = 7;</code>
+       * <code>.dstore.values.IntegerValue handle_existing_item_not_imported = 7;</code>
        */
       public Builder setHandleExistingItemNotImported(io.dstore.values.IntegerValue value) {
         if (handleExistingItemNotImportedBuilder_ == null) {
@@ -2836,7 +2836,7 @@ public final class ImImportItemDataAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.IntegerValue handle_existing_item_not_imported = 7;</code>
+       * <code>.dstore.values.IntegerValue handle_existing_item_not_imported = 7;</code>
        */
       public Builder setHandleExistingItemNotImported(
           io.dstore.values.IntegerValue.Builder builderForValue) {
@@ -2850,7 +2850,7 @@ public final class ImImportItemDataAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.IntegerValue handle_existing_item_not_imported = 7;</code>
+       * <code>.dstore.values.IntegerValue handle_existing_item_not_imported = 7;</code>
        */
       public Builder mergeHandleExistingItemNotImported(io.dstore.values.IntegerValue value) {
         if (handleExistingItemNotImportedBuilder_ == null) {
@@ -2868,7 +2868,7 @@ public final class ImImportItemDataAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.IntegerValue handle_existing_item_not_imported = 7;</code>
+       * <code>.dstore.values.IntegerValue handle_existing_item_not_imported = 7;</code>
        */
       public Builder clearHandleExistingItemNotImported() {
         if (handleExistingItemNotImportedBuilder_ == null) {
@@ -2882,7 +2882,7 @@ public final class ImImportItemDataAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.IntegerValue handle_existing_item_not_imported = 7;</code>
+       * <code>.dstore.values.IntegerValue handle_existing_item_not_imported = 7;</code>
        */
       public io.dstore.values.IntegerValue.Builder getHandleExistingItemNotImportedBuilder() {
         
@@ -2890,7 +2890,7 @@ public final class ImImportItemDataAd {
         return getHandleExistingItemNotImportedFieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .dstore.values.IntegerValue handle_existing_item_not_imported = 7;</code>
+       * <code>.dstore.values.IntegerValue handle_existing_item_not_imported = 7;</code>
        */
       public io.dstore.values.IntegerValueOrBuilder getHandleExistingItemNotImportedOrBuilder() {
         if (handleExistingItemNotImportedBuilder_ != null) {
@@ -2901,7 +2901,7 @@ public final class ImImportItemDataAd {
         }
       }
       /**
-       * <code>optional .dstore.values.IntegerValue handle_existing_item_not_imported = 7;</code>
+       * <code>.dstore.values.IntegerValue handle_existing_item_not_imported = 7;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> 
@@ -2919,13 +2919,13 @@ public final class ImImportItemDataAd {
 
       private boolean handleExistingItemNotImportedNull_ ;
       /**
-       * <code>optional bool handle_existing_item_not_imported_null = 1007;</code>
+       * <code>bool handle_existing_item_not_imported_null = 1007;</code>
        */
       public boolean getHandleExistingItemNotImportedNull() {
         return handleExistingItemNotImportedNull_;
       }
       /**
-       * <code>optional bool handle_existing_item_not_imported_null = 1007;</code>
+       * <code>bool handle_existing_item_not_imported_null = 1007;</code>
        */
       public Builder setHandleExistingItemNotImportedNull(boolean value) {
         
@@ -2934,7 +2934,7 @@ public final class ImImportItemDataAd {
         return this;
       }
       /**
-       * <code>optional bool handle_existing_item_not_imported_null = 1007;</code>
+       * <code>bool handle_existing_item_not_imported_null = 1007;</code>
        */
       public Builder clearHandleExistingItemNotImportedNull() {
         
@@ -2947,13 +2947,13 @@ public final class ImImportItemDataAd {
       private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.values.BooleanValue, io.dstore.values.BooleanValue.Builder, io.dstore.values.BooleanValueOrBuilder> dumpTransactionBuilder_;
       /**
-       * <code>optional .dstore.values.BooleanValue dump_transaction = 8;</code>
+       * <code>.dstore.values.BooleanValue dump_transaction = 8;</code>
        */
       public boolean hasDumpTransaction() {
         return dumpTransactionBuilder_ != null || dumpTransaction_ != null;
       }
       /**
-       * <code>optional .dstore.values.BooleanValue dump_transaction = 8;</code>
+       * <code>.dstore.values.BooleanValue dump_transaction = 8;</code>
        */
       public io.dstore.values.BooleanValue getDumpTransaction() {
         if (dumpTransactionBuilder_ == null) {
@@ -2963,7 +2963,7 @@ public final class ImImportItemDataAd {
         }
       }
       /**
-       * <code>optional .dstore.values.BooleanValue dump_transaction = 8;</code>
+       * <code>.dstore.values.BooleanValue dump_transaction = 8;</code>
        */
       public Builder setDumpTransaction(io.dstore.values.BooleanValue value) {
         if (dumpTransactionBuilder_ == null) {
@@ -2979,7 +2979,7 @@ public final class ImImportItemDataAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.BooleanValue dump_transaction = 8;</code>
+       * <code>.dstore.values.BooleanValue dump_transaction = 8;</code>
        */
       public Builder setDumpTransaction(
           io.dstore.values.BooleanValue.Builder builderForValue) {
@@ -2993,7 +2993,7 @@ public final class ImImportItemDataAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.BooleanValue dump_transaction = 8;</code>
+       * <code>.dstore.values.BooleanValue dump_transaction = 8;</code>
        */
       public Builder mergeDumpTransaction(io.dstore.values.BooleanValue value) {
         if (dumpTransactionBuilder_ == null) {
@@ -3011,7 +3011,7 @@ public final class ImImportItemDataAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.BooleanValue dump_transaction = 8;</code>
+       * <code>.dstore.values.BooleanValue dump_transaction = 8;</code>
        */
       public Builder clearDumpTransaction() {
         if (dumpTransactionBuilder_ == null) {
@@ -3025,7 +3025,7 @@ public final class ImImportItemDataAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.BooleanValue dump_transaction = 8;</code>
+       * <code>.dstore.values.BooleanValue dump_transaction = 8;</code>
        */
       public io.dstore.values.BooleanValue.Builder getDumpTransactionBuilder() {
         
@@ -3033,7 +3033,7 @@ public final class ImImportItemDataAd {
         return getDumpTransactionFieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .dstore.values.BooleanValue dump_transaction = 8;</code>
+       * <code>.dstore.values.BooleanValue dump_transaction = 8;</code>
        */
       public io.dstore.values.BooleanValueOrBuilder getDumpTransactionOrBuilder() {
         if (dumpTransactionBuilder_ != null) {
@@ -3044,7 +3044,7 @@ public final class ImImportItemDataAd {
         }
       }
       /**
-       * <code>optional .dstore.values.BooleanValue dump_transaction = 8;</code>
+       * <code>.dstore.values.BooleanValue dump_transaction = 8;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.values.BooleanValue, io.dstore.values.BooleanValue.Builder, io.dstore.values.BooleanValueOrBuilder> 
@@ -3062,13 +3062,13 @@ public final class ImImportItemDataAd {
 
       private boolean dumpTransactionNull_ ;
       /**
-       * <code>optional bool dump_transaction_null = 1008;</code>
+       * <code>bool dump_transaction_null = 1008;</code>
        */
       public boolean getDumpTransactionNull() {
         return dumpTransactionNull_;
       }
       /**
-       * <code>optional bool dump_transaction_null = 1008;</code>
+       * <code>bool dump_transaction_null = 1008;</code>
        */
       public Builder setDumpTransactionNull(boolean value) {
         
@@ -3077,7 +3077,7 @@ public final class ImImportItemDataAd {
         return this;
       }
       /**
-       * <code>optional bool dump_transaction_null = 1008;</code>
+       * <code>bool dump_transaction_null = 1008;</code>
        */
       public Builder clearDumpTransactionNull() {
         
@@ -3090,13 +3090,13 @@ public final class ImImportItemDataAd {
       private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.values.StringValue, io.dstore.values.StringValue.Builder, io.dstore.values.StringValueOrBuilder> countryBuilder_;
       /**
-       * <code>optional .dstore.values.StringValue country = 9;</code>
+       * <code>.dstore.values.StringValue country = 9;</code>
        */
       public boolean hasCountry() {
         return countryBuilder_ != null || country_ != null;
       }
       /**
-       * <code>optional .dstore.values.StringValue country = 9;</code>
+       * <code>.dstore.values.StringValue country = 9;</code>
        */
       public io.dstore.values.StringValue getCountry() {
         if (countryBuilder_ == null) {
@@ -3106,7 +3106,7 @@ public final class ImImportItemDataAd {
         }
       }
       /**
-       * <code>optional .dstore.values.StringValue country = 9;</code>
+       * <code>.dstore.values.StringValue country = 9;</code>
        */
       public Builder setCountry(io.dstore.values.StringValue value) {
         if (countryBuilder_ == null) {
@@ -3122,7 +3122,7 @@ public final class ImImportItemDataAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.StringValue country = 9;</code>
+       * <code>.dstore.values.StringValue country = 9;</code>
        */
       public Builder setCountry(
           io.dstore.values.StringValue.Builder builderForValue) {
@@ -3136,7 +3136,7 @@ public final class ImImportItemDataAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.StringValue country = 9;</code>
+       * <code>.dstore.values.StringValue country = 9;</code>
        */
       public Builder mergeCountry(io.dstore.values.StringValue value) {
         if (countryBuilder_ == null) {
@@ -3154,7 +3154,7 @@ public final class ImImportItemDataAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.StringValue country = 9;</code>
+       * <code>.dstore.values.StringValue country = 9;</code>
        */
       public Builder clearCountry() {
         if (countryBuilder_ == null) {
@@ -3168,7 +3168,7 @@ public final class ImImportItemDataAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.StringValue country = 9;</code>
+       * <code>.dstore.values.StringValue country = 9;</code>
        */
       public io.dstore.values.StringValue.Builder getCountryBuilder() {
         
@@ -3176,7 +3176,7 @@ public final class ImImportItemDataAd {
         return getCountryFieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .dstore.values.StringValue country = 9;</code>
+       * <code>.dstore.values.StringValue country = 9;</code>
        */
       public io.dstore.values.StringValueOrBuilder getCountryOrBuilder() {
         if (countryBuilder_ != null) {
@@ -3187,7 +3187,7 @@ public final class ImImportItemDataAd {
         }
       }
       /**
-       * <code>optional .dstore.values.StringValue country = 9;</code>
+       * <code>.dstore.values.StringValue country = 9;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.values.StringValue, io.dstore.values.StringValue.Builder, io.dstore.values.StringValueOrBuilder> 
@@ -3205,13 +3205,13 @@ public final class ImImportItemDataAd {
 
       private boolean countryNull_ ;
       /**
-       * <code>optional bool country_null = 1009;</code>
+       * <code>bool country_null = 1009;</code>
        */
       public boolean getCountryNull() {
         return countryNull_;
       }
       /**
-       * <code>optional bool country_null = 1009;</code>
+       * <code>bool country_null = 1009;</code>
        */
       public Builder setCountryNull(boolean value) {
         
@@ -3220,7 +3220,7 @@ public final class ImImportItemDataAd {
         return this;
       }
       /**
-       * <code>optional bool country_null = 1009;</code>
+       * <code>bool country_null = 1009;</code>
        */
       public Builder clearCountryNull() {
         
@@ -3233,13 +3233,13 @@ public final class ImImportItemDataAd {
       private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.values.BooleanValue, io.dstore.values.BooleanValue.Builder, io.dstore.values.BooleanValueOrBuilder> emptyStringToDeleteDetailsBuilder_;
       /**
-       * <code>optional .dstore.values.BooleanValue empty_string_to_delete_details = 10;</code>
+       * <code>.dstore.values.BooleanValue empty_string_to_delete_details = 10;</code>
        */
       public boolean hasEmptyStringToDeleteDetails() {
         return emptyStringToDeleteDetailsBuilder_ != null || emptyStringToDeleteDetails_ != null;
       }
       /**
-       * <code>optional .dstore.values.BooleanValue empty_string_to_delete_details = 10;</code>
+       * <code>.dstore.values.BooleanValue empty_string_to_delete_details = 10;</code>
        */
       public io.dstore.values.BooleanValue getEmptyStringToDeleteDetails() {
         if (emptyStringToDeleteDetailsBuilder_ == null) {
@@ -3249,7 +3249,7 @@ public final class ImImportItemDataAd {
         }
       }
       /**
-       * <code>optional .dstore.values.BooleanValue empty_string_to_delete_details = 10;</code>
+       * <code>.dstore.values.BooleanValue empty_string_to_delete_details = 10;</code>
        */
       public Builder setEmptyStringToDeleteDetails(io.dstore.values.BooleanValue value) {
         if (emptyStringToDeleteDetailsBuilder_ == null) {
@@ -3265,7 +3265,7 @@ public final class ImImportItemDataAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.BooleanValue empty_string_to_delete_details = 10;</code>
+       * <code>.dstore.values.BooleanValue empty_string_to_delete_details = 10;</code>
        */
       public Builder setEmptyStringToDeleteDetails(
           io.dstore.values.BooleanValue.Builder builderForValue) {
@@ -3279,7 +3279,7 @@ public final class ImImportItemDataAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.BooleanValue empty_string_to_delete_details = 10;</code>
+       * <code>.dstore.values.BooleanValue empty_string_to_delete_details = 10;</code>
        */
       public Builder mergeEmptyStringToDeleteDetails(io.dstore.values.BooleanValue value) {
         if (emptyStringToDeleteDetailsBuilder_ == null) {
@@ -3297,7 +3297,7 @@ public final class ImImportItemDataAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.BooleanValue empty_string_to_delete_details = 10;</code>
+       * <code>.dstore.values.BooleanValue empty_string_to_delete_details = 10;</code>
        */
       public Builder clearEmptyStringToDeleteDetails() {
         if (emptyStringToDeleteDetailsBuilder_ == null) {
@@ -3311,7 +3311,7 @@ public final class ImImportItemDataAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.BooleanValue empty_string_to_delete_details = 10;</code>
+       * <code>.dstore.values.BooleanValue empty_string_to_delete_details = 10;</code>
        */
       public io.dstore.values.BooleanValue.Builder getEmptyStringToDeleteDetailsBuilder() {
         
@@ -3319,7 +3319,7 @@ public final class ImImportItemDataAd {
         return getEmptyStringToDeleteDetailsFieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .dstore.values.BooleanValue empty_string_to_delete_details = 10;</code>
+       * <code>.dstore.values.BooleanValue empty_string_to_delete_details = 10;</code>
        */
       public io.dstore.values.BooleanValueOrBuilder getEmptyStringToDeleteDetailsOrBuilder() {
         if (emptyStringToDeleteDetailsBuilder_ != null) {
@@ -3330,7 +3330,7 @@ public final class ImImportItemDataAd {
         }
       }
       /**
-       * <code>optional .dstore.values.BooleanValue empty_string_to_delete_details = 10;</code>
+       * <code>.dstore.values.BooleanValue empty_string_to_delete_details = 10;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.values.BooleanValue, io.dstore.values.BooleanValue.Builder, io.dstore.values.BooleanValueOrBuilder> 
@@ -3348,13 +3348,13 @@ public final class ImImportItemDataAd {
 
       private boolean emptyStringToDeleteDetailsNull_ ;
       /**
-       * <code>optional bool empty_string_to_delete_details_null = 1010;</code>
+       * <code>bool empty_string_to_delete_details_null = 1010;</code>
        */
       public boolean getEmptyStringToDeleteDetailsNull() {
         return emptyStringToDeleteDetailsNull_;
       }
       /**
-       * <code>optional bool empty_string_to_delete_details_null = 1010;</code>
+       * <code>bool empty_string_to_delete_details_null = 1010;</code>
        */
       public Builder setEmptyStringToDeleteDetailsNull(boolean value) {
         
@@ -3363,7 +3363,7 @@ public final class ImImportItemDataAd {
         return this;
       }
       /**
-       * <code>optional bool empty_string_to_delete_details_null = 1010;</code>
+       * <code>bool empty_string_to_delete_details_null = 1010;</code>
        */
       public Builder clearEmptyStringToDeleteDetailsNull() {
         
@@ -3376,13 +3376,13 @@ public final class ImImportItemDataAd {
       private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.values.BooleanValue, io.dstore.values.BooleanValue.Builder, io.dstore.values.BooleanValueOrBuilder> emptyStringToDeletePropertyBuilder_;
       /**
-       * <code>optional .dstore.values.BooleanValue empty_string_to_delete_property = 11;</code>
+       * <code>.dstore.values.BooleanValue empty_string_to_delete_property = 11;</code>
        */
       public boolean hasEmptyStringToDeleteProperty() {
         return emptyStringToDeletePropertyBuilder_ != null || emptyStringToDeleteProperty_ != null;
       }
       /**
-       * <code>optional .dstore.values.BooleanValue empty_string_to_delete_property = 11;</code>
+       * <code>.dstore.values.BooleanValue empty_string_to_delete_property = 11;</code>
        */
       public io.dstore.values.BooleanValue getEmptyStringToDeleteProperty() {
         if (emptyStringToDeletePropertyBuilder_ == null) {
@@ -3392,7 +3392,7 @@ public final class ImImportItemDataAd {
         }
       }
       /**
-       * <code>optional .dstore.values.BooleanValue empty_string_to_delete_property = 11;</code>
+       * <code>.dstore.values.BooleanValue empty_string_to_delete_property = 11;</code>
        */
       public Builder setEmptyStringToDeleteProperty(io.dstore.values.BooleanValue value) {
         if (emptyStringToDeletePropertyBuilder_ == null) {
@@ -3408,7 +3408,7 @@ public final class ImImportItemDataAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.BooleanValue empty_string_to_delete_property = 11;</code>
+       * <code>.dstore.values.BooleanValue empty_string_to_delete_property = 11;</code>
        */
       public Builder setEmptyStringToDeleteProperty(
           io.dstore.values.BooleanValue.Builder builderForValue) {
@@ -3422,7 +3422,7 @@ public final class ImImportItemDataAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.BooleanValue empty_string_to_delete_property = 11;</code>
+       * <code>.dstore.values.BooleanValue empty_string_to_delete_property = 11;</code>
        */
       public Builder mergeEmptyStringToDeleteProperty(io.dstore.values.BooleanValue value) {
         if (emptyStringToDeletePropertyBuilder_ == null) {
@@ -3440,7 +3440,7 @@ public final class ImImportItemDataAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.BooleanValue empty_string_to_delete_property = 11;</code>
+       * <code>.dstore.values.BooleanValue empty_string_to_delete_property = 11;</code>
        */
       public Builder clearEmptyStringToDeleteProperty() {
         if (emptyStringToDeletePropertyBuilder_ == null) {
@@ -3454,7 +3454,7 @@ public final class ImImportItemDataAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.BooleanValue empty_string_to_delete_property = 11;</code>
+       * <code>.dstore.values.BooleanValue empty_string_to_delete_property = 11;</code>
        */
       public io.dstore.values.BooleanValue.Builder getEmptyStringToDeletePropertyBuilder() {
         
@@ -3462,7 +3462,7 @@ public final class ImImportItemDataAd {
         return getEmptyStringToDeletePropertyFieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .dstore.values.BooleanValue empty_string_to_delete_property = 11;</code>
+       * <code>.dstore.values.BooleanValue empty_string_to_delete_property = 11;</code>
        */
       public io.dstore.values.BooleanValueOrBuilder getEmptyStringToDeletePropertyOrBuilder() {
         if (emptyStringToDeletePropertyBuilder_ != null) {
@@ -3473,7 +3473,7 @@ public final class ImImportItemDataAd {
         }
       }
       /**
-       * <code>optional .dstore.values.BooleanValue empty_string_to_delete_property = 11;</code>
+       * <code>.dstore.values.BooleanValue empty_string_to_delete_property = 11;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.values.BooleanValue, io.dstore.values.BooleanValue.Builder, io.dstore.values.BooleanValueOrBuilder> 
@@ -3491,13 +3491,13 @@ public final class ImImportItemDataAd {
 
       private boolean emptyStringToDeletePropertyNull_ ;
       /**
-       * <code>optional bool empty_string_to_delete_property_null = 1011;</code>
+       * <code>bool empty_string_to_delete_property_null = 1011;</code>
        */
       public boolean getEmptyStringToDeletePropertyNull() {
         return emptyStringToDeletePropertyNull_;
       }
       /**
-       * <code>optional bool empty_string_to_delete_property_null = 1011;</code>
+       * <code>bool empty_string_to_delete_property_null = 1011;</code>
        */
       public Builder setEmptyStringToDeletePropertyNull(boolean value) {
         
@@ -3506,7 +3506,7 @@ public final class ImImportItemDataAd {
         return this;
       }
       /**
-       * <code>optional bool empty_string_to_delete_property_null = 1011;</code>
+       * <code>bool empty_string_to_delete_property_null = 1011;</code>
        */
       public Builder clearEmptyStringToDeletePropertyNull() {
         
@@ -3519,13 +3519,13 @@ public final class ImImportItemDataAd {
       private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.values.TimestampValue, io.dstore.values.TimestampValue.Builder, io.dstore.values.TimestampValueOrBuilder> errorDateAndTimeBuilder_;
       /**
-       * <code>optional .dstore.values.TimestampValue error_date_and_time = 12;</code>
+       * <code>.dstore.values.TimestampValue error_date_and_time = 12;</code>
        */
       public boolean hasErrorDateAndTime() {
         return errorDateAndTimeBuilder_ != null || errorDateAndTime_ != null;
       }
       /**
-       * <code>optional .dstore.values.TimestampValue error_date_and_time = 12;</code>
+       * <code>.dstore.values.TimestampValue error_date_and_time = 12;</code>
        */
       public io.dstore.values.TimestampValue getErrorDateAndTime() {
         if (errorDateAndTimeBuilder_ == null) {
@@ -3535,7 +3535,7 @@ public final class ImImportItemDataAd {
         }
       }
       /**
-       * <code>optional .dstore.values.TimestampValue error_date_and_time = 12;</code>
+       * <code>.dstore.values.TimestampValue error_date_and_time = 12;</code>
        */
       public Builder setErrorDateAndTime(io.dstore.values.TimestampValue value) {
         if (errorDateAndTimeBuilder_ == null) {
@@ -3551,7 +3551,7 @@ public final class ImImportItemDataAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.TimestampValue error_date_and_time = 12;</code>
+       * <code>.dstore.values.TimestampValue error_date_and_time = 12;</code>
        */
       public Builder setErrorDateAndTime(
           io.dstore.values.TimestampValue.Builder builderForValue) {
@@ -3565,7 +3565,7 @@ public final class ImImportItemDataAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.TimestampValue error_date_and_time = 12;</code>
+       * <code>.dstore.values.TimestampValue error_date_and_time = 12;</code>
        */
       public Builder mergeErrorDateAndTime(io.dstore.values.TimestampValue value) {
         if (errorDateAndTimeBuilder_ == null) {
@@ -3583,7 +3583,7 @@ public final class ImImportItemDataAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.TimestampValue error_date_and_time = 12;</code>
+       * <code>.dstore.values.TimestampValue error_date_and_time = 12;</code>
        */
       public Builder clearErrorDateAndTime() {
         if (errorDateAndTimeBuilder_ == null) {
@@ -3597,7 +3597,7 @@ public final class ImImportItemDataAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.TimestampValue error_date_and_time = 12;</code>
+       * <code>.dstore.values.TimestampValue error_date_and_time = 12;</code>
        */
       public io.dstore.values.TimestampValue.Builder getErrorDateAndTimeBuilder() {
         
@@ -3605,7 +3605,7 @@ public final class ImImportItemDataAd {
         return getErrorDateAndTimeFieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .dstore.values.TimestampValue error_date_and_time = 12;</code>
+       * <code>.dstore.values.TimestampValue error_date_and_time = 12;</code>
        */
       public io.dstore.values.TimestampValueOrBuilder getErrorDateAndTimeOrBuilder() {
         if (errorDateAndTimeBuilder_ != null) {
@@ -3616,7 +3616,7 @@ public final class ImImportItemDataAd {
         }
       }
       /**
-       * <code>optional .dstore.values.TimestampValue error_date_and_time = 12;</code>
+       * <code>.dstore.values.TimestampValue error_date_and_time = 12;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.values.TimestampValue, io.dstore.values.TimestampValue.Builder, io.dstore.values.TimestampValueOrBuilder> 
@@ -3634,13 +3634,13 @@ public final class ImImportItemDataAd {
 
       private boolean errorDateAndTimeNull_ ;
       /**
-       * <code>optional bool error_date_and_time_null = 1012;</code>
+       * <code>bool error_date_and_time_null = 1012;</code>
        */
       public boolean getErrorDateAndTimeNull() {
         return errorDateAndTimeNull_;
       }
       /**
-       * <code>optional bool error_date_and_time_null = 1012;</code>
+       * <code>bool error_date_and_time_null = 1012;</code>
        */
       public Builder setErrorDateAndTimeNull(boolean value) {
         
@@ -3649,7 +3649,7 @@ public final class ImImportItemDataAd {
         return this;
       }
       /**
-       * <code>optional bool error_date_and_time_null = 1012;</code>
+       * <code>bool error_date_and_time_null = 1012;</code>
        */
       public Builder clearErrorDateAndTimeNull() {
         
@@ -3662,13 +3662,13 @@ public final class ImImportItemDataAd {
       private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.values.StringValue, io.dstore.values.StringValue.Builder, io.dstore.values.StringValueOrBuilder> importFromTableNameBuilder_;
       /**
-       * <code>optional .dstore.values.StringValue import_from_table_name = 13;</code>
+       * <code>.dstore.values.StringValue import_from_table_name = 13;</code>
        */
       public boolean hasImportFromTableName() {
         return importFromTableNameBuilder_ != null || importFromTableName_ != null;
       }
       /**
-       * <code>optional .dstore.values.StringValue import_from_table_name = 13;</code>
+       * <code>.dstore.values.StringValue import_from_table_name = 13;</code>
        */
       public io.dstore.values.StringValue getImportFromTableName() {
         if (importFromTableNameBuilder_ == null) {
@@ -3678,7 +3678,7 @@ public final class ImImportItemDataAd {
         }
       }
       /**
-       * <code>optional .dstore.values.StringValue import_from_table_name = 13;</code>
+       * <code>.dstore.values.StringValue import_from_table_name = 13;</code>
        */
       public Builder setImportFromTableName(io.dstore.values.StringValue value) {
         if (importFromTableNameBuilder_ == null) {
@@ -3694,7 +3694,7 @@ public final class ImImportItemDataAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.StringValue import_from_table_name = 13;</code>
+       * <code>.dstore.values.StringValue import_from_table_name = 13;</code>
        */
       public Builder setImportFromTableName(
           io.dstore.values.StringValue.Builder builderForValue) {
@@ -3708,7 +3708,7 @@ public final class ImImportItemDataAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.StringValue import_from_table_name = 13;</code>
+       * <code>.dstore.values.StringValue import_from_table_name = 13;</code>
        */
       public Builder mergeImportFromTableName(io.dstore.values.StringValue value) {
         if (importFromTableNameBuilder_ == null) {
@@ -3726,7 +3726,7 @@ public final class ImImportItemDataAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.StringValue import_from_table_name = 13;</code>
+       * <code>.dstore.values.StringValue import_from_table_name = 13;</code>
        */
       public Builder clearImportFromTableName() {
         if (importFromTableNameBuilder_ == null) {
@@ -3740,7 +3740,7 @@ public final class ImImportItemDataAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.StringValue import_from_table_name = 13;</code>
+       * <code>.dstore.values.StringValue import_from_table_name = 13;</code>
        */
       public io.dstore.values.StringValue.Builder getImportFromTableNameBuilder() {
         
@@ -3748,7 +3748,7 @@ public final class ImImportItemDataAd {
         return getImportFromTableNameFieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .dstore.values.StringValue import_from_table_name = 13;</code>
+       * <code>.dstore.values.StringValue import_from_table_name = 13;</code>
        */
       public io.dstore.values.StringValueOrBuilder getImportFromTableNameOrBuilder() {
         if (importFromTableNameBuilder_ != null) {
@@ -3759,7 +3759,7 @@ public final class ImImportItemDataAd {
         }
       }
       /**
-       * <code>optional .dstore.values.StringValue import_from_table_name = 13;</code>
+       * <code>.dstore.values.StringValue import_from_table_name = 13;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.values.StringValue, io.dstore.values.StringValue.Builder, io.dstore.values.StringValueOrBuilder> 
@@ -3777,13 +3777,13 @@ public final class ImImportItemDataAd {
 
       private boolean importFromTableNameNull_ ;
       /**
-       * <code>optional bool import_from_table_name_null = 1013;</code>
+       * <code>bool import_from_table_name_null = 1013;</code>
        */
       public boolean getImportFromTableNameNull() {
         return importFromTableNameNull_;
       }
       /**
-       * <code>optional bool import_from_table_name_null = 1013;</code>
+       * <code>bool import_from_table_name_null = 1013;</code>
        */
       public Builder setImportFromTableNameNull(boolean value) {
         
@@ -3792,7 +3792,7 @@ public final class ImImportItemDataAd {
         return this;
       }
       /**
-       * <code>optional bool import_from_table_name_null = 1013;</code>
+       * <code>bool import_from_table_name_null = 1013;</code>
        */
       public Builder clearImportFromTableNameNull() {
         
@@ -3805,13 +3805,13 @@ public final class ImImportItemDataAd {
       private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.values.StringValue, io.dstore.values.StringValue.Builder, io.dstore.values.StringValueOrBuilder> debugModeBuilder_;
       /**
-       * <code>optional .dstore.values.StringValue debug_mode = 14;</code>
+       * <code>.dstore.values.StringValue debug_mode = 14;</code>
        */
       public boolean hasDebugMode() {
         return debugModeBuilder_ != null || debugMode_ != null;
       }
       /**
-       * <code>optional .dstore.values.StringValue debug_mode = 14;</code>
+       * <code>.dstore.values.StringValue debug_mode = 14;</code>
        */
       public io.dstore.values.StringValue getDebugMode() {
         if (debugModeBuilder_ == null) {
@@ -3821,7 +3821,7 @@ public final class ImImportItemDataAd {
         }
       }
       /**
-       * <code>optional .dstore.values.StringValue debug_mode = 14;</code>
+       * <code>.dstore.values.StringValue debug_mode = 14;</code>
        */
       public Builder setDebugMode(io.dstore.values.StringValue value) {
         if (debugModeBuilder_ == null) {
@@ -3837,7 +3837,7 @@ public final class ImImportItemDataAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.StringValue debug_mode = 14;</code>
+       * <code>.dstore.values.StringValue debug_mode = 14;</code>
        */
       public Builder setDebugMode(
           io.dstore.values.StringValue.Builder builderForValue) {
@@ -3851,7 +3851,7 @@ public final class ImImportItemDataAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.StringValue debug_mode = 14;</code>
+       * <code>.dstore.values.StringValue debug_mode = 14;</code>
        */
       public Builder mergeDebugMode(io.dstore.values.StringValue value) {
         if (debugModeBuilder_ == null) {
@@ -3869,7 +3869,7 @@ public final class ImImportItemDataAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.StringValue debug_mode = 14;</code>
+       * <code>.dstore.values.StringValue debug_mode = 14;</code>
        */
       public Builder clearDebugMode() {
         if (debugModeBuilder_ == null) {
@@ -3883,7 +3883,7 @@ public final class ImImportItemDataAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.StringValue debug_mode = 14;</code>
+       * <code>.dstore.values.StringValue debug_mode = 14;</code>
        */
       public io.dstore.values.StringValue.Builder getDebugModeBuilder() {
         
@@ -3891,7 +3891,7 @@ public final class ImImportItemDataAd {
         return getDebugModeFieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .dstore.values.StringValue debug_mode = 14;</code>
+       * <code>.dstore.values.StringValue debug_mode = 14;</code>
        */
       public io.dstore.values.StringValueOrBuilder getDebugModeOrBuilder() {
         if (debugModeBuilder_ != null) {
@@ -3902,7 +3902,7 @@ public final class ImImportItemDataAd {
         }
       }
       /**
-       * <code>optional .dstore.values.StringValue debug_mode = 14;</code>
+       * <code>.dstore.values.StringValue debug_mode = 14;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.values.StringValue, io.dstore.values.StringValue.Builder, io.dstore.values.StringValueOrBuilder> 
@@ -3920,13 +3920,13 @@ public final class ImImportItemDataAd {
 
       private boolean debugModeNull_ ;
       /**
-       * <code>optional bool debug_mode_null = 1014;</code>
+       * <code>bool debug_mode_null = 1014;</code>
        */
       public boolean getDebugModeNull() {
         return debugModeNull_;
       }
       /**
-       * <code>optional bool debug_mode_null = 1014;</code>
+       * <code>bool debug_mode_null = 1014;</code>
        */
       public Builder setDebugModeNull(boolean value) {
         
@@ -3935,7 +3935,7 @@ public final class ImImportItemDataAd {
         return this;
       }
       /**
-       * <code>optional bool debug_mode_null = 1014;</code>
+       * <code>bool debug_mode_null = 1014;</code>
        */
       public Builder clearDebugModeNull() {
         
@@ -4069,15 +4069,15 @@ public final class ImImportItemDataAd {
         int index);
 
     /**
-     * <code>optional .dstore.values.TimestampValue error_date_and_time = 101;</code>
+     * <code>.dstore.values.TimestampValue error_date_and_time = 101;</code>
      */
     boolean hasErrorDateAndTime();
     /**
-     * <code>optional .dstore.values.TimestampValue error_date_and_time = 101;</code>
+     * <code>.dstore.values.TimestampValue error_date_and_time = 101;</code>
      */
     io.dstore.values.TimestampValue getErrorDateAndTime();
     /**
-     * <code>optional .dstore.values.TimestampValue error_date_and_time = 101;</code>
+     * <code>.dstore.values.TimestampValue error_date_and_time = 101;</code>
      */
     io.dstore.values.TimestampValueOrBuilder getErrorDateAndTimeOrBuilder();
   }
@@ -4200,7 +4200,7 @@ public final class ImImportItemDataAd {
         com.google.protobuf.MessageOrBuilder {
 
       /**
-       * <code>optional int32 row_id = 10000;</code>
+       * <code>int32 row_id = 10000;</code>
        */
       int getRowId();
     }
@@ -4275,7 +4275,7 @@ public final class ImImportItemDataAd {
       public static final int ROW_ID_FIELD_NUMBER = 10000;
       private int rowId_;
       /**
-       * <code>optional int32 row_id = 10000;</code>
+       * <code>int32 row_id = 10000;</code>
        */
       public int getRowId() {
         return rowId_;
@@ -4334,7 +4334,7 @@ public final class ImImportItemDataAd {
           return memoizedHashCode;
         }
         int hash = 41;
-        hash = (19 * hash) + getDescriptorForType().hashCode();
+        hash = (19 * hash) + getDescriptor().hashCode();
         hash = (37 * hash) + ROW_ID_FIELD_NUMBER;
         hash = (53 * hash) + getRowId();
         hash = (29 * hash) + unknownFields.hashCode();
@@ -4552,13 +4552,13 @@ public final class ImImportItemDataAd {
 
         private int rowId_ ;
         /**
-         * <code>optional int32 row_id = 10000;</code>
+         * <code>int32 row_id = 10000;</code>
          */
         public int getRowId() {
           return rowId_;
         }
         /**
-         * <code>optional int32 row_id = 10000;</code>
+         * <code>int32 row_id = 10000;</code>
          */
         public Builder setRowId(int value) {
           
@@ -4567,7 +4567,7 @@ public final class ImImportItemDataAd {
           return this;
         }
         /**
-         * <code>optional int32 row_id = 10000;</code>
+         * <code>int32 row_id = 10000;</code>
          */
         public Builder clearRowId() {
           
@@ -4733,19 +4733,19 @@ public final class ImImportItemDataAd {
     public static final int ERROR_DATE_AND_TIME_FIELD_NUMBER = 101;
     private io.dstore.values.TimestampValue errorDateAndTime_;
     /**
-     * <code>optional .dstore.values.TimestampValue error_date_and_time = 101;</code>
+     * <code>.dstore.values.TimestampValue error_date_and_time = 101;</code>
      */
     public boolean hasErrorDateAndTime() {
       return errorDateAndTime_ != null;
     }
     /**
-     * <code>optional .dstore.values.TimestampValue error_date_and_time = 101;</code>
+     * <code>.dstore.values.TimestampValue error_date_and_time = 101;</code>
      */
     public io.dstore.values.TimestampValue getErrorDateAndTime() {
       return errorDateAndTime_ == null ? io.dstore.values.TimestampValue.getDefaultInstance() : errorDateAndTime_;
     }
     /**
-     * <code>optional .dstore.values.TimestampValue error_date_and_time = 101;</code>
+     * <code>.dstore.values.TimestampValue error_date_and_time = 101;</code>
      */
     public io.dstore.values.TimestampValueOrBuilder getErrorDateAndTimeOrBuilder() {
       return getErrorDateAndTime();
@@ -4834,7 +4834,7 @@ public final class ImImportItemDataAd {
         return memoizedHashCode;
       }
       int hash = 41;
-      hash = (19 * hash) + getDescriptorForType().hashCode();
+      hash = (19 * hash) + getDescriptor().hashCode();
       if (getMetaInformationCount() > 0) {
         hash = (37 * hash) + META_INFORMATION_FIELD_NUMBER;
         hash = (53 * hash) + getMetaInformationList().hashCode();
@@ -5926,13 +5926,13 @@ public final class ImImportItemDataAd {
       private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.values.TimestampValue, io.dstore.values.TimestampValue.Builder, io.dstore.values.TimestampValueOrBuilder> errorDateAndTimeBuilder_;
       /**
-       * <code>optional .dstore.values.TimestampValue error_date_and_time = 101;</code>
+       * <code>.dstore.values.TimestampValue error_date_and_time = 101;</code>
        */
       public boolean hasErrorDateAndTime() {
         return errorDateAndTimeBuilder_ != null || errorDateAndTime_ != null;
       }
       /**
-       * <code>optional .dstore.values.TimestampValue error_date_and_time = 101;</code>
+       * <code>.dstore.values.TimestampValue error_date_and_time = 101;</code>
        */
       public io.dstore.values.TimestampValue getErrorDateAndTime() {
         if (errorDateAndTimeBuilder_ == null) {
@@ -5942,7 +5942,7 @@ public final class ImImportItemDataAd {
         }
       }
       /**
-       * <code>optional .dstore.values.TimestampValue error_date_and_time = 101;</code>
+       * <code>.dstore.values.TimestampValue error_date_and_time = 101;</code>
        */
       public Builder setErrorDateAndTime(io.dstore.values.TimestampValue value) {
         if (errorDateAndTimeBuilder_ == null) {
@@ -5958,7 +5958,7 @@ public final class ImImportItemDataAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.TimestampValue error_date_and_time = 101;</code>
+       * <code>.dstore.values.TimestampValue error_date_and_time = 101;</code>
        */
       public Builder setErrorDateAndTime(
           io.dstore.values.TimestampValue.Builder builderForValue) {
@@ -5972,7 +5972,7 @@ public final class ImImportItemDataAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.TimestampValue error_date_and_time = 101;</code>
+       * <code>.dstore.values.TimestampValue error_date_and_time = 101;</code>
        */
       public Builder mergeErrorDateAndTime(io.dstore.values.TimestampValue value) {
         if (errorDateAndTimeBuilder_ == null) {
@@ -5990,7 +5990,7 @@ public final class ImImportItemDataAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.TimestampValue error_date_and_time = 101;</code>
+       * <code>.dstore.values.TimestampValue error_date_and_time = 101;</code>
        */
       public Builder clearErrorDateAndTime() {
         if (errorDateAndTimeBuilder_ == null) {
@@ -6004,7 +6004,7 @@ public final class ImImportItemDataAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.TimestampValue error_date_and_time = 101;</code>
+       * <code>.dstore.values.TimestampValue error_date_and_time = 101;</code>
        */
       public io.dstore.values.TimestampValue.Builder getErrorDateAndTimeBuilder() {
         
@@ -6012,7 +6012,7 @@ public final class ImImportItemDataAd {
         return getErrorDateAndTimeFieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .dstore.values.TimestampValue error_date_and_time = 101;</code>
+       * <code>.dstore.values.TimestampValue error_date_and_time = 101;</code>
        */
       public io.dstore.values.TimestampValueOrBuilder getErrorDateAndTimeOrBuilder() {
         if (errorDateAndTimeBuilder_ != null) {
@@ -6023,7 +6023,7 @@ public final class ImImportItemDataAd {
         }
       }
       /**
-       * <code>optional .dstore.values.TimestampValue error_date_and_time = 101;</code>
+       * <code>.dstore.values.TimestampValue error_date_and_time = 101;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.values.TimestampValue, io.dstore.values.TimestampValue.Builder, io.dstore.values.TimestampValueOrBuilder> 

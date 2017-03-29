@@ -8,15 +8,15 @@ public interface ItemOrBuilder extends
     com.google.protobuf.MessageOrBuilder {
 
   /**
-   * <code>optional .dstore.elastic.item.item.Item.Node node = 1;</code>
+   * <code>.dstore.elastic.item.item.Item.Node node = 1;</code>
    */
   boolean hasNode();
   /**
-   * <code>optional .dstore.elastic.item.item.Item.Node node = 1;</code>
+   * <code>.dstore.elastic.item.item.Item.Node node = 1;</code>
    */
   io.dstore.elastic.item.Item.Node getNode();
   /**
-   * <code>optional .dstore.elastic.item.item.Item.Node node = 1;</code>
+   * <code>.dstore.elastic.item.item.Item.Node node = 1;</code>
    */
   io.dstore.elastic.item.Item.NodeOrBuilder getNodeOrBuilder();
 
@@ -45,39 +45,39 @@ public interface ItemOrBuilder extends
       int index);
 
   /**
-   * <code>optional .dstore.values.TimestampValue last_updated = 3;</code>
+   * <code>.dstore.values.TimestampValue last_updated = 3;</code>
    */
   boolean hasLastUpdated();
   /**
-   * <code>optional .dstore.values.TimestampValue last_updated = 3;</code>
+   * <code>.dstore.values.TimestampValue last_updated = 3;</code>
    */
   io.dstore.values.TimestampValue getLastUpdated();
   /**
-   * <code>optional .dstore.values.TimestampValue last_updated = 3;</code>
+   * <code>.dstore.values.TimestampValue last_updated = 3;</code>
    */
   io.dstore.values.TimestampValueOrBuilder getLastUpdatedOrBuilder();
 
   /**
-   * <code>optional double score = 10;</code>
+   * <code>double score = 10;</code>
    */
   double getScore();
 
   /**
-   * <code>optional string index_name = 11;</code>
+   * <code>string index_name = 11;</code>
    */
   java.lang.String getIndexName();
   /**
-   * <code>optional string index_name = 11;</code>
+   * <code>string index_name = 11;</code>
    */
   com.google.protobuf.ByteString
       getIndexNameBytes();
 
   /**
-   * <code>optional string document_id = 12;</code>
+   * <code>string document_id = 12;</code>
    */
   java.lang.String getDocumentId();
   /**
-   * <code>optional string document_id = 12;</code>
+   * <code>string document_id = 12;</code>
    */
   com.google.protobuf.ByteString
       getDocumentIdBytes();

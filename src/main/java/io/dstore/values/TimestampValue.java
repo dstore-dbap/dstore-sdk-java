@@ -81,19 +81,19 @@ public  final class TimestampValue extends
   public static final int VALUE_FIELD_NUMBER = 1;
   private com.google.protobuf.Timestamp value_;
   /**
-   * <code>optional .google.protobuf.Timestamp value = 1;</code>
+   * <code>.google.protobuf.Timestamp value = 1;</code>
    */
   public boolean hasValue() {
     return value_ != null;
   }
   /**
-   * <code>optional .google.protobuf.Timestamp value = 1;</code>
+   * <code>.google.protobuf.Timestamp value = 1;</code>
    */
   public com.google.protobuf.Timestamp getValue() {
     return value_ == null ? com.google.protobuf.Timestamp.getDefaultInstance() : value_;
   }
   /**
-   * <code>optional .google.protobuf.Timestamp value = 1;</code>
+   * <code>.google.protobuf.Timestamp value = 1;</code>
    */
   public com.google.protobuf.TimestampOrBuilder getValueOrBuilder() {
     return getValue();
@@ -155,7 +155,7 @@ public  final class TimestampValue extends
       return memoizedHashCode;
     }
     int hash = 41;
-    hash = (19 * hash) + getDescriptorForType().hashCode();
+    hash = (19 * hash) + getDescriptor().hashCode();
     if (hasValue()) {
       hash = (37 * hash) + VALUE_FIELD_NUMBER;
       hash = (53 * hash) + getValue().hashCode();
@@ -385,13 +385,13 @@ public  final class TimestampValue extends
     private com.google.protobuf.SingleFieldBuilderV3<
         com.google.protobuf.Timestamp, com.google.protobuf.Timestamp.Builder, com.google.protobuf.TimestampOrBuilder> valueBuilder_;
     /**
-     * <code>optional .google.protobuf.Timestamp value = 1;</code>
+     * <code>.google.protobuf.Timestamp value = 1;</code>
      */
     public boolean hasValue() {
       return valueBuilder_ != null || value_ != null;
     }
     /**
-     * <code>optional .google.protobuf.Timestamp value = 1;</code>
+     * <code>.google.protobuf.Timestamp value = 1;</code>
      */
     public com.google.protobuf.Timestamp getValue() {
       if (valueBuilder_ == null) {
@@ -401,7 +401,7 @@ public  final class TimestampValue extends
       }
     }
     /**
-     * <code>optional .google.protobuf.Timestamp value = 1;</code>
+     * <code>.google.protobuf.Timestamp value = 1;</code>
      */
     public Builder setValue(com.google.protobuf.Timestamp value) {
       if (valueBuilder_ == null) {
@@ -417,7 +417,7 @@ public  final class TimestampValue extends
       return this;
     }
     /**
-     * <code>optional .google.protobuf.Timestamp value = 1;</code>
+     * <code>.google.protobuf.Timestamp value = 1;</code>
      */
     public Builder setValue(
         com.google.protobuf.Timestamp.Builder builderForValue) {
@@ -431,7 +431,7 @@ public  final class TimestampValue extends
       return this;
     }
     /**
-     * <code>optional .google.protobuf.Timestamp value = 1;</code>
+     * <code>.google.protobuf.Timestamp value = 1;</code>
      */
     public Builder mergeValue(com.google.protobuf.Timestamp value) {
       if (valueBuilder_ == null) {
@@ -449,7 +449,7 @@ public  final class TimestampValue extends
       return this;
     }
     /**
-     * <code>optional .google.protobuf.Timestamp value = 1;</code>
+     * <code>.google.protobuf.Timestamp value = 1;</code>
      */
     public Builder clearValue() {
       if (valueBuilder_ == null) {
@@ -463,7 +463,7 @@ public  final class TimestampValue extends
       return this;
     }
     /**
-     * <code>optional .google.protobuf.Timestamp value = 1;</code>
+     * <code>.google.protobuf.Timestamp value = 1;</code>
      */
     public com.google.protobuf.Timestamp.Builder getValueBuilder() {
       
@@ -471,7 +471,7 @@ public  final class TimestampValue extends
       return getValueFieldBuilder().getBuilder();
     }
     /**
-     * <code>optional .google.protobuf.Timestamp value = 1;</code>
+     * <code>.google.protobuf.Timestamp value = 1;</code>
      */
     public com.google.protobuf.TimestampOrBuilder getValueOrBuilder() {
       if (valueBuilder_ != null) {
@@ -482,7 +482,7 @@ public  final class TimestampValue extends
       }
     }
     /**
-     * <code>optional .google.protobuf.Timestamp value = 1;</code>
+     * <code>.google.protobuf.Timestamp value = 1;</code>
      */
     private com.google.protobuf.SingleFieldBuilderV3<
         com.google.protobuf.Timestamp, com.google.protobuf.Timestamp.Builder, com.google.protobuf.TimestampOrBuilder> 

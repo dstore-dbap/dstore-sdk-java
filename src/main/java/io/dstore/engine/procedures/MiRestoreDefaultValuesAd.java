@@ -19,110 +19,110 @@ public final class MiRestoreDefaultValuesAd {
       com.google.protobuf.MessageOrBuilder {
 
     /**
-     * <code>optional .dstore.values.StringValue create_sup_adm_person_with_passwd = 1;</code>
+     * <code>.dstore.values.StringValue create_sup_adm_person_with_passwd = 1;</code>
      */
     boolean hasCreateSupAdmPersonWithPasswd();
     /**
-     * <code>optional .dstore.values.StringValue create_sup_adm_person_with_passwd = 1;</code>
+     * <code>.dstore.values.StringValue create_sup_adm_person_with_passwd = 1;</code>
      */
     io.dstore.values.StringValue getCreateSupAdmPersonWithPasswd();
     /**
-     * <code>optional .dstore.values.StringValue create_sup_adm_person_with_passwd = 1;</code>
+     * <code>.dstore.values.StringValue create_sup_adm_person_with_passwd = 1;</code>
      */
     io.dstore.values.StringValueOrBuilder getCreateSupAdmPersonWithPasswdOrBuilder();
 
     /**
-     * <code>optional bool create_sup_adm_person_with_passwd_null = 1001;</code>
+     * <code>bool create_sup_adm_person_with_passwd_null = 1001;</code>
      */
     boolean getCreateSupAdmPersonWithPasswdNull();
 
     /**
-     * <code>optional .dstore.values.BooleanValue skip_tables_for_development = 2;</code>
+     * <code>.dstore.values.BooleanValue skip_tables_for_development = 2;</code>
      */
     boolean hasSkipTablesForDevelopment();
     /**
-     * <code>optional .dstore.values.BooleanValue skip_tables_for_development = 2;</code>
+     * <code>.dstore.values.BooleanValue skip_tables_for_development = 2;</code>
      */
     io.dstore.values.BooleanValue getSkipTablesForDevelopment();
     /**
-     * <code>optional .dstore.values.BooleanValue skip_tables_for_development = 2;</code>
+     * <code>.dstore.values.BooleanValue skip_tables_for_development = 2;</code>
      */
     io.dstore.values.BooleanValueOrBuilder getSkipTablesForDevelopmentOrBuilder();
 
     /**
-     * <code>optional bool skip_tables_for_development_null = 1002;</code>
+     * <code>bool skip_tables_for_development_null = 1002;</code>
      */
     boolean getSkipTablesForDevelopmentNull();
 
     /**
-     * <code>optional .dstore.values.StringValue generate_item_test_data_scenario = 3;</code>
+     * <code>.dstore.values.StringValue generate_item_test_data_scenario = 3;</code>
      */
     boolean hasGenerateItemTestDataScenario();
     /**
-     * <code>optional .dstore.values.StringValue generate_item_test_data_scenario = 3;</code>
+     * <code>.dstore.values.StringValue generate_item_test_data_scenario = 3;</code>
      */
     io.dstore.values.StringValue getGenerateItemTestDataScenario();
     /**
-     * <code>optional .dstore.values.StringValue generate_item_test_data_scenario = 3;</code>
+     * <code>.dstore.values.StringValue generate_item_test_data_scenario = 3;</code>
      */
     io.dstore.values.StringValueOrBuilder getGenerateItemTestDataScenarioOrBuilder();
 
     /**
-     * <code>optional bool generate_item_test_data_scenario_null = 1003;</code>
+     * <code>bool generate_item_test_data_scenario_null = 1003;</code>
      */
     boolean getGenerateItemTestDataScenarioNull();
 
     /**
-     * <code>optional .dstore.values.StringValue generate_pers_test_data_scenario = 4;</code>
+     * <code>.dstore.values.StringValue generate_pers_test_data_scenario = 4;</code>
      */
     boolean hasGeneratePersTestDataScenario();
     /**
-     * <code>optional .dstore.values.StringValue generate_pers_test_data_scenario = 4;</code>
+     * <code>.dstore.values.StringValue generate_pers_test_data_scenario = 4;</code>
      */
     io.dstore.values.StringValue getGeneratePersTestDataScenario();
     /**
-     * <code>optional .dstore.values.StringValue generate_pers_test_data_scenario = 4;</code>
+     * <code>.dstore.values.StringValue generate_pers_test_data_scenario = 4;</code>
      */
     io.dstore.values.StringValueOrBuilder getGeneratePersTestDataScenarioOrBuilder();
 
     /**
-     * <code>optional bool generate_pers_test_data_scenario_null = 1004;</code>
+     * <code>bool generate_pers_test_data_scenario_null = 1004;</code>
      */
     boolean getGeneratePersTestDataScenarioNull();
 
     /**
-     * <code>optional .dstore.values.StringValue gener_forum_test_data_scenario = 5;</code>
+     * <code>.dstore.values.StringValue gener_forum_test_data_scenario = 5;</code>
      */
     boolean hasGenerForumTestDataScenario();
     /**
-     * <code>optional .dstore.values.StringValue gener_forum_test_data_scenario = 5;</code>
+     * <code>.dstore.values.StringValue gener_forum_test_data_scenario = 5;</code>
      */
     io.dstore.values.StringValue getGenerForumTestDataScenario();
     /**
-     * <code>optional .dstore.values.StringValue gener_forum_test_data_scenario = 5;</code>
+     * <code>.dstore.values.StringValue gener_forum_test_data_scenario = 5;</code>
      */
     io.dstore.values.StringValueOrBuilder getGenerForumTestDataScenarioOrBuilder();
 
     /**
-     * <code>optional bool gener_forum_test_data_scenario_null = 1005;</code>
+     * <code>bool gener_forum_test_data_scenario_null = 1005;</code>
      */
     boolean getGenerForumTestDataScenarioNull();
 
     /**
-     * <code>optional .dstore.values.StringValue gener_order_test_data_scenario = 6;</code>
+     * <code>.dstore.values.StringValue gener_order_test_data_scenario = 6;</code>
      */
     boolean hasGenerOrderTestDataScenario();
     /**
-     * <code>optional .dstore.values.StringValue gener_order_test_data_scenario = 6;</code>
+     * <code>.dstore.values.StringValue gener_order_test_data_scenario = 6;</code>
      */
     io.dstore.values.StringValue getGenerOrderTestDataScenario();
     /**
-     * <code>optional .dstore.values.StringValue gener_order_test_data_scenario = 6;</code>
+     * <code>.dstore.values.StringValue gener_order_test_data_scenario = 6;</code>
      */
     io.dstore.values.StringValueOrBuilder getGenerOrderTestDataScenarioOrBuilder();
 
     /**
-     * <code>optional bool gener_order_test_data_scenario_null = 1006;</code>
+     * <code>bool gener_order_test_data_scenario_null = 1006;</code>
      */
     boolean getGenerOrderTestDataScenarioNull();
   }
@@ -305,19 +305,19 @@ public final class MiRestoreDefaultValuesAd {
     public static final int CREATE_SUP_ADM_PERSON_WITH_PASSWD_FIELD_NUMBER = 1;
     private io.dstore.values.StringValue createSupAdmPersonWithPasswd_;
     /**
-     * <code>optional .dstore.values.StringValue create_sup_adm_person_with_passwd = 1;</code>
+     * <code>.dstore.values.StringValue create_sup_adm_person_with_passwd = 1;</code>
      */
     public boolean hasCreateSupAdmPersonWithPasswd() {
       return createSupAdmPersonWithPasswd_ != null;
     }
     /**
-     * <code>optional .dstore.values.StringValue create_sup_adm_person_with_passwd = 1;</code>
+     * <code>.dstore.values.StringValue create_sup_adm_person_with_passwd = 1;</code>
      */
     public io.dstore.values.StringValue getCreateSupAdmPersonWithPasswd() {
       return createSupAdmPersonWithPasswd_ == null ? io.dstore.values.StringValue.getDefaultInstance() : createSupAdmPersonWithPasswd_;
     }
     /**
-     * <code>optional .dstore.values.StringValue create_sup_adm_person_with_passwd = 1;</code>
+     * <code>.dstore.values.StringValue create_sup_adm_person_with_passwd = 1;</code>
      */
     public io.dstore.values.StringValueOrBuilder getCreateSupAdmPersonWithPasswdOrBuilder() {
       return getCreateSupAdmPersonWithPasswd();
@@ -326,7 +326,7 @@ public final class MiRestoreDefaultValuesAd {
     public static final int CREATE_SUP_ADM_PERSON_WITH_PASSWD_NULL_FIELD_NUMBER = 1001;
     private boolean createSupAdmPersonWithPasswdNull_;
     /**
-     * <code>optional bool create_sup_adm_person_with_passwd_null = 1001;</code>
+     * <code>bool create_sup_adm_person_with_passwd_null = 1001;</code>
      */
     public boolean getCreateSupAdmPersonWithPasswdNull() {
       return createSupAdmPersonWithPasswdNull_;
@@ -335,19 +335,19 @@ public final class MiRestoreDefaultValuesAd {
     public static final int SKIP_TABLES_FOR_DEVELOPMENT_FIELD_NUMBER = 2;
     private io.dstore.values.BooleanValue skipTablesForDevelopment_;
     /**
-     * <code>optional .dstore.values.BooleanValue skip_tables_for_development = 2;</code>
+     * <code>.dstore.values.BooleanValue skip_tables_for_development = 2;</code>
      */
     public boolean hasSkipTablesForDevelopment() {
       return skipTablesForDevelopment_ != null;
     }
     /**
-     * <code>optional .dstore.values.BooleanValue skip_tables_for_development = 2;</code>
+     * <code>.dstore.values.BooleanValue skip_tables_for_development = 2;</code>
      */
     public io.dstore.values.BooleanValue getSkipTablesForDevelopment() {
       return skipTablesForDevelopment_ == null ? io.dstore.values.BooleanValue.getDefaultInstance() : skipTablesForDevelopment_;
     }
     /**
-     * <code>optional .dstore.values.BooleanValue skip_tables_for_development = 2;</code>
+     * <code>.dstore.values.BooleanValue skip_tables_for_development = 2;</code>
      */
     public io.dstore.values.BooleanValueOrBuilder getSkipTablesForDevelopmentOrBuilder() {
       return getSkipTablesForDevelopment();
@@ -356,7 +356,7 @@ public final class MiRestoreDefaultValuesAd {
     public static final int SKIP_TABLES_FOR_DEVELOPMENT_NULL_FIELD_NUMBER = 1002;
     private boolean skipTablesForDevelopmentNull_;
     /**
-     * <code>optional bool skip_tables_for_development_null = 1002;</code>
+     * <code>bool skip_tables_for_development_null = 1002;</code>
      */
     public boolean getSkipTablesForDevelopmentNull() {
       return skipTablesForDevelopmentNull_;
@@ -365,19 +365,19 @@ public final class MiRestoreDefaultValuesAd {
     public static final int GENERATE_ITEM_TEST_DATA_SCENARIO_FIELD_NUMBER = 3;
     private io.dstore.values.StringValue generateItemTestDataScenario_;
     /**
-     * <code>optional .dstore.values.StringValue generate_item_test_data_scenario = 3;</code>
+     * <code>.dstore.values.StringValue generate_item_test_data_scenario = 3;</code>
      */
     public boolean hasGenerateItemTestDataScenario() {
       return generateItemTestDataScenario_ != null;
     }
     /**
-     * <code>optional .dstore.values.StringValue generate_item_test_data_scenario = 3;</code>
+     * <code>.dstore.values.StringValue generate_item_test_data_scenario = 3;</code>
      */
     public io.dstore.values.StringValue getGenerateItemTestDataScenario() {
       return generateItemTestDataScenario_ == null ? io.dstore.values.StringValue.getDefaultInstance() : generateItemTestDataScenario_;
     }
     /**
-     * <code>optional .dstore.values.StringValue generate_item_test_data_scenario = 3;</code>
+     * <code>.dstore.values.StringValue generate_item_test_data_scenario = 3;</code>
      */
     public io.dstore.values.StringValueOrBuilder getGenerateItemTestDataScenarioOrBuilder() {
       return getGenerateItemTestDataScenario();
@@ -386,7 +386,7 @@ public final class MiRestoreDefaultValuesAd {
     public static final int GENERATE_ITEM_TEST_DATA_SCENARIO_NULL_FIELD_NUMBER = 1003;
     private boolean generateItemTestDataScenarioNull_;
     /**
-     * <code>optional bool generate_item_test_data_scenario_null = 1003;</code>
+     * <code>bool generate_item_test_data_scenario_null = 1003;</code>
      */
     public boolean getGenerateItemTestDataScenarioNull() {
       return generateItemTestDataScenarioNull_;
@@ -395,19 +395,19 @@ public final class MiRestoreDefaultValuesAd {
     public static final int GENERATE_PERS_TEST_DATA_SCENARIO_FIELD_NUMBER = 4;
     private io.dstore.values.StringValue generatePersTestDataScenario_;
     /**
-     * <code>optional .dstore.values.StringValue generate_pers_test_data_scenario = 4;</code>
+     * <code>.dstore.values.StringValue generate_pers_test_data_scenario = 4;</code>
      */
     public boolean hasGeneratePersTestDataScenario() {
       return generatePersTestDataScenario_ != null;
     }
     /**
-     * <code>optional .dstore.values.StringValue generate_pers_test_data_scenario = 4;</code>
+     * <code>.dstore.values.StringValue generate_pers_test_data_scenario = 4;</code>
      */
     public io.dstore.values.StringValue getGeneratePersTestDataScenario() {
       return generatePersTestDataScenario_ == null ? io.dstore.values.StringValue.getDefaultInstance() : generatePersTestDataScenario_;
     }
     /**
-     * <code>optional .dstore.values.StringValue generate_pers_test_data_scenario = 4;</code>
+     * <code>.dstore.values.StringValue generate_pers_test_data_scenario = 4;</code>
      */
     public io.dstore.values.StringValueOrBuilder getGeneratePersTestDataScenarioOrBuilder() {
       return getGeneratePersTestDataScenario();
@@ -416,7 +416,7 @@ public final class MiRestoreDefaultValuesAd {
     public static final int GENERATE_PERS_TEST_DATA_SCENARIO_NULL_FIELD_NUMBER = 1004;
     private boolean generatePersTestDataScenarioNull_;
     /**
-     * <code>optional bool generate_pers_test_data_scenario_null = 1004;</code>
+     * <code>bool generate_pers_test_data_scenario_null = 1004;</code>
      */
     public boolean getGeneratePersTestDataScenarioNull() {
       return generatePersTestDataScenarioNull_;
@@ -425,19 +425,19 @@ public final class MiRestoreDefaultValuesAd {
     public static final int GENER_FORUM_TEST_DATA_SCENARIO_FIELD_NUMBER = 5;
     private io.dstore.values.StringValue generForumTestDataScenario_;
     /**
-     * <code>optional .dstore.values.StringValue gener_forum_test_data_scenario = 5;</code>
+     * <code>.dstore.values.StringValue gener_forum_test_data_scenario = 5;</code>
      */
     public boolean hasGenerForumTestDataScenario() {
       return generForumTestDataScenario_ != null;
     }
     /**
-     * <code>optional .dstore.values.StringValue gener_forum_test_data_scenario = 5;</code>
+     * <code>.dstore.values.StringValue gener_forum_test_data_scenario = 5;</code>
      */
     public io.dstore.values.StringValue getGenerForumTestDataScenario() {
       return generForumTestDataScenario_ == null ? io.dstore.values.StringValue.getDefaultInstance() : generForumTestDataScenario_;
     }
     /**
-     * <code>optional .dstore.values.StringValue gener_forum_test_data_scenario = 5;</code>
+     * <code>.dstore.values.StringValue gener_forum_test_data_scenario = 5;</code>
      */
     public io.dstore.values.StringValueOrBuilder getGenerForumTestDataScenarioOrBuilder() {
       return getGenerForumTestDataScenario();
@@ -446,7 +446,7 @@ public final class MiRestoreDefaultValuesAd {
     public static final int GENER_FORUM_TEST_DATA_SCENARIO_NULL_FIELD_NUMBER = 1005;
     private boolean generForumTestDataScenarioNull_;
     /**
-     * <code>optional bool gener_forum_test_data_scenario_null = 1005;</code>
+     * <code>bool gener_forum_test_data_scenario_null = 1005;</code>
      */
     public boolean getGenerForumTestDataScenarioNull() {
       return generForumTestDataScenarioNull_;
@@ -455,19 +455,19 @@ public final class MiRestoreDefaultValuesAd {
     public static final int GENER_ORDER_TEST_DATA_SCENARIO_FIELD_NUMBER = 6;
     private io.dstore.values.StringValue generOrderTestDataScenario_;
     /**
-     * <code>optional .dstore.values.StringValue gener_order_test_data_scenario = 6;</code>
+     * <code>.dstore.values.StringValue gener_order_test_data_scenario = 6;</code>
      */
     public boolean hasGenerOrderTestDataScenario() {
       return generOrderTestDataScenario_ != null;
     }
     /**
-     * <code>optional .dstore.values.StringValue gener_order_test_data_scenario = 6;</code>
+     * <code>.dstore.values.StringValue gener_order_test_data_scenario = 6;</code>
      */
     public io.dstore.values.StringValue getGenerOrderTestDataScenario() {
       return generOrderTestDataScenario_ == null ? io.dstore.values.StringValue.getDefaultInstance() : generOrderTestDataScenario_;
     }
     /**
-     * <code>optional .dstore.values.StringValue gener_order_test_data_scenario = 6;</code>
+     * <code>.dstore.values.StringValue gener_order_test_data_scenario = 6;</code>
      */
     public io.dstore.values.StringValueOrBuilder getGenerOrderTestDataScenarioOrBuilder() {
       return getGenerOrderTestDataScenario();
@@ -476,7 +476,7 @@ public final class MiRestoreDefaultValuesAd {
     public static final int GENER_ORDER_TEST_DATA_SCENARIO_NULL_FIELD_NUMBER = 1006;
     private boolean generOrderTestDataScenarioNull_;
     /**
-     * <code>optional bool gener_order_test_data_scenario_null = 1006;</code>
+     * <code>bool gener_order_test_data_scenario_null = 1006;</code>
      */
     public boolean getGenerOrderTestDataScenarioNull() {
       return generOrderTestDataScenarioNull_;
@@ -652,7 +652,7 @@ public final class MiRestoreDefaultValuesAd {
         return memoizedHashCode;
       }
       int hash = 41;
-      hash = (19 * hash) + getDescriptorForType().hashCode();
+      hash = (19 * hash) + getDescriptor().hashCode();
       if (hasCreateSupAdmPersonWithPasswd()) {
         hash = (37 * hash) + CREATE_SUP_ADM_PERSON_WITH_PASSWD_FIELD_NUMBER;
         hash = (53 * hash) + getCreateSupAdmPersonWithPasswd().hashCode();
@@ -1026,13 +1026,13 @@ public final class MiRestoreDefaultValuesAd {
       private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.values.StringValue, io.dstore.values.StringValue.Builder, io.dstore.values.StringValueOrBuilder> createSupAdmPersonWithPasswdBuilder_;
       /**
-       * <code>optional .dstore.values.StringValue create_sup_adm_person_with_passwd = 1;</code>
+       * <code>.dstore.values.StringValue create_sup_adm_person_with_passwd = 1;</code>
        */
       public boolean hasCreateSupAdmPersonWithPasswd() {
         return createSupAdmPersonWithPasswdBuilder_ != null || createSupAdmPersonWithPasswd_ != null;
       }
       /**
-       * <code>optional .dstore.values.StringValue create_sup_adm_person_with_passwd = 1;</code>
+       * <code>.dstore.values.StringValue create_sup_adm_person_with_passwd = 1;</code>
        */
       public io.dstore.values.StringValue getCreateSupAdmPersonWithPasswd() {
         if (createSupAdmPersonWithPasswdBuilder_ == null) {
@@ -1042,7 +1042,7 @@ public final class MiRestoreDefaultValuesAd {
         }
       }
       /**
-       * <code>optional .dstore.values.StringValue create_sup_adm_person_with_passwd = 1;</code>
+       * <code>.dstore.values.StringValue create_sup_adm_person_with_passwd = 1;</code>
        */
       public Builder setCreateSupAdmPersonWithPasswd(io.dstore.values.StringValue value) {
         if (createSupAdmPersonWithPasswdBuilder_ == null) {
@@ -1058,7 +1058,7 @@ public final class MiRestoreDefaultValuesAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.StringValue create_sup_adm_person_with_passwd = 1;</code>
+       * <code>.dstore.values.StringValue create_sup_adm_person_with_passwd = 1;</code>
        */
       public Builder setCreateSupAdmPersonWithPasswd(
           io.dstore.values.StringValue.Builder builderForValue) {
@@ -1072,7 +1072,7 @@ public final class MiRestoreDefaultValuesAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.StringValue create_sup_adm_person_with_passwd = 1;</code>
+       * <code>.dstore.values.StringValue create_sup_adm_person_with_passwd = 1;</code>
        */
       public Builder mergeCreateSupAdmPersonWithPasswd(io.dstore.values.StringValue value) {
         if (createSupAdmPersonWithPasswdBuilder_ == null) {
@@ -1090,7 +1090,7 @@ public final class MiRestoreDefaultValuesAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.StringValue create_sup_adm_person_with_passwd = 1;</code>
+       * <code>.dstore.values.StringValue create_sup_adm_person_with_passwd = 1;</code>
        */
       public Builder clearCreateSupAdmPersonWithPasswd() {
         if (createSupAdmPersonWithPasswdBuilder_ == null) {
@@ -1104,7 +1104,7 @@ public final class MiRestoreDefaultValuesAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.StringValue create_sup_adm_person_with_passwd = 1;</code>
+       * <code>.dstore.values.StringValue create_sup_adm_person_with_passwd = 1;</code>
        */
       public io.dstore.values.StringValue.Builder getCreateSupAdmPersonWithPasswdBuilder() {
         
@@ -1112,7 +1112,7 @@ public final class MiRestoreDefaultValuesAd {
         return getCreateSupAdmPersonWithPasswdFieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .dstore.values.StringValue create_sup_adm_person_with_passwd = 1;</code>
+       * <code>.dstore.values.StringValue create_sup_adm_person_with_passwd = 1;</code>
        */
       public io.dstore.values.StringValueOrBuilder getCreateSupAdmPersonWithPasswdOrBuilder() {
         if (createSupAdmPersonWithPasswdBuilder_ != null) {
@@ -1123,7 +1123,7 @@ public final class MiRestoreDefaultValuesAd {
         }
       }
       /**
-       * <code>optional .dstore.values.StringValue create_sup_adm_person_with_passwd = 1;</code>
+       * <code>.dstore.values.StringValue create_sup_adm_person_with_passwd = 1;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.values.StringValue, io.dstore.values.StringValue.Builder, io.dstore.values.StringValueOrBuilder> 
@@ -1141,13 +1141,13 @@ public final class MiRestoreDefaultValuesAd {
 
       private boolean createSupAdmPersonWithPasswdNull_ ;
       /**
-       * <code>optional bool create_sup_adm_person_with_passwd_null = 1001;</code>
+       * <code>bool create_sup_adm_person_with_passwd_null = 1001;</code>
        */
       public boolean getCreateSupAdmPersonWithPasswdNull() {
         return createSupAdmPersonWithPasswdNull_;
       }
       /**
-       * <code>optional bool create_sup_adm_person_with_passwd_null = 1001;</code>
+       * <code>bool create_sup_adm_person_with_passwd_null = 1001;</code>
        */
       public Builder setCreateSupAdmPersonWithPasswdNull(boolean value) {
         
@@ -1156,7 +1156,7 @@ public final class MiRestoreDefaultValuesAd {
         return this;
       }
       /**
-       * <code>optional bool create_sup_adm_person_with_passwd_null = 1001;</code>
+       * <code>bool create_sup_adm_person_with_passwd_null = 1001;</code>
        */
       public Builder clearCreateSupAdmPersonWithPasswdNull() {
         
@@ -1169,13 +1169,13 @@ public final class MiRestoreDefaultValuesAd {
       private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.values.BooleanValue, io.dstore.values.BooleanValue.Builder, io.dstore.values.BooleanValueOrBuilder> skipTablesForDevelopmentBuilder_;
       /**
-       * <code>optional .dstore.values.BooleanValue skip_tables_for_development = 2;</code>
+       * <code>.dstore.values.BooleanValue skip_tables_for_development = 2;</code>
        */
       public boolean hasSkipTablesForDevelopment() {
         return skipTablesForDevelopmentBuilder_ != null || skipTablesForDevelopment_ != null;
       }
       /**
-       * <code>optional .dstore.values.BooleanValue skip_tables_for_development = 2;</code>
+       * <code>.dstore.values.BooleanValue skip_tables_for_development = 2;</code>
        */
       public io.dstore.values.BooleanValue getSkipTablesForDevelopment() {
         if (skipTablesForDevelopmentBuilder_ == null) {
@@ -1185,7 +1185,7 @@ public final class MiRestoreDefaultValuesAd {
         }
       }
       /**
-       * <code>optional .dstore.values.BooleanValue skip_tables_for_development = 2;</code>
+       * <code>.dstore.values.BooleanValue skip_tables_for_development = 2;</code>
        */
       public Builder setSkipTablesForDevelopment(io.dstore.values.BooleanValue value) {
         if (skipTablesForDevelopmentBuilder_ == null) {
@@ -1201,7 +1201,7 @@ public final class MiRestoreDefaultValuesAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.BooleanValue skip_tables_for_development = 2;</code>
+       * <code>.dstore.values.BooleanValue skip_tables_for_development = 2;</code>
        */
       public Builder setSkipTablesForDevelopment(
           io.dstore.values.BooleanValue.Builder builderForValue) {
@@ -1215,7 +1215,7 @@ public final class MiRestoreDefaultValuesAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.BooleanValue skip_tables_for_development = 2;</code>
+       * <code>.dstore.values.BooleanValue skip_tables_for_development = 2;</code>
        */
       public Builder mergeSkipTablesForDevelopment(io.dstore.values.BooleanValue value) {
         if (skipTablesForDevelopmentBuilder_ == null) {
@@ -1233,7 +1233,7 @@ public final class MiRestoreDefaultValuesAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.BooleanValue skip_tables_for_development = 2;</code>
+       * <code>.dstore.values.BooleanValue skip_tables_for_development = 2;</code>
        */
       public Builder clearSkipTablesForDevelopment() {
         if (skipTablesForDevelopmentBuilder_ == null) {
@@ -1247,7 +1247,7 @@ public final class MiRestoreDefaultValuesAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.BooleanValue skip_tables_for_development = 2;</code>
+       * <code>.dstore.values.BooleanValue skip_tables_for_development = 2;</code>
        */
       public io.dstore.values.BooleanValue.Builder getSkipTablesForDevelopmentBuilder() {
         
@@ -1255,7 +1255,7 @@ public final class MiRestoreDefaultValuesAd {
         return getSkipTablesForDevelopmentFieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .dstore.values.BooleanValue skip_tables_for_development = 2;</code>
+       * <code>.dstore.values.BooleanValue skip_tables_for_development = 2;</code>
        */
       public io.dstore.values.BooleanValueOrBuilder getSkipTablesForDevelopmentOrBuilder() {
         if (skipTablesForDevelopmentBuilder_ != null) {
@@ -1266,7 +1266,7 @@ public final class MiRestoreDefaultValuesAd {
         }
       }
       /**
-       * <code>optional .dstore.values.BooleanValue skip_tables_for_development = 2;</code>
+       * <code>.dstore.values.BooleanValue skip_tables_for_development = 2;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.values.BooleanValue, io.dstore.values.BooleanValue.Builder, io.dstore.values.BooleanValueOrBuilder> 
@@ -1284,13 +1284,13 @@ public final class MiRestoreDefaultValuesAd {
 
       private boolean skipTablesForDevelopmentNull_ ;
       /**
-       * <code>optional bool skip_tables_for_development_null = 1002;</code>
+       * <code>bool skip_tables_for_development_null = 1002;</code>
        */
       public boolean getSkipTablesForDevelopmentNull() {
         return skipTablesForDevelopmentNull_;
       }
       /**
-       * <code>optional bool skip_tables_for_development_null = 1002;</code>
+       * <code>bool skip_tables_for_development_null = 1002;</code>
        */
       public Builder setSkipTablesForDevelopmentNull(boolean value) {
         
@@ -1299,7 +1299,7 @@ public final class MiRestoreDefaultValuesAd {
         return this;
       }
       /**
-       * <code>optional bool skip_tables_for_development_null = 1002;</code>
+       * <code>bool skip_tables_for_development_null = 1002;</code>
        */
       public Builder clearSkipTablesForDevelopmentNull() {
         
@@ -1312,13 +1312,13 @@ public final class MiRestoreDefaultValuesAd {
       private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.values.StringValue, io.dstore.values.StringValue.Builder, io.dstore.values.StringValueOrBuilder> generateItemTestDataScenarioBuilder_;
       /**
-       * <code>optional .dstore.values.StringValue generate_item_test_data_scenario = 3;</code>
+       * <code>.dstore.values.StringValue generate_item_test_data_scenario = 3;</code>
        */
       public boolean hasGenerateItemTestDataScenario() {
         return generateItemTestDataScenarioBuilder_ != null || generateItemTestDataScenario_ != null;
       }
       /**
-       * <code>optional .dstore.values.StringValue generate_item_test_data_scenario = 3;</code>
+       * <code>.dstore.values.StringValue generate_item_test_data_scenario = 3;</code>
        */
       public io.dstore.values.StringValue getGenerateItemTestDataScenario() {
         if (generateItemTestDataScenarioBuilder_ == null) {
@@ -1328,7 +1328,7 @@ public final class MiRestoreDefaultValuesAd {
         }
       }
       /**
-       * <code>optional .dstore.values.StringValue generate_item_test_data_scenario = 3;</code>
+       * <code>.dstore.values.StringValue generate_item_test_data_scenario = 3;</code>
        */
       public Builder setGenerateItemTestDataScenario(io.dstore.values.StringValue value) {
         if (generateItemTestDataScenarioBuilder_ == null) {
@@ -1344,7 +1344,7 @@ public final class MiRestoreDefaultValuesAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.StringValue generate_item_test_data_scenario = 3;</code>
+       * <code>.dstore.values.StringValue generate_item_test_data_scenario = 3;</code>
        */
       public Builder setGenerateItemTestDataScenario(
           io.dstore.values.StringValue.Builder builderForValue) {
@@ -1358,7 +1358,7 @@ public final class MiRestoreDefaultValuesAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.StringValue generate_item_test_data_scenario = 3;</code>
+       * <code>.dstore.values.StringValue generate_item_test_data_scenario = 3;</code>
        */
       public Builder mergeGenerateItemTestDataScenario(io.dstore.values.StringValue value) {
         if (generateItemTestDataScenarioBuilder_ == null) {
@@ -1376,7 +1376,7 @@ public final class MiRestoreDefaultValuesAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.StringValue generate_item_test_data_scenario = 3;</code>
+       * <code>.dstore.values.StringValue generate_item_test_data_scenario = 3;</code>
        */
       public Builder clearGenerateItemTestDataScenario() {
         if (generateItemTestDataScenarioBuilder_ == null) {
@@ -1390,7 +1390,7 @@ public final class MiRestoreDefaultValuesAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.StringValue generate_item_test_data_scenario = 3;</code>
+       * <code>.dstore.values.StringValue generate_item_test_data_scenario = 3;</code>
        */
       public io.dstore.values.StringValue.Builder getGenerateItemTestDataScenarioBuilder() {
         
@@ -1398,7 +1398,7 @@ public final class MiRestoreDefaultValuesAd {
         return getGenerateItemTestDataScenarioFieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .dstore.values.StringValue generate_item_test_data_scenario = 3;</code>
+       * <code>.dstore.values.StringValue generate_item_test_data_scenario = 3;</code>
        */
       public io.dstore.values.StringValueOrBuilder getGenerateItemTestDataScenarioOrBuilder() {
         if (generateItemTestDataScenarioBuilder_ != null) {
@@ -1409,7 +1409,7 @@ public final class MiRestoreDefaultValuesAd {
         }
       }
       /**
-       * <code>optional .dstore.values.StringValue generate_item_test_data_scenario = 3;</code>
+       * <code>.dstore.values.StringValue generate_item_test_data_scenario = 3;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.values.StringValue, io.dstore.values.StringValue.Builder, io.dstore.values.StringValueOrBuilder> 
@@ -1427,13 +1427,13 @@ public final class MiRestoreDefaultValuesAd {
 
       private boolean generateItemTestDataScenarioNull_ ;
       /**
-       * <code>optional bool generate_item_test_data_scenario_null = 1003;</code>
+       * <code>bool generate_item_test_data_scenario_null = 1003;</code>
        */
       public boolean getGenerateItemTestDataScenarioNull() {
         return generateItemTestDataScenarioNull_;
       }
       /**
-       * <code>optional bool generate_item_test_data_scenario_null = 1003;</code>
+       * <code>bool generate_item_test_data_scenario_null = 1003;</code>
        */
       public Builder setGenerateItemTestDataScenarioNull(boolean value) {
         
@@ -1442,7 +1442,7 @@ public final class MiRestoreDefaultValuesAd {
         return this;
       }
       /**
-       * <code>optional bool generate_item_test_data_scenario_null = 1003;</code>
+       * <code>bool generate_item_test_data_scenario_null = 1003;</code>
        */
       public Builder clearGenerateItemTestDataScenarioNull() {
         
@@ -1455,13 +1455,13 @@ public final class MiRestoreDefaultValuesAd {
       private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.values.StringValue, io.dstore.values.StringValue.Builder, io.dstore.values.StringValueOrBuilder> generatePersTestDataScenarioBuilder_;
       /**
-       * <code>optional .dstore.values.StringValue generate_pers_test_data_scenario = 4;</code>
+       * <code>.dstore.values.StringValue generate_pers_test_data_scenario = 4;</code>
        */
       public boolean hasGeneratePersTestDataScenario() {
         return generatePersTestDataScenarioBuilder_ != null || generatePersTestDataScenario_ != null;
       }
       /**
-       * <code>optional .dstore.values.StringValue generate_pers_test_data_scenario = 4;</code>
+       * <code>.dstore.values.StringValue generate_pers_test_data_scenario = 4;</code>
        */
       public io.dstore.values.StringValue getGeneratePersTestDataScenario() {
         if (generatePersTestDataScenarioBuilder_ == null) {
@@ -1471,7 +1471,7 @@ public final class MiRestoreDefaultValuesAd {
         }
       }
       /**
-       * <code>optional .dstore.values.StringValue generate_pers_test_data_scenario = 4;</code>
+       * <code>.dstore.values.StringValue generate_pers_test_data_scenario = 4;</code>
        */
       public Builder setGeneratePersTestDataScenario(io.dstore.values.StringValue value) {
         if (generatePersTestDataScenarioBuilder_ == null) {
@@ -1487,7 +1487,7 @@ public final class MiRestoreDefaultValuesAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.StringValue generate_pers_test_data_scenario = 4;</code>
+       * <code>.dstore.values.StringValue generate_pers_test_data_scenario = 4;</code>
        */
       public Builder setGeneratePersTestDataScenario(
           io.dstore.values.StringValue.Builder builderForValue) {
@@ -1501,7 +1501,7 @@ public final class MiRestoreDefaultValuesAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.StringValue generate_pers_test_data_scenario = 4;</code>
+       * <code>.dstore.values.StringValue generate_pers_test_data_scenario = 4;</code>
        */
       public Builder mergeGeneratePersTestDataScenario(io.dstore.values.StringValue value) {
         if (generatePersTestDataScenarioBuilder_ == null) {
@@ -1519,7 +1519,7 @@ public final class MiRestoreDefaultValuesAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.StringValue generate_pers_test_data_scenario = 4;</code>
+       * <code>.dstore.values.StringValue generate_pers_test_data_scenario = 4;</code>
        */
       public Builder clearGeneratePersTestDataScenario() {
         if (generatePersTestDataScenarioBuilder_ == null) {
@@ -1533,7 +1533,7 @@ public final class MiRestoreDefaultValuesAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.StringValue generate_pers_test_data_scenario = 4;</code>
+       * <code>.dstore.values.StringValue generate_pers_test_data_scenario = 4;</code>
        */
       public io.dstore.values.StringValue.Builder getGeneratePersTestDataScenarioBuilder() {
         
@@ -1541,7 +1541,7 @@ public final class MiRestoreDefaultValuesAd {
         return getGeneratePersTestDataScenarioFieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .dstore.values.StringValue generate_pers_test_data_scenario = 4;</code>
+       * <code>.dstore.values.StringValue generate_pers_test_data_scenario = 4;</code>
        */
       public io.dstore.values.StringValueOrBuilder getGeneratePersTestDataScenarioOrBuilder() {
         if (generatePersTestDataScenarioBuilder_ != null) {
@@ -1552,7 +1552,7 @@ public final class MiRestoreDefaultValuesAd {
         }
       }
       /**
-       * <code>optional .dstore.values.StringValue generate_pers_test_data_scenario = 4;</code>
+       * <code>.dstore.values.StringValue generate_pers_test_data_scenario = 4;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.values.StringValue, io.dstore.values.StringValue.Builder, io.dstore.values.StringValueOrBuilder> 
@@ -1570,13 +1570,13 @@ public final class MiRestoreDefaultValuesAd {
 
       private boolean generatePersTestDataScenarioNull_ ;
       /**
-       * <code>optional bool generate_pers_test_data_scenario_null = 1004;</code>
+       * <code>bool generate_pers_test_data_scenario_null = 1004;</code>
        */
       public boolean getGeneratePersTestDataScenarioNull() {
         return generatePersTestDataScenarioNull_;
       }
       /**
-       * <code>optional bool generate_pers_test_data_scenario_null = 1004;</code>
+       * <code>bool generate_pers_test_data_scenario_null = 1004;</code>
        */
       public Builder setGeneratePersTestDataScenarioNull(boolean value) {
         
@@ -1585,7 +1585,7 @@ public final class MiRestoreDefaultValuesAd {
         return this;
       }
       /**
-       * <code>optional bool generate_pers_test_data_scenario_null = 1004;</code>
+       * <code>bool generate_pers_test_data_scenario_null = 1004;</code>
        */
       public Builder clearGeneratePersTestDataScenarioNull() {
         
@@ -1598,13 +1598,13 @@ public final class MiRestoreDefaultValuesAd {
       private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.values.StringValue, io.dstore.values.StringValue.Builder, io.dstore.values.StringValueOrBuilder> generForumTestDataScenarioBuilder_;
       /**
-       * <code>optional .dstore.values.StringValue gener_forum_test_data_scenario = 5;</code>
+       * <code>.dstore.values.StringValue gener_forum_test_data_scenario = 5;</code>
        */
       public boolean hasGenerForumTestDataScenario() {
         return generForumTestDataScenarioBuilder_ != null || generForumTestDataScenario_ != null;
       }
       /**
-       * <code>optional .dstore.values.StringValue gener_forum_test_data_scenario = 5;</code>
+       * <code>.dstore.values.StringValue gener_forum_test_data_scenario = 5;</code>
        */
       public io.dstore.values.StringValue getGenerForumTestDataScenario() {
         if (generForumTestDataScenarioBuilder_ == null) {
@@ -1614,7 +1614,7 @@ public final class MiRestoreDefaultValuesAd {
         }
       }
       /**
-       * <code>optional .dstore.values.StringValue gener_forum_test_data_scenario = 5;</code>
+       * <code>.dstore.values.StringValue gener_forum_test_data_scenario = 5;</code>
        */
       public Builder setGenerForumTestDataScenario(io.dstore.values.StringValue value) {
         if (generForumTestDataScenarioBuilder_ == null) {
@@ -1630,7 +1630,7 @@ public final class MiRestoreDefaultValuesAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.StringValue gener_forum_test_data_scenario = 5;</code>
+       * <code>.dstore.values.StringValue gener_forum_test_data_scenario = 5;</code>
        */
       public Builder setGenerForumTestDataScenario(
           io.dstore.values.StringValue.Builder builderForValue) {
@@ -1644,7 +1644,7 @@ public final class MiRestoreDefaultValuesAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.StringValue gener_forum_test_data_scenario = 5;</code>
+       * <code>.dstore.values.StringValue gener_forum_test_data_scenario = 5;</code>
        */
       public Builder mergeGenerForumTestDataScenario(io.dstore.values.StringValue value) {
         if (generForumTestDataScenarioBuilder_ == null) {
@@ -1662,7 +1662,7 @@ public final class MiRestoreDefaultValuesAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.StringValue gener_forum_test_data_scenario = 5;</code>
+       * <code>.dstore.values.StringValue gener_forum_test_data_scenario = 5;</code>
        */
       public Builder clearGenerForumTestDataScenario() {
         if (generForumTestDataScenarioBuilder_ == null) {
@@ -1676,7 +1676,7 @@ public final class MiRestoreDefaultValuesAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.StringValue gener_forum_test_data_scenario = 5;</code>
+       * <code>.dstore.values.StringValue gener_forum_test_data_scenario = 5;</code>
        */
       public io.dstore.values.StringValue.Builder getGenerForumTestDataScenarioBuilder() {
         
@@ -1684,7 +1684,7 @@ public final class MiRestoreDefaultValuesAd {
         return getGenerForumTestDataScenarioFieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .dstore.values.StringValue gener_forum_test_data_scenario = 5;</code>
+       * <code>.dstore.values.StringValue gener_forum_test_data_scenario = 5;</code>
        */
       public io.dstore.values.StringValueOrBuilder getGenerForumTestDataScenarioOrBuilder() {
         if (generForumTestDataScenarioBuilder_ != null) {
@@ -1695,7 +1695,7 @@ public final class MiRestoreDefaultValuesAd {
         }
       }
       /**
-       * <code>optional .dstore.values.StringValue gener_forum_test_data_scenario = 5;</code>
+       * <code>.dstore.values.StringValue gener_forum_test_data_scenario = 5;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.values.StringValue, io.dstore.values.StringValue.Builder, io.dstore.values.StringValueOrBuilder> 
@@ -1713,13 +1713,13 @@ public final class MiRestoreDefaultValuesAd {
 
       private boolean generForumTestDataScenarioNull_ ;
       /**
-       * <code>optional bool gener_forum_test_data_scenario_null = 1005;</code>
+       * <code>bool gener_forum_test_data_scenario_null = 1005;</code>
        */
       public boolean getGenerForumTestDataScenarioNull() {
         return generForumTestDataScenarioNull_;
       }
       /**
-       * <code>optional bool gener_forum_test_data_scenario_null = 1005;</code>
+       * <code>bool gener_forum_test_data_scenario_null = 1005;</code>
        */
       public Builder setGenerForumTestDataScenarioNull(boolean value) {
         
@@ -1728,7 +1728,7 @@ public final class MiRestoreDefaultValuesAd {
         return this;
       }
       /**
-       * <code>optional bool gener_forum_test_data_scenario_null = 1005;</code>
+       * <code>bool gener_forum_test_data_scenario_null = 1005;</code>
        */
       public Builder clearGenerForumTestDataScenarioNull() {
         
@@ -1741,13 +1741,13 @@ public final class MiRestoreDefaultValuesAd {
       private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.values.StringValue, io.dstore.values.StringValue.Builder, io.dstore.values.StringValueOrBuilder> generOrderTestDataScenarioBuilder_;
       /**
-       * <code>optional .dstore.values.StringValue gener_order_test_data_scenario = 6;</code>
+       * <code>.dstore.values.StringValue gener_order_test_data_scenario = 6;</code>
        */
       public boolean hasGenerOrderTestDataScenario() {
         return generOrderTestDataScenarioBuilder_ != null || generOrderTestDataScenario_ != null;
       }
       /**
-       * <code>optional .dstore.values.StringValue gener_order_test_data_scenario = 6;</code>
+       * <code>.dstore.values.StringValue gener_order_test_data_scenario = 6;</code>
        */
       public io.dstore.values.StringValue getGenerOrderTestDataScenario() {
         if (generOrderTestDataScenarioBuilder_ == null) {
@@ -1757,7 +1757,7 @@ public final class MiRestoreDefaultValuesAd {
         }
       }
       /**
-       * <code>optional .dstore.values.StringValue gener_order_test_data_scenario = 6;</code>
+       * <code>.dstore.values.StringValue gener_order_test_data_scenario = 6;</code>
        */
       public Builder setGenerOrderTestDataScenario(io.dstore.values.StringValue value) {
         if (generOrderTestDataScenarioBuilder_ == null) {
@@ -1773,7 +1773,7 @@ public final class MiRestoreDefaultValuesAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.StringValue gener_order_test_data_scenario = 6;</code>
+       * <code>.dstore.values.StringValue gener_order_test_data_scenario = 6;</code>
        */
       public Builder setGenerOrderTestDataScenario(
           io.dstore.values.StringValue.Builder builderForValue) {
@@ -1787,7 +1787,7 @@ public final class MiRestoreDefaultValuesAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.StringValue gener_order_test_data_scenario = 6;</code>
+       * <code>.dstore.values.StringValue gener_order_test_data_scenario = 6;</code>
        */
       public Builder mergeGenerOrderTestDataScenario(io.dstore.values.StringValue value) {
         if (generOrderTestDataScenarioBuilder_ == null) {
@@ -1805,7 +1805,7 @@ public final class MiRestoreDefaultValuesAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.StringValue gener_order_test_data_scenario = 6;</code>
+       * <code>.dstore.values.StringValue gener_order_test_data_scenario = 6;</code>
        */
       public Builder clearGenerOrderTestDataScenario() {
         if (generOrderTestDataScenarioBuilder_ == null) {
@@ -1819,7 +1819,7 @@ public final class MiRestoreDefaultValuesAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.StringValue gener_order_test_data_scenario = 6;</code>
+       * <code>.dstore.values.StringValue gener_order_test_data_scenario = 6;</code>
        */
       public io.dstore.values.StringValue.Builder getGenerOrderTestDataScenarioBuilder() {
         
@@ -1827,7 +1827,7 @@ public final class MiRestoreDefaultValuesAd {
         return getGenerOrderTestDataScenarioFieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .dstore.values.StringValue gener_order_test_data_scenario = 6;</code>
+       * <code>.dstore.values.StringValue gener_order_test_data_scenario = 6;</code>
        */
       public io.dstore.values.StringValueOrBuilder getGenerOrderTestDataScenarioOrBuilder() {
         if (generOrderTestDataScenarioBuilder_ != null) {
@@ -1838,7 +1838,7 @@ public final class MiRestoreDefaultValuesAd {
         }
       }
       /**
-       * <code>optional .dstore.values.StringValue gener_order_test_data_scenario = 6;</code>
+       * <code>.dstore.values.StringValue gener_order_test_data_scenario = 6;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.values.StringValue, io.dstore.values.StringValue.Builder, io.dstore.values.StringValueOrBuilder> 
@@ -1856,13 +1856,13 @@ public final class MiRestoreDefaultValuesAd {
 
       private boolean generOrderTestDataScenarioNull_ ;
       /**
-       * <code>optional bool gener_order_test_data_scenario_null = 1006;</code>
+       * <code>bool gener_order_test_data_scenario_null = 1006;</code>
        */
       public boolean getGenerOrderTestDataScenarioNull() {
         return generOrderTestDataScenarioNull_;
       }
       /**
-       * <code>optional bool gener_order_test_data_scenario_null = 1006;</code>
+       * <code>bool gener_order_test_data_scenario_null = 1006;</code>
        */
       public Builder setGenerOrderTestDataScenarioNull(boolean value) {
         
@@ -1871,7 +1871,7 @@ public final class MiRestoreDefaultValuesAd {
         return this;
       }
       /**
-       * <code>optional bool gener_order_test_data_scenario_null = 1006;</code>
+       * <code>bool gener_order_test_data_scenario_null = 1006;</code>
        */
       public Builder clearGenerOrderTestDataScenarioNull() {
         
@@ -2130,7 +2130,7 @@ public final class MiRestoreDefaultValuesAd {
         com.google.protobuf.MessageOrBuilder {
 
       /**
-       * <code>optional int32 row_id = 10000;</code>
+       * <code>int32 row_id = 10000;</code>
        */
       int getRowId();
     }
@@ -2205,7 +2205,7 @@ public final class MiRestoreDefaultValuesAd {
       public static final int ROW_ID_FIELD_NUMBER = 10000;
       private int rowId_;
       /**
-       * <code>optional int32 row_id = 10000;</code>
+       * <code>int32 row_id = 10000;</code>
        */
       public int getRowId() {
         return rowId_;
@@ -2264,7 +2264,7 @@ public final class MiRestoreDefaultValuesAd {
           return memoizedHashCode;
         }
         int hash = 41;
-        hash = (19 * hash) + getDescriptorForType().hashCode();
+        hash = (19 * hash) + getDescriptor().hashCode();
         hash = (37 * hash) + ROW_ID_FIELD_NUMBER;
         hash = (53 * hash) + getRowId();
         hash = (29 * hash) + unknownFields.hashCode();
@@ -2482,13 +2482,13 @@ public final class MiRestoreDefaultValuesAd {
 
         private int rowId_ ;
         /**
-         * <code>optional int32 row_id = 10000;</code>
+         * <code>int32 row_id = 10000;</code>
          */
         public int getRowId() {
           return rowId_;
         }
         /**
-         * <code>optional int32 row_id = 10000;</code>
+         * <code>int32 row_id = 10000;</code>
          */
         public Builder setRowId(int value) {
           
@@ -2497,7 +2497,7 @@ public final class MiRestoreDefaultValuesAd {
           return this;
         }
         /**
-         * <code>optional int32 row_id = 10000;</code>
+         * <code>int32 row_id = 10000;</code>
          */
         public Builder clearRowId() {
           
@@ -2750,7 +2750,7 @@ public final class MiRestoreDefaultValuesAd {
         return memoizedHashCode;
       }
       int hash = 41;
-      hash = (19 * hash) + getDescriptorForType().hashCode();
+      hash = (19 * hash) + getDescriptor().hashCode();
       if (getMetaInformationCount() > 0) {
         hash = (37 * hash) + META_INFORMATION_FIELD_NUMBER;
         hash = (53 * hash) + getMetaInformationList().hashCode();

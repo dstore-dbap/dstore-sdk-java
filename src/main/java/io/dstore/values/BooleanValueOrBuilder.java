@@ -8,7 +8,7 @@ public interface BooleanValueOrBuilder extends
     com.google.protobuf.MessageOrBuilder {
 
   /**
-   * <code>optional bool value = 1;</code>
+   * <code>bool value = 1;</code>
    */
   boolean getValue();
 }

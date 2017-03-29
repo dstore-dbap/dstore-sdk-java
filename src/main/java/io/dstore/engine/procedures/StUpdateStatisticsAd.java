@@ -19,110 +19,110 @@ public final class StUpdateStatisticsAd {
       com.google.protobuf.MessageOrBuilder {
 
     /**
-     * <code>optional .dstore.values.TimestampValue date = 1;</code>
+     * <code>.dstore.values.TimestampValue date = 1;</code>
      */
     boolean hasDate();
     /**
-     * <code>optional .dstore.values.TimestampValue date = 1;</code>
+     * <code>.dstore.values.TimestampValue date = 1;</code>
      */
     io.dstore.values.TimestampValue getDate();
     /**
-     * <code>optional .dstore.values.TimestampValue date = 1;</code>
+     * <code>.dstore.values.TimestampValue date = 1;</code>
      */
     io.dstore.values.TimestampValueOrBuilder getDateOrBuilder();
 
     /**
-     * <code>optional bool date_null = 1001;</code>
+     * <code>bool date_null = 1001;</code>
      */
     boolean getDateNull();
 
     /**
-     * <code>optional .dstore.values.BooleanValue update_p_d_statistics = 2;</code>
+     * <code>.dstore.values.BooleanValue update_p_d_statistics = 2;</code>
      */
     boolean hasUpdatePDStatistics();
     /**
-     * <code>optional .dstore.values.BooleanValue update_p_d_statistics = 2;</code>
+     * <code>.dstore.values.BooleanValue update_p_d_statistics = 2;</code>
      */
     io.dstore.values.BooleanValue getUpdatePDStatistics();
     /**
-     * <code>optional .dstore.values.BooleanValue update_p_d_statistics = 2;</code>
+     * <code>.dstore.values.BooleanValue update_p_d_statistics = 2;</code>
      */
     io.dstore.values.BooleanValueOrBuilder getUpdatePDStatisticsOrBuilder();
 
     /**
-     * <code>optional bool update_p_d_statistics_null = 1002;</code>
+     * <code>bool update_p_d_statistics_null = 1002;</code>
      */
     boolean getUpdatePDStatisticsNull();
 
     /**
-     * <code>optional .dstore.values.BooleanValue update_p_w_statistics = 3;</code>
+     * <code>.dstore.values.BooleanValue update_p_w_statistics = 3;</code>
      */
     boolean hasUpdatePWStatistics();
     /**
-     * <code>optional .dstore.values.BooleanValue update_p_w_statistics = 3;</code>
+     * <code>.dstore.values.BooleanValue update_p_w_statistics = 3;</code>
      */
     io.dstore.values.BooleanValue getUpdatePWStatistics();
     /**
-     * <code>optional .dstore.values.BooleanValue update_p_w_statistics = 3;</code>
+     * <code>.dstore.values.BooleanValue update_p_w_statistics = 3;</code>
      */
     io.dstore.values.BooleanValueOrBuilder getUpdatePWStatisticsOrBuilder();
 
     /**
-     * <code>optional bool update_p_w_statistics_null = 1003;</code>
+     * <code>bool update_p_w_statistics_null = 1003;</code>
      */
     boolean getUpdatePWStatisticsNull();
 
     /**
-     * <code>optional .dstore.values.BooleanValue update_p_m_statistics = 4;</code>
+     * <code>.dstore.values.BooleanValue update_p_m_statistics = 4;</code>
      */
     boolean hasUpdatePMStatistics();
     /**
-     * <code>optional .dstore.values.BooleanValue update_p_m_statistics = 4;</code>
+     * <code>.dstore.values.BooleanValue update_p_m_statistics = 4;</code>
      */
     io.dstore.values.BooleanValue getUpdatePMStatistics();
     /**
-     * <code>optional .dstore.values.BooleanValue update_p_m_statistics = 4;</code>
+     * <code>.dstore.values.BooleanValue update_p_m_statistics = 4;</code>
      */
     io.dstore.values.BooleanValueOrBuilder getUpdatePMStatisticsOrBuilder();
 
     /**
-     * <code>optional bool update_p_m_statistics_null = 1004;</code>
+     * <code>bool update_p_m_statistics_null = 1004;</code>
      */
     boolean getUpdatePMStatisticsNull();
 
     /**
-     * <code>optional .dstore.values.BooleanValue only_bills_and_orders = 5;</code>
+     * <code>.dstore.values.BooleanValue only_bills_and_orders = 5;</code>
      */
     boolean hasOnlyBillsAndOrders();
     /**
-     * <code>optional .dstore.values.BooleanValue only_bills_and_orders = 5;</code>
+     * <code>.dstore.values.BooleanValue only_bills_and_orders = 5;</code>
      */
     io.dstore.values.BooleanValue getOnlyBillsAndOrders();
     /**
-     * <code>optional .dstore.values.BooleanValue only_bills_and_orders = 5;</code>
+     * <code>.dstore.values.BooleanValue only_bills_and_orders = 5;</code>
      */
     io.dstore.values.BooleanValueOrBuilder getOnlyBillsAndOrdersOrBuilder();
 
     /**
-     * <code>optional bool only_bills_and_orders_null = 1005;</code>
+     * <code>bool only_bills_and_orders_null = 1005;</code>
      */
     boolean getOnlyBillsAndOrdersNull();
 
     /**
-     * <code>optional .dstore.values.BooleanValue use_incremental_update_for_p_m = 6;</code>
+     * <code>.dstore.values.BooleanValue use_incremental_update_for_p_m = 6;</code>
      */
     boolean hasUseIncrementalUpdateForPM();
     /**
-     * <code>optional .dstore.values.BooleanValue use_incremental_update_for_p_m = 6;</code>
+     * <code>.dstore.values.BooleanValue use_incremental_update_for_p_m = 6;</code>
      */
     io.dstore.values.BooleanValue getUseIncrementalUpdateForPM();
     /**
-     * <code>optional .dstore.values.BooleanValue use_incremental_update_for_p_m = 6;</code>
+     * <code>.dstore.values.BooleanValue use_incremental_update_for_p_m = 6;</code>
      */
     io.dstore.values.BooleanValueOrBuilder getUseIncrementalUpdateForPMOrBuilder();
 
     /**
-     * <code>optional bool use_incremental_update_for_p_m_null = 1006;</code>
+     * <code>bool use_incremental_update_for_p_m_null = 1006;</code>
      */
     boolean getUseIncrementalUpdateForPMNull();
   }
@@ -305,19 +305,19 @@ public final class StUpdateStatisticsAd {
     public static final int DATE_FIELD_NUMBER = 1;
     private io.dstore.values.TimestampValue date_;
     /**
-     * <code>optional .dstore.values.TimestampValue date = 1;</code>
+     * <code>.dstore.values.TimestampValue date = 1;</code>
      */
     public boolean hasDate() {
       return date_ != null;
     }
     /**
-     * <code>optional .dstore.values.TimestampValue date = 1;</code>
+     * <code>.dstore.values.TimestampValue date = 1;</code>
      */
     public io.dstore.values.TimestampValue getDate() {
       return date_ == null ? io.dstore.values.TimestampValue.getDefaultInstance() : date_;
     }
     /**
-     * <code>optional .dstore.values.TimestampValue date = 1;</code>
+     * <code>.dstore.values.TimestampValue date = 1;</code>
      */
     public io.dstore.values.TimestampValueOrBuilder getDateOrBuilder() {
       return getDate();
@@ -326,7 +326,7 @@ public final class StUpdateStatisticsAd {
     public static final int DATE_NULL_FIELD_NUMBER = 1001;
     private boolean dateNull_;
     /**
-     * <code>optional bool date_null = 1001;</code>
+     * <code>bool date_null = 1001;</code>
      */
     public boolean getDateNull() {
       return dateNull_;
@@ -335,19 +335,19 @@ public final class StUpdateStatisticsAd {
     public static final int UPDATE_P_D_STATISTICS_FIELD_NUMBER = 2;
     private io.dstore.values.BooleanValue updatePDStatistics_;
     /**
-     * <code>optional .dstore.values.BooleanValue update_p_d_statistics = 2;</code>
+     * <code>.dstore.values.BooleanValue update_p_d_statistics = 2;</code>
      */
     public boolean hasUpdatePDStatistics() {
       return updatePDStatistics_ != null;
     }
     /**
-     * <code>optional .dstore.values.BooleanValue update_p_d_statistics = 2;</code>
+     * <code>.dstore.values.BooleanValue update_p_d_statistics = 2;</code>
      */
     public io.dstore.values.BooleanValue getUpdatePDStatistics() {
       return updatePDStatistics_ == null ? io.dstore.values.BooleanValue.getDefaultInstance() : updatePDStatistics_;
     }
     /**
-     * <code>optional .dstore.values.BooleanValue update_p_d_statistics = 2;</code>
+     * <code>.dstore.values.BooleanValue update_p_d_statistics = 2;</code>
      */
     public io.dstore.values.BooleanValueOrBuilder getUpdatePDStatisticsOrBuilder() {
       return getUpdatePDStatistics();
@@ -356,7 +356,7 @@ public final class StUpdateStatisticsAd {
     public static final int UPDATE_P_D_STATISTICS_NULL_FIELD_NUMBER = 1002;
     private boolean updatePDStatisticsNull_;
     /**
-     * <code>optional bool update_p_d_statistics_null = 1002;</code>
+     * <code>bool update_p_d_statistics_null = 1002;</code>
      */
     public boolean getUpdatePDStatisticsNull() {
       return updatePDStatisticsNull_;
@@ -365,19 +365,19 @@ public final class StUpdateStatisticsAd {
     public static final int UPDATE_P_W_STATISTICS_FIELD_NUMBER = 3;
     private io.dstore.values.BooleanValue updatePWStatistics_;
     /**
-     * <code>optional .dstore.values.BooleanValue update_p_w_statistics = 3;</code>
+     * <code>.dstore.values.BooleanValue update_p_w_statistics = 3;</code>
      */
     public boolean hasUpdatePWStatistics() {
       return updatePWStatistics_ != null;
     }
     /**
-     * <code>optional .dstore.values.BooleanValue update_p_w_statistics = 3;</code>
+     * <code>.dstore.values.BooleanValue update_p_w_statistics = 3;</code>
      */
     public io.dstore.values.BooleanValue getUpdatePWStatistics() {
       return updatePWStatistics_ == null ? io.dstore.values.BooleanValue.getDefaultInstance() : updatePWStatistics_;
     }
     /**
-     * <code>optional .dstore.values.BooleanValue update_p_w_statistics = 3;</code>
+     * <code>.dstore.values.BooleanValue update_p_w_statistics = 3;</code>
      */
     public io.dstore.values.BooleanValueOrBuilder getUpdatePWStatisticsOrBuilder() {
       return getUpdatePWStatistics();
@@ -386,7 +386,7 @@ public final class StUpdateStatisticsAd {
     public static final int UPDATE_P_W_STATISTICS_NULL_FIELD_NUMBER = 1003;
     private boolean updatePWStatisticsNull_;
     /**
-     * <code>optional bool update_p_w_statistics_null = 1003;</code>
+     * <code>bool update_p_w_statistics_null = 1003;</code>
      */
     public boolean getUpdatePWStatisticsNull() {
       return updatePWStatisticsNull_;
@@ -395,19 +395,19 @@ public final class StUpdateStatisticsAd {
     public static final int UPDATE_P_M_STATISTICS_FIELD_NUMBER = 4;
     private io.dstore.values.BooleanValue updatePMStatistics_;
     /**
-     * <code>optional .dstore.values.BooleanValue update_p_m_statistics = 4;</code>
+     * <code>.dstore.values.BooleanValue update_p_m_statistics = 4;</code>
      */
     public boolean hasUpdatePMStatistics() {
       return updatePMStatistics_ != null;
     }
     /**
-     * <code>optional .dstore.values.BooleanValue update_p_m_statistics = 4;</code>
+     * <code>.dstore.values.BooleanValue update_p_m_statistics = 4;</code>
      */
     public io.dstore.values.BooleanValue getUpdatePMStatistics() {
       return updatePMStatistics_ == null ? io.dstore.values.BooleanValue.getDefaultInstance() : updatePMStatistics_;
     }
     /**
-     * <code>optional .dstore.values.BooleanValue update_p_m_statistics = 4;</code>
+     * <code>.dstore.values.BooleanValue update_p_m_statistics = 4;</code>
      */
     public io.dstore.values.BooleanValueOrBuilder getUpdatePMStatisticsOrBuilder() {
       return getUpdatePMStatistics();
@@ -416,7 +416,7 @@ public final class StUpdateStatisticsAd {
     public static final int UPDATE_P_M_STATISTICS_NULL_FIELD_NUMBER = 1004;
     private boolean updatePMStatisticsNull_;
     /**
-     * <code>optional bool update_p_m_statistics_null = 1004;</code>
+     * <code>bool update_p_m_statistics_null = 1004;</code>
      */
     public boolean getUpdatePMStatisticsNull() {
       return updatePMStatisticsNull_;
@@ -425,19 +425,19 @@ public final class StUpdateStatisticsAd {
     public static final int ONLY_BILLS_AND_ORDERS_FIELD_NUMBER = 5;
     private io.dstore.values.BooleanValue onlyBillsAndOrders_;
     /**
-     * <code>optional .dstore.values.BooleanValue only_bills_and_orders = 5;</code>
+     * <code>.dstore.values.BooleanValue only_bills_and_orders = 5;</code>
      */
     public boolean hasOnlyBillsAndOrders() {
       return onlyBillsAndOrders_ != null;
     }
     /**
-     * <code>optional .dstore.values.BooleanValue only_bills_and_orders = 5;</code>
+     * <code>.dstore.values.BooleanValue only_bills_and_orders = 5;</code>
      */
     public io.dstore.values.BooleanValue getOnlyBillsAndOrders() {
       return onlyBillsAndOrders_ == null ? io.dstore.values.BooleanValue.getDefaultInstance() : onlyBillsAndOrders_;
     }
     /**
-     * <code>optional .dstore.values.BooleanValue only_bills_and_orders = 5;</code>
+     * <code>.dstore.values.BooleanValue only_bills_and_orders = 5;</code>
      */
     public io.dstore.values.BooleanValueOrBuilder getOnlyBillsAndOrdersOrBuilder() {
       return getOnlyBillsAndOrders();
@@ -446,7 +446,7 @@ public final class StUpdateStatisticsAd {
     public static final int ONLY_BILLS_AND_ORDERS_NULL_FIELD_NUMBER = 1005;
     private boolean onlyBillsAndOrdersNull_;
     /**
-     * <code>optional bool only_bills_and_orders_null = 1005;</code>
+     * <code>bool only_bills_and_orders_null = 1005;</code>
      */
     public boolean getOnlyBillsAndOrdersNull() {
       return onlyBillsAndOrdersNull_;
@@ -455,19 +455,19 @@ public final class StUpdateStatisticsAd {
     public static final int USE_INCREMENTAL_UPDATE_FOR_P_M_FIELD_NUMBER = 6;
     private io.dstore.values.BooleanValue useIncrementalUpdateForPM_;
     /**
-     * <code>optional .dstore.values.BooleanValue use_incremental_update_for_p_m = 6;</code>
+     * <code>.dstore.values.BooleanValue use_incremental_update_for_p_m = 6;</code>
      */
     public boolean hasUseIncrementalUpdateForPM() {
       return useIncrementalUpdateForPM_ != null;
     }
     /**
-     * <code>optional .dstore.values.BooleanValue use_incremental_update_for_p_m = 6;</code>
+     * <code>.dstore.values.BooleanValue use_incremental_update_for_p_m = 6;</code>
      */
     public io.dstore.values.BooleanValue getUseIncrementalUpdateForPM() {
       return useIncrementalUpdateForPM_ == null ? io.dstore.values.BooleanValue.getDefaultInstance() : useIncrementalUpdateForPM_;
     }
     /**
-     * <code>optional .dstore.values.BooleanValue use_incremental_update_for_p_m = 6;</code>
+     * <code>.dstore.values.BooleanValue use_incremental_update_for_p_m = 6;</code>
      */
     public io.dstore.values.BooleanValueOrBuilder getUseIncrementalUpdateForPMOrBuilder() {
       return getUseIncrementalUpdateForPM();
@@ -476,7 +476,7 @@ public final class StUpdateStatisticsAd {
     public static final int USE_INCREMENTAL_UPDATE_FOR_P_M_NULL_FIELD_NUMBER = 1006;
     private boolean useIncrementalUpdateForPMNull_;
     /**
-     * <code>optional bool use_incremental_update_for_p_m_null = 1006;</code>
+     * <code>bool use_incremental_update_for_p_m_null = 1006;</code>
      */
     public boolean getUseIncrementalUpdateForPMNull() {
       return useIncrementalUpdateForPMNull_;
@@ -652,7 +652,7 @@ public final class StUpdateStatisticsAd {
         return memoizedHashCode;
       }
       int hash = 41;
-      hash = (19 * hash) + getDescriptorForType().hashCode();
+      hash = (19 * hash) + getDescriptor().hashCode();
       if (hasDate()) {
         hash = (37 * hash) + DATE_FIELD_NUMBER;
         hash = (53 * hash) + getDate().hashCode();
@@ -1026,13 +1026,13 @@ public final class StUpdateStatisticsAd {
       private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.values.TimestampValue, io.dstore.values.TimestampValue.Builder, io.dstore.values.TimestampValueOrBuilder> dateBuilder_;
       /**
-       * <code>optional .dstore.values.TimestampValue date = 1;</code>
+       * <code>.dstore.values.TimestampValue date = 1;</code>
        */
       public boolean hasDate() {
         return dateBuilder_ != null || date_ != null;
       }
       /**
-       * <code>optional .dstore.values.TimestampValue date = 1;</code>
+       * <code>.dstore.values.TimestampValue date = 1;</code>
        */
       public io.dstore.values.TimestampValue getDate() {
         if (dateBuilder_ == null) {
@@ -1042,7 +1042,7 @@ public final class StUpdateStatisticsAd {
         }
       }
       /**
-       * <code>optional .dstore.values.TimestampValue date = 1;</code>
+       * <code>.dstore.values.TimestampValue date = 1;</code>
        */
       public Builder setDate(io.dstore.values.TimestampValue value) {
         if (dateBuilder_ == null) {
@@ -1058,7 +1058,7 @@ public final class StUpdateStatisticsAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.TimestampValue date = 1;</code>
+       * <code>.dstore.values.TimestampValue date = 1;</code>
        */
       public Builder setDate(
           io.dstore.values.TimestampValue.Builder builderForValue) {
@@ -1072,7 +1072,7 @@ public final class StUpdateStatisticsAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.TimestampValue date = 1;</code>
+       * <code>.dstore.values.TimestampValue date = 1;</code>
        */
       public Builder mergeDate(io.dstore.values.TimestampValue value) {
         if (dateBuilder_ == null) {
@@ -1090,7 +1090,7 @@ public final class StUpdateStatisticsAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.TimestampValue date = 1;</code>
+       * <code>.dstore.values.TimestampValue date = 1;</code>
        */
       public Builder clearDate() {
         if (dateBuilder_ == null) {
@@ -1104,7 +1104,7 @@ public final class StUpdateStatisticsAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.TimestampValue date = 1;</code>
+       * <code>.dstore.values.TimestampValue date = 1;</code>
        */
       public io.dstore.values.TimestampValue.Builder getDateBuilder() {
         
@@ -1112,7 +1112,7 @@ public final class StUpdateStatisticsAd {
         return getDateFieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .dstore.values.TimestampValue date = 1;</code>
+       * <code>.dstore.values.TimestampValue date = 1;</code>
        */
       public io.dstore.values.TimestampValueOrBuilder getDateOrBuilder() {
         if (dateBuilder_ != null) {
@@ -1123,7 +1123,7 @@ public final class StUpdateStatisticsAd {
         }
       }
       /**
-       * <code>optional .dstore.values.TimestampValue date = 1;</code>
+       * <code>.dstore.values.TimestampValue date = 1;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.values.TimestampValue, io.dstore.values.TimestampValue.Builder, io.dstore.values.TimestampValueOrBuilder> 
@@ -1141,13 +1141,13 @@ public final class StUpdateStatisticsAd {
 
       private boolean dateNull_ ;
       /**
-       * <code>optional bool date_null = 1001;</code>
+       * <code>bool date_null = 1001;</code>
        */
       public boolean getDateNull() {
         return dateNull_;
       }
       /**
-       * <code>optional bool date_null = 1001;</code>
+       * <code>bool date_null = 1001;</code>
        */
       public Builder setDateNull(boolean value) {
         
@@ -1156,7 +1156,7 @@ public final class StUpdateStatisticsAd {
         return this;
       }
       /**
-       * <code>optional bool date_null = 1001;</code>
+       * <code>bool date_null = 1001;</code>
        */
       public Builder clearDateNull() {
         
@@ -1169,13 +1169,13 @@ public final class StUpdateStatisticsAd {
       private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.values.BooleanValue, io.dstore.values.BooleanValue.Builder, io.dstore.values.BooleanValueOrBuilder> updatePDStatisticsBuilder_;
       /**
-       * <code>optional .dstore.values.BooleanValue update_p_d_statistics = 2;</code>
+       * <code>.dstore.values.BooleanValue update_p_d_statistics = 2;</code>
        */
       public boolean hasUpdatePDStatistics() {
         return updatePDStatisticsBuilder_ != null || updatePDStatistics_ != null;
       }
       /**
-       * <code>optional .dstore.values.BooleanValue update_p_d_statistics = 2;</code>
+       * <code>.dstore.values.BooleanValue update_p_d_statistics = 2;</code>
        */
       public io.dstore.values.BooleanValue getUpdatePDStatistics() {
         if (updatePDStatisticsBuilder_ == null) {
@@ -1185,7 +1185,7 @@ public final class StUpdateStatisticsAd {
         }
       }
       /**
-       * <code>optional .dstore.values.BooleanValue update_p_d_statistics = 2;</code>
+       * <code>.dstore.values.BooleanValue update_p_d_statistics = 2;</code>
        */
       public Builder setUpdatePDStatistics(io.dstore.values.BooleanValue value) {
         if (updatePDStatisticsBuilder_ == null) {
@@ -1201,7 +1201,7 @@ public final class StUpdateStatisticsAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.BooleanValue update_p_d_statistics = 2;</code>
+       * <code>.dstore.values.BooleanValue update_p_d_statistics = 2;</code>
        */
       public Builder setUpdatePDStatistics(
           io.dstore.values.BooleanValue.Builder builderForValue) {
@@ -1215,7 +1215,7 @@ public final class StUpdateStatisticsAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.BooleanValue update_p_d_statistics = 2;</code>
+       * <code>.dstore.values.BooleanValue update_p_d_statistics = 2;</code>
        */
       public Builder mergeUpdatePDStatistics(io.dstore.values.BooleanValue value) {
         if (updatePDStatisticsBuilder_ == null) {
@@ -1233,7 +1233,7 @@ public final class StUpdateStatisticsAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.BooleanValue update_p_d_statistics = 2;</code>
+       * <code>.dstore.values.BooleanValue update_p_d_statistics = 2;</code>
        */
       public Builder clearUpdatePDStatistics() {
         if (updatePDStatisticsBuilder_ == null) {
@@ -1247,7 +1247,7 @@ public final class StUpdateStatisticsAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.BooleanValue update_p_d_statistics = 2;</code>
+       * <code>.dstore.values.BooleanValue update_p_d_statistics = 2;</code>
        */
       public io.dstore.values.BooleanValue.Builder getUpdatePDStatisticsBuilder() {
         
@@ -1255,7 +1255,7 @@ public final class StUpdateStatisticsAd {
         return getUpdatePDStatisticsFieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .dstore.values.BooleanValue update_p_d_statistics = 2;</code>
+       * <code>.dstore.values.BooleanValue update_p_d_statistics = 2;</code>
        */
       public io.dstore.values.BooleanValueOrBuilder getUpdatePDStatisticsOrBuilder() {
         if (updatePDStatisticsBuilder_ != null) {
@@ -1266,7 +1266,7 @@ public final class StUpdateStatisticsAd {
         }
       }
       /**
-       * <code>optional .dstore.values.BooleanValue update_p_d_statistics = 2;</code>
+       * <code>.dstore.values.BooleanValue update_p_d_statistics = 2;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.values.BooleanValue, io.dstore.values.BooleanValue.Builder, io.dstore.values.BooleanValueOrBuilder> 
@@ -1284,13 +1284,13 @@ public final class StUpdateStatisticsAd {
 
       private boolean updatePDStatisticsNull_ ;
       /**
-       * <code>optional bool update_p_d_statistics_null = 1002;</code>
+       * <code>bool update_p_d_statistics_null = 1002;</code>
        */
       public boolean getUpdatePDStatisticsNull() {
         return updatePDStatisticsNull_;
       }
       /**
-       * <code>optional bool update_p_d_statistics_null = 1002;</code>
+       * <code>bool update_p_d_statistics_null = 1002;</code>
        */
       public Builder setUpdatePDStatisticsNull(boolean value) {
         
@@ -1299,7 +1299,7 @@ public final class StUpdateStatisticsAd {
         return this;
       }
       /**
-       * <code>optional bool update_p_d_statistics_null = 1002;</code>
+       * <code>bool update_p_d_statistics_null = 1002;</code>
        */
       public Builder clearUpdatePDStatisticsNull() {
         
@@ -1312,13 +1312,13 @@ public final class StUpdateStatisticsAd {
       private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.values.BooleanValue, io.dstore.values.BooleanValue.Builder, io.dstore.values.BooleanValueOrBuilder> updatePWStatisticsBuilder_;
       /**
-       * <code>optional .dstore.values.BooleanValue update_p_w_statistics = 3;</code>
+       * <code>.dstore.values.BooleanValue update_p_w_statistics = 3;</code>
        */
       public boolean hasUpdatePWStatistics() {
         return updatePWStatisticsBuilder_ != null || updatePWStatistics_ != null;
       }
       /**
-       * <code>optional .dstore.values.BooleanValue update_p_w_statistics = 3;</code>
+       * <code>.dstore.values.BooleanValue update_p_w_statistics = 3;</code>
        */
       public io.dstore.values.BooleanValue getUpdatePWStatistics() {
         if (updatePWStatisticsBuilder_ == null) {
@@ -1328,7 +1328,7 @@ public final class StUpdateStatisticsAd {
         }
       }
       /**
-       * <code>optional .dstore.values.BooleanValue update_p_w_statistics = 3;</code>
+       * <code>.dstore.values.BooleanValue update_p_w_statistics = 3;</code>
        */
       public Builder setUpdatePWStatistics(io.dstore.values.BooleanValue value) {
         if (updatePWStatisticsBuilder_ == null) {
@@ -1344,7 +1344,7 @@ public final class StUpdateStatisticsAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.BooleanValue update_p_w_statistics = 3;</code>
+       * <code>.dstore.values.BooleanValue update_p_w_statistics = 3;</code>
        */
       public Builder setUpdatePWStatistics(
           io.dstore.values.BooleanValue.Builder builderForValue) {
@@ -1358,7 +1358,7 @@ public final class StUpdateStatisticsAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.BooleanValue update_p_w_statistics = 3;</code>
+       * <code>.dstore.values.BooleanValue update_p_w_statistics = 3;</code>
        */
       public Builder mergeUpdatePWStatistics(io.dstore.values.BooleanValue value) {
         if (updatePWStatisticsBuilder_ == null) {
@@ -1376,7 +1376,7 @@ public final class StUpdateStatisticsAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.BooleanValue update_p_w_statistics = 3;</code>
+       * <code>.dstore.values.BooleanValue update_p_w_statistics = 3;</code>
        */
       public Builder clearUpdatePWStatistics() {
         if (updatePWStatisticsBuilder_ == null) {
@@ -1390,7 +1390,7 @@ public final class StUpdateStatisticsAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.BooleanValue update_p_w_statistics = 3;</code>
+       * <code>.dstore.values.BooleanValue update_p_w_statistics = 3;</code>
        */
       public io.dstore.values.BooleanValue.Builder getUpdatePWStatisticsBuilder() {
         
@@ -1398,7 +1398,7 @@ public final class StUpdateStatisticsAd {
         return getUpdatePWStatisticsFieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .dstore.values.BooleanValue update_p_w_statistics = 3;</code>
+       * <code>.dstore.values.BooleanValue update_p_w_statistics = 3;</code>
        */
       public io.dstore.values.BooleanValueOrBuilder getUpdatePWStatisticsOrBuilder() {
         if (updatePWStatisticsBuilder_ != null) {
@@ -1409,7 +1409,7 @@ public final class StUpdateStatisticsAd {
         }
       }
       /**
-       * <code>optional .dstore.values.BooleanValue update_p_w_statistics = 3;</code>
+       * <code>.dstore.values.BooleanValue update_p_w_statistics = 3;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.values.BooleanValue, io.dstore.values.BooleanValue.Builder, io.dstore.values.BooleanValueOrBuilder> 
@@ -1427,13 +1427,13 @@ public final class StUpdateStatisticsAd {
 
       private boolean updatePWStatisticsNull_ ;
       /**
-       * <code>optional bool update_p_w_statistics_null = 1003;</code>
+       * <code>bool update_p_w_statistics_null = 1003;</code>
        */
       public boolean getUpdatePWStatisticsNull() {
         return updatePWStatisticsNull_;
       }
       /**
-       * <code>optional bool update_p_w_statistics_null = 1003;</code>
+       * <code>bool update_p_w_statistics_null = 1003;</code>
        */
       public Builder setUpdatePWStatisticsNull(boolean value) {
         
@@ -1442,7 +1442,7 @@ public final class StUpdateStatisticsAd {
         return this;
       }
       /**
-       * <code>optional bool update_p_w_statistics_null = 1003;</code>
+       * <code>bool update_p_w_statistics_null = 1003;</code>
        */
       public Builder clearUpdatePWStatisticsNull() {
         
@@ -1455,13 +1455,13 @@ public final class StUpdateStatisticsAd {
       private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.values.BooleanValue, io.dstore.values.BooleanValue.Builder, io.dstore.values.BooleanValueOrBuilder> updatePMStatisticsBuilder_;
       /**
-       * <code>optional .dstore.values.BooleanValue update_p_m_statistics = 4;</code>
+       * <code>.dstore.values.BooleanValue update_p_m_statistics = 4;</code>
        */
       public boolean hasUpdatePMStatistics() {
         return updatePMStatisticsBuilder_ != null || updatePMStatistics_ != null;
       }
       /**
-       * <code>optional .dstore.values.BooleanValue update_p_m_statistics = 4;</code>
+       * <code>.dstore.values.BooleanValue update_p_m_statistics = 4;</code>
        */
       public io.dstore.values.BooleanValue getUpdatePMStatistics() {
         if (updatePMStatisticsBuilder_ == null) {
@@ -1471,7 +1471,7 @@ public final class StUpdateStatisticsAd {
         }
       }
       /**
-       * <code>optional .dstore.values.BooleanValue update_p_m_statistics = 4;</code>
+       * <code>.dstore.values.BooleanValue update_p_m_statistics = 4;</code>
        */
       public Builder setUpdatePMStatistics(io.dstore.values.BooleanValue value) {
         if (updatePMStatisticsBuilder_ == null) {
@@ -1487,7 +1487,7 @@ public final class StUpdateStatisticsAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.BooleanValue update_p_m_statistics = 4;</code>
+       * <code>.dstore.values.BooleanValue update_p_m_statistics = 4;</code>
        */
       public Builder setUpdatePMStatistics(
           io.dstore.values.BooleanValue.Builder builderForValue) {
@@ -1501,7 +1501,7 @@ public final class StUpdateStatisticsAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.BooleanValue update_p_m_statistics = 4;</code>
+       * <code>.dstore.values.BooleanValue update_p_m_statistics = 4;</code>
        */
       public Builder mergeUpdatePMStatistics(io.dstore.values.BooleanValue value) {
         if (updatePMStatisticsBuilder_ == null) {
@@ -1519,7 +1519,7 @@ public final class StUpdateStatisticsAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.BooleanValue update_p_m_statistics = 4;</code>
+       * <code>.dstore.values.BooleanValue update_p_m_statistics = 4;</code>
        */
       public Builder clearUpdatePMStatistics() {
         if (updatePMStatisticsBuilder_ == null) {
@@ -1533,7 +1533,7 @@ public final class StUpdateStatisticsAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.BooleanValue update_p_m_statistics = 4;</code>
+       * <code>.dstore.values.BooleanValue update_p_m_statistics = 4;</code>
        */
       public io.dstore.values.BooleanValue.Builder getUpdatePMStatisticsBuilder() {
         
@@ -1541,7 +1541,7 @@ public final class StUpdateStatisticsAd {
         return getUpdatePMStatisticsFieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .dstore.values.BooleanValue update_p_m_statistics = 4;</code>
+       * <code>.dstore.values.BooleanValue update_p_m_statistics = 4;</code>
        */
       public io.dstore.values.BooleanValueOrBuilder getUpdatePMStatisticsOrBuilder() {
         if (updatePMStatisticsBuilder_ != null) {
@@ -1552,7 +1552,7 @@ public final class StUpdateStatisticsAd {
         }
       }
       /**
-       * <code>optional .dstore.values.BooleanValue update_p_m_statistics = 4;</code>
+       * <code>.dstore.values.BooleanValue update_p_m_statistics = 4;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.values.BooleanValue, io.dstore.values.BooleanValue.Builder, io.dstore.values.BooleanValueOrBuilder> 
@@ -1570,13 +1570,13 @@ public final class StUpdateStatisticsAd {
 
       private boolean updatePMStatisticsNull_ ;
       /**
-       * <code>optional bool update_p_m_statistics_null = 1004;</code>
+       * <code>bool update_p_m_statistics_null = 1004;</code>
        */
       public boolean getUpdatePMStatisticsNull() {
         return updatePMStatisticsNull_;
       }
       /**
-       * <code>optional bool update_p_m_statistics_null = 1004;</code>
+       * <code>bool update_p_m_statistics_null = 1004;</code>
        */
       public Builder setUpdatePMStatisticsNull(boolean value) {
         
@@ -1585,7 +1585,7 @@ public final class StUpdateStatisticsAd {
         return this;
       }
       /**
-       * <code>optional bool update_p_m_statistics_null = 1004;</code>
+       * <code>bool update_p_m_statistics_null = 1004;</code>
        */
       public Builder clearUpdatePMStatisticsNull() {
         
@@ -1598,13 +1598,13 @@ public final class StUpdateStatisticsAd {
       private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.values.BooleanValue, io.dstore.values.BooleanValue.Builder, io.dstore.values.BooleanValueOrBuilder> onlyBillsAndOrdersBuilder_;
       /**
-       * <code>optional .dstore.values.BooleanValue only_bills_and_orders = 5;</code>
+       * <code>.dstore.values.BooleanValue only_bills_and_orders = 5;</code>
        */
       public boolean hasOnlyBillsAndOrders() {
         return onlyBillsAndOrdersBuilder_ != null || onlyBillsAndOrders_ != null;
       }
       /**
-       * <code>optional .dstore.values.BooleanValue only_bills_and_orders = 5;</code>
+       * <code>.dstore.values.BooleanValue only_bills_and_orders = 5;</code>
        */
       public io.dstore.values.BooleanValue getOnlyBillsAndOrders() {
         if (onlyBillsAndOrdersBuilder_ == null) {
@@ -1614,7 +1614,7 @@ public final class StUpdateStatisticsAd {
         }
       }
       /**
-       * <code>optional .dstore.values.BooleanValue only_bills_and_orders = 5;</code>
+       * <code>.dstore.values.BooleanValue only_bills_and_orders = 5;</code>
        */
       public Builder setOnlyBillsAndOrders(io.dstore.values.BooleanValue value) {
         if (onlyBillsAndOrdersBuilder_ == null) {
@@ -1630,7 +1630,7 @@ public final class StUpdateStatisticsAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.BooleanValue only_bills_and_orders = 5;</code>
+       * <code>.dstore.values.BooleanValue only_bills_and_orders = 5;</code>
        */
       public Builder setOnlyBillsAndOrders(
           io.dstore.values.BooleanValue.Builder builderForValue) {
@@ -1644,7 +1644,7 @@ public final class StUpdateStatisticsAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.BooleanValue only_bills_and_orders = 5;</code>
+       * <code>.dstore.values.BooleanValue only_bills_and_orders = 5;</code>
        */
       public Builder mergeOnlyBillsAndOrders(io.dstore.values.BooleanValue value) {
         if (onlyBillsAndOrdersBuilder_ == null) {
@@ -1662,7 +1662,7 @@ public final class StUpdateStatisticsAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.BooleanValue only_bills_and_orders = 5;</code>
+       * <code>.dstore.values.BooleanValue only_bills_and_orders = 5;</code>
        */
       public Builder clearOnlyBillsAndOrders() {
         if (onlyBillsAndOrdersBuilder_ == null) {
@@ -1676,7 +1676,7 @@ public final class StUpdateStatisticsAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.BooleanValue only_bills_and_orders = 5;</code>
+       * <code>.dstore.values.BooleanValue only_bills_and_orders = 5;</code>
        */
       public io.dstore.values.BooleanValue.Builder getOnlyBillsAndOrdersBuilder() {
         
@@ -1684,7 +1684,7 @@ public final class StUpdateStatisticsAd {
         return getOnlyBillsAndOrdersFieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .dstore.values.BooleanValue only_bills_and_orders = 5;</code>
+       * <code>.dstore.values.BooleanValue only_bills_and_orders = 5;</code>
        */
       public io.dstore.values.BooleanValueOrBuilder getOnlyBillsAndOrdersOrBuilder() {
         if (onlyBillsAndOrdersBuilder_ != null) {
@@ -1695,7 +1695,7 @@ public final class StUpdateStatisticsAd {
         }
       }
       /**
-       * <code>optional .dstore.values.BooleanValue only_bills_and_orders = 5;</code>
+       * <code>.dstore.values.BooleanValue only_bills_and_orders = 5;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.values.BooleanValue, io.dstore.values.BooleanValue.Builder, io.dstore.values.BooleanValueOrBuilder> 
@@ -1713,13 +1713,13 @@ public final class StUpdateStatisticsAd {
 
       private boolean onlyBillsAndOrdersNull_ ;
       /**
-       * <code>optional bool only_bills_and_orders_null = 1005;</code>
+       * <code>bool only_bills_and_orders_null = 1005;</code>
        */
       public boolean getOnlyBillsAndOrdersNull() {
         return onlyBillsAndOrdersNull_;
       }
       /**
-       * <code>optional bool only_bills_and_orders_null = 1005;</code>
+       * <code>bool only_bills_and_orders_null = 1005;</code>
        */
       public Builder setOnlyBillsAndOrdersNull(boolean value) {
         
@@ -1728,7 +1728,7 @@ public final class StUpdateStatisticsAd {
         return this;
       }
       /**
-       * <code>optional bool only_bills_and_orders_null = 1005;</code>
+       * <code>bool only_bills_and_orders_null = 1005;</code>
        */
       public Builder clearOnlyBillsAndOrdersNull() {
         
@@ -1741,13 +1741,13 @@ public final class StUpdateStatisticsAd {
       private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.values.BooleanValue, io.dstore.values.BooleanValue.Builder, io.dstore.values.BooleanValueOrBuilder> useIncrementalUpdateForPMBuilder_;
       /**
-       * <code>optional .dstore.values.BooleanValue use_incremental_update_for_p_m = 6;</code>
+       * <code>.dstore.values.BooleanValue use_incremental_update_for_p_m = 6;</code>
        */
       public boolean hasUseIncrementalUpdateForPM() {
         return useIncrementalUpdateForPMBuilder_ != null || useIncrementalUpdateForPM_ != null;
       }
       /**
-       * <code>optional .dstore.values.BooleanValue use_incremental_update_for_p_m = 6;</code>
+       * <code>.dstore.values.BooleanValue use_incremental_update_for_p_m = 6;</code>
        */
       public io.dstore.values.BooleanValue getUseIncrementalUpdateForPM() {
         if (useIncrementalUpdateForPMBuilder_ == null) {
@@ -1757,7 +1757,7 @@ public final class StUpdateStatisticsAd {
         }
       }
       /**
-       * <code>optional .dstore.values.BooleanValue use_incremental_update_for_p_m = 6;</code>
+       * <code>.dstore.values.BooleanValue use_incremental_update_for_p_m = 6;</code>
        */
       public Builder setUseIncrementalUpdateForPM(io.dstore.values.BooleanValue value) {
         if (useIncrementalUpdateForPMBuilder_ == null) {
@@ -1773,7 +1773,7 @@ public final class StUpdateStatisticsAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.BooleanValue use_incremental_update_for_p_m = 6;</code>
+       * <code>.dstore.values.BooleanValue use_incremental_update_for_p_m = 6;</code>
        */
       public Builder setUseIncrementalUpdateForPM(
           io.dstore.values.BooleanValue.Builder builderForValue) {
@@ -1787,7 +1787,7 @@ public final class StUpdateStatisticsAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.BooleanValue use_incremental_update_for_p_m = 6;</code>
+       * <code>.dstore.values.BooleanValue use_incremental_update_for_p_m = 6;</code>
        */
       public Builder mergeUseIncrementalUpdateForPM(io.dstore.values.BooleanValue value) {
         if (useIncrementalUpdateForPMBuilder_ == null) {
@@ -1805,7 +1805,7 @@ public final class StUpdateStatisticsAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.BooleanValue use_incremental_update_for_p_m = 6;</code>
+       * <code>.dstore.values.BooleanValue use_incremental_update_for_p_m = 6;</code>
        */
       public Builder clearUseIncrementalUpdateForPM() {
         if (useIncrementalUpdateForPMBuilder_ == null) {
@@ -1819,7 +1819,7 @@ public final class StUpdateStatisticsAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.BooleanValue use_incremental_update_for_p_m = 6;</code>
+       * <code>.dstore.values.BooleanValue use_incremental_update_for_p_m = 6;</code>
        */
       public io.dstore.values.BooleanValue.Builder getUseIncrementalUpdateForPMBuilder() {
         
@@ -1827,7 +1827,7 @@ public final class StUpdateStatisticsAd {
         return getUseIncrementalUpdateForPMFieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .dstore.values.BooleanValue use_incremental_update_for_p_m = 6;</code>
+       * <code>.dstore.values.BooleanValue use_incremental_update_for_p_m = 6;</code>
        */
       public io.dstore.values.BooleanValueOrBuilder getUseIncrementalUpdateForPMOrBuilder() {
         if (useIncrementalUpdateForPMBuilder_ != null) {
@@ -1838,7 +1838,7 @@ public final class StUpdateStatisticsAd {
         }
       }
       /**
-       * <code>optional .dstore.values.BooleanValue use_incremental_update_for_p_m = 6;</code>
+       * <code>.dstore.values.BooleanValue use_incremental_update_for_p_m = 6;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.values.BooleanValue, io.dstore.values.BooleanValue.Builder, io.dstore.values.BooleanValueOrBuilder> 
@@ -1856,13 +1856,13 @@ public final class StUpdateStatisticsAd {
 
       private boolean useIncrementalUpdateForPMNull_ ;
       /**
-       * <code>optional bool use_incremental_update_for_p_m_null = 1006;</code>
+       * <code>bool use_incremental_update_for_p_m_null = 1006;</code>
        */
       public boolean getUseIncrementalUpdateForPMNull() {
         return useIncrementalUpdateForPMNull_;
       }
       /**
-       * <code>optional bool use_incremental_update_for_p_m_null = 1006;</code>
+       * <code>bool use_incremental_update_for_p_m_null = 1006;</code>
        */
       public Builder setUseIncrementalUpdateForPMNull(boolean value) {
         
@@ -1871,7 +1871,7 @@ public final class StUpdateStatisticsAd {
         return this;
       }
       /**
-       * <code>optional bool use_incremental_update_for_p_m_null = 1006;</code>
+       * <code>bool use_incremental_update_for_p_m_null = 1006;</code>
        */
       public Builder clearUseIncrementalUpdateForPMNull() {
         
@@ -2130,7 +2130,7 @@ public final class StUpdateStatisticsAd {
         com.google.protobuf.MessageOrBuilder {
 
       /**
-       * <code>optional int32 row_id = 10000;</code>
+       * <code>int32 row_id = 10000;</code>
        */
       int getRowId();
     }
@@ -2205,7 +2205,7 @@ public final class StUpdateStatisticsAd {
       public static final int ROW_ID_FIELD_NUMBER = 10000;
       private int rowId_;
       /**
-       * <code>optional int32 row_id = 10000;</code>
+       * <code>int32 row_id = 10000;</code>
        */
       public int getRowId() {
         return rowId_;
@@ -2264,7 +2264,7 @@ public final class StUpdateStatisticsAd {
           return memoizedHashCode;
         }
         int hash = 41;
-        hash = (19 * hash) + getDescriptorForType().hashCode();
+        hash = (19 * hash) + getDescriptor().hashCode();
         hash = (37 * hash) + ROW_ID_FIELD_NUMBER;
         hash = (53 * hash) + getRowId();
         hash = (29 * hash) + unknownFields.hashCode();
@@ -2482,13 +2482,13 @@ public final class StUpdateStatisticsAd {
 
         private int rowId_ ;
         /**
-         * <code>optional int32 row_id = 10000;</code>
+         * <code>int32 row_id = 10000;</code>
          */
         public int getRowId() {
           return rowId_;
         }
         /**
-         * <code>optional int32 row_id = 10000;</code>
+         * <code>int32 row_id = 10000;</code>
          */
         public Builder setRowId(int value) {
           
@@ -2497,7 +2497,7 @@ public final class StUpdateStatisticsAd {
           return this;
         }
         /**
-         * <code>optional int32 row_id = 10000;</code>
+         * <code>int32 row_id = 10000;</code>
          */
         public Builder clearRowId() {
           
@@ -2750,7 +2750,7 @@ public final class StUpdateStatisticsAd {
         return memoizedHashCode;
       }
       int hash = 41;
-      hash = (19 * hash) + getDescriptorForType().hashCode();
+      hash = (19 * hash) + getDescriptor().hashCode();
       if (getMetaInformationCount() > 0) {
         hash = (37 * hash) + META_INFORMATION_FIELD_NUMBER;
         hash = (53 * hash) + getMetaInformationList().hashCode();

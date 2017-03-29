@@ -19,92 +19,92 @@ public final class StGetTreeNodePDStatisticsAd {
       com.google.protobuf.MessageOrBuilder {
 
     /**
-     * <code>optional .dstore.values.TimestampValue from_date = 1;</code>
+     * <code>.dstore.values.TimestampValue from_date = 1;</code>
      */
     boolean hasFromDate();
     /**
-     * <code>optional .dstore.values.TimestampValue from_date = 1;</code>
+     * <code>.dstore.values.TimestampValue from_date = 1;</code>
      */
     io.dstore.values.TimestampValue getFromDate();
     /**
-     * <code>optional .dstore.values.TimestampValue from_date = 1;</code>
+     * <code>.dstore.values.TimestampValue from_date = 1;</code>
      */
     io.dstore.values.TimestampValueOrBuilder getFromDateOrBuilder();
 
     /**
-     * <code>optional bool from_date_null = 1001;</code>
+     * <code>bool from_date_null = 1001;</code>
      */
     boolean getFromDateNull();
 
     /**
-     * <code>optional .dstore.values.TimestampValue to_date = 2;</code>
+     * <code>.dstore.values.TimestampValue to_date = 2;</code>
      */
     boolean hasToDate();
     /**
-     * <code>optional .dstore.values.TimestampValue to_date = 2;</code>
+     * <code>.dstore.values.TimestampValue to_date = 2;</code>
      */
     io.dstore.values.TimestampValue getToDate();
     /**
-     * <code>optional .dstore.values.TimestampValue to_date = 2;</code>
+     * <code>.dstore.values.TimestampValue to_date = 2;</code>
      */
     io.dstore.values.TimestampValueOrBuilder getToDateOrBuilder();
 
     /**
-     * <code>optional bool to_date_null = 1002;</code>
+     * <code>bool to_date_null = 1002;</code>
      */
     boolean getToDateNull();
 
     /**
-     * <code>optional .dstore.values.StringValue basic_characteristic_numbers = 3;</code>
+     * <code>.dstore.values.StringValue basic_characteristic_numbers = 3;</code>
      */
     boolean hasBasicCharacteristicNumbers();
     /**
-     * <code>optional .dstore.values.StringValue basic_characteristic_numbers = 3;</code>
+     * <code>.dstore.values.StringValue basic_characteristic_numbers = 3;</code>
      */
     io.dstore.values.StringValue getBasicCharacteristicNumbers();
     /**
-     * <code>optional .dstore.values.StringValue basic_characteristic_numbers = 3;</code>
+     * <code>.dstore.values.StringValue basic_characteristic_numbers = 3;</code>
      */
     io.dstore.values.StringValueOrBuilder getBasicCharacteristicNumbersOrBuilder();
 
     /**
-     * <code>optional bool basic_characteristic_numbers_null = 1003;</code>
+     * <code>bool basic_characteristic_numbers_null = 1003;</code>
      */
     boolean getBasicCharacteristicNumbersNull();
 
     /**
-     * <code>optional .dstore.values.StringValue h_tree_node_ids = 4;</code>
+     * <code>.dstore.values.StringValue h_tree_node_ids = 4;</code>
      */
     boolean hasHTreeNodeIds();
     /**
-     * <code>optional .dstore.values.StringValue h_tree_node_ids = 4;</code>
+     * <code>.dstore.values.StringValue h_tree_node_ids = 4;</code>
      */
     io.dstore.values.StringValue getHTreeNodeIds();
     /**
-     * <code>optional .dstore.values.StringValue h_tree_node_ids = 4;</code>
+     * <code>.dstore.values.StringValue h_tree_node_ids = 4;</code>
      */
     io.dstore.values.StringValueOrBuilder getHTreeNodeIdsOrBuilder();
 
     /**
-     * <code>optional bool h_tree_node_ids_null = 1004;</code>
+     * <code>bool h_tree_node_ids_null = 1004;</code>
      */
     boolean getHTreeNodeIdsNull();
 
     /**
-     * <code>optional .dstore.values.BooleanValue summarize_days = 5;</code>
+     * <code>.dstore.values.BooleanValue summarize_days = 5;</code>
      */
     boolean hasSummarizeDays();
     /**
-     * <code>optional .dstore.values.BooleanValue summarize_days = 5;</code>
+     * <code>.dstore.values.BooleanValue summarize_days = 5;</code>
      */
     io.dstore.values.BooleanValue getSummarizeDays();
     /**
-     * <code>optional .dstore.values.BooleanValue summarize_days = 5;</code>
+     * <code>.dstore.values.BooleanValue summarize_days = 5;</code>
      */
     io.dstore.values.BooleanValueOrBuilder getSummarizeDaysOrBuilder();
 
     /**
-     * <code>optional bool summarize_days_null = 1005;</code>
+     * <code>bool summarize_days_null = 1005;</code>
      */
     boolean getSummarizeDaysNull();
   }
@@ -268,19 +268,19 @@ public final class StGetTreeNodePDStatisticsAd {
     public static final int FROM_DATE_FIELD_NUMBER = 1;
     private io.dstore.values.TimestampValue fromDate_;
     /**
-     * <code>optional .dstore.values.TimestampValue from_date = 1;</code>
+     * <code>.dstore.values.TimestampValue from_date = 1;</code>
      */
     public boolean hasFromDate() {
       return fromDate_ != null;
     }
     /**
-     * <code>optional .dstore.values.TimestampValue from_date = 1;</code>
+     * <code>.dstore.values.TimestampValue from_date = 1;</code>
      */
     public io.dstore.values.TimestampValue getFromDate() {
       return fromDate_ == null ? io.dstore.values.TimestampValue.getDefaultInstance() : fromDate_;
     }
     /**
-     * <code>optional .dstore.values.TimestampValue from_date = 1;</code>
+     * <code>.dstore.values.TimestampValue from_date = 1;</code>
      */
     public io.dstore.values.TimestampValueOrBuilder getFromDateOrBuilder() {
       return getFromDate();
@@ -289,7 +289,7 @@ public final class StGetTreeNodePDStatisticsAd {
     public static final int FROM_DATE_NULL_FIELD_NUMBER = 1001;
     private boolean fromDateNull_;
     /**
-     * <code>optional bool from_date_null = 1001;</code>
+     * <code>bool from_date_null = 1001;</code>
      */
     public boolean getFromDateNull() {
       return fromDateNull_;
@@ -298,19 +298,19 @@ public final class StGetTreeNodePDStatisticsAd {
     public static final int TO_DATE_FIELD_NUMBER = 2;
     private io.dstore.values.TimestampValue toDate_;
     /**
-     * <code>optional .dstore.values.TimestampValue to_date = 2;</code>
+     * <code>.dstore.values.TimestampValue to_date = 2;</code>
      */
     public boolean hasToDate() {
       return toDate_ != null;
     }
     /**
-     * <code>optional .dstore.values.TimestampValue to_date = 2;</code>
+     * <code>.dstore.values.TimestampValue to_date = 2;</code>
      */
     public io.dstore.values.TimestampValue getToDate() {
       return toDate_ == null ? io.dstore.values.TimestampValue.getDefaultInstance() : toDate_;
     }
     /**
-     * <code>optional .dstore.values.TimestampValue to_date = 2;</code>
+     * <code>.dstore.values.TimestampValue to_date = 2;</code>
      */
     public io.dstore.values.TimestampValueOrBuilder getToDateOrBuilder() {
       return getToDate();
@@ -319,7 +319,7 @@ public final class StGetTreeNodePDStatisticsAd {
     public static final int TO_DATE_NULL_FIELD_NUMBER = 1002;
     private boolean toDateNull_;
     /**
-     * <code>optional bool to_date_null = 1002;</code>
+     * <code>bool to_date_null = 1002;</code>
      */
     public boolean getToDateNull() {
       return toDateNull_;
@@ -328,19 +328,19 @@ public final class StGetTreeNodePDStatisticsAd {
     public static final int BASIC_CHARACTERISTIC_NUMBERS_FIELD_NUMBER = 3;
     private io.dstore.values.StringValue basicCharacteristicNumbers_;
     /**
-     * <code>optional .dstore.values.StringValue basic_characteristic_numbers = 3;</code>
+     * <code>.dstore.values.StringValue basic_characteristic_numbers = 3;</code>
      */
     public boolean hasBasicCharacteristicNumbers() {
       return basicCharacteristicNumbers_ != null;
     }
     /**
-     * <code>optional .dstore.values.StringValue basic_characteristic_numbers = 3;</code>
+     * <code>.dstore.values.StringValue basic_characteristic_numbers = 3;</code>
      */
     public io.dstore.values.StringValue getBasicCharacteristicNumbers() {
       return basicCharacteristicNumbers_ == null ? io.dstore.values.StringValue.getDefaultInstance() : basicCharacteristicNumbers_;
     }
     /**
-     * <code>optional .dstore.values.StringValue basic_characteristic_numbers = 3;</code>
+     * <code>.dstore.values.StringValue basic_characteristic_numbers = 3;</code>
      */
     public io.dstore.values.StringValueOrBuilder getBasicCharacteristicNumbersOrBuilder() {
       return getBasicCharacteristicNumbers();
@@ -349,7 +349,7 @@ public final class StGetTreeNodePDStatisticsAd {
     public static final int BASIC_CHARACTERISTIC_NUMBERS_NULL_FIELD_NUMBER = 1003;
     private boolean basicCharacteristicNumbersNull_;
     /**
-     * <code>optional bool basic_characteristic_numbers_null = 1003;</code>
+     * <code>bool basic_characteristic_numbers_null = 1003;</code>
      */
     public boolean getBasicCharacteristicNumbersNull() {
       return basicCharacteristicNumbersNull_;
@@ -358,19 +358,19 @@ public final class StGetTreeNodePDStatisticsAd {
     public static final int H_TREE_NODE_IDS_FIELD_NUMBER = 4;
     private io.dstore.values.StringValue hTreeNodeIds_;
     /**
-     * <code>optional .dstore.values.StringValue h_tree_node_ids = 4;</code>
+     * <code>.dstore.values.StringValue h_tree_node_ids = 4;</code>
      */
     public boolean hasHTreeNodeIds() {
       return hTreeNodeIds_ != null;
     }
     /**
-     * <code>optional .dstore.values.StringValue h_tree_node_ids = 4;</code>
+     * <code>.dstore.values.StringValue h_tree_node_ids = 4;</code>
      */
     public io.dstore.values.StringValue getHTreeNodeIds() {
       return hTreeNodeIds_ == null ? io.dstore.values.StringValue.getDefaultInstance() : hTreeNodeIds_;
     }
     /**
-     * <code>optional .dstore.values.StringValue h_tree_node_ids = 4;</code>
+     * <code>.dstore.values.StringValue h_tree_node_ids = 4;</code>
      */
     public io.dstore.values.StringValueOrBuilder getHTreeNodeIdsOrBuilder() {
       return getHTreeNodeIds();
@@ -379,7 +379,7 @@ public final class StGetTreeNodePDStatisticsAd {
     public static final int H_TREE_NODE_IDS_NULL_FIELD_NUMBER = 1004;
     private boolean hTreeNodeIdsNull_;
     /**
-     * <code>optional bool h_tree_node_ids_null = 1004;</code>
+     * <code>bool h_tree_node_ids_null = 1004;</code>
      */
     public boolean getHTreeNodeIdsNull() {
       return hTreeNodeIdsNull_;
@@ -388,19 +388,19 @@ public final class StGetTreeNodePDStatisticsAd {
     public static final int SUMMARIZE_DAYS_FIELD_NUMBER = 5;
     private io.dstore.values.BooleanValue summarizeDays_;
     /**
-     * <code>optional .dstore.values.BooleanValue summarize_days = 5;</code>
+     * <code>.dstore.values.BooleanValue summarize_days = 5;</code>
      */
     public boolean hasSummarizeDays() {
       return summarizeDays_ != null;
     }
     /**
-     * <code>optional .dstore.values.BooleanValue summarize_days = 5;</code>
+     * <code>.dstore.values.BooleanValue summarize_days = 5;</code>
      */
     public io.dstore.values.BooleanValue getSummarizeDays() {
       return summarizeDays_ == null ? io.dstore.values.BooleanValue.getDefaultInstance() : summarizeDays_;
     }
     /**
-     * <code>optional .dstore.values.BooleanValue summarize_days = 5;</code>
+     * <code>.dstore.values.BooleanValue summarize_days = 5;</code>
      */
     public io.dstore.values.BooleanValueOrBuilder getSummarizeDaysOrBuilder() {
       return getSummarizeDays();
@@ -409,7 +409,7 @@ public final class StGetTreeNodePDStatisticsAd {
     public static final int SUMMARIZE_DAYS_NULL_FIELD_NUMBER = 1005;
     private boolean summarizeDaysNull_;
     /**
-     * <code>optional bool summarize_days_null = 1005;</code>
+     * <code>bool summarize_days_null = 1005;</code>
      */
     public boolean getSummarizeDaysNull() {
       return summarizeDaysNull_;
@@ -564,7 +564,7 @@ public final class StGetTreeNodePDStatisticsAd {
         return memoizedHashCode;
       }
       int hash = 41;
-      hash = (19 * hash) + getDescriptorForType().hashCode();
+      hash = (19 * hash) + getDescriptor().hashCode();
       if (hasFromDate()) {
         hash = (37 * hash) + FROM_DATE_FIELD_NUMBER;
         hash = (53 * hash) + getFromDate().hashCode();
@@ -911,13 +911,13 @@ public final class StGetTreeNodePDStatisticsAd {
       private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.values.TimestampValue, io.dstore.values.TimestampValue.Builder, io.dstore.values.TimestampValueOrBuilder> fromDateBuilder_;
       /**
-       * <code>optional .dstore.values.TimestampValue from_date = 1;</code>
+       * <code>.dstore.values.TimestampValue from_date = 1;</code>
        */
       public boolean hasFromDate() {
         return fromDateBuilder_ != null || fromDate_ != null;
       }
       /**
-       * <code>optional .dstore.values.TimestampValue from_date = 1;</code>
+       * <code>.dstore.values.TimestampValue from_date = 1;</code>
        */
       public io.dstore.values.TimestampValue getFromDate() {
         if (fromDateBuilder_ == null) {
@@ -927,7 +927,7 @@ public final class StGetTreeNodePDStatisticsAd {
         }
       }
       /**
-       * <code>optional .dstore.values.TimestampValue from_date = 1;</code>
+       * <code>.dstore.values.TimestampValue from_date = 1;</code>
        */
       public Builder setFromDate(io.dstore.values.TimestampValue value) {
         if (fromDateBuilder_ == null) {
@@ -943,7 +943,7 @@ public final class StGetTreeNodePDStatisticsAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.TimestampValue from_date = 1;</code>
+       * <code>.dstore.values.TimestampValue from_date = 1;</code>
        */
       public Builder setFromDate(
           io.dstore.values.TimestampValue.Builder builderForValue) {
@@ -957,7 +957,7 @@ public final class StGetTreeNodePDStatisticsAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.TimestampValue from_date = 1;</code>
+       * <code>.dstore.values.TimestampValue from_date = 1;</code>
        */
       public Builder mergeFromDate(io.dstore.values.TimestampValue value) {
         if (fromDateBuilder_ == null) {
@@ -975,7 +975,7 @@ public final class StGetTreeNodePDStatisticsAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.TimestampValue from_date = 1;</code>
+       * <code>.dstore.values.TimestampValue from_date = 1;</code>
        */
       public Builder clearFromDate() {
         if (fromDateBuilder_ == null) {
@@ -989,7 +989,7 @@ public final class StGetTreeNodePDStatisticsAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.TimestampValue from_date = 1;</code>
+       * <code>.dstore.values.TimestampValue from_date = 1;</code>
        */
       public io.dstore.values.TimestampValue.Builder getFromDateBuilder() {
         
@@ -997,7 +997,7 @@ public final class StGetTreeNodePDStatisticsAd {
         return getFromDateFieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .dstore.values.TimestampValue from_date = 1;</code>
+       * <code>.dstore.values.TimestampValue from_date = 1;</code>
        */
       public io.dstore.values.TimestampValueOrBuilder getFromDateOrBuilder() {
         if (fromDateBuilder_ != null) {
@@ -1008,7 +1008,7 @@ public final class StGetTreeNodePDStatisticsAd {
         }
       }
       /**
-       * <code>optional .dstore.values.TimestampValue from_date = 1;</code>
+       * <code>.dstore.values.TimestampValue from_date = 1;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.values.TimestampValue, io.dstore.values.TimestampValue.Builder, io.dstore.values.TimestampValueOrBuilder> 
@@ -1026,13 +1026,13 @@ public final class StGetTreeNodePDStatisticsAd {
 
       private boolean fromDateNull_ ;
       /**
-       * <code>optional bool from_date_null = 1001;</code>
+       * <code>bool from_date_null = 1001;</code>
        */
       public boolean getFromDateNull() {
         return fromDateNull_;
       }
       /**
-       * <code>optional bool from_date_null = 1001;</code>
+       * <code>bool from_date_null = 1001;</code>
        */
       public Builder setFromDateNull(boolean value) {
         
@@ -1041,7 +1041,7 @@ public final class StGetTreeNodePDStatisticsAd {
         return this;
       }
       /**
-       * <code>optional bool from_date_null = 1001;</code>
+       * <code>bool from_date_null = 1001;</code>
        */
       public Builder clearFromDateNull() {
         
@@ -1054,13 +1054,13 @@ public final class StGetTreeNodePDStatisticsAd {
       private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.values.TimestampValue, io.dstore.values.TimestampValue.Builder, io.dstore.values.TimestampValueOrBuilder> toDateBuilder_;
       /**
-       * <code>optional .dstore.values.TimestampValue to_date = 2;</code>
+       * <code>.dstore.values.TimestampValue to_date = 2;</code>
        */
       public boolean hasToDate() {
         return toDateBuilder_ != null || toDate_ != null;
       }
       /**
-       * <code>optional .dstore.values.TimestampValue to_date = 2;</code>
+       * <code>.dstore.values.TimestampValue to_date = 2;</code>
        */
       public io.dstore.values.TimestampValue getToDate() {
         if (toDateBuilder_ == null) {
@@ -1070,7 +1070,7 @@ public final class StGetTreeNodePDStatisticsAd {
         }
       }
       /**
-       * <code>optional .dstore.values.TimestampValue to_date = 2;</code>
+       * <code>.dstore.values.TimestampValue to_date = 2;</code>
        */
       public Builder setToDate(io.dstore.values.TimestampValue value) {
         if (toDateBuilder_ == null) {
@@ -1086,7 +1086,7 @@ public final class StGetTreeNodePDStatisticsAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.TimestampValue to_date = 2;</code>
+       * <code>.dstore.values.TimestampValue to_date = 2;</code>
        */
       public Builder setToDate(
           io.dstore.values.TimestampValue.Builder builderForValue) {
@@ -1100,7 +1100,7 @@ public final class StGetTreeNodePDStatisticsAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.TimestampValue to_date = 2;</code>
+       * <code>.dstore.values.TimestampValue to_date = 2;</code>
        */
       public Builder mergeToDate(io.dstore.values.TimestampValue value) {
         if (toDateBuilder_ == null) {
@@ -1118,7 +1118,7 @@ public final class StGetTreeNodePDStatisticsAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.TimestampValue to_date = 2;</code>
+       * <code>.dstore.values.TimestampValue to_date = 2;</code>
        */
       public Builder clearToDate() {
         if (toDateBuilder_ == null) {
@@ -1132,7 +1132,7 @@ public final class StGetTreeNodePDStatisticsAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.TimestampValue to_date = 2;</code>
+       * <code>.dstore.values.TimestampValue to_date = 2;</code>
        */
       public io.dstore.values.TimestampValue.Builder getToDateBuilder() {
         
@@ -1140,7 +1140,7 @@ public final class StGetTreeNodePDStatisticsAd {
         return getToDateFieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .dstore.values.TimestampValue to_date = 2;</code>
+       * <code>.dstore.values.TimestampValue to_date = 2;</code>
        */
       public io.dstore.values.TimestampValueOrBuilder getToDateOrBuilder() {
         if (toDateBuilder_ != null) {
@@ -1151,7 +1151,7 @@ public final class StGetTreeNodePDStatisticsAd {
         }
       }
       /**
-       * <code>optional .dstore.values.TimestampValue to_date = 2;</code>
+       * <code>.dstore.values.TimestampValue to_date = 2;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.values.TimestampValue, io.dstore.values.TimestampValue.Builder, io.dstore.values.TimestampValueOrBuilder> 
@@ -1169,13 +1169,13 @@ public final class StGetTreeNodePDStatisticsAd {
 
       private boolean toDateNull_ ;
       /**
-       * <code>optional bool to_date_null = 1002;</code>
+       * <code>bool to_date_null = 1002;</code>
        */
       public boolean getToDateNull() {
         return toDateNull_;
       }
       /**
-       * <code>optional bool to_date_null = 1002;</code>
+       * <code>bool to_date_null = 1002;</code>
        */
       public Builder setToDateNull(boolean value) {
         
@@ -1184,7 +1184,7 @@ public final class StGetTreeNodePDStatisticsAd {
         return this;
       }
       /**
-       * <code>optional bool to_date_null = 1002;</code>
+       * <code>bool to_date_null = 1002;</code>
        */
       public Builder clearToDateNull() {
         
@@ -1197,13 +1197,13 @@ public final class StGetTreeNodePDStatisticsAd {
       private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.values.StringValue, io.dstore.values.StringValue.Builder, io.dstore.values.StringValueOrBuilder> basicCharacteristicNumbersBuilder_;
       /**
-       * <code>optional .dstore.values.StringValue basic_characteristic_numbers = 3;</code>
+       * <code>.dstore.values.StringValue basic_characteristic_numbers = 3;</code>
        */
       public boolean hasBasicCharacteristicNumbers() {
         return basicCharacteristicNumbersBuilder_ != null || basicCharacteristicNumbers_ != null;
       }
       /**
-       * <code>optional .dstore.values.StringValue basic_characteristic_numbers = 3;</code>
+       * <code>.dstore.values.StringValue basic_characteristic_numbers = 3;</code>
        */
       public io.dstore.values.StringValue getBasicCharacteristicNumbers() {
         if (basicCharacteristicNumbersBuilder_ == null) {
@@ -1213,7 +1213,7 @@ public final class StGetTreeNodePDStatisticsAd {
         }
       }
       /**
-       * <code>optional .dstore.values.StringValue basic_characteristic_numbers = 3;</code>
+       * <code>.dstore.values.StringValue basic_characteristic_numbers = 3;</code>
        */
       public Builder setBasicCharacteristicNumbers(io.dstore.values.StringValue value) {
         if (basicCharacteristicNumbersBuilder_ == null) {
@@ -1229,7 +1229,7 @@ public final class StGetTreeNodePDStatisticsAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.StringValue basic_characteristic_numbers = 3;</code>
+       * <code>.dstore.values.StringValue basic_characteristic_numbers = 3;</code>
        */
       public Builder setBasicCharacteristicNumbers(
           io.dstore.values.StringValue.Builder builderForValue) {
@@ -1243,7 +1243,7 @@ public final class StGetTreeNodePDStatisticsAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.StringValue basic_characteristic_numbers = 3;</code>
+       * <code>.dstore.values.StringValue basic_characteristic_numbers = 3;</code>
        */
       public Builder mergeBasicCharacteristicNumbers(io.dstore.values.StringValue value) {
         if (basicCharacteristicNumbersBuilder_ == null) {
@@ -1261,7 +1261,7 @@ public final class StGetTreeNodePDStatisticsAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.StringValue basic_characteristic_numbers = 3;</code>
+       * <code>.dstore.values.StringValue basic_characteristic_numbers = 3;</code>
        */
       public Builder clearBasicCharacteristicNumbers() {
         if (basicCharacteristicNumbersBuilder_ == null) {
@@ -1275,7 +1275,7 @@ public final class StGetTreeNodePDStatisticsAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.StringValue basic_characteristic_numbers = 3;</code>
+       * <code>.dstore.values.StringValue basic_characteristic_numbers = 3;</code>
        */
       public io.dstore.values.StringValue.Builder getBasicCharacteristicNumbersBuilder() {
         
@@ -1283,7 +1283,7 @@ public final class StGetTreeNodePDStatisticsAd {
         return getBasicCharacteristicNumbersFieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .dstore.values.StringValue basic_characteristic_numbers = 3;</code>
+       * <code>.dstore.values.StringValue basic_characteristic_numbers = 3;</code>
        */
       public io.dstore.values.StringValueOrBuilder getBasicCharacteristicNumbersOrBuilder() {
         if (basicCharacteristicNumbersBuilder_ != null) {
@@ -1294,7 +1294,7 @@ public final class StGetTreeNodePDStatisticsAd {
         }
       }
       /**
-       * <code>optional .dstore.values.StringValue basic_characteristic_numbers = 3;</code>
+       * <code>.dstore.values.StringValue basic_characteristic_numbers = 3;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.values.StringValue, io.dstore.values.StringValue.Builder, io.dstore.values.StringValueOrBuilder> 
@@ -1312,13 +1312,13 @@ public final class StGetTreeNodePDStatisticsAd {
 
       private boolean basicCharacteristicNumbersNull_ ;
       /**
-       * <code>optional bool basic_characteristic_numbers_null = 1003;</code>
+       * <code>bool basic_characteristic_numbers_null = 1003;</code>
        */
       public boolean getBasicCharacteristicNumbersNull() {
         return basicCharacteristicNumbersNull_;
       }
       /**
-       * <code>optional bool basic_characteristic_numbers_null = 1003;</code>
+       * <code>bool basic_characteristic_numbers_null = 1003;</code>
        */
       public Builder setBasicCharacteristicNumbersNull(boolean value) {
         
@@ -1327,7 +1327,7 @@ public final class StGetTreeNodePDStatisticsAd {
         return this;
       }
       /**
-       * <code>optional bool basic_characteristic_numbers_null = 1003;</code>
+       * <code>bool basic_characteristic_numbers_null = 1003;</code>
        */
       public Builder clearBasicCharacteristicNumbersNull() {
         
@@ -1340,13 +1340,13 @@ public final class StGetTreeNodePDStatisticsAd {
       private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.values.StringValue, io.dstore.values.StringValue.Builder, io.dstore.values.StringValueOrBuilder> hTreeNodeIdsBuilder_;
       /**
-       * <code>optional .dstore.values.StringValue h_tree_node_ids = 4;</code>
+       * <code>.dstore.values.StringValue h_tree_node_ids = 4;</code>
        */
       public boolean hasHTreeNodeIds() {
         return hTreeNodeIdsBuilder_ != null || hTreeNodeIds_ != null;
       }
       /**
-       * <code>optional .dstore.values.StringValue h_tree_node_ids = 4;</code>
+       * <code>.dstore.values.StringValue h_tree_node_ids = 4;</code>
        */
       public io.dstore.values.StringValue getHTreeNodeIds() {
         if (hTreeNodeIdsBuilder_ == null) {
@@ -1356,7 +1356,7 @@ public final class StGetTreeNodePDStatisticsAd {
         }
       }
       /**
-       * <code>optional .dstore.values.StringValue h_tree_node_ids = 4;</code>
+       * <code>.dstore.values.StringValue h_tree_node_ids = 4;</code>
        */
       public Builder setHTreeNodeIds(io.dstore.values.StringValue value) {
         if (hTreeNodeIdsBuilder_ == null) {
@@ -1372,7 +1372,7 @@ public final class StGetTreeNodePDStatisticsAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.StringValue h_tree_node_ids = 4;</code>
+       * <code>.dstore.values.StringValue h_tree_node_ids = 4;</code>
        */
       public Builder setHTreeNodeIds(
           io.dstore.values.StringValue.Builder builderForValue) {
@@ -1386,7 +1386,7 @@ public final class StGetTreeNodePDStatisticsAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.StringValue h_tree_node_ids = 4;</code>
+       * <code>.dstore.values.StringValue h_tree_node_ids = 4;</code>
        */
       public Builder mergeHTreeNodeIds(io.dstore.values.StringValue value) {
         if (hTreeNodeIdsBuilder_ == null) {
@@ -1404,7 +1404,7 @@ public final class StGetTreeNodePDStatisticsAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.StringValue h_tree_node_ids = 4;</code>
+       * <code>.dstore.values.StringValue h_tree_node_ids = 4;</code>
        */
       public Builder clearHTreeNodeIds() {
         if (hTreeNodeIdsBuilder_ == null) {
@@ -1418,7 +1418,7 @@ public final class StGetTreeNodePDStatisticsAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.StringValue h_tree_node_ids = 4;</code>
+       * <code>.dstore.values.StringValue h_tree_node_ids = 4;</code>
        */
       public io.dstore.values.StringValue.Builder getHTreeNodeIdsBuilder() {
         
@@ -1426,7 +1426,7 @@ public final class StGetTreeNodePDStatisticsAd {
         return getHTreeNodeIdsFieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .dstore.values.StringValue h_tree_node_ids = 4;</code>
+       * <code>.dstore.values.StringValue h_tree_node_ids = 4;</code>
        */
       public io.dstore.values.StringValueOrBuilder getHTreeNodeIdsOrBuilder() {
         if (hTreeNodeIdsBuilder_ != null) {
@@ -1437,7 +1437,7 @@ public final class StGetTreeNodePDStatisticsAd {
         }
       }
       /**
-       * <code>optional .dstore.values.StringValue h_tree_node_ids = 4;</code>
+       * <code>.dstore.values.StringValue h_tree_node_ids = 4;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.values.StringValue, io.dstore.values.StringValue.Builder, io.dstore.values.StringValueOrBuilder> 
@@ -1455,13 +1455,13 @@ public final class StGetTreeNodePDStatisticsAd {
 
       private boolean hTreeNodeIdsNull_ ;
       /**
-       * <code>optional bool h_tree_node_ids_null = 1004;</code>
+       * <code>bool h_tree_node_ids_null = 1004;</code>
        */
       public boolean getHTreeNodeIdsNull() {
         return hTreeNodeIdsNull_;
       }
       /**
-       * <code>optional bool h_tree_node_ids_null = 1004;</code>
+       * <code>bool h_tree_node_ids_null = 1004;</code>
        */
       public Builder setHTreeNodeIdsNull(boolean value) {
         
@@ -1470,7 +1470,7 @@ public final class StGetTreeNodePDStatisticsAd {
         return this;
       }
       /**
-       * <code>optional bool h_tree_node_ids_null = 1004;</code>
+       * <code>bool h_tree_node_ids_null = 1004;</code>
        */
       public Builder clearHTreeNodeIdsNull() {
         
@@ -1483,13 +1483,13 @@ public final class StGetTreeNodePDStatisticsAd {
       private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.values.BooleanValue, io.dstore.values.BooleanValue.Builder, io.dstore.values.BooleanValueOrBuilder> summarizeDaysBuilder_;
       /**
-       * <code>optional .dstore.values.BooleanValue summarize_days = 5;</code>
+       * <code>.dstore.values.BooleanValue summarize_days = 5;</code>
        */
       public boolean hasSummarizeDays() {
         return summarizeDaysBuilder_ != null || summarizeDays_ != null;
       }
       /**
-       * <code>optional .dstore.values.BooleanValue summarize_days = 5;</code>
+       * <code>.dstore.values.BooleanValue summarize_days = 5;</code>
        */
       public io.dstore.values.BooleanValue getSummarizeDays() {
         if (summarizeDaysBuilder_ == null) {
@@ -1499,7 +1499,7 @@ public final class StGetTreeNodePDStatisticsAd {
         }
       }
       /**
-       * <code>optional .dstore.values.BooleanValue summarize_days = 5;</code>
+       * <code>.dstore.values.BooleanValue summarize_days = 5;</code>
        */
       public Builder setSummarizeDays(io.dstore.values.BooleanValue value) {
         if (summarizeDaysBuilder_ == null) {
@@ -1515,7 +1515,7 @@ public final class StGetTreeNodePDStatisticsAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.BooleanValue summarize_days = 5;</code>
+       * <code>.dstore.values.BooleanValue summarize_days = 5;</code>
        */
       public Builder setSummarizeDays(
           io.dstore.values.BooleanValue.Builder builderForValue) {
@@ -1529,7 +1529,7 @@ public final class StGetTreeNodePDStatisticsAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.BooleanValue summarize_days = 5;</code>
+       * <code>.dstore.values.BooleanValue summarize_days = 5;</code>
        */
       public Builder mergeSummarizeDays(io.dstore.values.BooleanValue value) {
         if (summarizeDaysBuilder_ == null) {
@@ -1547,7 +1547,7 @@ public final class StGetTreeNodePDStatisticsAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.BooleanValue summarize_days = 5;</code>
+       * <code>.dstore.values.BooleanValue summarize_days = 5;</code>
        */
       public Builder clearSummarizeDays() {
         if (summarizeDaysBuilder_ == null) {
@@ -1561,7 +1561,7 @@ public final class StGetTreeNodePDStatisticsAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.BooleanValue summarize_days = 5;</code>
+       * <code>.dstore.values.BooleanValue summarize_days = 5;</code>
        */
       public io.dstore.values.BooleanValue.Builder getSummarizeDaysBuilder() {
         
@@ -1569,7 +1569,7 @@ public final class StGetTreeNodePDStatisticsAd {
         return getSummarizeDaysFieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .dstore.values.BooleanValue summarize_days = 5;</code>
+       * <code>.dstore.values.BooleanValue summarize_days = 5;</code>
        */
       public io.dstore.values.BooleanValueOrBuilder getSummarizeDaysOrBuilder() {
         if (summarizeDaysBuilder_ != null) {
@@ -1580,7 +1580,7 @@ public final class StGetTreeNodePDStatisticsAd {
         }
       }
       /**
-       * <code>optional .dstore.values.BooleanValue summarize_days = 5;</code>
+       * <code>.dstore.values.BooleanValue summarize_days = 5;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.values.BooleanValue, io.dstore.values.BooleanValue.Builder, io.dstore.values.BooleanValueOrBuilder> 
@@ -1598,13 +1598,13 @@ public final class StGetTreeNodePDStatisticsAd {
 
       private boolean summarizeDaysNull_ ;
       /**
-       * <code>optional bool summarize_days_null = 1005;</code>
+       * <code>bool summarize_days_null = 1005;</code>
        */
       public boolean getSummarizeDaysNull() {
         return summarizeDaysNull_;
       }
       /**
-       * <code>optional bool summarize_days_null = 1005;</code>
+       * <code>bool summarize_days_null = 1005;</code>
        */
       public Builder setSummarizeDaysNull(boolean value) {
         
@@ -1613,7 +1613,7 @@ public final class StGetTreeNodePDStatisticsAd {
         return this;
       }
       /**
-       * <code>optional bool summarize_days_null = 1005;</code>
+       * <code>bool summarize_days_null = 1005;</code>
        */
       public Builder clearSummarizeDaysNull() {
         
@@ -1872,7 +1872,7 @@ public final class StGetTreeNodePDStatisticsAd {
         com.google.protobuf.MessageOrBuilder {
 
       /**
-       * <code>optional int32 row_id = 10000;</code>
+       * <code>int32 row_id = 10000;</code>
        */
       int getRowId();
 
@@ -1881,7 +1881,7 @@ public final class StGetTreeNodePDStatisticsAd {
        * Summe der GESAMTEN Einträge, also inkl. indirekter Einträge, für das Element "HTreeNodeID" zur Basis-Kennzahl "BasicCharacteristicNumber" des Tages "Date"
        * </pre>
        *
-       * <code>optional .dstore.values.DecimalValue total_value = 10001;</code>
+       * <code>.dstore.values.DecimalValue total_value = 10001;</code>
        */
       boolean hasTotalValue();
       /**
@@ -1889,7 +1889,7 @@ public final class StGetTreeNodePDStatisticsAd {
        * Summe der GESAMTEN Einträge, also inkl. indirekter Einträge, für das Element "HTreeNodeID" zur Basis-Kennzahl "BasicCharacteristicNumber" des Tages "Date"
        * </pre>
        *
-       * <code>optional .dstore.values.DecimalValue total_value = 10001;</code>
+       * <code>.dstore.values.DecimalValue total_value = 10001;</code>
        */
       io.dstore.values.DecimalValue getTotalValue();
       /**
@@ -1897,7 +1897,7 @@ public final class StGetTreeNodePDStatisticsAd {
        * Summe der GESAMTEN Einträge, also inkl. indirekter Einträge, für das Element "HTreeNodeID" zur Basis-Kennzahl "BasicCharacteristicNumber" des Tages "Date"
        * </pre>
        *
-       * <code>optional .dstore.values.DecimalValue total_value = 10001;</code>
+       * <code>.dstore.values.DecimalValue total_value = 10001;</code>
        */
       io.dstore.values.DecimalValueOrBuilder getTotalValueOrBuilder();
 
@@ -1906,7 +1906,7 @@ public final class StGetTreeNodePDStatisticsAd {
        * ID eines Elementes aus "HistoryTreeView" (in dieser ist die Historie des gesamten Artikelbaums abgebildet)
        * </pre>
        *
-       * <code>optional .dstore.values.IntegerValue h_tree_node_id = 10002;</code>
+       * <code>.dstore.values.IntegerValue h_tree_node_id = 10002;</code>
        */
       boolean hasHTreeNodeId();
       /**
@@ -1914,7 +1914,7 @@ public final class StGetTreeNodePDStatisticsAd {
        * ID eines Elementes aus "HistoryTreeView" (in dieser ist die Historie des gesamten Artikelbaums abgebildet)
        * </pre>
        *
-       * <code>optional .dstore.values.IntegerValue h_tree_node_id = 10002;</code>
+       * <code>.dstore.values.IntegerValue h_tree_node_id = 10002;</code>
        */
       io.dstore.values.IntegerValue getHTreeNodeId();
       /**
@@ -1922,7 +1922,7 @@ public final class StGetTreeNodePDStatisticsAd {
        * ID eines Elementes aus "HistoryTreeView" (in dieser ist die Historie des gesamten Artikelbaums abgebildet)
        * </pre>
        *
-       * <code>optional .dstore.values.IntegerValue h_tree_node_id = 10002;</code>
+       * <code>.dstore.values.IntegerValue h_tree_node_id = 10002;</code>
        */
       io.dstore.values.IntegerValueOrBuilder getHTreeNodeIdOrBuilder();
 
@@ -1931,7 +1931,7 @@ public final class StGetTreeNodePDStatisticsAd {
        * Summe der DIREKTEN Einträge für das Element "HTreeNodeID" zur Basis-Kennzahl "BasicCharacteristicNumber" des Tages "Date"
        * </pre>
        *
-       * <code>optional .dstore.values.DecimalValue direct_value = 10003;</code>
+       * <code>.dstore.values.DecimalValue direct_value = 10003;</code>
        */
       boolean hasDirectValue();
       /**
@@ -1939,7 +1939,7 @@ public final class StGetTreeNodePDStatisticsAd {
        * Summe der DIREKTEN Einträge für das Element "HTreeNodeID" zur Basis-Kennzahl "BasicCharacteristicNumber" des Tages "Date"
        * </pre>
        *
-       * <code>optional .dstore.values.DecimalValue direct_value = 10003;</code>
+       * <code>.dstore.values.DecimalValue direct_value = 10003;</code>
        */
       io.dstore.values.DecimalValue getDirectValue();
       /**
@@ -1947,7 +1947,7 @@ public final class StGetTreeNodePDStatisticsAd {
        * Summe der DIREKTEN Einträge für das Element "HTreeNodeID" zur Basis-Kennzahl "BasicCharacteristicNumber" des Tages "Date"
        * </pre>
        *
-       * <code>optional .dstore.values.DecimalValue direct_value = 10003;</code>
+       * <code>.dstore.values.DecimalValue direct_value = 10003;</code>
        */
       io.dstore.values.DecimalValueOrBuilder getDirectValueOrBuilder();
 
@@ -1956,7 +1956,7 @@ public final class StGetTreeNodePDStatisticsAd {
        * Ein (Tages-)Datum im Zeitraum "&#64;FromDate" bis "&#64;ToDate". Hinweis: Immer "NULL", falls "&#64;SummarizeDays = 1" ist !
        * </pre>
        *
-       * <code>optional .dstore.values.TimestampValue date = 10004;</code>
+       * <code>.dstore.values.TimestampValue date = 10004;</code>
        */
       boolean hasDate();
       /**
@@ -1964,7 +1964,7 @@ public final class StGetTreeNodePDStatisticsAd {
        * Ein (Tages-)Datum im Zeitraum "&#64;FromDate" bis "&#64;ToDate". Hinweis: Immer "NULL", falls "&#64;SummarizeDays = 1" ist !
        * </pre>
        *
-       * <code>optional .dstore.values.TimestampValue date = 10004;</code>
+       * <code>.dstore.values.TimestampValue date = 10004;</code>
        */
       io.dstore.values.TimestampValue getDate();
       /**
@@ -1972,7 +1972,7 @@ public final class StGetTreeNodePDStatisticsAd {
        * Ein (Tages-)Datum im Zeitraum "&#64;FromDate" bis "&#64;ToDate". Hinweis: Immer "NULL", falls "&#64;SummarizeDays = 1" ist !
        * </pre>
        *
-       * <code>optional .dstore.values.TimestampValue date = 10004;</code>
+       * <code>.dstore.values.TimestampValue date = 10004;</code>
        */
       io.dstore.values.TimestampValueOrBuilder getDateOrBuilder();
 
@@ -1981,7 +1981,7 @@ public final class StGetTreeNodePDStatisticsAd {
        * Nummer einer Basis-Kennzahl
        * </pre>
        *
-       * <code>optional .dstore.values.IntegerValue basic_characteristic_number = 10005;</code>
+       * <code>.dstore.values.IntegerValue basic_characteristic_number = 10005;</code>
        */
       boolean hasBasicCharacteristicNumber();
       /**
@@ -1989,7 +1989,7 @@ public final class StGetTreeNodePDStatisticsAd {
        * Nummer einer Basis-Kennzahl
        * </pre>
        *
-       * <code>optional .dstore.values.IntegerValue basic_characteristic_number = 10005;</code>
+       * <code>.dstore.values.IntegerValue basic_characteristic_number = 10005;</code>
        */
       io.dstore.values.IntegerValue getBasicCharacteristicNumber();
       /**
@@ -1997,7 +1997,7 @@ public final class StGetTreeNodePDStatisticsAd {
        * Nummer einer Basis-Kennzahl
        * </pre>
        *
-       * <code>optional .dstore.values.IntegerValue basic_characteristic_number = 10005;</code>
+       * <code>.dstore.values.IntegerValue basic_characteristic_number = 10005;</code>
        */
       io.dstore.values.IntegerValueOrBuilder getBasicCharacteristicNumberOrBuilder();
     }
@@ -2137,7 +2137,7 @@ public final class StGetTreeNodePDStatisticsAd {
       public static final int ROW_ID_FIELD_NUMBER = 10000;
       private int rowId_;
       /**
-       * <code>optional int32 row_id = 10000;</code>
+       * <code>int32 row_id = 10000;</code>
        */
       public int getRowId() {
         return rowId_;
@@ -2150,7 +2150,7 @@ public final class StGetTreeNodePDStatisticsAd {
        * Summe der GESAMTEN Einträge, also inkl. indirekter Einträge, für das Element "HTreeNodeID" zur Basis-Kennzahl "BasicCharacteristicNumber" des Tages "Date"
        * </pre>
        *
-       * <code>optional .dstore.values.DecimalValue total_value = 10001;</code>
+       * <code>.dstore.values.DecimalValue total_value = 10001;</code>
        */
       public boolean hasTotalValue() {
         return totalValue_ != null;
@@ -2160,7 +2160,7 @@ public final class StGetTreeNodePDStatisticsAd {
        * Summe der GESAMTEN Einträge, also inkl. indirekter Einträge, für das Element "HTreeNodeID" zur Basis-Kennzahl "BasicCharacteristicNumber" des Tages "Date"
        * </pre>
        *
-       * <code>optional .dstore.values.DecimalValue total_value = 10001;</code>
+       * <code>.dstore.values.DecimalValue total_value = 10001;</code>
        */
       public io.dstore.values.DecimalValue getTotalValue() {
         return totalValue_ == null ? io.dstore.values.DecimalValue.getDefaultInstance() : totalValue_;
@@ -2170,7 +2170,7 @@ public final class StGetTreeNodePDStatisticsAd {
        * Summe der GESAMTEN Einträge, also inkl. indirekter Einträge, für das Element "HTreeNodeID" zur Basis-Kennzahl "BasicCharacteristicNumber" des Tages "Date"
        * </pre>
        *
-       * <code>optional .dstore.values.DecimalValue total_value = 10001;</code>
+       * <code>.dstore.values.DecimalValue total_value = 10001;</code>
        */
       public io.dstore.values.DecimalValueOrBuilder getTotalValueOrBuilder() {
         return getTotalValue();
@@ -2183,7 +2183,7 @@ public final class StGetTreeNodePDStatisticsAd {
        * ID eines Elementes aus "HistoryTreeView" (in dieser ist die Historie des gesamten Artikelbaums abgebildet)
        * </pre>
        *
-       * <code>optional .dstore.values.IntegerValue h_tree_node_id = 10002;</code>
+       * <code>.dstore.values.IntegerValue h_tree_node_id = 10002;</code>
        */
       public boolean hasHTreeNodeId() {
         return hTreeNodeId_ != null;
@@ -2193,7 +2193,7 @@ public final class StGetTreeNodePDStatisticsAd {
        * ID eines Elementes aus "HistoryTreeView" (in dieser ist die Historie des gesamten Artikelbaums abgebildet)
        * </pre>
        *
-       * <code>optional .dstore.values.IntegerValue h_tree_node_id = 10002;</code>
+       * <code>.dstore.values.IntegerValue h_tree_node_id = 10002;</code>
        */
       public io.dstore.values.IntegerValue getHTreeNodeId() {
         return hTreeNodeId_ == null ? io.dstore.values.IntegerValue.getDefaultInstance() : hTreeNodeId_;
@@ -2203,7 +2203,7 @@ public final class StGetTreeNodePDStatisticsAd {
        * ID eines Elementes aus "HistoryTreeView" (in dieser ist die Historie des gesamten Artikelbaums abgebildet)
        * </pre>
        *
-       * <code>optional .dstore.values.IntegerValue h_tree_node_id = 10002;</code>
+       * <code>.dstore.values.IntegerValue h_tree_node_id = 10002;</code>
        */
       public io.dstore.values.IntegerValueOrBuilder getHTreeNodeIdOrBuilder() {
         return getHTreeNodeId();
@@ -2216,7 +2216,7 @@ public final class StGetTreeNodePDStatisticsAd {
        * Summe der DIREKTEN Einträge für das Element "HTreeNodeID" zur Basis-Kennzahl "BasicCharacteristicNumber" des Tages "Date"
        * </pre>
        *
-       * <code>optional .dstore.values.DecimalValue direct_value = 10003;</code>
+       * <code>.dstore.values.DecimalValue direct_value = 10003;</code>
        */
       public boolean hasDirectValue() {
         return directValue_ != null;
@@ -2226,7 +2226,7 @@ public final class StGetTreeNodePDStatisticsAd {
        * Summe der DIREKTEN Einträge für das Element "HTreeNodeID" zur Basis-Kennzahl "BasicCharacteristicNumber" des Tages "Date"
        * </pre>
        *
-       * <code>optional .dstore.values.DecimalValue direct_value = 10003;</code>
+       * <code>.dstore.values.DecimalValue direct_value = 10003;</code>
        */
       public io.dstore.values.DecimalValue getDirectValue() {
         return directValue_ == null ? io.dstore.values.DecimalValue.getDefaultInstance() : directValue_;
@@ -2236,7 +2236,7 @@ public final class StGetTreeNodePDStatisticsAd {
        * Summe der DIREKTEN Einträge für das Element "HTreeNodeID" zur Basis-Kennzahl "BasicCharacteristicNumber" des Tages "Date"
        * </pre>
        *
-       * <code>optional .dstore.values.DecimalValue direct_value = 10003;</code>
+       * <code>.dstore.values.DecimalValue direct_value = 10003;</code>
        */
       public io.dstore.values.DecimalValueOrBuilder getDirectValueOrBuilder() {
         return getDirectValue();
@@ -2249,7 +2249,7 @@ public final class StGetTreeNodePDStatisticsAd {
        * Ein (Tages-)Datum im Zeitraum "&#64;FromDate" bis "&#64;ToDate". Hinweis: Immer "NULL", falls "&#64;SummarizeDays = 1" ist !
        * </pre>
        *
-       * <code>optional .dstore.values.TimestampValue date = 10004;</code>
+       * <code>.dstore.values.TimestampValue date = 10004;</code>
        */
       public boolean hasDate() {
         return date_ != null;
@@ -2259,7 +2259,7 @@ public final class StGetTreeNodePDStatisticsAd {
        * Ein (Tages-)Datum im Zeitraum "&#64;FromDate" bis "&#64;ToDate". Hinweis: Immer "NULL", falls "&#64;SummarizeDays = 1" ist !
        * </pre>
        *
-       * <code>optional .dstore.values.TimestampValue date = 10004;</code>
+       * <code>.dstore.values.TimestampValue date = 10004;</code>
        */
       public io.dstore.values.TimestampValue getDate() {
         return date_ == null ? io.dstore.values.TimestampValue.getDefaultInstance() : date_;
@@ -2269,7 +2269,7 @@ public final class StGetTreeNodePDStatisticsAd {
        * Ein (Tages-)Datum im Zeitraum "&#64;FromDate" bis "&#64;ToDate". Hinweis: Immer "NULL", falls "&#64;SummarizeDays = 1" ist !
        * </pre>
        *
-       * <code>optional .dstore.values.TimestampValue date = 10004;</code>
+       * <code>.dstore.values.TimestampValue date = 10004;</code>
        */
       public io.dstore.values.TimestampValueOrBuilder getDateOrBuilder() {
         return getDate();
@@ -2282,7 +2282,7 @@ public final class StGetTreeNodePDStatisticsAd {
        * Nummer einer Basis-Kennzahl
        * </pre>
        *
-       * <code>optional .dstore.values.IntegerValue basic_characteristic_number = 10005;</code>
+       * <code>.dstore.values.IntegerValue basic_characteristic_number = 10005;</code>
        */
       public boolean hasBasicCharacteristicNumber() {
         return basicCharacteristicNumber_ != null;
@@ -2292,7 +2292,7 @@ public final class StGetTreeNodePDStatisticsAd {
        * Nummer einer Basis-Kennzahl
        * </pre>
        *
-       * <code>optional .dstore.values.IntegerValue basic_characteristic_number = 10005;</code>
+       * <code>.dstore.values.IntegerValue basic_characteristic_number = 10005;</code>
        */
       public io.dstore.values.IntegerValue getBasicCharacteristicNumber() {
         return basicCharacteristicNumber_ == null ? io.dstore.values.IntegerValue.getDefaultInstance() : basicCharacteristicNumber_;
@@ -2302,7 +2302,7 @@ public final class StGetTreeNodePDStatisticsAd {
        * Nummer einer Basis-Kennzahl
        * </pre>
        *
-       * <code>optional .dstore.values.IntegerValue basic_characteristic_number = 10005;</code>
+       * <code>.dstore.values.IntegerValue basic_characteristic_number = 10005;</code>
        */
       public io.dstore.values.IntegerValueOrBuilder getBasicCharacteristicNumberOrBuilder() {
         return getBasicCharacteristicNumber();
@@ -2421,7 +2421,7 @@ public final class StGetTreeNodePDStatisticsAd {
           return memoizedHashCode;
         }
         int hash = 41;
-        hash = (19 * hash) + getDescriptorForType().hashCode();
+        hash = (19 * hash) + getDescriptor().hashCode();
         hash = (37 * hash) + ROW_ID_FIELD_NUMBER;
         hash = (53 * hash) + getRowId();
         if (hasTotalValue()) {
@@ -2729,13 +2729,13 @@ public final class StGetTreeNodePDStatisticsAd {
 
         private int rowId_ ;
         /**
-         * <code>optional int32 row_id = 10000;</code>
+         * <code>int32 row_id = 10000;</code>
          */
         public int getRowId() {
           return rowId_;
         }
         /**
-         * <code>optional int32 row_id = 10000;</code>
+         * <code>int32 row_id = 10000;</code>
          */
         public Builder setRowId(int value) {
           
@@ -2744,7 +2744,7 @@ public final class StGetTreeNodePDStatisticsAd {
           return this;
         }
         /**
-         * <code>optional int32 row_id = 10000;</code>
+         * <code>int32 row_id = 10000;</code>
          */
         public Builder clearRowId() {
           
@@ -2761,7 +2761,7 @@ public final class StGetTreeNodePDStatisticsAd {
          * Summe der GESAMTEN Einträge, also inkl. indirekter Einträge, für das Element "HTreeNodeID" zur Basis-Kennzahl "BasicCharacteristicNumber" des Tages "Date"
          * </pre>
          *
-         * <code>optional .dstore.values.DecimalValue total_value = 10001;</code>
+         * <code>.dstore.values.DecimalValue total_value = 10001;</code>
          */
         public boolean hasTotalValue() {
           return totalValueBuilder_ != null || totalValue_ != null;
@@ -2771,7 +2771,7 @@ public final class StGetTreeNodePDStatisticsAd {
          * Summe der GESAMTEN Einträge, also inkl. indirekter Einträge, für das Element "HTreeNodeID" zur Basis-Kennzahl "BasicCharacteristicNumber" des Tages "Date"
          * </pre>
          *
-         * <code>optional .dstore.values.DecimalValue total_value = 10001;</code>
+         * <code>.dstore.values.DecimalValue total_value = 10001;</code>
          */
         public io.dstore.values.DecimalValue getTotalValue() {
           if (totalValueBuilder_ == null) {
@@ -2785,7 +2785,7 @@ public final class StGetTreeNodePDStatisticsAd {
          * Summe der GESAMTEN Einträge, also inkl. indirekter Einträge, für das Element "HTreeNodeID" zur Basis-Kennzahl "BasicCharacteristicNumber" des Tages "Date"
          * </pre>
          *
-         * <code>optional .dstore.values.DecimalValue total_value = 10001;</code>
+         * <code>.dstore.values.DecimalValue total_value = 10001;</code>
          */
         public Builder setTotalValue(io.dstore.values.DecimalValue value) {
           if (totalValueBuilder_ == null) {
@@ -2805,7 +2805,7 @@ public final class StGetTreeNodePDStatisticsAd {
          * Summe der GESAMTEN Einträge, also inkl. indirekter Einträge, für das Element "HTreeNodeID" zur Basis-Kennzahl "BasicCharacteristicNumber" des Tages "Date"
          * </pre>
          *
-         * <code>optional .dstore.values.DecimalValue total_value = 10001;</code>
+         * <code>.dstore.values.DecimalValue total_value = 10001;</code>
          */
         public Builder setTotalValue(
             io.dstore.values.DecimalValue.Builder builderForValue) {
@@ -2823,7 +2823,7 @@ public final class StGetTreeNodePDStatisticsAd {
          * Summe der GESAMTEN Einträge, also inkl. indirekter Einträge, für das Element "HTreeNodeID" zur Basis-Kennzahl "BasicCharacteristicNumber" des Tages "Date"
          * </pre>
          *
-         * <code>optional .dstore.values.DecimalValue total_value = 10001;</code>
+         * <code>.dstore.values.DecimalValue total_value = 10001;</code>
          */
         public Builder mergeTotalValue(io.dstore.values.DecimalValue value) {
           if (totalValueBuilder_ == null) {
@@ -2845,7 +2845,7 @@ public final class StGetTreeNodePDStatisticsAd {
          * Summe der GESAMTEN Einträge, also inkl. indirekter Einträge, für das Element "HTreeNodeID" zur Basis-Kennzahl "BasicCharacteristicNumber" des Tages "Date"
          * </pre>
          *
-         * <code>optional .dstore.values.DecimalValue total_value = 10001;</code>
+         * <code>.dstore.values.DecimalValue total_value = 10001;</code>
          */
         public Builder clearTotalValue() {
           if (totalValueBuilder_ == null) {
@@ -2863,7 +2863,7 @@ public final class StGetTreeNodePDStatisticsAd {
          * Summe der GESAMTEN Einträge, also inkl. indirekter Einträge, für das Element "HTreeNodeID" zur Basis-Kennzahl "BasicCharacteristicNumber" des Tages "Date"
          * </pre>
          *
-         * <code>optional .dstore.values.DecimalValue total_value = 10001;</code>
+         * <code>.dstore.values.DecimalValue total_value = 10001;</code>
          */
         public io.dstore.values.DecimalValue.Builder getTotalValueBuilder() {
           
@@ -2875,7 +2875,7 @@ public final class StGetTreeNodePDStatisticsAd {
          * Summe der GESAMTEN Einträge, also inkl. indirekter Einträge, für das Element "HTreeNodeID" zur Basis-Kennzahl "BasicCharacteristicNumber" des Tages "Date"
          * </pre>
          *
-         * <code>optional .dstore.values.DecimalValue total_value = 10001;</code>
+         * <code>.dstore.values.DecimalValue total_value = 10001;</code>
          */
         public io.dstore.values.DecimalValueOrBuilder getTotalValueOrBuilder() {
           if (totalValueBuilder_ != null) {
@@ -2890,7 +2890,7 @@ public final class StGetTreeNodePDStatisticsAd {
          * Summe der GESAMTEN Einträge, also inkl. indirekter Einträge, für das Element "HTreeNodeID" zur Basis-Kennzahl "BasicCharacteristicNumber" des Tages "Date"
          * </pre>
          *
-         * <code>optional .dstore.values.DecimalValue total_value = 10001;</code>
+         * <code>.dstore.values.DecimalValue total_value = 10001;</code>
          */
         private com.google.protobuf.SingleFieldBuilderV3<
             io.dstore.values.DecimalValue, io.dstore.values.DecimalValue.Builder, io.dstore.values.DecimalValueOrBuilder> 
@@ -2914,7 +2914,7 @@ public final class StGetTreeNodePDStatisticsAd {
          * ID eines Elementes aus "HistoryTreeView" (in dieser ist die Historie des gesamten Artikelbaums abgebildet)
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue h_tree_node_id = 10002;</code>
+         * <code>.dstore.values.IntegerValue h_tree_node_id = 10002;</code>
          */
         public boolean hasHTreeNodeId() {
           return hTreeNodeIdBuilder_ != null || hTreeNodeId_ != null;
@@ -2924,7 +2924,7 @@ public final class StGetTreeNodePDStatisticsAd {
          * ID eines Elementes aus "HistoryTreeView" (in dieser ist die Historie des gesamten Artikelbaums abgebildet)
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue h_tree_node_id = 10002;</code>
+         * <code>.dstore.values.IntegerValue h_tree_node_id = 10002;</code>
          */
         public io.dstore.values.IntegerValue getHTreeNodeId() {
           if (hTreeNodeIdBuilder_ == null) {
@@ -2938,7 +2938,7 @@ public final class StGetTreeNodePDStatisticsAd {
          * ID eines Elementes aus "HistoryTreeView" (in dieser ist die Historie des gesamten Artikelbaums abgebildet)
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue h_tree_node_id = 10002;</code>
+         * <code>.dstore.values.IntegerValue h_tree_node_id = 10002;</code>
          */
         public Builder setHTreeNodeId(io.dstore.values.IntegerValue value) {
           if (hTreeNodeIdBuilder_ == null) {
@@ -2958,7 +2958,7 @@ public final class StGetTreeNodePDStatisticsAd {
          * ID eines Elementes aus "HistoryTreeView" (in dieser ist die Historie des gesamten Artikelbaums abgebildet)
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue h_tree_node_id = 10002;</code>
+         * <code>.dstore.values.IntegerValue h_tree_node_id = 10002;</code>
          */
         public Builder setHTreeNodeId(
             io.dstore.values.IntegerValue.Builder builderForValue) {
@@ -2976,7 +2976,7 @@ public final class StGetTreeNodePDStatisticsAd {
          * ID eines Elementes aus "HistoryTreeView" (in dieser ist die Historie des gesamten Artikelbaums abgebildet)
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue h_tree_node_id = 10002;</code>
+         * <code>.dstore.values.IntegerValue h_tree_node_id = 10002;</code>
          */
         public Builder mergeHTreeNodeId(io.dstore.values.IntegerValue value) {
           if (hTreeNodeIdBuilder_ == null) {
@@ -2998,7 +2998,7 @@ public final class StGetTreeNodePDStatisticsAd {
          * ID eines Elementes aus "HistoryTreeView" (in dieser ist die Historie des gesamten Artikelbaums abgebildet)
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue h_tree_node_id = 10002;</code>
+         * <code>.dstore.values.IntegerValue h_tree_node_id = 10002;</code>
          */
         public Builder clearHTreeNodeId() {
           if (hTreeNodeIdBuilder_ == null) {
@@ -3016,7 +3016,7 @@ public final class StGetTreeNodePDStatisticsAd {
          * ID eines Elementes aus "HistoryTreeView" (in dieser ist die Historie des gesamten Artikelbaums abgebildet)
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue h_tree_node_id = 10002;</code>
+         * <code>.dstore.values.IntegerValue h_tree_node_id = 10002;</code>
          */
         public io.dstore.values.IntegerValue.Builder getHTreeNodeIdBuilder() {
           
@@ -3028,7 +3028,7 @@ public final class StGetTreeNodePDStatisticsAd {
          * ID eines Elementes aus "HistoryTreeView" (in dieser ist die Historie des gesamten Artikelbaums abgebildet)
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue h_tree_node_id = 10002;</code>
+         * <code>.dstore.values.IntegerValue h_tree_node_id = 10002;</code>
          */
         public io.dstore.values.IntegerValueOrBuilder getHTreeNodeIdOrBuilder() {
           if (hTreeNodeIdBuilder_ != null) {
@@ -3043,7 +3043,7 @@ public final class StGetTreeNodePDStatisticsAd {
          * ID eines Elementes aus "HistoryTreeView" (in dieser ist die Historie des gesamten Artikelbaums abgebildet)
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue h_tree_node_id = 10002;</code>
+         * <code>.dstore.values.IntegerValue h_tree_node_id = 10002;</code>
          */
         private com.google.protobuf.SingleFieldBuilderV3<
             io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> 
@@ -3067,7 +3067,7 @@ public final class StGetTreeNodePDStatisticsAd {
          * Summe der DIREKTEN Einträge für das Element "HTreeNodeID" zur Basis-Kennzahl "BasicCharacteristicNumber" des Tages "Date"
          * </pre>
          *
-         * <code>optional .dstore.values.DecimalValue direct_value = 10003;</code>
+         * <code>.dstore.values.DecimalValue direct_value = 10003;</code>
          */
         public boolean hasDirectValue() {
           return directValueBuilder_ != null || directValue_ != null;
@@ -3077,7 +3077,7 @@ public final class StGetTreeNodePDStatisticsAd {
          * Summe der DIREKTEN Einträge für das Element "HTreeNodeID" zur Basis-Kennzahl "BasicCharacteristicNumber" des Tages "Date"
          * </pre>
          *
-         * <code>optional .dstore.values.DecimalValue direct_value = 10003;</code>
+         * <code>.dstore.values.DecimalValue direct_value = 10003;</code>
          */
         public io.dstore.values.DecimalValue getDirectValue() {
           if (directValueBuilder_ == null) {
@@ -3091,7 +3091,7 @@ public final class StGetTreeNodePDStatisticsAd {
          * Summe der DIREKTEN Einträge für das Element "HTreeNodeID" zur Basis-Kennzahl "BasicCharacteristicNumber" des Tages "Date"
          * </pre>
          *
-         * <code>optional .dstore.values.DecimalValue direct_value = 10003;</code>
+         * <code>.dstore.values.DecimalValue direct_value = 10003;</code>
          */
         public Builder setDirectValue(io.dstore.values.DecimalValue value) {
           if (directValueBuilder_ == null) {
@@ -3111,7 +3111,7 @@ public final class StGetTreeNodePDStatisticsAd {
          * Summe der DIREKTEN Einträge für das Element "HTreeNodeID" zur Basis-Kennzahl "BasicCharacteristicNumber" des Tages "Date"
          * </pre>
          *
-         * <code>optional .dstore.values.DecimalValue direct_value = 10003;</code>
+         * <code>.dstore.values.DecimalValue direct_value = 10003;</code>
          */
         public Builder setDirectValue(
             io.dstore.values.DecimalValue.Builder builderForValue) {
@@ -3129,7 +3129,7 @@ public final class StGetTreeNodePDStatisticsAd {
          * Summe der DIREKTEN Einträge für das Element "HTreeNodeID" zur Basis-Kennzahl "BasicCharacteristicNumber" des Tages "Date"
          * </pre>
          *
-         * <code>optional .dstore.values.DecimalValue direct_value = 10003;</code>
+         * <code>.dstore.values.DecimalValue direct_value = 10003;</code>
          */
         public Builder mergeDirectValue(io.dstore.values.DecimalValue value) {
           if (directValueBuilder_ == null) {
@@ -3151,7 +3151,7 @@ public final class StGetTreeNodePDStatisticsAd {
          * Summe der DIREKTEN Einträge für das Element "HTreeNodeID" zur Basis-Kennzahl "BasicCharacteristicNumber" des Tages "Date"
          * </pre>
          *
-         * <code>optional .dstore.values.DecimalValue direct_value = 10003;</code>
+         * <code>.dstore.values.DecimalValue direct_value = 10003;</code>
          */
         public Builder clearDirectValue() {
           if (directValueBuilder_ == null) {
@@ -3169,7 +3169,7 @@ public final class StGetTreeNodePDStatisticsAd {
          * Summe der DIREKTEN Einträge für das Element "HTreeNodeID" zur Basis-Kennzahl "BasicCharacteristicNumber" des Tages "Date"
          * </pre>
          *
-         * <code>optional .dstore.values.DecimalValue direct_value = 10003;</code>
+         * <code>.dstore.values.DecimalValue direct_value = 10003;</code>
          */
         public io.dstore.values.DecimalValue.Builder getDirectValueBuilder() {
           
@@ -3181,7 +3181,7 @@ public final class StGetTreeNodePDStatisticsAd {
          * Summe der DIREKTEN Einträge für das Element "HTreeNodeID" zur Basis-Kennzahl "BasicCharacteristicNumber" des Tages "Date"
          * </pre>
          *
-         * <code>optional .dstore.values.DecimalValue direct_value = 10003;</code>
+         * <code>.dstore.values.DecimalValue direct_value = 10003;</code>
          */
         public io.dstore.values.DecimalValueOrBuilder getDirectValueOrBuilder() {
           if (directValueBuilder_ != null) {
@@ -3196,7 +3196,7 @@ public final class StGetTreeNodePDStatisticsAd {
          * Summe der DIREKTEN Einträge für das Element "HTreeNodeID" zur Basis-Kennzahl "BasicCharacteristicNumber" des Tages "Date"
          * </pre>
          *
-         * <code>optional .dstore.values.DecimalValue direct_value = 10003;</code>
+         * <code>.dstore.values.DecimalValue direct_value = 10003;</code>
          */
         private com.google.protobuf.SingleFieldBuilderV3<
             io.dstore.values.DecimalValue, io.dstore.values.DecimalValue.Builder, io.dstore.values.DecimalValueOrBuilder> 
@@ -3220,7 +3220,7 @@ public final class StGetTreeNodePDStatisticsAd {
          * Ein (Tages-)Datum im Zeitraum "&#64;FromDate" bis "&#64;ToDate". Hinweis: Immer "NULL", falls "&#64;SummarizeDays = 1" ist !
          * </pre>
          *
-         * <code>optional .dstore.values.TimestampValue date = 10004;</code>
+         * <code>.dstore.values.TimestampValue date = 10004;</code>
          */
         public boolean hasDate() {
           return dateBuilder_ != null || date_ != null;
@@ -3230,7 +3230,7 @@ public final class StGetTreeNodePDStatisticsAd {
          * Ein (Tages-)Datum im Zeitraum "&#64;FromDate" bis "&#64;ToDate". Hinweis: Immer "NULL", falls "&#64;SummarizeDays = 1" ist !
          * </pre>
          *
-         * <code>optional .dstore.values.TimestampValue date = 10004;</code>
+         * <code>.dstore.values.TimestampValue date = 10004;</code>
          */
         public io.dstore.values.TimestampValue getDate() {
           if (dateBuilder_ == null) {
@@ -3244,7 +3244,7 @@ public final class StGetTreeNodePDStatisticsAd {
          * Ein (Tages-)Datum im Zeitraum "&#64;FromDate" bis "&#64;ToDate". Hinweis: Immer "NULL", falls "&#64;SummarizeDays = 1" ist !
          * </pre>
          *
-         * <code>optional .dstore.values.TimestampValue date = 10004;</code>
+         * <code>.dstore.values.TimestampValue date = 10004;</code>
          */
         public Builder setDate(io.dstore.values.TimestampValue value) {
           if (dateBuilder_ == null) {
@@ -3264,7 +3264,7 @@ public final class StGetTreeNodePDStatisticsAd {
          * Ein (Tages-)Datum im Zeitraum "&#64;FromDate" bis "&#64;ToDate". Hinweis: Immer "NULL", falls "&#64;SummarizeDays = 1" ist !
          * </pre>
          *
-         * <code>optional .dstore.values.TimestampValue date = 10004;</code>
+         * <code>.dstore.values.TimestampValue date = 10004;</code>
          */
         public Builder setDate(
             io.dstore.values.TimestampValue.Builder builderForValue) {
@@ -3282,7 +3282,7 @@ public final class StGetTreeNodePDStatisticsAd {
          * Ein (Tages-)Datum im Zeitraum "&#64;FromDate" bis "&#64;ToDate". Hinweis: Immer "NULL", falls "&#64;SummarizeDays = 1" ist !
          * </pre>
          *
-         * <code>optional .dstore.values.TimestampValue date = 10004;</code>
+         * <code>.dstore.values.TimestampValue date = 10004;</code>
          */
         public Builder mergeDate(io.dstore.values.TimestampValue value) {
           if (dateBuilder_ == null) {
@@ -3304,7 +3304,7 @@ public final class StGetTreeNodePDStatisticsAd {
          * Ein (Tages-)Datum im Zeitraum "&#64;FromDate" bis "&#64;ToDate". Hinweis: Immer "NULL", falls "&#64;SummarizeDays = 1" ist !
          * </pre>
          *
-         * <code>optional .dstore.values.TimestampValue date = 10004;</code>
+         * <code>.dstore.values.TimestampValue date = 10004;</code>
          */
         public Builder clearDate() {
           if (dateBuilder_ == null) {
@@ -3322,7 +3322,7 @@ public final class StGetTreeNodePDStatisticsAd {
          * Ein (Tages-)Datum im Zeitraum "&#64;FromDate" bis "&#64;ToDate". Hinweis: Immer "NULL", falls "&#64;SummarizeDays = 1" ist !
          * </pre>
          *
-         * <code>optional .dstore.values.TimestampValue date = 10004;</code>
+         * <code>.dstore.values.TimestampValue date = 10004;</code>
          */
         public io.dstore.values.TimestampValue.Builder getDateBuilder() {
           
@@ -3334,7 +3334,7 @@ public final class StGetTreeNodePDStatisticsAd {
          * Ein (Tages-)Datum im Zeitraum "&#64;FromDate" bis "&#64;ToDate". Hinweis: Immer "NULL", falls "&#64;SummarizeDays = 1" ist !
          * </pre>
          *
-         * <code>optional .dstore.values.TimestampValue date = 10004;</code>
+         * <code>.dstore.values.TimestampValue date = 10004;</code>
          */
         public io.dstore.values.TimestampValueOrBuilder getDateOrBuilder() {
           if (dateBuilder_ != null) {
@@ -3349,7 +3349,7 @@ public final class StGetTreeNodePDStatisticsAd {
          * Ein (Tages-)Datum im Zeitraum "&#64;FromDate" bis "&#64;ToDate". Hinweis: Immer "NULL", falls "&#64;SummarizeDays = 1" ist !
          * </pre>
          *
-         * <code>optional .dstore.values.TimestampValue date = 10004;</code>
+         * <code>.dstore.values.TimestampValue date = 10004;</code>
          */
         private com.google.protobuf.SingleFieldBuilderV3<
             io.dstore.values.TimestampValue, io.dstore.values.TimestampValue.Builder, io.dstore.values.TimestampValueOrBuilder> 
@@ -3373,7 +3373,7 @@ public final class StGetTreeNodePDStatisticsAd {
          * Nummer einer Basis-Kennzahl
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue basic_characteristic_number = 10005;</code>
+         * <code>.dstore.values.IntegerValue basic_characteristic_number = 10005;</code>
          */
         public boolean hasBasicCharacteristicNumber() {
           return basicCharacteristicNumberBuilder_ != null || basicCharacteristicNumber_ != null;
@@ -3383,7 +3383,7 @@ public final class StGetTreeNodePDStatisticsAd {
          * Nummer einer Basis-Kennzahl
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue basic_characteristic_number = 10005;</code>
+         * <code>.dstore.values.IntegerValue basic_characteristic_number = 10005;</code>
          */
         public io.dstore.values.IntegerValue getBasicCharacteristicNumber() {
           if (basicCharacteristicNumberBuilder_ == null) {
@@ -3397,7 +3397,7 @@ public final class StGetTreeNodePDStatisticsAd {
          * Nummer einer Basis-Kennzahl
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue basic_characteristic_number = 10005;</code>
+         * <code>.dstore.values.IntegerValue basic_characteristic_number = 10005;</code>
          */
         public Builder setBasicCharacteristicNumber(io.dstore.values.IntegerValue value) {
           if (basicCharacteristicNumberBuilder_ == null) {
@@ -3417,7 +3417,7 @@ public final class StGetTreeNodePDStatisticsAd {
          * Nummer einer Basis-Kennzahl
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue basic_characteristic_number = 10005;</code>
+         * <code>.dstore.values.IntegerValue basic_characteristic_number = 10005;</code>
          */
         public Builder setBasicCharacteristicNumber(
             io.dstore.values.IntegerValue.Builder builderForValue) {
@@ -3435,7 +3435,7 @@ public final class StGetTreeNodePDStatisticsAd {
          * Nummer einer Basis-Kennzahl
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue basic_characteristic_number = 10005;</code>
+         * <code>.dstore.values.IntegerValue basic_characteristic_number = 10005;</code>
          */
         public Builder mergeBasicCharacteristicNumber(io.dstore.values.IntegerValue value) {
           if (basicCharacteristicNumberBuilder_ == null) {
@@ -3457,7 +3457,7 @@ public final class StGetTreeNodePDStatisticsAd {
          * Nummer einer Basis-Kennzahl
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue basic_characteristic_number = 10005;</code>
+         * <code>.dstore.values.IntegerValue basic_characteristic_number = 10005;</code>
          */
         public Builder clearBasicCharacteristicNumber() {
           if (basicCharacteristicNumberBuilder_ == null) {
@@ -3475,7 +3475,7 @@ public final class StGetTreeNodePDStatisticsAd {
          * Nummer einer Basis-Kennzahl
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue basic_characteristic_number = 10005;</code>
+         * <code>.dstore.values.IntegerValue basic_characteristic_number = 10005;</code>
          */
         public io.dstore.values.IntegerValue.Builder getBasicCharacteristicNumberBuilder() {
           
@@ -3487,7 +3487,7 @@ public final class StGetTreeNodePDStatisticsAd {
          * Nummer einer Basis-Kennzahl
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue basic_characteristic_number = 10005;</code>
+         * <code>.dstore.values.IntegerValue basic_characteristic_number = 10005;</code>
          */
         public io.dstore.values.IntegerValueOrBuilder getBasicCharacteristicNumberOrBuilder() {
           if (basicCharacteristicNumberBuilder_ != null) {
@@ -3502,7 +3502,7 @@ public final class StGetTreeNodePDStatisticsAd {
          * Nummer einer Basis-Kennzahl
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue basic_characteristic_number = 10005;</code>
+         * <code>.dstore.values.IntegerValue basic_characteristic_number = 10005;</code>
          */
         private com.google.protobuf.SingleFieldBuilderV3<
             io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> 
@@ -3762,7 +3762,7 @@ public final class StGetTreeNodePDStatisticsAd {
         return memoizedHashCode;
       }
       int hash = 41;
-      hash = (19 * hash) + getDescriptorForType().hashCode();
+      hash = (19 * hash) + getDescriptor().hashCode();
       if (getMetaInformationCount() > 0) {
         hash = (37 * hash) + META_INFORMATION_FIELD_NUMBER;
         hash = (53 * hash) + getMetaInformationList().hashCode();

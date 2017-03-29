@@ -87,7 +87,7 @@ public  final class Message extends
   public static final int SEVERITY_FIELD_NUMBER = 1;
   private int severity_;
   /**
-   * <code>optional int32 severity = 1;</code>
+   * <code>int32 severity = 1;</code>
    */
   public int getSeverity() {
     return severity_;
@@ -96,7 +96,7 @@ public  final class Message extends
   public static final int CODE_FIELD_NUMBER = 2;
   private int code_;
   /**
-   * <code>optional int32 code = 2;</code>
+   * <code>int32 code = 2;</code>
    */
   public int getCode() {
     return code_;
@@ -105,7 +105,7 @@ public  final class Message extends
   public static final int MESSAGE_FIELD_NUMBER = 3;
   private volatile java.lang.Object message_;
   /**
-   * <code>optional string message = 3;</code>
+   * <code>string message = 3;</code>
    */
   public java.lang.String getMessage() {
     java.lang.Object ref = message_;
@@ -120,7 +120,7 @@ public  final class Message extends
     }
   }
   /**
-   * <code>optional string message = 3;</code>
+   * <code>string message = 3;</code>
    */
   public com.google.protobuf.ByteString
       getMessageBytes() {
@@ -206,7 +206,7 @@ public  final class Message extends
       return memoizedHashCode;
     }
     int hash = 41;
-    hash = (19 * hash) + getDescriptorForType().hashCode();
+    hash = (19 * hash) + getDescriptor().hashCode();
     hash = (37 * hash) + SEVERITY_FIELD_NUMBER;
     hash = (53 * hash) + getSeverity();
     hash = (37 * hash) + CODE_FIELD_NUMBER;
@@ -441,13 +441,13 @@ public  final class Message extends
 
     private int severity_ ;
     /**
-     * <code>optional int32 severity = 1;</code>
+     * <code>int32 severity = 1;</code>
      */
     public int getSeverity() {
       return severity_;
     }
     /**
-     * <code>optional int32 severity = 1;</code>
+     * <code>int32 severity = 1;</code>
      */
     public Builder setSeverity(int value) {
       
@@ -456,7 +456,7 @@ public  final class Message extends
       return this;
     }
     /**
-     * <code>optional int32 severity = 1;</code>
+     * <code>int32 severity = 1;</code>
      */
     public Builder clearSeverity() {
       
@@ -467,13 +467,13 @@ public  final class Message extends
 
     private int code_ ;
     /**
-     * <code>optional int32 code = 2;</code>
+     * <code>int32 code = 2;</code>
      */
     public int getCode() {
       return code_;
     }
     /**
-     * <code>optional int32 code = 2;</code>
+     * <code>int32 code = 2;</code>
      */
     public Builder setCode(int value) {
       
@@ -482,7 +482,7 @@ public  final class Message extends
       return this;
     }
     /**
-     * <code>optional int32 code = 2;</code>
+     * <code>int32 code = 2;</code>
      */
     public Builder clearCode() {
       
@@ -493,7 +493,7 @@ public  final class Message extends
 
     private java.lang.Object message_ = "";
     /**
-     * <code>optional string message = 3;</code>
+     * <code>string message = 3;</code>
      */
     public java.lang.String getMessage() {
       java.lang.Object ref = message_;
@@ -508,7 +508,7 @@ public  final class Message extends
       }
     }
     /**
-     * <code>optional string message = 3;</code>
+     * <code>string message = 3;</code>
      */
     public com.google.protobuf.ByteString
         getMessageBytes() {
@@ -524,7 +524,7 @@ public  final class Message extends
       }
     }
     /**
-     * <code>optional string message = 3;</code>
+     * <code>string message = 3;</code>
      */
     public Builder setMessage(
         java.lang.String value) {
@@ -537,7 +537,7 @@ public  final class Message extends
       return this;
     }
     /**
-     * <code>optional string message = 3;</code>
+     * <code>string message = 3;</code>
      */
     public Builder clearMessage() {
       
@@ -546,7 +546,7 @@ public  final class Message extends
       return this;
     }
     /**
-     * <code>optional string message = 3;</code>
+     * <code>string message = 3;</code>
      */
     public Builder setMessageBytes(
         com.google.protobuf.ByteString value) {

@@ -19,20 +19,20 @@ public final class OmGetTrolleyInfoTypesAd {
       com.google.protobuf.MessageOrBuilder {
 
     /**
-     * <code>optional .dstore.values.IntegerValue information_type_id = 1;</code>
+     * <code>.dstore.values.IntegerValue information_type_id = 1;</code>
      */
     boolean hasInformationTypeId();
     /**
-     * <code>optional .dstore.values.IntegerValue information_type_id = 1;</code>
+     * <code>.dstore.values.IntegerValue information_type_id = 1;</code>
      */
     io.dstore.values.IntegerValue getInformationTypeId();
     /**
-     * <code>optional .dstore.values.IntegerValue information_type_id = 1;</code>
+     * <code>.dstore.values.IntegerValue information_type_id = 1;</code>
      */
     io.dstore.values.IntegerValueOrBuilder getInformationTypeIdOrBuilder();
 
     /**
-     * <code>optional bool information_type_id_null = 1001;</code>
+     * <code>bool information_type_id_null = 1001;</code>
      */
     boolean getInformationTypeIdNull();
   }
@@ -120,19 +120,19 @@ public final class OmGetTrolleyInfoTypesAd {
     public static final int INFORMATION_TYPE_ID_FIELD_NUMBER = 1;
     private io.dstore.values.IntegerValue informationTypeId_;
     /**
-     * <code>optional .dstore.values.IntegerValue information_type_id = 1;</code>
+     * <code>.dstore.values.IntegerValue information_type_id = 1;</code>
      */
     public boolean hasInformationTypeId() {
       return informationTypeId_ != null;
     }
     /**
-     * <code>optional .dstore.values.IntegerValue information_type_id = 1;</code>
+     * <code>.dstore.values.IntegerValue information_type_id = 1;</code>
      */
     public io.dstore.values.IntegerValue getInformationTypeId() {
       return informationTypeId_ == null ? io.dstore.values.IntegerValue.getDefaultInstance() : informationTypeId_;
     }
     /**
-     * <code>optional .dstore.values.IntegerValue information_type_id = 1;</code>
+     * <code>.dstore.values.IntegerValue information_type_id = 1;</code>
      */
     public io.dstore.values.IntegerValueOrBuilder getInformationTypeIdOrBuilder() {
       return getInformationTypeId();
@@ -141,7 +141,7 @@ public final class OmGetTrolleyInfoTypesAd {
     public static final int INFORMATION_TYPE_ID_NULL_FIELD_NUMBER = 1001;
     private boolean informationTypeIdNull_;
     /**
-     * <code>optional bool information_type_id_null = 1001;</code>
+     * <code>bool information_type_id_null = 1001;</code>
      */
     public boolean getInformationTypeIdNull() {
       return informationTypeIdNull_;
@@ -212,7 +212,7 @@ public final class OmGetTrolleyInfoTypesAd {
         return memoizedHashCode;
       }
       int hash = 41;
-      hash = (19 * hash) + getDescriptorForType().hashCode();
+      hash = (19 * hash) + getDescriptor().hashCode();
       if (hasInformationTypeId()) {
         hash = (37 * hash) + INFORMATION_TYPE_ID_FIELD_NUMBER;
         hash = (53 * hash) + getInformationTypeId().hashCode();
@@ -451,13 +451,13 @@ public final class OmGetTrolleyInfoTypesAd {
       private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> informationTypeIdBuilder_;
       /**
-       * <code>optional .dstore.values.IntegerValue information_type_id = 1;</code>
+       * <code>.dstore.values.IntegerValue information_type_id = 1;</code>
        */
       public boolean hasInformationTypeId() {
         return informationTypeIdBuilder_ != null || informationTypeId_ != null;
       }
       /**
-       * <code>optional .dstore.values.IntegerValue information_type_id = 1;</code>
+       * <code>.dstore.values.IntegerValue information_type_id = 1;</code>
        */
       public io.dstore.values.IntegerValue getInformationTypeId() {
         if (informationTypeIdBuilder_ == null) {
@@ -467,7 +467,7 @@ public final class OmGetTrolleyInfoTypesAd {
         }
       }
       /**
-       * <code>optional .dstore.values.IntegerValue information_type_id = 1;</code>
+       * <code>.dstore.values.IntegerValue information_type_id = 1;</code>
        */
       public Builder setInformationTypeId(io.dstore.values.IntegerValue value) {
         if (informationTypeIdBuilder_ == null) {
@@ -483,7 +483,7 @@ public final class OmGetTrolleyInfoTypesAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.IntegerValue information_type_id = 1;</code>
+       * <code>.dstore.values.IntegerValue information_type_id = 1;</code>
        */
       public Builder setInformationTypeId(
           io.dstore.values.IntegerValue.Builder builderForValue) {
@@ -497,7 +497,7 @@ public final class OmGetTrolleyInfoTypesAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.IntegerValue information_type_id = 1;</code>
+       * <code>.dstore.values.IntegerValue information_type_id = 1;</code>
        */
       public Builder mergeInformationTypeId(io.dstore.values.IntegerValue value) {
         if (informationTypeIdBuilder_ == null) {
@@ -515,7 +515,7 @@ public final class OmGetTrolleyInfoTypesAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.IntegerValue information_type_id = 1;</code>
+       * <code>.dstore.values.IntegerValue information_type_id = 1;</code>
        */
       public Builder clearInformationTypeId() {
         if (informationTypeIdBuilder_ == null) {
@@ -529,7 +529,7 @@ public final class OmGetTrolleyInfoTypesAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.IntegerValue information_type_id = 1;</code>
+       * <code>.dstore.values.IntegerValue information_type_id = 1;</code>
        */
       public io.dstore.values.IntegerValue.Builder getInformationTypeIdBuilder() {
         
@@ -537,7 +537,7 @@ public final class OmGetTrolleyInfoTypesAd {
         return getInformationTypeIdFieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .dstore.values.IntegerValue information_type_id = 1;</code>
+       * <code>.dstore.values.IntegerValue information_type_id = 1;</code>
        */
       public io.dstore.values.IntegerValueOrBuilder getInformationTypeIdOrBuilder() {
         if (informationTypeIdBuilder_ != null) {
@@ -548,7 +548,7 @@ public final class OmGetTrolleyInfoTypesAd {
         }
       }
       /**
-       * <code>optional .dstore.values.IntegerValue information_type_id = 1;</code>
+       * <code>.dstore.values.IntegerValue information_type_id = 1;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> 
@@ -566,13 +566,13 @@ public final class OmGetTrolleyInfoTypesAd {
 
       private boolean informationTypeIdNull_ ;
       /**
-       * <code>optional bool information_type_id_null = 1001;</code>
+       * <code>bool information_type_id_null = 1001;</code>
        */
       public boolean getInformationTypeIdNull() {
         return informationTypeIdNull_;
       }
       /**
-       * <code>optional bool information_type_id_null = 1001;</code>
+       * <code>bool information_type_id_null = 1001;</code>
        */
       public Builder setInformationTypeIdNull(boolean value) {
         
@@ -581,7 +581,7 @@ public final class OmGetTrolleyInfoTypesAd {
         return this;
       }
       /**
-       * <code>optional bool information_type_id_null = 1001;</code>
+       * <code>bool information_type_id_null = 1001;</code>
        */
       public Builder clearInformationTypeIdNull() {
         
@@ -840,7 +840,7 @@ public final class OmGetTrolleyInfoTypesAd {
         com.google.protobuf.MessageOrBuilder {
 
       /**
-       * <code>optional int32 row_id = 10000;</code>
+       * <code>int32 row_id = 10000;</code>
        */
       int getRowId();
 
@@ -849,7 +849,7 @@ public final class OmGetTrolleyInfoTypesAd {
        * ID eines "Feld-Typs", von dem alle Informationen des Typs "TrolleyInformationTypeID" sein müssen (z.B. "Text mit maximal 20 Zeichen")
        * </pre>
        *
-       * <code>optional .dstore.values.IntegerValue field_type_id = 10001;</code>
+       * <code>.dstore.values.IntegerValue field_type_id = 10001;</code>
        */
       boolean hasFieldTypeId();
       /**
@@ -857,7 +857,7 @@ public final class OmGetTrolleyInfoTypesAd {
        * ID eines "Feld-Typs", von dem alle Informationen des Typs "TrolleyInformationTypeID" sein müssen (z.B. "Text mit maximal 20 Zeichen")
        * </pre>
        *
-       * <code>optional .dstore.values.IntegerValue field_type_id = 10001;</code>
+       * <code>.dstore.values.IntegerValue field_type_id = 10001;</code>
        */
       io.dstore.values.IntegerValue getFieldTypeId();
       /**
@@ -865,7 +865,7 @@ public final class OmGetTrolleyInfoTypesAd {
        * ID eines "Feld-Typs", von dem alle Informationen des Typs "TrolleyInformationTypeID" sein müssen (z.B. "Text mit maximal 20 Zeichen")
        * </pre>
        *
-       * <code>optional .dstore.values.IntegerValue field_type_id = 10001;</code>
+       * <code>.dstore.values.IntegerValue field_type_id = 10001;</code>
        */
       io.dstore.values.IntegerValueOrBuilder getFieldTypeIdOrBuilder();
 
@@ -874,7 +874,7 @@ public final class OmGetTrolleyInfoTypesAd {
        * ID eines Typs von Informationen zu Aufträgen (s. "om_GetOrderInformationTypes_Ad"). Stellt das "Pendant" zur "TrolleyInformationTypeID" und ist für den Parameter "&#64;AddOrderInformation" von "om_CopyFromTrolleyToOrder_Pu" relevant.
        * </pre>
        *
-       * <code>optional .dstore.values.IntegerValue corresponding_order_info_type_id = 10002;</code>
+       * <code>.dstore.values.IntegerValue corresponding_order_info_type_id = 10002;</code>
        */
       boolean hasCorrespondingOrderInfoTypeId();
       /**
@@ -882,7 +882,7 @@ public final class OmGetTrolleyInfoTypesAd {
        * ID eines Typs von Informationen zu Aufträgen (s. "om_GetOrderInformationTypes_Ad"). Stellt das "Pendant" zur "TrolleyInformationTypeID" und ist für den Parameter "&#64;AddOrderInformation" von "om_CopyFromTrolleyToOrder_Pu" relevant.
        * </pre>
        *
-       * <code>optional .dstore.values.IntegerValue corresponding_order_info_type_id = 10002;</code>
+       * <code>.dstore.values.IntegerValue corresponding_order_info_type_id = 10002;</code>
        */
       io.dstore.values.IntegerValue getCorrespondingOrderInfoTypeId();
       /**
@@ -890,7 +890,7 @@ public final class OmGetTrolleyInfoTypesAd {
        * ID eines Typs von Informationen zu Aufträgen (s. "om_GetOrderInformationTypes_Ad"). Stellt das "Pendant" zur "TrolleyInformationTypeID" und ist für den Parameter "&#64;AddOrderInformation" von "om_CopyFromTrolleyToOrder_Pu" relevant.
        * </pre>
        *
-       * <code>optional .dstore.values.IntegerValue corresponding_order_info_type_id = 10002;</code>
+       * <code>.dstore.values.IntegerValue corresponding_order_info_type_id = 10002;</code>
        */
       io.dstore.values.IntegerValueOrBuilder getCorrespondingOrderInfoTypeIdOrBuilder();
 
@@ -899,7 +899,7 @@ public final class OmGetTrolleyInfoTypesAd {
        * ID eines Informations-Typs
        * </pre>
        *
-       * <code>optional .dstore.values.IntegerValue trolley_information_type_id = 10003;</code>
+       * <code>.dstore.values.IntegerValue trolley_information_type_id = 10003;</code>
        */
       boolean hasTrolleyInformationTypeId();
       /**
@@ -907,7 +907,7 @@ public final class OmGetTrolleyInfoTypesAd {
        * ID eines Informations-Typs
        * </pre>
        *
-       * <code>optional .dstore.values.IntegerValue trolley_information_type_id = 10003;</code>
+       * <code>.dstore.values.IntegerValue trolley_information_type_id = 10003;</code>
        */
       io.dstore.values.IntegerValue getTrolleyInformationTypeId();
       /**
@@ -915,7 +915,7 @@ public final class OmGetTrolleyInfoTypesAd {
        * ID eines Informations-Typs
        * </pre>
        *
-       * <code>optional .dstore.values.IntegerValue trolley_information_type_id = 10003;</code>
+       * <code>.dstore.values.IntegerValue trolley_information_type_id = 10003;</code>
        */
       io.dstore.values.IntegerValueOrBuilder getTrolleyInformationTypeIdOrBuilder();
 
@@ -924,7 +924,7 @@ public final class OmGetTrolleyInfoTypesAd {
        * Bezeichnung des Informations-Typs "TrolleyInformationTypeID"
        * </pre>
        *
-       * <code>optional .dstore.values.StringValue information_type = 10004;</code>
+       * <code>.dstore.values.StringValue information_type = 10004;</code>
        */
       boolean hasInformationType();
       /**
@@ -932,7 +932,7 @@ public final class OmGetTrolleyInfoTypesAd {
        * Bezeichnung des Informations-Typs "TrolleyInformationTypeID"
        * </pre>
        *
-       * <code>optional .dstore.values.StringValue information_type = 10004;</code>
+       * <code>.dstore.values.StringValue information_type = 10004;</code>
        */
       io.dstore.values.StringValue getInformationType();
       /**
@@ -940,7 +940,7 @@ public final class OmGetTrolleyInfoTypesAd {
        * Bezeichnung des Informations-Typs "TrolleyInformationTypeID"
        * </pre>
        *
-       * <code>optional .dstore.values.StringValue information_type = 10004;</code>
+       * <code>.dstore.values.StringValue information_type = 10004;</code>
        */
       io.dstore.values.StringValueOrBuilder getInformationTypeOrBuilder();
     }
@@ -1067,7 +1067,7 @@ public final class OmGetTrolleyInfoTypesAd {
       public static final int ROW_ID_FIELD_NUMBER = 10000;
       private int rowId_;
       /**
-       * <code>optional int32 row_id = 10000;</code>
+       * <code>int32 row_id = 10000;</code>
        */
       public int getRowId() {
         return rowId_;
@@ -1080,7 +1080,7 @@ public final class OmGetTrolleyInfoTypesAd {
        * ID eines "Feld-Typs", von dem alle Informationen des Typs "TrolleyInformationTypeID" sein müssen (z.B. "Text mit maximal 20 Zeichen")
        * </pre>
        *
-       * <code>optional .dstore.values.IntegerValue field_type_id = 10001;</code>
+       * <code>.dstore.values.IntegerValue field_type_id = 10001;</code>
        */
       public boolean hasFieldTypeId() {
         return fieldTypeId_ != null;
@@ -1090,7 +1090,7 @@ public final class OmGetTrolleyInfoTypesAd {
        * ID eines "Feld-Typs", von dem alle Informationen des Typs "TrolleyInformationTypeID" sein müssen (z.B. "Text mit maximal 20 Zeichen")
        * </pre>
        *
-       * <code>optional .dstore.values.IntegerValue field_type_id = 10001;</code>
+       * <code>.dstore.values.IntegerValue field_type_id = 10001;</code>
        */
       public io.dstore.values.IntegerValue getFieldTypeId() {
         return fieldTypeId_ == null ? io.dstore.values.IntegerValue.getDefaultInstance() : fieldTypeId_;
@@ -1100,7 +1100,7 @@ public final class OmGetTrolleyInfoTypesAd {
        * ID eines "Feld-Typs", von dem alle Informationen des Typs "TrolleyInformationTypeID" sein müssen (z.B. "Text mit maximal 20 Zeichen")
        * </pre>
        *
-       * <code>optional .dstore.values.IntegerValue field_type_id = 10001;</code>
+       * <code>.dstore.values.IntegerValue field_type_id = 10001;</code>
        */
       public io.dstore.values.IntegerValueOrBuilder getFieldTypeIdOrBuilder() {
         return getFieldTypeId();
@@ -1113,7 +1113,7 @@ public final class OmGetTrolleyInfoTypesAd {
        * ID eines Typs von Informationen zu Aufträgen (s. "om_GetOrderInformationTypes_Ad"). Stellt das "Pendant" zur "TrolleyInformationTypeID" und ist für den Parameter "&#64;AddOrderInformation" von "om_CopyFromTrolleyToOrder_Pu" relevant.
        * </pre>
        *
-       * <code>optional .dstore.values.IntegerValue corresponding_order_info_type_id = 10002;</code>
+       * <code>.dstore.values.IntegerValue corresponding_order_info_type_id = 10002;</code>
        */
       public boolean hasCorrespondingOrderInfoTypeId() {
         return correspondingOrderInfoTypeId_ != null;
@@ -1123,7 +1123,7 @@ public final class OmGetTrolleyInfoTypesAd {
        * ID eines Typs von Informationen zu Aufträgen (s. "om_GetOrderInformationTypes_Ad"). Stellt das "Pendant" zur "TrolleyInformationTypeID" und ist für den Parameter "&#64;AddOrderInformation" von "om_CopyFromTrolleyToOrder_Pu" relevant.
        * </pre>
        *
-       * <code>optional .dstore.values.IntegerValue corresponding_order_info_type_id = 10002;</code>
+       * <code>.dstore.values.IntegerValue corresponding_order_info_type_id = 10002;</code>
        */
       public io.dstore.values.IntegerValue getCorrespondingOrderInfoTypeId() {
         return correspondingOrderInfoTypeId_ == null ? io.dstore.values.IntegerValue.getDefaultInstance() : correspondingOrderInfoTypeId_;
@@ -1133,7 +1133,7 @@ public final class OmGetTrolleyInfoTypesAd {
        * ID eines Typs von Informationen zu Aufträgen (s. "om_GetOrderInformationTypes_Ad"). Stellt das "Pendant" zur "TrolleyInformationTypeID" und ist für den Parameter "&#64;AddOrderInformation" von "om_CopyFromTrolleyToOrder_Pu" relevant.
        * </pre>
        *
-       * <code>optional .dstore.values.IntegerValue corresponding_order_info_type_id = 10002;</code>
+       * <code>.dstore.values.IntegerValue corresponding_order_info_type_id = 10002;</code>
        */
       public io.dstore.values.IntegerValueOrBuilder getCorrespondingOrderInfoTypeIdOrBuilder() {
         return getCorrespondingOrderInfoTypeId();
@@ -1146,7 +1146,7 @@ public final class OmGetTrolleyInfoTypesAd {
        * ID eines Informations-Typs
        * </pre>
        *
-       * <code>optional .dstore.values.IntegerValue trolley_information_type_id = 10003;</code>
+       * <code>.dstore.values.IntegerValue trolley_information_type_id = 10003;</code>
        */
       public boolean hasTrolleyInformationTypeId() {
         return trolleyInformationTypeId_ != null;
@@ -1156,7 +1156,7 @@ public final class OmGetTrolleyInfoTypesAd {
        * ID eines Informations-Typs
        * </pre>
        *
-       * <code>optional .dstore.values.IntegerValue trolley_information_type_id = 10003;</code>
+       * <code>.dstore.values.IntegerValue trolley_information_type_id = 10003;</code>
        */
       public io.dstore.values.IntegerValue getTrolleyInformationTypeId() {
         return trolleyInformationTypeId_ == null ? io.dstore.values.IntegerValue.getDefaultInstance() : trolleyInformationTypeId_;
@@ -1166,7 +1166,7 @@ public final class OmGetTrolleyInfoTypesAd {
        * ID eines Informations-Typs
        * </pre>
        *
-       * <code>optional .dstore.values.IntegerValue trolley_information_type_id = 10003;</code>
+       * <code>.dstore.values.IntegerValue trolley_information_type_id = 10003;</code>
        */
       public io.dstore.values.IntegerValueOrBuilder getTrolleyInformationTypeIdOrBuilder() {
         return getTrolleyInformationTypeId();
@@ -1179,7 +1179,7 @@ public final class OmGetTrolleyInfoTypesAd {
        * Bezeichnung des Informations-Typs "TrolleyInformationTypeID"
        * </pre>
        *
-       * <code>optional .dstore.values.StringValue information_type = 10004;</code>
+       * <code>.dstore.values.StringValue information_type = 10004;</code>
        */
       public boolean hasInformationType() {
         return informationType_ != null;
@@ -1189,7 +1189,7 @@ public final class OmGetTrolleyInfoTypesAd {
        * Bezeichnung des Informations-Typs "TrolleyInformationTypeID"
        * </pre>
        *
-       * <code>optional .dstore.values.StringValue information_type = 10004;</code>
+       * <code>.dstore.values.StringValue information_type = 10004;</code>
        */
       public io.dstore.values.StringValue getInformationType() {
         return informationType_ == null ? io.dstore.values.StringValue.getDefaultInstance() : informationType_;
@@ -1199,7 +1199,7 @@ public final class OmGetTrolleyInfoTypesAd {
        * Bezeichnung des Informations-Typs "TrolleyInformationTypeID"
        * </pre>
        *
-       * <code>optional .dstore.values.StringValue information_type = 10004;</code>
+       * <code>.dstore.values.StringValue information_type = 10004;</code>
        */
       public io.dstore.values.StringValueOrBuilder getInformationTypeOrBuilder() {
         return getInformationType();
@@ -1306,7 +1306,7 @@ public final class OmGetTrolleyInfoTypesAd {
           return memoizedHashCode;
         }
         int hash = 41;
-        hash = (19 * hash) + getDescriptorForType().hashCode();
+        hash = (19 * hash) + getDescriptor().hashCode();
         hash = (37 * hash) + ROW_ID_FIELD_NUMBER;
         hash = (53 * hash) + getRowId();
         if (hasFieldTypeId()) {
@@ -1596,13 +1596,13 @@ public final class OmGetTrolleyInfoTypesAd {
 
         private int rowId_ ;
         /**
-         * <code>optional int32 row_id = 10000;</code>
+         * <code>int32 row_id = 10000;</code>
          */
         public int getRowId() {
           return rowId_;
         }
         /**
-         * <code>optional int32 row_id = 10000;</code>
+         * <code>int32 row_id = 10000;</code>
          */
         public Builder setRowId(int value) {
           
@@ -1611,7 +1611,7 @@ public final class OmGetTrolleyInfoTypesAd {
           return this;
         }
         /**
-         * <code>optional int32 row_id = 10000;</code>
+         * <code>int32 row_id = 10000;</code>
          */
         public Builder clearRowId() {
           
@@ -1628,7 +1628,7 @@ public final class OmGetTrolleyInfoTypesAd {
          * ID eines "Feld-Typs", von dem alle Informationen des Typs "TrolleyInformationTypeID" sein müssen (z.B. "Text mit maximal 20 Zeichen")
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue field_type_id = 10001;</code>
+         * <code>.dstore.values.IntegerValue field_type_id = 10001;</code>
          */
         public boolean hasFieldTypeId() {
           return fieldTypeIdBuilder_ != null || fieldTypeId_ != null;
@@ -1638,7 +1638,7 @@ public final class OmGetTrolleyInfoTypesAd {
          * ID eines "Feld-Typs", von dem alle Informationen des Typs "TrolleyInformationTypeID" sein müssen (z.B. "Text mit maximal 20 Zeichen")
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue field_type_id = 10001;</code>
+         * <code>.dstore.values.IntegerValue field_type_id = 10001;</code>
          */
         public io.dstore.values.IntegerValue getFieldTypeId() {
           if (fieldTypeIdBuilder_ == null) {
@@ -1652,7 +1652,7 @@ public final class OmGetTrolleyInfoTypesAd {
          * ID eines "Feld-Typs", von dem alle Informationen des Typs "TrolleyInformationTypeID" sein müssen (z.B. "Text mit maximal 20 Zeichen")
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue field_type_id = 10001;</code>
+         * <code>.dstore.values.IntegerValue field_type_id = 10001;</code>
          */
         public Builder setFieldTypeId(io.dstore.values.IntegerValue value) {
           if (fieldTypeIdBuilder_ == null) {
@@ -1672,7 +1672,7 @@ public final class OmGetTrolleyInfoTypesAd {
          * ID eines "Feld-Typs", von dem alle Informationen des Typs "TrolleyInformationTypeID" sein müssen (z.B. "Text mit maximal 20 Zeichen")
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue field_type_id = 10001;</code>
+         * <code>.dstore.values.IntegerValue field_type_id = 10001;</code>
          */
         public Builder setFieldTypeId(
             io.dstore.values.IntegerValue.Builder builderForValue) {
@@ -1690,7 +1690,7 @@ public final class OmGetTrolleyInfoTypesAd {
          * ID eines "Feld-Typs", von dem alle Informationen des Typs "TrolleyInformationTypeID" sein müssen (z.B. "Text mit maximal 20 Zeichen")
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue field_type_id = 10001;</code>
+         * <code>.dstore.values.IntegerValue field_type_id = 10001;</code>
          */
         public Builder mergeFieldTypeId(io.dstore.values.IntegerValue value) {
           if (fieldTypeIdBuilder_ == null) {
@@ -1712,7 +1712,7 @@ public final class OmGetTrolleyInfoTypesAd {
          * ID eines "Feld-Typs", von dem alle Informationen des Typs "TrolleyInformationTypeID" sein müssen (z.B. "Text mit maximal 20 Zeichen")
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue field_type_id = 10001;</code>
+         * <code>.dstore.values.IntegerValue field_type_id = 10001;</code>
          */
         public Builder clearFieldTypeId() {
           if (fieldTypeIdBuilder_ == null) {
@@ -1730,7 +1730,7 @@ public final class OmGetTrolleyInfoTypesAd {
          * ID eines "Feld-Typs", von dem alle Informationen des Typs "TrolleyInformationTypeID" sein müssen (z.B. "Text mit maximal 20 Zeichen")
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue field_type_id = 10001;</code>
+         * <code>.dstore.values.IntegerValue field_type_id = 10001;</code>
          */
         public io.dstore.values.IntegerValue.Builder getFieldTypeIdBuilder() {
           
@@ -1742,7 +1742,7 @@ public final class OmGetTrolleyInfoTypesAd {
          * ID eines "Feld-Typs", von dem alle Informationen des Typs "TrolleyInformationTypeID" sein müssen (z.B. "Text mit maximal 20 Zeichen")
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue field_type_id = 10001;</code>
+         * <code>.dstore.values.IntegerValue field_type_id = 10001;</code>
          */
         public io.dstore.values.IntegerValueOrBuilder getFieldTypeIdOrBuilder() {
           if (fieldTypeIdBuilder_ != null) {
@@ -1757,7 +1757,7 @@ public final class OmGetTrolleyInfoTypesAd {
          * ID eines "Feld-Typs", von dem alle Informationen des Typs "TrolleyInformationTypeID" sein müssen (z.B. "Text mit maximal 20 Zeichen")
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue field_type_id = 10001;</code>
+         * <code>.dstore.values.IntegerValue field_type_id = 10001;</code>
          */
         private com.google.protobuf.SingleFieldBuilderV3<
             io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> 
@@ -1781,7 +1781,7 @@ public final class OmGetTrolleyInfoTypesAd {
          * ID eines Typs von Informationen zu Aufträgen (s. "om_GetOrderInformationTypes_Ad"). Stellt das "Pendant" zur "TrolleyInformationTypeID" und ist für den Parameter "&#64;AddOrderInformation" von "om_CopyFromTrolleyToOrder_Pu" relevant.
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue corresponding_order_info_type_id = 10002;</code>
+         * <code>.dstore.values.IntegerValue corresponding_order_info_type_id = 10002;</code>
          */
         public boolean hasCorrespondingOrderInfoTypeId() {
           return correspondingOrderInfoTypeIdBuilder_ != null || correspondingOrderInfoTypeId_ != null;
@@ -1791,7 +1791,7 @@ public final class OmGetTrolleyInfoTypesAd {
          * ID eines Typs von Informationen zu Aufträgen (s. "om_GetOrderInformationTypes_Ad"). Stellt das "Pendant" zur "TrolleyInformationTypeID" und ist für den Parameter "&#64;AddOrderInformation" von "om_CopyFromTrolleyToOrder_Pu" relevant.
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue corresponding_order_info_type_id = 10002;</code>
+         * <code>.dstore.values.IntegerValue corresponding_order_info_type_id = 10002;</code>
          */
         public io.dstore.values.IntegerValue getCorrespondingOrderInfoTypeId() {
           if (correspondingOrderInfoTypeIdBuilder_ == null) {
@@ -1805,7 +1805,7 @@ public final class OmGetTrolleyInfoTypesAd {
          * ID eines Typs von Informationen zu Aufträgen (s. "om_GetOrderInformationTypes_Ad"). Stellt das "Pendant" zur "TrolleyInformationTypeID" und ist für den Parameter "&#64;AddOrderInformation" von "om_CopyFromTrolleyToOrder_Pu" relevant.
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue corresponding_order_info_type_id = 10002;</code>
+         * <code>.dstore.values.IntegerValue corresponding_order_info_type_id = 10002;</code>
          */
         public Builder setCorrespondingOrderInfoTypeId(io.dstore.values.IntegerValue value) {
           if (correspondingOrderInfoTypeIdBuilder_ == null) {
@@ -1825,7 +1825,7 @@ public final class OmGetTrolleyInfoTypesAd {
          * ID eines Typs von Informationen zu Aufträgen (s. "om_GetOrderInformationTypes_Ad"). Stellt das "Pendant" zur "TrolleyInformationTypeID" und ist für den Parameter "&#64;AddOrderInformation" von "om_CopyFromTrolleyToOrder_Pu" relevant.
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue corresponding_order_info_type_id = 10002;</code>
+         * <code>.dstore.values.IntegerValue corresponding_order_info_type_id = 10002;</code>
          */
         public Builder setCorrespondingOrderInfoTypeId(
             io.dstore.values.IntegerValue.Builder builderForValue) {
@@ -1843,7 +1843,7 @@ public final class OmGetTrolleyInfoTypesAd {
          * ID eines Typs von Informationen zu Aufträgen (s. "om_GetOrderInformationTypes_Ad"). Stellt das "Pendant" zur "TrolleyInformationTypeID" und ist für den Parameter "&#64;AddOrderInformation" von "om_CopyFromTrolleyToOrder_Pu" relevant.
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue corresponding_order_info_type_id = 10002;</code>
+         * <code>.dstore.values.IntegerValue corresponding_order_info_type_id = 10002;</code>
          */
         public Builder mergeCorrespondingOrderInfoTypeId(io.dstore.values.IntegerValue value) {
           if (correspondingOrderInfoTypeIdBuilder_ == null) {
@@ -1865,7 +1865,7 @@ public final class OmGetTrolleyInfoTypesAd {
          * ID eines Typs von Informationen zu Aufträgen (s. "om_GetOrderInformationTypes_Ad"). Stellt das "Pendant" zur "TrolleyInformationTypeID" und ist für den Parameter "&#64;AddOrderInformation" von "om_CopyFromTrolleyToOrder_Pu" relevant.
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue corresponding_order_info_type_id = 10002;</code>
+         * <code>.dstore.values.IntegerValue corresponding_order_info_type_id = 10002;</code>
          */
         public Builder clearCorrespondingOrderInfoTypeId() {
           if (correspondingOrderInfoTypeIdBuilder_ == null) {
@@ -1883,7 +1883,7 @@ public final class OmGetTrolleyInfoTypesAd {
          * ID eines Typs von Informationen zu Aufträgen (s. "om_GetOrderInformationTypes_Ad"). Stellt das "Pendant" zur "TrolleyInformationTypeID" und ist für den Parameter "&#64;AddOrderInformation" von "om_CopyFromTrolleyToOrder_Pu" relevant.
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue corresponding_order_info_type_id = 10002;</code>
+         * <code>.dstore.values.IntegerValue corresponding_order_info_type_id = 10002;</code>
          */
         public io.dstore.values.IntegerValue.Builder getCorrespondingOrderInfoTypeIdBuilder() {
           
@@ -1895,7 +1895,7 @@ public final class OmGetTrolleyInfoTypesAd {
          * ID eines Typs von Informationen zu Aufträgen (s. "om_GetOrderInformationTypes_Ad"). Stellt das "Pendant" zur "TrolleyInformationTypeID" und ist für den Parameter "&#64;AddOrderInformation" von "om_CopyFromTrolleyToOrder_Pu" relevant.
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue corresponding_order_info_type_id = 10002;</code>
+         * <code>.dstore.values.IntegerValue corresponding_order_info_type_id = 10002;</code>
          */
         public io.dstore.values.IntegerValueOrBuilder getCorrespondingOrderInfoTypeIdOrBuilder() {
           if (correspondingOrderInfoTypeIdBuilder_ != null) {
@@ -1910,7 +1910,7 @@ public final class OmGetTrolleyInfoTypesAd {
          * ID eines Typs von Informationen zu Aufträgen (s. "om_GetOrderInformationTypes_Ad"). Stellt das "Pendant" zur "TrolleyInformationTypeID" und ist für den Parameter "&#64;AddOrderInformation" von "om_CopyFromTrolleyToOrder_Pu" relevant.
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue corresponding_order_info_type_id = 10002;</code>
+         * <code>.dstore.values.IntegerValue corresponding_order_info_type_id = 10002;</code>
          */
         private com.google.protobuf.SingleFieldBuilderV3<
             io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> 
@@ -1934,7 +1934,7 @@ public final class OmGetTrolleyInfoTypesAd {
          * ID eines Informations-Typs
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue trolley_information_type_id = 10003;</code>
+         * <code>.dstore.values.IntegerValue trolley_information_type_id = 10003;</code>
          */
         public boolean hasTrolleyInformationTypeId() {
           return trolleyInformationTypeIdBuilder_ != null || trolleyInformationTypeId_ != null;
@@ -1944,7 +1944,7 @@ public final class OmGetTrolleyInfoTypesAd {
          * ID eines Informations-Typs
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue trolley_information_type_id = 10003;</code>
+         * <code>.dstore.values.IntegerValue trolley_information_type_id = 10003;</code>
          */
         public io.dstore.values.IntegerValue getTrolleyInformationTypeId() {
           if (trolleyInformationTypeIdBuilder_ == null) {
@@ -1958,7 +1958,7 @@ public final class OmGetTrolleyInfoTypesAd {
          * ID eines Informations-Typs
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue trolley_information_type_id = 10003;</code>
+         * <code>.dstore.values.IntegerValue trolley_information_type_id = 10003;</code>
          */
         public Builder setTrolleyInformationTypeId(io.dstore.values.IntegerValue value) {
           if (trolleyInformationTypeIdBuilder_ == null) {
@@ -1978,7 +1978,7 @@ public final class OmGetTrolleyInfoTypesAd {
          * ID eines Informations-Typs
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue trolley_information_type_id = 10003;</code>
+         * <code>.dstore.values.IntegerValue trolley_information_type_id = 10003;</code>
          */
         public Builder setTrolleyInformationTypeId(
             io.dstore.values.IntegerValue.Builder builderForValue) {
@@ -1996,7 +1996,7 @@ public final class OmGetTrolleyInfoTypesAd {
          * ID eines Informations-Typs
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue trolley_information_type_id = 10003;</code>
+         * <code>.dstore.values.IntegerValue trolley_information_type_id = 10003;</code>
          */
         public Builder mergeTrolleyInformationTypeId(io.dstore.values.IntegerValue value) {
           if (trolleyInformationTypeIdBuilder_ == null) {
@@ -2018,7 +2018,7 @@ public final class OmGetTrolleyInfoTypesAd {
          * ID eines Informations-Typs
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue trolley_information_type_id = 10003;</code>
+         * <code>.dstore.values.IntegerValue trolley_information_type_id = 10003;</code>
          */
         public Builder clearTrolleyInformationTypeId() {
           if (trolleyInformationTypeIdBuilder_ == null) {
@@ -2036,7 +2036,7 @@ public final class OmGetTrolleyInfoTypesAd {
          * ID eines Informations-Typs
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue trolley_information_type_id = 10003;</code>
+         * <code>.dstore.values.IntegerValue trolley_information_type_id = 10003;</code>
          */
         public io.dstore.values.IntegerValue.Builder getTrolleyInformationTypeIdBuilder() {
           
@@ -2048,7 +2048,7 @@ public final class OmGetTrolleyInfoTypesAd {
          * ID eines Informations-Typs
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue trolley_information_type_id = 10003;</code>
+         * <code>.dstore.values.IntegerValue trolley_information_type_id = 10003;</code>
          */
         public io.dstore.values.IntegerValueOrBuilder getTrolleyInformationTypeIdOrBuilder() {
           if (trolleyInformationTypeIdBuilder_ != null) {
@@ -2063,7 +2063,7 @@ public final class OmGetTrolleyInfoTypesAd {
          * ID eines Informations-Typs
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue trolley_information_type_id = 10003;</code>
+         * <code>.dstore.values.IntegerValue trolley_information_type_id = 10003;</code>
          */
         private com.google.protobuf.SingleFieldBuilderV3<
             io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> 
@@ -2087,7 +2087,7 @@ public final class OmGetTrolleyInfoTypesAd {
          * Bezeichnung des Informations-Typs "TrolleyInformationTypeID"
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue information_type = 10004;</code>
+         * <code>.dstore.values.StringValue information_type = 10004;</code>
          */
         public boolean hasInformationType() {
           return informationTypeBuilder_ != null || informationType_ != null;
@@ -2097,7 +2097,7 @@ public final class OmGetTrolleyInfoTypesAd {
          * Bezeichnung des Informations-Typs "TrolleyInformationTypeID"
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue information_type = 10004;</code>
+         * <code>.dstore.values.StringValue information_type = 10004;</code>
          */
         public io.dstore.values.StringValue getInformationType() {
           if (informationTypeBuilder_ == null) {
@@ -2111,7 +2111,7 @@ public final class OmGetTrolleyInfoTypesAd {
          * Bezeichnung des Informations-Typs "TrolleyInformationTypeID"
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue information_type = 10004;</code>
+         * <code>.dstore.values.StringValue information_type = 10004;</code>
          */
         public Builder setInformationType(io.dstore.values.StringValue value) {
           if (informationTypeBuilder_ == null) {
@@ -2131,7 +2131,7 @@ public final class OmGetTrolleyInfoTypesAd {
          * Bezeichnung des Informations-Typs "TrolleyInformationTypeID"
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue information_type = 10004;</code>
+         * <code>.dstore.values.StringValue information_type = 10004;</code>
          */
         public Builder setInformationType(
             io.dstore.values.StringValue.Builder builderForValue) {
@@ -2149,7 +2149,7 @@ public final class OmGetTrolleyInfoTypesAd {
          * Bezeichnung des Informations-Typs "TrolleyInformationTypeID"
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue information_type = 10004;</code>
+         * <code>.dstore.values.StringValue information_type = 10004;</code>
          */
         public Builder mergeInformationType(io.dstore.values.StringValue value) {
           if (informationTypeBuilder_ == null) {
@@ -2171,7 +2171,7 @@ public final class OmGetTrolleyInfoTypesAd {
          * Bezeichnung des Informations-Typs "TrolleyInformationTypeID"
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue information_type = 10004;</code>
+         * <code>.dstore.values.StringValue information_type = 10004;</code>
          */
         public Builder clearInformationType() {
           if (informationTypeBuilder_ == null) {
@@ -2189,7 +2189,7 @@ public final class OmGetTrolleyInfoTypesAd {
          * Bezeichnung des Informations-Typs "TrolleyInformationTypeID"
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue information_type = 10004;</code>
+         * <code>.dstore.values.StringValue information_type = 10004;</code>
          */
         public io.dstore.values.StringValue.Builder getInformationTypeBuilder() {
           
@@ -2201,7 +2201,7 @@ public final class OmGetTrolleyInfoTypesAd {
          * Bezeichnung des Informations-Typs "TrolleyInformationTypeID"
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue information_type = 10004;</code>
+         * <code>.dstore.values.StringValue information_type = 10004;</code>
          */
         public io.dstore.values.StringValueOrBuilder getInformationTypeOrBuilder() {
           if (informationTypeBuilder_ != null) {
@@ -2216,7 +2216,7 @@ public final class OmGetTrolleyInfoTypesAd {
          * Bezeichnung des Informations-Typs "TrolleyInformationTypeID"
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue information_type = 10004;</code>
+         * <code>.dstore.values.StringValue information_type = 10004;</code>
          */
         private com.google.protobuf.SingleFieldBuilderV3<
             io.dstore.values.StringValue, io.dstore.values.StringValue.Builder, io.dstore.values.StringValueOrBuilder> 
@@ -2476,7 +2476,7 @@ public final class OmGetTrolleyInfoTypesAd {
         return memoizedHashCode;
       }
       int hash = 41;
-      hash = (19 * hash) + getDescriptorForType().hashCode();
+      hash = (19 * hash) + getDescriptor().hashCode();
       if (getMetaInformationCount() > 0) {
         hash = (37 * hash) + META_INFORMATION_FIELD_NUMBER;
         hash = (53 * hash) + getMetaInformationList().hashCode();

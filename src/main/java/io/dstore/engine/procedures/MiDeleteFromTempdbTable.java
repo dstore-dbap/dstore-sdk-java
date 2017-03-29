@@ -19,38 +19,38 @@ public final class MiDeleteFromTempdbTable {
       com.google.protobuf.MessageOrBuilder {
 
     /**
-     * <code>optional .dstore.values.StringValue table_name = 1;</code>
+     * <code>.dstore.values.StringValue table_name = 1;</code>
      */
     boolean hasTableName();
     /**
-     * <code>optional .dstore.values.StringValue table_name = 1;</code>
+     * <code>.dstore.values.StringValue table_name = 1;</code>
      */
     io.dstore.values.StringValue getTableName();
     /**
-     * <code>optional .dstore.values.StringValue table_name = 1;</code>
+     * <code>.dstore.values.StringValue table_name = 1;</code>
      */
     io.dstore.values.StringValueOrBuilder getTableNameOrBuilder();
 
     /**
-     * <code>optional bool table_name_null = 1001;</code>
+     * <code>bool table_name_null = 1001;</code>
      */
     boolean getTableNameNull();
 
     /**
-     * <code>optional .dstore.values.IntegerValue spid = 2;</code>
+     * <code>.dstore.values.IntegerValue spid = 2;</code>
      */
     boolean hasSpid();
     /**
-     * <code>optional .dstore.values.IntegerValue spid = 2;</code>
+     * <code>.dstore.values.IntegerValue spid = 2;</code>
      */
     io.dstore.values.IntegerValue getSpid();
     /**
-     * <code>optional .dstore.values.IntegerValue spid = 2;</code>
+     * <code>.dstore.values.IntegerValue spid = 2;</code>
      */
     io.dstore.values.IntegerValueOrBuilder getSpidOrBuilder();
 
     /**
-     * <code>optional bool spid_null = 1002;</code>
+     * <code>bool spid_null = 1002;</code>
      */
     boolean getSpidNull();
   }
@@ -157,19 +157,19 @@ public final class MiDeleteFromTempdbTable {
     public static final int TABLE_NAME_FIELD_NUMBER = 1;
     private io.dstore.values.StringValue tableName_;
     /**
-     * <code>optional .dstore.values.StringValue table_name = 1;</code>
+     * <code>.dstore.values.StringValue table_name = 1;</code>
      */
     public boolean hasTableName() {
       return tableName_ != null;
     }
     /**
-     * <code>optional .dstore.values.StringValue table_name = 1;</code>
+     * <code>.dstore.values.StringValue table_name = 1;</code>
      */
     public io.dstore.values.StringValue getTableName() {
       return tableName_ == null ? io.dstore.values.StringValue.getDefaultInstance() : tableName_;
     }
     /**
-     * <code>optional .dstore.values.StringValue table_name = 1;</code>
+     * <code>.dstore.values.StringValue table_name = 1;</code>
      */
     public io.dstore.values.StringValueOrBuilder getTableNameOrBuilder() {
       return getTableName();
@@ -178,7 +178,7 @@ public final class MiDeleteFromTempdbTable {
     public static final int TABLE_NAME_NULL_FIELD_NUMBER = 1001;
     private boolean tableNameNull_;
     /**
-     * <code>optional bool table_name_null = 1001;</code>
+     * <code>bool table_name_null = 1001;</code>
      */
     public boolean getTableNameNull() {
       return tableNameNull_;
@@ -187,19 +187,19 @@ public final class MiDeleteFromTempdbTable {
     public static final int SPID_FIELD_NUMBER = 2;
     private io.dstore.values.IntegerValue spid_;
     /**
-     * <code>optional .dstore.values.IntegerValue spid = 2;</code>
+     * <code>.dstore.values.IntegerValue spid = 2;</code>
      */
     public boolean hasSpid() {
       return spid_ != null;
     }
     /**
-     * <code>optional .dstore.values.IntegerValue spid = 2;</code>
+     * <code>.dstore.values.IntegerValue spid = 2;</code>
      */
     public io.dstore.values.IntegerValue getSpid() {
       return spid_ == null ? io.dstore.values.IntegerValue.getDefaultInstance() : spid_;
     }
     /**
-     * <code>optional .dstore.values.IntegerValue spid = 2;</code>
+     * <code>.dstore.values.IntegerValue spid = 2;</code>
      */
     public io.dstore.values.IntegerValueOrBuilder getSpidOrBuilder() {
       return getSpid();
@@ -208,7 +208,7 @@ public final class MiDeleteFromTempdbTable {
     public static final int SPID_NULL_FIELD_NUMBER = 1002;
     private boolean spidNull_;
     /**
-     * <code>optional bool spid_null = 1002;</code>
+     * <code>bool spid_null = 1002;</code>
      */
     public boolean getSpidNull() {
       return spidNull_;
@@ -300,7 +300,7 @@ public final class MiDeleteFromTempdbTable {
         return memoizedHashCode;
       }
       int hash = 41;
-      hash = (19 * hash) + getDescriptorForType().hashCode();
+      hash = (19 * hash) + getDescriptor().hashCode();
       if (hasTableName()) {
         hash = (37 * hash) + TABLE_NAME_FIELD_NUMBER;
         hash = (53 * hash) + getTableName().hashCode();
@@ -566,13 +566,13 @@ public final class MiDeleteFromTempdbTable {
       private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.values.StringValue, io.dstore.values.StringValue.Builder, io.dstore.values.StringValueOrBuilder> tableNameBuilder_;
       /**
-       * <code>optional .dstore.values.StringValue table_name = 1;</code>
+       * <code>.dstore.values.StringValue table_name = 1;</code>
        */
       public boolean hasTableName() {
         return tableNameBuilder_ != null || tableName_ != null;
       }
       /**
-       * <code>optional .dstore.values.StringValue table_name = 1;</code>
+       * <code>.dstore.values.StringValue table_name = 1;</code>
        */
       public io.dstore.values.StringValue getTableName() {
         if (tableNameBuilder_ == null) {
@@ -582,7 +582,7 @@ public final class MiDeleteFromTempdbTable {
         }
       }
       /**
-       * <code>optional .dstore.values.StringValue table_name = 1;</code>
+       * <code>.dstore.values.StringValue table_name = 1;</code>
        */
       public Builder setTableName(io.dstore.values.StringValue value) {
         if (tableNameBuilder_ == null) {
@@ -598,7 +598,7 @@ public final class MiDeleteFromTempdbTable {
         return this;
       }
       /**
-       * <code>optional .dstore.values.StringValue table_name = 1;</code>
+       * <code>.dstore.values.StringValue table_name = 1;</code>
        */
       public Builder setTableName(
           io.dstore.values.StringValue.Builder builderForValue) {
@@ -612,7 +612,7 @@ public final class MiDeleteFromTempdbTable {
         return this;
       }
       /**
-       * <code>optional .dstore.values.StringValue table_name = 1;</code>
+       * <code>.dstore.values.StringValue table_name = 1;</code>
        */
       public Builder mergeTableName(io.dstore.values.StringValue value) {
         if (tableNameBuilder_ == null) {
@@ -630,7 +630,7 @@ public final class MiDeleteFromTempdbTable {
         return this;
       }
       /**
-       * <code>optional .dstore.values.StringValue table_name = 1;</code>
+       * <code>.dstore.values.StringValue table_name = 1;</code>
        */
       public Builder clearTableName() {
         if (tableNameBuilder_ == null) {
@@ -644,7 +644,7 @@ public final class MiDeleteFromTempdbTable {
         return this;
       }
       /**
-       * <code>optional .dstore.values.StringValue table_name = 1;</code>
+       * <code>.dstore.values.StringValue table_name = 1;</code>
        */
       public io.dstore.values.StringValue.Builder getTableNameBuilder() {
         
@@ -652,7 +652,7 @@ public final class MiDeleteFromTempdbTable {
         return getTableNameFieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .dstore.values.StringValue table_name = 1;</code>
+       * <code>.dstore.values.StringValue table_name = 1;</code>
        */
       public io.dstore.values.StringValueOrBuilder getTableNameOrBuilder() {
         if (tableNameBuilder_ != null) {
@@ -663,7 +663,7 @@ public final class MiDeleteFromTempdbTable {
         }
       }
       /**
-       * <code>optional .dstore.values.StringValue table_name = 1;</code>
+       * <code>.dstore.values.StringValue table_name = 1;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.values.StringValue, io.dstore.values.StringValue.Builder, io.dstore.values.StringValueOrBuilder> 
@@ -681,13 +681,13 @@ public final class MiDeleteFromTempdbTable {
 
       private boolean tableNameNull_ ;
       /**
-       * <code>optional bool table_name_null = 1001;</code>
+       * <code>bool table_name_null = 1001;</code>
        */
       public boolean getTableNameNull() {
         return tableNameNull_;
       }
       /**
-       * <code>optional bool table_name_null = 1001;</code>
+       * <code>bool table_name_null = 1001;</code>
        */
       public Builder setTableNameNull(boolean value) {
         
@@ -696,7 +696,7 @@ public final class MiDeleteFromTempdbTable {
         return this;
       }
       /**
-       * <code>optional bool table_name_null = 1001;</code>
+       * <code>bool table_name_null = 1001;</code>
        */
       public Builder clearTableNameNull() {
         
@@ -709,13 +709,13 @@ public final class MiDeleteFromTempdbTable {
       private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> spidBuilder_;
       /**
-       * <code>optional .dstore.values.IntegerValue spid = 2;</code>
+       * <code>.dstore.values.IntegerValue spid = 2;</code>
        */
       public boolean hasSpid() {
         return spidBuilder_ != null || spid_ != null;
       }
       /**
-       * <code>optional .dstore.values.IntegerValue spid = 2;</code>
+       * <code>.dstore.values.IntegerValue spid = 2;</code>
        */
       public io.dstore.values.IntegerValue getSpid() {
         if (spidBuilder_ == null) {
@@ -725,7 +725,7 @@ public final class MiDeleteFromTempdbTable {
         }
       }
       /**
-       * <code>optional .dstore.values.IntegerValue spid = 2;</code>
+       * <code>.dstore.values.IntegerValue spid = 2;</code>
        */
       public Builder setSpid(io.dstore.values.IntegerValue value) {
         if (spidBuilder_ == null) {
@@ -741,7 +741,7 @@ public final class MiDeleteFromTempdbTable {
         return this;
       }
       /**
-       * <code>optional .dstore.values.IntegerValue spid = 2;</code>
+       * <code>.dstore.values.IntegerValue spid = 2;</code>
        */
       public Builder setSpid(
           io.dstore.values.IntegerValue.Builder builderForValue) {
@@ -755,7 +755,7 @@ public final class MiDeleteFromTempdbTable {
         return this;
       }
       /**
-       * <code>optional .dstore.values.IntegerValue spid = 2;</code>
+       * <code>.dstore.values.IntegerValue spid = 2;</code>
        */
       public Builder mergeSpid(io.dstore.values.IntegerValue value) {
         if (spidBuilder_ == null) {
@@ -773,7 +773,7 @@ public final class MiDeleteFromTempdbTable {
         return this;
       }
       /**
-       * <code>optional .dstore.values.IntegerValue spid = 2;</code>
+       * <code>.dstore.values.IntegerValue spid = 2;</code>
        */
       public Builder clearSpid() {
         if (spidBuilder_ == null) {
@@ -787,7 +787,7 @@ public final class MiDeleteFromTempdbTable {
         return this;
       }
       /**
-       * <code>optional .dstore.values.IntegerValue spid = 2;</code>
+       * <code>.dstore.values.IntegerValue spid = 2;</code>
        */
       public io.dstore.values.IntegerValue.Builder getSpidBuilder() {
         
@@ -795,7 +795,7 @@ public final class MiDeleteFromTempdbTable {
         return getSpidFieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .dstore.values.IntegerValue spid = 2;</code>
+       * <code>.dstore.values.IntegerValue spid = 2;</code>
        */
       public io.dstore.values.IntegerValueOrBuilder getSpidOrBuilder() {
         if (spidBuilder_ != null) {
@@ -806,7 +806,7 @@ public final class MiDeleteFromTempdbTable {
         }
       }
       /**
-       * <code>optional .dstore.values.IntegerValue spid = 2;</code>
+       * <code>.dstore.values.IntegerValue spid = 2;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> 
@@ -824,13 +824,13 @@ public final class MiDeleteFromTempdbTable {
 
       private boolean spidNull_ ;
       /**
-       * <code>optional bool spid_null = 1002;</code>
+       * <code>bool spid_null = 1002;</code>
        */
       public boolean getSpidNull() {
         return spidNull_;
       }
       /**
-       * <code>optional bool spid_null = 1002;</code>
+       * <code>bool spid_null = 1002;</code>
        */
       public Builder setSpidNull(boolean value) {
         
@@ -839,7 +839,7 @@ public final class MiDeleteFromTempdbTable {
         return this;
       }
       /**
-       * <code>optional bool spid_null = 1002;</code>
+       * <code>bool spid_null = 1002;</code>
        */
       public Builder clearSpidNull() {
         
@@ -1098,7 +1098,7 @@ public final class MiDeleteFromTempdbTable {
         com.google.protobuf.MessageOrBuilder {
 
       /**
-       * <code>optional int32 row_id = 10000;</code>
+       * <code>int32 row_id = 10000;</code>
        */
       int getRowId();
     }
@@ -1173,7 +1173,7 @@ public final class MiDeleteFromTempdbTable {
       public static final int ROW_ID_FIELD_NUMBER = 10000;
       private int rowId_;
       /**
-       * <code>optional int32 row_id = 10000;</code>
+       * <code>int32 row_id = 10000;</code>
        */
       public int getRowId() {
         return rowId_;
@@ -1232,7 +1232,7 @@ public final class MiDeleteFromTempdbTable {
           return memoizedHashCode;
         }
         int hash = 41;
-        hash = (19 * hash) + getDescriptorForType().hashCode();
+        hash = (19 * hash) + getDescriptor().hashCode();
         hash = (37 * hash) + ROW_ID_FIELD_NUMBER;
         hash = (53 * hash) + getRowId();
         hash = (29 * hash) + unknownFields.hashCode();
@@ -1450,13 +1450,13 @@ public final class MiDeleteFromTempdbTable {
 
         private int rowId_ ;
         /**
-         * <code>optional int32 row_id = 10000;</code>
+         * <code>int32 row_id = 10000;</code>
          */
         public int getRowId() {
           return rowId_;
         }
         /**
-         * <code>optional int32 row_id = 10000;</code>
+         * <code>int32 row_id = 10000;</code>
          */
         public Builder setRowId(int value) {
           
@@ -1465,7 +1465,7 @@ public final class MiDeleteFromTempdbTable {
           return this;
         }
         /**
-         * <code>optional int32 row_id = 10000;</code>
+         * <code>int32 row_id = 10000;</code>
          */
         public Builder clearRowId() {
           
@@ -1718,7 +1718,7 @@ public final class MiDeleteFromTempdbTable {
         return memoizedHashCode;
       }
       int hash = 41;
-      hash = (19 * hash) + getDescriptorForType().hashCode();
+      hash = (19 * hash) + getDescriptor().hashCode();
       if (getMetaInformationCount() > 0) {
         hash = (37 * hash) + META_INFORMATION_FIELD_NUMBER;
         hash = (53 * hash) + getMetaInformationList().hashCode();

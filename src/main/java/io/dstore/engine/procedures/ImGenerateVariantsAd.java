@@ -19,56 +19,56 @@ public final class ImGenerateVariantsAd {
       com.google.protobuf.MessageOrBuilder {
 
     /**
-     * <code>optional .dstore.values.IntegerValue how_many_variant_characteristics = 1;</code>
+     * <code>.dstore.values.IntegerValue how_many_variant_characteristics = 1;</code>
      */
     boolean hasHowManyVariantCharacteristics();
     /**
-     * <code>optional .dstore.values.IntegerValue how_many_variant_characteristics = 1;</code>
+     * <code>.dstore.values.IntegerValue how_many_variant_characteristics = 1;</code>
      */
     io.dstore.values.IntegerValue getHowManyVariantCharacteristics();
     /**
-     * <code>optional .dstore.values.IntegerValue how_many_variant_characteristics = 1;</code>
+     * <code>.dstore.values.IntegerValue how_many_variant_characteristics = 1;</code>
      */
     io.dstore.values.IntegerValueOrBuilder getHowManyVariantCharacteristicsOrBuilder();
 
     /**
-     * <code>optional bool how_many_variant_characteristics_null = 1001;</code>
+     * <code>bool how_many_variant_characteristics_null = 1001;</code>
      */
     boolean getHowManyVariantCharacteristicsNull();
 
     /**
-     * <code>optional .dstore.values.IntegerValue predecessor = 2;</code>
+     * <code>.dstore.values.IntegerValue predecessor = 2;</code>
      */
     boolean hasPredecessor();
     /**
-     * <code>optional .dstore.values.IntegerValue predecessor = 2;</code>
+     * <code>.dstore.values.IntegerValue predecessor = 2;</code>
      */
     io.dstore.values.IntegerValue getPredecessor();
     /**
-     * <code>optional .dstore.values.IntegerValue predecessor = 2;</code>
+     * <code>.dstore.values.IntegerValue predecessor = 2;</code>
      */
     io.dstore.values.IntegerValueOrBuilder getPredecessorOrBuilder();
 
     /**
-     * <code>optional bool predecessor_null = 1002;</code>
+     * <code>bool predecessor_null = 1002;</code>
      */
     boolean getPredecessorNull();
 
     /**
-     * <code>optional .dstore.values.StringValue delimiter = 3;</code>
+     * <code>.dstore.values.StringValue delimiter = 3;</code>
      */
     boolean hasDelimiter();
     /**
-     * <code>optional .dstore.values.StringValue delimiter = 3;</code>
+     * <code>.dstore.values.StringValue delimiter = 3;</code>
      */
     io.dstore.values.StringValue getDelimiter();
     /**
-     * <code>optional .dstore.values.StringValue delimiter = 3;</code>
+     * <code>.dstore.values.StringValue delimiter = 3;</code>
      */
     io.dstore.values.StringValueOrBuilder getDelimiterOrBuilder();
 
     /**
-     * <code>optional bool delimiter_null = 1003;</code>
+     * <code>bool delimiter_null = 1003;</code>
      */
     boolean getDelimiterNull();
   }
@@ -194,19 +194,19 @@ public final class ImGenerateVariantsAd {
     public static final int HOW_MANY_VARIANT_CHARACTERISTICS_FIELD_NUMBER = 1;
     private io.dstore.values.IntegerValue howManyVariantCharacteristics_;
     /**
-     * <code>optional .dstore.values.IntegerValue how_many_variant_characteristics = 1;</code>
+     * <code>.dstore.values.IntegerValue how_many_variant_characteristics = 1;</code>
      */
     public boolean hasHowManyVariantCharacteristics() {
       return howManyVariantCharacteristics_ != null;
     }
     /**
-     * <code>optional .dstore.values.IntegerValue how_many_variant_characteristics = 1;</code>
+     * <code>.dstore.values.IntegerValue how_many_variant_characteristics = 1;</code>
      */
     public io.dstore.values.IntegerValue getHowManyVariantCharacteristics() {
       return howManyVariantCharacteristics_ == null ? io.dstore.values.IntegerValue.getDefaultInstance() : howManyVariantCharacteristics_;
     }
     /**
-     * <code>optional .dstore.values.IntegerValue how_many_variant_characteristics = 1;</code>
+     * <code>.dstore.values.IntegerValue how_many_variant_characteristics = 1;</code>
      */
     public io.dstore.values.IntegerValueOrBuilder getHowManyVariantCharacteristicsOrBuilder() {
       return getHowManyVariantCharacteristics();
@@ -215,7 +215,7 @@ public final class ImGenerateVariantsAd {
     public static final int HOW_MANY_VARIANT_CHARACTERISTICS_NULL_FIELD_NUMBER = 1001;
     private boolean howManyVariantCharacteristicsNull_;
     /**
-     * <code>optional bool how_many_variant_characteristics_null = 1001;</code>
+     * <code>bool how_many_variant_characteristics_null = 1001;</code>
      */
     public boolean getHowManyVariantCharacteristicsNull() {
       return howManyVariantCharacteristicsNull_;
@@ -224,19 +224,19 @@ public final class ImGenerateVariantsAd {
     public static final int PREDECESSOR_FIELD_NUMBER = 2;
     private io.dstore.values.IntegerValue predecessor_;
     /**
-     * <code>optional .dstore.values.IntegerValue predecessor = 2;</code>
+     * <code>.dstore.values.IntegerValue predecessor = 2;</code>
      */
     public boolean hasPredecessor() {
       return predecessor_ != null;
     }
     /**
-     * <code>optional .dstore.values.IntegerValue predecessor = 2;</code>
+     * <code>.dstore.values.IntegerValue predecessor = 2;</code>
      */
     public io.dstore.values.IntegerValue getPredecessor() {
       return predecessor_ == null ? io.dstore.values.IntegerValue.getDefaultInstance() : predecessor_;
     }
     /**
-     * <code>optional .dstore.values.IntegerValue predecessor = 2;</code>
+     * <code>.dstore.values.IntegerValue predecessor = 2;</code>
      */
     public io.dstore.values.IntegerValueOrBuilder getPredecessorOrBuilder() {
       return getPredecessor();
@@ -245,7 +245,7 @@ public final class ImGenerateVariantsAd {
     public static final int PREDECESSOR_NULL_FIELD_NUMBER = 1002;
     private boolean predecessorNull_;
     /**
-     * <code>optional bool predecessor_null = 1002;</code>
+     * <code>bool predecessor_null = 1002;</code>
      */
     public boolean getPredecessorNull() {
       return predecessorNull_;
@@ -254,19 +254,19 @@ public final class ImGenerateVariantsAd {
     public static final int DELIMITER_FIELD_NUMBER = 3;
     private io.dstore.values.StringValue delimiter_;
     /**
-     * <code>optional .dstore.values.StringValue delimiter = 3;</code>
+     * <code>.dstore.values.StringValue delimiter = 3;</code>
      */
     public boolean hasDelimiter() {
       return delimiter_ != null;
     }
     /**
-     * <code>optional .dstore.values.StringValue delimiter = 3;</code>
+     * <code>.dstore.values.StringValue delimiter = 3;</code>
      */
     public io.dstore.values.StringValue getDelimiter() {
       return delimiter_ == null ? io.dstore.values.StringValue.getDefaultInstance() : delimiter_;
     }
     /**
-     * <code>optional .dstore.values.StringValue delimiter = 3;</code>
+     * <code>.dstore.values.StringValue delimiter = 3;</code>
      */
     public io.dstore.values.StringValueOrBuilder getDelimiterOrBuilder() {
       return getDelimiter();
@@ -275,7 +275,7 @@ public final class ImGenerateVariantsAd {
     public static final int DELIMITER_NULL_FIELD_NUMBER = 1003;
     private boolean delimiterNull_;
     /**
-     * <code>optional bool delimiter_null = 1003;</code>
+     * <code>bool delimiter_null = 1003;</code>
      */
     public boolean getDelimiterNull() {
       return delimiterNull_;
@@ -388,7 +388,7 @@ public final class ImGenerateVariantsAd {
         return memoizedHashCode;
       }
       int hash = 41;
-      hash = (19 * hash) + getDescriptorForType().hashCode();
+      hash = (19 * hash) + getDescriptor().hashCode();
       if (hasHowManyVariantCharacteristics()) {
         hash = (37 * hash) + HOW_MANY_VARIANT_CHARACTERISTICS_FIELD_NUMBER;
         hash = (53 * hash) + getHowManyVariantCharacteristics().hashCode();
@@ -681,13 +681,13 @@ public final class ImGenerateVariantsAd {
       private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> howManyVariantCharacteristicsBuilder_;
       /**
-       * <code>optional .dstore.values.IntegerValue how_many_variant_characteristics = 1;</code>
+       * <code>.dstore.values.IntegerValue how_many_variant_characteristics = 1;</code>
        */
       public boolean hasHowManyVariantCharacteristics() {
         return howManyVariantCharacteristicsBuilder_ != null || howManyVariantCharacteristics_ != null;
       }
       /**
-       * <code>optional .dstore.values.IntegerValue how_many_variant_characteristics = 1;</code>
+       * <code>.dstore.values.IntegerValue how_many_variant_characteristics = 1;</code>
        */
       public io.dstore.values.IntegerValue getHowManyVariantCharacteristics() {
         if (howManyVariantCharacteristicsBuilder_ == null) {
@@ -697,7 +697,7 @@ public final class ImGenerateVariantsAd {
         }
       }
       /**
-       * <code>optional .dstore.values.IntegerValue how_many_variant_characteristics = 1;</code>
+       * <code>.dstore.values.IntegerValue how_many_variant_characteristics = 1;</code>
        */
       public Builder setHowManyVariantCharacteristics(io.dstore.values.IntegerValue value) {
         if (howManyVariantCharacteristicsBuilder_ == null) {
@@ -713,7 +713,7 @@ public final class ImGenerateVariantsAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.IntegerValue how_many_variant_characteristics = 1;</code>
+       * <code>.dstore.values.IntegerValue how_many_variant_characteristics = 1;</code>
        */
       public Builder setHowManyVariantCharacteristics(
           io.dstore.values.IntegerValue.Builder builderForValue) {
@@ -727,7 +727,7 @@ public final class ImGenerateVariantsAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.IntegerValue how_many_variant_characteristics = 1;</code>
+       * <code>.dstore.values.IntegerValue how_many_variant_characteristics = 1;</code>
        */
       public Builder mergeHowManyVariantCharacteristics(io.dstore.values.IntegerValue value) {
         if (howManyVariantCharacteristicsBuilder_ == null) {
@@ -745,7 +745,7 @@ public final class ImGenerateVariantsAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.IntegerValue how_many_variant_characteristics = 1;</code>
+       * <code>.dstore.values.IntegerValue how_many_variant_characteristics = 1;</code>
        */
       public Builder clearHowManyVariantCharacteristics() {
         if (howManyVariantCharacteristicsBuilder_ == null) {
@@ -759,7 +759,7 @@ public final class ImGenerateVariantsAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.IntegerValue how_many_variant_characteristics = 1;</code>
+       * <code>.dstore.values.IntegerValue how_many_variant_characteristics = 1;</code>
        */
       public io.dstore.values.IntegerValue.Builder getHowManyVariantCharacteristicsBuilder() {
         
@@ -767,7 +767,7 @@ public final class ImGenerateVariantsAd {
         return getHowManyVariantCharacteristicsFieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .dstore.values.IntegerValue how_many_variant_characteristics = 1;</code>
+       * <code>.dstore.values.IntegerValue how_many_variant_characteristics = 1;</code>
        */
       public io.dstore.values.IntegerValueOrBuilder getHowManyVariantCharacteristicsOrBuilder() {
         if (howManyVariantCharacteristicsBuilder_ != null) {
@@ -778,7 +778,7 @@ public final class ImGenerateVariantsAd {
         }
       }
       /**
-       * <code>optional .dstore.values.IntegerValue how_many_variant_characteristics = 1;</code>
+       * <code>.dstore.values.IntegerValue how_many_variant_characteristics = 1;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> 
@@ -796,13 +796,13 @@ public final class ImGenerateVariantsAd {
 
       private boolean howManyVariantCharacteristicsNull_ ;
       /**
-       * <code>optional bool how_many_variant_characteristics_null = 1001;</code>
+       * <code>bool how_many_variant_characteristics_null = 1001;</code>
        */
       public boolean getHowManyVariantCharacteristicsNull() {
         return howManyVariantCharacteristicsNull_;
       }
       /**
-       * <code>optional bool how_many_variant_characteristics_null = 1001;</code>
+       * <code>bool how_many_variant_characteristics_null = 1001;</code>
        */
       public Builder setHowManyVariantCharacteristicsNull(boolean value) {
         
@@ -811,7 +811,7 @@ public final class ImGenerateVariantsAd {
         return this;
       }
       /**
-       * <code>optional bool how_many_variant_characteristics_null = 1001;</code>
+       * <code>bool how_many_variant_characteristics_null = 1001;</code>
        */
       public Builder clearHowManyVariantCharacteristicsNull() {
         
@@ -824,13 +824,13 @@ public final class ImGenerateVariantsAd {
       private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> predecessorBuilder_;
       /**
-       * <code>optional .dstore.values.IntegerValue predecessor = 2;</code>
+       * <code>.dstore.values.IntegerValue predecessor = 2;</code>
        */
       public boolean hasPredecessor() {
         return predecessorBuilder_ != null || predecessor_ != null;
       }
       /**
-       * <code>optional .dstore.values.IntegerValue predecessor = 2;</code>
+       * <code>.dstore.values.IntegerValue predecessor = 2;</code>
        */
       public io.dstore.values.IntegerValue getPredecessor() {
         if (predecessorBuilder_ == null) {
@@ -840,7 +840,7 @@ public final class ImGenerateVariantsAd {
         }
       }
       /**
-       * <code>optional .dstore.values.IntegerValue predecessor = 2;</code>
+       * <code>.dstore.values.IntegerValue predecessor = 2;</code>
        */
       public Builder setPredecessor(io.dstore.values.IntegerValue value) {
         if (predecessorBuilder_ == null) {
@@ -856,7 +856,7 @@ public final class ImGenerateVariantsAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.IntegerValue predecessor = 2;</code>
+       * <code>.dstore.values.IntegerValue predecessor = 2;</code>
        */
       public Builder setPredecessor(
           io.dstore.values.IntegerValue.Builder builderForValue) {
@@ -870,7 +870,7 @@ public final class ImGenerateVariantsAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.IntegerValue predecessor = 2;</code>
+       * <code>.dstore.values.IntegerValue predecessor = 2;</code>
        */
       public Builder mergePredecessor(io.dstore.values.IntegerValue value) {
         if (predecessorBuilder_ == null) {
@@ -888,7 +888,7 @@ public final class ImGenerateVariantsAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.IntegerValue predecessor = 2;</code>
+       * <code>.dstore.values.IntegerValue predecessor = 2;</code>
        */
       public Builder clearPredecessor() {
         if (predecessorBuilder_ == null) {
@@ -902,7 +902,7 @@ public final class ImGenerateVariantsAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.IntegerValue predecessor = 2;</code>
+       * <code>.dstore.values.IntegerValue predecessor = 2;</code>
        */
       public io.dstore.values.IntegerValue.Builder getPredecessorBuilder() {
         
@@ -910,7 +910,7 @@ public final class ImGenerateVariantsAd {
         return getPredecessorFieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .dstore.values.IntegerValue predecessor = 2;</code>
+       * <code>.dstore.values.IntegerValue predecessor = 2;</code>
        */
       public io.dstore.values.IntegerValueOrBuilder getPredecessorOrBuilder() {
         if (predecessorBuilder_ != null) {
@@ -921,7 +921,7 @@ public final class ImGenerateVariantsAd {
         }
       }
       /**
-       * <code>optional .dstore.values.IntegerValue predecessor = 2;</code>
+       * <code>.dstore.values.IntegerValue predecessor = 2;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> 
@@ -939,13 +939,13 @@ public final class ImGenerateVariantsAd {
 
       private boolean predecessorNull_ ;
       /**
-       * <code>optional bool predecessor_null = 1002;</code>
+       * <code>bool predecessor_null = 1002;</code>
        */
       public boolean getPredecessorNull() {
         return predecessorNull_;
       }
       /**
-       * <code>optional bool predecessor_null = 1002;</code>
+       * <code>bool predecessor_null = 1002;</code>
        */
       public Builder setPredecessorNull(boolean value) {
         
@@ -954,7 +954,7 @@ public final class ImGenerateVariantsAd {
         return this;
       }
       /**
-       * <code>optional bool predecessor_null = 1002;</code>
+       * <code>bool predecessor_null = 1002;</code>
        */
       public Builder clearPredecessorNull() {
         
@@ -967,13 +967,13 @@ public final class ImGenerateVariantsAd {
       private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.values.StringValue, io.dstore.values.StringValue.Builder, io.dstore.values.StringValueOrBuilder> delimiterBuilder_;
       /**
-       * <code>optional .dstore.values.StringValue delimiter = 3;</code>
+       * <code>.dstore.values.StringValue delimiter = 3;</code>
        */
       public boolean hasDelimiter() {
         return delimiterBuilder_ != null || delimiter_ != null;
       }
       /**
-       * <code>optional .dstore.values.StringValue delimiter = 3;</code>
+       * <code>.dstore.values.StringValue delimiter = 3;</code>
        */
       public io.dstore.values.StringValue getDelimiter() {
         if (delimiterBuilder_ == null) {
@@ -983,7 +983,7 @@ public final class ImGenerateVariantsAd {
         }
       }
       /**
-       * <code>optional .dstore.values.StringValue delimiter = 3;</code>
+       * <code>.dstore.values.StringValue delimiter = 3;</code>
        */
       public Builder setDelimiter(io.dstore.values.StringValue value) {
         if (delimiterBuilder_ == null) {
@@ -999,7 +999,7 @@ public final class ImGenerateVariantsAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.StringValue delimiter = 3;</code>
+       * <code>.dstore.values.StringValue delimiter = 3;</code>
        */
       public Builder setDelimiter(
           io.dstore.values.StringValue.Builder builderForValue) {
@@ -1013,7 +1013,7 @@ public final class ImGenerateVariantsAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.StringValue delimiter = 3;</code>
+       * <code>.dstore.values.StringValue delimiter = 3;</code>
        */
       public Builder mergeDelimiter(io.dstore.values.StringValue value) {
         if (delimiterBuilder_ == null) {
@@ -1031,7 +1031,7 @@ public final class ImGenerateVariantsAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.StringValue delimiter = 3;</code>
+       * <code>.dstore.values.StringValue delimiter = 3;</code>
        */
       public Builder clearDelimiter() {
         if (delimiterBuilder_ == null) {
@@ -1045,7 +1045,7 @@ public final class ImGenerateVariantsAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.StringValue delimiter = 3;</code>
+       * <code>.dstore.values.StringValue delimiter = 3;</code>
        */
       public io.dstore.values.StringValue.Builder getDelimiterBuilder() {
         
@@ -1053,7 +1053,7 @@ public final class ImGenerateVariantsAd {
         return getDelimiterFieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .dstore.values.StringValue delimiter = 3;</code>
+       * <code>.dstore.values.StringValue delimiter = 3;</code>
        */
       public io.dstore.values.StringValueOrBuilder getDelimiterOrBuilder() {
         if (delimiterBuilder_ != null) {
@@ -1064,7 +1064,7 @@ public final class ImGenerateVariantsAd {
         }
       }
       /**
-       * <code>optional .dstore.values.StringValue delimiter = 3;</code>
+       * <code>.dstore.values.StringValue delimiter = 3;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.values.StringValue, io.dstore.values.StringValue.Builder, io.dstore.values.StringValueOrBuilder> 
@@ -1082,13 +1082,13 @@ public final class ImGenerateVariantsAd {
 
       private boolean delimiterNull_ ;
       /**
-       * <code>optional bool delimiter_null = 1003;</code>
+       * <code>bool delimiter_null = 1003;</code>
        */
       public boolean getDelimiterNull() {
         return delimiterNull_;
       }
       /**
-       * <code>optional bool delimiter_null = 1003;</code>
+       * <code>bool delimiter_null = 1003;</code>
        */
       public Builder setDelimiterNull(boolean value) {
         
@@ -1097,7 +1097,7 @@ public final class ImGenerateVariantsAd {
         return this;
       }
       /**
-       * <code>optional bool delimiter_null = 1003;</code>
+       * <code>bool delimiter_null = 1003;</code>
        */
       public Builder clearDelimiterNull() {
         
@@ -1356,7 +1356,7 @@ public final class ImGenerateVariantsAd {
         com.google.protobuf.MessageOrBuilder {
 
       /**
-       * <code>optional int32 row_id = 10000;</code>
+       * <code>int32 row_id = 10000;</code>
        */
       int getRowId();
     }
@@ -1431,7 +1431,7 @@ public final class ImGenerateVariantsAd {
       public static final int ROW_ID_FIELD_NUMBER = 10000;
       private int rowId_;
       /**
-       * <code>optional int32 row_id = 10000;</code>
+       * <code>int32 row_id = 10000;</code>
        */
       public int getRowId() {
         return rowId_;
@@ -1490,7 +1490,7 @@ public final class ImGenerateVariantsAd {
           return memoizedHashCode;
         }
         int hash = 41;
-        hash = (19 * hash) + getDescriptorForType().hashCode();
+        hash = (19 * hash) + getDescriptor().hashCode();
         hash = (37 * hash) + ROW_ID_FIELD_NUMBER;
         hash = (53 * hash) + getRowId();
         hash = (29 * hash) + unknownFields.hashCode();
@@ -1708,13 +1708,13 @@ public final class ImGenerateVariantsAd {
 
         private int rowId_ ;
         /**
-         * <code>optional int32 row_id = 10000;</code>
+         * <code>int32 row_id = 10000;</code>
          */
         public int getRowId() {
           return rowId_;
         }
         /**
-         * <code>optional int32 row_id = 10000;</code>
+         * <code>int32 row_id = 10000;</code>
          */
         public Builder setRowId(int value) {
           
@@ -1723,7 +1723,7 @@ public final class ImGenerateVariantsAd {
           return this;
         }
         /**
-         * <code>optional int32 row_id = 10000;</code>
+         * <code>int32 row_id = 10000;</code>
          */
         public Builder clearRowId() {
           
@@ -1976,7 +1976,7 @@ public final class ImGenerateVariantsAd {
         return memoizedHashCode;
       }
       int hash = 41;
-      hash = (19 * hash) + getDescriptorForType().hashCode();
+      hash = (19 * hash) + getDescriptor().hashCode();
       if (getMetaInformationCount() > 0) {
         hash = (37 * hash) + META_INFORMATION_FIELD_NUMBER;
         hash = (53 * hash) + getMetaInformationList().hashCode();

@@ -19,74 +19,74 @@ public final class OmModifySurchargeTypeCatsAd {
       com.google.protobuf.MessageOrBuilder {
 
     /**
-     * <code>optional .dstore.values.IntegerValue category_id = 1;</code>
+     * <code>.dstore.values.IntegerValue category_id = 1;</code>
      */
     boolean hasCategoryId();
     /**
-     * <code>optional .dstore.values.IntegerValue category_id = 1;</code>
+     * <code>.dstore.values.IntegerValue category_id = 1;</code>
      */
     io.dstore.values.IntegerValue getCategoryId();
     /**
-     * <code>optional .dstore.values.IntegerValue category_id = 1;</code>
+     * <code>.dstore.values.IntegerValue category_id = 1;</code>
      */
     io.dstore.values.IntegerValueOrBuilder getCategoryIdOrBuilder();
 
     /**
-     * <code>optional bool category_id_null = 1001;</code>
+     * <code>bool category_id_null = 1001;</code>
      */
     boolean getCategoryIdNull();
 
     /**
-     * <code>optional .dstore.values.StringValue category_description = 2;</code>
+     * <code>.dstore.values.StringValue category_description = 2;</code>
      */
     boolean hasCategoryDescription();
     /**
-     * <code>optional .dstore.values.StringValue category_description = 2;</code>
+     * <code>.dstore.values.StringValue category_description = 2;</code>
      */
     io.dstore.values.StringValue getCategoryDescription();
     /**
-     * <code>optional .dstore.values.StringValue category_description = 2;</code>
+     * <code>.dstore.values.StringValue category_description = 2;</code>
      */
     io.dstore.values.StringValueOrBuilder getCategoryDescriptionOrBuilder();
 
     /**
-     * <code>optional bool category_description_null = 1002;</code>
+     * <code>bool category_description_null = 1002;</code>
      */
     boolean getCategoryDescriptionNull();
 
     /**
-     * <code>optional .dstore.values.IntegerValue priority_no = 3;</code>
+     * <code>.dstore.values.IntegerValue priority_no = 3;</code>
      */
     boolean hasPriorityNo();
     /**
-     * <code>optional .dstore.values.IntegerValue priority_no = 3;</code>
+     * <code>.dstore.values.IntegerValue priority_no = 3;</code>
      */
     io.dstore.values.IntegerValue getPriorityNo();
     /**
-     * <code>optional .dstore.values.IntegerValue priority_no = 3;</code>
+     * <code>.dstore.values.IntegerValue priority_no = 3;</code>
      */
     io.dstore.values.IntegerValueOrBuilder getPriorityNoOrBuilder();
 
     /**
-     * <code>optional bool priority_no_null = 1003;</code>
+     * <code>bool priority_no_null = 1003;</code>
      */
     boolean getPriorityNoNull();
 
     /**
-     * <code>optional .dstore.values.BooleanValue delete = 4;</code>
+     * <code>.dstore.values.BooleanValue delete = 4;</code>
      */
     boolean hasDelete();
     /**
-     * <code>optional .dstore.values.BooleanValue delete = 4;</code>
+     * <code>.dstore.values.BooleanValue delete = 4;</code>
      */
     io.dstore.values.BooleanValue getDelete();
     /**
-     * <code>optional .dstore.values.BooleanValue delete = 4;</code>
+     * <code>.dstore.values.BooleanValue delete = 4;</code>
      */
     io.dstore.values.BooleanValueOrBuilder getDeleteOrBuilder();
 
     /**
-     * <code>optional bool delete_null = 1004;</code>
+     * <code>bool delete_null = 1004;</code>
      */
     boolean getDeleteNull();
   }
@@ -231,19 +231,19 @@ public final class OmModifySurchargeTypeCatsAd {
     public static final int CATEGORY_ID_FIELD_NUMBER = 1;
     private io.dstore.values.IntegerValue categoryId_;
     /**
-     * <code>optional .dstore.values.IntegerValue category_id = 1;</code>
+     * <code>.dstore.values.IntegerValue category_id = 1;</code>
      */
     public boolean hasCategoryId() {
       return categoryId_ != null;
     }
     /**
-     * <code>optional .dstore.values.IntegerValue category_id = 1;</code>
+     * <code>.dstore.values.IntegerValue category_id = 1;</code>
      */
     public io.dstore.values.IntegerValue getCategoryId() {
       return categoryId_ == null ? io.dstore.values.IntegerValue.getDefaultInstance() : categoryId_;
     }
     /**
-     * <code>optional .dstore.values.IntegerValue category_id = 1;</code>
+     * <code>.dstore.values.IntegerValue category_id = 1;</code>
      */
     public io.dstore.values.IntegerValueOrBuilder getCategoryIdOrBuilder() {
       return getCategoryId();
@@ -252,7 +252,7 @@ public final class OmModifySurchargeTypeCatsAd {
     public static final int CATEGORY_ID_NULL_FIELD_NUMBER = 1001;
     private boolean categoryIdNull_;
     /**
-     * <code>optional bool category_id_null = 1001;</code>
+     * <code>bool category_id_null = 1001;</code>
      */
     public boolean getCategoryIdNull() {
       return categoryIdNull_;
@@ -261,19 +261,19 @@ public final class OmModifySurchargeTypeCatsAd {
     public static final int CATEGORY_DESCRIPTION_FIELD_NUMBER = 2;
     private io.dstore.values.StringValue categoryDescription_;
     /**
-     * <code>optional .dstore.values.StringValue category_description = 2;</code>
+     * <code>.dstore.values.StringValue category_description = 2;</code>
      */
     public boolean hasCategoryDescription() {
       return categoryDescription_ != null;
     }
     /**
-     * <code>optional .dstore.values.StringValue category_description = 2;</code>
+     * <code>.dstore.values.StringValue category_description = 2;</code>
      */
     public io.dstore.values.StringValue getCategoryDescription() {
       return categoryDescription_ == null ? io.dstore.values.StringValue.getDefaultInstance() : categoryDescription_;
     }
     /**
-     * <code>optional .dstore.values.StringValue category_description = 2;</code>
+     * <code>.dstore.values.StringValue category_description = 2;</code>
      */
     public io.dstore.values.StringValueOrBuilder getCategoryDescriptionOrBuilder() {
       return getCategoryDescription();
@@ -282,7 +282,7 @@ public final class OmModifySurchargeTypeCatsAd {
     public static final int CATEGORY_DESCRIPTION_NULL_FIELD_NUMBER = 1002;
     private boolean categoryDescriptionNull_;
     /**
-     * <code>optional bool category_description_null = 1002;</code>
+     * <code>bool category_description_null = 1002;</code>
      */
     public boolean getCategoryDescriptionNull() {
       return categoryDescriptionNull_;
@@ -291,19 +291,19 @@ public final class OmModifySurchargeTypeCatsAd {
     public static final int PRIORITY_NO_FIELD_NUMBER = 3;
     private io.dstore.values.IntegerValue priorityNo_;
     /**
-     * <code>optional .dstore.values.IntegerValue priority_no = 3;</code>
+     * <code>.dstore.values.IntegerValue priority_no = 3;</code>
      */
     public boolean hasPriorityNo() {
       return priorityNo_ != null;
     }
     /**
-     * <code>optional .dstore.values.IntegerValue priority_no = 3;</code>
+     * <code>.dstore.values.IntegerValue priority_no = 3;</code>
      */
     public io.dstore.values.IntegerValue getPriorityNo() {
       return priorityNo_ == null ? io.dstore.values.IntegerValue.getDefaultInstance() : priorityNo_;
     }
     /**
-     * <code>optional .dstore.values.IntegerValue priority_no = 3;</code>
+     * <code>.dstore.values.IntegerValue priority_no = 3;</code>
      */
     public io.dstore.values.IntegerValueOrBuilder getPriorityNoOrBuilder() {
       return getPriorityNo();
@@ -312,7 +312,7 @@ public final class OmModifySurchargeTypeCatsAd {
     public static final int PRIORITY_NO_NULL_FIELD_NUMBER = 1003;
     private boolean priorityNoNull_;
     /**
-     * <code>optional bool priority_no_null = 1003;</code>
+     * <code>bool priority_no_null = 1003;</code>
      */
     public boolean getPriorityNoNull() {
       return priorityNoNull_;
@@ -321,19 +321,19 @@ public final class OmModifySurchargeTypeCatsAd {
     public static final int DELETE_FIELD_NUMBER = 4;
     private io.dstore.values.BooleanValue delete_;
     /**
-     * <code>optional .dstore.values.BooleanValue delete = 4;</code>
+     * <code>.dstore.values.BooleanValue delete = 4;</code>
      */
     public boolean hasDelete() {
       return delete_ != null;
     }
     /**
-     * <code>optional .dstore.values.BooleanValue delete = 4;</code>
+     * <code>.dstore.values.BooleanValue delete = 4;</code>
      */
     public io.dstore.values.BooleanValue getDelete() {
       return delete_ == null ? io.dstore.values.BooleanValue.getDefaultInstance() : delete_;
     }
     /**
-     * <code>optional .dstore.values.BooleanValue delete = 4;</code>
+     * <code>.dstore.values.BooleanValue delete = 4;</code>
      */
     public io.dstore.values.BooleanValueOrBuilder getDeleteOrBuilder() {
       return getDelete();
@@ -342,7 +342,7 @@ public final class OmModifySurchargeTypeCatsAd {
     public static final int DELETE_NULL_FIELD_NUMBER = 1004;
     private boolean deleteNull_;
     /**
-     * <code>optional bool delete_null = 1004;</code>
+     * <code>bool delete_null = 1004;</code>
      */
     public boolean getDeleteNull() {
       return deleteNull_;
@@ -476,7 +476,7 @@ public final class OmModifySurchargeTypeCatsAd {
         return memoizedHashCode;
       }
       int hash = 41;
-      hash = (19 * hash) + getDescriptorForType().hashCode();
+      hash = (19 * hash) + getDescriptor().hashCode();
       if (hasCategoryId()) {
         hash = (37 * hash) + CATEGORY_ID_FIELD_NUMBER;
         hash = (53 * hash) + getCategoryId().hashCode();
@@ -796,13 +796,13 @@ public final class OmModifySurchargeTypeCatsAd {
       private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> categoryIdBuilder_;
       /**
-       * <code>optional .dstore.values.IntegerValue category_id = 1;</code>
+       * <code>.dstore.values.IntegerValue category_id = 1;</code>
        */
       public boolean hasCategoryId() {
         return categoryIdBuilder_ != null || categoryId_ != null;
       }
       /**
-       * <code>optional .dstore.values.IntegerValue category_id = 1;</code>
+       * <code>.dstore.values.IntegerValue category_id = 1;</code>
        */
       public io.dstore.values.IntegerValue getCategoryId() {
         if (categoryIdBuilder_ == null) {
@@ -812,7 +812,7 @@ public final class OmModifySurchargeTypeCatsAd {
         }
       }
       /**
-       * <code>optional .dstore.values.IntegerValue category_id = 1;</code>
+       * <code>.dstore.values.IntegerValue category_id = 1;</code>
        */
       public Builder setCategoryId(io.dstore.values.IntegerValue value) {
         if (categoryIdBuilder_ == null) {
@@ -828,7 +828,7 @@ public final class OmModifySurchargeTypeCatsAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.IntegerValue category_id = 1;</code>
+       * <code>.dstore.values.IntegerValue category_id = 1;</code>
        */
       public Builder setCategoryId(
           io.dstore.values.IntegerValue.Builder builderForValue) {
@@ -842,7 +842,7 @@ public final class OmModifySurchargeTypeCatsAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.IntegerValue category_id = 1;</code>
+       * <code>.dstore.values.IntegerValue category_id = 1;</code>
        */
       public Builder mergeCategoryId(io.dstore.values.IntegerValue value) {
         if (categoryIdBuilder_ == null) {
@@ -860,7 +860,7 @@ public final class OmModifySurchargeTypeCatsAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.IntegerValue category_id = 1;</code>
+       * <code>.dstore.values.IntegerValue category_id = 1;</code>
        */
       public Builder clearCategoryId() {
         if (categoryIdBuilder_ == null) {
@@ -874,7 +874,7 @@ public final class OmModifySurchargeTypeCatsAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.IntegerValue category_id = 1;</code>
+       * <code>.dstore.values.IntegerValue category_id = 1;</code>
        */
       public io.dstore.values.IntegerValue.Builder getCategoryIdBuilder() {
         
@@ -882,7 +882,7 @@ public final class OmModifySurchargeTypeCatsAd {
         return getCategoryIdFieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .dstore.values.IntegerValue category_id = 1;</code>
+       * <code>.dstore.values.IntegerValue category_id = 1;</code>
        */
       public io.dstore.values.IntegerValueOrBuilder getCategoryIdOrBuilder() {
         if (categoryIdBuilder_ != null) {
@@ -893,7 +893,7 @@ public final class OmModifySurchargeTypeCatsAd {
         }
       }
       /**
-       * <code>optional .dstore.values.IntegerValue category_id = 1;</code>
+       * <code>.dstore.values.IntegerValue category_id = 1;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> 
@@ -911,13 +911,13 @@ public final class OmModifySurchargeTypeCatsAd {
 
       private boolean categoryIdNull_ ;
       /**
-       * <code>optional bool category_id_null = 1001;</code>
+       * <code>bool category_id_null = 1001;</code>
        */
       public boolean getCategoryIdNull() {
         return categoryIdNull_;
       }
       /**
-       * <code>optional bool category_id_null = 1001;</code>
+       * <code>bool category_id_null = 1001;</code>
        */
       public Builder setCategoryIdNull(boolean value) {
         
@@ -926,7 +926,7 @@ public final class OmModifySurchargeTypeCatsAd {
         return this;
       }
       /**
-       * <code>optional bool category_id_null = 1001;</code>
+       * <code>bool category_id_null = 1001;</code>
        */
       public Builder clearCategoryIdNull() {
         
@@ -939,13 +939,13 @@ public final class OmModifySurchargeTypeCatsAd {
       private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.values.StringValue, io.dstore.values.StringValue.Builder, io.dstore.values.StringValueOrBuilder> categoryDescriptionBuilder_;
       /**
-       * <code>optional .dstore.values.StringValue category_description = 2;</code>
+       * <code>.dstore.values.StringValue category_description = 2;</code>
        */
       public boolean hasCategoryDescription() {
         return categoryDescriptionBuilder_ != null || categoryDescription_ != null;
       }
       /**
-       * <code>optional .dstore.values.StringValue category_description = 2;</code>
+       * <code>.dstore.values.StringValue category_description = 2;</code>
        */
       public io.dstore.values.StringValue getCategoryDescription() {
         if (categoryDescriptionBuilder_ == null) {
@@ -955,7 +955,7 @@ public final class OmModifySurchargeTypeCatsAd {
         }
       }
       /**
-       * <code>optional .dstore.values.StringValue category_description = 2;</code>
+       * <code>.dstore.values.StringValue category_description = 2;</code>
        */
       public Builder setCategoryDescription(io.dstore.values.StringValue value) {
         if (categoryDescriptionBuilder_ == null) {
@@ -971,7 +971,7 @@ public final class OmModifySurchargeTypeCatsAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.StringValue category_description = 2;</code>
+       * <code>.dstore.values.StringValue category_description = 2;</code>
        */
       public Builder setCategoryDescription(
           io.dstore.values.StringValue.Builder builderForValue) {
@@ -985,7 +985,7 @@ public final class OmModifySurchargeTypeCatsAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.StringValue category_description = 2;</code>
+       * <code>.dstore.values.StringValue category_description = 2;</code>
        */
       public Builder mergeCategoryDescription(io.dstore.values.StringValue value) {
         if (categoryDescriptionBuilder_ == null) {
@@ -1003,7 +1003,7 @@ public final class OmModifySurchargeTypeCatsAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.StringValue category_description = 2;</code>
+       * <code>.dstore.values.StringValue category_description = 2;</code>
        */
       public Builder clearCategoryDescription() {
         if (categoryDescriptionBuilder_ == null) {
@@ -1017,7 +1017,7 @@ public final class OmModifySurchargeTypeCatsAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.StringValue category_description = 2;</code>
+       * <code>.dstore.values.StringValue category_description = 2;</code>
        */
       public io.dstore.values.StringValue.Builder getCategoryDescriptionBuilder() {
         
@@ -1025,7 +1025,7 @@ public final class OmModifySurchargeTypeCatsAd {
         return getCategoryDescriptionFieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .dstore.values.StringValue category_description = 2;</code>
+       * <code>.dstore.values.StringValue category_description = 2;</code>
        */
       public io.dstore.values.StringValueOrBuilder getCategoryDescriptionOrBuilder() {
         if (categoryDescriptionBuilder_ != null) {
@@ -1036,7 +1036,7 @@ public final class OmModifySurchargeTypeCatsAd {
         }
       }
       /**
-       * <code>optional .dstore.values.StringValue category_description = 2;</code>
+       * <code>.dstore.values.StringValue category_description = 2;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.values.StringValue, io.dstore.values.StringValue.Builder, io.dstore.values.StringValueOrBuilder> 
@@ -1054,13 +1054,13 @@ public final class OmModifySurchargeTypeCatsAd {
 
       private boolean categoryDescriptionNull_ ;
       /**
-       * <code>optional bool category_description_null = 1002;</code>
+       * <code>bool category_description_null = 1002;</code>
        */
       public boolean getCategoryDescriptionNull() {
         return categoryDescriptionNull_;
       }
       /**
-       * <code>optional bool category_description_null = 1002;</code>
+       * <code>bool category_description_null = 1002;</code>
        */
       public Builder setCategoryDescriptionNull(boolean value) {
         
@@ -1069,7 +1069,7 @@ public final class OmModifySurchargeTypeCatsAd {
         return this;
       }
       /**
-       * <code>optional bool category_description_null = 1002;</code>
+       * <code>bool category_description_null = 1002;</code>
        */
       public Builder clearCategoryDescriptionNull() {
         
@@ -1082,13 +1082,13 @@ public final class OmModifySurchargeTypeCatsAd {
       private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> priorityNoBuilder_;
       /**
-       * <code>optional .dstore.values.IntegerValue priority_no = 3;</code>
+       * <code>.dstore.values.IntegerValue priority_no = 3;</code>
        */
       public boolean hasPriorityNo() {
         return priorityNoBuilder_ != null || priorityNo_ != null;
       }
       /**
-       * <code>optional .dstore.values.IntegerValue priority_no = 3;</code>
+       * <code>.dstore.values.IntegerValue priority_no = 3;</code>
        */
       public io.dstore.values.IntegerValue getPriorityNo() {
         if (priorityNoBuilder_ == null) {
@@ -1098,7 +1098,7 @@ public final class OmModifySurchargeTypeCatsAd {
         }
       }
       /**
-       * <code>optional .dstore.values.IntegerValue priority_no = 3;</code>
+       * <code>.dstore.values.IntegerValue priority_no = 3;</code>
        */
       public Builder setPriorityNo(io.dstore.values.IntegerValue value) {
         if (priorityNoBuilder_ == null) {
@@ -1114,7 +1114,7 @@ public final class OmModifySurchargeTypeCatsAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.IntegerValue priority_no = 3;</code>
+       * <code>.dstore.values.IntegerValue priority_no = 3;</code>
        */
       public Builder setPriorityNo(
           io.dstore.values.IntegerValue.Builder builderForValue) {
@@ -1128,7 +1128,7 @@ public final class OmModifySurchargeTypeCatsAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.IntegerValue priority_no = 3;</code>
+       * <code>.dstore.values.IntegerValue priority_no = 3;</code>
        */
       public Builder mergePriorityNo(io.dstore.values.IntegerValue value) {
         if (priorityNoBuilder_ == null) {
@@ -1146,7 +1146,7 @@ public final class OmModifySurchargeTypeCatsAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.IntegerValue priority_no = 3;</code>
+       * <code>.dstore.values.IntegerValue priority_no = 3;</code>
        */
       public Builder clearPriorityNo() {
         if (priorityNoBuilder_ == null) {
@@ -1160,7 +1160,7 @@ public final class OmModifySurchargeTypeCatsAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.IntegerValue priority_no = 3;</code>
+       * <code>.dstore.values.IntegerValue priority_no = 3;</code>
        */
       public io.dstore.values.IntegerValue.Builder getPriorityNoBuilder() {
         
@@ -1168,7 +1168,7 @@ public final class OmModifySurchargeTypeCatsAd {
         return getPriorityNoFieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .dstore.values.IntegerValue priority_no = 3;</code>
+       * <code>.dstore.values.IntegerValue priority_no = 3;</code>
        */
       public io.dstore.values.IntegerValueOrBuilder getPriorityNoOrBuilder() {
         if (priorityNoBuilder_ != null) {
@@ -1179,7 +1179,7 @@ public final class OmModifySurchargeTypeCatsAd {
         }
       }
       /**
-       * <code>optional .dstore.values.IntegerValue priority_no = 3;</code>
+       * <code>.dstore.values.IntegerValue priority_no = 3;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> 
@@ -1197,13 +1197,13 @@ public final class OmModifySurchargeTypeCatsAd {
 
       private boolean priorityNoNull_ ;
       /**
-       * <code>optional bool priority_no_null = 1003;</code>
+       * <code>bool priority_no_null = 1003;</code>
        */
       public boolean getPriorityNoNull() {
         return priorityNoNull_;
       }
       /**
-       * <code>optional bool priority_no_null = 1003;</code>
+       * <code>bool priority_no_null = 1003;</code>
        */
       public Builder setPriorityNoNull(boolean value) {
         
@@ -1212,7 +1212,7 @@ public final class OmModifySurchargeTypeCatsAd {
         return this;
       }
       /**
-       * <code>optional bool priority_no_null = 1003;</code>
+       * <code>bool priority_no_null = 1003;</code>
        */
       public Builder clearPriorityNoNull() {
         
@@ -1225,13 +1225,13 @@ public final class OmModifySurchargeTypeCatsAd {
       private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.values.BooleanValue, io.dstore.values.BooleanValue.Builder, io.dstore.values.BooleanValueOrBuilder> deleteBuilder_;
       /**
-       * <code>optional .dstore.values.BooleanValue delete = 4;</code>
+       * <code>.dstore.values.BooleanValue delete = 4;</code>
        */
       public boolean hasDelete() {
         return deleteBuilder_ != null || delete_ != null;
       }
       /**
-       * <code>optional .dstore.values.BooleanValue delete = 4;</code>
+       * <code>.dstore.values.BooleanValue delete = 4;</code>
        */
       public io.dstore.values.BooleanValue getDelete() {
         if (deleteBuilder_ == null) {
@@ -1241,7 +1241,7 @@ public final class OmModifySurchargeTypeCatsAd {
         }
       }
       /**
-       * <code>optional .dstore.values.BooleanValue delete = 4;</code>
+       * <code>.dstore.values.BooleanValue delete = 4;</code>
        */
       public Builder setDelete(io.dstore.values.BooleanValue value) {
         if (deleteBuilder_ == null) {
@@ -1257,7 +1257,7 @@ public final class OmModifySurchargeTypeCatsAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.BooleanValue delete = 4;</code>
+       * <code>.dstore.values.BooleanValue delete = 4;</code>
        */
       public Builder setDelete(
           io.dstore.values.BooleanValue.Builder builderForValue) {
@@ -1271,7 +1271,7 @@ public final class OmModifySurchargeTypeCatsAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.BooleanValue delete = 4;</code>
+       * <code>.dstore.values.BooleanValue delete = 4;</code>
        */
       public Builder mergeDelete(io.dstore.values.BooleanValue value) {
         if (deleteBuilder_ == null) {
@@ -1289,7 +1289,7 @@ public final class OmModifySurchargeTypeCatsAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.BooleanValue delete = 4;</code>
+       * <code>.dstore.values.BooleanValue delete = 4;</code>
        */
       public Builder clearDelete() {
         if (deleteBuilder_ == null) {
@@ -1303,7 +1303,7 @@ public final class OmModifySurchargeTypeCatsAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.BooleanValue delete = 4;</code>
+       * <code>.dstore.values.BooleanValue delete = 4;</code>
        */
       public io.dstore.values.BooleanValue.Builder getDeleteBuilder() {
         
@@ -1311,7 +1311,7 @@ public final class OmModifySurchargeTypeCatsAd {
         return getDeleteFieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .dstore.values.BooleanValue delete = 4;</code>
+       * <code>.dstore.values.BooleanValue delete = 4;</code>
        */
       public io.dstore.values.BooleanValueOrBuilder getDeleteOrBuilder() {
         if (deleteBuilder_ != null) {
@@ -1322,7 +1322,7 @@ public final class OmModifySurchargeTypeCatsAd {
         }
       }
       /**
-       * <code>optional .dstore.values.BooleanValue delete = 4;</code>
+       * <code>.dstore.values.BooleanValue delete = 4;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.values.BooleanValue, io.dstore.values.BooleanValue.Builder, io.dstore.values.BooleanValueOrBuilder> 
@@ -1340,13 +1340,13 @@ public final class OmModifySurchargeTypeCatsAd {
 
       private boolean deleteNull_ ;
       /**
-       * <code>optional bool delete_null = 1004;</code>
+       * <code>bool delete_null = 1004;</code>
        */
       public boolean getDeleteNull() {
         return deleteNull_;
       }
       /**
-       * <code>optional bool delete_null = 1004;</code>
+       * <code>bool delete_null = 1004;</code>
        */
       public Builder setDeleteNull(boolean value) {
         
@@ -1355,7 +1355,7 @@ public final class OmModifySurchargeTypeCatsAd {
         return this;
       }
       /**
-       * <code>optional bool delete_null = 1004;</code>
+       * <code>bool delete_null = 1004;</code>
        */
       public Builder clearDeleteNull() {
         
@@ -1614,7 +1614,7 @@ public final class OmModifySurchargeTypeCatsAd {
         com.google.protobuf.MessageOrBuilder {
 
       /**
-       * <code>optional int32 row_id = 10000;</code>
+       * <code>int32 row_id = 10000;</code>
        */
       int getRowId();
     }
@@ -1689,7 +1689,7 @@ public final class OmModifySurchargeTypeCatsAd {
       public static final int ROW_ID_FIELD_NUMBER = 10000;
       private int rowId_;
       /**
-       * <code>optional int32 row_id = 10000;</code>
+       * <code>int32 row_id = 10000;</code>
        */
       public int getRowId() {
         return rowId_;
@@ -1748,7 +1748,7 @@ public final class OmModifySurchargeTypeCatsAd {
           return memoizedHashCode;
         }
         int hash = 41;
-        hash = (19 * hash) + getDescriptorForType().hashCode();
+        hash = (19 * hash) + getDescriptor().hashCode();
         hash = (37 * hash) + ROW_ID_FIELD_NUMBER;
         hash = (53 * hash) + getRowId();
         hash = (29 * hash) + unknownFields.hashCode();
@@ -1966,13 +1966,13 @@ public final class OmModifySurchargeTypeCatsAd {
 
         private int rowId_ ;
         /**
-         * <code>optional int32 row_id = 10000;</code>
+         * <code>int32 row_id = 10000;</code>
          */
         public int getRowId() {
           return rowId_;
         }
         /**
-         * <code>optional int32 row_id = 10000;</code>
+         * <code>int32 row_id = 10000;</code>
          */
         public Builder setRowId(int value) {
           
@@ -1981,7 +1981,7 @@ public final class OmModifySurchargeTypeCatsAd {
           return this;
         }
         /**
-         * <code>optional int32 row_id = 10000;</code>
+         * <code>int32 row_id = 10000;</code>
          */
         public Builder clearRowId() {
           
@@ -2234,7 +2234,7 @@ public final class OmModifySurchargeTypeCatsAd {
         return memoizedHashCode;
       }
       int hash = 41;
-      hash = (19 * hash) + getDescriptorForType().hashCode();
+      hash = (19 * hash) + getDescriptor().hashCode();
       if (getMetaInformationCount() > 0) {
         hash = (37 * hash) + META_INFORMATION_FIELD_NUMBER;
         hash = (53 * hash) + getMetaInformationList().hashCode();

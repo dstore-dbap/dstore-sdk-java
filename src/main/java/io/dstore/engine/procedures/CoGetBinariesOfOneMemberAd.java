@@ -19,38 +19,38 @@ public final class CoGetBinariesOfOneMemberAd {
       com.google.protobuf.MessageOrBuilder {
 
     /**
-     * <code>optional .dstore.values.IntegerValue community_member_id = 1;</code>
+     * <code>.dstore.values.IntegerValue community_member_id = 1;</code>
      */
     boolean hasCommunityMemberId();
     /**
-     * <code>optional .dstore.values.IntegerValue community_member_id = 1;</code>
+     * <code>.dstore.values.IntegerValue community_member_id = 1;</code>
      */
     io.dstore.values.IntegerValue getCommunityMemberId();
     /**
-     * <code>optional .dstore.values.IntegerValue community_member_id = 1;</code>
+     * <code>.dstore.values.IntegerValue community_member_id = 1;</code>
      */
     io.dstore.values.IntegerValueOrBuilder getCommunityMemberIdOrBuilder();
 
     /**
-     * <code>optional bool community_member_id_null = 1001;</code>
+     * <code>bool community_member_id_null = 1001;</code>
      */
     boolean getCommunityMemberIdNull();
 
     /**
-     * <code>optional .dstore.values.IntegerValue community_id = 2;</code>
+     * <code>.dstore.values.IntegerValue community_id = 2;</code>
      */
     boolean hasCommunityId();
     /**
-     * <code>optional .dstore.values.IntegerValue community_id = 2;</code>
+     * <code>.dstore.values.IntegerValue community_id = 2;</code>
      */
     io.dstore.values.IntegerValue getCommunityId();
     /**
-     * <code>optional .dstore.values.IntegerValue community_id = 2;</code>
+     * <code>.dstore.values.IntegerValue community_id = 2;</code>
      */
     io.dstore.values.IntegerValueOrBuilder getCommunityIdOrBuilder();
 
     /**
-     * <code>optional bool community_id_null = 1002;</code>
+     * <code>bool community_id_null = 1002;</code>
      */
     boolean getCommunityIdNull();
   }
@@ -157,19 +157,19 @@ public final class CoGetBinariesOfOneMemberAd {
     public static final int COMMUNITY_MEMBER_ID_FIELD_NUMBER = 1;
     private io.dstore.values.IntegerValue communityMemberId_;
     /**
-     * <code>optional .dstore.values.IntegerValue community_member_id = 1;</code>
+     * <code>.dstore.values.IntegerValue community_member_id = 1;</code>
      */
     public boolean hasCommunityMemberId() {
       return communityMemberId_ != null;
     }
     /**
-     * <code>optional .dstore.values.IntegerValue community_member_id = 1;</code>
+     * <code>.dstore.values.IntegerValue community_member_id = 1;</code>
      */
     public io.dstore.values.IntegerValue getCommunityMemberId() {
       return communityMemberId_ == null ? io.dstore.values.IntegerValue.getDefaultInstance() : communityMemberId_;
     }
     /**
-     * <code>optional .dstore.values.IntegerValue community_member_id = 1;</code>
+     * <code>.dstore.values.IntegerValue community_member_id = 1;</code>
      */
     public io.dstore.values.IntegerValueOrBuilder getCommunityMemberIdOrBuilder() {
       return getCommunityMemberId();
@@ -178,7 +178,7 @@ public final class CoGetBinariesOfOneMemberAd {
     public static final int COMMUNITY_MEMBER_ID_NULL_FIELD_NUMBER = 1001;
     private boolean communityMemberIdNull_;
     /**
-     * <code>optional bool community_member_id_null = 1001;</code>
+     * <code>bool community_member_id_null = 1001;</code>
      */
     public boolean getCommunityMemberIdNull() {
       return communityMemberIdNull_;
@@ -187,19 +187,19 @@ public final class CoGetBinariesOfOneMemberAd {
     public static final int COMMUNITY_ID_FIELD_NUMBER = 2;
     private io.dstore.values.IntegerValue communityId_;
     /**
-     * <code>optional .dstore.values.IntegerValue community_id = 2;</code>
+     * <code>.dstore.values.IntegerValue community_id = 2;</code>
      */
     public boolean hasCommunityId() {
       return communityId_ != null;
     }
     /**
-     * <code>optional .dstore.values.IntegerValue community_id = 2;</code>
+     * <code>.dstore.values.IntegerValue community_id = 2;</code>
      */
     public io.dstore.values.IntegerValue getCommunityId() {
       return communityId_ == null ? io.dstore.values.IntegerValue.getDefaultInstance() : communityId_;
     }
     /**
-     * <code>optional .dstore.values.IntegerValue community_id = 2;</code>
+     * <code>.dstore.values.IntegerValue community_id = 2;</code>
      */
     public io.dstore.values.IntegerValueOrBuilder getCommunityIdOrBuilder() {
       return getCommunityId();
@@ -208,7 +208,7 @@ public final class CoGetBinariesOfOneMemberAd {
     public static final int COMMUNITY_ID_NULL_FIELD_NUMBER = 1002;
     private boolean communityIdNull_;
     /**
-     * <code>optional bool community_id_null = 1002;</code>
+     * <code>bool community_id_null = 1002;</code>
      */
     public boolean getCommunityIdNull() {
       return communityIdNull_;
@@ -300,7 +300,7 @@ public final class CoGetBinariesOfOneMemberAd {
         return memoizedHashCode;
       }
       int hash = 41;
-      hash = (19 * hash) + getDescriptorForType().hashCode();
+      hash = (19 * hash) + getDescriptor().hashCode();
       if (hasCommunityMemberId()) {
         hash = (37 * hash) + COMMUNITY_MEMBER_ID_FIELD_NUMBER;
         hash = (53 * hash) + getCommunityMemberId().hashCode();
@@ -566,13 +566,13 @@ public final class CoGetBinariesOfOneMemberAd {
       private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> communityMemberIdBuilder_;
       /**
-       * <code>optional .dstore.values.IntegerValue community_member_id = 1;</code>
+       * <code>.dstore.values.IntegerValue community_member_id = 1;</code>
        */
       public boolean hasCommunityMemberId() {
         return communityMemberIdBuilder_ != null || communityMemberId_ != null;
       }
       /**
-       * <code>optional .dstore.values.IntegerValue community_member_id = 1;</code>
+       * <code>.dstore.values.IntegerValue community_member_id = 1;</code>
        */
       public io.dstore.values.IntegerValue getCommunityMemberId() {
         if (communityMemberIdBuilder_ == null) {
@@ -582,7 +582,7 @@ public final class CoGetBinariesOfOneMemberAd {
         }
       }
       /**
-       * <code>optional .dstore.values.IntegerValue community_member_id = 1;</code>
+       * <code>.dstore.values.IntegerValue community_member_id = 1;</code>
        */
       public Builder setCommunityMemberId(io.dstore.values.IntegerValue value) {
         if (communityMemberIdBuilder_ == null) {
@@ -598,7 +598,7 @@ public final class CoGetBinariesOfOneMemberAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.IntegerValue community_member_id = 1;</code>
+       * <code>.dstore.values.IntegerValue community_member_id = 1;</code>
        */
       public Builder setCommunityMemberId(
           io.dstore.values.IntegerValue.Builder builderForValue) {
@@ -612,7 +612,7 @@ public final class CoGetBinariesOfOneMemberAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.IntegerValue community_member_id = 1;</code>
+       * <code>.dstore.values.IntegerValue community_member_id = 1;</code>
        */
       public Builder mergeCommunityMemberId(io.dstore.values.IntegerValue value) {
         if (communityMemberIdBuilder_ == null) {
@@ -630,7 +630,7 @@ public final class CoGetBinariesOfOneMemberAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.IntegerValue community_member_id = 1;</code>
+       * <code>.dstore.values.IntegerValue community_member_id = 1;</code>
        */
       public Builder clearCommunityMemberId() {
         if (communityMemberIdBuilder_ == null) {
@@ -644,7 +644,7 @@ public final class CoGetBinariesOfOneMemberAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.IntegerValue community_member_id = 1;</code>
+       * <code>.dstore.values.IntegerValue community_member_id = 1;</code>
        */
       public io.dstore.values.IntegerValue.Builder getCommunityMemberIdBuilder() {
         
@@ -652,7 +652,7 @@ public final class CoGetBinariesOfOneMemberAd {
         return getCommunityMemberIdFieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .dstore.values.IntegerValue community_member_id = 1;</code>
+       * <code>.dstore.values.IntegerValue community_member_id = 1;</code>
        */
       public io.dstore.values.IntegerValueOrBuilder getCommunityMemberIdOrBuilder() {
         if (communityMemberIdBuilder_ != null) {
@@ -663,7 +663,7 @@ public final class CoGetBinariesOfOneMemberAd {
         }
       }
       /**
-       * <code>optional .dstore.values.IntegerValue community_member_id = 1;</code>
+       * <code>.dstore.values.IntegerValue community_member_id = 1;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> 
@@ -681,13 +681,13 @@ public final class CoGetBinariesOfOneMemberAd {
 
       private boolean communityMemberIdNull_ ;
       /**
-       * <code>optional bool community_member_id_null = 1001;</code>
+       * <code>bool community_member_id_null = 1001;</code>
        */
       public boolean getCommunityMemberIdNull() {
         return communityMemberIdNull_;
       }
       /**
-       * <code>optional bool community_member_id_null = 1001;</code>
+       * <code>bool community_member_id_null = 1001;</code>
        */
       public Builder setCommunityMemberIdNull(boolean value) {
         
@@ -696,7 +696,7 @@ public final class CoGetBinariesOfOneMemberAd {
         return this;
       }
       /**
-       * <code>optional bool community_member_id_null = 1001;</code>
+       * <code>bool community_member_id_null = 1001;</code>
        */
       public Builder clearCommunityMemberIdNull() {
         
@@ -709,13 +709,13 @@ public final class CoGetBinariesOfOneMemberAd {
       private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> communityIdBuilder_;
       /**
-       * <code>optional .dstore.values.IntegerValue community_id = 2;</code>
+       * <code>.dstore.values.IntegerValue community_id = 2;</code>
        */
       public boolean hasCommunityId() {
         return communityIdBuilder_ != null || communityId_ != null;
       }
       /**
-       * <code>optional .dstore.values.IntegerValue community_id = 2;</code>
+       * <code>.dstore.values.IntegerValue community_id = 2;</code>
        */
       public io.dstore.values.IntegerValue getCommunityId() {
         if (communityIdBuilder_ == null) {
@@ -725,7 +725,7 @@ public final class CoGetBinariesOfOneMemberAd {
         }
       }
       /**
-       * <code>optional .dstore.values.IntegerValue community_id = 2;</code>
+       * <code>.dstore.values.IntegerValue community_id = 2;</code>
        */
       public Builder setCommunityId(io.dstore.values.IntegerValue value) {
         if (communityIdBuilder_ == null) {
@@ -741,7 +741,7 @@ public final class CoGetBinariesOfOneMemberAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.IntegerValue community_id = 2;</code>
+       * <code>.dstore.values.IntegerValue community_id = 2;</code>
        */
       public Builder setCommunityId(
           io.dstore.values.IntegerValue.Builder builderForValue) {
@@ -755,7 +755,7 @@ public final class CoGetBinariesOfOneMemberAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.IntegerValue community_id = 2;</code>
+       * <code>.dstore.values.IntegerValue community_id = 2;</code>
        */
       public Builder mergeCommunityId(io.dstore.values.IntegerValue value) {
         if (communityIdBuilder_ == null) {
@@ -773,7 +773,7 @@ public final class CoGetBinariesOfOneMemberAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.IntegerValue community_id = 2;</code>
+       * <code>.dstore.values.IntegerValue community_id = 2;</code>
        */
       public Builder clearCommunityId() {
         if (communityIdBuilder_ == null) {
@@ -787,7 +787,7 @@ public final class CoGetBinariesOfOneMemberAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.IntegerValue community_id = 2;</code>
+       * <code>.dstore.values.IntegerValue community_id = 2;</code>
        */
       public io.dstore.values.IntegerValue.Builder getCommunityIdBuilder() {
         
@@ -795,7 +795,7 @@ public final class CoGetBinariesOfOneMemberAd {
         return getCommunityIdFieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .dstore.values.IntegerValue community_id = 2;</code>
+       * <code>.dstore.values.IntegerValue community_id = 2;</code>
        */
       public io.dstore.values.IntegerValueOrBuilder getCommunityIdOrBuilder() {
         if (communityIdBuilder_ != null) {
@@ -806,7 +806,7 @@ public final class CoGetBinariesOfOneMemberAd {
         }
       }
       /**
-       * <code>optional .dstore.values.IntegerValue community_id = 2;</code>
+       * <code>.dstore.values.IntegerValue community_id = 2;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> 
@@ -824,13 +824,13 @@ public final class CoGetBinariesOfOneMemberAd {
 
       private boolean communityIdNull_ ;
       /**
-       * <code>optional bool community_id_null = 1002;</code>
+       * <code>bool community_id_null = 1002;</code>
        */
       public boolean getCommunityIdNull() {
         return communityIdNull_;
       }
       /**
-       * <code>optional bool community_id_null = 1002;</code>
+       * <code>bool community_id_null = 1002;</code>
        */
       public Builder setCommunityIdNull(boolean value) {
         
@@ -839,7 +839,7 @@ public final class CoGetBinariesOfOneMemberAd {
         return this;
       }
       /**
-       * <code>optional bool community_id_null = 1002;</code>
+       * <code>bool community_id_null = 1002;</code>
        */
       public Builder clearCommunityIdNull() {
         
@@ -1098,7 +1098,7 @@ public final class CoGetBinariesOfOneMemberAd {
         com.google.protobuf.MessageOrBuilder {
 
       /**
-       * <code>optional int32 row_id = 10000;</code>
+       * <code>int32 row_id = 10000;</code>
        */
       int getRowId();
 
@@ -1107,7 +1107,7 @@ public final class CoGetBinariesOfOneMemberAd {
        * ID eines "Binaries", das zum Mitglied "&#64;CommunityMemberID" in der Kategorie "CommunityBinaryCategoryID" hinterlegt ist
        * </pre>
        *
-       * <code>optional .dstore.values.IntegerValue binary_id = 10001;</code>
+       * <code>.dstore.values.IntegerValue binary_id = 10001;</code>
        */
       boolean hasBinaryId();
       /**
@@ -1115,7 +1115,7 @@ public final class CoGetBinariesOfOneMemberAd {
        * ID eines "Binaries", das zum Mitglied "&#64;CommunityMemberID" in der Kategorie "CommunityBinaryCategoryID" hinterlegt ist
        * </pre>
        *
-       * <code>optional .dstore.values.IntegerValue binary_id = 10001;</code>
+       * <code>.dstore.values.IntegerValue binary_id = 10001;</code>
        */
       io.dstore.values.IntegerValue getBinaryId();
       /**
@@ -1123,7 +1123,7 @@ public final class CoGetBinariesOfOneMemberAd {
        * ID eines "Binaries", das zum Mitglied "&#64;CommunityMemberID" in der Kategorie "CommunityBinaryCategoryID" hinterlegt ist
        * </pre>
        *
-       * <code>optional .dstore.values.IntegerValue binary_id = 10001;</code>
+       * <code>.dstore.values.IntegerValue binary_id = 10001;</code>
        */
       io.dstore.values.IntegerValueOrBuilder getBinaryIdOrBuilder();
 
@@ -1132,7 +1132,7 @@ public final class CoGetBinariesOfOneMemberAd {
        * Beschreibung des Binärobjektes "BinaryID"
        * </pre>
        *
-       * <code>optional .dstore.values.StringValue binary_description = 10002;</code>
+       * <code>.dstore.values.StringValue binary_description = 10002;</code>
        */
       boolean hasBinaryDescription();
       /**
@@ -1140,7 +1140,7 @@ public final class CoGetBinariesOfOneMemberAd {
        * Beschreibung des Binärobjektes "BinaryID"
        * </pre>
        *
-       * <code>optional .dstore.values.StringValue binary_description = 10002;</code>
+       * <code>.dstore.values.StringValue binary_description = 10002;</code>
        */
       io.dstore.values.StringValue getBinaryDescription();
       /**
@@ -1148,7 +1148,7 @@ public final class CoGetBinariesOfOneMemberAd {
        * Beschreibung des Binärobjektes "BinaryID"
        * </pre>
        *
-       * <code>optional .dstore.values.StringValue binary_description = 10002;</code>
+       * <code>.dstore.values.StringValue binary_description = 10002;</code>
        */
       io.dstore.values.StringValueOrBuilder getBinaryDescriptionOrBuilder();
 
@@ -1157,7 +1157,7 @@ public final class CoGetBinariesOfOneMemberAd {
        * Wann wurd das Binärobjekt "BinaryID" dem Mitglied "&#64;CommunityMemberID" zugeordnet
        * </pre>
        *
-       * <code>optional .dstore.values.TimestampValue input_date_and_time = 10003;</code>
+       * <code>.dstore.values.TimestampValue input_date_and_time = 10003;</code>
        */
       boolean hasInputDateAndTime();
       /**
@@ -1165,7 +1165,7 @@ public final class CoGetBinariesOfOneMemberAd {
        * Wann wurd das Binärobjekt "BinaryID" dem Mitglied "&#64;CommunityMemberID" zugeordnet
        * </pre>
        *
-       * <code>optional .dstore.values.TimestampValue input_date_and_time = 10003;</code>
+       * <code>.dstore.values.TimestampValue input_date_and_time = 10003;</code>
        */
       io.dstore.values.TimestampValue getInputDateAndTime();
       /**
@@ -1173,7 +1173,7 @@ public final class CoGetBinariesOfOneMemberAd {
        * Wann wurd das Binärobjekt "BinaryID" dem Mitglied "&#64;CommunityMemberID" zugeordnet
        * </pre>
        *
-       * <code>optional .dstore.values.TimestampValue input_date_and_time = 10003;</code>
+       * <code>.dstore.values.TimestampValue input_date_and_time = 10003;</code>
        */
       io.dstore.values.TimestampValueOrBuilder getInputDateAndTimeOrBuilder();
 
@@ -1182,7 +1182,7 @@ public final class CoGetBinariesOfOneMemberAd {
        * Um was für einen Dateityp handelt es sich bei dem durch "BinaryID" referenzierten Binärobjekt (z.B. "gif" oder "jpg" etc)
        * </pre>
        *
-       * <code>optional .dstore.values.StringValue content_type = 10004;</code>
+       * <code>.dstore.values.StringValue content_type = 10004;</code>
        */
       boolean hasContentType();
       /**
@@ -1190,7 +1190,7 @@ public final class CoGetBinariesOfOneMemberAd {
        * Um was für einen Dateityp handelt es sich bei dem durch "BinaryID" referenzierten Binärobjekt (z.B. "gif" oder "jpg" etc)
        * </pre>
        *
-       * <code>optional .dstore.values.StringValue content_type = 10004;</code>
+       * <code>.dstore.values.StringValue content_type = 10004;</code>
        */
       io.dstore.values.StringValue getContentType();
       /**
@@ -1198,7 +1198,7 @@ public final class CoGetBinariesOfOneMemberAd {
        * Um was für einen Dateityp handelt es sich bei dem durch "BinaryID" referenzierten Binärobjekt (z.B. "gif" oder "jpg" etc)
        * </pre>
        *
-       * <code>optional .dstore.values.StringValue content_type = 10004;</code>
+       * <code>.dstore.values.StringValue content_type = 10004;</code>
        */
       io.dstore.values.StringValueOrBuilder getContentTypeOrBuilder();
 
@@ -1207,7 +1207,7 @@ public final class CoGetBinariesOfOneMemberAd {
        * Erstellungsdatum der durch "BinaryID" referenzierten Datei
        * </pre>
        *
-       * <code>optional .dstore.values.TimestampValue file_date_and_time = 10005;</code>
+       * <code>.dstore.values.TimestampValue file_date_and_time = 10005;</code>
        */
       boolean hasFileDateAndTime();
       /**
@@ -1215,7 +1215,7 @@ public final class CoGetBinariesOfOneMemberAd {
        * Erstellungsdatum der durch "BinaryID" referenzierten Datei
        * </pre>
        *
-       * <code>optional .dstore.values.TimestampValue file_date_and_time = 10005;</code>
+       * <code>.dstore.values.TimestampValue file_date_and_time = 10005;</code>
        */
       io.dstore.values.TimestampValue getFileDateAndTime();
       /**
@@ -1223,7 +1223,7 @@ public final class CoGetBinariesOfOneMemberAd {
        * Erstellungsdatum der durch "BinaryID" referenzierten Datei
        * </pre>
        *
-       * <code>optional .dstore.values.TimestampValue file_date_and_time = 10005;</code>
+       * <code>.dstore.values.TimestampValue file_date_and_time = 10005;</code>
        */
       io.dstore.values.TimestampValueOrBuilder getFileDateAndTimeOrBuilder();
 
@@ -1232,7 +1232,7 @@ public final class CoGetBinariesOfOneMemberAd {
        * Größe des Binärobjektes "BinaryID" (bzw. der referenzierten Datei, die ja nicht in der Datenbank gespeichert wird !) in KiloBytes
        * </pre>
        *
-       * <code>optional .dstore.values.IntegerValue filesize_in_k_b = 10006;</code>
+       * <code>.dstore.values.IntegerValue filesize_in_k_b = 10006;</code>
        */
       boolean hasFilesizeInKB();
       /**
@@ -1240,7 +1240,7 @@ public final class CoGetBinariesOfOneMemberAd {
        * Größe des Binärobjektes "BinaryID" (bzw. der referenzierten Datei, die ja nicht in der Datenbank gespeichert wird !) in KiloBytes
        * </pre>
        *
-       * <code>optional .dstore.values.IntegerValue filesize_in_k_b = 10006;</code>
+       * <code>.dstore.values.IntegerValue filesize_in_k_b = 10006;</code>
        */
       io.dstore.values.IntegerValue getFilesizeInKB();
       /**
@@ -1248,7 +1248,7 @@ public final class CoGetBinariesOfOneMemberAd {
        * Größe des Binärobjektes "BinaryID" (bzw. der referenzierten Datei, die ja nicht in der Datenbank gespeichert wird !) in KiloBytes
        * </pre>
        *
-       * <code>optional .dstore.values.IntegerValue filesize_in_k_b = 10006;</code>
+       * <code>.dstore.values.IntegerValue filesize_in_k_b = 10006;</code>
        */
       io.dstore.values.IntegerValueOrBuilder getFilesizeInKBOrBuilder();
 
@@ -1257,7 +1257,7 @@ public final class CoGetBinariesOfOneMemberAd {
        * Bestimmt die Reihenfolge der "BinaryID" innerhalb aller "Binaries" der Kategorie "CommunityBinaryCategoryID"
        * </pre>
        *
-       * <code>optional .dstore.values.IntegerValue sort_no = 10007;</code>
+       * <code>.dstore.values.IntegerValue sort_no = 10007;</code>
        */
       boolean hasSortNo();
       /**
@@ -1265,7 +1265,7 @@ public final class CoGetBinariesOfOneMemberAd {
        * Bestimmt die Reihenfolge der "BinaryID" innerhalb aller "Binaries" der Kategorie "CommunityBinaryCategoryID"
        * </pre>
        *
-       * <code>optional .dstore.values.IntegerValue sort_no = 10007;</code>
+       * <code>.dstore.values.IntegerValue sort_no = 10007;</code>
        */
       io.dstore.values.IntegerValue getSortNo();
       /**
@@ -1273,7 +1273,7 @@ public final class CoGetBinariesOfOneMemberAd {
        * Bestimmt die Reihenfolge der "BinaryID" innerhalb aller "Binaries" der Kategorie "CommunityBinaryCategoryID"
        * </pre>
        *
-       * <code>optional .dstore.values.IntegerValue sort_no = 10007;</code>
+       * <code>.dstore.values.IntegerValue sort_no = 10007;</code>
        */
       io.dstore.values.IntegerValueOrBuilder getSortNoOrBuilder();
 
@@ -1282,7 +1282,7 @@ public final class CoGetBinariesOfOneMemberAd {
        * Bezeichnung der Kategorie "CommunityBinaryCategoryID"
        * </pre>
        *
-       * <code>optional .dstore.values.StringValue community_binary_category = 10008;</code>
+       * <code>.dstore.values.StringValue community_binary_category = 10008;</code>
        */
       boolean hasCommunityBinaryCategory();
       /**
@@ -1290,7 +1290,7 @@ public final class CoGetBinariesOfOneMemberAd {
        * Bezeichnung der Kategorie "CommunityBinaryCategoryID"
        * </pre>
        *
-       * <code>optional .dstore.values.StringValue community_binary_category = 10008;</code>
+       * <code>.dstore.values.StringValue community_binary_category = 10008;</code>
        */
       io.dstore.values.StringValue getCommunityBinaryCategory();
       /**
@@ -1298,7 +1298,7 @@ public final class CoGetBinariesOfOneMemberAd {
        * Bezeichnung der Kategorie "CommunityBinaryCategoryID"
        * </pre>
        *
-       * <code>optional .dstore.values.StringValue community_binary_category = 10008;</code>
+       * <code>.dstore.values.StringValue community_binary_category = 10008;</code>
        */
       io.dstore.values.StringValueOrBuilder getCommunityBinaryCategoryOrBuilder();
 
@@ -1307,7 +1307,7 @@ public final class CoGetBinariesOfOneMemberAd {
        * ID einer Kategorie von Binärdateien (z.B. für den "Steckbrief" eines Mitglieds)
        * </pre>
        *
-       * <code>optional .dstore.values.IntegerValue community_binary_category_id = 10009;</code>
+       * <code>.dstore.values.IntegerValue community_binary_category_id = 10009;</code>
        */
       boolean hasCommunityBinaryCategoryId();
       /**
@@ -1315,7 +1315,7 @@ public final class CoGetBinariesOfOneMemberAd {
        * ID einer Kategorie von Binärdateien (z.B. für den "Steckbrief" eines Mitglieds)
        * </pre>
        *
-       * <code>optional .dstore.values.IntegerValue community_binary_category_id = 10009;</code>
+       * <code>.dstore.values.IntegerValue community_binary_category_id = 10009;</code>
        */
       io.dstore.values.IntegerValue getCommunityBinaryCategoryId();
       /**
@@ -1323,7 +1323,7 @@ public final class CoGetBinariesOfOneMemberAd {
        * ID einer Kategorie von Binärdateien (z.B. für den "Steckbrief" eines Mitglieds)
        * </pre>
        *
-       * <code>optional .dstore.values.IntegerValue community_binary_category_id = 10009;</code>
+       * <code>.dstore.values.IntegerValue community_binary_category_id = 10009;</code>
        */
       io.dstore.values.IntegerValueOrBuilder getCommunityBinaryCategoryIdOrBuilder();
 
@@ -1332,7 +1332,7 @@ public final class CoGetBinariesOfOneMemberAd {
        * Angabe in KiloBytes, die dem Mitglied auf sein Quota angerechnet wird (Immer gleich "FileSizeInKB" oder "0", wenn quasi nur eine Referenz gespeichert wird auf eine Datei, die ein anderes Mitglied hochgeladen hat)
        * </pre>
        *
-       * <code>optional .dstore.values.IntegerValue quoted_file_size_in_k_b = 10010;</code>
+       * <code>.dstore.values.IntegerValue quoted_file_size_in_k_b = 10010;</code>
        */
       boolean hasQuotedFileSizeInKB();
       /**
@@ -1340,7 +1340,7 @@ public final class CoGetBinariesOfOneMemberAd {
        * Angabe in KiloBytes, die dem Mitglied auf sein Quota angerechnet wird (Immer gleich "FileSizeInKB" oder "0", wenn quasi nur eine Referenz gespeichert wird auf eine Datei, die ein anderes Mitglied hochgeladen hat)
        * </pre>
        *
-       * <code>optional .dstore.values.IntegerValue quoted_file_size_in_k_b = 10010;</code>
+       * <code>.dstore.values.IntegerValue quoted_file_size_in_k_b = 10010;</code>
        */
       io.dstore.values.IntegerValue getQuotedFileSizeInKB();
       /**
@@ -1348,7 +1348,7 @@ public final class CoGetBinariesOfOneMemberAd {
        * Angabe in KiloBytes, die dem Mitglied auf sein Quota angerechnet wird (Immer gleich "FileSizeInKB" oder "0", wenn quasi nur eine Referenz gespeichert wird auf eine Datei, die ein anderes Mitglied hochgeladen hat)
        * </pre>
        *
-       * <code>optional .dstore.values.IntegerValue quoted_file_size_in_k_b = 10010;</code>
+       * <code>.dstore.values.IntegerValue quoted_file_size_in_k_b = 10010;</code>
        */
       io.dstore.values.IntegerValueOrBuilder getQuotedFileSizeInKBOrBuilder();
 
@@ -1357,7 +1357,7 @@ public final class CoGetBinariesOfOneMemberAd {
        * "FileDateAndTime" als "String" - in der Form "15.01.2001 22:16:55"
        * </pre>
        *
-       * <code>optional .dstore.values.StringValue file_date_and_time_char = 10011;</code>
+       * <code>.dstore.values.StringValue file_date_and_time_char = 10011;</code>
        */
       boolean hasFileDateAndTimeChar();
       /**
@@ -1365,7 +1365,7 @@ public final class CoGetBinariesOfOneMemberAd {
        * "FileDateAndTime" als "String" - in der Form "15.01.2001 22:16:55"
        * </pre>
        *
-       * <code>optional .dstore.values.StringValue file_date_and_time_char = 10011;</code>
+       * <code>.dstore.values.StringValue file_date_and_time_char = 10011;</code>
        */
       io.dstore.values.StringValue getFileDateAndTimeChar();
       /**
@@ -1373,7 +1373,7 @@ public final class CoGetBinariesOfOneMemberAd {
        * "FileDateAndTime" als "String" - in der Form "15.01.2001 22:16:55"
        * </pre>
        *
-       * <code>optional .dstore.values.StringValue file_date_and_time_char = 10011;</code>
+       * <code>.dstore.values.StringValue file_date_and_time_char = 10011;</code>
        */
       io.dstore.values.StringValueOrBuilder getFileDateAndTimeCharOrBuilder();
 
@@ -1382,7 +1382,7 @@ public final class CoGetBinariesOfOneMemberAd {
        * "MD5-Hash" der durch "BinaryID" referenzierten Datei
        * </pre>
        *
-       * <code>optional .dstore.values.StringValue m_d5_hash = 10012;</code>
+       * <code>.dstore.values.StringValue m_d5_hash = 10012;</code>
        */
       boolean hasMD5Hash();
       /**
@@ -1390,7 +1390,7 @@ public final class CoGetBinariesOfOneMemberAd {
        * "MD5-Hash" der durch "BinaryID" referenzierten Datei
        * </pre>
        *
-       * <code>optional .dstore.values.StringValue m_d5_hash = 10012;</code>
+       * <code>.dstore.values.StringValue m_d5_hash = 10012;</code>
        */
       io.dstore.values.StringValue getMD5Hash();
       /**
@@ -1398,7 +1398,7 @@ public final class CoGetBinariesOfOneMemberAd {
        * "MD5-Hash" der durch "BinaryID" referenzierten Datei
        * </pre>
        *
-       * <code>optional .dstore.values.StringValue m_d5_hash = 10012;</code>
+       * <code>.dstore.values.StringValue m_d5_hash = 10012;</code>
        */
       io.dstore.values.StringValueOrBuilder getMD5HashOrBuilder();
 
@@ -1407,7 +1407,7 @@ public final class CoGetBinariesOfOneMemberAd {
        * "InputDateAndTime" als "String" - in der Form "15.01.2001 22:16:55"
        * </pre>
        *
-       * <code>optional .dstore.values.StringValue input_date_and_time_char = 10013;</code>
+       * <code>.dstore.values.StringValue input_date_and_time_char = 10013;</code>
        */
       boolean hasInputDateAndTimeChar();
       /**
@@ -1415,7 +1415,7 @@ public final class CoGetBinariesOfOneMemberAd {
        * "InputDateAndTime" als "String" - in der Form "15.01.2001 22:16:55"
        * </pre>
        *
-       * <code>optional .dstore.values.StringValue input_date_and_time_char = 10013;</code>
+       * <code>.dstore.values.StringValue input_date_and_time_char = 10013;</code>
        */
       io.dstore.values.StringValue getInputDateAndTimeChar();
       /**
@@ -1423,7 +1423,7 @@ public final class CoGetBinariesOfOneMemberAd {
        * "InputDateAndTime" als "String" - in der Form "15.01.2001 22:16:55"
        * </pre>
        *
-       * <code>optional .dstore.values.StringValue input_date_and_time_char = 10013;</code>
+       * <code>.dstore.values.StringValue input_date_and_time_char = 10013;</code>
        */
       io.dstore.values.StringValueOrBuilder getInputDateAndTimeCharOrBuilder();
     }
@@ -1667,7 +1667,7 @@ public final class CoGetBinariesOfOneMemberAd {
       public static final int ROW_ID_FIELD_NUMBER = 10000;
       private int rowId_;
       /**
-       * <code>optional int32 row_id = 10000;</code>
+       * <code>int32 row_id = 10000;</code>
        */
       public int getRowId() {
         return rowId_;
@@ -1680,7 +1680,7 @@ public final class CoGetBinariesOfOneMemberAd {
        * ID eines "Binaries", das zum Mitglied "&#64;CommunityMemberID" in der Kategorie "CommunityBinaryCategoryID" hinterlegt ist
        * </pre>
        *
-       * <code>optional .dstore.values.IntegerValue binary_id = 10001;</code>
+       * <code>.dstore.values.IntegerValue binary_id = 10001;</code>
        */
       public boolean hasBinaryId() {
         return binaryId_ != null;
@@ -1690,7 +1690,7 @@ public final class CoGetBinariesOfOneMemberAd {
        * ID eines "Binaries", das zum Mitglied "&#64;CommunityMemberID" in der Kategorie "CommunityBinaryCategoryID" hinterlegt ist
        * </pre>
        *
-       * <code>optional .dstore.values.IntegerValue binary_id = 10001;</code>
+       * <code>.dstore.values.IntegerValue binary_id = 10001;</code>
        */
       public io.dstore.values.IntegerValue getBinaryId() {
         return binaryId_ == null ? io.dstore.values.IntegerValue.getDefaultInstance() : binaryId_;
@@ -1700,7 +1700,7 @@ public final class CoGetBinariesOfOneMemberAd {
        * ID eines "Binaries", das zum Mitglied "&#64;CommunityMemberID" in der Kategorie "CommunityBinaryCategoryID" hinterlegt ist
        * </pre>
        *
-       * <code>optional .dstore.values.IntegerValue binary_id = 10001;</code>
+       * <code>.dstore.values.IntegerValue binary_id = 10001;</code>
        */
       public io.dstore.values.IntegerValueOrBuilder getBinaryIdOrBuilder() {
         return getBinaryId();
@@ -1713,7 +1713,7 @@ public final class CoGetBinariesOfOneMemberAd {
        * Beschreibung des Binärobjektes "BinaryID"
        * </pre>
        *
-       * <code>optional .dstore.values.StringValue binary_description = 10002;</code>
+       * <code>.dstore.values.StringValue binary_description = 10002;</code>
        */
       public boolean hasBinaryDescription() {
         return binaryDescription_ != null;
@@ -1723,7 +1723,7 @@ public final class CoGetBinariesOfOneMemberAd {
        * Beschreibung des Binärobjektes "BinaryID"
        * </pre>
        *
-       * <code>optional .dstore.values.StringValue binary_description = 10002;</code>
+       * <code>.dstore.values.StringValue binary_description = 10002;</code>
        */
       public io.dstore.values.StringValue getBinaryDescription() {
         return binaryDescription_ == null ? io.dstore.values.StringValue.getDefaultInstance() : binaryDescription_;
@@ -1733,7 +1733,7 @@ public final class CoGetBinariesOfOneMemberAd {
        * Beschreibung des Binärobjektes "BinaryID"
        * </pre>
        *
-       * <code>optional .dstore.values.StringValue binary_description = 10002;</code>
+       * <code>.dstore.values.StringValue binary_description = 10002;</code>
        */
       public io.dstore.values.StringValueOrBuilder getBinaryDescriptionOrBuilder() {
         return getBinaryDescription();
@@ -1746,7 +1746,7 @@ public final class CoGetBinariesOfOneMemberAd {
        * Wann wurd das Binärobjekt "BinaryID" dem Mitglied "&#64;CommunityMemberID" zugeordnet
        * </pre>
        *
-       * <code>optional .dstore.values.TimestampValue input_date_and_time = 10003;</code>
+       * <code>.dstore.values.TimestampValue input_date_and_time = 10003;</code>
        */
       public boolean hasInputDateAndTime() {
         return inputDateAndTime_ != null;
@@ -1756,7 +1756,7 @@ public final class CoGetBinariesOfOneMemberAd {
        * Wann wurd das Binärobjekt "BinaryID" dem Mitglied "&#64;CommunityMemberID" zugeordnet
        * </pre>
        *
-       * <code>optional .dstore.values.TimestampValue input_date_and_time = 10003;</code>
+       * <code>.dstore.values.TimestampValue input_date_and_time = 10003;</code>
        */
       public io.dstore.values.TimestampValue getInputDateAndTime() {
         return inputDateAndTime_ == null ? io.dstore.values.TimestampValue.getDefaultInstance() : inputDateAndTime_;
@@ -1766,7 +1766,7 @@ public final class CoGetBinariesOfOneMemberAd {
        * Wann wurd das Binärobjekt "BinaryID" dem Mitglied "&#64;CommunityMemberID" zugeordnet
        * </pre>
        *
-       * <code>optional .dstore.values.TimestampValue input_date_and_time = 10003;</code>
+       * <code>.dstore.values.TimestampValue input_date_and_time = 10003;</code>
        */
       public io.dstore.values.TimestampValueOrBuilder getInputDateAndTimeOrBuilder() {
         return getInputDateAndTime();
@@ -1779,7 +1779,7 @@ public final class CoGetBinariesOfOneMemberAd {
        * Um was für einen Dateityp handelt es sich bei dem durch "BinaryID" referenzierten Binärobjekt (z.B. "gif" oder "jpg" etc)
        * </pre>
        *
-       * <code>optional .dstore.values.StringValue content_type = 10004;</code>
+       * <code>.dstore.values.StringValue content_type = 10004;</code>
        */
       public boolean hasContentType() {
         return contentType_ != null;
@@ -1789,7 +1789,7 @@ public final class CoGetBinariesOfOneMemberAd {
        * Um was für einen Dateityp handelt es sich bei dem durch "BinaryID" referenzierten Binärobjekt (z.B. "gif" oder "jpg" etc)
        * </pre>
        *
-       * <code>optional .dstore.values.StringValue content_type = 10004;</code>
+       * <code>.dstore.values.StringValue content_type = 10004;</code>
        */
       public io.dstore.values.StringValue getContentType() {
         return contentType_ == null ? io.dstore.values.StringValue.getDefaultInstance() : contentType_;
@@ -1799,7 +1799,7 @@ public final class CoGetBinariesOfOneMemberAd {
        * Um was für einen Dateityp handelt es sich bei dem durch "BinaryID" referenzierten Binärobjekt (z.B. "gif" oder "jpg" etc)
        * </pre>
        *
-       * <code>optional .dstore.values.StringValue content_type = 10004;</code>
+       * <code>.dstore.values.StringValue content_type = 10004;</code>
        */
       public io.dstore.values.StringValueOrBuilder getContentTypeOrBuilder() {
         return getContentType();
@@ -1812,7 +1812,7 @@ public final class CoGetBinariesOfOneMemberAd {
        * Erstellungsdatum der durch "BinaryID" referenzierten Datei
        * </pre>
        *
-       * <code>optional .dstore.values.TimestampValue file_date_and_time = 10005;</code>
+       * <code>.dstore.values.TimestampValue file_date_and_time = 10005;</code>
        */
       public boolean hasFileDateAndTime() {
         return fileDateAndTime_ != null;
@@ -1822,7 +1822,7 @@ public final class CoGetBinariesOfOneMemberAd {
        * Erstellungsdatum der durch "BinaryID" referenzierten Datei
        * </pre>
        *
-       * <code>optional .dstore.values.TimestampValue file_date_and_time = 10005;</code>
+       * <code>.dstore.values.TimestampValue file_date_and_time = 10005;</code>
        */
       public io.dstore.values.TimestampValue getFileDateAndTime() {
         return fileDateAndTime_ == null ? io.dstore.values.TimestampValue.getDefaultInstance() : fileDateAndTime_;
@@ -1832,7 +1832,7 @@ public final class CoGetBinariesOfOneMemberAd {
        * Erstellungsdatum der durch "BinaryID" referenzierten Datei
        * </pre>
        *
-       * <code>optional .dstore.values.TimestampValue file_date_and_time = 10005;</code>
+       * <code>.dstore.values.TimestampValue file_date_and_time = 10005;</code>
        */
       public io.dstore.values.TimestampValueOrBuilder getFileDateAndTimeOrBuilder() {
         return getFileDateAndTime();
@@ -1845,7 +1845,7 @@ public final class CoGetBinariesOfOneMemberAd {
        * Größe des Binärobjektes "BinaryID" (bzw. der referenzierten Datei, die ja nicht in der Datenbank gespeichert wird !) in KiloBytes
        * </pre>
        *
-       * <code>optional .dstore.values.IntegerValue filesize_in_k_b = 10006;</code>
+       * <code>.dstore.values.IntegerValue filesize_in_k_b = 10006;</code>
        */
       public boolean hasFilesizeInKB() {
         return filesizeInKB_ != null;
@@ -1855,7 +1855,7 @@ public final class CoGetBinariesOfOneMemberAd {
        * Größe des Binärobjektes "BinaryID" (bzw. der referenzierten Datei, die ja nicht in der Datenbank gespeichert wird !) in KiloBytes
        * </pre>
        *
-       * <code>optional .dstore.values.IntegerValue filesize_in_k_b = 10006;</code>
+       * <code>.dstore.values.IntegerValue filesize_in_k_b = 10006;</code>
        */
       public io.dstore.values.IntegerValue getFilesizeInKB() {
         return filesizeInKB_ == null ? io.dstore.values.IntegerValue.getDefaultInstance() : filesizeInKB_;
@@ -1865,7 +1865,7 @@ public final class CoGetBinariesOfOneMemberAd {
        * Größe des Binärobjektes "BinaryID" (bzw. der referenzierten Datei, die ja nicht in der Datenbank gespeichert wird !) in KiloBytes
        * </pre>
        *
-       * <code>optional .dstore.values.IntegerValue filesize_in_k_b = 10006;</code>
+       * <code>.dstore.values.IntegerValue filesize_in_k_b = 10006;</code>
        */
       public io.dstore.values.IntegerValueOrBuilder getFilesizeInKBOrBuilder() {
         return getFilesizeInKB();
@@ -1878,7 +1878,7 @@ public final class CoGetBinariesOfOneMemberAd {
        * Bestimmt die Reihenfolge der "BinaryID" innerhalb aller "Binaries" der Kategorie "CommunityBinaryCategoryID"
        * </pre>
        *
-       * <code>optional .dstore.values.IntegerValue sort_no = 10007;</code>
+       * <code>.dstore.values.IntegerValue sort_no = 10007;</code>
        */
       public boolean hasSortNo() {
         return sortNo_ != null;
@@ -1888,7 +1888,7 @@ public final class CoGetBinariesOfOneMemberAd {
        * Bestimmt die Reihenfolge der "BinaryID" innerhalb aller "Binaries" der Kategorie "CommunityBinaryCategoryID"
        * </pre>
        *
-       * <code>optional .dstore.values.IntegerValue sort_no = 10007;</code>
+       * <code>.dstore.values.IntegerValue sort_no = 10007;</code>
        */
       public io.dstore.values.IntegerValue getSortNo() {
         return sortNo_ == null ? io.dstore.values.IntegerValue.getDefaultInstance() : sortNo_;
@@ -1898,7 +1898,7 @@ public final class CoGetBinariesOfOneMemberAd {
        * Bestimmt die Reihenfolge der "BinaryID" innerhalb aller "Binaries" der Kategorie "CommunityBinaryCategoryID"
        * </pre>
        *
-       * <code>optional .dstore.values.IntegerValue sort_no = 10007;</code>
+       * <code>.dstore.values.IntegerValue sort_no = 10007;</code>
        */
       public io.dstore.values.IntegerValueOrBuilder getSortNoOrBuilder() {
         return getSortNo();
@@ -1911,7 +1911,7 @@ public final class CoGetBinariesOfOneMemberAd {
        * Bezeichnung der Kategorie "CommunityBinaryCategoryID"
        * </pre>
        *
-       * <code>optional .dstore.values.StringValue community_binary_category = 10008;</code>
+       * <code>.dstore.values.StringValue community_binary_category = 10008;</code>
        */
       public boolean hasCommunityBinaryCategory() {
         return communityBinaryCategory_ != null;
@@ -1921,7 +1921,7 @@ public final class CoGetBinariesOfOneMemberAd {
        * Bezeichnung der Kategorie "CommunityBinaryCategoryID"
        * </pre>
        *
-       * <code>optional .dstore.values.StringValue community_binary_category = 10008;</code>
+       * <code>.dstore.values.StringValue community_binary_category = 10008;</code>
        */
       public io.dstore.values.StringValue getCommunityBinaryCategory() {
         return communityBinaryCategory_ == null ? io.dstore.values.StringValue.getDefaultInstance() : communityBinaryCategory_;
@@ -1931,7 +1931,7 @@ public final class CoGetBinariesOfOneMemberAd {
        * Bezeichnung der Kategorie "CommunityBinaryCategoryID"
        * </pre>
        *
-       * <code>optional .dstore.values.StringValue community_binary_category = 10008;</code>
+       * <code>.dstore.values.StringValue community_binary_category = 10008;</code>
        */
       public io.dstore.values.StringValueOrBuilder getCommunityBinaryCategoryOrBuilder() {
         return getCommunityBinaryCategory();
@@ -1944,7 +1944,7 @@ public final class CoGetBinariesOfOneMemberAd {
        * ID einer Kategorie von Binärdateien (z.B. für den "Steckbrief" eines Mitglieds)
        * </pre>
        *
-       * <code>optional .dstore.values.IntegerValue community_binary_category_id = 10009;</code>
+       * <code>.dstore.values.IntegerValue community_binary_category_id = 10009;</code>
        */
       public boolean hasCommunityBinaryCategoryId() {
         return communityBinaryCategoryId_ != null;
@@ -1954,7 +1954,7 @@ public final class CoGetBinariesOfOneMemberAd {
        * ID einer Kategorie von Binärdateien (z.B. für den "Steckbrief" eines Mitglieds)
        * </pre>
        *
-       * <code>optional .dstore.values.IntegerValue community_binary_category_id = 10009;</code>
+       * <code>.dstore.values.IntegerValue community_binary_category_id = 10009;</code>
        */
       public io.dstore.values.IntegerValue getCommunityBinaryCategoryId() {
         return communityBinaryCategoryId_ == null ? io.dstore.values.IntegerValue.getDefaultInstance() : communityBinaryCategoryId_;
@@ -1964,7 +1964,7 @@ public final class CoGetBinariesOfOneMemberAd {
        * ID einer Kategorie von Binärdateien (z.B. für den "Steckbrief" eines Mitglieds)
        * </pre>
        *
-       * <code>optional .dstore.values.IntegerValue community_binary_category_id = 10009;</code>
+       * <code>.dstore.values.IntegerValue community_binary_category_id = 10009;</code>
        */
       public io.dstore.values.IntegerValueOrBuilder getCommunityBinaryCategoryIdOrBuilder() {
         return getCommunityBinaryCategoryId();
@@ -1977,7 +1977,7 @@ public final class CoGetBinariesOfOneMemberAd {
        * Angabe in KiloBytes, die dem Mitglied auf sein Quota angerechnet wird (Immer gleich "FileSizeInKB" oder "0", wenn quasi nur eine Referenz gespeichert wird auf eine Datei, die ein anderes Mitglied hochgeladen hat)
        * </pre>
        *
-       * <code>optional .dstore.values.IntegerValue quoted_file_size_in_k_b = 10010;</code>
+       * <code>.dstore.values.IntegerValue quoted_file_size_in_k_b = 10010;</code>
        */
       public boolean hasQuotedFileSizeInKB() {
         return quotedFileSizeInKB_ != null;
@@ -1987,7 +1987,7 @@ public final class CoGetBinariesOfOneMemberAd {
        * Angabe in KiloBytes, die dem Mitglied auf sein Quota angerechnet wird (Immer gleich "FileSizeInKB" oder "0", wenn quasi nur eine Referenz gespeichert wird auf eine Datei, die ein anderes Mitglied hochgeladen hat)
        * </pre>
        *
-       * <code>optional .dstore.values.IntegerValue quoted_file_size_in_k_b = 10010;</code>
+       * <code>.dstore.values.IntegerValue quoted_file_size_in_k_b = 10010;</code>
        */
       public io.dstore.values.IntegerValue getQuotedFileSizeInKB() {
         return quotedFileSizeInKB_ == null ? io.dstore.values.IntegerValue.getDefaultInstance() : quotedFileSizeInKB_;
@@ -1997,7 +1997,7 @@ public final class CoGetBinariesOfOneMemberAd {
        * Angabe in KiloBytes, die dem Mitglied auf sein Quota angerechnet wird (Immer gleich "FileSizeInKB" oder "0", wenn quasi nur eine Referenz gespeichert wird auf eine Datei, die ein anderes Mitglied hochgeladen hat)
        * </pre>
        *
-       * <code>optional .dstore.values.IntegerValue quoted_file_size_in_k_b = 10010;</code>
+       * <code>.dstore.values.IntegerValue quoted_file_size_in_k_b = 10010;</code>
        */
       public io.dstore.values.IntegerValueOrBuilder getQuotedFileSizeInKBOrBuilder() {
         return getQuotedFileSizeInKB();
@@ -2010,7 +2010,7 @@ public final class CoGetBinariesOfOneMemberAd {
        * "FileDateAndTime" als "String" - in der Form "15.01.2001 22:16:55"
        * </pre>
        *
-       * <code>optional .dstore.values.StringValue file_date_and_time_char = 10011;</code>
+       * <code>.dstore.values.StringValue file_date_and_time_char = 10011;</code>
        */
       public boolean hasFileDateAndTimeChar() {
         return fileDateAndTimeChar_ != null;
@@ -2020,7 +2020,7 @@ public final class CoGetBinariesOfOneMemberAd {
        * "FileDateAndTime" als "String" - in der Form "15.01.2001 22:16:55"
        * </pre>
        *
-       * <code>optional .dstore.values.StringValue file_date_and_time_char = 10011;</code>
+       * <code>.dstore.values.StringValue file_date_and_time_char = 10011;</code>
        */
       public io.dstore.values.StringValue getFileDateAndTimeChar() {
         return fileDateAndTimeChar_ == null ? io.dstore.values.StringValue.getDefaultInstance() : fileDateAndTimeChar_;
@@ -2030,7 +2030,7 @@ public final class CoGetBinariesOfOneMemberAd {
        * "FileDateAndTime" als "String" - in der Form "15.01.2001 22:16:55"
        * </pre>
        *
-       * <code>optional .dstore.values.StringValue file_date_and_time_char = 10011;</code>
+       * <code>.dstore.values.StringValue file_date_and_time_char = 10011;</code>
        */
       public io.dstore.values.StringValueOrBuilder getFileDateAndTimeCharOrBuilder() {
         return getFileDateAndTimeChar();
@@ -2043,7 +2043,7 @@ public final class CoGetBinariesOfOneMemberAd {
        * "MD5-Hash" der durch "BinaryID" referenzierten Datei
        * </pre>
        *
-       * <code>optional .dstore.values.StringValue m_d5_hash = 10012;</code>
+       * <code>.dstore.values.StringValue m_d5_hash = 10012;</code>
        */
       public boolean hasMD5Hash() {
         return mD5Hash_ != null;
@@ -2053,7 +2053,7 @@ public final class CoGetBinariesOfOneMemberAd {
        * "MD5-Hash" der durch "BinaryID" referenzierten Datei
        * </pre>
        *
-       * <code>optional .dstore.values.StringValue m_d5_hash = 10012;</code>
+       * <code>.dstore.values.StringValue m_d5_hash = 10012;</code>
        */
       public io.dstore.values.StringValue getMD5Hash() {
         return mD5Hash_ == null ? io.dstore.values.StringValue.getDefaultInstance() : mD5Hash_;
@@ -2063,7 +2063,7 @@ public final class CoGetBinariesOfOneMemberAd {
        * "MD5-Hash" der durch "BinaryID" referenzierten Datei
        * </pre>
        *
-       * <code>optional .dstore.values.StringValue m_d5_hash = 10012;</code>
+       * <code>.dstore.values.StringValue m_d5_hash = 10012;</code>
        */
       public io.dstore.values.StringValueOrBuilder getMD5HashOrBuilder() {
         return getMD5Hash();
@@ -2076,7 +2076,7 @@ public final class CoGetBinariesOfOneMemberAd {
        * "InputDateAndTime" als "String" - in der Form "15.01.2001 22:16:55"
        * </pre>
        *
-       * <code>optional .dstore.values.StringValue input_date_and_time_char = 10013;</code>
+       * <code>.dstore.values.StringValue input_date_and_time_char = 10013;</code>
        */
       public boolean hasInputDateAndTimeChar() {
         return inputDateAndTimeChar_ != null;
@@ -2086,7 +2086,7 @@ public final class CoGetBinariesOfOneMemberAd {
        * "InputDateAndTime" als "String" - in der Form "15.01.2001 22:16:55"
        * </pre>
        *
-       * <code>optional .dstore.values.StringValue input_date_and_time_char = 10013;</code>
+       * <code>.dstore.values.StringValue input_date_and_time_char = 10013;</code>
        */
       public io.dstore.values.StringValue getInputDateAndTimeChar() {
         return inputDateAndTimeChar_ == null ? io.dstore.values.StringValue.getDefaultInstance() : inputDateAndTimeChar_;
@@ -2096,7 +2096,7 @@ public final class CoGetBinariesOfOneMemberAd {
        * "InputDateAndTime" als "String" - in der Form "15.01.2001 22:16:55"
        * </pre>
        *
-       * <code>optional .dstore.values.StringValue input_date_and_time_char = 10013;</code>
+       * <code>.dstore.values.StringValue input_date_and_time_char = 10013;</code>
        */
       public io.dstore.values.StringValueOrBuilder getInputDateAndTimeCharOrBuilder() {
         return getInputDateAndTimeChar();
@@ -2311,7 +2311,7 @@ public final class CoGetBinariesOfOneMemberAd {
           return memoizedHashCode;
         }
         int hash = 41;
-        hash = (19 * hash) + getDescriptorForType().hashCode();
+        hash = (19 * hash) + getDescriptor().hashCode();
         hash = (37 * hash) + ROW_ID_FIELD_NUMBER;
         hash = (53 * hash) + getRowId();
         if (hasBinaryId()) {
@@ -2763,13 +2763,13 @@ public final class CoGetBinariesOfOneMemberAd {
 
         private int rowId_ ;
         /**
-         * <code>optional int32 row_id = 10000;</code>
+         * <code>int32 row_id = 10000;</code>
          */
         public int getRowId() {
           return rowId_;
         }
         /**
-         * <code>optional int32 row_id = 10000;</code>
+         * <code>int32 row_id = 10000;</code>
          */
         public Builder setRowId(int value) {
           
@@ -2778,7 +2778,7 @@ public final class CoGetBinariesOfOneMemberAd {
           return this;
         }
         /**
-         * <code>optional int32 row_id = 10000;</code>
+         * <code>int32 row_id = 10000;</code>
          */
         public Builder clearRowId() {
           
@@ -2795,7 +2795,7 @@ public final class CoGetBinariesOfOneMemberAd {
          * ID eines "Binaries", das zum Mitglied "&#64;CommunityMemberID" in der Kategorie "CommunityBinaryCategoryID" hinterlegt ist
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue binary_id = 10001;</code>
+         * <code>.dstore.values.IntegerValue binary_id = 10001;</code>
          */
         public boolean hasBinaryId() {
           return binaryIdBuilder_ != null || binaryId_ != null;
@@ -2805,7 +2805,7 @@ public final class CoGetBinariesOfOneMemberAd {
          * ID eines "Binaries", das zum Mitglied "&#64;CommunityMemberID" in der Kategorie "CommunityBinaryCategoryID" hinterlegt ist
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue binary_id = 10001;</code>
+         * <code>.dstore.values.IntegerValue binary_id = 10001;</code>
          */
         public io.dstore.values.IntegerValue getBinaryId() {
           if (binaryIdBuilder_ == null) {
@@ -2819,7 +2819,7 @@ public final class CoGetBinariesOfOneMemberAd {
          * ID eines "Binaries", das zum Mitglied "&#64;CommunityMemberID" in der Kategorie "CommunityBinaryCategoryID" hinterlegt ist
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue binary_id = 10001;</code>
+         * <code>.dstore.values.IntegerValue binary_id = 10001;</code>
          */
         public Builder setBinaryId(io.dstore.values.IntegerValue value) {
           if (binaryIdBuilder_ == null) {
@@ -2839,7 +2839,7 @@ public final class CoGetBinariesOfOneMemberAd {
          * ID eines "Binaries", das zum Mitglied "&#64;CommunityMemberID" in der Kategorie "CommunityBinaryCategoryID" hinterlegt ist
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue binary_id = 10001;</code>
+         * <code>.dstore.values.IntegerValue binary_id = 10001;</code>
          */
         public Builder setBinaryId(
             io.dstore.values.IntegerValue.Builder builderForValue) {
@@ -2857,7 +2857,7 @@ public final class CoGetBinariesOfOneMemberAd {
          * ID eines "Binaries", das zum Mitglied "&#64;CommunityMemberID" in der Kategorie "CommunityBinaryCategoryID" hinterlegt ist
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue binary_id = 10001;</code>
+         * <code>.dstore.values.IntegerValue binary_id = 10001;</code>
          */
         public Builder mergeBinaryId(io.dstore.values.IntegerValue value) {
           if (binaryIdBuilder_ == null) {
@@ -2879,7 +2879,7 @@ public final class CoGetBinariesOfOneMemberAd {
          * ID eines "Binaries", das zum Mitglied "&#64;CommunityMemberID" in der Kategorie "CommunityBinaryCategoryID" hinterlegt ist
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue binary_id = 10001;</code>
+         * <code>.dstore.values.IntegerValue binary_id = 10001;</code>
          */
         public Builder clearBinaryId() {
           if (binaryIdBuilder_ == null) {
@@ -2897,7 +2897,7 @@ public final class CoGetBinariesOfOneMemberAd {
          * ID eines "Binaries", das zum Mitglied "&#64;CommunityMemberID" in der Kategorie "CommunityBinaryCategoryID" hinterlegt ist
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue binary_id = 10001;</code>
+         * <code>.dstore.values.IntegerValue binary_id = 10001;</code>
          */
         public io.dstore.values.IntegerValue.Builder getBinaryIdBuilder() {
           
@@ -2909,7 +2909,7 @@ public final class CoGetBinariesOfOneMemberAd {
          * ID eines "Binaries", das zum Mitglied "&#64;CommunityMemberID" in der Kategorie "CommunityBinaryCategoryID" hinterlegt ist
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue binary_id = 10001;</code>
+         * <code>.dstore.values.IntegerValue binary_id = 10001;</code>
          */
         public io.dstore.values.IntegerValueOrBuilder getBinaryIdOrBuilder() {
           if (binaryIdBuilder_ != null) {
@@ -2924,7 +2924,7 @@ public final class CoGetBinariesOfOneMemberAd {
          * ID eines "Binaries", das zum Mitglied "&#64;CommunityMemberID" in der Kategorie "CommunityBinaryCategoryID" hinterlegt ist
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue binary_id = 10001;</code>
+         * <code>.dstore.values.IntegerValue binary_id = 10001;</code>
          */
         private com.google.protobuf.SingleFieldBuilderV3<
             io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> 
@@ -2948,7 +2948,7 @@ public final class CoGetBinariesOfOneMemberAd {
          * Beschreibung des Binärobjektes "BinaryID"
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue binary_description = 10002;</code>
+         * <code>.dstore.values.StringValue binary_description = 10002;</code>
          */
         public boolean hasBinaryDescription() {
           return binaryDescriptionBuilder_ != null || binaryDescription_ != null;
@@ -2958,7 +2958,7 @@ public final class CoGetBinariesOfOneMemberAd {
          * Beschreibung des Binärobjektes "BinaryID"
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue binary_description = 10002;</code>
+         * <code>.dstore.values.StringValue binary_description = 10002;</code>
          */
         public io.dstore.values.StringValue getBinaryDescription() {
           if (binaryDescriptionBuilder_ == null) {
@@ -2972,7 +2972,7 @@ public final class CoGetBinariesOfOneMemberAd {
          * Beschreibung des Binärobjektes "BinaryID"
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue binary_description = 10002;</code>
+         * <code>.dstore.values.StringValue binary_description = 10002;</code>
          */
         public Builder setBinaryDescription(io.dstore.values.StringValue value) {
           if (binaryDescriptionBuilder_ == null) {
@@ -2992,7 +2992,7 @@ public final class CoGetBinariesOfOneMemberAd {
          * Beschreibung des Binärobjektes "BinaryID"
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue binary_description = 10002;</code>
+         * <code>.dstore.values.StringValue binary_description = 10002;</code>
          */
         public Builder setBinaryDescription(
             io.dstore.values.StringValue.Builder builderForValue) {
@@ -3010,7 +3010,7 @@ public final class CoGetBinariesOfOneMemberAd {
          * Beschreibung des Binärobjektes "BinaryID"
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue binary_description = 10002;</code>
+         * <code>.dstore.values.StringValue binary_description = 10002;</code>
          */
         public Builder mergeBinaryDescription(io.dstore.values.StringValue value) {
           if (binaryDescriptionBuilder_ == null) {
@@ -3032,7 +3032,7 @@ public final class CoGetBinariesOfOneMemberAd {
          * Beschreibung des Binärobjektes "BinaryID"
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue binary_description = 10002;</code>
+         * <code>.dstore.values.StringValue binary_description = 10002;</code>
          */
         public Builder clearBinaryDescription() {
           if (binaryDescriptionBuilder_ == null) {
@@ -3050,7 +3050,7 @@ public final class CoGetBinariesOfOneMemberAd {
          * Beschreibung des Binärobjektes "BinaryID"
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue binary_description = 10002;</code>
+         * <code>.dstore.values.StringValue binary_description = 10002;</code>
          */
         public io.dstore.values.StringValue.Builder getBinaryDescriptionBuilder() {
           
@@ -3062,7 +3062,7 @@ public final class CoGetBinariesOfOneMemberAd {
          * Beschreibung des Binärobjektes "BinaryID"
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue binary_description = 10002;</code>
+         * <code>.dstore.values.StringValue binary_description = 10002;</code>
          */
         public io.dstore.values.StringValueOrBuilder getBinaryDescriptionOrBuilder() {
           if (binaryDescriptionBuilder_ != null) {
@@ -3077,7 +3077,7 @@ public final class CoGetBinariesOfOneMemberAd {
          * Beschreibung des Binärobjektes "BinaryID"
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue binary_description = 10002;</code>
+         * <code>.dstore.values.StringValue binary_description = 10002;</code>
          */
         private com.google.protobuf.SingleFieldBuilderV3<
             io.dstore.values.StringValue, io.dstore.values.StringValue.Builder, io.dstore.values.StringValueOrBuilder> 
@@ -3101,7 +3101,7 @@ public final class CoGetBinariesOfOneMemberAd {
          * Wann wurd das Binärobjekt "BinaryID" dem Mitglied "&#64;CommunityMemberID" zugeordnet
          * </pre>
          *
-         * <code>optional .dstore.values.TimestampValue input_date_and_time = 10003;</code>
+         * <code>.dstore.values.TimestampValue input_date_and_time = 10003;</code>
          */
         public boolean hasInputDateAndTime() {
           return inputDateAndTimeBuilder_ != null || inputDateAndTime_ != null;
@@ -3111,7 +3111,7 @@ public final class CoGetBinariesOfOneMemberAd {
          * Wann wurd das Binärobjekt "BinaryID" dem Mitglied "&#64;CommunityMemberID" zugeordnet
          * </pre>
          *
-         * <code>optional .dstore.values.TimestampValue input_date_and_time = 10003;</code>
+         * <code>.dstore.values.TimestampValue input_date_and_time = 10003;</code>
          */
         public io.dstore.values.TimestampValue getInputDateAndTime() {
           if (inputDateAndTimeBuilder_ == null) {
@@ -3125,7 +3125,7 @@ public final class CoGetBinariesOfOneMemberAd {
          * Wann wurd das Binärobjekt "BinaryID" dem Mitglied "&#64;CommunityMemberID" zugeordnet
          * </pre>
          *
-         * <code>optional .dstore.values.TimestampValue input_date_and_time = 10003;</code>
+         * <code>.dstore.values.TimestampValue input_date_and_time = 10003;</code>
          */
         public Builder setInputDateAndTime(io.dstore.values.TimestampValue value) {
           if (inputDateAndTimeBuilder_ == null) {
@@ -3145,7 +3145,7 @@ public final class CoGetBinariesOfOneMemberAd {
          * Wann wurd das Binärobjekt "BinaryID" dem Mitglied "&#64;CommunityMemberID" zugeordnet
          * </pre>
          *
-         * <code>optional .dstore.values.TimestampValue input_date_and_time = 10003;</code>
+         * <code>.dstore.values.TimestampValue input_date_and_time = 10003;</code>
          */
         public Builder setInputDateAndTime(
             io.dstore.values.TimestampValue.Builder builderForValue) {
@@ -3163,7 +3163,7 @@ public final class CoGetBinariesOfOneMemberAd {
          * Wann wurd das Binärobjekt "BinaryID" dem Mitglied "&#64;CommunityMemberID" zugeordnet
          * </pre>
          *
-         * <code>optional .dstore.values.TimestampValue input_date_and_time = 10003;</code>
+         * <code>.dstore.values.TimestampValue input_date_and_time = 10003;</code>
          */
         public Builder mergeInputDateAndTime(io.dstore.values.TimestampValue value) {
           if (inputDateAndTimeBuilder_ == null) {
@@ -3185,7 +3185,7 @@ public final class CoGetBinariesOfOneMemberAd {
          * Wann wurd das Binärobjekt "BinaryID" dem Mitglied "&#64;CommunityMemberID" zugeordnet
          * </pre>
          *
-         * <code>optional .dstore.values.TimestampValue input_date_and_time = 10003;</code>
+         * <code>.dstore.values.TimestampValue input_date_and_time = 10003;</code>
          */
         public Builder clearInputDateAndTime() {
           if (inputDateAndTimeBuilder_ == null) {
@@ -3203,7 +3203,7 @@ public final class CoGetBinariesOfOneMemberAd {
          * Wann wurd das Binärobjekt "BinaryID" dem Mitglied "&#64;CommunityMemberID" zugeordnet
          * </pre>
          *
-         * <code>optional .dstore.values.TimestampValue input_date_and_time = 10003;</code>
+         * <code>.dstore.values.TimestampValue input_date_and_time = 10003;</code>
          */
         public io.dstore.values.TimestampValue.Builder getInputDateAndTimeBuilder() {
           
@@ -3215,7 +3215,7 @@ public final class CoGetBinariesOfOneMemberAd {
          * Wann wurd das Binärobjekt "BinaryID" dem Mitglied "&#64;CommunityMemberID" zugeordnet
          * </pre>
          *
-         * <code>optional .dstore.values.TimestampValue input_date_and_time = 10003;</code>
+         * <code>.dstore.values.TimestampValue input_date_and_time = 10003;</code>
          */
         public io.dstore.values.TimestampValueOrBuilder getInputDateAndTimeOrBuilder() {
           if (inputDateAndTimeBuilder_ != null) {
@@ -3230,7 +3230,7 @@ public final class CoGetBinariesOfOneMemberAd {
          * Wann wurd das Binärobjekt "BinaryID" dem Mitglied "&#64;CommunityMemberID" zugeordnet
          * </pre>
          *
-         * <code>optional .dstore.values.TimestampValue input_date_and_time = 10003;</code>
+         * <code>.dstore.values.TimestampValue input_date_and_time = 10003;</code>
          */
         private com.google.protobuf.SingleFieldBuilderV3<
             io.dstore.values.TimestampValue, io.dstore.values.TimestampValue.Builder, io.dstore.values.TimestampValueOrBuilder> 
@@ -3254,7 +3254,7 @@ public final class CoGetBinariesOfOneMemberAd {
          * Um was für einen Dateityp handelt es sich bei dem durch "BinaryID" referenzierten Binärobjekt (z.B. "gif" oder "jpg" etc)
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue content_type = 10004;</code>
+         * <code>.dstore.values.StringValue content_type = 10004;</code>
          */
         public boolean hasContentType() {
           return contentTypeBuilder_ != null || contentType_ != null;
@@ -3264,7 +3264,7 @@ public final class CoGetBinariesOfOneMemberAd {
          * Um was für einen Dateityp handelt es sich bei dem durch "BinaryID" referenzierten Binärobjekt (z.B. "gif" oder "jpg" etc)
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue content_type = 10004;</code>
+         * <code>.dstore.values.StringValue content_type = 10004;</code>
          */
         public io.dstore.values.StringValue getContentType() {
           if (contentTypeBuilder_ == null) {
@@ -3278,7 +3278,7 @@ public final class CoGetBinariesOfOneMemberAd {
          * Um was für einen Dateityp handelt es sich bei dem durch "BinaryID" referenzierten Binärobjekt (z.B. "gif" oder "jpg" etc)
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue content_type = 10004;</code>
+         * <code>.dstore.values.StringValue content_type = 10004;</code>
          */
         public Builder setContentType(io.dstore.values.StringValue value) {
           if (contentTypeBuilder_ == null) {
@@ -3298,7 +3298,7 @@ public final class CoGetBinariesOfOneMemberAd {
          * Um was für einen Dateityp handelt es sich bei dem durch "BinaryID" referenzierten Binärobjekt (z.B. "gif" oder "jpg" etc)
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue content_type = 10004;</code>
+         * <code>.dstore.values.StringValue content_type = 10004;</code>
          */
         public Builder setContentType(
             io.dstore.values.StringValue.Builder builderForValue) {
@@ -3316,7 +3316,7 @@ public final class CoGetBinariesOfOneMemberAd {
          * Um was für einen Dateityp handelt es sich bei dem durch "BinaryID" referenzierten Binärobjekt (z.B. "gif" oder "jpg" etc)
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue content_type = 10004;</code>
+         * <code>.dstore.values.StringValue content_type = 10004;</code>
          */
         public Builder mergeContentType(io.dstore.values.StringValue value) {
           if (contentTypeBuilder_ == null) {
@@ -3338,7 +3338,7 @@ public final class CoGetBinariesOfOneMemberAd {
          * Um was für einen Dateityp handelt es sich bei dem durch "BinaryID" referenzierten Binärobjekt (z.B. "gif" oder "jpg" etc)
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue content_type = 10004;</code>
+         * <code>.dstore.values.StringValue content_type = 10004;</code>
          */
         public Builder clearContentType() {
           if (contentTypeBuilder_ == null) {
@@ -3356,7 +3356,7 @@ public final class CoGetBinariesOfOneMemberAd {
          * Um was für einen Dateityp handelt es sich bei dem durch "BinaryID" referenzierten Binärobjekt (z.B. "gif" oder "jpg" etc)
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue content_type = 10004;</code>
+         * <code>.dstore.values.StringValue content_type = 10004;</code>
          */
         public io.dstore.values.StringValue.Builder getContentTypeBuilder() {
           
@@ -3368,7 +3368,7 @@ public final class CoGetBinariesOfOneMemberAd {
          * Um was für einen Dateityp handelt es sich bei dem durch "BinaryID" referenzierten Binärobjekt (z.B. "gif" oder "jpg" etc)
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue content_type = 10004;</code>
+         * <code>.dstore.values.StringValue content_type = 10004;</code>
          */
         public io.dstore.values.StringValueOrBuilder getContentTypeOrBuilder() {
           if (contentTypeBuilder_ != null) {
@@ -3383,7 +3383,7 @@ public final class CoGetBinariesOfOneMemberAd {
          * Um was für einen Dateityp handelt es sich bei dem durch "BinaryID" referenzierten Binärobjekt (z.B. "gif" oder "jpg" etc)
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue content_type = 10004;</code>
+         * <code>.dstore.values.StringValue content_type = 10004;</code>
          */
         private com.google.protobuf.SingleFieldBuilderV3<
             io.dstore.values.StringValue, io.dstore.values.StringValue.Builder, io.dstore.values.StringValueOrBuilder> 
@@ -3407,7 +3407,7 @@ public final class CoGetBinariesOfOneMemberAd {
          * Erstellungsdatum der durch "BinaryID" referenzierten Datei
          * </pre>
          *
-         * <code>optional .dstore.values.TimestampValue file_date_and_time = 10005;</code>
+         * <code>.dstore.values.TimestampValue file_date_and_time = 10005;</code>
          */
         public boolean hasFileDateAndTime() {
           return fileDateAndTimeBuilder_ != null || fileDateAndTime_ != null;
@@ -3417,7 +3417,7 @@ public final class CoGetBinariesOfOneMemberAd {
          * Erstellungsdatum der durch "BinaryID" referenzierten Datei
          * </pre>
          *
-         * <code>optional .dstore.values.TimestampValue file_date_and_time = 10005;</code>
+         * <code>.dstore.values.TimestampValue file_date_and_time = 10005;</code>
          */
         public io.dstore.values.TimestampValue getFileDateAndTime() {
           if (fileDateAndTimeBuilder_ == null) {
@@ -3431,7 +3431,7 @@ public final class CoGetBinariesOfOneMemberAd {
          * Erstellungsdatum der durch "BinaryID" referenzierten Datei
          * </pre>
          *
-         * <code>optional .dstore.values.TimestampValue file_date_and_time = 10005;</code>
+         * <code>.dstore.values.TimestampValue file_date_and_time = 10005;</code>
          */
         public Builder setFileDateAndTime(io.dstore.values.TimestampValue value) {
           if (fileDateAndTimeBuilder_ == null) {
@@ -3451,7 +3451,7 @@ public final class CoGetBinariesOfOneMemberAd {
          * Erstellungsdatum der durch "BinaryID" referenzierten Datei
          * </pre>
          *
-         * <code>optional .dstore.values.TimestampValue file_date_and_time = 10005;</code>
+         * <code>.dstore.values.TimestampValue file_date_and_time = 10005;</code>
          */
         public Builder setFileDateAndTime(
             io.dstore.values.TimestampValue.Builder builderForValue) {
@@ -3469,7 +3469,7 @@ public final class CoGetBinariesOfOneMemberAd {
          * Erstellungsdatum der durch "BinaryID" referenzierten Datei
          * </pre>
          *
-         * <code>optional .dstore.values.TimestampValue file_date_and_time = 10005;</code>
+         * <code>.dstore.values.TimestampValue file_date_and_time = 10005;</code>
          */
         public Builder mergeFileDateAndTime(io.dstore.values.TimestampValue value) {
           if (fileDateAndTimeBuilder_ == null) {
@@ -3491,7 +3491,7 @@ public final class CoGetBinariesOfOneMemberAd {
          * Erstellungsdatum der durch "BinaryID" referenzierten Datei
          * </pre>
          *
-         * <code>optional .dstore.values.TimestampValue file_date_and_time = 10005;</code>
+         * <code>.dstore.values.TimestampValue file_date_and_time = 10005;</code>
          */
         public Builder clearFileDateAndTime() {
           if (fileDateAndTimeBuilder_ == null) {
@@ -3509,7 +3509,7 @@ public final class CoGetBinariesOfOneMemberAd {
          * Erstellungsdatum der durch "BinaryID" referenzierten Datei
          * </pre>
          *
-         * <code>optional .dstore.values.TimestampValue file_date_and_time = 10005;</code>
+         * <code>.dstore.values.TimestampValue file_date_and_time = 10005;</code>
          */
         public io.dstore.values.TimestampValue.Builder getFileDateAndTimeBuilder() {
           
@@ -3521,7 +3521,7 @@ public final class CoGetBinariesOfOneMemberAd {
          * Erstellungsdatum der durch "BinaryID" referenzierten Datei
          * </pre>
          *
-         * <code>optional .dstore.values.TimestampValue file_date_and_time = 10005;</code>
+         * <code>.dstore.values.TimestampValue file_date_and_time = 10005;</code>
          */
         public io.dstore.values.TimestampValueOrBuilder getFileDateAndTimeOrBuilder() {
           if (fileDateAndTimeBuilder_ != null) {
@@ -3536,7 +3536,7 @@ public final class CoGetBinariesOfOneMemberAd {
          * Erstellungsdatum der durch "BinaryID" referenzierten Datei
          * </pre>
          *
-         * <code>optional .dstore.values.TimestampValue file_date_and_time = 10005;</code>
+         * <code>.dstore.values.TimestampValue file_date_and_time = 10005;</code>
          */
         private com.google.protobuf.SingleFieldBuilderV3<
             io.dstore.values.TimestampValue, io.dstore.values.TimestampValue.Builder, io.dstore.values.TimestampValueOrBuilder> 
@@ -3560,7 +3560,7 @@ public final class CoGetBinariesOfOneMemberAd {
          * Größe des Binärobjektes "BinaryID" (bzw. der referenzierten Datei, die ja nicht in der Datenbank gespeichert wird !) in KiloBytes
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue filesize_in_k_b = 10006;</code>
+         * <code>.dstore.values.IntegerValue filesize_in_k_b = 10006;</code>
          */
         public boolean hasFilesizeInKB() {
           return filesizeInKBBuilder_ != null || filesizeInKB_ != null;
@@ -3570,7 +3570,7 @@ public final class CoGetBinariesOfOneMemberAd {
          * Größe des Binärobjektes "BinaryID" (bzw. der referenzierten Datei, die ja nicht in der Datenbank gespeichert wird !) in KiloBytes
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue filesize_in_k_b = 10006;</code>
+         * <code>.dstore.values.IntegerValue filesize_in_k_b = 10006;</code>
          */
         public io.dstore.values.IntegerValue getFilesizeInKB() {
           if (filesizeInKBBuilder_ == null) {
@@ -3584,7 +3584,7 @@ public final class CoGetBinariesOfOneMemberAd {
          * Größe des Binärobjektes "BinaryID" (bzw. der referenzierten Datei, die ja nicht in der Datenbank gespeichert wird !) in KiloBytes
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue filesize_in_k_b = 10006;</code>
+         * <code>.dstore.values.IntegerValue filesize_in_k_b = 10006;</code>
          */
         public Builder setFilesizeInKB(io.dstore.values.IntegerValue value) {
           if (filesizeInKBBuilder_ == null) {
@@ -3604,7 +3604,7 @@ public final class CoGetBinariesOfOneMemberAd {
          * Größe des Binärobjektes "BinaryID" (bzw. der referenzierten Datei, die ja nicht in der Datenbank gespeichert wird !) in KiloBytes
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue filesize_in_k_b = 10006;</code>
+         * <code>.dstore.values.IntegerValue filesize_in_k_b = 10006;</code>
          */
         public Builder setFilesizeInKB(
             io.dstore.values.IntegerValue.Builder builderForValue) {
@@ -3622,7 +3622,7 @@ public final class CoGetBinariesOfOneMemberAd {
          * Größe des Binärobjektes "BinaryID" (bzw. der referenzierten Datei, die ja nicht in der Datenbank gespeichert wird !) in KiloBytes
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue filesize_in_k_b = 10006;</code>
+         * <code>.dstore.values.IntegerValue filesize_in_k_b = 10006;</code>
          */
         public Builder mergeFilesizeInKB(io.dstore.values.IntegerValue value) {
           if (filesizeInKBBuilder_ == null) {
@@ -3644,7 +3644,7 @@ public final class CoGetBinariesOfOneMemberAd {
          * Größe des Binärobjektes "BinaryID" (bzw. der referenzierten Datei, die ja nicht in der Datenbank gespeichert wird !) in KiloBytes
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue filesize_in_k_b = 10006;</code>
+         * <code>.dstore.values.IntegerValue filesize_in_k_b = 10006;</code>
          */
         public Builder clearFilesizeInKB() {
           if (filesizeInKBBuilder_ == null) {
@@ -3662,7 +3662,7 @@ public final class CoGetBinariesOfOneMemberAd {
          * Größe des Binärobjektes "BinaryID" (bzw. der referenzierten Datei, die ja nicht in der Datenbank gespeichert wird !) in KiloBytes
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue filesize_in_k_b = 10006;</code>
+         * <code>.dstore.values.IntegerValue filesize_in_k_b = 10006;</code>
          */
         public io.dstore.values.IntegerValue.Builder getFilesizeInKBBuilder() {
           
@@ -3674,7 +3674,7 @@ public final class CoGetBinariesOfOneMemberAd {
          * Größe des Binärobjektes "BinaryID" (bzw. der referenzierten Datei, die ja nicht in der Datenbank gespeichert wird !) in KiloBytes
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue filesize_in_k_b = 10006;</code>
+         * <code>.dstore.values.IntegerValue filesize_in_k_b = 10006;</code>
          */
         public io.dstore.values.IntegerValueOrBuilder getFilesizeInKBOrBuilder() {
           if (filesizeInKBBuilder_ != null) {
@@ -3689,7 +3689,7 @@ public final class CoGetBinariesOfOneMemberAd {
          * Größe des Binärobjektes "BinaryID" (bzw. der referenzierten Datei, die ja nicht in der Datenbank gespeichert wird !) in KiloBytes
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue filesize_in_k_b = 10006;</code>
+         * <code>.dstore.values.IntegerValue filesize_in_k_b = 10006;</code>
          */
         private com.google.protobuf.SingleFieldBuilderV3<
             io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> 
@@ -3713,7 +3713,7 @@ public final class CoGetBinariesOfOneMemberAd {
          * Bestimmt die Reihenfolge der "BinaryID" innerhalb aller "Binaries" der Kategorie "CommunityBinaryCategoryID"
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue sort_no = 10007;</code>
+         * <code>.dstore.values.IntegerValue sort_no = 10007;</code>
          */
         public boolean hasSortNo() {
           return sortNoBuilder_ != null || sortNo_ != null;
@@ -3723,7 +3723,7 @@ public final class CoGetBinariesOfOneMemberAd {
          * Bestimmt die Reihenfolge der "BinaryID" innerhalb aller "Binaries" der Kategorie "CommunityBinaryCategoryID"
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue sort_no = 10007;</code>
+         * <code>.dstore.values.IntegerValue sort_no = 10007;</code>
          */
         public io.dstore.values.IntegerValue getSortNo() {
           if (sortNoBuilder_ == null) {
@@ -3737,7 +3737,7 @@ public final class CoGetBinariesOfOneMemberAd {
          * Bestimmt die Reihenfolge der "BinaryID" innerhalb aller "Binaries" der Kategorie "CommunityBinaryCategoryID"
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue sort_no = 10007;</code>
+         * <code>.dstore.values.IntegerValue sort_no = 10007;</code>
          */
         public Builder setSortNo(io.dstore.values.IntegerValue value) {
           if (sortNoBuilder_ == null) {
@@ -3757,7 +3757,7 @@ public final class CoGetBinariesOfOneMemberAd {
          * Bestimmt die Reihenfolge der "BinaryID" innerhalb aller "Binaries" der Kategorie "CommunityBinaryCategoryID"
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue sort_no = 10007;</code>
+         * <code>.dstore.values.IntegerValue sort_no = 10007;</code>
          */
         public Builder setSortNo(
             io.dstore.values.IntegerValue.Builder builderForValue) {
@@ -3775,7 +3775,7 @@ public final class CoGetBinariesOfOneMemberAd {
          * Bestimmt die Reihenfolge der "BinaryID" innerhalb aller "Binaries" der Kategorie "CommunityBinaryCategoryID"
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue sort_no = 10007;</code>
+         * <code>.dstore.values.IntegerValue sort_no = 10007;</code>
          */
         public Builder mergeSortNo(io.dstore.values.IntegerValue value) {
           if (sortNoBuilder_ == null) {
@@ -3797,7 +3797,7 @@ public final class CoGetBinariesOfOneMemberAd {
          * Bestimmt die Reihenfolge der "BinaryID" innerhalb aller "Binaries" der Kategorie "CommunityBinaryCategoryID"
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue sort_no = 10007;</code>
+         * <code>.dstore.values.IntegerValue sort_no = 10007;</code>
          */
         public Builder clearSortNo() {
           if (sortNoBuilder_ == null) {
@@ -3815,7 +3815,7 @@ public final class CoGetBinariesOfOneMemberAd {
          * Bestimmt die Reihenfolge der "BinaryID" innerhalb aller "Binaries" der Kategorie "CommunityBinaryCategoryID"
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue sort_no = 10007;</code>
+         * <code>.dstore.values.IntegerValue sort_no = 10007;</code>
          */
         public io.dstore.values.IntegerValue.Builder getSortNoBuilder() {
           
@@ -3827,7 +3827,7 @@ public final class CoGetBinariesOfOneMemberAd {
          * Bestimmt die Reihenfolge der "BinaryID" innerhalb aller "Binaries" der Kategorie "CommunityBinaryCategoryID"
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue sort_no = 10007;</code>
+         * <code>.dstore.values.IntegerValue sort_no = 10007;</code>
          */
         public io.dstore.values.IntegerValueOrBuilder getSortNoOrBuilder() {
           if (sortNoBuilder_ != null) {
@@ -3842,7 +3842,7 @@ public final class CoGetBinariesOfOneMemberAd {
          * Bestimmt die Reihenfolge der "BinaryID" innerhalb aller "Binaries" der Kategorie "CommunityBinaryCategoryID"
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue sort_no = 10007;</code>
+         * <code>.dstore.values.IntegerValue sort_no = 10007;</code>
          */
         private com.google.protobuf.SingleFieldBuilderV3<
             io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> 
@@ -3866,7 +3866,7 @@ public final class CoGetBinariesOfOneMemberAd {
          * Bezeichnung der Kategorie "CommunityBinaryCategoryID"
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue community_binary_category = 10008;</code>
+         * <code>.dstore.values.StringValue community_binary_category = 10008;</code>
          */
         public boolean hasCommunityBinaryCategory() {
           return communityBinaryCategoryBuilder_ != null || communityBinaryCategory_ != null;
@@ -3876,7 +3876,7 @@ public final class CoGetBinariesOfOneMemberAd {
          * Bezeichnung der Kategorie "CommunityBinaryCategoryID"
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue community_binary_category = 10008;</code>
+         * <code>.dstore.values.StringValue community_binary_category = 10008;</code>
          */
         public io.dstore.values.StringValue getCommunityBinaryCategory() {
           if (communityBinaryCategoryBuilder_ == null) {
@@ -3890,7 +3890,7 @@ public final class CoGetBinariesOfOneMemberAd {
          * Bezeichnung der Kategorie "CommunityBinaryCategoryID"
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue community_binary_category = 10008;</code>
+         * <code>.dstore.values.StringValue community_binary_category = 10008;</code>
          */
         public Builder setCommunityBinaryCategory(io.dstore.values.StringValue value) {
           if (communityBinaryCategoryBuilder_ == null) {
@@ -3910,7 +3910,7 @@ public final class CoGetBinariesOfOneMemberAd {
          * Bezeichnung der Kategorie "CommunityBinaryCategoryID"
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue community_binary_category = 10008;</code>
+         * <code>.dstore.values.StringValue community_binary_category = 10008;</code>
          */
         public Builder setCommunityBinaryCategory(
             io.dstore.values.StringValue.Builder builderForValue) {
@@ -3928,7 +3928,7 @@ public final class CoGetBinariesOfOneMemberAd {
          * Bezeichnung der Kategorie "CommunityBinaryCategoryID"
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue community_binary_category = 10008;</code>
+         * <code>.dstore.values.StringValue community_binary_category = 10008;</code>
          */
         public Builder mergeCommunityBinaryCategory(io.dstore.values.StringValue value) {
           if (communityBinaryCategoryBuilder_ == null) {
@@ -3950,7 +3950,7 @@ public final class CoGetBinariesOfOneMemberAd {
          * Bezeichnung der Kategorie "CommunityBinaryCategoryID"
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue community_binary_category = 10008;</code>
+         * <code>.dstore.values.StringValue community_binary_category = 10008;</code>
          */
         public Builder clearCommunityBinaryCategory() {
           if (communityBinaryCategoryBuilder_ == null) {
@@ -3968,7 +3968,7 @@ public final class CoGetBinariesOfOneMemberAd {
          * Bezeichnung der Kategorie "CommunityBinaryCategoryID"
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue community_binary_category = 10008;</code>
+         * <code>.dstore.values.StringValue community_binary_category = 10008;</code>
          */
         public io.dstore.values.StringValue.Builder getCommunityBinaryCategoryBuilder() {
           
@@ -3980,7 +3980,7 @@ public final class CoGetBinariesOfOneMemberAd {
          * Bezeichnung der Kategorie "CommunityBinaryCategoryID"
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue community_binary_category = 10008;</code>
+         * <code>.dstore.values.StringValue community_binary_category = 10008;</code>
          */
         public io.dstore.values.StringValueOrBuilder getCommunityBinaryCategoryOrBuilder() {
           if (communityBinaryCategoryBuilder_ != null) {
@@ -3995,7 +3995,7 @@ public final class CoGetBinariesOfOneMemberAd {
          * Bezeichnung der Kategorie "CommunityBinaryCategoryID"
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue community_binary_category = 10008;</code>
+         * <code>.dstore.values.StringValue community_binary_category = 10008;</code>
          */
         private com.google.protobuf.SingleFieldBuilderV3<
             io.dstore.values.StringValue, io.dstore.values.StringValue.Builder, io.dstore.values.StringValueOrBuilder> 
@@ -4019,7 +4019,7 @@ public final class CoGetBinariesOfOneMemberAd {
          * ID einer Kategorie von Binärdateien (z.B. für den "Steckbrief" eines Mitglieds)
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue community_binary_category_id = 10009;</code>
+         * <code>.dstore.values.IntegerValue community_binary_category_id = 10009;</code>
          */
         public boolean hasCommunityBinaryCategoryId() {
           return communityBinaryCategoryIdBuilder_ != null || communityBinaryCategoryId_ != null;
@@ -4029,7 +4029,7 @@ public final class CoGetBinariesOfOneMemberAd {
          * ID einer Kategorie von Binärdateien (z.B. für den "Steckbrief" eines Mitglieds)
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue community_binary_category_id = 10009;</code>
+         * <code>.dstore.values.IntegerValue community_binary_category_id = 10009;</code>
          */
         public io.dstore.values.IntegerValue getCommunityBinaryCategoryId() {
           if (communityBinaryCategoryIdBuilder_ == null) {
@@ -4043,7 +4043,7 @@ public final class CoGetBinariesOfOneMemberAd {
          * ID einer Kategorie von Binärdateien (z.B. für den "Steckbrief" eines Mitglieds)
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue community_binary_category_id = 10009;</code>
+         * <code>.dstore.values.IntegerValue community_binary_category_id = 10009;</code>
          */
         public Builder setCommunityBinaryCategoryId(io.dstore.values.IntegerValue value) {
           if (communityBinaryCategoryIdBuilder_ == null) {
@@ -4063,7 +4063,7 @@ public final class CoGetBinariesOfOneMemberAd {
          * ID einer Kategorie von Binärdateien (z.B. für den "Steckbrief" eines Mitglieds)
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue community_binary_category_id = 10009;</code>
+         * <code>.dstore.values.IntegerValue community_binary_category_id = 10009;</code>
          */
         public Builder setCommunityBinaryCategoryId(
             io.dstore.values.IntegerValue.Builder builderForValue) {
@@ -4081,7 +4081,7 @@ public final class CoGetBinariesOfOneMemberAd {
          * ID einer Kategorie von Binärdateien (z.B. für den "Steckbrief" eines Mitglieds)
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue community_binary_category_id = 10009;</code>
+         * <code>.dstore.values.IntegerValue community_binary_category_id = 10009;</code>
          */
         public Builder mergeCommunityBinaryCategoryId(io.dstore.values.IntegerValue value) {
           if (communityBinaryCategoryIdBuilder_ == null) {
@@ -4103,7 +4103,7 @@ public final class CoGetBinariesOfOneMemberAd {
          * ID einer Kategorie von Binärdateien (z.B. für den "Steckbrief" eines Mitglieds)
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue community_binary_category_id = 10009;</code>
+         * <code>.dstore.values.IntegerValue community_binary_category_id = 10009;</code>
          */
         public Builder clearCommunityBinaryCategoryId() {
           if (communityBinaryCategoryIdBuilder_ == null) {
@@ -4121,7 +4121,7 @@ public final class CoGetBinariesOfOneMemberAd {
          * ID einer Kategorie von Binärdateien (z.B. für den "Steckbrief" eines Mitglieds)
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue community_binary_category_id = 10009;</code>
+         * <code>.dstore.values.IntegerValue community_binary_category_id = 10009;</code>
          */
         public io.dstore.values.IntegerValue.Builder getCommunityBinaryCategoryIdBuilder() {
           
@@ -4133,7 +4133,7 @@ public final class CoGetBinariesOfOneMemberAd {
          * ID einer Kategorie von Binärdateien (z.B. für den "Steckbrief" eines Mitglieds)
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue community_binary_category_id = 10009;</code>
+         * <code>.dstore.values.IntegerValue community_binary_category_id = 10009;</code>
          */
         public io.dstore.values.IntegerValueOrBuilder getCommunityBinaryCategoryIdOrBuilder() {
           if (communityBinaryCategoryIdBuilder_ != null) {
@@ -4148,7 +4148,7 @@ public final class CoGetBinariesOfOneMemberAd {
          * ID einer Kategorie von Binärdateien (z.B. für den "Steckbrief" eines Mitglieds)
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue community_binary_category_id = 10009;</code>
+         * <code>.dstore.values.IntegerValue community_binary_category_id = 10009;</code>
          */
         private com.google.protobuf.SingleFieldBuilderV3<
             io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> 
@@ -4172,7 +4172,7 @@ public final class CoGetBinariesOfOneMemberAd {
          * Angabe in KiloBytes, die dem Mitglied auf sein Quota angerechnet wird (Immer gleich "FileSizeInKB" oder "0", wenn quasi nur eine Referenz gespeichert wird auf eine Datei, die ein anderes Mitglied hochgeladen hat)
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue quoted_file_size_in_k_b = 10010;</code>
+         * <code>.dstore.values.IntegerValue quoted_file_size_in_k_b = 10010;</code>
          */
         public boolean hasQuotedFileSizeInKB() {
           return quotedFileSizeInKBBuilder_ != null || quotedFileSizeInKB_ != null;
@@ -4182,7 +4182,7 @@ public final class CoGetBinariesOfOneMemberAd {
          * Angabe in KiloBytes, die dem Mitglied auf sein Quota angerechnet wird (Immer gleich "FileSizeInKB" oder "0", wenn quasi nur eine Referenz gespeichert wird auf eine Datei, die ein anderes Mitglied hochgeladen hat)
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue quoted_file_size_in_k_b = 10010;</code>
+         * <code>.dstore.values.IntegerValue quoted_file_size_in_k_b = 10010;</code>
          */
         public io.dstore.values.IntegerValue getQuotedFileSizeInKB() {
           if (quotedFileSizeInKBBuilder_ == null) {
@@ -4196,7 +4196,7 @@ public final class CoGetBinariesOfOneMemberAd {
          * Angabe in KiloBytes, die dem Mitglied auf sein Quota angerechnet wird (Immer gleich "FileSizeInKB" oder "0", wenn quasi nur eine Referenz gespeichert wird auf eine Datei, die ein anderes Mitglied hochgeladen hat)
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue quoted_file_size_in_k_b = 10010;</code>
+         * <code>.dstore.values.IntegerValue quoted_file_size_in_k_b = 10010;</code>
          */
         public Builder setQuotedFileSizeInKB(io.dstore.values.IntegerValue value) {
           if (quotedFileSizeInKBBuilder_ == null) {
@@ -4216,7 +4216,7 @@ public final class CoGetBinariesOfOneMemberAd {
          * Angabe in KiloBytes, die dem Mitglied auf sein Quota angerechnet wird (Immer gleich "FileSizeInKB" oder "0", wenn quasi nur eine Referenz gespeichert wird auf eine Datei, die ein anderes Mitglied hochgeladen hat)
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue quoted_file_size_in_k_b = 10010;</code>
+         * <code>.dstore.values.IntegerValue quoted_file_size_in_k_b = 10010;</code>
          */
         public Builder setQuotedFileSizeInKB(
             io.dstore.values.IntegerValue.Builder builderForValue) {
@@ -4234,7 +4234,7 @@ public final class CoGetBinariesOfOneMemberAd {
          * Angabe in KiloBytes, die dem Mitglied auf sein Quota angerechnet wird (Immer gleich "FileSizeInKB" oder "0", wenn quasi nur eine Referenz gespeichert wird auf eine Datei, die ein anderes Mitglied hochgeladen hat)
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue quoted_file_size_in_k_b = 10010;</code>
+         * <code>.dstore.values.IntegerValue quoted_file_size_in_k_b = 10010;</code>
          */
         public Builder mergeQuotedFileSizeInKB(io.dstore.values.IntegerValue value) {
           if (quotedFileSizeInKBBuilder_ == null) {
@@ -4256,7 +4256,7 @@ public final class CoGetBinariesOfOneMemberAd {
          * Angabe in KiloBytes, die dem Mitglied auf sein Quota angerechnet wird (Immer gleich "FileSizeInKB" oder "0", wenn quasi nur eine Referenz gespeichert wird auf eine Datei, die ein anderes Mitglied hochgeladen hat)
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue quoted_file_size_in_k_b = 10010;</code>
+         * <code>.dstore.values.IntegerValue quoted_file_size_in_k_b = 10010;</code>
          */
         public Builder clearQuotedFileSizeInKB() {
           if (quotedFileSizeInKBBuilder_ == null) {
@@ -4274,7 +4274,7 @@ public final class CoGetBinariesOfOneMemberAd {
          * Angabe in KiloBytes, die dem Mitglied auf sein Quota angerechnet wird (Immer gleich "FileSizeInKB" oder "0", wenn quasi nur eine Referenz gespeichert wird auf eine Datei, die ein anderes Mitglied hochgeladen hat)
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue quoted_file_size_in_k_b = 10010;</code>
+         * <code>.dstore.values.IntegerValue quoted_file_size_in_k_b = 10010;</code>
          */
         public io.dstore.values.IntegerValue.Builder getQuotedFileSizeInKBBuilder() {
           
@@ -4286,7 +4286,7 @@ public final class CoGetBinariesOfOneMemberAd {
          * Angabe in KiloBytes, die dem Mitglied auf sein Quota angerechnet wird (Immer gleich "FileSizeInKB" oder "0", wenn quasi nur eine Referenz gespeichert wird auf eine Datei, die ein anderes Mitglied hochgeladen hat)
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue quoted_file_size_in_k_b = 10010;</code>
+         * <code>.dstore.values.IntegerValue quoted_file_size_in_k_b = 10010;</code>
          */
         public io.dstore.values.IntegerValueOrBuilder getQuotedFileSizeInKBOrBuilder() {
           if (quotedFileSizeInKBBuilder_ != null) {
@@ -4301,7 +4301,7 @@ public final class CoGetBinariesOfOneMemberAd {
          * Angabe in KiloBytes, die dem Mitglied auf sein Quota angerechnet wird (Immer gleich "FileSizeInKB" oder "0", wenn quasi nur eine Referenz gespeichert wird auf eine Datei, die ein anderes Mitglied hochgeladen hat)
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue quoted_file_size_in_k_b = 10010;</code>
+         * <code>.dstore.values.IntegerValue quoted_file_size_in_k_b = 10010;</code>
          */
         private com.google.protobuf.SingleFieldBuilderV3<
             io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> 
@@ -4325,7 +4325,7 @@ public final class CoGetBinariesOfOneMemberAd {
          * "FileDateAndTime" als "String" - in der Form "15.01.2001 22:16:55"
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue file_date_and_time_char = 10011;</code>
+         * <code>.dstore.values.StringValue file_date_and_time_char = 10011;</code>
          */
         public boolean hasFileDateAndTimeChar() {
           return fileDateAndTimeCharBuilder_ != null || fileDateAndTimeChar_ != null;
@@ -4335,7 +4335,7 @@ public final class CoGetBinariesOfOneMemberAd {
          * "FileDateAndTime" als "String" - in der Form "15.01.2001 22:16:55"
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue file_date_and_time_char = 10011;</code>
+         * <code>.dstore.values.StringValue file_date_and_time_char = 10011;</code>
          */
         public io.dstore.values.StringValue getFileDateAndTimeChar() {
           if (fileDateAndTimeCharBuilder_ == null) {
@@ -4349,7 +4349,7 @@ public final class CoGetBinariesOfOneMemberAd {
          * "FileDateAndTime" als "String" - in der Form "15.01.2001 22:16:55"
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue file_date_and_time_char = 10011;</code>
+         * <code>.dstore.values.StringValue file_date_and_time_char = 10011;</code>
          */
         public Builder setFileDateAndTimeChar(io.dstore.values.StringValue value) {
           if (fileDateAndTimeCharBuilder_ == null) {
@@ -4369,7 +4369,7 @@ public final class CoGetBinariesOfOneMemberAd {
          * "FileDateAndTime" als "String" - in der Form "15.01.2001 22:16:55"
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue file_date_and_time_char = 10011;</code>
+         * <code>.dstore.values.StringValue file_date_and_time_char = 10011;</code>
          */
         public Builder setFileDateAndTimeChar(
             io.dstore.values.StringValue.Builder builderForValue) {
@@ -4387,7 +4387,7 @@ public final class CoGetBinariesOfOneMemberAd {
          * "FileDateAndTime" als "String" - in der Form "15.01.2001 22:16:55"
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue file_date_and_time_char = 10011;</code>
+         * <code>.dstore.values.StringValue file_date_and_time_char = 10011;</code>
          */
         public Builder mergeFileDateAndTimeChar(io.dstore.values.StringValue value) {
           if (fileDateAndTimeCharBuilder_ == null) {
@@ -4409,7 +4409,7 @@ public final class CoGetBinariesOfOneMemberAd {
          * "FileDateAndTime" als "String" - in der Form "15.01.2001 22:16:55"
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue file_date_and_time_char = 10011;</code>
+         * <code>.dstore.values.StringValue file_date_and_time_char = 10011;</code>
          */
         public Builder clearFileDateAndTimeChar() {
           if (fileDateAndTimeCharBuilder_ == null) {
@@ -4427,7 +4427,7 @@ public final class CoGetBinariesOfOneMemberAd {
          * "FileDateAndTime" als "String" - in der Form "15.01.2001 22:16:55"
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue file_date_and_time_char = 10011;</code>
+         * <code>.dstore.values.StringValue file_date_and_time_char = 10011;</code>
          */
         public io.dstore.values.StringValue.Builder getFileDateAndTimeCharBuilder() {
           
@@ -4439,7 +4439,7 @@ public final class CoGetBinariesOfOneMemberAd {
          * "FileDateAndTime" als "String" - in der Form "15.01.2001 22:16:55"
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue file_date_and_time_char = 10011;</code>
+         * <code>.dstore.values.StringValue file_date_and_time_char = 10011;</code>
          */
         public io.dstore.values.StringValueOrBuilder getFileDateAndTimeCharOrBuilder() {
           if (fileDateAndTimeCharBuilder_ != null) {
@@ -4454,7 +4454,7 @@ public final class CoGetBinariesOfOneMemberAd {
          * "FileDateAndTime" als "String" - in der Form "15.01.2001 22:16:55"
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue file_date_and_time_char = 10011;</code>
+         * <code>.dstore.values.StringValue file_date_and_time_char = 10011;</code>
          */
         private com.google.protobuf.SingleFieldBuilderV3<
             io.dstore.values.StringValue, io.dstore.values.StringValue.Builder, io.dstore.values.StringValueOrBuilder> 
@@ -4478,7 +4478,7 @@ public final class CoGetBinariesOfOneMemberAd {
          * "MD5-Hash" der durch "BinaryID" referenzierten Datei
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue m_d5_hash = 10012;</code>
+         * <code>.dstore.values.StringValue m_d5_hash = 10012;</code>
          */
         public boolean hasMD5Hash() {
           return mD5HashBuilder_ != null || mD5Hash_ != null;
@@ -4488,7 +4488,7 @@ public final class CoGetBinariesOfOneMemberAd {
          * "MD5-Hash" der durch "BinaryID" referenzierten Datei
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue m_d5_hash = 10012;</code>
+         * <code>.dstore.values.StringValue m_d5_hash = 10012;</code>
          */
         public io.dstore.values.StringValue getMD5Hash() {
           if (mD5HashBuilder_ == null) {
@@ -4502,7 +4502,7 @@ public final class CoGetBinariesOfOneMemberAd {
          * "MD5-Hash" der durch "BinaryID" referenzierten Datei
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue m_d5_hash = 10012;</code>
+         * <code>.dstore.values.StringValue m_d5_hash = 10012;</code>
          */
         public Builder setMD5Hash(io.dstore.values.StringValue value) {
           if (mD5HashBuilder_ == null) {
@@ -4522,7 +4522,7 @@ public final class CoGetBinariesOfOneMemberAd {
          * "MD5-Hash" der durch "BinaryID" referenzierten Datei
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue m_d5_hash = 10012;</code>
+         * <code>.dstore.values.StringValue m_d5_hash = 10012;</code>
          */
         public Builder setMD5Hash(
             io.dstore.values.StringValue.Builder builderForValue) {
@@ -4540,7 +4540,7 @@ public final class CoGetBinariesOfOneMemberAd {
          * "MD5-Hash" der durch "BinaryID" referenzierten Datei
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue m_d5_hash = 10012;</code>
+         * <code>.dstore.values.StringValue m_d5_hash = 10012;</code>
          */
         public Builder mergeMD5Hash(io.dstore.values.StringValue value) {
           if (mD5HashBuilder_ == null) {
@@ -4562,7 +4562,7 @@ public final class CoGetBinariesOfOneMemberAd {
          * "MD5-Hash" der durch "BinaryID" referenzierten Datei
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue m_d5_hash = 10012;</code>
+         * <code>.dstore.values.StringValue m_d5_hash = 10012;</code>
          */
         public Builder clearMD5Hash() {
           if (mD5HashBuilder_ == null) {
@@ -4580,7 +4580,7 @@ public final class CoGetBinariesOfOneMemberAd {
          * "MD5-Hash" der durch "BinaryID" referenzierten Datei
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue m_d5_hash = 10012;</code>
+         * <code>.dstore.values.StringValue m_d5_hash = 10012;</code>
          */
         public io.dstore.values.StringValue.Builder getMD5HashBuilder() {
           
@@ -4592,7 +4592,7 @@ public final class CoGetBinariesOfOneMemberAd {
          * "MD5-Hash" der durch "BinaryID" referenzierten Datei
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue m_d5_hash = 10012;</code>
+         * <code>.dstore.values.StringValue m_d5_hash = 10012;</code>
          */
         public io.dstore.values.StringValueOrBuilder getMD5HashOrBuilder() {
           if (mD5HashBuilder_ != null) {
@@ -4607,7 +4607,7 @@ public final class CoGetBinariesOfOneMemberAd {
          * "MD5-Hash" der durch "BinaryID" referenzierten Datei
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue m_d5_hash = 10012;</code>
+         * <code>.dstore.values.StringValue m_d5_hash = 10012;</code>
          */
         private com.google.protobuf.SingleFieldBuilderV3<
             io.dstore.values.StringValue, io.dstore.values.StringValue.Builder, io.dstore.values.StringValueOrBuilder> 
@@ -4631,7 +4631,7 @@ public final class CoGetBinariesOfOneMemberAd {
          * "InputDateAndTime" als "String" - in der Form "15.01.2001 22:16:55"
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue input_date_and_time_char = 10013;</code>
+         * <code>.dstore.values.StringValue input_date_and_time_char = 10013;</code>
          */
         public boolean hasInputDateAndTimeChar() {
           return inputDateAndTimeCharBuilder_ != null || inputDateAndTimeChar_ != null;
@@ -4641,7 +4641,7 @@ public final class CoGetBinariesOfOneMemberAd {
          * "InputDateAndTime" als "String" - in der Form "15.01.2001 22:16:55"
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue input_date_and_time_char = 10013;</code>
+         * <code>.dstore.values.StringValue input_date_and_time_char = 10013;</code>
          */
         public io.dstore.values.StringValue getInputDateAndTimeChar() {
           if (inputDateAndTimeCharBuilder_ == null) {
@@ -4655,7 +4655,7 @@ public final class CoGetBinariesOfOneMemberAd {
          * "InputDateAndTime" als "String" - in der Form "15.01.2001 22:16:55"
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue input_date_and_time_char = 10013;</code>
+         * <code>.dstore.values.StringValue input_date_and_time_char = 10013;</code>
          */
         public Builder setInputDateAndTimeChar(io.dstore.values.StringValue value) {
           if (inputDateAndTimeCharBuilder_ == null) {
@@ -4675,7 +4675,7 @@ public final class CoGetBinariesOfOneMemberAd {
          * "InputDateAndTime" als "String" - in der Form "15.01.2001 22:16:55"
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue input_date_and_time_char = 10013;</code>
+         * <code>.dstore.values.StringValue input_date_and_time_char = 10013;</code>
          */
         public Builder setInputDateAndTimeChar(
             io.dstore.values.StringValue.Builder builderForValue) {
@@ -4693,7 +4693,7 @@ public final class CoGetBinariesOfOneMemberAd {
          * "InputDateAndTime" als "String" - in der Form "15.01.2001 22:16:55"
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue input_date_and_time_char = 10013;</code>
+         * <code>.dstore.values.StringValue input_date_and_time_char = 10013;</code>
          */
         public Builder mergeInputDateAndTimeChar(io.dstore.values.StringValue value) {
           if (inputDateAndTimeCharBuilder_ == null) {
@@ -4715,7 +4715,7 @@ public final class CoGetBinariesOfOneMemberAd {
          * "InputDateAndTime" als "String" - in der Form "15.01.2001 22:16:55"
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue input_date_and_time_char = 10013;</code>
+         * <code>.dstore.values.StringValue input_date_and_time_char = 10013;</code>
          */
         public Builder clearInputDateAndTimeChar() {
           if (inputDateAndTimeCharBuilder_ == null) {
@@ -4733,7 +4733,7 @@ public final class CoGetBinariesOfOneMemberAd {
          * "InputDateAndTime" als "String" - in der Form "15.01.2001 22:16:55"
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue input_date_and_time_char = 10013;</code>
+         * <code>.dstore.values.StringValue input_date_and_time_char = 10013;</code>
          */
         public io.dstore.values.StringValue.Builder getInputDateAndTimeCharBuilder() {
           
@@ -4745,7 +4745,7 @@ public final class CoGetBinariesOfOneMemberAd {
          * "InputDateAndTime" als "String" - in der Form "15.01.2001 22:16:55"
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue input_date_and_time_char = 10013;</code>
+         * <code>.dstore.values.StringValue input_date_and_time_char = 10013;</code>
          */
         public io.dstore.values.StringValueOrBuilder getInputDateAndTimeCharOrBuilder() {
           if (inputDateAndTimeCharBuilder_ != null) {
@@ -4760,7 +4760,7 @@ public final class CoGetBinariesOfOneMemberAd {
          * "InputDateAndTime" als "String" - in der Form "15.01.2001 22:16:55"
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue input_date_and_time_char = 10013;</code>
+         * <code>.dstore.values.StringValue input_date_and_time_char = 10013;</code>
          */
         private com.google.protobuf.SingleFieldBuilderV3<
             io.dstore.values.StringValue, io.dstore.values.StringValue.Builder, io.dstore.values.StringValueOrBuilder> 
@@ -5020,7 +5020,7 @@ public final class CoGetBinariesOfOneMemberAd {
         return memoizedHashCode;
       }
       int hash = 41;
-      hash = (19 * hash) + getDescriptorForType().hashCode();
+      hash = (19 * hash) + getDescriptor().hashCode();
       if (getMetaInformationCount() > 0) {
         hash = (37 * hash) + META_INFORMATION_FIELD_NUMBER;
         hash = (53 * hash) + getMetaInformationList().hashCode();

@@ -19,92 +19,92 @@ public final class OmGetPersonInfoForOrdersAd {
       com.google.protobuf.MessageOrBuilder {
 
     /**
-     * <code>optional .dstore.values.IntegerValue order_id = 1;</code>
+     * <code>.dstore.values.IntegerValue order_id = 1;</code>
      */
     boolean hasOrderId();
     /**
-     * <code>optional .dstore.values.IntegerValue order_id = 1;</code>
+     * <code>.dstore.values.IntegerValue order_id = 1;</code>
      */
     io.dstore.values.IntegerValue getOrderId();
     /**
-     * <code>optional .dstore.values.IntegerValue order_id = 1;</code>
+     * <code>.dstore.values.IntegerValue order_id = 1;</code>
      */
     io.dstore.values.IntegerValueOrBuilder getOrderIdOrBuilder();
 
     /**
-     * <code>optional bool order_id_null = 1001;</code>
+     * <code>bool order_id_null = 1001;</code>
      */
     boolean getOrderIdNull();
 
     /**
-     * <code>optional .dstore.values.IntegerValue language_id = 2;</code>
+     * <code>.dstore.values.IntegerValue language_id = 2;</code>
      */
     boolean hasLanguageId();
     /**
-     * <code>optional .dstore.values.IntegerValue language_id = 2;</code>
+     * <code>.dstore.values.IntegerValue language_id = 2;</code>
      */
     io.dstore.values.IntegerValue getLanguageId();
     /**
-     * <code>optional .dstore.values.IntegerValue language_id = 2;</code>
+     * <code>.dstore.values.IntegerValue language_id = 2;</code>
      */
     io.dstore.values.IntegerValueOrBuilder getLanguageIdOrBuilder();
 
     /**
-     * <code>optional bool language_id_null = 1002;</code>
+     * <code>bool language_id_null = 1002;</code>
      */
     boolean getLanguageIdNull();
 
     /**
-     * <code>optional .dstore.values.TimestampValue date_and_time = 3;</code>
+     * <code>.dstore.values.TimestampValue date_and_time = 3;</code>
      */
     boolean hasDateAndTime();
     /**
-     * <code>optional .dstore.values.TimestampValue date_and_time = 3;</code>
+     * <code>.dstore.values.TimestampValue date_and_time = 3;</code>
      */
     io.dstore.values.TimestampValue getDateAndTime();
     /**
-     * <code>optional .dstore.values.TimestampValue date_and_time = 3;</code>
+     * <code>.dstore.values.TimestampValue date_and_time = 3;</code>
      */
     io.dstore.values.TimestampValueOrBuilder getDateAndTimeOrBuilder();
 
     /**
-     * <code>optional bool date_and_time_null = 1003;</code>
+     * <code>bool date_and_time_null = 1003;</code>
      */
     boolean getDateAndTimeNull();
 
     /**
-     * <code>optional .dstore.values.BooleanValue get_actual_properties = 4;</code>
+     * <code>.dstore.values.BooleanValue get_actual_properties = 4;</code>
      */
     boolean hasGetActualProperties();
     /**
-     * <code>optional .dstore.values.BooleanValue get_actual_properties = 4;</code>
+     * <code>.dstore.values.BooleanValue get_actual_properties = 4;</code>
      */
     io.dstore.values.BooleanValue getGetActualProperties();
     /**
-     * <code>optional .dstore.values.BooleanValue get_actual_properties = 4;</code>
+     * <code>.dstore.values.BooleanValue get_actual_properties = 4;</code>
      */
     io.dstore.values.BooleanValueOrBuilder getGetActualPropertiesOrBuilder();
 
     /**
-     * <code>optional bool get_actual_properties_null = 1004;</code>
+     * <code>bool get_actual_properties_null = 1004;</code>
      */
     boolean getGetActualPropertiesNull();
 
     /**
-     * <code>optional .dstore.values.StringValue date_format = 5;</code>
+     * <code>.dstore.values.StringValue date_format = 5;</code>
      */
     boolean hasDateFormat();
     /**
-     * <code>optional .dstore.values.StringValue date_format = 5;</code>
+     * <code>.dstore.values.StringValue date_format = 5;</code>
      */
     io.dstore.values.StringValue getDateFormat();
     /**
-     * <code>optional .dstore.values.StringValue date_format = 5;</code>
+     * <code>.dstore.values.StringValue date_format = 5;</code>
      */
     io.dstore.values.StringValueOrBuilder getDateFormatOrBuilder();
 
     /**
-     * <code>optional bool date_format_null = 1005;</code>
+     * <code>bool date_format_null = 1005;</code>
      */
     boolean getDateFormatNull();
   }
@@ -268,19 +268,19 @@ public final class OmGetPersonInfoForOrdersAd {
     public static final int ORDER_ID_FIELD_NUMBER = 1;
     private io.dstore.values.IntegerValue orderId_;
     /**
-     * <code>optional .dstore.values.IntegerValue order_id = 1;</code>
+     * <code>.dstore.values.IntegerValue order_id = 1;</code>
      */
     public boolean hasOrderId() {
       return orderId_ != null;
     }
     /**
-     * <code>optional .dstore.values.IntegerValue order_id = 1;</code>
+     * <code>.dstore.values.IntegerValue order_id = 1;</code>
      */
     public io.dstore.values.IntegerValue getOrderId() {
       return orderId_ == null ? io.dstore.values.IntegerValue.getDefaultInstance() : orderId_;
     }
     /**
-     * <code>optional .dstore.values.IntegerValue order_id = 1;</code>
+     * <code>.dstore.values.IntegerValue order_id = 1;</code>
      */
     public io.dstore.values.IntegerValueOrBuilder getOrderIdOrBuilder() {
       return getOrderId();
@@ -289,7 +289,7 @@ public final class OmGetPersonInfoForOrdersAd {
     public static final int ORDER_ID_NULL_FIELD_NUMBER = 1001;
     private boolean orderIdNull_;
     /**
-     * <code>optional bool order_id_null = 1001;</code>
+     * <code>bool order_id_null = 1001;</code>
      */
     public boolean getOrderIdNull() {
       return orderIdNull_;
@@ -298,19 +298,19 @@ public final class OmGetPersonInfoForOrdersAd {
     public static final int LANGUAGE_ID_FIELD_NUMBER = 2;
     private io.dstore.values.IntegerValue languageId_;
     /**
-     * <code>optional .dstore.values.IntegerValue language_id = 2;</code>
+     * <code>.dstore.values.IntegerValue language_id = 2;</code>
      */
     public boolean hasLanguageId() {
       return languageId_ != null;
     }
     /**
-     * <code>optional .dstore.values.IntegerValue language_id = 2;</code>
+     * <code>.dstore.values.IntegerValue language_id = 2;</code>
      */
     public io.dstore.values.IntegerValue getLanguageId() {
       return languageId_ == null ? io.dstore.values.IntegerValue.getDefaultInstance() : languageId_;
     }
     /**
-     * <code>optional .dstore.values.IntegerValue language_id = 2;</code>
+     * <code>.dstore.values.IntegerValue language_id = 2;</code>
      */
     public io.dstore.values.IntegerValueOrBuilder getLanguageIdOrBuilder() {
       return getLanguageId();
@@ -319,7 +319,7 @@ public final class OmGetPersonInfoForOrdersAd {
     public static final int LANGUAGE_ID_NULL_FIELD_NUMBER = 1002;
     private boolean languageIdNull_;
     /**
-     * <code>optional bool language_id_null = 1002;</code>
+     * <code>bool language_id_null = 1002;</code>
      */
     public boolean getLanguageIdNull() {
       return languageIdNull_;
@@ -328,19 +328,19 @@ public final class OmGetPersonInfoForOrdersAd {
     public static final int DATE_AND_TIME_FIELD_NUMBER = 3;
     private io.dstore.values.TimestampValue dateAndTime_;
     /**
-     * <code>optional .dstore.values.TimestampValue date_and_time = 3;</code>
+     * <code>.dstore.values.TimestampValue date_and_time = 3;</code>
      */
     public boolean hasDateAndTime() {
       return dateAndTime_ != null;
     }
     /**
-     * <code>optional .dstore.values.TimestampValue date_and_time = 3;</code>
+     * <code>.dstore.values.TimestampValue date_and_time = 3;</code>
      */
     public io.dstore.values.TimestampValue getDateAndTime() {
       return dateAndTime_ == null ? io.dstore.values.TimestampValue.getDefaultInstance() : dateAndTime_;
     }
     /**
-     * <code>optional .dstore.values.TimestampValue date_and_time = 3;</code>
+     * <code>.dstore.values.TimestampValue date_and_time = 3;</code>
      */
     public io.dstore.values.TimestampValueOrBuilder getDateAndTimeOrBuilder() {
       return getDateAndTime();
@@ -349,7 +349,7 @@ public final class OmGetPersonInfoForOrdersAd {
     public static final int DATE_AND_TIME_NULL_FIELD_NUMBER = 1003;
     private boolean dateAndTimeNull_;
     /**
-     * <code>optional bool date_and_time_null = 1003;</code>
+     * <code>bool date_and_time_null = 1003;</code>
      */
     public boolean getDateAndTimeNull() {
       return dateAndTimeNull_;
@@ -358,19 +358,19 @@ public final class OmGetPersonInfoForOrdersAd {
     public static final int GET_ACTUAL_PROPERTIES_FIELD_NUMBER = 4;
     private io.dstore.values.BooleanValue getActualProperties_;
     /**
-     * <code>optional .dstore.values.BooleanValue get_actual_properties = 4;</code>
+     * <code>.dstore.values.BooleanValue get_actual_properties = 4;</code>
      */
     public boolean hasGetActualProperties() {
       return getActualProperties_ != null;
     }
     /**
-     * <code>optional .dstore.values.BooleanValue get_actual_properties = 4;</code>
+     * <code>.dstore.values.BooleanValue get_actual_properties = 4;</code>
      */
     public io.dstore.values.BooleanValue getGetActualProperties() {
       return getActualProperties_ == null ? io.dstore.values.BooleanValue.getDefaultInstance() : getActualProperties_;
     }
     /**
-     * <code>optional .dstore.values.BooleanValue get_actual_properties = 4;</code>
+     * <code>.dstore.values.BooleanValue get_actual_properties = 4;</code>
      */
     public io.dstore.values.BooleanValueOrBuilder getGetActualPropertiesOrBuilder() {
       return getGetActualProperties();
@@ -379,7 +379,7 @@ public final class OmGetPersonInfoForOrdersAd {
     public static final int GET_ACTUAL_PROPERTIES_NULL_FIELD_NUMBER = 1004;
     private boolean getActualPropertiesNull_;
     /**
-     * <code>optional bool get_actual_properties_null = 1004;</code>
+     * <code>bool get_actual_properties_null = 1004;</code>
      */
     public boolean getGetActualPropertiesNull() {
       return getActualPropertiesNull_;
@@ -388,19 +388,19 @@ public final class OmGetPersonInfoForOrdersAd {
     public static final int DATE_FORMAT_FIELD_NUMBER = 5;
     private io.dstore.values.StringValue dateFormat_;
     /**
-     * <code>optional .dstore.values.StringValue date_format = 5;</code>
+     * <code>.dstore.values.StringValue date_format = 5;</code>
      */
     public boolean hasDateFormat() {
       return dateFormat_ != null;
     }
     /**
-     * <code>optional .dstore.values.StringValue date_format = 5;</code>
+     * <code>.dstore.values.StringValue date_format = 5;</code>
      */
     public io.dstore.values.StringValue getDateFormat() {
       return dateFormat_ == null ? io.dstore.values.StringValue.getDefaultInstance() : dateFormat_;
     }
     /**
-     * <code>optional .dstore.values.StringValue date_format = 5;</code>
+     * <code>.dstore.values.StringValue date_format = 5;</code>
      */
     public io.dstore.values.StringValueOrBuilder getDateFormatOrBuilder() {
       return getDateFormat();
@@ -409,7 +409,7 @@ public final class OmGetPersonInfoForOrdersAd {
     public static final int DATE_FORMAT_NULL_FIELD_NUMBER = 1005;
     private boolean dateFormatNull_;
     /**
-     * <code>optional bool date_format_null = 1005;</code>
+     * <code>bool date_format_null = 1005;</code>
      */
     public boolean getDateFormatNull() {
       return dateFormatNull_;
@@ -564,7 +564,7 @@ public final class OmGetPersonInfoForOrdersAd {
         return memoizedHashCode;
       }
       int hash = 41;
-      hash = (19 * hash) + getDescriptorForType().hashCode();
+      hash = (19 * hash) + getDescriptor().hashCode();
       if (hasOrderId()) {
         hash = (37 * hash) + ORDER_ID_FIELD_NUMBER;
         hash = (53 * hash) + getOrderId().hashCode();
@@ -911,13 +911,13 @@ public final class OmGetPersonInfoForOrdersAd {
       private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> orderIdBuilder_;
       /**
-       * <code>optional .dstore.values.IntegerValue order_id = 1;</code>
+       * <code>.dstore.values.IntegerValue order_id = 1;</code>
        */
       public boolean hasOrderId() {
         return orderIdBuilder_ != null || orderId_ != null;
       }
       /**
-       * <code>optional .dstore.values.IntegerValue order_id = 1;</code>
+       * <code>.dstore.values.IntegerValue order_id = 1;</code>
        */
       public io.dstore.values.IntegerValue getOrderId() {
         if (orderIdBuilder_ == null) {
@@ -927,7 +927,7 @@ public final class OmGetPersonInfoForOrdersAd {
         }
       }
       /**
-       * <code>optional .dstore.values.IntegerValue order_id = 1;</code>
+       * <code>.dstore.values.IntegerValue order_id = 1;</code>
        */
       public Builder setOrderId(io.dstore.values.IntegerValue value) {
         if (orderIdBuilder_ == null) {
@@ -943,7 +943,7 @@ public final class OmGetPersonInfoForOrdersAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.IntegerValue order_id = 1;</code>
+       * <code>.dstore.values.IntegerValue order_id = 1;</code>
        */
       public Builder setOrderId(
           io.dstore.values.IntegerValue.Builder builderForValue) {
@@ -957,7 +957,7 @@ public final class OmGetPersonInfoForOrdersAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.IntegerValue order_id = 1;</code>
+       * <code>.dstore.values.IntegerValue order_id = 1;</code>
        */
       public Builder mergeOrderId(io.dstore.values.IntegerValue value) {
         if (orderIdBuilder_ == null) {
@@ -975,7 +975,7 @@ public final class OmGetPersonInfoForOrdersAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.IntegerValue order_id = 1;</code>
+       * <code>.dstore.values.IntegerValue order_id = 1;</code>
        */
       public Builder clearOrderId() {
         if (orderIdBuilder_ == null) {
@@ -989,7 +989,7 @@ public final class OmGetPersonInfoForOrdersAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.IntegerValue order_id = 1;</code>
+       * <code>.dstore.values.IntegerValue order_id = 1;</code>
        */
       public io.dstore.values.IntegerValue.Builder getOrderIdBuilder() {
         
@@ -997,7 +997,7 @@ public final class OmGetPersonInfoForOrdersAd {
         return getOrderIdFieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .dstore.values.IntegerValue order_id = 1;</code>
+       * <code>.dstore.values.IntegerValue order_id = 1;</code>
        */
       public io.dstore.values.IntegerValueOrBuilder getOrderIdOrBuilder() {
         if (orderIdBuilder_ != null) {
@@ -1008,7 +1008,7 @@ public final class OmGetPersonInfoForOrdersAd {
         }
       }
       /**
-       * <code>optional .dstore.values.IntegerValue order_id = 1;</code>
+       * <code>.dstore.values.IntegerValue order_id = 1;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> 
@@ -1026,13 +1026,13 @@ public final class OmGetPersonInfoForOrdersAd {
 
       private boolean orderIdNull_ ;
       /**
-       * <code>optional bool order_id_null = 1001;</code>
+       * <code>bool order_id_null = 1001;</code>
        */
       public boolean getOrderIdNull() {
         return orderIdNull_;
       }
       /**
-       * <code>optional bool order_id_null = 1001;</code>
+       * <code>bool order_id_null = 1001;</code>
        */
       public Builder setOrderIdNull(boolean value) {
         
@@ -1041,7 +1041,7 @@ public final class OmGetPersonInfoForOrdersAd {
         return this;
       }
       /**
-       * <code>optional bool order_id_null = 1001;</code>
+       * <code>bool order_id_null = 1001;</code>
        */
       public Builder clearOrderIdNull() {
         
@@ -1054,13 +1054,13 @@ public final class OmGetPersonInfoForOrdersAd {
       private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> languageIdBuilder_;
       /**
-       * <code>optional .dstore.values.IntegerValue language_id = 2;</code>
+       * <code>.dstore.values.IntegerValue language_id = 2;</code>
        */
       public boolean hasLanguageId() {
         return languageIdBuilder_ != null || languageId_ != null;
       }
       /**
-       * <code>optional .dstore.values.IntegerValue language_id = 2;</code>
+       * <code>.dstore.values.IntegerValue language_id = 2;</code>
        */
       public io.dstore.values.IntegerValue getLanguageId() {
         if (languageIdBuilder_ == null) {
@@ -1070,7 +1070,7 @@ public final class OmGetPersonInfoForOrdersAd {
         }
       }
       /**
-       * <code>optional .dstore.values.IntegerValue language_id = 2;</code>
+       * <code>.dstore.values.IntegerValue language_id = 2;</code>
        */
       public Builder setLanguageId(io.dstore.values.IntegerValue value) {
         if (languageIdBuilder_ == null) {
@@ -1086,7 +1086,7 @@ public final class OmGetPersonInfoForOrdersAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.IntegerValue language_id = 2;</code>
+       * <code>.dstore.values.IntegerValue language_id = 2;</code>
        */
       public Builder setLanguageId(
           io.dstore.values.IntegerValue.Builder builderForValue) {
@@ -1100,7 +1100,7 @@ public final class OmGetPersonInfoForOrdersAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.IntegerValue language_id = 2;</code>
+       * <code>.dstore.values.IntegerValue language_id = 2;</code>
        */
       public Builder mergeLanguageId(io.dstore.values.IntegerValue value) {
         if (languageIdBuilder_ == null) {
@@ -1118,7 +1118,7 @@ public final class OmGetPersonInfoForOrdersAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.IntegerValue language_id = 2;</code>
+       * <code>.dstore.values.IntegerValue language_id = 2;</code>
        */
       public Builder clearLanguageId() {
         if (languageIdBuilder_ == null) {
@@ -1132,7 +1132,7 @@ public final class OmGetPersonInfoForOrdersAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.IntegerValue language_id = 2;</code>
+       * <code>.dstore.values.IntegerValue language_id = 2;</code>
        */
       public io.dstore.values.IntegerValue.Builder getLanguageIdBuilder() {
         
@@ -1140,7 +1140,7 @@ public final class OmGetPersonInfoForOrdersAd {
         return getLanguageIdFieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .dstore.values.IntegerValue language_id = 2;</code>
+       * <code>.dstore.values.IntegerValue language_id = 2;</code>
        */
       public io.dstore.values.IntegerValueOrBuilder getLanguageIdOrBuilder() {
         if (languageIdBuilder_ != null) {
@@ -1151,7 +1151,7 @@ public final class OmGetPersonInfoForOrdersAd {
         }
       }
       /**
-       * <code>optional .dstore.values.IntegerValue language_id = 2;</code>
+       * <code>.dstore.values.IntegerValue language_id = 2;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> 
@@ -1169,13 +1169,13 @@ public final class OmGetPersonInfoForOrdersAd {
 
       private boolean languageIdNull_ ;
       /**
-       * <code>optional bool language_id_null = 1002;</code>
+       * <code>bool language_id_null = 1002;</code>
        */
       public boolean getLanguageIdNull() {
         return languageIdNull_;
       }
       /**
-       * <code>optional bool language_id_null = 1002;</code>
+       * <code>bool language_id_null = 1002;</code>
        */
       public Builder setLanguageIdNull(boolean value) {
         
@@ -1184,7 +1184,7 @@ public final class OmGetPersonInfoForOrdersAd {
         return this;
       }
       /**
-       * <code>optional bool language_id_null = 1002;</code>
+       * <code>bool language_id_null = 1002;</code>
        */
       public Builder clearLanguageIdNull() {
         
@@ -1197,13 +1197,13 @@ public final class OmGetPersonInfoForOrdersAd {
       private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.values.TimestampValue, io.dstore.values.TimestampValue.Builder, io.dstore.values.TimestampValueOrBuilder> dateAndTimeBuilder_;
       /**
-       * <code>optional .dstore.values.TimestampValue date_and_time = 3;</code>
+       * <code>.dstore.values.TimestampValue date_and_time = 3;</code>
        */
       public boolean hasDateAndTime() {
         return dateAndTimeBuilder_ != null || dateAndTime_ != null;
       }
       /**
-       * <code>optional .dstore.values.TimestampValue date_and_time = 3;</code>
+       * <code>.dstore.values.TimestampValue date_and_time = 3;</code>
        */
       public io.dstore.values.TimestampValue getDateAndTime() {
         if (dateAndTimeBuilder_ == null) {
@@ -1213,7 +1213,7 @@ public final class OmGetPersonInfoForOrdersAd {
         }
       }
       /**
-       * <code>optional .dstore.values.TimestampValue date_and_time = 3;</code>
+       * <code>.dstore.values.TimestampValue date_and_time = 3;</code>
        */
       public Builder setDateAndTime(io.dstore.values.TimestampValue value) {
         if (dateAndTimeBuilder_ == null) {
@@ -1229,7 +1229,7 @@ public final class OmGetPersonInfoForOrdersAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.TimestampValue date_and_time = 3;</code>
+       * <code>.dstore.values.TimestampValue date_and_time = 3;</code>
        */
       public Builder setDateAndTime(
           io.dstore.values.TimestampValue.Builder builderForValue) {
@@ -1243,7 +1243,7 @@ public final class OmGetPersonInfoForOrdersAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.TimestampValue date_and_time = 3;</code>
+       * <code>.dstore.values.TimestampValue date_and_time = 3;</code>
        */
       public Builder mergeDateAndTime(io.dstore.values.TimestampValue value) {
         if (dateAndTimeBuilder_ == null) {
@@ -1261,7 +1261,7 @@ public final class OmGetPersonInfoForOrdersAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.TimestampValue date_and_time = 3;</code>
+       * <code>.dstore.values.TimestampValue date_and_time = 3;</code>
        */
       public Builder clearDateAndTime() {
         if (dateAndTimeBuilder_ == null) {
@@ -1275,7 +1275,7 @@ public final class OmGetPersonInfoForOrdersAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.TimestampValue date_and_time = 3;</code>
+       * <code>.dstore.values.TimestampValue date_and_time = 3;</code>
        */
       public io.dstore.values.TimestampValue.Builder getDateAndTimeBuilder() {
         
@@ -1283,7 +1283,7 @@ public final class OmGetPersonInfoForOrdersAd {
         return getDateAndTimeFieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .dstore.values.TimestampValue date_and_time = 3;</code>
+       * <code>.dstore.values.TimestampValue date_and_time = 3;</code>
        */
       public io.dstore.values.TimestampValueOrBuilder getDateAndTimeOrBuilder() {
         if (dateAndTimeBuilder_ != null) {
@@ -1294,7 +1294,7 @@ public final class OmGetPersonInfoForOrdersAd {
         }
       }
       /**
-       * <code>optional .dstore.values.TimestampValue date_and_time = 3;</code>
+       * <code>.dstore.values.TimestampValue date_and_time = 3;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.values.TimestampValue, io.dstore.values.TimestampValue.Builder, io.dstore.values.TimestampValueOrBuilder> 
@@ -1312,13 +1312,13 @@ public final class OmGetPersonInfoForOrdersAd {
 
       private boolean dateAndTimeNull_ ;
       /**
-       * <code>optional bool date_and_time_null = 1003;</code>
+       * <code>bool date_and_time_null = 1003;</code>
        */
       public boolean getDateAndTimeNull() {
         return dateAndTimeNull_;
       }
       /**
-       * <code>optional bool date_and_time_null = 1003;</code>
+       * <code>bool date_and_time_null = 1003;</code>
        */
       public Builder setDateAndTimeNull(boolean value) {
         
@@ -1327,7 +1327,7 @@ public final class OmGetPersonInfoForOrdersAd {
         return this;
       }
       /**
-       * <code>optional bool date_and_time_null = 1003;</code>
+       * <code>bool date_and_time_null = 1003;</code>
        */
       public Builder clearDateAndTimeNull() {
         
@@ -1340,13 +1340,13 @@ public final class OmGetPersonInfoForOrdersAd {
       private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.values.BooleanValue, io.dstore.values.BooleanValue.Builder, io.dstore.values.BooleanValueOrBuilder> getActualPropertiesBuilder_;
       /**
-       * <code>optional .dstore.values.BooleanValue get_actual_properties = 4;</code>
+       * <code>.dstore.values.BooleanValue get_actual_properties = 4;</code>
        */
       public boolean hasGetActualProperties() {
         return getActualPropertiesBuilder_ != null || getActualProperties_ != null;
       }
       /**
-       * <code>optional .dstore.values.BooleanValue get_actual_properties = 4;</code>
+       * <code>.dstore.values.BooleanValue get_actual_properties = 4;</code>
        */
       public io.dstore.values.BooleanValue getGetActualProperties() {
         if (getActualPropertiesBuilder_ == null) {
@@ -1356,7 +1356,7 @@ public final class OmGetPersonInfoForOrdersAd {
         }
       }
       /**
-       * <code>optional .dstore.values.BooleanValue get_actual_properties = 4;</code>
+       * <code>.dstore.values.BooleanValue get_actual_properties = 4;</code>
        */
       public Builder setGetActualProperties(io.dstore.values.BooleanValue value) {
         if (getActualPropertiesBuilder_ == null) {
@@ -1372,7 +1372,7 @@ public final class OmGetPersonInfoForOrdersAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.BooleanValue get_actual_properties = 4;</code>
+       * <code>.dstore.values.BooleanValue get_actual_properties = 4;</code>
        */
       public Builder setGetActualProperties(
           io.dstore.values.BooleanValue.Builder builderForValue) {
@@ -1386,7 +1386,7 @@ public final class OmGetPersonInfoForOrdersAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.BooleanValue get_actual_properties = 4;</code>
+       * <code>.dstore.values.BooleanValue get_actual_properties = 4;</code>
        */
       public Builder mergeGetActualProperties(io.dstore.values.BooleanValue value) {
         if (getActualPropertiesBuilder_ == null) {
@@ -1404,7 +1404,7 @@ public final class OmGetPersonInfoForOrdersAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.BooleanValue get_actual_properties = 4;</code>
+       * <code>.dstore.values.BooleanValue get_actual_properties = 4;</code>
        */
       public Builder clearGetActualProperties() {
         if (getActualPropertiesBuilder_ == null) {
@@ -1418,7 +1418,7 @@ public final class OmGetPersonInfoForOrdersAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.BooleanValue get_actual_properties = 4;</code>
+       * <code>.dstore.values.BooleanValue get_actual_properties = 4;</code>
        */
       public io.dstore.values.BooleanValue.Builder getGetActualPropertiesBuilder() {
         
@@ -1426,7 +1426,7 @@ public final class OmGetPersonInfoForOrdersAd {
         return getGetActualPropertiesFieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .dstore.values.BooleanValue get_actual_properties = 4;</code>
+       * <code>.dstore.values.BooleanValue get_actual_properties = 4;</code>
        */
       public io.dstore.values.BooleanValueOrBuilder getGetActualPropertiesOrBuilder() {
         if (getActualPropertiesBuilder_ != null) {
@@ -1437,7 +1437,7 @@ public final class OmGetPersonInfoForOrdersAd {
         }
       }
       /**
-       * <code>optional .dstore.values.BooleanValue get_actual_properties = 4;</code>
+       * <code>.dstore.values.BooleanValue get_actual_properties = 4;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.values.BooleanValue, io.dstore.values.BooleanValue.Builder, io.dstore.values.BooleanValueOrBuilder> 
@@ -1455,13 +1455,13 @@ public final class OmGetPersonInfoForOrdersAd {
 
       private boolean getActualPropertiesNull_ ;
       /**
-       * <code>optional bool get_actual_properties_null = 1004;</code>
+       * <code>bool get_actual_properties_null = 1004;</code>
        */
       public boolean getGetActualPropertiesNull() {
         return getActualPropertiesNull_;
       }
       /**
-       * <code>optional bool get_actual_properties_null = 1004;</code>
+       * <code>bool get_actual_properties_null = 1004;</code>
        */
       public Builder setGetActualPropertiesNull(boolean value) {
         
@@ -1470,7 +1470,7 @@ public final class OmGetPersonInfoForOrdersAd {
         return this;
       }
       /**
-       * <code>optional bool get_actual_properties_null = 1004;</code>
+       * <code>bool get_actual_properties_null = 1004;</code>
        */
       public Builder clearGetActualPropertiesNull() {
         
@@ -1483,13 +1483,13 @@ public final class OmGetPersonInfoForOrdersAd {
       private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.values.StringValue, io.dstore.values.StringValue.Builder, io.dstore.values.StringValueOrBuilder> dateFormatBuilder_;
       /**
-       * <code>optional .dstore.values.StringValue date_format = 5;</code>
+       * <code>.dstore.values.StringValue date_format = 5;</code>
        */
       public boolean hasDateFormat() {
         return dateFormatBuilder_ != null || dateFormat_ != null;
       }
       /**
-       * <code>optional .dstore.values.StringValue date_format = 5;</code>
+       * <code>.dstore.values.StringValue date_format = 5;</code>
        */
       public io.dstore.values.StringValue getDateFormat() {
         if (dateFormatBuilder_ == null) {
@@ -1499,7 +1499,7 @@ public final class OmGetPersonInfoForOrdersAd {
         }
       }
       /**
-       * <code>optional .dstore.values.StringValue date_format = 5;</code>
+       * <code>.dstore.values.StringValue date_format = 5;</code>
        */
       public Builder setDateFormat(io.dstore.values.StringValue value) {
         if (dateFormatBuilder_ == null) {
@@ -1515,7 +1515,7 @@ public final class OmGetPersonInfoForOrdersAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.StringValue date_format = 5;</code>
+       * <code>.dstore.values.StringValue date_format = 5;</code>
        */
       public Builder setDateFormat(
           io.dstore.values.StringValue.Builder builderForValue) {
@@ -1529,7 +1529,7 @@ public final class OmGetPersonInfoForOrdersAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.StringValue date_format = 5;</code>
+       * <code>.dstore.values.StringValue date_format = 5;</code>
        */
       public Builder mergeDateFormat(io.dstore.values.StringValue value) {
         if (dateFormatBuilder_ == null) {
@@ -1547,7 +1547,7 @@ public final class OmGetPersonInfoForOrdersAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.StringValue date_format = 5;</code>
+       * <code>.dstore.values.StringValue date_format = 5;</code>
        */
       public Builder clearDateFormat() {
         if (dateFormatBuilder_ == null) {
@@ -1561,7 +1561,7 @@ public final class OmGetPersonInfoForOrdersAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.StringValue date_format = 5;</code>
+       * <code>.dstore.values.StringValue date_format = 5;</code>
        */
       public io.dstore.values.StringValue.Builder getDateFormatBuilder() {
         
@@ -1569,7 +1569,7 @@ public final class OmGetPersonInfoForOrdersAd {
         return getDateFormatFieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .dstore.values.StringValue date_format = 5;</code>
+       * <code>.dstore.values.StringValue date_format = 5;</code>
        */
       public io.dstore.values.StringValueOrBuilder getDateFormatOrBuilder() {
         if (dateFormatBuilder_ != null) {
@@ -1580,7 +1580,7 @@ public final class OmGetPersonInfoForOrdersAd {
         }
       }
       /**
-       * <code>optional .dstore.values.StringValue date_format = 5;</code>
+       * <code>.dstore.values.StringValue date_format = 5;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.values.StringValue, io.dstore.values.StringValue.Builder, io.dstore.values.StringValueOrBuilder> 
@@ -1598,13 +1598,13 @@ public final class OmGetPersonInfoForOrdersAd {
 
       private boolean dateFormatNull_ ;
       /**
-       * <code>optional bool date_format_null = 1005;</code>
+       * <code>bool date_format_null = 1005;</code>
        */
       public boolean getDateFormatNull() {
         return dateFormatNull_;
       }
       /**
-       * <code>optional bool date_format_null = 1005;</code>
+       * <code>bool date_format_null = 1005;</code>
        */
       public Builder setDateFormatNull(boolean value) {
         
@@ -1613,7 +1613,7 @@ public final class OmGetPersonInfoForOrdersAd {
         return this;
       }
       /**
-       * <code>optional bool date_format_null = 1005;</code>
+       * <code>bool date_format_null = 1005;</code>
        */
       public Builder clearDateFormatNull() {
         
@@ -1872,7 +1872,7 @@ public final class OmGetPersonInfoForOrdersAd {
         com.google.protobuf.MessageOrBuilder {
 
       /**
-       * <code>optional int32 row_id = 10000;</code>
+       * <code>int32 row_id = 10000;</code>
        */
       int getRowId();
 
@@ -1881,7 +1881,7 @@ public final class OmGetPersonInfoForOrdersAd {
        * Was enthält "(Actual)Value" (möglicherw. wg. Zugr.beschr. nur einen Teil) ?- NULL : den vollst. Wert- "#left(&lt;n&gt;)#" : nur die ERSTEN n Zeichen- "#right(&lt;n&gt;)#" : nur die LETZTEN n ZeichenAnmerkung : "n = 0" möglich, "(Actual)Value" ist dann "NULL"
        * </pre>
        *
-       * <code>optional .dstore.values.StringValue value_restricted_by_pattern = 10001;</code>
+       * <code>.dstore.values.StringValue value_restricted_by_pattern = 10001;</code>
        */
       boolean hasValueRestrictedByPattern();
       /**
@@ -1889,7 +1889,7 @@ public final class OmGetPersonInfoForOrdersAd {
        * Was enthält "(Actual)Value" (möglicherw. wg. Zugr.beschr. nur einen Teil) ?- NULL : den vollst. Wert- "#left(&lt;n&gt;)#" : nur die ERSTEN n Zeichen- "#right(&lt;n&gt;)#" : nur die LETZTEN n ZeichenAnmerkung : "n = 0" möglich, "(Actual)Value" ist dann "NULL"
        * </pre>
        *
-       * <code>optional .dstore.values.StringValue value_restricted_by_pattern = 10001;</code>
+       * <code>.dstore.values.StringValue value_restricted_by_pattern = 10001;</code>
        */
       io.dstore.values.StringValue getValueRestrictedByPattern();
       /**
@@ -1897,7 +1897,7 @@ public final class OmGetPersonInfoForOrdersAd {
        * Was enthält "(Actual)Value" (möglicherw. wg. Zugr.beschr. nur einen Teil) ?- NULL : den vollst. Wert- "#left(&lt;n&gt;)#" : nur die ERSTEN n Zeichen- "#right(&lt;n&gt;)#" : nur die LETZTEN n ZeichenAnmerkung : "n = 0" möglich, "(Actual)Value" ist dann "NULL"
        * </pre>
        *
-       * <code>optional .dstore.values.StringValue value_restricted_by_pattern = 10001;</code>
+       * <code>.dstore.values.StringValue value_restricted_by_pattern = 10001;</code>
        */
       io.dstore.values.StringValueOrBuilder getValueRestrictedByPatternOrBuilder();
 
@@ -1906,7 +1906,7 @@ public final class OmGetPersonInfoForOrdersAd {
        * Bezeichnung des Merkmals "PersonCharacteristicID". Falls eine "&#64;LanguageID" ("&lt;&gt; 0" bzw. ungleich der "DefaultLanguageID" aus "Settings") angegeben wurde, wird eine entsprechende Übersetzung (sofern vorhanden, sonst die Standardbezeichnung) ausgegeben.
        * </pre>
        *
-       * <code>optional .dstore.values.StringValue description = 10002;</code>
+       * <code>.dstore.values.StringValue description = 10002;</code>
        */
       boolean hasDescription();
       /**
@@ -1914,7 +1914,7 @@ public final class OmGetPersonInfoForOrdersAd {
        * Bezeichnung des Merkmals "PersonCharacteristicID". Falls eine "&#64;LanguageID" ("&lt;&gt; 0" bzw. ungleich der "DefaultLanguageID" aus "Settings") angegeben wurde, wird eine entsprechende Übersetzung (sofern vorhanden, sonst die Standardbezeichnung) ausgegeben.
        * </pre>
        *
-       * <code>optional .dstore.values.StringValue description = 10002;</code>
+       * <code>.dstore.values.StringValue description = 10002;</code>
        */
       io.dstore.values.StringValue getDescription();
       /**
@@ -1922,7 +1922,7 @@ public final class OmGetPersonInfoForOrdersAd {
        * Bezeichnung des Merkmals "PersonCharacteristicID". Falls eine "&#64;LanguageID" ("&lt;&gt; 0" bzw. ungleich der "DefaultLanguageID" aus "Settings") angegeben wurde, wird eine entsprechende Übersetzung (sofern vorhanden, sonst die Standardbezeichnung) ausgegeben.
        * </pre>
        *
-       * <code>optional .dstore.values.StringValue description = 10002;</code>
+       * <code>.dstore.values.StringValue description = 10002;</code>
        */
       io.dstore.values.StringValueOrBuilder getDescriptionOrBuilder();
 
@@ -1931,7 +1931,7 @@ public final class OmGetPersonInfoForOrdersAd {
        * ID des Auftraggebers bzw. der Person, an die die Ware geliefert werden soll (je nach "InvoiceOrDeliveryAdress")
        * </pre>
        *
-       * <code>optional .dstore.values.IntegerValue person_id = 10003;</code>
+       * <code>.dstore.values.IntegerValue person_id = 10003;</code>
        */
       boolean hasPersonId();
       /**
@@ -1939,7 +1939,7 @@ public final class OmGetPersonInfoForOrdersAd {
        * ID des Auftraggebers bzw. der Person, an die die Ware geliefert werden soll (je nach "InvoiceOrDeliveryAdress")
        * </pre>
        *
-       * <code>optional .dstore.values.IntegerValue person_id = 10003;</code>
+       * <code>.dstore.values.IntegerValue person_id = 10003;</code>
        */
       io.dstore.values.IntegerValue getPersonId();
       /**
@@ -1947,7 +1947,7 @@ public final class OmGetPersonInfoForOrdersAd {
        * ID des Auftraggebers bzw. der Person, an die die Ware geliefert werden soll (je nach "InvoiceOrDeliveryAdress")
        * </pre>
        *
-       * <code>optional .dstore.values.IntegerValue person_id = 10003;</code>
+       * <code>.dstore.values.IntegerValue person_id = 10003;</code>
        */
       io.dstore.values.IntegerValueOrBuilder getPersonIdOrBuilder();
 
@@ -1956,7 +1956,7 @@ public final class OmGetPersonInfoForOrdersAd {
        * "ia" : Für "Invoice Address", d.h. bei "PersonID" handelt es sich um den Auftraggeber"da" : Für "Delivery Address", also ist "PersonID" die LieferanschriftACHTUNG : Aufgrund der Abwärtskompatibilität enthält "Description" ein Präfix "ia_" oder "da_" !
        * </pre>
        *
-       * <code>optional .dstore.values.StringValue invoice_or_delivery_adress = 10004;</code>
+       * <code>.dstore.values.StringValue invoice_or_delivery_adress = 10004;</code>
        */
       boolean hasInvoiceOrDeliveryAdress();
       /**
@@ -1964,7 +1964,7 @@ public final class OmGetPersonInfoForOrdersAd {
        * "ia" : Für "Invoice Address", d.h. bei "PersonID" handelt es sich um den Auftraggeber"da" : Für "Delivery Address", also ist "PersonID" die LieferanschriftACHTUNG : Aufgrund der Abwärtskompatibilität enthält "Description" ein Präfix "ia_" oder "da_" !
        * </pre>
        *
-       * <code>optional .dstore.values.StringValue invoice_or_delivery_adress = 10004;</code>
+       * <code>.dstore.values.StringValue invoice_or_delivery_adress = 10004;</code>
        */
       io.dstore.values.StringValue getInvoiceOrDeliveryAdress();
       /**
@@ -1972,7 +1972,7 @@ public final class OmGetPersonInfoForOrdersAd {
        * "ia" : Für "Invoice Address", d.h. bei "PersonID" handelt es sich um den Auftraggeber"da" : Für "Delivery Address", also ist "PersonID" die LieferanschriftACHTUNG : Aufgrund der Abwärtskompatibilität enthält "Description" ein Präfix "ia_" oder "da_" !
        * </pre>
        *
-       * <code>optional .dstore.values.StringValue invoice_or_delivery_adress = 10004;</code>
+       * <code>.dstore.values.StringValue invoice_or_delivery_adress = 10004;</code>
        */
       io.dstore.values.StringValueOrBuilder getInvoiceOrDeliveryAdressOrBuilder();
 
@@ -1981,7 +1981,7 @@ public final class OmGetPersonInfoForOrdersAd {
        * Immer "NULL", falls "&#64;GetActualProperties = 0" übergeben wurde. Ansonsten steht hier die AKTUELLE (zum Zeitpunkt des Aufrufs der Prozedur) Eigenschaft der Person "PersonID" zum Merkmal "PersonCharacteristicID".
        * </pre>
        *
-       * <code>optional .dstore.values.StringValue actual_value = 10005;</code>
+       * <code>.dstore.values.StringValue actual_value = 10005;</code>
        */
       boolean hasActualValue();
       /**
@@ -1989,7 +1989,7 @@ public final class OmGetPersonInfoForOrdersAd {
        * Immer "NULL", falls "&#64;GetActualProperties = 0" übergeben wurde. Ansonsten steht hier die AKTUELLE (zum Zeitpunkt des Aufrufs der Prozedur) Eigenschaft der Person "PersonID" zum Merkmal "PersonCharacteristicID".
        * </pre>
        *
-       * <code>optional .dstore.values.StringValue actual_value = 10005;</code>
+       * <code>.dstore.values.StringValue actual_value = 10005;</code>
        */
       io.dstore.values.StringValue getActualValue();
       /**
@@ -1997,7 +1997,7 @@ public final class OmGetPersonInfoForOrdersAd {
        * Immer "NULL", falls "&#64;GetActualProperties = 0" übergeben wurde. Ansonsten steht hier die AKTUELLE (zum Zeitpunkt des Aufrufs der Prozedur) Eigenschaft der Person "PersonID" zum Merkmal "PersonCharacteristicID".
        * </pre>
        *
-       * <code>optional .dstore.values.StringValue actual_value = 10005;</code>
+       * <code>.dstore.values.StringValue actual_value = 10005;</code>
        */
       io.dstore.values.StringValueOrBuilder getActualValueOrBuilder();
 
@@ -2006,7 +2006,7 @@ public final class OmGetPersonInfoForOrdersAd {
        * ID eines Personen-Merkmals, das in "PersonTypeSettings" zum Schlüssel "PersonOutputCharacteristicIDsForOrderLists&gt;" zur "PersonTypeID" definiert ist
        * </pre>
        *
-       * <code>optional .dstore.values.IntegerValue person_characteristic_id = 10006;</code>
+       * <code>.dstore.values.IntegerValue person_characteristic_id = 10006;</code>
        */
       boolean hasPersonCharacteristicId();
       /**
@@ -2014,7 +2014,7 @@ public final class OmGetPersonInfoForOrdersAd {
        * ID eines Personen-Merkmals, das in "PersonTypeSettings" zum Schlüssel "PersonOutputCharacteristicIDsForOrderLists&gt;" zur "PersonTypeID" definiert ist
        * </pre>
        *
-       * <code>optional .dstore.values.IntegerValue person_characteristic_id = 10006;</code>
+       * <code>.dstore.values.IntegerValue person_characteristic_id = 10006;</code>
        */
       io.dstore.values.IntegerValue getPersonCharacteristicId();
       /**
@@ -2022,7 +2022,7 @@ public final class OmGetPersonInfoForOrdersAd {
        * ID eines Personen-Merkmals, das in "PersonTypeSettings" zum Schlüssel "PersonOutputCharacteristicIDsForOrderLists&gt;" zur "PersonTypeID" definiert ist
        * </pre>
        *
-       * <code>optional .dstore.values.IntegerValue person_characteristic_id = 10006;</code>
+       * <code>.dstore.values.IntegerValue person_characteristic_id = 10006;</code>
        */
       io.dstore.values.IntegerValueOrBuilder getPersonCharacteristicIdOrBuilder();
 
@@ -2031,7 +2031,7 @@ public final class OmGetPersonInfoForOrdersAd {
        * Eigenschaft von "PersonID" zum Merkmal "PersonCharacteristicID" zum Zeitpunkt "&#64;DateAndTime" bzw. zum aktuellen Zeitpunkt falls "&#64;GetActualProperties = 0" und zu "PersonCharacteristicID" keine Historie gepflegt wird. (siehe Beschreibung)
        * </pre>
        *
-       * <code>optional .dstore.values.StringValue value = 10007;</code>
+       * <code>.dstore.values.StringValue value = 10007;</code>
        */
       boolean hasValue();
       /**
@@ -2039,7 +2039,7 @@ public final class OmGetPersonInfoForOrdersAd {
        * Eigenschaft von "PersonID" zum Merkmal "PersonCharacteristicID" zum Zeitpunkt "&#64;DateAndTime" bzw. zum aktuellen Zeitpunkt falls "&#64;GetActualProperties = 0" und zu "PersonCharacteristicID" keine Historie gepflegt wird. (siehe Beschreibung)
        * </pre>
        *
-       * <code>optional .dstore.values.StringValue value = 10007;</code>
+       * <code>.dstore.values.StringValue value = 10007;</code>
        */
       io.dstore.values.StringValue getValue();
       /**
@@ -2047,7 +2047,7 @@ public final class OmGetPersonInfoForOrdersAd {
        * Eigenschaft von "PersonID" zum Merkmal "PersonCharacteristicID" zum Zeitpunkt "&#64;DateAndTime" bzw. zum aktuellen Zeitpunkt falls "&#64;GetActualProperties = 0" und zu "PersonCharacteristicID" keine Historie gepflegt wird. (siehe Beschreibung)
        * </pre>
        *
-       * <code>optional .dstore.values.StringValue value = 10007;</code>
+       * <code>.dstore.values.StringValue value = 10007;</code>
        */
       io.dstore.values.StringValueOrBuilder getValueOrBuilder();
 
@@ -2056,7 +2056,7 @@ public final class OmGetPersonInfoForOrdersAd {
        * Bestimmt die Reihenfolge von "PersonCharacteristicID" innerhalb aller Merkmale
        * </pre>
        *
-       * <code>optional .dstore.values.IntegerValue sort_no = 10008;</code>
+       * <code>.dstore.values.IntegerValue sort_no = 10008;</code>
        */
       boolean hasSortNo();
       /**
@@ -2064,7 +2064,7 @@ public final class OmGetPersonInfoForOrdersAd {
        * Bestimmt die Reihenfolge von "PersonCharacteristicID" innerhalb aller Merkmale
        * </pre>
        *
-       * <code>optional .dstore.values.IntegerValue sort_no = 10008;</code>
+       * <code>.dstore.values.IntegerValue sort_no = 10008;</code>
        */
       io.dstore.values.IntegerValue getSortNo();
       /**
@@ -2072,7 +2072,7 @@ public final class OmGetPersonInfoForOrdersAd {
        * Bestimmt die Reihenfolge von "PersonCharacteristicID" innerhalb aller Merkmale
        * </pre>
        *
-       * <code>optional .dstore.values.IntegerValue sort_no = 10008;</code>
+       * <code>.dstore.values.IntegerValue sort_no = 10008;</code>
        */
       io.dstore.values.IntegerValueOrBuilder getSortNoOrBuilder();
 
@@ -2081,7 +2081,7 @@ public final class OmGetPersonInfoForOrdersAd {
        * ID des Personen-Typs von "PersonID"
        * </pre>
        *
-       * <code>optional .dstore.values.IntegerValue person_type_id = 10009;</code>
+       * <code>.dstore.values.IntegerValue person_type_id = 10009;</code>
        */
       boolean hasPersonTypeId();
       /**
@@ -2089,7 +2089,7 @@ public final class OmGetPersonInfoForOrdersAd {
        * ID des Personen-Typs von "PersonID"
        * </pre>
        *
-       * <code>optional .dstore.values.IntegerValue person_type_id = 10009;</code>
+       * <code>.dstore.values.IntegerValue person_type_id = 10009;</code>
        */
       io.dstore.values.IntegerValue getPersonTypeId();
       /**
@@ -2097,7 +2097,7 @@ public final class OmGetPersonInfoForOrdersAd {
        * ID des Personen-Typs von "PersonID"
        * </pre>
        *
-       * <code>optional .dstore.values.IntegerValue person_type_id = 10009;</code>
+       * <code>.dstore.values.IntegerValue person_type_id = 10009;</code>
        */
       io.dstore.values.IntegerValueOrBuilder getPersonTypeIdOrBuilder();
     }
@@ -2289,7 +2289,7 @@ public final class OmGetPersonInfoForOrdersAd {
       public static final int ROW_ID_FIELD_NUMBER = 10000;
       private int rowId_;
       /**
-       * <code>optional int32 row_id = 10000;</code>
+       * <code>int32 row_id = 10000;</code>
        */
       public int getRowId() {
         return rowId_;
@@ -2302,7 +2302,7 @@ public final class OmGetPersonInfoForOrdersAd {
        * Was enthält "(Actual)Value" (möglicherw. wg. Zugr.beschr. nur einen Teil) ?- NULL : den vollst. Wert- "#left(&lt;n&gt;)#" : nur die ERSTEN n Zeichen- "#right(&lt;n&gt;)#" : nur die LETZTEN n ZeichenAnmerkung : "n = 0" möglich, "(Actual)Value" ist dann "NULL"
        * </pre>
        *
-       * <code>optional .dstore.values.StringValue value_restricted_by_pattern = 10001;</code>
+       * <code>.dstore.values.StringValue value_restricted_by_pattern = 10001;</code>
        */
       public boolean hasValueRestrictedByPattern() {
         return valueRestrictedByPattern_ != null;
@@ -2312,7 +2312,7 @@ public final class OmGetPersonInfoForOrdersAd {
        * Was enthält "(Actual)Value" (möglicherw. wg. Zugr.beschr. nur einen Teil) ?- NULL : den vollst. Wert- "#left(&lt;n&gt;)#" : nur die ERSTEN n Zeichen- "#right(&lt;n&gt;)#" : nur die LETZTEN n ZeichenAnmerkung : "n = 0" möglich, "(Actual)Value" ist dann "NULL"
        * </pre>
        *
-       * <code>optional .dstore.values.StringValue value_restricted_by_pattern = 10001;</code>
+       * <code>.dstore.values.StringValue value_restricted_by_pattern = 10001;</code>
        */
       public io.dstore.values.StringValue getValueRestrictedByPattern() {
         return valueRestrictedByPattern_ == null ? io.dstore.values.StringValue.getDefaultInstance() : valueRestrictedByPattern_;
@@ -2322,7 +2322,7 @@ public final class OmGetPersonInfoForOrdersAd {
        * Was enthält "(Actual)Value" (möglicherw. wg. Zugr.beschr. nur einen Teil) ?- NULL : den vollst. Wert- "#left(&lt;n&gt;)#" : nur die ERSTEN n Zeichen- "#right(&lt;n&gt;)#" : nur die LETZTEN n ZeichenAnmerkung : "n = 0" möglich, "(Actual)Value" ist dann "NULL"
        * </pre>
        *
-       * <code>optional .dstore.values.StringValue value_restricted_by_pattern = 10001;</code>
+       * <code>.dstore.values.StringValue value_restricted_by_pattern = 10001;</code>
        */
       public io.dstore.values.StringValueOrBuilder getValueRestrictedByPatternOrBuilder() {
         return getValueRestrictedByPattern();
@@ -2335,7 +2335,7 @@ public final class OmGetPersonInfoForOrdersAd {
        * Bezeichnung des Merkmals "PersonCharacteristicID". Falls eine "&#64;LanguageID" ("&lt;&gt; 0" bzw. ungleich der "DefaultLanguageID" aus "Settings") angegeben wurde, wird eine entsprechende Übersetzung (sofern vorhanden, sonst die Standardbezeichnung) ausgegeben.
        * </pre>
        *
-       * <code>optional .dstore.values.StringValue description = 10002;</code>
+       * <code>.dstore.values.StringValue description = 10002;</code>
        */
       public boolean hasDescription() {
         return description_ != null;
@@ -2345,7 +2345,7 @@ public final class OmGetPersonInfoForOrdersAd {
        * Bezeichnung des Merkmals "PersonCharacteristicID". Falls eine "&#64;LanguageID" ("&lt;&gt; 0" bzw. ungleich der "DefaultLanguageID" aus "Settings") angegeben wurde, wird eine entsprechende Übersetzung (sofern vorhanden, sonst die Standardbezeichnung) ausgegeben.
        * </pre>
        *
-       * <code>optional .dstore.values.StringValue description = 10002;</code>
+       * <code>.dstore.values.StringValue description = 10002;</code>
        */
       public io.dstore.values.StringValue getDescription() {
         return description_ == null ? io.dstore.values.StringValue.getDefaultInstance() : description_;
@@ -2355,7 +2355,7 @@ public final class OmGetPersonInfoForOrdersAd {
        * Bezeichnung des Merkmals "PersonCharacteristicID". Falls eine "&#64;LanguageID" ("&lt;&gt; 0" bzw. ungleich der "DefaultLanguageID" aus "Settings") angegeben wurde, wird eine entsprechende Übersetzung (sofern vorhanden, sonst die Standardbezeichnung) ausgegeben.
        * </pre>
        *
-       * <code>optional .dstore.values.StringValue description = 10002;</code>
+       * <code>.dstore.values.StringValue description = 10002;</code>
        */
       public io.dstore.values.StringValueOrBuilder getDescriptionOrBuilder() {
         return getDescription();
@@ -2368,7 +2368,7 @@ public final class OmGetPersonInfoForOrdersAd {
        * ID des Auftraggebers bzw. der Person, an die die Ware geliefert werden soll (je nach "InvoiceOrDeliveryAdress")
        * </pre>
        *
-       * <code>optional .dstore.values.IntegerValue person_id = 10003;</code>
+       * <code>.dstore.values.IntegerValue person_id = 10003;</code>
        */
       public boolean hasPersonId() {
         return personId_ != null;
@@ -2378,7 +2378,7 @@ public final class OmGetPersonInfoForOrdersAd {
        * ID des Auftraggebers bzw. der Person, an die die Ware geliefert werden soll (je nach "InvoiceOrDeliveryAdress")
        * </pre>
        *
-       * <code>optional .dstore.values.IntegerValue person_id = 10003;</code>
+       * <code>.dstore.values.IntegerValue person_id = 10003;</code>
        */
       public io.dstore.values.IntegerValue getPersonId() {
         return personId_ == null ? io.dstore.values.IntegerValue.getDefaultInstance() : personId_;
@@ -2388,7 +2388,7 @@ public final class OmGetPersonInfoForOrdersAd {
        * ID des Auftraggebers bzw. der Person, an die die Ware geliefert werden soll (je nach "InvoiceOrDeliveryAdress")
        * </pre>
        *
-       * <code>optional .dstore.values.IntegerValue person_id = 10003;</code>
+       * <code>.dstore.values.IntegerValue person_id = 10003;</code>
        */
       public io.dstore.values.IntegerValueOrBuilder getPersonIdOrBuilder() {
         return getPersonId();
@@ -2401,7 +2401,7 @@ public final class OmGetPersonInfoForOrdersAd {
        * "ia" : Für "Invoice Address", d.h. bei "PersonID" handelt es sich um den Auftraggeber"da" : Für "Delivery Address", also ist "PersonID" die LieferanschriftACHTUNG : Aufgrund der Abwärtskompatibilität enthält "Description" ein Präfix "ia_" oder "da_" !
        * </pre>
        *
-       * <code>optional .dstore.values.StringValue invoice_or_delivery_adress = 10004;</code>
+       * <code>.dstore.values.StringValue invoice_or_delivery_adress = 10004;</code>
        */
       public boolean hasInvoiceOrDeliveryAdress() {
         return invoiceOrDeliveryAdress_ != null;
@@ -2411,7 +2411,7 @@ public final class OmGetPersonInfoForOrdersAd {
        * "ia" : Für "Invoice Address", d.h. bei "PersonID" handelt es sich um den Auftraggeber"da" : Für "Delivery Address", also ist "PersonID" die LieferanschriftACHTUNG : Aufgrund der Abwärtskompatibilität enthält "Description" ein Präfix "ia_" oder "da_" !
        * </pre>
        *
-       * <code>optional .dstore.values.StringValue invoice_or_delivery_adress = 10004;</code>
+       * <code>.dstore.values.StringValue invoice_or_delivery_adress = 10004;</code>
        */
       public io.dstore.values.StringValue getInvoiceOrDeliveryAdress() {
         return invoiceOrDeliveryAdress_ == null ? io.dstore.values.StringValue.getDefaultInstance() : invoiceOrDeliveryAdress_;
@@ -2421,7 +2421,7 @@ public final class OmGetPersonInfoForOrdersAd {
        * "ia" : Für "Invoice Address", d.h. bei "PersonID" handelt es sich um den Auftraggeber"da" : Für "Delivery Address", also ist "PersonID" die LieferanschriftACHTUNG : Aufgrund der Abwärtskompatibilität enthält "Description" ein Präfix "ia_" oder "da_" !
        * </pre>
        *
-       * <code>optional .dstore.values.StringValue invoice_or_delivery_adress = 10004;</code>
+       * <code>.dstore.values.StringValue invoice_or_delivery_adress = 10004;</code>
        */
       public io.dstore.values.StringValueOrBuilder getInvoiceOrDeliveryAdressOrBuilder() {
         return getInvoiceOrDeliveryAdress();
@@ -2434,7 +2434,7 @@ public final class OmGetPersonInfoForOrdersAd {
        * Immer "NULL", falls "&#64;GetActualProperties = 0" übergeben wurde. Ansonsten steht hier die AKTUELLE (zum Zeitpunkt des Aufrufs der Prozedur) Eigenschaft der Person "PersonID" zum Merkmal "PersonCharacteristicID".
        * </pre>
        *
-       * <code>optional .dstore.values.StringValue actual_value = 10005;</code>
+       * <code>.dstore.values.StringValue actual_value = 10005;</code>
        */
       public boolean hasActualValue() {
         return actualValue_ != null;
@@ -2444,7 +2444,7 @@ public final class OmGetPersonInfoForOrdersAd {
        * Immer "NULL", falls "&#64;GetActualProperties = 0" übergeben wurde. Ansonsten steht hier die AKTUELLE (zum Zeitpunkt des Aufrufs der Prozedur) Eigenschaft der Person "PersonID" zum Merkmal "PersonCharacteristicID".
        * </pre>
        *
-       * <code>optional .dstore.values.StringValue actual_value = 10005;</code>
+       * <code>.dstore.values.StringValue actual_value = 10005;</code>
        */
       public io.dstore.values.StringValue getActualValue() {
         return actualValue_ == null ? io.dstore.values.StringValue.getDefaultInstance() : actualValue_;
@@ -2454,7 +2454,7 @@ public final class OmGetPersonInfoForOrdersAd {
        * Immer "NULL", falls "&#64;GetActualProperties = 0" übergeben wurde. Ansonsten steht hier die AKTUELLE (zum Zeitpunkt des Aufrufs der Prozedur) Eigenschaft der Person "PersonID" zum Merkmal "PersonCharacteristicID".
        * </pre>
        *
-       * <code>optional .dstore.values.StringValue actual_value = 10005;</code>
+       * <code>.dstore.values.StringValue actual_value = 10005;</code>
        */
       public io.dstore.values.StringValueOrBuilder getActualValueOrBuilder() {
         return getActualValue();
@@ -2467,7 +2467,7 @@ public final class OmGetPersonInfoForOrdersAd {
        * ID eines Personen-Merkmals, das in "PersonTypeSettings" zum Schlüssel "PersonOutputCharacteristicIDsForOrderLists&gt;" zur "PersonTypeID" definiert ist
        * </pre>
        *
-       * <code>optional .dstore.values.IntegerValue person_characteristic_id = 10006;</code>
+       * <code>.dstore.values.IntegerValue person_characteristic_id = 10006;</code>
        */
       public boolean hasPersonCharacteristicId() {
         return personCharacteristicId_ != null;
@@ -2477,7 +2477,7 @@ public final class OmGetPersonInfoForOrdersAd {
        * ID eines Personen-Merkmals, das in "PersonTypeSettings" zum Schlüssel "PersonOutputCharacteristicIDsForOrderLists&gt;" zur "PersonTypeID" definiert ist
        * </pre>
        *
-       * <code>optional .dstore.values.IntegerValue person_characteristic_id = 10006;</code>
+       * <code>.dstore.values.IntegerValue person_characteristic_id = 10006;</code>
        */
       public io.dstore.values.IntegerValue getPersonCharacteristicId() {
         return personCharacteristicId_ == null ? io.dstore.values.IntegerValue.getDefaultInstance() : personCharacteristicId_;
@@ -2487,7 +2487,7 @@ public final class OmGetPersonInfoForOrdersAd {
        * ID eines Personen-Merkmals, das in "PersonTypeSettings" zum Schlüssel "PersonOutputCharacteristicIDsForOrderLists&gt;" zur "PersonTypeID" definiert ist
        * </pre>
        *
-       * <code>optional .dstore.values.IntegerValue person_characteristic_id = 10006;</code>
+       * <code>.dstore.values.IntegerValue person_characteristic_id = 10006;</code>
        */
       public io.dstore.values.IntegerValueOrBuilder getPersonCharacteristicIdOrBuilder() {
         return getPersonCharacteristicId();
@@ -2500,7 +2500,7 @@ public final class OmGetPersonInfoForOrdersAd {
        * Eigenschaft von "PersonID" zum Merkmal "PersonCharacteristicID" zum Zeitpunkt "&#64;DateAndTime" bzw. zum aktuellen Zeitpunkt falls "&#64;GetActualProperties = 0" und zu "PersonCharacteristicID" keine Historie gepflegt wird. (siehe Beschreibung)
        * </pre>
        *
-       * <code>optional .dstore.values.StringValue value = 10007;</code>
+       * <code>.dstore.values.StringValue value = 10007;</code>
        */
       public boolean hasValue() {
         return value_ != null;
@@ -2510,7 +2510,7 @@ public final class OmGetPersonInfoForOrdersAd {
        * Eigenschaft von "PersonID" zum Merkmal "PersonCharacteristicID" zum Zeitpunkt "&#64;DateAndTime" bzw. zum aktuellen Zeitpunkt falls "&#64;GetActualProperties = 0" und zu "PersonCharacteristicID" keine Historie gepflegt wird. (siehe Beschreibung)
        * </pre>
        *
-       * <code>optional .dstore.values.StringValue value = 10007;</code>
+       * <code>.dstore.values.StringValue value = 10007;</code>
        */
       public io.dstore.values.StringValue getValue() {
         return value_ == null ? io.dstore.values.StringValue.getDefaultInstance() : value_;
@@ -2520,7 +2520,7 @@ public final class OmGetPersonInfoForOrdersAd {
        * Eigenschaft von "PersonID" zum Merkmal "PersonCharacteristicID" zum Zeitpunkt "&#64;DateAndTime" bzw. zum aktuellen Zeitpunkt falls "&#64;GetActualProperties = 0" und zu "PersonCharacteristicID" keine Historie gepflegt wird. (siehe Beschreibung)
        * </pre>
        *
-       * <code>optional .dstore.values.StringValue value = 10007;</code>
+       * <code>.dstore.values.StringValue value = 10007;</code>
        */
       public io.dstore.values.StringValueOrBuilder getValueOrBuilder() {
         return getValue();
@@ -2533,7 +2533,7 @@ public final class OmGetPersonInfoForOrdersAd {
        * Bestimmt die Reihenfolge von "PersonCharacteristicID" innerhalb aller Merkmale
        * </pre>
        *
-       * <code>optional .dstore.values.IntegerValue sort_no = 10008;</code>
+       * <code>.dstore.values.IntegerValue sort_no = 10008;</code>
        */
       public boolean hasSortNo() {
         return sortNo_ != null;
@@ -2543,7 +2543,7 @@ public final class OmGetPersonInfoForOrdersAd {
        * Bestimmt die Reihenfolge von "PersonCharacteristicID" innerhalb aller Merkmale
        * </pre>
        *
-       * <code>optional .dstore.values.IntegerValue sort_no = 10008;</code>
+       * <code>.dstore.values.IntegerValue sort_no = 10008;</code>
        */
       public io.dstore.values.IntegerValue getSortNo() {
         return sortNo_ == null ? io.dstore.values.IntegerValue.getDefaultInstance() : sortNo_;
@@ -2553,7 +2553,7 @@ public final class OmGetPersonInfoForOrdersAd {
        * Bestimmt die Reihenfolge von "PersonCharacteristicID" innerhalb aller Merkmale
        * </pre>
        *
-       * <code>optional .dstore.values.IntegerValue sort_no = 10008;</code>
+       * <code>.dstore.values.IntegerValue sort_no = 10008;</code>
        */
       public io.dstore.values.IntegerValueOrBuilder getSortNoOrBuilder() {
         return getSortNo();
@@ -2566,7 +2566,7 @@ public final class OmGetPersonInfoForOrdersAd {
        * ID des Personen-Typs von "PersonID"
        * </pre>
        *
-       * <code>optional .dstore.values.IntegerValue person_type_id = 10009;</code>
+       * <code>.dstore.values.IntegerValue person_type_id = 10009;</code>
        */
       public boolean hasPersonTypeId() {
         return personTypeId_ != null;
@@ -2576,7 +2576,7 @@ public final class OmGetPersonInfoForOrdersAd {
        * ID des Personen-Typs von "PersonID"
        * </pre>
        *
-       * <code>optional .dstore.values.IntegerValue person_type_id = 10009;</code>
+       * <code>.dstore.values.IntegerValue person_type_id = 10009;</code>
        */
       public io.dstore.values.IntegerValue getPersonTypeId() {
         return personTypeId_ == null ? io.dstore.values.IntegerValue.getDefaultInstance() : personTypeId_;
@@ -2586,7 +2586,7 @@ public final class OmGetPersonInfoForOrdersAd {
        * ID des Personen-Typs von "PersonID"
        * </pre>
        *
-       * <code>optional .dstore.values.IntegerValue person_type_id = 10009;</code>
+       * <code>.dstore.values.IntegerValue person_type_id = 10009;</code>
        */
       public io.dstore.values.IntegerValueOrBuilder getPersonTypeIdOrBuilder() {
         return getPersonTypeId();
@@ -2753,7 +2753,7 @@ public final class OmGetPersonInfoForOrdersAd {
           return memoizedHashCode;
         }
         int hash = 41;
-        hash = (19 * hash) + getDescriptorForType().hashCode();
+        hash = (19 * hash) + getDescriptor().hashCode();
         hash = (37 * hash) + ROW_ID_FIELD_NUMBER;
         hash = (53 * hash) + getRowId();
         if (hasValueRestrictedByPattern()) {
@@ -3133,13 +3133,13 @@ public final class OmGetPersonInfoForOrdersAd {
 
         private int rowId_ ;
         /**
-         * <code>optional int32 row_id = 10000;</code>
+         * <code>int32 row_id = 10000;</code>
          */
         public int getRowId() {
           return rowId_;
         }
         /**
-         * <code>optional int32 row_id = 10000;</code>
+         * <code>int32 row_id = 10000;</code>
          */
         public Builder setRowId(int value) {
           
@@ -3148,7 +3148,7 @@ public final class OmGetPersonInfoForOrdersAd {
           return this;
         }
         /**
-         * <code>optional int32 row_id = 10000;</code>
+         * <code>int32 row_id = 10000;</code>
          */
         public Builder clearRowId() {
           
@@ -3165,7 +3165,7 @@ public final class OmGetPersonInfoForOrdersAd {
          * Was enthält "(Actual)Value" (möglicherw. wg. Zugr.beschr. nur einen Teil) ?- NULL : den vollst. Wert- "#left(&lt;n&gt;)#" : nur die ERSTEN n Zeichen- "#right(&lt;n&gt;)#" : nur die LETZTEN n ZeichenAnmerkung : "n = 0" möglich, "(Actual)Value" ist dann "NULL"
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue value_restricted_by_pattern = 10001;</code>
+         * <code>.dstore.values.StringValue value_restricted_by_pattern = 10001;</code>
          */
         public boolean hasValueRestrictedByPattern() {
           return valueRestrictedByPatternBuilder_ != null || valueRestrictedByPattern_ != null;
@@ -3175,7 +3175,7 @@ public final class OmGetPersonInfoForOrdersAd {
          * Was enthält "(Actual)Value" (möglicherw. wg. Zugr.beschr. nur einen Teil) ?- NULL : den vollst. Wert- "#left(&lt;n&gt;)#" : nur die ERSTEN n Zeichen- "#right(&lt;n&gt;)#" : nur die LETZTEN n ZeichenAnmerkung : "n = 0" möglich, "(Actual)Value" ist dann "NULL"
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue value_restricted_by_pattern = 10001;</code>
+         * <code>.dstore.values.StringValue value_restricted_by_pattern = 10001;</code>
          */
         public io.dstore.values.StringValue getValueRestrictedByPattern() {
           if (valueRestrictedByPatternBuilder_ == null) {
@@ -3189,7 +3189,7 @@ public final class OmGetPersonInfoForOrdersAd {
          * Was enthält "(Actual)Value" (möglicherw. wg. Zugr.beschr. nur einen Teil) ?- NULL : den vollst. Wert- "#left(&lt;n&gt;)#" : nur die ERSTEN n Zeichen- "#right(&lt;n&gt;)#" : nur die LETZTEN n ZeichenAnmerkung : "n = 0" möglich, "(Actual)Value" ist dann "NULL"
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue value_restricted_by_pattern = 10001;</code>
+         * <code>.dstore.values.StringValue value_restricted_by_pattern = 10001;</code>
          */
         public Builder setValueRestrictedByPattern(io.dstore.values.StringValue value) {
           if (valueRestrictedByPatternBuilder_ == null) {
@@ -3209,7 +3209,7 @@ public final class OmGetPersonInfoForOrdersAd {
          * Was enthält "(Actual)Value" (möglicherw. wg. Zugr.beschr. nur einen Teil) ?- NULL : den vollst. Wert- "#left(&lt;n&gt;)#" : nur die ERSTEN n Zeichen- "#right(&lt;n&gt;)#" : nur die LETZTEN n ZeichenAnmerkung : "n = 0" möglich, "(Actual)Value" ist dann "NULL"
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue value_restricted_by_pattern = 10001;</code>
+         * <code>.dstore.values.StringValue value_restricted_by_pattern = 10001;</code>
          */
         public Builder setValueRestrictedByPattern(
             io.dstore.values.StringValue.Builder builderForValue) {
@@ -3227,7 +3227,7 @@ public final class OmGetPersonInfoForOrdersAd {
          * Was enthält "(Actual)Value" (möglicherw. wg. Zugr.beschr. nur einen Teil) ?- NULL : den vollst. Wert- "#left(&lt;n&gt;)#" : nur die ERSTEN n Zeichen- "#right(&lt;n&gt;)#" : nur die LETZTEN n ZeichenAnmerkung : "n = 0" möglich, "(Actual)Value" ist dann "NULL"
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue value_restricted_by_pattern = 10001;</code>
+         * <code>.dstore.values.StringValue value_restricted_by_pattern = 10001;</code>
          */
         public Builder mergeValueRestrictedByPattern(io.dstore.values.StringValue value) {
           if (valueRestrictedByPatternBuilder_ == null) {
@@ -3249,7 +3249,7 @@ public final class OmGetPersonInfoForOrdersAd {
          * Was enthält "(Actual)Value" (möglicherw. wg. Zugr.beschr. nur einen Teil) ?- NULL : den vollst. Wert- "#left(&lt;n&gt;)#" : nur die ERSTEN n Zeichen- "#right(&lt;n&gt;)#" : nur die LETZTEN n ZeichenAnmerkung : "n = 0" möglich, "(Actual)Value" ist dann "NULL"
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue value_restricted_by_pattern = 10001;</code>
+         * <code>.dstore.values.StringValue value_restricted_by_pattern = 10001;</code>
          */
         public Builder clearValueRestrictedByPattern() {
           if (valueRestrictedByPatternBuilder_ == null) {
@@ -3267,7 +3267,7 @@ public final class OmGetPersonInfoForOrdersAd {
          * Was enthält "(Actual)Value" (möglicherw. wg. Zugr.beschr. nur einen Teil) ?- NULL : den vollst. Wert- "#left(&lt;n&gt;)#" : nur die ERSTEN n Zeichen- "#right(&lt;n&gt;)#" : nur die LETZTEN n ZeichenAnmerkung : "n = 0" möglich, "(Actual)Value" ist dann "NULL"
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue value_restricted_by_pattern = 10001;</code>
+         * <code>.dstore.values.StringValue value_restricted_by_pattern = 10001;</code>
          */
         public io.dstore.values.StringValue.Builder getValueRestrictedByPatternBuilder() {
           
@@ -3279,7 +3279,7 @@ public final class OmGetPersonInfoForOrdersAd {
          * Was enthält "(Actual)Value" (möglicherw. wg. Zugr.beschr. nur einen Teil) ?- NULL : den vollst. Wert- "#left(&lt;n&gt;)#" : nur die ERSTEN n Zeichen- "#right(&lt;n&gt;)#" : nur die LETZTEN n ZeichenAnmerkung : "n = 0" möglich, "(Actual)Value" ist dann "NULL"
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue value_restricted_by_pattern = 10001;</code>
+         * <code>.dstore.values.StringValue value_restricted_by_pattern = 10001;</code>
          */
         public io.dstore.values.StringValueOrBuilder getValueRestrictedByPatternOrBuilder() {
           if (valueRestrictedByPatternBuilder_ != null) {
@@ -3294,7 +3294,7 @@ public final class OmGetPersonInfoForOrdersAd {
          * Was enthält "(Actual)Value" (möglicherw. wg. Zugr.beschr. nur einen Teil) ?- NULL : den vollst. Wert- "#left(&lt;n&gt;)#" : nur die ERSTEN n Zeichen- "#right(&lt;n&gt;)#" : nur die LETZTEN n ZeichenAnmerkung : "n = 0" möglich, "(Actual)Value" ist dann "NULL"
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue value_restricted_by_pattern = 10001;</code>
+         * <code>.dstore.values.StringValue value_restricted_by_pattern = 10001;</code>
          */
         private com.google.protobuf.SingleFieldBuilderV3<
             io.dstore.values.StringValue, io.dstore.values.StringValue.Builder, io.dstore.values.StringValueOrBuilder> 
@@ -3318,7 +3318,7 @@ public final class OmGetPersonInfoForOrdersAd {
          * Bezeichnung des Merkmals "PersonCharacteristicID". Falls eine "&#64;LanguageID" ("&lt;&gt; 0" bzw. ungleich der "DefaultLanguageID" aus "Settings") angegeben wurde, wird eine entsprechende Übersetzung (sofern vorhanden, sonst die Standardbezeichnung) ausgegeben.
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue description = 10002;</code>
+         * <code>.dstore.values.StringValue description = 10002;</code>
          */
         public boolean hasDescription() {
           return descriptionBuilder_ != null || description_ != null;
@@ -3328,7 +3328,7 @@ public final class OmGetPersonInfoForOrdersAd {
          * Bezeichnung des Merkmals "PersonCharacteristicID". Falls eine "&#64;LanguageID" ("&lt;&gt; 0" bzw. ungleich der "DefaultLanguageID" aus "Settings") angegeben wurde, wird eine entsprechende Übersetzung (sofern vorhanden, sonst die Standardbezeichnung) ausgegeben.
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue description = 10002;</code>
+         * <code>.dstore.values.StringValue description = 10002;</code>
          */
         public io.dstore.values.StringValue getDescription() {
           if (descriptionBuilder_ == null) {
@@ -3342,7 +3342,7 @@ public final class OmGetPersonInfoForOrdersAd {
          * Bezeichnung des Merkmals "PersonCharacteristicID". Falls eine "&#64;LanguageID" ("&lt;&gt; 0" bzw. ungleich der "DefaultLanguageID" aus "Settings") angegeben wurde, wird eine entsprechende Übersetzung (sofern vorhanden, sonst die Standardbezeichnung) ausgegeben.
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue description = 10002;</code>
+         * <code>.dstore.values.StringValue description = 10002;</code>
          */
         public Builder setDescription(io.dstore.values.StringValue value) {
           if (descriptionBuilder_ == null) {
@@ -3362,7 +3362,7 @@ public final class OmGetPersonInfoForOrdersAd {
          * Bezeichnung des Merkmals "PersonCharacteristicID". Falls eine "&#64;LanguageID" ("&lt;&gt; 0" bzw. ungleich der "DefaultLanguageID" aus "Settings") angegeben wurde, wird eine entsprechende Übersetzung (sofern vorhanden, sonst die Standardbezeichnung) ausgegeben.
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue description = 10002;</code>
+         * <code>.dstore.values.StringValue description = 10002;</code>
          */
         public Builder setDescription(
             io.dstore.values.StringValue.Builder builderForValue) {
@@ -3380,7 +3380,7 @@ public final class OmGetPersonInfoForOrdersAd {
          * Bezeichnung des Merkmals "PersonCharacteristicID". Falls eine "&#64;LanguageID" ("&lt;&gt; 0" bzw. ungleich der "DefaultLanguageID" aus "Settings") angegeben wurde, wird eine entsprechende Übersetzung (sofern vorhanden, sonst die Standardbezeichnung) ausgegeben.
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue description = 10002;</code>
+         * <code>.dstore.values.StringValue description = 10002;</code>
          */
         public Builder mergeDescription(io.dstore.values.StringValue value) {
           if (descriptionBuilder_ == null) {
@@ -3402,7 +3402,7 @@ public final class OmGetPersonInfoForOrdersAd {
          * Bezeichnung des Merkmals "PersonCharacteristicID". Falls eine "&#64;LanguageID" ("&lt;&gt; 0" bzw. ungleich der "DefaultLanguageID" aus "Settings") angegeben wurde, wird eine entsprechende Übersetzung (sofern vorhanden, sonst die Standardbezeichnung) ausgegeben.
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue description = 10002;</code>
+         * <code>.dstore.values.StringValue description = 10002;</code>
          */
         public Builder clearDescription() {
           if (descriptionBuilder_ == null) {
@@ -3420,7 +3420,7 @@ public final class OmGetPersonInfoForOrdersAd {
          * Bezeichnung des Merkmals "PersonCharacteristicID". Falls eine "&#64;LanguageID" ("&lt;&gt; 0" bzw. ungleich der "DefaultLanguageID" aus "Settings") angegeben wurde, wird eine entsprechende Übersetzung (sofern vorhanden, sonst die Standardbezeichnung) ausgegeben.
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue description = 10002;</code>
+         * <code>.dstore.values.StringValue description = 10002;</code>
          */
         public io.dstore.values.StringValue.Builder getDescriptionBuilder() {
           
@@ -3432,7 +3432,7 @@ public final class OmGetPersonInfoForOrdersAd {
          * Bezeichnung des Merkmals "PersonCharacteristicID". Falls eine "&#64;LanguageID" ("&lt;&gt; 0" bzw. ungleich der "DefaultLanguageID" aus "Settings") angegeben wurde, wird eine entsprechende Übersetzung (sofern vorhanden, sonst die Standardbezeichnung) ausgegeben.
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue description = 10002;</code>
+         * <code>.dstore.values.StringValue description = 10002;</code>
          */
         public io.dstore.values.StringValueOrBuilder getDescriptionOrBuilder() {
           if (descriptionBuilder_ != null) {
@@ -3447,7 +3447,7 @@ public final class OmGetPersonInfoForOrdersAd {
          * Bezeichnung des Merkmals "PersonCharacteristicID". Falls eine "&#64;LanguageID" ("&lt;&gt; 0" bzw. ungleich der "DefaultLanguageID" aus "Settings") angegeben wurde, wird eine entsprechende Übersetzung (sofern vorhanden, sonst die Standardbezeichnung) ausgegeben.
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue description = 10002;</code>
+         * <code>.dstore.values.StringValue description = 10002;</code>
          */
         private com.google.protobuf.SingleFieldBuilderV3<
             io.dstore.values.StringValue, io.dstore.values.StringValue.Builder, io.dstore.values.StringValueOrBuilder> 
@@ -3471,7 +3471,7 @@ public final class OmGetPersonInfoForOrdersAd {
          * ID des Auftraggebers bzw. der Person, an die die Ware geliefert werden soll (je nach "InvoiceOrDeliveryAdress")
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue person_id = 10003;</code>
+         * <code>.dstore.values.IntegerValue person_id = 10003;</code>
          */
         public boolean hasPersonId() {
           return personIdBuilder_ != null || personId_ != null;
@@ -3481,7 +3481,7 @@ public final class OmGetPersonInfoForOrdersAd {
          * ID des Auftraggebers bzw. der Person, an die die Ware geliefert werden soll (je nach "InvoiceOrDeliveryAdress")
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue person_id = 10003;</code>
+         * <code>.dstore.values.IntegerValue person_id = 10003;</code>
          */
         public io.dstore.values.IntegerValue getPersonId() {
           if (personIdBuilder_ == null) {
@@ -3495,7 +3495,7 @@ public final class OmGetPersonInfoForOrdersAd {
          * ID des Auftraggebers bzw. der Person, an die die Ware geliefert werden soll (je nach "InvoiceOrDeliveryAdress")
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue person_id = 10003;</code>
+         * <code>.dstore.values.IntegerValue person_id = 10003;</code>
          */
         public Builder setPersonId(io.dstore.values.IntegerValue value) {
           if (personIdBuilder_ == null) {
@@ -3515,7 +3515,7 @@ public final class OmGetPersonInfoForOrdersAd {
          * ID des Auftraggebers bzw. der Person, an die die Ware geliefert werden soll (je nach "InvoiceOrDeliveryAdress")
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue person_id = 10003;</code>
+         * <code>.dstore.values.IntegerValue person_id = 10003;</code>
          */
         public Builder setPersonId(
             io.dstore.values.IntegerValue.Builder builderForValue) {
@@ -3533,7 +3533,7 @@ public final class OmGetPersonInfoForOrdersAd {
          * ID des Auftraggebers bzw. der Person, an die die Ware geliefert werden soll (je nach "InvoiceOrDeliveryAdress")
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue person_id = 10003;</code>
+         * <code>.dstore.values.IntegerValue person_id = 10003;</code>
          */
         public Builder mergePersonId(io.dstore.values.IntegerValue value) {
           if (personIdBuilder_ == null) {
@@ -3555,7 +3555,7 @@ public final class OmGetPersonInfoForOrdersAd {
          * ID des Auftraggebers bzw. der Person, an die die Ware geliefert werden soll (je nach "InvoiceOrDeliveryAdress")
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue person_id = 10003;</code>
+         * <code>.dstore.values.IntegerValue person_id = 10003;</code>
          */
         public Builder clearPersonId() {
           if (personIdBuilder_ == null) {
@@ -3573,7 +3573,7 @@ public final class OmGetPersonInfoForOrdersAd {
          * ID des Auftraggebers bzw. der Person, an die die Ware geliefert werden soll (je nach "InvoiceOrDeliveryAdress")
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue person_id = 10003;</code>
+         * <code>.dstore.values.IntegerValue person_id = 10003;</code>
          */
         public io.dstore.values.IntegerValue.Builder getPersonIdBuilder() {
           
@@ -3585,7 +3585,7 @@ public final class OmGetPersonInfoForOrdersAd {
          * ID des Auftraggebers bzw. der Person, an die die Ware geliefert werden soll (je nach "InvoiceOrDeliveryAdress")
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue person_id = 10003;</code>
+         * <code>.dstore.values.IntegerValue person_id = 10003;</code>
          */
         public io.dstore.values.IntegerValueOrBuilder getPersonIdOrBuilder() {
           if (personIdBuilder_ != null) {
@@ -3600,7 +3600,7 @@ public final class OmGetPersonInfoForOrdersAd {
          * ID des Auftraggebers bzw. der Person, an die die Ware geliefert werden soll (je nach "InvoiceOrDeliveryAdress")
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue person_id = 10003;</code>
+         * <code>.dstore.values.IntegerValue person_id = 10003;</code>
          */
         private com.google.protobuf.SingleFieldBuilderV3<
             io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> 
@@ -3624,7 +3624,7 @@ public final class OmGetPersonInfoForOrdersAd {
          * "ia" : Für "Invoice Address", d.h. bei "PersonID" handelt es sich um den Auftraggeber"da" : Für "Delivery Address", also ist "PersonID" die LieferanschriftACHTUNG : Aufgrund der Abwärtskompatibilität enthält "Description" ein Präfix "ia_" oder "da_" !
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue invoice_or_delivery_adress = 10004;</code>
+         * <code>.dstore.values.StringValue invoice_or_delivery_adress = 10004;</code>
          */
         public boolean hasInvoiceOrDeliveryAdress() {
           return invoiceOrDeliveryAdressBuilder_ != null || invoiceOrDeliveryAdress_ != null;
@@ -3634,7 +3634,7 @@ public final class OmGetPersonInfoForOrdersAd {
          * "ia" : Für "Invoice Address", d.h. bei "PersonID" handelt es sich um den Auftraggeber"da" : Für "Delivery Address", also ist "PersonID" die LieferanschriftACHTUNG : Aufgrund der Abwärtskompatibilität enthält "Description" ein Präfix "ia_" oder "da_" !
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue invoice_or_delivery_adress = 10004;</code>
+         * <code>.dstore.values.StringValue invoice_or_delivery_adress = 10004;</code>
          */
         public io.dstore.values.StringValue getInvoiceOrDeliveryAdress() {
           if (invoiceOrDeliveryAdressBuilder_ == null) {
@@ -3648,7 +3648,7 @@ public final class OmGetPersonInfoForOrdersAd {
          * "ia" : Für "Invoice Address", d.h. bei "PersonID" handelt es sich um den Auftraggeber"da" : Für "Delivery Address", also ist "PersonID" die LieferanschriftACHTUNG : Aufgrund der Abwärtskompatibilität enthält "Description" ein Präfix "ia_" oder "da_" !
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue invoice_or_delivery_adress = 10004;</code>
+         * <code>.dstore.values.StringValue invoice_or_delivery_adress = 10004;</code>
          */
         public Builder setInvoiceOrDeliveryAdress(io.dstore.values.StringValue value) {
           if (invoiceOrDeliveryAdressBuilder_ == null) {
@@ -3668,7 +3668,7 @@ public final class OmGetPersonInfoForOrdersAd {
          * "ia" : Für "Invoice Address", d.h. bei "PersonID" handelt es sich um den Auftraggeber"da" : Für "Delivery Address", also ist "PersonID" die LieferanschriftACHTUNG : Aufgrund der Abwärtskompatibilität enthält "Description" ein Präfix "ia_" oder "da_" !
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue invoice_or_delivery_adress = 10004;</code>
+         * <code>.dstore.values.StringValue invoice_or_delivery_adress = 10004;</code>
          */
         public Builder setInvoiceOrDeliveryAdress(
             io.dstore.values.StringValue.Builder builderForValue) {
@@ -3686,7 +3686,7 @@ public final class OmGetPersonInfoForOrdersAd {
          * "ia" : Für "Invoice Address", d.h. bei "PersonID" handelt es sich um den Auftraggeber"da" : Für "Delivery Address", also ist "PersonID" die LieferanschriftACHTUNG : Aufgrund der Abwärtskompatibilität enthält "Description" ein Präfix "ia_" oder "da_" !
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue invoice_or_delivery_adress = 10004;</code>
+         * <code>.dstore.values.StringValue invoice_or_delivery_adress = 10004;</code>
          */
         public Builder mergeInvoiceOrDeliveryAdress(io.dstore.values.StringValue value) {
           if (invoiceOrDeliveryAdressBuilder_ == null) {
@@ -3708,7 +3708,7 @@ public final class OmGetPersonInfoForOrdersAd {
          * "ia" : Für "Invoice Address", d.h. bei "PersonID" handelt es sich um den Auftraggeber"da" : Für "Delivery Address", also ist "PersonID" die LieferanschriftACHTUNG : Aufgrund der Abwärtskompatibilität enthält "Description" ein Präfix "ia_" oder "da_" !
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue invoice_or_delivery_adress = 10004;</code>
+         * <code>.dstore.values.StringValue invoice_or_delivery_adress = 10004;</code>
          */
         public Builder clearInvoiceOrDeliveryAdress() {
           if (invoiceOrDeliveryAdressBuilder_ == null) {
@@ -3726,7 +3726,7 @@ public final class OmGetPersonInfoForOrdersAd {
          * "ia" : Für "Invoice Address", d.h. bei "PersonID" handelt es sich um den Auftraggeber"da" : Für "Delivery Address", also ist "PersonID" die LieferanschriftACHTUNG : Aufgrund der Abwärtskompatibilität enthält "Description" ein Präfix "ia_" oder "da_" !
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue invoice_or_delivery_adress = 10004;</code>
+         * <code>.dstore.values.StringValue invoice_or_delivery_adress = 10004;</code>
          */
         public io.dstore.values.StringValue.Builder getInvoiceOrDeliveryAdressBuilder() {
           
@@ -3738,7 +3738,7 @@ public final class OmGetPersonInfoForOrdersAd {
          * "ia" : Für "Invoice Address", d.h. bei "PersonID" handelt es sich um den Auftraggeber"da" : Für "Delivery Address", also ist "PersonID" die LieferanschriftACHTUNG : Aufgrund der Abwärtskompatibilität enthält "Description" ein Präfix "ia_" oder "da_" !
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue invoice_or_delivery_adress = 10004;</code>
+         * <code>.dstore.values.StringValue invoice_or_delivery_adress = 10004;</code>
          */
         public io.dstore.values.StringValueOrBuilder getInvoiceOrDeliveryAdressOrBuilder() {
           if (invoiceOrDeliveryAdressBuilder_ != null) {
@@ -3753,7 +3753,7 @@ public final class OmGetPersonInfoForOrdersAd {
          * "ia" : Für "Invoice Address", d.h. bei "PersonID" handelt es sich um den Auftraggeber"da" : Für "Delivery Address", also ist "PersonID" die LieferanschriftACHTUNG : Aufgrund der Abwärtskompatibilität enthält "Description" ein Präfix "ia_" oder "da_" !
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue invoice_or_delivery_adress = 10004;</code>
+         * <code>.dstore.values.StringValue invoice_or_delivery_adress = 10004;</code>
          */
         private com.google.protobuf.SingleFieldBuilderV3<
             io.dstore.values.StringValue, io.dstore.values.StringValue.Builder, io.dstore.values.StringValueOrBuilder> 
@@ -3777,7 +3777,7 @@ public final class OmGetPersonInfoForOrdersAd {
          * Immer "NULL", falls "&#64;GetActualProperties = 0" übergeben wurde. Ansonsten steht hier die AKTUELLE (zum Zeitpunkt des Aufrufs der Prozedur) Eigenschaft der Person "PersonID" zum Merkmal "PersonCharacteristicID".
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue actual_value = 10005;</code>
+         * <code>.dstore.values.StringValue actual_value = 10005;</code>
          */
         public boolean hasActualValue() {
           return actualValueBuilder_ != null || actualValue_ != null;
@@ -3787,7 +3787,7 @@ public final class OmGetPersonInfoForOrdersAd {
          * Immer "NULL", falls "&#64;GetActualProperties = 0" übergeben wurde. Ansonsten steht hier die AKTUELLE (zum Zeitpunkt des Aufrufs der Prozedur) Eigenschaft der Person "PersonID" zum Merkmal "PersonCharacteristicID".
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue actual_value = 10005;</code>
+         * <code>.dstore.values.StringValue actual_value = 10005;</code>
          */
         public io.dstore.values.StringValue getActualValue() {
           if (actualValueBuilder_ == null) {
@@ -3801,7 +3801,7 @@ public final class OmGetPersonInfoForOrdersAd {
          * Immer "NULL", falls "&#64;GetActualProperties = 0" übergeben wurde. Ansonsten steht hier die AKTUELLE (zum Zeitpunkt des Aufrufs der Prozedur) Eigenschaft der Person "PersonID" zum Merkmal "PersonCharacteristicID".
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue actual_value = 10005;</code>
+         * <code>.dstore.values.StringValue actual_value = 10005;</code>
          */
         public Builder setActualValue(io.dstore.values.StringValue value) {
           if (actualValueBuilder_ == null) {
@@ -3821,7 +3821,7 @@ public final class OmGetPersonInfoForOrdersAd {
          * Immer "NULL", falls "&#64;GetActualProperties = 0" übergeben wurde. Ansonsten steht hier die AKTUELLE (zum Zeitpunkt des Aufrufs der Prozedur) Eigenschaft der Person "PersonID" zum Merkmal "PersonCharacteristicID".
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue actual_value = 10005;</code>
+         * <code>.dstore.values.StringValue actual_value = 10005;</code>
          */
         public Builder setActualValue(
             io.dstore.values.StringValue.Builder builderForValue) {
@@ -3839,7 +3839,7 @@ public final class OmGetPersonInfoForOrdersAd {
          * Immer "NULL", falls "&#64;GetActualProperties = 0" übergeben wurde. Ansonsten steht hier die AKTUELLE (zum Zeitpunkt des Aufrufs der Prozedur) Eigenschaft der Person "PersonID" zum Merkmal "PersonCharacteristicID".
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue actual_value = 10005;</code>
+         * <code>.dstore.values.StringValue actual_value = 10005;</code>
          */
         public Builder mergeActualValue(io.dstore.values.StringValue value) {
           if (actualValueBuilder_ == null) {
@@ -3861,7 +3861,7 @@ public final class OmGetPersonInfoForOrdersAd {
          * Immer "NULL", falls "&#64;GetActualProperties = 0" übergeben wurde. Ansonsten steht hier die AKTUELLE (zum Zeitpunkt des Aufrufs der Prozedur) Eigenschaft der Person "PersonID" zum Merkmal "PersonCharacteristicID".
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue actual_value = 10005;</code>
+         * <code>.dstore.values.StringValue actual_value = 10005;</code>
          */
         public Builder clearActualValue() {
           if (actualValueBuilder_ == null) {
@@ -3879,7 +3879,7 @@ public final class OmGetPersonInfoForOrdersAd {
          * Immer "NULL", falls "&#64;GetActualProperties = 0" übergeben wurde. Ansonsten steht hier die AKTUELLE (zum Zeitpunkt des Aufrufs der Prozedur) Eigenschaft der Person "PersonID" zum Merkmal "PersonCharacteristicID".
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue actual_value = 10005;</code>
+         * <code>.dstore.values.StringValue actual_value = 10005;</code>
          */
         public io.dstore.values.StringValue.Builder getActualValueBuilder() {
           
@@ -3891,7 +3891,7 @@ public final class OmGetPersonInfoForOrdersAd {
          * Immer "NULL", falls "&#64;GetActualProperties = 0" übergeben wurde. Ansonsten steht hier die AKTUELLE (zum Zeitpunkt des Aufrufs der Prozedur) Eigenschaft der Person "PersonID" zum Merkmal "PersonCharacteristicID".
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue actual_value = 10005;</code>
+         * <code>.dstore.values.StringValue actual_value = 10005;</code>
          */
         public io.dstore.values.StringValueOrBuilder getActualValueOrBuilder() {
           if (actualValueBuilder_ != null) {
@@ -3906,7 +3906,7 @@ public final class OmGetPersonInfoForOrdersAd {
          * Immer "NULL", falls "&#64;GetActualProperties = 0" übergeben wurde. Ansonsten steht hier die AKTUELLE (zum Zeitpunkt des Aufrufs der Prozedur) Eigenschaft der Person "PersonID" zum Merkmal "PersonCharacteristicID".
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue actual_value = 10005;</code>
+         * <code>.dstore.values.StringValue actual_value = 10005;</code>
          */
         private com.google.protobuf.SingleFieldBuilderV3<
             io.dstore.values.StringValue, io.dstore.values.StringValue.Builder, io.dstore.values.StringValueOrBuilder> 
@@ -3930,7 +3930,7 @@ public final class OmGetPersonInfoForOrdersAd {
          * ID eines Personen-Merkmals, das in "PersonTypeSettings" zum Schlüssel "PersonOutputCharacteristicIDsForOrderLists&gt;" zur "PersonTypeID" definiert ist
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue person_characteristic_id = 10006;</code>
+         * <code>.dstore.values.IntegerValue person_characteristic_id = 10006;</code>
          */
         public boolean hasPersonCharacteristicId() {
           return personCharacteristicIdBuilder_ != null || personCharacteristicId_ != null;
@@ -3940,7 +3940,7 @@ public final class OmGetPersonInfoForOrdersAd {
          * ID eines Personen-Merkmals, das in "PersonTypeSettings" zum Schlüssel "PersonOutputCharacteristicIDsForOrderLists&gt;" zur "PersonTypeID" definiert ist
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue person_characteristic_id = 10006;</code>
+         * <code>.dstore.values.IntegerValue person_characteristic_id = 10006;</code>
          */
         public io.dstore.values.IntegerValue getPersonCharacteristicId() {
           if (personCharacteristicIdBuilder_ == null) {
@@ -3954,7 +3954,7 @@ public final class OmGetPersonInfoForOrdersAd {
          * ID eines Personen-Merkmals, das in "PersonTypeSettings" zum Schlüssel "PersonOutputCharacteristicIDsForOrderLists&gt;" zur "PersonTypeID" definiert ist
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue person_characteristic_id = 10006;</code>
+         * <code>.dstore.values.IntegerValue person_characteristic_id = 10006;</code>
          */
         public Builder setPersonCharacteristicId(io.dstore.values.IntegerValue value) {
           if (personCharacteristicIdBuilder_ == null) {
@@ -3974,7 +3974,7 @@ public final class OmGetPersonInfoForOrdersAd {
          * ID eines Personen-Merkmals, das in "PersonTypeSettings" zum Schlüssel "PersonOutputCharacteristicIDsForOrderLists&gt;" zur "PersonTypeID" definiert ist
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue person_characteristic_id = 10006;</code>
+         * <code>.dstore.values.IntegerValue person_characteristic_id = 10006;</code>
          */
         public Builder setPersonCharacteristicId(
             io.dstore.values.IntegerValue.Builder builderForValue) {
@@ -3992,7 +3992,7 @@ public final class OmGetPersonInfoForOrdersAd {
          * ID eines Personen-Merkmals, das in "PersonTypeSettings" zum Schlüssel "PersonOutputCharacteristicIDsForOrderLists&gt;" zur "PersonTypeID" definiert ist
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue person_characteristic_id = 10006;</code>
+         * <code>.dstore.values.IntegerValue person_characteristic_id = 10006;</code>
          */
         public Builder mergePersonCharacteristicId(io.dstore.values.IntegerValue value) {
           if (personCharacteristicIdBuilder_ == null) {
@@ -4014,7 +4014,7 @@ public final class OmGetPersonInfoForOrdersAd {
          * ID eines Personen-Merkmals, das in "PersonTypeSettings" zum Schlüssel "PersonOutputCharacteristicIDsForOrderLists&gt;" zur "PersonTypeID" definiert ist
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue person_characteristic_id = 10006;</code>
+         * <code>.dstore.values.IntegerValue person_characteristic_id = 10006;</code>
          */
         public Builder clearPersonCharacteristicId() {
           if (personCharacteristicIdBuilder_ == null) {
@@ -4032,7 +4032,7 @@ public final class OmGetPersonInfoForOrdersAd {
          * ID eines Personen-Merkmals, das in "PersonTypeSettings" zum Schlüssel "PersonOutputCharacteristicIDsForOrderLists&gt;" zur "PersonTypeID" definiert ist
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue person_characteristic_id = 10006;</code>
+         * <code>.dstore.values.IntegerValue person_characteristic_id = 10006;</code>
          */
         public io.dstore.values.IntegerValue.Builder getPersonCharacteristicIdBuilder() {
           
@@ -4044,7 +4044,7 @@ public final class OmGetPersonInfoForOrdersAd {
          * ID eines Personen-Merkmals, das in "PersonTypeSettings" zum Schlüssel "PersonOutputCharacteristicIDsForOrderLists&gt;" zur "PersonTypeID" definiert ist
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue person_characteristic_id = 10006;</code>
+         * <code>.dstore.values.IntegerValue person_characteristic_id = 10006;</code>
          */
         public io.dstore.values.IntegerValueOrBuilder getPersonCharacteristicIdOrBuilder() {
           if (personCharacteristicIdBuilder_ != null) {
@@ -4059,7 +4059,7 @@ public final class OmGetPersonInfoForOrdersAd {
          * ID eines Personen-Merkmals, das in "PersonTypeSettings" zum Schlüssel "PersonOutputCharacteristicIDsForOrderLists&gt;" zur "PersonTypeID" definiert ist
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue person_characteristic_id = 10006;</code>
+         * <code>.dstore.values.IntegerValue person_characteristic_id = 10006;</code>
          */
         private com.google.protobuf.SingleFieldBuilderV3<
             io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> 
@@ -4083,7 +4083,7 @@ public final class OmGetPersonInfoForOrdersAd {
          * Eigenschaft von "PersonID" zum Merkmal "PersonCharacteristicID" zum Zeitpunkt "&#64;DateAndTime" bzw. zum aktuellen Zeitpunkt falls "&#64;GetActualProperties = 0" und zu "PersonCharacteristicID" keine Historie gepflegt wird. (siehe Beschreibung)
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue value = 10007;</code>
+         * <code>.dstore.values.StringValue value = 10007;</code>
          */
         public boolean hasValue() {
           return valueBuilder_ != null || value_ != null;
@@ -4093,7 +4093,7 @@ public final class OmGetPersonInfoForOrdersAd {
          * Eigenschaft von "PersonID" zum Merkmal "PersonCharacteristicID" zum Zeitpunkt "&#64;DateAndTime" bzw. zum aktuellen Zeitpunkt falls "&#64;GetActualProperties = 0" und zu "PersonCharacteristicID" keine Historie gepflegt wird. (siehe Beschreibung)
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue value = 10007;</code>
+         * <code>.dstore.values.StringValue value = 10007;</code>
          */
         public io.dstore.values.StringValue getValue() {
           if (valueBuilder_ == null) {
@@ -4107,7 +4107,7 @@ public final class OmGetPersonInfoForOrdersAd {
          * Eigenschaft von "PersonID" zum Merkmal "PersonCharacteristicID" zum Zeitpunkt "&#64;DateAndTime" bzw. zum aktuellen Zeitpunkt falls "&#64;GetActualProperties = 0" und zu "PersonCharacteristicID" keine Historie gepflegt wird. (siehe Beschreibung)
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue value = 10007;</code>
+         * <code>.dstore.values.StringValue value = 10007;</code>
          */
         public Builder setValue(io.dstore.values.StringValue value) {
           if (valueBuilder_ == null) {
@@ -4127,7 +4127,7 @@ public final class OmGetPersonInfoForOrdersAd {
          * Eigenschaft von "PersonID" zum Merkmal "PersonCharacteristicID" zum Zeitpunkt "&#64;DateAndTime" bzw. zum aktuellen Zeitpunkt falls "&#64;GetActualProperties = 0" und zu "PersonCharacteristicID" keine Historie gepflegt wird. (siehe Beschreibung)
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue value = 10007;</code>
+         * <code>.dstore.values.StringValue value = 10007;</code>
          */
         public Builder setValue(
             io.dstore.values.StringValue.Builder builderForValue) {
@@ -4145,7 +4145,7 @@ public final class OmGetPersonInfoForOrdersAd {
          * Eigenschaft von "PersonID" zum Merkmal "PersonCharacteristicID" zum Zeitpunkt "&#64;DateAndTime" bzw. zum aktuellen Zeitpunkt falls "&#64;GetActualProperties = 0" und zu "PersonCharacteristicID" keine Historie gepflegt wird. (siehe Beschreibung)
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue value = 10007;</code>
+         * <code>.dstore.values.StringValue value = 10007;</code>
          */
         public Builder mergeValue(io.dstore.values.StringValue value) {
           if (valueBuilder_ == null) {
@@ -4167,7 +4167,7 @@ public final class OmGetPersonInfoForOrdersAd {
          * Eigenschaft von "PersonID" zum Merkmal "PersonCharacteristicID" zum Zeitpunkt "&#64;DateAndTime" bzw. zum aktuellen Zeitpunkt falls "&#64;GetActualProperties = 0" und zu "PersonCharacteristicID" keine Historie gepflegt wird. (siehe Beschreibung)
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue value = 10007;</code>
+         * <code>.dstore.values.StringValue value = 10007;</code>
          */
         public Builder clearValue() {
           if (valueBuilder_ == null) {
@@ -4185,7 +4185,7 @@ public final class OmGetPersonInfoForOrdersAd {
          * Eigenschaft von "PersonID" zum Merkmal "PersonCharacteristicID" zum Zeitpunkt "&#64;DateAndTime" bzw. zum aktuellen Zeitpunkt falls "&#64;GetActualProperties = 0" und zu "PersonCharacteristicID" keine Historie gepflegt wird. (siehe Beschreibung)
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue value = 10007;</code>
+         * <code>.dstore.values.StringValue value = 10007;</code>
          */
         public io.dstore.values.StringValue.Builder getValueBuilder() {
           
@@ -4197,7 +4197,7 @@ public final class OmGetPersonInfoForOrdersAd {
          * Eigenschaft von "PersonID" zum Merkmal "PersonCharacteristicID" zum Zeitpunkt "&#64;DateAndTime" bzw. zum aktuellen Zeitpunkt falls "&#64;GetActualProperties = 0" und zu "PersonCharacteristicID" keine Historie gepflegt wird. (siehe Beschreibung)
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue value = 10007;</code>
+         * <code>.dstore.values.StringValue value = 10007;</code>
          */
         public io.dstore.values.StringValueOrBuilder getValueOrBuilder() {
           if (valueBuilder_ != null) {
@@ -4212,7 +4212,7 @@ public final class OmGetPersonInfoForOrdersAd {
          * Eigenschaft von "PersonID" zum Merkmal "PersonCharacteristicID" zum Zeitpunkt "&#64;DateAndTime" bzw. zum aktuellen Zeitpunkt falls "&#64;GetActualProperties = 0" und zu "PersonCharacteristicID" keine Historie gepflegt wird. (siehe Beschreibung)
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue value = 10007;</code>
+         * <code>.dstore.values.StringValue value = 10007;</code>
          */
         private com.google.protobuf.SingleFieldBuilderV3<
             io.dstore.values.StringValue, io.dstore.values.StringValue.Builder, io.dstore.values.StringValueOrBuilder> 
@@ -4236,7 +4236,7 @@ public final class OmGetPersonInfoForOrdersAd {
          * Bestimmt die Reihenfolge von "PersonCharacteristicID" innerhalb aller Merkmale
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue sort_no = 10008;</code>
+         * <code>.dstore.values.IntegerValue sort_no = 10008;</code>
          */
         public boolean hasSortNo() {
           return sortNoBuilder_ != null || sortNo_ != null;
@@ -4246,7 +4246,7 @@ public final class OmGetPersonInfoForOrdersAd {
          * Bestimmt die Reihenfolge von "PersonCharacteristicID" innerhalb aller Merkmale
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue sort_no = 10008;</code>
+         * <code>.dstore.values.IntegerValue sort_no = 10008;</code>
          */
         public io.dstore.values.IntegerValue getSortNo() {
           if (sortNoBuilder_ == null) {
@@ -4260,7 +4260,7 @@ public final class OmGetPersonInfoForOrdersAd {
          * Bestimmt die Reihenfolge von "PersonCharacteristicID" innerhalb aller Merkmale
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue sort_no = 10008;</code>
+         * <code>.dstore.values.IntegerValue sort_no = 10008;</code>
          */
         public Builder setSortNo(io.dstore.values.IntegerValue value) {
           if (sortNoBuilder_ == null) {
@@ -4280,7 +4280,7 @@ public final class OmGetPersonInfoForOrdersAd {
          * Bestimmt die Reihenfolge von "PersonCharacteristicID" innerhalb aller Merkmale
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue sort_no = 10008;</code>
+         * <code>.dstore.values.IntegerValue sort_no = 10008;</code>
          */
         public Builder setSortNo(
             io.dstore.values.IntegerValue.Builder builderForValue) {
@@ -4298,7 +4298,7 @@ public final class OmGetPersonInfoForOrdersAd {
          * Bestimmt die Reihenfolge von "PersonCharacteristicID" innerhalb aller Merkmale
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue sort_no = 10008;</code>
+         * <code>.dstore.values.IntegerValue sort_no = 10008;</code>
          */
         public Builder mergeSortNo(io.dstore.values.IntegerValue value) {
           if (sortNoBuilder_ == null) {
@@ -4320,7 +4320,7 @@ public final class OmGetPersonInfoForOrdersAd {
          * Bestimmt die Reihenfolge von "PersonCharacteristicID" innerhalb aller Merkmale
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue sort_no = 10008;</code>
+         * <code>.dstore.values.IntegerValue sort_no = 10008;</code>
          */
         public Builder clearSortNo() {
           if (sortNoBuilder_ == null) {
@@ -4338,7 +4338,7 @@ public final class OmGetPersonInfoForOrdersAd {
          * Bestimmt die Reihenfolge von "PersonCharacteristicID" innerhalb aller Merkmale
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue sort_no = 10008;</code>
+         * <code>.dstore.values.IntegerValue sort_no = 10008;</code>
          */
         public io.dstore.values.IntegerValue.Builder getSortNoBuilder() {
           
@@ -4350,7 +4350,7 @@ public final class OmGetPersonInfoForOrdersAd {
          * Bestimmt die Reihenfolge von "PersonCharacteristicID" innerhalb aller Merkmale
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue sort_no = 10008;</code>
+         * <code>.dstore.values.IntegerValue sort_no = 10008;</code>
          */
         public io.dstore.values.IntegerValueOrBuilder getSortNoOrBuilder() {
           if (sortNoBuilder_ != null) {
@@ -4365,7 +4365,7 @@ public final class OmGetPersonInfoForOrdersAd {
          * Bestimmt die Reihenfolge von "PersonCharacteristicID" innerhalb aller Merkmale
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue sort_no = 10008;</code>
+         * <code>.dstore.values.IntegerValue sort_no = 10008;</code>
          */
         private com.google.protobuf.SingleFieldBuilderV3<
             io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> 
@@ -4389,7 +4389,7 @@ public final class OmGetPersonInfoForOrdersAd {
          * ID des Personen-Typs von "PersonID"
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue person_type_id = 10009;</code>
+         * <code>.dstore.values.IntegerValue person_type_id = 10009;</code>
          */
         public boolean hasPersonTypeId() {
           return personTypeIdBuilder_ != null || personTypeId_ != null;
@@ -4399,7 +4399,7 @@ public final class OmGetPersonInfoForOrdersAd {
          * ID des Personen-Typs von "PersonID"
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue person_type_id = 10009;</code>
+         * <code>.dstore.values.IntegerValue person_type_id = 10009;</code>
          */
         public io.dstore.values.IntegerValue getPersonTypeId() {
           if (personTypeIdBuilder_ == null) {
@@ -4413,7 +4413,7 @@ public final class OmGetPersonInfoForOrdersAd {
          * ID des Personen-Typs von "PersonID"
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue person_type_id = 10009;</code>
+         * <code>.dstore.values.IntegerValue person_type_id = 10009;</code>
          */
         public Builder setPersonTypeId(io.dstore.values.IntegerValue value) {
           if (personTypeIdBuilder_ == null) {
@@ -4433,7 +4433,7 @@ public final class OmGetPersonInfoForOrdersAd {
          * ID des Personen-Typs von "PersonID"
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue person_type_id = 10009;</code>
+         * <code>.dstore.values.IntegerValue person_type_id = 10009;</code>
          */
         public Builder setPersonTypeId(
             io.dstore.values.IntegerValue.Builder builderForValue) {
@@ -4451,7 +4451,7 @@ public final class OmGetPersonInfoForOrdersAd {
          * ID des Personen-Typs von "PersonID"
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue person_type_id = 10009;</code>
+         * <code>.dstore.values.IntegerValue person_type_id = 10009;</code>
          */
         public Builder mergePersonTypeId(io.dstore.values.IntegerValue value) {
           if (personTypeIdBuilder_ == null) {
@@ -4473,7 +4473,7 @@ public final class OmGetPersonInfoForOrdersAd {
          * ID des Personen-Typs von "PersonID"
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue person_type_id = 10009;</code>
+         * <code>.dstore.values.IntegerValue person_type_id = 10009;</code>
          */
         public Builder clearPersonTypeId() {
           if (personTypeIdBuilder_ == null) {
@@ -4491,7 +4491,7 @@ public final class OmGetPersonInfoForOrdersAd {
          * ID des Personen-Typs von "PersonID"
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue person_type_id = 10009;</code>
+         * <code>.dstore.values.IntegerValue person_type_id = 10009;</code>
          */
         public io.dstore.values.IntegerValue.Builder getPersonTypeIdBuilder() {
           
@@ -4503,7 +4503,7 @@ public final class OmGetPersonInfoForOrdersAd {
          * ID des Personen-Typs von "PersonID"
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue person_type_id = 10009;</code>
+         * <code>.dstore.values.IntegerValue person_type_id = 10009;</code>
          */
         public io.dstore.values.IntegerValueOrBuilder getPersonTypeIdOrBuilder() {
           if (personTypeIdBuilder_ != null) {
@@ -4518,7 +4518,7 @@ public final class OmGetPersonInfoForOrdersAd {
          * ID des Personen-Typs von "PersonID"
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue person_type_id = 10009;</code>
+         * <code>.dstore.values.IntegerValue person_type_id = 10009;</code>
          */
         private com.google.protobuf.SingleFieldBuilderV3<
             io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> 
@@ -4778,7 +4778,7 @@ public final class OmGetPersonInfoForOrdersAd {
         return memoizedHashCode;
       }
       int hash = 41;
-      hash = (19 * hash) + getDescriptorForType().hashCode();
+      hash = (19 * hash) + getDescriptor().hashCode();
       if (getMetaInformationCount() > 0) {
         hash = (37 * hash) + META_INFORMATION_FIELD_NUMBER;
         hash = (53 * hash) + getMetaInformationList().hashCode();

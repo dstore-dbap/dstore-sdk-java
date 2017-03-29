@@ -19,38 +19,38 @@ public final class PmGetPeriodsForPredefValsAd {
       com.google.protobuf.MessageOrBuilder {
 
     /**
-     * <code>optional .dstore.values.IntegerValue person_characteristic_id = 1;</code>
+     * <code>.dstore.values.IntegerValue person_characteristic_id = 1;</code>
      */
     boolean hasPersonCharacteristicId();
     /**
-     * <code>optional .dstore.values.IntegerValue person_characteristic_id = 1;</code>
+     * <code>.dstore.values.IntegerValue person_characteristic_id = 1;</code>
      */
     io.dstore.values.IntegerValue getPersonCharacteristicId();
     /**
-     * <code>optional .dstore.values.IntegerValue person_characteristic_id = 1;</code>
+     * <code>.dstore.values.IntegerValue person_characteristic_id = 1;</code>
      */
     io.dstore.values.IntegerValueOrBuilder getPersonCharacteristicIdOrBuilder();
 
     /**
-     * <code>optional bool person_characteristic_id_null = 1001;</code>
+     * <code>bool person_characteristic_id_null = 1001;</code>
      */
     boolean getPersonCharacteristicIdNull();
 
     /**
-     * <code>optional .dstore.values.IntegerValue value_id = 2;</code>
+     * <code>.dstore.values.IntegerValue value_id = 2;</code>
      */
     boolean hasValueId();
     /**
-     * <code>optional .dstore.values.IntegerValue value_id = 2;</code>
+     * <code>.dstore.values.IntegerValue value_id = 2;</code>
      */
     io.dstore.values.IntegerValue getValueId();
     /**
-     * <code>optional .dstore.values.IntegerValue value_id = 2;</code>
+     * <code>.dstore.values.IntegerValue value_id = 2;</code>
      */
     io.dstore.values.IntegerValueOrBuilder getValueIdOrBuilder();
 
     /**
-     * <code>optional bool value_id_null = 1002;</code>
+     * <code>bool value_id_null = 1002;</code>
      */
     boolean getValueIdNull();
   }
@@ -157,19 +157,19 @@ public final class PmGetPeriodsForPredefValsAd {
     public static final int PERSON_CHARACTERISTIC_ID_FIELD_NUMBER = 1;
     private io.dstore.values.IntegerValue personCharacteristicId_;
     /**
-     * <code>optional .dstore.values.IntegerValue person_characteristic_id = 1;</code>
+     * <code>.dstore.values.IntegerValue person_characteristic_id = 1;</code>
      */
     public boolean hasPersonCharacteristicId() {
       return personCharacteristicId_ != null;
     }
     /**
-     * <code>optional .dstore.values.IntegerValue person_characteristic_id = 1;</code>
+     * <code>.dstore.values.IntegerValue person_characteristic_id = 1;</code>
      */
     public io.dstore.values.IntegerValue getPersonCharacteristicId() {
       return personCharacteristicId_ == null ? io.dstore.values.IntegerValue.getDefaultInstance() : personCharacteristicId_;
     }
     /**
-     * <code>optional .dstore.values.IntegerValue person_characteristic_id = 1;</code>
+     * <code>.dstore.values.IntegerValue person_characteristic_id = 1;</code>
      */
     public io.dstore.values.IntegerValueOrBuilder getPersonCharacteristicIdOrBuilder() {
       return getPersonCharacteristicId();
@@ -178,7 +178,7 @@ public final class PmGetPeriodsForPredefValsAd {
     public static final int PERSON_CHARACTERISTIC_ID_NULL_FIELD_NUMBER = 1001;
     private boolean personCharacteristicIdNull_;
     /**
-     * <code>optional bool person_characteristic_id_null = 1001;</code>
+     * <code>bool person_characteristic_id_null = 1001;</code>
      */
     public boolean getPersonCharacteristicIdNull() {
       return personCharacteristicIdNull_;
@@ -187,19 +187,19 @@ public final class PmGetPeriodsForPredefValsAd {
     public static final int VALUE_ID_FIELD_NUMBER = 2;
     private io.dstore.values.IntegerValue valueId_;
     /**
-     * <code>optional .dstore.values.IntegerValue value_id = 2;</code>
+     * <code>.dstore.values.IntegerValue value_id = 2;</code>
      */
     public boolean hasValueId() {
       return valueId_ != null;
     }
     /**
-     * <code>optional .dstore.values.IntegerValue value_id = 2;</code>
+     * <code>.dstore.values.IntegerValue value_id = 2;</code>
      */
     public io.dstore.values.IntegerValue getValueId() {
       return valueId_ == null ? io.dstore.values.IntegerValue.getDefaultInstance() : valueId_;
     }
     /**
-     * <code>optional .dstore.values.IntegerValue value_id = 2;</code>
+     * <code>.dstore.values.IntegerValue value_id = 2;</code>
      */
     public io.dstore.values.IntegerValueOrBuilder getValueIdOrBuilder() {
       return getValueId();
@@ -208,7 +208,7 @@ public final class PmGetPeriodsForPredefValsAd {
     public static final int VALUE_ID_NULL_FIELD_NUMBER = 1002;
     private boolean valueIdNull_;
     /**
-     * <code>optional bool value_id_null = 1002;</code>
+     * <code>bool value_id_null = 1002;</code>
      */
     public boolean getValueIdNull() {
       return valueIdNull_;
@@ -300,7 +300,7 @@ public final class PmGetPeriodsForPredefValsAd {
         return memoizedHashCode;
       }
       int hash = 41;
-      hash = (19 * hash) + getDescriptorForType().hashCode();
+      hash = (19 * hash) + getDescriptor().hashCode();
       if (hasPersonCharacteristicId()) {
         hash = (37 * hash) + PERSON_CHARACTERISTIC_ID_FIELD_NUMBER;
         hash = (53 * hash) + getPersonCharacteristicId().hashCode();
@@ -566,13 +566,13 @@ public final class PmGetPeriodsForPredefValsAd {
       private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> personCharacteristicIdBuilder_;
       /**
-       * <code>optional .dstore.values.IntegerValue person_characteristic_id = 1;</code>
+       * <code>.dstore.values.IntegerValue person_characteristic_id = 1;</code>
        */
       public boolean hasPersonCharacteristicId() {
         return personCharacteristicIdBuilder_ != null || personCharacteristicId_ != null;
       }
       /**
-       * <code>optional .dstore.values.IntegerValue person_characteristic_id = 1;</code>
+       * <code>.dstore.values.IntegerValue person_characteristic_id = 1;</code>
        */
       public io.dstore.values.IntegerValue getPersonCharacteristicId() {
         if (personCharacteristicIdBuilder_ == null) {
@@ -582,7 +582,7 @@ public final class PmGetPeriodsForPredefValsAd {
         }
       }
       /**
-       * <code>optional .dstore.values.IntegerValue person_characteristic_id = 1;</code>
+       * <code>.dstore.values.IntegerValue person_characteristic_id = 1;</code>
        */
       public Builder setPersonCharacteristicId(io.dstore.values.IntegerValue value) {
         if (personCharacteristicIdBuilder_ == null) {
@@ -598,7 +598,7 @@ public final class PmGetPeriodsForPredefValsAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.IntegerValue person_characteristic_id = 1;</code>
+       * <code>.dstore.values.IntegerValue person_characteristic_id = 1;</code>
        */
       public Builder setPersonCharacteristicId(
           io.dstore.values.IntegerValue.Builder builderForValue) {
@@ -612,7 +612,7 @@ public final class PmGetPeriodsForPredefValsAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.IntegerValue person_characteristic_id = 1;</code>
+       * <code>.dstore.values.IntegerValue person_characteristic_id = 1;</code>
        */
       public Builder mergePersonCharacteristicId(io.dstore.values.IntegerValue value) {
         if (personCharacteristicIdBuilder_ == null) {
@@ -630,7 +630,7 @@ public final class PmGetPeriodsForPredefValsAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.IntegerValue person_characteristic_id = 1;</code>
+       * <code>.dstore.values.IntegerValue person_characteristic_id = 1;</code>
        */
       public Builder clearPersonCharacteristicId() {
         if (personCharacteristicIdBuilder_ == null) {
@@ -644,7 +644,7 @@ public final class PmGetPeriodsForPredefValsAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.IntegerValue person_characteristic_id = 1;</code>
+       * <code>.dstore.values.IntegerValue person_characteristic_id = 1;</code>
        */
       public io.dstore.values.IntegerValue.Builder getPersonCharacteristicIdBuilder() {
         
@@ -652,7 +652,7 @@ public final class PmGetPeriodsForPredefValsAd {
         return getPersonCharacteristicIdFieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .dstore.values.IntegerValue person_characteristic_id = 1;</code>
+       * <code>.dstore.values.IntegerValue person_characteristic_id = 1;</code>
        */
       public io.dstore.values.IntegerValueOrBuilder getPersonCharacteristicIdOrBuilder() {
         if (personCharacteristicIdBuilder_ != null) {
@@ -663,7 +663,7 @@ public final class PmGetPeriodsForPredefValsAd {
         }
       }
       /**
-       * <code>optional .dstore.values.IntegerValue person_characteristic_id = 1;</code>
+       * <code>.dstore.values.IntegerValue person_characteristic_id = 1;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> 
@@ -681,13 +681,13 @@ public final class PmGetPeriodsForPredefValsAd {
 
       private boolean personCharacteristicIdNull_ ;
       /**
-       * <code>optional bool person_characteristic_id_null = 1001;</code>
+       * <code>bool person_characteristic_id_null = 1001;</code>
        */
       public boolean getPersonCharacteristicIdNull() {
         return personCharacteristicIdNull_;
       }
       /**
-       * <code>optional bool person_characteristic_id_null = 1001;</code>
+       * <code>bool person_characteristic_id_null = 1001;</code>
        */
       public Builder setPersonCharacteristicIdNull(boolean value) {
         
@@ -696,7 +696,7 @@ public final class PmGetPeriodsForPredefValsAd {
         return this;
       }
       /**
-       * <code>optional bool person_characteristic_id_null = 1001;</code>
+       * <code>bool person_characteristic_id_null = 1001;</code>
        */
       public Builder clearPersonCharacteristicIdNull() {
         
@@ -709,13 +709,13 @@ public final class PmGetPeriodsForPredefValsAd {
       private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> valueIdBuilder_;
       /**
-       * <code>optional .dstore.values.IntegerValue value_id = 2;</code>
+       * <code>.dstore.values.IntegerValue value_id = 2;</code>
        */
       public boolean hasValueId() {
         return valueIdBuilder_ != null || valueId_ != null;
       }
       /**
-       * <code>optional .dstore.values.IntegerValue value_id = 2;</code>
+       * <code>.dstore.values.IntegerValue value_id = 2;</code>
        */
       public io.dstore.values.IntegerValue getValueId() {
         if (valueIdBuilder_ == null) {
@@ -725,7 +725,7 @@ public final class PmGetPeriodsForPredefValsAd {
         }
       }
       /**
-       * <code>optional .dstore.values.IntegerValue value_id = 2;</code>
+       * <code>.dstore.values.IntegerValue value_id = 2;</code>
        */
       public Builder setValueId(io.dstore.values.IntegerValue value) {
         if (valueIdBuilder_ == null) {
@@ -741,7 +741,7 @@ public final class PmGetPeriodsForPredefValsAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.IntegerValue value_id = 2;</code>
+       * <code>.dstore.values.IntegerValue value_id = 2;</code>
        */
       public Builder setValueId(
           io.dstore.values.IntegerValue.Builder builderForValue) {
@@ -755,7 +755,7 @@ public final class PmGetPeriodsForPredefValsAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.IntegerValue value_id = 2;</code>
+       * <code>.dstore.values.IntegerValue value_id = 2;</code>
        */
       public Builder mergeValueId(io.dstore.values.IntegerValue value) {
         if (valueIdBuilder_ == null) {
@@ -773,7 +773,7 @@ public final class PmGetPeriodsForPredefValsAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.IntegerValue value_id = 2;</code>
+       * <code>.dstore.values.IntegerValue value_id = 2;</code>
        */
       public Builder clearValueId() {
         if (valueIdBuilder_ == null) {
@@ -787,7 +787,7 @@ public final class PmGetPeriodsForPredefValsAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.IntegerValue value_id = 2;</code>
+       * <code>.dstore.values.IntegerValue value_id = 2;</code>
        */
       public io.dstore.values.IntegerValue.Builder getValueIdBuilder() {
         
@@ -795,7 +795,7 @@ public final class PmGetPeriodsForPredefValsAd {
         return getValueIdFieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .dstore.values.IntegerValue value_id = 2;</code>
+       * <code>.dstore.values.IntegerValue value_id = 2;</code>
        */
       public io.dstore.values.IntegerValueOrBuilder getValueIdOrBuilder() {
         if (valueIdBuilder_ != null) {
@@ -806,7 +806,7 @@ public final class PmGetPeriodsForPredefValsAd {
         }
       }
       /**
-       * <code>optional .dstore.values.IntegerValue value_id = 2;</code>
+       * <code>.dstore.values.IntegerValue value_id = 2;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> 
@@ -824,13 +824,13 @@ public final class PmGetPeriodsForPredefValsAd {
 
       private boolean valueIdNull_ ;
       /**
-       * <code>optional bool value_id_null = 1002;</code>
+       * <code>bool value_id_null = 1002;</code>
        */
       public boolean getValueIdNull() {
         return valueIdNull_;
       }
       /**
-       * <code>optional bool value_id_null = 1002;</code>
+       * <code>bool value_id_null = 1002;</code>
        */
       public Builder setValueIdNull(boolean value) {
         
@@ -839,7 +839,7 @@ public final class PmGetPeriodsForPredefValsAd {
         return this;
       }
       /**
-       * <code>optional bool value_id_null = 1002;</code>
+       * <code>bool value_id_null = 1002;</code>
        */
       public Builder clearValueIdNull() {
         
@@ -1098,7 +1098,7 @@ public final class PmGetPeriodsForPredefValsAd {
         com.google.protobuf.MessageOrBuilder {
 
       /**
-       * <code>optional int32 row_id = 10000;</code>
+       * <code>int32 row_id = 10000;</code>
        */
       int getRowId();
 
@@ -1107,7 +1107,7 @@ public final class PmGetPeriodsForPredefValsAd {
        * Was enthält "Value" (womöglich wegen Zugriffsbeschränkungen nur einen Teil) ?- NULL : den vollständigen Wert- "#left(&lt;n&gt;)#" : nur die ERSTEN n Zeichen- "#right(&lt;n&gt;)#" : nur die LETZTEN n ZeichenAnmerkung : "n = 0" möglich, "Value" ist dann "NULL"
        * </pre>
        *
-       * <code>optional .dstore.values.StringValue value_restricted_by_pattern = 10001;</code>
+       * <code>.dstore.values.StringValue value_restricted_by_pattern = 10001;</code>
        */
       boolean hasValueRestrictedByPattern();
       /**
@@ -1115,7 +1115,7 @@ public final class PmGetPeriodsForPredefValsAd {
        * Was enthält "Value" (womöglich wegen Zugriffsbeschränkungen nur einen Teil) ?- NULL : den vollständigen Wert- "#left(&lt;n&gt;)#" : nur die ERSTEN n Zeichen- "#right(&lt;n&gt;)#" : nur die LETZTEN n ZeichenAnmerkung : "n = 0" möglich, "Value" ist dann "NULL"
        * </pre>
        *
-       * <code>optional .dstore.values.StringValue value_restricted_by_pattern = 10001;</code>
+       * <code>.dstore.values.StringValue value_restricted_by_pattern = 10001;</code>
        */
       io.dstore.values.StringValue getValueRestrictedByPattern();
       /**
@@ -1123,7 +1123,7 @@ public final class PmGetPeriodsForPredefValsAd {
        * Was enthält "Value" (womöglich wegen Zugriffsbeschränkungen nur einen Teil) ?- NULL : den vollständigen Wert- "#left(&lt;n&gt;)#" : nur die ERSTEN n Zeichen- "#right(&lt;n&gt;)#" : nur die LETZTEN n ZeichenAnmerkung : "n = 0" möglich, "Value" ist dann "NULL"
        * </pre>
        *
-       * <code>optional .dstore.values.StringValue value_restricted_by_pattern = 10001;</code>
+       * <code>.dstore.values.StringValue value_restricted_by_pattern = 10001;</code>
        */
       io.dstore.values.StringValueOrBuilder getValueRestrictedByPatternOrBuilder();
 
@@ -1132,7 +1132,7 @@ public final class PmGetPeriodsForPredefValsAd {
        * Ende des Gültigkeits-Zeitraums der Eigenschaft "Value". "NULL" bedeutet, daß die Eigenschaft aktuell (und bis auf weiteres auch in Zukunft) verwendet werden kann.
        * </pre>
        *
-       * <code>optional .dstore.values.TimestampValue valid_to = 10002;</code>
+       * <code>.dstore.values.TimestampValue valid_to = 10002;</code>
        */
       boolean hasValidTo();
       /**
@@ -1140,7 +1140,7 @@ public final class PmGetPeriodsForPredefValsAd {
        * Ende des Gültigkeits-Zeitraums der Eigenschaft "Value". "NULL" bedeutet, daß die Eigenschaft aktuell (und bis auf weiteres auch in Zukunft) verwendet werden kann.
        * </pre>
        *
-       * <code>optional .dstore.values.TimestampValue valid_to = 10002;</code>
+       * <code>.dstore.values.TimestampValue valid_to = 10002;</code>
        */
       io.dstore.values.TimestampValue getValidTo();
       /**
@@ -1148,7 +1148,7 @@ public final class PmGetPeriodsForPredefValsAd {
        * Ende des Gültigkeits-Zeitraums der Eigenschaft "Value". "NULL" bedeutet, daß die Eigenschaft aktuell (und bis auf weiteres auch in Zukunft) verwendet werden kann.
        * </pre>
        *
-       * <code>optional .dstore.values.TimestampValue valid_to = 10002;</code>
+       * <code>.dstore.values.TimestampValue valid_to = 10002;</code>
        */
       io.dstore.values.TimestampValueOrBuilder getValidToOrBuilder();
 
@@ -1157,7 +1157,7 @@ public final class PmGetPeriodsForPredefValsAd {
        * ID des Personen-Merkmals, zu dem die Eigenschaft "Value" gehört. Besteht für ein Merkmal eine komplett lesende Zugriffsbeschränkung (s. "pm_GetPChAccRestrForUsers_Ad") für den Aufrufer, FEHLT der entsprechende Datensatz im Ergebnis !
        * </pre>
        *
-       * <code>optional .dstore.values.IntegerValue person_characteristic_id = 10003;</code>
+       * <code>.dstore.values.IntegerValue person_characteristic_id = 10003;</code>
        */
       boolean hasPersonCharacteristicId();
       /**
@@ -1165,7 +1165,7 @@ public final class PmGetPeriodsForPredefValsAd {
        * ID des Personen-Merkmals, zu dem die Eigenschaft "Value" gehört. Besteht für ein Merkmal eine komplett lesende Zugriffsbeschränkung (s. "pm_GetPChAccRestrForUsers_Ad") für den Aufrufer, FEHLT der entsprechende Datensatz im Ergebnis !
        * </pre>
        *
-       * <code>optional .dstore.values.IntegerValue person_characteristic_id = 10003;</code>
+       * <code>.dstore.values.IntegerValue person_characteristic_id = 10003;</code>
        */
       io.dstore.values.IntegerValue getPersonCharacteristicId();
       /**
@@ -1173,7 +1173,7 @@ public final class PmGetPeriodsForPredefValsAd {
        * ID des Personen-Merkmals, zu dem die Eigenschaft "Value" gehört. Besteht für ein Merkmal eine komplett lesende Zugriffsbeschränkung (s. "pm_GetPChAccRestrForUsers_Ad") für den Aufrufer, FEHLT der entsprechende Datensatz im Ergebnis !
        * </pre>
        *
-       * <code>optional .dstore.values.IntegerValue person_characteristic_id = 10003;</code>
+       * <code>.dstore.values.IntegerValue person_characteristic_id = 10003;</code>
        */
       io.dstore.values.IntegerValueOrBuilder getPersonCharacteristicIdOrBuilder();
 
@@ -1182,7 +1182,7 @@ public final class PmGetPeriodsForPredefValsAd {
        * Eine Eigenschaft, die nur im Zeitraum "ValidFrom" bis "ValidTo" verwendet werden kann. Kann aufgrund von Zugriffsbeschränkungen "NULL" oder unvollständig sein, was dann durch "ValueRestrictedByPattern" gekennzeichnet ist.
        * </pre>
        *
-       * <code>optional .dstore.values.StringValue value = 10004;</code>
+       * <code>.dstore.values.StringValue value = 10004;</code>
        */
       boolean hasValue();
       /**
@@ -1190,7 +1190,7 @@ public final class PmGetPeriodsForPredefValsAd {
        * Eine Eigenschaft, die nur im Zeitraum "ValidFrom" bis "ValidTo" verwendet werden kann. Kann aufgrund von Zugriffsbeschränkungen "NULL" oder unvollständig sein, was dann durch "ValueRestrictedByPattern" gekennzeichnet ist.
        * </pre>
        *
-       * <code>optional .dstore.values.StringValue value = 10004;</code>
+       * <code>.dstore.values.StringValue value = 10004;</code>
        */
       io.dstore.values.StringValue getValue();
       /**
@@ -1198,7 +1198,7 @@ public final class PmGetPeriodsForPredefValsAd {
        * Eine Eigenschaft, die nur im Zeitraum "ValidFrom" bis "ValidTo" verwendet werden kann. Kann aufgrund von Zugriffsbeschränkungen "NULL" oder unvollständig sein, was dann durch "ValueRestrictedByPattern" gekennzeichnet ist.
        * </pre>
        *
-       * <code>optional .dstore.values.StringValue value = 10004;</code>
+       * <code>.dstore.values.StringValue value = 10004;</code>
        */
       io.dstore.values.StringValueOrBuilder getValueOrBuilder();
 
@@ -1207,7 +1207,7 @@ public final class PmGetPeriodsForPredefValsAd {
        * "ValidTo" als "String" im Format "01.04.2001 15:20:55:115"
        * </pre>
        *
-       * <code>optional .dstore.values.StringValue valid_to_char = 10005;</code>
+       * <code>.dstore.values.StringValue valid_to_char = 10005;</code>
        */
       boolean hasValidToChar();
       /**
@@ -1215,7 +1215,7 @@ public final class PmGetPeriodsForPredefValsAd {
        * "ValidTo" als "String" im Format "01.04.2001 15:20:55:115"
        * </pre>
        *
-       * <code>optional .dstore.values.StringValue valid_to_char = 10005;</code>
+       * <code>.dstore.values.StringValue valid_to_char = 10005;</code>
        */
       io.dstore.values.StringValue getValidToChar();
       /**
@@ -1223,7 +1223,7 @@ public final class PmGetPeriodsForPredefValsAd {
        * "ValidTo" als "String" im Format "01.04.2001 15:20:55:115"
        * </pre>
        *
-       * <code>optional .dstore.values.StringValue valid_to_char = 10005;</code>
+       * <code>.dstore.values.StringValue valid_to_char = 10005;</code>
        */
       io.dstore.values.StringValueOrBuilder getValidToCharOrBuilder();
 
@@ -1232,7 +1232,7 @@ public final class PmGetPeriodsForPredefValsAd {
        * Beginn des Gültigkeits-Zeitraums der Eigenschaft "Value"
        * </pre>
        *
-       * <code>optional .dstore.values.TimestampValue valid_from = 10006;</code>
+       * <code>.dstore.values.TimestampValue valid_from = 10006;</code>
        */
       boolean hasValidFrom();
       /**
@@ -1240,7 +1240,7 @@ public final class PmGetPeriodsForPredefValsAd {
        * Beginn des Gültigkeits-Zeitraums der Eigenschaft "Value"
        * </pre>
        *
-       * <code>optional .dstore.values.TimestampValue valid_from = 10006;</code>
+       * <code>.dstore.values.TimestampValue valid_from = 10006;</code>
        */
       io.dstore.values.TimestampValue getValidFrom();
       /**
@@ -1248,7 +1248,7 @@ public final class PmGetPeriodsForPredefValsAd {
        * Beginn des Gültigkeits-Zeitraums der Eigenschaft "Value"
        * </pre>
        *
-       * <code>optional .dstore.values.TimestampValue valid_from = 10006;</code>
+       * <code>.dstore.values.TimestampValue valid_from = 10006;</code>
        */
       io.dstore.values.TimestampValueOrBuilder getValidFromOrBuilder();
 
@@ -1257,7 +1257,7 @@ public final class PmGetPeriodsForPredefValsAd {
        * ID der Eigenschaft "Value"
        * </pre>
        *
-       * <code>optional .dstore.values.IntegerValue value_id = 10007;</code>
+       * <code>.dstore.values.IntegerValue value_id = 10007;</code>
        */
       boolean hasValueId();
       /**
@@ -1265,7 +1265,7 @@ public final class PmGetPeriodsForPredefValsAd {
        * ID der Eigenschaft "Value"
        * </pre>
        *
-       * <code>optional .dstore.values.IntegerValue value_id = 10007;</code>
+       * <code>.dstore.values.IntegerValue value_id = 10007;</code>
        */
       io.dstore.values.IntegerValue getValueId();
       /**
@@ -1273,7 +1273,7 @@ public final class PmGetPeriodsForPredefValsAd {
        * ID der Eigenschaft "Value"
        * </pre>
        *
-       * <code>optional .dstore.values.IntegerValue value_id = 10007;</code>
+       * <code>.dstore.values.IntegerValue value_id = 10007;</code>
        */
       io.dstore.values.IntegerValueOrBuilder getValueIdOrBuilder();
 
@@ -1282,7 +1282,7 @@ public final class PmGetPeriodsForPredefValsAd {
        * "ValidFrom" als "String" im Format "01.04.2001 15:20:55:115"
        * </pre>
        *
-       * <code>optional .dstore.values.StringValue valid_from_char = 10008;</code>
+       * <code>.dstore.values.StringValue valid_from_char = 10008;</code>
        */
       boolean hasValidFromChar();
       /**
@@ -1290,7 +1290,7 @@ public final class PmGetPeriodsForPredefValsAd {
        * "ValidFrom" als "String" im Format "01.04.2001 15:20:55:115"
        * </pre>
        *
-       * <code>optional .dstore.values.StringValue valid_from_char = 10008;</code>
+       * <code>.dstore.values.StringValue valid_from_char = 10008;</code>
        */
       io.dstore.values.StringValue getValidFromChar();
       /**
@@ -1298,7 +1298,7 @@ public final class PmGetPeriodsForPredefValsAd {
        * "ValidFrom" als "String" im Format "01.04.2001 15:20:55:115"
        * </pre>
        *
-       * <code>optional .dstore.values.StringValue valid_from_char = 10008;</code>
+       * <code>.dstore.values.StringValue valid_from_char = 10008;</code>
        */
       io.dstore.values.StringValueOrBuilder getValidFromCharOrBuilder();
     }
@@ -1477,7 +1477,7 @@ public final class PmGetPeriodsForPredefValsAd {
       public static final int ROW_ID_FIELD_NUMBER = 10000;
       private int rowId_;
       /**
-       * <code>optional int32 row_id = 10000;</code>
+       * <code>int32 row_id = 10000;</code>
        */
       public int getRowId() {
         return rowId_;
@@ -1490,7 +1490,7 @@ public final class PmGetPeriodsForPredefValsAd {
        * Was enthält "Value" (womöglich wegen Zugriffsbeschränkungen nur einen Teil) ?- NULL : den vollständigen Wert- "#left(&lt;n&gt;)#" : nur die ERSTEN n Zeichen- "#right(&lt;n&gt;)#" : nur die LETZTEN n ZeichenAnmerkung : "n = 0" möglich, "Value" ist dann "NULL"
        * </pre>
        *
-       * <code>optional .dstore.values.StringValue value_restricted_by_pattern = 10001;</code>
+       * <code>.dstore.values.StringValue value_restricted_by_pattern = 10001;</code>
        */
       public boolean hasValueRestrictedByPattern() {
         return valueRestrictedByPattern_ != null;
@@ -1500,7 +1500,7 @@ public final class PmGetPeriodsForPredefValsAd {
        * Was enthält "Value" (womöglich wegen Zugriffsbeschränkungen nur einen Teil) ?- NULL : den vollständigen Wert- "#left(&lt;n&gt;)#" : nur die ERSTEN n Zeichen- "#right(&lt;n&gt;)#" : nur die LETZTEN n ZeichenAnmerkung : "n = 0" möglich, "Value" ist dann "NULL"
        * </pre>
        *
-       * <code>optional .dstore.values.StringValue value_restricted_by_pattern = 10001;</code>
+       * <code>.dstore.values.StringValue value_restricted_by_pattern = 10001;</code>
        */
       public io.dstore.values.StringValue getValueRestrictedByPattern() {
         return valueRestrictedByPattern_ == null ? io.dstore.values.StringValue.getDefaultInstance() : valueRestrictedByPattern_;
@@ -1510,7 +1510,7 @@ public final class PmGetPeriodsForPredefValsAd {
        * Was enthält "Value" (womöglich wegen Zugriffsbeschränkungen nur einen Teil) ?- NULL : den vollständigen Wert- "#left(&lt;n&gt;)#" : nur die ERSTEN n Zeichen- "#right(&lt;n&gt;)#" : nur die LETZTEN n ZeichenAnmerkung : "n = 0" möglich, "Value" ist dann "NULL"
        * </pre>
        *
-       * <code>optional .dstore.values.StringValue value_restricted_by_pattern = 10001;</code>
+       * <code>.dstore.values.StringValue value_restricted_by_pattern = 10001;</code>
        */
       public io.dstore.values.StringValueOrBuilder getValueRestrictedByPatternOrBuilder() {
         return getValueRestrictedByPattern();
@@ -1523,7 +1523,7 @@ public final class PmGetPeriodsForPredefValsAd {
        * Ende des Gültigkeits-Zeitraums der Eigenschaft "Value". "NULL" bedeutet, daß die Eigenschaft aktuell (und bis auf weiteres auch in Zukunft) verwendet werden kann.
        * </pre>
        *
-       * <code>optional .dstore.values.TimestampValue valid_to = 10002;</code>
+       * <code>.dstore.values.TimestampValue valid_to = 10002;</code>
        */
       public boolean hasValidTo() {
         return validTo_ != null;
@@ -1533,7 +1533,7 @@ public final class PmGetPeriodsForPredefValsAd {
        * Ende des Gültigkeits-Zeitraums der Eigenschaft "Value". "NULL" bedeutet, daß die Eigenschaft aktuell (und bis auf weiteres auch in Zukunft) verwendet werden kann.
        * </pre>
        *
-       * <code>optional .dstore.values.TimestampValue valid_to = 10002;</code>
+       * <code>.dstore.values.TimestampValue valid_to = 10002;</code>
        */
       public io.dstore.values.TimestampValue getValidTo() {
         return validTo_ == null ? io.dstore.values.TimestampValue.getDefaultInstance() : validTo_;
@@ -1543,7 +1543,7 @@ public final class PmGetPeriodsForPredefValsAd {
        * Ende des Gültigkeits-Zeitraums der Eigenschaft "Value". "NULL" bedeutet, daß die Eigenschaft aktuell (und bis auf weiteres auch in Zukunft) verwendet werden kann.
        * </pre>
        *
-       * <code>optional .dstore.values.TimestampValue valid_to = 10002;</code>
+       * <code>.dstore.values.TimestampValue valid_to = 10002;</code>
        */
       public io.dstore.values.TimestampValueOrBuilder getValidToOrBuilder() {
         return getValidTo();
@@ -1556,7 +1556,7 @@ public final class PmGetPeriodsForPredefValsAd {
        * ID des Personen-Merkmals, zu dem die Eigenschaft "Value" gehört. Besteht für ein Merkmal eine komplett lesende Zugriffsbeschränkung (s. "pm_GetPChAccRestrForUsers_Ad") für den Aufrufer, FEHLT der entsprechende Datensatz im Ergebnis !
        * </pre>
        *
-       * <code>optional .dstore.values.IntegerValue person_characteristic_id = 10003;</code>
+       * <code>.dstore.values.IntegerValue person_characteristic_id = 10003;</code>
        */
       public boolean hasPersonCharacteristicId() {
         return personCharacteristicId_ != null;
@@ -1566,7 +1566,7 @@ public final class PmGetPeriodsForPredefValsAd {
        * ID des Personen-Merkmals, zu dem die Eigenschaft "Value" gehört. Besteht für ein Merkmal eine komplett lesende Zugriffsbeschränkung (s. "pm_GetPChAccRestrForUsers_Ad") für den Aufrufer, FEHLT der entsprechende Datensatz im Ergebnis !
        * </pre>
        *
-       * <code>optional .dstore.values.IntegerValue person_characteristic_id = 10003;</code>
+       * <code>.dstore.values.IntegerValue person_characteristic_id = 10003;</code>
        */
       public io.dstore.values.IntegerValue getPersonCharacteristicId() {
         return personCharacteristicId_ == null ? io.dstore.values.IntegerValue.getDefaultInstance() : personCharacteristicId_;
@@ -1576,7 +1576,7 @@ public final class PmGetPeriodsForPredefValsAd {
        * ID des Personen-Merkmals, zu dem die Eigenschaft "Value" gehört. Besteht für ein Merkmal eine komplett lesende Zugriffsbeschränkung (s. "pm_GetPChAccRestrForUsers_Ad") für den Aufrufer, FEHLT der entsprechende Datensatz im Ergebnis !
        * </pre>
        *
-       * <code>optional .dstore.values.IntegerValue person_characteristic_id = 10003;</code>
+       * <code>.dstore.values.IntegerValue person_characteristic_id = 10003;</code>
        */
       public io.dstore.values.IntegerValueOrBuilder getPersonCharacteristicIdOrBuilder() {
         return getPersonCharacteristicId();
@@ -1589,7 +1589,7 @@ public final class PmGetPeriodsForPredefValsAd {
        * Eine Eigenschaft, die nur im Zeitraum "ValidFrom" bis "ValidTo" verwendet werden kann. Kann aufgrund von Zugriffsbeschränkungen "NULL" oder unvollständig sein, was dann durch "ValueRestrictedByPattern" gekennzeichnet ist.
        * </pre>
        *
-       * <code>optional .dstore.values.StringValue value = 10004;</code>
+       * <code>.dstore.values.StringValue value = 10004;</code>
        */
       public boolean hasValue() {
         return value_ != null;
@@ -1599,7 +1599,7 @@ public final class PmGetPeriodsForPredefValsAd {
        * Eine Eigenschaft, die nur im Zeitraum "ValidFrom" bis "ValidTo" verwendet werden kann. Kann aufgrund von Zugriffsbeschränkungen "NULL" oder unvollständig sein, was dann durch "ValueRestrictedByPattern" gekennzeichnet ist.
        * </pre>
        *
-       * <code>optional .dstore.values.StringValue value = 10004;</code>
+       * <code>.dstore.values.StringValue value = 10004;</code>
        */
       public io.dstore.values.StringValue getValue() {
         return value_ == null ? io.dstore.values.StringValue.getDefaultInstance() : value_;
@@ -1609,7 +1609,7 @@ public final class PmGetPeriodsForPredefValsAd {
        * Eine Eigenschaft, die nur im Zeitraum "ValidFrom" bis "ValidTo" verwendet werden kann. Kann aufgrund von Zugriffsbeschränkungen "NULL" oder unvollständig sein, was dann durch "ValueRestrictedByPattern" gekennzeichnet ist.
        * </pre>
        *
-       * <code>optional .dstore.values.StringValue value = 10004;</code>
+       * <code>.dstore.values.StringValue value = 10004;</code>
        */
       public io.dstore.values.StringValueOrBuilder getValueOrBuilder() {
         return getValue();
@@ -1622,7 +1622,7 @@ public final class PmGetPeriodsForPredefValsAd {
        * "ValidTo" als "String" im Format "01.04.2001 15:20:55:115"
        * </pre>
        *
-       * <code>optional .dstore.values.StringValue valid_to_char = 10005;</code>
+       * <code>.dstore.values.StringValue valid_to_char = 10005;</code>
        */
       public boolean hasValidToChar() {
         return validToChar_ != null;
@@ -1632,7 +1632,7 @@ public final class PmGetPeriodsForPredefValsAd {
        * "ValidTo" als "String" im Format "01.04.2001 15:20:55:115"
        * </pre>
        *
-       * <code>optional .dstore.values.StringValue valid_to_char = 10005;</code>
+       * <code>.dstore.values.StringValue valid_to_char = 10005;</code>
        */
       public io.dstore.values.StringValue getValidToChar() {
         return validToChar_ == null ? io.dstore.values.StringValue.getDefaultInstance() : validToChar_;
@@ -1642,7 +1642,7 @@ public final class PmGetPeriodsForPredefValsAd {
        * "ValidTo" als "String" im Format "01.04.2001 15:20:55:115"
        * </pre>
        *
-       * <code>optional .dstore.values.StringValue valid_to_char = 10005;</code>
+       * <code>.dstore.values.StringValue valid_to_char = 10005;</code>
        */
       public io.dstore.values.StringValueOrBuilder getValidToCharOrBuilder() {
         return getValidToChar();
@@ -1655,7 +1655,7 @@ public final class PmGetPeriodsForPredefValsAd {
        * Beginn des Gültigkeits-Zeitraums der Eigenschaft "Value"
        * </pre>
        *
-       * <code>optional .dstore.values.TimestampValue valid_from = 10006;</code>
+       * <code>.dstore.values.TimestampValue valid_from = 10006;</code>
        */
       public boolean hasValidFrom() {
         return validFrom_ != null;
@@ -1665,7 +1665,7 @@ public final class PmGetPeriodsForPredefValsAd {
        * Beginn des Gültigkeits-Zeitraums der Eigenschaft "Value"
        * </pre>
        *
-       * <code>optional .dstore.values.TimestampValue valid_from = 10006;</code>
+       * <code>.dstore.values.TimestampValue valid_from = 10006;</code>
        */
       public io.dstore.values.TimestampValue getValidFrom() {
         return validFrom_ == null ? io.dstore.values.TimestampValue.getDefaultInstance() : validFrom_;
@@ -1675,7 +1675,7 @@ public final class PmGetPeriodsForPredefValsAd {
        * Beginn des Gültigkeits-Zeitraums der Eigenschaft "Value"
        * </pre>
        *
-       * <code>optional .dstore.values.TimestampValue valid_from = 10006;</code>
+       * <code>.dstore.values.TimestampValue valid_from = 10006;</code>
        */
       public io.dstore.values.TimestampValueOrBuilder getValidFromOrBuilder() {
         return getValidFrom();
@@ -1688,7 +1688,7 @@ public final class PmGetPeriodsForPredefValsAd {
        * ID der Eigenschaft "Value"
        * </pre>
        *
-       * <code>optional .dstore.values.IntegerValue value_id = 10007;</code>
+       * <code>.dstore.values.IntegerValue value_id = 10007;</code>
        */
       public boolean hasValueId() {
         return valueId_ != null;
@@ -1698,7 +1698,7 @@ public final class PmGetPeriodsForPredefValsAd {
        * ID der Eigenschaft "Value"
        * </pre>
        *
-       * <code>optional .dstore.values.IntegerValue value_id = 10007;</code>
+       * <code>.dstore.values.IntegerValue value_id = 10007;</code>
        */
       public io.dstore.values.IntegerValue getValueId() {
         return valueId_ == null ? io.dstore.values.IntegerValue.getDefaultInstance() : valueId_;
@@ -1708,7 +1708,7 @@ public final class PmGetPeriodsForPredefValsAd {
        * ID der Eigenschaft "Value"
        * </pre>
        *
-       * <code>optional .dstore.values.IntegerValue value_id = 10007;</code>
+       * <code>.dstore.values.IntegerValue value_id = 10007;</code>
        */
       public io.dstore.values.IntegerValueOrBuilder getValueIdOrBuilder() {
         return getValueId();
@@ -1721,7 +1721,7 @@ public final class PmGetPeriodsForPredefValsAd {
        * "ValidFrom" als "String" im Format "01.04.2001 15:20:55:115"
        * </pre>
        *
-       * <code>optional .dstore.values.StringValue valid_from_char = 10008;</code>
+       * <code>.dstore.values.StringValue valid_from_char = 10008;</code>
        */
       public boolean hasValidFromChar() {
         return validFromChar_ != null;
@@ -1731,7 +1731,7 @@ public final class PmGetPeriodsForPredefValsAd {
        * "ValidFrom" als "String" im Format "01.04.2001 15:20:55:115"
        * </pre>
        *
-       * <code>optional .dstore.values.StringValue valid_from_char = 10008;</code>
+       * <code>.dstore.values.StringValue valid_from_char = 10008;</code>
        */
       public io.dstore.values.StringValue getValidFromChar() {
         return validFromChar_ == null ? io.dstore.values.StringValue.getDefaultInstance() : validFromChar_;
@@ -1741,7 +1741,7 @@ public final class PmGetPeriodsForPredefValsAd {
        * "ValidFrom" als "String" im Format "01.04.2001 15:20:55:115"
        * </pre>
        *
-       * <code>optional .dstore.values.StringValue valid_from_char = 10008;</code>
+       * <code>.dstore.values.StringValue valid_from_char = 10008;</code>
        */
       public io.dstore.values.StringValueOrBuilder getValidFromCharOrBuilder() {
         return getValidFromChar();
@@ -1896,7 +1896,7 @@ public final class PmGetPeriodsForPredefValsAd {
           return memoizedHashCode;
         }
         int hash = 41;
-        hash = (19 * hash) + getDescriptorForType().hashCode();
+        hash = (19 * hash) + getDescriptor().hashCode();
         hash = (37 * hash) + ROW_ID_FIELD_NUMBER;
         hash = (53 * hash) + getRowId();
         if (hasValueRestrictedByPattern()) {
@@ -2258,13 +2258,13 @@ public final class PmGetPeriodsForPredefValsAd {
 
         private int rowId_ ;
         /**
-         * <code>optional int32 row_id = 10000;</code>
+         * <code>int32 row_id = 10000;</code>
          */
         public int getRowId() {
           return rowId_;
         }
         /**
-         * <code>optional int32 row_id = 10000;</code>
+         * <code>int32 row_id = 10000;</code>
          */
         public Builder setRowId(int value) {
           
@@ -2273,7 +2273,7 @@ public final class PmGetPeriodsForPredefValsAd {
           return this;
         }
         /**
-         * <code>optional int32 row_id = 10000;</code>
+         * <code>int32 row_id = 10000;</code>
          */
         public Builder clearRowId() {
           
@@ -2290,7 +2290,7 @@ public final class PmGetPeriodsForPredefValsAd {
          * Was enthält "Value" (womöglich wegen Zugriffsbeschränkungen nur einen Teil) ?- NULL : den vollständigen Wert- "#left(&lt;n&gt;)#" : nur die ERSTEN n Zeichen- "#right(&lt;n&gt;)#" : nur die LETZTEN n ZeichenAnmerkung : "n = 0" möglich, "Value" ist dann "NULL"
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue value_restricted_by_pattern = 10001;</code>
+         * <code>.dstore.values.StringValue value_restricted_by_pattern = 10001;</code>
          */
         public boolean hasValueRestrictedByPattern() {
           return valueRestrictedByPatternBuilder_ != null || valueRestrictedByPattern_ != null;
@@ -2300,7 +2300,7 @@ public final class PmGetPeriodsForPredefValsAd {
          * Was enthält "Value" (womöglich wegen Zugriffsbeschränkungen nur einen Teil) ?- NULL : den vollständigen Wert- "#left(&lt;n&gt;)#" : nur die ERSTEN n Zeichen- "#right(&lt;n&gt;)#" : nur die LETZTEN n ZeichenAnmerkung : "n = 0" möglich, "Value" ist dann "NULL"
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue value_restricted_by_pattern = 10001;</code>
+         * <code>.dstore.values.StringValue value_restricted_by_pattern = 10001;</code>
          */
         public io.dstore.values.StringValue getValueRestrictedByPattern() {
           if (valueRestrictedByPatternBuilder_ == null) {
@@ -2314,7 +2314,7 @@ public final class PmGetPeriodsForPredefValsAd {
          * Was enthält "Value" (womöglich wegen Zugriffsbeschränkungen nur einen Teil) ?- NULL : den vollständigen Wert- "#left(&lt;n&gt;)#" : nur die ERSTEN n Zeichen- "#right(&lt;n&gt;)#" : nur die LETZTEN n ZeichenAnmerkung : "n = 0" möglich, "Value" ist dann "NULL"
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue value_restricted_by_pattern = 10001;</code>
+         * <code>.dstore.values.StringValue value_restricted_by_pattern = 10001;</code>
          */
         public Builder setValueRestrictedByPattern(io.dstore.values.StringValue value) {
           if (valueRestrictedByPatternBuilder_ == null) {
@@ -2334,7 +2334,7 @@ public final class PmGetPeriodsForPredefValsAd {
          * Was enthält "Value" (womöglich wegen Zugriffsbeschränkungen nur einen Teil) ?- NULL : den vollständigen Wert- "#left(&lt;n&gt;)#" : nur die ERSTEN n Zeichen- "#right(&lt;n&gt;)#" : nur die LETZTEN n ZeichenAnmerkung : "n = 0" möglich, "Value" ist dann "NULL"
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue value_restricted_by_pattern = 10001;</code>
+         * <code>.dstore.values.StringValue value_restricted_by_pattern = 10001;</code>
          */
         public Builder setValueRestrictedByPattern(
             io.dstore.values.StringValue.Builder builderForValue) {
@@ -2352,7 +2352,7 @@ public final class PmGetPeriodsForPredefValsAd {
          * Was enthält "Value" (womöglich wegen Zugriffsbeschränkungen nur einen Teil) ?- NULL : den vollständigen Wert- "#left(&lt;n&gt;)#" : nur die ERSTEN n Zeichen- "#right(&lt;n&gt;)#" : nur die LETZTEN n ZeichenAnmerkung : "n = 0" möglich, "Value" ist dann "NULL"
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue value_restricted_by_pattern = 10001;</code>
+         * <code>.dstore.values.StringValue value_restricted_by_pattern = 10001;</code>
          */
         public Builder mergeValueRestrictedByPattern(io.dstore.values.StringValue value) {
           if (valueRestrictedByPatternBuilder_ == null) {
@@ -2374,7 +2374,7 @@ public final class PmGetPeriodsForPredefValsAd {
          * Was enthält "Value" (womöglich wegen Zugriffsbeschränkungen nur einen Teil) ?- NULL : den vollständigen Wert- "#left(&lt;n&gt;)#" : nur die ERSTEN n Zeichen- "#right(&lt;n&gt;)#" : nur die LETZTEN n ZeichenAnmerkung : "n = 0" möglich, "Value" ist dann "NULL"
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue value_restricted_by_pattern = 10001;</code>
+         * <code>.dstore.values.StringValue value_restricted_by_pattern = 10001;</code>
          */
         public Builder clearValueRestrictedByPattern() {
           if (valueRestrictedByPatternBuilder_ == null) {
@@ -2392,7 +2392,7 @@ public final class PmGetPeriodsForPredefValsAd {
          * Was enthält "Value" (womöglich wegen Zugriffsbeschränkungen nur einen Teil) ?- NULL : den vollständigen Wert- "#left(&lt;n&gt;)#" : nur die ERSTEN n Zeichen- "#right(&lt;n&gt;)#" : nur die LETZTEN n ZeichenAnmerkung : "n = 0" möglich, "Value" ist dann "NULL"
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue value_restricted_by_pattern = 10001;</code>
+         * <code>.dstore.values.StringValue value_restricted_by_pattern = 10001;</code>
          */
         public io.dstore.values.StringValue.Builder getValueRestrictedByPatternBuilder() {
           
@@ -2404,7 +2404,7 @@ public final class PmGetPeriodsForPredefValsAd {
          * Was enthält "Value" (womöglich wegen Zugriffsbeschränkungen nur einen Teil) ?- NULL : den vollständigen Wert- "#left(&lt;n&gt;)#" : nur die ERSTEN n Zeichen- "#right(&lt;n&gt;)#" : nur die LETZTEN n ZeichenAnmerkung : "n = 0" möglich, "Value" ist dann "NULL"
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue value_restricted_by_pattern = 10001;</code>
+         * <code>.dstore.values.StringValue value_restricted_by_pattern = 10001;</code>
          */
         public io.dstore.values.StringValueOrBuilder getValueRestrictedByPatternOrBuilder() {
           if (valueRestrictedByPatternBuilder_ != null) {
@@ -2419,7 +2419,7 @@ public final class PmGetPeriodsForPredefValsAd {
          * Was enthält "Value" (womöglich wegen Zugriffsbeschränkungen nur einen Teil) ?- NULL : den vollständigen Wert- "#left(&lt;n&gt;)#" : nur die ERSTEN n Zeichen- "#right(&lt;n&gt;)#" : nur die LETZTEN n ZeichenAnmerkung : "n = 0" möglich, "Value" ist dann "NULL"
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue value_restricted_by_pattern = 10001;</code>
+         * <code>.dstore.values.StringValue value_restricted_by_pattern = 10001;</code>
          */
         private com.google.protobuf.SingleFieldBuilderV3<
             io.dstore.values.StringValue, io.dstore.values.StringValue.Builder, io.dstore.values.StringValueOrBuilder> 
@@ -2443,7 +2443,7 @@ public final class PmGetPeriodsForPredefValsAd {
          * Ende des Gültigkeits-Zeitraums der Eigenschaft "Value". "NULL" bedeutet, daß die Eigenschaft aktuell (und bis auf weiteres auch in Zukunft) verwendet werden kann.
          * </pre>
          *
-         * <code>optional .dstore.values.TimestampValue valid_to = 10002;</code>
+         * <code>.dstore.values.TimestampValue valid_to = 10002;</code>
          */
         public boolean hasValidTo() {
           return validToBuilder_ != null || validTo_ != null;
@@ -2453,7 +2453,7 @@ public final class PmGetPeriodsForPredefValsAd {
          * Ende des Gültigkeits-Zeitraums der Eigenschaft "Value". "NULL" bedeutet, daß die Eigenschaft aktuell (und bis auf weiteres auch in Zukunft) verwendet werden kann.
          * </pre>
          *
-         * <code>optional .dstore.values.TimestampValue valid_to = 10002;</code>
+         * <code>.dstore.values.TimestampValue valid_to = 10002;</code>
          */
         public io.dstore.values.TimestampValue getValidTo() {
           if (validToBuilder_ == null) {
@@ -2467,7 +2467,7 @@ public final class PmGetPeriodsForPredefValsAd {
          * Ende des Gültigkeits-Zeitraums der Eigenschaft "Value". "NULL" bedeutet, daß die Eigenschaft aktuell (und bis auf weiteres auch in Zukunft) verwendet werden kann.
          * </pre>
          *
-         * <code>optional .dstore.values.TimestampValue valid_to = 10002;</code>
+         * <code>.dstore.values.TimestampValue valid_to = 10002;</code>
          */
         public Builder setValidTo(io.dstore.values.TimestampValue value) {
           if (validToBuilder_ == null) {
@@ -2487,7 +2487,7 @@ public final class PmGetPeriodsForPredefValsAd {
          * Ende des Gültigkeits-Zeitraums der Eigenschaft "Value". "NULL" bedeutet, daß die Eigenschaft aktuell (und bis auf weiteres auch in Zukunft) verwendet werden kann.
          * </pre>
          *
-         * <code>optional .dstore.values.TimestampValue valid_to = 10002;</code>
+         * <code>.dstore.values.TimestampValue valid_to = 10002;</code>
          */
         public Builder setValidTo(
             io.dstore.values.TimestampValue.Builder builderForValue) {
@@ -2505,7 +2505,7 @@ public final class PmGetPeriodsForPredefValsAd {
          * Ende des Gültigkeits-Zeitraums der Eigenschaft "Value". "NULL" bedeutet, daß die Eigenschaft aktuell (und bis auf weiteres auch in Zukunft) verwendet werden kann.
          * </pre>
          *
-         * <code>optional .dstore.values.TimestampValue valid_to = 10002;</code>
+         * <code>.dstore.values.TimestampValue valid_to = 10002;</code>
          */
         public Builder mergeValidTo(io.dstore.values.TimestampValue value) {
           if (validToBuilder_ == null) {
@@ -2527,7 +2527,7 @@ public final class PmGetPeriodsForPredefValsAd {
          * Ende des Gültigkeits-Zeitraums der Eigenschaft "Value". "NULL" bedeutet, daß die Eigenschaft aktuell (und bis auf weiteres auch in Zukunft) verwendet werden kann.
          * </pre>
          *
-         * <code>optional .dstore.values.TimestampValue valid_to = 10002;</code>
+         * <code>.dstore.values.TimestampValue valid_to = 10002;</code>
          */
         public Builder clearValidTo() {
           if (validToBuilder_ == null) {
@@ -2545,7 +2545,7 @@ public final class PmGetPeriodsForPredefValsAd {
          * Ende des Gültigkeits-Zeitraums der Eigenschaft "Value". "NULL" bedeutet, daß die Eigenschaft aktuell (und bis auf weiteres auch in Zukunft) verwendet werden kann.
          * </pre>
          *
-         * <code>optional .dstore.values.TimestampValue valid_to = 10002;</code>
+         * <code>.dstore.values.TimestampValue valid_to = 10002;</code>
          */
         public io.dstore.values.TimestampValue.Builder getValidToBuilder() {
           
@@ -2557,7 +2557,7 @@ public final class PmGetPeriodsForPredefValsAd {
          * Ende des Gültigkeits-Zeitraums der Eigenschaft "Value". "NULL" bedeutet, daß die Eigenschaft aktuell (und bis auf weiteres auch in Zukunft) verwendet werden kann.
          * </pre>
          *
-         * <code>optional .dstore.values.TimestampValue valid_to = 10002;</code>
+         * <code>.dstore.values.TimestampValue valid_to = 10002;</code>
          */
         public io.dstore.values.TimestampValueOrBuilder getValidToOrBuilder() {
           if (validToBuilder_ != null) {
@@ -2572,7 +2572,7 @@ public final class PmGetPeriodsForPredefValsAd {
          * Ende des Gültigkeits-Zeitraums der Eigenschaft "Value". "NULL" bedeutet, daß die Eigenschaft aktuell (und bis auf weiteres auch in Zukunft) verwendet werden kann.
          * </pre>
          *
-         * <code>optional .dstore.values.TimestampValue valid_to = 10002;</code>
+         * <code>.dstore.values.TimestampValue valid_to = 10002;</code>
          */
         private com.google.protobuf.SingleFieldBuilderV3<
             io.dstore.values.TimestampValue, io.dstore.values.TimestampValue.Builder, io.dstore.values.TimestampValueOrBuilder> 
@@ -2596,7 +2596,7 @@ public final class PmGetPeriodsForPredefValsAd {
          * ID des Personen-Merkmals, zu dem die Eigenschaft "Value" gehört. Besteht für ein Merkmal eine komplett lesende Zugriffsbeschränkung (s. "pm_GetPChAccRestrForUsers_Ad") für den Aufrufer, FEHLT der entsprechende Datensatz im Ergebnis !
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue person_characteristic_id = 10003;</code>
+         * <code>.dstore.values.IntegerValue person_characteristic_id = 10003;</code>
          */
         public boolean hasPersonCharacteristicId() {
           return personCharacteristicIdBuilder_ != null || personCharacteristicId_ != null;
@@ -2606,7 +2606,7 @@ public final class PmGetPeriodsForPredefValsAd {
          * ID des Personen-Merkmals, zu dem die Eigenschaft "Value" gehört. Besteht für ein Merkmal eine komplett lesende Zugriffsbeschränkung (s. "pm_GetPChAccRestrForUsers_Ad") für den Aufrufer, FEHLT der entsprechende Datensatz im Ergebnis !
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue person_characteristic_id = 10003;</code>
+         * <code>.dstore.values.IntegerValue person_characteristic_id = 10003;</code>
          */
         public io.dstore.values.IntegerValue getPersonCharacteristicId() {
           if (personCharacteristicIdBuilder_ == null) {
@@ -2620,7 +2620,7 @@ public final class PmGetPeriodsForPredefValsAd {
          * ID des Personen-Merkmals, zu dem die Eigenschaft "Value" gehört. Besteht für ein Merkmal eine komplett lesende Zugriffsbeschränkung (s. "pm_GetPChAccRestrForUsers_Ad") für den Aufrufer, FEHLT der entsprechende Datensatz im Ergebnis !
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue person_characteristic_id = 10003;</code>
+         * <code>.dstore.values.IntegerValue person_characteristic_id = 10003;</code>
          */
         public Builder setPersonCharacteristicId(io.dstore.values.IntegerValue value) {
           if (personCharacteristicIdBuilder_ == null) {
@@ -2640,7 +2640,7 @@ public final class PmGetPeriodsForPredefValsAd {
          * ID des Personen-Merkmals, zu dem die Eigenschaft "Value" gehört. Besteht für ein Merkmal eine komplett lesende Zugriffsbeschränkung (s. "pm_GetPChAccRestrForUsers_Ad") für den Aufrufer, FEHLT der entsprechende Datensatz im Ergebnis !
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue person_characteristic_id = 10003;</code>
+         * <code>.dstore.values.IntegerValue person_characteristic_id = 10003;</code>
          */
         public Builder setPersonCharacteristicId(
             io.dstore.values.IntegerValue.Builder builderForValue) {
@@ -2658,7 +2658,7 @@ public final class PmGetPeriodsForPredefValsAd {
          * ID des Personen-Merkmals, zu dem die Eigenschaft "Value" gehört. Besteht für ein Merkmal eine komplett lesende Zugriffsbeschränkung (s. "pm_GetPChAccRestrForUsers_Ad") für den Aufrufer, FEHLT der entsprechende Datensatz im Ergebnis !
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue person_characteristic_id = 10003;</code>
+         * <code>.dstore.values.IntegerValue person_characteristic_id = 10003;</code>
          */
         public Builder mergePersonCharacteristicId(io.dstore.values.IntegerValue value) {
           if (personCharacteristicIdBuilder_ == null) {
@@ -2680,7 +2680,7 @@ public final class PmGetPeriodsForPredefValsAd {
          * ID des Personen-Merkmals, zu dem die Eigenschaft "Value" gehört. Besteht für ein Merkmal eine komplett lesende Zugriffsbeschränkung (s. "pm_GetPChAccRestrForUsers_Ad") für den Aufrufer, FEHLT der entsprechende Datensatz im Ergebnis !
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue person_characteristic_id = 10003;</code>
+         * <code>.dstore.values.IntegerValue person_characteristic_id = 10003;</code>
          */
         public Builder clearPersonCharacteristicId() {
           if (personCharacteristicIdBuilder_ == null) {
@@ -2698,7 +2698,7 @@ public final class PmGetPeriodsForPredefValsAd {
          * ID des Personen-Merkmals, zu dem die Eigenschaft "Value" gehört. Besteht für ein Merkmal eine komplett lesende Zugriffsbeschränkung (s. "pm_GetPChAccRestrForUsers_Ad") für den Aufrufer, FEHLT der entsprechende Datensatz im Ergebnis !
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue person_characteristic_id = 10003;</code>
+         * <code>.dstore.values.IntegerValue person_characteristic_id = 10003;</code>
          */
         public io.dstore.values.IntegerValue.Builder getPersonCharacteristicIdBuilder() {
           
@@ -2710,7 +2710,7 @@ public final class PmGetPeriodsForPredefValsAd {
          * ID des Personen-Merkmals, zu dem die Eigenschaft "Value" gehört. Besteht für ein Merkmal eine komplett lesende Zugriffsbeschränkung (s. "pm_GetPChAccRestrForUsers_Ad") für den Aufrufer, FEHLT der entsprechende Datensatz im Ergebnis !
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue person_characteristic_id = 10003;</code>
+         * <code>.dstore.values.IntegerValue person_characteristic_id = 10003;</code>
          */
         public io.dstore.values.IntegerValueOrBuilder getPersonCharacteristicIdOrBuilder() {
           if (personCharacteristicIdBuilder_ != null) {
@@ -2725,7 +2725,7 @@ public final class PmGetPeriodsForPredefValsAd {
          * ID des Personen-Merkmals, zu dem die Eigenschaft "Value" gehört. Besteht für ein Merkmal eine komplett lesende Zugriffsbeschränkung (s. "pm_GetPChAccRestrForUsers_Ad") für den Aufrufer, FEHLT der entsprechende Datensatz im Ergebnis !
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue person_characteristic_id = 10003;</code>
+         * <code>.dstore.values.IntegerValue person_characteristic_id = 10003;</code>
          */
         private com.google.protobuf.SingleFieldBuilderV3<
             io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> 
@@ -2749,7 +2749,7 @@ public final class PmGetPeriodsForPredefValsAd {
          * Eine Eigenschaft, die nur im Zeitraum "ValidFrom" bis "ValidTo" verwendet werden kann. Kann aufgrund von Zugriffsbeschränkungen "NULL" oder unvollständig sein, was dann durch "ValueRestrictedByPattern" gekennzeichnet ist.
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue value = 10004;</code>
+         * <code>.dstore.values.StringValue value = 10004;</code>
          */
         public boolean hasValue() {
           return valueBuilder_ != null || value_ != null;
@@ -2759,7 +2759,7 @@ public final class PmGetPeriodsForPredefValsAd {
          * Eine Eigenschaft, die nur im Zeitraum "ValidFrom" bis "ValidTo" verwendet werden kann. Kann aufgrund von Zugriffsbeschränkungen "NULL" oder unvollständig sein, was dann durch "ValueRestrictedByPattern" gekennzeichnet ist.
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue value = 10004;</code>
+         * <code>.dstore.values.StringValue value = 10004;</code>
          */
         public io.dstore.values.StringValue getValue() {
           if (valueBuilder_ == null) {
@@ -2773,7 +2773,7 @@ public final class PmGetPeriodsForPredefValsAd {
          * Eine Eigenschaft, die nur im Zeitraum "ValidFrom" bis "ValidTo" verwendet werden kann. Kann aufgrund von Zugriffsbeschränkungen "NULL" oder unvollständig sein, was dann durch "ValueRestrictedByPattern" gekennzeichnet ist.
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue value = 10004;</code>
+         * <code>.dstore.values.StringValue value = 10004;</code>
          */
         public Builder setValue(io.dstore.values.StringValue value) {
           if (valueBuilder_ == null) {
@@ -2793,7 +2793,7 @@ public final class PmGetPeriodsForPredefValsAd {
          * Eine Eigenschaft, die nur im Zeitraum "ValidFrom" bis "ValidTo" verwendet werden kann. Kann aufgrund von Zugriffsbeschränkungen "NULL" oder unvollständig sein, was dann durch "ValueRestrictedByPattern" gekennzeichnet ist.
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue value = 10004;</code>
+         * <code>.dstore.values.StringValue value = 10004;</code>
          */
         public Builder setValue(
             io.dstore.values.StringValue.Builder builderForValue) {
@@ -2811,7 +2811,7 @@ public final class PmGetPeriodsForPredefValsAd {
          * Eine Eigenschaft, die nur im Zeitraum "ValidFrom" bis "ValidTo" verwendet werden kann. Kann aufgrund von Zugriffsbeschränkungen "NULL" oder unvollständig sein, was dann durch "ValueRestrictedByPattern" gekennzeichnet ist.
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue value = 10004;</code>
+         * <code>.dstore.values.StringValue value = 10004;</code>
          */
         public Builder mergeValue(io.dstore.values.StringValue value) {
           if (valueBuilder_ == null) {
@@ -2833,7 +2833,7 @@ public final class PmGetPeriodsForPredefValsAd {
          * Eine Eigenschaft, die nur im Zeitraum "ValidFrom" bis "ValidTo" verwendet werden kann. Kann aufgrund von Zugriffsbeschränkungen "NULL" oder unvollständig sein, was dann durch "ValueRestrictedByPattern" gekennzeichnet ist.
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue value = 10004;</code>
+         * <code>.dstore.values.StringValue value = 10004;</code>
          */
         public Builder clearValue() {
           if (valueBuilder_ == null) {
@@ -2851,7 +2851,7 @@ public final class PmGetPeriodsForPredefValsAd {
          * Eine Eigenschaft, die nur im Zeitraum "ValidFrom" bis "ValidTo" verwendet werden kann. Kann aufgrund von Zugriffsbeschränkungen "NULL" oder unvollständig sein, was dann durch "ValueRestrictedByPattern" gekennzeichnet ist.
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue value = 10004;</code>
+         * <code>.dstore.values.StringValue value = 10004;</code>
          */
         public io.dstore.values.StringValue.Builder getValueBuilder() {
           
@@ -2863,7 +2863,7 @@ public final class PmGetPeriodsForPredefValsAd {
          * Eine Eigenschaft, die nur im Zeitraum "ValidFrom" bis "ValidTo" verwendet werden kann. Kann aufgrund von Zugriffsbeschränkungen "NULL" oder unvollständig sein, was dann durch "ValueRestrictedByPattern" gekennzeichnet ist.
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue value = 10004;</code>
+         * <code>.dstore.values.StringValue value = 10004;</code>
          */
         public io.dstore.values.StringValueOrBuilder getValueOrBuilder() {
           if (valueBuilder_ != null) {
@@ -2878,7 +2878,7 @@ public final class PmGetPeriodsForPredefValsAd {
          * Eine Eigenschaft, die nur im Zeitraum "ValidFrom" bis "ValidTo" verwendet werden kann. Kann aufgrund von Zugriffsbeschränkungen "NULL" oder unvollständig sein, was dann durch "ValueRestrictedByPattern" gekennzeichnet ist.
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue value = 10004;</code>
+         * <code>.dstore.values.StringValue value = 10004;</code>
          */
         private com.google.protobuf.SingleFieldBuilderV3<
             io.dstore.values.StringValue, io.dstore.values.StringValue.Builder, io.dstore.values.StringValueOrBuilder> 
@@ -2902,7 +2902,7 @@ public final class PmGetPeriodsForPredefValsAd {
          * "ValidTo" als "String" im Format "01.04.2001 15:20:55:115"
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue valid_to_char = 10005;</code>
+         * <code>.dstore.values.StringValue valid_to_char = 10005;</code>
          */
         public boolean hasValidToChar() {
           return validToCharBuilder_ != null || validToChar_ != null;
@@ -2912,7 +2912,7 @@ public final class PmGetPeriodsForPredefValsAd {
          * "ValidTo" als "String" im Format "01.04.2001 15:20:55:115"
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue valid_to_char = 10005;</code>
+         * <code>.dstore.values.StringValue valid_to_char = 10005;</code>
          */
         public io.dstore.values.StringValue getValidToChar() {
           if (validToCharBuilder_ == null) {
@@ -2926,7 +2926,7 @@ public final class PmGetPeriodsForPredefValsAd {
          * "ValidTo" als "String" im Format "01.04.2001 15:20:55:115"
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue valid_to_char = 10005;</code>
+         * <code>.dstore.values.StringValue valid_to_char = 10005;</code>
          */
         public Builder setValidToChar(io.dstore.values.StringValue value) {
           if (validToCharBuilder_ == null) {
@@ -2946,7 +2946,7 @@ public final class PmGetPeriodsForPredefValsAd {
          * "ValidTo" als "String" im Format "01.04.2001 15:20:55:115"
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue valid_to_char = 10005;</code>
+         * <code>.dstore.values.StringValue valid_to_char = 10005;</code>
          */
         public Builder setValidToChar(
             io.dstore.values.StringValue.Builder builderForValue) {
@@ -2964,7 +2964,7 @@ public final class PmGetPeriodsForPredefValsAd {
          * "ValidTo" als "String" im Format "01.04.2001 15:20:55:115"
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue valid_to_char = 10005;</code>
+         * <code>.dstore.values.StringValue valid_to_char = 10005;</code>
          */
         public Builder mergeValidToChar(io.dstore.values.StringValue value) {
           if (validToCharBuilder_ == null) {
@@ -2986,7 +2986,7 @@ public final class PmGetPeriodsForPredefValsAd {
          * "ValidTo" als "String" im Format "01.04.2001 15:20:55:115"
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue valid_to_char = 10005;</code>
+         * <code>.dstore.values.StringValue valid_to_char = 10005;</code>
          */
         public Builder clearValidToChar() {
           if (validToCharBuilder_ == null) {
@@ -3004,7 +3004,7 @@ public final class PmGetPeriodsForPredefValsAd {
          * "ValidTo" als "String" im Format "01.04.2001 15:20:55:115"
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue valid_to_char = 10005;</code>
+         * <code>.dstore.values.StringValue valid_to_char = 10005;</code>
          */
         public io.dstore.values.StringValue.Builder getValidToCharBuilder() {
           
@@ -3016,7 +3016,7 @@ public final class PmGetPeriodsForPredefValsAd {
          * "ValidTo" als "String" im Format "01.04.2001 15:20:55:115"
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue valid_to_char = 10005;</code>
+         * <code>.dstore.values.StringValue valid_to_char = 10005;</code>
          */
         public io.dstore.values.StringValueOrBuilder getValidToCharOrBuilder() {
           if (validToCharBuilder_ != null) {
@@ -3031,7 +3031,7 @@ public final class PmGetPeriodsForPredefValsAd {
          * "ValidTo" als "String" im Format "01.04.2001 15:20:55:115"
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue valid_to_char = 10005;</code>
+         * <code>.dstore.values.StringValue valid_to_char = 10005;</code>
          */
         private com.google.protobuf.SingleFieldBuilderV3<
             io.dstore.values.StringValue, io.dstore.values.StringValue.Builder, io.dstore.values.StringValueOrBuilder> 
@@ -3055,7 +3055,7 @@ public final class PmGetPeriodsForPredefValsAd {
          * Beginn des Gültigkeits-Zeitraums der Eigenschaft "Value"
          * </pre>
          *
-         * <code>optional .dstore.values.TimestampValue valid_from = 10006;</code>
+         * <code>.dstore.values.TimestampValue valid_from = 10006;</code>
          */
         public boolean hasValidFrom() {
           return validFromBuilder_ != null || validFrom_ != null;
@@ -3065,7 +3065,7 @@ public final class PmGetPeriodsForPredefValsAd {
          * Beginn des Gültigkeits-Zeitraums der Eigenschaft "Value"
          * </pre>
          *
-         * <code>optional .dstore.values.TimestampValue valid_from = 10006;</code>
+         * <code>.dstore.values.TimestampValue valid_from = 10006;</code>
          */
         public io.dstore.values.TimestampValue getValidFrom() {
           if (validFromBuilder_ == null) {
@@ -3079,7 +3079,7 @@ public final class PmGetPeriodsForPredefValsAd {
          * Beginn des Gültigkeits-Zeitraums der Eigenschaft "Value"
          * </pre>
          *
-         * <code>optional .dstore.values.TimestampValue valid_from = 10006;</code>
+         * <code>.dstore.values.TimestampValue valid_from = 10006;</code>
          */
         public Builder setValidFrom(io.dstore.values.TimestampValue value) {
           if (validFromBuilder_ == null) {
@@ -3099,7 +3099,7 @@ public final class PmGetPeriodsForPredefValsAd {
          * Beginn des Gültigkeits-Zeitraums der Eigenschaft "Value"
          * </pre>
          *
-         * <code>optional .dstore.values.TimestampValue valid_from = 10006;</code>
+         * <code>.dstore.values.TimestampValue valid_from = 10006;</code>
          */
         public Builder setValidFrom(
             io.dstore.values.TimestampValue.Builder builderForValue) {
@@ -3117,7 +3117,7 @@ public final class PmGetPeriodsForPredefValsAd {
          * Beginn des Gültigkeits-Zeitraums der Eigenschaft "Value"
          * </pre>
          *
-         * <code>optional .dstore.values.TimestampValue valid_from = 10006;</code>
+         * <code>.dstore.values.TimestampValue valid_from = 10006;</code>
          */
         public Builder mergeValidFrom(io.dstore.values.TimestampValue value) {
           if (validFromBuilder_ == null) {
@@ -3139,7 +3139,7 @@ public final class PmGetPeriodsForPredefValsAd {
          * Beginn des Gültigkeits-Zeitraums der Eigenschaft "Value"
          * </pre>
          *
-         * <code>optional .dstore.values.TimestampValue valid_from = 10006;</code>
+         * <code>.dstore.values.TimestampValue valid_from = 10006;</code>
          */
         public Builder clearValidFrom() {
           if (validFromBuilder_ == null) {
@@ -3157,7 +3157,7 @@ public final class PmGetPeriodsForPredefValsAd {
          * Beginn des Gültigkeits-Zeitraums der Eigenschaft "Value"
          * </pre>
          *
-         * <code>optional .dstore.values.TimestampValue valid_from = 10006;</code>
+         * <code>.dstore.values.TimestampValue valid_from = 10006;</code>
          */
         public io.dstore.values.TimestampValue.Builder getValidFromBuilder() {
           
@@ -3169,7 +3169,7 @@ public final class PmGetPeriodsForPredefValsAd {
          * Beginn des Gültigkeits-Zeitraums der Eigenschaft "Value"
          * </pre>
          *
-         * <code>optional .dstore.values.TimestampValue valid_from = 10006;</code>
+         * <code>.dstore.values.TimestampValue valid_from = 10006;</code>
          */
         public io.dstore.values.TimestampValueOrBuilder getValidFromOrBuilder() {
           if (validFromBuilder_ != null) {
@@ -3184,7 +3184,7 @@ public final class PmGetPeriodsForPredefValsAd {
          * Beginn des Gültigkeits-Zeitraums der Eigenschaft "Value"
          * </pre>
          *
-         * <code>optional .dstore.values.TimestampValue valid_from = 10006;</code>
+         * <code>.dstore.values.TimestampValue valid_from = 10006;</code>
          */
         private com.google.protobuf.SingleFieldBuilderV3<
             io.dstore.values.TimestampValue, io.dstore.values.TimestampValue.Builder, io.dstore.values.TimestampValueOrBuilder> 
@@ -3208,7 +3208,7 @@ public final class PmGetPeriodsForPredefValsAd {
          * ID der Eigenschaft "Value"
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue value_id = 10007;</code>
+         * <code>.dstore.values.IntegerValue value_id = 10007;</code>
          */
         public boolean hasValueId() {
           return valueIdBuilder_ != null || valueId_ != null;
@@ -3218,7 +3218,7 @@ public final class PmGetPeriodsForPredefValsAd {
          * ID der Eigenschaft "Value"
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue value_id = 10007;</code>
+         * <code>.dstore.values.IntegerValue value_id = 10007;</code>
          */
         public io.dstore.values.IntegerValue getValueId() {
           if (valueIdBuilder_ == null) {
@@ -3232,7 +3232,7 @@ public final class PmGetPeriodsForPredefValsAd {
          * ID der Eigenschaft "Value"
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue value_id = 10007;</code>
+         * <code>.dstore.values.IntegerValue value_id = 10007;</code>
          */
         public Builder setValueId(io.dstore.values.IntegerValue value) {
           if (valueIdBuilder_ == null) {
@@ -3252,7 +3252,7 @@ public final class PmGetPeriodsForPredefValsAd {
          * ID der Eigenschaft "Value"
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue value_id = 10007;</code>
+         * <code>.dstore.values.IntegerValue value_id = 10007;</code>
          */
         public Builder setValueId(
             io.dstore.values.IntegerValue.Builder builderForValue) {
@@ -3270,7 +3270,7 @@ public final class PmGetPeriodsForPredefValsAd {
          * ID der Eigenschaft "Value"
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue value_id = 10007;</code>
+         * <code>.dstore.values.IntegerValue value_id = 10007;</code>
          */
         public Builder mergeValueId(io.dstore.values.IntegerValue value) {
           if (valueIdBuilder_ == null) {
@@ -3292,7 +3292,7 @@ public final class PmGetPeriodsForPredefValsAd {
          * ID der Eigenschaft "Value"
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue value_id = 10007;</code>
+         * <code>.dstore.values.IntegerValue value_id = 10007;</code>
          */
         public Builder clearValueId() {
           if (valueIdBuilder_ == null) {
@@ -3310,7 +3310,7 @@ public final class PmGetPeriodsForPredefValsAd {
          * ID der Eigenschaft "Value"
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue value_id = 10007;</code>
+         * <code>.dstore.values.IntegerValue value_id = 10007;</code>
          */
         public io.dstore.values.IntegerValue.Builder getValueIdBuilder() {
           
@@ -3322,7 +3322,7 @@ public final class PmGetPeriodsForPredefValsAd {
          * ID der Eigenschaft "Value"
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue value_id = 10007;</code>
+         * <code>.dstore.values.IntegerValue value_id = 10007;</code>
          */
         public io.dstore.values.IntegerValueOrBuilder getValueIdOrBuilder() {
           if (valueIdBuilder_ != null) {
@@ -3337,7 +3337,7 @@ public final class PmGetPeriodsForPredefValsAd {
          * ID der Eigenschaft "Value"
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue value_id = 10007;</code>
+         * <code>.dstore.values.IntegerValue value_id = 10007;</code>
          */
         private com.google.protobuf.SingleFieldBuilderV3<
             io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> 
@@ -3361,7 +3361,7 @@ public final class PmGetPeriodsForPredefValsAd {
          * "ValidFrom" als "String" im Format "01.04.2001 15:20:55:115"
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue valid_from_char = 10008;</code>
+         * <code>.dstore.values.StringValue valid_from_char = 10008;</code>
          */
         public boolean hasValidFromChar() {
           return validFromCharBuilder_ != null || validFromChar_ != null;
@@ -3371,7 +3371,7 @@ public final class PmGetPeriodsForPredefValsAd {
          * "ValidFrom" als "String" im Format "01.04.2001 15:20:55:115"
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue valid_from_char = 10008;</code>
+         * <code>.dstore.values.StringValue valid_from_char = 10008;</code>
          */
         public io.dstore.values.StringValue getValidFromChar() {
           if (validFromCharBuilder_ == null) {
@@ -3385,7 +3385,7 @@ public final class PmGetPeriodsForPredefValsAd {
          * "ValidFrom" als "String" im Format "01.04.2001 15:20:55:115"
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue valid_from_char = 10008;</code>
+         * <code>.dstore.values.StringValue valid_from_char = 10008;</code>
          */
         public Builder setValidFromChar(io.dstore.values.StringValue value) {
           if (validFromCharBuilder_ == null) {
@@ -3405,7 +3405,7 @@ public final class PmGetPeriodsForPredefValsAd {
          * "ValidFrom" als "String" im Format "01.04.2001 15:20:55:115"
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue valid_from_char = 10008;</code>
+         * <code>.dstore.values.StringValue valid_from_char = 10008;</code>
          */
         public Builder setValidFromChar(
             io.dstore.values.StringValue.Builder builderForValue) {
@@ -3423,7 +3423,7 @@ public final class PmGetPeriodsForPredefValsAd {
          * "ValidFrom" als "String" im Format "01.04.2001 15:20:55:115"
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue valid_from_char = 10008;</code>
+         * <code>.dstore.values.StringValue valid_from_char = 10008;</code>
          */
         public Builder mergeValidFromChar(io.dstore.values.StringValue value) {
           if (validFromCharBuilder_ == null) {
@@ -3445,7 +3445,7 @@ public final class PmGetPeriodsForPredefValsAd {
          * "ValidFrom" als "String" im Format "01.04.2001 15:20:55:115"
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue valid_from_char = 10008;</code>
+         * <code>.dstore.values.StringValue valid_from_char = 10008;</code>
          */
         public Builder clearValidFromChar() {
           if (validFromCharBuilder_ == null) {
@@ -3463,7 +3463,7 @@ public final class PmGetPeriodsForPredefValsAd {
          * "ValidFrom" als "String" im Format "01.04.2001 15:20:55:115"
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue valid_from_char = 10008;</code>
+         * <code>.dstore.values.StringValue valid_from_char = 10008;</code>
          */
         public io.dstore.values.StringValue.Builder getValidFromCharBuilder() {
           
@@ -3475,7 +3475,7 @@ public final class PmGetPeriodsForPredefValsAd {
          * "ValidFrom" als "String" im Format "01.04.2001 15:20:55:115"
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue valid_from_char = 10008;</code>
+         * <code>.dstore.values.StringValue valid_from_char = 10008;</code>
          */
         public io.dstore.values.StringValueOrBuilder getValidFromCharOrBuilder() {
           if (validFromCharBuilder_ != null) {
@@ -3490,7 +3490,7 @@ public final class PmGetPeriodsForPredefValsAd {
          * "ValidFrom" als "String" im Format "01.04.2001 15:20:55:115"
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue valid_from_char = 10008;</code>
+         * <code>.dstore.values.StringValue valid_from_char = 10008;</code>
          */
         private com.google.protobuf.SingleFieldBuilderV3<
             io.dstore.values.StringValue, io.dstore.values.StringValue.Builder, io.dstore.values.StringValueOrBuilder> 
@@ -3750,7 +3750,7 @@ public final class PmGetPeriodsForPredefValsAd {
         return memoizedHashCode;
       }
       int hash = 41;
-      hash = (19 * hash) + getDescriptorForType().hashCode();
+      hash = (19 * hash) + getDescriptor().hashCode();
       if (getMetaInformationCount() > 0) {
         hash = (37 * hash) + META_INFORMATION_FIELD_NUMBER;
         hash = (53 * hash) + getMetaInformationList().hashCode();

@@ -19,74 +19,74 @@ public final class CoGetLostPasswordPu {
       com.google.protobuf.MessageOrBuilder {
 
     /**
-     * <code>optional .dstore.values.StringValue password = 1;</code>
+     * <code>.dstore.values.StringValue password = 1;</code>
      */
     boolean hasPassword();
     /**
-     * <code>optional .dstore.values.StringValue password = 1;</code>
+     * <code>.dstore.values.StringValue password = 1;</code>
      */
     io.dstore.values.StringValue getPassword();
     /**
-     * <code>optional .dstore.values.StringValue password = 1;</code>
+     * <code>.dstore.values.StringValue password = 1;</code>
      */
     io.dstore.values.StringValueOrBuilder getPasswordOrBuilder();
 
     /**
-     * <code>optional bool password_null = 1001;</code>
+     * <code>bool password_null = 1001;</code>
      */
     boolean getPasswordNull();
 
     /**
-     * <code>optional .dstore.values.IntegerValue community_id = 2;</code>
+     * <code>.dstore.values.IntegerValue community_id = 2;</code>
      */
     boolean hasCommunityId();
     /**
-     * <code>optional .dstore.values.IntegerValue community_id = 2;</code>
+     * <code>.dstore.values.IntegerValue community_id = 2;</code>
      */
     io.dstore.values.IntegerValue getCommunityId();
     /**
-     * <code>optional .dstore.values.IntegerValue community_id = 2;</code>
+     * <code>.dstore.values.IntegerValue community_id = 2;</code>
      */
     io.dstore.values.IntegerValueOrBuilder getCommunityIdOrBuilder();
 
     /**
-     * <code>optional bool community_id_null = 1002;</code>
+     * <code>bool community_id_null = 1002;</code>
      */
     boolean getCommunityIdNull();
 
     /**
-     * <code>optional .dstore.values.StringValue nickname = 3;</code>
+     * <code>.dstore.values.StringValue nickname = 3;</code>
      */
     boolean hasNickname();
     /**
-     * <code>optional .dstore.values.StringValue nickname = 3;</code>
+     * <code>.dstore.values.StringValue nickname = 3;</code>
      */
     io.dstore.values.StringValue getNickname();
     /**
-     * <code>optional .dstore.values.StringValue nickname = 3;</code>
+     * <code>.dstore.values.StringValue nickname = 3;</code>
      */
     io.dstore.values.StringValueOrBuilder getNicknameOrBuilder();
 
     /**
-     * <code>optional bool nickname_null = 1003;</code>
+     * <code>bool nickname_null = 1003;</code>
      */
     boolean getNicknameNull();
 
     /**
-     * <code>optional .dstore.values.StringValue answer = 4;</code>
+     * <code>.dstore.values.StringValue answer = 4;</code>
      */
     boolean hasAnswer();
     /**
-     * <code>optional .dstore.values.StringValue answer = 4;</code>
+     * <code>.dstore.values.StringValue answer = 4;</code>
      */
     io.dstore.values.StringValue getAnswer();
     /**
-     * <code>optional .dstore.values.StringValue answer = 4;</code>
+     * <code>.dstore.values.StringValue answer = 4;</code>
      */
     io.dstore.values.StringValueOrBuilder getAnswerOrBuilder();
 
     /**
-     * <code>optional bool answer_null = 1004;</code>
+     * <code>bool answer_null = 1004;</code>
      */
     boolean getAnswerNull();
   }
@@ -231,19 +231,19 @@ public final class CoGetLostPasswordPu {
     public static final int PASSWORD_FIELD_NUMBER = 1;
     private io.dstore.values.StringValue password_;
     /**
-     * <code>optional .dstore.values.StringValue password = 1;</code>
+     * <code>.dstore.values.StringValue password = 1;</code>
      */
     public boolean hasPassword() {
       return password_ != null;
     }
     /**
-     * <code>optional .dstore.values.StringValue password = 1;</code>
+     * <code>.dstore.values.StringValue password = 1;</code>
      */
     public io.dstore.values.StringValue getPassword() {
       return password_ == null ? io.dstore.values.StringValue.getDefaultInstance() : password_;
     }
     /**
-     * <code>optional .dstore.values.StringValue password = 1;</code>
+     * <code>.dstore.values.StringValue password = 1;</code>
      */
     public io.dstore.values.StringValueOrBuilder getPasswordOrBuilder() {
       return getPassword();
@@ -252,7 +252,7 @@ public final class CoGetLostPasswordPu {
     public static final int PASSWORD_NULL_FIELD_NUMBER = 1001;
     private boolean passwordNull_;
     /**
-     * <code>optional bool password_null = 1001;</code>
+     * <code>bool password_null = 1001;</code>
      */
     public boolean getPasswordNull() {
       return passwordNull_;
@@ -261,19 +261,19 @@ public final class CoGetLostPasswordPu {
     public static final int COMMUNITY_ID_FIELD_NUMBER = 2;
     private io.dstore.values.IntegerValue communityId_;
     /**
-     * <code>optional .dstore.values.IntegerValue community_id = 2;</code>
+     * <code>.dstore.values.IntegerValue community_id = 2;</code>
      */
     public boolean hasCommunityId() {
       return communityId_ != null;
     }
     /**
-     * <code>optional .dstore.values.IntegerValue community_id = 2;</code>
+     * <code>.dstore.values.IntegerValue community_id = 2;</code>
      */
     public io.dstore.values.IntegerValue getCommunityId() {
       return communityId_ == null ? io.dstore.values.IntegerValue.getDefaultInstance() : communityId_;
     }
     /**
-     * <code>optional .dstore.values.IntegerValue community_id = 2;</code>
+     * <code>.dstore.values.IntegerValue community_id = 2;</code>
      */
     public io.dstore.values.IntegerValueOrBuilder getCommunityIdOrBuilder() {
       return getCommunityId();
@@ -282,7 +282,7 @@ public final class CoGetLostPasswordPu {
     public static final int COMMUNITY_ID_NULL_FIELD_NUMBER = 1002;
     private boolean communityIdNull_;
     /**
-     * <code>optional bool community_id_null = 1002;</code>
+     * <code>bool community_id_null = 1002;</code>
      */
     public boolean getCommunityIdNull() {
       return communityIdNull_;
@@ -291,19 +291,19 @@ public final class CoGetLostPasswordPu {
     public static final int NICKNAME_FIELD_NUMBER = 3;
     private io.dstore.values.StringValue nickname_;
     /**
-     * <code>optional .dstore.values.StringValue nickname = 3;</code>
+     * <code>.dstore.values.StringValue nickname = 3;</code>
      */
     public boolean hasNickname() {
       return nickname_ != null;
     }
     /**
-     * <code>optional .dstore.values.StringValue nickname = 3;</code>
+     * <code>.dstore.values.StringValue nickname = 3;</code>
      */
     public io.dstore.values.StringValue getNickname() {
       return nickname_ == null ? io.dstore.values.StringValue.getDefaultInstance() : nickname_;
     }
     /**
-     * <code>optional .dstore.values.StringValue nickname = 3;</code>
+     * <code>.dstore.values.StringValue nickname = 3;</code>
      */
     public io.dstore.values.StringValueOrBuilder getNicknameOrBuilder() {
       return getNickname();
@@ -312,7 +312,7 @@ public final class CoGetLostPasswordPu {
     public static final int NICKNAME_NULL_FIELD_NUMBER = 1003;
     private boolean nicknameNull_;
     /**
-     * <code>optional bool nickname_null = 1003;</code>
+     * <code>bool nickname_null = 1003;</code>
      */
     public boolean getNicknameNull() {
       return nicknameNull_;
@@ -321,19 +321,19 @@ public final class CoGetLostPasswordPu {
     public static final int ANSWER_FIELD_NUMBER = 4;
     private io.dstore.values.StringValue answer_;
     /**
-     * <code>optional .dstore.values.StringValue answer = 4;</code>
+     * <code>.dstore.values.StringValue answer = 4;</code>
      */
     public boolean hasAnswer() {
       return answer_ != null;
     }
     /**
-     * <code>optional .dstore.values.StringValue answer = 4;</code>
+     * <code>.dstore.values.StringValue answer = 4;</code>
      */
     public io.dstore.values.StringValue getAnswer() {
       return answer_ == null ? io.dstore.values.StringValue.getDefaultInstance() : answer_;
     }
     /**
-     * <code>optional .dstore.values.StringValue answer = 4;</code>
+     * <code>.dstore.values.StringValue answer = 4;</code>
      */
     public io.dstore.values.StringValueOrBuilder getAnswerOrBuilder() {
       return getAnswer();
@@ -342,7 +342,7 @@ public final class CoGetLostPasswordPu {
     public static final int ANSWER_NULL_FIELD_NUMBER = 1004;
     private boolean answerNull_;
     /**
-     * <code>optional bool answer_null = 1004;</code>
+     * <code>bool answer_null = 1004;</code>
      */
     public boolean getAnswerNull() {
       return answerNull_;
@@ -476,7 +476,7 @@ public final class CoGetLostPasswordPu {
         return memoizedHashCode;
       }
       int hash = 41;
-      hash = (19 * hash) + getDescriptorForType().hashCode();
+      hash = (19 * hash) + getDescriptor().hashCode();
       if (hasPassword()) {
         hash = (37 * hash) + PASSWORD_FIELD_NUMBER;
         hash = (53 * hash) + getPassword().hashCode();
@@ -796,13 +796,13 @@ public final class CoGetLostPasswordPu {
       private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.values.StringValue, io.dstore.values.StringValue.Builder, io.dstore.values.StringValueOrBuilder> passwordBuilder_;
       /**
-       * <code>optional .dstore.values.StringValue password = 1;</code>
+       * <code>.dstore.values.StringValue password = 1;</code>
        */
       public boolean hasPassword() {
         return passwordBuilder_ != null || password_ != null;
       }
       /**
-       * <code>optional .dstore.values.StringValue password = 1;</code>
+       * <code>.dstore.values.StringValue password = 1;</code>
        */
       public io.dstore.values.StringValue getPassword() {
         if (passwordBuilder_ == null) {
@@ -812,7 +812,7 @@ public final class CoGetLostPasswordPu {
         }
       }
       /**
-       * <code>optional .dstore.values.StringValue password = 1;</code>
+       * <code>.dstore.values.StringValue password = 1;</code>
        */
       public Builder setPassword(io.dstore.values.StringValue value) {
         if (passwordBuilder_ == null) {
@@ -828,7 +828,7 @@ public final class CoGetLostPasswordPu {
         return this;
       }
       /**
-       * <code>optional .dstore.values.StringValue password = 1;</code>
+       * <code>.dstore.values.StringValue password = 1;</code>
        */
       public Builder setPassword(
           io.dstore.values.StringValue.Builder builderForValue) {
@@ -842,7 +842,7 @@ public final class CoGetLostPasswordPu {
         return this;
       }
       /**
-       * <code>optional .dstore.values.StringValue password = 1;</code>
+       * <code>.dstore.values.StringValue password = 1;</code>
        */
       public Builder mergePassword(io.dstore.values.StringValue value) {
         if (passwordBuilder_ == null) {
@@ -860,7 +860,7 @@ public final class CoGetLostPasswordPu {
         return this;
       }
       /**
-       * <code>optional .dstore.values.StringValue password = 1;</code>
+       * <code>.dstore.values.StringValue password = 1;</code>
        */
       public Builder clearPassword() {
         if (passwordBuilder_ == null) {
@@ -874,7 +874,7 @@ public final class CoGetLostPasswordPu {
         return this;
       }
       /**
-       * <code>optional .dstore.values.StringValue password = 1;</code>
+       * <code>.dstore.values.StringValue password = 1;</code>
        */
       public io.dstore.values.StringValue.Builder getPasswordBuilder() {
         
@@ -882,7 +882,7 @@ public final class CoGetLostPasswordPu {
         return getPasswordFieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .dstore.values.StringValue password = 1;</code>
+       * <code>.dstore.values.StringValue password = 1;</code>
        */
       public io.dstore.values.StringValueOrBuilder getPasswordOrBuilder() {
         if (passwordBuilder_ != null) {
@@ -893,7 +893,7 @@ public final class CoGetLostPasswordPu {
         }
       }
       /**
-       * <code>optional .dstore.values.StringValue password = 1;</code>
+       * <code>.dstore.values.StringValue password = 1;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.values.StringValue, io.dstore.values.StringValue.Builder, io.dstore.values.StringValueOrBuilder> 
@@ -911,13 +911,13 @@ public final class CoGetLostPasswordPu {
 
       private boolean passwordNull_ ;
       /**
-       * <code>optional bool password_null = 1001;</code>
+       * <code>bool password_null = 1001;</code>
        */
       public boolean getPasswordNull() {
         return passwordNull_;
       }
       /**
-       * <code>optional bool password_null = 1001;</code>
+       * <code>bool password_null = 1001;</code>
        */
       public Builder setPasswordNull(boolean value) {
         
@@ -926,7 +926,7 @@ public final class CoGetLostPasswordPu {
         return this;
       }
       /**
-       * <code>optional bool password_null = 1001;</code>
+       * <code>bool password_null = 1001;</code>
        */
       public Builder clearPasswordNull() {
         
@@ -939,13 +939,13 @@ public final class CoGetLostPasswordPu {
       private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> communityIdBuilder_;
       /**
-       * <code>optional .dstore.values.IntegerValue community_id = 2;</code>
+       * <code>.dstore.values.IntegerValue community_id = 2;</code>
        */
       public boolean hasCommunityId() {
         return communityIdBuilder_ != null || communityId_ != null;
       }
       /**
-       * <code>optional .dstore.values.IntegerValue community_id = 2;</code>
+       * <code>.dstore.values.IntegerValue community_id = 2;</code>
        */
       public io.dstore.values.IntegerValue getCommunityId() {
         if (communityIdBuilder_ == null) {
@@ -955,7 +955,7 @@ public final class CoGetLostPasswordPu {
         }
       }
       /**
-       * <code>optional .dstore.values.IntegerValue community_id = 2;</code>
+       * <code>.dstore.values.IntegerValue community_id = 2;</code>
        */
       public Builder setCommunityId(io.dstore.values.IntegerValue value) {
         if (communityIdBuilder_ == null) {
@@ -971,7 +971,7 @@ public final class CoGetLostPasswordPu {
         return this;
       }
       /**
-       * <code>optional .dstore.values.IntegerValue community_id = 2;</code>
+       * <code>.dstore.values.IntegerValue community_id = 2;</code>
        */
       public Builder setCommunityId(
           io.dstore.values.IntegerValue.Builder builderForValue) {
@@ -985,7 +985,7 @@ public final class CoGetLostPasswordPu {
         return this;
       }
       /**
-       * <code>optional .dstore.values.IntegerValue community_id = 2;</code>
+       * <code>.dstore.values.IntegerValue community_id = 2;</code>
        */
       public Builder mergeCommunityId(io.dstore.values.IntegerValue value) {
         if (communityIdBuilder_ == null) {
@@ -1003,7 +1003,7 @@ public final class CoGetLostPasswordPu {
         return this;
       }
       /**
-       * <code>optional .dstore.values.IntegerValue community_id = 2;</code>
+       * <code>.dstore.values.IntegerValue community_id = 2;</code>
        */
       public Builder clearCommunityId() {
         if (communityIdBuilder_ == null) {
@@ -1017,7 +1017,7 @@ public final class CoGetLostPasswordPu {
         return this;
       }
       /**
-       * <code>optional .dstore.values.IntegerValue community_id = 2;</code>
+       * <code>.dstore.values.IntegerValue community_id = 2;</code>
        */
       public io.dstore.values.IntegerValue.Builder getCommunityIdBuilder() {
         
@@ -1025,7 +1025,7 @@ public final class CoGetLostPasswordPu {
         return getCommunityIdFieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .dstore.values.IntegerValue community_id = 2;</code>
+       * <code>.dstore.values.IntegerValue community_id = 2;</code>
        */
       public io.dstore.values.IntegerValueOrBuilder getCommunityIdOrBuilder() {
         if (communityIdBuilder_ != null) {
@@ -1036,7 +1036,7 @@ public final class CoGetLostPasswordPu {
         }
       }
       /**
-       * <code>optional .dstore.values.IntegerValue community_id = 2;</code>
+       * <code>.dstore.values.IntegerValue community_id = 2;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> 
@@ -1054,13 +1054,13 @@ public final class CoGetLostPasswordPu {
 
       private boolean communityIdNull_ ;
       /**
-       * <code>optional bool community_id_null = 1002;</code>
+       * <code>bool community_id_null = 1002;</code>
        */
       public boolean getCommunityIdNull() {
         return communityIdNull_;
       }
       /**
-       * <code>optional bool community_id_null = 1002;</code>
+       * <code>bool community_id_null = 1002;</code>
        */
       public Builder setCommunityIdNull(boolean value) {
         
@@ -1069,7 +1069,7 @@ public final class CoGetLostPasswordPu {
         return this;
       }
       /**
-       * <code>optional bool community_id_null = 1002;</code>
+       * <code>bool community_id_null = 1002;</code>
        */
       public Builder clearCommunityIdNull() {
         
@@ -1082,13 +1082,13 @@ public final class CoGetLostPasswordPu {
       private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.values.StringValue, io.dstore.values.StringValue.Builder, io.dstore.values.StringValueOrBuilder> nicknameBuilder_;
       /**
-       * <code>optional .dstore.values.StringValue nickname = 3;</code>
+       * <code>.dstore.values.StringValue nickname = 3;</code>
        */
       public boolean hasNickname() {
         return nicknameBuilder_ != null || nickname_ != null;
       }
       /**
-       * <code>optional .dstore.values.StringValue nickname = 3;</code>
+       * <code>.dstore.values.StringValue nickname = 3;</code>
        */
       public io.dstore.values.StringValue getNickname() {
         if (nicknameBuilder_ == null) {
@@ -1098,7 +1098,7 @@ public final class CoGetLostPasswordPu {
         }
       }
       /**
-       * <code>optional .dstore.values.StringValue nickname = 3;</code>
+       * <code>.dstore.values.StringValue nickname = 3;</code>
        */
       public Builder setNickname(io.dstore.values.StringValue value) {
         if (nicknameBuilder_ == null) {
@@ -1114,7 +1114,7 @@ public final class CoGetLostPasswordPu {
         return this;
       }
       /**
-       * <code>optional .dstore.values.StringValue nickname = 3;</code>
+       * <code>.dstore.values.StringValue nickname = 3;</code>
        */
       public Builder setNickname(
           io.dstore.values.StringValue.Builder builderForValue) {
@@ -1128,7 +1128,7 @@ public final class CoGetLostPasswordPu {
         return this;
       }
       /**
-       * <code>optional .dstore.values.StringValue nickname = 3;</code>
+       * <code>.dstore.values.StringValue nickname = 3;</code>
        */
       public Builder mergeNickname(io.dstore.values.StringValue value) {
         if (nicknameBuilder_ == null) {
@@ -1146,7 +1146,7 @@ public final class CoGetLostPasswordPu {
         return this;
       }
       /**
-       * <code>optional .dstore.values.StringValue nickname = 3;</code>
+       * <code>.dstore.values.StringValue nickname = 3;</code>
        */
       public Builder clearNickname() {
         if (nicknameBuilder_ == null) {
@@ -1160,7 +1160,7 @@ public final class CoGetLostPasswordPu {
         return this;
       }
       /**
-       * <code>optional .dstore.values.StringValue nickname = 3;</code>
+       * <code>.dstore.values.StringValue nickname = 3;</code>
        */
       public io.dstore.values.StringValue.Builder getNicknameBuilder() {
         
@@ -1168,7 +1168,7 @@ public final class CoGetLostPasswordPu {
         return getNicknameFieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .dstore.values.StringValue nickname = 3;</code>
+       * <code>.dstore.values.StringValue nickname = 3;</code>
        */
       public io.dstore.values.StringValueOrBuilder getNicknameOrBuilder() {
         if (nicknameBuilder_ != null) {
@@ -1179,7 +1179,7 @@ public final class CoGetLostPasswordPu {
         }
       }
       /**
-       * <code>optional .dstore.values.StringValue nickname = 3;</code>
+       * <code>.dstore.values.StringValue nickname = 3;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.values.StringValue, io.dstore.values.StringValue.Builder, io.dstore.values.StringValueOrBuilder> 
@@ -1197,13 +1197,13 @@ public final class CoGetLostPasswordPu {
 
       private boolean nicknameNull_ ;
       /**
-       * <code>optional bool nickname_null = 1003;</code>
+       * <code>bool nickname_null = 1003;</code>
        */
       public boolean getNicknameNull() {
         return nicknameNull_;
       }
       /**
-       * <code>optional bool nickname_null = 1003;</code>
+       * <code>bool nickname_null = 1003;</code>
        */
       public Builder setNicknameNull(boolean value) {
         
@@ -1212,7 +1212,7 @@ public final class CoGetLostPasswordPu {
         return this;
       }
       /**
-       * <code>optional bool nickname_null = 1003;</code>
+       * <code>bool nickname_null = 1003;</code>
        */
       public Builder clearNicknameNull() {
         
@@ -1225,13 +1225,13 @@ public final class CoGetLostPasswordPu {
       private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.values.StringValue, io.dstore.values.StringValue.Builder, io.dstore.values.StringValueOrBuilder> answerBuilder_;
       /**
-       * <code>optional .dstore.values.StringValue answer = 4;</code>
+       * <code>.dstore.values.StringValue answer = 4;</code>
        */
       public boolean hasAnswer() {
         return answerBuilder_ != null || answer_ != null;
       }
       /**
-       * <code>optional .dstore.values.StringValue answer = 4;</code>
+       * <code>.dstore.values.StringValue answer = 4;</code>
        */
       public io.dstore.values.StringValue getAnswer() {
         if (answerBuilder_ == null) {
@@ -1241,7 +1241,7 @@ public final class CoGetLostPasswordPu {
         }
       }
       /**
-       * <code>optional .dstore.values.StringValue answer = 4;</code>
+       * <code>.dstore.values.StringValue answer = 4;</code>
        */
       public Builder setAnswer(io.dstore.values.StringValue value) {
         if (answerBuilder_ == null) {
@@ -1257,7 +1257,7 @@ public final class CoGetLostPasswordPu {
         return this;
       }
       /**
-       * <code>optional .dstore.values.StringValue answer = 4;</code>
+       * <code>.dstore.values.StringValue answer = 4;</code>
        */
       public Builder setAnswer(
           io.dstore.values.StringValue.Builder builderForValue) {
@@ -1271,7 +1271,7 @@ public final class CoGetLostPasswordPu {
         return this;
       }
       /**
-       * <code>optional .dstore.values.StringValue answer = 4;</code>
+       * <code>.dstore.values.StringValue answer = 4;</code>
        */
       public Builder mergeAnswer(io.dstore.values.StringValue value) {
         if (answerBuilder_ == null) {
@@ -1289,7 +1289,7 @@ public final class CoGetLostPasswordPu {
         return this;
       }
       /**
-       * <code>optional .dstore.values.StringValue answer = 4;</code>
+       * <code>.dstore.values.StringValue answer = 4;</code>
        */
       public Builder clearAnswer() {
         if (answerBuilder_ == null) {
@@ -1303,7 +1303,7 @@ public final class CoGetLostPasswordPu {
         return this;
       }
       /**
-       * <code>optional .dstore.values.StringValue answer = 4;</code>
+       * <code>.dstore.values.StringValue answer = 4;</code>
        */
       public io.dstore.values.StringValue.Builder getAnswerBuilder() {
         
@@ -1311,7 +1311,7 @@ public final class CoGetLostPasswordPu {
         return getAnswerFieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .dstore.values.StringValue answer = 4;</code>
+       * <code>.dstore.values.StringValue answer = 4;</code>
        */
       public io.dstore.values.StringValueOrBuilder getAnswerOrBuilder() {
         if (answerBuilder_ != null) {
@@ -1322,7 +1322,7 @@ public final class CoGetLostPasswordPu {
         }
       }
       /**
-       * <code>optional .dstore.values.StringValue answer = 4;</code>
+       * <code>.dstore.values.StringValue answer = 4;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.values.StringValue, io.dstore.values.StringValue.Builder, io.dstore.values.StringValueOrBuilder> 
@@ -1340,13 +1340,13 @@ public final class CoGetLostPasswordPu {
 
       private boolean answerNull_ ;
       /**
-       * <code>optional bool answer_null = 1004;</code>
+       * <code>bool answer_null = 1004;</code>
        */
       public boolean getAnswerNull() {
         return answerNull_;
       }
       /**
-       * <code>optional bool answer_null = 1004;</code>
+       * <code>bool answer_null = 1004;</code>
        */
       public Builder setAnswerNull(boolean value) {
         
@@ -1355,7 +1355,7 @@ public final class CoGetLostPasswordPu {
         return this;
       }
       /**
-       * <code>optional bool answer_null = 1004;</code>
+       * <code>bool answer_null = 1004;</code>
        */
       public Builder clearAnswerNull() {
         
@@ -1614,7 +1614,7 @@ public final class CoGetLostPasswordPu {
         com.google.protobuf.MessageOrBuilder {
 
       /**
-       * <code>optional int32 row_id = 10000;</code>
+       * <code>int32 row_id = 10000;</code>
        */
       int getRowId();
 
@@ -1623,7 +1623,7 @@ public final class CoGetLostPasswordPu {
        * Das Kennwort des Mitglieds (wenn die Antwort richtig war...)
        * </pre>
        *
-       * <code>optional .dstore.values.StringValue password = 10001;</code>
+       * <code>.dstore.values.StringValue password = 10001;</code>
        */
       boolean hasPassword();
       /**
@@ -1631,7 +1631,7 @@ public final class CoGetLostPasswordPu {
        * Das Kennwort des Mitglieds (wenn die Antwort richtig war...)
        * </pre>
        *
-       * <code>optional .dstore.values.StringValue password = 10001;</code>
+       * <code>.dstore.values.StringValue password = 10001;</code>
        */
       io.dstore.values.StringValue getPassword();
       /**
@@ -1639,7 +1639,7 @@ public final class CoGetLostPasswordPu {
        * Das Kennwort des Mitglieds (wenn die Antwort richtig war...)
        * </pre>
        *
-       * <code>optional .dstore.values.StringValue password = 10001;</code>
+       * <code>.dstore.values.StringValue password = 10001;</code>
        */
       io.dstore.values.StringValueOrBuilder getPasswordOrBuilder();
     }
@@ -1727,7 +1727,7 @@ public final class CoGetLostPasswordPu {
       public static final int ROW_ID_FIELD_NUMBER = 10000;
       private int rowId_;
       /**
-       * <code>optional int32 row_id = 10000;</code>
+       * <code>int32 row_id = 10000;</code>
        */
       public int getRowId() {
         return rowId_;
@@ -1740,7 +1740,7 @@ public final class CoGetLostPasswordPu {
        * Das Kennwort des Mitglieds (wenn die Antwort richtig war...)
        * </pre>
        *
-       * <code>optional .dstore.values.StringValue password = 10001;</code>
+       * <code>.dstore.values.StringValue password = 10001;</code>
        */
       public boolean hasPassword() {
         return password_ != null;
@@ -1750,7 +1750,7 @@ public final class CoGetLostPasswordPu {
        * Das Kennwort des Mitglieds (wenn die Antwort richtig war...)
        * </pre>
        *
-       * <code>optional .dstore.values.StringValue password = 10001;</code>
+       * <code>.dstore.values.StringValue password = 10001;</code>
        */
       public io.dstore.values.StringValue getPassword() {
         return password_ == null ? io.dstore.values.StringValue.getDefaultInstance() : password_;
@@ -1760,7 +1760,7 @@ public final class CoGetLostPasswordPu {
        * Das Kennwort des Mitglieds (wenn die Antwort richtig war...)
        * </pre>
        *
-       * <code>optional .dstore.values.StringValue password = 10001;</code>
+       * <code>.dstore.values.StringValue password = 10001;</code>
        */
       public io.dstore.values.StringValueOrBuilder getPasswordOrBuilder() {
         return getPassword();
@@ -1831,7 +1831,7 @@ public final class CoGetLostPasswordPu {
           return memoizedHashCode;
         }
         int hash = 41;
-        hash = (19 * hash) + getDescriptorForType().hashCode();
+        hash = (19 * hash) + getDescriptor().hashCode();
         hash = (37 * hash) + ROW_ID_FIELD_NUMBER;
         hash = (53 * hash) + getRowId();
         if (hasPassword()) {
@@ -2067,13 +2067,13 @@ public final class CoGetLostPasswordPu {
 
         private int rowId_ ;
         /**
-         * <code>optional int32 row_id = 10000;</code>
+         * <code>int32 row_id = 10000;</code>
          */
         public int getRowId() {
           return rowId_;
         }
         /**
-         * <code>optional int32 row_id = 10000;</code>
+         * <code>int32 row_id = 10000;</code>
          */
         public Builder setRowId(int value) {
           
@@ -2082,7 +2082,7 @@ public final class CoGetLostPasswordPu {
           return this;
         }
         /**
-         * <code>optional int32 row_id = 10000;</code>
+         * <code>int32 row_id = 10000;</code>
          */
         public Builder clearRowId() {
           
@@ -2099,7 +2099,7 @@ public final class CoGetLostPasswordPu {
          * Das Kennwort des Mitglieds (wenn die Antwort richtig war...)
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue password = 10001;</code>
+         * <code>.dstore.values.StringValue password = 10001;</code>
          */
         public boolean hasPassword() {
           return passwordBuilder_ != null || password_ != null;
@@ -2109,7 +2109,7 @@ public final class CoGetLostPasswordPu {
          * Das Kennwort des Mitglieds (wenn die Antwort richtig war...)
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue password = 10001;</code>
+         * <code>.dstore.values.StringValue password = 10001;</code>
          */
         public io.dstore.values.StringValue getPassword() {
           if (passwordBuilder_ == null) {
@@ -2123,7 +2123,7 @@ public final class CoGetLostPasswordPu {
          * Das Kennwort des Mitglieds (wenn die Antwort richtig war...)
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue password = 10001;</code>
+         * <code>.dstore.values.StringValue password = 10001;</code>
          */
         public Builder setPassword(io.dstore.values.StringValue value) {
           if (passwordBuilder_ == null) {
@@ -2143,7 +2143,7 @@ public final class CoGetLostPasswordPu {
          * Das Kennwort des Mitglieds (wenn die Antwort richtig war...)
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue password = 10001;</code>
+         * <code>.dstore.values.StringValue password = 10001;</code>
          */
         public Builder setPassword(
             io.dstore.values.StringValue.Builder builderForValue) {
@@ -2161,7 +2161,7 @@ public final class CoGetLostPasswordPu {
          * Das Kennwort des Mitglieds (wenn die Antwort richtig war...)
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue password = 10001;</code>
+         * <code>.dstore.values.StringValue password = 10001;</code>
          */
         public Builder mergePassword(io.dstore.values.StringValue value) {
           if (passwordBuilder_ == null) {
@@ -2183,7 +2183,7 @@ public final class CoGetLostPasswordPu {
          * Das Kennwort des Mitglieds (wenn die Antwort richtig war...)
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue password = 10001;</code>
+         * <code>.dstore.values.StringValue password = 10001;</code>
          */
         public Builder clearPassword() {
           if (passwordBuilder_ == null) {
@@ -2201,7 +2201,7 @@ public final class CoGetLostPasswordPu {
          * Das Kennwort des Mitglieds (wenn die Antwort richtig war...)
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue password = 10001;</code>
+         * <code>.dstore.values.StringValue password = 10001;</code>
          */
         public io.dstore.values.StringValue.Builder getPasswordBuilder() {
           
@@ -2213,7 +2213,7 @@ public final class CoGetLostPasswordPu {
          * Das Kennwort des Mitglieds (wenn die Antwort richtig war...)
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue password = 10001;</code>
+         * <code>.dstore.values.StringValue password = 10001;</code>
          */
         public io.dstore.values.StringValueOrBuilder getPasswordOrBuilder() {
           if (passwordBuilder_ != null) {
@@ -2228,7 +2228,7 @@ public final class CoGetLostPasswordPu {
          * Das Kennwort des Mitglieds (wenn die Antwort richtig war...)
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue password = 10001;</code>
+         * <code>.dstore.values.StringValue password = 10001;</code>
          */
         private com.google.protobuf.SingleFieldBuilderV3<
             io.dstore.values.StringValue, io.dstore.values.StringValue.Builder, io.dstore.values.StringValueOrBuilder> 
@@ -2488,7 +2488,7 @@ public final class CoGetLostPasswordPu {
         return memoizedHashCode;
       }
       int hash = 41;
-      hash = (19 * hash) + getDescriptorForType().hashCode();
+      hash = (19 * hash) + getDescriptor().hashCode();
       if (getMetaInformationCount() > 0) {
         hash = (37 * hash) + META_INFORMATION_FIELD_NUMBER;
         hash = (53 * hash) + getMetaInformationList().hashCode();

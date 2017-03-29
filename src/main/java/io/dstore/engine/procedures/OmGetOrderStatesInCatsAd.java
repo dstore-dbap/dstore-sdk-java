@@ -19,56 +19,56 @@ public final class OmGetOrderStatesInCatsAd {
       com.google.protobuf.MessageOrBuilder {
 
     /**
-     * <code>optional .dstore.values.IntegerValue order_state_category_id = 1;</code>
+     * <code>.dstore.values.IntegerValue order_state_category_id = 1;</code>
      */
     boolean hasOrderStateCategoryId();
     /**
-     * <code>optional .dstore.values.IntegerValue order_state_category_id = 1;</code>
+     * <code>.dstore.values.IntegerValue order_state_category_id = 1;</code>
      */
     io.dstore.values.IntegerValue getOrderStateCategoryId();
     /**
-     * <code>optional .dstore.values.IntegerValue order_state_category_id = 1;</code>
+     * <code>.dstore.values.IntegerValue order_state_category_id = 1;</code>
      */
     io.dstore.values.IntegerValueOrBuilder getOrderStateCategoryIdOrBuilder();
 
     /**
-     * <code>optional bool order_state_category_id_null = 1001;</code>
+     * <code>bool order_state_category_id_null = 1001;</code>
      */
     boolean getOrderStateCategoryIdNull();
 
     /**
-     * <code>optional .dstore.values.IntegerValue order_by = 2;</code>
+     * <code>.dstore.values.IntegerValue order_by = 2;</code>
      */
     boolean hasOrderBy();
     /**
-     * <code>optional .dstore.values.IntegerValue order_by = 2;</code>
+     * <code>.dstore.values.IntegerValue order_by = 2;</code>
      */
     io.dstore.values.IntegerValue getOrderBy();
     /**
-     * <code>optional .dstore.values.IntegerValue order_by = 2;</code>
+     * <code>.dstore.values.IntegerValue order_by = 2;</code>
      */
     io.dstore.values.IntegerValueOrBuilder getOrderByOrBuilder();
 
     /**
-     * <code>optional bool order_by_null = 1002;</code>
+     * <code>bool order_by_null = 1002;</code>
      */
     boolean getOrderByNull();
 
     /**
-     * <code>optional .dstore.values.IntegerValue active = 3;</code>
+     * <code>.dstore.values.IntegerValue active = 3;</code>
      */
     boolean hasActive();
     /**
-     * <code>optional .dstore.values.IntegerValue active = 3;</code>
+     * <code>.dstore.values.IntegerValue active = 3;</code>
      */
     io.dstore.values.IntegerValue getActive();
     /**
-     * <code>optional .dstore.values.IntegerValue active = 3;</code>
+     * <code>.dstore.values.IntegerValue active = 3;</code>
      */
     io.dstore.values.IntegerValueOrBuilder getActiveOrBuilder();
 
     /**
-     * <code>optional bool active_null = 1003;</code>
+     * <code>bool active_null = 1003;</code>
      */
     boolean getActiveNull();
   }
@@ -194,19 +194,19 @@ public final class OmGetOrderStatesInCatsAd {
     public static final int ORDER_STATE_CATEGORY_ID_FIELD_NUMBER = 1;
     private io.dstore.values.IntegerValue orderStateCategoryId_;
     /**
-     * <code>optional .dstore.values.IntegerValue order_state_category_id = 1;</code>
+     * <code>.dstore.values.IntegerValue order_state_category_id = 1;</code>
      */
     public boolean hasOrderStateCategoryId() {
       return orderStateCategoryId_ != null;
     }
     /**
-     * <code>optional .dstore.values.IntegerValue order_state_category_id = 1;</code>
+     * <code>.dstore.values.IntegerValue order_state_category_id = 1;</code>
      */
     public io.dstore.values.IntegerValue getOrderStateCategoryId() {
       return orderStateCategoryId_ == null ? io.dstore.values.IntegerValue.getDefaultInstance() : orderStateCategoryId_;
     }
     /**
-     * <code>optional .dstore.values.IntegerValue order_state_category_id = 1;</code>
+     * <code>.dstore.values.IntegerValue order_state_category_id = 1;</code>
      */
     public io.dstore.values.IntegerValueOrBuilder getOrderStateCategoryIdOrBuilder() {
       return getOrderStateCategoryId();
@@ -215,7 +215,7 @@ public final class OmGetOrderStatesInCatsAd {
     public static final int ORDER_STATE_CATEGORY_ID_NULL_FIELD_NUMBER = 1001;
     private boolean orderStateCategoryIdNull_;
     /**
-     * <code>optional bool order_state_category_id_null = 1001;</code>
+     * <code>bool order_state_category_id_null = 1001;</code>
      */
     public boolean getOrderStateCategoryIdNull() {
       return orderStateCategoryIdNull_;
@@ -224,19 +224,19 @@ public final class OmGetOrderStatesInCatsAd {
     public static final int ORDER_BY_FIELD_NUMBER = 2;
     private io.dstore.values.IntegerValue orderBy_;
     /**
-     * <code>optional .dstore.values.IntegerValue order_by = 2;</code>
+     * <code>.dstore.values.IntegerValue order_by = 2;</code>
      */
     public boolean hasOrderBy() {
       return orderBy_ != null;
     }
     /**
-     * <code>optional .dstore.values.IntegerValue order_by = 2;</code>
+     * <code>.dstore.values.IntegerValue order_by = 2;</code>
      */
     public io.dstore.values.IntegerValue getOrderBy() {
       return orderBy_ == null ? io.dstore.values.IntegerValue.getDefaultInstance() : orderBy_;
     }
     /**
-     * <code>optional .dstore.values.IntegerValue order_by = 2;</code>
+     * <code>.dstore.values.IntegerValue order_by = 2;</code>
      */
     public io.dstore.values.IntegerValueOrBuilder getOrderByOrBuilder() {
       return getOrderBy();
@@ -245,7 +245,7 @@ public final class OmGetOrderStatesInCatsAd {
     public static final int ORDER_BY_NULL_FIELD_NUMBER = 1002;
     private boolean orderByNull_;
     /**
-     * <code>optional bool order_by_null = 1002;</code>
+     * <code>bool order_by_null = 1002;</code>
      */
     public boolean getOrderByNull() {
       return orderByNull_;
@@ -254,19 +254,19 @@ public final class OmGetOrderStatesInCatsAd {
     public static final int ACTIVE_FIELD_NUMBER = 3;
     private io.dstore.values.IntegerValue active_;
     /**
-     * <code>optional .dstore.values.IntegerValue active = 3;</code>
+     * <code>.dstore.values.IntegerValue active = 3;</code>
      */
     public boolean hasActive() {
       return active_ != null;
     }
     /**
-     * <code>optional .dstore.values.IntegerValue active = 3;</code>
+     * <code>.dstore.values.IntegerValue active = 3;</code>
      */
     public io.dstore.values.IntegerValue getActive() {
       return active_ == null ? io.dstore.values.IntegerValue.getDefaultInstance() : active_;
     }
     /**
-     * <code>optional .dstore.values.IntegerValue active = 3;</code>
+     * <code>.dstore.values.IntegerValue active = 3;</code>
      */
     public io.dstore.values.IntegerValueOrBuilder getActiveOrBuilder() {
       return getActive();
@@ -275,7 +275,7 @@ public final class OmGetOrderStatesInCatsAd {
     public static final int ACTIVE_NULL_FIELD_NUMBER = 1003;
     private boolean activeNull_;
     /**
-     * <code>optional bool active_null = 1003;</code>
+     * <code>bool active_null = 1003;</code>
      */
     public boolean getActiveNull() {
       return activeNull_;
@@ -388,7 +388,7 @@ public final class OmGetOrderStatesInCatsAd {
         return memoizedHashCode;
       }
       int hash = 41;
-      hash = (19 * hash) + getDescriptorForType().hashCode();
+      hash = (19 * hash) + getDescriptor().hashCode();
       if (hasOrderStateCategoryId()) {
         hash = (37 * hash) + ORDER_STATE_CATEGORY_ID_FIELD_NUMBER;
         hash = (53 * hash) + getOrderStateCategoryId().hashCode();
@@ -681,13 +681,13 @@ public final class OmGetOrderStatesInCatsAd {
       private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> orderStateCategoryIdBuilder_;
       /**
-       * <code>optional .dstore.values.IntegerValue order_state_category_id = 1;</code>
+       * <code>.dstore.values.IntegerValue order_state_category_id = 1;</code>
        */
       public boolean hasOrderStateCategoryId() {
         return orderStateCategoryIdBuilder_ != null || orderStateCategoryId_ != null;
       }
       /**
-       * <code>optional .dstore.values.IntegerValue order_state_category_id = 1;</code>
+       * <code>.dstore.values.IntegerValue order_state_category_id = 1;</code>
        */
       public io.dstore.values.IntegerValue getOrderStateCategoryId() {
         if (orderStateCategoryIdBuilder_ == null) {
@@ -697,7 +697,7 @@ public final class OmGetOrderStatesInCatsAd {
         }
       }
       /**
-       * <code>optional .dstore.values.IntegerValue order_state_category_id = 1;</code>
+       * <code>.dstore.values.IntegerValue order_state_category_id = 1;</code>
        */
       public Builder setOrderStateCategoryId(io.dstore.values.IntegerValue value) {
         if (orderStateCategoryIdBuilder_ == null) {
@@ -713,7 +713,7 @@ public final class OmGetOrderStatesInCatsAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.IntegerValue order_state_category_id = 1;</code>
+       * <code>.dstore.values.IntegerValue order_state_category_id = 1;</code>
        */
       public Builder setOrderStateCategoryId(
           io.dstore.values.IntegerValue.Builder builderForValue) {
@@ -727,7 +727,7 @@ public final class OmGetOrderStatesInCatsAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.IntegerValue order_state_category_id = 1;</code>
+       * <code>.dstore.values.IntegerValue order_state_category_id = 1;</code>
        */
       public Builder mergeOrderStateCategoryId(io.dstore.values.IntegerValue value) {
         if (orderStateCategoryIdBuilder_ == null) {
@@ -745,7 +745,7 @@ public final class OmGetOrderStatesInCatsAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.IntegerValue order_state_category_id = 1;</code>
+       * <code>.dstore.values.IntegerValue order_state_category_id = 1;</code>
        */
       public Builder clearOrderStateCategoryId() {
         if (orderStateCategoryIdBuilder_ == null) {
@@ -759,7 +759,7 @@ public final class OmGetOrderStatesInCatsAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.IntegerValue order_state_category_id = 1;</code>
+       * <code>.dstore.values.IntegerValue order_state_category_id = 1;</code>
        */
       public io.dstore.values.IntegerValue.Builder getOrderStateCategoryIdBuilder() {
         
@@ -767,7 +767,7 @@ public final class OmGetOrderStatesInCatsAd {
         return getOrderStateCategoryIdFieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .dstore.values.IntegerValue order_state_category_id = 1;</code>
+       * <code>.dstore.values.IntegerValue order_state_category_id = 1;</code>
        */
       public io.dstore.values.IntegerValueOrBuilder getOrderStateCategoryIdOrBuilder() {
         if (orderStateCategoryIdBuilder_ != null) {
@@ -778,7 +778,7 @@ public final class OmGetOrderStatesInCatsAd {
         }
       }
       /**
-       * <code>optional .dstore.values.IntegerValue order_state_category_id = 1;</code>
+       * <code>.dstore.values.IntegerValue order_state_category_id = 1;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> 
@@ -796,13 +796,13 @@ public final class OmGetOrderStatesInCatsAd {
 
       private boolean orderStateCategoryIdNull_ ;
       /**
-       * <code>optional bool order_state_category_id_null = 1001;</code>
+       * <code>bool order_state_category_id_null = 1001;</code>
        */
       public boolean getOrderStateCategoryIdNull() {
         return orderStateCategoryIdNull_;
       }
       /**
-       * <code>optional bool order_state_category_id_null = 1001;</code>
+       * <code>bool order_state_category_id_null = 1001;</code>
        */
       public Builder setOrderStateCategoryIdNull(boolean value) {
         
@@ -811,7 +811,7 @@ public final class OmGetOrderStatesInCatsAd {
         return this;
       }
       /**
-       * <code>optional bool order_state_category_id_null = 1001;</code>
+       * <code>bool order_state_category_id_null = 1001;</code>
        */
       public Builder clearOrderStateCategoryIdNull() {
         
@@ -824,13 +824,13 @@ public final class OmGetOrderStatesInCatsAd {
       private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> orderByBuilder_;
       /**
-       * <code>optional .dstore.values.IntegerValue order_by = 2;</code>
+       * <code>.dstore.values.IntegerValue order_by = 2;</code>
        */
       public boolean hasOrderBy() {
         return orderByBuilder_ != null || orderBy_ != null;
       }
       /**
-       * <code>optional .dstore.values.IntegerValue order_by = 2;</code>
+       * <code>.dstore.values.IntegerValue order_by = 2;</code>
        */
       public io.dstore.values.IntegerValue getOrderBy() {
         if (orderByBuilder_ == null) {
@@ -840,7 +840,7 @@ public final class OmGetOrderStatesInCatsAd {
         }
       }
       /**
-       * <code>optional .dstore.values.IntegerValue order_by = 2;</code>
+       * <code>.dstore.values.IntegerValue order_by = 2;</code>
        */
       public Builder setOrderBy(io.dstore.values.IntegerValue value) {
         if (orderByBuilder_ == null) {
@@ -856,7 +856,7 @@ public final class OmGetOrderStatesInCatsAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.IntegerValue order_by = 2;</code>
+       * <code>.dstore.values.IntegerValue order_by = 2;</code>
        */
       public Builder setOrderBy(
           io.dstore.values.IntegerValue.Builder builderForValue) {
@@ -870,7 +870,7 @@ public final class OmGetOrderStatesInCatsAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.IntegerValue order_by = 2;</code>
+       * <code>.dstore.values.IntegerValue order_by = 2;</code>
        */
       public Builder mergeOrderBy(io.dstore.values.IntegerValue value) {
         if (orderByBuilder_ == null) {
@@ -888,7 +888,7 @@ public final class OmGetOrderStatesInCatsAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.IntegerValue order_by = 2;</code>
+       * <code>.dstore.values.IntegerValue order_by = 2;</code>
        */
       public Builder clearOrderBy() {
         if (orderByBuilder_ == null) {
@@ -902,7 +902,7 @@ public final class OmGetOrderStatesInCatsAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.IntegerValue order_by = 2;</code>
+       * <code>.dstore.values.IntegerValue order_by = 2;</code>
        */
       public io.dstore.values.IntegerValue.Builder getOrderByBuilder() {
         
@@ -910,7 +910,7 @@ public final class OmGetOrderStatesInCatsAd {
         return getOrderByFieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .dstore.values.IntegerValue order_by = 2;</code>
+       * <code>.dstore.values.IntegerValue order_by = 2;</code>
        */
       public io.dstore.values.IntegerValueOrBuilder getOrderByOrBuilder() {
         if (orderByBuilder_ != null) {
@@ -921,7 +921,7 @@ public final class OmGetOrderStatesInCatsAd {
         }
       }
       /**
-       * <code>optional .dstore.values.IntegerValue order_by = 2;</code>
+       * <code>.dstore.values.IntegerValue order_by = 2;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> 
@@ -939,13 +939,13 @@ public final class OmGetOrderStatesInCatsAd {
 
       private boolean orderByNull_ ;
       /**
-       * <code>optional bool order_by_null = 1002;</code>
+       * <code>bool order_by_null = 1002;</code>
        */
       public boolean getOrderByNull() {
         return orderByNull_;
       }
       /**
-       * <code>optional bool order_by_null = 1002;</code>
+       * <code>bool order_by_null = 1002;</code>
        */
       public Builder setOrderByNull(boolean value) {
         
@@ -954,7 +954,7 @@ public final class OmGetOrderStatesInCatsAd {
         return this;
       }
       /**
-       * <code>optional bool order_by_null = 1002;</code>
+       * <code>bool order_by_null = 1002;</code>
        */
       public Builder clearOrderByNull() {
         
@@ -967,13 +967,13 @@ public final class OmGetOrderStatesInCatsAd {
       private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> activeBuilder_;
       /**
-       * <code>optional .dstore.values.IntegerValue active = 3;</code>
+       * <code>.dstore.values.IntegerValue active = 3;</code>
        */
       public boolean hasActive() {
         return activeBuilder_ != null || active_ != null;
       }
       /**
-       * <code>optional .dstore.values.IntegerValue active = 3;</code>
+       * <code>.dstore.values.IntegerValue active = 3;</code>
        */
       public io.dstore.values.IntegerValue getActive() {
         if (activeBuilder_ == null) {
@@ -983,7 +983,7 @@ public final class OmGetOrderStatesInCatsAd {
         }
       }
       /**
-       * <code>optional .dstore.values.IntegerValue active = 3;</code>
+       * <code>.dstore.values.IntegerValue active = 3;</code>
        */
       public Builder setActive(io.dstore.values.IntegerValue value) {
         if (activeBuilder_ == null) {
@@ -999,7 +999,7 @@ public final class OmGetOrderStatesInCatsAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.IntegerValue active = 3;</code>
+       * <code>.dstore.values.IntegerValue active = 3;</code>
        */
       public Builder setActive(
           io.dstore.values.IntegerValue.Builder builderForValue) {
@@ -1013,7 +1013,7 @@ public final class OmGetOrderStatesInCatsAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.IntegerValue active = 3;</code>
+       * <code>.dstore.values.IntegerValue active = 3;</code>
        */
       public Builder mergeActive(io.dstore.values.IntegerValue value) {
         if (activeBuilder_ == null) {
@@ -1031,7 +1031,7 @@ public final class OmGetOrderStatesInCatsAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.IntegerValue active = 3;</code>
+       * <code>.dstore.values.IntegerValue active = 3;</code>
        */
       public Builder clearActive() {
         if (activeBuilder_ == null) {
@@ -1045,7 +1045,7 @@ public final class OmGetOrderStatesInCatsAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.IntegerValue active = 3;</code>
+       * <code>.dstore.values.IntegerValue active = 3;</code>
        */
       public io.dstore.values.IntegerValue.Builder getActiveBuilder() {
         
@@ -1053,7 +1053,7 @@ public final class OmGetOrderStatesInCatsAd {
         return getActiveFieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .dstore.values.IntegerValue active = 3;</code>
+       * <code>.dstore.values.IntegerValue active = 3;</code>
        */
       public io.dstore.values.IntegerValueOrBuilder getActiveOrBuilder() {
         if (activeBuilder_ != null) {
@@ -1064,7 +1064,7 @@ public final class OmGetOrderStatesInCatsAd {
         }
       }
       /**
-       * <code>optional .dstore.values.IntegerValue active = 3;</code>
+       * <code>.dstore.values.IntegerValue active = 3;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> 
@@ -1082,13 +1082,13 @@ public final class OmGetOrderStatesInCatsAd {
 
       private boolean activeNull_ ;
       /**
-       * <code>optional bool active_null = 1003;</code>
+       * <code>bool active_null = 1003;</code>
        */
       public boolean getActiveNull() {
         return activeNull_;
       }
       /**
-       * <code>optional bool active_null = 1003;</code>
+       * <code>bool active_null = 1003;</code>
        */
       public Builder setActiveNull(boolean value) {
         
@@ -1097,7 +1097,7 @@ public final class OmGetOrderStatesInCatsAd {
         return this;
       }
       /**
-       * <code>optional bool active_null = 1003;</code>
+       * <code>bool active_null = 1003;</code>
        */
       public Builder clearActiveNull() {
         
@@ -1356,7 +1356,7 @@ public final class OmGetOrderStatesInCatsAd {
         com.google.protobuf.MessageOrBuilder {
 
       /**
-       * <code>optional int32 row_id = 10000;</code>
+       * <code>int32 row_id = 10000;</code>
        */
       int getRowId();
 
@@ -1365,7 +1365,7 @@ public final class OmGetOrderStatesInCatsAd {
        * Beschreibung, welche Auftrags-Status unter dieser Kategorie zusammengefaßt werden können (also quasi welchen Sinn die Kategorie hat).
        * </pre>
        *
-       * <code>optional .dstore.values.StringValue order_state_category_description = 10001;</code>
+       * <code>.dstore.values.StringValue order_state_category_description = 10001;</code>
        */
       boolean hasOrderStateCategoryDescription();
       /**
@@ -1373,7 +1373,7 @@ public final class OmGetOrderStatesInCatsAd {
        * Beschreibung, welche Auftrags-Status unter dieser Kategorie zusammengefaßt werden können (also quasi welchen Sinn die Kategorie hat).
        * </pre>
        *
-       * <code>optional .dstore.values.StringValue order_state_category_description = 10001;</code>
+       * <code>.dstore.values.StringValue order_state_category_description = 10001;</code>
        */
       io.dstore.values.StringValue getOrderStateCategoryDescription();
       /**
@@ -1381,7 +1381,7 @@ public final class OmGetOrderStatesInCatsAd {
        * Beschreibung, welche Auftrags-Status unter dieser Kategorie zusammengefaßt werden können (also quasi welchen Sinn die Kategorie hat).
        * </pre>
        *
-       * <code>optional .dstore.values.StringValue order_state_category_description = 10001;</code>
+       * <code>.dstore.values.StringValue order_state_category_description = 10001;</code>
        */
       io.dstore.values.StringValueOrBuilder getOrderStateCategoryDescriptionOrBuilder();
 
@@ -1390,7 +1390,7 @@ public final class OmGetOrderStatesInCatsAd {
        * Der Status "OrderStateID" ist..."0" : inaktiv"1" : aktiv
        * </pre>
        *
-       * <code>optional .dstore.values.IntegerValue active = 10002;</code>
+       * <code>.dstore.values.IntegerValue active = 10002;</code>
        */
       boolean hasActive();
       /**
@@ -1398,7 +1398,7 @@ public final class OmGetOrderStatesInCatsAd {
        * Der Status "OrderStateID" ist..."0" : inaktiv"1" : aktiv
        * </pre>
        *
-       * <code>optional .dstore.values.IntegerValue active = 10002;</code>
+       * <code>.dstore.values.IntegerValue active = 10002;</code>
        */
       io.dstore.values.IntegerValue getActive();
       /**
@@ -1406,7 +1406,7 @@ public final class OmGetOrderStatesInCatsAd {
        * Der Status "OrderStateID" ist..."0" : inaktiv"1" : aktiv
        * </pre>
        *
-       * <code>optional .dstore.values.IntegerValue active = 10002;</code>
+       * <code>.dstore.values.IntegerValue active = 10002;</code>
        */
       io.dstore.values.IntegerValueOrBuilder getActiveOrBuilder();
 
@@ -1415,7 +1415,7 @@ public final class OmGetOrderStatesInCatsAd {
        * ID eines Auftrags-(Positions-)Status, der der Kategorie "OrderStateCategoryID" zugeordnet ist
        * </pre>
        *
-       * <code>optional .dstore.values.IntegerValue order_state_id = 10003;</code>
+       * <code>.dstore.values.IntegerValue order_state_id = 10003;</code>
        */
       boolean hasOrderStateId();
       /**
@@ -1423,7 +1423,7 @@ public final class OmGetOrderStatesInCatsAd {
        * ID eines Auftrags-(Positions-)Status, der der Kategorie "OrderStateCategoryID" zugeordnet ist
        * </pre>
        *
-       * <code>optional .dstore.values.IntegerValue order_state_id = 10003;</code>
+       * <code>.dstore.values.IntegerValue order_state_id = 10003;</code>
        */
       io.dstore.values.IntegerValue getOrderStateId();
       /**
@@ -1431,7 +1431,7 @@ public final class OmGetOrderStatesInCatsAd {
        * ID eines Auftrags-(Positions-)Status, der der Kategorie "OrderStateCategoryID" zugeordnet ist
        * </pre>
        *
-       * <code>optional .dstore.values.IntegerValue order_state_id = 10003;</code>
+       * <code>.dstore.values.IntegerValue order_state_id = 10003;</code>
        */
       io.dstore.values.IntegerValueOrBuilder getOrderStateIdOrBuilder();
 
@@ -1440,7 +1440,7 @@ public final class OmGetOrderStatesInCatsAd {
        * Beschreibung des Status "OrderStateID" für den Kunden
        * </pre>
        *
-       * <code>optional .dstore.values.StringValue public_description = 10004;</code>
+       * <code>.dstore.values.StringValue public_description = 10004;</code>
        */
       boolean hasPublicDescription();
       /**
@@ -1448,7 +1448,7 @@ public final class OmGetOrderStatesInCatsAd {
        * Beschreibung des Status "OrderStateID" für den Kunden
        * </pre>
        *
-       * <code>optional .dstore.values.StringValue public_description = 10004;</code>
+       * <code>.dstore.values.StringValue public_description = 10004;</code>
        */
       io.dstore.values.StringValue getPublicDescription();
       /**
@@ -1456,7 +1456,7 @@ public final class OmGetOrderStatesInCatsAd {
        * Beschreibung des Status "OrderStateID" für den Kunden
        * </pre>
        *
-       * <code>optional .dstore.values.StringValue public_description = 10004;</code>
+       * <code>.dstore.values.StringValue public_description = 10004;</code>
        */
       io.dstore.values.StringValueOrBuilder getPublicDescriptionOrBuilder();
 
@@ -1465,7 +1465,7 @@ public final class OmGetOrderStatesInCatsAd {
        * ID einer Kategorie von Auftrags-(Positions-)Status
        * </pre>
        *
-       * <code>optional .dstore.values.IntegerValue order_state_category_id = 10005;</code>
+       * <code>.dstore.values.IntegerValue order_state_category_id = 10005;</code>
        */
       boolean hasOrderStateCategoryId();
       /**
@@ -1473,7 +1473,7 @@ public final class OmGetOrderStatesInCatsAd {
        * ID einer Kategorie von Auftrags-(Positions-)Status
        * </pre>
        *
-       * <code>optional .dstore.values.IntegerValue order_state_category_id = 10005;</code>
+       * <code>.dstore.values.IntegerValue order_state_category_id = 10005;</code>
        */
       io.dstore.values.IntegerValue getOrderStateCategoryId();
       /**
@@ -1481,7 +1481,7 @@ public final class OmGetOrderStatesInCatsAd {
        * ID einer Kategorie von Auftrags-(Positions-)Status
        * </pre>
        *
-       * <code>optional .dstore.values.IntegerValue order_state_category_id = 10005;</code>
+       * <code>.dstore.values.IntegerValue order_state_category_id = 10005;</code>
        */
       io.dstore.values.IntegerValueOrBuilder getOrderStateCategoryIdOrBuilder();
 
@@ -1490,7 +1490,7 @@ public final class OmGetOrderStatesInCatsAd {
        * Bezeichnung des Status "OrderStateID"
        * </pre>
        *
-       * <code>optional .dstore.values.StringValue order_state = 10006;</code>
+       * <code>.dstore.values.StringValue order_state = 10006;</code>
        */
       boolean hasOrderState();
       /**
@@ -1498,7 +1498,7 @@ public final class OmGetOrderStatesInCatsAd {
        * Bezeichnung des Status "OrderStateID"
        * </pre>
        *
-       * <code>optional .dstore.values.StringValue order_state = 10006;</code>
+       * <code>.dstore.values.StringValue order_state = 10006;</code>
        */
       io.dstore.values.StringValue getOrderState();
       /**
@@ -1506,7 +1506,7 @@ public final class OmGetOrderStatesInCatsAd {
        * Bezeichnung des Status "OrderStateID"
        * </pre>
        *
-       * <code>optional .dstore.values.StringValue order_state = 10006;</code>
+       * <code>.dstore.values.StringValue order_state = 10006;</code>
        */
       io.dstore.values.StringValueOrBuilder getOrderStateOrBuilder();
 
@@ -1515,7 +1515,7 @@ public final class OmGetOrderStatesInCatsAd {
        * Bezeichnung der Kategorie "OrderStateCategoryID"
        * </pre>
        *
-       * <code>optional .dstore.values.StringValue order_state_category = 10007;</code>
+       * <code>.dstore.values.StringValue order_state_category = 10007;</code>
        */
       boolean hasOrderStateCategory();
       /**
@@ -1523,7 +1523,7 @@ public final class OmGetOrderStatesInCatsAd {
        * Bezeichnung der Kategorie "OrderStateCategoryID"
        * </pre>
        *
-       * <code>optional .dstore.values.StringValue order_state_category = 10007;</code>
+       * <code>.dstore.values.StringValue order_state_category = 10007;</code>
        */
       io.dstore.values.StringValue getOrderStateCategory();
       /**
@@ -1531,7 +1531,7 @@ public final class OmGetOrderStatesInCatsAd {
        * Bezeichnung der Kategorie "OrderStateCategoryID"
        * </pre>
        *
-       * <code>optional .dstore.values.StringValue order_state_category = 10007;</code>
+       * <code>.dstore.values.StringValue order_state_category = 10007;</code>
        */
       io.dstore.values.StringValueOrBuilder getOrderStateCategoryOrBuilder();
     }
@@ -1697,7 +1697,7 @@ public final class OmGetOrderStatesInCatsAd {
       public static final int ROW_ID_FIELD_NUMBER = 10000;
       private int rowId_;
       /**
-       * <code>optional int32 row_id = 10000;</code>
+       * <code>int32 row_id = 10000;</code>
        */
       public int getRowId() {
         return rowId_;
@@ -1710,7 +1710,7 @@ public final class OmGetOrderStatesInCatsAd {
        * Beschreibung, welche Auftrags-Status unter dieser Kategorie zusammengefaßt werden können (also quasi welchen Sinn die Kategorie hat).
        * </pre>
        *
-       * <code>optional .dstore.values.StringValue order_state_category_description = 10001;</code>
+       * <code>.dstore.values.StringValue order_state_category_description = 10001;</code>
        */
       public boolean hasOrderStateCategoryDescription() {
         return orderStateCategoryDescription_ != null;
@@ -1720,7 +1720,7 @@ public final class OmGetOrderStatesInCatsAd {
        * Beschreibung, welche Auftrags-Status unter dieser Kategorie zusammengefaßt werden können (also quasi welchen Sinn die Kategorie hat).
        * </pre>
        *
-       * <code>optional .dstore.values.StringValue order_state_category_description = 10001;</code>
+       * <code>.dstore.values.StringValue order_state_category_description = 10001;</code>
        */
       public io.dstore.values.StringValue getOrderStateCategoryDescription() {
         return orderStateCategoryDescription_ == null ? io.dstore.values.StringValue.getDefaultInstance() : orderStateCategoryDescription_;
@@ -1730,7 +1730,7 @@ public final class OmGetOrderStatesInCatsAd {
        * Beschreibung, welche Auftrags-Status unter dieser Kategorie zusammengefaßt werden können (also quasi welchen Sinn die Kategorie hat).
        * </pre>
        *
-       * <code>optional .dstore.values.StringValue order_state_category_description = 10001;</code>
+       * <code>.dstore.values.StringValue order_state_category_description = 10001;</code>
        */
       public io.dstore.values.StringValueOrBuilder getOrderStateCategoryDescriptionOrBuilder() {
         return getOrderStateCategoryDescription();
@@ -1743,7 +1743,7 @@ public final class OmGetOrderStatesInCatsAd {
        * Der Status "OrderStateID" ist..."0" : inaktiv"1" : aktiv
        * </pre>
        *
-       * <code>optional .dstore.values.IntegerValue active = 10002;</code>
+       * <code>.dstore.values.IntegerValue active = 10002;</code>
        */
       public boolean hasActive() {
         return active_ != null;
@@ -1753,7 +1753,7 @@ public final class OmGetOrderStatesInCatsAd {
        * Der Status "OrderStateID" ist..."0" : inaktiv"1" : aktiv
        * </pre>
        *
-       * <code>optional .dstore.values.IntegerValue active = 10002;</code>
+       * <code>.dstore.values.IntegerValue active = 10002;</code>
        */
       public io.dstore.values.IntegerValue getActive() {
         return active_ == null ? io.dstore.values.IntegerValue.getDefaultInstance() : active_;
@@ -1763,7 +1763,7 @@ public final class OmGetOrderStatesInCatsAd {
        * Der Status "OrderStateID" ist..."0" : inaktiv"1" : aktiv
        * </pre>
        *
-       * <code>optional .dstore.values.IntegerValue active = 10002;</code>
+       * <code>.dstore.values.IntegerValue active = 10002;</code>
        */
       public io.dstore.values.IntegerValueOrBuilder getActiveOrBuilder() {
         return getActive();
@@ -1776,7 +1776,7 @@ public final class OmGetOrderStatesInCatsAd {
        * ID eines Auftrags-(Positions-)Status, der der Kategorie "OrderStateCategoryID" zugeordnet ist
        * </pre>
        *
-       * <code>optional .dstore.values.IntegerValue order_state_id = 10003;</code>
+       * <code>.dstore.values.IntegerValue order_state_id = 10003;</code>
        */
       public boolean hasOrderStateId() {
         return orderStateId_ != null;
@@ -1786,7 +1786,7 @@ public final class OmGetOrderStatesInCatsAd {
        * ID eines Auftrags-(Positions-)Status, der der Kategorie "OrderStateCategoryID" zugeordnet ist
        * </pre>
        *
-       * <code>optional .dstore.values.IntegerValue order_state_id = 10003;</code>
+       * <code>.dstore.values.IntegerValue order_state_id = 10003;</code>
        */
       public io.dstore.values.IntegerValue getOrderStateId() {
         return orderStateId_ == null ? io.dstore.values.IntegerValue.getDefaultInstance() : orderStateId_;
@@ -1796,7 +1796,7 @@ public final class OmGetOrderStatesInCatsAd {
        * ID eines Auftrags-(Positions-)Status, der der Kategorie "OrderStateCategoryID" zugeordnet ist
        * </pre>
        *
-       * <code>optional .dstore.values.IntegerValue order_state_id = 10003;</code>
+       * <code>.dstore.values.IntegerValue order_state_id = 10003;</code>
        */
       public io.dstore.values.IntegerValueOrBuilder getOrderStateIdOrBuilder() {
         return getOrderStateId();
@@ -1809,7 +1809,7 @@ public final class OmGetOrderStatesInCatsAd {
        * Beschreibung des Status "OrderStateID" für den Kunden
        * </pre>
        *
-       * <code>optional .dstore.values.StringValue public_description = 10004;</code>
+       * <code>.dstore.values.StringValue public_description = 10004;</code>
        */
       public boolean hasPublicDescription() {
         return publicDescription_ != null;
@@ -1819,7 +1819,7 @@ public final class OmGetOrderStatesInCatsAd {
        * Beschreibung des Status "OrderStateID" für den Kunden
        * </pre>
        *
-       * <code>optional .dstore.values.StringValue public_description = 10004;</code>
+       * <code>.dstore.values.StringValue public_description = 10004;</code>
        */
       public io.dstore.values.StringValue getPublicDescription() {
         return publicDescription_ == null ? io.dstore.values.StringValue.getDefaultInstance() : publicDescription_;
@@ -1829,7 +1829,7 @@ public final class OmGetOrderStatesInCatsAd {
        * Beschreibung des Status "OrderStateID" für den Kunden
        * </pre>
        *
-       * <code>optional .dstore.values.StringValue public_description = 10004;</code>
+       * <code>.dstore.values.StringValue public_description = 10004;</code>
        */
       public io.dstore.values.StringValueOrBuilder getPublicDescriptionOrBuilder() {
         return getPublicDescription();
@@ -1842,7 +1842,7 @@ public final class OmGetOrderStatesInCatsAd {
        * ID einer Kategorie von Auftrags-(Positions-)Status
        * </pre>
        *
-       * <code>optional .dstore.values.IntegerValue order_state_category_id = 10005;</code>
+       * <code>.dstore.values.IntegerValue order_state_category_id = 10005;</code>
        */
       public boolean hasOrderStateCategoryId() {
         return orderStateCategoryId_ != null;
@@ -1852,7 +1852,7 @@ public final class OmGetOrderStatesInCatsAd {
        * ID einer Kategorie von Auftrags-(Positions-)Status
        * </pre>
        *
-       * <code>optional .dstore.values.IntegerValue order_state_category_id = 10005;</code>
+       * <code>.dstore.values.IntegerValue order_state_category_id = 10005;</code>
        */
       public io.dstore.values.IntegerValue getOrderStateCategoryId() {
         return orderStateCategoryId_ == null ? io.dstore.values.IntegerValue.getDefaultInstance() : orderStateCategoryId_;
@@ -1862,7 +1862,7 @@ public final class OmGetOrderStatesInCatsAd {
        * ID einer Kategorie von Auftrags-(Positions-)Status
        * </pre>
        *
-       * <code>optional .dstore.values.IntegerValue order_state_category_id = 10005;</code>
+       * <code>.dstore.values.IntegerValue order_state_category_id = 10005;</code>
        */
       public io.dstore.values.IntegerValueOrBuilder getOrderStateCategoryIdOrBuilder() {
         return getOrderStateCategoryId();
@@ -1875,7 +1875,7 @@ public final class OmGetOrderStatesInCatsAd {
        * Bezeichnung des Status "OrderStateID"
        * </pre>
        *
-       * <code>optional .dstore.values.StringValue order_state = 10006;</code>
+       * <code>.dstore.values.StringValue order_state = 10006;</code>
        */
       public boolean hasOrderState() {
         return orderState_ != null;
@@ -1885,7 +1885,7 @@ public final class OmGetOrderStatesInCatsAd {
        * Bezeichnung des Status "OrderStateID"
        * </pre>
        *
-       * <code>optional .dstore.values.StringValue order_state = 10006;</code>
+       * <code>.dstore.values.StringValue order_state = 10006;</code>
        */
       public io.dstore.values.StringValue getOrderState() {
         return orderState_ == null ? io.dstore.values.StringValue.getDefaultInstance() : orderState_;
@@ -1895,7 +1895,7 @@ public final class OmGetOrderStatesInCatsAd {
        * Bezeichnung des Status "OrderStateID"
        * </pre>
        *
-       * <code>optional .dstore.values.StringValue order_state = 10006;</code>
+       * <code>.dstore.values.StringValue order_state = 10006;</code>
        */
       public io.dstore.values.StringValueOrBuilder getOrderStateOrBuilder() {
         return getOrderState();
@@ -1908,7 +1908,7 @@ public final class OmGetOrderStatesInCatsAd {
        * Bezeichnung der Kategorie "OrderStateCategoryID"
        * </pre>
        *
-       * <code>optional .dstore.values.StringValue order_state_category = 10007;</code>
+       * <code>.dstore.values.StringValue order_state_category = 10007;</code>
        */
       public boolean hasOrderStateCategory() {
         return orderStateCategory_ != null;
@@ -1918,7 +1918,7 @@ public final class OmGetOrderStatesInCatsAd {
        * Bezeichnung der Kategorie "OrderStateCategoryID"
        * </pre>
        *
-       * <code>optional .dstore.values.StringValue order_state_category = 10007;</code>
+       * <code>.dstore.values.StringValue order_state_category = 10007;</code>
        */
       public io.dstore.values.StringValue getOrderStateCategory() {
         return orderStateCategory_ == null ? io.dstore.values.StringValue.getDefaultInstance() : orderStateCategory_;
@@ -1928,7 +1928,7 @@ public final class OmGetOrderStatesInCatsAd {
        * Bezeichnung der Kategorie "OrderStateCategoryID"
        * </pre>
        *
-       * <code>optional .dstore.values.StringValue order_state_category = 10007;</code>
+       * <code>.dstore.values.StringValue order_state_category = 10007;</code>
        */
       public io.dstore.values.StringValueOrBuilder getOrderStateCategoryOrBuilder() {
         return getOrderStateCategory();
@@ -2071,7 +2071,7 @@ public final class OmGetOrderStatesInCatsAd {
           return memoizedHashCode;
         }
         int hash = 41;
-        hash = (19 * hash) + getDescriptorForType().hashCode();
+        hash = (19 * hash) + getDescriptor().hashCode();
         hash = (37 * hash) + ROW_ID_FIELD_NUMBER;
         hash = (53 * hash) + getRowId();
         if (hasOrderStateCategoryDescription()) {
@@ -2415,13 +2415,13 @@ public final class OmGetOrderStatesInCatsAd {
 
         private int rowId_ ;
         /**
-         * <code>optional int32 row_id = 10000;</code>
+         * <code>int32 row_id = 10000;</code>
          */
         public int getRowId() {
           return rowId_;
         }
         /**
-         * <code>optional int32 row_id = 10000;</code>
+         * <code>int32 row_id = 10000;</code>
          */
         public Builder setRowId(int value) {
           
@@ -2430,7 +2430,7 @@ public final class OmGetOrderStatesInCatsAd {
           return this;
         }
         /**
-         * <code>optional int32 row_id = 10000;</code>
+         * <code>int32 row_id = 10000;</code>
          */
         public Builder clearRowId() {
           
@@ -2447,7 +2447,7 @@ public final class OmGetOrderStatesInCatsAd {
          * Beschreibung, welche Auftrags-Status unter dieser Kategorie zusammengefaßt werden können (also quasi welchen Sinn die Kategorie hat).
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue order_state_category_description = 10001;</code>
+         * <code>.dstore.values.StringValue order_state_category_description = 10001;</code>
          */
         public boolean hasOrderStateCategoryDescription() {
           return orderStateCategoryDescriptionBuilder_ != null || orderStateCategoryDescription_ != null;
@@ -2457,7 +2457,7 @@ public final class OmGetOrderStatesInCatsAd {
          * Beschreibung, welche Auftrags-Status unter dieser Kategorie zusammengefaßt werden können (also quasi welchen Sinn die Kategorie hat).
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue order_state_category_description = 10001;</code>
+         * <code>.dstore.values.StringValue order_state_category_description = 10001;</code>
          */
         public io.dstore.values.StringValue getOrderStateCategoryDescription() {
           if (orderStateCategoryDescriptionBuilder_ == null) {
@@ -2471,7 +2471,7 @@ public final class OmGetOrderStatesInCatsAd {
          * Beschreibung, welche Auftrags-Status unter dieser Kategorie zusammengefaßt werden können (also quasi welchen Sinn die Kategorie hat).
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue order_state_category_description = 10001;</code>
+         * <code>.dstore.values.StringValue order_state_category_description = 10001;</code>
          */
         public Builder setOrderStateCategoryDescription(io.dstore.values.StringValue value) {
           if (orderStateCategoryDescriptionBuilder_ == null) {
@@ -2491,7 +2491,7 @@ public final class OmGetOrderStatesInCatsAd {
          * Beschreibung, welche Auftrags-Status unter dieser Kategorie zusammengefaßt werden können (also quasi welchen Sinn die Kategorie hat).
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue order_state_category_description = 10001;</code>
+         * <code>.dstore.values.StringValue order_state_category_description = 10001;</code>
          */
         public Builder setOrderStateCategoryDescription(
             io.dstore.values.StringValue.Builder builderForValue) {
@@ -2509,7 +2509,7 @@ public final class OmGetOrderStatesInCatsAd {
          * Beschreibung, welche Auftrags-Status unter dieser Kategorie zusammengefaßt werden können (also quasi welchen Sinn die Kategorie hat).
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue order_state_category_description = 10001;</code>
+         * <code>.dstore.values.StringValue order_state_category_description = 10001;</code>
          */
         public Builder mergeOrderStateCategoryDescription(io.dstore.values.StringValue value) {
           if (orderStateCategoryDescriptionBuilder_ == null) {
@@ -2531,7 +2531,7 @@ public final class OmGetOrderStatesInCatsAd {
          * Beschreibung, welche Auftrags-Status unter dieser Kategorie zusammengefaßt werden können (also quasi welchen Sinn die Kategorie hat).
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue order_state_category_description = 10001;</code>
+         * <code>.dstore.values.StringValue order_state_category_description = 10001;</code>
          */
         public Builder clearOrderStateCategoryDescription() {
           if (orderStateCategoryDescriptionBuilder_ == null) {
@@ -2549,7 +2549,7 @@ public final class OmGetOrderStatesInCatsAd {
          * Beschreibung, welche Auftrags-Status unter dieser Kategorie zusammengefaßt werden können (also quasi welchen Sinn die Kategorie hat).
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue order_state_category_description = 10001;</code>
+         * <code>.dstore.values.StringValue order_state_category_description = 10001;</code>
          */
         public io.dstore.values.StringValue.Builder getOrderStateCategoryDescriptionBuilder() {
           
@@ -2561,7 +2561,7 @@ public final class OmGetOrderStatesInCatsAd {
          * Beschreibung, welche Auftrags-Status unter dieser Kategorie zusammengefaßt werden können (also quasi welchen Sinn die Kategorie hat).
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue order_state_category_description = 10001;</code>
+         * <code>.dstore.values.StringValue order_state_category_description = 10001;</code>
          */
         public io.dstore.values.StringValueOrBuilder getOrderStateCategoryDescriptionOrBuilder() {
           if (orderStateCategoryDescriptionBuilder_ != null) {
@@ -2576,7 +2576,7 @@ public final class OmGetOrderStatesInCatsAd {
          * Beschreibung, welche Auftrags-Status unter dieser Kategorie zusammengefaßt werden können (also quasi welchen Sinn die Kategorie hat).
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue order_state_category_description = 10001;</code>
+         * <code>.dstore.values.StringValue order_state_category_description = 10001;</code>
          */
         private com.google.protobuf.SingleFieldBuilderV3<
             io.dstore.values.StringValue, io.dstore.values.StringValue.Builder, io.dstore.values.StringValueOrBuilder> 
@@ -2600,7 +2600,7 @@ public final class OmGetOrderStatesInCatsAd {
          * Der Status "OrderStateID" ist..."0" : inaktiv"1" : aktiv
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue active = 10002;</code>
+         * <code>.dstore.values.IntegerValue active = 10002;</code>
          */
         public boolean hasActive() {
           return activeBuilder_ != null || active_ != null;
@@ -2610,7 +2610,7 @@ public final class OmGetOrderStatesInCatsAd {
          * Der Status "OrderStateID" ist..."0" : inaktiv"1" : aktiv
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue active = 10002;</code>
+         * <code>.dstore.values.IntegerValue active = 10002;</code>
          */
         public io.dstore.values.IntegerValue getActive() {
           if (activeBuilder_ == null) {
@@ -2624,7 +2624,7 @@ public final class OmGetOrderStatesInCatsAd {
          * Der Status "OrderStateID" ist..."0" : inaktiv"1" : aktiv
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue active = 10002;</code>
+         * <code>.dstore.values.IntegerValue active = 10002;</code>
          */
         public Builder setActive(io.dstore.values.IntegerValue value) {
           if (activeBuilder_ == null) {
@@ -2644,7 +2644,7 @@ public final class OmGetOrderStatesInCatsAd {
          * Der Status "OrderStateID" ist..."0" : inaktiv"1" : aktiv
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue active = 10002;</code>
+         * <code>.dstore.values.IntegerValue active = 10002;</code>
          */
         public Builder setActive(
             io.dstore.values.IntegerValue.Builder builderForValue) {
@@ -2662,7 +2662,7 @@ public final class OmGetOrderStatesInCatsAd {
          * Der Status "OrderStateID" ist..."0" : inaktiv"1" : aktiv
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue active = 10002;</code>
+         * <code>.dstore.values.IntegerValue active = 10002;</code>
          */
         public Builder mergeActive(io.dstore.values.IntegerValue value) {
           if (activeBuilder_ == null) {
@@ -2684,7 +2684,7 @@ public final class OmGetOrderStatesInCatsAd {
          * Der Status "OrderStateID" ist..."0" : inaktiv"1" : aktiv
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue active = 10002;</code>
+         * <code>.dstore.values.IntegerValue active = 10002;</code>
          */
         public Builder clearActive() {
           if (activeBuilder_ == null) {
@@ -2702,7 +2702,7 @@ public final class OmGetOrderStatesInCatsAd {
          * Der Status "OrderStateID" ist..."0" : inaktiv"1" : aktiv
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue active = 10002;</code>
+         * <code>.dstore.values.IntegerValue active = 10002;</code>
          */
         public io.dstore.values.IntegerValue.Builder getActiveBuilder() {
           
@@ -2714,7 +2714,7 @@ public final class OmGetOrderStatesInCatsAd {
          * Der Status "OrderStateID" ist..."0" : inaktiv"1" : aktiv
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue active = 10002;</code>
+         * <code>.dstore.values.IntegerValue active = 10002;</code>
          */
         public io.dstore.values.IntegerValueOrBuilder getActiveOrBuilder() {
           if (activeBuilder_ != null) {
@@ -2729,7 +2729,7 @@ public final class OmGetOrderStatesInCatsAd {
          * Der Status "OrderStateID" ist..."0" : inaktiv"1" : aktiv
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue active = 10002;</code>
+         * <code>.dstore.values.IntegerValue active = 10002;</code>
          */
         private com.google.protobuf.SingleFieldBuilderV3<
             io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> 
@@ -2753,7 +2753,7 @@ public final class OmGetOrderStatesInCatsAd {
          * ID eines Auftrags-(Positions-)Status, der der Kategorie "OrderStateCategoryID" zugeordnet ist
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue order_state_id = 10003;</code>
+         * <code>.dstore.values.IntegerValue order_state_id = 10003;</code>
          */
         public boolean hasOrderStateId() {
           return orderStateIdBuilder_ != null || orderStateId_ != null;
@@ -2763,7 +2763,7 @@ public final class OmGetOrderStatesInCatsAd {
          * ID eines Auftrags-(Positions-)Status, der der Kategorie "OrderStateCategoryID" zugeordnet ist
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue order_state_id = 10003;</code>
+         * <code>.dstore.values.IntegerValue order_state_id = 10003;</code>
          */
         public io.dstore.values.IntegerValue getOrderStateId() {
           if (orderStateIdBuilder_ == null) {
@@ -2777,7 +2777,7 @@ public final class OmGetOrderStatesInCatsAd {
          * ID eines Auftrags-(Positions-)Status, der der Kategorie "OrderStateCategoryID" zugeordnet ist
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue order_state_id = 10003;</code>
+         * <code>.dstore.values.IntegerValue order_state_id = 10003;</code>
          */
         public Builder setOrderStateId(io.dstore.values.IntegerValue value) {
           if (orderStateIdBuilder_ == null) {
@@ -2797,7 +2797,7 @@ public final class OmGetOrderStatesInCatsAd {
          * ID eines Auftrags-(Positions-)Status, der der Kategorie "OrderStateCategoryID" zugeordnet ist
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue order_state_id = 10003;</code>
+         * <code>.dstore.values.IntegerValue order_state_id = 10003;</code>
          */
         public Builder setOrderStateId(
             io.dstore.values.IntegerValue.Builder builderForValue) {
@@ -2815,7 +2815,7 @@ public final class OmGetOrderStatesInCatsAd {
          * ID eines Auftrags-(Positions-)Status, der der Kategorie "OrderStateCategoryID" zugeordnet ist
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue order_state_id = 10003;</code>
+         * <code>.dstore.values.IntegerValue order_state_id = 10003;</code>
          */
         public Builder mergeOrderStateId(io.dstore.values.IntegerValue value) {
           if (orderStateIdBuilder_ == null) {
@@ -2837,7 +2837,7 @@ public final class OmGetOrderStatesInCatsAd {
          * ID eines Auftrags-(Positions-)Status, der der Kategorie "OrderStateCategoryID" zugeordnet ist
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue order_state_id = 10003;</code>
+         * <code>.dstore.values.IntegerValue order_state_id = 10003;</code>
          */
         public Builder clearOrderStateId() {
           if (orderStateIdBuilder_ == null) {
@@ -2855,7 +2855,7 @@ public final class OmGetOrderStatesInCatsAd {
          * ID eines Auftrags-(Positions-)Status, der der Kategorie "OrderStateCategoryID" zugeordnet ist
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue order_state_id = 10003;</code>
+         * <code>.dstore.values.IntegerValue order_state_id = 10003;</code>
          */
         public io.dstore.values.IntegerValue.Builder getOrderStateIdBuilder() {
           
@@ -2867,7 +2867,7 @@ public final class OmGetOrderStatesInCatsAd {
          * ID eines Auftrags-(Positions-)Status, der der Kategorie "OrderStateCategoryID" zugeordnet ist
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue order_state_id = 10003;</code>
+         * <code>.dstore.values.IntegerValue order_state_id = 10003;</code>
          */
         public io.dstore.values.IntegerValueOrBuilder getOrderStateIdOrBuilder() {
           if (orderStateIdBuilder_ != null) {
@@ -2882,7 +2882,7 @@ public final class OmGetOrderStatesInCatsAd {
          * ID eines Auftrags-(Positions-)Status, der der Kategorie "OrderStateCategoryID" zugeordnet ist
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue order_state_id = 10003;</code>
+         * <code>.dstore.values.IntegerValue order_state_id = 10003;</code>
          */
         private com.google.protobuf.SingleFieldBuilderV3<
             io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> 
@@ -2906,7 +2906,7 @@ public final class OmGetOrderStatesInCatsAd {
          * Beschreibung des Status "OrderStateID" für den Kunden
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue public_description = 10004;</code>
+         * <code>.dstore.values.StringValue public_description = 10004;</code>
          */
         public boolean hasPublicDescription() {
           return publicDescriptionBuilder_ != null || publicDescription_ != null;
@@ -2916,7 +2916,7 @@ public final class OmGetOrderStatesInCatsAd {
          * Beschreibung des Status "OrderStateID" für den Kunden
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue public_description = 10004;</code>
+         * <code>.dstore.values.StringValue public_description = 10004;</code>
          */
         public io.dstore.values.StringValue getPublicDescription() {
           if (publicDescriptionBuilder_ == null) {
@@ -2930,7 +2930,7 @@ public final class OmGetOrderStatesInCatsAd {
          * Beschreibung des Status "OrderStateID" für den Kunden
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue public_description = 10004;</code>
+         * <code>.dstore.values.StringValue public_description = 10004;</code>
          */
         public Builder setPublicDescription(io.dstore.values.StringValue value) {
           if (publicDescriptionBuilder_ == null) {
@@ -2950,7 +2950,7 @@ public final class OmGetOrderStatesInCatsAd {
          * Beschreibung des Status "OrderStateID" für den Kunden
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue public_description = 10004;</code>
+         * <code>.dstore.values.StringValue public_description = 10004;</code>
          */
         public Builder setPublicDescription(
             io.dstore.values.StringValue.Builder builderForValue) {
@@ -2968,7 +2968,7 @@ public final class OmGetOrderStatesInCatsAd {
          * Beschreibung des Status "OrderStateID" für den Kunden
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue public_description = 10004;</code>
+         * <code>.dstore.values.StringValue public_description = 10004;</code>
          */
         public Builder mergePublicDescription(io.dstore.values.StringValue value) {
           if (publicDescriptionBuilder_ == null) {
@@ -2990,7 +2990,7 @@ public final class OmGetOrderStatesInCatsAd {
          * Beschreibung des Status "OrderStateID" für den Kunden
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue public_description = 10004;</code>
+         * <code>.dstore.values.StringValue public_description = 10004;</code>
          */
         public Builder clearPublicDescription() {
           if (publicDescriptionBuilder_ == null) {
@@ -3008,7 +3008,7 @@ public final class OmGetOrderStatesInCatsAd {
          * Beschreibung des Status "OrderStateID" für den Kunden
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue public_description = 10004;</code>
+         * <code>.dstore.values.StringValue public_description = 10004;</code>
          */
         public io.dstore.values.StringValue.Builder getPublicDescriptionBuilder() {
           
@@ -3020,7 +3020,7 @@ public final class OmGetOrderStatesInCatsAd {
          * Beschreibung des Status "OrderStateID" für den Kunden
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue public_description = 10004;</code>
+         * <code>.dstore.values.StringValue public_description = 10004;</code>
          */
         public io.dstore.values.StringValueOrBuilder getPublicDescriptionOrBuilder() {
           if (publicDescriptionBuilder_ != null) {
@@ -3035,7 +3035,7 @@ public final class OmGetOrderStatesInCatsAd {
          * Beschreibung des Status "OrderStateID" für den Kunden
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue public_description = 10004;</code>
+         * <code>.dstore.values.StringValue public_description = 10004;</code>
          */
         private com.google.protobuf.SingleFieldBuilderV3<
             io.dstore.values.StringValue, io.dstore.values.StringValue.Builder, io.dstore.values.StringValueOrBuilder> 
@@ -3059,7 +3059,7 @@ public final class OmGetOrderStatesInCatsAd {
          * ID einer Kategorie von Auftrags-(Positions-)Status
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue order_state_category_id = 10005;</code>
+         * <code>.dstore.values.IntegerValue order_state_category_id = 10005;</code>
          */
         public boolean hasOrderStateCategoryId() {
           return orderStateCategoryIdBuilder_ != null || orderStateCategoryId_ != null;
@@ -3069,7 +3069,7 @@ public final class OmGetOrderStatesInCatsAd {
          * ID einer Kategorie von Auftrags-(Positions-)Status
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue order_state_category_id = 10005;</code>
+         * <code>.dstore.values.IntegerValue order_state_category_id = 10005;</code>
          */
         public io.dstore.values.IntegerValue getOrderStateCategoryId() {
           if (orderStateCategoryIdBuilder_ == null) {
@@ -3083,7 +3083,7 @@ public final class OmGetOrderStatesInCatsAd {
          * ID einer Kategorie von Auftrags-(Positions-)Status
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue order_state_category_id = 10005;</code>
+         * <code>.dstore.values.IntegerValue order_state_category_id = 10005;</code>
          */
         public Builder setOrderStateCategoryId(io.dstore.values.IntegerValue value) {
           if (orderStateCategoryIdBuilder_ == null) {
@@ -3103,7 +3103,7 @@ public final class OmGetOrderStatesInCatsAd {
          * ID einer Kategorie von Auftrags-(Positions-)Status
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue order_state_category_id = 10005;</code>
+         * <code>.dstore.values.IntegerValue order_state_category_id = 10005;</code>
          */
         public Builder setOrderStateCategoryId(
             io.dstore.values.IntegerValue.Builder builderForValue) {
@@ -3121,7 +3121,7 @@ public final class OmGetOrderStatesInCatsAd {
          * ID einer Kategorie von Auftrags-(Positions-)Status
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue order_state_category_id = 10005;</code>
+         * <code>.dstore.values.IntegerValue order_state_category_id = 10005;</code>
          */
         public Builder mergeOrderStateCategoryId(io.dstore.values.IntegerValue value) {
           if (orderStateCategoryIdBuilder_ == null) {
@@ -3143,7 +3143,7 @@ public final class OmGetOrderStatesInCatsAd {
          * ID einer Kategorie von Auftrags-(Positions-)Status
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue order_state_category_id = 10005;</code>
+         * <code>.dstore.values.IntegerValue order_state_category_id = 10005;</code>
          */
         public Builder clearOrderStateCategoryId() {
           if (orderStateCategoryIdBuilder_ == null) {
@@ -3161,7 +3161,7 @@ public final class OmGetOrderStatesInCatsAd {
          * ID einer Kategorie von Auftrags-(Positions-)Status
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue order_state_category_id = 10005;</code>
+         * <code>.dstore.values.IntegerValue order_state_category_id = 10005;</code>
          */
         public io.dstore.values.IntegerValue.Builder getOrderStateCategoryIdBuilder() {
           
@@ -3173,7 +3173,7 @@ public final class OmGetOrderStatesInCatsAd {
          * ID einer Kategorie von Auftrags-(Positions-)Status
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue order_state_category_id = 10005;</code>
+         * <code>.dstore.values.IntegerValue order_state_category_id = 10005;</code>
          */
         public io.dstore.values.IntegerValueOrBuilder getOrderStateCategoryIdOrBuilder() {
           if (orderStateCategoryIdBuilder_ != null) {
@@ -3188,7 +3188,7 @@ public final class OmGetOrderStatesInCatsAd {
          * ID einer Kategorie von Auftrags-(Positions-)Status
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue order_state_category_id = 10005;</code>
+         * <code>.dstore.values.IntegerValue order_state_category_id = 10005;</code>
          */
         private com.google.protobuf.SingleFieldBuilderV3<
             io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> 
@@ -3212,7 +3212,7 @@ public final class OmGetOrderStatesInCatsAd {
          * Bezeichnung des Status "OrderStateID"
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue order_state = 10006;</code>
+         * <code>.dstore.values.StringValue order_state = 10006;</code>
          */
         public boolean hasOrderState() {
           return orderStateBuilder_ != null || orderState_ != null;
@@ -3222,7 +3222,7 @@ public final class OmGetOrderStatesInCatsAd {
          * Bezeichnung des Status "OrderStateID"
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue order_state = 10006;</code>
+         * <code>.dstore.values.StringValue order_state = 10006;</code>
          */
         public io.dstore.values.StringValue getOrderState() {
           if (orderStateBuilder_ == null) {
@@ -3236,7 +3236,7 @@ public final class OmGetOrderStatesInCatsAd {
          * Bezeichnung des Status "OrderStateID"
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue order_state = 10006;</code>
+         * <code>.dstore.values.StringValue order_state = 10006;</code>
          */
         public Builder setOrderState(io.dstore.values.StringValue value) {
           if (orderStateBuilder_ == null) {
@@ -3256,7 +3256,7 @@ public final class OmGetOrderStatesInCatsAd {
          * Bezeichnung des Status "OrderStateID"
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue order_state = 10006;</code>
+         * <code>.dstore.values.StringValue order_state = 10006;</code>
          */
         public Builder setOrderState(
             io.dstore.values.StringValue.Builder builderForValue) {
@@ -3274,7 +3274,7 @@ public final class OmGetOrderStatesInCatsAd {
          * Bezeichnung des Status "OrderStateID"
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue order_state = 10006;</code>
+         * <code>.dstore.values.StringValue order_state = 10006;</code>
          */
         public Builder mergeOrderState(io.dstore.values.StringValue value) {
           if (orderStateBuilder_ == null) {
@@ -3296,7 +3296,7 @@ public final class OmGetOrderStatesInCatsAd {
          * Bezeichnung des Status "OrderStateID"
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue order_state = 10006;</code>
+         * <code>.dstore.values.StringValue order_state = 10006;</code>
          */
         public Builder clearOrderState() {
           if (orderStateBuilder_ == null) {
@@ -3314,7 +3314,7 @@ public final class OmGetOrderStatesInCatsAd {
          * Bezeichnung des Status "OrderStateID"
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue order_state = 10006;</code>
+         * <code>.dstore.values.StringValue order_state = 10006;</code>
          */
         public io.dstore.values.StringValue.Builder getOrderStateBuilder() {
           
@@ -3326,7 +3326,7 @@ public final class OmGetOrderStatesInCatsAd {
          * Bezeichnung des Status "OrderStateID"
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue order_state = 10006;</code>
+         * <code>.dstore.values.StringValue order_state = 10006;</code>
          */
         public io.dstore.values.StringValueOrBuilder getOrderStateOrBuilder() {
           if (orderStateBuilder_ != null) {
@@ -3341,7 +3341,7 @@ public final class OmGetOrderStatesInCatsAd {
          * Bezeichnung des Status "OrderStateID"
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue order_state = 10006;</code>
+         * <code>.dstore.values.StringValue order_state = 10006;</code>
          */
         private com.google.protobuf.SingleFieldBuilderV3<
             io.dstore.values.StringValue, io.dstore.values.StringValue.Builder, io.dstore.values.StringValueOrBuilder> 
@@ -3365,7 +3365,7 @@ public final class OmGetOrderStatesInCatsAd {
          * Bezeichnung der Kategorie "OrderStateCategoryID"
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue order_state_category = 10007;</code>
+         * <code>.dstore.values.StringValue order_state_category = 10007;</code>
          */
         public boolean hasOrderStateCategory() {
           return orderStateCategoryBuilder_ != null || orderStateCategory_ != null;
@@ -3375,7 +3375,7 @@ public final class OmGetOrderStatesInCatsAd {
          * Bezeichnung der Kategorie "OrderStateCategoryID"
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue order_state_category = 10007;</code>
+         * <code>.dstore.values.StringValue order_state_category = 10007;</code>
          */
         public io.dstore.values.StringValue getOrderStateCategory() {
           if (orderStateCategoryBuilder_ == null) {
@@ -3389,7 +3389,7 @@ public final class OmGetOrderStatesInCatsAd {
          * Bezeichnung der Kategorie "OrderStateCategoryID"
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue order_state_category = 10007;</code>
+         * <code>.dstore.values.StringValue order_state_category = 10007;</code>
          */
         public Builder setOrderStateCategory(io.dstore.values.StringValue value) {
           if (orderStateCategoryBuilder_ == null) {
@@ -3409,7 +3409,7 @@ public final class OmGetOrderStatesInCatsAd {
          * Bezeichnung der Kategorie "OrderStateCategoryID"
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue order_state_category = 10007;</code>
+         * <code>.dstore.values.StringValue order_state_category = 10007;</code>
          */
         public Builder setOrderStateCategory(
             io.dstore.values.StringValue.Builder builderForValue) {
@@ -3427,7 +3427,7 @@ public final class OmGetOrderStatesInCatsAd {
          * Bezeichnung der Kategorie "OrderStateCategoryID"
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue order_state_category = 10007;</code>
+         * <code>.dstore.values.StringValue order_state_category = 10007;</code>
          */
         public Builder mergeOrderStateCategory(io.dstore.values.StringValue value) {
           if (orderStateCategoryBuilder_ == null) {
@@ -3449,7 +3449,7 @@ public final class OmGetOrderStatesInCatsAd {
          * Bezeichnung der Kategorie "OrderStateCategoryID"
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue order_state_category = 10007;</code>
+         * <code>.dstore.values.StringValue order_state_category = 10007;</code>
          */
         public Builder clearOrderStateCategory() {
           if (orderStateCategoryBuilder_ == null) {
@@ -3467,7 +3467,7 @@ public final class OmGetOrderStatesInCatsAd {
          * Bezeichnung der Kategorie "OrderStateCategoryID"
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue order_state_category = 10007;</code>
+         * <code>.dstore.values.StringValue order_state_category = 10007;</code>
          */
         public io.dstore.values.StringValue.Builder getOrderStateCategoryBuilder() {
           
@@ -3479,7 +3479,7 @@ public final class OmGetOrderStatesInCatsAd {
          * Bezeichnung der Kategorie "OrderStateCategoryID"
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue order_state_category = 10007;</code>
+         * <code>.dstore.values.StringValue order_state_category = 10007;</code>
          */
         public io.dstore.values.StringValueOrBuilder getOrderStateCategoryOrBuilder() {
           if (orderStateCategoryBuilder_ != null) {
@@ -3494,7 +3494,7 @@ public final class OmGetOrderStatesInCatsAd {
          * Bezeichnung der Kategorie "OrderStateCategoryID"
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue order_state_category = 10007;</code>
+         * <code>.dstore.values.StringValue order_state_category = 10007;</code>
          */
         private com.google.protobuf.SingleFieldBuilderV3<
             io.dstore.values.StringValue, io.dstore.values.StringValue.Builder, io.dstore.values.StringValueOrBuilder> 
@@ -3754,7 +3754,7 @@ public final class OmGetOrderStatesInCatsAd {
         return memoizedHashCode;
       }
       int hash = 41;
-      hash = (19 * hash) + getDescriptorForType().hashCode();
+      hash = (19 * hash) + getDescriptor().hashCode();
       if (getMetaInformationCount() > 0) {
         hash = (37 * hash) + META_INFORMATION_FIELD_NUMBER;
         hash = (53 * hash) + getMetaInformationList().hashCode();

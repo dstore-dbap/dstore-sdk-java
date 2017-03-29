@@ -19,74 +19,74 @@ public final class MiGetTriggerCodeAd {
       com.google.protobuf.MessageOrBuilder {
 
     /**
-     * <code>optional .dstore.values.StringValue only_trigger_name = 1;</code>
+     * <code>.dstore.values.StringValue only_trigger_name = 1;</code>
      */
     boolean hasOnlyTriggerName();
     /**
-     * <code>optional .dstore.values.StringValue only_trigger_name = 1;</code>
+     * <code>.dstore.values.StringValue only_trigger_name = 1;</code>
      */
     io.dstore.values.StringValue getOnlyTriggerName();
     /**
-     * <code>optional .dstore.values.StringValue only_trigger_name = 1;</code>
+     * <code>.dstore.values.StringValue only_trigger_name = 1;</code>
      */
     io.dstore.values.StringValueOrBuilder getOnlyTriggerNameOrBuilder();
 
     /**
-     * <code>optional bool only_trigger_name_null = 1001;</code>
+     * <code>bool only_trigger_name_null = 1001;</code>
      */
     boolean getOnlyTriggerNameNull();
 
     /**
-     * <code>optional .dstore.values.StringValue database_name = 2;</code>
+     * <code>.dstore.values.StringValue database_name = 2;</code>
      */
     boolean hasDatabaseName();
     /**
-     * <code>optional .dstore.values.StringValue database_name = 2;</code>
+     * <code>.dstore.values.StringValue database_name = 2;</code>
      */
     io.dstore.values.StringValue getDatabaseName();
     /**
-     * <code>optional .dstore.values.StringValue database_name = 2;</code>
+     * <code>.dstore.values.StringValue database_name = 2;</code>
      */
     io.dstore.values.StringValueOrBuilder getDatabaseNameOrBuilder();
 
     /**
-     * <code>optional bool database_name_null = 1002;</code>
+     * <code>bool database_name_null = 1002;</code>
      */
     boolean getDatabaseNameNull();
 
     /**
-     * <code>optional .dstore.values.BooleanValue ignore_comments = 3;</code>
+     * <code>.dstore.values.BooleanValue ignore_comments = 3;</code>
      */
     boolean hasIgnoreComments();
     /**
-     * <code>optional .dstore.values.BooleanValue ignore_comments = 3;</code>
+     * <code>.dstore.values.BooleanValue ignore_comments = 3;</code>
      */
     io.dstore.values.BooleanValue getIgnoreComments();
     /**
-     * <code>optional .dstore.values.BooleanValue ignore_comments = 3;</code>
+     * <code>.dstore.values.BooleanValue ignore_comments = 3;</code>
      */
     io.dstore.values.BooleanValueOrBuilder getIgnoreCommentsOrBuilder();
 
     /**
-     * <code>optional bool ignore_comments_null = 1003;</code>
+     * <code>bool ignore_comments_null = 1003;</code>
      */
     boolean getIgnoreCommentsNull();
 
     /**
-     * <code>optional .dstore.values.BooleanValue include_statements_for_creation = 4;</code>
+     * <code>.dstore.values.BooleanValue include_statements_for_creation = 4;</code>
      */
     boolean hasIncludeStatementsForCreation();
     /**
-     * <code>optional .dstore.values.BooleanValue include_statements_for_creation = 4;</code>
+     * <code>.dstore.values.BooleanValue include_statements_for_creation = 4;</code>
      */
     io.dstore.values.BooleanValue getIncludeStatementsForCreation();
     /**
-     * <code>optional .dstore.values.BooleanValue include_statements_for_creation = 4;</code>
+     * <code>.dstore.values.BooleanValue include_statements_for_creation = 4;</code>
      */
     io.dstore.values.BooleanValueOrBuilder getIncludeStatementsForCreationOrBuilder();
 
     /**
-     * <code>optional bool include_statements_for_creation_null = 1004;</code>
+     * <code>bool include_statements_for_creation_null = 1004;</code>
      */
     boolean getIncludeStatementsForCreationNull();
   }
@@ -231,19 +231,19 @@ public final class MiGetTriggerCodeAd {
     public static final int ONLY_TRIGGER_NAME_FIELD_NUMBER = 1;
     private io.dstore.values.StringValue onlyTriggerName_;
     /**
-     * <code>optional .dstore.values.StringValue only_trigger_name = 1;</code>
+     * <code>.dstore.values.StringValue only_trigger_name = 1;</code>
      */
     public boolean hasOnlyTriggerName() {
       return onlyTriggerName_ != null;
     }
     /**
-     * <code>optional .dstore.values.StringValue only_trigger_name = 1;</code>
+     * <code>.dstore.values.StringValue only_trigger_name = 1;</code>
      */
     public io.dstore.values.StringValue getOnlyTriggerName() {
       return onlyTriggerName_ == null ? io.dstore.values.StringValue.getDefaultInstance() : onlyTriggerName_;
     }
     /**
-     * <code>optional .dstore.values.StringValue only_trigger_name = 1;</code>
+     * <code>.dstore.values.StringValue only_trigger_name = 1;</code>
      */
     public io.dstore.values.StringValueOrBuilder getOnlyTriggerNameOrBuilder() {
       return getOnlyTriggerName();
@@ -252,7 +252,7 @@ public final class MiGetTriggerCodeAd {
     public static final int ONLY_TRIGGER_NAME_NULL_FIELD_NUMBER = 1001;
     private boolean onlyTriggerNameNull_;
     /**
-     * <code>optional bool only_trigger_name_null = 1001;</code>
+     * <code>bool only_trigger_name_null = 1001;</code>
      */
     public boolean getOnlyTriggerNameNull() {
       return onlyTriggerNameNull_;
@@ -261,19 +261,19 @@ public final class MiGetTriggerCodeAd {
     public static final int DATABASE_NAME_FIELD_NUMBER = 2;
     private io.dstore.values.StringValue databaseName_;
     /**
-     * <code>optional .dstore.values.StringValue database_name = 2;</code>
+     * <code>.dstore.values.StringValue database_name = 2;</code>
      */
     public boolean hasDatabaseName() {
       return databaseName_ != null;
     }
     /**
-     * <code>optional .dstore.values.StringValue database_name = 2;</code>
+     * <code>.dstore.values.StringValue database_name = 2;</code>
      */
     public io.dstore.values.StringValue getDatabaseName() {
       return databaseName_ == null ? io.dstore.values.StringValue.getDefaultInstance() : databaseName_;
     }
     /**
-     * <code>optional .dstore.values.StringValue database_name = 2;</code>
+     * <code>.dstore.values.StringValue database_name = 2;</code>
      */
     public io.dstore.values.StringValueOrBuilder getDatabaseNameOrBuilder() {
       return getDatabaseName();
@@ -282,7 +282,7 @@ public final class MiGetTriggerCodeAd {
     public static final int DATABASE_NAME_NULL_FIELD_NUMBER = 1002;
     private boolean databaseNameNull_;
     /**
-     * <code>optional bool database_name_null = 1002;</code>
+     * <code>bool database_name_null = 1002;</code>
      */
     public boolean getDatabaseNameNull() {
       return databaseNameNull_;
@@ -291,19 +291,19 @@ public final class MiGetTriggerCodeAd {
     public static final int IGNORE_COMMENTS_FIELD_NUMBER = 3;
     private io.dstore.values.BooleanValue ignoreComments_;
     /**
-     * <code>optional .dstore.values.BooleanValue ignore_comments = 3;</code>
+     * <code>.dstore.values.BooleanValue ignore_comments = 3;</code>
      */
     public boolean hasIgnoreComments() {
       return ignoreComments_ != null;
     }
     /**
-     * <code>optional .dstore.values.BooleanValue ignore_comments = 3;</code>
+     * <code>.dstore.values.BooleanValue ignore_comments = 3;</code>
      */
     public io.dstore.values.BooleanValue getIgnoreComments() {
       return ignoreComments_ == null ? io.dstore.values.BooleanValue.getDefaultInstance() : ignoreComments_;
     }
     /**
-     * <code>optional .dstore.values.BooleanValue ignore_comments = 3;</code>
+     * <code>.dstore.values.BooleanValue ignore_comments = 3;</code>
      */
     public io.dstore.values.BooleanValueOrBuilder getIgnoreCommentsOrBuilder() {
       return getIgnoreComments();
@@ -312,7 +312,7 @@ public final class MiGetTriggerCodeAd {
     public static final int IGNORE_COMMENTS_NULL_FIELD_NUMBER = 1003;
     private boolean ignoreCommentsNull_;
     /**
-     * <code>optional bool ignore_comments_null = 1003;</code>
+     * <code>bool ignore_comments_null = 1003;</code>
      */
     public boolean getIgnoreCommentsNull() {
       return ignoreCommentsNull_;
@@ -321,19 +321,19 @@ public final class MiGetTriggerCodeAd {
     public static final int INCLUDE_STATEMENTS_FOR_CREATION_FIELD_NUMBER = 4;
     private io.dstore.values.BooleanValue includeStatementsForCreation_;
     /**
-     * <code>optional .dstore.values.BooleanValue include_statements_for_creation = 4;</code>
+     * <code>.dstore.values.BooleanValue include_statements_for_creation = 4;</code>
      */
     public boolean hasIncludeStatementsForCreation() {
       return includeStatementsForCreation_ != null;
     }
     /**
-     * <code>optional .dstore.values.BooleanValue include_statements_for_creation = 4;</code>
+     * <code>.dstore.values.BooleanValue include_statements_for_creation = 4;</code>
      */
     public io.dstore.values.BooleanValue getIncludeStatementsForCreation() {
       return includeStatementsForCreation_ == null ? io.dstore.values.BooleanValue.getDefaultInstance() : includeStatementsForCreation_;
     }
     /**
-     * <code>optional .dstore.values.BooleanValue include_statements_for_creation = 4;</code>
+     * <code>.dstore.values.BooleanValue include_statements_for_creation = 4;</code>
      */
     public io.dstore.values.BooleanValueOrBuilder getIncludeStatementsForCreationOrBuilder() {
       return getIncludeStatementsForCreation();
@@ -342,7 +342,7 @@ public final class MiGetTriggerCodeAd {
     public static final int INCLUDE_STATEMENTS_FOR_CREATION_NULL_FIELD_NUMBER = 1004;
     private boolean includeStatementsForCreationNull_;
     /**
-     * <code>optional bool include_statements_for_creation_null = 1004;</code>
+     * <code>bool include_statements_for_creation_null = 1004;</code>
      */
     public boolean getIncludeStatementsForCreationNull() {
       return includeStatementsForCreationNull_;
@@ -476,7 +476,7 @@ public final class MiGetTriggerCodeAd {
         return memoizedHashCode;
       }
       int hash = 41;
-      hash = (19 * hash) + getDescriptorForType().hashCode();
+      hash = (19 * hash) + getDescriptor().hashCode();
       if (hasOnlyTriggerName()) {
         hash = (37 * hash) + ONLY_TRIGGER_NAME_FIELD_NUMBER;
         hash = (53 * hash) + getOnlyTriggerName().hashCode();
@@ -796,13 +796,13 @@ public final class MiGetTriggerCodeAd {
       private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.values.StringValue, io.dstore.values.StringValue.Builder, io.dstore.values.StringValueOrBuilder> onlyTriggerNameBuilder_;
       /**
-       * <code>optional .dstore.values.StringValue only_trigger_name = 1;</code>
+       * <code>.dstore.values.StringValue only_trigger_name = 1;</code>
        */
       public boolean hasOnlyTriggerName() {
         return onlyTriggerNameBuilder_ != null || onlyTriggerName_ != null;
       }
       /**
-       * <code>optional .dstore.values.StringValue only_trigger_name = 1;</code>
+       * <code>.dstore.values.StringValue only_trigger_name = 1;</code>
        */
       public io.dstore.values.StringValue getOnlyTriggerName() {
         if (onlyTriggerNameBuilder_ == null) {
@@ -812,7 +812,7 @@ public final class MiGetTriggerCodeAd {
         }
       }
       /**
-       * <code>optional .dstore.values.StringValue only_trigger_name = 1;</code>
+       * <code>.dstore.values.StringValue only_trigger_name = 1;</code>
        */
       public Builder setOnlyTriggerName(io.dstore.values.StringValue value) {
         if (onlyTriggerNameBuilder_ == null) {
@@ -828,7 +828,7 @@ public final class MiGetTriggerCodeAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.StringValue only_trigger_name = 1;</code>
+       * <code>.dstore.values.StringValue only_trigger_name = 1;</code>
        */
       public Builder setOnlyTriggerName(
           io.dstore.values.StringValue.Builder builderForValue) {
@@ -842,7 +842,7 @@ public final class MiGetTriggerCodeAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.StringValue only_trigger_name = 1;</code>
+       * <code>.dstore.values.StringValue only_trigger_name = 1;</code>
        */
       public Builder mergeOnlyTriggerName(io.dstore.values.StringValue value) {
         if (onlyTriggerNameBuilder_ == null) {
@@ -860,7 +860,7 @@ public final class MiGetTriggerCodeAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.StringValue only_trigger_name = 1;</code>
+       * <code>.dstore.values.StringValue only_trigger_name = 1;</code>
        */
       public Builder clearOnlyTriggerName() {
         if (onlyTriggerNameBuilder_ == null) {
@@ -874,7 +874,7 @@ public final class MiGetTriggerCodeAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.StringValue only_trigger_name = 1;</code>
+       * <code>.dstore.values.StringValue only_trigger_name = 1;</code>
        */
       public io.dstore.values.StringValue.Builder getOnlyTriggerNameBuilder() {
         
@@ -882,7 +882,7 @@ public final class MiGetTriggerCodeAd {
         return getOnlyTriggerNameFieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .dstore.values.StringValue only_trigger_name = 1;</code>
+       * <code>.dstore.values.StringValue only_trigger_name = 1;</code>
        */
       public io.dstore.values.StringValueOrBuilder getOnlyTriggerNameOrBuilder() {
         if (onlyTriggerNameBuilder_ != null) {
@@ -893,7 +893,7 @@ public final class MiGetTriggerCodeAd {
         }
       }
       /**
-       * <code>optional .dstore.values.StringValue only_trigger_name = 1;</code>
+       * <code>.dstore.values.StringValue only_trigger_name = 1;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.values.StringValue, io.dstore.values.StringValue.Builder, io.dstore.values.StringValueOrBuilder> 
@@ -911,13 +911,13 @@ public final class MiGetTriggerCodeAd {
 
       private boolean onlyTriggerNameNull_ ;
       /**
-       * <code>optional bool only_trigger_name_null = 1001;</code>
+       * <code>bool only_trigger_name_null = 1001;</code>
        */
       public boolean getOnlyTriggerNameNull() {
         return onlyTriggerNameNull_;
       }
       /**
-       * <code>optional bool only_trigger_name_null = 1001;</code>
+       * <code>bool only_trigger_name_null = 1001;</code>
        */
       public Builder setOnlyTriggerNameNull(boolean value) {
         
@@ -926,7 +926,7 @@ public final class MiGetTriggerCodeAd {
         return this;
       }
       /**
-       * <code>optional bool only_trigger_name_null = 1001;</code>
+       * <code>bool only_trigger_name_null = 1001;</code>
        */
       public Builder clearOnlyTriggerNameNull() {
         
@@ -939,13 +939,13 @@ public final class MiGetTriggerCodeAd {
       private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.values.StringValue, io.dstore.values.StringValue.Builder, io.dstore.values.StringValueOrBuilder> databaseNameBuilder_;
       /**
-       * <code>optional .dstore.values.StringValue database_name = 2;</code>
+       * <code>.dstore.values.StringValue database_name = 2;</code>
        */
       public boolean hasDatabaseName() {
         return databaseNameBuilder_ != null || databaseName_ != null;
       }
       /**
-       * <code>optional .dstore.values.StringValue database_name = 2;</code>
+       * <code>.dstore.values.StringValue database_name = 2;</code>
        */
       public io.dstore.values.StringValue getDatabaseName() {
         if (databaseNameBuilder_ == null) {
@@ -955,7 +955,7 @@ public final class MiGetTriggerCodeAd {
         }
       }
       /**
-       * <code>optional .dstore.values.StringValue database_name = 2;</code>
+       * <code>.dstore.values.StringValue database_name = 2;</code>
        */
       public Builder setDatabaseName(io.dstore.values.StringValue value) {
         if (databaseNameBuilder_ == null) {
@@ -971,7 +971,7 @@ public final class MiGetTriggerCodeAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.StringValue database_name = 2;</code>
+       * <code>.dstore.values.StringValue database_name = 2;</code>
        */
       public Builder setDatabaseName(
           io.dstore.values.StringValue.Builder builderForValue) {
@@ -985,7 +985,7 @@ public final class MiGetTriggerCodeAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.StringValue database_name = 2;</code>
+       * <code>.dstore.values.StringValue database_name = 2;</code>
        */
       public Builder mergeDatabaseName(io.dstore.values.StringValue value) {
         if (databaseNameBuilder_ == null) {
@@ -1003,7 +1003,7 @@ public final class MiGetTriggerCodeAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.StringValue database_name = 2;</code>
+       * <code>.dstore.values.StringValue database_name = 2;</code>
        */
       public Builder clearDatabaseName() {
         if (databaseNameBuilder_ == null) {
@@ -1017,7 +1017,7 @@ public final class MiGetTriggerCodeAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.StringValue database_name = 2;</code>
+       * <code>.dstore.values.StringValue database_name = 2;</code>
        */
       public io.dstore.values.StringValue.Builder getDatabaseNameBuilder() {
         
@@ -1025,7 +1025,7 @@ public final class MiGetTriggerCodeAd {
         return getDatabaseNameFieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .dstore.values.StringValue database_name = 2;</code>
+       * <code>.dstore.values.StringValue database_name = 2;</code>
        */
       public io.dstore.values.StringValueOrBuilder getDatabaseNameOrBuilder() {
         if (databaseNameBuilder_ != null) {
@@ -1036,7 +1036,7 @@ public final class MiGetTriggerCodeAd {
         }
       }
       /**
-       * <code>optional .dstore.values.StringValue database_name = 2;</code>
+       * <code>.dstore.values.StringValue database_name = 2;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.values.StringValue, io.dstore.values.StringValue.Builder, io.dstore.values.StringValueOrBuilder> 
@@ -1054,13 +1054,13 @@ public final class MiGetTriggerCodeAd {
 
       private boolean databaseNameNull_ ;
       /**
-       * <code>optional bool database_name_null = 1002;</code>
+       * <code>bool database_name_null = 1002;</code>
        */
       public boolean getDatabaseNameNull() {
         return databaseNameNull_;
       }
       /**
-       * <code>optional bool database_name_null = 1002;</code>
+       * <code>bool database_name_null = 1002;</code>
        */
       public Builder setDatabaseNameNull(boolean value) {
         
@@ -1069,7 +1069,7 @@ public final class MiGetTriggerCodeAd {
         return this;
       }
       /**
-       * <code>optional bool database_name_null = 1002;</code>
+       * <code>bool database_name_null = 1002;</code>
        */
       public Builder clearDatabaseNameNull() {
         
@@ -1082,13 +1082,13 @@ public final class MiGetTriggerCodeAd {
       private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.values.BooleanValue, io.dstore.values.BooleanValue.Builder, io.dstore.values.BooleanValueOrBuilder> ignoreCommentsBuilder_;
       /**
-       * <code>optional .dstore.values.BooleanValue ignore_comments = 3;</code>
+       * <code>.dstore.values.BooleanValue ignore_comments = 3;</code>
        */
       public boolean hasIgnoreComments() {
         return ignoreCommentsBuilder_ != null || ignoreComments_ != null;
       }
       /**
-       * <code>optional .dstore.values.BooleanValue ignore_comments = 3;</code>
+       * <code>.dstore.values.BooleanValue ignore_comments = 3;</code>
        */
       public io.dstore.values.BooleanValue getIgnoreComments() {
         if (ignoreCommentsBuilder_ == null) {
@@ -1098,7 +1098,7 @@ public final class MiGetTriggerCodeAd {
         }
       }
       /**
-       * <code>optional .dstore.values.BooleanValue ignore_comments = 3;</code>
+       * <code>.dstore.values.BooleanValue ignore_comments = 3;</code>
        */
       public Builder setIgnoreComments(io.dstore.values.BooleanValue value) {
         if (ignoreCommentsBuilder_ == null) {
@@ -1114,7 +1114,7 @@ public final class MiGetTriggerCodeAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.BooleanValue ignore_comments = 3;</code>
+       * <code>.dstore.values.BooleanValue ignore_comments = 3;</code>
        */
       public Builder setIgnoreComments(
           io.dstore.values.BooleanValue.Builder builderForValue) {
@@ -1128,7 +1128,7 @@ public final class MiGetTriggerCodeAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.BooleanValue ignore_comments = 3;</code>
+       * <code>.dstore.values.BooleanValue ignore_comments = 3;</code>
        */
       public Builder mergeIgnoreComments(io.dstore.values.BooleanValue value) {
         if (ignoreCommentsBuilder_ == null) {
@@ -1146,7 +1146,7 @@ public final class MiGetTriggerCodeAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.BooleanValue ignore_comments = 3;</code>
+       * <code>.dstore.values.BooleanValue ignore_comments = 3;</code>
        */
       public Builder clearIgnoreComments() {
         if (ignoreCommentsBuilder_ == null) {
@@ -1160,7 +1160,7 @@ public final class MiGetTriggerCodeAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.BooleanValue ignore_comments = 3;</code>
+       * <code>.dstore.values.BooleanValue ignore_comments = 3;</code>
        */
       public io.dstore.values.BooleanValue.Builder getIgnoreCommentsBuilder() {
         
@@ -1168,7 +1168,7 @@ public final class MiGetTriggerCodeAd {
         return getIgnoreCommentsFieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .dstore.values.BooleanValue ignore_comments = 3;</code>
+       * <code>.dstore.values.BooleanValue ignore_comments = 3;</code>
        */
       public io.dstore.values.BooleanValueOrBuilder getIgnoreCommentsOrBuilder() {
         if (ignoreCommentsBuilder_ != null) {
@@ -1179,7 +1179,7 @@ public final class MiGetTriggerCodeAd {
         }
       }
       /**
-       * <code>optional .dstore.values.BooleanValue ignore_comments = 3;</code>
+       * <code>.dstore.values.BooleanValue ignore_comments = 3;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.values.BooleanValue, io.dstore.values.BooleanValue.Builder, io.dstore.values.BooleanValueOrBuilder> 
@@ -1197,13 +1197,13 @@ public final class MiGetTriggerCodeAd {
 
       private boolean ignoreCommentsNull_ ;
       /**
-       * <code>optional bool ignore_comments_null = 1003;</code>
+       * <code>bool ignore_comments_null = 1003;</code>
        */
       public boolean getIgnoreCommentsNull() {
         return ignoreCommentsNull_;
       }
       /**
-       * <code>optional bool ignore_comments_null = 1003;</code>
+       * <code>bool ignore_comments_null = 1003;</code>
        */
       public Builder setIgnoreCommentsNull(boolean value) {
         
@@ -1212,7 +1212,7 @@ public final class MiGetTriggerCodeAd {
         return this;
       }
       /**
-       * <code>optional bool ignore_comments_null = 1003;</code>
+       * <code>bool ignore_comments_null = 1003;</code>
        */
       public Builder clearIgnoreCommentsNull() {
         
@@ -1225,13 +1225,13 @@ public final class MiGetTriggerCodeAd {
       private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.values.BooleanValue, io.dstore.values.BooleanValue.Builder, io.dstore.values.BooleanValueOrBuilder> includeStatementsForCreationBuilder_;
       /**
-       * <code>optional .dstore.values.BooleanValue include_statements_for_creation = 4;</code>
+       * <code>.dstore.values.BooleanValue include_statements_for_creation = 4;</code>
        */
       public boolean hasIncludeStatementsForCreation() {
         return includeStatementsForCreationBuilder_ != null || includeStatementsForCreation_ != null;
       }
       /**
-       * <code>optional .dstore.values.BooleanValue include_statements_for_creation = 4;</code>
+       * <code>.dstore.values.BooleanValue include_statements_for_creation = 4;</code>
        */
       public io.dstore.values.BooleanValue getIncludeStatementsForCreation() {
         if (includeStatementsForCreationBuilder_ == null) {
@@ -1241,7 +1241,7 @@ public final class MiGetTriggerCodeAd {
         }
       }
       /**
-       * <code>optional .dstore.values.BooleanValue include_statements_for_creation = 4;</code>
+       * <code>.dstore.values.BooleanValue include_statements_for_creation = 4;</code>
        */
       public Builder setIncludeStatementsForCreation(io.dstore.values.BooleanValue value) {
         if (includeStatementsForCreationBuilder_ == null) {
@@ -1257,7 +1257,7 @@ public final class MiGetTriggerCodeAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.BooleanValue include_statements_for_creation = 4;</code>
+       * <code>.dstore.values.BooleanValue include_statements_for_creation = 4;</code>
        */
       public Builder setIncludeStatementsForCreation(
           io.dstore.values.BooleanValue.Builder builderForValue) {
@@ -1271,7 +1271,7 @@ public final class MiGetTriggerCodeAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.BooleanValue include_statements_for_creation = 4;</code>
+       * <code>.dstore.values.BooleanValue include_statements_for_creation = 4;</code>
        */
       public Builder mergeIncludeStatementsForCreation(io.dstore.values.BooleanValue value) {
         if (includeStatementsForCreationBuilder_ == null) {
@@ -1289,7 +1289,7 @@ public final class MiGetTriggerCodeAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.BooleanValue include_statements_for_creation = 4;</code>
+       * <code>.dstore.values.BooleanValue include_statements_for_creation = 4;</code>
        */
       public Builder clearIncludeStatementsForCreation() {
         if (includeStatementsForCreationBuilder_ == null) {
@@ -1303,7 +1303,7 @@ public final class MiGetTriggerCodeAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.BooleanValue include_statements_for_creation = 4;</code>
+       * <code>.dstore.values.BooleanValue include_statements_for_creation = 4;</code>
        */
       public io.dstore.values.BooleanValue.Builder getIncludeStatementsForCreationBuilder() {
         
@@ -1311,7 +1311,7 @@ public final class MiGetTriggerCodeAd {
         return getIncludeStatementsForCreationFieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .dstore.values.BooleanValue include_statements_for_creation = 4;</code>
+       * <code>.dstore.values.BooleanValue include_statements_for_creation = 4;</code>
        */
       public io.dstore.values.BooleanValueOrBuilder getIncludeStatementsForCreationOrBuilder() {
         if (includeStatementsForCreationBuilder_ != null) {
@@ -1322,7 +1322,7 @@ public final class MiGetTriggerCodeAd {
         }
       }
       /**
-       * <code>optional .dstore.values.BooleanValue include_statements_for_creation = 4;</code>
+       * <code>.dstore.values.BooleanValue include_statements_for_creation = 4;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.values.BooleanValue, io.dstore.values.BooleanValue.Builder, io.dstore.values.BooleanValueOrBuilder> 
@@ -1340,13 +1340,13 @@ public final class MiGetTriggerCodeAd {
 
       private boolean includeStatementsForCreationNull_ ;
       /**
-       * <code>optional bool include_statements_for_creation_null = 1004;</code>
+       * <code>bool include_statements_for_creation_null = 1004;</code>
        */
       public boolean getIncludeStatementsForCreationNull() {
         return includeStatementsForCreationNull_;
       }
       /**
-       * <code>optional bool include_statements_for_creation_null = 1004;</code>
+       * <code>bool include_statements_for_creation_null = 1004;</code>
        */
       public Builder setIncludeStatementsForCreationNull(boolean value) {
         
@@ -1355,7 +1355,7 @@ public final class MiGetTriggerCodeAd {
         return this;
       }
       /**
-       * <code>optional bool include_statements_for_creation_null = 1004;</code>
+       * <code>bool include_statements_for_creation_null = 1004;</code>
        */
       public Builder clearIncludeStatementsForCreationNull() {
         
@@ -1614,7 +1614,7 @@ public final class MiGetTriggerCodeAd {
         com.google.protobuf.MessageOrBuilder {
 
       /**
-       * <code>optional int32 row_id = 10000;</code>
+       * <code>int32 row_id = 10000;</code>
        */
       int getRowId();
     }
@@ -1689,7 +1689,7 @@ public final class MiGetTriggerCodeAd {
       public static final int ROW_ID_FIELD_NUMBER = 10000;
       private int rowId_;
       /**
-       * <code>optional int32 row_id = 10000;</code>
+       * <code>int32 row_id = 10000;</code>
        */
       public int getRowId() {
         return rowId_;
@@ -1748,7 +1748,7 @@ public final class MiGetTriggerCodeAd {
           return memoizedHashCode;
         }
         int hash = 41;
-        hash = (19 * hash) + getDescriptorForType().hashCode();
+        hash = (19 * hash) + getDescriptor().hashCode();
         hash = (37 * hash) + ROW_ID_FIELD_NUMBER;
         hash = (53 * hash) + getRowId();
         hash = (29 * hash) + unknownFields.hashCode();
@@ -1966,13 +1966,13 @@ public final class MiGetTriggerCodeAd {
 
         private int rowId_ ;
         /**
-         * <code>optional int32 row_id = 10000;</code>
+         * <code>int32 row_id = 10000;</code>
          */
         public int getRowId() {
           return rowId_;
         }
         /**
-         * <code>optional int32 row_id = 10000;</code>
+         * <code>int32 row_id = 10000;</code>
          */
         public Builder setRowId(int value) {
           
@@ -1981,7 +1981,7 @@ public final class MiGetTriggerCodeAd {
           return this;
         }
         /**
-         * <code>optional int32 row_id = 10000;</code>
+         * <code>int32 row_id = 10000;</code>
          */
         public Builder clearRowId() {
           
@@ -2234,7 +2234,7 @@ public final class MiGetTriggerCodeAd {
         return memoizedHashCode;
       }
       int hash = 41;
-      hash = (19 * hash) + getDescriptorForType().hashCode();
+      hash = (19 * hash) + getDescriptor().hashCode();
       if (getMetaInformationCount() > 0) {
         hash = (37 * hash) + META_INFORMATION_FIELD_NUMBER;
         hash = (53 * hash) + getMetaInformationList().hashCode();

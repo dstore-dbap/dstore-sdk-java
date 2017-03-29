@@ -19,74 +19,74 @@ public final class ImModifyNodeCharacsInCatAd {
       com.google.protobuf.MessageOrBuilder {
 
     /**
-     * <code>optional .dstore.values.IntegerValue node_charac_category_id = 1;</code>
+     * <code>.dstore.values.IntegerValue node_charac_category_id = 1;</code>
      */
     boolean hasNodeCharacCategoryId();
     /**
-     * <code>optional .dstore.values.IntegerValue node_charac_category_id = 1;</code>
+     * <code>.dstore.values.IntegerValue node_charac_category_id = 1;</code>
      */
     io.dstore.values.IntegerValue getNodeCharacCategoryId();
     /**
-     * <code>optional .dstore.values.IntegerValue node_charac_category_id = 1;</code>
+     * <code>.dstore.values.IntegerValue node_charac_category_id = 1;</code>
      */
     io.dstore.values.IntegerValueOrBuilder getNodeCharacCategoryIdOrBuilder();
 
     /**
-     * <code>optional bool node_charac_category_id_null = 1001;</code>
+     * <code>bool node_charac_category_id_null = 1001;</code>
      */
     boolean getNodeCharacCategoryIdNull();
 
     /**
-     * <code>optional .dstore.values.IntegerValue node_characteristic_id = 2;</code>
+     * <code>.dstore.values.IntegerValue node_characteristic_id = 2;</code>
      */
     boolean hasNodeCharacteristicId();
     /**
-     * <code>optional .dstore.values.IntegerValue node_characteristic_id = 2;</code>
+     * <code>.dstore.values.IntegerValue node_characteristic_id = 2;</code>
      */
     io.dstore.values.IntegerValue getNodeCharacteristicId();
     /**
-     * <code>optional .dstore.values.IntegerValue node_characteristic_id = 2;</code>
+     * <code>.dstore.values.IntegerValue node_characteristic_id = 2;</code>
      */
     io.dstore.values.IntegerValueOrBuilder getNodeCharacteristicIdOrBuilder();
 
     /**
-     * <code>optional bool node_characteristic_id_null = 1002;</code>
+     * <code>bool node_characteristic_id_null = 1002;</code>
      */
     boolean getNodeCharacteristicIdNull();
 
     /**
-     * <code>optional .dstore.values.IntegerValue move_sort_no = 3;</code>
+     * <code>.dstore.values.IntegerValue move_sort_no = 3;</code>
      */
     boolean hasMoveSortNo();
     /**
-     * <code>optional .dstore.values.IntegerValue move_sort_no = 3;</code>
+     * <code>.dstore.values.IntegerValue move_sort_no = 3;</code>
      */
     io.dstore.values.IntegerValue getMoveSortNo();
     /**
-     * <code>optional .dstore.values.IntegerValue move_sort_no = 3;</code>
+     * <code>.dstore.values.IntegerValue move_sort_no = 3;</code>
      */
     io.dstore.values.IntegerValueOrBuilder getMoveSortNoOrBuilder();
 
     /**
-     * <code>optional bool move_sort_no_null = 1003;</code>
+     * <code>bool move_sort_no_null = 1003;</code>
      */
     boolean getMoveSortNoNull();
 
     /**
-     * <code>optional .dstore.values.BooleanValue remove_node_char_id_from_category = 4;</code>
+     * <code>.dstore.values.BooleanValue remove_node_char_id_from_category = 4;</code>
      */
     boolean hasRemoveNodeCharIdFromCategory();
     /**
-     * <code>optional .dstore.values.BooleanValue remove_node_char_id_from_category = 4;</code>
+     * <code>.dstore.values.BooleanValue remove_node_char_id_from_category = 4;</code>
      */
     io.dstore.values.BooleanValue getRemoveNodeCharIdFromCategory();
     /**
-     * <code>optional .dstore.values.BooleanValue remove_node_char_id_from_category = 4;</code>
+     * <code>.dstore.values.BooleanValue remove_node_char_id_from_category = 4;</code>
      */
     io.dstore.values.BooleanValueOrBuilder getRemoveNodeCharIdFromCategoryOrBuilder();
 
     /**
-     * <code>optional bool remove_node_char_id_from_category_null = 1004;</code>
+     * <code>bool remove_node_char_id_from_category_null = 1004;</code>
      */
     boolean getRemoveNodeCharIdFromCategoryNull();
   }
@@ -231,19 +231,19 @@ public final class ImModifyNodeCharacsInCatAd {
     public static final int NODE_CHARAC_CATEGORY_ID_FIELD_NUMBER = 1;
     private io.dstore.values.IntegerValue nodeCharacCategoryId_;
     /**
-     * <code>optional .dstore.values.IntegerValue node_charac_category_id = 1;</code>
+     * <code>.dstore.values.IntegerValue node_charac_category_id = 1;</code>
      */
     public boolean hasNodeCharacCategoryId() {
       return nodeCharacCategoryId_ != null;
     }
     /**
-     * <code>optional .dstore.values.IntegerValue node_charac_category_id = 1;</code>
+     * <code>.dstore.values.IntegerValue node_charac_category_id = 1;</code>
      */
     public io.dstore.values.IntegerValue getNodeCharacCategoryId() {
       return nodeCharacCategoryId_ == null ? io.dstore.values.IntegerValue.getDefaultInstance() : nodeCharacCategoryId_;
     }
     /**
-     * <code>optional .dstore.values.IntegerValue node_charac_category_id = 1;</code>
+     * <code>.dstore.values.IntegerValue node_charac_category_id = 1;</code>
      */
     public io.dstore.values.IntegerValueOrBuilder getNodeCharacCategoryIdOrBuilder() {
       return getNodeCharacCategoryId();
@@ -252,7 +252,7 @@ public final class ImModifyNodeCharacsInCatAd {
     public static final int NODE_CHARAC_CATEGORY_ID_NULL_FIELD_NUMBER = 1001;
     private boolean nodeCharacCategoryIdNull_;
     /**
-     * <code>optional bool node_charac_category_id_null = 1001;</code>
+     * <code>bool node_charac_category_id_null = 1001;</code>
      */
     public boolean getNodeCharacCategoryIdNull() {
       return nodeCharacCategoryIdNull_;
@@ -261,19 +261,19 @@ public final class ImModifyNodeCharacsInCatAd {
     public static final int NODE_CHARACTERISTIC_ID_FIELD_NUMBER = 2;
     private io.dstore.values.IntegerValue nodeCharacteristicId_;
     /**
-     * <code>optional .dstore.values.IntegerValue node_characteristic_id = 2;</code>
+     * <code>.dstore.values.IntegerValue node_characteristic_id = 2;</code>
      */
     public boolean hasNodeCharacteristicId() {
       return nodeCharacteristicId_ != null;
     }
     /**
-     * <code>optional .dstore.values.IntegerValue node_characteristic_id = 2;</code>
+     * <code>.dstore.values.IntegerValue node_characteristic_id = 2;</code>
      */
     public io.dstore.values.IntegerValue getNodeCharacteristicId() {
       return nodeCharacteristicId_ == null ? io.dstore.values.IntegerValue.getDefaultInstance() : nodeCharacteristicId_;
     }
     /**
-     * <code>optional .dstore.values.IntegerValue node_characteristic_id = 2;</code>
+     * <code>.dstore.values.IntegerValue node_characteristic_id = 2;</code>
      */
     public io.dstore.values.IntegerValueOrBuilder getNodeCharacteristicIdOrBuilder() {
       return getNodeCharacteristicId();
@@ -282,7 +282,7 @@ public final class ImModifyNodeCharacsInCatAd {
     public static final int NODE_CHARACTERISTIC_ID_NULL_FIELD_NUMBER = 1002;
     private boolean nodeCharacteristicIdNull_;
     /**
-     * <code>optional bool node_characteristic_id_null = 1002;</code>
+     * <code>bool node_characteristic_id_null = 1002;</code>
      */
     public boolean getNodeCharacteristicIdNull() {
       return nodeCharacteristicIdNull_;
@@ -291,19 +291,19 @@ public final class ImModifyNodeCharacsInCatAd {
     public static final int MOVE_SORT_NO_FIELD_NUMBER = 3;
     private io.dstore.values.IntegerValue moveSortNo_;
     /**
-     * <code>optional .dstore.values.IntegerValue move_sort_no = 3;</code>
+     * <code>.dstore.values.IntegerValue move_sort_no = 3;</code>
      */
     public boolean hasMoveSortNo() {
       return moveSortNo_ != null;
     }
     /**
-     * <code>optional .dstore.values.IntegerValue move_sort_no = 3;</code>
+     * <code>.dstore.values.IntegerValue move_sort_no = 3;</code>
      */
     public io.dstore.values.IntegerValue getMoveSortNo() {
       return moveSortNo_ == null ? io.dstore.values.IntegerValue.getDefaultInstance() : moveSortNo_;
     }
     /**
-     * <code>optional .dstore.values.IntegerValue move_sort_no = 3;</code>
+     * <code>.dstore.values.IntegerValue move_sort_no = 3;</code>
      */
     public io.dstore.values.IntegerValueOrBuilder getMoveSortNoOrBuilder() {
       return getMoveSortNo();
@@ -312,7 +312,7 @@ public final class ImModifyNodeCharacsInCatAd {
     public static final int MOVE_SORT_NO_NULL_FIELD_NUMBER = 1003;
     private boolean moveSortNoNull_;
     /**
-     * <code>optional bool move_sort_no_null = 1003;</code>
+     * <code>bool move_sort_no_null = 1003;</code>
      */
     public boolean getMoveSortNoNull() {
       return moveSortNoNull_;
@@ -321,19 +321,19 @@ public final class ImModifyNodeCharacsInCatAd {
     public static final int REMOVE_NODE_CHAR_ID_FROM_CATEGORY_FIELD_NUMBER = 4;
     private io.dstore.values.BooleanValue removeNodeCharIdFromCategory_;
     /**
-     * <code>optional .dstore.values.BooleanValue remove_node_char_id_from_category = 4;</code>
+     * <code>.dstore.values.BooleanValue remove_node_char_id_from_category = 4;</code>
      */
     public boolean hasRemoveNodeCharIdFromCategory() {
       return removeNodeCharIdFromCategory_ != null;
     }
     /**
-     * <code>optional .dstore.values.BooleanValue remove_node_char_id_from_category = 4;</code>
+     * <code>.dstore.values.BooleanValue remove_node_char_id_from_category = 4;</code>
      */
     public io.dstore.values.BooleanValue getRemoveNodeCharIdFromCategory() {
       return removeNodeCharIdFromCategory_ == null ? io.dstore.values.BooleanValue.getDefaultInstance() : removeNodeCharIdFromCategory_;
     }
     /**
-     * <code>optional .dstore.values.BooleanValue remove_node_char_id_from_category = 4;</code>
+     * <code>.dstore.values.BooleanValue remove_node_char_id_from_category = 4;</code>
      */
     public io.dstore.values.BooleanValueOrBuilder getRemoveNodeCharIdFromCategoryOrBuilder() {
       return getRemoveNodeCharIdFromCategory();
@@ -342,7 +342,7 @@ public final class ImModifyNodeCharacsInCatAd {
     public static final int REMOVE_NODE_CHAR_ID_FROM_CATEGORY_NULL_FIELD_NUMBER = 1004;
     private boolean removeNodeCharIdFromCategoryNull_;
     /**
-     * <code>optional bool remove_node_char_id_from_category_null = 1004;</code>
+     * <code>bool remove_node_char_id_from_category_null = 1004;</code>
      */
     public boolean getRemoveNodeCharIdFromCategoryNull() {
       return removeNodeCharIdFromCategoryNull_;
@@ -476,7 +476,7 @@ public final class ImModifyNodeCharacsInCatAd {
         return memoizedHashCode;
       }
       int hash = 41;
-      hash = (19 * hash) + getDescriptorForType().hashCode();
+      hash = (19 * hash) + getDescriptor().hashCode();
       if (hasNodeCharacCategoryId()) {
         hash = (37 * hash) + NODE_CHARAC_CATEGORY_ID_FIELD_NUMBER;
         hash = (53 * hash) + getNodeCharacCategoryId().hashCode();
@@ -796,13 +796,13 @@ public final class ImModifyNodeCharacsInCatAd {
       private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> nodeCharacCategoryIdBuilder_;
       /**
-       * <code>optional .dstore.values.IntegerValue node_charac_category_id = 1;</code>
+       * <code>.dstore.values.IntegerValue node_charac_category_id = 1;</code>
        */
       public boolean hasNodeCharacCategoryId() {
         return nodeCharacCategoryIdBuilder_ != null || nodeCharacCategoryId_ != null;
       }
       /**
-       * <code>optional .dstore.values.IntegerValue node_charac_category_id = 1;</code>
+       * <code>.dstore.values.IntegerValue node_charac_category_id = 1;</code>
        */
       public io.dstore.values.IntegerValue getNodeCharacCategoryId() {
         if (nodeCharacCategoryIdBuilder_ == null) {
@@ -812,7 +812,7 @@ public final class ImModifyNodeCharacsInCatAd {
         }
       }
       /**
-       * <code>optional .dstore.values.IntegerValue node_charac_category_id = 1;</code>
+       * <code>.dstore.values.IntegerValue node_charac_category_id = 1;</code>
        */
       public Builder setNodeCharacCategoryId(io.dstore.values.IntegerValue value) {
         if (nodeCharacCategoryIdBuilder_ == null) {
@@ -828,7 +828,7 @@ public final class ImModifyNodeCharacsInCatAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.IntegerValue node_charac_category_id = 1;</code>
+       * <code>.dstore.values.IntegerValue node_charac_category_id = 1;</code>
        */
       public Builder setNodeCharacCategoryId(
           io.dstore.values.IntegerValue.Builder builderForValue) {
@@ -842,7 +842,7 @@ public final class ImModifyNodeCharacsInCatAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.IntegerValue node_charac_category_id = 1;</code>
+       * <code>.dstore.values.IntegerValue node_charac_category_id = 1;</code>
        */
       public Builder mergeNodeCharacCategoryId(io.dstore.values.IntegerValue value) {
         if (nodeCharacCategoryIdBuilder_ == null) {
@@ -860,7 +860,7 @@ public final class ImModifyNodeCharacsInCatAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.IntegerValue node_charac_category_id = 1;</code>
+       * <code>.dstore.values.IntegerValue node_charac_category_id = 1;</code>
        */
       public Builder clearNodeCharacCategoryId() {
         if (nodeCharacCategoryIdBuilder_ == null) {
@@ -874,7 +874,7 @@ public final class ImModifyNodeCharacsInCatAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.IntegerValue node_charac_category_id = 1;</code>
+       * <code>.dstore.values.IntegerValue node_charac_category_id = 1;</code>
        */
       public io.dstore.values.IntegerValue.Builder getNodeCharacCategoryIdBuilder() {
         
@@ -882,7 +882,7 @@ public final class ImModifyNodeCharacsInCatAd {
         return getNodeCharacCategoryIdFieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .dstore.values.IntegerValue node_charac_category_id = 1;</code>
+       * <code>.dstore.values.IntegerValue node_charac_category_id = 1;</code>
        */
       public io.dstore.values.IntegerValueOrBuilder getNodeCharacCategoryIdOrBuilder() {
         if (nodeCharacCategoryIdBuilder_ != null) {
@@ -893,7 +893,7 @@ public final class ImModifyNodeCharacsInCatAd {
         }
       }
       /**
-       * <code>optional .dstore.values.IntegerValue node_charac_category_id = 1;</code>
+       * <code>.dstore.values.IntegerValue node_charac_category_id = 1;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> 
@@ -911,13 +911,13 @@ public final class ImModifyNodeCharacsInCatAd {
 
       private boolean nodeCharacCategoryIdNull_ ;
       /**
-       * <code>optional bool node_charac_category_id_null = 1001;</code>
+       * <code>bool node_charac_category_id_null = 1001;</code>
        */
       public boolean getNodeCharacCategoryIdNull() {
         return nodeCharacCategoryIdNull_;
       }
       /**
-       * <code>optional bool node_charac_category_id_null = 1001;</code>
+       * <code>bool node_charac_category_id_null = 1001;</code>
        */
       public Builder setNodeCharacCategoryIdNull(boolean value) {
         
@@ -926,7 +926,7 @@ public final class ImModifyNodeCharacsInCatAd {
         return this;
       }
       /**
-       * <code>optional bool node_charac_category_id_null = 1001;</code>
+       * <code>bool node_charac_category_id_null = 1001;</code>
        */
       public Builder clearNodeCharacCategoryIdNull() {
         
@@ -939,13 +939,13 @@ public final class ImModifyNodeCharacsInCatAd {
       private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> nodeCharacteristicIdBuilder_;
       /**
-       * <code>optional .dstore.values.IntegerValue node_characteristic_id = 2;</code>
+       * <code>.dstore.values.IntegerValue node_characteristic_id = 2;</code>
        */
       public boolean hasNodeCharacteristicId() {
         return nodeCharacteristicIdBuilder_ != null || nodeCharacteristicId_ != null;
       }
       /**
-       * <code>optional .dstore.values.IntegerValue node_characteristic_id = 2;</code>
+       * <code>.dstore.values.IntegerValue node_characteristic_id = 2;</code>
        */
       public io.dstore.values.IntegerValue getNodeCharacteristicId() {
         if (nodeCharacteristicIdBuilder_ == null) {
@@ -955,7 +955,7 @@ public final class ImModifyNodeCharacsInCatAd {
         }
       }
       /**
-       * <code>optional .dstore.values.IntegerValue node_characteristic_id = 2;</code>
+       * <code>.dstore.values.IntegerValue node_characteristic_id = 2;</code>
        */
       public Builder setNodeCharacteristicId(io.dstore.values.IntegerValue value) {
         if (nodeCharacteristicIdBuilder_ == null) {
@@ -971,7 +971,7 @@ public final class ImModifyNodeCharacsInCatAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.IntegerValue node_characteristic_id = 2;</code>
+       * <code>.dstore.values.IntegerValue node_characteristic_id = 2;</code>
        */
       public Builder setNodeCharacteristicId(
           io.dstore.values.IntegerValue.Builder builderForValue) {
@@ -985,7 +985,7 @@ public final class ImModifyNodeCharacsInCatAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.IntegerValue node_characteristic_id = 2;</code>
+       * <code>.dstore.values.IntegerValue node_characteristic_id = 2;</code>
        */
       public Builder mergeNodeCharacteristicId(io.dstore.values.IntegerValue value) {
         if (nodeCharacteristicIdBuilder_ == null) {
@@ -1003,7 +1003,7 @@ public final class ImModifyNodeCharacsInCatAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.IntegerValue node_characteristic_id = 2;</code>
+       * <code>.dstore.values.IntegerValue node_characteristic_id = 2;</code>
        */
       public Builder clearNodeCharacteristicId() {
         if (nodeCharacteristicIdBuilder_ == null) {
@@ -1017,7 +1017,7 @@ public final class ImModifyNodeCharacsInCatAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.IntegerValue node_characteristic_id = 2;</code>
+       * <code>.dstore.values.IntegerValue node_characteristic_id = 2;</code>
        */
       public io.dstore.values.IntegerValue.Builder getNodeCharacteristicIdBuilder() {
         
@@ -1025,7 +1025,7 @@ public final class ImModifyNodeCharacsInCatAd {
         return getNodeCharacteristicIdFieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .dstore.values.IntegerValue node_characteristic_id = 2;</code>
+       * <code>.dstore.values.IntegerValue node_characteristic_id = 2;</code>
        */
       public io.dstore.values.IntegerValueOrBuilder getNodeCharacteristicIdOrBuilder() {
         if (nodeCharacteristicIdBuilder_ != null) {
@@ -1036,7 +1036,7 @@ public final class ImModifyNodeCharacsInCatAd {
         }
       }
       /**
-       * <code>optional .dstore.values.IntegerValue node_characteristic_id = 2;</code>
+       * <code>.dstore.values.IntegerValue node_characteristic_id = 2;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> 
@@ -1054,13 +1054,13 @@ public final class ImModifyNodeCharacsInCatAd {
 
       private boolean nodeCharacteristicIdNull_ ;
       /**
-       * <code>optional bool node_characteristic_id_null = 1002;</code>
+       * <code>bool node_characteristic_id_null = 1002;</code>
        */
       public boolean getNodeCharacteristicIdNull() {
         return nodeCharacteristicIdNull_;
       }
       /**
-       * <code>optional bool node_characteristic_id_null = 1002;</code>
+       * <code>bool node_characteristic_id_null = 1002;</code>
        */
       public Builder setNodeCharacteristicIdNull(boolean value) {
         
@@ -1069,7 +1069,7 @@ public final class ImModifyNodeCharacsInCatAd {
         return this;
       }
       /**
-       * <code>optional bool node_characteristic_id_null = 1002;</code>
+       * <code>bool node_characteristic_id_null = 1002;</code>
        */
       public Builder clearNodeCharacteristicIdNull() {
         
@@ -1082,13 +1082,13 @@ public final class ImModifyNodeCharacsInCatAd {
       private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> moveSortNoBuilder_;
       /**
-       * <code>optional .dstore.values.IntegerValue move_sort_no = 3;</code>
+       * <code>.dstore.values.IntegerValue move_sort_no = 3;</code>
        */
       public boolean hasMoveSortNo() {
         return moveSortNoBuilder_ != null || moveSortNo_ != null;
       }
       /**
-       * <code>optional .dstore.values.IntegerValue move_sort_no = 3;</code>
+       * <code>.dstore.values.IntegerValue move_sort_no = 3;</code>
        */
       public io.dstore.values.IntegerValue getMoveSortNo() {
         if (moveSortNoBuilder_ == null) {
@@ -1098,7 +1098,7 @@ public final class ImModifyNodeCharacsInCatAd {
         }
       }
       /**
-       * <code>optional .dstore.values.IntegerValue move_sort_no = 3;</code>
+       * <code>.dstore.values.IntegerValue move_sort_no = 3;</code>
        */
       public Builder setMoveSortNo(io.dstore.values.IntegerValue value) {
         if (moveSortNoBuilder_ == null) {
@@ -1114,7 +1114,7 @@ public final class ImModifyNodeCharacsInCatAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.IntegerValue move_sort_no = 3;</code>
+       * <code>.dstore.values.IntegerValue move_sort_no = 3;</code>
        */
       public Builder setMoveSortNo(
           io.dstore.values.IntegerValue.Builder builderForValue) {
@@ -1128,7 +1128,7 @@ public final class ImModifyNodeCharacsInCatAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.IntegerValue move_sort_no = 3;</code>
+       * <code>.dstore.values.IntegerValue move_sort_no = 3;</code>
        */
       public Builder mergeMoveSortNo(io.dstore.values.IntegerValue value) {
         if (moveSortNoBuilder_ == null) {
@@ -1146,7 +1146,7 @@ public final class ImModifyNodeCharacsInCatAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.IntegerValue move_sort_no = 3;</code>
+       * <code>.dstore.values.IntegerValue move_sort_no = 3;</code>
        */
       public Builder clearMoveSortNo() {
         if (moveSortNoBuilder_ == null) {
@@ -1160,7 +1160,7 @@ public final class ImModifyNodeCharacsInCatAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.IntegerValue move_sort_no = 3;</code>
+       * <code>.dstore.values.IntegerValue move_sort_no = 3;</code>
        */
       public io.dstore.values.IntegerValue.Builder getMoveSortNoBuilder() {
         
@@ -1168,7 +1168,7 @@ public final class ImModifyNodeCharacsInCatAd {
         return getMoveSortNoFieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .dstore.values.IntegerValue move_sort_no = 3;</code>
+       * <code>.dstore.values.IntegerValue move_sort_no = 3;</code>
        */
       public io.dstore.values.IntegerValueOrBuilder getMoveSortNoOrBuilder() {
         if (moveSortNoBuilder_ != null) {
@@ -1179,7 +1179,7 @@ public final class ImModifyNodeCharacsInCatAd {
         }
       }
       /**
-       * <code>optional .dstore.values.IntegerValue move_sort_no = 3;</code>
+       * <code>.dstore.values.IntegerValue move_sort_no = 3;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> 
@@ -1197,13 +1197,13 @@ public final class ImModifyNodeCharacsInCatAd {
 
       private boolean moveSortNoNull_ ;
       /**
-       * <code>optional bool move_sort_no_null = 1003;</code>
+       * <code>bool move_sort_no_null = 1003;</code>
        */
       public boolean getMoveSortNoNull() {
         return moveSortNoNull_;
       }
       /**
-       * <code>optional bool move_sort_no_null = 1003;</code>
+       * <code>bool move_sort_no_null = 1003;</code>
        */
       public Builder setMoveSortNoNull(boolean value) {
         
@@ -1212,7 +1212,7 @@ public final class ImModifyNodeCharacsInCatAd {
         return this;
       }
       /**
-       * <code>optional bool move_sort_no_null = 1003;</code>
+       * <code>bool move_sort_no_null = 1003;</code>
        */
       public Builder clearMoveSortNoNull() {
         
@@ -1225,13 +1225,13 @@ public final class ImModifyNodeCharacsInCatAd {
       private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.values.BooleanValue, io.dstore.values.BooleanValue.Builder, io.dstore.values.BooleanValueOrBuilder> removeNodeCharIdFromCategoryBuilder_;
       /**
-       * <code>optional .dstore.values.BooleanValue remove_node_char_id_from_category = 4;</code>
+       * <code>.dstore.values.BooleanValue remove_node_char_id_from_category = 4;</code>
        */
       public boolean hasRemoveNodeCharIdFromCategory() {
         return removeNodeCharIdFromCategoryBuilder_ != null || removeNodeCharIdFromCategory_ != null;
       }
       /**
-       * <code>optional .dstore.values.BooleanValue remove_node_char_id_from_category = 4;</code>
+       * <code>.dstore.values.BooleanValue remove_node_char_id_from_category = 4;</code>
        */
       public io.dstore.values.BooleanValue getRemoveNodeCharIdFromCategory() {
         if (removeNodeCharIdFromCategoryBuilder_ == null) {
@@ -1241,7 +1241,7 @@ public final class ImModifyNodeCharacsInCatAd {
         }
       }
       /**
-       * <code>optional .dstore.values.BooleanValue remove_node_char_id_from_category = 4;</code>
+       * <code>.dstore.values.BooleanValue remove_node_char_id_from_category = 4;</code>
        */
       public Builder setRemoveNodeCharIdFromCategory(io.dstore.values.BooleanValue value) {
         if (removeNodeCharIdFromCategoryBuilder_ == null) {
@@ -1257,7 +1257,7 @@ public final class ImModifyNodeCharacsInCatAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.BooleanValue remove_node_char_id_from_category = 4;</code>
+       * <code>.dstore.values.BooleanValue remove_node_char_id_from_category = 4;</code>
        */
       public Builder setRemoveNodeCharIdFromCategory(
           io.dstore.values.BooleanValue.Builder builderForValue) {
@@ -1271,7 +1271,7 @@ public final class ImModifyNodeCharacsInCatAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.BooleanValue remove_node_char_id_from_category = 4;</code>
+       * <code>.dstore.values.BooleanValue remove_node_char_id_from_category = 4;</code>
        */
       public Builder mergeRemoveNodeCharIdFromCategory(io.dstore.values.BooleanValue value) {
         if (removeNodeCharIdFromCategoryBuilder_ == null) {
@@ -1289,7 +1289,7 @@ public final class ImModifyNodeCharacsInCatAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.BooleanValue remove_node_char_id_from_category = 4;</code>
+       * <code>.dstore.values.BooleanValue remove_node_char_id_from_category = 4;</code>
        */
       public Builder clearRemoveNodeCharIdFromCategory() {
         if (removeNodeCharIdFromCategoryBuilder_ == null) {
@@ -1303,7 +1303,7 @@ public final class ImModifyNodeCharacsInCatAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.BooleanValue remove_node_char_id_from_category = 4;</code>
+       * <code>.dstore.values.BooleanValue remove_node_char_id_from_category = 4;</code>
        */
       public io.dstore.values.BooleanValue.Builder getRemoveNodeCharIdFromCategoryBuilder() {
         
@@ -1311,7 +1311,7 @@ public final class ImModifyNodeCharacsInCatAd {
         return getRemoveNodeCharIdFromCategoryFieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .dstore.values.BooleanValue remove_node_char_id_from_category = 4;</code>
+       * <code>.dstore.values.BooleanValue remove_node_char_id_from_category = 4;</code>
        */
       public io.dstore.values.BooleanValueOrBuilder getRemoveNodeCharIdFromCategoryOrBuilder() {
         if (removeNodeCharIdFromCategoryBuilder_ != null) {
@@ -1322,7 +1322,7 @@ public final class ImModifyNodeCharacsInCatAd {
         }
       }
       /**
-       * <code>optional .dstore.values.BooleanValue remove_node_char_id_from_category = 4;</code>
+       * <code>.dstore.values.BooleanValue remove_node_char_id_from_category = 4;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.values.BooleanValue, io.dstore.values.BooleanValue.Builder, io.dstore.values.BooleanValueOrBuilder> 
@@ -1340,13 +1340,13 @@ public final class ImModifyNodeCharacsInCatAd {
 
       private boolean removeNodeCharIdFromCategoryNull_ ;
       /**
-       * <code>optional bool remove_node_char_id_from_category_null = 1004;</code>
+       * <code>bool remove_node_char_id_from_category_null = 1004;</code>
        */
       public boolean getRemoveNodeCharIdFromCategoryNull() {
         return removeNodeCharIdFromCategoryNull_;
       }
       /**
-       * <code>optional bool remove_node_char_id_from_category_null = 1004;</code>
+       * <code>bool remove_node_char_id_from_category_null = 1004;</code>
        */
       public Builder setRemoveNodeCharIdFromCategoryNull(boolean value) {
         
@@ -1355,7 +1355,7 @@ public final class ImModifyNodeCharacsInCatAd {
         return this;
       }
       /**
-       * <code>optional bool remove_node_char_id_from_category_null = 1004;</code>
+       * <code>bool remove_node_char_id_from_category_null = 1004;</code>
        */
       public Builder clearRemoveNodeCharIdFromCategoryNull() {
         
@@ -1614,7 +1614,7 @@ public final class ImModifyNodeCharacsInCatAd {
         com.google.protobuf.MessageOrBuilder {
 
       /**
-       * <code>optional int32 row_id = 10000;</code>
+       * <code>int32 row_id = 10000;</code>
        */
       int getRowId();
     }
@@ -1689,7 +1689,7 @@ public final class ImModifyNodeCharacsInCatAd {
       public static final int ROW_ID_FIELD_NUMBER = 10000;
       private int rowId_;
       /**
-       * <code>optional int32 row_id = 10000;</code>
+       * <code>int32 row_id = 10000;</code>
        */
       public int getRowId() {
         return rowId_;
@@ -1748,7 +1748,7 @@ public final class ImModifyNodeCharacsInCatAd {
           return memoizedHashCode;
         }
         int hash = 41;
-        hash = (19 * hash) + getDescriptorForType().hashCode();
+        hash = (19 * hash) + getDescriptor().hashCode();
         hash = (37 * hash) + ROW_ID_FIELD_NUMBER;
         hash = (53 * hash) + getRowId();
         hash = (29 * hash) + unknownFields.hashCode();
@@ -1966,13 +1966,13 @@ public final class ImModifyNodeCharacsInCatAd {
 
         private int rowId_ ;
         /**
-         * <code>optional int32 row_id = 10000;</code>
+         * <code>int32 row_id = 10000;</code>
          */
         public int getRowId() {
           return rowId_;
         }
         /**
-         * <code>optional int32 row_id = 10000;</code>
+         * <code>int32 row_id = 10000;</code>
          */
         public Builder setRowId(int value) {
           
@@ -1981,7 +1981,7 @@ public final class ImModifyNodeCharacsInCatAd {
           return this;
         }
         /**
-         * <code>optional int32 row_id = 10000;</code>
+         * <code>int32 row_id = 10000;</code>
          */
         public Builder clearRowId() {
           
@@ -2234,7 +2234,7 @@ public final class ImModifyNodeCharacsInCatAd {
         return memoizedHashCode;
       }
       int hash = 41;
-      hash = (19 * hash) + getDescriptorForType().hashCode();
+      hash = (19 * hash) + getDescriptor().hashCode();
       if (getMetaInformationCount() > 0) {
         hash = (37 * hash) + META_INFORMATION_FIELD_NUMBER;
         hash = (53 * hash) + getMetaInformationList().hashCode();

@@ -19,20 +19,20 @@ public final class StGetPagesAd {
       com.google.protobuf.MessageOrBuilder {
 
     /**
-     * <code>optional .dstore.values.IntegerValue page_no = 1;</code>
+     * <code>.dstore.values.IntegerValue page_no = 1;</code>
      */
     boolean hasPageNo();
     /**
-     * <code>optional .dstore.values.IntegerValue page_no = 1;</code>
+     * <code>.dstore.values.IntegerValue page_no = 1;</code>
      */
     io.dstore.values.IntegerValue getPageNo();
     /**
-     * <code>optional .dstore.values.IntegerValue page_no = 1;</code>
+     * <code>.dstore.values.IntegerValue page_no = 1;</code>
      */
     io.dstore.values.IntegerValueOrBuilder getPageNoOrBuilder();
 
     /**
-     * <code>optional bool page_no_null = 1001;</code>
+     * <code>bool page_no_null = 1001;</code>
      */
     boolean getPageNoNull();
   }
@@ -120,19 +120,19 @@ public final class StGetPagesAd {
     public static final int PAGE_NO_FIELD_NUMBER = 1;
     private io.dstore.values.IntegerValue pageNo_;
     /**
-     * <code>optional .dstore.values.IntegerValue page_no = 1;</code>
+     * <code>.dstore.values.IntegerValue page_no = 1;</code>
      */
     public boolean hasPageNo() {
       return pageNo_ != null;
     }
     /**
-     * <code>optional .dstore.values.IntegerValue page_no = 1;</code>
+     * <code>.dstore.values.IntegerValue page_no = 1;</code>
      */
     public io.dstore.values.IntegerValue getPageNo() {
       return pageNo_ == null ? io.dstore.values.IntegerValue.getDefaultInstance() : pageNo_;
     }
     /**
-     * <code>optional .dstore.values.IntegerValue page_no = 1;</code>
+     * <code>.dstore.values.IntegerValue page_no = 1;</code>
      */
     public io.dstore.values.IntegerValueOrBuilder getPageNoOrBuilder() {
       return getPageNo();
@@ -141,7 +141,7 @@ public final class StGetPagesAd {
     public static final int PAGE_NO_NULL_FIELD_NUMBER = 1001;
     private boolean pageNoNull_;
     /**
-     * <code>optional bool page_no_null = 1001;</code>
+     * <code>bool page_no_null = 1001;</code>
      */
     public boolean getPageNoNull() {
       return pageNoNull_;
@@ -212,7 +212,7 @@ public final class StGetPagesAd {
         return memoizedHashCode;
       }
       int hash = 41;
-      hash = (19 * hash) + getDescriptorForType().hashCode();
+      hash = (19 * hash) + getDescriptor().hashCode();
       if (hasPageNo()) {
         hash = (37 * hash) + PAGE_NO_FIELD_NUMBER;
         hash = (53 * hash) + getPageNo().hashCode();
@@ -451,13 +451,13 @@ public final class StGetPagesAd {
       private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> pageNoBuilder_;
       /**
-       * <code>optional .dstore.values.IntegerValue page_no = 1;</code>
+       * <code>.dstore.values.IntegerValue page_no = 1;</code>
        */
       public boolean hasPageNo() {
         return pageNoBuilder_ != null || pageNo_ != null;
       }
       /**
-       * <code>optional .dstore.values.IntegerValue page_no = 1;</code>
+       * <code>.dstore.values.IntegerValue page_no = 1;</code>
        */
       public io.dstore.values.IntegerValue getPageNo() {
         if (pageNoBuilder_ == null) {
@@ -467,7 +467,7 @@ public final class StGetPagesAd {
         }
       }
       /**
-       * <code>optional .dstore.values.IntegerValue page_no = 1;</code>
+       * <code>.dstore.values.IntegerValue page_no = 1;</code>
        */
       public Builder setPageNo(io.dstore.values.IntegerValue value) {
         if (pageNoBuilder_ == null) {
@@ -483,7 +483,7 @@ public final class StGetPagesAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.IntegerValue page_no = 1;</code>
+       * <code>.dstore.values.IntegerValue page_no = 1;</code>
        */
       public Builder setPageNo(
           io.dstore.values.IntegerValue.Builder builderForValue) {
@@ -497,7 +497,7 @@ public final class StGetPagesAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.IntegerValue page_no = 1;</code>
+       * <code>.dstore.values.IntegerValue page_no = 1;</code>
        */
       public Builder mergePageNo(io.dstore.values.IntegerValue value) {
         if (pageNoBuilder_ == null) {
@@ -515,7 +515,7 @@ public final class StGetPagesAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.IntegerValue page_no = 1;</code>
+       * <code>.dstore.values.IntegerValue page_no = 1;</code>
        */
       public Builder clearPageNo() {
         if (pageNoBuilder_ == null) {
@@ -529,7 +529,7 @@ public final class StGetPagesAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.IntegerValue page_no = 1;</code>
+       * <code>.dstore.values.IntegerValue page_no = 1;</code>
        */
       public io.dstore.values.IntegerValue.Builder getPageNoBuilder() {
         
@@ -537,7 +537,7 @@ public final class StGetPagesAd {
         return getPageNoFieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .dstore.values.IntegerValue page_no = 1;</code>
+       * <code>.dstore.values.IntegerValue page_no = 1;</code>
        */
       public io.dstore.values.IntegerValueOrBuilder getPageNoOrBuilder() {
         if (pageNoBuilder_ != null) {
@@ -548,7 +548,7 @@ public final class StGetPagesAd {
         }
       }
       /**
-       * <code>optional .dstore.values.IntegerValue page_no = 1;</code>
+       * <code>.dstore.values.IntegerValue page_no = 1;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> 
@@ -566,13 +566,13 @@ public final class StGetPagesAd {
 
       private boolean pageNoNull_ ;
       /**
-       * <code>optional bool page_no_null = 1001;</code>
+       * <code>bool page_no_null = 1001;</code>
        */
       public boolean getPageNoNull() {
         return pageNoNull_;
       }
       /**
-       * <code>optional bool page_no_null = 1001;</code>
+       * <code>bool page_no_null = 1001;</code>
        */
       public Builder setPageNoNull(boolean value) {
         
@@ -581,7 +581,7 @@ public final class StGetPagesAd {
         return this;
       }
       /**
-       * <code>optional bool page_no_null = 1001;</code>
+       * <code>bool page_no_null = 1001;</code>
        */
       public Builder clearPageNoNull() {
         
@@ -840,7 +840,7 @@ public final class StGetPagesAd {
         com.google.protobuf.MessageOrBuilder {
 
       /**
-       * <code>optional int32 row_id = 10000;</code>
+       * <code>int32 row_id = 10000;</code>
        */
       int getRowId();
 
@@ -849,7 +849,7 @@ public final class StGetPagesAd {
        * (Programm-)Datei, die den Quellcode für die Seite "PageNo" enthält
        * </pre>
        *
-       * <code>optional .dstore.values.StringValue filename = 10001;</code>
+       * <code>.dstore.values.StringValue filename = 10001;</code>
        */
       boolean hasFilename();
       /**
@@ -857,7 +857,7 @@ public final class StGetPagesAd {
        * (Programm-)Datei, die den Quellcode für die Seite "PageNo" enthält
        * </pre>
        *
-       * <code>optional .dstore.values.StringValue filename = 10001;</code>
+       * <code>.dstore.values.StringValue filename = 10001;</code>
        */
       io.dstore.values.StringValue getFilename();
       /**
@@ -865,7 +865,7 @@ public final class StGetPagesAd {
        * (Programm-)Datei, die den Quellcode für die Seite "PageNo" enthält
        * </pre>
        *
-       * <code>optional .dstore.values.StringValue filename = 10001;</code>
+       * <code>.dstore.values.StringValue filename = 10001;</code>
        */
       io.dstore.values.StringValueOrBuilder getFilenameOrBuilder();
 
@@ -874,7 +874,7 @@ public final class StGetPagesAd {
        * (Eindeutige) Nummer einer (Bildschirm-)Seite der Client-Anwendung
        * </pre>
        *
-       * <code>optional .dstore.values.IntegerValue page_no = 10002;</code>
+       * <code>.dstore.values.IntegerValue page_no = 10002;</code>
        */
       boolean hasPageNo();
       /**
@@ -882,7 +882,7 @@ public final class StGetPagesAd {
        * (Eindeutige) Nummer einer (Bildschirm-)Seite der Client-Anwendung
        * </pre>
        *
-       * <code>optional .dstore.values.IntegerValue page_no = 10002;</code>
+       * <code>.dstore.values.IntegerValue page_no = 10002;</code>
        */
       io.dstore.values.IntegerValue getPageNo();
       /**
@@ -890,7 +890,7 @@ public final class StGetPagesAd {
        * (Eindeutige) Nummer einer (Bildschirm-)Seite der Client-Anwendung
        * </pre>
        *
-       * <code>optional .dstore.values.IntegerValue page_no = 10002;</code>
+       * <code>.dstore.values.IntegerValue page_no = 10002;</code>
        */
       io.dstore.values.IntegerValueOrBuilder getPageNoOrBuilder();
 
@@ -899,7 +899,7 @@ public final class StGetPagesAd {
        * Name/Bezeichnung der Seite "PageNo"
        * </pre>
        *
-       * <code>optional .dstore.values.StringValue page = 10003;</code>
+       * <code>.dstore.values.StringValue page = 10003;</code>
        */
       boolean hasPage();
       /**
@@ -907,7 +907,7 @@ public final class StGetPagesAd {
        * Name/Bezeichnung der Seite "PageNo"
        * </pre>
        *
-       * <code>optional .dstore.values.StringValue page = 10003;</code>
+       * <code>.dstore.values.StringValue page = 10003;</code>
        */
       io.dstore.values.StringValue getPage();
       /**
@@ -915,7 +915,7 @@ public final class StGetPagesAd {
        * Name/Bezeichnung der Seite "PageNo"
        * </pre>
        *
-       * <code>optional .dstore.values.StringValue page = 10003;</code>
+       * <code>.dstore.values.StringValue page = 10003;</code>
        */
       io.dstore.values.StringValueOrBuilder getPageOrBuilder();
     }
@@ -1029,7 +1029,7 @@ public final class StGetPagesAd {
       public static final int ROW_ID_FIELD_NUMBER = 10000;
       private int rowId_;
       /**
-       * <code>optional int32 row_id = 10000;</code>
+       * <code>int32 row_id = 10000;</code>
        */
       public int getRowId() {
         return rowId_;
@@ -1042,7 +1042,7 @@ public final class StGetPagesAd {
        * (Programm-)Datei, die den Quellcode für die Seite "PageNo" enthält
        * </pre>
        *
-       * <code>optional .dstore.values.StringValue filename = 10001;</code>
+       * <code>.dstore.values.StringValue filename = 10001;</code>
        */
       public boolean hasFilename() {
         return filename_ != null;
@@ -1052,7 +1052,7 @@ public final class StGetPagesAd {
        * (Programm-)Datei, die den Quellcode für die Seite "PageNo" enthält
        * </pre>
        *
-       * <code>optional .dstore.values.StringValue filename = 10001;</code>
+       * <code>.dstore.values.StringValue filename = 10001;</code>
        */
       public io.dstore.values.StringValue getFilename() {
         return filename_ == null ? io.dstore.values.StringValue.getDefaultInstance() : filename_;
@@ -1062,7 +1062,7 @@ public final class StGetPagesAd {
        * (Programm-)Datei, die den Quellcode für die Seite "PageNo" enthält
        * </pre>
        *
-       * <code>optional .dstore.values.StringValue filename = 10001;</code>
+       * <code>.dstore.values.StringValue filename = 10001;</code>
        */
       public io.dstore.values.StringValueOrBuilder getFilenameOrBuilder() {
         return getFilename();
@@ -1075,7 +1075,7 @@ public final class StGetPagesAd {
        * (Eindeutige) Nummer einer (Bildschirm-)Seite der Client-Anwendung
        * </pre>
        *
-       * <code>optional .dstore.values.IntegerValue page_no = 10002;</code>
+       * <code>.dstore.values.IntegerValue page_no = 10002;</code>
        */
       public boolean hasPageNo() {
         return pageNo_ != null;
@@ -1085,7 +1085,7 @@ public final class StGetPagesAd {
        * (Eindeutige) Nummer einer (Bildschirm-)Seite der Client-Anwendung
        * </pre>
        *
-       * <code>optional .dstore.values.IntegerValue page_no = 10002;</code>
+       * <code>.dstore.values.IntegerValue page_no = 10002;</code>
        */
       public io.dstore.values.IntegerValue getPageNo() {
         return pageNo_ == null ? io.dstore.values.IntegerValue.getDefaultInstance() : pageNo_;
@@ -1095,7 +1095,7 @@ public final class StGetPagesAd {
        * (Eindeutige) Nummer einer (Bildschirm-)Seite der Client-Anwendung
        * </pre>
        *
-       * <code>optional .dstore.values.IntegerValue page_no = 10002;</code>
+       * <code>.dstore.values.IntegerValue page_no = 10002;</code>
        */
       public io.dstore.values.IntegerValueOrBuilder getPageNoOrBuilder() {
         return getPageNo();
@@ -1108,7 +1108,7 @@ public final class StGetPagesAd {
        * Name/Bezeichnung der Seite "PageNo"
        * </pre>
        *
-       * <code>optional .dstore.values.StringValue page = 10003;</code>
+       * <code>.dstore.values.StringValue page = 10003;</code>
        */
       public boolean hasPage() {
         return page_ != null;
@@ -1118,7 +1118,7 @@ public final class StGetPagesAd {
        * Name/Bezeichnung der Seite "PageNo"
        * </pre>
        *
-       * <code>optional .dstore.values.StringValue page = 10003;</code>
+       * <code>.dstore.values.StringValue page = 10003;</code>
        */
       public io.dstore.values.StringValue getPage() {
         return page_ == null ? io.dstore.values.StringValue.getDefaultInstance() : page_;
@@ -1128,7 +1128,7 @@ public final class StGetPagesAd {
        * Name/Bezeichnung der Seite "PageNo"
        * </pre>
        *
-       * <code>optional .dstore.values.StringValue page = 10003;</code>
+       * <code>.dstore.values.StringValue page = 10003;</code>
        */
       public io.dstore.values.StringValueOrBuilder getPageOrBuilder() {
         return getPage();
@@ -1223,7 +1223,7 @@ public final class StGetPagesAd {
           return memoizedHashCode;
         }
         int hash = 41;
-        hash = (19 * hash) + getDescriptorForType().hashCode();
+        hash = (19 * hash) + getDescriptor().hashCode();
         hash = (37 * hash) + ROW_ID_FIELD_NUMBER;
         hash = (53 * hash) + getRowId();
         if (hasFilename()) {
@@ -1495,13 +1495,13 @@ public final class StGetPagesAd {
 
         private int rowId_ ;
         /**
-         * <code>optional int32 row_id = 10000;</code>
+         * <code>int32 row_id = 10000;</code>
          */
         public int getRowId() {
           return rowId_;
         }
         /**
-         * <code>optional int32 row_id = 10000;</code>
+         * <code>int32 row_id = 10000;</code>
          */
         public Builder setRowId(int value) {
           
@@ -1510,7 +1510,7 @@ public final class StGetPagesAd {
           return this;
         }
         /**
-         * <code>optional int32 row_id = 10000;</code>
+         * <code>int32 row_id = 10000;</code>
          */
         public Builder clearRowId() {
           
@@ -1527,7 +1527,7 @@ public final class StGetPagesAd {
          * (Programm-)Datei, die den Quellcode für die Seite "PageNo" enthält
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue filename = 10001;</code>
+         * <code>.dstore.values.StringValue filename = 10001;</code>
          */
         public boolean hasFilename() {
           return filenameBuilder_ != null || filename_ != null;
@@ -1537,7 +1537,7 @@ public final class StGetPagesAd {
          * (Programm-)Datei, die den Quellcode für die Seite "PageNo" enthält
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue filename = 10001;</code>
+         * <code>.dstore.values.StringValue filename = 10001;</code>
          */
         public io.dstore.values.StringValue getFilename() {
           if (filenameBuilder_ == null) {
@@ -1551,7 +1551,7 @@ public final class StGetPagesAd {
          * (Programm-)Datei, die den Quellcode für die Seite "PageNo" enthält
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue filename = 10001;</code>
+         * <code>.dstore.values.StringValue filename = 10001;</code>
          */
         public Builder setFilename(io.dstore.values.StringValue value) {
           if (filenameBuilder_ == null) {
@@ -1571,7 +1571,7 @@ public final class StGetPagesAd {
          * (Programm-)Datei, die den Quellcode für die Seite "PageNo" enthält
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue filename = 10001;</code>
+         * <code>.dstore.values.StringValue filename = 10001;</code>
          */
         public Builder setFilename(
             io.dstore.values.StringValue.Builder builderForValue) {
@@ -1589,7 +1589,7 @@ public final class StGetPagesAd {
          * (Programm-)Datei, die den Quellcode für die Seite "PageNo" enthält
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue filename = 10001;</code>
+         * <code>.dstore.values.StringValue filename = 10001;</code>
          */
         public Builder mergeFilename(io.dstore.values.StringValue value) {
           if (filenameBuilder_ == null) {
@@ -1611,7 +1611,7 @@ public final class StGetPagesAd {
          * (Programm-)Datei, die den Quellcode für die Seite "PageNo" enthält
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue filename = 10001;</code>
+         * <code>.dstore.values.StringValue filename = 10001;</code>
          */
         public Builder clearFilename() {
           if (filenameBuilder_ == null) {
@@ -1629,7 +1629,7 @@ public final class StGetPagesAd {
          * (Programm-)Datei, die den Quellcode für die Seite "PageNo" enthält
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue filename = 10001;</code>
+         * <code>.dstore.values.StringValue filename = 10001;</code>
          */
         public io.dstore.values.StringValue.Builder getFilenameBuilder() {
           
@@ -1641,7 +1641,7 @@ public final class StGetPagesAd {
          * (Programm-)Datei, die den Quellcode für die Seite "PageNo" enthält
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue filename = 10001;</code>
+         * <code>.dstore.values.StringValue filename = 10001;</code>
          */
         public io.dstore.values.StringValueOrBuilder getFilenameOrBuilder() {
           if (filenameBuilder_ != null) {
@@ -1656,7 +1656,7 @@ public final class StGetPagesAd {
          * (Programm-)Datei, die den Quellcode für die Seite "PageNo" enthält
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue filename = 10001;</code>
+         * <code>.dstore.values.StringValue filename = 10001;</code>
          */
         private com.google.protobuf.SingleFieldBuilderV3<
             io.dstore.values.StringValue, io.dstore.values.StringValue.Builder, io.dstore.values.StringValueOrBuilder> 
@@ -1680,7 +1680,7 @@ public final class StGetPagesAd {
          * (Eindeutige) Nummer einer (Bildschirm-)Seite der Client-Anwendung
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue page_no = 10002;</code>
+         * <code>.dstore.values.IntegerValue page_no = 10002;</code>
          */
         public boolean hasPageNo() {
           return pageNoBuilder_ != null || pageNo_ != null;
@@ -1690,7 +1690,7 @@ public final class StGetPagesAd {
          * (Eindeutige) Nummer einer (Bildschirm-)Seite der Client-Anwendung
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue page_no = 10002;</code>
+         * <code>.dstore.values.IntegerValue page_no = 10002;</code>
          */
         public io.dstore.values.IntegerValue getPageNo() {
           if (pageNoBuilder_ == null) {
@@ -1704,7 +1704,7 @@ public final class StGetPagesAd {
          * (Eindeutige) Nummer einer (Bildschirm-)Seite der Client-Anwendung
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue page_no = 10002;</code>
+         * <code>.dstore.values.IntegerValue page_no = 10002;</code>
          */
         public Builder setPageNo(io.dstore.values.IntegerValue value) {
           if (pageNoBuilder_ == null) {
@@ -1724,7 +1724,7 @@ public final class StGetPagesAd {
          * (Eindeutige) Nummer einer (Bildschirm-)Seite der Client-Anwendung
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue page_no = 10002;</code>
+         * <code>.dstore.values.IntegerValue page_no = 10002;</code>
          */
         public Builder setPageNo(
             io.dstore.values.IntegerValue.Builder builderForValue) {
@@ -1742,7 +1742,7 @@ public final class StGetPagesAd {
          * (Eindeutige) Nummer einer (Bildschirm-)Seite der Client-Anwendung
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue page_no = 10002;</code>
+         * <code>.dstore.values.IntegerValue page_no = 10002;</code>
          */
         public Builder mergePageNo(io.dstore.values.IntegerValue value) {
           if (pageNoBuilder_ == null) {
@@ -1764,7 +1764,7 @@ public final class StGetPagesAd {
          * (Eindeutige) Nummer einer (Bildschirm-)Seite der Client-Anwendung
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue page_no = 10002;</code>
+         * <code>.dstore.values.IntegerValue page_no = 10002;</code>
          */
         public Builder clearPageNo() {
           if (pageNoBuilder_ == null) {
@@ -1782,7 +1782,7 @@ public final class StGetPagesAd {
          * (Eindeutige) Nummer einer (Bildschirm-)Seite der Client-Anwendung
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue page_no = 10002;</code>
+         * <code>.dstore.values.IntegerValue page_no = 10002;</code>
          */
         public io.dstore.values.IntegerValue.Builder getPageNoBuilder() {
           
@@ -1794,7 +1794,7 @@ public final class StGetPagesAd {
          * (Eindeutige) Nummer einer (Bildschirm-)Seite der Client-Anwendung
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue page_no = 10002;</code>
+         * <code>.dstore.values.IntegerValue page_no = 10002;</code>
          */
         public io.dstore.values.IntegerValueOrBuilder getPageNoOrBuilder() {
           if (pageNoBuilder_ != null) {
@@ -1809,7 +1809,7 @@ public final class StGetPagesAd {
          * (Eindeutige) Nummer einer (Bildschirm-)Seite der Client-Anwendung
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue page_no = 10002;</code>
+         * <code>.dstore.values.IntegerValue page_no = 10002;</code>
          */
         private com.google.protobuf.SingleFieldBuilderV3<
             io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> 
@@ -1833,7 +1833,7 @@ public final class StGetPagesAd {
          * Name/Bezeichnung der Seite "PageNo"
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue page = 10003;</code>
+         * <code>.dstore.values.StringValue page = 10003;</code>
          */
         public boolean hasPage() {
           return pageBuilder_ != null || page_ != null;
@@ -1843,7 +1843,7 @@ public final class StGetPagesAd {
          * Name/Bezeichnung der Seite "PageNo"
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue page = 10003;</code>
+         * <code>.dstore.values.StringValue page = 10003;</code>
          */
         public io.dstore.values.StringValue getPage() {
           if (pageBuilder_ == null) {
@@ -1857,7 +1857,7 @@ public final class StGetPagesAd {
          * Name/Bezeichnung der Seite "PageNo"
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue page = 10003;</code>
+         * <code>.dstore.values.StringValue page = 10003;</code>
          */
         public Builder setPage(io.dstore.values.StringValue value) {
           if (pageBuilder_ == null) {
@@ -1877,7 +1877,7 @@ public final class StGetPagesAd {
          * Name/Bezeichnung der Seite "PageNo"
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue page = 10003;</code>
+         * <code>.dstore.values.StringValue page = 10003;</code>
          */
         public Builder setPage(
             io.dstore.values.StringValue.Builder builderForValue) {
@@ -1895,7 +1895,7 @@ public final class StGetPagesAd {
          * Name/Bezeichnung der Seite "PageNo"
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue page = 10003;</code>
+         * <code>.dstore.values.StringValue page = 10003;</code>
          */
         public Builder mergePage(io.dstore.values.StringValue value) {
           if (pageBuilder_ == null) {
@@ -1917,7 +1917,7 @@ public final class StGetPagesAd {
          * Name/Bezeichnung der Seite "PageNo"
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue page = 10003;</code>
+         * <code>.dstore.values.StringValue page = 10003;</code>
          */
         public Builder clearPage() {
           if (pageBuilder_ == null) {
@@ -1935,7 +1935,7 @@ public final class StGetPagesAd {
          * Name/Bezeichnung der Seite "PageNo"
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue page = 10003;</code>
+         * <code>.dstore.values.StringValue page = 10003;</code>
          */
         public io.dstore.values.StringValue.Builder getPageBuilder() {
           
@@ -1947,7 +1947,7 @@ public final class StGetPagesAd {
          * Name/Bezeichnung der Seite "PageNo"
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue page = 10003;</code>
+         * <code>.dstore.values.StringValue page = 10003;</code>
          */
         public io.dstore.values.StringValueOrBuilder getPageOrBuilder() {
           if (pageBuilder_ != null) {
@@ -1962,7 +1962,7 @@ public final class StGetPagesAd {
          * Name/Bezeichnung der Seite "PageNo"
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue page = 10003;</code>
+         * <code>.dstore.values.StringValue page = 10003;</code>
          */
         private com.google.protobuf.SingleFieldBuilderV3<
             io.dstore.values.StringValue, io.dstore.values.StringValue.Builder, io.dstore.values.StringValueOrBuilder> 
@@ -2222,7 +2222,7 @@ public final class StGetPagesAd {
         return memoizedHashCode;
       }
       int hash = 41;
-      hash = (19 * hash) + getDescriptorForType().hashCode();
+      hash = (19 * hash) + getDescriptor().hashCode();
       if (getMetaInformationCount() > 0) {
         hash = (37 * hash) + META_INFORMATION_FIELD_NUMBER;
         hash = (53 * hash) + getMetaInformationList().hashCode();

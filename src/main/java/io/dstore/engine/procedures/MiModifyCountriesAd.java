@@ -19,110 +19,110 @@ public final class MiModifyCountriesAd {
       com.google.protobuf.MessageOrBuilder {
 
     /**
-     * <code>optional .dstore.values.IntegerValue country_id = 1;</code>
+     * <code>.dstore.values.IntegerValue country_id = 1;</code>
      */
     boolean hasCountryId();
     /**
-     * <code>optional .dstore.values.IntegerValue country_id = 1;</code>
+     * <code>.dstore.values.IntegerValue country_id = 1;</code>
      */
     io.dstore.values.IntegerValue getCountryId();
     /**
-     * <code>optional .dstore.values.IntegerValue country_id = 1;</code>
+     * <code>.dstore.values.IntegerValue country_id = 1;</code>
      */
     io.dstore.values.IntegerValueOrBuilder getCountryIdOrBuilder();
 
     /**
-     * <code>optional bool country_id_null = 1001;</code>
+     * <code>bool country_id_null = 1001;</code>
      */
     boolean getCountryIdNull();
 
     /**
-     * <code>optional .dstore.values.StringValue country_description = 2;</code>
+     * <code>.dstore.values.StringValue country_description = 2;</code>
      */
     boolean hasCountryDescription();
     /**
-     * <code>optional .dstore.values.StringValue country_description = 2;</code>
+     * <code>.dstore.values.StringValue country_description = 2;</code>
      */
     io.dstore.values.StringValue getCountryDescription();
     /**
-     * <code>optional .dstore.values.StringValue country_description = 2;</code>
+     * <code>.dstore.values.StringValue country_description = 2;</code>
      */
     io.dstore.values.StringValueOrBuilder getCountryDescriptionOrBuilder();
 
     /**
-     * <code>optional bool country_description_null = 1002;</code>
+     * <code>bool country_description_null = 1002;</code>
      */
     boolean getCountryDescriptionNull();
 
     /**
-     * <code>optional .dstore.values.StringValue country_code = 3;</code>
+     * <code>.dstore.values.StringValue country_code = 3;</code>
      */
     boolean hasCountryCode();
     /**
-     * <code>optional .dstore.values.StringValue country_code = 3;</code>
+     * <code>.dstore.values.StringValue country_code = 3;</code>
      */
     io.dstore.values.StringValue getCountryCode();
     /**
-     * <code>optional .dstore.values.StringValue country_code = 3;</code>
+     * <code>.dstore.values.StringValue country_code = 3;</code>
      */
     io.dstore.values.StringValueOrBuilder getCountryCodeOrBuilder();
 
     /**
-     * <code>optional bool country_code_null = 1003;</code>
+     * <code>bool country_code_null = 1003;</code>
      */
     boolean getCountryCodeNull();
 
     /**
-     * <code>optional .dstore.values.IntegerValue sort_no = 4;</code>
+     * <code>.dstore.values.IntegerValue sort_no = 4;</code>
      */
     boolean hasSortNo();
     /**
-     * <code>optional .dstore.values.IntegerValue sort_no = 4;</code>
+     * <code>.dstore.values.IntegerValue sort_no = 4;</code>
      */
     io.dstore.values.IntegerValue getSortNo();
     /**
-     * <code>optional .dstore.values.IntegerValue sort_no = 4;</code>
+     * <code>.dstore.values.IntegerValue sort_no = 4;</code>
      */
     io.dstore.values.IntegerValueOrBuilder getSortNoOrBuilder();
 
     /**
-     * <code>optional bool sort_no_null = 1004;</code>
+     * <code>bool sort_no_null = 1004;</code>
      */
     boolean getSortNoNull();
 
     /**
-     * <code>optional .dstore.values.IntegerValue language_id = 5;</code>
+     * <code>.dstore.values.IntegerValue language_id = 5;</code>
      */
     boolean hasLanguageId();
     /**
-     * <code>optional .dstore.values.IntegerValue language_id = 5;</code>
+     * <code>.dstore.values.IntegerValue language_id = 5;</code>
      */
     io.dstore.values.IntegerValue getLanguageId();
     /**
-     * <code>optional .dstore.values.IntegerValue language_id = 5;</code>
+     * <code>.dstore.values.IntegerValue language_id = 5;</code>
      */
     io.dstore.values.IntegerValueOrBuilder getLanguageIdOrBuilder();
 
     /**
-     * <code>optional bool language_id_null = 1005;</code>
+     * <code>bool language_id_null = 1005;</code>
      */
     boolean getLanguageIdNull();
 
     /**
-     * <code>optional .dstore.values.BooleanValue delete_country = 6;</code>
+     * <code>.dstore.values.BooleanValue delete_country = 6;</code>
      */
     boolean hasDeleteCountry();
     /**
-     * <code>optional .dstore.values.BooleanValue delete_country = 6;</code>
+     * <code>.dstore.values.BooleanValue delete_country = 6;</code>
      */
     io.dstore.values.BooleanValue getDeleteCountry();
     /**
-     * <code>optional .dstore.values.BooleanValue delete_country = 6;</code>
+     * <code>.dstore.values.BooleanValue delete_country = 6;</code>
      */
     io.dstore.values.BooleanValueOrBuilder getDeleteCountryOrBuilder();
 
     /**
-     * <code>optional bool delete_country_null = 1006;</code>
+     * <code>bool delete_country_null = 1006;</code>
      */
     boolean getDeleteCountryNull();
   }
@@ -305,19 +305,19 @@ public final class MiModifyCountriesAd {
     public static final int COUNTRY_ID_FIELD_NUMBER = 1;
     private io.dstore.values.IntegerValue countryId_;
     /**
-     * <code>optional .dstore.values.IntegerValue country_id = 1;</code>
+     * <code>.dstore.values.IntegerValue country_id = 1;</code>
      */
     public boolean hasCountryId() {
       return countryId_ != null;
     }
     /**
-     * <code>optional .dstore.values.IntegerValue country_id = 1;</code>
+     * <code>.dstore.values.IntegerValue country_id = 1;</code>
      */
     public io.dstore.values.IntegerValue getCountryId() {
       return countryId_ == null ? io.dstore.values.IntegerValue.getDefaultInstance() : countryId_;
     }
     /**
-     * <code>optional .dstore.values.IntegerValue country_id = 1;</code>
+     * <code>.dstore.values.IntegerValue country_id = 1;</code>
      */
     public io.dstore.values.IntegerValueOrBuilder getCountryIdOrBuilder() {
       return getCountryId();
@@ -326,7 +326,7 @@ public final class MiModifyCountriesAd {
     public static final int COUNTRY_ID_NULL_FIELD_NUMBER = 1001;
     private boolean countryIdNull_;
     /**
-     * <code>optional bool country_id_null = 1001;</code>
+     * <code>bool country_id_null = 1001;</code>
      */
     public boolean getCountryIdNull() {
       return countryIdNull_;
@@ -335,19 +335,19 @@ public final class MiModifyCountriesAd {
     public static final int COUNTRY_DESCRIPTION_FIELD_NUMBER = 2;
     private io.dstore.values.StringValue countryDescription_;
     /**
-     * <code>optional .dstore.values.StringValue country_description = 2;</code>
+     * <code>.dstore.values.StringValue country_description = 2;</code>
      */
     public boolean hasCountryDescription() {
       return countryDescription_ != null;
     }
     /**
-     * <code>optional .dstore.values.StringValue country_description = 2;</code>
+     * <code>.dstore.values.StringValue country_description = 2;</code>
      */
     public io.dstore.values.StringValue getCountryDescription() {
       return countryDescription_ == null ? io.dstore.values.StringValue.getDefaultInstance() : countryDescription_;
     }
     /**
-     * <code>optional .dstore.values.StringValue country_description = 2;</code>
+     * <code>.dstore.values.StringValue country_description = 2;</code>
      */
     public io.dstore.values.StringValueOrBuilder getCountryDescriptionOrBuilder() {
       return getCountryDescription();
@@ -356,7 +356,7 @@ public final class MiModifyCountriesAd {
     public static final int COUNTRY_DESCRIPTION_NULL_FIELD_NUMBER = 1002;
     private boolean countryDescriptionNull_;
     /**
-     * <code>optional bool country_description_null = 1002;</code>
+     * <code>bool country_description_null = 1002;</code>
      */
     public boolean getCountryDescriptionNull() {
       return countryDescriptionNull_;
@@ -365,19 +365,19 @@ public final class MiModifyCountriesAd {
     public static final int COUNTRY_CODE_FIELD_NUMBER = 3;
     private io.dstore.values.StringValue countryCode_;
     /**
-     * <code>optional .dstore.values.StringValue country_code = 3;</code>
+     * <code>.dstore.values.StringValue country_code = 3;</code>
      */
     public boolean hasCountryCode() {
       return countryCode_ != null;
     }
     /**
-     * <code>optional .dstore.values.StringValue country_code = 3;</code>
+     * <code>.dstore.values.StringValue country_code = 3;</code>
      */
     public io.dstore.values.StringValue getCountryCode() {
       return countryCode_ == null ? io.dstore.values.StringValue.getDefaultInstance() : countryCode_;
     }
     /**
-     * <code>optional .dstore.values.StringValue country_code = 3;</code>
+     * <code>.dstore.values.StringValue country_code = 3;</code>
      */
     public io.dstore.values.StringValueOrBuilder getCountryCodeOrBuilder() {
       return getCountryCode();
@@ -386,7 +386,7 @@ public final class MiModifyCountriesAd {
     public static final int COUNTRY_CODE_NULL_FIELD_NUMBER = 1003;
     private boolean countryCodeNull_;
     /**
-     * <code>optional bool country_code_null = 1003;</code>
+     * <code>bool country_code_null = 1003;</code>
      */
     public boolean getCountryCodeNull() {
       return countryCodeNull_;
@@ -395,19 +395,19 @@ public final class MiModifyCountriesAd {
     public static final int SORT_NO_FIELD_NUMBER = 4;
     private io.dstore.values.IntegerValue sortNo_;
     /**
-     * <code>optional .dstore.values.IntegerValue sort_no = 4;</code>
+     * <code>.dstore.values.IntegerValue sort_no = 4;</code>
      */
     public boolean hasSortNo() {
       return sortNo_ != null;
     }
     /**
-     * <code>optional .dstore.values.IntegerValue sort_no = 4;</code>
+     * <code>.dstore.values.IntegerValue sort_no = 4;</code>
      */
     public io.dstore.values.IntegerValue getSortNo() {
       return sortNo_ == null ? io.dstore.values.IntegerValue.getDefaultInstance() : sortNo_;
     }
     /**
-     * <code>optional .dstore.values.IntegerValue sort_no = 4;</code>
+     * <code>.dstore.values.IntegerValue sort_no = 4;</code>
      */
     public io.dstore.values.IntegerValueOrBuilder getSortNoOrBuilder() {
       return getSortNo();
@@ -416,7 +416,7 @@ public final class MiModifyCountriesAd {
     public static final int SORT_NO_NULL_FIELD_NUMBER = 1004;
     private boolean sortNoNull_;
     /**
-     * <code>optional bool sort_no_null = 1004;</code>
+     * <code>bool sort_no_null = 1004;</code>
      */
     public boolean getSortNoNull() {
       return sortNoNull_;
@@ -425,19 +425,19 @@ public final class MiModifyCountriesAd {
     public static final int LANGUAGE_ID_FIELD_NUMBER = 5;
     private io.dstore.values.IntegerValue languageId_;
     /**
-     * <code>optional .dstore.values.IntegerValue language_id = 5;</code>
+     * <code>.dstore.values.IntegerValue language_id = 5;</code>
      */
     public boolean hasLanguageId() {
       return languageId_ != null;
     }
     /**
-     * <code>optional .dstore.values.IntegerValue language_id = 5;</code>
+     * <code>.dstore.values.IntegerValue language_id = 5;</code>
      */
     public io.dstore.values.IntegerValue getLanguageId() {
       return languageId_ == null ? io.dstore.values.IntegerValue.getDefaultInstance() : languageId_;
     }
     /**
-     * <code>optional .dstore.values.IntegerValue language_id = 5;</code>
+     * <code>.dstore.values.IntegerValue language_id = 5;</code>
      */
     public io.dstore.values.IntegerValueOrBuilder getLanguageIdOrBuilder() {
       return getLanguageId();
@@ -446,7 +446,7 @@ public final class MiModifyCountriesAd {
     public static final int LANGUAGE_ID_NULL_FIELD_NUMBER = 1005;
     private boolean languageIdNull_;
     /**
-     * <code>optional bool language_id_null = 1005;</code>
+     * <code>bool language_id_null = 1005;</code>
      */
     public boolean getLanguageIdNull() {
       return languageIdNull_;
@@ -455,19 +455,19 @@ public final class MiModifyCountriesAd {
     public static final int DELETE_COUNTRY_FIELD_NUMBER = 6;
     private io.dstore.values.BooleanValue deleteCountry_;
     /**
-     * <code>optional .dstore.values.BooleanValue delete_country = 6;</code>
+     * <code>.dstore.values.BooleanValue delete_country = 6;</code>
      */
     public boolean hasDeleteCountry() {
       return deleteCountry_ != null;
     }
     /**
-     * <code>optional .dstore.values.BooleanValue delete_country = 6;</code>
+     * <code>.dstore.values.BooleanValue delete_country = 6;</code>
      */
     public io.dstore.values.BooleanValue getDeleteCountry() {
       return deleteCountry_ == null ? io.dstore.values.BooleanValue.getDefaultInstance() : deleteCountry_;
     }
     /**
-     * <code>optional .dstore.values.BooleanValue delete_country = 6;</code>
+     * <code>.dstore.values.BooleanValue delete_country = 6;</code>
      */
     public io.dstore.values.BooleanValueOrBuilder getDeleteCountryOrBuilder() {
       return getDeleteCountry();
@@ -476,7 +476,7 @@ public final class MiModifyCountriesAd {
     public static final int DELETE_COUNTRY_NULL_FIELD_NUMBER = 1006;
     private boolean deleteCountryNull_;
     /**
-     * <code>optional bool delete_country_null = 1006;</code>
+     * <code>bool delete_country_null = 1006;</code>
      */
     public boolean getDeleteCountryNull() {
       return deleteCountryNull_;
@@ -652,7 +652,7 @@ public final class MiModifyCountriesAd {
         return memoizedHashCode;
       }
       int hash = 41;
-      hash = (19 * hash) + getDescriptorForType().hashCode();
+      hash = (19 * hash) + getDescriptor().hashCode();
       if (hasCountryId()) {
         hash = (37 * hash) + COUNTRY_ID_FIELD_NUMBER;
         hash = (53 * hash) + getCountryId().hashCode();
@@ -1026,13 +1026,13 @@ public final class MiModifyCountriesAd {
       private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> countryIdBuilder_;
       /**
-       * <code>optional .dstore.values.IntegerValue country_id = 1;</code>
+       * <code>.dstore.values.IntegerValue country_id = 1;</code>
        */
       public boolean hasCountryId() {
         return countryIdBuilder_ != null || countryId_ != null;
       }
       /**
-       * <code>optional .dstore.values.IntegerValue country_id = 1;</code>
+       * <code>.dstore.values.IntegerValue country_id = 1;</code>
        */
       public io.dstore.values.IntegerValue getCountryId() {
         if (countryIdBuilder_ == null) {
@@ -1042,7 +1042,7 @@ public final class MiModifyCountriesAd {
         }
       }
       /**
-       * <code>optional .dstore.values.IntegerValue country_id = 1;</code>
+       * <code>.dstore.values.IntegerValue country_id = 1;</code>
        */
       public Builder setCountryId(io.dstore.values.IntegerValue value) {
         if (countryIdBuilder_ == null) {
@@ -1058,7 +1058,7 @@ public final class MiModifyCountriesAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.IntegerValue country_id = 1;</code>
+       * <code>.dstore.values.IntegerValue country_id = 1;</code>
        */
       public Builder setCountryId(
           io.dstore.values.IntegerValue.Builder builderForValue) {
@@ -1072,7 +1072,7 @@ public final class MiModifyCountriesAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.IntegerValue country_id = 1;</code>
+       * <code>.dstore.values.IntegerValue country_id = 1;</code>
        */
       public Builder mergeCountryId(io.dstore.values.IntegerValue value) {
         if (countryIdBuilder_ == null) {
@@ -1090,7 +1090,7 @@ public final class MiModifyCountriesAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.IntegerValue country_id = 1;</code>
+       * <code>.dstore.values.IntegerValue country_id = 1;</code>
        */
       public Builder clearCountryId() {
         if (countryIdBuilder_ == null) {
@@ -1104,7 +1104,7 @@ public final class MiModifyCountriesAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.IntegerValue country_id = 1;</code>
+       * <code>.dstore.values.IntegerValue country_id = 1;</code>
        */
       public io.dstore.values.IntegerValue.Builder getCountryIdBuilder() {
         
@@ -1112,7 +1112,7 @@ public final class MiModifyCountriesAd {
         return getCountryIdFieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .dstore.values.IntegerValue country_id = 1;</code>
+       * <code>.dstore.values.IntegerValue country_id = 1;</code>
        */
       public io.dstore.values.IntegerValueOrBuilder getCountryIdOrBuilder() {
         if (countryIdBuilder_ != null) {
@@ -1123,7 +1123,7 @@ public final class MiModifyCountriesAd {
         }
       }
       /**
-       * <code>optional .dstore.values.IntegerValue country_id = 1;</code>
+       * <code>.dstore.values.IntegerValue country_id = 1;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> 
@@ -1141,13 +1141,13 @@ public final class MiModifyCountriesAd {
 
       private boolean countryIdNull_ ;
       /**
-       * <code>optional bool country_id_null = 1001;</code>
+       * <code>bool country_id_null = 1001;</code>
        */
       public boolean getCountryIdNull() {
         return countryIdNull_;
       }
       /**
-       * <code>optional bool country_id_null = 1001;</code>
+       * <code>bool country_id_null = 1001;</code>
        */
       public Builder setCountryIdNull(boolean value) {
         
@@ -1156,7 +1156,7 @@ public final class MiModifyCountriesAd {
         return this;
       }
       /**
-       * <code>optional bool country_id_null = 1001;</code>
+       * <code>bool country_id_null = 1001;</code>
        */
       public Builder clearCountryIdNull() {
         
@@ -1169,13 +1169,13 @@ public final class MiModifyCountriesAd {
       private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.values.StringValue, io.dstore.values.StringValue.Builder, io.dstore.values.StringValueOrBuilder> countryDescriptionBuilder_;
       /**
-       * <code>optional .dstore.values.StringValue country_description = 2;</code>
+       * <code>.dstore.values.StringValue country_description = 2;</code>
        */
       public boolean hasCountryDescription() {
         return countryDescriptionBuilder_ != null || countryDescription_ != null;
       }
       /**
-       * <code>optional .dstore.values.StringValue country_description = 2;</code>
+       * <code>.dstore.values.StringValue country_description = 2;</code>
        */
       public io.dstore.values.StringValue getCountryDescription() {
         if (countryDescriptionBuilder_ == null) {
@@ -1185,7 +1185,7 @@ public final class MiModifyCountriesAd {
         }
       }
       /**
-       * <code>optional .dstore.values.StringValue country_description = 2;</code>
+       * <code>.dstore.values.StringValue country_description = 2;</code>
        */
       public Builder setCountryDescription(io.dstore.values.StringValue value) {
         if (countryDescriptionBuilder_ == null) {
@@ -1201,7 +1201,7 @@ public final class MiModifyCountriesAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.StringValue country_description = 2;</code>
+       * <code>.dstore.values.StringValue country_description = 2;</code>
        */
       public Builder setCountryDescription(
           io.dstore.values.StringValue.Builder builderForValue) {
@@ -1215,7 +1215,7 @@ public final class MiModifyCountriesAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.StringValue country_description = 2;</code>
+       * <code>.dstore.values.StringValue country_description = 2;</code>
        */
       public Builder mergeCountryDescription(io.dstore.values.StringValue value) {
         if (countryDescriptionBuilder_ == null) {
@@ -1233,7 +1233,7 @@ public final class MiModifyCountriesAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.StringValue country_description = 2;</code>
+       * <code>.dstore.values.StringValue country_description = 2;</code>
        */
       public Builder clearCountryDescription() {
         if (countryDescriptionBuilder_ == null) {
@@ -1247,7 +1247,7 @@ public final class MiModifyCountriesAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.StringValue country_description = 2;</code>
+       * <code>.dstore.values.StringValue country_description = 2;</code>
        */
       public io.dstore.values.StringValue.Builder getCountryDescriptionBuilder() {
         
@@ -1255,7 +1255,7 @@ public final class MiModifyCountriesAd {
         return getCountryDescriptionFieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .dstore.values.StringValue country_description = 2;</code>
+       * <code>.dstore.values.StringValue country_description = 2;</code>
        */
       public io.dstore.values.StringValueOrBuilder getCountryDescriptionOrBuilder() {
         if (countryDescriptionBuilder_ != null) {
@@ -1266,7 +1266,7 @@ public final class MiModifyCountriesAd {
         }
       }
       /**
-       * <code>optional .dstore.values.StringValue country_description = 2;</code>
+       * <code>.dstore.values.StringValue country_description = 2;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.values.StringValue, io.dstore.values.StringValue.Builder, io.dstore.values.StringValueOrBuilder> 
@@ -1284,13 +1284,13 @@ public final class MiModifyCountriesAd {
 
       private boolean countryDescriptionNull_ ;
       /**
-       * <code>optional bool country_description_null = 1002;</code>
+       * <code>bool country_description_null = 1002;</code>
        */
       public boolean getCountryDescriptionNull() {
         return countryDescriptionNull_;
       }
       /**
-       * <code>optional bool country_description_null = 1002;</code>
+       * <code>bool country_description_null = 1002;</code>
        */
       public Builder setCountryDescriptionNull(boolean value) {
         
@@ -1299,7 +1299,7 @@ public final class MiModifyCountriesAd {
         return this;
       }
       /**
-       * <code>optional bool country_description_null = 1002;</code>
+       * <code>bool country_description_null = 1002;</code>
        */
       public Builder clearCountryDescriptionNull() {
         
@@ -1312,13 +1312,13 @@ public final class MiModifyCountriesAd {
       private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.values.StringValue, io.dstore.values.StringValue.Builder, io.dstore.values.StringValueOrBuilder> countryCodeBuilder_;
       /**
-       * <code>optional .dstore.values.StringValue country_code = 3;</code>
+       * <code>.dstore.values.StringValue country_code = 3;</code>
        */
       public boolean hasCountryCode() {
         return countryCodeBuilder_ != null || countryCode_ != null;
       }
       /**
-       * <code>optional .dstore.values.StringValue country_code = 3;</code>
+       * <code>.dstore.values.StringValue country_code = 3;</code>
        */
       public io.dstore.values.StringValue getCountryCode() {
         if (countryCodeBuilder_ == null) {
@@ -1328,7 +1328,7 @@ public final class MiModifyCountriesAd {
         }
       }
       /**
-       * <code>optional .dstore.values.StringValue country_code = 3;</code>
+       * <code>.dstore.values.StringValue country_code = 3;</code>
        */
       public Builder setCountryCode(io.dstore.values.StringValue value) {
         if (countryCodeBuilder_ == null) {
@@ -1344,7 +1344,7 @@ public final class MiModifyCountriesAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.StringValue country_code = 3;</code>
+       * <code>.dstore.values.StringValue country_code = 3;</code>
        */
       public Builder setCountryCode(
           io.dstore.values.StringValue.Builder builderForValue) {
@@ -1358,7 +1358,7 @@ public final class MiModifyCountriesAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.StringValue country_code = 3;</code>
+       * <code>.dstore.values.StringValue country_code = 3;</code>
        */
       public Builder mergeCountryCode(io.dstore.values.StringValue value) {
         if (countryCodeBuilder_ == null) {
@@ -1376,7 +1376,7 @@ public final class MiModifyCountriesAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.StringValue country_code = 3;</code>
+       * <code>.dstore.values.StringValue country_code = 3;</code>
        */
       public Builder clearCountryCode() {
         if (countryCodeBuilder_ == null) {
@@ -1390,7 +1390,7 @@ public final class MiModifyCountriesAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.StringValue country_code = 3;</code>
+       * <code>.dstore.values.StringValue country_code = 3;</code>
        */
       public io.dstore.values.StringValue.Builder getCountryCodeBuilder() {
         
@@ -1398,7 +1398,7 @@ public final class MiModifyCountriesAd {
         return getCountryCodeFieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .dstore.values.StringValue country_code = 3;</code>
+       * <code>.dstore.values.StringValue country_code = 3;</code>
        */
       public io.dstore.values.StringValueOrBuilder getCountryCodeOrBuilder() {
         if (countryCodeBuilder_ != null) {
@@ -1409,7 +1409,7 @@ public final class MiModifyCountriesAd {
         }
       }
       /**
-       * <code>optional .dstore.values.StringValue country_code = 3;</code>
+       * <code>.dstore.values.StringValue country_code = 3;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.values.StringValue, io.dstore.values.StringValue.Builder, io.dstore.values.StringValueOrBuilder> 
@@ -1427,13 +1427,13 @@ public final class MiModifyCountriesAd {
 
       private boolean countryCodeNull_ ;
       /**
-       * <code>optional bool country_code_null = 1003;</code>
+       * <code>bool country_code_null = 1003;</code>
        */
       public boolean getCountryCodeNull() {
         return countryCodeNull_;
       }
       /**
-       * <code>optional bool country_code_null = 1003;</code>
+       * <code>bool country_code_null = 1003;</code>
        */
       public Builder setCountryCodeNull(boolean value) {
         
@@ -1442,7 +1442,7 @@ public final class MiModifyCountriesAd {
         return this;
       }
       /**
-       * <code>optional bool country_code_null = 1003;</code>
+       * <code>bool country_code_null = 1003;</code>
        */
       public Builder clearCountryCodeNull() {
         
@@ -1455,13 +1455,13 @@ public final class MiModifyCountriesAd {
       private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> sortNoBuilder_;
       /**
-       * <code>optional .dstore.values.IntegerValue sort_no = 4;</code>
+       * <code>.dstore.values.IntegerValue sort_no = 4;</code>
        */
       public boolean hasSortNo() {
         return sortNoBuilder_ != null || sortNo_ != null;
       }
       /**
-       * <code>optional .dstore.values.IntegerValue sort_no = 4;</code>
+       * <code>.dstore.values.IntegerValue sort_no = 4;</code>
        */
       public io.dstore.values.IntegerValue getSortNo() {
         if (sortNoBuilder_ == null) {
@@ -1471,7 +1471,7 @@ public final class MiModifyCountriesAd {
         }
       }
       /**
-       * <code>optional .dstore.values.IntegerValue sort_no = 4;</code>
+       * <code>.dstore.values.IntegerValue sort_no = 4;</code>
        */
       public Builder setSortNo(io.dstore.values.IntegerValue value) {
         if (sortNoBuilder_ == null) {
@@ -1487,7 +1487,7 @@ public final class MiModifyCountriesAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.IntegerValue sort_no = 4;</code>
+       * <code>.dstore.values.IntegerValue sort_no = 4;</code>
        */
       public Builder setSortNo(
           io.dstore.values.IntegerValue.Builder builderForValue) {
@@ -1501,7 +1501,7 @@ public final class MiModifyCountriesAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.IntegerValue sort_no = 4;</code>
+       * <code>.dstore.values.IntegerValue sort_no = 4;</code>
        */
       public Builder mergeSortNo(io.dstore.values.IntegerValue value) {
         if (sortNoBuilder_ == null) {
@@ -1519,7 +1519,7 @@ public final class MiModifyCountriesAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.IntegerValue sort_no = 4;</code>
+       * <code>.dstore.values.IntegerValue sort_no = 4;</code>
        */
       public Builder clearSortNo() {
         if (sortNoBuilder_ == null) {
@@ -1533,7 +1533,7 @@ public final class MiModifyCountriesAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.IntegerValue sort_no = 4;</code>
+       * <code>.dstore.values.IntegerValue sort_no = 4;</code>
        */
       public io.dstore.values.IntegerValue.Builder getSortNoBuilder() {
         
@@ -1541,7 +1541,7 @@ public final class MiModifyCountriesAd {
         return getSortNoFieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .dstore.values.IntegerValue sort_no = 4;</code>
+       * <code>.dstore.values.IntegerValue sort_no = 4;</code>
        */
       public io.dstore.values.IntegerValueOrBuilder getSortNoOrBuilder() {
         if (sortNoBuilder_ != null) {
@@ -1552,7 +1552,7 @@ public final class MiModifyCountriesAd {
         }
       }
       /**
-       * <code>optional .dstore.values.IntegerValue sort_no = 4;</code>
+       * <code>.dstore.values.IntegerValue sort_no = 4;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> 
@@ -1570,13 +1570,13 @@ public final class MiModifyCountriesAd {
 
       private boolean sortNoNull_ ;
       /**
-       * <code>optional bool sort_no_null = 1004;</code>
+       * <code>bool sort_no_null = 1004;</code>
        */
       public boolean getSortNoNull() {
         return sortNoNull_;
       }
       /**
-       * <code>optional bool sort_no_null = 1004;</code>
+       * <code>bool sort_no_null = 1004;</code>
        */
       public Builder setSortNoNull(boolean value) {
         
@@ -1585,7 +1585,7 @@ public final class MiModifyCountriesAd {
         return this;
       }
       /**
-       * <code>optional bool sort_no_null = 1004;</code>
+       * <code>bool sort_no_null = 1004;</code>
        */
       public Builder clearSortNoNull() {
         
@@ -1598,13 +1598,13 @@ public final class MiModifyCountriesAd {
       private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> languageIdBuilder_;
       /**
-       * <code>optional .dstore.values.IntegerValue language_id = 5;</code>
+       * <code>.dstore.values.IntegerValue language_id = 5;</code>
        */
       public boolean hasLanguageId() {
         return languageIdBuilder_ != null || languageId_ != null;
       }
       /**
-       * <code>optional .dstore.values.IntegerValue language_id = 5;</code>
+       * <code>.dstore.values.IntegerValue language_id = 5;</code>
        */
       public io.dstore.values.IntegerValue getLanguageId() {
         if (languageIdBuilder_ == null) {
@@ -1614,7 +1614,7 @@ public final class MiModifyCountriesAd {
         }
       }
       /**
-       * <code>optional .dstore.values.IntegerValue language_id = 5;</code>
+       * <code>.dstore.values.IntegerValue language_id = 5;</code>
        */
       public Builder setLanguageId(io.dstore.values.IntegerValue value) {
         if (languageIdBuilder_ == null) {
@@ -1630,7 +1630,7 @@ public final class MiModifyCountriesAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.IntegerValue language_id = 5;</code>
+       * <code>.dstore.values.IntegerValue language_id = 5;</code>
        */
       public Builder setLanguageId(
           io.dstore.values.IntegerValue.Builder builderForValue) {
@@ -1644,7 +1644,7 @@ public final class MiModifyCountriesAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.IntegerValue language_id = 5;</code>
+       * <code>.dstore.values.IntegerValue language_id = 5;</code>
        */
       public Builder mergeLanguageId(io.dstore.values.IntegerValue value) {
         if (languageIdBuilder_ == null) {
@@ -1662,7 +1662,7 @@ public final class MiModifyCountriesAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.IntegerValue language_id = 5;</code>
+       * <code>.dstore.values.IntegerValue language_id = 5;</code>
        */
       public Builder clearLanguageId() {
         if (languageIdBuilder_ == null) {
@@ -1676,7 +1676,7 @@ public final class MiModifyCountriesAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.IntegerValue language_id = 5;</code>
+       * <code>.dstore.values.IntegerValue language_id = 5;</code>
        */
       public io.dstore.values.IntegerValue.Builder getLanguageIdBuilder() {
         
@@ -1684,7 +1684,7 @@ public final class MiModifyCountriesAd {
         return getLanguageIdFieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .dstore.values.IntegerValue language_id = 5;</code>
+       * <code>.dstore.values.IntegerValue language_id = 5;</code>
        */
       public io.dstore.values.IntegerValueOrBuilder getLanguageIdOrBuilder() {
         if (languageIdBuilder_ != null) {
@@ -1695,7 +1695,7 @@ public final class MiModifyCountriesAd {
         }
       }
       /**
-       * <code>optional .dstore.values.IntegerValue language_id = 5;</code>
+       * <code>.dstore.values.IntegerValue language_id = 5;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> 
@@ -1713,13 +1713,13 @@ public final class MiModifyCountriesAd {
 
       private boolean languageIdNull_ ;
       /**
-       * <code>optional bool language_id_null = 1005;</code>
+       * <code>bool language_id_null = 1005;</code>
        */
       public boolean getLanguageIdNull() {
         return languageIdNull_;
       }
       /**
-       * <code>optional bool language_id_null = 1005;</code>
+       * <code>bool language_id_null = 1005;</code>
        */
       public Builder setLanguageIdNull(boolean value) {
         
@@ -1728,7 +1728,7 @@ public final class MiModifyCountriesAd {
         return this;
       }
       /**
-       * <code>optional bool language_id_null = 1005;</code>
+       * <code>bool language_id_null = 1005;</code>
        */
       public Builder clearLanguageIdNull() {
         
@@ -1741,13 +1741,13 @@ public final class MiModifyCountriesAd {
       private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.values.BooleanValue, io.dstore.values.BooleanValue.Builder, io.dstore.values.BooleanValueOrBuilder> deleteCountryBuilder_;
       /**
-       * <code>optional .dstore.values.BooleanValue delete_country = 6;</code>
+       * <code>.dstore.values.BooleanValue delete_country = 6;</code>
        */
       public boolean hasDeleteCountry() {
         return deleteCountryBuilder_ != null || deleteCountry_ != null;
       }
       /**
-       * <code>optional .dstore.values.BooleanValue delete_country = 6;</code>
+       * <code>.dstore.values.BooleanValue delete_country = 6;</code>
        */
       public io.dstore.values.BooleanValue getDeleteCountry() {
         if (deleteCountryBuilder_ == null) {
@@ -1757,7 +1757,7 @@ public final class MiModifyCountriesAd {
         }
       }
       /**
-       * <code>optional .dstore.values.BooleanValue delete_country = 6;</code>
+       * <code>.dstore.values.BooleanValue delete_country = 6;</code>
        */
       public Builder setDeleteCountry(io.dstore.values.BooleanValue value) {
         if (deleteCountryBuilder_ == null) {
@@ -1773,7 +1773,7 @@ public final class MiModifyCountriesAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.BooleanValue delete_country = 6;</code>
+       * <code>.dstore.values.BooleanValue delete_country = 6;</code>
        */
       public Builder setDeleteCountry(
           io.dstore.values.BooleanValue.Builder builderForValue) {
@@ -1787,7 +1787,7 @@ public final class MiModifyCountriesAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.BooleanValue delete_country = 6;</code>
+       * <code>.dstore.values.BooleanValue delete_country = 6;</code>
        */
       public Builder mergeDeleteCountry(io.dstore.values.BooleanValue value) {
         if (deleteCountryBuilder_ == null) {
@@ -1805,7 +1805,7 @@ public final class MiModifyCountriesAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.BooleanValue delete_country = 6;</code>
+       * <code>.dstore.values.BooleanValue delete_country = 6;</code>
        */
       public Builder clearDeleteCountry() {
         if (deleteCountryBuilder_ == null) {
@@ -1819,7 +1819,7 @@ public final class MiModifyCountriesAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.BooleanValue delete_country = 6;</code>
+       * <code>.dstore.values.BooleanValue delete_country = 6;</code>
        */
       public io.dstore.values.BooleanValue.Builder getDeleteCountryBuilder() {
         
@@ -1827,7 +1827,7 @@ public final class MiModifyCountriesAd {
         return getDeleteCountryFieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .dstore.values.BooleanValue delete_country = 6;</code>
+       * <code>.dstore.values.BooleanValue delete_country = 6;</code>
        */
       public io.dstore.values.BooleanValueOrBuilder getDeleteCountryOrBuilder() {
         if (deleteCountryBuilder_ != null) {
@@ -1838,7 +1838,7 @@ public final class MiModifyCountriesAd {
         }
       }
       /**
-       * <code>optional .dstore.values.BooleanValue delete_country = 6;</code>
+       * <code>.dstore.values.BooleanValue delete_country = 6;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.values.BooleanValue, io.dstore.values.BooleanValue.Builder, io.dstore.values.BooleanValueOrBuilder> 
@@ -1856,13 +1856,13 @@ public final class MiModifyCountriesAd {
 
       private boolean deleteCountryNull_ ;
       /**
-       * <code>optional bool delete_country_null = 1006;</code>
+       * <code>bool delete_country_null = 1006;</code>
        */
       public boolean getDeleteCountryNull() {
         return deleteCountryNull_;
       }
       /**
-       * <code>optional bool delete_country_null = 1006;</code>
+       * <code>bool delete_country_null = 1006;</code>
        */
       public Builder setDeleteCountryNull(boolean value) {
         
@@ -1871,7 +1871,7 @@ public final class MiModifyCountriesAd {
         return this;
       }
       /**
-       * <code>optional bool delete_country_null = 1006;</code>
+       * <code>bool delete_country_null = 1006;</code>
        */
       public Builder clearDeleteCountryNull() {
         
@@ -2130,7 +2130,7 @@ public final class MiModifyCountriesAd {
         com.google.protobuf.MessageOrBuilder {
 
       /**
-       * <code>optional int32 row_id = 10000;</code>
+       * <code>int32 row_id = 10000;</code>
        */
       int getRowId();
     }
@@ -2205,7 +2205,7 @@ public final class MiModifyCountriesAd {
       public static final int ROW_ID_FIELD_NUMBER = 10000;
       private int rowId_;
       /**
-       * <code>optional int32 row_id = 10000;</code>
+       * <code>int32 row_id = 10000;</code>
        */
       public int getRowId() {
         return rowId_;
@@ -2264,7 +2264,7 @@ public final class MiModifyCountriesAd {
           return memoizedHashCode;
         }
         int hash = 41;
-        hash = (19 * hash) + getDescriptorForType().hashCode();
+        hash = (19 * hash) + getDescriptor().hashCode();
         hash = (37 * hash) + ROW_ID_FIELD_NUMBER;
         hash = (53 * hash) + getRowId();
         hash = (29 * hash) + unknownFields.hashCode();
@@ -2482,13 +2482,13 @@ public final class MiModifyCountriesAd {
 
         private int rowId_ ;
         /**
-         * <code>optional int32 row_id = 10000;</code>
+         * <code>int32 row_id = 10000;</code>
          */
         public int getRowId() {
           return rowId_;
         }
         /**
-         * <code>optional int32 row_id = 10000;</code>
+         * <code>int32 row_id = 10000;</code>
          */
         public Builder setRowId(int value) {
           
@@ -2497,7 +2497,7 @@ public final class MiModifyCountriesAd {
           return this;
         }
         /**
-         * <code>optional int32 row_id = 10000;</code>
+         * <code>int32 row_id = 10000;</code>
          */
         public Builder clearRowId() {
           
@@ -2750,7 +2750,7 @@ public final class MiModifyCountriesAd {
         return memoizedHashCode;
       }
       int hash = 41;
-      hash = (19 * hash) + getDescriptorForType().hashCode();
+      hash = (19 * hash) + getDescriptor().hashCode();
       if (getMetaInformationCount() > 0) {
         hash = (37 * hash) + META_INFORMATION_FIELD_NUMBER;
         hash = (53 * hash) + getMetaInformationList().hashCode();

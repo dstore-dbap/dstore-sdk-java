@@ -19,92 +19,92 @@ public final class ImModifyNodeDescriptionAd {
       com.google.protobuf.MessageOrBuilder {
 
     /**
-     * <code>optional .dstore.values.IntegerValue node_id = 1;</code>
+     * <code>.dstore.values.IntegerValue node_id = 1;</code>
      */
     boolean hasNodeId();
     /**
-     * <code>optional .dstore.values.IntegerValue node_id = 1;</code>
+     * <code>.dstore.values.IntegerValue node_id = 1;</code>
      */
     io.dstore.values.IntegerValue getNodeId();
     /**
-     * <code>optional .dstore.values.IntegerValue node_id = 1;</code>
+     * <code>.dstore.values.IntegerValue node_id = 1;</code>
      */
     io.dstore.values.IntegerValueOrBuilder getNodeIdOrBuilder();
 
     /**
-     * <code>optional bool node_id_null = 1001;</code>
+     * <code>bool node_id_null = 1001;</code>
      */
     boolean getNodeIdNull();
 
     /**
-     * <code>optional .dstore.values.IntegerValue language_id = 2;</code>
+     * <code>.dstore.values.IntegerValue language_id = 2;</code>
      */
     boolean hasLanguageId();
     /**
-     * <code>optional .dstore.values.IntegerValue language_id = 2;</code>
+     * <code>.dstore.values.IntegerValue language_id = 2;</code>
      */
     io.dstore.values.IntegerValue getLanguageId();
     /**
-     * <code>optional .dstore.values.IntegerValue language_id = 2;</code>
+     * <code>.dstore.values.IntegerValue language_id = 2;</code>
      */
     io.dstore.values.IntegerValueOrBuilder getLanguageIdOrBuilder();
 
     /**
-     * <code>optional bool language_id_null = 1002;</code>
+     * <code>bool language_id_null = 1002;</code>
      */
     boolean getLanguageIdNull();
 
     /**
-     * <code>optional .dstore.values.StringValue node_description = 3;</code>
+     * <code>.dstore.values.StringValue node_description = 3;</code>
      */
     boolean hasNodeDescription();
     /**
-     * <code>optional .dstore.values.StringValue node_description = 3;</code>
+     * <code>.dstore.values.StringValue node_description = 3;</code>
      */
     io.dstore.values.StringValue getNodeDescription();
     /**
-     * <code>optional .dstore.values.StringValue node_description = 3;</code>
+     * <code>.dstore.values.StringValue node_description = 3;</code>
      */
     io.dstore.values.StringValueOrBuilder getNodeDescriptionOrBuilder();
 
     /**
-     * <code>optional bool node_description_null = 1003;</code>
+     * <code>bool node_description_null = 1003;</code>
      */
     boolean getNodeDescriptionNull();
 
     /**
-     * <code>optional .dstore.values.BooleanValue delete_node_description = 4;</code>
+     * <code>.dstore.values.BooleanValue delete_node_description = 4;</code>
      */
     boolean hasDeleteNodeDescription();
     /**
-     * <code>optional .dstore.values.BooleanValue delete_node_description = 4;</code>
+     * <code>.dstore.values.BooleanValue delete_node_description = 4;</code>
      */
     io.dstore.values.BooleanValue getDeleteNodeDescription();
     /**
-     * <code>optional .dstore.values.BooleanValue delete_node_description = 4;</code>
+     * <code>.dstore.values.BooleanValue delete_node_description = 4;</code>
      */
     io.dstore.values.BooleanValueOrBuilder getDeleteNodeDescriptionOrBuilder();
 
     /**
-     * <code>optional bool delete_node_description_null = 1004;</code>
+     * <code>bool delete_node_description_null = 1004;</code>
      */
     boolean getDeleteNodeDescriptionNull();
 
     /**
-     * <code>optional .dstore.values.BooleanValue update_product_descriptions = 5;</code>
+     * <code>.dstore.values.BooleanValue update_product_descriptions = 5;</code>
      */
     boolean hasUpdateProductDescriptions();
     /**
-     * <code>optional .dstore.values.BooleanValue update_product_descriptions = 5;</code>
+     * <code>.dstore.values.BooleanValue update_product_descriptions = 5;</code>
      */
     io.dstore.values.BooleanValue getUpdateProductDescriptions();
     /**
-     * <code>optional .dstore.values.BooleanValue update_product_descriptions = 5;</code>
+     * <code>.dstore.values.BooleanValue update_product_descriptions = 5;</code>
      */
     io.dstore.values.BooleanValueOrBuilder getUpdateProductDescriptionsOrBuilder();
 
     /**
-     * <code>optional bool update_product_descriptions_null = 1005;</code>
+     * <code>bool update_product_descriptions_null = 1005;</code>
      */
     boolean getUpdateProductDescriptionsNull();
   }
@@ -268,19 +268,19 @@ public final class ImModifyNodeDescriptionAd {
     public static final int NODE_ID_FIELD_NUMBER = 1;
     private io.dstore.values.IntegerValue nodeId_;
     /**
-     * <code>optional .dstore.values.IntegerValue node_id = 1;</code>
+     * <code>.dstore.values.IntegerValue node_id = 1;</code>
      */
     public boolean hasNodeId() {
       return nodeId_ != null;
     }
     /**
-     * <code>optional .dstore.values.IntegerValue node_id = 1;</code>
+     * <code>.dstore.values.IntegerValue node_id = 1;</code>
      */
     public io.dstore.values.IntegerValue getNodeId() {
       return nodeId_ == null ? io.dstore.values.IntegerValue.getDefaultInstance() : nodeId_;
     }
     /**
-     * <code>optional .dstore.values.IntegerValue node_id = 1;</code>
+     * <code>.dstore.values.IntegerValue node_id = 1;</code>
      */
     public io.dstore.values.IntegerValueOrBuilder getNodeIdOrBuilder() {
       return getNodeId();
@@ -289,7 +289,7 @@ public final class ImModifyNodeDescriptionAd {
     public static final int NODE_ID_NULL_FIELD_NUMBER = 1001;
     private boolean nodeIdNull_;
     /**
-     * <code>optional bool node_id_null = 1001;</code>
+     * <code>bool node_id_null = 1001;</code>
      */
     public boolean getNodeIdNull() {
       return nodeIdNull_;
@@ -298,19 +298,19 @@ public final class ImModifyNodeDescriptionAd {
     public static final int LANGUAGE_ID_FIELD_NUMBER = 2;
     private io.dstore.values.IntegerValue languageId_;
     /**
-     * <code>optional .dstore.values.IntegerValue language_id = 2;</code>
+     * <code>.dstore.values.IntegerValue language_id = 2;</code>
      */
     public boolean hasLanguageId() {
       return languageId_ != null;
     }
     /**
-     * <code>optional .dstore.values.IntegerValue language_id = 2;</code>
+     * <code>.dstore.values.IntegerValue language_id = 2;</code>
      */
     public io.dstore.values.IntegerValue getLanguageId() {
       return languageId_ == null ? io.dstore.values.IntegerValue.getDefaultInstance() : languageId_;
     }
     /**
-     * <code>optional .dstore.values.IntegerValue language_id = 2;</code>
+     * <code>.dstore.values.IntegerValue language_id = 2;</code>
      */
     public io.dstore.values.IntegerValueOrBuilder getLanguageIdOrBuilder() {
       return getLanguageId();
@@ -319,7 +319,7 @@ public final class ImModifyNodeDescriptionAd {
     public static final int LANGUAGE_ID_NULL_FIELD_NUMBER = 1002;
     private boolean languageIdNull_;
     /**
-     * <code>optional bool language_id_null = 1002;</code>
+     * <code>bool language_id_null = 1002;</code>
      */
     public boolean getLanguageIdNull() {
       return languageIdNull_;
@@ -328,19 +328,19 @@ public final class ImModifyNodeDescriptionAd {
     public static final int NODE_DESCRIPTION_FIELD_NUMBER = 3;
     private io.dstore.values.StringValue nodeDescription_;
     /**
-     * <code>optional .dstore.values.StringValue node_description = 3;</code>
+     * <code>.dstore.values.StringValue node_description = 3;</code>
      */
     public boolean hasNodeDescription() {
       return nodeDescription_ != null;
     }
     /**
-     * <code>optional .dstore.values.StringValue node_description = 3;</code>
+     * <code>.dstore.values.StringValue node_description = 3;</code>
      */
     public io.dstore.values.StringValue getNodeDescription() {
       return nodeDescription_ == null ? io.dstore.values.StringValue.getDefaultInstance() : nodeDescription_;
     }
     /**
-     * <code>optional .dstore.values.StringValue node_description = 3;</code>
+     * <code>.dstore.values.StringValue node_description = 3;</code>
      */
     public io.dstore.values.StringValueOrBuilder getNodeDescriptionOrBuilder() {
       return getNodeDescription();
@@ -349,7 +349,7 @@ public final class ImModifyNodeDescriptionAd {
     public static final int NODE_DESCRIPTION_NULL_FIELD_NUMBER = 1003;
     private boolean nodeDescriptionNull_;
     /**
-     * <code>optional bool node_description_null = 1003;</code>
+     * <code>bool node_description_null = 1003;</code>
      */
     public boolean getNodeDescriptionNull() {
       return nodeDescriptionNull_;
@@ -358,19 +358,19 @@ public final class ImModifyNodeDescriptionAd {
     public static final int DELETE_NODE_DESCRIPTION_FIELD_NUMBER = 4;
     private io.dstore.values.BooleanValue deleteNodeDescription_;
     /**
-     * <code>optional .dstore.values.BooleanValue delete_node_description = 4;</code>
+     * <code>.dstore.values.BooleanValue delete_node_description = 4;</code>
      */
     public boolean hasDeleteNodeDescription() {
       return deleteNodeDescription_ != null;
     }
     /**
-     * <code>optional .dstore.values.BooleanValue delete_node_description = 4;</code>
+     * <code>.dstore.values.BooleanValue delete_node_description = 4;</code>
      */
     public io.dstore.values.BooleanValue getDeleteNodeDescription() {
       return deleteNodeDescription_ == null ? io.dstore.values.BooleanValue.getDefaultInstance() : deleteNodeDescription_;
     }
     /**
-     * <code>optional .dstore.values.BooleanValue delete_node_description = 4;</code>
+     * <code>.dstore.values.BooleanValue delete_node_description = 4;</code>
      */
     public io.dstore.values.BooleanValueOrBuilder getDeleteNodeDescriptionOrBuilder() {
       return getDeleteNodeDescription();
@@ -379,7 +379,7 @@ public final class ImModifyNodeDescriptionAd {
     public static final int DELETE_NODE_DESCRIPTION_NULL_FIELD_NUMBER = 1004;
     private boolean deleteNodeDescriptionNull_;
     /**
-     * <code>optional bool delete_node_description_null = 1004;</code>
+     * <code>bool delete_node_description_null = 1004;</code>
      */
     public boolean getDeleteNodeDescriptionNull() {
       return deleteNodeDescriptionNull_;
@@ -388,19 +388,19 @@ public final class ImModifyNodeDescriptionAd {
     public static final int UPDATE_PRODUCT_DESCRIPTIONS_FIELD_NUMBER = 5;
     private io.dstore.values.BooleanValue updateProductDescriptions_;
     /**
-     * <code>optional .dstore.values.BooleanValue update_product_descriptions = 5;</code>
+     * <code>.dstore.values.BooleanValue update_product_descriptions = 5;</code>
      */
     public boolean hasUpdateProductDescriptions() {
       return updateProductDescriptions_ != null;
     }
     /**
-     * <code>optional .dstore.values.BooleanValue update_product_descriptions = 5;</code>
+     * <code>.dstore.values.BooleanValue update_product_descriptions = 5;</code>
      */
     public io.dstore.values.BooleanValue getUpdateProductDescriptions() {
       return updateProductDescriptions_ == null ? io.dstore.values.BooleanValue.getDefaultInstance() : updateProductDescriptions_;
     }
     /**
-     * <code>optional .dstore.values.BooleanValue update_product_descriptions = 5;</code>
+     * <code>.dstore.values.BooleanValue update_product_descriptions = 5;</code>
      */
     public io.dstore.values.BooleanValueOrBuilder getUpdateProductDescriptionsOrBuilder() {
       return getUpdateProductDescriptions();
@@ -409,7 +409,7 @@ public final class ImModifyNodeDescriptionAd {
     public static final int UPDATE_PRODUCT_DESCRIPTIONS_NULL_FIELD_NUMBER = 1005;
     private boolean updateProductDescriptionsNull_;
     /**
-     * <code>optional bool update_product_descriptions_null = 1005;</code>
+     * <code>bool update_product_descriptions_null = 1005;</code>
      */
     public boolean getUpdateProductDescriptionsNull() {
       return updateProductDescriptionsNull_;
@@ -564,7 +564,7 @@ public final class ImModifyNodeDescriptionAd {
         return memoizedHashCode;
       }
       int hash = 41;
-      hash = (19 * hash) + getDescriptorForType().hashCode();
+      hash = (19 * hash) + getDescriptor().hashCode();
       if (hasNodeId()) {
         hash = (37 * hash) + NODE_ID_FIELD_NUMBER;
         hash = (53 * hash) + getNodeId().hashCode();
@@ -911,13 +911,13 @@ public final class ImModifyNodeDescriptionAd {
       private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> nodeIdBuilder_;
       /**
-       * <code>optional .dstore.values.IntegerValue node_id = 1;</code>
+       * <code>.dstore.values.IntegerValue node_id = 1;</code>
        */
       public boolean hasNodeId() {
         return nodeIdBuilder_ != null || nodeId_ != null;
       }
       /**
-       * <code>optional .dstore.values.IntegerValue node_id = 1;</code>
+       * <code>.dstore.values.IntegerValue node_id = 1;</code>
        */
       public io.dstore.values.IntegerValue getNodeId() {
         if (nodeIdBuilder_ == null) {
@@ -927,7 +927,7 @@ public final class ImModifyNodeDescriptionAd {
         }
       }
       /**
-       * <code>optional .dstore.values.IntegerValue node_id = 1;</code>
+       * <code>.dstore.values.IntegerValue node_id = 1;</code>
        */
       public Builder setNodeId(io.dstore.values.IntegerValue value) {
         if (nodeIdBuilder_ == null) {
@@ -943,7 +943,7 @@ public final class ImModifyNodeDescriptionAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.IntegerValue node_id = 1;</code>
+       * <code>.dstore.values.IntegerValue node_id = 1;</code>
        */
       public Builder setNodeId(
           io.dstore.values.IntegerValue.Builder builderForValue) {
@@ -957,7 +957,7 @@ public final class ImModifyNodeDescriptionAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.IntegerValue node_id = 1;</code>
+       * <code>.dstore.values.IntegerValue node_id = 1;</code>
        */
       public Builder mergeNodeId(io.dstore.values.IntegerValue value) {
         if (nodeIdBuilder_ == null) {
@@ -975,7 +975,7 @@ public final class ImModifyNodeDescriptionAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.IntegerValue node_id = 1;</code>
+       * <code>.dstore.values.IntegerValue node_id = 1;</code>
        */
       public Builder clearNodeId() {
         if (nodeIdBuilder_ == null) {
@@ -989,7 +989,7 @@ public final class ImModifyNodeDescriptionAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.IntegerValue node_id = 1;</code>
+       * <code>.dstore.values.IntegerValue node_id = 1;</code>
        */
       public io.dstore.values.IntegerValue.Builder getNodeIdBuilder() {
         
@@ -997,7 +997,7 @@ public final class ImModifyNodeDescriptionAd {
         return getNodeIdFieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .dstore.values.IntegerValue node_id = 1;</code>
+       * <code>.dstore.values.IntegerValue node_id = 1;</code>
        */
       public io.dstore.values.IntegerValueOrBuilder getNodeIdOrBuilder() {
         if (nodeIdBuilder_ != null) {
@@ -1008,7 +1008,7 @@ public final class ImModifyNodeDescriptionAd {
         }
       }
       /**
-       * <code>optional .dstore.values.IntegerValue node_id = 1;</code>
+       * <code>.dstore.values.IntegerValue node_id = 1;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> 
@@ -1026,13 +1026,13 @@ public final class ImModifyNodeDescriptionAd {
 
       private boolean nodeIdNull_ ;
       /**
-       * <code>optional bool node_id_null = 1001;</code>
+       * <code>bool node_id_null = 1001;</code>
        */
       public boolean getNodeIdNull() {
         return nodeIdNull_;
       }
       /**
-       * <code>optional bool node_id_null = 1001;</code>
+       * <code>bool node_id_null = 1001;</code>
        */
       public Builder setNodeIdNull(boolean value) {
         
@@ -1041,7 +1041,7 @@ public final class ImModifyNodeDescriptionAd {
         return this;
       }
       /**
-       * <code>optional bool node_id_null = 1001;</code>
+       * <code>bool node_id_null = 1001;</code>
        */
       public Builder clearNodeIdNull() {
         
@@ -1054,13 +1054,13 @@ public final class ImModifyNodeDescriptionAd {
       private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> languageIdBuilder_;
       /**
-       * <code>optional .dstore.values.IntegerValue language_id = 2;</code>
+       * <code>.dstore.values.IntegerValue language_id = 2;</code>
        */
       public boolean hasLanguageId() {
         return languageIdBuilder_ != null || languageId_ != null;
       }
       /**
-       * <code>optional .dstore.values.IntegerValue language_id = 2;</code>
+       * <code>.dstore.values.IntegerValue language_id = 2;</code>
        */
       public io.dstore.values.IntegerValue getLanguageId() {
         if (languageIdBuilder_ == null) {
@@ -1070,7 +1070,7 @@ public final class ImModifyNodeDescriptionAd {
         }
       }
       /**
-       * <code>optional .dstore.values.IntegerValue language_id = 2;</code>
+       * <code>.dstore.values.IntegerValue language_id = 2;</code>
        */
       public Builder setLanguageId(io.dstore.values.IntegerValue value) {
         if (languageIdBuilder_ == null) {
@@ -1086,7 +1086,7 @@ public final class ImModifyNodeDescriptionAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.IntegerValue language_id = 2;</code>
+       * <code>.dstore.values.IntegerValue language_id = 2;</code>
        */
       public Builder setLanguageId(
           io.dstore.values.IntegerValue.Builder builderForValue) {
@@ -1100,7 +1100,7 @@ public final class ImModifyNodeDescriptionAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.IntegerValue language_id = 2;</code>
+       * <code>.dstore.values.IntegerValue language_id = 2;</code>
        */
       public Builder mergeLanguageId(io.dstore.values.IntegerValue value) {
         if (languageIdBuilder_ == null) {
@@ -1118,7 +1118,7 @@ public final class ImModifyNodeDescriptionAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.IntegerValue language_id = 2;</code>
+       * <code>.dstore.values.IntegerValue language_id = 2;</code>
        */
       public Builder clearLanguageId() {
         if (languageIdBuilder_ == null) {
@@ -1132,7 +1132,7 @@ public final class ImModifyNodeDescriptionAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.IntegerValue language_id = 2;</code>
+       * <code>.dstore.values.IntegerValue language_id = 2;</code>
        */
       public io.dstore.values.IntegerValue.Builder getLanguageIdBuilder() {
         
@@ -1140,7 +1140,7 @@ public final class ImModifyNodeDescriptionAd {
         return getLanguageIdFieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .dstore.values.IntegerValue language_id = 2;</code>
+       * <code>.dstore.values.IntegerValue language_id = 2;</code>
        */
       public io.dstore.values.IntegerValueOrBuilder getLanguageIdOrBuilder() {
         if (languageIdBuilder_ != null) {
@@ -1151,7 +1151,7 @@ public final class ImModifyNodeDescriptionAd {
         }
       }
       /**
-       * <code>optional .dstore.values.IntegerValue language_id = 2;</code>
+       * <code>.dstore.values.IntegerValue language_id = 2;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> 
@@ -1169,13 +1169,13 @@ public final class ImModifyNodeDescriptionAd {
 
       private boolean languageIdNull_ ;
       /**
-       * <code>optional bool language_id_null = 1002;</code>
+       * <code>bool language_id_null = 1002;</code>
        */
       public boolean getLanguageIdNull() {
         return languageIdNull_;
       }
       /**
-       * <code>optional bool language_id_null = 1002;</code>
+       * <code>bool language_id_null = 1002;</code>
        */
       public Builder setLanguageIdNull(boolean value) {
         
@@ -1184,7 +1184,7 @@ public final class ImModifyNodeDescriptionAd {
         return this;
       }
       /**
-       * <code>optional bool language_id_null = 1002;</code>
+       * <code>bool language_id_null = 1002;</code>
        */
       public Builder clearLanguageIdNull() {
         
@@ -1197,13 +1197,13 @@ public final class ImModifyNodeDescriptionAd {
       private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.values.StringValue, io.dstore.values.StringValue.Builder, io.dstore.values.StringValueOrBuilder> nodeDescriptionBuilder_;
       /**
-       * <code>optional .dstore.values.StringValue node_description = 3;</code>
+       * <code>.dstore.values.StringValue node_description = 3;</code>
        */
       public boolean hasNodeDescription() {
         return nodeDescriptionBuilder_ != null || nodeDescription_ != null;
       }
       /**
-       * <code>optional .dstore.values.StringValue node_description = 3;</code>
+       * <code>.dstore.values.StringValue node_description = 3;</code>
        */
       public io.dstore.values.StringValue getNodeDescription() {
         if (nodeDescriptionBuilder_ == null) {
@@ -1213,7 +1213,7 @@ public final class ImModifyNodeDescriptionAd {
         }
       }
       /**
-       * <code>optional .dstore.values.StringValue node_description = 3;</code>
+       * <code>.dstore.values.StringValue node_description = 3;</code>
        */
       public Builder setNodeDescription(io.dstore.values.StringValue value) {
         if (nodeDescriptionBuilder_ == null) {
@@ -1229,7 +1229,7 @@ public final class ImModifyNodeDescriptionAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.StringValue node_description = 3;</code>
+       * <code>.dstore.values.StringValue node_description = 3;</code>
        */
       public Builder setNodeDescription(
           io.dstore.values.StringValue.Builder builderForValue) {
@@ -1243,7 +1243,7 @@ public final class ImModifyNodeDescriptionAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.StringValue node_description = 3;</code>
+       * <code>.dstore.values.StringValue node_description = 3;</code>
        */
       public Builder mergeNodeDescription(io.dstore.values.StringValue value) {
         if (nodeDescriptionBuilder_ == null) {
@@ -1261,7 +1261,7 @@ public final class ImModifyNodeDescriptionAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.StringValue node_description = 3;</code>
+       * <code>.dstore.values.StringValue node_description = 3;</code>
        */
       public Builder clearNodeDescription() {
         if (nodeDescriptionBuilder_ == null) {
@@ -1275,7 +1275,7 @@ public final class ImModifyNodeDescriptionAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.StringValue node_description = 3;</code>
+       * <code>.dstore.values.StringValue node_description = 3;</code>
        */
       public io.dstore.values.StringValue.Builder getNodeDescriptionBuilder() {
         
@@ -1283,7 +1283,7 @@ public final class ImModifyNodeDescriptionAd {
         return getNodeDescriptionFieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .dstore.values.StringValue node_description = 3;</code>
+       * <code>.dstore.values.StringValue node_description = 3;</code>
        */
       public io.dstore.values.StringValueOrBuilder getNodeDescriptionOrBuilder() {
         if (nodeDescriptionBuilder_ != null) {
@@ -1294,7 +1294,7 @@ public final class ImModifyNodeDescriptionAd {
         }
       }
       /**
-       * <code>optional .dstore.values.StringValue node_description = 3;</code>
+       * <code>.dstore.values.StringValue node_description = 3;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.values.StringValue, io.dstore.values.StringValue.Builder, io.dstore.values.StringValueOrBuilder> 
@@ -1312,13 +1312,13 @@ public final class ImModifyNodeDescriptionAd {
 
       private boolean nodeDescriptionNull_ ;
       /**
-       * <code>optional bool node_description_null = 1003;</code>
+       * <code>bool node_description_null = 1003;</code>
        */
       public boolean getNodeDescriptionNull() {
         return nodeDescriptionNull_;
       }
       /**
-       * <code>optional bool node_description_null = 1003;</code>
+       * <code>bool node_description_null = 1003;</code>
        */
       public Builder setNodeDescriptionNull(boolean value) {
         
@@ -1327,7 +1327,7 @@ public final class ImModifyNodeDescriptionAd {
         return this;
       }
       /**
-       * <code>optional bool node_description_null = 1003;</code>
+       * <code>bool node_description_null = 1003;</code>
        */
       public Builder clearNodeDescriptionNull() {
         
@@ -1340,13 +1340,13 @@ public final class ImModifyNodeDescriptionAd {
       private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.values.BooleanValue, io.dstore.values.BooleanValue.Builder, io.dstore.values.BooleanValueOrBuilder> deleteNodeDescriptionBuilder_;
       /**
-       * <code>optional .dstore.values.BooleanValue delete_node_description = 4;</code>
+       * <code>.dstore.values.BooleanValue delete_node_description = 4;</code>
        */
       public boolean hasDeleteNodeDescription() {
         return deleteNodeDescriptionBuilder_ != null || deleteNodeDescription_ != null;
       }
       /**
-       * <code>optional .dstore.values.BooleanValue delete_node_description = 4;</code>
+       * <code>.dstore.values.BooleanValue delete_node_description = 4;</code>
        */
       public io.dstore.values.BooleanValue getDeleteNodeDescription() {
         if (deleteNodeDescriptionBuilder_ == null) {
@@ -1356,7 +1356,7 @@ public final class ImModifyNodeDescriptionAd {
         }
       }
       /**
-       * <code>optional .dstore.values.BooleanValue delete_node_description = 4;</code>
+       * <code>.dstore.values.BooleanValue delete_node_description = 4;</code>
        */
       public Builder setDeleteNodeDescription(io.dstore.values.BooleanValue value) {
         if (deleteNodeDescriptionBuilder_ == null) {
@@ -1372,7 +1372,7 @@ public final class ImModifyNodeDescriptionAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.BooleanValue delete_node_description = 4;</code>
+       * <code>.dstore.values.BooleanValue delete_node_description = 4;</code>
        */
       public Builder setDeleteNodeDescription(
           io.dstore.values.BooleanValue.Builder builderForValue) {
@@ -1386,7 +1386,7 @@ public final class ImModifyNodeDescriptionAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.BooleanValue delete_node_description = 4;</code>
+       * <code>.dstore.values.BooleanValue delete_node_description = 4;</code>
        */
       public Builder mergeDeleteNodeDescription(io.dstore.values.BooleanValue value) {
         if (deleteNodeDescriptionBuilder_ == null) {
@@ -1404,7 +1404,7 @@ public final class ImModifyNodeDescriptionAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.BooleanValue delete_node_description = 4;</code>
+       * <code>.dstore.values.BooleanValue delete_node_description = 4;</code>
        */
       public Builder clearDeleteNodeDescription() {
         if (deleteNodeDescriptionBuilder_ == null) {
@@ -1418,7 +1418,7 @@ public final class ImModifyNodeDescriptionAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.BooleanValue delete_node_description = 4;</code>
+       * <code>.dstore.values.BooleanValue delete_node_description = 4;</code>
        */
       public io.dstore.values.BooleanValue.Builder getDeleteNodeDescriptionBuilder() {
         
@@ -1426,7 +1426,7 @@ public final class ImModifyNodeDescriptionAd {
         return getDeleteNodeDescriptionFieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .dstore.values.BooleanValue delete_node_description = 4;</code>
+       * <code>.dstore.values.BooleanValue delete_node_description = 4;</code>
        */
       public io.dstore.values.BooleanValueOrBuilder getDeleteNodeDescriptionOrBuilder() {
         if (deleteNodeDescriptionBuilder_ != null) {
@@ -1437,7 +1437,7 @@ public final class ImModifyNodeDescriptionAd {
         }
       }
       /**
-       * <code>optional .dstore.values.BooleanValue delete_node_description = 4;</code>
+       * <code>.dstore.values.BooleanValue delete_node_description = 4;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.values.BooleanValue, io.dstore.values.BooleanValue.Builder, io.dstore.values.BooleanValueOrBuilder> 
@@ -1455,13 +1455,13 @@ public final class ImModifyNodeDescriptionAd {
 
       private boolean deleteNodeDescriptionNull_ ;
       /**
-       * <code>optional bool delete_node_description_null = 1004;</code>
+       * <code>bool delete_node_description_null = 1004;</code>
        */
       public boolean getDeleteNodeDescriptionNull() {
         return deleteNodeDescriptionNull_;
       }
       /**
-       * <code>optional bool delete_node_description_null = 1004;</code>
+       * <code>bool delete_node_description_null = 1004;</code>
        */
       public Builder setDeleteNodeDescriptionNull(boolean value) {
         
@@ -1470,7 +1470,7 @@ public final class ImModifyNodeDescriptionAd {
         return this;
       }
       /**
-       * <code>optional bool delete_node_description_null = 1004;</code>
+       * <code>bool delete_node_description_null = 1004;</code>
        */
       public Builder clearDeleteNodeDescriptionNull() {
         
@@ -1483,13 +1483,13 @@ public final class ImModifyNodeDescriptionAd {
       private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.values.BooleanValue, io.dstore.values.BooleanValue.Builder, io.dstore.values.BooleanValueOrBuilder> updateProductDescriptionsBuilder_;
       /**
-       * <code>optional .dstore.values.BooleanValue update_product_descriptions = 5;</code>
+       * <code>.dstore.values.BooleanValue update_product_descriptions = 5;</code>
        */
       public boolean hasUpdateProductDescriptions() {
         return updateProductDescriptionsBuilder_ != null || updateProductDescriptions_ != null;
       }
       /**
-       * <code>optional .dstore.values.BooleanValue update_product_descriptions = 5;</code>
+       * <code>.dstore.values.BooleanValue update_product_descriptions = 5;</code>
        */
       public io.dstore.values.BooleanValue getUpdateProductDescriptions() {
         if (updateProductDescriptionsBuilder_ == null) {
@@ -1499,7 +1499,7 @@ public final class ImModifyNodeDescriptionAd {
         }
       }
       /**
-       * <code>optional .dstore.values.BooleanValue update_product_descriptions = 5;</code>
+       * <code>.dstore.values.BooleanValue update_product_descriptions = 5;</code>
        */
       public Builder setUpdateProductDescriptions(io.dstore.values.BooleanValue value) {
         if (updateProductDescriptionsBuilder_ == null) {
@@ -1515,7 +1515,7 @@ public final class ImModifyNodeDescriptionAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.BooleanValue update_product_descriptions = 5;</code>
+       * <code>.dstore.values.BooleanValue update_product_descriptions = 5;</code>
        */
       public Builder setUpdateProductDescriptions(
           io.dstore.values.BooleanValue.Builder builderForValue) {
@@ -1529,7 +1529,7 @@ public final class ImModifyNodeDescriptionAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.BooleanValue update_product_descriptions = 5;</code>
+       * <code>.dstore.values.BooleanValue update_product_descriptions = 5;</code>
        */
       public Builder mergeUpdateProductDescriptions(io.dstore.values.BooleanValue value) {
         if (updateProductDescriptionsBuilder_ == null) {
@@ -1547,7 +1547,7 @@ public final class ImModifyNodeDescriptionAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.BooleanValue update_product_descriptions = 5;</code>
+       * <code>.dstore.values.BooleanValue update_product_descriptions = 5;</code>
        */
       public Builder clearUpdateProductDescriptions() {
         if (updateProductDescriptionsBuilder_ == null) {
@@ -1561,7 +1561,7 @@ public final class ImModifyNodeDescriptionAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.BooleanValue update_product_descriptions = 5;</code>
+       * <code>.dstore.values.BooleanValue update_product_descriptions = 5;</code>
        */
       public io.dstore.values.BooleanValue.Builder getUpdateProductDescriptionsBuilder() {
         
@@ -1569,7 +1569,7 @@ public final class ImModifyNodeDescriptionAd {
         return getUpdateProductDescriptionsFieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .dstore.values.BooleanValue update_product_descriptions = 5;</code>
+       * <code>.dstore.values.BooleanValue update_product_descriptions = 5;</code>
        */
       public io.dstore.values.BooleanValueOrBuilder getUpdateProductDescriptionsOrBuilder() {
         if (updateProductDescriptionsBuilder_ != null) {
@@ -1580,7 +1580,7 @@ public final class ImModifyNodeDescriptionAd {
         }
       }
       /**
-       * <code>optional .dstore.values.BooleanValue update_product_descriptions = 5;</code>
+       * <code>.dstore.values.BooleanValue update_product_descriptions = 5;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.values.BooleanValue, io.dstore.values.BooleanValue.Builder, io.dstore.values.BooleanValueOrBuilder> 
@@ -1598,13 +1598,13 @@ public final class ImModifyNodeDescriptionAd {
 
       private boolean updateProductDescriptionsNull_ ;
       /**
-       * <code>optional bool update_product_descriptions_null = 1005;</code>
+       * <code>bool update_product_descriptions_null = 1005;</code>
        */
       public boolean getUpdateProductDescriptionsNull() {
         return updateProductDescriptionsNull_;
       }
       /**
-       * <code>optional bool update_product_descriptions_null = 1005;</code>
+       * <code>bool update_product_descriptions_null = 1005;</code>
        */
       public Builder setUpdateProductDescriptionsNull(boolean value) {
         
@@ -1613,7 +1613,7 @@ public final class ImModifyNodeDescriptionAd {
         return this;
       }
       /**
-       * <code>optional bool update_product_descriptions_null = 1005;</code>
+       * <code>bool update_product_descriptions_null = 1005;</code>
        */
       public Builder clearUpdateProductDescriptionsNull() {
         
@@ -1872,7 +1872,7 @@ public final class ImModifyNodeDescriptionAd {
         com.google.protobuf.MessageOrBuilder {
 
       /**
-       * <code>optional int32 row_id = 10000;</code>
+       * <code>int32 row_id = 10000;</code>
        */
       int getRowId();
     }
@@ -1947,7 +1947,7 @@ public final class ImModifyNodeDescriptionAd {
       public static final int ROW_ID_FIELD_NUMBER = 10000;
       private int rowId_;
       /**
-       * <code>optional int32 row_id = 10000;</code>
+       * <code>int32 row_id = 10000;</code>
        */
       public int getRowId() {
         return rowId_;
@@ -2006,7 +2006,7 @@ public final class ImModifyNodeDescriptionAd {
           return memoizedHashCode;
         }
         int hash = 41;
-        hash = (19 * hash) + getDescriptorForType().hashCode();
+        hash = (19 * hash) + getDescriptor().hashCode();
         hash = (37 * hash) + ROW_ID_FIELD_NUMBER;
         hash = (53 * hash) + getRowId();
         hash = (29 * hash) + unknownFields.hashCode();
@@ -2224,13 +2224,13 @@ public final class ImModifyNodeDescriptionAd {
 
         private int rowId_ ;
         /**
-         * <code>optional int32 row_id = 10000;</code>
+         * <code>int32 row_id = 10000;</code>
          */
         public int getRowId() {
           return rowId_;
         }
         /**
-         * <code>optional int32 row_id = 10000;</code>
+         * <code>int32 row_id = 10000;</code>
          */
         public Builder setRowId(int value) {
           
@@ -2239,7 +2239,7 @@ public final class ImModifyNodeDescriptionAd {
           return this;
         }
         /**
-         * <code>optional int32 row_id = 10000;</code>
+         * <code>int32 row_id = 10000;</code>
          */
         public Builder clearRowId() {
           
@@ -2492,7 +2492,7 @@ public final class ImModifyNodeDescriptionAd {
         return memoizedHashCode;
       }
       int hash = 41;
-      hash = (19 * hash) + getDescriptorForType().hashCode();
+      hash = (19 * hash) + getDescriptor().hashCode();
       if (getMetaInformationCount() > 0) {
         hash = (37 * hash) + META_INFORMATION_FIELD_NUMBER;
         hash = (53 * hash) + getMetaInformationList().hashCode();

@@ -19,38 +19,38 @@ public final class CoLogoutCommunityMemberAd {
       com.google.protobuf.MessageOrBuilder {
 
     /**
-     * <code>optional .dstore.values.IntegerValue community_id = 1;</code>
+     * <code>.dstore.values.IntegerValue community_id = 1;</code>
      */
     boolean hasCommunityId();
     /**
-     * <code>optional .dstore.values.IntegerValue community_id = 1;</code>
+     * <code>.dstore.values.IntegerValue community_id = 1;</code>
      */
     io.dstore.values.IntegerValue getCommunityId();
     /**
-     * <code>optional .dstore.values.IntegerValue community_id = 1;</code>
+     * <code>.dstore.values.IntegerValue community_id = 1;</code>
      */
     io.dstore.values.IntegerValueOrBuilder getCommunityIdOrBuilder();
 
     /**
-     * <code>optional bool community_id_null = 1001;</code>
+     * <code>bool community_id_null = 1001;</code>
      */
     boolean getCommunityIdNull();
 
     /**
-     * <code>optional .dstore.values.IntegerValue community_member_id = 2;</code>
+     * <code>.dstore.values.IntegerValue community_member_id = 2;</code>
      */
     boolean hasCommunityMemberId();
     /**
-     * <code>optional .dstore.values.IntegerValue community_member_id = 2;</code>
+     * <code>.dstore.values.IntegerValue community_member_id = 2;</code>
      */
     io.dstore.values.IntegerValue getCommunityMemberId();
     /**
-     * <code>optional .dstore.values.IntegerValue community_member_id = 2;</code>
+     * <code>.dstore.values.IntegerValue community_member_id = 2;</code>
      */
     io.dstore.values.IntegerValueOrBuilder getCommunityMemberIdOrBuilder();
 
     /**
-     * <code>optional bool community_member_id_null = 1002;</code>
+     * <code>bool community_member_id_null = 1002;</code>
      */
     boolean getCommunityMemberIdNull();
   }
@@ -157,19 +157,19 @@ public final class CoLogoutCommunityMemberAd {
     public static final int COMMUNITY_ID_FIELD_NUMBER = 1;
     private io.dstore.values.IntegerValue communityId_;
     /**
-     * <code>optional .dstore.values.IntegerValue community_id = 1;</code>
+     * <code>.dstore.values.IntegerValue community_id = 1;</code>
      */
     public boolean hasCommunityId() {
       return communityId_ != null;
     }
     /**
-     * <code>optional .dstore.values.IntegerValue community_id = 1;</code>
+     * <code>.dstore.values.IntegerValue community_id = 1;</code>
      */
     public io.dstore.values.IntegerValue getCommunityId() {
       return communityId_ == null ? io.dstore.values.IntegerValue.getDefaultInstance() : communityId_;
     }
     /**
-     * <code>optional .dstore.values.IntegerValue community_id = 1;</code>
+     * <code>.dstore.values.IntegerValue community_id = 1;</code>
      */
     public io.dstore.values.IntegerValueOrBuilder getCommunityIdOrBuilder() {
       return getCommunityId();
@@ -178,7 +178,7 @@ public final class CoLogoutCommunityMemberAd {
     public static final int COMMUNITY_ID_NULL_FIELD_NUMBER = 1001;
     private boolean communityIdNull_;
     /**
-     * <code>optional bool community_id_null = 1001;</code>
+     * <code>bool community_id_null = 1001;</code>
      */
     public boolean getCommunityIdNull() {
       return communityIdNull_;
@@ -187,19 +187,19 @@ public final class CoLogoutCommunityMemberAd {
     public static final int COMMUNITY_MEMBER_ID_FIELD_NUMBER = 2;
     private io.dstore.values.IntegerValue communityMemberId_;
     /**
-     * <code>optional .dstore.values.IntegerValue community_member_id = 2;</code>
+     * <code>.dstore.values.IntegerValue community_member_id = 2;</code>
      */
     public boolean hasCommunityMemberId() {
       return communityMemberId_ != null;
     }
     /**
-     * <code>optional .dstore.values.IntegerValue community_member_id = 2;</code>
+     * <code>.dstore.values.IntegerValue community_member_id = 2;</code>
      */
     public io.dstore.values.IntegerValue getCommunityMemberId() {
       return communityMemberId_ == null ? io.dstore.values.IntegerValue.getDefaultInstance() : communityMemberId_;
     }
     /**
-     * <code>optional .dstore.values.IntegerValue community_member_id = 2;</code>
+     * <code>.dstore.values.IntegerValue community_member_id = 2;</code>
      */
     public io.dstore.values.IntegerValueOrBuilder getCommunityMemberIdOrBuilder() {
       return getCommunityMemberId();
@@ -208,7 +208,7 @@ public final class CoLogoutCommunityMemberAd {
     public static final int COMMUNITY_MEMBER_ID_NULL_FIELD_NUMBER = 1002;
     private boolean communityMemberIdNull_;
     /**
-     * <code>optional bool community_member_id_null = 1002;</code>
+     * <code>bool community_member_id_null = 1002;</code>
      */
     public boolean getCommunityMemberIdNull() {
       return communityMemberIdNull_;
@@ -300,7 +300,7 @@ public final class CoLogoutCommunityMemberAd {
         return memoizedHashCode;
       }
       int hash = 41;
-      hash = (19 * hash) + getDescriptorForType().hashCode();
+      hash = (19 * hash) + getDescriptor().hashCode();
       if (hasCommunityId()) {
         hash = (37 * hash) + COMMUNITY_ID_FIELD_NUMBER;
         hash = (53 * hash) + getCommunityId().hashCode();
@@ -566,13 +566,13 @@ public final class CoLogoutCommunityMemberAd {
       private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> communityIdBuilder_;
       /**
-       * <code>optional .dstore.values.IntegerValue community_id = 1;</code>
+       * <code>.dstore.values.IntegerValue community_id = 1;</code>
        */
       public boolean hasCommunityId() {
         return communityIdBuilder_ != null || communityId_ != null;
       }
       /**
-       * <code>optional .dstore.values.IntegerValue community_id = 1;</code>
+       * <code>.dstore.values.IntegerValue community_id = 1;</code>
        */
       public io.dstore.values.IntegerValue getCommunityId() {
         if (communityIdBuilder_ == null) {
@@ -582,7 +582,7 @@ public final class CoLogoutCommunityMemberAd {
         }
       }
       /**
-       * <code>optional .dstore.values.IntegerValue community_id = 1;</code>
+       * <code>.dstore.values.IntegerValue community_id = 1;</code>
        */
       public Builder setCommunityId(io.dstore.values.IntegerValue value) {
         if (communityIdBuilder_ == null) {
@@ -598,7 +598,7 @@ public final class CoLogoutCommunityMemberAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.IntegerValue community_id = 1;</code>
+       * <code>.dstore.values.IntegerValue community_id = 1;</code>
        */
       public Builder setCommunityId(
           io.dstore.values.IntegerValue.Builder builderForValue) {
@@ -612,7 +612,7 @@ public final class CoLogoutCommunityMemberAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.IntegerValue community_id = 1;</code>
+       * <code>.dstore.values.IntegerValue community_id = 1;</code>
        */
       public Builder mergeCommunityId(io.dstore.values.IntegerValue value) {
         if (communityIdBuilder_ == null) {
@@ -630,7 +630,7 @@ public final class CoLogoutCommunityMemberAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.IntegerValue community_id = 1;</code>
+       * <code>.dstore.values.IntegerValue community_id = 1;</code>
        */
       public Builder clearCommunityId() {
         if (communityIdBuilder_ == null) {
@@ -644,7 +644,7 @@ public final class CoLogoutCommunityMemberAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.IntegerValue community_id = 1;</code>
+       * <code>.dstore.values.IntegerValue community_id = 1;</code>
        */
       public io.dstore.values.IntegerValue.Builder getCommunityIdBuilder() {
         
@@ -652,7 +652,7 @@ public final class CoLogoutCommunityMemberAd {
         return getCommunityIdFieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .dstore.values.IntegerValue community_id = 1;</code>
+       * <code>.dstore.values.IntegerValue community_id = 1;</code>
        */
       public io.dstore.values.IntegerValueOrBuilder getCommunityIdOrBuilder() {
         if (communityIdBuilder_ != null) {
@@ -663,7 +663,7 @@ public final class CoLogoutCommunityMemberAd {
         }
       }
       /**
-       * <code>optional .dstore.values.IntegerValue community_id = 1;</code>
+       * <code>.dstore.values.IntegerValue community_id = 1;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> 
@@ -681,13 +681,13 @@ public final class CoLogoutCommunityMemberAd {
 
       private boolean communityIdNull_ ;
       /**
-       * <code>optional bool community_id_null = 1001;</code>
+       * <code>bool community_id_null = 1001;</code>
        */
       public boolean getCommunityIdNull() {
         return communityIdNull_;
       }
       /**
-       * <code>optional bool community_id_null = 1001;</code>
+       * <code>bool community_id_null = 1001;</code>
        */
       public Builder setCommunityIdNull(boolean value) {
         
@@ -696,7 +696,7 @@ public final class CoLogoutCommunityMemberAd {
         return this;
       }
       /**
-       * <code>optional bool community_id_null = 1001;</code>
+       * <code>bool community_id_null = 1001;</code>
        */
       public Builder clearCommunityIdNull() {
         
@@ -709,13 +709,13 @@ public final class CoLogoutCommunityMemberAd {
       private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> communityMemberIdBuilder_;
       /**
-       * <code>optional .dstore.values.IntegerValue community_member_id = 2;</code>
+       * <code>.dstore.values.IntegerValue community_member_id = 2;</code>
        */
       public boolean hasCommunityMemberId() {
         return communityMemberIdBuilder_ != null || communityMemberId_ != null;
       }
       /**
-       * <code>optional .dstore.values.IntegerValue community_member_id = 2;</code>
+       * <code>.dstore.values.IntegerValue community_member_id = 2;</code>
        */
       public io.dstore.values.IntegerValue getCommunityMemberId() {
         if (communityMemberIdBuilder_ == null) {
@@ -725,7 +725,7 @@ public final class CoLogoutCommunityMemberAd {
         }
       }
       /**
-       * <code>optional .dstore.values.IntegerValue community_member_id = 2;</code>
+       * <code>.dstore.values.IntegerValue community_member_id = 2;</code>
        */
       public Builder setCommunityMemberId(io.dstore.values.IntegerValue value) {
         if (communityMemberIdBuilder_ == null) {
@@ -741,7 +741,7 @@ public final class CoLogoutCommunityMemberAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.IntegerValue community_member_id = 2;</code>
+       * <code>.dstore.values.IntegerValue community_member_id = 2;</code>
        */
       public Builder setCommunityMemberId(
           io.dstore.values.IntegerValue.Builder builderForValue) {
@@ -755,7 +755,7 @@ public final class CoLogoutCommunityMemberAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.IntegerValue community_member_id = 2;</code>
+       * <code>.dstore.values.IntegerValue community_member_id = 2;</code>
        */
       public Builder mergeCommunityMemberId(io.dstore.values.IntegerValue value) {
         if (communityMemberIdBuilder_ == null) {
@@ -773,7 +773,7 @@ public final class CoLogoutCommunityMemberAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.IntegerValue community_member_id = 2;</code>
+       * <code>.dstore.values.IntegerValue community_member_id = 2;</code>
        */
       public Builder clearCommunityMemberId() {
         if (communityMemberIdBuilder_ == null) {
@@ -787,7 +787,7 @@ public final class CoLogoutCommunityMemberAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.IntegerValue community_member_id = 2;</code>
+       * <code>.dstore.values.IntegerValue community_member_id = 2;</code>
        */
       public io.dstore.values.IntegerValue.Builder getCommunityMemberIdBuilder() {
         
@@ -795,7 +795,7 @@ public final class CoLogoutCommunityMemberAd {
         return getCommunityMemberIdFieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .dstore.values.IntegerValue community_member_id = 2;</code>
+       * <code>.dstore.values.IntegerValue community_member_id = 2;</code>
        */
       public io.dstore.values.IntegerValueOrBuilder getCommunityMemberIdOrBuilder() {
         if (communityMemberIdBuilder_ != null) {
@@ -806,7 +806,7 @@ public final class CoLogoutCommunityMemberAd {
         }
       }
       /**
-       * <code>optional .dstore.values.IntegerValue community_member_id = 2;</code>
+       * <code>.dstore.values.IntegerValue community_member_id = 2;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> 
@@ -824,13 +824,13 @@ public final class CoLogoutCommunityMemberAd {
 
       private boolean communityMemberIdNull_ ;
       /**
-       * <code>optional bool community_member_id_null = 1002;</code>
+       * <code>bool community_member_id_null = 1002;</code>
        */
       public boolean getCommunityMemberIdNull() {
         return communityMemberIdNull_;
       }
       /**
-       * <code>optional bool community_member_id_null = 1002;</code>
+       * <code>bool community_member_id_null = 1002;</code>
        */
       public Builder setCommunityMemberIdNull(boolean value) {
         
@@ -839,7 +839,7 @@ public final class CoLogoutCommunityMemberAd {
         return this;
       }
       /**
-       * <code>optional bool community_member_id_null = 1002;</code>
+       * <code>bool community_member_id_null = 1002;</code>
        */
       public Builder clearCommunityMemberIdNull() {
         
@@ -1098,7 +1098,7 @@ public final class CoLogoutCommunityMemberAd {
         com.google.protobuf.MessageOrBuilder {
 
       /**
-       * <code>optional int32 row_id = 10000;</code>
+       * <code>int32 row_id = 10000;</code>
        */
       int getRowId();
     }
@@ -1173,7 +1173,7 @@ public final class CoLogoutCommunityMemberAd {
       public static final int ROW_ID_FIELD_NUMBER = 10000;
       private int rowId_;
       /**
-       * <code>optional int32 row_id = 10000;</code>
+       * <code>int32 row_id = 10000;</code>
        */
       public int getRowId() {
         return rowId_;
@@ -1232,7 +1232,7 @@ public final class CoLogoutCommunityMemberAd {
           return memoizedHashCode;
         }
         int hash = 41;
-        hash = (19 * hash) + getDescriptorForType().hashCode();
+        hash = (19 * hash) + getDescriptor().hashCode();
         hash = (37 * hash) + ROW_ID_FIELD_NUMBER;
         hash = (53 * hash) + getRowId();
         hash = (29 * hash) + unknownFields.hashCode();
@@ -1450,13 +1450,13 @@ public final class CoLogoutCommunityMemberAd {
 
         private int rowId_ ;
         /**
-         * <code>optional int32 row_id = 10000;</code>
+         * <code>int32 row_id = 10000;</code>
          */
         public int getRowId() {
           return rowId_;
         }
         /**
-         * <code>optional int32 row_id = 10000;</code>
+         * <code>int32 row_id = 10000;</code>
          */
         public Builder setRowId(int value) {
           
@@ -1465,7 +1465,7 @@ public final class CoLogoutCommunityMemberAd {
           return this;
         }
         /**
-         * <code>optional int32 row_id = 10000;</code>
+         * <code>int32 row_id = 10000;</code>
          */
         public Builder clearRowId() {
           
@@ -1718,7 +1718,7 @@ public final class CoLogoutCommunityMemberAd {
         return memoizedHashCode;
       }
       int hash = 41;
-      hash = (19 * hash) + getDescriptorForType().hashCode();
+      hash = (19 * hash) + getDescriptor().hashCode();
       if (getMetaInformationCount() > 0) {
         hash = (37 * hash) + META_INFORMATION_FIELD_NUMBER;
         hash = (53 * hash) + getMetaInformationList().hashCode();

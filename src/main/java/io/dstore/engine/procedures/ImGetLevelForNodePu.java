@@ -19,38 +19,38 @@ public final class ImGetLevelForNodePu {
       com.google.protobuf.MessageOrBuilder {
 
     /**
-     * <code>optional .dstore.values.IntegerValue node_id = 1;</code>
+     * <code>.dstore.values.IntegerValue node_id = 1;</code>
      */
     boolean hasNodeId();
     /**
-     * <code>optional .dstore.values.IntegerValue node_id = 1;</code>
+     * <code>.dstore.values.IntegerValue node_id = 1;</code>
      */
     io.dstore.values.IntegerValue getNodeId();
     /**
-     * <code>optional .dstore.values.IntegerValue node_id = 1;</code>
+     * <code>.dstore.values.IntegerValue node_id = 1;</code>
      */
     io.dstore.values.IntegerValueOrBuilder getNodeIdOrBuilder();
 
     /**
-     * <code>optional bool node_id_null = 1001;</code>
+     * <code>bool node_id_null = 1001;</code>
      */
     boolean getNodeIdNull();
 
     /**
-     * <code>optional .dstore.values.BooleanValue is_node_id = 2;</code>
+     * <code>.dstore.values.BooleanValue is_node_id = 2;</code>
      */
     boolean hasIsNodeId();
     /**
-     * <code>optional .dstore.values.BooleanValue is_node_id = 2;</code>
+     * <code>.dstore.values.BooleanValue is_node_id = 2;</code>
      */
     io.dstore.values.BooleanValue getIsNodeId();
     /**
-     * <code>optional .dstore.values.BooleanValue is_node_id = 2;</code>
+     * <code>.dstore.values.BooleanValue is_node_id = 2;</code>
      */
     io.dstore.values.BooleanValueOrBuilder getIsNodeIdOrBuilder();
 
     /**
-     * <code>optional bool is_node_id_null = 1002;</code>
+     * <code>bool is_node_id_null = 1002;</code>
      */
     boolean getIsNodeIdNull();
   }
@@ -157,19 +157,19 @@ public final class ImGetLevelForNodePu {
     public static final int NODE_ID_FIELD_NUMBER = 1;
     private io.dstore.values.IntegerValue nodeId_;
     /**
-     * <code>optional .dstore.values.IntegerValue node_id = 1;</code>
+     * <code>.dstore.values.IntegerValue node_id = 1;</code>
      */
     public boolean hasNodeId() {
       return nodeId_ != null;
     }
     /**
-     * <code>optional .dstore.values.IntegerValue node_id = 1;</code>
+     * <code>.dstore.values.IntegerValue node_id = 1;</code>
      */
     public io.dstore.values.IntegerValue getNodeId() {
       return nodeId_ == null ? io.dstore.values.IntegerValue.getDefaultInstance() : nodeId_;
     }
     /**
-     * <code>optional .dstore.values.IntegerValue node_id = 1;</code>
+     * <code>.dstore.values.IntegerValue node_id = 1;</code>
      */
     public io.dstore.values.IntegerValueOrBuilder getNodeIdOrBuilder() {
       return getNodeId();
@@ -178,7 +178,7 @@ public final class ImGetLevelForNodePu {
     public static final int NODE_ID_NULL_FIELD_NUMBER = 1001;
     private boolean nodeIdNull_;
     /**
-     * <code>optional bool node_id_null = 1001;</code>
+     * <code>bool node_id_null = 1001;</code>
      */
     public boolean getNodeIdNull() {
       return nodeIdNull_;
@@ -187,19 +187,19 @@ public final class ImGetLevelForNodePu {
     public static final int IS_NODE_ID_FIELD_NUMBER = 2;
     private io.dstore.values.BooleanValue isNodeId_;
     /**
-     * <code>optional .dstore.values.BooleanValue is_node_id = 2;</code>
+     * <code>.dstore.values.BooleanValue is_node_id = 2;</code>
      */
     public boolean hasIsNodeId() {
       return isNodeId_ != null;
     }
     /**
-     * <code>optional .dstore.values.BooleanValue is_node_id = 2;</code>
+     * <code>.dstore.values.BooleanValue is_node_id = 2;</code>
      */
     public io.dstore.values.BooleanValue getIsNodeId() {
       return isNodeId_ == null ? io.dstore.values.BooleanValue.getDefaultInstance() : isNodeId_;
     }
     /**
-     * <code>optional .dstore.values.BooleanValue is_node_id = 2;</code>
+     * <code>.dstore.values.BooleanValue is_node_id = 2;</code>
      */
     public io.dstore.values.BooleanValueOrBuilder getIsNodeIdOrBuilder() {
       return getIsNodeId();
@@ -208,7 +208,7 @@ public final class ImGetLevelForNodePu {
     public static final int IS_NODE_ID_NULL_FIELD_NUMBER = 1002;
     private boolean isNodeIdNull_;
     /**
-     * <code>optional bool is_node_id_null = 1002;</code>
+     * <code>bool is_node_id_null = 1002;</code>
      */
     public boolean getIsNodeIdNull() {
       return isNodeIdNull_;
@@ -300,7 +300,7 @@ public final class ImGetLevelForNodePu {
         return memoizedHashCode;
       }
       int hash = 41;
-      hash = (19 * hash) + getDescriptorForType().hashCode();
+      hash = (19 * hash) + getDescriptor().hashCode();
       if (hasNodeId()) {
         hash = (37 * hash) + NODE_ID_FIELD_NUMBER;
         hash = (53 * hash) + getNodeId().hashCode();
@@ -566,13 +566,13 @@ public final class ImGetLevelForNodePu {
       private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> nodeIdBuilder_;
       /**
-       * <code>optional .dstore.values.IntegerValue node_id = 1;</code>
+       * <code>.dstore.values.IntegerValue node_id = 1;</code>
        */
       public boolean hasNodeId() {
         return nodeIdBuilder_ != null || nodeId_ != null;
       }
       /**
-       * <code>optional .dstore.values.IntegerValue node_id = 1;</code>
+       * <code>.dstore.values.IntegerValue node_id = 1;</code>
        */
       public io.dstore.values.IntegerValue getNodeId() {
         if (nodeIdBuilder_ == null) {
@@ -582,7 +582,7 @@ public final class ImGetLevelForNodePu {
         }
       }
       /**
-       * <code>optional .dstore.values.IntegerValue node_id = 1;</code>
+       * <code>.dstore.values.IntegerValue node_id = 1;</code>
        */
       public Builder setNodeId(io.dstore.values.IntegerValue value) {
         if (nodeIdBuilder_ == null) {
@@ -598,7 +598,7 @@ public final class ImGetLevelForNodePu {
         return this;
       }
       /**
-       * <code>optional .dstore.values.IntegerValue node_id = 1;</code>
+       * <code>.dstore.values.IntegerValue node_id = 1;</code>
        */
       public Builder setNodeId(
           io.dstore.values.IntegerValue.Builder builderForValue) {
@@ -612,7 +612,7 @@ public final class ImGetLevelForNodePu {
         return this;
       }
       /**
-       * <code>optional .dstore.values.IntegerValue node_id = 1;</code>
+       * <code>.dstore.values.IntegerValue node_id = 1;</code>
        */
       public Builder mergeNodeId(io.dstore.values.IntegerValue value) {
         if (nodeIdBuilder_ == null) {
@@ -630,7 +630,7 @@ public final class ImGetLevelForNodePu {
         return this;
       }
       /**
-       * <code>optional .dstore.values.IntegerValue node_id = 1;</code>
+       * <code>.dstore.values.IntegerValue node_id = 1;</code>
        */
       public Builder clearNodeId() {
         if (nodeIdBuilder_ == null) {
@@ -644,7 +644,7 @@ public final class ImGetLevelForNodePu {
         return this;
       }
       /**
-       * <code>optional .dstore.values.IntegerValue node_id = 1;</code>
+       * <code>.dstore.values.IntegerValue node_id = 1;</code>
        */
       public io.dstore.values.IntegerValue.Builder getNodeIdBuilder() {
         
@@ -652,7 +652,7 @@ public final class ImGetLevelForNodePu {
         return getNodeIdFieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .dstore.values.IntegerValue node_id = 1;</code>
+       * <code>.dstore.values.IntegerValue node_id = 1;</code>
        */
       public io.dstore.values.IntegerValueOrBuilder getNodeIdOrBuilder() {
         if (nodeIdBuilder_ != null) {
@@ -663,7 +663,7 @@ public final class ImGetLevelForNodePu {
         }
       }
       /**
-       * <code>optional .dstore.values.IntegerValue node_id = 1;</code>
+       * <code>.dstore.values.IntegerValue node_id = 1;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> 
@@ -681,13 +681,13 @@ public final class ImGetLevelForNodePu {
 
       private boolean nodeIdNull_ ;
       /**
-       * <code>optional bool node_id_null = 1001;</code>
+       * <code>bool node_id_null = 1001;</code>
        */
       public boolean getNodeIdNull() {
         return nodeIdNull_;
       }
       /**
-       * <code>optional bool node_id_null = 1001;</code>
+       * <code>bool node_id_null = 1001;</code>
        */
       public Builder setNodeIdNull(boolean value) {
         
@@ -696,7 +696,7 @@ public final class ImGetLevelForNodePu {
         return this;
       }
       /**
-       * <code>optional bool node_id_null = 1001;</code>
+       * <code>bool node_id_null = 1001;</code>
        */
       public Builder clearNodeIdNull() {
         
@@ -709,13 +709,13 @@ public final class ImGetLevelForNodePu {
       private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.values.BooleanValue, io.dstore.values.BooleanValue.Builder, io.dstore.values.BooleanValueOrBuilder> isNodeIdBuilder_;
       /**
-       * <code>optional .dstore.values.BooleanValue is_node_id = 2;</code>
+       * <code>.dstore.values.BooleanValue is_node_id = 2;</code>
        */
       public boolean hasIsNodeId() {
         return isNodeIdBuilder_ != null || isNodeId_ != null;
       }
       /**
-       * <code>optional .dstore.values.BooleanValue is_node_id = 2;</code>
+       * <code>.dstore.values.BooleanValue is_node_id = 2;</code>
        */
       public io.dstore.values.BooleanValue getIsNodeId() {
         if (isNodeIdBuilder_ == null) {
@@ -725,7 +725,7 @@ public final class ImGetLevelForNodePu {
         }
       }
       /**
-       * <code>optional .dstore.values.BooleanValue is_node_id = 2;</code>
+       * <code>.dstore.values.BooleanValue is_node_id = 2;</code>
        */
       public Builder setIsNodeId(io.dstore.values.BooleanValue value) {
         if (isNodeIdBuilder_ == null) {
@@ -741,7 +741,7 @@ public final class ImGetLevelForNodePu {
         return this;
       }
       /**
-       * <code>optional .dstore.values.BooleanValue is_node_id = 2;</code>
+       * <code>.dstore.values.BooleanValue is_node_id = 2;</code>
        */
       public Builder setIsNodeId(
           io.dstore.values.BooleanValue.Builder builderForValue) {
@@ -755,7 +755,7 @@ public final class ImGetLevelForNodePu {
         return this;
       }
       /**
-       * <code>optional .dstore.values.BooleanValue is_node_id = 2;</code>
+       * <code>.dstore.values.BooleanValue is_node_id = 2;</code>
        */
       public Builder mergeIsNodeId(io.dstore.values.BooleanValue value) {
         if (isNodeIdBuilder_ == null) {
@@ -773,7 +773,7 @@ public final class ImGetLevelForNodePu {
         return this;
       }
       /**
-       * <code>optional .dstore.values.BooleanValue is_node_id = 2;</code>
+       * <code>.dstore.values.BooleanValue is_node_id = 2;</code>
        */
       public Builder clearIsNodeId() {
         if (isNodeIdBuilder_ == null) {
@@ -787,7 +787,7 @@ public final class ImGetLevelForNodePu {
         return this;
       }
       /**
-       * <code>optional .dstore.values.BooleanValue is_node_id = 2;</code>
+       * <code>.dstore.values.BooleanValue is_node_id = 2;</code>
        */
       public io.dstore.values.BooleanValue.Builder getIsNodeIdBuilder() {
         
@@ -795,7 +795,7 @@ public final class ImGetLevelForNodePu {
         return getIsNodeIdFieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .dstore.values.BooleanValue is_node_id = 2;</code>
+       * <code>.dstore.values.BooleanValue is_node_id = 2;</code>
        */
       public io.dstore.values.BooleanValueOrBuilder getIsNodeIdOrBuilder() {
         if (isNodeIdBuilder_ != null) {
@@ -806,7 +806,7 @@ public final class ImGetLevelForNodePu {
         }
       }
       /**
-       * <code>optional .dstore.values.BooleanValue is_node_id = 2;</code>
+       * <code>.dstore.values.BooleanValue is_node_id = 2;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.values.BooleanValue, io.dstore.values.BooleanValue.Builder, io.dstore.values.BooleanValueOrBuilder> 
@@ -824,13 +824,13 @@ public final class ImGetLevelForNodePu {
 
       private boolean isNodeIdNull_ ;
       /**
-       * <code>optional bool is_node_id_null = 1002;</code>
+       * <code>bool is_node_id_null = 1002;</code>
        */
       public boolean getIsNodeIdNull() {
         return isNodeIdNull_;
       }
       /**
-       * <code>optional bool is_node_id_null = 1002;</code>
+       * <code>bool is_node_id_null = 1002;</code>
        */
       public Builder setIsNodeIdNull(boolean value) {
         
@@ -839,7 +839,7 @@ public final class ImGetLevelForNodePu {
         return this;
       }
       /**
-       * <code>optional bool is_node_id_null = 1002;</code>
+       * <code>bool is_node_id_null = 1002;</code>
        */
       public Builder clearIsNodeIdNull() {
         
@@ -1098,7 +1098,7 @@ public final class ImGetLevelForNodePu {
         com.google.protobuf.MessageOrBuilder {
 
       /**
-       * <code>optional int32 row_id = 10000;</code>
+       * <code>int32 row_id = 10000;</code>
        */
       int getRowId();
 
@@ -1107,7 +1107,7 @@ public final class ImGetLevelForNodePu {
        * Nummer der Hierarchie, der "&#64;NodeID" angehört. Eine höhere Nummer bedeutet eine niedrigere Hierarchie. Das "Root"-Element hat die Nummer "1". Im Artikelbaum muß die Hierarchie-Nummer eines Nachfolger-Elementes immer höher als die seines Vorgängers sein.
        * </pre>
        *
-       * <code>optional .dstore.values.IntegerValue level_no = 10001;</code>
+       * <code>.dstore.values.IntegerValue level_no = 10001;</code>
        */
       boolean hasLevelNo();
       /**
@@ -1115,7 +1115,7 @@ public final class ImGetLevelForNodePu {
        * Nummer der Hierarchie, der "&#64;NodeID" angehört. Eine höhere Nummer bedeutet eine niedrigere Hierarchie. Das "Root"-Element hat die Nummer "1". Im Artikelbaum muß die Hierarchie-Nummer eines Nachfolger-Elementes immer höher als die seines Vorgängers sein.
        * </pre>
        *
-       * <code>optional .dstore.values.IntegerValue level_no = 10001;</code>
+       * <code>.dstore.values.IntegerValue level_no = 10001;</code>
        */
       io.dstore.values.IntegerValue getLevelNo();
       /**
@@ -1123,7 +1123,7 @@ public final class ImGetLevelForNodePu {
        * Nummer der Hierarchie, der "&#64;NodeID" angehört. Eine höhere Nummer bedeutet eine niedrigere Hierarchie. Das "Root"-Element hat die Nummer "1". Im Artikelbaum muß die Hierarchie-Nummer eines Nachfolger-Elementes immer höher als die seines Vorgängers sein.
        * </pre>
        *
-       * <code>optional .dstore.values.IntegerValue level_no = 10001;</code>
+       * <code>.dstore.values.IntegerValue level_no = 10001;</code>
        */
       io.dstore.values.IntegerValueOrBuilder getLevelNoOrBuilder();
 
@@ -1132,7 +1132,7 @@ public final class ImGetLevelForNodePu {
        * Bezeichnung der Hierarchie
        * </pre>
        *
-       * <code>optional .dstore.values.StringValue level_description = 10002;</code>
+       * <code>.dstore.values.StringValue level_description = 10002;</code>
        */
       boolean hasLevelDescription();
       /**
@@ -1140,7 +1140,7 @@ public final class ImGetLevelForNodePu {
        * Bezeichnung der Hierarchie
        * </pre>
        *
-       * <code>optional .dstore.values.StringValue level_description = 10002;</code>
+       * <code>.dstore.values.StringValue level_description = 10002;</code>
        */
       io.dstore.values.StringValue getLevelDescription();
       /**
@@ -1148,7 +1148,7 @@ public final class ImGetLevelForNodePu {
        * Bezeichnung der Hierarchie
        * </pre>
        *
-       * <code>optional .dstore.values.StringValue level_description = 10002;</code>
+       * <code>.dstore.values.StringValue level_description = 10002;</code>
        */
       io.dstore.values.StringValueOrBuilder getLevelDescriptionOrBuilder();
 
@@ -1157,7 +1157,7 @@ public final class ImGetLevelForNodePu {
        * ID der Hierarchie "LevelNo"
        * </pre>
        *
-       * <code>optional .dstore.values.IntegerValue level_id = 10003;</code>
+       * <code>.dstore.values.IntegerValue level_id = 10003;</code>
        */
       boolean hasLevelId();
       /**
@@ -1165,7 +1165,7 @@ public final class ImGetLevelForNodePu {
        * ID der Hierarchie "LevelNo"
        * </pre>
        *
-       * <code>optional .dstore.values.IntegerValue level_id = 10003;</code>
+       * <code>.dstore.values.IntegerValue level_id = 10003;</code>
        */
       io.dstore.values.IntegerValue getLevelId();
       /**
@@ -1173,7 +1173,7 @@ public final class ImGetLevelForNodePu {
        * ID der Hierarchie "LevelNo"
        * </pre>
        *
-       * <code>optional .dstore.values.IntegerValue level_id = 10003;</code>
+       * <code>.dstore.values.IntegerValue level_id = 10003;</code>
        */
       io.dstore.values.IntegerValueOrBuilder getLevelIdOrBuilder();
     }
@@ -1287,7 +1287,7 @@ public final class ImGetLevelForNodePu {
       public static final int ROW_ID_FIELD_NUMBER = 10000;
       private int rowId_;
       /**
-       * <code>optional int32 row_id = 10000;</code>
+       * <code>int32 row_id = 10000;</code>
        */
       public int getRowId() {
         return rowId_;
@@ -1300,7 +1300,7 @@ public final class ImGetLevelForNodePu {
        * Nummer der Hierarchie, der "&#64;NodeID" angehört. Eine höhere Nummer bedeutet eine niedrigere Hierarchie. Das "Root"-Element hat die Nummer "1". Im Artikelbaum muß die Hierarchie-Nummer eines Nachfolger-Elementes immer höher als die seines Vorgängers sein.
        * </pre>
        *
-       * <code>optional .dstore.values.IntegerValue level_no = 10001;</code>
+       * <code>.dstore.values.IntegerValue level_no = 10001;</code>
        */
       public boolean hasLevelNo() {
         return levelNo_ != null;
@@ -1310,7 +1310,7 @@ public final class ImGetLevelForNodePu {
        * Nummer der Hierarchie, der "&#64;NodeID" angehört. Eine höhere Nummer bedeutet eine niedrigere Hierarchie. Das "Root"-Element hat die Nummer "1". Im Artikelbaum muß die Hierarchie-Nummer eines Nachfolger-Elementes immer höher als die seines Vorgängers sein.
        * </pre>
        *
-       * <code>optional .dstore.values.IntegerValue level_no = 10001;</code>
+       * <code>.dstore.values.IntegerValue level_no = 10001;</code>
        */
       public io.dstore.values.IntegerValue getLevelNo() {
         return levelNo_ == null ? io.dstore.values.IntegerValue.getDefaultInstance() : levelNo_;
@@ -1320,7 +1320,7 @@ public final class ImGetLevelForNodePu {
        * Nummer der Hierarchie, der "&#64;NodeID" angehört. Eine höhere Nummer bedeutet eine niedrigere Hierarchie. Das "Root"-Element hat die Nummer "1". Im Artikelbaum muß die Hierarchie-Nummer eines Nachfolger-Elementes immer höher als die seines Vorgängers sein.
        * </pre>
        *
-       * <code>optional .dstore.values.IntegerValue level_no = 10001;</code>
+       * <code>.dstore.values.IntegerValue level_no = 10001;</code>
        */
       public io.dstore.values.IntegerValueOrBuilder getLevelNoOrBuilder() {
         return getLevelNo();
@@ -1333,7 +1333,7 @@ public final class ImGetLevelForNodePu {
        * Bezeichnung der Hierarchie
        * </pre>
        *
-       * <code>optional .dstore.values.StringValue level_description = 10002;</code>
+       * <code>.dstore.values.StringValue level_description = 10002;</code>
        */
       public boolean hasLevelDescription() {
         return levelDescription_ != null;
@@ -1343,7 +1343,7 @@ public final class ImGetLevelForNodePu {
        * Bezeichnung der Hierarchie
        * </pre>
        *
-       * <code>optional .dstore.values.StringValue level_description = 10002;</code>
+       * <code>.dstore.values.StringValue level_description = 10002;</code>
        */
       public io.dstore.values.StringValue getLevelDescription() {
         return levelDescription_ == null ? io.dstore.values.StringValue.getDefaultInstance() : levelDescription_;
@@ -1353,7 +1353,7 @@ public final class ImGetLevelForNodePu {
        * Bezeichnung der Hierarchie
        * </pre>
        *
-       * <code>optional .dstore.values.StringValue level_description = 10002;</code>
+       * <code>.dstore.values.StringValue level_description = 10002;</code>
        */
       public io.dstore.values.StringValueOrBuilder getLevelDescriptionOrBuilder() {
         return getLevelDescription();
@@ -1366,7 +1366,7 @@ public final class ImGetLevelForNodePu {
        * ID der Hierarchie "LevelNo"
        * </pre>
        *
-       * <code>optional .dstore.values.IntegerValue level_id = 10003;</code>
+       * <code>.dstore.values.IntegerValue level_id = 10003;</code>
        */
       public boolean hasLevelId() {
         return levelId_ != null;
@@ -1376,7 +1376,7 @@ public final class ImGetLevelForNodePu {
        * ID der Hierarchie "LevelNo"
        * </pre>
        *
-       * <code>optional .dstore.values.IntegerValue level_id = 10003;</code>
+       * <code>.dstore.values.IntegerValue level_id = 10003;</code>
        */
       public io.dstore.values.IntegerValue getLevelId() {
         return levelId_ == null ? io.dstore.values.IntegerValue.getDefaultInstance() : levelId_;
@@ -1386,7 +1386,7 @@ public final class ImGetLevelForNodePu {
        * ID der Hierarchie "LevelNo"
        * </pre>
        *
-       * <code>optional .dstore.values.IntegerValue level_id = 10003;</code>
+       * <code>.dstore.values.IntegerValue level_id = 10003;</code>
        */
       public io.dstore.values.IntegerValueOrBuilder getLevelIdOrBuilder() {
         return getLevelId();
@@ -1481,7 +1481,7 @@ public final class ImGetLevelForNodePu {
           return memoizedHashCode;
         }
         int hash = 41;
-        hash = (19 * hash) + getDescriptorForType().hashCode();
+        hash = (19 * hash) + getDescriptor().hashCode();
         hash = (37 * hash) + ROW_ID_FIELD_NUMBER;
         hash = (53 * hash) + getRowId();
         if (hasLevelNo()) {
@@ -1753,13 +1753,13 @@ public final class ImGetLevelForNodePu {
 
         private int rowId_ ;
         /**
-         * <code>optional int32 row_id = 10000;</code>
+         * <code>int32 row_id = 10000;</code>
          */
         public int getRowId() {
           return rowId_;
         }
         /**
-         * <code>optional int32 row_id = 10000;</code>
+         * <code>int32 row_id = 10000;</code>
          */
         public Builder setRowId(int value) {
           
@@ -1768,7 +1768,7 @@ public final class ImGetLevelForNodePu {
           return this;
         }
         /**
-         * <code>optional int32 row_id = 10000;</code>
+         * <code>int32 row_id = 10000;</code>
          */
         public Builder clearRowId() {
           
@@ -1785,7 +1785,7 @@ public final class ImGetLevelForNodePu {
          * Nummer der Hierarchie, der "&#64;NodeID" angehört. Eine höhere Nummer bedeutet eine niedrigere Hierarchie. Das "Root"-Element hat die Nummer "1". Im Artikelbaum muß die Hierarchie-Nummer eines Nachfolger-Elementes immer höher als die seines Vorgängers sein.
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue level_no = 10001;</code>
+         * <code>.dstore.values.IntegerValue level_no = 10001;</code>
          */
         public boolean hasLevelNo() {
           return levelNoBuilder_ != null || levelNo_ != null;
@@ -1795,7 +1795,7 @@ public final class ImGetLevelForNodePu {
          * Nummer der Hierarchie, der "&#64;NodeID" angehört. Eine höhere Nummer bedeutet eine niedrigere Hierarchie. Das "Root"-Element hat die Nummer "1". Im Artikelbaum muß die Hierarchie-Nummer eines Nachfolger-Elementes immer höher als die seines Vorgängers sein.
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue level_no = 10001;</code>
+         * <code>.dstore.values.IntegerValue level_no = 10001;</code>
          */
         public io.dstore.values.IntegerValue getLevelNo() {
           if (levelNoBuilder_ == null) {
@@ -1809,7 +1809,7 @@ public final class ImGetLevelForNodePu {
          * Nummer der Hierarchie, der "&#64;NodeID" angehört. Eine höhere Nummer bedeutet eine niedrigere Hierarchie. Das "Root"-Element hat die Nummer "1". Im Artikelbaum muß die Hierarchie-Nummer eines Nachfolger-Elementes immer höher als die seines Vorgängers sein.
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue level_no = 10001;</code>
+         * <code>.dstore.values.IntegerValue level_no = 10001;</code>
          */
         public Builder setLevelNo(io.dstore.values.IntegerValue value) {
           if (levelNoBuilder_ == null) {
@@ -1829,7 +1829,7 @@ public final class ImGetLevelForNodePu {
          * Nummer der Hierarchie, der "&#64;NodeID" angehört. Eine höhere Nummer bedeutet eine niedrigere Hierarchie. Das "Root"-Element hat die Nummer "1". Im Artikelbaum muß die Hierarchie-Nummer eines Nachfolger-Elementes immer höher als die seines Vorgängers sein.
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue level_no = 10001;</code>
+         * <code>.dstore.values.IntegerValue level_no = 10001;</code>
          */
         public Builder setLevelNo(
             io.dstore.values.IntegerValue.Builder builderForValue) {
@@ -1847,7 +1847,7 @@ public final class ImGetLevelForNodePu {
          * Nummer der Hierarchie, der "&#64;NodeID" angehört. Eine höhere Nummer bedeutet eine niedrigere Hierarchie. Das "Root"-Element hat die Nummer "1". Im Artikelbaum muß die Hierarchie-Nummer eines Nachfolger-Elementes immer höher als die seines Vorgängers sein.
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue level_no = 10001;</code>
+         * <code>.dstore.values.IntegerValue level_no = 10001;</code>
          */
         public Builder mergeLevelNo(io.dstore.values.IntegerValue value) {
           if (levelNoBuilder_ == null) {
@@ -1869,7 +1869,7 @@ public final class ImGetLevelForNodePu {
          * Nummer der Hierarchie, der "&#64;NodeID" angehört. Eine höhere Nummer bedeutet eine niedrigere Hierarchie. Das "Root"-Element hat die Nummer "1". Im Artikelbaum muß die Hierarchie-Nummer eines Nachfolger-Elementes immer höher als die seines Vorgängers sein.
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue level_no = 10001;</code>
+         * <code>.dstore.values.IntegerValue level_no = 10001;</code>
          */
         public Builder clearLevelNo() {
           if (levelNoBuilder_ == null) {
@@ -1887,7 +1887,7 @@ public final class ImGetLevelForNodePu {
          * Nummer der Hierarchie, der "&#64;NodeID" angehört. Eine höhere Nummer bedeutet eine niedrigere Hierarchie. Das "Root"-Element hat die Nummer "1". Im Artikelbaum muß die Hierarchie-Nummer eines Nachfolger-Elementes immer höher als die seines Vorgängers sein.
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue level_no = 10001;</code>
+         * <code>.dstore.values.IntegerValue level_no = 10001;</code>
          */
         public io.dstore.values.IntegerValue.Builder getLevelNoBuilder() {
           
@@ -1899,7 +1899,7 @@ public final class ImGetLevelForNodePu {
          * Nummer der Hierarchie, der "&#64;NodeID" angehört. Eine höhere Nummer bedeutet eine niedrigere Hierarchie. Das "Root"-Element hat die Nummer "1". Im Artikelbaum muß die Hierarchie-Nummer eines Nachfolger-Elementes immer höher als die seines Vorgängers sein.
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue level_no = 10001;</code>
+         * <code>.dstore.values.IntegerValue level_no = 10001;</code>
          */
         public io.dstore.values.IntegerValueOrBuilder getLevelNoOrBuilder() {
           if (levelNoBuilder_ != null) {
@@ -1914,7 +1914,7 @@ public final class ImGetLevelForNodePu {
          * Nummer der Hierarchie, der "&#64;NodeID" angehört. Eine höhere Nummer bedeutet eine niedrigere Hierarchie. Das "Root"-Element hat die Nummer "1". Im Artikelbaum muß die Hierarchie-Nummer eines Nachfolger-Elementes immer höher als die seines Vorgängers sein.
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue level_no = 10001;</code>
+         * <code>.dstore.values.IntegerValue level_no = 10001;</code>
          */
         private com.google.protobuf.SingleFieldBuilderV3<
             io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> 
@@ -1938,7 +1938,7 @@ public final class ImGetLevelForNodePu {
          * Bezeichnung der Hierarchie
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue level_description = 10002;</code>
+         * <code>.dstore.values.StringValue level_description = 10002;</code>
          */
         public boolean hasLevelDescription() {
           return levelDescriptionBuilder_ != null || levelDescription_ != null;
@@ -1948,7 +1948,7 @@ public final class ImGetLevelForNodePu {
          * Bezeichnung der Hierarchie
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue level_description = 10002;</code>
+         * <code>.dstore.values.StringValue level_description = 10002;</code>
          */
         public io.dstore.values.StringValue getLevelDescription() {
           if (levelDescriptionBuilder_ == null) {
@@ -1962,7 +1962,7 @@ public final class ImGetLevelForNodePu {
          * Bezeichnung der Hierarchie
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue level_description = 10002;</code>
+         * <code>.dstore.values.StringValue level_description = 10002;</code>
          */
         public Builder setLevelDescription(io.dstore.values.StringValue value) {
           if (levelDescriptionBuilder_ == null) {
@@ -1982,7 +1982,7 @@ public final class ImGetLevelForNodePu {
          * Bezeichnung der Hierarchie
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue level_description = 10002;</code>
+         * <code>.dstore.values.StringValue level_description = 10002;</code>
          */
         public Builder setLevelDescription(
             io.dstore.values.StringValue.Builder builderForValue) {
@@ -2000,7 +2000,7 @@ public final class ImGetLevelForNodePu {
          * Bezeichnung der Hierarchie
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue level_description = 10002;</code>
+         * <code>.dstore.values.StringValue level_description = 10002;</code>
          */
         public Builder mergeLevelDescription(io.dstore.values.StringValue value) {
           if (levelDescriptionBuilder_ == null) {
@@ -2022,7 +2022,7 @@ public final class ImGetLevelForNodePu {
          * Bezeichnung der Hierarchie
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue level_description = 10002;</code>
+         * <code>.dstore.values.StringValue level_description = 10002;</code>
          */
         public Builder clearLevelDescription() {
           if (levelDescriptionBuilder_ == null) {
@@ -2040,7 +2040,7 @@ public final class ImGetLevelForNodePu {
          * Bezeichnung der Hierarchie
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue level_description = 10002;</code>
+         * <code>.dstore.values.StringValue level_description = 10002;</code>
          */
         public io.dstore.values.StringValue.Builder getLevelDescriptionBuilder() {
           
@@ -2052,7 +2052,7 @@ public final class ImGetLevelForNodePu {
          * Bezeichnung der Hierarchie
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue level_description = 10002;</code>
+         * <code>.dstore.values.StringValue level_description = 10002;</code>
          */
         public io.dstore.values.StringValueOrBuilder getLevelDescriptionOrBuilder() {
           if (levelDescriptionBuilder_ != null) {
@@ -2067,7 +2067,7 @@ public final class ImGetLevelForNodePu {
          * Bezeichnung der Hierarchie
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue level_description = 10002;</code>
+         * <code>.dstore.values.StringValue level_description = 10002;</code>
          */
         private com.google.protobuf.SingleFieldBuilderV3<
             io.dstore.values.StringValue, io.dstore.values.StringValue.Builder, io.dstore.values.StringValueOrBuilder> 
@@ -2091,7 +2091,7 @@ public final class ImGetLevelForNodePu {
          * ID der Hierarchie "LevelNo"
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue level_id = 10003;</code>
+         * <code>.dstore.values.IntegerValue level_id = 10003;</code>
          */
         public boolean hasLevelId() {
           return levelIdBuilder_ != null || levelId_ != null;
@@ -2101,7 +2101,7 @@ public final class ImGetLevelForNodePu {
          * ID der Hierarchie "LevelNo"
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue level_id = 10003;</code>
+         * <code>.dstore.values.IntegerValue level_id = 10003;</code>
          */
         public io.dstore.values.IntegerValue getLevelId() {
           if (levelIdBuilder_ == null) {
@@ -2115,7 +2115,7 @@ public final class ImGetLevelForNodePu {
          * ID der Hierarchie "LevelNo"
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue level_id = 10003;</code>
+         * <code>.dstore.values.IntegerValue level_id = 10003;</code>
          */
         public Builder setLevelId(io.dstore.values.IntegerValue value) {
           if (levelIdBuilder_ == null) {
@@ -2135,7 +2135,7 @@ public final class ImGetLevelForNodePu {
          * ID der Hierarchie "LevelNo"
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue level_id = 10003;</code>
+         * <code>.dstore.values.IntegerValue level_id = 10003;</code>
          */
         public Builder setLevelId(
             io.dstore.values.IntegerValue.Builder builderForValue) {
@@ -2153,7 +2153,7 @@ public final class ImGetLevelForNodePu {
          * ID der Hierarchie "LevelNo"
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue level_id = 10003;</code>
+         * <code>.dstore.values.IntegerValue level_id = 10003;</code>
          */
         public Builder mergeLevelId(io.dstore.values.IntegerValue value) {
           if (levelIdBuilder_ == null) {
@@ -2175,7 +2175,7 @@ public final class ImGetLevelForNodePu {
          * ID der Hierarchie "LevelNo"
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue level_id = 10003;</code>
+         * <code>.dstore.values.IntegerValue level_id = 10003;</code>
          */
         public Builder clearLevelId() {
           if (levelIdBuilder_ == null) {
@@ -2193,7 +2193,7 @@ public final class ImGetLevelForNodePu {
          * ID der Hierarchie "LevelNo"
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue level_id = 10003;</code>
+         * <code>.dstore.values.IntegerValue level_id = 10003;</code>
          */
         public io.dstore.values.IntegerValue.Builder getLevelIdBuilder() {
           
@@ -2205,7 +2205,7 @@ public final class ImGetLevelForNodePu {
          * ID der Hierarchie "LevelNo"
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue level_id = 10003;</code>
+         * <code>.dstore.values.IntegerValue level_id = 10003;</code>
          */
         public io.dstore.values.IntegerValueOrBuilder getLevelIdOrBuilder() {
           if (levelIdBuilder_ != null) {
@@ -2220,7 +2220,7 @@ public final class ImGetLevelForNodePu {
          * ID der Hierarchie "LevelNo"
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue level_id = 10003;</code>
+         * <code>.dstore.values.IntegerValue level_id = 10003;</code>
          */
         private com.google.protobuf.SingleFieldBuilderV3<
             io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> 
@@ -2480,7 +2480,7 @@ public final class ImGetLevelForNodePu {
         return memoizedHashCode;
       }
       int hash = 41;
-      hash = (19 * hash) + getDescriptorForType().hashCode();
+      hash = (19 * hash) + getDescriptor().hashCode();
       if (getMetaInformationCount() > 0) {
         hash = (37 * hash) + META_INFORMATION_FIELD_NUMBER;
         hash = (53 * hash) + getMetaInformationList().hashCode();

@@ -19,110 +19,110 @@ public final class MiModifyTRITriggerToDosAd {
       com.google.protobuf.MessageOrBuilder {
 
     /**
-     * <code>optional .dstore.values.IntegerValue trigger_id = 1;</code>
+     * <code>.dstore.values.IntegerValue trigger_id = 1;</code>
      */
     boolean hasTriggerId();
     /**
-     * <code>optional .dstore.values.IntegerValue trigger_id = 1;</code>
+     * <code>.dstore.values.IntegerValue trigger_id = 1;</code>
      */
     io.dstore.values.IntegerValue getTriggerId();
     /**
-     * <code>optional .dstore.values.IntegerValue trigger_id = 1;</code>
+     * <code>.dstore.values.IntegerValue trigger_id = 1;</code>
      */
     io.dstore.values.IntegerValueOrBuilder getTriggerIdOrBuilder();
 
     /**
-     * <code>optional bool trigger_id_null = 1001;</code>
+     * <code>bool trigger_id_null = 1001;</code>
      */
     boolean getTriggerIdNull();
 
     /**
-     * <code>optional .dstore.values.IntegerValue work_step_no = 2;</code>
+     * <code>.dstore.values.IntegerValue work_step_no = 2;</code>
      */
     boolean hasWorkStepNo();
     /**
-     * <code>optional .dstore.values.IntegerValue work_step_no = 2;</code>
+     * <code>.dstore.values.IntegerValue work_step_no = 2;</code>
      */
     io.dstore.values.IntegerValue getWorkStepNo();
     /**
-     * <code>optional .dstore.values.IntegerValue work_step_no = 2;</code>
+     * <code>.dstore.values.IntegerValue work_step_no = 2;</code>
      */
     io.dstore.values.IntegerValueOrBuilder getWorkStepNoOrBuilder();
 
     /**
-     * <code>optional bool work_step_no_null = 1002;</code>
+     * <code>bool work_step_no_null = 1002;</code>
      */
     boolean getWorkStepNoNull();
 
     /**
-     * <code>optional .dstore.values.IntegerValue to_do_no = 3;</code>
+     * <code>.dstore.values.IntegerValue to_do_no = 3;</code>
      */
     boolean hasToDoNo();
     /**
-     * <code>optional .dstore.values.IntegerValue to_do_no = 3;</code>
+     * <code>.dstore.values.IntegerValue to_do_no = 3;</code>
      */
     io.dstore.values.IntegerValue getToDoNo();
     /**
-     * <code>optional .dstore.values.IntegerValue to_do_no = 3;</code>
+     * <code>.dstore.values.IntegerValue to_do_no = 3;</code>
      */
     io.dstore.values.IntegerValueOrBuilder getToDoNoOrBuilder();
 
     /**
-     * <code>optional bool to_do_no_null = 1003;</code>
+     * <code>bool to_do_no_null = 1003;</code>
      */
     boolean getToDoNoNull();
 
     /**
-     * <code>optional .dstore.values.StringValue proc_call = 4;</code>
+     * <code>.dstore.values.StringValue proc_call = 4;</code>
      */
     boolean hasProcCall();
     /**
-     * <code>optional .dstore.values.StringValue proc_call = 4;</code>
+     * <code>.dstore.values.StringValue proc_call = 4;</code>
      */
     io.dstore.values.StringValue getProcCall();
     /**
-     * <code>optional .dstore.values.StringValue proc_call = 4;</code>
+     * <code>.dstore.values.StringValue proc_call = 4;</code>
      */
     io.dstore.values.StringValueOrBuilder getProcCallOrBuilder();
 
     /**
-     * <code>optional bool proc_call_null = 1004;</code>
+     * <code>bool proc_call_null = 1004;</code>
      */
     boolean getProcCallNull();
 
     /**
-     * <code>optional .dstore.values.StringValue iteration_list = 5;</code>
+     * <code>.dstore.values.StringValue iteration_list = 5;</code>
      */
     boolean hasIterationList();
     /**
-     * <code>optional .dstore.values.StringValue iteration_list = 5;</code>
+     * <code>.dstore.values.StringValue iteration_list = 5;</code>
      */
     io.dstore.values.StringValue getIterationList();
     /**
-     * <code>optional .dstore.values.StringValue iteration_list = 5;</code>
+     * <code>.dstore.values.StringValue iteration_list = 5;</code>
      */
     io.dstore.values.StringValueOrBuilder getIterationListOrBuilder();
 
     /**
-     * <code>optional bool iteration_list_null = 1005;</code>
+     * <code>bool iteration_list_null = 1005;</code>
      */
     boolean getIterationListNull();
 
     /**
-     * <code>optional .dstore.values.BooleanValue delete_to_do = 6;</code>
+     * <code>.dstore.values.BooleanValue delete_to_do = 6;</code>
      */
     boolean hasDeleteToDo();
     /**
-     * <code>optional .dstore.values.BooleanValue delete_to_do = 6;</code>
+     * <code>.dstore.values.BooleanValue delete_to_do = 6;</code>
      */
     io.dstore.values.BooleanValue getDeleteToDo();
     /**
-     * <code>optional .dstore.values.BooleanValue delete_to_do = 6;</code>
+     * <code>.dstore.values.BooleanValue delete_to_do = 6;</code>
      */
     io.dstore.values.BooleanValueOrBuilder getDeleteToDoOrBuilder();
 
     /**
-     * <code>optional bool delete_to_do_null = 1006;</code>
+     * <code>bool delete_to_do_null = 1006;</code>
      */
     boolean getDeleteToDoNull();
   }
@@ -305,19 +305,19 @@ public final class MiModifyTRITriggerToDosAd {
     public static final int TRIGGER_ID_FIELD_NUMBER = 1;
     private io.dstore.values.IntegerValue triggerId_;
     /**
-     * <code>optional .dstore.values.IntegerValue trigger_id = 1;</code>
+     * <code>.dstore.values.IntegerValue trigger_id = 1;</code>
      */
     public boolean hasTriggerId() {
       return triggerId_ != null;
     }
     /**
-     * <code>optional .dstore.values.IntegerValue trigger_id = 1;</code>
+     * <code>.dstore.values.IntegerValue trigger_id = 1;</code>
      */
     public io.dstore.values.IntegerValue getTriggerId() {
       return triggerId_ == null ? io.dstore.values.IntegerValue.getDefaultInstance() : triggerId_;
     }
     /**
-     * <code>optional .dstore.values.IntegerValue trigger_id = 1;</code>
+     * <code>.dstore.values.IntegerValue trigger_id = 1;</code>
      */
     public io.dstore.values.IntegerValueOrBuilder getTriggerIdOrBuilder() {
       return getTriggerId();
@@ -326,7 +326,7 @@ public final class MiModifyTRITriggerToDosAd {
     public static final int TRIGGER_ID_NULL_FIELD_NUMBER = 1001;
     private boolean triggerIdNull_;
     /**
-     * <code>optional bool trigger_id_null = 1001;</code>
+     * <code>bool trigger_id_null = 1001;</code>
      */
     public boolean getTriggerIdNull() {
       return triggerIdNull_;
@@ -335,19 +335,19 @@ public final class MiModifyTRITriggerToDosAd {
     public static final int WORK_STEP_NO_FIELD_NUMBER = 2;
     private io.dstore.values.IntegerValue workStepNo_;
     /**
-     * <code>optional .dstore.values.IntegerValue work_step_no = 2;</code>
+     * <code>.dstore.values.IntegerValue work_step_no = 2;</code>
      */
     public boolean hasWorkStepNo() {
       return workStepNo_ != null;
     }
     /**
-     * <code>optional .dstore.values.IntegerValue work_step_no = 2;</code>
+     * <code>.dstore.values.IntegerValue work_step_no = 2;</code>
      */
     public io.dstore.values.IntegerValue getWorkStepNo() {
       return workStepNo_ == null ? io.dstore.values.IntegerValue.getDefaultInstance() : workStepNo_;
     }
     /**
-     * <code>optional .dstore.values.IntegerValue work_step_no = 2;</code>
+     * <code>.dstore.values.IntegerValue work_step_no = 2;</code>
      */
     public io.dstore.values.IntegerValueOrBuilder getWorkStepNoOrBuilder() {
       return getWorkStepNo();
@@ -356,7 +356,7 @@ public final class MiModifyTRITriggerToDosAd {
     public static final int WORK_STEP_NO_NULL_FIELD_NUMBER = 1002;
     private boolean workStepNoNull_;
     /**
-     * <code>optional bool work_step_no_null = 1002;</code>
+     * <code>bool work_step_no_null = 1002;</code>
      */
     public boolean getWorkStepNoNull() {
       return workStepNoNull_;
@@ -365,19 +365,19 @@ public final class MiModifyTRITriggerToDosAd {
     public static final int TO_DO_NO_FIELD_NUMBER = 3;
     private io.dstore.values.IntegerValue toDoNo_;
     /**
-     * <code>optional .dstore.values.IntegerValue to_do_no = 3;</code>
+     * <code>.dstore.values.IntegerValue to_do_no = 3;</code>
      */
     public boolean hasToDoNo() {
       return toDoNo_ != null;
     }
     /**
-     * <code>optional .dstore.values.IntegerValue to_do_no = 3;</code>
+     * <code>.dstore.values.IntegerValue to_do_no = 3;</code>
      */
     public io.dstore.values.IntegerValue getToDoNo() {
       return toDoNo_ == null ? io.dstore.values.IntegerValue.getDefaultInstance() : toDoNo_;
     }
     /**
-     * <code>optional .dstore.values.IntegerValue to_do_no = 3;</code>
+     * <code>.dstore.values.IntegerValue to_do_no = 3;</code>
      */
     public io.dstore.values.IntegerValueOrBuilder getToDoNoOrBuilder() {
       return getToDoNo();
@@ -386,7 +386,7 @@ public final class MiModifyTRITriggerToDosAd {
     public static final int TO_DO_NO_NULL_FIELD_NUMBER = 1003;
     private boolean toDoNoNull_;
     /**
-     * <code>optional bool to_do_no_null = 1003;</code>
+     * <code>bool to_do_no_null = 1003;</code>
      */
     public boolean getToDoNoNull() {
       return toDoNoNull_;
@@ -395,19 +395,19 @@ public final class MiModifyTRITriggerToDosAd {
     public static final int PROC_CALL_FIELD_NUMBER = 4;
     private io.dstore.values.StringValue procCall_;
     /**
-     * <code>optional .dstore.values.StringValue proc_call = 4;</code>
+     * <code>.dstore.values.StringValue proc_call = 4;</code>
      */
     public boolean hasProcCall() {
       return procCall_ != null;
     }
     /**
-     * <code>optional .dstore.values.StringValue proc_call = 4;</code>
+     * <code>.dstore.values.StringValue proc_call = 4;</code>
      */
     public io.dstore.values.StringValue getProcCall() {
       return procCall_ == null ? io.dstore.values.StringValue.getDefaultInstance() : procCall_;
     }
     /**
-     * <code>optional .dstore.values.StringValue proc_call = 4;</code>
+     * <code>.dstore.values.StringValue proc_call = 4;</code>
      */
     public io.dstore.values.StringValueOrBuilder getProcCallOrBuilder() {
       return getProcCall();
@@ -416,7 +416,7 @@ public final class MiModifyTRITriggerToDosAd {
     public static final int PROC_CALL_NULL_FIELD_NUMBER = 1004;
     private boolean procCallNull_;
     /**
-     * <code>optional bool proc_call_null = 1004;</code>
+     * <code>bool proc_call_null = 1004;</code>
      */
     public boolean getProcCallNull() {
       return procCallNull_;
@@ -425,19 +425,19 @@ public final class MiModifyTRITriggerToDosAd {
     public static final int ITERATION_LIST_FIELD_NUMBER = 5;
     private io.dstore.values.StringValue iterationList_;
     /**
-     * <code>optional .dstore.values.StringValue iteration_list = 5;</code>
+     * <code>.dstore.values.StringValue iteration_list = 5;</code>
      */
     public boolean hasIterationList() {
       return iterationList_ != null;
     }
     /**
-     * <code>optional .dstore.values.StringValue iteration_list = 5;</code>
+     * <code>.dstore.values.StringValue iteration_list = 5;</code>
      */
     public io.dstore.values.StringValue getIterationList() {
       return iterationList_ == null ? io.dstore.values.StringValue.getDefaultInstance() : iterationList_;
     }
     /**
-     * <code>optional .dstore.values.StringValue iteration_list = 5;</code>
+     * <code>.dstore.values.StringValue iteration_list = 5;</code>
      */
     public io.dstore.values.StringValueOrBuilder getIterationListOrBuilder() {
       return getIterationList();
@@ -446,7 +446,7 @@ public final class MiModifyTRITriggerToDosAd {
     public static final int ITERATION_LIST_NULL_FIELD_NUMBER = 1005;
     private boolean iterationListNull_;
     /**
-     * <code>optional bool iteration_list_null = 1005;</code>
+     * <code>bool iteration_list_null = 1005;</code>
      */
     public boolean getIterationListNull() {
       return iterationListNull_;
@@ -455,19 +455,19 @@ public final class MiModifyTRITriggerToDosAd {
     public static final int DELETE_TO_DO_FIELD_NUMBER = 6;
     private io.dstore.values.BooleanValue deleteToDo_;
     /**
-     * <code>optional .dstore.values.BooleanValue delete_to_do = 6;</code>
+     * <code>.dstore.values.BooleanValue delete_to_do = 6;</code>
      */
     public boolean hasDeleteToDo() {
       return deleteToDo_ != null;
     }
     /**
-     * <code>optional .dstore.values.BooleanValue delete_to_do = 6;</code>
+     * <code>.dstore.values.BooleanValue delete_to_do = 6;</code>
      */
     public io.dstore.values.BooleanValue getDeleteToDo() {
       return deleteToDo_ == null ? io.dstore.values.BooleanValue.getDefaultInstance() : deleteToDo_;
     }
     /**
-     * <code>optional .dstore.values.BooleanValue delete_to_do = 6;</code>
+     * <code>.dstore.values.BooleanValue delete_to_do = 6;</code>
      */
     public io.dstore.values.BooleanValueOrBuilder getDeleteToDoOrBuilder() {
       return getDeleteToDo();
@@ -476,7 +476,7 @@ public final class MiModifyTRITriggerToDosAd {
     public static final int DELETE_TO_DO_NULL_FIELD_NUMBER = 1006;
     private boolean deleteToDoNull_;
     /**
-     * <code>optional bool delete_to_do_null = 1006;</code>
+     * <code>bool delete_to_do_null = 1006;</code>
      */
     public boolean getDeleteToDoNull() {
       return deleteToDoNull_;
@@ -652,7 +652,7 @@ public final class MiModifyTRITriggerToDosAd {
         return memoizedHashCode;
       }
       int hash = 41;
-      hash = (19 * hash) + getDescriptorForType().hashCode();
+      hash = (19 * hash) + getDescriptor().hashCode();
       if (hasTriggerId()) {
         hash = (37 * hash) + TRIGGER_ID_FIELD_NUMBER;
         hash = (53 * hash) + getTriggerId().hashCode();
@@ -1026,13 +1026,13 @@ public final class MiModifyTRITriggerToDosAd {
       private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> triggerIdBuilder_;
       /**
-       * <code>optional .dstore.values.IntegerValue trigger_id = 1;</code>
+       * <code>.dstore.values.IntegerValue trigger_id = 1;</code>
        */
       public boolean hasTriggerId() {
         return triggerIdBuilder_ != null || triggerId_ != null;
       }
       /**
-       * <code>optional .dstore.values.IntegerValue trigger_id = 1;</code>
+       * <code>.dstore.values.IntegerValue trigger_id = 1;</code>
        */
       public io.dstore.values.IntegerValue getTriggerId() {
         if (triggerIdBuilder_ == null) {
@@ -1042,7 +1042,7 @@ public final class MiModifyTRITriggerToDosAd {
         }
       }
       /**
-       * <code>optional .dstore.values.IntegerValue trigger_id = 1;</code>
+       * <code>.dstore.values.IntegerValue trigger_id = 1;</code>
        */
       public Builder setTriggerId(io.dstore.values.IntegerValue value) {
         if (triggerIdBuilder_ == null) {
@@ -1058,7 +1058,7 @@ public final class MiModifyTRITriggerToDosAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.IntegerValue trigger_id = 1;</code>
+       * <code>.dstore.values.IntegerValue trigger_id = 1;</code>
        */
       public Builder setTriggerId(
           io.dstore.values.IntegerValue.Builder builderForValue) {
@@ -1072,7 +1072,7 @@ public final class MiModifyTRITriggerToDosAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.IntegerValue trigger_id = 1;</code>
+       * <code>.dstore.values.IntegerValue trigger_id = 1;</code>
        */
       public Builder mergeTriggerId(io.dstore.values.IntegerValue value) {
         if (triggerIdBuilder_ == null) {
@@ -1090,7 +1090,7 @@ public final class MiModifyTRITriggerToDosAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.IntegerValue trigger_id = 1;</code>
+       * <code>.dstore.values.IntegerValue trigger_id = 1;</code>
        */
       public Builder clearTriggerId() {
         if (triggerIdBuilder_ == null) {
@@ -1104,7 +1104,7 @@ public final class MiModifyTRITriggerToDosAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.IntegerValue trigger_id = 1;</code>
+       * <code>.dstore.values.IntegerValue trigger_id = 1;</code>
        */
       public io.dstore.values.IntegerValue.Builder getTriggerIdBuilder() {
         
@@ -1112,7 +1112,7 @@ public final class MiModifyTRITriggerToDosAd {
         return getTriggerIdFieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .dstore.values.IntegerValue trigger_id = 1;</code>
+       * <code>.dstore.values.IntegerValue trigger_id = 1;</code>
        */
       public io.dstore.values.IntegerValueOrBuilder getTriggerIdOrBuilder() {
         if (triggerIdBuilder_ != null) {
@@ -1123,7 +1123,7 @@ public final class MiModifyTRITriggerToDosAd {
         }
       }
       /**
-       * <code>optional .dstore.values.IntegerValue trigger_id = 1;</code>
+       * <code>.dstore.values.IntegerValue trigger_id = 1;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> 
@@ -1141,13 +1141,13 @@ public final class MiModifyTRITriggerToDosAd {
 
       private boolean triggerIdNull_ ;
       /**
-       * <code>optional bool trigger_id_null = 1001;</code>
+       * <code>bool trigger_id_null = 1001;</code>
        */
       public boolean getTriggerIdNull() {
         return triggerIdNull_;
       }
       /**
-       * <code>optional bool trigger_id_null = 1001;</code>
+       * <code>bool trigger_id_null = 1001;</code>
        */
       public Builder setTriggerIdNull(boolean value) {
         
@@ -1156,7 +1156,7 @@ public final class MiModifyTRITriggerToDosAd {
         return this;
       }
       /**
-       * <code>optional bool trigger_id_null = 1001;</code>
+       * <code>bool trigger_id_null = 1001;</code>
        */
       public Builder clearTriggerIdNull() {
         
@@ -1169,13 +1169,13 @@ public final class MiModifyTRITriggerToDosAd {
       private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> workStepNoBuilder_;
       /**
-       * <code>optional .dstore.values.IntegerValue work_step_no = 2;</code>
+       * <code>.dstore.values.IntegerValue work_step_no = 2;</code>
        */
       public boolean hasWorkStepNo() {
         return workStepNoBuilder_ != null || workStepNo_ != null;
       }
       /**
-       * <code>optional .dstore.values.IntegerValue work_step_no = 2;</code>
+       * <code>.dstore.values.IntegerValue work_step_no = 2;</code>
        */
       public io.dstore.values.IntegerValue getWorkStepNo() {
         if (workStepNoBuilder_ == null) {
@@ -1185,7 +1185,7 @@ public final class MiModifyTRITriggerToDosAd {
         }
       }
       /**
-       * <code>optional .dstore.values.IntegerValue work_step_no = 2;</code>
+       * <code>.dstore.values.IntegerValue work_step_no = 2;</code>
        */
       public Builder setWorkStepNo(io.dstore.values.IntegerValue value) {
         if (workStepNoBuilder_ == null) {
@@ -1201,7 +1201,7 @@ public final class MiModifyTRITriggerToDosAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.IntegerValue work_step_no = 2;</code>
+       * <code>.dstore.values.IntegerValue work_step_no = 2;</code>
        */
       public Builder setWorkStepNo(
           io.dstore.values.IntegerValue.Builder builderForValue) {
@@ -1215,7 +1215,7 @@ public final class MiModifyTRITriggerToDosAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.IntegerValue work_step_no = 2;</code>
+       * <code>.dstore.values.IntegerValue work_step_no = 2;</code>
        */
       public Builder mergeWorkStepNo(io.dstore.values.IntegerValue value) {
         if (workStepNoBuilder_ == null) {
@@ -1233,7 +1233,7 @@ public final class MiModifyTRITriggerToDosAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.IntegerValue work_step_no = 2;</code>
+       * <code>.dstore.values.IntegerValue work_step_no = 2;</code>
        */
       public Builder clearWorkStepNo() {
         if (workStepNoBuilder_ == null) {
@@ -1247,7 +1247,7 @@ public final class MiModifyTRITriggerToDosAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.IntegerValue work_step_no = 2;</code>
+       * <code>.dstore.values.IntegerValue work_step_no = 2;</code>
        */
       public io.dstore.values.IntegerValue.Builder getWorkStepNoBuilder() {
         
@@ -1255,7 +1255,7 @@ public final class MiModifyTRITriggerToDosAd {
         return getWorkStepNoFieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .dstore.values.IntegerValue work_step_no = 2;</code>
+       * <code>.dstore.values.IntegerValue work_step_no = 2;</code>
        */
       public io.dstore.values.IntegerValueOrBuilder getWorkStepNoOrBuilder() {
         if (workStepNoBuilder_ != null) {
@@ -1266,7 +1266,7 @@ public final class MiModifyTRITriggerToDosAd {
         }
       }
       /**
-       * <code>optional .dstore.values.IntegerValue work_step_no = 2;</code>
+       * <code>.dstore.values.IntegerValue work_step_no = 2;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> 
@@ -1284,13 +1284,13 @@ public final class MiModifyTRITriggerToDosAd {
 
       private boolean workStepNoNull_ ;
       /**
-       * <code>optional bool work_step_no_null = 1002;</code>
+       * <code>bool work_step_no_null = 1002;</code>
        */
       public boolean getWorkStepNoNull() {
         return workStepNoNull_;
       }
       /**
-       * <code>optional bool work_step_no_null = 1002;</code>
+       * <code>bool work_step_no_null = 1002;</code>
        */
       public Builder setWorkStepNoNull(boolean value) {
         
@@ -1299,7 +1299,7 @@ public final class MiModifyTRITriggerToDosAd {
         return this;
       }
       /**
-       * <code>optional bool work_step_no_null = 1002;</code>
+       * <code>bool work_step_no_null = 1002;</code>
        */
       public Builder clearWorkStepNoNull() {
         
@@ -1312,13 +1312,13 @@ public final class MiModifyTRITriggerToDosAd {
       private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> toDoNoBuilder_;
       /**
-       * <code>optional .dstore.values.IntegerValue to_do_no = 3;</code>
+       * <code>.dstore.values.IntegerValue to_do_no = 3;</code>
        */
       public boolean hasToDoNo() {
         return toDoNoBuilder_ != null || toDoNo_ != null;
       }
       /**
-       * <code>optional .dstore.values.IntegerValue to_do_no = 3;</code>
+       * <code>.dstore.values.IntegerValue to_do_no = 3;</code>
        */
       public io.dstore.values.IntegerValue getToDoNo() {
         if (toDoNoBuilder_ == null) {
@@ -1328,7 +1328,7 @@ public final class MiModifyTRITriggerToDosAd {
         }
       }
       /**
-       * <code>optional .dstore.values.IntegerValue to_do_no = 3;</code>
+       * <code>.dstore.values.IntegerValue to_do_no = 3;</code>
        */
       public Builder setToDoNo(io.dstore.values.IntegerValue value) {
         if (toDoNoBuilder_ == null) {
@@ -1344,7 +1344,7 @@ public final class MiModifyTRITriggerToDosAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.IntegerValue to_do_no = 3;</code>
+       * <code>.dstore.values.IntegerValue to_do_no = 3;</code>
        */
       public Builder setToDoNo(
           io.dstore.values.IntegerValue.Builder builderForValue) {
@@ -1358,7 +1358,7 @@ public final class MiModifyTRITriggerToDosAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.IntegerValue to_do_no = 3;</code>
+       * <code>.dstore.values.IntegerValue to_do_no = 3;</code>
        */
       public Builder mergeToDoNo(io.dstore.values.IntegerValue value) {
         if (toDoNoBuilder_ == null) {
@@ -1376,7 +1376,7 @@ public final class MiModifyTRITriggerToDosAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.IntegerValue to_do_no = 3;</code>
+       * <code>.dstore.values.IntegerValue to_do_no = 3;</code>
        */
       public Builder clearToDoNo() {
         if (toDoNoBuilder_ == null) {
@@ -1390,7 +1390,7 @@ public final class MiModifyTRITriggerToDosAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.IntegerValue to_do_no = 3;</code>
+       * <code>.dstore.values.IntegerValue to_do_no = 3;</code>
        */
       public io.dstore.values.IntegerValue.Builder getToDoNoBuilder() {
         
@@ -1398,7 +1398,7 @@ public final class MiModifyTRITriggerToDosAd {
         return getToDoNoFieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .dstore.values.IntegerValue to_do_no = 3;</code>
+       * <code>.dstore.values.IntegerValue to_do_no = 3;</code>
        */
       public io.dstore.values.IntegerValueOrBuilder getToDoNoOrBuilder() {
         if (toDoNoBuilder_ != null) {
@@ -1409,7 +1409,7 @@ public final class MiModifyTRITriggerToDosAd {
         }
       }
       /**
-       * <code>optional .dstore.values.IntegerValue to_do_no = 3;</code>
+       * <code>.dstore.values.IntegerValue to_do_no = 3;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> 
@@ -1427,13 +1427,13 @@ public final class MiModifyTRITriggerToDosAd {
 
       private boolean toDoNoNull_ ;
       /**
-       * <code>optional bool to_do_no_null = 1003;</code>
+       * <code>bool to_do_no_null = 1003;</code>
        */
       public boolean getToDoNoNull() {
         return toDoNoNull_;
       }
       /**
-       * <code>optional bool to_do_no_null = 1003;</code>
+       * <code>bool to_do_no_null = 1003;</code>
        */
       public Builder setToDoNoNull(boolean value) {
         
@@ -1442,7 +1442,7 @@ public final class MiModifyTRITriggerToDosAd {
         return this;
       }
       /**
-       * <code>optional bool to_do_no_null = 1003;</code>
+       * <code>bool to_do_no_null = 1003;</code>
        */
       public Builder clearToDoNoNull() {
         
@@ -1455,13 +1455,13 @@ public final class MiModifyTRITriggerToDosAd {
       private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.values.StringValue, io.dstore.values.StringValue.Builder, io.dstore.values.StringValueOrBuilder> procCallBuilder_;
       /**
-       * <code>optional .dstore.values.StringValue proc_call = 4;</code>
+       * <code>.dstore.values.StringValue proc_call = 4;</code>
        */
       public boolean hasProcCall() {
         return procCallBuilder_ != null || procCall_ != null;
       }
       /**
-       * <code>optional .dstore.values.StringValue proc_call = 4;</code>
+       * <code>.dstore.values.StringValue proc_call = 4;</code>
        */
       public io.dstore.values.StringValue getProcCall() {
         if (procCallBuilder_ == null) {
@@ -1471,7 +1471,7 @@ public final class MiModifyTRITriggerToDosAd {
         }
       }
       /**
-       * <code>optional .dstore.values.StringValue proc_call = 4;</code>
+       * <code>.dstore.values.StringValue proc_call = 4;</code>
        */
       public Builder setProcCall(io.dstore.values.StringValue value) {
         if (procCallBuilder_ == null) {
@@ -1487,7 +1487,7 @@ public final class MiModifyTRITriggerToDosAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.StringValue proc_call = 4;</code>
+       * <code>.dstore.values.StringValue proc_call = 4;</code>
        */
       public Builder setProcCall(
           io.dstore.values.StringValue.Builder builderForValue) {
@@ -1501,7 +1501,7 @@ public final class MiModifyTRITriggerToDosAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.StringValue proc_call = 4;</code>
+       * <code>.dstore.values.StringValue proc_call = 4;</code>
        */
       public Builder mergeProcCall(io.dstore.values.StringValue value) {
         if (procCallBuilder_ == null) {
@@ -1519,7 +1519,7 @@ public final class MiModifyTRITriggerToDosAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.StringValue proc_call = 4;</code>
+       * <code>.dstore.values.StringValue proc_call = 4;</code>
        */
       public Builder clearProcCall() {
         if (procCallBuilder_ == null) {
@@ -1533,7 +1533,7 @@ public final class MiModifyTRITriggerToDosAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.StringValue proc_call = 4;</code>
+       * <code>.dstore.values.StringValue proc_call = 4;</code>
        */
       public io.dstore.values.StringValue.Builder getProcCallBuilder() {
         
@@ -1541,7 +1541,7 @@ public final class MiModifyTRITriggerToDosAd {
         return getProcCallFieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .dstore.values.StringValue proc_call = 4;</code>
+       * <code>.dstore.values.StringValue proc_call = 4;</code>
        */
       public io.dstore.values.StringValueOrBuilder getProcCallOrBuilder() {
         if (procCallBuilder_ != null) {
@@ -1552,7 +1552,7 @@ public final class MiModifyTRITriggerToDosAd {
         }
       }
       /**
-       * <code>optional .dstore.values.StringValue proc_call = 4;</code>
+       * <code>.dstore.values.StringValue proc_call = 4;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.values.StringValue, io.dstore.values.StringValue.Builder, io.dstore.values.StringValueOrBuilder> 
@@ -1570,13 +1570,13 @@ public final class MiModifyTRITriggerToDosAd {
 
       private boolean procCallNull_ ;
       /**
-       * <code>optional bool proc_call_null = 1004;</code>
+       * <code>bool proc_call_null = 1004;</code>
        */
       public boolean getProcCallNull() {
         return procCallNull_;
       }
       /**
-       * <code>optional bool proc_call_null = 1004;</code>
+       * <code>bool proc_call_null = 1004;</code>
        */
       public Builder setProcCallNull(boolean value) {
         
@@ -1585,7 +1585,7 @@ public final class MiModifyTRITriggerToDosAd {
         return this;
       }
       /**
-       * <code>optional bool proc_call_null = 1004;</code>
+       * <code>bool proc_call_null = 1004;</code>
        */
       public Builder clearProcCallNull() {
         
@@ -1598,13 +1598,13 @@ public final class MiModifyTRITriggerToDosAd {
       private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.values.StringValue, io.dstore.values.StringValue.Builder, io.dstore.values.StringValueOrBuilder> iterationListBuilder_;
       /**
-       * <code>optional .dstore.values.StringValue iteration_list = 5;</code>
+       * <code>.dstore.values.StringValue iteration_list = 5;</code>
        */
       public boolean hasIterationList() {
         return iterationListBuilder_ != null || iterationList_ != null;
       }
       /**
-       * <code>optional .dstore.values.StringValue iteration_list = 5;</code>
+       * <code>.dstore.values.StringValue iteration_list = 5;</code>
        */
       public io.dstore.values.StringValue getIterationList() {
         if (iterationListBuilder_ == null) {
@@ -1614,7 +1614,7 @@ public final class MiModifyTRITriggerToDosAd {
         }
       }
       /**
-       * <code>optional .dstore.values.StringValue iteration_list = 5;</code>
+       * <code>.dstore.values.StringValue iteration_list = 5;</code>
        */
       public Builder setIterationList(io.dstore.values.StringValue value) {
         if (iterationListBuilder_ == null) {
@@ -1630,7 +1630,7 @@ public final class MiModifyTRITriggerToDosAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.StringValue iteration_list = 5;</code>
+       * <code>.dstore.values.StringValue iteration_list = 5;</code>
        */
       public Builder setIterationList(
           io.dstore.values.StringValue.Builder builderForValue) {
@@ -1644,7 +1644,7 @@ public final class MiModifyTRITriggerToDosAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.StringValue iteration_list = 5;</code>
+       * <code>.dstore.values.StringValue iteration_list = 5;</code>
        */
       public Builder mergeIterationList(io.dstore.values.StringValue value) {
         if (iterationListBuilder_ == null) {
@@ -1662,7 +1662,7 @@ public final class MiModifyTRITriggerToDosAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.StringValue iteration_list = 5;</code>
+       * <code>.dstore.values.StringValue iteration_list = 5;</code>
        */
       public Builder clearIterationList() {
         if (iterationListBuilder_ == null) {
@@ -1676,7 +1676,7 @@ public final class MiModifyTRITriggerToDosAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.StringValue iteration_list = 5;</code>
+       * <code>.dstore.values.StringValue iteration_list = 5;</code>
        */
       public io.dstore.values.StringValue.Builder getIterationListBuilder() {
         
@@ -1684,7 +1684,7 @@ public final class MiModifyTRITriggerToDosAd {
         return getIterationListFieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .dstore.values.StringValue iteration_list = 5;</code>
+       * <code>.dstore.values.StringValue iteration_list = 5;</code>
        */
       public io.dstore.values.StringValueOrBuilder getIterationListOrBuilder() {
         if (iterationListBuilder_ != null) {
@@ -1695,7 +1695,7 @@ public final class MiModifyTRITriggerToDosAd {
         }
       }
       /**
-       * <code>optional .dstore.values.StringValue iteration_list = 5;</code>
+       * <code>.dstore.values.StringValue iteration_list = 5;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.values.StringValue, io.dstore.values.StringValue.Builder, io.dstore.values.StringValueOrBuilder> 
@@ -1713,13 +1713,13 @@ public final class MiModifyTRITriggerToDosAd {
 
       private boolean iterationListNull_ ;
       /**
-       * <code>optional bool iteration_list_null = 1005;</code>
+       * <code>bool iteration_list_null = 1005;</code>
        */
       public boolean getIterationListNull() {
         return iterationListNull_;
       }
       /**
-       * <code>optional bool iteration_list_null = 1005;</code>
+       * <code>bool iteration_list_null = 1005;</code>
        */
       public Builder setIterationListNull(boolean value) {
         
@@ -1728,7 +1728,7 @@ public final class MiModifyTRITriggerToDosAd {
         return this;
       }
       /**
-       * <code>optional bool iteration_list_null = 1005;</code>
+       * <code>bool iteration_list_null = 1005;</code>
        */
       public Builder clearIterationListNull() {
         
@@ -1741,13 +1741,13 @@ public final class MiModifyTRITriggerToDosAd {
       private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.values.BooleanValue, io.dstore.values.BooleanValue.Builder, io.dstore.values.BooleanValueOrBuilder> deleteToDoBuilder_;
       /**
-       * <code>optional .dstore.values.BooleanValue delete_to_do = 6;</code>
+       * <code>.dstore.values.BooleanValue delete_to_do = 6;</code>
        */
       public boolean hasDeleteToDo() {
         return deleteToDoBuilder_ != null || deleteToDo_ != null;
       }
       /**
-       * <code>optional .dstore.values.BooleanValue delete_to_do = 6;</code>
+       * <code>.dstore.values.BooleanValue delete_to_do = 6;</code>
        */
       public io.dstore.values.BooleanValue getDeleteToDo() {
         if (deleteToDoBuilder_ == null) {
@@ -1757,7 +1757,7 @@ public final class MiModifyTRITriggerToDosAd {
         }
       }
       /**
-       * <code>optional .dstore.values.BooleanValue delete_to_do = 6;</code>
+       * <code>.dstore.values.BooleanValue delete_to_do = 6;</code>
        */
       public Builder setDeleteToDo(io.dstore.values.BooleanValue value) {
         if (deleteToDoBuilder_ == null) {
@@ -1773,7 +1773,7 @@ public final class MiModifyTRITriggerToDosAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.BooleanValue delete_to_do = 6;</code>
+       * <code>.dstore.values.BooleanValue delete_to_do = 6;</code>
        */
       public Builder setDeleteToDo(
           io.dstore.values.BooleanValue.Builder builderForValue) {
@@ -1787,7 +1787,7 @@ public final class MiModifyTRITriggerToDosAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.BooleanValue delete_to_do = 6;</code>
+       * <code>.dstore.values.BooleanValue delete_to_do = 6;</code>
        */
       public Builder mergeDeleteToDo(io.dstore.values.BooleanValue value) {
         if (deleteToDoBuilder_ == null) {
@@ -1805,7 +1805,7 @@ public final class MiModifyTRITriggerToDosAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.BooleanValue delete_to_do = 6;</code>
+       * <code>.dstore.values.BooleanValue delete_to_do = 6;</code>
        */
       public Builder clearDeleteToDo() {
         if (deleteToDoBuilder_ == null) {
@@ -1819,7 +1819,7 @@ public final class MiModifyTRITriggerToDosAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.BooleanValue delete_to_do = 6;</code>
+       * <code>.dstore.values.BooleanValue delete_to_do = 6;</code>
        */
       public io.dstore.values.BooleanValue.Builder getDeleteToDoBuilder() {
         
@@ -1827,7 +1827,7 @@ public final class MiModifyTRITriggerToDosAd {
         return getDeleteToDoFieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .dstore.values.BooleanValue delete_to_do = 6;</code>
+       * <code>.dstore.values.BooleanValue delete_to_do = 6;</code>
        */
       public io.dstore.values.BooleanValueOrBuilder getDeleteToDoOrBuilder() {
         if (deleteToDoBuilder_ != null) {
@@ -1838,7 +1838,7 @@ public final class MiModifyTRITriggerToDosAd {
         }
       }
       /**
-       * <code>optional .dstore.values.BooleanValue delete_to_do = 6;</code>
+       * <code>.dstore.values.BooleanValue delete_to_do = 6;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.values.BooleanValue, io.dstore.values.BooleanValue.Builder, io.dstore.values.BooleanValueOrBuilder> 
@@ -1856,13 +1856,13 @@ public final class MiModifyTRITriggerToDosAd {
 
       private boolean deleteToDoNull_ ;
       /**
-       * <code>optional bool delete_to_do_null = 1006;</code>
+       * <code>bool delete_to_do_null = 1006;</code>
        */
       public boolean getDeleteToDoNull() {
         return deleteToDoNull_;
       }
       /**
-       * <code>optional bool delete_to_do_null = 1006;</code>
+       * <code>bool delete_to_do_null = 1006;</code>
        */
       public Builder setDeleteToDoNull(boolean value) {
         
@@ -1871,7 +1871,7 @@ public final class MiModifyTRITriggerToDosAd {
         return this;
       }
       /**
-       * <code>optional bool delete_to_do_null = 1006;</code>
+       * <code>bool delete_to_do_null = 1006;</code>
        */
       public Builder clearDeleteToDoNull() {
         
@@ -2130,7 +2130,7 @@ public final class MiModifyTRITriggerToDosAd {
         com.google.protobuf.MessageOrBuilder {
 
       /**
-       * <code>optional int32 row_id = 10000;</code>
+       * <code>int32 row_id = 10000;</code>
        */
       int getRowId();
     }
@@ -2205,7 +2205,7 @@ public final class MiModifyTRITriggerToDosAd {
       public static final int ROW_ID_FIELD_NUMBER = 10000;
       private int rowId_;
       /**
-       * <code>optional int32 row_id = 10000;</code>
+       * <code>int32 row_id = 10000;</code>
        */
       public int getRowId() {
         return rowId_;
@@ -2264,7 +2264,7 @@ public final class MiModifyTRITriggerToDosAd {
           return memoizedHashCode;
         }
         int hash = 41;
-        hash = (19 * hash) + getDescriptorForType().hashCode();
+        hash = (19 * hash) + getDescriptor().hashCode();
         hash = (37 * hash) + ROW_ID_FIELD_NUMBER;
         hash = (53 * hash) + getRowId();
         hash = (29 * hash) + unknownFields.hashCode();
@@ -2482,13 +2482,13 @@ public final class MiModifyTRITriggerToDosAd {
 
         private int rowId_ ;
         /**
-         * <code>optional int32 row_id = 10000;</code>
+         * <code>int32 row_id = 10000;</code>
          */
         public int getRowId() {
           return rowId_;
         }
         /**
-         * <code>optional int32 row_id = 10000;</code>
+         * <code>int32 row_id = 10000;</code>
          */
         public Builder setRowId(int value) {
           
@@ -2497,7 +2497,7 @@ public final class MiModifyTRITriggerToDosAd {
           return this;
         }
         /**
-         * <code>optional int32 row_id = 10000;</code>
+         * <code>int32 row_id = 10000;</code>
          */
         public Builder clearRowId() {
           
@@ -2750,7 +2750,7 @@ public final class MiModifyTRITriggerToDosAd {
         return memoizedHashCode;
       }
       int hash = 41;
-      hash = (19 * hash) + getDescriptorForType().hashCode();
+      hash = (19 * hash) + getDescriptor().hashCode();
       if (getMetaInformationCount() > 0) {
         hash = (37 * hash) + META_INFORMATION_FIELD_NUMBER;
         hash = (53 * hash) + getMetaInformationList().hashCode();

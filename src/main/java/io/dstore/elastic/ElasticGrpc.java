@@ -18,9 +18,9 @@ import static io.grpc.stub.ServerCalls.asyncUnimplementedStreamingCall;
 /**
  */
 @javax.annotation.Generated(
-    value = "by gRPC proto compiler (version 1.1.1)",
+    value = "by gRPC proto compiler (version 1.2.0)",
     comments = "Source: dstore/elastic/elastic_service.proto")
-public class ElasticGrpc {
+public final class ElasticGrpc {
 
   private ElasticGrpc() {}
 
@@ -286,7 +286,7 @@ public class ElasticGrpc {
   private static final int METHODID_ITEM_EXPORT = 2;
   private static final int METHODID_POSTING_GET = 3;
 
-  private static class MethodHandlers<Req, Resp> implements
+  private static final class MethodHandlers<Req, Resp> implements
       io.grpc.stub.ServerCalls.UnaryMethod<Req, Resp>,
       io.grpc.stub.ServerCalls.ServerStreamingMethod<Req, Resp>,
       io.grpc.stub.ServerCalls.ClientStreamingMethod<Req, Resp>,
@@ -294,7 +294,7 @@ public class ElasticGrpc {
     private final ElasticImplBase serviceImpl;
     private final int methodId;
 
-    public MethodHandlers(ElasticImplBase serviceImpl, int methodId) {
+    MethodHandlers(ElasticImplBase serviceImpl, int methodId) {
       this.serviceImpl = serviceImpl;
       this.methodId = methodId;
     }

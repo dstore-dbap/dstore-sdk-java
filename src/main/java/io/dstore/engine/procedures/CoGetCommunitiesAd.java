@@ -19,38 +19,38 @@ public final class CoGetCommunitiesAd {
       com.google.protobuf.MessageOrBuilder {
 
     /**
-     * <code>optional .dstore.values.IntegerValue community_id = 1;</code>
+     * <code>.dstore.values.IntegerValue community_id = 1;</code>
      */
     boolean hasCommunityId();
     /**
-     * <code>optional .dstore.values.IntegerValue community_id = 1;</code>
+     * <code>.dstore.values.IntegerValue community_id = 1;</code>
      */
     io.dstore.values.IntegerValue getCommunityId();
     /**
-     * <code>optional .dstore.values.IntegerValue community_id = 1;</code>
+     * <code>.dstore.values.IntegerValue community_id = 1;</code>
      */
     io.dstore.values.IntegerValueOrBuilder getCommunityIdOrBuilder();
 
     /**
-     * <code>optional bool community_id_null = 1001;</code>
+     * <code>bool community_id_null = 1001;</code>
      */
     boolean getCommunityIdNull();
 
     /**
-     * <code>optional .dstore.values.StringValue community_name = 2;</code>
+     * <code>.dstore.values.StringValue community_name = 2;</code>
      */
     boolean hasCommunityName();
     /**
-     * <code>optional .dstore.values.StringValue community_name = 2;</code>
+     * <code>.dstore.values.StringValue community_name = 2;</code>
      */
     io.dstore.values.StringValue getCommunityName();
     /**
-     * <code>optional .dstore.values.StringValue community_name = 2;</code>
+     * <code>.dstore.values.StringValue community_name = 2;</code>
      */
     io.dstore.values.StringValueOrBuilder getCommunityNameOrBuilder();
 
     /**
-     * <code>optional bool community_name_null = 1002;</code>
+     * <code>bool community_name_null = 1002;</code>
      */
     boolean getCommunityNameNull();
   }
@@ -157,19 +157,19 @@ public final class CoGetCommunitiesAd {
     public static final int COMMUNITY_ID_FIELD_NUMBER = 1;
     private io.dstore.values.IntegerValue communityId_;
     /**
-     * <code>optional .dstore.values.IntegerValue community_id = 1;</code>
+     * <code>.dstore.values.IntegerValue community_id = 1;</code>
      */
     public boolean hasCommunityId() {
       return communityId_ != null;
     }
     /**
-     * <code>optional .dstore.values.IntegerValue community_id = 1;</code>
+     * <code>.dstore.values.IntegerValue community_id = 1;</code>
      */
     public io.dstore.values.IntegerValue getCommunityId() {
       return communityId_ == null ? io.dstore.values.IntegerValue.getDefaultInstance() : communityId_;
     }
     /**
-     * <code>optional .dstore.values.IntegerValue community_id = 1;</code>
+     * <code>.dstore.values.IntegerValue community_id = 1;</code>
      */
     public io.dstore.values.IntegerValueOrBuilder getCommunityIdOrBuilder() {
       return getCommunityId();
@@ -178,7 +178,7 @@ public final class CoGetCommunitiesAd {
     public static final int COMMUNITY_ID_NULL_FIELD_NUMBER = 1001;
     private boolean communityIdNull_;
     /**
-     * <code>optional bool community_id_null = 1001;</code>
+     * <code>bool community_id_null = 1001;</code>
      */
     public boolean getCommunityIdNull() {
       return communityIdNull_;
@@ -187,19 +187,19 @@ public final class CoGetCommunitiesAd {
     public static final int COMMUNITY_NAME_FIELD_NUMBER = 2;
     private io.dstore.values.StringValue communityName_;
     /**
-     * <code>optional .dstore.values.StringValue community_name = 2;</code>
+     * <code>.dstore.values.StringValue community_name = 2;</code>
      */
     public boolean hasCommunityName() {
       return communityName_ != null;
     }
     /**
-     * <code>optional .dstore.values.StringValue community_name = 2;</code>
+     * <code>.dstore.values.StringValue community_name = 2;</code>
      */
     public io.dstore.values.StringValue getCommunityName() {
       return communityName_ == null ? io.dstore.values.StringValue.getDefaultInstance() : communityName_;
     }
     /**
-     * <code>optional .dstore.values.StringValue community_name = 2;</code>
+     * <code>.dstore.values.StringValue community_name = 2;</code>
      */
     public io.dstore.values.StringValueOrBuilder getCommunityNameOrBuilder() {
       return getCommunityName();
@@ -208,7 +208,7 @@ public final class CoGetCommunitiesAd {
     public static final int COMMUNITY_NAME_NULL_FIELD_NUMBER = 1002;
     private boolean communityNameNull_;
     /**
-     * <code>optional bool community_name_null = 1002;</code>
+     * <code>bool community_name_null = 1002;</code>
      */
     public boolean getCommunityNameNull() {
       return communityNameNull_;
@@ -300,7 +300,7 @@ public final class CoGetCommunitiesAd {
         return memoizedHashCode;
       }
       int hash = 41;
-      hash = (19 * hash) + getDescriptorForType().hashCode();
+      hash = (19 * hash) + getDescriptor().hashCode();
       if (hasCommunityId()) {
         hash = (37 * hash) + COMMUNITY_ID_FIELD_NUMBER;
         hash = (53 * hash) + getCommunityId().hashCode();
@@ -566,13 +566,13 @@ public final class CoGetCommunitiesAd {
       private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> communityIdBuilder_;
       /**
-       * <code>optional .dstore.values.IntegerValue community_id = 1;</code>
+       * <code>.dstore.values.IntegerValue community_id = 1;</code>
        */
       public boolean hasCommunityId() {
         return communityIdBuilder_ != null || communityId_ != null;
       }
       /**
-       * <code>optional .dstore.values.IntegerValue community_id = 1;</code>
+       * <code>.dstore.values.IntegerValue community_id = 1;</code>
        */
       public io.dstore.values.IntegerValue getCommunityId() {
         if (communityIdBuilder_ == null) {
@@ -582,7 +582,7 @@ public final class CoGetCommunitiesAd {
         }
       }
       /**
-       * <code>optional .dstore.values.IntegerValue community_id = 1;</code>
+       * <code>.dstore.values.IntegerValue community_id = 1;</code>
        */
       public Builder setCommunityId(io.dstore.values.IntegerValue value) {
         if (communityIdBuilder_ == null) {
@@ -598,7 +598,7 @@ public final class CoGetCommunitiesAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.IntegerValue community_id = 1;</code>
+       * <code>.dstore.values.IntegerValue community_id = 1;</code>
        */
       public Builder setCommunityId(
           io.dstore.values.IntegerValue.Builder builderForValue) {
@@ -612,7 +612,7 @@ public final class CoGetCommunitiesAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.IntegerValue community_id = 1;</code>
+       * <code>.dstore.values.IntegerValue community_id = 1;</code>
        */
       public Builder mergeCommunityId(io.dstore.values.IntegerValue value) {
         if (communityIdBuilder_ == null) {
@@ -630,7 +630,7 @@ public final class CoGetCommunitiesAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.IntegerValue community_id = 1;</code>
+       * <code>.dstore.values.IntegerValue community_id = 1;</code>
        */
       public Builder clearCommunityId() {
         if (communityIdBuilder_ == null) {
@@ -644,7 +644,7 @@ public final class CoGetCommunitiesAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.IntegerValue community_id = 1;</code>
+       * <code>.dstore.values.IntegerValue community_id = 1;</code>
        */
       public io.dstore.values.IntegerValue.Builder getCommunityIdBuilder() {
         
@@ -652,7 +652,7 @@ public final class CoGetCommunitiesAd {
         return getCommunityIdFieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .dstore.values.IntegerValue community_id = 1;</code>
+       * <code>.dstore.values.IntegerValue community_id = 1;</code>
        */
       public io.dstore.values.IntegerValueOrBuilder getCommunityIdOrBuilder() {
         if (communityIdBuilder_ != null) {
@@ -663,7 +663,7 @@ public final class CoGetCommunitiesAd {
         }
       }
       /**
-       * <code>optional .dstore.values.IntegerValue community_id = 1;</code>
+       * <code>.dstore.values.IntegerValue community_id = 1;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> 
@@ -681,13 +681,13 @@ public final class CoGetCommunitiesAd {
 
       private boolean communityIdNull_ ;
       /**
-       * <code>optional bool community_id_null = 1001;</code>
+       * <code>bool community_id_null = 1001;</code>
        */
       public boolean getCommunityIdNull() {
         return communityIdNull_;
       }
       /**
-       * <code>optional bool community_id_null = 1001;</code>
+       * <code>bool community_id_null = 1001;</code>
        */
       public Builder setCommunityIdNull(boolean value) {
         
@@ -696,7 +696,7 @@ public final class CoGetCommunitiesAd {
         return this;
       }
       /**
-       * <code>optional bool community_id_null = 1001;</code>
+       * <code>bool community_id_null = 1001;</code>
        */
       public Builder clearCommunityIdNull() {
         
@@ -709,13 +709,13 @@ public final class CoGetCommunitiesAd {
       private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.values.StringValue, io.dstore.values.StringValue.Builder, io.dstore.values.StringValueOrBuilder> communityNameBuilder_;
       /**
-       * <code>optional .dstore.values.StringValue community_name = 2;</code>
+       * <code>.dstore.values.StringValue community_name = 2;</code>
        */
       public boolean hasCommunityName() {
         return communityNameBuilder_ != null || communityName_ != null;
       }
       /**
-       * <code>optional .dstore.values.StringValue community_name = 2;</code>
+       * <code>.dstore.values.StringValue community_name = 2;</code>
        */
       public io.dstore.values.StringValue getCommunityName() {
         if (communityNameBuilder_ == null) {
@@ -725,7 +725,7 @@ public final class CoGetCommunitiesAd {
         }
       }
       /**
-       * <code>optional .dstore.values.StringValue community_name = 2;</code>
+       * <code>.dstore.values.StringValue community_name = 2;</code>
        */
       public Builder setCommunityName(io.dstore.values.StringValue value) {
         if (communityNameBuilder_ == null) {
@@ -741,7 +741,7 @@ public final class CoGetCommunitiesAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.StringValue community_name = 2;</code>
+       * <code>.dstore.values.StringValue community_name = 2;</code>
        */
       public Builder setCommunityName(
           io.dstore.values.StringValue.Builder builderForValue) {
@@ -755,7 +755,7 @@ public final class CoGetCommunitiesAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.StringValue community_name = 2;</code>
+       * <code>.dstore.values.StringValue community_name = 2;</code>
        */
       public Builder mergeCommunityName(io.dstore.values.StringValue value) {
         if (communityNameBuilder_ == null) {
@@ -773,7 +773,7 @@ public final class CoGetCommunitiesAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.StringValue community_name = 2;</code>
+       * <code>.dstore.values.StringValue community_name = 2;</code>
        */
       public Builder clearCommunityName() {
         if (communityNameBuilder_ == null) {
@@ -787,7 +787,7 @@ public final class CoGetCommunitiesAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.StringValue community_name = 2;</code>
+       * <code>.dstore.values.StringValue community_name = 2;</code>
        */
       public io.dstore.values.StringValue.Builder getCommunityNameBuilder() {
         
@@ -795,7 +795,7 @@ public final class CoGetCommunitiesAd {
         return getCommunityNameFieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .dstore.values.StringValue community_name = 2;</code>
+       * <code>.dstore.values.StringValue community_name = 2;</code>
        */
       public io.dstore.values.StringValueOrBuilder getCommunityNameOrBuilder() {
         if (communityNameBuilder_ != null) {
@@ -806,7 +806,7 @@ public final class CoGetCommunitiesAd {
         }
       }
       /**
-       * <code>optional .dstore.values.StringValue community_name = 2;</code>
+       * <code>.dstore.values.StringValue community_name = 2;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.values.StringValue, io.dstore.values.StringValue.Builder, io.dstore.values.StringValueOrBuilder> 
@@ -824,13 +824,13 @@ public final class CoGetCommunitiesAd {
 
       private boolean communityNameNull_ ;
       /**
-       * <code>optional bool community_name_null = 1002;</code>
+       * <code>bool community_name_null = 1002;</code>
        */
       public boolean getCommunityNameNull() {
         return communityNameNull_;
       }
       /**
-       * <code>optional bool community_name_null = 1002;</code>
+       * <code>bool community_name_null = 1002;</code>
        */
       public Builder setCommunityNameNull(boolean value) {
         
@@ -839,7 +839,7 @@ public final class CoGetCommunitiesAd {
         return this;
       }
       /**
-       * <code>optional bool community_name_null = 1002;</code>
+       * <code>bool community_name_null = 1002;</code>
        */
       public Builder clearCommunityNameNull() {
         
@@ -1098,7 +1098,7 @@ public final class CoGetCommunitiesAd {
         com.google.protobuf.MessageOrBuilder {
 
       /**
-       * <code>optional int32 row_id = 10000;</code>
+       * <code>int32 row_id = 10000;</code>
        */
       int getRowId();
 
@@ -1107,7 +1107,7 @@ public final class CoGetCommunitiesAd {
        * ID einer Community
        * </pre>
        *
-       * <code>optional .dstore.values.IntegerValue community_id = 10001;</code>
+       * <code>.dstore.values.IntegerValue community_id = 10001;</code>
        */
       boolean hasCommunityId();
       /**
@@ -1115,7 +1115,7 @@ public final class CoGetCommunitiesAd {
        * ID einer Community
        * </pre>
        *
-       * <code>optional .dstore.values.IntegerValue community_id = 10001;</code>
+       * <code>.dstore.values.IntegerValue community_id = 10001;</code>
        */
       io.dstore.values.IntegerValue getCommunityId();
       /**
@@ -1123,7 +1123,7 @@ public final class CoGetCommunitiesAd {
        * ID einer Community
        * </pre>
        *
-       * <code>optional .dstore.values.IntegerValue community_id = 10001;</code>
+       * <code>.dstore.values.IntegerValue community_id = 10001;</code>
        */
       io.dstore.values.IntegerValueOrBuilder getCommunityIdOrBuilder();
 
@@ -1132,7 +1132,7 @@ public final class CoGetCommunitiesAd {
        * Name der Community "CommunityID"
        * </pre>
        *
-       * <code>optional .dstore.values.StringValue community_name = 10002;</code>
+       * <code>.dstore.values.StringValue community_name = 10002;</code>
        */
       boolean hasCommunityName();
       /**
@@ -1140,7 +1140,7 @@ public final class CoGetCommunitiesAd {
        * Name der Community "CommunityID"
        * </pre>
        *
-       * <code>optional .dstore.values.StringValue community_name = 10002;</code>
+       * <code>.dstore.values.StringValue community_name = 10002;</code>
        */
       io.dstore.values.StringValue getCommunityName();
       /**
@@ -1148,7 +1148,7 @@ public final class CoGetCommunitiesAd {
        * Name der Community "CommunityID"
        * </pre>
        *
-       * <code>optional .dstore.values.StringValue community_name = 10002;</code>
+       * <code>.dstore.values.StringValue community_name = 10002;</code>
        */
       io.dstore.values.StringValueOrBuilder getCommunityNameOrBuilder();
     }
@@ -1249,7 +1249,7 @@ public final class CoGetCommunitiesAd {
       public static final int ROW_ID_FIELD_NUMBER = 10000;
       private int rowId_;
       /**
-       * <code>optional int32 row_id = 10000;</code>
+       * <code>int32 row_id = 10000;</code>
        */
       public int getRowId() {
         return rowId_;
@@ -1262,7 +1262,7 @@ public final class CoGetCommunitiesAd {
        * ID einer Community
        * </pre>
        *
-       * <code>optional .dstore.values.IntegerValue community_id = 10001;</code>
+       * <code>.dstore.values.IntegerValue community_id = 10001;</code>
        */
       public boolean hasCommunityId() {
         return communityId_ != null;
@@ -1272,7 +1272,7 @@ public final class CoGetCommunitiesAd {
        * ID einer Community
        * </pre>
        *
-       * <code>optional .dstore.values.IntegerValue community_id = 10001;</code>
+       * <code>.dstore.values.IntegerValue community_id = 10001;</code>
        */
       public io.dstore.values.IntegerValue getCommunityId() {
         return communityId_ == null ? io.dstore.values.IntegerValue.getDefaultInstance() : communityId_;
@@ -1282,7 +1282,7 @@ public final class CoGetCommunitiesAd {
        * ID einer Community
        * </pre>
        *
-       * <code>optional .dstore.values.IntegerValue community_id = 10001;</code>
+       * <code>.dstore.values.IntegerValue community_id = 10001;</code>
        */
       public io.dstore.values.IntegerValueOrBuilder getCommunityIdOrBuilder() {
         return getCommunityId();
@@ -1295,7 +1295,7 @@ public final class CoGetCommunitiesAd {
        * Name der Community "CommunityID"
        * </pre>
        *
-       * <code>optional .dstore.values.StringValue community_name = 10002;</code>
+       * <code>.dstore.values.StringValue community_name = 10002;</code>
        */
       public boolean hasCommunityName() {
         return communityName_ != null;
@@ -1305,7 +1305,7 @@ public final class CoGetCommunitiesAd {
        * Name der Community "CommunityID"
        * </pre>
        *
-       * <code>optional .dstore.values.StringValue community_name = 10002;</code>
+       * <code>.dstore.values.StringValue community_name = 10002;</code>
        */
       public io.dstore.values.StringValue getCommunityName() {
         return communityName_ == null ? io.dstore.values.StringValue.getDefaultInstance() : communityName_;
@@ -1315,7 +1315,7 @@ public final class CoGetCommunitiesAd {
        * Name der Community "CommunityID"
        * </pre>
        *
-       * <code>optional .dstore.values.StringValue community_name = 10002;</code>
+       * <code>.dstore.values.StringValue community_name = 10002;</code>
        */
       public io.dstore.values.StringValueOrBuilder getCommunityNameOrBuilder() {
         return getCommunityName();
@@ -1398,7 +1398,7 @@ public final class CoGetCommunitiesAd {
           return memoizedHashCode;
         }
         int hash = 41;
-        hash = (19 * hash) + getDescriptorForType().hashCode();
+        hash = (19 * hash) + getDescriptor().hashCode();
         hash = (37 * hash) + ROW_ID_FIELD_NUMBER;
         hash = (53 * hash) + getRowId();
         if (hasCommunityId()) {
@@ -1652,13 +1652,13 @@ public final class CoGetCommunitiesAd {
 
         private int rowId_ ;
         /**
-         * <code>optional int32 row_id = 10000;</code>
+         * <code>int32 row_id = 10000;</code>
          */
         public int getRowId() {
           return rowId_;
         }
         /**
-         * <code>optional int32 row_id = 10000;</code>
+         * <code>int32 row_id = 10000;</code>
          */
         public Builder setRowId(int value) {
           
@@ -1667,7 +1667,7 @@ public final class CoGetCommunitiesAd {
           return this;
         }
         /**
-         * <code>optional int32 row_id = 10000;</code>
+         * <code>int32 row_id = 10000;</code>
          */
         public Builder clearRowId() {
           
@@ -1684,7 +1684,7 @@ public final class CoGetCommunitiesAd {
          * ID einer Community
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue community_id = 10001;</code>
+         * <code>.dstore.values.IntegerValue community_id = 10001;</code>
          */
         public boolean hasCommunityId() {
           return communityIdBuilder_ != null || communityId_ != null;
@@ -1694,7 +1694,7 @@ public final class CoGetCommunitiesAd {
          * ID einer Community
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue community_id = 10001;</code>
+         * <code>.dstore.values.IntegerValue community_id = 10001;</code>
          */
         public io.dstore.values.IntegerValue getCommunityId() {
           if (communityIdBuilder_ == null) {
@@ -1708,7 +1708,7 @@ public final class CoGetCommunitiesAd {
          * ID einer Community
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue community_id = 10001;</code>
+         * <code>.dstore.values.IntegerValue community_id = 10001;</code>
          */
         public Builder setCommunityId(io.dstore.values.IntegerValue value) {
           if (communityIdBuilder_ == null) {
@@ -1728,7 +1728,7 @@ public final class CoGetCommunitiesAd {
          * ID einer Community
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue community_id = 10001;</code>
+         * <code>.dstore.values.IntegerValue community_id = 10001;</code>
          */
         public Builder setCommunityId(
             io.dstore.values.IntegerValue.Builder builderForValue) {
@@ -1746,7 +1746,7 @@ public final class CoGetCommunitiesAd {
          * ID einer Community
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue community_id = 10001;</code>
+         * <code>.dstore.values.IntegerValue community_id = 10001;</code>
          */
         public Builder mergeCommunityId(io.dstore.values.IntegerValue value) {
           if (communityIdBuilder_ == null) {
@@ -1768,7 +1768,7 @@ public final class CoGetCommunitiesAd {
          * ID einer Community
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue community_id = 10001;</code>
+         * <code>.dstore.values.IntegerValue community_id = 10001;</code>
          */
         public Builder clearCommunityId() {
           if (communityIdBuilder_ == null) {
@@ -1786,7 +1786,7 @@ public final class CoGetCommunitiesAd {
          * ID einer Community
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue community_id = 10001;</code>
+         * <code>.dstore.values.IntegerValue community_id = 10001;</code>
          */
         public io.dstore.values.IntegerValue.Builder getCommunityIdBuilder() {
           
@@ -1798,7 +1798,7 @@ public final class CoGetCommunitiesAd {
          * ID einer Community
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue community_id = 10001;</code>
+         * <code>.dstore.values.IntegerValue community_id = 10001;</code>
          */
         public io.dstore.values.IntegerValueOrBuilder getCommunityIdOrBuilder() {
           if (communityIdBuilder_ != null) {
@@ -1813,7 +1813,7 @@ public final class CoGetCommunitiesAd {
          * ID einer Community
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue community_id = 10001;</code>
+         * <code>.dstore.values.IntegerValue community_id = 10001;</code>
          */
         private com.google.protobuf.SingleFieldBuilderV3<
             io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> 
@@ -1837,7 +1837,7 @@ public final class CoGetCommunitiesAd {
          * Name der Community "CommunityID"
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue community_name = 10002;</code>
+         * <code>.dstore.values.StringValue community_name = 10002;</code>
          */
         public boolean hasCommunityName() {
           return communityNameBuilder_ != null || communityName_ != null;
@@ -1847,7 +1847,7 @@ public final class CoGetCommunitiesAd {
          * Name der Community "CommunityID"
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue community_name = 10002;</code>
+         * <code>.dstore.values.StringValue community_name = 10002;</code>
          */
         public io.dstore.values.StringValue getCommunityName() {
           if (communityNameBuilder_ == null) {
@@ -1861,7 +1861,7 @@ public final class CoGetCommunitiesAd {
          * Name der Community "CommunityID"
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue community_name = 10002;</code>
+         * <code>.dstore.values.StringValue community_name = 10002;</code>
          */
         public Builder setCommunityName(io.dstore.values.StringValue value) {
           if (communityNameBuilder_ == null) {
@@ -1881,7 +1881,7 @@ public final class CoGetCommunitiesAd {
          * Name der Community "CommunityID"
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue community_name = 10002;</code>
+         * <code>.dstore.values.StringValue community_name = 10002;</code>
          */
         public Builder setCommunityName(
             io.dstore.values.StringValue.Builder builderForValue) {
@@ -1899,7 +1899,7 @@ public final class CoGetCommunitiesAd {
          * Name der Community "CommunityID"
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue community_name = 10002;</code>
+         * <code>.dstore.values.StringValue community_name = 10002;</code>
          */
         public Builder mergeCommunityName(io.dstore.values.StringValue value) {
           if (communityNameBuilder_ == null) {
@@ -1921,7 +1921,7 @@ public final class CoGetCommunitiesAd {
          * Name der Community "CommunityID"
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue community_name = 10002;</code>
+         * <code>.dstore.values.StringValue community_name = 10002;</code>
          */
         public Builder clearCommunityName() {
           if (communityNameBuilder_ == null) {
@@ -1939,7 +1939,7 @@ public final class CoGetCommunitiesAd {
          * Name der Community "CommunityID"
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue community_name = 10002;</code>
+         * <code>.dstore.values.StringValue community_name = 10002;</code>
          */
         public io.dstore.values.StringValue.Builder getCommunityNameBuilder() {
           
@@ -1951,7 +1951,7 @@ public final class CoGetCommunitiesAd {
          * Name der Community "CommunityID"
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue community_name = 10002;</code>
+         * <code>.dstore.values.StringValue community_name = 10002;</code>
          */
         public io.dstore.values.StringValueOrBuilder getCommunityNameOrBuilder() {
           if (communityNameBuilder_ != null) {
@@ -1966,7 +1966,7 @@ public final class CoGetCommunitiesAd {
          * Name der Community "CommunityID"
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue community_name = 10002;</code>
+         * <code>.dstore.values.StringValue community_name = 10002;</code>
          */
         private com.google.protobuf.SingleFieldBuilderV3<
             io.dstore.values.StringValue, io.dstore.values.StringValue.Builder, io.dstore.values.StringValueOrBuilder> 
@@ -2226,7 +2226,7 @@ public final class CoGetCommunitiesAd {
         return memoizedHashCode;
       }
       int hash = 41;
-      hash = (19 * hash) + getDescriptorForType().hashCode();
+      hash = (19 * hash) + getDescriptor().hashCode();
       if (getMetaInformationCount() > 0) {
         hash = (37 * hash) + META_INFORMATION_FIELD_NUMBER;
         hash = (53 * hash) + getMetaInformationList().hashCode();

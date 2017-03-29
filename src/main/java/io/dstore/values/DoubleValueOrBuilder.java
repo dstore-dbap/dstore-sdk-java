@@ -8,7 +8,7 @@ public interface DoubleValueOrBuilder extends
     com.google.protobuf.MessageOrBuilder {
 
   /**
-   * <code>optional double value = 1;</code>
+   * <code>double value = 1;</code>
    */
   double getValue();
 }

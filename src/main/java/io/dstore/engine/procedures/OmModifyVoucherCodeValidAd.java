@@ -19,38 +19,38 @@ public final class OmModifyVoucherCodeValidAd {
       com.google.protobuf.MessageOrBuilder {
 
     /**
-     * <code>optional .dstore.values.StringValue voucher_code = 1;</code>
+     * <code>.dstore.values.StringValue voucher_code = 1;</code>
      */
     boolean hasVoucherCode();
     /**
-     * <code>optional .dstore.values.StringValue voucher_code = 1;</code>
+     * <code>.dstore.values.StringValue voucher_code = 1;</code>
      */
     io.dstore.values.StringValue getVoucherCode();
     /**
-     * <code>optional .dstore.values.StringValue voucher_code = 1;</code>
+     * <code>.dstore.values.StringValue voucher_code = 1;</code>
      */
     io.dstore.values.StringValueOrBuilder getVoucherCodeOrBuilder();
 
     /**
-     * <code>optional bool voucher_code_null = 1001;</code>
+     * <code>bool voucher_code_null = 1001;</code>
      */
     boolean getVoucherCodeNull();
 
     /**
-     * <code>optional .dstore.values.TimestampValue new_valid_to_date_and_time = 2;</code>
+     * <code>.dstore.values.TimestampValue new_valid_to_date_and_time = 2;</code>
      */
     boolean hasNewValidToDateAndTime();
     /**
-     * <code>optional .dstore.values.TimestampValue new_valid_to_date_and_time = 2;</code>
+     * <code>.dstore.values.TimestampValue new_valid_to_date_and_time = 2;</code>
      */
     io.dstore.values.TimestampValue getNewValidToDateAndTime();
     /**
-     * <code>optional .dstore.values.TimestampValue new_valid_to_date_and_time = 2;</code>
+     * <code>.dstore.values.TimestampValue new_valid_to_date_and_time = 2;</code>
      */
     io.dstore.values.TimestampValueOrBuilder getNewValidToDateAndTimeOrBuilder();
 
     /**
-     * <code>optional bool new_valid_to_date_and_time_null = 1002;</code>
+     * <code>bool new_valid_to_date_and_time_null = 1002;</code>
      */
     boolean getNewValidToDateAndTimeNull();
   }
@@ -157,19 +157,19 @@ public final class OmModifyVoucherCodeValidAd {
     public static final int VOUCHER_CODE_FIELD_NUMBER = 1;
     private io.dstore.values.StringValue voucherCode_;
     /**
-     * <code>optional .dstore.values.StringValue voucher_code = 1;</code>
+     * <code>.dstore.values.StringValue voucher_code = 1;</code>
      */
     public boolean hasVoucherCode() {
       return voucherCode_ != null;
     }
     /**
-     * <code>optional .dstore.values.StringValue voucher_code = 1;</code>
+     * <code>.dstore.values.StringValue voucher_code = 1;</code>
      */
     public io.dstore.values.StringValue getVoucherCode() {
       return voucherCode_ == null ? io.dstore.values.StringValue.getDefaultInstance() : voucherCode_;
     }
     /**
-     * <code>optional .dstore.values.StringValue voucher_code = 1;</code>
+     * <code>.dstore.values.StringValue voucher_code = 1;</code>
      */
     public io.dstore.values.StringValueOrBuilder getVoucherCodeOrBuilder() {
       return getVoucherCode();
@@ -178,7 +178,7 @@ public final class OmModifyVoucherCodeValidAd {
     public static final int VOUCHER_CODE_NULL_FIELD_NUMBER = 1001;
     private boolean voucherCodeNull_;
     /**
-     * <code>optional bool voucher_code_null = 1001;</code>
+     * <code>bool voucher_code_null = 1001;</code>
      */
     public boolean getVoucherCodeNull() {
       return voucherCodeNull_;
@@ -187,19 +187,19 @@ public final class OmModifyVoucherCodeValidAd {
     public static final int NEW_VALID_TO_DATE_AND_TIME_FIELD_NUMBER = 2;
     private io.dstore.values.TimestampValue newValidToDateAndTime_;
     /**
-     * <code>optional .dstore.values.TimestampValue new_valid_to_date_and_time = 2;</code>
+     * <code>.dstore.values.TimestampValue new_valid_to_date_and_time = 2;</code>
      */
     public boolean hasNewValidToDateAndTime() {
       return newValidToDateAndTime_ != null;
     }
     /**
-     * <code>optional .dstore.values.TimestampValue new_valid_to_date_and_time = 2;</code>
+     * <code>.dstore.values.TimestampValue new_valid_to_date_and_time = 2;</code>
      */
     public io.dstore.values.TimestampValue getNewValidToDateAndTime() {
       return newValidToDateAndTime_ == null ? io.dstore.values.TimestampValue.getDefaultInstance() : newValidToDateAndTime_;
     }
     /**
-     * <code>optional .dstore.values.TimestampValue new_valid_to_date_and_time = 2;</code>
+     * <code>.dstore.values.TimestampValue new_valid_to_date_and_time = 2;</code>
      */
     public io.dstore.values.TimestampValueOrBuilder getNewValidToDateAndTimeOrBuilder() {
       return getNewValidToDateAndTime();
@@ -208,7 +208,7 @@ public final class OmModifyVoucherCodeValidAd {
     public static final int NEW_VALID_TO_DATE_AND_TIME_NULL_FIELD_NUMBER = 1002;
     private boolean newValidToDateAndTimeNull_;
     /**
-     * <code>optional bool new_valid_to_date_and_time_null = 1002;</code>
+     * <code>bool new_valid_to_date_and_time_null = 1002;</code>
      */
     public boolean getNewValidToDateAndTimeNull() {
       return newValidToDateAndTimeNull_;
@@ -300,7 +300,7 @@ public final class OmModifyVoucherCodeValidAd {
         return memoizedHashCode;
       }
       int hash = 41;
-      hash = (19 * hash) + getDescriptorForType().hashCode();
+      hash = (19 * hash) + getDescriptor().hashCode();
       if (hasVoucherCode()) {
         hash = (37 * hash) + VOUCHER_CODE_FIELD_NUMBER;
         hash = (53 * hash) + getVoucherCode().hashCode();
@@ -566,13 +566,13 @@ public final class OmModifyVoucherCodeValidAd {
       private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.values.StringValue, io.dstore.values.StringValue.Builder, io.dstore.values.StringValueOrBuilder> voucherCodeBuilder_;
       /**
-       * <code>optional .dstore.values.StringValue voucher_code = 1;</code>
+       * <code>.dstore.values.StringValue voucher_code = 1;</code>
        */
       public boolean hasVoucherCode() {
         return voucherCodeBuilder_ != null || voucherCode_ != null;
       }
       /**
-       * <code>optional .dstore.values.StringValue voucher_code = 1;</code>
+       * <code>.dstore.values.StringValue voucher_code = 1;</code>
        */
       public io.dstore.values.StringValue getVoucherCode() {
         if (voucherCodeBuilder_ == null) {
@@ -582,7 +582,7 @@ public final class OmModifyVoucherCodeValidAd {
         }
       }
       /**
-       * <code>optional .dstore.values.StringValue voucher_code = 1;</code>
+       * <code>.dstore.values.StringValue voucher_code = 1;</code>
        */
       public Builder setVoucherCode(io.dstore.values.StringValue value) {
         if (voucherCodeBuilder_ == null) {
@@ -598,7 +598,7 @@ public final class OmModifyVoucherCodeValidAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.StringValue voucher_code = 1;</code>
+       * <code>.dstore.values.StringValue voucher_code = 1;</code>
        */
       public Builder setVoucherCode(
           io.dstore.values.StringValue.Builder builderForValue) {
@@ -612,7 +612,7 @@ public final class OmModifyVoucherCodeValidAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.StringValue voucher_code = 1;</code>
+       * <code>.dstore.values.StringValue voucher_code = 1;</code>
        */
       public Builder mergeVoucherCode(io.dstore.values.StringValue value) {
         if (voucherCodeBuilder_ == null) {
@@ -630,7 +630,7 @@ public final class OmModifyVoucherCodeValidAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.StringValue voucher_code = 1;</code>
+       * <code>.dstore.values.StringValue voucher_code = 1;</code>
        */
       public Builder clearVoucherCode() {
         if (voucherCodeBuilder_ == null) {
@@ -644,7 +644,7 @@ public final class OmModifyVoucherCodeValidAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.StringValue voucher_code = 1;</code>
+       * <code>.dstore.values.StringValue voucher_code = 1;</code>
        */
       public io.dstore.values.StringValue.Builder getVoucherCodeBuilder() {
         
@@ -652,7 +652,7 @@ public final class OmModifyVoucherCodeValidAd {
         return getVoucherCodeFieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .dstore.values.StringValue voucher_code = 1;</code>
+       * <code>.dstore.values.StringValue voucher_code = 1;</code>
        */
       public io.dstore.values.StringValueOrBuilder getVoucherCodeOrBuilder() {
         if (voucherCodeBuilder_ != null) {
@@ -663,7 +663,7 @@ public final class OmModifyVoucherCodeValidAd {
         }
       }
       /**
-       * <code>optional .dstore.values.StringValue voucher_code = 1;</code>
+       * <code>.dstore.values.StringValue voucher_code = 1;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.values.StringValue, io.dstore.values.StringValue.Builder, io.dstore.values.StringValueOrBuilder> 
@@ -681,13 +681,13 @@ public final class OmModifyVoucherCodeValidAd {
 
       private boolean voucherCodeNull_ ;
       /**
-       * <code>optional bool voucher_code_null = 1001;</code>
+       * <code>bool voucher_code_null = 1001;</code>
        */
       public boolean getVoucherCodeNull() {
         return voucherCodeNull_;
       }
       /**
-       * <code>optional bool voucher_code_null = 1001;</code>
+       * <code>bool voucher_code_null = 1001;</code>
        */
       public Builder setVoucherCodeNull(boolean value) {
         
@@ -696,7 +696,7 @@ public final class OmModifyVoucherCodeValidAd {
         return this;
       }
       /**
-       * <code>optional bool voucher_code_null = 1001;</code>
+       * <code>bool voucher_code_null = 1001;</code>
        */
       public Builder clearVoucherCodeNull() {
         
@@ -709,13 +709,13 @@ public final class OmModifyVoucherCodeValidAd {
       private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.values.TimestampValue, io.dstore.values.TimestampValue.Builder, io.dstore.values.TimestampValueOrBuilder> newValidToDateAndTimeBuilder_;
       /**
-       * <code>optional .dstore.values.TimestampValue new_valid_to_date_and_time = 2;</code>
+       * <code>.dstore.values.TimestampValue new_valid_to_date_and_time = 2;</code>
        */
       public boolean hasNewValidToDateAndTime() {
         return newValidToDateAndTimeBuilder_ != null || newValidToDateAndTime_ != null;
       }
       /**
-       * <code>optional .dstore.values.TimestampValue new_valid_to_date_and_time = 2;</code>
+       * <code>.dstore.values.TimestampValue new_valid_to_date_and_time = 2;</code>
        */
       public io.dstore.values.TimestampValue getNewValidToDateAndTime() {
         if (newValidToDateAndTimeBuilder_ == null) {
@@ -725,7 +725,7 @@ public final class OmModifyVoucherCodeValidAd {
         }
       }
       /**
-       * <code>optional .dstore.values.TimestampValue new_valid_to_date_and_time = 2;</code>
+       * <code>.dstore.values.TimestampValue new_valid_to_date_and_time = 2;</code>
        */
       public Builder setNewValidToDateAndTime(io.dstore.values.TimestampValue value) {
         if (newValidToDateAndTimeBuilder_ == null) {
@@ -741,7 +741,7 @@ public final class OmModifyVoucherCodeValidAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.TimestampValue new_valid_to_date_and_time = 2;</code>
+       * <code>.dstore.values.TimestampValue new_valid_to_date_and_time = 2;</code>
        */
       public Builder setNewValidToDateAndTime(
           io.dstore.values.TimestampValue.Builder builderForValue) {
@@ -755,7 +755,7 @@ public final class OmModifyVoucherCodeValidAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.TimestampValue new_valid_to_date_and_time = 2;</code>
+       * <code>.dstore.values.TimestampValue new_valid_to_date_and_time = 2;</code>
        */
       public Builder mergeNewValidToDateAndTime(io.dstore.values.TimestampValue value) {
         if (newValidToDateAndTimeBuilder_ == null) {
@@ -773,7 +773,7 @@ public final class OmModifyVoucherCodeValidAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.TimestampValue new_valid_to_date_and_time = 2;</code>
+       * <code>.dstore.values.TimestampValue new_valid_to_date_and_time = 2;</code>
        */
       public Builder clearNewValidToDateAndTime() {
         if (newValidToDateAndTimeBuilder_ == null) {
@@ -787,7 +787,7 @@ public final class OmModifyVoucherCodeValidAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.TimestampValue new_valid_to_date_and_time = 2;</code>
+       * <code>.dstore.values.TimestampValue new_valid_to_date_and_time = 2;</code>
        */
       public io.dstore.values.TimestampValue.Builder getNewValidToDateAndTimeBuilder() {
         
@@ -795,7 +795,7 @@ public final class OmModifyVoucherCodeValidAd {
         return getNewValidToDateAndTimeFieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .dstore.values.TimestampValue new_valid_to_date_and_time = 2;</code>
+       * <code>.dstore.values.TimestampValue new_valid_to_date_and_time = 2;</code>
        */
       public io.dstore.values.TimestampValueOrBuilder getNewValidToDateAndTimeOrBuilder() {
         if (newValidToDateAndTimeBuilder_ != null) {
@@ -806,7 +806,7 @@ public final class OmModifyVoucherCodeValidAd {
         }
       }
       /**
-       * <code>optional .dstore.values.TimestampValue new_valid_to_date_and_time = 2;</code>
+       * <code>.dstore.values.TimestampValue new_valid_to_date_and_time = 2;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.values.TimestampValue, io.dstore.values.TimestampValue.Builder, io.dstore.values.TimestampValueOrBuilder> 
@@ -824,13 +824,13 @@ public final class OmModifyVoucherCodeValidAd {
 
       private boolean newValidToDateAndTimeNull_ ;
       /**
-       * <code>optional bool new_valid_to_date_and_time_null = 1002;</code>
+       * <code>bool new_valid_to_date_and_time_null = 1002;</code>
        */
       public boolean getNewValidToDateAndTimeNull() {
         return newValidToDateAndTimeNull_;
       }
       /**
-       * <code>optional bool new_valid_to_date_and_time_null = 1002;</code>
+       * <code>bool new_valid_to_date_and_time_null = 1002;</code>
        */
       public Builder setNewValidToDateAndTimeNull(boolean value) {
         
@@ -839,7 +839,7 @@ public final class OmModifyVoucherCodeValidAd {
         return this;
       }
       /**
-       * <code>optional bool new_valid_to_date_and_time_null = 1002;</code>
+       * <code>bool new_valid_to_date_and_time_null = 1002;</code>
        */
       public Builder clearNewValidToDateAndTimeNull() {
         
@@ -1098,7 +1098,7 @@ public final class OmModifyVoucherCodeValidAd {
         com.google.protobuf.MessageOrBuilder {
 
       /**
-       * <code>optional int32 row_id = 10000;</code>
+       * <code>int32 row_id = 10000;</code>
        */
       int getRowId();
     }
@@ -1173,7 +1173,7 @@ public final class OmModifyVoucherCodeValidAd {
       public static final int ROW_ID_FIELD_NUMBER = 10000;
       private int rowId_;
       /**
-       * <code>optional int32 row_id = 10000;</code>
+       * <code>int32 row_id = 10000;</code>
        */
       public int getRowId() {
         return rowId_;
@@ -1232,7 +1232,7 @@ public final class OmModifyVoucherCodeValidAd {
           return memoizedHashCode;
         }
         int hash = 41;
-        hash = (19 * hash) + getDescriptorForType().hashCode();
+        hash = (19 * hash) + getDescriptor().hashCode();
         hash = (37 * hash) + ROW_ID_FIELD_NUMBER;
         hash = (53 * hash) + getRowId();
         hash = (29 * hash) + unknownFields.hashCode();
@@ -1450,13 +1450,13 @@ public final class OmModifyVoucherCodeValidAd {
 
         private int rowId_ ;
         /**
-         * <code>optional int32 row_id = 10000;</code>
+         * <code>int32 row_id = 10000;</code>
          */
         public int getRowId() {
           return rowId_;
         }
         /**
-         * <code>optional int32 row_id = 10000;</code>
+         * <code>int32 row_id = 10000;</code>
          */
         public Builder setRowId(int value) {
           
@@ -1465,7 +1465,7 @@ public final class OmModifyVoucherCodeValidAd {
           return this;
         }
         /**
-         * <code>optional int32 row_id = 10000;</code>
+         * <code>int32 row_id = 10000;</code>
          */
         public Builder clearRowId() {
           
@@ -1718,7 +1718,7 @@ public final class OmModifyVoucherCodeValidAd {
         return memoizedHashCode;
       }
       int hash = 41;
-      hash = (19 * hash) + getDescriptorForType().hashCode();
+      hash = (19 * hash) + getDescriptor().hashCode();
       if (getMetaInformationCount() > 0) {
         hash = (37 * hash) + META_INFORMATION_FIELD_NUMBER;
         hash = (53 * hash) + getMetaInformationList().hashCode();

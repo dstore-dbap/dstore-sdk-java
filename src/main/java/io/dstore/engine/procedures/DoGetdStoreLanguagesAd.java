@@ -19,20 +19,20 @@ public final class DoGetdStoreLanguagesAd {
       com.google.protobuf.MessageOrBuilder {
 
     /**
-     * <code>optional .dstore.values.IntegerValue language_id = 1;</code>
+     * <code>.dstore.values.IntegerValue language_id = 1;</code>
      */
     boolean hasLanguageId();
     /**
-     * <code>optional .dstore.values.IntegerValue language_id = 1;</code>
+     * <code>.dstore.values.IntegerValue language_id = 1;</code>
      */
     io.dstore.values.IntegerValue getLanguageId();
     /**
-     * <code>optional .dstore.values.IntegerValue language_id = 1;</code>
+     * <code>.dstore.values.IntegerValue language_id = 1;</code>
      */
     io.dstore.values.IntegerValueOrBuilder getLanguageIdOrBuilder();
 
     /**
-     * <code>optional bool language_id_null = 1001;</code>
+     * <code>bool language_id_null = 1001;</code>
      */
     boolean getLanguageIdNull();
   }
@@ -120,19 +120,19 @@ public final class DoGetdStoreLanguagesAd {
     public static final int LANGUAGE_ID_FIELD_NUMBER = 1;
     private io.dstore.values.IntegerValue languageId_;
     /**
-     * <code>optional .dstore.values.IntegerValue language_id = 1;</code>
+     * <code>.dstore.values.IntegerValue language_id = 1;</code>
      */
     public boolean hasLanguageId() {
       return languageId_ != null;
     }
     /**
-     * <code>optional .dstore.values.IntegerValue language_id = 1;</code>
+     * <code>.dstore.values.IntegerValue language_id = 1;</code>
      */
     public io.dstore.values.IntegerValue getLanguageId() {
       return languageId_ == null ? io.dstore.values.IntegerValue.getDefaultInstance() : languageId_;
     }
     /**
-     * <code>optional .dstore.values.IntegerValue language_id = 1;</code>
+     * <code>.dstore.values.IntegerValue language_id = 1;</code>
      */
     public io.dstore.values.IntegerValueOrBuilder getLanguageIdOrBuilder() {
       return getLanguageId();
@@ -141,7 +141,7 @@ public final class DoGetdStoreLanguagesAd {
     public static final int LANGUAGE_ID_NULL_FIELD_NUMBER = 1001;
     private boolean languageIdNull_;
     /**
-     * <code>optional bool language_id_null = 1001;</code>
+     * <code>bool language_id_null = 1001;</code>
      */
     public boolean getLanguageIdNull() {
       return languageIdNull_;
@@ -212,7 +212,7 @@ public final class DoGetdStoreLanguagesAd {
         return memoizedHashCode;
       }
       int hash = 41;
-      hash = (19 * hash) + getDescriptorForType().hashCode();
+      hash = (19 * hash) + getDescriptor().hashCode();
       if (hasLanguageId()) {
         hash = (37 * hash) + LANGUAGE_ID_FIELD_NUMBER;
         hash = (53 * hash) + getLanguageId().hashCode();
@@ -451,13 +451,13 @@ public final class DoGetdStoreLanguagesAd {
       private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> languageIdBuilder_;
       /**
-       * <code>optional .dstore.values.IntegerValue language_id = 1;</code>
+       * <code>.dstore.values.IntegerValue language_id = 1;</code>
        */
       public boolean hasLanguageId() {
         return languageIdBuilder_ != null || languageId_ != null;
       }
       /**
-       * <code>optional .dstore.values.IntegerValue language_id = 1;</code>
+       * <code>.dstore.values.IntegerValue language_id = 1;</code>
        */
       public io.dstore.values.IntegerValue getLanguageId() {
         if (languageIdBuilder_ == null) {
@@ -467,7 +467,7 @@ public final class DoGetdStoreLanguagesAd {
         }
       }
       /**
-       * <code>optional .dstore.values.IntegerValue language_id = 1;</code>
+       * <code>.dstore.values.IntegerValue language_id = 1;</code>
        */
       public Builder setLanguageId(io.dstore.values.IntegerValue value) {
         if (languageIdBuilder_ == null) {
@@ -483,7 +483,7 @@ public final class DoGetdStoreLanguagesAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.IntegerValue language_id = 1;</code>
+       * <code>.dstore.values.IntegerValue language_id = 1;</code>
        */
       public Builder setLanguageId(
           io.dstore.values.IntegerValue.Builder builderForValue) {
@@ -497,7 +497,7 @@ public final class DoGetdStoreLanguagesAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.IntegerValue language_id = 1;</code>
+       * <code>.dstore.values.IntegerValue language_id = 1;</code>
        */
       public Builder mergeLanguageId(io.dstore.values.IntegerValue value) {
         if (languageIdBuilder_ == null) {
@@ -515,7 +515,7 @@ public final class DoGetdStoreLanguagesAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.IntegerValue language_id = 1;</code>
+       * <code>.dstore.values.IntegerValue language_id = 1;</code>
        */
       public Builder clearLanguageId() {
         if (languageIdBuilder_ == null) {
@@ -529,7 +529,7 @@ public final class DoGetdStoreLanguagesAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.IntegerValue language_id = 1;</code>
+       * <code>.dstore.values.IntegerValue language_id = 1;</code>
        */
       public io.dstore.values.IntegerValue.Builder getLanguageIdBuilder() {
         
@@ -537,7 +537,7 @@ public final class DoGetdStoreLanguagesAd {
         return getLanguageIdFieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .dstore.values.IntegerValue language_id = 1;</code>
+       * <code>.dstore.values.IntegerValue language_id = 1;</code>
        */
       public io.dstore.values.IntegerValueOrBuilder getLanguageIdOrBuilder() {
         if (languageIdBuilder_ != null) {
@@ -548,7 +548,7 @@ public final class DoGetdStoreLanguagesAd {
         }
       }
       /**
-       * <code>optional .dstore.values.IntegerValue language_id = 1;</code>
+       * <code>.dstore.values.IntegerValue language_id = 1;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> 
@@ -566,13 +566,13 @@ public final class DoGetdStoreLanguagesAd {
 
       private boolean languageIdNull_ ;
       /**
-       * <code>optional bool language_id_null = 1001;</code>
+       * <code>bool language_id_null = 1001;</code>
        */
       public boolean getLanguageIdNull() {
         return languageIdNull_;
       }
       /**
-       * <code>optional bool language_id_null = 1001;</code>
+       * <code>bool language_id_null = 1001;</code>
        */
       public Builder setLanguageIdNull(boolean value) {
         
@@ -581,7 +581,7 @@ public final class DoGetdStoreLanguagesAd {
         return this;
       }
       /**
-       * <code>optional bool language_id_null = 1001;</code>
+       * <code>bool language_id_null = 1001;</code>
        */
       public Builder clearLanguageIdNull() {
         
@@ -840,7 +840,7 @@ public final class DoGetdStoreLanguagesAd {
         com.google.protobuf.MessageOrBuilder {
 
       /**
-       * <code>optional int32 row_id = 10000;</code>
+       * <code>int32 row_id = 10000;</code>
        */
       int getRowId();
 
@@ -849,7 +849,7 @@ public final class DoGetdStoreLanguagesAd {
        * Internationales Symbol der Sprache "LanguageID"
        * </pre>
        *
-       * <code>optional .dstore.values.StringValue language_symbol = 10001;</code>
+       * <code>.dstore.values.StringValue language_symbol = 10001;</code>
        */
       boolean hasLanguageSymbol();
       /**
@@ -857,7 +857,7 @@ public final class DoGetdStoreLanguagesAd {
        * Internationales Symbol der Sprache "LanguageID"
        * </pre>
        *
-       * <code>optional .dstore.values.StringValue language_symbol = 10001;</code>
+       * <code>.dstore.values.StringValue language_symbol = 10001;</code>
        */
       io.dstore.values.StringValue getLanguageSymbol();
       /**
@@ -865,7 +865,7 @@ public final class DoGetdStoreLanguagesAd {
        * Internationales Symbol der Sprache "LanguageID"
        * </pre>
        *
-       * <code>optional .dstore.values.StringValue language_symbol = 10001;</code>
+       * <code>.dstore.values.StringValue language_symbol = 10001;</code>
        */
       io.dstore.values.StringValueOrBuilder getLanguageSymbolOrBuilder();
 
@@ -874,7 +874,7 @@ public final class DoGetdStoreLanguagesAd {
        * Bezeichnung der Sprache "CorrespondingDBLanguageID"
        * </pre>
        *
-       * <code>optional .dstore.values.StringValue corresponding_d_b_language = 10002;</code>
+       * <code>.dstore.values.StringValue corresponding_d_b_language = 10002;</code>
        */
       boolean hasCorrespondingDBLanguage();
       /**
@@ -882,7 +882,7 @@ public final class DoGetdStoreLanguagesAd {
        * Bezeichnung der Sprache "CorrespondingDBLanguageID"
        * </pre>
        *
-       * <code>optional .dstore.values.StringValue corresponding_d_b_language = 10002;</code>
+       * <code>.dstore.values.StringValue corresponding_d_b_language = 10002;</code>
        */
       io.dstore.values.StringValue getCorrespondingDBLanguage();
       /**
@@ -890,7 +890,7 @@ public final class DoGetdStoreLanguagesAd {
        * Bezeichnung der Sprache "CorrespondingDBLanguageID"
        * </pre>
        *
-       * <code>optional .dstore.values.StringValue corresponding_d_b_language = 10002;</code>
+       * <code>.dstore.values.StringValue corresponding_d_b_language = 10002;</code>
        */
       io.dstore.values.StringValueOrBuilder getCorrespondingDBLanguageOrBuilder();
 
@@ -899,7 +899,7 @@ public final class DoGetdStoreLanguagesAd {
        * Bezeichnung der Sprache "LanguageID"
        * </pre>
        *
-       * <code>optional .dstore.values.StringValue language = 10003;</code>
+       * <code>.dstore.values.StringValue language = 10003;</code>
        */
       boolean hasLanguage();
       /**
@@ -907,7 +907,7 @@ public final class DoGetdStoreLanguagesAd {
        * Bezeichnung der Sprache "LanguageID"
        * </pre>
        *
-       * <code>optional .dstore.values.StringValue language = 10003;</code>
+       * <code>.dstore.values.StringValue language = 10003;</code>
        */
       io.dstore.values.StringValue getLanguage();
       /**
@@ -915,7 +915,7 @@ public final class DoGetdStoreLanguagesAd {
        * Bezeichnung der Sprache "LanguageID"
        * </pre>
        *
-       * <code>optional .dstore.values.StringValue language = 10003;</code>
+       * <code>.dstore.values.StringValue language = 10003;</code>
        */
       io.dstore.values.StringValueOrBuilder getLanguageOrBuilder();
 
@@ -924,7 +924,7 @@ public final class DoGetdStoreLanguagesAd {
        * ID einer Sprache (aus der "Languages"-Tabelle der "dstore"-Datenbank !)
        * </pre>
        *
-       * <code>optional .dstore.values.IntegerValue language_id = 10004;</code>
+       * <code>.dstore.values.IntegerValue language_id = 10004;</code>
        */
       boolean hasLanguageId();
       /**
@@ -932,7 +932,7 @@ public final class DoGetdStoreLanguagesAd {
        * ID einer Sprache (aus der "Languages"-Tabelle der "dstore"-Datenbank !)
        * </pre>
        *
-       * <code>optional .dstore.values.IntegerValue language_id = 10004;</code>
+       * <code>.dstore.values.IntegerValue language_id = 10004;</code>
        */
       io.dstore.values.IntegerValue getLanguageId();
       /**
@@ -940,7 +940,7 @@ public final class DoGetdStoreLanguagesAd {
        * ID einer Sprache (aus der "Languages"-Tabelle der "dstore"-Datenbank !)
        * </pre>
        *
-       * <code>optional .dstore.values.IntegerValue language_id = 10004;</code>
+       * <code>.dstore.values.IntegerValue language_id = 10004;</code>
        */
       io.dstore.values.IntegerValueOrBuilder getLanguageIdOrBuilder();
 
@@ -949,7 +949,7 @@ public final class DoGetdStoreLanguagesAd {
        * ID der Sprache in der "dStore"-Installation, d.h. der Datenbank in der diese Prozedur aufgerufen wird, deren Symbol (bis auf Groß- Kleinschreibung) mit "LanguageSymbol" übereinstimmt
        * </pre>
        *
-       * <code>optional .dstore.values.IntegerValue corresponding_d_b_language_id = 10005;</code>
+       * <code>.dstore.values.IntegerValue corresponding_d_b_language_id = 10005;</code>
        */
       boolean hasCorrespondingDBLanguageId();
       /**
@@ -957,7 +957,7 @@ public final class DoGetdStoreLanguagesAd {
        * ID der Sprache in der "dStore"-Installation, d.h. der Datenbank in der diese Prozedur aufgerufen wird, deren Symbol (bis auf Groß- Kleinschreibung) mit "LanguageSymbol" übereinstimmt
        * </pre>
        *
-       * <code>optional .dstore.values.IntegerValue corresponding_d_b_language_id = 10005;</code>
+       * <code>.dstore.values.IntegerValue corresponding_d_b_language_id = 10005;</code>
        */
       io.dstore.values.IntegerValue getCorrespondingDBLanguageId();
       /**
@@ -965,7 +965,7 @@ public final class DoGetdStoreLanguagesAd {
        * ID der Sprache in der "dStore"-Installation, d.h. der Datenbank in der diese Prozedur aufgerufen wird, deren Symbol (bis auf Groß- Kleinschreibung) mit "LanguageSymbol" übereinstimmt
        * </pre>
        *
-       * <code>optional .dstore.values.IntegerValue corresponding_d_b_language_id = 10005;</code>
+       * <code>.dstore.values.IntegerValue corresponding_d_b_language_id = 10005;</code>
        */
       io.dstore.values.IntegerValueOrBuilder getCorrespondingDBLanguageIdOrBuilder();
     }
@@ -1105,7 +1105,7 @@ public final class DoGetdStoreLanguagesAd {
       public static final int ROW_ID_FIELD_NUMBER = 10000;
       private int rowId_;
       /**
-       * <code>optional int32 row_id = 10000;</code>
+       * <code>int32 row_id = 10000;</code>
        */
       public int getRowId() {
         return rowId_;
@@ -1118,7 +1118,7 @@ public final class DoGetdStoreLanguagesAd {
        * Internationales Symbol der Sprache "LanguageID"
        * </pre>
        *
-       * <code>optional .dstore.values.StringValue language_symbol = 10001;</code>
+       * <code>.dstore.values.StringValue language_symbol = 10001;</code>
        */
       public boolean hasLanguageSymbol() {
         return languageSymbol_ != null;
@@ -1128,7 +1128,7 @@ public final class DoGetdStoreLanguagesAd {
        * Internationales Symbol der Sprache "LanguageID"
        * </pre>
        *
-       * <code>optional .dstore.values.StringValue language_symbol = 10001;</code>
+       * <code>.dstore.values.StringValue language_symbol = 10001;</code>
        */
       public io.dstore.values.StringValue getLanguageSymbol() {
         return languageSymbol_ == null ? io.dstore.values.StringValue.getDefaultInstance() : languageSymbol_;
@@ -1138,7 +1138,7 @@ public final class DoGetdStoreLanguagesAd {
        * Internationales Symbol der Sprache "LanguageID"
        * </pre>
        *
-       * <code>optional .dstore.values.StringValue language_symbol = 10001;</code>
+       * <code>.dstore.values.StringValue language_symbol = 10001;</code>
        */
       public io.dstore.values.StringValueOrBuilder getLanguageSymbolOrBuilder() {
         return getLanguageSymbol();
@@ -1151,7 +1151,7 @@ public final class DoGetdStoreLanguagesAd {
        * Bezeichnung der Sprache "CorrespondingDBLanguageID"
        * </pre>
        *
-       * <code>optional .dstore.values.StringValue corresponding_d_b_language = 10002;</code>
+       * <code>.dstore.values.StringValue corresponding_d_b_language = 10002;</code>
        */
       public boolean hasCorrespondingDBLanguage() {
         return correspondingDBLanguage_ != null;
@@ -1161,7 +1161,7 @@ public final class DoGetdStoreLanguagesAd {
        * Bezeichnung der Sprache "CorrespondingDBLanguageID"
        * </pre>
        *
-       * <code>optional .dstore.values.StringValue corresponding_d_b_language = 10002;</code>
+       * <code>.dstore.values.StringValue corresponding_d_b_language = 10002;</code>
        */
       public io.dstore.values.StringValue getCorrespondingDBLanguage() {
         return correspondingDBLanguage_ == null ? io.dstore.values.StringValue.getDefaultInstance() : correspondingDBLanguage_;
@@ -1171,7 +1171,7 @@ public final class DoGetdStoreLanguagesAd {
        * Bezeichnung der Sprache "CorrespondingDBLanguageID"
        * </pre>
        *
-       * <code>optional .dstore.values.StringValue corresponding_d_b_language = 10002;</code>
+       * <code>.dstore.values.StringValue corresponding_d_b_language = 10002;</code>
        */
       public io.dstore.values.StringValueOrBuilder getCorrespondingDBLanguageOrBuilder() {
         return getCorrespondingDBLanguage();
@@ -1184,7 +1184,7 @@ public final class DoGetdStoreLanguagesAd {
        * Bezeichnung der Sprache "LanguageID"
        * </pre>
        *
-       * <code>optional .dstore.values.StringValue language = 10003;</code>
+       * <code>.dstore.values.StringValue language = 10003;</code>
        */
       public boolean hasLanguage() {
         return language_ != null;
@@ -1194,7 +1194,7 @@ public final class DoGetdStoreLanguagesAd {
        * Bezeichnung der Sprache "LanguageID"
        * </pre>
        *
-       * <code>optional .dstore.values.StringValue language = 10003;</code>
+       * <code>.dstore.values.StringValue language = 10003;</code>
        */
       public io.dstore.values.StringValue getLanguage() {
         return language_ == null ? io.dstore.values.StringValue.getDefaultInstance() : language_;
@@ -1204,7 +1204,7 @@ public final class DoGetdStoreLanguagesAd {
        * Bezeichnung der Sprache "LanguageID"
        * </pre>
        *
-       * <code>optional .dstore.values.StringValue language = 10003;</code>
+       * <code>.dstore.values.StringValue language = 10003;</code>
        */
       public io.dstore.values.StringValueOrBuilder getLanguageOrBuilder() {
         return getLanguage();
@@ -1217,7 +1217,7 @@ public final class DoGetdStoreLanguagesAd {
        * ID einer Sprache (aus der "Languages"-Tabelle der "dstore"-Datenbank !)
        * </pre>
        *
-       * <code>optional .dstore.values.IntegerValue language_id = 10004;</code>
+       * <code>.dstore.values.IntegerValue language_id = 10004;</code>
        */
       public boolean hasLanguageId() {
         return languageId_ != null;
@@ -1227,7 +1227,7 @@ public final class DoGetdStoreLanguagesAd {
        * ID einer Sprache (aus der "Languages"-Tabelle der "dstore"-Datenbank !)
        * </pre>
        *
-       * <code>optional .dstore.values.IntegerValue language_id = 10004;</code>
+       * <code>.dstore.values.IntegerValue language_id = 10004;</code>
        */
       public io.dstore.values.IntegerValue getLanguageId() {
         return languageId_ == null ? io.dstore.values.IntegerValue.getDefaultInstance() : languageId_;
@@ -1237,7 +1237,7 @@ public final class DoGetdStoreLanguagesAd {
        * ID einer Sprache (aus der "Languages"-Tabelle der "dstore"-Datenbank !)
        * </pre>
        *
-       * <code>optional .dstore.values.IntegerValue language_id = 10004;</code>
+       * <code>.dstore.values.IntegerValue language_id = 10004;</code>
        */
       public io.dstore.values.IntegerValueOrBuilder getLanguageIdOrBuilder() {
         return getLanguageId();
@@ -1250,7 +1250,7 @@ public final class DoGetdStoreLanguagesAd {
        * ID der Sprache in der "dStore"-Installation, d.h. der Datenbank in der diese Prozedur aufgerufen wird, deren Symbol (bis auf Groß- Kleinschreibung) mit "LanguageSymbol" übereinstimmt
        * </pre>
        *
-       * <code>optional .dstore.values.IntegerValue corresponding_d_b_language_id = 10005;</code>
+       * <code>.dstore.values.IntegerValue corresponding_d_b_language_id = 10005;</code>
        */
       public boolean hasCorrespondingDBLanguageId() {
         return correspondingDBLanguageId_ != null;
@@ -1260,7 +1260,7 @@ public final class DoGetdStoreLanguagesAd {
        * ID der Sprache in der "dStore"-Installation, d.h. der Datenbank in der diese Prozedur aufgerufen wird, deren Symbol (bis auf Groß- Kleinschreibung) mit "LanguageSymbol" übereinstimmt
        * </pre>
        *
-       * <code>optional .dstore.values.IntegerValue corresponding_d_b_language_id = 10005;</code>
+       * <code>.dstore.values.IntegerValue corresponding_d_b_language_id = 10005;</code>
        */
       public io.dstore.values.IntegerValue getCorrespondingDBLanguageId() {
         return correspondingDBLanguageId_ == null ? io.dstore.values.IntegerValue.getDefaultInstance() : correspondingDBLanguageId_;
@@ -1270,7 +1270,7 @@ public final class DoGetdStoreLanguagesAd {
        * ID der Sprache in der "dStore"-Installation, d.h. der Datenbank in der diese Prozedur aufgerufen wird, deren Symbol (bis auf Groß- Kleinschreibung) mit "LanguageSymbol" übereinstimmt
        * </pre>
        *
-       * <code>optional .dstore.values.IntegerValue corresponding_d_b_language_id = 10005;</code>
+       * <code>.dstore.values.IntegerValue corresponding_d_b_language_id = 10005;</code>
        */
       public io.dstore.values.IntegerValueOrBuilder getCorrespondingDBLanguageIdOrBuilder() {
         return getCorrespondingDBLanguageId();
@@ -1389,7 +1389,7 @@ public final class DoGetdStoreLanguagesAd {
           return memoizedHashCode;
         }
         int hash = 41;
-        hash = (19 * hash) + getDescriptorForType().hashCode();
+        hash = (19 * hash) + getDescriptor().hashCode();
         hash = (37 * hash) + ROW_ID_FIELD_NUMBER;
         hash = (53 * hash) + getRowId();
         if (hasLanguageSymbol()) {
@@ -1697,13 +1697,13 @@ public final class DoGetdStoreLanguagesAd {
 
         private int rowId_ ;
         /**
-         * <code>optional int32 row_id = 10000;</code>
+         * <code>int32 row_id = 10000;</code>
          */
         public int getRowId() {
           return rowId_;
         }
         /**
-         * <code>optional int32 row_id = 10000;</code>
+         * <code>int32 row_id = 10000;</code>
          */
         public Builder setRowId(int value) {
           
@@ -1712,7 +1712,7 @@ public final class DoGetdStoreLanguagesAd {
           return this;
         }
         /**
-         * <code>optional int32 row_id = 10000;</code>
+         * <code>int32 row_id = 10000;</code>
          */
         public Builder clearRowId() {
           
@@ -1729,7 +1729,7 @@ public final class DoGetdStoreLanguagesAd {
          * Internationales Symbol der Sprache "LanguageID"
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue language_symbol = 10001;</code>
+         * <code>.dstore.values.StringValue language_symbol = 10001;</code>
          */
         public boolean hasLanguageSymbol() {
           return languageSymbolBuilder_ != null || languageSymbol_ != null;
@@ -1739,7 +1739,7 @@ public final class DoGetdStoreLanguagesAd {
          * Internationales Symbol der Sprache "LanguageID"
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue language_symbol = 10001;</code>
+         * <code>.dstore.values.StringValue language_symbol = 10001;</code>
          */
         public io.dstore.values.StringValue getLanguageSymbol() {
           if (languageSymbolBuilder_ == null) {
@@ -1753,7 +1753,7 @@ public final class DoGetdStoreLanguagesAd {
          * Internationales Symbol der Sprache "LanguageID"
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue language_symbol = 10001;</code>
+         * <code>.dstore.values.StringValue language_symbol = 10001;</code>
          */
         public Builder setLanguageSymbol(io.dstore.values.StringValue value) {
           if (languageSymbolBuilder_ == null) {
@@ -1773,7 +1773,7 @@ public final class DoGetdStoreLanguagesAd {
          * Internationales Symbol der Sprache "LanguageID"
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue language_symbol = 10001;</code>
+         * <code>.dstore.values.StringValue language_symbol = 10001;</code>
          */
         public Builder setLanguageSymbol(
             io.dstore.values.StringValue.Builder builderForValue) {
@@ -1791,7 +1791,7 @@ public final class DoGetdStoreLanguagesAd {
          * Internationales Symbol der Sprache "LanguageID"
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue language_symbol = 10001;</code>
+         * <code>.dstore.values.StringValue language_symbol = 10001;</code>
          */
         public Builder mergeLanguageSymbol(io.dstore.values.StringValue value) {
           if (languageSymbolBuilder_ == null) {
@@ -1813,7 +1813,7 @@ public final class DoGetdStoreLanguagesAd {
          * Internationales Symbol der Sprache "LanguageID"
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue language_symbol = 10001;</code>
+         * <code>.dstore.values.StringValue language_symbol = 10001;</code>
          */
         public Builder clearLanguageSymbol() {
           if (languageSymbolBuilder_ == null) {
@@ -1831,7 +1831,7 @@ public final class DoGetdStoreLanguagesAd {
          * Internationales Symbol der Sprache "LanguageID"
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue language_symbol = 10001;</code>
+         * <code>.dstore.values.StringValue language_symbol = 10001;</code>
          */
         public io.dstore.values.StringValue.Builder getLanguageSymbolBuilder() {
           
@@ -1843,7 +1843,7 @@ public final class DoGetdStoreLanguagesAd {
          * Internationales Symbol der Sprache "LanguageID"
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue language_symbol = 10001;</code>
+         * <code>.dstore.values.StringValue language_symbol = 10001;</code>
          */
         public io.dstore.values.StringValueOrBuilder getLanguageSymbolOrBuilder() {
           if (languageSymbolBuilder_ != null) {
@@ -1858,7 +1858,7 @@ public final class DoGetdStoreLanguagesAd {
          * Internationales Symbol der Sprache "LanguageID"
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue language_symbol = 10001;</code>
+         * <code>.dstore.values.StringValue language_symbol = 10001;</code>
          */
         private com.google.protobuf.SingleFieldBuilderV3<
             io.dstore.values.StringValue, io.dstore.values.StringValue.Builder, io.dstore.values.StringValueOrBuilder> 
@@ -1882,7 +1882,7 @@ public final class DoGetdStoreLanguagesAd {
          * Bezeichnung der Sprache "CorrespondingDBLanguageID"
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue corresponding_d_b_language = 10002;</code>
+         * <code>.dstore.values.StringValue corresponding_d_b_language = 10002;</code>
          */
         public boolean hasCorrespondingDBLanguage() {
           return correspondingDBLanguageBuilder_ != null || correspondingDBLanguage_ != null;
@@ -1892,7 +1892,7 @@ public final class DoGetdStoreLanguagesAd {
          * Bezeichnung der Sprache "CorrespondingDBLanguageID"
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue corresponding_d_b_language = 10002;</code>
+         * <code>.dstore.values.StringValue corresponding_d_b_language = 10002;</code>
          */
         public io.dstore.values.StringValue getCorrespondingDBLanguage() {
           if (correspondingDBLanguageBuilder_ == null) {
@@ -1906,7 +1906,7 @@ public final class DoGetdStoreLanguagesAd {
          * Bezeichnung der Sprache "CorrespondingDBLanguageID"
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue corresponding_d_b_language = 10002;</code>
+         * <code>.dstore.values.StringValue corresponding_d_b_language = 10002;</code>
          */
         public Builder setCorrespondingDBLanguage(io.dstore.values.StringValue value) {
           if (correspondingDBLanguageBuilder_ == null) {
@@ -1926,7 +1926,7 @@ public final class DoGetdStoreLanguagesAd {
          * Bezeichnung der Sprache "CorrespondingDBLanguageID"
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue corresponding_d_b_language = 10002;</code>
+         * <code>.dstore.values.StringValue corresponding_d_b_language = 10002;</code>
          */
         public Builder setCorrespondingDBLanguage(
             io.dstore.values.StringValue.Builder builderForValue) {
@@ -1944,7 +1944,7 @@ public final class DoGetdStoreLanguagesAd {
          * Bezeichnung der Sprache "CorrespondingDBLanguageID"
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue corresponding_d_b_language = 10002;</code>
+         * <code>.dstore.values.StringValue corresponding_d_b_language = 10002;</code>
          */
         public Builder mergeCorrespondingDBLanguage(io.dstore.values.StringValue value) {
           if (correspondingDBLanguageBuilder_ == null) {
@@ -1966,7 +1966,7 @@ public final class DoGetdStoreLanguagesAd {
          * Bezeichnung der Sprache "CorrespondingDBLanguageID"
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue corresponding_d_b_language = 10002;</code>
+         * <code>.dstore.values.StringValue corresponding_d_b_language = 10002;</code>
          */
         public Builder clearCorrespondingDBLanguage() {
           if (correspondingDBLanguageBuilder_ == null) {
@@ -1984,7 +1984,7 @@ public final class DoGetdStoreLanguagesAd {
          * Bezeichnung der Sprache "CorrespondingDBLanguageID"
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue corresponding_d_b_language = 10002;</code>
+         * <code>.dstore.values.StringValue corresponding_d_b_language = 10002;</code>
          */
         public io.dstore.values.StringValue.Builder getCorrespondingDBLanguageBuilder() {
           
@@ -1996,7 +1996,7 @@ public final class DoGetdStoreLanguagesAd {
          * Bezeichnung der Sprache "CorrespondingDBLanguageID"
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue corresponding_d_b_language = 10002;</code>
+         * <code>.dstore.values.StringValue corresponding_d_b_language = 10002;</code>
          */
         public io.dstore.values.StringValueOrBuilder getCorrespondingDBLanguageOrBuilder() {
           if (correspondingDBLanguageBuilder_ != null) {
@@ -2011,7 +2011,7 @@ public final class DoGetdStoreLanguagesAd {
          * Bezeichnung der Sprache "CorrespondingDBLanguageID"
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue corresponding_d_b_language = 10002;</code>
+         * <code>.dstore.values.StringValue corresponding_d_b_language = 10002;</code>
          */
         private com.google.protobuf.SingleFieldBuilderV3<
             io.dstore.values.StringValue, io.dstore.values.StringValue.Builder, io.dstore.values.StringValueOrBuilder> 
@@ -2035,7 +2035,7 @@ public final class DoGetdStoreLanguagesAd {
          * Bezeichnung der Sprache "LanguageID"
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue language = 10003;</code>
+         * <code>.dstore.values.StringValue language = 10003;</code>
          */
         public boolean hasLanguage() {
           return languageBuilder_ != null || language_ != null;
@@ -2045,7 +2045,7 @@ public final class DoGetdStoreLanguagesAd {
          * Bezeichnung der Sprache "LanguageID"
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue language = 10003;</code>
+         * <code>.dstore.values.StringValue language = 10003;</code>
          */
         public io.dstore.values.StringValue getLanguage() {
           if (languageBuilder_ == null) {
@@ -2059,7 +2059,7 @@ public final class DoGetdStoreLanguagesAd {
          * Bezeichnung der Sprache "LanguageID"
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue language = 10003;</code>
+         * <code>.dstore.values.StringValue language = 10003;</code>
          */
         public Builder setLanguage(io.dstore.values.StringValue value) {
           if (languageBuilder_ == null) {
@@ -2079,7 +2079,7 @@ public final class DoGetdStoreLanguagesAd {
          * Bezeichnung der Sprache "LanguageID"
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue language = 10003;</code>
+         * <code>.dstore.values.StringValue language = 10003;</code>
          */
         public Builder setLanguage(
             io.dstore.values.StringValue.Builder builderForValue) {
@@ -2097,7 +2097,7 @@ public final class DoGetdStoreLanguagesAd {
          * Bezeichnung der Sprache "LanguageID"
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue language = 10003;</code>
+         * <code>.dstore.values.StringValue language = 10003;</code>
          */
         public Builder mergeLanguage(io.dstore.values.StringValue value) {
           if (languageBuilder_ == null) {
@@ -2119,7 +2119,7 @@ public final class DoGetdStoreLanguagesAd {
          * Bezeichnung der Sprache "LanguageID"
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue language = 10003;</code>
+         * <code>.dstore.values.StringValue language = 10003;</code>
          */
         public Builder clearLanguage() {
           if (languageBuilder_ == null) {
@@ -2137,7 +2137,7 @@ public final class DoGetdStoreLanguagesAd {
          * Bezeichnung der Sprache "LanguageID"
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue language = 10003;</code>
+         * <code>.dstore.values.StringValue language = 10003;</code>
          */
         public io.dstore.values.StringValue.Builder getLanguageBuilder() {
           
@@ -2149,7 +2149,7 @@ public final class DoGetdStoreLanguagesAd {
          * Bezeichnung der Sprache "LanguageID"
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue language = 10003;</code>
+         * <code>.dstore.values.StringValue language = 10003;</code>
          */
         public io.dstore.values.StringValueOrBuilder getLanguageOrBuilder() {
           if (languageBuilder_ != null) {
@@ -2164,7 +2164,7 @@ public final class DoGetdStoreLanguagesAd {
          * Bezeichnung der Sprache "LanguageID"
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue language = 10003;</code>
+         * <code>.dstore.values.StringValue language = 10003;</code>
          */
         private com.google.protobuf.SingleFieldBuilderV3<
             io.dstore.values.StringValue, io.dstore.values.StringValue.Builder, io.dstore.values.StringValueOrBuilder> 
@@ -2188,7 +2188,7 @@ public final class DoGetdStoreLanguagesAd {
          * ID einer Sprache (aus der "Languages"-Tabelle der "dstore"-Datenbank !)
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue language_id = 10004;</code>
+         * <code>.dstore.values.IntegerValue language_id = 10004;</code>
          */
         public boolean hasLanguageId() {
           return languageIdBuilder_ != null || languageId_ != null;
@@ -2198,7 +2198,7 @@ public final class DoGetdStoreLanguagesAd {
          * ID einer Sprache (aus der "Languages"-Tabelle der "dstore"-Datenbank !)
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue language_id = 10004;</code>
+         * <code>.dstore.values.IntegerValue language_id = 10004;</code>
          */
         public io.dstore.values.IntegerValue getLanguageId() {
           if (languageIdBuilder_ == null) {
@@ -2212,7 +2212,7 @@ public final class DoGetdStoreLanguagesAd {
          * ID einer Sprache (aus der "Languages"-Tabelle der "dstore"-Datenbank !)
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue language_id = 10004;</code>
+         * <code>.dstore.values.IntegerValue language_id = 10004;</code>
          */
         public Builder setLanguageId(io.dstore.values.IntegerValue value) {
           if (languageIdBuilder_ == null) {
@@ -2232,7 +2232,7 @@ public final class DoGetdStoreLanguagesAd {
          * ID einer Sprache (aus der "Languages"-Tabelle der "dstore"-Datenbank !)
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue language_id = 10004;</code>
+         * <code>.dstore.values.IntegerValue language_id = 10004;</code>
          */
         public Builder setLanguageId(
             io.dstore.values.IntegerValue.Builder builderForValue) {
@@ -2250,7 +2250,7 @@ public final class DoGetdStoreLanguagesAd {
          * ID einer Sprache (aus der "Languages"-Tabelle der "dstore"-Datenbank !)
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue language_id = 10004;</code>
+         * <code>.dstore.values.IntegerValue language_id = 10004;</code>
          */
         public Builder mergeLanguageId(io.dstore.values.IntegerValue value) {
           if (languageIdBuilder_ == null) {
@@ -2272,7 +2272,7 @@ public final class DoGetdStoreLanguagesAd {
          * ID einer Sprache (aus der "Languages"-Tabelle der "dstore"-Datenbank !)
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue language_id = 10004;</code>
+         * <code>.dstore.values.IntegerValue language_id = 10004;</code>
          */
         public Builder clearLanguageId() {
           if (languageIdBuilder_ == null) {
@@ -2290,7 +2290,7 @@ public final class DoGetdStoreLanguagesAd {
          * ID einer Sprache (aus der "Languages"-Tabelle der "dstore"-Datenbank !)
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue language_id = 10004;</code>
+         * <code>.dstore.values.IntegerValue language_id = 10004;</code>
          */
         public io.dstore.values.IntegerValue.Builder getLanguageIdBuilder() {
           
@@ -2302,7 +2302,7 @@ public final class DoGetdStoreLanguagesAd {
          * ID einer Sprache (aus der "Languages"-Tabelle der "dstore"-Datenbank !)
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue language_id = 10004;</code>
+         * <code>.dstore.values.IntegerValue language_id = 10004;</code>
          */
         public io.dstore.values.IntegerValueOrBuilder getLanguageIdOrBuilder() {
           if (languageIdBuilder_ != null) {
@@ -2317,7 +2317,7 @@ public final class DoGetdStoreLanguagesAd {
          * ID einer Sprache (aus der "Languages"-Tabelle der "dstore"-Datenbank !)
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue language_id = 10004;</code>
+         * <code>.dstore.values.IntegerValue language_id = 10004;</code>
          */
         private com.google.protobuf.SingleFieldBuilderV3<
             io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> 
@@ -2341,7 +2341,7 @@ public final class DoGetdStoreLanguagesAd {
          * ID der Sprache in der "dStore"-Installation, d.h. der Datenbank in der diese Prozedur aufgerufen wird, deren Symbol (bis auf Groß- Kleinschreibung) mit "LanguageSymbol" übereinstimmt
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue corresponding_d_b_language_id = 10005;</code>
+         * <code>.dstore.values.IntegerValue corresponding_d_b_language_id = 10005;</code>
          */
         public boolean hasCorrespondingDBLanguageId() {
           return correspondingDBLanguageIdBuilder_ != null || correspondingDBLanguageId_ != null;
@@ -2351,7 +2351,7 @@ public final class DoGetdStoreLanguagesAd {
          * ID der Sprache in der "dStore"-Installation, d.h. der Datenbank in der diese Prozedur aufgerufen wird, deren Symbol (bis auf Groß- Kleinschreibung) mit "LanguageSymbol" übereinstimmt
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue corresponding_d_b_language_id = 10005;</code>
+         * <code>.dstore.values.IntegerValue corresponding_d_b_language_id = 10005;</code>
          */
         public io.dstore.values.IntegerValue getCorrespondingDBLanguageId() {
           if (correspondingDBLanguageIdBuilder_ == null) {
@@ -2365,7 +2365,7 @@ public final class DoGetdStoreLanguagesAd {
          * ID der Sprache in der "dStore"-Installation, d.h. der Datenbank in der diese Prozedur aufgerufen wird, deren Symbol (bis auf Groß- Kleinschreibung) mit "LanguageSymbol" übereinstimmt
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue corresponding_d_b_language_id = 10005;</code>
+         * <code>.dstore.values.IntegerValue corresponding_d_b_language_id = 10005;</code>
          */
         public Builder setCorrespondingDBLanguageId(io.dstore.values.IntegerValue value) {
           if (correspondingDBLanguageIdBuilder_ == null) {
@@ -2385,7 +2385,7 @@ public final class DoGetdStoreLanguagesAd {
          * ID der Sprache in der "dStore"-Installation, d.h. der Datenbank in der diese Prozedur aufgerufen wird, deren Symbol (bis auf Groß- Kleinschreibung) mit "LanguageSymbol" übereinstimmt
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue corresponding_d_b_language_id = 10005;</code>
+         * <code>.dstore.values.IntegerValue corresponding_d_b_language_id = 10005;</code>
          */
         public Builder setCorrespondingDBLanguageId(
             io.dstore.values.IntegerValue.Builder builderForValue) {
@@ -2403,7 +2403,7 @@ public final class DoGetdStoreLanguagesAd {
          * ID der Sprache in der "dStore"-Installation, d.h. der Datenbank in der diese Prozedur aufgerufen wird, deren Symbol (bis auf Groß- Kleinschreibung) mit "LanguageSymbol" übereinstimmt
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue corresponding_d_b_language_id = 10005;</code>
+         * <code>.dstore.values.IntegerValue corresponding_d_b_language_id = 10005;</code>
          */
         public Builder mergeCorrespondingDBLanguageId(io.dstore.values.IntegerValue value) {
           if (correspondingDBLanguageIdBuilder_ == null) {
@@ -2425,7 +2425,7 @@ public final class DoGetdStoreLanguagesAd {
          * ID der Sprache in der "dStore"-Installation, d.h. der Datenbank in der diese Prozedur aufgerufen wird, deren Symbol (bis auf Groß- Kleinschreibung) mit "LanguageSymbol" übereinstimmt
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue corresponding_d_b_language_id = 10005;</code>
+         * <code>.dstore.values.IntegerValue corresponding_d_b_language_id = 10005;</code>
          */
         public Builder clearCorrespondingDBLanguageId() {
           if (correspondingDBLanguageIdBuilder_ == null) {
@@ -2443,7 +2443,7 @@ public final class DoGetdStoreLanguagesAd {
          * ID der Sprache in der "dStore"-Installation, d.h. der Datenbank in der diese Prozedur aufgerufen wird, deren Symbol (bis auf Groß- Kleinschreibung) mit "LanguageSymbol" übereinstimmt
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue corresponding_d_b_language_id = 10005;</code>
+         * <code>.dstore.values.IntegerValue corresponding_d_b_language_id = 10005;</code>
          */
         public io.dstore.values.IntegerValue.Builder getCorrespondingDBLanguageIdBuilder() {
           
@@ -2455,7 +2455,7 @@ public final class DoGetdStoreLanguagesAd {
          * ID der Sprache in der "dStore"-Installation, d.h. der Datenbank in der diese Prozedur aufgerufen wird, deren Symbol (bis auf Groß- Kleinschreibung) mit "LanguageSymbol" übereinstimmt
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue corresponding_d_b_language_id = 10005;</code>
+         * <code>.dstore.values.IntegerValue corresponding_d_b_language_id = 10005;</code>
          */
         public io.dstore.values.IntegerValueOrBuilder getCorrespondingDBLanguageIdOrBuilder() {
           if (correspondingDBLanguageIdBuilder_ != null) {
@@ -2470,7 +2470,7 @@ public final class DoGetdStoreLanguagesAd {
          * ID der Sprache in der "dStore"-Installation, d.h. der Datenbank in der diese Prozedur aufgerufen wird, deren Symbol (bis auf Groß- Kleinschreibung) mit "LanguageSymbol" übereinstimmt
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue corresponding_d_b_language_id = 10005;</code>
+         * <code>.dstore.values.IntegerValue corresponding_d_b_language_id = 10005;</code>
          */
         private com.google.protobuf.SingleFieldBuilderV3<
             io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> 
@@ -2730,7 +2730,7 @@ public final class DoGetdStoreLanguagesAd {
         return memoizedHashCode;
       }
       int hash = 41;
-      hash = (19 * hash) + getDescriptorForType().hashCode();
+      hash = (19 * hash) + getDescriptor().hashCode();
       if (getMetaInformationCount() > 0) {
         hash = (37 * hash) + META_INFORMATION_FIELD_NUMBER;
         hash = (53 * hash) + getMetaInformationList().hashCode();

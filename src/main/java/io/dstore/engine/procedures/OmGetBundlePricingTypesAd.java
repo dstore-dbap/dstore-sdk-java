@@ -123,7 +123,7 @@ public final class OmGetBundlePricingTypesAd {
         return memoizedHashCode;
       }
       int hash = 41;
-      hash = (19 * hash) + getDescriptorForType().hashCode();
+      hash = (19 * hash) + getDescriptor().hashCode();
       hash = (29 * hash) + unknownFields.hashCode();
       memoizedHashCode = hash;
       return hash;
@@ -581,7 +581,7 @@ public final class OmGetBundlePricingTypesAd {
         com.google.protobuf.MessageOrBuilder {
 
       /**
-       * <code>optional int32 row_id = 10000;</code>
+       * <code>int32 row_id = 10000;</code>
        */
       int getRowId();
 
@@ -590,7 +590,7 @@ public final class OmGetBundlePricingTypesAd {
        * Eine erklärende Beschreibuung zur "BundlePricingTypeID"
        * </pre>
        *
-       * <code>optional .dstore.values.StringValue description = 10001;</code>
+       * <code>.dstore.values.StringValue description = 10001;</code>
        */
       boolean hasDescription();
       /**
@@ -598,7 +598,7 @@ public final class OmGetBundlePricingTypesAd {
        * Eine erklärende Beschreibuung zur "BundlePricingTypeID"
        * </pre>
        *
-       * <code>optional .dstore.values.StringValue description = 10001;</code>
+       * <code>.dstore.values.StringValue description = 10001;</code>
        */
       io.dstore.values.StringValue getDescription();
       /**
@@ -606,7 +606,7 @@ public final class OmGetBundlePricingTypesAd {
        * Eine erklärende Beschreibuung zur "BundlePricingTypeID"
        * </pre>
        *
-       * <code>optional .dstore.values.StringValue description = 10001;</code>
+       * <code>.dstore.values.StringValue description = 10001;</code>
        */
       io.dstore.values.StringValueOrBuilder getDescriptionOrBuilder();
 
@@ -615,7 +615,7 @@ public final class OmGetBundlePricingTypesAd {
        * Die ID des "BundlePricingTypes"
        * </pre>
        *
-       * <code>optional .dstore.values.IntegerValue bundle_pricing_type_id = 10002;</code>
+       * <code>.dstore.values.IntegerValue bundle_pricing_type_id = 10002;</code>
        */
       boolean hasBundlePricingTypeId();
       /**
@@ -623,7 +623,7 @@ public final class OmGetBundlePricingTypesAd {
        * Die ID des "BundlePricingTypes"
        * </pre>
        *
-       * <code>optional .dstore.values.IntegerValue bundle_pricing_type_id = 10002;</code>
+       * <code>.dstore.values.IntegerValue bundle_pricing_type_id = 10002;</code>
        */
       io.dstore.values.IntegerValue getBundlePricingTypeId();
       /**
@@ -631,7 +631,7 @@ public final class OmGetBundlePricingTypesAd {
        * Die ID des "BundlePricingTypes"
        * </pre>
        *
-       * <code>optional .dstore.values.IntegerValue bundle_pricing_type_id = 10002;</code>
+       * <code>.dstore.values.IntegerValue bundle_pricing_type_id = 10002;</code>
        */
       io.dstore.values.IntegerValueOrBuilder getBundlePricingTypeIdOrBuilder();
 
@@ -640,7 +640,7 @@ public final class OmGetBundlePricingTypesAd {
        * Die Bezeichnung von "BundlePricingTypeID"
        * </pre>
        *
-       * <code>optional .dstore.values.StringValue bundle_pricing_type = 10003;</code>
+       * <code>.dstore.values.StringValue bundle_pricing_type = 10003;</code>
        */
       boolean hasBundlePricingType();
       /**
@@ -648,7 +648,7 @@ public final class OmGetBundlePricingTypesAd {
        * Die Bezeichnung von "BundlePricingTypeID"
        * </pre>
        *
-       * <code>optional .dstore.values.StringValue bundle_pricing_type = 10003;</code>
+       * <code>.dstore.values.StringValue bundle_pricing_type = 10003;</code>
        */
       io.dstore.values.StringValue getBundlePricingType();
       /**
@@ -656,7 +656,7 @@ public final class OmGetBundlePricingTypesAd {
        * Die Bezeichnung von "BundlePricingTypeID"
        * </pre>
        *
-       * <code>optional .dstore.values.StringValue bundle_pricing_type = 10003;</code>
+       * <code>.dstore.values.StringValue bundle_pricing_type = 10003;</code>
        */
       io.dstore.values.StringValueOrBuilder getBundlePricingTypeOrBuilder();
     }
@@ -770,7 +770,7 @@ public final class OmGetBundlePricingTypesAd {
       public static final int ROW_ID_FIELD_NUMBER = 10000;
       private int rowId_;
       /**
-       * <code>optional int32 row_id = 10000;</code>
+       * <code>int32 row_id = 10000;</code>
        */
       public int getRowId() {
         return rowId_;
@@ -783,7 +783,7 @@ public final class OmGetBundlePricingTypesAd {
        * Eine erklärende Beschreibuung zur "BundlePricingTypeID"
        * </pre>
        *
-       * <code>optional .dstore.values.StringValue description = 10001;</code>
+       * <code>.dstore.values.StringValue description = 10001;</code>
        */
       public boolean hasDescription() {
         return description_ != null;
@@ -793,7 +793,7 @@ public final class OmGetBundlePricingTypesAd {
        * Eine erklärende Beschreibuung zur "BundlePricingTypeID"
        * </pre>
        *
-       * <code>optional .dstore.values.StringValue description = 10001;</code>
+       * <code>.dstore.values.StringValue description = 10001;</code>
        */
       public io.dstore.values.StringValue getDescription() {
         return description_ == null ? io.dstore.values.StringValue.getDefaultInstance() : description_;
@@ -803,7 +803,7 @@ public final class OmGetBundlePricingTypesAd {
        * Eine erklärende Beschreibuung zur "BundlePricingTypeID"
        * </pre>
        *
-       * <code>optional .dstore.values.StringValue description = 10001;</code>
+       * <code>.dstore.values.StringValue description = 10001;</code>
        */
       public io.dstore.values.StringValueOrBuilder getDescriptionOrBuilder() {
         return getDescription();
@@ -816,7 +816,7 @@ public final class OmGetBundlePricingTypesAd {
        * Die ID des "BundlePricingTypes"
        * </pre>
        *
-       * <code>optional .dstore.values.IntegerValue bundle_pricing_type_id = 10002;</code>
+       * <code>.dstore.values.IntegerValue bundle_pricing_type_id = 10002;</code>
        */
       public boolean hasBundlePricingTypeId() {
         return bundlePricingTypeId_ != null;
@@ -826,7 +826,7 @@ public final class OmGetBundlePricingTypesAd {
        * Die ID des "BundlePricingTypes"
        * </pre>
        *
-       * <code>optional .dstore.values.IntegerValue bundle_pricing_type_id = 10002;</code>
+       * <code>.dstore.values.IntegerValue bundle_pricing_type_id = 10002;</code>
        */
       public io.dstore.values.IntegerValue getBundlePricingTypeId() {
         return bundlePricingTypeId_ == null ? io.dstore.values.IntegerValue.getDefaultInstance() : bundlePricingTypeId_;
@@ -836,7 +836,7 @@ public final class OmGetBundlePricingTypesAd {
        * Die ID des "BundlePricingTypes"
        * </pre>
        *
-       * <code>optional .dstore.values.IntegerValue bundle_pricing_type_id = 10002;</code>
+       * <code>.dstore.values.IntegerValue bundle_pricing_type_id = 10002;</code>
        */
       public io.dstore.values.IntegerValueOrBuilder getBundlePricingTypeIdOrBuilder() {
         return getBundlePricingTypeId();
@@ -849,7 +849,7 @@ public final class OmGetBundlePricingTypesAd {
        * Die Bezeichnung von "BundlePricingTypeID"
        * </pre>
        *
-       * <code>optional .dstore.values.StringValue bundle_pricing_type = 10003;</code>
+       * <code>.dstore.values.StringValue bundle_pricing_type = 10003;</code>
        */
       public boolean hasBundlePricingType() {
         return bundlePricingType_ != null;
@@ -859,7 +859,7 @@ public final class OmGetBundlePricingTypesAd {
        * Die Bezeichnung von "BundlePricingTypeID"
        * </pre>
        *
-       * <code>optional .dstore.values.StringValue bundle_pricing_type = 10003;</code>
+       * <code>.dstore.values.StringValue bundle_pricing_type = 10003;</code>
        */
       public io.dstore.values.StringValue getBundlePricingType() {
         return bundlePricingType_ == null ? io.dstore.values.StringValue.getDefaultInstance() : bundlePricingType_;
@@ -869,7 +869,7 @@ public final class OmGetBundlePricingTypesAd {
        * Die Bezeichnung von "BundlePricingTypeID"
        * </pre>
        *
-       * <code>optional .dstore.values.StringValue bundle_pricing_type = 10003;</code>
+       * <code>.dstore.values.StringValue bundle_pricing_type = 10003;</code>
        */
       public io.dstore.values.StringValueOrBuilder getBundlePricingTypeOrBuilder() {
         return getBundlePricingType();
@@ -964,7 +964,7 @@ public final class OmGetBundlePricingTypesAd {
           return memoizedHashCode;
         }
         int hash = 41;
-        hash = (19 * hash) + getDescriptorForType().hashCode();
+        hash = (19 * hash) + getDescriptor().hashCode();
         hash = (37 * hash) + ROW_ID_FIELD_NUMBER;
         hash = (53 * hash) + getRowId();
         if (hasDescription()) {
@@ -1236,13 +1236,13 @@ public final class OmGetBundlePricingTypesAd {
 
         private int rowId_ ;
         /**
-         * <code>optional int32 row_id = 10000;</code>
+         * <code>int32 row_id = 10000;</code>
          */
         public int getRowId() {
           return rowId_;
         }
         /**
-         * <code>optional int32 row_id = 10000;</code>
+         * <code>int32 row_id = 10000;</code>
          */
         public Builder setRowId(int value) {
           
@@ -1251,7 +1251,7 @@ public final class OmGetBundlePricingTypesAd {
           return this;
         }
         /**
-         * <code>optional int32 row_id = 10000;</code>
+         * <code>int32 row_id = 10000;</code>
          */
         public Builder clearRowId() {
           
@@ -1268,7 +1268,7 @@ public final class OmGetBundlePricingTypesAd {
          * Eine erklärende Beschreibuung zur "BundlePricingTypeID"
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue description = 10001;</code>
+         * <code>.dstore.values.StringValue description = 10001;</code>
          */
         public boolean hasDescription() {
           return descriptionBuilder_ != null || description_ != null;
@@ -1278,7 +1278,7 @@ public final class OmGetBundlePricingTypesAd {
          * Eine erklärende Beschreibuung zur "BundlePricingTypeID"
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue description = 10001;</code>
+         * <code>.dstore.values.StringValue description = 10001;</code>
          */
         public io.dstore.values.StringValue getDescription() {
           if (descriptionBuilder_ == null) {
@@ -1292,7 +1292,7 @@ public final class OmGetBundlePricingTypesAd {
          * Eine erklärende Beschreibuung zur "BundlePricingTypeID"
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue description = 10001;</code>
+         * <code>.dstore.values.StringValue description = 10001;</code>
          */
         public Builder setDescription(io.dstore.values.StringValue value) {
           if (descriptionBuilder_ == null) {
@@ -1312,7 +1312,7 @@ public final class OmGetBundlePricingTypesAd {
          * Eine erklärende Beschreibuung zur "BundlePricingTypeID"
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue description = 10001;</code>
+         * <code>.dstore.values.StringValue description = 10001;</code>
          */
         public Builder setDescription(
             io.dstore.values.StringValue.Builder builderForValue) {
@@ -1330,7 +1330,7 @@ public final class OmGetBundlePricingTypesAd {
          * Eine erklärende Beschreibuung zur "BundlePricingTypeID"
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue description = 10001;</code>
+         * <code>.dstore.values.StringValue description = 10001;</code>
          */
         public Builder mergeDescription(io.dstore.values.StringValue value) {
           if (descriptionBuilder_ == null) {
@@ -1352,7 +1352,7 @@ public final class OmGetBundlePricingTypesAd {
          * Eine erklärende Beschreibuung zur "BundlePricingTypeID"
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue description = 10001;</code>
+         * <code>.dstore.values.StringValue description = 10001;</code>
          */
         public Builder clearDescription() {
           if (descriptionBuilder_ == null) {
@@ -1370,7 +1370,7 @@ public final class OmGetBundlePricingTypesAd {
          * Eine erklärende Beschreibuung zur "BundlePricingTypeID"
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue description = 10001;</code>
+         * <code>.dstore.values.StringValue description = 10001;</code>
          */
         public io.dstore.values.StringValue.Builder getDescriptionBuilder() {
           
@@ -1382,7 +1382,7 @@ public final class OmGetBundlePricingTypesAd {
          * Eine erklärende Beschreibuung zur "BundlePricingTypeID"
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue description = 10001;</code>
+         * <code>.dstore.values.StringValue description = 10001;</code>
          */
         public io.dstore.values.StringValueOrBuilder getDescriptionOrBuilder() {
           if (descriptionBuilder_ != null) {
@@ -1397,7 +1397,7 @@ public final class OmGetBundlePricingTypesAd {
          * Eine erklärende Beschreibuung zur "BundlePricingTypeID"
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue description = 10001;</code>
+         * <code>.dstore.values.StringValue description = 10001;</code>
          */
         private com.google.protobuf.SingleFieldBuilderV3<
             io.dstore.values.StringValue, io.dstore.values.StringValue.Builder, io.dstore.values.StringValueOrBuilder> 
@@ -1421,7 +1421,7 @@ public final class OmGetBundlePricingTypesAd {
          * Die ID des "BundlePricingTypes"
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue bundle_pricing_type_id = 10002;</code>
+         * <code>.dstore.values.IntegerValue bundle_pricing_type_id = 10002;</code>
          */
         public boolean hasBundlePricingTypeId() {
           return bundlePricingTypeIdBuilder_ != null || bundlePricingTypeId_ != null;
@@ -1431,7 +1431,7 @@ public final class OmGetBundlePricingTypesAd {
          * Die ID des "BundlePricingTypes"
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue bundle_pricing_type_id = 10002;</code>
+         * <code>.dstore.values.IntegerValue bundle_pricing_type_id = 10002;</code>
          */
         public io.dstore.values.IntegerValue getBundlePricingTypeId() {
           if (bundlePricingTypeIdBuilder_ == null) {
@@ -1445,7 +1445,7 @@ public final class OmGetBundlePricingTypesAd {
          * Die ID des "BundlePricingTypes"
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue bundle_pricing_type_id = 10002;</code>
+         * <code>.dstore.values.IntegerValue bundle_pricing_type_id = 10002;</code>
          */
         public Builder setBundlePricingTypeId(io.dstore.values.IntegerValue value) {
           if (bundlePricingTypeIdBuilder_ == null) {
@@ -1465,7 +1465,7 @@ public final class OmGetBundlePricingTypesAd {
          * Die ID des "BundlePricingTypes"
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue bundle_pricing_type_id = 10002;</code>
+         * <code>.dstore.values.IntegerValue bundle_pricing_type_id = 10002;</code>
          */
         public Builder setBundlePricingTypeId(
             io.dstore.values.IntegerValue.Builder builderForValue) {
@@ -1483,7 +1483,7 @@ public final class OmGetBundlePricingTypesAd {
          * Die ID des "BundlePricingTypes"
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue bundle_pricing_type_id = 10002;</code>
+         * <code>.dstore.values.IntegerValue bundle_pricing_type_id = 10002;</code>
          */
         public Builder mergeBundlePricingTypeId(io.dstore.values.IntegerValue value) {
           if (bundlePricingTypeIdBuilder_ == null) {
@@ -1505,7 +1505,7 @@ public final class OmGetBundlePricingTypesAd {
          * Die ID des "BundlePricingTypes"
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue bundle_pricing_type_id = 10002;</code>
+         * <code>.dstore.values.IntegerValue bundle_pricing_type_id = 10002;</code>
          */
         public Builder clearBundlePricingTypeId() {
           if (bundlePricingTypeIdBuilder_ == null) {
@@ -1523,7 +1523,7 @@ public final class OmGetBundlePricingTypesAd {
          * Die ID des "BundlePricingTypes"
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue bundle_pricing_type_id = 10002;</code>
+         * <code>.dstore.values.IntegerValue bundle_pricing_type_id = 10002;</code>
          */
         public io.dstore.values.IntegerValue.Builder getBundlePricingTypeIdBuilder() {
           
@@ -1535,7 +1535,7 @@ public final class OmGetBundlePricingTypesAd {
          * Die ID des "BundlePricingTypes"
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue bundle_pricing_type_id = 10002;</code>
+         * <code>.dstore.values.IntegerValue bundle_pricing_type_id = 10002;</code>
          */
         public io.dstore.values.IntegerValueOrBuilder getBundlePricingTypeIdOrBuilder() {
           if (bundlePricingTypeIdBuilder_ != null) {
@@ -1550,7 +1550,7 @@ public final class OmGetBundlePricingTypesAd {
          * Die ID des "BundlePricingTypes"
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue bundle_pricing_type_id = 10002;</code>
+         * <code>.dstore.values.IntegerValue bundle_pricing_type_id = 10002;</code>
          */
         private com.google.protobuf.SingleFieldBuilderV3<
             io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> 
@@ -1574,7 +1574,7 @@ public final class OmGetBundlePricingTypesAd {
          * Die Bezeichnung von "BundlePricingTypeID"
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue bundle_pricing_type = 10003;</code>
+         * <code>.dstore.values.StringValue bundle_pricing_type = 10003;</code>
          */
         public boolean hasBundlePricingType() {
           return bundlePricingTypeBuilder_ != null || bundlePricingType_ != null;
@@ -1584,7 +1584,7 @@ public final class OmGetBundlePricingTypesAd {
          * Die Bezeichnung von "BundlePricingTypeID"
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue bundle_pricing_type = 10003;</code>
+         * <code>.dstore.values.StringValue bundle_pricing_type = 10003;</code>
          */
         public io.dstore.values.StringValue getBundlePricingType() {
           if (bundlePricingTypeBuilder_ == null) {
@@ -1598,7 +1598,7 @@ public final class OmGetBundlePricingTypesAd {
          * Die Bezeichnung von "BundlePricingTypeID"
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue bundle_pricing_type = 10003;</code>
+         * <code>.dstore.values.StringValue bundle_pricing_type = 10003;</code>
          */
         public Builder setBundlePricingType(io.dstore.values.StringValue value) {
           if (bundlePricingTypeBuilder_ == null) {
@@ -1618,7 +1618,7 @@ public final class OmGetBundlePricingTypesAd {
          * Die Bezeichnung von "BundlePricingTypeID"
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue bundle_pricing_type = 10003;</code>
+         * <code>.dstore.values.StringValue bundle_pricing_type = 10003;</code>
          */
         public Builder setBundlePricingType(
             io.dstore.values.StringValue.Builder builderForValue) {
@@ -1636,7 +1636,7 @@ public final class OmGetBundlePricingTypesAd {
          * Die Bezeichnung von "BundlePricingTypeID"
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue bundle_pricing_type = 10003;</code>
+         * <code>.dstore.values.StringValue bundle_pricing_type = 10003;</code>
          */
         public Builder mergeBundlePricingType(io.dstore.values.StringValue value) {
           if (bundlePricingTypeBuilder_ == null) {
@@ -1658,7 +1658,7 @@ public final class OmGetBundlePricingTypesAd {
          * Die Bezeichnung von "BundlePricingTypeID"
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue bundle_pricing_type = 10003;</code>
+         * <code>.dstore.values.StringValue bundle_pricing_type = 10003;</code>
          */
         public Builder clearBundlePricingType() {
           if (bundlePricingTypeBuilder_ == null) {
@@ -1676,7 +1676,7 @@ public final class OmGetBundlePricingTypesAd {
          * Die Bezeichnung von "BundlePricingTypeID"
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue bundle_pricing_type = 10003;</code>
+         * <code>.dstore.values.StringValue bundle_pricing_type = 10003;</code>
          */
         public io.dstore.values.StringValue.Builder getBundlePricingTypeBuilder() {
           
@@ -1688,7 +1688,7 @@ public final class OmGetBundlePricingTypesAd {
          * Die Bezeichnung von "BundlePricingTypeID"
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue bundle_pricing_type = 10003;</code>
+         * <code>.dstore.values.StringValue bundle_pricing_type = 10003;</code>
          */
         public io.dstore.values.StringValueOrBuilder getBundlePricingTypeOrBuilder() {
           if (bundlePricingTypeBuilder_ != null) {
@@ -1703,7 +1703,7 @@ public final class OmGetBundlePricingTypesAd {
          * Die Bezeichnung von "BundlePricingTypeID"
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue bundle_pricing_type = 10003;</code>
+         * <code>.dstore.values.StringValue bundle_pricing_type = 10003;</code>
          */
         private com.google.protobuf.SingleFieldBuilderV3<
             io.dstore.values.StringValue, io.dstore.values.StringValue.Builder, io.dstore.values.StringValueOrBuilder> 
@@ -1963,7 +1963,7 @@ public final class OmGetBundlePricingTypesAd {
         return memoizedHashCode;
       }
       int hash = 41;
-      hash = (19 * hash) + getDescriptorForType().hashCode();
+      hash = (19 * hash) + getDescriptor().hashCode();
       if (getMetaInformationCount() > 0) {
         hash = (37 * hash) + META_INFORMATION_FIELD_NUMBER;
         hash = (53 * hash) + getMetaInformationList().hashCode();

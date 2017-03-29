@@ -19,20 +19,20 @@ public final class MiResetBatchJobAd {
       com.google.protobuf.MessageOrBuilder {
 
     /**
-     * <code>optional .dstore.values.StringValue procedure_name = 1;</code>
+     * <code>.dstore.values.StringValue procedure_name = 1;</code>
      */
     boolean hasProcedureName();
     /**
-     * <code>optional .dstore.values.StringValue procedure_name = 1;</code>
+     * <code>.dstore.values.StringValue procedure_name = 1;</code>
      */
     io.dstore.values.StringValue getProcedureName();
     /**
-     * <code>optional .dstore.values.StringValue procedure_name = 1;</code>
+     * <code>.dstore.values.StringValue procedure_name = 1;</code>
      */
     io.dstore.values.StringValueOrBuilder getProcedureNameOrBuilder();
 
     /**
-     * <code>optional bool procedure_name_null = 1001;</code>
+     * <code>bool procedure_name_null = 1001;</code>
      */
     boolean getProcedureNameNull();
   }
@@ -120,19 +120,19 @@ public final class MiResetBatchJobAd {
     public static final int PROCEDURE_NAME_FIELD_NUMBER = 1;
     private io.dstore.values.StringValue procedureName_;
     /**
-     * <code>optional .dstore.values.StringValue procedure_name = 1;</code>
+     * <code>.dstore.values.StringValue procedure_name = 1;</code>
      */
     public boolean hasProcedureName() {
       return procedureName_ != null;
     }
     /**
-     * <code>optional .dstore.values.StringValue procedure_name = 1;</code>
+     * <code>.dstore.values.StringValue procedure_name = 1;</code>
      */
     public io.dstore.values.StringValue getProcedureName() {
       return procedureName_ == null ? io.dstore.values.StringValue.getDefaultInstance() : procedureName_;
     }
     /**
-     * <code>optional .dstore.values.StringValue procedure_name = 1;</code>
+     * <code>.dstore.values.StringValue procedure_name = 1;</code>
      */
     public io.dstore.values.StringValueOrBuilder getProcedureNameOrBuilder() {
       return getProcedureName();
@@ -141,7 +141,7 @@ public final class MiResetBatchJobAd {
     public static final int PROCEDURE_NAME_NULL_FIELD_NUMBER = 1001;
     private boolean procedureNameNull_;
     /**
-     * <code>optional bool procedure_name_null = 1001;</code>
+     * <code>bool procedure_name_null = 1001;</code>
      */
     public boolean getProcedureNameNull() {
       return procedureNameNull_;
@@ -212,7 +212,7 @@ public final class MiResetBatchJobAd {
         return memoizedHashCode;
       }
       int hash = 41;
-      hash = (19 * hash) + getDescriptorForType().hashCode();
+      hash = (19 * hash) + getDescriptor().hashCode();
       if (hasProcedureName()) {
         hash = (37 * hash) + PROCEDURE_NAME_FIELD_NUMBER;
         hash = (53 * hash) + getProcedureName().hashCode();
@@ -451,13 +451,13 @@ public final class MiResetBatchJobAd {
       private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.values.StringValue, io.dstore.values.StringValue.Builder, io.dstore.values.StringValueOrBuilder> procedureNameBuilder_;
       /**
-       * <code>optional .dstore.values.StringValue procedure_name = 1;</code>
+       * <code>.dstore.values.StringValue procedure_name = 1;</code>
        */
       public boolean hasProcedureName() {
         return procedureNameBuilder_ != null || procedureName_ != null;
       }
       /**
-       * <code>optional .dstore.values.StringValue procedure_name = 1;</code>
+       * <code>.dstore.values.StringValue procedure_name = 1;</code>
        */
       public io.dstore.values.StringValue getProcedureName() {
         if (procedureNameBuilder_ == null) {
@@ -467,7 +467,7 @@ public final class MiResetBatchJobAd {
         }
       }
       /**
-       * <code>optional .dstore.values.StringValue procedure_name = 1;</code>
+       * <code>.dstore.values.StringValue procedure_name = 1;</code>
        */
       public Builder setProcedureName(io.dstore.values.StringValue value) {
         if (procedureNameBuilder_ == null) {
@@ -483,7 +483,7 @@ public final class MiResetBatchJobAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.StringValue procedure_name = 1;</code>
+       * <code>.dstore.values.StringValue procedure_name = 1;</code>
        */
       public Builder setProcedureName(
           io.dstore.values.StringValue.Builder builderForValue) {
@@ -497,7 +497,7 @@ public final class MiResetBatchJobAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.StringValue procedure_name = 1;</code>
+       * <code>.dstore.values.StringValue procedure_name = 1;</code>
        */
       public Builder mergeProcedureName(io.dstore.values.StringValue value) {
         if (procedureNameBuilder_ == null) {
@@ -515,7 +515,7 @@ public final class MiResetBatchJobAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.StringValue procedure_name = 1;</code>
+       * <code>.dstore.values.StringValue procedure_name = 1;</code>
        */
       public Builder clearProcedureName() {
         if (procedureNameBuilder_ == null) {
@@ -529,7 +529,7 @@ public final class MiResetBatchJobAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.StringValue procedure_name = 1;</code>
+       * <code>.dstore.values.StringValue procedure_name = 1;</code>
        */
       public io.dstore.values.StringValue.Builder getProcedureNameBuilder() {
         
@@ -537,7 +537,7 @@ public final class MiResetBatchJobAd {
         return getProcedureNameFieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .dstore.values.StringValue procedure_name = 1;</code>
+       * <code>.dstore.values.StringValue procedure_name = 1;</code>
        */
       public io.dstore.values.StringValueOrBuilder getProcedureNameOrBuilder() {
         if (procedureNameBuilder_ != null) {
@@ -548,7 +548,7 @@ public final class MiResetBatchJobAd {
         }
       }
       /**
-       * <code>optional .dstore.values.StringValue procedure_name = 1;</code>
+       * <code>.dstore.values.StringValue procedure_name = 1;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.values.StringValue, io.dstore.values.StringValue.Builder, io.dstore.values.StringValueOrBuilder> 
@@ -566,13 +566,13 @@ public final class MiResetBatchJobAd {
 
       private boolean procedureNameNull_ ;
       /**
-       * <code>optional bool procedure_name_null = 1001;</code>
+       * <code>bool procedure_name_null = 1001;</code>
        */
       public boolean getProcedureNameNull() {
         return procedureNameNull_;
       }
       /**
-       * <code>optional bool procedure_name_null = 1001;</code>
+       * <code>bool procedure_name_null = 1001;</code>
        */
       public Builder setProcedureNameNull(boolean value) {
         
@@ -581,7 +581,7 @@ public final class MiResetBatchJobAd {
         return this;
       }
       /**
-       * <code>optional bool procedure_name_null = 1001;</code>
+       * <code>bool procedure_name_null = 1001;</code>
        */
       public Builder clearProcedureNameNull() {
         
@@ -840,7 +840,7 @@ public final class MiResetBatchJobAd {
         com.google.protobuf.MessageOrBuilder {
 
       /**
-       * <code>optional int32 row_id = 10000;</code>
+       * <code>int32 row_id = 10000;</code>
        */
       int getRowId();
     }
@@ -915,7 +915,7 @@ public final class MiResetBatchJobAd {
       public static final int ROW_ID_FIELD_NUMBER = 10000;
       private int rowId_;
       /**
-       * <code>optional int32 row_id = 10000;</code>
+       * <code>int32 row_id = 10000;</code>
        */
       public int getRowId() {
         return rowId_;
@@ -974,7 +974,7 @@ public final class MiResetBatchJobAd {
           return memoizedHashCode;
         }
         int hash = 41;
-        hash = (19 * hash) + getDescriptorForType().hashCode();
+        hash = (19 * hash) + getDescriptor().hashCode();
         hash = (37 * hash) + ROW_ID_FIELD_NUMBER;
         hash = (53 * hash) + getRowId();
         hash = (29 * hash) + unknownFields.hashCode();
@@ -1192,13 +1192,13 @@ public final class MiResetBatchJobAd {
 
         private int rowId_ ;
         /**
-         * <code>optional int32 row_id = 10000;</code>
+         * <code>int32 row_id = 10000;</code>
          */
         public int getRowId() {
           return rowId_;
         }
         /**
-         * <code>optional int32 row_id = 10000;</code>
+         * <code>int32 row_id = 10000;</code>
          */
         public Builder setRowId(int value) {
           
@@ -1207,7 +1207,7 @@ public final class MiResetBatchJobAd {
           return this;
         }
         /**
-         * <code>optional int32 row_id = 10000;</code>
+         * <code>int32 row_id = 10000;</code>
          */
         public Builder clearRowId() {
           
@@ -1460,7 +1460,7 @@ public final class MiResetBatchJobAd {
         return memoizedHashCode;
       }
       int hash = 41;
-      hash = (19 * hash) + getDescriptorForType().hashCode();
+      hash = (19 * hash) + getDescriptor().hashCode();
       if (getMetaInformationCount() > 0) {
         hash = (37 * hash) + META_INFORMATION_FIELD_NUMBER;
         hash = (53 * hash) + getMetaInformationList().hashCode();

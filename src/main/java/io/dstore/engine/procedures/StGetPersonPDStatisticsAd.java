@@ -19,128 +19,128 @@ public final class StGetPersonPDStatisticsAd {
       com.google.protobuf.MessageOrBuilder {
 
     /**
-     * <code>optional .dstore.values.StringValue person_ids = 1;</code>
+     * <code>.dstore.values.StringValue person_ids = 1;</code>
      */
     boolean hasPersonIds();
     /**
-     * <code>optional .dstore.values.StringValue person_ids = 1;</code>
+     * <code>.dstore.values.StringValue person_ids = 1;</code>
      */
     io.dstore.values.StringValue getPersonIds();
     /**
-     * <code>optional .dstore.values.StringValue person_ids = 1;</code>
+     * <code>.dstore.values.StringValue person_ids = 1;</code>
      */
     io.dstore.values.StringValueOrBuilder getPersonIdsOrBuilder();
 
     /**
-     * <code>optional bool person_ids_null = 1001;</code>
+     * <code>bool person_ids_null = 1001;</code>
      */
     boolean getPersonIdsNull();
 
     /**
-     * <code>optional .dstore.values.TimestampValue from_date = 2;</code>
+     * <code>.dstore.values.TimestampValue from_date = 2;</code>
      */
     boolean hasFromDate();
     /**
-     * <code>optional .dstore.values.TimestampValue from_date = 2;</code>
+     * <code>.dstore.values.TimestampValue from_date = 2;</code>
      */
     io.dstore.values.TimestampValue getFromDate();
     /**
-     * <code>optional .dstore.values.TimestampValue from_date = 2;</code>
+     * <code>.dstore.values.TimestampValue from_date = 2;</code>
      */
     io.dstore.values.TimestampValueOrBuilder getFromDateOrBuilder();
 
     /**
-     * <code>optional bool from_date_null = 1002;</code>
+     * <code>bool from_date_null = 1002;</code>
      */
     boolean getFromDateNull();
 
     /**
-     * <code>optional .dstore.values.TimestampValue to_date = 3;</code>
+     * <code>.dstore.values.TimestampValue to_date = 3;</code>
      */
     boolean hasToDate();
     /**
-     * <code>optional .dstore.values.TimestampValue to_date = 3;</code>
+     * <code>.dstore.values.TimestampValue to_date = 3;</code>
      */
     io.dstore.values.TimestampValue getToDate();
     /**
-     * <code>optional .dstore.values.TimestampValue to_date = 3;</code>
+     * <code>.dstore.values.TimestampValue to_date = 3;</code>
      */
     io.dstore.values.TimestampValueOrBuilder getToDateOrBuilder();
 
     /**
-     * <code>optional bool to_date_null = 1003;</code>
+     * <code>bool to_date_null = 1003;</code>
      */
     boolean getToDateNull();
 
     /**
-     * <code>optional .dstore.values.StringValue basic_characteristic_numbers = 4;</code>
+     * <code>.dstore.values.StringValue basic_characteristic_numbers = 4;</code>
      */
     boolean hasBasicCharacteristicNumbers();
     /**
-     * <code>optional .dstore.values.StringValue basic_characteristic_numbers = 4;</code>
+     * <code>.dstore.values.StringValue basic_characteristic_numbers = 4;</code>
      */
     io.dstore.values.StringValue getBasicCharacteristicNumbers();
     /**
-     * <code>optional .dstore.values.StringValue basic_characteristic_numbers = 4;</code>
+     * <code>.dstore.values.StringValue basic_characteristic_numbers = 4;</code>
      */
     io.dstore.values.StringValueOrBuilder getBasicCharacteristicNumbersOrBuilder();
 
     /**
-     * <code>optional bool basic_characteristic_numbers_null = 1004;</code>
+     * <code>bool basic_characteristic_numbers_null = 1004;</code>
      */
     boolean getBasicCharacteristicNumbersNull();
 
     /**
-     * <code>optional .dstore.values.StringValue h_tree_node_ids = 5;</code>
+     * <code>.dstore.values.StringValue h_tree_node_ids = 5;</code>
      */
     boolean hasHTreeNodeIds();
     /**
-     * <code>optional .dstore.values.StringValue h_tree_node_ids = 5;</code>
+     * <code>.dstore.values.StringValue h_tree_node_ids = 5;</code>
      */
     io.dstore.values.StringValue getHTreeNodeIds();
     /**
-     * <code>optional .dstore.values.StringValue h_tree_node_ids = 5;</code>
+     * <code>.dstore.values.StringValue h_tree_node_ids = 5;</code>
      */
     io.dstore.values.StringValueOrBuilder getHTreeNodeIdsOrBuilder();
 
     /**
-     * <code>optional bool h_tree_node_ids_null = 1005;</code>
+     * <code>bool h_tree_node_ids_null = 1005;</code>
      */
     boolean getHTreeNodeIdsNull();
 
     /**
-     * <code>optional .dstore.values.BooleanValue summarize_days = 6;</code>
+     * <code>.dstore.values.BooleanValue summarize_days = 6;</code>
      */
     boolean hasSummarizeDays();
     /**
-     * <code>optional .dstore.values.BooleanValue summarize_days = 6;</code>
+     * <code>.dstore.values.BooleanValue summarize_days = 6;</code>
      */
     io.dstore.values.BooleanValue getSummarizeDays();
     /**
-     * <code>optional .dstore.values.BooleanValue summarize_days = 6;</code>
+     * <code>.dstore.values.BooleanValue summarize_days = 6;</code>
      */
     io.dstore.values.BooleanValueOrBuilder getSummarizeDaysOrBuilder();
 
     /**
-     * <code>optional bool summarize_days_null = 1006;</code>
+     * <code>bool summarize_days_null = 1006;</code>
      */
     boolean getSummarizeDaysNull();
 
     /**
-     * <code>optional .dstore.values.IntegerValue get_top_x = 7;</code>
+     * <code>.dstore.values.IntegerValue get_top_x = 7;</code>
      */
     boolean hasGetTopX();
     /**
-     * <code>optional .dstore.values.IntegerValue get_top_x = 7;</code>
+     * <code>.dstore.values.IntegerValue get_top_x = 7;</code>
      */
     io.dstore.values.IntegerValue getGetTopX();
     /**
-     * <code>optional .dstore.values.IntegerValue get_top_x = 7;</code>
+     * <code>.dstore.values.IntegerValue get_top_x = 7;</code>
      */
     io.dstore.values.IntegerValueOrBuilder getGetTopXOrBuilder();
 
     /**
-     * <code>optional bool get_top_x_null = 1007;</code>
+     * <code>bool get_top_x_null = 1007;</code>
      */
     boolean getGetTopXNull();
   }
@@ -342,19 +342,19 @@ public final class StGetPersonPDStatisticsAd {
     public static final int PERSON_IDS_FIELD_NUMBER = 1;
     private io.dstore.values.StringValue personIds_;
     /**
-     * <code>optional .dstore.values.StringValue person_ids = 1;</code>
+     * <code>.dstore.values.StringValue person_ids = 1;</code>
      */
     public boolean hasPersonIds() {
       return personIds_ != null;
     }
     /**
-     * <code>optional .dstore.values.StringValue person_ids = 1;</code>
+     * <code>.dstore.values.StringValue person_ids = 1;</code>
      */
     public io.dstore.values.StringValue getPersonIds() {
       return personIds_ == null ? io.dstore.values.StringValue.getDefaultInstance() : personIds_;
     }
     /**
-     * <code>optional .dstore.values.StringValue person_ids = 1;</code>
+     * <code>.dstore.values.StringValue person_ids = 1;</code>
      */
     public io.dstore.values.StringValueOrBuilder getPersonIdsOrBuilder() {
       return getPersonIds();
@@ -363,7 +363,7 @@ public final class StGetPersonPDStatisticsAd {
     public static final int PERSON_IDS_NULL_FIELD_NUMBER = 1001;
     private boolean personIdsNull_;
     /**
-     * <code>optional bool person_ids_null = 1001;</code>
+     * <code>bool person_ids_null = 1001;</code>
      */
     public boolean getPersonIdsNull() {
       return personIdsNull_;
@@ -372,19 +372,19 @@ public final class StGetPersonPDStatisticsAd {
     public static final int FROM_DATE_FIELD_NUMBER = 2;
     private io.dstore.values.TimestampValue fromDate_;
     /**
-     * <code>optional .dstore.values.TimestampValue from_date = 2;</code>
+     * <code>.dstore.values.TimestampValue from_date = 2;</code>
      */
     public boolean hasFromDate() {
       return fromDate_ != null;
     }
     /**
-     * <code>optional .dstore.values.TimestampValue from_date = 2;</code>
+     * <code>.dstore.values.TimestampValue from_date = 2;</code>
      */
     public io.dstore.values.TimestampValue getFromDate() {
       return fromDate_ == null ? io.dstore.values.TimestampValue.getDefaultInstance() : fromDate_;
     }
     /**
-     * <code>optional .dstore.values.TimestampValue from_date = 2;</code>
+     * <code>.dstore.values.TimestampValue from_date = 2;</code>
      */
     public io.dstore.values.TimestampValueOrBuilder getFromDateOrBuilder() {
       return getFromDate();
@@ -393,7 +393,7 @@ public final class StGetPersonPDStatisticsAd {
     public static final int FROM_DATE_NULL_FIELD_NUMBER = 1002;
     private boolean fromDateNull_;
     /**
-     * <code>optional bool from_date_null = 1002;</code>
+     * <code>bool from_date_null = 1002;</code>
      */
     public boolean getFromDateNull() {
       return fromDateNull_;
@@ -402,19 +402,19 @@ public final class StGetPersonPDStatisticsAd {
     public static final int TO_DATE_FIELD_NUMBER = 3;
     private io.dstore.values.TimestampValue toDate_;
     /**
-     * <code>optional .dstore.values.TimestampValue to_date = 3;</code>
+     * <code>.dstore.values.TimestampValue to_date = 3;</code>
      */
     public boolean hasToDate() {
       return toDate_ != null;
     }
     /**
-     * <code>optional .dstore.values.TimestampValue to_date = 3;</code>
+     * <code>.dstore.values.TimestampValue to_date = 3;</code>
      */
     public io.dstore.values.TimestampValue getToDate() {
       return toDate_ == null ? io.dstore.values.TimestampValue.getDefaultInstance() : toDate_;
     }
     /**
-     * <code>optional .dstore.values.TimestampValue to_date = 3;</code>
+     * <code>.dstore.values.TimestampValue to_date = 3;</code>
      */
     public io.dstore.values.TimestampValueOrBuilder getToDateOrBuilder() {
       return getToDate();
@@ -423,7 +423,7 @@ public final class StGetPersonPDStatisticsAd {
     public static final int TO_DATE_NULL_FIELD_NUMBER = 1003;
     private boolean toDateNull_;
     /**
-     * <code>optional bool to_date_null = 1003;</code>
+     * <code>bool to_date_null = 1003;</code>
      */
     public boolean getToDateNull() {
       return toDateNull_;
@@ -432,19 +432,19 @@ public final class StGetPersonPDStatisticsAd {
     public static final int BASIC_CHARACTERISTIC_NUMBERS_FIELD_NUMBER = 4;
     private io.dstore.values.StringValue basicCharacteristicNumbers_;
     /**
-     * <code>optional .dstore.values.StringValue basic_characteristic_numbers = 4;</code>
+     * <code>.dstore.values.StringValue basic_characteristic_numbers = 4;</code>
      */
     public boolean hasBasicCharacteristicNumbers() {
       return basicCharacteristicNumbers_ != null;
     }
     /**
-     * <code>optional .dstore.values.StringValue basic_characteristic_numbers = 4;</code>
+     * <code>.dstore.values.StringValue basic_characteristic_numbers = 4;</code>
      */
     public io.dstore.values.StringValue getBasicCharacteristicNumbers() {
       return basicCharacteristicNumbers_ == null ? io.dstore.values.StringValue.getDefaultInstance() : basicCharacteristicNumbers_;
     }
     /**
-     * <code>optional .dstore.values.StringValue basic_characteristic_numbers = 4;</code>
+     * <code>.dstore.values.StringValue basic_characteristic_numbers = 4;</code>
      */
     public io.dstore.values.StringValueOrBuilder getBasicCharacteristicNumbersOrBuilder() {
       return getBasicCharacteristicNumbers();
@@ -453,7 +453,7 @@ public final class StGetPersonPDStatisticsAd {
     public static final int BASIC_CHARACTERISTIC_NUMBERS_NULL_FIELD_NUMBER = 1004;
     private boolean basicCharacteristicNumbersNull_;
     /**
-     * <code>optional bool basic_characteristic_numbers_null = 1004;</code>
+     * <code>bool basic_characteristic_numbers_null = 1004;</code>
      */
     public boolean getBasicCharacteristicNumbersNull() {
       return basicCharacteristicNumbersNull_;
@@ -462,19 +462,19 @@ public final class StGetPersonPDStatisticsAd {
     public static final int H_TREE_NODE_IDS_FIELD_NUMBER = 5;
     private io.dstore.values.StringValue hTreeNodeIds_;
     /**
-     * <code>optional .dstore.values.StringValue h_tree_node_ids = 5;</code>
+     * <code>.dstore.values.StringValue h_tree_node_ids = 5;</code>
      */
     public boolean hasHTreeNodeIds() {
       return hTreeNodeIds_ != null;
     }
     /**
-     * <code>optional .dstore.values.StringValue h_tree_node_ids = 5;</code>
+     * <code>.dstore.values.StringValue h_tree_node_ids = 5;</code>
      */
     public io.dstore.values.StringValue getHTreeNodeIds() {
       return hTreeNodeIds_ == null ? io.dstore.values.StringValue.getDefaultInstance() : hTreeNodeIds_;
     }
     /**
-     * <code>optional .dstore.values.StringValue h_tree_node_ids = 5;</code>
+     * <code>.dstore.values.StringValue h_tree_node_ids = 5;</code>
      */
     public io.dstore.values.StringValueOrBuilder getHTreeNodeIdsOrBuilder() {
       return getHTreeNodeIds();
@@ -483,7 +483,7 @@ public final class StGetPersonPDStatisticsAd {
     public static final int H_TREE_NODE_IDS_NULL_FIELD_NUMBER = 1005;
     private boolean hTreeNodeIdsNull_;
     /**
-     * <code>optional bool h_tree_node_ids_null = 1005;</code>
+     * <code>bool h_tree_node_ids_null = 1005;</code>
      */
     public boolean getHTreeNodeIdsNull() {
       return hTreeNodeIdsNull_;
@@ -492,19 +492,19 @@ public final class StGetPersonPDStatisticsAd {
     public static final int SUMMARIZE_DAYS_FIELD_NUMBER = 6;
     private io.dstore.values.BooleanValue summarizeDays_;
     /**
-     * <code>optional .dstore.values.BooleanValue summarize_days = 6;</code>
+     * <code>.dstore.values.BooleanValue summarize_days = 6;</code>
      */
     public boolean hasSummarizeDays() {
       return summarizeDays_ != null;
     }
     /**
-     * <code>optional .dstore.values.BooleanValue summarize_days = 6;</code>
+     * <code>.dstore.values.BooleanValue summarize_days = 6;</code>
      */
     public io.dstore.values.BooleanValue getSummarizeDays() {
       return summarizeDays_ == null ? io.dstore.values.BooleanValue.getDefaultInstance() : summarizeDays_;
     }
     /**
-     * <code>optional .dstore.values.BooleanValue summarize_days = 6;</code>
+     * <code>.dstore.values.BooleanValue summarize_days = 6;</code>
      */
     public io.dstore.values.BooleanValueOrBuilder getSummarizeDaysOrBuilder() {
       return getSummarizeDays();
@@ -513,7 +513,7 @@ public final class StGetPersonPDStatisticsAd {
     public static final int SUMMARIZE_DAYS_NULL_FIELD_NUMBER = 1006;
     private boolean summarizeDaysNull_;
     /**
-     * <code>optional bool summarize_days_null = 1006;</code>
+     * <code>bool summarize_days_null = 1006;</code>
      */
     public boolean getSummarizeDaysNull() {
       return summarizeDaysNull_;
@@ -522,19 +522,19 @@ public final class StGetPersonPDStatisticsAd {
     public static final int GET_TOP_X_FIELD_NUMBER = 7;
     private io.dstore.values.IntegerValue getTopX_;
     /**
-     * <code>optional .dstore.values.IntegerValue get_top_x = 7;</code>
+     * <code>.dstore.values.IntegerValue get_top_x = 7;</code>
      */
     public boolean hasGetTopX() {
       return getTopX_ != null;
     }
     /**
-     * <code>optional .dstore.values.IntegerValue get_top_x = 7;</code>
+     * <code>.dstore.values.IntegerValue get_top_x = 7;</code>
      */
     public io.dstore.values.IntegerValue getGetTopX() {
       return getTopX_ == null ? io.dstore.values.IntegerValue.getDefaultInstance() : getTopX_;
     }
     /**
-     * <code>optional .dstore.values.IntegerValue get_top_x = 7;</code>
+     * <code>.dstore.values.IntegerValue get_top_x = 7;</code>
      */
     public io.dstore.values.IntegerValueOrBuilder getGetTopXOrBuilder() {
       return getGetTopX();
@@ -543,7 +543,7 @@ public final class StGetPersonPDStatisticsAd {
     public static final int GET_TOP_X_NULL_FIELD_NUMBER = 1007;
     private boolean getTopXNull_;
     /**
-     * <code>optional bool get_top_x_null = 1007;</code>
+     * <code>bool get_top_x_null = 1007;</code>
      */
     public boolean getGetTopXNull() {
       return getTopXNull_;
@@ -740,7 +740,7 @@ public final class StGetPersonPDStatisticsAd {
         return memoizedHashCode;
       }
       int hash = 41;
-      hash = (19 * hash) + getDescriptorForType().hashCode();
+      hash = (19 * hash) + getDescriptor().hashCode();
       if (hasPersonIds()) {
         hash = (37 * hash) + PERSON_IDS_FIELD_NUMBER;
         hash = (53 * hash) + getPersonIds().hashCode();
@@ -1141,13 +1141,13 @@ public final class StGetPersonPDStatisticsAd {
       private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.values.StringValue, io.dstore.values.StringValue.Builder, io.dstore.values.StringValueOrBuilder> personIdsBuilder_;
       /**
-       * <code>optional .dstore.values.StringValue person_ids = 1;</code>
+       * <code>.dstore.values.StringValue person_ids = 1;</code>
        */
       public boolean hasPersonIds() {
         return personIdsBuilder_ != null || personIds_ != null;
       }
       /**
-       * <code>optional .dstore.values.StringValue person_ids = 1;</code>
+       * <code>.dstore.values.StringValue person_ids = 1;</code>
        */
       public io.dstore.values.StringValue getPersonIds() {
         if (personIdsBuilder_ == null) {
@@ -1157,7 +1157,7 @@ public final class StGetPersonPDStatisticsAd {
         }
       }
       /**
-       * <code>optional .dstore.values.StringValue person_ids = 1;</code>
+       * <code>.dstore.values.StringValue person_ids = 1;</code>
        */
       public Builder setPersonIds(io.dstore.values.StringValue value) {
         if (personIdsBuilder_ == null) {
@@ -1173,7 +1173,7 @@ public final class StGetPersonPDStatisticsAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.StringValue person_ids = 1;</code>
+       * <code>.dstore.values.StringValue person_ids = 1;</code>
        */
       public Builder setPersonIds(
           io.dstore.values.StringValue.Builder builderForValue) {
@@ -1187,7 +1187,7 @@ public final class StGetPersonPDStatisticsAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.StringValue person_ids = 1;</code>
+       * <code>.dstore.values.StringValue person_ids = 1;</code>
        */
       public Builder mergePersonIds(io.dstore.values.StringValue value) {
         if (personIdsBuilder_ == null) {
@@ -1205,7 +1205,7 @@ public final class StGetPersonPDStatisticsAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.StringValue person_ids = 1;</code>
+       * <code>.dstore.values.StringValue person_ids = 1;</code>
        */
       public Builder clearPersonIds() {
         if (personIdsBuilder_ == null) {
@@ -1219,7 +1219,7 @@ public final class StGetPersonPDStatisticsAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.StringValue person_ids = 1;</code>
+       * <code>.dstore.values.StringValue person_ids = 1;</code>
        */
       public io.dstore.values.StringValue.Builder getPersonIdsBuilder() {
         
@@ -1227,7 +1227,7 @@ public final class StGetPersonPDStatisticsAd {
         return getPersonIdsFieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .dstore.values.StringValue person_ids = 1;</code>
+       * <code>.dstore.values.StringValue person_ids = 1;</code>
        */
       public io.dstore.values.StringValueOrBuilder getPersonIdsOrBuilder() {
         if (personIdsBuilder_ != null) {
@@ -1238,7 +1238,7 @@ public final class StGetPersonPDStatisticsAd {
         }
       }
       /**
-       * <code>optional .dstore.values.StringValue person_ids = 1;</code>
+       * <code>.dstore.values.StringValue person_ids = 1;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.values.StringValue, io.dstore.values.StringValue.Builder, io.dstore.values.StringValueOrBuilder> 
@@ -1256,13 +1256,13 @@ public final class StGetPersonPDStatisticsAd {
 
       private boolean personIdsNull_ ;
       /**
-       * <code>optional bool person_ids_null = 1001;</code>
+       * <code>bool person_ids_null = 1001;</code>
        */
       public boolean getPersonIdsNull() {
         return personIdsNull_;
       }
       /**
-       * <code>optional bool person_ids_null = 1001;</code>
+       * <code>bool person_ids_null = 1001;</code>
        */
       public Builder setPersonIdsNull(boolean value) {
         
@@ -1271,7 +1271,7 @@ public final class StGetPersonPDStatisticsAd {
         return this;
       }
       /**
-       * <code>optional bool person_ids_null = 1001;</code>
+       * <code>bool person_ids_null = 1001;</code>
        */
       public Builder clearPersonIdsNull() {
         
@@ -1284,13 +1284,13 @@ public final class StGetPersonPDStatisticsAd {
       private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.values.TimestampValue, io.dstore.values.TimestampValue.Builder, io.dstore.values.TimestampValueOrBuilder> fromDateBuilder_;
       /**
-       * <code>optional .dstore.values.TimestampValue from_date = 2;</code>
+       * <code>.dstore.values.TimestampValue from_date = 2;</code>
        */
       public boolean hasFromDate() {
         return fromDateBuilder_ != null || fromDate_ != null;
       }
       /**
-       * <code>optional .dstore.values.TimestampValue from_date = 2;</code>
+       * <code>.dstore.values.TimestampValue from_date = 2;</code>
        */
       public io.dstore.values.TimestampValue getFromDate() {
         if (fromDateBuilder_ == null) {
@@ -1300,7 +1300,7 @@ public final class StGetPersonPDStatisticsAd {
         }
       }
       /**
-       * <code>optional .dstore.values.TimestampValue from_date = 2;</code>
+       * <code>.dstore.values.TimestampValue from_date = 2;</code>
        */
       public Builder setFromDate(io.dstore.values.TimestampValue value) {
         if (fromDateBuilder_ == null) {
@@ -1316,7 +1316,7 @@ public final class StGetPersonPDStatisticsAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.TimestampValue from_date = 2;</code>
+       * <code>.dstore.values.TimestampValue from_date = 2;</code>
        */
       public Builder setFromDate(
           io.dstore.values.TimestampValue.Builder builderForValue) {
@@ -1330,7 +1330,7 @@ public final class StGetPersonPDStatisticsAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.TimestampValue from_date = 2;</code>
+       * <code>.dstore.values.TimestampValue from_date = 2;</code>
        */
       public Builder mergeFromDate(io.dstore.values.TimestampValue value) {
         if (fromDateBuilder_ == null) {
@@ -1348,7 +1348,7 @@ public final class StGetPersonPDStatisticsAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.TimestampValue from_date = 2;</code>
+       * <code>.dstore.values.TimestampValue from_date = 2;</code>
        */
       public Builder clearFromDate() {
         if (fromDateBuilder_ == null) {
@@ -1362,7 +1362,7 @@ public final class StGetPersonPDStatisticsAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.TimestampValue from_date = 2;</code>
+       * <code>.dstore.values.TimestampValue from_date = 2;</code>
        */
       public io.dstore.values.TimestampValue.Builder getFromDateBuilder() {
         
@@ -1370,7 +1370,7 @@ public final class StGetPersonPDStatisticsAd {
         return getFromDateFieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .dstore.values.TimestampValue from_date = 2;</code>
+       * <code>.dstore.values.TimestampValue from_date = 2;</code>
        */
       public io.dstore.values.TimestampValueOrBuilder getFromDateOrBuilder() {
         if (fromDateBuilder_ != null) {
@@ -1381,7 +1381,7 @@ public final class StGetPersonPDStatisticsAd {
         }
       }
       /**
-       * <code>optional .dstore.values.TimestampValue from_date = 2;</code>
+       * <code>.dstore.values.TimestampValue from_date = 2;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.values.TimestampValue, io.dstore.values.TimestampValue.Builder, io.dstore.values.TimestampValueOrBuilder> 
@@ -1399,13 +1399,13 @@ public final class StGetPersonPDStatisticsAd {
 
       private boolean fromDateNull_ ;
       /**
-       * <code>optional bool from_date_null = 1002;</code>
+       * <code>bool from_date_null = 1002;</code>
        */
       public boolean getFromDateNull() {
         return fromDateNull_;
       }
       /**
-       * <code>optional bool from_date_null = 1002;</code>
+       * <code>bool from_date_null = 1002;</code>
        */
       public Builder setFromDateNull(boolean value) {
         
@@ -1414,7 +1414,7 @@ public final class StGetPersonPDStatisticsAd {
         return this;
       }
       /**
-       * <code>optional bool from_date_null = 1002;</code>
+       * <code>bool from_date_null = 1002;</code>
        */
       public Builder clearFromDateNull() {
         
@@ -1427,13 +1427,13 @@ public final class StGetPersonPDStatisticsAd {
       private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.values.TimestampValue, io.dstore.values.TimestampValue.Builder, io.dstore.values.TimestampValueOrBuilder> toDateBuilder_;
       /**
-       * <code>optional .dstore.values.TimestampValue to_date = 3;</code>
+       * <code>.dstore.values.TimestampValue to_date = 3;</code>
        */
       public boolean hasToDate() {
         return toDateBuilder_ != null || toDate_ != null;
       }
       /**
-       * <code>optional .dstore.values.TimestampValue to_date = 3;</code>
+       * <code>.dstore.values.TimestampValue to_date = 3;</code>
        */
       public io.dstore.values.TimestampValue getToDate() {
         if (toDateBuilder_ == null) {
@@ -1443,7 +1443,7 @@ public final class StGetPersonPDStatisticsAd {
         }
       }
       /**
-       * <code>optional .dstore.values.TimestampValue to_date = 3;</code>
+       * <code>.dstore.values.TimestampValue to_date = 3;</code>
        */
       public Builder setToDate(io.dstore.values.TimestampValue value) {
         if (toDateBuilder_ == null) {
@@ -1459,7 +1459,7 @@ public final class StGetPersonPDStatisticsAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.TimestampValue to_date = 3;</code>
+       * <code>.dstore.values.TimestampValue to_date = 3;</code>
        */
       public Builder setToDate(
           io.dstore.values.TimestampValue.Builder builderForValue) {
@@ -1473,7 +1473,7 @@ public final class StGetPersonPDStatisticsAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.TimestampValue to_date = 3;</code>
+       * <code>.dstore.values.TimestampValue to_date = 3;</code>
        */
       public Builder mergeToDate(io.dstore.values.TimestampValue value) {
         if (toDateBuilder_ == null) {
@@ -1491,7 +1491,7 @@ public final class StGetPersonPDStatisticsAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.TimestampValue to_date = 3;</code>
+       * <code>.dstore.values.TimestampValue to_date = 3;</code>
        */
       public Builder clearToDate() {
         if (toDateBuilder_ == null) {
@@ -1505,7 +1505,7 @@ public final class StGetPersonPDStatisticsAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.TimestampValue to_date = 3;</code>
+       * <code>.dstore.values.TimestampValue to_date = 3;</code>
        */
       public io.dstore.values.TimestampValue.Builder getToDateBuilder() {
         
@@ -1513,7 +1513,7 @@ public final class StGetPersonPDStatisticsAd {
         return getToDateFieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .dstore.values.TimestampValue to_date = 3;</code>
+       * <code>.dstore.values.TimestampValue to_date = 3;</code>
        */
       public io.dstore.values.TimestampValueOrBuilder getToDateOrBuilder() {
         if (toDateBuilder_ != null) {
@@ -1524,7 +1524,7 @@ public final class StGetPersonPDStatisticsAd {
         }
       }
       /**
-       * <code>optional .dstore.values.TimestampValue to_date = 3;</code>
+       * <code>.dstore.values.TimestampValue to_date = 3;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.values.TimestampValue, io.dstore.values.TimestampValue.Builder, io.dstore.values.TimestampValueOrBuilder> 
@@ -1542,13 +1542,13 @@ public final class StGetPersonPDStatisticsAd {
 
       private boolean toDateNull_ ;
       /**
-       * <code>optional bool to_date_null = 1003;</code>
+       * <code>bool to_date_null = 1003;</code>
        */
       public boolean getToDateNull() {
         return toDateNull_;
       }
       /**
-       * <code>optional bool to_date_null = 1003;</code>
+       * <code>bool to_date_null = 1003;</code>
        */
       public Builder setToDateNull(boolean value) {
         
@@ -1557,7 +1557,7 @@ public final class StGetPersonPDStatisticsAd {
         return this;
       }
       /**
-       * <code>optional bool to_date_null = 1003;</code>
+       * <code>bool to_date_null = 1003;</code>
        */
       public Builder clearToDateNull() {
         
@@ -1570,13 +1570,13 @@ public final class StGetPersonPDStatisticsAd {
       private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.values.StringValue, io.dstore.values.StringValue.Builder, io.dstore.values.StringValueOrBuilder> basicCharacteristicNumbersBuilder_;
       /**
-       * <code>optional .dstore.values.StringValue basic_characteristic_numbers = 4;</code>
+       * <code>.dstore.values.StringValue basic_characteristic_numbers = 4;</code>
        */
       public boolean hasBasicCharacteristicNumbers() {
         return basicCharacteristicNumbersBuilder_ != null || basicCharacteristicNumbers_ != null;
       }
       /**
-       * <code>optional .dstore.values.StringValue basic_characteristic_numbers = 4;</code>
+       * <code>.dstore.values.StringValue basic_characteristic_numbers = 4;</code>
        */
       public io.dstore.values.StringValue getBasicCharacteristicNumbers() {
         if (basicCharacteristicNumbersBuilder_ == null) {
@@ -1586,7 +1586,7 @@ public final class StGetPersonPDStatisticsAd {
         }
       }
       /**
-       * <code>optional .dstore.values.StringValue basic_characteristic_numbers = 4;</code>
+       * <code>.dstore.values.StringValue basic_characteristic_numbers = 4;</code>
        */
       public Builder setBasicCharacteristicNumbers(io.dstore.values.StringValue value) {
         if (basicCharacteristicNumbersBuilder_ == null) {
@@ -1602,7 +1602,7 @@ public final class StGetPersonPDStatisticsAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.StringValue basic_characteristic_numbers = 4;</code>
+       * <code>.dstore.values.StringValue basic_characteristic_numbers = 4;</code>
        */
       public Builder setBasicCharacteristicNumbers(
           io.dstore.values.StringValue.Builder builderForValue) {
@@ -1616,7 +1616,7 @@ public final class StGetPersonPDStatisticsAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.StringValue basic_characteristic_numbers = 4;</code>
+       * <code>.dstore.values.StringValue basic_characteristic_numbers = 4;</code>
        */
       public Builder mergeBasicCharacteristicNumbers(io.dstore.values.StringValue value) {
         if (basicCharacteristicNumbersBuilder_ == null) {
@@ -1634,7 +1634,7 @@ public final class StGetPersonPDStatisticsAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.StringValue basic_characteristic_numbers = 4;</code>
+       * <code>.dstore.values.StringValue basic_characteristic_numbers = 4;</code>
        */
       public Builder clearBasicCharacteristicNumbers() {
         if (basicCharacteristicNumbersBuilder_ == null) {
@@ -1648,7 +1648,7 @@ public final class StGetPersonPDStatisticsAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.StringValue basic_characteristic_numbers = 4;</code>
+       * <code>.dstore.values.StringValue basic_characteristic_numbers = 4;</code>
        */
       public io.dstore.values.StringValue.Builder getBasicCharacteristicNumbersBuilder() {
         
@@ -1656,7 +1656,7 @@ public final class StGetPersonPDStatisticsAd {
         return getBasicCharacteristicNumbersFieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .dstore.values.StringValue basic_characteristic_numbers = 4;</code>
+       * <code>.dstore.values.StringValue basic_characteristic_numbers = 4;</code>
        */
       public io.dstore.values.StringValueOrBuilder getBasicCharacteristicNumbersOrBuilder() {
         if (basicCharacteristicNumbersBuilder_ != null) {
@@ -1667,7 +1667,7 @@ public final class StGetPersonPDStatisticsAd {
         }
       }
       /**
-       * <code>optional .dstore.values.StringValue basic_characteristic_numbers = 4;</code>
+       * <code>.dstore.values.StringValue basic_characteristic_numbers = 4;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.values.StringValue, io.dstore.values.StringValue.Builder, io.dstore.values.StringValueOrBuilder> 
@@ -1685,13 +1685,13 @@ public final class StGetPersonPDStatisticsAd {
 
       private boolean basicCharacteristicNumbersNull_ ;
       /**
-       * <code>optional bool basic_characteristic_numbers_null = 1004;</code>
+       * <code>bool basic_characteristic_numbers_null = 1004;</code>
        */
       public boolean getBasicCharacteristicNumbersNull() {
         return basicCharacteristicNumbersNull_;
       }
       /**
-       * <code>optional bool basic_characteristic_numbers_null = 1004;</code>
+       * <code>bool basic_characteristic_numbers_null = 1004;</code>
        */
       public Builder setBasicCharacteristicNumbersNull(boolean value) {
         
@@ -1700,7 +1700,7 @@ public final class StGetPersonPDStatisticsAd {
         return this;
       }
       /**
-       * <code>optional bool basic_characteristic_numbers_null = 1004;</code>
+       * <code>bool basic_characteristic_numbers_null = 1004;</code>
        */
       public Builder clearBasicCharacteristicNumbersNull() {
         
@@ -1713,13 +1713,13 @@ public final class StGetPersonPDStatisticsAd {
       private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.values.StringValue, io.dstore.values.StringValue.Builder, io.dstore.values.StringValueOrBuilder> hTreeNodeIdsBuilder_;
       /**
-       * <code>optional .dstore.values.StringValue h_tree_node_ids = 5;</code>
+       * <code>.dstore.values.StringValue h_tree_node_ids = 5;</code>
        */
       public boolean hasHTreeNodeIds() {
         return hTreeNodeIdsBuilder_ != null || hTreeNodeIds_ != null;
       }
       /**
-       * <code>optional .dstore.values.StringValue h_tree_node_ids = 5;</code>
+       * <code>.dstore.values.StringValue h_tree_node_ids = 5;</code>
        */
       public io.dstore.values.StringValue getHTreeNodeIds() {
         if (hTreeNodeIdsBuilder_ == null) {
@@ -1729,7 +1729,7 @@ public final class StGetPersonPDStatisticsAd {
         }
       }
       /**
-       * <code>optional .dstore.values.StringValue h_tree_node_ids = 5;</code>
+       * <code>.dstore.values.StringValue h_tree_node_ids = 5;</code>
        */
       public Builder setHTreeNodeIds(io.dstore.values.StringValue value) {
         if (hTreeNodeIdsBuilder_ == null) {
@@ -1745,7 +1745,7 @@ public final class StGetPersonPDStatisticsAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.StringValue h_tree_node_ids = 5;</code>
+       * <code>.dstore.values.StringValue h_tree_node_ids = 5;</code>
        */
       public Builder setHTreeNodeIds(
           io.dstore.values.StringValue.Builder builderForValue) {
@@ -1759,7 +1759,7 @@ public final class StGetPersonPDStatisticsAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.StringValue h_tree_node_ids = 5;</code>
+       * <code>.dstore.values.StringValue h_tree_node_ids = 5;</code>
        */
       public Builder mergeHTreeNodeIds(io.dstore.values.StringValue value) {
         if (hTreeNodeIdsBuilder_ == null) {
@@ -1777,7 +1777,7 @@ public final class StGetPersonPDStatisticsAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.StringValue h_tree_node_ids = 5;</code>
+       * <code>.dstore.values.StringValue h_tree_node_ids = 5;</code>
        */
       public Builder clearHTreeNodeIds() {
         if (hTreeNodeIdsBuilder_ == null) {
@@ -1791,7 +1791,7 @@ public final class StGetPersonPDStatisticsAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.StringValue h_tree_node_ids = 5;</code>
+       * <code>.dstore.values.StringValue h_tree_node_ids = 5;</code>
        */
       public io.dstore.values.StringValue.Builder getHTreeNodeIdsBuilder() {
         
@@ -1799,7 +1799,7 @@ public final class StGetPersonPDStatisticsAd {
         return getHTreeNodeIdsFieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .dstore.values.StringValue h_tree_node_ids = 5;</code>
+       * <code>.dstore.values.StringValue h_tree_node_ids = 5;</code>
        */
       public io.dstore.values.StringValueOrBuilder getHTreeNodeIdsOrBuilder() {
         if (hTreeNodeIdsBuilder_ != null) {
@@ -1810,7 +1810,7 @@ public final class StGetPersonPDStatisticsAd {
         }
       }
       /**
-       * <code>optional .dstore.values.StringValue h_tree_node_ids = 5;</code>
+       * <code>.dstore.values.StringValue h_tree_node_ids = 5;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.values.StringValue, io.dstore.values.StringValue.Builder, io.dstore.values.StringValueOrBuilder> 
@@ -1828,13 +1828,13 @@ public final class StGetPersonPDStatisticsAd {
 
       private boolean hTreeNodeIdsNull_ ;
       /**
-       * <code>optional bool h_tree_node_ids_null = 1005;</code>
+       * <code>bool h_tree_node_ids_null = 1005;</code>
        */
       public boolean getHTreeNodeIdsNull() {
         return hTreeNodeIdsNull_;
       }
       /**
-       * <code>optional bool h_tree_node_ids_null = 1005;</code>
+       * <code>bool h_tree_node_ids_null = 1005;</code>
        */
       public Builder setHTreeNodeIdsNull(boolean value) {
         
@@ -1843,7 +1843,7 @@ public final class StGetPersonPDStatisticsAd {
         return this;
       }
       /**
-       * <code>optional bool h_tree_node_ids_null = 1005;</code>
+       * <code>bool h_tree_node_ids_null = 1005;</code>
        */
       public Builder clearHTreeNodeIdsNull() {
         
@@ -1856,13 +1856,13 @@ public final class StGetPersonPDStatisticsAd {
       private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.values.BooleanValue, io.dstore.values.BooleanValue.Builder, io.dstore.values.BooleanValueOrBuilder> summarizeDaysBuilder_;
       /**
-       * <code>optional .dstore.values.BooleanValue summarize_days = 6;</code>
+       * <code>.dstore.values.BooleanValue summarize_days = 6;</code>
        */
       public boolean hasSummarizeDays() {
         return summarizeDaysBuilder_ != null || summarizeDays_ != null;
       }
       /**
-       * <code>optional .dstore.values.BooleanValue summarize_days = 6;</code>
+       * <code>.dstore.values.BooleanValue summarize_days = 6;</code>
        */
       public io.dstore.values.BooleanValue getSummarizeDays() {
         if (summarizeDaysBuilder_ == null) {
@@ -1872,7 +1872,7 @@ public final class StGetPersonPDStatisticsAd {
         }
       }
       /**
-       * <code>optional .dstore.values.BooleanValue summarize_days = 6;</code>
+       * <code>.dstore.values.BooleanValue summarize_days = 6;</code>
        */
       public Builder setSummarizeDays(io.dstore.values.BooleanValue value) {
         if (summarizeDaysBuilder_ == null) {
@@ -1888,7 +1888,7 @@ public final class StGetPersonPDStatisticsAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.BooleanValue summarize_days = 6;</code>
+       * <code>.dstore.values.BooleanValue summarize_days = 6;</code>
        */
       public Builder setSummarizeDays(
           io.dstore.values.BooleanValue.Builder builderForValue) {
@@ -1902,7 +1902,7 @@ public final class StGetPersonPDStatisticsAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.BooleanValue summarize_days = 6;</code>
+       * <code>.dstore.values.BooleanValue summarize_days = 6;</code>
        */
       public Builder mergeSummarizeDays(io.dstore.values.BooleanValue value) {
         if (summarizeDaysBuilder_ == null) {
@@ -1920,7 +1920,7 @@ public final class StGetPersonPDStatisticsAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.BooleanValue summarize_days = 6;</code>
+       * <code>.dstore.values.BooleanValue summarize_days = 6;</code>
        */
       public Builder clearSummarizeDays() {
         if (summarizeDaysBuilder_ == null) {
@@ -1934,7 +1934,7 @@ public final class StGetPersonPDStatisticsAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.BooleanValue summarize_days = 6;</code>
+       * <code>.dstore.values.BooleanValue summarize_days = 6;</code>
        */
       public io.dstore.values.BooleanValue.Builder getSummarizeDaysBuilder() {
         
@@ -1942,7 +1942,7 @@ public final class StGetPersonPDStatisticsAd {
         return getSummarizeDaysFieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .dstore.values.BooleanValue summarize_days = 6;</code>
+       * <code>.dstore.values.BooleanValue summarize_days = 6;</code>
        */
       public io.dstore.values.BooleanValueOrBuilder getSummarizeDaysOrBuilder() {
         if (summarizeDaysBuilder_ != null) {
@@ -1953,7 +1953,7 @@ public final class StGetPersonPDStatisticsAd {
         }
       }
       /**
-       * <code>optional .dstore.values.BooleanValue summarize_days = 6;</code>
+       * <code>.dstore.values.BooleanValue summarize_days = 6;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.values.BooleanValue, io.dstore.values.BooleanValue.Builder, io.dstore.values.BooleanValueOrBuilder> 
@@ -1971,13 +1971,13 @@ public final class StGetPersonPDStatisticsAd {
 
       private boolean summarizeDaysNull_ ;
       /**
-       * <code>optional bool summarize_days_null = 1006;</code>
+       * <code>bool summarize_days_null = 1006;</code>
        */
       public boolean getSummarizeDaysNull() {
         return summarizeDaysNull_;
       }
       /**
-       * <code>optional bool summarize_days_null = 1006;</code>
+       * <code>bool summarize_days_null = 1006;</code>
        */
       public Builder setSummarizeDaysNull(boolean value) {
         
@@ -1986,7 +1986,7 @@ public final class StGetPersonPDStatisticsAd {
         return this;
       }
       /**
-       * <code>optional bool summarize_days_null = 1006;</code>
+       * <code>bool summarize_days_null = 1006;</code>
        */
       public Builder clearSummarizeDaysNull() {
         
@@ -1999,13 +1999,13 @@ public final class StGetPersonPDStatisticsAd {
       private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> getTopXBuilder_;
       /**
-       * <code>optional .dstore.values.IntegerValue get_top_x = 7;</code>
+       * <code>.dstore.values.IntegerValue get_top_x = 7;</code>
        */
       public boolean hasGetTopX() {
         return getTopXBuilder_ != null || getTopX_ != null;
       }
       /**
-       * <code>optional .dstore.values.IntegerValue get_top_x = 7;</code>
+       * <code>.dstore.values.IntegerValue get_top_x = 7;</code>
        */
       public io.dstore.values.IntegerValue getGetTopX() {
         if (getTopXBuilder_ == null) {
@@ -2015,7 +2015,7 @@ public final class StGetPersonPDStatisticsAd {
         }
       }
       /**
-       * <code>optional .dstore.values.IntegerValue get_top_x = 7;</code>
+       * <code>.dstore.values.IntegerValue get_top_x = 7;</code>
        */
       public Builder setGetTopX(io.dstore.values.IntegerValue value) {
         if (getTopXBuilder_ == null) {
@@ -2031,7 +2031,7 @@ public final class StGetPersonPDStatisticsAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.IntegerValue get_top_x = 7;</code>
+       * <code>.dstore.values.IntegerValue get_top_x = 7;</code>
        */
       public Builder setGetTopX(
           io.dstore.values.IntegerValue.Builder builderForValue) {
@@ -2045,7 +2045,7 @@ public final class StGetPersonPDStatisticsAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.IntegerValue get_top_x = 7;</code>
+       * <code>.dstore.values.IntegerValue get_top_x = 7;</code>
        */
       public Builder mergeGetTopX(io.dstore.values.IntegerValue value) {
         if (getTopXBuilder_ == null) {
@@ -2063,7 +2063,7 @@ public final class StGetPersonPDStatisticsAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.IntegerValue get_top_x = 7;</code>
+       * <code>.dstore.values.IntegerValue get_top_x = 7;</code>
        */
       public Builder clearGetTopX() {
         if (getTopXBuilder_ == null) {
@@ -2077,7 +2077,7 @@ public final class StGetPersonPDStatisticsAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.IntegerValue get_top_x = 7;</code>
+       * <code>.dstore.values.IntegerValue get_top_x = 7;</code>
        */
       public io.dstore.values.IntegerValue.Builder getGetTopXBuilder() {
         
@@ -2085,7 +2085,7 @@ public final class StGetPersonPDStatisticsAd {
         return getGetTopXFieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .dstore.values.IntegerValue get_top_x = 7;</code>
+       * <code>.dstore.values.IntegerValue get_top_x = 7;</code>
        */
       public io.dstore.values.IntegerValueOrBuilder getGetTopXOrBuilder() {
         if (getTopXBuilder_ != null) {
@@ -2096,7 +2096,7 @@ public final class StGetPersonPDStatisticsAd {
         }
       }
       /**
-       * <code>optional .dstore.values.IntegerValue get_top_x = 7;</code>
+       * <code>.dstore.values.IntegerValue get_top_x = 7;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> 
@@ -2114,13 +2114,13 @@ public final class StGetPersonPDStatisticsAd {
 
       private boolean getTopXNull_ ;
       /**
-       * <code>optional bool get_top_x_null = 1007;</code>
+       * <code>bool get_top_x_null = 1007;</code>
        */
       public boolean getGetTopXNull() {
         return getTopXNull_;
       }
       /**
-       * <code>optional bool get_top_x_null = 1007;</code>
+       * <code>bool get_top_x_null = 1007;</code>
        */
       public Builder setGetTopXNull(boolean value) {
         
@@ -2129,7 +2129,7 @@ public final class StGetPersonPDStatisticsAd {
         return this;
       }
       /**
-       * <code>optional bool get_top_x_null = 1007;</code>
+       * <code>bool get_top_x_null = 1007;</code>
        */
       public Builder clearGetTopXNull() {
         
@@ -2388,7 +2388,7 @@ public final class StGetPersonPDStatisticsAd {
         com.google.protobuf.MessageOrBuilder {
 
       /**
-       * <code>optional int32 row_id = 10000;</code>
+       * <code>int32 row_id = 10000;</code>
        */
       int getRowId();
 
@@ -2397,7 +2397,7 @@ public final class StGetPersonPDStatisticsAd {
        * Was enthält "Value1" (womöglich wegen Zugriffsbeschränkungen nur einen Teil) ?- NULL : den vollständigen Wert- "#left(&lt;n&gt;)#" : nur die ERSTEN n Zeichen- "#right(&lt;n&gt;)#" : nur die LETZTEN n ZeichenAnmerkung : "n = 0" möglich, "Value1" ist dann NULL
        * </pre>
        *
-       * <code>optional .dstore.values.StringValue value1_restricted_by_pattern = 10001;</code>
+       * <code>.dstore.values.StringValue value1_restricted_by_pattern = 10001;</code>
        */
       boolean hasValue1RestrictedByPattern();
       /**
@@ -2405,7 +2405,7 @@ public final class StGetPersonPDStatisticsAd {
        * Was enthält "Value1" (womöglich wegen Zugriffsbeschränkungen nur einen Teil) ?- NULL : den vollständigen Wert- "#left(&lt;n&gt;)#" : nur die ERSTEN n Zeichen- "#right(&lt;n&gt;)#" : nur die LETZTEN n ZeichenAnmerkung : "n = 0" möglich, "Value1" ist dann NULL
        * </pre>
        *
-       * <code>optional .dstore.values.StringValue value1_restricted_by_pattern = 10001;</code>
+       * <code>.dstore.values.StringValue value1_restricted_by_pattern = 10001;</code>
        */
       io.dstore.values.StringValue getValue1RestrictedByPattern();
       /**
@@ -2413,7 +2413,7 @@ public final class StGetPersonPDStatisticsAd {
        * Was enthält "Value1" (womöglich wegen Zugriffsbeschränkungen nur einen Teil) ?- NULL : den vollständigen Wert- "#left(&lt;n&gt;)#" : nur die ERSTEN n Zeichen- "#right(&lt;n&gt;)#" : nur die LETZTEN n ZeichenAnmerkung : "n = 0" möglich, "Value1" ist dann NULL
        * </pre>
        *
-       * <code>optional .dstore.values.StringValue value1_restricted_by_pattern = 10001;</code>
+       * <code>.dstore.values.StringValue value1_restricted_by_pattern = 10001;</code>
        */
       io.dstore.values.StringValueOrBuilder getValue1RestrictedByPatternOrBuilder();
 
@@ -2422,7 +2422,7 @@ public final class StGetPersonPDStatisticsAd {
        * Wie "Value1RestrictedByPattern" - nur eben auf "Value2" bezogen
        * </pre>
        *
-       * <code>optional .dstore.values.StringValue value2_restricted_by_pattern = 10002;</code>
+       * <code>.dstore.values.StringValue value2_restricted_by_pattern = 10002;</code>
        */
       boolean hasValue2RestrictedByPattern();
       /**
@@ -2430,7 +2430,7 @@ public final class StGetPersonPDStatisticsAd {
        * Wie "Value1RestrictedByPattern" - nur eben auf "Value2" bezogen
        * </pre>
        *
-       * <code>optional .dstore.values.StringValue value2_restricted_by_pattern = 10002;</code>
+       * <code>.dstore.values.StringValue value2_restricted_by_pattern = 10002;</code>
        */
       io.dstore.values.StringValue getValue2RestrictedByPattern();
       /**
@@ -2438,7 +2438,7 @@ public final class StGetPersonPDStatisticsAd {
        * Wie "Value1RestrictedByPattern" - nur eben auf "Value2" bezogen
        * </pre>
        *
-       * <code>optional .dstore.values.StringValue value2_restricted_by_pattern = 10002;</code>
+       * <code>.dstore.values.StringValue value2_restricted_by_pattern = 10002;</code>
        */
       io.dstore.values.StringValueOrBuilder getValue2RestrictedByPatternOrBuilder();
 
@@ -2447,7 +2447,7 @@ public final class StGetPersonPDStatisticsAd {
        * Summe der GESAMTEN Einträge, also inkl. indirekter Einträge, zur Person "PersonID" für das Element "HTreeNodeID" zur Basis-Kennzahl "BasicCharacteristicNumber" des Tages "Day" bzw. (falls "&#64;SummarizeDays = 1") im gesamten Zeitraum "&#64;FromDay" bis "&#64;ToDay"
        * </pre>
        *
-       * <code>optional .dstore.values.DecimalValue total_value = 10003;</code>
+       * <code>.dstore.values.DecimalValue total_value = 10003;</code>
        */
       boolean hasTotalValue();
       /**
@@ -2455,7 +2455,7 @@ public final class StGetPersonPDStatisticsAd {
        * Summe der GESAMTEN Einträge, also inkl. indirekter Einträge, zur Person "PersonID" für das Element "HTreeNodeID" zur Basis-Kennzahl "BasicCharacteristicNumber" des Tages "Day" bzw. (falls "&#64;SummarizeDays = 1") im gesamten Zeitraum "&#64;FromDay" bis "&#64;ToDay"
        * </pre>
        *
-       * <code>optional .dstore.values.DecimalValue total_value = 10003;</code>
+       * <code>.dstore.values.DecimalValue total_value = 10003;</code>
        */
       io.dstore.values.DecimalValue getTotalValue();
       /**
@@ -2463,7 +2463,7 @@ public final class StGetPersonPDStatisticsAd {
        * Summe der GESAMTEN Einträge, also inkl. indirekter Einträge, zur Person "PersonID" für das Element "HTreeNodeID" zur Basis-Kennzahl "BasicCharacteristicNumber" des Tages "Day" bzw. (falls "&#64;SummarizeDays = 1") im gesamten Zeitraum "&#64;FromDay" bis "&#64;ToDay"
        * </pre>
        *
-       * <code>optional .dstore.values.DecimalValue total_value = 10003;</code>
+       * <code>.dstore.values.DecimalValue total_value = 10003;</code>
        */
       io.dstore.values.DecimalValueOrBuilder getTotalValueOrBuilder();
 
@@ -2472,7 +2472,7 @@ public final class StGetPersonPDStatisticsAd {
        * ID einer Person
        * </pre>
        *
-       * <code>optional .dstore.values.IntegerValue person_id = 10004;</code>
+       * <code>.dstore.values.IntegerValue person_id = 10004;</code>
        */
       boolean hasPersonId();
       /**
@@ -2480,7 +2480,7 @@ public final class StGetPersonPDStatisticsAd {
        * ID einer Person
        * </pre>
        *
-       * <code>optional .dstore.values.IntegerValue person_id = 10004;</code>
+       * <code>.dstore.values.IntegerValue person_id = 10004;</code>
        */
       io.dstore.values.IntegerValue getPersonId();
       /**
@@ -2488,7 +2488,7 @@ public final class StGetPersonPDStatisticsAd {
        * ID einer Person
        * </pre>
        *
-       * <code>optional .dstore.values.IntegerValue person_id = 10004;</code>
+       * <code>.dstore.values.IntegerValue person_id = 10004;</code>
        */
       io.dstore.values.IntegerValueOrBuilder getPersonIdOrBuilder();
 
@@ -2497,7 +2497,7 @@ public final class StGetPersonPDStatisticsAd {
        * ID eines Elementes aus "HistoryTreeView" (in dieser ist die Historie des gesamten Artikelbaums abgebildet)
        * </pre>
        *
-       * <code>optional .dstore.values.IntegerValue h_tree_node_id = 10005;</code>
+       * <code>.dstore.values.IntegerValue h_tree_node_id = 10005;</code>
        */
       boolean hasHTreeNodeId();
       /**
@@ -2505,7 +2505,7 @@ public final class StGetPersonPDStatisticsAd {
        * ID eines Elementes aus "HistoryTreeView" (in dieser ist die Historie des gesamten Artikelbaums abgebildet)
        * </pre>
        *
-       * <code>optional .dstore.values.IntegerValue h_tree_node_id = 10005;</code>
+       * <code>.dstore.values.IntegerValue h_tree_node_id = 10005;</code>
        */
       io.dstore.values.IntegerValue getHTreeNodeId();
       /**
@@ -2513,7 +2513,7 @@ public final class StGetPersonPDStatisticsAd {
        * ID eines Elementes aus "HistoryTreeView" (in dieser ist die Historie des gesamten Artikelbaums abgebildet)
        * </pre>
        *
-       * <code>optional .dstore.values.IntegerValue h_tree_node_id = 10005;</code>
+       * <code>.dstore.values.IntegerValue h_tree_node_id = 10005;</code>
        */
       io.dstore.values.IntegerValueOrBuilder getHTreeNodeIdOrBuilder();
 
@@ -2522,7 +2522,7 @@ public final class StGetPersonPDStatisticsAd {
        * Eigenschaft von "PersonID" zum 1. Merkmal, das in "PersonTypeSettings" zur "PersonTypeID" von "PersonID" zum Schlüssel "PersonOutputCharacteristics" konfiguriert ist (u. nicht für den Aufrufer kompl. lesend gesperrt ist, s. "pm_GetPChAccRestrForUsers_Ad")
        * </pre>
        *
-       * <code>optional .dstore.values.StringValue value1 = 10006;</code>
+       * <code>.dstore.values.StringValue value1 = 10006;</code>
        */
       boolean hasValue1();
       /**
@@ -2530,7 +2530,7 @@ public final class StGetPersonPDStatisticsAd {
        * Eigenschaft von "PersonID" zum 1. Merkmal, das in "PersonTypeSettings" zur "PersonTypeID" von "PersonID" zum Schlüssel "PersonOutputCharacteristics" konfiguriert ist (u. nicht für den Aufrufer kompl. lesend gesperrt ist, s. "pm_GetPChAccRestrForUsers_Ad")
        * </pre>
        *
-       * <code>optional .dstore.values.StringValue value1 = 10006;</code>
+       * <code>.dstore.values.StringValue value1 = 10006;</code>
        */
       io.dstore.values.StringValue getValue1();
       /**
@@ -2538,7 +2538,7 @@ public final class StGetPersonPDStatisticsAd {
        * Eigenschaft von "PersonID" zum 1. Merkmal, das in "PersonTypeSettings" zur "PersonTypeID" von "PersonID" zum Schlüssel "PersonOutputCharacteristics" konfiguriert ist (u. nicht für den Aufrufer kompl. lesend gesperrt ist, s. "pm_GetPChAccRestrForUsers_Ad")
        * </pre>
        *
-       * <code>optional .dstore.values.StringValue value1 = 10006;</code>
+       * <code>.dstore.values.StringValue value1 = 10006;</code>
        */
       io.dstore.values.StringValueOrBuilder getValue1OrBuilder();
 
@@ -2547,7 +2547,7 @@ public final class StGetPersonPDStatisticsAd {
        * Eigenschaft von "PersonID" zum 2. Merkmal, das in "PersonTypeSettings" zur "PersonTypeID" von "PersonID" zum Schlüssel "PersonOutputCharacteristics" konfiguriert ist (u. nicht für den Aufrufer kompl. lesend gesperrt ist, s. "pm_GetPChAccRestrForUsers_Ad")
        * </pre>
        *
-       * <code>optional .dstore.values.StringValue value2 = 10007;</code>
+       * <code>.dstore.values.StringValue value2 = 10007;</code>
        */
       boolean hasValue2();
       /**
@@ -2555,7 +2555,7 @@ public final class StGetPersonPDStatisticsAd {
        * Eigenschaft von "PersonID" zum 2. Merkmal, das in "PersonTypeSettings" zur "PersonTypeID" von "PersonID" zum Schlüssel "PersonOutputCharacteristics" konfiguriert ist (u. nicht für den Aufrufer kompl. lesend gesperrt ist, s. "pm_GetPChAccRestrForUsers_Ad")
        * </pre>
        *
-       * <code>optional .dstore.values.StringValue value2 = 10007;</code>
+       * <code>.dstore.values.StringValue value2 = 10007;</code>
        */
       io.dstore.values.StringValue getValue2();
       /**
@@ -2563,7 +2563,7 @@ public final class StGetPersonPDStatisticsAd {
        * Eigenschaft von "PersonID" zum 2. Merkmal, das in "PersonTypeSettings" zur "PersonTypeID" von "PersonID" zum Schlüssel "PersonOutputCharacteristics" konfiguriert ist (u. nicht für den Aufrufer kompl. lesend gesperrt ist, s. "pm_GetPChAccRestrForUsers_Ad")
        * </pre>
        *
-       * <code>optional .dstore.values.StringValue value2 = 10007;</code>
+       * <code>.dstore.values.StringValue value2 = 10007;</code>
        */
       io.dstore.values.StringValueOrBuilder getValue2OrBuilder();
 
@@ -2572,7 +2572,7 @@ public final class StGetPersonPDStatisticsAd {
        * Summe der DIREKTEN Einträge zur Person "PersonID" für das Element "HTreeNodeID" zur Basis-Kennzahl "BasicCharacteristicNumber" des Tages "Day" bzw. (falls "&#64;SummarizeDays = 1") im gesamten Zeitraum "&#64;FromDay" bis "&#64;ToDay"
        * </pre>
        *
-       * <code>optional .dstore.values.DecimalValue direct_value = 10008;</code>
+       * <code>.dstore.values.DecimalValue direct_value = 10008;</code>
        */
       boolean hasDirectValue();
       /**
@@ -2580,7 +2580,7 @@ public final class StGetPersonPDStatisticsAd {
        * Summe der DIREKTEN Einträge zur Person "PersonID" für das Element "HTreeNodeID" zur Basis-Kennzahl "BasicCharacteristicNumber" des Tages "Day" bzw. (falls "&#64;SummarizeDays = 1") im gesamten Zeitraum "&#64;FromDay" bis "&#64;ToDay"
        * </pre>
        *
-       * <code>optional .dstore.values.DecimalValue direct_value = 10008;</code>
+       * <code>.dstore.values.DecimalValue direct_value = 10008;</code>
        */
       io.dstore.values.DecimalValue getDirectValue();
       /**
@@ -2588,7 +2588,7 @@ public final class StGetPersonPDStatisticsAd {
        * Summe der DIREKTEN Einträge zur Person "PersonID" für das Element "HTreeNodeID" zur Basis-Kennzahl "BasicCharacteristicNumber" des Tages "Day" bzw. (falls "&#64;SummarizeDays = 1") im gesamten Zeitraum "&#64;FromDay" bis "&#64;ToDay"
        * </pre>
        *
-       * <code>optional .dstore.values.DecimalValue direct_value = 10008;</code>
+       * <code>.dstore.values.DecimalValue direct_value = 10008;</code>
        */
       io.dstore.values.DecimalValueOrBuilder getDirectValueOrBuilder();
 
@@ -2597,7 +2597,7 @@ public final class StGetPersonPDStatisticsAd {
        * Ein (Tages-)Datum im Zeitraum "&#64;FromDate" bis "&#64;ToDate". "NULL", falls "&#64;SummarizeDays = 1" angegeben wurde.
        * </pre>
        *
-       * <code>optional .dstore.values.TimestampValue day = 10009;</code>
+       * <code>.dstore.values.TimestampValue day = 10009;</code>
        */
       boolean hasDay();
       /**
@@ -2605,7 +2605,7 @@ public final class StGetPersonPDStatisticsAd {
        * Ein (Tages-)Datum im Zeitraum "&#64;FromDate" bis "&#64;ToDate". "NULL", falls "&#64;SummarizeDays = 1" angegeben wurde.
        * </pre>
        *
-       * <code>optional .dstore.values.TimestampValue day = 10009;</code>
+       * <code>.dstore.values.TimestampValue day = 10009;</code>
        */
       io.dstore.values.TimestampValue getDay();
       /**
@@ -2613,7 +2613,7 @@ public final class StGetPersonPDStatisticsAd {
        * Ein (Tages-)Datum im Zeitraum "&#64;FromDate" bis "&#64;ToDate". "NULL", falls "&#64;SummarizeDays = 1" angegeben wurde.
        * </pre>
        *
-       * <code>optional .dstore.values.TimestampValue day = 10009;</code>
+       * <code>.dstore.values.TimestampValue day = 10009;</code>
        */
       io.dstore.values.TimestampValueOrBuilder getDayOrBuilder();
 
@@ -2622,7 +2622,7 @@ public final class StGetPersonPDStatisticsAd {
        * Nummer einer Basis-Kennzahl
        * </pre>
        *
-       * <code>optional .dstore.values.IntegerValue basic_characteristic_number = 10010;</code>
+       * <code>.dstore.values.IntegerValue basic_characteristic_number = 10010;</code>
        */
       boolean hasBasicCharacteristicNumber();
       /**
@@ -2630,7 +2630,7 @@ public final class StGetPersonPDStatisticsAd {
        * Nummer einer Basis-Kennzahl
        * </pre>
        *
-       * <code>optional .dstore.values.IntegerValue basic_characteristic_number = 10010;</code>
+       * <code>.dstore.values.IntegerValue basic_characteristic_number = 10010;</code>
        */
       io.dstore.values.IntegerValue getBasicCharacteristicNumber();
       /**
@@ -2638,7 +2638,7 @@ public final class StGetPersonPDStatisticsAd {
        * Nummer einer Basis-Kennzahl
        * </pre>
        *
-       * <code>optional .dstore.values.IntegerValue basic_characteristic_number = 10010;</code>
+       * <code>.dstore.values.IntegerValue basic_characteristic_number = 10010;</code>
        */
       io.dstore.values.IntegerValueOrBuilder getBasicCharacteristicNumberOrBuilder();
     }
@@ -2843,7 +2843,7 @@ public final class StGetPersonPDStatisticsAd {
       public static final int ROW_ID_FIELD_NUMBER = 10000;
       private int rowId_;
       /**
-       * <code>optional int32 row_id = 10000;</code>
+       * <code>int32 row_id = 10000;</code>
        */
       public int getRowId() {
         return rowId_;
@@ -2856,7 +2856,7 @@ public final class StGetPersonPDStatisticsAd {
        * Was enthält "Value1" (womöglich wegen Zugriffsbeschränkungen nur einen Teil) ?- NULL : den vollständigen Wert- "#left(&lt;n&gt;)#" : nur die ERSTEN n Zeichen- "#right(&lt;n&gt;)#" : nur die LETZTEN n ZeichenAnmerkung : "n = 0" möglich, "Value1" ist dann NULL
        * </pre>
        *
-       * <code>optional .dstore.values.StringValue value1_restricted_by_pattern = 10001;</code>
+       * <code>.dstore.values.StringValue value1_restricted_by_pattern = 10001;</code>
        */
       public boolean hasValue1RestrictedByPattern() {
         return value1RestrictedByPattern_ != null;
@@ -2866,7 +2866,7 @@ public final class StGetPersonPDStatisticsAd {
        * Was enthält "Value1" (womöglich wegen Zugriffsbeschränkungen nur einen Teil) ?- NULL : den vollständigen Wert- "#left(&lt;n&gt;)#" : nur die ERSTEN n Zeichen- "#right(&lt;n&gt;)#" : nur die LETZTEN n ZeichenAnmerkung : "n = 0" möglich, "Value1" ist dann NULL
        * </pre>
        *
-       * <code>optional .dstore.values.StringValue value1_restricted_by_pattern = 10001;</code>
+       * <code>.dstore.values.StringValue value1_restricted_by_pattern = 10001;</code>
        */
       public io.dstore.values.StringValue getValue1RestrictedByPattern() {
         return value1RestrictedByPattern_ == null ? io.dstore.values.StringValue.getDefaultInstance() : value1RestrictedByPattern_;
@@ -2876,7 +2876,7 @@ public final class StGetPersonPDStatisticsAd {
        * Was enthält "Value1" (womöglich wegen Zugriffsbeschränkungen nur einen Teil) ?- NULL : den vollständigen Wert- "#left(&lt;n&gt;)#" : nur die ERSTEN n Zeichen- "#right(&lt;n&gt;)#" : nur die LETZTEN n ZeichenAnmerkung : "n = 0" möglich, "Value1" ist dann NULL
        * </pre>
        *
-       * <code>optional .dstore.values.StringValue value1_restricted_by_pattern = 10001;</code>
+       * <code>.dstore.values.StringValue value1_restricted_by_pattern = 10001;</code>
        */
       public io.dstore.values.StringValueOrBuilder getValue1RestrictedByPatternOrBuilder() {
         return getValue1RestrictedByPattern();
@@ -2889,7 +2889,7 @@ public final class StGetPersonPDStatisticsAd {
        * Wie "Value1RestrictedByPattern" - nur eben auf "Value2" bezogen
        * </pre>
        *
-       * <code>optional .dstore.values.StringValue value2_restricted_by_pattern = 10002;</code>
+       * <code>.dstore.values.StringValue value2_restricted_by_pattern = 10002;</code>
        */
       public boolean hasValue2RestrictedByPattern() {
         return value2RestrictedByPattern_ != null;
@@ -2899,7 +2899,7 @@ public final class StGetPersonPDStatisticsAd {
        * Wie "Value1RestrictedByPattern" - nur eben auf "Value2" bezogen
        * </pre>
        *
-       * <code>optional .dstore.values.StringValue value2_restricted_by_pattern = 10002;</code>
+       * <code>.dstore.values.StringValue value2_restricted_by_pattern = 10002;</code>
        */
       public io.dstore.values.StringValue getValue2RestrictedByPattern() {
         return value2RestrictedByPattern_ == null ? io.dstore.values.StringValue.getDefaultInstance() : value2RestrictedByPattern_;
@@ -2909,7 +2909,7 @@ public final class StGetPersonPDStatisticsAd {
        * Wie "Value1RestrictedByPattern" - nur eben auf "Value2" bezogen
        * </pre>
        *
-       * <code>optional .dstore.values.StringValue value2_restricted_by_pattern = 10002;</code>
+       * <code>.dstore.values.StringValue value2_restricted_by_pattern = 10002;</code>
        */
       public io.dstore.values.StringValueOrBuilder getValue2RestrictedByPatternOrBuilder() {
         return getValue2RestrictedByPattern();
@@ -2922,7 +2922,7 @@ public final class StGetPersonPDStatisticsAd {
        * Summe der GESAMTEN Einträge, also inkl. indirekter Einträge, zur Person "PersonID" für das Element "HTreeNodeID" zur Basis-Kennzahl "BasicCharacteristicNumber" des Tages "Day" bzw. (falls "&#64;SummarizeDays = 1") im gesamten Zeitraum "&#64;FromDay" bis "&#64;ToDay"
        * </pre>
        *
-       * <code>optional .dstore.values.DecimalValue total_value = 10003;</code>
+       * <code>.dstore.values.DecimalValue total_value = 10003;</code>
        */
       public boolean hasTotalValue() {
         return totalValue_ != null;
@@ -2932,7 +2932,7 @@ public final class StGetPersonPDStatisticsAd {
        * Summe der GESAMTEN Einträge, also inkl. indirekter Einträge, zur Person "PersonID" für das Element "HTreeNodeID" zur Basis-Kennzahl "BasicCharacteristicNumber" des Tages "Day" bzw. (falls "&#64;SummarizeDays = 1") im gesamten Zeitraum "&#64;FromDay" bis "&#64;ToDay"
        * </pre>
        *
-       * <code>optional .dstore.values.DecimalValue total_value = 10003;</code>
+       * <code>.dstore.values.DecimalValue total_value = 10003;</code>
        */
       public io.dstore.values.DecimalValue getTotalValue() {
         return totalValue_ == null ? io.dstore.values.DecimalValue.getDefaultInstance() : totalValue_;
@@ -2942,7 +2942,7 @@ public final class StGetPersonPDStatisticsAd {
        * Summe der GESAMTEN Einträge, also inkl. indirekter Einträge, zur Person "PersonID" für das Element "HTreeNodeID" zur Basis-Kennzahl "BasicCharacteristicNumber" des Tages "Day" bzw. (falls "&#64;SummarizeDays = 1") im gesamten Zeitraum "&#64;FromDay" bis "&#64;ToDay"
        * </pre>
        *
-       * <code>optional .dstore.values.DecimalValue total_value = 10003;</code>
+       * <code>.dstore.values.DecimalValue total_value = 10003;</code>
        */
       public io.dstore.values.DecimalValueOrBuilder getTotalValueOrBuilder() {
         return getTotalValue();
@@ -2955,7 +2955,7 @@ public final class StGetPersonPDStatisticsAd {
        * ID einer Person
        * </pre>
        *
-       * <code>optional .dstore.values.IntegerValue person_id = 10004;</code>
+       * <code>.dstore.values.IntegerValue person_id = 10004;</code>
        */
       public boolean hasPersonId() {
         return personId_ != null;
@@ -2965,7 +2965,7 @@ public final class StGetPersonPDStatisticsAd {
        * ID einer Person
        * </pre>
        *
-       * <code>optional .dstore.values.IntegerValue person_id = 10004;</code>
+       * <code>.dstore.values.IntegerValue person_id = 10004;</code>
        */
       public io.dstore.values.IntegerValue getPersonId() {
         return personId_ == null ? io.dstore.values.IntegerValue.getDefaultInstance() : personId_;
@@ -2975,7 +2975,7 @@ public final class StGetPersonPDStatisticsAd {
        * ID einer Person
        * </pre>
        *
-       * <code>optional .dstore.values.IntegerValue person_id = 10004;</code>
+       * <code>.dstore.values.IntegerValue person_id = 10004;</code>
        */
       public io.dstore.values.IntegerValueOrBuilder getPersonIdOrBuilder() {
         return getPersonId();
@@ -2988,7 +2988,7 @@ public final class StGetPersonPDStatisticsAd {
        * ID eines Elementes aus "HistoryTreeView" (in dieser ist die Historie des gesamten Artikelbaums abgebildet)
        * </pre>
        *
-       * <code>optional .dstore.values.IntegerValue h_tree_node_id = 10005;</code>
+       * <code>.dstore.values.IntegerValue h_tree_node_id = 10005;</code>
        */
       public boolean hasHTreeNodeId() {
         return hTreeNodeId_ != null;
@@ -2998,7 +2998,7 @@ public final class StGetPersonPDStatisticsAd {
        * ID eines Elementes aus "HistoryTreeView" (in dieser ist die Historie des gesamten Artikelbaums abgebildet)
        * </pre>
        *
-       * <code>optional .dstore.values.IntegerValue h_tree_node_id = 10005;</code>
+       * <code>.dstore.values.IntegerValue h_tree_node_id = 10005;</code>
        */
       public io.dstore.values.IntegerValue getHTreeNodeId() {
         return hTreeNodeId_ == null ? io.dstore.values.IntegerValue.getDefaultInstance() : hTreeNodeId_;
@@ -3008,7 +3008,7 @@ public final class StGetPersonPDStatisticsAd {
        * ID eines Elementes aus "HistoryTreeView" (in dieser ist die Historie des gesamten Artikelbaums abgebildet)
        * </pre>
        *
-       * <code>optional .dstore.values.IntegerValue h_tree_node_id = 10005;</code>
+       * <code>.dstore.values.IntegerValue h_tree_node_id = 10005;</code>
        */
       public io.dstore.values.IntegerValueOrBuilder getHTreeNodeIdOrBuilder() {
         return getHTreeNodeId();
@@ -3021,7 +3021,7 @@ public final class StGetPersonPDStatisticsAd {
        * Eigenschaft von "PersonID" zum 1. Merkmal, das in "PersonTypeSettings" zur "PersonTypeID" von "PersonID" zum Schlüssel "PersonOutputCharacteristics" konfiguriert ist (u. nicht für den Aufrufer kompl. lesend gesperrt ist, s. "pm_GetPChAccRestrForUsers_Ad")
        * </pre>
        *
-       * <code>optional .dstore.values.StringValue value1 = 10006;</code>
+       * <code>.dstore.values.StringValue value1 = 10006;</code>
        */
       public boolean hasValue1() {
         return value1_ != null;
@@ -3031,7 +3031,7 @@ public final class StGetPersonPDStatisticsAd {
        * Eigenschaft von "PersonID" zum 1. Merkmal, das in "PersonTypeSettings" zur "PersonTypeID" von "PersonID" zum Schlüssel "PersonOutputCharacteristics" konfiguriert ist (u. nicht für den Aufrufer kompl. lesend gesperrt ist, s. "pm_GetPChAccRestrForUsers_Ad")
        * </pre>
        *
-       * <code>optional .dstore.values.StringValue value1 = 10006;</code>
+       * <code>.dstore.values.StringValue value1 = 10006;</code>
        */
       public io.dstore.values.StringValue getValue1() {
         return value1_ == null ? io.dstore.values.StringValue.getDefaultInstance() : value1_;
@@ -3041,7 +3041,7 @@ public final class StGetPersonPDStatisticsAd {
        * Eigenschaft von "PersonID" zum 1. Merkmal, das in "PersonTypeSettings" zur "PersonTypeID" von "PersonID" zum Schlüssel "PersonOutputCharacteristics" konfiguriert ist (u. nicht für den Aufrufer kompl. lesend gesperrt ist, s. "pm_GetPChAccRestrForUsers_Ad")
        * </pre>
        *
-       * <code>optional .dstore.values.StringValue value1 = 10006;</code>
+       * <code>.dstore.values.StringValue value1 = 10006;</code>
        */
       public io.dstore.values.StringValueOrBuilder getValue1OrBuilder() {
         return getValue1();
@@ -3054,7 +3054,7 @@ public final class StGetPersonPDStatisticsAd {
        * Eigenschaft von "PersonID" zum 2. Merkmal, das in "PersonTypeSettings" zur "PersonTypeID" von "PersonID" zum Schlüssel "PersonOutputCharacteristics" konfiguriert ist (u. nicht für den Aufrufer kompl. lesend gesperrt ist, s. "pm_GetPChAccRestrForUsers_Ad")
        * </pre>
        *
-       * <code>optional .dstore.values.StringValue value2 = 10007;</code>
+       * <code>.dstore.values.StringValue value2 = 10007;</code>
        */
       public boolean hasValue2() {
         return value2_ != null;
@@ -3064,7 +3064,7 @@ public final class StGetPersonPDStatisticsAd {
        * Eigenschaft von "PersonID" zum 2. Merkmal, das in "PersonTypeSettings" zur "PersonTypeID" von "PersonID" zum Schlüssel "PersonOutputCharacteristics" konfiguriert ist (u. nicht für den Aufrufer kompl. lesend gesperrt ist, s. "pm_GetPChAccRestrForUsers_Ad")
        * </pre>
        *
-       * <code>optional .dstore.values.StringValue value2 = 10007;</code>
+       * <code>.dstore.values.StringValue value2 = 10007;</code>
        */
       public io.dstore.values.StringValue getValue2() {
         return value2_ == null ? io.dstore.values.StringValue.getDefaultInstance() : value2_;
@@ -3074,7 +3074,7 @@ public final class StGetPersonPDStatisticsAd {
        * Eigenschaft von "PersonID" zum 2. Merkmal, das in "PersonTypeSettings" zur "PersonTypeID" von "PersonID" zum Schlüssel "PersonOutputCharacteristics" konfiguriert ist (u. nicht für den Aufrufer kompl. lesend gesperrt ist, s. "pm_GetPChAccRestrForUsers_Ad")
        * </pre>
        *
-       * <code>optional .dstore.values.StringValue value2 = 10007;</code>
+       * <code>.dstore.values.StringValue value2 = 10007;</code>
        */
       public io.dstore.values.StringValueOrBuilder getValue2OrBuilder() {
         return getValue2();
@@ -3087,7 +3087,7 @@ public final class StGetPersonPDStatisticsAd {
        * Summe der DIREKTEN Einträge zur Person "PersonID" für das Element "HTreeNodeID" zur Basis-Kennzahl "BasicCharacteristicNumber" des Tages "Day" bzw. (falls "&#64;SummarizeDays = 1") im gesamten Zeitraum "&#64;FromDay" bis "&#64;ToDay"
        * </pre>
        *
-       * <code>optional .dstore.values.DecimalValue direct_value = 10008;</code>
+       * <code>.dstore.values.DecimalValue direct_value = 10008;</code>
        */
       public boolean hasDirectValue() {
         return directValue_ != null;
@@ -3097,7 +3097,7 @@ public final class StGetPersonPDStatisticsAd {
        * Summe der DIREKTEN Einträge zur Person "PersonID" für das Element "HTreeNodeID" zur Basis-Kennzahl "BasicCharacteristicNumber" des Tages "Day" bzw. (falls "&#64;SummarizeDays = 1") im gesamten Zeitraum "&#64;FromDay" bis "&#64;ToDay"
        * </pre>
        *
-       * <code>optional .dstore.values.DecimalValue direct_value = 10008;</code>
+       * <code>.dstore.values.DecimalValue direct_value = 10008;</code>
        */
       public io.dstore.values.DecimalValue getDirectValue() {
         return directValue_ == null ? io.dstore.values.DecimalValue.getDefaultInstance() : directValue_;
@@ -3107,7 +3107,7 @@ public final class StGetPersonPDStatisticsAd {
        * Summe der DIREKTEN Einträge zur Person "PersonID" für das Element "HTreeNodeID" zur Basis-Kennzahl "BasicCharacteristicNumber" des Tages "Day" bzw. (falls "&#64;SummarizeDays = 1") im gesamten Zeitraum "&#64;FromDay" bis "&#64;ToDay"
        * </pre>
        *
-       * <code>optional .dstore.values.DecimalValue direct_value = 10008;</code>
+       * <code>.dstore.values.DecimalValue direct_value = 10008;</code>
        */
       public io.dstore.values.DecimalValueOrBuilder getDirectValueOrBuilder() {
         return getDirectValue();
@@ -3120,7 +3120,7 @@ public final class StGetPersonPDStatisticsAd {
        * Ein (Tages-)Datum im Zeitraum "&#64;FromDate" bis "&#64;ToDate". "NULL", falls "&#64;SummarizeDays = 1" angegeben wurde.
        * </pre>
        *
-       * <code>optional .dstore.values.TimestampValue day = 10009;</code>
+       * <code>.dstore.values.TimestampValue day = 10009;</code>
        */
       public boolean hasDay() {
         return day_ != null;
@@ -3130,7 +3130,7 @@ public final class StGetPersonPDStatisticsAd {
        * Ein (Tages-)Datum im Zeitraum "&#64;FromDate" bis "&#64;ToDate". "NULL", falls "&#64;SummarizeDays = 1" angegeben wurde.
        * </pre>
        *
-       * <code>optional .dstore.values.TimestampValue day = 10009;</code>
+       * <code>.dstore.values.TimestampValue day = 10009;</code>
        */
       public io.dstore.values.TimestampValue getDay() {
         return day_ == null ? io.dstore.values.TimestampValue.getDefaultInstance() : day_;
@@ -3140,7 +3140,7 @@ public final class StGetPersonPDStatisticsAd {
        * Ein (Tages-)Datum im Zeitraum "&#64;FromDate" bis "&#64;ToDate". "NULL", falls "&#64;SummarizeDays = 1" angegeben wurde.
        * </pre>
        *
-       * <code>optional .dstore.values.TimestampValue day = 10009;</code>
+       * <code>.dstore.values.TimestampValue day = 10009;</code>
        */
       public io.dstore.values.TimestampValueOrBuilder getDayOrBuilder() {
         return getDay();
@@ -3153,7 +3153,7 @@ public final class StGetPersonPDStatisticsAd {
        * Nummer einer Basis-Kennzahl
        * </pre>
        *
-       * <code>optional .dstore.values.IntegerValue basic_characteristic_number = 10010;</code>
+       * <code>.dstore.values.IntegerValue basic_characteristic_number = 10010;</code>
        */
       public boolean hasBasicCharacteristicNumber() {
         return basicCharacteristicNumber_ != null;
@@ -3163,7 +3163,7 @@ public final class StGetPersonPDStatisticsAd {
        * Nummer einer Basis-Kennzahl
        * </pre>
        *
-       * <code>optional .dstore.values.IntegerValue basic_characteristic_number = 10010;</code>
+       * <code>.dstore.values.IntegerValue basic_characteristic_number = 10010;</code>
        */
       public io.dstore.values.IntegerValue getBasicCharacteristicNumber() {
         return basicCharacteristicNumber_ == null ? io.dstore.values.IntegerValue.getDefaultInstance() : basicCharacteristicNumber_;
@@ -3173,7 +3173,7 @@ public final class StGetPersonPDStatisticsAd {
        * Nummer einer Basis-Kennzahl
        * </pre>
        *
-       * <code>optional .dstore.values.IntegerValue basic_characteristic_number = 10010;</code>
+       * <code>.dstore.values.IntegerValue basic_characteristic_number = 10010;</code>
        */
       public io.dstore.values.IntegerValueOrBuilder getBasicCharacteristicNumberOrBuilder() {
         return getBasicCharacteristicNumber();
@@ -3352,7 +3352,7 @@ public final class StGetPersonPDStatisticsAd {
           return memoizedHashCode;
         }
         int hash = 41;
-        hash = (19 * hash) + getDescriptorForType().hashCode();
+        hash = (19 * hash) + getDescriptor().hashCode();
         hash = (37 * hash) + ROW_ID_FIELD_NUMBER;
         hash = (53 * hash) + getRowId();
         if (hasValue1RestrictedByPattern()) {
@@ -3750,13 +3750,13 @@ public final class StGetPersonPDStatisticsAd {
 
         private int rowId_ ;
         /**
-         * <code>optional int32 row_id = 10000;</code>
+         * <code>int32 row_id = 10000;</code>
          */
         public int getRowId() {
           return rowId_;
         }
         /**
-         * <code>optional int32 row_id = 10000;</code>
+         * <code>int32 row_id = 10000;</code>
          */
         public Builder setRowId(int value) {
           
@@ -3765,7 +3765,7 @@ public final class StGetPersonPDStatisticsAd {
           return this;
         }
         /**
-         * <code>optional int32 row_id = 10000;</code>
+         * <code>int32 row_id = 10000;</code>
          */
         public Builder clearRowId() {
           
@@ -3782,7 +3782,7 @@ public final class StGetPersonPDStatisticsAd {
          * Was enthält "Value1" (womöglich wegen Zugriffsbeschränkungen nur einen Teil) ?- NULL : den vollständigen Wert- "#left(&lt;n&gt;)#" : nur die ERSTEN n Zeichen- "#right(&lt;n&gt;)#" : nur die LETZTEN n ZeichenAnmerkung : "n = 0" möglich, "Value1" ist dann NULL
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue value1_restricted_by_pattern = 10001;</code>
+         * <code>.dstore.values.StringValue value1_restricted_by_pattern = 10001;</code>
          */
         public boolean hasValue1RestrictedByPattern() {
           return value1RestrictedByPatternBuilder_ != null || value1RestrictedByPattern_ != null;
@@ -3792,7 +3792,7 @@ public final class StGetPersonPDStatisticsAd {
          * Was enthält "Value1" (womöglich wegen Zugriffsbeschränkungen nur einen Teil) ?- NULL : den vollständigen Wert- "#left(&lt;n&gt;)#" : nur die ERSTEN n Zeichen- "#right(&lt;n&gt;)#" : nur die LETZTEN n ZeichenAnmerkung : "n = 0" möglich, "Value1" ist dann NULL
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue value1_restricted_by_pattern = 10001;</code>
+         * <code>.dstore.values.StringValue value1_restricted_by_pattern = 10001;</code>
          */
         public io.dstore.values.StringValue getValue1RestrictedByPattern() {
           if (value1RestrictedByPatternBuilder_ == null) {
@@ -3806,7 +3806,7 @@ public final class StGetPersonPDStatisticsAd {
          * Was enthält "Value1" (womöglich wegen Zugriffsbeschränkungen nur einen Teil) ?- NULL : den vollständigen Wert- "#left(&lt;n&gt;)#" : nur die ERSTEN n Zeichen- "#right(&lt;n&gt;)#" : nur die LETZTEN n ZeichenAnmerkung : "n = 0" möglich, "Value1" ist dann NULL
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue value1_restricted_by_pattern = 10001;</code>
+         * <code>.dstore.values.StringValue value1_restricted_by_pattern = 10001;</code>
          */
         public Builder setValue1RestrictedByPattern(io.dstore.values.StringValue value) {
           if (value1RestrictedByPatternBuilder_ == null) {
@@ -3826,7 +3826,7 @@ public final class StGetPersonPDStatisticsAd {
          * Was enthält "Value1" (womöglich wegen Zugriffsbeschränkungen nur einen Teil) ?- NULL : den vollständigen Wert- "#left(&lt;n&gt;)#" : nur die ERSTEN n Zeichen- "#right(&lt;n&gt;)#" : nur die LETZTEN n ZeichenAnmerkung : "n = 0" möglich, "Value1" ist dann NULL
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue value1_restricted_by_pattern = 10001;</code>
+         * <code>.dstore.values.StringValue value1_restricted_by_pattern = 10001;</code>
          */
         public Builder setValue1RestrictedByPattern(
             io.dstore.values.StringValue.Builder builderForValue) {
@@ -3844,7 +3844,7 @@ public final class StGetPersonPDStatisticsAd {
          * Was enthält "Value1" (womöglich wegen Zugriffsbeschränkungen nur einen Teil) ?- NULL : den vollständigen Wert- "#left(&lt;n&gt;)#" : nur die ERSTEN n Zeichen- "#right(&lt;n&gt;)#" : nur die LETZTEN n ZeichenAnmerkung : "n = 0" möglich, "Value1" ist dann NULL
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue value1_restricted_by_pattern = 10001;</code>
+         * <code>.dstore.values.StringValue value1_restricted_by_pattern = 10001;</code>
          */
         public Builder mergeValue1RestrictedByPattern(io.dstore.values.StringValue value) {
           if (value1RestrictedByPatternBuilder_ == null) {
@@ -3866,7 +3866,7 @@ public final class StGetPersonPDStatisticsAd {
          * Was enthält "Value1" (womöglich wegen Zugriffsbeschränkungen nur einen Teil) ?- NULL : den vollständigen Wert- "#left(&lt;n&gt;)#" : nur die ERSTEN n Zeichen- "#right(&lt;n&gt;)#" : nur die LETZTEN n ZeichenAnmerkung : "n = 0" möglich, "Value1" ist dann NULL
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue value1_restricted_by_pattern = 10001;</code>
+         * <code>.dstore.values.StringValue value1_restricted_by_pattern = 10001;</code>
          */
         public Builder clearValue1RestrictedByPattern() {
           if (value1RestrictedByPatternBuilder_ == null) {
@@ -3884,7 +3884,7 @@ public final class StGetPersonPDStatisticsAd {
          * Was enthält "Value1" (womöglich wegen Zugriffsbeschränkungen nur einen Teil) ?- NULL : den vollständigen Wert- "#left(&lt;n&gt;)#" : nur die ERSTEN n Zeichen- "#right(&lt;n&gt;)#" : nur die LETZTEN n ZeichenAnmerkung : "n = 0" möglich, "Value1" ist dann NULL
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue value1_restricted_by_pattern = 10001;</code>
+         * <code>.dstore.values.StringValue value1_restricted_by_pattern = 10001;</code>
          */
         public io.dstore.values.StringValue.Builder getValue1RestrictedByPatternBuilder() {
           
@@ -3896,7 +3896,7 @@ public final class StGetPersonPDStatisticsAd {
          * Was enthält "Value1" (womöglich wegen Zugriffsbeschränkungen nur einen Teil) ?- NULL : den vollständigen Wert- "#left(&lt;n&gt;)#" : nur die ERSTEN n Zeichen- "#right(&lt;n&gt;)#" : nur die LETZTEN n ZeichenAnmerkung : "n = 0" möglich, "Value1" ist dann NULL
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue value1_restricted_by_pattern = 10001;</code>
+         * <code>.dstore.values.StringValue value1_restricted_by_pattern = 10001;</code>
          */
         public io.dstore.values.StringValueOrBuilder getValue1RestrictedByPatternOrBuilder() {
           if (value1RestrictedByPatternBuilder_ != null) {
@@ -3911,7 +3911,7 @@ public final class StGetPersonPDStatisticsAd {
          * Was enthält "Value1" (womöglich wegen Zugriffsbeschränkungen nur einen Teil) ?- NULL : den vollständigen Wert- "#left(&lt;n&gt;)#" : nur die ERSTEN n Zeichen- "#right(&lt;n&gt;)#" : nur die LETZTEN n ZeichenAnmerkung : "n = 0" möglich, "Value1" ist dann NULL
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue value1_restricted_by_pattern = 10001;</code>
+         * <code>.dstore.values.StringValue value1_restricted_by_pattern = 10001;</code>
          */
         private com.google.protobuf.SingleFieldBuilderV3<
             io.dstore.values.StringValue, io.dstore.values.StringValue.Builder, io.dstore.values.StringValueOrBuilder> 
@@ -3935,7 +3935,7 @@ public final class StGetPersonPDStatisticsAd {
          * Wie "Value1RestrictedByPattern" - nur eben auf "Value2" bezogen
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue value2_restricted_by_pattern = 10002;</code>
+         * <code>.dstore.values.StringValue value2_restricted_by_pattern = 10002;</code>
          */
         public boolean hasValue2RestrictedByPattern() {
           return value2RestrictedByPatternBuilder_ != null || value2RestrictedByPattern_ != null;
@@ -3945,7 +3945,7 @@ public final class StGetPersonPDStatisticsAd {
          * Wie "Value1RestrictedByPattern" - nur eben auf "Value2" bezogen
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue value2_restricted_by_pattern = 10002;</code>
+         * <code>.dstore.values.StringValue value2_restricted_by_pattern = 10002;</code>
          */
         public io.dstore.values.StringValue getValue2RestrictedByPattern() {
           if (value2RestrictedByPatternBuilder_ == null) {
@@ -3959,7 +3959,7 @@ public final class StGetPersonPDStatisticsAd {
          * Wie "Value1RestrictedByPattern" - nur eben auf "Value2" bezogen
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue value2_restricted_by_pattern = 10002;</code>
+         * <code>.dstore.values.StringValue value2_restricted_by_pattern = 10002;</code>
          */
         public Builder setValue2RestrictedByPattern(io.dstore.values.StringValue value) {
           if (value2RestrictedByPatternBuilder_ == null) {
@@ -3979,7 +3979,7 @@ public final class StGetPersonPDStatisticsAd {
          * Wie "Value1RestrictedByPattern" - nur eben auf "Value2" bezogen
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue value2_restricted_by_pattern = 10002;</code>
+         * <code>.dstore.values.StringValue value2_restricted_by_pattern = 10002;</code>
          */
         public Builder setValue2RestrictedByPattern(
             io.dstore.values.StringValue.Builder builderForValue) {
@@ -3997,7 +3997,7 @@ public final class StGetPersonPDStatisticsAd {
          * Wie "Value1RestrictedByPattern" - nur eben auf "Value2" bezogen
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue value2_restricted_by_pattern = 10002;</code>
+         * <code>.dstore.values.StringValue value2_restricted_by_pattern = 10002;</code>
          */
         public Builder mergeValue2RestrictedByPattern(io.dstore.values.StringValue value) {
           if (value2RestrictedByPatternBuilder_ == null) {
@@ -4019,7 +4019,7 @@ public final class StGetPersonPDStatisticsAd {
          * Wie "Value1RestrictedByPattern" - nur eben auf "Value2" bezogen
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue value2_restricted_by_pattern = 10002;</code>
+         * <code>.dstore.values.StringValue value2_restricted_by_pattern = 10002;</code>
          */
         public Builder clearValue2RestrictedByPattern() {
           if (value2RestrictedByPatternBuilder_ == null) {
@@ -4037,7 +4037,7 @@ public final class StGetPersonPDStatisticsAd {
          * Wie "Value1RestrictedByPattern" - nur eben auf "Value2" bezogen
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue value2_restricted_by_pattern = 10002;</code>
+         * <code>.dstore.values.StringValue value2_restricted_by_pattern = 10002;</code>
          */
         public io.dstore.values.StringValue.Builder getValue2RestrictedByPatternBuilder() {
           
@@ -4049,7 +4049,7 @@ public final class StGetPersonPDStatisticsAd {
          * Wie "Value1RestrictedByPattern" - nur eben auf "Value2" bezogen
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue value2_restricted_by_pattern = 10002;</code>
+         * <code>.dstore.values.StringValue value2_restricted_by_pattern = 10002;</code>
          */
         public io.dstore.values.StringValueOrBuilder getValue2RestrictedByPatternOrBuilder() {
           if (value2RestrictedByPatternBuilder_ != null) {
@@ -4064,7 +4064,7 @@ public final class StGetPersonPDStatisticsAd {
          * Wie "Value1RestrictedByPattern" - nur eben auf "Value2" bezogen
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue value2_restricted_by_pattern = 10002;</code>
+         * <code>.dstore.values.StringValue value2_restricted_by_pattern = 10002;</code>
          */
         private com.google.protobuf.SingleFieldBuilderV3<
             io.dstore.values.StringValue, io.dstore.values.StringValue.Builder, io.dstore.values.StringValueOrBuilder> 
@@ -4088,7 +4088,7 @@ public final class StGetPersonPDStatisticsAd {
          * Summe der GESAMTEN Einträge, also inkl. indirekter Einträge, zur Person "PersonID" für das Element "HTreeNodeID" zur Basis-Kennzahl "BasicCharacteristicNumber" des Tages "Day" bzw. (falls "&#64;SummarizeDays = 1") im gesamten Zeitraum "&#64;FromDay" bis "&#64;ToDay"
          * </pre>
          *
-         * <code>optional .dstore.values.DecimalValue total_value = 10003;</code>
+         * <code>.dstore.values.DecimalValue total_value = 10003;</code>
          */
         public boolean hasTotalValue() {
           return totalValueBuilder_ != null || totalValue_ != null;
@@ -4098,7 +4098,7 @@ public final class StGetPersonPDStatisticsAd {
          * Summe der GESAMTEN Einträge, also inkl. indirekter Einträge, zur Person "PersonID" für das Element "HTreeNodeID" zur Basis-Kennzahl "BasicCharacteristicNumber" des Tages "Day" bzw. (falls "&#64;SummarizeDays = 1") im gesamten Zeitraum "&#64;FromDay" bis "&#64;ToDay"
          * </pre>
          *
-         * <code>optional .dstore.values.DecimalValue total_value = 10003;</code>
+         * <code>.dstore.values.DecimalValue total_value = 10003;</code>
          */
         public io.dstore.values.DecimalValue getTotalValue() {
           if (totalValueBuilder_ == null) {
@@ -4112,7 +4112,7 @@ public final class StGetPersonPDStatisticsAd {
          * Summe der GESAMTEN Einträge, also inkl. indirekter Einträge, zur Person "PersonID" für das Element "HTreeNodeID" zur Basis-Kennzahl "BasicCharacteristicNumber" des Tages "Day" bzw. (falls "&#64;SummarizeDays = 1") im gesamten Zeitraum "&#64;FromDay" bis "&#64;ToDay"
          * </pre>
          *
-         * <code>optional .dstore.values.DecimalValue total_value = 10003;</code>
+         * <code>.dstore.values.DecimalValue total_value = 10003;</code>
          */
         public Builder setTotalValue(io.dstore.values.DecimalValue value) {
           if (totalValueBuilder_ == null) {
@@ -4132,7 +4132,7 @@ public final class StGetPersonPDStatisticsAd {
          * Summe der GESAMTEN Einträge, also inkl. indirekter Einträge, zur Person "PersonID" für das Element "HTreeNodeID" zur Basis-Kennzahl "BasicCharacteristicNumber" des Tages "Day" bzw. (falls "&#64;SummarizeDays = 1") im gesamten Zeitraum "&#64;FromDay" bis "&#64;ToDay"
          * </pre>
          *
-         * <code>optional .dstore.values.DecimalValue total_value = 10003;</code>
+         * <code>.dstore.values.DecimalValue total_value = 10003;</code>
          */
         public Builder setTotalValue(
             io.dstore.values.DecimalValue.Builder builderForValue) {
@@ -4150,7 +4150,7 @@ public final class StGetPersonPDStatisticsAd {
          * Summe der GESAMTEN Einträge, also inkl. indirekter Einträge, zur Person "PersonID" für das Element "HTreeNodeID" zur Basis-Kennzahl "BasicCharacteristicNumber" des Tages "Day" bzw. (falls "&#64;SummarizeDays = 1") im gesamten Zeitraum "&#64;FromDay" bis "&#64;ToDay"
          * </pre>
          *
-         * <code>optional .dstore.values.DecimalValue total_value = 10003;</code>
+         * <code>.dstore.values.DecimalValue total_value = 10003;</code>
          */
         public Builder mergeTotalValue(io.dstore.values.DecimalValue value) {
           if (totalValueBuilder_ == null) {
@@ -4172,7 +4172,7 @@ public final class StGetPersonPDStatisticsAd {
          * Summe der GESAMTEN Einträge, also inkl. indirekter Einträge, zur Person "PersonID" für das Element "HTreeNodeID" zur Basis-Kennzahl "BasicCharacteristicNumber" des Tages "Day" bzw. (falls "&#64;SummarizeDays = 1") im gesamten Zeitraum "&#64;FromDay" bis "&#64;ToDay"
          * </pre>
          *
-         * <code>optional .dstore.values.DecimalValue total_value = 10003;</code>
+         * <code>.dstore.values.DecimalValue total_value = 10003;</code>
          */
         public Builder clearTotalValue() {
           if (totalValueBuilder_ == null) {
@@ -4190,7 +4190,7 @@ public final class StGetPersonPDStatisticsAd {
          * Summe der GESAMTEN Einträge, also inkl. indirekter Einträge, zur Person "PersonID" für das Element "HTreeNodeID" zur Basis-Kennzahl "BasicCharacteristicNumber" des Tages "Day" bzw. (falls "&#64;SummarizeDays = 1") im gesamten Zeitraum "&#64;FromDay" bis "&#64;ToDay"
          * </pre>
          *
-         * <code>optional .dstore.values.DecimalValue total_value = 10003;</code>
+         * <code>.dstore.values.DecimalValue total_value = 10003;</code>
          */
         public io.dstore.values.DecimalValue.Builder getTotalValueBuilder() {
           
@@ -4202,7 +4202,7 @@ public final class StGetPersonPDStatisticsAd {
          * Summe der GESAMTEN Einträge, also inkl. indirekter Einträge, zur Person "PersonID" für das Element "HTreeNodeID" zur Basis-Kennzahl "BasicCharacteristicNumber" des Tages "Day" bzw. (falls "&#64;SummarizeDays = 1") im gesamten Zeitraum "&#64;FromDay" bis "&#64;ToDay"
          * </pre>
          *
-         * <code>optional .dstore.values.DecimalValue total_value = 10003;</code>
+         * <code>.dstore.values.DecimalValue total_value = 10003;</code>
          */
         public io.dstore.values.DecimalValueOrBuilder getTotalValueOrBuilder() {
           if (totalValueBuilder_ != null) {
@@ -4217,7 +4217,7 @@ public final class StGetPersonPDStatisticsAd {
          * Summe der GESAMTEN Einträge, also inkl. indirekter Einträge, zur Person "PersonID" für das Element "HTreeNodeID" zur Basis-Kennzahl "BasicCharacteristicNumber" des Tages "Day" bzw. (falls "&#64;SummarizeDays = 1") im gesamten Zeitraum "&#64;FromDay" bis "&#64;ToDay"
          * </pre>
          *
-         * <code>optional .dstore.values.DecimalValue total_value = 10003;</code>
+         * <code>.dstore.values.DecimalValue total_value = 10003;</code>
          */
         private com.google.protobuf.SingleFieldBuilderV3<
             io.dstore.values.DecimalValue, io.dstore.values.DecimalValue.Builder, io.dstore.values.DecimalValueOrBuilder> 
@@ -4241,7 +4241,7 @@ public final class StGetPersonPDStatisticsAd {
          * ID einer Person
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue person_id = 10004;</code>
+         * <code>.dstore.values.IntegerValue person_id = 10004;</code>
          */
         public boolean hasPersonId() {
           return personIdBuilder_ != null || personId_ != null;
@@ -4251,7 +4251,7 @@ public final class StGetPersonPDStatisticsAd {
          * ID einer Person
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue person_id = 10004;</code>
+         * <code>.dstore.values.IntegerValue person_id = 10004;</code>
          */
         public io.dstore.values.IntegerValue getPersonId() {
           if (personIdBuilder_ == null) {
@@ -4265,7 +4265,7 @@ public final class StGetPersonPDStatisticsAd {
          * ID einer Person
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue person_id = 10004;</code>
+         * <code>.dstore.values.IntegerValue person_id = 10004;</code>
          */
         public Builder setPersonId(io.dstore.values.IntegerValue value) {
           if (personIdBuilder_ == null) {
@@ -4285,7 +4285,7 @@ public final class StGetPersonPDStatisticsAd {
          * ID einer Person
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue person_id = 10004;</code>
+         * <code>.dstore.values.IntegerValue person_id = 10004;</code>
          */
         public Builder setPersonId(
             io.dstore.values.IntegerValue.Builder builderForValue) {
@@ -4303,7 +4303,7 @@ public final class StGetPersonPDStatisticsAd {
          * ID einer Person
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue person_id = 10004;</code>
+         * <code>.dstore.values.IntegerValue person_id = 10004;</code>
          */
         public Builder mergePersonId(io.dstore.values.IntegerValue value) {
           if (personIdBuilder_ == null) {
@@ -4325,7 +4325,7 @@ public final class StGetPersonPDStatisticsAd {
          * ID einer Person
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue person_id = 10004;</code>
+         * <code>.dstore.values.IntegerValue person_id = 10004;</code>
          */
         public Builder clearPersonId() {
           if (personIdBuilder_ == null) {
@@ -4343,7 +4343,7 @@ public final class StGetPersonPDStatisticsAd {
          * ID einer Person
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue person_id = 10004;</code>
+         * <code>.dstore.values.IntegerValue person_id = 10004;</code>
          */
         public io.dstore.values.IntegerValue.Builder getPersonIdBuilder() {
           
@@ -4355,7 +4355,7 @@ public final class StGetPersonPDStatisticsAd {
          * ID einer Person
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue person_id = 10004;</code>
+         * <code>.dstore.values.IntegerValue person_id = 10004;</code>
          */
         public io.dstore.values.IntegerValueOrBuilder getPersonIdOrBuilder() {
           if (personIdBuilder_ != null) {
@@ -4370,7 +4370,7 @@ public final class StGetPersonPDStatisticsAd {
          * ID einer Person
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue person_id = 10004;</code>
+         * <code>.dstore.values.IntegerValue person_id = 10004;</code>
          */
         private com.google.protobuf.SingleFieldBuilderV3<
             io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> 
@@ -4394,7 +4394,7 @@ public final class StGetPersonPDStatisticsAd {
          * ID eines Elementes aus "HistoryTreeView" (in dieser ist die Historie des gesamten Artikelbaums abgebildet)
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue h_tree_node_id = 10005;</code>
+         * <code>.dstore.values.IntegerValue h_tree_node_id = 10005;</code>
          */
         public boolean hasHTreeNodeId() {
           return hTreeNodeIdBuilder_ != null || hTreeNodeId_ != null;
@@ -4404,7 +4404,7 @@ public final class StGetPersonPDStatisticsAd {
          * ID eines Elementes aus "HistoryTreeView" (in dieser ist die Historie des gesamten Artikelbaums abgebildet)
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue h_tree_node_id = 10005;</code>
+         * <code>.dstore.values.IntegerValue h_tree_node_id = 10005;</code>
          */
         public io.dstore.values.IntegerValue getHTreeNodeId() {
           if (hTreeNodeIdBuilder_ == null) {
@@ -4418,7 +4418,7 @@ public final class StGetPersonPDStatisticsAd {
          * ID eines Elementes aus "HistoryTreeView" (in dieser ist die Historie des gesamten Artikelbaums abgebildet)
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue h_tree_node_id = 10005;</code>
+         * <code>.dstore.values.IntegerValue h_tree_node_id = 10005;</code>
          */
         public Builder setHTreeNodeId(io.dstore.values.IntegerValue value) {
           if (hTreeNodeIdBuilder_ == null) {
@@ -4438,7 +4438,7 @@ public final class StGetPersonPDStatisticsAd {
          * ID eines Elementes aus "HistoryTreeView" (in dieser ist die Historie des gesamten Artikelbaums abgebildet)
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue h_tree_node_id = 10005;</code>
+         * <code>.dstore.values.IntegerValue h_tree_node_id = 10005;</code>
          */
         public Builder setHTreeNodeId(
             io.dstore.values.IntegerValue.Builder builderForValue) {
@@ -4456,7 +4456,7 @@ public final class StGetPersonPDStatisticsAd {
          * ID eines Elementes aus "HistoryTreeView" (in dieser ist die Historie des gesamten Artikelbaums abgebildet)
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue h_tree_node_id = 10005;</code>
+         * <code>.dstore.values.IntegerValue h_tree_node_id = 10005;</code>
          */
         public Builder mergeHTreeNodeId(io.dstore.values.IntegerValue value) {
           if (hTreeNodeIdBuilder_ == null) {
@@ -4478,7 +4478,7 @@ public final class StGetPersonPDStatisticsAd {
          * ID eines Elementes aus "HistoryTreeView" (in dieser ist die Historie des gesamten Artikelbaums abgebildet)
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue h_tree_node_id = 10005;</code>
+         * <code>.dstore.values.IntegerValue h_tree_node_id = 10005;</code>
          */
         public Builder clearHTreeNodeId() {
           if (hTreeNodeIdBuilder_ == null) {
@@ -4496,7 +4496,7 @@ public final class StGetPersonPDStatisticsAd {
          * ID eines Elementes aus "HistoryTreeView" (in dieser ist die Historie des gesamten Artikelbaums abgebildet)
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue h_tree_node_id = 10005;</code>
+         * <code>.dstore.values.IntegerValue h_tree_node_id = 10005;</code>
          */
         public io.dstore.values.IntegerValue.Builder getHTreeNodeIdBuilder() {
           
@@ -4508,7 +4508,7 @@ public final class StGetPersonPDStatisticsAd {
          * ID eines Elementes aus "HistoryTreeView" (in dieser ist die Historie des gesamten Artikelbaums abgebildet)
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue h_tree_node_id = 10005;</code>
+         * <code>.dstore.values.IntegerValue h_tree_node_id = 10005;</code>
          */
         public io.dstore.values.IntegerValueOrBuilder getHTreeNodeIdOrBuilder() {
           if (hTreeNodeIdBuilder_ != null) {
@@ -4523,7 +4523,7 @@ public final class StGetPersonPDStatisticsAd {
          * ID eines Elementes aus "HistoryTreeView" (in dieser ist die Historie des gesamten Artikelbaums abgebildet)
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue h_tree_node_id = 10005;</code>
+         * <code>.dstore.values.IntegerValue h_tree_node_id = 10005;</code>
          */
         private com.google.protobuf.SingleFieldBuilderV3<
             io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> 
@@ -4547,7 +4547,7 @@ public final class StGetPersonPDStatisticsAd {
          * Eigenschaft von "PersonID" zum 1. Merkmal, das in "PersonTypeSettings" zur "PersonTypeID" von "PersonID" zum Schlüssel "PersonOutputCharacteristics" konfiguriert ist (u. nicht für den Aufrufer kompl. lesend gesperrt ist, s. "pm_GetPChAccRestrForUsers_Ad")
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue value1 = 10006;</code>
+         * <code>.dstore.values.StringValue value1 = 10006;</code>
          */
         public boolean hasValue1() {
           return value1Builder_ != null || value1_ != null;
@@ -4557,7 +4557,7 @@ public final class StGetPersonPDStatisticsAd {
          * Eigenschaft von "PersonID" zum 1. Merkmal, das in "PersonTypeSettings" zur "PersonTypeID" von "PersonID" zum Schlüssel "PersonOutputCharacteristics" konfiguriert ist (u. nicht für den Aufrufer kompl. lesend gesperrt ist, s. "pm_GetPChAccRestrForUsers_Ad")
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue value1 = 10006;</code>
+         * <code>.dstore.values.StringValue value1 = 10006;</code>
          */
         public io.dstore.values.StringValue getValue1() {
           if (value1Builder_ == null) {
@@ -4571,7 +4571,7 @@ public final class StGetPersonPDStatisticsAd {
          * Eigenschaft von "PersonID" zum 1. Merkmal, das in "PersonTypeSettings" zur "PersonTypeID" von "PersonID" zum Schlüssel "PersonOutputCharacteristics" konfiguriert ist (u. nicht für den Aufrufer kompl. lesend gesperrt ist, s. "pm_GetPChAccRestrForUsers_Ad")
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue value1 = 10006;</code>
+         * <code>.dstore.values.StringValue value1 = 10006;</code>
          */
         public Builder setValue1(io.dstore.values.StringValue value) {
           if (value1Builder_ == null) {
@@ -4591,7 +4591,7 @@ public final class StGetPersonPDStatisticsAd {
          * Eigenschaft von "PersonID" zum 1. Merkmal, das in "PersonTypeSettings" zur "PersonTypeID" von "PersonID" zum Schlüssel "PersonOutputCharacteristics" konfiguriert ist (u. nicht für den Aufrufer kompl. lesend gesperrt ist, s. "pm_GetPChAccRestrForUsers_Ad")
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue value1 = 10006;</code>
+         * <code>.dstore.values.StringValue value1 = 10006;</code>
          */
         public Builder setValue1(
             io.dstore.values.StringValue.Builder builderForValue) {
@@ -4609,7 +4609,7 @@ public final class StGetPersonPDStatisticsAd {
          * Eigenschaft von "PersonID" zum 1. Merkmal, das in "PersonTypeSettings" zur "PersonTypeID" von "PersonID" zum Schlüssel "PersonOutputCharacteristics" konfiguriert ist (u. nicht für den Aufrufer kompl. lesend gesperrt ist, s. "pm_GetPChAccRestrForUsers_Ad")
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue value1 = 10006;</code>
+         * <code>.dstore.values.StringValue value1 = 10006;</code>
          */
         public Builder mergeValue1(io.dstore.values.StringValue value) {
           if (value1Builder_ == null) {
@@ -4631,7 +4631,7 @@ public final class StGetPersonPDStatisticsAd {
          * Eigenschaft von "PersonID" zum 1. Merkmal, das in "PersonTypeSettings" zur "PersonTypeID" von "PersonID" zum Schlüssel "PersonOutputCharacteristics" konfiguriert ist (u. nicht für den Aufrufer kompl. lesend gesperrt ist, s. "pm_GetPChAccRestrForUsers_Ad")
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue value1 = 10006;</code>
+         * <code>.dstore.values.StringValue value1 = 10006;</code>
          */
         public Builder clearValue1() {
           if (value1Builder_ == null) {
@@ -4649,7 +4649,7 @@ public final class StGetPersonPDStatisticsAd {
          * Eigenschaft von "PersonID" zum 1. Merkmal, das in "PersonTypeSettings" zur "PersonTypeID" von "PersonID" zum Schlüssel "PersonOutputCharacteristics" konfiguriert ist (u. nicht für den Aufrufer kompl. lesend gesperrt ist, s. "pm_GetPChAccRestrForUsers_Ad")
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue value1 = 10006;</code>
+         * <code>.dstore.values.StringValue value1 = 10006;</code>
          */
         public io.dstore.values.StringValue.Builder getValue1Builder() {
           
@@ -4661,7 +4661,7 @@ public final class StGetPersonPDStatisticsAd {
          * Eigenschaft von "PersonID" zum 1. Merkmal, das in "PersonTypeSettings" zur "PersonTypeID" von "PersonID" zum Schlüssel "PersonOutputCharacteristics" konfiguriert ist (u. nicht für den Aufrufer kompl. lesend gesperrt ist, s. "pm_GetPChAccRestrForUsers_Ad")
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue value1 = 10006;</code>
+         * <code>.dstore.values.StringValue value1 = 10006;</code>
          */
         public io.dstore.values.StringValueOrBuilder getValue1OrBuilder() {
           if (value1Builder_ != null) {
@@ -4676,7 +4676,7 @@ public final class StGetPersonPDStatisticsAd {
          * Eigenschaft von "PersonID" zum 1. Merkmal, das in "PersonTypeSettings" zur "PersonTypeID" von "PersonID" zum Schlüssel "PersonOutputCharacteristics" konfiguriert ist (u. nicht für den Aufrufer kompl. lesend gesperrt ist, s. "pm_GetPChAccRestrForUsers_Ad")
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue value1 = 10006;</code>
+         * <code>.dstore.values.StringValue value1 = 10006;</code>
          */
         private com.google.protobuf.SingleFieldBuilderV3<
             io.dstore.values.StringValue, io.dstore.values.StringValue.Builder, io.dstore.values.StringValueOrBuilder> 
@@ -4700,7 +4700,7 @@ public final class StGetPersonPDStatisticsAd {
          * Eigenschaft von "PersonID" zum 2. Merkmal, das in "PersonTypeSettings" zur "PersonTypeID" von "PersonID" zum Schlüssel "PersonOutputCharacteristics" konfiguriert ist (u. nicht für den Aufrufer kompl. lesend gesperrt ist, s. "pm_GetPChAccRestrForUsers_Ad")
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue value2 = 10007;</code>
+         * <code>.dstore.values.StringValue value2 = 10007;</code>
          */
         public boolean hasValue2() {
           return value2Builder_ != null || value2_ != null;
@@ -4710,7 +4710,7 @@ public final class StGetPersonPDStatisticsAd {
          * Eigenschaft von "PersonID" zum 2. Merkmal, das in "PersonTypeSettings" zur "PersonTypeID" von "PersonID" zum Schlüssel "PersonOutputCharacteristics" konfiguriert ist (u. nicht für den Aufrufer kompl. lesend gesperrt ist, s. "pm_GetPChAccRestrForUsers_Ad")
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue value2 = 10007;</code>
+         * <code>.dstore.values.StringValue value2 = 10007;</code>
          */
         public io.dstore.values.StringValue getValue2() {
           if (value2Builder_ == null) {
@@ -4724,7 +4724,7 @@ public final class StGetPersonPDStatisticsAd {
          * Eigenschaft von "PersonID" zum 2. Merkmal, das in "PersonTypeSettings" zur "PersonTypeID" von "PersonID" zum Schlüssel "PersonOutputCharacteristics" konfiguriert ist (u. nicht für den Aufrufer kompl. lesend gesperrt ist, s. "pm_GetPChAccRestrForUsers_Ad")
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue value2 = 10007;</code>
+         * <code>.dstore.values.StringValue value2 = 10007;</code>
          */
         public Builder setValue2(io.dstore.values.StringValue value) {
           if (value2Builder_ == null) {
@@ -4744,7 +4744,7 @@ public final class StGetPersonPDStatisticsAd {
          * Eigenschaft von "PersonID" zum 2. Merkmal, das in "PersonTypeSettings" zur "PersonTypeID" von "PersonID" zum Schlüssel "PersonOutputCharacteristics" konfiguriert ist (u. nicht für den Aufrufer kompl. lesend gesperrt ist, s. "pm_GetPChAccRestrForUsers_Ad")
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue value2 = 10007;</code>
+         * <code>.dstore.values.StringValue value2 = 10007;</code>
          */
         public Builder setValue2(
             io.dstore.values.StringValue.Builder builderForValue) {
@@ -4762,7 +4762,7 @@ public final class StGetPersonPDStatisticsAd {
          * Eigenschaft von "PersonID" zum 2. Merkmal, das in "PersonTypeSettings" zur "PersonTypeID" von "PersonID" zum Schlüssel "PersonOutputCharacteristics" konfiguriert ist (u. nicht für den Aufrufer kompl. lesend gesperrt ist, s. "pm_GetPChAccRestrForUsers_Ad")
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue value2 = 10007;</code>
+         * <code>.dstore.values.StringValue value2 = 10007;</code>
          */
         public Builder mergeValue2(io.dstore.values.StringValue value) {
           if (value2Builder_ == null) {
@@ -4784,7 +4784,7 @@ public final class StGetPersonPDStatisticsAd {
          * Eigenschaft von "PersonID" zum 2. Merkmal, das in "PersonTypeSettings" zur "PersonTypeID" von "PersonID" zum Schlüssel "PersonOutputCharacteristics" konfiguriert ist (u. nicht für den Aufrufer kompl. lesend gesperrt ist, s. "pm_GetPChAccRestrForUsers_Ad")
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue value2 = 10007;</code>
+         * <code>.dstore.values.StringValue value2 = 10007;</code>
          */
         public Builder clearValue2() {
           if (value2Builder_ == null) {
@@ -4802,7 +4802,7 @@ public final class StGetPersonPDStatisticsAd {
          * Eigenschaft von "PersonID" zum 2. Merkmal, das in "PersonTypeSettings" zur "PersonTypeID" von "PersonID" zum Schlüssel "PersonOutputCharacteristics" konfiguriert ist (u. nicht für den Aufrufer kompl. lesend gesperrt ist, s. "pm_GetPChAccRestrForUsers_Ad")
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue value2 = 10007;</code>
+         * <code>.dstore.values.StringValue value2 = 10007;</code>
          */
         public io.dstore.values.StringValue.Builder getValue2Builder() {
           
@@ -4814,7 +4814,7 @@ public final class StGetPersonPDStatisticsAd {
          * Eigenschaft von "PersonID" zum 2. Merkmal, das in "PersonTypeSettings" zur "PersonTypeID" von "PersonID" zum Schlüssel "PersonOutputCharacteristics" konfiguriert ist (u. nicht für den Aufrufer kompl. lesend gesperrt ist, s. "pm_GetPChAccRestrForUsers_Ad")
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue value2 = 10007;</code>
+         * <code>.dstore.values.StringValue value2 = 10007;</code>
          */
         public io.dstore.values.StringValueOrBuilder getValue2OrBuilder() {
           if (value2Builder_ != null) {
@@ -4829,7 +4829,7 @@ public final class StGetPersonPDStatisticsAd {
          * Eigenschaft von "PersonID" zum 2. Merkmal, das in "PersonTypeSettings" zur "PersonTypeID" von "PersonID" zum Schlüssel "PersonOutputCharacteristics" konfiguriert ist (u. nicht für den Aufrufer kompl. lesend gesperrt ist, s. "pm_GetPChAccRestrForUsers_Ad")
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue value2 = 10007;</code>
+         * <code>.dstore.values.StringValue value2 = 10007;</code>
          */
         private com.google.protobuf.SingleFieldBuilderV3<
             io.dstore.values.StringValue, io.dstore.values.StringValue.Builder, io.dstore.values.StringValueOrBuilder> 
@@ -4853,7 +4853,7 @@ public final class StGetPersonPDStatisticsAd {
          * Summe der DIREKTEN Einträge zur Person "PersonID" für das Element "HTreeNodeID" zur Basis-Kennzahl "BasicCharacteristicNumber" des Tages "Day" bzw. (falls "&#64;SummarizeDays = 1") im gesamten Zeitraum "&#64;FromDay" bis "&#64;ToDay"
          * </pre>
          *
-         * <code>optional .dstore.values.DecimalValue direct_value = 10008;</code>
+         * <code>.dstore.values.DecimalValue direct_value = 10008;</code>
          */
         public boolean hasDirectValue() {
           return directValueBuilder_ != null || directValue_ != null;
@@ -4863,7 +4863,7 @@ public final class StGetPersonPDStatisticsAd {
          * Summe der DIREKTEN Einträge zur Person "PersonID" für das Element "HTreeNodeID" zur Basis-Kennzahl "BasicCharacteristicNumber" des Tages "Day" bzw. (falls "&#64;SummarizeDays = 1") im gesamten Zeitraum "&#64;FromDay" bis "&#64;ToDay"
          * </pre>
          *
-         * <code>optional .dstore.values.DecimalValue direct_value = 10008;</code>
+         * <code>.dstore.values.DecimalValue direct_value = 10008;</code>
          */
         public io.dstore.values.DecimalValue getDirectValue() {
           if (directValueBuilder_ == null) {
@@ -4877,7 +4877,7 @@ public final class StGetPersonPDStatisticsAd {
          * Summe der DIREKTEN Einträge zur Person "PersonID" für das Element "HTreeNodeID" zur Basis-Kennzahl "BasicCharacteristicNumber" des Tages "Day" bzw. (falls "&#64;SummarizeDays = 1") im gesamten Zeitraum "&#64;FromDay" bis "&#64;ToDay"
          * </pre>
          *
-         * <code>optional .dstore.values.DecimalValue direct_value = 10008;</code>
+         * <code>.dstore.values.DecimalValue direct_value = 10008;</code>
          */
         public Builder setDirectValue(io.dstore.values.DecimalValue value) {
           if (directValueBuilder_ == null) {
@@ -4897,7 +4897,7 @@ public final class StGetPersonPDStatisticsAd {
          * Summe der DIREKTEN Einträge zur Person "PersonID" für das Element "HTreeNodeID" zur Basis-Kennzahl "BasicCharacteristicNumber" des Tages "Day" bzw. (falls "&#64;SummarizeDays = 1") im gesamten Zeitraum "&#64;FromDay" bis "&#64;ToDay"
          * </pre>
          *
-         * <code>optional .dstore.values.DecimalValue direct_value = 10008;</code>
+         * <code>.dstore.values.DecimalValue direct_value = 10008;</code>
          */
         public Builder setDirectValue(
             io.dstore.values.DecimalValue.Builder builderForValue) {
@@ -4915,7 +4915,7 @@ public final class StGetPersonPDStatisticsAd {
          * Summe der DIREKTEN Einträge zur Person "PersonID" für das Element "HTreeNodeID" zur Basis-Kennzahl "BasicCharacteristicNumber" des Tages "Day" bzw. (falls "&#64;SummarizeDays = 1") im gesamten Zeitraum "&#64;FromDay" bis "&#64;ToDay"
          * </pre>
          *
-         * <code>optional .dstore.values.DecimalValue direct_value = 10008;</code>
+         * <code>.dstore.values.DecimalValue direct_value = 10008;</code>
          */
         public Builder mergeDirectValue(io.dstore.values.DecimalValue value) {
           if (directValueBuilder_ == null) {
@@ -4937,7 +4937,7 @@ public final class StGetPersonPDStatisticsAd {
          * Summe der DIREKTEN Einträge zur Person "PersonID" für das Element "HTreeNodeID" zur Basis-Kennzahl "BasicCharacteristicNumber" des Tages "Day" bzw. (falls "&#64;SummarizeDays = 1") im gesamten Zeitraum "&#64;FromDay" bis "&#64;ToDay"
          * </pre>
          *
-         * <code>optional .dstore.values.DecimalValue direct_value = 10008;</code>
+         * <code>.dstore.values.DecimalValue direct_value = 10008;</code>
          */
         public Builder clearDirectValue() {
           if (directValueBuilder_ == null) {
@@ -4955,7 +4955,7 @@ public final class StGetPersonPDStatisticsAd {
          * Summe der DIREKTEN Einträge zur Person "PersonID" für das Element "HTreeNodeID" zur Basis-Kennzahl "BasicCharacteristicNumber" des Tages "Day" bzw. (falls "&#64;SummarizeDays = 1") im gesamten Zeitraum "&#64;FromDay" bis "&#64;ToDay"
          * </pre>
          *
-         * <code>optional .dstore.values.DecimalValue direct_value = 10008;</code>
+         * <code>.dstore.values.DecimalValue direct_value = 10008;</code>
          */
         public io.dstore.values.DecimalValue.Builder getDirectValueBuilder() {
           
@@ -4967,7 +4967,7 @@ public final class StGetPersonPDStatisticsAd {
          * Summe der DIREKTEN Einträge zur Person "PersonID" für das Element "HTreeNodeID" zur Basis-Kennzahl "BasicCharacteristicNumber" des Tages "Day" bzw. (falls "&#64;SummarizeDays = 1") im gesamten Zeitraum "&#64;FromDay" bis "&#64;ToDay"
          * </pre>
          *
-         * <code>optional .dstore.values.DecimalValue direct_value = 10008;</code>
+         * <code>.dstore.values.DecimalValue direct_value = 10008;</code>
          */
         public io.dstore.values.DecimalValueOrBuilder getDirectValueOrBuilder() {
           if (directValueBuilder_ != null) {
@@ -4982,7 +4982,7 @@ public final class StGetPersonPDStatisticsAd {
          * Summe der DIREKTEN Einträge zur Person "PersonID" für das Element "HTreeNodeID" zur Basis-Kennzahl "BasicCharacteristicNumber" des Tages "Day" bzw. (falls "&#64;SummarizeDays = 1") im gesamten Zeitraum "&#64;FromDay" bis "&#64;ToDay"
          * </pre>
          *
-         * <code>optional .dstore.values.DecimalValue direct_value = 10008;</code>
+         * <code>.dstore.values.DecimalValue direct_value = 10008;</code>
          */
         private com.google.protobuf.SingleFieldBuilderV3<
             io.dstore.values.DecimalValue, io.dstore.values.DecimalValue.Builder, io.dstore.values.DecimalValueOrBuilder> 
@@ -5006,7 +5006,7 @@ public final class StGetPersonPDStatisticsAd {
          * Ein (Tages-)Datum im Zeitraum "&#64;FromDate" bis "&#64;ToDate". "NULL", falls "&#64;SummarizeDays = 1" angegeben wurde.
          * </pre>
          *
-         * <code>optional .dstore.values.TimestampValue day = 10009;</code>
+         * <code>.dstore.values.TimestampValue day = 10009;</code>
          */
         public boolean hasDay() {
           return dayBuilder_ != null || day_ != null;
@@ -5016,7 +5016,7 @@ public final class StGetPersonPDStatisticsAd {
          * Ein (Tages-)Datum im Zeitraum "&#64;FromDate" bis "&#64;ToDate". "NULL", falls "&#64;SummarizeDays = 1" angegeben wurde.
          * </pre>
          *
-         * <code>optional .dstore.values.TimestampValue day = 10009;</code>
+         * <code>.dstore.values.TimestampValue day = 10009;</code>
          */
         public io.dstore.values.TimestampValue getDay() {
           if (dayBuilder_ == null) {
@@ -5030,7 +5030,7 @@ public final class StGetPersonPDStatisticsAd {
          * Ein (Tages-)Datum im Zeitraum "&#64;FromDate" bis "&#64;ToDate". "NULL", falls "&#64;SummarizeDays = 1" angegeben wurde.
          * </pre>
          *
-         * <code>optional .dstore.values.TimestampValue day = 10009;</code>
+         * <code>.dstore.values.TimestampValue day = 10009;</code>
          */
         public Builder setDay(io.dstore.values.TimestampValue value) {
           if (dayBuilder_ == null) {
@@ -5050,7 +5050,7 @@ public final class StGetPersonPDStatisticsAd {
          * Ein (Tages-)Datum im Zeitraum "&#64;FromDate" bis "&#64;ToDate". "NULL", falls "&#64;SummarizeDays = 1" angegeben wurde.
          * </pre>
          *
-         * <code>optional .dstore.values.TimestampValue day = 10009;</code>
+         * <code>.dstore.values.TimestampValue day = 10009;</code>
          */
         public Builder setDay(
             io.dstore.values.TimestampValue.Builder builderForValue) {
@@ -5068,7 +5068,7 @@ public final class StGetPersonPDStatisticsAd {
          * Ein (Tages-)Datum im Zeitraum "&#64;FromDate" bis "&#64;ToDate". "NULL", falls "&#64;SummarizeDays = 1" angegeben wurde.
          * </pre>
          *
-         * <code>optional .dstore.values.TimestampValue day = 10009;</code>
+         * <code>.dstore.values.TimestampValue day = 10009;</code>
          */
         public Builder mergeDay(io.dstore.values.TimestampValue value) {
           if (dayBuilder_ == null) {
@@ -5090,7 +5090,7 @@ public final class StGetPersonPDStatisticsAd {
          * Ein (Tages-)Datum im Zeitraum "&#64;FromDate" bis "&#64;ToDate". "NULL", falls "&#64;SummarizeDays = 1" angegeben wurde.
          * </pre>
          *
-         * <code>optional .dstore.values.TimestampValue day = 10009;</code>
+         * <code>.dstore.values.TimestampValue day = 10009;</code>
          */
         public Builder clearDay() {
           if (dayBuilder_ == null) {
@@ -5108,7 +5108,7 @@ public final class StGetPersonPDStatisticsAd {
          * Ein (Tages-)Datum im Zeitraum "&#64;FromDate" bis "&#64;ToDate". "NULL", falls "&#64;SummarizeDays = 1" angegeben wurde.
          * </pre>
          *
-         * <code>optional .dstore.values.TimestampValue day = 10009;</code>
+         * <code>.dstore.values.TimestampValue day = 10009;</code>
          */
         public io.dstore.values.TimestampValue.Builder getDayBuilder() {
           
@@ -5120,7 +5120,7 @@ public final class StGetPersonPDStatisticsAd {
          * Ein (Tages-)Datum im Zeitraum "&#64;FromDate" bis "&#64;ToDate". "NULL", falls "&#64;SummarizeDays = 1" angegeben wurde.
          * </pre>
          *
-         * <code>optional .dstore.values.TimestampValue day = 10009;</code>
+         * <code>.dstore.values.TimestampValue day = 10009;</code>
          */
         public io.dstore.values.TimestampValueOrBuilder getDayOrBuilder() {
           if (dayBuilder_ != null) {
@@ -5135,7 +5135,7 @@ public final class StGetPersonPDStatisticsAd {
          * Ein (Tages-)Datum im Zeitraum "&#64;FromDate" bis "&#64;ToDate". "NULL", falls "&#64;SummarizeDays = 1" angegeben wurde.
          * </pre>
          *
-         * <code>optional .dstore.values.TimestampValue day = 10009;</code>
+         * <code>.dstore.values.TimestampValue day = 10009;</code>
          */
         private com.google.protobuf.SingleFieldBuilderV3<
             io.dstore.values.TimestampValue, io.dstore.values.TimestampValue.Builder, io.dstore.values.TimestampValueOrBuilder> 
@@ -5159,7 +5159,7 @@ public final class StGetPersonPDStatisticsAd {
          * Nummer einer Basis-Kennzahl
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue basic_characteristic_number = 10010;</code>
+         * <code>.dstore.values.IntegerValue basic_characteristic_number = 10010;</code>
          */
         public boolean hasBasicCharacteristicNumber() {
           return basicCharacteristicNumberBuilder_ != null || basicCharacteristicNumber_ != null;
@@ -5169,7 +5169,7 @@ public final class StGetPersonPDStatisticsAd {
          * Nummer einer Basis-Kennzahl
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue basic_characteristic_number = 10010;</code>
+         * <code>.dstore.values.IntegerValue basic_characteristic_number = 10010;</code>
          */
         public io.dstore.values.IntegerValue getBasicCharacteristicNumber() {
           if (basicCharacteristicNumberBuilder_ == null) {
@@ -5183,7 +5183,7 @@ public final class StGetPersonPDStatisticsAd {
          * Nummer einer Basis-Kennzahl
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue basic_characteristic_number = 10010;</code>
+         * <code>.dstore.values.IntegerValue basic_characteristic_number = 10010;</code>
          */
         public Builder setBasicCharacteristicNumber(io.dstore.values.IntegerValue value) {
           if (basicCharacteristicNumberBuilder_ == null) {
@@ -5203,7 +5203,7 @@ public final class StGetPersonPDStatisticsAd {
          * Nummer einer Basis-Kennzahl
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue basic_characteristic_number = 10010;</code>
+         * <code>.dstore.values.IntegerValue basic_characteristic_number = 10010;</code>
          */
         public Builder setBasicCharacteristicNumber(
             io.dstore.values.IntegerValue.Builder builderForValue) {
@@ -5221,7 +5221,7 @@ public final class StGetPersonPDStatisticsAd {
          * Nummer einer Basis-Kennzahl
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue basic_characteristic_number = 10010;</code>
+         * <code>.dstore.values.IntegerValue basic_characteristic_number = 10010;</code>
          */
         public Builder mergeBasicCharacteristicNumber(io.dstore.values.IntegerValue value) {
           if (basicCharacteristicNumberBuilder_ == null) {
@@ -5243,7 +5243,7 @@ public final class StGetPersonPDStatisticsAd {
          * Nummer einer Basis-Kennzahl
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue basic_characteristic_number = 10010;</code>
+         * <code>.dstore.values.IntegerValue basic_characteristic_number = 10010;</code>
          */
         public Builder clearBasicCharacteristicNumber() {
           if (basicCharacteristicNumberBuilder_ == null) {
@@ -5261,7 +5261,7 @@ public final class StGetPersonPDStatisticsAd {
          * Nummer einer Basis-Kennzahl
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue basic_characteristic_number = 10010;</code>
+         * <code>.dstore.values.IntegerValue basic_characteristic_number = 10010;</code>
          */
         public io.dstore.values.IntegerValue.Builder getBasicCharacteristicNumberBuilder() {
           
@@ -5273,7 +5273,7 @@ public final class StGetPersonPDStatisticsAd {
          * Nummer einer Basis-Kennzahl
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue basic_characteristic_number = 10010;</code>
+         * <code>.dstore.values.IntegerValue basic_characteristic_number = 10010;</code>
          */
         public io.dstore.values.IntegerValueOrBuilder getBasicCharacteristicNumberOrBuilder() {
           if (basicCharacteristicNumberBuilder_ != null) {
@@ -5288,7 +5288,7 @@ public final class StGetPersonPDStatisticsAd {
          * Nummer einer Basis-Kennzahl
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue basic_characteristic_number = 10010;</code>
+         * <code>.dstore.values.IntegerValue basic_characteristic_number = 10010;</code>
          */
         private com.google.protobuf.SingleFieldBuilderV3<
             io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> 
@@ -5548,7 +5548,7 @@ public final class StGetPersonPDStatisticsAd {
         return memoizedHashCode;
       }
       int hash = 41;
-      hash = (19 * hash) + getDescriptorForType().hashCode();
+      hash = (19 * hash) + getDescriptor().hashCode();
       if (getMetaInformationCount() > 0) {
         hash = (37 * hash) + META_INFORMATION_FIELD_NUMBER;
         hash = (53 * hash) + getMetaInformationList().hashCode();

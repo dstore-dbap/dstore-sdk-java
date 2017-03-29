@@ -19,182 +19,182 @@ public final class FoModifyMainPostSortCritAd {
       com.google.protobuf.MessageOrBuilder {
 
     /**
-     * <code>optional .dstore.values.IntegerValue forum_id = 1;</code>
+     * <code>.dstore.values.IntegerValue forum_id = 1;</code>
      */
     boolean hasForumId();
     /**
-     * <code>optional .dstore.values.IntegerValue forum_id = 1;</code>
+     * <code>.dstore.values.IntegerValue forum_id = 1;</code>
      */
     io.dstore.values.IntegerValue getForumId();
     /**
-     * <code>optional .dstore.values.IntegerValue forum_id = 1;</code>
+     * <code>.dstore.values.IntegerValue forum_id = 1;</code>
      */
     io.dstore.values.IntegerValueOrBuilder getForumIdOrBuilder();
 
     /**
-     * <code>optional bool forum_id_null = 1001;</code>
+     * <code>bool forum_id_null = 1001;</code>
      */
     boolean getForumIdNull();
 
     /**
-     * <code>optional .dstore.values.IntegerValue sorting_criteria_no = 2;</code>
+     * <code>.dstore.values.IntegerValue sorting_criteria_no = 2;</code>
      */
     boolean hasSortingCriteriaNo();
     /**
-     * <code>optional .dstore.values.IntegerValue sorting_criteria_no = 2;</code>
+     * <code>.dstore.values.IntegerValue sorting_criteria_no = 2;</code>
      */
     io.dstore.values.IntegerValue getSortingCriteriaNo();
     /**
-     * <code>optional .dstore.values.IntegerValue sorting_criteria_no = 2;</code>
+     * <code>.dstore.values.IntegerValue sorting_criteria_no = 2;</code>
      */
     io.dstore.values.IntegerValueOrBuilder getSortingCriteriaNoOrBuilder();
 
     /**
-     * <code>optional bool sorting_criteria_no_null = 1002;</code>
+     * <code>bool sorting_criteria_no_null = 1002;</code>
      */
     boolean getSortingCriteriaNoNull();
 
     /**
-     * <code>optional .dstore.values.IntegerValue sorting_criteriafirst = 3;</code>
+     * <code>.dstore.values.IntegerValue sorting_criteriafirst = 3;</code>
      */
     boolean hasSortingCriteriafirst();
     /**
-     * <code>optional .dstore.values.IntegerValue sorting_criteriafirst = 3;</code>
+     * <code>.dstore.values.IntegerValue sorting_criteriafirst = 3;</code>
      */
     io.dstore.values.IntegerValue getSortingCriteriafirst();
     /**
-     * <code>optional .dstore.values.IntegerValue sorting_criteriafirst = 3;</code>
+     * <code>.dstore.values.IntegerValue sorting_criteriafirst = 3;</code>
      */
     io.dstore.values.IntegerValueOrBuilder getSortingCriteriafirstOrBuilder();
 
     /**
-     * <code>optional bool sorting_criteriafirst_null = 1003;</code>
+     * <code>bool sorting_criteriafirst_null = 1003;</code>
      */
     boolean getSortingCriteriafirstNull();
 
     /**
-     * <code>optional .dstore.values.IntegerValue sorting_optionsfirst = 4;</code>
+     * <code>.dstore.values.IntegerValue sorting_optionsfirst = 4;</code>
      */
     boolean hasSortingOptionsfirst();
     /**
-     * <code>optional .dstore.values.IntegerValue sorting_optionsfirst = 4;</code>
+     * <code>.dstore.values.IntegerValue sorting_optionsfirst = 4;</code>
      */
     io.dstore.values.IntegerValue getSortingOptionsfirst();
     /**
-     * <code>optional .dstore.values.IntegerValue sorting_optionsfirst = 4;</code>
+     * <code>.dstore.values.IntegerValue sorting_optionsfirst = 4;</code>
      */
     io.dstore.values.IntegerValueOrBuilder getSortingOptionsfirstOrBuilder();
 
     /**
-     * <code>optional bool sorting_optionsfirst_null = 1004;</code>
+     * <code>bool sorting_optionsfirst_null = 1004;</code>
      */
     boolean getSortingOptionsfirstNull();
 
     /**
-     * <code>optional .dstore.values.IntegerValue sorting_criteriasecond = 5;</code>
+     * <code>.dstore.values.IntegerValue sorting_criteriasecond = 5;</code>
      */
     boolean hasSortingCriteriasecond();
     /**
-     * <code>optional .dstore.values.IntegerValue sorting_criteriasecond = 5;</code>
+     * <code>.dstore.values.IntegerValue sorting_criteriasecond = 5;</code>
      */
     io.dstore.values.IntegerValue getSortingCriteriasecond();
     /**
-     * <code>optional .dstore.values.IntegerValue sorting_criteriasecond = 5;</code>
+     * <code>.dstore.values.IntegerValue sorting_criteriasecond = 5;</code>
      */
     io.dstore.values.IntegerValueOrBuilder getSortingCriteriasecondOrBuilder();
 
     /**
-     * <code>optional bool sorting_criteriasecond_null = 1005;</code>
+     * <code>bool sorting_criteriasecond_null = 1005;</code>
      */
     boolean getSortingCriteriasecondNull();
 
     /**
-     * <code>optional .dstore.values.IntegerValue sorting_optionssecond = 6;</code>
+     * <code>.dstore.values.IntegerValue sorting_optionssecond = 6;</code>
      */
     boolean hasSortingOptionssecond();
     /**
-     * <code>optional .dstore.values.IntegerValue sorting_optionssecond = 6;</code>
+     * <code>.dstore.values.IntegerValue sorting_optionssecond = 6;</code>
      */
     io.dstore.values.IntegerValue getSortingOptionssecond();
     /**
-     * <code>optional .dstore.values.IntegerValue sorting_optionssecond = 6;</code>
+     * <code>.dstore.values.IntegerValue sorting_optionssecond = 6;</code>
      */
     io.dstore.values.IntegerValueOrBuilder getSortingOptionssecondOrBuilder();
 
     /**
-     * <code>optional bool sorting_optionssecond_null = 1006;</code>
+     * <code>bool sorting_optionssecond_null = 1006;</code>
      */
     boolean getSortingOptionssecondNull();
 
     /**
-     * <code>optional .dstore.values.IntegerValue sorting_criteriathird = 7;</code>
+     * <code>.dstore.values.IntegerValue sorting_criteriathird = 7;</code>
      */
     boolean hasSortingCriteriathird();
     /**
-     * <code>optional .dstore.values.IntegerValue sorting_criteriathird = 7;</code>
+     * <code>.dstore.values.IntegerValue sorting_criteriathird = 7;</code>
      */
     io.dstore.values.IntegerValue getSortingCriteriathird();
     /**
-     * <code>optional .dstore.values.IntegerValue sorting_criteriathird = 7;</code>
+     * <code>.dstore.values.IntegerValue sorting_criteriathird = 7;</code>
      */
     io.dstore.values.IntegerValueOrBuilder getSortingCriteriathirdOrBuilder();
 
     /**
-     * <code>optional bool sorting_criteriathird_null = 1007;</code>
+     * <code>bool sorting_criteriathird_null = 1007;</code>
      */
     boolean getSortingCriteriathirdNull();
 
     /**
-     * <code>optional .dstore.values.IntegerValue sorting_optionsthird = 8;</code>
+     * <code>.dstore.values.IntegerValue sorting_optionsthird = 8;</code>
      */
     boolean hasSortingOptionsthird();
     /**
-     * <code>optional .dstore.values.IntegerValue sorting_optionsthird = 8;</code>
+     * <code>.dstore.values.IntegerValue sorting_optionsthird = 8;</code>
      */
     io.dstore.values.IntegerValue getSortingOptionsthird();
     /**
-     * <code>optional .dstore.values.IntegerValue sorting_optionsthird = 8;</code>
+     * <code>.dstore.values.IntegerValue sorting_optionsthird = 8;</code>
      */
     io.dstore.values.IntegerValueOrBuilder getSortingOptionsthirdOrBuilder();
 
     /**
-     * <code>optional bool sorting_optionsthird_null = 1008;</code>
+     * <code>bool sorting_optionsthird_null = 1008;</code>
      */
     boolean getSortingOptionsthirdNull();
 
     /**
-     * <code>optional .dstore.values.BooleanValue activate_criteria = 9;</code>
+     * <code>.dstore.values.BooleanValue activate_criteria = 9;</code>
      */
     boolean hasActivateCriteria();
     /**
-     * <code>optional .dstore.values.BooleanValue activate_criteria = 9;</code>
+     * <code>.dstore.values.BooleanValue activate_criteria = 9;</code>
      */
     io.dstore.values.BooleanValue getActivateCriteria();
     /**
-     * <code>optional .dstore.values.BooleanValue activate_criteria = 9;</code>
+     * <code>.dstore.values.BooleanValue activate_criteria = 9;</code>
      */
     io.dstore.values.BooleanValueOrBuilder getActivateCriteriaOrBuilder();
 
     /**
-     * <code>optional bool activate_criteria_null = 1009;</code>
+     * <code>bool activate_criteria_null = 1009;</code>
      */
     boolean getActivateCriteriaNull();
 
     /**
-     * <code>optional .dstore.values.BooleanValue delete_criteria = 10;</code>
+     * <code>.dstore.values.BooleanValue delete_criteria = 10;</code>
      */
     boolean hasDeleteCriteria();
     /**
-     * <code>optional .dstore.values.BooleanValue delete_criteria = 10;</code>
+     * <code>.dstore.values.BooleanValue delete_criteria = 10;</code>
      */
     io.dstore.values.BooleanValue getDeleteCriteria();
     /**
-     * <code>optional .dstore.values.BooleanValue delete_criteria = 10;</code>
+     * <code>.dstore.values.BooleanValue delete_criteria = 10;</code>
      */
     io.dstore.values.BooleanValueOrBuilder getDeleteCriteriaOrBuilder();
 
     /**
-     * <code>optional bool delete_criteria_null = 1010;</code>
+     * <code>bool delete_criteria_null = 1010;</code>
      */
     boolean getDeleteCriteriaNull();
   }
@@ -453,19 +453,19 @@ public final class FoModifyMainPostSortCritAd {
     public static final int FORUM_ID_FIELD_NUMBER = 1;
     private io.dstore.values.IntegerValue forumId_;
     /**
-     * <code>optional .dstore.values.IntegerValue forum_id = 1;</code>
+     * <code>.dstore.values.IntegerValue forum_id = 1;</code>
      */
     public boolean hasForumId() {
       return forumId_ != null;
     }
     /**
-     * <code>optional .dstore.values.IntegerValue forum_id = 1;</code>
+     * <code>.dstore.values.IntegerValue forum_id = 1;</code>
      */
     public io.dstore.values.IntegerValue getForumId() {
       return forumId_ == null ? io.dstore.values.IntegerValue.getDefaultInstance() : forumId_;
     }
     /**
-     * <code>optional .dstore.values.IntegerValue forum_id = 1;</code>
+     * <code>.dstore.values.IntegerValue forum_id = 1;</code>
      */
     public io.dstore.values.IntegerValueOrBuilder getForumIdOrBuilder() {
       return getForumId();
@@ -474,7 +474,7 @@ public final class FoModifyMainPostSortCritAd {
     public static final int FORUM_ID_NULL_FIELD_NUMBER = 1001;
     private boolean forumIdNull_;
     /**
-     * <code>optional bool forum_id_null = 1001;</code>
+     * <code>bool forum_id_null = 1001;</code>
      */
     public boolean getForumIdNull() {
       return forumIdNull_;
@@ -483,19 +483,19 @@ public final class FoModifyMainPostSortCritAd {
     public static final int SORTING_CRITERIA_NO_FIELD_NUMBER = 2;
     private io.dstore.values.IntegerValue sortingCriteriaNo_;
     /**
-     * <code>optional .dstore.values.IntegerValue sorting_criteria_no = 2;</code>
+     * <code>.dstore.values.IntegerValue sorting_criteria_no = 2;</code>
      */
     public boolean hasSortingCriteriaNo() {
       return sortingCriteriaNo_ != null;
     }
     /**
-     * <code>optional .dstore.values.IntegerValue sorting_criteria_no = 2;</code>
+     * <code>.dstore.values.IntegerValue sorting_criteria_no = 2;</code>
      */
     public io.dstore.values.IntegerValue getSortingCriteriaNo() {
       return sortingCriteriaNo_ == null ? io.dstore.values.IntegerValue.getDefaultInstance() : sortingCriteriaNo_;
     }
     /**
-     * <code>optional .dstore.values.IntegerValue sorting_criteria_no = 2;</code>
+     * <code>.dstore.values.IntegerValue sorting_criteria_no = 2;</code>
      */
     public io.dstore.values.IntegerValueOrBuilder getSortingCriteriaNoOrBuilder() {
       return getSortingCriteriaNo();
@@ -504,7 +504,7 @@ public final class FoModifyMainPostSortCritAd {
     public static final int SORTING_CRITERIA_NO_NULL_FIELD_NUMBER = 1002;
     private boolean sortingCriteriaNoNull_;
     /**
-     * <code>optional bool sorting_criteria_no_null = 1002;</code>
+     * <code>bool sorting_criteria_no_null = 1002;</code>
      */
     public boolean getSortingCriteriaNoNull() {
       return sortingCriteriaNoNull_;
@@ -513,19 +513,19 @@ public final class FoModifyMainPostSortCritAd {
     public static final int SORTING_CRITERIAFIRST_FIELD_NUMBER = 3;
     private io.dstore.values.IntegerValue sortingCriteriafirst_;
     /**
-     * <code>optional .dstore.values.IntegerValue sorting_criteriafirst = 3;</code>
+     * <code>.dstore.values.IntegerValue sorting_criteriafirst = 3;</code>
      */
     public boolean hasSortingCriteriafirst() {
       return sortingCriteriafirst_ != null;
     }
     /**
-     * <code>optional .dstore.values.IntegerValue sorting_criteriafirst = 3;</code>
+     * <code>.dstore.values.IntegerValue sorting_criteriafirst = 3;</code>
      */
     public io.dstore.values.IntegerValue getSortingCriteriafirst() {
       return sortingCriteriafirst_ == null ? io.dstore.values.IntegerValue.getDefaultInstance() : sortingCriteriafirst_;
     }
     /**
-     * <code>optional .dstore.values.IntegerValue sorting_criteriafirst = 3;</code>
+     * <code>.dstore.values.IntegerValue sorting_criteriafirst = 3;</code>
      */
     public io.dstore.values.IntegerValueOrBuilder getSortingCriteriafirstOrBuilder() {
       return getSortingCriteriafirst();
@@ -534,7 +534,7 @@ public final class FoModifyMainPostSortCritAd {
     public static final int SORTING_CRITERIAFIRST_NULL_FIELD_NUMBER = 1003;
     private boolean sortingCriteriafirstNull_;
     /**
-     * <code>optional bool sorting_criteriafirst_null = 1003;</code>
+     * <code>bool sorting_criteriafirst_null = 1003;</code>
      */
     public boolean getSortingCriteriafirstNull() {
       return sortingCriteriafirstNull_;
@@ -543,19 +543,19 @@ public final class FoModifyMainPostSortCritAd {
     public static final int SORTING_OPTIONSFIRST_FIELD_NUMBER = 4;
     private io.dstore.values.IntegerValue sortingOptionsfirst_;
     /**
-     * <code>optional .dstore.values.IntegerValue sorting_optionsfirst = 4;</code>
+     * <code>.dstore.values.IntegerValue sorting_optionsfirst = 4;</code>
      */
     public boolean hasSortingOptionsfirst() {
       return sortingOptionsfirst_ != null;
     }
     /**
-     * <code>optional .dstore.values.IntegerValue sorting_optionsfirst = 4;</code>
+     * <code>.dstore.values.IntegerValue sorting_optionsfirst = 4;</code>
      */
     public io.dstore.values.IntegerValue getSortingOptionsfirst() {
       return sortingOptionsfirst_ == null ? io.dstore.values.IntegerValue.getDefaultInstance() : sortingOptionsfirst_;
     }
     /**
-     * <code>optional .dstore.values.IntegerValue sorting_optionsfirst = 4;</code>
+     * <code>.dstore.values.IntegerValue sorting_optionsfirst = 4;</code>
      */
     public io.dstore.values.IntegerValueOrBuilder getSortingOptionsfirstOrBuilder() {
       return getSortingOptionsfirst();
@@ -564,7 +564,7 @@ public final class FoModifyMainPostSortCritAd {
     public static final int SORTING_OPTIONSFIRST_NULL_FIELD_NUMBER = 1004;
     private boolean sortingOptionsfirstNull_;
     /**
-     * <code>optional bool sorting_optionsfirst_null = 1004;</code>
+     * <code>bool sorting_optionsfirst_null = 1004;</code>
      */
     public boolean getSortingOptionsfirstNull() {
       return sortingOptionsfirstNull_;
@@ -573,19 +573,19 @@ public final class FoModifyMainPostSortCritAd {
     public static final int SORTING_CRITERIASECOND_FIELD_NUMBER = 5;
     private io.dstore.values.IntegerValue sortingCriteriasecond_;
     /**
-     * <code>optional .dstore.values.IntegerValue sorting_criteriasecond = 5;</code>
+     * <code>.dstore.values.IntegerValue sorting_criteriasecond = 5;</code>
      */
     public boolean hasSortingCriteriasecond() {
       return sortingCriteriasecond_ != null;
     }
     /**
-     * <code>optional .dstore.values.IntegerValue sorting_criteriasecond = 5;</code>
+     * <code>.dstore.values.IntegerValue sorting_criteriasecond = 5;</code>
      */
     public io.dstore.values.IntegerValue getSortingCriteriasecond() {
       return sortingCriteriasecond_ == null ? io.dstore.values.IntegerValue.getDefaultInstance() : sortingCriteriasecond_;
     }
     /**
-     * <code>optional .dstore.values.IntegerValue sorting_criteriasecond = 5;</code>
+     * <code>.dstore.values.IntegerValue sorting_criteriasecond = 5;</code>
      */
     public io.dstore.values.IntegerValueOrBuilder getSortingCriteriasecondOrBuilder() {
       return getSortingCriteriasecond();
@@ -594,7 +594,7 @@ public final class FoModifyMainPostSortCritAd {
     public static final int SORTING_CRITERIASECOND_NULL_FIELD_NUMBER = 1005;
     private boolean sortingCriteriasecondNull_;
     /**
-     * <code>optional bool sorting_criteriasecond_null = 1005;</code>
+     * <code>bool sorting_criteriasecond_null = 1005;</code>
      */
     public boolean getSortingCriteriasecondNull() {
       return sortingCriteriasecondNull_;
@@ -603,19 +603,19 @@ public final class FoModifyMainPostSortCritAd {
     public static final int SORTING_OPTIONSSECOND_FIELD_NUMBER = 6;
     private io.dstore.values.IntegerValue sortingOptionssecond_;
     /**
-     * <code>optional .dstore.values.IntegerValue sorting_optionssecond = 6;</code>
+     * <code>.dstore.values.IntegerValue sorting_optionssecond = 6;</code>
      */
     public boolean hasSortingOptionssecond() {
       return sortingOptionssecond_ != null;
     }
     /**
-     * <code>optional .dstore.values.IntegerValue sorting_optionssecond = 6;</code>
+     * <code>.dstore.values.IntegerValue sorting_optionssecond = 6;</code>
      */
     public io.dstore.values.IntegerValue getSortingOptionssecond() {
       return sortingOptionssecond_ == null ? io.dstore.values.IntegerValue.getDefaultInstance() : sortingOptionssecond_;
     }
     /**
-     * <code>optional .dstore.values.IntegerValue sorting_optionssecond = 6;</code>
+     * <code>.dstore.values.IntegerValue sorting_optionssecond = 6;</code>
      */
     public io.dstore.values.IntegerValueOrBuilder getSortingOptionssecondOrBuilder() {
       return getSortingOptionssecond();
@@ -624,7 +624,7 @@ public final class FoModifyMainPostSortCritAd {
     public static final int SORTING_OPTIONSSECOND_NULL_FIELD_NUMBER = 1006;
     private boolean sortingOptionssecondNull_;
     /**
-     * <code>optional bool sorting_optionssecond_null = 1006;</code>
+     * <code>bool sorting_optionssecond_null = 1006;</code>
      */
     public boolean getSortingOptionssecondNull() {
       return sortingOptionssecondNull_;
@@ -633,19 +633,19 @@ public final class FoModifyMainPostSortCritAd {
     public static final int SORTING_CRITERIATHIRD_FIELD_NUMBER = 7;
     private io.dstore.values.IntegerValue sortingCriteriathird_;
     /**
-     * <code>optional .dstore.values.IntegerValue sorting_criteriathird = 7;</code>
+     * <code>.dstore.values.IntegerValue sorting_criteriathird = 7;</code>
      */
     public boolean hasSortingCriteriathird() {
       return sortingCriteriathird_ != null;
     }
     /**
-     * <code>optional .dstore.values.IntegerValue sorting_criteriathird = 7;</code>
+     * <code>.dstore.values.IntegerValue sorting_criteriathird = 7;</code>
      */
     public io.dstore.values.IntegerValue getSortingCriteriathird() {
       return sortingCriteriathird_ == null ? io.dstore.values.IntegerValue.getDefaultInstance() : sortingCriteriathird_;
     }
     /**
-     * <code>optional .dstore.values.IntegerValue sorting_criteriathird = 7;</code>
+     * <code>.dstore.values.IntegerValue sorting_criteriathird = 7;</code>
      */
     public io.dstore.values.IntegerValueOrBuilder getSortingCriteriathirdOrBuilder() {
       return getSortingCriteriathird();
@@ -654,7 +654,7 @@ public final class FoModifyMainPostSortCritAd {
     public static final int SORTING_CRITERIATHIRD_NULL_FIELD_NUMBER = 1007;
     private boolean sortingCriteriathirdNull_;
     /**
-     * <code>optional bool sorting_criteriathird_null = 1007;</code>
+     * <code>bool sorting_criteriathird_null = 1007;</code>
      */
     public boolean getSortingCriteriathirdNull() {
       return sortingCriteriathirdNull_;
@@ -663,19 +663,19 @@ public final class FoModifyMainPostSortCritAd {
     public static final int SORTING_OPTIONSTHIRD_FIELD_NUMBER = 8;
     private io.dstore.values.IntegerValue sortingOptionsthird_;
     /**
-     * <code>optional .dstore.values.IntegerValue sorting_optionsthird = 8;</code>
+     * <code>.dstore.values.IntegerValue sorting_optionsthird = 8;</code>
      */
     public boolean hasSortingOptionsthird() {
       return sortingOptionsthird_ != null;
     }
     /**
-     * <code>optional .dstore.values.IntegerValue sorting_optionsthird = 8;</code>
+     * <code>.dstore.values.IntegerValue sorting_optionsthird = 8;</code>
      */
     public io.dstore.values.IntegerValue getSortingOptionsthird() {
       return sortingOptionsthird_ == null ? io.dstore.values.IntegerValue.getDefaultInstance() : sortingOptionsthird_;
     }
     /**
-     * <code>optional .dstore.values.IntegerValue sorting_optionsthird = 8;</code>
+     * <code>.dstore.values.IntegerValue sorting_optionsthird = 8;</code>
      */
     public io.dstore.values.IntegerValueOrBuilder getSortingOptionsthirdOrBuilder() {
       return getSortingOptionsthird();
@@ -684,7 +684,7 @@ public final class FoModifyMainPostSortCritAd {
     public static final int SORTING_OPTIONSTHIRD_NULL_FIELD_NUMBER = 1008;
     private boolean sortingOptionsthirdNull_;
     /**
-     * <code>optional bool sorting_optionsthird_null = 1008;</code>
+     * <code>bool sorting_optionsthird_null = 1008;</code>
      */
     public boolean getSortingOptionsthirdNull() {
       return sortingOptionsthirdNull_;
@@ -693,19 +693,19 @@ public final class FoModifyMainPostSortCritAd {
     public static final int ACTIVATE_CRITERIA_FIELD_NUMBER = 9;
     private io.dstore.values.BooleanValue activateCriteria_;
     /**
-     * <code>optional .dstore.values.BooleanValue activate_criteria = 9;</code>
+     * <code>.dstore.values.BooleanValue activate_criteria = 9;</code>
      */
     public boolean hasActivateCriteria() {
       return activateCriteria_ != null;
     }
     /**
-     * <code>optional .dstore.values.BooleanValue activate_criteria = 9;</code>
+     * <code>.dstore.values.BooleanValue activate_criteria = 9;</code>
      */
     public io.dstore.values.BooleanValue getActivateCriteria() {
       return activateCriteria_ == null ? io.dstore.values.BooleanValue.getDefaultInstance() : activateCriteria_;
     }
     /**
-     * <code>optional .dstore.values.BooleanValue activate_criteria = 9;</code>
+     * <code>.dstore.values.BooleanValue activate_criteria = 9;</code>
      */
     public io.dstore.values.BooleanValueOrBuilder getActivateCriteriaOrBuilder() {
       return getActivateCriteria();
@@ -714,7 +714,7 @@ public final class FoModifyMainPostSortCritAd {
     public static final int ACTIVATE_CRITERIA_NULL_FIELD_NUMBER = 1009;
     private boolean activateCriteriaNull_;
     /**
-     * <code>optional bool activate_criteria_null = 1009;</code>
+     * <code>bool activate_criteria_null = 1009;</code>
      */
     public boolean getActivateCriteriaNull() {
       return activateCriteriaNull_;
@@ -723,19 +723,19 @@ public final class FoModifyMainPostSortCritAd {
     public static final int DELETE_CRITERIA_FIELD_NUMBER = 10;
     private io.dstore.values.BooleanValue deleteCriteria_;
     /**
-     * <code>optional .dstore.values.BooleanValue delete_criteria = 10;</code>
+     * <code>.dstore.values.BooleanValue delete_criteria = 10;</code>
      */
     public boolean hasDeleteCriteria() {
       return deleteCriteria_ != null;
     }
     /**
-     * <code>optional .dstore.values.BooleanValue delete_criteria = 10;</code>
+     * <code>.dstore.values.BooleanValue delete_criteria = 10;</code>
      */
     public io.dstore.values.BooleanValue getDeleteCriteria() {
       return deleteCriteria_ == null ? io.dstore.values.BooleanValue.getDefaultInstance() : deleteCriteria_;
     }
     /**
-     * <code>optional .dstore.values.BooleanValue delete_criteria = 10;</code>
+     * <code>.dstore.values.BooleanValue delete_criteria = 10;</code>
      */
     public io.dstore.values.BooleanValueOrBuilder getDeleteCriteriaOrBuilder() {
       return getDeleteCriteria();
@@ -744,7 +744,7 @@ public final class FoModifyMainPostSortCritAd {
     public static final int DELETE_CRITERIA_NULL_FIELD_NUMBER = 1010;
     private boolean deleteCriteriaNull_;
     /**
-     * <code>optional bool delete_criteria_null = 1010;</code>
+     * <code>bool delete_criteria_null = 1010;</code>
      */
     public boolean getDeleteCriteriaNull() {
       return deleteCriteriaNull_;
@@ -1004,7 +1004,7 @@ public final class FoModifyMainPostSortCritAd {
         return memoizedHashCode;
       }
       int hash = 41;
-      hash = (19 * hash) + getDescriptorForType().hashCode();
+      hash = (19 * hash) + getDescriptor().hashCode();
       if (hasForumId()) {
         hash = (37 * hash) + FORUM_ID_FIELD_NUMBER;
         hash = (53 * hash) + getForumId().hashCode();
@@ -1486,13 +1486,13 @@ public final class FoModifyMainPostSortCritAd {
       private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> forumIdBuilder_;
       /**
-       * <code>optional .dstore.values.IntegerValue forum_id = 1;</code>
+       * <code>.dstore.values.IntegerValue forum_id = 1;</code>
        */
       public boolean hasForumId() {
         return forumIdBuilder_ != null || forumId_ != null;
       }
       /**
-       * <code>optional .dstore.values.IntegerValue forum_id = 1;</code>
+       * <code>.dstore.values.IntegerValue forum_id = 1;</code>
        */
       public io.dstore.values.IntegerValue getForumId() {
         if (forumIdBuilder_ == null) {
@@ -1502,7 +1502,7 @@ public final class FoModifyMainPostSortCritAd {
         }
       }
       /**
-       * <code>optional .dstore.values.IntegerValue forum_id = 1;</code>
+       * <code>.dstore.values.IntegerValue forum_id = 1;</code>
        */
       public Builder setForumId(io.dstore.values.IntegerValue value) {
         if (forumIdBuilder_ == null) {
@@ -1518,7 +1518,7 @@ public final class FoModifyMainPostSortCritAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.IntegerValue forum_id = 1;</code>
+       * <code>.dstore.values.IntegerValue forum_id = 1;</code>
        */
       public Builder setForumId(
           io.dstore.values.IntegerValue.Builder builderForValue) {
@@ -1532,7 +1532,7 @@ public final class FoModifyMainPostSortCritAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.IntegerValue forum_id = 1;</code>
+       * <code>.dstore.values.IntegerValue forum_id = 1;</code>
        */
       public Builder mergeForumId(io.dstore.values.IntegerValue value) {
         if (forumIdBuilder_ == null) {
@@ -1550,7 +1550,7 @@ public final class FoModifyMainPostSortCritAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.IntegerValue forum_id = 1;</code>
+       * <code>.dstore.values.IntegerValue forum_id = 1;</code>
        */
       public Builder clearForumId() {
         if (forumIdBuilder_ == null) {
@@ -1564,7 +1564,7 @@ public final class FoModifyMainPostSortCritAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.IntegerValue forum_id = 1;</code>
+       * <code>.dstore.values.IntegerValue forum_id = 1;</code>
        */
       public io.dstore.values.IntegerValue.Builder getForumIdBuilder() {
         
@@ -1572,7 +1572,7 @@ public final class FoModifyMainPostSortCritAd {
         return getForumIdFieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .dstore.values.IntegerValue forum_id = 1;</code>
+       * <code>.dstore.values.IntegerValue forum_id = 1;</code>
        */
       public io.dstore.values.IntegerValueOrBuilder getForumIdOrBuilder() {
         if (forumIdBuilder_ != null) {
@@ -1583,7 +1583,7 @@ public final class FoModifyMainPostSortCritAd {
         }
       }
       /**
-       * <code>optional .dstore.values.IntegerValue forum_id = 1;</code>
+       * <code>.dstore.values.IntegerValue forum_id = 1;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> 
@@ -1601,13 +1601,13 @@ public final class FoModifyMainPostSortCritAd {
 
       private boolean forumIdNull_ ;
       /**
-       * <code>optional bool forum_id_null = 1001;</code>
+       * <code>bool forum_id_null = 1001;</code>
        */
       public boolean getForumIdNull() {
         return forumIdNull_;
       }
       /**
-       * <code>optional bool forum_id_null = 1001;</code>
+       * <code>bool forum_id_null = 1001;</code>
        */
       public Builder setForumIdNull(boolean value) {
         
@@ -1616,7 +1616,7 @@ public final class FoModifyMainPostSortCritAd {
         return this;
       }
       /**
-       * <code>optional bool forum_id_null = 1001;</code>
+       * <code>bool forum_id_null = 1001;</code>
        */
       public Builder clearForumIdNull() {
         
@@ -1629,13 +1629,13 @@ public final class FoModifyMainPostSortCritAd {
       private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> sortingCriteriaNoBuilder_;
       /**
-       * <code>optional .dstore.values.IntegerValue sorting_criteria_no = 2;</code>
+       * <code>.dstore.values.IntegerValue sorting_criteria_no = 2;</code>
        */
       public boolean hasSortingCriteriaNo() {
         return sortingCriteriaNoBuilder_ != null || sortingCriteriaNo_ != null;
       }
       /**
-       * <code>optional .dstore.values.IntegerValue sorting_criteria_no = 2;</code>
+       * <code>.dstore.values.IntegerValue sorting_criteria_no = 2;</code>
        */
       public io.dstore.values.IntegerValue getSortingCriteriaNo() {
         if (sortingCriteriaNoBuilder_ == null) {
@@ -1645,7 +1645,7 @@ public final class FoModifyMainPostSortCritAd {
         }
       }
       /**
-       * <code>optional .dstore.values.IntegerValue sorting_criteria_no = 2;</code>
+       * <code>.dstore.values.IntegerValue sorting_criteria_no = 2;</code>
        */
       public Builder setSortingCriteriaNo(io.dstore.values.IntegerValue value) {
         if (sortingCriteriaNoBuilder_ == null) {
@@ -1661,7 +1661,7 @@ public final class FoModifyMainPostSortCritAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.IntegerValue sorting_criteria_no = 2;</code>
+       * <code>.dstore.values.IntegerValue sorting_criteria_no = 2;</code>
        */
       public Builder setSortingCriteriaNo(
           io.dstore.values.IntegerValue.Builder builderForValue) {
@@ -1675,7 +1675,7 @@ public final class FoModifyMainPostSortCritAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.IntegerValue sorting_criteria_no = 2;</code>
+       * <code>.dstore.values.IntegerValue sorting_criteria_no = 2;</code>
        */
       public Builder mergeSortingCriteriaNo(io.dstore.values.IntegerValue value) {
         if (sortingCriteriaNoBuilder_ == null) {
@@ -1693,7 +1693,7 @@ public final class FoModifyMainPostSortCritAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.IntegerValue sorting_criteria_no = 2;</code>
+       * <code>.dstore.values.IntegerValue sorting_criteria_no = 2;</code>
        */
       public Builder clearSortingCriteriaNo() {
         if (sortingCriteriaNoBuilder_ == null) {
@@ -1707,7 +1707,7 @@ public final class FoModifyMainPostSortCritAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.IntegerValue sorting_criteria_no = 2;</code>
+       * <code>.dstore.values.IntegerValue sorting_criteria_no = 2;</code>
        */
       public io.dstore.values.IntegerValue.Builder getSortingCriteriaNoBuilder() {
         
@@ -1715,7 +1715,7 @@ public final class FoModifyMainPostSortCritAd {
         return getSortingCriteriaNoFieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .dstore.values.IntegerValue sorting_criteria_no = 2;</code>
+       * <code>.dstore.values.IntegerValue sorting_criteria_no = 2;</code>
        */
       public io.dstore.values.IntegerValueOrBuilder getSortingCriteriaNoOrBuilder() {
         if (sortingCriteriaNoBuilder_ != null) {
@@ -1726,7 +1726,7 @@ public final class FoModifyMainPostSortCritAd {
         }
       }
       /**
-       * <code>optional .dstore.values.IntegerValue sorting_criteria_no = 2;</code>
+       * <code>.dstore.values.IntegerValue sorting_criteria_no = 2;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> 
@@ -1744,13 +1744,13 @@ public final class FoModifyMainPostSortCritAd {
 
       private boolean sortingCriteriaNoNull_ ;
       /**
-       * <code>optional bool sorting_criteria_no_null = 1002;</code>
+       * <code>bool sorting_criteria_no_null = 1002;</code>
        */
       public boolean getSortingCriteriaNoNull() {
         return sortingCriteriaNoNull_;
       }
       /**
-       * <code>optional bool sorting_criteria_no_null = 1002;</code>
+       * <code>bool sorting_criteria_no_null = 1002;</code>
        */
       public Builder setSortingCriteriaNoNull(boolean value) {
         
@@ -1759,7 +1759,7 @@ public final class FoModifyMainPostSortCritAd {
         return this;
       }
       /**
-       * <code>optional bool sorting_criteria_no_null = 1002;</code>
+       * <code>bool sorting_criteria_no_null = 1002;</code>
        */
       public Builder clearSortingCriteriaNoNull() {
         
@@ -1772,13 +1772,13 @@ public final class FoModifyMainPostSortCritAd {
       private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> sortingCriteriafirstBuilder_;
       /**
-       * <code>optional .dstore.values.IntegerValue sorting_criteriafirst = 3;</code>
+       * <code>.dstore.values.IntegerValue sorting_criteriafirst = 3;</code>
        */
       public boolean hasSortingCriteriafirst() {
         return sortingCriteriafirstBuilder_ != null || sortingCriteriafirst_ != null;
       }
       /**
-       * <code>optional .dstore.values.IntegerValue sorting_criteriafirst = 3;</code>
+       * <code>.dstore.values.IntegerValue sorting_criteriafirst = 3;</code>
        */
       public io.dstore.values.IntegerValue getSortingCriteriafirst() {
         if (sortingCriteriafirstBuilder_ == null) {
@@ -1788,7 +1788,7 @@ public final class FoModifyMainPostSortCritAd {
         }
       }
       /**
-       * <code>optional .dstore.values.IntegerValue sorting_criteriafirst = 3;</code>
+       * <code>.dstore.values.IntegerValue sorting_criteriafirst = 3;</code>
        */
       public Builder setSortingCriteriafirst(io.dstore.values.IntegerValue value) {
         if (sortingCriteriafirstBuilder_ == null) {
@@ -1804,7 +1804,7 @@ public final class FoModifyMainPostSortCritAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.IntegerValue sorting_criteriafirst = 3;</code>
+       * <code>.dstore.values.IntegerValue sorting_criteriafirst = 3;</code>
        */
       public Builder setSortingCriteriafirst(
           io.dstore.values.IntegerValue.Builder builderForValue) {
@@ -1818,7 +1818,7 @@ public final class FoModifyMainPostSortCritAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.IntegerValue sorting_criteriafirst = 3;</code>
+       * <code>.dstore.values.IntegerValue sorting_criteriafirst = 3;</code>
        */
       public Builder mergeSortingCriteriafirst(io.dstore.values.IntegerValue value) {
         if (sortingCriteriafirstBuilder_ == null) {
@@ -1836,7 +1836,7 @@ public final class FoModifyMainPostSortCritAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.IntegerValue sorting_criteriafirst = 3;</code>
+       * <code>.dstore.values.IntegerValue sorting_criteriafirst = 3;</code>
        */
       public Builder clearSortingCriteriafirst() {
         if (sortingCriteriafirstBuilder_ == null) {
@@ -1850,7 +1850,7 @@ public final class FoModifyMainPostSortCritAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.IntegerValue sorting_criteriafirst = 3;</code>
+       * <code>.dstore.values.IntegerValue sorting_criteriafirst = 3;</code>
        */
       public io.dstore.values.IntegerValue.Builder getSortingCriteriafirstBuilder() {
         
@@ -1858,7 +1858,7 @@ public final class FoModifyMainPostSortCritAd {
         return getSortingCriteriafirstFieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .dstore.values.IntegerValue sorting_criteriafirst = 3;</code>
+       * <code>.dstore.values.IntegerValue sorting_criteriafirst = 3;</code>
        */
       public io.dstore.values.IntegerValueOrBuilder getSortingCriteriafirstOrBuilder() {
         if (sortingCriteriafirstBuilder_ != null) {
@@ -1869,7 +1869,7 @@ public final class FoModifyMainPostSortCritAd {
         }
       }
       /**
-       * <code>optional .dstore.values.IntegerValue sorting_criteriafirst = 3;</code>
+       * <code>.dstore.values.IntegerValue sorting_criteriafirst = 3;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> 
@@ -1887,13 +1887,13 @@ public final class FoModifyMainPostSortCritAd {
 
       private boolean sortingCriteriafirstNull_ ;
       /**
-       * <code>optional bool sorting_criteriafirst_null = 1003;</code>
+       * <code>bool sorting_criteriafirst_null = 1003;</code>
        */
       public boolean getSortingCriteriafirstNull() {
         return sortingCriteriafirstNull_;
       }
       /**
-       * <code>optional bool sorting_criteriafirst_null = 1003;</code>
+       * <code>bool sorting_criteriafirst_null = 1003;</code>
        */
       public Builder setSortingCriteriafirstNull(boolean value) {
         
@@ -1902,7 +1902,7 @@ public final class FoModifyMainPostSortCritAd {
         return this;
       }
       /**
-       * <code>optional bool sorting_criteriafirst_null = 1003;</code>
+       * <code>bool sorting_criteriafirst_null = 1003;</code>
        */
       public Builder clearSortingCriteriafirstNull() {
         
@@ -1915,13 +1915,13 @@ public final class FoModifyMainPostSortCritAd {
       private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> sortingOptionsfirstBuilder_;
       /**
-       * <code>optional .dstore.values.IntegerValue sorting_optionsfirst = 4;</code>
+       * <code>.dstore.values.IntegerValue sorting_optionsfirst = 4;</code>
        */
       public boolean hasSortingOptionsfirst() {
         return sortingOptionsfirstBuilder_ != null || sortingOptionsfirst_ != null;
       }
       /**
-       * <code>optional .dstore.values.IntegerValue sorting_optionsfirst = 4;</code>
+       * <code>.dstore.values.IntegerValue sorting_optionsfirst = 4;</code>
        */
       public io.dstore.values.IntegerValue getSortingOptionsfirst() {
         if (sortingOptionsfirstBuilder_ == null) {
@@ -1931,7 +1931,7 @@ public final class FoModifyMainPostSortCritAd {
         }
       }
       /**
-       * <code>optional .dstore.values.IntegerValue sorting_optionsfirst = 4;</code>
+       * <code>.dstore.values.IntegerValue sorting_optionsfirst = 4;</code>
        */
       public Builder setSortingOptionsfirst(io.dstore.values.IntegerValue value) {
         if (sortingOptionsfirstBuilder_ == null) {
@@ -1947,7 +1947,7 @@ public final class FoModifyMainPostSortCritAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.IntegerValue sorting_optionsfirst = 4;</code>
+       * <code>.dstore.values.IntegerValue sorting_optionsfirst = 4;</code>
        */
       public Builder setSortingOptionsfirst(
           io.dstore.values.IntegerValue.Builder builderForValue) {
@@ -1961,7 +1961,7 @@ public final class FoModifyMainPostSortCritAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.IntegerValue sorting_optionsfirst = 4;</code>
+       * <code>.dstore.values.IntegerValue sorting_optionsfirst = 4;</code>
        */
       public Builder mergeSortingOptionsfirst(io.dstore.values.IntegerValue value) {
         if (sortingOptionsfirstBuilder_ == null) {
@@ -1979,7 +1979,7 @@ public final class FoModifyMainPostSortCritAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.IntegerValue sorting_optionsfirst = 4;</code>
+       * <code>.dstore.values.IntegerValue sorting_optionsfirst = 4;</code>
        */
       public Builder clearSortingOptionsfirst() {
         if (sortingOptionsfirstBuilder_ == null) {
@@ -1993,7 +1993,7 @@ public final class FoModifyMainPostSortCritAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.IntegerValue sorting_optionsfirst = 4;</code>
+       * <code>.dstore.values.IntegerValue sorting_optionsfirst = 4;</code>
        */
       public io.dstore.values.IntegerValue.Builder getSortingOptionsfirstBuilder() {
         
@@ -2001,7 +2001,7 @@ public final class FoModifyMainPostSortCritAd {
         return getSortingOptionsfirstFieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .dstore.values.IntegerValue sorting_optionsfirst = 4;</code>
+       * <code>.dstore.values.IntegerValue sorting_optionsfirst = 4;</code>
        */
       public io.dstore.values.IntegerValueOrBuilder getSortingOptionsfirstOrBuilder() {
         if (sortingOptionsfirstBuilder_ != null) {
@@ -2012,7 +2012,7 @@ public final class FoModifyMainPostSortCritAd {
         }
       }
       /**
-       * <code>optional .dstore.values.IntegerValue sorting_optionsfirst = 4;</code>
+       * <code>.dstore.values.IntegerValue sorting_optionsfirst = 4;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> 
@@ -2030,13 +2030,13 @@ public final class FoModifyMainPostSortCritAd {
 
       private boolean sortingOptionsfirstNull_ ;
       /**
-       * <code>optional bool sorting_optionsfirst_null = 1004;</code>
+       * <code>bool sorting_optionsfirst_null = 1004;</code>
        */
       public boolean getSortingOptionsfirstNull() {
         return sortingOptionsfirstNull_;
       }
       /**
-       * <code>optional bool sorting_optionsfirst_null = 1004;</code>
+       * <code>bool sorting_optionsfirst_null = 1004;</code>
        */
       public Builder setSortingOptionsfirstNull(boolean value) {
         
@@ -2045,7 +2045,7 @@ public final class FoModifyMainPostSortCritAd {
         return this;
       }
       /**
-       * <code>optional bool sorting_optionsfirst_null = 1004;</code>
+       * <code>bool sorting_optionsfirst_null = 1004;</code>
        */
       public Builder clearSortingOptionsfirstNull() {
         
@@ -2058,13 +2058,13 @@ public final class FoModifyMainPostSortCritAd {
       private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> sortingCriteriasecondBuilder_;
       /**
-       * <code>optional .dstore.values.IntegerValue sorting_criteriasecond = 5;</code>
+       * <code>.dstore.values.IntegerValue sorting_criteriasecond = 5;</code>
        */
       public boolean hasSortingCriteriasecond() {
         return sortingCriteriasecondBuilder_ != null || sortingCriteriasecond_ != null;
       }
       /**
-       * <code>optional .dstore.values.IntegerValue sorting_criteriasecond = 5;</code>
+       * <code>.dstore.values.IntegerValue sorting_criteriasecond = 5;</code>
        */
       public io.dstore.values.IntegerValue getSortingCriteriasecond() {
         if (sortingCriteriasecondBuilder_ == null) {
@@ -2074,7 +2074,7 @@ public final class FoModifyMainPostSortCritAd {
         }
       }
       /**
-       * <code>optional .dstore.values.IntegerValue sorting_criteriasecond = 5;</code>
+       * <code>.dstore.values.IntegerValue sorting_criteriasecond = 5;</code>
        */
       public Builder setSortingCriteriasecond(io.dstore.values.IntegerValue value) {
         if (sortingCriteriasecondBuilder_ == null) {
@@ -2090,7 +2090,7 @@ public final class FoModifyMainPostSortCritAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.IntegerValue sorting_criteriasecond = 5;</code>
+       * <code>.dstore.values.IntegerValue sorting_criteriasecond = 5;</code>
        */
       public Builder setSortingCriteriasecond(
           io.dstore.values.IntegerValue.Builder builderForValue) {
@@ -2104,7 +2104,7 @@ public final class FoModifyMainPostSortCritAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.IntegerValue sorting_criteriasecond = 5;</code>
+       * <code>.dstore.values.IntegerValue sorting_criteriasecond = 5;</code>
        */
       public Builder mergeSortingCriteriasecond(io.dstore.values.IntegerValue value) {
         if (sortingCriteriasecondBuilder_ == null) {
@@ -2122,7 +2122,7 @@ public final class FoModifyMainPostSortCritAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.IntegerValue sorting_criteriasecond = 5;</code>
+       * <code>.dstore.values.IntegerValue sorting_criteriasecond = 5;</code>
        */
       public Builder clearSortingCriteriasecond() {
         if (sortingCriteriasecondBuilder_ == null) {
@@ -2136,7 +2136,7 @@ public final class FoModifyMainPostSortCritAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.IntegerValue sorting_criteriasecond = 5;</code>
+       * <code>.dstore.values.IntegerValue sorting_criteriasecond = 5;</code>
        */
       public io.dstore.values.IntegerValue.Builder getSortingCriteriasecondBuilder() {
         
@@ -2144,7 +2144,7 @@ public final class FoModifyMainPostSortCritAd {
         return getSortingCriteriasecondFieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .dstore.values.IntegerValue sorting_criteriasecond = 5;</code>
+       * <code>.dstore.values.IntegerValue sorting_criteriasecond = 5;</code>
        */
       public io.dstore.values.IntegerValueOrBuilder getSortingCriteriasecondOrBuilder() {
         if (sortingCriteriasecondBuilder_ != null) {
@@ -2155,7 +2155,7 @@ public final class FoModifyMainPostSortCritAd {
         }
       }
       /**
-       * <code>optional .dstore.values.IntegerValue sorting_criteriasecond = 5;</code>
+       * <code>.dstore.values.IntegerValue sorting_criteriasecond = 5;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> 
@@ -2173,13 +2173,13 @@ public final class FoModifyMainPostSortCritAd {
 
       private boolean sortingCriteriasecondNull_ ;
       /**
-       * <code>optional bool sorting_criteriasecond_null = 1005;</code>
+       * <code>bool sorting_criteriasecond_null = 1005;</code>
        */
       public boolean getSortingCriteriasecondNull() {
         return sortingCriteriasecondNull_;
       }
       /**
-       * <code>optional bool sorting_criteriasecond_null = 1005;</code>
+       * <code>bool sorting_criteriasecond_null = 1005;</code>
        */
       public Builder setSortingCriteriasecondNull(boolean value) {
         
@@ -2188,7 +2188,7 @@ public final class FoModifyMainPostSortCritAd {
         return this;
       }
       /**
-       * <code>optional bool sorting_criteriasecond_null = 1005;</code>
+       * <code>bool sorting_criteriasecond_null = 1005;</code>
        */
       public Builder clearSortingCriteriasecondNull() {
         
@@ -2201,13 +2201,13 @@ public final class FoModifyMainPostSortCritAd {
       private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> sortingOptionssecondBuilder_;
       /**
-       * <code>optional .dstore.values.IntegerValue sorting_optionssecond = 6;</code>
+       * <code>.dstore.values.IntegerValue sorting_optionssecond = 6;</code>
        */
       public boolean hasSortingOptionssecond() {
         return sortingOptionssecondBuilder_ != null || sortingOptionssecond_ != null;
       }
       /**
-       * <code>optional .dstore.values.IntegerValue sorting_optionssecond = 6;</code>
+       * <code>.dstore.values.IntegerValue sorting_optionssecond = 6;</code>
        */
       public io.dstore.values.IntegerValue getSortingOptionssecond() {
         if (sortingOptionssecondBuilder_ == null) {
@@ -2217,7 +2217,7 @@ public final class FoModifyMainPostSortCritAd {
         }
       }
       /**
-       * <code>optional .dstore.values.IntegerValue sorting_optionssecond = 6;</code>
+       * <code>.dstore.values.IntegerValue sorting_optionssecond = 6;</code>
        */
       public Builder setSortingOptionssecond(io.dstore.values.IntegerValue value) {
         if (sortingOptionssecondBuilder_ == null) {
@@ -2233,7 +2233,7 @@ public final class FoModifyMainPostSortCritAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.IntegerValue sorting_optionssecond = 6;</code>
+       * <code>.dstore.values.IntegerValue sorting_optionssecond = 6;</code>
        */
       public Builder setSortingOptionssecond(
           io.dstore.values.IntegerValue.Builder builderForValue) {
@@ -2247,7 +2247,7 @@ public final class FoModifyMainPostSortCritAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.IntegerValue sorting_optionssecond = 6;</code>
+       * <code>.dstore.values.IntegerValue sorting_optionssecond = 6;</code>
        */
       public Builder mergeSortingOptionssecond(io.dstore.values.IntegerValue value) {
         if (sortingOptionssecondBuilder_ == null) {
@@ -2265,7 +2265,7 @@ public final class FoModifyMainPostSortCritAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.IntegerValue sorting_optionssecond = 6;</code>
+       * <code>.dstore.values.IntegerValue sorting_optionssecond = 6;</code>
        */
       public Builder clearSortingOptionssecond() {
         if (sortingOptionssecondBuilder_ == null) {
@@ -2279,7 +2279,7 @@ public final class FoModifyMainPostSortCritAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.IntegerValue sorting_optionssecond = 6;</code>
+       * <code>.dstore.values.IntegerValue sorting_optionssecond = 6;</code>
        */
       public io.dstore.values.IntegerValue.Builder getSortingOptionssecondBuilder() {
         
@@ -2287,7 +2287,7 @@ public final class FoModifyMainPostSortCritAd {
         return getSortingOptionssecondFieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .dstore.values.IntegerValue sorting_optionssecond = 6;</code>
+       * <code>.dstore.values.IntegerValue sorting_optionssecond = 6;</code>
        */
       public io.dstore.values.IntegerValueOrBuilder getSortingOptionssecondOrBuilder() {
         if (sortingOptionssecondBuilder_ != null) {
@@ -2298,7 +2298,7 @@ public final class FoModifyMainPostSortCritAd {
         }
       }
       /**
-       * <code>optional .dstore.values.IntegerValue sorting_optionssecond = 6;</code>
+       * <code>.dstore.values.IntegerValue sorting_optionssecond = 6;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> 
@@ -2316,13 +2316,13 @@ public final class FoModifyMainPostSortCritAd {
 
       private boolean sortingOptionssecondNull_ ;
       /**
-       * <code>optional bool sorting_optionssecond_null = 1006;</code>
+       * <code>bool sorting_optionssecond_null = 1006;</code>
        */
       public boolean getSortingOptionssecondNull() {
         return sortingOptionssecondNull_;
       }
       /**
-       * <code>optional bool sorting_optionssecond_null = 1006;</code>
+       * <code>bool sorting_optionssecond_null = 1006;</code>
        */
       public Builder setSortingOptionssecondNull(boolean value) {
         
@@ -2331,7 +2331,7 @@ public final class FoModifyMainPostSortCritAd {
         return this;
       }
       /**
-       * <code>optional bool sorting_optionssecond_null = 1006;</code>
+       * <code>bool sorting_optionssecond_null = 1006;</code>
        */
       public Builder clearSortingOptionssecondNull() {
         
@@ -2344,13 +2344,13 @@ public final class FoModifyMainPostSortCritAd {
       private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> sortingCriteriathirdBuilder_;
       /**
-       * <code>optional .dstore.values.IntegerValue sorting_criteriathird = 7;</code>
+       * <code>.dstore.values.IntegerValue sorting_criteriathird = 7;</code>
        */
       public boolean hasSortingCriteriathird() {
         return sortingCriteriathirdBuilder_ != null || sortingCriteriathird_ != null;
       }
       /**
-       * <code>optional .dstore.values.IntegerValue sorting_criteriathird = 7;</code>
+       * <code>.dstore.values.IntegerValue sorting_criteriathird = 7;</code>
        */
       public io.dstore.values.IntegerValue getSortingCriteriathird() {
         if (sortingCriteriathirdBuilder_ == null) {
@@ -2360,7 +2360,7 @@ public final class FoModifyMainPostSortCritAd {
         }
       }
       /**
-       * <code>optional .dstore.values.IntegerValue sorting_criteriathird = 7;</code>
+       * <code>.dstore.values.IntegerValue sorting_criteriathird = 7;</code>
        */
       public Builder setSortingCriteriathird(io.dstore.values.IntegerValue value) {
         if (sortingCriteriathirdBuilder_ == null) {
@@ -2376,7 +2376,7 @@ public final class FoModifyMainPostSortCritAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.IntegerValue sorting_criteriathird = 7;</code>
+       * <code>.dstore.values.IntegerValue sorting_criteriathird = 7;</code>
        */
       public Builder setSortingCriteriathird(
           io.dstore.values.IntegerValue.Builder builderForValue) {
@@ -2390,7 +2390,7 @@ public final class FoModifyMainPostSortCritAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.IntegerValue sorting_criteriathird = 7;</code>
+       * <code>.dstore.values.IntegerValue sorting_criteriathird = 7;</code>
        */
       public Builder mergeSortingCriteriathird(io.dstore.values.IntegerValue value) {
         if (sortingCriteriathirdBuilder_ == null) {
@@ -2408,7 +2408,7 @@ public final class FoModifyMainPostSortCritAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.IntegerValue sorting_criteriathird = 7;</code>
+       * <code>.dstore.values.IntegerValue sorting_criteriathird = 7;</code>
        */
       public Builder clearSortingCriteriathird() {
         if (sortingCriteriathirdBuilder_ == null) {
@@ -2422,7 +2422,7 @@ public final class FoModifyMainPostSortCritAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.IntegerValue sorting_criteriathird = 7;</code>
+       * <code>.dstore.values.IntegerValue sorting_criteriathird = 7;</code>
        */
       public io.dstore.values.IntegerValue.Builder getSortingCriteriathirdBuilder() {
         
@@ -2430,7 +2430,7 @@ public final class FoModifyMainPostSortCritAd {
         return getSortingCriteriathirdFieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .dstore.values.IntegerValue sorting_criteriathird = 7;</code>
+       * <code>.dstore.values.IntegerValue sorting_criteriathird = 7;</code>
        */
       public io.dstore.values.IntegerValueOrBuilder getSortingCriteriathirdOrBuilder() {
         if (sortingCriteriathirdBuilder_ != null) {
@@ -2441,7 +2441,7 @@ public final class FoModifyMainPostSortCritAd {
         }
       }
       /**
-       * <code>optional .dstore.values.IntegerValue sorting_criteriathird = 7;</code>
+       * <code>.dstore.values.IntegerValue sorting_criteriathird = 7;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> 
@@ -2459,13 +2459,13 @@ public final class FoModifyMainPostSortCritAd {
 
       private boolean sortingCriteriathirdNull_ ;
       /**
-       * <code>optional bool sorting_criteriathird_null = 1007;</code>
+       * <code>bool sorting_criteriathird_null = 1007;</code>
        */
       public boolean getSortingCriteriathirdNull() {
         return sortingCriteriathirdNull_;
       }
       /**
-       * <code>optional bool sorting_criteriathird_null = 1007;</code>
+       * <code>bool sorting_criteriathird_null = 1007;</code>
        */
       public Builder setSortingCriteriathirdNull(boolean value) {
         
@@ -2474,7 +2474,7 @@ public final class FoModifyMainPostSortCritAd {
         return this;
       }
       /**
-       * <code>optional bool sorting_criteriathird_null = 1007;</code>
+       * <code>bool sorting_criteriathird_null = 1007;</code>
        */
       public Builder clearSortingCriteriathirdNull() {
         
@@ -2487,13 +2487,13 @@ public final class FoModifyMainPostSortCritAd {
       private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> sortingOptionsthirdBuilder_;
       /**
-       * <code>optional .dstore.values.IntegerValue sorting_optionsthird = 8;</code>
+       * <code>.dstore.values.IntegerValue sorting_optionsthird = 8;</code>
        */
       public boolean hasSortingOptionsthird() {
         return sortingOptionsthirdBuilder_ != null || sortingOptionsthird_ != null;
       }
       /**
-       * <code>optional .dstore.values.IntegerValue sorting_optionsthird = 8;</code>
+       * <code>.dstore.values.IntegerValue sorting_optionsthird = 8;</code>
        */
       public io.dstore.values.IntegerValue getSortingOptionsthird() {
         if (sortingOptionsthirdBuilder_ == null) {
@@ -2503,7 +2503,7 @@ public final class FoModifyMainPostSortCritAd {
         }
       }
       /**
-       * <code>optional .dstore.values.IntegerValue sorting_optionsthird = 8;</code>
+       * <code>.dstore.values.IntegerValue sorting_optionsthird = 8;</code>
        */
       public Builder setSortingOptionsthird(io.dstore.values.IntegerValue value) {
         if (sortingOptionsthirdBuilder_ == null) {
@@ -2519,7 +2519,7 @@ public final class FoModifyMainPostSortCritAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.IntegerValue sorting_optionsthird = 8;</code>
+       * <code>.dstore.values.IntegerValue sorting_optionsthird = 8;</code>
        */
       public Builder setSortingOptionsthird(
           io.dstore.values.IntegerValue.Builder builderForValue) {
@@ -2533,7 +2533,7 @@ public final class FoModifyMainPostSortCritAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.IntegerValue sorting_optionsthird = 8;</code>
+       * <code>.dstore.values.IntegerValue sorting_optionsthird = 8;</code>
        */
       public Builder mergeSortingOptionsthird(io.dstore.values.IntegerValue value) {
         if (sortingOptionsthirdBuilder_ == null) {
@@ -2551,7 +2551,7 @@ public final class FoModifyMainPostSortCritAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.IntegerValue sorting_optionsthird = 8;</code>
+       * <code>.dstore.values.IntegerValue sorting_optionsthird = 8;</code>
        */
       public Builder clearSortingOptionsthird() {
         if (sortingOptionsthirdBuilder_ == null) {
@@ -2565,7 +2565,7 @@ public final class FoModifyMainPostSortCritAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.IntegerValue sorting_optionsthird = 8;</code>
+       * <code>.dstore.values.IntegerValue sorting_optionsthird = 8;</code>
        */
       public io.dstore.values.IntegerValue.Builder getSortingOptionsthirdBuilder() {
         
@@ -2573,7 +2573,7 @@ public final class FoModifyMainPostSortCritAd {
         return getSortingOptionsthirdFieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .dstore.values.IntegerValue sorting_optionsthird = 8;</code>
+       * <code>.dstore.values.IntegerValue sorting_optionsthird = 8;</code>
        */
       public io.dstore.values.IntegerValueOrBuilder getSortingOptionsthirdOrBuilder() {
         if (sortingOptionsthirdBuilder_ != null) {
@@ -2584,7 +2584,7 @@ public final class FoModifyMainPostSortCritAd {
         }
       }
       /**
-       * <code>optional .dstore.values.IntegerValue sorting_optionsthird = 8;</code>
+       * <code>.dstore.values.IntegerValue sorting_optionsthird = 8;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> 
@@ -2602,13 +2602,13 @@ public final class FoModifyMainPostSortCritAd {
 
       private boolean sortingOptionsthirdNull_ ;
       /**
-       * <code>optional bool sorting_optionsthird_null = 1008;</code>
+       * <code>bool sorting_optionsthird_null = 1008;</code>
        */
       public boolean getSortingOptionsthirdNull() {
         return sortingOptionsthirdNull_;
       }
       /**
-       * <code>optional bool sorting_optionsthird_null = 1008;</code>
+       * <code>bool sorting_optionsthird_null = 1008;</code>
        */
       public Builder setSortingOptionsthirdNull(boolean value) {
         
@@ -2617,7 +2617,7 @@ public final class FoModifyMainPostSortCritAd {
         return this;
       }
       /**
-       * <code>optional bool sorting_optionsthird_null = 1008;</code>
+       * <code>bool sorting_optionsthird_null = 1008;</code>
        */
       public Builder clearSortingOptionsthirdNull() {
         
@@ -2630,13 +2630,13 @@ public final class FoModifyMainPostSortCritAd {
       private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.values.BooleanValue, io.dstore.values.BooleanValue.Builder, io.dstore.values.BooleanValueOrBuilder> activateCriteriaBuilder_;
       /**
-       * <code>optional .dstore.values.BooleanValue activate_criteria = 9;</code>
+       * <code>.dstore.values.BooleanValue activate_criteria = 9;</code>
        */
       public boolean hasActivateCriteria() {
         return activateCriteriaBuilder_ != null || activateCriteria_ != null;
       }
       /**
-       * <code>optional .dstore.values.BooleanValue activate_criteria = 9;</code>
+       * <code>.dstore.values.BooleanValue activate_criteria = 9;</code>
        */
       public io.dstore.values.BooleanValue getActivateCriteria() {
         if (activateCriteriaBuilder_ == null) {
@@ -2646,7 +2646,7 @@ public final class FoModifyMainPostSortCritAd {
         }
       }
       /**
-       * <code>optional .dstore.values.BooleanValue activate_criteria = 9;</code>
+       * <code>.dstore.values.BooleanValue activate_criteria = 9;</code>
        */
       public Builder setActivateCriteria(io.dstore.values.BooleanValue value) {
         if (activateCriteriaBuilder_ == null) {
@@ -2662,7 +2662,7 @@ public final class FoModifyMainPostSortCritAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.BooleanValue activate_criteria = 9;</code>
+       * <code>.dstore.values.BooleanValue activate_criteria = 9;</code>
        */
       public Builder setActivateCriteria(
           io.dstore.values.BooleanValue.Builder builderForValue) {
@@ -2676,7 +2676,7 @@ public final class FoModifyMainPostSortCritAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.BooleanValue activate_criteria = 9;</code>
+       * <code>.dstore.values.BooleanValue activate_criteria = 9;</code>
        */
       public Builder mergeActivateCriteria(io.dstore.values.BooleanValue value) {
         if (activateCriteriaBuilder_ == null) {
@@ -2694,7 +2694,7 @@ public final class FoModifyMainPostSortCritAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.BooleanValue activate_criteria = 9;</code>
+       * <code>.dstore.values.BooleanValue activate_criteria = 9;</code>
        */
       public Builder clearActivateCriteria() {
         if (activateCriteriaBuilder_ == null) {
@@ -2708,7 +2708,7 @@ public final class FoModifyMainPostSortCritAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.BooleanValue activate_criteria = 9;</code>
+       * <code>.dstore.values.BooleanValue activate_criteria = 9;</code>
        */
       public io.dstore.values.BooleanValue.Builder getActivateCriteriaBuilder() {
         
@@ -2716,7 +2716,7 @@ public final class FoModifyMainPostSortCritAd {
         return getActivateCriteriaFieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .dstore.values.BooleanValue activate_criteria = 9;</code>
+       * <code>.dstore.values.BooleanValue activate_criteria = 9;</code>
        */
       public io.dstore.values.BooleanValueOrBuilder getActivateCriteriaOrBuilder() {
         if (activateCriteriaBuilder_ != null) {
@@ -2727,7 +2727,7 @@ public final class FoModifyMainPostSortCritAd {
         }
       }
       /**
-       * <code>optional .dstore.values.BooleanValue activate_criteria = 9;</code>
+       * <code>.dstore.values.BooleanValue activate_criteria = 9;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.values.BooleanValue, io.dstore.values.BooleanValue.Builder, io.dstore.values.BooleanValueOrBuilder> 
@@ -2745,13 +2745,13 @@ public final class FoModifyMainPostSortCritAd {
 
       private boolean activateCriteriaNull_ ;
       /**
-       * <code>optional bool activate_criteria_null = 1009;</code>
+       * <code>bool activate_criteria_null = 1009;</code>
        */
       public boolean getActivateCriteriaNull() {
         return activateCriteriaNull_;
       }
       /**
-       * <code>optional bool activate_criteria_null = 1009;</code>
+       * <code>bool activate_criteria_null = 1009;</code>
        */
       public Builder setActivateCriteriaNull(boolean value) {
         
@@ -2760,7 +2760,7 @@ public final class FoModifyMainPostSortCritAd {
         return this;
       }
       /**
-       * <code>optional bool activate_criteria_null = 1009;</code>
+       * <code>bool activate_criteria_null = 1009;</code>
        */
       public Builder clearActivateCriteriaNull() {
         
@@ -2773,13 +2773,13 @@ public final class FoModifyMainPostSortCritAd {
       private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.values.BooleanValue, io.dstore.values.BooleanValue.Builder, io.dstore.values.BooleanValueOrBuilder> deleteCriteriaBuilder_;
       /**
-       * <code>optional .dstore.values.BooleanValue delete_criteria = 10;</code>
+       * <code>.dstore.values.BooleanValue delete_criteria = 10;</code>
        */
       public boolean hasDeleteCriteria() {
         return deleteCriteriaBuilder_ != null || deleteCriteria_ != null;
       }
       /**
-       * <code>optional .dstore.values.BooleanValue delete_criteria = 10;</code>
+       * <code>.dstore.values.BooleanValue delete_criteria = 10;</code>
        */
       public io.dstore.values.BooleanValue getDeleteCriteria() {
         if (deleteCriteriaBuilder_ == null) {
@@ -2789,7 +2789,7 @@ public final class FoModifyMainPostSortCritAd {
         }
       }
       /**
-       * <code>optional .dstore.values.BooleanValue delete_criteria = 10;</code>
+       * <code>.dstore.values.BooleanValue delete_criteria = 10;</code>
        */
       public Builder setDeleteCriteria(io.dstore.values.BooleanValue value) {
         if (deleteCriteriaBuilder_ == null) {
@@ -2805,7 +2805,7 @@ public final class FoModifyMainPostSortCritAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.BooleanValue delete_criteria = 10;</code>
+       * <code>.dstore.values.BooleanValue delete_criteria = 10;</code>
        */
       public Builder setDeleteCriteria(
           io.dstore.values.BooleanValue.Builder builderForValue) {
@@ -2819,7 +2819,7 @@ public final class FoModifyMainPostSortCritAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.BooleanValue delete_criteria = 10;</code>
+       * <code>.dstore.values.BooleanValue delete_criteria = 10;</code>
        */
       public Builder mergeDeleteCriteria(io.dstore.values.BooleanValue value) {
         if (deleteCriteriaBuilder_ == null) {
@@ -2837,7 +2837,7 @@ public final class FoModifyMainPostSortCritAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.BooleanValue delete_criteria = 10;</code>
+       * <code>.dstore.values.BooleanValue delete_criteria = 10;</code>
        */
       public Builder clearDeleteCriteria() {
         if (deleteCriteriaBuilder_ == null) {
@@ -2851,7 +2851,7 @@ public final class FoModifyMainPostSortCritAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.BooleanValue delete_criteria = 10;</code>
+       * <code>.dstore.values.BooleanValue delete_criteria = 10;</code>
        */
       public io.dstore.values.BooleanValue.Builder getDeleteCriteriaBuilder() {
         
@@ -2859,7 +2859,7 @@ public final class FoModifyMainPostSortCritAd {
         return getDeleteCriteriaFieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .dstore.values.BooleanValue delete_criteria = 10;</code>
+       * <code>.dstore.values.BooleanValue delete_criteria = 10;</code>
        */
       public io.dstore.values.BooleanValueOrBuilder getDeleteCriteriaOrBuilder() {
         if (deleteCriteriaBuilder_ != null) {
@@ -2870,7 +2870,7 @@ public final class FoModifyMainPostSortCritAd {
         }
       }
       /**
-       * <code>optional .dstore.values.BooleanValue delete_criteria = 10;</code>
+       * <code>.dstore.values.BooleanValue delete_criteria = 10;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.values.BooleanValue, io.dstore.values.BooleanValue.Builder, io.dstore.values.BooleanValueOrBuilder> 
@@ -2888,13 +2888,13 @@ public final class FoModifyMainPostSortCritAd {
 
       private boolean deleteCriteriaNull_ ;
       /**
-       * <code>optional bool delete_criteria_null = 1010;</code>
+       * <code>bool delete_criteria_null = 1010;</code>
        */
       public boolean getDeleteCriteriaNull() {
         return deleteCriteriaNull_;
       }
       /**
-       * <code>optional bool delete_criteria_null = 1010;</code>
+       * <code>bool delete_criteria_null = 1010;</code>
        */
       public Builder setDeleteCriteriaNull(boolean value) {
         
@@ -2903,7 +2903,7 @@ public final class FoModifyMainPostSortCritAd {
         return this;
       }
       /**
-       * <code>optional bool delete_criteria_null = 1010;</code>
+       * <code>bool delete_criteria_null = 1010;</code>
        */
       public Builder clearDeleteCriteriaNull() {
         
@@ -3162,7 +3162,7 @@ public final class FoModifyMainPostSortCritAd {
         com.google.protobuf.MessageOrBuilder {
 
       /**
-       * <code>optional int32 row_id = 10000;</code>
+       * <code>int32 row_id = 10000;</code>
        */
       int getRowId();
     }
@@ -3237,7 +3237,7 @@ public final class FoModifyMainPostSortCritAd {
       public static final int ROW_ID_FIELD_NUMBER = 10000;
       private int rowId_;
       /**
-       * <code>optional int32 row_id = 10000;</code>
+       * <code>int32 row_id = 10000;</code>
        */
       public int getRowId() {
         return rowId_;
@@ -3296,7 +3296,7 @@ public final class FoModifyMainPostSortCritAd {
           return memoizedHashCode;
         }
         int hash = 41;
-        hash = (19 * hash) + getDescriptorForType().hashCode();
+        hash = (19 * hash) + getDescriptor().hashCode();
         hash = (37 * hash) + ROW_ID_FIELD_NUMBER;
         hash = (53 * hash) + getRowId();
         hash = (29 * hash) + unknownFields.hashCode();
@@ -3514,13 +3514,13 @@ public final class FoModifyMainPostSortCritAd {
 
         private int rowId_ ;
         /**
-         * <code>optional int32 row_id = 10000;</code>
+         * <code>int32 row_id = 10000;</code>
          */
         public int getRowId() {
           return rowId_;
         }
         /**
-         * <code>optional int32 row_id = 10000;</code>
+         * <code>int32 row_id = 10000;</code>
          */
         public Builder setRowId(int value) {
           
@@ -3529,7 +3529,7 @@ public final class FoModifyMainPostSortCritAd {
           return this;
         }
         /**
-         * <code>optional int32 row_id = 10000;</code>
+         * <code>int32 row_id = 10000;</code>
          */
         public Builder clearRowId() {
           
@@ -3782,7 +3782,7 @@ public final class FoModifyMainPostSortCritAd {
         return memoizedHashCode;
       }
       int hash = 41;
-      hash = (19 * hash) + getDescriptorForType().hashCode();
+      hash = (19 * hash) + getDescriptor().hashCode();
       if (getMetaInformationCount() > 0) {
         hash = (37 * hash) + META_INFORMATION_FIELD_NUMBER;
         hash = (53 * hash) + getMetaInformationList().hashCode();

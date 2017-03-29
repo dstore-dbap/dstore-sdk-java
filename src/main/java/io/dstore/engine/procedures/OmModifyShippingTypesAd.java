@@ -19,200 +19,200 @@ public final class OmModifyShippingTypesAd {
       com.google.protobuf.MessageOrBuilder {
 
     /**
-     * <code>optional .dstore.values.IntegerValue shipping_type_id = 1;</code>
+     * <code>.dstore.values.IntegerValue shipping_type_id = 1;</code>
      */
     boolean hasShippingTypeId();
     /**
-     * <code>optional .dstore.values.IntegerValue shipping_type_id = 1;</code>
+     * <code>.dstore.values.IntegerValue shipping_type_id = 1;</code>
      */
     io.dstore.values.IntegerValue getShippingTypeId();
     /**
-     * <code>optional .dstore.values.IntegerValue shipping_type_id = 1;</code>
+     * <code>.dstore.values.IntegerValue shipping_type_id = 1;</code>
      */
     io.dstore.values.IntegerValueOrBuilder getShippingTypeIdOrBuilder();
 
     /**
-     * <code>optional bool shipping_type_id_null = 1001;</code>
+     * <code>bool shipping_type_id_null = 1001;</code>
      */
     boolean getShippingTypeIdNull();
 
     /**
-     * <code>optional .dstore.values.StringValue shipping_type_description = 2;</code>
+     * <code>.dstore.values.StringValue shipping_type_description = 2;</code>
      */
     boolean hasShippingTypeDescription();
     /**
-     * <code>optional .dstore.values.StringValue shipping_type_description = 2;</code>
+     * <code>.dstore.values.StringValue shipping_type_description = 2;</code>
      */
     io.dstore.values.StringValue getShippingTypeDescription();
     /**
-     * <code>optional .dstore.values.StringValue shipping_type_description = 2;</code>
+     * <code>.dstore.values.StringValue shipping_type_description = 2;</code>
      */
     io.dstore.values.StringValueOrBuilder getShippingTypeDescriptionOrBuilder();
 
     /**
-     * <code>optional bool shipping_type_description_null = 1002;</code>
+     * <code>bool shipping_type_description_null = 1002;</code>
      */
     boolean getShippingTypeDescriptionNull();
 
     /**
-     * <code>optional .dstore.values.IntegerValue region_id = 3;</code>
+     * <code>.dstore.values.IntegerValue region_id = 3;</code>
      */
     boolean hasRegionId();
     /**
-     * <code>optional .dstore.values.IntegerValue region_id = 3;</code>
+     * <code>.dstore.values.IntegerValue region_id = 3;</code>
      */
     io.dstore.values.IntegerValue getRegionId();
     /**
-     * <code>optional .dstore.values.IntegerValue region_id = 3;</code>
+     * <code>.dstore.values.IntegerValue region_id = 3;</code>
      */
     io.dstore.values.IntegerValueOrBuilder getRegionIdOrBuilder();
 
     /**
-     * <code>optional bool region_id_null = 1003;</code>
+     * <code>bool region_id_null = 1003;</code>
      */
     boolean getRegionIdNull();
 
     /**
-     * <code>optional .dstore.values.DecimalValue brutto_sum_from = 4;</code>
+     * <code>.dstore.values.DecimalValue brutto_sum_from = 4;</code>
      */
     boolean hasBruttoSumFrom();
     /**
-     * <code>optional .dstore.values.DecimalValue brutto_sum_from = 4;</code>
+     * <code>.dstore.values.DecimalValue brutto_sum_from = 4;</code>
      */
     io.dstore.values.DecimalValue getBruttoSumFrom();
     /**
-     * <code>optional .dstore.values.DecimalValue brutto_sum_from = 4;</code>
+     * <code>.dstore.values.DecimalValue brutto_sum_from = 4;</code>
      */
     io.dstore.values.DecimalValueOrBuilder getBruttoSumFromOrBuilder();
 
     /**
-     * <code>optional bool brutto_sum_from_null = 1004;</code>
+     * <code>bool brutto_sum_from_null = 1004;</code>
      */
     boolean getBruttoSumFromNull();
 
     /**
-     * <code>optional .dstore.values.DecimalValue brutto_sum_to = 5;</code>
+     * <code>.dstore.values.DecimalValue brutto_sum_to = 5;</code>
      */
     boolean hasBruttoSumTo();
     /**
-     * <code>optional .dstore.values.DecimalValue brutto_sum_to = 5;</code>
+     * <code>.dstore.values.DecimalValue brutto_sum_to = 5;</code>
      */
     io.dstore.values.DecimalValue getBruttoSumTo();
     /**
-     * <code>optional .dstore.values.DecimalValue brutto_sum_to = 5;</code>
+     * <code>.dstore.values.DecimalValue brutto_sum_to = 5;</code>
      */
     io.dstore.values.DecimalValueOrBuilder getBruttoSumToOrBuilder();
 
     /**
-     * <code>optional bool brutto_sum_to_null = 1005;</code>
+     * <code>bool brutto_sum_to_null = 1005;</code>
      */
     boolean getBruttoSumToNull();
 
     /**
-     * <code>optional .dstore.values.IntegerValue currency_id = 6;</code>
+     * <code>.dstore.values.IntegerValue currency_id = 6;</code>
      */
     boolean hasCurrencyId();
     /**
-     * <code>optional .dstore.values.IntegerValue currency_id = 6;</code>
+     * <code>.dstore.values.IntegerValue currency_id = 6;</code>
      */
     io.dstore.values.IntegerValue getCurrencyId();
     /**
-     * <code>optional .dstore.values.IntegerValue currency_id = 6;</code>
+     * <code>.dstore.values.IntegerValue currency_id = 6;</code>
      */
     io.dstore.values.IntegerValueOrBuilder getCurrencyIdOrBuilder();
 
     /**
-     * <code>optional bool currency_id_null = 1006;</code>
+     * <code>bool currency_id_null = 1006;</code>
      */
     boolean getCurrencyIdNull();
 
     /**
-     * <code>optional .dstore.values.IntegerValue surcharge_type_id = 7;</code>
+     * <code>.dstore.values.IntegerValue surcharge_type_id = 7;</code>
      */
     boolean hasSurchargeTypeId();
     /**
-     * <code>optional .dstore.values.IntegerValue surcharge_type_id = 7;</code>
+     * <code>.dstore.values.IntegerValue surcharge_type_id = 7;</code>
      */
     io.dstore.values.IntegerValue getSurchargeTypeId();
     /**
-     * <code>optional .dstore.values.IntegerValue surcharge_type_id = 7;</code>
+     * <code>.dstore.values.IntegerValue surcharge_type_id = 7;</code>
      */
     io.dstore.values.IntegerValueOrBuilder getSurchargeTypeIdOrBuilder();
 
     /**
-     * <code>optional bool surcharge_type_id_null = 1007;</code>
+     * <code>bool surcharge_type_id_null = 1007;</code>
      */
     boolean getSurchargeTypeIdNull();
 
     /**
-     * <code>optional .dstore.values.DecimalValue cost = 8;</code>
+     * <code>.dstore.values.DecimalValue cost = 8;</code>
      */
     boolean hasCost();
     /**
-     * <code>optional .dstore.values.DecimalValue cost = 8;</code>
+     * <code>.dstore.values.DecimalValue cost = 8;</code>
      */
     io.dstore.values.DecimalValue getCost();
     /**
-     * <code>optional .dstore.values.DecimalValue cost = 8;</code>
+     * <code>.dstore.values.DecimalValue cost = 8;</code>
      */
     io.dstore.values.DecimalValueOrBuilder getCostOrBuilder();
 
     /**
-     * <code>optional bool cost_null = 1008;</code>
+     * <code>bool cost_null = 1008;</code>
      */
     boolean getCostNull();
 
     /**
-     * <code>optional .dstore.values.BooleanValue delete_shipping_type = 9;</code>
+     * <code>.dstore.values.BooleanValue delete_shipping_type = 9;</code>
      */
     boolean hasDeleteShippingType();
     /**
-     * <code>optional .dstore.values.BooleanValue delete_shipping_type = 9;</code>
+     * <code>.dstore.values.BooleanValue delete_shipping_type = 9;</code>
      */
     io.dstore.values.BooleanValue getDeleteShippingType();
     /**
-     * <code>optional .dstore.values.BooleanValue delete_shipping_type = 9;</code>
+     * <code>.dstore.values.BooleanValue delete_shipping_type = 9;</code>
      */
     io.dstore.values.BooleanValueOrBuilder getDeleteShippingTypeOrBuilder();
 
     /**
-     * <code>optional bool delete_shipping_type_null = 1009;</code>
+     * <code>bool delete_shipping_type_null = 1009;</code>
      */
     boolean getDeleteShippingTypeNull();
 
     /**
-     * <code>optional .dstore.values.BooleanValue active = 10;</code>
+     * <code>.dstore.values.BooleanValue active = 10;</code>
      */
     boolean hasActive();
     /**
-     * <code>optional .dstore.values.BooleanValue active = 10;</code>
+     * <code>.dstore.values.BooleanValue active = 10;</code>
      */
     io.dstore.values.BooleanValue getActive();
     /**
-     * <code>optional .dstore.values.BooleanValue active = 10;</code>
+     * <code>.dstore.values.BooleanValue active = 10;</code>
      */
     io.dstore.values.BooleanValueOrBuilder getActiveOrBuilder();
 
     /**
-     * <code>optional bool active_null = 1010;</code>
+     * <code>bool active_null = 1010;</code>
      */
     boolean getActiveNull();
 
     /**
-     * <code>optional .dstore.values.StringValue predef_bill_content_description = 11;</code>
+     * <code>.dstore.values.StringValue predef_bill_content_description = 11;</code>
      */
     boolean hasPredefBillContentDescription();
     /**
-     * <code>optional .dstore.values.StringValue predef_bill_content_description = 11;</code>
+     * <code>.dstore.values.StringValue predef_bill_content_description = 11;</code>
      */
     io.dstore.values.StringValue getPredefBillContentDescription();
     /**
-     * <code>optional .dstore.values.StringValue predef_bill_content_description = 11;</code>
+     * <code>.dstore.values.StringValue predef_bill_content_description = 11;</code>
      */
     io.dstore.values.StringValueOrBuilder getPredefBillContentDescriptionOrBuilder();
 
     /**
-     * <code>optional bool predef_bill_content_description_null = 1011;</code>
+     * <code>bool predef_bill_content_description_null = 1011;</code>
      */
     boolean getPredefBillContentDescriptionNull();
   }
@@ -490,19 +490,19 @@ public final class OmModifyShippingTypesAd {
     public static final int SHIPPING_TYPE_ID_FIELD_NUMBER = 1;
     private io.dstore.values.IntegerValue shippingTypeId_;
     /**
-     * <code>optional .dstore.values.IntegerValue shipping_type_id = 1;</code>
+     * <code>.dstore.values.IntegerValue shipping_type_id = 1;</code>
      */
     public boolean hasShippingTypeId() {
       return shippingTypeId_ != null;
     }
     /**
-     * <code>optional .dstore.values.IntegerValue shipping_type_id = 1;</code>
+     * <code>.dstore.values.IntegerValue shipping_type_id = 1;</code>
      */
     public io.dstore.values.IntegerValue getShippingTypeId() {
       return shippingTypeId_ == null ? io.dstore.values.IntegerValue.getDefaultInstance() : shippingTypeId_;
     }
     /**
-     * <code>optional .dstore.values.IntegerValue shipping_type_id = 1;</code>
+     * <code>.dstore.values.IntegerValue shipping_type_id = 1;</code>
      */
     public io.dstore.values.IntegerValueOrBuilder getShippingTypeIdOrBuilder() {
       return getShippingTypeId();
@@ -511,7 +511,7 @@ public final class OmModifyShippingTypesAd {
     public static final int SHIPPING_TYPE_ID_NULL_FIELD_NUMBER = 1001;
     private boolean shippingTypeIdNull_;
     /**
-     * <code>optional bool shipping_type_id_null = 1001;</code>
+     * <code>bool shipping_type_id_null = 1001;</code>
      */
     public boolean getShippingTypeIdNull() {
       return shippingTypeIdNull_;
@@ -520,19 +520,19 @@ public final class OmModifyShippingTypesAd {
     public static final int SHIPPING_TYPE_DESCRIPTION_FIELD_NUMBER = 2;
     private io.dstore.values.StringValue shippingTypeDescription_;
     /**
-     * <code>optional .dstore.values.StringValue shipping_type_description = 2;</code>
+     * <code>.dstore.values.StringValue shipping_type_description = 2;</code>
      */
     public boolean hasShippingTypeDescription() {
       return shippingTypeDescription_ != null;
     }
     /**
-     * <code>optional .dstore.values.StringValue shipping_type_description = 2;</code>
+     * <code>.dstore.values.StringValue shipping_type_description = 2;</code>
      */
     public io.dstore.values.StringValue getShippingTypeDescription() {
       return shippingTypeDescription_ == null ? io.dstore.values.StringValue.getDefaultInstance() : shippingTypeDescription_;
     }
     /**
-     * <code>optional .dstore.values.StringValue shipping_type_description = 2;</code>
+     * <code>.dstore.values.StringValue shipping_type_description = 2;</code>
      */
     public io.dstore.values.StringValueOrBuilder getShippingTypeDescriptionOrBuilder() {
       return getShippingTypeDescription();
@@ -541,7 +541,7 @@ public final class OmModifyShippingTypesAd {
     public static final int SHIPPING_TYPE_DESCRIPTION_NULL_FIELD_NUMBER = 1002;
     private boolean shippingTypeDescriptionNull_;
     /**
-     * <code>optional bool shipping_type_description_null = 1002;</code>
+     * <code>bool shipping_type_description_null = 1002;</code>
      */
     public boolean getShippingTypeDescriptionNull() {
       return shippingTypeDescriptionNull_;
@@ -550,19 +550,19 @@ public final class OmModifyShippingTypesAd {
     public static final int REGION_ID_FIELD_NUMBER = 3;
     private io.dstore.values.IntegerValue regionId_;
     /**
-     * <code>optional .dstore.values.IntegerValue region_id = 3;</code>
+     * <code>.dstore.values.IntegerValue region_id = 3;</code>
      */
     public boolean hasRegionId() {
       return regionId_ != null;
     }
     /**
-     * <code>optional .dstore.values.IntegerValue region_id = 3;</code>
+     * <code>.dstore.values.IntegerValue region_id = 3;</code>
      */
     public io.dstore.values.IntegerValue getRegionId() {
       return regionId_ == null ? io.dstore.values.IntegerValue.getDefaultInstance() : regionId_;
     }
     /**
-     * <code>optional .dstore.values.IntegerValue region_id = 3;</code>
+     * <code>.dstore.values.IntegerValue region_id = 3;</code>
      */
     public io.dstore.values.IntegerValueOrBuilder getRegionIdOrBuilder() {
       return getRegionId();
@@ -571,7 +571,7 @@ public final class OmModifyShippingTypesAd {
     public static final int REGION_ID_NULL_FIELD_NUMBER = 1003;
     private boolean regionIdNull_;
     /**
-     * <code>optional bool region_id_null = 1003;</code>
+     * <code>bool region_id_null = 1003;</code>
      */
     public boolean getRegionIdNull() {
       return regionIdNull_;
@@ -580,19 +580,19 @@ public final class OmModifyShippingTypesAd {
     public static final int BRUTTO_SUM_FROM_FIELD_NUMBER = 4;
     private io.dstore.values.DecimalValue bruttoSumFrom_;
     /**
-     * <code>optional .dstore.values.DecimalValue brutto_sum_from = 4;</code>
+     * <code>.dstore.values.DecimalValue brutto_sum_from = 4;</code>
      */
     public boolean hasBruttoSumFrom() {
       return bruttoSumFrom_ != null;
     }
     /**
-     * <code>optional .dstore.values.DecimalValue brutto_sum_from = 4;</code>
+     * <code>.dstore.values.DecimalValue brutto_sum_from = 4;</code>
      */
     public io.dstore.values.DecimalValue getBruttoSumFrom() {
       return bruttoSumFrom_ == null ? io.dstore.values.DecimalValue.getDefaultInstance() : bruttoSumFrom_;
     }
     /**
-     * <code>optional .dstore.values.DecimalValue brutto_sum_from = 4;</code>
+     * <code>.dstore.values.DecimalValue brutto_sum_from = 4;</code>
      */
     public io.dstore.values.DecimalValueOrBuilder getBruttoSumFromOrBuilder() {
       return getBruttoSumFrom();
@@ -601,7 +601,7 @@ public final class OmModifyShippingTypesAd {
     public static final int BRUTTO_SUM_FROM_NULL_FIELD_NUMBER = 1004;
     private boolean bruttoSumFromNull_;
     /**
-     * <code>optional bool brutto_sum_from_null = 1004;</code>
+     * <code>bool brutto_sum_from_null = 1004;</code>
      */
     public boolean getBruttoSumFromNull() {
       return bruttoSumFromNull_;
@@ -610,19 +610,19 @@ public final class OmModifyShippingTypesAd {
     public static final int BRUTTO_SUM_TO_FIELD_NUMBER = 5;
     private io.dstore.values.DecimalValue bruttoSumTo_;
     /**
-     * <code>optional .dstore.values.DecimalValue brutto_sum_to = 5;</code>
+     * <code>.dstore.values.DecimalValue brutto_sum_to = 5;</code>
      */
     public boolean hasBruttoSumTo() {
       return bruttoSumTo_ != null;
     }
     /**
-     * <code>optional .dstore.values.DecimalValue brutto_sum_to = 5;</code>
+     * <code>.dstore.values.DecimalValue brutto_sum_to = 5;</code>
      */
     public io.dstore.values.DecimalValue getBruttoSumTo() {
       return bruttoSumTo_ == null ? io.dstore.values.DecimalValue.getDefaultInstance() : bruttoSumTo_;
     }
     /**
-     * <code>optional .dstore.values.DecimalValue brutto_sum_to = 5;</code>
+     * <code>.dstore.values.DecimalValue brutto_sum_to = 5;</code>
      */
     public io.dstore.values.DecimalValueOrBuilder getBruttoSumToOrBuilder() {
       return getBruttoSumTo();
@@ -631,7 +631,7 @@ public final class OmModifyShippingTypesAd {
     public static final int BRUTTO_SUM_TO_NULL_FIELD_NUMBER = 1005;
     private boolean bruttoSumToNull_;
     /**
-     * <code>optional bool brutto_sum_to_null = 1005;</code>
+     * <code>bool brutto_sum_to_null = 1005;</code>
      */
     public boolean getBruttoSumToNull() {
       return bruttoSumToNull_;
@@ -640,19 +640,19 @@ public final class OmModifyShippingTypesAd {
     public static final int CURRENCY_ID_FIELD_NUMBER = 6;
     private io.dstore.values.IntegerValue currencyId_;
     /**
-     * <code>optional .dstore.values.IntegerValue currency_id = 6;</code>
+     * <code>.dstore.values.IntegerValue currency_id = 6;</code>
      */
     public boolean hasCurrencyId() {
       return currencyId_ != null;
     }
     /**
-     * <code>optional .dstore.values.IntegerValue currency_id = 6;</code>
+     * <code>.dstore.values.IntegerValue currency_id = 6;</code>
      */
     public io.dstore.values.IntegerValue getCurrencyId() {
       return currencyId_ == null ? io.dstore.values.IntegerValue.getDefaultInstance() : currencyId_;
     }
     /**
-     * <code>optional .dstore.values.IntegerValue currency_id = 6;</code>
+     * <code>.dstore.values.IntegerValue currency_id = 6;</code>
      */
     public io.dstore.values.IntegerValueOrBuilder getCurrencyIdOrBuilder() {
       return getCurrencyId();
@@ -661,7 +661,7 @@ public final class OmModifyShippingTypesAd {
     public static final int CURRENCY_ID_NULL_FIELD_NUMBER = 1006;
     private boolean currencyIdNull_;
     /**
-     * <code>optional bool currency_id_null = 1006;</code>
+     * <code>bool currency_id_null = 1006;</code>
      */
     public boolean getCurrencyIdNull() {
       return currencyIdNull_;
@@ -670,19 +670,19 @@ public final class OmModifyShippingTypesAd {
     public static final int SURCHARGE_TYPE_ID_FIELD_NUMBER = 7;
     private io.dstore.values.IntegerValue surchargeTypeId_;
     /**
-     * <code>optional .dstore.values.IntegerValue surcharge_type_id = 7;</code>
+     * <code>.dstore.values.IntegerValue surcharge_type_id = 7;</code>
      */
     public boolean hasSurchargeTypeId() {
       return surchargeTypeId_ != null;
     }
     /**
-     * <code>optional .dstore.values.IntegerValue surcharge_type_id = 7;</code>
+     * <code>.dstore.values.IntegerValue surcharge_type_id = 7;</code>
      */
     public io.dstore.values.IntegerValue getSurchargeTypeId() {
       return surchargeTypeId_ == null ? io.dstore.values.IntegerValue.getDefaultInstance() : surchargeTypeId_;
     }
     /**
-     * <code>optional .dstore.values.IntegerValue surcharge_type_id = 7;</code>
+     * <code>.dstore.values.IntegerValue surcharge_type_id = 7;</code>
      */
     public io.dstore.values.IntegerValueOrBuilder getSurchargeTypeIdOrBuilder() {
       return getSurchargeTypeId();
@@ -691,7 +691,7 @@ public final class OmModifyShippingTypesAd {
     public static final int SURCHARGE_TYPE_ID_NULL_FIELD_NUMBER = 1007;
     private boolean surchargeTypeIdNull_;
     /**
-     * <code>optional bool surcharge_type_id_null = 1007;</code>
+     * <code>bool surcharge_type_id_null = 1007;</code>
      */
     public boolean getSurchargeTypeIdNull() {
       return surchargeTypeIdNull_;
@@ -700,19 +700,19 @@ public final class OmModifyShippingTypesAd {
     public static final int COST_FIELD_NUMBER = 8;
     private io.dstore.values.DecimalValue cost_;
     /**
-     * <code>optional .dstore.values.DecimalValue cost = 8;</code>
+     * <code>.dstore.values.DecimalValue cost = 8;</code>
      */
     public boolean hasCost() {
       return cost_ != null;
     }
     /**
-     * <code>optional .dstore.values.DecimalValue cost = 8;</code>
+     * <code>.dstore.values.DecimalValue cost = 8;</code>
      */
     public io.dstore.values.DecimalValue getCost() {
       return cost_ == null ? io.dstore.values.DecimalValue.getDefaultInstance() : cost_;
     }
     /**
-     * <code>optional .dstore.values.DecimalValue cost = 8;</code>
+     * <code>.dstore.values.DecimalValue cost = 8;</code>
      */
     public io.dstore.values.DecimalValueOrBuilder getCostOrBuilder() {
       return getCost();
@@ -721,7 +721,7 @@ public final class OmModifyShippingTypesAd {
     public static final int COST_NULL_FIELD_NUMBER = 1008;
     private boolean costNull_;
     /**
-     * <code>optional bool cost_null = 1008;</code>
+     * <code>bool cost_null = 1008;</code>
      */
     public boolean getCostNull() {
       return costNull_;
@@ -730,19 +730,19 @@ public final class OmModifyShippingTypesAd {
     public static final int DELETE_SHIPPING_TYPE_FIELD_NUMBER = 9;
     private io.dstore.values.BooleanValue deleteShippingType_;
     /**
-     * <code>optional .dstore.values.BooleanValue delete_shipping_type = 9;</code>
+     * <code>.dstore.values.BooleanValue delete_shipping_type = 9;</code>
      */
     public boolean hasDeleteShippingType() {
       return deleteShippingType_ != null;
     }
     /**
-     * <code>optional .dstore.values.BooleanValue delete_shipping_type = 9;</code>
+     * <code>.dstore.values.BooleanValue delete_shipping_type = 9;</code>
      */
     public io.dstore.values.BooleanValue getDeleteShippingType() {
       return deleteShippingType_ == null ? io.dstore.values.BooleanValue.getDefaultInstance() : deleteShippingType_;
     }
     /**
-     * <code>optional .dstore.values.BooleanValue delete_shipping_type = 9;</code>
+     * <code>.dstore.values.BooleanValue delete_shipping_type = 9;</code>
      */
     public io.dstore.values.BooleanValueOrBuilder getDeleteShippingTypeOrBuilder() {
       return getDeleteShippingType();
@@ -751,7 +751,7 @@ public final class OmModifyShippingTypesAd {
     public static final int DELETE_SHIPPING_TYPE_NULL_FIELD_NUMBER = 1009;
     private boolean deleteShippingTypeNull_;
     /**
-     * <code>optional bool delete_shipping_type_null = 1009;</code>
+     * <code>bool delete_shipping_type_null = 1009;</code>
      */
     public boolean getDeleteShippingTypeNull() {
       return deleteShippingTypeNull_;
@@ -760,19 +760,19 @@ public final class OmModifyShippingTypesAd {
     public static final int ACTIVE_FIELD_NUMBER = 10;
     private io.dstore.values.BooleanValue active_;
     /**
-     * <code>optional .dstore.values.BooleanValue active = 10;</code>
+     * <code>.dstore.values.BooleanValue active = 10;</code>
      */
     public boolean hasActive() {
       return active_ != null;
     }
     /**
-     * <code>optional .dstore.values.BooleanValue active = 10;</code>
+     * <code>.dstore.values.BooleanValue active = 10;</code>
      */
     public io.dstore.values.BooleanValue getActive() {
       return active_ == null ? io.dstore.values.BooleanValue.getDefaultInstance() : active_;
     }
     /**
-     * <code>optional .dstore.values.BooleanValue active = 10;</code>
+     * <code>.dstore.values.BooleanValue active = 10;</code>
      */
     public io.dstore.values.BooleanValueOrBuilder getActiveOrBuilder() {
       return getActive();
@@ -781,7 +781,7 @@ public final class OmModifyShippingTypesAd {
     public static final int ACTIVE_NULL_FIELD_NUMBER = 1010;
     private boolean activeNull_;
     /**
-     * <code>optional bool active_null = 1010;</code>
+     * <code>bool active_null = 1010;</code>
      */
     public boolean getActiveNull() {
       return activeNull_;
@@ -790,19 +790,19 @@ public final class OmModifyShippingTypesAd {
     public static final int PREDEF_BILL_CONTENT_DESCRIPTION_FIELD_NUMBER = 11;
     private io.dstore.values.StringValue predefBillContentDescription_;
     /**
-     * <code>optional .dstore.values.StringValue predef_bill_content_description = 11;</code>
+     * <code>.dstore.values.StringValue predef_bill_content_description = 11;</code>
      */
     public boolean hasPredefBillContentDescription() {
       return predefBillContentDescription_ != null;
     }
     /**
-     * <code>optional .dstore.values.StringValue predef_bill_content_description = 11;</code>
+     * <code>.dstore.values.StringValue predef_bill_content_description = 11;</code>
      */
     public io.dstore.values.StringValue getPredefBillContentDescription() {
       return predefBillContentDescription_ == null ? io.dstore.values.StringValue.getDefaultInstance() : predefBillContentDescription_;
     }
     /**
-     * <code>optional .dstore.values.StringValue predef_bill_content_description = 11;</code>
+     * <code>.dstore.values.StringValue predef_bill_content_description = 11;</code>
      */
     public io.dstore.values.StringValueOrBuilder getPredefBillContentDescriptionOrBuilder() {
       return getPredefBillContentDescription();
@@ -811,7 +811,7 @@ public final class OmModifyShippingTypesAd {
     public static final int PREDEF_BILL_CONTENT_DESCRIPTION_NULL_FIELD_NUMBER = 1011;
     private boolean predefBillContentDescriptionNull_;
     /**
-     * <code>optional bool predef_bill_content_description_null = 1011;</code>
+     * <code>bool predef_bill_content_description_null = 1011;</code>
      */
     public boolean getPredefBillContentDescriptionNull() {
       return predefBillContentDescriptionNull_;
@@ -1092,7 +1092,7 @@ public final class OmModifyShippingTypesAd {
         return memoizedHashCode;
       }
       int hash = 41;
-      hash = (19 * hash) + getDescriptorForType().hashCode();
+      hash = (19 * hash) + getDescriptor().hashCode();
       if (hasShippingTypeId()) {
         hash = (37 * hash) + SHIPPING_TYPE_ID_FIELD_NUMBER;
         hash = (53 * hash) + getShippingTypeId().hashCode();
@@ -1601,13 +1601,13 @@ public final class OmModifyShippingTypesAd {
       private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> shippingTypeIdBuilder_;
       /**
-       * <code>optional .dstore.values.IntegerValue shipping_type_id = 1;</code>
+       * <code>.dstore.values.IntegerValue shipping_type_id = 1;</code>
        */
       public boolean hasShippingTypeId() {
         return shippingTypeIdBuilder_ != null || shippingTypeId_ != null;
       }
       /**
-       * <code>optional .dstore.values.IntegerValue shipping_type_id = 1;</code>
+       * <code>.dstore.values.IntegerValue shipping_type_id = 1;</code>
        */
       public io.dstore.values.IntegerValue getShippingTypeId() {
         if (shippingTypeIdBuilder_ == null) {
@@ -1617,7 +1617,7 @@ public final class OmModifyShippingTypesAd {
         }
       }
       /**
-       * <code>optional .dstore.values.IntegerValue shipping_type_id = 1;</code>
+       * <code>.dstore.values.IntegerValue shipping_type_id = 1;</code>
        */
       public Builder setShippingTypeId(io.dstore.values.IntegerValue value) {
         if (shippingTypeIdBuilder_ == null) {
@@ -1633,7 +1633,7 @@ public final class OmModifyShippingTypesAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.IntegerValue shipping_type_id = 1;</code>
+       * <code>.dstore.values.IntegerValue shipping_type_id = 1;</code>
        */
       public Builder setShippingTypeId(
           io.dstore.values.IntegerValue.Builder builderForValue) {
@@ -1647,7 +1647,7 @@ public final class OmModifyShippingTypesAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.IntegerValue shipping_type_id = 1;</code>
+       * <code>.dstore.values.IntegerValue shipping_type_id = 1;</code>
        */
       public Builder mergeShippingTypeId(io.dstore.values.IntegerValue value) {
         if (shippingTypeIdBuilder_ == null) {
@@ -1665,7 +1665,7 @@ public final class OmModifyShippingTypesAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.IntegerValue shipping_type_id = 1;</code>
+       * <code>.dstore.values.IntegerValue shipping_type_id = 1;</code>
        */
       public Builder clearShippingTypeId() {
         if (shippingTypeIdBuilder_ == null) {
@@ -1679,7 +1679,7 @@ public final class OmModifyShippingTypesAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.IntegerValue shipping_type_id = 1;</code>
+       * <code>.dstore.values.IntegerValue shipping_type_id = 1;</code>
        */
       public io.dstore.values.IntegerValue.Builder getShippingTypeIdBuilder() {
         
@@ -1687,7 +1687,7 @@ public final class OmModifyShippingTypesAd {
         return getShippingTypeIdFieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .dstore.values.IntegerValue shipping_type_id = 1;</code>
+       * <code>.dstore.values.IntegerValue shipping_type_id = 1;</code>
        */
       public io.dstore.values.IntegerValueOrBuilder getShippingTypeIdOrBuilder() {
         if (shippingTypeIdBuilder_ != null) {
@@ -1698,7 +1698,7 @@ public final class OmModifyShippingTypesAd {
         }
       }
       /**
-       * <code>optional .dstore.values.IntegerValue shipping_type_id = 1;</code>
+       * <code>.dstore.values.IntegerValue shipping_type_id = 1;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> 
@@ -1716,13 +1716,13 @@ public final class OmModifyShippingTypesAd {
 
       private boolean shippingTypeIdNull_ ;
       /**
-       * <code>optional bool shipping_type_id_null = 1001;</code>
+       * <code>bool shipping_type_id_null = 1001;</code>
        */
       public boolean getShippingTypeIdNull() {
         return shippingTypeIdNull_;
       }
       /**
-       * <code>optional bool shipping_type_id_null = 1001;</code>
+       * <code>bool shipping_type_id_null = 1001;</code>
        */
       public Builder setShippingTypeIdNull(boolean value) {
         
@@ -1731,7 +1731,7 @@ public final class OmModifyShippingTypesAd {
         return this;
       }
       /**
-       * <code>optional bool shipping_type_id_null = 1001;</code>
+       * <code>bool shipping_type_id_null = 1001;</code>
        */
       public Builder clearShippingTypeIdNull() {
         
@@ -1744,13 +1744,13 @@ public final class OmModifyShippingTypesAd {
       private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.values.StringValue, io.dstore.values.StringValue.Builder, io.dstore.values.StringValueOrBuilder> shippingTypeDescriptionBuilder_;
       /**
-       * <code>optional .dstore.values.StringValue shipping_type_description = 2;</code>
+       * <code>.dstore.values.StringValue shipping_type_description = 2;</code>
        */
       public boolean hasShippingTypeDescription() {
         return shippingTypeDescriptionBuilder_ != null || shippingTypeDescription_ != null;
       }
       /**
-       * <code>optional .dstore.values.StringValue shipping_type_description = 2;</code>
+       * <code>.dstore.values.StringValue shipping_type_description = 2;</code>
        */
       public io.dstore.values.StringValue getShippingTypeDescription() {
         if (shippingTypeDescriptionBuilder_ == null) {
@@ -1760,7 +1760,7 @@ public final class OmModifyShippingTypesAd {
         }
       }
       /**
-       * <code>optional .dstore.values.StringValue shipping_type_description = 2;</code>
+       * <code>.dstore.values.StringValue shipping_type_description = 2;</code>
        */
       public Builder setShippingTypeDescription(io.dstore.values.StringValue value) {
         if (shippingTypeDescriptionBuilder_ == null) {
@@ -1776,7 +1776,7 @@ public final class OmModifyShippingTypesAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.StringValue shipping_type_description = 2;</code>
+       * <code>.dstore.values.StringValue shipping_type_description = 2;</code>
        */
       public Builder setShippingTypeDescription(
           io.dstore.values.StringValue.Builder builderForValue) {
@@ -1790,7 +1790,7 @@ public final class OmModifyShippingTypesAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.StringValue shipping_type_description = 2;</code>
+       * <code>.dstore.values.StringValue shipping_type_description = 2;</code>
        */
       public Builder mergeShippingTypeDescription(io.dstore.values.StringValue value) {
         if (shippingTypeDescriptionBuilder_ == null) {
@@ -1808,7 +1808,7 @@ public final class OmModifyShippingTypesAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.StringValue shipping_type_description = 2;</code>
+       * <code>.dstore.values.StringValue shipping_type_description = 2;</code>
        */
       public Builder clearShippingTypeDescription() {
         if (shippingTypeDescriptionBuilder_ == null) {
@@ -1822,7 +1822,7 @@ public final class OmModifyShippingTypesAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.StringValue shipping_type_description = 2;</code>
+       * <code>.dstore.values.StringValue shipping_type_description = 2;</code>
        */
       public io.dstore.values.StringValue.Builder getShippingTypeDescriptionBuilder() {
         
@@ -1830,7 +1830,7 @@ public final class OmModifyShippingTypesAd {
         return getShippingTypeDescriptionFieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .dstore.values.StringValue shipping_type_description = 2;</code>
+       * <code>.dstore.values.StringValue shipping_type_description = 2;</code>
        */
       public io.dstore.values.StringValueOrBuilder getShippingTypeDescriptionOrBuilder() {
         if (shippingTypeDescriptionBuilder_ != null) {
@@ -1841,7 +1841,7 @@ public final class OmModifyShippingTypesAd {
         }
       }
       /**
-       * <code>optional .dstore.values.StringValue shipping_type_description = 2;</code>
+       * <code>.dstore.values.StringValue shipping_type_description = 2;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.values.StringValue, io.dstore.values.StringValue.Builder, io.dstore.values.StringValueOrBuilder> 
@@ -1859,13 +1859,13 @@ public final class OmModifyShippingTypesAd {
 
       private boolean shippingTypeDescriptionNull_ ;
       /**
-       * <code>optional bool shipping_type_description_null = 1002;</code>
+       * <code>bool shipping_type_description_null = 1002;</code>
        */
       public boolean getShippingTypeDescriptionNull() {
         return shippingTypeDescriptionNull_;
       }
       /**
-       * <code>optional bool shipping_type_description_null = 1002;</code>
+       * <code>bool shipping_type_description_null = 1002;</code>
        */
       public Builder setShippingTypeDescriptionNull(boolean value) {
         
@@ -1874,7 +1874,7 @@ public final class OmModifyShippingTypesAd {
         return this;
       }
       /**
-       * <code>optional bool shipping_type_description_null = 1002;</code>
+       * <code>bool shipping_type_description_null = 1002;</code>
        */
       public Builder clearShippingTypeDescriptionNull() {
         
@@ -1887,13 +1887,13 @@ public final class OmModifyShippingTypesAd {
       private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> regionIdBuilder_;
       /**
-       * <code>optional .dstore.values.IntegerValue region_id = 3;</code>
+       * <code>.dstore.values.IntegerValue region_id = 3;</code>
        */
       public boolean hasRegionId() {
         return regionIdBuilder_ != null || regionId_ != null;
       }
       /**
-       * <code>optional .dstore.values.IntegerValue region_id = 3;</code>
+       * <code>.dstore.values.IntegerValue region_id = 3;</code>
        */
       public io.dstore.values.IntegerValue getRegionId() {
         if (regionIdBuilder_ == null) {
@@ -1903,7 +1903,7 @@ public final class OmModifyShippingTypesAd {
         }
       }
       /**
-       * <code>optional .dstore.values.IntegerValue region_id = 3;</code>
+       * <code>.dstore.values.IntegerValue region_id = 3;</code>
        */
       public Builder setRegionId(io.dstore.values.IntegerValue value) {
         if (regionIdBuilder_ == null) {
@@ -1919,7 +1919,7 @@ public final class OmModifyShippingTypesAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.IntegerValue region_id = 3;</code>
+       * <code>.dstore.values.IntegerValue region_id = 3;</code>
        */
       public Builder setRegionId(
           io.dstore.values.IntegerValue.Builder builderForValue) {
@@ -1933,7 +1933,7 @@ public final class OmModifyShippingTypesAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.IntegerValue region_id = 3;</code>
+       * <code>.dstore.values.IntegerValue region_id = 3;</code>
        */
       public Builder mergeRegionId(io.dstore.values.IntegerValue value) {
         if (regionIdBuilder_ == null) {
@@ -1951,7 +1951,7 @@ public final class OmModifyShippingTypesAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.IntegerValue region_id = 3;</code>
+       * <code>.dstore.values.IntegerValue region_id = 3;</code>
        */
       public Builder clearRegionId() {
         if (regionIdBuilder_ == null) {
@@ -1965,7 +1965,7 @@ public final class OmModifyShippingTypesAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.IntegerValue region_id = 3;</code>
+       * <code>.dstore.values.IntegerValue region_id = 3;</code>
        */
       public io.dstore.values.IntegerValue.Builder getRegionIdBuilder() {
         
@@ -1973,7 +1973,7 @@ public final class OmModifyShippingTypesAd {
         return getRegionIdFieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .dstore.values.IntegerValue region_id = 3;</code>
+       * <code>.dstore.values.IntegerValue region_id = 3;</code>
        */
       public io.dstore.values.IntegerValueOrBuilder getRegionIdOrBuilder() {
         if (regionIdBuilder_ != null) {
@@ -1984,7 +1984,7 @@ public final class OmModifyShippingTypesAd {
         }
       }
       /**
-       * <code>optional .dstore.values.IntegerValue region_id = 3;</code>
+       * <code>.dstore.values.IntegerValue region_id = 3;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> 
@@ -2002,13 +2002,13 @@ public final class OmModifyShippingTypesAd {
 
       private boolean regionIdNull_ ;
       /**
-       * <code>optional bool region_id_null = 1003;</code>
+       * <code>bool region_id_null = 1003;</code>
        */
       public boolean getRegionIdNull() {
         return regionIdNull_;
       }
       /**
-       * <code>optional bool region_id_null = 1003;</code>
+       * <code>bool region_id_null = 1003;</code>
        */
       public Builder setRegionIdNull(boolean value) {
         
@@ -2017,7 +2017,7 @@ public final class OmModifyShippingTypesAd {
         return this;
       }
       /**
-       * <code>optional bool region_id_null = 1003;</code>
+       * <code>bool region_id_null = 1003;</code>
        */
       public Builder clearRegionIdNull() {
         
@@ -2030,13 +2030,13 @@ public final class OmModifyShippingTypesAd {
       private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.values.DecimalValue, io.dstore.values.DecimalValue.Builder, io.dstore.values.DecimalValueOrBuilder> bruttoSumFromBuilder_;
       /**
-       * <code>optional .dstore.values.DecimalValue brutto_sum_from = 4;</code>
+       * <code>.dstore.values.DecimalValue brutto_sum_from = 4;</code>
        */
       public boolean hasBruttoSumFrom() {
         return bruttoSumFromBuilder_ != null || bruttoSumFrom_ != null;
       }
       /**
-       * <code>optional .dstore.values.DecimalValue brutto_sum_from = 4;</code>
+       * <code>.dstore.values.DecimalValue brutto_sum_from = 4;</code>
        */
       public io.dstore.values.DecimalValue getBruttoSumFrom() {
         if (bruttoSumFromBuilder_ == null) {
@@ -2046,7 +2046,7 @@ public final class OmModifyShippingTypesAd {
         }
       }
       /**
-       * <code>optional .dstore.values.DecimalValue brutto_sum_from = 4;</code>
+       * <code>.dstore.values.DecimalValue brutto_sum_from = 4;</code>
        */
       public Builder setBruttoSumFrom(io.dstore.values.DecimalValue value) {
         if (bruttoSumFromBuilder_ == null) {
@@ -2062,7 +2062,7 @@ public final class OmModifyShippingTypesAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.DecimalValue brutto_sum_from = 4;</code>
+       * <code>.dstore.values.DecimalValue brutto_sum_from = 4;</code>
        */
       public Builder setBruttoSumFrom(
           io.dstore.values.DecimalValue.Builder builderForValue) {
@@ -2076,7 +2076,7 @@ public final class OmModifyShippingTypesAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.DecimalValue brutto_sum_from = 4;</code>
+       * <code>.dstore.values.DecimalValue brutto_sum_from = 4;</code>
        */
       public Builder mergeBruttoSumFrom(io.dstore.values.DecimalValue value) {
         if (bruttoSumFromBuilder_ == null) {
@@ -2094,7 +2094,7 @@ public final class OmModifyShippingTypesAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.DecimalValue brutto_sum_from = 4;</code>
+       * <code>.dstore.values.DecimalValue brutto_sum_from = 4;</code>
        */
       public Builder clearBruttoSumFrom() {
         if (bruttoSumFromBuilder_ == null) {
@@ -2108,7 +2108,7 @@ public final class OmModifyShippingTypesAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.DecimalValue brutto_sum_from = 4;</code>
+       * <code>.dstore.values.DecimalValue brutto_sum_from = 4;</code>
        */
       public io.dstore.values.DecimalValue.Builder getBruttoSumFromBuilder() {
         
@@ -2116,7 +2116,7 @@ public final class OmModifyShippingTypesAd {
         return getBruttoSumFromFieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .dstore.values.DecimalValue brutto_sum_from = 4;</code>
+       * <code>.dstore.values.DecimalValue brutto_sum_from = 4;</code>
        */
       public io.dstore.values.DecimalValueOrBuilder getBruttoSumFromOrBuilder() {
         if (bruttoSumFromBuilder_ != null) {
@@ -2127,7 +2127,7 @@ public final class OmModifyShippingTypesAd {
         }
       }
       /**
-       * <code>optional .dstore.values.DecimalValue brutto_sum_from = 4;</code>
+       * <code>.dstore.values.DecimalValue brutto_sum_from = 4;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.values.DecimalValue, io.dstore.values.DecimalValue.Builder, io.dstore.values.DecimalValueOrBuilder> 
@@ -2145,13 +2145,13 @@ public final class OmModifyShippingTypesAd {
 
       private boolean bruttoSumFromNull_ ;
       /**
-       * <code>optional bool brutto_sum_from_null = 1004;</code>
+       * <code>bool brutto_sum_from_null = 1004;</code>
        */
       public boolean getBruttoSumFromNull() {
         return bruttoSumFromNull_;
       }
       /**
-       * <code>optional bool brutto_sum_from_null = 1004;</code>
+       * <code>bool brutto_sum_from_null = 1004;</code>
        */
       public Builder setBruttoSumFromNull(boolean value) {
         
@@ -2160,7 +2160,7 @@ public final class OmModifyShippingTypesAd {
         return this;
       }
       /**
-       * <code>optional bool brutto_sum_from_null = 1004;</code>
+       * <code>bool brutto_sum_from_null = 1004;</code>
        */
       public Builder clearBruttoSumFromNull() {
         
@@ -2173,13 +2173,13 @@ public final class OmModifyShippingTypesAd {
       private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.values.DecimalValue, io.dstore.values.DecimalValue.Builder, io.dstore.values.DecimalValueOrBuilder> bruttoSumToBuilder_;
       /**
-       * <code>optional .dstore.values.DecimalValue brutto_sum_to = 5;</code>
+       * <code>.dstore.values.DecimalValue brutto_sum_to = 5;</code>
        */
       public boolean hasBruttoSumTo() {
         return bruttoSumToBuilder_ != null || bruttoSumTo_ != null;
       }
       /**
-       * <code>optional .dstore.values.DecimalValue brutto_sum_to = 5;</code>
+       * <code>.dstore.values.DecimalValue brutto_sum_to = 5;</code>
        */
       public io.dstore.values.DecimalValue getBruttoSumTo() {
         if (bruttoSumToBuilder_ == null) {
@@ -2189,7 +2189,7 @@ public final class OmModifyShippingTypesAd {
         }
       }
       /**
-       * <code>optional .dstore.values.DecimalValue brutto_sum_to = 5;</code>
+       * <code>.dstore.values.DecimalValue brutto_sum_to = 5;</code>
        */
       public Builder setBruttoSumTo(io.dstore.values.DecimalValue value) {
         if (bruttoSumToBuilder_ == null) {
@@ -2205,7 +2205,7 @@ public final class OmModifyShippingTypesAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.DecimalValue brutto_sum_to = 5;</code>
+       * <code>.dstore.values.DecimalValue brutto_sum_to = 5;</code>
        */
       public Builder setBruttoSumTo(
           io.dstore.values.DecimalValue.Builder builderForValue) {
@@ -2219,7 +2219,7 @@ public final class OmModifyShippingTypesAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.DecimalValue brutto_sum_to = 5;</code>
+       * <code>.dstore.values.DecimalValue brutto_sum_to = 5;</code>
        */
       public Builder mergeBruttoSumTo(io.dstore.values.DecimalValue value) {
         if (bruttoSumToBuilder_ == null) {
@@ -2237,7 +2237,7 @@ public final class OmModifyShippingTypesAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.DecimalValue brutto_sum_to = 5;</code>
+       * <code>.dstore.values.DecimalValue brutto_sum_to = 5;</code>
        */
       public Builder clearBruttoSumTo() {
         if (bruttoSumToBuilder_ == null) {
@@ -2251,7 +2251,7 @@ public final class OmModifyShippingTypesAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.DecimalValue brutto_sum_to = 5;</code>
+       * <code>.dstore.values.DecimalValue brutto_sum_to = 5;</code>
        */
       public io.dstore.values.DecimalValue.Builder getBruttoSumToBuilder() {
         
@@ -2259,7 +2259,7 @@ public final class OmModifyShippingTypesAd {
         return getBruttoSumToFieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .dstore.values.DecimalValue brutto_sum_to = 5;</code>
+       * <code>.dstore.values.DecimalValue brutto_sum_to = 5;</code>
        */
       public io.dstore.values.DecimalValueOrBuilder getBruttoSumToOrBuilder() {
         if (bruttoSumToBuilder_ != null) {
@@ -2270,7 +2270,7 @@ public final class OmModifyShippingTypesAd {
         }
       }
       /**
-       * <code>optional .dstore.values.DecimalValue brutto_sum_to = 5;</code>
+       * <code>.dstore.values.DecimalValue brutto_sum_to = 5;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.values.DecimalValue, io.dstore.values.DecimalValue.Builder, io.dstore.values.DecimalValueOrBuilder> 
@@ -2288,13 +2288,13 @@ public final class OmModifyShippingTypesAd {
 
       private boolean bruttoSumToNull_ ;
       /**
-       * <code>optional bool brutto_sum_to_null = 1005;</code>
+       * <code>bool brutto_sum_to_null = 1005;</code>
        */
       public boolean getBruttoSumToNull() {
         return bruttoSumToNull_;
       }
       /**
-       * <code>optional bool brutto_sum_to_null = 1005;</code>
+       * <code>bool brutto_sum_to_null = 1005;</code>
        */
       public Builder setBruttoSumToNull(boolean value) {
         
@@ -2303,7 +2303,7 @@ public final class OmModifyShippingTypesAd {
         return this;
       }
       /**
-       * <code>optional bool brutto_sum_to_null = 1005;</code>
+       * <code>bool brutto_sum_to_null = 1005;</code>
        */
       public Builder clearBruttoSumToNull() {
         
@@ -2316,13 +2316,13 @@ public final class OmModifyShippingTypesAd {
       private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> currencyIdBuilder_;
       /**
-       * <code>optional .dstore.values.IntegerValue currency_id = 6;</code>
+       * <code>.dstore.values.IntegerValue currency_id = 6;</code>
        */
       public boolean hasCurrencyId() {
         return currencyIdBuilder_ != null || currencyId_ != null;
       }
       /**
-       * <code>optional .dstore.values.IntegerValue currency_id = 6;</code>
+       * <code>.dstore.values.IntegerValue currency_id = 6;</code>
        */
       public io.dstore.values.IntegerValue getCurrencyId() {
         if (currencyIdBuilder_ == null) {
@@ -2332,7 +2332,7 @@ public final class OmModifyShippingTypesAd {
         }
       }
       /**
-       * <code>optional .dstore.values.IntegerValue currency_id = 6;</code>
+       * <code>.dstore.values.IntegerValue currency_id = 6;</code>
        */
       public Builder setCurrencyId(io.dstore.values.IntegerValue value) {
         if (currencyIdBuilder_ == null) {
@@ -2348,7 +2348,7 @@ public final class OmModifyShippingTypesAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.IntegerValue currency_id = 6;</code>
+       * <code>.dstore.values.IntegerValue currency_id = 6;</code>
        */
       public Builder setCurrencyId(
           io.dstore.values.IntegerValue.Builder builderForValue) {
@@ -2362,7 +2362,7 @@ public final class OmModifyShippingTypesAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.IntegerValue currency_id = 6;</code>
+       * <code>.dstore.values.IntegerValue currency_id = 6;</code>
        */
       public Builder mergeCurrencyId(io.dstore.values.IntegerValue value) {
         if (currencyIdBuilder_ == null) {
@@ -2380,7 +2380,7 @@ public final class OmModifyShippingTypesAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.IntegerValue currency_id = 6;</code>
+       * <code>.dstore.values.IntegerValue currency_id = 6;</code>
        */
       public Builder clearCurrencyId() {
         if (currencyIdBuilder_ == null) {
@@ -2394,7 +2394,7 @@ public final class OmModifyShippingTypesAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.IntegerValue currency_id = 6;</code>
+       * <code>.dstore.values.IntegerValue currency_id = 6;</code>
        */
       public io.dstore.values.IntegerValue.Builder getCurrencyIdBuilder() {
         
@@ -2402,7 +2402,7 @@ public final class OmModifyShippingTypesAd {
         return getCurrencyIdFieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .dstore.values.IntegerValue currency_id = 6;</code>
+       * <code>.dstore.values.IntegerValue currency_id = 6;</code>
        */
       public io.dstore.values.IntegerValueOrBuilder getCurrencyIdOrBuilder() {
         if (currencyIdBuilder_ != null) {
@@ -2413,7 +2413,7 @@ public final class OmModifyShippingTypesAd {
         }
       }
       /**
-       * <code>optional .dstore.values.IntegerValue currency_id = 6;</code>
+       * <code>.dstore.values.IntegerValue currency_id = 6;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> 
@@ -2431,13 +2431,13 @@ public final class OmModifyShippingTypesAd {
 
       private boolean currencyIdNull_ ;
       /**
-       * <code>optional bool currency_id_null = 1006;</code>
+       * <code>bool currency_id_null = 1006;</code>
        */
       public boolean getCurrencyIdNull() {
         return currencyIdNull_;
       }
       /**
-       * <code>optional bool currency_id_null = 1006;</code>
+       * <code>bool currency_id_null = 1006;</code>
        */
       public Builder setCurrencyIdNull(boolean value) {
         
@@ -2446,7 +2446,7 @@ public final class OmModifyShippingTypesAd {
         return this;
       }
       /**
-       * <code>optional bool currency_id_null = 1006;</code>
+       * <code>bool currency_id_null = 1006;</code>
        */
       public Builder clearCurrencyIdNull() {
         
@@ -2459,13 +2459,13 @@ public final class OmModifyShippingTypesAd {
       private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> surchargeTypeIdBuilder_;
       /**
-       * <code>optional .dstore.values.IntegerValue surcharge_type_id = 7;</code>
+       * <code>.dstore.values.IntegerValue surcharge_type_id = 7;</code>
        */
       public boolean hasSurchargeTypeId() {
         return surchargeTypeIdBuilder_ != null || surchargeTypeId_ != null;
       }
       /**
-       * <code>optional .dstore.values.IntegerValue surcharge_type_id = 7;</code>
+       * <code>.dstore.values.IntegerValue surcharge_type_id = 7;</code>
        */
       public io.dstore.values.IntegerValue getSurchargeTypeId() {
         if (surchargeTypeIdBuilder_ == null) {
@@ -2475,7 +2475,7 @@ public final class OmModifyShippingTypesAd {
         }
       }
       /**
-       * <code>optional .dstore.values.IntegerValue surcharge_type_id = 7;</code>
+       * <code>.dstore.values.IntegerValue surcharge_type_id = 7;</code>
        */
       public Builder setSurchargeTypeId(io.dstore.values.IntegerValue value) {
         if (surchargeTypeIdBuilder_ == null) {
@@ -2491,7 +2491,7 @@ public final class OmModifyShippingTypesAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.IntegerValue surcharge_type_id = 7;</code>
+       * <code>.dstore.values.IntegerValue surcharge_type_id = 7;</code>
        */
       public Builder setSurchargeTypeId(
           io.dstore.values.IntegerValue.Builder builderForValue) {
@@ -2505,7 +2505,7 @@ public final class OmModifyShippingTypesAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.IntegerValue surcharge_type_id = 7;</code>
+       * <code>.dstore.values.IntegerValue surcharge_type_id = 7;</code>
        */
       public Builder mergeSurchargeTypeId(io.dstore.values.IntegerValue value) {
         if (surchargeTypeIdBuilder_ == null) {
@@ -2523,7 +2523,7 @@ public final class OmModifyShippingTypesAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.IntegerValue surcharge_type_id = 7;</code>
+       * <code>.dstore.values.IntegerValue surcharge_type_id = 7;</code>
        */
       public Builder clearSurchargeTypeId() {
         if (surchargeTypeIdBuilder_ == null) {
@@ -2537,7 +2537,7 @@ public final class OmModifyShippingTypesAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.IntegerValue surcharge_type_id = 7;</code>
+       * <code>.dstore.values.IntegerValue surcharge_type_id = 7;</code>
        */
       public io.dstore.values.IntegerValue.Builder getSurchargeTypeIdBuilder() {
         
@@ -2545,7 +2545,7 @@ public final class OmModifyShippingTypesAd {
         return getSurchargeTypeIdFieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .dstore.values.IntegerValue surcharge_type_id = 7;</code>
+       * <code>.dstore.values.IntegerValue surcharge_type_id = 7;</code>
        */
       public io.dstore.values.IntegerValueOrBuilder getSurchargeTypeIdOrBuilder() {
         if (surchargeTypeIdBuilder_ != null) {
@@ -2556,7 +2556,7 @@ public final class OmModifyShippingTypesAd {
         }
       }
       /**
-       * <code>optional .dstore.values.IntegerValue surcharge_type_id = 7;</code>
+       * <code>.dstore.values.IntegerValue surcharge_type_id = 7;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> 
@@ -2574,13 +2574,13 @@ public final class OmModifyShippingTypesAd {
 
       private boolean surchargeTypeIdNull_ ;
       /**
-       * <code>optional bool surcharge_type_id_null = 1007;</code>
+       * <code>bool surcharge_type_id_null = 1007;</code>
        */
       public boolean getSurchargeTypeIdNull() {
         return surchargeTypeIdNull_;
       }
       /**
-       * <code>optional bool surcharge_type_id_null = 1007;</code>
+       * <code>bool surcharge_type_id_null = 1007;</code>
        */
       public Builder setSurchargeTypeIdNull(boolean value) {
         
@@ -2589,7 +2589,7 @@ public final class OmModifyShippingTypesAd {
         return this;
       }
       /**
-       * <code>optional bool surcharge_type_id_null = 1007;</code>
+       * <code>bool surcharge_type_id_null = 1007;</code>
        */
       public Builder clearSurchargeTypeIdNull() {
         
@@ -2602,13 +2602,13 @@ public final class OmModifyShippingTypesAd {
       private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.values.DecimalValue, io.dstore.values.DecimalValue.Builder, io.dstore.values.DecimalValueOrBuilder> costBuilder_;
       /**
-       * <code>optional .dstore.values.DecimalValue cost = 8;</code>
+       * <code>.dstore.values.DecimalValue cost = 8;</code>
        */
       public boolean hasCost() {
         return costBuilder_ != null || cost_ != null;
       }
       /**
-       * <code>optional .dstore.values.DecimalValue cost = 8;</code>
+       * <code>.dstore.values.DecimalValue cost = 8;</code>
        */
       public io.dstore.values.DecimalValue getCost() {
         if (costBuilder_ == null) {
@@ -2618,7 +2618,7 @@ public final class OmModifyShippingTypesAd {
         }
       }
       /**
-       * <code>optional .dstore.values.DecimalValue cost = 8;</code>
+       * <code>.dstore.values.DecimalValue cost = 8;</code>
        */
       public Builder setCost(io.dstore.values.DecimalValue value) {
         if (costBuilder_ == null) {
@@ -2634,7 +2634,7 @@ public final class OmModifyShippingTypesAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.DecimalValue cost = 8;</code>
+       * <code>.dstore.values.DecimalValue cost = 8;</code>
        */
       public Builder setCost(
           io.dstore.values.DecimalValue.Builder builderForValue) {
@@ -2648,7 +2648,7 @@ public final class OmModifyShippingTypesAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.DecimalValue cost = 8;</code>
+       * <code>.dstore.values.DecimalValue cost = 8;</code>
        */
       public Builder mergeCost(io.dstore.values.DecimalValue value) {
         if (costBuilder_ == null) {
@@ -2666,7 +2666,7 @@ public final class OmModifyShippingTypesAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.DecimalValue cost = 8;</code>
+       * <code>.dstore.values.DecimalValue cost = 8;</code>
        */
       public Builder clearCost() {
         if (costBuilder_ == null) {
@@ -2680,7 +2680,7 @@ public final class OmModifyShippingTypesAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.DecimalValue cost = 8;</code>
+       * <code>.dstore.values.DecimalValue cost = 8;</code>
        */
       public io.dstore.values.DecimalValue.Builder getCostBuilder() {
         
@@ -2688,7 +2688,7 @@ public final class OmModifyShippingTypesAd {
         return getCostFieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .dstore.values.DecimalValue cost = 8;</code>
+       * <code>.dstore.values.DecimalValue cost = 8;</code>
        */
       public io.dstore.values.DecimalValueOrBuilder getCostOrBuilder() {
         if (costBuilder_ != null) {
@@ -2699,7 +2699,7 @@ public final class OmModifyShippingTypesAd {
         }
       }
       /**
-       * <code>optional .dstore.values.DecimalValue cost = 8;</code>
+       * <code>.dstore.values.DecimalValue cost = 8;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.values.DecimalValue, io.dstore.values.DecimalValue.Builder, io.dstore.values.DecimalValueOrBuilder> 
@@ -2717,13 +2717,13 @@ public final class OmModifyShippingTypesAd {
 
       private boolean costNull_ ;
       /**
-       * <code>optional bool cost_null = 1008;</code>
+       * <code>bool cost_null = 1008;</code>
        */
       public boolean getCostNull() {
         return costNull_;
       }
       /**
-       * <code>optional bool cost_null = 1008;</code>
+       * <code>bool cost_null = 1008;</code>
        */
       public Builder setCostNull(boolean value) {
         
@@ -2732,7 +2732,7 @@ public final class OmModifyShippingTypesAd {
         return this;
       }
       /**
-       * <code>optional bool cost_null = 1008;</code>
+       * <code>bool cost_null = 1008;</code>
        */
       public Builder clearCostNull() {
         
@@ -2745,13 +2745,13 @@ public final class OmModifyShippingTypesAd {
       private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.values.BooleanValue, io.dstore.values.BooleanValue.Builder, io.dstore.values.BooleanValueOrBuilder> deleteShippingTypeBuilder_;
       /**
-       * <code>optional .dstore.values.BooleanValue delete_shipping_type = 9;</code>
+       * <code>.dstore.values.BooleanValue delete_shipping_type = 9;</code>
        */
       public boolean hasDeleteShippingType() {
         return deleteShippingTypeBuilder_ != null || deleteShippingType_ != null;
       }
       /**
-       * <code>optional .dstore.values.BooleanValue delete_shipping_type = 9;</code>
+       * <code>.dstore.values.BooleanValue delete_shipping_type = 9;</code>
        */
       public io.dstore.values.BooleanValue getDeleteShippingType() {
         if (deleteShippingTypeBuilder_ == null) {
@@ -2761,7 +2761,7 @@ public final class OmModifyShippingTypesAd {
         }
       }
       /**
-       * <code>optional .dstore.values.BooleanValue delete_shipping_type = 9;</code>
+       * <code>.dstore.values.BooleanValue delete_shipping_type = 9;</code>
        */
       public Builder setDeleteShippingType(io.dstore.values.BooleanValue value) {
         if (deleteShippingTypeBuilder_ == null) {
@@ -2777,7 +2777,7 @@ public final class OmModifyShippingTypesAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.BooleanValue delete_shipping_type = 9;</code>
+       * <code>.dstore.values.BooleanValue delete_shipping_type = 9;</code>
        */
       public Builder setDeleteShippingType(
           io.dstore.values.BooleanValue.Builder builderForValue) {
@@ -2791,7 +2791,7 @@ public final class OmModifyShippingTypesAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.BooleanValue delete_shipping_type = 9;</code>
+       * <code>.dstore.values.BooleanValue delete_shipping_type = 9;</code>
        */
       public Builder mergeDeleteShippingType(io.dstore.values.BooleanValue value) {
         if (deleteShippingTypeBuilder_ == null) {
@@ -2809,7 +2809,7 @@ public final class OmModifyShippingTypesAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.BooleanValue delete_shipping_type = 9;</code>
+       * <code>.dstore.values.BooleanValue delete_shipping_type = 9;</code>
        */
       public Builder clearDeleteShippingType() {
         if (deleteShippingTypeBuilder_ == null) {
@@ -2823,7 +2823,7 @@ public final class OmModifyShippingTypesAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.BooleanValue delete_shipping_type = 9;</code>
+       * <code>.dstore.values.BooleanValue delete_shipping_type = 9;</code>
        */
       public io.dstore.values.BooleanValue.Builder getDeleteShippingTypeBuilder() {
         
@@ -2831,7 +2831,7 @@ public final class OmModifyShippingTypesAd {
         return getDeleteShippingTypeFieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .dstore.values.BooleanValue delete_shipping_type = 9;</code>
+       * <code>.dstore.values.BooleanValue delete_shipping_type = 9;</code>
        */
       public io.dstore.values.BooleanValueOrBuilder getDeleteShippingTypeOrBuilder() {
         if (deleteShippingTypeBuilder_ != null) {
@@ -2842,7 +2842,7 @@ public final class OmModifyShippingTypesAd {
         }
       }
       /**
-       * <code>optional .dstore.values.BooleanValue delete_shipping_type = 9;</code>
+       * <code>.dstore.values.BooleanValue delete_shipping_type = 9;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.values.BooleanValue, io.dstore.values.BooleanValue.Builder, io.dstore.values.BooleanValueOrBuilder> 
@@ -2860,13 +2860,13 @@ public final class OmModifyShippingTypesAd {
 
       private boolean deleteShippingTypeNull_ ;
       /**
-       * <code>optional bool delete_shipping_type_null = 1009;</code>
+       * <code>bool delete_shipping_type_null = 1009;</code>
        */
       public boolean getDeleteShippingTypeNull() {
         return deleteShippingTypeNull_;
       }
       /**
-       * <code>optional bool delete_shipping_type_null = 1009;</code>
+       * <code>bool delete_shipping_type_null = 1009;</code>
        */
       public Builder setDeleteShippingTypeNull(boolean value) {
         
@@ -2875,7 +2875,7 @@ public final class OmModifyShippingTypesAd {
         return this;
       }
       /**
-       * <code>optional bool delete_shipping_type_null = 1009;</code>
+       * <code>bool delete_shipping_type_null = 1009;</code>
        */
       public Builder clearDeleteShippingTypeNull() {
         
@@ -2888,13 +2888,13 @@ public final class OmModifyShippingTypesAd {
       private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.values.BooleanValue, io.dstore.values.BooleanValue.Builder, io.dstore.values.BooleanValueOrBuilder> activeBuilder_;
       /**
-       * <code>optional .dstore.values.BooleanValue active = 10;</code>
+       * <code>.dstore.values.BooleanValue active = 10;</code>
        */
       public boolean hasActive() {
         return activeBuilder_ != null || active_ != null;
       }
       /**
-       * <code>optional .dstore.values.BooleanValue active = 10;</code>
+       * <code>.dstore.values.BooleanValue active = 10;</code>
        */
       public io.dstore.values.BooleanValue getActive() {
         if (activeBuilder_ == null) {
@@ -2904,7 +2904,7 @@ public final class OmModifyShippingTypesAd {
         }
       }
       /**
-       * <code>optional .dstore.values.BooleanValue active = 10;</code>
+       * <code>.dstore.values.BooleanValue active = 10;</code>
        */
       public Builder setActive(io.dstore.values.BooleanValue value) {
         if (activeBuilder_ == null) {
@@ -2920,7 +2920,7 @@ public final class OmModifyShippingTypesAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.BooleanValue active = 10;</code>
+       * <code>.dstore.values.BooleanValue active = 10;</code>
        */
       public Builder setActive(
           io.dstore.values.BooleanValue.Builder builderForValue) {
@@ -2934,7 +2934,7 @@ public final class OmModifyShippingTypesAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.BooleanValue active = 10;</code>
+       * <code>.dstore.values.BooleanValue active = 10;</code>
        */
       public Builder mergeActive(io.dstore.values.BooleanValue value) {
         if (activeBuilder_ == null) {
@@ -2952,7 +2952,7 @@ public final class OmModifyShippingTypesAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.BooleanValue active = 10;</code>
+       * <code>.dstore.values.BooleanValue active = 10;</code>
        */
       public Builder clearActive() {
         if (activeBuilder_ == null) {
@@ -2966,7 +2966,7 @@ public final class OmModifyShippingTypesAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.BooleanValue active = 10;</code>
+       * <code>.dstore.values.BooleanValue active = 10;</code>
        */
       public io.dstore.values.BooleanValue.Builder getActiveBuilder() {
         
@@ -2974,7 +2974,7 @@ public final class OmModifyShippingTypesAd {
         return getActiveFieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .dstore.values.BooleanValue active = 10;</code>
+       * <code>.dstore.values.BooleanValue active = 10;</code>
        */
       public io.dstore.values.BooleanValueOrBuilder getActiveOrBuilder() {
         if (activeBuilder_ != null) {
@@ -2985,7 +2985,7 @@ public final class OmModifyShippingTypesAd {
         }
       }
       /**
-       * <code>optional .dstore.values.BooleanValue active = 10;</code>
+       * <code>.dstore.values.BooleanValue active = 10;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.values.BooleanValue, io.dstore.values.BooleanValue.Builder, io.dstore.values.BooleanValueOrBuilder> 
@@ -3003,13 +3003,13 @@ public final class OmModifyShippingTypesAd {
 
       private boolean activeNull_ ;
       /**
-       * <code>optional bool active_null = 1010;</code>
+       * <code>bool active_null = 1010;</code>
        */
       public boolean getActiveNull() {
         return activeNull_;
       }
       /**
-       * <code>optional bool active_null = 1010;</code>
+       * <code>bool active_null = 1010;</code>
        */
       public Builder setActiveNull(boolean value) {
         
@@ -3018,7 +3018,7 @@ public final class OmModifyShippingTypesAd {
         return this;
       }
       /**
-       * <code>optional bool active_null = 1010;</code>
+       * <code>bool active_null = 1010;</code>
        */
       public Builder clearActiveNull() {
         
@@ -3031,13 +3031,13 @@ public final class OmModifyShippingTypesAd {
       private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.values.StringValue, io.dstore.values.StringValue.Builder, io.dstore.values.StringValueOrBuilder> predefBillContentDescriptionBuilder_;
       /**
-       * <code>optional .dstore.values.StringValue predef_bill_content_description = 11;</code>
+       * <code>.dstore.values.StringValue predef_bill_content_description = 11;</code>
        */
       public boolean hasPredefBillContentDescription() {
         return predefBillContentDescriptionBuilder_ != null || predefBillContentDescription_ != null;
       }
       /**
-       * <code>optional .dstore.values.StringValue predef_bill_content_description = 11;</code>
+       * <code>.dstore.values.StringValue predef_bill_content_description = 11;</code>
        */
       public io.dstore.values.StringValue getPredefBillContentDescription() {
         if (predefBillContentDescriptionBuilder_ == null) {
@@ -3047,7 +3047,7 @@ public final class OmModifyShippingTypesAd {
         }
       }
       /**
-       * <code>optional .dstore.values.StringValue predef_bill_content_description = 11;</code>
+       * <code>.dstore.values.StringValue predef_bill_content_description = 11;</code>
        */
       public Builder setPredefBillContentDescription(io.dstore.values.StringValue value) {
         if (predefBillContentDescriptionBuilder_ == null) {
@@ -3063,7 +3063,7 @@ public final class OmModifyShippingTypesAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.StringValue predef_bill_content_description = 11;</code>
+       * <code>.dstore.values.StringValue predef_bill_content_description = 11;</code>
        */
       public Builder setPredefBillContentDescription(
           io.dstore.values.StringValue.Builder builderForValue) {
@@ -3077,7 +3077,7 @@ public final class OmModifyShippingTypesAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.StringValue predef_bill_content_description = 11;</code>
+       * <code>.dstore.values.StringValue predef_bill_content_description = 11;</code>
        */
       public Builder mergePredefBillContentDescription(io.dstore.values.StringValue value) {
         if (predefBillContentDescriptionBuilder_ == null) {
@@ -3095,7 +3095,7 @@ public final class OmModifyShippingTypesAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.StringValue predef_bill_content_description = 11;</code>
+       * <code>.dstore.values.StringValue predef_bill_content_description = 11;</code>
        */
       public Builder clearPredefBillContentDescription() {
         if (predefBillContentDescriptionBuilder_ == null) {
@@ -3109,7 +3109,7 @@ public final class OmModifyShippingTypesAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.StringValue predef_bill_content_description = 11;</code>
+       * <code>.dstore.values.StringValue predef_bill_content_description = 11;</code>
        */
       public io.dstore.values.StringValue.Builder getPredefBillContentDescriptionBuilder() {
         
@@ -3117,7 +3117,7 @@ public final class OmModifyShippingTypesAd {
         return getPredefBillContentDescriptionFieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .dstore.values.StringValue predef_bill_content_description = 11;</code>
+       * <code>.dstore.values.StringValue predef_bill_content_description = 11;</code>
        */
       public io.dstore.values.StringValueOrBuilder getPredefBillContentDescriptionOrBuilder() {
         if (predefBillContentDescriptionBuilder_ != null) {
@@ -3128,7 +3128,7 @@ public final class OmModifyShippingTypesAd {
         }
       }
       /**
-       * <code>optional .dstore.values.StringValue predef_bill_content_description = 11;</code>
+       * <code>.dstore.values.StringValue predef_bill_content_description = 11;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.values.StringValue, io.dstore.values.StringValue.Builder, io.dstore.values.StringValueOrBuilder> 
@@ -3146,13 +3146,13 @@ public final class OmModifyShippingTypesAd {
 
       private boolean predefBillContentDescriptionNull_ ;
       /**
-       * <code>optional bool predef_bill_content_description_null = 1011;</code>
+       * <code>bool predef_bill_content_description_null = 1011;</code>
        */
       public boolean getPredefBillContentDescriptionNull() {
         return predefBillContentDescriptionNull_;
       }
       /**
-       * <code>optional bool predef_bill_content_description_null = 1011;</code>
+       * <code>bool predef_bill_content_description_null = 1011;</code>
        */
       public Builder setPredefBillContentDescriptionNull(boolean value) {
         
@@ -3161,7 +3161,7 @@ public final class OmModifyShippingTypesAd {
         return this;
       }
       /**
-       * <code>optional bool predef_bill_content_description_null = 1011;</code>
+       * <code>bool predef_bill_content_description_null = 1011;</code>
        */
       public Builder clearPredefBillContentDescriptionNull() {
         
@@ -3420,7 +3420,7 @@ public final class OmModifyShippingTypesAd {
         com.google.protobuf.MessageOrBuilder {
 
       /**
-       * <code>optional int32 row_id = 10000;</code>
+       * <code>int32 row_id = 10000;</code>
        */
       int getRowId();
     }
@@ -3495,7 +3495,7 @@ public final class OmModifyShippingTypesAd {
       public static final int ROW_ID_FIELD_NUMBER = 10000;
       private int rowId_;
       /**
-       * <code>optional int32 row_id = 10000;</code>
+       * <code>int32 row_id = 10000;</code>
        */
       public int getRowId() {
         return rowId_;
@@ -3554,7 +3554,7 @@ public final class OmModifyShippingTypesAd {
           return memoizedHashCode;
         }
         int hash = 41;
-        hash = (19 * hash) + getDescriptorForType().hashCode();
+        hash = (19 * hash) + getDescriptor().hashCode();
         hash = (37 * hash) + ROW_ID_FIELD_NUMBER;
         hash = (53 * hash) + getRowId();
         hash = (29 * hash) + unknownFields.hashCode();
@@ -3772,13 +3772,13 @@ public final class OmModifyShippingTypesAd {
 
         private int rowId_ ;
         /**
-         * <code>optional int32 row_id = 10000;</code>
+         * <code>int32 row_id = 10000;</code>
          */
         public int getRowId() {
           return rowId_;
         }
         /**
-         * <code>optional int32 row_id = 10000;</code>
+         * <code>int32 row_id = 10000;</code>
          */
         public Builder setRowId(int value) {
           
@@ -3787,7 +3787,7 @@ public final class OmModifyShippingTypesAd {
           return this;
         }
         /**
-         * <code>optional int32 row_id = 10000;</code>
+         * <code>int32 row_id = 10000;</code>
          */
         public Builder clearRowId() {
           
@@ -4040,7 +4040,7 @@ public final class OmModifyShippingTypesAd {
         return memoizedHashCode;
       }
       int hash = 41;
-      hash = (19 * hash) + getDescriptorForType().hashCode();
+      hash = (19 * hash) + getDescriptor().hashCode();
       if (getMetaInformationCount() > 0) {
         hash = (37 * hash) + META_INFORMATION_FIELD_NUMBER;
         hash = (53 * hash) + getMetaInformationList().hashCode();

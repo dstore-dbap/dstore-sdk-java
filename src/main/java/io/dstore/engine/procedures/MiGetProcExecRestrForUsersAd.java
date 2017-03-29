@@ -19,38 +19,38 @@ public final class MiGetProcExecRestrForUsersAd {
       com.google.protobuf.MessageOrBuilder {
 
     /**
-     * <code>optional .dstore.values.IntegerValue procedure_id = 1;</code>
+     * <code>.dstore.values.IntegerValue procedure_id = 1;</code>
      */
     boolean hasProcedureId();
     /**
-     * <code>optional .dstore.values.IntegerValue procedure_id = 1;</code>
+     * <code>.dstore.values.IntegerValue procedure_id = 1;</code>
      */
     io.dstore.values.IntegerValue getProcedureId();
     /**
-     * <code>optional .dstore.values.IntegerValue procedure_id = 1;</code>
+     * <code>.dstore.values.IntegerValue procedure_id = 1;</code>
      */
     io.dstore.values.IntegerValueOrBuilder getProcedureIdOrBuilder();
 
     /**
-     * <code>optional bool procedure_id_null = 1001;</code>
+     * <code>bool procedure_id_null = 1001;</code>
      */
     boolean getProcedureIdNull();
 
     /**
-     * <code>optional .dstore.values.IntegerValue restriction_for_user_id = 2;</code>
+     * <code>.dstore.values.IntegerValue restriction_for_user_id = 2;</code>
      */
     boolean hasRestrictionForUserId();
     /**
-     * <code>optional .dstore.values.IntegerValue restriction_for_user_id = 2;</code>
+     * <code>.dstore.values.IntegerValue restriction_for_user_id = 2;</code>
      */
     io.dstore.values.IntegerValue getRestrictionForUserId();
     /**
-     * <code>optional .dstore.values.IntegerValue restriction_for_user_id = 2;</code>
+     * <code>.dstore.values.IntegerValue restriction_for_user_id = 2;</code>
      */
     io.dstore.values.IntegerValueOrBuilder getRestrictionForUserIdOrBuilder();
 
     /**
-     * <code>optional bool restriction_for_user_id_null = 1002;</code>
+     * <code>bool restriction_for_user_id_null = 1002;</code>
      */
     boolean getRestrictionForUserIdNull();
   }
@@ -157,19 +157,19 @@ public final class MiGetProcExecRestrForUsersAd {
     public static final int PROCEDURE_ID_FIELD_NUMBER = 1;
     private io.dstore.values.IntegerValue procedureId_;
     /**
-     * <code>optional .dstore.values.IntegerValue procedure_id = 1;</code>
+     * <code>.dstore.values.IntegerValue procedure_id = 1;</code>
      */
     public boolean hasProcedureId() {
       return procedureId_ != null;
     }
     /**
-     * <code>optional .dstore.values.IntegerValue procedure_id = 1;</code>
+     * <code>.dstore.values.IntegerValue procedure_id = 1;</code>
      */
     public io.dstore.values.IntegerValue getProcedureId() {
       return procedureId_ == null ? io.dstore.values.IntegerValue.getDefaultInstance() : procedureId_;
     }
     /**
-     * <code>optional .dstore.values.IntegerValue procedure_id = 1;</code>
+     * <code>.dstore.values.IntegerValue procedure_id = 1;</code>
      */
     public io.dstore.values.IntegerValueOrBuilder getProcedureIdOrBuilder() {
       return getProcedureId();
@@ -178,7 +178,7 @@ public final class MiGetProcExecRestrForUsersAd {
     public static final int PROCEDURE_ID_NULL_FIELD_NUMBER = 1001;
     private boolean procedureIdNull_;
     /**
-     * <code>optional bool procedure_id_null = 1001;</code>
+     * <code>bool procedure_id_null = 1001;</code>
      */
     public boolean getProcedureIdNull() {
       return procedureIdNull_;
@@ -187,19 +187,19 @@ public final class MiGetProcExecRestrForUsersAd {
     public static final int RESTRICTION_FOR_USER_ID_FIELD_NUMBER = 2;
     private io.dstore.values.IntegerValue restrictionForUserId_;
     /**
-     * <code>optional .dstore.values.IntegerValue restriction_for_user_id = 2;</code>
+     * <code>.dstore.values.IntegerValue restriction_for_user_id = 2;</code>
      */
     public boolean hasRestrictionForUserId() {
       return restrictionForUserId_ != null;
     }
     /**
-     * <code>optional .dstore.values.IntegerValue restriction_for_user_id = 2;</code>
+     * <code>.dstore.values.IntegerValue restriction_for_user_id = 2;</code>
      */
     public io.dstore.values.IntegerValue getRestrictionForUserId() {
       return restrictionForUserId_ == null ? io.dstore.values.IntegerValue.getDefaultInstance() : restrictionForUserId_;
     }
     /**
-     * <code>optional .dstore.values.IntegerValue restriction_for_user_id = 2;</code>
+     * <code>.dstore.values.IntegerValue restriction_for_user_id = 2;</code>
      */
     public io.dstore.values.IntegerValueOrBuilder getRestrictionForUserIdOrBuilder() {
       return getRestrictionForUserId();
@@ -208,7 +208,7 @@ public final class MiGetProcExecRestrForUsersAd {
     public static final int RESTRICTION_FOR_USER_ID_NULL_FIELD_NUMBER = 1002;
     private boolean restrictionForUserIdNull_;
     /**
-     * <code>optional bool restriction_for_user_id_null = 1002;</code>
+     * <code>bool restriction_for_user_id_null = 1002;</code>
      */
     public boolean getRestrictionForUserIdNull() {
       return restrictionForUserIdNull_;
@@ -300,7 +300,7 @@ public final class MiGetProcExecRestrForUsersAd {
         return memoizedHashCode;
       }
       int hash = 41;
-      hash = (19 * hash) + getDescriptorForType().hashCode();
+      hash = (19 * hash) + getDescriptor().hashCode();
       if (hasProcedureId()) {
         hash = (37 * hash) + PROCEDURE_ID_FIELD_NUMBER;
         hash = (53 * hash) + getProcedureId().hashCode();
@@ -566,13 +566,13 @@ public final class MiGetProcExecRestrForUsersAd {
       private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> procedureIdBuilder_;
       /**
-       * <code>optional .dstore.values.IntegerValue procedure_id = 1;</code>
+       * <code>.dstore.values.IntegerValue procedure_id = 1;</code>
        */
       public boolean hasProcedureId() {
         return procedureIdBuilder_ != null || procedureId_ != null;
       }
       /**
-       * <code>optional .dstore.values.IntegerValue procedure_id = 1;</code>
+       * <code>.dstore.values.IntegerValue procedure_id = 1;</code>
        */
       public io.dstore.values.IntegerValue getProcedureId() {
         if (procedureIdBuilder_ == null) {
@@ -582,7 +582,7 @@ public final class MiGetProcExecRestrForUsersAd {
         }
       }
       /**
-       * <code>optional .dstore.values.IntegerValue procedure_id = 1;</code>
+       * <code>.dstore.values.IntegerValue procedure_id = 1;</code>
        */
       public Builder setProcedureId(io.dstore.values.IntegerValue value) {
         if (procedureIdBuilder_ == null) {
@@ -598,7 +598,7 @@ public final class MiGetProcExecRestrForUsersAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.IntegerValue procedure_id = 1;</code>
+       * <code>.dstore.values.IntegerValue procedure_id = 1;</code>
        */
       public Builder setProcedureId(
           io.dstore.values.IntegerValue.Builder builderForValue) {
@@ -612,7 +612,7 @@ public final class MiGetProcExecRestrForUsersAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.IntegerValue procedure_id = 1;</code>
+       * <code>.dstore.values.IntegerValue procedure_id = 1;</code>
        */
       public Builder mergeProcedureId(io.dstore.values.IntegerValue value) {
         if (procedureIdBuilder_ == null) {
@@ -630,7 +630,7 @@ public final class MiGetProcExecRestrForUsersAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.IntegerValue procedure_id = 1;</code>
+       * <code>.dstore.values.IntegerValue procedure_id = 1;</code>
        */
       public Builder clearProcedureId() {
         if (procedureIdBuilder_ == null) {
@@ -644,7 +644,7 @@ public final class MiGetProcExecRestrForUsersAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.IntegerValue procedure_id = 1;</code>
+       * <code>.dstore.values.IntegerValue procedure_id = 1;</code>
        */
       public io.dstore.values.IntegerValue.Builder getProcedureIdBuilder() {
         
@@ -652,7 +652,7 @@ public final class MiGetProcExecRestrForUsersAd {
         return getProcedureIdFieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .dstore.values.IntegerValue procedure_id = 1;</code>
+       * <code>.dstore.values.IntegerValue procedure_id = 1;</code>
        */
       public io.dstore.values.IntegerValueOrBuilder getProcedureIdOrBuilder() {
         if (procedureIdBuilder_ != null) {
@@ -663,7 +663,7 @@ public final class MiGetProcExecRestrForUsersAd {
         }
       }
       /**
-       * <code>optional .dstore.values.IntegerValue procedure_id = 1;</code>
+       * <code>.dstore.values.IntegerValue procedure_id = 1;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> 
@@ -681,13 +681,13 @@ public final class MiGetProcExecRestrForUsersAd {
 
       private boolean procedureIdNull_ ;
       /**
-       * <code>optional bool procedure_id_null = 1001;</code>
+       * <code>bool procedure_id_null = 1001;</code>
        */
       public boolean getProcedureIdNull() {
         return procedureIdNull_;
       }
       /**
-       * <code>optional bool procedure_id_null = 1001;</code>
+       * <code>bool procedure_id_null = 1001;</code>
        */
       public Builder setProcedureIdNull(boolean value) {
         
@@ -696,7 +696,7 @@ public final class MiGetProcExecRestrForUsersAd {
         return this;
       }
       /**
-       * <code>optional bool procedure_id_null = 1001;</code>
+       * <code>bool procedure_id_null = 1001;</code>
        */
       public Builder clearProcedureIdNull() {
         
@@ -709,13 +709,13 @@ public final class MiGetProcExecRestrForUsersAd {
       private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> restrictionForUserIdBuilder_;
       /**
-       * <code>optional .dstore.values.IntegerValue restriction_for_user_id = 2;</code>
+       * <code>.dstore.values.IntegerValue restriction_for_user_id = 2;</code>
        */
       public boolean hasRestrictionForUserId() {
         return restrictionForUserIdBuilder_ != null || restrictionForUserId_ != null;
       }
       /**
-       * <code>optional .dstore.values.IntegerValue restriction_for_user_id = 2;</code>
+       * <code>.dstore.values.IntegerValue restriction_for_user_id = 2;</code>
        */
       public io.dstore.values.IntegerValue getRestrictionForUserId() {
         if (restrictionForUserIdBuilder_ == null) {
@@ -725,7 +725,7 @@ public final class MiGetProcExecRestrForUsersAd {
         }
       }
       /**
-       * <code>optional .dstore.values.IntegerValue restriction_for_user_id = 2;</code>
+       * <code>.dstore.values.IntegerValue restriction_for_user_id = 2;</code>
        */
       public Builder setRestrictionForUserId(io.dstore.values.IntegerValue value) {
         if (restrictionForUserIdBuilder_ == null) {
@@ -741,7 +741,7 @@ public final class MiGetProcExecRestrForUsersAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.IntegerValue restriction_for_user_id = 2;</code>
+       * <code>.dstore.values.IntegerValue restriction_for_user_id = 2;</code>
        */
       public Builder setRestrictionForUserId(
           io.dstore.values.IntegerValue.Builder builderForValue) {
@@ -755,7 +755,7 @@ public final class MiGetProcExecRestrForUsersAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.IntegerValue restriction_for_user_id = 2;</code>
+       * <code>.dstore.values.IntegerValue restriction_for_user_id = 2;</code>
        */
       public Builder mergeRestrictionForUserId(io.dstore.values.IntegerValue value) {
         if (restrictionForUserIdBuilder_ == null) {
@@ -773,7 +773,7 @@ public final class MiGetProcExecRestrForUsersAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.IntegerValue restriction_for_user_id = 2;</code>
+       * <code>.dstore.values.IntegerValue restriction_for_user_id = 2;</code>
        */
       public Builder clearRestrictionForUserId() {
         if (restrictionForUserIdBuilder_ == null) {
@@ -787,7 +787,7 @@ public final class MiGetProcExecRestrForUsersAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.IntegerValue restriction_for_user_id = 2;</code>
+       * <code>.dstore.values.IntegerValue restriction_for_user_id = 2;</code>
        */
       public io.dstore.values.IntegerValue.Builder getRestrictionForUserIdBuilder() {
         
@@ -795,7 +795,7 @@ public final class MiGetProcExecRestrForUsersAd {
         return getRestrictionForUserIdFieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .dstore.values.IntegerValue restriction_for_user_id = 2;</code>
+       * <code>.dstore.values.IntegerValue restriction_for_user_id = 2;</code>
        */
       public io.dstore.values.IntegerValueOrBuilder getRestrictionForUserIdOrBuilder() {
         if (restrictionForUserIdBuilder_ != null) {
@@ -806,7 +806,7 @@ public final class MiGetProcExecRestrForUsersAd {
         }
       }
       /**
-       * <code>optional .dstore.values.IntegerValue restriction_for_user_id = 2;</code>
+       * <code>.dstore.values.IntegerValue restriction_for_user_id = 2;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> 
@@ -824,13 +824,13 @@ public final class MiGetProcExecRestrForUsersAd {
 
       private boolean restrictionForUserIdNull_ ;
       /**
-       * <code>optional bool restriction_for_user_id_null = 1002;</code>
+       * <code>bool restriction_for_user_id_null = 1002;</code>
        */
       public boolean getRestrictionForUserIdNull() {
         return restrictionForUserIdNull_;
       }
       /**
-       * <code>optional bool restriction_for_user_id_null = 1002;</code>
+       * <code>bool restriction_for_user_id_null = 1002;</code>
        */
       public Builder setRestrictionForUserIdNull(boolean value) {
         
@@ -839,7 +839,7 @@ public final class MiGetProcExecRestrForUsersAd {
         return this;
       }
       /**
-       * <code>optional bool restriction_for_user_id_null = 1002;</code>
+       * <code>bool restriction_for_user_id_null = 1002;</code>
        */
       public Builder clearRestrictionForUserIdNull() {
         
@@ -1098,7 +1098,7 @@ public final class MiGetProcExecRestrForUsersAd {
         com.google.protobuf.MessageOrBuilder {
 
       /**
-       * <code>optional int32 row_id = 10000;</code>
+       * <code>int32 row_id = 10000;</code>
        */
       int getRowId();
 
@@ -1107,7 +1107,7 @@ public final class MiGetProcExecRestrForUsersAd {
        * Gibt an, wie der Wert zum Parameter "ParameterName" beim Aufruf mit "Condition" verglichen wird
        * </pre>
        *
-       * <code>optional .dstore.values.StringValue operator = 10001;</code>
+       * <code>.dstore.values.StringValue operator = 10001;</code>
        */
       boolean hasOperator();
       /**
@@ -1115,7 +1115,7 @@ public final class MiGetProcExecRestrForUsersAd {
        * Gibt an, wie der Wert zum Parameter "ParameterName" beim Aufruf mit "Condition" verglichen wird
        * </pre>
        *
-       * <code>optional .dstore.values.StringValue operator = 10001;</code>
+       * <code>.dstore.values.StringValue operator = 10001;</code>
        */
       io.dstore.values.StringValue getOperator();
       /**
@@ -1123,7 +1123,7 @@ public final class MiGetProcExecRestrForUsersAd {
        * Gibt an, wie der Wert zum Parameter "ParameterName" beim Aufruf mit "Condition" verglichen wird
        * </pre>
        *
-       * <code>optional .dstore.values.StringValue operator = 10001;</code>
+       * <code>.dstore.values.StringValue operator = 10001;</code>
        */
       io.dstore.values.StringValueOrBuilder getOperatorOrBuilder();
 
@@ -1132,7 +1132,7 @@ public final class MiGetProcExecRestrForUsersAd {
        * Die eigentlich Einschränkung/Bedingung selbst : der Wert beim Aufruf der Prozedur zum Parameter "ParameterName" wird anhand des Operators "Operator" mit diesem Wert verglichen
        * </pre>
        *
-       * <code>optional .dstore.values.StringValue condition = 10002;</code>
+       * <code>.dstore.values.StringValue condition = 10002;</code>
        */
       boolean hasCondition();
       /**
@@ -1140,7 +1140,7 @@ public final class MiGetProcExecRestrForUsersAd {
        * Die eigentlich Einschränkung/Bedingung selbst : der Wert beim Aufruf der Prozedur zum Parameter "ParameterName" wird anhand des Operators "Operator" mit diesem Wert verglichen
        * </pre>
        *
-       * <code>optional .dstore.values.StringValue condition = 10002;</code>
+       * <code>.dstore.values.StringValue condition = 10002;</code>
        */
       io.dstore.values.StringValue getCondition();
       /**
@@ -1148,7 +1148,7 @@ public final class MiGetProcExecRestrForUsersAd {
        * Die eigentlich Einschränkung/Bedingung selbst : der Wert beim Aufruf der Prozedur zum Parameter "ParameterName" wird anhand des Operators "Operator" mit diesem Wert verglichen
        * </pre>
        *
-       * <code>optional .dstore.values.StringValue condition = 10002;</code>
+       * <code>.dstore.values.StringValue condition = 10002;</code>
        */
       io.dstore.values.StringValueOrBuilder getConditionOrBuilder();
 
@@ -1157,7 +1157,7 @@ public final class MiGetProcExecRestrForUsersAd {
        * Die Einschränkung gilt für Aufrufe der Prozedur auf diesem oder einem höheren "NestingLevel" ("NestingLevel = 1" : direkter Aufruf der Prozedur, "NestingLevel = 2" : Aufruf innerhalb einer anderen Prozedur, usw.)
        * </pre>
        *
-       * <code>optional .dstore.values.IntegerValue from_nesting_level = 10003;</code>
+       * <code>.dstore.values.IntegerValue from_nesting_level = 10003;</code>
        */
       boolean hasFromNestingLevel();
       /**
@@ -1165,7 +1165,7 @@ public final class MiGetProcExecRestrForUsersAd {
        * Die Einschränkung gilt für Aufrufe der Prozedur auf diesem oder einem höheren "NestingLevel" ("NestingLevel = 1" : direkter Aufruf der Prozedur, "NestingLevel = 2" : Aufruf innerhalb einer anderen Prozedur, usw.)
        * </pre>
        *
-       * <code>optional .dstore.values.IntegerValue from_nesting_level = 10003;</code>
+       * <code>.dstore.values.IntegerValue from_nesting_level = 10003;</code>
        */
       io.dstore.values.IntegerValue getFromNestingLevel();
       /**
@@ -1173,7 +1173,7 @@ public final class MiGetProcExecRestrForUsersAd {
        * Die Einschränkung gilt für Aufrufe der Prozedur auf diesem oder einem höheren "NestingLevel" ("NestingLevel = 1" : direkter Aufruf der Prozedur, "NestingLevel = 2" : Aufruf innerhalb einer anderen Prozedur, usw.)
        * </pre>
        *
-       * <code>optional .dstore.values.IntegerValue from_nesting_level = 10003;</code>
+       * <code>.dstore.values.IntegerValue from_nesting_level = 10003;</code>
        */
       io.dstore.values.IntegerValueOrBuilder getFromNestingLevelOrBuilder();
 
@@ -1182,7 +1182,7 @@ public final class MiGetProcExecRestrForUsersAd {
        * ID eines "dStore"-Benutzers, der in "UserInfo" registriert ist (siehe "mi_GetUserInfo_Ad"), für den die Einschränkung gilt. "-1" bedeutet, daß die Einschränkung für alle Benutzer (für die nicht explizit andere Einschränkungen konfiguriert sind) gilt.
        * </pre>
        *
-       * <code>optional .dstore.values.IntegerValue restriction_for_user_id = 10004;</code>
+       * <code>.dstore.values.IntegerValue restriction_for_user_id = 10004;</code>
        */
       boolean hasRestrictionForUserId();
       /**
@@ -1190,7 +1190,7 @@ public final class MiGetProcExecRestrForUsersAd {
        * ID eines "dStore"-Benutzers, der in "UserInfo" registriert ist (siehe "mi_GetUserInfo_Ad"), für den die Einschränkung gilt. "-1" bedeutet, daß die Einschränkung für alle Benutzer (für die nicht explizit andere Einschränkungen konfiguriert sind) gilt.
        * </pre>
        *
-       * <code>optional .dstore.values.IntegerValue restriction_for_user_id = 10004;</code>
+       * <code>.dstore.values.IntegerValue restriction_for_user_id = 10004;</code>
        */
       io.dstore.values.IntegerValue getRestrictionForUserId();
       /**
@@ -1198,7 +1198,7 @@ public final class MiGetProcExecRestrForUsersAd {
        * ID eines "dStore"-Benutzers, der in "UserInfo" registriert ist (siehe "mi_GetUserInfo_Ad"), für den die Einschränkung gilt. "-1" bedeutet, daß die Einschränkung für alle Benutzer (für die nicht explizit andere Einschränkungen konfiguriert sind) gilt.
        * </pre>
        *
-       * <code>optional .dstore.values.IntegerValue restriction_for_user_id = 10004;</code>
+       * <code>.dstore.values.IntegerValue restriction_for_user_id = 10004;</code>
        */
       io.dstore.values.IntegerValueOrBuilder getRestrictionForUserIdOrBuilder();
 
@@ -1207,7 +1207,7 @@ public final class MiGetProcExecRestrForUsersAd {
        * Um die wievielte Bedingung (sprich Einschränkung) innerhalb des Bedingungs-Blocks "ConditionID" handelt es sich ? (Im Prinzip eine willkürliche Zahl, die eigentlich nur dazu dient, den Datensatz in der Tabelle, also die Bedingung, EINDEUTIG zu machen...)
        * </pre>
        *
-       * <code>optional .dstore.values.IntegerValue condition_number = 10005;</code>
+       * <code>.dstore.values.IntegerValue condition_number = 10005;</code>
        */
       boolean hasConditionNumber();
       /**
@@ -1215,7 +1215,7 @@ public final class MiGetProcExecRestrForUsersAd {
        * Um die wievielte Bedingung (sprich Einschränkung) innerhalb des Bedingungs-Blocks "ConditionID" handelt es sich ? (Im Prinzip eine willkürliche Zahl, die eigentlich nur dazu dient, den Datensatz in der Tabelle, also die Bedingung, EINDEUTIG zu machen...)
        * </pre>
        *
-       * <code>optional .dstore.values.IntegerValue condition_number = 10005;</code>
+       * <code>.dstore.values.IntegerValue condition_number = 10005;</code>
        */
       io.dstore.values.IntegerValue getConditionNumber();
       /**
@@ -1223,7 +1223,7 @@ public final class MiGetProcExecRestrForUsersAd {
        * Um die wievielte Bedingung (sprich Einschränkung) innerhalb des Bedingungs-Blocks "ConditionID" handelt es sich ? (Im Prinzip eine willkürliche Zahl, die eigentlich nur dazu dient, den Datensatz in der Tabelle, also die Bedingung, EINDEUTIG zu machen...)
        * </pre>
        *
-       * <code>optional .dstore.values.IntegerValue condition_number = 10005;</code>
+       * <code>.dstore.values.IntegerValue condition_number = 10005;</code>
        */
       io.dstore.values.IntegerValueOrBuilder getConditionNumberOrBuilder();
 
@@ -1232,7 +1232,7 @@ public final class MiGetProcExecRestrForUsersAd {
        * "0" : Die Einschränkung wird bei der Überprüfung nicht beachtet"1" : Die Einschränkung ist aktiv, d.h. diese Bedingung und alle anderen Bedingungen der gleichen "ConditionID" müssen erfüllt sein (oder alle Bedingungen einer anderen "ConditionID")
        * </pre>
        *
-       * <code>optional .dstore.values.BooleanValue restriction_is_active = 10006;</code>
+       * <code>.dstore.values.BooleanValue restriction_is_active = 10006;</code>
        */
       boolean hasRestrictionIsActive();
       /**
@@ -1240,7 +1240,7 @@ public final class MiGetProcExecRestrForUsersAd {
        * "0" : Die Einschränkung wird bei der Überprüfung nicht beachtet"1" : Die Einschränkung ist aktiv, d.h. diese Bedingung und alle anderen Bedingungen der gleichen "ConditionID" müssen erfüllt sein (oder alle Bedingungen einer anderen "ConditionID")
        * </pre>
        *
-       * <code>optional .dstore.values.BooleanValue restriction_is_active = 10006;</code>
+       * <code>.dstore.values.BooleanValue restriction_is_active = 10006;</code>
        */
       io.dstore.values.BooleanValue getRestrictionIsActive();
       /**
@@ -1248,7 +1248,7 @@ public final class MiGetProcExecRestrForUsersAd {
        * "0" : Die Einschränkung wird bei der Überprüfung nicht beachtet"1" : Die Einschränkung ist aktiv, d.h. diese Bedingung und alle anderen Bedingungen der gleichen "ConditionID" müssen erfüllt sein (oder alle Bedingungen einer anderen "ConditionID")
        * </pre>
        *
-       * <code>optional .dstore.values.BooleanValue restriction_is_active = 10006;</code>
+       * <code>.dstore.values.BooleanValue restriction_is_active = 10006;</code>
        */
       io.dstore.values.BooleanValueOrBuilder getRestrictionIsActiveOrBuilder();
 
@@ -1257,7 +1257,7 @@ public final class MiGetProcExecRestrForUsersAd {
        * Nummer des "Bedingungs-Blocks", zu dem die Einschränkung gehört. Ist die Überprüfung von Ausführungsbeschränkungen konfiguriert und aktiv, müssen ALLE Bedingungen mindestens EINES Bedingungs-Blocks erfüllt sein, damit der Aufruf "durchgeht".
        * </pre>
        *
-       * <code>optional .dstore.values.IntegerValue condition_id = 10007;</code>
+       * <code>.dstore.values.IntegerValue condition_id = 10007;</code>
        */
       boolean hasConditionId();
       /**
@@ -1265,7 +1265,7 @@ public final class MiGetProcExecRestrForUsersAd {
        * Nummer des "Bedingungs-Blocks", zu dem die Einschränkung gehört. Ist die Überprüfung von Ausführungsbeschränkungen konfiguriert und aktiv, müssen ALLE Bedingungen mindestens EINES Bedingungs-Blocks erfüllt sein, damit der Aufruf "durchgeht".
        * </pre>
        *
-       * <code>optional .dstore.values.IntegerValue condition_id = 10007;</code>
+       * <code>.dstore.values.IntegerValue condition_id = 10007;</code>
        */
       io.dstore.values.IntegerValue getConditionId();
       /**
@@ -1273,7 +1273,7 @@ public final class MiGetProcExecRestrForUsersAd {
        * Nummer des "Bedingungs-Blocks", zu dem die Einschränkung gehört. Ist die Überprüfung von Ausführungsbeschränkungen konfiguriert und aktiv, müssen ALLE Bedingungen mindestens EINES Bedingungs-Blocks erfüllt sein, damit der Aufruf "durchgeht".
        * </pre>
        *
-       * <code>optional .dstore.values.IntegerValue condition_id = 10007;</code>
+       * <code>.dstore.values.IntegerValue condition_id = 10007;</code>
        */
       io.dstore.values.IntegerValueOrBuilder getConditionIdOrBuilder();
 
@@ -1282,7 +1282,7 @@ public final class MiGetProcExecRestrForUsersAd {
        * Parameter, für den die Einschränkung gilt. Der Wert zu diesem Parameter beim Aufruf der Prozedur wird anhand des Operators "Operator" mit "Condition" verglichen.
        * </pre>
        *
-       * <code>optional .dstore.values.StringValue parameter_name = 10008;</code>
+       * <code>.dstore.values.StringValue parameter_name = 10008;</code>
        */
       boolean hasParameterName();
       /**
@@ -1290,7 +1290,7 @@ public final class MiGetProcExecRestrForUsersAd {
        * Parameter, für den die Einschränkung gilt. Der Wert zu diesem Parameter beim Aufruf der Prozedur wird anhand des Operators "Operator" mit "Condition" verglichen.
        * </pre>
        *
-       * <code>optional .dstore.values.StringValue parameter_name = 10008;</code>
+       * <code>.dstore.values.StringValue parameter_name = 10008;</code>
        */
       io.dstore.values.StringValue getParameterName();
       /**
@@ -1298,7 +1298,7 @@ public final class MiGetProcExecRestrForUsersAd {
        * Parameter, für den die Einschränkung gilt. Der Wert zu diesem Parameter beim Aufruf der Prozedur wird anhand des Operators "Operator" mit "Condition" verglichen.
        * </pre>
        *
-       * <code>optional .dstore.values.StringValue parameter_name = 10008;</code>
+       * <code>.dstore.values.StringValue parameter_name = 10008;</code>
        */
       io.dstore.values.StringValueOrBuilder getParameterNameOrBuilder();
     }
@@ -1477,7 +1477,7 @@ public final class MiGetProcExecRestrForUsersAd {
       public static final int ROW_ID_FIELD_NUMBER = 10000;
       private int rowId_;
       /**
-       * <code>optional int32 row_id = 10000;</code>
+       * <code>int32 row_id = 10000;</code>
        */
       public int getRowId() {
         return rowId_;
@@ -1490,7 +1490,7 @@ public final class MiGetProcExecRestrForUsersAd {
        * Gibt an, wie der Wert zum Parameter "ParameterName" beim Aufruf mit "Condition" verglichen wird
        * </pre>
        *
-       * <code>optional .dstore.values.StringValue operator = 10001;</code>
+       * <code>.dstore.values.StringValue operator = 10001;</code>
        */
       public boolean hasOperator() {
         return operator_ != null;
@@ -1500,7 +1500,7 @@ public final class MiGetProcExecRestrForUsersAd {
        * Gibt an, wie der Wert zum Parameter "ParameterName" beim Aufruf mit "Condition" verglichen wird
        * </pre>
        *
-       * <code>optional .dstore.values.StringValue operator = 10001;</code>
+       * <code>.dstore.values.StringValue operator = 10001;</code>
        */
       public io.dstore.values.StringValue getOperator() {
         return operator_ == null ? io.dstore.values.StringValue.getDefaultInstance() : operator_;
@@ -1510,7 +1510,7 @@ public final class MiGetProcExecRestrForUsersAd {
        * Gibt an, wie der Wert zum Parameter "ParameterName" beim Aufruf mit "Condition" verglichen wird
        * </pre>
        *
-       * <code>optional .dstore.values.StringValue operator = 10001;</code>
+       * <code>.dstore.values.StringValue operator = 10001;</code>
        */
       public io.dstore.values.StringValueOrBuilder getOperatorOrBuilder() {
         return getOperator();
@@ -1523,7 +1523,7 @@ public final class MiGetProcExecRestrForUsersAd {
        * Die eigentlich Einschränkung/Bedingung selbst : der Wert beim Aufruf der Prozedur zum Parameter "ParameterName" wird anhand des Operators "Operator" mit diesem Wert verglichen
        * </pre>
        *
-       * <code>optional .dstore.values.StringValue condition = 10002;</code>
+       * <code>.dstore.values.StringValue condition = 10002;</code>
        */
       public boolean hasCondition() {
         return condition_ != null;
@@ -1533,7 +1533,7 @@ public final class MiGetProcExecRestrForUsersAd {
        * Die eigentlich Einschränkung/Bedingung selbst : der Wert beim Aufruf der Prozedur zum Parameter "ParameterName" wird anhand des Operators "Operator" mit diesem Wert verglichen
        * </pre>
        *
-       * <code>optional .dstore.values.StringValue condition = 10002;</code>
+       * <code>.dstore.values.StringValue condition = 10002;</code>
        */
       public io.dstore.values.StringValue getCondition() {
         return condition_ == null ? io.dstore.values.StringValue.getDefaultInstance() : condition_;
@@ -1543,7 +1543,7 @@ public final class MiGetProcExecRestrForUsersAd {
        * Die eigentlich Einschränkung/Bedingung selbst : der Wert beim Aufruf der Prozedur zum Parameter "ParameterName" wird anhand des Operators "Operator" mit diesem Wert verglichen
        * </pre>
        *
-       * <code>optional .dstore.values.StringValue condition = 10002;</code>
+       * <code>.dstore.values.StringValue condition = 10002;</code>
        */
       public io.dstore.values.StringValueOrBuilder getConditionOrBuilder() {
         return getCondition();
@@ -1556,7 +1556,7 @@ public final class MiGetProcExecRestrForUsersAd {
        * Die Einschränkung gilt für Aufrufe der Prozedur auf diesem oder einem höheren "NestingLevel" ("NestingLevel = 1" : direkter Aufruf der Prozedur, "NestingLevel = 2" : Aufruf innerhalb einer anderen Prozedur, usw.)
        * </pre>
        *
-       * <code>optional .dstore.values.IntegerValue from_nesting_level = 10003;</code>
+       * <code>.dstore.values.IntegerValue from_nesting_level = 10003;</code>
        */
       public boolean hasFromNestingLevel() {
         return fromNestingLevel_ != null;
@@ -1566,7 +1566,7 @@ public final class MiGetProcExecRestrForUsersAd {
        * Die Einschränkung gilt für Aufrufe der Prozedur auf diesem oder einem höheren "NestingLevel" ("NestingLevel = 1" : direkter Aufruf der Prozedur, "NestingLevel = 2" : Aufruf innerhalb einer anderen Prozedur, usw.)
        * </pre>
        *
-       * <code>optional .dstore.values.IntegerValue from_nesting_level = 10003;</code>
+       * <code>.dstore.values.IntegerValue from_nesting_level = 10003;</code>
        */
       public io.dstore.values.IntegerValue getFromNestingLevel() {
         return fromNestingLevel_ == null ? io.dstore.values.IntegerValue.getDefaultInstance() : fromNestingLevel_;
@@ -1576,7 +1576,7 @@ public final class MiGetProcExecRestrForUsersAd {
        * Die Einschränkung gilt für Aufrufe der Prozedur auf diesem oder einem höheren "NestingLevel" ("NestingLevel = 1" : direkter Aufruf der Prozedur, "NestingLevel = 2" : Aufruf innerhalb einer anderen Prozedur, usw.)
        * </pre>
        *
-       * <code>optional .dstore.values.IntegerValue from_nesting_level = 10003;</code>
+       * <code>.dstore.values.IntegerValue from_nesting_level = 10003;</code>
        */
       public io.dstore.values.IntegerValueOrBuilder getFromNestingLevelOrBuilder() {
         return getFromNestingLevel();
@@ -1589,7 +1589,7 @@ public final class MiGetProcExecRestrForUsersAd {
        * ID eines "dStore"-Benutzers, der in "UserInfo" registriert ist (siehe "mi_GetUserInfo_Ad"), für den die Einschränkung gilt. "-1" bedeutet, daß die Einschränkung für alle Benutzer (für die nicht explizit andere Einschränkungen konfiguriert sind) gilt.
        * </pre>
        *
-       * <code>optional .dstore.values.IntegerValue restriction_for_user_id = 10004;</code>
+       * <code>.dstore.values.IntegerValue restriction_for_user_id = 10004;</code>
        */
       public boolean hasRestrictionForUserId() {
         return restrictionForUserId_ != null;
@@ -1599,7 +1599,7 @@ public final class MiGetProcExecRestrForUsersAd {
        * ID eines "dStore"-Benutzers, der in "UserInfo" registriert ist (siehe "mi_GetUserInfo_Ad"), für den die Einschränkung gilt. "-1" bedeutet, daß die Einschränkung für alle Benutzer (für die nicht explizit andere Einschränkungen konfiguriert sind) gilt.
        * </pre>
        *
-       * <code>optional .dstore.values.IntegerValue restriction_for_user_id = 10004;</code>
+       * <code>.dstore.values.IntegerValue restriction_for_user_id = 10004;</code>
        */
       public io.dstore.values.IntegerValue getRestrictionForUserId() {
         return restrictionForUserId_ == null ? io.dstore.values.IntegerValue.getDefaultInstance() : restrictionForUserId_;
@@ -1609,7 +1609,7 @@ public final class MiGetProcExecRestrForUsersAd {
        * ID eines "dStore"-Benutzers, der in "UserInfo" registriert ist (siehe "mi_GetUserInfo_Ad"), für den die Einschränkung gilt. "-1" bedeutet, daß die Einschränkung für alle Benutzer (für die nicht explizit andere Einschränkungen konfiguriert sind) gilt.
        * </pre>
        *
-       * <code>optional .dstore.values.IntegerValue restriction_for_user_id = 10004;</code>
+       * <code>.dstore.values.IntegerValue restriction_for_user_id = 10004;</code>
        */
       public io.dstore.values.IntegerValueOrBuilder getRestrictionForUserIdOrBuilder() {
         return getRestrictionForUserId();
@@ -1622,7 +1622,7 @@ public final class MiGetProcExecRestrForUsersAd {
        * Um die wievielte Bedingung (sprich Einschränkung) innerhalb des Bedingungs-Blocks "ConditionID" handelt es sich ? (Im Prinzip eine willkürliche Zahl, die eigentlich nur dazu dient, den Datensatz in der Tabelle, also die Bedingung, EINDEUTIG zu machen...)
        * </pre>
        *
-       * <code>optional .dstore.values.IntegerValue condition_number = 10005;</code>
+       * <code>.dstore.values.IntegerValue condition_number = 10005;</code>
        */
       public boolean hasConditionNumber() {
         return conditionNumber_ != null;
@@ -1632,7 +1632,7 @@ public final class MiGetProcExecRestrForUsersAd {
        * Um die wievielte Bedingung (sprich Einschränkung) innerhalb des Bedingungs-Blocks "ConditionID" handelt es sich ? (Im Prinzip eine willkürliche Zahl, die eigentlich nur dazu dient, den Datensatz in der Tabelle, also die Bedingung, EINDEUTIG zu machen...)
        * </pre>
        *
-       * <code>optional .dstore.values.IntegerValue condition_number = 10005;</code>
+       * <code>.dstore.values.IntegerValue condition_number = 10005;</code>
        */
       public io.dstore.values.IntegerValue getConditionNumber() {
         return conditionNumber_ == null ? io.dstore.values.IntegerValue.getDefaultInstance() : conditionNumber_;
@@ -1642,7 +1642,7 @@ public final class MiGetProcExecRestrForUsersAd {
        * Um die wievielte Bedingung (sprich Einschränkung) innerhalb des Bedingungs-Blocks "ConditionID" handelt es sich ? (Im Prinzip eine willkürliche Zahl, die eigentlich nur dazu dient, den Datensatz in der Tabelle, also die Bedingung, EINDEUTIG zu machen...)
        * </pre>
        *
-       * <code>optional .dstore.values.IntegerValue condition_number = 10005;</code>
+       * <code>.dstore.values.IntegerValue condition_number = 10005;</code>
        */
       public io.dstore.values.IntegerValueOrBuilder getConditionNumberOrBuilder() {
         return getConditionNumber();
@@ -1655,7 +1655,7 @@ public final class MiGetProcExecRestrForUsersAd {
        * "0" : Die Einschränkung wird bei der Überprüfung nicht beachtet"1" : Die Einschränkung ist aktiv, d.h. diese Bedingung und alle anderen Bedingungen der gleichen "ConditionID" müssen erfüllt sein (oder alle Bedingungen einer anderen "ConditionID")
        * </pre>
        *
-       * <code>optional .dstore.values.BooleanValue restriction_is_active = 10006;</code>
+       * <code>.dstore.values.BooleanValue restriction_is_active = 10006;</code>
        */
       public boolean hasRestrictionIsActive() {
         return restrictionIsActive_ != null;
@@ -1665,7 +1665,7 @@ public final class MiGetProcExecRestrForUsersAd {
        * "0" : Die Einschränkung wird bei der Überprüfung nicht beachtet"1" : Die Einschränkung ist aktiv, d.h. diese Bedingung und alle anderen Bedingungen der gleichen "ConditionID" müssen erfüllt sein (oder alle Bedingungen einer anderen "ConditionID")
        * </pre>
        *
-       * <code>optional .dstore.values.BooleanValue restriction_is_active = 10006;</code>
+       * <code>.dstore.values.BooleanValue restriction_is_active = 10006;</code>
        */
       public io.dstore.values.BooleanValue getRestrictionIsActive() {
         return restrictionIsActive_ == null ? io.dstore.values.BooleanValue.getDefaultInstance() : restrictionIsActive_;
@@ -1675,7 +1675,7 @@ public final class MiGetProcExecRestrForUsersAd {
        * "0" : Die Einschränkung wird bei der Überprüfung nicht beachtet"1" : Die Einschränkung ist aktiv, d.h. diese Bedingung und alle anderen Bedingungen der gleichen "ConditionID" müssen erfüllt sein (oder alle Bedingungen einer anderen "ConditionID")
        * </pre>
        *
-       * <code>optional .dstore.values.BooleanValue restriction_is_active = 10006;</code>
+       * <code>.dstore.values.BooleanValue restriction_is_active = 10006;</code>
        */
       public io.dstore.values.BooleanValueOrBuilder getRestrictionIsActiveOrBuilder() {
         return getRestrictionIsActive();
@@ -1688,7 +1688,7 @@ public final class MiGetProcExecRestrForUsersAd {
        * Nummer des "Bedingungs-Blocks", zu dem die Einschränkung gehört. Ist die Überprüfung von Ausführungsbeschränkungen konfiguriert und aktiv, müssen ALLE Bedingungen mindestens EINES Bedingungs-Blocks erfüllt sein, damit der Aufruf "durchgeht".
        * </pre>
        *
-       * <code>optional .dstore.values.IntegerValue condition_id = 10007;</code>
+       * <code>.dstore.values.IntegerValue condition_id = 10007;</code>
        */
       public boolean hasConditionId() {
         return conditionId_ != null;
@@ -1698,7 +1698,7 @@ public final class MiGetProcExecRestrForUsersAd {
        * Nummer des "Bedingungs-Blocks", zu dem die Einschränkung gehört. Ist die Überprüfung von Ausführungsbeschränkungen konfiguriert und aktiv, müssen ALLE Bedingungen mindestens EINES Bedingungs-Blocks erfüllt sein, damit der Aufruf "durchgeht".
        * </pre>
        *
-       * <code>optional .dstore.values.IntegerValue condition_id = 10007;</code>
+       * <code>.dstore.values.IntegerValue condition_id = 10007;</code>
        */
       public io.dstore.values.IntegerValue getConditionId() {
         return conditionId_ == null ? io.dstore.values.IntegerValue.getDefaultInstance() : conditionId_;
@@ -1708,7 +1708,7 @@ public final class MiGetProcExecRestrForUsersAd {
        * Nummer des "Bedingungs-Blocks", zu dem die Einschränkung gehört. Ist die Überprüfung von Ausführungsbeschränkungen konfiguriert und aktiv, müssen ALLE Bedingungen mindestens EINES Bedingungs-Blocks erfüllt sein, damit der Aufruf "durchgeht".
        * </pre>
        *
-       * <code>optional .dstore.values.IntegerValue condition_id = 10007;</code>
+       * <code>.dstore.values.IntegerValue condition_id = 10007;</code>
        */
       public io.dstore.values.IntegerValueOrBuilder getConditionIdOrBuilder() {
         return getConditionId();
@@ -1721,7 +1721,7 @@ public final class MiGetProcExecRestrForUsersAd {
        * Parameter, für den die Einschränkung gilt. Der Wert zu diesem Parameter beim Aufruf der Prozedur wird anhand des Operators "Operator" mit "Condition" verglichen.
        * </pre>
        *
-       * <code>optional .dstore.values.StringValue parameter_name = 10008;</code>
+       * <code>.dstore.values.StringValue parameter_name = 10008;</code>
        */
       public boolean hasParameterName() {
         return parameterName_ != null;
@@ -1731,7 +1731,7 @@ public final class MiGetProcExecRestrForUsersAd {
        * Parameter, für den die Einschränkung gilt. Der Wert zu diesem Parameter beim Aufruf der Prozedur wird anhand des Operators "Operator" mit "Condition" verglichen.
        * </pre>
        *
-       * <code>optional .dstore.values.StringValue parameter_name = 10008;</code>
+       * <code>.dstore.values.StringValue parameter_name = 10008;</code>
        */
       public io.dstore.values.StringValue getParameterName() {
         return parameterName_ == null ? io.dstore.values.StringValue.getDefaultInstance() : parameterName_;
@@ -1741,7 +1741,7 @@ public final class MiGetProcExecRestrForUsersAd {
        * Parameter, für den die Einschränkung gilt. Der Wert zu diesem Parameter beim Aufruf der Prozedur wird anhand des Operators "Operator" mit "Condition" verglichen.
        * </pre>
        *
-       * <code>optional .dstore.values.StringValue parameter_name = 10008;</code>
+       * <code>.dstore.values.StringValue parameter_name = 10008;</code>
        */
       public io.dstore.values.StringValueOrBuilder getParameterNameOrBuilder() {
         return getParameterName();
@@ -1896,7 +1896,7 @@ public final class MiGetProcExecRestrForUsersAd {
           return memoizedHashCode;
         }
         int hash = 41;
-        hash = (19 * hash) + getDescriptorForType().hashCode();
+        hash = (19 * hash) + getDescriptor().hashCode();
         hash = (37 * hash) + ROW_ID_FIELD_NUMBER;
         hash = (53 * hash) + getRowId();
         if (hasOperator()) {
@@ -2258,13 +2258,13 @@ public final class MiGetProcExecRestrForUsersAd {
 
         private int rowId_ ;
         /**
-         * <code>optional int32 row_id = 10000;</code>
+         * <code>int32 row_id = 10000;</code>
          */
         public int getRowId() {
           return rowId_;
         }
         /**
-         * <code>optional int32 row_id = 10000;</code>
+         * <code>int32 row_id = 10000;</code>
          */
         public Builder setRowId(int value) {
           
@@ -2273,7 +2273,7 @@ public final class MiGetProcExecRestrForUsersAd {
           return this;
         }
         /**
-         * <code>optional int32 row_id = 10000;</code>
+         * <code>int32 row_id = 10000;</code>
          */
         public Builder clearRowId() {
           
@@ -2290,7 +2290,7 @@ public final class MiGetProcExecRestrForUsersAd {
          * Gibt an, wie der Wert zum Parameter "ParameterName" beim Aufruf mit "Condition" verglichen wird
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue operator = 10001;</code>
+         * <code>.dstore.values.StringValue operator = 10001;</code>
          */
         public boolean hasOperator() {
           return operatorBuilder_ != null || operator_ != null;
@@ -2300,7 +2300,7 @@ public final class MiGetProcExecRestrForUsersAd {
          * Gibt an, wie der Wert zum Parameter "ParameterName" beim Aufruf mit "Condition" verglichen wird
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue operator = 10001;</code>
+         * <code>.dstore.values.StringValue operator = 10001;</code>
          */
         public io.dstore.values.StringValue getOperator() {
           if (operatorBuilder_ == null) {
@@ -2314,7 +2314,7 @@ public final class MiGetProcExecRestrForUsersAd {
          * Gibt an, wie der Wert zum Parameter "ParameterName" beim Aufruf mit "Condition" verglichen wird
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue operator = 10001;</code>
+         * <code>.dstore.values.StringValue operator = 10001;</code>
          */
         public Builder setOperator(io.dstore.values.StringValue value) {
           if (operatorBuilder_ == null) {
@@ -2334,7 +2334,7 @@ public final class MiGetProcExecRestrForUsersAd {
          * Gibt an, wie der Wert zum Parameter "ParameterName" beim Aufruf mit "Condition" verglichen wird
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue operator = 10001;</code>
+         * <code>.dstore.values.StringValue operator = 10001;</code>
          */
         public Builder setOperator(
             io.dstore.values.StringValue.Builder builderForValue) {
@@ -2352,7 +2352,7 @@ public final class MiGetProcExecRestrForUsersAd {
          * Gibt an, wie der Wert zum Parameter "ParameterName" beim Aufruf mit "Condition" verglichen wird
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue operator = 10001;</code>
+         * <code>.dstore.values.StringValue operator = 10001;</code>
          */
         public Builder mergeOperator(io.dstore.values.StringValue value) {
           if (operatorBuilder_ == null) {
@@ -2374,7 +2374,7 @@ public final class MiGetProcExecRestrForUsersAd {
          * Gibt an, wie der Wert zum Parameter "ParameterName" beim Aufruf mit "Condition" verglichen wird
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue operator = 10001;</code>
+         * <code>.dstore.values.StringValue operator = 10001;</code>
          */
         public Builder clearOperator() {
           if (operatorBuilder_ == null) {
@@ -2392,7 +2392,7 @@ public final class MiGetProcExecRestrForUsersAd {
          * Gibt an, wie der Wert zum Parameter "ParameterName" beim Aufruf mit "Condition" verglichen wird
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue operator = 10001;</code>
+         * <code>.dstore.values.StringValue operator = 10001;</code>
          */
         public io.dstore.values.StringValue.Builder getOperatorBuilder() {
           
@@ -2404,7 +2404,7 @@ public final class MiGetProcExecRestrForUsersAd {
          * Gibt an, wie der Wert zum Parameter "ParameterName" beim Aufruf mit "Condition" verglichen wird
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue operator = 10001;</code>
+         * <code>.dstore.values.StringValue operator = 10001;</code>
          */
         public io.dstore.values.StringValueOrBuilder getOperatorOrBuilder() {
           if (operatorBuilder_ != null) {
@@ -2419,7 +2419,7 @@ public final class MiGetProcExecRestrForUsersAd {
          * Gibt an, wie der Wert zum Parameter "ParameterName" beim Aufruf mit "Condition" verglichen wird
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue operator = 10001;</code>
+         * <code>.dstore.values.StringValue operator = 10001;</code>
          */
         private com.google.protobuf.SingleFieldBuilderV3<
             io.dstore.values.StringValue, io.dstore.values.StringValue.Builder, io.dstore.values.StringValueOrBuilder> 
@@ -2443,7 +2443,7 @@ public final class MiGetProcExecRestrForUsersAd {
          * Die eigentlich Einschränkung/Bedingung selbst : der Wert beim Aufruf der Prozedur zum Parameter "ParameterName" wird anhand des Operators "Operator" mit diesem Wert verglichen
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue condition = 10002;</code>
+         * <code>.dstore.values.StringValue condition = 10002;</code>
          */
         public boolean hasCondition() {
           return conditionBuilder_ != null || condition_ != null;
@@ -2453,7 +2453,7 @@ public final class MiGetProcExecRestrForUsersAd {
          * Die eigentlich Einschränkung/Bedingung selbst : der Wert beim Aufruf der Prozedur zum Parameter "ParameterName" wird anhand des Operators "Operator" mit diesem Wert verglichen
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue condition = 10002;</code>
+         * <code>.dstore.values.StringValue condition = 10002;</code>
          */
         public io.dstore.values.StringValue getCondition() {
           if (conditionBuilder_ == null) {
@@ -2467,7 +2467,7 @@ public final class MiGetProcExecRestrForUsersAd {
          * Die eigentlich Einschränkung/Bedingung selbst : der Wert beim Aufruf der Prozedur zum Parameter "ParameterName" wird anhand des Operators "Operator" mit diesem Wert verglichen
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue condition = 10002;</code>
+         * <code>.dstore.values.StringValue condition = 10002;</code>
          */
         public Builder setCondition(io.dstore.values.StringValue value) {
           if (conditionBuilder_ == null) {
@@ -2487,7 +2487,7 @@ public final class MiGetProcExecRestrForUsersAd {
          * Die eigentlich Einschränkung/Bedingung selbst : der Wert beim Aufruf der Prozedur zum Parameter "ParameterName" wird anhand des Operators "Operator" mit diesem Wert verglichen
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue condition = 10002;</code>
+         * <code>.dstore.values.StringValue condition = 10002;</code>
          */
         public Builder setCondition(
             io.dstore.values.StringValue.Builder builderForValue) {
@@ -2505,7 +2505,7 @@ public final class MiGetProcExecRestrForUsersAd {
          * Die eigentlich Einschränkung/Bedingung selbst : der Wert beim Aufruf der Prozedur zum Parameter "ParameterName" wird anhand des Operators "Operator" mit diesem Wert verglichen
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue condition = 10002;</code>
+         * <code>.dstore.values.StringValue condition = 10002;</code>
          */
         public Builder mergeCondition(io.dstore.values.StringValue value) {
           if (conditionBuilder_ == null) {
@@ -2527,7 +2527,7 @@ public final class MiGetProcExecRestrForUsersAd {
          * Die eigentlich Einschränkung/Bedingung selbst : der Wert beim Aufruf der Prozedur zum Parameter "ParameterName" wird anhand des Operators "Operator" mit diesem Wert verglichen
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue condition = 10002;</code>
+         * <code>.dstore.values.StringValue condition = 10002;</code>
          */
         public Builder clearCondition() {
           if (conditionBuilder_ == null) {
@@ -2545,7 +2545,7 @@ public final class MiGetProcExecRestrForUsersAd {
          * Die eigentlich Einschränkung/Bedingung selbst : der Wert beim Aufruf der Prozedur zum Parameter "ParameterName" wird anhand des Operators "Operator" mit diesem Wert verglichen
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue condition = 10002;</code>
+         * <code>.dstore.values.StringValue condition = 10002;</code>
          */
         public io.dstore.values.StringValue.Builder getConditionBuilder() {
           
@@ -2557,7 +2557,7 @@ public final class MiGetProcExecRestrForUsersAd {
          * Die eigentlich Einschränkung/Bedingung selbst : der Wert beim Aufruf der Prozedur zum Parameter "ParameterName" wird anhand des Operators "Operator" mit diesem Wert verglichen
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue condition = 10002;</code>
+         * <code>.dstore.values.StringValue condition = 10002;</code>
          */
         public io.dstore.values.StringValueOrBuilder getConditionOrBuilder() {
           if (conditionBuilder_ != null) {
@@ -2572,7 +2572,7 @@ public final class MiGetProcExecRestrForUsersAd {
          * Die eigentlich Einschränkung/Bedingung selbst : der Wert beim Aufruf der Prozedur zum Parameter "ParameterName" wird anhand des Operators "Operator" mit diesem Wert verglichen
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue condition = 10002;</code>
+         * <code>.dstore.values.StringValue condition = 10002;</code>
          */
         private com.google.protobuf.SingleFieldBuilderV3<
             io.dstore.values.StringValue, io.dstore.values.StringValue.Builder, io.dstore.values.StringValueOrBuilder> 
@@ -2596,7 +2596,7 @@ public final class MiGetProcExecRestrForUsersAd {
          * Die Einschränkung gilt für Aufrufe der Prozedur auf diesem oder einem höheren "NestingLevel" ("NestingLevel = 1" : direkter Aufruf der Prozedur, "NestingLevel = 2" : Aufruf innerhalb einer anderen Prozedur, usw.)
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue from_nesting_level = 10003;</code>
+         * <code>.dstore.values.IntegerValue from_nesting_level = 10003;</code>
          */
         public boolean hasFromNestingLevel() {
           return fromNestingLevelBuilder_ != null || fromNestingLevel_ != null;
@@ -2606,7 +2606,7 @@ public final class MiGetProcExecRestrForUsersAd {
          * Die Einschränkung gilt für Aufrufe der Prozedur auf diesem oder einem höheren "NestingLevel" ("NestingLevel = 1" : direkter Aufruf der Prozedur, "NestingLevel = 2" : Aufruf innerhalb einer anderen Prozedur, usw.)
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue from_nesting_level = 10003;</code>
+         * <code>.dstore.values.IntegerValue from_nesting_level = 10003;</code>
          */
         public io.dstore.values.IntegerValue getFromNestingLevel() {
           if (fromNestingLevelBuilder_ == null) {
@@ -2620,7 +2620,7 @@ public final class MiGetProcExecRestrForUsersAd {
          * Die Einschränkung gilt für Aufrufe der Prozedur auf diesem oder einem höheren "NestingLevel" ("NestingLevel = 1" : direkter Aufruf der Prozedur, "NestingLevel = 2" : Aufruf innerhalb einer anderen Prozedur, usw.)
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue from_nesting_level = 10003;</code>
+         * <code>.dstore.values.IntegerValue from_nesting_level = 10003;</code>
          */
         public Builder setFromNestingLevel(io.dstore.values.IntegerValue value) {
           if (fromNestingLevelBuilder_ == null) {
@@ -2640,7 +2640,7 @@ public final class MiGetProcExecRestrForUsersAd {
          * Die Einschränkung gilt für Aufrufe der Prozedur auf diesem oder einem höheren "NestingLevel" ("NestingLevel = 1" : direkter Aufruf der Prozedur, "NestingLevel = 2" : Aufruf innerhalb einer anderen Prozedur, usw.)
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue from_nesting_level = 10003;</code>
+         * <code>.dstore.values.IntegerValue from_nesting_level = 10003;</code>
          */
         public Builder setFromNestingLevel(
             io.dstore.values.IntegerValue.Builder builderForValue) {
@@ -2658,7 +2658,7 @@ public final class MiGetProcExecRestrForUsersAd {
          * Die Einschränkung gilt für Aufrufe der Prozedur auf diesem oder einem höheren "NestingLevel" ("NestingLevel = 1" : direkter Aufruf der Prozedur, "NestingLevel = 2" : Aufruf innerhalb einer anderen Prozedur, usw.)
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue from_nesting_level = 10003;</code>
+         * <code>.dstore.values.IntegerValue from_nesting_level = 10003;</code>
          */
         public Builder mergeFromNestingLevel(io.dstore.values.IntegerValue value) {
           if (fromNestingLevelBuilder_ == null) {
@@ -2680,7 +2680,7 @@ public final class MiGetProcExecRestrForUsersAd {
          * Die Einschränkung gilt für Aufrufe der Prozedur auf diesem oder einem höheren "NestingLevel" ("NestingLevel = 1" : direkter Aufruf der Prozedur, "NestingLevel = 2" : Aufruf innerhalb einer anderen Prozedur, usw.)
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue from_nesting_level = 10003;</code>
+         * <code>.dstore.values.IntegerValue from_nesting_level = 10003;</code>
          */
         public Builder clearFromNestingLevel() {
           if (fromNestingLevelBuilder_ == null) {
@@ -2698,7 +2698,7 @@ public final class MiGetProcExecRestrForUsersAd {
          * Die Einschränkung gilt für Aufrufe der Prozedur auf diesem oder einem höheren "NestingLevel" ("NestingLevel = 1" : direkter Aufruf der Prozedur, "NestingLevel = 2" : Aufruf innerhalb einer anderen Prozedur, usw.)
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue from_nesting_level = 10003;</code>
+         * <code>.dstore.values.IntegerValue from_nesting_level = 10003;</code>
          */
         public io.dstore.values.IntegerValue.Builder getFromNestingLevelBuilder() {
           
@@ -2710,7 +2710,7 @@ public final class MiGetProcExecRestrForUsersAd {
          * Die Einschränkung gilt für Aufrufe der Prozedur auf diesem oder einem höheren "NestingLevel" ("NestingLevel = 1" : direkter Aufruf der Prozedur, "NestingLevel = 2" : Aufruf innerhalb einer anderen Prozedur, usw.)
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue from_nesting_level = 10003;</code>
+         * <code>.dstore.values.IntegerValue from_nesting_level = 10003;</code>
          */
         public io.dstore.values.IntegerValueOrBuilder getFromNestingLevelOrBuilder() {
           if (fromNestingLevelBuilder_ != null) {
@@ -2725,7 +2725,7 @@ public final class MiGetProcExecRestrForUsersAd {
          * Die Einschränkung gilt für Aufrufe der Prozedur auf diesem oder einem höheren "NestingLevel" ("NestingLevel = 1" : direkter Aufruf der Prozedur, "NestingLevel = 2" : Aufruf innerhalb einer anderen Prozedur, usw.)
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue from_nesting_level = 10003;</code>
+         * <code>.dstore.values.IntegerValue from_nesting_level = 10003;</code>
          */
         private com.google.protobuf.SingleFieldBuilderV3<
             io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> 
@@ -2749,7 +2749,7 @@ public final class MiGetProcExecRestrForUsersAd {
          * ID eines "dStore"-Benutzers, der in "UserInfo" registriert ist (siehe "mi_GetUserInfo_Ad"), für den die Einschränkung gilt. "-1" bedeutet, daß die Einschränkung für alle Benutzer (für die nicht explizit andere Einschränkungen konfiguriert sind) gilt.
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue restriction_for_user_id = 10004;</code>
+         * <code>.dstore.values.IntegerValue restriction_for_user_id = 10004;</code>
          */
         public boolean hasRestrictionForUserId() {
           return restrictionForUserIdBuilder_ != null || restrictionForUserId_ != null;
@@ -2759,7 +2759,7 @@ public final class MiGetProcExecRestrForUsersAd {
          * ID eines "dStore"-Benutzers, der in "UserInfo" registriert ist (siehe "mi_GetUserInfo_Ad"), für den die Einschränkung gilt. "-1" bedeutet, daß die Einschränkung für alle Benutzer (für die nicht explizit andere Einschränkungen konfiguriert sind) gilt.
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue restriction_for_user_id = 10004;</code>
+         * <code>.dstore.values.IntegerValue restriction_for_user_id = 10004;</code>
          */
         public io.dstore.values.IntegerValue getRestrictionForUserId() {
           if (restrictionForUserIdBuilder_ == null) {
@@ -2773,7 +2773,7 @@ public final class MiGetProcExecRestrForUsersAd {
          * ID eines "dStore"-Benutzers, der in "UserInfo" registriert ist (siehe "mi_GetUserInfo_Ad"), für den die Einschränkung gilt. "-1" bedeutet, daß die Einschränkung für alle Benutzer (für die nicht explizit andere Einschränkungen konfiguriert sind) gilt.
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue restriction_for_user_id = 10004;</code>
+         * <code>.dstore.values.IntegerValue restriction_for_user_id = 10004;</code>
          */
         public Builder setRestrictionForUserId(io.dstore.values.IntegerValue value) {
           if (restrictionForUserIdBuilder_ == null) {
@@ -2793,7 +2793,7 @@ public final class MiGetProcExecRestrForUsersAd {
          * ID eines "dStore"-Benutzers, der in "UserInfo" registriert ist (siehe "mi_GetUserInfo_Ad"), für den die Einschränkung gilt. "-1" bedeutet, daß die Einschränkung für alle Benutzer (für die nicht explizit andere Einschränkungen konfiguriert sind) gilt.
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue restriction_for_user_id = 10004;</code>
+         * <code>.dstore.values.IntegerValue restriction_for_user_id = 10004;</code>
          */
         public Builder setRestrictionForUserId(
             io.dstore.values.IntegerValue.Builder builderForValue) {
@@ -2811,7 +2811,7 @@ public final class MiGetProcExecRestrForUsersAd {
          * ID eines "dStore"-Benutzers, der in "UserInfo" registriert ist (siehe "mi_GetUserInfo_Ad"), für den die Einschränkung gilt. "-1" bedeutet, daß die Einschränkung für alle Benutzer (für die nicht explizit andere Einschränkungen konfiguriert sind) gilt.
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue restriction_for_user_id = 10004;</code>
+         * <code>.dstore.values.IntegerValue restriction_for_user_id = 10004;</code>
          */
         public Builder mergeRestrictionForUserId(io.dstore.values.IntegerValue value) {
           if (restrictionForUserIdBuilder_ == null) {
@@ -2833,7 +2833,7 @@ public final class MiGetProcExecRestrForUsersAd {
          * ID eines "dStore"-Benutzers, der in "UserInfo" registriert ist (siehe "mi_GetUserInfo_Ad"), für den die Einschränkung gilt. "-1" bedeutet, daß die Einschränkung für alle Benutzer (für die nicht explizit andere Einschränkungen konfiguriert sind) gilt.
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue restriction_for_user_id = 10004;</code>
+         * <code>.dstore.values.IntegerValue restriction_for_user_id = 10004;</code>
          */
         public Builder clearRestrictionForUserId() {
           if (restrictionForUserIdBuilder_ == null) {
@@ -2851,7 +2851,7 @@ public final class MiGetProcExecRestrForUsersAd {
          * ID eines "dStore"-Benutzers, der in "UserInfo" registriert ist (siehe "mi_GetUserInfo_Ad"), für den die Einschränkung gilt. "-1" bedeutet, daß die Einschränkung für alle Benutzer (für die nicht explizit andere Einschränkungen konfiguriert sind) gilt.
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue restriction_for_user_id = 10004;</code>
+         * <code>.dstore.values.IntegerValue restriction_for_user_id = 10004;</code>
          */
         public io.dstore.values.IntegerValue.Builder getRestrictionForUserIdBuilder() {
           
@@ -2863,7 +2863,7 @@ public final class MiGetProcExecRestrForUsersAd {
          * ID eines "dStore"-Benutzers, der in "UserInfo" registriert ist (siehe "mi_GetUserInfo_Ad"), für den die Einschränkung gilt. "-1" bedeutet, daß die Einschränkung für alle Benutzer (für die nicht explizit andere Einschränkungen konfiguriert sind) gilt.
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue restriction_for_user_id = 10004;</code>
+         * <code>.dstore.values.IntegerValue restriction_for_user_id = 10004;</code>
          */
         public io.dstore.values.IntegerValueOrBuilder getRestrictionForUserIdOrBuilder() {
           if (restrictionForUserIdBuilder_ != null) {
@@ -2878,7 +2878,7 @@ public final class MiGetProcExecRestrForUsersAd {
          * ID eines "dStore"-Benutzers, der in "UserInfo" registriert ist (siehe "mi_GetUserInfo_Ad"), für den die Einschränkung gilt. "-1" bedeutet, daß die Einschränkung für alle Benutzer (für die nicht explizit andere Einschränkungen konfiguriert sind) gilt.
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue restriction_for_user_id = 10004;</code>
+         * <code>.dstore.values.IntegerValue restriction_for_user_id = 10004;</code>
          */
         private com.google.protobuf.SingleFieldBuilderV3<
             io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> 
@@ -2902,7 +2902,7 @@ public final class MiGetProcExecRestrForUsersAd {
          * Um die wievielte Bedingung (sprich Einschränkung) innerhalb des Bedingungs-Blocks "ConditionID" handelt es sich ? (Im Prinzip eine willkürliche Zahl, die eigentlich nur dazu dient, den Datensatz in der Tabelle, also die Bedingung, EINDEUTIG zu machen...)
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue condition_number = 10005;</code>
+         * <code>.dstore.values.IntegerValue condition_number = 10005;</code>
          */
         public boolean hasConditionNumber() {
           return conditionNumberBuilder_ != null || conditionNumber_ != null;
@@ -2912,7 +2912,7 @@ public final class MiGetProcExecRestrForUsersAd {
          * Um die wievielte Bedingung (sprich Einschränkung) innerhalb des Bedingungs-Blocks "ConditionID" handelt es sich ? (Im Prinzip eine willkürliche Zahl, die eigentlich nur dazu dient, den Datensatz in der Tabelle, also die Bedingung, EINDEUTIG zu machen...)
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue condition_number = 10005;</code>
+         * <code>.dstore.values.IntegerValue condition_number = 10005;</code>
          */
         public io.dstore.values.IntegerValue getConditionNumber() {
           if (conditionNumberBuilder_ == null) {
@@ -2926,7 +2926,7 @@ public final class MiGetProcExecRestrForUsersAd {
          * Um die wievielte Bedingung (sprich Einschränkung) innerhalb des Bedingungs-Blocks "ConditionID" handelt es sich ? (Im Prinzip eine willkürliche Zahl, die eigentlich nur dazu dient, den Datensatz in der Tabelle, also die Bedingung, EINDEUTIG zu machen...)
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue condition_number = 10005;</code>
+         * <code>.dstore.values.IntegerValue condition_number = 10005;</code>
          */
         public Builder setConditionNumber(io.dstore.values.IntegerValue value) {
           if (conditionNumberBuilder_ == null) {
@@ -2946,7 +2946,7 @@ public final class MiGetProcExecRestrForUsersAd {
          * Um die wievielte Bedingung (sprich Einschränkung) innerhalb des Bedingungs-Blocks "ConditionID" handelt es sich ? (Im Prinzip eine willkürliche Zahl, die eigentlich nur dazu dient, den Datensatz in der Tabelle, also die Bedingung, EINDEUTIG zu machen...)
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue condition_number = 10005;</code>
+         * <code>.dstore.values.IntegerValue condition_number = 10005;</code>
          */
         public Builder setConditionNumber(
             io.dstore.values.IntegerValue.Builder builderForValue) {
@@ -2964,7 +2964,7 @@ public final class MiGetProcExecRestrForUsersAd {
          * Um die wievielte Bedingung (sprich Einschränkung) innerhalb des Bedingungs-Blocks "ConditionID" handelt es sich ? (Im Prinzip eine willkürliche Zahl, die eigentlich nur dazu dient, den Datensatz in der Tabelle, also die Bedingung, EINDEUTIG zu machen...)
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue condition_number = 10005;</code>
+         * <code>.dstore.values.IntegerValue condition_number = 10005;</code>
          */
         public Builder mergeConditionNumber(io.dstore.values.IntegerValue value) {
           if (conditionNumberBuilder_ == null) {
@@ -2986,7 +2986,7 @@ public final class MiGetProcExecRestrForUsersAd {
          * Um die wievielte Bedingung (sprich Einschränkung) innerhalb des Bedingungs-Blocks "ConditionID" handelt es sich ? (Im Prinzip eine willkürliche Zahl, die eigentlich nur dazu dient, den Datensatz in der Tabelle, also die Bedingung, EINDEUTIG zu machen...)
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue condition_number = 10005;</code>
+         * <code>.dstore.values.IntegerValue condition_number = 10005;</code>
          */
         public Builder clearConditionNumber() {
           if (conditionNumberBuilder_ == null) {
@@ -3004,7 +3004,7 @@ public final class MiGetProcExecRestrForUsersAd {
          * Um die wievielte Bedingung (sprich Einschränkung) innerhalb des Bedingungs-Blocks "ConditionID" handelt es sich ? (Im Prinzip eine willkürliche Zahl, die eigentlich nur dazu dient, den Datensatz in der Tabelle, also die Bedingung, EINDEUTIG zu machen...)
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue condition_number = 10005;</code>
+         * <code>.dstore.values.IntegerValue condition_number = 10005;</code>
          */
         public io.dstore.values.IntegerValue.Builder getConditionNumberBuilder() {
           
@@ -3016,7 +3016,7 @@ public final class MiGetProcExecRestrForUsersAd {
          * Um die wievielte Bedingung (sprich Einschränkung) innerhalb des Bedingungs-Blocks "ConditionID" handelt es sich ? (Im Prinzip eine willkürliche Zahl, die eigentlich nur dazu dient, den Datensatz in der Tabelle, also die Bedingung, EINDEUTIG zu machen...)
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue condition_number = 10005;</code>
+         * <code>.dstore.values.IntegerValue condition_number = 10005;</code>
          */
         public io.dstore.values.IntegerValueOrBuilder getConditionNumberOrBuilder() {
           if (conditionNumberBuilder_ != null) {
@@ -3031,7 +3031,7 @@ public final class MiGetProcExecRestrForUsersAd {
          * Um die wievielte Bedingung (sprich Einschränkung) innerhalb des Bedingungs-Blocks "ConditionID" handelt es sich ? (Im Prinzip eine willkürliche Zahl, die eigentlich nur dazu dient, den Datensatz in der Tabelle, also die Bedingung, EINDEUTIG zu machen...)
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue condition_number = 10005;</code>
+         * <code>.dstore.values.IntegerValue condition_number = 10005;</code>
          */
         private com.google.protobuf.SingleFieldBuilderV3<
             io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> 
@@ -3055,7 +3055,7 @@ public final class MiGetProcExecRestrForUsersAd {
          * "0" : Die Einschränkung wird bei der Überprüfung nicht beachtet"1" : Die Einschränkung ist aktiv, d.h. diese Bedingung und alle anderen Bedingungen der gleichen "ConditionID" müssen erfüllt sein (oder alle Bedingungen einer anderen "ConditionID")
          * </pre>
          *
-         * <code>optional .dstore.values.BooleanValue restriction_is_active = 10006;</code>
+         * <code>.dstore.values.BooleanValue restriction_is_active = 10006;</code>
          */
         public boolean hasRestrictionIsActive() {
           return restrictionIsActiveBuilder_ != null || restrictionIsActive_ != null;
@@ -3065,7 +3065,7 @@ public final class MiGetProcExecRestrForUsersAd {
          * "0" : Die Einschränkung wird bei der Überprüfung nicht beachtet"1" : Die Einschränkung ist aktiv, d.h. diese Bedingung und alle anderen Bedingungen der gleichen "ConditionID" müssen erfüllt sein (oder alle Bedingungen einer anderen "ConditionID")
          * </pre>
          *
-         * <code>optional .dstore.values.BooleanValue restriction_is_active = 10006;</code>
+         * <code>.dstore.values.BooleanValue restriction_is_active = 10006;</code>
          */
         public io.dstore.values.BooleanValue getRestrictionIsActive() {
           if (restrictionIsActiveBuilder_ == null) {
@@ -3079,7 +3079,7 @@ public final class MiGetProcExecRestrForUsersAd {
          * "0" : Die Einschränkung wird bei der Überprüfung nicht beachtet"1" : Die Einschränkung ist aktiv, d.h. diese Bedingung und alle anderen Bedingungen der gleichen "ConditionID" müssen erfüllt sein (oder alle Bedingungen einer anderen "ConditionID")
          * </pre>
          *
-         * <code>optional .dstore.values.BooleanValue restriction_is_active = 10006;</code>
+         * <code>.dstore.values.BooleanValue restriction_is_active = 10006;</code>
          */
         public Builder setRestrictionIsActive(io.dstore.values.BooleanValue value) {
           if (restrictionIsActiveBuilder_ == null) {
@@ -3099,7 +3099,7 @@ public final class MiGetProcExecRestrForUsersAd {
          * "0" : Die Einschränkung wird bei der Überprüfung nicht beachtet"1" : Die Einschränkung ist aktiv, d.h. diese Bedingung und alle anderen Bedingungen der gleichen "ConditionID" müssen erfüllt sein (oder alle Bedingungen einer anderen "ConditionID")
          * </pre>
          *
-         * <code>optional .dstore.values.BooleanValue restriction_is_active = 10006;</code>
+         * <code>.dstore.values.BooleanValue restriction_is_active = 10006;</code>
          */
         public Builder setRestrictionIsActive(
             io.dstore.values.BooleanValue.Builder builderForValue) {
@@ -3117,7 +3117,7 @@ public final class MiGetProcExecRestrForUsersAd {
          * "0" : Die Einschränkung wird bei der Überprüfung nicht beachtet"1" : Die Einschränkung ist aktiv, d.h. diese Bedingung und alle anderen Bedingungen der gleichen "ConditionID" müssen erfüllt sein (oder alle Bedingungen einer anderen "ConditionID")
          * </pre>
          *
-         * <code>optional .dstore.values.BooleanValue restriction_is_active = 10006;</code>
+         * <code>.dstore.values.BooleanValue restriction_is_active = 10006;</code>
          */
         public Builder mergeRestrictionIsActive(io.dstore.values.BooleanValue value) {
           if (restrictionIsActiveBuilder_ == null) {
@@ -3139,7 +3139,7 @@ public final class MiGetProcExecRestrForUsersAd {
          * "0" : Die Einschränkung wird bei der Überprüfung nicht beachtet"1" : Die Einschränkung ist aktiv, d.h. diese Bedingung und alle anderen Bedingungen der gleichen "ConditionID" müssen erfüllt sein (oder alle Bedingungen einer anderen "ConditionID")
          * </pre>
          *
-         * <code>optional .dstore.values.BooleanValue restriction_is_active = 10006;</code>
+         * <code>.dstore.values.BooleanValue restriction_is_active = 10006;</code>
          */
         public Builder clearRestrictionIsActive() {
           if (restrictionIsActiveBuilder_ == null) {
@@ -3157,7 +3157,7 @@ public final class MiGetProcExecRestrForUsersAd {
          * "0" : Die Einschränkung wird bei der Überprüfung nicht beachtet"1" : Die Einschränkung ist aktiv, d.h. diese Bedingung und alle anderen Bedingungen der gleichen "ConditionID" müssen erfüllt sein (oder alle Bedingungen einer anderen "ConditionID")
          * </pre>
          *
-         * <code>optional .dstore.values.BooleanValue restriction_is_active = 10006;</code>
+         * <code>.dstore.values.BooleanValue restriction_is_active = 10006;</code>
          */
         public io.dstore.values.BooleanValue.Builder getRestrictionIsActiveBuilder() {
           
@@ -3169,7 +3169,7 @@ public final class MiGetProcExecRestrForUsersAd {
          * "0" : Die Einschränkung wird bei der Überprüfung nicht beachtet"1" : Die Einschränkung ist aktiv, d.h. diese Bedingung und alle anderen Bedingungen der gleichen "ConditionID" müssen erfüllt sein (oder alle Bedingungen einer anderen "ConditionID")
          * </pre>
          *
-         * <code>optional .dstore.values.BooleanValue restriction_is_active = 10006;</code>
+         * <code>.dstore.values.BooleanValue restriction_is_active = 10006;</code>
          */
         public io.dstore.values.BooleanValueOrBuilder getRestrictionIsActiveOrBuilder() {
           if (restrictionIsActiveBuilder_ != null) {
@@ -3184,7 +3184,7 @@ public final class MiGetProcExecRestrForUsersAd {
          * "0" : Die Einschränkung wird bei der Überprüfung nicht beachtet"1" : Die Einschränkung ist aktiv, d.h. diese Bedingung und alle anderen Bedingungen der gleichen "ConditionID" müssen erfüllt sein (oder alle Bedingungen einer anderen "ConditionID")
          * </pre>
          *
-         * <code>optional .dstore.values.BooleanValue restriction_is_active = 10006;</code>
+         * <code>.dstore.values.BooleanValue restriction_is_active = 10006;</code>
          */
         private com.google.protobuf.SingleFieldBuilderV3<
             io.dstore.values.BooleanValue, io.dstore.values.BooleanValue.Builder, io.dstore.values.BooleanValueOrBuilder> 
@@ -3208,7 +3208,7 @@ public final class MiGetProcExecRestrForUsersAd {
          * Nummer des "Bedingungs-Blocks", zu dem die Einschränkung gehört. Ist die Überprüfung von Ausführungsbeschränkungen konfiguriert und aktiv, müssen ALLE Bedingungen mindestens EINES Bedingungs-Blocks erfüllt sein, damit der Aufruf "durchgeht".
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue condition_id = 10007;</code>
+         * <code>.dstore.values.IntegerValue condition_id = 10007;</code>
          */
         public boolean hasConditionId() {
           return conditionIdBuilder_ != null || conditionId_ != null;
@@ -3218,7 +3218,7 @@ public final class MiGetProcExecRestrForUsersAd {
          * Nummer des "Bedingungs-Blocks", zu dem die Einschränkung gehört. Ist die Überprüfung von Ausführungsbeschränkungen konfiguriert und aktiv, müssen ALLE Bedingungen mindestens EINES Bedingungs-Blocks erfüllt sein, damit der Aufruf "durchgeht".
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue condition_id = 10007;</code>
+         * <code>.dstore.values.IntegerValue condition_id = 10007;</code>
          */
         public io.dstore.values.IntegerValue getConditionId() {
           if (conditionIdBuilder_ == null) {
@@ -3232,7 +3232,7 @@ public final class MiGetProcExecRestrForUsersAd {
          * Nummer des "Bedingungs-Blocks", zu dem die Einschränkung gehört. Ist die Überprüfung von Ausführungsbeschränkungen konfiguriert und aktiv, müssen ALLE Bedingungen mindestens EINES Bedingungs-Blocks erfüllt sein, damit der Aufruf "durchgeht".
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue condition_id = 10007;</code>
+         * <code>.dstore.values.IntegerValue condition_id = 10007;</code>
          */
         public Builder setConditionId(io.dstore.values.IntegerValue value) {
           if (conditionIdBuilder_ == null) {
@@ -3252,7 +3252,7 @@ public final class MiGetProcExecRestrForUsersAd {
          * Nummer des "Bedingungs-Blocks", zu dem die Einschränkung gehört. Ist die Überprüfung von Ausführungsbeschränkungen konfiguriert und aktiv, müssen ALLE Bedingungen mindestens EINES Bedingungs-Blocks erfüllt sein, damit der Aufruf "durchgeht".
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue condition_id = 10007;</code>
+         * <code>.dstore.values.IntegerValue condition_id = 10007;</code>
          */
         public Builder setConditionId(
             io.dstore.values.IntegerValue.Builder builderForValue) {
@@ -3270,7 +3270,7 @@ public final class MiGetProcExecRestrForUsersAd {
          * Nummer des "Bedingungs-Blocks", zu dem die Einschränkung gehört. Ist die Überprüfung von Ausführungsbeschränkungen konfiguriert und aktiv, müssen ALLE Bedingungen mindestens EINES Bedingungs-Blocks erfüllt sein, damit der Aufruf "durchgeht".
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue condition_id = 10007;</code>
+         * <code>.dstore.values.IntegerValue condition_id = 10007;</code>
          */
         public Builder mergeConditionId(io.dstore.values.IntegerValue value) {
           if (conditionIdBuilder_ == null) {
@@ -3292,7 +3292,7 @@ public final class MiGetProcExecRestrForUsersAd {
          * Nummer des "Bedingungs-Blocks", zu dem die Einschränkung gehört. Ist die Überprüfung von Ausführungsbeschränkungen konfiguriert und aktiv, müssen ALLE Bedingungen mindestens EINES Bedingungs-Blocks erfüllt sein, damit der Aufruf "durchgeht".
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue condition_id = 10007;</code>
+         * <code>.dstore.values.IntegerValue condition_id = 10007;</code>
          */
         public Builder clearConditionId() {
           if (conditionIdBuilder_ == null) {
@@ -3310,7 +3310,7 @@ public final class MiGetProcExecRestrForUsersAd {
          * Nummer des "Bedingungs-Blocks", zu dem die Einschränkung gehört. Ist die Überprüfung von Ausführungsbeschränkungen konfiguriert und aktiv, müssen ALLE Bedingungen mindestens EINES Bedingungs-Blocks erfüllt sein, damit der Aufruf "durchgeht".
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue condition_id = 10007;</code>
+         * <code>.dstore.values.IntegerValue condition_id = 10007;</code>
          */
         public io.dstore.values.IntegerValue.Builder getConditionIdBuilder() {
           
@@ -3322,7 +3322,7 @@ public final class MiGetProcExecRestrForUsersAd {
          * Nummer des "Bedingungs-Blocks", zu dem die Einschränkung gehört. Ist die Überprüfung von Ausführungsbeschränkungen konfiguriert und aktiv, müssen ALLE Bedingungen mindestens EINES Bedingungs-Blocks erfüllt sein, damit der Aufruf "durchgeht".
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue condition_id = 10007;</code>
+         * <code>.dstore.values.IntegerValue condition_id = 10007;</code>
          */
         public io.dstore.values.IntegerValueOrBuilder getConditionIdOrBuilder() {
           if (conditionIdBuilder_ != null) {
@@ -3337,7 +3337,7 @@ public final class MiGetProcExecRestrForUsersAd {
          * Nummer des "Bedingungs-Blocks", zu dem die Einschränkung gehört. Ist die Überprüfung von Ausführungsbeschränkungen konfiguriert und aktiv, müssen ALLE Bedingungen mindestens EINES Bedingungs-Blocks erfüllt sein, damit der Aufruf "durchgeht".
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue condition_id = 10007;</code>
+         * <code>.dstore.values.IntegerValue condition_id = 10007;</code>
          */
         private com.google.protobuf.SingleFieldBuilderV3<
             io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> 
@@ -3361,7 +3361,7 @@ public final class MiGetProcExecRestrForUsersAd {
          * Parameter, für den die Einschränkung gilt. Der Wert zu diesem Parameter beim Aufruf der Prozedur wird anhand des Operators "Operator" mit "Condition" verglichen.
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue parameter_name = 10008;</code>
+         * <code>.dstore.values.StringValue parameter_name = 10008;</code>
          */
         public boolean hasParameterName() {
           return parameterNameBuilder_ != null || parameterName_ != null;
@@ -3371,7 +3371,7 @@ public final class MiGetProcExecRestrForUsersAd {
          * Parameter, für den die Einschränkung gilt. Der Wert zu diesem Parameter beim Aufruf der Prozedur wird anhand des Operators "Operator" mit "Condition" verglichen.
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue parameter_name = 10008;</code>
+         * <code>.dstore.values.StringValue parameter_name = 10008;</code>
          */
         public io.dstore.values.StringValue getParameterName() {
           if (parameterNameBuilder_ == null) {
@@ -3385,7 +3385,7 @@ public final class MiGetProcExecRestrForUsersAd {
          * Parameter, für den die Einschränkung gilt. Der Wert zu diesem Parameter beim Aufruf der Prozedur wird anhand des Operators "Operator" mit "Condition" verglichen.
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue parameter_name = 10008;</code>
+         * <code>.dstore.values.StringValue parameter_name = 10008;</code>
          */
         public Builder setParameterName(io.dstore.values.StringValue value) {
           if (parameterNameBuilder_ == null) {
@@ -3405,7 +3405,7 @@ public final class MiGetProcExecRestrForUsersAd {
          * Parameter, für den die Einschränkung gilt. Der Wert zu diesem Parameter beim Aufruf der Prozedur wird anhand des Operators "Operator" mit "Condition" verglichen.
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue parameter_name = 10008;</code>
+         * <code>.dstore.values.StringValue parameter_name = 10008;</code>
          */
         public Builder setParameterName(
             io.dstore.values.StringValue.Builder builderForValue) {
@@ -3423,7 +3423,7 @@ public final class MiGetProcExecRestrForUsersAd {
          * Parameter, für den die Einschränkung gilt. Der Wert zu diesem Parameter beim Aufruf der Prozedur wird anhand des Operators "Operator" mit "Condition" verglichen.
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue parameter_name = 10008;</code>
+         * <code>.dstore.values.StringValue parameter_name = 10008;</code>
          */
         public Builder mergeParameterName(io.dstore.values.StringValue value) {
           if (parameterNameBuilder_ == null) {
@@ -3445,7 +3445,7 @@ public final class MiGetProcExecRestrForUsersAd {
          * Parameter, für den die Einschränkung gilt. Der Wert zu diesem Parameter beim Aufruf der Prozedur wird anhand des Operators "Operator" mit "Condition" verglichen.
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue parameter_name = 10008;</code>
+         * <code>.dstore.values.StringValue parameter_name = 10008;</code>
          */
         public Builder clearParameterName() {
           if (parameterNameBuilder_ == null) {
@@ -3463,7 +3463,7 @@ public final class MiGetProcExecRestrForUsersAd {
          * Parameter, für den die Einschränkung gilt. Der Wert zu diesem Parameter beim Aufruf der Prozedur wird anhand des Operators "Operator" mit "Condition" verglichen.
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue parameter_name = 10008;</code>
+         * <code>.dstore.values.StringValue parameter_name = 10008;</code>
          */
         public io.dstore.values.StringValue.Builder getParameterNameBuilder() {
           
@@ -3475,7 +3475,7 @@ public final class MiGetProcExecRestrForUsersAd {
          * Parameter, für den die Einschränkung gilt. Der Wert zu diesem Parameter beim Aufruf der Prozedur wird anhand des Operators "Operator" mit "Condition" verglichen.
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue parameter_name = 10008;</code>
+         * <code>.dstore.values.StringValue parameter_name = 10008;</code>
          */
         public io.dstore.values.StringValueOrBuilder getParameterNameOrBuilder() {
           if (parameterNameBuilder_ != null) {
@@ -3490,7 +3490,7 @@ public final class MiGetProcExecRestrForUsersAd {
          * Parameter, für den die Einschränkung gilt. Der Wert zu diesem Parameter beim Aufruf der Prozedur wird anhand des Operators "Operator" mit "Condition" verglichen.
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue parameter_name = 10008;</code>
+         * <code>.dstore.values.StringValue parameter_name = 10008;</code>
          */
         private com.google.protobuf.SingleFieldBuilderV3<
             io.dstore.values.StringValue, io.dstore.values.StringValue.Builder, io.dstore.values.StringValueOrBuilder> 
@@ -3750,7 +3750,7 @@ public final class MiGetProcExecRestrForUsersAd {
         return memoizedHashCode;
       }
       int hash = 41;
-      hash = (19 * hash) + getDescriptorForType().hashCode();
+      hash = (19 * hash) + getDescriptor().hashCode();
       if (getMetaInformationCount() > 0) {
         hash = (37 * hash) + META_INFORMATION_FIELD_NUMBER;
         hash = (53 * hash) + getMetaInformationList().hashCode();

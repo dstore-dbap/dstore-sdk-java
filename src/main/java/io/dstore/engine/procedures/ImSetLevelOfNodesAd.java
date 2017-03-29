@@ -19,20 +19,20 @@ public final class ImSetLevelOfNodesAd {
       com.google.protobuf.MessageOrBuilder {
 
     /**
-     * <code>optional .dstore.values.StringValue hierarchy = 1;</code>
+     * <code>.dstore.values.StringValue hierarchy = 1;</code>
      */
     boolean hasHierarchy();
     /**
-     * <code>optional .dstore.values.StringValue hierarchy = 1;</code>
+     * <code>.dstore.values.StringValue hierarchy = 1;</code>
      */
     io.dstore.values.StringValue getHierarchy();
     /**
-     * <code>optional .dstore.values.StringValue hierarchy = 1;</code>
+     * <code>.dstore.values.StringValue hierarchy = 1;</code>
      */
     io.dstore.values.StringValueOrBuilder getHierarchyOrBuilder();
 
     /**
-     * <code>optional bool hierarchy_null = 1001;</code>
+     * <code>bool hierarchy_null = 1001;</code>
      */
     boolean getHierarchyNull();
   }
@@ -120,19 +120,19 @@ public final class ImSetLevelOfNodesAd {
     public static final int HIERARCHY_FIELD_NUMBER = 1;
     private io.dstore.values.StringValue hierarchy_;
     /**
-     * <code>optional .dstore.values.StringValue hierarchy = 1;</code>
+     * <code>.dstore.values.StringValue hierarchy = 1;</code>
      */
     public boolean hasHierarchy() {
       return hierarchy_ != null;
     }
     /**
-     * <code>optional .dstore.values.StringValue hierarchy = 1;</code>
+     * <code>.dstore.values.StringValue hierarchy = 1;</code>
      */
     public io.dstore.values.StringValue getHierarchy() {
       return hierarchy_ == null ? io.dstore.values.StringValue.getDefaultInstance() : hierarchy_;
     }
     /**
-     * <code>optional .dstore.values.StringValue hierarchy = 1;</code>
+     * <code>.dstore.values.StringValue hierarchy = 1;</code>
      */
     public io.dstore.values.StringValueOrBuilder getHierarchyOrBuilder() {
       return getHierarchy();
@@ -141,7 +141,7 @@ public final class ImSetLevelOfNodesAd {
     public static final int HIERARCHY_NULL_FIELD_NUMBER = 1001;
     private boolean hierarchyNull_;
     /**
-     * <code>optional bool hierarchy_null = 1001;</code>
+     * <code>bool hierarchy_null = 1001;</code>
      */
     public boolean getHierarchyNull() {
       return hierarchyNull_;
@@ -212,7 +212,7 @@ public final class ImSetLevelOfNodesAd {
         return memoizedHashCode;
       }
       int hash = 41;
-      hash = (19 * hash) + getDescriptorForType().hashCode();
+      hash = (19 * hash) + getDescriptor().hashCode();
       if (hasHierarchy()) {
         hash = (37 * hash) + HIERARCHY_FIELD_NUMBER;
         hash = (53 * hash) + getHierarchy().hashCode();
@@ -451,13 +451,13 @@ public final class ImSetLevelOfNodesAd {
       private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.values.StringValue, io.dstore.values.StringValue.Builder, io.dstore.values.StringValueOrBuilder> hierarchyBuilder_;
       /**
-       * <code>optional .dstore.values.StringValue hierarchy = 1;</code>
+       * <code>.dstore.values.StringValue hierarchy = 1;</code>
        */
       public boolean hasHierarchy() {
         return hierarchyBuilder_ != null || hierarchy_ != null;
       }
       /**
-       * <code>optional .dstore.values.StringValue hierarchy = 1;</code>
+       * <code>.dstore.values.StringValue hierarchy = 1;</code>
        */
       public io.dstore.values.StringValue getHierarchy() {
         if (hierarchyBuilder_ == null) {
@@ -467,7 +467,7 @@ public final class ImSetLevelOfNodesAd {
         }
       }
       /**
-       * <code>optional .dstore.values.StringValue hierarchy = 1;</code>
+       * <code>.dstore.values.StringValue hierarchy = 1;</code>
        */
       public Builder setHierarchy(io.dstore.values.StringValue value) {
         if (hierarchyBuilder_ == null) {
@@ -483,7 +483,7 @@ public final class ImSetLevelOfNodesAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.StringValue hierarchy = 1;</code>
+       * <code>.dstore.values.StringValue hierarchy = 1;</code>
        */
       public Builder setHierarchy(
           io.dstore.values.StringValue.Builder builderForValue) {
@@ -497,7 +497,7 @@ public final class ImSetLevelOfNodesAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.StringValue hierarchy = 1;</code>
+       * <code>.dstore.values.StringValue hierarchy = 1;</code>
        */
       public Builder mergeHierarchy(io.dstore.values.StringValue value) {
         if (hierarchyBuilder_ == null) {
@@ -515,7 +515,7 @@ public final class ImSetLevelOfNodesAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.StringValue hierarchy = 1;</code>
+       * <code>.dstore.values.StringValue hierarchy = 1;</code>
        */
       public Builder clearHierarchy() {
         if (hierarchyBuilder_ == null) {
@@ -529,7 +529,7 @@ public final class ImSetLevelOfNodesAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.StringValue hierarchy = 1;</code>
+       * <code>.dstore.values.StringValue hierarchy = 1;</code>
        */
       public io.dstore.values.StringValue.Builder getHierarchyBuilder() {
         
@@ -537,7 +537,7 @@ public final class ImSetLevelOfNodesAd {
         return getHierarchyFieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .dstore.values.StringValue hierarchy = 1;</code>
+       * <code>.dstore.values.StringValue hierarchy = 1;</code>
        */
       public io.dstore.values.StringValueOrBuilder getHierarchyOrBuilder() {
         if (hierarchyBuilder_ != null) {
@@ -548,7 +548,7 @@ public final class ImSetLevelOfNodesAd {
         }
       }
       /**
-       * <code>optional .dstore.values.StringValue hierarchy = 1;</code>
+       * <code>.dstore.values.StringValue hierarchy = 1;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.values.StringValue, io.dstore.values.StringValue.Builder, io.dstore.values.StringValueOrBuilder> 
@@ -566,13 +566,13 @@ public final class ImSetLevelOfNodesAd {
 
       private boolean hierarchyNull_ ;
       /**
-       * <code>optional bool hierarchy_null = 1001;</code>
+       * <code>bool hierarchy_null = 1001;</code>
        */
       public boolean getHierarchyNull() {
         return hierarchyNull_;
       }
       /**
-       * <code>optional bool hierarchy_null = 1001;</code>
+       * <code>bool hierarchy_null = 1001;</code>
        */
       public Builder setHierarchyNull(boolean value) {
         
@@ -581,7 +581,7 @@ public final class ImSetLevelOfNodesAd {
         return this;
       }
       /**
-       * <code>optional bool hierarchy_null = 1001;</code>
+       * <code>bool hierarchy_null = 1001;</code>
        */
       public Builder clearHierarchyNull() {
         
@@ -840,7 +840,7 @@ public final class ImSetLevelOfNodesAd {
         com.google.protobuf.MessageOrBuilder {
 
       /**
-       * <code>optional int32 row_id = 10000;</code>
+       * <code>int32 row_id = 10000;</code>
        */
       int getRowId();
     }
@@ -915,7 +915,7 @@ public final class ImSetLevelOfNodesAd {
       public static final int ROW_ID_FIELD_NUMBER = 10000;
       private int rowId_;
       /**
-       * <code>optional int32 row_id = 10000;</code>
+       * <code>int32 row_id = 10000;</code>
        */
       public int getRowId() {
         return rowId_;
@@ -974,7 +974,7 @@ public final class ImSetLevelOfNodesAd {
           return memoizedHashCode;
         }
         int hash = 41;
-        hash = (19 * hash) + getDescriptorForType().hashCode();
+        hash = (19 * hash) + getDescriptor().hashCode();
         hash = (37 * hash) + ROW_ID_FIELD_NUMBER;
         hash = (53 * hash) + getRowId();
         hash = (29 * hash) + unknownFields.hashCode();
@@ -1192,13 +1192,13 @@ public final class ImSetLevelOfNodesAd {
 
         private int rowId_ ;
         /**
-         * <code>optional int32 row_id = 10000;</code>
+         * <code>int32 row_id = 10000;</code>
          */
         public int getRowId() {
           return rowId_;
         }
         /**
-         * <code>optional int32 row_id = 10000;</code>
+         * <code>int32 row_id = 10000;</code>
          */
         public Builder setRowId(int value) {
           
@@ -1207,7 +1207,7 @@ public final class ImSetLevelOfNodesAd {
           return this;
         }
         /**
-         * <code>optional int32 row_id = 10000;</code>
+         * <code>int32 row_id = 10000;</code>
          */
         public Builder clearRowId() {
           
@@ -1460,7 +1460,7 @@ public final class ImSetLevelOfNodesAd {
         return memoizedHashCode;
       }
       int hash = 41;
-      hash = (19 * hash) + getDescriptorForType().hashCode();
+      hash = (19 * hash) + getDescriptor().hashCode();
       if (getMetaInformationCount() > 0) {
         hash = (37 * hash) + META_INFORMATION_FIELD_NUMBER;
         hash = (53 * hash) + getMetaInformationList().hashCode();

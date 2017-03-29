@@ -19,38 +19,38 @@ public final class OmGetOrderInformationAd {
       com.google.protobuf.MessageOrBuilder {
 
     /**
-     * <code>optional .dstore.values.IntegerValue order_id = 1;</code>
+     * <code>.dstore.values.IntegerValue order_id = 1;</code>
      */
     boolean hasOrderId();
     /**
-     * <code>optional .dstore.values.IntegerValue order_id = 1;</code>
+     * <code>.dstore.values.IntegerValue order_id = 1;</code>
      */
     io.dstore.values.IntegerValue getOrderId();
     /**
-     * <code>optional .dstore.values.IntegerValue order_id = 1;</code>
+     * <code>.dstore.values.IntegerValue order_id = 1;</code>
      */
     io.dstore.values.IntegerValueOrBuilder getOrderIdOrBuilder();
 
     /**
-     * <code>optional bool order_id_null = 1001;</code>
+     * <code>bool order_id_null = 1001;</code>
      */
     boolean getOrderIdNull();
 
     /**
-     * <code>optional .dstore.values.IntegerValue information_type_id = 2;</code>
+     * <code>.dstore.values.IntegerValue information_type_id = 2;</code>
      */
     boolean hasInformationTypeId();
     /**
-     * <code>optional .dstore.values.IntegerValue information_type_id = 2;</code>
+     * <code>.dstore.values.IntegerValue information_type_id = 2;</code>
      */
     io.dstore.values.IntegerValue getInformationTypeId();
     /**
-     * <code>optional .dstore.values.IntegerValue information_type_id = 2;</code>
+     * <code>.dstore.values.IntegerValue information_type_id = 2;</code>
      */
     io.dstore.values.IntegerValueOrBuilder getInformationTypeIdOrBuilder();
 
     /**
-     * <code>optional bool information_type_id_null = 1002;</code>
+     * <code>bool information_type_id_null = 1002;</code>
      */
     boolean getInformationTypeIdNull();
   }
@@ -157,19 +157,19 @@ public final class OmGetOrderInformationAd {
     public static final int ORDER_ID_FIELD_NUMBER = 1;
     private io.dstore.values.IntegerValue orderId_;
     /**
-     * <code>optional .dstore.values.IntegerValue order_id = 1;</code>
+     * <code>.dstore.values.IntegerValue order_id = 1;</code>
      */
     public boolean hasOrderId() {
       return orderId_ != null;
     }
     /**
-     * <code>optional .dstore.values.IntegerValue order_id = 1;</code>
+     * <code>.dstore.values.IntegerValue order_id = 1;</code>
      */
     public io.dstore.values.IntegerValue getOrderId() {
       return orderId_ == null ? io.dstore.values.IntegerValue.getDefaultInstance() : orderId_;
     }
     /**
-     * <code>optional .dstore.values.IntegerValue order_id = 1;</code>
+     * <code>.dstore.values.IntegerValue order_id = 1;</code>
      */
     public io.dstore.values.IntegerValueOrBuilder getOrderIdOrBuilder() {
       return getOrderId();
@@ -178,7 +178,7 @@ public final class OmGetOrderInformationAd {
     public static final int ORDER_ID_NULL_FIELD_NUMBER = 1001;
     private boolean orderIdNull_;
     /**
-     * <code>optional bool order_id_null = 1001;</code>
+     * <code>bool order_id_null = 1001;</code>
      */
     public boolean getOrderIdNull() {
       return orderIdNull_;
@@ -187,19 +187,19 @@ public final class OmGetOrderInformationAd {
     public static final int INFORMATION_TYPE_ID_FIELD_NUMBER = 2;
     private io.dstore.values.IntegerValue informationTypeId_;
     /**
-     * <code>optional .dstore.values.IntegerValue information_type_id = 2;</code>
+     * <code>.dstore.values.IntegerValue information_type_id = 2;</code>
      */
     public boolean hasInformationTypeId() {
       return informationTypeId_ != null;
     }
     /**
-     * <code>optional .dstore.values.IntegerValue information_type_id = 2;</code>
+     * <code>.dstore.values.IntegerValue information_type_id = 2;</code>
      */
     public io.dstore.values.IntegerValue getInformationTypeId() {
       return informationTypeId_ == null ? io.dstore.values.IntegerValue.getDefaultInstance() : informationTypeId_;
     }
     /**
-     * <code>optional .dstore.values.IntegerValue information_type_id = 2;</code>
+     * <code>.dstore.values.IntegerValue information_type_id = 2;</code>
      */
     public io.dstore.values.IntegerValueOrBuilder getInformationTypeIdOrBuilder() {
       return getInformationTypeId();
@@ -208,7 +208,7 @@ public final class OmGetOrderInformationAd {
     public static final int INFORMATION_TYPE_ID_NULL_FIELD_NUMBER = 1002;
     private boolean informationTypeIdNull_;
     /**
-     * <code>optional bool information_type_id_null = 1002;</code>
+     * <code>bool information_type_id_null = 1002;</code>
      */
     public boolean getInformationTypeIdNull() {
       return informationTypeIdNull_;
@@ -300,7 +300,7 @@ public final class OmGetOrderInformationAd {
         return memoizedHashCode;
       }
       int hash = 41;
-      hash = (19 * hash) + getDescriptorForType().hashCode();
+      hash = (19 * hash) + getDescriptor().hashCode();
       if (hasOrderId()) {
         hash = (37 * hash) + ORDER_ID_FIELD_NUMBER;
         hash = (53 * hash) + getOrderId().hashCode();
@@ -566,13 +566,13 @@ public final class OmGetOrderInformationAd {
       private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> orderIdBuilder_;
       /**
-       * <code>optional .dstore.values.IntegerValue order_id = 1;</code>
+       * <code>.dstore.values.IntegerValue order_id = 1;</code>
        */
       public boolean hasOrderId() {
         return orderIdBuilder_ != null || orderId_ != null;
       }
       /**
-       * <code>optional .dstore.values.IntegerValue order_id = 1;</code>
+       * <code>.dstore.values.IntegerValue order_id = 1;</code>
        */
       public io.dstore.values.IntegerValue getOrderId() {
         if (orderIdBuilder_ == null) {
@@ -582,7 +582,7 @@ public final class OmGetOrderInformationAd {
         }
       }
       /**
-       * <code>optional .dstore.values.IntegerValue order_id = 1;</code>
+       * <code>.dstore.values.IntegerValue order_id = 1;</code>
        */
       public Builder setOrderId(io.dstore.values.IntegerValue value) {
         if (orderIdBuilder_ == null) {
@@ -598,7 +598,7 @@ public final class OmGetOrderInformationAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.IntegerValue order_id = 1;</code>
+       * <code>.dstore.values.IntegerValue order_id = 1;</code>
        */
       public Builder setOrderId(
           io.dstore.values.IntegerValue.Builder builderForValue) {
@@ -612,7 +612,7 @@ public final class OmGetOrderInformationAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.IntegerValue order_id = 1;</code>
+       * <code>.dstore.values.IntegerValue order_id = 1;</code>
        */
       public Builder mergeOrderId(io.dstore.values.IntegerValue value) {
         if (orderIdBuilder_ == null) {
@@ -630,7 +630,7 @@ public final class OmGetOrderInformationAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.IntegerValue order_id = 1;</code>
+       * <code>.dstore.values.IntegerValue order_id = 1;</code>
        */
       public Builder clearOrderId() {
         if (orderIdBuilder_ == null) {
@@ -644,7 +644,7 @@ public final class OmGetOrderInformationAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.IntegerValue order_id = 1;</code>
+       * <code>.dstore.values.IntegerValue order_id = 1;</code>
        */
       public io.dstore.values.IntegerValue.Builder getOrderIdBuilder() {
         
@@ -652,7 +652,7 @@ public final class OmGetOrderInformationAd {
         return getOrderIdFieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .dstore.values.IntegerValue order_id = 1;</code>
+       * <code>.dstore.values.IntegerValue order_id = 1;</code>
        */
       public io.dstore.values.IntegerValueOrBuilder getOrderIdOrBuilder() {
         if (orderIdBuilder_ != null) {
@@ -663,7 +663,7 @@ public final class OmGetOrderInformationAd {
         }
       }
       /**
-       * <code>optional .dstore.values.IntegerValue order_id = 1;</code>
+       * <code>.dstore.values.IntegerValue order_id = 1;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> 
@@ -681,13 +681,13 @@ public final class OmGetOrderInformationAd {
 
       private boolean orderIdNull_ ;
       /**
-       * <code>optional bool order_id_null = 1001;</code>
+       * <code>bool order_id_null = 1001;</code>
        */
       public boolean getOrderIdNull() {
         return orderIdNull_;
       }
       /**
-       * <code>optional bool order_id_null = 1001;</code>
+       * <code>bool order_id_null = 1001;</code>
        */
       public Builder setOrderIdNull(boolean value) {
         
@@ -696,7 +696,7 @@ public final class OmGetOrderInformationAd {
         return this;
       }
       /**
-       * <code>optional bool order_id_null = 1001;</code>
+       * <code>bool order_id_null = 1001;</code>
        */
       public Builder clearOrderIdNull() {
         
@@ -709,13 +709,13 @@ public final class OmGetOrderInformationAd {
       private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> informationTypeIdBuilder_;
       /**
-       * <code>optional .dstore.values.IntegerValue information_type_id = 2;</code>
+       * <code>.dstore.values.IntegerValue information_type_id = 2;</code>
        */
       public boolean hasInformationTypeId() {
         return informationTypeIdBuilder_ != null || informationTypeId_ != null;
       }
       /**
-       * <code>optional .dstore.values.IntegerValue information_type_id = 2;</code>
+       * <code>.dstore.values.IntegerValue information_type_id = 2;</code>
        */
       public io.dstore.values.IntegerValue getInformationTypeId() {
         if (informationTypeIdBuilder_ == null) {
@@ -725,7 +725,7 @@ public final class OmGetOrderInformationAd {
         }
       }
       /**
-       * <code>optional .dstore.values.IntegerValue information_type_id = 2;</code>
+       * <code>.dstore.values.IntegerValue information_type_id = 2;</code>
        */
       public Builder setInformationTypeId(io.dstore.values.IntegerValue value) {
         if (informationTypeIdBuilder_ == null) {
@@ -741,7 +741,7 @@ public final class OmGetOrderInformationAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.IntegerValue information_type_id = 2;</code>
+       * <code>.dstore.values.IntegerValue information_type_id = 2;</code>
        */
       public Builder setInformationTypeId(
           io.dstore.values.IntegerValue.Builder builderForValue) {
@@ -755,7 +755,7 @@ public final class OmGetOrderInformationAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.IntegerValue information_type_id = 2;</code>
+       * <code>.dstore.values.IntegerValue information_type_id = 2;</code>
        */
       public Builder mergeInformationTypeId(io.dstore.values.IntegerValue value) {
         if (informationTypeIdBuilder_ == null) {
@@ -773,7 +773,7 @@ public final class OmGetOrderInformationAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.IntegerValue information_type_id = 2;</code>
+       * <code>.dstore.values.IntegerValue information_type_id = 2;</code>
        */
       public Builder clearInformationTypeId() {
         if (informationTypeIdBuilder_ == null) {
@@ -787,7 +787,7 @@ public final class OmGetOrderInformationAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.IntegerValue information_type_id = 2;</code>
+       * <code>.dstore.values.IntegerValue information_type_id = 2;</code>
        */
       public io.dstore.values.IntegerValue.Builder getInformationTypeIdBuilder() {
         
@@ -795,7 +795,7 @@ public final class OmGetOrderInformationAd {
         return getInformationTypeIdFieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .dstore.values.IntegerValue information_type_id = 2;</code>
+       * <code>.dstore.values.IntegerValue information_type_id = 2;</code>
        */
       public io.dstore.values.IntegerValueOrBuilder getInformationTypeIdOrBuilder() {
         if (informationTypeIdBuilder_ != null) {
@@ -806,7 +806,7 @@ public final class OmGetOrderInformationAd {
         }
       }
       /**
-       * <code>optional .dstore.values.IntegerValue information_type_id = 2;</code>
+       * <code>.dstore.values.IntegerValue information_type_id = 2;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> 
@@ -824,13 +824,13 @@ public final class OmGetOrderInformationAd {
 
       private boolean informationTypeIdNull_ ;
       /**
-       * <code>optional bool information_type_id_null = 1002;</code>
+       * <code>bool information_type_id_null = 1002;</code>
        */
       public boolean getInformationTypeIdNull() {
         return informationTypeIdNull_;
       }
       /**
-       * <code>optional bool information_type_id_null = 1002;</code>
+       * <code>bool information_type_id_null = 1002;</code>
        */
       public Builder setInformationTypeIdNull(boolean value) {
         
@@ -839,7 +839,7 @@ public final class OmGetOrderInformationAd {
         return this;
       }
       /**
-       * <code>optional bool information_type_id_null = 1002;</code>
+       * <code>bool information_type_id_null = 1002;</code>
        */
       public Builder clearInformationTypeIdNull() {
         
@@ -1098,7 +1098,7 @@ public final class OmGetOrderInformationAd {
         com.google.protobuf.MessageOrBuilder {
 
       /**
-       * <code>optional int32 row_id = 10000;</code>
+       * <code>int32 row_id = 10000;</code>
        */
       int getRowId();
 
@@ -1107,7 +1107,7 @@ public final class OmGetOrderInformationAd {
        * ID des "dStore"-Benutzers (der in "UserInfo" registriert ist) der die Information hinterlegt hat. Anmerkung : Für Daten, die vor dem Einspielen des Updates 4.0.12 angelegt wurden, existiert diese Information nicht - in diesem Fall steht hier "NULL" !
        * </pre>
        *
-       * <code>optional .dstore.values.IntegerValue created_by_user_id = 10001;</code>
+       * <code>.dstore.values.IntegerValue created_by_user_id = 10001;</code>
        */
       boolean hasCreatedByUserId();
       /**
@@ -1115,7 +1115,7 @@ public final class OmGetOrderInformationAd {
        * ID des "dStore"-Benutzers (der in "UserInfo" registriert ist) der die Information hinterlegt hat. Anmerkung : Für Daten, die vor dem Einspielen des Updates 4.0.12 angelegt wurden, existiert diese Information nicht - in diesem Fall steht hier "NULL" !
        * </pre>
        *
-       * <code>optional .dstore.values.IntegerValue created_by_user_id = 10001;</code>
+       * <code>.dstore.values.IntegerValue created_by_user_id = 10001;</code>
        */
       io.dstore.values.IntegerValue getCreatedByUserId();
       /**
@@ -1123,7 +1123,7 @@ public final class OmGetOrderInformationAd {
        * ID des "dStore"-Benutzers (der in "UserInfo" registriert ist) der die Information hinterlegt hat. Anmerkung : Für Daten, die vor dem Einspielen des Updates 4.0.12 angelegt wurden, existiert diese Information nicht - in diesem Fall steht hier "NULL" !
        * </pre>
        *
-       * <code>optional .dstore.values.IntegerValue created_by_user_id = 10001;</code>
+       * <code>.dstore.values.IntegerValue created_by_user_id = 10001;</code>
        */
       io.dstore.values.IntegerValueOrBuilder getCreatedByUserIdOrBuilder();
 
@@ -1132,7 +1132,7 @@ public final class OmGetOrderInformationAd {
        * ID eines Informationstyps, also um was es sich bei der Zusatz-Information "Information" handelt
        * </pre>
        *
-       * <code>optional .dstore.values.IntegerValue information_type_id = 10002;</code>
+       * <code>.dstore.values.IntegerValue information_type_id = 10002;</code>
        */
       boolean hasInformationTypeId();
       /**
@@ -1140,7 +1140,7 @@ public final class OmGetOrderInformationAd {
        * ID eines Informationstyps, also um was es sich bei der Zusatz-Information "Information" handelt
        * </pre>
        *
-       * <code>optional .dstore.values.IntegerValue information_type_id = 10002;</code>
+       * <code>.dstore.values.IntegerValue information_type_id = 10002;</code>
        */
       io.dstore.values.IntegerValue getInformationTypeId();
       /**
@@ -1148,7 +1148,7 @@ public final class OmGetOrderInformationAd {
        * ID eines Informationstyps, also um was es sich bei der Zusatz-Information "Information" handelt
        * </pre>
        *
-       * <code>optional .dstore.values.IntegerValue information_type_id = 10002;</code>
+       * <code>.dstore.values.IntegerValue information_type_id = 10002;</code>
        */
       io.dstore.values.IntegerValueOrBuilder getInformationTypeIdOrBuilder();
 
@@ -1157,7 +1157,7 @@ public final class OmGetOrderInformationAd {
        * ID eines Merkmals, das zur "InformationTypeID" korrespondiert. Hintergrund : Man möchte im Auftrag die Eigenschaft des Auftraggebers zu diesem Merkmal zum Zeitpunkt der Auftragserstellung speichern (denn die Eigenschaft könnte ja geändert werden !)
        * </pre>
        *
-       * <code>optional .dstore.values.IntegerValue person_characteristic_id = 10003;</code>
+       * <code>.dstore.values.IntegerValue person_characteristic_id = 10003;</code>
        */
       boolean hasPersonCharacteristicId();
       /**
@@ -1165,7 +1165,7 @@ public final class OmGetOrderInformationAd {
        * ID eines Merkmals, das zur "InformationTypeID" korrespondiert. Hintergrund : Man möchte im Auftrag die Eigenschaft des Auftraggebers zu diesem Merkmal zum Zeitpunkt der Auftragserstellung speichern (denn die Eigenschaft könnte ja geändert werden !)
        * </pre>
        *
-       * <code>optional .dstore.values.IntegerValue person_characteristic_id = 10003;</code>
+       * <code>.dstore.values.IntegerValue person_characteristic_id = 10003;</code>
        */
       io.dstore.values.IntegerValue getPersonCharacteristicId();
       /**
@@ -1173,7 +1173,7 @@ public final class OmGetOrderInformationAd {
        * ID eines Merkmals, das zur "InformationTypeID" korrespondiert. Hintergrund : Man möchte im Auftrag die Eigenschaft des Auftraggebers zu diesem Merkmal zum Zeitpunkt der Auftragserstellung speichern (denn die Eigenschaft könnte ja geändert werden !)
        * </pre>
        *
-       * <code>optional .dstore.values.IntegerValue person_characteristic_id = 10003;</code>
+       * <code>.dstore.values.IntegerValue person_characteristic_id = 10003;</code>
        */
       io.dstore.values.IntegerValueOrBuilder getPersonCharacteristicIdOrBuilder();
 
@@ -1182,7 +1182,7 @@ public final class OmGetOrderInformationAd {
        * ID eines Auftrags (also entweder "&#64;OrderID" bzw. eine ID, die in "tempdb.dbo.OneID" übergeben wurde)
        * </pre>
        *
-       * <code>optional .dstore.values.IntegerValue order_id = 10004;</code>
+       * <code>.dstore.values.IntegerValue order_id = 10004;</code>
        */
       boolean hasOrderId();
       /**
@@ -1190,7 +1190,7 @@ public final class OmGetOrderInformationAd {
        * ID eines Auftrags (also entweder "&#64;OrderID" bzw. eine ID, die in "tempdb.dbo.OneID" übergeben wurde)
        * </pre>
        *
-       * <code>optional .dstore.values.IntegerValue order_id = 10004;</code>
+       * <code>.dstore.values.IntegerValue order_id = 10004;</code>
        */
       io.dstore.values.IntegerValue getOrderId();
       /**
@@ -1198,7 +1198,7 @@ public final class OmGetOrderInformationAd {
        * ID eines Auftrags (also entweder "&#64;OrderID" bzw. eine ID, die in "tempdb.dbo.OneID" übergeben wurde)
        * </pre>
        *
-       * <code>optional .dstore.values.IntegerValue order_id = 10004;</code>
+       * <code>.dstore.values.IntegerValue order_id = 10004;</code>
        */
       io.dstore.values.IntegerValueOrBuilder getOrderIdOrBuilder();
 
@@ -1207,7 +1207,7 @@ public final class OmGetOrderInformationAd {
        * Bezeichnung der "InformationTypeID"
        * </pre>
        *
-       * <code>optional .dstore.values.StringValue information_type = 10005;</code>
+       * <code>.dstore.values.StringValue information_type = 10005;</code>
        */
       boolean hasInformationType();
       /**
@@ -1215,7 +1215,7 @@ public final class OmGetOrderInformationAd {
        * Bezeichnung der "InformationTypeID"
        * </pre>
        *
-       * <code>optional .dstore.values.StringValue information_type = 10005;</code>
+       * <code>.dstore.values.StringValue information_type = 10005;</code>
        */
       io.dstore.values.StringValue getInformationType();
       /**
@@ -1223,7 +1223,7 @@ public final class OmGetOrderInformationAd {
        * Bezeichnung der "InformationTypeID"
        * </pre>
        *
-       * <code>optional .dstore.values.StringValue information_type = 10005;</code>
+       * <code>.dstore.values.StringValue information_type = 10005;</code>
        */
       io.dstore.values.StringValueOrBuilder getInformationTypeOrBuilder();
 
@@ -1232,7 +1232,7 @@ public final class OmGetOrderInformationAd {
        * Die zum Auftrag "OrderID" hinterlegte Information
        * </pre>
        *
-       * <code>optional .dstore.values.StringValue information = 10006;</code>
+       * <code>.dstore.values.StringValue information = 10006;</code>
        */
       boolean hasInformation();
       /**
@@ -1240,7 +1240,7 @@ public final class OmGetOrderInformationAd {
        * Die zum Auftrag "OrderID" hinterlegte Information
        * </pre>
        *
-       * <code>optional .dstore.values.StringValue information = 10006;</code>
+       * <code>.dstore.values.StringValue information = 10006;</code>
        */
       io.dstore.values.StringValue getInformation();
       /**
@@ -1248,7 +1248,7 @@ public final class OmGetOrderInformationAd {
        * Die zum Auftrag "OrderID" hinterlegte Information
        * </pre>
        *
-       * <code>optional .dstore.values.StringValue information = 10006;</code>
+       * <code>.dstore.values.StringValue information = 10006;</code>
        */
       io.dstore.values.StringValueOrBuilder getInformationOrBuilder();
 
@@ -1257,7 +1257,7 @@ public final class OmGetOrderInformationAd {
        * Wann wurde die Information "Information" zur "OrderID" hinterlegt ? Anmerkung : Für Daten, die vor dem Einspielen des Updates 4.0.12 angelegt wurden, existiert diese Information nicht - in diesem Fall wird hier "NULL" zurückgegeben !
        * </pre>
        *
-       * <code>optional .dstore.values.TimestampValue created_at_date_and_time = 10007;</code>
+       * <code>.dstore.values.TimestampValue created_at_date_and_time = 10007;</code>
        */
       boolean hasCreatedAtDateAndTime();
       /**
@@ -1265,7 +1265,7 @@ public final class OmGetOrderInformationAd {
        * Wann wurde die Information "Information" zur "OrderID" hinterlegt ? Anmerkung : Für Daten, die vor dem Einspielen des Updates 4.0.12 angelegt wurden, existiert diese Information nicht - in diesem Fall wird hier "NULL" zurückgegeben !
        * </pre>
        *
-       * <code>optional .dstore.values.TimestampValue created_at_date_and_time = 10007;</code>
+       * <code>.dstore.values.TimestampValue created_at_date_and_time = 10007;</code>
        */
       io.dstore.values.TimestampValue getCreatedAtDateAndTime();
       /**
@@ -1273,7 +1273,7 @@ public final class OmGetOrderInformationAd {
        * Wann wurde die Information "Information" zur "OrderID" hinterlegt ? Anmerkung : Für Daten, die vor dem Einspielen des Updates 4.0.12 angelegt wurden, existiert diese Information nicht - in diesem Fall wird hier "NULL" zurückgegeben !
        * </pre>
        *
-       * <code>optional .dstore.values.TimestampValue created_at_date_and_time = 10007;</code>
+       * <code>.dstore.values.TimestampValue created_at_date_and_time = 10007;</code>
        */
       io.dstore.values.TimestampValueOrBuilder getCreatedAtDateAndTimeOrBuilder();
     }
@@ -1439,7 +1439,7 @@ public final class OmGetOrderInformationAd {
       public static final int ROW_ID_FIELD_NUMBER = 10000;
       private int rowId_;
       /**
-       * <code>optional int32 row_id = 10000;</code>
+       * <code>int32 row_id = 10000;</code>
        */
       public int getRowId() {
         return rowId_;
@@ -1452,7 +1452,7 @@ public final class OmGetOrderInformationAd {
        * ID des "dStore"-Benutzers (der in "UserInfo" registriert ist) der die Information hinterlegt hat. Anmerkung : Für Daten, die vor dem Einspielen des Updates 4.0.12 angelegt wurden, existiert diese Information nicht - in diesem Fall steht hier "NULL" !
        * </pre>
        *
-       * <code>optional .dstore.values.IntegerValue created_by_user_id = 10001;</code>
+       * <code>.dstore.values.IntegerValue created_by_user_id = 10001;</code>
        */
       public boolean hasCreatedByUserId() {
         return createdByUserId_ != null;
@@ -1462,7 +1462,7 @@ public final class OmGetOrderInformationAd {
        * ID des "dStore"-Benutzers (der in "UserInfo" registriert ist) der die Information hinterlegt hat. Anmerkung : Für Daten, die vor dem Einspielen des Updates 4.0.12 angelegt wurden, existiert diese Information nicht - in diesem Fall steht hier "NULL" !
        * </pre>
        *
-       * <code>optional .dstore.values.IntegerValue created_by_user_id = 10001;</code>
+       * <code>.dstore.values.IntegerValue created_by_user_id = 10001;</code>
        */
       public io.dstore.values.IntegerValue getCreatedByUserId() {
         return createdByUserId_ == null ? io.dstore.values.IntegerValue.getDefaultInstance() : createdByUserId_;
@@ -1472,7 +1472,7 @@ public final class OmGetOrderInformationAd {
        * ID des "dStore"-Benutzers (der in "UserInfo" registriert ist) der die Information hinterlegt hat. Anmerkung : Für Daten, die vor dem Einspielen des Updates 4.0.12 angelegt wurden, existiert diese Information nicht - in diesem Fall steht hier "NULL" !
        * </pre>
        *
-       * <code>optional .dstore.values.IntegerValue created_by_user_id = 10001;</code>
+       * <code>.dstore.values.IntegerValue created_by_user_id = 10001;</code>
        */
       public io.dstore.values.IntegerValueOrBuilder getCreatedByUserIdOrBuilder() {
         return getCreatedByUserId();
@@ -1485,7 +1485,7 @@ public final class OmGetOrderInformationAd {
        * ID eines Informationstyps, also um was es sich bei der Zusatz-Information "Information" handelt
        * </pre>
        *
-       * <code>optional .dstore.values.IntegerValue information_type_id = 10002;</code>
+       * <code>.dstore.values.IntegerValue information_type_id = 10002;</code>
        */
       public boolean hasInformationTypeId() {
         return informationTypeId_ != null;
@@ -1495,7 +1495,7 @@ public final class OmGetOrderInformationAd {
        * ID eines Informationstyps, also um was es sich bei der Zusatz-Information "Information" handelt
        * </pre>
        *
-       * <code>optional .dstore.values.IntegerValue information_type_id = 10002;</code>
+       * <code>.dstore.values.IntegerValue information_type_id = 10002;</code>
        */
       public io.dstore.values.IntegerValue getInformationTypeId() {
         return informationTypeId_ == null ? io.dstore.values.IntegerValue.getDefaultInstance() : informationTypeId_;
@@ -1505,7 +1505,7 @@ public final class OmGetOrderInformationAd {
        * ID eines Informationstyps, also um was es sich bei der Zusatz-Information "Information" handelt
        * </pre>
        *
-       * <code>optional .dstore.values.IntegerValue information_type_id = 10002;</code>
+       * <code>.dstore.values.IntegerValue information_type_id = 10002;</code>
        */
       public io.dstore.values.IntegerValueOrBuilder getInformationTypeIdOrBuilder() {
         return getInformationTypeId();
@@ -1518,7 +1518,7 @@ public final class OmGetOrderInformationAd {
        * ID eines Merkmals, das zur "InformationTypeID" korrespondiert. Hintergrund : Man möchte im Auftrag die Eigenschaft des Auftraggebers zu diesem Merkmal zum Zeitpunkt der Auftragserstellung speichern (denn die Eigenschaft könnte ja geändert werden !)
        * </pre>
        *
-       * <code>optional .dstore.values.IntegerValue person_characteristic_id = 10003;</code>
+       * <code>.dstore.values.IntegerValue person_characteristic_id = 10003;</code>
        */
       public boolean hasPersonCharacteristicId() {
         return personCharacteristicId_ != null;
@@ -1528,7 +1528,7 @@ public final class OmGetOrderInformationAd {
        * ID eines Merkmals, das zur "InformationTypeID" korrespondiert. Hintergrund : Man möchte im Auftrag die Eigenschaft des Auftraggebers zu diesem Merkmal zum Zeitpunkt der Auftragserstellung speichern (denn die Eigenschaft könnte ja geändert werden !)
        * </pre>
        *
-       * <code>optional .dstore.values.IntegerValue person_characteristic_id = 10003;</code>
+       * <code>.dstore.values.IntegerValue person_characteristic_id = 10003;</code>
        */
       public io.dstore.values.IntegerValue getPersonCharacteristicId() {
         return personCharacteristicId_ == null ? io.dstore.values.IntegerValue.getDefaultInstance() : personCharacteristicId_;
@@ -1538,7 +1538,7 @@ public final class OmGetOrderInformationAd {
        * ID eines Merkmals, das zur "InformationTypeID" korrespondiert. Hintergrund : Man möchte im Auftrag die Eigenschaft des Auftraggebers zu diesem Merkmal zum Zeitpunkt der Auftragserstellung speichern (denn die Eigenschaft könnte ja geändert werden !)
        * </pre>
        *
-       * <code>optional .dstore.values.IntegerValue person_characteristic_id = 10003;</code>
+       * <code>.dstore.values.IntegerValue person_characteristic_id = 10003;</code>
        */
       public io.dstore.values.IntegerValueOrBuilder getPersonCharacteristicIdOrBuilder() {
         return getPersonCharacteristicId();
@@ -1551,7 +1551,7 @@ public final class OmGetOrderInformationAd {
        * ID eines Auftrags (also entweder "&#64;OrderID" bzw. eine ID, die in "tempdb.dbo.OneID" übergeben wurde)
        * </pre>
        *
-       * <code>optional .dstore.values.IntegerValue order_id = 10004;</code>
+       * <code>.dstore.values.IntegerValue order_id = 10004;</code>
        */
       public boolean hasOrderId() {
         return orderId_ != null;
@@ -1561,7 +1561,7 @@ public final class OmGetOrderInformationAd {
        * ID eines Auftrags (also entweder "&#64;OrderID" bzw. eine ID, die in "tempdb.dbo.OneID" übergeben wurde)
        * </pre>
        *
-       * <code>optional .dstore.values.IntegerValue order_id = 10004;</code>
+       * <code>.dstore.values.IntegerValue order_id = 10004;</code>
        */
       public io.dstore.values.IntegerValue getOrderId() {
         return orderId_ == null ? io.dstore.values.IntegerValue.getDefaultInstance() : orderId_;
@@ -1571,7 +1571,7 @@ public final class OmGetOrderInformationAd {
        * ID eines Auftrags (also entweder "&#64;OrderID" bzw. eine ID, die in "tempdb.dbo.OneID" übergeben wurde)
        * </pre>
        *
-       * <code>optional .dstore.values.IntegerValue order_id = 10004;</code>
+       * <code>.dstore.values.IntegerValue order_id = 10004;</code>
        */
       public io.dstore.values.IntegerValueOrBuilder getOrderIdOrBuilder() {
         return getOrderId();
@@ -1584,7 +1584,7 @@ public final class OmGetOrderInformationAd {
        * Bezeichnung der "InformationTypeID"
        * </pre>
        *
-       * <code>optional .dstore.values.StringValue information_type = 10005;</code>
+       * <code>.dstore.values.StringValue information_type = 10005;</code>
        */
       public boolean hasInformationType() {
         return informationType_ != null;
@@ -1594,7 +1594,7 @@ public final class OmGetOrderInformationAd {
        * Bezeichnung der "InformationTypeID"
        * </pre>
        *
-       * <code>optional .dstore.values.StringValue information_type = 10005;</code>
+       * <code>.dstore.values.StringValue information_type = 10005;</code>
        */
       public io.dstore.values.StringValue getInformationType() {
         return informationType_ == null ? io.dstore.values.StringValue.getDefaultInstance() : informationType_;
@@ -1604,7 +1604,7 @@ public final class OmGetOrderInformationAd {
        * Bezeichnung der "InformationTypeID"
        * </pre>
        *
-       * <code>optional .dstore.values.StringValue information_type = 10005;</code>
+       * <code>.dstore.values.StringValue information_type = 10005;</code>
        */
       public io.dstore.values.StringValueOrBuilder getInformationTypeOrBuilder() {
         return getInformationType();
@@ -1617,7 +1617,7 @@ public final class OmGetOrderInformationAd {
        * Die zum Auftrag "OrderID" hinterlegte Information
        * </pre>
        *
-       * <code>optional .dstore.values.StringValue information = 10006;</code>
+       * <code>.dstore.values.StringValue information = 10006;</code>
        */
       public boolean hasInformation() {
         return information_ != null;
@@ -1627,7 +1627,7 @@ public final class OmGetOrderInformationAd {
        * Die zum Auftrag "OrderID" hinterlegte Information
        * </pre>
        *
-       * <code>optional .dstore.values.StringValue information = 10006;</code>
+       * <code>.dstore.values.StringValue information = 10006;</code>
        */
       public io.dstore.values.StringValue getInformation() {
         return information_ == null ? io.dstore.values.StringValue.getDefaultInstance() : information_;
@@ -1637,7 +1637,7 @@ public final class OmGetOrderInformationAd {
        * Die zum Auftrag "OrderID" hinterlegte Information
        * </pre>
        *
-       * <code>optional .dstore.values.StringValue information = 10006;</code>
+       * <code>.dstore.values.StringValue information = 10006;</code>
        */
       public io.dstore.values.StringValueOrBuilder getInformationOrBuilder() {
         return getInformation();
@@ -1650,7 +1650,7 @@ public final class OmGetOrderInformationAd {
        * Wann wurde die Information "Information" zur "OrderID" hinterlegt ? Anmerkung : Für Daten, die vor dem Einspielen des Updates 4.0.12 angelegt wurden, existiert diese Information nicht - in diesem Fall wird hier "NULL" zurückgegeben !
        * </pre>
        *
-       * <code>optional .dstore.values.TimestampValue created_at_date_and_time = 10007;</code>
+       * <code>.dstore.values.TimestampValue created_at_date_and_time = 10007;</code>
        */
       public boolean hasCreatedAtDateAndTime() {
         return createdAtDateAndTime_ != null;
@@ -1660,7 +1660,7 @@ public final class OmGetOrderInformationAd {
        * Wann wurde die Information "Information" zur "OrderID" hinterlegt ? Anmerkung : Für Daten, die vor dem Einspielen des Updates 4.0.12 angelegt wurden, existiert diese Information nicht - in diesem Fall wird hier "NULL" zurückgegeben !
        * </pre>
        *
-       * <code>optional .dstore.values.TimestampValue created_at_date_and_time = 10007;</code>
+       * <code>.dstore.values.TimestampValue created_at_date_and_time = 10007;</code>
        */
       public io.dstore.values.TimestampValue getCreatedAtDateAndTime() {
         return createdAtDateAndTime_ == null ? io.dstore.values.TimestampValue.getDefaultInstance() : createdAtDateAndTime_;
@@ -1670,7 +1670,7 @@ public final class OmGetOrderInformationAd {
        * Wann wurde die Information "Information" zur "OrderID" hinterlegt ? Anmerkung : Für Daten, die vor dem Einspielen des Updates 4.0.12 angelegt wurden, existiert diese Information nicht - in diesem Fall wird hier "NULL" zurückgegeben !
        * </pre>
        *
-       * <code>optional .dstore.values.TimestampValue created_at_date_and_time = 10007;</code>
+       * <code>.dstore.values.TimestampValue created_at_date_and_time = 10007;</code>
        */
       public io.dstore.values.TimestampValueOrBuilder getCreatedAtDateAndTimeOrBuilder() {
         return getCreatedAtDateAndTime();
@@ -1813,7 +1813,7 @@ public final class OmGetOrderInformationAd {
           return memoizedHashCode;
         }
         int hash = 41;
-        hash = (19 * hash) + getDescriptorForType().hashCode();
+        hash = (19 * hash) + getDescriptor().hashCode();
         hash = (37 * hash) + ROW_ID_FIELD_NUMBER;
         hash = (53 * hash) + getRowId();
         if (hasCreatedByUserId()) {
@@ -2157,13 +2157,13 @@ public final class OmGetOrderInformationAd {
 
         private int rowId_ ;
         /**
-         * <code>optional int32 row_id = 10000;</code>
+         * <code>int32 row_id = 10000;</code>
          */
         public int getRowId() {
           return rowId_;
         }
         /**
-         * <code>optional int32 row_id = 10000;</code>
+         * <code>int32 row_id = 10000;</code>
          */
         public Builder setRowId(int value) {
           
@@ -2172,7 +2172,7 @@ public final class OmGetOrderInformationAd {
           return this;
         }
         /**
-         * <code>optional int32 row_id = 10000;</code>
+         * <code>int32 row_id = 10000;</code>
          */
         public Builder clearRowId() {
           
@@ -2189,7 +2189,7 @@ public final class OmGetOrderInformationAd {
          * ID des "dStore"-Benutzers (der in "UserInfo" registriert ist) der die Information hinterlegt hat. Anmerkung : Für Daten, die vor dem Einspielen des Updates 4.0.12 angelegt wurden, existiert diese Information nicht - in diesem Fall steht hier "NULL" !
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue created_by_user_id = 10001;</code>
+         * <code>.dstore.values.IntegerValue created_by_user_id = 10001;</code>
          */
         public boolean hasCreatedByUserId() {
           return createdByUserIdBuilder_ != null || createdByUserId_ != null;
@@ -2199,7 +2199,7 @@ public final class OmGetOrderInformationAd {
          * ID des "dStore"-Benutzers (der in "UserInfo" registriert ist) der die Information hinterlegt hat. Anmerkung : Für Daten, die vor dem Einspielen des Updates 4.0.12 angelegt wurden, existiert diese Information nicht - in diesem Fall steht hier "NULL" !
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue created_by_user_id = 10001;</code>
+         * <code>.dstore.values.IntegerValue created_by_user_id = 10001;</code>
          */
         public io.dstore.values.IntegerValue getCreatedByUserId() {
           if (createdByUserIdBuilder_ == null) {
@@ -2213,7 +2213,7 @@ public final class OmGetOrderInformationAd {
          * ID des "dStore"-Benutzers (der in "UserInfo" registriert ist) der die Information hinterlegt hat. Anmerkung : Für Daten, die vor dem Einspielen des Updates 4.0.12 angelegt wurden, existiert diese Information nicht - in diesem Fall steht hier "NULL" !
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue created_by_user_id = 10001;</code>
+         * <code>.dstore.values.IntegerValue created_by_user_id = 10001;</code>
          */
         public Builder setCreatedByUserId(io.dstore.values.IntegerValue value) {
           if (createdByUserIdBuilder_ == null) {
@@ -2233,7 +2233,7 @@ public final class OmGetOrderInformationAd {
          * ID des "dStore"-Benutzers (der in "UserInfo" registriert ist) der die Information hinterlegt hat. Anmerkung : Für Daten, die vor dem Einspielen des Updates 4.0.12 angelegt wurden, existiert diese Information nicht - in diesem Fall steht hier "NULL" !
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue created_by_user_id = 10001;</code>
+         * <code>.dstore.values.IntegerValue created_by_user_id = 10001;</code>
          */
         public Builder setCreatedByUserId(
             io.dstore.values.IntegerValue.Builder builderForValue) {
@@ -2251,7 +2251,7 @@ public final class OmGetOrderInformationAd {
          * ID des "dStore"-Benutzers (der in "UserInfo" registriert ist) der die Information hinterlegt hat. Anmerkung : Für Daten, die vor dem Einspielen des Updates 4.0.12 angelegt wurden, existiert diese Information nicht - in diesem Fall steht hier "NULL" !
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue created_by_user_id = 10001;</code>
+         * <code>.dstore.values.IntegerValue created_by_user_id = 10001;</code>
          */
         public Builder mergeCreatedByUserId(io.dstore.values.IntegerValue value) {
           if (createdByUserIdBuilder_ == null) {
@@ -2273,7 +2273,7 @@ public final class OmGetOrderInformationAd {
          * ID des "dStore"-Benutzers (der in "UserInfo" registriert ist) der die Information hinterlegt hat. Anmerkung : Für Daten, die vor dem Einspielen des Updates 4.0.12 angelegt wurden, existiert diese Information nicht - in diesem Fall steht hier "NULL" !
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue created_by_user_id = 10001;</code>
+         * <code>.dstore.values.IntegerValue created_by_user_id = 10001;</code>
          */
         public Builder clearCreatedByUserId() {
           if (createdByUserIdBuilder_ == null) {
@@ -2291,7 +2291,7 @@ public final class OmGetOrderInformationAd {
          * ID des "dStore"-Benutzers (der in "UserInfo" registriert ist) der die Information hinterlegt hat. Anmerkung : Für Daten, die vor dem Einspielen des Updates 4.0.12 angelegt wurden, existiert diese Information nicht - in diesem Fall steht hier "NULL" !
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue created_by_user_id = 10001;</code>
+         * <code>.dstore.values.IntegerValue created_by_user_id = 10001;</code>
          */
         public io.dstore.values.IntegerValue.Builder getCreatedByUserIdBuilder() {
           
@@ -2303,7 +2303,7 @@ public final class OmGetOrderInformationAd {
          * ID des "dStore"-Benutzers (der in "UserInfo" registriert ist) der die Information hinterlegt hat. Anmerkung : Für Daten, die vor dem Einspielen des Updates 4.0.12 angelegt wurden, existiert diese Information nicht - in diesem Fall steht hier "NULL" !
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue created_by_user_id = 10001;</code>
+         * <code>.dstore.values.IntegerValue created_by_user_id = 10001;</code>
          */
         public io.dstore.values.IntegerValueOrBuilder getCreatedByUserIdOrBuilder() {
           if (createdByUserIdBuilder_ != null) {
@@ -2318,7 +2318,7 @@ public final class OmGetOrderInformationAd {
          * ID des "dStore"-Benutzers (der in "UserInfo" registriert ist) der die Information hinterlegt hat. Anmerkung : Für Daten, die vor dem Einspielen des Updates 4.0.12 angelegt wurden, existiert diese Information nicht - in diesem Fall steht hier "NULL" !
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue created_by_user_id = 10001;</code>
+         * <code>.dstore.values.IntegerValue created_by_user_id = 10001;</code>
          */
         private com.google.protobuf.SingleFieldBuilderV3<
             io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> 
@@ -2342,7 +2342,7 @@ public final class OmGetOrderInformationAd {
          * ID eines Informationstyps, also um was es sich bei der Zusatz-Information "Information" handelt
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue information_type_id = 10002;</code>
+         * <code>.dstore.values.IntegerValue information_type_id = 10002;</code>
          */
         public boolean hasInformationTypeId() {
           return informationTypeIdBuilder_ != null || informationTypeId_ != null;
@@ -2352,7 +2352,7 @@ public final class OmGetOrderInformationAd {
          * ID eines Informationstyps, also um was es sich bei der Zusatz-Information "Information" handelt
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue information_type_id = 10002;</code>
+         * <code>.dstore.values.IntegerValue information_type_id = 10002;</code>
          */
         public io.dstore.values.IntegerValue getInformationTypeId() {
           if (informationTypeIdBuilder_ == null) {
@@ -2366,7 +2366,7 @@ public final class OmGetOrderInformationAd {
          * ID eines Informationstyps, also um was es sich bei der Zusatz-Information "Information" handelt
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue information_type_id = 10002;</code>
+         * <code>.dstore.values.IntegerValue information_type_id = 10002;</code>
          */
         public Builder setInformationTypeId(io.dstore.values.IntegerValue value) {
           if (informationTypeIdBuilder_ == null) {
@@ -2386,7 +2386,7 @@ public final class OmGetOrderInformationAd {
          * ID eines Informationstyps, also um was es sich bei der Zusatz-Information "Information" handelt
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue information_type_id = 10002;</code>
+         * <code>.dstore.values.IntegerValue information_type_id = 10002;</code>
          */
         public Builder setInformationTypeId(
             io.dstore.values.IntegerValue.Builder builderForValue) {
@@ -2404,7 +2404,7 @@ public final class OmGetOrderInformationAd {
          * ID eines Informationstyps, also um was es sich bei der Zusatz-Information "Information" handelt
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue information_type_id = 10002;</code>
+         * <code>.dstore.values.IntegerValue information_type_id = 10002;</code>
          */
         public Builder mergeInformationTypeId(io.dstore.values.IntegerValue value) {
           if (informationTypeIdBuilder_ == null) {
@@ -2426,7 +2426,7 @@ public final class OmGetOrderInformationAd {
          * ID eines Informationstyps, also um was es sich bei der Zusatz-Information "Information" handelt
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue information_type_id = 10002;</code>
+         * <code>.dstore.values.IntegerValue information_type_id = 10002;</code>
          */
         public Builder clearInformationTypeId() {
           if (informationTypeIdBuilder_ == null) {
@@ -2444,7 +2444,7 @@ public final class OmGetOrderInformationAd {
          * ID eines Informationstyps, also um was es sich bei der Zusatz-Information "Information" handelt
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue information_type_id = 10002;</code>
+         * <code>.dstore.values.IntegerValue information_type_id = 10002;</code>
          */
         public io.dstore.values.IntegerValue.Builder getInformationTypeIdBuilder() {
           
@@ -2456,7 +2456,7 @@ public final class OmGetOrderInformationAd {
          * ID eines Informationstyps, also um was es sich bei der Zusatz-Information "Information" handelt
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue information_type_id = 10002;</code>
+         * <code>.dstore.values.IntegerValue information_type_id = 10002;</code>
          */
         public io.dstore.values.IntegerValueOrBuilder getInformationTypeIdOrBuilder() {
           if (informationTypeIdBuilder_ != null) {
@@ -2471,7 +2471,7 @@ public final class OmGetOrderInformationAd {
          * ID eines Informationstyps, also um was es sich bei der Zusatz-Information "Information" handelt
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue information_type_id = 10002;</code>
+         * <code>.dstore.values.IntegerValue information_type_id = 10002;</code>
          */
         private com.google.protobuf.SingleFieldBuilderV3<
             io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> 
@@ -2495,7 +2495,7 @@ public final class OmGetOrderInformationAd {
          * ID eines Merkmals, das zur "InformationTypeID" korrespondiert. Hintergrund : Man möchte im Auftrag die Eigenschaft des Auftraggebers zu diesem Merkmal zum Zeitpunkt der Auftragserstellung speichern (denn die Eigenschaft könnte ja geändert werden !)
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue person_characteristic_id = 10003;</code>
+         * <code>.dstore.values.IntegerValue person_characteristic_id = 10003;</code>
          */
         public boolean hasPersonCharacteristicId() {
           return personCharacteristicIdBuilder_ != null || personCharacteristicId_ != null;
@@ -2505,7 +2505,7 @@ public final class OmGetOrderInformationAd {
          * ID eines Merkmals, das zur "InformationTypeID" korrespondiert. Hintergrund : Man möchte im Auftrag die Eigenschaft des Auftraggebers zu diesem Merkmal zum Zeitpunkt der Auftragserstellung speichern (denn die Eigenschaft könnte ja geändert werden !)
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue person_characteristic_id = 10003;</code>
+         * <code>.dstore.values.IntegerValue person_characteristic_id = 10003;</code>
          */
         public io.dstore.values.IntegerValue getPersonCharacteristicId() {
           if (personCharacteristicIdBuilder_ == null) {
@@ -2519,7 +2519,7 @@ public final class OmGetOrderInformationAd {
          * ID eines Merkmals, das zur "InformationTypeID" korrespondiert. Hintergrund : Man möchte im Auftrag die Eigenschaft des Auftraggebers zu diesem Merkmal zum Zeitpunkt der Auftragserstellung speichern (denn die Eigenschaft könnte ja geändert werden !)
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue person_characteristic_id = 10003;</code>
+         * <code>.dstore.values.IntegerValue person_characteristic_id = 10003;</code>
          */
         public Builder setPersonCharacteristicId(io.dstore.values.IntegerValue value) {
           if (personCharacteristicIdBuilder_ == null) {
@@ -2539,7 +2539,7 @@ public final class OmGetOrderInformationAd {
          * ID eines Merkmals, das zur "InformationTypeID" korrespondiert. Hintergrund : Man möchte im Auftrag die Eigenschaft des Auftraggebers zu diesem Merkmal zum Zeitpunkt der Auftragserstellung speichern (denn die Eigenschaft könnte ja geändert werden !)
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue person_characteristic_id = 10003;</code>
+         * <code>.dstore.values.IntegerValue person_characteristic_id = 10003;</code>
          */
         public Builder setPersonCharacteristicId(
             io.dstore.values.IntegerValue.Builder builderForValue) {
@@ -2557,7 +2557,7 @@ public final class OmGetOrderInformationAd {
          * ID eines Merkmals, das zur "InformationTypeID" korrespondiert. Hintergrund : Man möchte im Auftrag die Eigenschaft des Auftraggebers zu diesem Merkmal zum Zeitpunkt der Auftragserstellung speichern (denn die Eigenschaft könnte ja geändert werden !)
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue person_characteristic_id = 10003;</code>
+         * <code>.dstore.values.IntegerValue person_characteristic_id = 10003;</code>
          */
         public Builder mergePersonCharacteristicId(io.dstore.values.IntegerValue value) {
           if (personCharacteristicIdBuilder_ == null) {
@@ -2579,7 +2579,7 @@ public final class OmGetOrderInformationAd {
          * ID eines Merkmals, das zur "InformationTypeID" korrespondiert. Hintergrund : Man möchte im Auftrag die Eigenschaft des Auftraggebers zu diesem Merkmal zum Zeitpunkt der Auftragserstellung speichern (denn die Eigenschaft könnte ja geändert werden !)
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue person_characteristic_id = 10003;</code>
+         * <code>.dstore.values.IntegerValue person_characteristic_id = 10003;</code>
          */
         public Builder clearPersonCharacteristicId() {
           if (personCharacteristicIdBuilder_ == null) {
@@ -2597,7 +2597,7 @@ public final class OmGetOrderInformationAd {
          * ID eines Merkmals, das zur "InformationTypeID" korrespondiert. Hintergrund : Man möchte im Auftrag die Eigenschaft des Auftraggebers zu diesem Merkmal zum Zeitpunkt der Auftragserstellung speichern (denn die Eigenschaft könnte ja geändert werden !)
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue person_characteristic_id = 10003;</code>
+         * <code>.dstore.values.IntegerValue person_characteristic_id = 10003;</code>
          */
         public io.dstore.values.IntegerValue.Builder getPersonCharacteristicIdBuilder() {
           
@@ -2609,7 +2609,7 @@ public final class OmGetOrderInformationAd {
          * ID eines Merkmals, das zur "InformationTypeID" korrespondiert. Hintergrund : Man möchte im Auftrag die Eigenschaft des Auftraggebers zu diesem Merkmal zum Zeitpunkt der Auftragserstellung speichern (denn die Eigenschaft könnte ja geändert werden !)
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue person_characteristic_id = 10003;</code>
+         * <code>.dstore.values.IntegerValue person_characteristic_id = 10003;</code>
          */
         public io.dstore.values.IntegerValueOrBuilder getPersonCharacteristicIdOrBuilder() {
           if (personCharacteristicIdBuilder_ != null) {
@@ -2624,7 +2624,7 @@ public final class OmGetOrderInformationAd {
          * ID eines Merkmals, das zur "InformationTypeID" korrespondiert. Hintergrund : Man möchte im Auftrag die Eigenschaft des Auftraggebers zu diesem Merkmal zum Zeitpunkt der Auftragserstellung speichern (denn die Eigenschaft könnte ja geändert werden !)
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue person_characteristic_id = 10003;</code>
+         * <code>.dstore.values.IntegerValue person_characteristic_id = 10003;</code>
          */
         private com.google.protobuf.SingleFieldBuilderV3<
             io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> 
@@ -2648,7 +2648,7 @@ public final class OmGetOrderInformationAd {
          * ID eines Auftrags (also entweder "&#64;OrderID" bzw. eine ID, die in "tempdb.dbo.OneID" übergeben wurde)
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue order_id = 10004;</code>
+         * <code>.dstore.values.IntegerValue order_id = 10004;</code>
          */
         public boolean hasOrderId() {
           return orderIdBuilder_ != null || orderId_ != null;
@@ -2658,7 +2658,7 @@ public final class OmGetOrderInformationAd {
          * ID eines Auftrags (also entweder "&#64;OrderID" bzw. eine ID, die in "tempdb.dbo.OneID" übergeben wurde)
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue order_id = 10004;</code>
+         * <code>.dstore.values.IntegerValue order_id = 10004;</code>
          */
         public io.dstore.values.IntegerValue getOrderId() {
           if (orderIdBuilder_ == null) {
@@ -2672,7 +2672,7 @@ public final class OmGetOrderInformationAd {
          * ID eines Auftrags (also entweder "&#64;OrderID" bzw. eine ID, die in "tempdb.dbo.OneID" übergeben wurde)
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue order_id = 10004;</code>
+         * <code>.dstore.values.IntegerValue order_id = 10004;</code>
          */
         public Builder setOrderId(io.dstore.values.IntegerValue value) {
           if (orderIdBuilder_ == null) {
@@ -2692,7 +2692,7 @@ public final class OmGetOrderInformationAd {
          * ID eines Auftrags (also entweder "&#64;OrderID" bzw. eine ID, die in "tempdb.dbo.OneID" übergeben wurde)
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue order_id = 10004;</code>
+         * <code>.dstore.values.IntegerValue order_id = 10004;</code>
          */
         public Builder setOrderId(
             io.dstore.values.IntegerValue.Builder builderForValue) {
@@ -2710,7 +2710,7 @@ public final class OmGetOrderInformationAd {
          * ID eines Auftrags (also entweder "&#64;OrderID" bzw. eine ID, die in "tempdb.dbo.OneID" übergeben wurde)
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue order_id = 10004;</code>
+         * <code>.dstore.values.IntegerValue order_id = 10004;</code>
          */
         public Builder mergeOrderId(io.dstore.values.IntegerValue value) {
           if (orderIdBuilder_ == null) {
@@ -2732,7 +2732,7 @@ public final class OmGetOrderInformationAd {
          * ID eines Auftrags (also entweder "&#64;OrderID" bzw. eine ID, die in "tempdb.dbo.OneID" übergeben wurde)
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue order_id = 10004;</code>
+         * <code>.dstore.values.IntegerValue order_id = 10004;</code>
          */
         public Builder clearOrderId() {
           if (orderIdBuilder_ == null) {
@@ -2750,7 +2750,7 @@ public final class OmGetOrderInformationAd {
          * ID eines Auftrags (also entweder "&#64;OrderID" bzw. eine ID, die in "tempdb.dbo.OneID" übergeben wurde)
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue order_id = 10004;</code>
+         * <code>.dstore.values.IntegerValue order_id = 10004;</code>
          */
         public io.dstore.values.IntegerValue.Builder getOrderIdBuilder() {
           
@@ -2762,7 +2762,7 @@ public final class OmGetOrderInformationAd {
          * ID eines Auftrags (also entweder "&#64;OrderID" bzw. eine ID, die in "tempdb.dbo.OneID" übergeben wurde)
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue order_id = 10004;</code>
+         * <code>.dstore.values.IntegerValue order_id = 10004;</code>
          */
         public io.dstore.values.IntegerValueOrBuilder getOrderIdOrBuilder() {
           if (orderIdBuilder_ != null) {
@@ -2777,7 +2777,7 @@ public final class OmGetOrderInformationAd {
          * ID eines Auftrags (also entweder "&#64;OrderID" bzw. eine ID, die in "tempdb.dbo.OneID" übergeben wurde)
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue order_id = 10004;</code>
+         * <code>.dstore.values.IntegerValue order_id = 10004;</code>
          */
         private com.google.protobuf.SingleFieldBuilderV3<
             io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> 
@@ -2801,7 +2801,7 @@ public final class OmGetOrderInformationAd {
          * Bezeichnung der "InformationTypeID"
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue information_type = 10005;</code>
+         * <code>.dstore.values.StringValue information_type = 10005;</code>
          */
         public boolean hasInformationType() {
           return informationTypeBuilder_ != null || informationType_ != null;
@@ -2811,7 +2811,7 @@ public final class OmGetOrderInformationAd {
          * Bezeichnung der "InformationTypeID"
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue information_type = 10005;</code>
+         * <code>.dstore.values.StringValue information_type = 10005;</code>
          */
         public io.dstore.values.StringValue getInformationType() {
           if (informationTypeBuilder_ == null) {
@@ -2825,7 +2825,7 @@ public final class OmGetOrderInformationAd {
          * Bezeichnung der "InformationTypeID"
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue information_type = 10005;</code>
+         * <code>.dstore.values.StringValue information_type = 10005;</code>
          */
         public Builder setInformationType(io.dstore.values.StringValue value) {
           if (informationTypeBuilder_ == null) {
@@ -2845,7 +2845,7 @@ public final class OmGetOrderInformationAd {
          * Bezeichnung der "InformationTypeID"
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue information_type = 10005;</code>
+         * <code>.dstore.values.StringValue information_type = 10005;</code>
          */
         public Builder setInformationType(
             io.dstore.values.StringValue.Builder builderForValue) {
@@ -2863,7 +2863,7 @@ public final class OmGetOrderInformationAd {
          * Bezeichnung der "InformationTypeID"
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue information_type = 10005;</code>
+         * <code>.dstore.values.StringValue information_type = 10005;</code>
          */
         public Builder mergeInformationType(io.dstore.values.StringValue value) {
           if (informationTypeBuilder_ == null) {
@@ -2885,7 +2885,7 @@ public final class OmGetOrderInformationAd {
          * Bezeichnung der "InformationTypeID"
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue information_type = 10005;</code>
+         * <code>.dstore.values.StringValue information_type = 10005;</code>
          */
         public Builder clearInformationType() {
           if (informationTypeBuilder_ == null) {
@@ -2903,7 +2903,7 @@ public final class OmGetOrderInformationAd {
          * Bezeichnung der "InformationTypeID"
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue information_type = 10005;</code>
+         * <code>.dstore.values.StringValue information_type = 10005;</code>
          */
         public io.dstore.values.StringValue.Builder getInformationTypeBuilder() {
           
@@ -2915,7 +2915,7 @@ public final class OmGetOrderInformationAd {
          * Bezeichnung der "InformationTypeID"
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue information_type = 10005;</code>
+         * <code>.dstore.values.StringValue information_type = 10005;</code>
          */
         public io.dstore.values.StringValueOrBuilder getInformationTypeOrBuilder() {
           if (informationTypeBuilder_ != null) {
@@ -2930,7 +2930,7 @@ public final class OmGetOrderInformationAd {
          * Bezeichnung der "InformationTypeID"
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue information_type = 10005;</code>
+         * <code>.dstore.values.StringValue information_type = 10005;</code>
          */
         private com.google.protobuf.SingleFieldBuilderV3<
             io.dstore.values.StringValue, io.dstore.values.StringValue.Builder, io.dstore.values.StringValueOrBuilder> 
@@ -2954,7 +2954,7 @@ public final class OmGetOrderInformationAd {
          * Die zum Auftrag "OrderID" hinterlegte Information
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue information = 10006;</code>
+         * <code>.dstore.values.StringValue information = 10006;</code>
          */
         public boolean hasInformation() {
           return informationBuilder_ != null || information_ != null;
@@ -2964,7 +2964,7 @@ public final class OmGetOrderInformationAd {
          * Die zum Auftrag "OrderID" hinterlegte Information
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue information = 10006;</code>
+         * <code>.dstore.values.StringValue information = 10006;</code>
          */
         public io.dstore.values.StringValue getInformation() {
           if (informationBuilder_ == null) {
@@ -2978,7 +2978,7 @@ public final class OmGetOrderInformationAd {
          * Die zum Auftrag "OrderID" hinterlegte Information
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue information = 10006;</code>
+         * <code>.dstore.values.StringValue information = 10006;</code>
          */
         public Builder setInformation(io.dstore.values.StringValue value) {
           if (informationBuilder_ == null) {
@@ -2998,7 +2998,7 @@ public final class OmGetOrderInformationAd {
          * Die zum Auftrag "OrderID" hinterlegte Information
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue information = 10006;</code>
+         * <code>.dstore.values.StringValue information = 10006;</code>
          */
         public Builder setInformation(
             io.dstore.values.StringValue.Builder builderForValue) {
@@ -3016,7 +3016,7 @@ public final class OmGetOrderInformationAd {
          * Die zum Auftrag "OrderID" hinterlegte Information
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue information = 10006;</code>
+         * <code>.dstore.values.StringValue information = 10006;</code>
          */
         public Builder mergeInformation(io.dstore.values.StringValue value) {
           if (informationBuilder_ == null) {
@@ -3038,7 +3038,7 @@ public final class OmGetOrderInformationAd {
          * Die zum Auftrag "OrderID" hinterlegte Information
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue information = 10006;</code>
+         * <code>.dstore.values.StringValue information = 10006;</code>
          */
         public Builder clearInformation() {
           if (informationBuilder_ == null) {
@@ -3056,7 +3056,7 @@ public final class OmGetOrderInformationAd {
          * Die zum Auftrag "OrderID" hinterlegte Information
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue information = 10006;</code>
+         * <code>.dstore.values.StringValue information = 10006;</code>
          */
         public io.dstore.values.StringValue.Builder getInformationBuilder() {
           
@@ -3068,7 +3068,7 @@ public final class OmGetOrderInformationAd {
          * Die zum Auftrag "OrderID" hinterlegte Information
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue information = 10006;</code>
+         * <code>.dstore.values.StringValue information = 10006;</code>
          */
         public io.dstore.values.StringValueOrBuilder getInformationOrBuilder() {
           if (informationBuilder_ != null) {
@@ -3083,7 +3083,7 @@ public final class OmGetOrderInformationAd {
          * Die zum Auftrag "OrderID" hinterlegte Information
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue information = 10006;</code>
+         * <code>.dstore.values.StringValue information = 10006;</code>
          */
         private com.google.protobuf.SingleFieldBuilderV3<
             io.dstore.values.StringValue, io.dstore.values.StringValue.Builder, io.dstore.values.StringValueOrBuilder> 
@@ -3107,7 +3107,7 @@ public final class OmGetOrderInformationAd {
          * Wann wurde die Information "Information" zur "OrderID" hinterlegt ? Anmerkung : Für Daten, die vor dem Einspielen des Updates 4.0.12 angelegt wurden, existiert diese Information nicht - in diesem Fall wird hier "NULL" zurückgegeben !
          * </pre>
          *
-         * <code>optional .dstore.values.TimestampValue created_at_date_and_time = 10007;</code>
+         * <code>.dstore.values.TimestampValue created_at_date_and_time = 10007;</code>
          */
         public boolean hasCreatedAtDateAndTime() {
           return createdAtDateAndTimeBuilder_ != null || createdAtDateAndTime_ != null;
@@ -3117,7 +3117,7 @@ public final class OmGetOrderInformationAd {
          * Wann wurde die Information "Information" zur "OrderID" hinterlegt ? Anmerkung : Für Daten, die vor dem Einspielen des Updates 4.0.12 angelegt wurden, existiert diese Information nicht - in diesem Fall wird hier "NULL" zurückgegeben !
          * </pre>
          *
-         * <code>optional .dstore.values.TimestampValue created_at_date_and_time = 10007;</code>
+         * <code>.dstore.values.TimestampValue created_at_date_and_time = 10007;</code>
          */
         public io.dstore.values.TimestampValue getCreatedAtDateAndTime() {
           if (createdAtDateAndTimeBuilder_ == null) {
@@ -3131,7 +3131,7 @@ public final class OmGetOrderInformationAd {
          * Wann wurde die Information "Information" zur "OrderID" hinterlegt ? Anmerkung : Für Daten, die vor dem Einspielen des Updates 4.0.12 angelegt wurden, existiert diese Information nicht - in diesem Fall wird hier "NULL" zurückgegeben !
          * </pre>
          *
-         * <code>optional .dstore.values.TimestampValue created_at_date_and_time = 10007;</code>
+         * <code>.dstore.values.TimestampValue created_at_date_and_time = 10007;</code>
          */
         public Builder setCreatedAtDateAndTime(io.dstore.values.TimestampValue value) {
           if (createdAtDateAndTimeBuilder_ == null) {
@@ -3151,7 +3151,7 @@ public final class OmGetOrderInformationAd {
          * Wann wurde die Information "Information" zur "OrderID" hinterlegt ? Anmerkung : Für Daten, die vor dem Einspielen des Updates 4.0.12 angelegt wurden, existiert diese Information nicht - in diesem Fall wird hier "NULL" zurückgegeben !
          * </pre>
          *
-         * <code>optional .dstore.values.TimestampValue created_at_date_and_time = 10007;</code>
+         * <code>.dstore.values.TimestampValue created_at_date_and_time = 10007;</code>
          */
         public Builder setCreatedAtDateAndTime(
             io.dstore.values.TimestampValue.Builder builderForValue) {
@@ -3169,7 +3169,7 @@ public final class OmGetOrderInformationAd {
          * Wann wurde die Information "Information" zur "OrderID" hinterlegt ? Anmerkung : Für Daten, die vor dem Einspielen des Updates 4.0.12 angelegt wurden, existiert diese Information nicht - in diesem Fall wird hier "NULL" zurückgegeben !
          * </pre>
          *
-         * <code>optional .dstore.values.TimestampValue created_at_date_and_time = 10007;</code>
+         * <code>.dstore.values.TimestampValue created_at_date_and_time = 10007;</code>
          */
         public Builder mergeCreatedAtDateAndTime(io.dstore.values.TimestampValue value) {
           if (createdAtDateAndTimeBuilder_ == null) {
@@ -3191,7 +3191,7 @@ public final class OmGetOrderInformationAd {
          * Wann wurde die Information "Information" zur "OrderID" hinterlegt ? Anmerkung : Für Daten, die vor dem Einspielen des Updates 4.0.12 angelegt wurden, existiert diese Information nicht - in diesem Fall wird hier "NULL" zurückgegeben !
          * </pre>
          *
-         * <code>optional .dstore.values.TimestampValue created_at_date_and_time = 10007;</code>
+         * <code>.dstore.values.TimestampValue created_at_date_and_time = 10007;</code>
          */
         public Builder clearCreatedAtDateAndTime() {
           if (createdAtDateAndTimeBuilder_ == null) {
@@ -3209,7 +3209,7 @@ public final class OmGetOrderInformationAd {
          * Wann wurde die Information "Information" zur "OrderID" hinterlegt ? Anmerkung : Für Daten, die vor dem Einspielen des Updates 4.0.12 angelegt wurden, existiert diese Information nicht - in diesem Fall wird hier "NULL" zurückgegeben !
          * </pre>
          *
-         * <code>optional .dstore.values.TimestampValue created_at_date_and_time = 10007;</code>
+         * <code>.dstore.values.TimestampValue created_at_date_and_time = 10007;</code>
          */
         public io.dstore.values.TimestampValue.Builder getCreatedAtDateAndTimeBuilder() {
           
@@ -3221,7 +3221,7 @@ public final class OmGetOrderInformationAd {
          * Wann wurde die Information "Information" zur "OrderID" hinterlegt ? Anmerkung : Für Daten, die vor dem Einspielen des Updates 4.0.12 angelegt wurden, existiert diese Information nicht - in diesem Fall wird hier "NULL" zurückgegeben !
          * </pre>
          *
-         * <code>optional .dstore.values.TimestampValue created_at_date_and_time = 10007;</code>
+         * <code>.dstore.values.TimestampValue created_at_date_and_time = 10007;</code>
          */
         public io.dstore.values.TimestampValueOrBuilder getCreatedAtDateAndTimeOrBuilder() {
           if (createdAtDateAndTimeBuilder_ != null) {
@@ -3236,7 +3236,7 @@ public final class OmGetOrderInformationAd {
          * Wann wurde die Information "Information" zur "OrderID" hinterlegt ? Anmerkung : Für Daten, die vor dem Einspielen des Updates 4.0.12 angelegt wurden, existiert diese Information nicht - in diesem Fall wird hier "NULL" zurückgegeben !
          * </pre>
          *
-         * <code>optional .dstore.values.TimestampValue created_at_date_and_time = 10007;</code>
+         * <code>.dstore.values.TimestampValue created_at_date_and_time = 10007;</code>
          */
         private com.google.protobuf.SingleFieldBuilderV3<
             io.dstore.values.TimestampValue, io.dstore.values.TimestampValue.Builder, io.dstore.values.TimestampValueOrBuilder> 
@@ -3496,7 +3496,7 @@ public final class OmGetOrderInformationAd {
         return memoizedHashCode;
       }
       int hash = 41;
-      hash = (19 * hash) + getDescriptorForType().hashCode();
+      hash = (19 * hash) + getDescriptor().hashCode();
       if (getMetaInformationCount() > 0) {
         hash = (37 * hash) + META_INFORMATION_FIELD_NUMBER;
         hash = (53 * hash) + getMetaInformationList().hashCode();

@@ -19,146 +19,146 @@ public final class OmPerformCashAccTransactAd {
       com.google.protobuf.MessageOrBuilder {
 
     /**
-     * <code>optional .dstore.values.IntegerValue person_id = 1;</code>
+     * <code>.dstore.values.IntegerValue person_id = 1;</code>
      */
     boolean hasPersonId();
     /**
-     * <code>optional .dstore.values.IntegerValue person_id = 1;</code>
+     * <code>.dstore.values.IntegerValue person_id = 1;</code>
      */
     io.dstore.values.IntegerValue getPersonId();
     /**
-     * <code>optional .dstore.values.IntegerValue person_id = 1;</code>
+     * <code>.dstore.values.IntegerValue person_id = 1;</code>
      */
     io.dstore.values.IntegerValueOrBuilder getPersonIdOrBuilder();
 
     /**
-     * <code>optional bool person_id_null = 1001;</code>
+     * <code>bool person_id_null = 1001;</code>
      */
     boolean getPersonIdNull();
 
     /**
-     * <code>optional .dstore.values.IntegerValue cash_account_type_id = 2;</code>
+     * <code>.dstore.values.IntegerValue cash_account_type_id = 2;</code>
      */
     boolean hasCashAccountTypeId();
     /**
-     * <code>optional .dstore.values.IntegerValue cash_account_type_id = 2;</code>
+     * <code>.dstore.values.IntegerValue cash_account_type_id = 2;</code>
      */
     io.dstore.values.IntegerValue getCashAccountTypeId();
     /**
-     * <code>optional .dstore.values.IntegerValue cash_account_type_id = 2;</code>
+     * <code>.dstore.values.IntegerValue cash_account_type_id = 2;</code>
      */
     io.dstore.values.IntegerValueOrBuilder getCashAccountTypeIdOrBuilder();
 
     /**
-     * <code>optional bool cash_account_type_id_null = 1002;</code>
+     * <code>bool cash_account_type_id_null = 1002;</code>
      */
     boolean getCashAccountTypeIdNull();
 
     /**
-     * <code>optional .dstore.values.IntegerValue transaction_type_id = 3;</code>
+     * <code>.dstore.values.IntegerValue transaction_type_id = 3;</code>
      */
     boolean hasTransactionTypeId();
     /**
-     * <code>optional .dstore.values.IntegerValue transaction_type_id = 3;</code>
+     * <code>.dstore.values.IntegerValue transaction_type_id = 3;</code>
      */
     io.dstore.values.IntegerValue getTransactionTypeId();
     /**
-     * <code>optional .dstore.values.IntegerValue transaction_type_id = 3;</code>
+     * <code>.dstore.values.IntegerValue transaction_type_id = 3;</code>
      */
     io.dstore.values.IntegerValueOrBuilder getTransactionTypeIdOrBuilder();
 
     /**
-     * <code>optional bool transaction_type_id_null = 1003;</code>
+     * <code>bool transaction_type_id_null = 1003;</code>
      */
     boolean getTransactionTypeIdNull();
 
     /**
-     * <code>optional .dstore.values.DecimalValue transaction_value = 4;</code>
+     * <code>.dstore.values.DecimalValue transaction_value = 4;</code>
      */
     boolean hasTransactionValue();
     /**
-     * <code>optional .dstore.values.DecimalValue transaction_value = 4;</code>
+     * <code>.dstore.values.DecimalValue transaction_value = 4;</code>
      */
     io.dstore.values.DecimalValue getTransactionValue();
     /**
-     * <code>optional .dstore.values.DecimalValue transaction_value = 4;</code>
+     * <code>.dstore.values.DecimalValue transaction_value = 4;</code>
      */
     io.dstore.values.DecimalValueOrBuilder getTransactionValueOrBuilder();
 
     /**
-     * <code>optional bool transaction_value_null = 1004;</code>
+     * <code>bool transaction_value_null = 1004;</code>
      */
     boolean getTransactionValueNull();
 
     /**
-     * <code>optional .dstore.values.StringValue transaction_comment = 5;</code>
+     * <code>.dstore.values.StringValue transaction_comment = 5;</code>
      */
     boolean hasTransactionComment();
     /**
-     * <code>optional .dstore.values.StringValue transaction_comment = 5;</code>
+     * <code>.dstore.values.StringValue transaction_comment = 5;</code>
      */
     io.dstore.values.StringValue getTransactionComment();
     /**
-     * <code>optional .dstore.values.StringValue transaction_comment = 5;</code>
+     * <code>.dstore.values.StringValue transaction_comment = 5;</code>
      */
     io.dstore.values.StringValueOrBuilder getTransactionCommentOrBuilder();
 
     /**
-     * <code>optional bool transaction_comment_null = 1005;</code>
+     * <code>bool transaction_comment_null = 1005;</code>
      */
     boolean getTransactionCommentNull();
 
     /**
-     * <code>optional .dstore.values.IntegerValue currency_id = 6;</code>
+     * <code>.dstore.values.IntegerValue currency_id = 6;</code>
      */
     boolean hasCurrencyId();
     /**
-     * <code>optional .dstore.values.IntegerValue currency_id = 6;</code>
+     * <code>.dstore.values.IntegerValue currency_id = 6;</code>
      */
     io.dstore.values.IntegerValue getCurrencyId();
     /**
-     * <code>optional .dstore.values.IntegerValue currency_id = 6;</code>
+     * <code>.dstore.values.IntegerValue currency_id = 6;</code>
      */
     io.dstore.values.IntegerValueOrBuilder getCurrencyIdOrBuilder();
 
     /**
-     * <code>optional bool currency_id_null = 1006;</code>
+     * <code>bool currency_id_null = 1006;</code>
      */
     boolean getCurrencyIdNull();
 
     /**
-     * <code>optional .dstore.values.TimestampValue suspend_until = 7;</code>
+     * <code>.dstore.values.TimestampValue suspend_until = 7;</code>
      */
     boolean hasSuspendUntil();
     /**
-     * <code>optional .dstore.values.TimestampValue suspend_until = 7;</code>
+     * <code>.dstore.values.TimestampValue suspend_until = 7;</code>
      */
     io.dstore.values.TimestampValue getSuspendUntil();
     /**
-     * <code>optional .dstore.values.TimestampValue suspend_until = 7;</code>
+     * <code>.dstore.values.TimestampValue suspend_until = 7;</code>
      */
     io.dstore.values.TimestampValueOrBuilder getSuspendUntilOrBuilder();
 
     /**
-     * <code>optional bool suspend_until_null = 1007;</code>
+     * <code>bool suspend_until_null = 1007;</code>
      */
     boolean getSuspendUntilNull();
 
     /**
-     * <code>optional .dstore.values.StringValue internal_comment = 8;</code>
+     * <code>.dstore.values.StringValue internal_comment = 8;</code>
      */
     boolean hasInternalComment();
     /**
-     * <code>optional .dstore.values.StringValue internal_comment = 8;</code>
+     * <code>.dstore.values.StringValue internal_comment = 8;</code>
      */
     io.dstore.values.StringValue getInternalComment();
     /**
-     * <code>optional .dstore.values.StringValue internal_comment = 8;</code>
+     * <code>.dstore.values.StringValue internal_comment = 8;</code>
      */
     io.dstore.values.StringValueOrBuilder getInternalCommentOrBuilder();
 
     /**
-     * <code>optional bool internal_comment_null = 1008;</code>
+     * <code>bool internal_comment_null = 1008;</code>
      */
     boolean getInternalCommentNull();
   }
@@ -379,19 +379,19 @@ public final class OmPerformCashAccTransactAd {
     public static final int PERSON_ID_FIELD_NUMBER = 1;
     private io.dstore.values.IntegerValue personId_;
     /**
-     * <code>optional .dstore.values.IntegerValue person_id = 1;</code>
+     * <code>.dstore.values.IntegerValue person_id = 1;</code>
      */
     public boolean hasPersonId() {
       return personId_ != null;
     }
     /**
-     * <code>optional .dstore.values.IntegerValue person_id = 1;</code>
+     * <code>.dstore.values.IntegerValue person_id = 1;</code>
      */
     public io.dstore.values.IntegerValue getPersonId() {
       return personId_ == null ? io.dstore.values.IntegerValue.getDefaultInstance() : personId_;
     }
     /**
-     * <code>optional .dstore.values.IntegerValue person_id = 1;</code>
+     * <code>.dstore.values.IntegerValue person_id = 1;</code>
      */
     public io.dstore.values.IntegerValueOrBuilder getPersonIdOrBuilder() {
       return getPersonId();
@@ -400,7 +400,7 @@ public final class OmPerformCashAccTransactAd {
     public static final int PERSON_ID_NULL_FIELD_NUMBER = 1001;
     private boolean personIdNull_;
     /**
-     * <code>optional bool person_id_null = 1001;</code>
+     * <code>bool person_id_null = 1001;</code>
      */
     public boolean getPersonIdNull() {
       return personIdNull_;
@@ -409,19 +409,19 @@ public final class OmPerformCashAccTransactAd {
     public static final int CASH_ACCOUNT_TYPE_ID_FIELD_NUMBER = 2;
     private io.dstore.values.IntegerValue cashAccountTypeId_;
     /**
-     * <code>optional .dstore.values.IntegerValue cash_account_type_id = 2;</code>
+     * <code>.dstore.values.IntegerValue cash_account_type_id = 2;</code>
      */
     public boolean hasCashAccountTypeId() {
       return cashAccountTypeId_ != null;
     }
     /**
-     * <code>optional .dstore.values.IntegerValue cash_account_type_id = 2;</code>
+     * <code>.dstore.values.IntegerValue cash_account_type_id = 2;</code>
      */
     public io.dstore.values.IntegerValue getCashAccountTypeId() {
       return cashAccountTypeId_ == null ? io.dstore.values.IntegerValue.getDefaultInstance() : cashAccountTypeId_;
     }
     /**
-     * <code>optional .dstore.values.IntegerValue cash_account_type_id = 2;</code>
+     * <code>.dstore.values.IntegerValue cash_account_type_id = 2;</code>
      */
     public io.dstore.values.IntegerValueOrBuilder getCashAccountTypeIdOrBuilder() {
       return getCashAccountTypeId();
@@ -430,7 +430,7 @@ public final class OmPerformCashAccTransactAd {
     public static final int CASH_ACCOUNT_TYPE_ID_NULL_FIELD_NUMBER = 1002;
     private boolean cashAccountTypeIdNull_;
     /**
-     * <code>optional bool cash_account_type_id_null = 1002;</code>
+     * <code>bool cash_account_type_id_null = 1002;</code>
      */
     public boolean getCashAccountTypeIdNull() {
       return cashAccountTypeIdNull_;
@@ -439,19 +439,19 @@ public final class OmPerformCashAccTransactAd {
     public static final int TRANSACTION_TYPE_ID_FIELD_NUMBER = 3;
     private io.dstore.values.IntegerValue transactionTypeId_;
     /**
-     * <code>optional .dstore.values.IntegerValue transaction_type_id = 3;</code>
+     * <code>.dstore.values.IntegerValue transaction_type_id = 3;</code>
      */
     public boolean hasTransactionTypeId() {
       return transactionTypeId_ != null;
     }
     /**
-     * <code>optional .dstore.values.IntegerValue transaction_type_id = 3;</code>
+     * <code>.dstore.values.IntegerValue transaction_type_id = 3;</code>
      */
     public io.dstore.values.IntegerValue getTransactionTypeId() {
       return transactionTypeId_ == null ? io.dstore.values.IntegerValue.getDefaultInstance() : transactionTypeId_;
     }
     /**
-     * <code>optional .dstore.values.IntegerValue transaction_type_id = 3;</code>
+     * <code>.dstore.values.IntegerValue transaction_type_id = 3;</code>
      */
     public io.dstore.values.IntegerValueOrBuilder getTransactionTypeIdOrBuilder() {
       return getTransactionTypeId();
@@ -460,7 +460,7 @@ public final class OmPerformCashAccTransactAd {
     public static final int TRANSACTION_TYPE_ID_NULL_FIELD_NUMBER = 1003;
     private boolean transactionTypeIdNull_;
     /**
-     * <code>optional bool transaction_type_id_null = 1003;</code>
+     * <code>bool transaction_type_id_null = 1003;</code>
      */
     public boolean getTransactionTypeIdNull() {
       return transactionTypeIdNull_;
@@ -469,19 +469,19 @@ public final class OmPerformCashAccTransactAd {
     public static final int TRANSACTION_VALUE_FIELD_NUMBER = 4;
     private io.dstore.values.DecimalValue transactionValue_;
     /**
-     * <code>optional .dstore.values.DecimalValue transaction_value = 4;</code>
+     * <code>.dstore.values.DecimalValue transaction_value = 4;</code>
      */
     public boolean hasTransactionValue() {
       return transactionValue_ != null;
     }
     /**
-     * <code>optional .dstore.values.DecimalValue transaction_value = 4;</code>
+     * <code>.dstore.values.DecimalValue transaction_value = 4;</code>
      */
     public io.dstore.values.DecimalValue getTransactionValue() {
       return transactionValue_ == null ? io.dstore.values.DecimalValue.getDefaultInstance() : transactionValue_;
     }
     /**
-     * <code>optional .dstore.values.DecimalValue transaction_value = 4;</code>
+     * <code>.dstore.values.DecimalValue transaction_value = 4;</code>
      */
     public io.dstore.values.DecimalValueOrBuilder getTransactionValueOrBuilder() {
       return getTransactionValue();
@@ -490,7 +490,7 @@ public final class OmPerformCashAccTransactAd {
     public static final int TRANSACTION_VALUE_NULL_FIELD_NUMBER = 1004;
     private boolean transactionValueNull_;
     /**
-     * <code>optional bool transaction_value_null = 1004;</code>
+     * <code>bool transaction_value_null = 1004;</code>
      */
     public boolean getTransactionValueNull() {
       return transactionValueNull_;
@@ -499,19 +499,19 @@ public final class OmPerformCashAccTransactAd {
     public static final int TRANSACTION_COMMENT_FIELD_NUMBER = 5;
     private io.dstore.values.StringValue transactionComment_;
     /**
-     * <code>optional .dstore.values.StringValue transaction_comment = 5;</code>
+     * <code>.dstore.values.StringValue transaction_comment = 5;</code>
      */
     public boolean hasTransactionComment() {
       return transactionComment_ != null;
     }
     /**
-     * <code>optional .dstore.values.StringValue transaction_comment = 5;</code>
+     * <code>.dstore.values.StringValue transaction_comment = 5;</code>
      */
     public io.dstore.values.StringValue getTransactionComment() {
       return transactionComment_ == null ? io.dstore.values.StringValue.getDefaultInstance() : transactionComment_;
     }
     /**
-     * <code>optional .dstore.values.StringValue transaction_comment = 5;</code>
+     * <code>.dstore.values.StringValue transaction_comment = 5;</code>
      */
     public io.dstore.values.StringValueOrBuilder getTransactionCommentOrBuilder() {
       return getTransactionComment();
@@ -520,7 +520,7 @@ public final class OmPerformCashAccTransactAd {
     public static final int TRANSACTION_COMMENT_NULL_FIELD_NUMBER = 1005;
     private boolean transactionCommentNull_;
     /**
-     * <code>optional bool transaction_comment_null = 1005;</code>
+     * <code>bool transaction_comment_null = 1005;</code>
      */
     public boolean getTransactionCommentNull() {
       return transactionCommentNull_;
@@ -529,19 +529,19 @@ public final class OmPerformCashAccTransactAd {
     public static final int CURRENCY_ID_FIELD_NUMBER = 6;
     private io.dstore.values.IntegerValue currencyId_;
     /**
-     * <code>optional .dstore.values.IntegerValue currency_id = 6;</code>
+     * <code>.dstore.values.IntegerValue currency_id = 6;</code>
      */
     public boolean hasCurrencyId() {
       return currencyId_ != null;
     }
     /**
-     * <code>optional .dstore.values.IntegerValue currency_id = 6;</code>
+     * <code>.dstore.values.IntegerValue currency_id = 6;</code>
      */
     public io.dstore.values.IntegerValue getCurrencyId() {
       return currencyId_ == null ? io.dstore.values.IntegerValue.getDefaultInstance() : currencyId_;
     }
     /**
-     * <code>optional .dstore.values.IntegerValue currency_id = 6;</code>
+     * <code>.dstore.values.IntegerValue currency_id = 6;</code>
      */
     public io.dstore.values.IntegerValueOrBuilder getCurrencyIdOrBuilder() {
       return getCurrencyId();
@@ -550,7 +550,7 @@ public final class OmPerformCashAccTransactAd {
     public static final int CURRENCY_ID_NULL_FIELD_NUMBER = 1006;
     private boolean currencyIdNull_;
     /**
-     * <code>optional bool currency_id_null = 1006;</code>
+     * <code>bool currency_id_null = 1006;</code>
      */
     public boolean getCurrencyIdNull() {
       return currencyIdNull_;
@@ -559,19 +559,19 @@ public final class OmPerformCashAccTransactAd {
     public static final int SUSPEND_UNTIL_FIELD_NUMBER = 7;
     private io.dstore.values.TimestampValue suspendUntil_;
     /**
-     * <code>optional .dstore.values.TimestampValue suspend_until = 7;</code>
+     * <code>.dstore.values.TimestampValue suspend_until = 7;</code>
      */
     public boolean hasSuspendUntil() {
       return suspendUntil_ != null;
     }
     /**
-     * <code>optional .dstore.values.TimestampValue suspend_until = 7;</code>
+     * <code>.dstore.values.TimestampValue suspend_until = 7;</code>
      */
     public io.dstore.values.TimestampValue getSuspendUntil() {
       return suspendUntil_ == null ? io.dstore.values.TimestampValue.getDefaultInstance() : suspendUntil_;
     }
     /**
-     * <code>optional .dstore.values.TimestampValue suspend_until = 7;</code>
+     * <code>.dstore.values.TimestampValue suspend_until = 7;</code>
      */
     public io.dstore.values.TimestampValueOrBuilder getSuspendUntilOrBuilder() {
       return getSuspendUntil();
@@ -580,7 +580,7 @@ public final class OmPerformCashAccTransactAd {
     public static final int SUSPEND_UNTIL_NULL_FIELD_NUMBER = 1007;
     private boolean suspendUntilNull_;
     /**
-     * <code>optional bool suspend_until_null = 1007;</code>
+     * <code>bool suspend_until_null = 1007;</code>
      */
     public boolean getSuspendUntilNull() {
       return suspendUntilNull_;
@@ -589,19 +589,19 @@ public final class OmPerformCashAccTransactAd {
     public static final int INTERNAL_COMMENT_FIELD_NUMBER = 8;
     private io.dstore.values.StringValue internalComment_;
     /**
-     * <code>optional .dstore.values.StringValue internal_comment = 8;</code>
+     * <code>.dstore.values.StringValue internal_comment = 8;</code>
      */
     public boolean hasInternalComment() {
       return internalComment_ != null;
     }
     /**
-     * <code>optional .dstore.values.StringValue internal_comment = 8;</code>
+     * <code>.dstore.values.StringValue internal_comment = 8;</code>
      */
     public io.dstore.values.StringValue getInternalComment() {
       return internalComment_ == null ? io.dstore.values.StringValue.getDefaultInstance() : internalComment_;
     }
     /**
-     * <code>optional .dstore.values.StringValue internal_comment = 8;</code>
+     * <code>.dstore.values.StringValue internal_comment = 8;</code>
      */
     public io.dstore.values.StringValueOrBuilder getInternalCommentOrBuilder() {
       return getInternalComment();
@@ -610,7 +610,7 @@ public final class OmPerformCashAccTransactAd {
     public static final int INTERNAL_COMMENT_NULL_FIELD_NUMBER = 1008;
     private boolean internalCommentNull_;
     /**
-     * <code>optional bool internal_comment_null = 1008;</code>
+     * <code>bool internal_comment_null = 1008;</code>
      */
     public boolean getInternalCommentNull() {
       return internalCommentNull_;
@@ -828,7 +828,7 @@ public final class OmPerformCashAccTransactAd {
         return memoizedHashCode;
       }
       int hash = 41;
-      hash = (19 * hash) + getDescriptorForType().hashCode();
+      hash = (19 * hash) + getDescriptor().hashCode();
       if (hasPersonId()) {
         hash = (37 * hash) + PERSON_ID_FIELD_NUMBER;
         hash = (53 * hash) + getPersonId().hashCode();
@@ -1256,13 +1256,13 @@ public final class OmPerformCashAccTransactAd {
       private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> personIdBuilder_;
       /**
-       * <code>optional .dstore.values.IntegerValue person_id = 1;</code>
+       * <code>.dstore.values.IntegerValue person_id = 1;</code>
        */
       public boolean hasPersonId() {
         return personIdBuilder_ != null || personId_ != null;
       }
       /**
-       * <code>optional .dstore.values.IntegerValue person_id = 1;</code>
+       * <code>.dstore.values.IntegerValue person_id = 1;</code>
        */
       public io.dstore.values.IntegerValue getPersonId() {
         if (personIdBuilder_ == null) {
@@ -1272,7 +1272,7 @@ public final class OmPerformCashAccTransactAd {
         }
       }
       /**
-       * <code>optional .dstore.values.IntegerValue person_id = 1;</code>
+       * <code>.dstore.values.IntegerValue person_id = 1;</code>
        */
       public Builder setPersonId(io.dstore.values.IntegerValue value) {
         if (personIdBuilder_ == null) {
@@ -1288,7 +1288,7 @@ public final class OmPerformCashAccTransactAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.IntegerValue person_id = 1;</code>
+       * <code>.dstore.values.IntegerValue person_id = 1;</code>
        */
       public Builder setPersonId(
           io.dstore.values.IntegerValue.Builder builderForValue) {
@@ -1302,7 +1302,7 @@ public final class OmPerformCashAccTransactAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.IntegerValue person_id = 1;</code>
+       * <code>.dstore.values.IntegerValue person_id = 1;</code>
        */
       public Builder mergePersonId(io.dstore.values.IntegerValue value) {
         if (personIdBuilder_ == null) {
@@ -1320,7 +1320,7 @@ public final class OmPerformCashAccTransactAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.IntegerValue person_id = 1;</code>
+       * <code>.dstore.values.IntegerValue person_id = 1;</code>
        */
       public Builder clearPersonId() {
         if (personIdBuilder_ == null) {
@@ -1334,7 +1334,7 @@ public final class OmPerformCashAccTransactAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.IntegerValue person_id = 1;</code>
+       * <code>.dstore.values.IntegerValue person_id = 1;</code>
        */
       public io.dstore.values.IntegerValue.Builder getPersonIdBuilder() {
         
@@ -1342,7 +1342,7 @@ public final class OmPerformCashAccTransactAd {
         return getPersonIdFieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .dstore.values.IntegerValue person_id = 1;</code>
+       * <code>.dstore.values.IntegerValue person_id = 1;</code>
        */
       public io.dstore.values.IntegerValueOrBuilder getPersonIdOrBuilder() {
         if (personIdBuilder_ != null) {
@@ -1353,7 +1353,7 @@ public final class OmPerformCashAccTransactAd {
         }
       }
       /**
-       * <code>optional .dstore.values.IntegerValue person_id = 1;</code>
+       * <code>.dstore.values.IntegerValue person_id = 1;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> 
@@ -1371,13 +1371,13 @@ public final class OmPerformCashAccTransactAd {
 
       private boolean personIdNull_ ;
       /**
-       * <code>optional bool person_id_null = 1001;</code>
+       * <code>bool person_id_null = 1001;</code>
        */
       public boolean getPersonIdNull() {
         return personIdNull_;
       }
       /**
-       * <code>optional bool person_id_null = 1001;</code>
+       * <code>bool person_id_null = 1001;</code>
        */
       public Builder setPersonIdNull(boolean value) {
         
@@ -1386,7 +1386,7 @@ public final class OmPerformCashAccTransactAd {
         return this;
       }
       /**
-       * <code>optional bool person_id_null = 1001;</code>
+       * <code>bool person_id_null = 1001;</code>
        */
       public Builder clearPersonIdNull() {
         
@@ -1399,13 +1399,13 @@ public final class OmPerformCashAccTransactAd {
       private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> cashAccountTypeIdBuilder_;
       /**
-       * <code>optional .dstore.values.IntegerValue cash_account_type_id = 2;</code>
+       * <code>.dstore.values.IntegerValue cash_account_type_id = 2;</code>
        */
       public boolean hasCashAccountTypeId() {
         return cashAccountTypeIdBuilder_ != null || cashAccountTypeId_ != null;
       }
       /**
-       * <code>optional .dstore.values.IntegerValue cash_account_type_id = 2;</code>
+       * <code>.dstore.values.IntegerValue cash_account_type_id = 2;</code>
        */
       public io.dstore.values.IntegerValue getCashAccountTypeId() {
         if (cashAccountTypeIdBuilder_ == null) {
@@ -1415,7 +1415,7 @@ public final class OmPerformCashAccTransactAd {
         }
       }
       /**
-       * <code>optional .dstore.values.IntegerValue cash_account_type_id = 2;</code>
+       * <code>.dstore.values.IntegerValue cash_account_type_id = 2;</code>
        */
       public Builder setCashAccountTypeId(io.dstore.values.IntegerValue value) {
         if (cashAccountTypeIdBuilder_ == null) {
@@ -1431,7 +1431,7 @@ public final class OmPerformCashAccTransactAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.IntegerValue cash_account_type_id = 2;</code>
+       * <code>.dstore.values.IntegerValue cash_account_type_id = 2;</code>
        */
       public Builder setCashAccountTypeId(
           io.dstore.values.IntegerValue.Builder builderForValue) {
@@ -1445,7 +1445,7 @@ public final class OmPerformCashAccTransactAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.IntegerValue cash_account_type_id = 2;</code>
+       * <code>.dstore.values.IntegerValue cash_account_type_id = 2;</code>
        */
       public Builder mergeCashAccountTypeId(io.dstore.values.IntegerValue value) {
         if (cashAccountTypeIdBuilder_ == null) {
@@ -1463,7 +1463,7 @@ public final class OmPerformCashAccTransactAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.IntegerValue cash_account_type_id = 2;</code>
+       * <code>.dstore.values.IntegerValue cash_account_type_id = 2;</code>
        */
       public Builder clearCashAccountTypeId() {
         if (cashAccountTypeIdBuilder_ == null) {
@@ -1477,7 +1477,7 @@ public final class OmPerformCashAccTransactAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.IntegerValue cash_account_type_id = 2;</code>
+       * <code>.dstore.values.IntegerValue cash_account_type_id = 2;</code>
        */
       public io.dstore.values.IntegerValue.Builder getCashAccountTypeIdBuilder() {
         
@@ -1485,7 +1485,7 @@ public final class OmPerformCashAccTransactAd {
         return getCashAccountTypeIdFieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .dstore.values.IntegerValue cash_account_type_id = 2;</code>
+       * <code>.dstore.values.IntegerValue cash_account_type_id = 2;</code>
        */
       public io.dstore.values.IntegerValueOrBuilder getCashAccountTypeIdOrBuilder() {
         if (cashAccountTypeIdBuilder_ != null) {
@@ -1496,7 +1496,7 @@ public final class OmPerformCashAccTransactAd {
         }
       }
       /**
-       * <code>optional .dstore.values.IntegerValue cash_account_type_id = 2;</code>
+       * <code>.dstore.values.IntegerValue cash_account_type_id = 2;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> 
@@ -1514,13 +1514,13 @@ public final class OmPerformCashAccTransactAd {
 
       private boolean cashAccountTypeIdNull_ ;
       /**
-       * <code>optional bool cash_account_type_id_null = 1002;</code>
+       * <code>bool cash_account_type_id_null = 1002;</code>
        */
       public boolean getCashAccountTypeIdNull() {
         return cashAccountTypeIdNull_;
       }
       /**
-       * <code>optional bool cash_account_type_id_null = 1002;</code>
+       * <code>bool cash_account_type_id_null = 1002;</code>
        */
       public Builder setCashAccountTypeIdNull(boolean value) {
         
@@ -1529,7 +1529,7 @@ public final class OmPerformCashAccTransactAd {
         return this;
       }
       /**
-       * <code>optional bool cash_account_type_id_null = 1002;</code>
+       * <code>bool cash_account_type_id_null = 1002;</code>
        */
       public Builder clearCashAccountTypeIdNull() {
         
@@ -1542,13 +1542,13 @@ public final class OmPerformCashAccTransactAd {
       private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> transactionTypeIdBuilder_;
       /**
-       * <code>optional .dstore.values.IntegerValue transaction_type_id = 3;</code>
+       * <code>.dstore.values.IntegerValue transaction_type_id = 3;</code>
        */
       public boolean hasTransactionTypeId() {
         return transactionTypeIdBuilder_ != null || transactionTypeId_ != null;
       }
       /**
-       * <code>optional .dstore.values.IntegerValue transaction_type_id = 3;</code>
+       * <code>.dstore.values.IntegerValue transaction_type_id = 3;</code>
        */
       public io.dstore.values.IntegerValue getTransactionTypeId() {
         if (transactionTypeIdBuilder_ == null) {
@@ -1558,7 +1558,7 @@ public final class OmPerformCashAccTransactAd {
         }
       }
       /**
-       * <code>optional .dstore.values.IntegerValue transaction_type_id = 3;</code>
+       * <code>.dstore.values.IntegerValue transaction_type_id = 3;</code>
        */
       public Builder setTransactionTypeId(io.dstore.values.IntegerValue value) {
         if (transactionTypeIdBuilder_ == null) {
@@ -1574,7 +1574,7 @@ public final class OmPerformCashAccTransactAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.IntegerValue transaction_type_id = 3;</code>
+       * <code>.dstore.values.IntegerValue transaction_type_id = 3;</code>
        */
       public Builder setTransactionTypeId(
           io.dstore.values.IntegerValue.Builder builderForValue) {
@@ -1588,7 +1588,7 @@ public final class OmPerformCashAccTransactAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.IntegerValue transaction_type_id = 3;</code>
+       * <code>.dstore.values.IntegerValue transaction_type_id = 3;</code>
        */
       public Builder mergeTransactionTypeId(io.dstore.values.IntegerValue value) {
         if (transactionTypeIdBuilder_ == null) {
@@ -1606,7 +1606,7 @@ public final class OmPerformCashAccTransactAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.IntegerValue transaction_type_id = 3;</code>
+       * <code>.dstore.values.IntegerValue transaction_type_id = 3;</code>
        */
       public Builder clearTransactionTypeId() {
         if (transactionTypeIdBuilder_ == null) {
@@ -1620,7 +1620,7 @@ public final class OmPerformCashAccTransactAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.IntegerValue transaction_type_id = 3;</code>
+       * <code>.dstore.values.IntegerValue transaction_type_id = 3;</code>
        */
       public io.dstore.values.IntegerValue.Builder getTransactionTypeIdBuilder() {
         
@@ -1628,7 +1628,7 @@ public final class OmPerformCashAccTransactAd {
         return getTransactionTypeIdFieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .dstore.values.IntegerValue transaction_type_id = 3;</code>
+       * <code>.dstore.values.IntegerValue transaction_type_id = 3;</code>
        */
       public io.dstore.values.IntegerValueOrBuilder getTransactionTypeIdOrBuilder() {
         if (transactionTypeIdBuilder_ != null) {
@@ -1639,7 +1639,7 @@ public final class OmPerformCashAccTransactAd {
         }
       }
       /**
-       * <code>optional .dstore.values.IntegerValue transaction_type_id = 3;</code>
+       * <code>.dstore.values.IntegerValue transaction_type_id = 3;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> 
@@ -1657,13 +1657,13 @@ public final class OmPerformCashAccTransactAd {
 
       private boolean transactionTypeIdNull_ ;
       /**
-       * <code>optional bool transaction_type_id_null = 1003;</code>
+       * <code>bool transaction_type_id_null = 1003;</code>
        */
       public boolean getTransactionTypeIdNull() {
         return transactionTypeIdNull_;
       }
       /**
-       * <code>optional bool transaction_type_id_null = 1003;</code>
+       * <code>bool transaction_type_id_null = 1003;</code>
        */
       public Builder setTransactionTypeIdNull(boolean value) {
         
@@ -1672,7 +1672,7 @@ public final class OmPerformCashAccTransactAd {
         return this;
       }
       /**
-       * <code>optional bool transaction_type_id_null = 1003;</code>
+       * <code>bool transaction_type_id_null = 1003;</code>
        */
       public Builder clearTransactionTypeIdNull() {
         
@@ -1685,13 +1685,13 @@ public final class OmPerformCashAccTransactAd {
       private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.values.DecimalValue, io.dstore.values.DecimalValue.Builder, io.dstore.values.DecimalValueOrBuilder> transactionValueBuilder_;
       /**
-       * <code>optional .dstore.values.DecimalValue transaction_value = 4;</code>
+       * <code>.dstore.values.DecimalValue transaction_value = 4;</code>
        */
       public boolean hasTransactionValue() {
         return transactionValueBuilder_ != null || transactionValue_ != null;
       }
       /**
-       * <code>optional .dstore.values.DecimalValue transaction_value = 4;</code>
+       * <code>.dstore.values.DecimalValue transaction_value = 4;</code>
        */
       public io.dstore.values.DecimalValue getTransactionValue() {
         if (transactionValueBuilder_ == null) {
@@ -1701,7 +1701,7 @@ public final class OmPerformCashAccTransactAd {
         }
       }
       /**
-       * <code>optional .dstore.values.DecimalValue transaction_value = 4;</code>
+       * <code>.dstore.values.DecimalValue transaction_value = 4;</code>
        */
       public Builder setTransactionValue(io.dstore.values.DecimalValue value) {
         if (transactionValueBuilder_ == null) {
@@ -1717,7 +1717,7 @@ public final class OmPerformCashAccTransactAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.DecimalValue transaction_value = 4;</code>
+       * <code>.dstore.values.DecimalValue transaction_value = 4;</code>
        */
       public Builder setTransactionValue(
           io.dstore.values.DecimalValue.Builder builderForValue) {
@@ -1731,7 +1731,7 @@ public final class OmPerformCashAccTransactAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.DecimalValue transaction_value = 4;</code>
+       * <code>.dstore.values.DecimalValue transaction_value = 4;</code>
        */
       public Builder mergeTransactionValue(io.dstore.values.DecimalValue value) {
         if (transactionValueBuilder_ == null) {
@@ -1749,7 +1749,7 @@ public final class OmPerformCashAccTransactAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.DecimalValue transaction_value = 4;</code>
+       * <code>.dstore.values.DecimalValue transaction_value = 4;</code>
        */
       public Builder clearTransactionValue() {
         if (transactionValueBuilder_ == null) {
@@ -1763,7 +1763,7 @@ public final class OmPerformCashAccTransactAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.DecimalValue transaction_value = 4;</code>
+       * <code>.dstore.values.DecimalValue transaction_value = 4;</code>
        */
       public io.dstore.values.DecimalValue.Builder getTransactionValueBuilder() {
         
@@ -1771,7 +1771,7 @@ public final class OmPerformCashAccTransactAd {
         return getTransactionValueFieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .dstore.values.DecimalValue transaction_value = 4;</code>
+       * <code>.dstore.values.DecimalValue transaction_value = 4;</code>
        */
       public io.dstore.values.DecimalValueOrBuilder getTransactionValueOrBuilder() {
         if (transactionValueBuilder_ != null) {
@@ -1782,7 +1782,7 @@ public final class OmPerformCashAccTransactAd {
         }
       }
       /**
-       * <code>optional .dstore.values.DecimalValue transaction_value = 4;</code>
+       * <code>.dstore.values.DecimalValue transaction_value = 4;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.values.DecimalValue, io.dstore.values.DecimalValue.Builder, io.dstore.values.DecimalValueOrBuilder> 
@@ -1800,13 +1800,13 @@ public final class OmPerformCashAccTransactAd {
 
       private boolean transactionValueNull_ ;
       /**
-       * <code>optional bool transaction_value_null = 1004;</code>
+       * <code>bool transaction_value_null = 1004;</code>
        */
       public boolean getTransactionValueNull() {
         return transactionValueNull_;
       }
       /**
-       * <code>optional bool transaction_value_null = 1004;</code>
+       * <code>bool transaction_value_null = 1004;</code>
        */
       public Builder setTransactionValueNull(boolean value) {
         
@@ -1815,7 +1815,7 @@ public final class OmPerformCashAccTransactAd {
         return this;
       }
       /**
-       * <code>optional bool transaction_value_null = 1004;</code>
+       * <code>bool transaction_value_null = 1004;</code>
        */
       public Builder clearTransactionValueNull() {
         
@@ -1828,13 +1828,13 @@ public final class OmPerformCashAccTransactAd {
       private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.values.StringValue, io.dstore.values.StringValue.Builder, io.dstore.values.StringValueOrBuilder> transactionCommentBuilder_;
       /**
-       * <code>optional .dstore.values.StringValue transaction_comment = 5;</code>
+       * <code>.dstore.values.StringValue transaction_comment = 5;</code>
        */
       public boolean hasTransactionComment() {
         return transactionCommentBuilder_ != null || transactionComment_ != null;
       }
       /**
-       * <code>optional .dstore.values.StringValue transaction_comment = 5;</code>
+       * <code>.dstore.values.StringValue transaction_comment = 5;</code>
        */
       public io.dstore.values.StringValue getTransactionComment() {
         if (transactionCommentBuilder_ == null) {
@@ -1844,7 +1844,7 @@ public final class OmPerformCashAccTransactAd {
         }
       }
       /**
-       * <code>optional .dstore.values.StringValue transaction_comment = 5;</code>
+       * <code>.dstore.values.StringValue transaction_comment = 5;</code>
        */
       public Builder setTransactionComment(io.dstore.values.StringValue value) {
         if (transactionCommentBuilder_ == null) {
@@ -1860,7 +1860,7 @@ public final class OmPerformCashAccTransactAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.StringValue transaction_comment = 5;</code>
+       * <code>.dstore.values.StringValue transaction_comment = 5;</code>
        */
       public Builder setTransactionComment(
           io.dstore.values.StringValue.Builder builderForValue) {
@@ -1874,7 +1874,7 @@ public final class OmPerformCashAccTransactAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.StringValue transaction_comment = 5;</code>
+       * <code>.dstore.values.StringValue transaction_comment = 5;</code>
        */
       public Builder mergeTransactionComment(io.dstore.values.StringValue value) {
         if (transactionCommentBuilder_ == null) {
@@ -1892,7 +1892,7 @@ public final class OmPerformCashAccTransactAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.StringValue transaction_comment = 5;</code>
+       * <code>.dstore.values.StringValue transaction_comment = 5;</code>
        */
       public Builder clearTransactionComment() {
         if (transactionCommentBuilder_ == null) {
@@ -1906,7 +1906,7 @@ public final class OmPerformCashAccTransactAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.StringValue transaction_comment = 5;</code>
+       * <code>.dstore.values.StringValue transaction_comment = 5;</code>
        */
       public io.dstore.values.StringValue.Builder getTransactionCommentBuilder() {
         
@@ -1914,7 +1914,7 @@ public final class OmPerformCashAccTransactAd {
         return getTransactionCommentFieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .dstore.values.StringValue transaction_comment = 5;</code>
+       * <code>.dstore.values.StringValue transaction_comment = 5;</code>
        */
       public io.dstore.values.StringValueOrBuilder getTransactionCommentOrBuilder() {
         if (transactionCommentBuilder_ != null) {
@@ -1925,7 +1925,7 @@ public final class OmPerformCashAccTransactAd {
         }
       }
       /**
-       * <code>optional .dstore.values.StringValue transaction_comment = 5;</code>
+       * <code>.dstore.values.StringValue transaction_comment = 5;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.values.StringValue, io.dstore.values.StringValue.Builder, io.dstore.values.StringValueOrBuilder> 
@@ -1943,13 +1943,13 @@ public final class OmPerformCashAccTransactAd {
 
       private boolean transactionCommentNull_ ;
       /**
-       * <code>optional bool transaction_comment_null = 1005;</code>
+       * <code>bool transaction_comment_null = 1005;</code>
        */
       public boolean getTransactionCommentNull() {
         return transactionCommentNull_;
       }
       /**
-       * <code>optional bool transaction_comment_null = 1005;</code>
+       * <code>bool transaction_comment_null = 1005;</code>
        */
       public Builder setTransactionCommentNull(boolean value) {
         
@@ -1958,7 +1958,7 @@ public final class OmPerformCashAccTransactAd {
         return this;
       }
       /**
-       * <code>optional bool transaction_comment_null = 1005;</code>
+       * <code>bool transaction_comment_null = 1005;</code>
        */
       public Builder clearTransactionCommentNull() {
         
@@ -1971,13 +1971,13 @@ public final class OmPerformCashAccTransactAd {
       private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> currencyIdBuilder_;
       /**
-       * <code>optional .dstore.values.IntegerValue currency_id = 6;</code>
+       * <code>.dstore.values.IntegerValue currency_id = 6;</code>
        */
       public boolean hasCurrencyId() {
         return currencyIdBuilder_ != null || currencyId_ != null;
       }
       /**
-       * <code>optional .dstore.values.IntegerValue currency_id = 6;</code>
+       * <code>.dstore.values.IntegerValue currency_id = 6;</code>
        */
       public io.dstore.values.IntegerValue getCurrencyId() {
         if (currencyIdBuilder_ == null) {
@@ -1987,7 +1987,7 @@ public final class OmPerformCashAccTransactAd {
         }
       }
       /**
-       * <code>optional .dstore.values.IntegerValue currency_id = 6;</code>
+       * <code>.dstore.values.IntegerValue currency_id = 6;</code>
        */
       public Builder setCurrencyId(io.dstore.values.IntegerValue value) {
         if (currencyIdBuilder_ == null) {
@@ -2003,7 +2003,7 @@ public final class OmPerformCashAccTransactAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.IntegerValue currency_id = 6;</code>
+       * <code>.dstore.values.IntegerValue currency_id = 6;</code>
        */
       public Builder setCurrencyId(
           io.dstore.values.IntegerValue.Builder builderForValue) {
@@ -2017,7 +2017,7 @@ public final class OmPerformCashAccTransactAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.IntegerValue currency_id = 6;</code>
+       * <code>.dstore.values.IntegerValue currency_id = 6;</code>
        */
       public Builder mergeCurrencyId(io.dstore.values.IntegerValue value) {
         if (currencyIdBuilder_ == null) {
@@ -2035,7 +2035,7 @@ public final class OmPerformCashAccTransactAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.IntegerValue currency_id = 6;</code>
+       * <code>.dstore.values.IntegerValue currency_id = 6;</code>
        */
       public Builder clearCurrencyId() {
         if (currencyIdBuilder_ == null) {
@@ -2049,7 +2049,7 @@ public final class OmPerformCashAccTransactAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.IntegerValue currency_id = 6;</code>
+       * <code>.dstore.values.IntegerValue currency_id = 6;</code>
        */
       public io.dstore.values.IntegerValue.Builder getCurrencyIdBuilder() {
         
@@ -2057,7 +2057,7 @@ public final class OmPerformCashAccTransactAd {
         return getCurrencyIdFieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .dstore.values.IntegerValue currency_id = 6;</code>
+       * <code>.dstore.values.IntegerValue currency_id = 6;</code>
        */
       public io.dstore.values.IntegerValueOrBuilder getCurrencyIdOrBuilder() {
         if (currencyIdBuilder_ != null) {
@@ -2068,7 +2068,7 @@ public final class OmPerformCashAccTransactAd {
         }
       }
       /**
-       * <code>optional .dstore.values.IntegerValue currency_id = 6;</code>
+       * <code>.dstore.values.IntegerValue currency_id = 6;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> 
@@ -2086,13 +2086,13 @@ public final class OmPerformCashAccTransactAd {
 
       private boolean currencyIdNull_ ;
       /**
-       * <code>optional bool currency_id_null = 1006;</code>
+       * <code>bool currency_id_null = 1006;</code>
        */
       public boolean getCurrencyIdNull() {
         return currencyIdNull_;
       }
       /**
-       * <code>optional bool currency_id_null = 1006;</code>
+       * <code>bool currency_id_null = 1006;</code>
        */
       public Builder setCurrencyIdNull(boolean value) {
         
@@ -2101,7 +2101,7 @@ public final class OmPerformCashAccTransactAd {
         return this;
       }
       /**
-       * <code>optional bool currency_id_null = 1006;</code>
+       * <code>bool currency_id_null = 1006;</code>
        */
       public Builder clearCurrencyIdNull() {
         
@@ -2114,13 +2114,13 @@ public final class OmPerformCashAccTransactAd {
       private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.values.TimestampValue, io.dstore.values.TimestampValue.Builder, io.dstore.values.TimestampValueOrBuilder> suspendUntilBuilder_;
       /**
-       * <code>optional .dstore.values.TimestampValue suspend_until = 7;</code>
+       * <code>.dstore.values.TimestampValue suspend_until = 7;</code>
        */
       public boolean hasSuspendUntil() {
         return suspendUntilBuilder_ != null || suspendUntil_ != null;
       }
       /**
-       * <code>optional .dstore.values.TimestampValue suspend_until = 7;</code>
+       * <code>.dstore.values.TimestampValue suspend_until = 7;</code>
        */
       public io.dstore.values.TimestampValue getSuspendUntil() {
         if (suspendUntilBuilder_ == null) {
@@ -2130,7 +2130,7 @@ public final class OmPerformCashAccTransactAd {
         }
       }
       /**
-       * <code>optional .dstore.values.TimestampValue suspend_until = 7;</code>
+       * <code>.dstore.values.TimestampValue suspend_until = 7;</code>
        */
       public Builder setSuspendUntil(io.dstore.values.TimestampValue value) {
         if (suspendUntilBuilder_ == null) {
@@ -2146,7 +2146,7 @@ public final class OmPerformCashAccTransactAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.TimestampValue suspend_until = 7;</code>
+       * <code>.dstore.values.TimestampValue suspend_until = 7;</code>
        */
       public Builder setSuspendUntil(
           io.dstore.values.TimestampValue.Builder builderForValue) {
@@ -2160,7 +2160,7 @@ public final class OmPerformCashAccTransactAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.TimestampValue suspend_until = 7;</code>
+       * <code>.dstore.values.TimestampValue suspend_until = 7;</code>
        */
       public Builder mergeSuspendUntil(io.dstore.values.TimestampValue value) {
         if (suspendUntilBuilder_ == null) {
@@ -2178,7 +2178,7 @@ public final class OmPerformCashAccTransactAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.TimestampValue suspend_until = 7;</code>
+       * <code>.dstore.values.TimestampValue suspend_until = 7;</code>
        */
       public Builder clearSuspendUntil() {
         if (suspendUntilBuilder_ == null) {
@@ -2192,7 +2192,7 @@ public final class OmPerformCashAccTransactAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.TimestampValue suspend_until = 7;</code>
+       * <code>.dstore.values.TimestampValue suspend_until = 7;</code>
        */
       public io.dstore.values.TimestampValue.Builder getSuspendUntilBuilder() {
         
@@ -2200,7 +2200,7 @@ public final class OmPerformCashAccTransactAd {
         return getSuspendUntilFieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .dstore.values.TimestampValue suspend_until = 7;</code>
+       * <code>.dstore.values.TimestampValue suspend_until = 7;</code>
        */
       public io.dstore.values.TimestampValueOrBuilder getSuspendUntilOrBuilder() {
         if (suspendUntilBuilder_ != null) {
@@ -2211,7 +2211,7 @@ public final class OmPerformCashAccTransactAd {
         }
       }
       /**
-       * <code>optional .dstore.values.TimestampValue suspend_until = 7;</code>
+       * <code>.dstore.values.TimestampValue suspend_until = 7;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.values.TimestampValue, io.dstore.values.TimestampValue.Builder, io.dstore.values.TimestampValueOrBuilder> 
@@ -2229,13 +2229,13 @@ public final class OmPerformCashAccTransactAd {
 
       private boolean suspendUntilNull_ ;
       /**
-       * <code>optional bool suspend_until_null = 1007;</code>
+       * <code>bool suspend_until_null = 1007;</code>
        */
       public boolean getSuspendUntilNull() {
         return suspendUntilNull_;
       }
       /**
-       * <code>optional bool suspend_until_null = 1007;</code>
+       * <code>bool suspend_until_null = 1007;</code>
        */
       public Builder setSuspendUntilNull(boolean value) {
         
@@ -2244,7 +2244,7 @@ public final class OmPerformCashAccTransactAd {
         return this;
       }
       /**
-       * <code>optional bool suspend_until_null = 1007;</code>
+       * <code>bool suspend_until_null = 1007;</code>
        */
       public Builder clearSuspendUntilNull() {
         
@@ -2257,13 +2257,13 @@ public final class OmPerformCashAccTransactAd {
       private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.values.StringValue, io.dstore.values.StringValue.Builder, io.dstore.values.StringValueOrBuilder> internalCommentBuilder_;
       /**
-       * <code>optional .dstore.values.StringValue internal_comment = 8;</code>
+       * <code>.dstore.values.StringValue internal_comment = 8;</code>
        */
       public boolean hasInternalComment() {
         return internalCommentBuilder_ != null || internalComment_ != null;
       }
       /**
-       * <code>optional .dstore.values.StringValue internal_comment = 8;</code>
+       * <code>.dstore.values.StringValue internal_comment = 8;</code>
        */
       public io.dstore.values.StringValue getInternalComment() {
         if (internalCommentBuilder_ == null) {
@@ -2273,7 +2273,7 @@ public final class OmPerformCashAccTransactAd {
         }
       }
       /**
-       * <code>optional .dstore.values.StringValue internal_comment = 8;</code>
+       * <code>.dstore.values.StringValue internal_comment = 8;</code>
        */
       public Builder setInternalComment(io.dstore.values.StringValue value) {
         if (internalCommentBuilder_ == null) {
@@ -2289,7 +2289,7 @@ public final class OmPerformCashAccTransactAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.StringValue internal_comment = 8;</code>
+       * <code>.dstore.values.StringValue internal_comment = 8;</code>
        */
       public Builder setInternalComment(
           io.dstore.values.StringValue.Builder builderForValue) {
@@ -2303,7 +2303,7 @@ public final class OmPerformCashAccTransactAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.StringValue internal_comment = 8;</code>
+       * <code>.dstore.values.StringValue internal_comment = 8;</code>
        */
       public Builder mergeInternalComment(io.dstore.values.StringValue value) {
         if (internalCommentBuilder_ == null) {
@@ -2321,7 +2321,7 @@ public final class OmPerformCashAccTransactAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.StringValue internal_comment = 8;</code>
+       * <code>.dstore.values.StringValue internal_comment = 8;</code>
        */
       public Builder clearInternalComment() {
         if (internalCommentBuilder_ == null) {
@@ -2335,7 +2335,7 @@ public final class OmPerformCashAccTransactAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.StringValue internal_comment = 8;</code>
+       * <code>.dstore.values.StringValue internal_comment = 8;</code>
        */
       public io.dstore.values.StringValue.Builder getInternalCommentBuilder() {
         
@@ -2343,7 +2343,7 @@ public final class OmPerformCashAccTransactAd {
         return getInternalCommentFieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .dstore.values.StringValue internal_comment = 8;</code>
+       * <code>.dstore.values.StringValue internal_comment = 8;</code>
        */
       public io.dstore.values.StringValueOrBuilder getInternalCommentOrBuilder() {
         if (internalCommentBuilder_ != null) {
@@ -2354,7 +2354,7 @@ public final class OmPerformCashAccTransactAd {
         }
       }
       /**
-       * <code>optional .dstore.values.StringValue internal_comment = 8;</code>
+       * <code>.dstore.values.StringValue internal_comment = 8;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.values.StringValue, io.dstore.values.StringValue.Builder, io.dstore.values.StringValueOrBuilder> 
@@ -2372,13 +2372,13 @@ public final class OmPerformCashAccTransactAd {
 
       private boolean internalCommentNull_ ;
       /**
-       * <code>optional bool internal_comment_null = 1008;</code>
+       * <code>bool internal_comment_null = 1008;</code>
        */
       public boolean getInternalCommentNull() {
         return internalCommentNull_;
       }
       /**
-       * <code>optional bool internal_comment_null = 1008;</code>
+       * <code>bool internal_comment_null = 1008;</code>
        */
       public Builder setInternalCommentNull(boolean value) {
         
@@ -2387,7 +2387,7 @@ public final class OmPerformCashAccTransactAd {
         return this;
       }
       /**
-       * <code>optional bool internal_comment_null = 1008;</code>
+       * <code>bool internal_comment_null = 1008;</code>
        */
       public Builder clearInternalCommentNull() {
         
@@ -2646,7 +2646,7 @@ public final class OmPerformCashAccTransactAd {
         com.google.protobuf.MessageOrBuilder {
 
       /**
-       * <code>optional int32 row_id = 10000;</code>
+       * <code>int32 row_id = 10000;</code>
        */
       int getRowId();
     }
@@ -2721,7 +2721,7 @@ public final class OmPerformCashAccTransactAd {
       public static final int ROW_ID_FIELD_NUMBER = 10000;
       private int rowId_;
       /**
-       * <code>optional int32 row_id = 10000;</code>
+       * <code>int32 row_id = 10000;</code>
        */
       public int getRowId() {
         return rowId_;
@@ -2780,7 +2780,7 @@ public final class OmPerformCashAccTransactAd {
           return memoizedHashCode;
         }
         int hash = 41;
-        hash = (19 * hash) + getDescriptorForType().hashCode();
+        hash = (19 * hash) + getDescriptor().hashCode();
         hash = (37 * hash) + ROW_ID_FIELD_NUMBER;
         hash = (53 * hash) + getRowId();
         hash = (29 * hash) + unknownFields.hashCode();
@@ -2998,13 +2998,13 @@ public final class OmPerformCashAccTransactAd {
 
         private int rowId_ ;
         /**
-         * <code>optional int32 row_id = 10000;</code>
+         * <code>int32 row_id = 10000;</code>
          */
         public int getRowId() {
           return rowId_;
         }
         /**
-         * <code>optional int32 row_id = 10000;</code>
+         * <code>int32 row_id = 10000;</code>
          */
         public Builder setRowId(int value) {
           
@@ -3013,7 +3013,7 @@ public final class OmPerformCashAccTransactAd {
           return this;
         }
         /**
-         * <code>optional int32 row_id = 10000;</code>
+         * <code>int32 row_id = 10000;</code>
          */
         public Builder clearRowId() {
           
@@ -3266,7 +3266,7 @@ public final class OmPerformCashAccTransactAd {
         return memoizedHashCode;
       }
       int hash = 41;
-      hash = (19 * hash) + getDescriptorForType().hashCode();
+      hash = (19 * hash) + getDescriptor().hashCode();
       if (getMetaInformationCount() > 0) {
         hash = (37 * hash) + META_INFORMATION_FIELD_NUMBER;
         hash = (53 * hash) + getMetaInformationList().hashCode();

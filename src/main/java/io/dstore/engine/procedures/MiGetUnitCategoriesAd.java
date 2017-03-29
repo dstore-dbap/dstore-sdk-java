@@ -19,38 +19,38 @@ public final class MiGetUnitCategoriesAd {
       com.google.protobuf.MessageOrBuilder {
 
     /**
-     * <code>optional .dstore.values.IntegerValue unit_category_id = 1;</code>
+     * <code>.dstore.values.IntegerValue unit_category_id = 1;</code>
      */
     boolean hasUnitCategoryId();
     /**
-     * <code>optional .dstore.values.IntegerValue unit_category_id = 1;</code>
+     * <code>.dstore.values.IntegerValue unit_category_id = 1;</code>
      */
     io.dstore.values.IntegerValue getUnitCategoryId();
     /**
-     * <code>optional .dstore.values.IntegerValue unit_category_id = 1;</code>
+     * <code>.dstore.values.IntegerValue unit_category_id = 1;</code>
      */
     io.dstore.values.IntegerValueOrBuilder getUnitCategoryIdOrBuilder();
 
     /**
-     * <code>optional bool unit_category_id_null = 1001;</code>
+     * <code>bool unit_category_id_null = 1001;</code>
      */
     boolean getUnitCategoryIdNull();
 
     /**
-     * <code>optional .dstore.values.IntegerValue language_id = 2;</code>
+     * <code>.dstore.values.IntegerValue language_id = 2;</code>
      */
     boolean hasLanguageId();
     /**
-     * <code>optional .dstore.values.IntegerValue language_id = 2;</code>
+     * <code>.dstore.values.IntegerValue language_id = 2;</code>
      */
     io.dstore.values.IntegerValue getLanguageId();
     /**
-     * <code>optional .dstore.values.IntegerValue language_id = 2;</code>
+     * <code>.dstore.values.IntegerValue language_id = 2;</code>
      */
     io.dstore.values.IntegerValueOrBuilder getLanguageIdOrBuilder();
 
     /**
-     * <code>optional bool language_id_null = 1002;</code>
+     * <code>bool language_id_null = 1002;</code>
      */
     boolean getLanguageIdNull();
   }
@@ -157,19 +157,19 @@ public final class MiGetUnitCategoriesAd {
     public static final int UNIT_CATEGORY_ID_FIELD_NUMBER = 1;
     private io.dstore.values.IntegerValue unitCategoryId_;
     /**
-     * <code>optional .dstore.values.IntegerValue unit_category_id = 1;</code>
+     * <code>.dstore.values.IntegerValue unit_category_id = 1;</code>
      */
     public boolean hasUnitCategoryId() {
       return unitCategoryId_ != null;
     }
     /**
-     * <code>optional .dstore.values.IntegerValue unit_category_id = 1;</code>
+     * <code>.dstore.values.IntegerValue unit_category_id = 1;</code>
      */
     public io.dstore.values.IntegerValue getUnitCategoryId() {
       return unitCategoryId_ == null ? io.dstore.values.IntegerValue.getDefaultInstance() : unitCategoryId_;
     }
     /**
-     * <code>optional .dstore.values.IntegerValue unit_category_id = 1;</code>
+     * <code>.dstore.values.IntegerValue unit_category_id = 1;</code>
      */
     public io.dstore.values.IntegerValueOrBuilder getUnitCategoryIdOrBuilder() {
       return getUnitCategoryId();
@@ -178,7 +178,7 @@ public final class MiGetUnitCategoriesAd {
     public static final int UNIT_CATEGORY_ID_NULL_FIELD_NUMBER = 1001;
     private boolean unitCategoryIdNull_;
     /**
-     * <code>optional bool unit_category_id_null = 1001;</code>
+     * <code>bool unit_category_id_null = 1001;</code>
      */
     public boolean getUnitCategoryIdNull() {
       return unitCategoryIdNull_;
@@ -187,19 +187,19 @@ public final class MiGetUnitCategoriesAd {
     public static final int LANGUAGE_ID_FIELD_NUMBER = 2;
     private io.dstore.values.IntegerValue languageId_;
     /**
-     * <code>optional .dstore.values.IntegerValue language_id = 2;</code>
+     * <code>.dstore.values.IntegerValue language_id = 2;</code>
      */
     public boolean hasLanguageId() {
       return languageId_ != null;
     }
     /**
-     * <code>optional .dstore.values.IntegerValue language_id = 2;</code>
+     * <code>.dstore.values.IntegerValue language_id = 2;</code>
      */
     public io.dstore.values.IntegerValue getLanguageId() {
       return languageId_ == null ? io.dstore.values.IntegerValue.getDefaultInstance() : languageId_;
     }
     /**
-     * <code>optional .dstore.values.IntegerValue language_id = 2;</code>
+     * <code>.dstore.values.IntegerValue language_id = 2;</code>
      */
     public io.dstore.values.IntegerValueOrBuilder getLanguageIdOrBuilder() {
       return getLanguageId();
@@ -208,7 +208,7 @@ public final class MiGetUnitCategoriesAd {
     public static final int LANGUAGE_ID_NULL_FIELD_NUMBER = 1002;
     private boolean languageIdNull_;
     /**
-     * <code>optional bool language_id_null = 1002;</code>
+     * <code>bool language_id_null = 1002;</code>
      */
     public boolean getLanguageIdNull() {
       return languageIdNull_;
@@ -300,7 +300,7 @@ public final class MiGetUnitCategoriesAd {
         return memoizedHashCode;
       }
       int hash = 41;
-      hash = (19 * hash) + getDescriptorForType().hashCode();
+      hash = (19 * hash) + getDescriptor().hashCode();
       if (hasUnitCategoryId()) {
         hash = (37 * hash) + UNIT_CATEGORY_ID_FIELD_NUMBER;
         hash = (53 * hash) + getUnitCategoryId().hashCode();
@@ -566,13 +566,13 @@ public final class MiGetUnitCategoriesAd {
       private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> unitCategoryIdBuilder_;
       /**
-       * <code>optional .dstore.values.IntegerValue unit_category_id = 1;</code>
+       * <code>.dstore.values.IntegerValue unit_category_id = 1;</code>
        */
       public boolean hasUnitCategoryId() {
         return unitCategoryIdBuilder_ != null || unitCategoryId_ != null;
       }
       /**
-       * <code>optional .dstore.values.IntegerValue unit_category_id = 1;</code>
+       * <code>.dstore.values.IntegerValue unit_category_id = 1;</code>
        */
       public io.dstore.values.IntegerValue getUnitCategoryId() {
         if (unitCategoryIdBuilder_ == null) {
@@ -582,7 +582,7 @@ public final class MiGetUnitCategoriesAd {
         }
       }
       /**
-       * <code>optional .dstore.values.IntegerValue unit_category_id = 1;</code>
+       * <code>.dstore.values.IntegerValue unit_category_id = 1;</code>
        */
       public Builder setUnitCategoryId(io.dstore.values.IntegerValue value) {
         if (unitCategoryIdBuilder_ == null) {
@@ -598,7 +598,7 @@ public final class MiGetUnitCategoriesAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.IntegerValue unit_category_id = 1;</code>
+       * <code>.dstore.values.IntegerValue unit_category_id = 1;</code>
        */
       public Builder setUnitCategoryId(
           io.dstore.values.IntegerValue.Builder builderForValue) {
@@ -612,7 +612,7 @@ public final class MiGetUnitCategoriesAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.IntegerValue unit_category_id = 1;</code>
+       * <code>.dstore.values.IntegerValue unit_category_id = 1;</code>
        */
       public Builder mergeUnitCategoryId(io.dstore.values.IntegerValue value) {
         if (unitCategoryIdBuilder_ == null) {
@@ -630,7 +630,7 @@ public final class MiGetUnitCategoriesAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.IntegerValue unit_category_id = 1;</code>
+       * <code>.dstore.values.IntegerValue unit_category_id = 1;</code>
        */
       public Builder clearUnitCategoryId() {
         if (unitCategoryIdBuilder_ == null) {
@@ -644,7 +644,7 @@ public final class MiGetUnitCategoriesAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.IntegerValue unit_category_id = 1;</code>
+       * <code>.dstore.values.IntegerValue unit_category_id = 1;</code>
        */
       public io.dstore.values.IntegerValue.Builder getUnitCategoryIdBuilder() {
         
@@ -652,7 +652,7 @@ public final class MiGetUnitCategoriesAd {
         return getUnitCategoryIdFieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .dstore.values.IntegerValue unit_category_id = 1;</code>
+       * <code>.dstore.values.IntegerValue unit_category_id = 1;</code>
        */
       public io.dstore.values.IntegerValueOrBuilder getUnitCategoryIdOrBuilder() {
         if (unitCategoryIdBuilder_ != null) {
@@ -663,7 +663,7 @@ public final class MiGetUnitCategoriesAd {
         }
       }
       /**
-       * <code>optional .dstore.values.IntegerValue unit_category_id = 1;</code>
+       * <code>.dstore.values.IntegerValue unit_category_id = 1;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> 
@@ -681,13 +681,13 @@ public final class MiGetUnitCategoriesAd {
 
       private boolean unitCategoryIdNull_ ;
       /**
-       * <code>optional bool unit_category_id_null = 1001;</code>
+       * <code>bool unit_category_id_null = 1001;</code>
        */
       public boolean getUnitCategoryIdNull() {
         return unitCategoryIdNull_;
       }
       /**
-       * <code>optional bool unit_category_id_null = 1001;</code>
+       * <code>bool unit_category_id_null = 1001;</code>
        */
       public Builder setUnitCategoryIdNull(boolean value) {
         
@@ -696,7 +696,7 @@ public final class MiGetUnitCategoriesAd {
         return this;
       }
       /**
-       * <code>optional bool unit_category_id_null = 1001;</code>
+       * <code>bool unit_category_id_null = 1001;</code>
        */
       public Builder clearUnitCategoryIdNull() {
         
@@ -709,13 +709,13 @@ public final class MiGetUnitCategoriesAd {
       private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> languageIdBuilder_;
       /**
-       * <code>optional .dstore.values.IntegerValue language_id = 2;</code>
+       * <code>.dstore.values.IntegerValue language_id = 2;</code>
        */
       public boolean hasLanguageId() {
         return languageIdBuilder_ != null || languageId_ != null;
       }
       /**
-       * <code>optional .dstore.values.IntegerValue language_id = 2;</code>
+       * <code>.dstore.values.IntegerValue language_id = 2;</code>
        */
       public io.dstore.values.IntegerValue getLanguageId() {
         if (languageIdBuilder_ == null) {
@@ -725,7 +725,7 @@ public final class MiGetUnitCategoriesAd {
         }
       }
       /**
-       * <code>optional .dstore.values.IntegerValue language_id = 2;</code>
+       * <code>.dstore.values.IntegerValue language_id = 2;</code>
        */
       public Builder setLanguageId(io.dstore.values.IntegerValue value) {
         if (languageIdBuilder_ == null) {
@@ -741,7 +741,7 @@ public final class MiGetUnitCategoriesAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.IntegerValue language_id = 2;</code>
+       * <code>.dstore.values.IntegerValue language_id = 2;</code>
        */
       public Builder setLanguageId(
           io.dstore.values.IntegerValue.Builder builderForValue) {
@@ -755,7 +755,7 @@ public final class MiGetUnitCategoriesAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.IntegerValue language_id = 2;</code>
+       * <code>.dstore.values.IntegerValue language_id = 2;</code>
        */
       public Builder mergeLanguageId(io.dstore.values.IntegerValue value) {
         if (languageIdBuilder_ == null) {
@@ -773,7 +773,7 @@ public final class MiGetUnitCategoriesAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.IntegerValue language_id = 2;</code>
+       * <code>.dstore.values.IntegerValue language_id = 2;</code>
        */
       public Builder clearLanguageId() {
         if (languageIdBuilder_ == null) {
@@ -787,7 +787,7 @@ public final class MiGetUnitCategoriesAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.IntegerValue language_id = 2;</code>
+       * <code>.dstore.values.IntegerValue language_id = 2;</code>
        */
       public io.dstore.values.IntegerValue.Builder getLanguageIdBuilder() {
         
@@ -795,7 +795,7 @@ public final class MiGetUnitCategoriesAd {
         return getLanguageIdFieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .dstore.values.IntegerValue language_id = 2;</code>
+       * <code>.dstore.values.IntegerValue language_id = 2;</code>
        */
       public io.dstore.values.IntegerValueOrBuilder getLanguageIdOrBuilder() {
         if (languageIdBuilder_ != null) {
@@ -806,7 +806,7 @@ public final class MiGetUnitCategoriesAd {
         }
       }
       /**
-       * <code>optional .dstore.values.IntegerValue language_id = 2;</code>
+       * <code>.dstore.values.IntegerValue language_id = 2;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> 
@@ -824,13 +824,13 @@ public final class MiGetUnitCategoriesAd {
 
       private boolean languageIdNull_ ;
       /**
-       * <code>optional bool language_id_null = 1002;</code>
+       * <code>bool language_id_null = 1002;</code>
        */
       public boolean getLanguageIdNull() {
         return languageIdNull_;
       }
       /**
-       * <code>optional bool language_id_null = 1002;</code>
+       * <code>bool language_id_null = 1002;</code>
        */
       public Builder setLanguageIdNull(boolean value) {
         
@@ -839,7 +839,7 @@ public final class MiGetUnitCategoriesAd {
         return this;
       }
       /**
-       * <code>optional bool language_id_null = 1002;</code>
+       * <code>bool language_id_null = 1002;</code>
        */
       public Builder clearLanguageIdNull() {
         
@@ -1098,7 +1098,7 @@ public final class MiGetUnitCategoriesAd {
         com.google.protobuf.MessageOrBuilder {
 
       /**
-       * <code>optional int32 row_id = 10000;</code>
+       * <code>int32 row_id = 10000;</code>
        */
       int getRowId();
 
@@ -1107,7 +1107,7 @@ public final class MiGetUnitCategoriesAd {
        * ID einer Kategorie für Einheiten (z.B. "1" für "Währung").
        * </pre>
        *
-       * <code>optional .dstore.values.IntegerValue unit_category_id = 10001;</code>
+       * <code>.dstore.values.IntegerValue unit_category_id = 10001;</code>
        */
       boolean hasUnitCategoryId();
       /**
@@ -1115,7 +1115,7 @@ public final class MiGetUnitCategoriesAd {
        * ID einer Kategorie für Einheiten (z.B. "1" für "Währung").
        * </pre>
        *
-       * <code>optional .dstore.values.IntegerValue unit_category_id = 10001;</code>
+       * <code>.dstore.values.IntegerValue unit_category_id = 10001;</code>
        */
       io.dstore.values.IntegerValue getUnitCategoryId();
       /**
@@ -1123,7 +1123,7 @@ public final class MiGetUnitCategoriesAd {
        * ID einer Kategorie für Einheiten (z.B. "1" für "Währung").
        * </pre>
        *
-       * <code>optional .dstore.values.IntegerValue unit_category_id = 10001;</code>
+       * <code>.dstore.values.IntegerValue unit_category_id = 10001;</code>
        */
       io.dstore.values.IntegerValueOrBuilder getUnitCategoryIdOrBuilder();
 
@@ -1132,7 +1132,7 @@ public final class MiGetUnitCategoriesAd {
        * Bezeichnung der Kategorie "UnitCategoryID". Wenn eine "&#64;LanguageID" ("&lt;&gt; 0" übergeben wurde, es aber keine Übersetzung in dieser Sprache gibt, wird die "Default"-Bezeichnung ausgegeben.
        * </pre>
        *
-       * <code>optional .dstore.values.StringValue unit_category_description = 10002;</code>
+       * <code>.dstore.values.StringValue unit_category_description = 10002;</code>
        */
       boolean hasUnitCategoryDescription();
       /**
@@ -1140,7 +1140,7 @@ public final class MiGetUnitCategoriesAd {
        * Bezeichnung der Kategorie "UnitCategoryID". Wenn eine "&#64;LanguageID" ("&lt;&gt; 0" übergeben wurde, es aber keine Übersetzung in dieser Sprache gibt, wird die "Default"-Bezeichnung ausgegeben.
        * </pre>
        *
-       * <code>optional .dstore.values.StringValue unit_category_description = 10002;</code>
+       * <code>.dstore.values.StringValue unit_category_description = 10002;</code>
        */
       io.dstore.values.StringValue getUnitCategoryDescription();
       /**
@@ -1148,7 +1148,7 @@ public final class MiGetUnitCategoriesAd {
        * Bezeichnung der Kategorie "UnitCategoryID". Wenn eine "&#64;LanguageID" ("&lt;&gt; 0" übergeben wurde, es aber keine Übersetzung in dieser Sprache gibt, wird die "Default"-Bezeichnung ausgegeben.
        * </pre>
        *
-       * <code>optional .dstore.values.StringValue unit_category_description = 10002;</code>
+       * <code>.dstore.values.StringValue unit_category_description = 10002;</code>
        */
       io.dstore.values.StringValueOrBuilder getUnitCategoryDescriptionOrBuilder();
     }
@@ -1249,7 +1249,7 @@ public final class MiGetUnitCategoriesAd {
       public static final int ROW_ID_FIELD_NUMBER = 10000;
       private int rowId_;
       /**
-       * <code>optional int32 row_id = 10000;</code>
+       * <code>int32 row_id = 10000;</code>
        */
       public int getRowId() {
         return rowId_;
@@ -1262,7 +1262,7 @@ public final class MiGetUnitCategoriesAd {
        * ID einer Kategorie für Einheiten (z.B. "1" für "Währung").
        * </pre>
        *
-       * <code>optional .dstore.values.IntegerValue unit_category_id = 10001;</code>
+       * <code>.dstore.values.IntegerValue unit_category_id = 10001;</code>
        */
       public boolean hasUnitCategoryId() {
         return unitCategoryId_ != null;
@@ -1272,7 +1272,7 @@ public final class MiGetUnitCategoriesAd {
        * ID einer Kategorie für Einheiten (z.B. "1" für "Währung").
        * </pre>
        *
-       * <code>optional .dstore.values.IntegerValue unit_category_id = 10001;</code>
+       * <code>.dstore.values.IntegerValue unit_category_id = 10001;</code>
        */
       public io.dstore.values.IntegerValue getUnitCategoryId() {
         return unitCategoryId_ == null ? io.dstore.values.IntegerValue.getDefaultInstance() : unitCategoryId_;
@@ -1282,7 +1282,7 @@ public final class MiGetUnitCategoriesAd {
        * ID einer Kategorie für Einheiten (z.B. "1" für "Währung").
        * </pre>
        *
-       * <code>optional .dstore.values.IntegerValue unit_category_id = 10001;</code>
+       * <code>.dstore.values.IntegerValue unit_category_id = 10001;</code>
        */
       public io.dstore.values.IntegerValueOrBuilder getUnitCategoryIdOrBuilder() {
         return getUnitCategoryId();
@@ -1295,7 +1295,7 @@ public final class MiGetUnitCategoriesAd {
        * Bezeichnung der Kategorie "UnitCategoryID". Wenn eine "&#64;LanguageID" ("&lt;&gt; 0" übergeben wurde, es aber keine Übersetzung in dieser Sprache gibt, wird die "Default"-Bezeichnung ausgegeben.
        * </pre>
        *
-       * <code>optional .dstore.values.StringValue unit_category_description = 10002;</code>
+       * <code>.dstore.values.StringValue unit_category_description = 10002;</code>
        */
       public boolean hasUnitCategoryDescription() {
         return unitCategoryDescription_ != null;
@@ -1305,7 +1305,7 @@ public final class MiGetUnitCategoriesAd {
        * Bezeichnung der Kategorie "UnitCategoryID". Wenn eine "&#64;LanguageID" ("&lt;&gt; 0" übergeben wurde, es aber keine Übersetzung in dieser Sprache gibt, wird die "Default"-Bezeichnung ausgegeben.
        * </pre>
        *
-       * <code>optional .dstore.values.StringValue unit_category_description = 10002;</code>
+       * <code>.dstore.values.StringValue unit_category_description = 10002;</code>
        */
       public io.dstore.values.StringValue getUnitCategoryDescription() {
         return unitCategoryDescription_ == null ? io.dstore.values.StringValue.getDefaultInstance() : unitCategoryDescription_;
@@ -1315,7 +1315,7 @@ public final class MiGetUnitCategoriesAd {
        * Bezeichnung der Kategorie "UnitCategoryID". Wenn eine "&#64;LanguageID" ("&lt;&gt; 0" übergeben wurde, es aber keine Übersetzung in dieser Sprache gibt, wird die "Default"-Bezeichnung ausgegeben.
        * </pre>
        *
-       * <code>optional .dstore.values.StringValue unit_category_description = 10002;</code>
+       * <code>.dstore.values.StringValue unit_category_description = 10002;</code>
        */
       public io.dstore.values.StringValueOrBuilder getUnitCategoryDescriptionOrBuilder() {
         return getUnitCategoryDescription();
@@ -1398,7 +1398,7 @@ public final class MiGetUnitCategoriesAd {
           return memoizedHashCode;
         }
         int hash = 41;
-        hash = (19 * hash) + getDescriptorForType().hashCode();
+        hash = (19 * hash) + getDescriptor().hashCode();
         hash = (37 * hash) + ROW_ID_FIELD_NUMBER;
         hash = (53 * hash) + getRowId();
         if (hasUnitCategoryId()) {
@@ -1652,13 +1652,13 @@ public final class MiGetUnitCategoriesAd {
 
         private int rowId_ ;
         /**
-         * <code>optional int32 row_id = 10000;</code>
+         * <code>int32 row_id = 10000;</code>
          */
         public int getRowId() {
           return rowId_;
         }
         /**
-         * <code>optional int32 row_id = 10000;</code>
+         * <code>int32 row_id = 10000;</code>
          */
         public Builder setRowId(int value) {
           
@@ -1667,7 +1667,7 @@ public final class MiGetUnitCategoriesAd {
           return this;
         }
         /**
-         * <code>optional int32 row_id = 10000;</code>
+         * <code>int32 row_id = 10000;</code>
          */
         public Builder clearRowId() {
           
@@ -1684,7 +1684,7 @@ public final class MiGetUnitCategoriesAd {
          * ID einer Kategorie für Einheiten (z.B. "1" für "Währung").
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue unit_category_id = 10001;</code>
+         * <code>.dstore.values.IntegerValue unit_category_id = 10001;</code>
          */
         public boolean hasUnitCategoryId() {
           return unitCategoryIdBuilder_ != null || unitCategoryId_ != null;
@@ -1694,7 +1694,7 @@ public final class MiGetUnitCategoriesAd {
          * ID einer Kategorie für Einheiten (z.B. "1" für "Währung").
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue unit_category_id = 10001;</code>
+         * <code>.dstore.values.IntegerValue unit_category_id = 10001;</code>
          */
         public io.dstore.values.IntegerValue getUnitCategoryId() {
           if (unitCategoryIdBuilder_ == null) {
@@ -1708,7 +1708,7 @@ public final class MiGetUnitCategoriesAd {
          * ID einer Kategorie für Einheiten (z.B. "1" für "Währung").
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue unit_category_id = 10001;</code>
+         * <code>.dstore.values.IntegerValue unit_category_id = 10001;</code>
          */
         public Builder setUnitCategoryId(io.dstore.values.IntegerValue value) {
           if (unitCategoryIdBuilder_ == null) {
@@ -1728,7 +1728,7 @@ public final class MiGetUnitCategoriesAd {
          * ID einer Kategorie für Einheiten (z.B. "1" für "Währung").
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue unit_category_id = 10001;</code>
+         * <code>.dstore.values.IntegerValue unit_category_id = 10001;</code>
          */
         public Builder setUnitCategoryId(
             io.dstore.values.IntegerValue.Builder builderForValue) {
@@ -1746,7 +1746,7 @@ public final class MiGetUnitCategoriesAd {
          * ID einer Kategorie für Einheiten (z.B. "1" für "Währung").
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue unit_category_id = 10001;</code>
+         * <code>.dstore.values.IntegerValue unit_category_id = 10001;</code>
          */
         public Builder mergeUnitCategoryId(io.dstore.values.IntegerValue value) {
           if (unitCategoryIdBuilder_ == null) {
@@ -1768,7 +1768,7 @@ public final class MiGetUnitCategoriesAd {
          * ID einer Kategorie für Einheiten (z.B. "1" für "Währung").
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue unit_category_id = 10001;</code>
+         * <code>.dstore.values.IntegerValue unit_category_id = 10001;</code>
          */
         public Builder clearUnitCategoryId() {
           if (unitCategoryIdBuilder_ == null) {
@@ -1786,7 +1786,7 @@ public final class MiGetUnitCategoriesAd {
          * ID einer Kategorie für Einheiten (z.B. "1" für "Währung").
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue unit_category_id = 10001;</code>
+         * <code>.dstore.values.IntegerValue unit_category_id = 10001;</code>
          */
         public io.dstore.values.IntegerValue.Builder getUnitCategoryIdBuilder() {
           
@@ -1798,7 +1798,7 @@ public final class MiGetUnitCategoriesAd {
          * ID einer Kategorie für Einheiten (z.B. "1" für "Währung").
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue unit_category_id = 10001;</code>
+         * <code>.dstore.values.IntegerValue unit_category_id = 10001;</code>
          */
         public io.dstore.values.IntegerValueOrBuilder getUnitCategoryIdOrBuilder() {
           if (unitCategoryIdBuilder_ != null) {
@@ -1813,7 +1813,7 @@ public final class MiGetUnitCategoriesAd {
          * ID einer Kategorie für Einheiten (z.B. "1" für "Währung").
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue unit_category_id = 10001;</code>
+         * <code>.dstore.values.IntegerValue unit_category_id = 10001;</code>
          */
         private com.google.protobuf.SingleFieldBuilderV3<
             io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> 
@@ -1837,7 +1837,7 @@ public final class MiGetUnitCategoriesAd {
          * Bezeichnung der Kategorie "UnitCategoryID". Wenn eine "&#64;LanguageID" ("&lt;&gt; 0" übergeben wurde, es aber keine Übersetzung in dieser Sprache gibt, wird die "Default"-Bezeichnung ausgegeben.
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue unit_category_description = 10002;</code>
+         * <code>.dstore.values.StringValue unit_category_description = 10002;</code>
          */
         public boolean hasUnitCategoryDescription() {
           return unitCategoryDescriptionBuilder_ != null || unitCategoryDescription_ != null;
@@ -1847,7 +1847,7 @@ public final class MiGetUnitCategoriesAd {
          * Bezeichnung der Kategorie "UnitCategoryID". Wenn eine "&#64;LanguageID" ("&lt;&gt; 0" übergeben wurde, es aber keine Übersetzung in dieser Sprache gibt, wird die "Default"-Bezeichnung ausgegeben.
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue unit_category_description = 10002;</code>
+         * <code>.dstore.values.StringValue unit_category_description = 10002;</code>
          */
         public io.dstore.values.StringValue getUnitCategoryDescription() {
           if (unitCategoryDescriptionBuilder_ == null) {
@@ -1861,7 +1861,7 @@ public final class MiGetUnitCategoriesAd {
          * Bezeichnung der Kategorie "UnitCategoryID". Wenn eine "&#64;LanguageID" ("&lt;&gt; 0" übergeben wurde, es aber keine Übersetzung in dieser Sprache gibt, wird die "Default"-Bezeichnung ausgegeben.
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue unit_category_description = 10002;</code>
+         * <code>.dstore.values.StringValue unit_category_description = 10002;</code>
          */
         public Builder setUnitCategoryDescription(io.dstore.values.StringValue value) {
           if (unitCategoryDescriptionBuilder_ == null) {
@@ -1881,7 +1881,7 @@ public final class MiGetUnitCategoriesAd {
          * Bezeichnung der Kategorie "UnitCategoryID". Wenn eine "&#64;LanguageID" ("&lt;&gt; 0" übergeben wurde, es aber keine Übersetzung in dieser Sprache gibt, wird die "Default"-Bezeichnung ausgegeben.
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue unit_category_description = 10002;</code>
+         * <code>.dstore.values.StringValue unit_category_description = 10002;</code>
          */
         public Builder setUnitCategoryDescription(
             io.dstore.values.StringValue.Builder builderForValue) {
@@ -1899,7 +1899,7 @@ public final class MiGetUnitCategoriesAd {
          * Bezeichnung der Kategorie "UnitCategoryID". Wenn eine "&#64;LanguageID" ("&lt;&gt; 0" übergeben wurde, es aber keine Übersetzung in dieser Sprache gibt, wird die "Default"-Bezeichnung ausgegeben.
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue unit_category_description = 10002;</code>
+         * <code>.dstore.values.StringValue unit_category_description = 10002;</code>
          */
         public Builder mergeUnitCategoryDescription(io.dstore.values.StringValue value) {
           if (unitCategoryDescriptionBuilder_ == null) {
@@ -1921,7 +1921,7 @@ public final class MiGetUnitCategoriesAd {
          * Bezeichnung der Kategorie "UnitCategoryID". Wenn eine "&#64;LanguageID" ("&lt;&gt; 0" übergeben wurde, es aber keine Übersetzung in dieser Sprache gibt, wird die "Default"-Bezeichnung ausgegeben.
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue unit_category_description = 10002;</code>
+         * <code>.dstore.values.StringValue unit_category_description = 10002;</code>
          */
         public Builder clearUnitCategoryDescription() {
           if (unitCategoryDescriptionBuilder_ == null) {
@@ -1939,7 +1939,7 @@ public final class MiGetUnitCategoriesAd {
          * Bezeichnung der Kategorie "UnitCategoryID". Wenn eine "&#64;LanguageID" ("&lt;&gt; 0" übergeben wurde, es aber keine Übersetzung in dieser Sprache gibt, wird die "Default"-Bezeichnung ausgegeben.
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue unit_category_description = 10002;</code>
+         * <code>.dstore.values.StringValue unit_category_description = 10002;</code>
          */
         public io.dstore.values.StringValue.Builder getUnitCategoryDescriptionBuilder() {
           
@@ -1951,7 +1951,7 @@ public final class MiGetUnitCategoriesAd {
          * Bezeichnung der Kategorie "UnitCategoryID". Wenn eine "&#64;LanguageID" ("&lt;&gt; 0" übergeben wurde, es aber keine Übersetzung in dieser Sprache gibt, wird die "Default"-Bezeichnung ausgegeben.
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue unit_category_description = 10002;</code>
+         * <code>.dstore.values.StringValue unit_category_description = 10002;</code>
          */
         public io.dstore.values.StringValueOrBuilder getUnitCategoryDescriptionOrBuilder() {
           if (unitCategoryDescriptionBuilder_ != null) {
@@ -1966,7 +1966,7 @@ public final class MiGetUnitCategoriesAd {
          * Bezeichnung der Kategorie "UnitCategoryID". Wenn eine "&#64;LanguageID" ("&lt;&gt; 0" übergeben wurde, es aber keine Übersetzung in dieser Sprache gibt, wird die "Default"-Bezeichnung ausgegeben.
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue unit_category_description = 10002;</code>
+         * <code>.dstore.values.StringValue unit_category_description = 10002;</code>
          */
         private com.google.protobuf.SingleFieldBuilderV3<
             io.dstore.values.StringValue, io.dstore.values.StringValue.Builder, io.dstore.values.StringValueOrBuilder> 
@@ -2226,7 +2226,7 @@ public final class MiGetUnitCategoriesAd {
         return memoizedHashCode;
       }
       int hash = 41;
-      hash = (19 * hash) + getDescriptorForType().hashCode();
+      hash = (19 * hash) + getDescriptor().hashCode();
       if (getMetaInformationCount() > 0) {
         hash = (37 * hash) + META_INFORMATION_FIELD_NUMBER;
         hash = (53 * hash) + getMetaInformationList().hashCode();

@@ -123,7 +123,7 @@ public final class MiGetInformationTypesAd {
         return memoizedHashCode;
       }
       int hash = 41;
-      hash = (19 * hash) + getDescriptorForType().hashCode();
+      hash = (19 * hash) + getDescriptor().hashCode();
       hash = (29 * hash) + unknownFields.hashCode();
       memoizedHashCode = hash;
       return hash;
@@ -581,7 +581,7 @@ public final class MiGetInformationTypesAd {
         com.google.protobuf.MessageOrBuilder {
 
       /**
-       * <code>optional int32 row_id = 10000;</code>
+       * <code>int32 row_id = 10000;</code>
        */
       int getRowId();
 
@@ -590,7 +590,7 @@ public final class MiGetInformationTypesAd {
        * ID eines Informationstyps
        * </pre>
        *
-       * <code>optional .dstore.values.IntegerValue information_type_id = 10001;</code>
+       * <code>.dstore.values.IntegerValue information_type_id = 10001;</code>
        */
       boolean hasInformationTypeId();
       /**
@@ -598,7 +598,7 @@ public final class MiGetInformationTypesAd {
        * ID eines Informationstyps
        * </pre>
        *
-       * <code>optional .dstore.values.IntegerValue information_type_id = 10001;</code>
+       * <code>.dstore.values.IntegerValue information_type_id = 10001;</code>
        */
       io.dstore.values.IntegerValue getInformationTypeId();
       /**
@@ -606,7 +606,7 @@ public final class MiGetInformationTypesAd {
        * ID eines Informationstyps
        * </pre>
        *
-       * <code>optional .dstore.values.IntegerValue information_type_id = 10001;</code>
+       * <code>.dstore.values.IntegerValue information_type_id = 10001;</code>
        */
       io.dstore.values.IntegerValueOrBuilder getInformationTypeIdOrBuilder();
 
@@ -615,7 +615,7 @@ public final class MiGetInformationTypesAd {
        * Bezeichung der "InformationTypeID"
        * </pre>
        *
-       * <code>optional .dstore.values.StringValue information_type = 10002;</code>
+       * <code>.dstore.values.StringValue information_type = 10002;</code>
        */
       boolean hasInformationType();
       /**
@@ -623,7 +623,7 @@ public final class MiGetInformationTypesAd {
        * Bezeichung der "InformationTypeID"
        * </pre>
        *
-       * <code>optional .dstore.values.StringValue information_type = 10002;</code>
+       * <code>.dstore.values.StringValue information_type = 10002;</code>
        */
       io.dstore.values.StringValue getInformationType();
       /**
@@ -631,7 +631,7 @@ public final class MiGetInformationTypesAd {
        * Bezeichung der "InformationTypeID"
        * </pre>
        *
-       * <code>optional .dstore.values.StringValue information_type = 10002;</code>
+       * <code>.dstore.values.StringValue information_type = 10002;</code>
        */
       io.dstore.values.StringValueOrBuilder getInformationTypeOrBuilder();
     }
@@ -732,7 +732,7 @@ public final class MiGetInformationTypesAd {
       public static final int ROW_ID_FIELD_NUMBER = 10000;
       private int rowId_;
       /**
-       * <code>optional int32 row_id = 10000;</code>
+       * <code>int32 row_id = 10000;</code>
        */
       public int getRowId() {
         return rowId_;
@@ -745,7 +745,7 @@ public final class MiGetInformationTypesAd {
        * ID eines Informationstyps
        * </pre>
        *
-       * <code>optional .dstore.values.IntegerValue information_type_id = 10001;</code>
+       * <code>.dstore.values.IntegerValue information_type_id = 10001;</code>
        */
       public boolean hasInformationTypeId() {
         return informationTypeId_ != null;
@@ -755,7 +755,7 @@ public final class MiGetInformationTypesAd {
        * ID eines Informationstyps
        * </pre>
        *
-       * <code>optional .dstore.values.IntegerValue information_type_id = 10001;</code>
+       * <code>.dstore.values.IntegerValue information_type_id = 10001;</code>
        */
       public io.dstore.values.IntegerValue getInformationTypeId() {
         return informationTypeId_ == null ? io.dstore.values.IntegerValue.getDefaultInstance() : informationTypeId_;
@@ -765,7 +765,7 @@ public final class MiGetInformationTypesAd {
        * ID eines Informationstyps
        * </pre>
        *
-       * <code>optional .dstore.values.IntegerValue information_type_id = 10001;</code>
+       * <code>.dstore.values.IntegerValue information_type_id = 10001;</code>
        */
       public io.dstore.values.IntegerValueOrBuilder getInformationTypeIdOrBuilder() {
         return getInformationTypeId();
@@ -778,7 +778,7 @@ public final class MiGetInformationTypesAd {
        * Bezeichung der "InformationTypeID"
        * </pre>
        *
-       * <code>optional .dstore.values.StringValue information_type = 10002;</code>
+       * <code>.dstore.values.StringValue information_type = 10002;</code>
        */
       public boolean hasInformationType() {
         return informationType_ != null;
@@ -788,7 +788,7 @@ public final class MiGetInformationTypesAd {
        * Bezeichung der "InformationTypeID"
        * </pre>
        *
-       * <code>optional .dstore.values.StringValue information_type = 10002;</code>
+       * <code>.dstore.values.StringValue information_type = 10002;</code>
        */
       public io.dstore.values.StringValue getInformationType() {
         return informationType_ == null ? io.dstore.values.StringValue.getDefaultInstance() : informationType_;
@@ -798,7 +798,7 @@ public final class MiGetInformationTypesAd {
        * Bezeichung der "InformationTypeID"
        * </pre>
        *
-       * <code>optional .dstore.values.StringValue information_type = 10002;</code>
+       * <code>.dstore.values.StringValue information_type = 10002;</code>
        */
       public io.dstore.values.StringValueOrBuilder getInformationTypeOrBuilder() {
         return getInformationType();
@@ -881,7 +881,7 @@ public final class MiGetInformationTypesAd {
           return memoizedHashCode;
         }
         int hash = 41;
-        hash = (19 * hash) + getDescriptorForType().hashCode();
+        hash = (19 * hash) + getDescriptor().hashCode();
         hash = (37 * hash) + ROW_ID_FIELD_NUMBER;
         hash = (53 * hash) + getRowId();
         if (hasInformationTypeId()) {
@@ -1135,13 +1135,13 @@ public final class MiGetInformationTypesAd {
 
         private int rowId_ ;
         /**
-         * <code>optional int32 row_id = 10000;</code>
+         * <code>int32 row_id = 10000;</code>
          */
         public int getRowId() {
           return rowId_;
         }
         /**
-         * <code>optional int32 row_id = 10000;</code>
+         * <code>int32 row_id = 10000;</code>
          */
         public Builder setRowId(int value) {
           
@@ -1150,7 +1150,7 @@ public final class MiGetInformationTypesAd {
           return this;
         }
         /**
-         * <code>optional int32 row_id = 10000;</code>
+         * <code>int32 row_id = 10000;</code>
          */
         public Builder clearRowId() {
           
@@ -1167,7 +1167,7 @@ public final class MiGetInformationTypesAd {
          * ID eines Informationstyps
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue information_type_id = 10001;</code>
+         * <code>.dstore.values.IntegerValue information_type_id = 10001;</code>
          */
         public boolean hasInformationTypeId() {
           return informationTypeIdBuilder_ != null || informationTypeId_ != null;
@@ -1177,7 +1177,7 @@ public final class MiGetInformationTypesAd {
          * ID eines Informationstyps
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue information_type_id = 10001;</code>
+         * <code>.dstore.values.IntegerValue information_type_id = 10001;</code>
          */
         public io.dstore.values.IntegerValue getInformationTypeId() {
           if (informationTypeIdBuilder_ == null) {
@@ -1191,7 +1191,7 @@ public final class MiGetInformationTypesAd {
          * ID eines Informationstyps
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue information_type_id = 10001;</code>
+         * <code>.dstore.values.IntegerValue information_type_id = 10001;</code>
          */
         public Builder setInformationTypeId(io.dstore.values.IntegerValue value) {
           if (informationTypeIdBuilder_ == null) {
@@ -1211,7 +1211,7 @@ public final class MiGetInformationTypesAd {
          * ID eines Informationstyps
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue information_type_id = 10001;</code>
+         * <code>.dstore.values.IntegerValue information_type_id = 10001;</code>
          */
         public Builder setInformationTypeId(
             io.dstore.values.IntegerValue.Builder builderForValue) {
@@ -1229,7 +1229,7 @@ public final class MiGetInformationTypesAd {
          * ID eines Informationstyps
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue information_type_id = 10001;</code>
+         * <code>.dstore.values.IntegerValue information_type_id = 10001;</code>
          */
         public Builder mergeInformationTypeId(io.dstore.values.IntegerValue value) {
           if (informationTypeIdBuilder_ == null) {
@@ -1251,7 +1251,7 @@ public final class MiGetInformationTypesAd {
          * ID eines Informationstyps
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue information_type_id = 10001;</code>
+         * <code>.dstore.values.IntegerValue information_type_id = 10001;</code>
          */
         public Builder clearInformationTypeId() {
           if (informationTypeIdBuilder_ == null) {
@@ -1269,7 +1269,7 @@ public final class MiGetInformationTypesAd {
          * ID eines Informationstyps
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue information_type_id = 10001;</code>
+         * <code>.dstore.values.IntegerValue information_type_id = 10001;</code>
          */
         public io.dstore.values.IntegerValue.Builder getInformationTypeIdBuilder() {
           
@@ -1281,7 +1281,7 @@ public final class MiGetInformationTypesAd {
          * ID eines Informationstyps
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue information_type_id = 10001;</code>
+         * <code>.dstore.values.IntegerValue information_type_id = 10001;</code>
          */
         public io.dstore.values.IntegerValueOrBuilder getInformationTypeIdOrBuilder() {
           if (informationTypeIdBuilder_ != null) {
@@ -1296,7 +1296,7 @@ public final class MiGetInformationTypesAd {
          * ID eines Informationstyps
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue information_type_id = 10001;</code>
+         * <code>.dstore.values.IntegerValue information_type_id = 10001;</code>
          */
         private com.google.protobuf.SingleFieldBuilderV3<
             io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> 
@@ -1320,7 +1320,7 @@ public final class MiGetInformationTypesAd {
          * Bezeichung der "InformationTypeID"
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue information_type = 10002;</code>
+         * <code>.dstore.values.StringValue information_type = 10002;</code>
          */
         public boolean hasInformationType() {
           return informationTypeBuilder_ != null || informationType_ != null;
@@ -1330,7 +1330,7 @@ public final class MiGetInformationTypesAd {
          * Bezeichung der "InformationTypeID"
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue information_type = 10002;</code>
+         * <code>.dstore.values.StringValue information_type = 10002;</code>
          */
         public io.dstore.values.StringValue getInformationType() {
           if (informationTypeBuilder_ == null) {
@@ -1344,7 +1344,7 @@ public final class MiGetInformationTypesAd {
          * Bezeichung der "InformationTypeID"
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue information_type = 10002;</code>
+         * <code>.dstore.values.StringValue information_type = 10002;</code>
          */
         public Builder setInformationType(io.dstore.values.StringValue value) {
           if (informationTypeBuilder_ == null) {
@@ -1364,7 +1364,7 @@ public final class MiGetInformationTypesAd {
          * Bezeichung der "InformationTypeID"
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue information_type = 10002;</code>
+         * <code>.dstore.values.StringValue information_type = 10002;</code>
          */
         public Builder setInformationType(
             io.dstore.values.StringValue.Builder builderForValue) {
@@ -1382,7 +1382,7 @@ public final class MiGetInformationTypesAd {
          * Bezeichung der "InformationTypeID"
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue information_type = 10002;</code>
+         * <code>.dstore.values.StringValue information_type = 10002;</code>
          */
         public Builder mergeInformationType(io.dstore.values.StringValue value) {
           if (informationTypeBuilder_ == null) {
@@ -1404,7 +1404,7 @@ public final class MiGetInformationTypesAd {
          * Bezeichung der "InformationTypeID"
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue information_type = 10002;</code>
+         * <code>.dstore.values.StringValue information_type = 10002;</code>
          */
         public Builder clearInformationType() {
           if (informationTypeBuilder_ == null) {
@@ -1422,7 +1422,7 @@ public final class MiGetInformationTypesAd {
          * Bezeichung der "InformationTypeID"
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue information_type = 10002;</code>
+         * <code>.dstore.values.StringValue information_type = 10002;</code>
          */
         public io.dstore.values.StringValue.Builder getInformationTypeBuilder() {
           
@@ -1434,7 +1434,7 @@ public final class MiGetInformationTypesAd {
          * Bezeichung der "InformationTypeID"
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue information_type = 10002;</code>
+         * <code>.dstore.values.StringValue information_type = 10002;</code>
          */
         public io.dstore.values.StringValueOrBuilder getInformationTypeOrBuilder() {
           if (informationTypeBuilder_ != null) {
@@ -1449,7 +1449,7 @@ public final class MiGetInformationTypesAd {
          * Bezeichung der "InformationTypeID"
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue information_type = 10002;</code>
+         * <code>.dstore.values.StringValue information_type = 10002;</code>
          */
         private com.google.protobuf.SingleFieldBuilderV3<
             io.dstore.values.StringValue, io.dstore.values.StringValue.Builder, io.dstore.values.StringValueOrBuilder> 
@@ -1709,7 +1709,7 @@ public final class MiGetInformationTypesAd {
         return memoizedHashCode;
       }
       int hash = 41;
-      hash = (19 * hash) + getDescriptorForType().hashCode();
+      hash = (19 * hash) + getDescriptor().hashCode();
       if (getMetaInformationCount() > 0) {
         hash = (37 * hash) + META_INFORMATION_FIELD_NUMBER;
         hash = (53 * hash) + getMetaInformationList().hashCode();

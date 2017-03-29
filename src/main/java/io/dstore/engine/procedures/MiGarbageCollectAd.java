@@ -19,56 +19,56 @@ public final class MiGarbageCollectAd {
       com.google.protobuf.MessageOrBuilder {
 
     /**
-     * <code>optional .dstore.values.BooleanValue check_for_correct_date = 1;</code>
+     * <code>.dstore.values.BooleanValue check_for_correct_date = 1;</code>
      */
     boolean hasCheckForCorrectDate();
     /**
-     * <code>optional .dstore.values.BooleanValue check_for_correct_date = 1;</code>
+     * <code>.dstore.values.BooleanValue check_for_correct_date = 1;</code>
      */
     io.dstore.values.BooleanValue getCheckForCorrectDate();
     /**
-     * <code>optional .dstore.values.BooleanValue check_for_correct_date = 1;</code>
+     * <code>.dstore.values.BooleanValue check_for_correct_date = 1;</code>
      */
     io.dstore.values.BooleanValueOrBuilder getCheckForCorrectDateOrBuilder();
 
     /**
-     * <code>optional bool check_for_correct_date_null = 1001;</code>
+     * <code>bool check_for_correct_date_null = 1001;</code>
      */
     boolean getCheckForCorrectDateNull();
 
     /**
-     * <code>optional .dstore.values.StringValue tables_to_garbage_collect = 2;</code>
+     * <code>.dstore.values.StringValue tables_to_garbage_collect = 2;</code>
      */
     boolean hasTablesToGarbageCollect();
     /**
-     * <code>optional .dstore.values.StringValue tables_to_garbage_collect = 2;</code>
+     * <code>.dstore.values.StringValue tables_to_garbage_collect = 2;</code>
      */
     io.dstore.values.StringValue getTablesToGarbageCollect();
     /**
-     * <code>optional .dstore.values.StringValue tables_to_garbage_collect = 2;</code>
+     * <code>.dstore.values.StringValue tables_to_garbage_collect = 2;</code>
      */
     io.dstore.values.StringValueOrBuilder getTablesToGarbageCollectOrBuilder();
 
     /**
-     * <code>optional bool tables_to_garbage_collect_null = 1002;</code>
+     * <code>bool tables_to_garbage_collect_null = 1002;</code>
      */
     boolean getTablesToGarbageCollectNull();
 
     /**
-     * <code>optional .dstore.values.IntegerValue print_status_msg = 3;</code>
+     * <code>.dstore.values.IntegerValue print_status_msg = 3;</code>
      */
     boolean hasPrintStatusMsg();
     /**
-     * <code>optional .dstore.values.IntegerValue print_status_msg = 3;</code>
+     * <code>.dstore.values.IntegerValue print_status_msg = 3;</code>
      */
     io.dstore.values.IntegerValue getPrintStatusMsg();
     /**
-     * <code>optional .dstore.values.IntegerValue print_status_msg = 3;</code>
+     * <code>.dstore.values.IntegerValue print_status_msg = 3;</code>
      */
     io.dstore.values.IntegerValueOrBuilder getPrintStatusMsgOrBuilder();
 
     /**
-     * <code>optional bool print_status_msg_null = 1003;</code>
+     * <code>bool print_status_msg_null = 1003;</code>
      */
     boolean getPrintStatusMsgNull();
   }
@@ -194,19 +194,19 @@ public final class MiGarbageCollectAd {
     public static final int CHECK_FOR_CORRECT_DATE_FIELD_NUMBER = 1;
     private io.dstore.values.BooleanValue checkForCorrectDate_;
     /**
-     * <code>optional .dstore.values.BooleanValue check_for_correct_date = 1;</code>
+     * <code>.dstore.values.BooleanValue check_for_correct_date = 1;</code>
      */
     public boolean hasCheckForCorrectDate() {
       return checkForCorrectDate_ != null;
     }
     /**
-     * <code>optional .dstore.values.BooleanValue check_for_correct_date = 1;</code>
+     * <code>.dstore.values.BooleanValue check_for_correct_date = 1;</code>
      */
     public io.dstore.values.BooleanValue getCheckForCorrectDate() {
       return checkForCorrectDate_ == null ? io.dstore.values.BooleanValue.getDefaultInstance() : checkForCorrectDate_;
     }
     /**
-     * <code>optional .dstore.values.BooleanValue check_for_correct_date = 1;</code>
+     * <code>.dstore.values.BooleanValue check_for_correct_date = 1;</code>
      */
     public io.dstore.values.BooleanValueOrBuilder getCheckForCorrectDateOrBuilder() {
       return getCheckForCorrectDate();
@@ -215,7 +215,7 @@ public final class MiGarbageCollectAd {
     public static final int CHECK_FOR_CORRECT_DATE_NULL_FIELD_NUMBER = 1001;
     private boolean checkForCorrectDateNull_;
     /**
-     * <code>optional bool check_for_correct_date_null = 1001;</code>
+     * <code>bool check_for_correct_date_null = 1001;</code>
      */
     public boolean getCheckForCorrectDateNull() {
       return checkForCorrectDateNull_;
@@ -224,19 +224,19 @@ public final class MiGarbageCollectAd {
     public static final int TABLES_TO_GARBAGE_COLLECT_FIELD_NUMBER = 2;
     private io.dstore.values.StringValue tablesToGarbageCollect_;
     /**
-     * <code>optional .dstore.values.StringValue tables_to_garbage_collect = 2;</code>
+     * <code>.dstore.values.StringValue tables_to_garbage_collect = 2;</code>
      */
     public boolean hasTablesToGarbageCollect() {
       return tablesToGarbageCollect_ != null;
     }
     /**
-     * <code>optional .dstore.values.StringValue tables_to_garbage_collect = 2;</code>
+     * <code>.dstore.values.StringValue tables_to_garbage_collect = 2;</code>
      */
     public io.dstore.values.StringValue getTablesToGarbageCollect() {
       return tablesToGarbageCollect_ == null ? io.dstore.values.StringValue.getDefaultInstance() : tablesToGarbageCollect_;
     }
     /**
-     * <code>optional .dstore.values.StringValue tables_to_garbage_collect = 2;</code>
+     * <code>.dstore.values.StringValue tables_to_garbage_collect = 2;</code>
      */
     public io.dstore.values.StringValueOrBuilder getTablesToGarbageCollectOrBuilder() {
       return getTablesToGarbageCollect();
@@ -245,7 +245,7 @@ public final class MiGarbageCollectAd {
     public static final int TABLES_TO_GARBAGE_COLLECT_NULL_FIELD_NUMBER = 1002;
     private boolean tablesToGarbageCollectNull_;
     /**
-     * <code>optional bool tables_to_garbage_collect_null = 1002;</code>
+     * <code>bool tables_to_garbage_collect_null = 1002;</code>
      */
     public boolean getTablesToGarbageCollectNull() {
       return tablesToGarbageCollectNull_;
@@ -254,19 +254,19 @@ public final class MiGarbageCollectAd {
     public static final int PRINT_STATUS_MSG_FIELD_NUMBER = 3;
     private io.dstore.values.IntegerValue printStatusMsg_;
     /**
-     * <code>optional .dstore.values.IntegerValue print_status_msg = 3;</code>
+     * <code>.dstore.values.IntegerValue print_status_msg = 3;</code>
      */
     public boolean hasPrintStatusMsg() {
       return printStatusMsg_ != null;
     }
     /**
-     * <code>optional .dstore.values.IntegerValue print_status_msg = 3;</code>
+     * <code>.dstore.values.IntegerValue print_status_msg = 3;</code>
      */
     public io.dstore.values.IntegerValue getPrintStatusMsg() {
       return printStatusMsg_ == null ? io.dstore.values.IntegerValue.getDefaultInstance() : printStatusMsg_;
     }
     /**
-     * <code>optional .dstore.values.IntegerValue print_status_msg = 3;</code>
+     * <code>.dstore.values.IntegerValue print_status_msg = 3;</code>
      */
     public io.dstore.values.IntegerValueOrBuilder getPrintStatusMsgOrBuilder() {
       return getPrintStatusMsg();
@@ -275,7 +275,7 @@ public final class MiGarbageCollectAd {
     public static final int PRINT_STATUS_MSG_NULL_FIELD_NUMBER = 1003;
     private boolean printStatusMsgNull_;
     /**
-     * <code>optional bool print_status_msg_null = 1003;</code>
+     * <code>bool print_status_msg_null = 1003;</code>
      */
     public boolean getPrintStatusMsgNull() {
       return printStatusMsgNull_;
@@ -388,7 +388,7 @@ public final class MiGarbageCollectAd {
         return memoizedHashCode;
       }
       int hash = 41;
-      hash = (19 * hash) + getDescriptorForType().hashCode();
+      hash = (19 * hash) + getDescriptor().hashCode();
       if (hasCheckForCorrectDate()) {
         hash = (37 * hash) + CHECK_FOR_CORRECT_DATE_FIELD_NUMBER;
         hash = (53 * hash) + getCheckForCorrectDate().hashCode();
@@ -681,13 +681,13 @@ public final class MiGarbageCollectAd {
       private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.values.BooleanValue, io.dstore.values.BooleanValue.Builder, io.dstore.values.BooleanValueOrBuilder> checkForCorrectDateBuilder_;
       /**
-       * <code>optional .dstore.values.BooleanValue check_for_correct_date = 1;</code>
+       * <code>.dstore.values.BooleanValue check_for_correct_date = 1;</code>
        */
       public boolean hasCheckForCorrectDate() {
         return checkForCorrectDateBuilder_ != null || checkForCorrectDate_ != null;
       }
       /**
-       * <code>optional .dstore.values.BooleanValue check_for_correct_date = 1;</code>
+       * <code>.dstore.values.BooleanValue check_for_correct_date = 1;</code>
        */
       public io.dstore.values.BooleanValue getCheckForCorrectDate() {
         if (checkForCorrectDateBuilder_ == null) {
@@ -697,7 +697,7 @@ public final class MiGarbageCollectAd {
         }
       }
       /**
-       * <code>optional .dstore.values.BooleanValue check_for_correct_date = 1;</code>
+       * <code>.dstore.values.BooleanValue check_for_correct_date = 1;</code>
        */
       public Builder setCheckForCorrectDate(io.dstore.values.BooleanValue value) {
         if (checkForCorrectDateBuilder_ == null) {
@@ -713,7 +713,7 @@ public final class MiGarbageCollectAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.BooleanValue check_for_correct_date = 1;</code>
+       * <code>.dstore.values.BooleanValue check_for_correct_date = 1;</code>
        */
       public Builder setCheckForCorrectDate(
           io.dstore.values.BooleanValue.Builder builderForValue) {
@@ -727,7 +727,7 @@ public final class MiGarbageCollectAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.BooleanValue check_for_correct_date = 1;</code>
+       * <code>.dstore.values.BooleanValue check_for_correct_date = 1;</code>
        */
       public Builder mergeCheckForCorrectDate(io.dstore.values.BooleanValue value) {
         if (checkForCorrectDateBuilder_ == null) {
@@ -745,7 +745,7 @@ public final class MiGarbageCollectAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.BooleanValue check_for_correct_date = 1;</code>
+       * <code>.dstore.values.BooleanValue check_for_correct_date = 1;</code>
        */
       public Builder clearCheckForCorrectDate() {
         if (checkForCorrectDateBuilder_ == null) {
@@ -759,7 +759,7 @@ public final class MiGarbageCollectAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.BooleanValue check_for_correct_date = 1;</code>
+       * <code>.dstore.values.BooleanValue check_for_correct_date = 1;</code>
        */
       public io.dstore.values.BooleanValue.Builder getCheckForCorrectDateBuilder() {
         
@@ -767,7 +767,7 @@ public final class MiGarbageCollectAd {
         return getCheckForCorrectDateFieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .dstore.values.BooleanValue check_for_correct_date = 1;</code>
+       * <code>.dstore.values.BooleanValue check_for_correct_date = 1;</code>
        */
       public io.dstore.values.BooleanValueOrBuilder getCheckForCorrectDateOrBuilder() {
         if (checkForCorrectDateBuilder_ != null) {
@@ -778,7 +778,7 @@ public final class MiGarbageCollectAd {
         }
       }
       /**
-       * <code>optional .dstore.values.BooleanValue check_for_correct_date = 1;</code>
+       * <code>.dstore.values.BooleanValue check_for_correct_date = 1;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.values.BooleanValue, io.dstore.values.BooleanValue.Builder, io.dstore.values.BooleanValueOrBuilder> 
@@ -796,13 +796,13 @@ public final class MiGarbageCollectAd {
 
       private boolean checkForCorrectDateNull_ ;
       /**
-       * <code>optional bool check_for_correct_date_null = 1001;</code>
+       * <code>bool check_for_correct_date_null = 1001;</code>
        */
       public boolean getCheckForCorrectDateNull() {
         return checkForCorrectDateNull_;
       }
       /**
-       * <code>optional bool check_for_correct_date_null = 1001;</code>
+       * <code>bool check_for_correct_date_null = 1001;</code>
        */
       public Builder setCheckForCorrectDateNull(boolean value) {
         
@@ -811,7 +811,7 @@ public final class MiGarbageCollectAd {
         return this;
       }
       /**
-       * <code>optional bool check_for_correct_date_null = 1001;</code>
+       * <code>bool check_for_correct_date_null = 1001;</code>
        */
       public Builder clearCheckForCorrectDateNull() {
         
@@ -824,13 +824,13 @@ public final class MiGarbageCollectAd {
       private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.values.StringValue, io.dstore.values.StringValue.Builder, io.dstore.values.StringValueOrBuilder> tablesToGarbageCollectBuilder_;
       /**
-       * <code>optional .dstore.values.StringValue tables_to_garbage_collect = 2;</code>
+       * <code>.dstore.values.StringValue tables_to_garbage_collect = 2;</code>
        */
       public boolean hasTablesToGarbageCollect() {
         return tablesToGarbageCollectBuilder_ != null || tablesToGarbageCollect_ != null;
       }
       /**
-       * <code>optional .dstore.values.StringValue tables_to_garbage_collect = 2;</code>
+       * <code>.dstore.values.StringValue tables_to_garbage_collect = 2;</code>
        */
       public io.dstore.values.StringValue getTablesToGarbageCollect() {
         if (tablesToGarbageCollectBuilder_ == null) {
@@ -840,7 +840,7 @@ public final class MiGarbageCollectAd {
         }
       }
       /**
-       * <code>optional .dstore.values.StringValue tables_to_garbage_collect = 2;</code>
+       * <code>.dstore.values.StringValue tables_to_garbage_collect = 2;</code>
        */
       public Builder setTablesToGarbageCollect(io.dstore.values.StringValue value) {
         if (tablesToGarbageCollectBuilder_ == null) {
@@ -856,7 +856,7 @@ public final class MiGarbageCollectAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.StringValue tables_to_garbage_collect = 2;</code>
+       * <code>.dstore.values.StringValue tables_to_garbage_collect = 2;</code>
        */
       public Builder setTablesToGarbageCollect(
           io.dstore.values.StringValue.Builder builderForValue) {
@@ -870,7 +870,7 @@ public final class MiGarbageCollectAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.StringValue tables_to_garbage_collect = 2;</code>
+       * <code>.dstore.values.StringValue tables_to_garbage_collect = 2;</code>
        */
       public Builder mergeTablesToGarbageCollect(io.dstore.values.StringValue value) {
         if (tablesToGarbageCollectBuilder_ == null) {
@@ -888,7 +888,7 @@ public final class MiGarbageCollectAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.StringValue tables_to_garbage_collect = 2;</code>
+       * <code>.dstore.values.StringValue tables_to_garbage_collect = 2;</code>
        */
       public Builder clearTablesToGarbageCollect() {
         if (tablesToGarbageCollectBuilder_ == null) {
@@ -902,7 +902,7 @@ public final class MiGarbageCollectAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.StringValue tables_to_garbage_collect = 2;</code>
+       * <code>.dstore.values.StringValue tables_to_garbage_collect = 2;</code>
        */
       public io.dstore.values.StringValue.Builder getTablesToGarbageCollectBuilder() {
         
@@ -910,7 +910,7 @@ public final class MiGarbageCollectAd {
         return getTablesToGarbageCollectFieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .dstore.values.StringValue tables_to_garbage_collect = 2;</code>
+       * <code>.dstore.values.StringValue tables_to_garbage_collect = 2;</code>
        */
       public io.dstore.values.StringValueOrBuilder getTablesToGarbageCollectOrBuilder() {
         if (tablesToGarbageCollectBuilder_ != null) {
@@ -921,7 +921,7 @@ public final class MiGarbageCollectAd {
         }
       }
       /**
-       * <code>optional .dstore.values.StringValue tables_to_garbage_collect = 2;</code>
+       * <code>.dstore.values.StringValue tables_to_garbage_collect = 2;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.values.StringValue, io.dstore.values.StringValue.Builder, io.dstore.values.StringValueOrBuilder> 
@@ -939,13 +939,13 @@ public final class MiGarbageCollectAd {
 
       private boolean tablesToGarbageCollectNull_ ;
       /**
-       * <code>optional bool tables_to_garbage_collect_null = 1002;</code>
+       * <code>bool tables_to_garbage_collect_null = 1002;</code>
        */
       public boolean getTablesToGarbageCollectNull() {
         return tablesToGarbageCollectNull_;
       }
       /**
-       * <code>optional bool tables_to_garbage_collect_null = 1002;</code>
+       * <code>bool tables_to_garbage_collect_null = 1002;</code>
        */
       public Builder setTablesToGarbageCollectNull(boolean value) {
         
@@ -954,7 +954,7 @@ public final class MiGarbageCollectAd {
         return this;
       }
       /**
-       * <code>optional bool tables_to_garbage_collect_null = 1002;</code>
+       * <code>bool tables_to_garbage_collect_null = 1002;</code>
        */
       public Builder clearTablesToGarbageCollectNull() {
         
@@ -967,13 +967,13 @@ public final class MiGarbageCollectAd {
       private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> printStatusMsgBuilder_;
       /**
-       * <code>optional .dstore.values.IntegerValue print_status_msg = 3;</code>
+       * <code>.dstore.values.IntegerValue print_status_msg = 3;</code>
        */
       public boolean hasPrintStatusMsg() {
         return printStatusMsgBuilder_ != null || printStatusMsg_ != null;
       }
       /**
-       * <code>optional .dstore.values.IntegerValue print_status_msg = 3;</code>
+       * <code>.dstore.values.IntegerValue print_status_msg = 3;</code>
        */
       public io.dstore.values.IntegerValue getPrintStatusMsg() {
         if (printStatusMsgBuilder_ == null) {
@@ -983,7 +983,7 @@ public final class MiGarbageCollectAd {
         }
       }
       /**
-       * <code>optional .dstore.values.IntegerValue print_status_msg = 3;</code>
+       * <code>.dstore.values.IntegerValue print_status_msg = 3;</code>
        */
       public Builder setPrintStatusMsg(io.dstore.values.IntegerValue value) {
         if (printStatusMsgBuilder_ == null) {
@@ -999,7 +999,7 @@ public final class MiGarbageCollectAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.IntegerValue print_status_msg = 3;</code>
+       * <code>.dstore.values.IntegerValue print_status_msg = 3;</code>
        */
       public Builder setPrintStatusMsg(
           io.dstore.values.IntegerValue.Builder builderForValue) {
@@ -1013,7 +1013,7 @@ public final class MiGarbageCollectAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.IntegerValue print_status_msg = 3;</code>
+       * <code>.dstore.values.IntegerValue print_status_msg = 3;</code>
        */
       public Builder mergePrintStatusMsg(io.dstore.values.IntegerValue value) {
         if (printStatusMsgBuilder_ == null) {
@@ -1031,7 +1031,7 @@ public final class MiGarbageCollectAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.IntegerValue print_status_msg = 3;</code>
+       * <code>.dstore.values.IntegerValue print_status_msg = 3;</code>
        */
       public Builder clearPrintStatusMsg() {
         if (printStatusMsgBuilder_ == null) {
@@ -1045,7 +1045,7 @@ public final class MiGarbageCollectAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.IntegerValue print_status_msg = 3;</code>
+       * <code>.dstore.values.IntegerValue print_status_msg = 3;</code>
        */
       public io.dstore.values.IntegerValue.Builder getPrintStatusMsgBuilder() {
         
@@ -1053,7 +1053,7 @@ public final class MiGarbageCollectAd {
         return getPrintStatusMsgFieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .dstore.values.IntegerValue print_status_msg = 3;</code>
+       * <code>.dstore.values.IntegerValue print_status_msg = 3;</code>
        */
       public io.dstore.values.IntegerValueOrBuilder getPrintStatusMsgOrBuilder() {
         if (printStatusMsgBuilder_ != null) {
@@ -1064,7 +1064,7 @@ public final class MiGarbageCollectAd {
         }
       }
       /**
-       * <code>optional .dstore.values.IntegerValue print_status_msg = 3;</code>
+       * <code>.dstore.values.IntegerValue print_status_msg = 3;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> 
@@ -1082,13 +1082,13 @@ public final class MiGarbageCollectAd {
 
       private boolean printStatusMsgNull_ ;
       /**
-       * <code>optional bool print_status_msg_null = 1003;</code>
+       * <code>bool print_status_msg_null = 1003;</code>
        */
       public boolean getPrintStatusMsgNull() {
         return printStatusMsgNull_;
       }
       /**
-       * <code>optional bool print_status_msg_null = 1003;</code>
+       * <code>bool print_status_msg_null = 1003;</code>
        */
       public Builder setPrintStatusMsgNull(boolean value) {
         
@@ -1097,7 +1097,7 @@ public final class MiGarbageCollectAd {
         return this;
       }
       /**
-       * <code>optional bool print_status_msg_null = 1003;</code>
+       * <code>bool print_status_msg_null = 1003;</code>
        */
       public Builder clearPrintStatusMsgNull() {
         
@@ -1356,7 +1356,7 @@ public final class MiGarbageCollectAd {
         com.google.protobuf.MessageOrBuilder {
 
       /**
-       * <code>optional int32 row_id = 10000;</code>
+       * <code>int32 row_id = 10000;</code>
        */
       int getRowId();
     }
@@ -1431,7 +1431,7 @@ public final class MiGarbageCollectAd {
       public static final int ROW_ID_FIELD_NUMBER = 10000;
       private int rowId_;
       /**
-       * <code>optional int32 row_id = 10000;</code>
+       * <code>int32 row_id = 10000;</code>
        */
       public int getRowId() {
         return rowId_;
@@ -1490,7 +1490,7 @@ public final class MiGarbageCollectAd {
           return memoizedHashCode;
         }
         int hash = 41;
-        hash = (19 * hash) + getDescriptorForType().hashCode();
+        hash = (19 * hash) + getDescriptor().hashCode();
         hash = (37 * hash) + ROW_ID_FIELD_NUMBER;
         hash = (53 * hash) + getRowId();
         hash = (29 * hash) + unknownFields.hashCode();
@@ -1708,13 +1708,13 @@ public final class MiGarbageCollectAd {
 
         private int rowId_ ;
         /**
-         * <code>optional int32 row_id = 10000;</code>
+         * <code>int32 row_id = 10000;</code>
          */
         public int getRowId() {
           return rowId_;
         }
         /**
-         * <code>optional int32 row_id = 10000;</code>
+         * <code>int32 row_id = 10000;</code>
          */
         public Builder setRowId(int value) {
           
@@ -1723,7 +1723,7 @@ public final class MiGarbageCollectAd {
           return this;
         }
         /**
-         * <code>optional int32 row_id = 10000;</code>
+         * <code>int32 row_id = 10000;</code>
          */
         public Builder clearRowId() {
           
@@ -1976,7 +1976,7 @@ public final class MiGarbageCollectAd {
         return memoizedHashCode;
       }
       int hash = 41;
-      hash = (19 * hash) + getDescriptorForType().hashCode();
+      hash = (19 * hash) + getDescriptor().hashCode();
       if (getMetaInformationCount() > 0) {
         hash = (37 * hash) + META_INFORMATION_FIELD_NUMBER;
         hash = (53 * hash) + getMetaInformationList().hashCode();

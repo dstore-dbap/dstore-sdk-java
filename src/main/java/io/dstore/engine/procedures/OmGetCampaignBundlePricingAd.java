@@ -19,56 +19,56 @@ public final class OmGetCampaignBundlePricingAd {
       com.google.protobuf.MessageOrBuilder {
 
     /**
-     * <code>optional .dstore.values.IntegerValue campaign_id = 1;</code>
+     * <code>.dstore.values.IntegerValue campaign_id = 1;</code>
      */
     boolean hasCampaignId();
     /**
-     * <code>optional .dstore.values.IntegerValue campaign_id = 1;</code>
+     * <code>.dstore.values.IntegerValue campaign_id = 1;</code>
      */
     io.dstore.values.IntegerValue getCampaignId();
     /**
-     * <code>optional .dstore.values.IntegerValue campaign_id = 1;</code>
+     * <code>.dstore.values.IntegerValue campaign_id = 1;</code>
      */
     io.dstore.values.IntegerValueOrBuilder getCampaignIdOrBuilder();
 
     /**
-     * <code>optional bool campaign_id_null = 1001;</code>
+     * <code>bool campaign_id_null = 1001;</code>
      */
     boolean getCampaignIdNull();
 
     /**
-     * <code>optional .dstore.values.IntegerValue benefit_id = 2;</code>
+     * <code>.dstore.values.IntegerValue benefit_id = 2;</code>
      */
     boolean hasBenefitId();
     /**
-     * <code>optional .dstore.values.IntegerValue benefit_id = 2;</code>
+     * <code>.dstore.values.IntegerValue benefit_id = 2;</code>
      */
     io.dstore.values.IntegerValue getBenefitId();
     /**
-     * <code>optional .dstore.values.IntegerValue benefit_id = 2;</code>
+     * <code>.dstore.values.IntegerValue benefit_id = 2;</code>
      */
     io.dstore.values.IntegerValueOrBuilder getBenefitIdOrBuilder();
 
     /**
-     * <code>optional bool benefit_id_null = 1002;</code>
+     * <code>bool benefit_id_null = 1002;</code>
      */
     boolean getBenefitIdNull();
 
     /**
-     * <code>optional .dstore.values.BooleanValue get_assigned_sets = 3;</code>
+     * <code>.dstore.values.BooleanValue get_assigned_sets = 3;</code>
      */
     boolean hasGetAssignedSets();
     /**
-     * <code>optional .dstore.values.BooleanValue get_assigned_sets = 3;</code>
+     * <code>.dstore.values.BooleanValue get_assigned_sets = 3;</code>
      */
     io.dstore.values.BooleanValue getGetAssignedSets();
     /**
-     * <code>optional .dstore.values.BooleanValue get_assigned_sets = 3;</code>
+     * <code>.dstore.values.BooleanValue get_assigned_sets = 3;</code>
      */
     io.dstore.values.BooleanValueOrBuilder getGetAssignedSetsOrBuilder();
 
     /**
-     * <code>optional bool get_assigned_sets_null = 1003;</code>
+     * <code>bool get_assigned_sets_null = 1003;</code>
      */
     boolean getGetAssignedSetsNull();
   }
@@ -194,19 +194,19 @@ public final class OmGetCampaignBundlePricingAd {
     public static final int CAMPAIGN_ID_FIELD_NUMBER = 1;
     private io.dstore.values.IntegerValue campaignId_;
     /**
-     * <code>optional .dstore.values.IntegerValue campaign_id = 1;</code>
+     * <code>.dstore.values.IntegerValue campaign_id = 1;</code>
      */
     public boolean hasCampaignId() {
       return campaignId_ != null;
     }
     /**
-     * <code>optional .dstore.values.IntegerValue campaign_id = 1;</code>
+     * <code>.dstore.values.IntegerValue campaign_id = 1;</code>
      */
     public io.dstore.values.IntegerValue getCampaignId() {
       return campaignId_ == null ? io.dstore.values.IntegerValue.getDefaultInstance() : campaignId_;
     }
     /**
-     * <code>optional .dstore.values.IntegerValue campaign_id = 1;</code>
+     * <code>.dstore.values.IntegerValue campaign_id = 1;</code>
      */
     public io.dstore.values.IntegerValueOrBuilder getCampaignIdOrBuilder() {
       return getCampaignId();
@@ -215,7 +215,7 @@ public final class OmGetCampaignBundlePricingAd {
     public static final int CAMPAIGN_ID_NULL_FIELD_NUMBER = 1001;
     private boolean campaignIdNull_;
     /**
-     * <code>optional bool campaign_id_null = 1001;</code>
+     * <code>bool campaign_id_null = 1001;</code>
      */
     public boolean getCampaignIdNull() {
       return campaignIdNull_;
@@ -224,19 +224,19 @@ public final class OmGetCampaignBundlePricingAd {
     public static final int BENEFIT_ID_FIELD_NUMBER = 2;
     private io.dstore.values.IntegerValue benefitId_;
     /**
-     * <code>optional .dstore.values.IntegerValue benefit_id = 2;</code>
+     * <code>.dstore.values.IntegerValue benefit_id = 2;</code>
      */
     public boolean hasBenefitId() {
       return benefitId_ != null;
     }
     /**
-     * <code>optional .dstore.values.IntegerValue benefit_id = 2;</code>
+     * <code>.dstore.values.IntegerValue benefit_id = 2;</code>
      */
     public io.dstore.values.IntegerValue getBenefitId() {
       return benefitId_ == null ? io.dstore.values.IntegerValue.getDefaultInstance() : benefitId_;
     }
     /**
-     * <code>optional .dstore.values.IntegerValue benefit_id = 2;</code>
+     * <code>.dstore.values.IntegerValue benefit_id = 2;</code>
      */
     public io.dstore.values.IntegerValueOrBuilder getBenefitIdOrBuilder() {
       return getBenefitId();
@@ -245,7 +245,7 @@ public final class OmGetCampaignBundlePricingAd {
     public static final int BENEFIT_ID_NULL_FIELD_NUMBER = 1002;
     private boolean benefitIdNull_;
     /**
-     * <code>optional bool benefit_id_null = 1002;</code>
+     * <code>bool benefit_id_null = 1002;</code>
      */
     public boolean getBenefitIdNull() {
       return benefitIdNull_;
@@ -254,19 +254,19 @@ public final class OmGetCampaignBundlePricingAd {
     public static final int GET_ASSIGNED_SETS_FIELD_NUMBER = 3;
     private io.dstore.values.BooleanValue getAssignedSets_;
     /**
-     * <code>optional .dstore.values.BooleanValue get_assigned_sets = 3;</code>
+     * <code>.dstore.values.BooleanValue get_assigned_sets = 3;</code>
      */
     public boolean hasGetAssignedSets() {
       return getAssignedSets_ != null;
     }
     /**
-     * <code>optional .dstore.values.BooleanValue get_assigned_sets = 3;</code>
+     * <code>.dstore.values.BooleanValue get_assigned_sets = 3;</code>
      */
     public io.dstore.values.BooleanValue getGetAssignedSets() {
       return getAssignedSets_ == null ? io.dstore.values.BooleanValue.getDefaultInstance() : getAssignedSets_;
     }
     /**
-     * <code>optional .dstore.values.BooleanValue get_assigned_sets = 3;</code>
+     * <code>.dstore.values.BooleanValue get_assigned_sets = 3;</code>
      */
     public io.dstore.values.BooleanValueOrBuilder getGetAssignedSetsOrBuilder() {
       return getGetAssignedSets();
@@ -275,7 +275,7 @@ public final class OmGetCampaignBundlePricingAd {
     public static final int GET_ASSIGNED_SETS_NULL_FIELD_NUMBER = 1003;
     private boolean getAssignedSetsNull_;
     /**
-     * <code>optional bool get_assigned_sets_null = 1003;</code>
+     * <code>bool get_assigned_sets_null = 1003;</code>
      */
     public boolean getGetAssignedSetsNull() {
       return getAssignedSetsNull_;
@@ -388,7 +388,7 @@ public final class OmGetCampaignBundlePricingAd {
         return memoizedHashCode;
       }
       int hash = 41;
-      hash = (19 * hash) + getDescriptorForType().hashCode();
+      hash = (19 * hash) + getDescriptor().hashCode();
       if (hasCampaignId()) {
         hash = (37 * hash) + CAMPAIGN_ID_FIELD_NUMBER;
         hash = (53 * hash) + getCampaignId().hashCode();
@@ -681,13 +681,13 @@ public final class OmGetCampaignBundlePricingAd {
       private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> campaignIdBuilder_;
       /**
-       * <code>optional .dstore.values.IntegerValue campaign_id = 1;</code>
+       * <code>.dstore.values.IntegerValue campaign_id = 1;</code>
        */
       public boolean hasCampaignId() {
         return campaignIdBuilder_ != null || campaignId_ != null;
       }
       /**
-       * <code>optional .dstore.values.IntegerValue campaign_id = 1;</code>
+       * <code>.dstore.values.IntegerValue campaign_id = 1;</code>
        */
       public io.dstore.values.IntegerValue getCampaignId() {
         if (campaignIdBuilder_ == null) {
@@ -697,7 +697,7 @@ public final class OmGetCampaignBundlePricingAd {
         }
       }
       /**
-       * <code>optional .dstore.values.IntegerValue campaign_id = 1;</code>
+       * <code>.dstore.values.IntegerValue campaign_id = 1;</code>
        */
       public Builder setCampaignId(io.dstore.values.IntegerValue value) {
         if (campaignIdBuilder_ == null) {
@@ -713,7 +713,7 @@ public final class OmGetCampaignBundlePricingAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.IntegerValue campaign_id = 1;</code>
+       * <code>.dstore.values.IntegerValue campaign_id = 1;</code>
        */
       public Builder setCampaignId(
           io.dstore.values.IntegerValue.Builder builderForValue) {
@@ -727,7 +727,7 @@ public final class OmGetCampaignBundlePricingAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.IntegerValue campaign_id = 1;</code>
+       * <code>.dstore.values.IntegerValue campaign_id = 1;</code>
        */
       public Builder mergeCampaignId(io.dstore.values.IntegerValue value) {
         if (campaignIdBuilder_ == null) {
@@ -745,7 +745,7 @@ public final class OmGetCampaignBundlePricingAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.IntegerValue campaign_id = 1;</code>
+       * <code>.dstore.values.IntegerValue campaign_id = 1;</code>
        */
       public Builder clearCampaignId() {
         if (campaignIdBuilder_ == null) {
@@ -759,7 +759,7 @@ public final class OmGetCampaignBundlePricingAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.IntegerValue campaign_id = 1;</code>
+       * <code>.dstore.values.IntegerValue campaign_id = 1;</code>
        */
       public io.dstore.values.IntegerValue.Builder getCampaignIdBuilder() {
         
@@ -767,7 +767,7 @@ public final class OmGetCampaignBundlePricingAd {
         return getCampaignIdFieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .dstore.values.IntegerValue campaign_id = 1;</code>
+       * <code>.dstore.values.IntegerValue campaign_id = 1;</code>
        */
       public io.dstore.values.IntegerValueOrBuilder getCampaignIdOrBuilder() {
         if (campaignIdBuilder_ != null) {
@@ -778,7 +778,7 @@ public final class OmGetCampaignBundlePricingAd {
         }
       }
       /**
-       * <code>optional .dstore.values.IntegerValue campaign_id = 1;</code>
+       * <code>.dstore.values.IntegerValue campaign_id = 1;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> 
@@ -796,13 +796,13 @@ public final class OmGetCampaignBundlePricingAd {
 
       private boolean campaignIdNull_ ;
       /**
-       * <code>optional bool campaign_id_null = 1001;</code>
+       * <code>bool campaign_id_null = 1001;</code>
        */
       public boolean getCampaignIdNull() {
         return campaignIdNull_;
       }
       /**
-       * <code>optional bool campaign_id_null = 1001;</code>
+       * <code>bool campaign_id_null = 1001;</code>
        */
       public Builder setCampaignIdNull(boolean value) {
         
@@ -811,7 +811,7 @@ public final class OmGetCampaignBundlePricingAd {
         return this;
       }
       /**
-       * <code>optional bool campaign_id_null = 1001;</code>
+       * <code>bool campaign_id_null = 1001;</code>
        */
       public Builder clearCampaignIdNull() {
         
@@ -824,13 +824,13 @@ public final class OmGetCampaignBundlePricingAd {
       private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> benefitIdBuilder_;
       /**
-       * <code>optional .dstore.values.IntegerValue benefit_id = 2;</code>
+       * <code>.dstore.values.IntegerValue benefit_id = 2;</code>
        */
       public boolean hasBenefitId() {
         return benefitIdBuilder_ != null || benefitId_ != null;
       }
       /**
-       * <code>optional .dstore.values.IntegerValue benefit_id = 2;</code>
+       * <code>.dstore.values.IntegerValue benefit_id = 2;</code>
        */
       public io.dstore.values.IntegerValue getBenefitId() {
         if (benefitIdBuilder_ == null) {
@@ -840,7 +840,7 @@ public final class OmGetCampaignBundlePricingAd {
         }
       }
       /**
-       * <code>optional .dstore.values.IntegerValue benefit_id = 2;</code>
+       * <code>.dstore.values.IntegerValue benefit_id = 2;</code>
        */
       public Builder setBenefitId(io.dstore.values.IntegerValue value) {
         if (benefitIdBuilder_ == null) {
@@ -856,7 +856,7 @@ public final class OmGetCampaignBundlePricingAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.IntegerValue benefit_id = 2;</code>
+       * <code>.dstore.values.IntegerValue benefit_id = 2;</code>
        */
       public Builder setBenefitId(
           io.dstore.values.IntegerValue.Builder builderForValue) {
@@ -870,7 +870,7 @@ public final class OmGetCampaignBundlePricingAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.IntegerValue benefit_id = 2;</code>
+       * <code>.dstore.values.IntegerValue benefit_id = 2;</code>
        */
       public Builder mergeBenefitId(io.dstore.values.IntegerValue value) {
         if (benefitIdBuilder_ == null) {
@@ -888,7 +888,7 @@ public final class OmGetCampaignBundlePricingAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.IntegerValue benefit_id = 2;</code>
+       * <code>.dstore.values.IntegerValue benefit_id = 2;</code>
        */
       public Builder clearBenefitId() {
         if (benefitIdBuilder_ == null) {
@@ -902,7 +902,7 @@ public final class OmGetCampaignBundlePricingAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.IntegerValue benefit_id = 2;</code>
+       * <code>.dstore.values.IntegerValue benefit_id = 2;</code>
        */
       public io.dstore.values.IntegerValue.Builder getBenefitIdBuilder() {
         
@@ -910,7 +910,7 @@ public final class OmGetCampaignBundlePricingAd {
         return getBenefitIdFieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .dstore.values.IntegerValue benefit_id = 2;</code>
+       * <code>.dstore.values.IntegerValue benefit_id = 2;</code>
        */
       public io.dstore.values.IntegerValueOrBuilder getBenefitIdOrBuilder() {
         if (benefitIdBuilder_ != null) {
@@ -921,7 +921,7 @@ public final class OmGetCampaignBundlePricingAd {
         }
       }
       /**
-       * <code>optional .dstore.values.IntegerValue benefit_id = 2;</code>
+       * <code>.dstore.values.IntegerValue benefit_id = 2;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> 
@@ -939,13 +939,13 @@ public final class OmGetCampaignBundlePricingAd {
 
       private boolean benefitIdNull_ ;
       /**
-       * <code>optional bool benefit_id_null = 1002;</code>
+       * <code>bool benefit_id_null = 1002;</code>
        */
       public boolean getBenefitIdNull() {
         return benefitIdNull_;
       }
       /**
-       * <code>optional bool benefit_id_null = 1002;</code>
+       * <code>bool benefit_id_null = 1002;</code>
        */
       public Builder setBenefitIdNull(boolean value) {
         
@@ -954,7 +954,7 @@ public final class OmGetCampaignBundlePricingAd {
         return this;
       }
       /**
-       * <code>optional bool benefit_id_null = 1002;</code>
+       * <code>bool benefit_id_null = 1002;</code>
        */
       public Builder clearBenefitIdNull() {
         
@@ -967,13 +967,13 @@ public final class OmGetCampaignBundlePricingAd {
       private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.values.BooleanValue, io.dstore.values.BooleanValue.Builder, io.dstore.values.BooleanValueOrBuilder> getAssignedSetsBuilder_;
       /**
-       * <code>optional .dstore.values.BooleanValue get_assigned_sets = 3;</code>
+       * <code>.dstore.values.BooleanValue get_assigned_sets = 3;</code>
        */
       public boolean hasGetAssignedSets() {
         return getAssignedSetsBuilder_ != null || getAssignedSets_ != null;
       }
       /**
-       * <code>optional .dstore.values.BooleanValue get_assigned_sets = 3;</code>
+       * <code>.dstore.values.BooleanValue get_assigned_sets = 3;</code>
        */
       public io.dstore.values.BooleanValue getGetAssignedSets() {
         if (getAssignedSetsBuilder_ == null) {
@@ -983,7 +983,7 @@ public final class OmGetCampaignBundlePricingAd {
         }
       }
       /**
-       * <code>optional .dstore.values.BooleanValue get_assigned_sets = 3;</code>
+       * <code>.dstore.values.BooleanValue get_assigned_sets = 3;</code>
        */
       public Builder setGetAssignedSets(io.dstore.values.BooleanValue value) {
         if (getAssignedSetsBuilder_ == null) {
@@ -999,7 +999,7 @@ public final class OmGetCampaignBundlePricingAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.BooleanValue get_assigned_sets = 3;</code>
+       * <code>.dstore.values.BooleanValue get_assigned_sets = 3;</code>
        */
       public Builder setGetAssignedSets(
           io.dstore.values.BooleanValue.Builder builderForValue) {
@@ -1013,7 +1013,7 @@ public final class OmGetCampaignBundlePricingAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.BooleanValue get_assigned_sets = 3;</code>
+       * <code>.dstore.values.BooleanValue get_assigned_sets = 3;</code>
        */
       public Builder mergeGetAssignedSets(io.dstore.values.BooleanValue value) {
         if (getAssignedSetsBuilder_ == null) {
@@ -1031,7 +1031,7 @@ public final class OmGetCampaignBundlePricingAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.BooleanValue get_assigned_sets = 3;</code>
+       * <code>.dstore.values.BooleanValue get_assigned_sets = 3;</code>
        */
       public Builder clearGetAssignedSets() {
         if (getAssignedSetsBuilder_ == null) {
@@ -1045,7 +1045,7 @@ public final class OmGetCampaignBundlePricingAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.BooleanValue get_assigned_sets = 3;</code>
+       * <code>.dstore.values.BooleanValue get_assigned_sets = 3;</code>
        */
       public io.dstore.values.BooleanValue.Builder getGetAssignedSetsBuilder() {
         
@@ -1053,7 +1053,7 @@ public final class OmGetCampaignBundlePricingAd {
         return getGetAssignedSetsFieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .dstore.values.BooleanValue get_assigned_sets = 3;</code>
+       * <code>.dstore.values.BooleanValue get_assigned_sets = 3;</code>
        */
       public io.dstore.values.BooleanValueOrBuilder getGetAssignedSetsOrBuilder() {
         if (getAssignedSetsBuilder_ != null) {
@@ -1064,7 +1064,7 @@ public final class OmGetCampaignBundlePricingAd {
         }
       }
       /**
-       * <code>optional .dstore.values.BooleanValue get_assigned_sets = 3;</code>
+       * <code>.dstore.values.BooleanValue get_assigned_sets = 3;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.values.BooleanValue, io.dstore.values.BooleanValue.Builder, io.dstore.values.BooleanValueOrBuilder> 
@@ -1082,13 +1082,13 @@ public final class OmGetCampaignBundlePricingAd {
 
       private boolean getAssignedSetsNull_ ;
       /**
-       * <code>optional bool get_assigned_sets_null = 1003;</code>
+       * <code>bool get_assigned_sets_null = 1003;</code>
        */
       public boolean getGetAssignedSetsNull() {
         return getAssignedSetsNull_;
       }
       /**
-       * <code>optional bool get_assigned_sets_null = 1003;</code>
+       * <code>bool get_assigned_sets_null = 1003;</code>
        */
       public Builder setGetAssignedSetsNull(boolean value) {
         
@@ -1097,7 +1097,7 @@ public final class OmGetCampaignBundlePricingAd {
         return this;
       }
       /**
-       * <code>optional bool get_assigned_sets_null = 1003;</code>
+       * <code>bool get_assigned_sets_null = 1003;</code>
        */
       public Builder clearGetAssignedSetsNull() {
         
@@ -1356,7 +1356,7 @@ public final class OmGetCampaignBundlePricingAd {
         com.google.protobuf.MessageOrBuilder {
 
       /**
-       * <code>optional int32 row_id = 10000;</code>
+       * <code>int32 row_id = 10000;</code>
        */
       int getRowId();
 
@@ -1365,7 +1365,7 @@ public final class OmGetCampaignBundlePricingAd {
        * Bestimmt je nach "BundlePricingTypeID", ob der Festpreis (ID "0") in brutto oder netto angegeben ist bzw. (alle anderen IDs) welcher Preis (ob brutto oder netto) bei der Bestimmung "günstigster/teuerster Artikel" herangezogen werden soll
        * </pre>
        *
-       * <code>optional .dstore.values.BooleanValue net_based_pricing = 10001;</code>
+       * <code>.dstore.values.BooleanValue net_based_pricing = 10001;</code>
        */
       boolean hasNetBasedPricing();
       /**
@@ -1373,7 +1373,7 @@ public final class OmGetCampaignBundlePricingAd {
        * Bestimmt je nach "BundlePricingTypeID", ob der Festpreis (ID "0") in brutto oder netto angegeben ist bzw. (alle anderen IDs) welcher Preis (ob brutto oder netto) bei der Bestimmung "günstigster/teuerster Artikel" herangezogen werden soll
        * </pre>
        *
-       * <code>optional .dstore.values.BooleanValue net_based_pricing = 10001;</code>
+       * <code>.dstore.values.BooleanValue net_based_pricing = 10001;</code>
        */
       io.dstore.values.BooleanValue getNetBasedPricing();
       /**
@@ -1381,7 +1381,7 @@ public final class OmGetCampaignBundlePricingAd {
        * Bestimmt je nach "BundlePricingTypeID", ob der Festpreis (ID "0") in brutto oder netto angegeben ist bzw. (alle anderen IDs) welcher Preis (ob brutto oder netto) bei der Bestimmung "günstigster/teuerster Artikel" herangezogen werden soll
        * </pre>
        *
-       * <code>optional .dstore.values.BooleanValue net_based_pricing = 10001;</code>
+       * <code>.dstore.values.BooleanValue net_based_pricing = 10001;</code>
        */
       io.dstore.values.BooleanValueOrBuilder getNetBasedPricingOrBuilder();
 
@@ -1390,7 +1390,7 @@ public final class OmGetCampaignBundlePricingAd {
        * ID eines Bundle-Preis-Benefits für Verkaufs-Aktionen - natürlich identisch mit "&#64;BenefitID" wenn angegeben
        * </pre>
        *
-       * <code>optional .dstore.values.IntegerValue benefit_id = 10002;</code>
+       * <code>.dstore.values.IntegerValue benefit_id = 10002;</code>
        */
       boolean hasBenefitId();
       /**
@@ -1398,7 +1398,7 @@ public final class OmGetCampaignBundlePricingAd {
        * ID eines Bundle-Preis-Benefits für Verkaufs-Aktionen - natürlich identisch mit "&#64;BenefitID" wenn angegeben
        * </pre>
        *
-       * <code>optional .dstore.values.IntegerValue benefit_id = 10002;</code>
+       * <code>.dstore.values.IntegerValue benefit_id = 10002;</code>
        */
       io.dstore.values.IntegerValue getBenefitId();
       /**
@@ -1406,7 +1406,7 @@ public final class OmGetCampaignBundlePricingAd {
        * ID eines Bundle-Preis-Benefits für Verkaufs-Aktionen - natürlich identisch mit "&#64;BenefitID" wenn angegeben
        * </pre>
        *
-       * <code>optional .dstore.values.IntegerValue benefit_id = 10002;</code>
+       * <code>.dstore.values.IntegerValue benefit_id = 10002;</code>
        */
       io.dstore.values.IntegerValueOrBuilder getBenefitIdOrBuilder();
 
@@ -1415,7 +1415,7 @@ public final class OmGetCampaignBundlePricingAd {
        * ID der Art, wie der (Ziel-)Preis für das Bundle "BenefitID" bestimmt wird
        * </pre>
        *
-       * <code>optional .dstore.values.IntegerValue bundle_pricing_type_id = 10003;</code>
+       * <code>.dstore.values.IntegerValue bundle_pricing_type_id = 10003;</code>
        */
       boolean hasBundlePricingTypeId();
       /**
@@ -1423,7 +1423,7 @@ public final class OmGetCampaignBundlePricingAd {
        * ID der Art, wie der (Ziel-)Preis für das Bundle "BenefitID" bestimmt wird
        * </pre>
        *
-       * <code>optional .dstore.values.IntegerValue bundle_pricing_type_id = 10003;</code>
+       * <code>.dstore.values.IntegerValue bundle_pricing_type_id = 10003;</code>
        */
       io.dstore.values.IntegerValue getBundlePricingTypeId();
       /**
@@ -1431,7 +1431,7 @@ public final class OmGetCampaignBundlePricingAd {
        * ID der Art, wie der (Ziel-)Preis für das Bundle "BenefitID" bestimmt wird
        * </pre>
        *
-       * <code>optional .dstore.values.IntegerValue bundle_pricing_type_id = 10003;</code>
+       * <code>.dstore.values.IntegerValue bundle_pricing_type_id = 10003;</code>
        */
       io.dstore.values.IntegerValueOrBuilder getBundlePricingTypeIdOrBuilder();
 
@@ -1440,7 +1440,7 @@ public final class OmGetCampaignBundlePricingAd {
        * Summe aller "Quantity"-Werte der "ItemSetID"s, die "BenefitID" zugeordnet sind (redundante Information aus Performance-Gründen für die Bestimmung, ob im Warenkorb das Bundle "BenefitID" vorliegt)
        * </pre>
        *
-       * <code>optional .dstore.values.IntegerValue total_quantity = 10004;</code>
+       * <code>.dstore.values.IntegerValue total_quantity = 10004;</code>
        */
       boolean hasTotalQuantity();
       /**
@@ -1448,7 +1448,7 @@ public final class OmGetCampaignBundlePricingAd {
        * Summe aller "Quantity"-Werte der "ItemSetID"s, die "BenefitID" zugeordnet sind (redundante Information aus Performance-Gründen für die Bestimmung, ob im Warenkorb das Bundle "BenefitID" vorliegt)
        * </pre>
        *
-       * <code>optional .dstore.values.IntegerValue total_quantity = 10004;</code>
+       * <code>.dstore.values.IntegerValue total_quantity = 10004;</code>
        */
       io.dstore.values.IntegerValue getTotalQuantity();
       /**
@@ -1456,7 +1456,7 @@ public final class OmGetCampaignBundlePricingAd {
        * Summe aller "Quantity"-Werte der "ItemSetID"s, die "BenefitID" zugeordnet sind (redundante Information aus Performance-Gründen für die Bestimmung, ob im Warenkorb das Bundle "BenefitID" vorliegt)
        * </pre>
        *
-       * <code>optional .dstore.values.IntegerValue total_quantity = 10004;</code>
+       * <code>.dstore.values.IntegerValue total_quantity = 10004;</code>
        */
       io.dstore.values.IntegerValueOrBuilder getTotalQuantityOrBuilder();
 
@@ -1465,7 +1465,7 @@ public final class OmGetCampaignBundlePricingAd {
        * Bei "BundlePricingTypeID = 0" der Festpreis, bei "BundlePricingTypeID IN (1,2)" der prozentuale Rabatt und sonst "NULL"
        * </pre>
        *
-       * <code>optional .dstore.values.DecimalValue bundle_price_or_discount = 10005;</code>
+       * <code>.dstore.values.DecimalValue bundle_price_or_discount = 10005;</code>
        */
       boolean hasBundlePriceOrDiscount();
       /**
@@ -1473,7 +1473,7 @@ public final class OmGetCampaignBundlePricingAd {
        * Bei "BundlePricingTypeID = 0" der Festpreis, bei "BundlePricingTypeID IN (1,2)" der prozentuale Rabatt und sonst "NULL"
        * </pre>
        *
-       * <code>optional .dstore.values.DecimalValue bundle_price_or_discount = 10005;</code>
+       * <code>.dstore.values.DecimalValue bundle_price_or_discount = 10005;</code>
        */
       io.dstore.values.DecimalValue getBundlePriceOrDiscount();
       /**
@@ -1481,7 +1481,7 @@ public final class OmGetCampaignBundlePricingAd {
        * Bei "BundlePricingTypeID = 0" der Festpreis, bei "BundlePricingTypeID IN (1,2)" der prozentuale Rabatt und sonst "NULL"
        * </pre>
        *
-       * <code>optional .dstore.values.DecimalValue bundle_price_or_discount = 10005;</code>
+       * <code>.dstore.values.DecimalValue bundle_price_or_discount = 10005;</code>
        */
       io.dstore.values.DecimalValueOrBuilder getBundlePriceOrDiscountOrBuilder();
 
@@ -1490,7 +1490,7 @@ public final class OmGetCampaignBundlePricingAd {
        * ID der Artikel-Bedingung, die das Set "ItemSetID" definiert. Die genaue Definition der Bedingung erhält man durch "im_GetItemConditions_Ad".
        * </pre>
        *
-       * <code>optional .dstore.values.IntegerValue item_condition_id = 20002;</code>
+       * <code>.dstore.values.IntegerValue item_condition_id = 20002;</code>
        */
       boolean hasItemConditionId();
       /**
@@ -1498,7 +1498,7 @@ public final class OmGetCampaignBundlePricingAd {
        * ID der Artikel-Bedingung, die das Set "ItemSetID" definiert. Die genaue Definition der Bedingung erhält man durch "im_GetItemConditions_Ad".
        * </pre>
        *
-       * <code>optional .dstore.values.IntegerValue item_condition_id = 20002;</code>
+       * <code>.dstore.values.IntegerValue item_condition_id = 20002;</code>
        */
       io.dstore.values.IntegerValue getItemConditionId();
       /**
@@ -1506,7 +1506,7 @@ public final class OmGetCampaignBundlePricingAd {
        * ID der Artikel-Bedingung, die das Set "ItemSetID" definiert. Die genaue Definition der Bedingung erhält man durch "im_GetItemConditions_Ad".
        * </pre>
        *
-       * <code>optional .dstore.values.IntegerValue item_condition_id = 20002;</code>
+       * <code>.dstore.values.IntegerValue item_condition_id = 20002;</code>
        */
       io.dstore.values.IntegerValueOrBuilder getItemConditionIdOrBuilder();
 
@@ -1515,7 +1515,7 @@ public final class OmGetCampaignBundlePricingAd {
        * ID eines Sets von Artikeln (durch die Bedingung "ItemConditionID" definiert), die Bestandteil des Bundles "BenefitID" sind
        * </pre>
        *
-       * <code>optional .dstore.values.IntegerValue item_set_id = 20006;</code>
+       * <code>.dstore.values.IntegerValue item_set_id = 20006;</code>
        */
       boolean hasItemSetId();
       /**
@@ -1523,7 +1523,7 @@ public final class OmGetCampaignBundlePricingAd {
        * ID eines Sets von Artikeln (durch die Bedingung "ItemConditionID" definiert), die Bestandteil des Bundles "BenefitID" sind
        * </pre>
        *
-       * <code>optional .dstore.values.IntegerValue item_set_id = 20006;</code>
+       * <code>.dstore.values.IntegerValue item_set_id = 20006;</code>
        */
       io.dstore.values.IntegerValue getItemSetId();
       /**
@@ -1531,7 +1531,7 @@ public final class OmGetCampaignBundlePricingAd {
        * ID eines Sets von Artikeln (durch die Bedingung "ItemConditionID" definiert), die Bestandteil des Bundles "BenefitID" sind
        * </pre>
        *
-       * <code>optional .dstore.values.IntegerValue item_set_id = 20006;</code>
+       * <code>.dstore.values.IntegerValue item_set_id = 20006;</code>
        */
       io.dstore.values.IntegerValueOrBuilder getItemSetIdOrBuilder();
 
@@ -1540,7 +1540,7 @@ public final class OmGetCampaignBundlePricingAd {
        * Gibt an, wieviele Artikel aus dem Set "ItemSetID" gewählt werden müssen
        * </pre>
        *
-       * <code>optional .dstore.values.IntegerValue quantity = 20007;</code>
+       * <code>.dstore.values.IntegerValue quantity = 20007;</code>
        */
       boolean hasQuantity();
       /**
@@ -1548,7 +1548,7 @@ public final class OmGetCampaignBundlePricingAd {
        * Gibt an, wieviele Artikel aus dem Set "ItemSetID" gewählt werden müssen
        * </pre>
        *
-       * <code>optional .dstore.values.IntegerValue quantity = 20007;</code>
+       * <code>.dstore.values.IntegerValue quantity = 20007;</code>
        */
       io.dstore.values.IntegerValue getQuantity();
       /**
@@ -1556,7 +1556,7 @@ public final class OmGetCampaignBundlePricingAd {
        * Gibt an, wieviele Artikel aus dem Set "ItemSetID" gewählt werden müssen
        * </pre>
        *
-       * <code>optional .dstore.values.IntegerValue quantity = 20007;</code>
+       * <code>.dstore.values.IntegerValue quantity = 20007;</code>
        */
       io.dstore.values.IntegerValueOrBuilder getQuantityOrBuilder();
 
@@ -1565,7 +1565,7 @@ public final class OmGetCampaignBundlePricingAd {
        * Nur relevant wenn "Quantity &gt; 1" ! Darf der Kunde denselben Artikel mehrfach auswählen ("0") oder nicht ("1") ?
        * </pre>
        *
-       * <code>optional .dstore.values.BooleanValue distinct_items_only = 20008;</code>
+       * <code>.dstore.values.BooleanValue distinct_items_only = 20008;</code>
        */
       boolean hasDistinctItemsOnly();
       /**
@@ -1573,7 +1573,7 @@ public final class OmGetCampaignBundlePricingAd {
        * Nur relevant wenn "Quantity &gt; 1" ! Darf der Kunde denselben Artikel mehrfach auswählen ("0") oder nicht ("1") ?
        * </pre>
        *
-       * <code>optional .dstore.values.BooleanValue distinct_items_only = 20008;</code>
+       * <code>.dstore.values.BooleanValue distinct_items_only = 20008;</code>
        */
       io.dstore.values.BooleanValue getDistinctItemsOnly();
       /**
@@ -1581,7 +1581,7 @@ public final class OmGetCampaignBundlePricingAd {
        * Nur relevant wenn "Quantity &gt; 1" ! Darf der Kunde denselben Artikel mehrfach auswählen ("0") oder nicht ("1") ?
        * </pre>
        *
-       * <code>optional .dstore.values.BooleanValue distinct_items_only = 20008;</code>
+       * <code>.dstore.values.BooleanValue distinct_items_only = 20008;</code>
        */
       io.dstore.values.BooleanValueOrBuilder getDistinctItemsOnlyOrBuilder();
 
@@ -1590,7 +1590,7 @@ public final class OmGetCampaignBundlePricingAd {
        * Bezeichnung der Artikel-Bedingung "ItemConditionID"
        * </pre>
        *
-       * <code>optional .dstore.values.StringValue item_condition_description = 20009;</code>
+       * <code>.dstore.values.StringValue item_condition_description = 20009;</code>
        */
       boolean hasItemConditionDescription();
       /**
@@ -1598,7 +1598,7 @@ public final class OmGetCampaignBundlePricingAd {
        * Bezeichnung der Artikel-Bedingung "ItemConditionID"
        * </pre>
        *
-       * <code>optional .dstore.values.StringValue item_condition_description = 20009;</code>
+       * <code>.dstore.values.StringValue item_condition_description = 20009;</code>
        */
       io.dstore.values.StringValue getItemConditionDescription();
       /**
@@ -1606,7 +1606,7 @@ public final class OmGetCampaignBundlePricingAd {
        * Bezeichnung der Artikel-Bedingung "ItemConditionID"
        * </pre>
        *
-       * <code>optional .dstore.values.StringValue item_condition_description = 20009;</code>
+       * <code>.dstore.values.StringValue item_condition_description = 20009;</code>
        */
       io.dstore.values.StringValueOrBuilder getItemConditionDescriptionOrBuilder();
 
@@ -1615,7 +1615,7 @@ public final class OmGetCampaignBundlePricingAd {
        * Bestimmt die Reihenfolge von "ItemSetID" innerhalb aller "BenefitID" zugeordneten Sets
        * </pre>
        *
-       * <code>optional .dstore.values.IntegerValue sort_no = 20010;</code>
+       * <code>.dstore.values.IntegerValue sort_no = 20010;</code>
        */
       boolean hasSortNo();
       /**
@@ -1623,7 +1623,7 @@ public final class OmGetCampaignBundlePricingAd {
        * Bestimmt die Reihenfolge von "ItemSetID" innerhalb aller "BenefitID" zugeordneten Sets
        * </pre>
        *
-       * <code>optional .dstore.values.IntegerValue sort_no = 20010;</code>
+       * <code>.dstore.values.IntegerValue sort_no = 20010;</code>
        */
       io.dstore.values.IntegerValue getSortNo();
       /**
@@ -1631,7 +1631,7 @@ public final class OmGetCampaignBundlePricingAd {
        * Bestimmt die Reihenfolge von "ItemSetID" innerhalb aller "BenefitID" zugeordneten Sets
        * </pre>
        *
-       * <code>optional .dstore.values.IntegerValue sort_no = 20010;</code>
+       * <code>.dstore.values.IntegerValue sort_no = 20010;</code>
        */
       io.dstore.values.IntegerValueOrBuilder getSortNoOrBuilder();
     }
@@ -1849,7 +1849,7 @@ public final class OmGetCampaignBundlePricingAd {
       public static final int ROW_ID_FIELD_NUMBER = 10000;
       private int rowId_;
       /**
-       * <code>optional int32 row_id = 10000;</code>
+       * <code>int32 row_id = 10000;</code>
        */
       public int getRowId() {
         return rowId_;
@@ -1862,7 +1862,7 @@ public final class OmGetCampaignBundlePricingAd {
        * Bestimmt je nach "BundlePricingTypeID", ob der Festpreis (ID "0") in brutto oder netto angegeben ist bzw. (alle anderen IDs) welcher Preis (ob brutto oder netto) bei der Bestimmung "günstigster/teuerster Artikel" herangezogen werden soll
        * </pre>
        *
-       * <code>optional .dstore.values.BooleanValue net_based_pricing = 10001;</code>
+       * <code>.dstore.values.BooleanValue net_based_pricing = 10001;</code>
        */
       public boolean hasNetBasedPricing() {
         return netBasedPricing_ != null;
@@ -1872,7 +1872,7 @@ public final class OmGetCampaignBundlePricingAd {
        * Bestimmt je nach "BundlePricingTypeID", ob der Festpreis (ID "0") in brutto oder netto angegeben ist bzw. (alle anderen IDs) welcher Preis (ob brutto oder netto) bei der Bestimmung "günstigster/teuerster Artikel" herangezogen werden soll
        * </pre>
        *
-       * <code>optional .dstore.values.BooleanValue net_based_pricing = 10001;</code>
+       * <code>.dstore.values.BooleanValue net_based_pricing = 10001;</code>
        */
       public io.dstore.values.BooleanValue getNetBasedPricing() {
         return netBasedPricing_ == null ? io.dstore.values.BooleanValue.getDefaultInstance() : netBasedPricing_;
@@ -1882,7 +1882,7 @@ public final class OmGetCampaignBundlePricingAd {
        * Bestimmt je nach "BundlePricingTypeID", ob der Festpreis (ID "0") in brutto oder netto angegeben ist bzw. (alle anderen IDs) welcher Preis (ob brutto oder netto) bei der Bestimmung "günstigster/teuerster Artikel" herangezogen werden soll
        * </pre>
        *
-       * <code>optional .dstore.values.BooleanValue net_based_pricing = 10001;</code>
+       * <code>.dstore.values.BooleanValue net_based_pricing = 10001;</code>
        */
       public io.dstore.values.BooleanValueOrBuilder getNetBasedPricingOrBuilder() {
         return getNetBasedPricing();
@@ -1895,7 +1895,7 @@ public final class OmGetCampaignBundlePricingAd {
        * ID eines Bundle-Preis-Benefits für Verkaufs-Aktionen - natürlich identisch mit "&#64;BenefitID" wenn angegeben
        * </pre>
        *
-       * <code>optional .dstore.values.IntegerValue benefit_id = 10002;</code>
+       * <code>.dstore.values.IntegerValue benefit_id = 10002;</code>
        */
       public boolean hasBenefitId() {
         return benefitId_ != null;
@@ -1905,7 +1905,7 @@ public final class OmGetCampaignBundlePricingAd {
        * ID eines Bundle-Preis-Benefits für Verkaufs-Aktionen - natürlich identisch mit "&#64;BenefitID" wenn angegeben
        * </pre>
        *
-       * <code>optional .dstore.values.IntegerValue benefit_id = 10002;</code>
+       * <code>.dstore.values.IntegerValue benefit_id = 10002;</code>
        */
       public io.dstore.values.IntegerValue getBenefitId() {
         return benefitId_ == null ? io.dstore.values.IntegerValue.getDefaultInstance() : benefitId_;
@@ -1915,7 +1915,7 @@ public final class OmGetCampaignBundlePricingAd {
        * ID eines Bundle-Preis-Benefits für Verkaufs-Aktionen - natürlich identisch mit "&#64;BenefitID" wenn angegeben
        * </pre>
        *
-       * <code>optional .dstore.values.IntegerValue benefit_id = 10002;</code>
+       * <code>.dstore.values.IntegerValue benefit_id = 10002;</code>
        */
       public io.dstore.values.IntegerValueOrBuilder getBenefitIdOrBuilder() {
         return getBenefitId();
@@ -1928,7 +1928,7 @@ public final class OmGetCampaignBundlePricingAd {
        * ID der Art, wie der (Ziel-)Preis für das Bundle "BenefitID" bestimmt wird
        * </pre>
        *
-       * <code>optional .dstore.values.IntegerValue bundle_pricing_type_id = 10003;</code>
+       * <code>.dstore.values.IntegerValue bundle_pricing_type_id = 10003;</code>
        */
       public boolean hasBundlePricingTypeId() {
         return bundlePricingTypeId_ != null;
@@ -1938,7 +1938,7 @@ public final class OmGetCampaignBundlePricingAd {
        * ID der Art, wie der (Ziel-)Preis für das Bundle "BenefitID" bestimmt wird
        * </pre>
        *
-       * <code>optional .dstore.values.IntegerValue bundle_pricing_type_id = 10003;</code>
+       * <code>.dstore.values.IntegerValue bundle_pricing_type_id = 10003;</code>
        */
       public io.dstore.values.IntegerValue getBundlePricingTypeId() {
         return bundlePricingTypeId_ == null ? io.dstore.values.IntegerValue.getDefaultInstance() : bundlePricingTypeId_;
@@ -1948,7 +1948,7 @@ public final class OmGetCampaignBundlePricingAd {
        * ID der Art, wie der (Ziel-)Preis für das Bundle "BenefitID" bestimmt wird
        * </pre>
        *
-       * <code>optional .dstore.values.IntegerValue bundle_pricing_type_id = 10003;</code>
+       * <code>.dstore.values.IntegerValue bundle_pricing_type_id = 10003;</code>
        */
       public io.dstore.values.IntegerValueOrBuilder getBundlePricingTypeIdOrBuilder() {
         return getBundlePricingTypeId();
@@ -1961,7 +1961,7 @@ public final class OmGetCampaignBundlePricingAd {
        * Summe aller "Quantity"-Werte der "ItemSetID"s, die "BenefitID" zugeordnet sind (redundante Information aus Performance-Gründen für die Bestimmung, ob im Warenkorb das Bundle "BenefitID" vorliegt)
        * </pre>
        *
-       * <code>optional .dstore.values.IntegerValue total_quantity = 10004;</code>
+       * <code>.dstore.values.IntegerValue total_quantity = 10004;</code>
        */
       public boolean hasTotalQuantity() {
         return totalQuantity_ != null;
@@ -1971,7 +1971,7 @@ public final class OmGetCampaignBundlePricingAd {
        * Summe aller "Quantity"-Werte der "ItemSetID"s, die "BenefitID" zugeordnet sind (redundante Information aus Performance-Gründen für die Bestimmung, ob im Warenkorb das Bundle "BenefitID" vorliegt)
        * </pre>
        *
-       * <code>optional .dstore.values.IntegerValue total_quantity = 10004;</code>
+       * <code>.dstore.values.IntegerValue total_quantity = 10004;</code>
        */
       public io.dstore.values.IntegerValue getTotalQuantity() {
         return totalQuantity_ == null ? io.dstore.values.IntegerValue.getDefaultInstance() : totalQuantity_;
@@ -1981,7 +1981,7 @@ public final class OmGetCampaignBundlePricingAd {
        * Summe aller "Quantity"-Werte der "ItemSetID"s, die "BenefitID" zugeordnet sind (redundante Information aus Performance-Gründen für die Bestimmung, ob im Warenkorb das Bundle "BenefitID" vorliegt)
        * </pre>
        *
-       * <code>optional .dstore.values.IntegerValue total_quantity = 10004;</code>
+       * <code>.dstore.values.IntegerValue total_quantity = 10004;</code>
        */
       public io.dstore.values.IntegerValueOrBuilder getTotalQuantityOrBuilder() {
         return getTotalQuantity();
@@ -1994,7 +1994,7 @@ public final class OmGetCampaignBundlePricingAd {
        * Bei "BundlePricingTypeID = 0" der Festpreis, bei "BundlePricingTypeID IN (1,2)" der prozentuale Rabatt und sonst "NULL"
        * </pre>
        *
-       * <code>optional .dstore.values.DecimalValue bundle_price_or_discount = 10005;</code>
+       * <code>.dstore.values.DecimalValue bundle_price_or_discount = 10005;</code>
        */
       public boolean hasBundlePriceOrDiscount() {
         return bundlePriceOrDiscount_ != null;
@@ -2004,7 +2004,7 @@ public final class OmGetCampaignBundlePricingAd {
        * Bei "BundlePricingTypeID = 0" der Festpreis, bei "BundlePricingTypeID IN (1,2)" der prozentuale Rabatt und sonst "NULL"
        * </pre>
        *
-       * <code>optional .dstore.values.DecimalValue bundle_price_or_discount = 10005;</code>
+       * <code>.dstore.values.DecimalValue bundle_price_or_discount = 10005;</code>
        */
       public io.dstore.values.DecimalValue getBundlePriceOrDiscount() {
         return bundlePriceOrDiscount_ == null ? io.dstore.values.DecimalValue.getDefaultInstance() : bundlePriceOrDiscount_;
@@ -2014,7 +2014,7 @@ public final class OmGetCampaignBundlePricingAd {
        * Bei "BundlePricingTypeID = 0" der Festpreis, bei "BundlePricingTypeID IN (1,2)" der prozentuale Rabatt und sonst "NULL"
        * </pre>
        *
-       * <code>optional .dstore.values.DecimalValue bundle_price_or_discount = 10005;</code>
+       * <code>.dstore.values.DecimalValue bundle_price_or_discount = 10005;</code>
        */
       public io.dstore.values.DecimalValueOrBuilder getBundlePriceOrDiscountOrBuilder() {
         return getBundlePriceOrDiscount();
@@ -2027,7 +2027,7 @@ public final class OmGetCampaignBundlePricingAd {
        * ID der Artikel-Bedingung, die das Set "ItemSetID" definiert. Die genaue Definition der Bedingung erhält man durch "im_GetItemConditions_Ad".
        * </pre>
        *
-       * <code>optional .dstore.values.IntegerValue item_condition_id = 20002;</code>
+       * <code>.dstore.values.IntegerValue item_condition_id = 20002;</code>
        */
       public boolean hasItemConditionId() {
         return itemConditionId_ != null;
@@ -2037,7 +2037,7 @@ public final class OmGetCampaignBundlePricingAd {
        * ID der Artikel-Bedingung, die das Set "ItemSetID" definiert. Die genaue Definition der Bedingung erhält man durch "im_GetItemConditions_Ad".
        * </pre>
        *
-       * <code>optional .dstore.values.IntegerValue item_condition_id = 20002;</code>
+       * <code>.dstore.values.IntegerValue item_condition_id = 20002;</code>
        */
       public io.dstore.values.IntegerValue getItemConditionId() {
         return itemConditionId_ == null ? io.dstore.values.IntegerValue.getDefaultInstance() : itemConditionId_;
@@ -2047,7 +2047,7 @@ public final class OmGetCampaignBundlePricingAd {
        * ID der Artikel-Bedingung, die das Set "ItemSetID" definiert. Die genaue Definition der Bedingung erhält man durch "im_GetItemConditions_Ad".
        * </pre>
        *
-       * <code>optional .dstore.values.IntegerValue item_condition_id = 20002;</code>
+       * <code>.dstore.values.IntegerValue item_condition_id = 20002;</code>
        */
       public io.dstore.values.IntegerValueOrBuilder getItemConditionIdOrBuilder() {
         return getItemConditionId();
@@ -2060,7 +2060,7 @@ public final class OmGetCampaignBundlePricingAd {
        * ID eines Sets von Artikeln (durch die Bedingung "ItemConditionID" definiert), die Bestandteil des Bundles "BenefitID" sind
        * </pre>
        *
-       * <code>optional .dstore.values.IntegerValue item_set_id = 20006;</code>
+       * <code>.dstore.values.IntegerValue item_set_id = 20006;</code>
        */
       public boolean hasItemSetId() {
         return itemSetId_ != null;
@@ -2070,7 +2070,7 @@ public final class OmGetCampaignBundlePricingAd {
        * ID eines Sets von Artikeln (durch die Bedingung "ItemConditionID" definiert), die Bestandteil des Bundles "BenefitID" sind
        * </pre>
        *
-       * <code>optional .dstore.values.IntegerValue item_set_id = 20006;</code>
+       * <code>.dstore.values.IntegerValue item_set_id = 20006;</code>
        */
       public io.dstore.values.IntegerValue getItemSetId() {
         return itemSetId_ == null ? io.dstore.values.IntegerValue.getDefaultInstance() : itemSetId_;
@@ -2080,7 +2080,7 @@ public final class OmGetCampaignBundlePricingAd {
        * ID eines Sets von Artikeln (durch die Bedingung "ItemConditionID" definiert), die Bestandteil des Bundles "BenefitID" sind
        * </pre>
        *
-       * <code>optional .dstore.values.IntegerValue item_set_id = 20006;</code>
+       * <code>.dstore.values.IntegerValue item_set_id = 20006;</code>
        */
       public io.dstore.values.IntegerValueOrBuilder getItemSetIdOrBuilder() {
         return getItemSetId();
@@ -2093,7 +2093,7 @@ public final class OmGetCampaignBundlePricingAd {
        * Gibt an, wieviele Artikel aus dem Set "ItemSetID" gewählt werden müssen
        * </pre>
        *
-       * <code>optional .dstore.values.IntegerValue quantity = 20007;</code>
+       * <code>.dstore.values.IntegerValue quantity = 20007;</code>
        */
       public boolean hasQuantity() {
         return quantity_ != null;
@@ -2103,7 +2103,7 @@ public final class OmGetCampaignBundlePricingAd {
        * Gibt an, wieviele Artikel aus dem Set "ItemSetID" gewählt werden müssen
        * </pre>
        *
-       * <code>optional .dstore.values.IntegerValue quantity = 20007;</code>
+       * <code>.dstore.values.IntegerValue quantity = 20007;</code>
        */
       public io.dstore.values.IntegerValue getQuantity() {
         return quantity_ == null ? io.dstore.values.IntegerValue.getDefaultInstance() : quantity_;
@@ -2113,7 +2113,7 @@ public final class OmGetCampaignBundlePricingAd {
        * Gibt an, wieviele Artikel aus dem Set "ItemSetID" gewählt werden müssen
        * </pre>
        *
-       * <code>optional .dstore.values.IntegerValue quantity = 20007;</code>
+       * <code>.dstore.values.IntegerValue quantity = 20007;</code>
        */
       public io.dstore.values.IntegerValueOrBuilder getQuantityOrBuilder() {
         return getQuantity();
@@ -2126,7 +2126,7 @@ public final class OmGetCampaignBundlePricingAd {
        * Nur relevant wenn "Quantity &gt; 1" ! Darf der Kunde denselben Artikel mehrfach auswählen ("0") oder nicht ("1") ?
        * </pre>
        *
-       * <code>optional .dstore.values.BooleanValue distinct_items_only = 20008;</code>
+       * <code>.dstore.values.BooleanValue distinct_items_only = 20008;</code>
        */
       public boolean hasDistinctItemsOnly() {
         return distinctItemsOnly_ != null;
@@ -2136,7 +2136,7 @@ public final class OmGetCampaignBundlePricingAd {
        * Nur relevant wenn "Quantity &gt; 1" ! Darf der Kunde denselben Artikel mehrfach auswählen ("0") oder nicht ("1") ?
        * </pre>
        *
-       * <code>optional .dstore.values.BooleanValue distinct_items_only = 20008;</code>
+       * <code>.dstore.values.BooleanValue distinct_items_only = 20008;</code>
        */
       public io.dstore.values.BooleanValue getDistinctItemsOnly() {
         return distinctItemsOnly_ == null ? io.dstore.values.BooleanValue.getDefaultInstance() : distinctItemsOnly_;
@@ -2146,7 +2146,7 @@ public final class OmGetCampaignBundlePricingAd {
        * Nur relevant wenn "Quantity &gt; 1" ! Darf der Kunde denselben Artikel mehrfach auswählen ("0") oder nicht ("1") ?
        * </pre>
        *
-       * <code>optional .dstore.values.BooleanValue distinct_items_only = 20008;</code>
+       * <code>.dstore.values.BooleanValue distinct_items_only = 20008;</code>
        */
       public io.dstore.values.BooleanValueOrBuilder getDistinctItemsOnlyOrBuilder() {
         return getDistinctItemsOnly();
@@ -2159,7 +2159,7 @@ public final class OmGetCampaignBundlePricingAd {
        * Bezeichnung der Artikel-Bedingung "ItemConditionID"
        * </pre>
        *
-       * <code>optional .dstore.values.StringValue item_condition_description = 20009;</code>
+       * <code>.dstore.values.StringValue item_condition_description = 20009;</code>
        */
       public boolean hasItemConditionDescription() {
         return itemConditionDescription_ != null;
@@ -2169,7 +2169,7 @@ public final class OmGetCampaignBundlePricingAd {
        * Bezeichnung der Artikel-Bedingung "ItemConditionID"
        * </pre>
        *
-       * <code>optional .dstore.values.StringValue item_condition_description = 20009;</code>
+       * <code>.dstore.values.StringValue item_condition_description = 20009;</code>
        */
       public io.dstore.values.StringValue getItemConditionDescription() {
         return itemConditionDescription_ == null ? io.dstore.values.StringValue.getDefaultInstance() : itemConditionDescription_;
@@ -2179,7 +2179,7 @@ public final class OmGetCampaignBundlePricingAd {
        * Bezeichnung der Artikel-Bedingung "ItemConditionID"
        * </pre>
        *
-       * <code>optional .dstore.values.StringValue item_condition_description = 20009;</code>
+       * <code>.dstore.values.StringValue item_condition_description = 20009;</code>
        */
       public io.dstore.values.StringValueOrBuilder getItemConditionDescriptionOrBuilder() {
         return getItemConditionDescription();
@@ -2192,7 +2192,7 @@ public final class OmGetCampaignBundlePricingAd {
        * Bestimmt die Reihenfolge von "ItemSetID" innerhalb aller "BenefitID" zugeordneten Sets
        * </pre>
        *
-       * <code>optional .dstore.values.IntegerValue sort_no = 20010;</code>
+       * <code>.dstore.values.IntegerValue sort_no = 20010;</code>
        */
       public boolean hasSortNo() {
         return sortNo_ != null;
@@ -2202,7 +2202,7 @@ public final class OmGetCampaignBundlePricingAd {
        * Bestimmt die Reihenfolge von "ItemSetID" innerhalb aller "BenefitID" zugeordneten Sets
        * </pre>
        *
-       * <code>optional .dstore.values.IntegerValue sort_no = 20010;</code>
+       * <code>.dstore.values.IntegerValue sort_no = 20010;</code>
        */
       public io.dstore.values.IntegerValue getSortNo() {
         return sortNo_ == null ? io.dstore.values.IntegerValue.getDefaultInstance() : sortNo_;
@@ -2212,7 +2212,7 @@ public final class OmGetCampaignBundlePricingAd {
        * Bestimmt die Reihenfolge von "ItemSetID" innerhalb aller "BenefitID" zugeordneten Sets
        * </pre>
        *
-       * <code>optional .dstore.values.IntegerValue sort_no = 20010;</code>
+       * <code>.dstore.values.IntegerValue sort_no = 20010;</code>
        */
       public io.dstore.values.IntegerValueOrBuilder getSortNoOrBuilder() {
         return getSortNo();
@@ -2403,7 +2403,7 @@ public final class OmGetCampaignBundlePricingAd {
           return memoizedHashCode;
         }
         int hash = 41;
-        hash = (19 * hash) + getDescriptorForType().hashCode();
+        hash = (19 * hash) + getDescriptor().hashCode();
         hash = (37 * hash) + ROW_ID_FIELD_NUMBER;
         hash = (53 * hash) + getRowId();
         if (hasNetBasedPricing()) {
@@ -2819,13 +2819,13 @@ public final class OmGetCampaignBundlePricingAd {
 
         private int rowId_ ;
         /**
-         * <code>optional int32 row_id = 10000;</code>
+         * <code>int32 row_id = 10000;</code>
          */
         public int getRowId() {
           return rowId_;
         }
         /**
-         * <code>optional int32 row_id = 10000;</code>
+         * <code>int32 row_id = 10000;</code>
          */
         public Builder setRowId(int value) {
           
@@ -2834,7 +2834,7 @@ public final class OmGetCampaignBundlePricingAd {
           return this;
         }
         /**
-         * <code>optional int32 row_id = 10000;</code>
+         * <code>int32 row_id = 10000;</code>
          */
         public Builder clearRowId() {
           
@@ -2851,7 +2851,7 @@ public final class OmGetCampaignBundlePricingAd {
          * Bestimmt je nach "BundlePricingTypeID", ob der Festpreis (ID "0") in brutto oder netto angegeben ist bzw. (alle anderen IDs) welcher Preis (ob brutto oder netto) bei der Bestimmung "günstigster/teuerster Artikel" herangezogen werden soll
          * </pre>
          *
-         * <code>optional .dstore.values.BooleanValue net_based_pricing = 10001;</code>
+         * <code>.dstore.values.BooleanValue net_based_pricing = 10001;</code>
          */
         public boolean hasNetBasedPricing() {
           return netBasedPricingBuilder_ != null || netBasedPricing_ != null;
@@ -2861,7 +2861,7 @@ public final class OmGetCampaignBundlePricingAd {
          * Bestimmt je nach "BundlePricingTypeID", ob der Festpreis (ID "0") in brutto oder netto angegeben ist bzw. (alle anderen IDs) welcher Preis (ob brutto oder netto) bei der Bestimmung "günstigster/teuerster Artikel" herangezogen werden soll
          * </pre>
          *
-         * <code>optional .dstore.values.BooleanValue net_based_pricing = 10001;</code>
+         * <code>.dstore.values.BooleanValue net_based_pricing = 10001;</code>
          */
         public io.dstore.values.BooleanValue getNetBasedPricing() {
           if (netBasedPricingBuilder_ == null) {
@@ -2875,7 +2875,7 @@ public final class OmGetCampaignBundlePricingAd {
          * Bestimmt je nach "BundlePricingTypeID", ob der Festpreis (ID "0") in brutto oder netto angegeben ist bzw. (alle anderen IDs) welcher Preis (ob brutto oder netto) bei der Bestimmung "günstigster/teuerster Artikel" herangezogen werden soll
          * </pre>
          *
-         * <code>optional .dstore.values.BooleanValue net_based_pricing = 10001;</code>
+         * <code>.dstore.values.BooleanValue net_based_pricing = 10001;</code>
          */
         public Builder setNetBasedPricing(io.dstore.values.BooleanValue value) {
           if (netBasedPricingBuilder_ == null) {
@@ -2895,7 +2895,7 @@ public final class OmGetCampaignBundlePricingAd {
          * Bestimmt je nach "BundlePricingTypeID", ob der Festpreis (ID "0") in brutto oder netto angegeben ist bzw. (alle anderen IDs) welcher Preis (ob brutto oder netto) bei der Bestimmung "günstigster/teuerster Artikel" herangezogen werden soll
          * </pre>
          *
-         * <code>optional .dstore.values.BooleanValue net_based_pricing = 10001;</code>
+         * <code>.dstore.values.BooleanValue net_based_pricing = 10001;</code>
          */
         public Builder setNetBasedPricing(
             io.dstore.values.BooleanValue.Builder builderForValue) {
@@ -2913,7 +2913,7 @@ public final class OmGetCampaignBundlePricingAd {
          * Bestimmt je nach "BundlePricingTypeID", ob der Festpreis (ID "0") in brutto oder netto angegeben ist bzw. (alle anderen IDs) welcher Preis (ob brutto oder netto) bei der Bestimmung "günstigster/teuerster Artikel" herangezogen werden soll
          * </pre>
          *
-         * <code>optional .dstore.values.BooleanValue net_based_pricing = 10001;</code>
+         * <code>.dstore.values.BooleanValue net_based_pricing = 10001;</code>
          */
         public Builder mergeNetBasedPricing(io.dstore.values.BooleanValue value) {
           if (netBasedPricingBuilder_ == null) {
@@ -2935,7 +2935,7 @@ public final class OmGetCampaignBundlePricingAd {
          * Bestimmt je nach "BundlePricingTypeID", ob der Festpreis (ID "0") in brutto oder netto angegeben ist bzw. (alle anderen IDs) welcher Preis (ob brutto oder netto) bei der Bestimmung "günstigster/teuerster Artikel" herangezogen werden soll
          * </pre>
          *
-         * <code>optional .dstore.values.BooleanValue net_based_pricing = 10001;</code>
+         * <code>.dstore.values.BooleanValue net_based_pricing = 10001;</code>
          */
         public Builder clearNetBasedPricing() {
           if (netBasedPricingBuilder_ == null) {
@@ -2953,7 +2953,7 @@ public final class OmGetCampaignBundlePricingAd {
          * Bestimmt je nach "BundlePricingTypeID", ob der Festpreis (ID "0") in brutto oder netto angegeben ist bzw. (alle anderen IDs) welcher Preis (ob brutto oder netto) bei der Bestimmung "günstigster/teuerster Artikel" herangezogen werden soll
          * </pre>
          *
-         * <code>optional .dstore.values.BooleanValue net_based_pricing = 10001;</code>
+         * <code>.dstore.values.BooleanValue net_based_pricing = 10001;</code>
          */
         public io.dstore.values.BooleanValue.Builder getNetBasedPricingBuilder() {
           
@@ -2965,7 +2965,7 @@ public final class OmGetCampaignBundlePricingAd {
          * Bestimmt je nach "BundlePricingTypeID", ob der Festpreis (ID "0") in brutto oder netto angegeben ist bzw. (alle anderen IDs) welcher Preis (ob brutto oder netto) bei der Bestimmung "günstigster/teuerster Artikel" herangezogen werden soll
          * </pre>
          *
-         * <code>optional .dstore.values.BooleanValue net_based_pricing = 10001;</code>
+         * <code>.dstore.values.BooleanValue net_based_pricing = 10001;</code>
          */
         public io.dstore.values.BooleanValueOrBuilder getNetBasedPricingOrBuilder() {
           if (netBasedPricingBuilder_ != null) {
@@ -2980,7 +2980,7 @@ public final class OmGetCampaignBundlePricingAd {
          * Bestimmt je nach "BundlePricingTypeID", ob der Festpreis (ID "0") in brutto oder netto angegeben ist bzw. (alle anderen IDs) welcher Preis (ob brutto oder netto) bei der Bestimmung "günstigster/teuerster Artikel" herangezogen werden soll
          * </pre>
          *
-         * <code>optional .dstore.values.BooleanValue net_based_pricing = 10001;</code>
+         * <code>.dstore.values.BooleanValue net_based_pricing = 10001;</code>
          */
         private com.google.protobuf.SingleFieldBuilderV3<
             io.dstore.values.BooleanValue, io.dstore.values.BooleanValue.Builder, io.dstore.values.BooleanValueOrBuilder> 
@@ -3004,7 +3004,7 @@ public final class OmGetCampaignBundlePricingAd {
          * ID eines Bundle-Preis-Benefits für Verkaufs-Aktionen - natürlich identisch mit "&#64;BenefitID" wenn angegeben
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue benefit_id = 10002;</code>
+         * <code>.dstore.values.IntegerValue benefit_id = 10002;</code>
          */
         public boolean hasBenefitId() {
           return benefitIdBuilder_ != null || benefitId_ != null;
@@ -3014,7 +3014,7 @@ public final class OmGetCampaignBundlePricingAd {
          * ID eines Bundle-Preis-Benefits für Verkaufs-Aktionen - natürlich identisch mit "&#64;BenefitID" wenn angegeben
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue benefit_id = 10002;</code>
+         * <code>.dstore.values.IntegerValue benefit_id = 10002;</code>
          */
         public io.dstore.values.IntegerValue getBenefitId() {
           if (benefitIdBuilder_ == null) {
@@ -3028,7 +3028,7 @@ public final class OmGetCampaignBundlePricingAd {
          * ID eines Bundle-Preis-Benefits für Verkaufs-Aktionen - natürlich identisch mit "&#64;BenefitID" wenn angegeben
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue benefit_id = 10002;</code>
+         * <code>.dstore.values.IntegerValue benefit_id = 10002;</code>
          */
         public Builder setBenefitId(io.dstore.values.IntegerValue value) {
           if (benefitIdBuilder_ == null) {
@@ -3048,7 +3048,7 @@ public final class OmGetCampaignBundlePricingAd {
          * ID eines Bundle-Preis-Benefits für Verkaufs-Aktionen - natürlich identisch mit "&#64;BenefitID" wenn angegeben
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue benefit_id = 10002;</code>
+         * <code>.dstore.values.IntegerValue benefit_id = 10002;</code>
          */
         public Builder setBenefitId(
             io.dstore.values.IntegerValue.Builder builderForValue) {
@@ -3066,7 +3066,7 @@ public final class OmGetCampaignBundlePricingAd {
          * ID eines Bundle-Preis-Benefits für Verkaufs-Aktionen - natürlich identisch mit "&#64;BenefitID" wenn angegeben
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue benefit_id = 10002;</code>
+         * <code>.dstore.values.IntegerValue benefit_id = 10002;</code>
          */
         public Builder mergeBenefitId(io.dstore.values.IntegerValue value) {
           if (benefitIdBuilder_ == null) {
@@ -3088,7 +3088,7 @@ public final class OmGetCampaignBundlePricingAd {
          * ID eines Bundle-Preis-Benefits für Verkaufs-Aktionen - natürlich identisch mit "&#64;BenefitID" wenn angegeben
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue benefit_id = 10002;</code>
+         * <code>.dstore.values.IntegerValue benefit_id = 10002;</code>
          */
         public Builder clearBenefitId() {
           if (benefitIdBuilder_ == null) {
@@ -3106,7 +3106,7 @@ public final class OmGetCampaignBundlePricingAd {
          * ID eines Bundle-Preis-Benefits für Verkaufs-Aktionen - natürlich identisch mit "&#64;BenefitID" wenn angegeben
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue benefit_id = 10002;</code>
+         * <code>.dstore.values.IntegerValue benefit_id = 10002;</code>
          */
         public io.dstore.values.IntegerValue.Builder getBenefitIdBuilder() {
           
@@ -3118,7 +3118,7 @@ public final class OmGetCampaignBundlePricingAd {
          * ID eines Bundle-Preis-Benefits für Verkaufs-Aktionen - natürlich identisch mit "&#64;BenefitID" wenn angegeben
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue benefit_id = 10002;</code>
+         * <code>.dstore.values.IntegerValue benefit_id = 10002;</code>
          */
         public io.dstore.values.IntegerValueOrBuilder getBenefitIdOrBuilder() {
           if (benefitIdBuilder_ != null) {
@@ -3133,7 +3133,7 @@ public final class OmGetCampaignBundlePricingAd {
          * ID eines Bundle-Preis-Benefits für Verkaufs-Aktionen - natürlich identisch mit "&#64;BenefitID" wenn angegeben
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue benefit_id = 10002;</code>
+         * <code>.dstore.values.IntegerValue benefit_id = 10002;</code>
          */
         private com.google.protobuf.SingleFieldBuilderV3<
             io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> 
@@ -3157,7 +3157,7 @@ public final class OmGetCampaignBundlePricingAd {
          * ID der Art, wie der (Ziel-)Preis für das Bundle "BenefitID" bestimmt wird
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue bundle_pricing_type_id = 10003;</code>
+         * <code>.dstore.values.IntegerValue bundle_pricing_type_id = 10003;</code>
          */
         public boolean hasBundlePricingTypeId() {
           return bundlePricingTypeIdBuilder_ != null || bundlePricingTypeId_ != null;
@@ -3167,7 +3167,7 @@ public final class OmGetCampaignBundlePricingAd {
          * ID der Art, wie der (Ziel-)Preis für das Bundle "BenefitID" bestimmt wird
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue bundle_pricing_type_id = 10003;</code>
+         * <code>.dstore.values.IntegerValue bundle_pricing_type_id = 10003;</code>
          */
         public io.dstore.values.IntegerValue getBundlePricingTypeId() {
           if (bundlePricingTypeIdBuilder_ == null) {
@@ -3181,7 +3181,7 @@ public final class OmGetCampaignBundlePricingAd {
          * ID der Art, wie der (Ziel-)Preis für das Bundle "BenefitID" bestimmt wird
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue bundle_pricing_type_id = 10003;</code>
+         * <code>.dstore.values.IntegerValue bundle_pricing_type_id = 10003;</code>
          */
         public Builder setBundlePricingTypeId(io.dstore.values.IntegerValue value) {
           if (bundlePricingTypeIdBuilder_ == null) {
@@ -3201,7 +3201,7 @@ public final class OmGetCampaignBundlePricingAd {
          * ID der Art, wie der (Ziel-)Preis für das Bundle "BenefitID" bestimmt wird
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue bundle_pricing_type_id = 10003;</code>
+         * <code>.dstore.values.IntegerValue bundle_pricing_type_id = 10003;</code>
          */
         public Builder setBundlePricingTypeId(
             io.dstore.values.IntegerValue.Builder builderForValue) {
@@ -3219,7 +3219,7 @@ public final class OmGetCampaignBundlePricingAd {
          * ID der Art, wie der (Ziel-)Preis für das Bundle "BenefitID" bestimmt wird
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue bundle_pricing_type_id = 10003;</code>
+         * <code>.dstore.values.IntegerValue bundle_pricing_type_id = 10003;</code>
          */
         public Builder mergeBundlePricingTypeId(io.dstore.values.IntegerValue value) {
           if (bundlePricingTypeIdBuilder_ == null) {
@@ -3241,7 +3241,7 @@ public final class OmGetCampaignBundlePricingAd {
          * ID der Art, wie der (Ziel-)Preis für das Bundle "BenefitID" bestimmt wird
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue bundle_pricing_type_id = 10003;</code>
+         * <code>.dstore.values.IntegerValue bundle_pricing_type_id = 10003;</code>
          */
         public Builder clearBundlePricingTypeId() {
           if (bundlePricingTypeIdBuilder_ == null) {
@@ -3259,7 +3259,7 @@ public final class OmGetCampaignBundlePricingAd {
          * ID der Art, wie der (Ziel-)Preis für das Bundle "BenefitID" bestimmt wird
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue bundle_pricing_type_id = 10003;</code>
+         * <code>.dstore.values.IntegerValue bundle_pricing_type_id = 10003;</code>
          */
         public io.dstore.values.IntegerValue.Builder getBundlePricingTypeIdBuilder() {
           
@@ -3271,7 +3271,7 @@ public final class OmGetCampaignBundlePricingAd {
          * ID der Art, wie der (Ziel-)Preis für das Bundle "BenefitID" bestimmt wird
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue bundle_pricing_type_id = 10003;</code>
+         * <code>.dstore.values.IntegerValue bundle_pricing_type_id = 10003;</code>
          */
         public io.dstore.values.IntegerValueOrBuilder getBundlePricingTypeIdOrBuilder() {
           if (bundlePricingTypeIdBuilder_ != null) {
@@ -3286,7 +3286,7 @@ public final class OmGetCampaignBundlePricingAd {
          * ID der Art, wie der (Ziel-)Preis für das Bundle "BenefitID" bestimmt wird
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue bundle_pricing_type_id = 10003;</code>
+         * <code>.dstore.values.IntegerValue bundle_pricing_type_id = 10003;</code>
          */
         private com.google.protobuf.SingleFieldBuilderV3<
             io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> 
@@ -3310,7 +3310,7 @@ public final class OmGetCampaignBundlePricingAd {
          * Summe aller "Quantity"-Werte der "ItemSetID"s, die "BenefitID" zugeordnet sind (redundante Information aus Performance-Gründen für die Bestimmung, ob im Warenkorb das Bundle "BenefitID" vorliegt)
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue total_quantity = 10004;</code>
+         * <code>.dstore.values.IntegerValue total_quantity = 10004;</code>
          */
         public boolean hasTotalQuantity() {
           return totalQuantityBuilder_ != null || totalQuantity_ != null;
@@ -3320,7 +3320,7 @@ public final class OmGetCampaignBundlePricingAd {
          * Summe aller "Quantity"-Werte der "ItemSetID"s, die "BenefitID" zugeordnet sind (redundante Information aus Performance-Gründen für die Bestimmung, ob im Warenkorb das Bundle "BenefitID" vorliegt)
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue total_quantity = 10004;</code>
+         * <code>.dstore.values.IntegerValue total_quantity = 10004;</code>
          */
         public io.dstore.values.IntegerValue getTotalQuantity() {
           if (totalQuantityBuilder_ == null) {
@@ -3334,7 +3334,7 @@ public final class OmGetCampaignBundlePricingAd {
          * Summe aller "Quantity"-Werte der "ItemSetID"s, die "BenefitID" zugeordnet sind (redundante Information aus Performance-Gründen für die Bestimmung, ob im Warenkorb das Bundle "BenefitID" vorliegt)
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue total_quantity = 10004;</code>
+         * <code>.dstore.values.IntegerValue total_quantity = 10004;</code>
          */
         public Builder setTotalQuantity(io.dstore.values.IntegerValue value) {
           if (totalQuantityBuilder_ == null) {
@@ -3354,7 +3354,7 @@ public final class OmGetCampaignBundlePricingAd {
          * Summe aller "Quantity"-Werte der "ItemSetID"s, die "BenefitID" zugeordnet sind (redundante Information aus Performance-Gründen für die Bestimmung, ob im Warenkorb das Bundle "BenefitID" vorliegt)
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue total_quantity = 10004;</code>
+         * <code>.dstore.values.IntegerValue total_quantity = 10004;</code>
          */
         public Builder setTotalQuantity(
             io.dstore.values.IntegerValue.Builder builderForValue) {
@@ -3372,7 +3372,7 @@ public final class OmGetCampaignBundlePricingAd {
          * Summe aller "Quantity"-Werte der "ItemSetID"s, die "BenefitID" zugeordnet sind (redundante Information aus Performance-Gründen für die Bestimmung, ob im Warenkorb das Bundle "BenefitID" vorliegt)
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue total_quantity = 10004;</code>
+         * <code>.dstore.values.IntegerValue total_quantity = 10004;</code>
          */
         public Builder mergeTotalQuantity(io.dstore.values.IntegerValue value) {
           if (totalQuantityBuilder_ == null) {
@@ -3394,7 +3394,7 @@ public final class OmGetCampaignBundlePricingAd {
          * Summe aller "Quantity"-Werte der "ItemSetID"s, die "BenefitID" zugeordnet sind (redundante Information aus Performance-Gründen für die Bestimmung, ob im Warenkorb das Bundle "BenefitID" vorliegt)
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue total_quantity = 10004;</code>
+         * <code>.dstore.values.IntegerValue total_quantity = 10004;</code>
          */
         public Builder clearTotalQuantity() {
           if (totalQuantityBuilder_ == null) {
@@ -3412,7 +3412,7 @@ public final class OmGetCampaignBundlePricingAd {
          * Summe aller "Quantity"-Werte der "ItemSetID"s, die "BenefitID" zugeordnet sind (redundante Information aus Performance-Gründen für die Bestimmung, ob im Warenkorb das Bundle "BenefitID" vorliegt)
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue total_quantity = 10004;</code>
+         * <code>.dstore.values.IntegerValue total_quantity = 10004;</code>
          */
         public io.dstore.values.IntegerValue.Builder getTotalQuantityBuilder() {
           
@@ -3424,7 +3424,7 @@ public final class OmGetCampaignBundlePricingAd {
          * Summe aller "Quantity"-Werte der "ItemSetID"s, die "BenefitID" zugeordnet sind (redundante Information aus Performance-Gründen für die Bestimmung, ob im Warenkorb das Bundle "BenefitID" vorliegt)
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue total_quantity = 10004;</code>
+         * <code>.dstore.values.IntegerValue total_quantity = 10004;</code>
          */
         public io.dstore.values.IntegerValueOrBuilder getTotalQuantityOrBuilder() {
           if (totalQuantityBuilder_ != null) {
@@ -3439,7 +3439,7 @@ public final class OmGetCampaignBundlePricingAd {
          * Summe aller "Quantity"-Werte der "ItemSetID"s, die "BenefitID" zugeordnet sind (redundante Information aus Performance-Gründen für die Bestimmung, ob im Warenkorb das Bundle "BenefitID" vorliegt)
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue total_quantity = 10004;</code>
+         * <code>.dstore.values.IntegerValue total_quantity = 10004;</code>
          */
         private com.google.protobuf.SingleFieldBuilderV3<
             io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> 
@@ -3463,7 +3463,7 @@ public final class OmGetCampaignBundlePricingAd {
          * Bei "BundlePricingTypeID = 0" der Festpreis, bei "BundlePricingTypeID IN (1,2)" der prozentuale Rabatt und sonst "NULL"
          * </pre>
          *
-         * <code>optional .dstore.values.DecimalValue bundle_price_or_discount = 10005;</code>
+         * <code>.dstore.values.DecimalValue bundle_price_or_discount = 10005;</code>
          */
         public boolean hasBundlePriceOrDiscount() {
           return bundlePriceOrDiscountBuilder_ != null || bundlePriceOrDiscount_ != null;
@@ -3473,7 +3473,7 @@ public final class OmGetCampaignBundlePricingAd {
          * Bei "BundlePricingTypeID = 0" der Festpreis, bei "BundlePricingTypeID IN (1,2)" der prozentuale Rabatt und sonst "NULL"
          * </pre>
          *
-         * <code>optional .dstore.values.DecimalValue bundle_price_or_discount = 10005;</code>
+         * <code>.dstore.values.DecimalValue bundle_price_or_discount = 10005;</code>
          */
         public io.dstore.values.DecimalValue getBundlePriceOrDiscount() {
           if (bundlePriceOrDiscountBuilder_ == null) {
@@ -3487,7 +3487,7 @@ public final class OmGetCampaignBundlePricingAd {
          * Bei "BundlePricingTypeID = 0" der Festpreis, bei "BundlePricingTypeID IN (1,2)" der prozentuale Rabatt und sonst "NULL"
          * </pre>
          *
-         * <code>optional .dstore.values.DecimalValue bundle_price_or_discount = 10005;</code>
+         * <code>.dstore.values.DecimalValue bundle_price_or_discount = 10005;</code>
          */
         public Builder setBundlePriceOrDiscount(io.dstore.values.DecimalValue value) {
           if (bundlePriceOrDiscountBuilder_ == null) {
@@ -3507,7 +3507,7 @@ public final class OmGetCampaignBundlePricingAd {
          * Bei "BundlePricingTypeID = 0" der Festpreis, bei "BundlePricingTypeID IN (1,2)" der prozentuale Rabatt und sonst "NULL"
          * </pre>
          *
-         * <code>optional .dstore.values.DecimalValue bundle_price_or_discount = 10005;</code>
+         * <code>.dstore.values.DecimalValue bundle_price_or_discount = 10005;</code>
          */
         public Builder setBundlePriceOrDiscount(
             io.dstore.values.DecimalValue.Builder builderForValue) {
@@ -3525,7 +3525,7 @@ public final class OmGetCampaignBundlePricingAd {
          * Bei "BundlePricingTypeID = 0" der Festpreis, bei "BundlePricingTypeID IN (1,2)" der prozentuale Rabatt und sonst "NULL"
          * </pre>
          *
-         * <code>optional .dstore.values.DecimalValue bundle_price_or_discount = 10005;</code>
+         * <code>.dstore.values.DecimalValue bundle_price_or_discount = 10005;</code>
          */
         public Builder mergeBundlePriceOrDiscount(io.dstore.values.DecimalValue value) {
           if (bundlePriceOrDiscountBuilder_ == null) {
@@ -3547,7 +3547,7 @@ public final class OmGetCampaignBundlePricingAd {
          * Bei "BundlePricingTypeID = 0" der Festpreis, bei "BundlePricingTypeID IN (1,2)" der prozentuale Rabatt und sonst "NULL"
          * </pre>
          *
-         * <code>optional .dstore.values.DecimalValue bundle_price_or_discount = 10005;</code>
+         * <code>.dstore.values.DecimalValue bundle_price_or_discount = 10005;</code>
          */
         public Builder clearBundlePriceOrDiscount() {
           if (bundlePriceOrDiscountBuilder_ == null) {
@@ -3565,7 +3565,7 @@ public final class OmGetCampaignBundlePricingAd {
          * Bei "BundlePricingTypeID = 0" der Festpreis, bei "BundlePricingTypeID IN (1,2)" der prozentuale Rabatt und sonst "NULL"
          * </pre>
          *
-         * <code>optional .dstore.values.DecimalValue bundle_price_or_discount = 10005;</code>
+         * <code>.dstore.values.DecimalValue bundle_price_or_discount = 10005;</code>
          */
         public io.dstore.values.DecimalValue.Builder getBundlePriceOrDiscountBuilder() {
           
@@ -3577,7 +3577,7 @@ public final class OmGetCampaignBundlePricingAd {
          * Bei "BundlePricingTypeID = 0" der Festpreis, bei "BundlePricingTypeID IN (1,2)" der prozentuale Rabatt und sonst "NULL"
          * </pre>
          *
-         * <code>optional .dstore.values.DecimalValue bundle_price_or_discount = 10005;</code>
+         * <code>.dstore.values.DecimalValue bundle_price_or_discount = 10005;</code>
          */
         public io.dstore.values.DecimalValueOrBuilder getBundlePriceOrDiscountOrBuilder() {
           if (bundlePriceOrDiscountBuilder_ != null) {
@@ -3592,7 +3592,7 @@ public final class OmGetCampaignBundlePricingAd {
          * Bei "BundlePricingTypeID = 0" der Festpreis, bei "BundlePricingTypeID IN (1,2)" der prozentuale Rabatt und sonst "NULL"
          * </pre>
          *
-         * <code>optional .dstore.values.DecimalValue bundle_price_or_discount = 10005;</code>
+         * <code>.dstore.values.DecimalValue bundle_price_or_discount = 10005;</code>
          */
         private com.google.protobuf.SingleFieldBuilderV3<
             io.dstore.values.DecimalValue, io.dstore.values.DecimalValue.Builder, io.dstore.values.DecimalValueOrBuilder> 
@@ -3616,7 +3616,7 @@ public final class OmGetCampaignBundlePricingAd {
          * ID der Artikel-Bedingung, die das Set "ItemSetID" definiert. Die genaue Definition der Bedingung erhält man durch "im_GetItemConditions_Ad".
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue item_condition_id = 20002;</code>
+         * <code>.dstore.values.IntegerValue item_condition_id = 20002;</code>
          */
         public boolean hasItemConditionId() {
           return itemConditionIdBuilder_ != null || itemConditionId_ != null;
@@ -3626,7 +3626,7 @@ public final class OmGetCampaignBundlePricingAd {
          * ID der Artikel-Bedingung, die das Set "ItemSetID" definiert. Die genaue Definition der Bedingung erhält man durch "im_GetItemConditions_Ad".
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue item_condition_id = 20002;</code>
+         * <code>.dstore.values.IntegerValue item_condition_id = 20002;</code>
          */
         public io.dstore.values.IntegerValue getItemConditionId() {
           if (itemConditionIdBuilder_ == null) {
@@ -3640,7 +3640,7 @@ public final class OmGetCampaignBundlePricingAd {
          * ID der Artikel-Bedingung, die das Set "ItemSetID" definiert. Die genaue Definition der Bedingung erhält man durch "im_GetItemConditions_Ad".
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue item_condition_id = 20002;</code>
+         * <code>.dstore.values.IntegerValue item_condition_id = 20002;</code>
          */
         public Builder setItemConditionId(io.dstore.values.IntegerValue value) {
           if (itemConditionIdBuilder_ == null) {
@@ -3660,7 +3660,7 @@ public final class OmGetCampaignBundlePricingAd {
          * ID der Artikel-Bedingung, die das Set "ItemSetID" definiert. Die genaue Definition der Bedingung erhält man durch "im_GetItemConditions_Ad".
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue item_condition_id = 20002;</code>
+         * <code>.dstore.values.IntegerValue item_condition_id = 20002;</code>
          */
         public Builder setItemConditionId(
             io.dstore.values.IntegerValue.Builder builderForValue) {
@@ -3678,7 +3678,7 @@ public final class OmGetCampaignBundlePricingAd {
          * ID der Artikel-Bedingung, die das Set "ItemSetID" definiert. Die genaue Definition der Bedingung erhält man durch "im_GetItemConditions_Ad".
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue item_condition_id = 20002;</code>
+         * <code>.dstore.values.IntegerValue item_condition_id = 20002;</code>
          */
         public Builder mergeItemConditionId(io.dstore.values.IntegerValue value) {
           if (itemConditionIdBuilder_ == null) {
@@ -3700,7 +3700,7 @@ public final class OmGetCampaignBundlePricingAd {
          * ID der Artikel-Bedingung, die das Set "ItemSetID" definiert. Die genaue Definition der Bedingung erhält man durch "im_GetItemConditions_Ad".
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue item_condition_id = 20002;</code>
+         * <code>.dstore.values.IntegerValue item_condition_id = 20002;</code>
          */
         public Builder clearItemConditionId() {
           if (itemConditionIdBuilder_ == null) {
@@ -3718,7 +3718,7 @@ public final class OmGetCampaignBundlePricingAd {
          * ID der Artikel-Bedingung, die das Set "ItemSetID" definiert. Die genaue Definition der Bedingung erhält man durch "im_GetItemConditions_Ad".
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue item_condition_id = 20002;</code>
+         * <code>.dstore.values.IntegerValue item_condition_id = 20002;</code>
          */
         public io.dstore.values.IntegerValue.Builder getItemConditionIdBuilder() {
           
@@ -3730,7 +3730,7 @@ public final class OmGetCampaignBundlePricingAd {
          * ID der Artikel-Bedingung, die das Set "ItemSetID" definiert. Die genaue Definition der Bedingung erhält man durch "im_GetItemConditions_Ad".
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue item_condition_id = 20002;</code>
+         * <code>.dstore.values.IntegerValue item_condition_id = 20002;</code>
          */
         public io.dstore.values.IntegerValueOrBuilder getItemConditionIdOrBuilder() {
           if (itemConditionIdBuilder_ != null) {
@@ -3745,7 +3745,7 @@ public final class OmGetCampaignBundlePricingAd {
          * ID der Artikel-Bedingung, die das Set "ItemSetID" definiert. Die genaue Definition der Bedingung erhält man durch "im_GetItemConditions_Ad".
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue item_condition_id = 20002;</code>
+         * <code>.dstore.values.IntegerValue item_condition_id = 20002;</code>
          */
         private com.google.protobuf.SingleFieldBuilderV3<
             io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> 
@@ -3769,7 +3769,7 @@ public final class OmGetCampaignBundlePricingAd {
          * ID eines Sets von Artikeln (durch die Bedingung "ItemConditionID" definiert), die Bestandteil des Bundles "BenefitID" sind
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue item_set_id = 20006;</code>
+         * <code>.dstore.values.IntegerValue item_set_id = 20006;</code>
          */
         public boolean hasItemSetId() {
           return itemSetIdBuilder_ != null || itemSetId_ != null;
@@ -3779,7 +3779,7 @@ public final class OmGetCampaignBundlePricingAd {
          * ID eines Sets von Artikeln (durch die Bedingung "ItemConditionID" definiert), die Bestandteil des Bundles "BenefitID" sind
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue item_set_id = 20006;</code>
+         * <code>.dstore.values.IntegerValue item_set_id = 20006;</code>
          */
         public io.dstore.values.IntegerValue getItemSetId() {
           if (itemSetIdBuilder_ == null) {
@@ -3793,7 +3793,7 @@ public final class OmGetCampaignBundlePricingAd {
          * ID eines Sets von Artikeln (durch die Bedingung "ItemConditionID" definiert), die Bestandteil des Bundles "BenefitID" sind
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue item_set_id = 20006;</code>
+         * <code>.dstore.values.IntegerValue item_set_id = 20006;</code>
          */
         public Builder setItemSetId(io.dstore.values.IntegerValue value) {
           if (itemSetIdBuilder_ == null) {
@@ -3813,7 +3813,7 @@ public final class OmGetCampaignBundlePricingAd {
          * ID eines Sets von Artikeln (durch die Bedingung "ItemConditionID" definiert), die Bestandteil des Bundles "BenefitID" sind
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue item_set_id = 20006;</code>
+         * <code>.dstore.values.IntegerValue item_set_id = 20006;</code>
          */
         public Builder setItemSetId(
             io.dstore.values.IntegerValue.Builder builderForValue) {
@@ -3831,7 +3831,7 @@ public final class OmGetCampaignBundlePricingAd {
          * ID eines Sets von Artikeln (durch die Bedingung "ItemConditionID" definiert), die Bestandteil des Bundles "BenefitID" sind
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue item_set_id = 20006;</code>
+         * <code>.dstore.values.IntegerValue item_set_id = 20006;</code>
          */
         public Builder mergeItemSetId(io.dstore.values.IntegerValue value) {
           if (itemSetIdBuilder_ == null) {
@@ -3853,7 +3853,7 @@ public final class OmGetCampaignBundlePricingAd {
          * ID eines Sets von Artikeln (durch die Bedingung "ItemConditionID" definiert), die Bestandteil des Bundles "BenefitID" sind
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue item_set_id = 20006;</code>
+         * <code>.dstore.values.IntegerValue item_set_id = 20006;</code>
          */
         public Builder clearItemSetId() {
           if (itemSetIdBuilder_ == null) {
@@ -3871,7 +3871,7 @@ public final class OmGetCampaignBundlePricingAd {
          * ID eines Sets von Artikeln (durch die Bedingung "ItemConditionID" definiert), die Bestandteil des Bundles "BenefitID" sind
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue item_set_id = 20006;</code>
+         * <code>.dstore.values.IntegerValue item_set_id = 20006;</code>
          */
         public io.dstore.values.IntegerValue.Builder getItemSetIdBuilder() {
           
@@ -3883,7 +3883,7 @@ public final class OmGetCampaignBundlePricingAd {
          * ID eines Sets von Artikeln (durch die Bedingung "ItemConditionID" definiert), die Bestandteil des Bundles "BenefitID" sind
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue item_set_id = 20006;</code>
+         * <code>.dstore.values.IntegerValue item_set_id = 20006;</code>
          */
         public io.dstore.values.IntegerValueOrBuilder getItemSetIdOrBuilder() {
           if (itemSetIdBuilder_ != null) {
@@ -3898,7 +3898,7 @@ public final class OmGetCampaignBundlePricingAd {
          * ID eines Sets von Artikeln (durch die Bedingung "ItemConditionID" definiert), die Bestandteil des Bundles "BenefitID" sind
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue item_set_id = 20006;</code>
+         * <code>.dstore.values.IntegerValue item_set_id = 20006;</code>
          */
         private com.google.protobuf.SingleFieldBuilderV3<
             io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> 
@@ -3922,7 +3922,7 @@ public final class OmGetCampaignBundlePricingAd {
          * Gibt an, wieviele Artikel aus dem Set "ItemSetID" gewählt werden müssen
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue quantity = 20007;</code>
+         * <code>.dstore.values.IntegerValue quantity = 20007;</code>
          */
         public boolean hasQuantity() {
           return quantityBuilder_ != null || quantity_ != null;
@@ -3932,7 +3932,7 @@ public final class OmGetCampaignBundlePricingAd {
          * Gibt an, wieviele Artikel aus dem Set "ItemSetID" gewählt werden müssen
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue quantity = 20007;</code>
+         * <code>.dstore.values.IntegerValue quantity = 20007;</code>
          */
         public io.dstore.values.IntegerValue getQuantity() {
           if (quantityBuilder_ == null) {
@@ -3946,7 +3946,7 @@ public final class OmGetCampaignBundlePricingAd {
          * Gibt an, wieviele Artikel aus dem Set "ItemSetID" gewählt werden müssen
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue quantity = 20007;</code>
+         * <code>.dstore.values.IntegerValue quantity = 20007;</code>
          */
         public Builder setQuantity(io.dstore.values.IntegerValue value) {
           if (quantityBuilder_ == null) {
@@ -3966,7 +3966,7 @@ public final class OmGetCampaignBundlePricingAd {
          * Gibt an, wieviele Artikel aus dem Set "ItemSetID" gewählt werden müssen
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue quantity = 20007;</code>
+         * <code>.dstore.values.IntegerValue quantity = 20007;</code>
          */
         public Builder setQuantity(
             io.dstore.values.IntegerValue.Builder builderForValue) {
@@ -3984,7 +3984,7 @@ public final class OmGetCampaignBundlePricingAd {
          * Gibt an, wieviele Artikel aus dem Set "ItemSetID" gewählt werden müssen
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue quantity = 20007;</code>
+         * <code>.dstore.values.IntegerValue quantity = 20007;</code>
          */
         public Builder mergeQuantity(io.dstore.values.IntegerValue value) {
           if (quantityBuilder_ == null) {
@@ -4006,7 +4006,7 @@ public final class OmGetCampaignBundlePricingAd {
          * Gibt an, wieviele Artikel aus dem Set "ItemSetID" gewählt werden müssen
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue quantity = 20007;</code>
+         * <code>.dstore.values.IntegerValue quantity = 20007;</code>
          */
         public Builder clearQuantity() {
           if (quantityBuilder_ == null) {
@@ -4024,7 +4024,7 @@ public final class OmGetCampaignBundlePricingAd {
          * Gibt an, wieviele Artikel aus dem Set "ItemSetID" gewählt werden müssen
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue quantity = 20007;</code>
+         * <code>.dstore.values.IntegerValue quantity = 20007;</code>
          */
         public io.dstore.values.IntegerValue.Builder getQuantityBuilder() {
           
@@ -4036,7 +4036,7 @@ public final class OmGetCampaignBundlePricingAd {
          * Gibt an, wieviele Artikel aus dem Set "ItemSetID" gewählt werden müssen
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue quantity = 20007;</code>
+         * <code>.dstore.values.IntegerValue quantity = 20007;</code>
          */
         public io.dstore.values.IntegerValueOrBuilder getQuantityOrBuilder() {
           if (quantityBuilder_ != null) {
@@ -4051,7 +4051,7 @@ public final class OmGetCampaignBundlePricingAd {
          * Gibt an, wieviele Artikel aus dem Set "ItemSetID" gewählt werden müssen
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue quantity = 20007;</code>
+         * <code>.dstore.values.IntegerValue quantity = 20007;</code>
          */
         private com.google.protobuf.SingleFieldBuilderV3<
             io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> 
@@ -4075,7 +4075,7 @@ public final class OmGetCampaignBundlePricingAd {
          * Nur relevant wenn "Quantity &gt; 1" ! Darf der Kunde denselben Artikel mehrfach auswählen ("0") oder nicht ("1") ?
          * </pre>
          *
-         * <code>optional .dstore.values.BooleanValue distinct_items_only = 20008;</code>
+         * <code>.dstore.values.BooleanValue distinct_items_only = 20008;</code>
          */
         public boolean hasDistinctItemsOnly() {
           return distinctItemsOnlyBuilder_ != null || distinctItemsOnly_ != null;
@@ -4085,7 +4085,7 @@ public final class OmGetCampaignBundlePricingAd {
          * Nur relevant wenn "Quantity &gt; 1" ! Darf der Kunde denselben Artikel mehrfach auswählen ("0") oder nicht ("1") ?
          * </pre>
          *
-         * <code>optional .dstore.values.BooleanValue distinct_items_only = 20008;</code>
+         * <code>.dstore.values.BooleanValue distinct_items_only = 20008;</code>
          */
         public io.dstore.values.BooleanValue getDistinctItemsOnly() {
           if (distinctItemsOnlyBuilder_ == null) {
@@ -4099,7 +4099,7 @@ public final class OmGetCampaignBundlePricingAd {
          * Nur relevant wenn "Quantity &gt; 1" ! Darf der Kunde denselben Artikel mehrfach auswählen ("0") oder nicht ("1") ?
          * </pre>
          *
-         * <code>optional .dstore.values.BooleanValue distinct_items_only = 20008;</code>
+         * <code>.dstore.values.BooleanValue distinct_items_only = 20008;</code>
          */
         public Builder setDistinctItemsOnly(io.dstore.values.BooleanValue value) {
           if (distinctItemsOnlyBuilder_ == null) {
@@ -4119,7 +4119,7 @@ public final class OmGetCampaignBundlePricingAd {
          * Nur relevant wenn "Quantity &gt; 1" ! Darf der Kunde denselben Artikel mehrfach auswählen ("0") oder nicht ("1") ?
          * </pre>
          *
-         * <code>optional .dstore.values.BooleanValue distinct_items_only = 20008;</code>
+         * <code>.dstore.values.BooleanValue distinct_items_only = 20008;</code>
          */
         public Builder setDistinctItemsOnly(
             io.dstore.values.BooleanValue.Builder builderForValue) {
@@ -4137,7 +4137,7 @@ public final class OmGetCampaignBundlePricingAd {
          * Nur relevant wenn "Quantity &gt; 1" ! Darf der Kunde denselben Artikel mehrfach auswählen ("0") oder nicht ("1") ?
          * </pre>
          *
-         * <code>optional .dstore.values.BooleanValue distinct_items_only = 20008;</code>
+         * <code>.dstore.values.BooleanValue distinct_items_only = 20008;</code>
          */
         public Builder mergeDistinctItemsOnly(io.dstore.values.BooleanValue value) {
           if (distinctItemsOnlyBuilder_ == null) {
@@ -4159,7 +4159,7 @@ public final class OmGetCampaignBundlePricingAd {
          * Nur relevant wenn "Quantity &gt; 1" ! Darf der Kunde denselben Artikel mehrfach auswählen ("0") oder nicht ("1") ?
          * </pre>
          *
-         * <code>optional .dstore.values.BooleanValue distinct_items_only = 20008;</code>
+         * <code>.dstore.values.BooleanValue distinct_items_only = 20008;</code>
          */
         public Builder clearDistinctItemsOnly() {
           if (distinctItemsOnlyBuilder_ == null) {
@@ -4177,7 +4177,7 @@ public final class OmGetCampaignBundlePricingAd {
          * Nur relevant wenn "Quantity &gt; 1" ! Darf der Kunde denselben Artikel mehrfach auswählen ("0") oder nicht ("1") ?
          * </pre>
          *
-         * <code>optional .dstore.values.BooleanValue distinct_items_only = 20008;</code>
+         * <code>.dstore.values.BooleanValue distinct_items_only = 20008;</code>
          */
         public io.dstore.values.BooleanValue.Builder getDistinctItemsOnlyBuilder() {
           
@@ -4189,7 +4189,7 @@ public final class OmGetCampaignBundlePricingAd {
          * Nur relevant wenn "Quantity &gt; 1" ! Darf der Kunde denselben Artikel mehrfach auswählen ("0") oder nicht ("1") ?
          * </pre>
          *
-         * <code>optional .dstore.values.BooleanValue distinct_items_only = 20008;</code>
+         * <code>.dstore.values.BooleanValue distinct_items_only = 20008;</code>
          */
         public io.dstore.values.BooleanValueOrBuilder getDistinctItemsOnlyOrBuilder() {
           if (distinctItemsOnlyBuilder_ != null) {
@@ -4204,7 +4204,7 @@ public final class OmGetCampaignBundlePricingAd {
          * Nur relevant wenn "Quantity &gt; 1" ! Darf der Kunde denselben Artikel mehrfach auswählen ("0") oder nicht ("1") ?
          * </pre>
          *
-         * <code>optional .dstore.values.BooleanValue distinct_items_only = 20008;</code>
+         * <code>.dstore.values.BooleanValue distinct_items_only = 20008;</code>
          */
         private com.google.protobuf.SingleFieldBuilderV3<
             io.dstore.values.BooleanValue, io.dstore.values.BooleanValue.Builder, io.dstore.values.BooleanValueOrBuilder> 
@@ -4228,7 +4228,7 @@ public final class OmGetCampaignBundlePricingAd {
          * Bezeichnung der Artikel-Bedingung "ItemConditionID"
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue item_condition_description = 20009;</code>
+         * <code>.dstore.values.StringValue item_condition_description = 20009;</code>
          */
         public boolean hasItemConditionDescription() {
           return itemConditionDescriptionBuilder_ != null || itemConditionDescription_ != null;
@@ -4238,7 +4238,7 @@ public final class OmGetCampaignBundlePricingAd {
          * Bezeichnung der Artikel-Bedingung "ItemConditionID"
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue item_condition_description = 20009;</code>
+         * <code>.dstore.values.StringValue item_condition_description = 20009;</code>
          */
         public io.dstore.values.StringValue getItemConditionDescription() {
           if (itemConditionDescriptionBuilder_ == null) {
@@ -4252,7 +4252,7 @@ public final class OmGetCampaignBundlePricingAd {
          * Bezeichnung der Artikel-Bedingung "ItemConditionID"
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue item_condition_description = 20009;</code>
+         * <code>.dstore.values.StringValue item_condition_description = 20009;</code>
          */
         public Builder setItemConditionDescription(io.dstore.values.StringValue value) {
           if (itemConditionDescriptionBuilder_ == null) {
@@ -4272,7 +4272,7 @@ public final class OmGetCampaignBundlePricingAd {
          * Bezeichnung der Artikel-Bedingung "ItemConditionID"
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue item_condition_description = 20009;</code>
+         * <code>.dstore.values.StringValue item_condition_description = 20009;</code>
          */
         public Builder setItemConditionDescription(
             io.dstore.values.StringValue.Builder builderForValue) {
@@ -4290,7 +4290,7 @@ public final class OmGetCampaignBundlePricingAd {
          * Bezeichnung der Artikel-Bedingung "ItemConditionID"
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue item_condition_description = 20009;</code>
+         * <code>.dstore.values.StringValue item_condition_description = 20009;</code>
          */
         public Builder mergeItemConditionDescription(io.dstore.values.StringValue value) {
           if (itemConditionDescriptionBuilder_ == null) {
@@ -4312,7 +4312,7 @@ public final class OmGetCampaignBundlePricingAd {
          * Bezeichnung der Artikel-Bedingung "ItemConditionID"
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue item_condition_description = 20009;</code>
+         * <code>.dstore.values.StringValue item_condition_description = 20009;</code>
          */
         public Builder clearItemConditionDescription() {
           if (itemConditionDescriptionBuilder_ == null) {
@@ -4330,7 +4330,7 @@ public final class OmGetCampaignBundlePricingAd {
          * Bezeichnung der Artikel-Bedingung "ItemConditionID"
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue item_condition_description = 20009;</code>
+         * <code>.dstore.values.StringValue item_condition_description = 20009;</code>
          */
         public io.dstore.values.StringValue.Builder getItemConditionDescriptionBuilder() {
           
@@ -4342,7 +4342,7 @@ public final class OmGetCampaignBundlePricingAd {
          * Bezeichnung der Artikel-Bedingung "ItemConditionID"
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue item_condition_description = 20009;</code>
+         * <code>.dstore.values.StringValue item_condition_description = 20009;</code>
          */
         public io.dstore.values.StringValueOrBuilder getItemConditionDescriptionOrBuilder() {
           if (itemConditionDescriptionBuilder_ != null) {
@@ -4357,7 +4357,7 @@ public final class OmGetCampaignBundlePricingAd {
          * Bezeichnung der Artikel-Bedingung "ItemConditionID"
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue item_condition_description = 20009;</code>
+         * <code>.dstore.values.StringValue item_condition_description = 20009;</code>
          */
         private com.google.protobuf.SingleFieldBuilderV3<
             io.dstore.values.StringValue, io.dstore.values.StringValue.Builder, io.dstore.values.StringValueOrBuilder> 
@@ -4381,7 +4381,7 @@ public final class OmGetCampaignBundlePricingAd {
          * Bestimmt die Reihenfolge von "ItemSetID" innerhalb aller "BenefitID" zugeordneten Sets
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue sort_no = 20010;</code>
+         * <code>.dstore.values.IntegerValue sort_no = 20010;</code>
          */
         public boolean hasSortNo() {
           return sortNoBuilder_ != null || sortNo_ != null;
@@ -4391,7 +4391,7 @@ public final class OmGetCampaignBundlePricingAd {
          * Bestimmt die Reihenfolge von "ItemSetID" innerhalb aller "BenefitID" zugeordneten Sets
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue sort_no = 20010;</code>
+         * <code>.dstore.values.IntegerValue sort_no = 20010;</code>
          */
         public io.dstore.values.IntegerValue getSortNo() {
           if (sortNoBuilder_ == null) {
@@ -4405,7 +4405,7 @@ public final class OmGetCampaignBundlePricingAd {
          * Bestimmt die Reihenfolge von "ItemSetID" innerhalb aller "BenefitID" zugeordneten Sets
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue sort_no = 20010;</code>
+         * <code>.dstore.values.IntegerValue sort_no = 20010;</code>
          */
         public Builder setSortNo(io.dstore.values.IntegerValue value) {
           if (sortNoBuilder_ == null) {
@@ -4425,7 +4425,7 @@ public final class OmGetCampaignBundlePricingAd {
          * Bestimmt die Reihenfolge von "ItemSetID" innerhalb aller "BenefitID" zugeordneten Sets
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue sort_no = 20010;</code>
+         * <code>.dstore.values.IntegerValue sort_no = 20010;</code>
          */
         public Builder setSortNo(
             io.dstore.values.IntegerValue.Builder builderForValue) {
@@ -4443,7 +4443,7 @@ public final class OmGetCampaignBundlePricingAd {
          * Bestimmt die Reihenfolge von "ItemSetID" innerhalb aller "BenefitID" zugeordneten Sets
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue sort_no = 20010;</code>
+         * <code>.dstore.values.IntegerValue sort_no = 20010;</code>
          */
         public Builder mergeSortNo(io.dstore.values.IntegerValue value) {
           if (sortNoBuilder_ == null) {
@@ -4465,7 +4465,7 @@ public final class OmGetCampaignBundlePricingAd {
          * Bestimmt die Reihenfolge von "ItemSetID" innerhalb aller "BenefitID" zugeordneten Sets
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue sort_no = 20010;</code>
+         * <code>.dstore.values.IntegerValue sort_no = 20010;</code>
          */
         public Builder clearSortNo() {
           if (sortNoBuilder_ == null) {
@@ -4483,7 +4483,7 @@ public final class OmGetCampaignBundlePricingAd {
          * Bestimmt die Reihenfolge von "ItemSetID" innerhalb aller "BenefitID" zugeordneten Sets
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue sort_no = 20010;</code>
+         * <code>.dstore.values.IntegerValue sort_no = 20010;</code>
          */
         public io.dstore.values.IntegerValue.Builder getSortNoBuilder() {
           
@@ -4495,7 +4495,7 @@ public final class OmGetCampaignBundlePricingAd {
          * Bestimmt die Reihenfolge von "ItemSetID" innerhalb aller "BenefitID" zugeordneten Sets
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue sort_no = 20010;</code>
+         * <code>.dstore.values.IntegerValue sort_no = 20010;</code>
          */
         public io.dstore.values.IntegerValueOrBuilder getSortNoOrBuilder() {
           if (sortNoBuilder_ != null) {
@@ -4510,7 +4510,7 @@ public final class OmGetCampaignBundlePricingAd {
          * Bestimmt die Reihenfolge von "ItemSetID" innerhalb aller "BenefitID" zugeordneten Sets
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue sort_no = 20010;</code>
+         * <code>.dstore.values.IntegerValue sort_no = 20010;</code>
          */
         private com.google.protobuf.SingleFieldBuilderV3<
             io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> 
@@ -4770,7 +4770,7 @@ public final class OmGetCampaignBundlePricingAd {
         return memoizedHashCode;
       }
       int hash = 41;
-      hash = (19 * hash) + getDescriptorForType().hashCode();
+      hash = (19 * hash) + getDescriptor().hashCode();
       if (getMetaInformationCount() > 0) {
         hash = (37 * hash) + META_INFORMATION_FIELD_NUMBER;
         hash = (53 * hash) + getMetaInformationList().hashCode();

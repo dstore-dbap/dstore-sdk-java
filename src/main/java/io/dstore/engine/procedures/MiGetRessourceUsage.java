@@ -19,56 +19,56 @@ public final class MiGetRessourceUsage {
       com.google.protobuf.MessageOrBuilder {
 
     /**
-     * <code>optional .dstore.values.IntegerValue cpu = 1;</code>
+     * <code>.dstore.values.IntegerValue cpu = 1;</code>
      */
     boolean hasCpu();
     /**
-     * <code>optional .dstore.values.IntegerValue cpu = 1;</code>
+     * <code>.dstore.values.IntegerValue cpu = 1;</code>
      */
     io.dstore.values.IntegerValue getCpu();
     /**
-     * <code>optional .dstore.values.IntegerValue cpu = 1;</code>
+     * <code>.dstore.values.IntegerValue cpu = 1;</code>
      */
     io.dstore.values.IntegerValueOrBuilder getCpuOrBuilder();
 
     /**
-     * <code>optional bool cpu_null = 1001;</code>
+     * <code>bool cpu_null = 1001;</code>
      */
     boolean getCpuNull();
 
     /**
-     * <code>optional .dstore.values.IntegerValue physicalio = 2;</code>
+     * <code>.dstore.values.IntegerValue physicalio = 2;</code>
      */
     boolean hasPhysicalio();
     /**
-     * <code>optional .dstore.values.IntegerValue physicalio = 2;</code>
+     * <code>.dstore.values.IntegerValue physicalio = 2;</code>
      */
     io.dstore.values.IntegerValue getPhysicalio();
     /**
-     * <code>optional .dstore.values.IntegerValue physicalio = 2;</code>
+     * <code>.dstore.values.IntegerValue physicalio = 2;</code>
      */
     io.dstore.values.IntegerValueOrBuilder getPhysicalioOrBuilder();
 
     /**
-     * <code>optional bool physicalio_null = 1002;</code>
+     * <code>bool physicalio_null = 1002;</code>
      */
     boolean getPhysicalioNull();
 
     /**
-     * <code>optional .dstore.values.BooleanValue select_result = 3;</code>
+     * <code>.dstore.values.BooleanValue select_result = 3;</code>
      */
     boolean hasSelectResult();
     /**
-     * <code>optional .dstore.values.BooleanValue select_result = 3;</code>
+     * <code>.dstore.values.BooleanValue select_result = 3;</code>
      */
     io.dstore.values.BooleanValue getSelectResult();
     /**
-     * <code>optional .dstore.values.BooleanValue select_result = 3;</code>
+     * <code>.dstore.values.BooleanValue select_result = 3;</code>
      */
     io.dstore.values.BooleanValueOrBuilder getSelectResultOrBuilder();
 
     /**
-     * <code>optional bool select_result_null = 1003;</code>
+     * <code>bool select_result_null = 1003;</code>
      */
     boolean getSelectResultNull();
   }
@@ -194,19 +194,19 @@ public final class MiGetRessourceUsage {
     public static final int CPU_FIELD_NUMBER = 1;
     private io.dstore.values.IntegerValue cpu_;
     /**
-     * <code>optional .dstore.values.IntegerValue cpu = 1;</code>
+     * <code>.dstore.values.IntegerValue cpu = 1;</code>
      */
     public boolean hasCpu() {
       return cpu_ != null;
     }
     /**
-     * <code>optional .dstore.values.IntegerValue cpu = 1;</code>
+     * <code>.dstore.values.IntegerValue cpu = 1;</code>
      */
     public io.dstore.values.IntegerValue getCpu() {
       return cpu_ == null ? io.dstore.values.IntegerValue.getDefaultInstance() : cpu_;
     }
     /**
-     * <code>optional .dstore.values.IntegerValue cpu = 1;</code>
+     * <code>.dstore.values.IntegerValue cpu = 1;</code>
      */
     public io.dstore.values.IntegerValueOrBuilder getCpuOrBuilder() {
       return getCpu();
@@ -215,7 +215,7 @@ public final class MiGetRessourceUsage {
     public static final int CPU_NULL_FIELD_NUMBER = 1001;
     private boolean cpuNull_;
     /**
-     * <code>optional bool cpu_null = 1001;</code>
+     * <code>bool cpu_null = 1001;</code>
      */
     public boolean getCpuNull() {
       return cpuNull_;
@@ -224,19 +224,19 @@ public final class MiGetRessourceUsage {
     public static final int PHYSICALIO_FIELD_NUMBER = 2;
     private io.dstore.values.IntegerValue physicalio_;
     /**
-     * <code>optional .dstore.values.IntegerValue physicalio = 2;</code>
+     * <code>.dstore.values.IntegerValue physicalio = 2;</code>
      */
     public boolean hasPhysicalio() {
       return physicalio_ != null;
     }
     /**
-     * <code>optional .dstore.values.IntegerValue physicalio = 2;</code>
+     * <code>.dstore.values.IntegerValue physicalio = 2;</code>
      */
     public io.dstore.values.IntegerValue getPhysicalio() {
       return physicalio_ == null ? io.dstore.values.IntegerValue.getDefaultInstance() : physicalio_;
     }
     /**
-     * <code>optional .dstore.values.IntegerValue physicalio = 2;</code>
+     * <code>.dstore.values.IntegerValue physicalio = 2;</code>
      */
     public io.dstore.values.IntegerValueOrBuilder getPhysicalioOrBuilder() {
       return getPhysicalio();
@@ -245,7 +245,7 @@ public final class MiGetRessourceUsage {
     public static final int PHYSICALIO_NULL_FIELD_NUMBER = 1002;
     private boolean physicalioNull_;
     /**
-     * <code>optional bool physicalio_null = 1002;</code>
+     * <code>bool physicalio_null = 1002;</code>
      */
     public boolean getPhysicalioNull() {
       return physicalioNull_;
@@ -254,19 +254,19 @@ public final class MiGetRessourceUsage {
     public static final int SELECT_RESULT_FIELD_NUMBER = 3;
     private io.dstore.values.BooleanValue selectResult_;
     /**
-     * <code>optional .dstore.values.BooleanValue select_result = 3;</code>
+     * <code>.dstore.values.BooleanValue select_result = 3;</code>
      */
     public boolean hasSelectResult() {
       return selectResult_ != null;
     }
     /**
-     * <code>optional .dstore.values.BooleanValue select_result = 3;</code>
+     * <code>.dstore.values.BooleanValue select_result = 3;</code>
      */
     public io.dstore.values.BooleanValue getSelectResult() {
       return selectResult_ == null ? io.dstore.values.BooleanValue.getDefaultInstance() : selectResult_;
     }
     /**
-     * <code>optional .dstore.values.BooleanValue select_result = 3;</code>
+     * <code>.dstore.values.BooleanValue select_result = 3;</code>
      */
     public io.dstore.values.BooleanValueOrBuilder getSelectResultOrBuilder() {
       return getSelectResult();
@@ -275,7 +275,7 @@ public final class MiGetRessourceUsage {
     public static final int SELECT_RESULT_NULL_FIELD_NUMBER = 1003;
     private boolean selectResultNull_;
     /**
-     * <code>optional bool select_result_null = 1003;</code>
+     * <code>bool select_result_null = 1003;</code>
      */
     public boolean getSelectResultNull() {
       return selectResultNull_;
@@ -388,7 +388,7 @@ public final class MiGetRessourceUsage {
         return memoizedHashCode;
       }
       int hash = 41;
-      hash = (19 * hash) + getDescriptorForType().hashCode();
+      hash = (19 * hash) + getDescriptor().hashCode();
       if (hasCpu()) {
         hash = (37 * hash) + CPU_FIELD_NUMBER;
         hash = (53 * hash) + getCpu().hashCode();
@@ -681,13 +681,13 @@ public final class MiGetRessourceUsage {
       private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> cpuBuilder_;
       /**
-       * <code>optional .dstore.values.IntegerValue cpu = 1;</code>
+       * <code>.dstore.values.IntegerValue cpu = 1;</code>
        */
       public boolean hasCpu() {
         return cpuBuilder_ != null || cpu_ != null;
       }
       /**
-       * <code>optional .dstore.values.IntegerValue cpu = 1;</code>
+       * <code>.dstore.values.IntegerValue cpu = 1;</code>
        */
       public io.dstore.values.IntegerValue getCpu() {
         if (cpuBuilder_ == null) {
@@ -697,7 +697,7 @@ public final class MiGetRessourceUsage {
         }
       }
       /**
-       * <code>optional .dstore.values.IntegerValue cpu = 1;</code>
+       * <code>.dstore.values.IntegerValue cpu = 1;</code>
        */
       public Builder setCpu(io.dstore.values.IntegerValue value) {
         if (cpuBuilder_ == null) {
@@ -713,7 +713,7 @@ public final class MiGetRessourceUsage {
         return this;
       }
       /**
-       * <code>optional .dstore.values.IntegerValue cpu = 1;</code>
+       * <code>.dstore.values.IntegerValue cpu = 1;</code>
        */
       public Builder setCpu(
           io.dstore.values.IntegerValue.Builder builderForValue) {
@@ -727,7 +727,7 @@ public final class MiGetRessourceUsage {
         return this;
       }
       /**
-       * <code>optional .dstore.values.IntegerValue cpu = 1;</code>
+       * <code>.dstore.values.IntegerValue cpu = 1;</code>
        */
       public Builder mergeCpu(io.dstore.values.IntegerValue value) {
         if (cpuBuilder_ == null) {
@@ -745,7 +745,7 @@ public final class MiGetRessourceUsage {
         return this;
       }
       /**
-       * <code>optional .dstore.values.IntegerValue cpu = 1;</code>
+       * <code>.dstore.values.IntegerValue cpu = 1;</code>
        */
       public Builder clearCpu() {
         if (cpuBuilder_ == null) {
@@ -759,7 +759,7 @@ public final class MiGetRessourceUsage {
         return this;
       }
       /**
-       * <code>optional .dstore.values.IntegerValue cpu = 1;</code>
+       * <code>.dstore.values.IntegerValue cpu = 1;</code>
        */
       public io.dstore.values.IntegerValue.Builder getCpuBuilder() {
         
@@ -767,7 +767,7 @@ public final class MiGetRessourceUsage {
         return getCpuFieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .dstore.values.IntegerValue cpu = 1;</code>
+       * <code>.dstore.values.IntegerValue cpu = 1;</code>
        */
       public io.dstore.values.IntegerValueOrBuilder getCpuOrBuilder() {
         if (cpuBuilder_ != null) {
@@ -778,7 +778,7 @@ public final class MiGetRessourceUsage {
         }
       }
       /**
-       * <code>optional .dstore.values.IntegerValue cpu = 1;</code>
+       * <code>.dstore.values.IntegerValue cpu = 1;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> 
@@ -796,13 +796,13 @@ public final class MiGetRessourceUsage {
 
       private boolean cpuNull_ ;
       /**
-       * <code>optional bool cpu_null = 1001;</code>
+       * <code>bool cpu_null = 1001;</code>
        */
       public boolean getCpuNull() {
         return cpuNull_;
       }
       /**
-       * <code>optional bool cpu_null = 1001;</code>
+       * <code>bool cpu_null = 1001;</code>
        */
       public Builder setCpuNull(boolean value) {
         
@@ -811,7 +811,7 @@ public final class MiGetRessourceUsage {
         return this;
       }
       /**
-       * <code>optional bool cpu_null = 1001;</code>
+       * <code>bool cpu_null = 1001;</code>
        */
       public Builder clearCpuNull() {
         
@@ -824,13 +824,13 @@ public final class MiGetRessourceUsage {
       private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> physicalioBuilder_;
       /**
-       * <code>optional .dstore.values.IntegerValue physicalio = 2;</code>
+       * <code>.dstore.values.IntegerValue physicalio = 2;</code>
        */
       public boolean hasPhysicalio() {
         return physicalioBuilder_ != null || physicalio_ != null;
       }
       /**
-       * <code>optional .dstore.values.IntegerValue physicalio = 2;</code>
+       * <code>.dstore.values.IntegerValue physicalio = 2;</code>
        */
       public io.dstore.values.IntegerValue getPhysicalio() {
         if (physicalioBuilder_ == null) {
@@ -840,7 +840,7 @@ public final class MiGetRessourceUsage {
         }
       }
       /**
-       * <code>optional .dstore.values.IntegerValue physicalio = 2;</code>
+       * <code>.dstore.values.IntegerValue physicalio = 2;</code>
        */
       public Builder setPhysicalio(io.dstore.values.IntegerValue value) {
         if (physicalioBuilder_ == null) {
@@ -856,7 +856,7 @@ public final class MiGetRessourceUsage {
         return this;
       }
       /**
-       * <code>optional .dstore.values.IntegerValue physicalio = 2;</code>
+       * <code>.dstore.values.IntegerValue physicalio = 2;</code>
        */
       public Builder setPhysicalio(
           io.dstore.values.IntegerValue.Builder builderForValue) {
@@ -870,7 +870,7 @@ public final class MiGetRessourceUsage {
         return this;
       }
       /**
-       * <code>optional .dstore.values.IntegerValue physicalio = 2;</code>
+       * <code>.dstore.values.IntegerValue physicalio = 2;</code>
        */
       public Builder mergePhysicalio(io.dstore.values.IntegerValue value) {
         if (physicalioBuilder_ == null) {
@@ -888,7 +888,7 @@ public final class MiGetRessourceUsage {
         return this;
       }
       /**
-       * <code>optional .dstore.values.IntegerValue physicalio = 2;</code>
+       * <code>.dstore.values.IntegerValue physicalio = 2;</code>
        */
       public Builder clearPhysicalio() {
         if (physicalioBuilder_ == null) {
@@ -902,7 +902,7 @@ public final class MiGetRessourceUsage {
         return this;
       }
       /**
-       * <code>optional .dstore.values.IntegerValue physicalio = 2;</code>
+       * <code>.dstore.values.IntegerValue physicalio = 2;</code>
        */
       public io.dstore.values.IntegerValue.Builder getPhysicalioBuilder() {
         
@@ -910,7 +910,7 @@ public final class MiGetRessourceUsage {
         return getPhysicalioFieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .dstore.values.IntegerValue physicalio = 2;</code>
+       * <code>.dstore.values.IntegerValue physicalio = 2;</code>
        */
       public io.dstore.values.IntegerValueOrBuilder getPhysicalioOrBuilder() {
         if (physicalioBuilder_ != null) {
@@ -921,7 +921,7 @@ public final class MiGetRessourceUsage {
         }
       }
       /**
-       * <code>optional .dstore.values.IntegerValue physicalio = 2;</code>
+       * <code>.dstore.values.IntegerValue physicalio = 2;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> 
@@ -939,13 +939,13 @@ public final class MiGetRessourceUsage {
 
       private boolean physicalioNull_ ;
       /**
-       * <code>optional bool physicalio_null = 1002;</code>
+       * <code>bool physicalio_null = 1002;</code>
        */
       public boolean getPhysicalioNull() {
         return physicalioNull_;
       }
       /**
-       * <code>optional bool physicalio_null = 1002;</code>
+       * <code>bool physicalio_null = 1002;</code>
        */
       public Builder setPhysicalioNull(boolean value) {
         
@@ -954,7 +954,7 @@ public final class MiGetRessourceUsage {
         return this;
       }
       /**
-       * <code>optional bool physicalio_null = 1002;</code>
+       * <code>bool physicalio_null = 1002;</code>
        */
       public Builder clearPhysicalioNull() {
         
@@ -967,13 +967,13 @@ public final class MiGetRessourceUsage {
       private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.values.BooleanValue, io.dstore.values.BooleanValue.Builder, io.dstore.values.BooleanValueOrBuilder> selectResultBuilder_;
       /**
-       * <code>optional .dstore.values.BooleanValue select_result = 3;</code>
+       * <code>.dstore.values.BooleanValue select_result = 3;</code>
        */
       public boolean hasSelectResult() {
         return selectResultBuilder_ != null || selectResult_ != null;
       }
       /**
-       * <code>optional .dstore.values.BooleanValue select_result = 3;</code>
+       * <code>.dstore.values.BooleanValue select_result = 3;</code>
        */
       public io.dstore.values.BooleanValue getSelectResult() {
         if (selectResultBuilder_ == null) {
@@ -983,7 +983,7 @@ public final class MiGetRessourceUsage {
         }
       }
       /**
-       * <code>optional .dstore.values.BooleanValue select_result = 3;</code>
+       * <code>.dstore.values.BooleanValue select_result = 3;</code>
        */
       public Builder setSelectResult(io.dstore.values.BooleanValue value) {
         if (selectResultBuilder_ == null) {
@@ -999,7 +999,7 @@ public final class MiGetRessourceUsage {
         return this;
       }
       /**
-       * <code>optional .dstore.values.BooleanValue select_result = 3;</code>
+       * <code>.dstore.values.BooleanValue select_result = 3;</code>
        */
       public Builder setSelectResult(
           io.dstore.values.BooleanValue.Builder builderForValue) {
@@ -1013,7 +1013,7 @@ public final class MiGetRessourceUsage {
         return this;
       }
       /**
-       * <code>optional .dstore.values.BooleanValue select_result = 3;</code>
+       * <code>.dstore.values.BooleanValue select_result = 3;</code>
        */
       public Builder mergeSelectResult(io.dstore.values.BooleanValue value) {
         if (selectResultBuilder_ == null) {
@@ -1031,7 +1031,7 @@ public final class MiGetRessourceUsage {
         return this;
       }
       /**
-       * <code>optional .dstore.values.BooleanValue select_result = 3;</code>
+       * <code>.dstore.values.BooleanValue select_result = 3;</code>
        */
       public Builder clearSelectResult() {
         if (selectResultBuilder_ == null) {
@@ -1045,7 +1045,7 @@ public final class MiGetRessourceUsage {
         return this;
       }
       /**
-       * <code>optional .dstore.values.BooleanValue select_result = 3;</code>
+       * <code>.dstore.values.BooleanValue select_result = 3;</code>
        */
       public io.dstore.values.BooleanValue.Builder getSelectResultBuilder() {
         
@@ -1053,7 +1053,7 @@ public final class MiGetRessourceUsage {
         return getSelectResultFieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .dstore.values.BooleanValue select_result = 3;</code>
+       * <code>.dstore.values.BooleanValue select_result = 3;</code>
        */
       public io.dstore.values.BooleanValueOrBuilder getSelectResultOrBuilder() {
         if (selectResultBuilder_ != null) {
@@ -1064,7 +1064,7 @@ public final class MiGetRessourceUsage {
         }
       }
       /**
-       * <code>optional .dstore.values.BooleanValue select_result = 3;</code>
+       * <code>.dstore.values.BooleanValue select_result = 3;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.values.BooleanValue, io.dstore.values.BooleanValue.Builder, io.dstore.values.BooleanValueOrBuilder> 
@@ -1082,13 +1082,13 @@ public final class MiGetRessourceUsage {
 
       private boolean selectResultNull_ ;
       /**
-       * <code>optional bool select_result_null = 1003;</code>
+       * <code>bool select_result_null = 1003;</code>
        */
       public boolean getSelectResultNull() {
         return selectResultNull_;
       }
       /**
-       * <code>optional bool select_result_null = 1003;</code>
+       * <code>bool select_result_null = 1003;</code>
        */
       public Builder setSelectResultNull(boolean value) {
         
@@ -1097,7 +1097,7 @@ public final class MiGetRessourceUsage {
         return this;
       }
       /**
-       * <code>optional bool select_result_null = 1003;</code>
+       * <code>bool select_result_null = 1003;</code>
        */
       public Builder clearSelectResultNull() {
         
@@ -1231,28 +1231,28 @@ public final class MiGetRessourceUsage {
         int index);
 
     /**
-     * <code>optional .dstore.values.IntegerValue cpu = 101;</code>
+     * <code>.dstore.values.IntegerValue cpu = 101;</code>
      */
     boolean hasCpu();
     /**
-     * <code>optional .dstore.values.IntegerValue cpu = 101;</code>
+     * <code>.dstore.values.IntegerValue cpu = 101;</code>
      */
     io.dstore.values.IntegerValue getCpu();
     /**
-     * <code>optional .dstore.values.IntegerValue cpu = 101;</code>
+     * <code>.dstore.values.IntegerValue cpu = 101;</code>
      */
     io.dstore.values.IntegerValueOrBuilder getCpuOrBuilder();
 
     /**
-     * <code>optional .dstore.values.IntegerValue physicalio = 102;</code>
+     * <code>.dstore.values.IntegerValue physicalio = 102;</code>
      */
     boolean hasPhysicalio();
     /**
-     * <code>optional .dstore.values.IntegerValue physicalio = 102;</code>
+     * <code>.dstore.values.IntegerValue physicalio = 102;</code>
      */
     io.dstore.values.IntegerValue getPhysicalio();
     /**
-     * <code>optional .dstore.values.IntegerValue physicalio = 102;</code>
+     * <code>.dstore.values.IntegerValue physicalio = 102;</code>
      */
     io.dstore.values.IntegerValueOrBuilder getPhysicalioOrBuilder();
   }
@@ -1388,7 +1388,7 @@ public final class MiGetRessourceUsage {
         com.google.protobuf.MessageOrBuilder {
 
       /**
-       * <code>optional int32 row_id = 10000;</code>
+       * <code>int32 row_id = 10000;</code>
        */
       int getRowId();
 
@@ -1397,7 +1397,7 @@ public final class MiGetRessourceUsage {
        * Kummulierte CPU-Zeit in "ticks", die die Sitzung "&#64;&#64;spid" verbraucht hat
        * </pre>
        *
-       * <code>optional .dstore.values.IntegerValue c_p_u = 10001;</code>
+       * <code>.dstore.values.IntegerValue c_p_u = 10001;</code>
        */
       boolean hasCPU();
       /**
@@ -1405,7 +1405,7 @@ public final class MiGetRessourceUsage {
        * Kummulierte CPU-Zeit in "ticks", die die Sitzung "&#64;&#64;spid" verbraucht hat
        * </pre>
        *
-       * <code>optional .dstore.values.IntegerValue c_p_u = 10001;</code>
+       * <code>.dstore.values.IntegerValue c_p_u = 10001;</code>
        */
       io.dstore.values.IntegerValue getCPU();
       /**
@@ -1413,7 +1413,7 @@ public final class MiGetRessourceUsage {
        * Kummulierte CPU-Zeit in "ticks", die die Sitzung "&#64;&#64;spid" verbraucht hat
        * </pre>
        *
-       * <code>optional .dstore.values.IntegerValue c_p_u = 10001;</code>
+       * <code>.dstore.values.IntegerValue c_p_u = 10001;</code>
        */
       io.dstore.values.IntegerValueOrBuilder getCPUOrBuilder();
 
@@ -1422,7 +1422,7 @@ public final class MiGetRessourceUsage {
        * Anzahl Festplatten-Zugriffe (lesend und schreibend !), die die Sitzung "&#64;&#64;spid" verbraucht hat (i/o in Anzahl 2K-Pages)
        * </pre>
        *
-       * <code>optional .dstore.values.IntegerValue physical_i_o = 10002;</code>
+       * <code>.dstore.values.IntegerValue physical_i_o = 10002;</code>
        */
       boolean hasPhysicalIO();
       /**
@@ -1430,7 +1430,7 @@ public final class MiGetRessourceUsage {
        * Anzahl Festplatten-Zugriffe (lesend und schreibend !), die die Sitzung "&#64;&#64;spid" verbraucht hat (i/o in Anzahl 2K-Pages)
        * </pre>
        *
-       * <code>optional .dstore.values.IntegerValue physical_i_o = 10002;</code>
+       * <code>.dstore.values.IntegerValue physical_i_o = 10002;</code>
        */
       io.dstore.values.IntegerValue getPhysicalIO();
       /**
@@ -1438,7 +1438,7 @@ public final class MiGetRessourceUsage {
        * Anzahl Festplatten-Zugriffe (lesend und schreibend !), die die Sitzung "&#64;&#64;spid" verbraucht hat (i/o in Anzahl 2K-Pages)
        * </pre>
        *
-       * <code>optional .dstore.values.IntegerValue physical_i_o = 10002;</code>
+       * <code>.dstore.values.IntegerValue physical_i_o = 10002;</code>
        */
       io.dstore.values.IntegerValueOrBuilder getPhysicalIOOrBuilder();
     }
@@ -1539,7 +1539,7 @@ public final class MiGetRessourceUsage {
       public static final int ROW_ID_FIELD_NUMBER = 10000;
       private int rowId_;
       /**
-       * <code>optional int32 row_id = 10000;</code>
+       * <code>int32 row_id = 10000;</code>
        */
       public int getRowId() {
         return rowId_;
@@ -1552,7 +1552,7 @@ public final class MiGetRessourceUsage {
        * Kummulierte CPU-Zeit in "ticks", die die Sitzung "&#64;&#64;spid" verbraucht hat
        * </pre>
        *
-       * <code>optional .dstore.values.IntegerValue c_p_u = 10001;</code>
+       * <code>.dstore.values.IntegerValue c_p_u = 10001;</code>
        */
       public boolean hasCPU() {
         return cPU_ != null;
@@ -1562,7 +1562,7 @@ public final class MiGetRessourceUsage {
        * Kummulierte CPU-Zeit in "ticks", die die Sitzung "&#64;&#64;spid" verbraucht hat
        * </pre>
        *
-       * <code>optional .dstore.values.IntegerValue c_p_u = 10001;</code>
+       * <code>.dstore.values.IntegerValue c_p_u = 10001;</code>
        */
       public io.dstore.values.IntegerValue getCPU() {
         return cPU_ == null ? io.dstore.values.IntegerValue.getDefaultInstance() : cPU_;
@@ -1572,7 +1572,7 @@ public final class MiGetRessourceUsage {
        * Kummulierte CPU-Zeit in "ticks", die die Sitzung "&#64;&#64;spid" verbraucht hat
        * </pre>
        *
-       * <code>optional .dstore.values.IntegerValue c_p_u = 10001;</code>
+       * <code>.dstore.values.IntegerValue c_p_u = 10001;</code>
        */
       public io.dstore.values.IntegerValueOrBuilder getCPUOrBuilder() {
         return getCPU();
@@ -1585,7 +1585,7 @@ public final class MiGetRessourceUsage {
        * Anzahl Festplatten-Zugriffe (lesend und schreibend !), die die Sitzung "&#64;&#64;spid" verbraucht hat (i/o in Anzahl 2K-Pages)
        * </pre>
        *
-       * <code>optional .dstore.values.IntegerValue physical_i_o = 10002;</code>
+       * <code>.dstore.values.IntegerValue physical_i_o = 10002;</code>
        */
       public boolean hasPhysicalIO() {
         return physicalIO_ != null;
@@ -1595,7 +1595,7 @@ public final class MiGetRessourceUsage {
        * Anzahl Festplatten-Zugriffe (lesend und schreibend !), die die Sitzung "&#64;&#64;spid" verbraucht hat (i/o in Anzahl 2K-Pages)
        * </pre>
        *
-       * <code>optional .dstore.values.IntegerValue physical_i_o = 10002;</code>
+       * <code>.dstore.values.IntegerValue physical_i_o = 10002;</code>
        */
       public io.dstore.values.IntegerValue getPhysicalIO() {
         return physicalIO_ == null ? io.dstore.values.IntegerValue.getDefaultInstance() : physicalIO_;
@@ -1605,7 +1605,7 @@ public final class MiGetRessourceUsage {
        * Anzahl Festplatten-Zugriffe (lesend und schreibend !), die die Sitzung "&#64;&#64;spid" verbraucht hat (i/o in Anzahl 2K-Pages)
        * </pre>
        *
-       * <code>optional .dstore.values.IntegerValue physical_i_o = 10002;</code>
+       * <code>.dstore.values.IntegerValue physical_i_o = 10002;</code>
        */
       public io.dstore.values.IntegerValueOrBuilder getPhysicalIOOrBuilder() {
         return getPhysicalIO();
@@ -1688,7 +1688,7 @@ public final class MiGetRessourceUsage {
           return memoizedHashCode;
         }
         int hash = 41;
-        hash = (19 * hash) + getDescriptorForType().hashCode();
+        hash = (19 * hash) + getDescriptor().hashCode();
         hash = (37 * hash) + ROW_ID_FIELD_NUMBER;
         hash = (53 * hash) + getRowId();
         if (hasCPU()) {
@@ -1942,13 +1942,13 @@ public final class MiGetRessourceUsage {
 
         private int rowId_ ;
         /**
-         * <code>optional int32 row_id = 10000;</code>
+         * <code>int32 row_id = 10000;</code>
          */
         public int getRowId() {
           return rowId_;
         }
         /**
-         * <code>optional int32 row_id = 10000;</code>
+         * <code>int32 row_id = 10000;</code>
          */
         public Builder setRowId(int value) {
           
@@ -1957,7 +1957,7 @@ public final class MiGetRessourceUsage {
           return this;
         }
         /**
-         * <code>optional int32 row_id = 10000;</code>
+         * <code>int32 row_id = 10000;</code>
          */
         public Builder clearRowId() {
           
@@ -1974,7 +1974,7 @@ public final class MiGetRessourceUsage {
          * Kummulierte CPU-Zeit in "ticks", die die Sitzung "&#64;&#64;spid" verbraucht hat
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue c_p_u = 10001;</code>
+         * <code>.dstore.values.IntegerValue c_p_u = 10001;</code>
          */
         public boolean hasCPU() {
           return cPUBuilder_ != null || cPU_ != null;
@@ -1984,7 +1984,7 @@ public final class MiGetRessourceUsage {
          * Kummulierte CPU-Zeit in "ticks", die die Sitzung "&#64;&#64;spid" verbraucht hat
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue c_p_u = 10001;</code>
+         * <code>.dstore.values.IntegerValue c_p_u = 10001;</code>
          */
         public io.dstore.values.IntegerValue getCPU() {
           if (cPUBuilder_ == null) {
@@ -1998,7 +1998,7 @@ public final class MiGetRessourceUsage {
          * Kummulierte CPU-Zeit in "ticks", die die Sitzung "&#64;&#64;spid" verbraucht hat
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue c_p_u = 10001;</code>
+         * <code>.dstore.values.IntegerValue c_p_u = 10001;</code>
          */
         public Builder setCPU(io.dstore.values.IntegerValue value) {
           if (cPUBuilder_ == null) {
@@ -2018,7 +2018,7 @@ public final class MiGetRessourceUsage {
          * Kummulierte CPU-Zeit in "ticks", die die Sitzung "&#64;&#64;spid" verbraucht hat
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue c_p_u = 10001;</code>
+         * <code>.dstore.values.IntegerValue c_p_u = 10001;</code>
          */
         public Builder setCPU(
             io.dstore.values.IntegerValue.Builder builderForValue) {
@@ -2036,7 +2036,7 @@ public final class MiGetRessourceUsage {
          * Kummulierte CPU-Zeit in "ticks", die die Sitzung "&#64;&#64;spid" verbraucht hat
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue c_p_u = 10001;</code>
+         * <code>.dstore.values.IntegerValue c_p_u = 10001;</code>
          */
         public Builder mergeCPU(io.dstore.values.IntegerValue value) {
           if (cPUBuilder_ == null) {
@@ -2058,7 +2058,7 @@ public final class MiGetRessourceUsage {
          * Kummulierte CPU-Zeit in "ticks", die die Sitzung "&#64;&#64;spid" verbraucht hat
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue c_p_u = 10001;</code>
+         * <code>.dstore.values.IntegerValue c_p_u = 10001;</code>
          */
         public Builder clearCPU() {
           if (cPUBuilder_ == null) {
@@ -2076,7 +2076,7 @@ public final class MiGetRessourceUsage {
          * Kummulierte CPU-Zeit in "ticks", die die Sitzung "&#64;&#64;spid" verbraucht hat
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue c_p_u = 10001;</code>
+         * <code>.dstore.values.IntegerValue c_p_u = 10001;</code>
          */
         public io.dstore.values.IntegerValue.Builder getCPUBuilder() {
           
@@ -2088,7 +2088,7 @@ public final class MiGetRessourceUsage {
          * Kummulierte CPU-Zeit in "ticks", die die Sitzung "&#64;&#64;spid" verbraucht hat
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue c_p_u = 10001;</code>
+         * <code>.dstore.values.IntegerValue c_p_u = 10001;</code>
          */
         public io.dstore.values.IntegerValueOrBuilder getCPUOrBuilder() {
           if (cPUBuilder_ != null) {
@@ -2103,7 +2103,7 @@ public final class MiGetRessourceUsage {
          * Kummulierte CPU-Zeit in "ticks", die die Sitzung "&#64;&#64;spid" verbraucht hat
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue c_p_u = 10001;</code>
+         * <code>.dstore.values.IntegerValue c_p_u = 10001;</code>
          */
         private com.google.protobuf.SingleFieldBuilderV3<
             io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> 
@@ -2127,7 +2127,7 @@ public final class MiGetRessourceUsage {
          * Anzahl Festplatten-Zugriffe (lesend und schreibend !), die die Sitzung "&#64;&#64;spid" verbraucht hat (i/o in Anzahl 2K-Pages)
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue physical_i_o = 10002;</code>
+         * <code>.dstore.values.IntegerValue physical_i_o = 10002;</code>
          */
         public boolean hasPhysicalIO() {
           return physicalIOBuilder_ != null || physicalIO_ != null;
@@ -2137,7 +2137,7 @@ public final class MiGetRessourceUsage {
          * Anzahl Festplatten-Zugriffe (lesend und schreibend !), die die Sitzung "&#64;&#64;spid" verbraucht hat (i/o in Anzahl 2K-Pages)
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue physical_i_o = 10002;</code>
+         * <code>.dstore.values.IntegerValue physical_i_o = 10002;</code>
          */
         public io.dstore.values.IntegerValue getPhysicalIO() {
           if (physicalIOBuilder_ == null) {
@@ -2151,7 +2151,7 @@ public final class MiGetRessourceUsage {
          * Anzahl Festplatten-Zugriffe (lesend und schreibend !), die die Sitzung "&#64;&#64;spid" verbraucht hat (i/o in Anzahl 2K-Pages)
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue physical_i_o = 10002;</code>
+         * <code>.dstore.values.IntegerValue physical_i_o = 10002;</code>
          */
         public Builder setPhysicalIO(io.dstore.values.IntegerValue value) {
           if (physicalIOBuilder_ == null) {
@@ -2171,7 +2171,7 @@ public final class MiGetRessourceUsage {
          * Anzahl Festplatten-Zugriffe (lesend und schreibend !), die die Sitzung "&#64;&#64;spid" verbraucht hat (i/o in Anzahl 2K-Pages)
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue physical_i_o = 10002;</code>
+         * <code>.dstore.values.IntegerValue physical_i_o = 10002;</code>
          */
         public Builder setPhysicalIO(
             io.dstore.values.IntegerValue.Builder builderForValue) {
@@ -2189,7 +2189,7 @@ public final class MiGetRessourceUsage {
          * Anzahl Festplatten-Zugriffe (lesend und schreibend !), die die Sitzung "&#64;&#64;spid" verbraucht hat (i/o in Anzahl 2K-Pages)
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue physical_i_o = 10002;</code>
+         * <code>.dstore.values.IntegerValue physical_i_o = 10002;</code>
          */
         public Builder mergePhysicalIO(io.dstore.values.IntegerValue value) {
           if (physicalIOBuilder_ == null) {
@@ -2211,7 +2211,7 @@ public final class MiGetRessourceUsage {
          * Anzahl Festplatten-Zugriffe (lesend und schreibend !), die die Sitzung "&#64;&#64;spid" verbraucht hat (i/o in Anzahl 2K-Pages)
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue physical_i_o = 10002;</code>
+         * <code>.dstore.values.IntegerValue physical_i_o = 10002;</code>
          */
         public Builder clearPhysicalIO() {
           if (physicalIOBuilder_ == null) {
@@ -2229,7 +2229,7 @@ public final class MiGetRessourceUsage {
          * Anzahl Festplatten-Zugriffe (lesend und schreibend !), die die Sitzung "&#64;&#64;spid" verbraucht hat (i/o in Anzahl 2K-Pages)
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue physical_i_o = 10002;</code>
+         * <code>.dstore.values.IntegerValue physical_i_o = 10002;</code>
          */
         public io.dstore.values.IntegerValue.Builder getPhysicalIOBuilder() {
           
@@ -2241,7 +2241,7 @@ public final class MiGetRessourceUsage {
          * Anzahl Festplatten-Zugriffe (lesend und schreibend !), die die Sitzung "&#64;&#64;spid" verbraucht hat (i/o in Anzahl 2K-Pages)
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue physical_i_o = 10002;</code>
+         * <code>.dstore.values.IntegerValue physical_i_o = 10002;</code>
          */
         public io.dstore.values.IntegerValueOrBuilder getPhysicalIOOrBuilder() {
           if (physicalIOBuilder_ != null) {
@@ -2256,7 +2256,7 @@ public final class MiGetRessourceUsage {
          * Anzahl Festplatten-Zugriffe (lesend und schreibend !), die die Sitzung "&#64;&#64;spid" verbraucht hat (i/o in Anzahl 2K-Pages)
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue physical_i_o = 10002;</code>
+         * <code>.dstore.values.IntegerValue physical_i_o = 10002;</code>
          */
         private com.google.protobuf.SingleFieldBuilderV3<
             io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> 
@@ -2429,19 +2429,19 @@ public final class MiGetRessourceUsage {
     public static final int CPU_FIELD_NUMBER = 101;
     private io.dstore.values.IntegerValue cpu_;
     /**
-     * <code>optional .dstore.values.IntegerValue cpu = 101;</code>
+     * <code>.dstore.values.IntegerValue cpu = 101;</code>
      */
     public boolean hasCpu() {
       return cpu_ != null;
     }
     /**
-     * <code>optional .dstore.values.IntegerValue cpu = 101;</code>
+     * <code>.dstore.values.IntegerValue cpu = 101;</code>
      */
     public io.dstore.values.IntegerValue getCpu() {
       return cpu_ == null ? io.dstore.values.IntegerValue.getDefaultInstance() : cpu_;
     }
     /**
-     * <code>optional .dstore.values.IntegerValue cpu = 101;</code>
+     * <code>.dstore.values.IntegerValue cpu = 101;</code>
      */
     public io.dstore.values.IntegerValueOrBuilder getCpuOrBuilder() {
       return getCpu();
@@ -2450,19 +2450,19 @@ public final class MiGetRessourceUsage {
     public static final int PHYSICALIO_FIELD_NUMBER = 102;
     private io.dstore.values.IntegerValue physicalio_;
     /**
-     * <code>optional .dstore.values.IntegerValue physicalio = 102;</code>
+     * <code>.dstore.values.IntegerValue physicalio = 102;</code>
      */
     public boolean hasPhysicalio() {
       return physicalio_ != null;
     }
     /**
-     * <code>optional .dstore.values.IntegerValue physicalio = 102;</code>
+     * <code>.dstore.values.IntegerValue physicalio = 102;</code>
      */
     public io.dstore.values.IntegerValue getPhysicalio() {
       return physicalio_ == null ? io.dstore.values.IntegerValue.getDefaultInstance() : physicalio_;
     }
     /**
-     * <code>optional .dstore.values.IntegerValue physicalio = 102;</code>
+     * <code>.dstore.values.IntegerValue physicalio = 102;</code>
      */
     public io.dstore.values.IntegerValueOrBuilder getPhysicalioOrBuilder() {
       return getPhysicalio();
@@ -2563,7 +2563,7 @@ public final class MiGetRessourceUsage {
         return memoizedHashCode;
       }
       int hash = 41;
-      hash = (19 * hash) + getDescriptorForType().hashCode();
+      hash = (19 * hash) + getDescriptor().hashCode();
       if (getMetaInformationCount() > 0) {
         hash = (37 * hash) + META_INFORMATION_FIELD_NUMBER;
         hash = (53 * hash) + getMetaInformationList().hashCode();
@@ -3673,13 +3673,13 @@ public final class MiGetRessourceUsage {
       private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> cpuBuilder_;
       /**
-       * <code>optional .dstore.values.IntegerValue cpu = 101;</code>
+       * <code>.dstore.values.IntegerValue cpu = 101;</code>
        */
       public boolean hasCpu() {
         return cpuBuilder_ != null || cpu_ != null;
       }
       /**
-       * <code>optional .dstore.values.IntegerValue cpu = 101;</code>
+       * <code>.dstore.values.IntegerValue cpu = 101;</code>
        */
       public io.dstore.values.IntegerValue getCpu() {
         if (cpuBuilder_ == null) {
@@ -3689,7 +3689,7 @@ public final class MiGetRessourceUsage {
         }
       }
       /**
-       * <code>optional .dstore.values.IntegerValue cpu = 101;</code>
+       * <code>.dstore.values.IntegerValue cpu = 101;</code>
        */
       public Builder setCpu(io.dstore.values.IntegerValue value) {
         if (cpuBuilder_ == null) {
@@ -3705,7 +3705,7 @@ public final class MiGetRessourceUsage {
         return this;
       }
       /**
-       * <code>optional .dstore.values.IntegerValue cpu = 101;</code>
+       * <code>.dstore.values.IntegerValue cpu = 101;</code>
        */
       public Builder setCpu(
           io.dstore.values.IntegerValue.Builder builderForValue) {
@@ -3719,7 +3719,7 @@ public final class MiGetRessourceUsage {
         return this;
       }
       /**
-       * <code>optional .dstore.values.IntegerValue cpu = 101;</code>
+       * <code>.dstore.values.IntegerValue cpu = 101;</code>
        */
       public Builder mergeCpu(io.dstore.values.IntegerValue value) {
         if (cpuBuilder_ == null) {
@@ -3737,7 +3737,7 @@ public final class MiGetRessourceUsage {
         return this;
       }
       /**
-       * <code>optional .dstore.values.IntegerValue cpu = 101;</code>
+       * <code>.dstore.values.IntegerValue cpu = 101;</code>
        */
       public Builder clearCpu() {
         if (cpuBuilder_ == null) {
@@ -3751,7 +3751,7 @@ public final class MiGetRessourceUsage {
         return this;
       }
       /**
-       * <code>optional .dstore.values.IntegerValue cpu = 101;</code>
+       * <code>.dstore.values.IntegerValue cpu = 101;</code>
        */
       public io.dstore.values.IntegerValue.Builder getCpuBuilder() {
         
@@ -3759,7 +3759,7 @@ public final class MiGetRessourceUsage {
         return getCpuFieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .dstore.values.IntegerValue cpu = 101;</code>
+       * <code>.dstore.values.IntegerValue cpu = 101;</code>
        */
       public io.dstore.values.IntegerValueOrBuilder getCpuOrBuilder() {
         if (cpuBuilder_ != null) {
@@ -3770,7 +3770,7 @@ public final class MiGetRessourceUsage {
         }
       }
       /**
-       * <code>optional .dstore.values.IntegerValue cpu = 101;</code>
+       * <code>.dstore.values.IntegerValue cpu = 101;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> 
@@ -3790,13 +3790,13 @@ public final class MiGetRessourceUsage {
       private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> physicalioBuilder_;
       /**
-       * <code>optional .dstore.values.IntegerValue physicalio = 102;</code>
+       * <code>.dstore.values.IntegerValue physicalio = 102;</code>
        */
       public boolean hasPhysicalio() {
         return physicalioBuilder_ != null || physicalio_ != null;
       }
       /**
-       * <code>optional .dstore.values.IntegerValue physicalio = 102;</code>
+       * <code>.dstore.values.IntegerValue physicalio = 102;</code>
        */
       public io.dstore.values.IntegerValue getPhysicalio() {
         if (physicalioBuilder_ == null) {
@@ -3806,7 +3806,7 @@ public final class MiGetRessourceUsage {
         }
       }
       /**
-       * <code>optional .dstore.values.IntegerValue physicalio = 102;</code>
+       * <code>.dstore.values.IntegerValue physicalio = 102;</code>
        */
       public Builder setPhysicalio(io.dstore.values.IntegerValue value) {
         if (physicalioBuilder_ == null) {
@@ -3822,7 +3822,7 @@ public final class MiGetRessourceUsage {
         return this;
       }
       /**
-       * <code>optional .dstore.values.IntegerValue physicalio = 102;</code>
+       * <code>.dstore.values.IntegerValue physicalio = 102;</code>
        */
       public Builder setPhysicalio(
           io.dstore.values.IntegerValue.Builder builderForValue) {
@@ -3836,7 +3836,7 @@ public final class MiGetRessourceUsage {
         return this;
       }
       /**
-       * <code>optional .dstore.values.IntegerValue physicalio = 102;</code>
+       * <code>.dstore.values.IntegerValue physicalio = 102;</code>
        */
       public Builder mergePhysicalio(io.dstore.values.IntegerValue value) {
         if (physicalioBuilder_ == null) {
@@ -3854,7 +3854,7 @@ public final class MiGetRessourceUsage {
         return this;
       }
       /**
-       * <code>optional .dstore.values.IntegerValue physicalio = 102;</code>
+       * <code>.dstore.values.IntegerValue physicalio = 102;</code>
        */
       public Builder clearPhysicalio() {
         if (physicalioBuilder_ == null) {
@@ -3868,7 +3868,7 @@ public final class MiGetRessourceUsage {
         return this;
       }
       /**
-       * <code>optional .dstore.values.IntegerValue physicalio = 102;</code>
+       * <code>.dstore.values.IntegerValue physicalio = 102;</code>
        */
       public io.dstore.values.IntegerValue.Builder getPhysicalioBuilder() {
         
@@ -3876,7 +3876,7 @@ public final class MiGetRessourceUsage {
         return getPhysicalioFieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .dstore.values.IntegerValue physicalio = 102;</code>
+       * <code>.dstore.values.IntegerValue physicalio = 102;</code>
        */
       public io.dstore.values.IntegerValueOrBuilder getPhysicalioOrBuilder() {
         if (physicalioBuilder_ != null) {
@@ -3887,7 +3887,7 @@ public final class MiGetRessourceUsage {
         }
       }
       /**
-       * <code>optional .dstore.values.IntegerValue physicalio = 102;</code>
+       * <code>.dstore.values.IntegerValue physicalio = 102;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> 

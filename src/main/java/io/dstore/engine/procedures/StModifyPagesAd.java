@@ -19,56 +19,56 @@ public final class StModifyPagesAd {
       com.google.protobuf.MessageOrBuilder {
 
     /**
-     * <code>optional .dstore.values.IntegerValue page_no = 1;</code>
+     * <code>.dstore.values.IntegerValue page_no = 1;</code>
      */
     boolean hasPageNo();
     /**
-     * <code>optional .dstore.values.IntegerValue page_no = 1;</code>
+     * <code>.dstore.values.IntegerValue page_no = 1;</code>
      */
     io.dstore.values.IntegerValue getPageNo();
     /**
-     * <code>optional .dstore.values.IntegerValue page_no = 1;</code>
+     * <code>.dstore.values.IntegerValue page_no = 1;</code>
      */
     io.dstore.values.IntegerValueOrBuilder getPageNoOrBuilder();
 
     /**
-     * <code>optional bool page_no_null = 1001;</code>
+     * <code>bool page_no_null = 1001;</code>
      */
     boolean getPageNoNull();
 
     /**
-     * <code>optional .dstore.values.StringValue page = 2;</code>
+     * <code>.dstore.values.StringValue page = 2;</code>
      */
     boolean hasPage();
     /**
-     * <code>optional .dstore.values.StringValue page = 2;</code>
+     * <code>.dstore.values.StringValue page = 2;</code>
      */
     io.dstore.values.StringValue getPage();
     /**
-     * <code>optional .dstore.values.StringValue page = 2;</code>
+     * <code>.dstore.values.StringValue page = 2;</code>
      */
     io.dstore.values.StringValueOrBuilder getPageOrBuilder();
 
     /**
-     * <code>optional bool page_null = 1002;</code>
+     * <code>bool page_null = 1002;</code>
      */
     boolean getPageNull();
 
     /**
-     * <code>optional .dstore.values.StringValue filename = 3;</code>
+     * <code>.dstore.values.StringValue filename = 3;</code>
      */
     boolean hasFilename();
     /**
-     * <code>optional .dstore.values.StringValue filename = 3;</code>
+     * <code>.dstore.values.StringValue filename = 3;</code>
      */
     io.dstore.values.StringValue getFilename();
     /**
-     * <code>optional .dstore.values.StringValue filename = 3;</code>
+     * <code>.dstore.values.StringValue filename = 3;</code>
      */
     io.dstore.values.StringValueOrBuilder getFilenameOrBuilder();
 
     /**
-     * <code>optional bool filename_null = 1003;</code>
+     * <code>bool filename_null = 1003;</code>
      */
     boolean getFilenameNull();
   }
@@ -194,19 +194,19 @@ public final class StModifyPagesAd {
     public static final int PAGE_NO_FIELD_NUMBER = 1;
     private io.dstore.values.IntegerValue pageNo_;
     /**
-     * <code>optional .dstore.values.IntegerValue page_no = 1;</code>
+     * <code>.dstore.values.IntegerValue page_no = 1;</code>
      */
     public boolean hasPageNo() {
       return pageNo_ != null;
     }
     /**
-     * <code>optional .dstore.values.IntegerValue page_no = 1;</code>
+     * <code>.dstore.values.IntegerValue page_no = 1;</code>
      */
     public io.dstore.values.IntegerValue getPageNo() {
       return pageNo_ == null ? io.dstore.values.IntegerValue.getDefaultInstance() : pageNo_;
     }
     /**
-     * <code>optional .dstore.values.IntegerValue page_no = 1;</code>
+     * <code>.dstore.values.IntegerValue page_no = 1;</code>
      */
     public io.dstore.values.IntegerValueOrBuilder getPageNoOrBuilder() {
       return getPageNo();
@@ -215,7 +215,7 @@ public final class StModifyPagesAd {
     public static final int PAGE_NO_NULL_FIELD_NUMBER = 1001;
     private boolean pageNoNull_;
     /**
-     * <code>optional bool page_no_null = 1001;</code>
+     * <code>bool page_no_null = 1001;</code>
      */
     public boolean getPageNoNull() {
       return pageNoNull_;
@@ -224,19 +224,19 @@ public final class StModifyPagesAd {
     public static final int PAGE_FIELD_NUMBER = 2;
     private io.dstore.values.StringValue page_;
     /**
-     * <code>optional .dstore.values.StringValue page = 2;</code>
+     * <code>.dstore.values.StringValue page = 2;</code>
      */
     public boolean hasPage() {
       return page_ != null;
     }
     /**
-     * <code>optional .dstore.values.StringValue page = 2;</code>
+     * <code>.dstore.values.StringValue page = 2;</code>
      */
     public io.dstore.values.StringValue getPage() {
       return page_ == null ? io.dstore.values.StringValue.getDefaultInstance() : page_;
     }
     /**
-     * <code>optional .dstore.values.StringValue page = 2;</code>
+     * <code>.dstore.values.StringValue page = 2;</code>
      */
     public io.dstore.values.StringValueOrBuilder getPageOrBuilder() {
       return getPage();
@@ -245,7 +245,7 @@ public final class StModifyPagesAd {
     public static final int PAGE_NULL_FIELD_NUMBER = 1002;
     private boolean pageNull_;
     /**
-     * <code>optional bool page_null = 1002;</code>
+     * <code>bool page_null = 1002;</code>
      */
     public boolean getPageNull() {
       return pageNull_;
@@ -254,19 +254,19 @@ public final class StModifyPagesAd {
     public static final int FILENAME_FIELD_NUMBER = 3;
     private io.dstore.values.StringValue filename_;
     /**
-     * <code>optional .dstore.values.StringValue filename = 3;</code>
+     * <code>.dstore.values.StringValue filename = 3;</code>
      */
     public boolean hasFilename() {
       return filename_ != null;
     }
     /**
-     * <code>optional .dstore.values.StringValue filename = 3;</code>
+     * <code>.dstore.values.StringValue filename = 3;</code>
      */
     public io.dstore.values.StringValue getFilename() {
       return filename_ == null ? io.dstore.values.StringValue.getDefaultInstance() : filename_;
     }
     /**
-     * <code>optional .dstore.values.StringValue filename = 3;</code>
+     * <code>.dstore.values.StringValue filename = 3;</code>
      */
     public io.dstore.values.StringValueOrBuilder getFilenameOrBuilder() {
       return getFilename();
@@ -275,7 +275,7 @@ public final class StModifyPagesAd {
     public static final int FILENAME_NULL_FIELD_NUMBER = 1003;
     private boolean filenameNull_;
     /**
-     * <code>optional bool filename_null = 1003;</code>
+     * <code>bool filename_null = 1003;</code>
      */
     public boolean getFilenameNull() {
       return filenameNull_;
@@ -388,7 +388,7 @@ public final class StModifyPagesAd {
         return memoizedHashCode;
       }
       int hash = 41;
-      hash = (19 * hash) + getDescriptorForType().hashCode();
+      hash = (19 * hash) + getDescriptor().hashCode();
       if (hasPageNo()) {
         hash = (37 * hash) + PAGE_NO_FIELD_NUMBER;
         hash = (53 * hash) + getPageNo().hashCode();
@@ -681,13 +681,13 @@ public final class StModifyPagesAd {
       private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> pageNoBuilder_;
       /**
-       * <code>optional .dstore.values.IntegerValue page_no = 1;</code>
+       * <code>.dstore.values.IntegerValue page_no = 1;</code>
        */
       public boolean hasPageNo() {
         return pageNoBuilder_ != null || pageNo_ != null;
       }
       /**
-       * <code>optional .dstore.values.IntegerValue page_no = 1;</code>
+       * <code>.dstore.values.IntegerValue page_no = 1;</code>
        */
       public io.dstore.values.IntegerValue getPageNo() {
         if (pageNoBuilder_ == null) {
@@ -697,7 +697,7 @@ public final class StModifyPagesAd {
         }
       }
       /**
-       * <code>optional .dstore.values.IntegerValue page_no = 1;</code>
+       * <code>.dstore.values.IntegerValue page_no = 1;</code>
        */
       public Builder setPageNo(io.dstore.values.IntegerValue value) {
         if (pageNoBuilder_ == null) {
@@ -713,7 +713,7 @@ public final class StModifyPagesAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.IntegerValue page_no = 1;</code>
+       * <code>.dstore.values.IntegerValue page_no = 1;</code>
        */
       public Builder setPageNo(
           io.dstore.values.IntegerValue.Builder builderForValue) {
@@ -727,7 +727,7 @@ public final class StModifyPagesAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.IntegerValue page_no = 1;</code>
+       * <code>.dstore.values.IntegerValue page_no = 1;</code>
        */
       public Builder mergePageNo(io.dstore.values.IntegerValue value) {
         if (pageNoBuilder_ == null) {
@@ -745,7 +745,7 @@ public final class StModifyPagesAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.IntegerValue page_no = 1;</code>
+       * <code>.dstore.values.IntegerValue page_no = 1;</code>
        */
       public Builder clearPageNo() {
         if (pageNoBuilder_ == null) {
@@ -759,7 +759,7 @@ public final class StModifyPagesAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.IntegerValue page_no = 1;</code>
+       * <code>.dstore.values.IntegerValue page_no = 1;</code>
        */
       public io.dstore.values.IntegerValue.Builder getPageNoBuilder() {
         
@@ -767,7 +767,7 @@ public final class StModifyPagesAd {
         return getPageNoFieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .dstore.values.IntegerValue page_no = 1;</code>
+       * <code>.dstore.values.IntegerValue page_no = 1;</code>
        */
       public io.dstore.values.IntegerValueOrBuilder getPageNoOrBuilder() {
         if (pageNoBuilder_ != null) {
@@ -778,7 +778,7 @@ public final class StModifyPagesAd {
         }
       }
       /**
-       * <code>optional .dstore.values.IntegerValue page_no = 1;</code>
+       * <code>.dstore.values.IntegerValue page_no = 1;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> 
@@ -796,13 +796,13 @@ public final class StModifyPagesAd {
 
       private boolean pageNoNull_ ;
       /**
-       * <code>optional bool page_no_null = 1001;</code>
+       * <code>bool page_no_null = 1001;</code>
        */
       public boolean getPageNoNull() {
         return pageNoNull_;
       }
       /**
-       * <code>optional bool page_no_null = 1001;</code>
+       * <code>bool page_no_null = 1001;</code>
        */
       public Builder setPageNoNull(boolean value) {
         
@@ -811,7 +811,7 @@ public final class StModifyPagesAd {
         return this;
       }
       /**
-       * <code>optional bool page_no_null = 1001;</code>
+       * <code>bool page_no_null = 1001;</code>
        */
       public Builder clearPageNoNull() {
         
@@ -824,13 +824,13 @@ public final class StModifyPagesAd {
       private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.values.StringValue, io.dstore.values.StringValue.Builder, io.dstore.values.StringValueOrBuilder> pageBuilder_;
       /**
-       * <code>optional .dstore.values.StringValue page = 2;</code>
+       * <code>.dstore.values.StringValue page = 2;</code>
        */
       public boolean hasPage() {
         return pageBuilder_ != null || page_ != null;
       }
       /**
-       * <code>optional .dstore.values.StringValue page = 2;</code>
+       * <code>.dstore.values.StringValue page = 2;</code>
        */
       public io.dstore.values.StringValue getPage() {
         if (pageBuilder_ == null) {
@@ -840,7 +840,7 @@ public final class StModifyPagesAd {
         }
       }
       /**
-       * <code>optional .dstore.values.StringValue page = 2;</code>
+       * <code>.dstore.values.StringValue page = 2;</code>
        */
       public Builder setPage(io.dstore.values.StringValue value) {
         if (pageBuilder_ == null) {
@@ -856,7 +856,7 @@ public final class StModifyPagesAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.StringValue page = 2;</code>
+       * <code>.dstore.values.StringValue page = 2;</code>
        */
       public Builder setPage(
           io.dstore.values.StringValue.Builder builderForValue) {
@@ -870,7 +870,7 @@ public final class StModifyPagesAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.StringValue page = 2;</code>
+       * <code>.dstore.values.StringValue page = 2;</code>
        */
       public Builder mergePage(io.dstore.values.StringValue value) {
         if (pageBuilder_ == null) {
@@ -888,7 +888,7 @@ public final class StModifyPagesAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.StringValue page = 2;</code>
+       * <code>.dstore.values.StringValue page = 2;</code>
        */
       public Builder clearPage() {
         if (pageBuilder_ == null) {
@@ -902,7 +902,7 @@ public final class StModifyPagesAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.StringValue page = 2;</code>
+       * <code>.dstore.values.StringValue page = 2;</code>
        */
       public io.dstore.values.StringValue.Builder getPageBuilder() {
         
@@ -910,7 +910,7 @@ public final class StModifyPagesAd {
         return getPageFieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .dstore.values.StringValue page = 2;</code>
+       * <code>.dstore.values.StringValue page = 2;</code>
        */
       public io.dstore.values.StringValueOrBuilder getPageOrBuilder() {
         if (pageBuilder_ != null) {
@@ -921,7 +921,7 @@ public final class StModifyPagesAd {
         }
       }
       /**
-       * <code>optional .dstore.values.StringValue page = 2;</code>
+       * <code>.dstore.values.StringValue page = 2;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.values.StringValue, io.dstore.values.StringValue.Builder, io.dstore.values.StringValueOrBuilder> 
@@ -939,13 +939,13 @@ public final class StModifyPagesAd {
 
       private boolean pageNull_ ;
       /**
-       * <code>optional bool page_null = 1002;</code>
+       * <code>bool page_null = 1002;</code>
        */
       public boolean getPageNull() {
         return pageNull_;
       }
       /**
-       * <code>optional bool page_null = 1002;</code>
+       * <code>bool page_null = 1002;</code>
        */
       public Builder setPageNull(boolean value) {
         
@@ -954,7 +954,7 @@ public final class StModifyPagesAd {
         return this;
       }
       /**
-       * <code>optional bool page_null = 1002;</code>
+       * <code>bool page_null = 1002;</code>
        */
       public Builder clearPageNull() {
         
@@ -967,13 +967,13 @@ public final class StModifyPagesAd {
       private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.values.StringValue, io.dstore.values.StringValue.Builder, io.dstore.values.StringValueOrBuilder> filenameBuilder_;
       /**
-       * <code>optional .dstore.values.StringValue filename = 3;</code>
+       * <code>.dstore.values.StringValue filename = 3;</code>
        */
       public boolean hasFilename() {
         return filenameBuilder_ != null || filename_ != null;
       }
       /**
-       * <code>optional .dstore.values.StringValue filename = 3;</code>
+       * <code>.dstore.values.StringValue filename = 3;</code>
        */
       public io.dstore.values.StringValue getFilename() {
         if (filenameBuilder_ == null) {
@@ -983,7 +983,7 @@ public final class StModifyPagesAd {
         }
       }
       /**
-       * <code>optional .dstore.values.StringValue filename = 3;</code>
+       * <code>.dstore.values.StringValue filename = 3;</code>
        */
       public Builder setFilename(io.dstore.values.StringValue value) {
         if (filenameBuilder_ == null) {
@@ -999,7 +999,7 @@ public final class StModifyPagesAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.StringValue filename = 3;</code>
+       * <code>.dstore.values.StringValue filename = 3;</code>
        */
       public Builder setFilename(
           io.dstore.values.StringValue.Builder builderForValue) {
@@ -1013,7 +1013,7 @@ public final class StModifyPagesAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.StringValue filename = 3;</code>
+       * <code>.dstore.values.StringValue filename = 3;</code>
        */
       public Builder mergeFilename(io.dstore.values.StringValue value) {
         if (filenameBuilder_ == null) {
@@ -1031,7 +1031,7 @@ public final class StModifyPagesAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.StringValue filename = 3;</code>
+       * <code>.dstore.values.StringValue filename = 3;</code>
        */
       public Builder clearFilename() {
         if (filenameBuilder_ == null) {
@@ -1045,7 +1045,7 @@ public final class StModifyPagesAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.StringValue filename = 3;</code>
+       * <code>.dstore.values.StringValue filename = 3;</code>
        */
       public io.dstore.values.StringValue.Builder getFilenameBuilder() {
         
@@ -1053,7 +1053,7 @@ public final class StModifyPagesAd {
         return getFilenameFieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .dstore.values.StringValue filename = 3;</code>
+       * <code>.dstore.values.StringValue filename = 3;</code>
        */
       public io.dstore.values.StringValueOrBuilder getFilenameOrBuilder() {
         if (filenameBuilder_ != null) {
@@ -1064,7 +1064,7 @@ public final class StModifyPagesAd {
         }
       }
       /**
-       * <code>optional .dstore.values.StringValue filename = 3;</code>
+       * <code>.dstore.values.StringValue filename = 3;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.values.StringValue, io.dstore.values.StringValue.Builder, io.dstore.values.StringValueOrBuilder> 
@@ -1082,13 +1082,13 @@ public final class StModifyPagesAd {
 
       private boolean filenameNull_ ;
       /**
-       * <code>optional bool filename_null = 1003;</code>
+       * <code>bool filename_null = 1003;</code>
        */
       public boolean getFilenameNull() {
         return filenameNull_;
       }
       /**
-       * <code>optional bool filename_null = 1003;</code>
+       * <code>bool filename_null = 1003;</code>
        */
       public Builder setFilenameNull(boolean value) {
         
@@ -1097,7 +1097,7 @@ public final class StModifyPagesAd {
         return this;
       }
       /**
-       * <code>optional bool filename_null = 1003;</code>
+       * <code>bool filename_null = 1003;</code>
        */
       public Builder clearFilenameNull() {
         
@@ -1231,15 +1231,15 @@ public final class StModifyPagesAd {
         int index);
 
     /**
-     * <code>optional .dstore.values.IntegerValue page_no = 101;</code>
+     * <code>.dstore.values.IntegerValue page_no = 101;</code>
      */
     boolean hasPageNo();
     /**
-     * <code>optional .dstore.values.IntegerValue page_no = 101;</code>
+     * <code>.dstore.values.IntegerValue page_no = 101;</code>
      */
     io.dstore.values.IntegerValue getPageNo();
     /**
-     * <code>optional .dstore.values.IntegerValue page_no = 101;</code>
+     * <code>.dstore.values.IntegerValue page_no = 101;</code>
      */
     io.dstore.values.IntegerValueOrBuilder getPageNoOrBuilder();
   }
@@ -1362,7 +1362,7 @@ public final class StModifyPagesAd {
         com.google.protobuf.MessageOrBuilder {
 
       /**
-       * <code>optional int32 row_id = 10000;</code>
+       * <code>int32 row_id = 10000;</code>
        */
       int getRowId();
     }
@@ -1437,7 +1437,7 @@ public final class StModifyPagesAd {
       public static final int ROW_ID_FIELD_NUMBER = 10000;
       private int rowId_;
       /**
-       * <code>optional int32 row_id = 10000;</code>
+       * <code>int32 row_id = 10000;</code>
        */
       public int getRowId() {
         return rowId_;
@@ -1496,7 +1496,7 @@ public final class StModifyPagesAd {
           return memoizedHashCode;
         }
         int hash = 41;
-        hash = (19 * hash) + getDescriptorForType().hashCode();
+        hash = (19 * hash) + getDescriptor().hashCode();
         hash = (37 * hash) + ROW_ID_FIELD_NUMBER;
         hash = (53 * hash) + getRowId();
         hash = (29 * hash) + unknownFields.hashCode();
@@ -1714,13 +1714,13 @@ public final class StModifyPagesAd {
 
         private int rowId_ ;
         /**
-         * <code>optional int32 row_id = 10000;</code>
+         * <code>int32 row_id = 10000;</code>
          */
         public int getRowId() {
           return rowId_;
         }
         /**
-         * <code>optional int32 row_id = 10000;</code>
+         * <code>int32 row_id = 10000;</code>
          */
         public Builder setRowId(int value) {
           
@@ -1729,7 +1729,7 @@ public final class StModifyPagesAd {
           return this;
         }
         /**
-         * <code>optional int32 row_id = 10000;</code>
+         * <code>int32 row_id = 10000;</code>
          */
         public Builder clearRowId() {
           
@@ -1895,19 +1895,19 @@ public final class StModifyPagesAd {
     public static final int PAGE_NO_FIELD_NUMBER = 101;
     private io.dstore.values.IntegerValue pageNo_;
     /**
-     * <code>optional .dstore.values.IntegerValue page_no = 101;</code>
+     * <code>.dstore.values.IntegerValue page_no = 101;</code>
      */
     public boolean hasPageNo() {
       return pageNo_ != null;
     }
     /**
-     * <code>optional .dstore.values.IntegerValue page_no = 101;</code>
+     * <code>.dstore.values.IntegerValue page_no = 101;</code>
      */
     public io.dstore.values.IntegerValue getPageNo() {
       return pageNo_ == null ? io.dstore.values.IntegerValue.getDefaultInstance() : pageNo_;
     }
     /**
-     * <code>optional .dstore.values.IntegerValue page_no = 101;</code>
+     * <code>.dstore.values.IntegerValue page_no = 101;</code>
      */
     public io.dstore.values.IntegerValueOrBuilder getPageNoOrBuilder() {
       return getPageNo();
@@ -1996,7 +1996,7 @@ public final class StModifyPagesAd {
         return memoizedHashCode;
       }
       int hash = 41;
-      hash = (19 * hash) + getDescriptorForType().hashCode();
+      hash = (19 * hash) + getDescriptor().hashCode();
       if (getMetaInformationCount() > 0) {
         hash = (37 * hash) + META_INFORMATION_FIELD_NUMBER;
         hash = (53 * hash) + getMetaInformationList().hashCode();
@@ -3088,13 +3088,13 @@ public final class StModifyPagesAd {
       private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> pageNoBuilder_;
       /**
-       * <code>optional .dstore.values.IntegerValue page_no = 101;</code>
+       * <code>.dstore.values.IntegerValue page_no = 101;</code>
        */
       public boolean hasPageNo() {
         return pageNoBuilder_ != null || pageNo_ != null;
       }
       /**
-       * <code>optional .dstore.values.IntegerValue page_no = 101;</code>
+       * <code>.dstore.values.IntegerValue page_no = 101;</code>
        */
       public io.dstore.values.IntegerValue getPageNo() {
         if (pageNoBuilder_ == null) {
@@ -3104,7 +3104,7 @@ public final class StModifyPagesAd {
         }
       }
       /**
-       * <code>optional .dstore.values.IntegerValue page_no = 101;</code>
+       * <code>.dstore.values.IntegerValue page_no = 101;</code>
        */
       public Builder setPageNo(io.dstore.values.IntegerValue value) {
         if (pageNoBuilder_ == null) {
@@ -3120,7 +3120,7 @@ public final class StModifyPagesAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.IntegerValue page_no = 101;</code>
+       * <code>.dstore.values.IntegerValue page_no = 101;</code>
        */
       public Builder setPageNo(
           io.dstore.values.IntegerValue.Builder builderForValue) {
@@ -3134,7 +3134,7 @@ public final class StModifyPagesAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.IntegerValue page_no = 101;</code>
+       * <code>.dstore.values.IntegerValue page_no = 101;</code>
        */
       public Builder mergePageNo(io.dstore.values.IntegerValue value) {
         if (pageNoBuilder_ == null) {
@@ -3152,7 +3152,7 @@ public final class StModifyPagesAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.IntegerValue page_no = 101;</code>
+       * <code>.dstore.values.IntegerValue page_no = 101;</code>
        */
       public Builder clearPageNo() {
         if (pageNoBuilder_ == null) {
@@ -3166,7 +3166,7 @@ public final class StModifyPagesAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.IntegerValue page_no = 101;</code>
+       * <code>.dstore.values.IntegerValue page_no = 101;</code>
        */
       public io.dstore.values.IntegerValue.Builder getPageNoBuilder() {
         
@@ -3174,7 +3174,7 @@ public final class StModifyPagesAd {
         return getPageNoFieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .dstore.values.IntegerValue page_no = 101;</code>
+       * <code>.dstore.values.IntegerValue page_no = 101;</code>
        */
       public io.dstore.values.IntegerValueOrBuilder getPageNoOrBuilder() {
         if (pageNoBuilder_ != null) {
@@ -3185,7 +3185,7 @@ public final class StModifyPagesAd {
         }
       }
       /**
-       * <code>optional .dstore.values.IntegerValue page_no = 101;</code>
+       * <code>.dstore.values.IntegerValue page_no = 101;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> 

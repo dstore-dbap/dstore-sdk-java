@@ -19,38 +19,38 @@ public final class MiGetTaxRates {
       com.google.protobuf.MessageOrBuilder {
 
     /**
-     * <code>optional .dstore.values.IntegerValue tax_rate_id = 1;</code>
+     * <code>.dstore.values.IntegerValue tax_rate_id = 1;</code>
      */
     boolean hasTaxRateId();
     /**
-     * <code>optional .dstore.values.IntegerValue tax_rate_id = 1;</code>
+     * <code>.dstore.values.IntegerValue tax_rate_id = 1;</code>
      */
     io.dstore.values.IntegerValue getTaxRateId();
     /**
-     * <code>optional .dstore.values.IntegerValue tax_rate_id = 1;</code>
+     * <code>.dstore.values.IntegerValue tax_rate_id = 1;</code>
      */
     io.dstore.values.IntegerValueOrBuilder getTaxRateIdOrBuilder();
 
     /**
-     * <code>optional bool tax_rate_id_null = 1001;</code>
+     * <code>bool tax_rate_id_null = 1001;</code>
      */
     boolean getTaxRateIdNull();
 
     /**
-     * <code>optional .dstore.values.BooleanValue only_active = 2;</code>
+     * <code>.dstore.values.BooleanValue only_active = 2;</code>
      */
     boolean hasOnlyActive();
     /**
-     * <code>optional .dstore.values.BooleanValue only_active = 2;</code>
+     * <code>.dstore.values.BooleanValue only_active = 2;</code>
      */
     io.dstore.values.BooleanValue getOnlyActive();
     /**
-     * <code>optional .dstore.values.BooleanValue only_active = 2;</code>
+     * <code>.dstore.values.BooleanValue only_active = 2;</code>
      */
     io.dstore.values.BooleanValueOrBuilder getOnlyActiveOrBuilder();
 
     /**
-     * <code>optional bool only_active_null = 1002;</code>
+     * <code>bool only_active_null = 1002;</code>
      */
     boolean getOnlyActiveNull();
   }
@@ -157,19 +157,19 @@ public final class MiGetTaxRates {
     public static final int TAX_RATE_ID_FIELD_NUMBER = 1;
     private io.dstore.values.IntegerValue taxRateId_;
     /**
-     * <code>optional .dstore.values.IntegerValue tax_rate_id = 1;</code>
+     * <code>.dstore.values.IntegerValue tax_rate_id = 1;</code>
      */
     public boolean hasTaxRateId() {
       return taxRateId_ != null;
     }
     /**
-     * <code>optional .dstore.values.IntegerValue tax_rate_id = 1;</code>
+     * <code>.dstore.values.IntegerValue tax_rate_id = 1;</code>
      */
     public io.dstore.values.IntegerValue getTaxRateId() {
       return taxRateId_ == null ? io.dstore.values.IntegerValue.getDefaultInstance() : taxRateId_;
     }
     /**
-     * <code>optional .dstore.values.IntegerValue tax_rate_id = 1;</code>
+     * <code>.dstore.values.IntegerValue tax_rate_id = 1;</code>
      */
     public io.dstore.values.IntegerValueOrBuilder getTaxRateIdOrBuilder() {
       return getTaxRateId();
@@ -178,7 +178,7 @@ public final class MiGetTaxRates {
     public static final int TAX_RATE_ID_NULL_FIELD_NUMBER = 1001;
     private boolean taxRateIdNull_;
     /**
-     * <code>optional bool tax_rate_id_null = 1001;</code>
+     * <code>bool tax_rate_id_null = 1001;</code>
      */
     public boolean getTaxRateIdNull() {
       return taxRateIdNull_;
@@ -187,19 +187,19 @@ public final class MiGetTaxRates {
     public static final int ONLY_ACTIVE_FIELD_NUMBER = 2;
     private io.dstore.values.BooleanValue onlyActive_;
     /**
-     * <code>optional .dstore.values.BooleanValue only_active = 2;</code>
+     * <code>.dstore.values.BooleanValue only_active = 2;</code>
      */
     public boolean hasOnlyActive() {
       return onlyActive_ != null;
     }
     /**
-     * <code>optional .dstore.values.BooleanValue only_active = 2;</code>
+     * <code>.dstore.values.BooleanValue only_active = 2;</code>
      */
     public io.dstore.values.BooleanValue getOnlyActive() {
       return onlyActive_ == null ? io.dstore.values.BooleanValue.getDefaultInstance() : onlyActive_;
     }
     /**
-     * <code>optional .dstore.values.BooleanValue only_active = 2;</code>
+     * <code>.dstore.values.BooleanValue only_active = 2;</code>
      */
     public io.dstore.values.BooleanValueOrBuilder getOnlyActiveOrBuilder() {
       return getOnlyActive();
@@ -208,7 +208,7 @@ public final class MiGetTaxRates {
     public static final int ONLY_ACTIVE_NULL_FIELD_NUMBER = 1002;
     private boolean onlyActiveNull_;
     /**
-     * <code>optional bool only_active_null = 1002;</code>
+     * <code>bool only_active_null = 1002;</code>
      */
     public boolean getOnlyActiveNull() {
       return onlyActiveNull_;
@@ -300,7 +300,7 @@ public final class MiGetTaxRates {
         return memoizedHashCode;
       }
       int hash = 41;
-      hash = (19 * hash) + getDescriptorForType().hashCode();
+      hash = (19 * hash) + getDescriptor().hashCode();
       if (hasTaxRateId()) {
         hash = (37 * hash) + TAX_RATE_ID_FIELD_NUMBER;
         hash = (53 * hash) + getTaxRateId().hashCode();
@@ -566,13 +566,13 @@ public final class MiGetTaxRates {
       private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> taxRateIdBuilder_;
       /**
-       * <code>optional .dstore.values.IntegerValue tax_rate_id = 1;</code>
+       * <code>.dstore.values.IntegerValue tax_rate_id = 1;</code>
        */
       public boolean hasTaxRateId() {
         return taxRateIdBuilder_ != null || taxRateId_ != null;
       }
       /**
-       * <code>optional .dstore.values.IntegerValue tax_rate_id = 1;</code>
+       * <code>.dstore.values.IntegerValue tax_rate_id = 1;</code>
        */
       public io.dstore.values.IntegerValue getTaxRateId() {
         if (taxRateIdBuilder_ == null) {
@@ -582,7 +582,7 @@ public final class MiGetTaxRates {
         }
       }
       /**
-       * <code>optional .dstore.values.IntegerValue tax_rate_id = 1;</code>
+       * <code>.dstore.values.IntegerValue tax_rate_id = 1;</code>
        */
       public Builder setTaxRateId(io.dstore.values.IntegerValue value) {
         if (taxRateIdBuilder_ == null) {
@@ -598,7 +598,7 @@ public final class MiGetTaxRates {
         return this;
       }
       /**
-       * <code>optional .dstore.values.IntegerValue tax_rate_id = 1;</code>
+       * <code>.dstore.values.IntegerValue tax_rate_id = 1;</code>
        */
       public Builder setTaxRateId(
           io.dstore.values.IntegerValue.Builder builderForValue) {
@@ -612,7 +612,7 @@ public final class MiGetTaxRates {
         return this;
       }
       /**
-       * <code>optional .dstore.values.IntegerValue tax_rate_id = 1;</code>
+       * <code>.dstore.values.IntegerValue tax_rate_id = 1;</code>
        */
       public Builder mergeTaxRateId(io.dstore.values.IntegerValue value) {
         if (taxRateIdBuilder_ == null) {
@@ -630,7 +630,7 @@ public final class MiGetTaxRates {
         return this;
       }
       /**
-       * <code>optional .dstore.values.IntegerValue tax_rate_id = 1;</code>
+       * <code>.dstore.values.IntegerValue tax_rate_id = 1;</code>
        */
       public Builder clearTaxRateId() {
         if (taxRateIdBuilder_ == null) {
@@ -644,7 +644,7 @@ public final class MiGetTaxRates {
         return this;
       }
       /**
-       * <code>optional .dstore.values.IntegerValue tax_rate_id = 1;</code>
+       * <code>.dstore.values.IntegerValue tax_rate_id = 1;</code>
        */
       public io.dstore.values.IntegerValue.Builder getTaxRateIdBuilder() {
         
@@ -652,7 +652,7 @@ public final class MiGetTaxRates {
         return getTaxRateIdFieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .dstore.values.IntegerValue tax_rate_id = 1;</code>
+       * <code>.dstore.values.IntegerValue tax_rate_id = 1;</code>
        */
       public io.dstore.values.IntegerValueOrBuilder getTaxRateIdOrBuilder() {
         if (taxRateIdBuilder_ != null) {
@@ -663,7 +663,7 @@ public final class MiGetTaxRates {
         }
       }
       /**
-       * <code>optional .dstore.values.IntegerValue tax_rate_id = 1;</code>
+       * <code>.dstore.values.IntegerValue tax_rate_id = 1;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> 
@@ -681,13 +681,13 @@ public final class MiGetTaxRates {
 
       private boolean taxRateIdNull_ ;
       /**
-       * <code>optional bool tax_rate_id_null = 1001;</code>
+       * <code>bool tax_rate_id_null = 1001;</code>
        */
       public boolean getTaxRateIdNull() {
         return taxRateIdNull_;
       }
       /**
-       * <code>optional bool tax_rate_id_null = 1001;</code>
+       * <code>bool tax_rate_id_null = 1001;</code>
        */
       public Builder setTaxRateIdNull(boolean value) {
         
@@ -696,7 +696,7 @@ public final class MiGetTaxRates {
         return this;
       }
       /**
-       * <code>optional bool tax_rate_id_null = 1001;</code>
+       * <code>bool tax_rate_id_null = 1001;</code>
        */
       public Builder clearTaxRateIdNull() {
         
@@ -709,13 +709,13 @@ public final class MiGetTaxRates {
       private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.values.BooleanValue, io.dstore.values.BooleanValue.Builder, io.dstore.values.BooleanValueOrBuilder> onlyActiveBuilder_;
       /**
-       * <code>optional .dstore.values.BooleanValue only_active = 2;</code>
+       * <code>.dstore.values.BooleanValue only_active = 2;</code>
        */
       public boolean hasOnlyActive() {
         return onlyActiveBuilder_ != null || onlyActive_ != null;
       }
       /**
-       * <code>optional .dstore.values.BooleanValue only_active = 2;</code>
+       * <code>.dstore.values.BooleanValue only_active = 2;</code>
        */
       public io.dstore.values.BooleanValue getOnlyActive() {
         if (onlyActiveBuilder_ == null) {
@@ -725,7 +725,7 @@ public final class MiGetTaxRates {
         }
       }
       /**
-       * <code>optional .dstore.values.BooleanValue only_active = 2;</code>
+       * <code>.dstore.values.BooleanValue only_active = 2;</code>
        */
       public Builder setOnlyActive(io.dstore.values.BooleanValue value) {
         if (onlyActiveBuilder_ == null) {
@@ -741,7 +741,7 @@ public final class MiGetTaxRates {
         return this;
       }
       /**
-       * <code>optional .dstore.values.BooleanValue only_active = 2;</code>
+       * <code>.dstore.values.BooleanValue only_active = 2;</code>
        */
       public Builder setOnlyActive(
           io.dstore.values.BooleanValue.Builder builderForValue) {
@@ -755,7 +755,7 @@ public final class MiGetTaxRates {
         return this;
       }
       /**
-       * <code>optional .dstore.values.BooleanValue only_active = 2;</code>
+       * <code>.dstore.values.BooleanValue only_active = 2;</code>
        */
       public Builder mergeOnlyActive(io.dstore.values.BooleanValue value) {
         if (onlyActiveBuilder_ == null) {
@@ -773,7 +773,7 @@ public final class MiGetTaxRates {
         return this;
       }
       /**
-       * <code>optional .dstore.values.BooleanValue only_active = 2;</code>
+       * <code>.dstore.values.BooleanValue only_active = 2;</code>
        */
       public Builder clearOnlyActive() {
         if (onlyActiveBuilder_ == null) {
@@ -787,7 +787,7 @@ public final class MiGetTaxRates {
         return this;
       }
       /**
-       * <code>optional .dstore.values.BooleanValue only_active = 2;</code>
+       * <code>.dstore.values.BooleanValue only_active = 2;</code>
        */
       public io.dstore.values.BooleanValue.Builder getOnlyActiveBuilder() {
         
@@ -795,7 +795,7 @@ public final class MiGetTaxRates {
         return getOnlyActiveFieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .dstore.values.BooleanValue only_active = 2;</code>
+       * <code>.dstore.values.BooleanValue only_active = 2;</code>
        */
       public io.dstore.values.BooleanValueOrBuilder getOnlyActiveOrBuilder() {
         if (onlyActiveBuilder_ != null) {
@@ -806,7 +806,7 @@ public final class MiGetTaxRates {
         }
       }
       /**
-       * <code>optional .dstore.values.BooleanValue only_active = 2;</code>
+       * <code>.dstore.values.BooleanValue only_active = 2;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.values.BooleanValue, io.dstore.values.BooleanValue.Builder, io.dstore.values.BooleanValueOrBuilder> 
@@ -824,13 +824,13 @@ public final class MiGetTaxRates {
 
       private boolean onlyActiveNull_ ;
       /**
-       * <code>optional bool only_active_null = 1002;</code>
+       * <code>bool only_active_null = 1002;</code>
        */
       public boolean getOnlyActiveNull() {
         return onlyActiveNull_;
       }
       /**
-       * <code>optional bool only_active_null = 1002;</code>
+       * <code>bool only_active_null = 1002;</code>
        */
       public Builder setOnlyActiveNull(boolean value) {
         
@@ -839,7 +839,7 @@ public final class MiGetTaxRates {
         return this;
       }
       /**
-       * <code>optional bool only_active_null = 1002;</code>
+       * <code>bool only_active_null = 1002;</code>
        */
       public Builder clearOnlyActiveNull() {
         
@@ -1098,7 +1098,7 @@ public final class MiGetTaxRates {
         com.google.protobuf.MessageOrBuilder {
 
       /**
-       * <code>optional int32 row_id = 10000;</code>
+       * <code>int32 row_id = 10000;</code>
        */
       int getRowId();
 
@@ -1107,7 +1107,7 @@ public final class MiGetTaxRates {
        * Die Beschreibung des Steuersatzes (z.B. "Normalsteuersatz")
        * </pre>
        *
-       * <code>optional .dstore.values.StringValue tax_rate_description = 10001;</code>
+       * <code>.dstore.values.StringValue tax_rate_description = 10001;</code>
        */
       boolean hasTaxRateDescription();
       /**
@@ -1115,7 +1115,7 @@ public final class MiGetTaxRates {
        * Die Beschreibung des Steuersatzes (z.B. "Normalsteuersatz")
        * </pre>
        *
-       * <code>optional .dstore.values.StringValue tax_rate_description = 10001;</code>
+       * <code>.dstore.values.StringValue tax_rate_description = 10001;</code>
        */
       io.dstore.values.StringValue getTaxRateDescription();
       /**
@@ -1123,7 +1123,7 @@ public final class MiGetTaxRates {
        * Die Beschreibung des Steuersatzes (z.B. "Normalsteuersatz")
        * </pre>
        *
-       * <code>optional .dstore.values.StringValue tax_rate_description = 10001;</code>
+       * <code>.dstore.values.StringValue tax_rate_description = 10001;</code>
        */
       io.dstore.values.StringValueOrBuilder getTaxRateDescriptionOrBuilder();
 
@@ -1132,7 +1132,7 @@ public final class MiGetTaxRates {
        * Gibt an, ob der Steuersatz aktiv ist. Dies ist nur eine Information für "Client-Anwendungen". Engineseitig gibt es zu dieser Information keine implementierte Funktionalität.
        * </pre>
        *
-       * <code>optional .dstore.values.BooleanValue active = 10002;</code>
+       * <code>.dstore.values.BooleanValue active = 10002;</code>
        */
       boolean hasActive();
       /**
@@ -1140,7 +1140,7 @@ public final class MiGetTaxRates {
        * Gibt an, ob der Steuersatz aktiv ist. Dies ist nur eine Information für "Client-Anwendungen". Engineseitig gibt es zu dieser Information keine implementierte Funktionalität.
        * </pre>
        *
-       * <code>optional .dstore.values.BooleanValue active = 10002;</code>
+       * <code>.dstore.values.BooleanValue active = 10002;</code>
        */
       io.dstore.values.BooleanValue getActive();
       /**
@@ -1148,7 +1148,7 @@ public final class MiGetTaxRates {
        * Gibt an, ob der Steuersatz aktiv ist. Dies ist nur eine Information für "Client-Anwendungen". Engineseitig gibt es zu dieser Information keine implementierte Funktionalität.
        * </pre>
        *
-       * <code>optional .dstore.values.BooleanValue active = 10002;</code>
+       * <code>.dstore.values.BooleanValue active = 10002;</code>
        */
       io.dstore.values.BooleanValueOrBuilder getActiveOrBuilder();
 
@@ -1157,7 +1157,7 @@ public final class MiGetTaxRates {
        * Steuersatz als Multiplikator, d.h. im Falle von z.B. "TaxRate = 19" (ergo 19 Prozent) steht hier "1.19"
        * </pre>
        *
-       * <code>optional .dstore.values.DecimalValue taxes_multiplier = 10003;</code>
+       * <code>.dstore.values.DecimalValue taxes_multiplier = 10003;</code>
        */
       boolean hasTaxesMultiplier();
       /**
@@ -1165,7 +1165,7 @@ public final class MiGetTaxRates {
        * Steuersatz als Multiplikator, d.h. im Falle von z.B. "TaxRate = 19" (ergo 19 Prozent) steht hier "1.19"
        * </pre>
        *
-       * <code>optional .dstore.values.DecimalValue taxes_multiplier = 10003;</code>
+       * <code>.dstore.values.DecimalValue taxes_multiplier = 10003;</code>
        */
       io.dstore.values.DecimalValue getTaxesMultiplier();
       /**
@@ -1173,7 +1173,7 @@ public final class MiGetTaxRates {
        * Steuersatz als Multiplikator, d.h. im Falle von z.B. "TaxRate = 19" (ergo 19 Prozent) steht hier "1.19"
        * </pre>
        *
-       * <code>optional .dstore.values.DecimalValue taxes_multiplier = 10003;</code>
+       * <code>.dstore.values.DecimalValue taxes_multiplier = 10003;</code>
        */
       io.dstore.values.DecimalValueOrBuilder getTaxesMultiplierOrBuilder();
 
@@ -1182,7 +1182,7 @@ public final class MiGetTaxRates {
        * Der Steuersatz in Prozent
        * </pre>
        *
-       * <code>optional .dstore.values.DecimalValue tax_rate = 10004;</code>
+       * <code>.dstore.values.DecimalValue tax_rate = 10004;</code>
        */
       boolean hasTaxRate();
       /**
@@ -1190,7 +1190,7 @@ public final class MiGetTaxRates {
        * Der Steuersatz in Prozent
        * </pre>
        *
-       * <code>optional .dstore.values.DecimalValue tax_rate = 10004;</code>
+       * <code>.dstore.values.DecimalValue tax_rate = 10004;</code>
        */
       io.dstore.values.DecimalValue getTaxRate();
       /**
@@ -1198,7 +1198,7 @@ public final class MiGetTaxRates {
        * Der Steuersatz in Prozent
        * </pre>
        *
-       * <code>optional .dstore.values.DecimalValue tax_rate = 10004;</code>
+       * <code>.dstore.values.DecimalValue tax_rate = 10004;</code>
        */
       io.dstore.values.DecimalValueOrBuilder getTaxRateOrBuilder();
 
@@ -1207,7 +1207,7 @@ public final class MiGetTaxRates {
        * Die ID eines Steuersatzes
        * </pre>
        *
-       * <code>optional .dstore.values.IntegerValue tax_rate_id = 10005;</code>
+       * <code>.dstore.values.IntegerValue tax_rate_id = 10005;</code>
        */
       boolean hasTaxRateId();
       /**
@@ -1215,7 +1215,7 @@ public final class MiGetTaxRates {
        * Die ID eines Steuersatzes
        * </pre>
        *
-       * <code>optional .dstore.values.IntegerValue tax_rate_id = 10005;</code>
+       * <code>.dstore.values.IntegerValue tax_rate_id = 10005;</code>
        */
       io.dstore.values.IntegerValue getTaxRateId();
       /**
@@ -1223,7 +1223,7 @@ public final class MiGetTaxRates {
        * Die ID eines Steuersatzes
        * </pre>
        *
-       * <code>optional .dstore.values.IntegerValue tax_rate_id = 10005;</code>
+       * <code>.dstore.values.IntegerValue tax_rate_id = 10005;</code>
        */
       io.dstore.values.IntegerValueOrBuilder getTaxRateIdOrBuilder();
 
@@ -1232,7 +1232,7 @@ public final class MiGetTaxRates {
        * Gibt an, ob dieser Steuersatz in speziellen Fällen, wo kein Steuersatz konfiguriert ist und auch nicht "künstlich bestimmt" werden kann, verwendet werden soll
        * </pre>
        *
-       * <code>optional .dstore.values.BooleanValue use_as_fallback = 10006;</code>
+       * <code>.dstore.values.BooleanValue use_as_fallback = 10006;</code>
        */
       boolean hasUseAsFallback();
       /**
@@ -1240,7 +1240,7 @@ public final class MiGetTaxRates {
        * Gibt an, ob dieser Steuersatz in speziellen Fällen, wo kein Steuersatz konfiguriert ist und auch nicht "künstlich bestimmt" werden kann, verwendet werden soll
        * </pre>
        *
-       * <code>optional .dstore.values.BooleanValue use_as_fallback = 10006;</code>
+       * <code>.dstore.values.BooleanValue use_as_fallback = 10006;</code>
        */
       io.dstore.values.BooleanValue getUseAsFallback();
       /**
@@ -1248,7 +1248,7 @@ public final class MiGetTaxRates {
        * Gibt an, ob dieser Steuersatz in speziellen Fällen, wo kein Steuersatz konfiguriert ist und auch nicht "künstlich bestimmt" werden kann, verwendet werden soll
        * </pre>
        *
-       * <code>optional .dstore.values.BooleanValue use_as_fallback = 10006;</code>
+       * <code>.dstore.values.BooleanValue use_as_fallback = 10006;</code>
        */
       io.dstore.values.BooleanValueOrBuilder getUseAsFallbackOrBuilder();
     }
@@ -1401,7 +1401,7 @@ public final class MiGetTaxRates {
       public static final int ROW_ID_FIELD_NUMBER = 10000;
       private int rowId_;
       /**
-       * <code>optional int32 row_id = 10000;</code>
+       * <code>int32 row_id = 10000;</code>
        */
       public int getRowId() {
         return rowId_;
@@ -1414,7 +1414,7 @@ public final class MiGetTaxRates {
        * Die Beschreibung des Steuersatzes (z.B. "Normalsteuersatz")
        * </pre>
        *
-       * <code>optional .dstore.values.StringValue tax_rate_description = 10001;</code>
+       * <code>.dstore.values.StringValue tax_rate_description = 10001;</code>
        */
       public boolean hasTaxRateDescription() {
         return taxRateDescription_ != null;
@@ -1424,7 +1424,7 @@ public final class MiGetTaxRates {
        * Die Beschreibung des Steuersatzes (z.B. "Normalsteuersatz")
        * </pre>
        *
-       * <code>optional .dstore.values.StringValue tax_rate_description = 10001;</code>
+       * <code>.dstore.values.StringValue tax_rate_description = 10001;</code>
        */
       public io.dstore.values.StringValue getTaxRateDescription() {
         return taxRateDescription_ == null ? io.dstore.values.StringValue.getDefaultInstance() : taxRateDescription_;
@@ -1434,7 +1434,7 @@ public final class MiGetTaxRates {
        * Die Beschreibung des Steuersatzes (z.B. "Normalsteuersatz")
        * </pre>
        *
-       * <code>optional .dstore.values.StringValue tax_rate_description = 10001;</code>
+       * <code>.dstore.values.StringValue tax_rate_description = 10001;</code>
        */
       public io.dstore.values.StringValueOrBuilder getTaxRateDescriptionOrBuilder() {
         return getTaxRateDescription();
@@ -1447,7 +1447,7 @@ public final class MiGetTaxRates {
        * Gibt an, ob der Steuersatz aktiv ist. Dies ist nur eine Information für "Client-Anwendungen". Engineseitig gibt es zu dieser Information keine implementierte Funktionalität.
        * </pre>
        *
-       * <code>optional .dstore.values.BooleanValue active = 10002;</code>
+       * <code>.dstore.values.BooleanValue active = 10002;</code>
        */
       public boolean hasActive() {
         return active_ != null;
@@ -1457,7 +1457,7 @@ public final class MiGetTaxRates {
        * Gibt an, ob der Steuersatz aktiv ist. Dies ist nur eine Information für "Client-Anwendungen". Engineseitig gibt es zu dieser Information keine implementierte Funktionalität.
        * </pre>
        *
-       * <code>optional .dstore.values.BooleanValue active = 10002;</code>
+       * <code>.dstore.values.BooleanValue active = 10002;</code>
        */
       public io.dstore.values.BooleanValue getActive() {
         return active_ == null ? io.dstore.values.BooleanValue.getDefaultInstance() : active_;
@@ -1467,7 +1467,7 @@ public final class MiGetTaxRates {
        * Gibt an, ob der Steuersatz aktiv ist. Dies ist nur eine Information für "Client-Anwendungen". Engineseitig gibt es zu dieser Information keine implementierte Funktionalität.
        * </pre>
        *
-       * <code>optional .dstore.values.BooleanValue active = 10002;</code>
+       * <code>.dstore.values.BooleanValue active = 10002;</code>
        */
       public io.dstore.values.BooleanValueOrBuilder getActiveOrBuilder() {
         return getActive();
@@ -1480,7 +1480,7 @@ public final class MiGetTaxRates {
        * Steuersatz als Multiplikator, d.h. im Falle von z.B. "TaxRate = 19" (ergo 19 Prozent) steht hier "1.19"
        * </pre>
        *
-       * <code>optional .dstore.values.DecimalValue taxes_multiplier = 10003;</code>
+       * <code>.dstore.values.DecimalValue taxes_multiplier = 10003;</code>
        */
       public boolean hasTaxesMultiplier() {
         return taxesMultiplier_ != null;
@@ -1490,7 +1490,7 @@ public final class MiGetTaxRates {
        * Steuersatz als Multiplikator, d.h. im Falle von z.B. "TaxRate = 19" (ergo 19 Prozent) steht hier "1.19"
        * </pre>
        *
-       * <code>optional .dstore.values.DecimalValue taxes_multiplier = 10003;</code>
+       * <code>.dstore.values.DecimalValue taxes_multiplier = 10003;</code>
        */
       public io.dstore.values.DecimalValue getTaxesMultiplier() {
         return taxesMultiplier_ == null ? io.dstore.values.DecimalValue.getDefaultInstance() : taxesMultiplier_;
@@ -1500,7 +1500,7 @@ public final class MiGetTaxRates {
        * Steuersatz als Multiplikator, d.h. im Falle von z.B. "TaxRate = 19" (ergo 19 Prozent) steht hier "1.19"
        * </pre>
        *
-       * <code>optional .dstore.values.DecimalValue taxes_multiplier = 10003;</code>
+       * <code>.dstore.values.DecimalValue taxes_multiplier = 10003;</code>
        */
       public io.dstore.values.DecimalValueOrBuilder getTaxesMultiplierOrBuilder() {
         return getTaxesMultiplier();
@@ -1513,7 +1513,7 @@ public final class MiGetTaxRates {
        * Der Steuersatz in Prozent
        * </pre>
        *
-       * <code>optional .dstore.values.DecimalValue tax_rate = 10004;</code>
+       * <code>.dstore.values.DecimalValue tax_rate = 10004;</code>
        */
       public boolean hasTaxRate() {
         return taxRate_ != null;
@@ -1523,7 +1523,7 @@ public final class MiGetTaxRates {
        * Der Steuersatz in Prozent
        * </pre>
        *
-       * <code>optional .dstore.values.DecimalValue tax_rate = 10004;</code>
+       * <code>.dstore.values.DecimalValue tax_rate = 10004;</code>
        */
       public io.dstore.values.DecimalValue getTaxRate() {
         return taxRate_ == null ? io.dstore.values.DecimalValue.getDefaultInstance() : taxRate_;
@@ -1533,7 +1533,7 @@ public final class MiGetTaxRates {
        * Der Steuersatz in Prozent
        * </pre>
        *
-       * <code>optional .dstore.values.DecimalValue tax_rate = 10004;</code>
+       * <code>.dstore.values.DecimalValue tax_rate = 10004;</code>
        */
       public io.dstore.values.DecimalValueOrBuilder getTaxRateOrBuilder() {
         return getTaxRate();
@@ -1546,7 +1546,7 @@ public final class MiGetTaxRates {
        * Die ID eines Steuersatzes
        * </pre>
        *
-       * <code>optional .dstore.values.IntegerValue tax_rate_id = 10005;</code>
+       * <code>.dstore.values.IntegerValue tax_rate_id = 10005;</code>
        */
       public boolean hasTaxRateId() {
         return taxRateId_ != null;
@@ -1556,7 +1556,7 @@ public final class MiGetTaxRates {
        * Die ID eines Steuersatzes
        * </pre>
        *
-       * <code>optional .dstore.values.IntegerValue tax_rate_id = 10005;</code>
+       * <code>.dstore.values.IntegerValue tax_rate_id = 10005;</code>
        */
       public io.dstore.values.IntegerValue getTaxRateId() {
         return taxRateId_ == null ? io.dstore.values.IntegerValue.getDefaultInstance() : taxRateId_;
@@ -1566,7 +1566,7 @@ public final class MiGetTaxRates {
        * Die ID eines Steuersatzes
        * </pre>
        *
-       * <code>optional .dstore.values.IntegerValue tax_rate_id = 10005;</code>
+       * <code>.dstore.values.IntegerValue tax_rate_id = 10005;</code>
        */
       public io.dstore.values.IntegerValueOrBuilder getTaxRateIdOrBuilder() {
         return getTaxRateId();
@@ -1579,7 +1579,7 @@ public final class MiGetTaxRates {
        * Gibt an, ob dieser Steuersatz in speziellen Fällen, wo kein Steuersatz konfiguriert ist und auch nicht "künstlich bestimmt" werden kann, verwendet werden soll
        * </pre>
        *
-       * <code>optional .dstore.values.BooleanValue use_as_fallback = 10006;</code>
+       * <code>.dstore.values.BooleanValue use_as_fallback = 10006;</code>
        */
       public boolean hasUseAsFallback() {
         return useAsFallback_ != null;
@@ -1589,7 +1589,7 @@ public final class MiGetTaxRates {
        * Gibt an, ob dieser Steuersatz in speziellen Fällen, wo kein Steuersatz konfiguriert ist und auch nicht "künstlich bestimmt" werden kann, verwendet werden soll
        * </pre>
        *
-       * <code>optional .dstore.values.BooleanValue use_as_fallback = 10006;</code>
+       * <code>.dstore.values.BooleanValue use_as_fallback = 10006;</code>
        */
       public io.dstore.values.BooleanValue getUseAsFallback() {
         return useAsFallback_ == null ? io.dstore.values.BooleanValue.getDefaultInstance() : useAsFallback_;
@@ -1599,7 +1599,7 @@ public final class MiGetTaxRates {
        * Gibt an, ob dieser Steuersatz in speziellen Fällen, wo kein Steuersatz konfiguriert ist und auch nicht "künstlich bestimmt" werden kann, verwendet werden soll
        * </pre>
        *
-       * <code>optional .dstore.values.BooleanValue use_as_fallback = 10006;</code>
+       * <code>.dstore.values.BooleanValue use_as_fallback = 10006;</code>
        */
       public io.dstore.values.BooleanValueOrBuilder getUseAsFallbackOrBuilder() {
         return getUseAsFallback();
@@ -1730,7 +1730,7 @@ public final class MiGetTaxRates {
           return memoizedHashCode;
         }
         int hash = 41;
-        hash = (19 * hash) + getDescriptorForType().hashCode();
+        hash = (19 * hash) + getDescriptor().hashCode();
         hash = (37 * hash) + ROW_ID_FIELD_NUMBER;
         hash = (53 * hash) + getRowId();
         if (hasTaxRateDescription()) {
@@ -2056,13 +2056,13 @@ public final class MiGetTaxRates {
 
         private int rowId_ ;
         /**
-         * <code>optional int32 row_id = 10000;</code>
+         * <code>int32 row_id = 10000;</code>
          */
         public int getRowId() {
           return rowId_;
         }
         /**
-         * <code>optional int32 row_id = 10000;</code>
+         * <code>int32 row_id = 10000;</code>
          */
         public Builder setRowId(int value) {
           
@@ -2071,7 +2071,7 @@ public final class MiGetTaxRates {
           return this;
         }
         /**
-         * <code>optional int32 row_id = 10000;</code>
+         * <code>int32 row_id = 10000;</code>
          */
         public Builder clearRowId() {
           
@@ -2088,7 +2088,7 @@ public final class MiGetTaxRates {
          * Die Beschreibung des Steuersatzes (z.B. "Normalsteuersatz")
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue tax_rate_description = 10001;</code>
+         * <code>.dstore.values.StringValue tax_rate_description = 10001;</code>
          */
         public boolean hasTaxRateDescription() {
           return taxRateDescriptionBuilder_ != null || taxRateDescription_ != null;
@@ -2098,7 +2098,7 @@ public final class MiGetTaxRates {
          * Die Beschreibung des Steuersatzes (z.B. "Normalsteuersatz")
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue tax_rate_description = 10001;</code>
+         * <code>.dstore.values.StringValue tax_rate_description = 10001;</code>
          */
         public io.dstore.values.StringValue getTaxRateDescription() {
           if (taxRateDescriptionBuilder_ == null) {
@@ -2112,7 +2112,7 @@ public final class MiGetTaxRates {
          * Die Beschreibung des Steuersatzes (z.B. "Normalsteuersatz")
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue tax_rate_description = 10001;</code>
+         * <code>.dstore.values.StringValue tax_rate_description = 10001;</code>
          */
         public Builder setTaxRateDescription(io.dstore.values.StringValue value) {
           if (taxRateDescriptionBuilder_ == null) {
@@ -2132,7 +2132,7 @@ public final class MiGetTaxRates {
          * Die Beschreibung des Steuersatzes (z.B. "Normalsteuersatz")
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue tax_rate_description = 10001;</code>
+         * <code>.dstore.values.StringValue tax_rate_description = 10001;</code>
          */
         public Builder setTaxRateDescription(
             io.dstore.values.StringValue.Builder builderForValue) {
@@ -2150,7 +2150,7 @@ public final class MiGetTaxRates {
          * Die Beschreibung des Steuersatzes (z.B. "Normalsteuersatz")
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue tax_rate_description = 10001;</code>
+         * <code>.dstore.values.StringValue tax_rate_description = 10001;</code>
          */
         public Builder mergeTaxRateDescription(io.dstore.values.StringValue value) {
           if (taxRateDescriptionBuilder_ == null) {
@@ -2172,7 +2172,7 @@ public final class MiGetTaxRates {
          * Die Beschreibung des Steuersatzes (z.B. "Normalsteuersatz")
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue tax_rate_description = 10001;</code>
+         * <code>.dstore.values.StringValue tax_rate_description = 10001;</code>
          */
         public Builder clearTaxRateDescription() {
           if (taxRateDescriptionBuilder_ == null) {
@@ -2190,7 +2190,7 @@ public final class MiGetTaxRates {
          * Die Beschreibung des Steuersatzes (z.B. "Normalsteuersatz")
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue tax_rate_description = 10001;</code>
+         * <code>.dstore.values.StringValue tax_rate_description = 10001;</code>
          */
         public io.dstore.values.StringValue.Builder getTaxRateDescriptionBuilder() {
           
@@ -2202,7 +2202,7 @@ public final class MiGetTaxRates {
          * Die Beschreibung des Steuersatzes (z.B. "Normalsteuersatz")
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue tax_rate_description = 10001;</code>
+         * <code>.dstore.values.StringValue tax_rate_description = 10001;</code>
          */
         public io.dstore.values.StringValueOrBuilder getTaxRateDescriptionOrBuilder() {
           if (taxRateDescriptionBuilder_ != null) {
@@ -2217,7 +2217,7 @@ public final class MiGetTaxRates {
          * Die Beschreibung des Steuersatzes (z.B. "Normalsteuersatz")
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue tax_rate_description = 10001;</code>
+         * <code>.dstore.values.StringValue tax_rate_description = 10001;</code>
          */
         private com.google.protobuf.SingleFieldBuilderV3<
             io.dstore.values.StringValue, io.dstore.values.StringValue.Builder, io.dstore.values.StringValueOrBuilder> 
@@ -2241,7 +2241,7 @@ public final class MiGetTaxRates {
          * Gibt an, ob der Steuersatz aktiv ist. Dies ist nur eine Information für "Client-Anwendungen". Engineseitig gibt es zu dieser Information keine implementierte Funktionalität.
          * </pre>
          *
-         * <code>optional .dstore.values.BooleanValue active = 10002;</code>
+         * <code>.dstore.values.BooleanValue active = 10002;</code>
          */
         public boolean hasActive() {
           return activeBuilder_ != null || active_ != null;
@@ -2251,7 +2251,7 @@ public final class MiGetTaxRates {
          * Gibt an, ob der Steuersatz aktiv ist. Dies ist nur eine Information für "Client-Anwendungen". Engineseitig gibt es zu dieser Information keine implementierte Funktionalität.
          * </pre>
          *
-         * <code>optional .dstore.values.BooleanValue active = 10002;</code>
+         * <code>.dstore.values.BooleanValue active = 10002;</code>
          */
         public io.dstore.values.BooleanValue getActive() {
           if (activeBuilder_ == null) {
@@ -2265,7 +2265,7 @@ public final class MiGetTaxRates {
          * Gibt an, ob der Steuersatz aktiv ist. Dies ist nur eine Information für "Client-Anwendungen". Engineseitig gibt es zu dieser Information keine implementierte Funktionalität.
          * </pre>
          *
-         * <code>optional .dstore.values.BooleanValue active = 10002;</code>
+         * <code>.dstore.values.BooleanValue active = 10002;</code>
          */
         public Builder setActive(io.dstore.values.BooleanValue value) {
           if (activeBuilder_ == null) {
@@ -2285,7 +2285,7 @@ public final class MiGetTaxRates {
          * Gibt an, ob der Steuersatz aktiv ist. Dies ist nur eine Information für "Client-Anwendungen". Engineseitig gibt es zu dieser Information keine implementierte Funktionalität.
          * </pre>
          *
-         * <code>optional .dstore.values.BooleanValue active = 10002;</code>
+         * <code>.dstore.values.BooleanValue active = 10002;</code>
          */
         public Builder setActive(
             io.dstore.values.BooleanValue.Builder builderForValue) {
@@ -2303,7 +2303,7 @@ public final class MiGetTaxRates {
          * Gibt an, ob der Steuersatz aktiv ist. Dies ist nur eine Information für "Client-Anwendungen". Engineseitig gibt es zu dieser Information keine implementierte Funktionalität.
          * </pre>
          *
-         * <code>optional .dstore.values.BooleanValue active = 10002;</code>
+         * <code>.dstore.values.BooleanValue active = 10002;</code>
          */
         public Builder mergeActive(io.dstore.values.BooleanValue value) {
           if (activeBuilder_ == null) {
@@ -2325,7 +2325,7 @@ public final class MiGetTaxRates {
          * Gibt an, ob der Steuersatz aktiv ist. Dies ist nur eine Information für "Client-Anwendungen". Engineseitig gibt es zu dieser Information keine implementierte Funktionalität.
          * </pre>
          *
-         * <code>optional .dstore.values.BooleanValue active = 10002;</code>
+         * <code>.dstore.values.BooleanValue active = 10002;</code>
          */
         public Builder clearActive() {
           if (activeBuilder_ == null) {
@@ -2343,7 +2343,7 @@ public final class MiGetTaxRates {
          * Gibt an, ob der Steuersatz aktiv ist. Dies ist nur eine Information für "Client-Anwendungen". Engineseitig gibt es zu dieser Information keine implementierte Funktionalität.
          * </pre>
          *
-         * <code>optional .dstore.values.BooleanValue active = 10002;</code>
+         * <code>.dstore.values.BooleanValue active = 10002;</code>
          */
         public io.dstore.values.BooleanValue.Builder getActiveBuilder() {
           
@@ -2355,7 +2355,7 @@ public final class MiGetTaxRates {
          * Gibt an, ob der Steuersatz aktiv ist. Dies ist nur eine Information für "Client-Anwendungen". Engineseitig gibt es zu dieser Information keine implementierte Funktionalität.
          * </pre>
          *
-         * <code>optional .dstore.values.BooleanValue active = 10002;</code>
+         * <code>.dstore.values.BooleanValue active = 10002;</code>
          */
         public io.dstore.values.BooleanValueOrBuilder getActiveOrBuilder() {
           if (activeBuilder_ != null) {
@@ -2370,7 +2370,7 @@ public final class MiGetTaxRates {
          * Gibt an, ob der Steuersatz aktiv ist. Dies ist nur eine Information für "Client-Anwendungen". Engineseitig gibt es zu dieser Information keine implementierte Funktionalität.
          * </pre>
          *
-         * <code>optional .dstore.values.BooleanValue active = 10002;</code>
+         * <code>.dstore.values.BooleanValue active = 10002;</code>
          */
         private com.google.protobuf.SingleFieldBuilderV3<
             io.dstore.values.BooleanValue, io.dstore.values.BooleanValue.Builder, io.dstore.values.BooleanValueOrBuilder> 
@@ -2394,7 +2394,7 @@ public final class MiGetTaxRates {
          * Steuersatz als Multiplikator, d.h. im Falle von z.B. "TaxRate = 19" (ergo 19 Prozent) steht hier "1.19"
          * </pre>
          *
-         * <code>optional .dstore.values.DecimalValue taxes_multiplier = 10003;</code>
+         * <code>.dstore.values.DecimalValue taxes_multiplier = 10003;</code>
          */
         public boolean hasTaxesMultiplier() {
           return taxesMultiplierBuilder_ != null || taxesMultiplier_ != null;
@@ -2404,7 +2404,7 @@ public final class MiGetTaxRates {
          * Steuersatz als Multiplikator, d.h. im Falle von z.B. "TaxRate = 19" (ergo 19 Prozent) steht hier "1.19"
          * </pre>
          *
-         * <code>optional .dstore.values.DecimalValue taxes_multiplier = 10003;</code>
+         * <code>.dstore.values.DecimalValue taxes_multiplier = 10003;</code>
          */
         public io.dstore.values.DecimalValue getTaxesMultiplier() {
           if (taxesMultiplierBuilder_ == null) {
@@ -2418,7 +2418,7 @@ public final class MiGetTaxRates {
          * Steuersatz als Multiplikator, d.h. im Falle von z.B. "TaxRate = 19" (ergo 19 Prozent) steht hier "1.19"
          * </pre>
          *
-         * <code>optional .dstore.values.DecimalValue taxes_multiplier = 10003;</code>
+         * <code>.dstore.values.DecimalValue taxes_multiplier = 10003;</code>
          */
         public Builder setTaxesMultiplier(io.dstore.values.DecimalValue value) {
           if (taxesMultiplierBuilder_ == null) {
@@ -2438,7 +2438,7 @@ public final class MiGetTaxRates {
          * Steuersatz als Multiplikator, d.h. im Falle von z.B. "TaxRate = 19" (ergo 19 Prozent) steht hier "1.19"
          * </pre>
          *
-         * <code>optional .dstore.values.DecimalValue taxes_multiplier = 10003;</code>
+         * <code>.dstore.values.DecimalValue taxes_multiplier = 10003;</code>
          */
         public Builder setTaxesMultiplier(
             io.dstore.values.DecimalValue.Builder builderForValue) {
@@ -2456,7 +2456,7 @@ public final class MiGetTaxRates {
          * Steuersatz als Multiplikator, d.h. im Falle von z.B. "TaxRate = 19" (ergo 19 Prozent) steht hier "1.19"
          * </pre>
          *
-         * <code>optional .dstore.values.DecimalValue taxes_multiplier = 10003;</code>
+         * <code>.dstore.values.DecimalValue taxes_multiplier = 10003;</code>
          */
         public Builder mergeTaxesMultiplier(io.dstore.values.DecimalValue value) {
           if (taxesMultiplierBuilder_ == null) {
@@ -2478,7 +2478,7 @@ public final class MiGetTaxRates {
          * Steuersatz als Multiplikator, d.h. im Falle von z.B. "TaxRate = 19" (ergo 19 Prozent) steht hier "1.19"
          * </pre>
          *
-         * <code>optional .dstore.values.DecimalValue taxes_multiplier = 10003;</code>
+         * <code>.dstore.values.DecimalValue taxes_multiplier = 10003;</code>
          */
         public Builder clearTaxesMultiplier() {
           if (taxesMultiplierBuilder_ == null) {
@@ -2496,7 +2496,7 @@ public final class MiGetTaxRates {
          * Steuersatz als Multiplikator, d.h. im Falle von z.B. "TaxRate = 19" (ergo 19 Prozent) steht hier "1.19"
          * </pre>
          *
-         * <code>optional .dstore.values.DecimalValue taxes_multiplier = 10003;</code>
+         * <code>.dstore.values.DecimalValue taxes_multiplier = 10003;</code>
          */
         public io.dstore.values.DecimalValue.Builder getTaxesMultiplierBuilder() {
           
@@ -2508,7 +2508,7 @@ public final class MiGetTaxRates {
          * Steuersatz als Multiplikator, d.h. im Falle von z.B. "TaxRate = 19" (ergo 19 Prozent) steht hier "1.19"
          * </pre>
          *
-         * <code>optional .dstore.values.DecimalValue taxes_multiplier = 10003;</code>
+         * <code>.dstore.values.DecimalValue taxes_multiplier = 10003;</code>
          */
         public io.dstore.values.DecimalValueOrBuilder getTaxesMultiplierOrBuilder() {
           if (taxesMultiplierBuilder_ != null) {
@@ -2523,7 +2523,7 @@ public final class MiGetTaxRates {
          * Steuersatz als Multiplikator, d.h. im Falle von z.B. "TaxRate = 19" (ergo 19 Prozent) steht hier "1.19"
          * </pre>
          *
-         * <code>optional .dstore.values.DecimalValue taxes_multiplier = 10003;</code>
+         * <code>.dstore.values.DecimalValue taxes_multiplier = 10003;</code>
          */
         private com.google.protobuf.SingleFieldBuilderV3<
             io.dstore.values.DecimalValue, io.dstore.values.DecimalValue.Builder, io.dstore.values.DecimalValueOrBuilder> 
@@ -2547,7 +2547,7 @@ public final class MiGetTaxRates {
          * Der Steuersatz in Prozent
          * </pre>
          *
-         * <code>optional .dstore.values.DecimalValue tax_rate = 10004;</code>
+         * <code>.dstore.values.DecimalValue tax_rate = 10004;</code>
          */
         public boolean hasTaxRate() {
           return taxRateBuilder_ != null || taxRate_ != null;
@@ -2557,7 +2557,7 @@ public final class MiGetTaxRates {
          * Der Steuersatz in Prozent
          * </pre>
          *
-         * <code>optional .dstore.values.DecimalValue tax_rate = 10004;</code>
+         * <code>.dstore.values.DecimalValue tax_rate = 10004;</code>
          */
         public io.dstore.values.DecimalValue getTaxRate() {
           if (taxRateBuilder_ == null) {
@@ -2571,7 +2571,7 @@ public final class MiGetTaxRates {
          * Der Steuersatz in Prozent
          * </pre>
          *
-         * <code>optional .dstore.values.DecimalValue tax_rate = 10004;</code>
+         * <code>.dstore.values.DecimalValue tax_rate = 10004;</code>
          */
         public Builder setTaxRate(io.dstore.values.DecimalValue value) {
           if (taxRateBuilder_ == null) {
@@ -2591,7 +2591,7 @@ public final class MiGetTaxRates {
          * Der Steuersatz in Prozent
          * </pre>
          *
-         * <code>optional .dstore.values.DecimalValue tax_rate = 10004;</code>
+         * <code>.dstore.values.DecimalValue tax_rate = 10004;</code>
          */
         public Builder setTaxRate(
             io.dstore.values.DecimalValue.Builder builderForValue) {
@@ -2609,7 +2609,7 @@ public final class MiGetTaxRates {
          * Der Steuersatz in Prozent
          * </pre>
          *
-         * <code>optional .dstore.values.DecimalValue tax_rate = 10004;</code>
+         * <code>.dstore.values.DecimalValue tax_rate = 10004;</code>
          */
         public Builder mergeTaxRate(io.dstore.values.DecimalValue value) {
           if (taxRateBuilder_ == null) {
@@ -2631,7 +2631,7 @@ public final class MiGetTaxRates {
          * Der Steuersatz in Prozent
          * </pre>
          *
-         * <code>optional .dstore.values.DecimalValue tax_rate = 10004;</code>
+         * <code>.dstore.values.DecimalValue tax_rate = 10004;</code>
          */
         public Builder clearTaxRate() {
           if (taxRateBuilder_ == null) {
@@ -2649,7 +2649,7 @@ public final class MiGetTaxRates {
          * Der Steuersatz in Prozent
          * </pre>
          *
-         * <code>optional .dstore.values.DecimalValue tax_rate = 10004;</code>
+         * <code>.dstore.values.DecimalValue tax_rate = 10004;</code>
          */
         public io.dstore.values.DecimalValue.Builder getTaxRateBuilder() {
           
@@ -2661,7 +2661,7 @@ public final class MiGetTaxRates {
          * Der Steuersatz in Prozent
          * </pre>
          *
-         * <code>optional .dstore.values.DecimalValue tax_rate = 10004;</code>
+         * <code>.dstore.values.DecimalValue tax_rate = 10004;</code>
          */
         public io.dstore.values.DecimalValueOrBuilder getTaxRateOrBuilder() {
           if (taxRateBuilder_ != null) {
@@ -2676,7 +2676,7 @@ public final class MiGetTaxRates {
          * Der Steuersatz in Prozent
          * </pre>
          *
-         * <code>optional .dstore.values.DecimalValue tax_rate = 10004;</code>
+         * <code>.dstore.values.DecimalValue tax_rate = 10004;</code>
          */
         private com.google.protobuf.SingleFieldBuilderV3<
             io.dstore.values.DecimalValue, io.dstore.values.DecimalValue.Builder, io.dstore.values.DecimalValueOrBuilder> 
@@ -2700,7 +2700,7 @@ public final class MiGetTaxRates {
          * Die ID eines Steuersatzes
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue tax_rate_id = 10005;</code>
+         * <code>.dstore.values.IntegerValue tax_rate_id = 10005;</code>
          */
         public boolean hasTaxRateId() {
           return taxRateIdBuilder_ != null || taxRateId_ != null;
@@ -2710,7 +2710,7 @@ public final class MiGetTaxRates {
          * Die ID eines Steuersatzes
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue tax_rate_id = 10005;</code>
+         * <code>.dstore.values.IntegerValue tax_rate_id = 10005;</code>
          */
         public io.dstore.values.IntegerValue getTaxRateId() {
           if (taxRateIdBuilder_ == null) {
@@ -2724,7 +2724,7 @@ public final class MiGetTaxRates {
          * Die ID eines Steuersatzes
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue tax_rate_id = 10005;</code>
+         * <code>.dstore.values.IntegerValue tax_rate_id = 10005;</code>
          */
         public Builder setTaxRateId(io.dstore.values.IntegerValue value) {
           if (taxRateIdBuilder_ == null) {
@@ -2744,7 +2744,7 @@ public final class MiGetTaxRates {
          * Die ID eines Steuersatzes
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue tax_rate_id = 10005;</code>
+         * <code>.dstore.values.IntegerValue tax_rate_id = 10005;</code>
          */
         public Builder setTaxRateId(
             io.dstore.values.IntegerValue.Builder builderForValue) {
@@ -2762,7 +2762,7 @@ public final class MiGetTaxRates {
          * Die ID eines Steuersatzes
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue tax_rate_id = 10005;</code>
+         * <code>.dstore.values.IntegerValue tax_rate_id = 10005;</code>
          */
         public Builder mergeTaxRateId(io.dstore.values.IntegerValue value) {
           if (taxRateIdBuilder_ == null) {
@@ -2784,7 +2784,7 @@ public final class MiGetTaxRates {
          * Die ID eines Steuersatzes
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue tax_rate_id = 10005;</code>
+         * <code>.dstore.values.IntegerValue tax_rate_id = 10005;</code>
          */
         public Builder clearTaxRateId() {
           if (taxRateIdBuilder_ == null) {
@@ -2802,7 +2802,7 @@ public final class MiGetTaxRates {
          * Die ID eines Steuersatzes
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue tax_rate_id = 10005;</code>
+         * <code>.dstore.values.IntegerValue tax_rate_id = 10005;</code>
          */
         public io.dstore.values.IntegerValue.Builder getTaxRateIdBuilder() {
           
@@ -2814,7 +2814,7 @@ public final class MiGetTaxRates {
          * Die ID eines Steuersatzes
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue tax_rate_id = 10005;</code>
+         * <code>.dstore.values.IntegerValue tax_rate_id = 10005;</code>
          */
         public io.dstore.values.IntegerValueOrBuilder getTaxRateIdOrBuilder() {
           if (taxRateIdBuilder_ != null) {
@@ -2829,7 +2829,7 @@ public final class MiGetTaxRates {
          * Die ID eines Steuersatzes
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue tax_rate_id = 10005;</code>
+         * <code>.dstore.values.IntegerValue tax_rate_id = 10005;</code>
          */
         private com.google.protobuf.SingleFieldBuilderV3<
             io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> 
@@ -2853,7 +2853,7 @@ public final class MiGetTaxRates {
          * Gibt an, ob dieser Steuersatz in speziellen Fällen, wo kein Steuersatz konfiguriert ist und auch nicht "künstlich bestimmt" werden kann, verwendet werden soll
          * </pre>
          *
-         * <code>optional .dstore.values.BooleanValue use_as_fallback = 10006;</code>
+         * <code>.dstore.values.BooleanValue use_as_fallback = 10006;</code>
          */
         public boolean hasUseAsFallback() {
           return useAsFallbackBuilder_ != null || useAsFallback_ != null;
@@ -2863,7 +2863,7 @@ public final class MiGetTaxRates {
          * Gibt an, ob dieser Steuersatz in speziellen Fällen, wo kein Steuersatz konfiguriert ist und auch nicht "künstlich bestimmt" werden kann, verwendet werden soll
          * </pre>
          *
-         * <code>optional .dstore.values.BooleanValue use_as_fallback = 10006;</code>
+         * <code>.dstore.values.BooleanValue use_as_fallback = 10006;</code>
          */
         public io.dstore.values.BooleanValue getUseAsFallback() {
           if (useAsFallbackBuilder_ == null) {
@@ -2877,7 +2877,7 @@ public final class MiGetTaxRates {
          * Gibt an, ob dieser Steuersatz in speziellen Fällen, wo kein Steuersatz konfiguriert ist und auch nicht "künstlich bestimmt" werden kann, verwendet werden soll
          * </pre>
          *
-         * <code>optional .dstore.values.BooleanValue use_as_fallback = 10006;</code>
+         * <code>.dstore.values.BooleanValue use_as_fallback = 10006;</code>
          */
         public Builder setUseAsFallback(io.dstore.values.BooleanValue value) {
           if (useAsFallbackBuilder_ == null) {
@@ -2897,7 +2897,7 @@ public final class MiGetTaxRates {
          * Gibt an, ob dieser Steuersatz in speziellen Fällen, wo kein Steuersatz konfiguriert ist und auch nicht "künstlich bestimmt" werden kann, verwendet werden soll
          * </pre>
          *
-         * <code>optional .dstore.values.BooleanValue use_as_fallback = 10006;</code>
+         * <code>.dstore.values.BooleanValue use_as_fallback = 10006;</code>
          */
         public Builder setUseAsFallback(
             io.dstore.values.BooleanValue.Builder builderForValue) {
@@ -2915,7 +2915,7 @@ public final class MiGetTaxRates {
          * Gibt an, ob dieser Steuersatz in speziellen Fällen, wo kein Steuersatz konfiguriert ist und auch nicht "künstlich bestimmt" werden kann, verwendet werden soll
          * </pre>
          *
-         * <code>optional .dstore.values.BooleanValue use_as_fallback = 10006;</code>
+         * <code>.dstore.values.BooleanValue use_as_fallback = 10006;</code>
          */
         public Builder mergeUseAsFallback(io.dstore.values.BooleanValue value) {
           if (useAsFallbackBuilder_ == null) {
@@ -2937,7 +2937,7 @@ public final class MiGetTaxRates {
          * Gibt an, ob dieser Steuersatz in speziellen Fällen, wo kein Steuersatz konfiguriert ist und auch nicht "künstlich bestimmt" werden kann, verwendet werden soll
          * </pre>
          *
-         * <code>optional .dstore.values.BooleanValue use_as_fallback = 10006;</code>
+         * <code>.dstore.values.BooleanValue use_as_fallback = 10006;</code>
          */
         public Builder clearUseAsFallback() {
           if (useAsFallbackBuilder_ == null) {
@@ -2955,7 +2955,7 @@ public final class MiGetTaxRates {
          * Gibt an, ob dieser Steuersatz in speziellen Fällen, wo kein Steuersatz konfiguriert ist und auch nicht "künstlich bestimmt" werden kann, verwendet werden soll
          * </pre>
          *
-         * <code>optional .dstore.values.BooleanValue use_as_fallback = 10006;</code>
+         * <code>.dstore.values.BooleanValue use_as_fallback = 10006;</code>
          */
         public io.dstore.values.BooleanValue.Builder getUseAsFallbackBuilder() {
           
@@ -2967,7 +2967,7 @@ public final class MiGetTaxRates {
          * Gibt an, ob dieser Steuersatz in speziellen Fällen, wo kein Steuersatz konfiguriert ist und auch nicht "künstlich bestimmt" werden kann, verwendet werden soll
          * </pre>
          *
-         * <code>optional .dstore.values.BooleanValue use_as_fallback = 10006;</code>
+         * <code>.dstore.values.BooleanValue use_as_fallback = 10006;</code>
          */
         public io.dstore.values.BooleanValueOrBuilder getUseAsFallbackOrBuilder() {
           if (useAsFallbackBuilder_ != null) {
@@ -2982,7 +2982,7 @@ public final class MiGetTaxRates {
          * Gibt an, ob dieser Steuersatz in speziellen Fällen, wo kein Steuersatz konfiguriert ist und auch nicht "künstlich bestimmt" werden kann, verwendet werden soll
          * </pre>
          *
-         * <code>optional .dstore.values.BooleanValue use_as_fallback = 10006;</code>
+         * <code>.dstore.values.BooleanValue use_as_fallback = 10006;</code>
          */
         private com.google.protobuf.SingleFieldBuilderV3<
             io.dstore.values.BooleanValue, io.dstore.values.BooleanValue.Builder, io.dstore.values.BooleanValueOrBuilder> 
@@ -3242,7 +3242,7 @@ public final class MiGetTaxRates {
         return memoizedHashCode;
       }
       int hash = 41;
-      hash = (19 * hash) + getDescriptorForType().hashCode();
+      hash = (19 * hash) + getDescriptor().hashCode();
       if (getMetaInformationCount() > 0) {
         hash = (37 * hash) + META_INFORMATION_FIELD_NUMBER;
         hash = (53 * hash) + getMetaInformationList().hashCode();

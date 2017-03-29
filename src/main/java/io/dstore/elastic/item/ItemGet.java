@@ -23,7 +23,7 @@ public final class ItemGet {
      * Danach wird das Suchergebnis und alle Aggregationen gefiltert
      * </pre>
      *
-     * <code>optional .dstore.elastic.BoolQuery base_query = 1;</code>
+     * <code>.dstore.elastic.BoolQuery base_query = 1;</code>
      */
     boolean hasBaseQuery();
     /**
@@ -31,7 +31,7 @@ public final class ItemGet {
      * Danach wird das Suchergebnis und alle Aggregationen gefiltert
      * </pre>
      *
-     * <code>optional .dstore.elastic.BoolQuery base_query = 1;</code>
+     * <code>.dstore.elastic.BoolQuery base_query = 1;</code>
      */
     io.dstore.elastic.BoolQuery getBaseQuery();
     /**
@@ -39,7 +39,7 @@ public final class ItemGet {
      * Danach wird das Suchergebnis und alle Aggregationen gefiltert
      * </pre>
      *
-     * <code>optional .dstore.elastic.BoolQuery base_query = 1;</code>
+     * <code>.dstore.elastic.BoolQuery base_query = 1;</code>
      */
     io.dstore.elastic.BoolQueryOrBuilder getBaseQueryOrBuilder();
 
@@ -48,7 +48,7 @@ public final class ItemGet {
      * Danach wird das Suchergebnis nachträglich gefiltert und es wird jeweils eine zusätzliche FilteredAggregation geliefert
      * </pre>
      *
-     * <code>optional .dstore.elastic.BoolQuery post_query = 2;</code>
+     * <code>.dstore.elastic.BoolQuery post_query = 2;</code>
      */
     boolean hasPostQuery();
     /**
@@ -56,7 +56,7 @@ public final class ItemGet {
      * Danach wird das Suchergebnis nachträglich gefiltert und es wird jeweils eine zusätzliche FilteredAggregation geliefert
      * </pre>
      *
-     * <code>optional .dstore.elastic.BoolQuery post_query = 2;</code>
+     * <code>.dstore.elastic.BoolQuery post_query = 2;</code>
      */
     io.dstore.elastic.BoolQuery getPostQuery();
     /**
@@ -64,7 +64,7 @@ public final class ItemGet {
      * Danach wird das Suchergebnis nachträglich gefiltert und es wird jeweils eine zusätzliche FilteredAggregation geliefert
      * </pre>
      *
-     * <code>optional .dstore.elastic.BoolQuery post_query = 2;</code>
+     * <code>.dstore.elastic.BoolQuery post_query = 2;</code>
      */
     io.dstore.elastic.BoolQueryOrBuilder getPostQueryOrBuilder();
 
@@ -141,7 +141,7 @@ public final class ItemGet {
         int index);
 
     /**
-     * <code>optional bool only_matching_variants = 7;</code>
+     * <code>bool only_matching_variants = 7;</code>
      */
     boolean getOnlyMatchingVariants();
 
@@ -150,12 +150,12 @@ public final class ItemGet {
      * Paginierung GET /_search?size=5&amp;from=5
      * </pre>
      *
-     * <code>optional int32 from = 10;</code>
+     * <code>int32 from = 10;</code>
      */
     int getFrom();
 
     /**
-     * <code>optional int32 size = 11;</code>
+     * <code>int32 size = 11;</code>
      */
     int getSize();
 
@@ -410,11 +410,11 @@ public final class ItemGet {
         com.google.protobuf.MessageOrBuilder {
 
       /**
-       * <code>optional string field_name = 1;</code>
+       * <code>string field_name = 1;</code>
        */
       java.lang.String getFieldName();
       /**
-       * <code>optional string field_name = 1;</code>
+       * <code>string field_name = 1;</code>
        */
       com.google.protobuf.ByteString
           getFieldNameBytes();
@@ -529,7 +529,7 @@ public final class ItemGet {
       public static final int FIELD_NAME_FIELD_NUMBER = 1;
       private volatile java.lang.Object fieldName_;
       /**
-       * <code>optional string field_name = 1;</code>
+       * <code>string field_name = 1;</code>
        */
       public java.lang.String getFieldName() {
         java.lang.Object ref = fieldName_;
@@ -544,7 +544,7 @@ public final class ItemGet {
         }
       }
       /**
-       * <code>optional string field_name = 1;</code>
+       * <code>string field_name = 1;</code>
        */
       public com.google.protobuf.ByteString
           getFieldNameBytes() {
@@ -656,7 +656,7 @@ public final class ItemGet {
           return memoizedHashCode;
         }
         int hash = 41;
-        hash = (19 * hash) + getDescriptorForType().hashCode();
+        hash = (19 * hash) + getDescriptor().hashCode();
         hash = (37 * hash) + FIELD_NAME_FIELD_NUMBER;
         hash = (53 * hash) + getFieldName().hashCode();
         if (getRangeCount() > 0) {
@@ -925,7 +925,7 @@ public final class ItemGet {
 
         private java.lang.Object fieldName_ = "";
         /**
-         * <code>optional string field_name = 1;</code>
+         * <code>string field_name = 1;</code>
          */
         public java.lang.String getFieldName() {
           java.lang.Object ref = fieldName_;
@@ -940,7 +940,7 @@ public final class ItemGet {
           }
         }
         /**
-         * <code>optional string field_name = 1;</code>
+         * <code>string field_name = 1;</code>
          */
         public com.google.protobuf.ByteString
             getFieldNameBytes() {
@@ -956,7 +956,7 @@ public final class ItemGet {
           }
         }
         /**
-         * <code>optional string field_name = 1;</code>
+         * <code>string field_name = 1;</code>
          */
         public Builder setFieldName(
             java.lang.String value) {
@@ -969,7 +969,7 @@ public final class ItemGet {
           return this;
         }
         /**
-         * <code>optional string field_name = 1;</code>
+         * <code>string field_name = 1;</code>
          */
         public Builder clearFieldName() {
           
@@ -978,7 +978,7 @@ public final class ItemGet {
           return this;
         }
         /**
-         * <code>optional string field_name = 1;</code>
+         * <code>string field_name = 1;</code>
          */
         public Builder setFieldNameBytes(
             com.google.protobuf.ByteString value) {
@@ -1285,30 +1285,30 @@ public final class ItemGet {
         com.google.protobuf.MessageOrBuilder {
 
       /**
-       * <code>optional string field_name = 1;</code>
+       * <code>string field_name = 1;</code>
        */
       java.lang.String getFieldName();
       /**
-       * <code>optional string field_name = 1;</code>
+       * <code>string field_name = 1;</code>
        */
       com.google.protobuf.ByteString
           getFieldNameBytes();
 
       /**
-       * <code>optional .dstore.elastic.item.item_get.Request.Facet.SortNoSort sort_no_sort = 2;</code>
+       * <code>.dstore.elastic.item.item_get.Request.Facet.SortNoSort sort_no_sort = 2;</code>
        */
       io.dstore.elastic.item.ItemGet.Request.Facet.SortNoSort getSortNoSort();
       /**
-       * <code>optional .dstore.elastic.item.item_get.Request.Facet.SortNoSort sort_no_sort = 2;</code>
+       * <code>.dstore.elastic.item.item_get.Request.Facet.SortNoSort sort_no_sort = 2;</code>
        */
       io.dstore.elastic.item.ItemGet.Request.Facet.SortNoSortOrBuilder getSortNoSortOrBuilder();
 
       /**
-       * <code>optional .dstore.elastic.item.item_get.Request.Facet.FieldSort field_sort = 3;</code>
+       * <code>.dstore.elastic.item.item_get.Request.Facet.FieldSort field_sort = 3;</code>
        */
       io.dstore.elastic.item.ItemGet.Request.Facet.FieldSort getFieldSort();
       /**
-       * <code>optional .dstore.elastic.item.item_get.Request.Facet.FieldSort field_sort = 3;</code>
+       * <code>.dstore.elastic.item.item_get.Request.Facet.FieldSort field_sort = 3;</code>
        */
       io.dstore.elastic.item.ItemGet.Request.Facet.FieldSortOrBuilder getFieldSortOrBuilder();
 
@@ -1416,11 +1416,11 @@ public final class ItemGet {
           com.google.protobuf.MessageOrBuilder {
 
         /**
-         * <code>optional .dstore.elastic.Sort.Order sort_order = 1;</code>
+         * <code>.dstore.elastic.Sort.Order sort_order = 1;</code>
          */
         int getSortOrderValue();
         /**
-         * <code>optional .dstore.elastic.Sort.Order sort_order = 1;</code>
+         * <code>.dstore.elastic.Sort.Order sort_order = 1;</code>
          */
         io.dstore.elastic.Sort.Order getSortOrder();
       }
@@ -1496,13 +1496,13 @@ public final class ItemGet {
         public static final int SORT_ORDER_FIELD_NUMBER = 1;
         private int sortOrder_;
         /**
-         * <code>optional .dstore.elastic.Sort.Order sort_order = 1;</code>
+         * <code>.dstore.elastic.Sort.Order sort_order = 1;</code>
          */
         public int getSortOrderValue() {
           return sortOrder_;
         }
         /**
-         * <code>optional .dstore.elastic.Sort.Order sort_order = 1;</code>
+         * <code>.dstore.elastic.Sort.Order sort_order = 1;</code>
          */
         public io.dstore.elastic.Sort.Order getSortOrder() {
           io.dstore.elastic.Sort.Order result = io.dstore.elastic.Sort.Order.valueOf(sortOrder_);
@@ -1561,7 +1561,7 @@ public final class ItemGet {
             return memoizedHashCode;
           }
           int hash = 41;
-          hash = (19 * hash) + getDescriptorForType().hashCode();
+          hash = (19 * hash) + getDescriptor().hashCode();
           hash = (37 * hash) + SORT_ORDER_FIELD_NUMBER;
           hash = (53 * hash) + sortOrder_;
           hash = (29 * hash) + unknownFields.hashCode();
@@ -1779,13 +1779,13 @@ public final class ItemGet {
 
           private int sortOrder_ = 0;
           /**
-           * <code>optional .dstore.elastic.Sort.Order sort_order = 1;</code>
+           * <code>.dstore.elastic.Sort.Order sort_order = 1;</code>
            */
           public int getSortOrderValue() {
             return sortOrder_;
           }
           /**
-           * <code>optional .dstore.elastic.Sort.Order sort_order = 1;</code>
+           * <code>.dstore.elastic.Sort.Order sort_order = 1;</code>
            */
           public Builder setSortOrderValue(int value) {
             sortOrder_ = value;
@@ -1793,14 +1793,14 @@ public final class ItemGet {
             return this;
           }
           /**
-           * <code>optional .dstore.elastic.Sort.Order sort_order = 1;</code>
+           * <code>.dstore.elastic.Sort.Order sort_order = 1;</code>
            */
           public io.dstore.elastic.Sort.Order getSortOrder() {
             io.dstore.elastic.Sort.Order result = io.dstore.elastic.Sort.Order.valueOf(sortOrder_);
             return result == null ? io.dstore.elastic.Sort.Order.UNRECOGNIZED : result;
           }
           /**
-           * <code>optional .dstore.elastic.Sort.Order sort_order = 1;</code>
+           * <code>.dstore.elastic.Sort.Order sort_order = 1;</code>
            */
           public Builder setSortOrder(io.dstore.elastic.Sort.Order value) {
             if (value == null) {
@@ -1812,7 +1812,7 @@ public final class ItemGet {
             return this;
           }
           /**
-           * <code>optional .dstore.elastic.Sort.Order sort_order = 1;</code>
+           * <code>.dstore.elastic.Sort.Order sort_order = 1;</code>
            */
           public Builder clearSortOrder() {
             
@@ -1874,30 +1874,30 @@ public final class ItemGet {
           com.google.protobuf.MessageOrBuilder {
 
         /**
-         * <code>optional string field_name = 1;</code>
+         * <code>string field_name = 1;</code>
          */
         java.lang.String getFieldName();
         /**
-         * <code>optional string field_name = 1;</code>
+         * <code>string field_name = 1;</code>
          */
         com.google.protobuf.ByteString
             getFieldNameBytes();
 
         /**
-         * <code>optional .dstore.elastic.Sort.Order sort_order = 2;</code>
+         * <code>.dstore.elastic.Sort.Order sort_order = 2;</code>
          */
         int getSortOrderValue();
         /**
-         * <code>optional .dstore.elastic.Sort.Order sort_order = 2;</code>
+         * <code>.dstore.elastic.Sort.Order sort_order = 2;</code>
          */
         io.dstore.elastic.Sort.Order getSortOrder();
 
         /**
-         * <code>optional .dstore.elastic.Sort.Mode sort_mode = 3;</code>
+         * <code>.dstore.elastic.Sort.Mode sort_mode = 3;</code>
          */
         int getSortModeValue();
         /**
-         * <code>optional .dstore.elastic.Sort.Mode sort_mode = 3;</code>
+         * <code>.dstore.elastic.Sort.Mode sort_mode = 3;</code>
          */
         io.dstore.elastic.Sort.Mode getSortMode();
       }
@@ -1987,7 +1987,7 @@ public final class ItemGet {
         public static final int FIELD_NAME_FIELD_NUMBER = 1;
         private volatile java.lang.Object fieldName_;
         /**
-         * <code>optional string field_name = 1;</code>
+         * <code>string field_name = 1;</code>
          */
         public java.lang.String getFieldName() {
           java.lang.Object ref = fieldName_;
@@ -2002,7 +2002,7 @@ public final class ItemGet {
           }
         }
         /**
-         * <code>optional string field_name = 1;</code>
+         * <code>string field_name = 1;</code>
          */
         public com.google.protobuf.ByteString
             getFieldNameBytes() {
@@ -2021,13 +2021,13 @@ public final class ItemGet {
         public static final int SORT_ORDER_FIELD_NUMBER = 2;
         private int sortOrder_;
         /**
-         * <code>optional .dstore.elastic.Sort.Order sort_order = 2;</code>
+         * <code>.dstore.elastic.Sort.Order sort_order = 2;</code>
          */
         public int getSortOrderValue() {
           return sortOrder_;
         }
         /**
-         * <code>optional .dstore.elastic.Sort.Order sort_order = 2;</code>
+         * <code>.dstore.elastic.Sort.Order sort_order = 2;</code>
          */
         public io.dstore.elastic.Sort.Order getSortOrder() {
           io.dstore.elastic.Sort.Order result = io.dstore.elastic.Sort.Order.valueOf(sortOrder_);
@@ -2037,13 +2037,13 @@ public final class ItemGet {
         public static final int SORT_MODE_FIELD_NUMBER = 3;
         private int sortMode_;
         /**
-         * <code>optional .dstore.elastic.Sort.Mode sort_mode = 3;</code>
+         * <code>.dstore.elastic.Sort.Mode sort_mode = 3;</code>
          */
         public int getSortModeValue() {
           return sortMode_;
         }
         /**
-         * <code>optional .dstore.elastic.Sort.Mode sort_mode = 3;</code>
+         * <code>.dstore.elastic.Sort.Mode sort_mode = 3;</code>
          */
         public io.dstore.elastic.Sort.Mode getSortMode() {
           io.dstore.elastic.Sort.Mode result = io.dstore.elastic.Sort.Mode.valueOf(sortMode_);
@@ -2118,7 +2118,7 @@ public final class ItemGet {
             return memoizedHashCode;
           }
           int hash = 41;
-          hash = (19 * hash) + getDescriptorForType().hashCode();
+          hash = (19 * hash) + getDescriptor().hashCode();
           hash = (37 * hash) + FIELD_NAME_FIELD_NUMBER;
           hash = (53 * hash) + getFieldName().hashCode();
           hash = (37 * hash) + SORT_ORDER_FIELD_NUMBER;
@@ -2353,7 +2353,7 @@ public final class ItemGet {
 
           private java.lang.Object fieldName_ = "";
           /**
-           * <code>optional string field_name = 1;</code>
+           * <code>string field_name = 1;</code>
            */
           public java.lang.String getFieldName() {
             java.lang.Object ref = fieldName_;
@@ -2368,7 +2368,7 @@ public final class ItemGet {
             }
           }
           /**
-           * <code>optional string field_name = 1;</code>
+           * <code>string field_name = 1;</code>
            */
           public com.google.protobuf.ByteString
               getFieldNameBytes() {
@@ -2384,7 +2384,7 @@ public final class ItemGet {
             }
           }
           /**
-           * <code>optional string field_name = 1;</code>
+           * <code>string field_name = 1;</code>
            */
           public Builder setFieldName(
               java.lang.String value) {
@@ -2397,7 +2397,7 @@ public final class ItemGet {
             return this;
           }
           /**
-           * <code>optional string field_name = 1;</code>
+           * <code>string field_name = 1;</code>
            */
           public Builder clearFieldName() {
             
@@ -2406,7 +2406,7 @@ public final class ItemGet {
             return this;
           }
           /**
-           * <code>optional string field_name = 1;</code>
+           * <code>string field_name = 1;</code>
            */
           public Builder setFieldNameBytes(
               com.google.protobuf.ByteString value) {
@@ -2422,13 +2422,13 @@ public final class ItemGet {
 
           private int sortOrder_ = 0;
           /**
-           * <code>optional .dstore.elastic.Sort.Order sort_order = 2;</code>
+           * <code>.dstore.elastic.Sort.Order sort_order = 2;</code>
            */
           public int getSortOrderValue() {
             return sortOrder_;
           }
           /**
-           * <code>optional .dstore.elastic.Sort.Order sort_order = 2;</code>
+           * <code>.dstore.elastic.Sort.Order sort_order = 2;</code>
            */
           public Builder setSortOrderValue(int value) {
             sortOrder_ = value;
@@ -2436,14 +2436,14 @@ public final class ItemGet {
             return this;
           }
           /**
-           * <code>optional .dstore.elastic.Sort.Order sort_order = 2;</code>
+           * <code>.dstore.elastic.Sort.Order sort_order = 2;</code>
            */
           public io.dstore.elastic.Sort.Order getSortOrder() {
             io.dstore.elastic.Sort.Order result = io.dstore.elastic.Sort.Order.valueOf(sortOrder_);
             return result == null ? io.dstore.elastic.Sort.Order.UNRECOGNIZED : result;
           }
           /**
-           * <code>optional .dstore.elastic.Sort.Order sort_order = 2;</code>
+           * <code>.dstore.elastic.Sort.Order sort_order = 2;</code>
            */
           public Builder setSortOrder(io.dstore.elastic.Sort.Order value) {
             if (value == null) {
@@ -2455,7 +2455,7 @@ public final class ItemGet {
             return this;
           }
           /**
-           * <code>optional .dstore.elastic.Sort.Order sort_order = 2;</code>
+           * <code>.dstore.elastic.Sort.Order sort_order = 2;</code>
            */
           public Builder clearSortOrder() {
             
@@ -2466,13 +2466,13 @@ public final class ItemGet {
 
           private int sortMode_ = 0;
           /**
-           * <code>optional .dstore.elastic.Sort.Mode sort_mode = 3;</code>
+           * <code>.dstore.elastic.Sort.Mode sort_mode = 3;</code>
            */
           public int getSortModeValue() {
             return sortMode_;
           }
           /**
-           * <code>optional .dstore.elastic.Sort.Mode sort_mode = 3;</code>
+           * <code>.dstore.elastic.Sort.Mode sort_mode = 3;</code>
            */
           public Builder setSortModeValue(int value) {
             sortMode_ = value;
@@ -2480,14 +2480,14 @@ public final class ItemGet {
             return this;
           }
           /**
-           * <code>optional .dstore.elastic.Sort.Mode sort_mode = 3;</code>
+           * <code>.dstore.elastic.Sort.Mode sort_mode = 3;</code>
            */
           public io.dstore.elastic.Sort.Mode getSortMode() {
             io.dstore.elastic.Sort.Mode result = io.dstore.elastic.Sort.Mode.valueOf(sortMode_);
             return result == null ? io.dstore.elastic.Sort.Mode.UNRECOGNIZED : result;
           }
           /**
-           * <code>optional .dstore.elastic.Sort.Mode sort_mode = 3;</code>
+           * <code>.dstore.elastic.Sort.Mode sort_mode = 3;</code>
            */
           public Builder setSortMode(io.dstore.elastic.Sort.Mode value) {
             if (value == null) {
@@ -2499,7 +2499,7 @@ public final class ItemGet {
             return this;
           }
           /**
-           * <code>optional .dstore.elastic.Sort.Mode sort_mode = 3;</code>
+           * <code>.dstore.elastic.Sort.Mode sort_mode = 3;</code>
            */
           public Builder clearSortMode() {
             
@@ -2597,7 +2597,7 @@ public final class ItemGet {
       public static final int FIELD_NAME_FIELD_NUMBER = 1;
       private volatile java.lang.Object fieldName_;
       /**
-       * <code>optional string field_name = 1;</code>
+       * <code>string field_name = 1;</code>
        */
       public java.lang.String getFieldName() {
         java.lang.Object ref = fieldName_;
@@ -2612,7 +2612,7 @@ public final class ItemGet {
         }
       }
       /**
-       * <code>optional string field_name = 1;</code>
+       * <code>string field_name = 1;</code>
        */
       public com.google.protobuf.ByteString
           getFieldNameBytes() {
@@ -2630,7 +2630,7 @@ public final class ItemGet {
 
       public static final int SORT_NO_SORT_FIELD_NUMBER = 2;
       /**
-       * <code>optional .dstore.elastic.item.item_get.Request.Facet.SortNoSort sort_no_sort = 2;</code>
+       * <code>.dstore.elastic.item.item_get.Request.Facet.SortNoSort sort_no_sort = 2;</code>
        */
       public io.dstore.elastic.item.ItemGet.Request.Facet.SortNoSort getSortNoSort() {
         if (sortByCase_ == 2) {
@@ -2639,7 +2639,7 @@ public final class ItemGet {
         return io.dstore.elastic.item.ItemGet.Request.Facet.SortNoSort.getDefaultInstance();
       }
       /**
-       * <code>optional .dstore.elastic.item.item_get.Request.Facet.SortNoSort sort_no_sort = 2;</code>
+       * <code>.dstore.elastic.item.item_get.Request.Facet.SortNoSort sort_no_sort = 2;</code>
        */
       public io.dstore.elastic.item.ItemGet.Request.Facet.SortNoSortOrBuilder getSortNoSortOrBuilder() {
         if (sortByCase_ == 2) {
@@ -2650,7 +2650,7 @@ public final class ItemGet {
 
       public static final int FIELD_SORT_FIELD_NUMBER = 3;
       /**
-       * <code>optional .dstore.elastic.item.item_get.Request.Facet.FieldSort field_sort = 3;</code>
+       * <code>.dstore.elastic.item.item_get.Request.Facet.FieldSort field_sort = 3;</code>
        */
       public io.dstore.elastic.item.ItemGet.Request.Facet.FieldSort getFieldSort() {
         if (sortByCase_ == 3) {
@@ -2659,7 +2659,7 @@ public final class ItemGet {
         return io.dstore.elastic.item.ItemGet.Request.Facet.FieldSort.getDefaultInstance();
       }
       /**
-       * <code>optional .dstore.elastic.item.item_get.Request.Facet.FieldSort field_sort = 3;</code>
+       * <code>.dstore.elastic.item.item_get.Request.Facet.FieldSort field_sort = 3;</code>
        */
       public io.dstore.elastic.item.ItemGet.Request.Facet.FieldSortOrBuilder getFieldSortOrBuilder() {
         if (sortByCase_ == 3) {
@@ -2749,7 +2749,7 @@ public final class ItemGet {
           return memoizedHashCode;
         }
         int hash = 41;
-        hash = (19 * hash) + getDescriptorForType().hashCode();
+        hash = (19 * hash) + getDescriptor().hashCode();
         hash = (37 * hash) + FIELD_NAME_FIELD_NUMBER;
         hash = (53 * hash) + getFieldName().hashCode();
         switch (sortByCase_) {
@@ -3025,7 +3025,7 @@ public final class ItemGet {
 
         private java.lang.Object fieldName_ = "";
         /**
-         * <code>optional string field_name = 1;</code>
+         * <code>string field_name = 1;</code>
          */
         public java.lang.String getFieldName() {
           java.lang.Object ref = fieldName_;
@@ -3040,7 +3040,7 @@ public final class ItemGet {
           }
         }
         /**
-         * <code>optional string field_name = 1;</code>
+         * <code>string field_name = 1;</code>
          */
         public com.google.protobuf.ByteString
             getFieldNameBytes() {
@@ -3056,7 +3056,7 @@ public final class ItemGet {
           }
         }
         /**
-         * <code>optional string field_name = 1;</code>
+         * <code>string field_name = 1;</code>
          */
         public Builder setFieldName(
             java.lang.String value) {
@@ -3069,7 +3069,7 @@ public final class ItemGet {
           return this;
         }
         /**
-         * <code>optional string field_name = 1;</code>
+         * <code>string field_name = 1;</code>
          */
         public Builder clearFieldName() {
           
@@ -3078,7 +3078,7 @@ public final class ItemGet {
           return this;
         }
         /**
-         * <code>optional string field_name = 1;</code>
+         * <code>string field_name = 1;</code>
          */
         public Builder setFieldNameBytes(
             com.google.protobuf.ByteString value) {
@@ -3095,7 +3095,7 @@ public final class ItemGet {
         private com.google.protobuf.SingleFieldBuilderV3<
             io.dstore.elastic.item.ItemGet.Request.Facet.SortNoSort, io.dstore.elastic.item.ItemGet.Request.Facet.SortNoSort.Builder, io.dstore.elastic.item.ItemGet.Request.Facet.SortNoSortOrBuilder> sortNoSortBuilder_;
         /**
-         * <code>optional .dstore.elastic.item.item_get.Request.Facet.SortNoSort sort_no_sort = 2;</code>
+         * <code>.dstore.elastic.item.item_get.Request.Facet.SortNoSort sort_no_sort = 2;</code>
          */
         public io.dstore.elastic.item.ItemGet.Request.Facet.SortNoSort getSortNoSort() {
           if (sortNoSortBuilder_ == null) {
@@ -3111,7 +3111,7 @@ public final class ItemGet {
           }
         }
         /**
-         * <code>optional .dstore.elastic.item.item_get.Request.Facet.SortNoSort sort_no_sort = 2;</code>
+         * <code>.dstore.elastic.item.item_get.Request.Facet.SortNoSort sort_no_sort = 2;</code>
          */
         public Builder setSortNoSort(io.dstore.elastic.item.ItemGet.Request.Facet.SortNoSort value) {
           if (sortNoSortBuilder_ == null) {
@@ -3127,7 +3127,7 @@ public final class ItemGet {
           return this;
         }
         /**
-         * <code>optional .dstore.elastic.item.item_get.Request.Facet.SortNoSort sort_no_sort = 2;</code>
+         * <code>.dstore.elastic.item.item_get.Request.Facet.SortNoSort sort_no_sort = 2;</code>
          */
         public Builder setSortNoSort(
             io.dstore.elastic.item.ItemGet.Request.Facet.SortNoSort.Builder builderForValue) {
@@ -3141,7 +3141,7 @@ public final class ItemGet {
           return this;
         }
         /**
-         * <code>optional .dstore.elastic.item.item_get.Request.Facet.SortNoSort sort_no_sort = 2;</code>
+         * <code>.dstore.elastic.item.item_get.Request.Facet.SortNoSort sort_no_sort = 2;</code>
          */
         public Builder mergeSortNoSort(io.dstore.elastic.item.ItemGet.Request.Facet.SortNoSort value) {
           if (sortNoSortBuilder_ == null) {
@@ -3163,7 +3163,7 @@ public final class ItemGet {
           return this;
         }
         /**
-         * <code>optional .dstore.elastic.item.item_get.Request.Facet.SortNoSort sort_no_sort = 2;</code>
+         * <code>.dstore.elastic.item.item_get.Request.Facet.SortNoSort sort_no_sort = 2;</code>
          */
         public Builder clearSortNoSort() {
           if (sortNoSortBuilder_ == null) {
@@ -3182,13 +3182,13 @@ public final class ItemGet {
           return this;
         }
         /**
-         * <code>optional .dstore.elastic.item.item_get.Request.Facet.SortNoSort sort_no_sort = 2;</code>
+         * <code>.dstore.elastic.item.item_get.Request.Facet.SortNoSort sort_no_sort = 2;</code>
          */
         public io.dstore.elastic.item.ItemGet.Request.Facet.SortNoSort.Builder getSortNoSortBuilder() {
           return getSortNoSortFieldBuilder().getBuilder();
         }
         /**
-         * <code>optional .dstore.elastic.item.item_get.Request.Facet.SortNoSort sort_no_sort = 2;</code>
+         * <code>.dstore.elastic.item.item_get.Request.Facet.SortNoSort sort_no_sort = 2;</code>
          */
         public io.dstore.elastic.item.ItemGet.Request.Facet.SortNoSortOrBuilder getSortNoSortOrBuilder() {
           if ((sortByCase_ == 2) && (sortNoSortBuilder_ != null)) {
@@ -3201,7 +3201,7 @@ public final class ItemGet {
           }
         }
         /**
-         * <code>optional .dstore.elastic.item.item_get.Request.Facet.SortNoSort sort_no_sort = 2;</code>
+         * <code>.dstore.elastic.item.item_get.Request.Facet.SortNoSort sort_no_sort = 2;</code>
          */
         private com.google.protobuf.SingleFieldBuilderV3<
             io.dstore.elastic.item.ItemGet.Request.Facet.SortNoSort, io.dstore.elastic.item.ItemGet.Request.Facet.SortNoSort.Builder, io.dstore.elastic.item.ItemGet.Request.Facet.SortNoSortOrBuilder> 
@@ -3225,7 +3225,7 @@ public final class ItemGet {
         private com.google.protobuf.SingleFieldBuilderV3<
             io.dstore.elastic.item.ItemGet.Request.Facet.FieldSort, io.dstore.elastic.item.ItemGet.Request.Facet.FieldSort.Builder, io.dstore.elastic.item.ItemGet.Request.Facet.FieldSortOrBuilder> fieldSortBuilder_;
         /**
-         * <code>optional .dstore.elastic.item.item_get.Request.Facet.FieldSort field_sort = 3;</code>
+         * <code>.dstore.elastic.item.item_get.Request.Facet.FieldSort field_sort = 3;</code>
          */
         public io.dstore.elastic.item.ItemGet.Request.Facet.FieldSort getFieldSort() {
           if (fieldSortBuilder_ == null) {
@@ -3241,7 +3241,7 @@ public final class ItemGet {
           }
         }
         /**
-         * <code>optional .dstore.elastic.item.item_get.Request.Facet.FieldSort field_sort = 3;</code>
+         * <code>.dstore.elastic.item.item_get.Request.Facet.FieldSort field_sort = 3;</code>
          */
         public Builder setFieldSort(io.dstore.elastic.item.ItemGet.Request.Facet.FieldSort value) {
           if (fieldSortBuilder_ == null) {
@@ -3257,7 +3257,7 @@ public final class ItemGet {
           return this;
         }
         /**
-         * <code>optional .dstore.elastic.item.item_get.Request.Facet.FieldSort field_sort = 3;</code>
+         * <code>.dstore.elastic.item.item_get.Request.Facet.FieldSort field_sort = 3;</code>
          */
         public Builder setFieldSort(
             io.dstore.elastic.item.ItemGet.Request.Facet.FieldSort.Builder builderForValue) {
@@ -3271,7 +3271,7 @@ public final class ItemGet {
           return this;
         }
         /**
-         * <code>optional .dstore.elastic.item.item_get.Request.Facet.FieldSort field_sort = 3;</code>
+         * <code>.dstore.elastic.item.item_get.Request.Facet.FieldSort field_sort = 3;</code>
          */
         public Builder mergeFieldSort(io.dstore.elastic.item.ItemGet.Request.Facet.FieldSort value) {
           if (fieldSortBuilder_ == null) {
@@ -3293,7 +3293,7 @@ public final class ItemGet {
           return this;
         }
         /**
-         * <code>optional .dstore.elastic.item.item_get.Request.Facet.FieldSort field_sort = 3;</code>
+         * <code>.dstore.elastic.item.item_get.Request.Facet.FieldSort field_sort = 3;</code>
          */
         public Builder clearFieldSort() {
           if (fieldSortBuilder_ == null) {
@@ -3312,13 +3312,13 @@ public final class ItemGet {
           return this;
         }
         /**
-         * <code>optional .dstore.elastic.item.item_get.Request.Facet.FieldSort field_sort = 3;</code>
+         * <code>.dstore.elastic.item.item_get.Request.Facet.FieldSort field_sort = 3;</code>
          */
         public io.dstore.elastic.item.ItemGet.Request.Facet.FieldSort.Builder getFieldSortBuilder() {
           return getFieldSortFieldBuilder().getBuilder();
         }
         /**
-         * <code>optional .dstore.elastic.item.item_get.Request.Facet.FieldSort field_sort = 3;</code>
+         * <code>.dstore.elastic.item.item_get.Request.Facet.FieldSort field_sort = 3;</code>
          */
         public io.dstore.elastic.item.ItemGet.Request.Facet.FieldSortOrBuilder getFieldSortOrBuilder() {
           if ((sortByCase_ == 3) && (fieldSortBuilder_ != null)) {
@@ -3331,7 +3331,7 @@ public final class ItemGet {
           }
         }
         /**
-         * <code>optional .dstore.elastic.item.item_get.Request.Facet.FieldSort field_sort = 3;</code>
+         * <code>.dstore.elastic.item.item_get.Request.Facet.FieldSort field_sort = 3;</code>
          */
         private com.google.protobuf.SingleFieldBuilderV3<
             io.dstore.elastic.item.ItemGet.Request.Facet.FieldSort, io.dstore.elastic.item.ItemGet.Request.Facet.FieldSort.Builder, io.dstore.elastic.item.ItemGet.Request.Facet.FieldSortOrBuilder> 
@@ -3408,7 +3408,7 @@ public final class ItemGet {
      * Danach wird das Suchergebnis und alle Aggregationen gefiltert
      * </pre>
      *
-     * <code>optional .dstore.elastic.BoolQuery base_query = 1;</code>
+     * <code>.dstore.elastic.BoolQuery base_query = 1;</code>
      */
     public boolean hasBaseQuery() {
       return baseQuery_ != null;
@@ -3418,7 +3418,7 @@ public final class ItemGet {
      * Danach wird das Suchergebnis und alle Aggregationen gefiltert
      * </pre>
      *
-     * <code>optional .dstore.elastic.BoolQuery base_query = 1;</code>
+     * <code>.dstore.elastic.BoolQuery base_query = 1;</code>
      */
     public io.dstore.elastic.BoolQuery getBaseQuery() {
       return baseQuery_ == null ? io.dstore.elastic.BoolQuery.getDefaultInstance() : baseQuery_;
@@ -3428,7 +3428,7 @@ public final class ItemGet {
      * Danach wird das Suchergebnis und alle Aggregationen gefiltert
      * </pre>
      *
-     * <code>optional .dstore.elastic.BoolQuery base_query = 1;</code>
+     * <code>.dstore.elastic.BoolQuery base_query = 1;</code>
      */
     public io.dstore.elastic.BoolQueryOrBuilder getBaseQueryOrBuilder() {
       return getBaseQuery();
@@ -3441,7 +3441,7 @@ public final class ItemGet {
      * Danach wird das Suchergebnis nachträglich gefiltert und es wird jeweils eine zusätzliche FilteredAggregation geliefert
      * </pre>
      *
-     * <code>optional .dstore.elastic.BoolQuery post_query = 2;</code>
+     * <code>.dstore.elastic.BoolQuery post_query = 2;</code>
      */
     public boolean hasPostQuery() {
       return postQuery_ != null;
@@ -3451,7 +3451,7 @@ public final class ItemGet {
      * Danach wird das Suchergebnis nachträglich gefiltert und es wird jeweils eine zusätzliche FilteredAggregation geliefert
      * </pre>
      *
-     * <code>optional .dstore.elastic.BoolQuery post_query = 2;</code>
+     * <code>.dstore.elastic.BoolQuery post_query = 2;</code>
      */
     public io.dstore.elastic.BoolQuery getPostQuery() {
       return postQuery_ == null ? io.dstore.elastic.BoolQuery.getDefaultInstance() : postQuery_;
@@ -3461,7 +3461,7 @@ public final class ItemGet {
      * Danach wird das Suchergebnis nachträglich gefiltert und es wird jeweils eine zusätzliche FilteredAggregation geliefert
      * </pre>
      *
-     * <code>optional .dstore.elastic.BoolQuery post_query = 2;</code>
+     * <code>.dstore.elastic.BoolQuery post_query = 2;</code>
      */
     public io.dstore.elastic.BoolQueryOrBuilder getPostQueryOrBuilder() {
       return getPostQuery();
@@ -3575,7 +3575,7 @@ public final class ItemGet {
     public static final int ONLY_MATCHING_VARIANTS_FIELD_NUMBER = 7;
     private boolean onlyMatchingVariants_;
     /**
-     * <code>optional bool only_matching_variants = 7;</code>
+     * <code>bool only_matching_variants = 7;</code>
      */
     public boolean getOnlyMatchingVariants() {
       return onlyMatchingVariants_;
@@ -3588,7 +3588,7 @@ public final class ItemGet {
      * Paginierung GET /_search?size=5&amp;from=5
      * </pre>
      *
-     * <code>optional int32 from = 10;</code>
+     * <code>int32 from = 10;</code>
      */
     public int getFrom() {
       return from_;
@@ -3597,7 +3597,7 @@ public final class ItemGet {
     public static final int SIZE_FIELD_NUMBER = 11;
     private int size_;
     /**
-     * <code>optional int32 size = 11;</code>
+     * <code>int32 size = 11;</code>
      */
     public int getSize() {
       return size_;
@@ -3853,7 +3853,7 @@ public final class ItemGet {
         return memoizedHashCode;
       }
       int hash = 41;
-      hash = (19 * hash) + getDescriptorForType().hashCode();
+      hash = (19 * hash) + getDescriptor().hashCode();
       if (hasBaseQuery()) {
         hash = (37 * hash) + BASE_QUERY_FIELD_NUMBER;
         hash = (53 * hash) + getBaseQuery().hashCode();
@@ -4360,7 +4360,7 @@ public final class ItemGet {
        * Danach wird das Suchergebnis und alle Aggregationen gefiltert
        * </pre>
        *
-       * <code>optional .dstore.elastic.BoolQuery base_query = 1;</code>
+       * <code>.dstore.elastic.BoolQuery base_query = 1;</code>
        */
       public boolean hasBaseQuery() {
         return baseQueryBuilder_ != null || baseQuery_ != null;
@@ -4370,7 +4370,7 @@ public final class ItemGet {
        * Danach wird das Suchergebnis und alle Aggregationen gefiltert
        * </pre>
        *
-       * <code>optional .dstore.elastic.BoolQuery base_query = 1;</code>
+       * <code>.dstore.elastic.BoolQuery base_query = 1;</code>
        */
       public io.dstore.elastic.BoolQuery getBaseQuery() {
         if (baseQueryBuilder_ == null) {
@@ -4384,7 +4384,7 @@ public final class ItemGet {
        * Danach wird das Suchergebnis und alle Aggregationen gefiltert
        * </pre>
        *
-       * <code>optional .dstore.elastic.BoolQuery base_query = 1;</code>
+       * <code>.dstore.elastic.BoolQuery base_query = 1;</code>
        */
       public Builder setBaseQuery(io.dstore.elastic.BoolQuery value) {
         if (baseQueryBuilder_ == null) {
@@ -4404,7 +4404,7 @@ public final class ItemGet {
        * Danach wird das Suchergebnis und alle Aggregationen gefiltert
        * </pre>
        *
-       * <code>optional .dstore.elastic.BoolQuery base_query = 1;</code>
+       * <code>.dstore.elastic.BoolQuery base_query = 1;</code>
        */
       public Builder setBaseQuery(
           io.dstore.elastic.BoolQuery.Builder builderForValue) {
@@ -4422,7 +4422,7 @@ public final class ItemGet {
        * Danach wird das Suchergebnis und alle Aggregationen gefiltert
        * </pre>
        *
-       * <code>optional .dstore.elastic.BoolQuery base_query = 1;</code>
+       * <code>.dstore.elastic.BoolQuery base_query = 1;</code>
        */
       public Builder mergeBaseQuery(io.dstore.elastic.BoolQuery value) {
         if (baseQueryBuilder_ == null) {
@@ -4444,7 +4444,7 @@ public final class ItemGet {
        * Danach wird das Suchergebnis und alle Aggregationen gefiltert
        * </pre>
        *
-       * <code>optional .dstore.elastic.BoolQuery base_query = 1;</code>
+       * <code>.dstore.elastic.BoolQuery base_query = 1;</code>
        */
       public Builder clearBaseQuery() {
         if (baseQueryBuilder_ == null) {
@@ -4462,7 +4462,7 @@ public final class ItemGet {
        * Danach wird das Suchergebnis und alle Aggregationen gefiltert
        * </pre>
        *
-       * <code>optional .dstore.elastic.BoolQuery base_query = 1;</code>
+       * <code>.dstore.elastic.BoolQuery base_query = 1;</code>
        */
       public io.dstore.elastic.BoolQuery.Builder getBaseQueryBuilder() {
         
@@ -4474,7 +4474,7 @@ public final class ItemGet {
        * Danach wird das Suchergebnis und alle Aggregationen gefiltert
        * </pre>
        *
-       * <code>optional .dstore.elastic.BoolQuery base_query = 1;</code>
+       * <code>.dstore.elastic.BoolQuery base_query = 1;</code>
        */
       public io.dstore.elastic.BoolQueryOrBuilder getBaseQueryOrBuilder() {
         if (baseQueryBuilder_ != null) {
@@ -4489,7 +4489,7 @@ public final class ItemGet {
        * Danach wird das Suchergebnis und alle Aggregationen gefiltert
        * </pre>
        *
-       * <code>optional .dstore.elastic.BoolQuery base_query = 1;</code>
+       * <code>.dstore.elastic.BoolQuery base_query = 1;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.elastic.BoolQuery, io.dstore.elastic.BoolQuery.Builder, io.dstore.elastic.BoolQueryOrBuilder> 
@@ -4513,7 +4513,7 @@ public final class ItemGet {
        * Danach wird das Suchergebnis nachträglich gefiltert und es wird jeweils eine zusätzliche FilteredAggregation geliefert
        * </pre>
        *
-       * <code>optional .dstore.elastic.BoolQuery post_query = 2;</code>
+       * <code>.dstore.elastic.BoolQuery post_query = 2;</code>
        */
       public boolean hasPostQuery() {
         return postQueryBuilder_ != null || postQuery_ != null;
@@ -4523,7 +4523,7 @@ public final class ItemGet {
        * Danach wird das Suchergebnis nachträglich gefiltert und es wird jeweils eine zusätzliche FilteredAggregation geliefert
        * </pre>
        *
-       * <code>optional .dstore.elastic.BoolQuery post_query = 2;</code>
+       * <code>.dstore.elastic.BoolQuery post_query = 2;</code>
        */
       public io.dstore.elastic.BoolQuery getPostQuery() {
         if (postQueryBuilder_ == null) {
@@ -4537,7 +4537,7 @@ public final class ItemGet {
        * Danach wird das Suchergebnis nachträglich gefiltert und es wird jeweils eine zusätzliche FilteredAggregation geliefert
        * </pre>
        *
-       * <code>optional .dstore.elastic.BoolQuery post_query = 2;</code>
+       * <code>.dstore.elastic.BoolQuery post_query = 2;</code>
        */
       public Builder setPostQuery(io.dstore.elastic.BoolQuery value) {
         if (postQueryBuilder_ == null) {
@@ -4557,7 +4557,7 @@ public final class ItemGet {
        * Danach wird das Suchergebnis nachträglich gefiltert und es wird jeweils eine zusätzliche FilteredAggregation geliefert
        * </pre>
        *
-       * <code>optional .dstore.elastic.BoolQuery post_query = 2;</code>
+       * <code>.dstore.elastic.BoolQuery post_query = 2;</code>
        */
       public Builder setPostQuery(
           io.dstore.elastic.BoolQuery.Builder builderForValue) {
@@ -4575,7 +4575,7 @@ public final class ItemGet {
        * Danach wird das Suchergebnis nachträglich gefiltert und es wird jeweils eine zusätzliche FilteredAggregation geliefert
        * </pre>
        *
-       * <code>optional .dstore.elastic.BoolQuery post_query = 2;</code>
+       * <code>.dstore.elastic.BoolQuery post_query = 2;</code>
        */
       public Builder mergePostQuery(io.dstore.elastic.BoolQuery value) {
         if (postQueryBuilder_ == null) {
@@ -4597,7 +4597,7 @@ public final class ItemGet {
        * Danach wird das Suchergebnis nachträglich gefiltert und es wird jeweils eine zusätzliche FilteredAggregation geliefert
        * </pre>
        *
-       * <code>optional .dstore.elastic.BoolQuery post_query = 2;</code>
+       * <code>.dstore.elastic.BoolQuery post_query = 2;</code>
        */
       public Builder clearPostQuery() {
         if (postQueryBuilder_ == null) {
@@ -4615,7 +4615,7 @@ public final class ItemGet {
        * Danach wird das Suchergebnis nachträglich gefiltert und es wird jeweils eine zusätzliche FilteredAggregation geliefert
        * </pre>
        *
-       * <code>optional .dstore.elastic.BoolQuery post_query = 2;</code>
+       * <code>.dstore.elastic.BoolQuery post_query = 2;</code>
        */
       public io.dstore.elastic.BoolQuery.Builder getPostQueryBuilder() {
         
@@ -4627,7 +4627,7 @@ public final class ItemGet {
        * Danach wird das Suchergebnis nachträglich gefiltert und es wird jeweils eine zusätzliche FilteredAggregation geliefert
        * </pre>
        *
-       * <code>optional .dstore.elastic.BoolQuery post_query = 2;</code>
+       * <code>.dstore.elastic.BoolQuery post_query = 2;</code>
        */
       public io.dstore.elastic.BoolQueryOrBuilder getPostQueryOrBuilder() {
         if (postQueryBuilder_ != null) {
@@ -4642,7 +4642,7 @@ public final class ItemGet {
        * Danach wird das Suchergebnis nachträglich gefiltert und es wird jeweils eine zusätzliche FilteredAggregation geliefert
        * </pre>
        *
-       * <code>optional .dstore.elastic.BoolQuery post_query = 2;</code>
+       * <code>.dstore.elastic.BoolQuery post_query = 2;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.elastic.BoolQuery, io.dstore.elastic.BoolQuery.Builder, io.dstore.elastic.BoolQueryOrBuilder> 
@@ -5380,13 +5380,13 @@ public final class ItemGet {
 
       private boolean onlyMatchingVariants_ ;
       /**
-       * <code>optional bool only_matching_variants = 7;</code>
+       * <code>bool only_matching_variants = 7;</code>
        */
       public boolean getOnlyMatchingVariants() {
         return onlyMatchingVariants_;
       }
       /**
-       * <code>optional bool only_matching_variants = 7;</code>
+       * <code>bool only_matching_variants = 7;</code>
        */
       public Builder setOnlyMatchingVariants(boolean value) {
         
@@ -5395,7 +5395,7 @@ public final class ItemGet {
         return this;
       }
       /**
-       * <code>optional bool only_matching_variants = 7;</code>
+       * <code>bool only_matching_variants = 7;</code>
        */
       public Builder clearOnlyMatchingVariants() {
         
@@ -5410,7 +5410,7 @@ public final class ItemGet {
        * Paginierung GET /_search?size=5&amp;from=5
        * </pre>
        *
-       * <code>optional int32 from = 10;</code>
+       * <code>int32 from = 10;</code>
        */
       public int getFrom() {
         return from_;
@@ -5420,7 +5420,7 @@ public final class ItemGet {
        * Paginierung GET /_search?size=5&amp;from=5
        * </pre>
        *
-       * <code>optional int32 from = 10;</code>
+       * <code>int32 from = 10;</code>
        */
       public Builder setFrom(int value) {
         
@@ -5433,7 +5433,7 @@ public final class ItemGet {
        * Paginierung GET /_search?size=5&amp;from=5
        * </pre>
        *
-       * <code>optional int32 from = 10;</code>
+       * <code>int32 from = 10;</code>
        */
       public Builder clearFrom() {
         
@@ -5444,13 +5444,13 @@ public final class ItemGet {
 
       private int size_ ;
       /**
-       * <code>optional int32 size = 11;</code>
+       * <code>int32 size = 11;</code>
        */
       public int getSize() {
         return size_;
       }
       /**
-       * <code>optional int32 size = 11;</code>
+       * <code>int32 size = 11;</code>
        */
       public Builder setSize(int value) {
         
@@ -5459,7 +5459,7 @@ public final class ItemGet {
         return this;
       }
       /**
-       * <code>optional int32 size = 11;</code>
+       * <code>int32 size = 11;</code>
        */
       public Builder clearSize() {
         
@@ -5949,7 +5949,7 @@ public final class ItemGet {
       com.google.protobuf.MessageOrBuilder {
 
     /**
-     * <code>optional int32 total_hits = 2;</code>
+     * <code>int32 total_hits = 2;</code>
      */
     int getTotalHits();
 
@@ -6002,11 +6002,11 @@ public final class ItemGet {
         int index);
 
     /**
-     * <code>optional string elastic_query_string = 5;</code>
+     * <code>string elastic_query_string = 5;</code>
      */
     java.lang.String getElasticQueryString();
     /**
-     * <code>optional string elastic_query_string = 5;</code>
+     * <code>string elastic_query_string = 5;</code>
      */
     com.google.protobuf.ByteString
         getElasticQueryStringBytes();
@@ -6117,11 +6117,11 @@ public final class ItemGet {
         com.google.protobuf.MessageOrBuilder {
 
       /**
-       * <code>optional string field_name = 1;</code>
+       * <code>string field_name = 1;</code>
        */
       java.lang.String getFieldName();
       /**
-       * <code>optional string field_name = 1;</code>
+       * <code>string field_name = 1;</code>
        */
       com.google.protobuf.ByteString
           getFieldNameBytes();
@@ -6155,7 +6155,7 @@ public final class ItemGet {
        * Only filled when using a range-facet
        * </pre>
        *
-       * <code>optional double range_from = 10;</code>
+       * <code>double range_from = 10;</code>
        */
       double getRangeFrom();
 
@@ -6164,7 +6164,7 @@ public final class ItemGet {
        * Only filled when using a range-facet
        * </pre>
        *
-       * <code>optional double range_to = 11;</code>
+       * <code>double range_to = 11;</code>
        */
       double getRangeTo();
     }
@@ -6267,25 +6267,25 @@ public final class ItemGet {
           com.google.protobuf.MessageOrBuilder {
 
         /**
-         * <code>optional .dstore.values.Value value = 1;</code>
+         * <code>.dstore.values.Value value = 1;</code>
          */
         boolean hasValue();
         /**
-         * <code>optional .dstore.values.Value value = 1;</code>
+         * <code>.dstore.values.Value value = 1;</code>
          */
         io.dstore.values.Value getValue();
         /**
-         * <code>optional .dstore.values.Value value = 1;</code>
+         * <code>.dstore.values.Value value = 1;</code>
          */
         io.dstore.values.ValueOrBuilder getValueOrBuilder();
 
         /**
-         * <code>optional int32 total_item_count = 2;</code>
+         * <code>int32 total_item_count = 2;</code>
          */
         int getTotalItemCount();
 
         /**
-         * <code>optional int32 matching_item_count = 3;</code>
+         * <code>int32 matching_item_count = 3;</code>
          */
         int getMatchingItemCount();
 
@@ -6294,7 +6294,7 @@ public final class ItemGet {
          * Only filled when using a term-facet
          * </pre>
          *
-         * <code>optional bool active = 4;</code>
+         * <code>bool active = 4;</code>
          */
         boolean getActive();
 
@@ -6303,7 +6303,7 @@ public final class ItemGet {
          * Only filled when using a range-facet
          * </pre>
          *
-         * <code>optional double min_value = 5;</code>
+         * <code>double min_value = 5;</code>
          */
         double getMinValue();
 
@@ -6312,7 +6312,7 @@ public final class ItemGet {
          * Only filled when using a range-facet
          * </pre>
          *
-         * <code>optional double max_value = 6;</code>
+         * <code>double max_value = 6;</code>
          */
         double getMaxValue();
       }
@@ -6424,19 +6424,19 @@ public final class ItemGet {
         public static final int VALUE_FIELD_NUMBER = 1;
         private io.dstore.values.Value value_;
         /**
-         * <code>optional .dstore.values.Value value = 1;</code>
+         * <code>.dstore.values.Value value = 1;</code>
          */
         public boolean hasValue() {
           return value_ != null;
         }
         /**
-         * <code>optional .dstore.values.Value value = 1;</code>
+         * <code>.dstore.values.Value value = 1;</code>
          */
         public io.dstore.values.Value getValue() {
           return value_ == null ? io.dstore.values.Value.getDefaultInstance() : value_;
         }
         /**
-         * <code>optional .dstore.values.Value value = 1;</code>
+         * <code>.dstore.values.Value value = 1;</code>
          */
         public io.dstore.values.ValueOrBuilder getValueOrBuilder() {
           return getValue();
@@ -6445,7 +6445,7 @@ public final class ItemGet {
         public static final int TOTAL_ITEM_COUNT_FIELD_NUMBER = 2;
         private int totalItemCount_;
         /**
-         * <code>optional int32 total_item_count = 2;</code>
+         * <code>int32 total_item_count = 2;</code>
          */
         public int getTotalItemCount() {
           return totalItemCount_;
@@ -6454,7 +6454,7 @@ public final class ItemGet {
         public static final int MATCHING_ITEM_COUNT_FIELD_NUMBER = 3;
         private int matchingItemCount_;
         /**
-         * <code>optional int32 matching_item_count = 3;</code>
+         * <code>int32 matching_item_count = 3;</code>
          */
         public int getMatchingItemCount() {
           return matchingItemCount_;
@@ -6467,7 +6467,7 @@ public final class ItemGet {
          * Only filled when using a term-facet
          * </pre>
          *
-         * <code>optional bool active = 4;</code>
+         * <code>bool active = 4;</code>
          */
         public boolean getActive() {
           return active_;
@@ -6480,7 +6480,7 @@ public final class ItemGet {
          * Only filled when using a range-facet
          * </pre>
          *
-         * <code>optional double min_value = 5;</code>
+         * <code>double min_value = 5;</code>
          */
         public double getMinValue() {
           return minValue_;
@@ -6493,7 +6493,7 @@ public final class ItemGet {
          * Only filled when using a range-facet
          * </pre>
          *
-         * <code>optional double max_value = 6;</code>
+         * <code>double max_value = 6;</code>
          */
         public double getMaxValue() {
           return maxValue_;
@@ -6604,7 +6604,7 @@ public final class ItemGet {
             return memoizedHashCode;
           }
           int hash = 41;
-          hash = (19 * hash) + getDescriptorForType().hashCode();
+          hash = (19 * hash) + getDescriptor().hashCode();
           if (hasValue()) {
             hash = (37 * hash) + VALUE_FIELD_NUMBER;
             hash = (53 * hash) + getValue().hashCode();
@@ -6877,13 +6877,13 @@ public final class ItemGet {
           private com.google.protobuf.SingleFieldBuilderV3<
               io.dstore.values.Value, io.dstore.values.Value.Builder, io.dstore.values.ValueOrBuilder> valueBuilder_;
           /**
-           * <code>optional .dstore.values.Value value = 1;</code>
+           * <code>.dstore.values.Value value = 1;</code>
            */
           public boolean hasValue() {
             return valueBuilder_ != null || value_ != null;
           }
           /**
-           * <code>optional .dstore.values.Value value = 1;</code>
+           * <code>.dstore.values.Value value = 1;</code>
            */
           public io.dstore.values.Value getValue() {
             if (valueBuilder_ == null) {
@@ -6893,7 +6893,7 @@ public final class ItemGet {
             }
           }
           /**
-           * <code>optional .dstore.values.Value value = 1;</code>
+           * <code>.dstore.values.Value value = 1;</code>
            */
           public Builder setValue(io.dstore.values.Value value) {
             if (valueBuilder_ == null) {
@@ -6909,7 +6909,7 @@ public final class ItemGet {
             return this;
           }
           /**
-           * <code>optional .dstore.values.Value value = 1;</code>
+           * <code>.dstore.values.Value value = 1;</code>
            */
           public Builder setValue(
               io.dstore.values.Value.Builder builderForValue) {
@@ -6923,7 +6923,7 @@ public final class ItemGet {
             return this;
           }
           /**
-           * <code>optional .dstore.values.Value value = 1;</code>
+           * <code>.dstore.values.Value value = 1;</code>
            */
           public Builder mergeValue(io.dstore.values.Value value) {
             if (valueBuilder_ == null) {
@@ -6941,7 +6941,7 @@ public final class ItemGet {
             return this;
           }
           /**
-           * <code>optional .dstore.values.Value value = 1;</code>
+           * <code>.dstore.values.Value value = 1;</code>
            */
           public Builder clearValue() {
             if (valueBuilder_ == null) {
@@ -6955,7 +6955,7 @@ public final class ItemGet {
             return this;
           }
           /**
-           * <code>optional .dstore.values.Value value = 1;</code>
+           * <code>.dstore.values.Value value = 1;</code>
            */
           public io.dstore.values.Value.Builder getValueBuilder() {
             
@@ -6963,7 +6963,7 @@ public final class ItemGet {
             return getValueFieldBuilder().getBuilder();
           }
           /**
-           * <code>optional .dstore.values.Value value = 1;</code>
+           * <code>.dstore.values.Value value = 1;</code>
            */
           public io.dstore.values.ValueOrBuilder getValueOrBuilder() {
             if (valueBuilder_ != null) {
@@ -6974,7 +6974,7 @@ public final class ItemGet {
             }
           }
           /**
-           * <code>optional .dstore.values.Value value = 1;</code>
+           * <code>.dstore.values.Value value = 1;</code>
            */
           private com.google.protobuf.SingleFieldBuilderV3<
               io.dstore.values.Value, io.dstore.values.Value.Builder, io.dstore.values.ValueOrBuilder> 
@@ -6992,13 +6992,13 @@ public final class ItemGet {
 
           private int totalItemCount_ ;
           /**
-           * <code>optional int32 total_item_count = 2;</code>
+           * <code>int32 total_item_count = 2;</code>
            */
           public int getTotalItemCount() {
             return totalItemCount_;
           }
           /**
-           * <code>optional int32 total_item_count = 2;</code>
+           * <code>int32 total_item_count = 2;</code>
            */
           public Builder setTotalItemCount(int value) {
             
@@ -7007,7 +7007,7 @@ public final class ItemGet {
             return this;
           }
           /**
-           * <code>optional int32 total_item_count = 2;</code>
+           * <code>int32 total_item_count = 2;</code>
            */
           public Builder clearTotalItemCount() {
             
@@ -7018,13 +7018,13 @@ public final class ItemGet {
 
           private int matchingItemCount_ ;
           /**
-           * <code>optional int32 matching_item_count = 3;</code>
+           * <code>int32 matching_item_count = 3;</code>
            */
           public int getMatchingItemCount() {
             return matchingItemCount_;
           }
           /**
-           * <code>optional int32 matching_item_count = 3;</code>
+           * <code>int32 matching_item_count = 3;</code>
            */
           public Builder setMatchingItemCount(int value) {
             
@@ -7033,7 +7033,7 @@ public final class ItemGet {
             return this;
           }
           /**
-           * <code>optional int32 matching_item_count = 3;</code>
+           * <code>int32 matching_item_count = 3;</code>
            */
           public Builder clearMatchingItemCount() {
             
@@ -7048,7 +7048,7 @@ public final class ItemGet {
            * Only filled when using a term-facet
            * </pre>
            *
-           * <code>optional bool active = 4;</code>
+           * <code>bool active = 4;</code>
            */
           public boolean getActive() {
             return active_;
@@ -7058,7 +7058,7 @@ public final class ItemGet {
            * Only filled when using a term-facet
            * </pre>
            *
-           * <code>optional bool active = 4;</code>
+           * <code>bool active = 4;</code>
            */
           public Builder setActive(boolean value) {
             
@@ -7071,7 +7071,7 @@ public final class ItemGet {
            * Only filled when using a term-facet
            * </pre>
            *
-           * <code>optional bool active = 4;</code>
+           * <code>bool active = 4;</code>
            */
           public Builder clearActive() {
             
@@ -7086,7 +7086,7 @@ public final class ItemGet {
            * Only filled when using a range-facet
            * </pre>
            *
-           * <code>optional double min_value = 5;</code>
+           * <code>double min_value = 5;</code>
            */
           public double getMinValue() {
             return minValue_;
@@ -7096,7 +7096,7 @@ public final class ItemGet {
            * Only filled when using a range-facet
            * </pre>
            *
-           * <code>optional double min_value = 5;</code>
+           * <code>double min_value = 5;</code>
            */
           public Builder setMinValue(double value) {
             
@@ -7109,7 +7109,7 @@ public final class ItemGet {
            * Only filled when using a range-facet
            * </pre>
            *
-           * <code>optional double min_value = 5;</code>
+           * <code>double min_value = 5;</code>
            */
           public Builder clearMinValue() {
             
@@ -7124,7 +7124,7 @@ public final class ItemGet {
            * Only filled when using a range-facet
            * </pre>
            *
-           * <code>optional double max_value = 6;</code>
+           * <code>double max_value = 6;</code>
            */
           public double getMaxValue() {
             return maxValue_;
@@ -7134,7 +7134,7 @@ public final class ItemGet {
            * Only filled when using a range-facet
            * </pre>
            *
-           * <code>optional double max_value = 6;</code>
+           * <code>double max_value = 6;</code>
            */
           public Builder setMaxValue(double value) {
             
@@ -7147,7 +7147,7 @@ public final class ItemGet {
            * Only filled when using a range-facet
            * </pre>
            *
-           * <code>optional double max_value = 6;</code>
+           * <code>double max_value = 6;</code>
            */
           public Builder clearMaxValue() {
             
@@ -7208,7 +7208,7 @@ public final class ItemGet {
       public static final int FIELD_NAME_FIELD_NUMBER = 1;
       private volatile java.lang.Object fieldName_;
       /**
-       * <code>optional string field_name = 1;</code>
+       * <code>string field_name = 1;</code>
        */
       public java.lang.String getFieldName() {
         java.lang.Object ref = fieldName_;
@@ -7223,7 +7223,7 @@ public final class ItemGet {
         }
       }
       /**
-       * <code>optional string field_name = 1;</code>
+       * <code>string field_name = 1;</code>
        */
       public com.google.protobuf.ByteString
           getFieldNameBytes() {
@@ -7281,7 +7281,7 @@ public final class ItemGet {
        * Only filled when using a range-facet
        * </pre>
        *
-       * <code>optional double range_from = 10;</code>
+       * <code>double range_from = 10;</code>
        */
       public double getRangeFrom() {
         return rangeFrom_;
@@ -7294,7 +7294,7 @@ public final class ItemGet {
        * Only filled when using a range-facet
        * </pre>
        *
-       * <code>optional double range_to = 11;</code>
+       * <code>double range_to = 11;</code>
        */
       public double getRangeTo() {
         return rangeTo_;
@@ -7383,7 +7383,7 @@ public final class ItemGet {
           return memoizedHashCode;
         }
         int hash = 41;
-        hash = (19 * hash) + getDescriptorForType().hashCode();
+        hash = (19 * hash) + getDescriptor().hashCode();
         hash = (37 * hash) + FIELD_NAME_FIELD_NUMBER;
         hash = (53 * hash) + getFieldName().hashCode();
         if (getFacetValueCount() > 0) {
@@ -7670,7 +7670,7 @@ public final class ItemGet {
 
         private java.lang.Object fieldName_ = "";
         /**
-         * <code>optional string field_name = 1;</code>
+         * <code>string field_name = 1;</code>
          */
         public java.lang.String getFieldName() {
           java.lang.Object ref = fieldName_;
@@ -7685,7 +7685,7 @@ public final class ItemGet {
           }
         }
         /**
-         * <code>optional string field_name = 1;</code>
+         * <code>string field_name = 1;</code>
          */
         public com.google.protobuf.ByteString
             getFieldNameBytes() {
@@ -7701,7 +7701,7 @@ public final class ItemGet {
           }
         }
         /**
-         * <code>optional string field_name = 1;</code>
+         * <code>string field_name = 1;</code>
          */
         public Builder setFieldName(
             java.lang.String value) {
@@ -7714,7 +7714,7 @@ public final class ItemGet {
           return this;
         }
         /**
-         * <code>optional string field_name = 1;</code>
+         * <code>string field_name = 1;</code>
          */
         public Builder clearFieldName() {
           
@@ -7723,7 +7723,7 @@ public final class ItemGet {
           return this;
         }
         /**
-         * <code>optional string field_name = 1;</code>
+         * <code>string field_name = 1;</code>
          */
         public Builder setFieldNameBytes(
             com.google.protobuf.ByteString value) {
@@ -7983,7 +7983,7 @@ public final class ItemGet {
          * Only filled when using a range-facet
          * </pre>
          *
-         * <code>optional double range_from = 10;</code>
+         * <code>double range_from = 10;</code>
          */
         public double getRangeFrom() {
           return rangeFrom_;
@@ -7993,7 +7993,7 @@ public final class ItemGet {
          * Only filled when using a range-facet
          * </pre>
          *
-         * <code>optional double range_from = 10;</code>
+         * <code>double range_from = 10;</code>
          */
         public Builder setRangeFrom(double value) {
           
@@ -8006,7 +8006,7 @@ public final class ItemGet {
          * Only filled when using a range-facet
          * </pre>
          *
-         * <code>optional double range_from = 10;</code>
+         * <code>double range_from = 10;</code>
          */
         public Builder clearRangeFrom() {
           
@@ -8021,7 +8021,7 @@ public final class ItemGet {
          * Only filled when using a range-facet
          * </pre>
          *
-         * <code>optional double range_to = 11;</code>
+         * <code>double range_to = 11;</code>
          */
         public double getRangeTo() {
           return rangeTo_;
@@ -8031,7 +8031,7 @@ public final class ItemGet {
          * Only filled when using a range-facet
          * </pre>
          *
-         * <code>optional double range_to = 11;</code>
+         * <code>double range_to = 11;</code>
          */
         public Builder setRangeTo(double value) {
           
@@ -8044,7 +8044,7 @@ public final class ItemGet {
          * Only filled when using a range-facet
          * </pre>
          *
-         * <code>optional double range_to = 11;</code>
+         * <code>double range_to = 11;</code>
          */
         public Builder clearRangeTo() {
           
@@ -8105,7 +8105,7 @@ public final class ItemGet {
     public static final int TOTAL_HITS_FIELD_NUMBER = 2;
     private int totalHits_;
     /**
-     * <code>optional int32 total_hits = 2;</code>
+     * <code>int32 total_hits = 2;</code>
      */
     public int getTotalHits() {
       return totalHits_;
@@ -8184,7 +8184,7 @@ public final class ItemGet {
     public static final int ELASTIC_QUERY_STRING_FIELD_NUMBER = 5;
     private volatile java.lang.Object elasticQueryString_;
     /**
-     * <code>optional string elastic_query_string = 5;</code>
+     * <code>string elastic_query_string = 5;</code>
      */
     public java.lang.String getElasticQueryString() {
       java.lang.Object ref = elasticQueryString_;
@@ -8199,7 +8199,7 @@ public final class ItemGet {
       }
     }
     /**
-     * <code>optional string elastic_query_string = 5;</code>
+     * <code>string elastic_query_string = 5;</code>
      */
     public com.google.protobuf.ByteString
         getElasticQueryStringBytes() {
@@ -8294,7 +8294,7 @@ public final class ItemGet {
         return memoizedHashCode;
       }
       int hash = 41;
-      hash = (19 * hash) + getDescriptorForType().hashCode();
+      hash = (19 * hash) + getDescriptor().hashCode();
       hash = (37 * hash) + TOTAL_HITS_FIELD_NUMBER;
       hash = (53 * hash) + getTotalHits();
       if (getItemCount() > 0) {
@@ -8617,13 +8617,13 @@ public final class ItemGet {
 
       private int totalHits_ ;
       /**
-       * <code>optional int32 total_hits = 2;</code>
+       * <code>int32 total_hits = 2;</code>
        */
       public int getTotalHits() {
         return totalHits_;
       }
       /**
-       * <code>optional int32 total_hits = 2;</code>
+       * <code>int32 total_hits = 2;</code>
        */
       public Builder setTotalHits(int value) {
         
@@ -8632,7 +8632,7 @@ public final class ItemGet {
         return this;
       }
       /**
-       * <code>optional int32 total_hits = 2;</code>
+       * <code>int32 total_hits = 2;</code>
        */
       public Builder clearTotalHits() {
         
@@ -9123,7 +9123,7 @@ public final class ItemGet {
 
       private java.lang.Object elasticQueryString_ = "";
       /**
-       * <code>optional string elastic_query_string = 5;</code>
+       * <code>string elastic_query_string = 5;</code>
        */
       public java.lang.String getElasticQueryString() {
         java.lang.Object ref = elasticQueryString_;
@@ -9138,7 +9138,7 @@ public final class ItemGet {
         }
       }
       /**
-       * <code>optional string elastic_query_string = 5;</code>
+       * <code>string elastic_query_string = 5;</code>
        */
       public com.google.protobuf.ByteString
           getElasticQueryStringBytes() {
@@ -9154,7 +9154,7 @@ public final class ItemGet {
         }
       }
       /**
-       * <code>optional string elastic_query_string = 5;</code>
+       * <code>string elastic_query_string = 5;</code>
        */
       public Builder setElasticQueryString(
           java.lang.String value) {
@@ -9167,7 +9167,7 @@ public final class ItemGet {
         return this;
       }
       /**
-       * <code>optional string elastic_query_string = 5;</code>
+       * <code>string elastic_query_string = 5;</code>
        */
       public Builder clearElasticQueryString() {
         
@@ -9176,7 +9176,7 @@ public final class ItemGet {
         return this;
       }
       /**
-       * <code>optional string elastic_query_string = 5;</code>
+       * <code>string elastic_query_string = 5;</code>
        */
       public Builder setElasticQueryStringBytes(
           com.google.protobuf.ByteString value) {

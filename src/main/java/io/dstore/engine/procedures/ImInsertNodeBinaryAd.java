@@ -19,146 +19,146 @@ public final class ImInsertNodeBinaryAd {
       com.google.protobuf.MessageOrBuilder {
 
     /**
-     * <code>optional .dstore.values.StringValue node_ids = 1;</code>
+     * <code>.dstore.values.StringValue node_ids = 1;</code>
      */
     boolean hasNodeIds();
     /**
-     * <code>optional .dstore.values.StringValue node_ids = 1;</code>
+     * <code>.dstore.values.StringValue node_ids = 1;</code>
      */
     io.dstore.values.StringValue getNodeIds();
     /**
-     * <code>optional .dstore.values.StringValue node_ids = 1;</code>
+     * <code>.dstore.values.StringValue node_ids = 1;</code>
      */
     io.dstore.values.StringValueOrBuilder getNodeIdsOrBuilder();
 
     /**
-     * <code>optional bool node_ids_null = 1001;</code>
+     * <code>bool node_ids_null = 1001;</code>
      */
     boolean getNodeIdsNull();
 
     /**
-     * <code>optional .dstore.values.StringValue binary_description = 2;</code>
+     * <code>.dstore.values.StringValue binary_description = 2;</code>
      */
     boolean hasBinaryDescription();
     /**
-     * <code>optional .dstore.values.StringValue binary_description = 2;</code>
+     * <code>.dstore.values.StringValue binary_description = 2;</code>
      */
     io.dstore.values.StringValue getBinaryDescription();
     /**
-     * <code>optional .dstore.values.StringValue binary_description = 2;</code>
+     * <code>.dstore.values.StringValue binary_description = 2;</code>
      */
     io.dstore.values.StringValueOrBuilder getBinaryDescriptionOrBuilder();
 
     /**
-     * <code>optional bool binary_description_null = 1002;</code>
+     * <code>bool binary_description_null = 1002;</code>
      */
     boolean getBinaryDescriptionNull();
 
     /**
-     * <code>optional .dstore.values.TimestampValue from_date = 3;</code>
+     * <code>.dstore.values.TimestampValue from_date = 3;</code>
      */
     boolean hasFromDate();
     /**
-     * <code>optional .dstore.values.TimestampValue from_date = 3;</code>
+     * <code>.dstore.values.TimestampValue from_date = 3;</code>
      */
     io.dstore.values.TimestampValue getFromDate();
     /**
-     * <code>optional .dstore.values.TimestampValue from_date = 3;</code>
+     * <code>.dstore.values.TimestampValue from_date = 3;</code>
      */
     io.dstore.values.TimestampValueOrBuilder getFromDateOrBuilder();
 
     /**
-     * <code>optional bool from_date_null = 1003;</code>
+     * <code>bool from_date_null = 1003;</code>
      */
     boolean getFromDateNull();
 
     /**
-     * <code>optional .dstore.values.TimestampValue to_date = 4;</code>
+     * <code>.dstore.values.TimestampValue to_date = 4;</code>
      */
     boolean hasToDate();
     /**
-     * <code>optional .dstore.values.TimestampValue to_date = 4;</code>
+     * <code>.dstore.values.TimestampValue to_date = 4;</code>
      */
     io.dstore.values.TimestampValue getToDate();
     /**
-     * <code>optional .dstore.values.TimestampValue to_date = 4;</code>
+     * <code>.dstore.values.TimestampValue to_date = 4;</code>
      */
     io.dstore.values.TimestampValueOrBuilder getToDateOrBuilder();
 
     /**
-     * <code>optional bool to_date_null = 1004;</code>
+     * <code>bool to_date_null = 1004;</code>
      */
     boolean getToDateNull();
 
     /**
-     * <code>optional .dstore.values.TimestampValue from_time = 5;</code>
+     * <code>.dstore.values.TimestampValue from_time = 5;</code>
      */
     boolean hasFromTime();
     /**
-     * <code>optional .dstore.values.TimestampValue from_time = 5;</code>
+     * <code>.dstore.values.TimestampValue from_time = 5;</code>
      */
     io.dstore.values.TimestampValue getFromTime();
     /**
-     * <code>optional .dstore.values.TimestampValue from_time = 5;</code>
+     * <code>.dstore.values.TimestampValue from_time = 5;</code>
      */
     io.dstore.values.TimestampValueOrBuilder getFromTimeOrBuilder();
 
     /**
-     * <code>optional bool from_time_null = 1005;</code>
+     * <code>bool from_time_null = 1005;</code>
      */
     boolean getFromTimeNull();
 
     /**
-     * <code>optional .dstore.values.TimestampValue to_time = 6;</code>
+     * <code>.dstore.values.TimestampValue to_time = 6;</code>
      */
     boolean hasToTime();
     /**
-     * <code>optional .dstore.values.TimestampValue to_time = 6;</code>
+     * <code>.dstore.values.TimestampValue to_time = 6;</code>
      */
     io.dstore.values.TimestampValue getToTime();
     /**
-     * <code>optional .dstore.values.TimestampValue to_time = 6;</code>
+     * <code>.dstore.values.TimestampValue to_time = 6;</code>
      */
     io.dstore.values.TimestampValueOrBuilder getToTimeOrBuilder();
 
     /**
-     * <code>optional bool to_time_null = 1006;</code>
+     * <code>bool to_time_null = 1006;</code>
      */
     boolean getToTimeNull();
 
     /**
-     * <code>optional .dstore.values.IntegerValue auto_continue = 7;</code>
+     * <code>.dstore.values.IntegerValue auto_continue = 7;</code>
      */
     boolean hasAutoContinue();
     /**
-     * <code>optional .dstore.values.IntegerValue auto_continue = 7;</code>
+     * <code>.dstore.values.IntegerValue auto_continue = 7;</code>
      */
     io.dstore.values.IntegerValue getAutoContinue();
     /**
-     * <code>optional .dstore.values.IntegerValue auto_continue = 7;</code>
+     * <code>.dstore.values.IntegerValue auto_continue = 7;</code>
      */
     io.dstore.values.IntegerValueOrBuilder getAutoContinueOrBuilder();
 
     /**
-     * <code>optional bool auto_continue_null = 1007;</code>
+     * <code>bool auto_continue_null = 1007;</code>
      */
     boolean getAutoContinueNull();
 
     /**
-     * <code>optional .dstore.values.BooleanValue return_binary_code_id = 8;</code>
+     * <code>.dstore.values.BooleanValue return_binary_code_id = 8;</code>
      */
     boolean hasReturnBinaryCodeId();
     /**
-     * <code>optional .dstore.values.BooleanValue return_binary_code_id = 8;</code>
+     * <code>.dstore.values.BooleanValue return_binary_code_id = 8;</code>
      */
     io.dstore.values.BooleanValue getReturnBinaryCodeId();
     /**
-     * <code>optional .dstore.values.BooleanValue return_binary_code_id = 8;</code>
+     * <code>.dstore.values.BooleanValue return_binary_code_id = 8;</code>
      */
     io.dstore.values.BooleanValueOrBuilder getReturnBinaryCodeIdOrBuilder();
 
     /**
-     * <code>optional bool return_binary_code_id_null = 1008;</code>
+     * <code>bool return_binary_code_id_null = 1008;</code>
      */
     boolean getReturnBinaryCodeIdNull();
   }
@@ -379,19 +379,19 @@ public final class ImInsertNodeBinaryAd {
     public static final int NODE_IDS_FIELD_NUMBER = 1;
     private io.dstore.values.StringValue nodeIds_;
     /**
-     * <code>optional .dstore.values.StringValue node_ids = 1;</code>
+     * <code>.dstore.values.StringValue node_ids = 1;</code>
      */
     public boolean hasNodeIds() {
       return nodeIds_ != null;
     }
     /**
-     * <code>optional .dstore.values.StringValue node_ids = 1;</code>
+     * <code>.dstore.values.StringValue node_ids = 1;</code>
      */
     public io.dstore.values.StringValue getNodeIds() {
       return nodeIds_ == null ? io.dstore.values.StringValue.getDefaultInstance() : nodeIds_;
     }
     /**
-     * <code>optional .dstore.values.StringValue node_ids = 1;</code>
+     * <code>.dstore.values.StringValue node_ids = 1;</code>
      */
     public io.dstore.values.StringValueOrBuilder getNodeIdsOrBuilder() {
       return getNodeIds();
@@ -400,7 +400,7 @@ public final class ImInsertNodeBinaryAd {
     public static final int NODE_IDS_NULL_FIELD_NUMBER = 1001;
     private boolean nodeIdsNull_;
     /**
-     * <code>optional bool node_ids_null = 1001;</code>
+     * <code>bool node_ids_null = 1001;</code>
      */
     public boolean getNodeIdsNull() {
       return nodeIdsNull_;
@@ -409,19 +409,19 @@ public final class ImInsertNodeBinaryAd {
     public static final int BINARY_DESCRIPTION_FIELD_NUMBER = 2;
     private io.dstore.values.StringValue binaryDescription_;
     /**
-     * <code>optional .dstore.values.StringValue binary_description = 2;</code>
+     * <code>.dstore.values.StringValue binary_description = 2;</code>
      */
     public boolean hasBinaryDescription() {
       return binaryDescription_ != null;
     }
     /**
-     * <code>optional .dstore.values.StringValue binary_description = 2;</code>
+     * <code>.dstore.values.StringValue binary_description = 2;</code>
      */
     public io.dstore.values.StringValue getBinaryDescription() {
       return binaryDescription_ == null ? io.dstore.values.StringValue.getDefaultInstance() : binaryDescription_;
     }
     /**
-     * <code>optional .dstore.values.StringValue binary_description = 2;</code>
+     * <code>.dstore.values.StringValue binary_description = 2;</code>
      */
     public io.dstore.values.StringValueOrBuilder getBinaryDescriptionOrBuilder() {
       return getBinaryDescription();
@@ -430,7 +430,7 @@ public final class ImInsertNodeBinaryAd {
     public static final int BINARY_DESCRIPTION_NULL_FIELD_NUMBER = 1002;
     private boolean binaryDescriptionNull_;
     /**
-     * <code>optional bool binary_description_null = 1002;</code>
+     * <code>bool binary_description_null = 1002;</code>
      */
     public boolean getBinaryDescriptionNull() {
       return binaryDescriptionNull_;
@@ -439,19 +439,19 @@ public final class ImInsertNodeBinaryAd {
     public static final int FROM_DATE_FIELD_NUMBER = 3;
     private io.dstore.values.TimestampValue fromDate_;
     /**
-     * <code>optional .dstore.values.TimestampValue from_date = 3;</code>
+     * <code>.dstore.values.TimestampValue from_date = 3;</code>
      */
     public boolean hasFromDate() {
       return fromDate_ != null;
     }
     /**
-     * <code>optional .dstore.values.TimestampValue from_date = 3;</code>
+     * <code>.dstore.values.TimestampValue from_date = 3;</code>
      */
     public io.dstore.values.TimestampValue getFromDate() {
       return fromDate_ == null ? io.dstore.values.TimestampValue.getDefaultInstance() : fromDate_;
     }
     /**
-     * <code>optional .dstore.values.TimestampValue from_date = 3;</code>
+     * <code>.dstore.values.TimestampValue from_date = 3;</code>
      */
     public io.dstore.values.TimestampValueOrBuilder getFromDateOrBuilder() {
       return getFromDate();
@@ -460,7 +460,7 @@ public final class ImInsertNodeBinaryAd {
     public static final int FROM_DATE_NULL_FIELD_NUMBER = 1003;
     private boolean fromDateNull_;
     /**
-     * <code>optional bool from_date_null = 1003;</code>
+     * <code>bool from_date_null = 1003;</code>
      */
     public boolean getFromDateNull() {
       return fromDateNull_;
@@ -469,19 +469,19 @@ public final class ImInsertNodeBinaryAd {
     public static final int TO_DATE_FIELD_NUMBER = 4;
     private io.dstore.values.TimestampValue toDate_;
     /**
-     * <code>optional .dstore.values.TimestampValue to_date = 4;</code>
+     * <code>.dstore.values.TimestampValue to_date = 4;</code>
      */
     public boolean hasToDate() {
       return toDate_ != null;
     }
     /**
-     * <code>optional .dstore.values.TimestampValue to_date = 4;</code>
+     * <code>.dstore.values.TimestampValue to_date = 4;</code>
      */
     public io.dstore.values.TimestampValue getToDate() {
       return toDate_ == null ? io.dstore.values.TimestampValue.getDefaultInstance() : toDate_;
     }
     /**
-     * <code>optional .dstore.values.TimestampValue to_date = 4;</code>
+     * <code>.dstore.values.TimestampValue to_date = 4;</code>
      */
     public io.dstore.values.TimestampValueOrBuilder getToDateOrBuilder() {
       return getToDate();
@@ -490,7 +490,7 @@ public final class ImInsertNodeBinaryAd {
     public static final int TO_DATE_NULL_FIELD_NUMBER = 1004;
     private boolean toDateNull_;
     /**
-     * <code>optional bool to_date_null = 1004;</code>
+     * <code>bool to_date_null = 1004;</code>
      */
     public boolean getToDateNull() {
       return toDateNull_;
@@ -499,19 +499,19 @@ public final class ImInsertNodeBinaryAd {
     public static final int FROM_TIME_FIELD_NUMBER = 5;
     private io.dstore.values.TimestampValue fromTime_;
     /**
-     * <code>optional .dstore.values.TimestampValue from_time = 5;</code>
+     * <code>.dstore.values.TimestampValue from_time = 5;</code>
      */
     public boolean hasFromTime() {
       return fromTime_ != null;
     }
     /**
-     * <code>optional .dstore.values.TimestampValue from_time = 5;</code>
+     * <code>.dstore.values.TimestampValue from_time = 5;</code>
      */
     public io.dstore.values.TimestampValue getFromTime() {
       return fromTime_ == null ? io.dstore.values.TimestampValue.getDefaultInstance() : fromTime_;
     }
     /**
-     * <code>optional .dstore.values.TimestampValue from_time = 5;</code>
+     * <code>.dstore.values.TimestampValue from_time = 5;</code>
      */
     public io.dstore.values.TimestampValueOrBuilder getFromTimeOrBuilder() {
       return getFromTime();
@@ -520,7 +520,7 @@ public final class ImInsertNodeBinaryAd {
     public static final int FROM_TIME_NULL_FIELD_NUMBER = 1005;
     private boolean fromTimeNull_;
     /**
-     * <code>optional bool from_time_null = 1005;</code>
+     * <code>bool from_time_null = 1005;</code>
      */
     public boolean getFromTimeNull() {
       return fromTimeNull_;
@@ -529,19 +529,19 @@ public final class ImInsertNodeBinaryAd {
     public static final int TO_TIME_FIELD_NUMBER = 6;
     private io.dstore.values.TimestampValue toTime_;
     /**
-     * <code>optional .dstore.values.TimestampValue to_time = 6;</code>
+     * <code>.dstore.values.TimestampValue to_time = 6;</code>
      */
     public boolean hasToTime() {
       return toTime_ != null;
     }
     /**
-     * <code>optional .dstore.values.TimestampValue to_time = 6;</code>
+     * <code>.dstore.values.TimestampValue to_time = 6;</code>
      */
     public io.dstore.values.TimestampValue getToTime() {
       return toTime_ == null ? io.dstore.values.TimestampValue.getDefaultInstance() : toTime_;
     }
     /**
-     * <code>optional .dstore.values.TimestampValue to_time = 6;</code>
+     * <code>.dstore.values.TimestampValue to_time = 6;</code>
      */
     public io.dstore.values.TimestampValueOrBuilder getToTimeOrBuilder() {
       return getToTime();
@@ -550,7 +550,7 @@ public final class ImInsertNodeBinaryAd {
     public static final int TO_TIME_NULL_FIELD_NUMBER = 1006;
     private boolean toTimeNull_;
     /**
-     * <code>optional bool to_time_null = 1006;</code>
+     * <code>bool to_time_null = 1006;</code>
      */
     public boolean getToTimeNull() {
       return toTimeNull_;
@@ -559,19 +559,19 @@ public final class ImInsertNodeBinaryAd {
     public static final int AUTO_CONTINUE_FIELD_NUMBER = 7;
     private io.dstore.values.IntegerValue autoContinue_;
     /**
-     * <code>optional .dstore.values.IntegerValue auto_continue = 7;</code>
+     * <code>.dstore.values.IntegerValue auto_continue = 7;</code>
      */
     public boolean hasAutoContinue() {
       return autoContinue_ != null;
     }
     /**
-     * <code>optional .dstore.values.IntegerValue auto_continue = 7;</code>
+     * <code>.dstore.values.IntegerValue auto_continue = 7;</code>
      */
     public io.dstore.values.IntegerValue getAutoContinue() {
       return autoContinue_ == null ? io.dstore.values.IntegerValue.getDefaultInstance() : autoContinue_;
     }
     /**
-     * <code>optional .dstore.values.IntegerValue auto_continue = 7;</code>
+     * <code>.dstore.values.IntegerValue auto_continue = 7;</code>
      */
     public io.dstore.values.IntegerValueOrBuilder getAutoContinueOrBuilder() {
       return getAutoContinue();
@@ -580,7 +580,7 @@ public final class ImInsertNodeBinaryAd {
     public static final int AUTO_CONTINUE_NULL_FIELD_NUMBER = 1007;
     private boolean autoContinueNull_;
     /**
-     * <code>optional bool auto_continue_null = 1007;</code>
+     * <code>bool auto_continue_null = 1007;</code>
      */
     public boolean getAutoContinueNull() {
       return autoContinueNull_;
@@ -589,19 +589,19 @@ public final class ImInsertNodeBinaryAd {
     public static final int RETURN_BINARY_CODE_ID_FIELD_NUMBER = 8;
     private io.dstore.values.BooleanValue returnBinaryCodeId_;
     /**
-     * <code>optional .dstore.values.BooleanValue return_binary_code_id = 8;</code>
+     * <code>.dstore.values.BooleanValue return_binary_code_id = 8;</code>
      */
     public boolean hasReturnBinaryCodeId() {
       return returnBinaryCodeId_ != null;
     }
     /**
-     * <code>optional .dstore.values.BooleanValue return_binary_code_id = 8;</code>
+     * <code>.dstore.values.BooleanValue return_binary_code_id = 8;</code>
      */
     public io.dstore.values.BooleanValue getReturnBinaryCodeId() {
       return returnBinaryCodeId_ == null ? io.dstore.values.BooleanValue.getDefaultInstance() : returnBinaryCodeId_;
     }
     /**
-     * <code>optional .dstore.values.BooleanValue return_binary_code_id = 8;</code>
+     * <code>.dstore.values.BooleanValue return_binary_code_id = 8;</code>
      */
     public io.dstore.values.BooleanValueOrBuilder getReturnBinaryCodeIdOrBuilder() {
       return getReturnBinaryCodeId();
@@ -610,7 +610,7 @@ public final class ImInsertNodeBinaryAd {
     public static final int RETURN_BINARY_CODE_ID_NULL_FIELD_NUMBER = 1008;
     private boolean returnBinaryCodeIdNull_;
     /**
-     * <code>optional bool return_binary_code_id_null = 1008;</code>
+     * <code>bool return_binary_code_id_null = 1008;</code>
      */
     public boolean getReturnBinaryCodeIdNull() {
       return returnBinaryCodeIdNull_;
@@ -828,7 +828,7 @@ public final class ImInsertNodeBinaryAd {
         return memoizedHashCode;
       }
       int hash = 41;
-      hash = (19 * hash) + getDescriptorForType().hashCode();
+      hash = (19 * hash) + getDescriptor().hashCode();
       if (hasNodeIds()) {
         hash = (37 * hash) + NODE_IDS_FIELD_NUMBER;
         hash = (53 * hash) + getNodeIds().hashCode();
@@ -1256,13 +1256,13 @@ public final class ImInsertNodeBinaryAd {
       private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.values.StringValue, io.dstore.values.StringValue.Builder, io.dstore.values.StringValueOrBuilder> nodeIdsBuilder_;
       /**
-       * <code>optional .dstore.values.StringValue node_ids = 1;</code>
+       * <code>.dstore.values.StringValue node_ids = 1;</code>
        */
       public boolean hasNodeIds() {
         return nodeIdsBuilder_ != null || nodeIds_ != null;
       }
       /**
-       * <code>optional .dstore.values.StringValue node_ids = 1;</code>
+       * <code>.dstore.values.StringValue node_ids = 1;</code>
        */
       public io.dstore.values.StringValue getNodeIds() {
         if (nodeIdsBuilder_ == null) {
@@ -1272,7 +1272,7 @@ public final class ImInsertNodeBinaryAd {
         }
       }
       /**
-       * <code>optional .dstore.values.StringValue node_ids = 1;</code>
+       * <code>.dstore.values.StringValue node_ids = 1;</code>
        */
       public Builder setNodeIds(io.dstore.values.StringValue value) {
         if (nodeIdsBuilder_ == null) {
@@ -1288,7 +1288,7 @@ public final class ImInsertNodeBinaryAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.StringValue node_ids = 1;</code>
+       * <code>.dstore.values.StringValue node_ids = 1;</code>
        */
       public Builder setNodeIds(
           io.dstore.values.StringValue.Builder builderForValue) {
@@ -1302,7 +1302,7 @@ public final class ImInsertNodeBinaryAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.StringValue node_ids = 1;</code>
+       * <code>.dstore.values.StringValue node_ids = 1;</code>
        */
       public Builder mergeNodeIds(io.dstore.values.StringValue value) {
         if (nodeIdsBuilder_ == null) {
@@ -1320,7 +1320,7 @@ public final class ImInsertNodeBinaryAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.StringValue node_ids = 1;</code>
+       * <code>.dstore.values.StringValue node_ids = 1;</code>
        */
       public Builder clearNodeIds() {
         if (nodeIdsBuilder_ == null) {
@@ -1334,7 +1334,7 @@ public final class ImInsertNodeBinaryAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.StringValue node_ids = 1;</code>
+       * <code>.dstore.values.StringValue node_ids = 1;</code>
        */
       public io.dstore.values.StringValue.Builder getNodeIdsBuilder() {
         
@@ -1342,7 +1342,7 @@ public final class ImInsertNodeBinaryAd {
         return getNodeIdsFieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .dstore.values.StringValue node_ids = 1;</code>
+       * <code>.dstore.values.StringValue node_ids = 1;</code>
        */
       public io.dstore.values.StringValueOrBuilder getNodeIdsOrBuilder() {
         if (nodeIdsBuilder_ != null) {
@@ -1353,7 +1353,7 @@ public final class ImInsertNodeBinaryAd {
         }
       }
       /**
-       * <code>optional .dstore.values.StringValue node_ids = 1;</code>
+       * <code>.dstore.values.StringValue node_ids = 1;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.values.StringValue, io.dstore.values.StringValue.Builder, io.dstore.values.StringValueOrBuilder> 
@@ -1371,13 +1371,13 @@ public final class ImInsertNodeBinaryAd {
 
       private boolean nodeIdsNull_ ;
       /**
-       * <code>optional bool node_ids_null = 1001;</code>
+       * <code>bool node_ids_null = 1001;</code>
        */
       public boolean getNodeIdsNull() {
         return nodeIdsNull_;
       }
       /**
-       * <code>optional bool node_ids_null = 1001;</code>
+       * <code>bool node_ids_null = 1001;</code>
        */
       public Builder setNodeIdsNull(boolean value) {
         
@@ -1386,7 +1386,7 @@ public final class ImInsertNodeBinaryAd {
         return this;
       }
       /**
-       * <code>optional bool node_ids_null = 1001;</code>
+       * <code>bool node_ids_null = 1001;</code>
        */
       public Builder clearNodeIdsNull() {
         
@@ -1399,13 +1399,13 @@ public final class ImInsertNodeBinaryAd {
       private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.values.StringValue, io.dstore.values.StringValue.Builder, io.dstore.values.StringValueOrBuilder> binaryDescriptionBuilder_;
       /**
-       * <code>optional .dstore.values.StringValue binary_description = 2;</code>
+       * <code>.dstore.values.StringValue binary_description = 2;</code>
        */
       public boolean hasBinaryDescription() {
         return binaryDescriptionBuilder_ != null || binaryDescription_ != null;
       }
       /**
-       * <code>optional .dstore.values.StringValue binary_description = 2;</code>
+       * <code>.dstore.values.StringValue binary_description = 2;</code>
        */
       public io.dstore.values.StringValue getBinaryDescription() {
         if (binaryDescriptionBuilder_ == null) {
@@ -1415,7 +1415,7 @@ public final class ImInsertNodeBinaryAd {
         }
       }
       /**
-       * <code>optional .dstore.values.StringValue binary_description = 2;</code>
+       * <code>.dstore.values.StringValue binary_description = 2;</code>
        */
       public Builder setBinaryDescription(io.dstore.values.StringValue value) {
         if (binaryDescriptionBuilder_ == null) {
@@ -1431,7 +1431,7 @@ public final class ImInsertNodeBinaryAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.StringValue binary_description = 2;</code>
+       * <code>.dstore.values.StringValue binary_description = 2;</code>
        */
       public Builder setBinaryDescription(
           io.dstore.values.StringValue.Builder builderForValue) {
@@ -1445,7 +1445,7 @@ public final class ImInsertNodeBinaryAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.StringValue binary_description = 2;</code>
+       * <code>.dstore.values.StringValue binary_description = 2;</code>
        */
       public Builder mergeBinaryDescription(io.dstore.values.StringValue value) {
         if (binaryDescriptionBuilder_ == null) {
@@ -1463,7 +1463,7 @@ public final class ImInsertNodeBinaryAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.StringValue binary_description = 2;</code>
+       * <code>.dstore.values.StringValue binary_description = 2;</code>
        */
       public Builder clearBinaryDescription() {
         if (binaryDescriptionBuilder_ == null) {
@@ -1477,7 +1477,7 @@ public final class ImInsertNodeBinaryAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.StringValue binary_description = 2;</code>
+       * <code>.dstore.values.StringValue binary_description = 2;</code>
        */
       public io.dstore.values.StringValue.Builder getBinaryDescriptionBuilder() {
         
@@ -1485,7 +1485,7 @@ public final class ImInsertNodeBinaryAd {
         return getBinaryDescriptionFieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .dstore.values.StringValue binary_description = 2;</code>
+       * <code>.dstore.values.StringValue binary_description = 2;</code>
        */
       public io.dstore.values.StringValueOrBuilder getBinaryDescriptionOrBuilder() {
         if (binaryDescriptionBuilder_ != null) {
@@ -1496,7 +1496,7 @@ public final class ImInsertNodeBinaryAd {
         }
       }
       /**
-       * <code>optional .dstore.values.StringValue binary_description = 2;</code>
+       * <code>.dstore.values.StringValue binary_description = 2;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.values.StringValue, io.dstore.values.StringValue.Builder, io.dstore.values.StringValueOrBuilder> 
@@ -1514,13 +1514,13 @@ public final class ImInsertNodeBinaryAd {
 
       private boolean binaryDescriptionNull_ ;
       /**
-       * <code>optional bool binary_description_null = 1002;</code>
+       * <code>bool binary_description_null = 1002;</code>
        */
       public boolean getBinaryDescriptionNull() {
         return binaryDescriptionNull_;
       }
       /**
-       * <code>optional bool binary_description_null = 1002;</code>
+       * <code>bool binary_description_null = 1002;</code>
        */
       public Builder setBinaryDescriptionNull(boolean value) {
         
@@ -1529,7 +1529,7 @@ public final class ImInsertNodeBinaryAd {
         return this;
       }
       /**
-       * <code>optional bool binary_description_null = 1002;</code>
+       * <code>bool binary_description_null = 1002;</code>
        */
       public Builder clearBinaryDescriptionNull() {
         
@@ -1542,13 +1542,13 @@ public final class ImInsertNodeBinaryAd {
       private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.values.TimestampValue, io.dstore.values.TimestampValue.Builder, io.dstore.values.TimestampValueOrBuilder> fromDateBuilder_;
       /**
-       * <code>optional .dstore.values.TimestampValue from_date = 3;</code>
+       * <code>.dstore.values.TimestampValue from_date = 3;</code>
        */
       public boolean hasFromDate() {
         return fromDateBuilder_ != null || fromDate_ != null;
       }
       /**
-       * <code>optional .dstore.values.TimestampValue from_date = 3;</code>
+       * <code>.dstore.values.TimestampValue from_date = 3;</code>
        */
       public io.dstore.values.TimestampValue getFromDate() {
         if (fromDateBuilder_ == null) {
@@ -1558,7 +1558,7 @@ public final class ImInsertNodeBinaryAd {
         }
       }
       /**
-       * <code>optional .dstore.values.TimestampValue from_date = 3;</code>
+       * <code>.dstore.values.TimestampValue from_date = 3;</code>
        */
       public Builder setFromDate(io.dstore.values.TimestampValue value) {
         if (fromDateBuilder_ == null) {
@@ -1574,7 +1574,7 @@ public final class ImInsertNodeBinaryAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.TimestampValue from_date = 3;</code>
+       * <code>.dstore.values.TimestampValue from_date = 3;</code>
        */
       public Builder setFromDate(
           io.dstore.values.TimestampValue.Builder builderForValue) {
@@ -1588,7 +1588,7 @@ public final class ImInsertNodeBinaryAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.TimestampValue from_date = 3;</code>
+       * <code>.dstore.values.TimestampValue from_date = 3;</code>
        */
       public Builder mergeFromDate(io.dstore.values.TimestampValue value) {
         if (fromDateBuilder_ == null) {
@@ -1606,7 +1606,7 @@ public final class ImInsertNodeBinaryAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.TimestampValue from_date = 3;</code>
+       * <code>.dstore.values.TimestampValue from_date = 3;</code>
        */
       public Builder clearFromDate() {
         if (fromDateBuilder_ == null) {
@@ -1620,7 +1620,7 @@ public final class ImInsertNodeBinaryAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.TimestampValue from_date = 3;</code>
+       * <code>.dstore.values.TimestampValue from_date = 3;</code>
        */
       public io.dstore.values.TimestampValue.Builder getFromDateBuilder() {
         
@@ -1628,7 +1628,7 @@ public final class ImInsertNodeBinaryAd {
         return getFromDateFieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .dstore.values.TimestampValue from_date = 3;</code>
+       * <code>.dstore.values.TimestampValue from_date = 3;</code>
        */
       public io.dstore.values.TimestampValueOrBuilder getFromDateOrBuilder() {
         if (fromDateBuilder_ != null) {
@@ -1639,7 +1639,7 @@ public final class ImInsertNodeBinaryAd {
         }
       }
       /**
-       * <code>optional .dstore.values.TimestampValue from_date = 3;</code>
+       * <code>.dstore.values.TimestampValue from_date = 3;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.values.TimestampValue, io.dstore.values.TimestampValue.Builder, io.dstore.values.TimestampValueOrBuilder> 
@@ -1657,13 +1657,13 @@ public final class ImInsertNodeBinaryAd {
 
       private boolean fromDateNull_ ;
       /**
-       * <code>optional bool from_date_null = 1003;</code>
+       * <code>bool from_date_null = 1003;</code>
        */
       public boolean getFromDateNull() {
         return fromDateNull_;
       }
       /**
-       * <code>optional bool from_date_null = 1003;</code>
+       * <code>bool from_date_null = 1003;</code>
        */
       public Builder setFromDateNull(boolean value) {
         
@@ -1672,7 +1672,7 @@ public final class ImInsertNodeBinaryAd {
         return this;
       }
       /**
-       * <code>optional bool from_date_null = 1003;</code>
+       * <code>bool from_date_null = 1003;</code>
        */
       public Builder clearFromDateNull() {
         
@@ -1685,13 +1685,13 @@ public final class ImInsertNodeBinaryAd {
       private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.values.TimestampValue, io.dstore.values.TimestampValue.Builder, io.dstore.values.TimestampValueOrBuilder> toDateBuilder_;
       /**
-       * <code>optional .dstore.values.TimestampValue to_date = 4;</code>
+       * <code>.dstore.values.TimestampValue to_date = 4;</code>
        */
       public boolean hasToDate() {
         return toDateBuilder_ != null || toDate_ != null;
       }
       /**
-       * <code>optional .dstore.values.TimestampValue to_date = 4;</code>
+       * <code>.dstore.values.TimestampValue to_date = 4;</code>
        */
       public io.dstore.values.TimestampValue getToDate() {
         if (toDateBuilder_ == null) {
@@ -1701,7 +1701,7 @@ public final class ImInsertNodeBinaryAd {
         }
       }
       /**
-       * <code>optional .dstore.values.TimestampValue to_date = 4;</code>
+       * <code>.dstore.values.TimestampValue to_date = 4;</code>
        */
       public Builder setToDate(io.dstore.values.TimestampValue value) {
         if (toDateBuilder_ == null) {
@@ -1717,7 +1717,7 @@ public final class ImInsertNodeBinaryAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.TimestampValue to_date = 4;</code>
+       * <code>.dstore.values.TimestampValue to_date = 4;</code>
        */
       public Builder setToDate(
           io.dstore.values.TimestampValue.Builder builderForValue) {
@@ -1731,7 +1731,7 @@ public final class ImInsertNodeBinaryAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.TimestampValue to_date = 4;</code>
+       * <code>.dstore.values.TimestampValue to_date = 4;</code>
        */
       public Builder mergeToDate(io.dstore.values.TimestampValue value) {
         if (toDateBuilder_ == null) {
@@ -1749,7 +1749,7 @@ public final class ImInsertNodeBinaryAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.TimestampValue to_date = 4;</code>
+       * <code>.dstore.values.TimestampValue to_date = 4;</code>
        */
       public Builder clearToDate() {
         if (toDateBuilder_ == null) {
@@ -1763,7 +1763,7 @@ public final class ImInsertNodeBinaryAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.TimestampValue to_date = 4;</code>
+       * <code>.dstore.values.TimestampValue to_date = 4;</code>
        */
       public io.dstore.values.TimestampValue.Builder getToDateBuilder() {
         
@@ -1771,7 +1771,7 @@ public final class ImInsertNodeBinaryAd {
         return getToDateFieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .dstore.values.TimestampValue to_date = 4;</code>
+       * <code>.dstore.values.TimestampValue to_date = 4;</code>
        */
       public io.dstore.values.TimestampValueOrBuilder getToDateOrBuilder() {
         if (toDateBuilder_ != null) {
@@ -1782,7 +1782,7 @@ public final class ImInsertNodeBinaryAd {
         }
       }
       /**
-       * <code>optional .dstore.values.TimestampValue to_date = 4;</code>
+       * <code>.dstore.values.TimestampValue to_date = 4;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.values.TimestampValue, io.dstore.values.TimestampValue.Builder, io.dstore.values.TimestampValueOrBuilder> 
@@ -1800,13 +1800,13 @@ public final class ImInsertNodeBinaryAd {
 
       private boolean toDateNull_ ;
       /**
-       * <code>optional bool to_date_null = 1004;</code>
+       * <code>bool to_date_null = 1004;</code>
        */
       public boolean getToDateNull() {
         return toDateNull_;
       }
       /**
-       * <code>optional bool to_date_null = 1004;</code>
+       * <code>bool to_date_null = 1004;</code>
        */
       public Builder setToDateNull(boolean value) {
         
@@ -1815,7 +1815,7 @@ public final class ImInsertNodeBinaryAd {
         return this;
       }
       /**
-       * <code>optional bool to_date_null = 1004;</code>
+       * <code>bool to_date_null = 1004;</code>
        */
       public Builder clearToDateNull() {
         
@@ -1828,13 +1828,13 @@ public final class ImInsertNodeBinaryAd {
       private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.values.TimestampValue, io.dstore.values.TimestampValue.Builder, io.dstore.values.TimestampValueOrBuilder> fromTimeBuilder_;
       /**
-       * <code>optional .dstore.values.TimestampValue from_time = 5;</code>
+       * <code>.dstore.values.TimestampValue from_time = 5;</code>
        */
       public boolean hasFromTime() {
         return fromTimeBuilder_ != null || fromTime_ != null;
       }
       /**
-       * <code>optional .dstore.values.TimestampValue from_time = 5;</code>
+       * <code>.dstore.values.TimestampValue from_time = 5;</code>
        */
       public io.dstore.values.TimestampValue getFromTime() {
         if (fromTimeBuilder_ == null) {
@@ -1844,7 +1844,7 @@ public final class ImInsertNodeBinaryAd {
         }
       }
       /**
-       * <code>optional .dstore.values.TimestampValue from_time = 5;</code>
+       * <code>.dstore.values.TimestampValue from_time = 5;</code>
        */
       public Builder setFromTime(io.dstore.values.TimestampValue value) {
         if (fromTimeBuilder_ == null) {
@@ -1860,7 +1860,7 @@ public final class ImInsertNodeBinaryAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.TimestampValue from_time = 5;</code>
+       * <code>.dstore.values.TimestampValue from_time = 5;</code>
        */
       public Builder setFromTime(
           io.dstore.values.TimestampValue.Builder builderForValue) {
@@ -1874,7 +1874,7 @@ public final class ImInsertNodeBinaryAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.TimestampValue from_time = 5;</code>
+       * <code>.dstore.values.TimestampValue from_time = 5;</code>
        */
       public Builder mergeFromTime(io.dstore.values.TimestampValue value) {
         if (fromTimeBuilder_ == null) {
@@ -1892,7 +1892,7 @@ public final class ImInsertNodeBinaryAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.TimestampValue from_time = 5;</code>
+       * <code>.dstore.values.TimestampValue from_time = 5;</code>
        */
       public Builder clearFromTime() {
         if (fromTimeBuilder_ == null) {
@@ -1906,7 +1906,7 @@ public final class ImInsertNodeBinaryAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.TimestampValue from_time = 5;</code>
+       * <code>.dstore.values.TimestampValue from_time = 5;</code>
        */
       public io.dstore.values.TimestampValue.Builder getFromTimeBuilder() {
         
@@ -1914,7 +1914,7 @@ public final class ImInsertNodeBinaryAd {
         return getFromTimeFieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .dstore.values.TimestampValue from_time = 5;</code>
+       * <code>.dstore.values.TimestampValue from_time = 5;</code>
        */
       public io.dstore.values.TimestampValueOrBuilder getFromTimeOrBuilder() {
         if (fromTimeBuilder_ != null) {
@@ -1925,7 +1925,7 @@ public final class ImInsertNodeBinaryAd {
         }
       }
       /**
-       * <code>optional .dstore.values.TimestampValue from_time = 5;</code>
+       * <code>.dstore.values.TimestampValue from_time = 5;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.values.TimestampValue, io.dstore.values.TimestampValue.Builder, io.dstore.values.TimestampValueOrBuilder> 
@@ -1943,13 +1943,13 @@ public final class ImInsertNodeBinaryAd {
 
       private boolean fromTimeNull_ ;
       /**
-       * <code>optional bool from_time_null = 1005;</code>
+       * <code>bool from_time_null = 1005;</code>
        */
       public boolean getFromTimeNull() {
         return fromTimeNull_;
       }
       /**
-       * <code>optional bool from_time_null = 1005;</code>
+       * <code>bool from_time_null = 1005;</code>
        */
       public Builder setFromTimeNull(boolean value) {
         
@@ -1958,7 +1958,7 @@ public final class ImInsertNodeBinaryAd {
         return this;
       }
       /**
-       * <code>optional bool from_time_null = 1005;</code>
+       * <code>bool from_time_null = 1005;</code>
        */
       public Builder clearFromTimeNull() {
         
@@ -1971,13 +1971,13 @@ public final class ImInsertNodeBinaryAd {
       private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.values.TimestampValue, io.dstore.values.TimestampValue.Builder, io.dstore.values.TimestampValueOrBuilder> toTimeBuilder_;
       /**
-       * <code>optional .dstore.values.TimestampValue to_time = 6;</code>
+       * <code>.dstore.values.TimestampValue to_time = 6;</code>
        */
       public boolean hasToTime() {
         return toTimeBuilder_ != null || toTime_ != null;
       }
       /**
-       * <code>optional .dstore.values.TimestampValue to_time = 6;</code>
+       * <code>.dstore.values.TimestampValue to_time = 6;</code>
        */
       public io.dstore.values.TimestampValue getToTime() {
         if (toTimeBuilder_ == null) {
@@ -1987,7 +1987,7 @@ public final class ImInsertNodeBinaryAd {
         }
       }
       /**
-       * <code>optional .dstore.values.TimestampValue to_time = 6;</code>
+       * <code>.dstore.values.TimestampValue to_time = 6;</code>
        */
       public Builder setToTime(io.dstore.values.TimestampValue value) {
         if (toTimeBuilder_ == null) {
@@ -2003,7 +2003,7 @@ public final class ImInsertNodeBinaryAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.TimestampValue to_time = 6;</code>
+       * <code>.dstore.values.TimestampValue to_time = 6;</code>
        */
       public Builder setToTime(
           io.dstore.values.TimestampValue.Builder builderForValue) {
@@ -2017,7 +2017,7 @@ public final class ImInsertNodeBinaryAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.TimestampValue to_time = 6;</code>
+       * <code>.dstore.values.TimestampValue to_time = 6;</code>
        */
       public Builder mergeToTime(io.dstore.values.TimestampValue value) {
         if (toTimeBuilder_ == null) {
@@ -2035,7 +2035,7 @@ public final class ImInsertNodeBinaryAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.TimestampValue to_time = 6;</code>
+       * <code>.dstore.values.TimestampValue to_time = 6;</code>
        */
       public Builder clearToTime() {
         if (toTimeBuilder_ == null) {
@@ -2049,7 +2049,7 @@ public final class ImInsertNodeBinaryAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.TimestampValue to_time = 6;</code>
+       * <code>.dstore.values.TimestampValue to_time = 6;</code>
        */
       public io.dstore.values.TimestampValue.Builder getToTimeBuilder() {
         
@@ -2057,7 +2057,7 @@ public final class ImInsertNodeBinaryAd {
         return getToTimeFieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .dstore.values.TimestampValue to_time = 6;</code>
+       * <code>.dstore.values.TimestampValue to_time = 6;</code>
        */
       public io.dstore.values.TimestampValueOrBuilder getToTimeOrBuilder() {
         if (toTimeBuilder_ != null) {
@@ -2068,7 +2068,7 @@ public final class ImInsertNodeBinaryAd {
         }
       }
       /**
-       * <code>optional .dstore.values.TimestampValue to_time = 6;</code>
+       * <code>.dstore.values.TimestampValue to_time = 6;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.values.TimestampValue, io.dstore.values.TimestampValue.Builder, io.dstore.values.TimestampValueOrBuilder> 
@@ -2086,13 +2086,13 @@ public final class ImInsertNodeBinaryAd {
 
       private boolean toTimeNull_ ;
       /**
-       * <code>optional bool to_time_null = 1006;</code>
+       * <code>bool to_time_null = 1006;</code>
        */
       public boolean getToTimeNull() {
         return toTimeNull_;
       }
       /**
-       * <code>optional bool to_time_null = 1006;</code>
+       * <code>bool to_time_null = 1006;</code>
        */
       public Builder setToTimeNull(boolean value) {
         
@@ -2101,7 +2101,7 @@ public final class ImInsertNodeBinaryAd {
         return this;
       }
       /**
-       * <code>optional bool to_time_null = 1006;</code>
+       * <code>bool to_time_null = 1006;</code>
        */
       public Builder clearToTimeNull() {
         
@@ -2114,13 +2114,13 @@ public final class ImInsertNodeBinaryAd {
       private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> autoContinueBuilder_;
       /**
-       * <code>optional .dstore.values.IntegerValue auto_continue = 7;</code>
+       * <code>.dstore.values.IntegerValue auto_continue = 7;</code>
        */
       public boolean hasAutoContinue() {
         return autoContinueBuilder_ != null || autoContinue_ != null;
       }
       /**
-       * <code>optional .dstore.values.IntegerValue auto_continue = 7;</code>
+       * <code>.dstore.values.IntegerValue auto_continue = 7;</code>
        */
       public io.dstore.values.IntegerValue getAutoContinue() {
         if (autoContinueBuilder_ == null) {
@@ -2130,7 +2130,7 @@ public final class ImInsertNodeBinaryAd {
         }
       }
       /**
-       * <code>optional .dstore.values.IntegerValue auto_continue = 7;</code>
+       * <code>.dstore.values.IntegerValue auto_continue = 7;</code>
        */
       public Builder setAutoContinue(io.dstore.values.IntegerValue value) {
         if (autoContinueBuilder_ == null) {
@@ -2146,7 +2146,7 @@ public final class ImInsertNodeBinaryAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.IntegerValue auto_continue = 7;</code>
+       * <code>.dstore.values.IntegerValue auto_continue = 7;</code>
        */
       public Builder setAutoContinue(
           io.dstore.values.IntegerValue.Builder builderForValue) {
@@ -2160,7 +2160,7 @@ public final class ImInsertNodeBinaryAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.IntegerValue auto_continue = 7;</code>
+       * <code>.dstore.values.IntegerValue auto_continue = 7;</code>
        */
       public Builder mergeAutoContinue(io.dstore.values.IntegerValue value) {
         if (autoContinueBuilder_ == null) {
@@ -2178,7 +2178,7 @@ public final class ImInsertNodeBinaryAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.IntegerValue auto_continue = 7;</code>
+       * <code>.dstore.values.IntegerValue auto_continue = 7;</code>
        */
       public Builder clearAutoContinue() {
         if (autoContinueBuilder_ == null) {
@@ -2192,7 +2192,7 @@ public final class ImInsertNodeBinaryAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.IntegerValue auto_continue = 7;</code>
+       * <code>.dstore.values.IntegerValue auto_continue = 7;</code>
        */
       public io.dstore.values.IntegerValue.Builder getAutoContinueBuilder() {
         
@@ -2200,7 +2200,7 @@ public final class ImInsertNodeBinaryAd {
         return getAutoContinueFieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .dstore.values.IntegerValue auto_continue = 7;</code>
+       * <code>.dstore.values.IntegerValue auto_continue = 7;</code>
        */
       public io.dstore.values.IntegerValueOrBuilder getAutoContinueOrBuilder() {
         if (autoContinueBuilder_ != null) {
@@ -2211,7 +2211,7 @@ public final class ImInsertNodeBinaryAd {
         }
       }
       /**
-       * <code>optional .dstore.values.IntegerValue auto_continue = 7;</code>
+       * <code>.dstore.values.IntegerValue auto_continue = 7;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> 
@@ -2229,13 +2229,13 @@ public final class ImInsertNodeBinaryAd {
 
       private boolean autoContinueNull_ ;
       /**
-       * <code>optional bool auto_continue_null = 1007;</code>
+       * <code>bool auto_continue_null = 1007;</code>
        */
       public boolean getAutoContinueNull() {
         return autoContinueNull_;
       }
       /**
-       * <code>optional bool auto_continue_null = 1007;</code>
+       * <code>bool auto_continue_null = 1007;</code>
        */
       public Builder setAutoContinueNull(boolean value) {
         
@@ -2244,7 +2244,7 @@ public final class ImInsertNodeBinaryAd {
         return this;
       }
       /**
-       * <code>optional bool auto_continue_null = 1007;</code>
+       * <code>bool auto_continue_null = 1007;</code>
        */
       public Builder clearAutoContinueNull() {
         
@@ -2257,13 +2257,13 @@ public final class ImInsertNodeBinaryAd {
       private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.values.BooleanValue, io.dstore.values.BooleanValue.Builder, io.dstore.values.BooleanValueOrBuilder> returnBinaryCodeIdBuilder_;
       /**
-       * <code>optional .dstore.values.BooleanValue return_binary_code_id = 8;</code>
+       * <code>.dstore.values.BooleanValue return_binary_code_id = 8;</code>
        */
       public boolean hasReturnBinaryCodeId() {
         return returnBinaryCodeIdBuilder_ != null || returnBinaryCodeId_ != null;
       }
       /**
-       * <code>optional .dstore.values.BooleanValue return_binary_code_id = 8;</code>
+       * <code>.dstore.values.BooleanValue return_binary_code_id = 8;</code>
        */
       public io.dstore.values.BooleanValue getReturnBinaryCodeId() {
         if (returnBinaryCodeIdBuilder_ == null) {
@@ -2273,7 +2273,7 @@ public final class ImInsertNodeBinaryAd {
         }
       }
       /**
-       * <code>optional .dstore.values.BooleanValue return_binary_code_id = 8;</code>
+       * <code>.dstore.values.BooleanValue return_binary_code_id = 8;</code>
        */
       public Builder setReturnBinaryCodeId(io.dstore.values.BooleanValue value) {
         if (returnBinaryCodeIdBuilder_ == null) {
@@ -2289,7 +2289,7 @@ public final class ImInsertNodeBinaryAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.BooleanValue return_binary_code_id = 8;</code>
+       * <code>.dstore.values.BooleanValue return_binary_code_id = 8;</code>
        */
       public Builder setReturnBinaryCodeId(
           io.dstore.values.BooleanValue.Builder builderForValue) {
@@ -2303,7 +2303,7 @@ public final class ImInsertNodeBinaryAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.BooleanValue return_binary_code_id = 8;</code>
+       * <code>.dstore.values.BooleanValue return_binary_code_id = 8;</code>
        */
       public Builder mergeReturnBinaryCodeId(io.dstore.values.BooleanValue value) {
         if (returnBinaryCodeIdBuilder_ == null) {
@@ -2321,7 +2321,7 @@ public final class ImInsertNodeBinaryAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.BooleanValue return_binary_code_id = 8;</code>
+       * <code>.dstore.values.BooleanValue return_binary_code_id = 8;</code>
        */
       public Builder clearReturnBinaryCodeId() {
         if (returnBinaryCodeIdBuilder_ == null) {
@@ -2335,7 +2335,7 @@ public final class ImInsertNodeBinaryAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.BooleanValue return_binary_code_id = 8;</code>
+       * <code>.dstore.values.BooleanValue return_binary_code_id = 8;</code>
        */
       public io.dstore.values.BooleanValue.Builder getReturnBinaryCodeIdBuilder() {
         
@@ -2343,7 +2343,7 @@ public final class ImInsertNodeBinaryAd {
         return getReturnBinaryCodeIdFieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .dstore.values.BooleanValue return_binary_code_id = 8;</code>
+       * <code>.dstore.values.BooleanValue return_binary_code_id = 8;</code>
        */
       public io.dstore.values.BooleanValueOrBuilder getReturnBinaryCodeIdOrBuilder() {
         if (returnBinaryCodeIdBuilder_ != null) {
@@ -2354,7 +2354,7 @@ public final class ImInsertNodeBinaryAd {
         }
       }
       /**
-       * <code>optional .dstore.values.BooleanValue return_binary_code_id = 8;</code>
+       * <code>.dstore.values.BooleanValue return_binary_code_id = 8;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.values.BooleanValue, io.dstore.values.BooleanValue.Builder, io.dstore.values.BooleanValueOrBuilder> 
@@ -2372,13 +2372,13 @@ public final class ImInsertNodeBinaryAd {
 
       private boolean returnBinaryCodeIdNull_ ;
       /**
-       * <code>optional bool return_binary_code_id_null = 1008;</code>
+       * <code>bool return_binary_code_id_null = 1008;</code>
        */
       public boolean getReturnBinaryCodeIdNull() {
         return returnBinaryCodeIdNull_;
       }
       /**
-       * <code>optional bool return_binary_code_id_null = 1008;</code>
+       * <code>bool return_binary_code_id_null = 1008;</code>
        */
       public Builder setReturnBinaryCodeIdNull(boolean value) {
         
@@ -2387,7 +2387,7 @@ public final class ImInsertNodeBinaryAd {
         return this;
       }
       /**
-       * <code>optional bool return_binary_code_id_null = 1008;</code>
+       * <code>bool return_binary_code_id_null = 1008;</code>
        */
       public Builder clearReturnBinaryCodeIdNull() {
         
@@ -2646,7 +2646,7 @@ public final class ImInsertNodeBinaryAd {
         com.google.protobuf.MessageOrBuilder {
 
       /**
-       * <code>optional int32 row_id = 10000;</code>
+       * <code>int32 row_id = 10000;</code>
        */
       int getRowId();
 
@@ -2655,7 +2655,7 @@ public final class ImInsertNodeBinaryAd {
        * ID des neu angelegten Binärobjektes
        * </pre>
        *
-       * <code>optional .dstore.values.IntegerValue binary_code_id = 10001;</code>
+       * <code>.dstore.values.IntegerValue binary_code_id = 10001;</code>
        */
       boolean hasBinaryCodeId();
       /**
@@ -2663,7 +2663,7 @@ public final class ImInsertNodeBinaryAd {
        * ID des neu angelegten Binärobjektes
        * </pre>
        *
-       * <code>optional .dstore.values.IntegerValue binary_code_id = 10001;</code>
+       * <code>.dstore.values.IntegerValue binary_code_id = 10001;</code>
        */
       io.dstore.values.IntegerValue getBinaryCodeId();
       /**
@@ -2671,7 +2671,7 @@ public final class ImInsertNodeBinaryAd {
        * ID des neu angelegten Binärobjektes
        * </pre>
        *
-       * <code>optional .dstore.values.IntegerValue binary_code_id = 10001;</code>
+       * <code>.dstore.values.IntegerValue binary_code_id = 10001;</code>
        */
       io.dstore.values.IntegerValueOrBuilder getBinaryCodeIdOrBuilder();
     }
@@ -2759,7 +2759,7 @@ public final class ImInsertNodeBinaryAd {
       public static final int ROW_ID_FIELD_NUMBER = 10000;
       private int rowId_;
       /**
-       * <code>optional int32 row_id = 10000;</code>
+       * <code>int32 row_id = 10000;</code>
        */
       public int getRowId() {
         return rowId_;
@@ -2772,7 +2772,7 @@ public final class ImInsertNodeBinaryAd {
        * ID des neu angelegten Binärobjektes
        * </pre>
        *
-       * <code>optional .dstore.values.IntegerValue binary_code_id = 10001;</code>
+       * <code>.dstore.values.IntegerValue binary_code_id = 10001;</code>
        */
       public boolean hasBinaryCodeId() {
         return binaryCodeId_ != null;
@@ -2782,7 +2782,7 @@ public final class ImInsertNodeBinaryAd {
        * ID des neu angelegten Binärobjektes
        * </pre>
        *
-       * <code>optional .dstore.values.IntegerValue binary_code_id = 10001;</code>
+       * <code>.dstore.values.IntegerValue binary_code_id = 10001;</code>
        */
       public io.dstore.values.IntegerValue getBinaryCodeId() {
         return binaryCodeId_ == null ? io.dstore.values.IntegerValue.getDefaultInstance() : binaryCodeId_;
@@ -2792,7 +2792,7 @@ public final class ImInsertNodeBinaryAd {
        * ID des neu angelegten Binärobjektes
        * </pre>
        *
-       * <code>optional .dstore.values.IntegerValue binary_code_id = 10001;</code>
+       * <code>.dstore.values.IntegerValue binary_code_id = 10001;</code>
        */
       public io.dstore.values.IntegerValueOrBuilder getBinaryCodeIdOrBuilder() {
         return getBinaryCodeId();
@@ -2863,7 +2863,7 @@ public final class ImInsertNodeBinaryAd {
           return memoizedHashCode;
         }
         int hash = 41;
-        hash = (19 * hash) + getDescriptorForType().hashCode();
+        hash = (19 * hash) + getDescriptor().hashCode();
         hash = (37 * hash) + ROW_ID_FIELD_NUMBER;
         hash = (53 * hash) + getRowId();
         if (hasBinaryCodeId()) {
@@ -3099,13 +3099,13 @@ public final class ImInsertNodeBinaryAd {
 
         private int rowId_ ;
         /**
-         * <code>optional int32 row_id = 10000;</code>
+         * <code>int32 row_id = 10000;</code>
          */
         public int getRowId() {
           return rowId_;
         }
         /**
-         * <code>optional int32 row_id = 10000;</code>
+         * <code>int32 row_id = 10000;</code>
          */
         public Builder setRowId(int value) {
           
@@ -3114,7 +3114,7 @@ public final class ImInsertNodeBinaryAd {
           return this;
         }
         /**
-         * <code>optional int32 row_id = 10000;</code>
+         * <code>int32 row_id = 10000;</code>
          */
         public Builder clearRowId() {
           
@@ -3131,7 +3131,7 @@ public final class ImInsertNodeBinaryAd {
          * ID des neu angelegten Binärobjektes
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue binary_code_id = 10001;</code>
+         * <code>.dstore.values.IntegerValue binary_code_id = 10001;</code>
          */
         public boolean hasBinaryCodeId() {
           return binaryCodeIdBuilder_ != null || binaryCodeId_ != null;
@@ -3141,7 +3141,7 @@ public final class ImInsertNodeBinaryAd {
          * ID des neu angelegten Binärobjektes
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue binary_code_id = 10001;</code>
+         * <code>.dstore.values.IntegerValue binary_code_id = 10001;</code>
          */
         public io.dstore.values.IntegerValue getBinaryCodeId() {
           if (binaryCodeIdBuilder_ == null) {
@@ -3155,7 +3155,7 @@ public final class ImInsertNodeBinaryAd {
          * ID des neu angelegten Binärobjektes
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue binary_code_id = 10001;</code>
+         * <code>.dstore.values.IntegerValue binary_code_id = 10001;</code>
          */
         public Builder setBinaryCodeId(io.dstore.values.IntegerValue value) {
           if (binaryCodeIdBuilder_ == null) {
@@ -3175,7 +3175,7 @@ public final class ImInsertNodeBinaryAd {
          * ID des neu angelegten Binärobjektes
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue binary_code_id = 10001;</code>
+         * <code>.dstore.values.IntegerValue binary_code_id = 10001;</code>
          */
         public Builder setBinaryCodeId(
             io.dstore.values.IntegerValue.Builder builderForValue) {
@@ -3193,7 +3193,7 @@ public final class ImInsertNodeBinaryAd {
          * ID des neu angelegten Binärobjektes
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue binary_code_id = 10001;</code>
+         * <code>.dstore.values.IntegerValue binary_code_id = 10001;</code>
          */
         public Builder mergeBinaryCodeId(io.dstore.values.IntegerValue value) {
           if (binaryCodeIdBuilder_ == null) {
@@ -3215,7 +3215,7 @@ public final class ImInsertNodeBinaryAd {
          * ID des neu angelegten Binärobjektes
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue binary_code_id = 10001;</code>
+         * <code>.dstore.values.IntegerValue binary_code_id = 10001;</code>
          */
         public Builder clearBinaryCodeId() {
           if (binaryCodeIdBuilder_ == null) {
@@ -3233,7 +3233,7 @@ public final class ImInsertNodeBinaryAd {
          * ID des neu angelegten Binärobjektes
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue binary_code_id = 10001;</code>
+         * <code>.dstore.values.IntegerValue binary_code_id = 10001;</code>
          */
         public io.dstore.values.IntegerValue.Builder getBinaryCodeIdBuilder() {
           
@@ -3245,7 +3245,7 @@ public final class ImInsertNodeBinaryAd {
          * ID des neu angelegten Binärobjektes
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue binary_code_id = 10001;</code>
+         * <code>.dstore.values.IntegerValue binary_code_id = 10001;</code>
          */
         public io.dstore.values.IntegerValueOrBuilder getBinaryCodeIdOrBuilder() {
           if (binaryCodeIdBuilder_ != null) {
@@ -3260,7 +3260,7 @@ public final class ImInsertNodeBinaryAd {
          * ID des neu angelegten Binärobjektes
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue binary_code_id = 10001;</code>
+         * <code>.dstore.values.IntegerValue binary_code_id = 10001;</code>
          */
         private com.google.protobuf.SingleFieldBuilderV3<
             io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> 
@@ -3520,7 +3520,7 @@ public final class ImInsertNodeBinaryAd {
         return memoizedHashCode;
       }
       int hash = 41;
-      hash = (19 * hash) + getDescriptorForType().hashCode();
+      hash = (19 * hash) + getDescriptor().hashCode();
       if (getMetaInformationCount() > 0) {
         hash = (37 * hash) + META_INFORMATION_FIELD_NUMBER;
         hash = (53 * hash) + getMetaInformationList().hashCode();

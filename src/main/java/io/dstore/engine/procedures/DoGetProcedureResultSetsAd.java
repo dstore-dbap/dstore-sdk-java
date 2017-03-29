@@ -19,38 +19,38 @@ public final class DoGetProcedureResultSetsAd {
       com.google.protobuf.MessageOrBuilder {
 
     /**
-     * <code>optional .dstore.values.StringValue procedure_name = 1;</code>
+     * <code>.dstore.values.StringValue procedure_name = 1;</code>
      */
     boolean hasProcedureName();
     /**
-     * <code>optional .dstore.values.StringValue procedure_name = 1;</code>
+     * <code>.dstore.values.StringValue procedure_name = 1;</code>
      */
     io.dstore.values.StringValue getProcedureName();
     /**
-     * <code>optional .dstore.values.StringValue procedure_name = 1;</code>
+     * <code>.dstore.values.StringValue procedure_name = 1;</code>
      */
     io.dstore.values.StringValueOrBuilder getProcedureNameOrBuilder();
 
     /**
-     * <code>optional bool procedure_name_null = 1001;</code>
+     * <code>bool procedure_name_null = 1001;</code>
      */
     boolean getProcedureNameNull();
 
     /**
-     * <code>optional .dstore.values.IntegerValue procedure_result_condition_id = 2;</code>
+     * <code>.dstore.values.IntegerValue procedure_result_condition_id = 2;</code>
      */
     boolean hasProcedureResultConditionId();
     /**
-     * <code>optional .dstore.values.IntegerValue procedure_result_condition_id = 2;</code>
+     * <code>.dstore.values.IntegerValue procedure_result_condition_id = 2;</code>
      */
     io.dstore.values.IntegerValue getProcedureResultConditionId();
     /**
-     * <code>optional .dstore.values.IntegerValue procedure_result_condition_id = 2;</code>
+     * <code>.dstore.values.IntegerValue procedure_result_condition_id = 2;</code>
      */
     io.dstore.values.IntegerValueOrBuilder getProcedureResultConditionIdOrBuilder();
 
     /**
-     * <code>optional bool procedure_result_condition_id_null = 1002;</code>
+     * <code>bool procedure_result_condition_id_null = 1002;</code>
      */
     boolean getProcedureResultConditionIdNull();
   }
@@ -157,19 +157,19 @@ public final class DoGetProcedureResultSetsAd {
     public static final int PROCEDURE_NAME_FIELD_NUMBER = 1;
     private io.dstore.values.StringValue procedureName_;
     /**
-     * <code>optional .dstore.values.StringValue procedure_name = 1;</code>
+     * <code>.dstore.values.StringValue procedure_name = 1;</code>
      */
     public boolean hasProcedureName() {
       return procedureName_ != null;
     }
     /**
-     * <code>optional .dstore.values.StringValue procedure_name = 1;</code>
+     * <code>.dstore.values.StringValue procedure_name = 1;</code>
      */
     public io.dstore.values.StringValue getProcedureName() {
       return procedureName_ == null ? io.dstore.values.StringValue.getDefaultInstance() : procedureName_;
     }
     /**
-     * <code>optional .dstore.values.StringValue procedure_name = 1;</code>
+     * <code>.dstore.values.StringValue procedure_name = 1;</code>
      */
     public io.dstore.values.StringValueOrBuilder getProcedureNameOrBuilder() {
       return getProcedureName();
@@ -178,7 +178,7 @@ public final class DoGetProcedureResultSetsAd {
     public static final int PROCEDURE_NAME_NULL_FIELD_NUMBER = 1001;
     private boolean procedureNameNull_;
     /**
-     * <code>optional bool procedure_name_null = 1001;</code>
+     * <code>bool procedure_name_null = 1001;</code>
      */
     public boolean getProcedureNameNull() {
       return procedureNameNull_;
@@ -187,19 +187,19 @@ public final class DoGetProcedureResultSetsAd {
     public static final int PROCEDURE_RESULT_CONDITION_ID_FIELD_NUMBER = 2;
     private io.dstore.values.IntegerValue procedureResultConditionId_;
     /**
-     * <code>optional .dstore.values.IntegerValue procedure_result_condition_id = 2;</code>
+     * <code>.dstore.values.IntegerValue procedure_result_condition_id = 2;</code>
      */
     public boolean hasProcedureResultConditionId() {
       return procedureResultConditionId_ != null;
     }
     /**
-     * <code>optional .dstore.values.IntegerValue procedure_result_condition_id = 2;</code>
+     * <code>.dstore.values.IntegerValue procedure_result_condition_id = 2;</code>
      */
     public io.dstore.values.IntegerValue getProcedureResultConditionId() {
       return procedureResultConditionId_ == null ? io.dstore.values.IntegerValue.getDefaultInstance() : procedureResultConditionId_;
     }
     /**
-     * <code>optional .dstore.values.IntegerValue procedure_result_condition_id = 2;</code>
+     * <code>.dstore.values.IntegerValue procedure_result_condition_id = 2;</code>
      */
     public io.dstore.values.IntegerValueOrBuilder getProcedureResultConditionIdOrBuilder() {
       return getProcedureResultConditionId();
@@ -208,7 +208,7 @@ public final class DoGetProcedureResultSetsAd {
     public static final int PROCEDURE_RESULT_CONDITION_ID_NULL_FIELD_NUMBER = 1002;
     private boolean procedureResultConditionIdNull_;
     /**
-     * <code>optional bool procedure_result_condition_id_null = 1002;</code>
+     * <code>bool procedure_result_condition_id_null = 1002;</code>
      */
     public boolean getProcedureResultConditionIdNull() {
       return procedureResultConditionIdNull_;
@@ -300,7 +300,7 @@ public final class DoGetProcedureResultSetsAd {
         return memoizedHashCode;
       }
       int hash = 41;
-      hash = (19 * hash) + getDescriptorForType().hashCode();
+      hash = (19 * hash) + getDescriptor().hashCode();
       if (hasProcedureName()) {
         hash = (37 * hash) + PROCEDURE_NAME_FIELD_NUMBER;
         hash = (53 * hash) + getProcedureName().hashCode();
@@ -566,13 +566,13 @@ public final class DoGetProcedureResultSetsAd {
       private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.values.StringValue, io.dstore.values.StringValue.Builder, io.dstore.values.StringValueOrBuilder> procedureNameBuilder_;
       /**
-       * <code>optional .dstore.values.StringValue procedure_name = 1;</code>
+       * <code>.dstore.values.StringValue procedure_name = 1;</code>
        */
       public boolean hasProcedureName() {
         return procedureNameBuilder_ != null || procedureName_ != null;
       }
       /**
-       * <code>optional .dstore.values.StringValue procedure_name = 1;</code>
+       * <code>.dstore.values.StringValue procedure_name = 1;</code>
        */
       public io.dstore.values.StringValue getProcedureName() {
         if (procedureNameBuilder_ == null) {
@@ -582,7 +582,7 @@ public final class DoGetProcedureResultSetsAd {
         }
       }
       /**
-       * <code>optional .dstore.values.StringValue procedure_name = 1;</code>
+       * <code>.dstore.values.StringValue procedure_name = 1;</code>
        */
       public Builder setProcedureName(io.dstore.values.StringValue value) {
         if (procedureNameBuilder_ == null) {
@@ -598,7 +598,7 @@ public final class DoGetProcedureResultSetsAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.StringValue procedure_name = 1;</code>
+       * <code>.dstore.values.StringValue procedure_name = 1;</code>
        */
       public Builder setProcedureName(
           io.dstore.values.StringValue.Builder builderForValue) {
@@ -612,7 +612,7 @@ public final class DoGetProcedureResultSetsAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.StringValue procedure_name = 1;</code>
+       * <code>.dstore.values.StringValue procedure_name = 1;</code>
        */
       public Builder mergeProcedureName(io.dstore.values.StringValue value) {
         if (procedureNameBuilder_ == null) {
@@ -630,7 +630,7 @@ public final class DoGetProcedureResultSetsAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.StringValue procedure_name = 1;</code>
+       * <code>.dstore.values.StringValue procedure_name = 1;</code>
        */
       public Builder clearProcedureName() {
         if (procedureNameBuilder_ == null) {
@@ -644,7 +644,7 @@ public final class DoGetProcedureResultSetsAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.StringValue procedure_name = 1;</code>
+       * <code>.dstore.values.StringValue procedure_name = 1;</code>
        */
       public io.dstore.values.StringValue.Builder getProcedureNameBuilder() {
         
@@ -652,7 +652,7 @@ public final class DoGetProcedureResultSetsAd {
         return getProcedureNameFieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .dstore.values.StringValue procedure_name = 1;</code>
+       * <code>.dstore.values.StringValue procedure_name = 1;</code>
        */
       public io.dstore.values.StringValueOrBuilder getProcedureNameOrBuilder() {
         if (procedureNameBuilder_ != null) {
@@ -663,7 +663,7 @@ public final class DoGetProcedureResultSetsAd {
         }
       }
       /**
-       * <code>optional .dstore.values.StringValue procedure_name = 1;</code>
+       * <code>.dstore.values.StringValue procedure_name = 1;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.values.StringValue, io.dstore.values.StringValue.Builder, io.dstore.values.StringValueOrBuilder> 
@@ -681,13 +681,13 @@ public final class DoGetProcedureResultSetsAd {
 
       private boolean procedureNameNull_ ;
       /**
-       * <code>optional bool procedure_name_null = 1001;</code>
+       * <code>bool procedure_name_null = 1001;</code>
        */
       public boolean getProcedureNameNull() {
         return procedureNameNull_;
       }
       /**
-       * <code>optional bool procedure_name_null = 1001;</code>
+       * <code>bool procedure_name_null = 1001;</code>
        */
       public Builder setProcedureNameNull(boolean value) {
         
@@ -696,7 +696,7 @@ public final class DoGetProcedureResultSetsAd {
         return this;
       }
       /**
-       * <code>optional bool procedure_name_null = 1001;</code>
+       * <code>bool procedure_name_null = 1001;</code>
        */
       public Builder clearProcedureNameNull() {
         
@@ -709,13 +709,13 @@ public final class DoGetProcedureResultSetsAd {
       private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> procedureResultConditionIdBuilder_;
       /**
-       * <code>optional .dstore.values.IntegerValue procedure_result_condition_id = 2;</code>
+       * <code>.dstore.values.IntegerValue procedure_result_condition_id = 2;</code>
        */
       public boolean hasProcedureResultConditionId() {
         return procedureResultConditionIdBuilder_ != null || procedureResultConditionId_ != null;
       }
       /**
-       * <code>optional .dstore.values.IntegerValue procedure_result_condition_id = 2;</code>
+       * <code>.dstore.values.IntegerValue procedure_result_condition_id = 2;</code>
        */
       public io.dstore.values.IntegerValue getProcedureResultConditionId() {
         if (procedureResultConditionIdBuilder_ == null) {
@@ -725,7 +725,7 @@ public final class DoGetProcedureResultSetsAd {
         }
       }
       /**
-       * <code>optional .dstore.values.IntegerValue procedure_result_condition_id = 2;</code>
+       * <code>.dstore.values.IntegerValue procedure_result_condition_id = 2;</code>
        */
       public Builder setProcedureResultConditionId(io.dstore.values.IntegerValue value) {
         if (procedureResultConditionIdBuilder_ == null) {
@@ -741,7 +741,7 @@ public final class DoGetProcedureResultSetsAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.IntegerValue procedure_result_condition_id = 2;</code>
+       * <code>.dstore.values.IntegerValue procedure_result_condition_id = 2;</code>
        */
       public Builder setProcedureResultConditionId(
           io.dstore.values.IntegerValue.Builder builderForValue) {
@@ -755,7 +755,7 @@ public final class DoGetProcedureResultSetsAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.IntegerValue procedure_result_condition_id = 2;</code>
+       * <code>.dstore.values.IntegerValue procedure_result_condition_id = 2;</code>
        */
       public Builder mergeProcedureResultConditionId(io.dstore.values.IntegerValue value) {
         if (procedureResultConditionIdBuilder_ == null) {
@@ -773,7 +773,7 @@ public final class DoGetProcedureResultSetsAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.IntegerValue procedure_result_condition_id = 2;</code>
+       * <code>.dstore.values.IntegerValue procedure_result_condition_id = 2;</code>
        */
       public Builder clearProcedureResultConditionId() {
         if (procedureResultConditionIdBuilder_ == null) {
@@ -787,7 +787,7 @@ public final class DoGetProcedureResultSetsAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.IntegerValue procedure_result_condition_id = 2;</code>
+       * <code>.dstore.values.IntegerValue procedure_result_condition_id = 2;</code>
        */
       public io.dstore.values.IntegerValue.Builder getProcedureResultConditionIdBuilder() {
         
@@ -795,7 +795,7 @@ public final class DoGetProcedureResultSetsAd {
         return getProcedureResultConditionIdFieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .dstore.values.IntegerValue procedure_result_condition_id = 2;</code>
+       * <code>.dstore.values.IntegerValue procedure_result_condition_id = 2;</code>
        */
       public io.dstore.values.IntegerValueOrBuilder getProcedureResultConditionIdOrBuilder() {
         if (procedureResultConditionIdBuilder_ != null) {
@@ -806,7 +806,7 @@ public final class DoGetProcedureResultSetsAd {
         }
       }
       /**
-       * <code>optional .dstore.values.IntegerValue procedure_result_condition_id = 2;</code>
+       * <code>.dstore.values.IntegerValue procedure_result_condition_id = 2;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> 
@@ -824,13 +824,13 @@ public final class DoGetProcedureResultSetsAd {
 
       private boolean procedureResultConditionIdNull_ ;
       /**
-       * <code>optional bool procedure_result_condition_id_null = 1002;</code>
+       * <code>bool procedure_result_condition_id_null = 1002;</code>
        */
       public boolean getProcedureResultConditionIdNull() {
         return procedureResultConditionIdNull_;
       }
       /**
-       * <code>optional bool procedure_result_condition_id_null = 1002;</code>
+       * <code>bool procedure_result_condition_id_null = 1002;</code>
        */
       public Builder setProcedureResultConditionIdNull(boolean value) {
         
@@ -839,7 +839,7 @@ public final class DoGetProcedureResultSetsAd {
         return this;
       }
       /**
-       * <code>optional bool procedure_result_condition_id_null = 1002;</code>
+       * <code>bool procedure_result_condition_id_null = 1002;</code>
        */
       public Builder clearProcedureResultConditionIdNull() {
         
@@ -1098,7 +1098,7 @@ public final class DoGetProcedureResultSetsAd {
         com.google.protobuf.MessageOrBuilder {
 
       /**
-       * <code>optional int32 row_id = 10000;</code>
+       * <code>int32 row_id = 10000;</code>
        */
       int getRowId();
 
@@ -1107,7 +1107,7 @@ public final class DoGetProcedureResultSetsAd {
        * Die Rückgabemenge wird nur geliefert, wenn der für "ParameterName" übergebene Wert dieser Bedingung genügt. Fast immer handelt es sich hier um eine Bedingung, die in SQL ausgewertet werden kann, zumindest aber mit Hilfe von regulären Ausdrücken.
        * </pre>
        *
-       * <code>optional .dstore.values.StringValue condition = 10001;</code>
+       * <code>.dstore.values.StringValue condition = 10001;</code>
        */
       boolean hasCondition();
       /**
@@ -1115,7 +1115,7 @@ public final class DoGetProcedureResultSetsAd {
        * Die Rückgabemenge wird nur geliefert, wenn der für "ParameterName" übergebene Wert dieser Bedingung genügt. Fast immer handelt es sich hier um eine Bedingung, die in SQL ausgewertet werden kann, zumindest aber mit Hilfe von regulären Ausdrücken.
        * </pre>
        *
-       * <code>optional .dstore.values.StringValue condition = 10001;</code>
+       * <code>.dstore.values.StringValue condition = 10001;</code>
        */
       io.dstore.values.StringValue getCondition();
       /**
@@ -1123,7 +1123,7 @@ public final class DoGetProcedureResultSetsAd {
        * Die Rückgabemenge wird nur geliefert, wenn der für "ParameterName" übergebene Wert dieser Bedingung genügt. Fast immer handelt es sich hier um eine Bedingung, die in SQL ausgewertet werden kann, zumindest aber mit Hilfe von regulären Ausdrücken.
        * </pre>
        *
-       * <code>optional .dstore.values.StringValue condition = 10001;</code>
+       * <code>.dstore.values.StringValue condition = 10001;</code>
        */
       io.dstore.values.StringValueOrBuilder getConditionOrBuilder();
 
@@ -1132,7 +1132,7 @@ public final class DoGetProcedureResultSetsAd {
        * ID einer Bedingung, unter der die Spalten "ResultColumnName" (also alle Datensätze mit gleichem Wert in dieser Spalte) als Ergebnismenge zurückgegeben werden. "0" bedeutet, daß die Rückgabemenge an keine Bedingung gebunden ist. (siehe Beschreibung !)
        * </pre>
        *
-       * <code>optional .dstore.values.IntegerValue procedure_result_condition_id = 10002;</code>
+       * <code>.dstore.values.IntegerValue procedure_result_condition_id = 10002;</code>
        */
       boolean hasProcedureResultConditionId();
       /**
@@ -1140,7 +1140,7 @@ public final class DoGetProcedureResultSetsAd {
        * ID einer Bedingung, unter der die Spalten "ResultColumnName" (also alle Datensätze mit gleichem Wert in dieser Spalte) als Ergebnismenge zurückgegeben werden. "0" bedeutet, daß die Rückgabemenge an keine Bedingung gebunden ist. (siehe Beschreibung !)
        * </pre>
        *
-       * <code>optional .dstore.values.IntegerValue procedure_result_condition_id = 10002;</code>
+       * <code>.dstore.values.IntegerValue procedure_result_condition_id = 10002;</code>
        */
       io.dstore.values.IntegerValue getProcedureResultConditionId();
       /**
@@ -1148,7 +1148,7 @@ public final class DoGetProcedureResultSetsAd {
        * ID einer Bedingung, unter der die Spalten "ResultColumnName" (also alle Datensätze mit gleichem Wert in dieser Spalte) als Ergebnismenge zurückgegeben werden. "0" bedeutet, daß die Rückgabemenge an keine Bedingung gebunden ist. (siehe Beschreibung !)
        * </pre>
        *
-       * <code>optional .dstore.values.IntegerValue procedure_result_condition_id = 10002;</code>
+       * <code>.dstore.values.IntegerValue procedure_result_condition_id = 10002;</code>
        */
       io.dstore.values.IntegerValueOrBuilder getProcedureResultConditionIdOrBuilder();
 
@@ -1157,7 +1157,7 @@ public final class DoGetProcedureResultSetsAd {
        * Seit welcher Version die Beschreibung ("Description") gilt
        * </pre>
        *
-       * <code>optional .dstore.values.StringValue description_valid_since_version = 10003;</code>
+       * <code>.dstore.values.StringValue description_valid_since_version = 10003;</code>
        */
       boolean hasDescriptionValidSinceVersion();
       /**
@@ -1165,7 +1165,7 @@ public final class DoGetProcedureResultSetsAd {
        * Seit welcher Version die Beschreibung ("Description") gilt
        * </pre>
        *
-       * <code>optional .dstore.values.StringValue description_valid_since_version = 10003;</code>
+       * <code>.dstore.values.StringValue description_valid_since_version = 10003;</code>
        */
       io.dstore.values.StringValue getDescriptionValidSinceVersion();
       /**
@@ -1173,7 +1173,7 @@ public final class DoGetProcedureResultSetsAd {
        * Seit welcher Version die Beschreibung ("Description") gilt
        * </pre>
        *
-       * <code>optional .dstore.values.StringValue description_valid_since_version = 10003;</code>
+       * <code>.dstore.values.StringValue description_valid_since_version = 10003;</code>
        */
       io.dstore.values.StringValueOrBuilder getDescriptionValidSinceVersionOrBuilder();
 
@@ -1182,7 +1182,7 @@ public final class DoGetProcedureResultSetsAd {
        * Beschreibung der Spalte "ResultColumnName", also was die Werte in dieser Spalte besagen oder bedeuten
        * </pre>
        *
-       * <code>optional .dstore.values.StringValue description = 10004;</code>
+       * <code>.dstore.values.StringValue description = 10004;</code>
        */
       boolean hasDescription();
       /**
@@ -1190,7 +1190,7 @@ public final class DoGetProcedureResultSetsAd {
        * Beschreibung der Spalte "ResultColumnName", also was die Werte in dieser Spalte besagen oder bedeuten
        * </pre>
        *
-       * <code>optional .dstore.values.StringValue description = 10004;</code>
+       * <code>.dstore.values.StringValue description = 10004;</code>
        */
       io.dstore.values.StringValue getDescription();
       /**
@@ -1198,7 +1198,7 @@ public final class DoGetProcedureResultSetsAd {
        * Beschreibung der Spalte "ResultColumnName", also was die Werte in dieser Spalte besagen oder bedeuten
        * </pre>
        *
-       * <code>optional .dstore.values.StringValue description = 10004;</code>
+       * <code>.dstore.values.StringValue description = 10004;</code>
        */
       io.dstore.values.StringValueOrBuilder getDescriptionOrBuilder();
 
@@ -1207,7 +1207,7 @@ public final class DoGetProcedureResultSetsAd {
        * Gilt nur für einige numerische Daten-Typen (z.B. "decimal") und gibt die maximale Anzahl Stellen an, die ein Wert, der in der Spalte "ResultColumnName" steht, enthalten kann
        * </pre>
        *
-       * <code>optional .dstore.values.IntegerValue precision_value = 10005;</code>
+       * <code>.dstore.values.IntegerValue precision_value = 10005;</code>
        */
       boolean hasPrecisionValue();
       /**
@@ -1215,7 +1215,7 @@ public final class DoGetProcedureResultSetsAd {
        * Gilt nur für einige numerische Daten-Typen (z.B. "decimal") und gibt die maximale Anzahl Stellen an, die ein Wert, der in der Spalte "ResultColumnName" steht, enthalten kann
        * </pre>
        *
-       * <code>optional .dstore.values.IntegerValue precision_value = 10005;</code>
+       * <code>.dstore.values.IntegerValue precision_value = 10005;</code>
        */
       io.dstore.values.IntegerValue getPrecisionValue();
       /**
@@ -1223,7 +1223,7 @@ public final class DoGetProcedureResultSetsAd {
        * Gilt nur für einige numerische Daten-Typen (z.B. "decimal") und gibt die maximale Anzahl Stellen an, die ein Wert, der in der Spalte "ResultColumnName" steht, enthalten kann
        * </pre>
        *
-       * <code>optional .dstore.values.IntegerValue precision_value = 10005;</code>
+       * <code>.dstore.values.IntegerValue precision_value = 10005;</code>
        */
       io.dstore.values.IntegerValueOrBuilder getPrecisionValueOrBuilder();
 
@@ -1232,7 +1232,7 @@ public final class DoGetProcedureResultSetsAd {
        * Name eines Parameters der Prozedur "&#64;ProcedureName". Die Rückgabemenge wird nur geliefert, wenn beim Aufruf der für diesen Parameter angegebene Wert der Bedingung "Condition" genügt. ("NULL" bei der speziellen Bedingung "ProcedureResultConditionID = 0".)
        * </pre>
        *
-       * <code>optional .dstore.values.StringValue parameter_name = 10006;</code>
+       * <code>.dstore.values.StringValue parameter_name = 10006;</code>
        */
       boolean hasParameterName();
       /**
@@ -1240,7 +1240,7 @@ public final class DoGetProcedureResultSetsAd {
        * Name eines Parameters der Prozedur "&#64;ProcedureName". Die Rückgabemenge wird nur geliefert, wenn beim Aufruf der für diesen Parameter angegebene Wert der Bedingung "Condition" genügt. ("NULL" bei der speziellen Bedingung "ProcedureResultConditionID = 0".)
        * </pre>
        *
-       * <code>optional .dstore.values.StringValue parameter_name = 10006;</code>
+       * <code>.dstore.values.StringValue parameter_name = 10006;</code>
        */
       io.dstore.values.StringValue getParameterName();
       /**
@@ -1248,7 +1248,7 @@ public final class DoGetProcedureResultSetsAd {
        * Name eines Parameters der Prozedur "&#64;ProcedureName". Die Rückgabemenge wird nur geliefert, wenn beim Aufruf der für diesen Parameter angegebene Wert der Bedingung "Condition" genügt. ("NULL" bei der speziellen Bedingung "ProcedureResultConditionID = 0".)
        * </pre>
        *
-       * <code>optional .dstore.values.StringValue parameter_name = 10006;</code>
+       * <code>.dstore.values.StringValue parameter_name = 10006;</code>
        */
       io.dstore.values.StringValueOrBuilder getParameterNameOrBuilder();
 
@@ -1257,7 +1257,7 @@ public final class DoGetProcedureResultSetsAd {
        * Gilt nur für einige numerische Daten-Typen (z.B. "decimal") und gibt die Genauigkeit, sprich die maximale Anzahl an Nachkomma-Stellen an, die ein Wert, der in der Spalte "ResultColumnName"steht, enthalten kann
        * </pre>
        *
-       * <code>optional .dstore.values.IntegerValue scale = 10007;</code>
+       * <code>.dstore.values.IntegerValue scale = 10007;</code>
        */
       boolean hasScale();
       /**
@@ -1265,7 +1265,7 @@ public final class DoGetProcedureResultSetsAd {
        * Gilt nur für einige numerische Daten-Typen (z.B. "decimal") und gibt die Genauigkeit, sprich die maximale Anzahl an Nachkomma-Stellen an, die ein Wert, der in der Spalte "ResultColumnName"steht, enthalten kann
        * </pre>
        *
-       * <code>optional .dstore.values.IntegerValue scale = 10007;</code>
+       * <code>.dstore.values.IntegerValue scale = 10007;</code>
        */
       io.dstore.values.IntegerValue getScale();
       /**
@@ -1273,7 +1273,7 @@ public final class DoGetProcedureResultSetsAd {
        * Gilt nur für einige numerische Daten-Typen (z.B. "decimal") und gibt die Genauigkeit, sprich die maximale Anzahl an Nachkomma-Stellen an, die ein Wert, der in der Spalte "ResultColumnName"steht, enthalten kann
        * </pre>
        *
-       * <code>optional .dstore.values.IntegerValue scale = 10007;</code>
+       * <code>.dstore.values.IntegerValue scale = 10007;</code>
        */
       io.dstore.values.IntegerValueOrBuilder getScaleOrBuilder();
 
@@ -1282,7 +1282,7 @@ public final class DoGetProcedureResultSetsAd {
        * Bestimmt die Reihenfolge der Spalte "ResultColumnName" innerhalb aller Rückgabespalten. "0" bedeutet, daß sie nicht ausgegeben wird, also entweder in einer älteren Version vorhanden war (aber aktuell nicht mehr gültig ist) oder nur zur Sortierung dient.
        * </pre>
        *
-       * <code>optional .dstore.values.IntegerValue sort_no = 10008;</code>
+       * <code>.dstore.values.IntegerValue sort_no = 10008;</code>
        */
       boolean hasSortNo();
       /**
@@ -1290,7 +1290,7 @@ public final class DoGetProcedureResultSetsAd {
        * Bestimmt die Reihenfolge der Spalte "ResultColumnName" innerhalb aller Rückgabespalten. "0" bedeutet, daß sie nicht ausgegeben wird, also entweder in einer älteren Version vorhanden war (aber aktuell nicht mehr gültig ist) oder nur zur Sortierung dient.
        * </pre>
        *
-       * <code>optional .dstore.values.IntegerValue sort_no = 10008;</code>
+       * <code>.dstore.values.IntegerValue sort_no = 10008;</code>
        */
       io.dstore.values.IntegerValue getSortNo();
       /**
@@ -1298,7 +1298,7 @@ public final class DoGetProcedureResultSetsAd {
        * Bestimmt die Reihenfolge der Spalte "ResultColumnName" innerhalb aller Rückgabespalten. "0" bedeutet, daß sie nicht ausgegeben wird, also entweder in einer älteren Version vorhanden war (aber aktuell nicht mehr gültig ist) oder nur zur Sortierung dient.
        * </pre>
        *
-       * <code>optional .dstore.values.IntegerValue sort_no = 10008;</code>
+       * <code>.dstore.values.IntegerValue sort_no = 10008;</code>
        */
       io.dstore.values.IntegerValueOrBuilder getSortNoOrBuilder();
 
@@ -1307,7 +1307,7 @@ public final class DoGetProcedureResultSetsAd {
        * Name einer Rückgabespalte der Ergebnismenge
        * </pre>
        *
-       * <code>optional .dstore.values.StringValue result_column_name = 10009;</code>
+       * <code>.dstore.values.StringValue result_column_name = 10009;</code>
        */
       boolean hasResultColumnName();
       /**
@@ -1315,7 +1315,7 @@ public final class DoGetProcedureResultSetsAd {
        * Name einer Rückgabespalte der Ergebnismenge
        * </pre>
        *
-       * <code>optional .dstore.values.StringValue result_column_name = 10009;</code>
+       * <code>.dstore.values.StringValue result_column_name = 10009;</code>
        */
       io.dstore.values.StringValue getResultColumnName();
       /**
@@ -1323,7 +1323,7 @@ public final class DoGetProcedureResultSetsAd {
        * Name einer Rückgabespalte der Ergebnismenge
        * </pre>
        *
-       * <code>optional .dstore.values.StringValue result_column_name = 10009;</code>
+       * <code>.dstore.values.StringValue result_column_name = 10009;</code>
        */
       io.dstore.values.StringValueOrBuilder getResultColumnNameOrBuilder();
 
@@ -1332,7 +1332,7 @@ public final class DoGetProcedureResultSetsAd {
        * Wieviel Byte können Werte, die in der Spalte "ResultColumnName" ausgegeben werden, maximal enthalten. Bei vielen Daten-Typen ist die Speicherbelegung immer so groß wie dieser Wert (bei numerischen Daten-Typen z.B.).
        * </pre>
        *
-       * <code>optional .dstore.values.IntegerValue length = 10010;</code>
+       * <code>.dstore.values.IntegerValue length = 10010;</code>
        */
       boolean hasLength();
       /**
@@ -1340,7 +1340,7 @@ public final class DoGetProcedureResultSetsAd {
        * Wieviel Byte können Werte, die in der Spalte "ResultColumnName" ausgegeben werden, maximal enthalten. Bei vielen Daten-Typen ist die Speicherbelegung immer so groß wie dieser Wert (bei numerischen Daten-Typen z.B.).
        * </pre>
        *
-       * <code>optional .dstore.values.IntegerValue length = 10010;</code>
+       * <code>.dstore.values.IntegerValue length = 10010;</code>
        */
       io.dstore.values.IntegerValue getLength();
       /**
@@ -1348,7 +1348,7 @@ public final class DoGetProcedureResultSetsAd {
        * Wieviel Byte können Werte, die in der Spalte "ResultColumnName" ausgegeben werden, maximal enthalten. Bei vielen Daten-Typen ist die Speicherbelegung immer so groß wie dieser Wert (bei numerischen Daten-Typen z.B.).
        * </pre>
        *
-       * <code>optional .dstore.values.IntegerValue length = 10010;</code>
+       * <code>.dstore.values.IntegerValue length = 10010;</code>
        */
       io.dstore.values.IntegerValueOrBuilder getLengthOrBuilder();
 
@@ -1357,7 +1357,7 @@ public final class DoGetProcedureResultSetsAd {
        * Wann die Beschreibung ("Description") zuletzt editiert wurde
        * </pre>
        *
-       * <code>optional .dstore.values.TimestampValue description_last_edited = 10011;</code>
+       * <code>.dstore.values.TimestampValue description_last_edited = 10011;</code>
        */
       boolean hasDescriptionLastEdited();
       /**
@@ -1365,7 +1365,7 @@ public final class DoGetProcedureResultSetsAd {
        * Wann die Beschreibung ("Description") zuletzt editiert wurde
        * </pre>
        *
-       * <code>optional .dstore.values.TimestampValue description_last_edited = 10011;</code>
+       * <code>.dstore.values.TimestampValue description_last_edited = 10011;</code>
        */
       io.dstore.values.TimestampValue getDescriptionLastEdited();
       /**
@@ -1373,7 +1373,7 @@ public final class DoGetProcedureResultSetsAd {
        * Wann die Beschreibung ("Description") zuletzt editiert wurde
        * </pre>
        *
-       * <code>optional .dstore.values.TimestampValue description_last_edited = 10011;</code>
+       * <code>.dstore.values.TimestampValue description_last_edited = 10011;</code>
        */
       io.dstore.values.TimestampValueOrBuilder getDescriptionLastEditedOrBuilder();
 
@@ -1382,7 +1382,7 @@ public final class DoGetProcedureResultSetsAd {
        * Seit welcher Version gibt es die Spalte "ResultColumnName"
        * </pre>
        *
-       * <code>optional .dstore.values.StringValue introduced_indstore_version = 10012;</code>
+       * <code>.dstore.values.StringValue introduced_indstore_version = 10012;</code>
        */
       boolean hasIntroducedIndstoreVersion();
       /**
@@ -1390,7 +1390,7 @@ public final class DoGetProcedureResultSetsAd {
        * Seit welcher Version gibt es die Spalte "ResultColumnName"
        * </pre>
        *
-       * <code>optional .dstore.values.StringValue introduced_indstore_version = 10012;</code>
+       * <code>.dstore.values.StringValue introduced_indstore_version = 10012;</code>
        */
       io.dstore.values.StringValue getIntroducedIndstoreVersion();
       /**
@@ -1398,7 +1398,7 @@ public final class DoGetProcedureResultSetsAd {
        * Seit welcher Version gibt es die Spalte "ResultColumnName"
        * </pre>
        *
-       * <code>optional .dstore.values.StringValue introduced_indstore_version = 10012;</code>
+       * <code>.dstore.values.StringValue introduced_indstore_version = 10012;</code>
        */
       io.dstore.values.StringValueOrBuilder getIntroducedIndstoreVersionOrBuilder();
 
@@ -1407,7 +1407,7 @@ public final class DoGetProcedureResultSetsAd {
        * Gibt den Daten-Typ der Spalte "ResultColumnName" an ("varchar", "tinyint", etc.)
        * </pre>
        *
-       * <code>optional .dstore.values.StringValue data_type = 10013;</code>
+       * <code>.dstore.values.StringValue data_type = 10013;</code>
        */
       boolean hasDataType();
       /**
@@ -1415,7 +1415,7 @@ public final class DoGetProcedureResultSetsAd {
        * Gibt den Daten-Typ der Spalte "ResultColumnName" an ("varchar", "tinyint", etc.)
        * </pre>
        *
-       * <code>optional .dstore.values.StringValue data_type = 10013;</code>
+       * <code>.dstore.values.StringValue data_type = 10013;</code>
        */
       io.dstore.values.StringValue getDataType();
       /**
@@ -1423,7 +1423,7 @@ public final class DoGetProcedureResultSetsAd {
        * Gibt den Daten-Typ der Spalte "ResultColumnName" an ("varchar", "tinyint", etc.)
        * </pre>
        *
-       * <code>optional .dstore.values.StringValue data_type = 10013;</code>
+       * <code>.dstore.values.StringValue data_type = 10013;</code>
        */
       io.dstore.values.StringValueOrBuilder getDataTypeOrBuilder();
 
@@ -1432,7 +1432,7 @@ public final class DoGetProcedureResultSetsAd {
        * Bezeichnung der Bedingung "ProcedureResultConditionID". Derzeit entweder "Parameterunabhängige Rückgabemenge" oder aber &lt;ProzedurName&gt;_&lt;fortlaufende Nummer&gt;.
        * </pre>
        *
-       * <code>optional .dstore.values.StringValue proc_result_cond_description = 10014;</code>
+       * <code>.dstore.values.StringValue proc_result_cond_description = 10014;</code>
        */
       boolean hasProcResultCondDescription();
       /**
@@ -1440,7 +1440,7 @@ public final class DoGetProcedureResultSetsAd {
        * Bezeichnung der Bedingung "ProcedureResultConditionID". Derzeit entweder "Parameterunabhängige Rückgabemenge" oder aber &lt;ProzedurName&gt;_&lt;fortlaufende Nummer&gt;.
        * </pre>
        *
-       * <code>optional .dstore.values.StringValue proc_result_cond_description = 10014;</code>
+       * <code>.dstore.values.StringValue proc_result_cond_description = 10014;</code>
        */
       io.dstore.values.StringValue getProcResultCondDescription();
       /**
@@ -1448,7 +1448,7 @@ public final class DoGetProcedureResultSetsAd {
        * Bezeichnung der Bedingung "ProcedureResultConditionID". Derzeit entweder "Parameterunabhängige Rückgabemenge" oder aber &lt;ProzedurName&gt;_&lt;fortlaufende Nummer&gt;.
        * </pre>
        *
-       * <code>optional .dstore.values.StringValue proc_result_cond_description = 10014;</code>
+       * <code>.dstore.values.StringValue proc_result_cond_description = 10014;</code>
        */
       io.dstore.values.StringValueOrBuilder getProcResultCondDescriptionOrBuilder();
     }
@@ -1705,7 +1705,7 @@ public final class DoGetProcedureResultSetsAd {
       public static final int ROW_ID_FIELD_NUMBER = 10000;
       private int rowId_;
       /**
-       * <code>optional int32 row_id = 10000;</code>
+       * <code>int32 row_id = 10000;</code>
        */
       public int getRowId() {
         return rowId_;
@@ -1718,7 +1718,7 @@ public final class DoGetProcedureResultSetsAd {
        * Die Rückgabemenge wird nur geliefert, wenn der für "ParameterName" übergebene Wert dieser Bedingung genügt. Fast immer handelt es sich hier um eine Bedingung, die in SQL ausgewertet werden kann, zumindest aber mit Hilfe von regulären Ausdrücken.
        * </pre>
        *
-       * <code>optional .dstore.values.StringValue condition = 10001;</code>
+       * <code>.dstore.values.StringValue condition = 10001;</code>
        */
       public boolean hasCondition() {
         return condition_ != null;
@@ -1728,7 +1728,7 @@ public final class DoGetProcedureResultSetsAd {
        * Die Rückgabemenge wird nur geliefert, wenn der für "ParameterName" übergebene Wert dieser Bedingung genügt. Fast immer handelt es sich hier um eine Bedingung, die in SQL ausgewertet werden kann, zumindest aber mit Hilfe von regulären Ausdrücken.
        * </pre>
        *
-       * <code>optional .dstore.values.StringValue condition = 10001;</code>
+       * <code>.dstore.values.StringValue condition = 10001;</code>
        */
       public io.dstore.values.StringValue getCondition() {
         return condition_ == null ? io.dstore.values.StringValue.getDefaultInstance() : condition_;
@@ -1738,7 +1738,7 @@ public final class DoGetProcedureResultSetsAd {
        * Die Rückgabemenge wird nur geliefert, wenn der für "ParameterName" übergebene Wert dieser Bedingung genügt. Fast immer handelt es sich hier um eine Bedingung, die in SQL ausgewertet werden kann, zumindest aber mit Hilfe von regulären Ausdrücken.
        * </pre>
        *
-       * <code>optional .dstore.values.StringValue condition = 10001;</code>
+       * <code>.dstore.values.StringValue condition = 10001;</code>
        */
       public io.dstore.values.StringValueOrBuilder getConditionOrBuilder() {
         return getCondition();
@@ -1751,7 +1751,7 @@ public final class DoGetProcedureResultSetsAd {
        * ID einer Bedingung, unter der die Spalten "ResultColumnName" (also alle Datensätze mit gleichem Wert in dieser Spalte) als Ergebnismenge zurückgegeben werden. "0" bedeutet, daß die Rückgabemenge an keine Bedingung gebunden ist. (siehe Beschreibung !)
        * </pre>
        *
-       * <code>optional .dstore.values.IntegerValue procedure_result_condition_id = 10002;</code>
+       * <code>.dstore.values.IntegerValue procedure_result_condition_id = 10002;</code>
        */
       public boolean hasProcedureResultConditionId() {
         return procedureResultConditionId_ != null;
@@ -1761,7 +1761,7 @@ public final class DoGetProcedureResultSetsAd {
        * ID einer Bedingung, unter der die Spalten "ResultColumnName" (also alle Datensätze mit gleichem Wert in dieser Spalte) als Ergebnismenge zurückgegeben werden. "0" bedeutet, daß die Rückgabemenge an keine Bedingung gebunden ist. (siehe Beschreibung !)
        * </pre>
        *
-       * <code>optional .dstore.values.IntegerValue procedure_result_condition_id = 10002;</code>
+       * <code>.dstore.values.IntegerValue procedure_result_condition_id = 10002;</code>
        */
       public io.dstore.values.IntegerValue getProcedureResultConditionId() {
         return procedureResultConditionId_ == null ? io.dstore.values.IntegerValue.getDefaultInstance() : procedureResultConditionId_;
@@ -1771,7 +1771,7 @@ public final class DoGetProcedureResultSetsAd {
        * ID einer Bedingung, unter der die Spalten "ResultColumnName" (also alle Datensätze mit gleichem Wert in dieser Spalte) als Ergebnismenge zurückgegeben werden. "0" bedeutet, daß die Rückgabemenge an keine Bedingung gebunden ist. (siehe Beschreibung !)
        * </pre>
        *
-       * <code>optional .dstore.values.IntegerValue procedure_result_condition_id = 10002;</code>
+       * <code>.dstore.values.IntegerValue procedure_result_condition_id = 10002;</code>
        */
       public io.dstore.values.IntegerValueOrBuilder getProcedureResultConditionIdOrBuilder() {
         return getProcedureResultConditionId();
@@ -1784,7 +1784,7 @@ public final class DoGetProcedureResultSetsAd {
        * Seit welcher Version die Beschreibung ("Description") gilt
        * </pre>
        *
-       * <code>optional .dstore.values.StringValue description_valid_since_version = 10003;</code>
+       * <code>.dstore.values.StringValue description_valid_since_version = 10003;</code>
        */
       public boolean hasDescriptionValidSinceVersion() {
         return descriptionValidSinceVersion_ != null;
@@ -1794,7 +1794,7 @@ public final class DoGetProcedureResultSetsAd {
        * Seit welcher Version die Beschreibung ("Description") gilt
        * </pre>
        *
-       * <code>optional .dstore.values.StringValue description_valid_since_version = 10003;</code>
+       * <code>.dstore.values.StringValue description_valid_since_version = 10003;</code>
        */
       public io.dstore.values.StringValue getDescriptionValidSinceVersion() {
         return descriptionValidSinceVersion_ == null ? io.dstore.values.StringValue.getDefaultInstance() : descriptionValidSinceVersion_;
@@ -1804,7 +1804,7 @@ public final class DoGetProcedureResultSetsAd {
        * Seit welcher Version die Beschreibung ("Description") gilt
        * </pre>
        *
-       * <code>optional .dstore.values.StringValue description_valid_since_version = 10003;</code>
+       * <code>.dstore.values.StringValue description_valid_since_version = 10003;</code>
        */
       public io.dstore.values.StringValueOrBuilder getDescriptionValidSinceVersionOrBuilder() {
         return getDescriptionValidSinceVersion();
@@ -1817,7 +1817,7 @@ public final class DoGetProcedureResultSetsAd {
        * Beschreibung der Spalte "ResultColumnName", also was die Werte in dieser Spalte besagen oder bedeuten
        * </pre>
        *
-       * <code>optional .dstore.values.StringValue description = 10004;</code>
+       * <code>.dstore.values.StringValue description = 10004;</code>
        */
       public boolean hasDescription() {
         return description_ != null;
@@ -1827,7 +1827,7 @@ public final class DoGetProcedureResultSetsAd {
        * Beschreibung der Spalte "ResultColumnName", also was die Werte in dieser Spalte besagen oder bedeuten
        * </pre>
        *
-       * <code>optional .dstore.values.StringValue description = 10004;</code>
+       * <code>.dstore.values.StringValue description = 10004;</code>
        */
       public io.dstore.values.StringValue getDescription() {
         return description_ == null ? io.dstore.values.StringValue.getDefaultInstance() : description_;
@@ -1837,7 +1837,7 @@ public final class DoGetProcedureResultSetsAd {
        * Beschreibung der Spalte "ResultColumnName", also was die Werte in dieser Spalte besagen oder bedeuten
        * </pre>
        *
-       * <code>optional .dstore.values.StringValue description = 10004;</code>
+       * <code>.dstore.values.StringValue description = 10004;</code>
        */
       public io.dstore.values.StringValueOrBuilder getDescriptionOrBuilder() {
         return getDescription();
@@ -1850,7 +1850,7 @@ public final class DoGetProcedureResultSetsAd {
        * Gilt nur für einige numerische Daten-Typen (z.B. "decimal") und gibt die maximale Anzahl Stellen an, die ein Wert, der in der Spalte "ResultColumnName" steht, enthalten kann
        * </pre>
        *
-       * <code>optional .dstore.values.IntegerValue precision_value = 10005;</code>
+       * <code>.dstore.values.IntegerValue precision_value = 10005;</code>
        */
       public boolean hasPrecisionValue() {
         return precisionValue_ != null;
@@ -1860,7 +1860,7 @@ public final class DoGetProcedureResultSetsAd {
        * Gilt nur für einige numerische Daten-Typen (z.B. "decimal") und gibt die maximale Anzahl Stellen an, die ein Wert, der in der Spalte "ResultColumnName" steht, enthalten kann
        * </pre>
        *
-       * <code>optional .dstore.values.IntegerValue precision_value = 10005;</code>
+       * <code>.dstore.values.IntegerValue precision_value = 10005;</code>
        */
       public io.dstore.values.IntegerValue getPrecisionValue() {
         return precisionValue_ == null ? io.dstore.values.IntegerValue.getDefaultInstance() : precisionValue_;
@@ -1870,7 +1870,7 @@ public final class DoGetProcedureResultSetsAd {
        * Gilt nur für einige numerische Daten-Typen (z.B. "decimal") und gibt die maximale Anzahl Stellen an, die ein Wert, der in der Spalte "ResultColumnName" steht, enthalten kann
        * </pre>
        *
-       * <code>optional .dstore.values.IntegerValue precision_value = 10005;</code>
+       * <code>.dstore.values.IntegerValue precision_value = 10005;</code>
        */
       public io.dstore.values.IntegerValueOrBuilder getPrecisionValueOrBuilder() {
         return getPrecisionValue();
@@ -1883,7 +1883,7 @@ public final class DoGetProcedureResultSetsAd {
        * Name eines Parameters der Prozedur "&#64;ProcedureName". Die Rückgabemenge wird nur geliefert, wenn beim Aufruf der für diesen Parameter angegebene Wert der Bedingung "Condition" genügt. ("NULL" bei der speziellen Bedingung "ProcedureResultConditionID = 0".)
        * </pre>
        *
-       * <code>optional .dstore.values.StringValue parameter_name = 10006;</code>
+       * <code>.dstore.values.StringValue parameter_name = 10006;</code>
        */
       public boolean hasParameterName() {
         return parameterName_ != null;
@@ -1893,7 +1893,7 @@ public final class DoGetProcedureResultSetsAd {
        * Name eines Parameters der Prozedur "&#64;ProcedureName". Die Rückgabemenge wird nur geliefert, wenn beim Aufruf der für diesen Parameter angegebene Wert der Bedingung "Condition" genügt. ("NULL" bei der speziellen Bedingung "ProcedureResultConditionID = 0".)
        * </pre>
        *
-       * <code>optional .dstore.values.StringValue parameter_name = 10006;</code>
+       * <code>.dstore.values.StringValue parameter_name = 10006;</code>
        */
       public io.dstore.values.StringValue getParameterName() {
         return parameterName_ == null ? io.dstore.values.StringValue.getDefaultInstance() : parameterName_;
@@ -1903,7 +1903,7 @@ public final class DoGetProcedureResultSetsAd {
        * Name eines Parameters der Prozedur "&#64;ProcedureName". Die Rückgabemenge wird nur geliefert, wenn beim Aufruf der für diesen Parameter angegebene Wert der Bedingung "Condition" genügt. ("NULL" bei der speziellen Bedingung "ProcedureResultConditionID = 0".)
        * </pre>
        *
-       * <code>optional .dstore.values.StringValue parameter_name = 10006;</code>
+       * <code>.dstore.values.StringValue parameter_name = 10006;</code>
        */
       public io.dstore.values.StringValueOrBuilder getParameterNameOrBuilder() {
         return getParameterName();
@@ -1916,7 +1916,7 @@ public final class DoGetProcedureResultSetsAd {
        * Gilt nur für einige numerische Daten-Typen (z.B. "decimal") und gibt die Genauigkeit, sprich die maximale Anzahl an Nachkomma-Stellen an, die ein Wert, der in der Spalte "ResultColumnName"steht, enthalten kann
        * </pre>
        *
-       * <code>optional .dstore.values.IntegerValue scale = 10007;</code>
+       * <code>.dstore.values.IntegerValue scale = 10007;</code>
        */
       public boolean hasScale() {
         return scale_ != null;
@@ -1926,7 +1926,7 @@ public final class DoGetProcedureResultSetsAd {
        * Gilt nur für einige numerische Daten-Typen (z.B. "decimal") und gibt die Genauigkeit, sprich die maximale Anzahl an Nachkomma-Stellen an, die ein Wert, der in der Spalte "ResultColumnName"steht, enthalten kann
        * </pre>
        *
-       * <code>optional .dstore.values.IntegerValue scale = 10007;</code>
+       * <code>.dstore.values.IntegerValue scale = 10007;</code>
        */
       public io.dstore.values.IntegerValue getScale() {
         return scale_ == null ? io.dstore.values.IntegerValue.getDefaultInstance() : scale_;
@@ -1936,7 +1936,7 @@ public final class DoGetProcedureResultSetsAd {
        * Gilt nur für einige numerische Daten-Typen (z.B. "decimal") und gibt die Genauigkeit, sprich die maximale Anzahl an Nachkomma-Stellen an, die ein Wert, der in der Spalte "ResultColumnName"steht, enthalten kann
        * </pre>
        *
-       * <code>optional .dstore.values.IntegerValue scale = 10007;</code>
+       * <code>.dstore.values.IntegerValue scale = 10007;</code>
        */
       public io.dstore.values.IntegerValueOrBuilder getScaleOrBuilder() {
         return getScale();
@@ -1949,7 +1949,7 @@ public final class DoGetProcedureResultSetsAd {
        * Bestimmt die Reihenfolge der Spalte "ResultColumnName" innerhalb aller Rückgabespalten. "0" bedeutet, daß sie nicht ausgegeben wird, also entweder in einer älteren Version vorhanden war (aber aktuell nicht mehr gültig ist) oder nur zur Sortierung dient.
        * </pre>
        *
-       * <code>optional .dstore.values.IntegerValue sort_no = 10008;</code>
+       * <code>.dstore.values.IntegerValue sort_no = 10008;</code>
        */
       public boolean hasSortNo() {
         return sortNo_ != null;
@@ -1959,7 +1959,7 @@ public final class DoGetProcedureResultSetsAd {
        * Bestimmt die Reihenfolge der Spalte "ResultColumnName" innerhalb aller Rückgabespalten. "0" bedeutet, daß sie nicht ausgegeben wird, also entweder in einer älteren Version vorhanden war (aber aktuell nicht mehr gültig ist) oder nur zur Sortierung dient.
        * </pre>
        *
-       * <code>optional .dstore.values.IntegerValue sort_no = 10008;</code>
+       * <code>.dstore.values.IntegerValue sort_no = 10008;</code>
        */
       public io.dstore.values.IntegerValue getSortNo() {
         return sortNo_ == null ? io.dstore.values.IntegerValue.getDefaultInstance() : sortNo_;
@@ -1969,7 +1969,7 @@ public final class DoGetProcedureResultSetsAd {
        * Bestimmt die Reihenfolge der Spalte "ResultColumnName" innerhalb aller Rückgabespalten. "0" bedeutet, daß sie nicht ausgegeben wird, also entweder in einer älteren Version vorhanden war (aber aktuell nicht mehr gültig ist) oder nur zur Sortierung dient.
        * </pre>
        *
-       * <code>optional .dstore.values.IntegerValue sort_no = 10008;</code>
+       * <code>.dstore.values.IntegerValue sort_no = 10008;</code>
        */
       public io.dstore.values.IntegerValueOrBuilder getSortNoOrBuilder() {
         return getSortNo();
@@ -1982,7 +1982,7 @@ public final class DoGetProcedureResultSetsAd {
        * Name einer Rückgabespalte der Ergebnismenge
        * </pre>
        *
-       * <code>optional .dstore.values.StringValue result_column_name = 10009;</code>
+       * <code>.dstore.values.StringValue result_column_name = 10009;</code>
        */
       public boolean hasResultColumnName() {
         return resultColumnName_ != null;
@@ -1992,7 +1992,7 @@ public final class DoGetProcedureResultSetsAd {
        * Name einer Rückgabespalte der Ergebnismenge
        * </pre>
        *
-       * <code>optional .dstore.values.StringValue result_column_name = 10009;</code>
+       * <code>.dstore.values.StringValue result_column_name = 10009;</code>
        */
       public io.dstore.values.StringValue getResultColumnName() {
         return resultColumnName_ == null ? io.dstore.values.StringValue.getDefaultInstance() : resultColumnName_;
@@ -2002,7 +2002,7 @@ public final class DoGetProcedureResultSetsAd {
        * Name einer Rückgabespalte der Ergebnismenge
        * </pre>
        *
-       * <code>optional .dstore.values.StringValue result_column_name = 10009;</code>
+       * <code>.dstore.values.StringValue result_column_name = 10009;</code>
        */
       public io.dstore.values.StringValueOrBuilder getResultColumnNameOrBuilder() {
         return getResultColumnName();
@@ -2015,7 +2015,7 @@ public final class DoGetProcedureResultSetsAd {
        * Wieviel Byte können Werte, die in der Spalte "ResultColumnName" ausgegeben werden, maximal enthalten. Bei vielen Daten-Typen ist die Speicherbelegung immer so groß wie dieser Wert (bei numerischen Daten-Typen z.B.).
        * </pre>
        *
-       * <code>optional .dstore.values.IntegerValue length = 10010;</code>
+       * <code>.dstore.values.IntegerValue length = 10010;</code>
        */
       public boolean hasLength() {
         return length_ != null;
@@ -2025,7 +2025,7 @@ public final class DoGetProcedureResultSetsAd {
        * Wieviel Byte können Werte, die in der Spalte "ResultColumnName" ausgegeben werden, maximal enthalten. Bei vielen Daten-Typen ist die Speicherbelegung immer so groß wie dieser Wert (bei numerischen Daten-Typen z.B.).
        * </pre>
        *
-       * <code>optional .dstore.values.IntegerValue length = 10010;</code>
+       * <code>.dstore.values.IntegerValue length = 10010;</code>
        */
       public io.dstore.values.IntegerValue getLength() {
         return length_ == null ? io.dstore.values.IntegerValue.getDefaultInstance() : length_;
@@ -2035,7 +2035,7 @@ public final class DoGetProcedureResultSetsAd {
        * Wieviel Byte können Werte, die in der Spalte "ResultColumnName" ausgegeben werden, maximal enthalten. Bei vielen Daten-Typen ist die Speicherbelegung immer so groß wie dieser Wert (bei numerischen Daten-Typen z.B.).
        * </pre>
        *
-       * <code>optional .dstore.values.IntegerValue length = 10010;</code>
+       * <code>.dstore.values.IntegerValue length = 10010;</code>
        */
       public io.dstore.values.IntegerValueOrBuilder getLengthOrBuilder() {
         return getLength();
@@ -2048,7 +2048,7 @@ public final class DoGetProcedureResultSetsAd {
        * Wann die Beschreibung ("Description") zuletzt editiert wurde
        * </pre>
        *
-       * <code>optional .dstore.values.TimestampValue description_last_edited = 10011;</code>
+       * <code>.dstore.values.TimestampValue description_last_edited = 10011;</code>
        */
       public boolean hasDescriptionLastEdited() {
         return descriptionLastEdited_ != null;
@@ -2058,7 +2058,7 @@ public final class DoGetProcedureResultSetsAd {
        * Wann die Beschreibung ("Description") zuletzt editiert wurde
        * </pre>
        *
-       * <code>optional .dstore.values.TimestampValue description_last_edited = 10011;</code>
+       * <code>.dstore.values.TimestampValue description_last_edited = 10011;</code>
        */
       public io.dstore.values.TimestampValue getDescriptionLastEdited() {
         return descriptionLastEdited_ == null ? io.dstore.values.TimestampValue.getDefaultInstance() : descriptionLastEdited_;
@@ -2068,7 +2068,7 @@ public final class DoGetProcedureResultSetsAd {
        * Wann die Beschreibung ("Description") zuletzt editiert wurde
        * </pre>
        *
-       * <code>optional .dstore.values.TimestampValue description_last_edited = 10011;</code>
+       * <code>.dstore.values.TimestampValue description_last_edited = 10011;</code>
        */
       public io.dstore.values.TimestampValueOrBuilder getDescriptionLastEditedOrBuilder() {
         return getDescriptionLastEdited();
@@ -2081,7 +2081,7 @@ public final class DoGetProcedureResultSetsAd {
        * Seit welcher Version gibt es die Spalte "ResultColumnName"
        * </pre>
        *
-       * <code>optional .dstore.values.StringValue introduced_indstore_version = 10012;</code>
+       * <code>.dstore.values.StringValue introduced_indstore_version = 10012;</code>
        */
       public boolean hasIntroducedIndstoreVersion() {
         return introducedIndstoreVersion_ != null;
@@ -2091,7 +2091,7 @@ public final class DoGetProcedureResultSetsAd {
        * Seit welcher Version gibt es die Spalte "ResultColumnName"
        * </pre>
        *
-       * <code>optional .dstore.values.StringValue introduced_indstore_version = 10012;</code>
+       * <code>.dstore.values.StringValue introduced_indstore_version = 10012;</code>
        */
       public io.dstore.values.StringValue getIntroducedIndstoreVersion() {
         return introducedIndstoreVersion_ == null ? io.dstore.values.StringValue.getDefaultInstance() : introducedIndstoreVersion_;
@@ -2101,7 +2101,7 @@ public final class DoGetProcedureResultSetsAd {
        * Seit welcher Version gibt es die Spalte "ResultColumnName"
        * </pre>
        *
-       * <code>optional .dstore.values.StringValue introduced_indstore_version = 10012;</code>
+       * <code>.dstore.values.StringValue introduced_indstore_version = 10012;</code>
        */
       public io.dstore.values.StringValueOrBuilder getIntroducedIndstoreVersionOrBuilder() {
         return getIntroducedIndstoreVersion();
@@ -2114,7 +2114,7 @@ public final class DoGetProcedureResultSetsAd {
        * Gibt den Daten-Typ der Spalte "ResultColumnName" an ("varchar", "tinyint", etc.)
        * </pre>
        *
-       * <code>optional .dstore.values.StringValue data_type = 10013;</code>
+       * <code>.dstore.values.StringValue data_type = 10013;</code>
        */
       public boolean hasDataType() {
         return dataType_ != null;
@@ -2124,7 +2124,7 @@ public final class DoGetProcedureResultSetsAd {
        * Gibt den Daten-Typ der Spalte "ResultColumnName" an ("varchar", "tinyint", etc.)
        * </pre>
        *
-       * <code>optional .dstore.values.StringValue data_type = 10013;</code>
+       * <code>.dstore.values.StringValue data_type = 10013;</code>
        */
       public io.dstore.values.StringValue getDataType() {
         return dataType_ == null ? io.dstore.values.StringValue.getDefaultInstance() : dataType_;
@@ -2134,7 +2134,7 @@ public final class DoGetProcedureResultSetsAd {
        * Gibt den Daten-Typ der Spalte "ResultColumnName" an ("varchar", "tinyint", etc.)
        * </pre>
        *
-       * <code>optional .dstore.values.StringValue data_type = 10013;</code>
+       * <code>.dstore.values.StringValue data_type = 10013;</code>
        */
       public io.dstore.values.StringValueOrBuilder getDataTypeOrBuilder() {
         return getDataType();
@@ -2147,7 +2147,7 @@ public final class DoGetProcedureResultSetsAd {
        * Bezeichnung der Bedingung "ProcedureResultConditionID". Derzeit entweder "Parameterunabhängige Rückgabemenge" oder aber &lt;ProzedurName&gt;_&lt;fortlaufende Nummer&gt;.
        * </pre>
        *
-       * <code>optional .dstore.values.StringValue proc_result_cond_description = 10014;</code>
+       * <code>.dstore.values.StringValue proc_result_cond_description = 10014;</code>
        */
       public boolean hasProcResultCondDescription() {
         return procResultCondDescription_ != null;
@@ -2157,7 +2157,7 @@ public final class DoGetProcedureResultSetsAd {
        * Bezeichnung der Bedingung "ProcedureResultConditionID". Derzeit entweder "Parameterunabhängige Rückgabemenge" oder aber &lt;ProzedurName&gt;_&lt;fortlaufende Nummer&gt;.
        * </pre>
        *
-       * <code>optional .dstore.values.StringValue proc_result_cond_description = 10014;</code>
+       * <code>.dstore.values.StringValue proc_result_cond_description = 10014;</code>
        */
       public io.dstore.values.StringValue getProcResultCondDescription() {
         return procResultCondDescription_ == null ? io.dstore.values.StringValue.getDefaultInstance() : procResultCondDescription_;
@@ -2167,7 +2167,7 @@ public final class DoGetProcedureResultSetsAd {
        * Bezeichnung der Bedingung "ProcedureResultConditionID". Derzeit entweder "Parameterunabhängige Rückgabemenge" oder aber &lt;ProzedurName&gt;_&lt;fortlaufende Nummer&gt;.
        * </pre>
        *
-       * <code>optional .dstore.values.StringValue proc_result_cond_description = 10014;</code>
+       * <code>.dstore.values.StringValue proc_result_cond_description = 10014;</code>
        */
       public io.dstore.values.StringValueOrBuilder getProcResultCondDescriptionOrBuilder() {
         return getProcResultCondDescription();
@@ -2394,7 +2394,7 @@ public final class DoGetProcedureResultSetsAd {
           return memoizedHashCode;
         }
         int hash = 41;
-        hash = (19 * hash) + getDescriptorForType().hashCode();
+        hash = (19 * hash) + getDescriptor().hashCode();
         hash = (37 * hash) + ROW_ID_FIELD_NUMBER;
         hash = (53 * hash) + getRowId();
         if (hasCondition()) {
@@ -2864,13 +2864,13 @@ public final class DoGetProcedureResultSetsAd {
 
         private int rowId_ ;
         /**
-         * <code>optional int32 row_id = 10000;</code>
+         * <code>int32 row_id = 10000;</code>
          */
         public int getRowId() {
           return rowId_;
         }
         /**
-         * <code>optional int32 row_id = 10000;</code>
+         * <code>int32 row_id = 10000;</code>
          */
         public Builder setRowId(int value) {
           
@@ -2879,7 +2879,7 @@ public final class DoGetProcedureResultSetsAd {
           return this;
         }
         /**
-         * <code>optional int32 row_id = 10000;</code>
+         * <code>int32 row_id = 10000;</code>
          */
         public Builder clearRowId() {
           
@@ -2896,7 +2896,7 @@ public final class DoGetProcedureResultSetsAd {
          * Die Rückgabemenge wird nur geliefert, wenn der für "ParameterName" übergebene Wert dieser Bedingung genügt. Fast immer handelt es sich hier um eine Bedingung, die in SQL ausgewertet werden kann, zumindest aber mit Hilfe von regulären Ausdrücken.
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue condition = 10001;</code>
+         * <code>.dstore.values.StringValue condition = 10001;</code>
          */
         public boolean hasCondition() {
           return conditionBuilder_ != null || condition_ != null;
@@ -2906,7 +2906,7 @@ public final class DoGetProcedureResultSetsAd {
          * Die Rückgabemenge wird nur geliefert, wenn der für "ParameterName" übergebene Wert dieser Bedingung genügt. Fast immer handelt es sich hier um eine Bedingung, die in SQL ausgewertet werden kann, zumindest aber mit Hilfe von regulären Ausdrücken.
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue condition = 10001;</code>
+         * <code>.dstore.values.StringValue condition = 10001;</code>
          */
         public io.dstore.values.StringValue getCondition() {
           if (conditionBuilder_ == null) {
@@ -2920,7 +2920,7 @@ public final class DoGetProcedureResultSetsAd {
          * Die Rückgabemenge wird nur geliefert, wenn der für "ParameterName" übergebene Wert dieser Bedingung genügt. Fast immer handelt es sich hier um eine Bedingung, die in SQL ausgewertet werden kann, zumindest aber mit Hilfe von regulären Ausdrücken.
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue condition = 10001;</code>
+         * <code>.dstore.values.StringValue condition = 10001;</code>
          */
         public Builder setCondition(io.dstore.values.StringValue value) {
           if (conditionBuilder_ == null) {
@@ -2940,7 +2940,7 @@ public final class DoGetProcedureResultSetsAd {
          * Die Rückgabemenge wird nur geliefert, wenn der für "ParameterName" übergebene Wert dieser Bedingung genügt. Fast immer handelt es sich hier um eine Bedingung, die in SQL ausgewertet werden kann, zumindest aber mit Hilfe von regulären Ausdrücken.
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue condition = 10001;</code>
+         * <code>.dstore.values.StringValue condition = 10001;</code>
          */
         public Builder setCondition(
             io.dstore.values.StringValue.Builder builderForValue) {
@@ -2958,7 +2958,7 @@ public final class DoGetProcedureResultSetsAd {
          * Die Rückgabemenge wird nur geliefert, wenn der für "ParameterName" übergebene Wert dieser Bedingung genügt. Fast immer handelt es sich hier um eine Bedingung, die in SQL ausgewertet werden kann, zumindest aber mit Hilfe von regulären Ausdrücken.
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue condition = 10001;</code>
+         * <code>.dstore.values.StringValue condition = 10001;</code>
          */
         public Builder mergeCondition(io.dstore.values.StringValue value) {
           if (conditionBuilder_ == null) {
@@ -2980,7 +2980,7 @@ public final class DoGetProcedureResultSetsAd {
          * Die Rückgabemenge wird nur geliefert, wenn der für "ParameterName" übergebene Wert dieser Bedingung genügt. Fast immer handelt es sich hier um eine Bedingung, die in SQL ausgewertet werden kann, zumindest aber mit Hilfe von regulären Ausdrücken.
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue condition = 10001;</code>
+         * <code>.dstore.values.StringValue condition = 10001;</code>
          */
         public Builder clearCondition() {
           if (conditionBuilder_ == null) {
@@ -2998,7 +2998,7 @@ public final class DoGetProcedureResultSetsAd {
          * Die Rückgabemenge wird nur geliefert, wenn der für "ParameterName" übergebene Wert dieser Bedingung genügt. Fast immer handelt es sich hier um eine Bedingung, die in SQL ausgewertet werden kann, zumindest aber mit Hilfe von regulären Ausdrücken.
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue condition = 10001;</code>
+         * <code>.dstore.values.StringValue condition = 10001;</code>
          */
         public io.dstore.values.StringValue.Builder getConditionBuilder() {
           
@@ -3010,7 +3010,7 @@ public final class DoGetProcedureResultSetsAd {
          * Die Rückgabemenge wird nur geliefert, wenn der für "ParameterName" übergebene Wert dieser Bedingung genügt. Fast immer handelt es sich hier um eine Bedingung, die in SQL ausgewertet werden kann, zumindest aber mit Hilfe von regulären Ausdrücken.
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue condition = 10001;</code>
+         * <code>.dstore.values.StringValue condition = 10001;</code>
          */
         public io.dstore.values.StringValueOrBuilder getConditionOrBuilder() {
           if (conditionBuilder_ != null) {
@@ -3025,7 +3025,7 @@ public final class DoGetProcedureResultSetsAd {
          * Die Rückgabemenge wird nur geliefert, wenn der für "ParameterName" übergebene Wert dieser Bedingung genügt. Fast immer handelt es sich hier um eine Bedingung, die in SQL ausgewertet werden kann, zumindest aber mit Hilfe von regulären Ausdrücken.
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue condition = 10001;</code>
+         * <code>.dstore.values.StringValue condition = 10001;</code>
          */
         private com.google.protobuf.SingleFieldBuilderV3<
             io.dstore.values.StringValue, io.dstore.values.StringValue.Builder, io.dstore.values.StringValueOrBuilder> 
@@ -3049,7 +3049,7 @@ public final class DoGetProcedureResultSetsAd {
          * ID einer Bedingung, unter der die Spalten "ResultColumnName" (also alle Datensätze mit gleichem Wert in dieser Spalte) als Ergebnismenge zurückgegeben werden. "0" bedeutet, daß die Rückgabemenge an keine Bedingung gebunden ist. (siehe Beschreibung !)
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue procedure_result_condition_id = 10002;</code>
+         * <code>.dstore.values.IntegerValue procedure_result_condition_id = 10002;</code>
          */
         public boolean hasProcedureResultConditionId() {
           return procedureResultConditionIdBuilder_ != null || procedureResultConditionId_ != null;
@@ -3059,7 +3059,7 @@ public final class DoGetProcedureResultSetsAd {
          * ID einer Bedingung, unter der die Spalten "ResultColumnName" (also alle Datensätze mit gleichem Wert in dieser Spalte) als Ergebnismenge zurückgegeben werden. "0" bedeutet, daß die Rückgabemenge an keine Bedingung gebunden ist. (siehe Beschreibung !)
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue procedure_result_condition_id = 10002;</code>
+         * <code>.dstore.values.IntegerValue procedure_result_condition_id = 10002;</code>
          */
         public io.dstore.values.IntegerValue getProcedureResultConditionId() {
           if (procedureResultConditionIdBuilder_ == null) {
@@ -3073,7 +3073,7 @@ public final class DoGetProcedureResultSetsAd {
          * ID einer Bedingung, unter der die Spalten "ResultColumnName" (also alle Datensätze mit gleichem Wert in dieser Spalte) als Ergebnismenge zurückgegeben werden. "0" bedeutet, daß die Rückgabemenge an keine Bedingung gebunden ist. (siehe Beschreibung !)
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue procedure_result_condition_id = 10002;</code>
+         * <code>.dstore.values.IntegerValue procedure_result_condition_id = 10002;</code>
          */
         public Builder setProcedureResultConditionId(io.dstore.values.IntegerValue value) {
           if (procedureResultConditionIdBuilder_ == null) {
@@ -3093,7 +3093,7 @@ public final class DoGetProcedureResultSetsAd {
          * ID einer Bedingung, unter der die Spalten "ResultColumnName" (also alle Datensätze mit gleichem Wert in dieser Spalte) als Ergebnismenge zurückgegeben werden. "0" bedeutet, daß die Rückgabemenge an keine Bedingung gebunden ist. (siehe Beschreibung !)
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue procedure_result_condition_id = 10002;</code>
+         * <code>.dstore.values.IntegerValue procedure_result_condition_id = 10002;</code>
          */
         public Builder setProcedureResultConditionId(
             io.dstore.values.IntegerValue.Builder builderForValue) {
@@ -3111,7 +3111,7 @@ public final class DoGetProcedureResultSetsAd {
          * ID einer Bedingung, unter der die Spalten "ResultColumnName" (also alle Datensätze mit gleichem Wert in dieser Spalte) als Ergebnismenge zurückgegeben werden. "0" bedeutet, daß die Rückgabemenge an keine Bedingung gebunden ist. (siehe Beschreibung !)
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue procedure_result_condition_id = 10002;</code>
+         * <code>.dstore.values.IntegerValue procedure_result_condition_id = 10002;</code>
          */
         public Builder mergeProcedureResultConditionId(io.dstore.values.IntegerValue value) {
           if (procedureResultConditionIdBuilder_ == null) {
@@ -3133,7 +3133,7 @@ public final class DoGetProcedureResultSetsAd {
          * ID einer Bedingung, unter der die Spalten "ResultColumnName" (also alle Datensätze mit gleichem Wert in dieser Spalte) als Ergebnismenge zurückgegeben werden. "0" bedeutet, daß die Rückgabemenge an keine Bedingung gebunden ist. (siehe Beschreibung !)
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue procedure_result_condition_id = 10002;</code>
+         * <code>.dstore.values.IntegerValue procedure_result_condition_id = 10002;</code>
          */
         public Builder clearProcedureResultConditionId() {
           if (procedureResultConditionIdBuilder_ == null) {
@@ -3151,7 +3151,7 @@ public final class DoGetProcedureResultSetsAd {
          * ID einer Bedingung, unter der die Spalten "ResultColumnName" (also alle Datensätze mit gleichem Wert in dieser Spalte) als Ergebnismenge zurückgegeben werden. "0" bedeutet, daß die Rückgabemenge an keine Bedingung gebunden ist. (siehe Beschreibung !)
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue procedure_result_condition_id = 10002;</code>
+         * <code>.dstore.values.IntegerValue procedure_result_condition_id = 10002;</code>
          */
         public io.dstore.values.IntegerValue.Builder getProcedureResultConditionIdBuilder() {
           
@@ -3163,7 +3163,7 @@ public final class DoGetProcedureResultSetsAd {
          * ID einer Bedingung, unter der die Spalten "ResultColumnName" (also alle Datensätze mit gleichem Wert in dieser Spalte) als Ergebnismenge zurückgegeben werden. "0" bedeutet, daß die Rückgabemenge an keine Bedingung gebunden ist. (siehe Beschreibung !)
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue procedure_result_condition_id = 10002;</code>
+         * <code>.dstore.values.IntegerValue procedure_result_condition_id = 10002;</code>
          */
         public io.dstore.values.IntegerValueOrBuilder getProcedureResultConditionIdOrBuilder() {
           if (procedureResultConditionIdBuilder_ != null) {
@@ -3178,7 +3178,7 @@ public final class DoGetProcedureResultSetsAd {
          * ID einer Bedingung, unter der die Spalten "ResultColumnName" (also alle Datensätze mit gleichem Wert in dieser Spalte) als Ergebnismenge zurückgegeben werden. "0" bedeutet, daß die Rückgabemenge an keine Bedingung gebunden ist. (siehe Beschreibung !)
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue procedure_result_condition_id = 10002;</code>
+         * <code>.dstore.values.IntegerValue procedure_result_condition_id = 10002;</code>
          */
         private com.google.protobuf.SingleFieldBuilderV3<
             io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> 
@@ -3202,7 +3202,7 @@ public final class DoGetProcedureResultSetsAd {
          * Seit welcher Version die Beschreibung ("Description") gilt
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue description_valid_since_version = 10003;</code>
+         * <code>.dstore.values.StringValue description_valid_since_version = 10003;</code>
          */
         public boolean hasDescriptionValidSinceVersion() {
           return descriptionValidSinceVersionBuilder_ != null || descriptionValidSinceVersion_ != null;
@@ -3212,7 +3212,7 @@ public final class DoGetProcedureResultSetsAd {
          * Seit welcher Version die Beschreibung ("Description") gilt
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue description_valid_since_version = 10003;</code>
+         * <code>.dstore.values.StringValue description_valid_since_version = 10003;</code>
          */
         public io.dstore.values.StringValue getDescriptionValidSinceVersion() {
           if (descriptionValidSinceVersionBuilder_ == null) {
@@ -3226,7 +3226,7 @@ public final class DoGetProcedureResultSetsAd {
          * Seit welcher Version die Beschreibung ("Description") gilt
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue description_valid_since_version = 10003;</code>
+         * <code>.dstore.values.StringValue description_valid_since_version = 10003;</code>
          */
         public Builder setDescriptionValidSinceVersion(io.dstore.values.StringValue value) {
           if (descriptionValidSinceVersionBuilder_ == null) {
@@ -3246,7 +3246,7 @@ public final class DoGetProcedureResultSetsAd {
          * Seit welcher Version die Beschreibung ("Description") gilt
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue description_valid_since_version = 10003;</code>
+         * <code>.dstore.values.StringValue description_valid_since_version = 10003;</code>
          */
         public Builder setDescriptionValidSinceVersion(
             io.dstore.values.StringValue.Builder builderForValue) {
@@ -3264,7 +3264,7 @@ public final class DoGetProcedureResultSetsAd {
          * Seit welcher Version die Beschreibung ("Description") gilt
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue description_valid_since_version = 10003;</code>
+         * <code>.dstore.values.StringValue description_valid_since_version = 10003;</code>
          */
         public Builder mergeDescriptionValidSinceVersion(io.dstore.values.StringValue value) {
           if (descriptionValidSinceVersionBuilder_ == null) {
@@ -3286,7 +3286,7 @@ public final class DoGetProcedureResultSetsAd {
          * Seit welcher Version die Beschreibung ("Description") gilt
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue description_valid_since_version = 10003;</code>
+         * <code>.dstore.values.StringValue description_valid_since_version = 10003;</code>
          */
         public Builder clearDescriptionValidSinceVersion() {
           if (descriptionValidSinceVersionBuilder_ == null) {
@@ -3304,7 +3304,7 @@ public final class DoGetProcedureResultSetsAd {
          * Seit welcher Version die Beschreibung ("Description") gilt
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue description_valid_since_version = 10003;</code>
+         * <code>.dstore.values.StringValue description_valid_since_version = 10003;</code>
          */
         public io.dstore.values.StringValue.Builder getDescriptionValidSinceVersionBuilder() {
           
@@ -3316,7 +3316,7 @@ public final class DoGetProcedureResultSetsAd {
          * Seit welcher Version die Beschreibung ("Description") gilt
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue description_valid_since_version = 10003;</code>
+         * <code>.dstore.values.StringValue description_valid_since_version = 10003;</code>
          */
         public io.dstore.values.StringValueOrBuilder getDescriptionValidSinceVersionOrBuilder() {
           if (descriptionValidSinceVersionBuilder_ != null) {
@@ -3331,7 +3331,7 @@ public final class DoGetProcedureResultSetsAd {
          * Seit welcher Version die Beschreibung ("Description") gilt
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue description_valid_since_version = 10003;</code>
+         * <code>.dstore.values.StringValue description_valid_since_version = 10003;</code>
          */
         private com.google.protobuf.SingleFieldBuilderV3<
             io.dstore.values.StringValue, io.dstore.values.StringValue.Builder, io.dstore.values.StringValueOrBuilder> 
@@ -3355,7 +3355,7 @@ public final class DoGetProcedureResultSetsAd {
          * Beschreibung der Spalte "ResultColumnName", also was die Werte in dieser Spalte besagen oder bedeuten
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue description = 10004;</code>
+         * <code>.dstore.values.StringValue description = 10004;</code>
          */
         public boolean hasDescription() {
           return descriptionBuilder_ != null || description_ != null;
@@ -3365,7 +3365,7 @@ public final class DoGetProcedureResultSetsAd {
          * Beschreibung der Spalte "ResultColumnName", also was die Werte in dieser Spalte besagen oder bedeuten
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue description = 10004;</code>
+         * <code>.dstore.values.StringValue description = 10004;</code>
          */
         public io.dstore.values.StringValue getDescription() {
           if (descriptionBuilder_ == null) {
@@ -3379,7 +3379,7 @@ public final class DoGetProcedureResultSetsAd {
          * Beschreibung der Spalte "ResultColumnName", also was die Werte in dieser Spalte besagen oder bedeuten
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue description = 10004;</code>
+         * <code>.dstore.values.StringValue description = 10004;</code>
          */
         public Builder setDescription(io.dstore.values.StringValue value) {
           if (descriptionBuilder_ == null) {
@@ -3399,7 +3399,7 @@ public final class DoGetProcedureResultSetsAd {
          * Beschreibung der Spalte "ResultColumnName", also was die Werte in dieser Spalte besagen oder bedeuten
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue description = 10004;</code>
+         * <code>.dstore.values.StringValue description = 10004;</code>
          */
         public Builder setDescription(
             io.dstore.values.StringValue.Builder builderForValue) {
@@ -3417,7 +3417,7 @@ public final class DoGetProcedureResultSetsAd {
          * Beschreibung der Spalte "ResultColumnName", also was die Werte in dieser Spalte besagen oder bedeuten
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue description = 10004;</code>
+         * <code>.dstore.values.StringValue description = 10004;</code>
          */
         public Builder mergeDescription(io.dstore.values.StringValue value) {
           if (descriptionBuilder_ == null) {
@@ -3439,7 +3439,7 @@ public final class DoGetProcedureResultSetsAd {
          * Beschreibung der Spalte "ResultColumnName", also was die Werte in dieser Spalte besagen oder bedeuten
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue description = 10004;</code>
+         * <code>.dstore.values.StringValue description = 10004;</code>
          */
         public Builder clearDescription() {
           if (descriptionBuilder_ == null) {
@@ -3457,7 +3457,7 @@ public final class DoGetProcedureResultSetsAd {
          * Beschreibung der Spalte "ResultColumnName", also was die Werte in dieser Spalte besagen oder bedeuten
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue description = 10004;</code>
+         * <code>.dstore.values.StringValue description = 10004;</code>
          */
         public io.dstore.values.StringValue.Builder getDescriptionBuilder() {
           
@@ -3469,7 +3469,7 @@ public final class DoGetProcedureResultSetsAd {
          * Beschreibung der Spalte "ResultColumnName", also was die Werte in dieser Spalte besagen oder bedeuten
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue description = 10004;</code>
+         * <code>.dstore.values.StringValue description = 10004;</code>
          */
         public io.dstore.values.StringValueOrBuilder getDescriptionOrBuilder() {
           if (descriptionBuilder_ != null) {
@@ -3484,7 +3484,7 @@ public final class DoGetProcedureResultSetsAd {
          * Beschreibung der Spalte "ResultColumnName", also was die Werte in dieser Spalte besagen oder bedeuten
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue description = 10004;</code>
+         * <code>.dstore.values.StringValue description = 10004;</code>
          */
         private com.google.protobuf.SingleFieldBuilderV3<
             io.dstore.values.StringValue, io.dstore.values.StringValue.Builder, io.dstore.values.StringValueOrBuilder> 
@@ -3508,7 +3508,7 @@ public final class DoGetProcedureResultSetsAd {
          * Gilt nur für einige numerische Daten-Typen (z.B. "decimal") und gibt die maximale Anzahl Stellen an, die ein Wert, der in der Spalte "ResultColumnName" steht, enthalten kann
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue precision_value = 10005;</code>
+         * <code>.dstore.values.IntegerValue precision_value = 10005;</code>
          */
         public boolean hasPrecisionValue() {
           return precisionValueBuilder_ != null || precisionValue_ != null;
@@ -3518,7 +3518,7 @@ public final class DoGetProcedureResultSetsAd {
          * Gilt nur für einige numerische Daten-Typen (z.B. "decimal") und gibt die maximale Anzahl Stellen an, die ein Wert, der in der Spalte "ResultColumnName" steht, enthalten kann
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue precision_value = 10005;</code>
+         * <code>.dstore.values.IntegerValue precision_value = 10005;</code>
          */
         public io.dstore.values.IntegerValue getPrecisionValue() {
           if (precisionValueBuilder_ == null) {
@@ -3532,7 +3532,7 @@ public final class DoGetProcedureResultSetsAd {
          * Gilt nur für einige numerische Daten-Typen (z.B. "decimal") und gibt die maximale Anzahl Stellen an, die ein Wert, der in der Spalte "ResultColumnName" steht, enthalten kann
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue precision_value = 10005;</code>
+         * <code>.dstore.values.IntegerValue precision_value = 10005;</code>
          */
         public Builder setPrecisionValue(io.dstore.values.IntegerValue value) {
           if (precisionValueBuilder_ == null) {
@@ -3552,7 +3552,7 @@ public final class DoGetProcedureResultSetsAd {
          * Gilt nur für einige numerische Daten-Typen (z.B. "decimal") und gibt die maximale Anzahl Stellen an, die ein Wert, der in der Spalte "ResultColumnName" steht, enthalten kann
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue precision_value = 10005;</code>
+         * <code>.dstore.values.IntegerValue precision_value = 10005;</code>
          */
         public Builder setPrecisionValue(
             io.dstore.values.IntegerValue.Builder builderForValue) {
@@ -3570,7 +3570,7 @@ public final class DoGetProcedureResultSetsAd {
          * Gilt nur für einige numerische Daten-Typen (z.B. "decimal") und gibt die maximale Anzahl Stellen an, die ein Wert, der in der Spalte "ResultColumnName" steht, enthalten kann
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue precision_value = 10005;</code>
+         * <code>.dstore.values.IntegerValue precision_value = 10005;</code>
          */
         public Builder mergePrecisionValue(io.dstore.values.IntegerValue value) {
           if (precisionValueBuilder_ == null) {
@@ -3592,7 +3592,7 @@ public final class DoGetProcedureResultSetsAd {
          * Gilt nur für einige numerische Daten-Typen (z.B. "decimal") und gibt die maximale Anzahl Stellen an, die ein Wert, der in der Spalte "ResultColumnName" steht, enthalten kann
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue precision_value = 10005;</code>
+         * <code>.dstore.values.IntegerValue precision_value = 10005;</code>
          */
         public Builder clearPrecisionValue() {
           if (precisionValueBuilder_ == null) {
@@ -3610,7 +3610,7 @@ public final class DoGetProcedureResultSetsAd {
          * Gilt nur für einige numerische Daten-Typen (z.B. "decimal") und gibt die maximale Anzahl Stellen an, die ein Wert, der in der Spalte "ResultColumnName" steht, enthalten kann
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue precision_value = 10005;</code>
+         * <code>.dstore.values.IntegerValue precision_value = 10005;</code>
          */
         public io.dstore.values.IntegerValue.Builder getPrecisionValueBuilder() {
           
@@ -3622,7 +3622,7 @@ public final class DoGetProcedureResultSetsAd {
          * Gilt nur für einige numerische Daten-Typen (z.B. "decimal") und gibt die maximale Anzahl Stellen an, die ein Wert, der in der Spalte "ResultColumnName" steht, enthalten kann
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue precision_value = 10005;</code>
+         * <code>.dstore.values.IntegerValue precision_value = 10005;</code>
          */
         public io.dstore.values.IntegerValueOrBuilder getPrecisionValueOrBuilder() {
           if (precisionValueBuilder_ != null) {
@@ -3637,7 +3637,7 @@ public final class DoGetProcedureResultSetsAd {
          * Gilt nur für einige numerische Daten-Typen (z.B. "decimal") und gibt die maximale Anzahl Stellen an, die ein Wert, der in der Spalte "ResultColumnName" steht, enthalten kann
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue precision_value = 10005;</code>
+         * <code>.dstore.values.IntegerValue precision_value = 10005;</code>
          */
         private com.google.protobuf.SingleFieldBuilderV3<
             io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> 
@@ -3661,7 +3661,7 @@ public final class DoGetProcedureResultSetsAd {
          * Name eines Parameters der Prozedur "&#64;ProcedureName". Die Rückgabemenge wird nur geliefert, wenn beim Aufruf der für diesen Parameter angegebene Wert der Bedingung "Condition" genügt. ("NULL" bei der speziellen Bedingung "ProcedureResultConditionID = 0".)
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue parameter_name = 10006;</code>
+         * <code>.dstore.values.StringValue parameter_name = 10006;</code>
          */
         public boolean hasParameterName() {
           return parameterNameBuilder_ != null || parameterName_ != null;
@@ -3671,7 +3671,7 @@ public final class DoGetProcedureResultSetsAd {
          * Name eines Parameters der Prozedur "&#64;ProcedureName". Die Rückgabemenge wird nur geliefert, wenn beim Aufruf der für diesen Parameter angegebene Wert der Bedingung "Condition" genügt. ("NULL" bei der speziellen Bedingung "ProcedureResultConditionID = 0".)
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue parameter_name = 10006;</code>
+         * <code>.dstore.values.StringValue parameter_name = 10006;</code>
          */
         public io.dstore.values.StringValue getParameterName() {
           if (parameterNameBuilder_ == null) {
@@ -3685,7 +3685,7 @@ public final class DoGetProcedureResultSetsAd {
          * Name eines Parameters der Prozedur "&#64;ProcedureName". Die Rückgabemenge wird nur geliefert, wenn beim Aufruf der für diesen Parameter angegebene Wert der Bedingung "Condition" genügt. ("NULL" bei der speziellen Bedingung "ProcedureResultConditionID = 0".)
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue parameter_name = 10006;</code>
+         * <code>.dstore.values.StringValue parameter_name = 10006;</code>
          */
         public Builder setParameterName(io.dstore.values.StringValue value) {
           if (parameterNameBuilder_ == null) {
@@ -3705,7 +3705,7 @@ public final class DoGetProcedureResultSetsAd {
          * Name eines Parameters der Prozedur "&#64;ProcedureName". Die Rückgabemenge wird nur geliefert, wenn beim Aufruf der für diesen Parameter angegebene Wert der Bedingung "Condition" genügt. ("NULL" bei der speziellen Bedingung "ProcedureResultConditionID = 0".)
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue parameter_name = 10006;</code>
+         * <code>.dstore.values.StringValue parameter_name = 10006;</code>
          */
         public Builder setParameterName(
             io.dstore.values.StringValue.Builder builderForValue) {
@@ -3723,7 +3723,7 @@ public final class DoGetProcedureResultSetsAd {
          * Name eines Parameters der Prozedur "&#64;ProcedureName". Die Rückgabemenge wird nur geliefert, wenn beim Aufruf der für diesen Parameter angegebene Wert der Bedingung "Condition" genügt. ("NULL" bei der speziellen Bedingung "ProcedureResultConditionID = 0".)
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue parameter_name = 10006;</code>
+         * <code>.dstore.values.StringValue parameter_name = 10006;</code>
          */
         public Builder mergeParameterName(io.dstore.values.StringValue value) {
           if (parameterNameBuilder_ == null) {
@@ -3745,7 +3745,7 @@ public final class DoGetProcedureResultSetsAd {
          * Name eines Parameters der Prozedur "&#64;ProcedureName". Die Rückgabemenge wird nur geliefert, wenn beim Aufruf der für diesen Parameter angegebene Wert der Bedingung "Condition" genügt. ("NULL" bei der speziellen Bedingung "ProcedureResultConditionID = 0".)
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue parameter_name = 10006;</code>
+         * <code>.dstore.values.StringValue parameter_name = 10006;</code>
          */
         public Builder clearParameterName() {
           if (parameterNameBuilder_ == null) {
@@ -3763,7 +3763,7 @@ public final class DoGetProcedureResultSetsAd {
          * Name eines Parameters der Prozedur "&#64;ProcedureName". Die Rückgabemenge wird nur geliefert, wenn beim Aufruf der für diesen Parameter angegebene Wert der Bedingung "Condition" genügt. ("NULL" bei der speziellen Bedingung "ProcedureResultConditionID = 0".)
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue parameter_name = 10006;</code>
+         * <code>.dstore.values.StringValue parameter_name = 10006;</code>
          */
         public io.dstore.values.StringValue.Builder getParameterNameBuilder() {
           
@@ -3775,7 +3775,7 @@ public final class DoGetProcedureResultSetsAd {
          * Name eines Parameters der Prozedur "&#64;ProcedureName". Die Rückgabemenge wird nur geliefert, wenn beim Aufruf der für diesen Parameter angegebene Wert der Bedingung "Condition" genügt. ("NULL" bei der speziellen Bedingung "ProcedureResultConditionID = 0".)
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue parameter_name = 10006;</code>
+         * <code>.dstore.values.StringValue parameter_name = 10006;</code>
          */
         public io.dstore.values.StringValueOrBuilder getParameterNameOrBuilder() {
           if (parameterNameBuilder_ != null) {
@@ -3790,7 +3790,7 @@ public final class DoGetProcedureResultSetsAd {
          * Name eines Parameters der Prozedur "&#64;ProcedureName". Die Rückgabemenge wird nur geliefert, wenn beim Aufruf der für diesen Parameter angegebene Wert der Bedingung "Condition" genügt. ("NULL" bei der speziellen Bedingung "ProcedureResultConditionID = 0".)
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue parameter_name = 10006;</code>
+         * <code>.dstore.values.StringValue parameter_name = 10006;</code>
          */
         private com.google.protobuf.SingleFieldBuilderV3<
             io.dstore.values.StringValue, io.dstore.values.StringValue.Builder, io.dstore.values.StringValueOrBuilder> 
@@ -3814,7 +3814,7 @@ public final class DoGetProcedureResultSetsAd {
          * Gilt nur für einige numerische Daten-Typen (z.B. "decimal") und gibt die Genauigkeit, sprich die maximale Anzahl an Nachkomma-Stellen an, die ein Wert, der in der Spalte "ResultColumnName"steht, enthalten kann
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue scale = 10007;</code>
+         * <code>.dstore.values.IntegerValue scale = 10007;</code>
          */
         public boolean hasScale() {
           return scaleBuilder_ != null || scale_ != null;
@@ -3824,7 +3824,7 @@ public final class DoGetProcedureResultSetsAd {
          * Gilt nur für einige numerische Daten-Typen (z.B. "decimal") und gibt die Genauigkeit, sprich die maximale Anzahl an Nachkomma-Stellen an, die ein Wert, der in der Spalte "ResultColumnName"steht, enthalten kann
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue scale = 10007;</code>
+         * <code>.dstore.values.IntegerValue scale = 10007;</code>
          */
         public io.dstore.values.IntegerValue getScale() {
           if (scaleBuilder_ == null) {
@@ -3838,7 +3838,7 @@ public final class DoGetProcedureResultSetsAd {
          * Gilt nur für einige numerische Daten-Typen (z.B. "decimal") und gibt die Genauigkeit, sprich die maximale Anzahl an Nachkomma-Stellen an, die ein Wert, der in der Spalte "ResultColumnName"steht, enthalten kann
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue scale = 10007;</code>
+         * <code>.dstore.values.IntegerValue scale = 10007;</code>
          */
         public Builder setScale(io.dstore.values.IntegerValue value) {
           if (scaleBuilder_ == null) {
@@ -3858,7 +3858,7 @@ public final class DoGetProcedureResultSetsAd {
          * Gilt nur für einige numerische Daten-Typen (z.B. "decimal") und gibt die Genauigkeit, sprich die maximale Anzahl an Nachkomma-Stellen an, die ein Wert, der in der Spalte "ResultColumnName"steht, enthalten kann
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue scale = 10007;</code>
+         * <code>.dstore.values.IntegerValue scale = 10007;</code>
          */
         public Builder setScale(
             io.dstore.values.IntegerValue.Builder builderForValue) {
@@ -3876,7 +3876,7 @@ public final class DoGetProcedureResultSetsAd {
          * Gilt nur für einige numerische Daten-Typen (z.B. "decimal") und gibt die Genauigkeit, sprich die maximale Anzahl an Nachkomma-Stellen an, die ein Wert, der in der Spalte "ResultColumnName"steht, enthalten kann
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue scale = 10007;</code>
+         * <code>.dstore.values.IntegerValue scale = 10007;</code>
          */
         public Builder mergeScale(io.dstore.values.IntegerValue value) {
           if (scaleBuilder_ == null) {
@@ -3898,7 +3898,7 @@ public final class DoGetProcedureResultSetsAd {
          * Gilt nur für einige numerische Daten-Typen (z.B. "decimal") und gibt die Genauigkeit, sprich die maximale Anzahl an Nachkomma-Stellen an, die ein Wert, der in der Spalte "ResultColumnName"steht, enthalten kann
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue scale = 10007;</code>
+         * <code>.dstore.values.IntegerValue scale = 10007;</code>
          */
         public Builder clearScale() {
           if (scaleBuilder_ == null) {
@@ -3916,7 +3916,7 @@ public final class DoGetProcedureResultSetsAd {
          * Gilt nur für einige numerische Daten-Typen (z.B. "decimal") und gibt die Genauigkeit, sprich die maximale Anzahl an Nachkomma-Stellen an, die ein Wert, der in der Spalte "ResultColumnName"steht, enthalten kann
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue scale = 10007;</code>
+         * <code>.dstore.values.IntegerValue scale = 10007;</code>
          */
         public io.dstore.values.IntegerValue.Builder getScaleBuilder() {
           
@@ -3928,7 +3928,7 @@ public final class DoGetProcedureResultSetsAd {
          * Gilt nur für einige numerische Daten-Typen (z.B. "decimal") und gibt die Genauigkeit, sprich die maximale Anzahl an Nachkomma-Stellen an, die ein Wert, der in der Spalte "ResultColumnName"steht, enthalten kann
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue scale = 10007;</code>
+         * <code>.dstore.values.IntegerValue scale = 10007;</code>
          */
         public io.dstore.values.IntegerValueOrBuilder getScaleOrBuilder() {
           if (scaleBuilder_ != null) {
@@ -3943,7 +3943,7 @@ public final class DoGetProcedureResultSetsAd {
          * Gilt nur für einige numerische Daten-Typen (z.B. "decimal") und gibt die Genauigkeit, sprich die maximale Anzahl an Nachkomma-Stellen an, die ein Wert, der in der Spalte "ResultColumnName"steht, enthalten kann
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue scale = 10007;</code>
+         * <code>.dstore.values.IntegerValue scale = 10007;</code>
          */
         private com.google.protobuf.SingleFieldBuilderV3<
             io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> 
@@ -3967,7 +3967,7 @@ public final class DoGetProcedureResultSetsAd {
          * Bestimmt die Reihenfolge der Spalte "ResultColumnName" innerhalb aller Rückgabespalten. "0" bedeutet, daß sie nicht ausgegeben wird, also entweder in einer älteren Version vorhanden war (aber aktuell nicht mehr gültig ist) oder nur zur Sortierung dient.
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue sort_no = 10008;</code>
+         * <code>.dstore.values.IntegerValue sort_no = 10008;</code>
          */
         public boolean hasSortNo() {
           return sortNoBuilder_ != null || sortNo_ != null;
@@ -3977,7 +3977,7 @@ public final class DoGetProcedureResultSetsAd {
          * Bestimmt die Reihenfolge der Spalte "ResultColumnName" innerhalb aller Rückgabespalten. "0" bedeutet, daß sie nicht ausgegeben wird, also entweder in einer älteren Version vorhanden war (aber aktuell nicht mehr gültig ist) oder nur zur Sortierung dient.
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue sort_no = 10008;</code>
+         * <code>.dstore.values.IntegerValue sort_no = 10008;</code>
          */
         public io.dstore.values.IntegerValue getSortNo() {
           if (sortNoBuilder_ == null) {
@@ -3991,7 +3991,7 @@ public final class DoGetProcedureResultSetsAd {
          * Bestimmt die Reihenfolge der Spalte "ResultColumnName" innerhalb aller Rückgabespalten. "0" bedeutet, daß sie nicht ausgegeben wird, also entweder in einer älteren Version vorhanden war (aber aktuell nicht mehr gültig ist) oder nur zur Sortierung dient.
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue sort_no = 10008;</code>
+         * <code>.dstore.values.IntegerValue sort_no = 10008;</code>
          */
         public Builder setSortNo(io.dstore.values.IntegerValue value) {
           if (sortNoBuilder_ == null) {
@@ -4011,7 +4011,7 @@ public final class DoGetProcedureResultSetsAd {
          * Bestimmt die Reihenfolge der Spalte "ResultColumnName" innerhalb aller Rückgabespalten. "0" bedeutet, daß sie nicht ausgegeben wird, also entweder in einer älteren Version vorhanden war (aber aktuell nicht mehr gültig ist) oder nur zur Sortierung dient.
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue sort_no = 10008;</code>
+         * <code>.dstore.values.IntegerValue sort_no = 10008;</code>
          */
         public Builder setSortNo(
             io.dstore.values.IntegerValue.Builder builderForValue) {
@@ -4029,7 +4029,7 @@ public final class DoGetProcedureResultSetsAd {
          * Bestimmt die Reihenfolge der Spalte "ResultColumnName" innerhalb aller Rückgabespalten. "0" bedeutet, daß sie nicht ausgegeben wird, also entweder in einer älteren Version vorhanden war (aber aktuell nicht mehr gültig ist) oder nur zur Sortierung dient.
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue sort_no = 10008;</code>
+         * <code>.dstore.values.IntegerValue sort_no = 10008;</code>
          */
         public Builder mergeSortNo(io.dstore.values.IntegerValue value) {
           if (sortNoBuilder_ == null) {
@@ -4051,7 +4051,7 @@ public final class DoGetProcedureResultSetsAd {
          * Bestimmt die Reihenfolge der Spalte "ResultColumnName" innerhalb aller Rückgabespalten. "0" bedeutet, daß sie nicht ausgegeben wird, also entweder in einer älteren Version vorhanden war (aber aktuell nicht mehr gültig ist) oder nur zur Sortierung dient.
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue sort_no = 10008;</code>
+         * <code>.dstore.values.IntegerValue sort_no = 10008;</code>
          */
         public Builder clearSortNo() {
           if (sortNoBuilder_ == null) {
@@ -4069,7 +4069,7 @@ public final class DoGetProcedureResultSetsAd {
          * Bestimmt die Reihenfolge der Spalte "ResultColumnName" innerhalb aller Rückgabespalten. "0" bedeutet, daß sie nicht ausgegeben wird, also entweder in einer älteren Version vorhanden war (aber aktuell nicht mehr gültig ist) oder nur zur Sortierung dient.
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue sort_no = 10008;</code>
+         * <code>.dstore.values.IntegerValue sort_no = 10008;</code>
          */
         public io.dstore.values.IntegerValue.Builder getSortNoBuilder() {
           
@@ -4081,7 +4081,7 @@ public final class DoGetProcedureResultSetsAd {
          * Bestimmt die Reihenfolge der Spalte "ResultColumnName" innerhalb aller Rückgabespalten. "0" bedeutet, daß sie nicht ausgegeben wird, also entweder in einer älteren Version vorhanden war (aber aktuell nicht mehr gültig ist) oder nur zur Sortierung dient.
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue sort_no = 10008;</code>
+         * <code>.dstore.values.IntegerValue sort_no = 10008;</code>
          */
         public io.dstore.values.IntegerValueOrBuilder getSortNoOrBuilder() {
           if (sortNoBuilder_ != null) {
@@ -4096,7 +4096,7 @@ public final class DoGetProcedureResultSetsAd {
          * Bestimmt die Reihenfolge der Spalte "ResultColumnName" innerhalb aller Rückgabespalten. "0" bedeutet, daß sie nicht ausgegeben wird, also entweder in einer älteren Version vorhanden war (aber aktuell nicht mehr gültig ist) oder nur zur Sortierung dient.
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue sort_no = 10008;</code>
+         * <code>.dstore.values.IntegerValue sort_no = 10008;</code>
          */
         private com.google.protobuf.SingleFieldBuilderV3<
             io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> 
@@ -4120,7 +4120,7 @@ public final class DoGetProcedureResultSetsAd {
          * Name einer Rückgabespalte der Ergebnismenge
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue result_column_name = 10009;</code>
+         * <code>.dstore.values.StringValue result_column_name = 10009;</code>
          */
         public boolean hasResultColumnName() {
           return resultColumnNameBuilder_ != null || resultColumnName_ != null;
@@ -4130,7 +4130,7 @@ public final class DoGetProcedureResultSetsAd {
          * Name einer Rückgabespalte der Ergebnismenge
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue result_column_name = 10009;</code>
+         * <code>.dstore.values.StringValue result_column_name = 10009;</code>
          */
         public io.dstore.values.StringValue getResultColumnName() {
           if (resultColumnNameBuilder_ == null) {
@@ -4144,7 +4144,7 @@ public final class DoGetProcedureResultSetsAd {
          * Name einer Rückgabespalte der Ergebnismenge
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue result_column_name = 10009;</code>
+         * <code>.dstore.values.StringValue result_column_name = 10009;</code>
          */
         public Builder setResultColumnName(io.dstore.values.StringValue value) {
           if (resultColumnNameBuilder_ == null) {
@@ -4164,7 +4164,7 @@ public final class DoGetProcedureResultSetsAd {
          * Name einer Rückgabespalte der Ergebnismenge
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue result_column_name = 10009;</code>
+         * <code>.dstore.values.StringValue result_column_name = 10009;</code>
          */
         public Builder setResultColumnName(
             io.dstore.values.StringValue.Builder builderForValue) {
@@ -4182,7 +4182,7 @@ public final class DoGetProcedureResultSetsAd {
          * Name einer Rückgabespalte der Ergebnismenge
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue result_column_name = 10009;</code>
+         * <code>.dstore.values.StringValue result_column_name = 10009;</code>
          */
         public Builder mergeResultColumnName(io.dstore.values.StringValue value) {
           if (resultColumnNameBuilder_ == null) {
@@ -4204,7 +4204,7 @@ public final class DoGetProcedureResultSetsAd {
          * Name einer Rückgabespalte der Ergebnismenge
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue result_column_name = 10009;</code>
+         * <code>.dstore.values.StringValue result_column_name = 10009;</code>
          */
         public Builder clearResultColumnName() {
           if (resultColumnNameBuilder_ == null) {
@@ -4222,7 +4222,7 @@ public final class DoGetProcedureResultSetsAd {
          * Name einer Rückgabespalte der Ergebnismenge
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue result_column_name = 10009;</code>
+         * <code>.dstore.values.StringValue result_column_name = 10009;</code>
          */
         public io.dstore.values.StringValue.Builder getResultColumnNameBuilder() {
           
@@ -4234,7 +4234,7 @@ public final class DoGetProcedureResultSetsAd {
          * Name einer Rückgabespalte der Ergebnismenge
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue result_column_name = 10009;</code>
+         * <code>.dstore.values.StringValue result_column_name = 10009;</code>
          */
         public io.dstore.values.StringValueOrBuilder getResultColumnNameOrBuilder() {
           if (resultColumnNameBuilder_ != null) {
@@ -4249,7 +4249,7 @@ public final class DoGetProcedureResultSetsAd {
          * Name einer Rückgabespalte der Ergebnismenge
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue result_column_name = 10009;</code>
+         * <code>.dstore.values.StringValue result_column_name = 10009;</code>
          */
         private com.google.protobuf.SingleFieldBuilderV3<
             io.dstore.values.StringValue, io.dstore.values.StringValue.Builder, io.dstore.values.StringValueOrBuilder> 
@@ -4273,7 +4273,7 @@ public final class DoGetProcedureResultSetsAd {
          * Wieviel Byte können Werte, die in der Spalte "ResultColumnName" ausgegeben werden, maximal enthalten. Bei vielen Daten-Typen ist die Speicherbelegung immer so groß wie dieser Wert (bei numerischen Daten-Typen z.B.).
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue length = 10010;</code>
+         * <code>.dstore.values.IntegerValue length = 10010;</code>
          */
         public boolean hasLength() {
           return lengthBuilder_ != null || length_ != null;
@@ -4283,7 +4283,7 @@ public final class DoGetProcedureResultSetsAd {
          * Wieviel Byte können Werte, die in der Spalte "ResultColumnName" ausgegeben werden, maximal enthalten. Bei vielen Daten-Typen ist die Speicherbelegung immer so groß wie dieser Wert (bei numerischen Daten-Typen z.B.).
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue length = 10010;</code>
+         * <code>.dstore.values.IntegerValue length = 10010;</code>
          */
         public io.dstore.values.IntegerValue getLength() {
           if (lengthBuilder_ == null) {
@@ -4297,7 +4297,7 @@ public final class DoGetProcedureResultSetsAd {
          * Wieviel Byte können Werte, die in der Spalte "ResultColumnName" ausgegeben werden, maximal enthalten. Bei vielen Daten-Typen ist die Speicherbelegung immer so groß wie dieser Wert (bei numerischen Daten-Typen z.B.).
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue length = 10010;</code>
+         * <code>.dstore.values.IntegerValue length = 10010;</code>
          */
         public Builder setLength(io.dstore.values.IntegerValue value) {
           if (lengthBuilder_ == null) {
@@ -4317,7 +4317,7 @@ public final class DoGetProcedureResultSetsAd {
          * Wieviel Byte können Werte, die in der Spalte "ResultColumnName" ausgegeben werden, maximal enthalten. Bei vielen Daten-Typen ist die Speicherbelegung immer so groß wie dieser Wert (bei numerischen Daten-Typen z.B.).
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue length = 10010;</code>
+         * <code>.dstore.values.IntegerValue length = 10010;</code>
          */
         public Builder setLength(
             io.dstore.values.IntegerValue.Builder builderForValue) {
@@ -4335,7 +4335,7 @@ public final class DoGetProcedureResultSetsAd {
          * Wieviel Byte können Werte, die in der Spalte "ResultColumnName" ausgegeben werden, maximal enthalten. Bei vielen Daten-Typen ist die Speicherbelegung immer so groß wie dieser Wert (bei numerischen Daten-Typen z.B.).
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue length = 10010;</code>
+         * <code>.dstore.values.IntegerValue length = 10010;</code>
          */
         public Builder mergeLength(io.dstore.values.IntegerValue value) {
           if (lengthBuilder_ == null) {
@@ -4357,7 +4357,7 @@ public final class DoGetProcedureResultSetsAd {
          * Wieviel Byte können Werte, die in der Spalte "ResultColumnName" ausgegeben werden, maximal enthalten. Bei vielen Daten-Typen ist die Speicherbelegung immer so groß wie dieser Wert (bei numerischen Daten-Typen z.B.).
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue length = 10010;</code>
+         * <code>.dstore.values.IntegerValue length = 10010;</code>
          */
         public Builder clearLength() {
           if (lengthBuilder_ == null) {
@@ -4375,7 +4375,7 @@ public final class DoGetProcedureResultSetsAd {
          * Wieviel Byte können Werte, die in der Spalte "ResultColumnName" ausgegeben werden, maximal enthalten. Bei vielen Daten-Typen ist die Speicherbelegung immer so groß wie dieser Wert (bei numerischen Daten-Typen z.B.).
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue length = 10010;</code>
+         * <code>.dstore.values.IntegerValue length = 10010;</code>
          */
         public io.dstore.values.IntegerValue.Builder getLengthBuilder() {
           
@@ -4387,7 +4387,7 @@ public final class DoGetProcedureResultSetsAd {
          * Wieviel Byte können Werte, die in der Spalte "ResultColumnName" ausgegeben werden, maximal enthalten. Bei vielen Daten-Typen ist die Speicherbelegung immer so groß wie dieser Wert (bei numerischen Daten-Typen z.B.).
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue length = 10010;</code>
+         * <code>.dstore.values.IntegerValue length = 10010;</code>
          */
         public io.dstore.values.IntegerValueOrBuilder getLengthOrBuilder() {
           if (lengthBuilder_ != null) {
@@ -4402,7 +4402,7 @@ public final class DoGetProcedureResultSetsAd {
          * Wieviel Byte können Werte, die in der Spalte "ResultColumnName" ausgegeben werden, maximal enthalten. Bei vielen Daten-Typen ist die Speicherbelegung immer so groß wie dieser Wert (bei numerischen Daten-Typen z.B.).
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue length = 10010;</code>
+         * <code>.dstore.values.IntegerValue length = 10010;</code>
          */
         private com.google.protobuf.SingleFieldBuilderV3<
             io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> 
@@ -4426,7 +4426,7 @@ public final class DoGetProcedureResultSetsAd {
          * Wann die Beschreibung ("Description") zuletzt editiert wurde
          * </pre>
          *
-         * <code>optional .dstore.values.TimestampValue description_last_edited = 10011;</code>
+         * <code>.dstore.values.TimestampValue description_last_edited = 10011;</code>
          */
         public boolean hasDescriptionLastEdited() {
           return descriptionLastEditedBuilder_ != null || descriptionLastEdited_ != null;
@@ -4436,7 +4436,7 @@ public final class DoGetProcedureResultSetsAd {
          * Wann die Beschreibung ("Description") zuletzt editiert wurde
          * </pre>
          *
-         * <code>optional .dstore.values.TimestampValue description_last_edited = 10011;</code>
+         * <code>.dstore.values.TimestampValue description_last_edited = 10011;</code>
          */
         public io.dstore.values.TimestampValue getDescriptionLastEdited() {
           if (descriptionLastEditedBuilder_ == null) {
@@ -4450,7 +4450,7 @@ public final class DoGetProcedureResultSetsAd {
          * Wann die Beschreibung ("Description") zuletzt editiert wurde
          * </pre>
          *
-         * <code>optional .dstore.values.TimestampValue description_last_edited = 10011;</code>
+         * <code>.dstore.values.TimestampValue description_last_edited = 10011;</code>
          */
         public Builder setDescriptionLastEdited(io.dstore.values.TimestampValue value) {
           if (descriptionLastEditedBuilder_ == null) {
@@ -4470,7 +4470,7 @@ public final class DoGetProcedureResultSetsAd {
          * Wann die Beschreibung ("Description") zuletzt editiert wurde
          * </pre>
          *
-         * <code>optional .dstore.values.TimestampValue description_last_edited = 10011;</code>
+         * <code>.dstore.values.TimestampValue description_last_edited = 10011;</code>
          */
         public Builder setDescriptionLastEdited(
             io.dstore.values.TimestampValue.Builder builderForValue) {
@@ -4488,7 +4488,7 @@ public final class DoGetProcedureResultSetsAd {
          * Wann die Beschreibung ("Description") zuletzt editiert wurde
          * </pre>
          *
-         * <code>optional .dstore.values.TimestampValue description_last_edited = 10011;</code>
+         * <code>.dstore.values.TimestampValue description_last_edited = 10011;</code>
          */
         public Builder mergeDescriptionLastEdited(io.dstore.values.TimestampValue value) {
           if (descriptionLastEditedBuilder_ == null) {
@@ -4510,7 +4510,7 @@ public final class DoGetProcedureResultSetsAd {
          * Wann die Beschreibung ("Description") zuletzt editiert wurde
          * </pre>
          *
-         * <code>optional .dstore.values.TimestampValue description_last_edited = 10011;</code>
+         * <code>.dstore.values.TimestampValue description_last_edited = 10011;</code>
          */
         public Builder clearDescriptionLastEdited() {
           if (descriptionLastEditedBuilder_ == null) {
@@ -4528,7 +4528,7 @@ public final class DoGetProcedureResultSetsAd {
          * Wann die Beschreibung ("Description") zuletzt editiert wurde
          * </pre>
          *
-         * <code>optional .dstore.values.TimestampValue description_last_edited = 10011;</code>
+         * <code>.dstore.values.TimestampValue description_last_edited = 10011;</code>
          */
         public io.dstore.values.TimestampValue.Builder getDescriptionLastEditedBuilder() {
           
@@ -4540,7 +4540,7 @@ public final class DoGetProcedureResultSetsAd {
          * Wann die Beschreibung ("Description") zuletzt editiert wurde
          * </pre>
          *
-         * <code>optional .dstore.values.TimestampValue description_last_edited = 10011;</code>
+         * <code>.dstore.values.TimestampValue description_last_edited = 10011;</code>
          */
         public io.dstore.values.TimestampValueOrBuilder getDescriptionLastEditedOrBuilder() {
           if (descriptionLastEditedBuilder_ != null) {
@@ -4555,7 +4555,7 @@ public final class DoGetProcedureResultSetsAd {
          * Wann die Beschreibung ("Description") zuletzt editiert wurde
          * </pre>
          *
-         * <code>optional .dstore.values.TimestampValue description_last_edited = 10011;</code>
+         * <code>.dstore.values.TimestampValue description_last_edited = 10011;</code>
          */
         private com.google.protobuf.SingleFieldBuilderV3<
             io.dstore.values.TimestampValue, io.dstore.values.TimestampValue.Builder, io.dstore.values.TimestampValueOrBuilder> 
@@ -4579,7 +4579,7 @@ public final class DoGetProcedureResultSetsAd {
          * Seit welcher Version gibt es die Spalte "ResultColumnName"
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue introduced_indstore_version = 10012;</code>
+         * <code>.dstore.values.StringValue introduced_indstore_version = 10012;</code>
          */
         public boolean hasIntroducedIndstoreVersion() {
           return introducedIndstoreVersionBuilder_ != null || introducedIndstoreVersion_ != null;
@@ -4589,7 +4589,7 @@ public final class DoGetProcedureResultSetsAd {
          * Seit welcher Version gibt es die Spalte "ResultColumnName"
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue introduced_indstore_version = 10012;</code>
+         * <code>.dstore.values.StringValue introduced_indstore_version = 10012;</code>
          */
         public io.dstore.values.StringValue getIntroducedIndstoreVersion() {
           if (introducedIndstoreVersionBuilder_ == null) {
@@ -4603,7 +4603,7 @@ public final class DoGetProcedureResultSetsAd {
          * Seit welcher Version gibt es die Spalte "ResultColumnName"
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue introduced_indstore_version = 10012;</code>
+         * <code>.dstore.values.StringValue introduced_indstore_version = 10012;</code>
          */
         public Builder setIntroducedIndstoreVersion(io.dstore.values.StringValue value) {
           if (introducedIndstoreVersionBuilder_ == null) {
@@ -4623,7 +4623,7 @@ public final class DoGetProcedureResultSetsAd {
          * Seit welcher Version gibt es die Spalte "ResultColumnName"
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue introduced_indstore_version = 10012;</code>
+         * <code>.dstore.values.StringValue introduced_indstore_version = 10012;</code>
          */
         public Builder setIntroducedIndstoreVersion(
             io.dstore.values.StringValue.Builder builderForValue) {
@@ -4641,7 +4641,7 @@ public final class DoGetProcedureResultSetsAd {
          * Seit welcher Version gibt es die Spalte "ResultColumnName"
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue introduced_indstore_version = 10012;</code>
+         * <code>.dstore.values.StringValue introduced_indstore_version = 10012;</code>
          */
         public Builder mergeIntroducedIndstoreVersion(io.dstore.values.StringValue value) {
           if (introducedIndstoreVersionBuilder_ == null) {
@@ -4663,7 +4663,7 @@ public final class DoGetProcedureResultSetsAd {
          * Seit welcher Version gibt es die Spalte "ResultColumnName"
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue introduced_indstore_version = 10012;</code>
+         * <code>.dstore.values.StringValue introduced_indstore_version = 10012;</code>
          */
         public Builder clearIntroducedIndstoreVersion() {
           if (introducedIndstoreVersionBuilder_ == null) {
@@ -4681,7 +4681,7 @@ public final class DoGetProcedureResultSetsAd {
          * Seit welcher Version gibt es die Spalte "ResultColumnName"
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue introduced_indstore_version = 10012;</code>
+         * <code>.dstore.values.StringValue introduced_indstore_version = 10012;</code>
          */
         public io.dstore.values.StringValue.Builder getIntroducedIndstoreVersionBuilder() {
           
@@ -4693,7 +4693,7 @@ public final class DoGetProcedureResultSetsAd {
          * Seit welcher Version gibt es die Spalte "ResultColumnName"
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue introduced_indstore_version = 10012;</code>
+         * <code>.dstore.values.StringValue introduced_indstore_version = 10012;</code>
          */
         public io.dstore.values.StringValueOrBuilder getIntroducedIndstoreVersionOrBuilder() {
           if (introducedIndstoreVersionBuilder_ != null) {
@@ -4708,7 +4708,7 @@ public final class DoGetProcedureResultSetsAd {
          * Seit welcher Version gibt es die Spalte "ResultColumnName"
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue introduced_indstore_version = 10012;</code>
+         * <code>.dstore.values.StringValue introduced_indstore_version = 10012;</code>
          */
         private com.google.protobuf.SingleFieldBuilderV3<
             io.dstore.values.StringValue, io.dstore.values.StringValue.Builder, io.dstore.values.StringValueOrBuilder> 
@@ -4732,7 +4732,7 @@ public final class DoGetProcedureResultSetsAd {
          * Gibt den Daten-Typ der Spalte "ResultColumnName" an ("varchar", "tinyint", etc.)
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue data_type = 10013;</code>
+         * <code>.dstore.values.StringValue data_type = 10013;</code>
          */
         public boolean hasDataType() {
           return dataTypeBuilder_ != null || dataType_ != null;
@@ -4742,7 +4742,7 @@ public final class DoGetProcedureResultSetsAd {
          * Gibt den Daten-Typ der Spalte "ResultColumnName" an ("varchar", "tinyint", etc.)
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue data_type = 10013;</code>
+         * <code>.dstore.values.StringValue data_type = 10013;</code>
          */
         public io.dstore.values.StringValue getDataType() {
           if (dataTypeBuilder_ == null) {
@@ -4756,7 +4756,7 @@ public final class DoGetProcedureResultSetsAd {
          * Gibt den Daten-Typ der Spalte "ResultColumnName" an ("varchar", "tinyint", etc.)
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue data_type = 10013;</code>
+         * <code>.dstore.values.StringValue data_type = 10013;</code>
          */
         public Builder setDataType(io.dstore.values.StringValue value) {
           if (dataTypeBuilder_ == null) {
@@ -4776,7 +4776,7 @@ public final class DoGetProcedureResultSetsAd {
          * Gibt den Daten-Typ der Spalte "ResultColumnName" an ("varchar", "tinyint", etc.)
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue data_type = 10013;</code>
+         * <code>.dstore.values.StringValue data_type = 10013;</code>
          */
         public Builder setDataType(
             io.dstore.values.StringValue.Builder builderForValue) {
@@ -4794,7 +4794,7 @@ public final class DoGetProcedureResultSetsAd {
          * Gibt den Daten-Typ der Spalte "ResultColumnName" an ("varchar", "tinyint", etc.)
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue data_type = 10013;</code>
+         * <code>.dstore.values.StringValue data_type = 10013;</code>
          */
         public Builder mergeDataType(io.dstore.values.StringValue value) {
           if (dataTypeBuilder_ == null) {
@@ -4816,7 +4816,7 @@ public final class DoGetProcedureResultSetsAd {
          * Gibt den Daten-Typ der Spalte "ResultColumnName" an ("varchar", "tinyint", etc.)
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue data_type = 10013;</code>
+         * <code>.dstore.values.StringValue data_type = 10013;</code>
          */
         public Builder clearDataType() {
           if (dataTypeBuilder_ == null) {
@@ -4834,7 +4834,7 @@ public final class DoGetProcedureResultSetsAd {
          * Gibt den Daten-Typ der Spalte "ResultColumnName" an ("varchar", "tinyint", etc.)
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue data_type = 10013;</code>
+         * <code>.dstore.values.StringValue data_type = 10013;</code>
          */
         public io.dstore.values.StringValue.Builder getDataTypeBuilder() {
           
@@ -4846,7 +4846,7 @@ public final class DoGetProcedureResultSetsAd {
          * Gibt den Daten-Typ der Spalte "ResultColumnName" an ("varchar", "tinyint", etc.)
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue data_type = 10013;</code>
+         * <code>.dstore.values.StringValue data_type = 10013;</code>
          */
         public io.dstore.values.StringValueOrBuilder getDataTypeOrBuilder() {
           if (dataTypeBuilder_ != null) {
@@ -4861,7 +4861,7 @@ public final class DoGetProcedureResultSetsAd {
          * Gibt den Daten-Typ der Spalte "ResultColumnName" an ("varchar", "tinyint", etc.)
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue data_type = 10013;</code>
+         * <code>.dstore.values.StringValue data_type = 10013;</code>
          */
         private com.google.protobuf.SingleFieldBuilderV3<
             io.dstore.values.StringValue, io.dstore.values.StringValue.Builder, io.dstore.values.StringValueOrBuilder> 
@@ -4885,7 +4885,7 @@ public final class DoGetProcedureResultSetsAd {
          * Bezeichnung der Bedingung "ProcedureResultConditionID". Derzeit entweder "Parameterunabhängige Rückgabemenge" oder aber &lt;ProzedurName&gt;_&lt;fortlaufende Nummer&gt;.
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue proc_result_cond_description = 10014;</code>
+         * <code>.dstore.values.StringValue proc_result_cond_description = 10014;</code>
          */
         public boolean hasProcResultCondDescription() {
           return procResultCondDescriptionBuilder_ != null || procResultCondDescription_ != null;
@@ -4895,7 +4895,7 @@ public final class DoGetProcedureResultSetsAd {
          * Bezeichnung der Bedingung "ProcedureResultConditionID". Derzeit entweder "Parameterunabhängige Rückgabemenge" oder aber &lt;ProzedurName&gt;_&lt;fortlaufende Nummer&gt;.
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue proc_result_cond_description = 10014;</code>
+         * <code>.dstore.values.StringValue proc_result_cond_description = 10014;</code>
          */
         public io.dstore.values.StringValue getProcResultCondDescription() {
           if (procResultCondDescriptionBuilder_ == null) {
@@ -4909,7 +4909,7 @@ public final class DoGetProcedureResultSetsAd {
          * Bezeichnung der Bedingung "ProcedureResultConditionID". Derzeit entweder "Parameterunabhängige Rückgabemenge" oder aber &lt;ProzedurName&gt;_&lt;fortlaufende Nummer&gt;.
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue proc_result_cond_description = 10014;</code>
+         * <code>.dstore.values.StringValue proc_result_cond_description = 10014;</code>
          */
         public Builder setProcResultCondDescription(io.dstore.values.StringValue value) {
           if (procResultCondDescriptionBuilder_ == null) {
@@ -4929,7 +4929,7 @@ public final class DoGetProcedureResultSetsAd {
          * Bezeichnung der Bedingung "ProcedureResultConditionID". Derzeit entweder "Parameterunabhängige Rückgabemenge" oder aber &lt;ProzedurName&gt;_&lt;fortlaufende Nummer&gt;.
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue proc_result_cond_description = 10014;</code>
+         * <code>.dstore.values.StringValue proc_result_cond_description = 10014;</code>
          */
         public Builder setProcResultCondDescription(
             io.dstore.values.StringValue.Builder builderForValue) {
@@ -4947,7 +4947,7 @@ public final class DoGetProcedureResultSetsAd {
          * Bezeichnung der Bedingung "ProcedureResultConditionID". Derzeit entweder "Parameterunabhängige Rückgabemenge" oder aber &lt;ProzedurName&gt;_&lt;fortlaufende Nummer&gt;.
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue proc_result_cond_description = 10014;</code>
+         * <code>.dstore.values.StringValue proc_result_cond_description = 10014;</code>
          */
         public Builder mergeProcResultCondDescription(io.dstore.values.StringValue value) {
           if (procResultCondDescriptionBuilder_ == null) {
@@ -4969,7 +4969,7 @@ public final class DoGetProcedureResultSetsAd {
          * Bezeichnung der Bedingung "ProcedureResultConditionID". Derzeit entweder "Parameterunabhängige Rückgabemenge" oder aber &lt;ProzedurName&gt;_&lt;fortlaufende Nummer&gt;.
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue proc_result_cond_description = 10014;</code>
+         * <code>.dstore.values.StringValue proc_result_cond_description = 10014;</code>
          */
         public Builder clearProcResultCondDescription() {
           if (procResultCondDescriptionBuilder_ == null) {
@@ -4987,7 +4987,7 @@ public final class DoGetProcedureResultSetsAd {
          * Bezeichnung der Bedingung "ProcedureResultConditionID". Derzeit entweder "Parameterunabhängige Rückgabemenge" oder aber &lt;ProzedurName&gt;_&lt;fortlaufende Nummer&gt;.
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue proc_result_cond_description = 10014;</code>
+         * <code>.dstore.values.StringValue proc_result_cond_description = 10014;</code>
          */
         public io.dstore.values.StringValue.Builder getProcResultCondDescriptionBuilder() {
           
@@ -4999,7 +4999,7 @@ public final class DoGetProcedureResultSetsAd {
          * Bezeichnung der Bedingung "ProcedureResultConditionID". Derzeit entweder "Parameterunabhängige Rückgabemenge" oder aber &lt;ProzedurName&gt;_&lt;fortlaufende Nummer&gt;.
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue proc_result_cond_description = 10014;</code>
+         * <code>.dstore.values.StringValue proc_result_cond_description = 10014;</code>
          */
         public io.dstore.values.StringValueOrBuilder getProcResultCondDescriptionOrBuilder() {
           if (procResultCondDescriptionBuilder_ != null) {
@@ -5014,7 +5014,7 @@ public final class DoGetProcedureResultSetsAd {
          * Bezeichnung der Bedingung "ProcedureResultConditionID". Derzeit entweder "Parameterunabhängige Rückgabemenge" oder aber &lt;ProzedurName&gt;_&lt;fortlaufende Nummer&gt;.
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue proc_result_cond_description = 10014;</code>
+         * <code>.dstore.values.StringValue proc_result_cond_description = 10014;</code>
          */
         private com.google.protobuf.SingleFieldBuilderV3<
             io.dstore.values.StringValue, io.dstore.values.StringValue.Builder, io.dstore.values.StringValueOrBuilder> 
@@ -5274,7 +5274,7 @@ public final class DoGetProcedureResultSetsAd {
         return memoizedHashCode;
       }
       int hash = 41;
-      hash = (19 * hash) + getDescriptorForType().hashCode();
+      hash = (19 * hash) + getDescriptor().hashCode();
       if (getMetaInformationCount() > 0) {
         hash = (37 * hash) + META_INFORMATION_FIELD_NUMBER;
         hash = (53 * hash) + getMetaInformationList().hashCode();

@@ -104,17 +104,17 @@ public interface BoolQueryOrBuilder extends
       int index);
 
   /**
-   * <code>optional string minimum_should_match = 5;</code>
+   * <code>string minimum_should_match = 5;</code>
    */
   java.lang.String getMinimumShouldMatch();
   /**
-   * <code>optional string minimum_should_match = 5;</code>
+   * <code>string minimum_should_match = 5;</code>
    */
   com.google.protobuf.ByteString
       getMinimumShouldMatchBytes();
 
   /**
-   * <code>optional double boost = 6;</code>
+   * <code>double boost = 6;</code>
    */
   double getBoost();
 }

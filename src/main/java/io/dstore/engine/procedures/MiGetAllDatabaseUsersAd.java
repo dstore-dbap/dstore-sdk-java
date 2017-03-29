@@ -19,20 +19,20 @@ public final class MiGetAllDatabaseUsersAd {
       com.google.protobuf.MessageOrBuilder {
 
     /**
-     * <code>optional .dstore.values.BooleanValue include_special_user = 1;</code>
+     * <code>.dstore.values.BooleanValue include_special_user = 1;</code>
      */
     boolean hasIncludeSpecialUser();
     /**
-     * <code>optional .dstore.values.BooleanValue include_special_user = 1;</code>
+     * <code>.dstore.values.BooleanValue include_special_user = 1;</code>
      */
     io.dstore.values.BooleanValue getIncludeSpecialUser();
     /**
-     * <code>optional .dstore.values.BooleanValue include_special_user = 1;</code>
+     * <code>.dstore.values.BooleanValue include_special_user = 1;</code>
      */
     io.dstore.values.BooleanValueOrBuilder getIncludeSpecialUserOrBuilder();
 
     /**
-     * <code>optional bool include_special_user_null = 1001;</code>
+     * <code>bool include_special_user_null = 1001;</code>
      */
     boolean getIncludeSpecialUserNull();
   }
@@ -120,19 +120,19 @@ public final class MiGetAllDatabaseUsersAd {
     public static final int INCLUDE_SPECIAL_USER_FIELD_NUMBER = 1;
     private io.dstore.values.BooleanValue includeSpecialUser_;
     /**
-     * <code>optional .dstore.values.BooleanValue include_special_user = 1;</code>
+     * <code>.dstore.values.BooleanValue include_special_user = 1;</code>
      */
     public boolean hasIncludeSpecialUser() {
       return includeSpecialUser_ != null;
     }
     /**
-     * <code>optional .dstore.values.BooleanValue include_special_user = 1;</code>
+     * <code>.dstore.values.BooleanValue include_special_user = 1;</code>
      */
     public io.dstore.values.BooleanValue getIncludeSpecialUser() {
       return includeSpecialUser_ == null ? io.dstore.values.BooleanValue.getDefaultInstance() : includeSpecialUser_;
     }
     /**
-     * <code>optional .dstore.values.BooleanValue include_special_user = 1;</code>
+     * <code>.dstore.values.BooleanValue include_special_user = 1;</code>
      */
     public io.dstore.values.BooleanValueOrBuilder getIncludeSpecialUserOrBuilder() {
       return getIncludeSpecialUser();
@@ -141,7 +141,7 @@ public final class MiGetAllDatabaseUsersAd {
     public static final int INCLUDE_SPECIAL_USER_NULL_FIELD_NUMBER = 1001;
     private boolean includeSpecialUserNull_;
     /**
-     * <code>optional bool include_special_user_null = 1001;</code>
+     * <code>bool include_special_user_null = 1001;</code>
      */
     public boolean getIncludeSpecialUserNull() {
       return includeSpecialUserNull_;
@@ -212,7 +212,7 @@ public final class MiGetAllDatabaseUsersAd {
         return memoizedHashCode;
       }
       int hash = 41;
-      hash = (19 * hash) + getDescriptorForType().hashCode();
+      hash = (19 * hash) + getDescriptor().hashCode();
       if (hasIncludeSpecialUser()) {
         hash = (37 * hash) + INCLUDE_SPECIAL_USER_FIELD_NUMBER;
         hash = (53 * hash) + getIncludeSpecialUser().hashCode();
@@ -451,13 +451,13 @@ public final class MiGetAllDatabaseUsersAd {
       private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.values.BooleanValue, io.dstore.values.BooleanValue.Builder, io.dstore.values.BooleanValueOrBuilder> includeSpecialUserBuilder_;
       /**
-       * <code>optional .dstore.values.BooleanValue include_special_user = 1;</code>
+       * <code>.dstore.values.BooleanValue include_special_user = 1;</code>
        */
       public boolean hasIncludeSpecialUser() {
         return includeSpecialUserBuilder_ != null || includeSpecialUser_ != null;
       }
       /**
-       * <code>optional .dstore.values.BooleanValue include_special_user = 1;</code>
+       * <code>.dstore.values.BooleanValue include_special_user = 1;</code>
        */
       public io.dstore.values.BooleanValue getIncludeSpecialUser() {
         if (includeSpecialUserBuilder_ == null) {
@@ -467,7 +467,7 @@ public final class MiGetAllDatabaseUsersAd {
         }
       }
       /**
-       * <code>optional .dstore.values.BooleanValue include_special_user = 1;</code>
+       * <code>.dstore.values.BooleanValue include_special_user = 1;</code>
        */
       public Builder setIncludeSpecialUser(io.dstore.values.BooleanValue value) {
         if (includeSpecialUserBuilder_ == null) {
@@ -483,7 +483,7 @@ public final class MiGetAllDatabaseUsersAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.BooleanValue include_special_user = 1;</code>
+       * <code>.dstore.values.BooleanValue include_special_user = 1;</code>
        */
       public Builder setIncludeSpecialUser(
           io.dstore.values.BooleanValue.Builder builderForValue) {
@@ -497,7 +497,7 @@ public final class MiGetAllDatabaseUsersAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.BooleanValue include_special_user = 1;</code>
+       * <code>.dstore.values.BooleanValue include_special_user = 1;</code>
        */
       public Builder mergeIncludeSpecialUser(io.dstore.values.BooleanValue value) {
         if (includeSpecialUserBuilder_ == null) {
@@ -515,7 +515,7 @@ public final class MiGetAllDatabaseUsersAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.BooleanValue include_special_user = 1;</code>
+       * <code>.dstore.values.BooleanValue include_special_user = 1;</code>
        */
       public Builder clearIncludeSpecialUser() {
         if (includeSpecialUserBuilder_ == null) {
@@ -529,7 +529,7 @@ public final class MiGetAllDatabaseUsersAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.BooleanValue include_special_user = 1;</code>
+       * <code>.dstore.values.BooleanValue include_special_user = 1;</code>
        */
       public io.dstore.values.BooleanValue.Builder getIncludeSpecialUserBuilder() {
         
@@ -537,7 +537,7 @@ public final class MiGetAllDatabaseUsersAd {
         return getIncludeSpecialUserFieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .dstore.values.BooleanValue include_special_user = 1;</code>
+       * <code>.dstore.values.BooleanValue include_special_user = 1;</code>
        */
       public io.dstore.values.BooleanValueOrBuilder getIncludeSpecialUserOrBuilder() {
         if (includeSpecialUserBuilder_ != null) {
@@ -548,7 +548,7 @@ public final class MiGetAllDatabaseUsersAd {
         }
       }
       /**
-       * <code>optional .dstore.values.BooleanValue include_special_user = 1;</code>
+       * <code>.dstore.values.BooleanValue include_special_user = 1;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.values.BooleanValue, io.dstore.values.BooleanValue.Builder, io.dstore.values.BooleanValueOrBuilder> 
@@ -566,13 +566,13 @@ public final class MiGetAllDatabaseUsersAd {
 
       private boolean includeSpecialUserNull_ ;
       /**
-       * <code>optional bool include_special_user_null = 1001;</code>
+       * <code>bool include_special_user_null = 1001;</code>
        */
       public boolean getIncludeSpecialUserNull() {
         return includeSpecialUserNull_;
       }
       /**
-       * <code>optional bool include_special_user_null = 1001;</code>
+       * <code>bool include_special_user_null = 1001;</code>
        */
       public Builder setIncludeSpecialUserNull(boolean value) {
         
@@ -581,7 +581,7 @@ public final class MiGetAllDatabaseUsersAd {
         return this;
       }
       /**
-       * <code>optional bool include_special_user_null = 1001;</code>
+       * <code>bool include_special_user_null = 1001;</code>
        */
       public Builder clearIncludeSpecialUserNull() {
         
@@ -840,7 +840,7 @@ public final class MiGetAllDatabaseUsersAd {
         com.google.protobuf.MessageOrBuilder {
 
       /**
-       * <code>optional int32 row_id = 10000;</code>
+       * <code>int32 row_id = 10000;</code>
        */
       int getRowId();
 
@@ -849,7 +849,7 @@ public final class MiGetAllDatabaseUsersAd {
        * Name eines Benutzers der Datenbank (in der die Prozedur installiert ist und ausgeführt wird)
        * </pre>
        *
-       * <code>optional .dstore.values.StringValue name = 10001;</code>
+       * <code>.dstore.values.StringValue name = 10001;</code>
        */
       boolean hasName();
       /**
@@ -857,7 +857,7 @@ public final class MiGetAllDatabaseUsersAd {
        * Name eines Benutzers der Datenbank (in der die Prozedur installiert ist und ausgeführt wird)
        * </pre>
        *
-       * <code>optional .dstore.values.StringValue name = 10001;</code>
+       * <code>.dstore.values.StringValue name = 10001;</code>
        */
       io.dstore.values.StringValue getName();
       /**
@@ -865,7 +865,7 @@ public final class MiGetAllDatabaseUsersAd {
        * Name eines Benutzers der Datenbank (in der die Prozedur installiert ist und ausgeführt wird)
        * </pre>
        *
-       * <code>optional .dstore.values.StringValue name = 10001;</code>
+       * <code>.dstore.values.StringValue name = 10001;</code>
        */
       io.dstore.values.StringValueOrBuilder getNameOrBuilder();
     }
@@ -953,7 +953,7 @@ public final class MiGetAllDatabaseUsersAd {
       public static final int ROW_ID_FIELD_NUMBER = 10000;
       private int rowId_;
       /**
-       * <code>optional int32 row_id = 10000;</code>
+       * <code>int32 row_id = 10000;</code>
        */
       public int getRowId() {
         return rowId_;
@@ -966,7 +966,7 @@ public final class MiGetAllDatabaseUsersAd {
        * Name eines Benutzers der Datenbank (in der die Prozedur installiert ist und ausgeführt wird)
        * </pre>
        *
-       * <code>optional .dstore.values.StringValue name = 10001;</code>
+       * <code>.dstore.values.StringValue name = 10001;</code>
        */
       public boolean hasName() {
         return name_ != null;
@@ -976,7 +976,7 @@ public final class MiGetAllDatabaseUsersAd {
        * Name eines Benutzers der Datenbank (in der die Prozedur installiert ist und ausgeführt wird)
        * </pre>
        *
-       * <code>optional .dstore.values.StringValue name = 10001;</code>
+       * <code>.dstore.values.StringValue name = 10001;</code>
        */
       public io.dstore.values.StringValue getName() {
         return name_ == null ? io.dstore.values.StringValue.getDefaultInstance() : name_;
@@ -986,7 +986,7 @@ public final class MiGetAllDatabaseUsersAd {
        * Name eines Benutzers der Datenbank (in der die Prozedur installiert ist und ausgeführt wird)
        * </pre>
        *
-       * <code>optional .dstore.values.StringValue name = 10001;</code>
+       * <code>.dstore.values.StringValue name = 10001;</code>
        */
       public io.dstore.values.StringValueOrBuilder getNameOrBuilder() {
         return getName();
@@ -1057,7 +1057,7 @@ public final class MiGetAllDatabaseUsersAd {
           return memoizedHashCode;
         }
         int hash = 41;
-        hash = (19 * hash) + getDescriptorForType().hashCode();
+        hash = (19 * hash) + getDescriptor().hashCode();
         hash = (37 * hash) + ROW_ID_FIELD_NUMBER;
         hash = (53 * hash) + getRowId();
         if (hasName()) {
@@ -1293,13 +1293,13 @@ public final class MiGetAllDatabaseUsersAd {
 
         private int rowId_ ;
         /**
-         * <code>optional int32 row_id = 10000;</code>
+         * <code>int32 row_id = 10000;</code>
          */
         public int getRowId() {
           return rowId_;
         }
         /**
-         * <code>optional int32 row_id = 10000;</code>
+         * <code>int32 row_id = 10000;</code>
          */
         public Builder setRowId(int value) {
           
@@ -1308,7 +1308,7 @@ public final class MiGetAllDatabaseUsersAd {
           return this;
         }
         /**
-         * <code>optional int32 row_id = 10000;</code>
+         * <code>int32 row_id = 10000;</code>
          */
         public Builder clearRowId() {
           
@@ -1325,7 +1325,7 @@ public final class MiGetAllDatabaseUsersAd {
          * Name eines Benutzers der Datenbank (in der die Prozedur installiert ist und ausgeführt wird)
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue name = 10001;</code>
+         * <code>.dstore.values.StringValue name = 10001;</code>
          */
         public boolean hasName() {
           return nameBuilder_ != null || name_ != null;
@@ -1335,7 +1335,7 @@ public final class MiGetAllDatabaseUsersAd {
          * Name eines Benutzers der Datenbank (in der die Prozedur installiert ist und ausgeführt wird)
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue name = 10001;</code>
+         * <code>.dstore.values.StringValue name = 10001;</code>
          */
         public io.dstore.values.StringValue getName() {
           if (nameBuilder_ == null) {
@@ -1349,7 +1349,7 @@ public final class MiGetAllDatabaseUsersAd {
          * Name eines Benutzers der Datenbank (in der die Prozedur installiert ist und ausgeführt wird)
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue name = 10001;</code>
+         * <code>.dstore.values.StringValue name = 10001;</code>
          */
         public Builder setName(io.dstore.values.StringValue value) {
           if (nameBuilder_ == null) {
@@ -1369,7 +1369,7 @@ public final class MiGetAllDatabaseUsersAd {
          * Name eines Benutzers der Datenbank (in der die Prozedur installiert ist und ausgeführt wird)
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue name = 10001;</code>
+         * <code>.dstore.values.StringValue name = 10001;</code>
          */
         public Builder setName(
             io.dstore.values.StringValue.Builder builderForValue) {
@@ -1387,7 +1387,7 @@ public final class MiGetAllDatabaseUsersAd {
          * Name eines Benutzers der Datenbank (in der die Prozedur installiert ist und ausgeführt wird)
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue name = 10001;</code>
+         * <code>.dstore.values.StringValue name = 10001;</code>
          */
         public Builder mergeName(io.dstore.values.StringValue value) {
           if (nameBuilder_ == null) {
@@ -1409,7 +1409,7 @@ public final class MiGetAllDatabaseUsersAd {
          * Name eines Benutzers der Datenbank (in der die Prozedur installiert ist und ausgeführt wird)
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue name = 10001;</code>
+         * <code>.dstore.values.StringValue name = 10001;</code>
          */
         public Builder clearName() {
           if (nameBuilder_ == null) {
@@ -1427,7 +1427,7 @@ public final class MiGetAllDatabaseUsersAd {
          * Name eines Benutzers der Datenbank (in der die Prozedur installiert ist und ausgeführt wird)
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue name = 10001;</code>
+         * <code>.dstore.values.StringValue name = 10001;</code>
          */
         public io.dstore.values.StringValue.Builder getNameBuilder() {
           
@@ -1439,7 +1439,7 @@ public final class MiGetAllDatabaseUsersAd {
          * Name eines Benutzers der Datenbank (in der die Prozedur installiert ist und ausgeführt wird)
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue name = 10001;</code>
+         * <code>.dstore.values.StringValue name = 10001;</code>
          */
         public io.dstore.values.StringValueOrBuilder getNameOrBuilder() {
           if (nameBuilder_ != null) {
@@ -1454,7 +1454,7 @@ public final class MiGetAllDatabaseUsersAd {
          * Name eines Benutzers der Datenbank (in der die Prozedur installiert ist und ausgeführt wird)
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue name = 10001;</code>
+         * <code>.dstore.values.StringValue name = 10001;</code>
          */
         private com.google.protobuf.SingleFieldBuilderV3<
             io.dstore.values.StringValue, io.dstore.values.StringValue.Builder, io.dstore.values.StringValueOrBuilder> 
@@ -1714,7 +1714,7 @@ public final class MiGetAllDatabaseUsersAd {
         return memoizedHashCode;
       }
       int hash = 41;
-      hash = (19 * hash) + getDescriptorForType().hashCode();
+      hash = (19 * hash) + getDescriptor().hashCode();
       if (getMetaInformationCount() > 0) {
         hash = (37 * hash) + META_INFORMATION_FIELD_NUMBER;
         hash = (53 * hash) + getMetaInformationList().hashCode();

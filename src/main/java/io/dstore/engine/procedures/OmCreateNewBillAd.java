@@ -19,236 +19,236 @@ public final class OmCreateNewBillAd {
       com.google.protobuf.MessageOrBuilder {
 
     /**
-     * <code>optional .dstore.values.BooleanValue incorrect_information_exists = 1;</code>
+     * <code>.dstore.values.BooleanValue incorrect_information_exists = 1;</code>
      */
     boolean hasIncorrectInformationExists();
     /**
-     * <code>optional .dstore.values.BooleanValue incorrect_information_exists = 1;</code>
+     * <code>.dstore.values.BooleanValue incorrect_information_exists = 1;</code>
      */
     io.dstore.values.BooleanValue getIncorrectInformationExists();
     /**
-     * <code>optional .dstore.values.BooleanValue incorrect_information_exists = 1;</code>
+     * <code>.dstore.values.BooleanValue incorrect_information_exists = 1;</code>
      */
     io.dstore.values.BooleanValueOrBuilder getIncorrectInformationExistsOrBuilder();
 
     /**
-     * <code>optional bool incorrect_information_exists_null = 1001;</code>
+     * <code>bool incorrect_information_exists_null = 1001;</code>
      */
     boolean getIncorrectInformationExistsNull();
 
     /**
-     * <code>optional .dstore.values.IntegerValue result = 2;</code>
+     * <code>.dstore.values.IntegerValue result = 2;</code>
      */
     boolean hasResult();
     /**
-     * <code>optional .dstore.values.IntegerValue result = 2;</code>
+     * <code>.dstore.values.IntegerValue result = 2;</code>
      */
     io.dstore.values.IntegerValue getResult();
     /**
-     * <code>optional .dstore.values.IntegerValue result = 2;</code>
+     * <code>.dstore.values.IntegerValue result = 2;</code>
      */
     io.dstore.values.IntegerValueOrBuilder getResultOrBuilder();
 
     /**
-     * <code>optional bool result_null = 1002;</code>
+     * <code>bool result_null = 1002;</code>
      */
     boolean getResultNull();
 
     /**
-     * <code>optional .dstore.values.IntegerValue order_id = 3;</code>
+     * <code>.dstore.values.IntegerValue order_id = 3;</code>
      */
     boolean hasOrderId();
     /**
-     * <code>optional .dstore.values.IntegerValue order_id = 3;</code>
+     * <code>.dstore.values.IntegerValue order_id = 3;</code>
      */
     io.dstore.values.IntegerValue getOrderId();
     /**
-     * <code>optional .dstore.values.IntegerValue order_id = 3;</code>
+     * <code>.dstore.values.IntegerValue order_id = 3;</code>
      */
     io.dstore.values.IntegerValueOrBuilder getOrderIdOrBuilder();
 
     /**
-     * <code>optional bool order_id_null = 1003;</code>
+     * <code>bool order_id_null = 1003;</code>
      */
     boolean getOrderIdNull();
 
     /**
-     * <code>optional .dstore.values.IntegerValue recipient_person_id = 4;</code>
+     * <code>.dstore.values.IntegerValue recipient_person_id = 4;</code>
      */
     boolean hasRecipientPersonId();
     /**
-     * <code>optional .dstore.values.IntegerValue recipient_person_id = 4;</code>
+     * <code>.dstore.values.IntegerValue recipient_person_id = 4;</code>
      */
     io.dstore.values.IntegerValue getRecipientPersonId();
     /**
-     * <code>optional .dstore.values.IntegerValue recipient_person_id = 4;</code>
+     * <code>.dstore.values.IntegerValue recipient_person_id = 4;</code>
      */
     io.dstore.values.IntegerValueOrBuilder getRecipientPersonIdOrBuilder();
 
     /**
-     * <code>optional bool recipient_person_id_null = 1004;</code>
+     * <code>bool recipient_person_id_null = 1004;</code>
      */
     boolean getRecipientPersonIdNull();
 
     /**
-     * <code>optional .dstore.values.IntegerValue drawer_person_id = 5;</code>
+     * <code>.dstore.values.IntegerValue drawer_person_id = 5;</code>
      */
     boolean hasDrawerPersonId();
     /**
-     * <code>optional .dstore.values.IntegerValue drawer_person_id = 5;</code>
+     * <code>.dstore.values.IntegerValue drawer_person_id = 5;</code>
      */
     io.dstore.values.IntegerValue getDrawerPersonId();
     /**
-     * <code>optional .dstore.values.IntegerValue drawer_person_id = 5;</code>
+     * <code>.dstore.values.IntegerValue drawer_person_id = 5;</code>
      */
     io.dstore.values.IntegerValueOrBuilder getDrawerPersonIdOrBuilder();
 
     /**
-     * <code>optional bool drawer_person_id_null = 1005;</code>
+     * <code>bool drawer_person_id_null = 1005;</code>
      */
     boolean getDrawerPersonIdNull();
 
     /**
-     * <code>optional .dstore.values.IntegerValue currency_id = 6;</code>
+     * <code>.dstore.values.IntegerValue currency_id = 6;</code>
      */
     boolean hasCurrencyId();
     /**
-     * <code>optional .dstore.values.IntegerValue currency_id = 6;</code>
+     * <code>.dstore.values.IntegerValue currency_id = 6;</code>
      */
     io.dstore.values.IntegerValue getCurrencyId();
     /**
-     * <code>optional .dstore.values.IntegerValue currency_id = 6;</code>
+     * <code>.dstore.values.IntegerValue currency_id = 6;</code>
      */
     io.dstore.values.IntegerValueOrBuilder getCurrencyIdOrBuilder();
 
     /**
-     * <code>optional bool currency_id_null = 1006;</code>
+     * <code>bool currency_id_null = 1006;</code>
      */
     boolean getCurrencyIdNull();
 
     /**
-     * <code>optional .dstore.values.IntegerValue generated_bill_id = 7;</code>
+     * <code>.dstore.values.IntegerValue generated_bill_id = 7;</code>
      */
     boolean hasGeneratedBillId();
     /**
-     * <code>optional .dstore.values.IntegerValue generated_bill_id = 7;</code>
+     * <code>.dstore.values.IntegerValue generated_bill_id = 7;</code>
      */
     io.dstore.values.IntegerValue getGeneratedBillId();
     /**
-     * <code>optional .dstore.values.IntegerValue generated_bill_id = 7;</code>
+     * <code>.dstore.values.IntegerValue generated_bill_id = 7;</code>
      */
     io.dstore.values.IntegerValueOrBuilder getGeneratedBillIdOrBuilder();
 
     /**
-     * <code>optional bool generated_bill_id_null = 1007;</code>
+     * <code>bool generated_bill_id_null = 1007;</code>
      */
     boolean getGeneratedBillIdNull();
 
     /**
-     * <code>optional .dstore.values.BooleanValue add_bill_information = 8;</code>
+     * <code>.dstore.values.BooleanValue add_bill_information = 8;</code>
      */
     boolean hasAddBillInformation();
     /**
-     * <code>optional .dstore.values.BooleanValue add_bill_information = 8;</code>
+     * <code>.dstore.values.BooleanValue add_bill_information = 8;</code>
      */
     io.dstore.values.BooleanValue getAddBillInformation();
     /**
-     * <code>optional .dstore.values.BooleanValue add_bill_information = 8;</code>
+     * <code>.dstore.values.BooleanValue add_bill_information = 8;</code>
      */
     io.dstore.values.BooleanValueOrBuilder getAddBillInformationOrBuilder();
 
     /**
-     * <code>optional bool add_bill_information_null = 1008;</code>
+     * <code>bool add_bill_information_null = 1008;</code>
      */
     boolean getAddBillInformationNull();
 
     /**
-     * <code>optional .dstore.values.BooleanValue add_bill_content_information = 9;</code>
+     * <code>.dstore.values.BooleanValue add_bill_content_information = 9;</code>
      */
     boolean hasAddBillContentInformation();
     /**
-     * <code>optional .dstore.values.BooleanValue add_bill_content_information = 9;</code>
+     * <code>.dstore.values.BooleanValue add_bill_content_information = 9;</code>
      */
     io.dstore.values.BooleanValue getAddBillContentInformation();
     /**
-     * <code>optional .dstore.values.BooleanValue add_bill_content_information = 9;</code>
+     * <code>.dstore.values.BooleanValue add_bill_content_information = 9;</code>
      */
     io.dstore.values.BooleanValueOrBuilder getAddBillContentInformationOrBuilder();
 
     /**
-     * <code>optional bool add_bill_content_information_null = 1009;</code>
+     * <code>bool add_bill_content_information_null = 1009;</code>
      */
     boolean getAddBillContentInformationNull();
 
     /**
-     * <code>optional .dstore.values.BooleanValue other_bill_content = 10;</code>
+     * <code>.dstore.values.BooleanValue other_bill_content = 10;</code>
      */
     boolean hasOtherBillContent();
     /**
-     * <code>optional .dstore.values.BooleanValue other_bill_content = 10;</code>
+     * <code>.dstore.values.BooleanValue other_bill_content = 10;</code>
      */
     io.dstore.values.BooleanValue getOtherBillContent();
     /**
-     * <code>optional .dstore.values.BooleanValue other_bill_content = 10;</code>
+     * <code>.dstore.values.BooleanValue other_bill_content = 10;</code>
      */
     io.dstore.values.BooleanValueOrBuilder getOtherBillContentOrBuilder();
 
     /**
-     * <code>optional bool other_bill_content_null = 1010;</code>
+     * <code>bool other_bill_content_null = 1010;</code>
      */
     boolean getOtherBillContentNull();
 
     /**
-     * <code>optional .dstore.values.BooleanValue add_other_content_information = 11;</code>
+     * <code>.dstore.values.BooleanValue add_other_content_information = 11;</code>
      */
     boolean hasAddOtherContentInformation();
     /**
-     * <code>optional .dstore.values.BooleanValue add_other_content_information = 11;</code>
+     * <code>.dstore.values.BooleanValue add_other_content_information = 11;</code>
      */
     io.dstore.values.BooleanValue getAddOtherContentInformation();
     /**
-     * <code>optional .dstore.values.BooleanValue add_other_content_information = 11;</code>
+     * <code>.dstore.values.BooleanValue add_other_content_information = 11;</code>
      */
     io.dstore.values.BooleanValueOrBuilder getAddOtherContentInformationOrBuilder();
 
     /**
-     * <code>optional bool add_other_content_information_null = 1011;</code>
+     * <code>bool add_other_content_information_null = 1011;</code>
      */
     boolean getAddOtherContentInformationNull();
 
     /**
-     * <code>optional .dstore.values.BooleanValue get_incorrect_information = 12;</code>
+     * <code>.dstore.values.BooleanValue get_incorrect_information = 12;</code>
      */
     boolean hasGetIncorrectInformation();
     /**
-     * <code>optional .dstore.values.BooleanValue get_incorrect_information = 12;</code>
+     * <code>.dstore.values.BooleanValue get_incorrect_information = 12;</code>
      */
     io.dstore.values.BooleanValue getGetIncorrectInformation();
     /**
-     * <code>optional .dstore.values.BooleanValue get_incorrect_information = 12;</code>
+     * <code>.dstore.values.BooleanValue get_incorrect_information = 12;</code>
      */
     io.dstore.values.BooleanValueOrBuilder getGetIncorrectInformationOrBuilder();
 
     /**
-     * <code>optional bool get_incorrect_information_null = 1012;</code>
+     * <code>bool get_incorrect_information_null = 1012;</code>
      */
     boolean getGetIncorrectInformationNull();
 
     /**
-     * <code>optional .dstore.values.StringValue country = 13;</code>
+     * <code>.dstore.values.StringValue country = 13;</code>
      */
     boolean hasCountry();
     /**
-     * <code>optional .dstore.values.StringValue country = 13;</code>
+     * <code>.dstore.values.StringValue country = 13;</code>
      */
     io.dstore.values.StringValue getCountry();
     /**
-     * <code>optional .dstore.values.StringValue country = 13;</code>
+     * <code>.dstore.values.StringValue country = 13;</code>
      */
     io.dstore.values.StringValueOrBuilder getCountryOrBuilder();
 
     /**
-     * <code>optional bool country_null = 1013;</code>
+     * <code>bool country_null = 1013;</code>
      */
     boolean getCountryNull();
   }
@@ -564,19 +564,19 @@ public final class OmCreateNewBillAd {
     public static final int INCORRECT_INFORMATION_EXISTS_FIELD_NUMBER = 1;
     private io.dstore.values.BooleanValue incorrectInformationExists_;
     /**
-     * <code>optional .dstore.values.BooleanValue incorrect_information_exists = 1;</code>
+     * <code>.dstore.values.BooleanValue incorrect_information_exists = 1;</code>
      */
     public boolean hasIncorrectInformationExists() {
       return incorrectInformationExists_ != null;
     }
     /**
-     * <code>optional .dstore.values.BooleanValue incorrect_information_exists = 1;</code>
+     * <code>.dstore.values.BooleanValue incorrect_information_exists = 1;</code>
      */
     public io.dstore.values.BooleanValue getIncorrectInformationExists() {
       return incorrectInformationExists_ == null ? io.dstore.values.BooleanValue.getDefaultInstance() : incorrectInformationExists_;
     }
     /**
-     * <code>optional .dstore.values.BooleanValue incorrect_information_exists = 1;</code>
+     * <code>.dstore.values.BooleanValue incorrect_information_exists = 1;</code>
      */
     public io.dstore.values.BooleanValueOrBuilder getIncorrectInformationExistsOrBuilder() {
       return getIncorrectInformationExists();
@@ -585,7 +585,7 @@ public final class OmCreateNewBillAd {
     public static final int INCORRECT_INFORMATION_EXISTS_NULL_FIELD_NUMBER = 1001;
     private boolean incorrectInformationExistsNull_;
     /**
-     * <code>optional bool incorrect_information_exists_null = 1001;</code>
+     * <code>bool incorrect_information_exists_null = 1001;</code>
      */
     public boolean getIncorrectInformationExistsNull() {
       return incorrectInformationExistsNull_;
@@ -594,19 +594,19 @@ public final class OmCreateNewBillAd {
     public static final int RESULT_FIELD_NUMBER = 2;
     private io.dstore.values.IntegerValue result_;
     /**
-     * <code>optional .dstore.values.IntegerValue result = 2;</code>
+     * <code>.dstore.values.IntegerValue result = 2;</code>
      */
     public boolean hasResult() {
       return result_ != null;
     }
     /**
-     * <code>optional .dstore.values.IntegerValue result = 2;</code>
+     * <code>.dstore.values.IntegerValue result = 2;</code>
      */
     public io.dstore.values.IntegerValue getResult() {
       return result_ == null ? io.dstore.values.IntegerValue.getDefaultInstance() : result_;
     }
     /**
-     * <code>optional .dstore.values.IntegerValue result = 2;</code>
+     * <code>.dstore.values.IntegerValue result = 2;</code>
      */
     public io.dstore.values.IntegerValueOrBuilder getResultOrBuilder() {
       return getResult();
@@ -615,7 +615,7 @@ public final class OmCreateNewBillAd {
     public static final int RESULT_NULL_FIELD_NUMBER = 1002;
     private boolean resultNull_;
     /**
-     * <code>optional bool result_null = 1002;</code>
+     * <code>bool result_null = 1002;</code>
      */
     public boolean getResultNull() {
       return resultNull_;
@@ -624,19 +624,19 @@ public final class OmCreateNewBillAd {
     public static final int ORDER_ID_FIELD_NUMBER = 3;
     private io.dstore.values.IntegerValue orderId_;
     /**
-     * <code>optional .dstore.values.IntegerValue order_id = 3;</code>
+     * <code>.dstore.values.IntegerValue order_id = 3;</code>
      */
     public boolean hasOrderId() {
       return orderId_ != null;
     }
     /**
-     * <code>optional .dstore.values.IntegerValue order_id = 3;</code>
+     * <code>.dstore.values.IntegerValue order_id = 3;</code>
      */
     public io.dstore.values.IntegerValue getOrderId() {
       return orderId_ == null ? io.dstore.values.IntegerValue.getDefaultInstance() : orderId_;
     }
     /**
-     * <code>optional .dstore.values.IntegerValue order_id = 3;</code>
+     * <code>.dstore.values.IntegerValue order_id = 3;</code>
      */
     public io.dstore.values.IntegerValueOrBuilder getOrderIdOrBuilder() {
       return getOrderId();
@@ -645,7 +645,7 @@ public final class OmCreateNewBillAd {
     public static final int ORDER_ID_NULL_FIELD_NUMBER = 1003;
     private boolean orderIdNull_;
     /**
-     * <code>optional bool order_id_null = 1003;</code>
+     * <code>bool order_id_null = 1003;</code>
      */
     public boolean getOrderIdNull() {
       return orderIdNull_;
@@ -654,19 +654,19 @@ public final class OmCreateNewBillAd {
     public static final int RECIPIENT_PERSON_ID_FIELD_NUMBER = 4;
     private io.dstore.values.IntegerValue recipientPersonId_;
     /**
-     * <code>optional .dstore.values.IntegerValue recipient_person_id = 4;</code>
+     * <code>.dstore.values.IntegerValue recipient_person_id = 4;</code>
      */
     public boolean hasRecipientPersonId() {
       return recipientPersonId_ != null;
     }
     /**
-     * <code>optional .dstore.values.IntegerValue recipient_person_id = 4;</code>
+     * <code>.dstore.values.IntegerValue recipient_person_id = 4;</code>
      */
     public io.dstore.values.IntegerValue getRecipientPersonId() {
       return recipientPersonId_ == null ? io.dstore.values.IntegerValue.getDefaultInstance() : recipientPersonId_;
     }
     /**
-     * <code>optional .dstore.values.IntegerValue recipient_person_id = 4;</code>
+     * <code>.dstore.values.IntegerValue recipient_person_id = 4;</code>
      */
     public io.dstore.values.IntegerValueOrBuilder getRecipientPersonIdOrBuilder() {
       return getRecipientPersonId();
@@ -675,7 +675,7 @@ public final class OmCreateNewBillAd {
     public static final int RECIPIENT_PERSON_ID_NULL_FIELD_NUMBER = 1004;
     private boolean recipientPersonIdNull_;
     /**
-     * <code>optional bool recipient_person_id_null = 1004;</code>
+     * <code>bool recipient_person_id_null = 1004;</code>
      */
     public boolean getRecipientPersonIdNull() {
       return recipientPersonIdNull_;
@@ -684,19 +684,19 @@ public final class OmCreateNewBillAd {
     public static final int DRAWER_PERSON_ID_FIELD_NUMBER = 5;
     private io.dstore.values.IntegerValue drawerPersonId_;
     /**
-     * <code>optional .dstore.values.IntegerValue drawer_person_id = 5;</code>
+     * <code>.dstore.values.IntegerValue drawer_person_id = 5;</code>
      */
     public boolean hasDrawerPersonId() {
       return drawerPersonId_ != null;
     }
     /**
-     * <code>optional .dstore.values.IntegerValue drawer_person_id = 5;</code>
+     * <code>.dstore.values.IntegerValue drawer_person_id = 5;</code>
      */
     public io.dstore.values.IntegerValue getDrawerPersonId() {
       return drawerPersonId_ == null ? io.dstore.values.IntegerValue.getDefaultInstance() : drawerPersonId_;
     }
     /**
-     * <code>optional .dstore.values.IntegerValue drawer_person_id = 5;</code>
+     * <code>.dstore.values.IntegerValue drawer_person_id = 5;</code>
      */
     public io.dstore.values.IntegerValueOrBuilder getDrawerPersonIdOrBuilder() {
       return getDrawerPersonId();
@@ -705,7 +705,7 @@ public final class OmCreateNewBillAd {
     public static final int DRAWER_PERSON_ID_NULL_FIELD_NUMBER = 1005;
     private boolean drawerPersonIdNull_;
     /**
-     * <code>optional bool drawer_person_id_null = 1005;</code>
+     * <code>bool drawer_person_id_null = 1005;</code>
      */
     public boolean getDrawerPersonIdNull() {
       return drawerPersonIdNull_;
@@ -714,19 +714,19 @@ public final class OmCreateNewBillAd {
     public static final int CURRENCY_ID_FIELD_NUMBER = 6;
     private io.dstore.values.IntegerValue currencyId_;
     /**
-     * <code>optional .dstore.values.IntegerValue currency_id = 6;</code>
+     * <code>.dstore.values.IntegerValue currency_id = 6;</code>
      */
     public boolean hasCurrencyId() {
       return currencyId_ != null;
     }
     /**
-     * <code>optional .dstore.values.IntegerValue currency_id = 6;</code>
+     * <code>.dstore.values.IntegerValue currency_id = 6;</code>
      */
     public io.dstore.values.IntegerValue getCurrencyId() {
       return currencyId_ == null ? io.dstore.values.IntegerValue.getDefaultInstance() : currencyId_;
     }
     /**
-     * <code>optional .dstore.values.IntegerValue currency_id = 6;</code>
+     * <code>.dstore.values.IntegerValue currency_id = 6;</code>
      */
     public io.dstore.values.IntegerValueOrBuilder getCurrencyIdOrBuilder() {
       return getCurrencyId();
@@ -735,7 +735,7 @@ public final class OmCreateNewBillAd {
     public static final int CURRENCY_ID_NULL_FIELD_NUMBER = 1006;
     private boolean currencyIdNull_;
     /**
-     * <code>optional bool currency_id_null = 1006;</code>
+     * <code>bool currency_id_null = 1006;</code>
      */
     public boolean getCurrencyIdNull() {
       return currencyIdNull_;
@@ -744,19 +744,19 @@ public final class OmCreateNewBillAd {
     public static final int GENERATED_BILL_ID_FIELD_NUMBER = 7;
     private io.dstore.values.IntegerValue generatedBillId_;
     /**
-     * <code>optional .dstore.values.IntegerValue generated_bill_id = 7;</code>
+     * <code>.dstore.values.IntegerValue generated_bill_id = 7;</code>
      */
     public boolean hasGeneratedBillId() {
       return generatedBillId_ != null;
     }
     /**
-     * <code>optional .dstore.values.IntegerValue generated_bill_id = 7;</code>
+     * <code>.dstore.values.IntegerValue generated_bill_id = 7;</code>
      */
     public io.dstore.values.IntegerValue getGeneratedBillId() {
       return generatedBillId_ == null ? io.dstore.values.IntegerValue.getDefaultInstance() : generatedBillId_;
     }
     /**
-     * <code>optional .dstore.values.IntegerValue generated_bill_id = 7;</code>
+     * <code>.dstore.values.IntegerValue generated_bill_id = 7;</code>
      */
     public io.dstore.values.IntegerValueOrBuilder getGeneratedBillIdOrBuilder() {
       return getGeneratedBillId();
@@ -765,7 +765,7 @@ public final class OmCreateNewBillAd {
     public static final int GENERATED_BILL_ID_NULL_FIELD_NUMBER = 1007;
     private boolean generatedBillIdNull_;
     /**
-     * <code>optional bool generated_bill_id_null = 1007;</code>
+     * <code>bool generated_bill_id_null = 1007;</code>
      */
     public boolean getGeneratedBillIdNull() {
       return generatedBillIdNull_;
@@ -774,19 +774,19 @@ public final class OmCreateNewBillAd {
     public static final int ADD_BILL_INFORMATION_FIELD_NUMBER = 8;
     private io.dstore.values.BooleanValue addBillInformation_;
     /**
-     * <code>optional .dstore.values.BooleanValue add_bill_information = 8;</code>
+     * <code>.dstore.values.BooleanValue add_bill_information = 8;</code>
      */
     public boolean hasAddBillInformation() {
       return addBillInformation_ != null;
     }
     /**
-     * <code>optional .dstore.values.BooleanValue add_bill_information = 8;</code>
+     * <code>.dstore.values.BooleanValue add_bill_information = 8;</code>
      */
     public io.dstore.values.BooleanValue getAddBillInformation() {
       return addBillInformation_ == null ? io.dstore.values.BooleanValue.getDefaultInstance() : addBillInformation_;
     }
     /**
-     * <code>optional .dstore.values.BooleanValue add_bill_information = 8;</code>
+     * <code>.dstore.values.BooleanValue add_bill_information = 8;</code>
      */
     public io.dstore.values.BooleanValueOrBuilder getAddBillInformationOrBuilder() {
       return getAddBillInformation();
@@ -795,7 +795,7 @@ public final class OmCreateNewBillAd {
     public static final int ADD_BILL_INFORMATION_NULL_FIELD_NUMBER = 1008;
     private boolean addBillInformationNull_;
     /**
-     * <code>optional bool add_bill_information_null = 1008;</code>
+     * <code>bool add_bill_information_null = 1008;</code>
      */
     public boolean getAddBillInformationNull() {
       return addBillInformationNull_;
@@ -804,19 +804,19 @@ public final class OmCreateNewBillAd {
     public static final int ADD_BILL_CONTENT_INFORMATION_FIELD_NUMBER = 9;
     private io.dstore.values.BooleanValue addBillContentInformation_;
     /**
-     * <code>optional .dstore.values.BooleanValue add_bill_content_information = 9;</code>
+     * <code>.dstore.values.BooleanValue add_bill_content_information = 9;</code>
      */
     public boolean hasAddBillContentInformation() {
       return addBillContentInformation_ != null;
     }
     /**
-     * <code>optional .dstore.values.BooleanValue add_bill_content_information = 9;</code>
+     * <code>.dstore.values.BooleanValue add_bill_content_information = 9;</code>
      */
     public io.dstore.values.BooleanValue getAddBillContentInformation() {
       return addBillContentInformation_ == null ? io.dstore.values.BooleanValue.getDefaultInstance() : addBillContentInformation_;
     }
     /**
-     * <code>optional .dstore.values.BooleanValue add_bill_content_information = 9;</code>
+     * <code>.dstore.values.BooleanValue add_bill_content_information = 9;</code>
      */
     public io.dstore.values.BooleanValueOrBuilder getAddBillContentInformationOrBuilder() {
       return getAddBillContentInformation();
@@ -825,7 +825,7 @@ public final class OmCreateNewBillAd {
     public static final int ADD_BILL_CONTENT_INFORMATION_NULL_FIELD_NUMBER = 1009;
     private boolean addBillContentInformationNull_;
     /**
-     * <code>optional bool add_bill_content_information_null = 1009;</code>
+     * <code>bool add_bill_content_information_null = 1009;</code>
      */
     public boolean getAddBillContentInformationNull() {
       return addBillContentInformationNull_;
@@ -834,19 +834,19 @@ public final class OmCreateNewBillAd {
     public static final int OTHER_BILL_CONTENT_FIELD_NUMBER = 10;
     private io.dstore.values.BooleanValue otherBillContent_;
     /**
-     * <code>optional .dstore.values.BooleanValue other_bill_content = 10;</code>
+     * <code>.dstore.values.BooleanValue other_bill_content = 10;</code>
      */
     public boolean hasOtherBillContent() {
       return otherBillContent_ != null;
     }
     /**
-     * <code>optional .dstore.values.BooleanValue other_bill_content = 10;</code>
+     * <code>.dstore.values.BooleanValue other_bill_content = 10;</code>
      */
     public io.dstore.values.BooleanValue getOtherBillContent() {
       return otherBillContent_ == null ? io.dstore.values.BooleanValue.getDefaultInstance() : otherBillContent_;
     }
     /**
-     * <code>optional .dstore.values.BooleanValue other_bill_content = 10;</code>
+     * <code>.dstore.values.BooleanValue other_bill_content = 10;</code>
      */
     public io.dstore.values.BooleanValueOrBuilder getOtherBillContentOrBuilder() {
       return getOtherBillContent();
@@ -855,7 +855,7 @@ public final class OmCreateNewBillAd {
     public static final int OTHER_BILL_CONTENT_NULL_FIELD_NUMBER = 1010;
     private boolean otherBillContentNull_;
     /**
-     * <code>optional bool other_bill_content_null = 1010;</code>
+     * <code>bool other_bill_content_null = 1010;</code>
      */
     public boolean getOtherBillContentNull() {
       return otherBillContentNull_;
@@ -864,19 +864,19 @@ public final class OmCreateNewBillAd {
     public static final int ADD_OTHER_CONTENT_INFORMATION_FIELD_NUMBER = 11;
     private io.dstore.values.BooleanValue addOtherContentInformation_;
     /**
-     * <code>optional .dstore.values.BooleanValue add_other_content_information = 11;</code>
+     * <code>.dstore.values.BooleanValue add_other_content_information = 11;</code>
      */
     public boolean hasAddOtherContentInformation() {
       return addOtherContentInformation_ != null;
     }
     /**
-     * <code>optional .dstore.values.BooleanValue add_other_content_information = 11;</code>
+     * <code>.dstore.values.BooleanValue add_other_content_information = 11;</code>
      */
     public io.dstore.values.BooleanValue getAddOtherContentInformation() {
       return addOtherContentInformation_ == null ? io.dstore.values.BooleanValue.getDefaultInstance() : addOtherContentInformation_;
     }
     /**
-     * <code>optional .dstore.values.BooleanValue add_other_content_information = 11;</code>
+     * <code>.dstore.values.BooleanValue add_other_content_information = 11;</code>
      */
     public io.dstore.values.BooleanValueOrBuilder getAddOtherContentInformationOrBuilder() {
       return getAddOtherContentInformation();
@@ -885,7 +885,7 @@ public final class OmCreateNewBillAd {
     public static final int ADD_OTHER_CONTENT_INFORMATION_NULL_FIELD_NUMBER = 1011;
     private boolean addOtherContentInformationNull_;
     /**
-     * <code>optional bool add_other_content_information_null = 1011;</code>
+     * <code>bool add_other_content_information_null = 1011;</code>
      */
     public boolean getAddOtherContentInformationNull() {
       return addOtherContentInformationNull_;
@@ -894,19 +894,19 @@ public final class OmCreateNewBillAd {
     public static final int GET_INCORRECT_INFORMATION_FIELD_NUMBER = 12;
     private io.dstore.values.BooleanValue getIncorrectInformation_;
     /**
-     * <code>optional .dstore.values.BooleanValue get_incorrect_information = 12;</code>
+     * <code>.dstore.values.BooleanValue get_incorrect_information = 12;</code>
      */
     public boolean hasGetIncorrectInformation() {
       return getIncorrectInformation_ != null;
     }
     /**
-     * <code>optional .dstore.values.BooleanValue get_incorrect_information = 12;</code>
+     * <code>.dstore.values.BooleanValue get_incorrect_information = 12;</code>
      */
     public io.dstore.values.BooleanValue getGetIncorrectInformation() {
       return getIncorrectInformation_ == null ? io.dstore.values.BooleanValue.getDefaultInstance() : getIncorrectInformation_;
     }
     /**
-     * <code>optional .dstore.values.BooleanValue get_incorrect_information = 12;</code>
+     * <code>.dstore.values.BooleanValue get_incorrect_information = 12;</code>
      */
     public io.dstore.values.BooleanValueOrBuilder getGetIncorrectInformationOrBuilder() {
       return getGetIncorrectInformation();
@@ -915,7 +915,7 @@ public final class OmCreateNewBillAd {
     public static final int GET_INCORRECT_INFORMATION_NULL_FIELD_NUMBER = 1012;
     private boolean getIncorrectInformationNull_;
     /**
-     * <code>optional bool get_incorrect_information_null = 1012;</code>
+     * <code>bool get_incorrect_information_null = 1012;</code>
      */
     public boolean getGetIncorrectInformationNull() {
       return getIncorrectInformationNull_;
@@ -924,19 +924,19 @@ public final class OmCreateNewBillAd {
     public static final int COUNTRY_FIELD_NUMBER = 13;
     private io.dstore.values.StringValue country_;
     /**
-     * <code>optional .dstore.values.StringValue country = 13;</code>
+     * <code>.dstore.values.StringValue country = 13;</code>
      */
     public boolean hasCountry() {
       return country_ != null;
     }
     /**
-     * <code>optional .dstore.values.StringValue country = 13;</code>
+     * <code>.dstore.values.StringValue country = 13;</code>
      */
     public io.dstore.values.StringValue getCountry() {
       return country_ == null ? io.dstore.values.StringValue.getDefaultInstance() : country_;
     }
     /**
-     * <code>optional .dstore.values.StringValue country = 13;</code>
+     * <code>.dstore.values.StringValue country = 13;</code>
      */
     public io.dstore.values.StringValueOrBuilder getCountryOrBuilder() {
       return getCountry();
@@ -945,7 +945,7 @@ public final class OmCreateNewBillAd {
     public static final int COUNTRY_NULL_FIELD_NUMBER = 1013;
     private boolean countryNull_;
     /**
-     * <code>optional bool country_null = 1013;</code>
+     * <code>bool country_null = 1013;</code>
      */
     public boolean getCountryNull() {
       return countryNull_;
@@ -1268,7 +1268,7 @@ public final class OmCreateNewBillAd {
         return memoizedHashCode;
       }
       int hash = 41;
-      hash = (19 * hash) + getDescriptorForType().hashCode();
+      hash = (19 * hash) + getDescriptor().hashCode();
       if (hasIncorrectInformationExists()) {
         hash = (37 * hash) + INCORRECT_INFORMATION_EXISTS_FIELD_NUMBER;
         hash = (53 * hash) + getIncorrectInformationExists().hashCode();
@@ -1831,13 +1831,13 @@ public final class OmCreateNewBillAd {
       private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.values.BooleanValue, io.dstore.values.BooleanValue.Builder, io.dstore.values.BooleanValueOrBuilder> incorrectInformationExistsBuilder_;
       /**
-       * <code>optional .dstore.values.BooleanValue incorrect_information_exists = 1;</code>
+       * <code>.dstore.values.BooleanValue incorrect_information_exists = 1;</code>
        */
       public boolean hasIncorrectInformationExists() {
         return incorrectInformationExistsBuilder_ != null || incorrectInformationExists_ != null;
       }
       /**
-       * <code>optional .dstore.values.BooleanValue incorrect_information_exists = 1;</code>
+       * <code>.dstore.values.BooleanValue incorrect_information_exists = 1;</code>
        */
       public io.dstore.values.BooleanValue getIncorrectInformationExists() {
         if (incorrectInformationExistsBuilder_ == null) {
@@ -1847,7 +1847,7 @@ public final class OmCreateNewBillAd {
         }
       }
       /**
-       * <code>optional .dstore.values.BooleanValue incorrect_information_exists = 1;</code>
+       * <code>.dstore.values.BooleanValue incorrect_information_exists = 1;</code>
        */
       public Builder setIncorrectInformationExists(io.dstore.values.BooleanValue value) {
         if (incorrectInformationExistsBuilder_ == null) {
@@ -1863,7 +1863,7 @@ public final class OmCreateNewBillAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.BooleanValue incorrect_information_exists = 1;</code>
+       * <code>.dstore.values.BooleanValue incorrect_information_exists = 1;</code>
        */
       public Builder setIncorrectInformationExists(
           io.dstore.values.BooleanValue.Builder builderForValue) {
@@ -1877,7 +1877,7 @@ public final class OmCreateNewBillAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.BooleanValue incorrect_information_exists = 1;</code>
+       * <code>.dstore.values.BooleanValue incorrect_information_exists = 1;</code>
        */
       public Builder mergeIncorrectInformationExists(io.dstore.values.BooleanValue value) {
         if (incorrectInformationExistsBuilder_ == null) {
@@ -1895,7 +1895,7 @@ public final class OmCreateNewBillAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.BooleanValue incorrect_information_exists = 1;</code>
+       * <code>.dstore.values.BooleanValue incorrect_information_exists = 1;</code>
        */
       public Builder clearIncorrectInformationExists() {
         if (incorrectInformationExistsBuilder_ == null) {
@@ -1909,7 +1909,7 @@ public final class OmCreateNewBillAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.BooleanValue incorrect_information_exists = 1;</code>
+       * <code>.dstore.values.BooleanValue incorrect_information_exists = 1;</code>
        */
       public io.dstore.values.BooleanValue.Builder getIncorrectInformationExistsBuilder() {
         
@@ -1917,7 +1917,7 @@ public final class OmCreateNewBillAd {
         return getIncorrectInformationExistsFieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .dstore.values.BooleanValue incorrect_information_exists = 1;</code>
+       * <code>.dstore.values.BooleanValue incorrect_information_exists = 1;</code>
        */
       public io.dstore.values.BooleanValueOrBuilder getIncorrectInformationExistsOrBuilder() {
         if (incorrectInformationExistsBuilder_ != null) {
@@ -1928,7 +1928,7 @@ public final class OmCreateNewBillAd {
         }
       }
       /**
-       * <code>optional .dstore.values.BooleanValue incorrect_information_exists = 1;</code>
+       * <code>.dstore.values.BooleanValue incorrect_information_exists = 1;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.values.BooleanValue, io.dstore.values.BooleanValue.Builder, io.dstore.values.BooleanValueOrBuilder> 
@@ -1946,13 +1946,13 @@ public final class OmCreateNewBillAd {
 
       private boolean incorrectInformationExistsNull_ ;
       /**
-       * <code>optional bool incorrect_information_exists_null = 1001;</code>
+       * <code>bool incorrect_information_exists_null = 1001;</code>
        */
       public boolean getIncorrectInformationExistsNull() {
         return incorrectInformationExistsNull_;
       }
       /**
-       * <code>optional bool incorrect_information_exists_null = 1001;</code>
+       * <code>bool incorrect_information_exists_null = 1001;</code>
        */
       public Builder setIncorrectInformationExistsNull(boolean value) {
         
@@ -1961,7 +1961,7 @@ public final class OmCreateNewBillAd {
         return this;
       }
       /**
-       * <code>optional bool incorrect_information_exists_null = 1001;</code>
+       * <code>bool incorrect_information_exists_null = 1001;</code>
        */
       public Builder clearIncorrectInformationExistsNull() {
         
@@ -1974,13 +1974,13 @@ public final class OmCreateNewBillAd {
       private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> resultBuilder_;
       /**
-       * <code>optional .dstore.values.IntegerValue result = 2;</code>
+       * <code>.dstore.values.IntegerValue result = 2;</code>
        */
       public boolean hasResult() {
         return resultBuilder_ != null || result_ != null;
       }
       /**
-       * <code>optional .dstore.values.IntegerValue result = 2;</code>
+       * <code>.dstore.values.IntegerValue result = 2;</code>
        */
       public io.dstore.values.IntegerValue getResult() {
         if (resultBuilder_ == null) {
@@ -1990,7 +1990,7 @@ public final class OmCreateNewBillAd {
         }
       }
       /**
-       * <code>optional .dstore.values.IntegerValue result = 2;</code>
+       * <code>.dstore.values.IntegerValue result = 2;</code>
        */
       public Builder setResult(io.dstore.values.IntegerValue value) {
         if (resultBuilder_ == null) {
@@ -2006,7 +2006,7 @@ public final class OmCreateNewBillAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.IntegerValue result = 2;</code>
+       * <code>.dstore.values.IntegerValue result = 2;</code>
        */
       public Builder setResult(
           io.dstore.values.IntegerValue.Builder builderForValue) {
@@ -2020,7 +2020,7 @@ public final class OmCreateNewBillAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.IntegerValue result = 2;</code>
+       * <code>.dstore.values.IntegerValue result = 2;</code>
        */
       public Builder mergeResult(io.dstore.values.IntegerValue value) {
         if (resultBuilder_ == null) {
@@ -2038,7 +2038,7 @@ public final class OmCreateNewBillAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.IntegerValue result = 2;</code>
+       * <code>.dstore.values.IntegerValue result = 2;</code>
        */
       public Builder clearResult() {
         if (resultBuilder_ == null) {
@@ -2052,7 +2052,7 @@ public final class OmCreateNewBillAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.IntegerValue result = 2;</code>
+       * <code>.dstore.values.IntegerValue result = 2;</code>
        */
       public io.dstore.values.IntegerValue.Builder getResultBuilder() {
         
@@ -2060,7 +2060,7 @@ public final class OmCreateNewBillAd {
         return getResultFieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .dstore.values.IntegerValue result = 2;</code>
+       * <code>.dstore.values.IntegerValue result = 2;</code>
        */
       public io.dstore.values.IntegerValueOrBuilder getResultOrBuilder() {
         if (resultBuilder_ != null) {
@@ -2071,7 +2071,7 @@ public final class OmCreateNewBillAd {
         }
       }
       /**
-       * <code>optional .dstore.values.IntegerValue result = 2;</code>
+       * <code>.dstore.values.IntegerValue result = 2;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> 
@@ -2089,13 +2089,13 @@ public final class OmCreateNewBillAd {
 
       private boolean resultNull_ ;
       /**
-       * <code>optional bool result_null = 1002;</code>
+       * <code>bool result_null = 1002;</code>
        */
       public boolean getResultNull() {
         return resultNull_;
       }
       /**
-       * <code>optional bool result_null = 1002;</code>
+       * <code>bool result_null = 1002;</code>
        */
       public Builder setResultNull(boolean value) {
         
@@ -2104,7 +2104,7 @@ public final class OmCreateNewBillAd {
         return this;
       }
       /**
-       * <code>optional bool result_null = 1002;</code>
+       * <code>bool result_null = 1002;</code>
        */
       public Builder clearResultNull() {
         
@@ -2117,13 +2117,13 @@ public final class OmCreateNewBillAd {
       private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> orderIdBuilder_;
       /**
-       * <code>optional .dstore.values.IntegerValue order_id = 3;</code>
+       * <code>.dstore.values.IntegerValue order_id = 3;</code>
        */
       public boolean hasOrderId() {
         return orderIdBuilder_ != null || orderId_ != null;
       }
       /**
-       * <code>optional .dstore.values.IntegerValue order_id = 3;</code>
+       * <code>.dstore.values.IntegerValue order_id = 3;</code>
        */
       public io.dstore.values.IntegerValue getOrderId() {
         if (orderIdBuilder_ == null) {
@@ -2133,7 +2133,7 @@ public final class OmCreateNewBillAd {
         }
       }
       /**
-       * <code>optional .dstore.values.IntegerValue order_id = 3;</code>
+       * <code>.dstore.values.IntegerValue order_id = 3;</code>
        */
       public Builder setOrderId(io.dstore.values.IntegerValue value) {
         if (orderIdBuilder_ == null) {
@@ -2149,7 +2149,7 @@ public final class OmCreateNewBillAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.IntegerValue order_id = 3;</code>
+       * <code>.dstore.values.IntegerValue order_id = 3;</code>
        */
       public Builder setOrderId(
           io.dstore.values.IntegerValue.Builder builderForValue) {
@@ -2163,7 +2163,7 @@ public final class OmCreateNewBillAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.IntegerValue order_id = 3;</code>
+       * <code>.dstore.values.IntegerValue order_id = 3;</code>
        */
       public Builder mergeOrderId(io.dstore.values.IntegerValue value) {
         if (orderIdBuilder_ == null) {
@@ -2181,7 +2181,7 @@ public final class OmCreateNewBillAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.IntegerValue order_id = 3;</code>
+       * <code>.dstore.values.IntegerValue order_id = 3;</code>
        */
       public Builder clearOrderId() {
         if (orderIdBuilder_ == null) {
@@ -2195,7 +2195,7 @@ public final class OmCreateNewBillAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.IntegerValue order_id = 3;</code>
+       * <code>.dstore.values.IntegerValue order_id = 3;</code>
        */
       public io.dstore.values.IntegerValue.Builder getOrderIdBuilder() {
         
@@ -2203,7 +2203,7 @@ public final class OmCreateNewBillAd {
         return getOrderIdFieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .dstore.values.IntegerValue order_id = 3;</code>
+       * <code>.dstore.values.IntegerValue order_id = 3;</code>
        */
       public io.dstore.values.IntegerValueOrBuilder getOrderIdOrBuilder() {
         if (orderIdBuilder_ != null) {
@@ -2214,7 +2214,7 @@ public final class OmCreateNewBillAd {
         }
       }
       /**
-       * <code>optional .dstore.values.IntegerValue order_id = 3;</code>
+       * <code>.dstore.values.IntegerValue order_id = 3;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> 
@@ -2232,13 +2232,13 @@ public final class OmCreateNewBillAd {
 
       private boolean orderIdNull_ ;
       /**
-       * <code>optional bool order_id_null = 1003;</code>
+       * <code>bool order_id_null = 1003;</code>
        */
       public boolean getOrderIdNull() {
         return orderIdNull_;
       }
       /**
-       * <code>optional bool order_id_null = 1003;</code>
+       * <code>bool order_id_null = 1003;</code>
        */
       public Builder setOrderIdNull(boolean value) {
         
@@ -2247,7 +2247,7 @@ public final class OmCreateNewBillAd {
         return this;
       }
       /**
-       * <code>optional bool order_id_null = 1003;</code>
+       * <code>bool order_id_null = 1003;</code>
        */
       public Builder clearOrderIdNull() {
         
@@ -2260,13 +2260,13 @@ public final class OmCreateNewBillAd {
       private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> recipientPersonIdBuilder_;
       /**
-       * <code>optional .dstore.values.IntegerValue recipient_person_id = 4;</code>
+       * <code>.dstore.values.IntegerValue recipient_person_id = 4;</code>
        */
       public boolean hasRecipientPersonId() {
         return recipientPersonIdBuilder_ != null || recipientPersonId_ != null;
       }
       /**
-       * <code>optional .dstore.values.IntegerValue recipient_person_id = 4;</code>
+       * <code>.dstore.values.IntegerValue recipient_person_id = 4;</code>
        */
       public io.dstore.values.IntegerValue getRecipientPersonId() {
         if (recipientPersonIdBuilder_ == null) {
@@ -2276,7 +2276,7 @@ public final class OmCreateNewBillAd {
         }
       }
       /**
-       * <code>optional .dstore.values.IntegerValue recipient_person_id = 4;</code>
+       * <code>.dstore.values.IntegerValue recipient_person_id = 4;</code>
        */
       public Builder setRecipientPersonId(io.dstore.values.IntegerValue value) {
         if (recipientPersonIdBuilder_ == null) {
@@ -2292,7 +2292,7 @@ public final class OmCreateNewBillAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.IntegerValue recipient_person_id = 4;</code>
+       * <code>.dstore.values.IntegerValue recipient_person_id = 4;</code>
        */
       public Builder setRecipientPersonId(
           io.dstore.values.IntegerValue.Builder builderForValue) {
@@ -2306,7 +2306,7 @@ public final class OmCreateNewBillAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.IntegerValue recipient_person_id = 4;</code>
+       * <code>.dstore.values.IntegerValue recipient_person_id = 4;</code>
        */
       public Builder mergeRecipientPersonId(io.dstore.values.IntegerValue value) {
         if (recipientPersonIdBuilder_ == null) {
@@ -2324,7 +2324,7 @@ public final class OmCreateNewBillAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.IntegerValue recipient_person_id = 4;</code>
+       * <code>.dstore.values.IntegerValue recipient_person_id = 4;</code>
        */
       public Builder clearRecipientPersonId() {
         if (recipientPersonIdBuilder_ == null) {
@@ -2338,7 +2338,7 @@ public final class OmCreateNewBillAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.IntegerValue recipient_person_id = 4;</code>
+       * <code>.dstore.values.IntegerValue recipient_person_id = 4;</code>
        */
       public io.dstore.values.IntegerValue.Builder getRecipientPersonIdBuilder() {
         
@@ -2346,7 +2346,7 @@ public final class OmCreateNewBillAd {
         return getRecipientPersonIdFieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .dstore.values.IntegerValue recipient_person_id = 4;</code>
+       * <code>.dstore.values.IntegerValue recipient_person_id = 4;</code>
        */
       public io.dstore.values.IntegerValueOrBuilder getRecipientPersonIdOrBuilder() {
         if (recipientPersonIdBuilder_ != null) {
@@ -2357,7 +2357,7 @@ public final class OmCreateNewBillAd {
         }
       }
       /**
-       * <code>optional .dstore.values.IntegerValue recipient_person_id = 4;</code>
+       * <code>.dstore.values.IntegerValue recipient_person_id = 4;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> 
@@ -2375,13 +2375,13 @@ public final class OmCreateNewBillAd {
 
       private boolean recipientPersonIdNull_ ;
       /**
-       * <code>optional bool recipient_person_id_null = 1004;</code>
+       * <code>bool recipient_person_id_null = 1004;</code>
        */
       public boolean getRecipientPersonIdNull() {
         return recipientPersonIdNull_;
       }
       /**
-       * <code>optional bool recipient_person_id_null = 1004;</code>
+       * <code>bool recipient_person_id_null = 1004;</code>
        */
       public Builder setRecipientPersonIdNull(boolean value) {
         
@@ -2390,7 +2390,7 @@ public final class OmCreateNewBillAd {
         return this;
       }
       /**
-       * <code>optional bool recipient_person_id_null = 1004;</code>
+       * <code>bool recipient_person_id_null = 1004;</code>
        */
       public Builder clearRecipientPersonIdNull() {
         
@@ -2403,13 +2403,13 @@ public final class OmCreateNewBillAd {
       private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> drawerPersonIdBuilder_;
       /**
-       * <code>optional .dstore.values.IntegerValue drawer_person_id = 5;</code>
+       * <code>.dstore.values.IntegerValue drawer_person_id = 5;</code>
        */
       public boolean hasDrawerPersonId() {
         return drawerPersonIdBuilder_ != null || drawerPersonId_ != null;
       }
       /**
-       * <code>optional .dstore.values.IntegerValue drawer_person_id = 5;</code>
+       * <code>.dstore.values.IntegerValue drawer_person_id = 5;</code>
        */
       public io.dstore.values.IntegerValue getDrawerPersonId() {
         if (drawerPersonIdBuilder_ == null) {
@@ -2419,7 +2419,7 @@ public final class OmCreateNewBillAd {
         }
       }
       /**
-       * <code>optional .dstore.values.IntegerValue drawer_person_id = 5;</code>
+       * <code>.dstore.values.IntegerValue drawer_person_id = 5;</code>
        */
       public Builder setDrawerPersonId(io.dstore.values.IntegerValue value) {
         if (drawerPersonIdBuilder_ == null) {
@@ -2435,7 +2435,7 @@ public final class OmCreateNewBillAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.IntegerValue drawer_person_id = 5;</code>
+       * <code>.dstore.values.IntegerValue drawer_person_id = 5;</code>
        */
       public Builder setDrawerPersonId(
           io.dstore.values.IntegerValue.Builder builderForValue) {
@@ -2449,7 +2449,7 @@ public final class OmCreateNewBillAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.IntegerValue drawer_person_id = 5;</code>
+       * <code>.dstore.values.IntegerValue drawer_person_id = 5;</code>
        */
       public Builder mergeDrawerPersonId(io.dstore.values.IntegerValue value) {
         if (drawerPersonIdBuilder_ == null) {
@@ -2467,7 +2467,7 @@ public final class OmCreateNewBillAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.IntegerValue drawer_person_id = 5;</code>
+       * <code>.dstore.values.IntegerValue drawer_person_id = 5;</code>
        */
       public Builder clearDrawerPersonId() {
         if (drawerPersonIdBuilder_ == null) {
@@ -2481,7 +2481,7 @@ public final class OmCreateNewBillAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.IntegerValue drawer_person_id = 5;</code>
+       * <code>.dstore.values.IntegerValue drawer_person_id = 5;</code>
        */
       public io.dstore.values.IntegerValue.Builder getDrawerPersonIdBuilder() {
         
@@ -2489,7 +2489,7 @@ public final class OmCreateNewBillAd {
         return getDrawerPersonIdFieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .dstore.values.IntegerValue drawer_person_id = 5;</code>
+       * <code>.dstore.values.IntegerValue drawer_person_id = 5;</code>
        */
       public io.dstore.values.IntegerValueOrBuilder getDrawerPersonIdOrBuilder() {
         if (drawerPersonIdBuilder_ != null) {
@@ -2500,7 +2500,7 @@ public final class OmCreateNewBillAd {
         }
       }
       /**
-       * <code>optional .dstore.values.IntegerValue drawer_person_id = 5;</code>
+       * <code>.dstore.values.IntegerValue drawer_person_id = 5;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> 
@@ -2518,13 +2518,13 @@ public final class OmCreateNewBillAd {
 
       private boolean drawerPersonIdNull_ ;
       /**
-       * <code>optional bool drawer_person_id_null = 1005;</code>
+       * <code>bool drawer_person_id_null = 1005;</code>
        */
       public boolean getDrawerPersonIdNull() {
         return drawerPersonIdNull_;
       }
       /**
-       * <code>optional bool drawer_person_id_null = 1005;</code>
+       * <code>bool drawer_person_id_null = 1005;</code>
        */
       public Builder setDrawerPersonIdNull(boolean value) {
         
@@ -2533,7 +2533,7 @@ public final class OmCreateNewBillAd {
         return this;
       }
       /**
-       * <code>optional bool drawer_person_id_null = 1005;</code>
+       * <code>bool drawer_person_id_null = 1005;</code>
        */
       public Builder clearDrawerPersonIdNull() {
         
@@ -2546,13 +2546,13 @@ public final class OmCreateNewBillAd {
       private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> currencyIdBuilder_;
       /**
-       * <code>optional .dstore.values.IntegerValue currency_id = 6;</code>
+       * <code>.dstore.values.IntegerValue currency_id = 6;</code>
        */
       public boolean hasCurrencyId() {
         return currencyIdBuilder_ != null || currencyId_ != null;
       }
       /**
-       * <code>optional .dstore.values.IntegerValue currency_id = 6;</code>
+       * <code>.dstore.values.IntegerValue currency_id = 6;</code>
        */
       public io.dstore.values.IntegerValue getCurrencyId() {
         if (currencyIdBuilder_ == null) {
@@ -2562,7 +2562,7 @@ public final class OmCreateNewBillAd {
         }
       }
       /**
-       * <code>optional .dstore.values.IntegerValue currency_id = 6;</code>
+       * <code>.dstore.values.IntegerValue currency_id = 6;</code>
        */
       public Builder setCurrencyId(io.dstore.values.IntegerValue value) {
         if (currencyIdBuilder_ == null) {
@@ -2578,7 +2578,7 @@ public final class OmCreateNewBillAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.IntegerValue currency_id = 6;</code>
+       * <code>.dstore.values.IntegerValue currency_id = 6;</code>
        */
       public Builder setCurrencyId(
           io.dstore.values.IntegerValue.Builder builderForValue) {
@@ -2592,7 +2592,7 @@ public final class OmCreateNewBillAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.IntegerValue currency_id = 6;</code>
+       * <code>.dstore.values.IntegerValue currency_id = 6;</code>
        */
       public Builder mergeCurrencyId(io.dstore.values.IntegerValue value) {
         if (currencyIdBuilder_ == null) {
@@ -2610,7 +2610,7 @@ public final class OmCreateNewBillAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.IntegerValue currency_id = 6;</code>
+       * <code>.dstore.values.IntegerValue currency_id = 6;</code>
        */
       public Builder clearCurrencyId() {
         if (currencyIdBuilder_ == null) {
@@ -2624,7 +2624,7 @@ public final class OmCreateNewBillAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.IntegerValue currency_id = 6;</code>
+       * <code>.dstore.values.IntegerValue currency_id = 6;</code>
        */
       public io.dstore.values.IntegerValue.Builder getCurrencyIdBuilder() {
         
@@ -2632,7 +2632,7 @@ public final class OmCreateNewBillAd {
         return getCurrencyIdFieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .dstore.values.IntegerValue currency_id = 6;</code>
+       * <code>.dstore.values.IntegerValue currency_id = 6;</code>
        */
       public io.dstore.values.IntegerValueOrBuilder getCurrencyIdOrBuilder() {
         if (currencyIdBuilder_ != null) {
@@ -2643,7 +2643,7 @@ public final class OmCreateNewBillAd {
         }
       }
       /**
-       * <code>optional .dstore.values.IntegerValue currency_id = 6;</code>
+       * <code>.dstore.values.IntegerValue currency_id = 6;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> 
@@ -2661,13 +2661,13 @@ public final class OmCreateNewBillAd {
 
       private boolean currencyIdNull_ ;
       /**
-       * <code>optional bool currency_id_null = 1006;</code>
+       * <code>bool currency_id_null = 1006;</code>
        */
       public boolean getCurrencyIdNull() {
         return currencyIdNull_;
       }
       /**
-       * <code>optional bool currency_id_null = 1006;</code>
+       * <code>bool currency_id_null = 1006;</code>
        */
       public Builder setCurrencyIdNull(boolean value) {
         
@@ -2676,7 +2676,7 @@ public final class OmCreateNewBillAd {
         return this;
       }
       /**
-       * <code>optional bool currency_id_null = 1006;</code>
+       * <code>bool currency_id_null = 1006;</code>
        */
       public Builder clearCurrencyIdNull() {
         
@@ -2689,13 +2689,13 @@ public final class OmCreateNewBillAd {
       private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> generatedBillIdBuilder_;
       /**
-       * <code>optional .dstore.values.IntegerValue generated_bill_id = 7;</code>
+       * <code>.dstore.values.IntegerValue generated_bill_id = 7;</code>
        */
       public boolean hasGeneratedBillId() {
         return generatedBillIdBuilder_ != null || generatedBillId_ != null;
       }
       /**
-       * <code>optional .dstore.values.IntegerValue generated_bill_id = 7;</code>
+       * <code>.dstore.values.IntegerValue generated_bill_id = 7;</code>
        */
       public io.dstore.values.IntegerValue getGeneratedBillId() {
         if (generatedBillIdBuilder_ == null) {
@@ -2705,7 +2705,7 @@ public final class OmCreateNewBillAd {
         }
       }
       /**
-       * <code>optional .dstore.values.IntegerValue generated_bill_id = 7;</code>
+       * <code>.dstore.values.IntegerValue generated_bill_id = 7;</code>
        */
       public Builder setGeneratedBillId(io.dstore.values.IntegerValue value) {
         if (generatedBillIdBuilder_ == null) {
@@ -2721,7 +2721,7 @@ public final class OmCreateNewBillAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.IntegerValue generated_bill_id = 7;</code>
+       * <code>.dstore.values.IntegerValue generated_bill_id = 7;</code>
        */
       public Builder setGeneratedBillId(
           io.dstore.values.IntegerValue.Builder builderForValue) {
@@ -2735,7 +2735,7 @@ public final class OmCreateNewBillAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.IntegerValue generated_bill_id = 7;</code>
+       * <code>.dstore.values.IntegerValue generated_bill_id = 7;</code>
        */
       public Builder mergeGeneratedBillId(io.dstore.values.IntegerValue value) {
         if (generatedBillIdBuilder_ == null) {
@@ -2753,7 +2753,7 @@ public final class OmCreateNewBillAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.IntegerValue generated_bill_id = 7;</code>
+       * <code>.dstore.values.IntegerValue generated_bill_id = 7;</code>
        */
       public Builder clearGeneratedBillId() {
         if (generatedBillIdBuilder_ == null) {
@@ -2767,7 +2767,7 @@ public final class OmCreateNewBillAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.IntegerValue generated_bill_id = 7;</code>
+       * <code>.dstore.values.IntegerValue generated_bill_id = 7;</code>
        */
       public io.dstore.values.IntegerValue.Builder getGeneratedBillIdBuilder() {
         
@@ -2775,7 +2775,7 @@ public final class OmCreateNewBillAd {
         return getGeneratedBillIdFieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .dstore.values.IntegerValue generated_bill_id = 7;</code>
+       * <code>.dstore.values.IntegerValue generated_bill_id = 7;</code>
        */
       public io.dstore.values.IntegerValueOrBuilder getGeneratedBillIdOrBuilder() {
         if (generatedBillIdBuilder_ != null) {
@@ -2786,7 +2786,7 @@ public final class OmCreateNewBillAd {
         }
       }
       /**
-       * <code>optional .dstore.values.IntegerValue generated_bill_id = 7;</code>
+       * <code>.dstore.values.IntegerValue generated_bill_id = 7;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> 
@@ -2804,13 +2804,13 @@ public final class OmCreateNewBillAd {
 
       private boolean generatedBillIdNull_ ;
       /**
-       * <code>optional bool generated_bill_id_null = 1007;</code>
+       * <code>bool generated_bill_id_null = 1007;</code>
        */
       public boolean getGeneratedBillIdNull() {
         return generatedBillIdNull_;
       }
       /**
-       * <code>optional bool generated_bill_id_null = 1007;</code>
+       * <code>bool generated_bill_id_null = 1007;</code>
        */
       public Builder setGeneratedBillIdNull(boolean value) {
         
@@ -2819,7 +2819,7 @@ public final class OmCreateNewBillAd {
         return this;
       }
       /**
-       * <code>optional bool generated_bill_id_null = 1007;</code>
+       * <code>bool generated_bill_id_null = 1007;</code>
        */
       public Builder clearGeneratedBillIdNull() {
         
@@ -2832,13 +2832,13 @@ public final class OmCreateNewBillAd {
       private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.values.BooleanValue, io.dstore.values.BooleanValue.Builder, io.dstore.values.BooleanValueOrBuilder> addBillInformationBuilder_;
       /**
-       * <code>optional .dstore.values.BooleanValue add_bill_information = 8;</code>
+       * <code>.dstore.values.BooleanValue add_bill_information = 8;</code>
        */
       public boolean hasAddBillInformation() {
         return addBillInformationBuilder_ != null || addBillInformation_ != null;
       }
       /**
-       * <code>optional .dstore.values.BooleanValue add_bill_information = 8;</code>
+       * <code>.dstore.values.BooleanValue add_bill_information = 8;</code>
        */
       public io.dstore.values.BooleanValue getAddBillInformation() {
         if (addBillInformationBuilder_ == null) {
@@ -2848,7 +2848,7 @@ public final class OmCreateNewBillAd {
         }
       }
       /**
-       * <code>optional .dstore.values.BooleanValue add_bill_information = 8;</code>
+       * <code>.dstore.values.BooleanValue add_bill_information = 8;</code>
        */
       public Builder setAddBillInformation(io.dstore.values.BooleanValue value) {
         if (addBillInformationBuilder_ == null) {
@@ -2864,7 +2864,7 @@ public final class OmCreateNewBillAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.BooleanValue add_bill_information = 8;</code>
+       * <code>.dstore.values.BooleanValue add_bill_information = 8;</code>
        */
       public Builder setAddBillInformation(
           io.dstore.values.BooleanValue.Builder builderForValue) {
@@ -2878,7 +2878,7 @@ public final class OmCreateNewBillAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.BooleanValue add_bill_information = 8;</code>
+       * <code>.dstore.values.BooleanValue add_bill_information = 8;</code>
        */
       public Builder mergeAddBillInformation(io.dstore.values.BooleanValue value) {
         if (addBillInformationBuilder_ == null) {
@@ -2896,7 +2896,7 @@ public final class OmCreateNewBillAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.BooleanValue add_bill_information = 8;</code>
+       * <code>.dstore.values.BooleanValue add_bill_information = 8;</code>
        */
       public Builder clearAddBillInformation() {
         if (addBillInformationBuilder_ == null) {
@@ -2910,7 +2910,7 @@ public final class OmCreateNewBillAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.BooleanValue add_bill_information = 8;</code>
+       * <code>.dstore.values.BooleanValue add_bill_information = 8;</code>
        */
       public io.dstore.values.BooleanValue.Builder getAddBillInformationBuilder() {
         
@@ -2918,7 +2918,7 @@ public final class OmCreateNewBillAd {
         return getAddBillInformationFieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .dstore.values.BooleanValue add_bill_information = 8;</code>
+       * <code>.dstore.values.BooleanValue add_bill_information = 8;</code>
        */
       public io.dstore.values.BooleanValueOrBuilder getAddBillInformationOrBuilder() {
         if (addBillInformationBuilder_ != null) {
@@ -2929,7 +2929,7 @@ public final class OmCreateNewBillAd {
         }
       }
       /**
-       * <code>optional .dstore.values.BooleanValue add_bill_information = 8;</code>
+       * <code>.dstore.values.BooleanValue add_bill_information = 8;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.values.BooleanValue, io.dstore.values.BooleanValue.Builder, io.dstore.values.BooleanValueOrBuilder> 
@@ -2947,13 +2947,13 @@ public final class OmCreateNewBillAd {
 
       private boolean addBillInformationNull_ ;
       /**
-       * <code>optional bool add_bill_information_null = 1008;</code>
+       * <code>bool add_bill_information_null = 1008;</code>
        */
       public boolean getAddBillInformationNull() {
         return addBillInformationNull_;
       }
       /**
-       * <code>optional bool add_bill_information_null = 1008;</code>
+       * <code>bool add_bill_information_null = 1008;</code>
        */
       public Builder setAddBillInformationNull(boolean value) {
         
@@ -2962,7 +2962,7 @@ public final class OmCreateNewBillAd {
         return this;
       }
       /**
-       * <code>optional bool add_bill_information_null = 1008;</code>
+       * <code>bool add_bill_information_null = 1008;</code>
        */
       public Builder clearAddBillInformationNull() {
         
@@ -2975,13 +2975,13 @@ public final class OmCreateNewBillAd {
       private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.values.BooleanValue, io.dstore.values.BooleanValue.Builder, io.dstore.values.BooleanValueOrBuilder> addBillContentInformationBuilder_;
       /**
-       * <code>optional .dstore.values.BooleanValue add_bill_content_information = 9;</code>
+       * <code>.dstore.values.BooleanValue add_bill_content_information = 9;</code>
        */
       public boolean hasAddBillContentInformation() {
         return addBillContentInformationBuilder_ != null || addBillContentInformation_ != null;
       }
       /**
-       * <code>optional .dstore.values.BooleanValue add_bill_content_information = 9;</code>
+       * <code>.dstore.values.BooleanValue add_bill_content_information = 9;</code>
        */
       public io.dstore.values.BooleanValue getAddBillContentInformation() {
         if (addBillContentInformationBuilder_ == null) {
@@ -2991,7 +2991,7 @@ public final class OmCreateNewBillAd {
         }
       }
       /**
-       * <code>optional .dstore.values.BooleanValue add_bill_content_information = 9;</code>
+       * <code>.dstore.values.BooleanValue add_bill_content_information = 9;</code>
        */
       public Builder setAddBillContentInformation(io.dstore.values.BooleanValue value) {
         if (addBillContentInformationBuilder_ == null) {
@@ -3007,7 +3007,7 @@ public final class OmCreateNewBillAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.BooleanValue add_bill_content_information = 9;</code>
+       * <code>.dstore.values.BooleanValue add_bill_content_information = 9;</code>
        */
       public Builder setAddBillContentInformation(
           io.dstore.values.BooleanValue.Builder builderForValue) {
@@ -3021,7 +3021,7 @@ public final class OmCreateNewBillAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.BooleanValue add_bill_content_information = 9;</code>
+       * <code>.dstore.values.BooleanValue add_bill_content_information = 9;</code>
        */
       public Builder mergeAddBillContentInformation(io.dstore.values.BooleanValue value) {
         if (addBillContentInformationBuilder_ == null) {
@@ -3039,7 +3039,7 @@ public final class OmCreateNewBillAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.BooleanValue add_bill_content_information = 9;</code>
+       * <code>.dstore.values.BooleanValue add_bill_content_information = 9;</code>
        */
       public Builder clearAddBillContentInformation() {
         if (addBillContentInformationBuilder_ == null) {
@@ -3053,7 +3053,7 @@ public final class OmCreateNewBillAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.BooleanValue add_bill_content_information = 9;</code>
+       * <code>.dstore.values.BooleanValue add_bill_content_information = 9;</code>
        */
       public io.dstore.values.BooleanValue.Builder getAddBillContentInformationBuilder() {
         
@@ -3061,7 +3061,7 @@ public final class OmCreateNewBillAd {
         return getAddBillContentInformationFieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .dstore.values.BooleanValue add_bill_content_information = 9;</code>
+       * <code>.dstore.values.BooleanValue add_bill_content_information = 9;</code>
        */
       public io.dstore.values.BooleanValueOrBuilder getAddBillContentInformationOrBuilder() {
         if (addBillContentInformationBuilder_ != null) {
@@ -3072,7 +3072,7 @@ public final class OmCreateNewBillAd {
         }
       }
       /**
-       * <code>optional .dstore.values.BooleanValue add_bill_content_information = 9;</code>
+       * <code>.dstore.values.BooleanValue add_bill_content_information = 9;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.values.BooleanValue, io.dstore.values.BooleanValue.Builder, io.dstore.values.BooleanValueOrBuilder> 
@@ -3090,13 +3090,13 @@ public final class OmCreateNewBillAd {
 
       private boolean addBillContentInformationNull_ ;
       /**
-       * <code>optional bool add_bill_content_information_null = 1009;</code>
+       * <code>bool add_bill_content_information_null = 1009;</code>
        */
       public boolean getAddBillContentInformationNull() {
         return addBillContentInformationNull_;
       }
       /**
-       * <code>optional bool add_bill_content_information_null = 1009;</code>
+       * <code>bool add_bill_content_information_null = 1009;</code>
        */
       public Builder setAddBillContentInformationNull(boolean value) {
         
@@ -3105,7 +3105,7 @@ public final class OmCreateNewBillAd {
         return this;
       }
       /**
-       * <code>optional bool add_bill_content_information_null = 1009;</code>
+       * <code>bool add_bill_content_information_null = 1009;</code>
        */
       public Builder clearAddBillContentInformationNull() {
         
@@ -3118,13 +3118,13 @@ public final class OmCreateNewBillAd {
       private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.values.BooleanValue, io.dstore.values.BooleanValue.Builder, io.dstore.values.BooleanValueOrBuilder> otherBillContentBuilder_;
       /**
-       * <code>optional .dstore.values.BooleanValue other_bill_content = 10;</code>
+       * <code>.dstore.values.BooleanValue other_bill_content = 10;</code>
        */
       public boolean hasOtherBillContent() {
         return otherBillContentBuilder_ != null || otherBillContent_ != null;
       }
       /**
-       * <code>optional .dstore.values.BooleanValue other_bill_content = 10;</code>
+       * <code>.dstore.values.BooleanValue other_bill_content = 10;</code>
        */
       public io.dstore.values.BooleanValue getOtherBillContent() {
         if (otherBillContentBuilder_ == null) {
@@ -3134,7 +3134,7 @@ public final class OmCreateNewBillAd {
         }
       }
       /**
-       * <code>optional .dstore.values.BooleanValue other_bill_content = 10;</code>
+       * <code>.dstore.values.BooleanValue other_bill_content = 10;</code>
        */
       public Builder setOtherBillContent(io.dstore.values.BooleanValue value) {
         if (otherBillContentBuilder_ == null) {
@@ -3150,7 +3150,7 @@ public final class OmCreateNewBillAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.BooleanValue other_bill_content = 10;</code>
+       * <code>.dstore.values.BooleanValue other_bill_content = 10;</code>
        */
       public Builder setOtherBillContent(
           io.dstore.values.BooleanValue.Builder builderForValue) {
@@ -3164,7 +3164,7 @@ public final class OmCreateNewBillAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.BooleanValue other_bill_content = 10;</code>
+       * <code>.dstore.values.BooleanValue other_bill_content = 10;</code>
        */
       public Builder mergeOtherBillContent(io.dstore.values.BooleanValue value) {
         if (otherBillContentBuilder_ == null) {
@@ -3182,7 +3182,7 @@ public final class OmCreateNewBillAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.BooleanValue other_bill_content = 10;</code>
+       * <code>.dstore.values.BooleanValue other_bill_content = 10;</code>
        */
       public Builder clearOtherBillContent() {
         if (otherBillContentBuilder_ == null) {
@@ -3196,7 +3196,7 @@ public final class OmCreateNewBillAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.BooleanValue other_bill_content = 10;</code>
+       * <code>.dstore.values.BooleanValue other_bill_content = 10;</code>
        */
       public io.dstore.values.BooleanValue.Builder getOtherBillContentBuilder() {
         
@@ -3204,7 +3204,7 @@ public final class OmCreateNewBillAd {
         return getOtherBillContentFieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .dstore.values.BooleanValue other_bill_content = 10;</code>
+       * <code>.dstore.values.BooleanValue other_bill_content = 10;</code>
        */
       public io.dstore.values.BooleanValueOrBuilder getOtherBillContentOrBuilder() {
         if (otherBillContentBuilder_ != null) {
@@ -3215,7 +3215,7 @@ public final class OmCreateNewBillAd {
         }
       }
       /**
-       * <code>optional .dstore.values.BooleanValue other_bill_content = 10;</code>
+       * <code>.dstore.values.BooleanValue other_bill_content = 10;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.values.BooleanValue, io.dstore.values.BooleanValue.Builder, io.dstore.values.BooleanValueOrBuilder> 
@@ -3233,13 +3233,13 @@ public final class OmCreateNewBillAd {
 
       private boolean otherBillContentNull_ ;
       /**
-       * <code>optional bool other_bill_content_null = 1010;</code>
+       * <code>bool other_bill_content_null = 1010;</code>
        */
       public boolean getOtherBillContentNull() {
         return otherBillContentNull_;
       }
       /**
-       * <code>optional bool other_bill_content_null = 1010;</code>
+       * <code>bool other_bill_content_null = 1010;</code>
        */
       public Builder setOtherBillContentNull(boolean value) {
         
@@ -3248,7 +3248,7 @@ public final class OmCreateNewBillAd {
         return this;
       }
       /**
-       * <code>optional bool other_bill_content_null = 1010;</code>
+       * <code>bool other_bill_content_null = 1010;</code>
        */
       public Builder clearOtherBillContentNull() {
         
@@ -3261,13 +3261,13 @@ public final class OmCreateNewBillAd {
       private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.values.BooleanValue, io.dstore.values.BooleanValue.Builder, io.dstore.values.BooleanValueOrBuilder> addOtherContentInformationBuilder_;
       /**
-       * <code>optional .dstore.values.BooleanValue add_other_content_information = 11;</code>
+       * <code>.dstore.values.BooleanValue add_other_content_information = 11;</code>
        */
       public boolean hasAddOtherContentInformation() {
         return addOtherContentInformationBuilder_ != null || addOtherContentInformation_ != null;
       }
       /**
-       * <code>optional .dstore.values.BooleanValue add_other_content_information = 11;</code>
+       * <code>.dstore.values.BooleanValue add_other_content_information = 11;</code>
        */
       public io.dstore.values.BooleanValue getAddOtherContentInformation() {
         if (addOtherContentInformationBuilder_ == null) {
@@ -3277,7 +3277,7 @@ public final class OmCreateNewBillAd {
         }
       }
       /**
-       * <code>optional .dstore.values.BooleanValue add_other_content_information = 11;</code>
+       * <code>.dstore.values.BooleanValue add_other_content_information = 11;</code>
        */
       public Builder setAddOtherContentInformation(io.dstore.values.BooleanValue value) {
         if (addOtherContentInformationBuilder_ == null) {
@@ -3293,7 +3293,7 @@ public final class OmCreateNewBillAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.BooleanValue add_other_content_information = 11;</code>
+       * <code>.dstore.values.BooleanValue add_other_content_information = 11;</code>
        */
       public Builder setAddOtherContentInformation(
           io.dstore.values.BooleanValue.Builder builderForValue) {
@@ -3307,7 +3307,7 @@ public final class OmCreateNewBillAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.BooleanValue add_other_content_information = 11;</code>
+       * <code>.dstore.values.BooleanValue add_other_content_information = 11;</code>
        */
       public Builder mergeAddOtherContentInformation(io.dstore.values.BooleanValue value) {
         if (addOtherContentInformationBuilder_ == null) {
@@ -3325,7 +3325,7 @@ public final class OmCreateNewBillAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.BooleanValue add_other_content_information = 11;</code>
+       * <code>.dstore.values.BooleanValue add_other_content_information = 11;</code>
        */
       public Builder clearAddOtherContentInformation() {
         if (addOtherContentInformationBuilder_ == null) {
@@ -3339,7 +3339,7 @@ public final class OmCreateNewBillAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.BooleanValue add_other_content_information = 11;</code>
+       * <code>.dstore.values.BooleanValue add_other_content_information = 11;</code>
        */
       public io.dstore.values.BooleanValue.Builder getAddOtherContentInformationBuilder() {
         
@@ -3347,7 +3347,7 @@ public final class OmCreateNewBillAd {
         return getAddOtherContentInformationFieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .dstore.values.BooleanValue add_other_content_information = 11;</code>
+       * <code>.dstore.values.BooleanValue add_other_content_information = 11;</code>
        */
       public io.dstore.values.BooleanValueOrBuilder getAddOtherContentInformationOrBuilder() {
         if (addOtherContentInformationBuilder_ != null) {
@@ -3358,7 +3358,7 @@ public final class OmCreateNewBillAd {
         }
       }
       /**
-       * <code>optional .dstore.values.BooleanValue add_other_content_information = 11;</code>
+       * <code>.dstore.values.BooleanValue add_other_content_information = 11;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.values.BooleanValue, io.dstore.values.BooleanValue.Builder, io.dstore.values.BooleanValueOrBuilder> 
@@ -3376,13 +3376,13 @@ public final class OmCreateNewBillAd {
 
       private boolean addOtherContentInformationNull_ ;
       /**
-       * <code>optional bool add_other_content_information_null = 1011;</code>
+       * <code>bool add_other_content_information_null = 1011;</code>
        */
       public boolean getAddOtherContentInformationNull() {
         return addOtherContentInformationNull_;
       }
       /**
-       * <code>optional bool add_other_content_information_null = 1011;</code>
+       * <code>bool add_other_content_information_null = 1011;</code>
        */
       public Builder setAddOtherContentInformationNull(boolean value) {
         
@@ -3391,7 +3391,7 @@ public final class OmCreateNewBillAd {
         return this;
       }
       /**
-       * <code>optional bool add_other_content_information_null = 1011;</code>
+       * <code>bool add_other_content_information_null = 1011;</code>
        */
       public Builder clearAddOtherContentInformationNull() {
         
@@ -3404,13 +3404,13 @@ public final class OmCreateNewBillAd {
       private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.values.BooleanValue, io.dstore.values.BooleanValue.Builder, io.dstore.values.BooleanValueOrBuilder> getIncorrectInformationBuilder_;
       /**
-       * <code>optional .dstore.values.BooleanValue get_incorrect_information = 12;</code>
+       * <code>.dstore.values.BooleanValue get_incorrect_information = 12;</code>
        */
       public boolean hasGetIncorrectInformation() {
         return getIncorrectInformationBuilder_ != null || getIncorrectInformation_ != null;
       }
       /**
-       * <code>optional .dstore.values.BooleanValue get_incorrect_information = 12;</code>
+       * <code>.dstore.values.BooleanValue get_incorrect_information = 12;</code>
        */
       public io.dstore.values.BooleanValue getGetIncorrectInformation() {
         if (getIncorrectInformationBuilder_ == null) {
@@ -3420,7 +3420,7 @@ public final class OmCreateNewBillAd {
         }
       }
       /**
-       * <code>optional .dstore.values.BooleanValue get_incorrect_information = 12;</code>
+       * <code>.dstore.values.BooleanValue get_incorrect_information = 12;</code>
        */
       public Builder setGetIncorrectInformation(io.dstore.values.BooleanValue value) {
         if (getIncorrectInformationBuilder_ == null) {
@@ -3436,7 +3436,7 @@ public final class OmCreateNewBillAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.BooleanValue get_incorrect_information = 12;</code>
+       * <code>.dstore.values.BooleanValue get_incorrect_information = 12;</code>
        */
       public Builder setGetIncorrectInformation(
           io.dstore.values.BooleanValue.Builder builderForValue) {
@@ -3450,7 +3450,7 @@ public final class OmCreateNewBillAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.BooleanValue get_incorrect_information = 12;</code>
+       * <code>.dstore.values.BooleanValue get_incorrect_information = 12;</code>
        */
       public Builder mergeGetIncorrectInformation(io.dstore.values.BooleanValue value) {
         if (getIncorrectInformationBuilder_ == null) {
@@ -3468,7 +3468,7 @@ public final class OmCreateNewBillAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.BooleanValue get_incorrect_information = 12;</code>
+       * <code>.dstore.values.BooleanValue get_incorrect_information = 12;</code>
        */
       public Builder clearGetIncorrectInformation() {
         if (getIncorrectInformationBuilder_ == null) {
@@ -3482,7 +3482,7 @@ public final class OmCreateNewBillAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.BooleanValue get_incorrect_information = 12;</code>
+       * <code>.dstore.values.BooleanValue get_incorrect_information = 12;</code>
        */
       public io.dstore.values.BooleanValue.Builder getGetIncorrectInformationBuilder() {
         
@@ -3490,7 +3490,7 @@ public final class OmCreateNewBillAd {
         return getGetIncorrectInformationFieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .dstore.values.BooleanValue get_incorrect_information = 12;</code>
+       * <code>.dstore.values.BooleanValue get_incorrect_information = 12;</code>
        */
       public io.dstore.values.BooleanValueOrBuilder getGetIncorrectInformationOrBuilder() {
         if (getIncorrectInformationBuilder_ != null) {
@@ -3501,7 +3501,7 @@ public final class OmCreateNewBillAd {
         }
       }
       /**
-       * <code>optional .dstore.values.BooleanValue get_incorrect_information = 12;</code>
+       * <code>.dstore.values.BooleanValue get_incorrect_information = 12;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.values.BooleanValue, io.dstore.values.BooleanValue.Builder, io.dstore.values.BooleanValueOrBuilder> 
@@ -3519,13 +3519,13 @@ public final class OmCreateNewBillAd {
 
       private boolean getIncorrectInformationNull_ ;
       /**
-       * <code>optional bool get_incorrect_information_null = 1012;</code>
+       * <code>bool get_incorrect_information_null = 1012;</code>
        */
       public boolean getGetIncorrectInformationNull() {
         return getIncorrectInformationNull_;
       }
       /**
-       * <code>optional bool get_incorrect_information_null = 1012;</code>
+       * <code>bool get_incorrect_information_null = 1012;</code>
        */
       public Builder setGetIncorrectInformationNull(boolean value) {
         
@@ -3534,7 +3534,7 @@ public final class OmCreateNewBillAd {
         return this;
       }
       /**
-       * <code>optional bool get_incorrect_information_null = 1012;</code>
+       * <code>bool get_incorrect_information_null = 1012;</code>
        */
       public Builder clearGetIncorrectInformationNull() {
         
@@ -3547,13 +3547,13 @@ public final class OmCreateNewBillAd {
       private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.values.StringValue, io.dstore.values.StringValue.Builder, io.dstore.values.StringValueOrBuilder> countryBuilder_;
       /**
-       * <code>optional .dstore.values.StringValue country = 13;</code>
+       * <code>.dstore.values.StringValue country = 13;</code>
        */
       public boolean hasCountry() {
         return countryBuilder_ != null || country_ != null;
       }
       /**
-       * <code>optional .dstore.values.StringValue country = 13;</code>
+       * <code>.dstore.values.StringValue country = 13;</code>
        */
       public io.dstore.values.StringValue getCountry() {
         if (countryBuilder_ == null) {
@@ -3563,7 +3563,7 @@ public final class OmCreateNewBillAd {
         }
       }
       /**
-       * <code>optional .dstore.values.StringValue country = 13;</code>
+       * <code>.dstore.values.StringValue country = 13;</code>
        */
       public Builder setCountry(io.dstore.values.StringValue value) {
         if (countryBuilder_ == null) {
@@ -3579,7 +3579,7 @@ public final class OmCreateNewBillAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.StringValue country = 13;</code>
+       * <code>.dstore.values.StringValue country = 13;</code>
        */
       public Builder setCountry(
           io.dstore.values.StringValue.Builder builderForValue) {
@@ -3593,7 +3593,7 @@ public final class OmCreateNewBillAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.StringValue country = 13;</code>
+       * <code>.dstore.values.StringValue country = 13;</code>
        */
       public Builder mergeCountry(io.dstore.values.StringValue value) {
         if (countryBuilder_ == null) {
@@ -3611,7 +3611,7 @@ public final class OmCreateNewBillAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.StringValue country = 13;</code>
+       * <code>.dstore.values.StringValue country = 13;</code>
        */
       public Builder clearCountry() {
         if (countryBuilder_ == null) {
@@ -3625,7 +3625,7 @@ public final class OmCreateNewBillAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.StringValue country = 13;</code>
+       * <code>.dstore.values.StringValue country = 13;</code>
        */
       public io.dstore.values.StringValue.Builder getCountryBuilder() {
         
@@ -3633,7 +3633,7 @@ public final class OmCreateNewBillAd {
         return getCountryFieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .dstore.values.StringValue country = 13;</code>
+       * <code>.dstore.values.StringValue country = 13;</code>
        */
       public io.dstore.values.StringValueOrBuilder getCountryOrBuilder() {
         if (countryBuilder_ != null) {
@@ -3644,7 +3644,7 @@ public final class OmCreateNewBillAd {
         }
       }
       /**
-       * <code>optional .dstore.values.StringValue country = 13;</code>
+       * <code>.dstore.values.StringValue country = 13;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.values.StringValue, io.dstore.values.StringValue.Builder, io.dstore.values.StringValueOrBuilder> 
@@ -3662,13 +3662,13 @@ public final class OmCreateNewBillAd {
 
       private boolean countryNull_ ;
       /**
-       * <code>optional bool country_null = 1013;</code>
+       * <code>bool country_null = 1013;</code>
        */
       public boolean getCountryNull() {
         return countryNull_;
       }
       /**
-       * <code>optional bool country_null = 1013;</code>
+       * <code>bool country_null = 1013;</code>
        */
       public Builder setCountryNull(boolean value) {
         
@@ -3677,7 +3677,7 @@ public final class OmCreateNewBillAd {
         return this;
       }
       /**
-       * <code>optional bool country_null = 1013;</code>
+       * <code>bool country_null = 1013;</code>
        */
       public Builder clearCountryNull() {
         
@@ -3811,15 +3811,15 @@ public final class OmCreateNewBillAd {
         int index);
 
     /**
-     * <code>optional .dstore.values.IntegerValue generated_bill_id = 101;</code>
+     * <code>.dstore.values.IntegerValue generated_bill_id = 101;</code>
      */
     boolean hasGeneratedBillId();
     /**
-     * <code>optional .dstore.values.IntegerValue generated_bill_id = 101;</code>
+     * <code>.dstore.values.IntegerValue generated_bill_id = 101;</code>
      */
     io.dstore.values.IntegerValue getGeneratedBillId();
     /**
-     * <code>optional .dstore.values.IntegerValue generated_bill_id = 101;</code>
+     * <code>.dstore.values.IntegerValue generated_bill_id = 101;</code>
      */
     io.dstore.values.IntegerValueOrBuilder getGeneratedBillIdOrBuilder();
   }
@@ -3942,7 +3942,7 @@ public final class OmCreateNewBillAd {
         com.google.protobuf.MessageOrBuilder {
 
       /**
-       * <code>optional int32 row_id = 10000;</code>
+       * <code>int32 row_id = 10000;</code>
        */
       int getRowId();
 
@@ -3951,7 +3951,7 @@ public final class OmCreateNewBillAd {
        * "0" : Fehler bei einer Rechnungs-Information"1" : Fehler bei einer Rechnungs-Positions-Information"2" : Fehler bei einer Information zu einer "anderen" Rechnungs-Position
        * </pre>
        *
-       * <code>optional .dstore.values.IntegerValue table_id = 10001;</code>
+       * <code>.dstore.values.IntegerValue table_id = 10001;</code>
        */
       boolean hasTableId();
       /**
@@ -3959,7 +3959,7 @@ public final class OmCreateNewBillAd {
        * "0" : Fehler bei einer Rechnungs-Information"1" : Fehler bei einer Rechnungs-Positions-Information"2" : Fehler bei einer Information zu einer "anderen" Rechnungs-Position
        * </pre>
        *
-       * <code>optional .dstore.values.IntegerValue table_id = 10001;</code>
+       * <code>.dstore.values.IntegerValue table_id = 10001;</code>
        */
       io.dstore.values.IntegerValue getTableId();
       /**
@@ -3967,7 +3967,7 @@ public final class OmCreateNewBillAd {
        * "0" : Fehler bei einer Rechnungs-Information"1" : Fehler bei einer Rechnungs-Positions-Information"2" : Fehler bei einer Information zu einer "anderen" Rechnungs-Position
        * </pre>
        *
-       * <code>optional .dstore.values.IntegerValue table_id = 10001;</code>
+       * <code>.dstore.values.IntegerValue table_id = 10001;</code>
        */
       io.dstore.values.IntegerValueOrBuilder getTableIdOrBuilder();
 
@@ -3976,7 +3976,7 @@ public final class OmCreateNewBillAd {
        * ID einer Informations-Art
        * </pre>
        *
-       * <code>optional .dstore.values.IntegerValue information_type_id = 10002;</code>
+       * <code>.dstore.values.IntegerValue information_type_id = 10002;</code>
        */
       boolean hasInformationTypeId();
       /**
@@ -3984,7 +3984,7 @@ public final class OmCreateNewBillAd {
        * ID einer Informations-Art
        * </pre>
        *
-       * <code>optional .dstore.values.IntegerValue information_type_id = 10002;</code>
+       * <code>.dstore.values.IntegerValue information_type_id = 10002;</code>
        */
       io.dstore.values.IntegerValue getInformationTypeId();
       /**
@@ -3992,7 +3992,7 @@ public final class OmCreateNewBillAd {
        * ID einer Informations-Art
        * </pre>
        *
-       * <code>optional .dstore.values.IntegerValue information_type_id = 10002;</code>
+       * <code>.dstore.values.IntegerValue information_type_id = 10002;</code>
        */
       io.dstore.values.IntegerValueOrBuilder getInformationTypeIdOrBuilder();
 
@@ -4001,7 +4001,7 @@ public final class OmCreateNewBillAd {
        * Je nach "TableKeyID" steht hier entweder der Wert "0" (wenn "TableID = 0") oder die Nummer einer "Position" (wenn "TableID = 1" oder "TableID = 2"), zu der eine fehlerhafte Information vorliegt
        * </pre>
        *
-       * <code>optional .dstore.values.IntegerValue table_key_id = 10003;</code>
+       * <code>.dstore.values.IntegerValue table_key_id = 10003;</code>
        */
       boolean hasTableKeyId();
       /**
@@ -4009,7 +4009,7 @@ public final class OmCreateNewBillAd {
        * Je nach "TableKeyID" steht hier entweder der Wert "0" (wenn "TableID = 0") oder die Nummer einer "Position" (wenn "TableID = 1" oder "TableID = 2"), zu der eine fehlerhafte Information vorliegt
        * </pre>
        *
-       * <code>optional .dstore.values.IntegerValue table_key_id = 10003;</code>
+       * <code>.dstore.values.IntegerValue table_key_id = 10003;</code>
        */
       io.dstore.values.IntegerValue getTableKeyId();
       /**
@@ -4017,7 +4017,7 @@ public final class OmCreateNewBillAd {
        * Je nach "TableKeyID" steht hier entweder der Wert "0" (wenn "TableID = 0") oder die Nummer einer "Position" (wenn "TableID = 1" oder "TableID = 2"), zu der eine fehlerhafte Information vorliegt
        * </pre>
        *
-       * <code>optional .dstore.values.IntegerValue table_key_id = 10003;</code>
+       * <code>.dstore.values.IntegerValue table_key_id = 10003;</code>
        */
       io.dstore.values.IntegerValueOrBuilder getTableKeyIdOrBuilder();
 
@@ -4026,7 +4026,7 @@ public final class OmCreateNewBillAd {
        * Fehler-Ursache. Mögliche Werte :"1" : Fehler aufgrund von Regeln (s. "om_GetBillInformationRules_Ad" bzw. "om_GetBillContentInfoRules_Ad")"2" : Fehler aufrund der "FieldTypeID" (Format des Wertes ist ungültig)
        * </pre>
        *
-       * <code>optional .dstore.values.IntegerValue error_code = 10004;</code>
+       * <code>.dstore.values.IntegerValue error_code = 10004;</code>
        */
       boolean hasErrorCode();
       /**
@@ -4034,7 +4034,7 @@ public final class OmCreateNewBillAd {
        * Fehler-Ursache. Mögliche Werte :"1" : Fehler aufgrund von Regeln (s. "om_GetBillInformationRules_Ad" bzw. "om_GetBillContentInfoRules_Ad")"2" : Fehler aufrund der "FieldTypeID" (Format des Wertes ist ungültig)
        * </pre>
        *
-       * <code>optional .dstore.values.IntegerValue error_code = 10004;</code>
+       * <code>.dstore.values.IntegerValue error_code = 10004;</code>
        */
       io.dstore.values.IntegerValue getErrorCode();
       /**
@@ -4042,7 +4042,7 @@ public final class OmCreateNewBillAd {
        * Fehler-Ursache. Mögliche Werte :"1" : Fehler aufgrund von Regeln (s. "om_GetBillInformationRules_Ad" bzw. "om_GetBillContentInfoRules_Ad")"2" : Fehler aufrund der "FieldTypeID" (Format des Wertes ist ungültig)
        * </pre>
        *
-       * <code>optional .dstore.values.IntegerValue error_code = 10004;</code>
+       * <code>.dstore.values.IntegerValue error_code = 10004;</code>
        */
       io.dstore.values.IntegerValueOrBuilder getErrorCodeOrBuilder();
     }
@@ -4169,7 +4169,7 @@ public final class OmCreateNewBillAd {
       public static final int ROW_ID_FIELD_NUMBER = 10000;
       private int rowId_;
       /**
-       * <code>optional int32 row_id = 10000;</code>
+       * <code>int32 row_id = 10000;</code>
        */
       public int getRowId() {
         return rowId_;
@@ -4182,7 +4182,7 @@ public final class OmCreateNewBillAd {
        * "0" : Fehler bei einer Rechnungs-Information"1" : Fehler bei einer Rechnungs-Positions-Information"2" : Fehler bei einer Information zu einer "anderen" Rechnungs-Position
        * </pre>
        *
-       * <code>optional .dstore.values.IntegerValue table_id = 10001;</code>
+       * <code>.dstore.values.IntegerValue table_id = 10001;</code>
        */
       public boolean hasTableId() {
         return tableId_ != null;
@@ -4192,7 +4192,7 @@ public final class OmCreateNewBillAd {
        * "0" : Fehler bei einer Rechnungs-Information"1" : Fehler bei einer Rechnungs-Positions-Information"2" : Fehler bei einer Information zu einer "anderen" Rechnungs-Position
        * </pre>
        *
-       * <code>optional .dstore.values.IntegerValue table_id = 10001;</code>
+       * <code>.dstore.values.IntegerValue table_id = 10001;</code>
        */
       public io.dstore.values.IntegerValue getTableId() {
         return tableId_ == null ? io.dstore.values.IntegerValue.getDefaultInstance() : tableId_;
@@ -4202,7 +4202,7 @@ public final class OmCreateNewBillAd {
        * "0" : Fehler bei einer Rechnungs-Information"1" : Fehler bei einer Rechnungs-Positions-Information"2" : Fehler bei einer Information zu einer "anderen" Rechnungs-Position
        * </pre>
        *
-       * <code>optional .dstore.values.IntegerValue table_id = 10001;</code>
+       * <code>.dstore.values.IntegerValue table_id = 10001;</code>
        */
       public io.dstore.values.IntegerValueOrBuilder getTableIdOrBuilder() {
         return getTableId();
@@ -4215,7 +4215,7 @@ public final class OmCreateNewBillAd {
        * ID einer Informations-Art
        * </pre>
        *
-       * <code>optional .dstore.values.IntegerValue information_type_id = 10002;</code>
+       * <code>.dstore.values.IntegerValue information_type_id = 10002;</code>
        */
       public boolean hasInformationTypeId() {
         return informationTypeId_ != null;
@@ -4225,7 +4225,7 @@ public final class OmCreateNewBillAd {
        * ID einer Informations-Art
        * </pre>
        *
-       * <code>optional .dstore.values.IntegerValue information_type_id = 10002;</code>
+       * <code>.dstore.values.IntegerValue information_type_id = 10002;</code>
        */
       public io.dstore.values.IntegerValue getInformationTypeId() {
         return informationTypeId_ == null ? io.dstore.values.IntegerValue.getDefaultInstance() : informationTypeId_;
@@ -4235,7 +4235,7 @@ public final class OmCreateNewBillAd {
        * ID einer Informations-Art
        * </pre>
        *
-       * <code>optional .dstore.values.IntegerValue information_type_id = 10002;</code>
+       * <code>.dstore.values.IntegerValue information_type_id = 10002;</code>
        */
       public io.dstore.values.IntegerValueOrBuilder getInformationTypeIdOrBuilder() {
         return getInformationTypeId();
@@ -4248,7 +4248,7 @@ public final class OmCreateNewBillAd {
        * Je nach "TableKeyID" steht hier entweder der Wert "0" (wenn "TableID = 0") oder die Nummer einer "Position" (wenn "TableID = 1" oder "TableID = 2"), zu der eine fehlerhafte Information vorliegt
        * </pre>
        *
-       * <code>optional .dstore.values.IntegerValue table_key_id = 10003;</code>
+       * <code>.dstore.values.IntegerValue table_key_id = 10003;</code>
        */
       public boolean hasTableKeyId() {
         return tableKeyId_ != null;
@@ -4258,7 +4258,7 @@ public final class OmCreateNewBillAd {
        * Je nach "TableKeyID" steht hier entweder der Wert "0" (wenn "TableID = 0") oder die Nummer einer "Position" (wenn "TableID = 1" oder "TableID = 2"), zu der eine fehlerhafte Information vorliegt
        * </pre>
        *
-       * <code>optional .dstore.values.IntegerValue table_key_id = 10003;</code>
+       * <code>.dstore.values.IntegerValue table_key_id = 10003;</code>
        */
       public io.dstore.values.IntegerValue getTableKeyId() {
         return tableKeyId_ == null ? io.dstore.values.IntegerValue.getDefaultInstance() : tableKeyId_;
@@ -4268,7 +4268,7 @@ public final class OmCreateNewBillAd {
        * Je nach "TableKeyID" steht hier entweder der Wert "0" (wenn "TableID = 0") oder die Nummer einer "Position" (wenn "TableID = 1" oder "TableID = 2"), zu der eine fehlerhafte Information vorliegt
        * </pre>
        *
-       * <code>optional .dstore.values.IntegerValue table_key_id = 10003;</code>
+       * <code>.dstore.values.IntegerValue table_key_id = 10003;</code>
        */
       public io.dstore.values.IntegerValueOrBuilder getTableKeyIdOrBuilder() {
         return getTableKeyId();
@@ -4281,7 +4281,7 @@ public final class OmCreateNewBillAd {
        * Fehler-Ursache. Mögliche Werte :"1" : Fehler aufgrund von Regeln (s. "om_GetBillInformationRules_Ad" bzw. "om_GetBillContentInfoRules_Ad")"2" : Fehler aufrund der "FieldTypeID" (Format des Wertes ist ungültig)
        * </pre>
        *
-       * <code>optional .dstore.values.IntegerValue error_code = 10004;</code>
+       * <code>.dstore.values.IntegerValue error_code = 10004;</code>
        */
       public boolean hasErrorCode() {
         return errorCode_ != null;
@@ -4291,7 +4291,7 @@ public final class OmCreateNewBillAd {
        * Fehler-Ursache. Mögliche Werte :"1" : Fehler aufgrund von Regeln (s. "om_GetBillInformationRules_Ad" bzw. "om_GetBillContentInfoRules_Ad")"2" : Fehler aufrund der "FieldTypeID" (Format des Wertes ist ungültig)
        * </pre>
        *
-       * <code>optional .dstore.values.IntegerValue error_code = 10004;</code>
+       * <code>.dstore.values.IntegerValue error_code = 10004;</code>
        */
       public io.dstore.values.IntegerValue getErrorCode() {
         return errorCode_ == null ? io.dstore.values.IntegerValue.getDefaultInstance() : errorCode_;
@@ -4301,7 +4301,7 @@ public final class OmCreateNewBillAd {
        * Fehler-Ursache. Mögliche Werte :"1" : Fehler aufgrund von Regeln (s. "om_GetBillInformationRules_Ad" bzw. "om_GetBillContentInfoRules_Ad")"2" : Fehler aufrund der "FieldTypeID" (Format des Wertes ist ungültig)
        * </pre>
        *
-       * <code>optional .dstore.values.IntegerValue error_code = 10004;</code>
+       * <code>.dstore.values.IntegerValue error_code = 10004;</code>
        */
       public io.dstore.values.IntegerValueOrBuilder getErrorCodeOrBuilder() {
         return getErrorCode();
@@ -4408,7 +4408,7 @@ public final class OmCreateNewBillAd {
           return memoizedHashCode;
         }
         int hash = 41;
-        hash = (19 * hash) + getDescriptorForType().hashCode();
+        hash = (19 * hash) + getDescriptor().hashCode();
         hash = (37 * hash) + ROW_ID_FIELD_NUMBER;
         hash = (53 * hash) + getRowId();
         if (hasTableId()) {
@@ -4698,13 +4698,13 @@ public final class OmCreateNewBillAd {
 
         private int rowId_ ;
         /**
-         * <code>optional int32 row_id = 10000;</code>
+         * <code>int32 row_id = 10000;</code>
          */
         public int getRowId() {
           return rowId_;
         }
         /**
-         * <code>optional int32 row_id = 10000;</code>
+         * <code>int32 row_id = 10000;</code>
          */
         public Builder setRowId(int value) {
           
@@ -4713,7 +4713,7 @@ public final class OmCreateNewBillAd {
           return this;
         }
         /**
-         * <code>optional int32 row_id = 10000;</code>
+         * <code>int32 row_id = 10000;</code>
          */
         public Builder clearRowId() {
           
@@ -4730,7 +4730,7 @@ public final class OmCreateNewBillAd {
          * "0" : Fehler bei einer Rechnungs-Information"1" : Fehler bei einer Rechnungs-Positions-Information"2" : Fehler bei einer Information zu einer "anderen" Rechnungs-Position
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue table_id = 10001;</code>
+         * <code>.dstore.values.IntegerValue table_id = 10001;</code>
          */
         public boolean hasTableId() {
           return tableIdBuilder_ != null || tableId_ != null;
@@ -4740,7 +4740,7 @@ public final class OmCreateNewBillAd {
          * "0" : Fehler bei einer Rechnungs-Information"1" : Fehler bei einer Rechnungs-Positions-Information"2" : Fehler bei einer Information zu einer "anderen" Rechnungs-Position
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue table_id = 10001;</code>
+         * <code>.dstore.values.IntegerValue table_id = 10001;</code>
          */
         public io.dstore.values.IntegerValue getTableId() {
           if (tableIdBuilder_ == null) {
@@ -4754,7 +4754,7 @@ public final class OmCreateNewBillAd {
          * "0" : Fehler bei einer Rechnungs-Information"1" : Fehler bei einer Rechnungs-Positions-Information"2" : Fehler bei einer Information zu einer "anderen" Rechnungs-Position
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue table_id = 10001;</code>
+         * <code>.dstore.values.IntegerValue table_id = 10001;</code>
          */
         public Builder setTableId(io.dstore.values.IntegerValue value) {
           if (tableIdBuilder_ == null) {
@@ -4774,7 +4774,7 @@ public final class OmCreateNewBillAd {
          * "0" : Fehler bei einer Rechnungs-Information"1" : Fehler bei einer Rechnungs-Positions-Information"2" : Fehler bei einer Information zu einer "anderen" Rechnungs-Position
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue table_id = 10001;</code>
+         * <code>.dstore.values.IntegerValue table_id = 10001;</code>
          */
         public Builder setTableId(
             io.dstore.values.IntegerValue.Builder builderForValue) {
@@ -4792,7 +4792,7 @@ public final class OmCreateNewBillAd {
          * "0" : Fehler bei einer Rechnungs-Information"1" : Fehler bei einer Rechnungs-Positions-Information"2" : Fehler bei einer Information zu einer "anderen" Rechnungs-Position
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue table_id = 10001;</code>
+         * <code>.dstore.values.IntegerValue table_id = 10001;</code>
          */
         public Builder mergeTableId(io.dstore.values.IntegerValue value) {
           if (tableIdBuilder_ == null) {
@@ -4814,7 +4814,7 @@ public final class OmCreateNewBillAd {
          * "0" : Fehler bei einer Rechnungs-Information"1" : Fehler bei einer Rechnungs-Positions-Information"2" : Fehler bei einer Information zu einer "anderen" Rechnungs-Position
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue table_id = 10001;</code>
+         * <code>.dstore.values.IntegerValue table_id = 10001;</code>
          */
         public Builder clearTableId() {
           if (tableIdBuilder_ == null) {
@@ -4832,7 +4832,7 @@ public final class OmCreateNewBillAd {
          * "0" : Fehler bei einer Rechnungs-Information"1" : Fehler bei einer Rechnungs-Positions-Information"2" : Fehler bei einer Information zu einer "anderen" Rechnungs-Position
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue table_id = 10001;</code>
+         * <code>.dstore.values.IntegerValue table_id = 10001;</code>
          */
         public io.dstore.values.IntegerValue.Builder getTableIdBuilder() {
           
@@ -4844,7 +4844,7 @@ public final class OmCreateNewBillAd {
          * "0" : Fehler bei einer Rechnungs-Information"1" : Fehler bei einer Rechnungs-Positions-Information"2" : Fehler bei einer Information zu einer "anderen" Rechnungs-Position
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue table_id = 10001;</code>
+         * <code>.dstore.values.IntegerValue table_id = 10001;</code>
          */
         public io.dstore.values.IntegerValueOrBuilder getTableIdOrBuilder() {
           if (tableIdBuilder_ != null) {
@@ -4859,7 +4859,7 @@ public final class OmCreateNewBillAd {
          * "0" : Fehler bei einer Rechnungs-Information"1" : Fehler bei einer Rechnungs-Positions-Information"2" : Fehler bei einer Information zu einer "anderen" Rechnungs-Position
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue table_id = 10001;</code>
+         * <code>.dstore.values.IntegerValue table_id = 10001;</code>
          */
         private com.google.protobuf.SingleFieldBuilderV3<
             io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> 
@@ -4883,7 +4883,7 @@ public final class OmCreateNewBillAd {
          * ID einer Informations-Art
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue information_type_id = 10002;</code>
+         * <code>.dstore.values.IntegerValue information_type_id = 10002;</code>
          */
         public boolean hasInformationTypeId() {
           return informationTypeIdBuilder_ != null || informationTypeId_ != null;
@@ -4893,7 +4893,7 @@ public final class OmCreateNewBillAd {
          * ID einer Informations-Art
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue information_type_id = 10002;</code>
+         * <code>.dstore.values.IntegerValue information_type_id = 10002;</code>
          */
         public io.dstore.values.IntegerValue getInformationTypeId() {
           if (informationTypeIdBuilder_ == null) {
@@ -4907,7 +4907,7 @@ public final class OmCreateNewBillAd {
          * ID einer Informations-Art
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue information_type_id = 10002;</code>
+         * <code>.dstore.values.IntegerValue information_type_id = 10002;</code>
          */
         public Builder setInformationTypeId(io.dstore.values.IntegerValue value) {
           if (informationTypeIdBuilder_ == null) {
@@ -4927,7 +4927,7 @@ public final class OmCreateNewBillAd {
          * ID einer Informations-Art
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue information_type_id = 10002;</code>
+         * <code>.dstore.values.IntegerValue information_type_id = 10002;</code>
          */
         public Builder setInformationTypeId(
             io.dstore.values.IntegerValue.Builder builderForValue) {
@@ -4945,7 +4945,7 @@ public final class OmCreateNewBillAd {
          * ID einer Informations-Art
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue information_type_id = 10002;</code>
+         * <code>.dstore.values.IntegerValue information_type_id = 10002;</code>
          */
         public Builder mergeInformationTypeId(io.dstore.values.IntegerValue value) {
           if (informationTypeIdBuilder_ == null) {
@@ -4967,7 +4967,7 @@ public final class OmCreateNewBillAd {
          * ID einer Informations-Art
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue information_type_id = 10002;</code>
+         * <code>.dstore.values.IntegerValue information_type_id = 10002;</code>
          */
         public Builder clearInformationTypeId() {
           if (informationTypeIdBuilder_ == null) {
@@ -4985,7 +4985,7 @@ public final class OmCreateNewBillAd {
          * ID einer Informations-Art
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue information_type_id = 10002;</code>
+         * <code>.dstore.values.IntegerValue information_type_id = 10002;</code>
          */
         public io.dstore.values.IntegerValue.Builder getInformationTypeIdBuilder() {
           
@@ -4997,7 +4997,7 @@ public final class OmCreateNewBillAd {
          * ID einer Informations-Art
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue information_type_id = 10002;</code>
+         * <code>.dstore.values.IntegerValue information_type_id = 10002;</code>
          */
         public io.dstore.values.IntegerValueOrBuilder getInformationTypeIdOrBuilder() {
           if (informationTypeIdBuilder_ != null) {
@@ -5012,7 +5012,7 @@ public final class OmCreateNewBillAd {
          * ID einer Informations-Art
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue information_type_id = 10002;</code>
+         * <code>.dstore.values.IntegerValue information_type_id = 10002;</code>
          */
         private com.google.protobuf.SingleFieldBuilderV3<
             io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> 
@@ -5036,7 +5036,7 @@ public final class OmCreateNewBillAd {
          * Je nach "TableKeyID" steht hier entweder der Wert "0" (wenn "TableID = 0") oder die Nummer einer "Position" (wenn "TableID = 1" oder "TableID = 2"), zu der eine fehlerhafte Information vorliegt
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue table_key_id = 10003;</code>
+         * <code>.dstore.values.IntegerValue table_key_id = 10003;</code>
          */
         public boolean hasTableKeyId() {
           return tableKeyIdBuilder_ != null || tableKeyId_ != null;
@@ -5046,7 +5046,7 @@ public final class OmCreateNewBillAd {
          * Je nach "TableKeyID" steht hier entweder der Wert "0" (wenn "TableID = 0") oder die Nummer einer "Position" (wenn "TableID = 1" oder "TableID = 2"), zu der eine fehlerhafte Information vorliegt
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue table_key_id = 10003;</code>
+         * <code>.dstore.values.IntegerValue table_key_id = 10003;</code>
          */
         public io.dstore.values.IntegerValue getTableKeyId() {
           if (tableKeyIdBuilder_ == null) {
@@ -5060,7 +5060,7 @@ public final class OmCreateNewBillAd {
          * Je nach "TableKeyID" steht hier entweder der Wert "0" (wenn "TableID = 0") oder die Nummer einer "Position" (wenn "TableID = 1" oder "TableID = 2"), zu der eine fehlerhafte Information vorliegt
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue table_key_id = 10003;</code>
+         * <code>.dstore.values.IntegerValue table_key_id = 10003;</code>
          */
         public Builder setTableKeyId(io.dstore.values.IntegerValue value) {
           if (tableKeyIdBuilder_ == null) {
@@ -5080,7 +5080,7 @@ public final class OmCreateNewBillAd {
          * Je nach "TableKeyID" steht hier entweder der Wert "0" (wenn "TableID = 0") oder die Nummer einer "Position" (wenn "TableID = 1" oder "TableID = 2"), zu der eine fehlerhafte Information vorliegt
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue table_key_id = 10003;</code>
+         * <code>.dstore.values.IntegerValue table_key_id = 10003;</code>
          */
         public Builder setTableKeyId(
             io.dstore.values.IntegerValue.Builder builderForValue) {
@@ -5098,7 +5098,7 @@ public final class OmCreateNewBillAd {
          * Je nach "TableKeyID" steht hier entweder der Wert "0" (wenn "TableID = 0") oder die Nummer einer "Position" (wenn "TableID = 1" oder "TableID = 2"), zu der eine fehlerhafte Information vorliegt
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue table_key_id = 10003;</code>
+         * <code>.dstore.values.IntegerValue table_key_id = 10003;</code>
          */
         public Builder mergeTableKeyId(io.dstore.values.IntegerValue value) {
           if (tableKeyIdBuilder_ == null) {
@@ -5120,7 +5120,7 @@ public final class OmCreateNewBillAd {
          * Je nach "TableKeyID" steht hier entweder der Wert "0" (wenn "TableID = 0") oder die Nummer einer "Position" (wenn "TableID = 1" oder "TableID = 2"), zu der eine fehlerhafte Information vorliegt
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue table_key_id = 10003;</code>
+         * <code>.dstore.values.IntegerValue table_key_id = 10003;</code>
          */
         public Builder clearTableKeyId() {
           if (tableKeyIdBuilder_ == null) {
@@ -5138,7 +5138,7 @@ public final class OmCreateNewBillAd {
          * Je nach "TableKeyID" steht hier entweder der Wert "0" (wenn "TableID = 0") oder die Nummer einer "Position" (wenn "TableID = 1" oder "TableID = 2"), zu der eine fehlerhafte Information vorliegt
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue table_key_id = 10003;</code>
+         * <code>.dstore.values.IntegerValue table_key_id = 10003;</code>
          */
         public io.dstore.values.IntegerValue.Builder getTableKeyIdBuilder() {
           
@@ -5150,7 +5150,7 @@ public final class OmCreateNewBillAd {
          * Je nach "TableKeyID" steht hier entweder der Wert "0" (wenn "TableID = 0") oder die Nummer einer "Position" (wenn "TableID = 1" oder "TableID = 2"), zu der eine fehlerhafte Information vorliegt
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue table_key_id = 10003;</code>
+         * <code>.dstore.values.IntegerValue table_key_id = 10003;</code>
          */
         public io.dstore.values.IntegerValueOrBuilder getTableKeyIdOrBuilder() {
           if (tableKeyIdBuilder_ != null) {
@@ -5165,7 +5165,7 @@ public final class OmCreateNewBillAd {
          * Je nach "TableKeyID" steht hier entweder der Wert "0" (wenn "TableID = 0") oder die Nummer einer "Position" (wenn "TableID = 1" oder "TableID = 2"), zu der eine fehlerhafte Information vorliegt
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue table_key_id = 10003;</code>
+         * <code>.dstore.values.IntegerValue table_key_id = 10003;</code>
          */
         private com.google.protobuf.SingleFieldBuilderV3<
             io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> 
@@ -5189,7 +5189,7 @@ public final class OmCreateNewBillAd {
          * Fehler-Ursache. Mögliche Werte :"1" : Fehler aufgrund von Regeln (s. "om_GetBillInformationRules_Ad" bzw. "om_GetBillContentInfoRules_Ad")"2" : Fehler aufrund der "FieldTypeID" (Format des Wertes ist ungültig)
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue error_code = 10004;</code>
+         * <code>.dstore.values.IntegerValue error_code = 10004;</code>
          */
         public boolean hasErrorCode() {
           return errorCodeBuilder_ != null || errorCode_ != null;
@@ -5199,7 +5199,7 @@ public final class OmCreateNewBillAd {
          * Fehler-Ursache. Mögliche Werte :"1" : Fehler aufgrund von Regeln (s. "om_GetBillInformationRules_Ad" bzw. "om_GetBillContentInfoRules_Ad")"2" : Fehler aufrund der "FieldTypeID" (Format des Wertes ist ungültig)
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue error_code = 10004;</code>
+         * <code>.dstore.values.IntegerValue error_code = 10004;</code>
          */
         public io.dstore.values.IntegerValue getErrorCode() {
           if (errorCodeBuilder_ == null) {
@@ -5213,7 +5213,7 @@ public final class OmCreateNewBillAd {
          * Fehler-Ursache. Mögliche Werte :"1" : Fehler aufgrund von Regeln (s. "om_GetBillInformationRules_Ad" bzw. "om_GetBillContentInfoRules_Ad")"2" : Fehler aufrund der "FieldTypeID" (Format des Wertes ist ungültig)
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue error_code = 10004;</code>
+         * <code>.dstore.values.IntegerValue error_code = 10004;</code>
          */
         public Builder setErrorCode(io.dstore.values.IntegerValue value) {
           if (errorCodeBuilder_ == null) {
@@ -5233,7 +5233,7 @@ public final class OmCreateNewBillAd {
          * Fehler-Ursache. Mögliche Werte :"1" : Fehler aufgrund von Regeln (s. "om_GetBillInformationRules_Ad" bzw. "om_GetBillContentInfoRules_Ad")"2" : Fehler aufrund der "FieldTypeID" (Format des Wertes ist ungültig)
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue error_code = 10004;</code>
+         * <code>.dstore.values.IntegerValue error_code = 10004;</code>
          */
         public Builder setErrorCode(
             io.dstore.values.IntegerValue.Builder builderForValue) {
@@ -5251,7 +5251,7 @@ public final class OmCreateNewBillAd {
          * Fehler-Ursache. Mögliche Werte :"1" : Fehler aufgrund von Regeln (s. "om_GetBillInformationRules_Ad" bzw. "om_GetBillContentInfoRules_Ad")"2" : Fehler aufrund der "FieldTypeID" (Format des Wertes ist ungültig)
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue error_code = 10004;</code>
+         * <code>.dstore.values.IntegerValue error_code = 10004;</code>
          */
         public Builder mergeErrorCode(io.dstore.values.IntegerValue value) {
           if (errorCodeBuilder_ == null) {
@@ -5273,7 +5273,7 @@ public final class OmCreateNewBillAd {
          * Fehler-Ursache. Mögliche Werte :"1" : Fehler aufgrund von Regeln (s. "om_GetBillInformationRules_Ad" bzw. "om_GetBillContentInfoRules_Ad")"2" : Fehler aufrund der "FieldTypeID" (Format des Wertes ist ungültig)
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue error_code = 10004;</code>
+         * <code>.dstore.values.IntegerValue error_code = 10004;</code>
          */
         public Builder clearErrorCode() {
           if (errorCodeBuilder_ == null) {
@@ -5291,7 +5291,7 @@ public final class OmCreateNewBillAd {
          * Fehler-Ursache. Mögliche Werte :"1" : Fehler aufgrund von Regeln (s. "om_GetBillInformationRules_Ad" bzw. "om_GetBillContentInfoRules_Ad")"2" : Fehler aufrund der "FieldTypeID" (Format des Wertes ist ungültig)
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue error_code = 10004;</code>
+         * <code>.dstore.values.IntegerValue error_code = 10004;</code>
          */
         public io.dstore.values.IntegerValue.Builder getErrorCodeBuilder() {
           
@@ -5303,7 +5303,7 @@ public final class OmCreateNewBillAd {
          * Fehler-Ursache. Mögliche Werte :"1" : Fehler aufgrund von Regeln (s. "om_GetBillInformationRules_Ad" bzw. "om_GetBillContentInfoRules_Ad")"2" : Fehler aufrund der "FieldTypeID" (Format des Wertes ist ungültig)
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue error_code = 10004;</code>
+         * <code>.dstore.values.IntegerValue error_code = 10004;</code>
          */
         public io.dstore.values.IntegerValueOrBuilder getErrorCodeOrBuilder() {
           if (errorCodeBuilder_ != null) {
@@ -5318,7 +5318,7 @@ public final class OmCreateNewBillAd {
          * Fehler-Ursache. Mögliche Werte :"1" : Fehler aufgrund von Regeln (s. "om_GetBillInformationRules_Ad" bzw. "om_GetBillContentInfoRules_Ad")"2" : Fehler aufrund der "FieldTypeID" (Format des Wertes ist ungültig)
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue error_code = 10004;</code>
+         * <code>.dstore.values.IntegerValue error_code = 10004;</code>
          */
         private com.google.protobuf.SingleFieldBuilderV3<
             io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> 
@@ -5491,19 +5491,19 @@ public final class OmCreateNewBillAd {
     public static final int GENERATED_BILL_ID_FIELD_NUMBER = 101;
     private io.dstore.values.IntegerValue generatedBillId_;
     /**
-     * <code>optional .dstore.values.IntegerValue generated_bill_id = 101;</code>
+     * <code>.dstore.values.IntegerValue generated_bill_id = 101;</code>
      */
     public boolean hasGeneratedBillId() {
       return generatedBillId_ != null;
     }
     /**
-     * <code>optional .dstore.values.IntegerValue generated_bill_id = 101;</code>
+     * <code>.dstore.values.IntegerValue generated_bill_id = 101;</code>
      */
     public io.dstore.values.IntegerValue getGeneratedBillId() {
       return generatedBillId_ == null ? io.dstore.values.IntegerValue.getDefaultInstance() : generatedBillId_;
     }
     /**
-     * <code>optional .dstore.values.IntegerValue generated_bill_id = 101;</code>
+     * <code>.dstore.values.IntegerValue generated_bill_id = 101;</code>
      */
     public io.dstore.values.IntegerValueOrBuilder getGeneratedBillIdOrBuilder() {
       return getGeneratedBillId();
@@ -5592,7 +5592,7 @@ public final class OmCreateNewBillAd {
         return memoizedHashCode;
       }
       int hash = 41;
-      hash = (19 * hash) + getDescriptorForType().hashCode();
+      hash = (19 * hash) + getDescriptor().hashCode();
       if (getMetaInformationCount() > 0) {
         hash = (37 * hash) + META_INFORMATION_FIELD_NUMBER;
         hash = (53 * hash) + getMetaInformationList().hashCode();
@@ -6684,13 +6684,13 @@ public final class OmCreateNewBillAd {
       private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> generatedBillIdBuilder_;
       /**
-       * <code>optional .dstore.values.IntegerValue generated_bill_id = 101;</code>
+       * <code>.dstore.values.IntegerValue generated_bill_id = 101;</code>
        */
       public boolean hasGeneratedBillId() {
         return generatedBillIdBuilder_ != null || generatedBillId_ != null;
       }
       /**
-       * <code>optional .dstore.values.IntegerValue generated_bill_id = 101;</code>
+       * <code>.dstore.values.IntegerValue generated_bill_id = 101;</code>
        */
       public io.dstore.values.IntegerValue getGeneratedBillId() {
         if (generatedBillIdBuilder_ == null) {
@@ -6700,7 +6700,7 @@ public final class OmCreateNewBillAd {
         }
       }
       /**
-       * <code>optional .dstore.values.IntegerValue generated_bill_id = 101;</code>
+       * <code>.dstore.values.IntegerValue generated_bill_id = 101;</code>
        */
       public Builder setGeneratedBillId(io.dstore.values.IntegerValue value) {
         if (generatedBillIdBuilder_ == null) {
@@ -6716,7 +6716,7 @@ public final class OmCreateNewBillAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.IntegerValue generated_bill_id = 101;</code>
+       * <code>.dstore.values.IntegerValue generated_bill_id = 101;</code>
        */
       public Builder setGeneratedBillId(
           io.dstore.values.IntegerValue.Builder builderForValue) {
@@ -6730,7 +6730,7 @@ public final class OmCreateNewBillAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.IntegerValue generated_bill_id = 101;</code>
+       * <code>.dstore.values.IntegerValue generated_bill_id = 101;</code>
        */
       public Builder mergeGeneratedBillId(io.dstore.values.IntegerValue value) {
         if (generatedBillIdBuilder_ == null) {
@@ -6748,7 +6748,7 @@ public final class OmCreateNewBillAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.IntegerValue generated_bill_id = 101;</code>
+       * <code>.dstore.values.IntegerValue generated_bill_id = 101;</code>
        */
       public Builder clearGeneratedBillId() {
         if (generatedBillIdBuilder_ == null) {
@@ -6762,7 +6762,7 @@ public final class OmCreateNewBillAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.IntegerValue generated_bill_id = 101;</code>
+       * <code>.dstore.values.IntegerValue generated_bill_id = 101;</code>
        */
       public io.dstore.values.IntegerValue.Builder getGeneratedBillIdBuilder() {
         
@@ -6770,7 +6770,7 @@ public final class OmCreateNewBillAd {
         return getGeneratedBillIdFieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .dstore.values.IntegerValue generated_bill_id = 101;</code>
+       * <code>.dstore.values.IntegerValue generated_bill_id = 101;</code>
        */
       public io.dstore.values.IntegerValueOrBuilder getGeneratedBillIdOrBuilder() {
         if (generatedBillIdBuilder_ != null) {
@@ -6781,7 +6781,7 @@ public final class OmCreateNewBillAd {
         }
       }
       /**
-       * <code>optional .dstore.values.IntegerValue generated_bill_id = 101;</code>
+       * <code>.dstore.values.IntegerValue generated_bill_id = 101;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> 

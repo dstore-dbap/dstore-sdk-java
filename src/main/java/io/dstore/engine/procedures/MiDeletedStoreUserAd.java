@@ -19,92 +19,92 @@ public final class MiDeletedStoreUserAd {
       com.google.protobuf.MessageOrBuilder {
 
     /**
-     * <code>optional .dstore.values.StringValue user_name = 1;</code>
+     * <code>.dstore.values.StringValue user_name = 1;</code>
      */
     boolean hasUserName();
     /**
-     * <code>optional .dstore.values.StringValue user_name = 1;</code>
+     * <code>.dstore.values.StringValue user_name = 1;</code>
      */
     io.dstore.values.StringValue getUserName();
     /**
-     * <code>optional .dstore.values.StringValue user_name = 1;</code>
+     * <code>.dstore.values.StringValue user_name = 1;</code>
      */
     io.dstore.values.StringValueOrBuilder getUserNameOrBuilder();
 
     /**
-     * <code>optional bool user_name_null = 1001;</code>
+     * <code>bool user_name_null = 1001;</code>
      */
     boolean getUserNameNull();
 
     /**
-     * <code>optional .dstore.values.BooleanValue invalidate_user_in_user_info = 2;</code>
+     * <code>.dstore.values.BooleanValue invalidate_user_in_user_info = 2;</code>
      */
     boolean hasInvalidateUserInUserInfo();
     /**
-     * <code>optional .dstore.values.BooleanValue invalidate_user_in_user_info = 2;</code>
+     * <code>.dstore.values.BooleanValue invalidate_user_in_user_info = 2;</code>
      */
     io.dstore.values.BooleanValue getInvalidateUserInUserInfo();
     /**
-     * <code>optional .dstore.values.BooleanValue invalidate_user_in_user_info = 2;</code>
+     * <code>.dstore.values.BooleanValue invalidate_user_in_user_info = 2;</code>
      */
     io.dstore.values.BooleanValueOrBuilder getInvalidateUserInUserInfoOrBuilder();
 
     /**
-     * <code>optional bool invalidate_user_in_user_info_null = 1002;</code>
+     * <code>bool invalidate_user_in_user_info_null = 1002;</code>
      */
     boolean getInvalidateUserInUserInfoNull();
 
     /**
-     * <code>optional .dstore.values.BooleanValue only_delete_user_from_this_engine = 3;</code>
+     * <code>.dstore.values.BooleanValue only_delete_user_from_this_engine = 3;</code>
      */
     boolean hasOnlyDeleteUserFromThisEngine();
     /**
-     * <code>optional .dstore.values.BooleanValue only_delete_user_from_this_engine = 3;</code>
+     * <code>.dstore.values.BooleanValue only_delete_user_from_this_engine = 3;</code>
      */
     io.dstore.values.BooleanValue getOnlyDeleteUserFromThisEngine();
     /**
-     * <code>optional .dstore.values.BooleanValue only_delete_user_from_this_engine = 3;</code>
+     * <code>.dstore.values.BooleanValue only_delete_user_from_this_engine = 3;</code>
      */
     io.dstore.values.BooleanValueOrBuilder getOnlyDeleteUserFromThisEngineOrBuilder();
 
     /**
-     * <code>optional bool only_delete_user_from_this_engine_null = 1003;</code>
+     * <code>bool only_delete_user_from_this_engine_null = 1003;</code>
      */
     boolean getOnlyDeleteUserFromThisEngineNull();
 
     /**
-     * <code>optional .dstore.values.BooleanValue drop_login_when_d_b_is_not_available = 4;</code>
+     * <code>.dstore.values.BooleanValue drop_login_when_d_b_is_not_available = 4;</code>
      */
     boolean hasDropLoginWhenDBIsNotAvailable();
     /**
-     * <code>optional .dstore.values.BooleanValue drop_login_when_d_b_is_not_available = 4;</code>
+     * <code>.dstore.values.BooleanValue drop_login_when_d_b_is_not_available = 4;</code>
      */
     io.dstore.values.BooleanValue getDropLoginWhenDBIsNotAvailable();
     /**
-     * <code>optional .dstore.values.BooleanValue drop_login_when_d_b_is_not_available = 4;</code>
+     * <code>.dstore.values.BooleanValue drop_login_when_d_b_is_not_available = 4;</code>
      */
     io.dstore.values.BooleanValueOrBuilder getDropLoginWhenDBIsNotAvailableOrBuilder();
 
     /**
-     * <code>optional bool drop_login_when_d_b_is_not_available_null = 1004;</code>
+     * <code>bool drop_login_when_d_b_is_not_available_null = 1004;</code>
      */
     boolean getDropLoginWhenDBIsNotAvailableNull();
 
     /**
-     * <code>optional .dstore.values.BooleanValue kill_processes_for_user_first = 5;</code>
+     * <code>.dstore.values.BooleanValue kill_processes_for_user_first = 5;</code>
      */
     boolean hasKillProcessesForUserFirst();
     /**
-     * <code>optional .dstore.values.BooleanValue kill_processes_for_user_first = 5;</code>
+     * <code>.dstore.values.BooleanValue kill_processes_for_user_first = 5;</code>
      */
     io.dstore.values.BooleanValue getKillProcessesForUserFirst();
     /**
-     * <code>optional .dstore.values.BooleanValue kill_processes_for_user_first = 5;</code>
+     * <code>.dstore.values.BooleanValue kill_processes_for_user_first = 5;</code>
      */
     io.dstore.values.BooleanValueOrBuilder getKillProcessesForUserFirstOrBuilder();
 
     /**
-     * <code>optional bool kill_processes_for_user_first_null = 1005;</code>
+     * <code>bool kill_processes_for_user_first_null = 1005;</code>
      */
     boolean getKillProcessesForUserFirstNull();
   }
@@ -268,19 +268,19 @@ public final class MiDeletedStoreUserAd {
     public static final int USER_NAME_FIELD_NUMBER = 1;
     private io.dstore.values.StringValue userName_;
     /**
-     * <code>optional .dstore.values.StringValue user_name = 1;</code>
+     * <code>.dstore.values.StringValue user_name = 1;</code>
      */
     public boolean hasUserName() {
       return userName_ != null;
     }
     /**
-     * <code>optional .dstore.values.StringValue user_name = 1;</code>
+     * <code>.dstore.values.StringValue user_name = 1;</code>
      */
     public io.dstore.values.StringValue getUserName() {
       return userName_ == null ? io.dstore.values.StringValue.getDefaultInstance() : userName_;
     }
     /**
-     * <code>optional .dstore.values.StringValue user_name = 1;</code>
+     * <code>.dstore.values.StringValue user_name = 1;</code>
      */
     public io.dstore.values.StringValueOrBuilder getUserNameOrBuilder() {
       return getUserName();
@@ -289,7 +289,7 @@ public final class MiDeletedStoreUserAd {
     public static final int USER_NAME_NULL_FIELD_NUMBER = 1001;
     private boolean userNameNull_;
     /**
-     * <code>optional bool user_name_null = 1001;</code>
+     * <code>bool user_name_null = 1001;</code>
      */
     public boolean getUserNameNull() {
       return userNameNull_;
@@ -298,19 +298,19 @@ public final class MiDeletedStoreUserAd {
     public static final int INVALIDATE_USER_IN_USER_INFO_FIELD_NUMBER = 2;
     private io.dstore.values.BooleanValue invalidateUserInUserInfo_;
     /**
-     * <code>optional .dstore.values.BooleanValue invalidate_user_in_user_info = 2;</code>
+     * <code>.dstore.values.BooleanValue invalidate_user_in_user_info = 2;</code>
      */
     public boolean hasInvalidateUserInUserInfo() {
       return invalidateUserInUserInfo_ != null;
     }
     /**
-     * <code>optional .dstore.values.BooleanValue invalidate_user_in_user_info = 2;</code>
+     * <code>.dstore.values.BooleanValue invalidate_user_in_user_info = 2;</code>
      */
     public io.dstore.values.BooleanValue getInvalidateUserInUserInfo() {
       return invalidateUserInUserInfo_ == null ? io.dstore.values.BooleanValue.getDefaultInstance() : invalidateUserInUserInfo_;
     }
     /**
-     * <code>optional .dstore.values.BooleanValue invalidate_user_in_user_info = 2;</code>
+     * <code>.dstore.values.BooleanValue invalidate_user_in_user_info = 2;</code>
      */
     public io.dstore.values.BooleanValueOrBuilder getInvalidateUserInUserInfoOrBuilder() {
       return getInvalidateUserInUserInfo();
@@ -319,7 +319,7 @@ public final class MiDeletedStoreUserAd {
     public static final int INVALIDATE_USER_IN_USER_INFO_NULL_FIELD_NUMBER = 1002;
     private boolean invalidateUserInUserInfoNull_;
     /**
-     * <code>optional bool invalidate_user_in_user_info_null = 1002;</code>
+     * <code>bool invalidate_user_in_user_info_null = 1002;</code>
      */
     public boolean getInvalidateUserInUserInfoNull() {
       return invalidateUserInUserInfoNull_;
@@ -328,19 +328,19 @@ public final class MiDeletedStoreUserAd {
     public static final int ONLY_DELETE_USER_FROM_THIS_ENGINE_FIELD_NUMBER = 3;
     private io.dstore.values.BooleanValue onlyDeleteUserFromThisEngine_;
     /**
-     * <code>optional .dstore.values.BooleanValue only_delete_user_from_this_engine = 3;</code>
+     * <code>.dstore.values.BooleanValue only_delete_user_from_this_engine = 3;</code>
      */
     public boolean hasOnlyDeleteUserFromThisEngine() {
       return onlyDeleteUserFromThisEngine_ != null;
     }
     /**
-     * <code>optional .dstore.values.BooleanValue only_delete_user_from_this_engine = 3;</code>
+     * <code>.dstore.values.BooleanValue only_delete_user_from_this_engine = 3;</code>
      */
     public io.dstore.values.BooleanValue getOnlyDeleteUserFromThisEngine() {
       return onlyDeleteUserFromThisEngine_ == null ? io.dstore.values.BooleanValue.getDefaultInstance() : onlyDeleteUserFromThisEngine_;
     }
     /**
-     * <code>optional .dstore.values.BooleanValue only_delete_user_from_this_engine = 3;</code>
+     * <code>.dstore.values.BooleanValue only_delete_user_from_this_engine = 3;</code>
      */
     public io.dstore.values.BooleanValueOrBuilder getOnlyDeleteUserFromThisEngineOrBuilder() {
       return getOnlyDeleteUserFromThisEngine();
@@ -349,7 +349,7 @@ public final class MiDeletedStoreUserAd {
     public static final int ONLY_DELETE_USER_FROM_THIS_ENGINE_NULL_FIELD_NUMBER = 1003;
     private boolean onlyDeleteUserFromThisEngineNull_;
     /**
-     * <code>optional bool only_delete_user_from_this_engine_null = 1003;</code>
+     * <code>bool only_delete_user_from_this_engine_null = 1003;</code>
      */
     public boolean getOnlyDeleteUserFromThisEngineNull() {
       return onlyDeleteUserFromThisEngineNull_;
@@ -358,19 +358,19 @@ public final class MiDeletedStoreUserAd {
     public static final int DROP_LOGIN_WHEN_D_B_IS_NOT_AVAILABLE_FIELD_NUMBER = 4;
     private io.dstore.values.BooleanValue dropLoginWhenDBIsNotAvailable_;
     /**
-     * <code>optional .dstore.values.BooleanValue drop_login_when_d_b_is_not_available = 4;</code>
+     * <code>.dstore.values.BooleanValue drop_login_when_d_b_is_not_available = 4;</code>
      */
     public boolean hasDropLoginWhenDBIsNotAvailable() {
       return dropLoginWhenDBIsNotAvailable_ != null;
     }
     /**
-     * <code>optional .dstore.values.BooleanValue drop_login_when_d_b_is_not_available = 4;</code>
+     * <code>.dstore.values.BooleanValue drop_login_when_d_b_is_not_available = 4;</code>
      */
     public io.dstore.values.BooleanValue getDropLoginWhenDBIsNotAvailable() {
       return dropLoginWhenDBIsNotAvailable_ == null ? io.dstore.values.BooleanValue.getDefaultInstance() : dropLoginWhenDBIsNotAvailable_;
     }
     /**
-     * <code>optional .dstore.values.BooleanValue drop_login_when_d_b_is_not_available = 4;</code>
+     * <code>.dstore.values.BooleanValue drop_login_when_d_b_is_not_available = 4;</code>
      */
     public io.dstore.values.BooleanValueOrBuilder getDropLoginWhenDBIsNotAvailableOrBuilder() {
       return getDropLoginWhenDBIsNotAvailable();
@@ -379,7 +379,7 @@ public final class MiDeletedStoreUserAd {
     public static final int DROP_LOGIN_WHEN_D_B_IS_NOT_AVAILABLE_NULL_FIELD_NUMBER = 1004;
     private boolean dropLoginWhenDBIsNotAvailableNull_;
     /**
-     * <code>optional bool drop_login_when_d_b_is_not_available_null = 1004;</code>
+     * <code>bool drop_login_when_d_b_is_not_available_null = 1004;</code>
      */
     public boolean getDropLoginWhenDBIsNotAvailableNull() {
       return dropLoginWhenDBIsNotAvailableNull_;
@@ -388,19 +388,19 @@ public final class MiDeletedStoreUserAd {
     public static final int KILL_PROCESSES_FOR_USER_FIRST_FIELD_NUMBER = 5;
     private io.dstore.values.BooleanValue killProcessesForUserFirst_;
     /**
-     * <code>optional .dstore.values.BooleanValue kill_processes_for_user_first = 5;</code>
+     * <code>.dstore.values.BooleanValue kill_processes_for_user_first = 5;</code>
      */
     public boolean hasKillProcessesForUserFirst() {
       return killProcessesForUserFirst_ != null;
     }
     /**
-     * <code>optional .dstore.values.BooleanValue kill_processes_for_user_first = 5;</code>
+     * <code>.dstore.values.BooleanValue kill_processes_for_user_first = 5;</code>
      */
     public io.dstore.values.BooleanValue getKillProcessesForUserFirst() {
       return killProcessesForUserFirst_ == null ? io.dstore.values.BooleanValue.getDefaultInstance() : killProcessesForUserFirst_;
     }
     /**
-     * <code>optional .dstore.values.BooleanValue kill_processes_for_user_first = 5;</code>
+     * <code>.dstore.values.BooleanValue kill_processes_for_user_first = 5;</code>
      */
     public io.dstore.values.BooleanValueOrBuilder getKillProcessesForUserFirstOrBuilder() {
       return getKillProcessesForUserFirst();
@@ -409,7 +409,7 @@ public final class MiDeletedStoreUserAd {
     public static final int KILL_PROCESSES_FOR_USER_FIRST_NULL_FIELD_NUMBER = 1005;
     private boolean killProcessesForUserFirstNull_;
     /**
-     * <code>optional bool kill_processes_for_user_first_null = 1005;</code>
+     * <code>bool kill_processes_for_user_first_null = 1005;</code>
      */
     public boolean getKillProcessesForUserFirstNull() {
       return killProcessesForUserFirstNull_;
@@ -564,7 +564,7 @@ public final class MiDeletedStoreUserAd {
         return memoizedHashCode;
       }
       int hash = 41;
-      hash = (19 * hash) + getDescriptorForType().hashCode();
+      hash = (19 * hash) + getDescriptor().hashCode();
       if (hasUserName()) {
         hash = (37 * hash) + USER_NAME_FIELD_NUMBER;
         hash = (53 * hash) + getUserName().hashCode();
@@ -911,13 +911,13 @@ public final class MiDeletedStoreUserAd {
       private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.values.StringValue, io.dstore.values.StringValue.Builder, io.dstore.values.StringValueOrBuilder> userNameBuilder_;
       /**
-       * <code>optional .dstore.values.StringValue user_name = 1;</code>
+       * <code>.dstore.values.StringValue user_name = 1;</code>
        */
       public boolean hasUserName() {
         return userNameBuilder_ != null || userName_ != null;
       }
       /**
-       * <code>optional .dstore.values.StringValue user_name = 1;</code>
+       * <code>.dstore.values.StringValue user_name = 1;</code>
        */
       public io.dstore.values.StringValue getUserName() {
         if (userNameBuilder_ == null) {
@@ -927,7 +927,7 @@ public final class MiDeletedStoreUserAd {
         }
       }
       /**
-       * <code>optional .dstore.values.StringValue user_name = 1;</code>
+       * <code>.dstore.values.StringValue user_name = 1;</code>
        */
       public Builder setUserName(io.dstore.values.StringValue value) {
         if (userNameBuilder_ == null) {
@@ -943,7 +943,7 @@ public final class MiDeletedStoreUserAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.StringValue user_name = 1;</code>
+       * <code>.dstore.values.StringValue user_name = 1;</code>
        */
       public Builder setUserName(
           io.dstore.values.StringValue.Builder builderForValue) {
@@ -957,7 +957,7 @@ public final class MiDeletedStoreUserAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.StringValue user_name = 1;</code>
+       * <code>.dstore.values.StringValue user_name = 1;</code>
        */
       public Builder mergeUserName(io.dstore.values.StringValue value) {
         if (userNameBuilder_ == null) {
@@ -975,7 +975,7 @@ public final class MiDeletedStoreUserAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.StringValue user_name = 1;</code>
+       * <code>.dstore.values.StringValue user_name = 1;</code>
        */
       public Builder clearUserName() {
         if (userNameBuilder_ == null) {
@@ -989,7 +989,7 @@ public final class MiDeletedStoreUserAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.StringValue user_name = 1;</code>
+       * <code>.dstore.values.StringValue user_name = 1;</code>
        */
       public io.dstore.values.StringValue.Builder getUserNameBuilder() {
         
@@ -997,7 +997,7 @@ public final class MiDeletedStoreUserAd {
         return getUserNameFieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .dstore.values.StringValue user_name = 1;</code>
+       * <code>.dstore.values.StringValue user_name = 1;</code>
        */
       public io.dstore.values.StringValueOrBuilder getUserNameOrBuilder() {
         if (userNameBuilder_ != null) {
@@ -1008,7 +1008,7 @@ public final class MiDeletedStoreUserAd {
         }
       }
       /**
-       * <code>optional .dstore.values.StringValue user_name = 1;</code>
+       * <code>.dstore.values.StringValue user_name = 1;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.values.StringValue, io.dstore.values.StringValue.Builder, io.dstore.values.StringValueOrBuilder> 
@@ -1026,13 +1026,13 @@ public final class MiDeletedStoreUserAd {
 
       private boolean userNameNull_ ;
       /**
-       * <code>optional bool user_name_null = 1001;</code>
+       * <code>bool user_name_null = 1001;</code>
        */
       public boolean getUserNameNull() {
         return userNameNull_;
       }
       /**
-       * <code>optional bool user_name_null = 1001;</code>
+       * <code>bool user_name_null = 1001;</code>
        */
       public Builder setUserNameNull(boolean value) {
         
@@ -1041,7 +1041,7 @@ public final class MiDeletedStoreUserAd {
         return this;
       }
       /**
-       * <code>optional bool user_name_null = 1001;</code>
+       * <code>bool user_name_null = 1001;</code>
        */
       public Builder clearUserNameNull() {
         
@@ -1054,13 +1054,13 @@ public final class MiDeletedStoreUserAd {
       private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.values.BooleanValue, io.dstore.values.BooleanValue.Builder, io.dstore.values.BooleanValueOrBuilder> invalidateUserInUserInfoBuilder_;
       /**
-       * <code>optional .dstore.values.BooleanValue invalidate_user_in_user_info = 2;</code>
+       * <code>.dstore.values.BooleanValue invalidate_user_in_user_info = 2;</code>
        */
       public boolean hasInvalidateUserInUserInfo() {
         return invalidateUserInUserInfoBuilder_ != null || invalidateUserInUserInfo_ != null;
       }
       /**
-       * <code>optional .dstore.values.BooleanValue invalidate_user_in_user_info = 2;</code>
+       * <code>.dstore.values.BooleanValue invalidate_user_in_user_info = 2;</code>
        */
       public io.dstore.values.BooleanValue getInvalidateUserInUserInfo() {
         if (invalidateUserInUserInfoBuilder_ == null) {
@@ -1070,7 +1070,7 @@ public final class MiDeletedStoreUserAd {
         }
       }
       /**
-       * <code>optional .dstore.values.BooleanValue invalidate_user_in_user_info = 2;</code>
+       * <code>.dstore.values.BooleanValue invalidate_user_in_user_info = 2;</code>
        */
       public Builder setInvalidateUserInUserInfo(io.dstore.values.BooleanValue value) {
         if (invalidateUserInUserInfoBuilder_ == null) {
@@ -1086,7 +1086,7 @@ public final class MiDeletedStoreUserAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.BooleanValue invalidate_user_in_user_info = 2;</code>
+       * <code>.dstore.values.BooleanValue invalidate_user_in_user_info = 2;</code>
        */
       public Builder setInvalidateUserInUserInfo(
           io.dstore.values.BooleanValue.Builder builderForValue) {
@@ -1100,7 +1100,7 @@ public final class MiDeletedStoreUserAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.BooleanValue invalidate_user_in_user_info = 2;</code>
+       * <code>.dstore.values.BooleanValue invalidate_user_in_user_info = 2;</code>
        */
       public Builder mergeInvalidateUserInUserInfo(io.dstore.values.BooleanValue value) {
         if (invalidateUserInUserInfoBuilder_ == null) {
@@ -1118,7 +1118,7 @@ public final class MiDeletedStoreUserAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.BooleanValue invalidate_user_in_user_info = 2;</code>
+       * <code>.dstore.values.BooleanValue invalidate_user_in_user_info = 2;</code>
        */
       public Builder clearInvalidateUserInUserInfo() {
         if (invalidateUserInUserInfoBuilder_ == null) {
@@ -1132,7 +1132,7 @@ public final class MiDeletedStoreUserAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.BooleanValue invalidate_user_in_user_info = 2;</code>
+       * <code>.dstore.values.BooleanValue invalidate_user_in_user_info = 2;</code>
        */
       public io.dstore.values.BooleanValue.Builder getInvalidateUserInUserInfoBuilder() {
         
@@ -1140,7 +1140,7 @@ public final class MiDeletedStoreUserAd {
         return getInvalidateUserInUserInfoFieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .dstore.values.BooleanValue invalidate_user_in_user_info = 2;</code>
+       * <code>.dstore.values.BooleanValue invalidate_user_in_user_info = 2;</code>
        */
       public io.dstore.values.BooleanValueOrBuilder getInvalidateUserInUserInfoOrBuilder() {
         if (invalidateUserInUserInfoBuilder_ != null) {
@@ -1151,7 +1151,7 @@ public final class MiDeletedStoreUserAd {
         }
       }
       /**
-       * <code>optional .dstore.values.BooleanValue invalidate_user_in_user_info = 2;</code>
+       * <code>.dstore.values.BooleanValue invalidate_user_in_user_info = 2;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.values.BooleanValue, io.dstore.values.BooleanValue.Builder, io.dstore.values.BooleanValueOrBuilder> 
@@ -1169,13 +1169,13 @@ public final class MiDeletedStoreUserAd {
 
       private boolean invalidateUserInUserInfoNull_ ;
       /**
-       * <code>optional bool invalidate_user_in_user_info_null = 1002;</code>
+       * <code>bool invalidate_user_in_user_info_null = 1002;</code>
        */
       public boolean getInvalidateUserInUserInfoNull() {
         return invalidateUserInUserInfoNull_;
       }
       /**
-       * <code>optional bool invalidate_user_in_user_info_null = 1002;</code>
+       * <code>bool invalidate_user_in_user_info_null = 1002;</code>
        */
       public Builder setInvalidateUserInUserInfoNull(boolean value) {
         
@@ -1184,7 +1184,7 @@ public final class MiDeletedStoreUserAd {
         return this;
       }
       /**
-       * <code>optional bool invalidate_user_in_user_info_null = 1002;</code>
+       * <code>bool invalidate_user_in_user_info_null = 1002;</code>
        */
       public Builder clearInvalidateUserInUserInfoNull() {
         
@@ -1197,13 +1197,13 @@ public final class MiDeletedStoreUserAd {
       private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.values.BooleanValue, io.dstore.values.BooleanValue.Builder, io.dstore.values.BooleanValueOrBuilder> onlyDeleteUserFromThisEngineBuilder_;
       /**
-       * <code>optional .dstore.values.BooleanValue only_delete_user_from_this_engine = 3;</code>
+       * <code>.dstore.values.BooleanValue only_delete_user_from_this_engine = 3;</code>
        */
       public boolean hasOnlyDeleteUserFromThisEngine() {
         return onlyDeleteUserFromThisEngineBuilder_ != null || onlyDeleteUserFromThisEngine_ != null;
       }
       /**
-       * <code>optional .dstore.values.BooleanValue only_delete_user_from_this_engine = 3;</code>
+       * <code>.dstore.values.BooleanValue only_delete_user_from_this_engine = 3;</code>
        */
       public io.dstore.values.BooleanValue getOnlyDeleteUserFromThisEngine() {
         if (onlyDeleteUserFromThisEngineBuilder_ == null) {
@@ -1213,7 +1213,7 @@ public final class MiDeletedStoreUserAd {
         }
       }
       /**
-       * <code>optional .dstore.values.BooleanValue only_delete_user_from_this_engine = 3;</code>
+       * <code>.dstore.values.BooleanValue only_delete_user_from_this_engine = 3;</code>
        */
       public Builder setOnlyDeleteUserFromThisEngine(io.dstore.values.BooleanValue value) {
         if (onlyDeleteUserFromThisEngineBuilder_ == null) {
@@ -1229,7 +1229,7 @@ public final class MiDeletedStoreUserAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.BooleanValue only_delete_user_from_this_engine = 3;</code>
+       * <code>.dstore.values.BooleanValue only_delete_user_from_this_engine = 3;</code>
        */
       public Builder setOnlyDeleteUserFromThisEngine(
           io.dstore.values.BooleanValue.Builder builderForValue) {
@@ -1243,7 +1243,7 @@ public final class MiDeletedStoreUserAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.BooleanValue only_delete_user_from_this_engine = 3;</code>
+       * <code>.dstore.values.BooleanValue only_delete_user_from_this_engine = 3;</code>
        */
       public Builder mergeOnlyDeleteUserFromThisEngine(io.dstore.values.BooleanValue value) {
         if (onlyDeleteUserFromThisEngineBuilder_ == null) {
@@ -1261,7 +1261,7 @@ public final class MiDeletedStoreUserAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.BooleanValue only_delete_user_from_this_engine = 3;</code>
+       * <code>.dstore.values.BooleanValue only_delete_user_from_this_engine = 3;</code>
        */
       public Builder clearOnlyDeleteUserFromThisEngine() {
         if (onlyDeleteUserFromThisEngineBuilder_ == null) {
@@ -1275,7 +1275,7 @@ public final class MiDeletedStoreUserAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.BooleanValue only_delete_user_from_this_engine = 3;</code>
+       * <code>.dstore.values.BooleanValue only_delete_user_from_this_engine = 3;</code>
        */
       public io.dstore.values.BooleanValue.Builder getOnlyDeleteUserFromThisEngineBuilder() {
         
@@ -1283,7 +1283,7 @@ public final class MiDeletedStoreUserAd {
         return getOnlyDeleteUserFromThisEngineFieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .dstore.values.BooleanValue only_delete_user_from_this_engine = 3;</code>
+       * <code>.dstore.values.BooleanValue only_delete_user_from_this_engine = 3;</code>
        */
       public io.dstore.values.BooleanValueOrBuilder getOnlyDeleteUserFromThisEngineOrBuilder() {
         if (onlyDeleteUserFromThisEngineBuilder_ != null) {
@@ -1294,7 +1294,7 @@ public final class MiDeletedStoreUserAd {
         }
       }
       /**
-       * <code>optional .dstore.values.BooleanValue only_delete_user_from_this_engine = 3;</code>
+       * <code>.dstore.values.BooleanValue only_delete_user_from_this_engine = 3;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.values.BooleanValue, io.dstore.values.BooleanValue.Builder, io.dstore.values.BooleanValueOrBuilder> 
@@ -1312,13 +1312,13 @@ public final class MiDeletedStoreUserAd {
 
       private boolean onlyDeleteUserFromThisEngineNull_ ;
       /**
-       * <code>optional bool only_delete_user_from_this_engine_null = 1003;</code>
+       * <code>bool only_delete_user_from_this_engine_null = 1003;</code>
        */
       public boolean getOnlyDeleteUserFromThisEngineNull() {
         return onlyDeleteUserFromThisEngineNull_;
       }
       /**
-       * <code>optional bool only_delete_user_from_this_engine_null = 1003;</code>
+       * <code>bool only_delete_user_from_this_engine_null = 1003;</code>
        */
       public Builder setOnlyDeleteUserFromThisEngineNull(boolean value) {
         
@@ -1327,7 +1327,7 @@ public final class MiDeletedStoreUserAd {
         return this;
       }
       /**
-       * <code>optional bool only_delete_user_from_this_engine_null = 1003;</code>
+       * <code>bool only_delete_user_from_this_engine_null = 1003;</code>
        */
       public Builder clearOnlyDeleteUserFromThisEngineNull() {
         
@@ -1340,13 +1340,13 @@ public final class MiDeletedStoreUserAd {
       private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.values.BooleanValue, io.dstore.values.BooleanValue.Builder, io.dstore.values.BooleanValueOrBuilder> dropLoginWhenDBIsNotAvailableBuilder_;
       /**
-       * <code>optional .dstore.values.BooleanValue drop_login_when_d_b_is_not_available = 4;</code>
+       * <code>.dstore.values.BooleanValue drop_login_when_d_b_is_not_available = 4;</code>
        */
       public boolean hasDropLoginWhenDBIsNotAvailable() {
         return dropLoginWhenDBIsNotAvailableBuilder_ != null || dropLoginWhenDBIsNotAvailable_ != null;
       }
       /**
-       * <code>optional .dstore.values.BooleanValue drop_login_when_d_b_is_not_available = 4;</code>
+       * <code>.dstore.values.BooleanValue drop_login_when_d_b_is_not_available = 4;</code>
        */
       public io.dstore.values.BooleanValue getDropLoginWhenDBIsNotAvailable() {
         if (dropLoginWhenDBIsNotAvailableBuilder_ == null) {
@@ -1356,7 +1356,7 @@ public final class MiDeletedStoreUserAd {
         }
       }
       /**
-       * <code>optional .dstore.values.BooleanValue drop_login_when_d_b_is_not_available = 4;</code>
+       * <code>.dstore.values.BooleanValue drop_login_when_d_b_is_not_available = 4;</code>
        */
       public Builder setDropLoginWhenDBIsNotAvailable(io.dstore.values.BooleanValue value) {
         if (dropLoginWhenDBIsNotAvailableBuilder_ == null) {
@@ -1372,7 +1372,7 @@ public final class MiDeletedStoreUserAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.BooleanValue drop_login_when_d_b_is_not_available = 4;</code>
+       * <code>.dstore.values.BooleanValue drop_login_when_d_b_is_not_available = 4;</code>
        */
       public Builder setDropLoginWhenDBIsNotAvailable(
           io.dstore.values.BooleanValue.Builder builderForValue) {
@@ -1386,7 +1386,7 @@ public final class MiDeletedStoreUserAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.BooleanValue drop_login_when_d_b_is_not_available = 4;</code>
+       * <code>.dstore.values.BooleanValue drop_login_when_d_b_is_not_available = 4;</code>
        */
       public Builder mergeDropLoginWhenDBIsNotAvailable(io.dstore.values.BooleanValue value) {
         if (dropLoginWhenDBIsNotAvailableBuilder_ == null) {
@@ -1404,7 +1404,7 @@ public final class MiDeletedStoreUserAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.BooleanValue drop_login_when_d_b_is_not_available = 4;</code>
+       * <code>.dstore.values.BooleanValue drop_login_when_d_b_is_not_available = 4;</code>
        */
       public Builder clearDropLoginWhenDBIsNotAvailable() {
         if (dropLoginWhenDBIsNotAvailableBuilder_ == null) {
@@ -1418,7 +1418,7 @@ public final class MiDeletedStoreUserAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.BooleanValue drop_login_when_d_b_is_not_available = 4;</code>
+       * <code>.dstore.values.BooleanValue drop_login_when_d_b_is_not_available = 4;</code>
        */
       public io.dstore.values.BooleanValue.Builder getDropLoginWhenDBIsNotAvailableBuilder() {
         
@@ -1426,7 +1426,7 @@ public final class MiDeletedStoreUserAd {
         return getDropLoginWhenDBIsNotAvailableFieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .dstore.values.BooleanValue drop_login_when_d_b_is_not_available = 4;</code>
+       * <code>.dstore.values.BooleanValue drop_login_when_d_b_is_not_available = 4;</code>
        */
       public io.dstore.values.BooleanValueOrBuilder getDropLoginWhenDBIsNotAvailableOrBuilder() {
         if (dropLoginWhenDBIsNotAvailableBuilder_ != null) {
@@ -1437,7 +1437,7 @@ public final class MiDeletedStoreUserAd {
         }
       }
       /**
-       * <code>optional .dstore.values.BooleanValue drop_login_when_d_b_is_not_available = 4;</code>
+       * <code>.dstore.values.BooleanValue drop_login_when_d_b_is_not_available = 4;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.values.BooleanValue, io.dstore.values.BooleanValue.Builder, io.dstore.values.BooleanValueOrBuilder> 
@@ -1455,13 +1455,13 @@ public final class MiDeletedStoreUserAd {
 
       private boolean dropLoginWhenDBIsNotAvailableNull_ ;
       /**
-       * <code>optional bool drop_login_when_d_b_is_not_available_null = 1004;</code>
+       * <code>bool drop_login_when_d_b_is_not_available_null = 1004;</code>
        */
       public boolean getDropLoginWhenDBIsNotAvailableNull() {
         return dropLoginWhenDBIsNotAvailableNull_;
       }
       /**
-       * <code>optional bool drop_login_when_d_b_is_not_available_null = 1004;</code>
+       * <code>bool drop_login_when_d_b_is_not_available_null = 1004;</code>
        */
       public Builder setDropLoginWhenDBIsNotAvailableNull(boolean value) {
         
@@ -1470,7 +1470,7 @@ public final class MiDeletedStoreUserAd {
         return this;
       }
       /**
-       * <code>optional bool drop_login_when_d_b_is_not_available_null = 1004;</code>
+       * <code>bool drop_login_when_d_b_is_not_available_null = 1004;</code>
        */
       public Builder clearDropLoginWhenDBIsNotAvailableNull() {
         
@@ -1483,13 +1483,13 @@ public final class MiDeletedStoreUserAd {
       private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.values.BooleanValue, io.dstore.values.BooleanValue.Builder, io.dstore.values.BooleanValueOrBuilder> killProcessesForUserFirstBuilder_;
       /**
-       * <code>optional .dstore.values.BooleanValue kill_processes_for_user_first = 5;</code>
+       * <code>.dstore.values.BooleanValue kill_processes_for_user_first = 5;</code>
        */
       public boolean hasKillProcessesForUserFirst() {
         return killProcessesForUserFirstBuilder_ != null || killProcessesForUserFirst_ != null;
       }
       /**
-       * <code>optional .dstore.values.BooleanValue kill_processes_for_user_first = 5;</code>
+       * <code>.dstore.values.BooleanValue kill_processes_for_user_first = 5;</code>
        */
       public io.dstore.values.BooleanValue getKillProcessesForUserFirst() {
         if (killProcessesForUserFirstBuilder_ == null) {
@@ -1499,7 +1499,7 @@ public final class MiDeletedStoreUserAd {
         }
       }
       /**
-       * <code>optional .dstore.values.BooleanValue kill_processes_for_user_first = 5;</code>
+       * <code>.dstore.values.BooleanValue kill_processes_for_user_first = 5;</code>
        */
       public Builder setKillProcessesForUserFirst(io.dstore.values.BooleanValue value) {
         if (killProcessesForUserFirstBuilder_ == null) {
@@ -1515,7 +1515,7 @@ public final class MiDeletedStoreUserAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.BooleanValue kill_processes_for_user_first = 5;</code>
+       * <code>.dstore.values.BooleanValue kill_processes_for_user_first = 5;</code>
        */
       public Builder setKillProcessesForUserFirst(
           io.dstore.values.BooleanValue.Builder builderForValue) {
@@ -1529,7 +1529,7 @@ public final class MiDeletedStoreUserAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.BooleanValue kill_processes_for_user_first = 5;</code>
+       * <code>.dstore.values.BooleanValue kill_processes_for_user_first = 5;</code>
        */
       public Builder mergeKillProcessesForUserFirst(io.dstore.values.BooleanValue value) {
         if (killProcessesForUserFirstBuilder_ == null) {
@@ -1547,7 +1547,7 @@ public final class MiDeletedStoreUserAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.BooleanValue kill_processes_for_user_first = 5;</code>
+       * <code>.dstore.values.BooleanValue kill_processes_for_user_first = 5;</code>
        */
       public Builder clearKillProcessesForUserFirst() {
         if (killProcessesForUserFirstBuilder_ == null) {
@@ -1561,7 +1561,7 @@ public final class MiDeletedStoreUserAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.BooleanValue kill_processes_for_user_first = 5;</code>
+       * <code>.dstore.values.BooleanValue kill_processes_for_user_first = 5;</code>
        */
       public io.dstore.values.BooleanValue.Builder getKillProcessesForUserFirstBuilder() {
         
@@ -1569,7 +1569,7 @@ public final class MiDeletedStoreUserAd {
         return getKillProcessesForUserFirstFieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .dstore.values.BooleanValue kill_processes_for_user_first = 5;</code>
+       * <code>.dstore.values.BooleanValue kill_processes_for_user_first = 5;</code>
        */
       public io.dstore.values.BooleanValueOrBuilder getKillProcessesForUserFirstOrBuilder() {
         if (killProcessesForUserFirstBuilder_ != null) {
@@ -1580,7 +1580,7 @@ public final class MiDeletedStoreUserAd {
         }
       }
       /**
-       * <code>optional .dstore.values.BooleanValue kill_processes_for_user_first = 5;</code>
+       * <code>.dstore.values.BooleanValue kill_processes_for_user_first = 5;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.values.BooleanValue, io.dstore.values.BooleanValue.Builder, io.dstore.values.BooleanValueOrBuilder> 
@@ -1598,13 +1598,13 @@ public final class MiDeletedStoreUserAd {
 
       private boolean killProcessesForUserFirstNull_ ;
       /**
-       * <code>optional bool kill_processes_for_user_first_null = 1005;</code>
+       * <code>bool kill_processes_for_user_first_null = 1005;</code>
        */
       public boolean getKillProcessesForUserFirstNull() {
         return killProcessesForUserFirstNull_;
       }
       /**
-       * <code>optional bool kill_processes_for_user_first_null = 1005;</code>
+       * <code>bool kill_processes_for_user_first_null = 1005;</code>
        */
       public Builder setKillProcessesForUserFirstNull(boolean value) {
         
@@ -1613,7 +1613,7 @@ public final class MiDeletedStoreUserAd {
         return this;
       }
       /**
-       * <code>optional bool kill_processes_for_user_first_null = 1005;</code>
+       * <code>bool kill_processes_for_user_first_null = 1005;</code>
        */
       public Builder clearKillProcessesForUserFirstNull() {
         
@@ -1872,7 +1872,7 @@ public final class MiDeletedStoreUserAd {
         com.google.protobuf.MessageOrBuilder {
 
       /**
-       * <code>optional int32 row_id = 10000;</code>
+       * <code>int32 row_id = 10000;</code>
        */
       int getRowId();
     }
@@ -1947,7 +1947,7 @@ public final class MiDeletedStoreUserAd {
       public static final int ROW_ID_FIELD_NUMBER = 10000;
       private int rowId_;
       /**
-       * <code>optional int32 row_id = 10000;</code>
+       * <code>int32 row_id = 10000;</code>
        */
       public int getRowId() {
         return rowId_;
@@ -2006,7 +2006,7 @@ public final class MiDeletedStoreUserAd {
           return memoizedHashCode;
         }
         int hash = 41;
-        hash = (19 * hash) + getDescriptorForType().hashCode();
+        hash = (19 * hash) + getDescriptor().hashCode();
         hash = (37 * hash) + ROW_ID_FIELD_NUMBER;
         hash = (53 * hash) + getRowId();
         hash = (29 * hash) + unknownFields.hashCode();
@@ -2224,13 +2224,13 @@ public final class MiDeletedStoreUserAd {
 
         private int rowId_ ;
         /**
-         * <code>optional int32 row_id = 10000;</code>
+         * <code>int32 row_id = 10000;</code>
          */
         public int getRowId() {
           return rowId_;
         }
         /**
-         * <code>optional int32 row_id = 10000;</code>
+         * <code>int32 row_id = 10000;</code>
          */
         public Builder setRowId(int value) {
           
@@ -2239,7 +2239,7 @@ public final class MiDeletedStoreUserAd {
           return this;
         }
         /**
-         * <code>optional int32 row_id = 10000;</code>
+         * <code>int32 row_id = 10000;</code>
          */
         public Builder clearRowId() {
           
@@ -2492,7 +2492,7 @@ public final class MiDeletedStoreUserAd {
         return memoizedHashCode;
       }
       int hash = 41;
-      hash = (19 * hash) + getDescriptorForType().hashCode();
+      hash = (19 * hash) + getDescriptor().hashCode();
       if (getMetaInformationCount() > 0) {
         hash = (37 * hash) + META_INFORMATION_FIELD_NUMBER;
         hash = (53 * hash) + getMetaInformationList().hashCode();

@@ -19,56 +19,56 @@ public final class MiGetBatchJobsAd {
       com.google.protobuf.MessageOrBuilder {
 
     /**
-     * <code>optional .dstore.values.StringValue procedure_name = 1;</code>
+     * <code>.dstore.values.StringValue procedure_name = 1;</code>
      */
     boolean hasProcedureName();
     /**
-     * <code>optional .dstore.values.StringValue procedure_name = 1;</code>
+     * <code>.dstore.values.StringValue procedure_name = 1;</code>
      */
     io.dstore.values.StringValue getProcedureName();
     /**
-     * <code>optional .dstore.values.StringValue procedure_name = 1;</code>
+     * <code>.dstore.values.StringValue procedure_name = 1;</code>
      */
     io.dstore.values.StringValueOrBuilder getProcedureNameOrBuilder();
 
     /**
-     * <code>optional bool procedure_name_null = 1001;</code>
+     * <code>bool procedure_name_null = 1001;</code>
      */
     boolean getProcedureNameNull();
 
     /**
-     * <code>optional .dstore.values.IntegerValue order_by_column = 2;</code>
+     * <code>.dstore.values.IntegerValue order_by_column = 2;</code>
      */
     boolean hasOrderByColumn();
     /**
-     * <code>optional .dstore.values.IntegerValue order_by_column = 2;</code>
+     * <code>.dstore.values.IntegerValue order_by_column = 2;</code>
      */
     io.dstore.values.IntegerValue getOrderByColumn();
     /**
-     * <code>optional .dstore.values.IntegerValue order_by_column = 2;</code>
+     * <code>.dstore.values.IntegerValue order_by_column = 2;</code>
      */
     io.dstore.values.IntegerValueOrBuilder getOrderByColumnOrBuilder();
 
     /**
-     * <code>optional bool order_by_column_null = 1002;</code>
+     * <code>bool order_by_column_null = 1002;</code>
      */
     boolean getOrderByColumnNull();
 
     /**
-     * <code>optional .dstore.values.BooleanValue order_desc = 3;</code>
+     * <code>.dstore.values.BooleanValue order_desc = 3;</code>
      */
     boolean hasOrderDesc();
     /**
-     * <code>optional .dstore.values.BooleanValue order_desc = 3;</code>
+     * <code>.dstore.values.BooleanValue order_desc = 3;</code>
      */
     io.dstore.values.BooleanValue getOrderDesc();
     /**
-     * <code>optional .dstore.values.BooleanValue order_desc = 3;</code>
+     * <code>.dstore.values.BooleanValue order_desc = 3;</code>
      */
     io.dstore.values.BooleanValueOrBuilder getOrderDescOrBuilder();
 
     /**
-     * <code>optional bool order_desc_null = 1003;</code>
+     * <code>bool order_desc_null = 1003;</code>
      */
     boolean getOrderDescNull();
   }
@@ -194,19 +194,19 @@ public final class MiGetBatchJobsAd {
     public static final int PROCEDURE_NAME_FIELD_NUMBER = 1;
     private io.dstore.values.StringValue procedureName_;
     /**
-     * <code>optional .dstore.values.StringValue procedure_name = 1;</code>
+     * <code>.dstore.values.StringValue procedure_name = 1;</code>
      */
     public boolean hasProcedureName() {
       return procedureName_ != null;
     }
     /**
-     * <code>optional .dstore.values.StringValue procedure_name = 1;</code>
+     * <code>.dstore.values.StringValue procedure_name = 1;</code>
      */
     public io.dstore.values.StringValue getProcedureName() {
       return procedureName_ == null ? io.dstore.values.StringValue.getDefaultInstance() : procedureName_;
     }
     /**
-     * <code>optional .dstore.values.StringValue procedure_name = 1;</code>
+     * <code>.dstore.values.StringValue procedure_name = 1;</code>
      */
     public io.dstore.values.StringValueOrBuilder getProcedureNameOrBuilder() {
       return getProcedureName();
@@ -215,7 +215,7 @@ public final class MiGetBatchJobsAd {
     public static final int PROCEDURE_NAME_NULL_FIELD_NUMBER = 1001;
     private boolean procedureNameNull_;
     /**
-     * <code>optional bool procedure_name_null = 1001;</code>
+     * <code>bool procedure_name_null = 1001;</code>
      */
     public boolean getProcedureNameNull() {
       return procedureNameNull_;
@@ -224,19 +224,19 @@ public final class MiGetBatchJobsAd {
     public static final int ORDER_BY_COLUMN_FIELD_NUMBER = 2;
     private io.dstore.values.IntegerValue orderByColumn_;
     /**
-     * <code>optional .dstore.values.IntegerValue order_by_column = 2;</code>
+     * <code>.dstore.values.IntegerValue order_by_column = 2;</code>
      */
     public boolean hasOrderByColumn() {
       return orderByColumn_ != null;
     }
     /**
-     * <code>optional .dstore.values.IntegerValue order_by_column = 2;</code>
+     * <code>.dstore.values.IntegerValue order_by_column = 2;</code>
      */
     public io.dstore.values.IntegerValue getOrderByColumn() {
       return orderByColumn_ == null ? io.dstore.values.IntegerValue.getDefaultInstance() : orderByColumn_;
     }
     /**
-     * <code>optional .dstore.values.IntegerValue order_by_column = 2;</code>
+     * <code>.dstore.values.IntegerValue order_by_column = 2;</code>
      */
     public io.dstore.values.IntegerValueOrBuilder getOrderByColumnOrBuilder() {
       return getOrderByColumn();
@@ -245,7 +245,7 @@ public final class MiGetBatchJobsAd {
     public static final int ORDER_BY_COLUMN_NULL_FIELD_NUMBER = 1002;
     private boolean orderByColumnNull_;
     /**
-     * <code>optional bool order_by_column_null = 1002;</code>
+     * <code>bool order_by_column_null = 1002;</code>
      */
     public boolean getOrderByColumnNull() {
       return orderByColumnNull_;
@@ -254,19 +254,19 @@ public final class MiGetBatchJobsAd {
     public static final int ORDER_DESC_FIELD_NUMBER = 3;
     private io.dstore.values.BooleanValue orderDesc_;
     /**
-     * <code>optional .dstore.values.BooleanValue order_desc = 3;</code>
+     * <code>.dstore.values.BooleanValue order_desc = 3;</code>
      */
     public boolean hasOrderDesc() {
       return orderDesc_ != null;
     }
     /**
-     * <code>optional .dstore.values.BooleanValue order_desc = 3;</code>
+     * <code>.dstore.values.BooleanValue order_desc = 3;</code>
      */
     public io.dstore.values.BooleanValue getOrderDesc() {
       return orderDesc_ == null ? io.dstore.values.BooleanValue.getDefaultInstance() : orderDesc_;
     }
     /**
-     * <code>optional .dstore.values.BooleanValue order_desc = 3;</code>
+     * <code>.dstore.values.BooleanValue order_desc = 3;</code>
      */
     public io.dstore.values.BooleanValueOrBuilder getOrderDescOrBuilder() {
       return getOrderDesc();
@@ -275,7 +275,7 @@ public final class MiGetBatchJobsAd {
     public static final int ORDER_DESC_NULL_FIELD_NUMBER = 1003;
     private boolean orderDescNull_;
     /**
-     * <code>optional bool order_desc_null = 1003;</code>
+     * <code>bool order_desc_null = 1003;</code>
      */
     public boolean getOrderDescNull() {
       return orderDescNull_;
@@ -388,7 +388,7 @@ public final class MiGetBatchJobsAd {
         return memoizedHashCode;
       }
       int hash = 41;
-      hash = (19 * hash) + getDescriptorForType().hashCode();
+      hash = (19 * hash) + getDescriptor().hashCode();
       if (hasProcedureName()) {
         hash = (37 * hash) + PROCEDURE_NAME_FIELD_NUMBER;
         hash = (53 * hash) + getProcedureName().hashCode();
@@ -681,13 +681,13 @@ public final class MiGetBatchJobsAd {
       private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.values.StringValue, io.dstore.values.StringValue.Builder, io.dstore.values.StringValueOrBuilder> procedureNameBuilder_;
       /**
-       * <code>optional .dstore.values.StringValue procedure_name = 1;</code>
+       * <code>.dstore.values.StringValue procedure_name = 1;</code>
        */
       public boolean hasProcedureName() {
         return procedureNameBuilder_ != null || procedureName_ != null;
       }
       /**
-       * <code>optional .dstore.values.StringValue procedure_name = 1;</code>
+       * <code>.dstore.values.StringValue procedure_name = 1;</code>
        */
       public io.dstore.values.StringValue getProcedureName() {
         if (procedureNameBuilder_ == null) {
@@ -697,7 +697,7 @@ public final class MiGetBatchJobsAd {
         }
       }
       /**
-       * <code>optional .dstore.values.StringValue procedure_name = 1;</code>
+       * <code>.dstore.values.StringValue procedure_name = 1;</code>
        */
       public Builder setProcedureName(io.dstore.values.StringValue value) {
         if (procedureNameBuilder_ == null) {
@@ -713,7 +713,7 @@ public final class MiGetBatchJobsAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.StringValue procedure_name = 1;</code>
+       * <code>.dstore.values.StringValue procedure_name = 1;</code>
        */
       public Builder setProcedureName(
           io.dstore.values.StringValue.Builder builderForValue) {
@@ -727,7 +727,7 @@ public final class MiGetBatchJobsAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.StringValue procedure_name = 1;</code>
+       * <code>.dstore.values.StringValue procedure_name = 1;</code>
        */
       public Builder mergeProcedureName(io.dstore.values.StringValue value) {
         if (procedureNameBuilder_ == null) {
@@ -745,7 +745,7 @@ public final class MiGetBatchJobsAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.StringValue procedure_name = 1;</code>
+       * <code>.dstore.values.StringValue procedure_name = 1;</code>
        */
       public Builder clearProcedureName() {
         if (procedureNameBuilder_ == null) {
@@ -759,7 +759,7 @@ public final class MiGetBatchJobsAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.StringValue procedure_name = 1;</code>
+       * <code>.dstore.values.StringValue procedure_name = 1;</code>
        */
       public io.dstore.values.StringValue.Builder getProcedureNameBuilder() {
         
@@ -767,7 +767,7 @@ public final class MiGetBatchJobsAd {
         return getProcedureNameFieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .dstore.values.StringValue procedure_name = 1;</code>
+       * <code>.dstore.values.StringValue procedure_name = 1;</code>
        */
       public io.dstore.values.StringValueOrBuilder getProcedureNameOrBuilder() {
         if (procedureNameBuilder_ != null) {
@@ -778,7 +778,7 @@ public final class MiGetBatchJobsAd {
         }
       }
       /**
-       * <code>optional .dstore.values.StringValue procedure_name = 1;</code>
+       * <code>.dstore.values.StringValue procedure_name = 1;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.values.StringValue, io.dstore.values.StringValue.Builder, io.dstore.values.StringValueOrBuilder> 
@@ -796,13 +796,13 @@ public final class MiGetBatchJobsAd {
 
       private boolean procedureNameNull_ ;
       /**
-       * <code>optional bool procedure_name_null = 1001;</code>
+       * <code>bool procedure_name_null = 1001;</code>
        */
       public boolean getProcedureNameNull() {
         return procedureNameNull_;
       }
       /**
-       * <code>optional bool procedure_name_null = 1001;</code>
+       * <code>bool procedure_name_null = 1001;</code>
        */
       public Builder setProcedureNameNull(boolean value) {
         
@@ -811,7 +811,7 @@ public final class MiGetBatchJobsAd {
         return this;
       }
       /**
-       * <code>optional bool procedure_name_null = 1001;</code>
+       * <code>bool procedure_name_null = 1001;</code>
        */
       public Builder clearProcedureNameNull() {
         
@@ -824,13 +824,13 @@ public final class MiGetBatchJobsAd {
       private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> orderByColumnBuilder_;
       /**
-       * <code>optional .dstore.values.IntegerValue order_by_column = 2;</code>
+       * <code>.dstore.values.IntegerValue order_by_column = 2;</code>
        */
       public boolean hasOrderByColumn() {
         return orderByColumnBuilder_ != null || orderByColumn_ != null;
       }
       /**
-       * <code>optional .dstore.values.IntegerValue order_by_column = 2;</code>
+       * <code>.dstore.values.IntegerValue order_by_column = 2;</code>
        */
       public io.dstore.values.IntegerValue getOrderByColumn() {
         if (orderByColumnBuilder_ == null) {
@@ -840,7 +840,7 @@ public final class MiGetBatchJobsAd {
         }
       }
       /**
-       * <code>optional .dstore.values.IntegerValue order_by_column = 2;</code>
+       * <code>.dstore.values.IntegerValue order_by_column = 2;</code>
        */
       public Builder setOrderByColumn(io.dstore.values.IntegerValue value) {
         if (orderByColumnBuilder_ == null) {
@@ -856,7 +856,7 @@ public final class MiGetBatchJobsAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.IntegerValue order_by_column = 2;</code>
+       * <code>.dstore.values.IntegerValue order_by_column = 2;</code>
        */
       public Builder setOrderByColumn(
           io.dstore.values.IntegerValue.Builder builderForValue) {
@@ -870,7 +870,7 @@ public final class MiGetBatchJobsAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.IntegerValue order_by_column = 2;</code>
+       * <code>.dstore.values.IntegerValue order_by_column = 2;</code>
        */
       public Builder mergeOrderByColumn(io.dstore.values.IntegerValue value) {
         if (orderByColumnBuilder_ == null) {
@@ -888,7 +888,7 @@ public final class MiGetBatchJobsAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.IntegerValue order_by_column = 2;</code>
+       * <code>.dstore.values.IntegerValue order_by_column = 2;</code>
        */
       public Builder clearOrderByColumn() {
         if (orderByColumnBuilder_ == null) {
@@ -902,7 +902,7 @@ public final class MiGetBatchJobsAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.IntegerValue order_by_column = 2;</code>
+       * <code>.dstore.values.IntegerValue order_by_column = 2;</code>
        */
       public io.dstore.values.IntegerValue.Builder getOrderByColumnBuilder() {
         
@@ -910,7 +910,7 @@ public final class MiGetBatchJobsAd {
         return getOrderByColumnFieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .dstore.values.IntegerValue order_by_column = 2;</code>
+       * <code>.dstore.values.IntegerValue order_by_column = 2;</code>
        */
       public io.dstore.values.IntegerValueOrBuilder getOrderByColumnOrBuilder() {
         if (orderByColumnBuilder_ != null) {
@@ -921,7 +921,7 @@ public final class MiGetBatchJobsAd {
         }
       }
       /**
-       * <code>optional .dstore.values.IntegerValue order_by_column = 2;</code>
+       * <code>.dstore.values.IntegerValue order_by_column = 2;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> 
@@ -939,13 +939,13 @@ public final class MiGetBatchJobsAd {
 
       private boolean orderByColumnNull_ ;
       /**
-       * <code>optional bool order_by_column_null = 1002;</code>
+       * <code>bool order_by_column_null = 1002;</code>
        */
       public boolean getOrderByColumnNull() {
         return orderByColumnNull_;
       }
       /**
-       * <code>optional bool order_by_column_null = 1002;</code>
+       * <code>bool order_by_column_null = 1002;</code>
        */
       public Builder setOrderByColumnNull(boolean value) {
         
@@ -954,7 +954,7 @@ public final class MiGetBatchJobsAd {
         return this;
       }
       /**
-       * <code>optional bool order_by_column_null = 1002;</code>
+       * <code>bool order_by_column_null = 1002;</code>
        */
       public Builder clearOrderByColumnNull() {
         
@@ -967,13 +967,13 @@ public final class MiGetBatchJobsAd {
       private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.values.BooleanValue, io.dstore.values.BooleanValue.Builder, io.dstore.values.BooleanValueOrBuilder> orderDescBuilder_;
       /**
-       * <code>optional .dstore.values.BooleanValue order_desc = 3;</code>
+       * <code>.dstore.values.BooleanValue order_desc = 3;</code>
        */
       public boolean hasOrderDesc() {
         return orderDescBuilder_ != null || orderDesc_ != null;
       }
       /**
-       * <code>optional .dstore.values.BooleanValue order_desc = 3;</code>
+       * <code>.dstore.values.BooleanValue order_desc = 3;</code>
        */
       public io.dstore.values.BooleanValue getOrderDesc() {
         if (orderDescBuilder_ == null) {
@@ -983,7 +983,7 @@ public final class MiGetBatchJobsAd {
         }
       }
       /**
-       * <code>optional .dstore.values.BooleanValue order_desc = 3;</code>
+       * <code>.dstore.values.BooleanValue order_desc = 3;</code>
        */
       public Builder setOrderDesc(io.dstore.values.BooleanValue value) {
         if (orderDescBuilder_ == null) {
@@ -999,7 +999,7 @@ public final class MiGetBatchJobsAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.BooleanValue order_desc = 3;</code>
+       * <code>.dstore.values.BooleanValue order_desc = 3;</code>
        */
       public Builder setOrderDesc(
           io.dstore.values.BooleanValue.Builder builderForValue) {
@@ -1013,7 +1013,7 @@ public final class MiGetBatchJobsAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.BooleanValue order_desc = 3;</code>
+       * <code>.dstore.values.BooleanValue order_desc = 3;</code>
        */
       public Builder mergeOrderDesc(io.dstore.values.BooleanValue value) {
         if (orderDescBuilder_ == null) {
@@ -1031,7 +1031,7 @@ public final class MiGetBatchJobsAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.BooleanValue order_desc = 3;</code>
+       * <code>.dstore.values.BooleanValue order_desc = 3;</code>
        */
       public Builder clearOrderDesc() {
         if (orderDescBuilder_ == null) {
@@ -1045,7 +1045,7 @@ public final class MiGetBatchJobsAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.BooleanValue order_desc = 3;</code>
+       * <code>.dstore.values.BooleanValue order_desc = 3;</code>
        */
       public io.dstore.values.BooleanValue.Builder getOrderDescBuilder() {
         
@@ -1053,7 +1053,7 @@ public final class MiGetBatchJobsAd {
         return getOrderDescFieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .dstore.values.BooleanValue order_desc = 3;</code>
+       * <code>.dstore.values.BooleanValue order_desc = 3;</code>
        */
       public io.dstore.values.BooleanValueOrBuilder getOrderDescOrBuilder() {
         if (orderDescBuilder_ != null) {
@@ -1064,7 +1064,7 @@ public final class MiGetBatchJobsAd {
         }
       }
       /**
-       * <code>optional .dstore.values.BooleanValue order_desc = 3;</code>
+       * <code>.dstore.values.BooleanValue order_desc = 3;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.values.BooleanValue, io.dstore.values.BooleanValue.Builder, io.dstore.values.BooleanValueOrBuilder> 
@@ -1082,13 +1082,13 @@ public final class MiGetBatchJobsAd {
 
       private boolean orderDescNull_ ;
       /**
-       * <code>optional bool order_desc_null = 1003;</code>
+       * <code>bool order_desc_null = 1003;</code>
        */
       public boolean getOrderDescNull() {
         return orderDescNull_;
       }
       /**
-       * <code>optional bool order_desc_null = 1003;</code>
+       * <code>bool order_desc_null = 1003;</code>
        */
       public Builder setOrderDescNull(boolean value) {
         
@@ -1097,7 +1097,7 @@ public final class MiGetBatchJobsAd {
         return this;
       }
       /**
-       * <code>optional bool order_desc_null = 1003;</code>
+       * <code>bool order_desc_null = 1003;</code>
        */
       public Builder clearOrderDescNull() {
         
@@ -1356,7 +1356,7 @@ public final class MiGetBatchJobsAd {
         com.google.protobuf.MessageOrBuilder {
 
       /**
-       * <code>optional int32 row_id = 10000;</code>
+       * <code>int32 row_id = 10000;</code>
        */
       int getRowId();
 
@@ -1365,7 +1365,7 @@ public final class MiGetBatchJobsAd {
        * Status der letzen Ausführung, mögliche Werte:"0" : "Success" (Prozedur wurde erfolgreich ausgeführt, es gab keine Fehler)"100" : "Running" (Die Prozedur wird momentan ausgeführt - siehe auch "HINWEIS" in der Beschreibung !)Sonst : Ein Error-Code
        * </pre>
        *
-       * <code>optional .dstore.values.IntegerValue status = 10001;</code>
+       * <code>.dstore.values.IntegerValue status = 10001;</code>
        */
       boolean hasStatus();
       /**
@@ -1373,7 +1373,7 @@ public final class MiGetBatchJobsAd {
        * Status der letzen Ausführung, mögliche Werte:"0" : "Success" (Prozedur wurde erfolgreich ausgeführt, es gab keine Fehler)"100" : "Running" (Die Prozedur wird momentan ausgeführt - siehe auch "HINWEIS" in der Beschreibung !)Sonst : Ein Error-Code
        * </pre>
        *
-       * <code>optional .dstore.values.IntegerValue status = 10001;</code>
+       * <code>.dstore.values.IntegerValue status = 10001;</code>
        */
       io.dstore.values.IntegerValue getStatus();
       /**
@@ -1381,7 +1381,7 @@ public final class MiGetBatchJobsAd {
        * Status der letzen Ausführung, mögliche Werte:"0" : "Success" (Prozedur wurde erfolgreich ausgeführt, es gab keine Fehler)"100" : "Running" (Die Prozedur wird momentan ausgeführt - siehe auch "HINWEIS" in der Beschreibung !)Sonst : Ein Error-Code
        * </pre>
        *
-       * <code>optional .dstore.values.IntegerValue status = 10001;</code>
+       * <code>.dstore.values.IntegerValue status = 10001;</code>
        */
       io.dstore.values.IntegerValueOrBuilder getStatusOrBuilder();
 
@@ -1390,7 +1390,7 @@ public final class MiGetBatchJobsAd {
        * ID einer Prozedur
        * </pre>
        *
-       * <code>optional .dstore.values.IntegerValue procedure_id = 10002;</code>
+       * <code>.dstore.values.IntegerValue procedure_id = 10002;</code>
        */
       boolean hasProcedureId();
       /**
@@ -1398,7 +1398,7 @@ public final class MiGetBatchJobsAd {
        * ID einer Prozedur
        * </pre>
        *
-       * <code>optional .dstore.values.IntegerValue procedure_id = 10002;</code>
+       * <code>.dstore.values.IntegerValue procedure_id = 10002;</code>
        */
       io.dstore.values.IntegerValue getProcedureId();
       /**
@@ -1406,7 +1406,7 @@ public final class MiGetBatchJobsAd {
        * ID einer Prozedur
        * </pre>
        *
-       * <code>optional .dstore.values.IntegerValue procedure_id = 10002;</code>
+       * <code>.dstore.values.IntegerValue procedure_id = 10002;</code>
        */
       io.dstore.values.IntegerValueOrBuilder getProcedureIdOrBuilder();
 
@@ -1415,7 +1415,7 @@ public final class MiGetBatchJobsAd {
        * Name eines dStore-Benutzers (aus "UserInfo", siehe "mi_GetUserInfo_Ad"), der die Prozedur "ProcedureID" zuletzt aufgerufen hat
        * </pre>
        *
-       * <code>optional .dstore.values.StringValue last_call_from_user = 10003;</code>
+       * <code>.dstore.values.StringValue last_call_from_user = 10003;</code>
        */
       boolean hasLastCallFromUser();
       /**
@@ -1423,7 +1423,7 @@ public final class MiGetBatchJobsAd {
        * Name eines dStore-Benutzers (aus "UserInfo", siehe "mi_GetUserInfo_Ad"), der die Prozedur "ProcedureID" zuletzt aufgerufen hat
        * </pre>
        *
-       * <code>optional .dstore.values.StringValue last_call_from_user = 10003;</code>
+       * <code>.dstore.values.StringValue last_call_from_user = 10003;</code>
        */
       io.dstore.values.StringValue getLastCallFromUser();
       /**
@@ -1431,7 +1431,7 @@ public final class MiGetBatchJobsAd {
        * Name eines dStore-Benutzers (aus "UserInfo", siehe "mi_GetUserInfo_Ad"), der die Prozedur "ProcedureID" zuletzt aufgerufen hat
        * </pre>
        *
-       * <code>optional .dstore.values.StringValue last_call_from_user = 10003;</code>
+       * <code>.dstore.values.StringValue last_call_from_user = 10003;</code>
        */
       io.dstore.values.StringValueOrBuilder getLastCallFromUserOrBuilder();
 
@@ -1440,7 +1440,7 @@ public final class MiGetBatchJobsAd {
        * Name der Prozedur "ProcedureID"
        * </pre>
        *
-       * <code>optional .dstore.values.StringValue procedure_name = 10004;</code>
+       * <code>.dstore.values.StringValue procedure_name = 10004;</code>
        */
       boolean hasProcedureName();
       /**
@@ -1448,7 +1448,7 @@ public final class MiGetBatchJobsAd {
        * Name der Prozedur "ProcedureID"
        * </pre>
        *
-       * <code>optional .dstore.values.StringValue procedure_name = 10004;</code>
+       * <code>.dstore.values.StringValue procedure_name = 10004;</code>
        */
       io.dstore.values.StringValue getProcedureName();
       /**
@@ -1456,7 +1456,7 @@ public final class MiGetBatchJobsAd {
        * Name der Prozedur "ProcedureID"
        * </pre>
        *
-       * <code>optional .dstore.values.StringValue procedure_name = 10004;</code>
+       * <code>.dstore.values.StringValue procedure_name = 10004;</code>
        */
       io.dstore.values.StringValueOrBuilder getProcedureNameOrBuilder();
 
@@ -1465,7 +1465,7 @@ public final class MiGetBatchJobsAd {
        * Zeitpunkt des letzten Aufrufs (Format : "15.04.2000 12:33:28")
        * </pre>
        *
-       * <code>optional .dstore.values.StringValue last_run = 10005;</code>
+       * <code>.dstore.values.StringValue last_run = 10005;</code>
        */
       boolean hasLastRun();
       /**
@@ -1473,7 +1473,7 @@ public final class MiGetBatchJobsAd {
        * Zeitpunkt des letzten Aufrufs (Format : "15.04.2000 12:33:28")
        * </pre>
        *
-       * <code>optional .dstore.values.StringValue last_run = 10005;</code>
+       * <code>.dstore.values.StringValue last_run = 10005;</code>
        */
       io.dstore.values.StringValue getLastRun();
       /**
@@ -1481,7 +1481,7 @@ public final class MiGetBatchJobsAd {
        * Zeitpunkt des letzten Aufrufs (Format : "15.04.2000 12:33:28")
        * </pre>
        *
-       * <code>optional .dstore.values.StringValue last_run = 10005;</code>
+       * <code>.dstore.values.StringValue last_run = 10005;</code>
        */
       io.dstore.values.StringValueOrBuilder getLastRunOrBuilder();
     }
@@ -1621,7 +1621,7 @@ public final class MiGetBatchJobsAd {
       public static final int ROW_ID_FIELD_NUMBER = 10000;
       private int rowId_;
       /**
-       * <code>optional int32 row_id = 10000;</code>
+       * <code>int32 row_id = 10000;</code>
        */
       public int getRowId() {
         return rowId_;
@@ -1634,7 +1634,7 @@ public final class MiGetBatchJobsAd {
        * Status der letzen Ausführung, mögliche Werte:"0" : "Success" (Prozedur wurde erfolgreich ausgeführt, es gab keine Fehler)"100" : "Running" (Die Prozedur wird momentan ausgeführt - siehe auch "HINWEIS" in der Beschreibung !)Sonst : Ein Error-Code
        * </pre>
        *
-       * <code>optional .dstore.values.IntegerValue status = 10001;</code>
+       * <code>.dstore.values.IntegerValue status = 10001;</code>
        */
       public boolean hasStatus() {
         return status_ != null;
@@ -1644,7 +1644,7 @@ public final class MiGetBatchJobsAd {
        * Status der letzen Ausführung, mögliche Werte:"0" : "Success" (Prozedur wurde erfolgreich ausgeführt, es gab keine Fehler)"100" : "Running" (Die Prozedur wird momentan ausgeführt - siehe auch "HINWEIS" in der Beschreibung !)Sonst : Ein Error-Code
        * </pre>
        *
-       * <code>optional .dstore.values.IntegerValue status = 10001;</code>
+       * <code>.dstore.values.IntegerValue status = 10001;</code>
        */
       public io.dstore.values.IntegerValue getStatus() {
         return status_ == null ? io.dstore.values.IntegerValue.getDefaultInstance() : status_;
@@ -1654,7 +1654,7 @@ public final class MiGetBatchJobsAd {
        * Status der letzen Ausführung, mögliche Werte:"0" : "Success" (Prozedur wurde erfolgreich ausgeführt, es gab keine Fehler)"100" : "Running" (Die Prozedur wird momentan ausgeführt - siehe auch "HINWEIS" in der Beschreibung !)Sonst : Ein Error-Code
        * </pre>
        *
-       * <code>optional .dstore.values.IntegerValue status = 10001;</code>
+       * <code>.dstore.values.IntegerValue status = 10001;</code>
        */
       public io.dstore.values.IntegerValueOrBuilder getStatusOrBuilder() {
         return getStatus();
@@ -1667,7 +1667,7 @@ public final class MiGetBatchJobsAd {
        * ID einer Prozedur
        * </pre>
        *
-       * <code>optional .dstore.values.IntegerValue procedure_id = 10002;</code>
+       * <code>.dstore.values.IntegerValue procedure_id = 10002;</code>
        */
       public boolean hasProcedureId() {
         return procedureId_ != null;
@@ -1677,7 +1677,7 @@ public final class MiGetBatchJobsAd {
        * ID einer Prozedur
        * </pre>
        *
-       * <code>optional .dstore.values.IntegerValue procedure_id = 10002;</code>
+       * <code>.dstore.values.IntegerValue procedure_id = 10002;</code>
        */
       public io.dstore.values.IntegerValue getProcedureId() {
         return procedureId_ == null ? io.dstore.values.IntegerValue.getDefaultInstance() : procedureId_;
@@ -1687,7 +1687,7 @@ public final class MiGetBatchJobsAd {
        * ID einer Prozedur
        * </pre>
        *
-       * <code>optional .dstore.values.IntegerValue procedure_id = 10002;</code>
+       * <code>.dstore.values.IntegerValue procedure_id = 10002;</code>
        */
       public io.dstore.values.IntegerValueOrBuilder getProcedureIdOrBuilder() {
         return getProcedureId();
@@ -1700,7 +1700,7 @@ public final class MiGetBatchJobsAd {
        * Name eines dStore-Benutzers (aus "UserInfo", siehe "mi_GetUserInfo_Ad"), der die Prozedur "ProcedureID" zuletzt aufgerufen hat
        * </pre>
        *
-       * <code>optional .dstore.values.StringValue last_call_from_user = 10003;</code>
+       * <code>.dstore.values.StringValue last_call_from_user = 10003;</code>
        */
       public boolean hasLastCallFromUser() {
         return lastCallFromUser_ != null;
@@ -1710,7 +1710,7 @@ public final class MiGetBatchJobsAd {
        * Name eines dStore-Benutzers (aus "UserInfo", siehe "mi_GetUserInfo_Ad"), der die Prozedur "ProcedureID" zuletzt aufgerufen hat
        * </pre>
        *
-       * <code>optional .dstore.values.StringValue last_call_from_user = 10003;</code>
+       * <code>.dstore.values.StringValue last_call_from_user = 10003;</code>
        */
       public io.dstore.values.StringValue getLastCallFromUser() {
         return lastCallFromUser_ == null ? io.dstore.values.StringValue.getDefaultInstance() : lastCallFromUser_;
@@ -1720,7 +1720,7 @@ public final class MiGetBatchJobsAd {
        * Name eines dStore-Benutzers (aus "UserInfo", siehe "mi_GetUserInfo_Ad"), der die Prozedur "ProcedureID" zuletzt aufgerufen hat
        * </pre>
        *
-       * <code>optional .dstore.values.StringValue last_call_from_user = 10003;</code>
+       * <code>.dstore.values.StringValue last_call_from_user = 10003;</code>
        */
       public io.dstore.values.StringValueOrBuilder getLastCallFromUserOrBuilder() {
         return getLastCallFromUser();
@@ -1733,7 +1733,7 @@ public final class MiGetBatchJobsAd {
        * Name der Prozedur "ProcedureID"
        * </pre>
        *
-       * <code>optional .dstore.values.StringValue procedure_name = 10004;</code>
+       * <code>.dstore.values.StringValue procedure_name = 10004;</code>
        */
       public boolean hasProcedureName() {
         return procedureName_ != null;
@@ -1743,7 +1743,7 @@ public final class MiGetBatchJobsAd {
        * Name der Prozedur "ProcedureID"
        * </pre>
        *
-       * <code>optional .dstore.values.StringValue procedure_name = 10004;</code>
+       * <code>.dstore.values.StringValue procedure_name = 10004;</code>
        */
       public io.dstore.values.StringValue getProcedureName() {
         return procedureName_ == null ? io.dstore.values.StringValue.getDefaultInstance() : procedureName_;
@@ -1753,7 +1753,7 @@ public final class MiGetBatchJobsAd {
        * Name der Prozedur "ProcedureID"
        * </pre>
        *
-       * <code>optional .dstore.values.StringValue procedure_name = 10004;</code>
+       * <code>.dstore.values.StringValue procedure_name = 10004;</code>
        */
       public io.dstore.values.StringValueOrBuilder getProcedureNameOrBuilder() {
         return getProcedureName();
@@ -1766,7 +1766,7 @@ public final class MiGetBatchJobsAd {
        * Zeitpunkt des letzten Aufrufs (Format : "15.04.2000 12:33:28")
        * </pre>
        *
-       * <code>optional .dstore.values.StringValue last_run = 10005;</code>
+       * <code>.dstore.values.StringValue last_run = 10005;</code>
        */
       public boolean hasLastRun() {
         return lastRun_ != null;
@@ -1776,7 +1776,7 @@ public final class MiGetBatchJobsAd {
        * Zeitpunkt des letzten Aufrufs (Format : "15.04.2000 12:33:28")
        * </pre>
        *
-       * <code>optional .dstore.values.StringValue last_run = 10005;</code>
+       * <code>.dstore.values.StringValue last_run = 10005;</code>
        */
       public io.dstore.values.StringValue getLastRun() {
         return lastRun_ == null ? io.dstore.values.StringValue.getDefaultInstance() : lastRun_;
@@ -1786,7 +1786,7 @@ public final class MiGetBatchJobsAd {
        * Zeitpunkt des letzten Aufrufs (Format : "15.04.2000 12:33:28")
        * </pre>
        *
-       * <code>optional .dstore.values.StringValue last_run = 10005;</code>
+       * <code>.dstore.values.StringValue last_run = 10005;</code>
        */
       public io.dstore.values.StringValueOrBuilder getLastRunOrBuilder() {
         return getLastRun();
@@ -1905,7 +1905,7 @@ public final class MiGetBatchJobsAd {
           return memoizedHashCode;
         }
         int hash = 41;
-        hash = (19 * hash) + getDescriptorForType().hashCode();
+        hash = (19 * hash) + getDescriptor().hashCode();
         hash = (37 * hash) + ROW_ID_FIELD_NUMBER;
         hash = (53 * hash) + getRowId();
         if (hasStatus()) {
@@ -2213,13 +2213,13 @@ public final class MiGetBatchJobsAd {
 
         private int rowId_ ;
         /**
-         * <code>optional int32 row_id = 10000;</code>
+         * <code>int32 row_id = 10000;</code>
          */
         public int getRowId() {
           return rowId_;
         }
         /**
-         * <code>optional int32 row_id = 10000;</code>
+         * <code>int32 row_id = 10000;</code>
          */
         public Builder setRowId(int value) {
           
@@ -2228,7 +2228,7 @@ public final class MiGetBatchJobsAd {
           return this;
         }
         /**
-         * <code>optional int32 row_id = 10000;</code>
+         * <code>int32 row_id = 10000;</code>
          */
         public Builder clearRowId() {
           
@@ -2245,7 +2245,7 @@ public final class MiGetBatchJobsAd {
          * Status der letzen Ausführung, mögliche Werte:"0" : "Success" (Prozedur wurde erfolgreich ausgeführt, es gab keine Fehler)"100" : "Running" (Die Prozedur wird momentan ausgeführt - siehe auch "HINWEIS" in der Beschreibung !)Sonst : Ein Error-Code
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue status = 10001;</code>
+         * <code>.dstore.values.IntegerValue status = 10001;</code>
          */
         public boolean hasStatus() {
           return statusBuilder_ != null || status_ != null;
@@ -2255,7 +2255,7 @@ public final class MiGetBatchJobsAd {
          * Status der letzen Ausführung, mögliche Werte:"0" : "Success" (Prozedur wurde erfolgreich ausgeführt, es gab keine Fehler)"100" : "Running" (Die Prozedur wird momentan ausgeführt - siehe auch "HINWEIS" in der Beschreibung !)Sonst : Ein Error-Code
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue status = 10001;</code>
+         * <code>.dstore.values.IntegerValue status = 10001;</code>
          */
         public io.dstore.values.IntegerValue getStatus() {
           if (statusBuilder_ == null) {
@@ -2269,7 +2269,7 @@ public final class MiGetBatchJobsAd {
          * Status der letzen Ausführung, mögliche Werte:"0" : "Success" (Prozedur wurde erfolgreich ausgeführt, es gab keine Fehler)"100" : "Running" (Die Prozedur wird momentan ausgeführt - siehe auch "HINWEIS" in der Beschreibung !)Sonst : Ein Error-Code
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue status = 10001;</code>
+         * <code>.dstore.values.IntegerValue status = 10001;</code>
          */
         public Builder setStatus(io.dstore.values.IntegerValue value) {
           if (statusBuilder_ == null) {
@@ -2289,7 +2289,7 @@ public final class MiGetBatchJobsAd {
          * Status der letzen Ausführung, mögliche Werte:"0" : "Success" (Prozedur wurde erfolgreich ausgeführt, es gab keine Fehler)"100" : "Running" (Die Prozedur wird momentan ausgeführt - siehe auch "HINWEIS" in der Beschreibung !)Sonst : Ein Error-Code
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue status = 10001;</code>
+         * <code>.dstore.values.IntegerValue status = 10001;</code>
          */
         public Builder setStatus(
             io.dstore.values.IntegerValue.Builder builderForValue) {
@@ -2307,7 +2307,7 @@ public final class MiGetBatchJobsAd {
          * Status der letzen Ausführung, mögliche Werte:"0" : "Success" (Prozedur wurde erfolgreich ausgeführt, es gab keine Fehler)"100" : "Running" (Die Prozedur wird momentan ausgeführt - siehe auch "HINWEIS" in der Beschreibung !)Sonst : Ein Error-Code
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue status = 10001;</code>
+         * <code>.dstore.values.IntegerValue status = 10001;</code>
          */
         public Builder mergeStatus(io.dstore.values.IntegerValue value) {
           if (statusBuilder_ == null) {
@@ -2329,7 +2329,7 @@ public final class MiGetBatchJobsAd {
          * Status der letzen Ausführung, mögliche Werte:"0" : "Success" (Prozedur wurde erfolgreich ausgeführt, es gab keine Fehler)"100" : "Running" (Die Prozedur wird momentan ausgeführt - siehe auch "HINWEIS" in der Beschreibung !)Sonst : Ein Error-Code
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue status = 10001;</code>
+         * <code>.dstore.values.IntegerValue status = 10001;</code>
          */
         public Builder clearStatus() {
           if (statusBuilder_ == null) {
@@ -2347,7 +2347,7 @@ public final class MiGetBatchJobsAd {
          * Status der letzen Ausführung, mögliche Werte:"0" : "Success" (Prozedur wurde erfolgreich ausgeführt, es gab keine Fehler)"100" : "Running" (Die Prozedur wird momentan ausgeführt - siehe auch "HINWEIS" in der Beschreibung !)Sonst : Ein Error-Code
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue status = 10001;</code>
+         * <code>.dstore.values.IntegerValue status = 10001;</code>
          */
         public io.dstore.values.IntegerValue.Builder getStatusBuilder() {
           
@@ -2359,7 +2359,7 @@ public final class MiGetBatchJobsAd {
          * Status der letzen Ausführung, mögliche Werte:"0" : "Success" (Prozedur wurde erfolgreich ausgeführt, es gab keine Fehler)"100" : "Running" (Die Prozedur wird momentan ausgeführt - siehe auch "HINWEIS" in der Beschreibung !)Sonst : Ein Error-Code
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue status = 10001;</code>
+         * <code>.dstore.values.IntegerValue status = 10001;</code>
          */
         public io.dstore.values.IntegerValueOrBuilder getStatusOrBuilder() {
           if (statusBuilder_ != null) {
@@ -2374,7 +2374,7 @@ public final class MiGetBatchJobsAd {
          * Status der letzen Ausführung, mögliche Werte:"0" : "Success" (Prozedur wurde erfolgreich ausgeführt, es gab keine Fehler)"100" : "Running" (Die Prozedur wird momentan ausgeführt - siehe auch "HINWEIS" in der Beschreibung !)Sonst : Ein Error-Code
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue status = 10001;</code>
+         * <code>.dstore.values.IntegerValue status = 10001;</code>
          */
         private com.google.protobuf.SingleFieldBuilderV3<
             io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> 
@@ -2398,7 +2398,7 @@ public final class MiGetBatchJobsAd {
          * ID einer Prozedur
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue procedure_id = 10002;</code>
+         * <code>.dstore.values.IntegerValue procedure_id = 10002;</code>
          */
         public boolean hasProcedureId() {
           return procedureIdBuilder_ != null || procedureId_ != null;
@@ -2408,7 +2408,7 @@ public final class MiGetBatchJobsAd {
          * ID einer Prozedur
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue procedure_id = 10002;</code>
+         * <code>.dstore.values.IntegerValue procedure_id = 10002;</code>
          */
         public io.dstore.values.IntegerValue getProcedureId() {
           if (procedureIdBuilder_ == null) {
@@ -2422,7 +2422,7 @@ public final class MiGetBatchJobsAd {
          * ID einer Prozedur
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue procedure_id = 10002;</code>
+         * <code>.dstore.values.IntegerValue procedure_id = 10002;</code>
          */
         public Builder setProcedureId(io.dstore.values.IntegerValue value) {
           if (procedureIdBuilder_ == null) {
@@ -2442,7 +2442,7 @@ public final class MiGetBatchJobsAd {
          * ID einer Prozedur
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue procedure_id = 10002;</code>
+         * <code>.dstore.values.IntegerValue procedure_id = 10002;</code>
          */
         public Builder setProcedureId(
             io.dstore.values.IntegerValue.Builder builderForValue) {
@@ -2460,7 +2460,7 @@ public final class MiGetBatchJobsAd {
          * ID einer Prozedur
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue procedure_id = 10002;</code>
+         * <code>.dstore.values.IntegerValue procedure_id = 10002;</code>
          */
         public Builder mergeProcedureId(io.dstore.values.IntegerValue value) {
           if (procedureIdBuilder_ == null) {
@@ -2482,7 +2482,7 @@ public final class MiGetBatchJobsAd {
          * ID einer Prozedur
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue procedure_id = 10002;</code>
+         * <code>.dstore.values.IntegerValue procedure_id = 10002;</code>
          */
         public Builder clearProcedureId() {
           if (procedureIdBuilder_ == null) {
@@ -2500,7 +2500,7 @@ public final class MiGetBatchJobsAd {
          * ID einer Prozedur
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue procedure_id = 10002;</code>
+         * <code>.dstore.values.IntegerValue procedure_id = 10002;</code>
          */
         public io.dstore.values.IntegerValue.Builder getProcedureIdBuilder() {
           
@@ -2512,7 +2512,7 @@ public final class MiGetBatchJobsAd {
          * ID einer Prozedur
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue procedure_id = 10002;</code>
+         * <code>.dstore.values.IntegerValue procedure_id = 10002;</code>
          */
         public io.dstore.values.IntegerValueOrBuilder getProcedureIdOrBuilder() {
           if (procedureIdBuilder_ != null) {
@@ -2527,7 +2527,7 @@ public final class MiGetBatchJobsAd {
          * ID einer Prozedur
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue procedure_id = 10002;</code>
+         * <code>.dstore.values.IntegerValue procedure_id = 10002;</code>
          */
         private com.google.protobuf.SingleFieldBuilderV3<
             io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> 
@@ -2551,7 +2551,7 @@ public final class MiGetBatchJobsAd {
          * Name eines dStore-Benutzers (aus "UserInfo", siehe "mi_GetUserInfo_Ad"), der die Prozedur "ProcedureID" zuletzt aufgerufen hat
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue last_call_from_user = 10003;</code>
+         * <code>.dstore.values.StringValue last_call_from_user = 10003;</code>
          */
         public boolean hasLastCallFromUser() {
           return lastCallFromUserBuilder_ != null || lastCallFromUser_ != null;
@@ -2561,7 +2561,7 @@ public final class MiGetBatchJobsAd {
          * Name eines dStore-Benutzers (aus "UserInfo", siehe "mi_GetUserInfo_Ad"), der die Prozedur "ProcedureID" zuletzt aufgerufen hat
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue last_call_from_user = 10003;</code>
+         * <code>.dstore.values.StringValue last_call_from_user = 10003;</code>
          */
         public io.dstore.values.StringValue getLastCallFromUser() {
           if (lastCallFromUserBuilder_ == null) {
@@ -2575,7 +2575,7 @@ public final class MiGetBatchJobsAd {
          * Name eines dStore-Benutzers (aus "UserInfo", siehe "mi_GetUserInfo_Ad"), der die Prozedur "ProcedureID" zuletzt aufgerufen hat
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue last_call_from_user = 10003;</code>
+         * <code>.dstore.values.StringValue last_call_from_user = 10003;</code>
          */
         public Builder setLastCallFromUser(io.dstore.values.StringValue value) {
           if (lastCallFromUserBuilder_ == null) {
@@ -2595,7 +2595,7 @@ public final class MiGetBatchJobsAd {
          * Name eines dStore-Benutzers (aus "UserInfo", siehe "mi_GetUserInfo_Ad"), der die Prozedur "ProcedureID" zuletzt aufgerufen hat
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue last_call_from_user = 10003;</code>
+         * <code>.dstore.values.StringValue last_call_from_user = 10003;</code>
          */
         public Builder setLastCallFromUser(
             io.dstore.values.StringValue.Builder builderForValue) {
@@ -2613,7 +2613,7 @@ public final class MiGetBatchJobsAd {
          * Name eines dStore-Benutzers (aus "UserInfo", siehe "mi_GetUserInfo_Ad"), der die Prozedur "ProcedureID" zuletzt aufgerufen hat
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue last_call_from_user = 10003;</code>
+         * <code>.dstore.values.StringValue last_call_from_user = 10003;</code>
          */
         public Builder mergeLastCallFromUser(io.dstore.values.StringValue value) {
           if (lastCallFromUserBuilder_ == null) {
@@ -2635,7 +2635,7 @@ public final class MiGetBatchJobsAd {
          * Name eines dStore-Benutzers (aus "UserInfo", siehe "mi_GetUserInfo_Ad"), der die Prozedur "ProcedureID" zuletzt aufgerufen hat
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue last_call_from_user = 10003;</code>
+         * <code>.dstore.values.StringValue last_call_from_user = 10003;</code>
          */
         public Builder clearLastCallFromUser() {
           if (lastCallFromUserBuilder_ == null) {
@@ -2653,7 +2653,7 @@ public final class MiGetBatchJobsAd {
          * Name eines dStore-Benutzers (aus "UserInfo", siehe "mi_GetUserInfo_Ad"), der die Prozedur "ProcedureID" zuletzt aufgerufen hat
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue last_call_from_user = 10003;</code>
+         * <code>.dstore.values.StringValue last_call_from_user = 10003;</code>
          */
         public io.dstore.values.StringValue.Builder getLastCallFromUserBuilder() {
           
@@ -2665,7 +2665,7 @@ public final class MiGetBatchJobsAd {
          * Name eines dStore-Benutzers (aus "UserInfo", siehe "mi_GetUserInfo_Ad"), der die Prozedur "ProcedureID" zuletzt aufgerufen hat
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue last_call_from_user = 10003;</code>
+         * <code>.dstore.values.StringValue last_call_from_user = 10003;</code>
          */
         public io.dstore.values.StringValueOrBuilder getLastCallFromUserOrBuilder() {
           if (lastCallFromUserBuilder_ != null) {
@@ -2680,7 +2680,7 @@ public final class MiGetBatchJobsAd {
          * Name eines dStore-Benutzers (aus "UserInfo", siehe "mi_GetUserInfo_Ad"), der die Prozedur "ProcedureID" zuletzt aufgerufen hat
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue last_call_from_user = 10003;</code>
+         * <code>.dstore.values.StringValue last_call_from_user = 10003;</code>
          */
         private com.google.protobuf.SingleFieldBuilderV3<
             io.dstore.values.StringValue, io.dstore.values.StringValue.Builder, io.dstore.values.StringValueOrBuilder> 
@@ -2704,7 +2704,7 @@ public final class MiGetBatchJobsAd {
          * Name der Prozedur "ProcedureID"
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue procedure_name = 10004;</code>
+         * <code>.dstore.values.StringValue procedure_name = 10004;</code>
          */
         public boolean hasProcedureName() {
           return procedureNameBuilder_ != null || procedureName_ != null;
@@ -2714,7 +2714,7 @@ public final class MiGetBatchJobsAd {
          * Name der Prozedur "ProcedureID"
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue procedure_name = 10004;</code>
+         * <code>.dstore.values.StringValue procedure_name = 10004;</code>
          */
         public io.dstore.values.StringValue getProcedureName() {
           if (procedureNameBuilder_ == null) {
@@ -2728,7 +2728,7 @@ public final class MiGetBatchJobsAd {
          * Name der Prozedur "ProcedureID"
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue procedure_name = 10004;</code>
+         * <code>.dstore.values.StringValue procedure_name = 10004;</code>
          */
         public Builder setProcedureName(io.dstore.values.StringValue value) {
           if (procedureNameBuilder_ == null) {
@@ -2748,7 +2748,7 @@ public final class MiGetBatchJobsAd {
          * Name der Prozedur "ProcedureID"
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue procedure_name = 10004;</code>
+         * <code>.dstore.values.StringValue procedure_name = 10004;</code>
          */
         public Builder setProcedureName(
             io.dstore.values.StringValue.Builder builderForValue) {
@@ -2766,7 +2766,7 @@ public final class MiGetBatchJobsAd {
          * Name der Prozedur "ProcedureID"
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue procedure_name = 10004;</code>
+         * <code>.dstore.values.StringValue procedure_name = 10004;</code>
          */
         public Builder mergeProcedureName(io.dstore.values.StringValue value) {
           if (procedureNameBuilder_ == null) {
@@ -2788,7 +2788,7 @@ public final class MiGetBatchJobsAd {
          * Name der Prozedur "ProcedureID"
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue procedure_name = 10004;</code>
+         * <code>.dstore.values.StringValue procedure_name = 10004;</code>
          */
         public Builder clearProcedureName() {
           if (procedureNameBuilder_ == null) {
@@ -2806,7 +2806,7 @@ public final class MiGetBatchJobsAd {
          * Name der Prozedur "ProcedureID"
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue procedure_name = 10004;</code>
+         * <code>.dstore.values.StringValue procedure_name = 10004;</code>
          */
         public io.dstore.values.StringValue.Builder getProcedureNameBuilder() {
           
@@ -2818,7 +2818,7 @@ public final class MiGetBatchJobsAd {
          * Name der Prozedur "ProcedureID"
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue procedure_name = 10004;</code>
+         * <code>.dstore.values.StringValue procedure_name = 10004;</code>
          */
         public io.dstore.values.StringValueOrBuilder getProcedureNameOrBuilder() {
           if (procedureNameBuilder_ != null) {
@@ -2833,7 +2833,7 @@ public final class MiGetBatchJobsAd {
          * Name der Prozedur "ProcedureID"
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue procedure_name = 10004;</code>
+         * <code>.dstore.values.StringValue procedure_name = 10004;</code>
          */
         private com.google.protobuf.SingleFieldBuilderV3<
             io.dstore.values.StringValue, io.dstore.values.StringValue.Builder, io.dstore.values.StringValueOrBuilder> 
@@ -2857,7 +2857,7 @@ public final class MiGetBatchJobsAd {
          * Zeitpunkt des letzten Aufrufs (Format : "15.04.2000 12:33:28")
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue last_run = 10005;</code>
+         * <code>.dstore.values.StringValue last_run = 10005;</code>
          */
         public boolean hasLastRun() {
           return lastRunBuilder_ != null || lastRun_ != null;
@@ -2867,7 +2867,7 @@ public final class MiGetBatchJobsAd {
          * Zeitpunkt des letzten Aufrufs (Format : "15.04.2000 12:33:28")
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue last_run = 10005;</code>
+         * <code>.dstore.values.StringValue last_run = 10005;</code>
          */
         public io.dstore.values.StringValue getLastRun() {
           if (lastRunBuilder_ == null) {
@@ -2881,7 +2881,7 @@ public final class MiGetBatchJobsAd {
          * Zeitpunkt des letzten Aufrufs (Format : "15.04.2000 12:33:28")
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue last_run = 10005;</code>
+         * <code>.dstore.values.StringValue last_run = 10005;</code>
          */
         public Builder setLastRun(io.dstore.values.StringValue value) {
           if (lastRunBuilder_ == null) {
@@ -2901,7 +2901,7 @@ public final class MiGetBatchJobsAd {
          * Zeitpunkt des letzten Aufrufs (Format : "15.04.2000 12:33:28")
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue last_run = 10005;</code>
+         * <code>.dstore.values.StringValue last_run = 10005;</code>
          */
         public Builder setLastRun(
             io.dstore.values.StringValue.Builder builderForValue) {
@@ -2919,7 +2919,7 @@ public final class MiGetBatchJobsAd {
          * Zeitpunkt des letzten Aufrufs (Format : "15.04.2000 12:33:28")
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue last_run = 10005;</code>
+         * <code>.dstore.values.StringValue last_run = 10005;</code>
          */
         public Builder mergeLastRun(io.dstore.values.StringValue value) {
           if (lastRunBuilder_ == null) {
@@ -2941,7 +2941,7 @@ public final class MiGetBatchJobsAd {
          * Zeitpunkt des letzten Aufrufs (Format : "15.04.2000 12:33:28")
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue last_run = 10005;</code>
+         * <code>.dstore.values.StringValue last_run = 10005;</code>
          */
         public Builder clearLastRun() {
           if (lastRunBuilder_ == null) {
@@ -2959,7 +2959,7 @@ public final class MiGetBatchJobsAd {
          * Zeitpunkt des letzten Aufrufs (Format : "15.04.2000 12:33:28")
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue last_run = 10005;</code>
+         * <code>.dstore.values.StringValue last_run = 10005;</code>
          */
         public io.dstore.values.StringValue.Builder getLastRunBuilder() {
           
@@ -2971,7 +2971,7 @@ public final class MiGetBatchJobsAd {
          * Zeitpunkt des letzten Aufrufs (Format : "15.04.2000 12:33:28")
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue last_run = 10005;</code>
+         * <code>.dstore.values.StringValue last_run = 10005;</code>
          */
         public io.dstore.values.StringValueOrBuilder getLastRunOrBuilder() {
           if (lastRunBuilder_ != null) {
@@ -2986,7 +2986,7 @@ public final class MiGetBatchJobsAd {
          * Zeitpunkt des letzten Aufrufs (Format : "15.04.2000 12:33:28")
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue last_run = 10005;</code>
+         * <code>.dstore.values.StringValue last_run = 10005;</code>
          */
         private com.google.protobuf.SingleFieldBuilderV3<
             io.dstore.values.StringValue, io.dstore.values.StringValue.Builder, io.dstore.values.StringValueOrBuilder> 
@@ -3246,7 +3246,7 @@ public final class MiGetBatchJobsAd {
         return memoizedHashCode;
       }
       int hash = 41;
-      hash = (19 * hash) + getDescriptorForType().hashCode();
+      hash = (19 * hash) + getDescriptor().hashCode();
       if (getMetaInformationCount() > 0) {
         hash = (37 * hash) + META_INFORMATION_FIELD_NUMBER;
         hash = (53 * hash) + getMetaInformationList().hashCode();

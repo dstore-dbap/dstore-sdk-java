@@ -19,56 +19,56 @@ public final class MiModifyUnitsInCategoriesAd {
       com.google.protobuf.MessageOrBuilder {
 
     /**
-     * <code>optional .dstore.values.IntegerValue unit_id = 1;</code>
+     * <code>.dstore.values.IntegerValue unit_id = 1;</code>
      */
     boolean hasUnitId();
     /**
-     * <code>optional .dstore.values.IntegerValue unit_id = 1;</code>
+     * <code>.dstore.values.IntegerValue unit_id = 1;</code>
      */
     io.dstore.values.IntegerValue getUnitId();
     /**
-     * <code>optional .dstore.values.IntegerValue unit_id = 1;</code>
+     * <code>.dstore.values.IntegerValue unit_id = 1;</code>
      */
     io.dstore.values.IntegerValueOrBuilder getUnitIdOrBuilder();
 
     /**
-     * <code>optional bool unit_id_null = 1001;</code>
+     * <code>bool unit_id_null = 1001;</code>
      */
     boolean getUnitIdNull();
 
     /**
-     * <code>optional .dstore.values.IntegerValue unit_category_id = 2;</code>
+     * <code>.dstore.values.IntegerValue unit_category_id = 2;</code>
      */
     boolean hasUnitCategoryId();
     /**
-     * <code>optional .dstore.values.IntegerValue unit_category_id = 2;</code>
+     * <code>.dstore.values.IntegerValue unit_category_id = 2;</code>
      */
     io.dstore.values.IntegerValue getUnitCategoryId();
     /**
-     * <code>optional .dstore.values.IntegerValue unit_category_id = 2;</code>
+     * <code>.dstore.values.IntegerValue unit_category_id = 2;</code>
      */
     io.dstore.values.IntegerValueOrBuilder getUnitCategoryIdOrBuilder();
 
     /**
-     * <code>optional bool unit_category_id_null = 1002;</code>
+     * <code>bool unit_category_id_null = 1002;</code>
      */
     boolean getUnitCategoryIdNull();
 
     /**
-     * <code>optional .dstore.values.BooleanValue delete_unit_in_category = 3;</code>
+     * <code>.dstore.values.BooleanValue delete_unit_in_category = 3;</code>
      */
     boolean hasDeleteUnitInCategory();
     /**
-     * <code>optional .dstore.values.BooleanValue delete_unit_in_category = 3;</code>
+     * <code>.dstore.values.BooleanValue delete_unit_in_category = 3;</code>
      */
     io.dstore.values.BooleanValue getDeleteUnitInCategory();
     /**
-     * <code>optional .dstore.values.BooleanValue delete_unit_in_category = 3;</code>
+     * <code>.dstore.values.BooleanValue delete_unit_in_category = 3;</code>
      */
     io.dstore.values.BooleanValueOrBuilder getDeleteUnitInCategoryOrBuilder();
 
     /**
-     * <code>optional bool delete_unit_in_category_null = 1003;</code>
+     * <code>bool delete_unit_in_category_null = 1003;</code>
      */
     boolean getDeleteUnitInCategoryNull();
   }
@@ -194,19 +194,19 @@ public final class MiModifyUnitsInCategoriesAd {
     public static final int UNIT_ID_FIELD_NUMBER = 1;
     private io.dstore.values.IntegerValue unitId_;
     /**
-     * <code>optional .dstore.values.IntegerValue unit_id = 1;</code>
+     * <code>.dstore.values.IntegerValue unit_id = 1;</code>
      */
     public boolean hasUnitId() {
       return unitId_ != null;
     }
     /**
-     * <code>optional .dstore.values.IntegerValue unit_id = 1;</code>
+     * <code>.dstore.values.IntegerValue unit_id = 1;</code>
      */
     public io.dstore.values.IntegerValue getUnitId() {
       return unitId_ == null ? io.dstore.values.IntegerValue.getDefaultInstance() : unitId_;
     }
     /**
-     * <code>optional .dstore.values.IntegerValue unit_id = 1;</code>
+     * <code>.dstore.values.IntegerValue unit_id = 1;</code>
      */
     public io.dstore.values.IntegerValueOrBuilder getUnitIdOrBuilder() {
       return getUnitId();
@@ -215,7 +215,7 @@ public final class MiModifyUnitsInCategoriesAd {
     public static final int UNIT_ID_NULL_FIELD_NUMBER = 1001;
     private boolean unitIdNull_;
     /**
-     * <code>optional bool unit_id_null = 1001;</code>
+     * <code>bool unit_id_null = 1001;</code>
      */
     public boolean getUnitIdNull() {
       return unitIdNull_;
@@ -224,19 +224,19 @@ public final class MiModifyUnitsInCategoriesAd {
     public static final int UNIT_CATEGORY_ID_FIELD_NUMBER = 2;
     private io.dstore.values.IntegerValue unitCategoryId_;
     /**
-     * <code>optional .dstore.values.IntegerValue unit_category_id = 2;</code>
+     * <code>.dstore.values.IntegerValue unit_category_id = 2;</code>
      */
     public boolean hasUnitCategoryId() {
       return unitCategoryId_ != null;
     }
     /**
-     * <code>optional .dstore.values.IntegerValue unit_category_id = 2;</code>
+     * <code>.dstore.values.IntegerValue unit_category_id = 2;</code>
      */
     public io.dstore.values.IntegerValue getUnitCategoryId() {
       return unitCategoryId_ == null ? io.dstore.values.IntegerValue.getDefaultInstance() : unitCategoryId_;
     }
     /**
-     * <code>optional .dstore.values.IntegerValue unit_category_id = 2;</code>
+     * <code>.dstore.values.IntegerValue unit_category_id = 2;</code>
      */
     public io.dstore.values.IntegerValueOrBuilder getUnitCategoryIdOrBuilder() {
       return getUnitCategoryId();
@@ -245,7 +245,7 @@ public final class MiModifyUnitsInCategoriesAd {
     public static final int UNIT_CATEGORY_ID_NULL_FIELD_NUMBER = 1002;
     private boolean unitCategoryIdNull_;
     /**
-     * <code>optional bool unit_category_id_null = 1002;</code>
+     * <code>bool unit_category_id_null = 1002;</code>
      */
     public boolean getUnitCategoryIdNull() {
       return unitCategoryIdNull_;
@@ -254,19 +254,19 @@ public final class MiModifyUnitsInCategoriesAd {
     public static final int DELETE_UNIT_IN_CATEGORY_FIELD_NUMBER = 3;
     private io.dstore.values.BooleanValue deleteUnitInCategory_;
     /**
-     * <code>optional .dstore.values.BooleanValue delete_unit_in_category = 3;</code>
+     * <code>.dstore.values.BooleanValue delete_unit_in_category = 3;</code>
      */
     public boolean hasDeleteUnitInCategory() {
       return deleteUnitInCategory_ != null;
     }
     /**
-     * <code>optional .dstore.values.BooleanValue delete_unit_in_category = 3;</code>
+     * <code>.dstore.values.BooleanValue delete_unit_in_category = 3;</code>
      */
     public io.dstore.values.BooleanValue getDeleteUnitInCategory() {
       return deleteUnitInCategory_ == null ? io.dstore.values.BooleanValue.getDefaultInstance() : deleteUnitInCategory_;
     }
     /**
-     * <code>optional .dstore.values.BooleanValue delete_unit_in_category = 3;</code>
+     * <code>.dstore.values.BooleanValue delete_unit_in_category = 3;</code>
      */
     public io.dstore.values.BooleanValueOrBuilder getDeleteUnitInCategoryOrBuilder() {
       return getDeleteUnitInCategory();
@@ -275,7 +275,7 @@ public final class MiModifyUnitsInCategoriesAd {
     public static final int DELETE_UNIT_IN_CATEGORY_NULL_FIELD_NUMBER = 1003;
     private boolean deleteUnitInCategoryNull_;
     /**
-     * <code>optional bool delete_unit_in_category_null = 1003;</code>
+     * <code>bool delete_unit_in_category_null = 1003;</code>
      */
     public boolean getDeleteUnitInCategoryNull() {
       return deleteUnitInCategoryNull_;
@@ -388,7 +388,7 @@ public final class MiModifyUnitsInCategoriesAd {
         return memoizedHashCode;
       }
       int hash = 41;
-      hash = (19 * hash) + getDescriptorForType().hashCode();
+      hash = (19 * hash) + getDescriptor().hashCode();
       if (hasUnitId()) {
         hash = (37 * hash) + UNIT_ID_FIELD_NUMBER;
         hash = (53 * hash) + getUnitId().hashCode();
@@ -681,13 +681,13 @@ public final class MiModifyUnitsInCategoriesAd {
       private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> unitIdBuilder_;
       /**
-       * <code>optional .dstore.values.IntegerValue unit_id = 1;</code>
+       * <code>.dstore.values.IntegerValue unit_id = 1;</code>
        */
       public boolean hasUnitId() {
         return unitIdBuilder_ != null || unitId_ != null;
       }
       /**
-       * <code>optional .dstore.values.IntegerValue unit_id = 1;</code>
+       * <code>.dstore.values.IntegerValue unit_id = 1;</code>
        */
       public io.dstore.values.IntegerValue getUnitId() {
         if (unitIdBuilder_ == null) {
@@ -697,7 +697,7 @@ public final class MiModifyUnitsInCategoriesAd {
         }
       }
       /**
-       * <code>optional .dstore.values.IntegerValue unit_id = 1;</code>
+       * <code>.dstore.values.IntegerValue unit_id = 1;</code>
        */
       public Builder setUnitId(io.dstore.values.IntegerValue value) {
         if (unitIdBuilder_ == null) {
@@ -713,7 +713,7 @@ public final class MiModifyUnitsInCategoriesAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.IntegerValue unit_id = 1;</code>
+       * <code>.dstore.values.IntegerValue unit_id = 1;</code>
        */
       public Builder setUnitId(
           io.dstore.values.IntegerValue.Builder builderForValue) {
@@ -727,7 +727,7 @@ public final class MiModifyUnitsInCategoriesAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.IntegerValue unit_id = 1;</code>
+       * <code>.dstore.values.IntegerValue unit_id = 1;</code>
        */
       public Builder mergeUnitId(io.dstore.values.IntegerValue value) {
         if (unitIdBuilder_ == null) {
@@ -745,7 +745,7 @@ public final class MiModifyUnitsInCategoriesAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.IntegerValue unit_id = 1;</code>
+       * <code>.dstore.values.IntegerValue unit_id = 1;</code>
        */
       public Builder clearUnitId() {
         if (unitIdBuilder_ == null) {
@@ -759,7 +759,7 @@ public final class MiModifyUnitsInCategoriesAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.IntegerValue unit_id = 1;</code>
+       * <code>.dstore.values.IntegerValue unit_id = 1;</code>
        */
       public io.dstore.values.IntegerValue.Builder getUnitIdBuilder() {
         
@@ -767,7 +767,7 @@ public final class MiModifyUnitsInCategoriesAd {
         return getUnitIdFieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .dstore.values.IntegerValue unit_id = 1;</code>
+       * <code>.dstore.values.IntegerValue unit_id = 1;</code>
        */
       public io.dstore.values.IntegerValueOrBuilder getUnitIdOrBuilder() {
         if (unitIdBuilder_ != null) {
@@ -778,7 +778,7 @@ public final class MiModifyUnitsInCategoriesAd {
         }
       }
       /**
-       * <code>optional .dstore.values.IntegerValue unit_id = 1;</code>
+       * <code>.dstore.values.IntegerValue unit_id = 1;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> 
@@ -796,13 +796,13 @@ public final class MiModifyUnitsInCategoriesAd {
 
       private boolean unitIdNull_ ;
       /**
-       * <code>optional bool unit_id_null = 1001;</code>
+       * <code>bool unit_id_null = 1001;</code>
        */
       public boolean getUnitIdNull() {
         return unitIdNull_;
       }
       /**
-       * <code>optional bool unit_id_null = 1001;</code>
+       * <code>bool unit_id_null = 1001;</code>
        */
       public Builder setUnitIdNull(boolean value) {
         
@@ -811,7 +811,7 @@ public final class MiModifyUnitsInCategoriesAd {
         return this;
       }
       /**
-       * <code>optional bool unit_id_null = 1001;</code>
+       * <code>bool unit_id_null = 1001;</code>
        */
       public Builder clearUnitIdNull() {
         
@@ -824,13 +824,13 @@ public final class MiModifyUnitsInCategoriesAd {
       private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> unitCategoryIdBuilder_;
       /**
-       * <code>optional .dstore.values.IntegerValue unit_category_id = 2;</code>
+       * <code>.dstore.values.IntegerValue unit_category_id = 2;</code>
        */
       public boolean hasUnitCategoryId() {
         return unitCategoryIdBuilder_ != null || unitCategoryId_ != null;
       }
       /**
-       * <code>optional .dstore.values.IntegerValue unit_category_id = 2;</code>
+       * <code>.dstore.values.IntegerValue unit_category_id = 2;</code>
        */
       public io.dstore.values.IntegerValue getUnitCategoryId() {
         if (unitCategoryIdBuilder_ == null) {
@@ -840,7 +840,7 @@ public final class MiModifyUnitsInCategoriesAd {
         }
       }
       /**
-       * <code>optional .dstore.values.IntegerValue unit_category_id = 2;</code>
+       * <code>.dstore.values.IntegerValue unit_category_id = 2;</code>
        */
       public Builder setUnitCategoryId(io.dstore.values.IntegerValue value) {
         if (unitCategoryIdBuilder_ == null) {
@@ -856,7 +856,7 @@ public final class MiModifyUnitsInCategoriesAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.IntegerValue unit_category_id = 2;</code>
+       * <code>.dstore.values.IntegerValue unit_category_id = 2;</code>
        */
       public Builder setUnitCategoryId(
           io.dstore.values.IntegerValue.Builder builderForValue) {
@@ -870,7 +870,7 @@ public final class MiModifyUnitsInCategoriesAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.IntegerValue unit_category_id = 2;</code>
+       * <code>.dstore.values.IntegerValue unit_category_id = 2;</code>
        */
       public Builder mergeUnitCategoryId(io.dstore.values.IntegerValue value) {
         if (unitCategoryIdBuilder_ == null) {
@@ -888,7 +888,7 @@ public final class MiModifyUnitsInCategoriesAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.IntegerValue unit_category_id = 2;</code>
+       * <code>.dstore.values.IntegerValue unit_category_id = 2;</code>
        */
       public Builder clearUnitCategoryId() {
         if (unitCategoryIdBuilder_ == null) {
@@ -902,7 +902,7 @@ public final class MiModifyUnitsInCategoriesAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.IntegerValue unit_category_id = 2;</code>
+       * <code>.dstore.values.IntegerValue unit_category_id = 2;</code>
        */
       public io.dstore.values.IntegerValue.Builder getUnitCategoryIdBuilder() {
         
@@ -910,7 +910,7 @@ public final class MiModifyUnitsInCategoriesAd {
         return getUnitCategoryIdFieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .dstore.values.IntegerValue unit_category_id = 2;</code>
+       * <code>.dstore.values.IntegerValue unit_category_id = 2;</code>
        */
       public io.dstore.values.IntegerValueOrBuilder getUnitCategoryIdOrBuilder() {
         if (unitCategoryIdBuilder_ != null) {
@@ -921,7 +921,7 @@ public final class MiModifyUnitsInCategoriesAd {
         }
       }
       /**
-       * <code>optional .dstore.values.IntegerValue unit_category_id = 2;</code>
+       * <code>.dstore.values.IntegerValue unit_category_id = 2;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> 
@@ -939,13 +939,13 @@ public final class MiModifyUnitsInCategoriesAd {
 
       private boolean unitCategoryIdNull_ ;
       /**
-       * <code>optional bool unit_category_id_null = 1002;</code>
+       * <code>bool unit_category_id_null = 1002;</code>
        */
       public boolean getUnitCategoryIdNull() {
         return unitCategoryIdNull_;
       }
       /**
-       * <code>optional bool unit_category_id_null = 1002;</code>
+       * <code>bool unit_category_id_null = 1002;</code>
        */
       public Builder setUnitCategoryIdNull(boolean value) {
         
@@ -954,7 +954,7 @@ public final class MiModifyUnitsInCategoriesAd {
         return this;
       }
       /**
-       * <code>optional bool unit_category_id_null = 1002;</code>
+       * <code>bool unit_category_id_null = 1002;</code>
        */
       public Builder clearUnitCategoryIdNull() {
         
@@ -967,13 +967,13 @@ public final class MiModifyUnitsInCategoriesAd {
       private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.values.BooleanValue, io.dstore.values.BooleanValue.Builder, io.dstore.values.BooleanValueOrBuilder> deleteUnitInCategoryBuilder_;
       /**
-       * <code>optional .dstore.values.BooleanValue delete_unit_in_category = 3;</code>
+       * <code>.dstore.values.BooleanValue delete_unit_in_category = 3;</code>
        */
       public boolean hasDeleteUnitInCategory() {
         return deleteUnitInCategoryBuilder_ != null || deleteUnitInCategory_ != null;
       }
       /**
-       * <code>optional .dstore.values.BooleanValue delete_unit_in_category = 3;</code>
+       * <code>.dstore.values.BooleanValue delete_unit_in_category = 3;</code>
        */
       public io.dstore.values.BooleanValue getDeleteUnitInCategory() {
         if (deleteUnitInCategoryBuilder_ == null) {
@@ -983,7 +983,7 @@ public final class MiModifyUnitsInCategoriesAd {
         }
       }
       /**
-       * <code>optional .dstore.values.BooleanValue delete_unit_in_category = 3;</code>
+       * <code>.dstore.values.BooleanValue delete_unit_in_category = 3;</code>
        */
       public Builder setDeleteUnitInCategory(io.dstore.values.BooleanValue value) {
         if (deleteUnitInCategoryBuilder_ == null) {
@@ -999,7 +999,7 @@ public final class MiModifyUnitsInCategoriesAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.BooleanValue delete_unit_in_category = 3;</code>
+       * <code>.dstore.values.BooleanValue delete_unit_in_category = 3;</code>
        */
       public Builder setDeleteUnitInCategory(
           io.dstore.values.BooleanValue.Builder builderForValue) {
@@ -1013,7 +1013,7 @@ public final class MiModifyUnitsInCategoriesAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.BooleanValue delete_unit_in_category = 3;</code>
+       * <code>.dstore.values.BooleanValue delete_unit_in_category = 3;</code>
        */
       public Builder mergeDeleteUnitInCategory(io.dstore.values.BooleanValue value) {
         if (deleteUnitInCategoryBuilder_ == null) {
@@ -1031,7 +1031,7 @@ public final class MiModifyUnitsInCategoriesAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.BooleanValue delete_unit_in_category = 3;</code>
+       * <code>.dstore.values.BooleanValue delete_unit_in_category = 3;</code>
        */
       public Builder clearDeleteUnitInCategory() {
         if (deleteUnitInCategoryBuilder_ == null) {
@@ -1045,7 +1045,7 @@ public final class MiModifyUnitsInCategoriesAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.BooleanValue delete_unit_in_category = 3;</code>
+       * <code>.dstore.values.BooleanValue delete_unit_in_category = 3;</code>
        */
       public io.dstore.values.BooleanValue.Builder getDeleteUnitInCategoryBuilder() {
         
@@ -1053,7 +1053,7 @@ public final class MiModifyUnitsInCategoriesAd {
         return getDeleteUnitInCategoryFieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .dstore.values.BooleanValue delete_unit_in_category = 3;</code>
+       * <code>.dstore.values.BooleanValue delete_unit_in_category = 3;</code>
        */
       public io.dstore.values.BooleanValueOrBuilder getDeleteUnitInCategoryOrBuilder() {
         if (deleteUnitInCategoryBuilder_ != null) {
@@ -1064,7 +1064,7 @@ public final class MiModifyUnitsInCategoriesAd {
         }
       }
       /**
-       * <code>optional .dstore.values.BooleanValue delete_unit_in_category = 3;</code>
+       * <code>.dstore.values.BooleanValue delete_unit_in_category = 3;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.values.BooleanValue, io.dstore.values.BooleanValue.Builder, io.dstore.values.BooleanValueOrBuilder> 
@@ -1082,13 +1082,13 @@ public final class MiModifyUnitsInCategoriesAd {
 
       private boolean deleteUnitInCategoryNull_ ;
       /**
-       * <code>optional bool delete_unit_in_category_null = 1003;</code>
+       * <code>bool delete_unit_in_category_null = 1003;</code>
        */
       public boolean getDeleteUnitInCategoryNull() {
         return deleteUnitInCategoryNull_;
       }
       /**
-       * <code>optional bool delete_unit_in_category_null = 1003;</code>
+       * <code>bool delete_unit_in_category_null = 1003;</code>
        */
       public Builder setDeleteUnitInCategoryNull(boolean value) {
         
@@ -1097,7 +1097,7 @@ public final class MiModifyUnitsInCategoriesAd {
         return this;
       }
       /**
-       * <code>optional bool delete_unit_in_category_null = 1003;</code>
+       * <code>bool delete_unit_in_category_null = 1003;</code>
        */
       public Builder clearDeleteUnitInCategoryNull() {
         
@@ -1356,7 +1356,7 @@ public final class MiModifyUnitsInCategoriesAd {
         com.google.protobuf.MessageOrBuilder {
 
       /**
-       * <code>optional int32 row_id = 10000;</code>
+       * <code>int32 row_id = 10000;</code>
        */
       int getRowId();
     }
@@ -1431,7 +1431,7 @@ public final class MiModifyUnitsInCategoriesAd {
       public static final int ROW_ID_FIELD_NUMBER = 10000;
       private int rowId_;
       /**
-       * <code>optional int32 row_id = 10000;</code>
+       * <code>int32 row_id = 10000;</code>
        */
       public int getRowId() {
         return rowId_;
@@ -1490,7 +1490,7 @@ public final class MiModifyUnitsInCategoriesAd {
           return memoizedHashCode;
         }
         int hash = 41;
-        hash = (19 * hash) + getDescriptorForType().hashCode();
+        hash = (19 * hash) + getDescriptor().hashCode();
         hash = (37 * hash) + ROW_ID_FIELD_NUMBER;
         hash = (53 * hash) + getRowId();
         hash = (29 * hash) + unknownFields.hashCode();
@@ -1708,13 +1708,13 @@ public final class MiModifyUnitsInCategoriesAd {
 
         private int rowId_ ;
         /**
-         * <code>optional int32 row_id = 10000;</code>
+         * <code>int32 row_id = 10000;</code>
          */
         public int getRowId() {
           return rowId_;
         }
         /**
-         * <code>optional int32 row_id = 10000;</code>
+         * <code>int32 row_id = 10000;</code>
          */
         public Builder setRowId(int value) {
           
@@ -1723,7 +1723,7 @@ public final class MiModifyUnitsInCategoriesAd {
           return this;
         }
         /**
-         * <code>optional int32 row_id = 10000;</code>
+         * <code>int32 row_id = 10000;</code>
          */
         public Builder clearRowId() {
           
@@ -1976,7 +1976,7 @@ public final class MiModifyUnitsInCategoriesAd {
         return memoizedHashCode;
       }
       int hash = 41;
-      hash = (19 * hash) + getDescriptorForType().hashCode();
+      hash = (19 * hash) + getDescriptor().hashCode();
       if (getMetaInformationCount() > 0) {
         hash = (37 * hash) + META_INFORMATION_FIELD_NUMBER;
         hash = (53 * hash) + getMetaInformationList().hashCode();

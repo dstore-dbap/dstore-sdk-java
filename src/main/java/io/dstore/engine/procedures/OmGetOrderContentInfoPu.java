@@ -19,92 +19,92 @@ public final class OmGetOrderContentInfoPu {
       com.google.protobuf.MessageOrBuilder {
 
     /**
-     * <code>optional .dstore.values.IntegerValue order_id = 1;</code>
+     * <code>.dstore.values.IntegerValue order_id = 1;</code>
      */
     boolean hasOrderId();
     /**
-     * <code>optional .dstore.values.IntegerValue order_id = 1;</code>
+     * <code>.dstore.values.IntegerValue order_id = 1;</code>
      */
     io.dstore.values.IntegerValue getOrderId();
     /**
-     * <code>optional .dstore.values.IntegerValue order_id = 1;</code>
+     * <code>.dstore.values.IntegerValue order_id = 1;</code>
      */
     io.dstore.values.IntegerValueOrBuilder getOrderIdOrBuilder();
 
     /**
-     * <code>optional bool order_id_null = 1001;</code>
+     * <code>bool order_id_null = 1001;</code>
      */
     boolean getOrderIdNull();
 
     /**
-     * <code>optional .dstore.values.IntegerValue order_content_id = 2;</code>
+     * <code>.dstore.values.IntegerValue order_content_id = 2;</code>
      */
     boolean hasOrderContentId();
     /**
-     * <code>optional .dstore.values.IntegerValue order_content_id = 2;</code>
+     * <code>.dstore.values.IntegerValue order_content_id = 2;</code>
      */
     io.dstore.values.IntegerValue getOrderContentId();
     /**
-     * <code>optional .dstore.values.IntegerValue order_content_id = 2;</code>
+     * <code>.dstore.values.IntegerValue order_content_id = 2;</code>
      */
     io.dstore.values.IntegerValueOrBuilder getOrderContentIdOrBuilder();
 
     /**
-     * <code>optional bool order_content_id_null = 1002;</code>
+     * <code>bool order_content_id_null = 1002;</code>
      */
     boolean getOrderContentIdNull();
 
     /**
-     * <code>optional .dstore.values.StringValue person_identification_values = 3;</code>
+     * <code>.dstore.values.StringValue person_identification_values = 3;</code>
      */
     boolean hasPersonIdentificationValues();
     /**
-     * <code>optional .dstore.values.StringValue person_identification_values = 3;</code>
+     * <code>.dstore.values.StringValue person_identification_values = 3;</code>
      */
     io.dstore.values.StringValue getPersonIdentificationValues();
     /**
-     * <code>optional .dstore.values.StringValue person_identification_values = 3;</code>
+     * <code>.dstore.values.StringValue person_identification_values = 3;</code>
      */
     io.dstore.values.StringValueOrBuilder getPersonIdentificationValuesOrBuilder();
 
     /**
-     * <code>optional bool person_identification_values_null = 1003;</code>
+     * <code>bool person_identification_values_null = 1003;</code>
      */
     boolean getPersonIdentificationValuesNull();
 
     /**
-     * <code>optional .dstore.values.IntegerValue person_type_id = 4;</code>
+     * <code>.dstore.values.IntegerValue person_type_id = 4;</code>
      */
     boolean hasPersonTypeId();
     /**
-     * <code>optional .dstore.values.IntegerValue person_type_id = 4;</code>
+     * <code>.dstore.values.IntegerValue person_type_id = 4;</code>
      */
     io.dstore.values.IntegerValue getPersonTypeId();
     /**
-     * <code>optional .dstore.values.IntegerValue person_type_id = 4;</code>
+     * <code>.dstore.values.IntegerValue person_type_id = 4;</code>
      */
     io.dstore.values.IntegerValueOrBuilder getPersonTypeIdOrBuilder();
 
     /**
-     * <code>optional bool person_type_id_null = 1004;</code>
+     * <code>bool person_type_id_null = 1004;</code>
      */
     boolean getPersonTypeIdNull();
 
     /**
-     * <code>optional .dstore.values.StringValue information_type_id_list = 5;</code>
+     * <code>.dstore.values.StringValue information_type_id_list = 5;</code>
      */
     boolean hasInformationTypeIdList();
     /**
-     * <code>optional .dstore.values.StringValue information_type_id_list = 5;</code>
+     * <code>.dstore.values.StringValue information_type_id_list = 5;</code>
      */
     io.dstore.values.StringValue getInformationTypeIdList();
     /**
-     * <code>optional .dstore.values.StringValue information_type_id_list = 5;</code>
+     * <code>.dstore.values.StringValue information_type_id_list = 5;</code>
      */
     io.dstore.values.StringValueOrBuilder getInformationTypeIdListOrBuilder();
 
     /**
-     * <code>optional bool information_type_id_list_null = 1005;</code>
+     * <code>bool information_type_id_list_null = 1005;</code>
      */
     boolean getInformationTypeIdListNull();
   }
@@ -268,19 +268,19 @@ public final class OmGetOrderContentInfoPu {
     public static final int ORDER_ID_FIELD_NUMBER = 1;
     private io.dstore.values.IntegerValue orderId_;
     /**
-     * <code>optional .dstore.values.IntegerValue order_id = 1;</code>
+     * <code>.dstore.values.IntegerValue order_id = 1;</code>
      */
     public boolean hasOrderId() {
       return orderId_ != null;
     }
     /**
-     * <code>optional .dstore.values.IntegerValue order_id = 1;</code>
+     * <code>.dstore.values.IntegerValue order_id = 1;</code>
      */
     public io.dstore.values.IntegerValue getOrderId() {
       return orderId_ == null ? io.dstore.values.IntegerValue.getDefaultInstance() : orderId_;
     }
     /**
-     * <code>optional .dstore.values.IntegerValue order_id = 1;</code>
+     * <code>.dstore.values.IntegerValue order_id = 1;</code>
      */
     public io.dstore.values.IntegerValueOrBuilder getOrderIdOrBuilder() {
       return getOrderId();
@@ -289,7 +289,7 @@ public final class OmGetOrderContentInfoPu {
     public static final int ORDER_ID_NULL_FIELD_NUMBER = 1001;
     private boolean orderIdNull_;
     /**
-     * <code>optional bool order_id_null = 1001;</code>
+     * <code>bool order_id_null = 1001;</code>
      */
     public boolean getOrderIdNull() {
       return orderIdNull_;
@@ -298,19 +298,19 @@ public final class OmGetOrderContentInfoPu {
     public static final int ORDER_CONTENT_ID_FIELD_NUMBER = 2;
     private io.dstore.values.IntegerValue orderContentId_;
     /**
-     * <code>optional .dstore.values.IntegerValue order_content_id = 2;</code>
+     * <code>.dstore.values.IntegerValue order_content_id = 2;</code>
      */
     public boolean hasOrderContentId() {
       return orderContentId_ != null;
     }
     /**
-     * <code>optional .dstore.values.IntegerValue order_content_id = 2;</code>
+     * <code>.dstore.values.IntegerValue order_content_id = 2;</code>
      */
     public io.dstore.values.IntegerValue getOrderContentId() {
       return orderContentId_ == null ? io.dstore.values.IntegerValue.getDefaultInstance() : orderContentId_;
     }
     /**
-     * <code>optional .dstore.values.IntegerValue order_content_id = 2;</code>
+     * <code>.dstore.values.IntegerValue order_content_id = 2;</code>
      */
     public io.dstore.values.IntegerValueOrBuilder getOrderContentIdOrBuilder() {
       return getOrderContentId();
@@ -319,7 +319,7 @@ public final class OmGetOrderContentInfoPu {
     public static final int ORDER_CONTENT_ID_NULL_FIELD_NUMBER = 1002;
     private boolean orderContentIdNull_;
     /**
-     * <code>optional bool order_content_id_null = 1002;</code>
+     * <code>bool order_content_id_null = 1002;</code>
      */
     public boolean getOrderContentIdNull() {
       return orderContentIdNull_;
@@ -328,19 +328,19 @@ public final class OmGetOrderContentInfoPu {
     public static final int PERSON_IDENTIFICATION_VALUES_FIELD_NUMBER = 3;
     private io.dstore.values.StringValue personIdentificationValues_;
     /**
-     * <code>optional .dstore.values.StringValue person_identification_values = 3;</code>
+     * <code>.dstore.values.StringValue person_identification_values = 3;</code>
      */
     public boolean hasPersonIdentificationValues() {
       return personIdentificationValues_ != null;
     }
     /**
-     * <code>optional .dstore.values.StringValue person_identification_values = 3;</code>
+     * <code>.dstore.values.StringValue person_identification_values = 3;</code>
      */
     public io.dstore.values.StringValue getPersonIdentificationValues() {
       return personIdentificationValues_ == null ? io.dstore.values.StringValue.getDefaultInstance() : personIdentificationValues_;
     }
     /**
-     * <code>optional .dstore.values.StringValue person_identification_values = 3;</code>
+     * <code>.dstore.values.StringValue person_identification_values = 3;</code>
      */
     public io.dstore.values.StringValueOrBuilder getPersonIdentificationValuesOrBuilder() {
       return getPersonIdentificationValues();
@@ -349,7 +349,7 @@ public final class OmGetOrderContentInfoPu {
     public static final int PERSON_IDENTIFICATION_VALUES_NULL_FIELD_NUMBER = 1003;
     private boolean personIdentificationValuesNull_;
     /**
-     * <code>optional bool person_identification_values_null = 1003;</code>
+     * <code>bool person_identification_values_null = 1003;</code>
      */
     public boolean getPersonIdentificationValuesNull() {
       return personIdentificationValuesNull_;
@@ -358,19 +358,19 @@ public final class OmGetOrderContentInfoPu {
     public static final int PERSON_TYPE_ID_FIELD_NUMBER = 4;
     private io.dstore.values.IntegerValue personTypeId_;
     /**
-     * <code>optional .dstore.values.IntegerValue person_type_id = 4;</code>
+     * <code>.dstore.values.IntegerValue person_type_id = 4;</code>
      */
     public boolean hasPersonTypeId() {
       return personTypeId_ != null;
     }
     /**
-     * <code>optional .dstore.values.IntegerValue person_type_id = 4;</code>
+     * <code>.dstore.values.IntegerValue person_type_id = 4;</code>
      */
     public io.dstore.values.IntegerValue getPersonTypeId() {
       return personTypeId_ == null ? io.dstore.values.IntegerValue.getDefaultInstance() : personTypeId_;
     }
     /**
-     * <code>optional .dstore.values.IntegerValue person_type_id = 4;</code>
+     * <code>.dstore.values.IntegerValue person_type_id = 4;</code>
      */
     public io.dstore.values.IntegerValueOrBuilder getPersonTypeIdOrBuilder() {
       return getPersonTypeId();
@@ -379,7 +379,7 @@ public final class OmGetOrderContentInfoPu {
     public static final int PERSON_TYPE_ID_NULL_FIELD_NUMBER = 1004;
     private boolean personTypeIdNull_;
     /**
-     * <code>optional bool person_type_id_null = 1004;</code>
+     * <code>bool person_type_id_null = 1004;</code>
      */
     public boolean getPersonTypeIdNull() {
       return personTypeIdNull_;
@@ -388,19 +388,19 @@ public final class OmGetOrderContentInfoPu {
     public static final int INFORMATION_TYPE_ID_LIST_FIELD_NUMBER = 5;
     private io.dstore.values.StringValue informationTypeIdList_;
     /**
-     * <code>optional .dstore.values.StringValue information_type_id_list = 5;</code>
+     * <code>.dstore.values.StringValue information_type_id_list = 5;</code>
      */
     public boolean hasInformationTypeIdList() {
       return informationTypeIdList_ != null;
     }
     /**
-     * <code>optional .dstore.values.StringValue information_type_id_list = 5;</code>
+     * <code>.dstore.values.StringValue information_type_id_list = 5;</code>
      */
     public io.dstore.values.StringValue getInformationTypeIdList() {
       return informationTypeIdList_ == null ? io.dstore.values.StringValue.getDefaultInstance() : informationTypeIdList_;
     }
     /**
-     * <code>optional .dstore.values.StringValue information_type_id_list = 5;</code>
+     * <code>.dstore.values.StringValue information_type_id_list = 5;</code>
      */
     public io.dstore.values.StringValueOrBuilder getInformationTypeIdListOrBuilder() {
       return getInformationTypeIdList();
@@ -409,7 +409,7 @@ public final class OmGetOrderContentInfoPu {
     public static final int INFORMATION_TYPE_ID_LIST_NULL_FIELD_NUMBER = 1005;
     private boolean informationTypeIdListNull_;
     /**
-     * <code>optional bool information_type_id_list_null = 1005;</code>
+     * <code>bool information_type_id_list_null = 1005;</code>
      */
     public boolean getInformationTypeIdListNull() {
       return informationTypeIdListNull_;
@@ -564,7 +564,7 @@ public final class OmGetOrderContentInfoPu {
         return memoizedHashCode;
       }
       int hash = 41;
-      hash = (19 * hash) + getDescriptorForType().hashCode();
+      hash = (19 * hash) + getDescriptor().hashCode();
       if (hasOrderId()) {
         hash = (37 * hash) + ORDER_ID_FIELD_NUMBER;
         hash = (53 * hash) + getOrderId().hashCode();
@@ -911,13 +911,13 @@ public final class OmGetOrderContentInfoPu {
       private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> orderIdBuilder_;
       /**
-       * <code>optional .dstore.values.IntegerValue order_id = 1;</code>
+       * <code>.dstore.values.IntegerValue order_id = 1;</code>
        */
       public boolean hasOrderId() {
         return orderIdBuilder_ != null || orderId_ != null;
       }
       /**
-       * <code>optional .dstore.values.IntegerValue order_id = 1;</code>
+       * <code>.dstore.values.IntegerValue order_id = 1;</code>
        */
       public io.dstore.values.IntegerValue getOrderId() {
         if (orderIdBuilder_ == null) {
@@ -927,7 +927,7 @@ public final class OmGetOrderContentInfoPu {
         }
       }
       /**
-       * <code>optional .dstore.values.IntegerValue order_id = 1;</code>
+       * <code>.dstore.values.IntegerValue order_id = 1;</code>
        */
       public Builder setOrderId(io.dstore.values.IntegerValue value) {
         if (orderIdBuilder_ == null) {
@@ -943,7 +943,7 @@ public final class OmGetOrderContentInfoPu {
         return this;
       }
       /**
-       * <code>optional .dstore.values.IntegerValue order_id = 1;</code>
+       * <code>.dstore.values.IntegerValue order_id = 1;</code>
        */
       public Builder setOrderId(
           io.dstore.values.IntegerValue.Builder builderForValue) {
@@ -957,7 +957,7 @@ public final class OmGetOrderContentInfoPu {
         return this;
       }
       /**
-       * <code>optional .dstore.values.IntegerValue order_id = 1;</code>
+       * <code>.dstore.values.IntegerValue order_id = 1;</code>
        */
       public Builder mergeOrderId(io.dstore.values.IntegerValue value) {
         if (orderIdBuilder_ == null) {
@@ -975,7 +975,7 @@ public final class OmGetOrderContentInfoPu {
         return this;
       }
       /**
-       * <code>optional .dstore.values.IntegerValue order_id = 1;</code>
+       * <code>.dstore.values.IntegerValue order_id = 1;</code>
        */
       public Builder clearOrderId() {
         if (orderIdBuilder_ == null) {
@@ -989,7 +989,7 @@ public final class OmGetOrderContentInfoPu {
         return this;
       }
       /**
-       * <code>optional .dstore.values.IntegerValue order_id = 1;</code>
+       * <code>.dstore.values.IntegerValue order_id = 1;</code>
        */
       public io.dstore.values.IntegerValue.Builder getOrderIdBuilder() {
         
@@ -997,7 +997,7 @@ public final class OmGetOrderContentInfoPu {
         return getOrderIdFieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .dstore.values.IntegerValue order_id = 1;</code>
+       * <code>.dstore.values.IntegerValue order_id = 1;</code>
        */
       public io.dstore.values.IntegerValueOrBuilder getOrderIdOrBuilder() {
         if (orderIdBuilder_ != null) {
@@ -1008,7 +1008,7 @@ public final class OmGetOrderContentInfoPu {
         }
       }
       /**
-       * <code>optional .dstore.values.IntegerValue order_id = 1;</code>
+       * <code>.dstore.values.IntegerValue order_id = 1;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> 
@@ -1026,13 +1026,13 @@ public final class OmGetOrderContentInfoPu {
 
       private boolean orderIdNull_ ;
       /**
-       * <code>optional bool order_id_null = 1001;</code>
+       * <code>bool order_id_null = 1001;</code>
        */
       public boolean getOrderIdNull() {
         return orderIdNull_;
       }
       /**
-       * <code>optional bool order_id_null = 1001;</code>
+       * <code>bool order_id_null = 1001;</code>
        */
       public Builder setOrderIdNull(boolean value) {
         
@@ -1041,7 +1041,7 @@ public final class OmGetOrderContentInfoPu {
         return this;
       }
       /**
-       * <code>optional bool order_id_null = 1001;</code>
+       * <code>bool order_id_null = 1001;</code>
        */
       public Builder clearOrderIdNull() {
         
@@ -1054,13 +1054,13 @@ public final class OmGetOrderContentInfoPu {
       private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> orderContentIdBuilder_;
       /**
-       * <code>optional .dstore.values.IntegerValue order_content_id = 2;</code>
+       * <code>.dstore.values.IntegerValue order_content_id = 2;</code>
        */
       public boolean hasOrderContentId() {
         return orderContentIdBuilder_ != null || orderContentId_ != null;
       }
       /**
-       * <code>optional .dstore.values.IntegerValue order_content_id = 2;</code>
+       * <code>.dstore.values.IntegerValue order_content_id = 2;</code>
        */
       public io.dstore.values.IntegerValue getOrderContentId() {
         if (orderContentIdBuilder_ == null) {
@@ -1070,7 +1070,7 @@ public final class OmGetOrderContentInfoPu {
         }
       }
       /**
-       * <code>optional .dstore.values.IntegerValue order_content_id = 2;</code>
+       * <code>.dstore.values.IntegerValue order_content_id = 2;</code>
        */
       public Builder setOrderContentId(io.dstore.values.IntegerValue value) {
         if (orderContentIdBuilder_ == null) {
@@ -1086,7 +1086,7 @@ public final class OmGetOrderContentInfoPu {
         return this;
       }
       /**
-       * <code>optional .dstore.values.IntegerValue order_content_id = 2;</code>
+       * <code>.dstore.values.IntegerValue order_content_id = 2;</code>
        */
       public Builder setOrderContentId(
           io.dstore.values.IntegerValue.Builder builderForValue) {
@@ -1100,7 +1100,7 @@ public final class OmGetOrderContentInfoPu {
         return this;
       }
       /**
-       * <code>optional .dstore.values.IntegerValue order_content_id = 2;</code>
+       * <code>.dstore.values.IntegerValue order_content_id = 2;</code>
        */
       public Builder mergeOrderContentId(io.dstore.values.IntegerValue value) {
         if (orderContentIdBuilder_ == null) {
@@ -1118,7 +1118,7 @@ public final class OmGetOrderContentInfoPu {
         return this;
       }
       /**
-       * <code>optional .dstore.values.IntegerValue order_content_id = 2;</code>
+       * <code>.dstore.values.IntegerValue order_content_id = 2;</code>
        */
       public Builder clearOrderContentId() {
         if (orderContentIdBuilder_ == null) {
@@ -1132,7 +1132,7 @@ public final class OmGetOrderContentInfoPu {
         return this;
       }
       /**
-       * <code>optional .dstore.values.IntegerValue order_content_id = 2;</code>
+       * <code>.dstore.values.IntegerValue order_content_id = 2;</code>
        */
       public io.dstore.values.IntegerValue.Builder getOrderContentIdBuilder() {
         
@@ -1140,7 +1140,7 @@ public final class OmGetOrderContentInfoPu {
         return getOrderContentIdFieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .dstore.values.IntegerValue order_content_id = 2;</code>
+       * <code>.dstore.values.IntegerValue order_content_id = 2;</code>
        */
       public io.dstore.values.IntegerValueOrBuilder getOrderContentIdOrBuilder() {
         if (orderContentIdBuilder_ != null) {
@@ -1151,7 +1151,7 @@ public final class OmGetOrderContentInfoPu {
         }
       }
       /**
-       * <code>optional .dstore.values.IntegerValue order_content_id = 2;</code>
+       * <code>.dstore.values.IntegerValue order_content_id = 2;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> 
@@ -1169,13 +1169,13 @@ public final class OmGetOrderContentInfoPu {
 
       private boolean orderContentIdNull_ ;
       /**
-       * <code>optional bool order_content_id_null = 1002;</code>
+       * <code>bool order_content_id_null = 1002;</code>
        */
       public boolean getOrderContentIdNull() {
         return orderContentIdNull_;
       }
       /**
-       * <code>optional bool order_content_id_null = 1002;</code>
+       * <code>bool order_content_id_null = 1002;</code>
        */
       public Builder setOrderContentIdNull(boolean value) {
         
@@ -1184,7 +1184,7 @@ public final class OmGetOrderContentInfoPu {
         return this;
       }
       /**
-       * <code>optional bool order_content_id_null = 1002;</code>
+       * <code>bool order_content_id_null = 1002;</code>
        */
       public Builder clearOrderContentIdNull() {
         
@@ -1197,13 +1197,13 @@ public final class OmGetOrderContentInfoPu {
       private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.values.StringValue, io.dstore.values.StringValue.Builder, io.dstore.values.StringValueOrBuilder> personIdentificationValuesBuilder_;
       /**
-       * <code>optional .dstore.values.StringValue person_identification_values = 3;</code>
+       * <code>.dstore.values.StringValue person_identification_values = 3;</code>
        */
       public boolean hasPersonIdentificationValues() {
         return personIdentificationValuesBuilder_ != null || personIdentificationValues_ != null;
       }
       /**
-       * <code>optional .dstore.values.StringValue person_identification_values = 3;</code>
+       * <code>.dstore.values.StringValue person_identification_values = 3;</code>
        */
       public io.dstore.values.StringValue getPersonIdentificationValues() {
         if (personIdentificationValuesBuilder_ == null) {
@@ -1213,7 +1213,7 @@ public final class OmGetOrderContentInfoPu {
         }
       }
       /**
-       * <code>optional .dstore.values.StringValue person_identification_values = 3;</code>
+       * <code>.dstore.values.StringValue person_identification_values = 3;</code>
        */
       public Builder setPersonIdentificationValues(io.dstore.values.StringValue value) {
         if (personIdentificationValuesBuilder_ == null) {
@@ -1229,7 +1229,7 @@ public final class OmGetOrderContentInfoPu {
         return this;
       }
       /**
-       * <code>optional .dstore.values.StringValue person_identification_values = 3;</code>
+       * <code>.dstore.values.StringValue person_identification_values = 3;</code>
        */
       public Builder setPersonIdentificationValues(
           io.dstore.values.StringValue.Builder builderForValue) {
@@ -1243,7 +1243,7 @@ public final class OmGetOrderContentInfoPu {
         return this;
       }
       /**
-       * <code>optional .dstore.values.StringValue person_identification_values = 3;</code>
+       * <code>.dstore.values.StringValue person_identification_values = 3;</code>
        */
       public Builder mergePersonIdentificationValues(io.dstore.values.StringValue value) {
         if (personIdentificationValuesBuilder_ == null) {
@@ -1261,7 +1261,7 @@ public final class OmGetOrderContentInfoPu {
         return this;
       }
       /**
-       * <code>optional .dstore.values.StringValue person_identification_values = 3;</code>
+       * <code>.dstore.values.StringValue person_identification_values = 3;</code>
        */
       public Builder clearPersonIdentificationValues() {
         if (personIdentificationValuesBuilder_ == null) {
@@ -1275,7 +1275,7 @@ public final class OmGetOrderContentInfoPu {
         return this;
       }
       /**
-       * <code>optional .dstore.values.StringValue person_identification_values = 3;</code>
+       * <code>.dstore.values.StringValue person_identification_values = 3;</code>
        */
       public io.dstore.values.StringValue.Builder getPersonIdentificationValuesBuilder() {
         
@@ -1283,7 +1283,7 @@ public final class OmGetOrderContentInfoPu {
         return getPersonIdentificationValuesFieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .dstore.values.StringValue person_identification_values = 3;</code>
+       * <code>.dstore.values.StringValue person_identification_values = 3;</code>
        */
       public io.dstore.values.StringValueOrBuilder getPersonIdentificationValuesOrBuilder() {
         if (personIdentificationValuesBuilder_ != null) {
@@ -1294,7 +1294,7 @@ public final class OmGetOrderContentInfoPu {
         }
       }
       /**
-       * <code>optional .dstore.values.StringValue person_identification_values = 3;</code>
+       * <code>.dstore.values.StringValue person_identification_values = 3;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.values.StringValue, io.dstore.values.StringValue.Builder, io.dstore.values.StringValueOrBuilder> 
@@ -1312,13 +1312,13 @@ public final class OmGetOrderContentInfoPu {
 
       private boolean personIdentificationValuesNull_ ;
       /**
-       * <code>optional bool person_identification_values_null = 1003;</code>
+       * <code>bool person_identification_values_null = 1003;</code>
        */
       public boolean getPersonIdentificationValuesNull() {
         return personIdentificationValuesNull_;
       }
       /**
-       * <code>optional bool person_identification_values_null = 1003;</code>
+       * <code>bool person_identification_values_null = 1003;</code>
        */
       public Builder setPersonIdentificationValuesNull(boolean value) {
         
@@ -1327,7 +1327,7 @@ public final class OmGetOrderContentInfoPu {
         return this;
       }
       /**
-       * <code>optional bool person_identification_values_null = 1003;</code>
+       * <code>bool person_identification_values_null = 1003;</code>
        */
       public Builder clearPersonIdentificationValuesNull() {
         
@@ -1340,13 +1340,13 @@ public final class OmGetOrderContentInfoPu {
       private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> personTypeIdBuilder_;
       /**
-       * <code>optional .dstore.values.IntegerValue person_type_id = 4;</code>
+       * <code>.dstore.values.IntegerValue person_type_id = 4;</code>
        */
       public boolean hasPersonTypeId() {
         return personTypeIdBuilder_ != null || personTypeId_ != null;
       }
       /**
-       * <code>optional .dstore.values.IntegerValue person_type_id = 4;</code>
+       * <code>.dstore.values.IntegerValue person_type_id = 4;</code>
        */
       public io.dstore.values.IntegerValue getPersonTypeId() {
         if (personTypeIdBuilder_ == null) {
@@ -1356,7 +1356,7 @@ public final class OmGetOrderContentInfoPu {
         }
       }
       /**
-       * <code>optional .dstore.values.IntegerValue person_type_id = 4;</code>
+       * <code>.dstore.values.IntegerValue person_type_id = 4;</code>
        */
       public Builder setPersonTypeId(io.dstore.values.IntegerValue value) {
         if (personTypeIdBuilder_ == null) {
@@ -1372,7 +1372,7 @@ public final class OmGetOrderContentInfoPu {
         return this;
       }
       /**
-       * <code>optional .dstore.values.IntegerValue person_type_id = 4;</code>
+       * <code>.dstore.values.IntegerValue person_type_id = 4;</code>
        */
       public Builder setPersonTypeId(
           io.dstore.values.IntegerValue.Builder builderForValue) {
@@ -1386,7 +1386,7 @@ public final class OmGetOrderContentInfoPu {
         return this;
       }
       /**
-       * <code>optional .dstore.values.IntegerValue person_type_id = 4;</code>
+       * <code>.dstore.values.IntegerValue person_type_id = 4;</code>
        */
       public Builder mergePersonTypeId(io.dstore.values.IntegerValue value) {
         if (personTypeIdBuilder_ == null) {
@@ -1404,7 +1404,7 @@ public final class OmGetOrderContentInfoPu {
         return this;
       }
       /**
-       * <code>optional .dstore.values.IntegerValue person_type_id = 4;</code>
+       * <code>.dstore.values.IntegerValue person_type_id = 4;</code>
        */
       public Builder clearPersonTypeId() {
         if (personTypeIdBuilder_ == null) {
@@ -1418,7 +1418,7 @@ public final class OmGetOrderContentInfoPu {
         return this;
       }
       /**
-       * <code>optional .dstore.values.IntegerValue person_type_id = 4;</code>
+       * <code>.dstore.values.IntegerValue person_type_id = 4;</code>
        */
       public io.dstore.values.IntegerValue.Builder getPersonTypeIdBuilder() {
         
@@ -1426,7 +1426,7 @@ public final class OmGetOrderContentInfoPu {
         return getPersonTypeIdFieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .dstore.values.IntegerValue person_type_id = 4;</code>
+       * <code>.dstore.values.IntegerValue person_type_id = 4;</code>
        */
       public io.dstore.values.IntegerValueOrBuilder getPersonTypeIdOrBuilder() {
         if (personTypeIdBuilder_ != null) {
@@ -1437,7 +1437,7 @@ public final class OmGetOrderContentInfoPu {
         }
       }
       /**
-       * <code>optional .dstore.values.IntegerValue person_type_id = 4;</code>
+       * <code>.dstore.values.IntegerValue person_type_id = 4;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> 
@@ -1455,13 +1455,13 @@ public final class OmGetOrderContentInfoPu {
 
       private boolean personTypeIdNull_ ;
       /**
-       * <code>optional bool person_type_id_null = 1004;</code>
+       * <code>bool person_type_id_null = 1004;</code>
        */
       public boolean getPersonTypeIdNull() {
         return personTypeIdNull_;
       }
       /**
-       * <code>optional bool person_type_id_null = 1004;</code>
+       * <code>bool person_type_id_null = 1004;</code>
        */
       public Builder setPersonTypeIdNull(boolean value) {
         
@@ -1470,7 +1470,7 @@ public final class OmGetOrderContentInfoPu {
         return this;
       }
       /**
-       * <code>optional bool person_type_id_null = 1004;</code>
+       * <code>bool person_type_id_null = 1004;</code>
        */
       public Builder clearPersonTypeIdNull() {
         
@@ -1483,13 +1483,13 @@ public final class OmGetOrderContentInfoPu {
       private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.values.StringValue, io.dstore.values.StringValue.Builder, io.dstore.values.StringValueOrBuilder> informationTypeIdListBuilder_;
       /**
-       * <code>optional .dstore.values.StringValue information_type_id_list = 5;</code>
+       * <code>.dstore.values.StringValue information_type_id_list = 5;</code>
        */
       public boolean hasInformationTypeIdList() {
         return informationTypeIdListBuilder_ != null || informationTypeIdList_ != null;
       }
       /**
-       * <code>optional .dstore.values.StringValue information_type_id_list = 5;</code>
+       * <code>.dstore.values.StringValue information_type_id_list = 5;</code>
        */
       public io.dstore.values.StringValue getInformationTypeIdList() {
         if (informationTypeIdListBuilder_ == null) {
@@ -1499,7 +1499,7 @@ public final class OmGetOrderContentInfoPu {
         }
       }
       /**
-       * <code>optional .dstore.values.StringValue information_type_id_list = 5;</code>
+       * <code>.dstore.values.StringValue information_type_id_list = 5;</code>
        */
       public Builder setInformationTypeIdList(io.dstore.values.StringValue value) {
         if (informationTypeIdListBuilder_ == null) {
@@ -1515,7 +1515,7 @@ public final class OmGetOrderContentInfoPu {
         return this;
       }
       /**
-       * <code>optional .dstore.values.StringValue information_type_id_list = 5;</code>
+       * <code>.dstore.values.StringValue information_type_id_list = 5;</code>
        */
       public Builder setInformationTypeIdList(
           io.dstore.values.StringValue.Builder builderForValue) {
@@ -1529,7 +1529,7 @@ public final class OmGetOrderContentInfoPu {
         return this;
       }
       /**
-       * <code>optional .dstore.values.StringValue information_type_id_list = 5;</code>
+       * <code>.dstore.values.StringValue information_type_id_list = 5;</code>
        */
       public Builder mergeInformationTypeIdList(io.dstore.values.StringValue value) {
         if (informationTypeIdListBuilder_ == null) {
@@ -1547,7 +1547,7 @@ public final class OmGetOrderContentInfoPu {
         return this;
       }
       /**
-       * <code>optional .dstore.values.StringValue information_type_id_list = 5;</code>
+       * <code>.dstore.values.StringValue information_type_id_list = 5;</code>
        */
       public Builder clearInformationTypeIdList() {
         if (informationTypeIdListBuilder_ == null) {
@@ -1561,7 +1561,7 @@ public final class OmGetOrderContentInfoPu {
         return this;
       }
       /**
-       * <code>optional .dstore.values.StringValue information_type_id_list = 5;</code>
+       * <code>.dstore.values.StringValue information_type_id_list = 5;</code>
        */
       public io.dstore.values.StringValue.Builder getInformationTypeIdListBuilder() {
         
@@ -1569,7 +1569,7 @@ public final class OmGetOrderContentInfoPu {
         return getInformationTypeIdListFieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .dstore.values.StringValue information_type_id_list = 5;</code>
+       * <code>.dstore.values.StringValue information_type_id_list = 5;</code>
        */
       public io.dstore.values.StringValueOrBuilder getInformationTypeIdListOrBuilder() {
         if (informationTypeIdListBuilder_ != null) {
@@ -1580,7 +1580,7 @@ public final class OmGetOrderContentInfoPu {
         }
       }
       /**
-       * <code>optional .dstore.values.StringValue information_type_id_list = 5;</code>
+       * <code>.dstore.values.StringValue information_type_id_list = 5;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.values.StringValue, io.dstore.values.StringValue.Builder, io.dstore.values.StringValueOrBuilder> 
@@ -1598,13 +1598,13 @@ public final class OmGetOrderContentInfoPu {
 
       private boolean informationTypeIdListNull_ ;
       /**
-       * <code>optional bool information_type_id_list_null = 1005;</code>
+       * <code>bool information_type_id_list_null = 1005;</code>
        */
       public boolean getInformationTypeIdListNull() {
         return informationTypeIdListNull_;
       }
       /**
-       * <code>optional bool information_type_id_list_null = 1005;</code>
+       * <code>bool information_type_id_list_null = 1005;</code>
        */
       public Builder setInformationTypeIdListNull(boolean value) {
         
@@ -1613,7 +1613,7 @@ public final class OmGetOrderContentInfoPu {
         return this;
       }
       /**
-       * <code>optional bool information_type_id_list_null = 1005;</code>
+       * <code>bool information_type_id_list_null = 1005;</code>
        */
       public Builder clearInformationTypeIdListNull() {
         
@@ -1872,7 +1872,7 @@ public final class OmGetOrderContentInfoPu {
         com.google.protobuf.MessageOrBuilder {
 
       /**
-       * <code>optional int32 row_id = 10000;</code>
+       * <code>int32 row_id = 10000;</code>
        */
       int getRowId();
 
@@ -1881,7 +1881,7 @@ public final class OmGetOrderContentInfoPu {
        * ID eines Informationstyps, also um was es sich bei der Zusatz-Information "Information" handelt
        * </pre>
        *
-       * <code>optional .dstore.values.IntegerValue information_type_id = 10001;</code>
+       * <code>.dstore.values.IntegerValue information_type_id = 10001;</code>
        */
       boolean hasInformationTypeId();
       /**
@@ -1889,7 +1889,7 @@ public final class OmGetOrderContentInfoPu {
        * ID eines Informationstyps, also um was es sich bei der Zusatz-Information "Information" handelt
        * </pre>
        *
-       * <code>optional .dstore.values.IntegerValue information_type_id = 10001;</code>
+       * <code>.dstore.values.IntegerValue information_type_id = 10001;</code>
        */
       io.dstore.values.IntegerValue getInformationTypeId();
       /**
@@ -1897,7 +1897,7 @@ public final class OmGetOrderContentInfoPu {
        * ID eines Informationstyps, also um was es sich bei der Zusatz-Information "Information" handelt
        * </pre>
        *
-       * <code>optional .dstore.values.IntegerValue information_type_id = 10001;</code>
+       * <code>.dstore.values.IntegerValue information_type_id = 10001;</code>
        */
       io.dstore.values.IntegerValueOrBuilder getInformationTypeIdOrBuilder();
 
@@ -1906,7 +1906,7 @@ public final class OmGetOrderContentInfoPu {
        * Um die wievielte Position des Auftrags "OrderID" handelt es sich bei "OrderContentID"
        * </pre>
        *
-       * <code>optional .dstore.values.IntegerValue position = 10002;</code>
+       * <code>.dstore.values.IntegerValue position = 10002;</code>
        */
       boolean hasPosition();
       /**
@@ -1914,7 +1914,7 @@ public final class OmGetOrderContentInfoPu {
        * Um die wievielte Position des Auftrags "OrderID" handelt es sich bei "OrderContentID"
        * </pre>
        *
-       * <code>optional .dstore.values.IntegerValue position = 10002;</code>
+       * <code>.dstore.values.IntegerValue position = 10002;</code>
        */
       io.dstore.values.IntegerValue getPosition();
       /**
@@ -1922,7 +1922,7 @@ public final class OmGetOrderContentInfoPu {
        * Um die wievielte Position des Auftrags "OrderID" handelt es sich bei "OrderContentID"
        * </pre>
        *
-       * <code>optional .dstore.values.IntegerValue position = 10002;</code>
+       * <code>.dstore.values.IntegerValue position = 10002;</code>
        */
       io.dstore.values.IntegerValueOrBuilder getPositionOrBuilder();
 
@@ -1931,7 +1931,7 @@ public final class OmGetOrderContentInfoPu {
        * ID eines Auftrags
        * </pre>
        *
-       * <code>optional .dstore.values.IntegerValue order_id = 10003;</code>
+       * <code>.dstore.values.IntegerValue order_id = 10003;</code>
        */
       boolean hasOrderId();
       /**
@@ -1939,7 +1939,7 @@ public final class OmGetOrderContentInfoPu {
        * ID eines Auftrags
        * </pre>
        *
-       * <code>optional .dstore.values.IntegerValue order_id = 10003;</code>
+       * <code>.dstore.values.IntegerValue order_id = 10003;</code>
        */
       io.dstore.values.IntegerValue getOrderId();
       /**
@@ -1947,7 +1947,7 @@ public final class OmGetOrderContentInfoPu {
        * ID eines Auftrags
        * </pre>
        *
-       * <code>optional .dstore.values.IntegerValue order_id = 10003;</code>
+       * <code>.dstore.values.IntegerValue order_id = 10003;</code>
        */
       io.dstore.values.IntegerValueOrBuilder getOrderIdOrBuilder();
 
@@ -1956,7 +1956,7 @@ public final class OmGetOrderContentInfoPu {
        * Bezeichnung der "InformationTypeID"
        * </pre>
        *
-       * <code>optional .dstore.values.StringValue information_type = 10004;</code>
+       * <code>.dstore.values.StringValue information_type = 10004;</code>
        */
       boolean hasInformationType();
       /**
@@ -1964,7 +1964,7 @@ public final class OmGetOrderContentInfoPu {
        * Bezeichnung der "InformationTypeID"
        * </pre>
        *
-       * <code>optional .dstore.values.StringValue information_type = 10004;</code>
+       * <code>.dstore.values.StringValue information_type = 10004;</code>
        */
       io.dstore.values.StringValue getInformationType();
       /**
@@ -1972,7 +1972,7 @@ public final class OmGetOrderContentInfoPu {
        * Bezeichnung der "InformationTypeID"
        * </pre>
        *
-       * <code>optional .dstore.values.StringValue information_type = 10004;</code>
+       * <code>.dstore.values.StringValue information_type = 10004;</code>
        */
       io.dstore.values.StringValueOrBuilder getInformationTypeOrBuilder();
 
@@ -1981,7 +1981,7 @@ public final class OmGetOrderContentInfoPu {
        * Die zur Auftrags-Position "OrderContentID" hinterlegt Information des Typs "InformationTypeID"
        * </pre>
        *
-       * <code>optional .dstore.values.StringValue information = 10005;</code>
+       * <code>.dstore.values.StringValue information = 10005;</code>
        */
       boolean hasInformation();
       /**
@@ -1989,7 +1989,7 @@ public final class OmGetOrderContentInfoPu {
        * Die zur Auftrags-Position "OrderContentID" hinterlegt Information des Typs "InformationTypeID"
        * </pre>
        *
-       * <code>optional .dstore.values.StringValue information = 10005;</code>
+       * <code>.dstore.values.StringValue information = 10005;</code>
        */
       io.dstore.values.StringValue getInformation();
       /**
@@ -1997,7 +1997,7 @@ public final class OmGetOrderContentInfoPu {
        * Die zur Auftrags-Position "OrderContentID" hinterlegt Information des Typs "InformationTypeID"
        * </pre>
        *
-       * <code>optional .dstore.values.StringValue information = 10005;</code>
+       * <code>.dstore.values.StringValue information = 10005;</code>
        */
       io.dstore.values.StringValueOrBuilder getInformationOrBuilder();
 
@@ -2006,7 +2006,7 @@ public final class OmGetOrderContentInfoPu {
        * ID einer Auftrags-Position des Auftrags "OrderID"
        * </pre>
        *
-       * <code>optional .dstore.values.IntegerValue order_content_id = 10006;</code>
+       * <code>.dstore.values.IntegerValue order_content_id = 10006;</code>
        */
       boolean hasOrderContentId();
       /**
@@ -2014,7 +2014,7 @@ public final class OmGetOrderContentInfoPu {
        * ID einer Auftrags-Position des Auftrags "OrderID"
        * </pre>
        *
-       * <code>optional .dstore.values.IntegerValue order_content_id = 10006;</code>
+       * <code>.dstore.values.IntegerValue order_content_id = 10006;</code>
        */
       io.dstore.values.IntegerValue getOrderContentId();
       /**
@@ -2022,7 +2022,7 @@ public final class OmGetOrderContentInfoPu {
        * ID einer Auftrags-Position des Auftrags "OrderID"
        * </pre>
        *
-       * <code>optional .dstore.values.IntegerValue order_content_id = 10006;</code>
+       * <code>.dstore.values.IntegerValue order_content_id = 10006;</code>
        */
       io.dstore.values.IntegerValueOrBuilder getOrderContentIdOrBuilder();
     }
@@ -2175,7 +2175,7 @@ public final class OmGetOrderContentInfoPu {
       public static final int ROW_ID_FIELD_NUMBER = 10000;
       private int rowId_;
       /**
-       * <code>optional int32 row_id = 10000;</code>
+       * <code>int32 row_id = 10000;</code>
        */
       public int getRowId() {
         return rowId_;
@@ -2188,7 +2188,7 @@ public final class OmGetOrderContentInfoPu {
        * ID eines Informationstyps, also um was es sich bei der Zusatz-Information "Information" handelt
        * </pre>
        *
-       * <code>optional .dstore.values.IntegerValue information_type_id = 10001;</code>
+       * <code>.dstore.values.IntegerValue information_type_id = 10001;</code>
        */
       public boolean hasInformationTypeId() {
         return informationTypeId_ != null;
@@ -2198,7 +2198,7 @@ public final class OmGetOrderContentInfoPu {
        * ID eines Informationstyps, also um was es sich bei der Zusatz-Information "Information" handelt
        * </pre>
        *
-       * <code>optional .dstore.values.IntegerValue information_type_id = 10001;</code>
+       * <code>.dstore.values.IntegerValue information_type_id = 10001;</code>
        */
       public io.dstore.values.IntegerValue getInformationTypeId() {
         return informationTypeId_ == null ? io.dstore.values.IntegerValue.getDefaultInstance() : informationTypeId_;
@@ -2208,7 +2208,7 @@ public final class OmGetOrderContentInfoPu {
        * ID eines Informationstyps, also um was es sich bei der Zusatz-Information "Information" handelt
        * </pre>
        *
-       * <code>optional .dstore.values.IntegerValue information_type_id = 10001;</code>
+       * <code>.dstore.values.IntegerValue information_type_id = 10001;</code>
        */
       public io.dstore.values.IntegerValueOrBuilder getInformationTypeIdOrBuilder() {
         return getInformationTypeId();
@@ -2221,7 +2221,7 @@ public final class OmGetOrderContentInfoPu {
        * Um die wievielte Position des Auftrags "OrderID" handelt es sich bei "OrderContentID"
        * </pre>
        *
-       * <code>optional .dstore.values.IntegerValue position = 10002;</code>
+       * <code>.dstore.values.IntegerValue position = 10002;</code>
        */
       public boolean hasPosition() {
         return position_ != null;
@@ -2231,7 +2231,7 @@ public final class OmGetOrderContentInfoPu {
        * Um die wievielte Position des Auftrags "OrderID" handelt es sich bei "OrderContentID"
        * </pre>
        *
-       * <code>optional .dstore.values.IntegerValue position = 10002;</code>
+       * <code>.dstore.values.IntegerValue position = 10002;</code>
        */
       public io.dstore.values.IntegerValue getPosition() {
         return position_ == null ? io.dstore.values.IntegerValue.getDefaultInstance() : position_;
@@ -2241,7 +2241,7 @@ public final class OmGetOrderContentInfoPu {
        * Um die wievielte Position des Auftrags "OrderID" handelt es sich bei "OrderContentID"
        * </pre>
        *
-       * <code>optional .dstore.values.IntegerValue position = 10002;</code>
+       * <code>.dstore.values.IntegerValue position = 10002;</code>
        */
       public io.dstore.values.IntegerValueOrBuilder getPositionOrBuilder() {
         return getPosition();
@@ -2254,7 +2254,7 @@ public final class OmGetOrderContentInfoPu {
        * ID eines Auftrags
        * </pre>
        *
-       * <code>optional .dstore.values.IntegerValue order_id = 10003;</code>
+       * <code>.dstore.values.IntegerValue order_id = 10003;</code>
        */
       public boolean hasOrderId() {
         return orderId_ != null;
@@ -2264,7 +2264,7 @@ public final class OmGetOrderContentInfoPu {
        * ID eines Auftrags
        * </pre>
        *
-       * <code>optional .dstore.values.IntegerValue order_id = 10003;</code>
+       * <code>.dstore.values.IntegerValue order_id = 10003;</code>
        */
       public io.dstore.values.IntegerValue getOrderId() {
         return orderId_ == null ? io.dstore.values.IntegerValue.getDefaultInstance() : orderId_;
@@ -2274,7 +2274,7 @@ public final class OmGetOrderContentInfoPu {
        * ID eines Auftrags
        * </pre>
        *
-       * <code>optional .dstore.values.IntegerValue order_id = 10003;</code>
+       * <code>.dstore.values.IntegerValue order_id = 10003;</code>
        */
       public io.dstore.values.IntegerValueOrBuilder getOrderIdOrBuilder() {
         return getOrderId();
@@ -2287,7 +2287,7 @@ public final class OmGetOrderContentInfoPu {
        * Bezeichnung der "InformationTypeID"
        * </pre>
        *
-       * <code>optional .dstore.values.StringValue information_type = 10004;</code>
+       * <code>.dstore.values.StringValue information_type = 10004;</code>
        */
       public boolean hasInformationType() {
         return informationType_ != null;
@@ -2297,7 +2297,7 @@ public final class OmGetOrderContentInfoPu {
        * Bezeichnung der "InformationTypeID"
        * </pre>
        *
-       * <code>optional .dstore.values.StringValue information_type = 10004;</code>
+       * <code>.dstore.values.StringValue information_type = 10004;</code>
        */
       public io.dstore.values.StringValue getInformationType() {
         return informationType_ == null ? io.dstore.values.StringValue.getDefaultInstance() : informationType_;
@@ -2307,7 +2307,7 @@ public final class OmGetOrderContentInfoPu {
        * Bezeichnung der "InformationTypeID"
        * </pre>
        *
-       * <code>optional .dstore.values.StringValue information_type = 10004;</code>
+       * <code>.dstore.values.StringValue information_type = 10004;</code>
        */
       public io.dstore.values.StringValueOrBuilder getInformationTypeOrBuilder() {
         return getInformationType();
@@ -2320,7 +2320,7 @@ public final class OmGetOrderContentInfoPu {
        * Die zur Auftrags-Position "OrderContentID" hinterlegt Information des Typs "InformationTypeID"
        * </pre>
        *
-       * <code>optional .dstore.values.StringValue information = 10005;</code>
+       * <code>.dstore.values.StringValue information = 10005;</code>
        */
       public boolean hasInformation() {
         return information_ != null;
@@ -2330,7 +2330,7 @@ public final class OmGetOrderContentInfoPu {
        * Die zur Auftrags-Position "OrderContentID" hinterlegt Information des Typs "InformationTypeID"
        * </pre>
        *
-       * <code>optional .dstore.values.StringValue information = 10005;</code>
+       * <code>.dstore.values.StringValue information = 10005;</code>
        */
       public io.dstore.values.StringValue getInformation() {
         return information_ == null ? io.dstore.values.StringValue.getDefaultInstance() : information_;
@@ -2340,7 +2340,7 @@ public final class OmGetOrderContentInfoPu {
        * Die zur Auftrags-Position "OrderContentID" hinterlegt Information des Typs "InformationTypeID"
        * </pre>
        *
-       * <code>optional .dstore.values.StringValue information = 10005;</code>
+       * <code>.dstore.values.StringValue information = 10005;</code>
        */
       public io.dstore.values.StringValueOrBuilder getInformationOrBuilder() {
         return getInformation();
@@ -2353,7 +2353,7 @@ public final class OmGetOrderContentInfoPu {
        * ID einer Auftrags-Position des Auftrags "OrderID"
        * </pre>
        *
-       * <code>optional .dstore.values.IntegerValue order_content_id = 10006;</code>
+       * <code>.dstore.values.IntegerValue order_content_id = 10006;</code>
        */
       public boolean hasOrderContentId() {
         return orderContentId_ != null;
@@ -2363,7 +2363,7 @@ public final class OmGetOrderContentInfoPu {
        * ID einer Auftrags-Position des Auftrags "OrderID"
        * </pre>
        *
-       * <code>optional .dstore.values.IntegerValue order_content_id = 10006;</code>
+       * <code>.dstore.values.IntegerValue order_content_id = 10006;</code>
        */
       public io.dstore.values.IntegerValue getOrderContentId() {
         return orderContentId_ == null ? io.dstore.values.IntegerValue.getDefaultInstance() : orderContentId_;
@@ -2373,7 +2373,7 @@ public final class OmGetOrderContentInfoPu {
        * ID einer Auftrags-Position des Auftrags "OrderID"
        * </pre>
        *
-       * <code>optional .dstore.values.IntegerValue order_content_id = 10006;</code>
+       * <code>.dstore.values.IntegerValue order_content_id = 10006;</code>
        */
       public io.dstore.values.IntegerValueOrBuilder getOrderContentIdOrBuilder() {
         return getOrderContentId();
@@ -2504,7 +2504,7 @@ public final class OmGetOrderContentInfoPu {
           return memoizedHashCode;
         }
         int hash = 41;
-        hash = (19 * hash) + getDescriptorForType().hashCode();
+        hash = (19 * hash) + getDescriptor().hashCode();
         hash = (37 * hash) + ROW_ID_FIELD_NUMBER;
         hash = (53 * hash) + getRowId();
         if (hasInformationTypeId()) {
@@ -2830,13 +2830,13 @@ public final class OmGetOrderContentInfoPu {
 
         private int rowId_ ;
         /**
-         * <code>optional int32 row_id = 10000;</code>
+         * <code>int32 row_id = 10000;</code>
          */
         public int getRowId() {
           return rowId_;
         }
         /**
-         * <code>optional int32 row_id = 10000;</code>
+         * <code>int32 row_id = 10000;</code>
          */
         public Builder setRowId(int value) {
           
@@ -2845,7 +2845,7 @@ public final class OmGetOrderContentInfoPu {
           return this;
         }
         /**
-         * <code>optional int32 row_id = 10000;</code>
+         * <code>int32 row_id = 10000;</code>
          */
         public Builder clearRowId() {
           
@@ -2862,7 +2862,7 @@ public final class OmGetOrderContentInfoPu {
          * ID eines Informationstyps, also um was es sich bei der Zusatz-Information "Information" handelt
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue information_type_id = 10001;</code>
+         * <code>.dstore.values.IntegerValue information_type_id = 10001;</code>
          */
         public boolean hasInformationTypeId() {
           return informationTypeIdBuilder_ != null || informationTypeId_ != null;
@@ -2872,7 +2872,7 @@ public final class OmGetOrderContentInfoPu {
          * ID eines Informationstyps, also um was es sich bei der Zusatz-Information "Information" handelt
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue information_type_id = 10001;</code>
+         * <code>.dstore.values.IntegerValue information_type_id = 10001;</code>
          */
         public io.dstore.values.IntegerValue getInformationTypeId() {
           if (informationTypeIdBuilder_ == null) {
@@ -2886,7 +2886,7 @@ public final class OmGetOrderContentInfoPu {
          * ID eines Informationstyps, also um was es sich bei der Zusatz-Information "Information" handelt
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue information_type_id = 10001;</code>
+         * <code>.dstore.values.IntegerValue information_type_id = 10001;</code>
          */
         public Builder setInformationTypeId(io.dstore.values.IntegerValue value) {
           if (informationTypeIdBuilder_ == null) {
@@ -2906,7 +2906,7 @@ public final class OmGetOrderContentInfoPu {
          * ID eines Informationstyps, also um was es sich bei der Zusatz-Information "Information" handelt
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue information_type_id = 10001;</code>
+         * <code>.dstore.values.IntegerValue information_type_id = 10001;</code>
          */
         public Builder setInformationTypeId(
             io.dstore.values.IntegerValue.Builder builderForValue) {
@@ -2924,7 +2924,7 @@ public final class OmGetOrderContentInfoPu {
          * ID eines Informationstyps, also um was es sich bei der Zusatz-Information "Information" handelt
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue information_type_id = 10001;</code>
+         * <code>.dstore.values.IntegerValue information_type_id = 10001;</code>
          */
         public Builder mergeInformationTypeId(io.dstore.values.IntegerValue value) {
           if (informationTypeIdBuilder_ == null) {
@@ -2946,7 +2946,7 @@ public final class OmGetOrderContentInfoPu {
          * ID eines Informationstyps, also um was es sich bei der Zusatz-Information "Information" handelt
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue information_type_id = 10001;</code>
+         * <code>.dstore.values.IntegerValue information_type_id = 10001;</code>
          */
         public Builder clearInformationTypeId() {
           if (informationTypeIdBuilder_ == null) {
@@ -2964,7 +2964,7 @@ public final class OmGetOrderContentInfoPu {
          * ID eines Informationstyps, also um was es sich bei der Zusatz-Information "Information" handelt
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue information_type_id = 10001;</code>
+         * <code>.dstore.values.IntegerValue information_type_id = 10001;</code>
          */
         public io.dstore.values.IntegerValue.Builder getInformationTypeIdBuilder() {
           
@@ -2976,7 +2976,7 @@ public final class OmGetOrderContentInfoPu {
          * ID eines Informationstyps, also um was es sich bei der Zusatz-Information "Information" handelt
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue information_type_id = 10001;</code>
+         * <code>.dstore.values.IntegerValue information_type_id = 10001;</code>
          */
         public io.dstore.values.IntegerValueOrBuilder getInformationTypeIdOrBuilder() {
           if (informationTypeIdBuilder_ != null) {
@@ -2991,7 +2991,7 @@ public final class OmGetOrderContentInfoPu {
          * ID eines Informationstyps, also um was es sich bei der Zusatz-Information "Information" handelt
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue information_type_id = 10001;</code>
+         * <code>.dstore.values.IntegerValue information_type_id = 10001;</code>
          */
         private com.google.protobuf.SingleFieldBuilderV3<
             io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> 
@@ -3015,7 +3015,7 @@ public final class OmGetOrderContentInfoPu {
          * Um die wievielte Position des Auftrags "OrderID" handelt es sich bei "OrderContentID"
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue position = 10002;</code>
+         * <code>.dstore.values.IntegerValue position = 10002;</code>
          */
         public boolean hasPosition() {
           return positionBuilder_ != null || position_ != null;
@@ -3025,7 +3025,7 @@ public final class OmGetOrderContentInfoPu {
          * Um die wievielte Position des Auftrags "OrderID" handelt es sich bei "OrderContentID"
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue position = 10002;</code>
+         * <code>.dstore.values.IntegerValue position = 10002;</code>
          */
         public io.dstore.values.IntegerValue getPosition() {
           if (positionBuilder_ == null) {
@@ -3039,7 +3039,7 @@ public final class OmGetOrderContentInfoPu {
          * Um die wievielte Position des Auftrags "OrderID" handelt es sich bei "OrderContentID"
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue position = 10002;</code>
+         * <code>.dstore.values.IntegerValue position = 10002;</code>
          */
         public Builder setPosition(io.dstore.values.IntegerValue value) {
           if (positionBuilder_ == null) {
@@ -3059,7 +3059,7 @@ public final class OmGetOrderContentInfoPu {
          * Um die wievielte Position des Auftrags "OrderID" handelt es sich bei "OrderContentID"
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue position = 10002;</code>
+         * <code>.dstore.values.IntegerValue position = 10002;</code>
          */
         public Builder setPosition(
             io.dstore.values.IntegerValue.Builder builderForValue) {
@@ -3077,7 +3077,7 @@ public final class OmGetOrderContentInfoPu {
          * Um die wievielte Position des Auftrags "OrderID" handelt es sich bei "OrderContentID"
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue position = 10002;</code>
+         * <code>.dstore.values.IntegerValue position = 10002;</code>
          */
         public Builder mergePosition(io.dstore.values.IntegerValue value) {
           if (positionBuilder_ == null) {
@@ -3099,7 +3099,7 @@ public final class OmGetOrderContentInfoPu {
          * Um die wievielte Position des Auftrags "OrderID" handelt es sich bei "OrderContentID"
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue position = 10002;</code>
+         * <code>.dstore.values.IntegerValue position = 10002;</code>
          */
         public Builder clearPosition() {
           if (positionBuilder_ == null) {
@@ -3117,7 +3117,7 @@ public final class OmGetOrderContentInfoPu {
          * Um die wievielte Position des Auftrags "OrderID" handelt es sich bei "OrderContentID"
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue position = 10002;</code>
+         * <code>.dstore.values.IntegerValue position = 10002;</code>
          */
         public io.dstore.values.IntegerValue.Builder getPositionBuilder() {
           
@@ -3129,7 +3129,7 @@ public final class OmGetOrderContentInfoPu {
          * Um die wievielte Position des Auftrags "OrderID" handelt es sich bei "OrderContentID"
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue position = 10002;</code>
+         * <code>.dstore.values.IntegerValue position = 10002;</code>
          */
         public io.dstore.values.IntegerValueOrBuilder getPositionOrBuilder() {
           if (positionBuilder_ != null) {
@@ -3144,7 +3144,7 @@ public final class OmGetOrderContentInfoPu {
          * Um die wievielte Position des Auftrags "OrderID" handelt es sich bei "OrderContentID"
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue position = 10002;</code>
+         * <code>.dstore.values.IntegerValue position = 10002;</code>
          */
         private com.google.protobuf.SingleFieldBuilderV3<
             io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> 
@@ -3168,7 +3168,7 @@ public final class OmGetOrderContentInfoPu {
          * ID eines Auftrags
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue order_id = 10003;</code>
+         * <code>.dstore.values.IntegerValue order_id = 10003;</code>
          */
         public boolean hasOrderId() {
           return orderIdBuilder_ != null || orderId_ != null;
@@ -3178,7 +3178,7 @@ public final class OmGetOrderContentInfoPu {
          * ID eines Auftrags
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue order_id = 10003;</code>
+         * <code>.dstore.values.IntegerValue order_id = 10003;</code>
          */
         public io.dstore.values.IntegerValue getOrderId() {
           if (orderIdBuilder_ == null) {
@@ -3192,7 +3192,7 @@ public final class OmGetOrderContentInfoPu {
          * ID eines Auftrags
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue order_id = 10003;</code>
+         * <code>.dstore.values.IntegerValue order_id = 10003;</code>
          */
         public Builder setOrderId(io.dstore.values.IntegerValue value) {
           if (orderIdBuilder_ == null) {
@@ -3212,7 +3212,7 @@ public final class OmGetOrderContentInfoPu {
          * ID eines Auftrags
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue order_id = 10003;</code>
+         * <code>.dstore.values.IntegerValue order_id = 10003;</code>
          */
         public Builder setOrderId(
             io.dstore.values.IntegerValue.Builder builderForValue) {
@@ -3230,7 +3230,7 @@ public final class OmGetOrderContentInfoPu {
          * ID eines Auftrags
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue order_id = 10003;</code>
+         * <code>.dstore.values.IntegerValue order_id = 10003;</code>
          */
         public Builder mergeOrderId(io.dstore.values.IntegerValue value) {
           if (orderIdBuilder_ == null) {
@@ -3252,7 +3252,7 @@ public final class OmGetOrderContentInfoPu {
          * ID eines Auftrags
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue order_id = 10003;</code>
+         * <code>.dstore.values.IntegerValue order_id = 10003;</code>
          */
         public Builder clearOrderId() {
           if (orderIdBuilder_ == null) {
@@ -3270,7 +3270,7 @@ public final class OmGetOrderContentInfoPu {
          * ID eines Auftrags
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue order_id = 10003;</code>
+         * <code>.dstore.values.IntegerValue order_id = 10003;</code>
          */
         public io.dstore.values.IntegerValue.Builder getOrderIdBuilder() {
           
@@ -3282,7 +3282,7 @@ public final class OmGetOrderContentInfoPu {
          * ID eines Auftrags
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue order_id = 10003;</code>
+         * <code>.dstore.values.IntegerValue order_id = 10003;</code>
          */
         public io.dstore.values.IntegerValueOrBuilder getOrderIdOrBuilder() {
           if (orderIdBuilder_ != null) {
@@ -3297,7 +3297,7 @@ public final class OmGetOrderContentInfoPu {
          * ID eines Auftrags
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue order_id = 10003;</code>
+         * <code>.dstore.values.IntegerValue order_id = 10003;</code>
          */
         private com.google.protobuf.SingleFieldBuilderV3<
             io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> 
@@ -3321,7 +3321,7 @@ public final class OmGetOrderContentInfoPu {
          * Bezeichnung der "InformationTypeID"
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue information_type = 10004;</code>
+         * <code>.dstore.values.StringValue information_type = 10004;</code>
          */
         public boolean hasInformationType() {
           return informationTypeBuilder_ != null || informationType_ != null;
@@ -3331,7 +3331,7 @@ public final class OmGetOrderContentInfoPu {
          * Bezeichnung der "InformationTypeID"
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue information_type = 10004;</code>
+         * <code>.dstore.values.StringValue information_type = 10004;</code>
          */
         public io.dstore.values.StringValue getInformationType() {
           if (informationTypeBuilder_ == null) {
@@ -3345,7 +3345,7 @@ public final class OmGetOrderContentInfoPu {
          * Bezeichnung der "InformationTypeID"
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue information_type = 10004;</code>
+         * <code>.dstore.values.StringValue information_type = 10004;</code>
          */
         public Builder setInformationType(io.dstore.values.StringValue value) {
           if (informationTypeBuilder_ == null) {
@@ -3365,7 +3365,7 @@ public final class OmGetOrderContentInfoPu {
          * Bezeichnung der "InformationTypeID"
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue information_type = 10004;</code>
+         * <code>.dstore.values.StringValue information_type = 10004;</code>
          */
         public Builder setInformationType(
             io.dstore.values.StringValue.Builder builderForValue) {
@@ -3383,7 +3383,7 @@ public final class OmGetOrderContentInfoPu {
          * Bezeichnung der "InformationTypeID"
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue information_type = 10004;</code>
+         * <code>.dstore.values.StringValue information_type = 10004;</code>
          */
         public Builder mergeInformationType(io.dstore.values.StringValue value) {
           if (informationTypeBuilder_ == null) {
@@ -3405,7 +3405,7 @@ public final class OmGetOrderContentInfoPu {
          * Bezeichnung der "InformationTypeID"
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue information_type = 10004;</code>
+         * <code>.dstore.values.StringValue information_type = 10004;</code>
          */
         public Builder clearInformationType() {
           if (informationTypeBuilder_ == null) {
@@ -3423,7 +3423,7 @@ public final class OmGetOrderContentInfoPu {
          * Bezeichnung der "InformationTypeID"
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue information_type = 10004;</code>
+         * <code>.dstore.values.StringValue information_type = 10004;</code>
          */
         public io.dstore.values.StringValue.Builder getInformationTypeBuilder() {
           
@@ -3435,7 +3435,7 @@ public final class OmGetOrderContentInfoPu {
          * Bezeichnung der "InformationTypeID"
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue information_type = 10004;</code>
+         * <code>.dstore.values.StringValue information_type = 10004;</code>
          */
         public io.dstore.values.StringValueOrBuilder getInformationTypeOrBuilder() {
           if (informationTypeBuilder_ != null) {
@@ -3450,7 +3450,7 @@ public final class OmGetOrderContentInfoPu {
          * Bezeichnung der "InformationTypeID"
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue information_type = 10004;</code>
+         * <code>.dstore.values.StringValue information_type = 10004;</code>
          */
         private com.google.protobuf.SingleFieldBuilderV3<
             io.dstore.values.StringValue, io.dstore.values.StringValue.Builder, io.dstore.values.StringValueOrBuilder> 
@@ -3474,7 +3474,7 @@ public final class OmGetOrderContentInfoPu {
          * Die zur Auftrags-Position "OrderContentID" hinterlegt Information des Typs "InformationTypeID"
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue information = 10005;</code>
+         * <code>.dstore.values.StringValue information = 10005;</code>
          */
         public boolean hasInformation() {
           return informationBuilder_ != null || information_ != null;
@@ -3484,7 +3484,7 @@ public final class OmGetOrderContentInfoPu {
          * Die zur Auftrags-Position "OrderContentID" hinterlegt Information des Typs "InformationTypeID"
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue information = 10005;</code>
+         * <code>.dstore.values.StringValue information = 10005;</code>
          */
         public io.dstore.values.StringValue getInformation() {
           if (informationBuilder_ == null) {
@@ -3498,7 +3498,7 @@ public final class OmGetOrderContentInfoPu {
          * Die zur Auftrags-Position "OrderContentID" hinterlegt Information des Typs "InformationTypeID"
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue information = 10005;</code>
+         * <code>.dstore.values.StringValue information = 10005;</code>
          */
         public Builder setInformation(io.dstore.values.StringValue value) {
           if (informationBuilder_ == null) {
@@ -3518,7 +3518,7 @@ public final class OmGetOrderContentInfoPu {
          * Die zur Auftrags-Position "OrderContentID" hinterlegt Information des Typs "InformationTypeID"
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue information = 10005;</code>
+         * <code>.dstore.values.StringValue information = 10005;</code>
          */
         public Builder setInformation(
             io.dstore.values.StringValue.Builder builderForValue) {
@@ -3536,7 +3536,7 @@ public final class OmGetOrderContentInfoPu {
          * Die zur Auftrags-Position "OrderContentID" hinterlegt Information des Typs "InformationTypeID"
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue information = 10005;</code>
+         * <code>.dstore.values.StringValue information = 10005;</code>
          */
         public Builder mergeInformation(io.dstore.values.StringValue value) {
           if (informationBuilder_ == null) {
@@ -3558,7 +3558,7 @@ public final class OmGetOrderContentInfoPu {
          * Die zur Auftrags-Position "OrderContentID" hinterlegt Information des Typs "InformationTypeID"
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue information = 10005;</code>
+         * <code>.dstore.values.StringValue information = 10005;</code>
          */
         public Builder clearInformation() {
           if (informationBuilder_ == null) {
@@ -3576,7 +3576,7 @@ public final class OmGetOrderContentInfoPu {
          * Die zur Auftrags-Position "OrderContentID" hinterlegt Information des Typs "InformationTypeID"
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue information = 10005;</code>
+         * <code>.dstore.values.StringValue information = 10005;</code>
          */
         public io.dstore.values.StringValue.Builder getInformationBuilder() {
           
@@ -3588,7 +3588,7 @@ public final class OmGetOrderContentInfoPu {
          * Die zur Auftrags-Position "OrderContentID" hinterlegt Information des Typs "InformationTypeID"
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue information = 10005;</code>
+         * <code>.dstore.values.StringValue information = 10005;</code>
          */
         public io.dstore.values.StringValueOrBuilder getInformationOrBuilder() {
           if (informationBuilder_ != null) {
@@ -3603,7 +3603,7 @@ public final class OmGetOrderContentInfoPu {
          * Die zur Auftrags-Position "OrderContentID" hinterlegt Information des Typs "InformationTypeID"
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue information = 10005;</code>
+         * <code>.dstore.values.StringValue information = 10005;</code>
          */
         private com.google.protobuf.SingleFieldBuilderV3<
             io.dstore.values.StringValue, io.dstore.values.StringValue.Builder, io.dstore.values.StringValueOrBuilder> 
@@ -3627,7 +3627,7 @@ public final class OmGetOrderContentInfoPu {
          * ID einer Auftrags-Position des Auftrags "OrderID"
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue order_content_id = 10006;</code>
+         * <code>.dstore.values.IntegerValue order_content_id = 10006;</code>
          */
         public boolean hasOrderContentId() {
           return orderContentIdBuilder_ != null || orderContentId_ != null;
@@ -3637,7 +3637,7 @@ public final class OmGetOrderContentInfoPu {
          * ID einer Auftrags-Position des Auftrags "OrderID"
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue order_content_id = 10006;</code>
+         * <code>.dstore.values.IntegerValue order_content_id = 10006;</code>
          */
         public io.dstore.values.IntegerValue getOrderContentId() {
           if (orderContentIdBuilder_ == null) {
@@ -3651,7 +3651,7 @@ public final class OmGetOrderContentInfoPu {
          * ID einer Auftrags-Position des Auftrags "OrderID"
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue order_content_id = 10006;</code>
+         * <code>.dstore.values.IntegerValue order_content_id = 10006;</code>
          */
         public Builder setOrderContentId(io.dstore.values.IntegerValue value) {
           if (orderContentIdBuilder_ == null) {
@@ -3671,7 +3671,7 @@ public final class OmGetOrderContentInfoPu {
          * ID einer Auftrags-Position des Auftrags "OrderID"
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue order_content_id = 10006;</code>
+         * <code>.dstore.values.IntegerValue order_content_id = 10006;</code>
          */
         public Builder setOrderContentId(
             io.dstore.values.IntegerValue.Builder builderForValue) {
@@ -3689,7 +3689,7 @@ public final class OmGetOrderContentInfoPu {
          * ID einer Auftrags-Position des Auftrags "OrderID"
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue order_content_id = 10006;</code>
+         * <code>.dstore.values.IntegerValue order_content_id = 10006;</code>
          */
         public Builder mergeOrderContentId(io.dstore.values.IntegerValue value) {
           if (orderContentIdBuilder_ == null) {
@@ -3711,7 +3711,7 @@ public final class OmGetOrderContentInfoPu {
          * ID einer Auftrags-Position des Auftrags "OrderID"
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue order_content_id = 10006;</code>
+         * <code>.dstore.values.IntegerValue order_content_id = 10006;</code>
          */
         public Builder clearOrderContentId() {
           if (orderContentIdBuilder_ == null) {
@@ -3729,7 +3729,7 @@ public final class OmGetOrderContentInfoPu {
          * ID einer Auftrags-Position des Auftrags "OrderID"
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue order_content_id = 10006;</code>
+         * <code>.dstore.values.IntegerValue order_content_id = 10006;</code>
          */
         public io.dstore.values.IntegerValue.Builder getOrderContentIdBuilder() {
           
@@ -3741,7 +3741,7 @@ public final class OmGetOrderContentInfoPu {
          * ID einer Auftrags-Position des Auftrags "OrderID"
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue order_content_id = 10006;</code>
+         * <code>.dstore.values.IntegerValue order_content_id = 10006;</code>
          */
         public io.dstore.values.IntegerValueOrBuilder getOrderContentIdOrBuilder() {
           if (orderContentIdBuilder_ != null) {
@@ -3756,7 +3756,7 @@ public final class OmGetOrderContentInfoPu {
          * ID einer Auftrags-Position des Auftrags "OrderID"
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue order_content_id = 10006;</code>
+         * <code>.dstore.values.IntegerValue order_content_id = 10006;</code>
          */
         private com.google.protobuf.SingleFieldBuilderV3<
             io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> 
@@ -4016,7 +4016,7 @@ public final class OmGetOrderContentInfoPu {
         return memoizedHashCode;
       }
       int hash = 41;
-      hash = (19 * hash) + getDescriptorForType().hashCode();
+      hash = (19 * hash) + getDescriptor().hashCode();
       if (getMetaInformationCount() > 0) {
         hash = (37 * hash) + META_INFORMATION_FIELD_NUMBER;
         hash = (53 * hash) + getMetaInformationList().hashCode();

@@ -8,74 +8,74 @@ public interface ValueOrBuilder extends
     com.google.protobuf.MessageOrBuilder {
 
   /**
-   * <code>optional .dstore.values.IntegerValue integer_value = 10;</code>
+   * <code>.dstore.values.IntegerValue integer_value = 10;</code>
    */
   io.dstore.values.IntegerValue getIntegerValue();
   /**
-   * <code>optional .dstore.values.IntegerValue integer_value = 10;</code>
+   * <code>.dstore.values.IntegerValue integer_value = 10;</code>
    */
   io.dstore.values.IntegerValueOrBuilder getIntegerValueOrBuilder();
 
   /**
-   * <code>optional .dstore.values.StringValue string_value = 11;</code>
+   * <code>.dstore.values.StringValue string_value = 11;</code>
    */
   io.dstore.values.StringValue getStringValue();
   /**
-   * <code>optional .dstore.values.StringValue string_value = 11;</code>
+   * <code>.dstore.values.StringValue string_value = 11;</code>
    */
   io.dstore.values.StringValueOrBuilder getStringValueOrBuilder();
 
   /**
-   * <code>optional .dstore.values.BytesValue byte_value = 12;</code>
+   * <code>.dstore.values.BytesValue byte_value = 12;</code>
    */
   io.dstore.values.BytesValue getByteValue();
   /**
-   * <code>optional .dstore.values.BytesValue byte_value = 12;</code>
+   * <code>.dstore.values.BytesValue byte_value = 12;</code>
    */
   io.dstore.values.BytesValueOrBuilder getByteValueOrBuilder();
 
   /**
-   * <code>optional .dstore.values.DoubleValue double_value = 13;</code>
+   * <code>.dstore.values.DoubleValue double_value = 13;</code>
    */
   io.dstore.values.DoubleValue getDoubleValue();
   /**
-   * <code>optional .dstore.values.DoubleValue double_value = 13;</code>
+   * <code>.dstore.values.DoubleValue double_value = 13;</code>
    */
   io.dstore.values.DoubleValueOrBuilder getDoubleValueOrBuilder();
 
   /**
-   * <code>optional .dstore.values.BooleanValue boolean_value = 14;</code>
+   * <code>.dstore.values.BooleanValue boolean_value = 14;</code>
    */
   io.dstore.values.BooleanValue getBooleanValue();
   /**
-   * <code>optional .dstore.values.BooleanValue boolean_value = 14;</code>
+   * <code>.dstore.values.BooleanValue boolean_value = 14;</code>
    */
   io.dstore.values.BooleanValueOrBuilder getBooleanValueOrBuilder();
 
   /**
-   * <code>optional .dstore.values.DecimalValue decimal_value = 15;</code>
+   * <code>.dstore.values.DecimalValue decimal_value = 15;</code>
    */
   io.dstore.values.DecimalValue getDecimalValue();
   /**
-   * <code>optional .dstore.values.DecimalValue decimal_value = 15;</code>
+   * <code>.dstore.values.DecimalValue decimal_value = 15;</code>
    */
   io.dstore.values.DecimalValueOrBuilder getDecimalValueOrBuilder();
 
   /**
-   * <code>optional .dstore.values.TimestampValue timestamp_value = 16;</code>
+   * <code>.dstore.values.TimestampValue timestamp_value = 16;</code>
    */
   io.dstore.values.TimestampValue getTimestampValue();
   /**
-   * <code>optional .dstore.values.TimestampValue timestamp_value = 16;</code>
+   * <code>.dstore.values.TimestampValue timestamp_value = 16;</code>
    */
   io.dstore.values.TimestampValueOrBuilder getTimestampValueOrBuilder();
 
   /**
-   * <code>optional .dstore.values.LongValue long_value = 17;</code>
+   * <code>.dstore.values.LongValue long_value = 17;</code>
    */
   io.dstore.values.LongValue getLongValue();
   /**
-   * <code>optional .dstore.values.LongValue long_value = 17;</code>
+   * <code>.dstore.values.LongValue long_value = 17;</code>
    */
   io.dstore.values.LongValueOrBuilder getLongValueOrBuilder();
 

@@ -19,11 +19,11 @@ public final class ItemSuggest {
       com.google.protobuf.MessageOrBuilder {
 
     /**
-     * <code>optional string input = 1;</code>
+     * <code>string input = 1;</code>
      */
     java.lang.String getInput();
     /**
-     * <code>optional string input = 1;</code>
+     * <code>string input = 1;</code>
      */
     com.google.protobuf.ByteString
         getInputBytes();
@@ -52,7 +52,7 @@ public final class ItemSuggest {
      * Used to filter the suggestions
      * </pre>
      *
-     * <code>optional .dstore.elastic.BoolQuery base_query = 3;</code>
+     * <code>.dstore.elastic.BoolQuery base_query = 3;</code>
      */
     boolean hasBaseQuery();
     /**
@@ -60,7 +60,7 @@ public final class ItemSuggest {
      * Used to filter the suggestions
      * </pre>
      *
-     * <code>optional .dstore.elastic.BoolQuery base_query = 3;</code>
+     * <code>.dstore.elastic.BoolQuery base_query = 3;</code>
      */
     io.dstore.elastic.BoolQuery getBaseQuery();
     /**
@@ -68,27 +68,27 @@ public final class ItemSuggest {
      * Used to filter the suggestions
      * </pre>
      *
-     * <code>optional .dstore.elastic.BoolQuery base_query = 3;</code>
+     * <code>.dstore.elastic.BoolQuery base_query = 3;</code>
      */
     io.dstore.elastic.BoolQueryOrBuilder getBaseQueryOrBuilder();
 
     /**
-     * <code>optional int32 max_items = 5;</code>
+     * <code>int32 max_items = 5;</code>
      */
     int getMaxItems();
 
     /**
-     * <code>optional int32 max_suggests = 6;</code>
+     * <code>int32 max_suggests = 6;</code>
      */
     int getMaxSuggests();
 
     /**
-     * <code>optional bool fuzzy = 7;</code>
+     * <code>bool fuzzy = 7;</code>
      */
     boolean getFuzzy();
 
     /**
-     * <code>optional bool use_and_operator = 8;</code>
+     * <code>bool use_and_operator = 8;</code>
      */
     boolean getUseAndOperator();
   }
@@ -215,7 +215,7 @@ public final class ItemSuggest {
     public static final int INPUT_FIELD_NUMBER = 1;
     private volatile java.lang.Object input_;
     /**
-     * <code>optional string input = 1;</code>
+     * <code>string input = 1;</code>
      */
     public java.lang.String getInput() {
       java.lang.Object ref = input_;
@@ -230,7 +230,7 @@ public final class ItemSuggest {
       }
     }
     /**
-     * <code>optional string input = 1;</code>
+     * <code>string input = 1;</code>
      */
     public com.google.protobuf.ByteString
         getInputBytes() {
@@ -282,7 +282,7 @@ public final class ItemSuggest {
      * Used to filter the suggestions
      * </pre>
      *
-     * <code>optional .dstore.elastic.BoolQuery base_query = 3;</code>
+     * <code>.dstore.elastic.BoolQuery base_query = 3;</code>
      */
     public boolean hasBaseQuery() {
       return baseQuery_ != null;
@@ -292,7 +292,7 @@ public final class ItemSuggest {
      * Used to filter the suggestions
      * </pre>
      *
-     * <code>optional .dstore.elastic.BoolQuery base_query = 3;</code>
+     * <code>.dstore.elastic.BoolQuery base_query = 3;</code>
      */
     public io.dstore.elastic.BoolQuery getBaseQuery() {
       return baseQuery_ == null ? io.dstore.elastic.BoolQuery.getDefaultInstance() : baseQuery_;
@@ -302,7 +302,7 @@ public final class ItemSuggest {
      * Used to filter the suggestions
      * </pre>
      *
-     * <code>optional .dstore.elastic.BoolQuery base_query = 3;</code>
+     * <code>.dstore.elastic.BoolQuery base_query = 3;</code>
      */
     public io.dstore.elastic.BoolQueryOrBuilder getBaseQueryOrBuilder() {
       return getBaseQuery();
@@ -311,7 +311,7 @@ public final class ItemSuggest {
     public static final int MAX_ITEMS_FIELD_NUMBER = 5;
     private int maxItems_;
     /**
-     * <code>optional int32 max_items = 5;</code>
+     * <code>int32 max_items = 5;</code>
      */
     public int getMaxItems() {
       return maxItems_;
@@ -320,7 +320,7 @@ public final class ItemSuggest {
     public static final int MAX_SUGGESTS_FIELD_NUMBER = 6;
     private int maxSuggests_;
     /**
-     * <code>optional int32 max_suggests = 6;</code>
+     * <code>int32 max_suggests = 6;</code>
      */
     public int getMaxSuggests() {
       return maxSuggests_;
@@ -329,7 +329,7 @@ public final class ItemSuggest {
     public static final int FUZZY_FIELD_NUMBER = 7;
     private boolean fuzzy_;
     /**
-     * <code>optional bool fuzzy = 7;</code>
+     * <code>bool fuzzy = 7;</code>
      */
     public boolean getFuzzy() {
       return fuzzy_;
@@ -338,7 +338,7 @@ public final class ItemSuggest {
     public static final int USE_AND_OPERATOR_FIELD_NUMBER = 8;
     private boolean useAndOperator_;
     /**
-     * <code>optional bool use_and_operator = 8;</code>
+     * <code>bool use_and_operator = 8;</code>
      */
     public boolean getUseAndOperator() {
       return useAndOperator_;
@@ -457,7 +457,7 @@ public final class ItemSuggest {
         return memoizedHashCode;
       }
       int hash = 41;
-      hash = (19 * hash) + getDescriptorForType().hashCode();
+      hash = (19 * hash) + getDescriptor().hashCode();
       hash = (37 * hash) + INPUT_FIELD_NUMBER;
       hash = (53 * hash) + getInput().hashCode();
       if (getFieldNameCount() > 0) {
@@ -753,7 +753,7 @@ public final class ItemSuggest {
 
       private java.lang.Object input_ = "";
       /**
-       * <code>optional string input = 1;</code>
+       * <code>string input = 1;</code>
        */
       public java.lang.String getInput() {
         java.lang.Object ref = input_;
@@ -768,7 +768,7 @@ public final class ItemSuggest {
         }
       }
       /**
-       * <code>optional string input = 1;</code>
+       * <code>string input = 1;</code>
        */
       public com.google.protobuf.ByteString
           getInputBytes() {
@@ -784,7 +784,7 @@ public final class ItemSuggest {
         }
       }
       /**
-       * <code>optional string input = 1;</code>
+       * <code>string input = 1;</code>
        */
       public Builder setInput(
           java.lang.String value) {
@@ -797,7 +797,7 @@ public final class ItemSuggest {
         return this;
       }
       /**
-       * <code>optional string input = 1;</code>
+       * <code>string input = 1;</code>
        */
       public Builder clearInput() {
         
@@ -806,7 +806,7 @@ public final class ItemSuggest {
         return this;
       }
       /**
-       * <code>optional string input = 1;</code>
+       * <code>string input = 1;</code>
        */
       public Builder setInputBytes(
           com.google.protobuf.ByteString value) {
@@ -922,7 +922,7 @@ public final class ItemSuggest {
        * Used to filter the suggestions
        * </pre>
        *
-       * <code>optional .dstore.elastic.BoolQuery base_query = 3;</code>
+       * <code>.dstore.elastic.BoolQuery base_query = 3;</code>
        */
       public boolean hasBaseQuery() {
         return baseQueryBuilder_ != null || baseQuery_ != null;
@@ -932,7 +932,7 @@ public final class ItemSuggest {
        * Used to filter the suggestions
        * </pre>
        *
-       * <code>optional .dstore.elastic.BoolQuery base_query = 3;</code>
+       * <code>.dstore.elastic.BoolQuery base_query = 3;</code>
        */
       public io.dstore.elastic.BoolQuery getBaseQuery() {
         if (baseQueryBuilder_ == null) {
@@ -946,7 +946,7 @@ public final class ItemSuggest {
        * Used to filter the suggestions
        * </pre>
        *
-       * <code>optional .dstore.elastic.BoolQuery base_query = 3;</code>
+       * <code>.dstore.elastic.BoolQuery base_query = 3;</code>
        */
       public Builder setBaseQuery(io.dstore.elastic.BoolQuery value) {
         if (baseQueryBuilder_ == null) {
@@ -966,7 +966,7 @@ public final class ItemSuggest {
        * Used to filter the suggestions
        * </pre>
        *
-       * <code>optional .dstore.elastic.BoolQuery base_query = 3;</code>
+       * <code>.dstore.elastic.BoolQuery base_query = 3;</code>
        */
       public Builder setBaseQuery(
           io.dstore.elastic.BoolQuery.Builder builderForValue) {
@@ -984,7 +984,7 @@ public final class ItemSuggest {
        * Used to filter the suggestions
        * </pre>
        *
-       * <code>optional .dstore.elastic.BoolQuery base_query = 3;</code>
+       * <code>.dstore.elastic.BoolQuery base_query = 3;</code>
        */
       public Builder mergeBaseQuery(io.dstore.elastic.BoolQuery value) {
         if (baseQueryBuilder_ == null) {
@@ -1006,7 +1006,7 @@ public final class ItemSuggest {
        * Used to filter the suggestions
        * </pre>
        *
-       * <code>optional .dstore.elastic.BoolQuery base_query = 3;</code>
+       * <code>.dstore.elastic.BoolQuery base_query = 3;</code>
        */
       public Builder clearBaseQuery() {
         if (baseQueryBuilder_ == null) {
@@ -1024,7 +1024,7 @@ public final class ItemSuggest {
        * Used to filter the suggestions
        * </pre>
        *
-       * <code>optional .dstore.elastic.BoolQuery base_query = 3;</code>
+       * <code>.dstore.elastic.BoolQuery base_query = 3;</code>
        */
       public io.dstore.elastic.BoolQuery.Builder getBaseQueryBuilder() {
         
@@ -1036,7 +1036,7 @@ public final class ItemSuggest {
        * Used to filter the suggestions
        * </pre>
        *
-       * <code>optional .dstore.elastic.BoolQuery base_query = 3;</code>
+       * <code>.dstore.elastic.BoolQuery base_query = 3;</code>
        */
       public io.dstore.elastic.BoolQueryOrBuilder getBaseQueryOrBuilder() {
         if (baseQueryBuilder_ != null) {
@@ -1051,7 +1051,7 @@ public final class ItemSuggest {
        * Used to filter the suggestions
        * </pre>
        *
-       * <code>optional .dstore.elastic.BoolQuery base_query = 3;</code>
+       * <code>.dstore.elastic.BoolQuery base_query = 3;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.elastic.BoolQuery, io.dstore.elastic.BoolQuery.Builder, io.dstore.elastic.BoolQueryOrBuilder> 
@@ -1069,13 +1069,13 @@ public final class ItemSuggest {
 
       private int maxItems_ ;
       /**
-       * <code>optional int32 max_items = 5;</code>
+       * <code>int32 max_items = 5;</code>
        */
       public int getMaxItems() {
         return maxItems_;
       }
       /**
-       * <code>optional int32 max_items = 5;</code>
+       * <code>int32 max_items = 5;</code>
        */
       public Builder setMaxItems(int value) {
         
@@ -1084,7 +1084,7 @@ public final class ItemSuggest {
         return this;
       }
       /**
-       * <code>optional int32 max_items = 5;</code>
+       * <code>int32 max_items = 5;</code>
        */
       public Builder clearMaxItems() {
         
@@ -1095,13 +1095,13 @@ public final class ItemSuggest {
 
       private int maxSuggests_ ;
       /**
-       * <code>optional int32 max_suggests = 6;</code>
+       * <code>int32 max_suggests = 6;</code>
        */
       public int getMaxSuggests() {
         return maxSuggests_;
       }
       /**
-       * <code>optional int32 max_suggests = 6;</code>
+       * <code>int32 max_suggests = 6;</code>
        */
       public Builder setMaxSuggests(int value) {
         
@@ -1110,7 +1110,7 @@ public final class ItemSuggest {
         return this;
       }
       /**
-       * <code>optional int32 max_suggests = 6;</code>
+       * <code>int32 max_suggests = 6;</code>
        */
       public Builder clearMaxSuggests() {
         
@@ -1121,13 +1121,13 @@ public final class ItemSuggest {
 
       private boolean fuzzy_ ;
       /**
-       * <code>optional bool fuzzy = 7;</code>
+       * <code>bool fuzzy = 7;</code>
        */
       public boolean getFuzzy() {
         return fuzzy_;
       }
       /**
-       * <code>optional bool fuzzy = 7;</code>
+       * <code>bool fuzzy = 7;</code>
        */
       public Builder setFuzzy(boolean value) {
         
@@ -1136,7 +1136,7 @@ public final class ItemSuggest {
         return this;
       }
       /**
-       * <code>optional bool fuzzy = 7;</code>
+       * <code>bool fuzzy = 7;</code>
        */
       public Builder clearFuzzy() {
         
@@ -1147,13 +1147,13 @@ public final class ItemSuggest {
 
       private boolean useAndOperator_ ;
       /**
-       * <code>optional bool use_and_operator = 8;</code>
+       * <code>bool use_and_operator = 8;</code>
        */
       public boolean getUseAndOperator() {
         return useAndOperator_;
       }
       /**
-       * <code>optional bool use_and_operator = 8;</code>
+       * <code>bool use_and_operator = 8;</code>
        */
       public Builder setUseAndOperator(boolean value) {
         
@@ -1162,7 +1162,7 @@ public final class ItemSuggest {
         return this;
       }
       /**
-       * <code>optional bool use_and_operator = 8;</code>
+       * <code>bool use_and_operator = 8;</code>
        */
       public Builder clearUseAndOperator() {
         
@@ -1272,11 +1272,11 @@ public final class ItemSuggest {
         int index);
 
     /**
-     * <code>optional string elastic_query_string = 5;</code>
+     * <code>string elastic_query_string = 5;</code>
      */
     java.lang.String getElasticQueryString();
     /**
-     * <code>optional string elastic_query_string = 5;</code>
+     * <code>string elastic_query_string = 5;</code>
      */
     com.google.protobuf.ByteString
         getElasticQueryStringBytes();
@@ -1381,26 +1381,26 @@ public final class ItemSuggest {
         com.google.protobuf.MessageOrBuilder {
 
       /**
-       * <code>optional string field_name = 1;</code>
+       * <code>string field_name = 1;</code>
        */
       java.lang.String getFieldName();
       /**
-       * <code>optional string field_name = 1;</code>
+       * <code>string field_name = 1;</code>
        */
       com.google.protobuf.ByteString
           getFieldNameBytes();
 
       /**
-       * <code>optional int32 count = 2;</code>
+       * <code>int32 count = 2;</code>
        */
       int getCount();
 
       /**
-       * <code>optional string value = 3;</code>
+       * <code>string value = 3;</code>
        */
       java.lang.String getValue();
       /**
-       * <code>optional string value = 3;</code>
+       * <code>string value = 3;</code>
        */
       com.google.protobuf.ByteString
           getValueBytes();
@@ -1490,7 +1490,7 @@ public final class ItemSuggest {
       public static final int FIELD_NAME_FIELD_NUMBER = 1;
       private volatile java.lang.Object fieldName_;
       /**
-       * <code>optional string field_name = 1;</code>
+       * <code>string field_name = 1;</code>
        */
       public java.lang.String getFieldName() {
         java.lang.Object ref = fieldName_;
@@ -1505,7 +1505,7 @@ public final class ItemSuggest {
         }
       }
       /**
-       * <code>optional string field_name = 1;</code>
+       * <code>string field_name = 1;</code>
        */
       public com.google.protobuf.ByteString
           getFieldNameBytes() {
@@ -1524,7 +1524,7 @@ public final class ItemSuggest {
       public static final int COUNT_FIELD_NUMBER = 2;
       private int count_;
       /**
-       * <code>optional int32 count = 2;</code>
+       * <code>int32 count = 2;</code>
        */
       public int getCount() {
         return count_;
@@ -1533,7 +1533,7 @@ public final class ItemSuggest {
       public static final int VALUE_FIELD_NUMBER = 3;
       private volatile java.lang.Object value_;
       /**
-       * <code>optional string value = 3;</code>
+       * <code>string value = 3;</code>
        */
       public java.lang.String getValue() {
         java.lang.Object ref = value_;
@@ -1548,7 +1548,7 @@ public final class ItemSuggest {
         }
       }
       /**
-       * <code>optional string value = 3;</code>
+       * <code>string value = 3;</code>
        */
       public com.google.protobuf.ByteString
           getValueBytes() {
@@ -1633,7 +1633,7 @@ public final class ItemSuggest {
           return memoizedHashCode;
         }
         int hash = 41;
-        hash = (19 * hash) + getDescriptorForType().hashCode();
+        hash = (19 * hash) + getDescriptor().hashCode();
         hash = (37 * hash) + FIELD_NAME_FIELD_NUMBER;
         hash = (53 * hash) + getFieldName().hashCode();
         hash = (37 * hash) + COUNT_FIELD_NUMBER;
@@ -1869,7 +1869,7 @@ public final class ItemSuggest {
 
         private java.lang.Object fieldName_ = "";
         /**
-         * <code>optional string field_name = 1;</code>
+         * <code>string field_name = 1;</code>
          */
         public java.lang.String getFieldName() {
           java.lang.Object ref = fieldName_;
@@ -1884,7 +1884,7 @@ public final class ItemSuggest {
           }
         }
         /**
-         * <code>optional string field_name = 1;</code>
+         * <code>string field_name = 1;</code>
          */
         public com.google.protobuf.ByteString
             getFieldNameBytes() {
@@ -1900,7 +1900,7 @@ public final class ItemSuggest {
           }
         }
         /**
-         * <code>optional string field_name = 1;</code>
+         * <code>string field_name = 1;</code>
          */
         public Builder setFieldName(
             java.lang.String value) {
@@ -1913,7 +1913,7 @@ public final class ItemSuggest {
           return this;
         }
         /**
-         * <code>optional string field_name = 1;</code>
+         * <code>string field_name = 1;</code>
          */
         public Builder clearFieldName() {
           
@@ -1922,7 +1922,7 @@ public final class ItemSuggest {
           return this;
         }
         /**
-         * <code>optional string field_name = 1;</code>
+         * <code>string field_name = 1;</code>
          */
         public Builder setFieldNameBytes(
             com.google.protobuf.ByteString value) {
@@ -1938,13 +1938,13 @@ public final class ItemSuggest {
 
         private int count_ ;
         /**
-         * <code>optional int32 count = 2;</code>
+         * <code>int32 count = 2;</code>
          */
         public int getCount() {
           return count_;
         }
         /**
-         * <code>optional int32 count = 2;</code>
+         * <code>int32 count = 2;</code>
          */
         public Builder setCount(int value) {
           
@@ -1953,7 +1953,7 @@ public final class ItemSuggest {
           return this;
         }
         /**
-         * <code>optional int32 count = 2;</code>
+         * <code>int32 count = 2;</code>
          */
         public Builder clearCount() {
           
@@ -1964,7 +1964,7 @@ public final class ItemSuggest {
 
         private java.lang.Object value_ = "";
         /**
-         * <code>optional string value = 3;</code>
+         * <code>string value = 3;</code>
          */
         public java.lang.String getValue() {
           java.lang.Object ref = value_;
@@ -1979,7 +1979,7 @@ public final class ItemSuggest {
           }
         }
         /**
-         * <code>optional string value = 3;</code>
+         * <code>string value = 3;</code>
          */
         public com.google.protobuf.ByteString
             getValueBytes() {
@@ -1995,7 +1995,7 @@ public final class ItemSuggest {
           }
         }
         /**
-         * <code>optional string value = 3;</code>
+         * <code>string value = 3;</code>
          */
         public Builder setValue(
             java.lang.String value) {
@@ -2008,7 +2008,7 @@ public final class ItemSuggest {
           return this;
         }
         /**
-         * <code>optional string value = 3;</code>
+         * <code>string value = 3;</code>
          */
         public Builder clearValue() {
           
@@ -2017,7 +2017,7 @@ public final class ItemSuggest {
           return this;
         }
         /**
-         * <code>optional string value = 3;</code>
+         * <code>string value = 3;</code>
          */
         public Builder setValueBytes(
             com.google.protobuf.ByteString value) {
@@ -2153,7 +2153,7 @@ public final class ItemSuggest {
     public static final int ELASTIC_QUERY_STRING_FIELD_NUMBER = 5;
     private volatile java.lang.Object elasticQueryString_;
     /**
-     * <code>optional string elastic_query_string = 5;</code>
+     * <code>string elastic_query_string = 5;</code>
      */
     public java.lang.String getElasticQueryString() {
       java.lang.Object ref = elasticQueryString_;
@@ -2168,7 +2168,7 @@ public final class ItemSuggest {
       }
     }
     /**
-     * <code>optional string elastic_query_string = 5;</code>
+     * <code>string elastic_query_string = 5;</code>
      */
     public com.google.protobuf.ByteString
         getElasticQueryStringBytes() {
@@ -2254,7 +2254,7 @@ public final class ItemSuggest {
         return memoizedHashCode;
       }
       int hash = 41;
-      hash = (19 * hash) + getDescriptorForType().hashCode();
+      hash = (19 * hash) + getDescriptor().hashCode();
       if (getSuggestionCount() > 0) {
         hash = (37 * hash) + SUGGESTION_FIELD_NUMBER;
         hash = (53 * hash) + getSuggestionList().hashCode();
@@ -3049,7 +3049,7 @@ public final class ItemSuggest {
 
       private java.lang.Object elasticQueryString_ = "";
       /**
-       * <code>optional string elastic_query_string = 5;</code>
+       * <code>string elastic_query_string = 5;</code>
        */
       public java.lang.String getElasticQueryString() {
         java.lang.Object ref = elasticQueryString_;
@@ -3064,7 +3064,7 @@ public final class ItemSuggest {
         }
       }
       /**
-       * <code>optional string elastic_query_string = 5;</code>
+       * <code>string elastic_query_string = 5;</code>
        */
       public com.google.protobuf.ByteString
           getElasticQueryStringBytes() {
@@ -3080,7 +3080,7 @@ public final class ItemSuggest {
         }
       }
       /**
-       * <code>optional string elastic_query_string = 5;</code>
+       * <code>string elastic_query_string = 5;</code>
        */
       public Builder setElasticQueryString(
           java.lang.String value) {
@@ -3093,7 +3093,7 @@ public final class ItemSuggest {
         return this;
       }
       /**
-       * <code>optional string elastic_query_string = 5;</code>
+       * <code>string elastic_query_string = 5;</code>
        */
       public Builder clearElasticQueryString() {
         
@@ -3102,7 +3102,7 @@ public final class ItemSuggest {
         return this;
       }
       /**
-       * <code>optional string elastic_query_string = 5;</code>
+       * <code>string elastic_query_string = 5;</code>
        */
       public Builder setElasticQueryStringBytes(
           com.google.protobuf.ByteString value) {

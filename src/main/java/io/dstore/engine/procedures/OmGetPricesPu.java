@@ -19,236 +19,236 @@ public final class OmGetPricesPu {
       com.google.protobuf.MessageOrBuilder {
 
     /**
-     * <code>optional .dstore.values.StringValue node_ids = 1;</code>
+     * <code>.dstore.values.StringValue node_ids = 1;</code>
      */
     boolean hasNodeIds();
     /**
-     * <code>optional .dstore.values.StringValue node_ids = 1;</code>
+     * <code>.dstore.values.StringValue node_ids = 1;</code>
      */
     io.dstore.values.StringValue getNodeIds();
     /**
-     * <code>optional .dstore.values.StringValue node_ids = 1;</code>
+     * <code>.dstore.values.StringValue node_ids = 1;</code>
      */
     io.dstore.values.StringValueOrBuilder getNodeIdsOrBuilder();
 
     /**
-     * <code>optional bool node_ids_null = 1001;</code>
+     * <code>bool node_ids_null = 1001;</code>
      */
     boolean getNodeIdsNull();
 
     /**
-     * <code>optional .dstore.values.StringValue quantities = 2;</code>
+     * <code>.dstore.values.StringValue quantities = 2;</code>
      */
     boolean hasQuantities();
     /**
-     * <code>optional .dstore.values.StringValue quantities = 2;</code>
+     * <code>.dstore.values.StringValue quantities = 2;</code>
      */
     io.dstore.values.StringValue getQuantities();
     /**
-     * <code>optional .dstore.values.StringValue quantities = 2;</code>
+     * <code>.dstore.values.StringValue quantities = 2;</code>
      */
     io.dstore.values.StringValueOrBuilder getQuantitiesOrBuilder();
 
     /**
-     * <code>optional bool quantities_null = 1002;</code>
+     * <code>bool quantities_null = 1002;</code>
      */
     boolean getQuantitiesNull();
 
     /**
-     * <code>optional .dstore.values.IntegerValue person_id = 3;</code>
+     * <code>.dstore.values.IntegerValue person_id = 3;</code>
      */
     boolean hasPersonId();
     /**
-     * <code>optional .dstore.values.IntegerValue person_id = 3;</code>
+     * <code>.dstore.values.IntegerValue person_id = 3;</code>
      */
     io.dstore.values.IntegerValue getPersonId();
     /**
-     * <code>optional .dstore.values.IntegerValue person_id = 3;</code>
+     * <code>.dstore.values.IntegerValue person_id = 3;</code>
      */
     io.dstore.values.IntegerValueOrBuilder getPersonIdOrBuilder();
 
     /**
-     * <code>optional bool person_id_null = 1003;</code>
+     * <code>bool person_id_null = 1003;</code>
      */
     boolean getPersonIdNull();
 
     /**
-     * <code>optional .dstore.values.IntegerValue currency_id = 4;</code>
+     * <code>.dstore.values.IntegerValue currency_id = 4;</code>
      */
     boolean hasCurrencyId();
     /**
-     * <code>optional .dstore.values.IntegerValue currency_id = 4;</code>
+     * <code>.dstore.values.IntegerValue currency_id = 4;</code>
      */
     io.dstore.values.IntegerValue getCurrencyId();
     /**
-     * <code>optional .dstore.values.IntegerValue currency_id = 4;</code>
+     * <code>.dstore.values.IntegerValue currency_id = 4;</code>
      */
     io.dstore.values.IntegerValueOrBuilder getCurrencyIdOrBuilder();
 
     /**
-     * <code>optional bool currency_id_null = 1004;</code>
+     * <code>bool currency_id_null = 1004;</code>
      */
     boolean getCurrencyIdNull();
 
     /**
-     * <code>optional .dstore.values.BooleanValue is_tree_node_id = 5;</code>
+     * <code>.dstore.values.BooleanValue is_tree_node_id = 5;</code>
      */
     boolean hasIsTreeNodeId();
     /**
-     * <code>optional .dstore.values.BooleanValue is_tree_node_id = 5;</code>
+     * <code>.dstore.values.BooleanValue is_tree_node_id = 5;</code>
      */
     io.dstore.values.BooleanValue getIsTreeNodeId();
     /**
-     * <code>optional .dstore.values.BooleanValue is_tree_node_id = 5;</code>
+     * <code>.dstore.values.BooleanValue is_tree_node_id = 5;</code>
      */
     io.dstore.values.BooleanValueOrBuilder getIsTreeNodeIdOrBuilder();
 
     /**
-     * <code>optional bool is_tree_node_id_null = 1005;</code>
+     * <code>bool is_tree_node_id_null = 1005;</code>
      */
     boolean getIsTreeNodeIdNull();
 
     /**
-     * <code>optional .dstore.values.IntegerValue price_node_characteristic_id = 6;</code>
+     * <code>.dstore.values.IntegerValue price_node_characteristic_id = 6;</code>
      */
     boolean hasPriceNodeCharacteristicId();
     /**
-     * <code>optional .dstore.values.IntegerValue price_node_characteristic_id = 6;</code>
+     * <code>.dstore.values.IntegerValue price_node_characteristic_id = 6;</code>
      */
     io.dstore.values.IntegerValue getPriceNodeCharacteristicId();
     /**
-     * <code>optional .dstore.values.IntegerValue price_node_characteristic_id = 6;</code>
+     * <code>.dstore.values.IntegerValue price_node_characteristic_id = 6;</code>
      */
     io.dstore.values.IntegerValueOrBuilder getPriceNodeCharacteristicIdOrBuilder();
 
     /**
-     * <code>optional bool price_node_characteristic_id_null = 1006;</code>
+     * <code>bool price_node_characteristic_id_null = 1006;</code>
      */
     boolean getPriceNodeCharacteristicIdNull();
 
     /**
-     * <code>optional .dstore.values.BooleanValue compute_sum = 7;</code>
+     * <code>.dstore.values.BooleanValue compute_sum = 7;</code>
      */
     boolean hasComputeSum();
     /**
-     * <code>optional .dstore.values.BooleanValue compute_sum = 7;</code>
+     * <code>.dstore.values.BooleanValue compute_sum = 7;</code>
      */
     io.dstore.values.BooleanValue getComputeSum();
     /**
-     * <code>optional .dstore.values.BooleanValue compute_sum = 7;</code>
+     * <code>.dstore.values.BooleanValue compute_sum = 7;</code>
      */
     io.dstore.values.BooleanValueOrBuilder getComputeSumOrBuilder();
 
     /**
-     * <code>optional bool compute_sum_null = 1007;</code>
+     * <code>bool compute_sum_null = 1007;</code>
      */
     boolean getComputeSumNull();
 
     /**
-     * <code>optional .dstore.values.StringValue unique_id = 8;</code>
+     * <code>.dstore.values.StringValue unique_id = 8;</code>
      */
     boolean hasUniqueId();
     /**
-     * <code>optional .dstore.values.StringValue unique_id = 8;</code>
+     * <code>.dstore.values.StringValue unique_id = 8;</code>
      */
     io.dstore.values.StringValue getUniqueId();
     /**
-     * <code>optional .dstore.values.StringValue unique_id = 8;</code>
+     * <code>.dstore.values.StringValue unique_id = 8;</code>
      */
     io.dstore.values.StringValueOrBuilder getUniqueIdOrBuilder();
 
     /**
-     * <code>optional bool unique_id_null = 1008;</code>
+     * <code>bool unique_id_null = 1008;</code>
      */
     boolean getUniqueIdNull();
 
     /**
-     * <code>optional .dstore.values.BooleanValue get_additional_price_info = 9;</code>
+     * <code>.dstore.values.BooleanValue get_additional_price_info = 9;</code>
      */
     boolean hasGetAdditionalPriceInfo();
     /**
-     * <code>optional .dstore.values.BooleanValue get_additional_price_info = 9;</code>
+     * <code>.dstore.values.BooleanValue get_additional_price_info = 9;</code>
      */
     io.dstore.values.BooleanValue getGetAdditionalPriceInfo();
     /**
-     * <code>optional .dstore.values.BooleanValue get_additional_price_info = 9;</code>
+     * <code>.dstore.values.BooleanValue get_additional_price_info = 9;</code>
      */
     io.dstore.values.BooleanValueOrBuilder getGetAdditionalPriceInfoOrBuilder();
 
     /**
-     * <code>optional bool get_additional_price_info_null = 1009;</code>
+     * <code>bool get_additional_price_info_null = 1009;</code>
      */
     boolean getGetAdditionalPriceInfoNull();
 
     /**
-     * <code>optional .dstore.values.IntegerValue delivery_person_id = 10;</code>
+     * <code>.dstore.values.IntegerValue delivery_person_id = 10;</code>
      */
     boolean hasDeliveryPersonId();
     /**
-     * <code>optional .dstore.values.IntegerValue delivery_person_id = 10;</code>
+     * <code>.dstore.values.IntegerValue delivery_person_id = 10;</code>
      */
     io.dstore.values.IntegerValue getDeliveryPersonId();
     /**
-     * <code>optional .dstore.values.IntegerValue delivery_person_id = 10;</code>
+     * <code>.dstore.values.IntegerValue delivery_person_id = 10;</code>
      */
     io.dstore.values.IntegerValueOrBuilder getDeliveryPersonIdOrBuilder();
 
     /**
-     * <code>optional bool delivery_person_id_null = 1010;</code>
+     * <code>bool delivery_person_id_null = 1010;</code>
      */
     boolean getDeliveryPersonIdNull();
 
     /**
-     * <code>optional .dstore.values.BooleanValue get_price_per_single_node_id = 11;</code>
+     * <code>.dstore.values.BooleanValue get_price_per_single_node_id = 11;</code>
      */
     boolean hasGetPricePerSingleNodeId();
     /**
-     * <code>optional .dstore.values.BooleanValue get_price_per_single_node_id = 11;</code>
+     * <code>.dstore.values.BooleanValue get_price_per_single_node_id = 11;</code>
      */
     io.dstore.values.BooleanValue getGetPricePerSingleNodeId();
     /**
-     * <code>optional .dstore.values.BooleanValue get_price_per_single_node_id = 11;</code>
+     * <code>.dstore.values.BooleanValue get_price_per_single_node_id = 11;</code>
      */
     io.dstore.values.BooleanValueOrBuilder getGetPricePerSingleNodeIdOrBuilder();
 
     /**
-     * <code>optional bool get_price_per_single_node_id_null = 1011;</code>
+     * <code>bool get_price_per_single_node_id_null = 1011;</code>
      */
     boolean getGetPricePerSingleNodeIdNull();
 
     /**
-     * <code>optional .dstore.values.IntegerValue payment_type_id = 12;</code>
+     * <code>.dstore.values.IntegerValue payment_type_id = 12;</code>
      */
     boolean hasPaymentTypeId();
     /**
-     * <code>optional .dstore.values.IntegerValue payment_type_id = 12;</code>
+     * <code>.dstore.values.IntegerValue payment_type_id = 12;</code>
      */
     io.dstore.values.IntegerValue getPaymentTypeId();
     /**
-     * <code>optional .dstore.values.IntegerValue payment_type_id = 12;</code>
+     * <code>.dstore.values.IntegerValue payment_type_id = 12;</code>
      */
     io.dstore.values.IntegerValueOrBuilder getPaymentTypeIdOrBuilder();
 
     /**
-     * <code>optional bool payment_type_id_null = 1012;</code>
+     * <code>bool payment_type_id_null = 1012;</code>
      */
     boolean getPaymentTypeIdNull();
 
     /**
-     * <code>optional .dstore.values.IntegerValue shipping_type_id = 13;</code>
+     * <code>.dstore.values.IntegerValue shipping_type_id = 13;</code>
      */
     boolean hasShippingTypeId();
     /**
-     * <code>optional .dstore.values.IntegerValue shipping_type_id = 13;</code>
+     * <code>.dstore.values.IntegerValue shipping_type_id = 13;</code>
      */
     io.dstore.values.IntegerValue getShippingTypeId();
     /**
-     * <code>optional .dstore.values.IntegerValue shipping_type_id = 13;</code>
+     * <code>.dstore.values.IntegerValue shipping_type_id = 13;</code>
      */
     io.dstore.values.IntegerValueOrBuilder getShippingTypeIdOrBuilder();
 
     /**
-     * <code>optional bool shipping_type_id_null = 1013;</code>
+     * <code>bool shipping_type_id_null = 1013;</code>
      */
     boolean getShippingTypeIdNull();
   }
@@ -564,19 +564,19 @@ public final class OmGetPricesPu {
     public static final int NODE_IDS_FIELD_NUMBER = 1;
     private io.dstore.values.StringValue nodeIds_;
     /**
-     * <code>optional .dstore.values.StringValue node_ids = 1;</code>
+     * <code>.dstore.values.StringValue node_ids = 1;</code>
      */
     public boolean hasNodeIds() {
       return nodeIds_ != null;
     }
     /**
-     * <code>optional .dstore.values.StringValue node_ids = 1;</code>
+     * <code>.dstore.values.StringValue node_ids = 1;</code>
      */
     public io.dstore.values.StringValue getNodeIds() {
       return nodeIds_ == null ? io.dstore.values.StringValue.getDefaultInstance() : nodeIds_;
     }
     /**
-     * <code>optional .dstore.values.StringValue node_ids = 1;</code>
+     * <code>.dstore.values.StringValue node_ids = 1;</code>
      */
     public io.dstore.values.StringValueOrBuilder getNodeIdsOrBuilder() {
       return getNodeIds();
@@ -585,7 +585,7 @@ public final class OmGetPricesPu {
     public static final int NODE_IDS_NULL_FIELD_NUMBER = 1001;
     private boolean nodeIdsNull_;
     /**
-     * <code>optional bool node_ids_null = 1001;</code>
+     * <code>bool node_ids_null = 1001;</code>
      */
     public boolean getNodeIdsNull() {
       return nodeIdsNull_;
@@ -594,19 +594,19 @@ public final class OmGetPricesPu {
     public static final int QUANTITIES_FIELD_NUMBER = 2;
     private io.dstore.values.StringValue quantities_;
     /**
-     * <code>optional .dstore.values.StringValue quantities = 2;</code>
+     * <code>.dstore.values.StringValue quantities = 2;</code>
      */
     public boolean hasQuantities() {
       return quantities_ != null;
     }
     /**
-     * <code>optional .dstore.values.StringValue quantities = 2;</code>
+     * <code>.dstore.values.StringValue quantities = 2;</code>
      */
     public io.dstore.values.StringValue getQuantities() {
       return quantities_ == null ? io.dstore.values.StringValue.getDefaultInstance() : quantities_;
     }
     /**
-     * <code>optional .dstore.values.StringValue quantities = 2;</code>
+     * <code>.dstore.values.StringValue quantities = 2;</code>
      */
     public io.dstore.values.StringValueOrBuilder getQuantitiesOrBuilder() {
       return getQuantities();
@@ -615,7 +615,7 @@ public final class OmGetPricesPu {
     public static final int QUANTITIES_NULL_FIELD_NUMBER = 1002;
     private boolean quantitiesNull_;
     /**
-     * <code>optional bool quantities_null = 1002;</code>
+     * <code>bool quantities_null = 1002;</code>
      */
     public boolean getQuantitiesNull() {
       return quantitiesNull_;
@@ -624,19 +624,19 @@ public final class OmGetPricesPu {
     public static final int PERSON_ID_FIELD_NUMBER = 3;
     private io.dstore.values.IntegerValue personId_;
     /**
-     * <code>optional .dstore.values.IntegerValue person_id = 3;</code>
+     * <code>.dstore.values.IntegerValue person_id = 3;</code>
      */
     public boolean hasPersonId() {
       return personId_ != null;
     }
     /**
-     * <code>optional .dstore.values.IntegerValue person_id = 3;</code>
+     * <code>.dstore.values.IntegerValue person_id = 3;</code>
      */
     public io.dstore.values.IntegerValue getPersonId() {
       return personId_ == null ? io.dstore.values.IntegerValue.getDefaultInstance() : personId_;
     }
     /**
-     * <code>optional .dstore.values.IntegerValue person_id = 3;</code>
+     * <code>.dstore.values.IntegerValue person_id = 3;</code>
      */
     public io.dstore.values.IntegerValueOrBuilder getPersonIdOrBuilder() {
       return getPersonId();
@@ -645,7 +645,7 @@ public final class OmGetPricesPu {
     public static final int PERSON_ID_NULL_FIELD_NUMBER = 1003;
     private boolean personIdNull_;
     /**
-     * <code>optional bool person_id_null = 1003;</code>
+     * <code>bool person_id_null = 1003;</code>
      */
     public boolean getPersonIdNull() {
       return personIdNull_;
@@ -654,19 +654,19 @@ public final class OmGetPricesPu {
     public static final int CURRENCY_ID_FIELD_NUMBER = 4;
     private io.dstore.values.IntegerValue currencyId_;
     /**
-     * <code>optional .dstore.values.IntegerValue currency_id = 4;</code>
+     * <code>.dstore.values.IntegerValue currency_id = 4;</code>
      */
     public boolean hasCurrencyId() {
       return currencyId_ != null;
     }
     /**
-     * <code>optional .dstore.values.IntegerValue currency_id = 4;</code>
+     * <code>.dstore.values.IntegerValue currency_id = 4;</code>
      */
     public io.dstore.values.IntegerValue getCurrencyId() {
       return currencyId_ == null ? io.dstore.values.IntegerValue.getDefaultInstance() : currencyId_;
     }
     /**
-     * <code>optional .dstore.values.IntegerValue currency_id = 4;</code>
+     * <code>.dstore.values.IntegerValue currency_id = 4;</code>
      */
     public io.dstore.values.IntegerValueOrBuilder getCurrencyIdOrBuilder() {
       return getCurrencyId();
@@ -675,7 +675,7 @@ public final class OmGetPricesPu {
     public static final int CURRENCY_ID_NULL_FIELD_NUMBER = 1004;
     private boolean currencyIdNull_;
     /**
-     * <code>optional bool currency_id_null = 1004;</code>
+     * <code>bool currency_id_null = 1004;</code>
      */
     public boolean getCurrencyIdNull() {
       return currencyIdNull_;
@@ -684,19 +684,19 @@ public final class OmGetPricesPu {
     public static final int IS_TREE_NODE_ID_FIELD_NUMBER = 5;
     private io.dstore.values.BooleanValue isTreeNodeId_;
     /**
-     * <code>optional .dstore.values.BooleanValue is_tree_node_id = 5;</code>
+     * <code>.dstore.values.BooleanValue is_tree_node_id = 5;</code>
      */
     public boolean hasIsTreeNodeId() {
       return isTreeNodeId_ != null;
     }
     /**
-     * <code>optional .dstore.values.BooleanValue is_tree_node_id = 5;</code>
+     * <code>.dstore.values.BooleanValue is_tree_node_id = 5;</code>
      */
     public io.dstore.values.BooleanValue getIsTreeNodeId() {
       return isTreeNodeId_ == null ? io.dstore.values.BooleanValue.getDefaultInstance() : isTreeNodeId_;
     }
     /**
-     * <code>optional .dstore.values.BooleanValue is_tree_node_id = 5;</code>
+     * <code>.dstore.values.BooleanValue is_tree_node_id = 5;</code>
      */
     public io.dstore.values.BooleanValueOrBuilder getIsTreeNodeIdOrBuilder() {
       return getIsTreeNodeId();
@@ -705,7 +705,7 @@ public final class OmGetPricesPu {
     public static final int IS_TREE_NODE_ID_NULL_FIELD_NUMBER = 1005;
     private boolean isTreeNodeIdNull_;
     /**
-     * <code>optional bool is_tree_node_id_null = 1005;</code>
+     * <code>bool is_tree_node_id_null = 1005;</code>
      */
     public boolean getIsTreeNodeIdNull() {
       return isTreeNodeIdNull_;
@@ -714,19 +714,19 @@ public final class OmGetPricesPu {
     public static final int PRICE_NODE_CHARACTERISTIC_ID_FIELD_NUMBER = 6;
     private io.dstore.values.IntegerValue priceNodeCharacteristicId_;
     /**
-     * <code>optional .dstore.values.IntegerValue price_node_characteristic_id = 6;</code>
+     * <code>.dstore.values.IntegerValue price_node_characteristic_id = 6;</code>
      */
     public boolean hasPriceNodeCharacteristicId() {
       return priceNodeCharacteristicId_ != null;
     }
     /**
-     * <code>optional .dstore.values.IntegerValue price_node_characteristic_id = 6;</code>
+     * <code>.dstore.values.IntegerValue price_node_characteristic_id = 6;</code>
      */
     public io.dstore.values.IntegerValue getPriceNodeCharacteristicId() {
       return priceNodeCharacteristicId_ == null ? io.dstore.values.IntegerValue.getDefaultInstance() : priceNodeCharacteristicId_;
     }
     /**
-     * <code>optional .dstore.values.IntegerValue price_node_characteristic_id = 6;</code>
+     * <code>.dstore.values.IntegerValue price_node_characteristic_id = 6;</code>
      */
     public io.dstore.values.IntegerValueOrBuilder getPriceNodeCharacteristicIdOrBuilder() {
       return getPriceNodeCharacteristicId();
@@ -735,7 +735,7 @@ public final class OmGetPricesPu {
     public static final int PRICE_NODE_CHARACTERISTIC_ID_NULL_FIELD_NUMBER = 1006;
     private boolean priceNodeCharacteristicIdNull_;
     /**
-     * <code>optional bool price_node_characteristic_id_null = 1006;</code>
+     * <code>bool price_node_characteristic_id_null = 1006;</code>
      */
     public boolean getPriceNodeCharacteristicIdNull() {
       return priceNodeCharacteristicIdNull_;
@@ -744,19 +744,19 @@ public final class OmGetPricesPu {
     public static final int COMPUTE_SUM_FIELD_NUMBER = 7;
     private io.dstore.values.BooleanValue computeSum_;
     /**
-     * <code>optional .dstore.values.BooleanValue compute_sum = 7;</code>
+     * <code>.dstore.values.BooleanValue compute_sum = 7;</code>
      */
     public boolean hasComputeSum() {
       return computeSum_ != null;
     }
     /**
-     * <code>optional .dstore.values.BooleanValue compute_sum = 7;</code>
+     * <code>.dstore.values.BooleanValue compute_sum = 7;</code>
      */
     public io.dstore.values.BooleanValue getComputeSum() {
       return computeSum_ == null ? io.dstore.values.BooleanValue.getDefaultInstance() : computeSum_;
     }
     /**
-     * <code>optional .dstore.values.BooleanValue compute_sum = 7;</code>
+     * <code>.dstore.values.BooleanValue compute_sum = 7;</code>
      */
     public io.dstore.values.BooleanValueOrBuilder getComputeSumOrBuilder() {
       return getComputeSum();
@@ -765,7 +765,7 @@ public final class OmGetPricesPu {
     public static final int COMPUTE_SUM_NULL_FIELD_NUMBER = 1007;
     private boolean computeSumNull_;
     /**
-     * <code>optional bool compute_sum_null = 1007;</code>
+     * <code>bool compute_sum_null = 1007;</code>
      */
     public boolean getComputeSumNull() {
       return computeSumNull_;
@@ -774,19 +774,19 @@ public final class OmGetPricesPu {
     public static final int UNIQUE_ID_FIELD_NUMBER = 8;
     private io.dstore.values.StringValue uniqueId_;
     /**
-     * <code>optional .dstore.values.StringValue unique_id = 8;</code>
+     * <code>.dstore.values.StringValue unique_id = 8;</code>
      */
     public boolean hasUniqueId() {
       return uniqueId_ != null;
     }
     /**
-     * <code>optional .dstore.values.StringValue unique_id = 8;</code>
+     * <code>.dstore.values.StringValue unique_id = 8;</code>
      */
     public io.dstore.values.StringValue getUniqueId() {
       return uniqueId_ == null ? io.dstore.values.StringValue.getDefaultInstance() : uniqueId_;
     }
     /**
-     * <code>optional .dstore.values.StringValue unique_id = 8;</code>
+     * <code>.dstore.values.StringValue unique_id = 8;</code>
      */
     public io.dstore.values.StringValueOrBuilder getUniqueIdOrBuilder() {
       return getUniqueId();
@@ -795,7 +795,7 @@ public final class OmGetPricesPu {
     public static final int UNIQUE_ID_NULL_FIELD_NUMBER = 1008;
     private boolean uniqueIdNull_;
     /**
-     * <code>optional bool unique_id_null = 1008;</code>
+     * <code>bool unique_id_null = 1008;</code>
      */
     public boolean getUniqueIdNull() {
       return uniqueIdNull_;
@@ -804,19 +804,19 @@ public final class OmGetPricesPu {
     public static final int GET_ADDITIONAL_PRICE_INFO_FIELD_NUMBER = 9;
     private io.dstore.values.BooleanValue getAdditionalPriceInfo_;
     /**
-     * <code>optional .dstore.values.BooleanValue get_additional_price_info = 9;</code>
+     * <code>.dstore.values.BooleanValue get_additional_price_info = 9;</code>
      */
     public boolean hasGetAdditionalPriceInfo() {
       return getAdditionalPriceInfo_ != null;
     }
     /**
-     * <code>optional .dstore.values.BooleanValue get_additional_price_info = 9;</code>
+     * <code>.dstore.values.BooleanValue get_additional_price_info = 9;</code>
      */
     public io.dstore.values.BooleanValue getGetAdditionalPriceInfo() {
       return getAdditionalPriceInfo_ == null ? io.dstore.values.BooleanValue.getDefaultInstance() : getAdditionalPriceInfo_;
     }
     /**
-     * <code>optional .dstore.values.BooleanValue get_additional_price_info = 9;</code>
+     * <code>.dstore.values.BooleanValue get_additional_price_info = 9;</code>
      */
     public io.dstore.values.BooleanValueOrBuilder getGetAdditionalPriceInfoOrBuilder() {
       return getGetAdditionalPriceInfo();
@@ -825,7 +825,7 @@ public final class OmGetPricesPu {
     public static final int GET_ADDITIONAL_PRICE_INFO_NULL_FIELD_NUMBER = 1009;
     private boolean getAdditionalPriceInfoNull_;
     /**
-     * <code>optional bool get_additional_price_info_null = 1009;</code>
+     * <code>bool get_additional_price_info_null = 1009;</code>
      */
     public boolean getGetAdditionalPriceInfoNull() {
       return getAdditionalPriceInfoNull_;
@@ -834,19 +834,19 @@ public final class OmGetPricesPu {
     public static final int DELIVERY_PERSON_ID_FIELD_NUMBER = 10;
     private io.dstore.values.IntegerValue deliveryPersonId_;
     /**
-     * <code>optional .dstore.values.IntegerValue delivery_person_id = 10;</code>
+     * <code>.dstore.values.IntegerValue delivery_person_id = 10;</code>
      */
     public boolean hasDeliveryPersonId() {
       return deliveryPersonId_ != null;
     }
     /**
-     * <code>optional .dstore.values.IntegerValue delivery_person_id = 10;</code>
+     * <code>.dstore.values.IntegerValue delivery_person_id = 10;</code>
      */
     public io.dstore.values.IntegerValue getDeliveryPersonId() {
       return deliveryPersonId_ == null ? io.dstore.values.IntegerValue.getDefaultInstance() : deliveryPersonId_;
     }
     /**
-     * <code>optional .dstore.values.IntegerValue delivery_person_id = 10;</code>
+     * <code>.dstore.values.IntegerValue delivery_person_id = 10;</code>
      */
     public io.dstore.values.IntegerValueOrBuilder getDeliveryPersonIdOrBuilder() {
       return getDeliveryPersonId();
@@ -855,7 +855,7 @@ public final class OmGetPricesPu {
     public static final int DELIVERY_PERSON_ID_NULL_FIELD_NUMBER = 1010;
     private boolean deliveryPersonIdNull_;
     /**
-     * <code>optional bool delivery_person_id_null = 1010;</code>
+     * <code>bool delivery_person_id_null = 1010;</code>
      */
     public boolean getDeliveryPersonIdNull() {
       return deliveryPersonIdNull_;
@@ -864,19 +864,19 @@ public final class OmGetPricesPu {
     public static final int GET_PRICE_PER_SINGLE_NODE_ID_FIELD_NUMBER = 11;
     private io.dstore.values.BooleanValue getPricePerSingleNodeId_;
     /**
-     * <code>optional .dstore.values.BooleanValue get_price_per_single_node_id = 11;</code>
+     * <code>.dstore.values.BooleanValue get_price_per_single_node_id = 11;</code>
      */
     public boolean hasGetPricePerSingleNodeId() {
       return getPricePerSingleNodeId_ != null;
     }
     /**
-     * <code>optional .dstore.values.BooleanValue get_price_per_single_node_id = 11;</code>
+     * <code>.dstore.values.BooleanValue get_price_per_single_node_id = 11;</code>
      */
     public io.dstore.values.BooleanValue getGetPricePerSingleNodeId() {
       return getPricePerSingleNodeId_ == null ? io.dstore.values.BooleanValue.getDefaultInstance() : getPricePerSingleNodeId_;
     }
     /**
-     * <code>optional .dstore.values.BooleanValue get_price_per_single_node_id = 11;</code>
+     * <code>.dstore.values.BooleanValue get_price_per_single_node_id = 11;</code>
      */
     public io.dstore.values.BooleanValueOrBuilder getGetPricePerSingleNodeIdOrBuilder() {
       return getGetPricePerSingleNodeId();
@@ -885,7 +885,7 @@ public final class OmGetPricesPu {
     public static final int GET_PRICE_PER_SINGLE_NODE_ID_NULL_FIELD_NUMBER = 1011;
     private boolean getPricePerSingleNodeIdNull_;
     /**
-     * <code>optional bool get_price_per_single_node_id_null = 1011;</code>
+     * <code>bool get_price_per_single_node_id_null = 1011;</code>
      */
     public boolean getGetPricePerSingleNodeIdNull() {
       return getPricePerSingleNodeIdNull_;
@@ -894,19 +894,19 @@ public final class OmGetPricesPu {
     public static final int PAYMENT_TYPE_ID_FIELD_NUMBER = 12;
     private io.dstore.values.IntegerValue paymentTypeId_;
     /**
-     * <code>optional .dstore.values.IntegerValue payment_type_id = 12;</code>
+     * <code>.dstore.values.IntegerValue payment_type_id = 12;</code>
      */
     public boolean hasPaymentTypeId() {
       return paymentTypeId_ != null;
     }
     /**
-     * <code>optional .dstore.values.IntegerValue payment_type_id = 12;</code>
+     * <code>.dstore.values.IntegerValue payment_type_id = 12;</code>
      */
     public io.dstore.values.IntegerValue getPaymentTypeId() {
       return paymentTypeId_ == null ? io.dstore.values.IntegerValue.getDefaultInstance() : paymentTypeId_;
     }
     /**
-     * <code>optional .dstore.values.IntegerValue payment_type_id = 12;</code>
+     * <code>.dstore.values.IntegerValue payment_type_id = 12;</code>
      */
     public io.dstore.values.IntegerValueOrBuilder getPaymentTypeIdOrBuilder() {
       return getPaymentTypeId();
@@ -915,7 +915,7 @@ public final class OmGetPricesPu {
     public static final int PAYMENT_TYPE_ID_NULL_FIELD_NUMBER = 1012;
     private boolean paymentTypeIdNull_;
     /**
-     * <code>optional bool payment_type_id_null = 1012;</code>
+     * <code>bool payment_type_id_null = 1012;</code>
      */
     public boolean getPaymentTypeIdNull() {
       return paymentTypeIdNull_;
@@ -924,19 +924,19 @@ public final class OmGetPricesPu {
     public static final int SHIPPING_TYPE_ID_FIELD_NUMBER = 13;
     private io.dstore.values.IntegerValue shippingTypeId_;
     /**
-     * <code>optional .dstore.values.IntegerValue shipping_type_id = 13;</code>
+     * <code>.dstore.values.IntegerValue shipping_type_id = 13;</code>
      */
     public boolean hasShippingTypeId() {
       return shippingTypeId_ != null;
     }
     /**
-     * <code>optional .dstore.values.IntegerValue shipping_type_id = 13;</code>
+     * <code>.dstore.values.IntegerValue shipping_type_id = 13;</code>
      */
     public io.dstore.values.IntegerValue getShippingTypeId() {
       return shippingTypeId_ == null ? io.dstore.values.IntegerValue.getDefaultInstance() : shippingTypeId_;
     }
     /**
-     * <code>optional .dstore.values.IntegerValue shipping_type_id = 13;</code>
+     * <code>.dstore.values.IntegerValue shipping_type_id = 13;</code>
      */
     public io.dstore.values.IntegerValueOrBuilder getShippingTypeIdOrBuilder() {
       return getShippingTypeId();
@@ -945,7 +945,7 @@ public final class OmGetPricesPu {
     public static final int SHIPPING_TYPE_ID_NULL_FIELD_NUMBER = 1013;
     private boolean shippingTypeIdNull_;
     /**
-     * <code>optional bool shipping_type_id_null = 1013;</code>
+     * <code>bool shipping_type_id_null = 1013;</code>
      */
     public boolean getShippingTypeIdNull() {
       return shippingTypeIdNull_;
@@ -1268,7 +1268,7 @@ public final class OmGetPricesPu {
         return memoizedHashCode;
       }
       int hash = 41;
-      hash = (19 * hash) + getDescriptorForType().hashCode();
+      hash = (19 * hash) + getDescriptor().hashCode();
       if (hasNodeIds()) {
         hash = (37 * hash) + NODE_IDS_FIELD_NUMBER;
         hash = (53 * hash) + getNodeIds().hashCode();
@@ -1831,13 +1831,13 @@ public final class OmGetPricesPu {
       private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.values.StringValue, io.dstore.values.StringValue.Builder, io.dstore.values.StringValueOrBuilder> nodeIdsBuilder_;
       /**
-       * <code>optional .dstore.values.StringValue node_ids = 1;</code>
+       * <code>.dstore.values.StringValue node_ids = 1;</code>
        */
       public boolean hasNodeIds() {
         return nodeIdsBuilder_ != null || nodeIds_ != null;
       }
       /**
-       * <code>optional .dstore.values.StringValue node_ids = 1;</code>
+       * <code>.dstore.values.StringValue node_ids = 1;</code>
        */
       public io.dstore.values.StringValue getNodeIds() {
         if (nodeIdsBuilder_ == null) {
@@ -1847,7 +1847,7 @@ public final class OmGetPricesPu {
         }
       }
       /**
-       * <code>optional .dstore.values.StringValue node_ids = 1;</code>
+       * <code>.dstore.values.StringValue node_ids = 1;</code>
        */
       public Builder setNodeIds(io.dstore.values.StringValue value) {
         if (nodeIdsBuilder_ == null) {
@@ -1863,7 +1863,7 @@ public final class OmGetPricesPu {
         return this;
       }
       /**
-       * <code>optional .dstore.values.StringValue node_ids = 1;</code>
+       * <code>.dstore.values.StringValue node_ids = 1;</code>
        */
       public Builder setNodeIds(
           io.dstore.values.StringValue.Builder builderForValue) {
@@ -1877,7 +1877,7 @@ public final class OmGetPricesPu {
         return this;
       }
       /**
-       * <code>optional .dstore.values.StringValue node_ids = 1;</code>
+       * <code>.dstore.values.StringValue node_ids = 1;</code>
        */
       public Builder mergeNodeIds(io.dstore.values.StringValue value) {
         if (nodeIdsBuilder_ == null) {
@@ -1895,7 +1895,7 @@ public final class OmGetPricesPu {
         return this;
       }
       /**
-       * <code>optional .dstore.values.StringValue node_ids = 1;</code>
+       * <code>.dstore.values.StringValue node_ids = 1;</code>
        */
       public Builder clearNodeIds() {
         if (nodeIdsBuilder_ == null) {
@@ -1909,7 +1909,7 @@ public final class OmGetPricesPu {
         return this;
       }
       /**
-       * <code>optional .dstore.values.StringValue node_ids = 1;</code>
+       * <code>.dstore.values.StringValue node_ids = 1;</code>
        */
       public io.dstore.values.StringValue.Builder getNodeIdsBuilder() {
         
@@ -1917,7 +1917,7 @@ public final class OmGetPricesPu {
         return getNodeIdsFieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .dstore.values.StringValue node_ids = 1;</code>
+       * <code>.dstore.values.StringValue node_ids = 1;</code>
        */
       public io.dstore.values.StringValueOrBuilder getNodeIdsOrBuilder() {
         if (nodeIdsBuilder_ != null) {
@@ -1928,7 +1928,7 @@ public final class OmGetPricesPu {
         }
       }
       /**
-       * <code>optional .dstore.values.StringValue node_ids = 1;</code>
+       * <code>.dstore.values.StringValue node_ids = 1;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.values.StringValue, io.dstore.values.StringValue.Builder, io.dstore.values.StringValueOrBuilder> 
@@ -1946,13 +1946,13 @@ public final class OmGetPricesPu {
 
       private boolean nodeIdsNull_ ;
       /**
-       * <code>optional bool node_ids_null = 1001;</code>
+       * <code>bool node_ids_null = 1001;</code>
        */
       public boolean getNodeIdsNull() {
         return nodeIdsNull_;
       }
       /**
-       * <code>optional bool node_ids_null = 1001;</code>
+       * <code>bool node_ids_null = 1001;</code>
        */
       public Builder setNodeIdsNull(boolean value) {
         
@@ -1961,7 +1961,7 @@ public final class OmGetPricesPu {
         return this;
       }
       /**
-       * <code>optional bool node_ids_null = 1001;</code>
+       * <code>bool node_ids_null = 1001;</code>
        */
       public Builder clearNodeIdsNull() {
         
@@ -1974,13 +1974,13 @@ public final class OmGetPricesPu {
       private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.values.StringValue, io.dstore.values.StringValue.Builder, io.dstore.values.StringValueOrBuilder> quantitiesBuilder_;
       /**
-       * <code>optional .dstore.values.StringValue quantities = 2;</code>
+       * <code>.dstore.values.StringValue quantities = 2;</code>
        */
       public boolean hasQuantities() {
         return quantitiesBuilder_ != null || quantities_ != null;
       }
       /**
-       * <code>optional .dstore.values.StringValue quantities = 2;</code>
+       * <code>.dstore.values.StringValue quantities = 2;</code>
        */
       public io.dstore.values.StringValue getQuantities() {
         if (quantitiesBuilder_ == null) {
@@ -1990,7 +1990,7 @@ public final class OmGetPricesPu {
         }
       }
       /**
-       * <code>optional .dstore.values.StringValue quantities = 2;</code>
+       * <code>.dstore.values.StringValue quantities = 2;</code>
        */
       public Builder setQuantities(io.dstore.values.StringValue value) {
         if (quantitiesBuilder_ == null) {
@@ -2006,7 +2006,7 @@ public final class OmGetPricesPu {
         return this;
       }
       /**
-       * <code>optional .dstore.values.StringValue quantities = 2;</code>
+       * <code>.dstore.values.StringValue quantities = 2;</code>
        */
       public Builder setQuantities(
           io.dstore.values.StringValue.Builder builderForValue) {
@@ -2020,7 +2020,7 @@ public final class OmGetPricesPu {
         return this;
       }
       /**
-       * <code>optional .dstore.values.StringValue quantities = 2;</code>
+       * <code>.dstore.values.StringValue quantities = 2;</code>
        */
       public Builder mergeQuantities(io.dstore.values.StringValue value) {
         if (quantitiesBuilder_ == null) {
@@ -2038,7 +2038,7 @@ public final class OmGetPricesPu {
         return this;
       }
       /**
-       * <code>optional .dstore.values.StringValue quantities = 2;</code>
+       * <code>.dstore.values.StringValue quantities = 2;</code>
        */
       public Builder clearQuantities() {
         if (quantitiesBuilder_ == null) {
@@ -2052,7 +2052,7 @@ public final class OmGetPricesPu {
         return this;
       }
       /**
-       * <code>optional .dstore.values.StringValue quantities = 2;</code>
+       * <code>.dstore.values.StringValue quantities = 2;</code>
        */
       public io.dstore.values.StringValue.Builder getQuantitiesBuilder() {
         
@@ -2060,7 +2060,7 @@ public final class OmGetPricesPu {
         return getQuantitiesFieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .dstore.values.StringValue quantities = 2;</code>
+       * <code>.dstore.values.StringValue quantities = 2;</code>
        */
       public io.dstore.values.StringValueOrBuilder getQuantitiesOrBuilder() {
         if (quantitiesBuilder_ != null) {
@@ -2071,7 +2071,7 @@ public final class OmGetPricesPu {
         }
       }
       /**
-       * <code>optional .dstore.values.StringValue quantities = 2;</code>
+       * <code>.dstore.values.StringValue quantities = 2;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.values.StringValue, io.dstore.values.StringValue.Builder, io.dstore.values.StringValueOrBuilder> 
@@ -2089,13 +2089,13 @@ public final class OmGetPricesPu {
 
       private boolean quantitiesNull_ ;
       /**
-       * <code>optional bool quantities_null = 1002;</code>
+       * <code>bool quantities_null = 1002;</code>
        */
       public boolean getQuantitiesNull() {
         return quantitiesNull_;
       }
       /**
-       * <code>optional bool quantities_null = 1002;</code>
+       * <code>bool quantities_null = 1002;</code>
        */
       public Builder setQuantitiesNull(boolean value) {
         
@@ -2104,7 +2104,7 @@ public final class OmGetPricesPu {
         return this;
       }
       /**
-       * <code>optional bool quantities_null = 1002;</code>
+       * <code>bool quantities_null = 1002;</code>
        */
       public Builder clearQuantitiesNull() {
         
@@ -2117,13 +2117,13 @@ public final class OmGetPricesPu {
       private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> personIdBuilder_;
       /**
-       * <code>optional .dstore.values.IntegerValue person_id = 3;</code>
+       * <code>.dstore.values.IntegerValue person_id = 3;</code>
        */
       public boolean hasPersonId() {
         return personIdBuilder_ != null || personId_ != null;
       }
       /**
-       * <code>optional .dstore.values.IntegerValue person_id = 3;</code>
+       * <code>.dstore.values.IntegerValue person_id = 3;</code>
        */
       public io.dstore.values.IntegerValue getPersonId() {
         if (personIdBuilder_ == null) {
@@ -2133,7 +2133,7 @@ public final class OmGetPricesPu {
         }
       }
       /**
-       * <code>optional .dstore.values.IntegerValue person_id = 3;</code>
+       * <code>.dstore.values.IntegerValue person_id = 3;</code>
        */
       public Builder setPersonId(io.dstore.values.IntegerValue value) {
         if (personIdBuilder_ == null) {
@@ -2149,7 +2149,7 @@ public final class OmGetPricesPu {
         return this;
       }
       /**
-       * <code>optional .dstore.values.IntegerValue person_id = 3;</code>
+       * <code>.dstore.values.IntegerValue person_id = 3;</code>
        */
       public Builder setPersonId(
           io.dstore.values.IntegerValue.Builder builderForValue) {
@@ -2163,7 +2163,7 @@ public final class OmGetPricesPu {
         return this;
       }
       /**
-       * <code>optional .dstore.values.IntegerValue person_id = 3;</code>
+       * <code>.dstore.values.IntegerValue person_id = 3;</code>
        */
       public Builder mergePersonId(io.dstore.values.IntegerValue value) {
         if (personIdBuilder_ == null) {
@@ -2181,7 +2181,7 @@ public final class OmGetPricesPu {
         return this;
       }
       /**
-       * <code>optional .dstore.values.IntegerValue person_id = 3;</code>
+       * <code>.dstore.values.IntegerValue person_id = 3;</code>
        */
       public Builder clearPersonId() {
         if (personIdBuilder_ == null) {
@@ -2195,7 +2195,7 @@ public final class OmGetPricesPu {
         return this;
       }
       /**
-       * <code>optional .dstore.values.IntegerValue person_id = 3;</code>
+       * <code>.dstore.values.IntegerValue person_id = 3;</code>
        */
       public io.dstore.values.IntegerValue.Builder getPersonIdBuilder() {
         
@@ -2203,7 +2203,7 @@ public final class OmGetPricesPu {
         return getPersonIdFieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .dstore.values.IntegerValue person_id = 3;</code>
+       * <code>.dstore.values.IntegerValue person_id = 3;</code>
        */
       public io.dstore.values.IntegerValueOrBuilder getPersonIdOrBuilder() {
         if (personIdBuilder_ != null) {
@@ -2214,7 +2214,7 @@ public final class OmGetPricesPu {
         }
       }
       /**
-       * <code>optional .dstore.values.IntegerValue person_id = 3;</code>
+       * <code>.dstore.values.IntegerValue person_id = 3;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> 
@@ -2232,13 +2232,13 @@ public final class OmGetPricesPu {
 
       private boolean personIdNull_ ;
       /**
-       * <code>optional bool person_id_null = 1003;</code>
+       * <code>bool person_id_null = 1003;</code>
        */
       public boolean getPersonIdNull() {
         return personIdNull_;
       }
       /**
-       * <code>optional bool person_id_null = 1003;</code>
+       * <code>bool person_id_null = 1003;</code>
        */
       public Builder setPersonIdNull(boolean value) {
         
@@ -2247,7 +2247,7 @@ public final class OmGetPricesPu {
         return this;
       }
       /**
-       * <code>optional bool person_id_null = 1003;</code>
+       * <code>bool person_id_null = 1003;</code>
        */
       public Builder clearPersonIdNull() {
         
@@ -2260,13 +2260,13 @@ public final class OmGetPricesPu {
       private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> currencyIdBuilder_;
       /**
-       * <code>optional .dstore.values.IntegerValue currency_id = 4;</code>
+       * <code>.dstore.values.IntegerValue currency_id = 4;</code>
        */
       public boolean hasCurrencyId() {
         return currencyIdBuilder_ != null || currencyId_ != null;
       }
       /**
-       * <code>optional .dstore.values.IntegerValue currency_id = 4;</code>
+       * <code>.dstore.values.IntegerValue currency_id = 4;</code>
        */
       public io.dstore.values.IntegerValue getCurrencyId() {
         if (currencyIdBuilder_ == null) {
@@ -2276,7 +2276,7 @@ public final class OmGetPricesPu {
         }
       }
       /**
-       * <code>optional .dstore.values.IntegerValue currency_id = 4;</code>
+       * <code>.dstore.values.IntegerValue currency_id = 4;</code>
        */
       public Builder setCurrencyId(io.dstore.values.IntegerValue value) {
         if (currencyIdBuilder_ == null) {
@@ -2292,7 +2292,7 @@ public final class OmGetPricesPu {
         return this;
       }
       /**
-       * <code>optional .dstore.values.IntegerValue currency_id = 4;</code>
+       * <code>.dstore.values.IntegerValue currency_id = 4;</code>
        */
       public Builder setCurrencyId(
           io.dstore.values.IntegerValue.Builder builderForValue) {
@@ -2306,7 +2306,7 @@ public final class OmGetPricesPu {
         return this;
       }
       /**
-       * <code>optional .dstore.values.IntegerValue currency_id = 4;</code>
+       * <code>.dstore.values.IntegerValue currency_id = 4;</code>
        */
       public Builder mergeCurrencyId(io.dstore.values.IntegerValue value) {
         if (currencyIdBuilder_ == null) {
@@ -2324,7 +2324,7 @@ public final class OmGetPricesPu {
         return this;
       }
       /**
-       * <code>optional .dstore.values.IntegerValue currency_id = 4;</code>
+       * <code>.dstore.values.IntegerValue currency_id = 4;</code>
        */
       public Builder clearCurrencyId() {
         if (currencyIdBuilder_ == null) {
@@ -2338,7 +2338,7 @@ public final class OmGetPricesPu {
         return this;
       }
       /**
-       * <code>optional .dstore.values.IntegerValue currency_id = 4;</code>
+       * <code>.dstore.values.IntegerValue currency_id = 4;</code>
        */
       public io.dstore.values.IntegerValue.Builder getCurrencyIdBuilder() {
         
@@ -2346,7 +2346,7 @@ public final class OmGetPricesPu {
         return getCurrencyIdFieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .dstore.values.IntegerValue currency_id = 4;</code>
+       * <code>.dstore.values.IntegerValue currency_id = 4;</code>
        */
       public io.dstore.values.IntegerValueOrBuilder getCurrencyIdOrBuilder() {
         if (currencyIdBuilder_ != null) {
@@ -2357,7 +2357,7 @@ public final class OmGetPricesPu {
         }
       }
       /**
-       * <code>optional .dstore.values.IntegerValue currency_id = 4;</code>
+       * <code>.dstore.values.IntegerValue currency_id = 4;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> 
@@ -2375,13 +2375,13 @@ public final class OmGetPricesPu {
 
       private boolean currencyIdNull_ ;
       /**
-       * <code>optional bool currency_id_null = 1004;</code>
+       * <code>bool currency_id_null = 1004;</code>
        */
       public boolean getCurrencyIdNull() {
         return currencyIdNull_;
       }
       /**
-       * <code>optional bool currency_id_null = 1004;</code>
+       * <code>bool currency_id_null = 1004;</code>
        */
       public Builder setCurrencyIdNull(boolean value) {
         
@@ -2390,7 +2390,7 @@ public final class OmGetPricesPu {
         return this;
       }
       /**
-       * <code>optional bool currency_id_null = 1004;</code>
+       * <code>bool currency_id_null = 1004;</code>
        */
       public Builder clearCurrencyIdNull() {
         
@@ -2403,13 +2403,13 @@ public final class OmGetPricesPu {
       private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.values.BooleanValue, io.dstore.values.BooleanValue.Builder, io.dstore.values.BooleanValueOrBuilder> isTreeNodeIdBuilder_;
       /**
-       * <code>optional .dstore.values.BooleanValue is_tree_node_id = 5;</code>
+       * <code>.dstore.values.BooleanValue is_tree_node_id = 5;</code>
        */
       public boolean hasIsTreeNodeId() {
         return isTreeNodeIdBuilder_ != null || isTreeNodeId_ != null;
       }
       /**
-       * <code>optional .dstore.values.BooleanValue is_tree_node_id = 5;</code>
+       * <code>.dstore.values.BooleanValue is_tree_node_id = 5;</code>
        */
       public io.dstore.values.BooleanValue getIsTreeNodeId() {
         if (isTreeNodeIdBuilder_ == null) {
@@ -2419,7 +2419,7 @@ public final class OmGetPricesPu {
         }
       }
       /**
-       * <code>optional .dstore.values.BooleanValue is_tree_node_id = 5;</code>
+       * <code>.dstore.values.BooleanValue is_tree_node_id = 5;</code>
        */
       public Builder setIsTreeNodeId(io.dstore.values.BooleanValue value) {
         if (isTreeNodeIdBuilder_ == null) {
@@ -2435,7 +2435,7 @@ public final class OmGetPricesPu {
         return this;
       }
       /**
-       * <code>optional .dstore.values.BooleanValue is_tree_node_id = 5;</code>
+       * <code>.dstore.values.BooleanValue is_tree_node_id = 5;</code>
        */
       public Builder setIsTreeNodeId(
           io.dstore.values.BooleanValue.Builder builderForValue) {
@@ -2449,7 +2449,7 @@ public final class OmGetPricesPu {
         return this;
       }
       /**
-       * <code>optional .dstore.values.BooleanValue is_tree_node_id = 5;</code>
+       * <code>.dstore.values.BooleanValue is_tree_node_id = 5;</code>
        */
       public Builder mergeIsTreeNodeId(io.dstore.values.BooleanValue value) {
         if (isTreeNodeIdBuilder_ == null) {
@@ -2467,7 +2467,7 @@ public final class OmGetPricesPu {
         return this;
       }
       /**
-       * <code>optional .dstore.values.BooleanValue is_tree_node_id = 5;</code>
+       * <code>.dstore.values.BooleanValue is_tree_node_id = 5;</code>
        */
       public Builder clearIsTreeNodeId() {
         if (isTreeNodeIdBuilder_ == null) {
@@ -2481,7 +2481,7 @@ public final class OmGetPricesPu {
         return this;
       }
       /**
-       * <code>optional .dstore.values.BooleanValue is_tree_node_id = 5;</code>
+       * <code>.dstore.values.BooleanValue is_tree_node_id = 5;</code>
        */
       public io.dstore.values.BooleanValue.Builder getIsTreeNodeIdBuilder() {
         
@@ -2489,7 +2489,7 @@ public final class OmGetPricesPu {
         return getIsTreeNodeIdFieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .dstore.values.BooleanValue is_tree_node_id = 5;</code>
+       * <code>.dstore.values.BooleanValue is_tree_node_id = 5;</code>
        */
       public io.dstore.values.BooleanValueOrBuilder getIsTreeNodeIdOrBuilder() {
         if (isTreeNodeIdBuilder_ != null) {
@@ -2500,7 +2500,7 @@ public final class OmGetPricesPu {
         }
       }
       /**
-       * <code>optional .dstore.values.BooleanValue is_tree_node_id = 5;</code>
+       * <code>.dstore.values.BooleanValue is_tree_node_id = 5;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.values.BooleanValue, io.dstore.values.BooleanValue.Builder, io.dstore.values.BooleanValueOrBuilder> 
@@ -2518,13 +2518,13 @@ public final class OmGetPricesPu {
 
       private boolean isTreeNodeIdNull_ ;
       /**
-       * <code>optional bool is_tree_node_id_null = 1005;</code>
+       * <code>bool is_tree_node_id_null = 1005;</code>
        */
       public boolean getIsTreeNodeIdNull() {
         return isTreeNodeIdNull_;
       }
       /**
-       * <code>optional bool is_tree_node_id_null = 1005;</code>
+       * <code>bool is_tree_node_id_null = 1005;</code>
        */
       public Builder setIsTreeNodeIdNull(boolean value) {
         
@@ -2533,7 +2533,7 @@ public final class OmGetPricesPu {
         return this;
       }
       /**
-       * <code>optional bool is_tree_node_id_null = 1005;</code>
+       * <code>bool is_tree_node_id_null = 1005;</code>
        */
       public Builder clearIsTreeNodeIdNull() {
         
@@ -2546,13 +2546,13 @@ public final class OmGetPricesPu {
       private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> priceNodeCharacteristicIdBuilder_;
       /**
-       * <code>optional .dstore.values.IntegerValue price_node_characteristic_id = 6;</code>
+       * <code>.dstore.values.IntegerValue price_node_characteristic_id = 6;</code>
        */
       public boolean hasPriceNodeCharacteristicId() {
         return priceNodeCharacteristicIdBuilder_ != null || priceNodeCharacteristicId_ != null;
       }
       /**
-       * <code>optional .dstore.values.IntegerValue price_node_characteristic_id = 6;</code>
+       * <code>.dstore.values.IntegerValue price_node_characteristic_id = 6;</code>
        */
       public io.dstore.values.IntegerValue getPriceNodeCharacteristicId() {
         if (priceNodeCharacteristicIdBuilder_ == null) {
@@ -2562,7 +2562,7 @@ public final class OmGetPricesPu {
         }
       }
       /**
-       * <code>optional .dstore.values.IntegerValue price_node_characteristic_id = 6;</code>
+       * <code>.dstore.values.IntegerValue price_node_characteristic_id = 6;</code>
        */
       public Builder setPriceNodeCharacteristicId(io.dstore.values.IntegerValue value) {
         if (priceNodeCharacteristicIdBuilder_ == null) {
@@ -2578,7 +2578,7 @@ public final class OmGetPricesPu {
         return this;
       }
       /**
-       * <code>optional .dstore.values.IntegerValue price_node_characteristic_id = 6;</code>
+       * <code>.dstore.values.IntegerValue price_node_characteristic_id = 6;</code>
        */
       public Builder setPriceNodeCharacteristicId(
           io.dstore.values.IntegerValue.Builder builderForValue) {
@@ -2592,7 +2592,7 @@ public final class OmGetPricesPu {
         return this;
       }
       /**
-       * <code>optional .dstore.values.IntegerValue price_node_characteristic_id = 6;</code>
+       * <code>.dstore.values.IntegerValue price_node_characteristic_id = 6;</code>
        */
       public Builder mergePriceNodeCharacteristicId(io.dstore.values.IntegerValue value) {
         if (priceNodeCharacteristicIdBuilder_ == null) {
@@ -2610,7 +2610,7 @@ public final class OmGetPricesPu {
         return this;
       }
       /**
-       * <code>optional .dstore.values.IntegerValue price_node_characteristic_id = 6;</code>
+       * <code>.dstore.values.IntegerValue price_node_characteristic_id = 6;</code>
        */
       public Builder clearPriceNodeCharacteristicId() {
         if (priceNodeCharacteristicIdBuilder_ == null) {
@@ -2624,7 +2624,7 @@ public final class OmGetPricesPu {
         return this;
       }
       /**
-       * <code>optional .dstore.values.IntegerValue price_node_characteristic_id = 6;</code>
+       * <code>.dstore.values.IntegerValue price_node_characteristic_id = 6;</code>
        */
       public io.dstore.values.IntegerValue.Builder getPriceNodeCharacteristicIdBuilder() {
         
@@ -2632,7 +2632,7 @@ public final class OmGetPricesPu {
         return getPriceNodeCharacteristicIdFieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .dstore.values.IntegerValue price_node_characteristic_id = 6;</code>
+       * <code>.dstore.values.IntegerValue price_node_characteristic_id = 6;</code>
        */
       public io.dstore.values.IntegerValueOrBuilder getPriceNodeCharacteristicIdOrBuilder() {
         if (priceNodeCharacteristicIdBuilder_ != null) {
@@ -2643,7 +2643,7 @@ public final class OmGetPricesPu {
         }
       }
       /**
-       * <code>optional .dstore.values.IntegerValue price_node_characteristic_id = 6;</code>
+       * <code>.dstore.values.IntegerValue price_node_characteristic_id = 6;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> 
@@ -2661,13 +2661,13 @@ public final class OmGetPricesPu {
 
       private boolean priceNodeCharacteristicIdNull_ ;
       /**
-       * <code>optional bool price_node_characteristic_id_null = 1006;</code>
+       * <code>bool price_node_characteristic_id_null = 1006;</code>
        */
       public boolean getPriceNodeCharacteristicIdNull() {
         return priceNodeCharacteristicIdNull_;
       }
       /**
-       * <code>optional bool price_node_characteristic_id_null = 1006;</code>
+       * <code>bool price_node_characteristic_id_null = 1006;</code>
        */
       public Builder setPriceNodeCharacteristicIdNull(boolean value) {
         
@@ -2676,7 +2676,7 @@ public final class OmGetPricesPu {
         return this;
       }
       /**
-       * <code>optional bool price_node_characteristic_id_null = 1006;</code>
+       * <code>bool price_node_characteristic_id_null = 1006;</code>
        */
       public Builder clearPriceNodeCharacteristicIdNull() {
         
@@ -2689,13 +2689,13 @@ public final class OmGetPricesPu {
       private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.values.BooleanValue, io.dstore.values.BooleanValue.Builder, io.dstore.values.BooleanValueOrBuilder> computeSumBuilder_;
       /**
-       * <code>optional .dstore.values.BooleanValue compute_sum = 7;</code>
+       * <code>.dstore.values.BooleanValue compute_sum = 7;</code>
        */
       public boolean hasComputeSum() {
         return computeSumBuilder_ != null || computeSum_ != null;
       }
       /**
-       * <code>optional .dstore.values.BooleanValue compute_sum = 7;</code>
+       * <code>.dstore.values.BooleanValue compute_sum = 7;</code>
        */
       public io.dstore.values.BooleanValue getComputeSum() {
         if (computeSumBuilder_ == null) {
@@ -2705,7 +2705,7 @@ public final class OmGetPricesPu {
         }
       }
       /**
-       * <code>optional .dstore.values.BooleanValue compute_sum = 7;</code>
+       * <code>.dstore.values.BooleanValue compute_sum = 7;</code>
        */
       public Builder setComputeSum(io.dstore.values.BooleanValue value) {
         if (computeSumBuilder_ == null) {
@@ -2721,7 +2721,7 @@ public final class OmGetPricesPu {
         return this;
       }
       /**
-       * <code>optional .dstore.values.BooleanValue compute_sum = 7;</code>
+       * <code>.dstore.values.BooleanValue compute_sum = 7;</code>
        */
       public Builder setComputeSum(
           io.dstore.values.BooleanValue.Builder builderForValue) {
@@ -2735,7 +2735,7 @@ public final class OmGetPricesPu {
         return this;
       }
       /**
-       * <code>optional .dstore.values.BooleanValue compute_sum = 7;</code>
+       * <code>.dstore.values.BooleanValue compute_sum = 7;</code>
        */
       public Builder mergeComputeSum(io.dstore.values.BooleanValue value) {
         if (computeSumBuilder_ == null) {
@@ -2753,7 +2753,7 @@ public final class OmGetPricesPu {
         return this;
       }
       /**
-       * <code>optional .dstore.values.BooleanValue compute_sum = 7;</code>
+       * <code>.dstore.values.BooleanValue compute_sum = 7;</code>
        */
       public Builder clearComputeSum() {
         if (computeSumBuilder_ == null) {
@@ -2767,7 +2767,7 @@ public final class OmGetPricesPu {
         return this;
       }
       /**
-       * <code>optional .dstore.values.BooleanValue compute_sum = 7;</code>
+       * <code>.dstore.values.BooleanValue compute_sum = 7;</code>
        */
       public io.dstore.values.BooleanValue.Builder getComputeSumBuilder() {
         
@@ -2775,7 +2775,7 @@ public final class OmGetPricesPu {
         return getComputeSumFieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .dstore.values.BooleanValue compute_sum = 7;</code>
+       * <code>.dstore.values.BooleanValue compute_sum = 7;</code>
        */
       public io.dstore.values.BooleanValueOrBuilder getComputeSumOrBuilder() {
         if (computeSumBuilder_ != null) {
@@ -2786,7 +2786,7 @@ public final class OmGetPricesPu {
         }
       }
       /**
-       * <code>optional .dstore.values.BooleanValue compute_sum = 7;</code>
+       * <code>.dstore.values.BooleanValue compute_sum = 7;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.values.BooleanValue, io.dstore.values.BooleanValue.Builder, io.dstore.values.BooleanValueOrBuilder> 
@@ -2804,13 +2804,13 @@ public final class OmGetPricesPu {
 
       private boolean computeSumNull_ ;
       /**
-       * <code>optional bool compute_sum_null = 1007;</code>
+       * <code>bool compute_sum_null = 1007;</code>
        */
       public boolean getComputeSumNull() {
         return computeSumNull_;
       }
       /**
-       * <code>optional bool compute_sum_null = 1007;</code>
+       * <code>bool compute_sum_null = 1007;</code>
        */
       public Builder setComputeSumNull(boolean value) {
         
@@ -2819,7 +2819,7 @@ public final class OmGetPricesPu {
         return this;
       }
       /**
-       * <code>optional bool compute_sum_null = 1007;</code>
+       * <code>bool compute_sum_null = 1007;</code>
        */
       public Builder clearComputeSumNull() {
         
@@ -2832,13 +2832,13 @@ public final class OmGetPricesPu {
       private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.values.StringValue, io.dstore.values.StringValue.Builder, io.dstore.values.StringValueOrBuilder> uniqueIdBuilder_;
       /**
-       * <code>optional .dstore.values.StringValue unique_id = 8;</code>
+       * <code>.dstore.values.StringValue unique_id = 8;</code>
        */
       public boolean hasUniqueId() {
         return uniqueIdBuilder_ != null || uniqueId_ != null;
       }
       /**
-       * <code>optional .dstore.values.StringValue unique_id = 8;</code>
+       * <code>.dstore.values.StringValue unique_id = 8;</code>
        */
       public io.dstore.values.StringValue getUniqueId() {
         if (uniqueIdBuilder_ == null) {
@@ -2848,7 +2848,7 @@ public final class OmGetPricesPu {
         }
       }
       /**
-       * <code>optional .dstore.values.StringValue unique_id = 8;</code>
+       * <code>.dstore.values.StringValue unique_id = 8;</code>
        */
       public Builder setUniqueId(io.dstore.values.StringValue value) {
         if (uniqueIdBuilder_ == null) {
@@ -2864,7 +2864,7 @@ public final class OmGetPricesPu {
         return this;
       }
       /**
-       * <code>optional .dstore.values.StringValue unique_id = 8;</code>
+       * <code>.dstore.values.StringValue unique_id = 8;</code>
        */
       public Builder setUniqueId(
           io.dstore.values.StringValue.Builder builderForValue) {
@@ -2878,7 +2878,7 @@ public final class OmGetPricesPu {
         return this;
       }
       /**
-       * <code>optional .dstore.values.StringValue unique_id = 8;</code>
+       * <code>.dstore.values.StringValue unique_id = 8;</code>
        */
       public Builder mergeUniqueId(io.dstore.values.StringValue value) {
         if (uniqueIdBuilder_ == null) {
@@ -2896,7 +2896,7 @@ public final class OmGetPricesPu {
         return this;
       }
       /**
-       * <code>optional .dstore.values.StringValue unique_id = 8;</code>
+       * <code>.dstore.values.StringValue unique_id = 8;</code>
        */
       public Builder clearUniqueId() {
         if (uniqueIdBuilder_ == null) {
@@ -2910,7 +2910,7 @@ public final class OmGetPricesPu {
         return this;
       }
       /**
-       * <code>optional .dstore.values.StringValue unique_id = 8;</code>
+       * <code>.dstore.values.StringValue unique_id = 8;</code>
        */
       public io.dstore.values.StringValue.Builder getUniqueIdBuilder() {
         
@@ -2918,7 +2918,7 @@ public final class OmGetPricesPu {
         return getUniqueIdFieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .dstore.values.StringValue unique_id = 8;</code>
+       * <code>.dstore.values.StringValue unique_id = 8;</code>
        */
       public io.dstore.values.StringValueOrBuilder getUniqueIdOrBuilder() {
         if (uniqueIdBuilder_ != null) {
@@ -2929,7 +2929,7 @@ public final class OmGetPricesPu {
         }
       }
       /**
-       * <code>optional .dstore.values.StringValue unique_id = 8;</code>
+       * <code>.dstore.values.StringValue unique_id = 8;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.values.StringValue, io.dstore.values.StringValue.Builder, io.dstore.values.StringValueOrBuilder> 
@@ -2947,13 +2947,13 @@ public final class OmGetPricesPu {
 
       private boolean uniqueIdNull_ ;
       /**
-       * <code>optional bool unique_id_null = 1008;</code>
+       * <code>bool unique_id_null = 1008;</code>
        */
       public boolean getUniqueIdNull() {
         return uniqueIdNull_;
       }
       /**
-       * <code>optional bool unique_id_null = 1008;</code>
+       * <code>bool unique_id_null = 1008;</code>
        */
       public Builder setUniqueIdNull(boolean value) {
         
@@ -2962,7 +2962,7 @@ public final class OmGetPricesPu {
         return this;
       }
       /**
-       * <code>optional bool unique_id_null = 1008;</code>
+       * <code>bool unique_id_null = 1008;</code>
        */
       public Builder clearUniqueIdNull() {
         
@@ -2975,13 +2975,13 @@ public final class OmGetPricesPu {
       private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.values.BooleanValue, io.dstore.values.BooleanValue.Builder, io.dstore.values.BooleanValueOrBuilder> getAdditionalPriceInfoBuilder_;
       /**
-       * <code>optional .dstore.values.BooleanValue get_additional_price_info = 9;</code>
+       * <code>.dstore.values.BooleanValue get_additional_price_info = 9;</code>
        */
       public boolean hasGetAdditionalPriceInfo() {
         return getAdditionalPriceInfoBuilder_ != null || getAdditionalPriceInfo_ != null;
       }
       /**
-       * <code>optional .dstore.values.BooleanValue get_additional_price_info = 9;</code>
+       * <code>.dstore.values.BooleanValue get_additional_price_info = 9;</code>
        */
       public io.dstore.values.BooleanValue getGetAdditionalPriceInfo() {
         if (getAdditionalPriceInfoBuilder_ == null) {
@@ -2991,7 +2991,7 @@ public final class OmGetPricesPu {
         }
       }
       /**
-       * <code>optional .dstore.values.BooleanValue get_additional_price_info = 9;</code>
+       * <code>.dstore.values.BooleanValue get_additional_price_info = 9;</code>
        */
       public Builder setGetAdditionalPriceInfo(io.dstore.values.BooleanValue value) {
         if (getAdditionalPriceInfoBuilder_ == null) {
@@ -3007,7 +3007,7 @@ public final class OmGetPricesPu {
         return this;
       }
       /**
-       * <code>optional .dstore.values.BooleanValue get_additional_price_info = 9;</code>
+       * <code>.dstore.values.BooleanValue get_additional_price_info = 9;</code>
        */
       public Builder setGetAdditionalPriceInfo(
           io.dstore.values.BooleanValue.Builder builderForValue) {
@@ -3021,7 +3021,7 @@ public final class OmGetPricesPu {
         return this;
       }
       /**
-       * <code>optional .dstore.values.BooleanValue get_additional_price_info = 9;</code>
+       * <code>.dstore.values.BooleanValue get_additional_price_info = 9;</code>
        */
       public Builder mergeGetAdditionalPriceInfo(io.dstore.values.BooleanValue value) {
         if (getAdditionalPriceInfoBuilder_ == null) {
@@ -3039,7 +3039,7 @@ public final class OmGetPricesPu {
         return this;
       }
       /**
-       * <code>optional .dstore.values.BooleanValue get_additional_price_info = 9;</code>
+       * <code>.dstore.values.BooleanValue get_additional_price_info = 9;</code>
        */
       public Builder clearGetAdditionalPriceInfo() {
         if (getAdditionalPriceInfoBuilder_ == null) {
@@ -3053,7 +3053,7 @@ public final class OmGetPricesPu {
         return this;
       }
       /**
-       * <code>optional .dstore.values.BooleanValue get_additional_price_info = 9;</code>
+       * <code>.dstore.values.BooleanValue get_additional_price_info = 9;</code>
        */
       public io.dstore.values.BooleanValue.Builder getGetAdditionalPriceInfoBuilder() {
         
@@ -3061,7 +3061,7 @@ public final class OmGetPricesPu {
         return getGetAdditionalPriceInfoFieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .dstore.values.BooleanValue get_additional_price_info = 9;</code>
+       * <code>.dstore.values.BooleanValue get_additional_price_info = 9;</code>
        */
       public io.dstore.values.BooleanValueOrBuilder getGetAdditionalPriceInfoOrBuilder() {
         if (getAdditionalPriceInfoBuilder_ != null) {
@@ -3072,7 +3072,7 @@ public final class OmGetPricesPu {
         }
       }
       /**
-       * <code>optional .dstore.values.BooleanValue get_additional_price_info = 9;</code>
+       * <code>.dstore.values.BooleanValue get_additional_price_info = 9;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.values.BooleanValue, io.dstore.values.BooleanValue.Builder, io.dstore.values.BooleanValueOrBuilder> 
@@ -3090,13 +3090,13 @@ public final class OmGetPricesPu {
 
       private boolean getAdditionalPriceInfoNull_ ;
       /**
-       * <code>optional bool get_additional_price_info_null = 1009;</code>
+       * <code>bool get_additional_price_info_null = 1009;</code>
        */
       public boolean getGetAdditionalPriceInfoNull() {
         return getAdditionalPriceInfoNull_;
       }
       /**
-       * <code>optional bool get_additional_price_info_null = 1009;</code>
+       * <code>bool get_additional_price_info_null = 1009;</code>
        */
       public Builder setGetAdditionalPriceInfoNull(boolean value) {
         
@@ -3105,7 +3105,7 @@ public final class OmGetPricesPu {
         return this;
       }
       /**
-       * <code>optional bool get_additional_price_info_null = 1009;</code>
+       * <code>bool get_additional_price_info_null = 1009;</code>
        */
       public Builder clearGetAdditionalPriceInfoNull() {
         
@@ -3118,13 +3118,13 @@ public final class OmGetPricesPu {
       private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> deliveryPersonIdBuilder_;
       /**
-       * <code>optional .dstore.values.IntegerValue delivery_person_id = 10;</code>
+       * <code>.dstore.values.IntegerValue delivery_person_id = 10;</code>
        */
       public boolean hasDeliveryPersonId() {
         return deliveryPersonIdBuilder_ != null || deliveryPersonId_ != null;
       }
       /**
-       * <code>optional .dstore.values.IntegerValue delivery_person_id = 10;</code>
+       * <code>.dstore.values.IntegerValue delivery_person_id = 10;</code>
        */
       public io.dstore.values.IntegerValue getDeliveryPersonId() {
         if (deliveryPersonIdBuilder_ == null) {
@@ -3134,7 +3134,7 @@ public final class OmGetPricesPu {
         }
       }
       /**
-       * <code>optional .dstore.values.IntegerValue delivery_person_id = 10;</code>
+       * <code>.dstore.values.IntegerValue delivery_person_id = 10;</code>
        */
       public Builder setDeliveryPersonId(io.dstore.values.IntegerValue value) {
         if (deliveryPersonIdBuilder_ == null) {
@@ -3150,7 +3150,7 @@ public final class OmGetPricesPu {
         return this;
       }
       /**
-       * <code>optional .dstore.values.IntegerValue delivery_person_id = 10;</code>
+       * <code>.dstore.values.IntegerValue delivery_person_id = 10;</code>
        */
       public Builder setDeliveryPersonId(
           io.dstore.values.IntegerValue.Builder builderForValue) {
@@ -3164,7 +3164,7 @@ public final class OmGetPricesPu {
         return this;
       }
       /**
-       * <code>optional .dstore.values.IntegerValue delivery_person_id = 10;</code>
+       * <code>.dstore.values.IntegerValue delivery_person_id = 10;</code>
        */
       public Builder mergeDeliveryPersonId(io.dstore.values.IntegerValue value) {
         if (deliveryPersonIdBuilder_ == null) {
@@ -3182,7 +3182,7 @@ public final class OmGetPricesPu {
         return this;
       }
       /**
-       * <code>optional .dstore.values.IntegerValue delivery_person_id = 10;</code>
+       * <code>.dstore.values.IntegerValue delivery_person_id = 10;</code>
        */
       public Builder clearDeliveryPersonId() {
         if (deliveryPersonIdBuilder_ == null) {
@@ -3196,7 +3196,7 @@ public final class OmGetPricesPu {
         return this;
       }
       /**
-       * <code>optional .dstore.values.IntegerValue delivery_person_id = 10;</code>
+       * <code>.dstore.values.IntegerValue delivery_person_id = 10;</code>
        */
       public io.dstore.values.IntegerValue.Builder getDeliveryPersonIdBuilder() {
         
@@ -3204,7 +3204,7 @@ public final class OmGetPricesPu {
         return getDeliveryPersonIdFieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .dstore.values.IntegerValue delivery_person_id = 10;</code>
+       * <code>.dstore.values.IntegerValue delivery_person_id = 10;</code>
        */
       public io.dstore.values.IntegerValueOrBuilder getDeliveryPersonIdOrBuilder() {
         if (deliveryPersonIdBuilder_ != null) {
@@ -3215,7 +3215,7 @@ public final class OmGetPricesPu {
         }
       }
       /**
-       * <code>optional .dstore.values.IntegerValue delivery_person_id = 10;</code>
+       * <code>.dstore.values.IntegerValue delivery_person_id = 10;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> 
@@ -3233,13 +3233,13 @@ public final class OmGetPricesPu {
 
       private boolean deliveryPersonIdNull_ ;
       /**
-       * <code>optional bool delivery_person_id_null = 1010;</code>
+       * <code>bool delivery_person_id_null = 1010;</code>
        */
       public boolean getDeliveryPersonIdNull() {
         return deliveryPersonIdNull_;
       }
       /**
-       * <code>optional bool delivery_person_id_null = 1010;</code>
+       * <code>bool delivery_person_id_null = 1010;</code>
        */
       public Builder setDeliveryPersonIdNull(boolean value) {
         
@@ -3248,7 +3248,7 @@ public final class OmGetPricesPu {
         return this;
       }
       /**
-       * <code>optional bool delivery_person_id_null = 1010;</code>
+       * <code>bool delivery_person_id_null = 1010;</code>
        */
       public Builder clearDeliveryPersonIdNull() {
         
@@ -3261,13 +3261,13 @@ public final class OmGetPricesPu {
       private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.values.BooleanValue, io.dstore.values.BooleanValue.Builder, io.dstore.values.BooleanValueOrBuilder> getPricePerSingleNodeIdBuilder_;
       /**
-       * <code>optional .dstore.values.BooleanValue get_price_per_single_node_id = 11;</code>
+       * <code>.dstore.values.BooleanValue get_price_per_single_node_id = 11;</code>
        */
       public boolean hasGetPricePerSingleNodeId() {
         return getPricePerSingleNodeIdBuilder_ != null || getPricePerSingleNodeId_ != null;
       }
       /**
-       * <code>optional .dstore.values.BooleanValue get_price_per_single_node_id = 11;</code>
+       * <code>.dstore.values.BooleanValue get_price_per_single_node_id = 11;</code>
        */
       public io.dstore.values.BooleanValue getGetPricePerSingleNodeId() {
         if (getPricePerSingleNodeIdBuilder_ == null) {
@@ -3277,7 +3277,7 @@ public final class OmGetPricesPu {
         }
       }
       /**
-       * <code>optional .dstore.values.BooleanValue get_price_per_single_node_id = 11;</code>
+       * <code>.dstore.values.BooleanValue get_price_per_single_node_id = 11;</code>
        */
       public Builder setGetPricePerSingleNodeId(io.dstore.values.BooleanValue value) {
         if (getPricePerSingleNodeIdBuilder_ == null) {
@@ -3293,7 +3293,7 @@ public final class OmGetPricesPu {
         return this;
       }
       /**
-       * <code>optional .dstore.values.BooleanValue get_price_per_single_node_id = 11;</code>
+       * <code>.dstore.values.BooleanValue get_price_per_single_node_id = 11;</code>
        */
       public Builder setGetPricePerSingleNodeId(
           io.dstore.values.BooleanValue.Builder builderForValue) {
@@ -3307,7 +3307,7 @@ public final class OmGetPricesPu {
         return this;
       }
       /**
-       * <code>optional .dstore.values.BooleanValue get_price_per_single_node_id = 11;</code>
+       * <code>.dstore.values.BooleanValue get_price_per_single_node_id = 11;</code>
        */
       public Builder mergeGetPricePerSingleNodeId(io.dstore.values.BooleanValue value) {
         if (getPricePerSingleNodeIdBuilder_ == null) {
@@ -3325,7 +3325,7 @@ public final class OmGetPricesPu {
         return this;
       }
       /**
-       * <code>optional .dstore.values.BooleanValue get_price_per_single_node_id = 11;</code>
+       * <code>.dstore.values.BooleanValue get_price_per_single_node_id = 11;</code>
        */
       public Builder clearGetPricePerSingleNodeId() {
         if (getPricePerSingleNodeIdBuilder_ == null) {
@@ -3339,7 +3339,7 @@ public final class OmGetPricesPu {
         return this;
       }
       /**
-       * <code>optional .dstore.values.BooleanValue get_price_per_single_node_id = 11;</code>
+       * <code>.dstore.values.BooleanValue get_price_per_single_node_id = 11;</code>
        */
       public io.dstore.values.BooleanValue.Builder getGetPricePerSingleNodeIdBuilder() {
         
@@ -3347,7 +3347,7 @@ public final class OmGetPricesPu {
         return getGetPricePerSingleNodeIdFieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .dstore.values.BooleanValue get_price_per_single_node_id = 11;</code>
+       * <code>.dstore.values.BooleanValue get_price_per_single_node_id = 11;</code>
        */
       public io.dstore.values.BooleanValueOrBuilder getGetPricePerSingleNodeIdOrBuilder() {
         if (getPricePerSingleNodeIdBuilder_ != null) {
@@ -3358,7 +3358,7 @@ public final class OmGetPricesPu {
         }
       }
       /**
-       * <code>optional .dstore.values.BooleanValue get_price_per_single_node_id = 11;</code>
+       * <code>.dstore.values.BooleanValue get_price_per_single_node_id = 11;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.values.BooleanValue, io.dstore.values.BooleanValue.Builder, io.dstore.values.BooleanValueOrBuilder> 
@@ -3376,13 +3376,13 @@ public final class OmGetPricesPu {
 
       private boolean getPricePerSingleNodeIdNull_ ;
       /**
-       * <code>optional bool get_price_per_single_node_id_null = 1011;</code>
+       * <code>bool get_price_per_single_node_id_null = 1011;</code>
        */
       public boolean getGetPricePerSingleNodeIdNull() {
         return getPricePerSingleNodeIdNull_;
       }
       /**
-       * <code>optional bool get_price_per_single_node_id_null = 1011;</code>
+       * <code>bool get_price_per_single_node_id_null = 1011;</code>
        */
       public Builder setGetPricePerSingleNodeIdNull(boolean value) {
         
@@ -3391,7 +3391,7 @@ public final class OmGetPricesPu {
         return this;
       }
       /**
-       * <code>optional bool get_price_per_single_node_id_null = 1011;</code>
+       * <code>bool get_price_per_single_node_id_null = 1011;</code>
        */
       public Builder clearGetPricePerSingleNodeIdNull() {
         
@@ -3404,13 +3404,13 @@ public final class OmGetPricesPu {
       private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> paymentTypeIdBuilder_;
       /**
-       * <code>optional .dstore.values.IntegerValue payment_type_id = 12;</code>
+       * <code>.dstore.values.IntegerValue payment_type_id = 12;</code>
        */
       public boolean hasPaymentTypeId() {
         return paymentTypeIdBuilder_ != null || paymentTypeId_ != null;
       }
       /**
-       * <code>optional .dstore.values.IntegerValue payment_type_id = 12;</code>
+       * <code>.dstore.values.IntegerValue payment_type_id = 12;</code>
        */
       public io.dstore.values.IntegerValue getPaymentTypeId() {
         if (paymentTypeIdBuilder_ == null) {
@@ -3420,7 +3420,7 @@ public final class OmGetPricesPu {
         }
       }
       /**
-       * <code>optional .dstore.values.IntegerValue payment_type_id = 12;</code>
+       * <code>.dstore.values.IntegerValue payment_type_id = 12;</code>
        */
       public Builder setPaymentTypeId(io.dstore.values.IntegerValue value) {
         if (paymentTypeIdBuilder_ == null) {
@@ -3436,7 +3436,7 @@ public final class OmGetPricesPu {
         return this;
       }
       /**
-       * <code>optional .dstore.values.IntegerValue payment_type_id = 12;</code>
+       * <code>.dstore.values.IntegerValue payment_type_id = 12;</code>
        */
       public Builder setPaymentTypeId(
           io.dstore.values.IntegerValue.Builder builderForValue) {
@@ -3450,7 +3450,7 @@ public final class OmGetPricesPu {
         return this;
       }
       /**
-       * <code>optional .dstore.values.IntegerValue payment_type_id = 12;</code>
+       * <code>.dstore.values.IntegerValue payment_type_id = 12;</code>
        */
       public Builder mergePaymentTypeId(io.dstore.values.IntegerValue value) {
         if (paymentTypeIdBuilder_ == null) {
@@ -3468,7 +3468,7 @@ public final class OmGetPricesPu {
         return this;
       }
       /**
-       * <code>optional .dstore.values.IntegerValue payment_type_id = 12;</code>
+       * <code>.dstore.values.IntegerValue payment_type_id = 12;</code>
        */
       public Builder clearPaymentTypeId() {
         if (paymentTypeIdBuilder_ == null) {
@@ -3482,7 +3482,7 @@ public final class OmGetPricesPu {
         return this;
       }
       /**
-       * <code>optional .dstore.values.IntegerValue payment_type_id = 12;</code>
+       * <code>.dstore.values.IntegerValue payment_type_id = 12;</code>
        */
       public io.dstore.values.IntegerValue.Builder getPaymentTypeIdBuilder() {
         
@@ -3490,7 +3490,7 @@ public final class OmGetPricesPu {
         return getPaymentTypeIdFieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .dstore.values.IntegerValue payment_type_id = 12;</code>
+       * <code>.dstore.values.IntegerValue payment_type_id = 12;</code>
        */
       public io.dstore.values.IntegerValueOrBuilder getPaymentTypeIdOrBuilder() {
         if (paymentTypeIdBuilder_ != null) {
@@ -3501,7 +3501,7 @@ public final class OmGetPricesPu {
         }
       }
       /**
-       * <code>optional .dstore.values.IntegerValue payment_type_id = 12;</code>
+       * <code>.dstore.values.IntegerValue payment_type_id = 12;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> 
@@ -3519,13 +3519,13 @@ public final class OmGetPricesPu {
 
       private boolean paymentTypeIdNull_ ;
       /**
-       * <code>optional bool payment_type_id_null = 1012;</code>
+       * <code>bool payment_type_id_null = 1012;</code>
        */
       public boolean getPaymentTypeIdNull() {
         return paymentTypeIdNull_;
       }
       /**
-       * <code>optional bool payment_type_id_null = 1012;</code>
+       * <code>bool payment_type_id_null = 1012;</code>
        */
       public Builder setPaymentTypeIdNull(boolean value) {
         
@@ -3534,7 +3534,7 @@ public final class OmGetPricesPu {
         return this;
       }
       /**
-       * <code>optional bool payment_type_id_null = 1012;</code>
+       * <code>bool payment_type_id_null = 1012;</code>
        */
       public Builder clearPaymentTypeIdNull() {
         
@@ -3547,13 +3547,13 @@ public final class OmGetPricesPu {
       private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> shippingTypeIdBuilder_;
       /**
-       * <code>optional .dstore.values.IntegerValue shipping_type_id = 13;</code>
+       * <code>.dstore.values.IntegerValue shipping_type_id = 13;</code>
        */
       public boolean hasShippingTypeId() {
         return shippingTypeIdBuilder_ != null || shippingTypeId_ != null;
       }
       /**
-       * <code>optional .dstore.values.IntegerValue shipping_type_id = 13;</code>
+       * <code>.dstore.values.IntegerValue shipping_type_id = 13;</code>
        */
       public io.dstore.values.IntegerValue getShippingTypeId() {
         if (shippingTypeIdBuilder_ == null) {
@@ -3563,7 +3563,7 @@ public final class OmGetPricesPu {
         }
       }
       /**
-       * <code>optional .dstore.values.IntegerValue shipping_type_id = 13;</code>
+       * <code>.dstore.values.IntegerValue shipping_type_id = 13;</code>
        */
       public Builder setShippingTypeId(io.dstore.values.IntegerValue value) {
         if (shippingTypeIdBuilder_ == null) {
@@ -3579,7 +3579,7 @@ public final class OmGetPricesPu {
         return this;
       }
       /**
-       * <code>optional .dstore.values.IntegerValue shipping_type_id = 13;</code>
+       * <code>.dstore.values.IntegerValue shipping_type_id = 13;</code>
        */
       public Builder setShippingTypeId(
           io.dstore.values.IntegerValue.Builder builderForValue) {
@@ -3593,7 +3593,7 @@ public final class OmGetPricesPu {
         return this;
       }
       /**
-       * <code>optional .dstore.values.IntegerValue shipping_type_id = 13;</code>
+       * <code>.dstore.values.IntegerValue shipping_type_id = 13;</code>
        */
       public Builder mergeShippingTypeId(io.dstore.values.IntegerValue value) {
         if (shippingTypeIdBuilder_ == null) {
@@ -3611,7 +3611,7 @@ public final class OmGetPricesPu {
         return this;
       }
       /**
-       * <code>optional .dstore.values.IntegerValue shipping_type_id = 13;</code>
+       * <code>.dstore.values.IntegerValue shipping_type_id = 13;</code>
        */
       public Builder clearShippingTypeId() {
         if (shippingTypeIdBuilder_ == null) {
@@ -3625,7 +3625,7 @@ public final class OmGetPricesPu {
         return this;
       }
       /**
-       * <code>optional .dstore.values.IntegerValue shipping_type_id = 13;</code>
+       * <code>.dstore.values.IntegerValue shipping_type_id = 13;</code>
        */
       public io.dstore.values.IntegerValue.Builder getShippingTypeIdBuilder() {
         
@@ -3633,7 +3633,7 @@ public final class OmGetPricesPu {
         return getShippingTypeIdFieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .dstore.values.IntegerValue shipping_type_id = 13;</code>
+       * <code>.dstore.values.IntegerValue shipping_type_id = 13;</code>
        */
       public io.dstore.values.IntegerValueOrBuilder getShippingTypeIdOrBuilder() {
         if (shippingTypeIdBuilder_ != null) {
@@ -3644,7 +3644,7 @@ public final class OmGetPricesPu {
         }
       }
       /**
-       * <code>optional .dstore.values.IntegerValue shipping_type_id = 13;</code>
+       * <code>.dstore.values.IntegerValue shipping_type_id = 13;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> 
@@ -3662,13 +3662,13 @@ public final class OmGetPricesPu {
 
       private boolean shippingTypeIdNull_ ;
       /**
-       * <code>optional bool shipping_type_id_null = 1013;</code>
+       * <code>bool shipping_type_id_null = 1013;</code>
        */
       public boolean getShippingTypeIdNull() {
         return shippingTypeIdNull_;
       }
       /**
-       * <code>optional bool shipping_type_id_null = 1013;</code>
+       * <code>bool shipping_type_id_null = 1013;</code>
        */
       public Builder setShippingTypeIdNull(boolean value) {
         
@@ -3677,7 +3677,7 @@ public final class OmGetPricesPu {
         return this;
       }
       /**
-       * <code>optional bool shipping_type_id_null = 1013;</code>
+       * <code>bool shipping_type_id_null = 1013;</code>
        */
       public Builder clearShippingTypeIdNull() {
         
@@ -3936,7 +3936,7 @@ public final class OmGetPricesPu {
         com.google.protobuf.MessageOrBuilder {
 
       /**
-       * <code>optional int32 row_id = 10000;</code>
+       * <code>int32 row_id = 10000;</code>
        */
       int getRowId();
 
@@ -3945,7 +3945,7 @@ public final class OmGetPricesPu {
        * Netto-Preis von "NodeID", wenn man den Artikel "Quantity-Mal" bestellt (Englischer Spaltenname ist NICHT korrekt, NICHT mehr verwenden !)
        * </pre>
        *
-       * <code>optional .dstore.values.DecimalValue total_netto_price = 10001;</code>
+       * <code>.dstore.values.DecimalValue total_netto_price = 10001;</code>
        */
       boolean hasTotalNettoPrice();
       /**
@@ -3953,7 +3953,7 @@ public final class OmGetPricesPu {
        * Netto-Preis von "NodeID", wenn man den Artikel "Quantity-Mal" bestellt (Englischer Spaltenname ist NICHT korrekt, NICHT mehr verwenden !)
        * </pre>
        *
-       * <code>optional .dstore.values.DecimalValue total_netto_price = 10001;</code>
+       * <code>.dstore.values.DecimalValue total_netto_price = 10001;</code>
        */
       io.dstore.values.DecimalValue getTotalNettoPrice();
       /**
@@ -3961,7 +3961,7 @@ public final class OmGetPricesPu {
        * Netto-Preis von "NodeID", wenn man den Artikel "Quantity-Mal" bestellt (Englischer Spaltenname ist NICHT korrekt, NICHT mehr verwenden !)
        * </pre>
        *
-       * <code>optional .dstore.values.DecimalValue total_netto_price = 10001;</code>
+       * <code>.dstore.values.DecimalValue total_netto_price = 10001;</code>
        */
       io.dstore.values.DecimalValueOrBuilder getTotalNettoPriceOrBuilder();
 
@@ -3970,7 +3970,7 @@ public final class OmGetPricesPu {
        * Exakter (intern gespeicherter) Wert für "AbsoluteUnitGrossSurcharge"
        * </pre>
        *
-       * <code>optional .dstore.values.DecimalValue precise_abs_unit_gross_surcharge = 10002;</code>
+       * <code>.dstore.values.DecimalValue precise_abs_unit_gross_surcharge = 10002;</code>
        */
       boolean hasPreciseAbsUnitGrossSurcharge();
       /**
@@ -3978,7 +3978,7 @@ public final class OmGetPricesPu {
        * Exakter (intern gespeicherter) Wert für "AbsoluteUnitGrossSurcharge"
        * </pre>
        *
-       * <code>optional .dstore.values.DecimalValue precise_abs_unit_gross_surcharge = 10002;</code>
+       * <code>.dstore.values.DecimalValue precise_abs_unit_gross_surcharge = 10002;</code>
        */
       io.dstore.values.DecimalValue getPreciseAbsUnitGrossSurcharge();
       /**
@@ -3986,7 +3986,7 @@ public final class OmGetPricesPu {
        * Exakter (intern gespeicherter) Wert für "AbsoluteUnitGrossSurcharge"
        * </pre>
        *
-       * <code>optional .dstore.values.DecimalValue precise_abs_unit_gross_surcharge = 10002;</code>
+       * <code>.dstore.values.DecimalValue precise_abs_unit_gross_surcharge = 10002;</code>
        */
       io.dstore.values.DecimalValueOrBuilder getPreciseAbsUnitGrossSurchargeOrBuilder();
 
@@ -3995,7 +3995,7 @@ public final class OmGetPricesPu {
        * Merkmal-ID, die den Preis bestimmt hat (genauer : die Eigenschaft von "TreeNodeID" zu diesem Merkmal hat den Preis bestimmt)
        * </pre>
        *
-       * <code>optional .dstore.values.IntegerValue price_node_characteristic_id = 10003;</code>
+       * <code>.dstore.values.IntegerValue price_node_characteristic_id = 10003;</code>
        */
       boolean hasPriceNodeCharacteristicId();
       /**
@@ -4003,7 +4003,7 @@ public final class OmGetPricesPu {
        * Merkmal-ID, die den Preis bestimmt hat (genauer : die Eigenschaft von "TreeNodeID" zu diesem Merkmal hat den Preis bestimmt)
        * </pre>
        *
-       * <code>optional .dstore.values.IntegerValue price_node_characteristic_id = 10003;</code>
+       * <code>.dstore.values.IntegerValue price_node_characteristic_id = 10003;</code>
        */
       io.dstore.values.IntegerValue getPriceNodeCharacteristicId();
       /**
@@ -4011,7 +4011,7 @@ public final class OmGetPricesPu {
        * Merkmal-ID, die den Preis bestimmt hat (genauer : die Eigenschaft von "TreeNodeID" zu diesem Merkmal hat den Preis bestimmt)
        * </pre>
        *
-       * <code>optional .dstore.values.IntegerValue price_node_characteristic_id = 10003;</code>
+       * <code>.dstore.values.IntegerValue price_node_characteristic_id = 10003;</code>
        */
       io.dstore.values.IntegerValueOrBuilder getPriceNodeCharacteristicIdOrBuilder();
 
@@ -4020,7 +4020,7 @@ public final class OmGetPricesPu {
        * Absoluter Rabatt/Aufschlag, der in "UnitNetPrice" bereits ENTHALTEN ist (Englischer Spaltenname ist NICHT korrekt, NICHT mehr verwenden !)
        * </pre>
        *
-       * <code>optional .dstore.values.DecimalValue absolute_unit_netto_surcharge = 10004;</code>
+       * <code>.dstore.values.DecimalValue absolute_unit_netto_surcharge = 10004;</code>
        */
       boolean hasAbsoluteUnitNettoSurcharge();
       /**
@@ -4028,7 +4028,7 @@ public final class OmGetPricesPu {
        * Absoluter Rabatt/Aufschlag, der in "UnitNetPrice" bereits ENTHALTEN ist (Englischer Spaltenname ist NICHT korrekt, NICHT mehr verwenden !)
        * </pre>
        *
-       * <code>optional .dstore.values.DecimalValue absolute_unit_netto_surcharge = 10004;</code>
+       * <code>.dstore.values.DecimalValue absolute_unit_netto_surcharge = 10004;</code>
        */
       io.dstore.values.DecimalValue getAbsoluteUnitNettoSurcharge();
       /**
@@ -4036,7 +4036,7 @@ public final class OmGetPricesPu {
        * Absoluter Rabatt/Aufschlag, der in "UnitNetPrice" bereits ENTHALTEN ist (Englischer Spaltenname ist NICHT korrekt, NICHT mehr verwenden !)
        * </pre>
        *
-       * <code>optional .dstore.values.DecimalValue absolute_unit_netto_surcharge = 10004;</code>
+       * <code>.dstore.values.DecimalValue absolute_unit_netto_surcharge = 10004;</code>
        */
       io.dstore.values.DecimalValueOrBuilder getAbsoluteUnitNettoSurchargeOrBuilder();
 
@@ -4045,7 +4045,7 @@ public final class OmGetPricesPu {
        * Brutto-Preis von "NodeID", wenn man den Artikel EINMAL bestellt
        * </pre>
        *
-       * <code>optional .dstore.values.DecimalValue unit_gross_price = 10005;</code>
+       * <code>.dstore.values.DecimalValue unit_gross_price = 10005;</code>
        */
       boolean hasUnitGrossPrice();
       /**
@@ -4053,7 +4053,7 @@ public final class OmGetPricesPu {
        * Brutto-Preis von "NodeID", wenn man den Artikel EINMAL bestellt
        * </pre>
        *
-       * <code>optional .dstore.values.DecimalValue unit_gross_price = 10005;</code>
+       * <code>.dstore.values.DecimalValue unit_gross_price = 10005;</code>
        */
       io.dstore.values.DecimalValue getUnitGrossPrice();
       /**
@@ -4061,7 +4061,7 @@ public final class OmGetPricesPu {
        * Brutto-Preis von "NodeID", wenn man den Artikel EINMAL bestellt
        * </pre>
        *
-       * <code>optional .dstore.values.DecimalValue unit_gross_price = 10005;</code>
+       * <code>.dstore.values.DecimalValue unit_gross_price = 10005;</code>
        */
       io.dstore.values.DecimalValueOrBuilder getUnitGrossPriceOrBuilder();
 
@@ -4070,7 +4070,7 @@ public final class OmGetPricesPu {
        * Absoluter Rabatt/Aufschlag, der im "TotalNetPrice" bereits ENTHALTEN ist
        * </pre>
        *
-       * <code>optional .dstore.values.DecimalValue absolute_total_net_surcharge = 10006;</code>
+       * <code>.dstore.values.DecimalValue absolute_total_net_surcharge = 10006;</code>
        */
       boolean hasAbsoluteTotalNetSurcharge();
       /**
@@ -4078,7 +4078,7 @@ public final class OmGetPricesPu {
        * Absoluter Rabatt/Aufschlag, der im "TotalNetPrice" bereits ENTHALTEN ist
        * </pre>
        *
-       * <code>optional .dstore.values.DecimalValue absolute_total_net_surcharge = 10006;</code>
+       * <code>.dstore.values.DecimalValue absolute_total_net_surcharge = 10006;</code>
        */
       io.dstore.values.DecimalValue getAbsoluteTotalNetSurcharge();
       /**
@@ -4086,7 +4086,7 @@ public final class OmGetPricesPu {
        * Absoluter Rabatt/Aufschlag, der im "TotalNetPrice" bereits ENTHALTEN ist
        * </pre>
        *
-       * <code>optional .dstore.values.DecimalValue absolute_total_net_surcharge = 10006;</code>
+       * <code>.dstore.values.DecimalValue absolute_total_net_surcharge = 10006;</code>
        */
       io.dstore.values.DecimalValueOrBuilder getAbsoluteTotalNetSurchargeOrBuilder();
 
@@ -4095,7 +4095,7 @@ public final class OmGetPricesPu {
        * Absoluter Rabatt/Aufschlag, der im "TotalGrossPrice" bereits ENTHALTEN ist
        * </pre>
        *
-       * <code>optional .dstore.values.DecimalValue absolute_total_gross_surcharge = 10007;</code>
+       * <code>.dstore.values.DecimalValue absolute_total_gross_surcharge = 10007;</code>
        */
       boolean hasAbsoluteTotalGrossSurcharge();
       /**
@@ -4103,7 +4103,7 @@ public final class OmGetPricesPu {
        * Absoluter Rabatt/Aufschlag, der im "TotalGrossPrice" bereits ENTHALTEN ist
        * </pre>
        *
-       * <code>optional .dstore.values.DecimalValue absolute_total_gross_surcharge = 10007;</code>
+       * <code>.dstore.values.DecimalValue absolute_total_gross_surcharge = 10007;</code>
        */
       io.dstore.values.DecimalValue getAbsoluteTotalGrossSurcharge();
       /**
@@ -4111,7 +4111,7 @@ public final class OmGetPricesPu {
        * Absoluter Rabatt/Aufschlag, der im "TotalGrossPrice" bereits ENTHALTEN ist
        * </pre>
        *
-       * <code>optional .dstore.values.DecimalValue absolute_total_gross_surcharge = 10007;</code>
+       * <code>.dstore.values.DecimalValue absolute_total_gross_surcharge = 10007;</code>
        */
       io.dstore.values.DecimalValueOrBuilder getAbsoluteTotalGrossSurchargeOrBuilder();
 
@@ -4120,7 +4120,7 @@ public final class OmGetPricesPu {
        * Brutto-Preis von "NodeID", wenn man den Artikel EINMAL bestellt (Englischer Spaltenname ist NICHT korrekt, NICHT mehr verwenden !)
        * </pre>
        *
-       * <code>optional .dstore.values.DecimalValue unit_brutto_price = 10008;</code>
+       * <code>.dstore.values.DecimalValue unit_brutto_price = 10008;</code>
        */
       boolean hasUnitBruttoPrice();
       /**
@@ -4128,7 +4128,7 @@ public final class OmGetPricesPu {
        * Brutto-Preis von "NodeID", wenn man den Artikel EINMAL bestellt (Englischer Spaltenname ist NICHT korrekt, NICHT mehr verwenden !)
        * </pre>
        *
-       * <code>optional .dstore.values.DecimalValue unit_brutto_price = 10008;</code>
+       * <code>.dstore.values.DecimalValue unit_brutto_price = 10008;</code>
        */
       io.dstore.values.DecimalValue getUnitBruttoPrice();
       /**
@@ -4136,7 +4136,7 @@ public final class OmGetPricesPu {
        * Brutto-Preis von "NodeID", wenn man den Artikel EINMAL bestellt (Englischer Spaltenname ist NICHT korrekt, NICHT mehr verwenden !)
        * </pre>
        *
-       * <code>optional .dstore.values.DecimalValue unit_brutto_price = 10008;</code>
+       * <code>.dstore.values.DecimalValue unit_brutto_price = 10008;</code>
        */
       io.dstore.values.DecimalValueOrBuilder getUnitBruttoPriceOrBuilder();
 
@@ -4145,7 +4145,7 @@ public final class OmGetPricesPu {
        * Exakter (intern gespeicherter) Wert für "UnitGrossPrice"
        * </pre>
        *
-       * <code>optional .dstore.values.DecimalValue precise_unit_gross_price = 10009;</code>
+       * <code>.dstore.values.DecimalValue precise_unit_gross_price = 10009;</code>
        */
       boolean hasPreciseUnitGrossPrice();
       /**
@@ -4153,7 +4153,7 @@ public final class OmGetPricesPu {
        * Exakter (intern gespeicherter) Wert für "UnitGrossPrice"
        * </pre>
        *
-       * <code>optional .dstore.values.DecimalValue precise_unit_gross_price = 10009;</code>
+       * <code>.dstore.values.DecimalValue precise_unit_gross_price = 10009;</code>
        */
       io.dstore.values.DecimalValue getPreciseUnitGrossPrice();
       /**
@@ -4161,7 +4161,7 @@ public final class OmGetPricesPu {
        * Exakter (intern gespeicherter) Wert für "UnitGrossPrice"
        * </pre>
        *
-       * <code>optional .dstore.values.DecimalValue precise_unit_gross_price = 10009;</code>
+       * <code>.dstore.values.DecimalValue precise_unit_gross_price = 10009;</code>
        */
       io.dstore.values.DecimalValueOrBuilder getPreciseUnitGrossPriceOrBuilder();
 
@@ -4170,7 +4170,7 @@ public final class OmGetPricesPu {
        * Netto-Preis von "NodeID", wenn man den Artikel EINMAL bestellt
        * </pre>
        *
-       * <code>optional .dstore.values.DecimalValue unit_net_price = 10010;</code>
+       * <code>.dstore.values.DecimalValue unit_net_price = 10010;</code>
        */
       boolean hasUnitNetPrice();
       /**
@@ -4178,7 +4178,7 @@ public final class OmGetPricesPu {
        * Netto-Preis von "NodeID", wenn man den Artikel EINMAL bestellt
        * </pre>
        *
-       * <code>optional .dstore.values.DecimalValue unit_net_price = 10010;</code>
+       * <code>.dstore.values.DecimalValue unit_net_price = 10010;</code>
        */
       io.dstore.values.DecimalValue getUnitNetPrice();
       /**
@@ -4186,7 +4186,7 @@ public final class OmGetPricesPu {
        * Netto-Preis von "NodeID", wenn man den Artikel EINMAL bestellt
        * </pre>
        *
-       * <code>optional .dstore.values.DecimalValue unit_net_price = 10010;</code>
+       * <code>.dstore.values.DecimalValue unit_net_price = 10010;</code>
        */
       io.dstore.values.DecimalValueOrBuilder getUnitNetPriceOrBuilder();
 
@@ -4195,7 +4195,7 @@ public final class OmGetPricesPu {
        * Brutto-Preis von "NodeID", wenn man den Artikel "Quantity-Mal" bestellt (Englischer Spaltenname ist NICHT korrekt, NICHT mehr verwenden !)
        * </pre>
        *
-       * <code>optional .dstore.values.DecimalValue total_brutto_price = 10011;</code>
+       * <code>.dstore.values.DecimalValue total_brutto_price = 10011;</code>
        */
       boolean hasTotalBruttoPrice();
       /**
@@ -4203,7 +4203,7 @@ public final class OmGetPricesPu {
        * Brutto-Preis von "NodeID", wenn man den Artikel "Quantity-Mal" bestellt (Englischer Spaltenname ist NICHT korrekt, NICHT mehr verwenden !)
        * </pre>
        *
-       * <code>optional .dstore.values.DecimalValue total_brutto_price = 10011;</code>
+       * <code>.dstore.values.DecimalValue total_brutto_price = 10011;</code>
        */
       io.dstore.values.DecimalValue getTotalBruttoPrice();
       /**
@@ -4211,7 +4211,7 @@ public final class OmGetPricesPu {
        * Brutto-Preis von "NodeID", wenn man den Artikel "Quantity-Mal" bestellt (Englischer Spaltenname ist NICHT korrekt, NICHT mehr verwenden !)
        * </pre>
        *
-       * <code>optional .dstore.values.DecimalValue total_brutto_price = 10011;</code>
+       * <code>.dstore.values.DecimalValue total_brutto_price = 10011;</code>
        */
       io.dstore.values.DecimalValueOrBuilder getTotalBruttoPriceOrBuilder();
 
@@ -4220,7 +4220,7 @@ public final class OmGetPricesPu {
        * Exakter (intern gespeicherter) Wert für "AbsoluteUnitNetSurcharge"
        * </pre>
        *
-       * <code>optional .dstore.values.DecimalValue precise_abs_unit_net_surcharge = 10012;</code>
+       * <code>.dstore.values.DecimalValue precise_abs_unit_net_surcharge = 10012;</code>
        */
       boolean hasPreciseAbsUnitNetSurcharge();
       /**
@@ -4228,7 +4228,7 @@ public final class OmGetPricesPu {
        * Exakter (intern gespeicherter) Wert für "AbsoluteUnitNetSurcharge"
        * </pre>
        *
-       * <code>optional .dstore.values.DecimalValue precise_abs_unit_net_surcharge = 10012;</code>
+       * <code>.dstore.values.DecimalValue precise_abs_unit_net_surcharge = 10012;</code>
        */
       io.dstore.values.DecimalValue getPreciseAbsUnitNetSurcharge();
       /**
@@ -4236,7 +4236,7 @@ public final class OmGetPricesPu {
        * Exakter (intern gespeicherter) Wert für "AbsoluteUnitNetSurcharge"
        * </pre>
        *
-       * <code>optional .dstore.values.DecimalValue precise_abs_unit_net_surcharge = 10012;</code>
+       * <code>.dstore.values.DecimalValue precise_abs_unit_net_surcharge = 10012;</code>
        */
       io.dstore.values.DecimalValueOrBuilder getPreciseAbsUnitNetSurchargeOrBuilder();
 
@@ -4245,7 +4245,7 @@ public final class OmGetPricesPu {
        * "Grund" für einen evtl. vorhandenen Rabatt (z.B. ein "Aktionsname", der letztlich von der individuellen Rabatt-Ermittlung durch "_ac_om_GetSurcharges" stammt). Immer "NULL", wenn "&#64;GetAdditionalPriceInfo = 0" ist !
        * </pre>
        *
-       * <code>optional .dstore.values.StringValue surcharge_reason = 10013;</code>
+       * <code>.dstore.values.StringValue surcharge_reason = 10013;</code>
        */
       boolean hasSurchargeReason();
       /**
@@ -4253,7 +4253,7 @@ public final class OmGetPricesPu {
        * "Grund" für einen evtl. vorhandenen Rabatt (z.B. ein "Aktionsname", der letztlich von der individuellen Rabatt-Ermittlung durch "_ac_om_GetSurcharges" stammt). Immer "NULL", wenn "&#64;GetAdditionalPriceInfo = 0" ist !
        * </pre>
        *
-       * <code>optional .dstore.values.StringValue surcharge_reason = 10013;</code>
+       * <code>.dstore.values.StringValue surcharge_reason = 10013;</code>
        */
       io.dstore.values.StringValue getSurchargeReason();
       /**
@@ -4261,7 +4261,7 @@ public final class OmGetPricesPu {
        * "Grund" für einen evtl. vorhandenen Rabatt (z.B. ein "Aktionsname", der letztlich von der individuellen Rabatt-Ermittlung durch "_ac_om_GetSurcharges" stammt). Immer "NULL", wenn "&#64;GetAdditionalPriceInfo = 0" ist !
        * </pre>
        *
-       * <code>optional .dstore.values.StringValue surcharge_reason = 10013;</code>
+       * <code>.dstore.values.StringValue surcharge_reason = 10013;</code>
        */
       io.dstore.values.StringValueOrBuilder getSurchargeReasonOrBuilder();
 
@@ -4270,7 +4270,7 @@ public final class OmGetPricesPu {
        * ID eines Artikel-Elementes, zu dem der Verkaufspreis ermittelt wurde (also entweder ein Element, das in "&#64;NodeIDs" übergeben wurde, oder ein Element, das zu einer "TreeNodeID" korrespondiert, die in "&#64;NodeIDs" angegeben wurde)
        * </pre>
        *
-       * <code>optional .dstore.values.IntegerValue node_id = 10014;</code>
+       * <code>.dstore.values.IntegerValue node_id = 10014;</code>
        */
       boolean hasNodeId();
       /**
@@ -4278,7 +4278,7 @@ public final class OmGetPricesPu {
        * ID eines Artikel-Elementes, zu dem der Verkaufspreis ermittelt wurde (also entweder ein Element, das in "&#64;NodeIDs" übergeben wurde, oder ein Element, das zu einer "TreeNodeID" korrespondiert, die in "&#64;NodeIDs" angegeben wurde)
        * </pre>
        *
-       * <code>optional .dstore.values.IntegerValue node_id = 10014;</code>
+       * <code>.dstore.values.IntegerValue node_id = 10014;</code>
        */
       io.dstore.values.IntegerValue getNodeId();
       /**
@@ -4286,7 +4286,7 @@ public final class OmGetPricesPu {
        * ID eines Artikel-Elementes, zu dem der Verkaufspreis ermittelt wurde (also entweder ein Element, das in "&#64;NodeIDs" übergeben wurde, oder ein Element, das zu einer "TreeNodeID" korrespondiert, die in "&#64;NodeIDs" angegeben wurde)
        * </pre>
        *
-       * <code>optional .dstore.values.IntegerValue node_id = 10014;</code>
+       * <code>.dstore.values.IntegerValue node_id = 10014;</code>
        */
       io.dstore.values.IntegerValueOrBuilder getNodeIdOrBuilder();
 
@@ -4295,7 +4295,7 @@ public final class OmGetPricesPu {
        * ID eines zur "NodeID" korrespondierenden Elementes im Artikelbaum, das zur Preisermittlung herangezogen wurde bzw. (falls "&#64;IsTreeNodeID = 1") eine ID, die in "&#64;NodeIDs" übergeben wurde
        * </pre>
        *
-       * <code>optional .dstore.values.IntegerValue tree_node_id = 10015;</code>
+       * <code>.dstore.values.IntegerValue tree_node_id = 10015;</code>
        */
       boolean hasTreeNodeId();
       /**
@@ -4303,7 +4303,7 @@ public final class OmGetPricesPu {
        * ID eines zur "NodeID" korrespondierenden Elementes im Artikelbaum, das zur Preisermittlung herangezogen wurde bzw. (falls "&#64;IsTreeNodeID = 1") eine ID, die in "&#64;NodeIDs" übergeben wurde
        * </pre>
        *
-       * <code>optional .dstore.values.IntegerValue tree_node_id = 10015;</code>
+       * <code>.dstore.values.IntegerValue tree_node_id = 10015;</code>
        */
       io.dstore.values.IntegerValue getTreeNodeId();
       /**
@@ -4311,7 +4311,7 @@ public final class OmGetPricesPu {
        * ID eines zur "NodeID" korrespondierenden Elementes im Artikelbaum, das zur Preisermittlung herangezogen wurde bzw. (falls "&#64;IsTreeNodeID = 1") eine ID, die in "&#64;NodeIDs" übergeben wurde
        * </pre>
        *
-       * <code>optional .dstore.values.IntegerValue tree_node_id = 10015;</code>
+       * <code>.dstore.values.IntegerValue tree_node_id = 10015;</code>
        */
       io.dstore.values.IntegerValueOrBuilder getTreeNodeIdOrBuilder();
 
@@ -4320,7 +4320,7 @@ public final class OmGetPricesPu {
        * Absoluter Rabatt/Aufschlag, der im "TotalNetPrice" bereits ENTHALTEN ist (Englischer Spaltenname ist NICHT korrekt, NICHT mehr verwenden !)
        * </pre>
        *
-       * <code>optional .dstore.values.DecimalValue absolute_total_netto_surcharge = 10016;</code>
+       * <code>.dstore.values.DecimalValue absolute_total_netto_surcharge = 10016;</code>
        */
       boolean hasAbsoluteTotalNettoSurcharge();
       /**
@@ -4328,7 +4328,7 @@ public final class OmGetPricesPu {
        * Absoluter Rabatt/Aufschlag, der im "TotalNetPrice" bereits ENTHALTEN ist (Englischer Spaltenname ist NICHT korrekt, NICHT mehr verwenden !)
        * </pre>
        *
-       * <code>optional .dstore.values.DecimalValue absolute_total_netto_surcharge = 10016;</code>
+       * <code>.dstore.values.DecimalValue absolute_total_netto_surcharge = 10016;</code>
        */
       io.dstore.values.DecimalValue getAbsoluteTotalNettoSurcharge();
       /**
@@ -4336,7 +4336,7 @@ public final class OmGetPricesPu {
        * Absoluter Rabatt/Aufschlag, der im "TotalNetPrice" bereits ENTHALTEN ist (Englischer Spaltenname ist NICHT korrekt, NICHT mehr verwenden !)
        * </pre>
        *
-       * <code>optional .dstore.values.DecimalValue absolute_total_netto_surcharge = 10016;</code>
+       * <code>.dstore.values.DecimalValue absolute_total_netto_surcharge = 10016;</code>
        */
       io.dstore.values.DecimalValueOrBuilder getAbsoluteTotalNettoSurchargeOrBuilder();
 
@@ -4345,7 +4345,7 @@ public final class OmGetPricesPu {
        * Relativer Rabatt/Aufschlag in Prozent (der in den Preisen bereits enthalten ist !). Ein negativer Wert bedeutet einen Rabatt, sonst beinhaltet der Verkaufspreis einen Aufschlag.
        * </pre>
        *
-       * <code>optional .dstore.values.DecimalValue relative_surcharge = 10017;</code>
+       * <code>.dstore.values.DecimalValue relative_surcharge = 10017;</code>
        */
       boolean hasRelativeSurcharge();
       /**
@@ -4353,7 +4353,7 @@ public final class OmGetPricesPu {
        * Relativer Rabatt/Aufschlag in Prozent (der in den Preisen bereits enthalten ist !). Ein negativer Wert bedeutet einen Rabatt, sonst beinhaltet der Verkaufspreis einen Aufschlag.
        * </pre>
        *
-       * <code>optional .dstore.values.DecimalValue relative_surcharge = 10017;</code>
+       * <code>.dstore.values.DecimalValue relative_surcharge = 10017;</code>
        */
       io.dstore.values.DecimalValue getRelativeSurcharge();
       /**
@@ -4361,7 +4361,7 @@ public final class OmGetPricesPu {
        * Relativer Rabatt/Aufschlag in Prozent (der in den Preisen bereits enthalten ist !). Ein negativer Wert bedeutet einen Rabatt, sonst beinhaltet der Verkaufspreis einen Aufschlag.
        * </pre>
        *
-       * <code>optional .dstore.values.DecimalValue relative_surcharge = 10017;</code>
+       * <code>.dstore.values.DecimalValue relative_surcharge = 10017;</code>
        */
       io.dstore.values.DecimalValueOrBuilder getRelativeSurchargeOrBuilder();
 
@@ -4370,7 +4370,7 @@ public final class OmGetPricesPu {
        * Absoluter Rabatt/Aufschlag, der im "TotalGrossPrice" bereits ENTHALTEN ist (Englischer Spaltenname ist NICHT korrekt, NICHT mehr verwenden !)
        * </pre>
        *
-       * <code>optional .dstore.values.DecimalValue absolute_total_brutto_surcharge = 10018;</code>
+       * <code>.dstore.values.DecimalValue absolute_total_brutto_surcharge = 10018;</code>
        */
       boolean hasAbsoluteTotalBruttoSurcharge();
       /**
@@ -4378,7 +4378,7 @@ public final class OmGetPricesPu {
        * Absoluter Rabatt/Aufschlag, der im "TotalGrossPrice" bereits ENTHALTEN ist (Englischer Spaltenname ist NICHT korrekt, NICHT mehr verwenden !)
        * </pre>
        *
-       * <code>optional .dstore.values.DecimalValue absolute_total_brutto_surcharge = 10018;</code>
+       * <code>.dstore.values.DecimalValue absolute_total_brutto_surcharge = 10018;</code>
        */
       io.dstore.values.DecimalValue getAbsoluteTotalBruttoSurcharge();
       /**
@@ -4386,7 +4386,7 @@ public final class OmGetPricesPu {
        * Absoluter Rabatt/Aufschlag, der im "TotalGrossPrice" bereits ENTHALTEN ist (Englischer Spaltenname ist NICHT korrekt, NICHT mehr verwenden !)
        * </pre>
        *
-       * <code>optional .dstore.values.DecimalValue absolute_total_brutto_surcharge = 10018;</code>
+       * <code>.dstore.values.DecimalValue absolute_total_brutto_surcharge = 10018;</code>
        */
       io.dstore.values.DecimalValueOrBuilder getAbsoluteTotalBruttoSurchargeOrBuilder();
 
@@ -4395,7 +4395,7 @@ public final class OmGetPricesPu {
        * Liste von "CampaignID"s der Verkaufsaktionen, die zur Rabattierung der Position geführt haben. Immer "NULL", wenn "&#64;GetAdditionalPriceInfo = 0" ist oder keine Rabattierung vorliegt !
        * </pre>
        *
-       * <code>optional .dstore.values.StringValue surcharge_generated_by_camp_ids = 10019;</code>
+       * <code>.dstore.values.StringValue surcharge_generated_by_camp_ids = 10019;</code>
        */
       boolean hasSurchargeGeneratedByCampIds();
       /**
@@ -4403,7 +4403,7 @@ public final class OmGetPricesPu {
        * Liste von "CampaignID"s der Verkaufsaktionen, die zur Rabattierung der Position geführt haben. Immer "NULL", wenn "&#64;GetAdditionalPriceInfo = 0" ist oder keine Rabattierung vorliegt !
        * </pre>
        *
-       * <code>optional .dstore.values.StringValue surcharge_generated_by_camp_ids = 10019;</code>
+       * <code>.dstore.values.StringValue surcharge_generated_by_camp_ids = 10019;</code>
        */
       io.dstore.values.StringValue getSurchargeGeneratedByCampIds();
       /**
@@ -4411,7 +4411,7 @@ public final class OmGetPricesPu {
        * Liste von "CampaignID"s der Verkaufsaktionen, die zur Rabattierung der Position geführt haben. Immer "NULL", wenn "&#64;GetAdditionalPriceInfo = 0" ist oder keine Rabattierung vorliegt !
        * </pre>
        *
-       * <code>optional .dstore.values.StringValue surcharge_generated_by_camp_ids = 10019;</code>
+       * <code>.dstore.values.StringValue surcharge_generated_by_camp_ids = 10019;</code>
        */
       io.dstore.values.StringValueOrBuilder getSurchargeGeneratedByCampIdsOrBuilder();
 
@@ -4420,7 +4420,7 @@ public final class OmGetPricesPu {
        * Exakter (intern gespeicherter) Wert für "TotalGrossPrice"
        * </pre>
        *
-       * <code>optional .dstore.values.DecimalValue precise_total_gross_price = 10020;</code>
+       * <code>.dstore.values.DecimalValue precise_total_gross_price = 10020;</code>
        */
       boolean hasPreciseTotalGrossPrice();
       /**
@@ -4428,7 +4428,7 @@ public final class OmGetPricesPu {
        * Exakter (intern gespeicherter) Wert für "TotalGrossPrice"
        * </pre>
        *
-       * <code>optional .dstore.values.DecimalValue precise_total_gross_price = 10020;</code>
+       * <code>.dstore.values.DecimalValue precise_total_gross_price = 10020;</code>
        */
       io.dstore.values.DecimalValue getPreciseTotalGrossPrice();
       /**
@@ -4436,7 +4436,7 @@ public final class OmGetPricesPu {
        * Exakter (intern gespeicherter) Wert für "TotalGrossPrice"
        * </pre>
        *
-       * <code>optional .dstore.values.DecimalValue precise_total_gross_price = 10020;</code>
+       * <code>.dstore.values.DecimalValue precise_total_gross_price = 10020;</code>
        */
       io.dstore.values.DecimalValueOrBuilder getPreciseTotalGrossPriceOrBuilder();
 
@@ -4445,7 +4445,7 @@ public final class OmGetPricesPu {
        * Netto-Preis von "NodeID", wenn man den Artikel EINMAL bestellt (Englischer Spaltenname ist NICHT korrekt, NICHT mehr verwenden !)
        * </pre>
        *
-       * <code>optional .dstore.values.DecimalValue unit_netto_price = 10021;</code>
+       * <code>.dstore.values.DecimalValue unit_netto_price = 10021;</code>
        */
       boolean hasUnitNettoPrice();
       /**
@@ -4453,7 +4453,7 @@ public final class OmGetPricesPu {
        * Netto-Preis von "NodeID", wenn man den Artikel EINMAL bestellt (Englischer Spaltenname ist NICHT korrekt, NICHT mehr verwenden !)
        * </pre>
        *
-       * <code>optional .dstore.values.DecimalValue unit_netto_price = 10021;</code>
+       * <code>.dstore.values.DecimalValue unit_netto_price = 10021;</code>
        */
       io.dstore.values.DecimalValue getUnitNettoPrice();
       /**
@@ -4461,7 +4461,7 @@ public final class OmGetPricesPu {
        * Netto-Preis von "NodeID", wenn man den Artikel EINMAL bestellt (Englischer Spaltenname ist NICHT korrekt, NICHT mehr verwenden !)
        * </pre>
        *
-       * <code>optional .dstore.values.DecimalValue unit_netto_price = 10021;</code>
+       * <code>.dstore.values.DecimalValue unit_netto_price = 10021;</code>
        */
       io.dstore.values.DecimalValueOrBuilder getUnitNettoPriceOrBuilder();
 
@@ -4470,7 +4470,7 @@ public final class OmGetPricesPu {
        * Mehrwertsteuer als "Multiplikator". D.h. beträgt die Mehrwertsteuer z.B. "16 %", steht hier der Wert "1.16".
        * </pre>
        *
-       * <code>optional .dstore.values.DecimalValue taxes_multiplier = 10022;</code>
+       * <code>.dstore.values.DecimalValue taxes_multiplier = 10022;</code>
        */
       boolean hasTaxesMultiplier();
       /**
@@ -4478,7 +4478,7 @@ public final class OmGetPricesPu {
        * Mehrwertsteuer als "Multiplikator". D.h. beträgt die Mehrwertsteuer z.B. "16 %", steht hier der Wert "1.16".
        * </pre>
        *
-       * <code>optional .dstore.values.DecimalValue taxes_multiplier = 10022;</code>
+       * <code>.dstore.values.DecimalValue taxes_multiplier = 10022;</code>
        */
       io.dstore.values.DecimalValue getTaxesMultiplier();
       /**
@@ -4486,7 +4486,7 @@ public final class OmGetPricesPu {
        * Mehrwertsteuer als "Multiplikator". D.h. beträgt die Mehrwertsteuer z.B. "16 %", steht hier der Wert "1.16".
        * </pre>
        *
-       * <code>optional .dstore.values.DecimalValue taxes_multiplier = 10022;</code>
+       * <code>.dstore.values.DecimalValue taxes_multiplier = 10022;</code>
        */
       io.dstore.values.DecimalValueOrBuilder getTaxesMultiplierOrBuilder();
 
@@ -4495,7 +4495,7 @@ public final class OmGetPricesPu {
        * Exakter (intern gespeicherter) Wert für "AbsoluteTotalGrossSurcharge"
        * </pre>
        *
-       * <code>optional .dstore.values.DecimalValue precise_abs_total_gross_surcharge = 10023;</code>
+       * <code>.dstore.values.DecimalValue precise_abs_total_gross_surcharge = 10023;</code>
        */
       boolean hasPreciseAbsTotalGrossSurcharge();
       /**
@@ -4503,7 +4503,7 @@ public final class OmGetPricesPu {
        * Exakter (intern gespeicherter) Wert für "AbsoluteTotalGrossSurcharge"
        * </pre>
        *
-       * <code>optional .dstore.values.DecimalValue precise_abs_total_gross_surcharge = 10023;</code>
+       * <code>.dstore.values.DecimalValue precise_abs_total_gross_surcharge = 10023;</code>
        */
       io.dstore.values.DecimalValue getPreciseAbsTotalGrossSurcharge();
       /**
@@ -4511,7 +4511,7 @@ public final class OmGetPricesPu {
        * Exakter (intern gespeicherter) Wert für "AbsoluteTotalGrossSurcharge"
        * </pre>
        *
-       * <code>optional .dstore.values.DecimalValue precise_abs_total_gross_surcharge = 10023;</code>
+       * <code>.dstore.values.DecimalValue precise_abs_total_gross_surcharge = 10023;</code>
        */
       io.dstore.values.DecimalValueOrBuilder getPreciseAbsTotalGrossSurchargeOrBuilder();
 
@@ -4520,7 +4520,7 @@ public final class OmGetPricesPu {
        * Exakter (intern gespeicherter) Wert für "AbsoluteTotalNetSurcharge"
        * </pre>
        *
-       * <code>optional .dstore.values.DecimalValue precise_abs_total_net_surcharge = 10024;</code>
+       * <code>.dstore.values.DecimalValue precise_abs_total_net_surcharge = 10024;</code>
        */
       boolean hasPreciseAbsTotalNetSurcharge();
       /**
@@ -4528,7 +4528,7 @@ public final class OmGetPricesPu {
        * Exakter (intern gespeicherter) Wert für "AbsoluteTotalNetSurcharge"
        * </pre>
        *
-       * <code>optional .dstore.values.DecimalValue precise_abs_total_net_surcharge = 10024;</code>
+       * <code>.dstore.values.DecimalValue precise_abs_total_net_surcharge = 10024;</code>
        */
       io.dstore.values.DecimalValue getPreciseAbsTotalNetSurcharge();
       /**
@@ -4536,7 +4536,7 @@ public final class OmGetPricesPu {
        * Exakter (intern gespeicherter) Wert für "AbsoluteTotalNetSurcharge"
        * </pre>
        *
-       * <code>optional .dstore.values.DecimalValue precise_abs_total_net_surcharge = 10024;</code>
+       * <code>.dstore.values.DecimalValue precise_abs_total_net_surcharge = 10024;</code>
        */
       io.dstore.values.DecimalValueOrBuilder getPreciseAbsTotalNetSurchargeOrBuilder();
 
@@ -4545,7 +4545,7 @@ public final class OmGetPricesPu {
        * Netto-Preis von "NodeID", wenn man den Artikel "Quantity-Mal" bestellt
        * </pre>
        *
-       * <code>optional .dstore.values.DecimalValue total_net_price = 10025;</code>
+       * <code>.dstore.values.DecimalValue total_net_price = 10025;</code>
        */
       boolean hasTotalNetPrice();
       /**
@@ -4553,7 +4553,7 @@ public final class OmGetPricesPu {
        * Netto-Preis von "NodeID", wenn man den Artikel "Quantity-Mal" bestellt
        * </pre>
        *
-       * <code>optional .dstore.values.DecimalValue total_net_price = 10025;</code>
+       * <code>.dstore.values.DecimalValue total_net_price = 10025;</code>
        */
       io.dstore.values.DecimalValue getTotalNetPrice();
       /**
@@ -4561,7 +4561,7 @@ public final class OmGetPricesPu {
        * Netto-Preis von "NodeID", wenn man den Artikel "Quantity-Mal" bestellt
        * </pre>
        *
-       * <code>optional .dstore.values.DecimalValue total_net_price = 10025;</code>
+       * <code>.dstore.values.DecimalValue total_net_price = 10025;</code>
        */
       io.dstore.values.DecimalValueOrBuilder getTotalNetPriceOrBuilder();
 
@@ -4570,7 +4570,7 @@ public final class OmGetPricesPu {
        * Wieviel von dem Artikel bestellt werden soll. Hier steht also entweder die Zahl, die in "&#64;Quantities" angegeben wurde, oder "1".
        * </pre>
        *
-       * <code>optional .dstore.values.IntegerValue quantity = 10026;</code>
+       * <code>.dstore.values.IntegerValue quantity = 10026;</code>
        */
       boolean hasQuantity();
       /**
@@ -4578,7 +4578,7 @@ public final class OmGetPricesPu {
        * Wieviel von dem Artikel bestellt werden soll. Hier steht also entweder die Zahl, die in "&#64;Quantities" angegeben wurde, oder "1".
        * </pre>
        *
-       * <code>optional .dstore.values.IntegerValue quantity = 10026;</code>
+       * <code>.dstore.values.IntegerValue quantity = 10026;</code>
        */
       io.dstore.values.IntegerValue getQuantity();
       /**
@@ -4586,7 +4586,7 @@ public final class OmGetPricesPu {
        * Wieviel von dem Artikel bestellt werden soll. Hier steht also entweder die Zahl, die in "&#64;Quantities" angegeben wurde, oder "1".
        * </pre>
        *
-       * <code>optional .dstore.values.IntegerValue quantity = 10026;</code>
+       * <code>.dstore.values.IntegerValue quantity = 10026;</code>
        */
       io.dstore.values.IntegerValueOrBuilder getQuantityOrBuilder();
 
@@ -4595,7 +4595,7 @@ public final class OmGetPricesPu {
        * Durch ein "," getrennte Liste von Listen, deren Werte wiederum durch "&amp;" getrennt sind, und ein Wert die Form &lt;Menge&gt;x&lt;BundleItemSetID&gt; hat. Dies besagt jeweils, wieviel (&lt;Menge&gt;) von "Quantity" der "TreeNodeID" zu der "&lt;ItemSetID&gt;" des Bundles gehört.
        * </pre>
        *
-       * <code>optional .dstore.values.StringValue quantity_per_bundle_item_set_id_list = 10027;</code>
+       * <code>.dstore.values.StringValue quantity_per_bundle_item_set_id_list = 10027;</code>
        */
       boolean hasQuantityPerBundleItemSetIdList();
       /**
@@ -4603,7 +4603,7 @@ public final class OmGetPricesPu {
        * Durch ein "," getrennte Liste von Listen, deren Werte wiederum durch "&amp;" getrennt sind, und ein Wert die Form &lt;Menge&gt;x&lt;BundleItemSetID&gt; hat. Dies besagt jeweils, wieviel (&lt;Menge&gt;) von "Quantity" der "TreeNodeID" zu der "&lt;ItemSetID&gt;" des Bundles gehört.
        * </pre>
        *
-       * <code>optional .dstore.values.StringValue quantity_per_bundle_item_set_id_list = 10027;</code>
+       * <code>.dstore.values.StringValue quantity_per_bundle_item_set_id_list = 10027;</code>
        */
       io.dstore.values.StringValue getQuantityPerBundleItemSetIdList();
       /**
@@ -4611,7 +4611,7 @@ public final class OmGetPricesPu {
        * Durch ein "," getrennte Liste von Listen, deren Werte wiederum durch "&amp;" getrennt sind, und ein Wert die Form &lt;Menge&gt;x&lt;BundleItemSetID&gt; hat. Dies besagt jeweils, wieviel (&lt;Menge&gt;) von "Quantity" der "TreeNodeID" zu der "&lt;ItemSetID&gt;" des Bundles gehört.
        * </pre>
        *
-       * <code>optional .dstore.values.StringValue quantity_per_bundle_item_set_id_list = 10027;</code>
+       * <code>.dstore.values.StringValue quantity_per_bundle_item_set_id_list = 10027;</code>
        */
       io.dstore.values.StringValueOrBuilder getQuantityPerBundleItemSetIdListOrBuilder();
 
@@ -4620,7 +4620,7 @@ public final class OmGetPricesPu {
        * Der Wert des Aufschlags bzw. Rabattes, der verwendet wurde. Ist die "SurchargeTypeID" relativ definiert, entspricht dieser Wert dem in "RelativeSurcharge", andernfalls dem Wert in "AbsoluteUnitNetSurcharge" bzw. "AbsoluteUnitGrossSurcharge"
        * </pre>
        *
-       * <code>optional .dstore.values.DecimalValue surcharge_value = 10028;</code>
+       * <code>.dstore.values.DecimalValue surcharge_value = 10028;</code>
        */
       boolean hasSurchargeValue();
       /**
@@ -4628,7 +4628,7 @@ public final class OmGetPricesPu {
        * Der Wert des Aufschlags bzw. Rabattes, der verwendet wurde. Ist die "SurchargeTypeID" relativ definiert, entspricht dieser Wert dem in "RelativeSurcharge", andernfalls dem Wert in "AbsoluteUnitNetSurcharge" bzw. "AbsoluteUnitGrossSurcharge"
        * </pre>
        *
-       * <code>optional .dstore.values.DecimalValue surcharge_value = 10028;</code>
+       * <code>.dstore.values.DecimalValue surcharge_value = 10028;</code>
        */
       io.dstore.values.DecimalValue getSurchargeValue();
       /**
@@ -4636,7 +4636,7 @@ public final class OmGetPricesPu {
        * Der Wert des Aufschlags bzw. Rabattes, der verwendet wurde. Ist die "SurchargeTypeID" relativ definiert, entspricht dieser Wert dem in "RelativeSurcharge", andernfalls dem Wert in "AbsoluteUnitNetSurcharge" bzw. "AbsoluteUnitGrossSurcharge"
        * </pre>
        *
-       * <code>optional .dstore.values.DecimalValue surcharge_value = 10028;</code>
+       * <code>.dstore.values.DecimalValue surcharge_value = 10028;</code>
        */
       io.dstore.values.DecimalValueOrBuilder getSurchargeValueOrBuilder();
 
@@ -4645,7 +4645,7 @@ public final class OmGetPricesPu {
        * Absoluter Rabatt/Aufschlag, der in "UnitNetPrice" bereits ENTHALTEN ist
        * </pre>
        *
-       * <code>optional .dstore.values.DecimalValue absolute_unit_net_surcharge = 10029;</code>
+       * <code>.dstore.values.DecimalValue absolute_unit_net_surcharge = 10029;</code>
        */
       boolean hasAbsoluteUnitNetSurcharge();
       /**
@@ -4653,7 +4653,7 @@ public final class OmGetPricesPu {
        * Absoluter Rabatt/Aufschlag, der in "UnitNetPrice" bereits ENTHALTEN ist
        * </pre>
        *
-       * <code>optional .dstore.values.DecimalValue absolute_unit_net_surcharge = 10029;</code>
+       * <code>.dstore.values.DecimalValue absolute_unit_net_surcharge = 10029;</code>
        */
       io.dstore.values.DecimalValue getAbsoluteUnitNetSurcharge();
       /**
@@ -4661,7 +4661,7 @@ public final class OmGetPricesPu {
        * Absoluter Rabatt/Aufschlag, der in "UnitNetPrice" bereits ENTHALTEN ist
        * </pre>
        *
-       * <code>optional .dstore.values.DecimalValue absolute_unit_net_surcharge = 10029;</code>
+       * <code>.dstore.values.DecimalValue absolute_unit_net_surcharge = 10029;</code>
        */
       io.dstore.values.DecimalValueOrBuilder getAbsoluteUnitNetSurchargeOrBuilder();
 
@@ -4670,7 +4670,7 @@ public final class OmGetPricesPu {
        * Absoluter Rabatt/Aufschlag, der in "UnitGrossPrice" bereits ENTHALTEN ist (Englischer Spaltenname ist NICHT korrekt, NICHT mehr verwenden !)
        * </pre>
        *
-       * <code>optional .dstore.values.DecimalValue absolute_unit_brutto_surcharge = 10030;</code>
+       * <code>.dstore.values.DecimalValue absolute_unit_brutto_surcharge = 10030;</code>
        */
       boolean hasAbsoluteUnitBruttoSurcharge();
       /**
@@ -4678,7 +4678,7 @@ public final class OmGetPricesPu {
        * Absoluter Rabatt/Aufschlag, der in "UnitGrossPrice" bereits ENTHALTEN ist (Englischer Spaltenname ist NICHT korrekt, NICHT mehr verwenden !)
        * </pre>
        *
-       * <code>optional .dstore.values.DecimalValue absolute_unit_brutto_surcharge = 10030;</code>
+       * <code>.dstore.values.DecimalValue absolute_unit_brutto_surcharge = 10030;</code>
        */
       io.dstore.values.DecimalValue getAbsoluteUnitBruttoSurcharge();
       /**
@@ -4686,7 +4686,7 @@ public final class OmGetPricesPu {
        * Absoluter Rabatt/Aufschlag, der in "UnitGrossPrice" bereits ENTHALTEN ist (Englischer Spaltenname ist NICHT korrekt, NICHT mehr verwenden !)
        * </pre>
        *
-       * <code>optional .dstore.values.DecimalValue absolute_unit_brutto_surcharge = 10030;</code>
+       * <code>.dstore.values.DecimalValue absolute_unit_brutto_surcharge = 10030;</code>
        */
       io.dstore.values.DecimalValueOrBuilder getAbsoluteUnitBruttoSurchargeOrBuilder();
 
@@ -4695,7 +4695,7 @@ public final class OmGetPricesPu {
        * Absoluter Rabatt/Aufschlag, der in "UnitGrossPrice" bereits ENTHALTEN ist
        * </pre>
        *
-       * <code>optional .dstore.values.DecimalValue absolute_unit_gross_surcharge = 10031;</code>
+       * <code>.dstore.values.DecimalValue absolute_unit_gross_surcharge = 10031;</code>
        */
       boolean hasAbsoluteUnitGrossSurcharge();
       /**
@@ -4703,7 +4703,7 @@ public final class OmGetPricesPu {
        * Absoluter Rabatt/Aufschlag, der in "UnitGrossPrice" bereits ENTHALTEN ist
        * </pre>
        *
-       * <code>optional .dstore.values.DecimalValue absolute_unit_gross_surcharge = 10031;</code>
+       * <code>.dstore.values.DecimalValue absolute_unit_gross_surcharge = 10031;</code>
        */
       io.dstore.values.DecimalValue getAbsoluteUnitGrossSurcharge();
       /**
@@ -4711,7 +4711,7 @@ public final class OmGetPricesPu {
        * Absoluter Rabatt/Aufschlag, der in "UnitGrossPrice" bereits ENTHALTEN ist
        * </pre>
        *
-       * <code>optional .dstore.values.DecimalValue absolute_unit_gross_surcharge = 10031;</code>
+       * <code>.dstore.values.DecimalValue absolute_unit_gross_surcharge = 10031;</code>
        */
       io.dstore.values.DecimalValueOrBuilder getAbsoluteUnitGrossSurchargeOrBuilder();
 
@@ -4720,7 +4720,7 @@ public final class OmGetPricesPu {
        * Exakter (intern gespeicherter) Wert für "TotalNetPrice"
        * </pre>
        *
-       * <code>optional .dstore.values.DecimalValue precise_total_net_price = 10032;</code>
+       * <code>.dstore.values.DecimalValue precise_total_net_price = 10032;</code>
        */
       boolean hasPreciseTotalNetPrice();
       /**
@@ -4728,7 +4728,7 @@ public final class OmGetPricesPu {
        * Exakter (intern gespeicherter) Wert für "TotalNetPrice"
        * </pre>
        *
-       * <code>optional .dstore.values.DecimalValue precise_total_net_price = 10032;</code>
+       * <code>.dstore.values.DecimalValue precise_total_net_price = 10032;</code>
        */
       io.dstore.values.DecimalValue getPreciseTotalNetPrice();
       /**
@@ -4736,7 +4736,7 @@ public final class OmGetPricesPu {
        * Exakter (intern gespeicherter) Wert für "TotalNetPrice"
        * </pre>
        *
-       * <code>optional .dstore.values.DecimalValue precise_total_net_price = 10032;</code>
+       * <code>.dstore.values.DecimalValue precise_total_net_price = 10032;</code>
        */
       io.dstore.values.DecimalValueOrBuilder getPreciseTotalNetPriceOrBuilder();
 
@@ -4745,7 +4745,7 @@ public final class OmGetPricesPu {
        * ID einer Preis-Aufschlags/Rabatt-Art, die ermittelt und bei der Preis-Ermittlung angewandt wurde
        * </pre>
        *
-       * <code>optional .dstore.values.IntegerValue surcharge_type_id = 10033;</code>
+       * <code>.dstore.values.IntegerValue surcharge_type_id = 10033;</code>
        */
       boolean hasSurchargeTypeId();
       /**
@@ -4753,7 +4753,7 @@ public final class OmGetPricesPu {
        * ID einer Preis-Aufschlags/Rabatt-Art, die ermittelt und bei der Preis-Ermittlung angewandt wurde
        * </pre>
        *
-       * <code>optional .dstore.values.IntegerValue surcharge_type_id = 10033;</code>
+       * <code>.dstore.values.IntegerValue surcharge_type_id = 10033;</code>
        */
       io.dstore.values.IntegerValue getSurchargeTypeId();
       /**
@@ -4761,7 +4761,7 @@ public final class OmGetPricesPu {
        * ID einer Preis-Aufschlags/Rabatt-Art, die ermittelt und bei der Preis-Ermittlung angewandt wurde
        * </pre>
        *
-       * <code>optional .dstore.values.IntegerValue surcharge_type_id = 10033;</code>
+       * <code>.dstore.values.IntegerValue surcharge_type_id = 10033;</code>
        */
       io.dstore.values.IntegerValueOrBuilder getSurchargeTypeIdOrBuilder();
 
@@ -4770,7 +4770,7 @@ public final class OmGetPricesPu {
        * Exakter (intern gespeicherter) Wert für "UnitNetPrice"
        * </pre>
        *
-       * <code>optional .dstore.values.DecimalValue precise_unit_net_price = 10034;</code>
+       * <code>.dstore.values.DecimalValue precise_unit_net_price = 10034;</code>
        */
       boolean hasPreciseUnitNetPrice();
       /**
@@ -4778,7 +4778,7 @@ public final class OmGetPricesPu {
        * Exakter (intern gespeicherter) Wert für "UnitNetPrice"
        * </pre>
        *
-       * <code>optional .dstore.values.DecimalValue precise_unit_net_price = 10034;</code>
+       * <code>.dstore.values.DecimalValue precise_unit_net_price = 10034;</code>
        */
       io.dstore.values.DecimalValue getPreciseUnitNetPrice();
       /**
@@ -4786,7 +4786,7 @@ public final class OmGetPricesPu {
        * Exakter (intern gespeicherter) Wert für "UnitNetPrice"
        * </pre>
        *
-       * <code>optional .dstore.values.DecimalValue precise_unit_net_price = 10034;</code>
+       * <code>.dstore.values.DecimalValue precise_unit_net_price = 10034;</code>
        */
       io.dstore.values.DecimalValueOrBuilder getPreciseUnitNetPriceOrBuilder();
 
@@ -4795,7 +4795,7 @@ public final class OmGetPricesPu {
        * Brutto-Preis von "NodeID", wenn man den Artikel "Quantity-Mal" bestellt
        * </pre>
        *
-       * <code>optional .dstore.values.DecimalValue total_gross_price = 10035;</code>
+       * <code>.dstore.values.DecimalValue total_gross_price = 10035;</code>
        */
       boolean hasTotalGrossPrice();
       /**
@@ -4803,7 +4803,7 @@ public final class OmGetPricesPu {
        * Brutto-Preis von "NodeID", wenn man den Artikel "Quantity-Mal" bestellt
        * </pre>
        *
-       * <code>optional .dstore.values.DecimalValue total_gross_price = 10035;</code>
+       * <code>.dstore.values.DecimalValue total_gross_price = 10035;</code>
        */
       io.dstore.values.DecimalValue getTotalGrossPrice();
       /**
@@ -4811,7 +4811,7 @@ public final class OmGetPricesPu {
        * Brutto-Preis von "NodeID", wenn man den Artikel "Quantity-Mal" bestellt
        * </pre>
        *
-       * <code>optional .dstore.values.DecimalValue total_gross_price = 10035;</code>
+       * <code>.dstore.values.DecimalValue total_gross_price = 10035;</code>
        */
       io.dstore.values.DecimalValueOrBuilder getTotalGrossPriceOrBuilder();
     }
@@ -5342,7 +5342,7 @@ public final class OmGetPricesPu {
       public static final int ROW_ID_FIELD_NUMBER = 10000;
       private int rowId_;
       /**
-       * <code>optional int32 row_id = 10000;</code>
+       * <code>int32 row_id = 10000;</code>
        */
       public int getRowId() {
         return rowId_;
@@ -5355,7 +5355,7 @@ public final class OmGetPricesPu {
        * Netto-Preis von "NodeID", wenn man den Artikel "Quantity-Mal" bestellt (Englischer Spaltenname ist NICHT korrekt, NICHT mehr verwenden !)
        * </pre>
        *
-       * <code>optional .dstore.values.DecimalValue total_netto_price = 10001;</code>
+       * <code>.dstore.values.DecimalValue total_netto_price = 10001;</code>
        */
       public boolean hasTotalNettoPrice() {
         return totalNettoPrice_ != null;
@@ -5365,7 +5365,7 @@ public final class OmGetPricesPu {
        * Netto-Preis von "NodeID", wenn man den Artikel "Quantity-Mal" bestellt (Englischer Spaltenname ist NICHT korrekt, NICHT mehr verwenden !)
        * </pre>
        *
-       * <code>optional .dstore.values.DecimalValue total_netto_price = 10001;</code>
+       * <code>.dstore.values.DecimalValue total_netto_price = 10001;</code>
        */
       public io.dstore.values.DecimalValue getTotalNettoPrice() {
         return totalNettoPrice_ == null ? io.dstore.values.DecimalValue.getDefaultInstance() : totalNettoPrice_;
@@ -5375,7 +5375,7 @@ public final class OmGetPricesPu {
        * Netto-Preis von "NodeID", wenn man den Artikel "Quantity-Mal" bestellt (Englischer Spaltenname ist NICHT korrekt, NICHT mehr verwenden !)
        * </pre>
        *
-       * <code>optional .dstore.values.DecimalValue total_netto_price = 10001;</code>
+       * <code>.dstore.values.DecimalValue total_netto_price = 10001;</code>
        */
       public io.dstore.values.DecimalValueOrBuilder getTotalNettoPriceOrBuilder() {
         return getTotalNettoPrice();
@@ -5388,7 +5388,7 @@ public final class OmGetPricesPu {
        * Exakter (intern gespeicherter) Wert für "AbsoluteUnitGrossSurcharge"
        * </pre>
        *
-       * <code>optional .dstore.values.DecimalValue precise_abs_unit_gross_surcharge = 10002;</code>
+       * <code>.dstore.values.DecimalValue precise_abs_unit_gross_surcharge = 10002;</code>
        */
       public boolean hasPreciseAbsUnitGrossSurcharge() {
         return preciseAbsUnitGrossSurcharge_ != null;
@@ -5398,7 +5398,7 @@ public final class OmGetPricesPu {
        * Exakter (intern gespeicherter) Wert für "AbsoluteUnitGrossSurcharge"
        * </pre>
        *
-       * <code>optional .dstore.values.DecimalValue precise_abs_unit_gross_surcharge = 10002;</code>
+       * <code>.dstore.values.DecimalValue precise_abs_unit_gross_surcharge = 10002;</code>
        */
       public io.dstore.values.DecimalValue getPreciseAbsUnitGrossSurcharge() {
         return preciseAbsUnitGrossSurcharge_ == null ? io.dstore.values.DecimalValue.getDefaultInstance() : preciseAbsUnitGrossSurcharge_;
@@ -5408,7 +5408,7 @@ public final class OmGetPricesPu {
        * Exakter (intern gespeicherter) Wert für "AbsoluteUnitGrossSurcharge"
        * </pre>
        *
-       * <code>optional .dstore.values.DecimalValue precise_abs_unit_gross_surcharge = 10002;</code>
+       * <code>.dstore.values.DecimalValue precise_abs_unit_gross_surcharge = 10002;</code>
        */
       public io.dstore.values.DecimalValueOrBuilder getPreciseAbsUnitGrossSurchargeOrBuilder() {
         return getPreciseAbsUnitGrossSurcharge();
@@ -5421,7 +5421,7 @@ public final class OmGetPricesPu {
        * Merkmal-ID, die den Preis bestimmt hat (genauer : die Eigenschaft von "TreeNodeID" zu diesem Merkmal hat den Preis bestimmt)
        * </pre>
        *
-       * <code>optional .dstore.values.IntegerValue price_node_characteristic_id = 10003;</code>
+       * <code>.dstore.values.IntegerValue price_node_characteristic_id = 10003;</code>
        */
       public boolean hasPriceNodeCharacteristicId() {
         return priceNodeCharacteristicId_ != null;
@@ -5431,7 +5431,7 @@ public final class OmGetPricesPu {
        * Merkmal-ID, die den Preis bestimmt hat (genauer : die Eigenschaft von "TreeNodeID" zu diesem Merkmal hat den Preis bestimmt)
        * </pre>
        *
-       * <code>optional .dstore.values.IntegerValue price_node_characteristic_id = 10003;</code>
+       * <code>.dstore.values.IntegerValue price_node_characteristic_id = 10003;</code>
        */
       public io.dstore.values.IntegerValue getPriceNodeCharacteristicId() {
         return priceNodeCharacteristicId_ == null ? io.dstore.values.IntegerValue.getDefaultInstance() : priceNodeCharacteristicId_;
@@ -5441,7 +5441,7 @@ public final class OmGetPricesPu {
        * Merkmal-ID, die den Preis bestimmt hat (genauer : die Eigenschaft von "TreeNodeID" zu diesem Merkmal hat den Preis bestimmt)
        * </pre>
        *
-       * <code>optional .dstore.values.IntegerValue price_node_characteristic_id = 10003;</code>
+       * <code>.dstore.values.IntegerValue price_node_characteristic_id = 10003;</code>
        */
       public io.dstore.values.IntegerValueOrBuilder getPriceNodeCharacteristicIdOrBuilder() {
         return getPriceNodeCharacteristicId();
@@ -5454,7 +5454,7 @@ public final class OmGetPricesPu {
        * Absoluter Rabatt/Aufschlag, der in "UnitNetPrice" bereits ENTHALTEN ist (Englischer Spaltenname ist NICHT korrekt, NICHT mehr verwenden !)
        * </pre>
        *
-       * <code>optional .dstore.values.DecimalValue absolute_unit_netto_surcharge = 10004;</code>
+       * <code>.dstore.values.DecimalValue absolute_unit_netto_surcharge = 10004;</code>
        */
       public boolean hasAbsoluteUnitNettoSurcharge() {
         return absoluteUnitNettoSurcharge_ != null;
@@ -5464,7 +5464,7 @@ public final class OmGetPricesPu {
        * Absoluter Rabatt/Aufschlag, der in "UnitNetPrice" bereits ENTHALTEN ist (Englischer Spaltenname ist NICHT korrekt, NICHT mehr verwenden !)
        * </pre>
        *
-       * <code>optional .dstore.values.DecimalValue absolute_unit_netto_surcharge = 10004;</code>
+       * <code>.dstore.values.DecimalValue absolute_unit_netto_surcharge = 10004;</code>
        */
       public io.dstore.values.DecimalValue getAbsoluteUnitNettoSurcharge() {
         return absoluteUnitNettoSurcharge_ == null ? io.dstore.values.DecimalValue.getDefaultInstance() : absoluteUnitNettoSurcharge_;
@@ -5474,7 +5474,7 @@ public final class OmGetPricesPu {
        * Absoluter Rabatt/Aufschlag, der in "UnitNetPrice" bereits ENTHALTEN ist (Englischer Spaltenname ist NICHT korrekt, NICHT mehr verwenden !)
        * </pre>
        *
-       * <code>optional .dstore.values.DecimalValue absolute_unit_netto_surcharge = 10004;</code>
+       * <code>.dstore.values.DecimalValue absolute_unit_netto_surcharge = 10004;</code>
        */
       public io.dstore.values.DecimalValueOrBuilder getAbsoluteUnitNettoSurchargeOrBuilder() {
         return getAbsoluteUnitNettoSurcharge();
@@ -5487,7 +5487,7 @@ public final class OmGetPricesPu {
        * Brutto-Preis von "NodeID", wenn man den Artikel EINMAL bestellt
        * </pre>
        *
-       * <code>optional .dstore.values.DecimalValue unit_gross_price = 10005;</code>
+       * <code>.dstore.values.DecimalValue unit_gross_price = 10005;</code>
        */
       public boolean hasUnitGrossPrice() {
         return unitGrossPrice_ != null;
@@ -5497,7 +5497,7 @@ public final class OmGetPricesPu {
        * Brutto-Preis von "NodeID", wenn man den Artikel EINMAL bestellt
        * </pre>
        *
-       * <code>optional .dstore.values.DecimalValue unit_gross_price = 10005;</code>
+       * <code>.dstore.values.DecimalValue unit_gross_price = 10005;</code>
        */
       public io.dstore.values.DecimalValue getUnitGrossPrice() {
         return unitGrossPrice_ == null ? io.dstore.values.DecimalValue.getDefaultInstance() : unitGrossPrice_;
@@ -5507,7 +5507,7 @@ public final class OmGetPricesPu {
        * Brutto-Preis von "NodeID", wenn man den Artikel EINMAL bestellt
        * </pre>
        *
-       * <code>optional .dstore.values.DecimalValue unit_gross_price = 10005;</code>
+       * <code>.dstore.values.DecimalValue unit_gross_price = 10005;</code>
        */
       public io.dstore.values.DecimalValueOrBuilder getUnitGrossPriceOrBuilder() {
         return getUnitGrossPrice();
@@ -5520,7 +5520,7 @@ public final class OmGetPricesPu {
        * Absoluter Rabatt/Aufschlag, der im "TotalNetPrice" bereits ENTHALTEN ist
        * </pre>
        *
-       * <code>optional .dstore.values.DecimalValue absolute_total_net_surcharge = 10006;</code>
+       * <code>.dstore.values.DecimalValue absolute_total_net_surcharge = 10006;</code>
        */
       public boolean hasAbsoluteTotalNetSurcharge() {
         return absoluteTotalNetSurcharge_ != null;
@@ -5530,7 +5530,7 @@ public final class OmGetPricesPu {
        * Absoluter Rabatt/Aufschlag, der im "TotalNetPrice" bereits ENTHALTEN ist
        * </pre>
        *
-       * <code>optional .dstore.values.DecimalValue absolute_total_net_surcharge = 10006;</code>
+       * <code>.dstore.values.DecimalValue absolute_total_net_surcharge = 10006;</code>
        */
       public io.dstore.values.DecimalValue getAbsoluteTotalNetSurcharge() {
         return absoluteTotalNetSurcharge_ == null ? io.dstore.values.DecimalValue.getDefaultInstance() : absoluteTotalNetSurcharge_;
@@ -5540,7 +5540,7 @@ public final class OmGetPricesPu {
        * Absoluter Rabatt/Aufschlag, der im "TotalNetPrice" bereits ENTHALTEN ist
        * </pre>
        *
-       * <code>optional .dstore.values.DecimalValue absolute_total_net_surcharge = 10006;</code>
+       * <code>.dstore.values.DecimalValue absolute_total_net_surcharge = 10006;</code>
        */
       public io.dstore.values.DecimalValueOrBuilder getAbsoluteTotalNetSurchargeOrBuilder() {
         return getAbsoluteTotalNetSurcharge();
@@ -5553,7 +5553,7 @@ public final class OmGetPricesPu {
        * Absoluter Rabatt/Aufschlag, der im "TotalGrossPrice" bereits ENTHALTEN ist
        * </pre>
        *
-       * <code>optional .dstore.values.DecimalValue absolute_total_gross_surcharge = 10007;</code>
+       * <code>.dstore.values.DecimalValue absolute_total_gross_surcharge = 10007;</code>
        */
       public boolean hasAbsoluteTotalGrossSurcharge() {
         return absoluteTotalGrossSurcharge_ != null;
@@ -5563,7 +5563,7 @@ public final class OmGetPricesPu {
        * Absoluter Rabatt/Aufschlag, der im "TotalGrossPrice" bereits ENTHALTEN ist
        * </pre>
        *
-       * <code>optional .dstore.values.DecimalValue absolute_total_gross_surcharge = 10007;</code>
+       * <code>.dstore.values.DecimalValue absolute_total_gross_surcharge = 10007;</code>
        */
       public io.dstore.values.DecimalValue getAbsoluteTotalGrossSurcharge() {
         return absoluteTotalGrossSurcharge_ == null ? io.dstore.values.DecimalValue.getDefaultInstance() : absoluteTotalGrossSurcharge_;
@@ -5573,7 +5573,7 @@ public final class OmGetPricesPu {
        * Absoluter Rabatt/Aufschlag, der im "TotalGrossPrice" bereits ENTHALTEN ist
        * </pre>
        *
-       * <code>optional .dstore.values.DecimalValue absolute_total_gross_surcharge = 10007;</code>
+       * <code>.dstore.values.DecimalValue absolute_total_gross_surcharge = 10007;</code>
        */
       public io.dstore.values.DecimalValueOrBuilder getAbsoluteTotalGrossSurchargeOrBuilder() {
         return getAbsoluteTotalGrossSurcharge();
@@ -5586,7 +5586,7 @@ public final class OmGetPricesPu {
        * Brutto-Preis von "NodeID", wenn man den Artikel EINMAL bestellt (Englischer Spaltenname ist NICHT korrekt, NICHT mehr verwenden !)
        * </pre>
        *
-       * <code>optional .dstore.values.DecimalValue unit_brutto_price = 10008;</code>
+       * <code>.dstore.values.DecimalValue unit_brutto_price = 10008;</code>
        */
       public boolean hasUnitBruttoPrice() {
         return unitBruttoPrice_ != null;
@@ -5596,7 +5596,7 @@ public final class OmGetPricesPu {
        * Brutto-Preis von "NodeID", wenn man den Artikel EINMAL bestellt (Englischer Spaltenname ist NICHT korrekt, NICHT mehr verwenden !)
        * </pre>
        *
-       * <code>optional .dstore.values.DecimalValue unit_brutto_price = 10008;</code>
+       * <code>.dstore.values.DecimalValue unit_brutto_price = 10008;</code>
        */
       public io.dstore.values.DecimalValue getUnitBruttoPrice() {
         return unitBruttoPrice_ == null ? io.dstore.values.DecimalValue.getDefaultInstance() : unitBruttoPrice_;
@@ -5606,7 +5606,7 @@ public final class OmGetPricesPu {
        * Brutto-Preis von "NodeID", wenn man den Artikel EINMAL bestellt (Englischer Spaltenname ist NICHT korrekt, NICHT mehr verwenden !)
        * </pre>
        *
-       * <code>optional .dstore.values.DecimalValue unit_brutto_price = 10008;</code>
+       * <code>.dstore.values.DecimalValue unit_brutto_price = 10008;</code>
        */
       public io.dstore.values.DecimalValueOrBuilder getUnitBruttoPriceOrBuilder() {
         return getUnitBruttoPrice();
@@ -5619,7 +5619,7 @@ public final class OmGetPricesPu {
        * Exakter (intern gespeicherter) Wert für "UnitGrossPrice"
        * </pre>
        *
-       * <code>optional .dstore.values.DecimalValue precise_unit_gross_price = 10009;</code>
+       * <code>.dstore.values.DecimalValue precise_unit_gross_price = 10009;</code>
        */
       public boolean hasPreciseUnitGrossPrice() {
         return preciseUnitGrossPrice_ != null;
@@ -5629,7 +5629,7 @@ public final class OmGetPricesPu {
        * Exakter (intern gespeicherter) Wert für "UnitGrossPrice"
        * </pre>
        *
-       * <code>optional .dstore.values.DecimalValue precise_unit_gross_price = 10009;</code>
+       * <code>.dstore.values.DecimalValue precise_unit_gross_price = 10009;</code>
        */
       public io.dstore.values.DecimalValue getPreciseUnitGrossPrice() {
         return preciseUnitGrossPrice_ == null ? io.dstore.values.DecimalValue.getDefaultInstance() : preciseUnitGrossPrice_;
@@ -5639,7 +5639,7 @@ public final class OmGetPricesPu {
        * Exakter (intern gespeicherter) Wert für "UnitGrossPrice"
        * </pre>
        *
-       * <code>optional .dstore.values.DecimalValue precise_unit_gross_price = 10009;</code>
+       * <code>.dstore.values.DecimalValue precise_unit_gross_price = 10009;</code>
        */
       public io.dstore.values.DecimalValueOrBuilder getPreciseUnitGrossPriceOrBuilder() {
         return getPreciseUnitGrossPrice();
@@ -5652,7 +5652,7 @@ public final class OmGetPricesPu {
        * Netto-Preis von "NodeID", wenn man den Artikel EINMAL bestellt
        * </pre>
        *
-       * <code>optional .dstore.values.DecimalValue unit_net_price = 10010;</code>
+       * <code>.dstore.values.DecimalValue unit_net_price = 10010;</code>
        */
       public boolean hasUnitNetPrice() {
         return unitNetPrice_ != null;
@@ -5662,7 +5662,7 @@ public final class OmGetPricesPu {
        * Netto-Preis von "NodeID", wenn man den Artikel EINMAL bestellt
        * </pre>
        *
-       * <code>optional .dstore.values.DecimalValue unit_net_price = 10010;</code>
+       * <code>.dstore.values.DecimalValue unit_net_price = 10010;</code>
        */
       public io.dstore.values.DecimalValue getUnitNetPrice() {
         return unitNetPrice_ == null ? io.dstore.values.DecimalValue.getDefaultInstance() : unitNetPrice_;
@@ -5672,7 +5672,7 @@ public final class OmGetPricesPu {
        * Netto-Preis von "NodeID", wenn man den Artikel EINMAL bestellt
        * </pre>
        *
-       * <code>optional .dstore.values.DecimalValue unit_net_price = 10010;</code>
+       * <code>.dstore.values.DecimalValue unit_net_price = 10010;</code>
        */
       public io.dstore.values.DecimalValueOrBuilder getUnitNetPriceOrBuilder() {
         return getUnitNetPrice();
@@ -5685,7 +5685,7 @@ public final class OmGetPricesPu {
        * Brutto-Preis von "NodeID", wenn man den Artikel "Quantity-Mal" bestellt (Englischer Spaltenname ist NICHT korrekt, NICHT mehr verwenden !)
        * </pre>
        *
-       * <code>optional .dstore.values.DecimalValue total_brutto_price = 10011;</code>
+       * <code>.dstore.values.DecimalValue total_brutto_price = 10011;</code>
        */
       public boolean hasTotalBruttoPrice() {
         return totalBruttoPrice_ != null;
@@ -5695,7 +5695,7 @@ public final class OmGetPricesPu {
        * Brutto-Preis von "NodeID", wenn man den Artikel "Quantity-Mal" bestellt (Englischer Spaltenname ist NICHT korrekt, NICHT mehr verwenden !)
        * </pre>
        *
-       * <code>optional .dstore.values.DecimalValue total_brutto_price = 10011;</code>
+       * <code>.dstore.values.DecimalValue total_brutto_price = 10011;</code>
        */
       public io.dstore.values.DecimalValue getTotalBruttoPrice() {
         return totalBruttoPrice_ == null ? io.dstore.values.DecimalValue.getDefaultInstance() : totalBruttoPrice_;
@@ -5705,7 +5705,7 @@ public final class OmGetPricesPu {
        * Brutto-Preis von "NodeID", wenn man den Artikel "Quantity-Mal" bestellt (Englischer Spaltenname ist NICHT korrekt, NICHT mehr verwenden !)
        * </pre>
        *
-       * <code>optional .dstore.values.DecimalValue total_brutto_price = 10011;</code>
+       * <code>.dstore.values.DecimalValue total_brutto_price = 10011;</code>
        */
       public io.dstore.values.DecimalValueOrBuilder getTotalBruttoPriceOrBuilder() {
         return getTotalBruttoPrice();
@@ -5718,7 +5718,7 @@ public final class OmGetPricesPu {
        * Exakter (intern gespeicherter) Wert für "AbsoluteUnitNetSurcharge"
        * </pre>
        *
-       * <code>optional .dstore.values.DecimalValue precise_abs_unit_net_surcharge = 10012;</code>
+       * <code>.dstore.values.DecimalValue precise_abs_unit_net_surcharge = 10012;</code>
        */
       public boolean hasPreciseAbsUnitNetSurcharge() {
         return preciseAbsUnitNetSurcharge_ != null;
@@ -5728,7 +5728,7 @@ public final class OmGetPricesPu {
        * Exakter (intern gespeicherter) Wert für "AbsoluteUnitNetSurcharge"
        * </pre>
        *
-       * <code>optional .dstore.values.DecimalValue precise_abs_unit_net_surcharge = 10012;</code>
+       * <code>.dstore.values.DecimalValue precise_abs_unit_net_surcharge = 10012;</code>
        */
       public io.dstore.values.DecimalValue getPreciseAbsUnitNetSurcharge() {
         return preciseAbsUnitNetSurcharge_ == null ? io.dstore.values.DecimalValue.getDefaultInstance() : preciseAbsUnitNetSurcharge_;
@@ -5738,7 +5738,7 @@ public final class OmGetPricesPu {
        * Exakter (intern gespeicherter) Wert für "AbsoluteUnitNetSurcharge"
        * </pre>
        *
-       * <code>optional .dstore.values.DecimalValue precise_abs_unit_net_surcharge = 10012;</code>
+       * <code>.dstore.values.DecimalValue precise_abs_unit_net_surcharge = 10012;</code>
        */
       public io.dstore.values.DecimalValueOrBuilder getPreciseAbsUnitNetSurchargeOrBuilder() {
         return getPreciseAbsUnitNetSurcharge();
@@ -5751,7 +5751,7 @@ public final class OmGetPricesPu {
        * "Grund" für einen evtl. vorhandenen Rabatt (z.B. ein "Aktionsname", der letztlich von der individuellen Rabatt-Ermittlung durch "_ac_om_GetSurcharges" stammt). Immer "NULL", wenn "&#64;GetAdditionalPriceInfo = 0" ist !
        * </pre>
        *
-       * <code>optional .dstore.values.StringValue surcharge_reason = 10013;</code>
+       * <code>.dstore.values.StringValue surcharge_reason = 10013;</code>
        */
       public boolean hasSurchargeReason() {
         return surchargeReason_ != null;
@@ -5761,7 +5761,7 @@ public final class OmGetPricesPu {
        * "Grund" für einen evtl. vorhandenen Rabatt (z.B. ein "Aktionsname", der letztlich von der individuellen Rabatt-Ermittlung durch "_ac_om_GetSurcharges" stammt). Immer "NULL", wenn "&#64;GetAdditionalPriceInfo = 0" ist !
        * </pre>
        *
-       * <code>optional .dstore.values.StringValue surcharge_reason = 10013;</code>
+       * <code>.dstore.values.StringValue surcharge_reason = 10013;</code>
        */
       public io.dstore.values.StringValue getSurchargeReason() {
         return surchargeReason_ == null ? io.dstore.values.StringValue.getDefaultInstance() : surchargeReason_;
@@ -5771,7 +5771,7 @@ public final class OmGetPricesPu {
        * "Grund" für einen evtl. vorhandenen Rabatt (z.B. ein "Aktionsname", der letztlich von der individuellen Rabatt-Ermittlung durch "_ac_om_GetSurcharges" stammt). Immer "NULL", wenn "&#64;GetAdditionalPriceInfo = 0" ist !
        * </pre>
        *
-       * <code>optional .dstore.values.StringValue surcharge_reason = 10013;</code>
+       * <code>.dstore.values.StringValue surcharge_reason = 10013;</code>
        */
       public io.dstore.values.StringValueOrBuilder getSurchargeReasonOrBuilder() {
         return getSurchargeReason();
@@ -5784,7 +5784,7 @@ public final class OmGetPricesPu {
        * ID eines Artikel-Elementes, zu dem der Verkaufspreis ermittelt wurde (also entweder ein Element, das in "&#64;NodeIDs" übergeben wurde, oder ein Element, das zu einer "TreeNodeID" korrespondiert, die in "&#64;NodeIDs" angegeben wurde)
        * </pre>
        *
-       * <code>optional .dstore.values.IntegerValue node_id = 10014;</code>
+       * <code>.dstore.values.IntegerValue node_id = 10014;</code>
        */
       public boolean hasNodeId() {
         return nodeId_ != null;
@@ -5794,7 +5794,7 @@ public final class OmGetPricesPu {
        * ID eines Artikel-Elementes, zu dem der Verkaufspreis ermittelt wurde (also entweder ein Element, das in "&#64;NodeIDs" übergeben wurde, oder ein Element, das zu einer "TreeNodeID" korrespondiert, die in "&#64;NodeIDs" angegeben wurde)
        * </pre>
        *
-       * <code>optional .dstore.values.IntegerValue node_id = 10014;</code>
+       * <code>.dstore.values.IntegerValue node_id = 10014;</code>
        */
       public io.dstore.values.IntegerValue getNodeId() {
         return nodeId_ == null ? io.dstore.values.IntegerValue.getDefaultInstance() : nodeId_;
@@ -5804,7 +5804,7 @@ public final class OmGetPricesPu {
        * ID eines Artikel-Elementes, zu dem der Verkaufspreis ermittelt wurde (also entweder ein Element, das in "&#64;NodeIDs" übergeben wurde, oder ein Element, das zu einer "TreeNodeID" korrespondiert, die in "&#64;NodeIDs" angegeben wurde)
        * </pre>
        *
-       * <code>optional .dstore.values.IntegerValue node_id = 10014;</code>
+       * <code>.dstore.values.IntegerValue node_id = 10014;</code>
        */
       public io.dstore.values.IntegerValueOrBuilder getNodeIdOrBuilder() {
         return getNodeId();
@@ -5817,7 +5817,7 @@ public final class OmGetPricesPu {
        * ID eines zur "NodeID" korrespondierenden Elementes im Artikelbaum, das zur Preisermittlung herangezogen wurde bzw. (falls "&#64;IsTreeNodeID = 1") eine ID, die in "&#64;NodeIDs" übergeben wurde
        * </pre>
        *
-       * <code>optional .dstore.values.IntegerValue tree_node_id = 10015;</code>
+       * <code>.dstore.values.IntegerValue tree_node_id = 10015;</code>
        */
       public boolean hasTreeNodeId() {
         return treeNodeId_ != null;
@@ -5827,7 +5827,7 @@ public final class OmGetPricesPu {
        * ID eines zur "NodeID" korrespondierenden Elementes im Artikelbaum, das zur Preisermittlung herangezogen wurde bzw. (falls "&#64;IsTreeNodeID = 1") eine ID, die in "&#64;NodeIDs" übergeben wurde
        * </pre>
        *
-       * <code>optional .dstore.values.IntegerValue tree_node_id = 10015;</code>
+       * <code>.dstore.values.IntegerValue tree_node_id = 10015;</code>
        */
       public io.dstore.values.IntegerValue getTreeNodeId() {
         return treeNodeId_ == null ? io.dstore.values.IntegerValue.getDefaultInstance() : treeNodeId_;
@@ -5837,7 +5837,7 @@ public final class OmGetPricesPu {
        * ID eines zur "NodeID" korrespondierenden Elementes im Artikelbaum, das zur Preisermittlung herangezogen wurde bzw. (falls "&#64;IsTreeNodeID = 1") eine ID, die in "&#64;NodeIDs" übergeben wurde
        * </pre>
        *
-       * <code>optional .dstore.values.IntegerValue tree_node_id = 10015;</code>
+       * <code>.dstore.values.IntegerValue tree_node_id = 10015;</code>
        */
       public io.dstore.values.IntegerValueOrBuilder getTreeNodeIdOrBuilder() {
         return getTreeNodeId();
@@ -5850,7 +5850,7 @@ public final class OmGetPricesPu {
        * Absoluter Rabatt/Aufschlag, der im "TotalNetPrice" bereits ENTHALTEN ist (Englischer Spaltenname ist NICHT korrekt, NICHT mehr verwenden !)
        * </pre>
        *
-       * <code>optional .dstore.values.DecimalValue absolute_total_netto_surcharge = 10016;</code>
+       * <code>.dstore.values.DecimalValue absolute_total_netto_surcharge = 10016;</code>
        */
       public boolean hasAbsoluteTotalNettoSurcharge() {
         return absoluteTotalNettoSurcharge_ != null;
@@ -5860,7 +5860,7 @@ public final class OmGetPricesPu {
        * Absoluter Rabatt/Aufschlag, der im "TotalNetPrice" bereits ENTHALTEN ist (Englischer Spaltenname ist NICHT korrekt, NICHT mehr verwenden !)
        * </pre>
        *
-       * <code>optional .dstore.values.DecimalValue absolute_total_netto_surcharge = 10016;</code>
+       * <code>.dstore.values.DecimalValue absolute_total_netto_surcharge = 10016;</code>
        */
       public io.dstore.values.DecimalValue getAbsoluteTotalNettoSurcharge() {
         return absoluteTotalNettoSurcharge_ == null ? io.dstore.values.DecimalValue.getDefaultInstance() : absoluteTotalNettoSurcharge_;
@@ -5870,7 +5870,7 @@ public final class OmGetPricesPu {
        * Absoluter Rabatt/Aufschlag, der im "TotalNetPrice" bereits ENTHALTEN ist (Englischer Spaltenname ist NICHT korrekt, NICHT mehr verwenden !)
        * </pre>
        *
-       * <code>optional .dstore.values.DecimalValue absolute_total_netto_surcharge = 10016;</code>
+       * <code>.dstore.values.DecimalValue absolute_total_netto_surcharge = 10016;</code>
        */
       public io.dstore.values.DecimalValueOrBuilder getAbsoluteTotalNettoSurchargeOrBuilder() {
         return getAbsoluteTotalNettoSurcharge();
@@ -5883,7 +5883,7 @@ public final class OmGetPricesPu {
        * Relativer Rabatt/Aufschlag in Prozent (der in den Preisen bereits enthalten ist !). Ein negativer Wert bedeutet einen Rabatt, sonst beinhaltet der Verkaufspreis einen Aufschlag.
        * </pre>
        *
-       * <code>optional .dstore.values.DecimalValue relative_surcharge = 10017;</code>
+       * <code>.dstore.values.DecimalValue relative_surcharge = 10017;</code>
        */
       public boolean hasRelativeSurcharge() {
         return relativeSurcharge_ != null;
@@ -5893,7 +5893,7 @@ public final class OmGetPricesPu {
        * Relativer Rabatt/Aufschlag in Prozent (der in den Preisen bereits enthalten ist !). Ein negativer Wert bedeutet einen Rabatt, sonst beinhaltet der Verkaufspreis einen Aufschlag.
        * </pre>
        *
-       * <code>optional .dstore.values.DecimalValue relative_surcharge = 10017;</code>
+       * <code>.dstore.values.DecimalValue relative_surcharge = 10017;</code>
        */
       public io.dstore.values.DecimalValue getRelativeSurcharge() {
         return relativeSurcharge_ == null ? io.dstore.values.DecimalValue.getDefaultInstance() : relativeSurcharge_;
@@ -5903,7 +5903,7 @@ public final class OmGetPricesPu {
        * Relativer Rabatt/Aufschlag in Prozent (der in den Preisen bereits enthalten ist !). Ein negativer Wert bedeutet einen Rabatt, sonst beinhaltet der Verkaufspreis einen Aufschlag.
        * </pre>
        *
-       * <code>optional .dstore.values.DecimalValue relative_surcharge = 10017;</code>
+       * <code>.dstore.values.DecimalValue relative_surcharge = 10017;</code>
        */
       public io.dstore.values.DecimalValueOrBuilder getRelativeSurchargeOrBuilder() {
         return getRelativeSurcharge();
@@ -5916,7 +5916,7 @@ public final class OmGetPricesPu {
        * Absoluter Rabatt/Aufschlag, der im "TotalGrossPrice" bereits ENTHALTEN ist (Englischer Spaltenname ist NICHT korrekt, NICHT mehr verwenden !)
        * </pre>
        *
-       * <code>optional .dstore.values.DecimalValue absolute_total_brutto_surcharge = 10018;</code>
+       * <code>.dstore.values.DecimalValue absolute_total_brutto_surcharge = 10018;</code>
        */
       public boolean hasAbsoluteTotalBruttoSurcharge() {
         return absoluteTotalBruttoSurcharge_ != null;
@@ -5926,7 +5926,7 @@ public final class OmGetPricesPu {
        * Absoluter Rabatt/Aufschlag, der im "TotalGrossPrice" bereits ENTHALTEN ist (Englischer Spaltenname ist NICHT korrekt, NICHT mehr verwenden !)
        * </pre>
        *
-       * <code>optional .dstore.values.DecimalValue absolute_total_brutto_surcharge = 10018;</code>
+       * <code>.dstore.values.DecimalValue absolute_total_brutto_surcharge = 10018;</code>
        */
       public io.dstore.values.DecimalValue getAbsoluteTotalBruttoSurcharge() {
         return absoluteTotalBruttoSurcharge_ == null ? io.dstore.values.DecimalValue.getDefaultInstance() : absoluteTotalBruttoSurcharge_;
@@ -5936,7 +5936,7 @@ public final class OmGetPricesPu {
        * Absoluter Rabatt/Aufschlag, der im "TotalGrossPrice" bereits ENTHALTEN ist (Englischer Spaltenname ist NICHT korrekt, NICHT mehr verwenden !)
        * </pre>
        *
-       * <code>optional .dstore.values.DecimalValue absolute_total_brutto_surcharge = 10018;</code>
+       * <code>.dstore.values.DecimalValue absolute_total_brutto_surcharge = 10018;</code>
        */
       public io.dstore.values.DecimalValueOrBuilder getAbsoluteTotalBruttoSurchargeOrBuilder() {
         return getAbsoluteTotalBruttoSurcharge();
@@ -5949,7 +5949,7 @@ public final class OmGetPricesPu {
        * Liste von "CampaignID"s der Verkaufsaktionen, die zur Rabattierung der Position geführt haben. Immer "NULL", wenn "&#64;GetAdditionalPriceInfo = 0" ist oder keine Rabattierung vorliegt !
        * </pre>
        *
-       * <code>optional .dstore.values.StringValue surcharge_generated_by_camp_ids = 10019;</code>
+       * <code>.dstore.values.StringValue surcharge_generated_by_camp_ids = 10019;</code>
        */
       public boolean hasSurchargeGeneratedByCampIds() {
         return surchargeGeneratedByCampIds_ != null;
@@ -5959,7 +5959,7 @@ public final class OmGetPricesPu {
        * Liste von "CampaignID"s der Verkaufsaktionen, die zur Rabattierung der Position geführt haben. Immer "NULL", wenn "&#64;GetAdditionalPriceInfo = 0" ist oder keine Rabattierung vorliegt !
        * </pre>
        *
-       * <code>optional .dstore.values.StringValue surcharge_generated_by_camp_ids = 10019;</code>
+       * <code>.dstore.values.StringValue surcharge_generated_by_camp_ids = 10019;</code>
        */
       public io.dstore.values.StringValue getSurchargeGeneratedByCampIds() {
         return surchargeGeneratedByCampIds_ == null ? io.dstore.values.StringValue.getDefaultInstance() : surchargeGeneratedByCampIds_;
@@ -5969,7 +5969,7 @@ public final class OmGetPricesPu {
        * Liste von "CampaignID"s der Verkaufsaktionen, die zur Rabattierung der Position geführt haben. Immer "NULL", wenn "&#64;GetAdditionalPriceInfo = 0" ist oder keine Rabattierung vorliegt !
        * </pre>
        *
-       * <code>optional .dstore.values.StringValue surcharge_generated_by_camp_ids = 10019;</code>
+       * <code>.dstore.values.StringValue surcharge_generated_by_camp_ids = 10019;</code>
        */
       public io.dstore.values.StringValueOrBuilder getSurchargeGeneratedByCampIdsOrBuilder() {
         return getSurchargeGeneratedByCampIds();
@@ -5982,7 +5982,7 @@ public final class OmGetPricesPu {
        * Exakter (intern gespeicherter) Wert für "TotalGrossPrice"
        * </pre>
        *
-       * <code>optional .dstore.values.DecimalValue precise_total_gross_price = 10020;</code>
+       * <code>.dstore.values.DecimalValue precise_total_gross_price = 10020;</code>
        */
       public boolean hasPreciseTotalGrossPrice() {
         return preciseTotalGrossPrice_ != null;
@@ -5992,7 +5992,7 @@ public final class OmGetPricesPu {
        * Exakter (intern gespeicherter) Wert für "TotalGrossPrice"
        * </pre>
        *
-       * <code>optional .dstore.values.DecimalValue precise_total_gross_price = 10020;</code>
+       * <code>.dstore.values.DecimalValue precise_total_gross_price = 10020;</code>
        */
       public io.dstore.values.DecimalValue getPreciseTotalGrossPrice() {
         return preciseTotalGrossPrice_ == null ? io.dstore.values.DecimalValue.getDefaultInstance() : preciseTotalGrossPrice_;
@@ -6002,7 +6002,7 @@ public final class OmGetPricesPu {
        * Exakter (intern gespeicherter) Wert für "TotalGrossPrice"
        * </pre>
        *
-       * <code>optional .dstore.values.DecimalValue precise_total_gross_price = 10020;</code>
+       * <code>.dstore.values.DecimalValue precise_total_gross_price = 10020;</code>
        */
       public io.dstore.values.DecimalValueOrBuilder getPreciseTotalGrossPriceOrBuilder() {
         return getPreciseTotalGrossPrice();
@@ -6015,7 +6015,7 @@ public final class OmGetPricesPu {
        * Netto-Preis von "NodeID", wenn man den Artikel EINMAL bestellt (Englischer Spaltenname ist NICHT korrekt, NICHT mehr verwenden !)
        * </pre>
        *
-       * <code>optional .dstore.values.DecimalValue unit_netto_price = 10021;</code>
+       * <code>.dstore.values.DecimalValue unit_netto_price = 10021;</code>
        */
       public boolean hasUnitNettoPrice() {
         return unitNettoPrice_ != null;
@@ -6025,7 +6025,7 @@ public final class OmGetPricesPu {
        * Netto-Preis von "NodeID", wenn man den Artikel EINMAL bestellt (Englischer Spaltenname ist NICHT korrekt, NICHT mehr verwenden !)
        * </pre>
        *
-       * <code>optional .dstore.values.DecimalValue unit_netto_price = 10021;</code>
+       * <code>.dstore.values.DecimalValue unit_netto_price = 10021;</code>
        */
       public io.dstore.values.DecimalValue getUnitNettoPrice() {
         return unitNettoPrice_ == null ? io.dstore.values.DecimalValue.getDefaultInstance() : unitNettoPrice_;
@@ -6035,7 +6035,7 @@ public final class OmGetPricesPu {
        * Netto-Preis von "NodeID", wenn man den Artikel EINMAL bestellt (Englischer Spaltenname ist NICHT korrekt, NICHT mehr verwenden !)
        * </pre>
        *
-       * <code>optional .dstore.values.DecimalValue unit_netto_price = 10021;</code>
+       * <code>.dstore.values.DecimalValue unit_netto_price = 10021;</code>
        */
       public io.dstore.values.DecimalValueOrBuilder getUnitNettoPriceOrBuilder() {
         return getUnitNettoPrice();
@@ -6048,7 +6048,7 @@ public final class OmGetPricesPu {
        * Mehrwertsteuer als "Multiplikator". D.h. beträgt die Mehrwertsteuer z.B. "16 %", steht hier der Wert "1.16".
        * </pre>
        *
-       * <code>optional .dstore.values.DecimalValue taxes_multiplier = 10022;</code>
+       * <code>.dstore.values.DecimalValue taxes_multiplier = 10022;</code>
        */
       public boolean hasTaxesMultiplier() {
         return taxesMultiplier_ != null;
@@ -6058,7 +6058,7 @@ public final class OmGetPricesPu {
        * Mehrwertsteuer als "Multiplikator". D.h. beträgt die Mehrwertsteuer z.B. "16 %", steht hier der Wert "1.16".
        * </pre>
        *
-       * <code>optional .dstore.values.DecimalValue taxes_multiplier = 10022;</code>
+       * <code>.dstore.values.DecimalValue taxes_multiplier = 10022;</code>
        */
       public io.dstore.values.DecimalValue getTaxesMultiplier() {
         return taxesMultiplier_ == null ? io.dstore.values.DecimalValue.getDefaultInstance() : taxesMultiplier_;
@@ -6068,7 +6068,7 @@ public final class OmGetPricesPu {
        * Mehrwertsteuer als "Multiplikator". D.h. beträgt die Mehrwertsteuer z.B. "16 %", steht hier der Wert "1.16".
        * </pre>
        *
-       * <code>optional .dstore.values.DecimalValue taxes_multiplier = 10022;</code>
+       * <code>.dstore.values.DecimalValue taxes_multiplier = 10022;</code>
        */
       public io.dstore.values.DecimalValueOrBuilder getTaxesMultiplierOrBuilder() {
         return getTaxesMultiplier();
@@ -6081,7 +6081,7 @@ public final class OmGetPricesPu {
        * Exakter (intern gespeicherter) Wert für "AbsoluteTotalGrossSurcharge"
        * </pre>
        *
-       * <code>optional .dstore.values.DecimalValue precise_abs_total_gross_surcharge = 10023;</code>
+       * <code>.dstore.values.DecimalValue precise_abs_total_gross_surcharge = 10023;</code>
        */
       public boolean hasPreciseAbsTotalGrossSurcharge() {
         return preciseAbsTotalGrossSurcharge_ != null;
@@ -6091,7 +6091,7 @@ public final class OmGetPricesPu {
        * Exakter (intern gespeicherter) Wert für "AbsoluteTotalGrossSurcharge"
        * </pre>
        *
-       * <code>optional .dstore.values.DecimalValue precise_abs_total_gross_surcharge = 10023;</code>
+       * <code>.dstore.values.DecimalValue precise_abs_total_gross_surcharge = 10023;</code>
        */
       public io.dstore.values.DecimalValue getPreciseAbsTotalGrossSurcharge() {
         return preciseAbsTotalGrossSurcharge_ == null ? io.dstore.values.DecimalValue.getDefaultInstance() : preciseAbsTotalGrossSurcharge_;
@@ -6101,7 +6101,7 @@ public final class OmGetPricesPu {
        * Exakter (intern gespeicherter) Wert für "AbsoluteTotalGrossSurcharge"
        * </pre>
        *
-       * <code>optional .dstore.values.DecimalValue precise_abs_total_gross_surcharge = 10023;</code>
+       * <code>.dstore.values.DecimalValue precise_abs_total_gross_surcharge = 10023;</code>
        */
       public io.dstore.values.DecimalValueOrBuilder getPreciseAbsTotalGrossSurchargeOrBuilder() {
         return getPreciseAbsTotalGrossSurcharge();
@@ -6114,7 +6114,7 @@ public final class OmGetPricesPu {
        * Exakter (intern gespeicherter) Wert für "AbsoluteTotalNetSurcharge"
        * </pre>
        *
-       * <code>optional .dstore.values.DecimalValue precise_abs_total_net_surcharge = 10024;</code>
+       * <code>.dstore.values.DecimalValue precise_abs_total_net_surcharge = 10024;</code>
        */
       public boolean hasPreciseAbsTotalNetSurcharge() {
         return preciseAbsTotalNetSurcharge_ != null;
@@ -6124,7 +6124,7 @@ public final class OmGetPricesPu {
        * Exakter (intern gespeicherter) Wert für "AbsoluteTotalNetSurcharge"
        * </pre>
        *
-       * <code>optional .dstore.values.DecimalValue precise_abs_total_net_surcharge = 10024;</code>
+       * <code>.dstore.values.DecimalValue precise_abs_total_net_surcharge = 10024;</code>
        */
       public io.dstore.values.DecimalValue getPreciseAbsTotalNetSurcharge() {
         return preciseAbsTotalNetSurcharge_ == null ? io.dstore.values.DecimalValue.getDefaultInstance() : preciseAbsTotalNetSurcharge_;
@@ -6134,7 +6134,7 @@ public final class OmGetPricesPu {
        * Exakter (intern gespeicherter) Wert für "AbsoluteTotalNetSurcharge"
        * </pre>
        *
-       * <code>optional .dstore.values.DecimalValue precise_abs_total_net_surcharge = 10024;</code>
+       * <code>.dstore.values.DecimalValue precise_abs_total_net_surcharge = 10024;</code>
        */
       public io.dstore.values.DecimalValueOrBuilder getPreciseAbsTotalNetSurchargeOrBuilder() {
         return getPreciseAbsTotalNetSurcharge();
@@ -6147,7 +6147,7 @@ public final class OmGetPricesPu {
        * Netto-Preis von "NodeID", wenn man den Artikel "Quantity-Mal" bestellt
        * </pre>
        *
-       * <code>optional .dstore.values.DecimalValue total_net_price = 10025;</code>
+       * <code>.dstore.values.DecimalValue total_net_price = 10025;</code>
        */
       public boolean hasTotalNetPrice() {
         return totalNetPrice_ != null;
@@ -6157,7 +6157,7 @@ public final class OmGetPricesPu {
        * Netto-Preis von "NodeID", wenn man den Artikel "Quantity-Mal" bestellt
        * </pre>
        *
-       * <code>optional .dstore.values.DecimalValue total_net_price = 10025;</code>
+       * <code>.dstore.values.DecimalValue total_net_price = 10025;</code>
        */
       public io.dstore.values.DecimalValue getTotalNetPrice() {
         return totalNetPrice_ == null ? io.dstore.values.DecimalValue.getDefaultInstance() : totalNetPrice_;
@@ -6167,7 +6167,7 @@ public final class OmGetPricesPu {
        * Netto-Preis von "NodeID", wenn man den Artikel "Quantity-Mal" bestellt
        * </pre>
        *
-       * <code>optional .dstore.values.DecimalValue total_net_price = 10025;</code>
+       * <code>.dstore.values.DecimalValue total_net_price = 10025;</code>
        */
       public io.dstore.values.DecimalValueOrBuilder getTotalNetPriceOrBuilder() {
         return getTotalNetPrice();
@@ -6180,7 +6180,7 @@ public final class OmGetPricesPu {
        * Wieviel von dem Artikel bestellt werden soll. Hier steht also entweder die Zahl, die in "&#64;Quantities" angegeben wurde, oder "1".
        * </pre>
        *
-       * <code>optional .dstore.values.IntegerValue quantity = 10026;</code>
+       * <code>.dstore.values.IntegerValue quantity = 10026;</code>
        */
       public boolean hasQuantity() {
         return quantity_ != null;
@@ -6190,7 +6190,7 @@ public final class OmGetPricesPu {
        * Wieviel von dem Artikel bestellt werden soll. Hier steht also entweder die Zahl, die in "&#64;Quantities" angegeben wurde, oder "1".
        * </pre>
        *
-       * <code>optional .dstore.values.IntegerValue quantity = 10026;</code>
+       * <code>.dstore.values.IntegerValue quantity = 10026;</code>
        */
       public io.dstore.values.IntegerValue getQuantity() {
         return quantity_ == null ? io.dstore.values.IntegerValue.getDefaultInstance() : quantity_;
@@ -6200,7 +6200,7 @@ public final class OmGetPricesPu {
        * Wieviel von dem Artikel bestellt werden soll. Hier steht also entweder die Zahl, die in "&#64;Quantities" angegeben wurde, oder "1".
        * </pre>
        *
-       * <code>optional .dstore.values.IntegerValue quantity = 10026;</code>
+       * <code>.dstore.values.IntegerValue quantity = 10026;</code>
        */
       public io.dstore.values.IntegerValueOrBuilder getQuantityOrBuilder() {
         return getQuantity();
@@ -6213,7 +6213,7 @@ public final class OmGetPricesPu {
        * Durch ein "," getrennte Liste von Listen, deren Werte wiederum durch "&amp;" getrennt sind, und ein Wert die Form &lt;Menge&gt;x&lt;BundleItemSetID&gt; hat. Dies besagt jeweils, wieviel (&lt;Menge&gt;) von "Quantity" der "TreeNodeID" zu der "&lt;ItemSetID&gt;" des Bundles gehört.
        * </pre>
        *
-       * <code>optional .dstore.values.StringValue quantity_per_bundle_item_set_id_list = 10027;</code>
+       * <code>.dstore.values.StringValue quantity_per_bundle_item_set_id_list = 10027;</code>
        */
       public boolean hasQuantityPerBundleItemSetIdList() {
         return quantityPerBundleItemSetIdList_ != null;
@@ -6223,7 +6223,7 @@ public final class OmGetPricesPu {
        * Durch ein "," getrennte Liste von Listen, deren Werte wiederum durch "&amp;" getrennt sind, und ein Wert die Form &lt;Menge&gt;x&lt;BundleItemSetID&gt; hat. Dies besagt jeweils, wieviel (&lt;Menge&gt;) von "Quantity" der "TreeNodeID" zu der "&lt;ItemSetID&gt;" des Bundles gehört.
        * </pre>
        *
-       * <code>optional .dstore.values.StringValue quantity_per_bundle_item_set_id_list = 10027;</code>
+       * <code>.dstore.values.StringValue quantity_per_bundle_item_set_id_list = 10027;</code>
        */
       public io.dstore.values.StringValue getQuantityPerBundleItemSetIdList() {
         return quantityPerBundleItemSetIdList_ == null ? io.dstore.values.StringValue.getDefaultInstance() : quantityPerBundleItemSetIdList_;
@@ -6233,7 +6233,7 @@ public final class OmGetPricesPu {
        * Durch ein "," getrennte Liste von Listen, deren Werte wiederum durch "&amp;" getrennt sind, und ein Wert die Form &lt;Menge&gt;x&lt;BundleItemSetID&gt; hat. Dies besagt jeweils, wieviel (&lt;Menge&gt;) von "Quantity" der "TreeNodeID" zu der "&lt;ItemSetID&gt;" des Bundles gehört.
        * </pre>
        *
-       * <code>optional .dstore.values.StringValue quantity_per_bundle_item_set_id_list = 10027;</code>
+       * <code>.dstore.values.StringValue quantity_per_bundle_item_set_id_list = 10027;</code>
        */
       public io.dstore.values.StringValueOrBuilder getQuantityPerBundleItemSetIdListOrBuilder() {
         return getQuantityPerBundleItemSetIdList();
@@ -6246,7 +6246,7 @@ public final class OmGetPricesPu {
        * Der Wert des Aufschlags bzw. Rabattes, der verwendet wurde. Ist die "SurchargeTypeID" relativ definiert, entspricht dieser Wert dem in "RelativeSurcharge", andernfalls dem Wert in "AbsoluteUnitNetSurcharge" bzw. "AbsoluteUnitGrossSurcharge"
        * </pre>
        *
-       * <code>optional .dstore.values.DecimalValue surcharge_value = 10028;</code>
+       * <code>.dstore.values.DecimalValue surcharge_value = 10028;</code>
        */
       public boolean hasSurchargeValue() {
         return surchargeValue_ != null;
@@ -6256,7 +6256,7 @@ public final class OmGetPricesPu {
        * Der Wert des Aufschlags bzw. Rabattes, der verwendet wurde. Ist die "SurchargeTypeID" relativ definiert, entspricht dieser Wert dem in "RelativeSurcharge", andernfalls dem Wert in "AbsoluteUnitNetSurcharge" bzw. "AbsoluteUnitGrossSurcharge"
        * </pre>
        *
-       * <code>optional .dstore.values.DecimalValue surcharge_value = 10028;</code>
+       * <code>.dstore.values.DecimalValue surcharge_value = 10028;</code>
        */
       public io.dstore.values.DecimalValue getSurchargeValue() {
         return surchargeValue_ == null ? io.dstore.values.DecimalValue.getDefaultInstance() : surchargeValue_;
@@ -6266,7 +6266,7 @@ public final class OmGetPricesPu {
        * Der Wert des Aufschlags bzw. Rabattes, der verwendet wurde. Ist die "SurchargeTypeID" relativ definiert, entspricht dieser Wert dem in "RelativeSurcharge", andernfalls dem Wert in "AbsoluteUnitNetSurcharge" bzw. "AbsoluteUnitGrossSurcharge"
        * </pre>
        *
-       * <code>optional .dstore.values.DecimalValue surcharge_value = 10028;</code>
+       * <code>.dstore.values.DecimalValue surcharge_value = 10028;</code>
        */
       public io.dstore.values.DecimalValueOrBuilder getSurchargeValueOrBuilder() {
         return getSurchargeValue();
@@ -6279,7 +6279,7 @@ public final class OmGetPricesPu {
        * Absoluter Rabatt/Aufschlag, der in "UnitNetPrice" bereits ENTHALTEN ist
        * </pre>
        *
-       * <code>optional .dstore.values.DecimalValue absolute_unit_net_surcharge = 10029;</code>
+       * <code>.dstore.values.DecimalValue absolute_unit_net_surcharge = 10029;</code>
        */
       public boolean hasAbsoluteUnitNetSurcharge() {
         return absoluteUnitNetSurcharge_ != null;
@@ -6289,7 +6289,7 @@ public final class OmGetPricesPu {
        * Absoluter Rabatt/Aufschlag, der in "UnitNetPrice" bereits ENTHALTEN ist
        * </pre>
        *
-       * <code>optional .dstore.values.DecimalValue absolute_unit_net_surcharge = 10029;</code>
+       * <code>.dstore.values.DecimalValue absolute_unit_net_surcharge = 10029;</code>
        */
       public io.dstore.values.DecimalValue getAbsoluteUnitNetSurcharge() {
         return absoluteUnitNetSurcharge_ == null ? io.dstore.values.DecimalValue.getDefaultInstance() : absoluteUnitNetSurcharge_;
@@ -6299,7 +6299,7 @@ public final class OmGetPricesPu {
        * Absoluter Rabatt/Aufschlag, der in "UnitNetPrice" bereits ENTHALTEN ist
        * </pre>
        *
-       * <code>optional .dstore.values.DecimalValue absolute_unit_net_surcharge = 10029;</code>
+       * <code>.dstore.values.DecimalValue absolute_unit_net_surcharge = 10029;</code>
        */
       public io.dstore.values.DecimalValueOrBuilder getAbsoluteUnitNetSurchargeOrBuilder() {
         return getAbsoluteUnitNetSurcharge();
@@ -6312,7 +6312,7 @@ public final class OmGetPricesPu {
        * Absoluter Rabatt/Aufschlag, der in "UnitGrossPrice" bereits ENTHALTEN ist (Englischer Spaltenname ist NICHT korrekt, NICHT mehr verwenden !)
        * </pre>
        *
-       * <code>optional .dstore.values.DecimalValue absolute_unit_brutto_surcharge = 10030;</code>
+       * <code>.dstore.values.DecimalValue absolute_unit_brutto_surcharge = 10030;</code>
        */
       public boolean hasAbsoluteUnitBruttoSurcharge() {
         return absoluteUnitBruttoSurcharge_ != null;
@@ -6322,7 +6322,7 @@ public final class OmGetPricesPu {
        * Absoluter Rabatt/Aufschlag, der in "UnitGrossPrice" bereits ENTHALTEN ist (Englischer Spaltenname ist NICHT korrekt, NICHT mehr verwenden !)
        * </pre>
        *
-       * <code>optional .dstore.values.DecimalValue absolute_unit_brutto_surcharge = 10030;</code>
+       * <code>.dstore.values.DecimalValue absolute_unit_brutto_surcharge = 10030;</code>
        */
       public io.dstore.values.DecimalValue getAbsoluteUnitBruttoSurcharge() {
         return absoluteUnitBruttoSurcharge_ == null ? io.dstore.values.DecimalValue.getDefaultInstance() : absoluteUnitBruttoSurcharge_;
@@ -6332,7 +6332,7 @@ public final class OmGetPricesPu {
        * Absoluter Rabatt/Aufschlag, der in "UnitGrossPrice" bereits ENTHALTEN ist (Englischer Spaltenname ist NICHT korrekt, NICHT mehr verwenden !)
        * </pre>
        *
-       * <code>optional .dstore.values.DecimalValue absolute_unit_brutto_surcharge = 10030;</code>
+       * <code>.dstore.values.DecimalValue absolute_unit_brutto_surcharge = 10030;</code>
        */
       public io.dstore.values.DecimalValueOrBuilder getAbsoluteUnitBruttoSurchargeOrBuilder() {
         return getAbsoluteUnitBruttoSurcharge();
@@ -6345,7 +6345,7 @@ public final class OmGetPricesPu {
        * Absoluter Rabatt/Aufschlag, der in "UnitGrossPrice" bereits ENTHALTEN ist
        * </pre>
        *
-       * <code>optional .dstore.values.DecimalValue absolute_unit_gross_surcharge = 10031;</code>
+       * <code>.dstore.values.DecimalValue absolute_unit_gross_surcharge = 10031;</code>
        */
       public boolean hasAbsoluteUnitGrossSurcharge() {
         return absoluteUnitGrossSurcharge_ != null;
@@ -6355,7 +6355,7 @@ public final class OmGetPricesPu {
        * Absoluter Rabatt/Aufschlag, der in "UnitGrossPrice" bereits ENTHALTEN ist
        * </pre>
        *
-       * <code>optional .dstore.values.DecimalValue absolute_unit_gross_surcharge = 10031;</code>
+       * <code>.dstore.values.DecimalValue absolute_unit_gross_surcharge = 10031;</code>
        */
       public io.dstore.values.DecimalValue getAbsoluteUnitGrossSurcharge() {
         return absoluteUnitGrossSurcharge_ == null ? io.dstore.values.DecimalValue.getDefaultInstance() : absoluteUnitGrossSurcharge_;
@@ -6365,7 +6365,7 @@ public final class OmGetPricesPu {
        * Absoluter Rabatt/Aufschlag, der in "UnitGrossPrice" bereits ENTHALTEN ist
        * </pre>
        *
-       * <code>optional .dstore.values.DecimalValue absolute_unit_gross_surcharge = 10031;</code>
+       * <code>.dstore.values.DecimalValue absolute_unit_gross_surcharge = 10031;</code>
        */
       public io.dstore.values.DecimalValueOrBuilder getAbsoluteUnitGrossSurchargeOrBuilder() {
         return getAbsoluteUnitGrossSurcharge();
@@ -6378,7 +6378,7 @@ public final class OmGetPricesPu {
        * Exakter (intern gespeicherter) Wert für "TotalNetPrice"
        * </pre>
        *
-       * <code>optional .dstore.values.DecimalValue precise_total_net_price = 10032;</code>
+       * <code>.dstore.values.DecimalValue precise_total_net_price = 10032;</code>
        */
       public boolean hasPreciseTotalNetPrice() {
         return preciseTotalNetPrice_ != null;
@@ -6388,7 +6388,7 @@ public final class OmGetPricesPu {
        * Exakter (intern gespeicherter) Wert für "TotalNetPrice"
        * </pre>
        *
-       * <code>optional .dstore.values.DecimalValue precise_total_net_price = 10032;</code>
+       * <code>.dstore.values.DecimalValue precise_total_net_price = 10032;</code>
        */
       public io.dstore.values.DecimalValue getPreciseTotalNetPrice() {
         return preciseTotalNetPrice_ == null ? io.dstore.values.DecimalValue.getDefaultInstance() : preciseTotalNetPrice_;
@@ -6398,7 +6398,7 @@ public final class OmGetPricesPu {
        * Exakter (intern gespeicherter) Wert für "TotalNetPrice"
        * </pre>
        *
-       * <code>optional .dstore.values.DecimalValue precise_total_net_price = 10032;</code>
+       * <code>.dstore.values.DecimalValue precise_total_net_price = 10032;</code>
        */
       public io.dstore.values.DecimalValueOrBuilder getPreciseTotalNetPriceOrBuilder() {
         return getPreciseTotalNetPrice();
@@ -6411,7 +6411,7 @@ public final class OmGetPricesPu {
        * ID einer Preis-Aufschlags/Rabatt-Art, die ermittelt und bei der Preis-Ermittlung angewandt wurde
        * </pre>
        *
-       * <code>optional .dstore.values.IntegerValue surcharge_type_id = 10033;</code>
+       * <code>.dstore.values.IntegerValue surcharge_type_id = 10033;</code>
        */
       public boolean hasSurchargeTypeId() {
         return surchargeTypeId_ != null;
@@ -6421,7 +6421,7 @@ public final class OmGetPricesPu {
        * ID einer Preis-Aufschlags/Rabatt-Art, die ermittelt und bei der Preis-Ermittlung angewandt wurde
        * </pre>
        *
-       * <code>optional .dstore.values.IntegerValue surcharge_type_id = 10033;</code>
+       * <code>.dstore.values.IntegerValue surcharge_type_id = 10033;</code>
        */
       public io.dstore.values.IntegerValue getSurchargeTypeId() {
         return surchargeTypeId_ == null ? io.dstore.values.IntegerValue.getDefaultInstance() : surchargeTypeId_;
@@ -6431,7 +6431,7 @@ public final class OmGetPricesPu {
        * ID einer Preis-Aufschlags/Rabatt-Art, die ermittelt und bei der Preis-Ermittlung angewandt wurde
        * </pre>
        *
-       * <code>optional .dstore.values.IntegerValue surcharge_type_id = 10033;</code>
+       * <code>.dstore.values.IntegerValue surcharge_type_id = 10033;</code>
        */
       public io.dstore.values.IntegerValueOrBuilder getSurchargeTypeIdOrBuilder() {
         return getSurchargeTypeId();
@@ -6444,7 +6444,7 @@ public final class OmGetPricesPu {
        * Exakter (intern gespeicherter) Wert für "UnitNetPrice"
        * </pre>
        *
-       * <code>optional .dstore.values.DecimalValue precise_unit_net_price = 10034;</code>
+       * <code>.dstore.values.DecimalValue precise_unit_net_price = 10034;</code>
        */
       public boolean hasPreciseUnitNetPrice() {
         return preciseUnitNetPrice_ != null;
@@ -6454,7 +6454,7 @@ public final class OmGetPricesPu {
        * Exakter (intern gespeicherter) Wert für "UnitNetPrice"
        * </pre>
        *
-       * <code>optional .dstore.values.DecimalValue precise_unit_net_price = 10034;</code>
+       * <code>.dstore.values.DecimalValue precise_unit_net_price = 10034;</code>
        */
       public io.dstore.values.DecimalValue getPreciseUnitNetPrice() {
         return preciseUnitNetPrice_ == null ? io.dstore.values.DecimalValue.getDefaultInstance() : preciseUnitNetPrice_;
@@ -6464,7 +6464,7 @@ public final class OmGetPricesPu {
        * Exakter (intern gespeicherter) Wert für "UnitNetPrice"
        * </pre>
        *
-       * <code>optional .dstore.values.DecimalValue precise_unit_net_price = 10034;</code>
+       * <code>.dstore.values.DecimalValue precise_unit_net_price = 10034;</code>
        */
       public io.dstore.values.DecimalValueOrBuilder getPreciseUnitNetPriceOrBuilder() {
         return getPreciseUnitNetPrice();
@@ -6477,7 +6477,7 @@ public final class OmGetPricesPu {
        * Brutto-Preis von "NodeID", wenn man den Artikel "Quantity-Mal" bestellt
        * </pre>
        *
-       * <code>optional .dstore.values.DecimalValue total_gross_price = 10035;</code>
+       * <code>.dstore.values.DecimalValue total_gross_price = 10035;</code>
        */
       public boolean hasTotalGrossPrice() {
         return totalGrossPrice_ != null;
@@ -6487,7 +6487,7 @@ public final class OmGetPricesPu {
        * Brutto-Preis von "NodeID", wenn man den Artikel "Quantity-Mal" bestellt
        * </pre>
        *
-       * <code>optional .dstore.values.DecimalValue total_gross_price = 10035;</code>
+       * <code>.dstore.values.DecimalValue total_gross_price = 10035;</code>
        */
       public io.dstore.values.DecimalValue getTotalGrossPrice() {
         return totalGrossPrice_ == null ? io.dstore.values.DecimalValue.getDefaultInstance() : totalGrossPrice_;
@@ -6497,7 +6497,7 @@ public final class OmGetPricesPu {
        * Brutto-Preis von "NodeID", wenn man den Artikel "Quantity-Mal" bestellt
        * </pre>
        *
-       * <code>optional .dstore.values.DecimalValue total_gross_price = 10035;</code>
+       * <code>.dstore.values.DecimalValue total_gross_price = 10035;</code>
        */
       public io.dstore.values.DecimalValueOrBuilder getTotalGrossPriceOrBuilder() {
         return getTotalGrossPrice();
@@ -6976,7 +6976,7 @@ public final class OmGetPricesPu {
           return memoizedHashCode;
         }
         int hash = 41;
-        hash = (19 * hash) + getDescriptorForType().hashCode();
+        hash = (19 * hash) + getDescriptor().hashCode();
         hash = (37 * hash) + ROW_ID_FIELD_NUMBER;
         hash = (53 * hash) + getRowId();
         if (hasTotalNettoPrice()) {
@@ -7824,13 +7824,13 @@ public final class OmGetPricesPu {
 
         private int rowId_ ;
         /**
-         * <code>optional int32 row_id = 10000;</code>
+         * <code>int32 row_id = 10000;</code>
          */
         public int getRowId() {
           return rowId_;
         }
         /**
-         * <code>optional int32 row_id = 10000;</code>
+         * <code>int32 row_id = 10000;</code>
          */
         public Builder setRowId(int value) {
           
@@ -7839,7 +7839,7 @@ public final class OmGetPricesPu {
           return this;
         }
         /**
-         * <code>optional int32 row_id = 10000;</code>
+         * <code>int32 row_id = 10000;</code>
          */
         public Builder clearRowId() {
           
@@ -7856,7 +7856,7 @@ public final class OmGetPricesPu {
          * Netto-Preis von "NodeID", wenn man den Artikel "Quantity-Mal" bestellt (Englischer Spaltenname ist NICHT korrekt, NICHT mehr verwenden !)
          * </pre>
          *
-         * <code>optional .dstore.values.DecimalValue total_netto_price = 10001;</code>
+         * <code>.dstore.values.DecimalValue total_netto_price = 10001;</code>
          */
         public boolean hasTotalNettoPrice() {
           return totalNettoPriceBuilder_ != null || totalNettoPrice_ != null;
@@ -7866,7 +7866,7 @@ public final class OmGetPricesPu {
          * Netto-Preis von "NodeID", wenn man den Artikel "Quantity-Mal" bestellt (Englischer Spaltenname ist NICHT korrekt, NICHT mehr verwenden !)
          * </pre>
          *
-         * <code>optional .dstore.values.DecimalValue total_netto_price = 10001;</code>
+         * <code>.dstore.values.DecimalValue total_netto_price = 10001;</code>
          */
         public io.dstore.values.DecimalValue getTotalNettoPrice() {
           if (totalNettoPriceBuilder_ == null) {
@@ -7880,7 +7880,7 @@ public final class OmGetPricesPu {
          * Netto-Preis von "NodeID", wenn man den Artikel "Quantity-Mal" bestellt (Englischer Spaltenname ist NICHT korrekt, NICHT mehr verwenden !)
          * </pre>
          *
-         * <code>optional .dstore.values.DecimalValue total_netto_price = 10001;</code>
+         * <code>.dstore.values.DecimalValue total_netto_price = 10001;</code>
          */
         public Builder setTotalNettoPrice(io.dstore.values.DecimalValue value) {
           if (totalNettoPriceBuilder_ == null) {
@@ -7900,7 +7900,7 @@ public final class OmGetPricesPu {
          * Netto-Preis von "NodeID", wenn man den Artikel "Quantity-Mal" bestellt (Englischer Spaltenname ist NICHT korrekt, NICHT mehr verwenden !)
          * </pre>
          *
-         * <code>optional .dstore.values.DecimalValue total_netto_price = 10001;</code>
+         * <code>.dstore.values.DecimalValue total_netto_price = 10001;</code>
          */
         public Builder setTotalNettoPrice(
             io.dstore.values.DecimalValue.Builder builderForValue) {
@@ -7918,7 +7918,7 @@ public final class OmGetPricesPu {
          * Netto-Preis von "NodeID", wenn man den Artikel "Quantity-Mal" bestellt (Englischer Spaltenname ist NICHT korrekt, NICHT mehr verwenden !)
          * </pre>
          *
-         * <code>optional .dstore.values.DecimalValue total_netto_price = 10001;</code>
+         * <code>.dstore.values.DecimalValue total_netto_price = 10001;</code>
          */
         public Builder mergeTotalNettoPrice(io.dstore.values.DecimalValue value) {
           if (totalNettoPriceBuilder_ == null) {
@@ -7940,7 +7940,7 @@ public final class OmGetPricesPu {
          * Netto-Preis von "NodeID", wenn man den Artikel "Quantity-Mal" bestellt (Englischer Spaltenname ist NICHT korrekt, NICHT mehr verwenden !)
          * </pre>
          *
-         * <code>optional .dstore.values.DecimalValue total_netto_price = 10001;</code>
+         * <code>.dstore.values.DecimalValue total_netto_price = 10001;</code>
          */
         public Builder clearTotalNettoPrice() {
           if (totalNettoPriceBuilder_ == null) {
@@ -7958,7 +7958,7 @@ public final class OmGetPricesPu {
          * Netto-Preis von "NodeID", wenn man den Artikel "Quantity-Mal" bestellt (Englischer Spaltenname ist NICHT korrekt, NICHT mehr verwenden !)
          * </pre>
          *
-         * <code>optional .dstore.values.DecimalValue total_netto_price = 10001;</code>
+         * <code>.dstore.values.DecimalValue total_netto_price = 10001;</code>
          */
         public io.dstore.values.DecimalValue.Builder getTotalNettoPriceBuilder() {
           
@@ -7970,7 +7970,7 @@ public final class OmGetPricesPu {
          * Netto-Preis von "NodeID", wenn man den Artikel "Quantity-Mal" bestellt (Englischer Spaltenname ist NICHT korrekt, NICHT mehr verwenden !)
          * </pre>
          *
-         * <code>optional .dstore.values.DecimalValue total_netto_price = 10001;</code>
+         * <code>.dstore.values.DecimalValue total_netto_price = 10001;</code>
          */
         public io.dstore.values.DecimalValueOrBuilder getTotalNettoPriceOrBuilder() {
           if (totalNettoPriceBuilder_ != null) {
@@ -7985,7 +7985,7 @@ public final class OmGetPricesPu {
          * Netto-Preis von "NodeID", wenn man den Artikel "Quantity-Mal" bestellt (Englischer Spaltenname ist NICHT korrekt, NICHT mehr verwenden !)
          * </pre>
          *
-         * <code>optional .dstore.values.DecimalValue total_netto_price = 10001;</code>
+         * <code>.dstore.values.DecimalValue total_netto_price = 10001;</code>
          */
         private com.google.protobuf.SingleFieldBuilderV3<
             io.dstore.values.DecimalValue, io.dstore.values.DecimalValue.Builder, io.dstore.values.DecimalValueOrBuilder> 
@@ -8009,7 +8009,7 @@ public final class OmGetPricesPu {
          * Exakter (intern gespeicherter) Wert für "AbsoluteUnitGrossSurcharge"
          * </pre>
          *
-         * <code>optional .dstore.values.DecimalValue precise_abs_unit_gross_surcharge = 10002;</code>
+         * <code>.dstore.values.DecimalValue precise_abs_unit_gross_surcharge = 10002;</code>
          */
         public boolean hasPreciseAbsUnitGrossSurcharge() {
           return preciseAbsUnitGrossSurchargeBuilder_ != null || preciseAbsUnitGrossSurcharge_ != null;
@@ -8019,7 +8019,7 @@ public final class OmGetPricesPu {
          * Exakter (intern gespeicherter) Wert für "AbsoluteUnitGrossSurcharge"
          * </pre>
          *
-         * <code>optional .dstore.values.DecimalValue precise_abs_unit_gross_surcharge = 10002;</code>
+         * <code>.dstore.values.DecimalValue precise_abs_unit_gross_surcharge = 10002;</code>
          */
         public io.dstore.values.DecimalValue getPreciseAbsUnitGrossSurcharge() {
           if (preciseAbsUnitGrossSurchargeBuilder_ == null) {
@@ -8033,7 +8033,7 @@ public final class OmGetPricesPu {
          * Exakter (intern gespeicherter) Wert für "AbsoluteUnitGrossSurcharge"
          * </pre>
          *
-         * <code>optional .dstore.values.DecimalValue precise_abs_unit_gross_surcharge = 10002;</code>
+         * <code>.dstore.values.DecimalValue precise_abs_unit_gross_surcharge = 10002;</code>
          */
         public Builder setPreciseAbsUnitGrossSurcharge(io.dstore.values.DecimalValue value) {
           if (preciseAbsUnitGrossSurchargeBuilder_ == null) {
@@ -8053,7 +8053,7 @@ public final class OmGetPricesPu {
          * Exakter (intern gespeicherter) Wert für "AbsoluteUnitGrossSurcharge"
          * </pre>
          *
-         * <code>optional .dstore.values.DecimalValue precise_abs_unit_gross_surcharge = 10002;</code>
+         * <code>.dstore.values.DecimalValue precise_abs_unit_gross_surcharge = 10002;</code>
          */
         public Builder setPreciseAbsUnitGrossSurcharge(
             io.dstore.values.DecimalValue.Builder builderForValue) {
@@ -8071,7 +8071,7 @@ public final class OmGetPricesPu {
          * Exakter (intern gespeicherter) Wert für "AbsoluteUnitGrossSurcharge"
          * </pre>
          *
-         * <code>optional .dstore.values.DecimalValue precise_abs_unit_gross_surcharge = 10002;</code>
+         * <code>.dstore.values.DecimalValue precise_abs_unit_gross_surcharge = 10002;</code>
          */
         public Builder mergePreciseAbsUnitGrossSurcharge(io.dstore.values.DecimalValue value) {
           if (preciseAbsUnitGrossSurchargeBuilder_ == null) {
@@ -8093,7 +8093,7 @@ public final class OmGetPricesPu {
          * Exakter (intern gespeicherter) Wert für "AbsoluteUnitGrossSurcharge"
          * </pre>
          *
-         * <code>optional .dstore.values.DecimalValue precise_abs_unit_gross_surcharge = 10002;</code>
+         * <code>.dstore.values.DecimalValue precise_abs_unit_gross_surcharge = 10002;</code>
          */
         public Builder clearPreciseAbsUnitGrossSurcharge() {
           if (preciseAbsUnitGrossSurchargeBuilder_ == null) {
@@ -8111,7 +8111,7 @@ public final class OmGetPricesPu {
          * Exakter (intern gespeicherter) Wert für "AbsoluteUnitGrossSurcharge"
          * </pre>
          *
-         * <code>optional .dstore.values.DecimalValue precise_abs_unit_gross_surcharge = 10002;</code>
+         * <code>.dstore.values.DecimalValue precise_abs_unit_gross_surcharge = 10002;</code>
          */
         public io.dstore.values.DecimalValue.Builder getPreciseAbsUnitGrossSurchargeBuilder() {
           
@@ -8123,7 +8123,7 @@ public final class OmGetPricesPu {
          * Exakter (intern gespeicherter) Wert für "AbsoluteUnitGrossSurcharge"
          * </pre>
          *
-         * <code>optional .dstore.values.DecimalValue precise_abs_unit_gross_surcharge = 10002;</code>
+         * <code>.dstore.values.DecimalValue precise_abs_unit_gross_surcharge = 10002;</code>
          */
         public io.dstore.values.DecimalValueOrBuilder getPreciseAbsUnitGrossSurchargeOrBuilder() {
           if (preciseAbsUnitGrossSurchargeBuilder_ != null) {
@@ -8138,7 +8138,7 @@ public final class OmGetPricesPu {
          * Exakter (intern gespeicherter) Wert für "AbsoluteUnitGrossSurcharge"
          * </pre>
          *
-         * <code>optional .dstore.values.DecimalValue precise_abs_unit_gross_surcharge = 10002;</code>
+         * <code>.dstore.values.DecimalValue precise_abs_unit_gross_surcharge = 10002;</code>
          */
         private com.google.protobuf.SingleFieldBuilderV3<
             io.dstore.values.DecimalValue, io.dstore.values.DecimalValue.Builder, io.dstore.values.DecimalValueOrBuilder> 
@@ -8162,7 +8162,7 @@ public final class OmGetPricesPu {
          * Merkmal-ID, die den Preis bestimmt hat (genauer : die Eigenschaft von "TreeNodeID" zu diesem Merkmal hat den Preis bestimmt)
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue price_node_characteristic_id = 10003;</code>
+         * <code>.dstore.values.IntegerValue price_node_characteristic_id = 10003;</code>
          */
         public boolean hasPriceNodeCharacteristicId() {
           return priceNodeCharacteristicIdBuilder_ != null || priceNodeCharacteristicId_ != null;
@@ -8172,7 +8172,7 @@ public final class OmGetPricesPu {
          * Merkmal-ID, die den Preis bestimmt hat (genauer : die Eigenschaft von "TreeNodeID" zu diesem Merkmal hat den Preis bestimmt)
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue price_node_characteristic_id = 10003;</code>
+         * <code>.dstore.values.IntegerValue price_node_characteristic_id = 10003;</code>
          */
         public io.dstore.values.IntegerValue getPriceNodeCharacteristicId() {
           if (priceNodeCharacteristicIdBuilder_ == null) {
@@ -8186,7 +8186,7 @@ public final class OmGetPricesPu {
          * Merkmal-ID, die den Preis bestimmt hat (genauer : die Eigenschaft von "TreeNodeID" zu diesem Merkmal hat den Preis bestimmt)
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue price_node_characteristic_id = 10003;</code>
+         * <code>.dstore.values.IntegerValue price_node_characteristic_id = 10003;</code>
          */
         public Builder setPriceNodeCharacteristicId(io.dstore.values.IntegerValue value) {
           if (priceNodeCharacteristicIdBuilder_ == null) {
@@ -8206,7 +8206,7 @@ public final class OmGetPricesPu {
          * Merkmal-ID, die den Preis bestimmt hat (genauer : die Eigenschaft von "TreeNodeID" zu diesem Merkmal hat den Preis bestimmt)
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue price_node_characteristic_id = 10003;</code>
+         * <code>.dstore.values.IntegerValue price_node_characteristic_id = 10003;</code>
          */
         public Builder setPriceNodeCharacteristicId(
             io.dstore.values.IntegerValue.Builder builderForValue) {
@@ -8224,7 +8224,7 @@ public final class OmGetPricesPu {
          * Merkmal-ID, die den Preis bestimmt hat (genauer : die Eigenschaft von "TreeNodeID" zu diesem Merkmal hat den Preis bestimmt)
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue price_node_characteristic_id = 10003;</code>
+         * <code>.dstore.values.IntegerValue price_node_characteristic_id = 10003;</code>
          */
         public Builder mergePriceNodeCharacteristicId(io.dstore.values.IntegerValue value) {
           if (priceNodeCharacteristicIdBuilder_ == null) {
@@ -8246,7 +8246,7 @@ public final class OmGetPricesPu {
          * Merkmal-ID, die den Preis bestimmt hat (genauer : die Eigenschaft von "TreeNodeID" zu diesem Merkmal hat den Preis bestimmt)
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue price_node_characteristic_id = 10003;</code>
+         * <code>.dstore.values.IntegerValue price_node_characteristic_id = 10003;</code>
          */
         public Builder clearPriceNodeCharacteristicId() {
           if (priceNodeCharacteristicIdBuilder_ == null) {
@@ -8264,7 +8264,7 @@ public final class OmGetPricesPu {
          * Merkmal-ID, die den Preis bestimmt hat (genauer : die Eigenschaft von "TreeNodeID" zu diesem Merkmal hat den Preis bestimmt)
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue price_node_characteristic_id = 10003;</code>
+         * <code>.dstore.values.IntegerValue price_node_characteristic_id = 10003;</code>
          */
         public io.dstore.values.IntegerValue.Builder getPriceNodeCharacteristicIdBuilder() {
           
@@ -8276,7 +8276,7 @@ public final class OmGetPricesPu {
          * Merkmal-ID, die den Preis bestimmt hat (genauer : die Eigenschaft von "TreeNodeID" zu diesem Merkmal hat den Preis bestimmt)
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue price_node_characteristic_id = 10003;</code>
+         * <code>.dstore.values.IntegerValue price_node_characteristic_id = 10003;</code>
          */
         public io.dstore.values.IntegerValueOrBuilder getPriceNodeCharacteristicIdOrBuilder() {
           if (priceNodeCharacteristicIdBuilder_ != null) {
@@ -8291,7 +8291,7 @@ public final class OmGetPricesPu {
          * Merkmal-ID, die den Preis bestimmt hat (genauer : die Eigenschaft von "TreeNodeID" zu diesem Merkmal hat den Preis bestimmt)
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue price_node_characteristic_id = 10003;</code>
+         * <code>.dstore.values.IntegerValue price_node_characteristic_id = 10003;</code>
          */
         private com.google.protobuf.SingleFieldBuilderV3<
             io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> 
@@ -8315,7 +8315,7 @@ public final class OmGetPricesPu {
          * Absoluter Rabatt/Aufschlag, der in "UnitNetPrice" bereits ENTHALTEN ist (Englischer Spaltenname ist NICHT korrekt, NICHT mehr verwenden !)
          * </pre>
          *
-         * <code>optional .dstore.values.DecimalValue absolute_unit_netto_surcharge = 10004;</code>
+         * <code>.dstore.values.DecimalValue absolute_unit_netto_surcharge = 10004;</code>
          */
         public boolean hasAbsoluteUnitNettoSurcharge() {
           return absoluteUnitNettoSurchargeBuilder_ != null || absoluteUnitNettoSurcharge_ != null;
@@ -8325,7 +8325,7 @@ public final class OmGetPricesPu {
          * Absoluter Rabatt/Aufschlag, der in "UnitNetPrice" bereits ENTHALTEN ist (Englischer Spaltenname ist NICHT korrekt, NICHT mehr verwenden !)
          * </pre>
          *
-         * <code>optional .dstore.values.DecimalValue absolute_unit_netto_surcharge = 10004;</code>
+         * <code>.dstore.values.DecimalValue absolute_unit_netto_surcharge = 10004;</code>
          */
         public io.dstore.values.DecimalValue getAbsoluteUnitNettoSurcharge() {
           if (absoluteUnitNettoSurchargeBuilder_ == null) {
@@ -8339,7 +8339,7 @@ public final class OmGetPricesPu {
          * Absoluter Rabatt/Aufschlag, der in "UnitNetPrice" bereits ENTHALTEN ist (Englischer Spaltenname ist NICHT korrekt, NICHT mehr verwenden !)
          * </pre>
          *
-         * <code>optional .dstore.values.DecimalValue absolute_unit_netto_surcharge = 10004;</code>
+         * <code>.dstore.values.DecimalValue absolute_unit_netto_surcharge = 10004;</code>
          */
         public Builder setAbsoluteUnitNettoSurcharge(io.dstore.values.DecimalValue value) {
           if (absoluteUnitNettoSurchargeBuilder_ == null) {
@@ -8359,7 +8359,7 @@ public final class OmGetPricesPu {
          * Absoluter Rabatt/Aufschlag, der in "UnitNetPrice" bereits ENTHALTEN ist (Englischer Spaltenname ist NICHT korrekt, NICHT mehr verwenden !)
          * </pre>
          *
-         * <code>optional .dstore.values.DecimalValue absolute_unit_netto_surcharge = 10004;</code>
+         * <code>.dstore.values.DecimalValue absolute_unit_netto_surcharge = 10004;</code>
          */
         public Builder setAbsoluteUnitNettoSurcharge(
             io.dstore.values.DecimalValue.Builder builderForValue) {
@@ -8377,7 +8377,7 @@ public final class OmGetPricesPu {
          * Absoluter Rabatt/Aufschlag, der in "UnitNetPrice" bereits ENTHALTEN ist (Englischer Spaltenname ist NICHT korrekt, NICHT mehr verwenden !)
          * </pre>
          *
-         * <code>optional .dstore.values.DecimalValue absolute_unit_netto_surcharge = 10004;</code>
+         * <code>.dstore.values.DecimalValue absolute_unit_netto_surcharge = 10004;</code>
          */
         public Builder mergeAbsoluteUnitNettoSurcharge(io.dstore.values.DecimalValue value) {
           if (absoluteUnitNettoSurchargeBuilder_ == null) {
@@ -8399,7 +8399,7 @@ public final class OmGetPricesPu {
          * Absoluter Rabatt/Aufschlag, der in "UnitNetPrice" bereits ENTHALTEN ist (Englischer Spaltenname ist NICHT korrekt, NICHT mehr verwenden !)
          * </pre>
          *
-         * <code>optional .dstore.values.DecimalValue absolute_unit_netto_surcharge = 10004;</code>
+         * <code>.dstore.values.DecimalValue absolute_unit_netto_surcharge = 10004;</code>
          */
         public Builder clearAbsoluteUnitNettoSurcharge() {
           if (absoluteUnitNettoSurchargeBuilder_ == null) {
@@ -8417,7 +8417,7 @@ public final class OmGetPricesPu {
          * Absoluter Rabatt/Aufschlag, der in "UnitNetPrice" bereits ENTHALTEN ist (Englischer Spaltenname ist NICHT korrekt, NICHT mehr verwenden !)
          * </pre>
          *
-         * <code>optional .dstore.values.DecimalValue absolute_unit_netto_surcharge = 10004;</code>
+         * <code>.dstore.values.DecimalValue absolute_unit_netto_surcharge = 10004;</code>
          */
         public io.dstore.values.DecimalValue.Builder getAbsoluteUnitNettoSurchargeBuilder() {
           
@@ -8429,7 +8429,7 @@ public final class OmGetPricesPu {
          * Absoluter Rabatt/Aufschlag, der in "UnitNetPrice" bereits ENTHALTEN ist (Englischer Spaltenname ist NICHT korrekt, NICHT mehr verwenden !)
          * </pre>
          *
-         * <code>optional .dstore.values.DecimalValue absolute_unit_netto_surcharge = 10004;</code>
+         * <code>.dstore.values.DecimalValue absolute_unit_netto_surcharge = 10004;</code>
          */
         public io.dstore.values.DecimalValueOrBuilder getAbsoluteUnitNettoSurchargeOrBuilder() {
           if (absoluteUnitNettoSurchargeBuilder_ != null) {
@@ -8444,7 +8444,7 @@ public final class OmGetPricesPu {
          * Absoluter Rabatt/Aufschlag, der in "UnitNetPrice" bereits ENTHALTEN ist (Englischer Spaltenname ist NICHT korrekt, NICHT mehr verwenden !)
          * </pre>
          *
-         * <code>optional .dstore.values.DecimalValue absolute_unit_netto_surcharge = 10004;</code>
+         * <code>.dstore.values.DecimalValue absolute_unit_netto_surcharge = 10004;</code>
          */
         private com.google.protobuf.SingleFieldBuilderV3<
             io.dstore.values.DecimalValue, io.dstore.values.DecimalValue.Builder, io.dstore.values.DecimalValueOrBuilder> 
@@ -8468,7 +8468,7 @@ public final class OmGetPricesPu {
          * Brutto-Preis von "NodeID", wenn man den Artikel EINMAL bestellt
          * </pre>
          *
-         * <code>optional .dstore.values.DecimalValue unit_gross_price = 10005;</code>
+         * <code>.dstore.values.DecimalValue unit_gross_price = 10005;</code>
          */
         public boolean hasUnitGrossPrice() {
           return unitGrossPriceBuilder_ != null || unitGrossPrice_ != null;
@@ -8478,7 +8478,7 @@ public final class OmGetPricesPu {
          * Brutto-Preis von "NodeID", wenn man den Artikel EINMAL bestellt
          * </pre>
          *
-         * <code>optional .dstore.values.DecimalValue unit_gross_price = 10005;</code>
+         * <code>.dstore.values.DecimalValue unit_gross_price = 10005;</code>
          */
         public io.dstore.values.DecimalValue getUnitGrossPrice() {
           if (unitGrossPriceBuilder_ == null) {
@@ -8492,7 +8492,7 @@ public final class OmGetPricesPu {
          * Brutto-Preis von "NodeID", wenn man den Artikel EINMAL bestellt
          * </pre>
          *
-         * <code>optional .dstore.values.DecimalValue unit_gross_price = 10005;</code>
+         * <code>.dstore.values.DecimalValue unit_gross_price = 10005;</code>
          */
         public Builder setUnitGrossPrice(io.dstore.values.DecimalValue value) {
           if (unitGrossPriceBuilder_ == null) {
@@ -8512,7 +8512,7 @@ public final class OmGetPricesPu {
          * Brutto-Preis von "NodeID", wenn man den Artikel EINMAL bestellt
          * </pre>
          *
-         * <code>optional .dstore.values.DecimalValue unit_gross_price = 10005;</code>
+         * <code>.dstore.values.DecimalValue unit_gross_price = 10005;</code>
          */
         public Builder setUnitGrossPrice(
             io.dstore.values.DecimalValue.Builder builderForValue) {
@@ -8530,7 +8530,7 @@ public final class OmGetPricesPu {
          * Brutto-Preis von "NodeID", wenn man den Artikel EINMAL bestellt
          * </pre>
          *
-         * <code>optional .dstore.values.DecimalValue unit_gross_price = 10005;</code>
+         * <code>.dstore.values.DecimalValue unit_gross_price = 10005;</code>
          */
         public Builder mergeUnitGrossPrice(io.dstore.values.DecimalValue value) {
           if (unitGrossPriceBuilder_ == null) {
@@ -8552,7 +8552,7 @@ public final class OmGetPricesPu {
          * Brutto-Preis von "NodeID", wenn man den Artikel EINMAL bestellt
          * </pre>
          *
-         * <code>optional .dstore.values.DecimalValue unit_gross_price = 10005;</code>
+         * <code>.dstore.values.DecimalValue unit_gross_price = 10005;</code>
          */
         public Builder clearUnitGrossPrice() {
           if (unitGrossPriceBuilder_ == null) {
@@ -8570,7 +8570,7 @@ public final class OmGetPricesPu {
          * Brutto-Preis von "NodeID", wenn man den Artikel EINMAL bestellt
          * </pre>
          *
-         * <code>optional .dstore.values.DecimalValue unit_gross_price = 10005;</code>
+         * <code>.dstore.values.DecimalValue unit_gross_price = 10005;</code>
          */
         public io.dstore.values.DecimalValue.Builder getUnitGrossPriceBuilder() {
           
@@ -8582,7 +8582,7 @@ public final class OmGetPricesPu {
          * Brutto-Preis von "NodeID", wenn man den Artikel EINMAL bestellt
          * </pre>
          *
-         * <code>optional .dstore.values.DecimalValue unit_gross_price = 10005;</code>
+         * <code>.dstore.values.DecimalValue unit_gross_price = 10005;</code>
          */
         public io.dstore.values.DecimalValueOrBuilder getUnitGrossPriceOrBuilder() {
           if (unitGrossPriceBuilder_ != null) {
@@ -8597,7 +8597,7 @@ public final class OmGetPricesPu {
          * Brutto-Preis von "NodeID", wenn man den Artikel EINMAL bestellt
          * </pre>
          *
-         * <code>optional .dstore.values.DecimalValue unit_gross_price = 10005;</code>
+         * <code>.dstore.values.DecimalValue unit_gross_price = 10005;</code>
          */
         private com.google.protobuf.SingleFieldBuilderV3<
             io.dstore.values.DecimalValue, io.dstore.values.DecimalValue.Builder, io.dstore.values.DecimalValueOrBuilder> 
@@ -8621,7 +8621,7 @@ public final class OmGetPricesPu {
          * Absoluter Rabatt/Aufschlag, der im "TotalNetPrice" bereits ENTHALTEN ist
          * </pre>
          *
-         * <code>optional .dstore.values.DecimalValue absolute_total_net_surcharge = 10006;</code>
+         * <code>.dstore.values.DecimalValue absolute_total_net_surcharge = 10006;</code>
          */
         public boolean hasAbsoluteTotalNetSurcharge() {
           return absoluteTotalNetSurchargeBuilder_ != null || absoluteTotalNetSurcharge_ != null;
@@ -8631,7 +8631,7 @@ public final class OmGetPricesPu {
          * Absoluter Rabatt/Aufschlag, der im "TotalNetPrice" bereits ENTHALTEN ist
          * </pre>
          *
-         * <code>optional .dstore.values.DecimalValue absolute_total_net_surcharge = 10006;</code>
+         * <code>.dstore.values.DecimalValue absolute_total_net_surcharge = 10006;</code>
          */
         public io.dstore.values.DecimalValue getAbsoluteTotalNetSurcharge() {
           if (absoluteTotalNetSurchargeBuilder_ == null) {
@@ -8645,7 +8645,7 @@ public final class OmGetPricesPu {
          * Absoluter Rabatt/Aufschlag, der im "TotalNetPrice" bereits ENTHALTEN ist
          * </pre>
          *
-         * <code>optional .dstore.values.DecimalValue absolute_total_net_surcharge = 10006;</code>
+         * <code>.dstore.values.DecimalValue absolute_total_net_surcharge = 10006;</code>
          */
         public Builder setAbsoluteTotalNetSurcharge(io.dstore.values.DecimalValue value) {
           if (absoluteTotalNetSurchargeBuilder_ == null) {
@@ -8665,7 +8665,7 @@ public final class OmGetPricesPu {
          * Absoluter Rabatt/Aufschlag, der im "TotalNetPrice" bereits ENTHALTEN ist
          * </pre>
          *
-         * <code>optional .dstore.values.DecimalValue absolute_total_net_surcharge = 10006;</code>
+         * <code>.dstore.values.DecimalValue absolute_total_net_surcharge = 10006;</code>
          */
         public Builder setAbsoluteTotalNetSurcharge(
             io.dstore.values.DecimalValue.Builder builderForValue) {
@@ -8683,7 +8683,7 @@ public final class OmGetPricesPu {
          * Absoluter Rabatt/Aufschlag, der im "TotalNetPrice" bereits ENTHALTEN ist
          * </pre>
          *
-         * <code>optional .dstore.values.DecimalValue absolute_total_net_surcharge = 10006;</code>
+         * <code>.dstore.values.DecimalValue absolute_total_net_surcharge = 10006;</code>
          */
         public Builder mergeAbsoluteTotalNetSurcharge(io.dstore.values.DecimalValue value) {
           if (absoluteTotalNetSurchargeBuilder_ == null) {
@@ -8705,7 +8705,7 @@ public final class OmGetPricesPu {
          * Absoluter Rabatt/Aufschlag, der im "TotalNetPrice" bereits ENTHALTEN ist
          * </pre>
          *
-         * <code>optional .dstore.values.DecimalValue absolute_total_net_surcharge = 10006;</code>
+         * <code>.dstore.values.DecimalValue absolute_total_net_surcharge = 10006;</code>
          */
         public Builder clearAbsoluteTotalNetSurcharge() {
           if (absoluteTotalNetSurchargeBuilder_ == null) {
@@ -8723,7 +8723,7 @@ public final class OmGetPricesPu {
          * Absoluter Rabatt/Aufschlag, der im "TotalNetPrice" bereits ENTHALTEN ist
          * </pre>
          *
-         * <code>optional .dstore.values.DecimalValue absolute_total_net_surcharge = 10006;</code>
+         * <code>.dstore.values.DecimalValue absolute_total_net_surcharge = 10006;</code>
          */
         public io.dstore.values.DecimalValue.Builder getAbsoluteTotalNetSurchargeBuilder() {
           
@@ -8735,7 +8735,7 @@ public final class OmGetPricesPu {
          * Absoluter Rabatt/Aufschlag, der im "TotalNetPrice" bereits ENTHALTEN ist
          * </pre>
          *
-         * <code>optional .dstore.values.DecimalValue absolute_total_net_surcharge = 10006;</code>
+         * <code>.dstore.values.DecimalValue absolute_total_net_surcharge = 10006;</code>
          */
         public io.dstore.values.DecimalValueOrBuilder getAbsoluteTotalNetSurchargeOrBuilder() {
           if (absoluteTotalNetSurchargeBuilder_ != null) {
@@ -8750,7 +8750,7 @@ public final class OmGetPricesPu {
          * Absoluter Rabatt/Aufschlag, der im "TotalNetPrice" bereits ENTHALTEN ist
          * </pre>
          *
-         * <code>optional .dstore.values.DecimalValue absolute_total_net_surcharge = 10006;</code>
+         * <code>.dstore.values.DecimalValue absolute_total_net_surcharge = 10006;</code>
          */
         private com.google.protobuf.SingleFieldBuilderV3<
             io.dstore.values.DecimalValue, io.dstore.values.DecimalValue.Builder, io.dstore.values.DecimalValueOrBuilder> 
@@ -8774,7 +8774,7 @@ public final class OmGetPricesPu {
          * Absoluter Rabatt/Aufschlag, der im "TotalGrossPrice" bereits ENTHALTEN ist
          * </pre>
          *
-         * <code>optional .dstore.values.DecimalValue absolute_total_gross_surcharge = 10007;</code>
+         * <code>.dstore.values.DecimalValue absolute_total_gross_surcharge = 10007;</code>
          */
         public boolean hasAbsoluteTotalGrossSurcharge() {
           return absoluteTotalGrossSurchargeBuilder_ != null || absoluteTotalGrossSurcharge_ != null;
@@ -8784,7 +8784,7 @@ public final class OmGetPricesPu {
          * Absoluter Rabatt/Aufschlag, der im "TotalGrossPrice" bereits ENTHALTEN ist
          * </pre>
          *
-         * <code>optional .dstore.values.DecimalValue absolute_total_gross_surcharge = 10007;</code>
+         * <code>.dstore.values.DecimalValue absolute_total_gross_surcharge = 10007;</code>
          */
         public io.dstore.values.DecimalValue getAbsoluteTotalGrossSurcharge() {
           if (absoluteTotalGrossSurchargeBuilder_ == null) {
@@ -8798,7 +8798,7 @@ public final class OmGetPricesPu {
          * Absoluter Rabatt/Aufschlag, der im "TotalGrossPrice" bereits ENTHALTEN ist
          * </pre>
          *
-         * <code>optional .dstore.values.DecimalValue absolute_total_gross_surcharge = 10007;</code>
+         * <code>.dstore.values.DecimalValue absolute_total_gross_surcharge = 10007;</code>
          */
         public Builder setAbsoluteTotalGrossSurcharge(io.dstore.values.DecimalValue value) {
           if (absoluteTotalGrossSurchargeBuilder_ == null) {
@@ -8818,7 +8818,7 @@ public final class OmGetPricesPu {
          * Absoluter Rabatt/Aufschlag, der im "TotalGrossPrice" bereits ENTHALTEN ist
          * </pre>
          *
-         * <code>optional .dstore.values.DecimalValue absolute_total_gross_surcharge = 10007;</code>
+         * <code>.dstore.values.DecimalValue absolute_total_gross_surcharge = 10007;</code>
          */
         public Builder setAbsoluteTotalGrossSurcharge(
             io.dstore.values.DecimalValue.Builder builderForValue) {
@@ -8836,7 +8836,7 @@ public final class OmGetPricesPu {
          * Absoluter Rabatt/Aufschlag, der im "TotalGrossPrice" bereits ENTHALTEN ist
          * </pre>
          *
-         * <code>optional .dstore.values.DecimalValue absolute_total_gross_surcharge = 10007;</code>
+         * <code>.dstore.values.DecimalValue absolute_total_gross_surcharge = 10007;</code>
          */
         public Builder mergeAbsoluteTotalGrossSurcharge(io.dstore.values.DecimalValue value) {
           if (absoluteTotalGrossSurchargeBuilder_ == null) {
@@ -8858,7 +8858,7 @@ public final class OmGetPricesPu {
          * Absoluter Rabatt/Aufschlag, der im "TotalGrossPrice" bereits ENTHALTEN ist
          * </pre>
          *
-         * <code>optional .dstore.values.DecimalValue absolute_total_gross_surcharge = 10007;</code>
+         * <code>.dstore.values.DecimalValue absolute_total_gross_surcharge = 10007;</code>
          */
         public Builder clearAbsoluteTotalGrossSurcharge() {
           if (absoluteTotalGrossSurchargeBuilder_ == null) {
@@ -8876,7 +8876,7 @@ public final class OmGetPricesPu {
          * Absoluter Rabatt/Aufschlag, der im "TotalGrossPrice" bereits ENTHALTEN ist
          * </pre>
          *
-         * <code>optional .dstore.values.DecimalValue absolute_total_gross_surcharge = 10007;</code>
+         * <code>.dstore.values.DecimalValue absolute_total_gross_surcharge = 10007;</code>
          */
         public io.dstore.values.DecimalValue.Builder getAbsoluteTotalGrossSurchargeBuilder() {
           
@@ -8888,7 +8888,7 @@ public final class OmGetPricesPu {
          * Absoluter Rabatt/Aufschlag, der im "TotalGrossPrice" bereits ENTHALTEN ist
          * </pre>
          *
-         * <code>optional .dstore.values.DecimalValue absolute_total_gross_surcharge = 10007;</code>
+         * <code>.dstore.values.DecimalValue absolute_total_gross_surcharge = 10007;</code>
          */
         public io.dstore.values.DecimalValueOrBuilder getAbsoluteTotalGrossSurchargeOrBuilder() {
           if (absoluteTotalGrossSurchargeBuilder_ != null) {
@@ -8903,7 +8903,7 @@ public final class OmGetPricesPu {
          * Absoluter Rabatt/Aufschlag, der im "TotalGrossPrice" bereits ENTHALTEN ist
          * </pre>
          *
-         * <code>optional .dstore.values.DecimalValue absolute_total_gross_surcharge = 10007;</code>
+         * <code>.dstore.values.DecimalValue absolute_total_gross_surcharge = 10007;</code>
          */
         private com.google.protobuf.SingleFieldBuilderV3<
             io.dstore.values.DecimalValue, io.dstore.values.DecimalValue.Builder, io.dstore.values.DecimalValueOrBuilder> 
@@ -8927,7 +8927,7 @@ public final class OmGetPricesPu {
          * Brutto-Preis von "NodeID", wenn man den Artikel EINMAL bestellt (Englischer Spaltenname ist NICHT korrekt, NICHT mehr verwenden !)
          * </pre>
          *
-         * <code>optional .dstore.values.DecimalValue unit_brutto_price = 10008;</code>
+         * <code>.dstore.values.DecimalValue unit_brutto_price = 10008;</code>
          */
         public boolean hasUnitBruttoPrice() {
           return unitBruttoPriceBuilder_ != null || unitBruttoPrice_ != null;
@@ -8937,7 +8937,7 @@ public final class OmGetPricesPu {
          * Brutto-Preis von "NodeID", wenn man den Artikel EINMAL bestellt (Englischer Spaltenname ist NICHT korrekt, NICHT mehr verwenden !)
          * </pre>
          *
-         * <code>optional .dstore.values.DecimalValue unit_brutto_price = 10008;</code>
+         * <code>.dstore.values.DecimalValue unit_brutto_price = 10008;</code>
          */
         public io.dstore.values.DecimalValue getUnitBruttoPrice() {
           if (unitBruttoPriceBuilder_ == null) {
@@ -8951,7 +8951,7 @@ public final class OmGetPricesPu {
          * Brutto-Preis von "NodeID", wenn man den Artikel EINMAL bestellt (Englischer Spaltenname ist NICHT korrekt, NICHT mehr verwenden !)
          * </pre>
          *
-         * <code>optional .dstore.values.DecimalValue unit_brutto_price = 10008;</code>
+         * <code>.dstore.values.DecimalValue unit_brutto_price = 10008;</code>
          */
         public Builder setUnitBruttoPrice(io.dstore.values.DecimalValue value) {
           if (unitBruttoPriceBuilder_ == null) {
@@ -8971,7 +8971,7 @@ public final class OmGetPricesPu {
          * Brutto-Preis von "NodeID", wenn man den Artikel EINMAL bestellt (Englischer Spaltenname ist NICHT korrekt, NICHT mehr verwenden !)
          * </pre>
          *
-         * <code>optional .dstore.values.DecimalValue unit_brutto_price = 10008;</code>
+         * <code>.dstore.values.DecimalValue unit_brutto_price = 10008;</code>
          */
         public Builder setUnitBruttoPrice(
             io.dstore.values.DecimalValue.Builder builderForValue) {
@@ -8989,7 +8989,7 @@ public final class OmGetPricesPu {
          * Brutto-Preis von "NodeID", wenn man den Artikel EINMAL bestellt (Englischer Spaltenname ist NICHT korrekt, NICHT mehr verwenden !)
          * </pre>
          *
-         * <code>optional .dstore.values.DecimalValue unit_brutto_price = 10008;</code>
+         * <code>.dstore.values.DecimalValue unit_brutto_price = 10008;</code>
          */
         public Builder mergeUnitBruttoPrice(io.dstore.values.DecimalValue value) {
           if (unitBruttoPriceBuilder_ == null) {
@@ -9011,7 +9011,7 @@ public final class OmGetPricesPu {
          * Brutto-Preis von "NodeID", wenn man den Artikel EINMAL bestellt (Englischer Spaltenname ist NICHT korrekt, NICHT mehr verwenden !)
          * </pre>
          *
-         * <code>optional .dstore.values.DecimalValue unit_brutto_price = 10008;</code>
+         * <code>.dstore.values.DecimalValue unit_brutto_price = 10008;</code>
          */
         public Builder clearUnitBruttoPrice() {
           if (unitBruttoPriceBuilder_ == null) {
@@ -9029,7 +9029,7 @@ public final class OmGetPricesPu {
          * Brutto-Preis von "NodeID", wenn man den Artikel EINMAL bestellt (Englischer Spaltenname ist NICHT korrekt, NICHT mehr verwenden !)
          * </pre>
          *
-         * <code>optional .dstore.values.DecimalValue unit_brutto_price = 10008;</code>
+         * <code>.dstore.values.DecimalValue unit_brutto_price = 10008;</code>
          */
         public io.dstore.values.DecimalValue.Builder getUnitBruttoPriceBuilder() {
           
@@ -9041,7 +9041,7 @@ public final class OmGetPricesPu {
          * Brutto-Preis von "NodeID", wenn man den Artikel EINMAL bestellt (Englischer Spaltenname ist NICHT korrekt, NICHT mehr verwenden !)
          * </pre>
          *
-         * <code>optional .dstore.values.DecimalValue unit_brutto_price = 10008;</code>
+         * <code>.dstore.values.DecimalValue unit_brutto_price = 10008;</code>
          */
         public io.dstore.values.DecimalValueOrBuilder getUnitBruttoPriceOrBuilder() {
           if (unitBruttoPriceBuilder_ != null) {
@@ -9056,7 +9056,7 @@ public final class OmGetPricesPu {
          * Brutto-Preis von "NodeID", wenn man den Artikel EINMAL bestellt (Englischer Spaltenname ist NICHT korrekt, NICHT mehr verwenden !)
          * </pre>
          *
-         * <code>optional .dstore.values.DecimalValue unit_brutto_price = 10008;</code>
+         * <code>.dstore.values.DecimalValue unit_brutto_price = 10008;</code>
          */
         private com.google.protobuf.SingleFieldBuilderV3<
             io.dstore.values.DecimalValue, io.dstore.values.DecimalValue.Builder, io.dstore.values.DecimalValueOrBuilder> 
@@ -9080,7 +9080,7 @@ public final class OmGetPricesPu {
          * Exakter (intern gespeicherter) Wert für "UnitGrossPrice"
          * </pre>
          *
-         * <code>optional .dstore.values.DecimalValue precise_unit_gross_price = 10009;</code>
+         * <code>.dstore.values.DecimalValue precise_unit_gross_price = 10009;</code>
          */
         public boolean hasPreciseUnitGrossPrice() {
           return preciseUnitGrossPriceBuilder_ != null || preciseUnitGrossPrice_ != null;
@@ -9090,7 +9090,7 @@ public final class OmGetPricesPu {
          * Exakter (intern gespeicherter) Wert für "UnitGrossPrice"
          * </pre>
          *
-         * <code>optional .dstore.values.DecimalValue precise_unit_gross_price = 10009;</code>
+         * <code>.dstore.values.DecimalValue precise_unit_gross_price = 10009;</code>
          */
         public io.dstore.values.DecimalValue getPreciseUnitGrossPrice() {
           if (preciseUnitGrossPriceBuilder_ == null) {
@@ -9104,7 +9104,7 @@ public final class OmGetPricesPu {
          * Exakter (intern gespeicherter) Wert für "UnitGrossPrice"
          * </pre>
          *
-         * <code>optional .dstore.values.DecimalValue precise_unit_gross_price = 10009;</code>
+         * <code>.dstore.values.DecimalValue precise_unit_gross_price = 10009;</code>
          */
         public Builder setPreciseUnitGrossPrice(io.dstore.values.DecimalValue value) {
           if (preciseUnitGrossPriceBuilder_ == null) {
@@ -9124,7 +9124,7 @@ public final class OmGetPricesPu {
          * Exakter (intern gespeicherter) Wert für "UnitGrossPrice"
          * </pre>
          *
-         * <code>optional .dstore.values.DecimalValue precise_unit_gross_price = 10009;</code>
+         * <code>.dstore.values.DecimalValue precise_unit_gross_price = 10009;</code>
          */
         public Builder setPreciseUnitGrossPrice(
             io.dstore.values.DecimalValue.Builder builderForValue) {
@@ -9142,7 +9142,7 @@ public final class OmGetPricesPu {
          * Exakter (intern gespeicherter) Wert für "UnitGrossPrice"
          * </pre>
          *
-         * <code>optional .dstore.values.DecimalValue precise_unit_gross_price = 10009;</code>
+         * <code>.dstore.values.DecimalValue precise_unit_gross_price = 10009;</code>
          */
         public Builder mergePreciseUnitGrossPrice(io.dstore.values.DecimalValue value) {
           if (preciseUnitGrossPriceBuilder_ == null) {
@@ -9164,7 +9164,7 @@ public final class OmGetPricesPu {
          * Exakter (intern gespeicherter) Wert für "UnitGrossPrice"
          * </pre>
          *
-         * <code>optional .dstore.values.DecimalValue precise_unit_gross_price = 10009;</code>
+         * <code>.dstore.values.DecimalValue precise_unit_gross_price = 10009;</code>
          */
         public Builder clearPreciseUnitGrossPrice() {
           if (preciseUnitGrossPriceBuilder_ == null) {
@@ -9182,7 +9182,7 @@ public final class OmGetPricesPu {
          * Exakter (intern gespeicherter) Wert für "UnitGrossPrice"
          * </pre>
          *
-         * <code>optional .dstore.values.DecimalValue precise_unit_gross_price = 10009;</code>
+         * <code>.dstore.values.DecimalValue precise_unit_gross_price = 10009;</code>
          */
         public io.dstore.values.DecimalValue.Builder getPreciseUnitGrossPriceBuilder() {
           
@@ -9194,7 +9194,7 @@ public final class OmGetPricesPu {
          * Exakter (intern gespeicherter) Wert für "UnitGrossPrice"
          * </pre>
          *
-         * <code>optional .dstore.values.DecimalValue precise_unit_gross_price = 10009;</code>
+         * <code>.dstore.values.DecimalValue precise_unit_gross_price = 10009;</code>
          */
         public io.dstore.values.DecimalValueOrBuilder getPreciseUnitGrossPriceOrBuilder() {
           if (preciseUnitGrossPriceBuilder_ != null) {
@@ -9209,7 +9209,7 @@ public final class OmGetPricesPu {
          * Exakter (intern gespeicherter) Wert für "UnitGrossPrice"
          * </pre>
          *
-         * <code>optional .dstore.values.DecimalValue precise_unit_gross_price = 10009;</code>
+         * <code>.dstore.values.DecimalValue precise_unit_gross_price = 10009;</code>
          */
         private com.google.protobuf.SingleFieldBuilderV3<
             io.dstore.values.DecimalValue, io.dstore.values.DecimalValue.Builder, io.dstore.values.DecimalValueOrBuilder> 
@@ -9233,7 +9233,7 @@ public final class OmGetPricesPu {
          * Netto-Preis von "NodeID", wenn man den Artikel EINMAL bestellt
          * </pre>
          *
-         * <code>optional .dstore.values.DecimalValue unit_net_price = 10010;</code>
+         * <code>.dstore.values.DecimalValue unit_net_price = 10010;</code>
          */
         public boolean hasUnitNetPrice() {
           return unitNetPriceBuilder_ != null || unitNetPrice_ != null;
@@ -9243,7 +9243,7 @@ public final class OmGetPricesPu {
          * Netto-Preis von "NodeID", wenn man den Artikel EINMAL bestellt
          * </pre>
          *
-         * <code>optional .dstore.values.DecimalValue unit_net_price = 10010;</code>
+         * <code>.dstore.values.DecimalValue unit_net_price = 10010;</code>
          */
         public io.dstore.values.DecimalValue getUnitNetPrice() {
           if (unitNetPriceBuilder_ == null) {
@@ -9257,7 +9257,7 @@ public final class OmGetPricesPu {
          * Netto-Preis von "NodeID", wenn man den Artikel EINMAL bestellt
          * </pre>
          *
-         * <code>optional .dstore.values.DecimalValue unit_net_price = 10010;</code>
+         * <code>.dstore.values.DecimalValue unit_net_price = 10010;</code>
          */
         public Builder setUnitNetPrice(io.dstore.values.DecimalValue value) {
           if (unitNetPriceBuilder_ == null) {
@@ -9277,7 +9277,7 @@ public final class OmGetPricesPu {
          * Netto-Preis von "NodeID", wenn man den Artikel EINMAL bestellt
          * </pre>
          *
-         * <code>optional .dstore.values.DecimalValue unit_net_price = 10010;</code>
+         * <code>.dstore.values.DecimalValue unit_net_price = 10010;</code>
          */
         public Builder setUnitNetPrice(
             io.dstore.values.DecimalValue.Builder builderForValue) {
@@ -9295,7 +9295,7 @@ public final class OmGetPricesPu {
          * Netto-Preis von "NodeID", wenn man den Artikel EINMAL bestellt
          * </pre>
          *
-         * <code>optional .dstore.values.DecimalValue unit_net_price = 10010;</code>
+         * <code>.dstore.values.DecimalValue unit_net_price = 10010;</code>
          */
         public Builder mergeUnitNetPrice(io.dstore.values.DecimalValue value) {
           if (unitNetPriceBuilder_ == null) {
@@ -9317,7 +9317,7 @@ public final class OmGetPricesPu {
          * Netto-Preis von "NodeID", wenn man den Artikel EINMAL bestellt
          * </pre>
          *
-         * <code>optional .dstore.values.DecimalValue unit_net_price = 10010;</code>
+         * <code>.dstore.values.DecimalValue unit_net_price = 10010;</code>
          */
         public Builder clearUnitNetPrice() {
           if (unitNetPriceBuilder_ == null) {
@@ -9335,7 +9335,7 @@ public final class OmGetPricesPu {
          * Netto-Preis von "NodeID", wenn man den Artikel EINMAL bestellt
          * </pre>
          *
-         * <code>optional .dstore.values.DecimalValue unit_net_price = 10010;</code>
+         * <code>.dstore.values.DecimalValue unit_net_price = 10010;</code>
          */
         public io.dstore.values.DecimalValue.Builder getUnitNetPriceBuilder() {
           
@@ -9347,7 +9347,7 @@ public final class OmGetPricesPu {
          * Netto-Preis von "NodeID", wenn man den Artikel EINMAL bestellt
          * </pre>
          *
-         * <code>optional .dstore.values.DecimalValue unit_net_price = 10010;</code>
+         * <code>.dstore.values.DecimalValue unit_net_price = 10010;</code>
          */
         public io.dstore.values.DecimalValueOrBuilder getUnitNetPriceOrBuilder() {
           if (unitNetPriceBuilder_ != null) {
@@ -9362,7 +9362,7 @@ public final class OmGetPricesPu {
          * Netto-Preis von "NodeID", wenn man den Artikel EINMAL bestellt
          * </pre>
          *
-         * <code>optional .dstore.values.DecimalValue unit_net_price = 10010;</code>
+         * <code>.dstore.values.DecimalValue unit_net_price = 10010;</code>
          */
         private com.google.protobuf.SingleFieldBuilderV3<
             io.dstore.values.DecimalValue, io.dstore.values.DecimalValue.Builder, io.dstore.values.DecimalValueOrBuilder> 
@@ -9386,7 +9386,7 @@ public final class OmGetPricesPu {
          * Brutto-Preis von "NodeID", wenn man den Artikel "Quantity-Mal" bestellt (Englischer Spaltenname ist NICHT korrekt, NICHT mehr verwenden !)
          * </pre>
          *
-         * <code>optional .dstore.values.DecimalValue total_brutto_price = 10011;</code>
+         * <code>.dstore.values.DecimalValue total_brutto_price = 10011;</code>
          */
         public boolean hasTotalBruttoPrice() {
           return totalBruttoPriceBuilder_ != null || totalBruttoPrice_ != null;
@@ -9396,7 +9396,7 @@ public final class OmGetPricesPu {
          * Brutto-Preis von "NodeID", wenn man den Artikel "Quantity-Mal" bestellt (Englischer Spaltenname ist NICHT korrekt, NICHT mehr verwenden !)
          * </pre>
          *
-         * <code>optional .dstore.values.DecimalValue total_brutto_price = 10011;</code>
+         * <code>.dstore.values.DecimalValue total_brutto_price = 10011;</code>
          */
         public io.dstore.values.DecimalValue getTotalBruttoPrice() {
           if (totalBruttoPriceBuilder_ == null) {
@@ -9410,7 +9410,7 @@ public final class OmGetPricesPu {
          * Brutto-Preis von "NodeID", wenn man den Artikel "Quantity-Mal" bestellt (Englischer Spaltenname ist NICHT korrekt, NICHT mehr verwenden !)
          * </pre>
          *
-         * <code>optional .dstore.values.DecimalValue total_brutto_price = 10011;</code>
+         * <code>.dstore.values.DecimalValue total_brutto_price = 10011;</code>
          */
         public Builder setTotalBruttoPrice(io.dstore.values.DecimalValue value) {
           if (totalBruttoPriceBuilder_ == null) {
@@ -9430,7 +9430,7 @@ public final class OmGetPricesPu {
          * Brutto-Preis von "NodeID", wenn man den Artikel "Quantity-Mal" bestellt (Englischer Spaltenname ist NICHT korrekt, NICHT mehr verwenden !)
          * </pre>
          *
-         * <code>optional .dstore.values.DecimalValue total_brutto_price = 10011;</code>
+         * <code>.dstore.values.DecimalValue total_brutto_price = 10011;</code>
          */
         public Builder setTotalBruttoPrice(
             io.dstore.values.DecimalValue.Builder builderForValue) {
@@ -9448,7 +9448,7 @@ public final class OmGetPricesPu {
          * Brutto-Preis von "NodeID", wenn man den Artikel "Quantity-Mal" bestellt (Englischer Spaltenname ist NICHT korrekt, NICHT mehr verwenden !)
          * </pre>
          *
-         * <code>optional .dstore.values.DecimalValue total_brutto_price = 10011;</code>
+         * <code>.dstore.values.DecimalValue total_brutto_price = 10011;</code>
          */
         public Builder mergeTotalBruttoPrice(io.dstore.values.DecimalValue value) {
           if (totalBruttoPriceBuilder_ == null) {
@@ -9470,7 +9470,7 @@ public final class OmGetPricesPu {
          * Brutto-Preis von "NodeID", wenn man den Artikel "Quantity-Mal" bestellt (Englischer Spaltenname ist NICHT korrekt, NICHT mehr verwenden !)
          * </pre>
          *
-         * <code>optional .dstore.values.DecimalValue total_brutto_price = 10011;</code>
+         * <code>.dstore.values.DecimalValue total_brutto_price = 10011;</code>
          */
         public Builder clearTotalBruttoPrice() {
           if (totalBruttoPriceBuilder_ == null) {
@@ -9488,7 +9488,7 @@ public final class OmGetPricesPu {
          * Brutto-Preis von "NodeID", wenn man den Artikel "Quantity-Mal" bestellt (Englischer Spaltenname ist NICHT korrekt, NICHT mehr verwenden !)
          * </pre>
          *
-         * <code>optional .dstore.values.DecimalValue total_brutto_price = 10011;</code>
+         * <code>.dstore.values.DecimalValue total_brutto_price = 10011;</code>
          */
         public io.dstore.values.DecimalValue.Builder getTotalBruttoPriceBuilder() {
           
@@ -9500,7 +9500,7 @@ public final class OmGetPricesPu {
          * Brutto-Preis von "NodeID", wenn man den Artikel "Quantity-Mal" bestellt (Englischer Spaltenname ist NICHT korrekt, NICHT mehr verwenden !)
          * </pre>
          *
-         * <code>optional .dstore.values.DecimalValue total_brutto_price = 10011;</code>
+         * <code>.dstore.values.DecimalValue total_brutto_price = 10011;</code>
          */
         public io.dstore.values.DecimalValueOrBuilder getTotalBruttoPriceOrBuilder() {
           if (totalBruttoPriceBuilder_ != null) {
@@ -9515,7 +9515,7 @@ public final class OmGetPricesPu {
          * Brutto-Preis von "NodeID", wenn man den Artikel "Quantity-Mal" bestellt (Englischer Spaltenname ist NICHT korrekt, NICHT mehr verwenden !)
          * </pre>
          *
-         * <code>optional .dstore.values.DecimalValue total_brutto_price = 10011;</code>
+         * <code>.dstore.values.DecimalValue total_brutto_price = 10011;</code>
          */
         private com.google.protobuf.SingleFieldBuilderV3<
             io.dstore.values.DecimalValue, io.dstore.values.DecimalValue.Builder, io.dstore.values.DecimalValueOrBuilder> 
@@ -9539,7 +9539,7 @@ public final class OmGetPricesPu {
          * Exakter (intern gespeicherter) Wert für "AbsoluteUnitNetSurcharge"
          * </pre>
          *
-         * <code>optional .dstore.values.DecimalValue precise_abs_unit_net_surcharge = 10012;</code>
+         * <code>.dstore.values.DecimalValue precise_abs_unit_net_surcharge = 10012;</code>
          */
         public boolean hasPreciseAbsUnitNetSurcharge() {
           return preciseAbsUnitNetSurchargeBuilder_ != null || preciseAbsUnitNetSurcharge_ != null;
@@ -9549,7 +9549,7 @@ public final class OmGetPricesPu {
          * Exakter (intern gespeicherter) Wert für "AbsoluteUnitNetSurcharge"
          * </pre>
          *
-         * <code>optional .dstore.values.DecimalValue precise_abs_unit_net_surcharge = 10012;</code>
+         * <code>.dstore.values.DecimalValue precise_abs_unit_net_surcharge = 10012;</code>
          */
         public io.dstore.values.DecimalValue getPreciseAbsUnitNetSurcharge() {
           if (preciseAbsUnitNetSurchargeBuilder_ == null) {
@@ -9563,7 +9563,7 @@ public final class OmGetPricesPu {
          * Exakter (intern gespeicherter) Wert für "AbsoluteUnitNetSurcharge"
          * </pre>
          *
-         * <code>optional .dstore.values.DecimalValue precise_abs_unit_net_surcharge = 10012;</code>
+         * <code>.dstore.values.DecimalValue precise_abs_unit_net_surcharge = 10012;</code>
          */
         public Builder setPreciseAbsUnitNetSurcharge(io.dstore.values.DecimalValue value) {
           if (preciseAbsUnitNetSurchargeBuilder_ == null) {
@@ -9583,7 +9583,7 @@ public final class OmGetPricesPu {
          * Exakter (intern gespeicherter) Wert für "AbsoluteUnitNetSurcharge"
          * </pre>
          *
-         * <code>optional .dstore.values.DecimalValue precise_abs_unit_net_surcharge = 10012;</code>
+         * <code>.dstore.values.DecimalValue precise_abs_unit_net_surcharge = 10012;</code>
          */
         public Builder setPreciseAbsUnitNetSurcharge(
             io.dstore.values.DecimalValue.Builder builderForValue) {
@@ -9601,7 +9601,7 @@ public final class OmGetPricesPu {
          * Exakter (intern gespeicherter) Wert für "AbsoluteUnitNetSurcharge"
          * </pre>
          *
-         * <code>optional .dstore.values.DecimalValue precise_abs_unit_net_surcharge = 10012;</code>
+         * <code>.dstore.values.DecimalValue precise_abs_unit_net_surcharge = 10012;</code>
          */
         public Builder mergePreciseAbsUnitNetSurcharge(io.dstore.values.DecimalValue value) {
           if (preciseAbsUnitNetSurchargeBuilder_ == null) {
@@ -9623,7 +9623,7 @@ public final class OmGetPricesPu {
          * Exakter (intern gespeicherter) Wert für "AbsoluteUnitNetSurcharge"
          * </pre>
          *
-         * <code>optional .dstore.values.DecimalValue precise_abs_unit_net_surcharge = 10012;</code>
+         * <code>.dstore.values.DecimalValue precise_abs_unit_net_surcharge = 10012;</code>
          */
         public Builder clearPreciseAbsUnitNetSurcharge() {
           if (preciseAbsUnitNetSurchargeBuilder_ == null) {
@@ -9641,7 +9641,7 @@ public final class OmGetPricesPu {
          * Exakter (intern gespeicherter) Wert für "AbsoluteUnitNetSurcharge"
          * </pre>
          *
-         * <code>optional .dstore.values.DecimalValue precise_abs_unit_net_surcharge = 10012;</code>
+         * <code>.dstore.values.DecimalValue precise_abs_unit_net_surcharge = 10012;</code>
          */
         public io.dstore.values.DecimalValue.Builder getPreciseAbsUnitNetSurchargeBuilder() {
           
@@ -9653,7 +9653,7 @@ public final class OmGetPricesPu {
          * Exakter (intern gespeicherter) Wert für "AbsoluteUnitNetSurcharge"
          * </pre>
          *
-         * <code>optional .dstore.values.DecimalValue precise_abs_unit_net_surcharge = 10012;</code>
+         * <code>.dstore.values.DecimalValue precise_abs_unit_net_surcharge = 10012;</code>
          */
         public io.dstore.values.DecimalValueOrBuilder getPreciseAbsUnitNetSurchargeOrBuilder() {
           if (preciseAbsUnitNetSurchargeBuilder_ != null) {
@@ -9668,7 +9668,7 @@ public final class OmGetPricesPu {
          * Exakter (intern gespeicherter) Wert für "AbsoluteUnitNetSurcharge"
          * </pre>
          *
-         * <code>optional .dstore.values.DecimalValue precise_abs_unit_net_surcharge = 10012;</code>
+         * <code>.dstore.values.DecimalValue precise_abs_unit_net_surcharge = 10012;</code>
          */
         private com.google.protobuf.SingleFieldBuilderV3<
             io.dstore.values.DecimalValue, io.dstore.values.DecimalValue.Builder, io.dstore.values.DecimalValueOrBuilder> 
@@ -9692,7 +9692,7 @@ public final class OmGetPricesPu {
          * "Grund" für einen evtl. vorhandenen Rabatt (z.B. ein "Aktionsname", der letztlich von der individuellen Rabatt-Ermittlung durch "_ac_om_GetSurcharges" stammt). Immer "NULL", wenn "&#64;GetAdditionalPriceInfo = 0" ist !
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue surcharge_reason = 10013;</code>
+         * <code>.dstore.values.StringValue surcharge_reason = 10013;</code>
          */
         public boolean hasSurchargeReason() {
           return surchargeReasonBuilder_ != null || surchargeReason_ != null;
@@ -9702,7 +9702,7 @@ public final class OmGetPricesPu {
          * "Grund" für einen evtl. vorhandenen Rabatt (z.B. ein "Aktionsname", der letztlich von der individuellen Rabatt-Ermittlung durch "_ac_om_GetSurcharges" stammt). Immer "NULL", wenn "&#64;GetAdditionalPriceInfo = 0" ist !
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue surcharge_reason = 10013;</code>
+         * <code>.dstore.values.StringValue surcharge_reason = 10013;</code>
          */
         public io.dstore.values.StringValue getSurchargeReason() {
           if (surchargeReasonBuilder_ == null) {
@@ -9716,7 +9716,7 @@ public final class OmGetPricesPu {
          * "Grund" für einen evtl. vorhandenen Rabatt (z.B. ein "Aktionsname", der letztlich von der individuellen Rabatt-Ermittlung durch "_ac_om_GetSurcharges" stammt). Immer "NULL", wenn "&#64;GetAdditionalPriceInfo = 0" ist !
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue surcharge_reason = 10013;</code>
+         * <code>.dstore.values.StringValue surcharge_reason = 10013;</code>
          */
         public Builder setSurchargeReason(io.dstore.values.StringValue value) {
           if (surchargeReasonBuilder_ == null) {
@@ -9736,7 +9736,7 @@ public final class OmGetPricesPu {
          * "Grund" für einen evtl. vorhandenen Rabatt (z.B. ein "Aktionsname", der letztlich von der individuellen Rabatt-Ermittlung durch "_ac_om_GetSurcharges" stammt). Immer "NULL", wenn "&#64;GetAdditionalPriceInfo = 0" ist !
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue surcharge_reason = 10013;</code>
+         * <code>.dstore.values.StringValue surcharge_reason = 10013;</code>
          */
         public Builder setSurchargeReason(
             io.dstore.values.StringValue.Builder builderForValue) {
@@ -9754,7 +9754,7 @@ public final class OmGetPricesPu {
          * "Grund" für einen evtl. vorhandenen Rabatt (z.B. ein "Aktionsname", der letztlich von der individuellen Rabatt-Ermittlung durch "_ac_om_GetSurcharges" stammt). Immer "NULL", wenn "&#64;GetAdditionalPriceInfo = 0" ist !
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue surcharge_reason = 10013;</code>
+         * <code>.dstore.values.StringValue surcharge_reason = 10013;</code>
          */
         public Builder mergeSurchargeReason(io.dstore.values.StringValue value) {
           if (surchargeReasonBuilder_ == null) {
@@ -9776,7 +9776,7 @@ public final class OmGetPricesPu {
          * "Grund" für einen evtl. vorhandenen Rabatt (z.B. ein "Aktionsname", der letztlich von der individuellen Rabatt-Ermittlung durch "_ac_om_GetSurcharges" stammt). Immer "NULL", wenn "&#64;GetAdditionalPriceInfo = 0" ist !
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue surcharge_reason = 10013;</code>
+         * <code>.dstore.values.StringValue surcharge_reason = 10013;</code>
          */
         public Builder clearSurchargeReason() {
           if (surchargeReasonBuilder_ == null) {
@@ -9794,7 +9794,7 @@ public final class OmGetPricesPu {
          * "Grund" für einen evtl. vorhandenen Rabatt (z.B. ein "Aktionsname", der letztlich von der individuellen Rabatt-Ermittlung durch "_ac_om_GetSurcharges" stammt). Immer "NULL", wenn "&#64;GetAdditionalPriceInfo = 0" ist !
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue surcharge_reason = 10013;</code>
+         * <code>.dstore.values.StringValue surcharge_reason = 10013;</code>
          */
         public io.dstore.values.StringValue.Builder getSurchargeReasonBuilder() {
           
@@ -9806,7 +9806,7 @@ public final class OmGetPricesPu {
          * "Grund" für einen evtl. vorhandenen Rabatt (z.B. ein "Aktionsname", der letztlich von der individuellen Rabatt-Ermittlung durch "_ac_om_GetSurcharges" stammt). Immer "NULL", wenn "&#64;GetAdditionalPriceInfo = 0" ist !
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue surcharge_reason = 10013;</code>
+         * <code>.dstore.values.StringValue surcharge_reason = 10013;</code>
          */
         public io.dstore.values.StringValueOrBuilder getSurchargeReasonOrBuilder() {
           if (surchargeReasonBuilder_ != null) {
@@ -9821,7 +9821,7 @@ public final class OmGetPricesPu {
          * "Grund" für einen evtl. vorhandenen Rabatt (z.B. ein "Aktionsname", der letztlich von der individuellen Rabatt-Ermittlung durch "_ac_om_GetSurcharges" stammt). Immer "NULL", wenn "&#64;GetAdditionalPriceInfo = 0" ist !
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue surcharge_reason = 10013;</code>
+         * <code>.dstore.values.StringValue surcharge_reason = 10013;</code>
          */
         private com.google.protobuf.SingleFieldBuilderV3<
             io.dstore.values.StringValue, io.dstore.values.StringValue.Builder, io.dstore.values.StringValueOrBuilder> 
@@ -9845,7 +9845,7 @@ public final class OmGetPricesPu {
          * ID eines Artikel-Elementes, zu dem der Verkaufspreis ermittelt wurde (also entweder ein Element, das in "&#64;NodeIDs" übergeben wurde, oder ein Element, das zu einer "TreeNodeID" korrespondiert, die in "&#64;NodeIDs" angegeben wurde)
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue node_id = 10014;</code>
+         * <code>.dstore.values.IntegerValue node_id = 10014;</code>
          */
         public boolean hasNodeId() {
           return nodeIdBuilder_ != null || nodeId_ != null;
@@ -9855,7 +9855,7 @@ public final class OmGetPricesPu {
          * ID eines Artikel-Elementes, zu dem der Verkaufspreis ermittelt wurde (also entweder ein Element, das in "&#64;NodeIDs" übergeben wurde, oder ein Element, das zu einer "TreeNodeID" korrespondiert, die in "&#64;NodeIDs" angegeben wurde)
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue node_id = 10014;</code>
+         * <code>.dstore.values.IntegerValue node_id = 10014;</code>
          */
         public io.dstore.values.IntegerValue getNodeId() {
           if (nodeIdBuilder_ == null) {
@@ -9869,7 +9869,7 @@ public final class OmGetPricesPu {
          * ID eines Artikel-Elementes, zu dem der Verkaufspreis ermittelt wurde (also entweder ein Element, das in "&#64;NodeIDs" übergeben wurde, oder ein Element, das zu einer "TreeNodeID" korrespondiert, die in "&#64;NodeIDs" angegeben wurde)
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue node_id = 10014;</code>
+         * <code>.dstore.values.IntegerValue node_id = 10014;</code>
          */
         public Builder setNodeId(io.dstore.values.IntegerValue value) {
           if (nodeIdBuilder_ == null) {
@@ -9889,7 +9889,7 @@ public final class OmGetPricesPu {
          * ID eines Artikel-Elementes, zu dem der Verkaufspreis ermittelt wurde (also entweder ein Element, das in "&#64;NodeIDs" übergeben wurde, oder ein Element, das zu einer "TreeNodeID" korrespondiert, die in "&#64;NodeIDs" angegeben wurde)
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue node_id = 10014;</code>
+         * <code>.dstore.values.IntegerValue node_id = 10014;</code>
          */
         public Builder setNodeId(
             io.dstore.values.IntegerValue.Builder builderForValue) {
@@ -9907,7 +9907,7 @@ public final class OmGetPricesPu {
          * ID eines Artikel-Elementes, zu dem der Verkaufspreis ermittelt wurde (also entweder ein Element, das in "&#64;NodeIDs" übergeben wurde, oder ein Element, das zu einer "TreeNodeID" korrespondiert, die in "&#64;NodeIDs" angegeben wurde)
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue node_id = 10014;</code>
+         * <code>.dstore.values.IntegerValue node_id = 10014;</code>
          */
         public Builder mergeNodeId(io.dstore.values.IntegerValue value) {
           if (nodeIdBuilder_ == null) {
@@ -9929,7 +9929,7 @@ public final class OmGetPricesPu {
          * ID eines Artikel-Elementes, zu dem der Verkaufspreis ermittelt wurde (also entweder ein Element, das in "&#64;NodeIDs" übergeben wurde, oder ein Element, das zu einer "TreeNodeID" korrespondiert, die in "&#64;NodeIDs" angegeben wurde)
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue node_id = 10014;</code>
+         * <code>.dstore.values.IntegerValue node_id = 10014;</code>
          */
         public Builder clearNodeId() {
           if (nodeIdBuilder_ == null) {
@@ -9947,7 +9947,7 @@ public final class OmGetPricesPu {
          * ID eines Artikel-Elementes, zu dem der Verkaufspreis ermittelt wurde (also entweder ein Element, das in "&#64;NodeIDs" übergeben wurde, oder ein Element, das zu einer "TreeNodeID" korrespondiert, die in "&#64;NodeIDs" angegeben wurde)
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue node_id = 10014;</code>
+         * <code>.dstore.values.IntegerValue node_id = 10014;</code>
          */
         public io.dstore.values.IntegerValue.Builder getNodeIdBuilder() {
           
@@ -9959,7 +9959,7 @@ public final class OmGetPricesPu {
          * ID eines Artikel-Elementes, zu dem der Verkaufspreis ermittelt wurde (also entweder ein Element, das in "&#64;NodeIDs" übergeben wurde, oder ein Element, das zu einer "TreeNodeID" korrespondiert, die in "&#64;NodeIDs" angegeben wurde)
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue node_id = 10014;</code>
+         * <code>.dstore.values.IntegerValue node_id = 10014;</code>
          */
         public io.dstore.values.IntegerValueOrBuilder getNodeIdOrBuilder() {
           if (nodeIdBuilder_ != null) {
@@ -9974,7 +9974,7 @@ public final class OmGetPricesPu {
          * ID eines Artikel-Elementes, zu dem der Verkaufspreis ermittelt wurde (also entweder ein Element, das in "&#64;NodeIDs" übergeben wurde, oder ein Element, das zu einer "TreeNodeID" korrespondiert, die in "&#64;NodeIDs" angegeben wurde)
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue node_id = 10014;</code>
+         * <code>.dstore.values.IntegerValue node_id = 10014;</code>
          */
         private com.google.protobuf.SingleFieldBuilderV3<
             io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> 
@@ -9998,7 +9998,7 @@ public final class OmGetPricesPu {
          * ID eines zur "NodeID" korrespondierenden Elementes im Artikelbaum, das zur Preisermittlung herangezogen wurde bzw. (falls "&#64;IsTreeNodeID = 1") eine ID, die in "&#64;NodeIDs" übergeben wurde
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue tree_node_id = 10015;</code>
+         * <code>.dstore.values.IntegerValue tree_node_id = 10015;</code>
          */
         public boolean hasTreeNodeId() {
           return treeNodeIdBuilder_ != null || treeNodeId_ != null;
@@ -10008,7 +10008,7 @@ public final class OmGetPricesPu {
          * ID eines zur "NodeID" korrespondierenden Elementes im Artikelbaum, das zur Preisermittlung herangezogen wurde bzw. (falls "&#64;IsTreeNodeID = 1") eine ID, die in "&#64;NodeIDs" übergeben wurde
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue tree_node_id = 10015;</code>
+         * <code>.dstore.values.IntegerValue tree_node_id = 10015;</code>
          */
         public io.dstore.values.IntegerValue getTreeNodeId() {
           if (treeNodeIdBuilder_ == null) {
@@ -10022,7 +10022,7 @@ public final class OmGetPricesPu {
          * ID eines zur "NodeID" korrespondierenden Elementes im Artikelbaum, das zur Preisermittlung herangezogen wurde bzw. (falls "&#64;IsTreeNodeID = 1") eine ID, die in "&#64;NodeIDs" übergeben wurde
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue tree_node_id = 10015;</code>
+         * <code>.dstore.values.IntegerValue tree_node_id = 10015;</code>
          */
         public Builder setTreeNodeId(io.dstore.values.IntegerValue value) {
           if (treeNodeIdBuilder_ == null) {
@@ -10042,7 +10042,7 @@ public final class OmGetPricesPu {
          * ID eines zur "NodeID" korrespondierenden Elementes im Artikelbaum, das zur Preisermittlung herangezogen wurde bzw. (falls "&#64;IsTreeNodeID = 1") eine ID, die in "&#64;NodeIDs" übergeben wurde
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue tree_node_id = 10015;</code>
+         * <code>.dstore.values.IntegerValue tree_node_id = 10015;</code>
          */
         public Builder setTreeNodeId(
             io.dstore.values.IntegerValue.Builder builderForValue) {
@@ -10060,7 +10060,7 @@ public final class OmGetPricesPu {
          * ID eines zur "NodeID" korrespondierenden Elementes im Artikelbaum, das zur Preisermittlung herangezogen wurde bzw. (falls "&#64;IsTreeNodeID = 1") eine ID, die in "&#64;NodeIDs" übergeben wurde
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue tree_node_id = 10015;</code>
+         * <code>.dstore.values.IntegerValue tree_node_id = 10015;</code>
          */
         public Builder mergeTreeNodeId(io.dstore.values.IntegerValue value) {
           if (treeNodeIdBuilder_ == null) {
@@ -10082,7 +10082,7 @@ public final class OmGetPricesPu {
          * ID eines zur "NodeID" korrespondierenden Elementes im Artikelbaum, das zur Preisermittlung herangezogen wurde bzw. (falls "&#64;IsTreeNodeID = 1") eine ID, die in "&#64;NodeIDs" übergeben wurde
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue tree_node_id = 10015;</code>
+         * <code>.dstore.values.IntegerValue tree_node_id = 10015;</code>
          */
         public Builder clearTreeNodeId() {
           if (treeNodeIdBuilder_ == null) {
@@ -10100,7 +10100,7 @@ public final class OmGetPricesPu {
          * ID eines zur "NodeID" korrespondierenden Elementes im Artikelbaum, das zur Preisermittlung herangezogen wurde bzw. (falls "&#64;IsTreeNodeID = 1") eine ID, die in "&#64;NodeIDs" übergeben wurde
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue tree_node_id = 10015;</code>
+         * <code>.dstore.values.IntegerValue tree_node_id = 10015;</code>
          */
         public io.dstore.values.IntegerValue.Builder getTreeNodeIdBuilder() {
           
@@ -10112,7 +10112,7 @@ public final class OmGetPricesPu {
          * ID eines zur "NodeID" korrespondierenden Elementes im Artikelbaum, das zur Preisermittlung herangezogen wurde bzw. (falls "&#64;IsTreeNodeID = 1") eine ID, die in "&#64;NodeIDs" übergeben wurde
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue tree_node_id = 10015;</code>
+         * <code>.dstore.values.IntegerValue tree_node_id = 10015;</code>
          */
         public io.dstore.values.IntegerValueOrBuilder getTreeNodeIdOrBuilder() {
           if (treeNodeIdBuilder_ != null) {
@@ -10127,7 +10127,7 @@ public final class OmGetPricesPu {
          * ID eines zur "NodeID" korrespondierenden Elementes im Artikelbaum, das zur Preisermittlung herangezogen wurde bzw. (falls "&#64;IsTreeNodeID = 1") eine ID, die in "&#64;NodeIDs" übergeben wurde
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue tree_node_id = 10015;</code>
+         * <code>.dstore.values.IntegerValue tree_node_id = 10015;</code>
          */
         private com.google.protobuf.SingleFieldBuilderV3<
             io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> 
@@ -10151,7 +10151,7 @@ public final class OmGetPricesPu {
          * Absoluter Rabatt/Aufschlag, der im "TotalNetPrice" bereits ENTHALTEN ist (Englischer Spaltenname ist NICHT korrekt, NICHT mehr verwenden !)
          * </pre>
          *
-         * <code>optional .dstore.values.DecimalValue absolute_total_netto_surcharge = 10016;</code>
+         * <code>.dstore.values.DecimalValue absolute_total_netto_surcharge = 10016;</code>
          */
         public boolean hasAbsoluteTotalNettoSurcharge() {
           return absoluteTotalNettoSurchargeBuilder_ != null || absoluteTotalNettoSurcharge_ != null;
@@ -10161,7 +10161,7 @@ public final class OmGetPricesPu {
          * Absoluter Rabatt/Aufschlag, der im "TotalNetPrice" bereits ENTHALTEN ist (Englischer Spaltenname ist NICHT korrekt, NICHT mehr verwenden !)
          * </pre>
          *
-         * <code>optional .dstore.values.DecimalValue absolute_total_netto_surcharge = 10016;</code>
+         * <code>.dstore.values.DecimalValue absolute_total_netto_surcharge = 10016;</code>
          */
         public io.dstore.values.DecimalValue getAbsoluteTotalNettoSurcharge() {
           if (absoluteTotalNettoSurchargeBuilder_ == null) {
@@ -10175,7 +10175,7 @@ public final class OmGetPricesPu {
          * Absoluter Rabatt/Aufschlag, der im "TotalNetPrice" bereits ENTHALTEN ist (Englischer Spaltenname ist NICHT korrekt, NICHT mehr verwenden !)
          * </pre>
          *
-         * <code>optional .dstore.values.DecimalValue absolute_total_netto_surcharge = 10016;</code>
+         * <code>.dstore.values.DecimalValue absolute_total_netto_surcharge = 10016;</code>
          */
         public Builder setAbsoluteTotalNettoSurcharge(io.dstore.values.DecimalValue value) {
           if (absoluteTotalNettoSurchargeBuilder_ == null) {
@@ -10195,7 +10195,7 @@ public final class OmGetPricesPu {
          * Absoluter Rabatt/Aufschlag, der im "TotalNetPrice" bereits ENTHALTEN ist (Englischer Spaltenname ist NICHT korrekt, NICHT mehr verwenden !)
          * </pre>
          *
-         * <code>optional .dstore.values.DecimalValue absolute_total_netto_surcharge = 10016;</code>
+         * <code>.dstore.values.DecimalValue absolute_total_netto_surcharge = 10016;</code>
          */
         public Builder setAbsoluteTotalNettoSurcharge(
             io.dstore.values.DecimalValue.Builder builderForValue) {
@@ -10213,7 +10213,7 @@ public final class OmGetPricesPu {
          * Absoluter Rabatt/Aufschlag, der im "TotalNetPrice" bereits ENTHALTEN ist (Englischer Spaltenname ist NICHT korrekt, NICHT mehr verwenden !)
          * </pre>
          *
-         * <code>optional .dstore.values.DecimalValue absolute_total_netto_surcharge = 10016;</code>
+         * <code>.dstore.values.DecimalValue absolute_total_netto_surcharge = 10016;</code>
          */
         public Builder mergeAbsoluteTotalNettoSurcharge(io.dstore.values.DecimalValue value) {
           if (absoluteTotalNettoSurchargeBuilder_ == null) {
@@ -10235,7 +10235,7 @@ public final class OmGetPricesPu {
          * Absoluter Rabatt/Aufschlag, der im "TotalNetPrice" bereits ENTHALTEN ist (Englischer Spaltenname ist NICHT korrekt, NICHT mehr verwenden !)
          * </pre>
          *
-         * <code>optional .dstore.values.DecimalValue absolute_total_netto_surcharge = 10016;</code>
+         * <code>.dstore.values.DecimalValue absolute_total_netto_surcharge = 10016;</code>
          */
         public Builder clearAbsoluteTotalNettoSurcharge() {
           if (absoluteTotalNettoSurchargeBuilder_ == null) {
@@ -10253,7 +10253,7 @@ public final class OmGetPricesPu {
          * Absoluter Rabatt/Aufschlag, der im "TotalNetPrice" bereits ENTHALTEN ist (Englischer Spaltenname ist NICHT korrekt, NICHT mehr verwenden !)
          * </pre>
          *
-         * <code>optional .dstore.values.DecimalValue absolute_total_netto_surcharge = 10016;</code>
+         * <code>.dstore.values.DecimalValue absolute_total_netto_surcharge = 10016;</code>
          */
         public io.dstore.values.DecimalValue.Builder getAbsoluteTotalNettoSurchargeBuilder() {
           
@@ -10265,7 +10265,7 @@ public final class OmGetPricesPu {
          * Absoluter Rabatt/Aufschlag, der im "TotalNetPrice" bereits ENTHALTEN ist (Englischer Spaltenname ist NICHT korrekt, NICHT mehr verwenden !)
          * </pre>
          *
-         * <code>optional .dstore.values.DecimalValue absolute_total_netto_surcharge = 10016;</code>
+         * <code>.dstore.values.DecimalValue absolute_total_netto_surcharge = 10016;</code>
          */
         public io.dstore.values.DecimalValueOrBuilder getAbsoluteTotalNettoSurchargeOrBuilder() {
           if (absoluteTotalNettoSurchargeBuilder_ != null) {
@@ -10280,7 +10280,7 @@ public final class OmGetPricesPu {
          * Absoluter Rabatt/Aufschlag, der im "TotalNetPrice" bereits ENTHALTEN ist (Englischer Spaltenname ist NICHT korrekt, NICHT mehr verwenden !)
          * </pre>
          *
-         * <code>optional .dstore.values.DecimalValue absolute_total_netto_surcharge = 10016;</code>
+         * <code>.dstore.values.DecimalValue absolute_total_netto_surcharge = 10016;</code>
          */
         private com.google.protobuf.SingleFieldBuilderV3<
             io.dstore.values.DecimalValue, io.dstore.values.DecimalValue.Builder, io.dstore.values.DecimalValueOrBuilder> 
@@ -10304,7 +10304,7 @@ public final class OmGetPricesPu {
          * Relativer Rabatt/Aufschlag in Prozent (der in den Preisen bereits enthalten ist !). Ein negativer Wert bedeutet einen Rabatt, sonst beinhaltet der Verkaufspreis einen Aufschlag.
          * </pre>
          *
-         * <code>optional .dstore.values.DecimalValue relative_surcharge = 10017;</code>
+         * <code>.dstore.values.DecimalValue relative_surcharge = 10017;</code>
          */
         public boolean hasRelativeSurcharge() {
           return relativeSurchargeBuilder_ != null || relativeSurcharge_ != null;
@@ -10314,7 +10314,7 @@ public final class OmGetPricesPu {
          * Relativer Rabatt/Aufschlag in Prozent (der in den Preisen bereits enthalten ist !). Ein negativer Wert bedeutet einen Rabatt, sonst beinhaltet der Verkaufspreis einen Aufschlag.
          * </pre>
          *
-         * <code>optional .dstore.values.DecimalValue relative_surcharge = 10017;</code>
+         * <code>.dstore.values.DecimalValue relative_surcharge = 10017;</code>
          */
         public io.dstore.values.DecimalValue getRelativeSurcharge() {
           if (relativeSurchargeBuilder_ == null) {
@@ -10328,7 +10328,7 @@ public final class OmGetPricesPu {
          * Relativer Rabatt/Aufschlag in Prozent (der in den Preisen bereits enthalten ist !). Ein negativer Wert bedeutet einen Rabatt, sonst beinhaltet der Verkaufspreis einen Aufschlag.
          * </pre>
          *
-         * <code>optional .dstore.values.DecimalValue relative_surcharge = 10017;</code>
+         * <code>.dstore.values.DecimalValue relative_surcharge = 10017;</code>
          */
         public Builder setRelativeSurcharge(io.dstore.values.DecimalValue value) {
           if (relativeSurchargeBuilder_ == null) {
@@ -10348,7 +10348,7 @@ public final class OmGetPricesPu {
          * Relativer Rabatt/Aufschlag in Prozent (der in den Preisen bereits enthalten ist !). Ein negativer Wert bedeutet einen Rabatt, sonst beinhaltet der Verkaufspreis einen Aufschlag.
          * </pre>
          *
-         * <code>optional .dstore.values.DecimalValue relative_surcharge = 10017;</code>
+         * <code>.dstore.values.DecimalValue relative_surcharge = 10017;</code>
          */
         public Builder setRelativeSurcharge(
             io.dstore.values.DecimalValue.Builder builderForValue) {
@@ -10366,7 +10366,7 @@ public final class OmGetPricesPu {
          * Relativer Rabatt/Aufschlag in Prozent (der in den Preisen bereits enthalten ist !). Ein negativer Wert bedeutet einen Rabatt, sonst beinhaltet der Verkaufspreis einen Aufschlag.
          * </pre>
          *
-         * <code>optional .dstore.values.DecimalValue relative_surcharge = 10017;</code>
+         * <code>.dstore.values.DecimalValue relative_surcharge = 10017;</code>
          */
         public Builder mergeRelativeSurcharge(io.dstore.values.DecimalValue value) {
           if (relativeSurchargeBuilder_ == null) {
@@ -10388,7 +10388,7 @@ public final class OmGetPricesPu {
          * Relativer Rabatt/Aufschlag in Prozent (der in den Preisen bereits enthalten ist !). Ein negativer Wert bedeutet einen Rabatt, sonst beinhaltet der Verkaufspreis einen Aufschlag.
          * </pre>
          *
-         * <code>optional .dstore.values.DecimalValue relative_surcharge = 10017;</code>
+         * <code>.dstore.values.DecimalValue relative_surcharge = 10017;</code>
          */
         public Builder clearRelativeSurcharge() {
           if (relativeSurchargeBuilder_ == null) {
@@ -10406,7 +10406,7 @@ public final class OmGetPricesPu {
          * Relativer Rabatt/Aufschlag in Prozent (der in den Preisen bereits enthalten ist !). Ein negativer Wert bedeutet einen Rabatt, sonst beinhaltet der Verkaufspreis einen Aufschlag.
          * </pre>
          *
-         * <code>optional .dstore.values.DecimalValue relative_surcharge = 10017;</code>
+         * <code>.dstore.values.DecimalValue relative_surcharge = 10017;</code>
          */
         public io.dstore.values.DecimalValue.Builder getRelativeSurchargeBuilder() {
           
@@ -10418,7 +10418,7 @@ public final class OmGetPricesPu {
          * Relativer Rabatt/Aufschlag in Prozent (der in den Preisen bereits enthalten ist !). Ein negativer Wert bedeutet einen Rabatt, sonst beinhaltet der Verkaufspreis einen Aufschlag.
          * </pre>
          *
-         * <code>optional .dstore.values.DecimalValue relative_surcharge = 10017;</code>
+         * <code>.dstore.values.DecimalValue relative_surcharge = 10017;</code>
          */
         public io.dstore.values.DecimalValueOrBuilder getRelativeSurchargeOrBuilder() {
           if (relativeSurchargeBuilder_ != null) {
@@ -10433,7 +10433,7 @@ public final class OmGetPricesPu {
          * Relativer Rabatt/Aufschlag in Prozent (der in den Preisen bereits enthalten ist !). Ein negativer Wert bedeutet einen Rabatt, sonst beinhaltet der Verkaufspreis einen Aufschlag.
          * </pre>
          *
-         * <code>optional .dstore.values.DecimalValue relative_surcharge = 10017;</code>
+         * <code>.dstore.values.DecimalValue relative_surcharge = 10017;</code>
          */
         private com.google.protobuf.SingleFieldBuilderV3<
             io.dstore.values.DecimalValue, io.dstore.values.DecimalValue.Builder, io.dstore.values.DecimalValueOrBuilder> 
@@ -10457,7 +10457,7 @@ public final class OmGetPricesPu {
          * Absoluter Rabatt/Aufschlag, der im "TotalGrossPrice" bereits ENTHALTEN ist (Englischer Spaltenname ist NICHT korrekt, NICHT mehr verwenden !)
          * </pre>
          *
-         * <code>optional .dstore.values.DecimalValue absolute_total_brutto_surcharge = 10018;</code>
+         * <code>.dstore.values.DecimalValue absolute_total_brutto_surcharge = 10018;</code>
          */
         public boolean hasAbsoluteTotalBruttoSurcharge() {
           return absoluteTotalBruttoSurchargeBuilder_ != null || absoluteTotalBruttoSurcharge_ != null;
@@ -10467,7 +10467,7 @@ public final class OmGetPricesPu {
          * Absoluter Rabatt/Aufschlag, der im "TotalGrossPrice" bereits ENTHALTEN ist (Englischer Spaltenname ist NICHT korrekt, NICHT mehr verwenden !)
          * </pre>
          *
-         * <code>optional .dstore.values.DecimalValue absolute_total_brutto_surcharge = 10018;</code>
+         * <code>.dstore.values.DecimalValue absolute_total_brutto_surcharge = 10018;</code>
          */
         public io.dstore.values.DecimalValue getAbsoluteTotalBruttoSurcharge() {
           if (absoluteTotalBruttoSurchargeBuilder_ == null) {
@@ -10481,7 +10481,7 @@ public final class OmGetPricesPu {
          * Absoluter Rabatt/Aufschlag, der im "TotalGrossPrice" bereits ENTHALTEN ist (Englischer Spaltenname ist NICHT korrekt, NICHT mehr verwenden !)
          * </pre>
          *
-         * <code>optional .dstore.values.DecimalValue absolute_total_brutto_surcharge = 10018;</code>
+         * <code>.dstore.values.DecimalValue absolute_total_brutto_surcharge = 10018;</code>
          */
         public Builder setAbsoluteTotalBruttoSurcharge(io.dstore.values.DecimalValue value) {
           if (absoluteTotalBruttoSurchargeBuilder_ == null) {
@@ -10501,7 +10501,7 @@ public final class OmGetPricesPu {
          * Absoluter Rabatt/Aufschlag, der im "TotalGrossPrice" bereits ENTHALTEN ist (Englischer Spaltenname ist NICHT korrekt, NICHT mehr verwenden !)
          * </pre>
          *
-         * <code>optional .dstore.values.DecimalValue absolute_total_brutto_surcharge = 10018;</code>
+         * <code>.dstore.values.DecimalValue absolute_total_brutto_surcharge = 10018;</code>
          */
         public Builder setAbsoluteTotalBruttoSurcharge(
             io.dstore.values.DecimalValue.Builder builderForValue) {
@@ -10519,7 +10519,7 @@ public final class OmGetPricesPu {
          * Absoluter Rabatt/Aufschlag, der im "TotalGrossPrice" bereits ENTHALTEN ist (Englischer Spaltenname ist NICHT korrekt, NICHT mehr verwenden !)
          * </pre>
          *
-         * <code>optional .dstore.values.DecimalValue absolute_total_brutto_surcharge = 10018;</code>
+         * <code>.dstore.values.DecimalValue absolute_total_brutto_surcharge = 10018;</code>
          */
         public Builder mergeAbsoluteTotalBruttoSurcharge(io.dstore.values.DecimalValue value) {
           if (absoluteTotalBruttoSurchargeBuilder_ == null) {
@@ -10541,7 +10541,7 @@ public final class OmGetPricesPu {
          * Absoluter Rabatt/Aufschlag, der im "TotalGrossPrice" bereits ENTHALTEN ist (Englischer Spaltenname ist NICHT korrekt, NICHT mehr verwenden !)
          * </pre>
          *
-         * <code>optional .dstore.values.DecimalValue absolute_total_brutto_surcharge = 10018;</code>
+         * <code>.dstore.values.DecimalValue absolute_total_brutto_surcharge = 10018;</code>
          */
         public Builder clearAbsoluteTotalBruttoSurcharge() {
           if (absoluteTotalBruttoSurchargeBuilder_ == null) {
@@ -10559,7 +10559,7 @@ public final class OmGetPricesPu {
          * Absoluter Rabatt/Aufschlag, der im "TotalGrossPrice" bereits ENTHALTEN ist (Englischer Spaltenname ist NICHT korrekt, NICHT mehr verwenden !)
          * </pre>
          *
-         * <code>optional .dstore.values.DecimalValue absolute_total_brutto_surcharge = 10018;</code>
+         * <code>.dstore.values.DecimalValue absolute_total_brutto_surcharge = 10018;</code>
          */
         public io.dstore.values.DecimalValue.Builder getAbsoluteTotalBruttoSurchargeBuilder() {
           
@@ -10571,7 +10571,7 @@ public final class OmGetPricesPu {
          * Absoluter Rabatt/Aufschlag, der im "TotalGrossPrice" bereits ENTHALTEN ist (Englischer Spaltenname ist NICHT korrekt, NICHT mehr verwenden !)
          * </pre>
          *
-         * <code>optional .dstore.values.DecimalValue absolute_total_brutto_surcharge = 10018;</code>
+         * <code>.dstore.values.DecimalValue absolute_total_brutto_surcharge = 10018;</code>
          */
         public io.dstore.values.DecimalValueOrBuilder getAbsoluteTotalBruttoSurchargeOrBuilder() {
           if (absoluteTotalBruttoSurchargeBuilder_ != null) {
@@ -10586,7 +10586,7 @@ public final class OmGetPricesPu {
          * Absoluter Rabatt/Aufschlag, der im "TotalGrossPrice" bereits ENTHALTEN ist (Englischer Spaltenname ist NICHT korrekt, NICHT mehr verwenden !)
          * </pre>
          *
-         * <code>optional .dstore.values.DecimalValue absolute_total_brutto_surcharge = 10018;</code>
+         * <code>.dstore.values.DecimalValue absolute_total_brutto_surcharge = 10018;</code>
          */
         private com.google.protobuf.SingleFieldBuilderV3<
             io.dstore.values.DecimalValue, io.dstore.values.DecimalValue.Builder, io.dstore.values.DecimalValueOrBuilder> 
@@ -10610,7 +10610,7 @@ public final class OmGetPricesPu {
          * Liste von "CampaignID"s der Verkaufsaktionen, die zur Rabattierung der Position geführt haben. Immer "NULL", wenn "&#64;GetAdditionalPriceInfo = 0" ist oder keine Rabattierung vorliegt !
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue surcharge_generated_by_camp_ids = 10019;</code>
+         * <code>.dstore.values.StringValue surcharge_generated_by_camp_ids = 10019;</code>
          */
         public boolean hasSurchargeGeneratedByCampIds() {
           return surchargeGeneratedByCampIdsBuilder_ != null || surchargeGeneratedByCampIds_ != null;
@@ -10620,7 +10620,7 @@ public final class OmGetPricesPu {
          * Liste von "CampaignID"s der Verkaufsaktionen, die zur Rabattierung der Position geführt haben. Immer "NULL", wenn "&#64;GetAdditionalPriceInfo = 0" ist oder keine Rabattierung vorliegt !
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue surcharge_generated_by_camp_ids = 10019;</code>
+         * <code>.dstore.values.StringValue surcharge_generated_by_camp_ids = 10019;</code>
          */
         public io.dstore.values.StringValue getSurchargeGeneratedByCampIds() {
           if (surchargeGeneratedByCampIdsBuilder_ == null) {
@@ -10634,7 +10634,7 @@ public final class OmGetPricesPu {
          * Liste von "CampaignID"s der Verkaufsaktionen, die zur Rabattierung der Position geführt haben. Immer "NULL", wenn "&#64;GetAdditionalPriceInfo = 0" ist oder keine Rabattierung vorliegt !
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue surcharge_generated_by_camp_ids = 10019;</code>
+         * <code>.dstore.values.StringValue surcharge_generated_by_camp_ids = 10019;</code>
          */
         public Builder setSurchargeGeneratedByCampIds(io.dstore.values.StringValue value) {
           if (surchargeGeneratedByCampIdsBuilder_ == null) {
@@ -10654,7 +10654,7 @@ public final class OmGetPricesPu {
          * Liste von "CampaignID"s der Verkaufsaktionen, die zur Rabattierung der Position geführt haben. Immer "NULL", wenn "&#64;GetAdditionalPriceInfo = 0" ist oder keine Rabattierung vorliegt !
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue surcharge_generated_by_camp_ids = 10019;</code>
+         * <code>.dstore.values.StringValue surcharge_generated_by_camp_ids = 10019;</code>
          */
         public Builder setSurchargeGeneratedByCampIds(
             io.dstore.values.StringValue.Builder builderForValue) {
@@ -10672,7 +10672,7 @@ public final class OmGetPricesPu {
          * Liste von "CampaignID"s der Verkaufsaktionen, die zur Rabattierung der Position geführt haben. Immer "NULL", wenn "&#64;GetAdditionalPriceInfo = 0" ist oder keine Rabattierung vorliegt !
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue surcharge_generated_by_camp_ids = 10019;</code>
+         * <code>.dstore.values.StringValue surcharge_generated_by_camp_ids = 10019;</code>
          */
         public Builder mergeSurchargeGeneratedByCampIds(io.dstore.values.StringValue value) {
           if (surchargeGeneratedByCampIdsBuilder_ == null) {
@@ -10694,7 +10694,7 @@ public final class OmGetPricesPu {
          * Liste von "CampaignID"s der Verkaufsaktionen, die zur Rabattierung der Position geführt haben. Immer "NULL", wenn "&#64;GetAdditionalPriceInfo = 0" ist oder keine Rabattierung vorliegt !
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue surcharge_generated_by_camp_ids = 10019;</code>
+         * <code>.dstore.values.StringValue surcharge_generated_by_camp_ids = 10019;</code>
          */
         public Builder clearSurchargeGeneratedByCampIds() {
           if (surchargeGeneratedByCampIdsBuilder_ == null) {
@@ -10712,7 +10712,7 @@ public final class OmGetPricesPu {
          * Liste von "CampaignID"s der Verkaufsaktionen, die zur Rabattierung der Position geführt haben. Immer "NULL", wenn "&#64;GetAdditionalPriceInfo = 0" ist oder keine Rabattierung vorliegt !
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue surcharge_generated_by_camp_ids = 10019;</code>
+         * <code>.dstore.values.StringValue surcharge_generated_by_camp_ids = 10019;</code>
          */
         public io.dstore.values.StringValue.Builder getSurchargeGeneratedByCampIdsBuilder() {
           
@@ -10724,7 +10724,7 @@ public final class OmGetPricesPu {
          * Liste von "CampaignID"s der Verkaufsaktionen, die zur Rabattierung der Position geführt haben. Immer "NULL", wenn "&#64;GetAdditionalPriceInfo = 0" ist oder keine Rabattierung vorliegt !
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue surcharge_generated_by_camp_ids = 10019;</code>
+         * <code>.dstore.values.StringValue surcharge_generated_by_camp_ids = 10019;</code>
          */
         public io.dstore.values.StringValueOrBuilder getSurchargeGeneratedByCampIdsOrBuilder() {
           if (surchargeGeneratedByCampIdsBuilder_ != null) {
@@ -10739,7 +10739,7 @@ public final class OmGetPricesPu {
          * Liste von "CampaignID"s der Verkaufsaktionen, die zur Rabattierung der Position geführt haben. Immer "NULL", wenn "&#64;GetAdditionalPriceInfo = 0" ist oder keine Rabattierung vorliegt !
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue surcharge_generated_by_camp_ids = 10019;</code>
+         * <code>.dstore.values.StringValue surcharge_generated_by_camp_ids = 10019;</code>
          */
         private com.google.protobuf.SingleFieldBuilderV3<
             io.dstore.values.StringValue, io.dstore.values.StringValue.Builder, io.dstore.values.StringValueOrBuilder> 
@@ -10763,7 +10763,7 @@ public final class OmGetPricesPu {
          * Exakter (intern gespeicherter) Wert für "TotalGrossPrice"
          * </pre>
          *
-         * <code>optional .dstore.values.DecimalValue precise_total_gross_price = 10020;</code>
+         * <code>.dstore.values.DecimalValue precise_total_gross_price = 10020;</code>
          */
         public boolean hasPreciseTotalGrossPrice() {
           return preciseTotalGrossPriceBuilder_ != null || preciseTotalGrossPrice_ != null;
@@ -10773,7 +10773,7 @@ public final class OmGetPricesPu {
          * Exakter (intern gespeicherter) Wert für "TotalGrossPrice"
          * </pre>
          *
-         * <code>optional .dstore.values.DecimalValue precise_total_gross_price = 10020;</code>
+         * <code>.dstore.values.DecimalValue precise_total_gross_price = 10020;</code>
          */
         public io.dstore.values.DecimalValue getPreciseTotalGrossPrice() {
           if (preciseTotalGrossPriceBuilder_ == null) {
@@ -10787,7 +10787,7 @@ public final class OmGetPricesPu {
          * Exakter (intern gespeicherter) Wert für "TotalGrossPrice"
          * </pre>
          *
-         * <code>optional .dstore.values.DecimalValue precise_total_gross_price = 10020;</code>
+         * <code>.dstore.values.DecimalValue precise_total_gross_price = 10020;</code>
          */
         public Builder setPreciseTotalGrossPrice(io.dstore.values.DecimalValue value) {
           if (preciseTotalGrossPriceBuilder_ == null) {
@@ -10807,7 +10807,7 @@ public final class OmGetPricesPu {
          * Exakter (intern gespeicherter) Wert für "TotalGrossPrice"
          * </pre>
          *
-         * <code>optional .dstore.values.DecimalValue precise_total_gross_price = 10020;</code>
+         * <code>.dstore.values.DecimalValue precise_total_gross_price = 10020;</code>
          */
         public Builder setPreciseTotalGrossPrice(
             io.dstore.values.DecimalValue.Builder builderForValue) {
@@ -10825,7 +10825,7 @@ public final class OmGetPricesPu {
          * Exakter (intern gespeicherter) Wert für "TotalGrossPrice"
          * </pre>
          *
-         * <code>optional .dstore.values.DecimalValue precise_total_gross_price = 10020;</code>
+         * <code>.dstore.values.DecimalValue precise_total_gross_price = 10020;</code>
          */
         public Builder mergePreciseTotalGrossPrice(io.dstore.values.DecimalValue value) {
           if (preciseTotalGrossPriceBuilder_ == null) {
@@ -10847,7 +10847,7 @@ public final class OmGetPricesPu {
          * Exakter (intern gespeicherter) Wert für "TotalGrossPrice"
          * </pre>
          *
-         * <code>optional .dstore.values.DecimalValue precise_total_gross_price = 10020;</code>
+         * <code>.dstore.values.DecimalValue precise_total_gross_price = 10020;</code>
          */
         public Builder clearPreciseTotalGrossPrice() {
           if (preciseTotalGrossPriceBuilder_ == null) {
@@ -10865,7 +10865,7 @@ public final class OmGetPricesPu {
          * Exakter (intern gespeicherter) Wert für "TotalGrossPrice"
          * </pre>
          *
-         * <code>optional .dstore.values.DecimalValue precise_total_gross_price = 10020;</code>
+         * <code>.dstore.values.DecimalValue precise_total_gross_price = 10020;</code>
          */
         public io.dstore.values.DecimalValue.Builder getPreciseTotalGrossPriceBuilder() {
           
@@ -10877,7 +10877,7 @@ public final class OmGetPricesPu {
          * Exakter (intern gespeicherter) Wert für "TotalGrossPrice"
          * </pre>
          *
-         * <code>optional .dstore.values.DecimalValue precise_total_gross_price = 10020;</code>
+         * <code>.dstore.values.DecimalValue precise_total_gross_price = 10020;</code>
          */
         public io.dstore.values.DecimalValueOrBuilder getPreciseTotalGrossPriceOrBuilder() {
           if (preciseTotalGrossPriceBuilder_ != null) {
@@ -10892,7 +10892,7 @@ public final class OmGetPricesPu {
          * Exakter (intern gespeicherter) Wert für "TotalGrossPrice"
          * </pre>
          *
-         * <code>optional .dstore.values.DecimalValue precise_total_gross_price = 10020;</code>
+         * <code>.dstore.values.DecimalValue precise_total_gross_price = 10020;</code>
          */
         private com.google.protobuf.SingleFieldBuilderV3<
             io.dstore.values.DecimalValue, io.dstore.values.DecimalValue.Builder, io.dstore.values.DecimalValueOrBuilder> 
@@ -10916,7 +10916,7 @@ public final class OmGetPricesPu {
          * Netto-Preis von "NodeID", wenn man den Artikel EINMAL bestellt (Englischer Spaltenname ist NICHT korrekt, NICHT mehr verwenden !)
          * </pre>
          *
-         * <code>optional .dstore.values.DecimalValue unit_netto_price = 10021;</code>
+         * <code>.dstore.values.DecimalValue unit_netto_price = 10021;</code>
          */
         public boolean hasUnitNettoPrice() {
           return unitNettoPriceBuilder_ != null || unitNettoPrice_ != null;
@@ -10926,7 +10926,7 @@ public final class OmGetPricesPu {
          * Netto-Preis von "NodeID", wenn man den Artikel EINMAL bestellt (Englischer Spaltenname ist NICHT korrekt, NICHT mehr verwenden !)
          * </pre>
          *
-         * <code>optional .dstore.values.DecimalValue unit_netto_price = 10021;</code>
+         * <code>.dstore.values.DecimalValue unit_netto_price = 10021;</code>
          */
         public io.dstore.values.DecimalValue getUnitNettoPrice() {
           if (unitNettoPriceBuilder_ == null) {
@@ -10940,7 +10940,7 @@ public final class OmGetPricesPu {
          * Netto-Preis von "NodeID", wenn man den Artikel EINMAL bestellt (Englischer Spaltenname ist NICHT korrekt, NICHT mehr verwenden !)
          * </pre>
          *
-         * <code>optional .dstore.values.DecimalValue unit_netto_price = 10021;</code>
+         * <code>.dstore.values.DecimalValue unit_netto_price = 10021;</code>
          */
         public Builder setUnitNettoPrice(io.dstore.values.DecimalValue value) {
           if (unitNettoPriceBuilder_ == null) {
@@ -10960,7 +10960,7 @@ public final class OmGetPricesPu {
          * Netto-Preis von "NodeID", wenn man den Artikel EINMAL bestellt (Englischer Spaltenname ist NICHT korrekt, NICHT mehr verwenden !)
          * </pre>
          *
-         * <code>optional .dstore.values.DecimalValue unit_netto_price = 10021;</code>
+         * <code>.dstore.values.DecimalValue unit_netto_price = 10021;</code>
          */
         public Builder setUnitNettoPrice(
             io.dstore.values.DecimalValue.Builder builderForValue) {
@@ -10978,7 +10978,7 @@ public final class OmGetPricesPu {
          * Netto-Preis von "NodeID", wenn man den Artikel EINMAL bestellt (Englischer Spaltenname ist NICHT korrekt, NICHT mehr verwenden !)
          * </pre>
          *
-         * <code>optional .dstore.values.DecimalValue unit_netto_price = 10021;</code>
+         * <code>.dstore.values.DecimalValue unit_netto_price = 10021;</code>
          */
         public Builder mergeUnitNettoPrice(io.dstore.values.DecimalValue value) {
           if (unitNettoPriceBuilder_ == null) {
@@ -11000,7 +11000,7 @@ public final class OmGetPricesPu {
          * Netto-Preis von "NodeID", wenn man den Artikel EINMAL bestellt (Englischer Spaltenname ist NICHT korrekt, NICHT mehr verwenden !)
          * </pre>
          *
-         * <code>optional .dstore.values.DecimalValue unit_netto_price = 10021;</code>
+         * <code>.dstore.values.DecimalValue unit_netto_price = 10021;</code>
          */
         public Builder clearUnitNettoPrice() {
           if (unitNettoPriceBuilder_ == null) {
@@ -11018,7 +11018,7 @@ public final class OmGetPricesPu {
          * Netto-Preis von "NodeID", wenn man den Artikel EINMAL bestellt (Englischer Spaltenname ist NICHT korrekt, NICHT mehr verwenden !)
          * </pre>
          *
-         * <code>optional .dstore.values.DecimalValue unit_netto_price = 10021;</code>
+         * <code>.dstore.values.DecimalValue unit_netto_price = 10021;</code>
          */
         public io.dstore.values.DecimalValue.Builder getUnitNettoPriceBuilder() {
           
@@ -11030,7 +11030,7 @@ public final class OmGetPricesPu {
          * Netto-Preis von "NodeID", wenn man den Artikel EINMAL bestellt (Englischer Spaltenname ist NICHT korrekt, NICHT mehr verwenden !)
          * </pre>
          *
-         * <code>optional .dstore.values.DecimalValue unit_netto_price = 10021;</code>
+         * <code>.dstore.values.DecimalValue unit_netto_price = 10021;</code>
          */
         public io.dstore.values.DecimalValueOrBuilder getUnitNettoPriceOrBuilder() {
           if (unitNettoPriceBuilder_ != null) {
@@ -11045,7 +11045,7 @@ public final class OmGetPricesPu {
          * Netto-Preis von "NodeID", wenn man den Artikel EINMAL bestellt (Englischer Spaltenname ist NICHT korrekt, NICHT mehr verwenden !)
          * </pre>
          *
-         * <code>optional .dstore.values.DecimalValue unit_netto_price = 10021;</code>
+         * <code>.dstore.values.DecimalValue unit_netto_price = 10021;</code>
          */
         private com.google.protobuf.SingleFieldBuilderV3<
             io.dstore.values.DecimalValue, io.dstore.values.DecimalValue.Builder, io.dstore.values.DecimalValueOrBuilder> 
@@ -11069,7 +11069,7 @@ public final class OmGetPricesPu {
          * Mehrwertsteuer als "Multiplikator". D.h. beträgt die Mehrwertsteuer z.B. "16 %", steht hier der Wert "1.16".
          * </pre>
          *
-         * <code>optional .dstore.values.DecimalValue taxes_multiplier = 10022;</code>
+         * <code>.dstore.values.DecimalValue taxes_multiplier = 10022;</code>
          */
         public boolean hasTaxesMultiplier() {
           return taxesMultiplierBuilder_ != null || taxesMultiplier_ != null;
@@ -11079,7 +11079,7 @@ public final class OmGetPricesPu {
          * Mehrwertsteuer als "Multiplikator". D.h. beträgt die Mehrwertsteuer z.B. "16 %", steht hier der Wert "1.16".
          * </pre>
          *
-         * <code>optional .dstore.values.DecimalValue taxes_multiplier = 10022;</code>
+         * <code>.dstore.values.DecimalValue taxes_multiplier = 10022;</code>
          */
         public io.dstore.values.DecimalValue getTaxesMultiplier() {
           if (taxesMultiplierBuilder_ == null) {
@@ -11093,7 +11093,7 @@ public final class OmGetPricesPu {
          * Mehrwertsteuer als "Multiplikator". D.h. beträgt die Mehrwertsteuer z.B. "16 %", steht hier der Wert "1.16".
          * </pre>
          *
-         * <code>optional .dstore.values.DecimalValue taxes_multiplier = 10022;</code>
+         * <code>.dstore.values.DecimalValue taxes_multiplier = 10022;</code>
          */
         public Builder setTaxesMultiplier(io.dstore.values.DecimalValue value) {
           if (taxesMultiplierBuilder_ == null) {
@@ -11113,7 +11113,7 @@ public final class OmGetPricesPu {
          * Mehrwertsteuer als "Multiplikator". D.h. beträgt die Mehrwertsteuer z.B. "16 %", steht hier der Wert "1.16".
          * </pre>
          *
-         * <code>optional .dstore.values.DecimalValue taxes_multiplier = 10022;</code>
+         * <code>.dstore.values.DecimalValue taxes_multiplier = 10022;</code>
          */
         public Builder setTaxesMultiplier(
             io.dstore.values.DecimalValue.Builder builderForValue) {
@@ -11131,7 +11131,7 @@ public final class OmGetPricesPu {
          * Mehrwertsteuer als "Multiplikator". D.h. beträgt die Mehrwertsteuer z.B. "16 %", steht hier der Wert "1.16".
          * </pre>
          *
-         * <code>optional .dstore.values.DecimalValue taxes_multiplier = 10022;</code>
+         * <code>.dstore.values.DecimalValue taxes_multiplier = 10022;</code>
          */
         public Builder mergeTaxesMultiplier(io.dstore.values.DecimalValue value) {
           if (taxesMultiplierBuilder_ == null) {
@@ -11153,7 +11153,7 @@ public final class OmGetPricesPu {
          * Mehrwertsteuer als "Multiplikator". D.h. beträgt die Mehrwertsteuer z.B. "16 %", steht hier der Wert "1.16".
          * </pre>
          *
-         * <code>optional .dstore.values.DecimalValue taxes_multiplier = 10022;</code>
+         * <code>.dstore.values.DecimalValue taxes_multiplier = 10022;</code>
          */
         public Builder clearTaxesMultiplier() {
           if (taxesMultiplierBuilder_ == null) {
@@ -11171,7 +11171,7 @@ public final class OmGetPricesPu {
          * Mehrwertsteuer als "Multiplikator". D.h. beträgt die Mehrwertsteuer z.B. "16 %", steht hier der Wert "1.16".
          * </pre>
          *
-         * <code>optional .dstore.values.DecimalValue taxes_multiplier = 10022;</code>
+         * <code>.dstore.values.DecimalValue taxes_multiplier = 10022;</code>
          */
         public io.dstore.values.DecimalValue.Builder getTaxesMultiplierBuilder() {
           
@@ -11183,7 +11183,7 @@ public final class OmGetPricesPu {
          * Mehrwertsteuer als "Multiplikator". D.h. beträgt die Mehrwertsteuer z.B. "16 %", steht hier der Wert "1.16".
          * </pre>
          *
-         * <code>optional .dstore.values.DecimalValue taxes_multiplier = 10022;</code>
+         * <code>.dstore.values.DecimalValue taxes_multiplier = 10022;</code>
          */
         public io.dstore.values.DecimalValueOrBuilder getTaxesMultiplierOrBuilder() {
           if (taxesMultiplierBuilder_ != null) {
@@ -11198,7 +11198,7 @@ public final class OmGetPricesPu {
          * Mehrwertsteuer als "Multiplikator". D.h. beträgt die Mehrwertsteuer z.B. "16 %", steht hier der Wert "1.16".
          * </pre>
          *
-         * <code>optional .dstore.values.DecimalValue taxes_multiplier = 10022;</code>
+         * <code>.dstore.values.DecimalValue taxes_multiplier = 10022;</code>
          */
         private com.google.protobuf.SingleFieldBuilderV3<
             io.dstore.values.DecimalValue, io.dstore.values.DecimalValue.Builder, io.dstore.values.DecimalValueOrBuilder> 
@@ -11222,7 +11222,7 @@ public final class OmGetPricesPu {
          * Exakter (intern gespeicherter) Wert für "AbsoluteTotalGrossSurcharge"
          * </pre>
          *
-         * <code>optional .dstore.values.DecimalValue precise_abs_total_gross_surcharge = 10023;</code>
+         * <code>.dstore.values.DecimalValue precise_abs_total_gross_surcharge = 10023;</code>
          */
         public boolean hasPreciseAbsTotalGrossSurcharge() {
           return preciseAbsTotalGrossSurchargeBuilder_ != null || preciseAbsTotalGrossSurcharge_ != null;
@@ -11232,7 +11232,7 @@ public final class OmGetPricesPu {
          * Exakter (intern gespeicherter) Wert für "AbsoluteTotalGrossSurcharge"
          * </pre>
          *
-         * <code>optional .dstore.values.DecimalValue precise_abs_total_gross_surcharge = 10023;</code>
+         * <code>.dstore.values.DecimalValue precise_abs_total_gross_surcharge = 10023;</code>
          */
         public io.dstore.values.DecimalValue getPreciseAbsTotalGrossSurcharge() {
           if (preciseAbsTotalGrossSurchargeBuilder_ == null) {
@@ -11246,7 +11246,7 @@ public final class OmGetPricesPu {
          * Exakter (intern gespeicherter) Wert für "AbsoluteTotalGrossSurcharge"
          * </pre>
          *
-         * <code>optional .dstore.values.DecimalValue precise_abs_total_gross_surcharge = 10023;</code>
+         * <code>.dstore.values.DecimalValue precise_abs_total_gross_surcharge = 10023;</code>
          */
         public Builder setPreciseAbsTotalGrossSurcharge(io.dstore.values.DecimalValue value) {
           if (preciseAbsTotalGrossSurchargeBuilder_ == null) {
@@ -11266,7 +11266,7 @@ public final class OmGetPricesPu {
          * Exakter (intern gespeicherter) Wert für "AbsoluteTotalGrossSurcharge"
          * </pre>
          *
-         * <code>optional .dstore.values.DecimalValue precise_abs_total_gross_surcharge = 10023;</code>
+         * <code>.dstore.values.DecimalValue precise_abs_total_gross_surcharge = 10023;</code>
          */
         public Builder setPreciseAbsTotalGrossSurcharge(
             io.dstore.values.DecimalValue.Builder builderForValue) {
@@ -11284,7 +11284,7 @@ public final class OmGetPricesPu {
          * Exakter (intern gespeicherter) Wert für "AbsoluteTotalGrossSurcharge"
          * </pre>
          *
-         * <code>optional .dstore.values.DecimalValue precise_abs_total_gross_surcharge = 10023;</code>
+         * <code>.dstore.values.DecimalValue precise_abs_total_gross_surcharge = 10023;</code>
          */
         public Builder mergePreciseAbsTotalGrossSurcharge(io.dstore.values.DecimalValue value) {
           if (preciseAbsTotalGrossSurchargeBuilder_ == null) {
@@ -11306,7 +11306,7 @@ public final class OmGetPricesPu {
          * Exakter (intern gespeicherter) Wert für "AbsoluteTotalGrossSurcharge"
          * </pre>
          *
-         * <code>optional .dstore.values.DecimalValue precise_abs_total_gross_surcharge = 10023;</code>
+         * <code>.dstore.values.DecimalValue precise_abs_total_gross_surcharge = 10023;</code>
          */
         public Builder clearPreciseAbsTotalGrossSurcharge() {
           if (preciseAbsTotalGrossSurchargeBuilder_ == null) {
@@ -11324,7 +11324,7 @@ public final class OmGetPricesPu {
          * Exakter (intern gespeicherter) Wert für "AbsoluteTotalGrossSurcharge"
          * </pre>
          *
-         * <code>optional .dstore.values.DecimalValue precise_abs_total_gross_surcharge = 10023;</code>
+         * <code>.dstore.values.DecimalValue precise_abs_total_gross_surcharge = 10023;</code>
          */
         public io.dstore.values.DecimalValue.Builder getPreciseAbsTotalGrossSurchargeBuilder() {
           
@@ -11336,7 +11336,7 @@ public final class OmGetPricesPu {
          * Exakter (intern gespeicherter) Wert für "AbsoluteTotalGrossSurcharge"
          * </pre>
          *
-         * <code>optional .dstore.values.DecimalValue precise_abs_total_gross_surcharge = 10023;</code>
+         * <code>.dstore.values.DecimalValue precise_abs_total_gross_surcharge = 10023;</code>
          */
         public io.dstore.values.DecimalValueOrBuilder getPreciseAbsTotalGrossSurchargeOrBuilder() {
           if (preciseAbsTotalGrossSurchargeBuilder_ != null) {
@@ -11351,7 +11351,7 @@ public final class OmGetPricesPu {
          * Exakter (intern gespeicherter) Wert für "AbsoluteTotalGrossSurcharge"
          * </pre>
          *
-         * <code>optional .dstore.values.DecimalValue precise_abs_total_gross_surcharge = 10023;</code>
+         * <code>.dstore.values.DecimalValue precise_abs_total_gross_surcharge = 10023;</code>
          */
         private com.google.protobuf.SingleFieldBuilderV3<
             io.dstore.values.DecimalValue, io.dstore.values.DecimalValue.Builder, io.dstore.values.DecimalValueOrBuilder> 
@@ -11375,7 +11375,7 @@ public final class OmGetPricesPu {
          * Exakter (intern gespeicherter) Wert für "AbsoluteTotalNetSurcharge"
          * </pre>
          *
-         * <code>optional .dstore.values.DecimalValue precise_abs_total_net_surcharge = 10024;</code>
+         * <code>.dstore.values.DecimalValue precise_abs_total_net_surcharge = 10024;</code>
          */
         public boolean hasPreciseAbsTotalNetSurcharge() {
           return preciseAbsTotalNetSurchargeBuilder_ != null || preciseAbsTotalNetSurcharge_ != null;
@@ -11385,7 +11385,7 @@ public final class OmGetPricesPu {
          * Exakter (intern gespeicherter) Wert für "AbsoluteTotalNetSurcharge"
          * </pre>
          *
-         * <code>optional .dstore.values.DecimalValue precise_abs_total_net_surcharge = 10024;</code>
+         * <code>.dstore.values.DecimalValue precise_abs_total_net_surcharge = 10024;</code>
          */
         public io.dstore.values.DecimalValue getPreciseAbsTotalNetSurcharge() {
           if (preciseAbsTotalNetSurchargeBuilder_ == null) {
@@ -11399,7 +11399,7 @@ public final class OmGetPricesPu {
          * Exakter (intern gespeicherter) Wert für "AbsoluteTotalNetSurcharge"
          * </pre>
          *
-         * <code>optional .dstore.values.DecimalValue precise_abs_total_net_surcharge = 10024;</code>
+         * <code>.dstore.values.DecimalValue precise_abs_total_net_surcharge = 10024;</code>
          */
         public Builder setPreciseAbsTotalNetSurcharge(io.dstore.values.DecimalValue value) {
           if (preciseAbsTotalNetSurchargeBuilder_ == null) {
@@ -11419,7 +11419,7 @@ public final class OmGetPricesPu {
          * Exakter (intern gespeicherter) Wert für "AbsoluteTotalNetSurcharge"
          * </pre>
          *
-         * <code>optional .dstore.values.DecimalValue precise_abs_total_net_surcharge = 10024;</code>
+         * <code>.dstore.values.DecimalValue precise_abs_total_net_surcharge = 10024;</code>
          */
         public Builder setPreciseAbsTotalNetSurcharge(
             io.dstore.values.DecimalValue.Builder builderForValue) {
@@ -11437,7 +11437,7 @@ public final class OmGetPricesPu {
          * Exakter (intern gespeicherter) Wert für "AbsoluteTotalNetSurcharge"
          * </pre>
          *
-         * <code>optional .dstore.values.DecimalValue precise_abs_total_net_surcharge = 10024;</code>
+         * <code>.dstore.values.DecimalValue precise_abs_total_net_surcharge = 10024;</code>
          */
         public Builder mergePreciseAbsTotalNetSurcharge(io.dstore.values.DecimalValue value) {
           if (preciseAbsTotalNetSurchargeBuilder_ == null) {
@@ -11459,7 +11459,7 @@ public final class OmGetPricesPu {
          * Exakter (intern gespeicherter) Wert für "AbsoluteTotalNetSurcharge"
          * </pre>
          *
-         * <code>optional .dstore.values.DecimalValue precise_abs_total_net_surcharge = 10024;</code>
+         * <code>.dstore.values.DecimalValue precise_abs_total_net_surcharge = 10024;</code>
          */
         public Builder clearPreciseAbsTotalNetSurcharge() {
           if (preciseAbsTotalNetSurchargeBuilder_ == null) {
@@ -11477,7 +11477,7 @@ public final class OmGetPricesPu {
          * Exakter (intern gespeicherter) Wert für "AbsoluteTotalNetSurcharge"
          * </pre>
          *
-         * <code>optional .dstore.values.DecimalValue precise_abs_total_net_surcharge = 10024;</code>
+         * <code>.dstore.values.DecimalValue precise_abs_total_net_surcharge = 10024;</code>
          */
         public io.dstore.values.DecimalValue.Builder getPreciseAbsTotalNetSurchargeBuilder() {
           
@@ -11489,7 +11489,7 @@ public final class OmGetPricesPu {
          * Exakter (intern gespeicherter) Wert für "AbsoluteTotalNetSurcharge"
          * </pre>
          *
-         * <code>optional .dstore.values.DecimalValue precise_abs_total_net_surcharge = 10024;</code>
+         * <code>.dstore.values.DecimalValue precise_abs_total_net_surcharge = 10024;</code>
          */
         public io.dstore.values.DecimalValueOrBuilder getPreciseAbsTotalNetSurchargeOrBuilder() {
           if (preciseAbsTotalNetSurchargeBuilder_ != null) {
@@ -11504,7 +11504,7 @@ public final class OmGetPricesPu {
          * Exakter (intern gespeicherter) Wert für "AbsoluteTotalNetSurcharge"
          * </pre>
          *
-         * <code>optional .dstore.values.DecimalValue precise_abs_total_net_surcharge = 10024;</code>
+         * <code>.dstore.values.DecimalValue precise_abs_total_net_surcharge = 10024;</code>
          */
         private com.google.protobuf.SingleFieldBuilderV3<
             io.dstore.values.DecimalValue, io.dstore.values.DecimalValue.Builder, io.dstore.values.DecimalValueOrBuilder> 
@@ -11528,7 +11528,7 @@ public final class OmGetPricesPu {
          * Netto-Preis von "NodeID", wenn man den Artikel "Quantity-Mal" bestellt
          * </pre>
          *
-         * <code>optional .dstore.values.DecimalValue total_net_price = 10025;</code>
+         * <code>.dstore.values.DecimalValue total_net_price = 10025;</code>
          */
         public boolean hasTotalNetPrice() {
           return totalNetPriceBuilder_ != null || totalNetPrice_ != null;
@@ -11538,7 +11538,7 @@ public final class OmGetPricesPu {
          * Netto-Preis von "NodeID", wenn man den Artikel "Quantity-Mal" bestellt
          * </pre>
          *
-         * <code>optional .dstore.values.DecimalValue total_net_price = 10025;</code>
+         * <code>.dstore.values.DecimalValue total_net_price = 10025;</code>
          */
         public io.dstore.values.DecimalValue getTotalNetPrice() {
           if (totalNetPriceBuilder_ == null) {
@@ -11552,7 +11552,7 @@ public final class OmGetPricesPu {
          * Netto-Preis von "NodeID", wenn man den Artikel "Quantity-Mal" bestellt
          * </pre>
          *
-         * <code>optional .dstore.values.DecimalValue total_net_price = 10025;</code>
+         * <code>.dstore.values.DecimalValue total_net_price = 10025;</code>
          */
         public Builder setTotalNetPrice(io.dstore.values.DecimalValue value) {
           if (totalNetPriceBuilder_ == null) {
@@ -11572,7 +11572,7 @@ public final class OmGetPricesPu {
          * Netto-Preis von "NodeID", wenn man den Artikel "Quantity-Mal" bestellt
          * </pre>
          *
-         * <code>optional .dstore.values.DecimalValue total_net_price = 10025;</code>
+         * <code>.dstore.values.DecimalValue total_net_price = 10025;</code>
          */
         public Builder setTotalNetPrice(
             io.dstore.values.DecimalValue.Builder builderForValue) {
@@ -11590,7 +11590,7 @@ public final class OmGetPricesPu {
          * Netto-Preis von "NodeID", wenn man den Artikel "Quantity-Mal" bestellt
          * </pre>
          *
-         * <code>optional .dstore.values.DecimalValue total_net_price = 10025;</code>
+         * <code>.dstore.values.DecimalValue total_net_price = 10025;</code>
          */
         public Builder mergeTotalNetPrice(io.dstore.values.DecimalValue value) {
           if (totalNetPriceBuilder_ == null) {
@@ -11612,7 +11612,7 @@ public final class OmGetPricesPu {
          * Netto-Preis von "NodeID", wenn man den Artikel "Quantity-Mal" bestellt
          * </pre>
          *
-         * <code>optional .dstore.values.DecimalValue total_net_price = 10025;</code>
+         * <code>.dstore.values.DecimalValue total_net_price = 10025;</code>
          */
         public Builder clearTotalNetPrice() {
           if (totalNetPriceBuilder_ == null) {
@@ -11630,7 +11630,7 @@ public final class OmGetPricesPu {
          * Netto-Preis von "NodeID", wenn man den Artikel "Quantity-Mal" bestellt
          * </pre>
          *
-         * <code>optional .dstore.values.DecimalValue total_net_price = 10025;</code>
+         * <code>.dstore.values.DecimalValue total_net_price = 10025;</code>
          */
         public io.dstore.values.DecimalValue.Builder getTotalNetPriceBuilder() {
           
@@ -11642,7 +11642,7 @@ public final class OmGetPricesPu {
          * Netto-Preis von "NodeID", wenn man den Artikel "Quantity-Mal" bestellt
          * </pre>
          *
-         * <code>optional .dstore.values.DecimalValue total_net_price = 10025;</code>
+         * <code>.dstore.values.DecimalValue total_net_price = 10025;</code>
          */
         public io.dstore.values.DecimalValueOrBuilder getTotalNetPriceOrBuilder() {
           if (totalNetPriceBuilder_ != null) {
@@ -11657,7 +11657,7 @@ public final class OmGetPricesPu {
          * Netto-Preis von "NodeID", wenn man den Artikel "Quantity-Mal" bestellt
          * </pre>
          *
-         * <code>optional .dstore.values.DecimalValue total_net_price = 10025;</code>
+         * <code>.dstore.values.DecimalValue total_net_price = 10025;</code>
          */
         private com.google.protobuf.SingleFieldBuilderV3<
             io.dstore.values.DecimalValue, io.dstore.values.DecimalValue.Builder, io.dstore.values.DecimalValueOrBuilder> 
@@ -11681,7 +11681,7 @@ public final class OmGetPricesPu {
          * Wieviel von dem Artikel bestellt werden soll. Hier steht also entweder die Zahl, die in "&#64;Quantities" angegeben wurde, oder "1".
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue quantity = 10026;</code>
+         * <code>.dstore.values.IntegerValue quantity = 10026;</code>
          */
         public boolean hasQuantity() {
           return quantityBuilder_ != null || quantity_ != null;
@@ -11691,7 +11691,7 @@ public final class OmGetPricesPu {
          * Wieviel von dem Artikel bestellt werden soll. Hier steht also entweder die Zahl, die in "&#64;Quantities" angegeben wurde, oder "1".
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue quantity = 10026;</code>
+         * <code>.dstore.values.IntegerValue quantity = 10026;</code>
          */
         public io.dstore.values.IntegerValue getQuantity() {
           if (quantityBuilder_ == null) {
@@ -11705,7 +11705,7 @@ public final class OmGetPricesPu {
          * Wieviel von dem Artikel bestellt werden soll. Hier steht also entweder die Zahl, die in "&#64;Quantities" angegeben wurde, oder "1".
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue quantity = 10026;</code>
+         * <code>.dstore.values.IntegerValue quantity = 10026;</code>
          */
         public Builder setQuantity(io.dstore.values.IntegerValue value) {
           if (quantityBuilder_ == null) {
@@ -11725,7 +11725,7 @@ public final class OmGetPricesPu {
          * Wieviel von dem Artikel bestellt werden soll. Hier steht also entweder die Zahl, die in "&#64;Quantities" angegeben wurde, oder "1".
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue quantity = 10026;</code>
+         * <code>.dstore.values.IntegerValue quantity = 10026;</code>
          */
         public Builder setQuantity(
             io.dstore.values.IntegerValue.Builder builderForValue) {
@@ -11743,7 +11743,7 @@ public final class OmGetPricesPu {
          * Wieviel von dem Artikel bestellt werden soll. Hier steht also entweder die Zahl, die in "&#64;Quantities" angegeben wurde, oder "1".
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue quantity = 10026;</code>
+         * <code>.dstore.values.IntegerValue quantity = 10026;</code>
          */
         public Builder mergeQuantity(io.dstore.values.IntegerValue value) {
           if (quantityBuilder_ == null) {
@@ -11765,7 +11765,7 @@ public final class OmGetPricesPu {
          * Wieviel von dem Artikel bestellt werden soll. Hier steht also entweder die Zahl, die in "&#64;Quantities" angegeben wurde, oder "1".
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue quantity = 10026;</code>
+         * <code>.dstore.values.IntegerValue quantity = 10026;</code>
          */
         public Builder clearQuantity() {
           if (quantityBuilder_ == null) {
@@ -11783,7 +11783,7 @@ public final class OmGetPricesPu {
          * Wieviel von dem Artikel bestellt werden soll. Hier steht also entweder die Zahl, die in "&#64;Quantities" angegeben wurde, oder "1".
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue quantity = 10026;</code>
+         * <code>.dstore.values.IntegerValue quantity = 10026;</code>
          */
         public io.dstore.values.IntegerValue.Builder getQuantityBuilder() {
           
@@ -11795,7 +11795,7 @@ public final class OmGetPricesPu {
          * Wieviel von dem Artikel bestellt werden soll. Hier steht also entweder die Zahl, die in "&#64;Quantities" angegeben wurde, oder "1".
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue quantity = 10026;</code>
+         * <code>.dstore.values.IntegerValue quantity = 10026;</code>
          */
         public io.dstore.values.IntegerValueOrBuilder getQuantityOrBuilder() {
           if (quantityBuilder_ != null) {
@@ -11810,7 +11810,7 @@ public final class OmGetPricesPu {
          * Wieviel von dem Artikel bestellt werden soll. Hier steht also entweder die Zahl, die in "&#64;Quantities" angegeben wurde, oder "1".
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue quantity = 10026;</code>
+         * <code>.dstore.values.IntegerValue quantity = 10026;</code>
          */
         private com.google.protobuf.SingleFieldBuilderV3<
             io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> 
@@ -11834,7 +11834,7 @@ public final class OmGetPricesPu {
          * Durch ein "," getrennte Liste von Listen, deren Werte wiederum durch "&amp;" getrennt sind, und ein Wert die Form &lt;Menge&gt;x&lt;BundleItemSetID&gt; hat. Dies besagt jeweils, wieviel (&lt;Menge&gt;) von "Quantity" der "TreeNodeID" zu der "&lt;ItemSetID&gt;" des Bundles gehört.
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue quantity_per_bundle_item_set_id_list = 10027;</code>
+         * <code>.dstore.values.StringValue quantity_per_bundle_item_set_id_list = 10027;</code>
          */
         public boolean hasQuantityPerBundleItemSetIdList() {
           return quantityPerBundleItemSetIdListBuilder_ != null || quantityPerBundleItemSetIdList_ != null;
@@ -11844,7 +11844,7 @@ public final class OmGetPricesPu {
          * Durch ein "," getrennte Liste von Listen, deren Werte wiederum durch "&amp;" getrennt sind, und ein Wert die Form &lt;Menge&gt;x&lt;BundleItemSetID&gt; hat. Dies besagt jeweils, wieviel (&lt;Menge&gt;) von "Quantity" der "TreeNodeID" zu der "&lt;ItemSetID&gt;" des Bundles gehört.
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue quantity_per_bundle_item_set_id_list = 10027;</code>
+         * <code>.dstore.values.StringValue quantity_per_bundle_item_set_id_list = 10027;</code>
          */
         public io.dstore.values.StringValue getQuantityPerBundleItemSetIdList() {
           if (quantityPerBundleItemSetIdListBuilder_ == null) {
@@ -11858,7 +11858,7 @@ public final class OmGetPricesPu {
          * Durch ein "," getrennte Liste von Listen, deren Werte wiederum durch "&amp;" getrennt sind, und ein Wert die Form &lt;Menge&gt;x&lt;BundleItemSetID&gt; hat. Dies besagt jeweils, wieviel (&lt;Menge&gt;) von "Quantity" der "TreeNodeID" zu der "&lt;ItemSetID&gt;" des Bundles gehört.
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue quantity_per_bundle_item_set_id_list = 10027;</code>
+         * <code>.dstore.values.StringValue quantity_per_bundle_item_set_id_list = 10027;</code>
          */
         public Builder setQuantityPerBundleItemSetIdList(io.dstore.values.StringValue value) {
           if (quantityPerBundleItemSetIdListBuilder_ == null) {
@@ -11878,7 +11878,7 @@ public final class OmGetPricesPu {
          * Durch ein "," getrennte Liste von Listen, deren Werte wiederum durch "&amp;" getrennt sind, und ein Wert die Form &lt;Menge&gt;x&lt;BundleItemSetID&gt; hat. Dies besagt jeweils, wieviel (&lt;Menge&gt;) von "Quantity" der "TreeNodeID" zu der "&lt;ItemSetID&gt;" des Bundles gehört.
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue quantity_per_bundle_item_set_id_list = 10027;</code>
+         * <code>.dstore.values.StringValue quantity_per_bundle_item_set_id_list = 10027;</code>
          */
         public Builder setQuantityPerBundleItemSetIdList(
             io.dstore.values.StringValue.Builder builderForValue) {
@@ -11896,7 +11896,7 @@ public final class OmGetPricesPu {
          * Durch ein "," getrennte Liste von Listen, deren Werte wiederum durch "&amp;" getrennt sind, und ein Wert die Form &lt;Menge&gt;x&lt;BundleItemSetID&gt; hat. Dies besagt jeweils, wieviel (&lt;Menge&gt;) von "Quantity" der "TreeNodeID" zu der "&lt;ItemSetID&gt;" des Bundles gehört.
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue quantity_per_bundle_item_set_id_list = 10027;</code>
+         * <code>.dstore.values.StringValue quantity_per_bundle_item_set_id_list = 10027;</code>
          */
         public Builder mergeQuantityPerBundleItemSetIdList(io.dstore.values.StringValue value) {
           if (quantityPerBundleItemSetIdListBuilder_ == null) {
@@ -11918,7 +11918,7 @@ public final class OmGetPricesPu {
          * Durch ein "," getrennte Liste von Listen, deren Werte wiederum durch "&amp;" getrennt sind, und ein Wert die Form &lt;Menge&gt;x&lt;BundleItemSetID&gt; hat. Dies besagt jeweils, wieviel (&lt;Menge&gt;) von "Quantity" der "TreeNodeID" zu der "&lt;ItemSetID&gt;" des Bundles gehört.
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue quantity_per_bundle_item_set_id_list = 10027;</code>
+         * <code>.dstore.values.StringValue quantity_per_bundle_item_set_id_list = 10027;</code>
          */
         public Builder clearQuantityPerBundleItemSetIdList() {
           if (quantityPerBundleItemSetIdListBuilder_ == null) {
@@ -11936,7 +11936,7 @@ public final class OmGetPricesPu {
          * Durch ein "," getrennte Liste von Listen, deren Werte wiederum durch "&amp;" getrennt sind, und ein Wert die Form &lt;Menge&gt;x&lt;BundleItemSetID&gt; hat. Dies besagt jeweils, wieviel (&lt;Menge&gt;) von "Quantity" der "TreeNodeID" zu der "&lt;ItemSetID&gt;" des Bundles gehört.
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue quantity_per_bundle_item_set_id_list = 10027;</code>
+         * <code>.dstore.values.StringValue quantity_per_bundle_item_set_id_list = 10027;</code>
          */
         public io.dstore.values.StringValue.Builder getQuantityPerBundleItemSetIdListBuilder() {
           
@@ -11948,7 +11948,7 @@ public final class OmGetPricesPu {
          * Durch ein "," getrennte Liste von Listen, deren Werte wiederum durch "&amp;" getrennt sind, und ein Wert die Form &lt;Menge&gt;x&lt;BundleItemSetID&gt; hat. Dies besagt jeweils, wieviel (&lt;Menge&gt;) von "Quantity" der "TreeNodeID" zu der "&lt;ItemSetID&gt;" des Bundles gehört.
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue quantity_per_bundle_item_set_id_list = 10027;</code>
+         * <code>.dstore.values.StringValue quantity_per_bundle_item_set_id_list = 10027;</code>
          */
         public io.dstore.values.StringValueOrBuilder getQuantityPerBundleItemSetIdListOrBuilder() {
           if (quantityPerBundleItemSetIdListBuilder_ != null) {
@@ -11963,7 +11963,7 @@ public final class OmGetPricesPu {
          * Durch ein "," getrennte Liste von Listen, deren Werte wiederum durch "&amp;" getrennt sind, und ein Wert die Form &lt;Menge&gt;x&lt;BundleItemSetID&gt; hat. Dies besagt jeweils, wieviel (&lt;Menge&gt;) von "Quantity" der "TreeNodeID" zu der "&lt;ItemSetID&gt;" des Bundles gehört.
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue quantity_per_bundle_item_set_id_list = 10027;</code>
+         * <code>.dstore.values.StringValue quantity_per_bundle_item_set_id_list = 10027;</code>
          */
         private com.google.protobuf.SingleFieldBuilderV3<
             io.dstore.values.StringValue, io.dstore.values.StringValue.Builder, io.dstore.values.StringValueOrBuilder> 
@@ -11987,7 +11987,7 @@ public final class OmGetPricesPu {
          * Der Wert des Aufschlags bzw. Rabattes, der verwendet wurde. Ist die "SurchargeTypeID" relativ definiert, entspricht dieser Wert dem in "RelativeSurcharge", andernfalls dem Wert in "AbsoluteUnitNetSurcharge" bzw. "AbsoluteUnitGrossSurcharge"
          * </pre>
          *
-         * <code>optional .dstore.values.DecimalValue surcharge_value = 10028;</code>
+         * <code>.dstore.values.DecimalValue surcharge_value = 10028;</code>
          */
         public boolean hasSurchargeValue() {
           return surchargeValueBuilder_ != null || surchargeValue_ != null;
@@ -11997,7 +11997,7 @@ public final class OmGetPricesPu {
          * Der Wert des Aufschlags bzw. Rabattes, der verwendet wurde. Ist die "SurchargeTypeID" relativ definiert, entspricht dieser Wert dem in "RelativeSurcharge", andernfalls dem Wert in "AbsoluteUnitNetSurcharge" bzw. "AbsoluteUnitGrossSurcharge"
          * </pre>
          *
-         * <code>optional .dstore.values.DecimalValue surcharge_value = 10028;</code>
+         * <code>.dstore.values.DecimalValue surcharge_value = 10028;</code>
          */
         public io.dstore.values.DecimalValue getSurchargeValue() {
           if (surchargeValueBuilder_ == null) {
@@ -12011,7 +12011,7 @@ public final class OmGetPricesPu {
          * Der Wert des Aufschlags bzw. Rabattes, der verwendet wurde. Ist die "SurchargeTypeID" relativ definiert, entspricht dieser Wert dem in "RelativeSurcharge", andernfalls dem Wert in "AbsoluteUnitNetSurcharge" bzw. "AbsoluteUnitGrossSurcharge"
          * </pre>
          *
-         * <code>optional .dstore.values.DecimalValue surcharge_value = 10028;</code>
+         * <code>.dstore.values.DecimalValue surcharge_value = 10028;</code>
          */
         public Builder setSurchargeValue(io.dstore.values.DecimalValue value) {
           if (surchargeValueBuilder_ == null) {
@@ -12031,7 +12031,7 @@ public final class OmGetPricesPu {
          * Der Wert des Aufschlags bzw. Rabattes, der verwendet wurde. Ist die "SurchargeTypeID" relativ definiert, entspricht dieser Wert dem in "RelativeSurcharge", andernfalls dem Wert in "AbsoluteUnitNetSurcharge" bzw. "AbsoluteUnitGrossSurcharge"
          * </pre>
          *
-         * <code>optional .dstore.values.DecimalValue surcharge_value = 10028;</code>
+         * <code>.dstore.values.DecimalValue surcharge_value = 10028;</code>
          */
         public Builder setSurchargeValue(
             io.dstore.values.DecimalValue.Builder builderForValue) {
@@ -12049,7 +12049,7 @@ public final class OmGetPricesPu {
          * Der Wert des Aufschlags bzw. Rabattes, der verwendet wurde. Ist die "SurchargeTypeID" relativ definiert, entspricht dieser Wert dem in "RelativeSurcharge", andernfalls dem Wert in "AbsoluteUnitNetSurcharge" bzw. "AbsoluteUnitGrossSurcharge"
          * </pre>
          *
-         * <code>optional .dstore.values.DecimalValue surcharge_value = 10028;</code>
+         * <code>.dstore.values.DecimalValue surcharge_value = 10028;</code>
          */
         public Builder mergeSurchargeValue(io.dstore.values.DecimalValue value) {
           if (surchargeValueBuilder_ == null) {
@@ -12071,7 +12071,7 @@ public final class OmGetPricesPu {
          * Der Wert des Aufschlags bzw. Rabattes, der verwendet wurde. Ist die "SurchargeTypeID" relativ definiert, entspricht dieser Wert dem in "RelativeSurcharge", andernfalls dem Wert in "AbsoluteUnitNetSurcharge" bzw. "AbsoluteUnitGrossSurcharge"
          * </pre>
          *
-         * <code>optional .dstore.values.DecimalValue surcharge_value = 10028;</code>
+         * <code>.dstore.values.DecimalValue surcharge_value = 10028;</code>
          */
         public Builder clearSurchargeValue() {
           if (surchargeValueBuilder_ == null) {
@@ -12089,7 +12089,7 @@ public final class OmGetPricesPu {
          * Der Wert des Aufschlags bzw. Rabattes, der verwendet wurde. Ist die "SurchargeTypeID" relativ definiert, entspricht dieser Wert dem in "RelativeSurcharge", andernfalls dem Wert in "AbsoluteUnitNetSurcharge" bzw. "AbsoluteUnitGrossSurcharge"
          * </pre>
          *
-         * <code>optional .dstore.values.DecimalValue surcharge_value = 10028;</code>
+         * <code>.dstore.values.DecimalValue surcharge_value = 10028;</code>
          */
         public io.dstore.values.DecimalValue.Builder getSurchargeValueBuilder() {
           
@@ -12101,7 +12101,7 @@ public final class OmGetPricesPu {
          * Der Wert des Aufschlags bzw. Rabattes, der verwendet wurde. Ist die "SurchargeTypeID" relativ definiert, entspricht dieser Wert dem in "RelativeSurcharge", andernfalls dem Wert in "AbsoluteUnitNetSurcharge" bzw. "AbsoluteUnitGrossSurcharge"
          * </pre>
          *
-         * <code>optional .dstore.values.DecimalValue surcharge_value = 10028;</code>
+         * <code>.dstore.values.DecimalValue surcharge_value = 10028;</code>
          */
         public io.dstore.values.DecimalValueOrBuilder getSurchargeValueOrBuilder() {
           if (surchargeValueBuilder_ != null) {
@@ -12116,7 +12116,7 @@ public final class OmGetPricesPu {
          * Der Wert des Aufschlags bzw. Rabattes, der verwendet wurde. Ist die "SurchargeTypeID" relativ definiert, entspricht dieser Wert dem in "RelativeSurcharge", andernfalls dem Wert in "AbsoluteUnitNetSurcharge" bzw. "AbsoluteUnitGrossSurcharge"
          * </pre>
          *
-         * <code>optional .dstore.values.DecimalValue surcharge_value = 10028;</code>
+         * <code>.dstore.values.DecimalValue surcharge_value = 10028;</code>
          */
         private com.google.protobuf.SingleFieldBuilderV3<
             io.dstore.values.DecimalValue, io.dstore.values.DecimalValue.Builder, io.dstore.values.DecimalValueOrBuilder> 
@@ -12140,7 +12140,7 @@ public final class OmGetPricesPu {
          * Absoluter Rabatt/Aufschlag, der in "UnitNetPrice" bereits ENTHALTEN ist
          * </pre>
          *
-         * <code>optional .dstore.values.DecimalValue absolute_unit_net_surcharge = 10029;</code>
+         * <code>.dstore.values.DecimalValue absolute_unit_net_surcharge = 10029;</code>
          */
         public boolean hasAbsoluteUnitNetSurcharge() {
           return absoluteUnitNetSurchargeBuilder_ != null || absoluteUnitNetSurcharge_ != null;
@@ -12150,7 +12150,7 @@ public final class OmGetPricesPu {
          * Absoluter Rabatt/Aufschlag, der in "UnitNetPrice" bereits ENTHALTEN ist
          * </pre>
          *
-         * <code>optional .dstore.values.DecimalValue absolute_unit_net_surcharge = 10029;</code>
+         * <code>.dstore.values.DecimalValue absolute_unit_net_surcharge = 10029;</code>
          */
         public io.dstore.values.DecimalValue getAbsoluteUnitNetSurcharge() {
           if (absoluteUnitNetSurchargeBuilder_ == null) {
@@ -12164,7 +12164,7 @@ public final class OmGetPricesPu {
          * Absoluter Rabatt/Aufschlag, der in "UnitNetPrice" bereits ENTHALTEN ist
          * </pre>
          *
-         * <code>optional .dstore.values.DecimalValue absolute_unit_net_surcharge = 10029;</code>
+         * <code>.dstore.values.DecimalValue absolute_unit_net_surcharge = 10029;</code>
          */
         public Builder setAbsoluteUnitNetSurcharge(io.dstore.values.DecimalValue value) {
           if (absoluteUnitNetSurchargeBuilder_ == null) {
@@ -12184,7 +12184,7 @@ public final class OmGetPricesPu {
          * Absoluter Rabatt/Aufschlag, der in "UnitNetPrice" bereits ENTHALTEN ist
          * </pre>
          *
-         * <code>optional .dstore.values.DecimalValue absolute_unit_net_surcharge = 10029;</code>
+         * <code>.dstore.values.DecimalValue absolute_unit_net_surcharge = 10029;</code>
          */
         public Builder setAbsoluteUnitNetSurcharge(
             io.dstore.values.DecimalValue.Builder builderForValue) {
@@ -12202,7 +12202,7 @@ public final class OmGetPricesPu {
          * Absoluter Rabatt/Aufschlag, der in "UnitNetPrice" bereits ENTHALTEN ist
          * </pre>
          *
-         * <code>optional .dstore.values.DecimalValue absolute_unit_net_surcharge = 10029;</code>
+         * <code>.dstore.values.DecimalValue absolute_unit_net_surcharge = 10029;</code>
          */
         public Builder mergeAbsoluteUnitNetSurcharge(io.dstore.values.DecimalValue value) {
           if (absoluteUnitNetSurchargeBuilder_ == null) {
@@ -12224,7 +12224,7 @@ public final class OmGetPricesPu {
          * Absoluter Rabatt/Aufschlag, der in "UnitNetPrice" bereits ENTHALTEN ist
          * </pre>
          *
-         * <code>optional .dstore.values.DecimalValue absolute_unit_net_surcharge = 10029;</code>
+         * <code>.dstore.values.DecimalValue absolute_unit_net_surcharge = 10029;</code>
          */
         public Builder clearAbsoluteUnitNetSurcharge() {
           if (absoluteUnitNetSurchargeBuilder_ == null) {
@@ -12242,7 +12242,7 @@ public final class OmGetPricesPu {
          * Absoluter Rabatt/Aufschlag, der in "UnitNetPrice" bereits ENTHALTEN ist
          * </pre>
          *
-         * <code>optional .dstore.values.DecimalValue absolute_unit_net_surcharge = 10029;</code>
+         * <code>.dstore.values.DecimalValue absolute_unit_net_surcharge = 10029;</code>
          */
         public io.dstore.values.DecimalValue.Builder getAbsoluteUnitNetSurchargeBuilder() {
           
@@ -12254,7 +12254,7 @@ public final class OmGetPricesPu {
          * Absoluter Rabatt/Aufschlag, der in "UnitNetPrice" bereits ENTHALTEN ist
          * </pre>
          *
-         * <code>optional .dstore.values.DecimalValue absolute_unit_net_surcharge = 10029;</code>
+         * <code>.dstore.values.DecimalValue absolute_unit_net_surcharge = 10029;</code>
          */
         public io.dstore.values.DecimalValueOrBuilder getAbsoluteUnitNetSurchargeOrBuilder() {
           if (absoluteUnitNetSurchargeBuilder_ != null) {
@@ -12269,7 +12269,7 @@ public final class OmGetPricesPu {
          * Absoluter Rabatt/Aufschlag, der in "UnitNetPrice" bereits ENTHALTEN ist
          * </pre>
          *
-         * <code>optional .dstore.values.DecimalValue absolute_unit_net_surcharge = 10029;</code>
+         * <code>.dstore.values.DecimalValue absolute_unit_net_surcharge = 10029;</code>
          */
         private com.google.protobuf.SingleFieldBuilderV3<
             io.dstore.values.DecimalValue, io.dstore.values.DecimalValue.Builder, io.dstore.values.DecimalValueOrBuilder> 
@@ -12293,7 +12293,7 @@ public final class OmGetPricesPu {
          * Absoluter Rabatt/Aufschlag, der in "UnitGrossPrice" bereits ENTHALTEN ist (Englischer Spaltenname ist NICHT korrekt, NICHT mehr verwenden !)
          * </pre>
          *
-         * <code>optional .dstore.values.DecimalValue absolute_unit_brutto_surcharge = 10030;</code>
+         * <code>.dstore.values.DecimalValue absolute_unit_brutto_surcharge = 10030;</code>
          */
         public boolean hasAbsoluteUnitBruttoSurcharge() {
           return absoluteUnitBruttoSurchargeBuilder_ != null || absoluteUnitBruttoSurcharge_ != null;
@@ -12303,7 +12303,7 @@ public final class OmGetPricesPu {
          * Absoluter Rabatt/Aufschlag, der in "UnitGrossPrice" bereits ENTHALTEN ist (Englischer Spaltenname ist NICHT korrekt, NICHT mehr verwenden !)
          * </pre>
          *
-         * <code>optional .dstore.values.DecimalValue absolute_unit_brutto_surcharge = 10030;</code>
+         * <code>.dstore.values.DecimalValue absolute_unit_brutto_surcharge = 10030;</code>
          */
         public io.dstore.values.DecimalValue getAbsoluteUnitBruttoSurcharge() {
           if (absoluteUnitBruttoSurchargeBuilder_ == null) {
@@ -12317,7 +12317,7 @@ public final class OmGetPricesPu {
          * Absoluter Rabatt/Aufschlag, der in "UnitGrossPrice" bereits ENTHALTEN ist (Englischer Spaltenname ist NICHT korrekt, NICHT mehr verwenden !)
          * </pre>
          *
-         * <code>optional .dstore.values.DecimalValue absolute_unit_brutto_surcharge = 10030;</code>
+         * <code>.dstore.values.DecimalValue absolute_unit_brutto_surcharge = 10030;</code>
          */
         public Builder setAbsoluteUnitBruttoSurcharge(io.dstore.values.DecimalValue value) {
           if (absoluteUnitBruttoSurchargeBuilder_ == null) {
@@ -12337,7 +12337,7 @@ public final class OmGetPricesPu {
          * Absoluter Rabatt/Aufschlag, der in "UnitGrossPrice" bereits ENTHALTEN ist (Englischer Spaltenname ist NICHT korrekt, NICHT mehr verwenden !)
          * </pre>
          *
-         * <code>optional .dstore.values.DecimalValue absolute_unit_brutto_surcharge = 10030;</code>
+         * <code>.dstore.values.DecimalValue absolute_unit_brutto_surcharge = 10030;</code>
          */
         public Builder setAbsoluteUnitBruttoSurcharge(
             io.dstore.values.DecimalValue.Builder builderForValue) {
@@ -12355,7 +12355,7 @@ public final class OmGetPricesPu {
          * Absoluter Rabatt/Aufschlag, der in "UnitGrossPrice" bereits ENTHALTEN ist (Englischer Spaltenname ist NICHT korrekt, NICHT mehr verwenden !)
          * </pre>
          *
-         * <code>optional .dstore.values.DecimalValue absolute_unit_brutto_surcharge = 10030;</code>
+         * <code>.dstore.values.DecimalValue absolute_unit_brutto_surcharge = 10030;</code>
          */
         public Builder mergeAbsoluteUnitBruttoSurcharge(io.dstore.values.DecimalValue value) {
           if (absoluteUnitBruttoSurchargeBuilder_ == null) {
@@ -12377,7 +12377,7 @@ public final class OmGetPricesPu {
          * Absoluter Rabatt/Aufschlag, der in "UnitGrossPrice" bereits ENTHALTEN ist (Englischer Spaltenname ist NICHT korrekt, NICHT mehr verwenden !)
          * </pre>
          *
-         * <code>optional .dstore.values.DecimalValue absolute_unit_brutto_surcharge = 10030;</code>
+         * <code>.dstore.values.DecimalValue absolute_unit_brutto_surcharge = 10030;</code>
          */
         public Builder clearAbsoluteUnitBruttoSurcharge() {
           if (absoluteUnitBruttoSurchargeBuilder_ == null) {
@@ -12395,7 +12395,7 @@ public final class OmGetPricesPu {
          * Absoluter Rabatt/Aufschlag, der in "UnitGrossPrice" bereits ENTHALTEN ist (Englischer Spaltenname ist NICHT korrekt, NICHT mehr verwenden !)
          * </pre>
          *
-         * <code>optional .dstore.values.DecimalValue absolute_unit_brutto_surcharge = 10030;</code>
+         * <code>.dstore.values.DecimalValue absolute_unit_brutto_surcharge = 10030;</code>
          */
         public io.dstore.values.DecimalValue.Builder getAbsoluteUnitBruttoSurchargeBuilder() {
           
@@ -12407,7 +12407,7 @@ public final class OmGetPricesPu {
          * Absoluter Rabatt/Aufschlag, der in "UnitGrossPrice" bereits ENTHALTEN ist (Englischer Spaltenname ist NICHT korrekt, NICHT mehr verwenden !)
          * </pre>
          *
-         * <code>optional .dstore.values.DecimalValue absolute_unit_brutto_surcharge = 10030;</code>
+         * <code>.dstore.values.DecimalValue absolute_unit_brutto_surcharge = 10030;</code>
          */
         public io.dstore.values.DecimalValueOrBuilder getAbsoluteUnitBruttoSurchargeOrBuilder() {
           if (absoluteUnitBruttoSurchargeBuilder_ != null) {
@@ -12422,7 +12422,7 @@ public final class OmGetPricesPu {
          * Absoluter Rabatt/Aufschlag, der in "UnitGrossPrice" bereits ENTHALTEN ist (Englischer Spaltenname ist NICHT korrekt, NICHT mehr verwenden !)
          * </pre>
          *
-         * <code>optional .dstore.values.DecimalValue absolute_unit_brutto_surcharge = 10030;</code>
+         * <code>.dstore.values.DecimalValue absolute_unit_brutto_surcharge = 10030;</code>
          */
         private com.google.protobuf.SingleFieldBuilderV3<
             io.dstore.values.DecimalValue, io.dstore.values.DecimalValue.Builder, io.dstore.values.DecimalValueOrBuilder> 
@@ -12446,7 +12446,7 @@ public final class OmGetPricesPu {
          * Absoluter Rabatt/Aufschlag, der in "UnitGrossPrice" bereits ENTHALTEN ist
          * </pre>
          *
-         * <code>optional .dstore.values.DecimalValue absolute_unit_gross_surcharge = 10031;</code>
+         * <code>.dstore.values.DecimalValue absolute_unit_gross_surcharge = 10031;</code>
          */
         public boolean hasAbsoluteUnitGrossSurcharge() {
           return absoluteUnitGrossSurchargeBuilder_ != null || absoluteUnitGrossSurcharge_ != null;
@@ -12456,7 +12456,7 @@ public final class OmGetPricesPu {
          * Absoluter Rabatt/Aufschlag, der in "UnitGrossPrice" bereits ENTHALTEN ist
          * </pre>
          *
-         * <code>optional .dstore.values.DecimalValue absolute_unit_gross_surcharge = 10031;</code>
+         * <code>.dstore.values.DecimalValue absolute_unit_gross_surcharge = 10031;</code>
          */
         public io.dstore.values.DecimalValue getAbsoluteUnitGrossSurcharge() {
           if (absoluteUnitGrossSurchargeBuilder_ == null) {
@@ -12470,7 +12470,7 @@ public final class OmGetPricesPu {
          * Absoluter Rabatt/Aufschlag, der in "UnitGrossPrice" bereits ENTHALTEN ist
          * </pre>
          *
-         * <code>optional .dstore.values.DecimalValue absolute_unit_gross_surcharge = 10031;</code>
+         * <code>.dstore.values.DecimalValue absolute_unit_gross_surcharge = 10031;</code>
          */
         public Builder setAbsoluteUnitGrossSurcharge(io.dstore.values.DecimalValue value) {
           if (absoluteUnitGrossSurchargeBuilder_ == null) {
@@ -12490,7 +12490,7 @@ public final class OmGetPricesPu {
          * Absoluter Rabatt/Aufschlag, der in "UnitGrossPrice" bereits ENTHALTEN ist
          * </pre>
          *
-         * <code>optional .dstore.values.DecimalValue absolute_unit_gross_surcharge = 10031;</code>
+         * <code>.dstore.values.DecimalValue absolute_unit_gross_surcharge = 10031;</code>
          */
         public Builder setAbsoluteUnitGrossSurcharge(
             io.dstore.values.DecimalValue.Builder builderForValue) {
@@ -12508,7 +12508,7 @@ public final class OmGetPricesPu {
          * Absoluter Rabatt/Aufschlag, der in "UnitGrossPrice" bereits ENTHALTEN ist
          * </pre>
          *
-         * <code>optional .dstore.values.DecimalValue absolute_unit_gross_surcharge = 10031;</code>
+         * <code>.dstore.values.DecimalValue absolute_unit_gross_surcharge = 10031;</code>
          */
         public Builder mergeAbsoluteUnitGrossSurcharge(io.dstore.values.DecimalValue value) {
           if (absoluteUnitGrossSurchargeBuilder_ == null) {
@@ -12530,7 +12530,7 @@ public final class OmGetPricesPu {
          * Absoluter Rabatt/Aufschlag, der in "UnitGrossPrice" bereits ENTHALTEN ist
          * </pre>
          *
-         * <code>optional .dstore.values.DecimalValue absolute_unit_gross_surcharge = 10031;</code>
+         * <code>.dstore.values.DecimalValue absolute_unit_gross_surcharge = 10031;</code>
          */
         public Builder clearAbsoluteUnitGrossSurcharge() {
           if (absoluteUnitGrossSurchargeBuilder_ == null) {
@@ -12548,7 +12548,7 @@ public final class OmGetPricesPu {
          * Absoluter Rabatt/Aufschlag, der in "UnitGrossPrice" bereits ENTHALTEN ist
          * </pre>
          *
-         * <code>optional .dstore.values.DecimalValue absolute_unit_gross_surcharge = 10031;</code>
+         * <code>.dstore.values.DecimalValue absolute_unit_gross_surcharge = 10031;</code>
          */
         public io.dstore.values.DecimalValue.Builder getAbsoluteUnitGrossSurchargeBuilder() {
           
@@ -12560,7 +12560,7 @@ public final class OmGetPricesPu {
          * Absoluter Rabatt/Aufschlag, der in "UnitGrossPrice" bereits ENTHALTEN ist
          * </pre>
          *
-         * <code>optional .dstore.values.DecimalValue absolute_unit_gross_surcharge = 10031;</code>
+         * <code>.dstore.values.DecimalValue absolute_unit_gross_surcharge = 10031;</code>
          */
         public io.dstore.values.DecimalValueOrBuilder getAbsoluteUnitGrossSurchargeOrBuilder() {
           if (absoluteUnitGrossSurchargeBuilder_ != null) {
@@ -12575,7 +12575,7 @@ public final class OmGetPricesPu {
          * Absoluter Rabatt/Aufschlag, der in "UnitGrossPrice" bereits ENTHALTEN ist
          * </pre>
          *
-         * <code>optional .dstore.values.DecimalValue absolute_unit_gross_surcharge = 10031;</code>
+         * <code>.dstore.values.DecimalValue absolute_unit_gross_surcharge = 10031;</code>
          */
         private com.google.protobuf.SingleFieldBuilderV3<
             io.dstore.values.DecimalValue, io.dstore.values.DecimalValue.Builder, io.dstore.values.DecimalValueOrBuilder> 
@@ -12599,7 +12599,7 @@ public final class OmGetPricesPu {
          * Exakter (intern gespeicherter) Wert für "TotalNetPrice"
          * </pre>
          *
-         * <code>optional .dstore.values.DecimalValue precise_total_net_price = 10032;</code>
+         * <code>.dstore.values.DecimalValue precise_total_net_price = 10032;</code>
          */
         public boolean hasPreciseTotalNetPrice() {
           return preciseTotalNetPriceBuilder_ != null || preciseTotalNetPrice_ != null;
@@ -12609,7 +12609,7 @@ public final class OmGetPricesPu {
          * Exakter (intern gespeicherter) Wert für "TotalNetPrice"
          * </pre>
          *
-         * <code>optional .dstore.values.DecimalValue precise_total_net_price = 10032;</code>
+         * <code>.dstore.values.DecimalValue precise_total_net_price = 10032;</code>
          */
         public io.dstore.values.DecimalValue getPreciseTotalNetPrice() {
           if (preciseTotalNetPriceBuilder_ == null) {
@@ -12623,7 +12623,7 @@ public final class OmGetPricesPu {
          * Exakter (intern gespeicherter) Wert für "TotalNetPrice"
          * </pre>
          *
-         * <code>optional .dstore.values.DecimalValue precise_total_net_price = 10032;</code>
+         * <code>.dstore.values.DecimalValue precise_total_net_price = 10032;</code>
          */
         public Builder setPreciseTotalNetPrice(io.dstore.values.DecimalValue value) {
           if (preciseTotalNetPriceBuilder_ == null) {
@@ -12643,7 +12643,7 @@ public final class OmGetPricesPu {
          * Exakter (intern gespeicherter) Wert für "TotalNetPrice"
          * </pre>
          *
-         * <code>optional .dstore.values.DecimalValue precise_total_net_price = 10032;</code>
+         * <code>.dstore.values.DecimalValue precise_total_net_price = 10032;</code>
          */
         public Builder setPreciseTotalNetPrice(
             io.dstore.values.DecimalValue.Builder builderForValue) {
@@ -12661,7 +12661,7 @@ public final class OmGetPricesPu {
          * Exakter (intern gespeicherter) Wert für "TotalNetPrice"
          * </pre>
          *
-         * <code>optional .dstore.values.DecimalValue precise_total_net_price = 10032;</code>
+         * <code>.dstore.values.DecimalValue precise_total_net_price = 10032;</code>
          */
         public Builder mergePreciseTotalNetPrice(io.dstore.values.DecimalValue value) {
           if (preciseTotalNetPriceBuilder_ == null) {
@@ -12683,7 +12683,7 @@ public final class OmGetPricesPu {
          * Exakter (intern gespeicherter) Wert für "TotalNetPrice"
          * </pre>
          *
-         * <code>optional .dstore.values.DecimalValue precise_total_net_price = 10032;</code>
+         * <code>.dstore.values.DecimalValue precise_total_net_price = 10032;</code>
          */
         public Builder clearPreciseTotalNetPrice() {
           if (preciseTotalNetPriceBuilder_ == null) {
@@ -12701,7 +12701,7 @@ public final class OmGetPricesPu {
          * Exakter (intern gespeicherter) Wert für "TotalNetPrice"
          * </pre>
          *
-         * <code>optional .dstore.values.DecimalValue precise_total_net_price = 10032;</code>
+         * <code>.dstore.values.DecimalValue precise_total_net_price = 10032;</code>
          */
         public io.dstore.values.DecimalValue.Builder getPreciseTotalNetPriceBuilder() {
           
@@ -12713,7 +12713,7 @@ public final class OmGetPricesPu {
          * Exakter (intern gespeicherter) Wert für "TotalNetPrice"
          * </pre>
          *
-         * <code>optional .dstore.values.DecimalValue precise_total_net_price = 10032;</code>
+         * <code>.dstore.values.DecimalValue precise_total_net_price = 10032;</code>
          */
         public io.dstore.values.DecimalValueOrBuilder getPreciseTotalNetPriceOrBuilder() {
           if (preciseTotalNetPriceBuilder_ != null) {
@@ -12728,7 +12728,7 @@ public final class OmGetPricesPu {
          * Exakter (intern gespeicherter) Wert für "TotalNetPrice"
          * </pre>
          *
-         * <code>optional .dstore.values.DecimalValue precise_total_net_price = 10032;</code>
+         * <code>.dstore.values.DecimalValue precise_total_net_price = 10032;</code>
          */
         private com.google.protobuf.SingleFieldBuilderV3<
             io.dstore.values.DecimalValue, io.dstore.values.DecimalValue.Builder, io.dstore.values.DecimalValueOrBuilder> 
@@ -12752,7 +12752,7 @@ public final class OmGetPricesPu {
          * ID einer Preis-Aufschlags/Rabatt-Art, die ermittelt und bei der Preis-Ermittlung angewandt wurde
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue surcharge_type_id = 10033;</code>
+         * <code>.dstore.values.IntegerValue surcharge_type_id = 10033;</code>
          */
         public boolean hasSurchargeTypeId() {
           return surchargeTypeIdBuilder_ != null || surchargeTypeId_ != null;
@@ -12762,7 +12762,7 @@ public final class OmGetPricesPu {
          * ID einer Preis-Aufschlags/Rabatt-Art, die ermittelt und bei der Preis-Ermittlung angewandt wurde
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue surcharge_type_id = 10033;</code>
+         * <code>.dstore.values.IntegerValue surcharge_type_id = 10033;</code>
          */
         public io.dstore.values.IntegerValue getSurchargeTypeId() {
           if (surchargeTypeIdBuilder_ == null) {
@@ -12776,7 +12776,7 @@ public final class OmGetPricesPu {
          * ID einer Preis-Aufschlags/Rabatt-Art, die ermittelt und bei der Preis-Ermittlung angewandt wurde
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue surcharge_type_id = 10033;</code>
+         * <code>.dstore.values.IntegerValue surcharge_type_id = 10033;</code>
          */
         public Builder setSurchargeTypeId(io.dstore.values.IntegerValue value) {
           if (surchargeTypeIdBuilder_ == null) {
@@ -12796,7 +12796,7 @@ public final class OmGetPricesPu {
          * ID einer Preis-Aufschlags/Rabatt-Art, die ermittelt und bei der Preis-Ermittlung angewandt wurde
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue surcharge_type_id = 10033;</code>
+         * <code>.dstore.values.IntegerValue surcharge_type_id = 10033;</code>
          */
         public Builder setSurchargeTypeId(
             io.dstore.values.IntegerValue.Builder builderForValue) {
@@ -12814,7 +12814,7 @@ public final class OmGetPricesPu {
          * ID einer Preis-Aufschlags/Rabatt-Art, die ermittelt und bei der Preis-Ermittlung angewandt wurde
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue surcharge_type_id = 10033;</code>
+         * <code>.dstore.values.IntegerValue surcharge_type_id = 10033;</code>
          */
         public Builder mergeSurchargeTypeId(io.dstore.values.IntegerValue value) {
           if (surchargeTypeIdBuilder_ == null) {
@@ -12836,7 +12836,7 @@ public final class OmGetPricesPu {
          * ID einer Preis-Aufschlags/Rabatt-Art, die ermittelt und bei der Preis-Ermittlung angewandt wurde
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue surcharge_type_id = 10033;</code>
+         * <code>.dstore.values.IntegerValue surcharge_type_id = 10033;</code>
          */
         public Builder clearSurchargeTypeId() {
           if (surchargeTypeIdBuilder_ == null) {
@@ -12854,7 +12854,7 @@ public final class OmGetPricesPu {
          * ID einer Preis-Aufschlags/Rabatt-Art, die ermittelt und bei der Preis-Ermittlung angewandt wurde
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue surcharge_type_id = 10033;</code>
+         * <code>.dstore.values.IntegerValue surcharge_type_id = 10033;</code>
          */
         public io.dstore.values.IntegerValue.Builder getSurchargeTypeIdBuilder() {
           
@@ -12866,7 +12866,7 @@ public final class OmGetPricesPu {
          * ID einer Preis-Aufschlags/Rabatt-Art, die ermittelt und bei der Preis-Ermittlung angewandt wurde
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue surcharge_type_id = 10033;</code>
+         * <code>.dstore.values.IntegerValue surcharge_type_id = 10033;</code>
          */
         public io.dstore.values.IntegerValueOrBuilder getSurchargeTypeIdOrBuilder() {
           if (surchargeTypeIdBuilder_ != null) {
@@ -12881,7 +12881,7 @@ public final class OmGetPricesPu {
          * ID einer Preis-Aufschlags/Rabatt-Art, die ermittelt und bei der Preis-Ermittlung angewandt wurde
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue surcharge_type_id = 10033;</code>
+         * <code>.dstore.values.IntegerValue surcharge_type_id = 10033;</code>
          */
         private com.google.protobuf.SingleFieldBuilderV3<
             io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> 
@@ -12905,7 +12905,7 @@ public final class OmGetPricesPu {
          * Exakter (intern gespeicherter) Wert für "UnitNetPrice"
          * </pre>
          *
-         * <code>optional .dstore.values.DecimalValue precise_unit_net_price = 10034;</code>
+         * <code>.dstore.values.DecimalValue precise_unit_net_price = 10034;</code>
          */
         public boolean hasPreciseUnitNetPrice() {
           return preciseUnitNetPriceBuilder_ != null || preciseUnitNetPrice_ != null;
@@ -12915,7 +12915,7 @@ public final class OmGetPricesPu {
          * Exakter (intern gespeicherter) Wert für "UnitNetPrice"
          * </pre>
          *
-         * <code>optional .dstore.values.DecimalValue precise_unit_net_price = 10034;</code>
+         * <code>.dstore.values.DecimalValue precise_unit_net_price = 10034;</code>
          */
         public io.dstore.values.DecimalValue getPreciseUnitNetPrice() {
           if (preciseUnitNetPriceBuilder_ == null) {
@@ -12929,7 +12929,7 @@ public final class OmGetPricesPu {
          * Exakter (intern gespeicherter) Wert für "UnitNetPrice"
          * </pre>
          *
-         * <code>optional .dstore.values.DecimalValue precise_unit_net_price = 10034;</code>
+         * <code>.dstore.values.DecimalValue precise_unit_net_price = 10034;</code>
          */
         public Builder setPreciseUnitNetPrice(io.dstore.values.DecimalValue value) {
           if (preciseUnitNetPriceBuilder_ == null) {
@@ -12949,7 +12949,7 @@ public final class OmGetPricesPu {
          * Exakter (intern gespeicherter) Wert für "UnitNetPrice"
          * </pre>
          *
-         * <code>optional .dstore.values.DecimalValue precise_unit_net_price = 10034;</code>
+         * <code>.dstore.values.DecimalValue precise_unit_net_price = 10034;</code>
          */
         public Builder setPreciseUnitNetPrice(
             io.dstore.values.DecimalValue.Builder builderForValue) {
@@ -12967,7 +12967,7 @@ public final class OmGetPricesPu {
          * Exakter (intern gespeicherter) Wert für "UnitNetPrice"
          * </pre>
          *
-         * <code>optional .dstore.values.DecimalValue precise_unit_net_price = 10034;</code>
+         * <code>.dstore.values.DecimalValue precise_unit_net_price = 10034;</code>
          */
         public Builder mergePreciseUnitNetPrice(io.dstore.values.DecimalValue value) {
           if (preciseUnitNetPriceBuilder_ == null) {
@@ -12989,7 +12989,7 @@ public final class OmGetPricesPu {
          * Exakter (intern gespeicherter) Wert für "UnitNetPrice"
          * </pre>
          *
-         * <code>optional .dstore.values.DecimalValue precise_unit_net_price = 10034;</code>
+         * <code>.dstore.values.DecimalValue precise_unit_net_price = 10034;</code>
          */
         public Builder clearPreciseUnitNetPrice() {
           if (preciseUnitNetPriceBuilder_ == null) {
@@ -13007,7 +13007,7 @@ public final class OmGetPricesPu {
          * Exakter (intern gespeicherter) Wert für "UnitNetPrice"
          * </pre>
          *
-         * <code>optional .dstore.values.DecimalValue precise_unit_net_price = 10034;</code>
+         * <code>.dstore.values.DecimalValue precise_unit_net_price = 10034;</code>
          */
         public io.dstore.values.DecimalValue.Builder getPreciseUnitNetPriceBuilder() {
           
@@ -13019,7 +13019,7 @@ public final class OmGetPricesPu {
          * Exakter (intern gespeicherter) Wert für "UnitNetPrice"
          * </pre>
          *
-         * <code>optional .dstore.values.DecimalValue precise_unit_net_price = 10034;</code>
+         * <code>.dstore.values.DecimalValue precise_unit_net_price = 10034;</code>
          */
         public io.dstore.values.DecimalValueOrBuilder getPreciseUnitNetPriceOrBuilder() {
           if (preciseUnitNetPriceBuilder_ != null) {
@@ -13034,7 +13034,7 @@ public final class OmGetPricesPu {
          * Exakter (intern gespeicherter) Wert für "UnitNetPrice"
          * </pre>
          *
-         * <code>optional .dstore.values.DecimalValue precise_unit_net_price = 10034;</code>
+         * <code>.dstore.values.DecimalValue precise_unit_net_price = 10034;</code>
          */
         private com.google.protobuf.SingleFieldBuilderV3<
             io.dstore.values.DecimalValue, io.dstore.values.DecimalValue.Builder, io.dstore.values.DecimalValueOrBuilder> 
@@ -13058,7 +13058,7 @@ public final class OmGetPricesPu {
          * Brutto-Preis von "NodeID", wenn man den Artikel "Quantity-Mal" bestellt
          * </pre>
          *
-         * <code>optional .dstore.values.DecimalValue total_gross_price = 10035;</code>
+         * <code>.dstore.values.DecimalValue total_gross_price = 10035;</code>
          */
         public boolean hasTotalGrossPrice() {
           return totalGrossPriceBuilder_ != null || totalGrossPrice_ != null;
@@ -13068,7 +13068,7 @@ public final class OmGetPricesPu {
          * Brutto-Preis von "NodeID", wenn man den Artikel "Quantity-Mal" bestellt
          * </pre>
          *
-         * <code>optional .dstore.values.DecimalValue total_gross_price = 10035;</code>
+         * <code>.dstore.values.DecimalValue total_gross_price = 10035;</code>
          */
         public io.dstore.values.DecimalValue getTotalGrossPrice() {
           if (totalGrossPriceBuilder_ == null) {
@@ -13082,7 +13082,7 @@ public final class OmGetPricesPu {
          * Brutto-Preis von "NodeID", wenn man den Artikel "Quantity-Mal" bestellt
          * </pre>
          *
-         * <code>optional .dstore.values.DecimalValue total_gross_price = 10035;</code>
+         * <code>.dstore.values.DecimalValue total_gross_price = 10035;</code>
          */
         public Builder setTotalGrossPrice(io.dstore.values.DecimalValue value) {
           if (totalGrossPriceBuilder_ == null) {
@@ -13102,7 +13102,7 @@ public final class OmGetPricesPu {
          * Brutto-Preis von "NodeID", wenn man den Artikel "Quantity-Mal" bestellt
          * </pre>
          *
-         * <code>optional .dstore.values.DecimalValue total_gross_price = 10035;</code>
+         * <code>.dstore.values.DecimalValue total_gross_price = 10035;</code>
          */
         public Builder setTotalGrossPrice(
             io.dstore.values.DecimalValue.Builder builderForValue) {
@@ -13120,7 +13120,7 @@ public final class OmGetPricesPu {
          * Brutto-Preis von "NodeID", wenn man den Artikel "Quantity-Mal" bestellt
          * </pre>
          *
-         * <code>optional .dstore.values.DecimalValue total_gross_price = 10035;</code>
+         * <code>.dstore.values.DecimalValue total_gross_price = 10035;</code>
          */
         public Builder mergeTotalGrossPrice(io.dstore.values.DecimalValue value) {
           if (totalGrossPriceBuilder_ == null) {
@@ -13142,7 +13142,7 @@ public final class OmGetPricesPu {
          * Brutto-Preis von "NodeID", wenn man den Artikel "Quantity-Mal" bestellt
          * </pre>
          *
-         * <code>optional .dstore.values.DecimalValue total_gross_price = 10035;</code>
+         * <code>.dstore.values.DecimalValue total_gross_price = 10035;</code>
          */
         public Builder clearTotalGrossPrice() {
           if (totalGrossPriceBuilder_ == null) {
@@ -13160,7 +13160,7 @@ public final class OmGetPricesPu {
          * Brutto-Preis von "NodeID", wenn man den Artikel "Quantity-Mal" bestellt
          * </pre>
          *
-         * <code>optional .dstore.values.DecimalValue total_gross_price = 10035;</code>
+         * <code>.dstore.values.DecimalValue total_gross_price = 10035;</code>
          */
         public io.dstore.values.DecimalValue.Builder getTotalGrossPriceBuilder() {
           
@@ -13172,7 +13172,7 @@ public final class OmGetPricesPu {
          * Brutto-Preis von "NodeID", wenn man den Artikel "Quantity-Mal" bestellt
          * </pre>
          *
-         * <code>optional .dstore.values.DecimalValue total_gross_price = 10035;</code>
+         * <code>.dstore.values.DecimalValue total_gross_price = 10035;</code>
          */
         public io.dstore.values.DecimalValueOrBuilder getTotalGrossPriceOrBuilder() {
           if (totalGrossPriceBuilder_ != null) {
@@ -13187,7 +13187,7 @@ public final class OmGetPricesPu {
          * Brutto-Preis von "NodeID", wenn man den Artikel "Quantity-Mal" bestellt
          * </pre>
          *
-         * <code>optional .dstore.values.DecimalValue total_gross_price = 10035;</code>
+         * <code>.dstore.values.DecimalValue total_gross_price = 10035;</code>
          */
         private com.google.protobuf.SingleFieldBuilderV3<
             io.dstore.values.DecimalValue, io.dstore.values.DecimalValue.Builder, io.dstore.values.DecimalValueOrBuilder> 
@@ -13447,7 +13447,7 @@ public final class OmGetPricesPu {
         return memoizedHashCode;
       }
       int hash = 41;
-      hash = (19 * hash) + getDescriptorForType().hashCode();
+      hash = (19 * hash) + getDescriptor().hashCode();
       if (getMetaInformationCount() > 0) {
         hash = (37 * hash) + META_INFORMATION_FIELD_NUMBER;
         hash = (53 * hash) + getMetaInformationList().hashCode();

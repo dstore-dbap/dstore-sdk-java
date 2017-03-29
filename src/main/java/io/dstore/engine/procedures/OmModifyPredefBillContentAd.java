@@ -19,110 +19,110 @@ public final class OmModifyPredefBillContentAd {
       com.google.protobuf.MessageOrBuilder {
 
     /**
-     * <code>optional .dstore.values.IntegerValue predefined_bill_content_id = 1;</code>
+     * <code>.dstore.values.IntegerValue predefined_bill_content_id = 1;</code>
      */
     boolean hasPredefinedBillContentId();
     /**
-     * <code>optional .dstore.values.IntegerValue predefined_bill_content_id = 1;</code>
+     * <code>.dstore.values.IntegerValue predefined_bill_content_id = 1;</code>
      */
     io.dstore.values.IntegerValue getPredefinedBillContentId();
     /**
-     * <code>optional .dstore.values.IntegerValue predefined_bill_content_id = 1;</code>
+     * <code>.dstore.values.IntegerValue predefined_bill_content_id = 1;</code>
      */
     io.dstore.values.IntegerValueOrBuilder getPredefinedBillContentIdOrBuilder();
 
     /**
-     * <code>optional bool predefined_bill_content_id_null = 1001;</code>
+     * <code>bool predefined_bill_content_id_null = 1001;</code>
      */
     boolean getPredefinedBillContentIdNull();
 
     /**
-     * <code>optional .dstore.values.StringValue content_description = 2;</code>
+     * <code>.dstore.values.StringValue content_description = 2;</code>
      */
     boolean hasContentDescription();
     /**
-     * <code>optional .dstore.values.StringValue content_description = 2;</code>
+     * <code>.dstore.values.StringValue content_description = 2;</code>
      */
     io.dstore.values.StringValue getContentDescription();
     /**
-     * <code>optional .dstore.values.StringValue content_description = 2;</code>
+     * <code>.dstore.values.StringValue content_description = 2;</code>
      */
     io.dstore.values.StringValueOrBuilder getContentDescriptionOrBuilder();
 
     /**
-     * <code>optional bool content_description_null = 1002;</code>
+     * <code>bool content_description_null = 1002;</code>
      */
     boolean getContentDescriptionNull();
 
     /**
-     * <code>optional .dstore.values.IntegerValue table_id = 3;</code>
+     * <code>.dstore.values.IntegerValue table_id = 3;</code>
      */
     boolean hasTableId();
     /**
-     * <code>optional .dstore.values.IntegerValue table_id = 3;</code>
+     * <code>.dstore.values.IntegerValue table_id = 3;</code>
      */
     io.dstore.values.IntegerValue getTableId();
     /**
-     * <code>optional .dstore.values.IntegerValue table_id = 3;</code>
+     * <code>.dstore.values.IntegerValue table_id = 3;</code>
      */
     io.dstore.values.IntegerValueOrBuilder getTableIdOrBuilder();
 
     /**
-     * <code>optional bool table_id_null = 1003;</code>
+     * <code>bool table_id_null = 1003;</code>
      */
     boolean getTableIdNull();
 
     /**
-     * <code>optional .dstore.values.IntegerValue table_key_id = 4;</code>
+     * <code>.dstore.values.IntegerValue table_key_id = 4;</code>
      */
     boolean hasTableKeyId();
     /**
-     * <code>optional .dstore.values.IntegerValue table_key_id = 4;</code>
+     * <code>.dstore.values.IntegerValue table_key_id = 4;</code>
      */
     io.dstore.values.IntegerValue getTableKeyId();
     /**
-     * <code>optional .dstore.values.IntegerValue table_key_id = 4;</code>
+     * <code>.dstore.values.IntegerValue table_key_id = 4;</code>
      */
     io.dstore.values.IntegerValueOrBuilder getTableKeyIdOrBuilder();
 
     /**
-     * <code>optional bool table_key_id_null = 1004;</code>
+     * <code>bool table_key_id_null = 1004;</code>
      */
     boolean getTableKeyIdNull();
 
     /**
-     * <code>optional .dstore.values.BooleanValue active = 5;</code>
+     * <code>.dstore.values.BooleanValue active = 5;</code>
      */
     boolean hasActive();
     /**
-     * <code>optional .dstore.values.BooleanValue active = 5;</code>
+     * <code>.dstore.values.BooleanValue active = 5;</code>
      */
     io.dstore.values.BooleanValue getActive();
     /**
-     * <code>optional .dstore.values.BooleanValue active = 5;</code>
+     * <code>.dstore.values.BooleanValue active = 5;</code>
      */
     io.dstore.values.BooleanValueOrBuilder getActiveOrBuilder();
 
     /**
-     * <code>optional bool active_null = 1005;</code>
+     * <code>bool active_null = 1005;</code>
      */
     boolean getActiveNull();
 
     /**
-     * <code>optional .dstore.values.BooleanValue delete = 6;</code>
+     * <code>.dstore.values.BooleanValue delete = 6;</code>
      */
     boolean hasDelete();
     /**
-     * <code>optional .dstore.values.BooleanValue delete = 6;</code>
+     * <code>.dstore.values.BooleanValue delete = 6;</code>
      */
     io.dstore.values.BooleanValue getDelete();
     /**
-     * <code>optional .dstore.values.BooleanValue delete = 6;</code>
+     * <code>.dstore.values.BooleanValue delete = 6;</code>
      */
     io.dstore.values.BooleanValueOrBuilder getDeleteOrBuilder();
 
     /**
-     * <code>optional bool delete_null = 1006;</code>
+     * <code>bool delete_null = 1006;</code>
      */
     boolean getDeleteNull();
   }
@@ -305,19 +305,19 @@ public final class OmModifyPredefBillContentAd {
     public static final int PREDEFINED_BILL_CONTENT_ID_FIELD_NUMBER = 1;
     private io.dstore.values.IntegerValue predefinedBillContentId_;
     /**
-     * <code>optional .dstore.values.IntegerValue predefined_bill_content_id = 1;</code>
+     * <code>.dstore.values.IntegerValue predefined_bill_content_id = 1;</code>
      */
     public boolean hasPredefinedBillContentId() {
       return predefinedBillContentId_ != null;
     }
     /**
-     * <code>optional .dstore.values.IntegerValue predefined_bill_content_id = 1;</code>
+     * <code>.dstore.values.IntegerValue predefined_bill_content_id = 1;</code>
      */
     public io.dstore.values.IntegerValue getPredefinedBillContentId() {
       return predefinedBillContentId_ == null ? io.dstore.values.IntegerValue.getDefaultInstance() : predefinedBillContentId_;
     }
     /**
-     * <code>optional .dstore.values.IntegerValue predefined_bill_content_id = 1;</code>
+     * <code>.dstore.values.IntegerValue predefined_bill_content_id = 1;</code>
      */
     public io.dstore.values.IntegerValueOrBuilder getPredefinedBillContentIdOrBuilder() {
       return getPredefinedBillContentId();
@@ -326,7 +326,7 @@ public final class OmModifyPredefBillContentAd {
     public static final int PREDEFINED_BILL_CONTENT_ID_NULL_FIELD_NUMBER = 1001;
     private boolean predefinedBillContentIdNull_;
     /**
-     * <code>optional bool predefined_bill_content_id_null = 1001;</code>
+     * <code>bool predefined_bill_content_id_null = 1001;</code>
      */
     public boolean getPredefinedBillContentIdNull() {
       return predefinedBillContentIdNull_;
@@ -335,19 +335,19 @@ public final class OmModifyPredefBillContentAd {
     public static final int CONTENT_DESCRIPTION_FIELD_NUMBER = 2;
     private io.dstore.values.StringValue contentDescription_;
     /**
-     * <code>optional .dstore.values.StringValue content_description = 2;</code>
+     * <code>.dstore.values.StringValue content_description = 2;</code>
      */
     public boolean hasContentDescription() {
       return contentDescription_ != null;
     }
     /**
-     * <code>optional .dstore.values.StringValue content_description = 2;</code>
+     * <code>.dstore.values.StringValue content_description = 2;</code>
      */
     public io.dstore.values.StringValue getContentDescription() {
       return contentDescription_ == null ? io.dstore.values.StringValue.getDefaultInstance() : contentDescription_;
     }
     /**
-     * <code>optional .dstore.values.StringValue content_description = 2;</code>
+     * <code>.dstore.values.StringValue content_description = 2;</code>
      */
     public io.dstore.values.StringValueOrBuilder getContentDescriptionOrBuilder() {
       return getContentDescription();
@@ -356,7 +356,7 @@ public final class OmModifyPredefBillContentAd {
     public static final int CONTENT_DESCRIPTION_NULL_FIELD_NUMBER = 1002;
     private boolean contentDescriptionNull_;
     /**
-     * <code>optional bool content_description_null = 1002;</code>
+     * <code>bool content_description_null = 1002;</code>
      */
     public boolean getContentDescriptionNull() {
       return contentDescriptionNull_;
@@ -365,19 +365,19 @@ public final class OmModifyPredefBillContentAd {
     public static final int TABLE_ID_FIELD_NUMBER = 3;
     private io.dstore.values.IntegerValue tableId_;
     /**
-     * <code>optional .dstore.values.IntegerValue table_id = 3;</code>
+     * <code>.dstore.values.IntegerValue table_id = 3;</code>
      */
     public boolean hasTableId() {
       return tableId_ != null;
     }
     /**
-     * <code>optional .dstore.values.IntegerValue table_id = 3;</code>
+     * <code>.dstore.values.IntegerValue table_id = 3;</code>
      */
     public io.dstore.values.IntegerValue getTableId() {
       return tableId_ == null ? io.dstore.values.IntegerValue.getDefaultInstance() : tableId_;
     }
     /**
-     * <code>optional .dstore.values.IntegerValue table_id = 3;</code>
+     * <code>.dstore.values.IntegerValue table_id = 3;</code>
      */
     public io.dstore.values.IntegerValueOrBuilder getTableIdOrBuilder() {
       return getTableId();
@@ -386,7 +386,7 @@ public final class OmModifyPredefBillContentAd {
     public static final int TABLE_ID_NULL_FIELD_NUMBER = 1003;
     private boolean tableIdNull_;
     /**
-     * <code>optional bool table_id_null = 1003;</code>
+     * <code>bool table_id_null = 1003;</code>
      */
     public boolean getTableIdNull() {
       return tableIdNull_;
@@ -395,19 +395,19 @@ public final class OmModifyPredefBillContentAd {
     public static final int TABLE_KEY_ID_FIELD_NUMBER = 4;
     private io.dstore.values.IntegerValue tableKeyId_;
     /**
-     * <code>optional .dstore.values.IntegerValue table_key_id = 4;</code>
+     * <code>.dstore.values.IntegerValue table_key_id = 4;</code>
      */
     public boolean hasTableKeyId() {
       return tableKeyId_ != null;
     }
     /**
-     * <code>optional .dstore.values.IntegerValue table_key_id = 4;</code>
+     * <code>.dstore.values.IntegerValue table_key_id = 4;</code>
      */
     public io.dstore.values.IntegerValue getTableKeyId() {
       return tableKeyId_ == null ? io.dstore.values.IntegerValue.getDefaultInstance() : tableKeyId_;
     }
     /**
-     * <code>optional .dstore.values.IntegerValue table_key_id = 4;</code>
+     * <code>.dstore.values.IntegerValue table_key_id = 4;</code>
      */
     public io.dstore.values.IntegerValueOrBuilder getTableKeyIdOrBuilder() {
       return getTableKeyId();
@@ -416,7 +416,7 @@ public final class OmModifyPredefBillContentAd {
     public static final int TABLE_KEY_ID_NULL_FIELD_NUMBER = 1004;
     private boolean tableKeyIdNull_;
     /**
-     * <code>optional bool table_key_id_null = 1004;</code>
+     * <code>bool table_key_id_null = 1004;</code>
      */
     public boolean getTableKeyIdNull() {
       return tableKeyIdNull_;
@@ -425,19 +425,19 @@ public final class OmModifyPredefBillContentAd {
     public static final int ACTIVE_FIELD_NUMBER = 5;
     private io.dstore.values.BooleanValue active_;
     /**
-     * <code>optional .dstore.values.BooleanValue active = 5;</code>
+     * <code>.dstore.values.BooleanValue active = 5;</code>
      */
     public boolean hasActive() {
       return active_ != null;
     }
     /**
-     * <code>optional .dstore.values.BooleanValue active = 5;</code>
+     * <code>.dstore.values.BooleanValue active = 5;</code>
      */
     public io.dstore.values.BooleanValue getActive() {
       return active_ == null ? io.dstore.values.BooleanValue.getDefaultInstance() : active_;
     }
     /**
-     * <code>optional .dstore.values.BooleanValue active = 5;</code>
+     * <code>.dstore.values.BooleanValue active = 5;</code>
      */
     public io.dstore.values.BooleanValueOrBuilder getActiveOrBuilder() {
       return getActive();
@@ -446,7 +446,7 @@ public final class OmModifyPredefBillContentAd {
     public static final int ACTIVE_NULL_FIELD_NUMBER = 1005;
     private boolean activeNull_;
     /**
-     * <code>optional bool active_null = 1005;</code>
+     * <code>bool active_null = 1005;</code>
      */
     public boolean getActiveNull() {
       return activeNull_;
@@ -455,19 +455,19 @@ public final class OmModifyPredefBillContentAd {
     public static final int DELETE_FIELD_NUMBER = 6;
     private io.dstore.values.BooleanValue delete_;
     /**
-     * <code>optional .dstore.values.BooleanValue delete = 6;</code>
+     * <code>.dstore.values.BooleanValue delete = 6;</code>
      */
     public boolean hasDelete() {
       return delete_ != null;
     }
     /**
-     * <code>optional .dstore.values.BooleanValue delete = 6;</code>
+     * <code>.dstore.values.BooleanValue delete = 6;</code>
      */
     public io.dstore.values.BooleanValue getDelete() {
       return delete_ == null ? io.dstore.values.BooleanValue.getDefaultInstance() : delete_;
     }
     /**
-     * <code>optional .dstore.values.BooleanValue delete = 6;</code>
+     * <code>.dstore.values.BooleanValue delete = 6;</code>
      */
     public io.dstore.values.BooleanValueOrBuilder getDeleteOrBuilder() {
       return getDelete();
@@ -476,7 +476,7 @@ public final class OmModifyPredefBillContentAd {
     public static final int DELETE_NULL_FIELD_NUMBER = 1006;
     private boolean deleteNull_;
     /**
-     * <code>optional bool delete_null = 1006;</code>
+     * <code>bool delete_null = 1006;</code>
      */
     public boolean getDeleteNull() {
       return deleteNull_;
@@ -652,7 +652,7 @@ public final class OmModifyPredefBillContentAd {
         return memoizedHashCode;
       }
       int hash = 41;
-      hash = (19 * hash) + getDescriptorForType().hashCode();
+      hash = (19 * hash) + getDescriptor().hashCode();
       if (hasPredefinedBillContentId()) {
         hash = (37 * hash) + PREDEFINED_BILL_CONTENT_ID_FIELD_NUMBER;
         hash = (53 * hash) + getPredefinedBillContentId().hashCode();
@@ -1026,13 +1026,13 @@ public final class OmModifyPredefBillContentAd {
       private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> predefinedBillContentIdBuilder_;
       /**
-       * <code>optional .dstore.values.IntegerValue predefined_bill_content_id = 1;</code>
+       * <code>.dstore.values.IntegerValue predefined_bill_content_id = 1;</code>
        */
       public boolean hasPredefinedBillContentId() {
         return predefinedBillContentIdBuilder_ != null || predefinedBillContentId_ != null;
       }
       /**
-       * <code>optional .dstore.values.IntegerValue predefined_bill_content_id = 1;</code>
+       * <code>.dstore.values.IntegerValue predefined_bill_content_id = 1;</code>
        */
       public io.dstore.values.IntegerValue getPredefinedBillContentId() {
         if (predefinedBillContentIdBuilder_ == null) {
@@ -1042,7 +1042,7 @@ public final class OmModifyPredefBillContentAd {
         }
       }
       /**
-       * <code>optional .dstore.values.IntegerValue predefined_bill_content_id = 1;</code>
+       * <code>.dstore.values.IntegerValue predefined_bill_content_id = 1;</code>
        */
       public Builder setPredefinedBillContentId(io.dstore.values.IntegerValue value) {
         if (predefinedBillContentIdBuilder_ == null) {
@@ -1058,7 +1058,7 @@ public final class OmModifyPredefBillContentAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.IntegerValue predefined_bill_content_id = 1;</code>
+       * <code>.dstore.values.IntegerValue predefined_bill_content_id = 1;</code>
        */
       public Builder setPredefinedBillContentId(
           io.dstore.values.IntegerValue.Builder builderForValue) {
@@ -1072,7 +1072,7 @@ public final class OmModifyPredefBillContentAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.IntegerValue predefined_bill_content_id = 1;</code>
+       * <code>.dstore.values.IntegerValue predefined_bill_content_id = 1;</code>
        */
       public Builder mergePredefinedBillContentId(io.dstore.values.IntegerValue value) {
         if (predefinedBillContentIdBuilder_ == null) {
@@ -1090,7 +1090,7 @@ public final class OmModifyPredefBillContentAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.IntegerValue predefined_bill_content_id = 1;</code>
+       * <code>.dstore.values.IntegerValue predefined_bill_content_id = 1;</code>
        */
       public Builder clearPredefinedBillContentId() {
         if (predefinedBillContentIdBuilder_ == null) {
@@ -1104,7 +1104,7 @@ public final class OmModifyPredefBillContentAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.IntegerValue predefined_bill_content_id = 1;</code>
+       * <code>.dstore.values.IntegerValue predefined_bill_content_id = 1;</code>
        */
       public io.dstore.values.IntegerValue.Builder getPredefinedBillContentIdBuilder() {
         
@@ -1112,7 +1112,7 @@ public final class OmModifyPredefBillContentAd {
         return getPredefinedBillContentIdFieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .dstore.values.IntegerValue predefined_bill_content_id = 1;</code>
+       * <code>.dstore.values.IntegerValue predefined_bill_content_id = 1;</code>
        */
       public io.dstore.values.IntegerValueOrBuilder getPredefinedBillContentIdOrBuilder() {
         if (predefinedBillContentIdBuilder_ != null) {
@@ -1123,7 +1123,7 @@ public final class OmModifyPredefBillContentAd {
         }
       }
       /**
-       * <code>optional .dstore.values.IntegerValue predefined_bill_content_id = 1;</code>
+       * <code>.dstore.values.IntegerValue predefined_bill_content_id = 1;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> 
@@ -1141,13 +1141,13 @@ public final class OmModifyPredefBillContentAd {
 
       private boolean predefinedBillContentIdNull_ ;
       /**
-       * <code>optional bool predefined_bill_content_id_null = 1001;</code>
+       * <code>bool predefined_bill_content_id_null = 1001;</code>
        */
       public boolean getPredefinedBillContentIdNull() {
         return predefinedBillContentIdNull_;
       }
       /**
-       * <code>optional bool predefined_bill_content_id_null = 1001;</code>
+       * <code>bool predefined_bill_content_id_null = 1001;</code>
        */
       public Builder setPredefinedBillContentIdNull(boolean value) {
         
@@ -1156,7 +1156,7 @@ public final class OmModifyPredefBillContentAd {
         return this;
       }
       /**
-       * <code>optional bool predefined_bill_content_id_null = 1001;</code>
+       * <code>bool predefined_bill_content_id_null = 1001;</code>
        */
       public Builder clearPredefinedBillContentIdNull() {
         
@@ -1169,13 +1169,13 @@ public final class OmModifyPredefBillContentAd {
       private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.values.StringValue, io.dstore.values.StringValue.Builder, io.dstore.values.StringValueOrBuilder> contentDescriptionBuilder_;
       /**
-       * <code>optional .dstore.values.StringValue content_description = 2;</code>
+       * <code>.dstore.values.StringValue content_description = 2;</code>
        */
       public boolean hasContentDescription() {
         return contentDescriptionBuilder_ != null || contentDescription_ != null;
       }
       /**
-       * <code>optional .dstore.values.StringValue content_description = 2;</code>
+       * <code>.dstore.values.StringValue content_description = 2;</code>
        */
       public io.dstore.values.StringValue getContentDescription() {
         if (contentDescriptionBuilder_ == null) {
@@ -1185,7 +1185,7 @@ public final class OmModifyPredefBillContentAd {
         }
       }
       /**
-       * <code>optional .dstore.values.StringValue content_description = 2;</code>
+       * <code>.dstore.values.StringValue content_description = 2;</code>
        */
       public Builder setContentDescription(io.dstore.values.StringValue value) {
         if (contentDescriptionBuilder_ == null) {
@@ -1201,7 +1201,7 @@ public final class OmModifyPredefBillContentAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.StringValue content_description = 2;</code>
+       * <code>.dstore.values.StringValue content_description = 2;</code>
        */
       public Builder setContentDescription(
           io.dstore.values.StringValue.Builder builderForValue) {
@@ -1215,7 +1215,7 @@ public final class OmModifyPredefBillContentAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.StringValue content_description = 2;</code>
+       * <code>.dstore.values.StringValue content_description = 2;</code>
        */
       public Builder mergeContentDescription(io.dstore.values.StringValue value) {
         if (contentDescriptionBuilder_ == null) {
@@ -1233,7 +1233,7 @@ public final class OmModifyPredefBillContentAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.StringValue content_description = 2;</code>
+       * <code>.dstore.values.StringValue content_description = 2;</code>
        */
       public Builder clearContentDescription() {
         if (contentDescriptionBuilder_ == null) {
@@ -1247,7 +1247,7 @@ public final class OmModifyPredefBillContentAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.StringValue content_description = 2;</code>
+       * <code>.dstore.values.StringValue content_description = 2;</code>
        */
       public io.dstore.values.StringValue.Builder getContentDescriptionBuilder() {
         
@@ -1255,7 +1255,7 @@ public final class OmModifyPredefBillContentAd {
         return getContentDescriptionFieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .dstore.values.StringValue content_description = 2;</code>
+       * <code>.dstore.values.StringValue content_description = 2;</code>
        */
       public io.dstore.values.StringValueOrBuilder getContentDescriptionOrBuilder() {
         if (contentDescriptionBuilder_ != null) {
@@ -1266,7 +1266,7 @@ public final class OmModifyPredefBillContentAd {
         }
       }
       /**
-       * <code>optional .dstore.values.StringValue content_description = 2;</code>
+       * <code>.dstore.values.StringValue content_description = 2;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.values.StringValue, io.dstore.values.StringValue.Builder, io.dstore.values.StringValueOrBuilder> 
@@ -1284,13 +1284,13 @@ public final class OmModifyPredefBillContentAd {
 
       private boolean contentDescriptionNull_ ;
       /**
-       * <code>optional bool content_description_null = 1002;</code>
+       * <code>bool content_description_null = 1002;</code>
        */
       public boolean getContentDescriptionNull() {
         return contentDescriptionNull_;
       }
       /**
-       * <code>optional bool content_description_null = 1002;</code>
+       * <code>bool content_description_null = 1002;</code>
        */
       public Builder setContentDescriptionNull(boolean value) {
         
@@ -1299,7 +1299,7 @@ public final class OmModifyPredefBillContentAd {
         return this;
       }
       /**
-       * <code>optional bool content_description_null = 1002;</code>
+       * <code>bool content_description_null = 1002;</code>
        */
       public Builder clearContentDescriptionNull() {
         
@@ -1312,13 +1312,13 @@ public final class OmModifyPredefBillContentAd {
       private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> tableIdBuilder_;
       /**
-       * <code>optional .dstore.values.IntegerValue table_id = 3;</code>
+       * <code>.dstore.values.IntegerValue table_id = 3;</code>
        */
       public boolean hasTableId() {
         return tableIdBuilder_ != null || tableId_ != null;
       }
       /**
-       * <code>optional .dstore.values.IntegerValue table_id = 3;</code>
+       * <code>.dstore.values.IntegerValue table_id = 3;</code>
        */
       public io.dstore.values.IntegerValue getTableId() {
         if (tableIdBuilder_ == null) {
@@ -1328,7 +1328,7 @@ public final class OmModifyPredefBillContentAd {
         }
       }
       /**
-       * <code>optional .dstore.values.IntegerValue table_id = 3;</code>
+       * <code>.dstore.values.IntegerValue table_id = 3;</code>
        */
       public Builder setTableId(io.dstore.values.IntegerValue value) {
         if (tableIdBuilder_ == null) {
@@ -1344,7 +1344,7 @@ public final class OmModifyPredefBillContentAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.IntegerValue table_id = 3;</code>
+       * <code>.dstore.values.IntegerValue table_id = 3;</code>
        */
       public Builder setTableId(
           io.dstore.values.IntegerValue.Builder builderForValue) {
@@ -1358,7 +1358,7 @@ public final class OmModifyPredefBillContentAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.IntegerValue table_id = 3;</code>
+       * <code>.dstore.values.IntegerValue table_id = 3;</code>
        */
       public Builder mergeTableId(io.dstore.values.IntegerValue value) {
         if (tableIdBuilder_ == null) {
@@ -1376,7 +1376,7 @@ public final class OmModifyPredefBillContentAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.IntegerValue table_id = 3;</code>
+       * <code>.dstore.values.IntegerValue table_id = 3;</code>
        */
       public Builder clearTableId() {
         if (tableIdBuilder_ == null) {
@@ -1390,7 +1390,7 @@ public final class OmModifyPredefBillContentAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.IntegerValue table_id = 3;</code>
+       * <code>.dstore.values.IntegerValue table_id = 3;</code>
        */
       public io.dstore.values.IntegerValue.Builder getTableIdBuilder() {
         
@@ -1398,7 +1398,7 @@ public final class OmModifyPredefBillContentAd {
         return getTableIdFieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .dstore.values.IntegerValue table_id = 3;</code>
+       * <code>.dstore.values.IntegerValue table_id = 3;</code>
        */
       public io.dstore.values.IntegerValueOrBuilder getTableIdOrBuilder() {
         if (tableIdBuilder_ != null) {
@@ -1409,7 +1409,7 @@ public final class OmModifyPredefBillContentAd {
         }
       }
       /**
-       * <code>optional .dstore.values.IntegerValue table_id = 3;</code>
+       * <code>.dstore.values.IntegerValue table_id = 3;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> 
@@ -1427,13 +1427,13 @@ public final class OmModifyPredefBillContentAd {
 
       private boolean tableIdNull_ ;
       /**
-       * <code>optional bool table_id_null = 1003;</code>
+       * <code>bool table_id_null = 1003;</code>
        */
       public boolean getTableIdNull() {
         return tableIdNull_;
       }
       /**
-       * <code>optional bool table_id_null = 1003;</code>
+       * <code>bool table_id_null = 1003;</code>
        */
       public Builder setTableIdNull(boolean value) {
         
@@ -1442,7 +1442,7 @@ public final class OmModifyPredefBillContentAd {
         return this;
       }
       /**
-       * <code>optional bool table_id_null = 1003;</code>
+       * <code>bool table_id_null = 1003;</code>
        */
       public Builder clearTableIdNull() {
         
@@ -1455,13 +1455,13 @@ public final class OmModifyPredefBillContentAd {
       private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> tableKeyIdBuilder_;
       /**
-       * <code>optional .dstore.values.IntegerValue table_key_id = 4;</code>
+       * <code>.dstore.values.IntegerValue table_key_id = 4;</code>
        */
       public boolean hasTableKeyId() {
         return tableKeyIdBuilder_ != null || tableKeyId_ != null;
       }
       /**
-       * <code>optional .dstore.values.IntegerValue table_key_id = 4;</code>
+       * <code>.dstore.values.IntegerValue table_key_id = 4;</code>
        */
       public io.dstore.values.IntegerValue getTableKeyId() {
         if (tableKeyIdBuilder_ == null) {
@@ -1471,7 +1471,7 @@ public final class OmModifyPredefBillContentAd {
         }
       }
       /**
-       * <code>optional .dstore.values.IntegerValue table_key_id = 4;</code>
+       * <code>.dstore.values.IntegerValue table_key_id = 4;</code>
        */
       public Builder setTableKeyId(io.dstore.values.IntegerValue value) {
         if (tableKeyIdBuilder_ == null) {
@@ -1487,7 +1487,7 @@ public final class OmModifyPredefBillContentAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.IntegerValue table_key_id = 4;</code>
+       * <code>.dstore.values.IntegerValue table_key_id = 4;</code>
        */
       public Builder setTableKeyId(
           io.dstore.values.IntegerValue.Builder builderForValue) {
@@ -1501,7 +1501,7 @@ public final class OmModifyPredefBillContentAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.IntegerValue table_key_id = 4;</code>
+       * <code>.dstore.values.IntegerValue table_key_id = 4;</code>
        */
       public Builder mergeTableKeyId(io.dstore.values.IntegerValue value) {
         if (tableKeyIdBuilder_ == null) {
@@ -1519,7 +1519,7 @@ public final class OmModifyPredefBillContentAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.IntegerValue table_key_id = 4;</code>
+       * <code>.dstore.values.IntegerValue table_key_id = 4;</code>
        */
       public Builder clearTableKeyId() {
         if (tableKeyIdBuilder_ == null) {
@@ -1533,7 +1533,7 @@ public final class OmModifyPredefBillContentAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.IntegerValue table_key_id = 4;</code>
+       * <code>.dstore.values.IntegerValue table_key_id = 4;</code>
        */
       public io.dstore.values.IntegerValue.Builder getTableKeyIdBuilder() {
         
@@ -1541,7 +1541,7 @@ public final class OmModifyPredefBillContentAd {
         return getTableKeyIdFieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .dstore.values.IntegerValue table_key_id = 4;</code>
+       * <code>.dstore.values.IntegerValue table_key_id = 4;</code>
        */
       public io.dstore.values.IntegerValueOrBuilder getTableKeyIdOrBuilder() {
         if (tableKeyIdBuilder_ != null) {
@@ -1552,7 +1552,7 @@ public final class OmModifyPredefBillContentAd {
         }
       }
       /**
-       * <code>optional .dstore.values.IntegerValue table_key_id = 4;</code>
+       * <code>.dstore.values.IntegerValue table_key_id = 4;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> 
@@ -1570,13 +1570,13 @@ public final class OmModifyPredefBillContentAd {
 
       private boolean tableKeyIdNull_ ;
       /**
-       * <code>optional bool table_key_id_null = 1004;</code>
+       * <code>bool table_key_id_null = 1004;</code>
        */
       public boolean getTableKeyIdNull() {
         return tableKeyIdNull_;
       }
       /**
-       * <code>optional bool table_key_id_null = 1004;</code>
+       * <code>bool table_key_id_null = 1004;</code>
        */
       public Builder setTableKeyIdNull(boolean value) {
         
@@ -1585,7 +1585,7 @@ public final class OmModifyPredefBillContentAd {
         return this;
       }
       /**
-       * <code>optional bool table_key_id_null = 1004;</code>
+       * <code>bool table_key_id_null = 1004;</code>
        */
       public Builder clearTableKeyIdNull() {
         
@@ -1598,13 +1598,13 @@ public final class OmModifyPredefBillContentAd {
       private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.values.BooleanValue, io.dstore.values.BooleanValue.Builder, io.dstore.values.BooleanValueOrBuilder> activeBuilder_;
       /**
-       * <code>optional .dstore.values.BooleanValue active = 5;</code>
+       * <code>.dstore.values.BooleanValue active = 5;</code>
        */
       public boolean hasActive() {
         return activeBuilder_ != null || active_ != null;
       }
       /**
-       * <code>optional .dstore.values.BooleanValue active = 5;</code>
+       * <code>.dstore.values.BooleanValue active = 5;</code>
        */
       public io.dstore.values.BooleanValue getActive() {
         if (activeBuilder_ == null) {
@@ -1614,7 +1614,7 @@ public final class OmModifyPredefBillContentAd {
         }
       }
       /**
-       * <code>optional .dstore.values.BooleanValue active = 5;</code>
+       * <code>.dstore.values.BooleanValue active = 5;</code>
        */
       public Builder setActive(io.dstore.values.BooleanValue value) {
         if (activeBuilder_ == null) {
@@ -1630,7 +1630,7 @@ public final class OmModifyPredefBillContentAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.BooleanValue active = 5;</code>
+       * <code>.dstore.values.BooleanValue active = 5;</code>
        */
       public Builder setActive(
           io.dstore.values.BooleanValue.Builder builderForValue) {
@@ -1644,7 +1644,7 @@ public final class OmModifyPredefBillContentAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.BooleanValue active = 5;</code>
+       * <code>.dstore.values.BooleanValue active = 5;</code>
        */
       public Builder mergeActive(io.dstore.values.BooleanValue value) {
         if (activeBuilder_ == null) {
@@ -1662,7 +1662,7 @@ public final class OmModifyPredefBillContentAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.BooleanValue active = 5;</code>
+       * <code>.dstore.values.BooleanValue active = 5;</code>
        */
       public Builder clearActive() {
         if (activeBuilder_ == null) {
@@ -1676,7 +1676,7 @@ public final class OmModifyPredefBillContentAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.BooleanValue active = 5;</code>
+       * <code>.dstore.values.BooleanValue active = 5;</code>
        */
       public io.dstore.values.BooleanValue.Builder getActiveBuilder() {
         
@@ -1684,7 +1684,7 @@ public final class OmModifyPredefBillContentAd {
         return getActiveFieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .dstore.values.BooleanValue active = 5;</code>
+       * <code>.dstore.values.BooleanValue active = 5;</code>
        */
       public io.dstore.values.BooleanValueOrBuilder getActiveOrBuilder() {
         if (activeBuilder_ != null) {
@@ -1695,7 +1695,7 @@ public final class OmModifyPredefBillContentAd {
         }
       }
       /**
-       * <code>optional .dstore.values.BooleanValue active = 5;</code>
+       * <code>.dstore.values.BooleanValue active = 5;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.values.BooleanValue, io.dstore.values.BooleanValue.Builder, io.dstore.values.BooleanValueOrBuilder> 
@@ -1713,13 +1713,13 @@ public final class OmModifyPredefBillContentAd {
 
       private boolean activeNull_ ;
       /**
-       * <code>optional bool active_null = 1005;</code>
+       * <code>bool active_null = 1005;</code>
        */
       public boolean getActiveNull() {
         return activeNull_;
       }
       /**
-       * <code>optional bool active_null = 1005;</code>
+       * <code>bool active_null = 1005;</code>
        */
       public Builder setActiveNull(boolean value) {
         
@@ -1728,7 +1728,7 @@ public final class OmModifyPredefBillContentAd {
         return this;
       }
       /**
-       * <code>optional bool active_null = 1005;</code>
+       * <code>bool active_null = 1005;</code>
        */
       public Builder clearActiveNull() {
         
@@ -1741,13 +1741,13 @@ public final class OmModifyPredefBillContentAd {
       private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.values.BooleanValue, io.dstore.values.BooleanValue.Builder, io.dstore.values.BooleanValueOrBuilder> deleteBuilder_;
       /**
-       * <code>optional .dstore.values.BooleanValue delete = 6;</code>
+       * <code>.dstore.values.BooleanValue delete = 6;</code>
        */
       public boolean hasDelete() {
         return deleteBuilder_ != null || delete_ != null;
       }
       /**
-       * <code>optional .dstore.values.BooleanValue delete = 6;</code>
+       * <code>.dstore.values.BooleanValue delete = 6;</code>
        */
       public io.dstore.values.BooleanValue getDelete() {
         if (deleteBuilder_ == null) {
@@ -1757,7 +1757,7 @@ public final class OmModifyPredefBillContentAd {
         }
       }
       /**
-       * <code>optional .dstore.values.BooleanValue delete = 6;</code>
+       * <code>.dstore.values.BooleanValue delete = 6;</code>
        */
       public Builder setDelete(io.dstore.values.BooleanValue value) {
         if (deleteBuilder_ == null) {
@@ -1773,7 +1773,7 @@ public final class OmModifyPredefBillContentAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.BooleanValue delete = 6;</code>
+       * <code>.dstore.values.BooleanValue delete = 6;</code>
        */
       public Builder setDelete(
           io.dstore.values.BooleanValue.Builder builderForValue) {
@@ -1787,7 +1787,7 @@ public final class OmModifyPredefBillContentAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.BooleanValue delete = 6;</code>
+       * <code>.dstore.values.BooleanValue delete = 6;</code>
        */
       public Builder mergeDelete(io.dstore.values.BooleanValue value) {
         if (deleteBuilder_ == null) {
@@ -1805,7 +1805,7 @@ public final class OmModifyPredefBillContentAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.BooleanValue delete = 6;</code>
+       * <code>.dstore.values.BooleanValue delete = 6;</code>
        */
       public Builder clearDelete() {
         if (deleteBuilder_ == null) {
@@ -1819,7 +1819,7 @@ public final class OmModifyPredefBillContentAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.BooleanValue delete = 6;</code>
+       * <code>.dstore.values.BooleanValue delete = 6;</code>
        */
       public io.dstore.values.BooleanValue.Builder getDeleteBuilder() {
         
@@ -1827,7 +1827,7 @@ public final class OmModifyPredefBillContentAd {
         return getDeleteFieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .dstore.values.BooleanValue delete = 6;</code>
+       * <code>.dstore.values.BooleanValue delete = 6;</code>
        */
       public io.dstore.values.BooleanValueOrBuilder getDeleteOrBuilder() {
         if (deleteBuilder_ != null) {
@@ -1838,7 +1838,7 @@ public final class OmModifyPredefBillContentAd {
         }
       }
       /**
-       * <code>optional .dstore.values.BooleanValue delete = 6;</code>
+       * <code>.dstore.values.BooleanValue delete = 6;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.values.BooleanValue, io.dstore.values.BooleanValue.Builder, io.dstore.values.BooleanValueOrBuilder> 
@@ -1856,13 +1856,13 @@ public final class OmModifyPredefBillContentAd {
 
       private boolean deleteNull_ ;
       /**
-       * <code>optional bool delete_null = 1006;</code>
+       * <code>bool delete_null = 1006;</code>
        */
       public boolean getDeleteNull() {
         return deleteNull_;
       }
       /**
-       * <code>optional bool delete_null = 1006;</code>
+       * <code>bool delete_null = 1006;</code>
        */
       public Builder setDeleteNull(boolean value) {
         
@@ -1871,7 +1871,7 @@ public final class OmModifyPredefBillContentAd {
         return this;
       }
       /**
-       * <code>optional bool delete_null = 1006;</code>
+       * <code>bool delete_null = 1006;</code>
        */
       public Builder clearDeleteNull() {
         
@@ -2130,7 +2130,7 @@ public final class OmModifyPredefBillContentAd {
         com.google.protobuf.MessageOrBuilder {
 
       /**
-       * <code>optional int32 row_id = 10000;</code>
+       * <code>int32 row_id = 10000;</code>
        */
       int getRowId();
     }
@@ -2205,7 +2205,7 @@ public final class OmModifyPredefBillContentAd {
       public static final int ROW_ID_FIELD_NUMBER = 10000;
       private int rowId_;
       /**
-       * <code>optional int32 row_id = 10000;</code>
+       * <code>int32 row_id = 10000;</code>
        */
       public int getRowId() {
         return rowId_;
@@ -2264,7 +2264,7 @@ public final class OmModifyPredefBillContentAd {
           return memoizedHashCode;
         }
         int hash = 41;
-        hash = (19 * hash) + getDescriptorForType().hashCode();
+        hash = (19 * hash) + getDescriptor().hashCode();
         hash = (37 * hash) + ROW_ID_FIELD_NUMBER;
         hash = (53 * hash) + getRowId();
         hash = (29 * hash) + unknownFields.hashCode();
@@ -2482,13 +2482,13 @@ public final class OmModifyPredefBillContentAd {
 
         private int rowId_ ;
         /**
-         * <code>optional int32 row_id = 10000;</code>
+         * <code>int32 row_id = 10000;</code>
          */
         public int getRowId() {
           return rowId_;
         }
         /**
-         * <code>optional int32 row_id = 10000;</code>
+         * <code>int32 row_id = 10000;</code>
          */
         public Builder setRowId(int value) {
           
@@ -2497,7 +2497,7 @@ public final class OmModifyPredefBillContentAd {
           return this;
         }
         /**
-         * <code>optional int32 row_id = 10000;</code>
+         * <code>int32 row_id = 10000;</code>
          */
         public Builder clearRowId() {
           
@@ -2750,7 +2750,7 @@ public final class OmModifyPredefBillContentAd {
         return memoizedHashCode;
       }
       int hash = 41;
-      hash = (19 * hash) + getDescriptorForType().hashCode();
+      hash = (19 * hash) + getDescriptor().hashCode();
       if (getMetaInformationCount() > 0) {
         hash = (37 * hash) + META_INFORMATION_FIELD_NUMBER;
         hash = (53 * hash) + getMetaInformationList().hashCode();

@@ -19,38 +19,38 @@ public final class ImGetImportErrorsAd {
       com.google.protobuf.MessageOrBuilder {
 
     /**
-     * <code>optional .dstore.values.TimestampValue from_date = 1;</code>
+     * <code>.dstore.values.TimestampValue from_date = 1;</code>
      */
     boolean hasFromDate();
     /**
-     * <code>optional .dstore.values.TimestampValue from_date = 1;</code>
+     * <code>.dstore.values.TimestampValue from_date = 1;</code>
      */
     io.dstore.values.TimestampValue getFromDate();
     /**
-     * <code>optional .dstore.values.TimestampValue from_date = 1;</code>
+     * <code>.dstore.values.TimestampValue from_date = 1;</code>
      */
     io.dstore.values.TimestampValueOrBuilder getFromDateOrBuilder();
 
     /**
-     * <code>optional bool from_date_null = 1001;</code>
+     * <code>bool from_date_null = 1001;</code>
      */
     boolean getFromDateNull();
 
     /**
-     * <code>optional .dstore.values.TimestampValue to_date = 2;</code>
+     * <code>.dstore.values.TimestampValue to_date = 2;</code>
      */
     boolean hasToDate();
     /**
-     * <code>optional .dstore.values.TimestampValue to_date = 2;</code>
+     * <code>.dstore.values.TimestampValue to_date = 2;</code>
      */
     io.dstore.values.TimestampValue getToDate();
     /**
-     * <code>optional .dstore.values.TimestampValue to_date = 2;</code>
+     * <code>.dstore.values.TimestampValue to_date = 2;</code>
      */
     io.dstore.values.TimestampValueOrBuilder getToDateOrBuilder();
 
     /**
-     * <code>optional bool to_date_null = 1002;</code>
+     * <code>bool to_date_null = 1002;</code>
      */
     boolean getToDateNull();
   }
@@ -157,19 +157,19 @@ public final class ImGetImportErrorsAd {
     public static final int FROM_DATE_FIELD_NUMBER = 1;
     private io.dstore.values.TimestampValue fromDate_;
     /**
-     * <code>optional .dstore.values.TimestampValue from_date = 1;</code>
+     * <code>.dstore.values.TimestampValue from_date = 1;</code>
      */
     public boolean hasFromDate() {
       return fromDate_ != null;
     }
     /**
-     * <code>optional .dstore.values.TimestampValue from_date = 1;</code>
+     * <code>.dstore.values.TimestampValue from_date = 1;</code>
      */
     public io.dstore.values.TimestampValue getFromDate() {
       return fromDate_ == null ? io.dstore.values.TimestampValue.getDefaultInstance() : fromDate_;
     }
     /**
-     * <code>optional .dstore.values.TimestampValue from_date = 1;</code>
+     * <code>.dstore.values.TimestampValue from_date = 1;</code>
      */
     public io.dstore.values.TimestampValueOrBuilder getFromDateOrBuilder() {
       return getFromDate();
@@ -178,7 +178,7 @@ public final class ImGetImportErrorsAd {
     public static final int FROM_DATE_NULL_FIELD_NUMBER = 1001;
     private boolean fromDateNull_;
     /**
-     * <code>optional bool from_date_null = 1001;</code>
+     * <code>bool from_date_null = 1001;</code>
      */
     public boolean getFromDateNull() {
       return fromDateNull_;
@@ -187,19 +187,19 @@ public final class ImGetImportErrorsAd {
     public static final int TO_DATE_FIELD_NUMBER = 2;
     private io.dstore.values.TimestampValue toDate_;
     /**
-     * <code>optional .dstore.values.TimestampValue to_date = 2;</code>
+     * <code>.dstore.values.TimestampValue to_date = 2;</code>
      */
     public boolean hasToDate() {
       return toDate_ != null;
     }
     /**
-     * <code>optional .dstore.values.TimestampValue to_date = 2;</code>
+     * <code>.dstore.values.TimestampValue to_date = 2;</code>
      */
     public io.dstore.values.TimestampValue getToDate() {
       return toDate_ == null ? io.dstore.values.TimestampValue.getDefaultInstance() : toDate_;
     }
     /**
-     * <code>optional .dstore.values.TimestampValue to_date = 2;</code>
+     * <code>.dstore.values.TimestampValue to_date = 2;</code>
      */
     public io.dstore.values.TimestampValueOrBuilder getToDateOrBuilder() {
       return getToDate();
@@ -208,7 +208,7 @@ public final class ImGetImportErrorsAd {
     public static final int TO_DATE_NULL_FIELD_NUMBER = 1002;
     private boolean toDateNull_;
     /**
-     * <code>optional bool to_date_null = 1002;</code>
+     * <code>bool to_date_null = 1002;</code>
      */
     public boolean getToDateNull() {
       return toDateNull_;
@@ -300,7 +300,7 @@ public final class ImGetImportErrorsAd {
         return memoizedHashCode;
       }
       int hash = 41;
-      hash = (19 * hash) + getDescriptorForType().hashCode();
+      hash = (19 * hash) + getDescriptor().hashCode();
       if (hasFromDate()) {
         hash = (37 * hash) + FROM_DATE_FIELD_NUMBER;
         hash = (53 * hash) + getFromDate().hashCode();
@@ -566,13 +566,13 @@ public final class ImGetImportErrorsAd {
       private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.values.TimestampValue, io.dstore.values.TimestampValue.Builder, io.dstore.values.TimestampValueOrBuilder> fromDateBuilder_;
       /**
-       * <code>optional .dstore.values.TimestampValue from_date = 1;</code>
+       * <code>.dstore.values.TimestampValue from_date = 1;</code>
        */
       public boolean hasFromDate() {
         return fromDateBuilder_ != null || fromDate_ != null;
       }
       /**
-       * <code>optional .dstore.values.TimestampValue from_date = 1;</code>
+       * <code>.dstore.values.TimestampValue from_date = 1;</code>
        */
       public io.dstore.values.TimestampValue getFromDate() {
         if (fromDateBuilder_ == null) {
@@ -582,7 +582,7 @@ public final class ImGetImportErrorsAd {
         }
       }
       /**
-       * <code>optional .dstore.values.TimestampValue from_date = 1;</code>
+       * <code>.dstore.values.TimestampValue from_date = 1;</code>
        */
       public Builder setFromDate(io.dstore.values.TimestampValue value) {
         if (fromDateBuilder_ == null) {
@@ -598,7 +598,7 @@ public final class ImGetImportErrorsAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.TimestampValue from_date = 1;</code>
+       * <code>.dstore.values.TimestampValue from_date = 1;</code>
        */
       public Builder setFromDate(
           io.dstore.values.TimestampValue.Builder builderForValue) {
@@ -612,7 +612,7 @@ public final class ImGetImportErrorsAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.TimestampValue from_date = 1;</code>
+       * <code>.dstore.values.TimestampValue from_date = 1;</code>
        */
       public Builder mergeFromDate(io.dstore.values.TimestampValue value) {
         if (fromDateBuilder_ == null) {
@@ -630,7 +630,7 @@ public final class ImGetImportErrorsAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.TimestampValue from_date = 1;</code>
+       * <code>.dstore.values.TimestampValue from_date = 1;</code>
        */
       public Builder clearFromDate() {
         if (fromDateBuilder_ == null) {
@@ -644,7 +644,7 @@ public final class ImGetImportErrorsAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.TimestampValue from_date = 1;</code>
+       * <code>.dstore.values.TimestampValue from_date = 1;</code>
        */
       public io.dstore.values.TimestampValue.Builder getFromDateBuilder() {
         
@@ -652,7 +652,7 @@ public final class ImGetImportErrorsAd {
         return getFromDateFieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .dstore.values.TimestampValue from_date = 1;</code>
+       * <code>.dstore.values.TimestampValue from_date = 1;</code>
        */
       public io.dstore.values.TimestampValueOrBuilder getFromDateOrBuilder() {
         if (fromDateBuilder_ != null) {
@@ -663,7 +663,7 @@ public final class ImGetImportErrorsAd {
         }
       }
       /**
-       * <code>optional .dstore.values.TimestampValue from_date = 1;</code>
+       * <code>.dstore.values.TimestampValue from_date = 1;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.values.TimestampValue, io.dstore.values.TimestampValue.Builder, io.dstore.values.TimestampValueOrBuilder> 
@@ -681,13 +681,13 @@ public final class ImGetImportErrorsAd {
 
       private boolean fromDateNull_ ;
       /**
-       * <code>optional bool from_date_null = 1001;</code>
+       * <code>bool from_date_null = 1001;</code>
        */
       public boolean getFromDateNull() {
         return fromDateNull_;
       }
       /**
-       * <code>optional bool from_date_null = 1001;</code>
+       * <code>bool from_date_null = 1001;</code>
        */
       public Builder setFromDateNull(boolean value) {
         
@@ -696,7 +696,7 @@ public final class ImGetImportErrorsAd {
         return this;
       }
       /**
-       * <code>optional bool from_date_null = 1001;</code>
+       * <code>bool from_date_null = 1001;</code>
        */
       public Builder clearFromDateNull() {
         
@@ -709,13 +709,13 @@ public final class ImGetImportErrorsAd {
       private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.values.TimestampValue, io.dstore.values.TimestampValue.Builder, io.dstore.values.TimestampValueOrBuilder> toDateBuilder_;
       /**
-       * <code>optional .dstore.values.TimestampValue to_date = 2;</code>
+       * <code>.dstore.values.TimestampValue to_date = 2;</code>
        */
       public boolean hasToDate() {
         return toDateBuilder_ != null || toDate_ != null;
       }
       /**
-       * <code>optional .dstore.values.TimestampValue to_date = 2;</code>
+       * <code>.dstore.values.TimestampValue to_date = 2;</code>
        */
       public io.dstore.values.TimestampValue getToDate() {
         if (toDateBuilder_ == null) {
@@ -725,7 +725,7 @@ public final class ImGetImportErrorsAd {
         }
       }
       /**
-       * <code>optional .dstore.values.TimestampValue to_date = 2;</code>
+       * <code>.dstore.values.TimestampValue to_date = 2;</code>
        */
       public Builder setToDate(io.dstore.values.TimestampValue value) {
         if (toDateBuilder_ == null) {
@@ -741,7 +741,7 @@ public final class ImGetImportErrorsAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.TimestampValue to_date = 2;</code>
+       * <code>.dstore.values.TimestampValue to_date = 2;</code>
        */
       public Builder setToDate(
           io.dstore.values.TimestampValue.Builder builderForValue) {
@@ -755,7 +755,7 @@ public final class ImGetImportErrorsAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.TimestampValue to_date = 2;</code>
+       * <code>.dstore.values.TimestampValue to_date = 2;</code>
        */
       public Builder mergeToDate(io.dstore.values.TimestampValue value) {
         if (toDateBuilder_ == null) {
@@ -773,7 +773,7 @@ public final class ImGetImportErrorsAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.TimestampValue to_date = 2;</code>
+       * <code>.dstore.values.TimestampValue to_date = 2;</code>
        */
       public Builder clearToDate() {
         if (toDateBuilder_ == null) {
@@ -787,7 +787,7 @@ public final class ImGetImportErrorsAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.TimestampValue to_date = 2;</code>
+       * <code>.dstore.values.TimestampValue to_date = 2;</code>
        */
       public io.dstore.values.TimestampValue.Builder getToDateBuilder() {
         
@@ -795,7 +795,7 @@ public final class ImGetImportErrorsAd {
         return getToDateFieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .dstore.values.TimestampValue to_date = 2;</code>
+       * <code>.dstore.values.TimestampValue to_date = 2;</code>
        */
       public io.dstore.values.TimestampValueOrBuilder getToDateOrBuilder() {
         if (toDateBuilder_ != null) {
@@ -806,7 +806,7 @@ public final class ImGetImportErrorsAd {
         }
       }
       /**
-       * <code>optional .dstore.values.TimestampValue to_date = 2;</code>
+       * <code>.dstore.values.TimestampValue to_date = 2;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.values.TimestampValue, io.dstore.values.TimestampValue.Builder, io.dstore.values.TimestampValueOrBuilder> 
@@ -824,13 +824,13 @@ public final class ImGetImportErrorsAd {
 
       private boolean toDateNull_ ;
       /**
-       * <code>optional bool to_date_null = 1002;</code>
+       * <code>bool to_date_null = 1002;</code>
        */
       public boolean getToDateNull() {
         return toDateNull_;
       }
       /**
-       * <code>optional bool to_date_null = 1002;</code>
+       * <code>bool to_date_null = 1002;</code>
        */
       public Builder setToDateNull(boolean value) {
         
@@ -839,7 +839,7 @@ public final class ImGetImportErrorsAd {
         return this;
       }
       /**
-       * <code>optional bool to_date_null = 1002;</code>
+       * <code>bool to_date_null = 1002;</code>
        */
       public Builder clearToDateNull() {
         
@@ -1098,7 +1098,7 @@ public final class ImGetImportErrorsAd {
         com.google.protobuf.MessageOrBuilder {
 
       /**
-       * <code>optional int32 row_id = 10000;</code>
+       * <code>int32 row_id = 10000;</code>
        */
       int getRowId();
 
@@ -1107,7 +1107,7 @@ public final class ImGetImportErrorsAd {
        * Die "Artikelnummer" des Produkts oder der Variante bei deren Bearbeitung der Fehler aufgetreten ist
        * </pre>
        *
-       * <code>optional .dstore.values.StringValue variant_or_item_no = 10001;</code>
+       * <code>.dstore.values.StringValue variant_or_item_no = 10001;</code>
        */
       boolean hasVariantOrItemNo();
       /**
@@ -1115,7 +1115,7 @@ public final class ImGetImportErrorsAd {
        * Die "Artikelnummer" des Produkts oder der Variante bei deren Bearbeitung der Fehler aufgetreten ist
        * </pre>
        *
-       * <code>optional .dstore.values.StringValue variant_or_item_no = 10001;</code>
+       * <code>.dstore.values.StringValue variant_or_item_no = 10001;</code>
        */
       io.dstore.values.StringValue getVariantOrItemNo();
       /**
@@ -1123,7 +1123,7 @@ public final class ImGetImportErrorsAd {
        * Die "Artikelnummer" des Produkts oder der Variante bei deren Bearbeitung der Fehler aufgetreten ist
        * </pre>
        *
-       * <code>optional .dstore.values.StringValue variant_or_item_no = 10001;</code>
+       * <code>.dstore.values.StringValue variant_or_item_no = 10001;</code>
        */
       io.dstore.values.StringValueOrBuilder getVariantOrItemNoOrBuilder();
 
@@ -1132,7 +1132,7 @@ public final class ImGetImportErrorsAd {
        * Die MerkmalID in deren Zusammenhang der Fehler aufgetreten ist
        * </pre>
        *
-       * <code>optional .dstore.values.IntegerValue node_characteristic_id = 10002;</code>
+       * <code>.dstore.values.IntegerValue node_characteristic_id = 10002;</code>
        */
       boolean hasNodeCharacteristicId();
       /**
@@ -1140,7 +1140,7 @@ public final class ImGetImportErrorsAd {
        * Die MerkmalID in deren Zusammenhang der Fehler aufgetreten ist
        * </pre>
        *
-       * <code>optional .dstore.values.IntegerValue node_characteristic_id = 10002;</code>
+       * <code>.dstore.values.IntegerValue node_characteristic_id = 10002;</code>
        */
       io.dstore.values.IntegerValue getNodeCharacteristicId();
       /**
@@ -1148,7 +1148,7 @@ public final class ImGetImportErrorsAd {
        * Die MerkmalID in deren Zusammenhang der Fehler aufgetreten ist
        * </pre>
        *
-       * <code>optional .dstore.values.IntegerValue node_characteristic_id = 10002;</code>
+       * <code>.dstore.values.IntegerValue node_characteristic_id = 10002;</code>
        */
       io.dstore.values.IntegerValueOrBuilder getNodeCharacteristicIdOrBuilder();
 
@@ -1157,7 +1157,7 @@ public final class ImGetImportErrorsAd {
        * Der Wert zur "NodeCharacteristicID", in dessen Zusammenhang der Fehler aufgetreten ist
        * </pre>
        *
-       * <code>optional .dstore.values.StringValue value = 10003;</code>
+       * <code>.dstore.values.StringValue value = 10003;</code>
        */
       boolean hasValue();
       /**
@@ -1165,7 +1165,7 @@ public final class ImGetImportErrorsAd {
        * Der Wert zur "NodeCharacteristicID", in dessen Zusammenhang der Fehler aufgetreten ist
        * </pre>
        *
-       * <code>optional .dstore.values.StringValue value = 10003;</code>
+       * <code>.dstore.values.StringValue value = 10003;</code>
        */
       io.dstore.values.StringValue getValue();
       /**
@@ -1173,7 +1173,7 @@ public final class ImGetImportErrorsAd {
        * Der Wert zur "NodeCharacteristicID", in dessen Zusammenhang der Fehler aufgetreten ist
        * </pre>
        *
-       * <code>optional .dstore.values.StringValue value = 10003;</code>
+       * <code>.dstore.values.StringValue value = 10003;</code>
        */
       io.dstore.values.StringValueOrBuilder getValueOrBuilder();
 
@@ -1182,7 +1182,7 @@ public final class ImGetImportErrorsAd {
        * Der Zeitpunkt an dem der Fehler aufgetreten ist
        * </pre>
        *
-       * <code>optional .dstore.values.TimestampValue date_and_time = 10004;</code>
+       * <code>.dstore.values.TimestampValue date_and_time = 10004;</code>
        */
       boolean hasDateAndTime();
       /**
@@ -1190,7 +1190,7 @@ public final class ImGetImportErrorsAd {
        * Der Zeitpunkt an dem der Fehler aufgetreten ist
        * </pre>
        *
-       * <code>optional .dstore.values.TimestampValue date_and_time = 10004;</code>
+       * <code>.dstore.values.TimestampValue date_and_time = 10004;</code>
        */
       io.dstore.values.TimestampValue getDateAndTime();
       /**
@@ -1198,7 +1198,7 @@ public final class ImGetImportErrorsAd {
        * Der Zeitpunkt an dem der Fehler aufgetreten ist
        * </pre>
        *
-       * <code>optional .dstore.values.TimestampValue date_and_time = 10004;</code>
+       * <code>.dstore.values.TimestampValue date_and_time = 10004;</code>
        */
       io.dstore.values.TimestampValueOrBuilder getDateAndTimeOrBuilder();
 
@@ -1207,7 +1207,7 @@ public final class ImGetImportErrorsAd {
        * Der aufgetretene ErrorCode (s. Beschreibung von "im_ImportItemData_Ad")
        * </pre>
        *
-       * <code>optional .dstore.values.IntegerValue error_code = 10005;</code>
+       * <code>.dstore.values.IntegerValue error_code = 10005;</code>
        */
       boolean hasErrorCode();
       /**
@@ -1215,7 +1215,7 @@ public final class ImGetImportErrorsAd {
        * Der aufgetretene ErrorCode (s. Beschreibung von "im_ImportItemData_Ad")
        * </pre>
        *
-       * <code>optional .dstore.values.IntegerValue error_code = 10005;</code>
+       * <code>.dstore.values.IntegerValue error_code = 10005;</code>
        */
       io.dstore.values.IntegerValue getErrorCode();
       /**
@@ -1223,7 +1223,7 @@ public final class ImGetImportErrorsAd {
        * Der aufgetretene ErrorCode (s. Beschreibung von "im_ImportItemData_Ad")
        * </pre>
        *
-       * <code>optional .dstore.values.IntegerValue error_code = 10005;</code>
+       * <code>.dstore.values.IntegerValue error_code = 10005;</code>
        */
       io.dstore.values.IntegerValueOrBuilder getErrorCodeOrBuilder();
     }
@@ -1363,7 +1363,7 @@ public final class ImGetImportErrorsAd {
       public static final int ROW_ID_FIELD_NUMBER = 10000;
       private int rowId_;
       /**
-       * <code>optional int32 row_id = 10000;</code>
+       * <code>int32 row_id = 10000;</code>
        */
       public int getRowId() {
         return rowId_;
@@ -1376,7 +1376,7 @@ public final class ImGetImportErrorsAd {
        * Die "Artikelnummer" des Produkts oder der Variante bei deren Bearbeitung der Fehler aufgetreten ist
        * </pre>
        *
-       * <code>optional .dstore.values.StringValue variant_or_item_no = 10001;</code>
+       * <code>.dstore.values.StringValue variant_or_item_no = 10001;</code>
        */
       public boolean hasVariantOrItemNo() {
         return variantOrItemNo_ != null;
@@ -1386,7 +1386,7 @@ public final class ImGetImportErrorsAd {
        * Die "Artikelnummer" des Produkts oder der Variante bei deren Bearbeitung der Fehler aufgetreten ist
        * </pre>
        *
-       * <code>optional .dstore.values.StringValue variant_or_item_no = 10001;</code>
+       * <code>.dstore.values.StringValue variant_or_item_no = 10001;</code>
        */
       public io.dstore.values.StringValue getVariantOrItemNo() {
         return variantOrItemNo_ == null ? io.dstore.values.StringValue.getDefaultInstance() : variantOrItemNo_;
@@ -1396,7 +1396,7 @@ public final class ImGetImportErrorsAd {
        * Die "Artikelnummer" des Produkts oder der Variante bei deren Bearbeitung der Fehler aufgetreten ist
        * </pre>
        *
-       * <code>optional .dstore.values.StringValue variant_or_item_no = 10001;</code>
+       * <code>.dstore.values.StringValue variant_or_item_no = 10001;</code>
        */
       public io.dstore.values.StringValueOrBuilder getVariantOrItemNoOrBuilder() {
         return getVariantOrItemNo();
@@ -1409,7 +1409,7 @@ public final class ImGetImportErrorsAd {
        * Die MerkmalID in deren Zusammenhang der Fehler aufgetreten ist
        * </pre>
        *
-       * <code>optional .dstore.values.IntegerValue node_characteristic_id = 10002;</code>
+       * <code>.dstore.values.IntegerValue node_characteristic_id = 10002;</code>
        */
       public boolean hasNodeCharacteristicId() {
         return nodeCharacteristicId_ != null;
@@ -1419,7 +1419,7 @@ public final class ImGetImportErrorsAd {
        * Die MerkmalID in deren Zusammenhang der Fehler aufgetreten ist
        * </pre>
        *
-       * <code>optional .dstore.values.IntegerValue node_characteristic_id = 10002;</code>
+       * <code>.dstore.values.IntegerValue node_characteristic_id = 10002;</code>
        */
       public io.dstore.values.IntegerValue getNodeCharacteristicId() {
         return nodeCharacteristicId_ == null ? io.dstore.values.IntegerValue.getDefaultInstance() : nodeCharacteristicId_;
@@ -1429,7 +1429,7 @@ public final class ImGetImportErrorsAd {
        * Die MerkmalID in deren Zusammenhang der Fehler aufgetreten ist
        * </pre>
        *
-       * <code>optional .dstore.values.IntegerValue node_characteristic_id = 10002;</code>
+       * <code>.dstore.values.IntegerValue node_characteristic_id = 10002;</code>
        */
       public io.dstore.values.IntegerValueOrBuilder getNodeCharacteristicIdOrBuilder() {
         return getNodeCharacteristicId();
@@ -1442,7 +1442,7 @@ public final class ImGetImportErrorsAd {
        * Der Wert zur "NodeCharacteristicID", in dessen Zusammenhang der Fehler aufgetreten ist
        * </pre>
        *
-       * <code>optional .dstore.values.StringValue value = 10003;</code>
+       * <code>.dstore.values.StringValue value = 10003;</code>
        */
       public boolean hasValue() {
         return value_ != null;
@@ -1452,7 +1452,7 @@ public final class ImGetImportErrorsAd {
        * Der Wert zur "NodeCharacteristicID", in dessen Zusammenhang der Fehler aufgetreten ist
        * </pre>
        *
-       * <code>optional .dstore.values.StringValue value = 10003;</code>
+       * <code>.dstore.values.StringValue value = 10003;</code>
        */
       public io.dstore.values.StringValue getValue() {
         return value_ == null ? io.dstore.values.StringValue.getDefaultInstance() : value_;
@@ -1462,7 +1462,7 @@ public final class ImGetImportErrorsAd {
        * Der Wert zur "NodeCharacteristicID", in dessen Zusammenhang der Fehler aufgetreten ist
        * </pre>
        *
-       * <code>optional .dstore.values.StringValue value = 10003;</code>
+       * <code>.dstore.values.StringValue value = 10003;</code>
        */
       public io.dstore.values.StringValueOrBuilder getValueOrBuilder() {
         return getValue();
@@ -1475,7 +1475,7 @@ public final class ImGetImportErrorsAd {
        * Der Zeitpunkt an dem der Fehler aufgetreten ist
        * </pre>
        *
-       * <code>optional .dstore.values.TimestampValue date_and_time = 10004;</code>
+       * <code>.dstore.values.TimestampValue date_and_time = 10004;</code>
        */
       public boolean hasDateAndTime() {
         return dateAndTime_ != null;
@@ -1485,7 +1485,7 @@ public final class ImGetImportErrorsAd {
        * Der Zeitpunkt an dem der Fehler aufgetreten ist
        * </pre>
        *
-       * <code>optional .dstore.values.TimestampValue date_and_time = 10004;</code>
+       * <code>.dstore.values.TimestampValue date_and_time = 10004;</code>
        */
       public io.dstore.values.TimestampValue getDateAndTime() {
         return dateAndTime_ == null ? io.dstore.values.TimestampValue.getDefaultInstance() : dateAndTime_;
@@ -1495,7 +1495,7 @@ public final class ImGetImportErrorsAd {
        * Der Zeitpunkt an dem der Fehler aufgetreten ist
        * </pre>
        *
-       * <code>optional .dstore.values.TimestampValue date_and_time = 10004;</code>
+       * <code>.dstore.values.TimestampValue date_and_time = 10004;</code>
        */
       public io.dstore.values.TimestampValueOrBuilder getDateAndTimeOrBuilder() {
         return getDateAndTime();
@@ -1508,7 +1508,7 @@ public final class ImGetImportErrorsAd {
        * Der aufgetretene ErrorCode (s. Beschreibung von "im_ImportItemData_Ad")
        * </pre>
        *
-       * <code>optional .dstore.values.IntegerValue error_code = 10005;</code>
+       * <code>.dstore.values.IntegerValue error_code = 10005;</code>
        */
       public boolean hasErrorCode() {
         return errorCode_ != null;
@@ -1518,7 +1518,7 @@ public final class ImGetImportErrorsAd {
        * Der aufgetretene ErrorCode (s. Beschreibung von "im_ImportItemData_Ad")
        * </pre>
        *
-       * <code>optional .dstore.values.IntegerValue error_code = 10005;</code>
+       * <code>.dstore.values.IntegerValue error_code = 10005;</code>
        */
       public io.dstore.values.IntegerValue getErrorCode() {
         return errorCode_ == null ? io.dstore.values.IntegerValue.getDefaultInstance() : errorCode_;
@@ -1528,7 +1528,7 @@ public final class ImGetImportErrorsAd {
        * Der aufgetretene ErrorCode (s. Beschreibung von "im_ImportItemData_Ad")
        * </pre>
        *
-       * <code>optional .dstore.values.IntegerValue error_code = 10005;</code>
+       * <code>.dstore.values.IntegerValue error_code = 10005;</code>
        */
       public io.dstore.values.IntegerValueOrBuilder getErrorCodeOrBuilder() {
         return getErrorCode();
@@ -1647,7 +1647,7 @@ public final class ImGetImportErrorsAd {
           return memoizedHashCode;
         }
         int hash = 41;
-        hash = (19 * hash) + getDescriptorForType().hashCode();
+        hash = (19 * hash) + getDescriptor().hashCode();
         hash = (37 * hash) + ROW_ID_FIELD_NUMBER;
         hash = (53 * hash) + getRowId();
         if (hasVariantOrItemNo()) {
@@ -1955,13 +1955,13 @@ public final class ImGetImportErrorsAd {
 
         private int rowId_ ;
         /**
-         * <code>optional int32 row_id = 10000;</code>
+         * <code>int32 row_id = 10000;</code>
          */
         public int getRowId() {
           return rowId_;
         }
         /**
-         * <code>optional int32 row_id = 10000;</code>
+         * <code>int32 row_id = 10000;</code>
          */
         public Builder setRowId(int value) {
           
@@ -1970,7 +1970,7 @@ public final class ImGetImportErrorsAd {
           return this;
         }
         /**
-         * <code>optional int32 row_id = 10000;</code>
+         * <code>int32 row_id = 10000;</code>
          */
         public Builder clearRowId() {
           
@@ -1987,7 +1987,7 @@ public final class ImGetImportErrorsAd {
          * Die "Artikelnummer" des Produkts oder der Variante bei deren Bearbeitung der Fehler aufgetreten ist
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue variant_or_item_no = 10001;</code>
+         * <code>.dstore.values.StringValue variant_or_item_no = 10001;</code>
          */
         public boolean hasVariantOrItemNo() {
           return variantOrItemNoBuilder_ != null || variantOrItemNo_ != null;
@@ -1997,7 +1997,7 @@ public final class ImGetImportErrorsAd {
          * Die "Artikelnummer" des Produkts oder der Variante bei deren Bearbeitung der Fehler aufgetreten ist
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue variant_or_item_no = 10001;</code>
+         * <code>.dstore.values.StringValue variant_or_item_no = 10001;</code>
          */
         public io.dstore.values.StringValue getVariantOrItemNo() {
           if (variantOrItemNoBuilder_ == null) {
@@ -2011,7 +2011,7 @@ public final class ImGetImportErrorsAd {
          * Die "Artikelnummer" des Produkts oder der Variante bei deren Bearbeitung der Fehler aufgetreten ist
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue variant_or_item_no = 10001;</code>
+         * <code>.dstore.values.StringValue variant_or_item_no = 10001;</code>
          */
         public Builder setVariantOrItemNo(io.dstore.values.StringValue value) {
           if (variantOrItemNoBuilder_ == null) {
@@ -2031,7 +2031,7 @@ public final class ImGetImportErrorsAd {
          * Die "Artikelnummer" des Produkts oder der Variante bei deren Bearbeitung der Fehler aufgetreten ist
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue variant_or_item_no = 10001;</code>
+         * <code>.dstore.values.StringValue variant_or_item_no = 10001;</code>
          */
         public Builder setVariantOrItemNo(
             io.dstore.values.StringValue.Builder builderForValue) {
@@ -2049,7 +2049,7 @@ public final class ImGetImportErrorsAd {
          * Die "Artikelnummer" des Produkts oder der Variante bei deren Bearbeitung der Fehler aufgetreten ist
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue variant_or_item_no = 10001;</code>
+         * <code>.dstore.values.StringValue variant_or_item_no = 10001;</code>
          */
         public Builder mergeVariantOrItemNo(io.dstore.values.StringValue value) {
           if (variantOrItemNoBuilder_ == null) {
@@ -2071,7 +2071,7 @@ public final class ImGetImportErrorsAd {
          * Die "Artikelnummer" des Produkts oder der Variante bei deren Bearbeitung der Fehler aufgetreten ist
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue variant_or_item_no = 10001;</code>
+         * <code>.dstore.values.StringValue variant_or_item_no = 10001;</code>
          */
         public Builder clearVariantOrItemNo() {
           if (variantOrItemNoBuilder_ == null) {
@@ -2089,7 +2089,7 @@ public final class ImGetImportErrorsAd {
          * Die "Artikelnummer" des Produkts oder der Variante bei deren Bearbeitung der Fehler aufgetreten ist
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue variant_or_item_no = 10001;</code>
+         * <code>.dstore.values.StringValue variant_or_item_no = 10001;</code>
          */
         public io.dstore.values.StringValue.Builder getVariantOrItemNoBuilder() {
           
@@ -2101,7 +2101,7 @@ public final class ImGetImportErrorsAd {
          * Die "Artikelnummer" des Produkts oder der Variante bei deren Bearbeitung der Fehler aufgetreten ist
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue variant_or_item_no = 10001;</code>
+         * <code>.dstore.values.StringValue variant_or_item_no = 10001;</code>
          */
         public io.dstore.values.StringValueOrBuilder getVariantOrItemNoOrBuilder() {
           if (variantOrItemNoBuilder_ != null) {
@@ -2116,7 +2116,7 @@ public final class ImGetImportErrorsAd {
          * Die "Artikelnummer" des Produkts oder der Variante bei deren Bearbeitung der Fehler aufgetreten ist
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue variant_or_item_no = 10001;</code>
+         * <code>.dstore.values.StringValue variant_or_item_no = 10001;</code>
          */
         private com.google.protobuf.SingleFieldBuilderV3<
             io.dstore.values.StringValue, io.dstore.values.StringValue.Builder, io.dstore.values.StringValueOrBuilder> 
@@ -2140,7 +2140,7 @@ public final class ImGetImportErrorsAd {
          * Die MerkmalID in deren Zusammenhang der Fehler aufgetreten ist
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue node_characteristic_id = 10002;</code>
+         * <code>.dstore.values.IntegerValue node_characteristic_id = 10002;</code>
          */
         public boolean hasNodeCharacteristicId() {
           return nodeCharacteristicIdBuilder_ != null || nodeCharacteristicId_ != null;
@@ -2150,7 +2150,7 @@ public final class ImGetImportErrorsAd {
          * Die MerkmalID in deren Zusammenhang der Fehler aufgetreten ist
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue node_characteristic_id = 10002;</code>
+         * <code>.dstore.values.IntegerValue node_characteristic_id = 10002;</code>
          */
         public io.dstore.values.IntegerValue getNodeCharacteristicId() {
           if (nodeCharacteristicIdBuilder_ == null) {
@@ -2164,7 +2164,7 @@ public final class ImGetImportErrorsAd {
          * Die MerkmalID in deren Zusammenhang der Fehler aufgetreten ist
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue node_characteristic_id = 10002;</code>
+         * <code>.dstore.values.IntegerValue node_characteristic_id = 10002;</code>
          */
         public Builder setNodeCharacteristicId(io.dstore.values.IntegerValue value) {
           if (nodeCharacteristicIdBuilder_ == null) {
@@ -2184,7 +2184,7 @@ public final class ImGetImportErrorsAd {
          * Die MerkmalID in deren Zusammenhang der Fehler aufgetreten ist
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue node_characteristic_id = 10002;</code>
+         * <code>.dstore.values.IntegerValue node_characteristic_id = 10002;</code>
          */
         public Builder setNodeCharacteristicId(
             io.dstore.values.IntegerValue.Builder builderForValue) {
@@ -2202,7 +2202,7 @@ public final class ImGetImportErrorsAd {
          * Die MerkmalID in deren Zusammenhang der Fehler aufgetreten ist
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue node_characteristic_id = 10002;</code>
+         * <code>.dstore.values.IntegerValue node_characteristic_id = 10002;</code>
          */
         public Builder mergeNodeCharacteristicId(io.dstore.values.IntegerValue value) {
           if (nodeCharacteristicIdBuilder_ == null) {
@@ -2224,7 +2224,7 @@ public final class ImGetImportErrorsAd {
          * Die MerkmalID in deren Zusammenhang der Fehler aufgetreten ist
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue node_characteristic_id = 10002;</code>
+         * <code>.dstore.values.IntegerValue node_characteristic_id = 10002;</code>
          */
         public Builder clearNodeCharacteristicId() {
           if (nodeCharacteristicIdBuilder_ == null) {
@@ -2242,7 +2242,7 @@ public final class ImGetImportErrorsAd {
          * Die MerkmalID in deren Zusammenhang der Fehler aufgetreten ist
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue node_characteristic_id = 10002;</code>
+         * <code>.dstore.values.IntegerValue node_characteristic_id = 10002;</code>
          */
         public io.dstore.values.IntegerValue.Builder getNodeCharacteristicIdBuilder() {
           
@@ -2254,7 +2254,7 @@ public final class ImGetImportErrorsAd {
          * Die MerkmalID in deren Zusammenhang der Fehler aufgetreten ist
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue node_characteristic_id = 10002;</code>
+         * <code>.dstore.values.IntegerValue node_characteristic_id = 10002;</code>
          */
         public io.dstore.values.IntegerValueOrBuilder getNodeCharacteristicIdOrBuilder() {
           if (nodeCharacteristicIdBuilder_ != null) {
@@ -2269,7 +2269,7 @@ public final class ImGetImportErrorsAd {
          * Die MerkmalID in deren Zusammenhang der Fehler aufgetreten ist
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue node_characteristic_id = 10002;</code>
+         * <code>.dstore.values.IntegerValue node_characteristic_id = 10002;</code>
          */
         private com.google.protobuf.SingleFieldBuilderV3<
             io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> 
@@ -2293,7 +2293,7 @@ public final class ImGetImportErrorsAd {
          * Der Wert zur "NodeCharacteristicID", in dessen Zusammenhang der Fehler aufgetreten ist
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue value = 10003;</code>
+         * <code>.dstore.values.StringValue value = 10003;</code>
          */
         public boolean hasValue() {
           return valueBuilder_ != null || value_ != null;
@@ -2303,7 +2303,7 @@ public final class ImGetImportErrorsAd {
          * Der Wert zur "NodeCharacteristicID", in dessen Zusammenhang der Fehler aufgetreten ist
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue value = 10003;</code>
+         * <code>.dstore.values.StringValue value = 10003;</code>
          */
         public io.dstore.values.StringValue getValue() {
           if (valueBuilder_ == null) {
@@ -2317,7 +2317,7 @@ public final class ImGetImportErrorsAd {
          * Der Wert zur "NodeCharacteristicID", in dessen Zusammenhang der Fehler aufgetreten ist
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue value = 10003;</code>
+         * <code>.dstore.values.StringValue value = 10003;</code>
          */
         public Builder setValue(io.dstore.values.StringValue value) {
           if (valueBuilder_ == null) {
@@ -2337,7 +2337,7 @@ public final class ImGetImportErrorsAd {
          * Der Wert zur "NodeCharacteristicID", in dessen Zusammenhang der Fehler aufgetreten ist
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue value = 10003;</code>
+         * <code>.dstore.values.StringValue value = 10003;</code>
          */
         public Builder setValue(
             io.dstore.values.StringValue.Builder builderForValue) {
@@ -2355,7 +2355,7 @@ public final class ImGetImportErrorsAd {
          * Der Wert zur "NodeCharacteristicID", in dessen Zusammenhang der Fehler aufgetreten ist
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue value = 10003;</code>
+         * <code>.dstore.values.StringValue value = 10003;</code>
          */
         public Builder mergeValue(io.dstore.values.StringValue value) {
           if (valueBuilder_ == null) {
@@ -2377,7 +2377,7 @@ public final class ImGetImportErrorsAd {
          * Der Wert zur "NodeCharacteristicID", in dessen Zusammenhang der Fehler aufgetreten ist
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue value = 10003;</code>
+         * <code>.dstore.values.StringValue value = 10003;</code>
          */
         public Builder clearValue() {
           if (valueBuilder_ == null) {
@@ -2395,7 +2395,7 @@ public final class ImGetImportErrorsAd {
          * Der Wert zur "NodeCharacteristicID", in dessen Zusammenhang der Fehler aufgetreten ist
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue value = 10003;</code>
+         * <code>.dstore.values.StringValue value = 10003;</code>
          */
         public io.dstore.values.StringValue.Builder getValueBuilder() {
           
@@ -2407,7 +2407,7 @@ public final class ImGetImportErrorsAd {
          * Der Wert zur "NodeCharacteristicID", in dessen Zusammenhang der Fehler aufgetreten ist
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue value = 10003;</code>
+         * <code>.dstore.values.StringValue value = 10003;</code>
          */
         public io.dstore.values.StringValueOrBuilder getValueOrBuilder() {
           if (valueBuilder_ != null) {
@@ -2422,7 +2422,7 @@ public final class ImGetImportErrorsAd {
          * Der Wert zur "NodeCharacteristicID", in dessen Zusammenhang der Fehler aufgetreten ist
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue value = 10003;</code>
+         * <code>.dstore.values.StringValue value = 10003;</code>
          */
         private com.google.protobuf.SingleFieldBuilderV3<
             io.dstore.values.StringValue, io.dstore.values.StringValue.Builder, io.dstore.values.StringValueOrBuilder> 
@@ -2446,7 +2446,7 @@ public final class ImGetImportErrorsAd {
          * Der Zeitpunkt an dem der Fehler aufgetreten ist
          * </pre>
          *
-         * <code>optional .dstore.values.TimestampValue date_and_time = 10004;</code>
+         * <code>.dstore.values.TimestampValue date_and_time = 10004;</code>
          */
         public boolean hasDateAndTime() {
           return dateAndTimeBuilder_ != null || dateAndTime_ != null;
@@ -2456,7 +2456,7 @@ public final class ImGetImportErrorsAd {
          * Der Zeitpunkt an dem der Fehler aufgetreten ist
          * </pre>
          *
-         * <code>optional .dstore.values.TimestampValue date_and_time = 10004;</code>
+         * <code>.dstore.values.TimestampValue date_and_time = 10004;</code>
          */
         public io.dstore.values.TimestampValue getDateAndTime() {
           if (dateAndTimeBuilder_ == null) {
@@ -2470,7 +2470,7 @@ public final class ImGetImportErrorsAd {
          * Der Zeitpunkt an dem der Fehler aufgetreten ist
          * </pre>
          *
-         * <code>optional .dstore.values.TimestampValue date_and_time = 10004;</code>
+         * <code>.dstore.values.TimestampValue date_and_time = 10004;</code>
          */
         public Builder setDateAndTime(io.dstore.values.TimestampValue value) {
           if (dateAndTimeBuilder_ == null) {
@@ -2490,7 +2490,7 @@ public final class ImGetImportErrorsAd {
          * Der Zeitpunkt an dem der Fehler aufgetreten ist
          * </pre>
          *
-         * <code>optional .dstore.values.TimestampValue date_and_time = 10004;</code>
+         * <code>.dstore.values.TimestampValue date_and_time = 10004;</code>
          */
         public Builder setDateAndTime(
             io.dstore.values.TimestampValue.Builder builderForValue) {
@@ -2508,7 +2508,7 @@ public final class ImGetImportErrorsAd {
          * Der Zeitpunkt an dem der Fehler aufgetreten ist
          * </pre>
          *
-         * <code>optional .dstore.values.TimestampValue date_and_time = 10004;</code>
+         * <code>.dstore.values.TimestampValue date_and_time = 10004;</code>
          */
         public Builder mergeDateAndTime(io.dstore.values.TimestampValue value) {
           if (dateAndTimeBuilder_ == null) {
@@ -2530,7 +2530,7 @@ public final class ImGetImportErrorsAd {
          * Der Zeitpunkt an dem der Fehler aufgetreten ist
          * </pre>
          *
-         * <code>optional .dstore.values.TimestampValue date_and_time = 10004;</code>
+         * <code>.dstore.values.TimestampValue date_and_time = 10004;</code>
          */
         public Builder clearDateAndTime() {
           if (dateAndTimeBuilder_ == null) {
@@ -2548,7 +2548,7 @@ public final class ImGetImportErrorsAd {
          * Der Zeitpunkt an dem der Fehler aufgetreten ist
          * </pre>
          *
-         * <code>optional .dstore.values.TimestampValue date_and_time = 10004;</code>
+         * <code>.dstore.values.TimestampValue date_and_time = 10004;</code>
          */
         public io.dstore.values.TimestampValue.Builder getDateAndTimeBuilder() {
           
@@ -2560,7 +2560,7 @@ public final class ImGetImportErrorsAd {
          * Der Zeitpunkt an dem der Fehler aufgetreten ist
          * </pre>
          *
-         * <code>optional .dstore.values.TimestampValue date_and_time = 10004;</code>
+         * <code>.dstore.values.TimestampValue date_and_time = 10004;</code>
          */
         public io.dstore.values.TimestampValueOrBuilder getDateAndTimeOrBuilder() {
           if (dateAndTimeBuilder_ != null) {
@@ -2575,7 +2575,7 @@ public final class ImGetImportErrorsAd {
          * Der Zeitpunkt an dem der Fehler aufgetreten ist
          * </pre>
          *
-         * <code>optional .dstore.values.TimestampValue date_and_time = 10004;</code>
+         * <code>.dstore.values.TimestampValue date_and_time = 10004;</code>
          */
         private com.google.protobuf.SingleFieldBuilderV3<
             io.dstore.values.TimestampValue, io.dstore.values.TimestampValue.Builder, io.dstore.values.TimestampValueOrBuilder> 
@@ -2599,7 +2599,7 @@ public final class ImGetImportErrorsAd {
          * Der aufgetretene ErrorCode (s. Beschreibung von "im_ImportItemData_Ad")
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue error_code = 10005;</code>
+         * <code>.dstore.values.IntegerValue error_code = 10005;</code>
          */
         public boolean hasErrorCode() {
           return errorCodeBuilder_ != null || errorCode_ != null;
@@ -2609,7 +2609,7 @@ public final class ImGetImportErrorsAd {
          * Der aufgetretene ErrorCode (s. Beschreibung von "im_ImportItemData_Ad")
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue error_code = 10005;</code>
+         * <code>.dstore.values.IntegerValue error_code = 10005;</code>
          */
         public io.dstore.values.IntegerValue getErrorCode() {
           if (errorCodeBuilder_ == null) {
@@ -2623,7 +2623,7 @@ public final class ImGetImportErrorsAd {
          * Der aufgetretene ErrorCode (s. Beschreibung von "im_ImportItemData_Ad")
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue error_code = 10005;</code>
+         * <code>.dstore.values.IntegerValue error_code = 10005;</code>
          */
         public Builder setErrorCode(io.dstore.values.IntegerValue value) {
           if (errorCodeBuilder_ == null) {
@@ -2643,7 +2643,7 @@ public final class ImGetImportErrorsAd {
          * Der aufgetretene ErrorCode (s. Beschreibung von "im_ImportItemData_Ad")
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue error_code = 10005;</code>
+         * <code>.dstore.values.IntegerValue error_code = 10005;</code>
          */
         public Builder setErrorCode(
             io.dstore.values.IntegerValue.Builder builderForValue) {
@@ -2661,7 +2661,7 @@ public final class ImGetImportErrorsAd {
          * Der aufgetretene ErrorCode (s. Beschreibung von "im_ImportItemData_Ad")
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue error_code = 10005;</code>
+         * <code>.dstore.values.IntegerValue error_code = 10005;</code>
          */
         public Builder mergeErrorCode(io.dstore.values.IntegerValue value) {
           if (errorCodeBuilder_ == null) {
@@ -2683,7 +2683,7 @@ public final class ImGetImportErrorsAd {
          * Der aufgetretene ErrorCode (s. Beschreibung von "im_ImportItemData_Ad")
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue error_code = 10005;</code>
+         * <code>.dstore.values.IntegerValue error_code = 10005;</code>
          */
         public Builder clearErrorCode() {
           if (errorCodeBuilder_ == null) {
@@ -2701,7 +2701,7 @@ public final class ImGetImportErrorsAd {
          * Der aufgetretene ErrorCode (s. Beschreibung von "im_ImportItemData_Ad")
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue error_code = 10005;</code>
+         * <code>.dstore.values.IntegerValue error_code = 10005;</code>
          */
         public io.dstore.values.IntegerValue.Builder getErrorCodeBuilder() {
           
@@ -2713,7 +2713,7 @@ public final class ImGetImportErrorsAd {
          * Der aufgetretene ErrorCode (s. Beschreibung von "im_ImportItemData_Ad")
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue error_code = 10005;</code>
+         * <code>.dstore.values.IntegerValue error_code = 10005;</code>
          */
         public io.dstore.values.IntegerValueOrBuilder getErrorCodeOrBuilder() {
           if (errorCodeBuilder_ != null) {
@@ -2728,7 +2728,7 @@ public final class ImGetImportErrorsAd {
          * Der aufgetretene ErrorCode (s. Beschreibung von "im_ImportItemData_Ad")
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue error_code = 10005;</code>
+         * <code>.dstore.values.IntegerValue error_code = 10005;</code>
          */
         private com.google.protobuf.SingleFieldBuilderV3<
             io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> 
@@ -2988,7 +2988,7 @@ public final class ImGetImportErrorsAd {
         return memoizedHashCode;
       }
       int hash = 41;
-      hash = (19 * hash) + getDescriptorForType().hashCode();
+      hash = (19 * hash) + getDescriptor().hashCode();
       if (getMetaInformationCount() > 0) {
         hash = (37 * hash) + META_INFORMATION_FIELD_NUMBER;
         hash = (53 * hash) + getMetaInformationList().hashCode();

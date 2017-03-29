@@ -123,7 +123,7 @@ public final class MiGetLockDependenciesAd {
         return memoizedHashCode;
       }
       int hash = 41;
-      hash = (19 * hash) + getDescriptorForType().hashCode();
+      hash = (19 * hash) + getDescriptor().hashCode();
       hash = (29 * hash) + unknownFields.hashCode();
       memoizedHashCode = hash;
       return hash;
@@ -581,7 +581,7 @@ public final class MiGetLockDependenciesAd {
         com.google.protobuf.MessageOrBuilder {
 
       /**
-       * <code>optional int32 row_id = 10000;</code>
+       * <code>int32 row_id = 10000;</code>
        */
       int getRowId();
 
@@ -590,7 +590,7 @@ public final class MiGetLockDependenciesAd {
        * Name der Tabelle, die gerade ge"locked" ist/wird, und somit Ursache für die "Blockade" sein kann
        * </pre>
        *
-       * <code>optional .dstore.values.StringValue table_name = 10001;</code>
+       * <code>.dstore.values.StringValue table_name = 10001;</code>
        */
       boolean hasTableName();
       /**
@@ -598,7 +598,7 @@ public final class MiGetLockDependenciesAd {
        * Name der Tabelle, die gerade ge"locked" ist/wird, und somit Ursache für die "Blockade" sein kann
        * </pre>
        *
-       * <code>optional .dstore.values.StringValue table_name = 10001;</code>
+       * <code>.dstore.values.StringValue table_name = 10001;</code>
        */
       io.dstore.values.StringValue getTableName();
       /**
@@ -606,7 +606,7 @@ public final class MiGetLockDependenciesAd {
        * Name der Tabelle, die gerade ge"locked" ist/wird, und somit Ursache für die "Blockade" sein kann
        * </pre>
        *
-       * <code>optional .dstore.values.StringValue table_name = 10001;</code>
+       * <code>.dstore.values.StringValue table_name = 10001;</code>
        */
       io.dstore.values.StringValueOrBuilder getTableNameOrBuilder();
 
@@ -615,7 +615,7 @@ public final class MiGetLockDependenciesAd {
        * ID eines anderen Prozesses, durch den der Prozeß "ServerProcessID" ge"blocked" wird
        * </pre>
        *
-       * <code>optional .dstore.values.IntegerValue blocking_process_id = 10002;</code>
+       * <code>.dstore.values.IntegerValue blocking_process_id = 10002;</code>
        */
       boolean hasBlockingProcessId();
       /**
@@ -623,7 +623,7 @@ public final class MiGetLockDependenciesAd {
        * ID eines anderen Prozesses, durch den der Prozeß "ServerProcessID" ge"blocked" wird
        * </pre>
        *
-       * <code>optional .dstore.values.IntegerValue blocking_process_id = 10002;</code>
+       * <code>.dstore.values.IntegerValue blocking_process_id = 10002;</code>
        */
       io.dstore.values.IntegerValue getBlockingProcessId();
       /**
@@ -631,7 +631,7 @@ public final class MiGetLockDependenciesAd {
        * ID eines anderen Prozesses, durch den der Prozeß "ServerProcessID" ge"blocked" wird
        * </pre>
        *
-       * <code>optional .dstore.values.IntegerValue blocking_process_id = 10002;</code>
+       * <code>.dstore.values.IntegerValue blocking_process_id = 10002;</code>
        */
       io.dstore.values.IntegerValueOrBuilder getBlockingProcessIdOrBuilder();
 
@@ -640,7 +640,7 @@ public final class MiGetLockDependenciesAd {
        * Was für eine Art von Kommando wird vom Prozeß "ServerProcessID" gerade ausgeführt
        * </pre>
        *
-       * <code>optional .dstore.values.StringValue command = 10003;</code>
+       * <code>.dstore.values.StringValue command = 10003;</code>
        */
       boolean hasCommand();
       /**
@@ -648,7 +648,7 @@ public final class MiGetLockDependenciesAd {
        * Was für eine Art von Kommando wird vom Prozeß "ServerProcessID" gerade ausgeführt
        * </pre>
        *
-       * <code>optional .dstore.values.StringValue command = 10003;</code>
+       * <code>.dstore.values.StringValue command = 10003;</code>
        */
       io.dstore.values.StringValue getCommand();
       /**
@@ -656,7 +656,7 @@ public final class MiGetLockDependenciesAd {
        * Was für eine Art von Kommando wird vom Prozeß "ServerProcessID" gerade ausgeführt
        * </pre>
        *
-       * <code>optional .dstore.values.StringValue command = 10003;</code>
+       * <code>.dstore.values.StringValue command = 10003;</code>
        */
       io.dstore.values.StringValueOrBuilder getCommandOrBuilder();
 
@@ -665,7 +665,7 @@ public final class MiGetLockDependenciesAd {
        * Eine Server-Prozeß-ID
        * </pre>
        *
-       * <code>optional .dstore.values.IntegerValue server_process_id = 10004;</code>
+       * <code>.dstore.values.IntegerValue server_process_id = 10004;</code>
        */
       boolean hasServerProcessId();
       /**
@@ -673,7 +673,7 @@ public final class MiGetLockDependenciesAd {
        * Eine Server-Prozeß-ID
        * </pre>
        *
-       * <code>optional .dstore.values.IntegerValue server_process_id = 10004;</code>
+       * <code>.dstore.values.IntegerValue server_process_id = 10004;</code>
        */
       io.dstore.values.IntegerValue getServerProcessId();
       /**
@@ -681,7 +681,7 @@ public final class MiGetLockDependenciesAd {
        * Eine Server-Prozeß-ID
        * </pre>
        *
-       * <code>optional .dstore.values.IntegerValue server_process_id = 10004;</code>
+       * <code>.dstore.values.IntegerValue server_process_id = 10004;</code>
        */
       io.dstore.values.IntegerValueOrBuilder getServerProcessIdOrBuilder();
 
@@ -690,7 +690,7 @@ public final class MiGetLockDependenciesAd {
        * Name der Datenbank, in der die Tabelle "TableName" liegt
        * </pre>
        *
-       * <code>optional .dstore.values.StringValue database_name = 10005;</code>
+       * <code>.dstore.values.StringValue database_name = 10005;</code>
        */
       boolean hasDatabaseName();
       /**
@@ -698,7 +698,7 @@ public final class MiGetLockDependenciesAd {
        * Name der Datenbank, in der die Tabelle "TableName" liegt
        * </pre>
        *
-       * <code>optional .dstore.values.StringValue database_name = 10005;</code>
+       * <code>.dstore.values.StringValue database_name = 10005;</code>
        */
       io.dstore.values.StringValue getDatabaseName();
       /**
@@ -706,7 +706,7 @@ public final class MiGetLockDependenciesAd {
        * Name der Datenbank, in der die Tabelle "TableName" liegt
        * </pre>
        *
-       * <code>optional .dstore.values.StringValue database_name = 10005;</code>
+       * <code>.dstore.values.StringValue database_name = 10005;</code>
        */
       io.dstore.values.StringValueOrBuilder getDatabaseNameOrBuilder();
 
@@ -715,7 +715,7 @@ public final class MiGetLockDependenciesAd {
        * Art des Locks ("Sh_table", "Ex_page", etc.) auf "TableName"
        * </pre>
        *
-       * <code>optional .dstore.values.StringValue lock_type = 10006;</code>
+       * <code>.dstore.values.StringValue lock_type = 10006;</code>
        */
       boolean hasLockType();
       /**
@@ -723,7 +723,7 @@ public final class MiGetLockDependenciesAd {
        * Art des Locks ("Sh_table", "Ex_page", etc.) auf "TableName"
        * </pre>
        *
-       * <code>optional .dstore.values.StringValue lock_type = 10006;</code>
+       * <code>.dstore.values.StringValue lock_type = 10006;</code>
        */
       io.dstore.values.StringValue getLockType();
       /**
@@ -731,7 +731,7 @@ public final class MiGetLockDependenciesAd {
        * Art des Locks ("Sh_table", "Ex_page", etc.) auf "TableName"
        * </pre>
        *
-       * <code>optional .dstore.values.StringValue lock_type = 10006;</code>
+       * <code>.dstore.values.StringValue lock_type = 10006;</code>
        */
       io.dstore.values.StringValueOrBuilder getLockTypeOrBuilder();
     }
@@ -884,7 +884,7 @@ public final class MiGetLockDependenciesAd {
       public static final int ROW_ID_FIELD_NUMBER = 10000;
       private int rowId_;
       /**
-       * <code>optional int32 row_id = 10000;</code>
+       * <code>int32 row_id = 10000;</code>
        */
       public int getRowId() {
         return rowId_;
@@ -897,7 +897,7 @@ public final class MiGetLockDependenciesAd {
        * Name der Tabelle, die gerade ge"locked" ist/wird, und somit Ursache für die "Blockade" sein kann
        * </pre>
        *
-       * <code>optional .dstore.values.StringValue table_name = 10001;</code>
+       * <code>.dstore.values.StringValue table_name = 10001;</code>
        */
       public boolean hasTableName() {
         return tableName_ != null;
@@ -907,7 +907,7 @@ public final class MiGetLockDependenciesAd {
        * Name der Tabelle, die gerade ge"locked" ist/wird, und somit Ursache für die "Blockade" sein kann
        * </pre>
        *
-       * <code>optional .dstore.values.StringValue table_name = 10001;</code>
+       * <code>.dstore.values.StringValue table_name = 10001;</code>
        */
       public io.dstore.values.StringValue getTableName() {
         return tableName_ == null ? io.dstore.values.StringValue.getDefaultInstance() : tableName_;
@@ -917,7 +917,7 @@ public final class MiGetLockDependenciesAd {
        * Name der Tabelle, die gerade ge"locked" ist/wird, und somit Ursache für die "Blockade" sein kann
        * </pre>
        *
-       * <code>optional .dstore.values.StringValue table_name = 10001;</code>
+       * <code>.dstore.values.StringValue table_name = 10001;</code>
        */
       public io.dstore.values.StringValueOrBuilder getTableNameOrBuilder() {
         return getTableName();
@@ -930,7 +930,7 @@ public final class MiGetLockDependenciesAd {
        * ID eines anderen Prozesses, durch den der Prozeß "ServerProcessID" ge"blocked" wird
        * </pre>
        *
-       * <code>optional .dstore.values.IntegerValue blocking_process_id = 10002;</code>
+       * <code>.dstore.values.IntegerValue blocking_process_id = 10002;</code>
        */
       public boolean hasBlockingProcessId() {
         return blockingProcessId_ != null;
@@ -940,7 +940,7 @@ public final class MiGetLockDependenciesAd {
        * ID eines anderen Prozesses, durch den der Prozeß "ServerProcessID" ge"blocked" wird
        * </pre>
        *
-       * <code>optional .dstore.values.IntegerValue blocking_process_id = 10002;</code>
+       * <code>.dstore.values.IntegerValue blocking_process_id = 10002;</code>
        */
       public io.dstore.values.IntegerValue getBlockingProcessId() {
         return blockingProcessId_ == null ? io.dstore.values.IntegerValue.getDefaultInstance() : blockingProcessId_;
@@ -950,7 +950,7 @@ public final class MiGetLockDependenciesAd {
        * ID eines anderen Prozesses, durch den der Prozeß "ServerProcessID" ge"blocked" wird
        * </pre>
        *
-       * <code>optional .dstore.values.IntegerValue blocking_process_id = 10002;</code>
+       * <code>.dstore.values.IntegerValue blocking_process_id = 10002;</code>
        */
       public io.dstore.values.IntegerValueOrBuilder getBlockingProcessIdOrBuilder() {
         return getBlockingProcessId();
@@ -963,7 +963,7 @@ public final class MiGetLockDependenciesAd {
        * Was für eine Art von Kommando wird vom Prozeß "ServerProcessID" gerade ausgeführt
        * </pre>
        *
-       * <code>optional .dstore.values.StringValue command = 10003;</code>
+       * <code>.dstore.values.StringValue command = 10003;</code>
        */
       public boolean hasCommand() {
         return command_ != null;
@@ -973,7 +973,7 @@ public final class MiGetLockDependenciesAd {
        * Was für eine Art von Kommando wird vom Prozeß "ServerProcessID" gerade ausgeführt
        * </pre>
        *
-       * <code>optional .dstore.values.StringValue command = 10003;</code>
+       * <code>.dstore.values.StringValue command = 10003;</code>
        */
       public io.dstore.values.StringValue getCommand() {
         return command_ == null ? io.dstore.values.StringValue.getDefaultInstance() : command_;
@@ -983,7 +983,7 @@ public final class MiGetLockDependenciesAd {
        * Was für eine Art von Kommando wird vom Prozeß "ServerProcessID" gerade ausgeführt
        * </pre>
        *
-       * <code>optional .dstore.values.StringValue command = 10003;</code>
+       * <code>.dstore.values.StringValue command = 10003;</code>
        */
       public io.dstore.values.StringValueOrBuilder getCommandOrBuilder() {
         return getCommand();
@@ -996,7 +996,7 @@ public final class MiGetLockDependenciesAd {
        * Eine Server-Prozeß-ID
        * </pre>
        *
-       * <code>optional .dstore.values.IntegerValue server_process_id = 10004;</code>
+       * <code>.dstore.values.IntegerValue server_process_id = 10004;</code>
        */
       public boolean hasServerProcessId() {
         return serverProcessId_ != null;
@@ -1006,7 +1006,7 @@ public final class MiGetLockDependenciesAd {
        * Eine Server-Prozeß-ID
        * </pre>
        *
-       * <code>optional .dstore.values.IntegerValue server_process_id = 10004;</code>
+       * <code>.dstore.values.IntegerValue server_process_id = 10004;</code>
        */
       public io.dstore.values.IntegerValue getServerProcessId() {
         return serverProcessId_ == null ? io.dstore.values.IntegerValue.getDefaultInstance() : serverProcessId_;
@@ -1016,7 +1016,7 @@ public final class MiGetLockDependenciesAd {
        * Eine Server-Prozeß-ID
        * </pre>
        *
-       * <code>optional .dstore.values.IntegerValue server_process_id = 10004;</code>
+       * <code>.dstore.values.IntegerValue server_process_id = 10004;</code>
        */
       public io.dstore.values.IntegerValueOrBuilder getServerProcessIdOrBuilder() {
         return getServerProcessId();
@@ -1029,7 +1029,7 @@ public final class MiGetLockDependenciesAd {
        * Name der Datenbank, in der die Tabelle "TableName" liegt
        * </pre>
        *
-       * <code>optional .dstore.values.StringValue database_name = 10005;</code>
+       * <code>.dstore.values.StringValue database_name = 10005;</code>
        */
       public boolean hasDatabaseName() {
         return databaseName_ != null;
@@ -1039,7 +1039,7 @@ public final class MiGetLockDependenciesAd {
        * Name der Datenbank, in der die Tabelle "TableName" liegt
        * </pre>
        *
-       * <code>optional .dstore.values.StringValue database_name = 10005;</code>
+       * <code>.dstore.values.StringValue database_name = 10005;</code>
        */
       public io.dstore.values.StringValue getDatabaseName() {
         return databaseName_ == null ? io.dstore.values.StringValue.getDefaultInstance() : databaseName_;
@@ -1049,7 +1049,7 @@ public final class MiGetLockDependenciesAd {
        * Name der Datenbank, in der die Tabelle "TableName" liegt
        * </pre>
        *
-       * <code>optional .dstore.values.StringValue database_name = 10005;</code>
+       * <code>.dstore.values.StringValue database_name = 10005;</code>
        */
       public io.dstore.values.StringValueOrBuilder getDatabaseNameOrBuilder() {
         return getDatabaseName();
@@ -1062,7 +1062,7 @@ public final class MiGetLockDependenciesAd {
        * Art des Locks ("Sh_table", "Ex_page", etc.) auf "TableName"
        * </pre>
        *
-       * <code>optional .dstore.values.StringValue lock_type = 10006;</code>
+       * <code>.dstore.values.StringValue lock_type = 10006;</code>
        */
       public boolean hasLockType() {
         return lockType_ != null;
@@ -1072,7 +1072,7 @@ public final class MiGetLockDependenciesAd {
        * Art des Locks ("Sh_table", "Ex_page", etc.) auf "TableName"
        * </pre>
        *
-       * <code>optional .dstore.values.StringValue lock_type = 10006;</code>
+       * <code>.dstore.values.StringValue lock_type = 10006;</code>
        */
       public io.dstore.values.StringValue getLockType() {
         return lockType_ == null ? io.dstore.values.StringValue.getDefaultInstance() : lockType_;
@@ -1082,7 +1082,7 @@ public final class MiGetLockDependenciesAd {
        * Art des Locks ("Sh_table", "Ex_page", etc.) auf "TableName"
        * </pre>
        *
-       * <code>optional .dstore.values.StringValue lock_type = 10006;</code>
+       * <code>.dstore.values.StringValue lock_type = 10006;</code>
        */
       public io.dstore.values.StringValueOrBuilder getLockTypeOrBuilder() {
         return getLockType();
@@ -1213,7 +1213,7 @@ public final class MiGetLockDependenciesAd {
           return memoizedHashCode;
         }
         int hash = 41;
-        hash = (19 * hash) + getDescriptorForType().hashCode();
+        hash = (19 * hash) + getDescriptor().hashCode();
         hash = (37 * hash) + ROW_ID_FIELD_NUMBER;
         hash = (53 * hash) + getRowId();
         if (hasTableName()) {
@@ -1539,13 +1539,13 @@ public final class MiGetLockDependenciesAd {
 
         private int rowId_ ;
         /**
-         * <code>optional int32 row_id = 10000;</code>
+         * <code>int32 row_id = 10000;</code>
          */
         public int getRowId() {
           return rowId_;
         }
         /**
-         * <code>optional int32 row_id = 10000;</code>
+         * <code>int32 row_id = 10000;</code>
          */
         public Builder setRowId(int value) {
           
@@ -1554,7 +1554,7 @@ public final class MiGetLockDependenciesAd {
           return this;
         }
         /**
-         * <code>optional int32 row_id = 10000;</code>
+         * <code>int32 row_id = 10000;</code>
          */
         public Builder clearRowId() {
           
@@ -1571,7 +1571,7 @@ public final class MiGetLockDependenciesAd {
          * Name der Tabelle, die gerade ge"locked" ist/wird, und somit Ursache für die "Blockade" sein kann
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue table_name = 10001;</code>
+         * <code>.dstore.values.StringValue table_name = 10001;</code>
          */
         public boolean hasTableName() {
           return tableNameBuilder_ != null || tableName_ != null;
@@ -1581,7 +1581,7 @@ public final class MiGetLockDependenciesAd {
          * Name der Tabelle, die gerade ge"locked" ist/wird, und somit Ursache für die "Blockade" sein kann
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue table_name = 10001;</code>
+         * <code>.dstore.values.StringValue table_name = 10001;</code>
          */
         public io.dstore.values.StringValue getTableName() {
           if (tableNameBuilder_ == null) {
@@ -1595,7 +1595,7 @@ public final class MiGetLockDependenciesAd {
          * Name der Tabelle, die gerade ge"locked" ist/wird, und somit Ursache für die "Blockade" sein kann
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue table_name = 10001;</code>
+         * <code>.dstore.values.StringValue table_name = 10001;</code>
          */
         public Builder setTableName(io.dstore.values.StringValue value) {
           if (tableNameBuilder_ == null) {
@@ -1615,7 +1615,7 @@ public final class MiGetLockDependenciesAd {
          * Name der Tabelle, die gerade ge"locked" ist/wird, und somit Ursache für die "Blockade" sein kann
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue table_name = 10001;</code>
+         * <code>.dstore.values.StringValue table_name = 10001;</code>
          */
         public Builder setTableName(
             io.dstore.values.StringValue.Builder builderForValue) {
@@ -1633,7 +1633,7 @@ public final class MiGetLockDependenciesAd {
          * Name der Tabelle, die gerade ge"locked" ist/wird, und somit Ursache für die "Blockade" sein kann
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue table_name = 10001;</code>
+         * <code>.dstore.values.StringValue table_name = 10001;</code>
          */
         public Builder mergeTableName(io.dstore.values.StringValue value) {
           if (tableNameBuilder_ == null) {
@@ -1655,7 +1655,7 @@ public final class MiGetLockDependenciesAd {
          * Name der Tabelle, die gerade ge"locked" ist/wird, und somit Ursache für die "Blockade" sein kann
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue table_name = 10001;</code>
+         * <code>.dstore.values.StringValue table_name = 10001;</code>
          */
         public Builder clearTableName() {
           if (tableNameBuilder_ == null) {
@@ -1673,7 +1673,7 @@ public final class MiGetLockDependenciesAd {
          * Name der Tabelle, die gerade ge"locked" ist/wird, und somit Ursache für die "Blockade" sein kann
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue table_name = 10001;</code>
+         * <code>.dstore.values.StringValue table_name = 10001;</code>
          */
         public io.dstore.values.StringValue.Builder getTableNameBuilder() {
           
@@ -1685,7 +1685,7 @@ public final class MiGetLockDependenciesAd {
          * Name der Tabelle, die gerade ge"locked" ist/wird, und somit Ursache für die "Blockade" sein kann
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue table_name = 10001;</code>
+         * <code>.dstore.values.StringValue table_name = 10001;</code>
          */
         public io.dstore.values.StringValueOrBuilder getTableNameOrBuilder() {
           if (tableNameBuilder_ != null) {
@@ -1700,7 +1700,7 @@ public final class MiGetLockDependenciesAd {
          * Name der Tabelle, die gerade ge"locked" ist/wird, und somit Ursache für die "Blockade" sein kann
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue table_name = 10001;</code>
+         * <code>.dstore.values.StringValue table_name = 10001;</code>
          */
         private com.google.protobuf.SingleFieldBuilderV3<
             io.dstore.values.StringValue, io.dstore.values.StringValue.Builder, io.dstore.values.StringValueOrBuilder> 
@@ -1724,7 +1724,7 @@ public final class MiGetLockDependenciesAd {
          * ID eines anderen Prozesses, durch den der Prozeß "ServerProcessID" ge"blocked" wird
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue blocking_process_id = 10002;</code>
+         * <code>.dstore.values.IntegerValue blocking_process_id = 10002;</code>
          */
         public boolean hasBlockingProcessId() {
           return blockingProcessIdBuilder_ != null || blockingProcessId_ != null;
@@ -1734,7 +1734,7 @@ public final class MiGetLockDependenciesAd {
          * ID eines anderen Prozesses, durch den der Prozeß "ServerProcessID" ge"blocked" wird
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue blocking_process_id = 10002;</code>
+         * <code>.dstore.values.IntegerValue blocking_process_id = 10002;</code>
          */
         public io.dstore.values.IntegerValue getBlockingProcessId() {
           if (blockingProcessIdBuilder_ == null) {
@@ -1748,7 +1748,7 @@ public final class MiGetLockDependenciesAd {
          * ID eines anderen Prozesses, durch den der Prozeß "ServerProcessID" ge"blocked" wird
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue blocking_process_id = 10002;</code>
+         * <code>.dstore.values.IntegerValue blocking_process_id = 10002;</code>
          */
         public Builder setBlockingProcessId(io.dstore.values.IntegerValue value) {
           if (blockingProcessIdBuilder_ == null) {
@@ -1768,7 +1768,7 @@ public final class MiGetLockDependenciesAd {
          * ID eines anderen Prozesses, durch den der Prozeß "ServerProcessID" ge"blocked" wird
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue blocking_process_id = 10002;</code>
+         * <code>.dstore.values.IntegerValue blocking_process_id = 10002;</code>
          */
         public Builder setBlockingProcessId(
             io.dstore.values.IntegerValue.Builder builderForValue) {
@@ -1786,7 +1786,7 @@ public final class MiGetLockDependenciesAd {
          * ID eines anderen Prozesses, durch den der Prozeß "ServerProcessID" ge"blocked" wird
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue blocking_process_id = 10002;</code>
+         * <code>.dstore.values.IntegerValue blocking_process_id = 10002;</code>
          */
         public Builder mergeBlockingProcessId(io.dstore.values.IntegerValue value) {
           if (blockingProcessIdBuilder_ == null) {
@@ -1808,7 +1808,7 @@ public final class MiGetLockDependenciesAd {
          * ID eines anderen Prozesses, durch den der Prozeß "ServerProcessID" ge"blocked" wird
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue blocking_process_id = 10002;</code>
+         * <code>.dstore.values.IntegerValue blocking_process_id = 10002;</code>
          */
         public Builder clearBlockingProcessId() {
           if (blockingProcessIdBuilder_ == null) {
@@ -1826,7 +1826,7 @@ public final class MiGetLockDependenciesAd {
          * ID eines anderen Prozesses, durch den der Prozeß "ServerProcessID" ge"blocked" wird
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue blocking_process_id = 10002;</code>
+         * <code>.dstore.values.IntegerValue blocking_process_id = 10002;</code>
          */
         public io.dstore.values.IntegerValue.Builder getBlockingProcessIdBuilder() {
           
@@ -1838,7 +1838,7 @@ public final class MiGetLockDependenciesAd {
          * ID eines anderen Prozesses, durch den der Prozeß "ServerProcessID" ge"blocked" wird
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue blocking_process_id = 10002;</code>
+         * <code>.dstore.values.IntegerValue blocking_process_id = 10002;</code>
          */
         public io.dstore.values.IntegerValueOrBuilder getBlockingProcessIdOrBuilder() {
           if (blockingProcessIdBuilder_ != null) {
@@ -1853,7 +1853,7 @@ public final class MiGetLockDependenciesAd {
          * ID eines anderen Prozesses, durch den der Prozeß "ServerProcessID" ge"blocked" wird
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue blocking_process_id = 10002;</code>
+         * <code>.dstore.values.IntegerValue blocking_process_id = 10002;</code>
          */
         private com.google.protobuf.SingleFieldBuilderV3<
             io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> 
@@ -1877,7 +1877,7 @@ public final class MiGetLockDependenciesAd {
          * Was für eine Art von Kommando wird vom Prozeß "ServerProcessID" gerade ausgeführt
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue command = 10003;</code>
+         * <code>.dstore.values.StringValue command = 10003;</code>
          */
         public boolean hasCommand() {
           return commandBuilder_ != null || command_ != null;
@@ -1887,7 +1887,7 @@ public final class MiGetLockDependenciesAd {
          * Was für eine Art von Kommando wird vom Prozeß "ServerProcessID" gerade ausgeführt
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue command = 10003;</code>
+         * <code>.dstore.values.StringValue command = 10003;</code>
          */
         public io.dstore.values.StringValue getCommand() {
           if (commandBuilder_ == null) {
@@ -1901,7 +1901,7 @@ public final class MiGetLockDependenciesAd {
          * Was für eine Art von Kommando wird vom Prozeß "ServerProcessID" gerade ausgeführt
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue command = 10003;</code>
+         * <code>.dstore.values.StringValue command = 10003;</code>
          */
         public Builder setCommand(io.dstore.values.StringValue value) {
           if (commandBuilder_ == null) {
@@ -1921,7 +1921,7 @@ public final class MiGetLockDependenciesAd {
          * Was für eine Art von Kommando wird vom Prozeß "ServerProcessID" gerade ausgeführt
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue command = 10003;</code>
+         * <code>.dstore.values.StringValue command = 10003;</code>
          */
         public Builder setCommand(
             io.dstore.values.StringValue.Builder builderForValue) {
@@ -1939,7 +1939,7 @@ public final class MiGetLockDependenciesAd {
          * Was für eine Art von Kommando wird vom Prozeß "ServerProcessID" gerade ausgeführt
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue command = 10003;</code>
+         * <code>.dstore.values.StringValue command = 10003;</code>
          */
         public Builder mergeCommand(io.dstore.values.StringValue value) {
           if (commandBuilder_ == null) {
@@ -1961,7 +1961,7 @@ public final class MiGetLockDependenciesAd {
          * Was für eine Art von Kommando wird vom Prozeß "ServerProcessID" gerade ausgeführt
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue command = 10003;</code>
+         * <code>.dstore.values.StringValue command = 10003;</code>
          */
         public Builder clearCommand() {
           if (commandBuilder_ == null) {
@@ -1979,7 +1979,7 @@ public final class MiGetLockDependenciesAd {
          * Was für eine Art von Kommando wird vom Prozeß "ServerProcessID" gerade ausgeführt
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue command = 10003;</code>
+         * <code>.dstore.values.StringValue command = 10003;</code>
          */
         public io.dstore.values.StringValue.Builder getCommandBuilder() {
           
@@ -1991,7 +1991,7 @@ public final class MiGetLockDependenciesAd {
          * Was für eine Art von Kommando wird vom Prozeß "ServerProcessID" gerade ausgeführt
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue command = 10003;</code>
+         * <code>.dstore.values.StringValue command = 10003;</code>
          */
         public io.dstore.values.StringValueOrBuilder getCommandOrBuilder() {
           if (commandBuilder_ != null) {
@@ -2006,7 +2006,7 @@ public final class MiGetLockDependenciesAd {
          * Was für eine Art von Kommando wird vom Prozeß "ServerProcessID" gerade ausgeführt
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue command = 10003;</code>
+         * <code>.dstore.values.StringValue command = 10003;</code>
          */
         private com.google.protobuf.SingleFieldBuilderV3<
             io.dstore.values.StringValue, io.dstore.values.StringValue.Builder, io.dstore.values.StringValueOrBuilder> 
@@ -2030,7 +2030,7 @@ public final class MiGetLockDependenciesAd {
          * Eine Server-Prozeß-ID
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue server_process_id = 10004;</code>
+         * <code>.dstore.values.IntegerValue server_process_id = 10004;</code>
          */
         public boolean hasServerProcessId() {
           return serverProcessIdBuilder_ != null || serverProcessId_ != null;
@@ -2040,7 +2040,7 @@ public final class MiGetLockDependenciesAd {
          * Eine Server-Prozeß-ID
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue server_process_id = 10004;</code>
+         * <code>.dstore.values.IntegerValue server_process_id = 10004;</code>
          */
         public io.dstore.values.IntegerValue getServerProcessId() {
           if (serverProcessIdBuilder_ == null) {
@@ -2054,7 +2054,7 @@ public final class MiGetLockDependenciesAd {
          * Eine Server-Prozeß-ID
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue server_process_id = 10004;</code>
+         * <code>.dstore.values.IntegerValue server_process_id = 10004;</code>
          */
         public Builder setServerProcessId(io.dstore.values.IntegerValue value) {
           if (serverProcessIdBuilder_ == null) {
@@ -2074,7 +2074,7 @@ public final class MiGetLockDependenciesAd {
          * Eine Server-Prozeß-ID
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue server_process_id = 10004;</code>
+         * <code>.dstore.values.IntegerValue server_process_id = 10004;</code>
          */
         public Builder setServerProcessId(
             io.dstore.values.IntegerValue.Builder builderForValue) {
@@ -2092,7 +2092,7 @@ public final class MiGetLockDependenciesAd {
          * Eine Server-Prozeß-ID
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue server_process_id = 10004;</code>
+         * <code>.dstore.values.IntegerValue server_process_id = 10004;</code>
          */
         public Builder mergeServerProcessId(io.dstore.values.IntegerValue value) {
           if (serverProcessIdBuilder_ == null) {
@@ -2114,7 +2114,7 @@ public final class MiGetLockDependenciesAd {
          * Eine Server-Prozeß-ID
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue server_process_id = 10004;</code>
+         * <code>.dstore.values.IntegerValue server_process_id = 10004;</code>
          */
         public Builder clearServerProcessId() {
           if (serverProcessIdBuilder_ == null) {
@@ -2132,7 +2132,7 @@ public final class MiGetLockDependenciesAd {
          * Eine Server-Prozeß-ID
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue server_process_id = 10004;</code>
+         * <code>.dstore.values.IntegerValue server_process_id = 10004;</code>
          */
         public io.dstore.values.IntegerValue.Builder getServerProcessIdBuilder() {
           
@@ -2144,7 +2144,7 @@ public final class MiGetLockDependenciesAd {
          * Eine Server-Prozeß-ID
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue server_process_id = 10004;</code>
+         * <code>.dstore.values.IntegerValue server_process_id = 10004;</code>
          */
         public io.dstore.values.IntegerValueOrBuilder getServerProcessIdOrBuilder() {
           if (serverProcessIdBuilder_ != null) {
@@ -2159,7 +2159,7 @@ public final class MiGetLockDependenciesAd {
          * Eine Server-Prozeß-ID
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue server_process_id = 10004;</code>
+         * <code>.dstore.values.IntegerValue server_process_id = 10004;</code>
          */
         private com.google.protobuf.SingleFieldBuilderV3<
             io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> 
@@ -2183,7 +2183,7 @@ public final class MiGetLockDependenciesAd {
          * Name der Datenbank, in der die Tabelle "TableName" liegt
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue database_name = 10005;</code>
+         * <code>.dstore.values.StringValue database_name = 10005;</code>
          */
         public boolean hasDatabaseName() {
           return databaseNameBuilder_ != null || databaseName_ != null;
@@ -2193,7 +2193,7 @@ public final class MiGetLockDependenciesAd {
          * Name der Datenbank, in der die Tabelle "TableName" liegt
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue database_name = 10005;</code>
+         * <code>.dstore.values.StringValue database_name = 10005;</code>
          */
         public io.dstore.values.StringValue getDatabaseName() {
           if (databaseNameBuilder_ == null) {
@@ -2207,7 +2207,7 @@ public final class MiGetLockDependenciesAd {
          * Name der Datenbank, in der die Tabelle "TableName" liegt
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue database_name = 10005;</code>
+         * <code>.dstore.values.StringValue database_name = 10005;</code>
          */
         public Builder setDatabaseName(io.dstore.values.StringValue value) {
           if (databaseNameBuilder_ == null) {
@@ -2227,7 +2227,7 @@ public final class MiGetLockDependenciesAd {
          * Name der Datenbank, in der die Tabelle "TableName" liegt
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue database_name = 10005;</code>
+         * <code>.dstore.values.StringValue database_name = 10005;</code>
          */
         public Builder setDatabaseName(
             io.dstore.values.StringValue.Builder builderForValue) {
@@ -2245,7 +2245,7 @@ public final class MiGetLockDependenciesAd {
          * Name der Datenbank, in der die Tabelle "TableName" liegt
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue database_name = 10005;</code>
+         * <code>.dstore.values.StringValue database_name = 10005;</code>
          */
         public Builder mergeDatabaseName(io.dstore.values.StringValue value) {
           if (databaseNameBuilder_ == null) {
@@ -2267,7 +2267,7 @@ public final class MiGetLockDependenciesAd {
          * Name der Datenbank, in der die Tabelle "TableName" liegt
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue database_name = 10005;</code>
+         * <code>.dstore.values.StringValue database_name = 10005;</code>
          */
         public Builder clearDatabaseName() {
           if (databaseNameBuilder_ == null) {
@@ -2285,7 +2285,7 @@ public final class MiGetLockDependenciesAd {
          * Name der Datenbank, in der die Tabelle "TableName" liegt
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue database_name = 10005;</code>
+         * <code>.dstore.values.StringValue database_name = 10005;</code>
          */
         public io.dstore.values.StringValue.Builder getDatabaseNameBuilder() {
           
@@ -2297,7 +2297,7 @@ public final class MiGetLockDependenciesAd {
          * Name der Datenbank, in der die Tabelle "TableName" liegt
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue database_name = 10005;</code>
+         * <code>.dstore.values.StringValue database_name = 10005;</code>
          */
         public io.dstore.values.StringValueOrBuilder getDatabaseNameOrBuilder() {
           if (databaseNameBuilder_ != null) {
@@ -2312,7 +2312,7 @@ public final class MiGetLockDependenciesAd {
          * Name der Datenbank, in der die Tabelle "TableName" liegt
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue database_name = 10005;</code>
+         * <code>.dstore.values.StringValue database_name = 10005;</code>
          */
         private com.google.protobuf.SingleFieldBuilderV3<
             io.dstore.values.StringValue, io.dstore.values.StringValue.Builder, io.dstore.values.StringValueOrBuilder> 
@@ -2336,7 +2336,7 @@ public final class MiGetLockDependenciesAd {
          * Art des Locks ("Sh_table", "Ex_page", etc.) auf "TableName"
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue lock_type = 10006;</code>
+         * <code>.dstore.values.StringValue lock_type = 10006;</code>
          */
         public boolean hasLockType() {
           return lockTypeBuilder_ != null || lockType_ != null;
@@ -2346,7 +2346,7 @@ public final class MiGetLockDependenciesAd {
          * Art des Locks ("Sh_table", "Ex_page", etc.) auf "TableName"
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue lock_type = 10006;</code>
+         * <code>.dstore.values.StringValue lock_type = 10006;</code>
          */
         public io.dstore.values.StringValue getLockType() {
           if (lockTypeBuilder_ == null) {
@@ -2360,7 +2360,7 @@ public final class MiGetLockDependenciesAd {
          * Art des Locks ("Sh_table", "Ex_page", etc.) auf "TableName"
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue lock_type = 10006;</code>
+         * <code>.dstore.values.StringValue lock_type = 10006;</code>
          */
         public Builder setLockType(io.dstore.values.StringValue value) {
           if (lockTypeBuilder_ == null) {
@@ -2380,7 +2380,7 @@ public final class MiGetLockDependenciesAd {
          * Art des Locks ("Sh_table", "Ex_page", etc.) auf "TableName"
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue lock_type = 10006;</code>
+         * <code>.dstore.values.StringValue lock_type = 10006;</code>
          */
         public Builder setLockType(
             io.dstore.values.StringValue.Builder builderForValue) {
@@ -2398,7 +2398,7 @@ public final class MiGetLockDependenciesAd {
          * Art des Locks ("Sh_table", "Ex_page", etc.) auf "TableName"
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue lock_type = 10006;</code>
+         * <code>.dstore.values.StringValue lock_type = 10006;</code>
          */
         public Builder mergeLockType(io.dstore.values.StringValue value) {
           if (lockTypeBuilder_ == null) {
@@ -2420,7 +2420,7 @@ public final class MiGetLockDependenciesAd {
          * Art des Locks ("Sh_table", "Ex_page", etc.) auf "TableName"
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue lock_type = 10006;</code>
+         * <code>.dstore.values.StringValue lock_type = 10006;</code>
          */
         public Builder clearLockType() {
           if (lockTypeBuilder_ == null) {
@@ -2438,7 +2438,7 @@ public final class MiGetLockDependenciesAd {
          * Art des Locks ("Sh_table", "Ex_page", etc.) auf "TableName"
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue lock_type = 10006;</code>
+         * <code>.dstore.values.StringValue lock_type = 10006;</code>
          */
         public io.dstore.values.StringValue.Builder getLockTypeBuilder() {
           
@@ -2450,7 +2450,7 @@ public final class MiGetLockDependenciesAd {
          * Art des Locks ("Sh_table", "Ex_page", etc.) auf "TableName"
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue lock_type = 10006;</code>
+         * <code>.dstore.values.StringValue lock_type = 10006;</code>
          */
         public io.dstore.values.StringValueOrBuilder getLockTypeOrBuilder() {
           if (lockTypeBuilder_ != null) {
@@ -2465,7 +2465,7 @@ public final class MiGetLockDependenciesAd {
          * Art des Locks ("Sh_table", "Ex_page", etc.) auf "TableName"
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue lock_type = 10006;</code>
+         * <code>.dstore.values.StringValue lock_type = 10006;</code>
          */
         private com.google.protobuf.SingleFieldBuilderV3<
             io.dstore.values.StringValue, io.dstore.values.StringValue.Builder, io.dstore.values.StringValueOrBuilder> 
@@ -2725,7 +2725,7 @@ public final class MiGetLockDependenciesAd {
         return memoizedHashCode;
       }
       int hash = 41;
-      hash = (19 * hash) + getDescriptorForType().hashCode();
+      hash = (19 * hash) + getDescriptor().hashCode();
       if (getMetaInformationCount() > 0) {
         hash = (37 * hash) + META_INFORMATION_FIELD_NUMBER;
         hash = (53 * hash) + getMetaInformationList().hashCode();

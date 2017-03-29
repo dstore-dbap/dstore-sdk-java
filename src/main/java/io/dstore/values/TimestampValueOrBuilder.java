@@ -8,15 +8,15 @@ public interface TimestampValueOrBuilder extends
     com.google.protobuf.MessageOrBuilder {
 
   /**
-   * <code>optional .google.protobuf.Timestamp value = 1;</code>
+   * <code>.google.protobuf.Timestamp value = 1;</code>
    */
   boolean hasValue();
   /**
-   * <code>optional .google.protobuf.Timestamp value = 1;</code>
+   * <code>.google.protobuf.Timestamp value = 1;</code>
    */
   com.google.protobuf.Timestamp getValue();
   /**
-   * <code>optional .google.protobuf.Timestamp value = 1;</code>
+   * <code>.google.protobuf.Timestamp value = 1;</code>
    */
   com.google.protobuf.TimestampOrBuilder getValueOrBuilder();
 }

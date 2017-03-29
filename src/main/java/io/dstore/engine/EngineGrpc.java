@@ -18,9 +18,9 @@ import static io.grpc.stub.ServerCalls.asyncUnimplementedStreamingCall;
 /**
  */
 @javax.annotation.Generated(
-    value = "by gRPC proto compiler (version 1.1.1)",
+    value = "by gRPC proto compiler (version 1.2.0)",
     comments = "Source: dstore/engine/engine_service.proto")
-public class EngineGrpc {
+public final class EngineGrpc {
 
   private EngineGrpc() {}
 
@@ -285,7 +285,7 @@ public class EngineGrpc {
   private static final int METHODID_IS_VALID_UNIQUE_ID = 2;
   private static final int METHODID_EXEC_BATCH = 3;
 
-  private static class MethodHandlers<Req, Resp> implements
+  private static final class MethodHandlers<Req, Resp> implements
       io.grpc.stub.ServerCalls.UnaryMethod<Req, Resp>,
       io.grpc.stub.ServerCalls.ServerStreamingMethod<Req, Resp>,
       io.grpc.stub.ServerCalls.ClientStreamingMethod<Req, Resp>,
@@ -293,7 +293,7 @@ public class EngineGrpc {
     private final EngineImplBase serviceImpl;
     private final int methodId;
 
-    public MethodHandlers(EngineImplBase serviceImpl, int methodId) {
+    MethodHandlers(EngineImplBase serviceImpl, int methodId) {
       this.serviceImpl = serviceImpl;
       this.methodId = methodId;
     }

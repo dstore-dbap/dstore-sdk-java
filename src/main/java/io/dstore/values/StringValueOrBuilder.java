@@ -8,11 +8,11 @@ public interface StringValueOrBuilder extends
     com.google.protobuf.MessageOrBuilder {
 
   /**
-   * <code>optional string value = 1;</code>
+   * <code>string value = 1;</code>
    */
   java.lang.String getValue();
   /**
-   * <code>optional string value = 1;</code>
+   * <code>string value = 1;</code>
    */
   com.google.protobuf.ByteString
       getValueBytes();

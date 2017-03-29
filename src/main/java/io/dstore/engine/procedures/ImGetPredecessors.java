@@ -19,164 +19,164 @@ public final class ImGetPredecessors {
       com.google.protobuf.MessageOrBuilder {
 
     /**
-     * <code>optional .dstore.values.IntegerValue tree_node_id = 1;</code>
+     * <code>.dstore.values.IntegerValue tree_node_id = 1;</code>
      */
     boolean hasTreeNodeId();
     /**
-     * <code>optional .dstore.values.IntegerValue tree_node_id = 1;</code>
+     * <code>.dstore.values.IntegerValue tree_node_id = 1;</code>
      */
     io.dstore.values.IntegerValue getTreeNodeId();
     /**
-     * <code>optional .dstore.values.IntegerValue tree_node_id = 1;</code>
+     * <code>.dstore.values.IntegerValue tree_node_id = 1;</code>
      */
     io.dstore.values.IntegerValueOrBuilder getTreeNodeIdOrBuilder();
 
     /**
-     * <code>optional bool tree_node_id_null = 1001;</code>
+     * <code>bool tree_node_id_null = 1001;</code>
      */
     boolean getTreeNodeIdNull();
 
     /**
-     * <code>optional .dstore.values.IntegerValue language_id = 2;</code>
+     * <code>.dstore.values.IntegerValue language_id = 2;</code>
      */
     boolean hasLanguageId();
     /**
-     * <code>optional .dstore.values.IntegerValue language_id = 2;</code>
+     * <code>.dstore.values.IntegerValue language_id = 2;</code>
      */
     io.dstore.values.IntegerValue getLanguageId();
     /**
-     * <code>optional .dstore.values.IntegerValue language_id = 2;</code>
+     * <code>.dstore.values.IntegerValue language_id = 2;</code>
      */
     io.dstore.values.IntegerValueOrBuilder getLanguageIdOrBuilder();
 
     /**
-     * <code>optional bool language_id_null = 1002;</code>
+     * <code>bool language_id_null = 1002;</code>
      */
     boolean getLanguageIdNull();
 
     /**
-     * <code>optional .dstore.values.BooleanValue include_root_level = 3;</code>
+     * <code>.dstore.values.BooleanValue include_root_level = 3;</code>
      */
     boolean hasIncludeRootLevel();
     /**
-     * <code>optional .dstore.values.BooleanValue include_root_level = 3;</code>
+     * <code>.dstore.values.BooleanValue include_root_level = 3;</code>
      */
     io.dstore.values.BooleanValue getIncludeRootLevel();
     /**
-     * <code>optional .dstore.values.BooleanValue include_root_level = 3;</code>
+     * <code>.dstore.values.BooleanValue include_root_level = 3;</code>
      */
     io.dstore.values.BooleanValueOrBuilder getIncludeRootLevelOrBuilder();
 
     /**
-     * <code>optional bool include_root_level_null = 1003;</code>
+     * <code>bool include_root_level_null = 1003;</code>
      */
     boolean getIncludeRootLevelNull();
 
     /**
-     * <code>optional .dstore.values.BooleanValue include_my_level = 4;</code>
+     * <code>.dstore.values.BooleanValue include_my_level = 4;</code>
      */
     boolean hasIncludeMyLevel();
     /**
-     * <code>optional .dstore.values.BooleanValue include_my_level = 4;</code>
+     * <code>.dstore.values.BooleanValue include_my_level = 4;</code>
      */
     io.dstore.values.BooleanValue getIncludeMyLevel();
     /**
-     * <code>optional .dstore.values.BooleanValue include_my_level = 4;</code>
+     * <code>.dstore.values.BooleanValue include_my_level = 4;</code>
      */
     io.dstore.values.BooleanValueOrBuilder getIncludeMyLevelOrBuilder();
 
     /**
-     * <code>optional bool include_my_level_null = 1004;</code>
+     * <code>bool include_my_level_null = 1004;</code>
      */
     boolean getIncludeMyLevelNull();
 
     /**
-     * <code>optional .dstore.values.IntegerValue get_node_descriptions = 5;</code>
+     * <code>.dstore.values.IntegerValue get_node_descriptions = 5;</code>
      */
     boolean hasGetNodeDescriptions();
     /**
-     * <code>optional .dstore.values.IntegerValue get_node_descriptions = 5;</code>
+     * <code>.dstore.values.IntegerValue get_node_descriptions = 5;</code>
      */
     io.dstore.values.IntegerValue getGetNodeDescriptions();
     /**
-     * <code>optional .dstore.values.IntegerValue get_node_descriptions = 5;</code>
+     * <code>.dstore.values.IntegerValue get_node_descriptions = 5;</code>
      */
     io.dstore.values.IntegerValueOrBuilder getGetNodeDescriptionsOrBuilder();
 
     /**
-     * <code>optional bool get_node_descriptions_null = 1005;</code>
+     * <code>bool get_node_descriptions_null = 1005;</code>
      */
     boolean getGetNodeDescriptionsNull();
 
     /**
-     * <code>optional .dstore.values.IntegerValue only_predecessor_on_level = 6;</code>
+     * <code>.dstore.values.IntegerValue only_predecessor_on_level = 6;</code>
      */
     boolean hasOnlyPredecessorOnLevel();
     /**
-     * <code>optional .dstore.values.IntegerValue only_predecessor_on_level = 6;</code>
+     * <code>.dstore.values.IntegerValue only_predecessor_on_level = 6;</code>
      */
     io.dstore.values.IntegerValue getOnlyPredecessorOnLevel();
     /**
-     * <code>optional .dstore.values.IntegerValue only_predecessor_on_level = 6;</code>
+     * <code>.dstore.values.IntegerValue only_predecessor_on_level = 6;</code>
      */
     io.dstore.values.IntegerValueOrBuilder getOnlyPredecessorOnLevelOrBuilder();
 
     /**
-     * <code>optional bool only_predecessor_on_level_null = 1006;</code>
+     * <code>bool only_predecessor_on_level_null = 1006;</code>
      */
     boolean getOnlyPredecessorOnLevelNull();
 
     /**
-     * <code>optional .dstore.values.IntegerValue how_many_levels = 7;</code>
+     * <code>.dstore.values.IntegerValue how_many_levels = 7;</code>
      */
     boolean hasHowManyLevels();
     /**
-     * <code>optional .dstore.values.IntegerValue how_many_levels = 7;</code>
+     * <code>.dstore.values.IntegerValue how_many_levels = 7;</code>
      */
     io.dstore.values.IntegerValue getHowManyLevels();
     /**
-     * <code>optional .dstore.values.IntegerValue how_many_levels = 7;</code>
+     * <code>.dstore.values.IntegerValue how_many_levels = 7;</code>
      */
     io.dstore.values.IntegerValueOrBuilder getHowManyLevelsOrBuilder();
 
     /**
-     * <code>optional bool how_many_levels_null = 1007;</code>
+     * <code>bool how_many_levels_null = 1007;</code>
      */
     boolean getHowManyLevelsNull();
 
     /**
-     * <code>optional .dstore.values.BooleanValue get_level_no_info = 8;</code>
+     * <code>.dstore.values.BooleanValue get_level_no_info = 8;</code>
      */
     boolean hasGetLevelNoInfo();
     /**
-     * <code>optional .dstore.values.BooleanValue get_level_no_info = 8;</code>
+     * <code>.dstore.values.BooleanValue get_level_no_info = 8;</code>
      */
     io.dstore.values.BooleanValue getGetLevelNoInfo();
     /**
-     * <code>optional .dstore.values.BooleanValue get_level_no_info = 8;</code>
+     * <code>.dstore.values.BooleanValue get_level_no_info = 8;</code>
      */
     io.dstore.values.BooleanValueOrBuilder getGetLevelNoInfoOrBuilder();
 
     /**
-     * <code>optional bool get_level_no_info_null = 1008;</code>
+     * <code>bool get_level_no_info_null = 1008;</code>
      */
     boolean getGetLevelNoInfoNull();
 
     /**
-     * <code>optional .dstore.values.BooleanValue order_desc_by_level_no = 9;</code>
+     * <code>.dstore.values.BooleanValue order_desc_by_level_no = 9;</code>
      */
     boolean hasOrderDescByLevelNo();
     /**
-     * <code>optional .dstore.values.BooleanValue order_desc_by_level_no = 9;</code>
+     * <code>.dstore.values.BooleanValue order_desc_by_level_no = 9;</code>
      */
     io.dstore.values.BooleanValue getOrderDescByLevelNo();
     /**
-     * <code>optional .dstore.values.BooleanValue order_desc_by_level_no = 9;</code>
+     * <code>.dstore.values.BooleanValue order_desc_by_level_no = 9;</code>
      */
     io.dstore.values.BooleanValueOrBuilder getOrderDescByLevelNoOrBuilder();
 
     /**
-     * <code>optional bool order_desc_by_level_no_null = 1009;</code>
+     * <code>bool order_desc_by_level_no_null = 1009;</code>
      */
     boolean getOrderDescByLevelNoNull();
   }
@@ -416,19 +416,19 @@ public final class ImGetPredecessors {
     public static final int TREE_NODE_ID_FIELD_NUMBER = 1;
     private io.dstore.values.IntegerValue treeNodeId_;
     /**
-     * <code>optional .dstore.values.IntegerValue tree_node_id = 1;</code>
+     * <code>.dstore.values.IntegerValue tree_node_id = 1;</code>
      */
     public boolean hasTreeNodeId() {
       return treeNodeId_ != null;
     }
     /**
-     * <code>optional .dstore.values.IntegerValue tree_node_id = 1;</code>
+     * <code>.dstore.values.IntegerValue tree_node_id = 1;</code>
      */
     public io.dstore.values.IntegerValue getTreeNodeId() {
       return treeNodeId_ == null ? io.dstore.values.IntegerValue.getDefaultInstance() : treeNodeId_;
     }
     /**
-     * <code>optional .dstore.values.IntegerValue tree_node_id = 1;</code>
+     * <code>.dstore.values.IntegerValue tree_node_id = 1;</code>
      */
     public io.dstore.values.IntegerValueOrBuilder getTreeNodeIdOrBuilder() {
       return getTreeNodeId();
@@ -437,7 +437,7 @@ public final class ImGetPredecessors {
     public static final int TREE_NODE_ID_NULL_FIELD_NUMBER = 1001;
     private boolean treeNodeIdNull_;
     /**
-     * <code>optional bool tree_node_id_null = 1001;</code>
+     * <code>bool tree_node_id_null = 1001;</code>
      */
     public boolean getTreeNodeIdNull() {
       return treeNodeIdNull_;
@@ -446,19 +446,19 @@ public final class ImGetPredecessors {
     public static final int LANGUAGE_ID_FIELD_NUMBER = 2;
     private io.dstore.values.IntegerValue languageId_;
     /**
-     * <code>optional .dstore.values.IntegerValue language_id = 2;</code>
+     * <code>.dstore.values.IntegerValue language_id = 2;</code>
      */
     public boolean hasLanguageId() {
       return languageId_ != null;
     }
     /**
-     * <code>optional .dstore.values.IntegerValue language_id = 2;</code>
+     * <code>.dstore.values.IntegerValue language_id = 2;</code>
      */
     public io.dstore.values.IntegerValue getLanguageId() {
       return languageId_ == null ? io.dstore.values.IntegerValue.getDefaultInstance() : languageId_;
     }
     /**
-     * <code>optional .dstore.values.IntegerValue language_id = 2;</code>
+     * <code>.dstore.values.IntegerValue language_id = 2;</code>
      */
     public io.dstore.values.IntegerValueOrBuilder getLanguageIdOrBuilder() {
       return getLanguageId();
@@ -467,7 +467,7 @@ public final class ImGetPredecessors {
     public static final int LANGUAGE_ID_NULL_FIELD_NUMBER = 1002;
     private boolean languageIdNull_;
     /**
-     * <code>optional bool language_id_null = 1002;</code>
+     * <code>bool language_id_null = 1002;</code>
      */
     public boolean getLanguageIdNull() {
       return languageIdNull_;
@@ -476,19 +476,19 @@ public final class ImGetPredecessors {
     public static final int INCLUDE_ROOT_LEVEL_FIELD_NUMBER = 3;
     private io.dstore.values.BooleanValue includeRootLevel_;
     /**
-     * <code>optional .dstore.values.BooleanValue include_root_level = 3;</code>
+     * <code>.dstore.values.BooleanValue include_root_level = 3;</code>
      */
     public boolean hasIncludeRootLevel() {
       return includeRootLevel_ != null;
     }
     /**
-     * <code>optional .dstore.values.BooleanValue include_root_level = 3;</code>
+     * <code>.dstore.values.BooleanValue include_root_level = 3;</code>
      */
     public io.dstore.values.BooleanValue getIncludeRootLevel() {
       return includeRootLevel_ == null ? io.dstore.values.BooleanValue.getDefaultInstance() : includeRootLevel_;
     }
     /**
-     * <code>optional .dstore.values.BooleanValue include_root_level = 3;</code>
+     * <code>.dstore.values.BooleanValue include_root_level = 3;</code>
      */
     public io.dstore.values.BooleanValueOrBuilder getIncludeRootLevelOrBuilder() {
       return getIncludeRootLevel();
@@ -497,7 +497,7 @@ public final class ImGetPredecessors {
     public static final int INCLUDE_ROOT_LEVEL_NULL_FIELD_NUMBER = 1003;
     private boolean includeRootLevelNull_;
     /**
-     * <code>optional bool include_root_level_null = 1003;</code>
+     * <code>bool include_root_level_null = 1003;</code>
      */
     public boolean getIncludeRootLevelNull() {
       return includeRootLevelNull_;
@@ -506,19 +506,19 @@ public final class ImGetPredecessors {
     public static final int INCLUDE_MY_LEVEL_FIELD_NUMBER = 4;
     private io.dstore.values.BooleanValue includeMyLevel_;
     /**
-     * <code>optional .dstore.values.BooleanValue include_my_level = 4;</code>
+     * <code>.dstore.values.BooleanValue include_my_level = 4;</code>
      */
     public boolean hasIncludeMyLevel() {
       return includeMyLevel_ != null;
     }
     /**
-     * <code>optional .dstore.values.BooleanValue include_my_level = 4;</code>
+     * <code>.dstore.values.BooleanValue include_my_level = 4;</code>
      */
     public io.dstore.values.BooleanValue getIncludeMyLevel() {
       return includeMyLevel_ == null ? io.dstore.values.BooleanValue.getDefaultInstance() : includeMyLevel_;
     }
     /**
-     * <code>optional .dstore.values.BooleanValue include_my_level = 4;</code>
+     * <code>.dstore.values.BooleanValue include_my_level = 4;</code>
      */
     public io.dstore.values.BooleanValueOrBuilder getIncludeMyLevelOrBuilder() {
       return getIncludeMyLevel();
@@ -527,7 +527,7 @@ public final class ImGetPredecessors {
     public static final int INCLUDE_MY_LEVEL_NULL_FIELD_NUMBER = 1004;
     private boolean includeMyLevelNull_;
     /**
-     * <code>optional bool include_my_level_null = 1004;</code>
+     * <code>bool include_my_level_null = 1004;</code>
      */
     public boolean getIncludeMyLevelNull() {
       return includeMyLevelNull_;
@@ -536,19 +536,19 @@ public final class ImGetPredecessors {
     public static final int GET_NODE_DESCRIPTIONS_FIELD_NUMBER = 5;
     private io.dstore.values.IntegerValue getNodeDescriptions_;
     /**
-     * <code>optional .dstore.values.IntegerValue get_node_descriptions = 5;</code>
+     * <code>.dstore.values.IntegerValue get_node_descriptions = 5;</code>
      */
     public boolean hasGetNodeDescriptions() {
       return getNodeDescriptions_ != null;
     }
     /**
-     * <code>optional .dstore.values.IntegerValue get_node_descriptions = 5;</code>
+     * <code>.dstore.values.IntegerValue get_node_descriptions = 5;</code>
      */
     public io.dstore.values.IntegerValue getGetNodeDescriptions() {
       return getNodeDescriptions_ == null ? io.dstore.values.IntegerValue.getDefaultInstance() : getNodeDescriptions_;
     }
     /**
-     * <code>optional .dstore.values.IntegerValue get_node_descriptions = 5;</code>
+     * <code>.dstore.values.IntegerValue get_node_descriptions = 5;</code>
      */
     public io.dstore.values.IntegerValueOrBuilder getGetNodeDescriptionsOrBuilder() {
       return getGetNodeDescriptions();
@@ -557,7 +557,7 @@ public final class ImGetPredecessors {
     public static final int GET_NODE_DESCRIPTIONS_NULL_FIELD_NUMBER = 1005;
     private boolean getNodeDescriptionsNull_;
     /**
-     * <code>optional bool get_node_descriptions_null = 1005;</code>
+     * <code>bool get_node_descriptions_null = 1005;</code>
      */
     public boolean getGetNodeDescriptionsNull() {
       return getNodeDescriptionsNull_;
@@ -566,19 +566,19 @@ public final class ImGetPredecessors {
     public static final int ONLY_PREDECESSOR_ON_LEVEL_FIELD_NUMBER = 6;
     private io.dstore.values.IntegerValue onlyPredecessorOnLevel_;
     /**
-     * <code>optional .dstore.values.IntegerValue only_predecessor_on_level = 6;</code>
+     * <code>.dstore.values.IntegerValue only_predecessor_on_level = 6;</code>
      */
     public boolean hasOnlyPredecessorOnLevel() {
       return onlyPredecessorOnLevel_ != null;
     }
     /**
-     * <code>optional .dstore.values.IntegerValue only_predecessor_on_level = 6;</code>
+     * <code>.dstore.values.IntegerValue only_predecessor_on_level = 6;</code>
      */
     public io.dstore.values.IntegerValue getOnlyPredecessorOnLevel() {
       return onlyPredecessorOnLevel_ == null ? io.dstore.values.IntegerValue.getDefaultInstance() : onlyPredecessorOnLevel_;
     }
     /**
-     * <code>optional .dstore.values.IntegerValue only_predecessor_on_level = 6;</code>
+     * <code>.dstore.values.IntegerValue only_predecessor_on_level = 6;</code>
      */
     public io.dstore.values.IntegerValueOrBuilder getOnlyPredecessorOnLevelOrBuilder() {
       return getOnlyPredecessorOnLevel();
@@ -587,7 +587,7 @@ public final class ImGetPredecessors {
     public static final int ONLY_PREDECESSOR_ON_LEVEL_NULL_FIELD_NUMBER = 1006;
     private boolean onlyPredecessorOnLevelNull_;
     /**
-     * <code>optional bool only_predecessor_on_level_null = 1006;</code>
+     * <code>bool only_predecessor_on_level_null = 1006;</code>
      */
     public boolean getOnlyPredecessorOnLevelNull() {
       return onlyPredecessorOnLevelNull_;
@@ -596,19 +596,19 @@ public final class ImGetPredecessors {
     public static final int HOW_MANY_LEVELS_FIELD_NUMBER = 7;
     private io.dstore.values.IntegerValue howManyLevels_;
     /**
-     * <code>optional .dstore.values.IntegerValue how_many_levels = 7;</code>
+     * <code>.dstore.values.IntegerValue how_many_levels = 7;</code>
      */
     public boolean hasHowManyLevels() {
       return howManyLevels_ != null;
     }
     /**
-     * <code>optional .dstore.values.IntegerValue how_many_levels = 7;</code>
+     * <code>.dstore.values.IntegerValue how_many_levels = 7;</code>
      */
     public io.dstore.values.IntegerValue getHowManyLevels() {
       return howManyLevels_ == null ? io.dstore.values.IntegerValue.getDefaultInstance() : howManyLevels_;
     }
     /**
-     * <code>optional .dstore.values.IntegerValue how_many_levels = 7;</code>
+     * <code>.dstore.values.IntegerValue how_many_levels = 7;</code>
      */
     public io.dstore.values.IntegerValueOrBuilder getHowManyLevelsOrBuilder() {
       return getHowManyLevels();
@@ -617,7 +617,7 @@ public final class ImGetPredecessors {
     public static final int HOW_MANY_LEVELS_NULL_FIELD_NUMBER = 1007;
     private boolean howManyLevelsNull_;
     /**
-     * <code>optional bool how_many_levels_null = 1007;</code>
+     * <code>bool how_many_levels_null = 1007;</code>
      */
     public boolean getHowManyLevelsNull() {
       return howManyLevelsNull_;
@@ -626,19 +626,19 @@ public final class ImGetPredecessors {
     public static final int GET_LEVEL_NO_INFO_FIELD_NUMBER = 8;
     private io.dstore.values.BooleanValue getLevelNoInfo_;
     /**
-     * <code>optional .dstore.values.BooleanValue get_level_no_info = 8;</code>
+     * <code>.dstore.values.BooleanValue get_level_no_info = 8;</code>
      */
     public boolean hasGetLevelNoInfo() {
       return getLevelNoInfo_ != null;
     }
     /**
-     * <code>optional .dstore.values.BooleanValue get_level_no_info = 8;</code>
+     * <code>.dstore.values.BooleanValue get_level_no_info = 8;</code>
      */
     public io.dstore.values.BooleanValue getGetLevelNoInfo() {
       return getLevelNoInfo_ == null ? io.dstore.values.BooleanValue.getDefaultInstance() : getLevelNoInfo_;
     }
     /**
-     * <code>optional .dstore.values.BooleanValue get_level_no_info = 8;</code>
+     * <code>.dstore.values.BooleanValue get_level_no_info = 8;</code>
      */
     public io.dstore.values.BooleanValueOrBuilder getGetLevelNoInfoOrBuilder() {
       return getGetLevelNoInfo();
@@ -647,7 +647,7 @@ public final class ImGetPredecessors {
     public static final int GET_LEVEL_NO_INFO_NULL_FIELD_NUMBER = 1008;
     private boolean getLevelNoInfoNull_;
     /**
-     * <code>optional bool get_level_no_info_null = 1008;</code>
+     * <code>bool get_level_no_info_null = 1008;</code>
      */
     public boolean getGetLevelNoInfoNull() {
       return getLevelNoInfoNull_;
@@ -656,19 +656,19 @@ public final class ImGetPredecessors {
     public static final int ORDER_DESC_BY_LEVEL_NO_FIELD_NUMBER = 9;
     private io.dstore.values.BooleanValue orderDescByLevelNo_;
     /**
-     * <code>optional .dstore.values.BooleanValue order_desc_by_level_no = 9;</code>
+     * <code>.dstore.values.BooleanValue order_desc_by_level_no = 9;</code>
      */
     public boolean hasOrderDescByLevelNo() {
       return orderDescByLevelNo_ != null;
     }
     /**
-     * <code>optional .dstore.values.BooleanValue order_desc_by_level_no = 9;</code>
+     * <code>.dstore.values.BooleanValue order_desc_by_level_no = 9;</code>
      */
     public io.dstore.values.BooleanValue getOrderDescByLevelNo() {
       return orderDescByLevelNo_ == null ? io.dstore.values.BooleanValue.getDefaultInstance() : orderDescByLevelNo_;
     }
     /**
-     * <code>optional .dstore.values.BooleanValue order_desc_by_level_no = 9;</code>
+     * <code>.dstore.values.BooleanValue order_desc_by_level_no = 9;</code>
      */
     public io.dstore.values.BooleanValueOrBuilder getOrderDescByLevelNoOrBuilder() {
       return getOrderDescByLevelNo();
@@ -677,7 +677,7 @@ public final class ImGetPredecessors {
     public static final int ORDER_DESC_BY_LEVEL_NO_NULL_FIELD_NUMBER = 1009;
     private boolean orderDescByLevelNoNull_;
     /**
-     * <code>optional bool order_desc_by_level_no_null = 1009;</code>
+     * <code>bool order_desc_by_level_no_null = 1009;</code>
      */
     public boolean getOrderDescByLevelNoNull() {
       return orderDescByLevelNoNull_;
@@ -916,7 +916,7 @@ public final class ImGetPredecessors {
         return memoizedHashCode;
       }
       int hash = 41;
-      hash = (19 * hash) + getDescriptorForType().hashCode();
+      hash = (19 * hash) + getDescriptor().hashCode();
       if (hasTreeNodeId()) {
         hash = (37 * hash) + TREE_NODE_ID_FIELD_NUMBER;
         hash = (53 * hash) + getTreeNodeId().hashCode();
@@ -1371,13 +1371,13 @@ public final class ImGetPredecessors {
       private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> treeNodeIdBuilder_;
       /**
-       * <code>optional .dstore.values.IntegerValue tree_node_id = 1;</code>
+       * <code>.dstore.values.IntegerValue tree_node_id = 1;</code>
        */
       public boolean hasTreeNodeId() {
         return treeNodeIdBuilder_ != null || treeNodeId_ != null;
       }
       /**
-       * <code>optional .dstore.values.IntegerValue tree_node_id = 1;</code>
+       * <code>.dstore.values.IntegerValue tree_node_id = 1;</code>
        */
       public io.dstore.values.IntegerValue getTreeNodeId() {
         if (treeNodeIdBuilder_ == null) {
@@ -1387,7 +1387,7 @@ public final class ImGetPredecessors {
         }
       }
       /**
-       * <code>optional .dstore.values.IntegerValue tree_node_id = 1;</code>
+       * <code>.dstore.values.IntegerValue tree_node_id = 1;</code>
        */
       public Builder setTreeNodeId(io.dstore.values.IntegerValue value) {
         if (treeNodeIdBuilder_ == null) {
@@ -1403,7 +1403,7 @@ public final class ImGetPredecessors {
         return this;
       }
       /**
-       * <code>optional .dstore.values.IntegerValue tree_node_id = 1;</code>
+       * <code>.dstore.values.IntegerValue tree_node_id = 1;</code>
        */
       public Builder setTreeNodeId(
           io.dstore.values.IntegerValue.Builder builderForValue) {
@@ -1417,7 +1417,7 @@ public final class ImGetPredecessors {
         return this;
       }
       /**
-       * <code>optional .dstore.values.IntegerValue tree_node_id = 1;</code>
+       * <code>.dstore.values.IntegerValue tree_node_id = 1;</code>
        */
       public Builder mergeTreeNodeId(io.dstore.values.IntegerValue value) {
         if (treeNodeIdBuilder_ == null) {
@@ -1435,7 +1435,7 @@ public final class ImGetPredecessors {
         return this;
       }
       /**
-       * <code>optional .dstore.values.IntegerValue tree_node_id = 1;</code>
+       * <code>.dstore.values.IntegerValue tree_node_id = 1;</code>
        */
       public Builder clearTreeNodeId() {
         if (treeNodeIdBuilder_ == null) {
@@ -1449,7 +1449,7 @@ public final class ImGetPredecessors {
         return this;
       }
       /**
-       * <code>optional .dstore.values.IntegerValue tree_node_id = 1;</code>
+       * <code>.dstore.values.IntegerValue tree_node_id = 1;</code>
        */
       public io.dstore.values.IntegerValue.Builder getTreeNodeIdBuilder() {
         
@@ -1457,7 +1457,7 @@ public final class ImGetPredecessors {
         return getTreeNodeIdFieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .dstore.values.IntegerValue tree_node_id = 1;</code>
+       * <code>.dstore.values.IntegerValue tree_node_id = 1;</code>
        */
       public io.dstore.values.IntegerValueOrBuilder getTreeNodeIdOrBuilder() {
         if (treeNodeIdBuilder_ != null) {
@@ -1468,7 +1468,7 @@ public final class ImGetPredecessors {
         }
       }
       /**
-       * <code>optional .dstore.values.IntegerValue tree_node_id = 1;</code>
+       * <code>.dstore.values.IntegerValue tree_node_id = 1;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> 
@@ -1486,13 +1486,13 @@ public final class ImGetPredecessors {
 
       private boolean treeNodeIdNull_ ;
       /**
-       * <code>optional bool tree_node_id_null = 1001;</code>
+       * <code>bool tree_node_id_null = 1001;</code>
        */
       public boolean getTreeNodeIdNull() {
         return treeNodeIdNull_;
       }
       /**
-       * <code>optional bool tree_node_id_null = 1001;</code>
+       * <code>bool tree_node_id_null = 1001;</code>
        */
       public Builder setTreeNodeIdNull(boolean value) {
         
@@ -1501,7 +1501,7 @@ public final class ImGetPredecessors {
         return this;
       }
       /**
-       * <code>optional bool tree_node_id_null = 1001;</code>
+       * <code>bool tree_node_id_null = 1001;</code>
        */
       public Builder clearTreeNodeIdNull() {
         
@@ -1514,13 +1514,13 @@ public final class ImGetPredecessors {
       private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> languageIdBuilder_;
       /**
-       * <code>optional .dstore.values.IntegerValue language_id = 2;</code>
+       * <code>.dstore.values.IntegerValue language_id = 2;</code>
        */
       public boolean hasLanguageId() {
         return languageIdBuilder_ != null || languageId_ != null;
       }
       /**
-       * <code>optional .dstore.values.IntegerValue language_id = 2;</code>
+       * <code>.dstore.values.IntegerValue language_id = 2;</code>
        */
       public io.dstore.values.IntegerValue getLanguageId() {
         if (languageIdBuilder_ == null) {
@@ -1530,7 +1530,7 @@ public final class ImGetPredecessors {
         }
       }
       /**
-       * <code>optional .dstore.values.IntegerValue language_id = 2;</code>
+       * <code>.dstore.values.IntegerValue language_id = 2;</code>
        */
       public Builder setLanguageId(io.dstore.values.IntegerValue value) {
         if (languageIdBuilder_ == null) {
@@ -1546,7 +1546,7 @@ public final class ImGetPredecessors {
         return this;
       }
       /**
-       * <code>optional .dstore.values.IntegerValue language_id = 2;</code>
+       * <code>.dstore.values.IntegerValue language_id = 2;</code>
        */
       public Builder setLanguageId(
           io.dstore.values.IntegerValue.Builder builderForValue) {
@@ -1560,7 +1560,7 @@ public final class ImGetPredecessors {
         return this;
       }
       /**
-       * <code>optional .dstore.values.IntegerValue language_id = 2;</code>
+       * <code>.dstore.values.IntegerValue language_id = 2;</code>
        */
       public Builder mergeLanguageId(io.dstore.values.IntegerValue value) {
         if (languageIdBuilder_ == null) {
@@ -1578,7 +1578,7 @@ public final class ImGetPredecessors {
         return this;
       }
       /**
-       * <code>optional .dstore.values.IntegerValue language_id = 2;</code>
+       * <code>.dstore.values.IntegerValue language_id = 2;</code>
        */
       public Builder clearLanguageId() {
         if (languageIdBuilder_ == null) {
@@ -1592,7 +1592,7 @@ public final class ImGetPredecessors {
         return this;
       }
       /**
-       * <code>optional .dstore.values.IntegerValue language_id = 2;</code>
+       * <code>.dstore.values.IntegerValue language_id = 2;</code>
        */
       public io.dstore.values.IntegerValue.Builder getLanguageIdBuilder() {
         
@@ -1600,7 +1600,7 @@ public final class ImGetPredecessors {
         return getLanguageIdFieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .dstore.values.IntegerValue language_id = 2;</code>
+       * <code>.dstore.values.IntegerValue language_id = 2;</code>
        */
       public io.dstore.values.IntegerValueOrBuilder getLanguageIdOrBuilder() {
         if (languageIdBuilder_ != null) {
@@ -1611,7 +1611,7 @@ public final class ImGetPredecessors {
         }
       }
       /**
-       * <code>optional .dstore.values.IntegerValue language_id = 2;</code>
+       * <code>.dstore.values.IntegerValue language_id = 2;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> 
@@ -1629,13 +1629,13 @@ public final class ImGetPredecessors {
 
       private boolean languageIdNull_ ;
       /**
-       * <code>optional bool language_id_null = 1002;</code>
+       * <code>bool language_id_null = 1002;</code>
        */
       public boolean getLanguageIdNull() {
         return languageIdNull_;
       }
       /**
-       * <code>optional bool language_id_null = 1002;</code>
+       * <code>bool language_id_null = 1002;</code>
        */
       public Builder setLanguageIdNull(boolean value) {
         
@@ -1644,7 +1644,7 @@ public final class ImGetPredecessors {
         return this;
       }
       /**
-       * <code>optional bool language_id_null = 1002;</code>
+       * <code>bool language_id_null = 1002;</code>
        */
       public Builder clearLanguageIdNull() {
         
@@ -1657,13 +1657,13 @@ public final class ImGetPredecessors {
       private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.values.BooleanValue, io.dstore.values.BooleanValue.Builder, io.dstore.values.BooleanValueOrBuilder> includeRootLevelBuilder_;
       /**
-       * <code>optional .dstore.values.BooleanValue include_root_level = 3;</code>
+       * <code>.dstore.values.BooleanValue include_root_level = 3;</code>
        */
       public boolean hasIncludeRootLevel() {
         return includeRootLevelBuilder_ != null || includeRootLevel_ != null;
       }
       /**
-       * <code>optional .dstore.values.BooleanValue include_root_level = 3;</code>
+       * <code>.dstore.values.BooleanValue include_root_level = 3;</code>
        */
       public io.dstore.values.BooleanValue getIncludeRootLevel() {
         if (includeRootLevelBuilder_ == null) {
@@ -1673,7 +1673,7 @@ public final class ImGetPredecessors {
         }
       }
       /**
-       * <code>optional .dstore.values.BooleanValue include_root_level = 3;</code>
+       * <code>.dstore.values.BooleanValue include_root_level = 3;</code>
        */
       public Builder setIncludeRootLevel(io.dstore.values.BooleanValue value) {
         if (includeRootLevelBuilder_ == null) {
@@ -1689,7 +1689,7 @@ public final class ImGetPredecessors {
         return this;
       }
       /**
-       * <code>optional .dstore.values.BooleanValue include_root_level = 3;</code>
+       * <code>.dstore.values.BooleanValue include_root_level = 3;</code>
        */
       public Builder setIncludeRootLevel(
           io.dstore.values.BooleanValue.Builder builderForValue) {
@@ -1703,7 +1703,7 @@ public final class ImGetPredecessors {
         return this;
       }
       /**
-       * <code>optional .dstore.values.BooleanValue include_root_level = 3;</code>
+       * <code>.dstore.values.BooleanValue include_root_level = 3;</code>
        */
       public Builder mergeIncludeRootLevel(io.dstore.values.BooleanValue value) {
         if (includeRootLevelBuilder_ == null) {
@@ -1721,7 +1721,7 @@ public final class ImGetPredecessors {
         return this;
       }
       /**
-       * <code>optional .dstore.values.BooleanValue include_root_level = 3;</code>
+       * <code>.dstore.values.BooleanValue include_root_level = 3;</code>
        */
       public Builder clearIncludeRootLevel() {
         if (includeRootLevelBuilder_ == null) {
@@ -1735,7 +1735,7 @@ public final class ImGetPredecessors {
         return this;
       }
       /**
-       * <code>optional .dstore.values.BooleanValue include_root_level = 3;</code>
+       * <code>.dstore.values.BooleanValue include_root_level = 3;</code>
        */
       public io.dstore.values.BooleanValue.Builder getIncludeRootLevelBuilder() {
         
@@ -1743,7 +1743,7 @@ public final class ImGetPredecessors {
         return getIncludeRootLevelFieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .dstore.values.BooleanValue include_root_level = 3;</code>
+       * <code>.dstore.values.BooleanValue include_root_level = 3;</code>
        */
       public io.dstore.values.BooleanValueOrBuilder getIncludeRootLevelOrBuilder() {
         if (includeRootLevelBuilder_ != null) {
@@ -1754,7 +1754,7 @@ public final class ImGetPredecessors {
         }
       }
       /**
-       * <code>optional .dstore.values.BooleanValue include_root_level = 3;</code>
+       * <code>.dstore.values.BooleanValue include_root_level = 3;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.values.BooleanValue, io.dstore.values.BooleanValue.Builder, io.dstore.values.BooleanValueOrBuilder> 
@@ -1772,13 +1772,13 @@ public final class ImGetPredecessors {
 
       private boolean includeRootLevelNull_ ;
       /**
-       * <code>optional bool include_root_level_null = 1003;</code>
+       * <code>bool include_root_level_null = 1003;</code>
        */
       public boolean getIncludeRootLevelNull() {
         return includeRootLevelNull_;
       }
       /**
-       * <code>optional bool include_root_level_null = 1003;</code>
+       * <code>bool include_root_level_null = 1003;</code>
        */
       public Builder setIncludeRootLevelNull(boolean value) {
         
@@ -1787,7 +1787,7 @@ public final class ImGetPredecessors {
         return this;
       }
       /**
-       * <code>optional bool include_root_level_null = 1003;</code>
+       * <code>bool include_root_level_null = 1003;</code>
        */
       public Builder clearIncludeRootLevelNull() {
         
@@ -1800,13 +1800,13 @@ public final class ImGetPredecessors {
       private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.values.BooleanValue, io.dstore.values.BooleanValue.Builder, io.dstore.values.BooleanValueOrBuilder> includeMyLevelBuilder_;
       /**
-       * <code>optional .dstore.values.BooleanValue include_my_level = 4;</code>
+       * <code>.dstore.values.BooleanValue include_my_level = 4;</code>
        */
       public boolean hasIncludeMyLevel() {
         return includeMyLevelBuilder_ != null || includeMyLevel_ != null;
       }
       /**
-       * <code>optional .dstore.values.BooleanValue include_my_level = 4;</code>
+       * <code>.dstore.values.BooleanValue include_my_level = 4;</code>
        */
       public io.dstore.values.BooleanValue getIncludeMyLevel() {
         if (includeMyLevelBuilder_ == null) {
@@ -1816,7 +1816,7 @@ public final class ImGetPredecessors {
         }
       }
       /**
-       * <code>optional .dstore.values.BooleanValue include_my_level = 4;</code>
+       * <code>.dstore.values.BooleanValue include_my_level = 4;</code>
        */
       public Builder setIncludeMyLevel(io.dstore.values.BooleanValue value) {
         if (includeMyLevelBuilder_ == null) {
@@ -1832,7 +1832,7 @@ public final class ImGetPredecessors {
         return this;
       }
       /**
-       * <code>optional .dstore.values.BooleanValue include_my_level = 4;</code>
+       * <code>.dstore.values.BooleanValue include_my_level = 4;</code>
        */
       public Builder setIncludeMyLevel(
           io.dstore.values.BooleanValue.Builder builderForValue) {
@@ -1846,7 +1846,7 @@ public final class ImGetPredecessors {
         return this;
       }
       /**
-       * <code>optional .dstore.values.BooleanValue include_my_level = 4;</code>
+       * <code>.dstore.values.BooleanValue include_my_level = 4;</code>
        */
       public Builder mergeIncludeMyLevel(io.dstore.values.BooleanValue value) {
         if (includeMyLevelBuilder_ == null) {
@@ -1864,7 +1864,7 @@ public final class ImGetPredecessors {
         return this;
       }
       /**
-       * <code>optional .dstore.values.BooleanValue include_my_level = 4;</code>
+       * <code>.dstore.values.BooleanValue include_my_level = 4;</code>
        */
       public Builder clearIncludeMyLevel() {
         if (includeMyLevelBuilder_ == null) {
@@ -1878,7 +1878,7 @@ public final class ImGetPredecessors {
         return this;
       }
       /**
-       * <code>optional .dstore.values.BooleanValue include_my_level = 4;</code>
+       * <code>.dstore.values.BooleanValue include_my_level = 4;</code>
        */
       public io.dstore.values.BooleanValue.Builder getIncludeMyLevelBuilder() {
         
@@ -1886,7 +1886,7 @@ public final class ImGetPredecessors {
         return getIncludeMyLevelFieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .dstore.values.BooleanValue include_my_level = 4;</code>
+       * <code>.dstore.values.BooleanValue include_my_level = 4;</code>
        */
       public io.dstore.values.BooleanValueOrBuilder getIncludeMyLevelOrBuilder() {
         if (includeMyLevelBuilder_ != null) {
@@ -1897,7 +1897,7 @@ public final class ImGetPredecessors {
         }
       }
       /**
-       * <code>optional .dstore.values.BooleanValue include_my_level = 4;</code>
+       * <code>.dstore.values.BooleanValue include_my_level = 4;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.values.BooleanValue, io.dstore.values.BooleanValue.Builder, io.dstore.values.BooleanValueOrBuilder> 
@@ -1915,13 +1915,13 @@ public final class ImGetPredecessors {
 
       private boolean includeMyLevelNull_ ;
       /**
-       * <code>optional bool include_my_level_null = 1004;</code>
+       * <code>bool include_my_level_null = 1004;</code>
        */
       public boolean getIncludeMyLevelNull() {
         return includeMyLevelNull_;
       }
       /**
-       * <code>optional bool include_my_level_null = 1004;</code>
+       * <code>bool include_my_level_null = 1004;</code>
        */
       public Builder setIncludeMyLevelNull(boolean value) {
         
@@ -1930,7 +1930,7 @@ public final class ImGetPredecessors {
         return this;
       }
       /**
-       * <code>optional bool include_my_level_null = 1004;</code>
+       * <code>bool include_my_level_null = 1004;</code>
        */
       public Builder clearIncludeMyLevelNull() {
         
@@ -1943,13 +1943,13 @@ public final class ImGetPredecessors {
       private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> getNodeDescriptionsBuilder_;
       /**
-       * <code>optional .dstore.values.IntegerValue get_node_descriptions = 5;</code>
+       * <code>.dstore.values.IntegerValue get_node_descriptions = 5;</code>
        */
       public boolean hasGetNodeDescriptions() {
         return getNodeDescriptionsBuilder_ != null || getNodeDescriptions_ != null;
       }
       /**
-       * <code>optional .dstore.values.IntegerValue get_node_descriptions = 5;</code>
+       * <code>.dstore.values.IntegerValue get_node_descriptions = 5;</code>
        */
       public io.dstore.values.IntegerValue getGetNodeDescriptions() {
         if (getNodeDescriptionsBuilder_ == null) {
@@ -1959,7 +1959,7 @@ public final class ImGetPredecessors {
         }
       }
       /**
-       * <code>optional .dstore.values.IntegerValue get_node_descriptions = 5;</code>
+       * <code>.dstore.values.IntegerValue get_node_descriptions = 5;</code>
        */
       public Builder setGetNodeDescriptions(io.dstore.values.IntegerValue value) {
         if (getNodeDescriptionsBuilder_ == null) {
@@ -1975,7 +1975,7 @@ public final class ImGetPredecessors {
         return this;
       }
       /**
-       * <code>optional .dstore.values.IntegerValue get_node_descriptions = 5;</code>
+       * <code>.dstore.values.IntegerValue get_node_descriptions = 5;</code>
        */
       public Builder setGetNodeDescriptions(
           io.dstore.values.IntegerValue.Builder builderForValue) {
@@ -1989,7 +1989,7 @@ public final class ImGetPredecessors {
         return this;
       }
       /**
-       * <code>optional .dstore.values.IntegerValue get_node_descriptions = 5;</code>
+       * <code>.dstore.values.IntegerValue get_node_descriptions = 5;</code>
        */
       public Builder mergeGetNodeDescriptions(io.dstore.values.IntegerValue value) {
         if (getNodeDescriptionsBuilder_ == null) {
@@ -2007,7 +2007,7 @@ public final class ImGetPredecessors {
         return this;
       }
       /**
-       * <code>optional .dstore.values.IntegerValue get_node_descriptions = 5;</code>
+       * <code>.dstore.values.IntegerValue get_node_descriptions = 5;</code>
        */
       public Builder clearGetNodeDescriptions() {
         if (getNodeDescriptionsBuilder_ == null) {
@@ -2021,7 +2021,7 @@ public final class ImGetPredecessors {
         return this;
       }
       /**
-       * <code>optional .dstore.values.IntegerValue get_node_descriptions = 5;</code>
+       * <code>.dstore.values.IntegerValue get_node_descriptions = 5;</code>
        */
       public io.dstore.values.IntegerValue.Builder getGetNodeDescriptionsBuilder() {
         
@@ -2029,7 +2029,7 @@ public final class ImGetPredecessors {
         return getGetNodeDescriptionsFieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .dstore.values.IntegerValue get_node_descriptions = 5;</code>
+       * <code>.dstore.values.IntegerValue get_node_descriptions = 5;</code>
        */
       public io.dstore.values.IntegerValueOrBuilder getGetNodeDescriptionsOrBuilder() {
         if (getNodeDescriptionsBuilder_ != null) {
@@ -2040,7 +2040,7 @@ public final class ImGetPredecessors {
         }
       }
       /**
-       * <code>optional .dstore.values.IntegerValue get_node_descriptions = 5;</code>
+       * <code>.dstore.values.IntegerValue get_node_descriptions = 5;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> 
@@ -2058,13 +2058,13 @@ public final class ImGetPredecessors {
 
       private boolean getNodeDescriptionsNull_ ;
       /**
-       * <code>optional bool get_node_descriptions_null = 1005;</code>
+       * <code>bool get_node_descriptions_null = 1005;</code>
        */
       public boolean getGetNodeDescriptionsNull() {
         return getNodeDescriptionsNull_;
       }
       /**
-       * <code>optional bool get_node_descriptions_null = 1005;</code>
+       * <code>bool get_node_descriptions_null = 1005;</code>
        */
       public Builder setGetNodeDescriptionsNull(boolean value) {
         
@@ -2073,7 +2073,7 @@ public final class ImGetPredecessors {
         return this;
       }
       /**
-       * <code>optional bool get_node_descriptions_null = 1005;</code>
+       * <code>bool get_node_descriptions_null = 1005;</code>
        */
       public Builder clearGetNodeDescriptionsNull() {
         
@@ -2086,13 +2086,13 @@ public final class ImGetPredecessors {
       private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> onlyPredecessorOnLevelBuilder_;
       /**
-       * <code>optional .dstore.values.IntegerValue only_predecessor_on_level = 6;</code>
+       * <code>.dstore.values.IntegerValue only_predecessor_on_level = 6;</code>
        */
       public boolean hasOnlyPredecessorOnLevel() {
         return onlyPredecessorOnLevelBuilder_ != null || onlyPredecessorOnLevel_ != null;
       }
       /**
-       * <code>optional .dstore.values.IntegerValue only_predecessor_on_level = 6;</code>
+       * <code>.dstore.values.IntegerValue only_predecessor_on_level = 6;</code>
        */
       public io.dstore.values.IntegerValue getOnlyPredecessorOnLevel() {
         if (onlyPredecessorOnLevelBuilder_ == null) {
@@ -2102,7 +2102,7 @@ public final class ImGetPredecessors {
         }
       }
       /**
-       * <code>optional .dstore.values.IntegerValue only_predecessor_on_level = 6;</code>
+       * <code>.dstore.values.IntegerValue only_predecessor_on_level = 6;</code>
        */
       public Builder setOnlyPredecessorOnLevel(io.dstore.values.IntegerValue value) {
         if (onlyPredecessorOnLevelBuilder_ == null) {
@@ -2118,7 +2118,7 @@ public final class ImGetPredecessors {
         return this;
       }
       /**
-       * <code>optional .dstore.values.IntegerValue only_predecessor_on_level = 6;</code>
+       * <code>.dstore.values.IntegerValue only_predecessor_on_level = 6;</code>
        */
       public Builder setOnlyPredecessorOnLevel(
           io.dstore.values.IntegerValue.Builder builderForValue) {
@@ -2132,7 +2132,7 @@ public final class ImGetPredecessors {
         return this;
       }
       /**
-       * <code>optional .dstore.values.IntegerValue only_predecessor_on_level = 6;</code>
+       * <code>.dstore.values.IntegerValue only_predecessor_on_level = 6;</code>
        */
       public Builder mergeOnlyPredecessorOnLevel(io.dstore.values.IntegerValue value) {
         if (onlyPredecessorOnLevelBuilder_ == null) {
@@ -2150,7 +2150,7 @@ public final class ImGetPredecessors {
         return this;
       }
       /**
-       * <code>optional .dstore.values.IntegerValue only_predecessor_on_level = 6;</code>
+       * <code>.dstore.values.IntegerValue only_predecessor_on_level = 6;</code>
        */
       public Builder clearOnlyPredecessorOnLevel() {
         if (onlyPredecessorOnLevelBuilder_ == null) {
@@ -2164,7 +2164,7 @@ public final class ImGetPredecessors {
         return this;
       }
       /**
-       * <code>optional .dstore.values.IntegerValue only_predecessor_on_level = 6;</code>
+       * <code>.dstore.values.IntegerValue only_predecessor_on_level = 6;</code>
        */
       public io.dstore.values.IntegerValue.Builder getOnlyPredecessorOnLevelBuilder() {
         
@@ -2172,7 +2172,7 @@ public final class ImGetPredecessors {
         return getOnlyPredecessorOnLevelFieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .dstore.values.IntegerValue only_predecessor_on_level = 6;</code>
+       * <code>.dstore.values.IntegerValue only_predecessor_on_level = 6;</code>
        */
       public io.dstore.values.IntegerValueOrBuilder getOnlyPredecessorOnLevelOrBuilder() {
         if (onlyPredecessorOnLevelBuilder_ != null) {
@@ -2183,7 +2183,7 @@ public final class ImGetPredecessors {
         }
       }
       /**
-       * <code>optional .dstore.values.IntegerValue only_predecessor_on_level = 6;</code>
+       * <code>.dstore.values.IntegerValue only_predecessor_on_level = 6;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> 
@@ -2201,13 +2201,13 @@ public final class ImGetPredecessors {
 
       private boolean onlyPredecessorOnLevelNull_ ;
       /**
-       * <code>optional bool only_predecessor_on_level_null = 1006;</code>
+       * <code>bool only_predecessor_on_level_null = 1006;</code>
        */
       public boolean getOnlyPredecessorOnLevelNull() {
         return onlyPredecessorOnLevelNull_;
       }
       /**
-       * <code>optional bool only_predecessor_on_level_null = 1006;</code>
+       * <code>bool only_predecessor_on_level_null = 1006;</code>
        */
       public Builder setOnlyPredecessorOnLevelNull(boolean value) {
         
@@ -2216,7 +2216,7 @@ public final class ImGetPredecessors {
         return this;
       }
       /**
-       * <code>optional bool only_predecessor_on_level_null = 1006;</code>
+       * <code>bool only_predecessor_on_level_null = 1006;</code>
        */
       public Builder clearOnlyPredecessorOnLevelNull() {
         
@@ -2229,13 +2229,13 @@ public final class ImGetPredecessors {
       private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> howManyLevelsBuilder_;
       /**
-       * <code>optional .dstore.values.IntegerValue how_many_levels = 7;</code>
+       * <code>.dstore.values.IntegerValue how_many_levels = 7;</code>
        */
       public boolean hasHowManyLevels() {
         return howManyLevelsBuilder_ != null || howManyLevels_ != null;
       }
       /**
-       * <code>optional .dstore.values.IntegerValue how_many_levels = 7;</code>
+       * <code>.dstore.values.IntegerValue how_many_levels = 7;</code>
        */
       public io.dstore.values.IntegerValue getHowManyLevels() {
         if (howManyLevelsBuilder_ == null) {
@@ -2245,7 +2245,7 @@ public final class ImGetPredecessors {
         }
       }
       /**
-       * <code>optional .dstore.values.IntegerValue how_many_levels = 7;</code>
+       * <code>.dstore.values.IntegerValue how_many_levels = 7;</code>
        */
       public Builder setHowManyLevels(io.dstore.values.IntegerValue value) {
         if (howManyLevelsBuilder_ == null) {
@@ -2261,7 +2261,7 @@ public final class ImGetPredecessors {
         return this;
       }
       /**
-       * <code>optional .dstore.values.IntegerValue how_many_levels = 7;</code>
+       * <code>.dstore.values.IntegerValue how_many_levels = 7;</code>
        */
       public Builder setHowManyLevels(
           io.dstore.values.IntegerValue.Builder builderForValue) {
@@ -2275,7 +2275,7 @@ public final class ImGetPredecessors {
         return this;
       }
       /**
-       * <code>optional .dstore.values.IntegerValue how_many_levels = 7;</code>
+       * <code>.dstore.values.IntegerValue how_many_levels = 7;</code>
        */
       public Builder mergeHowManyLevels(io.dstore.values.IntegerValue value) {
         if (howManyLevelsBuilder_ == null) {
@@ -2293,7 +2293,7 @@ public final class ImGetPredecessors {
         return this;
       }
       /**
-       * <code>optional .dstore.values.IntegerValue how_many_levels = 7;</code>
+       * <code>.dstore.values.IntegerValue how_many_levels = 7;</code>
        */
       public Builder clearHowManyLevels() {
         if (howManyLevelsBuilder_ == null) {
@@ -2307,7 +2307,7 @@ public final class ImGetPredecessors {
         return this;
       }
       /**
-       * <code>optional .dstore.values.IntegerValue how_many_levels = 7;</code>
+       * <code>.dstore.values.IntegerValue how_many_levels = 7;</code>
        */
       public io.dstore.values.IntegerValue.Builder getHowManyLevelsBuilder() {
         
@@ -2315,7 +2315,7 @@ public final class ImGetPredecessors {
         return getHowManyLevelsFieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .dstore.values.IntegerValue how_many_levels = 7;</code>
+       * <code>.dstore.values.IntegerValue how_many_levels = 7;</code>
        */
       public io.dstore.values.IntegerValueOrBuilder getHowManyLevelsOrBuilder() {
         if (howManyLevelsBuilder_ != null) {
@@ -2326,7 +2326,7 @@ public final class ImGetPredecessors {
         }
       }
       /**
-       * <code>optional .dstore.values.IntegerValue how_many_levels = 7;</code>
+       * <code>.dstore.values.IntegerValue how_many_levels = 7;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> 
@@ -2344,13 +2344,13 @@ public final class ImGetPredecessors {
 
       private boolean howManyLevelsNull_ ;
       /**
-       * <code>optional bool how_many_levels_null = 1007;</code>
+       * <code>bool how_many_levels_null = 1007;</code>
        */
       public boolean getHowManyLevelsNull() {
         return howManyLevelsNull_;
       }
       /**
-       * <code>optional bool how_many_levels_null = 1007;</code>
+       * <code>bool how_many_levels_null = 1007;</code>
        */
       public Builder setHowManyLevelsNull(boolean value) {
         
@@ -2359,7 +2359,7 @@ public final class ImGetPredecessors {
         return this;
       }
       /**
-       * <code>optional bool how_many_levels_null = 1007;</code>
+       * <code>bool how_many_levels_null = 1007;</code>
        */
       public Builder clearHowManyLevelsNull() {
         
@@ -2372,13 +2372,13 @@ public final class ImGetPredecessors {
       private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.values.BooleanValue, io.dstore.values.BooleanValue.Builder, io.dstore.values.BooleanValueOrBuilder> getLevelNoInfoBuilder_;
       /**
-       * <code>optional .dstore.values.BooleanValue get_level_no_info = 8;</code>
+       * <code>.dstore.values.BooleanValue get_level_no_info = 8;</code>
        */
       public boolean hasGetLevelNoInfo() {
         return getLevelNoInfoBuilder_ != null || getLevelNoInfo_ != null;
       }
       /**
-       * <code>optional .dstore.values.BooleanValue get_level_no_info = 8;</code>
+       * <code>.dstore.values.BooleanValue get_level_no_info = 8;</code>
        */
       public io.dstore.values.BooleanValue getGetLevelNoInfo() {
         if (getLevelNoInfoBuilder_ == null) {
@@ -2388,7 +2388,7 @@ public final class ImGetPredecessors {
         }
       }
       /**
-       * <code>optional .dstore.values.BooleanValue get_level_no_info = 8;</code>
+       * <code>.dstore.values.BooleanValue get_level_no_info = 8;</code>
        */
       public Builder setGetLevelNoInfo(io.dstore.values.BooleanValue value) {
         if (getLevelNoInfoBuilder_ == null) {
@@ -2404,7 +2404,7 @@ public final class ImGetPredecessors {
         return this;
       }
       /**
-       * <code>optional .dstore.values.BooleanValue get_level_no_info = 8;</code>
+       * <code>.dstore.values.BooleanValue get_level_no_info = 8;</code>
        */
       public Builder setGetLevelNoInfo(
           io.dstore.values.BooleanValue.Builder builderForValue) {
@@ -2418,7 +2418,7 @@ public final class ImGetPredecessors {
         return this;
       }
       /**
-       * <code>optional .dstore.values.BooleanValue get_level_no_info = 8;</code>
+       * <code>.dstore.values.BooleanValue get_level_no_info = 8;</code>
        */
       public Builder mergeGetLevelNoInfo(io.dstore.values.BooleanValue value) {
         if (getLevelNoInfoBuilder_ == null) {
@@ -2436,7 +2436,7 @@ public final class ImGetPredecessors {
         return this;
       }
       /**
-       * <code>optional .dstore.values.BooleanValue get_level_no_info = 8;</code>
+       * <code>.dstore.values.BooleanValue get_level_no_info = 8;</code>
        */
       public Builder clearGetLevelNoInfo() {
         if (getLevelNoInfoBuilder_ == null) {
@@ -2450,7 +2450,7 @@ public final class ImGetPredecessors {
         return this;
       }
       /**
-       * <code>optional .dstore.values.BooleanValue get_level_no_info = 8;</code>
+       * <code>.dstore.values.BooleanValue get_level_no_info = 8;</code>
        */
       public io.dstore.values.BooleanValue.Builder getGetLevelNoInfoBuilder() {
         
@@ -2458,7 +2458,7 @@ public final class ImGetPredecessors {
         return getGetLevelNoInfoFieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .dstore.values.BooleanValue get_level_no_info = 8;</code>
+       * <code>.dstore.values.BooleanValue get_level_no_info = 8;</code>
        */
       public io.dstore.values.BooleanValueOrBuilder getGetLevelNoInfoOrBuilder() {
         if (getLevelNoInfoBuilder_ != null) {
@@ -2469,7 +2469,7 @@ public final class ImGetPredecessors {
         }
       }
       /**
-       * <code>optional .dstore.values.BooleanValue get_level_no_info = 8;</code>
+       * <code>.dstore.values.BooleanValue get_level_no_info = 8;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.values.BooleanValue, io.dstore.values.BooleanValue.Builder, io.dstore.values.BooleanValueOrBuilder> 
@@ -2487,13 +2487,13 @@ public final class ImGetPredecessors {
 
       private boolean getLevelNoInfoNull_ ;
       /**
-       * <code>optional bool get_level_no_info_null = 1008;</code>
+       * <code>bool get_level_no_info_null = 1008;</code>
        */
       public boolean getGetLevelNoInfoNull() {
         return getLevelNoInfoNull_;
       }
       /**
-       * <code>optional bool get_level_no_info_null = 1008;</code>
+       * <code>bool get_level_no_info_null = 1008;</code>
        */
       public Builder setGetLevelNoInfoNull(boolean value) {
         
@@ -2502,7 +2502,7 @@ public final class ImGetPredecessors {
         return this;
       }
       /**
-       * <code>optional bool get_level_no_info_null = 1008;</code>
+       * <code>bool get_level_no_info_null = 1008;</code>
        */
       public Builder clearGetLevelNoInfoNull() {
         
@@ -2515,13 +2515,13 @@ public final class ImGetPredecessors {
       private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.values.BooleanValue, io.dstore.values.BooleanValue.Builder, io.dstore.values.BooleanValueOrBuilder> orderDescByLevelNoBuilder_;
       /**
-       * <code>optional .dstore.values.BooleanValue order_desc_by_level_no = 9;</code>
+       * <code>.dstore.values.BooleanValue order_desc_by_level_no = 9;</code>
        */
       public boolean hasOrderDescByLevelNo() {
         return orderDescByLevelNoBuilder_ != null || orderDescByLevelNo_ != null;
       }
       /**
-       * <code>optional .dstore.values.BooleanValue order_desc_by_level_no = 9;</code>
+       * <code>.dstore.values.BooleanValue order_desc_by_level_no = 9;</code>
        */
       public io.dstore.values.BooleanValue getOrderDescByLevelNo() {
         if (orderDescByLevelNoBuilder_ == null) {
@@ -2531,7 +2531,7 @@ public final class ImGetPredecessors {
         }
       }
       /**
-       * <code>optional .dstore.values.BooleanValue order_desc_by_level_no = 9;</code>
+       * <code>.dstore.values.BooleanValue order_desc_by_level_no = 9;</code>
        */
       public Builder setOrderDescByLevelNo(io.dstore.values.BooleanValue value) {
         if (orderDescByLevelNoBuilder_ == null) {
@@ -2547,7 +2547,7 @@ public final class ImGetPredecessors {
         return this;
       }
       /**
-       * <code>optional .dstore.values.BooleanValue order_desc_by_level_no = 9;</code>
+       * <code>.dstore.values.BooleanValue order_desc_by_level_no = 9;</code>
        */
       public Builder setOrderDescByLevelNo(
           io.dstore.values.BooleanValue.Builder builderForValue) {
@@ -2561,7 +2561,7 @@ public final class ImGetPredecessors {
         return this;
       }
       /**
-       * <code>optional .dstore.values.BooleanValue order_desc_by_level_no = 9;</code>
+       * <code>.dstore.values.BooleanValue order_desc_by_level_no = 9;</code>
        */
       public Builder mergeOrderDescByLevelNo(io.dstore.values.BooleanValue value) {
         if (orderDescByLevelNoBuilder_ == null) {
@@ -2579,7 +2579,7 @@ public final class ImGetPredecessors {
         return this;
       }
       /**
-       * <code>optional .dstore.values.BooleanValue order_desc_by_level_no = 9;</code>
+       * <code>.dstore.values.BooleanValue order_desc_by_level_no = 9;</code>
        */
       public Builder clearOrderDescByLevelNo() {
         if (orderDescByLevelNoBuilder_ == null) {
@@ -2593,7 +2593,7 @@ public final class ImGetPredecessors {
         return this;
       }
       /**
-       * <code>optional .dstore.values.BooleanValue order_desc_by_level_no = 9;</code>
+       * <code>.dstore.values.BooleanValue order_desc_by_level_no = 9;</code>
        */
       public io.dstore.values.BooleanValue.Builder getOrderDescByLevelNoBuilder() {
         
@@ -2601,7 +2601,7 @@ public final class ImGetPredecessors {
         return getOrderDescByLevelNoFieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .dstore.values.BooleanValue order_desc_by_level_no = 9;</code>
+       * <code>.dstore.values.BooleanValue order_desc_by_level_no = 9;</code>
        */
       public io.dstore.values.BooleanValueOrBuilder getOrderDescByLevelNoOrBuilder() {
         if (orderDescByLevelNoBuilder_ != null) {
@@ -2612,7 +2612,7 @@ public final class ImGetPredecessors {
         }
       }
       /**
-       * <code>optional .dstore.values.BooleanValue order_desc_by_level_no = 9;</code>
+       * <code>.dstore.values.BooleanValue order_desc_by_level_no = 9;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.values.BooleanValue, io.dstore.values.BooleanValue.Builder, io.dstore.values.BooleanValueOrBuilder> 
@@ -2630,13 +2630,13 @@ public final class ImGetPredecessors {
 
       private boolean orderDescByLevelNoNull_ ;
       /**
-       * <code>optional bool order_desc_by_level_no_null = 1009;</code>
+       * <code>bool order_desc_by_level_no_null = 1009;</code>
        */
       public boolean getOrderDescByLevelNoNull() {
         return orderDescByLevelNoNull_;
       }
       /**
-       * <code>optional bool order_desc_by_level_no_null = 1009;</code>
+       * <code>bool order_desc_by_level_no_null = 1009;</code>
        */
       public Builder setOrderDescByLevelNoNull(boolean value) {
         
@@ -2645,7 +2645,7 @@ public final class ImGetPredecessors {
         return this;
       }
       /**
-       * <code>optional bool order_desc_by_level_no_null = 1009;</code>
+       * <code>bool order_desc_by_level_no_null = 1009;</code>
        */
       public Builder clearOrderDescByLevelNoNull() {
         
@@ -2904,7 +2904,7 @@ public final class ImGetPredecessors {
         com.google.protobuf.MessageOrBuilder {
 
       /**
-       * <code>optional int32 row_id = 10000;</code>
+       * <code>int32 row_id = 10000;</code>
        */
       int getRowId();
 
@@ -2913,7 +2913,7 @@ public final class ImGetPredecessors {
        * Bezeichnung des Vorgänger-Elementes. Immer "NULL", falls "0" oder "NULL" für "&#64;GetNodeDescriptions" angegeben wird !
        * </pre>
        *
-       * <code>optional .dstore.values.StringValue node_description = 10001;</code>
+       * <code>.dstore.values.StringValue node_description = 10001;</code>
        */
       boolean hasNodeDescription();
       /**
@@ -2921,7 +2921,7 @@ public final class ImGetPredecessors {
        * Bezeichnung des Vorgänger-Elementes. Immer "NULL", falls "0" oder "NULL" für "&#64;GetNodeDescriptions" angegeben wird !
        * </pre>
        *
-       * <code>optional .dstore.values.StringValue node_description = 10001;</code>
+       * <code>.dstore.values.StringValue node_description = 10001;</code>
        */
       io.dstore.values.StringValue getNodeDescription();
       /**
@@ -2929,7 +2929,7 @@ public final class ImGetPredecessors {
        * Bezeichnung des Vorgänger-Elementes. Immer "NULL", falls "0" oder "NULL" für "&#64;GetNodeDescriptions" angegeben wird !
        * </pre>
        *
-       * <code>optional .dstore.values.StringValue node_description = 10001;</code>
+       * <code>.dstore.values.StringValue node_description = 10001;</code>
        */
       io.dstore.values.StringValueOrBuilder getNodeDescriptionOrBuilder();
 
@@ -2938,7 +2938,7 @@ public final class ImGetPredecessors {
        * Nummer der Hierarchie des Vorgänger-Elementes - eine höhere Nummer bedeutet eine niedrigere Hierarchie. Ist "&#64;GetLevelNoInfo = 0" steht hier die Angabe, der wievielte Vorgänger "TreeNodeID" von "&#64;TreeNodeID" ist.
        * </pre>
        *
-       * <code>optional .dstore.values.IntegerValue level_no = 10002;</code>
+       * <code>.dstore.values.IntegerValue level_no = 10002;</code>
        */
       boolean hasLevelNo();
       /**
@@ -2946,7 +2946,7 @@ public final class ImGetPredecessors {
        * Nummer der Hierarchie des Vorgänger-Elementes - eine höhere Nummer bedeutet eine niedrigere Hierarchie. Ist "&#64;GetLevelNoInfo = 0" steht hier die Angabe, der wievielte Vorgänger "TreeNodeID" von "&#64;TreeNodeID" ist.
        * </pre>
        *
-       * <code>optional .dstore.values.IntegerValue level_no = 10002;</code>
+       * <code>.dstore.values.IntegerValue level_no = 10002;</code>
        */
       io.dstore.values.IntegerValue getLevelNo();
       /**
@@ -2954,7 +2954,7 @@ public final class ImGetPredecessors {
        * Nummer der Hierarchie des Vorgänger-Elementes - eine höhere Nummer bedeutet eine niedrigere Hierarchie. Ist "&#64;GetLevelNoInfo = 0" steht hier die Angabe, der wievielte Vorgänger "TreeNodeID" von "&#64;TreeNodeID" ist.
        * </pre>
        *
-       * <code>optional .dstore.values.IntegerValue level_no = 10002;</code>
+       * <code>.dstore.values.IntegerValue level_no = 10002;</code>
        */
       io.dstore.values.IntegerValueOrBuilder getLevelNoOrBuilder();
 
@@ -2963,7 +2963,7 @@ public final class ImGetPredecessors {
        * ID eines Vorgänger-Elementes (von "&#64;TreeNodeID") im Artikelbaum
        * </pre>
        *
-       * <code>optional .dstore.values.IntegerValue tree_node_id = 10003;</code>
+       * <code>.dstore.values.IntegerValue tree_node_id = 10003;</code>
        */
       boolean hasTreeNodeId();
       /**
@@ -2971,7 +2971,7 @@ public final class ImGetPredecessors {
        * ID eines Vorgänger-Elementes (von "&#64;TreeNodeID") im Artikelbaum
        * </pre>
        *
-       * <code>optional .dstore.values.IntegerValue tree_node_id = 10003;</code>
+       * <code>.dstore.values.IntegerValue tree_node_id = 10003;</code>
        */
       io.dstore.values.IntegerValue getTreeNodeId();
       /**
@@ -2979,7 +2979,7 @@ public final class ImGetPredecessors {
        * ID eines Vorgänger-Elementes (von "&#64;TreeNodeID") im Artikelbaum
        * </pre>
        *
-       * <code>optional .dstore.values.IntegerValue tree_node_id = 10003;</code>
+       * <code>.dstore.values.IntegerValue tree_node_id = 10003;</code>
        */
       io.dstore.values.IntegerValueOrBuilder getTreeNodeIdOrBuilder();
 
@@ -2988,7 +2988,7 @@ public final class ImGetPredecessors {
        * ID des zur "TreeNodeID" zugehörigen Artikel-Elementes
        * </pre>
        *
-       * <code>optional .dstore.values.IntegerValue node_id = 10004;</code>
+       * <code>.dstore.values.IntegerValue node_id = 10004;</code>
        */
       boolean hasNodeId();
       /**
@@ -2996,7 +2996,7 @@ public final class ImGetPredecessors {
        * ID des zur "TreeNodeID" zugehörigen Artikel-Elementes
        * </pre>
        *
-       * <code>optional .dstore.values.IntegerValue node_id = 10004;</code>
+       * <code>.dstore.values.IntegerValue node_id = 10004;</code>
        */
       io.dstore.values.IntegerValue getNodeId();
       /**
@@ -3004,7 +3004,7 @@ public final class ImGetPredecessors {
        * ID des zur "TreeNodeID" zugehörigen Artikel-Elementes
        * </pre>
        *
-       * <code>optional .dstore.values.IntegerValue node_id = 10004;</code>
+       * <code>.dstore.values.IntegerValue node_id = 10004;</code>
        */
       io.dstore.values.IntegerValueOrBuilder getNodeIdOrBuilder();
 
@@ -3013,7 +3013,7 @@ public final class ImGetPredecessors {
        * ID eines Vorgänger-Elementes von "TreeNodeID" im Artikelbaum
        * </pre>
        *
-       * <code>optional .dstore.values.IntegerValue predecessor = 20001;</code>
+       * <code>.dstore.values.IntegerValue predecessor = 20001;</code>
        */
       boolean hasPredecessor();
       /**
@@ -3021,7 +3021,7 @@ public final class ImGetPredecessors {
        * ID eines Vorgänger-Elementes von "TreeNodeID" im Artikelbaum
        * </pre>
        *
-       * <code>optional .dstore.values.IntegerValue predecessor = 20001;</code>
+       * <code>.dstore.values.IntegerValue predecessor = 20001;</code>
        */
       io.dstore.values.IntegerValue getPredecessor();
       /**
@@ -3029,7 +3029,7 @@ public final class ImGetPredecessors {
        * ID eines Vorgänger-Elementes von "TreeNodeID" im Artikelbaum
        * </pre>
        *
-       * <code>optional .dstore.values.IntegerValue predecessor = 20001;</code>
+       * <code>.dstore.values.IntegerValue predecessor = 20001;</code>
        */
       io.dstore.values.IntegerValueOrBuilder getPredecessorOrBuilder();
     }
@@ -3169,7 +3169,7 @@ public final class ImGetPredecessors {
       public static final int ROW_ID_FIELD_NUMBER = 10000;
       private int rowId_;
       /**
-       * <code>optional int32 row_id = 10000;</code>
+       * <code>int32 row_id = 10000;</code>
        */
       public int getRowId() {
         return rowId_;
@@ -3182,7 +3182,7 @@ public final class ImGetPredecessors {
        * Bezeichnung des Vorgänger-Elementes. Immer "NULL", falls "0" oder "NULL" für "&#64;GetNodeDescriptions" angegeben wird !
        * </pre>
        *
-       * <code>optional .dstore.values.StringValue node_description = 10001;</code>
+       * <code>.dstore.values.StringValue node_description = 10001;</code>
        */
       public boolean hasNodeDescription() {
         return nodeDescription_ != null;
@@ -3192,7 +3192,7 @@ public final class ImGetPredecessors {
        * Bezeichnung des Vorgänger-Elementes. Immer "NULL", falls "0" oder "NULL" für "&#64;GetNodeDescriptions" angegeben wird !
        * </pre>
        *
-       * <code>optional .dstore.values.StringValue node_description = 10001;</code>
+       * <code>.dstore.values.StringValue node_description = 10001;</code>
        */
       public io.dstore.values.StringValue getNodeDescription() {
         return nodeDescription_ == null ? io.dstore.values.StringValue.getDefaultInstance() : nodeDescription_;
@@ -3202,7 +3202,7 @@ public final class ImGetPredecessors {
        * Bezeichnung des Vorgänger-Elementes. Immer "NULL", falls "0" oder "NULL" für "&#64;GetNodeDescriptions" angegeben wird !
        * </pre>
        *
-       * <code>optional .dstore.values.StringValue node_description = 10001;</code>
+       * <code>.dstore.values.StringValue node_description = 10001;</code>
        */
       public io.dstore.values.StringValueOrBuilder getNodeDescriptionOrBuilder() {
         return getNodeDescription();
@@ -3215,7 +3215,7 @@ public final class ImGetPredecessors {
        * Nummer der Hierarchie des Vorgänger-Elementes - eine höhere Nummer bedeutet eine niedrigere Hierarchie. Ist "&#64;GetLevelNoInfo = 0" steht hier die Angabe, der wievielte Vorgänger "TreeNodeID" von "&#64;TreeNodeID" ist.
        * </pre>
        *
-       * <code>optional .dstore.values.IntegerValue level_no = 10002;</code>
+       * <code>.dstore.values.IntegerValue level_no = 10002;</code>
        */
       public boolean hasLevelNo() {
         return levelNo_ != null;
@@ -3225,7 +3225,7 @@ public final class ImGetPredecessors {
        * Nummer der Hierarchie des Vorgänger-Elementes - eine höhere Nummer bedeutet eine niedrigere Hierarchie. Ist "&#64;GetLevelNoInfo = 0" steht hier die Angabe, der wievielte Vorgänger "TreeNodeID" von "&#64;TreeNodeID" ist.
        * </pre>
        *
-       * <code>optional .dstore.values.IntegerValue level_no = 10002;</code>
+       * <code>.dstore.values.IntegerValue level_no = 10002;</code>
        */
       public io.dstore.values.IntegerValue getLevelNo() {
         return levelNo_ == null ? io.dstore.values.IntegerValue.getDefaultInstance() : levelNo_;
@@ -3235,7 +3235,7 @@ public final class ImGetPredecessors {
        * Nummer der Hierarchie des Vorgänger-Elementes - eine höhere Nummer bedeutet eine niedrigere Hierarchie. Ist "&#64;GetLevelNoInfo = 0" steht hier die Angabe, der wievielte Vorgänger "TreeNodeID" von "&#64;TreeNodeID" ist.
        * </pre>
        *
-       * <code>optional .dstore.values.IntegerValue level_no = 10002;</code>
+       * <code>.dstore.values.IntegerValue level_no = 10002;</code>
        */
       public io.dstore.values.IntegerValueOrBuilder getLevelNoOrBuilder() {
         return getLevelNo();
@@ -3248,7 +3248,7 @@ public final class ImGetPredecessors {
        * ID eines Vorgänger-Elementes (von "&#64;TreeNodeID") im Artikelbaum
        * </pre>
        *
-       * <code>optional .dstore.values.IntegerValue tree_node_id = 10003;</code>
+       * <code>.dstore.values.IntegerValue tree_node_id = 10003;</code>
        */
       public boolean hasTreeNodeId() {
         return treeNodeId_ != null;
@@ -3258,7 +3258,7 @@ public final class ImGetPredecessors {
        * ID eines Vorgänger-Elementes (von "&#64;TreeNodeID") im Artikelbaum
        * </pre>
        *
-       * <code>optional .dstore.values.IntegerValue tree_node_id = 10003;</code>
+       * <code>.dstore.values.IntegerValue tree_node_id = 10003;</code>
        */
       public io.dstore.values.IntegerValue getTreeNodeId() {
         return treeNodeId_ == null ? io.dstore.values.IntegerValue.getDefaultInstance() : treeNodeId_;
@@ -3268,7 +3268,7 @@ public final class ImGetPredecessors {
        * ID eines Vorgänger-Elementes (von "&#64;TreeNodeID") im Artikelbaum
        * </pre>
        *
-       * <code>optional .dstore.values.IntegerValue tree_node_id = 10003;</code>
+       * <code>.dstore.values.IntegerValue tree_node_id = 10003;</code>
        */
       public io.dstore.values.IntegerValueOrBuilder getTreeNodeIdOrBuilder() {
         return getTreeNodeId();
@@ -3281,7 +3281,7 @@ public final class ImGetPredecessors {
        * ID des zur "TreeNodeID" zugehörigen Artikel-Elementes
        * </pre>
        *
-       * <code>optional .dstore.values.IntegerValue node_id = 10004;</code>
+       * <code>.dstore.values.IntegerValue node_id = 10004;</code>
        */
       public boolean hasNodeId() {
         return nodeId_ != null;
@@ -3291,7 +3291,7 @@ public final class ImGetPredecessors {
        * ID des zur "TreeNodeID" zugehörigen Artikel-Elementes
        * </pre>
        *
-       * <code>optional .dstore.values.IntegerValue node_id = 10004;</code>
+       * <code>.dstore.values.IntegerValue node_id = 10004;</code>
        */
       public io.dstore.values.IntegerValue getNodeId() {
         return nodeId_ == null ? io.dstore.values.IntegerValue.getDefaultInstance() : nodeId_;
@@ -3301,7 +3301,7 @@ public final class ImGetPredecessors {
        * ID des zur "TreeNodeID" zugehörigen Artikel-Elementes
        * </pre>
        *
-       * <code>optional .dstore.values.IntegerValue node_id = 10004;</code>
+       * <code>.dstore.values.IntegerValue node_id = 10004;</code>
        */
       public io.dstore.values.IntegerValueOrBuilder getNodeIdOrBuilder() {
         return getNodeId();
@@ -3314,7 +3314,7 @@ public final class ImGetPredecessors {
        * ID eines Vorgänger-Elementes von "TreeNodeID" im Artikelbaum
        * </pre>
        *
-       * <code>optional .dstore.values.IntegerValue predecessor = 20001;</code>
+       * <code>.dstore.values.IntegerValue predecessor = 20001;</code>
        */
       public boolean hasPredecessor() {
         return predecessor_ != null;
@@ -3324,7 +3324,7 @@ public final class ImGetPredecessors {
        * ID eines Vorgänger-Elementes von "TreeNodeID" im Artikelbaum
        * </pre>
        *
-       * <code>optional .dstore.values.IntegerValue predecessor = 20001;</code>
+       * <code>.dstore.values.IntegerValue predecessor = 20001;</code>
        */
       public io.dstore.values.IntegerValue getPredecessor() {
         return predecessor_ == null ? io.dstore.values.IntegerValue.getDefaultInstance() : predecessor_;
@@ -3334,7 +3334,7 @@ public final class ImGetPredecessors {
        * ID eines Vorgänger-Elementes von "TreeNodeID" im Artikelbaum
        * </pre>
        *
-       * <code>optional .dstore.values.IntegerValue predecessor = 20001;</code>
+       * <code>.dstore.values.IntegerValue predecessor = 20001;</code>
        */
       public io.dstore.values.IntegerValueOrBuilder getPredecessorOrBuilder() {
         return getPredecessor();
@@ -3453,7 +3453,7 @@ public final class ImGetPredecessors {
           return memoizedHashCode;
         }
         int hash = 41;
-        hash = (19 * hash) + getDescriptorForType().hashCode();
+        hash = (19 * hash) + getDescriptor().hashCode();
         hash = (37 * hash) + ROW_ID_FIELD_NUMBER;
         hash = (53 * hash) + getRowId();
         if (hasNodeDescription()) {
@@ -3761,13 +3761,13 @@ public final class ImGetPredecessors {
 
         private int rowId_ ;
         /**
-         * <code>optional int32 row_id = 10000;</code>
+         * <code>int32 row_id = 10000;</code>
          */
         public int getRowId() {
           return rowId_;
         }
         /**
-         * <code>optional int32 row_id = 10000;</code>
+         * <code>int32 row_id = 10000;</code>
          */
         public Builder setRowId(int value) {
           
@@ -3776,7 +3776,7 @@ public final class ImGetPredecessors {
           return this;
         }
         /**
-         * <code>optional int32 row_id = 10000;</code>
+         * <code>int32 row_id = 10000;</code>
          */
         public Builder clearRowId() {
           
@@ -3793,7 +3793,7 @@ public final class ImGetPredecessors {
          * Bezeichnung des Vorgänger-Elementes. Immer "NULL", falls "0" oder "NULL" für "&#64;GetNodeDescriptions" angegeben wird !
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue node_description = 10001;</code>
+         * <code>.dstore.values.StringValue node_description = 10001;</code>
          */
         public boolean hasNodeDescription() {
           return nodeDescriptionBuilder_ != null || nodeDescription_ != null;
@@ -3803,7 +3803,7 @@ public final class ImGetPredecessors {
          * Bezeichnung des Vorgänger-Elementes. Immer "NULL", falls "0" oder "NULL" für "&#64;GetNodeDescriptions" angegeben wird !
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue node_description = 10001;</code>
+         * <code>.dstore.values.StringValue node_description = 10001;</code>
          */
         public io.dstore.values.StringValue getNodeDescription() {
           if (nodeDescriptionBuilder_ == null) {
@@ -3817,7 +3817,7 @@ public final class ImGetPredecessors {
          * Bezeichnung des Vorgänger-Elementes. Immer "NULL", falls "0" oder "NULL" für "&#64;GetNodeDescriptions" angegeben wird !
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue node_description = 10001;</code>
+         * <code>.dstore.values.StringValue node_description = 10001;</code>
          */
         public Builder setNodeDescription(io.dstore.values.StringValue value) {
           if (nodeDescriptionBuilder_ == null) {
@@ -3837,7 +3837,7 @@ public final class ImGetPredecessors {
          * Bezeichnung des Vorgänger-Elementes. Immer "NULL", falls "0" oder "NULL" für "&#64;GetNodeDescriptions" angegeben wird !
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue node_description = 10001;</code>
+         * <code>.dstore.values.StringValue node_description = 10001;</code>
          */
         public Builder setNodeDescription(
             io.dstore.values.StringValue.Builder builderForValue) {
@@ -3855,7 +3855,7 @@ public final class ImGetPredecessors {
          * Bezeichnung des Vorgänger-Elementes. Immer "NULL", falls "0" oder "NULL" für "&#64;GetNodeDescriptions" angegeben wird !
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue node_description = 10001;</code>
+         * <code>.dstore.values.StringValue node_description = 10001;</code>
          */
         public Builder mergeNodeDescription(io.dstore.values.StringValue value) {
           if (nodeDescriptionBuilder_ == null) {
@@ -3877,7 +3877,7 @@ public final class ImGetPredecessors {
          * Bezeichnung des Vorgänger-Elementes. Immer "NULL", falls "0" oder "NULL" für "&#64;GetNodeDescriptions" angegeben wird !
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue node_description = 10001;</code>
+         * <code>.dstore.values.StringValue node_description = 10001;</code>
          */
         public Builder clearNodeDescription() {
           if (nodeDescriptionBuilder_ == null) {
@@ -3895,7 +3895,7 @@ public final class ImGetPredecessors {
          * Bezeichnung des Vorgänger-Elementes. Immer "NULL", falls "0" oder "NULL" für "&#64;GetNodeDescriptions" angegeben wird !
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue node_description = 10001;</code>
+         * <code>.dstore.values.StringValue node_description = 10001;</code>
          */
         public io.dstore.values.StringValue.Builder getNodeDescriptionBuilder() {
           
@@ -3907,7 +3907,7 @@ public final class ImGetPredecessors {
          * Bezeichnung des Vorgänger-Elementes. Immer "NULL", falls "0" oder "NULL" für "&#64;GetNodeDescriptions" angegeben wird !
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue node_description = 10001;</code>
+         * <code>.dstore.values.StringValue node_description = 10001;</code>
          */
         public io.dstore.values.StringValueOrBuilder getNodeDescriptionOrBuilder() {
           if (nodeDescriptionBuilder_ != null) {
@@ -3922,7 +3922,7 @@ public final class ImGetPredecessors {
          * Bezeichnung des Vorgänger-Elementes. Immer "NULL", falls "0" oder "NULL" für "&#64;GetNodeDescriptions" angegeben wird !
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue node_description = 10001;</code>
+         * <code>.dstore.values.StringValue node_description = 10001;</code>
          */
         private com.google.protobuf.SingleFieldBuilderV3<
             io.dstore.values.StringValue, io.dstore.values.StringValue.Builder, io.dstore.values.StringValueOrBuilder> 
@@ -3946,7 +3946,7 @@ public final class ImGetPredecessors {
          * Nummer der Hierarchie des Vorgänger-Elementes - eine höhere Nummer bedeutet eine niedrigere Hierarchie. Ist "&#64;GetLevelNoInfo = 0" steht hier die Angabe, der wievielte Vorgänger "TreeNodeID" von "&#64;TreeNodeID" ist.
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue level_no = 10002;</code>
+         * <code>.dstore.values.IntegerValue level_no = 10002;</code>
          */
         public boolean hasLevelNo() {
           return levelNoBuilder_ != null || levelNo_ != null;
@@ -3956,7 +3956,7 @@ public final class ImGetPredecessors {
          * Nummer der Hierarchie des Vorgänger-Elementes - eine höhere Nummer bedeutet eine niedrigere Hierarchie. Ist "&#64;GetLevelNoInfo = 0" steht hier die Angabe, der wievielte Vorgänger "TreeNodeID" von "&#64;TreeNodeID" ist.
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue level_no = 10002;</code>
+         * <code>.dstore.values.IntegerValue level_no = 10002;</code>
          */
         public io.dstore.values.IntegerValue getLevelNo() {
           if (levelNoBuilder_ == null) {
@@ -3970,7 +3970,7 @@ public final class ImGetPredecessors {
          * Nummer der Hierarchie des Vorgänger-Elementes - eine höhere Nummer bedeutet eine niedrigere Hierarchie. Ist "&#64;GetLevelNoInfo = 0" steht hier die Angabe, der wievielte Vorgänger "TreeNodeID" von "&#64;TreeNodeID" ist.
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue level_no = 10002;</code>
+         * <code>.dstore.values.IntegerValue level_no = 10002;</code>
          */
         public Builder setLevelNo(io.dstore.values.IntegerValue value) {
           if (levelNoBuilder_ == null) {
@@ -3990,7 +3990,7 @@ public final class ImGetPredecessors {
          * Nummer der Hierarchie des Vorgänger-Elementes - eine höhere Nummer bedeutet eine niedrigere Hierarchie. Ist "&#64;GetLevelNoInfo = 0" steht hier die Angabe, der wievielte Vorgänger "TreeNodeID" von "&#64;TreeNodeID" ist.
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue level_no = 10002;</code>
+         * <code>.dstore.values.IntegerValue level_no = 10002;</code>
          */
         public Builder setLevelNo(
             io.dstore.values.IntegerValue.Builder builderForValue) {
@@ -4008,7 +4008,7 @@ public final class ImGetPredecessors {
          * Nummer der Hierarchie des Vorgänger-Elementes - eine höhere Nummer bedeutet eine niedrigere Hierarchie. Ist "&#64;GetLevelNoInfo = 0" steht hier die Angabe, der wievielte Vorgänger "TreeNodeID" von "&#64;TreeNodeID" ist.
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue level_no = 10002;</code>
+         * <code>.dstore.values.IntegerValue level_no = 10002;</code>
          */
         public Builder mergeLevelNo(io.dstore.values.IntegerValue value) {
           if (levelNoBuilder_ == null) {
@@ -4030,7 +4030,7 @@ public final class ImGetPredecessors {
          * Nummer der Hierarchie des Vorgänger-Elementes - eine höhere Nummer bedeutet eine niedrigere Hierarchie. Ist "&#64;GetLevelNoInfo = 0" steht hier die Angabe, der wievielte Vorgänger "TreeNodeID" von "&#64;TreeNodeID" ist.
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue level_no = 10002;</code>
+         * <code>.dstore.values.IntegerValue level_no = 10002;</code>
          */
         public Builder clearLevelNo() {
           if (levelNoBuilder_ == null) {
@@ -4048,7 +4048,7 @@ public final class ImGetPredecessors {
          * Nummer der Hierarchie des Vorgänger-Elementes - eine höhere Nummer bedeutet eine niedrigere Hierarchie. Ist "&#64;GetLevelNoInfo = 0" steht hier die Angabe, der wievielte Vorgänger "TreeNodeID" von "&#64;TreeNodeID" ist.
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue level_no = 10002;</code>
+         * <code>.dstore.values.IntegerValue level_no = 10002;</code>
          */
         public io.dstore.values.IntegerValue.Builder getLevelNoBuilder() {
           
@@ -4060,7 +4060,7 @@ public final class ImGetPredecessors {
          * Nummer der Hierarchie des Vorgänger-Elementes - eine höhere Nummer bedeutet eine niedrigere Hierarchie. Ist "&#64;GetLevelNoInfo = 0" steht hier die Angabe, der wievielte Vorgänger "TreeNodeID" von "&#64;TreeNodeID" ist.
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue level_no = 10002;</code>
+         * <code>.dstore.values.IntegerValue level_no = 10002;</code>
          */
         public io.dstore.values.IntegerValueOrBuilder getLevelNoOrBuilder() {
           if (levelNoBuilder_ != null) {
@@ -4075,7 +4075,7 @@ public final class ImGetPredecessors {
          * Nummer der Hierarchie des Vorgänger-Elementes - eine höhere Nummer bedeutet eine niedrigere Hierarchie. Ist "&#64;GetLevelNoInfo = 0" steht hier die Angabe, der wievielte Vorgänger "TreeNodeID" von "&#64;TreeNodeID" ist.
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue level_no = 10002;</code>
+         * <code>.dstore.values.IntegerValue level_no = 10002;</code>
          */
         private com.google.protobuf.SingleFieldBuilderV3<
             io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> 
@@ -4099,7 +4099,7 @@ public final class ImGetPredecessors {
          * ID eines Vorgänger-Elementes (von "&#64;TreeNodeID") im Artikelbaum
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue tree_node_id = 10003;</code>
+         * <code>.dstore.values.IntegerValue tree_node_id = 10003;</code>
          */
         public boolean hasTreeNodeId() {
           return treeNodeIdBuilder_ != null || treeNodeId_ != null;
@@ -4109,7 +4109,7 @@ public final class ImGetPredecessors {
          * ID eines Vorgänger-Elementes (von "&#64;TreeNodeID") im Artikelbaum
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue tree_node_id = 10003;</code>
+         * <code>.dstore.values.IntegerValue tree_node_id = 10003;</code>
          */
         public io.dstore.values.IntegerValue getTreeNodeId() {
           if (treeNodeIdBuilder_ == null) {
@@ -4123,7 +4123,7 @@ public final class ImGetPredecessors {
          * ID eines Vorgänger-Elementes (von "&#64;TreeNodeID") im Artikelbaum
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue tree_node_id = 10003;</code>
+         * <code>.dstore.values.IntegerValue tree_node_id = 10003;</code>
          */
         public Builder setTreeNodeId(io.dstore.values.IntegerValue value) {
           if (treeNodeIdBuilder_ == null) {
@@ -4143,7 +4143,7 @@ public final class ImGetPredecessors {
          * ID eines Vorgänger-Elementes (von "&#64;TreeNodeID") im Artikelbaum
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue tree_node_id = 10003;</code>
+         * <code>.dstore.values.IntegerValue tree_node_id = 10003;</code>
          */
         public Builder setTreeNodeId(
             io.dstore.values.IntegerValue.Builder builderForValue) {
@@ -4161,7 +4161,7 @@ public final class ImGetPredecessors {
          * ID eines Vorgänger-Elementes (von "&#64;TreeNodeID") im Artikelbaum
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue tree_node_id = 10003;</code>
+         * <code>.dstore.values.IntegerValue tree_node_id = 10003;</code>
          */
         public Builder mergeTreeNodeId(io.dstore.values.IntegerValue value) {
           if (treeNodeIdBuilder_ == null) {
@@ -4183,7 +4183,7 @@ public final class ImGetPredecessors {
          * ID eines Vorgänger-Elementes (von "&#64;TreeNodeID") im Artikelbaum
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue tree_node_id = 10003;</code>
+         * <code>.dstore.values.IntegerValue tree_node_id = 10003;</code>
          */
         public Builder clearTreeNodeId() {
           if (treeNodeIdBuilder_ == null) {
@@ -4201,7 +4201,7 @@ public final class ImGetPredecessors {
          * ID eines Vorgänger-Elementes (von "&#64;TreeNodeID") im Artikelbaum
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue tree_node_id = 10003;</code>
+         * <code>.dstore.values.IntegerValue tree_node_id = 10003;</code>
          */
         public io.dstore.values.IntegerValue.Builder getTreeNodeIdBuilder() {
           
@@ -4213,7 +4213,7 @@ public final class ImGetPredecessors {
          * ID eines Vorgänger-Elementes (von "&#64;TreeNodeID") im Artikelbaum
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue tree_node_id = 10003;</code>
+         * <code>.dstore.values.IntegerValue tree_node_id = 10003;</code>
          */
         public io.dstore.values.IntegerValueOrBuilder getTreeNodeIdOrBuilder() {
           if (treeNodeIdBuilder_ != null) {
@@ -4228,7 +4228,7 @@ public final class ImGetPredecessors {
          * ID eines Vorgänger-Elementes (von "&#64;TreeNodeID") im Artikelbaum
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue tree_node_id = 10003;</code>
+         * <code>.dstore.values.IntegerValue tree_node_id = 10003;</code>
          */
         private com.google.protobuf.SingleFieldBuilderV3<
             io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> 
@@ -4252,7 +4252,7 @@ public final class ImGetPredecessors {
          * ID des zur "TreeNodeID" zugehörigen Artikel-Elementes
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue node_id = 10004;</code>
+         * <code>.dstore.values.IntegerValue node_id = 10004;</code>
          */
         public boolean hasNodeId() {
           return nodeIdBuilder_ != null || nodeId_ != null;
@@ -4262,7 +4262,7 @@ public final class ImGetPredecessors {
          * ID des zur "TreeNodeID" zugehörigen Artikel-Elementes
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue node_id = 10004;</code>
+         * <code>.dstore.values.IntegerValue node_id = 10004;</code>
          */
         public io.dstore.values.IntegerValue getNodeId() {
           if (nodeIdBuilder_ == null) {
@@ -4276,7 +4276,7 @@ public final class ImGetPredecessors {
          * ID des zur "TreeNodeID" zugehörigen Artikel-Elementes
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue node_id = 10004;</code>
+         * <code>.dstore.values.IntegerValue node_id = 10004;</code>
          */
         public Builder setNodeId(io.dstore.values.IntegerValue value) {
           if (nodeIdBuilder_ == null) {
@@ -4296,7 +4296,7 @@ public final class ImGetPredecessors {
          * ID des zur "TreeNodeID" zugehörigen Artikel-Elementes
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue node_id = 10004;</code>
+         * <code>.dstore.values.IntegerValue node_id = 10004;</code>
          */
         public Builder setNodeId(
             io.dstore.values.IntegerValue.Builder builderForValue) {
@@ -4314,7 +4314,7 @@ public final class ImGetPredecessors {
          * ID des zur "TreeNodeID" zugehörigen Artikel-Elementes
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue node_id = 10004;</code>
+         * <code>.dstore.values.IntegerValue node_id = 10004;</code>
          */
         public Builder mergeNodeId(io.dstore.values.IntegerValue value) {
           if (nodeIdBuilder_ == null) {
@@ -4336,7 +4336,7 @@ public final class ImGetPredecessors {
          * ID des zur "TreeNodeID" zugehörigen Artikel-Elementes
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue node_id = 10004;</code>
+         * <code>.dstore.values.IntegerValue node_id = 10004;</code>
          */
         public Builder clearNodeId() {
           if (nodeIdBuilder_ == null) {
@@ -4354,7 +4354,7 @@ public final class ImGetPredecessors {
          * ID des zur "TreeNodeID" zugehörigen Artikel-Elementes
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue node_id = 10004;</code>
+         * <code>.dstore.values.IntegerValue node_id = 10004;</code>
          */
         public io.dstore.values.IntegerValue.Builder getNodeIdBuilder() {
           
@@ -4366,7 +4366,7 @@ public final class ImGetPredecessors {
          * ID des zur "TreeNodeID" zugehörigen Artikel-Elementes
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue node_id = 10004;</code>
+         * <code>.dstore.values.IntegerValue node_id = 10004;</code>
          */
         public io.dstore.values.IntegerValueOrBuilder getNodeIdOrBuilder() {
           if (nodeIdBuilder_ != null) {
@@ -4381,7 +4381,7 @@ public final class ImGetPredecessors {
          * ID des zur "TreeNodeID" zugehörigen Artikel-Elementes
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue node_id = 10004;</code>
+         * <code>.dstore.values.IntegerValue node_id = 10004;</code>
          */
         private com.google.protobuf.SingleFieldBuilderV3<
             io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> 
@@ -4405,7 +4405,7 @@ public final class ImGetPredecessors {
          * ID eines Vorgänger-Elementes von "TreeNodeID" im Artikelbaum
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue predecessor = 20001;</code>
+         * <code>.dstore.values.IntegerValue predecessor = 20001;</code>
          */
         public boolean hasPredecessor() {
           return predecessorBuilder_ != null || predecessor_ != null;
@@ -4415,7 +4415,7 @@ public final class ImGetPredecessors {
          * ID eines Vorgänger-Elementes von "TreeNodeID" im Artikelbaum
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue predecessor = 20001;</code>
+         * <code>.dstore.values.IntegerValue predecessor = 20001;</code>
          */
         public io.dstore.values.IntegerValue getPredecessor() {
           if (predecessorBuilder_ == null) {
@@ -4429,7 +4429,7 @@ public final class ImGetPredecessors {
          * ID eines Vorgänger-Elementes von "TreeNodeID" im Artikelbaum
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue predecessor = 20001;</code>
+         * <code>.dstore.values.IntegerValue predecessor = 20001;</code>
          */
         public Builder setPredecessor(io.dstore.values.IntegerValue value) {
           if (predecessorBuilder_ == null) {
@@ -4449,7 +4449,7 @@ public final class ImGetPredecessors {
          * ID eines Vorgänger-Elementes von "TreeNodeID" im Artikelbaum
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue predecessor = 20001;</code>
+         * <code>.dstore.values.IntegerValue predecessor = 20001;</code>
          */
         public Builder setPredecessor(
             io.dstore.values.IntegerValue.Builder builderForValue) {
@@ -4467,7 +4467,7 @@ public final class ImGetPredecessors {
          * ID eines Vorgänger-Elementes von "TreeNodeID" im Artikelbaum
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue predecessor = 20001;</code>
+         * <code>.dstore.values.IntegerValue predecessor = 20001;</code>
          */
         public Builder mergePredecessor(io.dstore.values.IntegerValue value) {
           if (predecessorBuilder_ == null) {
@@ -4489,7 +4489,7 @@ public final class ImGetPredecessors {
          * ID eines Vorgänger-Elementes von "TreeNodeID" im Artikelbaum
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue predecessor = 20001;</code>
+         * <code>.dstore.values.IntegerValue predecessor = 20001;</code>
          */
         public Builder clearPredecessor() {
           if (predecessorBuilder_ == null) {
@@ -4507,7 +4507,7 @@ public final class ImGetPredecessors {
          * ID eines Vorgänger-Elementes von "TreeNodeID" im Artikelbaum
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue predecessor = 20001;</code>
+         * <code>.dstore.values.IntegerValue predecessor = 20001;</code>
          */
         public io.dstore.values.IntegerValue.Builder getPredecessorBuilder() {
           
@@ -4519,7 +4519,7 @@ public final class ImGetPredecessors {
          * ID eines Vorgänger-Elementes von "TreeNodeID" im Artikelbaum
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue predecessor = 20001;</code>
+         * <code>.dstore.values.IntegerValue predecessor = 20001;</code>
          */
         public io.dstore.values.IntegerValueOrBuilder getPredecessorOrBuilder() {
           if (predecessorBuilder_ != null) {
@@ -4534,7 +4534,7 @@ public final class ImGetPredecessors {
          * ID eines Vorgänger-Elementes von "TreeNodeID" im Artikelbaum
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue predecessor = 20001;</code>
+         * <code>.dstore.values.IntegerValue predecessor = 20001;</code>
          */
         private com.google.protobuf.SingleFieldBuilderV3<
             io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> 
@@ -4794,7 +4794,7 @@ public final class ImGetPredecessors {
         return memoizedHashCode;
       }
       int hash = 41;
-      hash = (19 * hash) + getDescriptorForType().hashCode();
+      hash = (19 * hash) + getDescriptor().hashCode();
       if (getMetaInformationCount() > 0) {
         hash = (37 * hash) + META_INFORMATION_FIELD_NUMBER;
         hash = (53 * hash) + getMetaInformationList().hashCode();

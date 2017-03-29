@@ -19,38 +19,38 @@ public final class MiGetUserGroupsAd {
       com.google.protobuf.MessageOrBuilder {
 
     /**
-     * <code>optional .dstore.values.IntegerValue user_group_id = 1;</code>
+     * <code>.dstore.values.IntegerValue user_group_id = 1;</code>
      */
     boolean hasUserGroupId();
     /**
-     * <code>optional .dstore.values.IntegerValue user_group_id = 1;</code>
+     * <code>.dstore.values.IntegerValue user_group_id = 1;</code>
      */
     io.dstore.values.IntegerValue getUserGroupId();
     /**
-     * <code>optional .dstore.values.IntegerValue user_group_id = 1;</code>
+     * <code>.dstore.values.IntegerValue user_group_id = 1;</code>
      */
     io.dstore.values.IntegerValueOrBuilder getUserGroupIdOrBuilder();
 
     /**
-     * <code>optional bool user_group_id_null = 1001;</code>
+     * <code>bool user_group_id_null = 1001;</code>
      */
     boolean getUserGroupIdNull();
 
     /**
-     * <code>optional .dstore.values.BooleanValue get_assigned_users = 2;</code>
+     * <code>.dstore.values.BooleanValue get_assigned_users = 2;</code>
      */
     boolean hasGetAssignedUsers();
     /**
-     * <code>optional .dstore.values.BooleanValue get_assigned_users = 2;</code>
+     * <code>.dstore.values.BooleanValue get_assigned_users = 2;</code>
      */
     io.dstore.values.BooleanValue getGetAssignedUsers();
     /**
-     * <code>optional .dstore.values.BooleanValue get_assigned_users = 2;</code>
+     * <code>.dstore.values.BooleanValue get_assigned_users = 2;</code>
      */
     io.dstore.values.BooleanValueOrBuilder getGetAssignedUsersOrBuilder();
 
     /**
-     * <code>optional bool get_assigned_users_null = 1002;</code>
+     * <code>bool get_assigned_users_null = 1002;</code>
      */
     boolean getGetAssignedUsersNull();
   }
@@ -157,19 +157,19 @@ public final class MiGetUserGroupsAd {
     public static final int USER_GROUP_ID_FIELD_NUMBER = 1;
     private io.dstore.values.IntegerValue userGroupId_;
     /**
-     * <code>optional .dstore.values.IntegerValue user_group_id = 1;</code>
+     * <code>.dstore.values.IntegerValue user_group_id = 1;</code>
      */
     public boolean hasUserGroupId() {
       return userGroupId_ != null;
     }
     /**
-     * <code>optional .dstore.values.IntegerValue user_group_id = 1;</code>
+     * <code>.dstore.values.IntegerValue user_group_id = 1;</code>
      */
     public io.dstore.values.IntegerValue getUserGroupId() {
       return userGroupId_ == null ? io.dstore.values.IntegerValue.getDefaultInstance() : userGroupId_;
     }
     /**
-     * <code>optional .dstore.values.IntegerValue user_group_id = 1;</code>
+     * <code>.dstore.values.IntegerValue user_group_id = 1;</code>
      */
     public io.dstore.values.IntegerValueOrBuilder getUserGroupIdOrBuilder() {
       return getUserGroupId();
@@ -178,7 +178,7 @@ public final class MiGetUserGroupsAd {
     public static final int USER_GROUP_ID_NULL_FIELD_NUMBER = 1001;
     private boolean userGroupIdNull_;
     /**
-     * <code>optional bool user_group_id_null = 1001;</code>
+     * <code>bool user_group_id_null = 1001;</code>
      */
     public boolean getUserGroupIdNull() {
       return userGroupIdNull_;
@@ -187,19 +187,19 @@ public final class MiGetUserGroupsAd {
     public static final int GET_ASSIGNED_USERS_FIELD_NUMBER = 2;
     private io.dstore.values.BooleanValue getAssignedUsers_;
     /**
-     * <code>optional .dstore.values.BooleanValue get_assigned_users = 2;</code>
+     * <code>.dstore.values.BooleanValue get_assigned_users = 2;</code>
      */
     public boolean hasGetAssignedUsers() {
       return getAssignedUsers_ != null;
     }
     /**
-     * <code>optional .dstore.values.BooleanValue get_assigned_users = 2;</code>
+     * <code>.dstore.values.BooleanValue get_assigned_users = 2;</code>
      */
     public io.dstore.values.BooleanValue getGetAssignedUsers() {
       return getAssignedUsers_ == null ? io.dstore.values.BooleanValue.getDefaultInstance() : getAssignedUsers_;
     }
     /**
-     * <code>optional .dstore.values.BooleanValue get_assigned_users = 2;</code>
+     * <code>.dstore.values.BooleanValue get_assigned_users = 2;</code>
      */
     public io.dstore.values.BooleanValueOrBuilder getGetAssignedUsersOrBuilder() {
       return getGetAssignedUsers();
@@ -208,7 +208,7 @@ public final class MiGetUserGroupsAd {
     public static final int GET_ASSIGNED_USERS_NULL_FIELD_NUMBER = 1002;
     private boolean getAssignedUsersNull_;
     /**
-     * <code>optional bool get_assigned_users_null = 1002;</code>
+     * <code>bool get_assigned_users_null = 1002;</code>
      */
     public boolean getGetAssignedUsersNull() {
       return getAssignedUsersNull_;
@@ -300,7 +300,7 @@ public final class MiGetUserGroupsAd {
         return memoizedHashCode;
       }
       int hash = 41;
-      hash = (19 * hash) + getDescriptorForType().hashCode();
+      hash = (19 * hash) + getDescriptor().hashCode();
       if (hasUserGroupId()) {
         hash = (37 * hash) + USER_GROUP_ID_FIELD_NUMBER;
         hash = (53 * hash) + getUserGroupId().hashCode();
@@ -566,13 +566,13 @@ public final class MiGetUserGroupsAd {
       private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> userGroupIdBuilder_;
       /**
-       * <code>optional .dstore.values.IntegerValue user_group_id = 1;</code>
+       * <code>.dstore.values.IntegerValue user_group_id = 1;</code>
        */
       public boolean hasUserGroupId() {
         return userGroupIdBuilder_ != null || userGroupId_ != null;
       }
       /**
-       * <code>optional .dstore.values.IntegerValue user_group_id = 1;</code>
+       * <code>.dstore.values.IntegerValue user_group_id = 1;</code>
        */
       public io.dstore.values.IntegerValue getUserGroupId() {
         if (userGroupIdBuilder_ == null) {
@@ -582,7 +582,7 @@ public final class MiGetUserGroupsAd {
         }
       }
       /**
-       * <code>optional .dstore.values.IntegerValue user_group_id = 1;</code>
+       * <code>.dstore.values.IntegerValue user_group_id = 1;</code>
        */
       public Builder setUserGroupId(io.dstore.values.IntegerValue value) {
         if (userGroupIdBuilder_ == null) {
@@ -598,7 +598,7 @@ public final class MiGetUserGroupsAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.IntegerValue user_group_id = 1;</code>
+       * <code>.dstore.values.IntegerValue user_group_id = 1;</code>
        */
       public Builder setUserGroupId(
           io.dstore.values.IntegerValue.Builder builderForValue) {
@@ -612,7 +612,7 @@ public final class MiGetUserGroupsAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.IntegerValue user_group_id = 1;</code>
+       * <code>.dstore.values.IntegerValue user_group_id = 1;</code>
        */
       public Builder mergeUserGroupId(io.dstore.values.IntegerValue value) {
         if (userGroupIdBuilder_ == null) {
@@ -630,7 +630,7 @@ public final class MiGetUserGroupsAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.IntegerValue user_group_id = 1;</code>
+       * <code>.dstore.values.IntegerValue user_group_id = 1;</code>
        */
       public Builder clearUserGroupId() {
         if (userGroupIdBuilder_ == null) {
@@ -644,7 +644,7 @@ public final class MiGetUserGroupsAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.IntegerValue user_group_id = 1;</code>
+       * <code>.dstore.values.IntegerValue user_group_id = 1;</code>
        */
       public io.dstore.values.IntegerValue.Builder getUserGroupIdBuilder() {
         
@@ -652,7 +652,7 @@ public final class MiGetUserGroupsAd {
         return getUserGroupIdFieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .dstore.values.IntegerValue user_group_id = 1;</code>
+       * <code>.dstore.values.IntegerValue user_group_id = 1;</code>
        */
       public io.dstore.values.IntegerValueOrBuilder getUserGroupIdOrBuilder() {
         if (userGroupIdBuilder_ != null) {
@@ -663,7 +663,7 @@ public final class MiGetUserGroupsAd {
         }
       }
       /**
-       * <code>optional .dstore.values.IntegerValue user_group_id = 1;</code>
+       * <code>.dstore.values.IntegerValue user_group_id = 1;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> 
@@ -681,13 +681,13 @@ public final class MiGetUserGroupsAd {
 
       private boolean userGroupIdNull_ ;
       /**
-       * <code>optional bool user_group_id_null = 1001;</code>
+       * <code>bool user_group_id_null = 1001;</code>
        */
       public boolean getUserGroupIdNull() {
         return userGroupIdNull_;
       }
       /**
-       * <code>optional bool user_group_id_null = 1001;</code>
+       * <code>bool user_group_id_null = 1001;</code>
        */
       public Builder setUserGroupIdNull(boolean value) {
         
@@ -696,7 +696,7 @@ public final class MiGetUserGroupsAd {
         return this;
       }
       /**
-       * <code>optional bool user_group_id_null = 1001;</code>
+       * <code>bool user_group_id_null = 1001;</code>
        */
       public Builder clearUserGroupIdNull() {
         
@@ -709,13 +709,13 @@ public final class MiGetUserGroupsAd {
       private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.values.BooleanValue, io.dstore.values.BooleanValue.Builder, io.dstore.values.BooleanValueOrBuilder> getAssignedUsersBuilder_;
       /**
-       * <code>optional .dstore.values.BooleanValue get_assigned_users = 2;</code>
+       * <code>.dstore.values.BooleanValue get_assigned_users = 2;</code>
        */
       public boolean hasGetAssignedUsers() {
         return getAssignedUsersBuilder_ != null || getAssignedUsers_ != null;
       }
       /**
-       * <code>optional .dstore.values.BooleanValue get_assigned_users = 2;</code>
+       * <code>.dstore.values.BooleanValue get_assigned_users = 2;</code>
        */
       public io.dstore.values.BooleanValue getGetAssignedUsers() {
         if (getAssignedUsersBuilder_ == null) {
@@ -725,7 +725,7 @@ public final class MiGetUserGroupsAd {
         }
       }
       /**
-       * <code>optional .dstore.values.BooleanValue get_assigned_users = 2;</code>
+       * <code>.dstore.values.BooleanValue get_assigned_users = 2;</code>
        */
       public Builder setGetAssignedUsers(io.dstore.values.BooleanValue value) {
         if (getAssignedUsersBuilder_ == null) {
@@ -741,7 +741,7 @@ public final class MiGetUserGroupsAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.BooleanValue get_assigned_users = 2;</code>
+       * <code>.dstore.values.BooleanValue get_assigned_users = 2;</code>
        */
       public Builder setGetAssignedUsers(
           io.dstore.values.BooleanValue.Builder builderForValue) {
@@ -755,7 +755,7 @@ public final class MiGetUserGroupsAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.BooleanValue get_assigned_users = 2;</code>
+       * <code>.dstore.values.BooleanValue get_assigned_users = 2;</code>
        */
       public Builder mergeGetAssignedUsers(io.dstore.values.BooleanValue value) {
         if (getAssignedUsersBuilder_ == null) {
@@ -773,7 +773,7 @@ public final class MiGetUserGroupsAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.BooleanValue get_assigned_users = 2;</code>
+       * <code>.dstore.values.BooleanValue get_assigned_users = 2;</code>
        */
       public Builder clearGetAssignedUsers() {
         if (getAssignedUsersBuilder_ == null) {
@@ -787,7 +787,7 @@ public final class MiGetUserGroupsAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.BooleanValue get_assigned_users = 2;</code>
+       * <code>.dstore.values.BooleanValue get_assigned_users = 2;</code>
        */
       public io.dstore.values.BooleanValue.Builder getGetAssignedUsersBuilder() {
         
@@ -795,7 +795,7 @@ public final class MiGetUserGroupsAd {
         return getGetAssignedUsersFieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .dstore.values.BooleanValue get_assigned_users = 2;</code>
+       * <code>.dstore.values.BooleanValue get_assigned_users = 2;</code>
        */
       public io.dstore.values.BooleanValueOrBuilder getGetAssignedUsersOrBuilder() {
         if (getAssignedUsersBuilder_ != null) {
@@ -806,7 +806,7 @@ public final class MiGetUserGroupsAd {
         }
       }
       /**
-       * <code>optional .dstore.values.BooleanValue get_assigned_users = 2;</code>
+       * <code>.dstore.values.BooleanValue get_assigned_users = 2;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.values.BooleanValue, io.dstore.values.BooleanValue.Builder, io.dstore.values.BooleanValueOrBuilder> 
@@ -824,13 +824,13 @@ public final class MiGetUserGroupsAd {
 
       private boolean getAssignedUsersNull_ ;
       /**
-       * <code>optional bool get_assigned_users_null = 1002;</code>
+       * <code>bool get_assigned_users_null = 1002;</code>
        */
       public boolean getGetAssignedUsersNull() {
         return getAssignedUsersNull_;
       }
       /**
-       * <code>optional bool get_assigned_users_null = 1002;</code>
+       * <code>bool get_assigned_users_null = 1002;</code>
        */
       public Builder setGetAssignedUsersNull(boolean value) {
         
@@ -839,7 +839,7 @@ public final class MiGetUserGroupsAd {
         return this;
       }
       /**
-       * <code>optional bool get_assigned_users_null = 1002;</code>
+       * <code>bool get_assigned_users_null = 1002;</code>
        */
       public Builder clearGetAssignedUsersNull() {
         
@@ -1098,7 +1098,7 @@ public final class MiGetUserGroupsAd {
         com.google.protobuf.MessageOrBuilder {
 
       /**
-       * <code>optional int32 row_id = 10000;</code>
+       * <code>int32 row_id = 10000;</code>
        */
       int getRowId();
 
@@ -1107,7 +1107,7 @@ public final class MiGetUserGroupsAd {
        * Beschreibung, wofür die Gruppe da ist, bzw. eine Art Charakterisierung aller Benutzer in dieser Gruppe, z.B. "Produkt-Management" oder "Auftrags-Clearing" etc.
        * </pre>
        *
-       * <code>optional .dstore.values.StringValue group_name = 10001;</code>
+       * <code>.dstore.values.StringValue group_name = 10001;</code>
        */
       boolean hasGroupName();
       /**
@@ -1115,7 +1115,7 @@ public final class MiGetUserGroupsAd {
        * Beschreibung, wofür die Gruppe da ist, bzw. eine Art Charakterisierung aller Benutzer in dieser Gruppe, z.B. "Produkt-Management" oder "Auftrags-Clearing" etc.
        * </pre>
        *
-       * <code>optional .dstore.values.StringValue group_name = 10001;</code>
+       * <code>.dstore.values.StringValue group_name = 10001;</code>
        */
       io.dstore.values.StringValue getGroupName();
       /**
@@ -1123,7 +1123,7 @@ public final class MiGetUserGroupsAd {
        * Beschreibung, wofür die Gruppe da ist, bzw. eine Art Charakterisierung aller Benutzer in dieser Gruppe, z.B. "Produkt-Management" oder "Auftrags-Clearing" etc.
        * </pre>
        *
-       * <code>optional .dstore.values.StringValue group_name = 10001;</code>
+       * <code>.dstore.values.StringValue group_name = 10001;</code>
        */
       io.dstore.values.StringValueOrBuilder getGroupNameOrBuilder();
 
@@ -1132,7 +1132,7 @@ public final class MiGetUserGroupsAd {
        * Ausführlichere Beschreibung der Gruppe
        * </pre>
        *
-       * <code>optional .dstore.values.StringValue group_description = 10002;</code>
+       * <code>.dstore.values.StringValue group_description = 10002;</code>
        */
       boolean hasGroupDescription();
       /**
@@ -1140,7 +1140,7 @@ public final class MiGetUserGroupsAd {
        * Ausführlichere Beschreibung der Gruppe
        * </pre>
        *
-       * <code>optional .dstore.values.StringValue group_description = 10002;</code>
+       * <code>.dstore.values.StringValue group_description = 10002;</code>
        */
       io.dstore.values.StringValue getGroupDescription();
       /**
@@ -1148,7 +1148,7 @@ public final class MiGetUserGroupsAd {
        * Ausführlichere Beschreibung der Gruppe
        * </pre>
        *
-       * <code>optional .dstore.values.StringValue group_description = 10002;</code>
+       * <code>.dstore.values.StringValue group_description = 10002;</code>
        */
       io.dstore.values.StringValueOrBuilder getGroupDescriptionOrBuilder();
 
@@ -1157,7 +1157,7 @@ public final class MiGetUserGroupsAd {
        * ID einer User-Gruppe
        * </pre>
        *
-       * <code>optional .dstore.values.IntegerValue user_group_id = 10003;</code>
+       * <code>.dstore.values.IntegerValue user_group_id = 10003;</code>
        */
       boolean hasUserGroupId();
       /**
@@ -1165,7 +1165,7 @@ public final class MiGetUserGroupsAd {
        * ID einer User-Gruppe
        * </pre>
        *
-       * <code>optional .dstore.values.IntegerValue user_group_id = 10003;</code>
+       * <code>.dstore.values.IntegerValue user_group_id = 10003;</code>
        */
       io.dstore.values.IntegerValue getUserGroupId();
       /**
@@ -1173,7 +1173,7 @@ public final class MiGetUserGroupsAd {
        * ID einer User-Gruppe
        * </pre>
        *
-       * <code>optional .dstore.values.IntegerValue user_group_id = 10003;</code>
+       * <code>.dstore.values.IntegerValue user_group_id = 10003;</code>
        */
       io.dstore.values.IntegerValueOrBuilder getUserGroupIdOrBuilder();
 
@@ -1182,7 +1182,7 @@ public final class MiGetUserGroupsAd {
        * Name des Benutzers "UserID"
        * </pre>
        *
-       * <code>optional .dstore.values.StringValue user_name = 20003;</code>
+       * <code>.dstore.values.StringValue user_name = 20003;</code>
        */
       boolean hasUserName();
       /**
@@ -1190,7 +1190,7 @@ public final class MiGetUserGroupsAd {
        * Name des Benutzers "UserID"
        * </pre>
        *
-       * <code>optional .dstore.values.StringValue user_name = 20003;</code>
+       * <code>.dstore.values.StringValue user_name = 20003;</code>
        */
       io.dstore.values.StringValue getUserName();
       /**
@@ -1198,7 +1198,7 @@ public final class MiGetUserGroupsAd {
        * Name des Benutzers "UserID"
        * </pre>
        *
-       * <code>optional .dstore.values.StringValue user_name = 20003;</code>
+       * <code>.dstore.values.StringValue user_name = 20003;</code>
        */
       io.dstore.values.StringValueOrBuilder getUserNameOrBuilder();
 
@@ -1207,7 +1207,7 @@ public final class MiGetUserGroupsAd {
        * ID eines "dStore"-Benutzers, der in "UserInfo" registriert ist, und der der Gruppe "UserGroupID" zugeordnet ist
        * </pre>
        *
-       * <code>optional .dstore.values.IntegerValue user_id = 20004;</code>
+       * <code>.dstore.values.IntegerValue user_id = 20004;</code>
        */
       boolean hasUserId();
       /**
@@ -1215,7 +1215,7 @@ public final class MiGetUserGroupsAd {
        * ID eines "dStore"-Benutzers, der in "UserInfo" registriert ist, und der der Gruppe "UserGroupID" zugeordnet ist
        * </pre>
        *
-       * <code>optional .dstore.values.IntegerValue user_id = 20004;</code>
+       * <code>.dstore.values.IntegerValue user_id = 20004;</code>
        */
       io.dstore.values.IntegerValue getUserId();
       /**
@@ -1223,7 +1223,7 @@ public final class MiGetUserGroupsAd {
        * ID eines "dStore"-Benutzers, der in "UserInfo" registriert ist, und der der Gruppe "UserGroupID" zugeordnet ist
        * </pre>
        *
-       * <code>optional .dstore.values.IntegerValue user_id = 20004;</code>
+       * <code>.dstore.values.IntegerValue user_id = 20004;</code>
        */
       io.dstore.values.IntegerValueOrBuilder getUserIdOrBuilder();
     }
@@ -1363,7 +1363,7 @@ public final class MiGetUserGroupsAd {
       public static final int ROW_ID_FIELD_NUMBER = 10000;
       private int rowId_;
       /**
-       * <code>optional int32 row_id = 10000;</code>
+       * <code>int32 row_id = 10000;</code>
        */
       public int getRowId() {
         return rowId_;
@@ -1376,7 +1376,7 @@ public final class MiGetUserGroupsAd {
        * Beschreibung, wofür die Gruppe da ist, bzw. eine Art Charakterisierung aller Benutzer in dieser Gruppe, z.B. "Produkt-Management" oder "Auftrags-Clearing" etc.
        * </pre>
        *
-       * <code>optional .dstore.values.StringValue group_name = 10001;</code>
+       * <code>.dstore.values.StringValue group_name = 10001;</code>
        */
       public boolean hasGroupName() {
         return groupName_ != null;
@@ -1386,7 +1386,7 @@ public final class MiGetUserGroupsAd {
        * Beschreibung, wofür die Gruppe da ist, bzw. eine Art Charakterisierung aller Benutzer in dieser Gruppe, z.B. "Produkt-Management" oder "Auftrags-Clearing" etc.
        * </pre>
        *
-       * <code>optional .dstore.values.StringValue group_name = 10001;</code>
+       * <code>.dstore.values.StringValue group_name = 10001;</code>
        */
       public io.dstore.values.StringValue getGroupName() {
         return groupName_ == null ? io.dstore.values.StringValue.getDefaultInstance() : groupName_;
@@ -1396,7 +1396,7 @@ public final class MiGetUserGroupsAd {
        * Beschreibung, wofür die Gruppe da ist, bzw. eine Art Charakterisierung aller Benutzer in dieser Gruppe, z.B. "Produkt-Management" oder "Auftrags-Clearing" etc.
        * </pre>
        *
-       * <code>optional .dstore.values.StringValue group_name = 10001;</code>
+       * <code>.dstore.values.StringValue group_name = 10001;</code>
        */
       public io.dstore.values.StringValueOrBuilder getGroupNameOrBuilder() {
         return getGroupName();
@@ -1409,7 +1409,7 @@ public final class MiGetUserGroupsAd {
        * Ausführlichere Beschreibung der Gruppe
        * </pre>
        *
-       * <code>optional .dstore.values.StringValue group_description = 10002;</code>
+       * <code>.dstore.values.StringValue group_description = 10002;</code>
        */
       public boolean hasGroupDescription() {
         return groupDescription_ != null;
@@ -1419,7 +1419,7 @@ public final class MiGetUserGroupsAd {
        * Ausführlichere Beschreibung der Gruppe
        * </pre>
        *
-       * <code>optional .dstore.values.StringValue group_description = 10002;</code>
+       * <code>.dstore.values.StringValue group_description = 10002;</code>
        */
       public io.dstore.values.StringValue getGroupDescription() {
         return groupDescription_ == null ? io.dstore.values.StringValue.getDefaultInstance() : groupDescription_;
@@ -1429,7 +1429,7 @@ public final class MiGetUserGroupsAd {
        * Ausführlichere Beschreibung der Gruppe
        * </pre>
        *
-       * <code>optional .dstore.values.StringValue group_description = 10002;</code>
+       * <code>.dstore.values.StringValue group_description = 10002;</code>
        */
       public io.dstore.values.StringValueOrBuilder getGroupDescriptionOrBuilder() {
         return getGroupDescription();
@@ -1442,7 +1442,7 @@ public final class MiGetUserGroupsAd {
        * ID einer User-Gruppe
        * </pre>
        *
-       * <code>optional .dstore.values.IntegerValue user_group_id = 10003;</code>
+       * <code>.dstore.values.IntegerValue user_group_id = 10003;</code>
        */
       public boolean hasUserGroupId() {
         return userGroupId_ != null;
@@ -1452,7 +1452,7 @@ public final class MiGetUserGroupsAd {
        * ID einer User-Gruppe
        * </pre>
        *
-       * <code>optional .dstore.values.IntegerValue user_group_id = 10003;</code>
+       * <code>.dstore.values.IntegerValue user_group_id = 10003;</code>
        */
       public io.dstore.values.IntegerValue getUserGroupId() {
         return userGroupId_ == null ? io.dstore.values.IntegerValue.getDefaultInstance() : userGroupId_;
@@ -1462,7 +1462,7 @@ public final class MiGetUserGroupsAd {
        * ID einer User-Gruppe
        * </pre>
        *
-       * <code>optional .dstore.values.IntegerValue user_group_id = 10003;</code>
+       * <code>.dstore.values.IntegerValue user_group_id = 10003;</code>
        */
       public io.dstore.values.IntegerValueOrBuilder getUserGroupIdOrBuilder() {
         return getUserGroupId();
@@ -1475,7 +1475,7 @@ public final class MiGetUserGroupsAd {
        * Name des Benutzers "UserID"
        * </pre>
        *
-       * <code>optional .dstore.values.StringValue user_name = 20003;</code>
+       * <code>.dstore.values.StringValue user_name = 20003;</code>
        */
       public boolean hasUserName() {
         return userName_ != null;
@@ -1485,7 +1485,7 @@ public final class MiGetUserGroupsAd {
        * Name des Benutzers "UserID"
        * </pre>
        *
-       * <code>optional .dstore.values.StringValue user_name = 20003;</code>
+       * <code>.dstore.values.StringValue user_name = 20003;</code>
        */
       public io.dstore.values.StringValue getUserName() {
         return userName_ == null ? io.dstore.values.StringValue.getDefaultInstance() : userName_;
@@ -1495,7 +1495,7 @@ public final class MiGetUserGroupsAd {
        * Name des Benutzers "UserID"
        * </pre>
        *
-       * <code>optional .dstore.values.StringValue user_name = 20003;</code>
+       * <code>.dstore.values.StringValue user_name = 20003;</code>
        */
       public io.dstore.values.StringValueOrBuilder getUserNameOrBuilder() {
         return getUserName();
@@ -1508,7 +1508,7 @@ public final class MiGetUserGroupsAd {
        * ID eines "dStore"-Benutzers, der in "UserInfo" registriert ist, und der der Gruppe "UserGroupID" zugeordnet ist
        * </pre>
        *
-       * <code>optional .dstore.values.IntegerValue user_id = 20004;</code>
+       * <code>.dstore.values.IntegerValue user_id = 20004;</code>
        */
       public boolean hasUserId() {
         return userId_ != null;
@@ -1518,7 +1518,7 @@ public final class MiGetUserGroupsAd {
        * ID eines "dStore"-Benutzers, der in "UserInfo" registriert ist, und der der Gruppe "UserGroupID" zugeordnet ist
        * </pre>
        *
-       * <code>optional .dstore.values.IntegerValue user_id = 20004;</code>
+       * <code>.dstore.values.IntegerValue user_id = 20004;</code>
        */
       public io.dstore.values.IntegerValue getUserId() {
         return userId_ == null ? io.dstore.values.IntegerValue.getDefaultInstance() : userId_;
@@ -1528,7 +1528,7 @@ public final class MiGetUserGroupsAd {
        * ID eines "dStore"-Benutzers, der in "UserInfo" registriert ist, und der der Gruppe "UserGroupID" zugeordnet ist
        * </pre>
        *
-       * <code>optional .dstore.values.IntegerValue user_id = 20004;</code>
+       * <code>.dstore.values.IntegerValue user_id = 20004;</code>
        */
       public io.dstore.values.IntegerValueOrBuilder getUserIdOrBuilder() {
         return getUserId();
@@ -1647,7 +1647,7 @@ public final class MiGetUserGroupsAd {
           return memoizedHashCode;
         }
         int hash = 41;
-        hash = (19 * hash) + getDescriptorForType().hashCode();
+        hash = (19 * hash) + getDescriptor().hashCode();
         hash = (37 * hash) + ROW_ID_FIELD_NUMBER;
         hash = (53 * hash) + getRowId();
         if (hasGroupName()) {
@@ -1955,13 +1955,13 @@ public final class MiGetUserGroupsAd {
 
         private int rowId_ ;
         /**
-         * <code>optional int32 row_id = 10000;</code>
+         * <code>int32 row_id = 10000;</code>
          */
         public int getRowId() {
           return rowId_;
         }
         /**
-         * <code>optional int32 row_id = 10000;</code>
+         * <code>int32 row_id = 10000;</code>
          */
         public Builder setRowId(int value) {
           
@@ -1970,7 +1970,7 @@ public final class MiGetUserGroupsAd {
           return this;
         }
         /**
-         * <code>optional int32 row_id = 10000;</code>
+         * <code>int32 row_id = 10000;</code>
          */
         public Builder clearRowId() {
           
@@ -1987,7 +1987,7 @@ public final class MiGetUserGroupsAd {
          * Beschreibung, wofür die Gruppe da ist, bzw. eine Art Charakterisierung aller Benutzer in dieser Gruppe, z.B. "Produkt-Management" oder "Auftrags-Clearing" etc.
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue group_name = 10001;</code>
+         * <code>.dstore.values.StringValue group_name = 10001;</code>
          */
         public boolean hasGroupName() {
           return groupNameBuilder_ != null || groupName_ != null;
@@ -1997,7 +1997,7 @@ public final class MiGetUserGroupsAd {
          * Beschreibung, wofür die Gruppe da ist, bzw. eine Art Charakterisierung aller Benutzer in dieser Gruppe, z.B. "Produkt-Management" oder "Auftrags-Clearing" etc.
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue group_name = 10001;</code>
+         * <code>.dstore.values.StringValue group_name = 10001;</code>
          */
         public io.dstore.values.StringValue getGroupName() {
           if (groupNameBuilder_ == null) {
@@ -2011,7 +2011,7 @@ public final class MiGetUserGroupsAd {
          * Beschreibung, wofür die Gruppe da ist, bzw. eine Art Charakterisierung aller Benutzer in dieser Gruppe, z.B. "Produkt-Management" oder "Auftrags-Clearing" etc.
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue group_name = 10001;</code>
+         * <code>.dstore.values.StringValue group_name = 10001;</code>
          */
         public Builder setGroupName(io.dstore.values.StringValue value) {
           if (groupNameBuilder_ == null) {
@@ -2031,7 +2031,7 @@ public final class MiGetUserGroupsAd {
          * Beschreibung, wofür die Gruppe da ist, bzw. eine Art Charakterisierung aller Benutzer in dieser Gruppe, z.B. "Produkt-Management" oder "Auftrags-Clearing" etc.
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue group_name = 10001;</code>
+         * <code>.dstore.values.StringValue group_name = 10001;</code>
          */
         public Builder setGroupName(
             io.dstore.values.StringValue.Builder builderForValue) {
@@ -2049,7 +2049,7 @@ public final class MiGetUserGroupsAd {
          * Beschreibung, wofür die Gruppe da ist, bzw. eine Art Charakterisierung aller Benutzer in dieser Gruppe, z.B. "Produkt-Management" oder "Auftrags-Clearing" etc.
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue group_name = 10001;</code>
+         * <code>.dstore.values.StringValue group_name = 10001;</code>
          */
         public Builder mergeGroupName(io.dstore.values.StringValue value) {
           if (groupNameBuilder_ == null) {
@@ -2071,7 +2071,7 @@ public final class MiGetUserGroupsAd {
          * Beschreibung, wofür die Gruppe da ist, bzw. eine Art Charakterisierung aller Benutzer in dieser Gruppe, z.B. "Produkt-Management" oder "Auftrags-Clearing" etc.
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue group_name = 10001;</code>
+         * <code>.dstore.values.StringValue group_name = 10001;</code>
          */
         public Builder clearGroupName() {
           if (groupNameBuilder_ == null) {
@@ -2089,7 +2089,7 @@ public final class MiGetUserGroupsAd {
          * Beschreibung, wofür die Gruppe da ist, bzw. eine Art Charakterisierung aller Benutzer in dieser Gruppe, z.B. "Produkt-Management" oder "Auftrags-Clearing" etc.
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue group_name = 10001;</code>
+         * <code>.dstore.values.StringValue group_name = 10001;</code>
          */
         public io.dstore.values.StringValue.Builder getGroupNameBuilder() {
           
@@ -2101,7 +2101,7 @@ public final class MiGetUserGroupsAd {
          * Beschreibung, wofür die Gruppe da ist, bzw. eine Art Charakterisierung aller Benutzer in dieser Gruppe, z.B. "Produkt-Management" oder "Auftrags-Clearing" etc.
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue group_name = 10001;</code>
+         * <code>.dstore.values.StringValue group_name = 10001;</code>
          */
         public io.dstore.values.StringValueOrBuilder getGroupNameOrBuilder() {
           if (groupNameBuilder_ != null) {
@@ -2116,7 +2116,7 @@ public final class MiGetUserGroupsAd {
          * Beschreibung, wofür die Gruppe da ist, bzw. eine Art Charakterisierung aller Benutzer in dieser Gruppe, z.B. "Produkt-Management" oder "Auftrags-Clearing" etc.
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue group_name = 10001;</code>
+         * <code>.dstore.values.StringValue group_name = 10001;</code>
          */
         private com.google.protobuf.SingleFieldBuilderV3<
             io.dstore.values.StringValue, io.dstore.values.StringValue.Builder, io.dstore.values.StringValueOrBuilder> 
@@ -2140,7 +2140,7 @@ public final class MiGetUserGroupsAd {
          * Ausführlichere Beschreibung der Gruppe
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue group_description = 10002;</code>
+         * <code>.dstore.values.StringValue group_description = 10002;</code>
          */
         public boolean hasGroupDescription() {
           return groupDescriptionBuilder_ != null || groupDescription_ != null;
@@ -2150,7 +2150,7 @@ public final class MiGetUserGroupsAd {
          * Ausführlichere Beschreibung der Gruppe
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue group_description = 10002;</code>
+         * <code>.dstore.values.StringValue group_description = 10002;</code>
          */
         public io.dstore.values.StringValue getGroupDescription() {
           if (groupDescriptionBuilder_ == null) {
@@ -2164,7 +2164,7 @@ public final class MiGetUserGroupsAd {
          * Ausführlichere Beschreibung der Gruppe
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue group_description = 10002;</code>
+         * <code>.dstore.values.StringValue group_description = 10002;</code>
          */
         public Builder setGroupDescription(io.dstore.values.StringValue value) {
           if (groupDescriptionBuilder_ == null) {
@@ -2184,7 +2184,7 @@ public final class MiGetUserGroupsAd {
          * Ausführlichere Beschreibung der Gruppe
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue group_description = 10002;</code>
+         * <code>.dstore.values.StringValue group_description = 10002;</code>
          */
         public Builder setGroupDescription(
             io.dstore.values.StringValue.Builder builderForValue) {
@@ -2202,7 +2202,7 @@ public final class MiGetUserGroupsAd {
          * Ausführlichere Beschreibung der Gruppe
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue group_description = 10002;</code>
+         * <code>.dstore.values.StringValue group_description = 10002;</code>
          */
         public Builder mergeGroupDescription(io.dstore.values.StringValue value) {
           if (groupDescriptionBuilder_ == null) {
@@ -2224,7 +2224,7 @@ public final class MiGetUserGroupsAd {
          * Ausführlichere Beschreibung der Gruppe
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue group_description = 10002;</code>
+         * <code>.dstore.values.StringValue group_description = 10002;</code>
          */
         public Builder clearGroupDescription() {
           if (groupDescriptionBuilder_ == null) {
@@ -2242,7 +2242,7 @@ public final class MiGetUserGroupsAd {
          * Ausführlichere Beschreibung der Gruppe
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue group_description = 10002;</code>
+         * <code>.dstore.values.StringValue group_description = 10002;</code>
          */
         public io.dstore.values.StringValue.Builder getGroupDescriptionBuilder() {
           
@@ -2254,7 +2254,7 @@ public final class MiGetUserGroupsAd {
          * Ausführlichere Beschreibung der Gruppe
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue group_description = 10002;</code>
+         * <code>.dstore.values.StringValue group_description = 10002;</code>
          */
         public io.dstore.values.StringValueOrBuilder getGroupDescriptionOrBuilder() {
           if (groupDescriptionBuilder_ != null) {
@@ -2269,7 +2269,7 @@ public final class MiGetUserGroupsAd {
          * Ausführlichere Beschreibung der Gruppe
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue group_description = 10002;</code>
+         * <code>.dstore.values.StringValue group_description = 10002;</code>
          */
         private com.google.protobuf.SingleFieldBuilderV3<
             io.dstore.values.StringValue, io.dstore.values.StringValue.Builder, io.dstore.values.StringValueOrBuilder> 
@@ -2293,7 +2293,7 @@ public final class MiGetUserGroupsAd {
          * ID einer User-Gruppe
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue user_group_id = 10003;</code>
+         * <code>.dstore.values.IntegerValue user_group_id = 10003;</code>
          */
         public boolean hasUserGroupId() {
           return userGroupIdBuilder_ != null || userGroupId_ != null;
@@ -2303,7 +2303,7 @@ public final class MiGetUserGroupsAd {
          * ID einer User-Gruppe
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue user_group_id = 10003;</code>
+         * <code>.dstore.values.IntegerValue user_group_id = 10003;</code>
          */
         public io.dstore.values.IntegerValue getUserGroupId() {
           if (userGroupIdBuilder_ == null) {
@@ -2317,7 +2317,7 @@ public final class MiGetUserGroupsAd {
          * ID einer User-Gruppe
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue user_group_id = 10003;</code>
+         * <code>.dstore.values.IntegerValue user_group_id = 10003;</code>
          */
         public Builder setUserGroupId(io.dstore.values.IntegerValue value) {
           if (userGroupIdBuilder_ == null) {
@@ -2337,7 +2337,7 @@ public final class MiGetUserGroupsAd {
          * ID einer User-Gruppe
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue user_group_id = 10003;</code>
+         * <code>.dstore.values.IntegerValue user_group_id = 10003;</code>
          */
         public Builder setUserGroupId(
             io.dstore.values.IntegerValue.Builder builderForValue) {
@@ -2355,7 +2355,7 @@ public final class MiGetUserGroupsAd {
          * ID einer User-Gruppe
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue user_group_id = 10003;</code>
+         * <code>.dstore.values.IntegerValue user_group_id = 10003;</code>
          */
         public Builder mergeUserGroupId(io.dstore.values.IntegerValue value) {
           if (userGroupIdBuilder_ == null) {
@@ -2377,7 +2377,7 @@ public final class MiGetUserGroupsAd {
          * ID einer User-Gruppe
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue user_group_id = 10003;</code>
+         * <code>.dstore.values.IntegerValue user_group_id = 10003;</code>
          */
         public Builder clearUserGroupId() {
           if (userGroupIdBuilder_ == null) {
@@ -2395,7 +2395,7 @@ public final class MiGetUserGroupsAd {
          * ID einer User-Gruppe
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue user_group_id = 10003;</code>
+         * <code>.dstore.values.IntegerValue user_group_id = 10003;</code>
          */
         public io.dstore.values.IntegerValue.Builder getUserGroupIdBuilder() {
           
@@ -2407,7 +2407,7 @@ public final class MiGetUserGroupsAd {
          * ID einer User-Gruppe
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue user_group_id = 10003;</code>
+         * <code>.dstore.values.IntegerValue user_group_id = 10003;</code>
          */
         public io.dstore.values.IntegerValueOrBuilder getUserGroupIdOrBuilder() {
           if (userGroupIdBuilder_ != null) {
@@ -2422,7 +2422,7 @@ public final class MiGetUserGroupsAd {
          * ID einer User-Gruppe
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue user_group_id = 10003;</code>
+         * <code>.dstore.values.IntegerValue user_group_id = 10003;</code>
          */
         private com.google.protobuf.SingleFieldBuilderV3<
             io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> 
@@ -2446,7 +2446,7 @@ public final class MiGetUserGroupsAd {
          * Name des Benutzers "UserID"
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue user_name = 20003;</code>
+         * <code>.dstore.values.StringValue user_name = 20003;</code>
          */
         public boolean hasUserName() {
           return userNameBuilder_ != null || userName_ != null;
@@ -2456,7 +2456,7 @@ public final class MiGetUserGroupsAd {
          * Name des Benutzers "UserID"
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue user_name = 20003;</code>
+         * <code>.dstore.values.StringValue user_name = 20003;</code>
          */
         public io.dstore.values.StringValue getUserName() {
           if (userNameBuilder_ == null) {
@@ -2470,7 +2470,7 @@ public final class MiGetUserGroupsAd {
          * Name des Benutzers "UserID"
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue user_name = 20003;</code>
+         * <code>.dstore.values.StringValue user_name = 20003;</code>
          */
         public Builder setUserName(io.dstore.values.StringValue value) {
           if (userNameBuilder_ == null) {
@@ -2490,7 +2490,7 @@ public final class MiGetUserGroupsAd {
          * Name des Benutzers "UserID"
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue user_name = 20003;</code>
+         * <code>.dstore.values.StringValue user_name = 20003;</code>
          */
         public Builder setUserName(
             io.dstore.values.StringValue.Builder builderForValue) {
@@ -2508,7 +2508,7 @@ public final class MiGetUserGroupsAd {
          * Name des Benutzers "UserID"
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue user_name = 20003;</code>
+         * <code>.dstore.values.StringValue user_name = 20003;</code>
          */
         public Builder mergeUserName(io.dstore.values.StringValue value) {
           if (userNameBuilder_ == null) {
@@ -2530,7 +2530,7 @@ public final class MiGetUserGroupsAd {
          * Name des Benutzers "UserID"
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue user_name = 20003;</code>
+         * <code>.dstore.values.StringValue user_name = 20003;</code>
          */
         public Builder clearUserName() {
           if (userNameBuilder_ == null) {
@@ -2548,7 +2548,7 @@ public final class MiGetUserGroupsAd {
          * Name des Benutzers "UserID"
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue user_name = 20003;</code>
+         * <code>.dstore.values.StringValue user_name = 20003;</code>
          */
         public io.dstore.values.StringValue.Builder getUserNameBuilder() {
           
@@ -2560,7 +2560,7 @@ public final class MiGetUserGroupsAd {
          * Name des Benutzers "UserID"
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue user_name = 20003;</code>
+         * <code>.dstore.values.StringValue user_name = 20003;</code>
          */
         public io.dstore.values.StringValueOrBuilder getUserNameOrBuilder() {
           if (userNameBuilder_ != null) {
@@ -2575,7 +2575,7 @@ public final class MiGetUserGroupsAd {
          * Name des Benutzers "UserID"
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue user_name = 20003;</code>
+         * <code>.dstore.values.StringValue user_name = 20003;</code>
          */
         private com.google.protobuf.SingleFieldBuilderV3<
             io.dstore.values.StringValue, io.dstore.values.StringValue.Builder, io.dstore.values.StringValueOrBuilder> 
@@ -2599,7 +2599,7 @@ public final class MiGetUserGroupsAd {
          * ID eines "dStore"-Benutzers, der in "UserInfo" registriert ist, und der der Gruppe "UserGroupID" zugeordnet ist
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue user_id = 20004;</code>
+         * <code>.dstore.values.IntegerValue user_id = 20004;</code>
          */
         public boolean hasUserId() {
           return userIdBuilder_ != null || userId_ != null;
@@ -2609,7 +2609,7 @@ public final class MiGetUserGroupsAd {
          * ID eines "dStore"-Benutzers, der in "UserInfo" registriert ist, und der der Gruppe "UserGroupID" zugeordnet ist
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue user_id = 20004;</code>
+         * <code>.dstore.values.IntegerValue user_id = 20004;</code>
          */
         public io.dstore.values.IntegerValue getUserId() {
           if (userIdBuilder_ == null) {
@@ -2623,7 +2623,7 @@ public final class MiGetUserGroupsAd {
          * ID eines "dStore"-Benutzers, der in "UserInfo" registriert ist, und der der Gruppe "UserGroupID" zugeordnet ist
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue user_id = 20004;</code>
+         * <code>.dstore.values.IntegerValue user_id = 20004;</code>
          */
         public Builder setUserId(io.dstore.values.IntegerValue value) {
           if (userIdBuilder_ == null) {
@@ -2643,7 +2643,7 @@ public final class MiGetUserGroupsAd {
          * ID eines "dStore"-Benutzers, der in "UserInfo" registriert ist, und der der Gruppe "UserGroupID" zugeordnet ist
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue user_id = 20004;</code>
+         * <code>.dstore.values.IntegerValue user_id = 20004;</code>
          */
         public Builder setUserId(
             io.dstore.values.IntegerValue.Builder builderForValue) {
@@ -2661,7 +2661,7 @@ public final class MiGetUserGroupsAd {
          * ID eines "dStore"-Benutzers, der in "UserInfo" registriert ist, und der der Gruppe "UserGroupID" zugeordnet ist
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue user_id = 20004;</code>
+         * <code>.dstore.values.IntegerValue user_id = 20004;</code>
          */
         public Builder mergeUserId(io.dstore.values.IntegerValue value) {
           if (userIdBuilder_ == null) {
@@ -2683,7 +2683,7 @@ public final class MiGetUserGroupsAd {
          * ID eines "dStore"-Benutzers, der in "UserInfo" registriert ist, und der der Gruppe "UserGroupID" zugeordnet ist
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue user_id = 20004;</code>
+         * <code>.dstore.values.IntegerValue user_id = 20004;</code>
          */
         public Builder clearUserId() {
           if (userIdBuilder_ == null) {
@@ -2701,7 +2701,7 @@ public final class MiGetUserGroupsAd {
          * ID eines "dStore"-Benutzers, der in "UserInfo" registriert ist, und der der Gruppe "UserGroupID" zugeordnet ist
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue user_id = 20004;</code>
+         * <code>.dstore.values.IntegerValue user_id = 20004;</code>
          */
         public io.dstore.values.IntegerValue.Builder getUserIdBuilder() {
           
@@ -2713,7 +2713,7 @@ public final class MiGetUserGroupsAd {
          * ID eines "dStore"-Benutzers, der in "UserInfo" registriert ist, und der der Gruppe "UserGroupID" zugeordnet ist
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue user_id = 20004;</code>
+         * <code>.dstore.values.IntegerValue user_id = 20004;</code>
          */
         public io.dstore.values.IntegerValueOrBuilder getUserIdOrBuilder() {
           if (userIdBuilder_ != null) {
@@ -2728,7 +2728,7 @@ public final class MiGetUserGroupsAd {
          * ID eines "dStore"-Benutzers, der in "UserInfo" registriert ist, und der der Gruppe "UserGroupID" zugeordnet ist
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue user_id = 20004;</code>
+         * <code>.dstore.values.IntegerValue user_id = 20004;</code>
          */
         private com.google.protobuf.SingleFieldBuilderV3<
             io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> 
@@ -2988,7 +2988,7 @@ public final class MiGetUserGroupsAd {
         return memoizedHashCode;
       }
       int hash = 41;
-      hash = (19 * hash) + getDescriptorForType().hashCode();
+      hash = (19 * hash) + getDescriptor().hashCode();
       if (getMetaInformationCount() > 0) {
         hash = (37 * hash) + META_INFORMATION_FIELD_NUMBER;
         hash = (53 * hash) + getMetaInformationList().hashCode();

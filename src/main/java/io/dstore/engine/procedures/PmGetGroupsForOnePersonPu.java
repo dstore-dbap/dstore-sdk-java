@@ -19,20 +19,20 @@ public final class PmGetGroupsForOnePersonPu {
       com.google.protobuf.MessageOrBuilder {
 
     /**
-     * <code>optional .dstore.values.IntegerValue person_id = 1;</code>
+     * <code>.dstore.values.IntegerValue person_id = 1;</code>
      */
     boolean hasPersonId();
     /**
-     * <code>optional .dstore.values.IntegerValue person_id = 1;</code>
+     * <code>.dstore.values.IntegerValue person_id = 1;</code>
      */
     io.dstore.values.IntegerValue getPersonId();
     /**
-     * <code>optional .dstore.values.IntegerValue person_id = 1;</code>
+     * <code>.dstore.values.IntegerValue person_id = 1;</code>
      */
     io.dstore.values.IntegerValueOrBuilder getPersonIdOrBuilder();
 
     /**
-     * <code>optional bool person_id_null = 1001;</code>
+     * <code>bool person_id_null = 1001;</code>
      */
     boolean getPersonIdNull();
   }
@@ -120,19 +120,19 @@ public final class PmGetGroupsForOnePersonPu {
     public static final int PERSON_ID_FIELD_NUMBER = 1;
     private io.dstore.values.IntegerValue personId_;
     /**
-     * <code>optional .dstore.values.IntegerValue person_id = 1;</code>
+     * <code>.dstore.values.IntegerValue person_id = 1;</code>
      */
     public boolean hasPersonId() {
       return personId_ != null;
     }
     /**
-     * <code>optional .dstore.values.IntegerValue person_id = 1;</code>
+     * <code>.dstore.values.IntegerValue person_id = 1;</code>
      */
     public io.dstore.values.IntegerValue getPersonId() {
       return personId_ == null ? io.dstore.values.IntegerValue.getDefaultInstance() : personId_;
     }
     /**
-     * <code>optional .dstore.values.IntegerValue person_id = 1;</code>
+     * <code>.dstore.values.IntegerValue person_id = 1;</code>
      */
     public io.dstore.values.IntegerValueOrBuilder getPersonIdOrBuilder() {
       return getPersonId();
@@ -141,7 +141,7 @@ public final class PmGetGroupsForOnePersonPu {
     public static final int PERSON_ID_NULL_FIELD_NUMBER = 1001;
     private boolean personIdNull_;
     /**
-     * <code>optional bool person_id_null = 1001;</code>
+     * <code>bool person_id_null = 1001;</code>
      */
     public boolean getPersonIdNull() {
       return personIdNull_;
@@ -212,7 +212,7 @@ public final class PmGetGroupsForOnePersonPu {
         return memoizedHashCode;
       }
       int hash = 41;
-      hash = (19 * hash) + getDescriptorForType().hashCode();
+      hash = (19 * hash) + getDescriptor().hashCode();
       if (hasPersonId()) {
         hash = (37 * hash) + PERSON_ID_FIELD_NUMBER;
         hash = (53 * hash) + getPersonId().hashCode();
@@ -451,13 +451,13 @@ public final class PmGetGroupsForOnePersonPu {
       private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> personIdBuilder_;
       /**
-       * <code>optional .dstore.values.IntegerValue person_id = 1;</code>
+       * <code>.dstore.values.IntegerValue person_id = 1;</code>
        */
       public boolean hasPersonId() {
         return personIdBuilder_ != null || personId_ != null;
       }
       /**
-       * <code>optional .dstore.values.IntegerValue person_id = 1;</code>
+       * <code>.dstore.values.IntegerValue person_id = 1;</code>
        */
       public io.dstore.values.IntegerValue getPersonId() {
         if (personIdBuilder_ == null) {
@@ -467,7 +467,7 @@ public final class PmGetGroupsForOnePersonPu {
         }
       }
       /**
-       * <code>optional .dstore.values.IntegerValue person_id = 1;</code>
+       * <code>.dstore.values.IntegerValue person_id = 1;</code>
        */
       public Builder setPersonId(io.dstore.values.IntegerValue value) {
         if (personIdBuilder_ == null) {
@@ -483,7 +483,7 @@ public final class PmGetGroupsForOnePersonPu {
         return this;
       }
       /**
-       * <code>optional .dstore.values.IntegerValue person_id = 1;</code>
+       * <code>.dstore.values.IntegerValue person_id = 1;</code>
        */
       public Builder setPersonId(
           io.dstore.values.IntegerValue.Builder builderForValue) {
@@ -497,7 +497,7 @@ public final class PmGetGroupsForOnePersonPu {
         return this;
       }
       /**
-       * <code>optional .dstore.values.IntegerValue person_id = 1;</code>
+       * <code>.dstore.values.IntegerValue person_id = 1;</code>
        */
       public Builder mergePersonId(io.dstore.values.IntegerValue value) {
         if (personIdBuilder_ == null) {
@@ -515,7 +515,7 @@ public final class PmGetGroupsForOnePersonPu {
         return this;
       }
       /**
-       * <code>optional .dstore.values.IntegerValue person_id = 1;</code>
+       * <code>.dstore.values.IntegerValue person_id = 1;</code>
        */
       public Builder clearPersonId() {
         if (personIdBuilder_ == null) {
@@ -529,7 +529,7 @@ public final class PmGetGroupsForOnePersonPu {
         return this;
       }
       /**
-       * <code>optional .dstore.values.IntegerValue person_id = 1;</code>
+       * <code>.dstore.values.IntegerValue person_id = 1;</code>
        */
       public io.dstore.values.IntegerValue.Builder getPersonIdBuilder() {
         
@@ -537,7 +537,7 @@ public final class PmGetGroupsForOnePersonPu {
         return getPersonIdFieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .dstore.values.IntegerValue person_id = 1;</code>
+       * <code>.dstore.values.IntegerValue person_id = 1;</code>
        */
       public io.dstore.values.IntegerValueOrBuilder getPersonIdOrBuilder() {
         if (personIdBuilder_ != null) {
@@ -548,7 +548,7 @@ public final class PmGetGroupsForOnePersonPu {
         }
       }
       /**
-       * <code>optional .dstore.values.IntegerValue person_id = 1;</code>
+       * <code>.dstore.values.IntegerValue person_id = 1;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> 
@@ -566,13 +566,13 @@ public final class PmGetGroupsForOnePersonPu {
 
       private boolean personIdNull_ ;
       /**
-       * <code>optional bool person_id_null = 1001;</code>
+       * <code>bool person_id_null = 1001;</code>
        */
       public boolean getPersonIdNull() {
         return personIdNull_;
       }
       /**
-       * <code>optional bool person_id_null = 1001;</code>
+       * <code>bool person_id_null = 1001;</code>
        */
       public Builder setPersonIdNull(boolean value) {
         
@@ -581,7 +581,7 @@ public final class PmGetGroupsForOnePersonPu {
         return this;
       }
       /**
-       * <code>optional bool person_id_null = 1001;</code>
+       * <code>bool person_id_null = 1001;</code>
        */
       public Builder clearPersonIdNull() {
         
@@ -840,7 +840,7 @@ public final class PmGetGroupsForOnePersonPu {
         com.google.protobuf.MessageOrBuilder {
 
       /**
-       * <code>optional int32 row_id = 10000;</code>
+       * <code>int32 row_id = 10000;</code>
        */
       int getRowId();
 
@@ -849,7 +849,7 @@ public final class PmGetGroupsForOnePersonPu {
        * Bezeichnung der Gruppe "GroupID"
        * </pre>
        *
-       * <code>optional .dstore.values.StringValue group_description = 10001;</code>
+       * <code>.dstore.values.StringValue group_description = 10001;</code>
        */
       boolean hasGroupDescription();
       /**
@@ -857,7 +857,7 @@ public final class PmGetGroupsForOnePersonPu {
        * Bezeichnung der Gruppe "GroupID"
        * </pre>
        *
-       * <code>optional .dstore.values.StringValue group_description = 10001;</code>
+       * <code>.dstore.values.StringValue group_description = 10001;</code>
        */
       io.dstore.values.StringValue getGroupDescription();
       /**
@@ -865,7 +865,7 @@ public final class PmGetGroupsForOnePersonPu {
        * Bezeichnung der Gruppe "GroupID"
        * </pre>
        *
-       * <code>optional .dstore.values.StringValue group_description = 10001;</code>
+       * <code>.dstore.values.StringValue group_description = 10001;</code>
        */
       io.dstore.values.StringValueOrBuilder getGroupDescriptionOrBuilder();
 
@@ -874,7 +874,7 @@ public final class PmGetGroupsForOnePersonPu {
        * ID einer (Gruppen-)Bedingung (siehe "pm_GetGroupConditions_Ad")
        * </pre>
        *
-       * <code>optional .dstore.values.IntegerValue condition_id = 10002;</code>
+       * <code>.dstore.values.IntegerValue condition_id = 10002;</code>
        */
       boolean hasConditionId();
       /**
@@ -882,7 +882,7 @@ public final class PmGetGroupsForOnePersonPu {
        * ID einer (Gruppen-)Bedingung (siehe "pm_GetGroupConditions_Ad")
        * </pre>
        *
-       * <code>optional .dstore.values.IntegerValue condition_id = 10002;</code>
+       * <code>.dstore.values.IntegerValue condition_id = 10002;</code>
        */
       io.dstore.values.IntegerValue getConditionId();
       /**
@@ -890,7 +890,7 @@ public final class PmGetGroupsForOnePersonPu {
        * ID einer (Gruppen-)Bedingung (siehe "pm_GetGroupConditions_Ad")
        * </pre>
        *
-       * <code>optional .dstore.values.IntegerValue condition_id = 10002;</code>
+       * <code>.dstore.values.IntegerValue condition_id = 10002;</code>
        */
       io.dstore.values.IntegerValueOrBuilder getConditionIdOrBuilder();
 
@@ -899,7 +899,7 @@ public final class PmGetGroupsForOnePersonPu {
        * Bestimmt die Reihenfolge von "GroupID" innerhalb aller Gruppen (hohe Nummer = hohe Priorität)
        * </pre>
        *
-       * <code>optional .dstore.values.IntegerValue sort_no = 10003;</code>
+       * <code>.dstore.values.IntegerValue sort_no = 10003;</code>
        */
       boolean hasSortNo();
       /**
@@ -907,7 +907,7 @@ public final class PmGetGroupsForOnePersonPu {
        * Bestimmt die Reihenfolge von "GroupID" innerhalb aller Gruppen (hohe Nummer = hohe Priorität)
        * </pre>
        *
-       * <code>optional .dstore.values.IntegerValue sort_no = 10003;</code>
+       * <code>.dstore.values.IntegerValue sort_no = 10003;</code>
        */
       io.dstore.values.IntegerValue getSortNo();
       /**
@@ -915,7 +915,7 @@ public final class PmGetGroupsForOnePersonPu {
        * Bestimmt die Reihenfolge von "GroupID" innerhalb aller Gruppen (hohe Nummer = hohe Priorität)
        * </pre>
        *
-       * <code>optional .dstore.values.IntegerValue sort_no = 10003;</code>
+       * <code>.dstore.values.IntegerValue sort_no = 10003;</code>
        */
       io.dstore.values.IntegerValueOrBuilder getSortNoOrBuilder();
 
@@ -924,7 +924,7 @@ public final class PmGetGroupsForOnePersonPu {
        * ID eines Personen-Typs. Es können nur Personen diesen Typs in der Gruppe "GroupID" sein. Ausnahme : Der spezielle Personentyp mit der ID "0" ("Personentyp unabhängig") - in diesem Fall ist die Gruppe nicht nur einem einzigen Personentyp vorbehalten.
        * </pre>
        *
-       * <code>optional .dstore.values.IntegerValue person_type_id = 10004;</code>
+       * <code>.dstore.values.IntegerValue person_type_id = 10004;</code>
        */
       boolean hasPersonTypeId();
       /**
@@ -932,7 +932,7 @@ public final class PmGetGroupsForOnePersonPu {
        * ID eines Personen-Typs. Es können nur Personen diesen Typs in der Gruppe "GroupID" sein. Ausnahme : Der spezielle Personentyp mit der ID "0" ("Personentyp unabhängig") - in diesem Fall ist die Gruppe nicht nur einem einzigen Personentyp vorbehalten.
        * </pre>
        *
-       * <code>optional .dstore.values.IntegerValue person_type_id = 10004;</code>
+       * <code>.dstore.values.IntegerValue person_type_id = 10004;</code>
        */
       io.dstore.values.IntegerValue getPersonTypeId();
       /**
@@ -940,7 +940,7 @@ public final class PmGetGroupsForOnePersonPu {
        * ID eines Personen-Typs. Es können nur Personen diesen Typs in der Gruppe "GroupID" sein. Ausnahme : Der spezielle Personentyp mit der ID "0" ("Personentyp unabhängig") - in diesem Fall ist die Gruppe nicht nur einem einzigen Personentyp vorbehalten.
        * </pre>
        *
-       * <code>optional .dstore.values.IntegerValue person_type_id = 10004;</code>
+       * <code>.dstore.values.IntegerValue person_type_id = 10004;</code>
        */
       io.dstore.values.IntegerValueOrBuilder getPersonTypeIdOrBuilder();
 
@@ -949,7 +949,7 @@ public final class PmGetGroupsForOnePersonPu {
        * ID einer Personen-Gruppe
        * </pre>
        *
-       * <code>optional .dstore.values.IntegerValue group_id = 10005;</code>
+       * <code>.dstore.values.IntegerValue group_id = 10005;</code>
        */
       boolean hasGroupId();
       /**
@@ -957,7 +957,7 @@ public final class PmGetGroupsForOnePersonPu {
        * ID einer Personen-Gruppe
        * </pre>
        *
-       * <code>optional .dstore.values.IntegerValue group_id = 10005;</code>
+       * <code>.dstore.values.IntegerValue group_id = 10005;</code>
        */
       io.dstore.values.IntegerValue getGroupId();
       /**
@@ -965,7 +965,7 @@ public final class PmGetGroupsForOnePersonPu {
        * ID einer Personen-Gruppe
        * </pre>
        *
-       * <code>optional .dstore.values.IntegerValue group_id = 10005;</code>
+       * <code>.dstore.values.IntegerValue group_id = 10005;</code>
        */
       io.dstore.values.IntegerValueOrBuilder getGroupIdOrBuilder();
     }
@@ -1105,7 +1105,7 @@ public final class PmGetGroupsForOnePersonPu {
       public static final int ROW_ID_FIELD_NUMBER = 10000;
       private int rowId_;
       /**
-       * <code>optional int32 row_id = 10000;</code>
+       * <code>int32 row_id = 10000;</code>
        */
       public int getRowId() {
         return rowId_;
@@ -1118,7 +1118,7 @@ public final class PmGetGroupsForOnePersonPu {
        * Bezeichnung der Gruppe "GroupID"
        * </pre>
        *
-       * <code>optional .dstore.values.StringValue group_description = 10001;</code>
+       * <code>.dstore.values.StringValue group_description = 10001;</code>
        */
       public boolean hasGroupDescription() {
         return groupDescription_ != null;
@@ -1128,7 +1128,7 @@ public final class PmGetGroupsForOnePersonPu {
        * Bezeichnung der Gruppe "GroupID"
        * </pre>
        *
-       * <code>optional .dstore.values.StringValue group_description = 10001;</code>
+       * <code>.dstore.values.StringValue group_description = 10001;</code>
        */
       public io.dstore.values.StringValue getGroupDescription() {
         return groupDescription_ == null ? io.dstore.values.StringValue.getDefaultInstance() : groupDescription_;
@@ -1138,7 +1138,7 @@ public final class PmGetGroupsForOnePersonPu {
        * Bezeichnung der Gruppe "GroupID"
        * </pre>
        *
-       * <code>optional .dstore.values.StringValue group_description = 10001;</code>
+       * <code>.dstore.values.StringValue group_description = 10001;</code>
        */
       public io.dstore.values.StringValueOrBuilder getGroupDescriptionOrBuilder() {
         return getGroupDescription();
@@ -1151,7 +1151,7 @@ public final class PmGetGroupsForOnePersonPu {
        * ID einer (Gruppen-)Bedingung (siehe "pm_GetGroupConditions_Ad")
        * </pre>
        *
-       * <code>optional .dstore.values.IntegerValue condition_id = 10002;</code>
+       * <code>.dstore.values.IntegerValue condition_id = 10002;</code>
        */
       public boolean hasConditionId() {
         return conditionId_ != null;
@@ -1161,7 +1161,7 @@ public final class PmGetGroupsForOnePersonPu {
        * ID einer (Gruppen-)Bedingung (siehe "pm_GetGroupConditions_Ad")
        * </pre>
        *
-       * <code>optional .dstore.values.IntegerValue condition_id = 10002;</code>
+       * <code>.dstore.values.IntegerValue condition_id = 10002;</code>
        */
       public io.dstore.values.IntegerValue getConditionId() {
         return conditionId_ == null ? io.dstore.values.IntegerValue.getDefaultInstance() : conditionId_;
@@ -1171,7 +1171,7 @@ public final class PmGetGroupsForOnePersonPu {
        * ID einer (Gruppen-)Bedingung (siehe "pm_GetGroupConditions_Ad")
        * </pre>
        *
-       * <code>optional .dstore.values.IntegerValue condition_id = 10002;</code>
+       * <code>.dstore.values.IntegerValue condition_id = 10002;</code>
        */
       public io.dstore.values.IntegerValueOrBuilder getConditionIdOrBuilder() {
         return getConditionId();
@@ -1184,7 +1184,7 @@ public final class PmGetGroupsForOnePersonPu {
        * Bestimmt die Reihenfolge von "GroupID" innerhalb aller Gruppen (hohe Nummer = hohe Priorität)
        * </pre>
        *
-       * <code>optional .dstore.values.IntegerValue sort_no = 10003;</code>
+       * <code>.dstore.values.IntegerValue sort_no = 10003;</code>
        */
       public boolean hasSortNo() {
         return sortNo_ != null;
@@ -1194,7 +1194,7 @@ public final class PmGetGroupsForOnePersonPu {
        * Bestimmt die Reihenfolge von "GroupID" innerhalb aller Gruppen (hohe Nummer = hohe Priorität)
        * </pre>
        *
-       * <code>optional .dstore.values.IntegerValue sort_no = 10003;</code>
+       * <code>.dstore.values.IntegerValue sort_no = 10003;</code>
        */
       public io.dstore.values.IntegerValue getSortNo() {
         return sortNo_ == null ? io.dstore.values.IntegerValue.getDefaultInstance() : sortNo_;
@@ -1204,7 +1204,7 @@ public final class PmGetGroupsForOnePersonPu {
        * Bestimmt die Reihenfolge von "GroupID" innerhalb aller Gruppen (hohe Nummer = hohe Priorität)
        * </pre>
        *
-       * <code>optional .dstore.values.IntegerValue sort_no = 10003;</code>
+       * <code>.dstore.values.IntegerValue sort_no = 10003;</code>
        */
       public io.dstore.values.IntegerValueOrBuilder getSortNoOrBuilder() {
         return getSortNo();
@@ -1217,7 +1217,7 @@ public final class PmGetGroupsForOnePersonPu {
        * ID eines Personen-Typs. Es können nur Personen diesen Typs in der Gruppe "GroupID" sein. Ausnahme : Der spezielle Personentyp mit der ID "0" ("Personentyp unabhängig") - in diesem Fall ist die Gruppe nicht nur einem einzigen Personentyp vorbehalten.
        * </pre>
        *
-       * <code>optional .dstore.values.IntegerValue person_type_id = 10004;</code>
+       * <code>.dstore.values.IntegerValue person_type_id = 10004;</code>
        */
       public boolean hasPersonTypeId() {
         return personTypeId_ != null;
@@ -1227,7 +1227,7 @@ public final class PmGetGroupsForOnePersonPu {
        * ID eines Personen-Typs. Es können nur Personen diesen Typs in der Gruppe "GroupID" sein. Ausnahme : Der spezielle Personentyp mit der ID "0" ("Personentyp unabhängig") - in diesem Fall ist die Gruppe nicht nur einem einzigen Personentyp vorbehalten.
        * </pre>
        *
-       * <code>optional .dstore.values.IntegerValue person_type_id = 10004;</code>
+       * <code>.dstore.values.IntegerValue person_type_id = 10004;</code>
        */
       public io.dstore.values.IntegerValue getPersonTypeId() {
         return personTypeId_ == null ? io.dstore.values.IntegerValue.getDefaultInstance() : personTypeId_;
@@ -1237,7 +1237,7 @@ public final class PmGetGroupsForOnePersonPu {
        * ID eines Personen-Typs. Es können nur Personen diesen Typs in der Gruppe "GroupID" sein. Ausnahme : Der spezielle Personentyp mit der ID "0" ("Personentyp unabhängig") - in diesem Fall ist die Gruppe nicht nur einem einzigen Personentyp vorbehalten.
        * </pre>
        *
-       * <code>optional .dstore.values.IntegerValue person_type_id = 10004;</code>
+       * <code>.dstore.values.IntegerValue person_type_id = 10004;</code>
        */
       public io.dstore.values.IntegerValueOrBuilder getPersonTypeIdOrBuilder() {
         return getPersonTypeId();
@@ -1250,7 +1250,7 @@ public final class PmGetGroupsForOnePersonPu {
        * ID einer Personen-Gruppe
        * </pre>
        *
-       * <code>optional .dstore.values.IntegerValue group_id = 10005;</code>
+       * <code>.dstore.values.IntegerValue group_id = 10005;</code>
        */
       public boolean hasGroupId() {
         return groupId_ != null;
@@ -1260,7 +1260,7 @@ public final class PmGetGroupsForOnePersonPu {
        * ID einer Personen-Gruppe
        * </pre>
        *
-       * <code>optional .dstore.values.IntegerValue group_id = 10005;</code>
+       * <code>.dstore.values.IntegerValue group_id = 10005;</code>
        */
       public io.dstore.values.IntegerValue getGroupId() {
         return groupId_ == null ? io.dstore.values.IntegerValue.getDefaultInstance() : groupId_;
@@ -1270,7 +1270,7 @@ public final class PmGetGroupsForOnePersonPu {
        * ID einer Personen-Gruppe
        * </pre>
        *
-       * <code>optional .dstore.values.IntegerValue group_id = 10005;</code>
+       * <code>.dstore.values.IntegerValue group_id = 10005;</code>
        */
       public io.dstore.values.IntegerValueOrBuilder getGroupIdOrBuilder() {
         return getGroupId();
@@ -1389,7 +1389,7 @@ public final class PmGetGroupsForOnePersonPu {
           return memoizedHashCode;
         }
         int hash = 41;
-        hash = (19 * hash) + getDescriptorForType().hashCode();
+        hash = (19 * hash) + getDescriptor().hashCode();
         hash = (37 * hash) + ROW_ID_FIELD_NUMBER;
         hash = (53 * hash) + getRowId();
         if (hasGroupDescription()) {
@@ -1697,13 +1697,13 @@ public final class PmGetGroupsForOnePersonPu {
 
         private int rowId_ ;
         /**
-         * <code>optional int32 row_id = 10000;</code>
+         * <code>int32 row_id = 10000;</code>
          */
         public int getRowId() {
           return rowId_;
         }
         /**
-         * <code>optional int32 row_id = 10000;</code>
+         * <code>int32 row_id = 10000;</code>
          */
         public Builder setRowId(int value) {
           
@@ -1712,7 +1712,7 @@ public final class PmGetGroupsForOnePersonPu {
           return this;
         }
         /**
-         * <code>optional int32 row_id = 10000;</code>
+         * <code>int32 row_id = 10000;</code>
          */
         public Builder clearRowId() {
           
@@ -1729,7 +1729,7 @@ public final class PmGetGroupsForOnePersonPu {
          * Bezeichnung der Gruppe "GroupID"
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue group_description = 10001;</code>
+         * <code>.dstore.values.StringValue group_description = 10001;</code>
          */
         public boolean hasGroupDescription() {
           return groupDescriptionBuilder_ != null || groupDescription_ != null;
@@ -1739,7 +1739,7 @@ public final class PmGetGroupsForOnePersonPu {
          * Bezeichnung der Gruppe "GroupID"
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue group_description = 10001;</code>
+         * <code>.dstore.values.StringValue group_description = 10001;</code>
          */
         public io.dstore.values.StringValue getGroupDescription() {
           if (groupDescriptionBuilder_ == null) {
@@ -1753,7 +1753,7 @@ public final class PmGetGroupsForOnePersonPu {
          * Bezeichnung der Gruppe "GroupID"
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue group_description = 10001;</code>
+         * <code>.dstore.values.StringValue group_description = 10001;</code>
          */
         public Builder setGroupDescription(io.dstore.values.StringValue value) {
           if (groupDescriptionBuilder_ == null) {
@@ -1773,7 +1773,7 @@ public final class PmGetGroupsForOnePersonPu {
          * Bezeichnung der Gruppe "GroupID"
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue group_description = 10001;</code>
+         * <code>.dstore.values.StringValue group_description = 10001;</code>
          */
         public Builder setGroupDescription(
             io.dstore.values.StringValue.Builder builderForValue) {
@@ -1791,7 +1791,7 @@ public final class PmGetGroupsForOnePersonPu {
          * Bezeichnung der Gruppe "GroupID"
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue group_description = 10001;</code>
+         * <code>.dstore.values.StringValue group_description = 10001;</code>
          */
         public Builder mergeGroupDescription(io.dstore.values.StringValue value) {
           if (groupDescriptionBuilder_ == null) {
@@ -1813,7 +1813,7 @@ public final class PmGetGroupsForOnePersonPu {
          * Bezeichnung der Gruppe "GroupID"
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue group_description = 10001;</code>
+         * <code>.dstore.values.StringValue group_description = 10001;</code>
          */
         public Builder clearGroupDescription() {
           if (groupDescriptionBuilder_ == null) {
@@ -1831,7 +1831,7 @@ public final class PmGetGroupsForOnePersonPu {
          * Bezeichnung der Gruppe "GroupID"
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue group_description = 10001;</code>
+         * <code>.dstore.values.StringValue group_description = 10001;</code>
          */
         public io.dstore.values.StringValue.Builder getGroupDescriptionBuilder() {
           
@@ -1843,7 +1843,7 @@ public final class PmGetGroupsForOnePersonPu {
          * Bezeichnung der Gruppe "GroupID"
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue group_description = 10001;</code>
+         * <code>.dstore.values.StringValue group_description = 10001;</code>
          */
         public io.dstore.values.StringValueOrBuilder getGroupDescriptionOrBuilder() {
           if (groupDescriptionBuilder_ != null) {
@@ -1858,7 +1858,7 @@ public final class PmGetGroupsForOnePersonPu {
          * Bezeichnung der Gruppe "GroupID"
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue group_description = 10001;</code>
+         * <code>.dstore.values.StringValue group_description = 10001;</code>
          */
         private com.google.protobuf.SingleFieldBuilderV3<
             io.dstore.values.StringValue, io.dstore.values.StringValue.Builder, io.dstore.values.StringValueOrBuilder> 
@@ -1882,7 +1882,7 @@ public final class PmGetGroupsForOnePersonPu {
          * ID einer (Gruppen-)Bedingung (siehe "pm_GetGroupConditions_Ad")
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue condition_id = 10002;</code>
+         * <code>.dstore.values.IntegerValue condition_id = 10002;</code>
          */
         public boolean hasConditionId() {
           return conditionIdBuilder_ != null || conditionId_ != null;
@@ -1892,7 +1892,7 @@ public final class PmGetGroupsForOnePersonPu {
          * ID einer (Gruppen-)Bedingung (siehe "pm_GetGroupConditions_Ad")
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue condition_id = 10002;</code>
+         * <code>.dstore.values.IntegerValue condition_id = 10002;</code>
          */
         public io.dstore.values.IntegerValue getConditionId() {
           if (conditionIdBuilder_ == null) {
@@ -1906,7 +1906,7 @@ public final class PmGetGroupsForOnePersonPu {
          * ID einer (Gruppen-)Bedingung (siehe "pm_GetGroupConditions_Ad")
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue condition_id = 10002;</code>
+         * <code>.dstore.values.IntegerValue condition_id = 10002;</code>
          */
         public Builder setConditionId(io.dstore.values.IntegerValue value) {
           if (conditionIdBuilder_ == null) {
@@ -1926,7 +1926,7 @@ public final class PmGetGroupsForOnePersonPu {
          * ID einer (Gruppen-)Bedingung (siehe "pm_GetGroupConditions_Ad")
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue condition_id = 10002;</code>
+         * <code>.dstore.values.IntegerValue condition_id = 10002;</code>
          */
         public Builder setConditionId(
             io.dstore.values.IntegerValue.Builder builderForValue) {
@@ -1944,7 +1944,7 @@ public final class PmGetGroupsForOnePersonPu {
          * ID einer (Gruppen-)Bedingung (siehe "pm_GetGroupConditions_Ad")
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue condition_id = 10002;</code>
+         * <code>.dstore.values.IntegerValue condition_id = 10002;</code>
          */
         public Builder mergeConditionId(io.dstore.values.IntegerValue value) {
           if (conditionIdBuilder_ == null) {
@@ -1966,7 +1966,7 @@ public final class PmGetGroupsForOnePersonPu {
          * ID einer (Gruppen-)Bedingung (siehe "pm_GetGroupConditions_Ad")
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue condition_id = 10002;</code>
+         * <code>.dstore.values.IntegerValue condition_id = 10002;</code>
          */
         public Builder clearConditionId() {
           if (conditionIdBuilder_ == null) {
@@ -1984,7 +1984,7 @@ public final class PmGetGroupsForOnePersonPu {
          * ID einer (Gruppen-)Bedingung (siehe "pm_GetGroupConditions_Ad")
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue condition_id = 10002;</code>
+         * <code>.dstore.values.IntegerValue condition_id = 10002;</code>
          */
         public io.dstore.values.IntegerValue.Builder getConditionIdBuilder() {
           
@@ -1996,7 +1996,7 @@ public final class PmGetGroupsForOnePersonPu {
          * ID einer (Gruppen-)Bedingung (siehe "pm_GetGroupConditions_Ad")
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue condition_id = 10002;</code>
+         * <code>.dstore.values.IntegerValue condition_id = 10002;</code>
          */
         public io.dstore.values.IntegerValueOrBuilder getConditionIdOrBuilder() {
           if (conditionIdBuilder_ != null) {
@@ -2011,7 +2011,7 @@ public final class PmGetGroupsForOnePersonPu {
          * ID einer (Gruppen-)Bedingung (siehe "pm_GetGroupConditions_Ad")
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue condition_id = 10002;</code>
+         * <code>.dstore.values.IntegerValue condition_id = 10002;</code>
          */
         private com.google.protobuf.SingleFieldBuilderV3<
             io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> 
@@ -2035,7 +2035,7 @@ public final class PmGetGroupsForOnePersonPu {
          * Bestimmt die Reihenfolge von "GroupID" innerhalb aller Gruppen (hohe Nummer = hohe Priorität)
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue sort_no = 10003;</code>
+         * <code>.dstore.values.IntegerValue sort_no = 10003;</code>
          */
         public boolean hasSortNo() {
           return sortNoBuilder_ != null || sortNo_ != null;
@@ -2045,7 +2045,7 @@ public final class PmGetGroupsForOnePersonPu {
          * Bestimmt die Reihenfolge von "GroupID" innerhalb aller Gruppen (hohe Nummer = hohe Priorität)
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue sort_no = 10003;</code>
+         * <code>.dstore.values.IntegerValue sort_no = 10003;</code>
          */
         public io.dstore.values.IntegerValue getSortNo() {
           if (sortNoBuilder_ == null) {
@@ -2059,7 +2059,7 @@ public final class PmGetGroupsForOnePersonPu {
          * Bestimmt die Reihenfolge von "GroupID" innerhalb aller Gruppen (hohe Nummer = hohe Priorität)
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue sort_no = 10003;</code>
+         * <code>.dstore.values.IntegerValue sort_no = 10003;</code>
          */
         public Builder setSortNo(io.dstore.values.IntegerValue value) {
           if (sortNoBuilder_ == null) {
@@ -2079,7 +2079,7 @@ public final class PmGetGroupsForOnePersonPu {
          * Bestimmt die Reihenfolge von "GroupID" innerhalb aller Gruppen (hohe Nummer = hohe Priorität)
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue sort_no = 10003;</code>
+         * <code>.dstore.values.IntegerValue sort_no = 10003;</code>
          */
         public Builder setSortNo(
             io.dstore.values.IntegerValue.Builder builderForValue) {
@@ -2097,7 +2097,7 @@ public final class PmGetGroupsForOnePersonPu {
          * Bestimmt die Reihenfolge von "GroupID" innerhalb aller Gruppen (hohe Nummer = hohe Priorität)
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue sort_no = 10003;</code>
+         * <code>.dstore.values.IntegerValue sort_no = 10003;</code>
          */
         public Builder mergeSortNo(io.dstore.values.IntegerValue value) {
           if (sortNoBuilder_ == null) {
@@ -2119,7 +2119,7 @@ public final class PmGetGroupsForOnePersonPu {
          * Bestimmt die Reihenfolge von "GroupID" innerhalb aller Gruppen (hohe Nummer = hohe Priorität)
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue sort_no = 10003;</code>
+         * <code>.dstore.values.IntegerValue sort_no = 10003;</code>
          */
         public Builder clearSortNo() {
           if (sortNoBuilder_ == null) {
@@ -2137,7 +2137,7 @@ public final class PmGetGroupsForOnePersonPu {
          * Bestimmt die Reihenfolge von "GroupID" innerhalb aller Gruppen (hohe Nummer = hohe Priorität)
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue sort_no = 10003;</code>
+         * <code>.dstore.values.IntegerValue sort_no = 10003;</code>
          */
         public io.dstore.values.IntegerValue.Builder getSortNoBuilder() {
           
@@ -2149,7 +2149,7 @@ public final class PmGetGroupsForOnePersonPu {
          * Bestimmt die Reihenfolge von "GroupID" innerhalb aller Gruppen (hohe Nummer = hohe Priorität)
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue sort_no = 10003;</code>
+         * <code>.dstore.values.IntegerValue sort_no = 10003;</code>
          */
         public io.dstore.values.IntegerValueOrBuilder getSortNoOrBuilder() {
           if (sortNoBuilder_ != null) {
@@ -2164,7 +2164,7 @@ public final class PmGetGroupsForOnePersonPu {
          * Bestimmt die Reihenfolge von "GroupID" innerhalb aller Gruppen (hohe Nummer = hohe Priorität)
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue sort_no = 10003;</code>
+         * <code>.dstore.values.IntegerValue sort_no = 10003;</code>
          */
         private com.google.protobuf.SingleFieldBuilderV3<
             io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> 
@@ -2188,7 +2188,7 @@ public final class PmGetGroupsForOnePersonPu {
          * ID eines Personen-Typs. Es können nur Personen diesen Typs in der Gruppe "GroupID" sein. Ausnahme : Der spezielle Personentyp mit der ID "0" ("Personentyp unabhängig") - in diesem Fall ist die Gruppe nicht nur einem einzigen Personentyp vorbehalten.
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue person_type_id = 10004;</code>
+         * <code>.dstore.values.IntegerValue person_type_id = 10004;</code>
          */
         public boolean hasPersonTypeId() {
           return personTypeIdBuilder_ != null || personTypeId_ != null;
@@ -2198,7 +2198,7 @@ public final class PmGetGroupsForOnePersonPu {
          * ID eines Personen-Typs. Es können nur Personen diesen Typs in der Gruppe "GroupID" sein. Ausnahme : Der spezielle Personentyp mit der ID "0" ("Personentyp unabhängig") - in diesem Fall ist die Gruppe nicht nur einem einzigen Personentyp vorbehalten.
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue person_type_id = 10004;</code>
+         * <code>.dstore.values.IntegerValue person_type_id = 10004;</code>
          */
         public io.dstore.values.IntegerValue getPersonTypeId() {
           if (personTypeIdBuilder_ == null) {
@@ -2212,7 +2212,7 @@ public final class PmGetGroupsForOnePersonPu {
          * ID eines Personen-Typs. Es können nur Personen diesen Typs in der Gruppe "GroupID" sein. Ausnahme : Der spezielle Personentyp mit der ID "0" ("Personentyp unabhängig") - in diesem Fall ist die Gruppe nicht nur einem einzigen Personentyp vorbehalten.
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue person_type_id = 10004;</code>
+         * <code>.dstore.values.IntegerValue person_type_id = 10004;</code>
          */
         public Builder setPersonTypeId(io.dstore.values.IntegerValue value) {
           if (personTypeIdBuilder_ == null) {
@@ -2232,7 +2232,7 @@ public final class PmGetGroupsForOnePersonPu {
          * ID eines Personen-Typs. Es können nur Personen diesen Typs in der Gruppe "GroupID" sein. Ausnahme : Der spezielle Personentyp mit der ID "0" ("Personentyp unabhängig") - in diesem Fall ist die Gruppe nicht nur einem einzigen Personentyp vorbehalten.
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue person_type_id = 10004;</code>
+         * <code>.dstore.values.IntegerValue person_type_id = 10004;</code>
          */
         public Builder setPersonTypeId(
             io.dstore.values.IntegerValue.Builder builderForValue) {
@@ -2250,7 +2250,7 @@ public final class PmGetGroupsForOnePersonPu {
          * ID eines Personen-Typs. Es können nur Personen diesen Typs in der Gruppe "GroupID" sein. Ausnahme : Der spezielle Personentyp mit der ID "0" ("Personentyp unabhängig") - in diesem Fall ist die Gruppe nicht nur einem einzigen Personentyp vorbehalten.
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue person_type_id = 10004;</code>
+         * <code>.dstore.values.IntegerValue person_type_id = 10004;</code>
          */
         public Builder mergePersonTypeId(io.dstore.values.IntegerValue value) {
           if (personTypeIdBuilder_ == null) {
@@ -2272,7 +2272,7 @@ public final class PmGetGroupsForOnePersonPu {
          * ID eines Personen-Typs. Es können nur Personen diesen Typs in der Gruppe "GroupID" sein. Ausnahme : Der spezielle Personentyp mit der ID "0" ("Personentyp unabhängig") - in diesem Fall ist die Gruppe nicht nur einem einzigen Personentyp vorbehalten.
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue person_type_id = 10004;</code>
+         * <code>.dstore.values.IntegerValue person_type_id = 10004;</code>
          */
         public Builder clearPersonTypeId() {
           if (personTypeIdBuilder_ == null) {
@@ -2290,7 +2290,7 @@ public final class PmGetGroupsForOnePersonPu {
          * ID eines Personen-Typs. Es können nur Personen diesen Typs in der Gruppe "GroupID" sein. Ausnahme : Der spezielle Personentyp mit der ID "0" ("Personentyp unabhängig") - in diesem Fall ist die Gruppe nicht nur einem einzigen Personentyp vorbehalten.
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue person_type_id = 10004;</code>
+         * <code>.dstore.values.IntegerValue person_type_id = 10004;</code>
          */
         public io.dstore.values.IntegerValue.Builder getPersonTypeIdBuilder() {
           
@@ -2302,7 +2302,7 @@ public final class PmGetGroupsForOnePersonPu {
          * ID eines Personen-Typs. Es können nur Personen diesen Typs in der Gruppe "GroupID" sein. Ausnahme : Der spezielle Personentyp mit der ID "0" ("Personentyp unabhängig") - in diesem Fall ist die Gruppe nicht nur einem einzigen Personentyp vorbehalten.
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue person_type_id = 10004;</code>
+         * <code>.dstore.values.IntegerValue person_type_id = 10004;</code>
          */
         public io.dstore.values.IntegerValueOrBuilder getPersonTypeIdOrBuilder() {
           if (personTypeIdBuilder_ != null) {
@@ -2317,7 +2317,7 @@ public final class PmGetGroupsForOnePersonPu {
          * ID eines Personen-Typs. Es können nur Personen diesen Typs in der Gruppe "GroupID" sein. Ausnahme : Der spezielle Personentyp mit der ID "0" ("Personentyp unabhängig") - in diesem Fall ist die Gruppe nicht nur einem einzigen Personentyp vorbehalten.
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue person_type_id = 10004;</code>
+         * <code>.dstore.values.IntegerValue person_type_id = 10004;</code>
          */
         private com.google.protobuf.SingleFieldBuilderV3<
             io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> 
@@ -2341,7 +2341,7 @@ public final class PmGetGroupsForOnePersonPu {
          * ID einer Personen-Gruppe
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue group_id = 10005;</code>
+         * <code>.dstore.values.IntegerValue group_id = 10005;</code>
          */
         public boolean hasGroupId() {
           return groupIdBuilder_ != null || groupId_ != null;
@@ -2351,7 +2351,7 @@ public final class PmGetGroupsForOnePersonPu {
          * ID einer Personen-Gruppe
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue group_id = 10005;</code>
+         * <code>.dstore.values.IntegerValue group_id = 10005;</code>
          */
         public io.dstore.values.IntegerValue getGroupId() {
           if (groupIdBuilder_ == null) {
@@ -2365,7 +2365,7 @@ public final class PmGetGroupsForOnePersonPu {
          * ID einer Personen-Gruppe
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue group_id = 10005;</code>
+         * <code>.dstore.values.IntegerValue group_id = 10005;</code>
          */
         public Builder setGroupId(io.dstore.values.IntegerValue value) {
           if (groupIdBuilder_ == null) {
@@ -2385,7 +2385,7 @@ public final class PmGetGroupsForOnePersonPu {
          * ID einer Personen-Gruppe
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue group_id = 10005;</code>
+         * <code>.dstore.values.IntegerValue group_id = 10005;</code>
          */
         public Builder setGroupId(
             io.dstore.values.IntegerValue.Builder builderForValue) {
@@ -2403,7 +2403,7 @@ public final class PmGetGroupsForOnePersonPu {
          * ID einer Personen-Gruppe
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue group_id = 10005;</code>
+         * <code>.dstore.values.IntegerValue group_id = 10005;</code>
          */
         public Builder mergeGroupId(io.dstore.values.IntegerValue value) {
           if (groupIdBuilder_ == null) {
@@ -2425,7 +2425,7 @@ public final class PmGetGroupsForOnePersonPu {
          * ID einer Personen-Gruppe
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue group_id = 10005;</code>
+         * <code>.dstore.values.IntegerValue group_id = 10005;</code>
          */
         public Builder clearGroupId() {
           if (groupIdBuilder_ == null) {
@@ -2443,7 +2443,7 @@ public final class PmGetGroupsForOnePersonPu {
          * ID einer Personen-Gruppe
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue group_id = 10005;</code>
+         * <code>.dstore.values.IntegerValue group_id = 10005;</code>
          */
         public io.dstore.values.IntegerValue.Builder getGroupIdBuilder() {
           
@@ -2455,7 +2455,7 @@ public final class PmGetGroupsForOnePersonPu {
          * ID einer Personen-Gruppe
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue group_id = 10005;</code>
+         * <code>.dstore.values.IntegerValue group_id = 10005;</code>
          */
         public io.dstore.values.IntegerValueOrBuilder getGroupIdOrBuilder() {
           if (groupIdBuilder_ != null) {
@@ -2470,7 +2470,7 @@ public final class PmGetGroupsForOnePersonPu {
          * ID einer Personen-Gruppe
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue group_id = 10005;</code>
+         * <code>.dstore.values.IntegerValue group_id = 10005;</code>
          */
         private com.google.protobuf.SingleFieldBuilderV3<
             io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> 
@@ -2730,7 +2730,7 @@ public final class PmGetGroupsForOnePersonPu {
         return memoizedHashCode;
       }
       int hash = 41;
-      hash = (19 * hash) + getDescriptorForType().hashCode();
+      hash = (19 * hash) + getDescriptor().hashCode();
       if (getMetaInformationCount() > 0) {
         hash = (37 * hash) + META_INFORMATION_FIELD_NUMBER;
         hash = (53 * hash) + getMetaInformationList().hashCode();

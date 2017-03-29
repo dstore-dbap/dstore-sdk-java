@@ -8,21 +8,21 @@ public interface RangeOrBuilder extends
     com.google.protobuf.MessageOrBuilder {
 
   /**
-   * <code>optional string from = 1;</code>
+   * <code>string from = 1;</code>
    */
   java.lang.String getFrom();
   /**
-   * <code>optional string from = 1;</code>
+   * <code>string from = 1;</code>
    */
   com.google.protobuf.ByteString
       getFromBytes();
 
   /**
-   * <code>optional string to = 2;</code>
+   * <code>string to = 2;</code>
    */
   java.lang.String getTo();
   /**
-   * <code>optional string to = 2;</code>
+   * <code>string to = 2;</code>
    */
   com.google.protobuf.ByteString
       getToBytes();

@@ -19,11 +19,11 @@ public final class Procedure {
       com.google.protobuf.MessageOrBuilder {
 
     /**
-     * <code>optional string procedure_name = 1;</code>
+     * <code>string procedure_name = 1;</code>
      */
     java.lang.String getProcedureName();
     /**
-     * <code>optional string procedure_name = 1;</code>
+     * <code>string procedure_name = 1;</code>
      */
     com.google.protobuf.ByteString
         getProcedureNameBytes();
@@ -57,7 +57,7 @@ public final class Procedure {
      * optional id to identify the corresponding response
      * </pre>
      *
-     * <code>optional int32 call_id = 3;</code>
+     * <code>int32 call_id = 3;</code>
      */
     int getCallId();
   }
@@ -153,7 +153,7 @@ public final class Procedure {
     public static final int PROCEDURE_NAME_FIELD_NUMBER = 1;
     private volatile java.lang.Object procedureName_;
     /**
-     * <code>optional string procedure_name = 1;</code>
+     * <code>string procedure_name = 1;</code>
      */
     public java.lang.String getProcedureName() {
       java.lang.Object ref = procedureName_;
@@ -168,7 +168,7 @@ public final class Procedure {
       }
     }
     /**
-     * <code>optional string procedure_name = 1;</code>
+     * <code>string procedure_name = 1;</code>
      */
     public com.google.protobuf.ByteString
         getProcedureNameBytes() {
@@ -226,7 +226,7 @@ public final class Procedure {
      * optional id to identify the corresponding response
      * </pre>
      *
-     * <code>optional int32 call_id = 3;</code>
+     * <code>int32 call_id = 3;</code>
      */
     public int getCallId() {
       return callId_;
@@ -302,7 +302,7 @@ public final class Procedure {
         return memoizedHashCode;
       }
       int hash = 41;
-      hash = (19 * hash) + getDescriptorForType().hashCode();
+      hash = (19 * hash) + getDescriptor().hashCode();
       hash = (37 * hash) + PROCEDURE_NAME_FIELD_NUMBER;
       hash = (53 * hash) + getProcedureName().hashCode();
       if (getParameterCount() > 0) {
@@ -579,7 +579,7 @@ public final class Procedure {
 
       private java.lang.Object procedureName_ = "";
       /**
-       * <code>optional string procedure_name = 1;</code>
+       * <code>string procedure_name = 1;</code>
        */
       public java.lang.String getProcedureName() {
         java.lang.Object ref = procedureName_;
@@ -594,7 +594,7 @@ public final class Procedure {
         }
       }
       /**
-       * <code>optional string procedure_name = 1;</code>
+       * <code>string procedure_name = 1;</code>
        */
       public com.google.protobuf.ByteString
           getProcedureNameBytes() {
@@ -610,7 +610,7 @@ public final class Procedure {
         }
       }
       /**
-       * <code>optional string procedure_name = 1;</code>
+       * <code>string procedure_name = 1;</code>
        */
       public Builder setProcedureName(
           java.lang.String value) {
@@ -623,7 +623,7 @@ public final class Procedure {
         return this;
       }
       /**
-       * <code>optional string procedure_name = 1;</code>
+       * <code>string procedure_name = 1;</code>
        */
       public Builder clearProcedureName() {
         
@@ -632,7 +632,7 @@ public final class Procedure {
         return this;
       }
       /**
-       * <code>optional string procedure_name = 1;</code>
+       * <code>string procedure_name = 1;</code>
        */
       public Builder setProcedureNameBytes(
           com.google.protobuf.ByteString value) {
@@ -892,7 +892,7 @@ public final class Procedure {
        * optional id to identify the corresponding response
        * </pre>
        *
-       * <code>optional int32 call_id = 3;</code>
+       * <code>int32 call_id = 3;</code>
        */
       public int getCallId() {
         return callId_;
@@ -902,7 +902,7 @@ public final class Procedure {
        * optional id to identify the corresponding response
        * </pre>
        *
-       * <code>optional int32 call_id = 3;</code>
+       * <code>int32 call_id = 3;</code>
        */
       public Builder setCallId(int value) {
         
@@ -915,7 +915,7 @@ public final class Procedure {
        * optional id to identify the corresponding response
        * </pre>
        *
-       * <code>optional int32 call_id = 3;</code>
+       * <code>int32 call_id = 3;</code>
        */
       public Builder clearCallId() {
         
@@ -977,21 +977,21 @@ public final class Procedure {
       com.google.protobuf.MessageOrBuilder {
 
     /**
-     * <code>optional string name = 1;</code>
+     * <code>string name = 1;</code>
      */
     java.lang.String getName();
     /**
-     * <code>optional string name = 1;</code>
+     * <code>string name = 1;</code>
      */
     com.google.protobuf.ByteString
         getNameBytes();
 
     /**
-     * <code>optional string value = 2;</code>
+     * <code>string value = 2;</code>
      */
     java.lang.String getValue();
     /**
-     * <code>optional string value = 2;</code>
+     * <code>string value = 2;</code>
      */
     com.google.protobuf.ByteString
         getValueBytes();
@@ -1001,7 +1001,7 @@ public final class Procedure {
      * used to indicate that the parameter has "null-value"
      * </pre>
      *
-     * <code>optional bool is_null = 3;</code>
+     * <code>bool is_null = 3;</code>
      */
     boolean getIsNull();
   }
@@ -1090,7 +1090,7 @@ public final class Procedure {
     public static final int NAME_FIELD_NUMBER = 1;
     private volatile java.lang.Object name_;
     /**
-     * <code>optional string name = 1;</code>
+     * <code>string name = 1;</code>
      */
     public java.lang.String getName() {
       java.lang.Object ref = name_;
@@ -1105,7 +1105,7 @@ public final class Procedure {
       }
     }
     /**
-     * <code>optional string name = 1;</code>
+     * <code>string name = 1;</code>
      */
     public com.google.protobuf.ByteString
         getNameBytes() {
@@ -1124,7 +1124,7 @@ public final class Procedure {
     public static final int VALUE_FIELD_NUMBER = 2;
     private volatile java.lang.Object value_;
     /**
-     * <code>optional string value = 2;</code>
+     * <code>string value = 2;</code>
      */
     public java.lang.String getValue() {
       java.lang.Object ref = value_;
@@ -1139,7 +1139,7 @@ public final class Procedure {
       }
     }
     /**
-     * <code>optional string value = 2;</code>
+     * <code>string value = 2;</code>
      */
     public com.google.protobuf.ByteString
         getValueBytes() {
@@ -1162,7 +1162,7 @@ public final class Procedure {
      * used to indicate that the parameter has "null-value"
      * </pre>
      *
-     * <code>optional bool is_null = 3;</code>
+     * <code>bool is_null = 3;</code>
      */
     public boolean getIsNull() {
       return isNull_;
@@ -1237,7 +1237,7 @@ public final class Procedure {
         return memoizedHashCode;
       }
       int hash = 41;
-      hash = (19 * hash) + getDescriptorForType().hashCode();
+      hash = (19 * hash) + getDescriptor().hashCode();
       hash = (37 * hash) + NAME_FIELD_NUMBER;
       hash = (53 * hash) + getName().hashCode();
       hash = (37 * hash) + VALUE_FIELD_NUMBER;
@@ -1474,7 +1474,7 @@ public final class Procedure {
 
       private java.lang.Object name_ = "";
       /**
-       * <code>optional string name = 1;</code>
+       * <code>string name = 1;</code>
        */
       public java.lang.String getName() {
         java.lang.Object ref = name_;
@@ -1489,7 +1489,7 @@ public final class Procedure {
         }
       }
       /**
-       * <code>optional string name = 1;</code>
+       * <code>string name = 1;</code>
        */
       public com.google.protobuf.ByteString
           getNameBytes() {
@@ -1505,7 +1505,7 @@ public final class Procedure {
         }
       }
       /**
-       * <code>optional string name = 1;</code>
+       * <code>string name = 1;</code>
        */
       public Builder setName(
           java.lang.String value) {
@@ -1518,7 +1518,7 @@ public final class Procedure {
         return this;
       }
       /**
-       * <code>optional string name = 1;</code>
+       * <code>string name = 1;</code>
        */
       public Builder clearName() {
         
@@ -1527,7 +1527,7 @@ public final class Procedure {
         return this;
       }
       /**
-       * <code>optional string name = 1;</code>
+       * <code>string name = 1;</code>
        */
       public Builder setNameBytes(
           com.google.protobuf.ByteString value) {
@@ -1543,7 +1543,7 @@ public final class Procedure {
 
       private java.lang.Object value_ = "";
       /**
-       * <code>optional string value = 2;</code>
+       * <code>string value = 2;</code>
        */
       public java.lang.String getValue() {
         java.lang.Object ref = value_;
@@ -1558,7 +1558,7 @@ public final class Procedure {
         }
       }
       /**
-       * <code>optional string value = 2;</code>
+       * <code>string value = 2;</code>
        */
       public com.google.protobuf.ByteString
           getValueBytes() {
@@ -1574,7 +1574,7 @@ public final class Procedure {
         }
       }
       /**
-       * <code>optional string value = 2;</code>
+       * <code>string value = 2;</code>
        */
       public Builder setValue(
           java.lang.String value) {
@@ -1587,7 +1587,7 @@ public final class Procedure {
         return this;
       }
       /**
-       * <code>optional string value = 2;</code>
+       * <code>string value = 2;</code>
        */
       public Builder clearValue() {
         
@@ -1596,7 +1596,7 @@ public final class Procedure {
         return this;
       }
       /**
-       * <code>optional string value = 2;</code>
+       * <code>string value = 2;</code>
        */
       public Builder setValueBytes(
           com.google.protobuf.ByteString value) {
@@ -1616,7 +1616,7 @@ public final class Procedure {
        * used to indicate that the parameter has "null-value"
        * </pre>
        *
-       * <code>optional bool is_null = 3;</code>
+       * <code>bool is_null = 3;</code>
        */
       public boolean getIsNull() {
         return isNull_;
@@ -1626,7 +1626,7 @@ public final class Procedure {
        * used to indicate that the parameter has "null-value"
        * </pre>
        *
-       * <code>optional bool is_null = 3;</code>
+       * <code>bool is_null = 3;</code>
        */
       public Builder setIsNull(boolean value) {
         
@@ -1639,7 +1639,7 @@ public final class Procedure {
        * used to indicate that the parameter has "null-value"
        * </pre>
        *
-       * <code>optional bool is_null = 3;</code>
+       * <code>bool is_null = 3;</code>
        */
       public Builder clearIsNull() {
         
@@ -1725,7 +1725,7 @@ public final class Procedure {
         int index);
 
     /**
-     * <code>optional int32 call_id = 4;</code>
+     * <code>int32 call_id = 4;</code>
      */
     int getCallId();
 
@@ -1947,7 +1947,7 @@ public final class Procedure {
         com.google.protobuf.MessageOrBuilder {
 
       /**
-       * <code>optional int32 row_id = 1;</code>
+       * <code>int32 row_id = 1;</code>
        */
       int getRowId();
 
@@ -2101,7 +2101,7 @@ public final class Procedure {
       public static final int ROW_ID_FIELD_NUMBER = 1;
       private int rowId_;
       /**
-       * <code>optional int32 row_id = 1;</code>
+       * <code>int32 row_id = 1;</code>
        */
       public int getRowId() {
         return rowId_;
@@ -2270,7 +2270,7 @@ public final class Procedure {
           return memoizedHashCode;
         }
         int hash = 41;
-        hash = (19 * hash) + getDescriptorForType().hashCode();
+        hash = (19 * hash) + getDescriptor().hashCode();
         hash = (37 * hash) + ROW_ID_FIELD_NUMBER;
         hash = (53 * hash) + getRowId();
         if (!internalGetColumns().getMap().isEmpty()) {
@@ -2523,13 +2523,13 @@ public final class Procedure {
 
         private int rowId_ ;
         /**
-         * <code>optional int32 row_id = 1;</code>
+         * <code>int32 row_id = 1;</code>
          */
         public int getRowId() {
           return rowId_;
         }
         /**
-         * <code>optional int32 row_id = 1;</code>
+         * <code>int32 row_id = 1;</code>
          */
         public Builder setRowId(int value) {
           
@@ -2538,7 +2538,7 @@ public final class Procedure {
           return this;
         }
         /**
-         * <code>optional int32 row_id = 1;</code>
+         * <code>int32 row_id = 1;</code>
          */
         public Builder clearRowId() {
           
@@ -2640,7 +2640,8 @@ public final class Procedure {
         }
 
         public Builder clearColumns() {
-          getMutableColumns().clear();
+          internalGetMutableColumns().getMutableMap()
+              .clear();
           return this;
         }
         /**
@@ -2654,7 +2655,8 @@ public final class Procedure {
         public Builder removeColumns(
             java.lang.String key) {
           if (key == null) { throw new java.lang.NullPointerException(); }
-          getMutableColumns().remove(key);
+          internalGetMutableColumns().getMutableMap()
+              .remove(key);
           return this;
         }
         /**
@@ -2677,7 +2679,8 @@ public final class Procedure {
             io.dstore.values.Value value) {
           if (key == null) { throw new java.lang.NullPointerException(); }
           if (value == null) { throw new java.lang.NullPointerException(); }
-          getMutableColumns().put(key, value);
+          internalGetMutableColumns().getMutableMap()
+              .put(key, value);
           return this;
         }
         /**
@@ -2690,7 +2693,8 @@ public final class Procedure {
 
         public Builder putAllColumns(
             java.util.Map<java.lang.String, io.dstore.values.Value> values) {
-          getMutableColumns().putAll(values);
+          internalGetMutableColumns().getMutableMap()
+              .putAll(values);
           return this;
         }
         public final Builder setUnknownFields(
@@ -2781,7 +2785,7 @@ public final class Procedure {
     public static final int CALL_ID_FIELD_NUMBER = 4;
     private int callId_;
     /**
-     * <code>optional int32 call_id = 4;</code>
+     * <code>int32 call_id = 4;</code>
      */
     public int getCallId() {
       return callId_;
@@ -3031,7 +3035,7 @@ public final class Procedure {
         return memoizedHashCode;
       }
       int hash = 41;
-      hash = (19 * hash) + getDescriptorForType().hashCode();
+      hash = (19 * hash) + getDescriptor().hashCode();
       if (getMessageCount() > 0) {
         hash = (37 * hash) + MESSAGE_FIELD_NUMBER;
         hash = (53 * hash) + getMessageList().hashCode();
@@ -3662,13 +3666,13 @@ public final class Procedure {
 
       private int callId_ ;
       /**
-       * <code>optional int32 call_id = 4;</code>
+       * <code>int32 call_id = 4;</code>
        */
       public int getCallId() {
         return callId_;
       }
       /**
-       * <code>optional int32 call_id = 4;</code>
+       * <code>int32 call_id = 4;</code>
        */
       public Builder setCallId(int value) {
         
@@ -3677,7 +3681,7 @@ public final class Procedure {
         return this;
       }
       /**
-       * <code>optional int32 call_id = 4;</code>
+       * <code>int32 call_id = 4;</code>
        */
       public Builder clearCallId() {
         
@@ -4003,7 +4007,8 @@ public final class Procedure {
       }
 
       public Builder clearOutputParameters() {
-        getMutableOutputParameters().clear();
+        internalGetMutableOutputParameters().getMutableMap()
+            .clear();
         return this;
       }
       /**
@@ -4013,7 +4018,8 @@ public final class Procedure {
       public Builder removeOutputParameters(
           java.lang.String key) {
         if (key == null) { throw new java.lang.NullPointerException(); }
-        getMutableOutputParameters().remove(key);
+        internalGetMutableOutputParameters().getMutableMap()
+            .remove(key);
         return this;
       }
       /**
@@ -4032,7 +4038,8 @@ public final class Procedure {
           io.dstore.values.Value value) {
         if (key == null) { throw new java.lang.NullPointerException(); }
         if (value == null) { throw new java.lang.NullPointerException(); }
-        getMutableOutputParameters().put(key, value);
+        internalGetMutableOutputParameters().getMutableMap()
+            .put(key, value);
         return this;
       }
       /**
@@ -4041,7 +4048,8 @@ public final class Procedure {
 
       public Builder putAllOutputParameters(
           java.util.Map<java.lang.String, io.dstore.values.Value> values) {
-        getMutableOutputParameters().putAll(values);
+        internalGetMutableOutputParameters().getMutableMap()
+            .putAll(values);
         return this;
       }
 

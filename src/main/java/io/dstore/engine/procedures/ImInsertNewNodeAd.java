@@ -19,146 +19,146 @@ public final class ImInsertNewNodeAd {
       com.google.protobuf.MessageOrBuilder {
 
     /**
-     * <code>optional .dstore.values.IntegerValue predecessor = 1;</code>
+     * <code>.dstore.values.IntegerValue predecessor = 1;</code>
      */
     boolean hasPredecessor();
     /**
-     * <code>optional .dstore.values.IntegerValue predecessor = 1;</code>
+     * <code>.dstore.values.IntegerValue predecessor = 1;</code>
      */
     io.dstore.values.IntegerValue getPredecessor();
     /**
-     * <code>optional .dstore.values.IntegerValue predecessor = 1;</code>
+     * <code>.dstore.values.IntegerValue predecessor = 1;</code>
      */
     io.dstore.values.IntegerValueOrBuilder getPredecessorOrBuilder();
 
     /**
-     * <code>optional bool predecessor_null = 1001;</code>
+     * <code>bool predecessor_null = 1001;</code>
      */
     boolean getPredecessorNull();
 
     /**
-     * <code>optional .dstore.values.StringValue node_description = 2;</code>
+     * <code>.dstore.values.StringValue node_description = 2;</code>
      */
     boolean hasNodeDescription();
     /**
-     * <code>optional .dstore.values.StringValue node_description = 2;</code>
+     * <code>.dstore.values.StringValue node_description = 2;</code>
      */
     io.dstore.values.StringValue getNodeDescription();
     /**
-     * <code>optional .dstore.values.StringValue node_description = 2;</code>
+     * <code>.dstore.values.StringValue node_description = 2;</code>
      */
     io.dstore.values.StringValueOrBuilder getNodeDescriptionOrBuilder();
 
     /**
-     * <code>optional bool node_description_null = 1002;</code>
+     * <code>bool node_description_null = 1002;</code>
      */
     boolean getNodeDescriptionNull();
 
     /**
-     * <code>optional .dstore.values.IntegerValue new_node_id = 3;</code>
+     * <code>.dstore.values.IntegerValue new_node_id = 3;</code>
      */
     boolean hasNewNodeId();
     /**
-     * <code>optional .dstore.values.IntegerValue new_node_id = 3;</code>
+     * <code>.dstore.values.IntegerValue new_node_id = 3;</code>
      */
     io.dstore.values.IntegerValue getNewNodeId();
     /**
-     * <code>optional .dstore.values.IntegerValue new_node_id = 3;</code>
+     * <code>.dstore.values.IntegerValue new_node_id = 3;</code>
      */
     io.dstore.values.IntegerValueOrBuilder getNewNodeIdOrBuilder();
 
     /**
-     * <code>optional bool new_node_id_null = 1003;</code>
+     * <code>bool new_node_id_null = 1003;</code>
      */
     boolean getNewNodeIdNull();
 
     /**
-     * <code>optional .dstore.values.IntegerValue new_tree_node_id = 4;</code>
+     * <code>.dstore.values.IntegerValue new_tree_node_id = 4;</code>
      */
     boolean hasNewTreeNodeId();
     /**
-     * <code>optional .dstore.values.IntegerValue new_tree_node_id = 4;</code>
+     * <code>.dstore.values.IntegerValue new_tree_node_id = 4;</code>
      */
     io.dstore.values.IntegerValue getNewTreeNodeId();
     /**
-     * <code>optional .dstore.values.IntegerValue new_tree_node_id = 4;</code>
+     * <code>.dstore.values.IntegerValue new_tree_node_id = 4;</code>
      */
     io.dstore.values.IntegerValueOrBuilder getNewTreeNodeIdOrBuilder();
 
     /**
-     * <code>optional bool new_tree_node_id_null = 1004;</code>
+     * <code>bool new_tree_node_id_null = 1004;</code>
      */
     boolean getNewTreeNodeIdNull();
 
     /**
-     * <code>optional .dstore.values.IntegerValue level_id = 5;</code>
+     * <code>.dstore.values.IntegerValue level_id = 5;</code>
      */
     boolean hasLevelId();
     /**
-     * <code>optional .dstore.values.IntegerValue level_id = 5;</code>
+     * <code>.dstore.values.IntegerValue level_id = 5;</code>
      */
     io.dstore.values.IntegerValue getLevelId();
     /**
-     * <code>optional .dstore.values.IntegerValue level_id = 5;</code>
+     * <code>.dstore.values.IntegerValue level_id = 5;</code>
      */
     io.dstore.values.IntegerValueOrBuilder getLevelIdOrBuilder();
 
     /**
-     * <code>optional bool level_id_null = 1005;</code>
+     * <code>bool level_id_null = 1005;</code>
      */
     boolean getLevelIdNull();
 
     /**
-     * <code>optional .dstore.values.IntegerValue model_node = 6;</code>
+     * <code>.dstore.values.IntegerValue model_node = 6;</code>
      */
     boolean hasModelNode();
     /**
-     * <code>optional .dstore.values.IntegerValue model_node = 6;</code>
+     * <code>.dstore.values.IntegerValue model_node = 6;</code>
      */
     io.dstore.values.IntegerValue getModelNode();
     /**
-     * <code>optional .dstore.values.IntegerValue model_node = 6;</code>
+     * <code>.dstore.values.IntegerValue model_node = 6;</code>
      */
     io.dstore.values.IntegerValueOrBuilder getModelNodeOrBuilder();
 
     /**
-     * <code>optional bool model_node_null = 1006;</code>
+     * <code>bool model_node_null = 1006;</code>
      */
     boolean getModelNodeNull();
 
     /**
-     * <code>optional .dstore.values.BooleanValue clone = 7;</code>
+     * <code>.dstore.values.BooleanValue clone = 7;</code>
      */
     boolean hasClone();
     /**
-     * <code>optional .dstore.values.BooleanValue clone = 7;</code>
+     * <code>.dstore.values.BooleanValue clone = 7;</code>
      */
     io.dstore.values.BooleanValue getClone();
     /**
-     * <code>optional .dstore.values.BooleanValue clone = 7;</code>
+     * <code>.dstore.values.BooleanValue clone = 7;</code>
      */
     io.dstore.values.BooleanValueOrBuilder getCloneOrBuilder();
 
     /**
-     * <code>optional bool clone_null = 1007;</code>
+     * <code>bool clone_null = 1007;</code>
      */
     boolean getCloneNull();
 
     /**
-     * <code>optional .dstore.values.BooleanValue include_sub_nodes = 8;</code>
+     * <code>.dstore.values.BooleanValue include_sub_nodes = 8;</code>
      */
     boolean hasIncludeSubNodes();
     /**
-     * <code>optional .dstore.values.BooleanValue include_sub_nodes = 8;</code>
+     * <code>.dstore.values.BooleanValue include_sub_nodes = 8;</code>
      */
     io.dstore.values.BooleanValue getIncludeSubNodes();
     /**
-     * <code>optional .dstore.values.BooleanValue include_sub_nodes = 8;</code>
+     * <code>.dstore.values.BooleanValue include_sub_nodes = 8;</code>
      */
     io.dstore.values.BooleanValueOrBuilder getIncludeSubNodesOrBuilder();
 
     /**
-     * <code>optional bool include_sub_nodes_null = 1008;</code>
+     * <code>bool include_sub_nodes_null = 1008;</code>
      */
     boolean getIncludeSubNodesNull();
   }
@@ -379,19 +379,19 @@ public final class ImInsertNewNodeAd {
     public static final int PREDECESSOR_FIELD_NUMBER = 1;
     private io.dstore.values.IntegerValue predecessor_;
     /**
-     * <code>optional .dstore.values.IntegerValue predecessor = 1;</code>
+     * <code>.dstore.values.IntegerValue predecessor = 1;</code>
      */
     public boolean hasPredecessor() {
       return predecessor_ != null;
     }
     /**
-     * <code>optional .dstore.values.IntegerValue predecessor = 1;</code>
+     * <code>.dstore.values.IntegerValue predecessor = 1;</code>
      */
     public io.dstore.values.IntegerValue getPredecessor() {
       return predecessor_ == null ? io.dstore.values.IntegerValue.getDefaultInstance() : predecessor_;
     }
     /**
-     * <code>optional .dstore.values.IntegerValue predecessor = 1;</code>
+     * <code>.dstore.values.IntegerValue predecessor = 1;</code>
      */
     public io.dstore.values.IntegerValueOrBuilder getPredecessorOrBuilder() {
       return getPredecessor();
@@ -400,7 +400,7 @@ public final class ImInsertNewNodeAd {
     public static final int PREDECESSOR_NULL_FIELD_NUMBER = 1001;
     private boolean predecessorNull_;
     /**
-     * <code>optional bool predecessor_null = 1001;</code>
+     * <code>bool predecessor_null = 1001;</code>
      */
     public boolean getPredecessorNull() {
       return predecessorNull_;
@@ -409,19 +409,19 @@ public final class ImInsertNewNodeAd {
     public static final int NODE_DESCRIPTION_FIELD_NUMBER = 2;
     private io.dstore.values.StringValue nodeDescription_;
     /**
-     * <code>optional .dstore.values.StringValue node_description = 2;</code>
+     * <code>.dstore.values.StringValue node_description = 2;</code>
      */
     public boolean hasNodeDescription() {
       return nodeDescription_ != null;
     }
     /**
-     * <code>optional .dstore.values.StringValue node_description = 2;</code>
+     * <code>.dstore.values.StringValue node_description = 2;</code>
      */
     public io.dstore.values.StringValue getNodeDescription() {
       return nodeDescription_ == null ? io.dstore.values.StringValue.getDefaultInstance() : nodeDescription_;
     }
     /**
-     * <code>optional .dstore.values.StringValue node_description = 2;</code>
+     * <code>.dstore.values.StringValue node_description = 2;</code>
      */
     public io.dstore.values.StringValueOrBuilder getNodeDescriptionOrBuilder() {
       return getNodeDescription();
@@ -430,7 +430,7 @@ public final class ImInsertNewNodeAd {
     public static final int NODE_DESCRIPTION_NULL_FIELD_NUMBER = 1002;
     private boolean nodeDescriptionNull_;
     /**
-     * <code>optional bool node_description_null = 1002;</code>
+     * <code>bool node_description_null = 1002;</code>
      */
     public boolean getNodeDescriptionNull() {
       return nodeDescriptionNull_;
@@ -439,19 +439,19 @@ public final class ImInsertNewNodeAd {
     public static final int NEW_NODE_ID_FIELD_NUMBER = 3;
     private io.dstore.values.IntegerValue newNodeId_;
     /**
-     * <code>optional .dstore.values.IntegerValue new_node_id = 3;</code>
+     * <code>.dstore.values.IntegerValue new_node_id = 3;</code>
      */
     public boolean hasNewNodeId() {
       return newNodeId_ != null;
     }
     /**
-     * <code>optional .dstore.values.IntegerValue new_node_id = 3;</code>
+     * <code>.dstore.values.IntegerValue new_node_id = 3;</code>
      */
     public io.dstore.values.IntegerValue getNewNodeId() {
       return newNodeId_ == null ? io.dstore.values.IntegerValue.getDefaultInstance() : newNodeId_;
     }
     /**
-     * <code>optional .dstore.values.IntegerValue new_node_id = 3;</code>
+     * <code>.dstore.values.IntegerValue new_node_id = 3;</code>
      */
     public io.dstore.values.IntegerValueOrBuilder getNewNodeIdOrBuilder() {
       return getNewNodeId();
@@ -460,7 +460,7 @@ public final class ImInsertNewNodeAd {
     public static final int NEW_NODE_ID_NULL_FIELD_NUMBER = 1003;
     private boolean newNodeIdNull_;
     /**
-     * <code>optional bool new_node_id_null = 1003;</code>
+     * <code>bool new_node_id_null = 1003;</code>
      */
     public boolean getNewNodeIdNull() {
       return newNodeIdNull_;
@@ -469,19 +469,19 @@ public final class ImInsertNewNodeAd {
     public static final int NEW_TREE_NODE_ID_FIELD_NUMBER = 4;
     private io.dstore.values.IntegerValue newTreeNodeId_;
     /**
-     * <code>optional .dstore.values.IntegerValue new_tree_node_id = 4;</code>
+     * <code>.dstore.values.IntegerValue new_tree_node_id = 4;</code>
      */
     public boolean hasNewTreeNodeId() {
       return newTreeNodeId_ != null;
     }
     /**
-     * <code>optional .dstore.values.IntegerValue new_tree_node_id = 4;</code>
+     * <code>.dstore.values.IntegerValue new_tree_node_id = 4;</code>
      */
     public io.dstore.values.IntegerValue getNewTreeNodeId() {
       return newTreeNodeId_ == null ? io.dstore.values.IntegerValue.getDefaultInstance() : newTreeNodeId_;
     }
     /**
-     * <code>optional .dstore.values.IntegerValue new_tree_node_id = 4;</code>
+     * <code>.dstore.values.IntegerValue new_tree_node_id = 4;</code>
      */
     public io.dstore.values.IntegerValueOrBuilder getNewTreeNodeIdOrBuilder() {
       return getNewTreeNodeId();
@@ -490,7 +490,7 @@ public final class ImInsertNewNodeAd {
     public static final int NEW_TREE_NODE_ID_NULL_FIELD_NUMBER = 1004;
     private boolean newTreeNodeIdNull_;
     /**
-     * <code>optional bool new_tree_node_id_null = 1004;</code>
+     * <code>bool new_tree_node_id_null = 1004;</code>
      */
     public boolean getNewTreeNodeIdNull() {
       return newTreeNodeIdNull_;
@@ -499,19 +499,19 @@ public final class ImInsertNewNodeAd {
     public static final int LEVEL_ID_FIELD_NUMBER = 5;
     private io.dstore.values.IntegerValue levelId_;
     /**
-     * <code>optional .dstore.values.IntegerValue level_id = 5;</code>
+     * <code>.dstore.values.IntegerValue level_id = 5;</code>
      */
     public boolean hasLevelId() {
       return levelId_ != null;
     }
     /**
-     * <code>optional .dstore.values.IntegerValue level_id = 5;</code>
+     * <code>.dstore.values.IntegerValue level_id = 5;</code>
      */
     public io.dstore.values.IntegerValue getLevelId() {
       return levelId_ == null ? io.dstore.values.IntegerValue.getDefaultInstance() : levelId_;
     }
     /**
-     * <code>optional .dstore.values.IntegerValue level_id = 5;</code>
+     * <code>.dstore.values.IntegerValue level_id = 5;</code>
      */
     public io.dstore.values.IntegerValueOrBuilder getLevelIdOrBuilder() {
       return getLevelId();
@@ -520,7 +520,7 @@ public final class ImInsertNewNodeAd {
     public static final int LEVEL_ID_NULL_FIELD_NUMBER = 1005;
     private boolean levelIdNull_;
     /**
-     * <code>optional bool level_id_null = 1005;</code>
+     * <code>bool level_id_null = 1005;</code>
      */
     public boolean getLevelIdNull() {
       return levelIdNull_;
@@ -529,19 +529,19 @@ public final class ImInsertNewNodeAd {
     public static final int MODEL_NODE_FIELD_NUMBER = 6;
     private io.dstore.values.IntegerValue modelNode_;
     /**
-     * <code>optional .dstore.values.IntegerValue model_node = 6;</code>
+     * <code>.dstore.values.IntegerValue model_node = 6;</code>
      */
     public boolean hasModelNode() {
       return modelNode_ != null;
     }
     /**
-     * <code>optional .dstore.values.IntegerValue model_node = 6;</code>
+     * <code>.dstore.values.IntegerValue model_node = 6;</code>
      */
     public io.dstore.values.IntegerValue getModelNode() {
       return modelNode_ == null ? io.dstore.values.IntegerValue.getDefaultInstance() : modelNode_;
     }
     /**
-     * <code>optional .dstore.values.IntegerValue model_node = 6;</code>
+     * <code>.dstore.values.IntegerValue model_node = 6;</code>
      */
     public io.dstore.values.IntegerValueOrBuilder getModelNodeOrBuilder() {
       return getModelNode();
@@ -550,7 +550,7 @@ public final class ImInsertNewNodeAd {
     public static final int MODEL_NODE_NULL_FIELD_NUMBER = 1006;
     private boolean modelNodeNull_;
     /**
-     * <code>optional bool model_node_null = 1006;</code>
+     * <code>bool model_node_null = 1006;</code>
      */
     public boolean getModelNodeNull() {
       return modelNodeNull_;
@@ -559,19 +559,19 @@ public final class ImInsertNewNodeAd {
     public static final int CLONE_FIELD_NUMBER = 7;
     private io.dstore.values.BooleanValue clone_;
     /**
-     * <code>optional .dstore.values.BooleanValue clone = 7;</code>
+     * <code>.dstore.values.BooleanValue clone = 7;</code>
      */
     public boolean hasClone() {
       return clone_ != null;
     }
     /**
-     * <code>optional .dstore.values.BooleanValue clone = 7;</code>
+     * <code>.dstore.values.BooleanValue clone = 7;</code>
      */
     public io.dstore.values.BooleanValue getClone() {
       return clone_ == null ? io.dstore.values.BooleanValue.getDefaultInstance() : clone_;
     }
     /**
-     * <code>optional .dstore.values.BooleanValue clone = 7;</code>
+     * <code>.dstore.values.BooleanValue clone = 7;</code>
      */
     public io.dstore.values.BooleanValueOrBuilder getCloneOrBuilder() {
       return getClone();
@@ -580,7 +580,7 @@ public final class ImInsertNewNodeAd {
     public static final int CLONE_NULL_FIELD_NUMBER = 1007;
     private boolean cloneNull_;
     /**
-     * <code>optional bool clone_null = 1007;</code>
+     * <code>bool clone_null = 1007;</code>
      */
     public boolean getCloneNull() {
       return cloneNull_;
@@ -589,19 +589,19 @@ public final class ImInsertNewNodeAd {
     public static final int INCLUDE_SUB_NODES_FIELD_NUMBER = 8;
     private io.dstore.values.BooleanValue includeSubNodes_;
     /**
-     * <code>optional .dstore.values.BooleanValue include_sub_nodes = 8;</code>
+     * <code>.dstore.values.BooleanValue include_sub_nodes = 8;</code>
      */
     public boolean hasIncludeSubNodes() {
       return includeSubNodes_ != null;
     }
     /**
-     * <code>optional .dstore.values.BooleanValue include_sub_nodes = 8;</code>
+     * <code>.dstore.values.BooleanValue include_sub_nodes = 8;</code>
      */
     public io.dstore.values.BooleanValue getIncludeSubNodes() {
       return includeSubNodes_ == null ? io.dstore.values.BooleanValue.getDefaultInstance() : includeSubNodes_;
     }
     /**
-     * <code>optional .dstore.values.BooleanValue include_sub_nodes = 8;</code>
+     * <code>.dstore.values.BooleanValue include_sub_nodes = 8;</code>
      */
     public io.dstore.values.BooleanValueOrBuilder getIncludeSubNodesOrBuilder() {
       return getIncludeSubNodes();
@@ -610,7 +610,7 @@ public final class ImInsertNewNodeAd {
     public static final int INCLUDE_SUB_NODES_NULL_FIELD_NUMBER = 1008;
     private boolean includeSubNodesNull_;
     /**
-     * <code>optional bool include_sub_nodes_null = 1008;</code>
+     * <code>bool include_sub_nodes_null = 1008;</code>
      */
     public boolean getIncludeSubNodesNull() {
       return includeSubNodesNull_;
@@ -828,7 +828,7 @@ public final class ImInsertNewNodeAd {
         return memoizedHashCode;
       }
       int hash = 41;
-      hash = (19 * hash) + getDescriptorForType().hashCode();
+      hash = (19 * hash) + getDescriptor().hashCode();
       if (hasPredecessor()) {
         hash = (37 * hash) + PREDECESSOR_FIELD_NUMBER;
         hash = (53 * hash) + getPredecessor().hashCode();
@@ -1256,13 +1256,13 @@ public final class ImInsertNewNodeAd {
       private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> predecessorBuilder_;
       /**
-       * <code>optional .dstore.values.IntegerValue predecessor = 1;</code>
+       * <code>.dstore.values.IntegerValue predecessor = 1;</code>
        */
       public boolean hasPredecessor() {
         return predecessorBuilder_ != null || predecessor_ != null;
       }
       /**
-       * <code>optional .dstore.values.IntegerValue predecessor = 1;</code>
+       * <code>.dstore.values.IntegerValue predecessor = 1;</code>
        */
       public io.dstore.values.IntegerValue getPredecessor() {
         if (predecessorBuilder_ == null) {
@@ -1272,7 +1272,7 @@ public final class ImInsertNewNodeAd {
         }
       }
       /**
-       * <code>optional .dstore.values.IntegerValue predecessor = 1;</code>
+       * <code>.dstore.values.IntegerValue predecessor = 1;</code>
        */
       public Builder setPredecessor(io.dstore.values.IntegerValue value) {
         if (predecessorBuilder_ == null) {
@@ -1288,7 +1288,7 @@ public final class ImInsertNewNodeAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.IntegerValue predecessor = 1;</code>
+       * <code>.dstore.values.IntegerValue predecessor = 1;</code>
        */
       public Builder setPredecessor(
           io.dstore.values.IntegerValue.Builder builderForValue) {
@@ -1302,7 +1302,7 @@ public final class ImInsertNewNodeAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.IntegerValue predecessor = 1;</code>
+       * <code>.dstore.values.IntegerValue predecessor = 1;</code>
        */
       public Builder mergePredecessor(io.dstore.values.IntegerValue value) {
         if (predecessorBuilder_ == null) {
@@ -1320,7 +1320,7 @@ public final class ImInsertNewNodeAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.IntegerValue predecessor = 1;</code>
+       * <code>.dstore.values.IntegerValue predecessor = 1;</code>
        */
       public Builder clearPredecessor() {
         if (predecessorBuilder_ == null) {
@@ -1334,7 +1334,7 @@ public final class ImInsertNewNodeAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.IntegerValue predecessor = 1;</code>
+       * <code>.dstore.values.IntegerValue predecessor = 1;</code>
        */
       public io.dstore.values.IntegerValue.Builder getPredecessorBuilder() {
         
@@ -1342,7 +1342,7 @@ public final class ImInsertNewNodeAd {
         return getPredecessorFieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .dstore.values.IntegerValue predecessor = 1;</code>
+       * <code>.dstore.values.IntegerValue predecessor = 1;</code>
        */
       public io.dstore.values.IntegerValueOrBuilder getPredecessorOrBuilder() {
         if (predecessorBuilder_ != null) {
@@ -1353,7 +1353,7 @@ public final class ImInsertNewNodeAd {
         }
       }
       /**
-       * <code>optional .dstore.values.IntegerValue predecessor = 1;</code>
+       * <code>.dstore.values.IntegerValue predecessor = 1;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> 
@@ -1371,13 +1371,13 @@ public final class ImInsertNewNodeAd {
 
       private boolean predecessorNull_ ;
       /**
-       * <code>optional bool predecessor_null = 1001;</code>
+       * <code>bool predecessor_null = 1001;</code>
        */
       public boolean getPredecessorNull() {
         return predecessorNull_;
       }
       /**
-       * <code>optional bool predecessor_null = 1001;</code>
+       * <code>bool predecessor_null = 1001;</code>
        */
       public Builder setPredecessorNull(boolean value) {
         
@@ -1386,7 +1386,7 @@ public final class ImInsertNewNodeAd {
         return this;
       }
       /**
-       * <code>optional bool predecessor_null = 1001;</code>
+       * <code>bool predecessor_null = 1001;</code>
        */
       public Builder clearPredecessorNull() {
         
@@ -1399,13 +1399,13 @@ public final class ImInsertNewNodeAd {
       private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.values.StringValue, io.dstore.values.StringValue.Builder, io.dstore.values.StringValueOrBuilder> nodeDescriptionBuilder_;
       /**
-       * <code>optional .dstore.values.StringValue node_description = 2;</code>
+       * <code>.dstore.values.StringValue node_description = 2;</code>
        */
       public boolean hasNodeDescription() {
         return nodeDescriptionBuilder_ != null || nodeDescription_ != null;
       }
       /**
-       * <code>optional .dstore.values.StringValue node_description = 2;</code>
+       * <code>.dstore.values.StringValue node_description = 2;</code>
        */
       public io.dstore.values.StringValue getNodeDescription() {
         if (nodeDescriptionBuilder_ == null) {
@@ -1415,7 +1415,7 @@ public final class ImInsertNewNodeAd {
         }
       }
       /**
-       * <code>optional .dstore.values.StringValue node_description = 2;</code>
+       * <code>.dstore.values.StringValue node_description = 2;</code>
        */
       public Builder setNodeDescription(io.dstore.values.StringValue value) {
         if (nodeDescriptionBuilder_ == null) {
@@ -1431,7 +1431,7 @@ public final class ImInsertNewNodeAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.StringValue node_description = 2;</code>
+       * <code>.dstore.values.StringValue node_description = 2;</code>
        */
       public Builder setNodeDescription(
           io.dstore.values.StringValue.Builder builderForValue) {
@@ -1445,7 +1445,7 @@ public final class ImInsertNewNodeAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.StringValue node_description = 2;</code>
+       * <code>.dstore.values.StringValue node_description = 2;</code>
        */
       public Builder mergeNodeDescription(io.dstore.values.StringValue value) {
         if (nodeDescriptionBuilder_ == null) {
@@ -1463,7 +1463,7 @@ public final class ImInsertNewNodeAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.StringValue node_description = 2;</code>
+       * <code>.dstore.values.StringValue node_description = 2;</code>
        */
       public Builder clearNodeDescription() {
         if (nodeDescriptionBuilder_ == null) {
@@ -1477,7 +1477,7 @@ public final class ImInsertNewNodeAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.StringValue node_description = 2;</code>
+       * <code>.dstore.values.StringValue node_description = 2;</code>
        */
       public io.dstore.values.StringValue.Builder getNodeDescriptionBuilder() {
         
@@ -1485,7 +1485,7 @@ public final class ImInsertNewNodeAd {
         return getNodeDescriptionFieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .dstore.values.StringValue node_description = 2;</code>
+       * <code>.dstore.values.StringValue node_description = 2;</code>
        */
       public io.dstore.values.StringValueOrBuilder getNodeDescriptionOrBuilder() {
         if (nodeDescriptionBuilder_ != null) {
@@ -1496,7 +1496,7 @@ public final class ImInsertNewNodeAd {
         }
       }
       /**
-       * <code>optional .dstore.values.StringValue node_description = 2;</code>
+       * <code>.dstore.values.StringValue node_description = 2;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.values.StringValue, io.dstore.values.StringValue.Builder, io.dstore.values.StringValueOrBuilder> 
@@ -1514,13 +1514,13 @@ public final class ImInsertNewNodeAd {
 
       private boolean nodeDescriptionNull_ ;
       /**
-       * <code>optional bool node_description_null = 1002;</code>
+       * <code>bool node_description_null = 1002;</code>
        */
       public boolean getNodeDescriptionNull() {
         return nodeDescriptionNull_;
       }
       /**
-       * <code>optional bool node_description_null = 1002;</code>
+       * <code>bool node_description_null = 1002;</code>
        */
       public Builder setNodeDescriptionNull(boolean value) {
         
@@ -1529,7 +1529,7 @@ public final class ImInsertNewNodeAd {
         return this;
       }
       /**
-       * <code>optional bool node_description_null = 1002;</code>
+       * <code>bool node_description_null = 1002;</code>
        */
       public Builder clearNodeDescriptionNull() {
         
@@ -1542,13 +1542,13 @@ public final class ImInsertNewNodeAd {
       private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> newNodeIdBuilder_;
       /**
-       * <code>optional .dstore.values.IntegerValue new_node_id = 3;</code>
+       * <code>.dstore.values.IntegerValue new_node_id = 3;</code>
        */
       public boolean hasNewNodeId() {
         return newNodeIdBuilder_ != null || newNodeId_ != null;
       }
       /**
-       * <code>optional .dstore.values.IntegerValue new_node_id = 3;</code>
+       * <code>.dstore.values.IntegerValue new_node_id = 3;</code>
        */
       public io.dstore.values.IntegerValue getNewNodeId() {
         if (newNodeIdBuilder_ == null) {
@@ -1558,7 +1558,7 @@ public final class ImInsertNewNodeAd {
         }
       }
       /**
-       * <code>optional .dstore.values.IntegerValue new_node_id = 3;</code>
+       * <code>.dstore.values.IntegerValue new_node_id = 3;</code>
        */
       public Builder setNewNodeId(io.dstore.values.IntegerValue value) {
         if (newNodeIdBuilder_ == null) {
@@ -1574,7 +1574,7 @@ public final class ImInsertNewNodeAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.IntegerValue new_node_id = 3;</code>
+       * <code>.dstore.values.IntegerValue new_node_id = 3;</code>
        */
       public Builder setNewNodeId(
           io.dstore.values.IntegerValue.Builder builderForValue) {
@@ -1588,7 +1588,7 @@ public final class ImInsertNewNodeAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.IntegerValue new_node_id = 3;</code>
+       * <code>.dstore.values.IntegerValue new_node_id = 3;</code>
        */
       public Builder mergeNewNodeId(io.dstore.values.IntegerValue value) {
         if (newNodeIdBuilder_ == null) {
@@ -1606,7 +1606,7 @@ public final class ImInsertNewNodeAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.IntegerValue new_node_id = 3;</code>
+       * <code>.dstore.values.IntegerValue new_node_id = 3;</code>
        */
       public Builder clearNewNodeId() {
         if (newNodeIdBuilder_ == null) {
@@ -1620,7 +1620,7 @@ public final class ImInsertNewNodeAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.IntegerValue new_node_id = 3;</code>
+       * <code>.dstore.values.IntegerValue new_node_id = 3;</code>
        */
       public io.dstore.values.IntegerValue.Builder getNewNodeIdBuilder() {
         
@@ -1628,7 +1628,7 @@ public final class ImInsertNewNodeAd {
         return getNewNodeIdFieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .dstore.values.IntegerValue new_node_id = 3;</code>
+       * <code>.dstore.values.IntegerValue new_node_id = 3;</code>
        */
       public io.dstore.values.IntegerValueOrBuilder getNewNodeIdOrBuilder() {
         if (newNodeIdBuilder_ != null) {
@@ -1639,7 +1639,7 @@ public final class ImInsertNewNodeAd {
         }
       }
       /**
-       * <code>optional .dstore.values.IntegerValue new_node_id = 3;</code>
+       * <code>.dstore.values.IntegerValue new_node_id = 3;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> 
@@ -1657,13 +1657,13 @@ public final class ImInsertNewNodeAd {
 
       private boolean newNodeIdNull_ ;
       /**
-       * <code>optional bool new_node_id_null = 1003;</code>
+       * <code>bool new_node_id_null = 1003;</code>
        */
       public boolean getNewNodeIdNull() {
         return newNodeIdNull_;
       }
       /**
-       * <code>optional bool new_node_id_null = 1003;</code>
+       * <code>bool new_node_id_null = 1003;</code>
        */
       public Builder setNewNodeIdNull(boolean value) {
         
@@ -1672,7 +1672,7 @@ public final class ImInsertNewNodeAd {
         return this;
       }
       /**
-       * <code>optional bool new_node_id_null = 1003;</code>
+       * <code>bool new_node_id_null = 1003;</code>
        */
       public Builder clearNewNodeIdNull() {
         
@@ -1685,13 +1685,13 @@ public final class ImInsertNewNodeAd {
       private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> newTreeNodeIdBuilder_;
       /**
-       * <code>optional .dstore.values.IntegerValue new_tree_node_id = 4;</code>
+       * <code>.dstore.values.IntegerValue new_tree_node_id = 4;</code>
        */
       public boolean hasNewTreeNodeId() {
         return newTreeNodeIdBuilder_ != null || newTreeNodeId_ != null;
       }
       /**
-       * <code>optional .dstore.values.IntegerValue new_tree_node_id = 4;</code>
+       * <code>.dstore.values.IntegerValue new_tree_node_id = 4;</code>
        */
       public io.dstore.values.IntegerValue getNewTreeNodeId() {
         if (newTreeNodeIdBuilder_ == null) {
@@ -1701,7 +1701,7 @@ public final class ImInsertNewNodeAd {
         }
       }
       /**
-       * <code>optional .dstore.values.IntegerValue new_tree_node_id = 4;</code>
+       * <code>.dstore.values.IntegerValue new_tree_node_id = 4;</code>
        */
       public Builder setNewTreeNodeId(io.dstore.values.IntegerValue value) {
         if (newTreeNodeIdBuilder_ == null) {
@@ -1717,7 +1717,7 @@ public final class ImInsertNewNodeAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.IntegerValue new_tree_node_id = 4;</code>
+       * <code>.dstore.values.IntegerValue new_tree_node_id = 4;</code>
        */
       public Builder setNewTreeNodeId(
           io.dstore.values.IntegerValue.Builder builderForValue) {
@@ -1731,7 +1731,7 @@ public final class ImInsertNewNodeAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.IntegerValue new_tree_node_id = 4;</code>
+       * <code>.dstore.values.IntegerValue new_tree_node_id = 4;</code>
        */
       public Builder mergeNewTreeNodeId(io.dstore.values.IntegerValue value) {
         if (newTreeNodeIdBuilder_ == null) {
@@ -1749,7 +1749,7 @@ public final class ImInsertNewNodeAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.IntegerValue new_tree_node_id = 4;</code>
+       * <code>.dstore.values.IntegerValue new_tree_node_id = 4;</code>
        */
       public Builder clearNewTreeNodeId() {
         if (newTreeNodeIdBuilder_ == null) {
@@ -1763,7 +1763,7 @@ public final class ImInsertNewNodeAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.IntegerValue new_tree_node_id = 4;</code>
+       * <code>.dstore.values.IntegerValue new_tree_node_id = 4;</code>
        */
       public io.dstore.values.IntegerValue.Builder getNewTreeNodeIdBuilder() {
         
@@ -1771,7 +1771,7 @@ public final class ImInsertNewNodeAd {
         return getNewTreeNodeIdFieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .dstore.values.IntegerValue new_tree_node_id = 4;</code>
+       * <code>.dstore.values.IntegerValue new_tree_node_id = 4;</code>
        */
       public io.dstore.values.IntegerValueOrBuilder getNewTreeNodeIdOrBuilder() {
         if (newTreeNodeIdBuilder_ != null) {
@@ -1782,7 +1782,7 @@ public final class ImInsertNewNodeAd {
         }
       }
       /**
-       * <code>optional .dstore.values.IntegerValue new_tree_node_id = 4;</code>
+       * <code>.dstore.values.IntegerValue new_tree_node_id = 4;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> 
@@ -1800,13 +1800,13 @@ public final class ImInsertNewNodeAd {
 
       private boolean newTreeNodeIdNull_ ;
       /**
-       * <code>optional bool new_tree_node_id_null = 1004;</code>
+       * <code>bool new_tree_node_id_null = 1004;</code>
        */
       public boolean getNewTreeNodeIdNull() {
         return newTreeNodeIdNull_;
       }
       /**
-       * <code>optional bool new_tree_node_id_null = 1004;</code>
+       * <code>bool new_tree_node_id_null = 1004;</code>
        */
       public Builder setNewTreeNodeIdNull(boolean value) {
         
@@ -1815,7 +1815,7 @@ public final class ImInsertNewNodeAd {
         return this;
       }
       /**
-       * <code>optional bool new_tree_node_id_null = 1004;</code>
+       * <code>bool new_tree_node_id_null = 1004;</code>
        */
       public Builder clearNewTreeNodeIdNull() {
         
@@ -1828,13 +1828,13 @@ public final class ImInsertNewNodeAd {
       private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> levelIdBuilder_;
       /**
-       * <code>optional .dstore.values.IntegerValue level_id = 5;</code>
+       * <code>.dstore.values.IntegerValue level_id = 5;</code>
        */
       public boolean hasLevelId() {
         return levelIdBuilder_ != null || levelId_ != null;
       }
       /**
-       * <code>optional .dstore.values.IntegerValue level_id = 5;</code>
+       * <code>.dstore.values.IntegerValue level_id = 5;</code>
        */
       public io.dstore.values.IntegerValue getLevelId() {
         if (levelIdBuilder_ == null) {
@@ -1844,7 +1844,7 @@ public final class ImInsertNewNodeAd {
         }
       }
       /**
-       * <code>optional .dstore.values.IntegerValue level_id = 5;</code>
+       * <code>.dstore.values.IntegerValue level_id = 5;</code>
        */
       public Builder setLevelId(io.dstore.values.IntegerValue value) {
         if (levelIdBuilder_ == null) {
@@ -1860,7 +1860,7 @@ public final class ImInsertNewNodeAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.IntegerValue level_id = 5;</code>
+       * <code>.dstore.values.IntegerValue level_id = 5;</code>
        */
       public Builder setLevelId(
           io.dstore.values.IntegerValue.Builder builderForValue) {
@@ -1874,7 +1874,7 @@ public final class ImInsertNewNodeAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.IntegerValue level_id = 5;</code>
+       * <code>.dstore.values.IntegerValue level_id = 5;</code>
        */
       public Builder mergeLevelId(io.dstore.values.IntegerValue value) {
         if (levelIdBuilder_ == null) {
@@ -1892,7 +1892,7 @@ public final class ImInsertNewNodeAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.IntegerValue level_id = 5;</code>
+       * <code>.dstore.values.IntegerValue level_id = 5;</code>
        */
       public Builder clearLevelId() {
         if (levelIdBuilder_ == null) {
@@ -1906,7 +1906,7 @@ public final class ImInsertNewNodeAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.IntegerValue level_id = 5;</code>
+       * <code>.dstore.values.IntegerValue level_id = 5;</code>
        */
       public io.dstore.values.IntegerValue.Builder getLevelIdBuilder() {
         
@@ -1914,7 +1914,7 @@ public final class ImInsertNewNodeAd {
         return getLevelIdFieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .dstore.values.IntegerValue level_id = 5;</code>
+       * <code>.dstore.values.IntegerValue level_id = 5;</code>
        */
       public io.dstore.values.IntegerValueOrBuilder getLevelIdOrBuilder() {
         if (levelIdBuilder_ != null) {
@@ -1925,7 +1925,7 @@ public final class ImInsertNewNodeAd {
         }
       }
       /**
-       * <code>optional .dstore.values.IntegerValue level_id = 5;</code>
+       * <code>.dstore.values.IntegerValue level_id = 5;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> 
@@ -1943,13 +1943,13 @@ public final class ImInsertNewNodeAd {
 
       private boolean levelIdNull_ ;
       /**
-       * <code>optional bool level_id_null = 1005;</code>
+       * <code>bool level_id_null = 1005;</code>
        */
       public boolean getLevelIdNull() {
         return levelIdNull_;
       }
       /**
-       * <code>optional bool level_id_null = 1005;</code>
+       * <code>bool level_id_null = 1005;</code>
        */
       public Builder setLevelIdNull(boolean value) {
         
@@ -1958,7 +1958,7 @@ public final class ImInsertNewNodeAd {
         return this;
       }
       /**
-       * <code>optional bool level_id_null = 1005;</code>
+       * <code>bool level_id_null = 1005;</code>
        */
       public Builder clearLevelIdNull() {
         
@@ -1971,13 +1971,13 @@ public final class ImInsertNewNodeAd {
       private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> modelNodeBuilder_;
       /**
-       * <code>optional .dstore.values.IntegerValue model_node = 6;</code>
+       * <code>.dstore.values.IntegerValue model_node = 6;</code>
        */
       public boolean hasModelNode() {
         return modelNodeBuilder_ != null || modelNode_ != null;
       }
       /**
-       * <code>optional .dstore.values.IntegerValue model_node = 6;</code>
+       * <code>.dstore.values.IntegerValue model_node = 6;</code>
        */
       public io.dstore.values.IntegerValue getModelNode() {
         if (modelNodeBuilder_ == null) {
@@ -1987,7 +1987,7 @@ public final class ImInsertNewNodeAd {
         }
       }
       /**
-       * <code>optional .dstore.values.IntegerValue model_node = 6;</code>
+       * <code>.dstore.values.IntegerValue model_node = 6;</code>
        */
       public Builder setModelNode(io.dstore.values.IntegerValue value) {
         if (modelNodeBuilder_ == null) {
@@ -2003,7 +2003,7 @@ public final class ImInsertNewNodeAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.IntegerValue model_node = 6;</code>
+       * <code>.dstore.values.IntegerValue model_node = 6;</code>
        */
       public Builder setModelNode(
           io.dstore.values.IntegerValue.Builder builderForValue) {
@@ -2017,7 +2017,7 @@ public final class ImInsertNewNodeAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.IntegerValue model_node = 6;</code>
+       * <code>.dstore.values.IntegerValue model_node = 6;</code>
        */
       public Builder mergeModelNode(io.dstore.values.IntegerValue value) {
         if (modelNodeBuilder_ == null) {
@@ -2035,7 +2035,7 @@ public final class ImInsertNewNodeAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.IntegerValue model_node = 6;</code>
+       * <code>.dstore.values.IntegerValue model_node = 6;</code>
        */
       public Builder clearModelNode() {
         if (modelNodeBuilder_ == null) {
@@ -2049,7 +2049,7 @@ public final class ImInsertNewNodeAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.IntegerValue model_node = 6;</code>
+       * <code>.dstore.values.IntegerValue model_node = 6;</code>
        */
       public io.dstore.values.IntegerValue.Builder getModelNodeBuilder() {
         
@@ -2057,7 +2057,7 @@ public final class ImInsertNewNodeAd {
         return getModelNodeFieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .dstore.values.IntegerValue model_node = 6;</code>
+       * <code>.dstore.values.IntegerValue model_node = 6;</code>
        */
       public io.dstore.values.IntegerValueOrBuilder getModelNodeOrBuilder() {
         if (modelNodeBuilder_ != null) {
@@ -2068,7 +2068,7 @@ public final class ImInsertNewNodeAd {
         }
       }
       /**
-       * <code>optional .dstore.values.IntegerValue model_node = 6;</code>
+       * <code>.dstore.values.IntegerValue model_node = 6;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> 
@@ -2086,13 +2086,13 @@ public final class ImInsertNewNodeAd {
 
       private boolean modelNodeNull_ ;
       /**
-       * <code>optional bool model_node_null = 1006;</code>
+       * <code>bool model_node_null = 1006;</code>
        */
       public boolean getModelNodeNull() {
         return modelNodeNull_;
       }
       /**
-       * <code>optional bool model_node_null = 1006;</code>
+       * <code>bool model_node_null = 1006;</code>
        */
       public Builder setModelNodeNull(boolean value) {
         
@@ -2101,7 +2101,7 @@ public final class ImInsertNewNodeAd {
         return this;
       }
       /**
-       * <code>optional bool model_node_null = 1006;</code>
+       * <code>bool model_node_null = 1006;</code>
        */
       public Builder clearModelNodeNull() {
         
@@ -2114,13 +2114,13 @@ public final class ImInsertNewNodeAd {
       private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.values.BooleanValue, io.dstore.values.BooleanValue.Builder, io.dstore.values.BooleanValueOrBuilder> cloneBuilder_;
       /**
-       * <code>optional .dstore.values.BooleanValue clone = 7;</code>
+       * <code>.dstore.values.BooleanValue clone = 7;</code>
        */
       public boolean hasClone() {
         return cloneBuilder_ != null || clone_ != null;
       }
       /**
-       * <code>optional .dstore.values.BooleanValue clone = 7;</code>
+       * <code>.dstore.values.BooleanValue clone = 7;</code>
        */
       public io.dstore.values.BooleanValue getClone() {
         if (cloneBuilder_ == null) {
@@ -2130,7 +2130,7 @@ public final class ImInsertNewNodeAd {
         }
       }
       /**
-       * <code>optional .dstore.values.BooleanValue clone = 7;</code>
+       * <code>.dstore.values.BooleanValue clone = 7;</code>
        */
       public Builder setClone(io.dstore.values.BooleanValue value) {
         if (cloneBuilder_ == null) {
@@ -2146,7 +2146,7 @@ public final class ImInsertNewNodeAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.BooleanValue clone = 7;</code>
+       * <code>.dstore.values.BooleanValue clone = 7;</code>
        */
       public Builder setClone(
           io.dstore.values.BooleanValue.Builder builderForValue) {
@@ -2160,7 +2160,7 @@ public final class ImInsertNewNodeAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.BooleanValue clone = 7;</code>
+       * <code>.dstore.values.BooleanValue clone = 7;</code>
        */
       public Builder mergeClone(io.dstore.values.BooleanValue value) {
         if (cloneBuilder_ == null) {
@@ -2178,7 +2178,7 @@ public final class ImInsertNewNodeAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.BooleanValue clone = 7;</code>
+       * <code>.dstore.values.BooleanValue clone = 7;</code>
        */
       public Builder clearClone() {
         if (cloneBuilder_ == null) {
@@ -2192,7 +2192,7 @@ public final class ImInsertNewNodeAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.BooleanValue clone = 7;</code>
+       * <code>.dstore.values.BooleanValue clone = 7;</code>
        */
       public io.dstore.values.BooleanValue.Builder getCloneBuilder() {
         
@@ -2200,7 +2200,7 @@ public final class ImInsertNewNodeAd {
         return getCloneFieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .dstore.values.BooleanValue clone = 7;</code>
+       * <code>.dstore.values.BooleanValue clone = 7;</code>
        */
       public io.dstore.values.BooleanValueOrBuilder getCloneOrBuilder() {
         if (cloneBuilder_ != null) {
@@ -2211,7 +2211,7 @@ public final class ImInsertNewNodeAd {
         }
       }
       /**
-       * <code>optional .dstore.values.BooleanValue clone = 7;</code>
+       * <code>.dstore.values.BooleanValue clone = 7;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.values.BooleanValue, io.dstore.values.BooleanValue.Builder, io.dstore.values.BooleanValueOrBuilder> 
@@ -2229,13 +2229,13 @@ public final class ImInsertNewNodeAd {
 
       private boolean cloneNull_ ;
       /**
-       * <code>optional bool clone_null = 1007;</code>
+       * <code>bool clone_null = 1007;</code>
        */
       public boolean getCloneNull() {
         return cloneNull_;
       }
       /**
-       * <code>optional bool clone_null = 1007;</code>
+       * <code>bool clone_null = 1007;</code>
        */
       public Builder setCloneNull(boolean value) {
         
@@ -2244,7 +2244,7 @@ public final class ImInsertNewNodeAd {
         return this;
       }
       /**
-       * <code>optional bool clone_null = 1007;</code>
+       * <code>bool clone_null = 1007;</code>
        */
       public Builder clearCloneNull() {
         
@@ -2257,13 +2257,13 @@ public final class ImInsertNewNodeAd {
       private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.values.BooleanValue, io.dstore.values.BooleanValue.Builder, io.dstore.values.BooleanValueOrBuilder> includeSubNodesBuilder_;
       /**
-       * <code>optional .dstore.values.BooleanValue include_sub_nodes = 8;</code>
+       * <code>.dstore.values.BooleanValue include_sub_nodes = 8;</code>
        */
       public boolean hasIncludeSubNodes() {
         return includeSubNodesBuilder_ != null || includeSubNodes_ != null;
       }
       /**
-       * <code>optional .dstore.values.BooleanValue include_sub_nodes = 8;</code>
+       * <code>.dstore.values.BooleanValue include_sub_nodes = 8;</code>
        */
       public io.dstore.values.BooleanValue getIncludeSubNodes() {
         if (includeSubNodesBuilder_ == null) {
@@ -2273,7 +2273,7 @@ public final class ImInsertNewNodeAd {
         }
       }
       /**
-       * <code>optional .dstore.values.BooleanValue include_sub_nodes = 8;</code>
+       * <code>.dstore.values.BooleanValue include_sub_nodes = 8;</code>
        */
       public Builder setIncludeSubNodes(io.dstore.values.BooleanValue value) {
         if (includeSubNodesBuilder_ == null) {
@@ -2289,7 +2289,7 @@ public final class ImInsertNewNodeAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.BooleanValue include_sub_nodes = 8;</code>
+       * <code>.dstore.values.BooleanValue include_sub_nodes = 8;</code>
        */
       public Builder setIncludeSubNodes(
           io.dstore.values.BooleanValue.Builder builderForValue) {
@@ -2303,7 +2303,7 @@ public final class ImInsertNewNodeAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.BooleanValue include_sub_nodes = 8;</code>
+       * <code>.dstore.values.BooleanValue include_sub_nodes = 8;</code>
        */
       public Builder mergeIncludeSubNodes(io.dstore.values.BooleanValue value) {
         if (includeSubNodesBuilder_ == null) {
@@ -2321,7 +2321,7 @@ public final class ImInsertNewNodeAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.BooleanValue include_sub_nodes = 8;</code>
+       * <code>.dstore.values.BooleanValue include_sub_nodes = 8;</code>
        */
       public Builder clearIncludeSubNodes() {
         if (includeSubNodesBuilder_ == null) {
@@ -2335,7 +2335,7 @@ public final class ImInsertNewNodeAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.BooleanValue include_sub_nodes = 8;</code>
+       * <code>.dstore.values.BooleanValue include_sub_nodes = 8;</code>
        */
       public io.dstore.values.BooleanValue.Builder getIncludeSubNodesBuilder() {
         
@@ -2343,7 +2343,7 @@ public final class ImInsertNewNodeAd {
         return getIncludeSubNodesFieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .dstore.values.BooleanValue include_sub_nodes = 8;</code>
+       * <code>.dstore.values.BooleanValue include_sub_nodes = 8;</code>
        */
       public io.dstore.values.BooleanValueOrBuilder getIncludeSubNodesOrBuilder() {
         if (includeSubNodesBuilder_ != null) {
@@ -2354,7 +2354,7 @@ public final class ImInsertNewNodeAd {
         }
       }
       /**
-       * <code>optional .dstore.values.BooleanValue include_sub_nodes = 8;</code>
+       * <code>.dstore.values.BooleanValue include_sub_nodes = 8;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.values.BooleanValue, io.dstore.values.BooleanValue.Builder, io.dstore.values.BooleanValueOrBuilder> 
@@ -2372,13 +2372,13 @@ public final class ImInsertNewNodeAd {
 
       private boolean includeSubNodesNull_ ;
       /**
-       * <code>optional bool include_sub_nodes_null = 1008;</code>
+       * <code>bool include_sub_nodes_null = 1008;</code>
        */
       public boolean getIncludeSubNodesNull() {
         return includeSubNodesNull_;
       }
       /**
-       * <code>optional bool include_sub_nodes_null = 1008;</code>
+       * <code>bool include_sub_nodes_null = 1008;</code>
        */
       public Builder setIncludeSubNodesNull(boolean value) {
         
@@ -2387,7 +2387,7 @@ public final class ImInsertNewNodeAd {
         return this;
       }
       /**
-       * <code>optional bool include_sub_nodes_null = 1008;</code>
+       * <code>bool include_sub_nodes_null = 1008;</code>
        */
       public Builder clearIncludeSubNodesNull() {
         
@@ -2521,28 +2521,28 @@ public final class ImInsertNewNodeAd {
         int index);
 
     /**
-     * <code>optional .dstore.values.IntegerValue new_node_id = 101;</code>
+     * <code>.dstore.values.IntegerValue new_node_id = 101;</code>
      */
     boolean hasNewNodeId();
     /**
-     * <code>optional .dstore.values.IntegerValue new_node_id = 101;</code>
+     * <code>.dstore.values.IntegerValue new_node_id = 101;</code>
      */
     io.dstore.values.IntegerValue getNewNodeId();
     /**
-     * <code>optional .dstore.values.IntegerValue new_node_id = 101;</code>
+     * <code>.dstore.values.IntegerValue new_node_id = 101;</code>
      */
     io.dstore.values.IntegerValueOrBuilder getNewNodeIdOrBuilder();
 
     /**
-     * <code>optional .dstore.values.IntegerValue new_tree_node_id = 102;</code>
+     * <code>.dstore.values.IntegerValue new_tree_node_id = 102;</code>
      */
     boolean hasNewTreeNodeId();
     /**
-     * <code>optional .dstore.values.IntegerValue new_tree_node_id = 102;</code>
+     * <code>.dstore.values.IntegerValue new_tree_node_id = 102;</code>
      */
     io.dstore.values.IntegerValue getNewTreeNodeId();
     /**
-     * <code>optional .dstore.values.IntegerValue new_tree_node_id = 102;</code>
+     * <code>.dstore.values.IntegerValue new_tree_node_id = 102;</code>
      */
     io.dstore.values.IntegerValueOrBuilder getNewTreeNodeIdOrBuilder();
   }
@@ -2678,7 +2678,7 @@ public final class ImInsertNewNodeAd {
         com.google.protobuf.MessageOrBuilder {
 
       /**
-       * <code>optional int32 row_id = 10000;</code>
+       * <code>int32 row_id = 10000;</code>
        */
       int getRowId();
     }
@@ -2753,7 +2753,7 @@ public final class ImInsertNewNodeAd {
       public static final int ROW_ID_FIELD_NUMBER = 10000;
       private int rowId_;
       /**
-       * <code>optional int32 row_id = 10000;</code>
+       * <code>int32 row_id = 10000;</code>
        */
       public int getRowId() {
         return rowId_;
@@ -2812,7 +2812,7 @@ public final class ImInsertNewNodeAd {
           return memoizedHashCode;
         }
         int hash = 41;
-        hash = (19 * hash) + getDescriptorForType().hashCode();
+        hash = (19 * hash) + getDescriptor().hashCode();
         hash = (37 * hash) + ROW_ID_FIELD_NUMBER;
         hash = (53 * hash) + getRowId();
         hash = (29 * hash) + unknownFields.hashCode();
@@ -3030,13 +3030,13 @@ public final class ImInsertNewNodeAd {
 
         private int rowId_ ;
         /**
-         * <code>optional int32 row_id = 10000;</code>
+         * <code>int32 row_id = 10000;</code>
          */
         public int getRowId() {
           return rowId_;
         }
         /**
-         * <code>optional int32 row_id = 10000;</code>
+         * <code>int32 row_id = 10000;</code>
          */
         public Builder setRowId(int value) {
           
@@ -3045,7 +3045,7 @@ public final class ImInsertNewNodeAd {
           return this;
         }
         /**
-         * <code>optional int32 row_id = 10000;</code>
+         * <code>int32 row_id = 10000;</code>
          */
         public Builder clearRowId() {
           
@@ -3211,19 +3211,19 @@ public final class ImInsertNewNodeAd {
     public static final int NEW_NODE_ID_FIELD_NUMBER = 101;
     private io.dstore.values.IntegerValue newNodeId_;
     /**
-     * <code>optional .dstore.values.IntegerValue new_node_id = 101;</code>
+     * <code>.dstore.values.IntegerValue new_node_id = 101;</code>
      */
     public boolean hasNewNodeId() {
       return newNodeId_ != null;
     }
     /**
-     * <code>optional .dstore.values.IntegerValue new_node_id = 101;</code>
+     * <code>.dstore.values.IntegerValue new_node_id = 101;</code>
      */
     public io.dstore.values.IntegerValue getNewNodeId() {
       return newNodeId_ == null ? io.dstore.values.IntegerValue.getDefaultInstance() : newNodeId_;
     }
     /**
-     * <code>optional .dstore.values.IntegerValue new_node_id = 101;</code>
+     * <code>.dstore.values.IntegerValue new_node_id = 101;</code>
      */
     public io.dstore.values.IntegerValueOrBuilder getNewNodeIdOrBuilder() {
       return getNewNodeId();
@@ -3232,19 +3232,19 @@ public final class ImInsertNewNodeAd {
     public static final int NEW_TREE_NODE_ID_FIELD_NUMBER = 102;
     private io.dstore.values.IntegerValue newTreeNodeId_;
     /**
-     * <code>optional .dstore.values.IntegerValue new_tree_node_id = 102;</code>
+     * <code>.dstore.values.IntegerValue new_tree_node_id = 102;</code>
      */
     public boolean hasNewTreeNodeId() {
       return newTreeNodeId_ != null;
     }
     /**
-     * <code>optional .dstore.values.IntegerValue new_tree_node_id = 102;</code>
+     * <code>.dstore.values.IntegerValue new_tree_node_id = 102;</code>
      */
     public io.dstore.values.IntegerValue getNewTreeNodeId() {
       return newTreeNodeId_ == null ? io.dstore.values.IntegerValue.getDefaultInstance() : newTreeNodeId_;
     }
     /**
-     * <code>optional .dstore.values.IntegerValue new_tree_node_id = 102;</code>
+     * <code>.dstore.values.IntegerValue new_tree_node_id = 102;</code>
      */
     public io.dstore.values.IntegerValueOrBuilder getNewTreeNodeIdOrBuilder() {
       return getNewTreeNodeId();
@@ -3345,7 +3345,7 @@ public final class ImInsertNewNodeAd {
         return memoizedHashCode;
       }
       int hash = 41;
-      hash = (19 * hash) + getDescriptorForType().hashCode();
+      hash = (19 * hash) + getDescriptor().hashCode();
       if (getMetaInformationCount() > 0) {
         hash = (37 * hash) + META_INFORMATION_FIELD_NUMBER;
         hash = (53 * hash) + getMetaInformationList().hashCode();
@@ -4455,13 +4455,13 @@ public final class ImInsertNewNodeAd {
       private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> newNodeIdBuilder_;
       /**
-       * <code>optional .dstore.values.IntegerValue new_node_id = 101;</code>
+       * <code>.dstore.values.IntegerValue new_node_id = 101;</code>
        */
       public boolean hasNewNodeId() {
         return newNodeIdBuilder_ != null || newNodeId_ != null;
       }
       /**
-       * <code>optional .dstore.values.IntegerValue new_node_id = 101;</code>
+       * <code>.dstore.values.IntegerValue new_node_id = 101;</code>
        */
       public io.dstore.values.IntegerValue getNewNodeId() {
         if (newNodeIdBuilder_ == null) {
@@ -4471,7 +4471,7 @@ public final class ImInsertNewNodeAd {
         }
       }
       /**
-       * <code>optional .dstore.values.IntegerValue new_node_id = 101;</code>
+       * <code>.dstore.values.IntegerValue new_node_id = 101;</code>
        */
       public Builder setNewNodeId(io.dstore.values.IntegerValue value) {
         if (newNodeIdBuilder_ == null) {
@@ -4487,7 +4487,7 @@ public final class ImInsertNewNodeAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.IntegerValue new_node_id = 101;</code>
+       * <code>.dstore.values.IntegerValue new_node_id = 101;</code>
        */
       public Builder setNewNodeId(
           io.dstore.values.IntegerValue.Builder builderForValue) {
@@ -4501,7 +4501,7 @@ public final class ImInsertNewNodeAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.IntegerValue new_node_id = 101;</code>
+       * <code>.dstore.values.IntegerValue new_node_id = 101;</code>
        */
       public Builder mergeNewNodeId(io.dstore.values.IntegerValue value) {
         if (newNodeIdBuilder_ == null) {
@@ -4519,7 +4519,7 @@ public final class ImInsertNewNodeAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.IntegerValue new_node_id = 101;</code>
+       * <code>.dstore.values.IntegerValue new_node_id = 101;</code>
        */
       public Builder clearNewNodeId() {
         if (newNodeIdBuilder_ == null) {
@@ -4533,7 +4533,7 @@ public final class ImInsertNewNodeAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.IntegerValue new_node_id = 101;</code>
+       * <code>.dstore.values.IntegerValue new_node_id = 101;</code>
        */
       public io.dstore.values.IntegerValue.Builder getNewNodeIdBuilder() {
         
@@ -4541,7 +4541,7 @@ public final class ImInsertNewNodeAd {
         return getNewNodeIdFieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .dstore.values.IntegerValue new_node_id = 101;</code>
+       * <code>.dstore.values.IntegerValue new_node_id = 101;</code>
        */
       public io.dstore.values.IntegerValueOrBuilder getNewNodeIdOrBuilder() {
         if (newNodeIdBuilder_ != null) {
@@ -4552,7 +4552,7 @@ public final class ImInsertNewNodeAd {
         }
       }
       /**
-       * <code>optional .dstore.values.IntegerValue new_node_id = 101;</code>
+       * <code>.dstore.values.IntegerValue new_node_id = 101;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> 
@@ -4572,13 +4572,13 @@ public final class ImInsertNewNodeAd {
       private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> newTreeNodeIdBuilder_;
       /**
-       * <code>optional .dstore.values.IntegerValue new_tree_node_id = 102;</code>
+       * <code>.dstore.values.IntegerValue new_tree_node_id = 102;</code>
        */
       public boolean hasNewTreeNodeId() {
         return newTreeNodeIdBuilder_ != null || newTreeNodeId_ != null;
       }
       /**
-       * <code>optional .dstore.values.IntegerValue new_tree_node_id = 102;</code>
+       * <code>.dstore.values.IntegerValue new_tree_node_id = 102;</code>
        */
       public io.dstore.values.IntegerValue getNewTreeNodeId() {
         if (newTreeNodeIdBuilder_ == null) {
@@ -4588,7 +4588,7 @@ public final class ImInsertNewNodeAd {
         }
       }
       /**
-       * <code>optional .dstore.values.IntegerValue new_tree_node_id = 102;</code>
+       * <code>.dstore.values.IntegerValue new_tree_node_id = 102;</code>
        */
       public Builder setNewTreeNodeId(io.dstore.values.IntegerValue value) {
         if (newTreeNodeIdBuilder_ == null) {
@@ -4604,7 +4604,7 @@ public final class ImInsertNewNodeAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.IntegerValue new_tree_node_id = 102;</code>
+       * <code>.dstore.values.IntegerValue new_tree_node_id = 102;</code>
        */
       public Builder setNewTreeNodeId(
           io.dstore.values.IntegerValue.Builder builderForValue) {
@@ -4618,7 +4618,7 @@ public final class ImInsertNewNodeAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.IntegerValue new_tree_node_id = 102;</code>
+       * <code>.dstore.values.IntegerValue new_tree_node_id = 102;</code>
        */
       public Builder mergeNewTreeNodeId(io.dstore.values.IntegerValue value) {
         if (newTreeNodeIdBuilder_ == null) {
@@ -4636,7 +4636,7 @@ public final class ImInsertNewNodeAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.IntegerValue new_tree_node_id = 102;</code>
+       * <code>.dstore.values.IntegerValue new_tree_node_id = 102;</code>
        */
       public Builder clearNewTreeNodeId() {
         if (newTreeNodeIdBuilder_ == null) {
@@ -4650,7 +4650,7 @@ public final class ImInsertNewNodeAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.IntegerValue new_tree_node_id = 102;</code>
+       * <code>.dstore.values.IntegerValue new_tree_node_id = 102;</code>
        */
       public io.dstore.values.IntegerValue.Builder getNewTreeNodeIdBuilder() {
         
@@ -4658,7 +4658,7 @@ public final class ImInsertNewNodeAd {
         return getNewTreeNodeIdFieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .dstore.values.IntegerValue new_tree_node_id = 102;</code>
+       * <code>.dstore.values.IntegerValue new_tree_node_id = 102;</code>
        */
       public io.dstore.values.IntegerValueOrBuilder getNewTreeNodeIdOrBuilder() {
         if (newTreeNodeIdBuilder_ != null) {
@@ -4669,7 +4669,7 @@ public final class ImInsertNewNodeAd {
         }
       }
       /**
-       * <code>optional .dstore.values.IntegerValue new_tree_node_id = 102;</code>
+       * <code>.dstore.values.IntegerValue new_tree_node_id = 102;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> 

@@ -19,92 +19,92 @@ public final class CoGetCommunityForumsPu {
       com.google.protobuf.MessageOrBuilder {
 
     /**
-     * <code>optional .dstore.values.IntegerValue community_id = 1;</code>
+     * <code>.dstore.values.IntegerValue community_id = 1;</code>
      */
     boolean hasCommunityId();
     /**
-     * <code>optional .dstore.values.IntegerValue community_id = 1;</code>
+     * <code>.dstore.values.IntegerValue community_id = 1;</code>
      */
     io.dstore.values.IntegerValue getCommunityId();
     /**
-     * <code>optional .dstore.values.IntegerValue community_id = 1;</code>
+     * <code>.dstore.values.IntegerValue community_id = 1;</code>
      */
     io.dstore.values.IntegerValueOrBuilder getCommunityIdOrBuilder();
 
     /**
-     * <code>optional bool community_id_null = 1001;</code>
+     * <code>bool community_id_null = 1001;</code>
      */
     boolean getCommunityIdNull();
 
     /**
-     * <code>optional .dstore.values.StringValue unique_id = 2;</code>
+     * <code>.dstore.values.StringValue unique_id = 2;</code>
      */
     boolean hasUniqueId();
     /**
-     * <code>optional .dstore.values.StringValue unique_id = 2;</code>
+     * <code>.dstore.values.StringValue unique_id = 2;</code>
      */
     io.dstore.values.StringValue getUniqueId();
     /**
-     * <code>optional .dstore.values.StringValue unique_id = 2;</code>
+     * <code>.dstore.values.StringValue unique_id = 2;</code>
      */
     io.dstore.values.StringValueOrBuilder getUniqueIdOrBuilder();
 
     /**
-     * <code>optional bool unique_id_null = 1002;</code>
+     * <code>bool unique_id_null = 1002;</code>
      */
     boolean getUniqueIdNull();
 
     /**
-     * <code>optional .dstore.values.StringValue person_identification_values = 3;</code>
+     * <code>.dstore.values.StringValue person_identification_values = 3;</code>
      */
     boolean hasPersonIdentificationValues();
     /**
-     * <code>optional .dstore.values.StringValue person_identification_values = 3;</code>
+     * <code>.dstore.values.StringValue person_identification_values = 3;</code>
      */
     io.dstore.values.StringValue getPersonIdentificationValues();
     /**
-     * <code>optional .dstore.values.StringValue person_identification_values = 3;</code>
+     * <code>.dstore.values.StringValue person_identification_values = 3;</code>
      */
     io.dstore.values.StringValueOrBuilder getPersonIdentificationValuesOrBuilder();
 
     /**
-     * <code>optional bool person_identification_values_null = 1003;</code>
+     * <code>bool person_identification_values_null = 1003;</code>
      */
     boolean getPersonIdentificationValuesNull();
 
     /**
-     * <code>optional .dstore.values.IntegerValue community_member_id = 4;</code>
+     * <code>.dstore.values.IntegerValue community_member_id = 4;</code>
      */
     boolean hasCommunityMemberId();
     /**
-     * <code>optional .dstore.values.IntegerValue community_member_id = 4;</code>
+     * <code>.dstore.values.IntegerValue community_member_id = 4;</code>
      */
     io.dstore.values.IntegerValue getCommunityMemberId();
     /**
-     * <code>optional .dstore.values.IntegerValue community_member_id = 4;</code>
+     * <code>.dstore.values.IntegerValue community_member_id = 4;</code>
      */
     io.dstore.values.IntegerValueOrBuilder getCommunityMemberIdOrBuilder();
 
     /**
-     * <code>optional bool community_member_id_null = 1004;</code>
+     * <code>bool community_member_id_null = 1004;</code>
      */
     boolean getCommunityMemberIdNull();
 
     /**
-     * <code>optional .dstore.values.StringValue separator_in_ident_vals = 5;</code>
+     * <code>.dstore.values.StringValue separator_in_ident_vals = 5;</code>
      */
     boolean hasSeparatorInIdentVals();
     /**
-     * <code>optional .dstore.values.StringValue separator_in_ident_vals = 5;</code>
+     * <code>.dstore.values.StringValue separator_in_ident_vals = 5;</code>
      */
     io.dstore.values.StringValue getSeparatorInIdentVals();
     /**
-     * <code>optional .dstore.values.StringValue separator_in_ident_vals = 5;</code>
+     * <code>.dstore.values.StringValue separator_in_ident_vals = 5;</code>
      */
     io.dstore.values.StringValueOrBuilder getSeparatorInIdentValsOrBuilder();
 
     /**
-     * <code>optional bool separator_in_ident_vals_null = 1005;</code>
+     * <code>bool separator_in_ident_vals_null = 1005;</code>
      */
     boolean getSeparatorInIdentValsNull();
   }
@@ -268,19 +268,19 @@ public final class CoGetCommunityForumsPu {
     public static final int COMMUNITY_ID_FIELD_NUMBER = 1;
     private io.dstore.values.IntegerValue communityId_;
     /**
-     * <code>optional .dstore.values.IntegerValue community_id = 1;</code>
+     * <code>.dstore.values.IntegerValue community_id = 1;</code>
      */
     public boolean hasCommunityId() {
       return communityId_ != null;
     }
     /**
-     * <code>optional .dstore.values.IntegerValue community_id = 1;</code>
+     * <code>.dstore.values.IntegerValue community_id = 1;</code>
      */
     public io.dstore.values.IntegerValue getCommunityId() {
       return communityId_ == null ? io.dstore.values.IntegerValue.getDefaultInstance() : communityId_;
     }
     /**
-     * <code>optional .dstore.values.IntegerValue community_id = 1;</code>
+     * <code>.dstore.values.IntegerValue community_id = 1;</code>
      */
     public io.dstore.values.IntegerValueOrBuilder getCommunityIdOrBuilder() {
       return getCommunityId();
@@ -289,7 +289,7 @@ public final class CoGetCommunityForumsPu {
     public static final int COMMUNITY_ID_NULL_FIELD_NUMBER = 1001;
     private boolean communityIdNull_;
     /**
-     * <code>optional bool community_id_null = 1001;</code>
+     * <code>bool community_id_null = 1001;</code>
      */
     public boolean getCommunityIdNull() {
       return communityIdNull_;
@@ -298,19 +298,19 @@ public final class CoGetCommunityForumsPu {
     public static final int UNIQUE_ID_FIELD_NUMBER = 2;
     private io.dstore.values.StringValue uniqueId_;
     /**
-     * <code>optional .dstore.values.StringValue unique_id = 2;</code>
+     * <code>.dstore.values.StringValue unique_id = 2;</code>
      */
     public boolean hasUniqueId() {
       return uniqueId_ != null;
     }
     /**
-     * <code>optional .dstore.values.StringValue unique_id = 2;</code>
+     * <code>.dstore.values.StringValue unique_id = 2;</code>
      */
     public io.dstore.values.StringValue getUniqueId() {
       return uniqueId_ == null ? io.dstore.values.StringValue.getDefaultInstance() : uniqueId_;
     }
     /**
-     * <code>optional .dstore.values.StringValue unique_id = 2;</code>
+     * <code>.dstore.values.StringValue unique_id = 2;</code>
      */
     public io.dstore.values.StringValueOrBuilder getUniqueIdOrBuilder() {
       return getUniqueId();
@@ -319,7 +319,7 @@ public final class CoGetCommunityForumsPu {
     public static final int UNIQUE_ID_NULL_FIELD_NUMBER = 1002;
     private boolean uniqueIdNull_;
     /**
-     * <code>optional bool unique_id_null = 1002;</code>
+     * <code>bool unique_id_null = 1002;</code>
      */
     public boolean getUniqueIdNull() {
       return uniqueIdNull_;
@@ -328,19 +328,19 @@ public final class CoGetCommunityForumsPu {
     public static final int PERSON_IDENTIFICATION_VALUES_FIELD_NUMBER = 3;
     private io.dstore.values.StringValue personIdentificationValues_;
     /**
-     * <code>optional .dstore.values.StringValue person_identification_values = 3;</code>
+     * <code>.dstore.values.StringValue person_identification_values = 3;</code>
      */
     public boolean hasPersonIdentificationValues() {
       return personIdentificationValues_ != null;
     }
     /**
-     * <code>optional .dstore.values.StringValue person_identification_values = 3;</code>
+     * <code>.dstore.values.StringValue person_identification_values = 3;</code>
      */
     public io.dstore.values.StringValue getPersonIdentificationValues() {
       return personIdentificationValues_ == null ? io.dstore.values.StringValue.getDefaultInstance() : personIdentificationValues_;
     }
     /**
-     * <code>optional .dstore.values.StringValue person_identification_values = 3;</code>
+     * <code>.dstore.values.StringValue person_identification_values = 3;</code>
      */
     public io.dstore.values.StringValueOrBuilder getPersonIdentificationValuesOrBuilder() {
       return getPersonIdentificationValues();
@@ -349,7 +349,7 @@ public final class CoGetCommunityForumsPu {
     public static final int PERSON_IDENTIFICATION_VALUES_NULL_FIELD_NUMBER = 1003;
     private boolean personIdentificationValuesNull_;
     /**
-     * <code>optional bool person_identification_values_null = 1003;</code>
+     * <code>bool person_identification_values_null = 1003;</code>
      */
     public boolean getPersonIdentificationValuesNull() {
       return personIdentificationValuesNull_;
@@ -358,19 +358,19 @@ public final class CoGetCommunityForumsPu {
     public static final int COMMUNITY_MEMBER_ID_FIELD_NUMBER = 4;
     private io.dstore.values.IntegerValue communityMemberId_;
     /**
-     * <code>optional .dstore.values.IntegerValue community_member_id = 4;</code>
+     * <code>.dstore.values.IntegerValue community_member_id = 4;</code>
      */
     public boolean hasCommunityMemberId() {
       return communityMemberId_ != null;
     }
     /**
-     * <code>optional .dstore.values.IntegerValue community_member_id = 4;</code>
+     * <code>.dstore.values.IntegerValue community_member_id = 4;</code>
      */
     public io.dstore.values.IntegerValue getCommunityMemberId() {
       return communityMemberId_ == null ? io.dstore.values.IntegerValue.getDefaultInstance() : communityMemberId_;
     }
     /**
-     * <code>optional .dstore.values.IntegerValue community_member_id = 4;</code>
+     * <code>.dstore.values.IntegerValue community_member_id = 4;</code>
      */
     public io.dstore.values.IntegerValueOrBuilder getCommunityMemberIdOrBuilder() {
       return getCommunityMemberId();
@@ -379,7 +379,7 @@ public final class CoGetCommunityForumsPu {
     public static final int COMMUNITY_MEMBER_ID_NULL_FIELD_NUMBER = 1004;
     private boolean communityMemberIdNull_;
     /**
-     * <code>optional bool community_member_id_null = 1004;</code>
+     * <code>bool community_member_id_null = 1004;</code>
      */
     public boolean getCommunityMemberIdNull() {
       return communityMemberIdNull_;
@@ -388,19 +388,19 @@ public final class CoGetCommunityForumsPu {
     public static final int SEPARATOR_IN_IDENT_VALS_FIELD_NUMBER = 5;
     private io.dstore.values.StringValue separatorInIdentVals_;
     /**
-     * <code>optional .dstore.values.StringValue separator_in_ident_vals = 5;</code>
+     * <code>.dstore.values.StringValue separator_in_ident_vals = 5;</code>
      */
     public boolean hasSeparatorInIdentVals() {
       return separatorInIdentVals_ != null;
     }
     /**
-     * <code>optional .dstore.values.StringValue separator_in_ident_vals = 5;</code>
+     * <code>.dstore.values.StringValue separator_in_ident_vals = 5;</code>
      */
     public io.dstore.values.StringValue getSeparatorInIdentVals() {
       return separatorInIdentVals_ == null ? io.dstore.values.StringValue.getDefaultInstance() : separatorInIdentVals_;
     }
     /**
-     * <code>optional .dstore.values.StringValue separator_in_ident_vals = 5;</code>
+     * <code>.dstore.values.StringValue separator_in_ident_vals = 5;</code>
      */
     public io.dstore.values.StringValueOrBuilder getSeparatorInIdentValsOrBuilder() {
       return getSeparatorInIdentVals();
@@ -409,7 +409,7 @@ public final class CoGetCommunityForumsPu {
     public static final int SEPARATOR_IN_IDENT_VALS_NULL_FIELD_NUMBER = 1005;
     private boolean separatorInIdentValsNull_;
     /**
-     * <code>optional bool separator_in_ident_vals_null = 1005;</code>
+     * <code>bool separator_in_ident_vals_null = 1005;</code>
      */
     public boolean getSeparatorInIdentValsNull() {
       return separatorInIdentValsNull_;
@@ -564,7 +564,7 @@ public final class CoGetCommunityForumsPu {
         return memoizedHashCode;
       }
       int hash = 41;
-      hash = (19 * hash) + getDescriptorForType().hashCode();
+      hash = (19 * hash) + getDescriptor().hashCode();
       if (hasCommunityId()) {
         hash = (37 * hash) + COMMUNITY_ID_FIELD_NUMBER;
         hash = (53 * hash) + getCommunityId().hashCode();
@@ -911,13 +911,13 @@ public final class CoGetCommunityForumsPu {
       private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> communityIdBuilder_;
       /**
-       * <code>optional .dstore.values.IntegerValue community_id = 1;</code>
+       * <code>.dstore.values.IntegerValue community_id = 1;</code>
        */
       public boolean hasCommunityId() {
         return communityIdBuilder_ != null || communityId_ != null;
       }
       /**
-       * <code>optional .dstore.values.IntegerValue community_id = 1;</code>
+       * <code>.dstore.values.IntegerValue community_id = 1;</code>
        */
       public io.dstore.values.IntegerValue getCommunityId() {
         if (communityIdBuilder_ == null) {
@@ -927,7 +927,7 @@ public final class CoGetCommunityForumsPu {
         }
       }
       /**
-       * <code>optional .dstore.values.IntegerValue community_id = 1;</code>
+       * <code>.dstore.values.IntegerValue community_id = 1;</code>
        */
       public Builder setCommunityId(io.dstore.values.IntegerValue value) {
         if (communityIdBuilder_ == null) {
@@ -943,7 +943,7 @@ public final class CoGetCommunityForumsPu {
         return this;
       }
       /**
-       * <code>optional .dstore.values.IntegerValue community_id = 1;</code>
+       * <code>.dstore.values.IntegerValue community_id = 1;</code>
        */
       public Builder setCommunityId(
           io.dstore.values.IntegerValue.Builder builderForValue) {
@@ -957,7 +957,7 @@ public final class CoGetCommunityForumsPu {
         return this;
       }
       /**
-       * <code>optional .dstore.values.IntegerValue community_id = 1;</code>
+       * <code>.dstore.values.IntegerValue community_id = 1;</code>
        */
       public Builder mergeCommunityId(io.dstore.values.IntegerValue value) {
         if (communityIdBuilder_ == null) {
@@ -975,7 +975,7 @@ public final class CoGetCommunityForumsPu {
         return this;
       }
       /**
-       * <code>optional .dstore.values.IntegerValue community_id = 1;</code>
+       * <code>.dstore.values.IntegerValue community_id = 1;</code>
        */
       public Builder clearCommunityId() {
         if (communityIdBuilder_ == null) {
@@ -989,7 +989,7 @@ public final class CoGetCommunityForumsPu {
         return this;
       }
       /**
-       * <code>optional .dstore.values.IntegerValue community_id = 1;</code>
+       * <code>.dstore.values.IntegerValue community_id = 1;</code>
        */
       public io.dstore.values.IntegerValue.Builder getCommunityIdBuilder() {
         
@@ -997,7 +997,7 @@ public final class CoGetCommunityForumsPu {
         return getCommunityIdFieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .dstore.values.IntegerValue community_id = 1;</code>
+       * <code>.dstore.values.IntegerValue community_id = 1;</code>
        */
       public io.dstore.values.IntegerValueOrBuilder getCommunityIdOrBuilder() {
         if (communityIdBuilder_ != null) {
@@ -1008,7 +1008,7 @@ public final class CoGetCommunityForumsPu {
         }
       }
       /**
-       * <code>optional .dstore.values.IntegerValue community_id = 1;</code>
+       * <code>.dstore.values.IntegerValue community_id = 1;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> 
@@ -1026,13 +1026,13 @@ public final class CoGetCommunityForumsPu {
 
       private boolean communityIdNull_ ;
       /**
-       * <code>optional bool community_id_null = 1001;</code>
+       * <code>bool community_id_null = 1001;</code>
        */
       public boolean getCommunityIdNull() {
         return communityIdNull_;
       }
       /**
-       * <code>optional bool community_id_null = 1001;</code>
+       * <code>bool community_id_null = 1001;</code>
        */
       public Builder setCommunityIdNull(boolean value) {
         
@@ -1041,7 +1041,7 @@ public final class CoGetCommunityForumsPu {
         return this;
       }
       /**
-       * <code>optional bool community_id_null = 1001;</code>
+       * <code>bool community_id_null = 1001;</code>
        */
       public Builder clearCommunityIdNull() {
         
@@ -1054,13 +1054,13 @@ public final class CoGetCommunityForumsPu {
       private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.values.StringValue, io.dstore.values.StringValue.Builder, io.dstore.values.StringValueOrBuilder> uniqueIdBuilder_;
       /**
-       * <code>optional .dstore.values.StringValue unique_id = 2;</code>
+       * <code>.dstore.values.StringValue unique_id = 2;</code>
        */
       public boolean hasUniqueId() {
         return uniqueIdBuilder_ != null || uniqueId_ != null;
       }
       /**
-       * <code>optional .dstore.values.StringValue unique_id = 2;</code>
+       * <code>.dstore.values.StringValue unique_id = 2;</code>
        */
       public io.dstore.values.StringValue getUniqueId() {
         if (uniqueIdBuilder_ == null) {
@@ -1070,7 +1070,7 @@ public final class CoGetCommunityForumsPu {
         }
       }
       /**
-       * <code>optional .dstore.values.StringValue unique_id = 2;</code>
+       * <code>.dstore.values.StringValue unique_id = 2;</code>
        */
       public Builder setUniqueId(io.dstore.values.StringValue value) {
         if (uniqueIdBuilder_ == null) {
@@ -1086,7 +1086,7 @@ public final class CoGetCommunityForumsPu {
         return this;
       }
       /**
-       * <code>optional .dstore.values.StringValue unique_id = 2;</code>
+       * <code>.dstore.values.StringValue unique_id = 2;</code>
        */
       public Builder setUniqueId(
           io.dstore.values.StringValue.Builder builderForValue) {
@@ -1100,7 +1100,7 @@ public final class CoGetCommunityForumsPu {
         return this;
       }
       /**
-       * <code>optional .dstore.values.StringValue unique_id = 2;</code>
+       * <code>.dstore.values.StringValue unique_id = 2;</code>
        */
       public Builder mergeUniqueId(io.dstore.values.StringValue value) {
         if (uniqueIdBuilder_ == null) {
@@ -1118,7 +1118,7 @@ public final class CoGetCommunityForumsPu {
         return this;
       }
       /**
-       * <code>optional .dstore.values.StringValue unique_id = 2;</code>
+       * <code>.dstore.values.StringValue unique_id = 2;</code>
        */
       public Builder clearUniqueId() {
         if (uniqueIdBuilder_ == null) {
@@ -1132,7 +1132,7 @@ public final class CoGetCommunityForumsPu {
         return this;
       }
       /**
-       * <code>optional .dstore.values.StringValue unique_id = 2;</code>
+       * <code>.dstore.values.StringValue unique_id = 2;</code>
        */
       public io.dstore.values.StringValue.Builder getUniqueIdBuilder() {
         
@@ -1140,7 +1140,7 @@ public final class CoGetCommunityForumsPu {
         return getUniqueIdFieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .dstore.values.StringValue unique_id = 2;</code>
+       * <code>.dstore.values.StringValue unique_id = 2;</code>
        */
       public io.dstore.values.StringValueOrBuilder getUniqueIdOrBuilder() {
         if (uniqueIdBuilder_ != null) {
@@ -1151,7 +1151,7 @@ public final class CoGetCommunityForumsPu {
         }
       }
       /**
-       * <code>optional .dstore.values.StringValue unique_id = 2;</code>
+       * <code>.dstore.values.StringValue unique_id = 2;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.values.StringValue, io.dstore.values.StringValue.Builder, io.dstore.values.StringValueOrBuilder> 
@@ -1169,13 +1169,13 @@ public final class CoGetCommunityForumsPu {
 
       private boolean uniqueIdNull_ ;
       /**
-       * <code>optional bool unique_id_null = 1002;</code>
+       * <code>bool unique_id_null = 1002;</code>
        */
       public boolean getUniqueIdNull() {
         return uniqueIdNull_;
       }
       /**
-       * <code>optional bool unique_id_null = 1002;</code>
+       * <code>bool unique_id_null = 1002;</code>
        */
       public Builder setUniqueIdNull(boolean value) {
         
@@ -1184,7 +1184,7 @@ public final class CoGetCommunityForumsPu {
         return this;
       }
       /**
-       * <code>optional bool unique_id_null = 1002;</code>
+       * <code>bool unique_id_null = 1002;</code>
        */
       public Builder clearUniqueIdNull() {
         
@@ -1197,13 +1197,13 @@ public final class CoGetCommunityForumsPu {
       private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.values.StringValue, io.dstore.values.StringValue.Builder, io.dstore.values.StringValueOrBuilder> personIdentificationValuesBuilder_;
       /**
-       * <code>optional .dstore.values.StringValue person_identification_values = 3;</code>
+       * <code>.dstore.values.StringValue person_identification_values = 3;</code>
        */
       public boolean hasPersonIdentificationValues() {
         return personIdentificationValuesBuilder_ != null || personIdentificationValues_ != null;
       }
       /**
-       * <code>optional .dstore.values.StringValue person_identification_values = 3;</code>
+       * <code>.dstore.values.StringValue person_identification_values = 3;</code>
        */
       public io.dstore.values.StringValue getPersonIdentificationValues() {
         if (personIdentificationValuesBuilder_ == null) {
@@ -1213,7 +1213,7 @@ public final class CoGetCommunityForumsPu {
         }
       }
       /**
-       * <code>optional .dstore.values.StringValue person_identification_values = 3;</code>
+       * <code>.dstore.values.StringValue person_identification_values = 3;</code>
        */
       public Builder setPersonIdentificationValues(io.dstore.values.StringValue value) {
         if (personIdentificationValuesBuilder_ == null) {
@@ -1229,7 +1229,7 @@ public final class CoGetCommunityForumsPu {
         return this;
       }
       /**
-       * <code>optional .dstore.values.StringValue person_identification_values = 3;</code>
+       * <code>.dstore.values.StringValue person_identification_values = 3;</code>
        */
       public Builder setPersonIdentificationValues(
           io.dstore.values.StringValue.Builder builderForValue) {
@@ -1243,7 +1243,7 @@ public final class CoGetCommunityForumsPu {
         return this;
       }
       /**
-       * <code>optional .dstore.values.StringValue person_identification_values = 3;</code>
+       * <code>.dstore.values.StringValue person_identification_values = 3;</code>
        */
       public Builder mergePersonIdentificationValues(io.dstore.values.StringValue value) {
         if (personIdentificationValuesBuilder_ == null) {
@@ -1261,7 +1261,7 @@ public final class CoGetCommunityForumsPu {
         return this;
       }
       /**
-       * <code>optional .dstore.values.StringValue person_identification_values = 3;</code>
+       * <code>.dstore.values.StringValue person_identification_values = 3;</code>
        */
       public Builder clearPersonIdentificationValues() {
         if (personIdentificationValuesBuilder_ == null) {
@@ -1275,7 +1275,7 @@ public final class CoGetCommunityForumsPu {
         return this;
       }
       /**
-       * <code>optional .dstore.values.StringValue person_identification_values = 3;</code>
+       * <code>.dstore.values.StringValue person_identification_values = 3;</code>
        */
       public io.dstore.values.StringValue.Builder getPersonIdentificationValuesBuilder() {
         
@@ -1283,7 +1283,7 @@ public final class CoGetCommunityForumsPu {
         return getPersonIdentificationValuesFieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .dstore.values.StringValue person_identification_values = 3;</code>
+       * <code>.dstore.values.StringValue person_identification_values = 3;</code>
        */
       public io.dstore.values.StringValueOrBuilder getPersonIdentificationValuesOrBuilder() {
         if (personIdentificationValuesBuilder_ != null) {
@@ -1294,7 +1294,7 @@ public final class CoGetCommunityForumsPu {
         }
       }
       /**
-       * <code>optional .dstore.values.StringValue person_identification_values = 3;</code>
+       * <code>.dstore.values.StringValue person_identification_values = 3;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.values.StringValue, io.dstore.values.StringValue.Builder, io.dstore.values.StringValueOrBuilder> 
@@ -1312,13 +1312,13 @@ public final class CoGetCommunityForumsPu {
 
       private boolean personIdentificationValuesNull_ ;
       /**
-       * <code>optional bool person_identification_values_null = 1003;</code>
+       * <code>bool person_identification_values_null = 1003;</code>
        */
       public boolean getPersonIdentificationValuesNull() {
         return personIdentificationValuesNull_;
       }
       /**
-       * <code>optional bool person_identification_values_null = 1003;</code>
+       * <code>bool person_identification_values_null = 1003;</code>
        */
       public Builder setPersonIdentificationValuesNull(boolean value) {
         
@@ -1327,7 +1327,7 @@ public final class CoGetCommunityForumsPu {
         return this;
       }
       /**
-       * <code>optional bool person_identification_values_null = 1003;</code>
+       * <code>bool person_identification_values_null = 1003;</code>
        */
       public Builder clearPersonIdentificationValuesNull() {
         
@@ -1340,13 +1340,13 @@ public final class CoGetCommunityForumsPu {
       private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> communityMemberIdBuilder_;
       /**
-       * <code>optional .dstore.values.IntegerValue community_member_id = 4;</code>
+       * <code>.dstore.values.IntegerValue community_member_id = 4;</code>
        */
       public boolean hasCommunityMemberId() {
         return communityMemberIdBuilder_ != null || communityMemberId_ != null;
       }
       /**
-       * <code>optional .dstore.values.IntegerValue community_member_id = 4;</code>
+       * <code>.dstore.values.IntegerValue community_member_id = 4;</code>
        */
       public io.dstore.values.IntegerValue getCommunityMemberId() {
         if (communityMemberIdBuilder_ == null) {
@@ -1356,7 +1356,7 @@ public final class CoGetCommunityForumsPu {
         }
       }
       /**
-       * <code>optional .dstore.values.IntegerValue community_member_id = 4;</code>
+       * <code>.dstore.values.IntegerValue community_member_id = 4;</code>
        */
       public Builder setCommunityMemberId(io.dstore.values.IntegerValue value) {
         if (communityMemberIdBuilder_ == null) {
@@ -1372,7 +1372,7 @@ public final class CoGetCommunityForumsPu {
         return this;
       }
       /**
-       * <code>optional .dstore.values.IntegerValue community_member_id = 4;</code>
+       * <code>.dstore.values.IntegerValue community_member_id = 4;</code>
        */
       public Builder setCommunityMemberId(
           io.dstore.values.IntegerValue.Builder builderForValue) {
@@ -1386,7 +1386,7 @@ public final class CoGetCommunityForumsPu {
         return this;
       }
       /**
-       * <code>optional .dstore.values.IntegerValue community_member_id = 4;</code>
+       * <code>.dstore.values.IntegerValue community_member_id = 4;</code>
        */
       public Builder mergeCommunityMemberId(io.dstore.values.IntegerValue value) {
         if (communityMemberIdBuilder_ == null) {
@@ -1404,7 +1404,7 @@ public final class CoGetCommunityForumsPu {
         return this;
       }
       /**
-       * <code>optional .dstore.values.IntegerValue community_member_id = 4;</code>
+       * <code>.dstore.values.IntegerValue community_member_id = 4;</code>
        */
       public Builder clearCommunityMemberId() {
         if (communityMemberIdBuilder_ == null) {
@@ -1418,7 +1418,7 @@ public final class CoGetCommunityForumsPu {
         return this;
       }
       /**
-       * <code>optional .dstore.values.IntegerValue community_member_id = 4;</code>
+       * <code>.dstore.values.IntegerValue community_member_id = 4;</code>
        */
       public io.dstore.values.IntegerValue.Builder getCommunityMemberIdBuilder() {
         
@@ -1426,7 +1426,7 @@ public final class CoGetCommunityForumsPu {
         return getCommunityMemberIdFieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .dstore.values.IntegerValue community_member_id = 4;</code>
+       * <code>.dstore.values.IntegerValue community_member_id = 4;</code>
        */
       public io.dstore.values.IntegerValueOrBuilder getCommunityMemberIdOrBuilder() {
         if (communityMemberIdBuilder_ != null) {
@@ -1437,7 +1437,7 @@ public final class CoGetCommunityForumsPu {
         }
       }
       /**
-       * <code>optional .dstore.values.IntegerValue community_member_id = 4;</code>
+       * <code>.dstore.values.IntegerValue community_member_id = 4;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> 
@@ -1455,13 +1455,13 @@ public final class CoGetCommunityForumsPu {
 
       private boolean communityMemberIdNull_ ;
       /**
-       * <code>optional bool community_member_id_null = 1004;</code>
+       * <code>bool community_member_id_null = 1004;</code>
        */
       public boolean getCommunityMemberIdNull() {
         return communityMemberIdNull_;
       }
       /**
-       * <code>optional bool community_member_id_null = 1004;</code>
+       * <code>bool community_member_id_null = 1004;</code>
        */
       public Builder setCommunityMemberIdNull(boolean value) {
         
@@ -1470,7 +1470,7 @@ public final class CoGetCommunityForumsPu {
         return this;
       }
       /**
-       * <code>optional bool community_member_id_null = 1004;</code>
+       * <code>bool community_member_id_null = 1004;</code>
        */
       public Builder clearCommunityMemberIdNull() {
         
@@ -1483,13 +1483,13 @@ public final class CoGetCommunityForumsPu {
       private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.values.StringValue, io.dstore.values.StringValue.Builder, io.dstore.values.StringValueOrBuilder> separatorInIdentValsBuilder_;
       /**
-       * <code>optional .dstore.values.StringValue separator_in_ident_vals = 5;</code>
+       * <code>.dstore.values.StringValue separator_in_ident_vals = 5;</code>
        */
       public boolean hasSeparatorInIdentVals() {
         return separatorInIdentValsBuilder_ != null || separatorInIdentVals_ != null;
       }
       /**
-       * <code>optional .dstore.values.StringValue separator_in_ident_vals = 5;</code>
+       * <code>.dstore.values.StringValue separator_in_ident_vals = 5;</code>
        */
       public io.dstore.values.StringValue getSeparatorInIdentVals() {
         if (separatorInIdentValsBuilder_ == null) {
@@ -1499,7 +1499,7 @@ public final class CoGetCommunityForumsPu {
         }
       }
       /**
-       * <code>optional .dstore.values.StringValue separator_in_ident_vals = 5;</code>
+       * <code>.dstore.values.StringValue separator_in_ident_vals = 5;</code>
        */
       public Builder setSeparatorInIdentVals(io.dstore.values.StringValue value) {
         if (separatorInIdentValsBuilder_ == null) {
@@ -1515,7 +1515,7 @@ public final class CoGetCommunityForumsPu {
         return this;
       }
       /**
-       * <code>optional .dstore.values.StringValue separator_in_ident_vals = 5;</code>
+       * <code>.dstore.values.StringValue separator_in_ident_vals = 5;</code>
        */
       public Builder setSeparatorInIdentVals(
           io.dstore.values.StringValue.Builder builderForValue) {
@@ -1529,7 +1529,7 @@ public final class CoGetCommunityForumsPu {
         return this;
       }
       /**
-       * <code>optional .dstore.values.StringValue separator_in_ident_vals = 5;</code>
+       * <code>.dstore.values.StringValue separator_in_ident_vals = 5;</code>
        */
       public Builder mergeSeparatorInIdentVals(io.dstore.values.StringValue value) {
         if (separatorInIdentValsBuilder_ == null) {
@@ -1547,7 +1547,7 @@ public final class CoGetCommunityForumsPu {
         return this;
       }
       /**
-       * <code>optional .dstore.values.StringValue separator_in_ident_vals = 5;</code>
+       * <code>.dstore.values.StringValue separator_in_ident_vals = 5;</code>
        */
       public Builder clearSeparatorInIdentVals() {
         if (separatorInIdentValsBuilder_ == null) {
@@ -1561,7 +1561,7 @@ public final class CoGetCommunityForumsPu {
         return this;
       }
       /**
-       * <code>optional .dstore.values.StringValue separator_in_ident_vals = 5;</code>
+       * <code>.dstore.values.StringValue separator_in_ident_vals = 5;</code>
        */
       public io.dstore.values.StringValue.Builder getSeparatorInIdentValsBuilder() {
         
@@ -1569,7 +1569,7 @@ public final class CoGetCommunityForumsPu {
         return getSeparatorInIdentValsFieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .dstore.values.StringValue separator_in_ident_vals = 5;</code>
+       * <code>.dstore.values.StringValue separator_in_ident_vals = 5;</code>
        */
       public io.dstore.values.StringValueOrBuilder getSeparatorInIdentValsOrBuilder() {
         if (separatorInIdentValsBuilder_ != null) {
@@ -1580,7 +1580,7 @@ public final class CoGetCommunityForumsPu {
         }
       }
       /**
-       * <code>optional .dstore.values.StringValue separator_in_ident_vals = 5;</code>
+       * <code>.dstore.values.StringValue separator_in_ident_vals = 5;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.values.StringValue, io.dstore.values.StringValue.Builder, io.dstore.values.StringValueOrBuilder> 
@@ -1598,13 +1598,13 @@ public final class CoGetCommunityForumsPu {
 
       private boolean separatorInIdentValsNull_ ;
       /**
-       * <code>optional bool separator_in_ident_vals_null = 1005;</code>
+       * <code>bool separator_in_ident_vals_null = 1005;</code>
        */
       public boolean getSeparatorInIdentValsNull() {
         return separatorInIdentValsNull_;
       }
       /**
-       * <code>optional bool separator_in_ident_vals_null = 1005;</code>
+       * <code>bool separator_in_ident_vals_null = 1005;</code>
        */
       public Builder setSeparatorInIdentValsNull(boolean value) {
         
@@ -1613,7 +1613,7 @@ public final class CoGetCommunityForumsPu {
         return this;
       }
       /**
-       * <code>optional bool separator_in_ident_vals_null = 1005;</code>
+       * <code>bool separator_in_ident_vals_null = 1005;</code>
        */
       public Builder clearSeparatorInIdentValsNull() {
         
@@ -1747,15 +1747,15 @@ public final class CoGetCommunityForumsPu {
         int index);
 
     /**
-     * <code>optional .dstore.values.IntegerValue community_member_id = 101;</code>
+     * <code>.dstore.values.IntegerValue community_member_id = 101;</code>
      */
     boolean hasCommunityMemberId();
     /**
-     * <code>optional .dstore.values.IntegerValue community_member_id = 101;</code>
+     * <code>.dstore.values.IntegerValue community_member_id = 101;</code>
      */
     io.dstore.values.IntegerValue getCommunityMemberId();
     /**
-     * <code>optional .dstore.values.IntegerValue community_member_id = 101;</code>
+     * <code>.dstore.values.IntegerValue community_member_id = 101;</code>
      */
     io.dstore.values.IntegerValueOrBuilder getCommunityMemberIdOrBuilder();
   }
@@ -1878,7 +1878,7 @@ public final class CoGetCommunityForumsPu {
         com.google.protobuf.MessageOrBuilder {
 
       /**
-       * <code>optional int32 row_id = 10000;</code>
+       * <code>int32 row_id = 10000;</code>
        */
       int getRowId();
 
@@ -1887,7 +1887,7 @@ public final class CoGetCommunityForumsPu {
        * ID einer Community
        * </pre>
        *
-       * <code>optional .dstore.values.IntegerValue community_id = 10001;</code>
+       * <code>.dstore.values.IntegerValue community_id = 10001;</code>
        */
       boolean hasCommunityId();
       /**
@@ -1895,7 +1895,7 @@ public final class CoGetCommunityForumsPu {
        * ID einer Community
        * </pre>
        *
-       * <code>optional .dstore.values.IntegerValue community_id = 10001;</code>
+       * <code>.dstore.values.IntegerValue community_id = 10001;</code>
        */
       io.dstore.values.IntegerValue getCommunityId();
       /**
@@ -1903,7 +1903,7 @@ public final class CoGetCommunityForumsPu {
        * ID einer Community
        * </pre>
        *
-       * <code>optional .dstore.values.IntegerValue community_id = 10001;</code>
+       * <code>.dstore.values.IntegerValue community_id = 10001;</code>
        */
       io.dstore.values.IntegerValueOrBuilder getCommunityIdOrBuilder();
 
@@ -1912,7 +1912,7 @@ public final class CoGetCommunityForumsPu {
        * ID eines Forums, das der Community "CommunityID" zugeordnet ist
        * </pre>
        *
-       * <code>optional .dstore.values.IntegerValue forum_id = 10002;</code>
+       * <code>.dstore.values.IntegerValue forum_id = 10002;</code>
        */
       boolean hasForumId();
       /**
@@ -1920,7 +1920,7 @@ public final class CoGetCommunityForumsPu {
        * ID eines Forums, das der Community "CommunityID" zugeordnet ist
        * </pre>
        *
-       * <code>optional .dstore.values.IntegerValue forum_id = 10002;</code>
+       * <code>.dstore.values.IntegerValue forum_id = 10002;</code>
        */
       io.dstore.values.IntegerValue getForumId();
       /**
@@ -1928,7 +1928,7 @@ public final class CoGetCommunityForumsPu {
        * ID eines Forums, das der Community "CommunityID" zugeordnet ist
        * </pre>
        *
-       * <code>optional .dstore.values.IntegerValue forum_id = 10002;</code>
+       * <code>.dstore.values.IntegerValue forum_id = 10002;</code>
        */
       io.dstore.values.IntegerValueOrBuilder getForumIdOrBuilder();
 
@@ -1937,7 +1937,7 @@ public final class CoGetCommunityForumsPu {
        * Name des Forums "ForumID"
        * </pre>
        *
-       * <code>optional .dstore.values.StringValue forum_name = 10003;</code>
+       * <code>.dstore.values.StringValue forum_name = 10003;</code>
        */
       boolean hasForumName();
       /**
@@ -1945,7 +1945,7 @@ public final class CoGetCommunityForumsPu {
        * Name des Forums "ForumID"
        * </pre>
        *
-       * <code>optional .dstore.values.StringValue forum_name = 10003;</code>
+       * <code>.dstore.values.StringValue forum_name = 10003;</code>
        */
       io.dstore.values.StringValue getForumName();
       /**
@@ -1953,7 +1953,7 @@ public final class CoGetCommunityForumsPu {
        * Name des Forums "ForumID"
        * </pre>
        *
-       * <code>optional .dstore.values.StringValue forum_name = 10003;</code>
+       * <code>.dstore.values.StringValue forum_name = 10003;</code>
        */
       io.dstore.values.StringValueOrBuilder getForumNameOrBuilder();
 
@@ -1962,7 +1962,7 @@ public final class CoGetCommunityForumsPu {
        * Name der Community "CommunityID"
        * </pre>
        *
-       * <code>optional .dstore.values.StringValue community_name = 10004;</code>
+       * <code>.dstore.values.StringValue community_name = 10004;</code>
        */
       boolean hasCommunityName();
       /**
@@ -1970,7 +1970,7 @@ public final class CoGetCommunityForumsPu {
        * Name der Community "CommunityID"
        * </pre>
        *
-       * <code>optional .dstore.values.StringValue community_name = 10004;</code>
+       * <code>.dstore.values.StringValue community_name = 10004;</code>
        */
       io.dstore.values.StringValue getCommunityName();
       /**
@@ -1978,7 +1978,7 @@ public final class CoGetCommunityForumsPu {
        * Name der Community "CommunityID"
        * </pre>
        *
-       * <code>optional .dstore.values.StringValue community_name = 10004;</code>
+       * <code>.dstore.values.StringValue community_name = 10004;</code>
        */
       io.dstore.values.StringValueOrBuilder getCommunityNameOrBuilder();
 
@@ -1987,7 +1987,7 @@ public final class CoGetCommunityForumsPu {
        * ID einer Sprache, in der die Beiträge des Forums sind
        * </pre>
        *
-       * <code>optional .dstore.values.IntegerValue language_id = 10005;</code>
+       * <code>.dstore.values.IntegerValue language_id = 10005;</code>
        */
       boolean hasLanguageId();
       /**
@@ -1995,7 +1995,7 @@ public final class CoGetCommunityForumsPu {
        * ID einer Sprache, in der die Beiträge des Forums sind
        * </pre>
        *
-       * <code>optional .dstore.values.IntegerValue language_id = 10005;</code>
+       * <code>.dstore.values.IntegerValue language_id = 10005;</code>
        */
       io.dstore.values.IntegerValue getLanguageId();
       /**
@@ -2003,7 +2003,7 @@ public final class CoGetCommunityForumsPu {
        * ID einer Sprache, in der die Beiträge des Forums sind
        * </pre>
        *
-       * <code>optional .dstore.values.IntegerValue language_id = 10005;</code>
+       * <code>.dstore.values.IntegerValue language_id = 10005;</code>
        */
       io.dstore.values.IntegerValueOrBuilder getLanguageIdOrBuilder();
 
@@ -2012,7 +2012,7 @@ public final class CoGetCommunityForumsPu {
        * Zugriffsrechte des identifizierten Mitglieds auf das Forum "ForumID" - enthält eine Summe von "AccessLevelID"s (siehe "fo_GetForumAccessLevels")
        * </pre>
        *
-       * <code>optional .dstore.values.IntegerValue access_level = 10006;</code>
+       * <code>.dstore.values.IntegerValue access_level = 10006;</code>
        */
       boolean hasAccessLevel();
       /**
@@ -2020,7 +2020,7 @@ public final class CoGetCommunityForumsPu {
        * Zugriffsrechte des identifizierten Mitglieds auf das Forum "ForumID" - enthält eine Summe von "AccessLevelID"s (siehe "fo_GetForumAccessLevels")
        * </pre>
        *
-       * <code>optional .dstore.values.IntegerValue access_level = 10006;</code>
+       * <code>.dstore.values.IntegerValue access_level = 10006;</code>
        */
       io.dstore.values.IntegerValue getAccessLevel();
       /**
@@ -2028,7 +2028,7 @@ public final class CoGetCommunityForumsPu {
        * Zugriffsrechte des identifizierten Mitglieds auf das Forum "ForumID" - enthält eine Summe von "AccessLevelID"s (siehe "fo_GetForumAccessLevels")
        * </pre>
        *
-       * <code>optional .dstore.values.IntegerValue access_level = 10006;</code>
+       * <code>.dstore.values.IntegerValue access_level = 10006;</code>
        */
       io.dstore.values.IntegerValueOrBuilder getAccessLevelOrBuilder();
     }
@@ -2181,7 +2181,7 @@ public final class CoGetCommunityForumsPu {
       public static final int ROW_ID_FIELD_NUMBER = 10000;
       private int rowId_;
       /**
-       * <code>optional int32 row_id = 10000;</code>
+       * <code>int32 row_id = 10000;</code>
        */
       public int getRowId() {
         return rowId_;
@@ -2194,7 +2194,7 @@ public final class CoGetCommunityForumsPu {
        * ID einer Community
        * </pre>
        *
-       * <code>optional .dstore.values.IntegerValue community_id = 10001;</code>
+       * <code>.dstore.values.IntegerValue community_id = 10001;</code>
        */
       public boolean hasCommunityId() {
         return communityId_ != null;
@@ -2204,7 +2204,7 @@ public final class CoGetCommunityForumsPu {
        * ID einer Community
        * </pre>
        *
-       * <code>optional .dstore.values.IntegerValue community_id = 10001;</code>
+       * <code>.dstore.values.IntegerValue community_id = 10001;</code>
        */
       public io.dstore.values.IntegerValue getCommunityId() {
         return communityId_ == null ? io.dstore.values.IntegerValue.getDefaultInstance() : communityId_;
@@ -2214,7 +2214,7 @@ public final class CoGetCommunityForumsPu {
        * ID einer Community
        * </pre>
        *
-       * <code>optional .dstore.values.IntegerValue community_id = 10001;</code>
+       * <code>.dstore.values.IntegerValue community_id = 10001;</code>
        */
       public io.dstore.values.IntegerValueOrBuilder getCommunityIdOrBuilder() {
         return getCommunityId();
@@ -2227,7 +2227,7 @@ public final class CoGetCommunityForumsPu {
        * ID eines Forums, das der Community "CommunityID" zugeordnet ist
        * </pre>
        *
-       * <code>optional .dstore.values.IntegerValue forum_id = 10002;</code>
+       * <code>.dstore.values.IntegerValue forum_id = 10002;</code>
        */
       public boolean hasForumId() {
         return forumId_ != null;
@@ -2237,7 +2237,7 @@ public final class CoGetCommunityForumsPu {
        * ID eines Forums, das der Community "CommunityID" zugeordnet ist
        * </pre>
        *
-       * <code>optional .dstore.values.IntegerValue forum_id = 10002;</code>
+       * <code>.dstore.values.IntegerValue forum_id = 10002;</code>
        */
       public io.dstore.values.IntegerValue getForumId() {
         return forumId_ == null ? io.dstore.values.IntegerValue.getDefaultInstance() : forumId_;
@@ -2247,7 +2247,7 @@ public final class CoGetCommunityForumsPu {
        * ID eines Forums, das der Community "CommunityID" zugeordnet ist
        * </pre>
        *
-       * <code>optional .dstore.values.IntegerValue forum_id = 10002;</code>
+       * <code>.dstore.values.IntegerValue forum_id = 10002;</code>
        */
       public io.dstore.values.IntegerValueOrBuilder getForumIdOrBuilder() {
         return getForumId();
@@ -2260,7 +2260,7 @@ public final class CoGetCommunityForumsPu {
        * Name des Forums "ForumID"
        * </pre>
        *
-       * <code>optional .dstore.values.StringValue forum_name = 10003;</code>
+       * <code>.dstore.values.StringValue forum_name = 10003;</code>
        */
       public boolean hasForumName() {
         return forumName_ != null;
@@ -2270,7 +2270,7 @@ public final class CoGetCommunityForumsPu {
        * Name des Forums "ForumID"
        * </pre>
        *
-       * <code>optional .dstore.values.StringValue forum_name = 10003;</code>
+       * <code>.dstore.values.StringValue forum_name = 10003;</code>
        */
       public io.dstore.values.StringValue getForumName() {
         return forumName_ == null ? io.dstore.values.StringValue.getDefaultInstance() : forumName_;
@@ -2280,7 +2280,7 @@ public final class CoGetCommunityForumsPu {
        * Name des Forums "ForumID"
        * </pre>
        *
-       * <code>optional .dstore.values.StringValue forum_name = 10003;</code>
+       * <code>.dstore.values.StringValue forum_name = 10003;</code>
        */
       public io.dstore.values.StringValueOrBuilder getForumNameOrBuilder() {
         return getForumName();
@@ -2293,7 +2293,7 @@ public final class CoGetCommunityForumsPu {
        * Name der Community "CommunityID"
        * </pre>
        *
-       * <code>optional .dstore.values.StringValue community_name = 10004;</code>
+       * <code>.dstore.values.StringValue community_name = 10004;</code>
        */
       public boolean hasCommunityName() {
         return communityName_ != null;
@@ -2303,7 +2303,7 @@ public final class CoGetCommunityForumsPu {
        * Name der Community "CommunityID"
        * </pre>
        *
-       * <code>optional .dstore.values.StringValue community_name = 10004;</code>
+       * <code>.dstore.values.StringValue community_name = 10004;</code>
        */
       public io.dstore.values.StringValue getCommunityName() {
         return communityName_ == null ? io.dstore.values.StringValue.getDefaultInstance() : communityName_;
@@ -2313,7 +2313,7 @@ public final class CoGetCommunityForumsPu {
        * Name der Community "CommunityID"
        * </pre>
        *
-       * <code>optional .dstore.values.StringValue community_name = 10004;</code>
+       * <code>.dstore.values.StringValue community_name = 10004;</code>
        */
       public io.dstore.values.StringValueOrBuilder getCommunityNameOrBuilder() {
         return getCommunityName();
@@ -2326,7 +2326,7 @@ public final class CoGetCommunityForumsPu {
        * ID einer Sprache, in der die Beiträge des Forums sind
        * </pre>
        *
-       * <code>optional .dstore.values.IntegerValue language_id = 10005;</code>
+       * <code>.dstore.values.IntegerValue language_id = 10005;</code>
        */
       public boolean hasLanguageId() {
         return languageId_ != null;
@@ -2336,7 +2336,7 @@ public final class CoGetCommunityForumsPu {
        * ID einer Sprache, in der die Beiträge des Forums sind
        * </pre>
        *
-       * <code>optional .dstore.values.IntegerValue language_id = 10005;</code>
+       * <code>.dstore.values.IntegerValue language_id = 10005;</code>
        */
       public io.dstore.values.IntegerValue getLanguageId() {
         return languageId_ == null ? io.dstore.values.IntegerValue.getDefaultInstance() : languageId_;
@@ -2346,7 +2346,7 @@ public final class CoGetCommunityForumsPu {
        * ID einer Sprache, in der die Beiträge des Forums sind
        * </pre>
        *
-       * <code>optional .dstore.values.IntegerValue language_id = 10005;</code>
+       * <code>.dstore.values.IntegerValue language_id = 10005;</code>
        */
       public io.dstore.values.IntegerValueOrBuilder getLanguageIdOrBuilder() {
         return getLanguageId();
@@ -2359,7 +2359,7 @@ public final class CoGetCommunityForumsPu {
        * Zugriffsrechte des identifizierten Mitglieds auf das Forum "ForumID" - enthält eine Summe von "AccessLevelID"s (siehe "fo_GetForumAccessLevels")
        * </pre>
        *
-       * <code>optional .dstore.values.IntegerValue access_level = 10006;</code>
+       * <code>.dstore.values.IntegerValue access_level = 10006;</code>
        */
       public boolean hasAccessLevel() {
         return accessLevel_ != null;
@@ -2369,7 +2369,7 @@ public final class CoGetCommunityForumsPu {
        * Zugriffsrechte des identifizierten Mitglieds auf das Forum "ForumID" - enthält eine Summe von "AccessLevelID"s (siehe "fo_GetForumAccessLevels")
        * </pre>
        *
-       * <code>optional .dstore.values.IntegerValue access_level = 10006;</code>
+       * <code>.dstore.values.IntegerValue access_level = 10006;</code>
        */
       public io.dstore.values.IntegerValue getAccessLevel() {
         return accessLevel_ == null ? io.dstore.values.IntegerValue.getDefaultInstance() : accessLevel_;
@@ -2379,7 +2379,7 @@ public final class CoGetCommunityForumsPu {
        * Zugriffsrechte des identifizierten Mitglieds auf das Forum "ForumID" - enthält eine Summe von "AccessLevelID"s (siehe "fo_GetForumAccessLevels")
        * </pre>
        *
-       * <code>optional .dstore.values.IntegerValue access_level = 10006;</code>
+       * <code>.dstore.values.IntegerValue access_level = 10006;</code>
        */
       public io.dstore.values.IntegerValueOrBuilder getAccessLevelOrBuilder() {
         return getAccessLevel();
@@ -2510,7 +2510,7 @@ public final class CoGetCommunityForumsPu {
           return memoizedHashCode;
         }
         int hash = 41;
-        hash = (19 * hash) + getDescriptorForType().hashCode();
+        hash = (19 * hash) + getDescriptor().hashCode();
         hash = (37 * hash) + ROW_ID_FIELD_NUMBER;
         hash = (53 * hash) + getRowId();
         if (hasCommunityId()) {
@@ -2836,13 +2836,13 @@ public final class CoGetCommunityForumsPu {
 
         private int rowId_ ;
         /**
-         * <code>optional int32 row_id = 10000;</code>
+         * <code>int32 row_id = 10000;</code>
          */
         public int getRowId() {
           return rowId_;
         }
         /**
-         * <code>optional int32 row_id = 10000;</code>
+         * <code>int32 row_id = 10000;</code>
          */
         public Builder setRowId(int value) {
           
@@ -2851,7 +2851,7 @@ public final class CoGetCommunityForumsPu {
           return this;
         }
         /**
-         * <code>optional int32 row_id = 10000;</code>
+         * <code>int32 row_id = 10000;</code>
          */
         public Builder clearRowId() {
           
@@ -2868,7 +2868,7 @@ public final class CoGetCommunityForumsPu {
          * ID einer Community
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue community_id = 10001;</code>
+         * <code>.dstore.values.IntegerValue community_id = 10001;</code>
          */
         public boolean hasCommunityId() {
           return communityIdBuilder_ != null || communityId_ != null;
@@ -2878,7 +2878,7 @@ public final class CoGetCommunityForumsPu {
          * ID einer Community
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue community_id = 10001;</code>
+         * <code>.dstore.values.IntegerValue community_id = 10001;</code>
          */
         public io.dstore.values.IntegerValue getCommunityId() {
           if (communityIdBuilder_ == null) {
@@ -2892,7 +2892,7 @@ public final class CoGetCommunityForumsPu {
          * ID einer Community
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue community_id = 10001;</code>
+         * <code>.dstore.values.IntegerValue community_id = 10001;</code>
          */
         public Builder setCommunityId(io.dstore.values.IntegerValue value) {
           if (communityIdBuilder_ == null) {
@@ -2912,7 +2912,7 @@ public final class CoGetCommunityForumsPu {
          * ID einer Community
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue community_id = 10001;</code>
+         * <code>.dstore.values.IntegerValue community_id = 10001;</code>
          */
         public Builder setCommunityId(
             io.dstore.values.IntegerValue.Builder builderForValue) {
@@ -2930,7 +2930,7 @@ public final class CoGetCommunityForumsPu {
          * ID einer Community
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue community_id = 10001;</code>
+         * <code>.dstore.values.IntegerValue community_id = 10001;</code>
          */
         public Builder mergeCommunityId(io.dstore.values.IntegerValue value) {
           if (communityIdBuilder_ == null) {
@@ -2952,7 +2952,7 @@ public final class CoGetCommunityForumsPu {
          * ID einer Community
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue community_id = 10001;</code>
+         * <code>.dstore.values.IntegerValue community_id = 10001;</code>
          */
         public Builder clearCommunityId() {
           if (communityIdBuilder_ == null) {
@@ -2970,7 +2970,7 @@ public final class CoGetCommunityForumsPu {
          * ID einer Community
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue community_id = 10001;</code>
+         * <code>.dstore.values.IntegerValue community_id = 10001;</code>
          */
         public io.dstore.values.IntegerValue.Builder getCommunityIdBuilder() {
           
@@ -2982,7 +2982,7 @@ public final class CoGetCommunityForumsPu {
          * ID einer Community
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue community_id = 10001;</code>
+         * <code>.dstore.values.IntegerValue community_id = 10001;</code>
          */
         public io.dstore.values.IntegerValueOrBuilder getCommunityIdOrBuilder() {
           if (communityIdBuilder_ != null) {
@@ -2997,7 +2997,7 @@ public final class CoGetCommunityForumsPu {
          * ID einer Community
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue community_id = 10001;</code>
+         * <code>.dstore.values.IntegerValue community_id = 10001;</code>
          */
         private com.google.protobuf.SingleFieldBuilderV3<
             io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> 
@@ -3021,7 +3021,7 @@ public final class CoGetCommunityForumsPu {
          * ID eines Forums, das der Community "CommunityID" zugeordnet ist
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue forum_id = 10002;</code>
+         * <code>.dstore.values.IntegerValue forum_id = 10002;</code>
          */
         public boolean hasForumId() {
           return forumIdBuilder_ != null || forumId_ != null;
@@ -3031,7 +3031,7 @@ public final class CoGetCommunityForumsPu {
          * ID eines Forums, das der Community "CommunityID" zugeordnet ist
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue forum_id = 10002;</code>
+         * <code>.dstore.values.IntegerValue forum_id = 10002;</code>
          */
         public io.dstore.values.IntegerValue getForumId() {
           if (forumIdBuilder_ == null) {
@@ -3045,7 +3045,7 @@ public final class CoGetCommunityForumsPu {
          * ID eines Forums, das der Community "CommunityID" zugeordnet ist
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue forum_id = 10002;</code>
+         * <code>.dstore.values.IntegerValue forum_id = 10002;</code>
          */
         public Builder setForumId(io.dstore.values.IntegerValue value) {
           if (forumIdBuilder_ == null) {
@@ -3065,7 +3065,7 @@ public final class CoGetCommunityForumsPu {
          * ID eines Forums, das der Community "CommunityID" zugeordnet ist
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue forum_id = 10002;</code>
+         * <code>.dstore.values.IntegerValue forum_id = 10002;</code>
          */
         public Builder setForumId(
             io.dstore.values.IntegerValue.Builder builderForValue) {
@@ -3083,7 +3083,7 @@ public final class CoGetCommunityForumsPu {
          * ID eines Forums, das der Community "CommunityID" zugeordnet ist
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue forum_id = 10002;</code>
+         * <code>.dstore.values.IntegerValue forum_id = 10002;</code>
          */
         public Builder mergeForumId(io.dstore.values.IntegerValue value) {
           if (forumIdBuilder_ == null) {
@@ -3105,7 +3105,7 @@ public final class CoGetCommunityForumsPu {
          * ID eines Forums, das der Community "CommunityID" zugeordnet ist
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue forum_id = 10002;</code>
+         * <code>.dstore.values.IntegerValue forum_id = 10002;</code>
          */
         public Builder clearForumId() {
           if (forumIdBuilder_ == null) {
@@ -3123,7 +3123,7 @@ public final class CoGetCommunityForumsPu {
          * ID eines Forums, das der Community "CommunityID" zugeordnet ist
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue forum_id = 10002;</code>
+         * <code>.dstore.values.IntegerValue forum_id = 10002;</code>
          */
         public io.dstore.values.IntegerValue.Builder getForumIdBuilder() {
           
@@ -3135,7 +3135,7 @@ public final class CoGetCommunityForumsPu {
          * ID eines Forums, das der Community "CommunityID" zugeordnet ist
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue forum_id = 10002;</code>
+         * <code>.dstore.values.IntegerValue forum_id = 10002;</code>
          */
         public io.dstore.values.IntegerValueOrBuilder getForumIdOrBuilder() {
           if (forumIdBuilder_ != null) {
@@ -3150,7 +3150,7 @@ public final class CoGetCommunityForumsPu {
          * ID eines Forums, das der Community "CommunityID" zugeordnet ist
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue forum_id = 10002;</code>
+         * <code>.dstore.values.IntegerValue forum_id = 10002;</code>
          */
         private com.google.protobuf.SingleFieldBuilderV3<
             io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> 
@@ -3174,7 +3174,7 @@ public final class CoGetCommunityForumsPu {
          * Name des Forums "ForumID"
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue forum_name = 10003;</code>
+         * <code>.dstore.values.StringValue forum_name = 10003;</code>
          */
         public boolean hasForumName() {
           return forumNameBuilder_ != null || forumName_ != null;
@@ -3184,7 +3184,7 @@ public final class CoGetCommunityForumsPu {
          * Name des Forums "ForumID"
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue forum_name = 10003;</code>
+         * <code>.dstore.values.StringValue forum_name = 10003;</code>
          */
         public io.dstore.values.StringValue getForumName() {
           if (forumNameBuilder_ == null) {
@@ -3198,7 +3198,7 @@ public final class CoGetCommunityForumsPu {
          * Name des Forums "ForumID"
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue forum_name = 10003;</code>
+         * <code>.dstore.values.StringValue forum_name = 10003;</code>
          */
         public Builder setForumName(io.dstore.values.StringValue value) {
           if (forumNameBuilder_ == null) {
@@ -3218,7 +3218,7 @@ public final class CoGetCommunityForumsPu {
          * Name des Forums "ForumID"
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue forum_name = 10003;</code>
+         * <code>.dstore.values.StringValue forum_name = 10003;</code>
          */
         public Builder setForumName(
             io.dstore.values.StringValue.Builder builderForValue) {
@@ -3236,7 +3236,7 @@ public final class CoGetCommunityForumsPu {
          * Name des Forums "ForumID"
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue forum_name = 10003;</code>
+         * <code>.dstore.values.StringValue forum_name = 10003;</code>
          */
         public Builder mergeForumName(io.dstore.values.StringValue value) {
           if (forumNameBuilder_ == null) {
@@ -3258,7 +3258,7 @@ public final class CoGetCommunityForumsPu {
          * Name des Forums "ForumID"
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue forum_name = 10003;</code>
+         * <code>.dstore.values.StringValue forum_name = 10003;</code>
          */
         public Builder clearForumName() {
           if (forumNameBuilder_ == null) {
@@ -3276,7 +3276,7 @@ public final class CoGetCommunityForumsPu {
          * Name des Forums "ForumID"
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue forum_name = 10003;</code>
+         * <code>.dstore.values.StringValue forum_name = 10003;</code>
          */
         public io.dstore.values.StringValue.Builder getForumNameBuilder() {
           
@@ -3288,7 +3288,7 @@ public final class CoGetCommunityForumsPu {
          * Name des Forums "ForumID"
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue forum_name = 10003;</code>
+         * <code>.dstore.values.StringValue forum_name = 10003;</code>
          */
         public io.dstore.values.StringValueOrBuilder getForumNameOrBuilder() {
           if (forumNameBuilder_ != null) {
@@ -3303,7 +3303,7 @@ public final class CoGetCommunityForumsPu {
          * Name des Forums "ForumID"
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue forum_name = 10003;</code>
+         * <code>.dstore.values.StringValue forum_name = 10003;</code>
          */
         private com.google.protobuf.SingleFieldBuilderV3<
             io.dstore.values.StringValue, io.dstore.values.StringValue.Builder, io.dstore.values.StringValueOrBuilder> 
@@ -3327,7 +3327,7 @@ public final class CoGetCommunityForumsPu {
          * Name der Community "CommunityID"
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue community_name = 10004;</code>
+         * <code>.dstore.values.StringValue community_name = 10004;</code>
          */
         public boolean hasCommunityName() {
           return communityNameBuilder_ != null || communityName_ != null;
@@ -3337,7 +3337,7 @@ public final class CoGetCommunityForumsPu {
          * Name der Community "CommunityID"
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue community_name = 10004;</code>
+         * <code>.dstore.values.StringValue community_name = 10004;</code>
          */
         public io.dstore.values.StringValue getCommunityName() {
           if (communityNameBuilder_ == null) {
@@ -3351,7 +3351,7 @@ public final class CoGetCommunityForumsPu {
          * Name der Community "CommunityID"
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue community_name = 10004;</code>
+         * <code>.dstore.values.StringValue community_name = 10004;</code>
          */
         public Builder setCommunityName(io.dstore.values.StringValue value) {
           if (communityNameBuilder_ == null) {
@@ -3371,7 +3371,7 @@ public final class CoGetCommunityForumsPu {
          * Name der Community "CommunityID"
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue community_name = 10004;</code>
+         * <code>.dstore.values.StringValue community_name = 10004;</code>
          */
         public Builder setCommunityName(
             io.dstore.values.StringValue.Builder builderForValue) {
@@ -3389,7 +3389,7 @@ public final class CoGetCommunityForumsPu {
          * Name der Community "CommunityID"
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue community_name = 10004;</code>
+         * <code>.dstore.values.StringValue community_name = 10004;</code>
          */
         public Builder mergeCommunityName(io.dstore.values.StringValue value) {
           if (communityNameBuilder_ == null) {
@@ -3411,7 +3411,7 @@ public final class CoGetCommunityForumsPu {
          * Name der Community "CommunityID"
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue community_name = 10004;</code>
+         * <code>.dstore.values.StringValue community_name = 10004;</code>
          */
         public Builder clearCommunityName() {
           if (communityNameBuilder_ == null) {
@@ -3429,7 +3429,7 @@ public final class CoGetCommunityForumsPu {
          * Name der Community "CommunityID"
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue community_name = 10004;</code>
+         * <code>.dstore.values.StringValue community_name = 10004;</code>
          */
         public io.dstore.values.StringValue.Builder getCommunityNameBuilder() {
           
@@ -3441,7 +3441,7 @@ public final class CoGetCommunityForumsPu {
          * Name der Community "CommunityID"
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue community_name = 10004;</code>
+         * <code>.dstore.values.StringValue community_name = 10004;</code>
          */
         public io.dstore.values.StringValueOrBuilder getCommunityNameOrBuilder() {
           if (communityNameBuilder_ != null) {
@@ -3456,7 +3456,7 @@ public final class CoGetCommunityForumsPu {
          * Name der Community "CommunityID"
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue community_name = 10004;</code>
+         * <code>.dstore.values.StringValue community_name = 10004;</code>
          */
         private com.google.protobuf.SingleFieldBuilderV3<
             io.dstore.values.StringValue, io.dstore.values.StringValue.Builder, io.dstore.values.StringValueOrBuilder> 
@@ -3480,7 +3480,7 @@ public final class CoGetCommunityForumsPu {
          * ID einer Sprache, in der die Beiträge des Forums sind
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue language_id = 10005;</code>
+         * <code>.dstore.values.IntegerValue language_id = 10005;</code>
          */
         public boolean hasLanguageId() {
           return languageIdBuilder_ != null || languageId_ != null;
@@ -3490,7 +3490,7 @@ public final class CoGetCommunityForumsPu {
          * ID einer Sprache, in der die Beiträge des Forums sind
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue language_id = 10005;</code>
+         * <code>.dstore.values.IntegerValue language_id = 10005;</code>
          */
         public io.dstore.values.IntegerValue getLanguageId() {
           if (languageIdBuilder_ == null) {
@@ -3504,7 +3504,7 @@ public final class CoGetCommunityForumsPu {
          * ID einer Sprache, in der die Beiträge des Forums sind
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue language_id = 10005;</code>
+         * <code>.dstore.values.IntegerValue language_id = 10005;</code>
          */
         public Builder setLanguageId(io.dstore.values.IntegerValue value) {
           if (languageIdBuilder_ == null) {
@@ -3524,7 +3524,7 @@ public final class CoGetCommunityForumsPu {
          * ID einer Sprache, in der die Beiträge des Forums sind
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue language_id = 10005;</code>
+         * <code>.dstore.values.IntegerValue language_id = 10005;</code>
          */
         public Builder setLanguageId(
             io.dstore.values.IntegerValue.Builder builderForValue) {
@@ -3542,7 +3542,7 @@ public final class CoGetCommunityForumsPu {
          * ID einer Sprache, in der die Beiträge des Forums sind
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue language_id = 10005;</code>
+         * <code>.dstore.values.IntegerValue language_id = 10005;</code>
          */
         public Builder mergeLanguageId(io.dstore.values.IntegerValue value) {
           if (languageIdBuilder_ == null) {
@@ -3564,7 +3564,7 @@ public final class CoGetCommunityForumsPu {
          * ID einer Sprache, in der die Beiträge des Forums sind
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue language_id = 10005;</code>
+         * <code>.dstore.values.IntegerValue language_id = 10005;</code>
          */
         public Builder clearLanguageId() {
           if (languageIdBuilder_ == null) {
@@ -3582,7 +3582,7 @@ public final class CoGetCommunityForumsPu {
          * ID einer Sprache, in der die Beiträge des Forums sind
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue language_id = 10005;</code>
+         * <code>.dstore.values.IntegerValue language_id = 10005;</code>
          */
         public io.dstore.values.IntegerValue.Builder getLanguageIdBuilder() {
           
@@ -3594,7 +3594,7 @@ public final class CoGetCommunityForumsPu {
          * ID einer Sprache, in der die Beiträge des Forums sind
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue language_id = 10005;</code>
+         * <code>.dstore.values.IntegerValue language_id = 10005;</code>
          */
         public io.dstore.values.IntegerValueOrBuilder getLanguageIdOrBuilder() {
           if (languageIdBuilder_ != null) {
@@ -3609,7 +3609,7 @@ public final class CoGetCommunityForumsPu {
          * ID einer Sprache, in der die Beiträge des Forums sind
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue language_id = 10005;</code>
+         * <code>.dstore.values.IntegerValue language_id = 10005;</code>
          */
         private com.google.protobuf.SingleFieldBuilderV3<
             io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> 
@@ -3633,7 +3633,7 @@ public final class CoGetCommunityForumsPu {
          * Zugriffsrechte des identifizierten Mitglieds auf das Forum "ForumID" - enthält eine Summe von "AccessLevelID"s (siehe "fo_GetForumAccessLevels")
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue access_level = 10006;</code>
+         * <code>.dstore.values.IntegerValue access_level = 10006;</code>
          */
         public boolean hasAccessLevel() {
           return accessLevelBuilder_ != null || accessLevel_ != null;
@@ -3643,7 +3643,7 @@ public final class CoGetCommunityForumsPu {
          * Zugriffsrechte des identifizierten Mitglieds auf das Forum "ForumID" - enthält eine Summe von "AccessLevelID"s (siehe "fo_GetForumAccessLevels")
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue access_level = 10006;</code>
+         * <code>.dstore.values.IntegerValue access_level = 10006;</code>
          */
         public io.dstore.values.IntegerValue getAccessLevel() {
           if (accessLevelBuilder_ == null) {
@@ -3657,7 +3657,7 @@ public final class CoGetCommunityForumsPu {
          * Zugriffsrechte des identifizierten Mitglieds auf das Forum "ForumID" - enthält eine Summe von "AccessLevelID"s (siehe "fo_GetForumAccessLevels")
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue access_level = 10006;</code>
+         * <code>.dstore.values.IntegerValue access_level = 10006;</code>
          */
         public Builder setAccessLevel(io.dstore.values.IntegerValue value) {
           if (accessLevelBuilder_ == null) {
@@ -3677,7 +3677,7 @@ public final class CoGetCommunityForumsPu {
          * Zugriffsrechte des identifizierten Mitglieds auf das Forum "ForumID" - enthält eine Summe von "AccessLevelID"s (siehe "fo_GetForumAccessLevels")
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue access_level = 10006;</code>
+         * <code>.dstore.values.IntegerValue access_level = 10006;</code>
          */
         public Builder setAccessLevel(
             io.dstore.values.IntegerValue.Builder builderForValue) {
@@ -3695,7 +3695,7 @@ public final class CoGetCommunityForumsPu {
          * Zugriffsrechte des identifizierten Mitglieds auf das Forum "ForumID" - enthält eine Summe von "AccessLevelID"s (siehe "fo_GetForumAccessLevels")
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue access_level = 10006;</code>
+         * <code>.dstore.values.IntegerValue access_level = 10006;</code>
          */
         public Builder mergeAccessLevel(io.dstore.values.IntegerValue value) {
           if (accessLevelBuilder_ == null) {
@@ -3717,7 +3717,7 @@ public final class CoGetCommunityForumsPu {
          * Zugriffsrechte des identifizierten Mitglieds auf das Forum "ForumID" - enthält eine Summe von "AccessLevelID"s (siehe "fo_GetForumAccessLevels")
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue access_level = 10006;</code>
+         * <code>.dstore.values.IntegerValue access_level = 10006;</code>
          */
         public Builder clearAccessLevel() {
           if (accessLevelBuilder_ == null) {
@@ -3735,7 +3735,7 @@ public final class CoGetCommunityForumsPu {
          * Zugriffsrechte des identifizierten Mitglieds auf das Forum "ForumID" - enthält eine Summe von "AccessLevelID"s (siehe "fo_GetForumAccessLevels")
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue access_level = 10006;</code>
+         * <code>.dstore.values.IntegerValue access_level = 10006;</code>
          */
         public io.dstore.values.IntegerValue.Builder getAccessLevelBuilder() {
           
@@ -3747,7 +3747,7 @@ public final class CoGetCommunityForumsPu {
          * Zugriffsrechte des identifizierten Mitglieds auf das Forum "ForumID" - enthält eine Summe von "AccessLevelID"s (siehe "fo_GetForumAccessLevels")
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue access_level = 10006;</code>
+         * <code>.dstore.values.IntegerValue access_level = 10006;</code>
          */
         public io.dstore.values.IntegerValueOrBuilder getAccessLevelOrBuilder() {
           if (accessLevelBuilder_ != null) {
@@ -3762,7 +3762,7 @@ public final class CoGetCommunityForumsPu {
          * Zugriffsrechte des identifizierten Mitglieds auf das Forum "ForumID" - enthält eine Summe von "AccessLevelID"s (siehe "fo_GetForumAccessLevels")
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue access_level = 10006;</code>
+         * <code>.dstore.values.IntegerValue access_level = 10006;</code>
          */
         private com.google.protobuf.SingleFieldBuilderV3<
             io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> 
@@ -3935,19 +3935,19 @@ public final class CoGetCommunityForumsPu {
     public static final int COMMUNITY_MEMBER_ID_FIELD_NUMBER = 101;
     private io.dstore.values.IntegerValue communityMemberId_;
     /**
-     * <code>optional .dstore.values.IntegerValue community_member_id = 101;</code>
+     * <code>.dstore.values.IntegerValue community_member_id = 101;</code>
      */
     public boolean hasCommunityMemberId() {
       return communityMemberId_ != null;
     }
     /**
-     * <code>optional .dstore.values.IntegerValue community_member_id = 101;</code>
+     * <code>.dstore.values.IntegerValue community_member_id = 101;</code>
      */
     public io.dstore.values.IntegerValue getCommunityMemberId() {
       return communityMemberId_ == null ? io.dstore.values.IntegerValue.getDefaultInstance() : communityMemberId_;
     }
     /**
-     * <code>optional .dstore.values.IntegerValue community_member_id = 101;</code>
+     * <code>.dstore.values.IntegerValue community_member_id = 101;</code>
      */
     public io.dstore.values.IntegerValueOrBuilder getCommunityMemberIdOrBuilder() {
       return getCommunityMemberId();
@@ -4036,7 +4036,7 @@ public final class CoGetCommunityForumsPu {
         return memoizedHashCode;
       }
       int hash = 41;
-      hash = (19 * hash) + getDescriptorForType().hashCode();
+      hash = (19 * hash) + getDescriptor().hashCode();
       if (getMetaInformationCount() > 0) {
         hash = (37 * hash) + META_INFORMATION_FIELD_NUMBER;
         hash = (53 * hash) + getMetaInformationList().hashCode();
@@ -5128,13 +5128,13 @@ public final class CoGetCommunityForumsPu {
       private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> communityMemberIdBuilder_;
       /**
-       * <code>optional .dstore.values.IntegerValue community_member_id = 101;</code>
+       * <code>.dstore.values.IntegerValue community_member_id = 101;</code>
        */
       public boolean hasCommunityMemberId() {
         return communityMemberIdBuilder_ != null || communityMemberId_ != null;
       }
       /**
-       * <code>optional .dstore.values.IntegerValue community_member_id = 101;</code>
+       * <code>.dstore.values.IntegerValue community_member_id = 101;</code>
        */
       public io.dstore.values.IntegerValue getCommunityMemberId() {
         if (communityMemberIdBuilder_ == null) {
@@ -5144,7 +5144,7 @@ public final class CoGetCommunityForumsPu {
         }
       }
       /**
-       * <code>optional .dstore.values.IntegerValue community_member_id = 101;</code>
+       * <code>.dstore.values.IntegerValue community_member_id = 101;</code>
        */
       public Builder setCommunityMemberId(io.dstore.values.IntegerValue value) {
         if (communityMemberIdBuilder_ == null) {
@@ -5160,7 +5160,7 @@ public final class CoGetCommunityForumsPu {
         return this;
       }
       /**
-       * <code>optional .dstore.values.IntegerValue community_member_id = 101;</code>
+       * <code>.dstore.values.IntegerValue community_member_id = 101;</code>
        */
       public Builder setCommunityMemberId(
           io.dstore.values.IntegerValue.Builder builderForValue) {
@@ -5174,7 +5174,7 @@ public final class CoGetCommunityForumsPu {
         return this;
       }
       /**
-       * <code>optional .dstore.values.IntegerValue community_member_id = 101;</code>
+       * <code>.dstore.values.IntegerValue community_member_id = 101;</code>
        */
       public Builder mergeCommunityMemberId(io.dstore.values.IntegerValue value) {
         if (communityMemberIdBuilder_ == null) {
@@ -5192,7 +5192,7 @@ public final class CoGetCommunityForumsPu {
         return this;
       }
       /**
-       * <code>optional .dstore.values.IntegerValue community_member_id = 101;</code>
+       * <code>.dstore.values.IntegerValue community_member_id = 101;</code>
        */
       public Builder clearCommunityMemberId() {
         if (communityMemberIdBuilder_ == null) {
@@ -5206,7 +5206,7 @@ public final class CoGetCommunityForumsPu {
         return this;
       }
       /**
-       * <code>optional .dstore.values.IntegerValue community_member_id = 101;</code>
+       * <code>.dstore.values.IntegerValue community_member_id = 101;</code>
        */
       public io.dstore.values.IntegerValue.Builder getCommunityMemberIdBuilder() {
         
@@ -5214,7 +5214,7 @@ public final class CoGetCommunityForumsPu {
         return getCommunityMemberIdFieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .dstore.values.IntegerValue community_member_id = 101;</code>
+       * <code>.dstore.values.IntegerValue community_member_id = 101;</code>
        */
       public io.dstore.values.IntegerValueOrBuilder getCommunityMemberIdOrBuilder() {
         if (communityMemberIdBuilder_ != null) {
@@ -5225,7 +5225,7 @@ public final class CoGetCommunityForumsPu {
         }
       }
       /**
-       * <code>optional .dstore.values.IntegerValue community_member_id = 101;</code>
+       * <code>.dstore.values.IntegerValue community_member_id = 101;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> 

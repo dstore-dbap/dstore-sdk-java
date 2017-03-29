@@ -19,56 +19,56 @@ public final class StGetPeriodsToKeepStatsAd {
       com.google.protobuf.MessageOrBuilder {
 
     /**
-     * <code>optional .dstore.values.StringValue table_name = 1;</code>
+     * <code>.dstore.values.StringValue table_name = 1;</code>
      */
     boolean hasTableName();
     /**
-     * <code>optional .dstore.values.StringValue table_name = 1;</code>
+     * <code>.dstore.values.StringValue table_name = 1;</code>
      */
     io.dstore.values.StringValue getTableName();
     /**
-     * <code>optional .dstore.values.StringValue table_name = 1;</code>
+     * <code>.dstore.values.StringValue table_name = 1;</code>
      */
     io.dstore.values.StringValueOrBuilder getTableNameOrBuilder();
 
     /**
-     * <code>optional bool table_name_null = 1001;</code>
+     * <code>bool table_name_null = 1001;</code>
      */
     boolean getTableNameNull();
 
     /**
-     * <code>optional .dstore.values.IntegerValue level_no = 2;</code>
+     * <code>.dstore.values.IntegerValue level_no = 2;</code>
      */
     boolean hasLevelNo();
     /**
-     * <code>optional .dstore.values.IntegerValue level_no = 2;</code>
+     * <code>.dstore.values.IntegerValue level_no = 2;</code>
      */
     io.dstore.values.IntegerValue getLevelNo();
     /**
-     * <code>optional .dstore.values.IntegerValue level_no = 2;</code>
+     * <code>.dstore.values.IntegerValue level_no = 2;</code>
      */
     io.dstore.values.IntegerValueOrBuilder getLevelNoOrBuilder();
 
     /**
-     * <code>optional bool level_no_null = 1002;</code>
+     * <code>bool level_no_null = 1002;</code>
      */
     boolean getLevelNoNull();
 
     /**
-     * <code>optional .dstore.values.IntegerValue basic_characteristic_number = 3;</code>
+     * <code>.dstore.values.IntegerValue basic_characteristic_number = 3;</code>
      */
     boolean hasBasicCharacteristicNumber();
     /**
-     * <code>optional .dstore.values.IntegerValue basic_characteristic_number = 3;</code>
+     * <code>.dstore.values.IntegerValue basic_characteristic_number = 3;</code>
      */
     io.dstore.values.IntegerValue getBasicCharacteristicNumber();
     /**
-     * <code>optional .dstore.values.IntegerValue basic_characteristic_number = 3;</code>
+     * <code>.dstore.values.IntegerValue basic_characteristic_number = 3;</code>
      */
     io.dstore.values.IntegerValueOrBuilder getBasicCharacteristicNumberOrBuilder();
 
     /**
-     * <code>optional bool basic_characteristic_number_null = 1003;</code>
+     * <code>bool basic_characteristic_number_null = 1003;</code>
      */
     boolean getBasicCharacteristicNumberNull();
   }
@@ -194,19 +194,19 @@ public final class StGetPeriodsToKeepStatsAd {
     public static final int TABLE_NAME_FIELD_NUMBER = 1;
     private io.dstore.values.StringValue tableName_;
     /**
-     * <code>optional .dstore.values.StringValue table_name = 1;</code>
+     * <code>.dstore.values.StringValue table_name = 1;</code>
      */
     public boolean hasTableName() {
       return tableName_ != null;
     }
     /**
-     * <code>optional .dstore.values.StringValue table_name = 1;</code>
+     * <code>.dstore.values.StringValue table_name = 1;</code>
      */
     public io.dstore.values.StringValue getTableName() {
       return tableName_ == null ? io.dstore.values.StringValue.getDefaultInstance() : tableName_;
     }
     /**
-     * <code>optional .dstore.values.StringValue table_name = 1;</code>
+     * <code>.dstore.values.StringValue table_name = 1;</code>
      */
     public io.dstore.values.StringValueOrBuilder getTableNameOrBuilder() {
       return getTableName();
@@ -215,7 +215,7 @@ public final class StGetPeriodsToKeepStatsAd {
     public static final int TABLE_NAME_NULL_FIELD_NUMBER = 1001;
     private boolean tableNameNull_;
     /**
-     * <code>optional bool table_name_null = 1001;</code>
+     * <code>bool table_name_null = 1001;</code>
      */
     public boolean getTableNameNull() {
       return tableNameNull_;
@@ -224,19 +224,19 @@ public final class StGetPeriodsToKeepStatsAd {
     public static final int LEVEL_NO_FIELD_NUMBER = 2;
     private io.dstore.values.IntegerValue levelNo_;
     /**
-     * <code>optional .dstore.values.IntegerValue level_no = 2;</code>
+     * <code>.dstore.values.IntegerValue level_no = 2;</code>
      */
     public boolean hasLevelNo() {
       return levelNo_ != null;
     }
     /**
-     * <code>optional .dstore.values.IntegerValue level_no = 2;</code>
+     * <code>.dstore.values.IntegerValue level_no = 2;</code>
      */
     public io.dstore.values.IntegerValue getLevelNo() {
       return levelNo_ == null ? io.dstore.values.IntegerValue.getDefaultInstance() : levelNo_;
     }
     /**
-     * <code>optional .dstore.values.IntegerValue level_no = 2;</code>
+     * <code>.dstore.values.IntegerValue level_no = 2;</code>
      */
     public io.dstore.values.IntegerValueOrBuilder getLevelNoOrBuilder() {
       return getLevelNo();
@@ -245,7 +245,7 @@ public final class StGetPeriodsToKeepStatsAd {
     public static final int LEVEL_NO_NULL_FIELD_NUMBER = 1002;
     private boolean levelNoNull_;
     /**
-     * <code>optional bool level_no_null = 1002;</code>
+     * <code>bool level_no_null = 1002;</code>
      */
     public boolean getLevelNoNull() {
       return levelNoNull_;
@@ -254,19 +254,19 @@ public final class StGetPeriodsToKeepStatsAd {
     public static final int BASIC_CHARACTERISTIC_NUMBER_FIELD_NUMBER = 3;
     private io.dstore.values.IntegerValue basicCharacteristicNumber_;
     /**
-     * <code>optional .dstore.values.IntegerValue basic_characteristic_number = 3;</code>
+     * <code>.dstore.values.IntegerValue basic_characteristic_number = 3;</code>
      */
     public boolean hasBasicCharacteristicNumber() {
       return basicCharacteristicNumber_ != null;
     }
     /**
-     * <code>optional .dstore.values.IntegerValue basic_characteristic_number = 3;</code>
+     * <code>.dstore.values.IntegerValue basic_characteristic_number = 3;</code>
      */
     public io.dstore.values.IntegerValue getBasicCharacteristicNumber() {
       return basicCharacteristicNumber_ == null ? io.dstore.values.IntegerValue.getDefaultInstance() : basicCharacteristicNumber_;
     }
     /**
-     * <code>optional .dstore.values.IntegerValue basic_characteristic_number = 3;</code>
+     * <code>.dstore.values.IntegerValue basic_characteristic_number = 3;</code>
      */
     public io.dstore.values.IntegerValueOrBuilder getBasicCharacteristicNumberOrBuilder() {
       return getBasicCharacteristicNumber();
@@ -275,7 +275,7 @@ public final class StGetPeriodsToKeepStatsAd {
     public static final int BASIC_CHARACTERISTIC_NUMBER_NULL_FIELD_NUMBER = 1003;
     private boolean basicCharacteristicNumberNull_;
     /**
-     * <code>optional bool basic_characteristic_number_null = 1003;</code>
+     * <code>bool basic_characteristic_number_null = 1003;</code>
      */
     public boolean getBasicCharacteristicNumberNull() {
       return basicCharacteristicNumberNull_;
@@ -388,7 +388,7 @@ public final class StGetPeriodsToKeepStatsAd {
         return memoizedHashCode;
       }
       int hash = 41;
-      hash = (19 * hash) + getDescriptorForType().hashCode();
+      hash = (19 * hash) + getDescriptor().hashCode();
       if (hasTableName()) {
         hash = (37 * hash) + TABLE_NAME_FIELD_NUMBER;
         hash = (53 * hash) + getTableName().hashCode();
@@ -681,13 +681,13 @@ public final class StGetPeriodsToKeepStatsAd {
       private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.values.StringValue, io.dstore.values.StringValue.Builder, io.dstore.values.StringValueOrBuilder> tableNameBuilder_;
       /**
-       * <code>optional .dstore.values.StringValue table_name = 1;</code>
+       * <code>.dstore.values.StringValue table_name = 1;</code>
        */
       public boolean hasTableName() {
         return tableNameBuilder_ != null || tableName_ != null;
       }
       /**
-       * <code>optional .dstore.values.StringValue table_name = 1;</code>
+       * <code>.dstore.values.StringValue table_name = 1;</code>
        */
       public io.dstore.values.StringValue getTableName() {
         if (tableNameBuilder_ == null) {
@@ -697,7 +697,7 @@ public final class StGetPeriodsToKeepStatsAd {
         }
       }
       /**
-       * <code>optional .dstore.values.StringValue table_name = 1;</code>
+       * <code>.dstore.values.StringValue table_name = 1;</code>
        */
       public Builder setTableName(io.dstore.values.StringValue value) {
         if (tableNameBuilder_ == null) {
@@ -713,7 +713,7 @@ public final class StGetPeriodsToKeepStatsAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.StringValue table_name = 1;</code>
+       * <code>.dstore.values.StringValue table_name = 1;</code>
        */
       public Builder setTableName(
           io.dstore.values.StringValue.Builder builderForValue) {
@@ -727,7 +727,7 @@ public final class StGetPeriodsToKeepStatsAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.StringValue table_name = 1;</code>
+       * <code>.dstore.values.StringValue table_name = 1;</code>
        */
       public Builder mergeTableName(io.dstore.values.StringValue value) {
         if (tableNameBuilder_ == null) {
@@ -745,7 +745,7 @@ public final class StGetPeriodsToKeepStatsAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.StringValue table_name = 1;</code>
+       * <code>.dstore.values.StringValue table_name = 1;</code>
        */
       public Builder clearTableName() {
         if (tableNameBuilder_ == null) {
@@ -759,7 +759,7 @@ public final class StGetPeriodsToKeepStatsAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.StringValue table_name = 1;</code>
+       * <code>.dstore.values.StringValue table_name = 1;</code>
        */
       public io.dstore.values.StringValue.Builder getTableNameBuilder() {
         
@@ -767,7 +767,7 @@ public final class StGetPeriodsToKeepStatsAd {
         return getTableNameFieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .dstore.values.StringValue table_name = 1;</code>
+       * <code>.dstore.values.StringValue table_name = 1;</code>
        */
       public io.dstore.values.StringValueOrBuilder getTableNameOrBuilder() {
         if (tableNameBuilder_ != null) {
@@ -778,7 +778,7 @@ public final class StGetPeriodsToKeepStatsAd {
         }
       }
       /**
-       * <code>optional .dstore.values.StringValue table_name = 1;</code>
+       * <code>.dstore.values.StringValue table_name = 1;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.values.StringValue, io.dstore.values.StringValue.Builder, io.dstore.values.StringValueOrBuilder> 
@@ -796,13 +796,13 @@ public final class StGetPeriodsToKeepStatsAd {
 
       private boolean tableNameNull_ ;
       /**
-       * <code>optional bool table_name_null = 1001;</code>
+       * <code>bool table_name_null = 1001;</code>
        */
       public boolean getTableNameNull() {
         return tableNameNull_;
       }
       /**
-       * <code>optional bool table_name_null = 1001;</code>
+       * <code>bool table_name_null = 1001;</code>
        */
       public Builder setTableNameNull(boolean value) {
         
@@ -811,7 +811,7 @@ public final class StGetPeriodsToKeepStatsAd {
         return this;
       }
       /**
-       * <code>optional bool table_name_null = 1001;</code>
+       * <code>bool table_name_null = 1001;</code>
        */
       public Builder clearTableNameNull() {
         
@@ -824,13 +824,13 @@ public final class StGetPeriodsToKeepStatsAd {
       private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> levelNoBuilder_;
       /**
-       * <code>optional .dstore.values.IntegerValue level_no = 2;</code>
+       * <code>.dstore.values.IntegerValue level_no = 2;</code>
        */
       public boolean hasLevelNo() {
         return levelNoBuilder_ != null || levelNo_ != null;
       }
       /**
-       * <code>optional .dstore.values.IntegerValue level_no = 2;</code>
+       * <code>.dstore.values.IntegerValue level_no = 2;</code>
        */
       public io.dstore.values.IntegerValue getLevelNo() {
         if (levelNoBuilder_ == null) {
@@ -840,7 +840,7 @@ public final class StGetPeriodsToKeepStatsAd {
         }
       }
       /**
-       * <code>optional .dstore.values.IntegerValue level_no = 2;</code>
+       * <code>.dstore.values.IntegerValue level_no = 2;</code>
        */
       public Builder setLevelNo(io.dstore.values.IntegerValue value) {
         if (levelNoBuilder_ == null) {
@@ -856,7 +856,7 @@ public final class StGetPeriodsToKeepStatsAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.IntegerValue level_no = 2;</code>
+       * <code>.dstore.values.IntegerValue level_no = 2;</code>
        */
       public Builder setLevelNo(
           io.dstore.values.IntegerValue.Builder builderForValue) {
@@ -870,7 +870,7 @@ public final class StGetPeriodsToKeepStatsAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.IntegerValue level_no = 2;</code>
+       * <code>.dstore.values.IntegerValue level_no = 2;</code>
        */
       public Builder mergeLevelNo(io.dstore.values.IntegerValue value) {
         if (levelNoBuilder_ == null) {
@@ -888,7 +888,7 @@ public final class StGetPeriodsToKeepStatsAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.IntegerValue level_no = 2;</code>
+       * <code>.dstore.values.IntegerValue level_no = 2;</code>
        */
       public Builder clearLevelNo() {
         if (levelNoBuilder_ == null) {
@@ -902,7 +902,7 @@ public final class StGetPeriodsToKeepStatsAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.IntegerValue level_no = 2;</code>
+       * <code>.dstore.values.IntegerValue level_no = 2;</code>
        */
       public io.dstore.values.IntegerValue.Builder getLevelNoBuilder() {
         
@@ -910,7 +910,7 @@ public final class StGetPeriodsToKeepStatsAd {
         return getLevelNoFieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .dstore.values.IntegerValue level_no = 2;</code>
+       * <code>.dstore.values.IntegerValue level_no = 2;</code>
        */
       public io.dstore.values.IntegerValueOrBuilder getLevelNoOrBuilder() {
         if (levelNoBuilder_ != null) {
@@ -921,7 +921,7 @@ public final class StGetPeriodsToKeepStatsAd {
         }
       }
       /**
-       * <code>optional .dstore.values.IntegerValue level_no = 2;</code>
+       * <code>.dstore.values.IntegerValue level_no = 2;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> 
@@ -939,13 +939,13 @@ public final class StGetPeriodsToKeepStatsAd {
 
       private boolean levelNoNull_ ;
       /**
-       * <code>optional bool level_no_null = 1002;</code>
+       * <code>bool level_no_null = 1002;</code>
        */
       public boolean getLevelNoNull() {
         return levelNoNull_;
       }
       /**
-       * <code>optional bool level_no_null = 1002;</code>
+       * <code>bool level_no_null = 1002;</code>
        */
       public Builder setLevelNoNull(boolean value) {
         
@@ -954,7 +954,7 @@ public final class StGetPeriodsToKeepStatsAd {
         return this;
       }
       /**
-       * <code>optional bool level_no_null = 1002;</code>
+       * <code>bool level_no_null = 1002;</code>
        */
       public Builder clearLevelNoNull() {
         
@@ -967,13 +967,13 @@ public final class StGetPeriodsToKeepStatsAd {
       private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> basicCharacteristicNumberBuilder_;
       /**
-       * <code>optional .dstore.values.IntegerValue basic_characteristic_number = 3;</code>
+       * <code>.dstore.values.IntegerValue basic_characteristic_number = 3;</code>
        */
       public boolean hasBasicCharacteristicNumber() {
         return basicCharacteristicNumberBuilder_ != null || basicCharacteristicNumber_ != null;
       }
       /**
-       * <code>optional .dstore.values.IntegerValue basic_characteristic_number = 3;</code>
+       * <code>.dstore.values.IntegerValue basic_characteristic_number = 3;</code>
        */
       public io.dstore.values.IntegerValue getBasicCharacteristicNumber() {
         if (basicCharacteristicNumberBuilder_ == null) {
@@ -983,7 +983,7 @@ public final class StGetPeriodsToKeepStatsAd {
         }
       }
       /**
-       * <code>optional .dstore.values.IntegerValue basic_characteristic_number = 3;</code>
+       * <code>.dstore.values.IntegerValue basic_characteristic_number = 3;</code>
        */
       public Builder setBasicCharacteristicNumber(io.dstore.values.IntegerValue value) {
         if (basicCharacteristicNumberBuilder_ == null) {
@@ -999,7 +999,7 @@ public final class StGetPeriodsToKeepStatsAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.IntegerValue basic_characteristic_number = 3;</code>
+       * <code>.dstore.values.IntegerValue basic_characteristic_number = 3;</code>
        */
       public Builder setBasicCharacteristicNumber(
           io.dstore.values.IntegerValue.Builder builderForValue) {
@@ -1013,7 +1013,7 @@ public final class StGetPeriodsToKeepStatsAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.IntegerValue basic_characteristic_number = 3;</code>
+       * <code>.dstore.values.IntegerValue basic_characteristic_number = 3;</code>
        */
       public Builder mergeBasicCharacteristicNumber(io.dstore.values.IntegerValue value) {
         if (basicCharacteristicNumberBuilder_ == null) {
@@ -1031,7 +1031,7 @@ public final class StGetPeriodsToKeepStatsAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.IntegerValue basic_characteristic_number = 3;</code>
+       * <code>.dstore.values.IntegerValue basic_characteristic_number = 3;</code>
        */
       public Builder clearBasicCharacteristicNumber() {
         if (basicCharacteristicNumberBuilder_ == null) {
@@ -1045,7 +1045,7 @@ public final class StGetPeriodsToKeepStatsAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.IntegerValue basic_characteristic_number = 3;</code>
+       * <code>.dstore.values.IntegerValue basic_characteristic_number = 3;</code>
        */
       public io.dstore.values.IntegerValue.Builder getBasicCharacteristicNumberBuilder() {
         
@@ -1053,7 +1053,7 @@ public final class StGetPeriodsToKeepStatsAd {
         return getBasicCharacteristicNumberFieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .dstore.values.IntegerValue basic_characteristic_number = 3;</code>
+       * <code>.dstore.values.IntegerValue basic_characteristic_number = 3;</code>
        */
       public io.dstore.values.IntegerValueOrBuilder getBasicCharacteristicNumberOrBuilder() {
         if (basicCharacteristicNumberBuilder_ != null) {
@@ -1064,7 +1064,7 @@ public final class StGetPeriodsToKeepStatsAd {
         }
       }
       /**
-       * <code>optional .dstore.values.IntegerValue basic_characteristic_number = 3;</code>
+       * <code>.dstore.values.IntegerValue basic_characteristic_number = 3;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> 
@@ -1082,13 +1082,13 @@ public final class StGetPeriodsToKeepStatsAd {
 
       private boolean basicCharacteristicNumberNull_ ;
       /**
-       * <code>optional bool basic_characteristic_number_null = 1003;</code>
+       * <code>bool basic_characteristic_number_null = 1003;</code>
        */
       public boolean getBasicCharacteristicNumberNull() {
         return basicCharacteristicNumberNull_;
       }
       /**
-       * <code>optional bool basic_characteristic_number_null = 1003;</code>
+       * <code>bool basic_characteristic_number_null = 1003;</code>
        */
       public Builder setBasicCharacteristicNumberNull(boolean value) {
         
@@ -1097,7 +1097,7 @@ public final class StGetPeriodsToKeepStatsAd {
         return this;
       }
       /**
-       * <code>optional bool basic_characteristic_number_null = 1003;</code>
+       * <code>bool basic_characteristic_number_null = 1003;</code>
        */
       public Builder clearBasicCharacteristicNumberNull() {
         
@@ -1356,7 +1356,7 @@ public final class StGetPeriodsToKeepStatsAd {
         com.google.protobuf.MessageOrBuilder {
 
       /**
-       * <code>optional int32 row_id = 10000;</code>
+       * <code>int32 row_id = 10000;</code>
        */
       int getRowId();
 
@@ -1365,7 +1365,7 @@ public final class StGetPeriodsToKeepStatsAd {
        * Name einer Statistik-Tabelle. Mögliche Werte : siehe Beschreibung.
        * </pre>
        *
-       * <code>optional .dstore.values.StringValue table_name = 10001;</code>
+       * <code>.dstore.values.StringValue table_name = 10001;</code>
        */
       boolean hasTableName();
       /**
@@ -1373,7 +1373,7 @@ public final class StGetPeriodsToKeepStatsAd {
        * Name einer Statistik-Tabelle. Mögliche Werte : siehe Beschreibung.
        * </pre>
        *
-       * <code>optional .dstore.values.StringValue table_name = 10001;</code>
+       * <code>.dstore.values.StringValue table_name = 10001;</code>
        */
       io.dstore.values.StringValue getTableName();
       /**
@@ -1381,7 +1381,7 @@ public final class StGetPeriodsToKeepStatsAd {
        * Name einer Statistik-Tabelle. Mögliche Werte : siehe Beschreibung.
        * </pre>
        *
-       * <code>optional .dstore.values.StringValue table_name = 10001;</code>
+       * <code>.dstore.values.StringValue table_name = 10001;</code>
        */
       io.dstore.values.StringValueOrBuilder getTableNameOrBuilder();
 
@@ -1390,7 +1390,7 @@ public final class StGetPeriodsToKeepStatsAd {
        * Nummer einer Hierarchie. Falls hier "NULL" steht, gilt der Aufbewahrungszeitraum "KeepStatistics" für Daten zu Elementen mit einer beliebigen Hierarchie. Allerdings hat ein konfigurierter Wert für eine bestimmte Hierarchie Vorrang !
        * </pre>
        *
-       * <code>optional .dstore.values.IntegerValue level_no = 10002;</code>
+       * <code>.dstore.values.IntegerValue level_no = 10002;</code>
        */
       boolean hasLevelNo();
       /**
@@ -1398,7 +1398,7 @@ public final class StGetPeriodsToKeepStatsAd {
        * Nummer einer Hierarchie. Falls hier "NULL" steht, gilt der Aufbewahrungszeitraum "KeepStatistics" für Daten zu Elementen mit einer beliebigen Hierarchie. Allerdings hat ein konfigurierter Wert für eine bestimmte Hierarchie Vorrang !
        * </pre>
        *
-       * <code>optional .dstore.values.IntegerValue level_no = 10002;</code>
+       * <code>.dstore.values.IntegerValue level_no = 10002;</code>
        */
       io.dstore.values.IntegerValue getLevelNo();
       /**
@@ -1406,7 +1406,7 @@ public final class StGetPeriodsToKeepStatsAd {
        * Nummer einer Hierarchie. Falls hier "NULL" steht, gilt der Aufbewahrungszeitraum "KeepStatistics" für Daten zu Elementen mit einer beliebigen Hierarchie. Allerdings hat ein konfigurierter Wert für eine bestimmte Hierarchie Vorrang !
        * </pre>
        *
-       * <code>optional .dstore.values.IntegerValue level_no = 10002;</code>
+       * <code>.dstore.values.IntegerValue level_no = 10002;</code>
        */
       io.dstore.values.IntegerValueOrBuilder getLevelNoOrBuilder();
 
@@ -1415,7 +1415,7 @@ public final class StGetPeriodsToKeepStatsAd {
        * Bezeichnung der Hierarchie "LevelNo"
        * </pre>
        *
-       * <code>optional .dstore.values.StringValue level_description = 10003;</code>
+       * <code>.dstore.values.StringValue level_description = 10003;</code>
        */
       boolean hasLevelDescription();
       /**
@@ -1423,7 +1423,7 @@ public final class StGetPeriodsToKeepStatsAd {
        * Bezeichnung der Hierarchie "LevelNo"
        * </pre>
        *
-       * <code>optional .dstore.values.StringValue level_description = 10003;</code>
+       * <code>.dstore.values.StringValue level_description = 10003;</code>
        */
       io.dstore.values.StringValue getLevelDescription();
       /**
@@ -1431,7 +1431,7 @@ public final class StGetPeriodsToKeepStatsAd {
        * Bezeichnung der Hierarchie "LevelNo"
        * </pre>
        *
-       * <code>optional .dstore.values.StringValue level_description = 10003;</code>
+       * <code>.dstore.values.StringValue level_description = 10003;</code>
        */
       io.dstore.values.StringValueOrBuilder getLevelDescriptionOrBuilder();
 
@@ -1440,7 +1440,7 @@ public final class StGetPeriodsToKeepStatsAd {
        * Kurzbezeichnung der Basis-Kennzahl "BasicCharacteristicNumber"
        * </pre>
        *
-       * <code>optional .dstore.values.StringValue basic_characteristic = 10004;</code>
+       * <code>.dstore.values.StringValue basic_characteristic = 10004;</code>
        */
       boolean hasBasicCharacteristic();
       /**
@@ -1448,7 +1448,7 @@ public final class StGetPeriodsToKeepStatsAd {
        * Kurzbezeichnung der Basis-Kennzahl "BasicCharacteristicNumber"
        * </pre>
        *
-       * <code>optional .dstore.values.StringValue basic_characteristic = 10004;</code>
+       * <code>.dstore.values.StringValue basic_characteristic = 10004;</code>
        */
       io.dstore.values.StringValue getBasicCharacteristic();
       /**
@@ -1456,7 +1456,7 @@ public final class StGetPeriodsToKeepStatsAd {
        * Kurzbezeichnung der Basis-Kennzahl "BasicCharacteristicNumber"
        * </pre>
        *
-       * <code>optional .dstore.values.StringValue basic_characteristic = 10004;</code>
+       * <code>.dstore.values.StringValue basic_characteristic = 10004;</code>
        */
       io.dstore.values.StringValueOrBuilder getBasicCharacteristicOrBuilder();
 
@@ -1465,7 +1465,7 @@ public final class StGetPeriodsToKeepStatsAd {
        * Anzahl Einheiten ("TimeUnit"), die die Daten zur Basis-Kennzahl "BasicCharacteristicNumber" für Elemente der Hierarchie "LevelNo" aufbewahrt werden sollen (also z.B. 30 Tage)
        * </pre>
        *
-       * <code>optional .dstore.values.IntegerValue keep_statistics = 10005;</code>
+       * <code>.dstore.values.IntegerValue keep_statistics = 10005;</code>
        */
       boolean hasKeepStatistics();
       /**
@@ -1473,7 +1473,7 @@ public final class StGetPeriodsToKeepStatsAd {
        * Anzahl Einheiten ("TimeUnit"), die die Daten zur Basis-Kennzahl "BasicCharacteristicNumber" für Elemente der Hierarchie "LevelNo" aufbewahrt werden sollen (also z.B. 30 Tage)
        * </pre>
        *
-       * <code>optional .dstore.values.IntegerValue keep_statistics = 10005;</code>
+       * <code>.dstore.values.IntegerValue keep_statistics = 10005;</code>
        */
       io.dstore.values.IntegerValue getKeepStatistics();
       /**
@@ -1481,7 +1481,7 @@ public final class StGetPeriodsToKeepStatsAd {
        * Anzahl Einheiten ("TimeUnit"), die die Daten zur Basis-Kennzahl "BasicCharacteristicNumber" für Elemente der Hierarchie "LevelNo" aufbewahrt werden sollen (also z.B. 30 Tage)
        * </pre>
        *
-       * <code>optional .dstore.values.IntegerValue keep_statistics = 10005;</code>
+       * <code>.dstore.values.IntegerValue keep_statistics = 10005;</code>
        */
       io.dstore.values.IntegerValueOrBuilder getKeepStatisticsOrBuilder();
 
@@ -1490,7 +1490,7 @@ public final class StGetPeriodsToKeepStatsAd {
        * Einheit, in der "KeepStatistics" angegeben ist. Mögliche Werte sind : "Days", "Months" und "Weeks".
        * </pre>
        *
-       * <code>optional .dstore.values.StringValue time_unit = 10006;</code>
+       * <code>.dstore.values.StringValue time_unit = 10006;</code>
        */
       boolean hasTimeUnit();
       /**
@@ -1498,7 +1498,7 @@ public final class StGetPeriodsToKeepStatsAd {
        * Einheit, in der "KeepStatistics" angegeben ist. Mögliche Werte sind : "Days", "Months" und "Weeks".
        * </pre>
        *
-       * <code>optional .dstore.values.StringValue time_unit = 10006;</code>
+       * <code>.dstore.values.StringValue time_unit = 10006;</code>
        */
       io.dstore.values.StringValue getTimeUnit();
       /**
@@ -1506,7 +1506,7 @@ public final class StGetPeriodsToKeepStatsAd {
        * Einheit, in der "KeepStatistics" angegeben ist. Mögliche Werte sind : "Days", "Months" und "Weeks".
        * </pre>
        *
-       * <code>optional .dstore.values.StringValue time_unit = 10006;</code>
+       * <code>.dstore.values.StringValue time_unit = 10006;</code>
        */
       io.dstore.values.StringValueOrBuilder getTimeUnitOrBuilder();
 
@@ -1515,7 +1515,7 @@ public final class StGetPeriodsToKeepStatsAd {
        * Nummer einer Basis-Kennzahl. Falls hier "NULL" steht, gilt der Aufbewahrungszeitraum "KeepStatistics" für Daten zu beliebigen Basis-Kennzahlen. Allerdings hat ein konfigurierter Wert für eine bestimmte Basis-Kennzahl Vorrang !
        * </pre>
        *
-       * <code>optional .dstore.values.IntegerValue basic_characteristic_number = 10007;</code>
+       * <code>.dstore.values.IntegerValue basic_characteristic_number = 10007;</code>
        */
       boolean hasBasicCharacteristicNumber();
       /**
@@ -1523,7 +1523,7 @@ public final class StGetPeriodsToKeepStatsAd {
        * Nummer einer Basis-Kennzahl. Falls hier "NULL" steht, gilt der Aufbewahrungszeitraum "KeepStatistics" für Daten zu beliebigen Basis-Kennzahlen. Allerdings hat ein konfigurierter Wert für eine bestimmte Basis-Kennzahl Vorrang !
        * </pre>
        *
-       * <code>optional .dstore.values.IntegerValue basic_characteristic_number = 10007;</code>
+       * <code>.dstore.values.IntegerValue basic_characteristic_number = 10007;</code>
        */
       io.dstore.values.IntegerValue getBasicCharacteristicNumber();
       /**
@@ -1531,7 +1531,7 @@ public final class StGetPeriodsToKeepStatsAd {
        * Nummer einer Basis-Kennzahl. Falls hier "NULL" steht, gilt der Aufbewahrungszeitraum "KeepStatistics" für Daten zu beliebigen Basis-Kennzahlen. Allerdings hat ein konfigurierter Wert für eine bestimmte Basis-Kennzahl Vorrang !
        * </pre>
        *
-       * <code>optional .dstore.values.IntegerValue basic_characteristic_number = 10007;</code>
+       * <code>.dstore.values.IntegerValue basic_characteristic_number = 10007;</code>
        */
       io.dstore.values.IntegerValueOrBuilder getBasicCharacteristicNumberOrBuilder();
     }
@@ -1697,7 +1697,7 @@ public final class StGetPeriodsToKeepStatsAd {
       public static final int ROW_ID_FIELD_NUMBER = 10000;
       private int rowId_;
       /**
-       * <code>optional int32 row_id = 10000;</code>
+       * <code>int32 row_id = 10000;</code>
        */
       public int getRowId() {
         return rowId_;
@@ -1710,7 +1710,7 @@ public final class StGetPeriodsToKeepStatsAd {
        * Name einer Statistik-Tabelle. Mögliche Werte : siehe Beschreibung.
        * </pre>
        *
-       * <code>optional .dstore.values.StringValue table_name = 10001;</code>
+       * <code>.dstore.values.StringValue table_name = 10001;</code>
        */
       public boolean hasTableName() {
         return tableName_ != null;
@@ -1720,7 +1720,7 @@ public final class StGetPeriodsToKeepStatsAd {
        * Name einer Statistik-Tabelle. Mögliche Werte : siehe Beschreibung.
        * </pre>
        *
-       * <code>optional .dstore.values.StringValue table_name = 10001;</code>
+       * <code>.dstore.values.StringValue table_name = 10001;</code>
        */
       public io.dstore.values.StringValue getTableName() {
         return tableName_ == null ? io.dstore.values.StringValue.getDefaultInstance() : tableName_;
@@ -1730,7 +1730,7 @@ public final class StGetPeriodsToKeepStatsAd {
        * Name einer Statistik-Tabelle. Mögliche Werte : siehe Beschreibung.
        * </pre>
        *
-       * <code>optional .dstore.values.StringValue table_name = 10001;</code>
+       * <code>.dstore.values.StringValue table_name = 10001;</code>
        */
       public io.dstore.values.StringValueOrBuilder getTableNameOrBuilder() {
         return getTableName();
@@ -1743,7 +1743,7 @@ public final class StGetPeriodsToKeepStatsAd {
        * Nummer einer Hierarchie. Falls hier "NULL" steht, gilt der Aufbewahrungszeitraum "KeepStatistics" für Daten zu Elementen mit einer beliebigen Hierarchie. Allerdings hat ein konfigurierter Wert für eine bestimmte Hierarchie Vorrang !
        * </pre>
        *
-       * <code>optional .dstore.values.IntegerValue level_no = 10002;</code>
+       * <code>.dstore.values.IntegerValue level_no = 10002;</code>
        */
       public boolean hasLevelNo() {
         return levelNo_ != null;
@@ -1753,7 +1753,7 @@ public final class StGetPeriodsToKeepStatsAd {
        * Nummer einer Hierarchie. Falls hier "NULL" steht, gilt der Aufbewahrungszeitraum "KeepStatistics" für Daten zu Elementen mit einer beliebigen Hierarchie. Allerdings hat ein konfigurierter Wert für eine bestimmte Hierarchie Vorrang !
        * </pre>
        *
-       * <code>optional .dstore.values.IntegerValue level_no = 10002;</code>
+       * <code>.dstore.values.IntegerValue level_no = 10002;</code>
        */
       public io.dstore.values.IntegerValue getLevelNo() {
         return levelNo_ == null ? io.dstore.values.IntegerValue.getDefaultInstance() : levelNo_;
@@ -1763,7 +1763,7 @@ public final class StGetPeriodsToKeepStatsAd {
        * Nummer einer Hierarchie. Falls hier "NULL" steht, gilt der Aufbewahrungszeitraum "KeepStatistics" für Daten zu Elementen mit einer beliebigen Hierarchie. Allerdings hat ein konfigurierter Wert für eine bestimmte Hierarchie Vorrang !
        * </pre>
        *
-       * <code>optional .dstore.values.IntegerValue level_no = 10002;</code>
+       * <code>.dstore.values.IntegerValue level_no = 10002;</code>
        */
       public io.dstore.values.IntegerValueOrBuilder getLevelNoOrBuilder() {
         return getLevelNo();
@@ -1776,7 +1776,7 @@ public final class StGetPeriodsToKeepStatsAd {
        * Bezeichnung der Hierarchie "LevelNo"
        * </pre>
        *
-       * <code>optional .dstore.values.StringValue level_description = 10003;</code>
+       * <code>.dstore.values.StringValue level_description = 10003;</code>
        */
       public boolean hasLevelDescription() {
         return levelDescription_ != null;
@@ -1786,7 +1786,7 @@ public final class StGetPeriodsToKeepStatsAd {
        * Bezeichnung der Hierarchie "LevelNo"
        * </pre>
        *
-       * <code>optional .dstore.values.StringValue level_description = 10003;</code>
+       * <code>.dstore.values.StringValue level_description = 10003;</code>
        */
       public io.dstore.values.StringValue getLevelDescription() {
         return levelDescription_ == null ? io.dstore.values.StringValue.getDefaultInstance() : levelDescription_;
@@ -1796,7 +1796,7 @@ public final class StGetPeriodsToKeepStatsAd {
        * Bezeichnung der Hierarchie "LevelNo"
        * </pre>
        *
-       * <code>optional .dstore.values.StringValue level_description = 10003;</code>
+       * <code>.dstore.values.StringValue level_description = 10003;</code>
        */
       public io.dstore.values.StringValueOrBuilder getLevelDescriptionOrBuilder() {
         return getLevelDescription();
@@ -1809,7 +1809,7 @@ public final class StGetPeriodsToKeepStatsAd {
        * Kurzbezeichnung der Basis-Kennzahl "BasicCharacteristicNumber"
        * </pre>
        *
-       * <code>optional .dstore.values.StringValue basic_characteristic = 10004;</code>
+       * <code>.dstore.values.StringValue basic_characteristic = 10004;</code>
        */
       public boolean hasBasicCharacteristic() {
         return basicCharacteristic_ != null;
@@ -1819,7 +1819,7 @@ public final class StGetPeriodsToKeepStatsAd {
        * Kurzbezeichnung der Basis-Kennzahl "BasicCharacteristicNumber"
        * </pre>
        *
-       * <code>optional .dstore.values.StringValue basic_characteristic = 10004;</code>
+       * <code>.dstore.values.StringValue basic_characteristic = 10004;</code>
        */
       public io.dstore.values.StringValue getBasicCharacteristic() {
         return basicCharacteristic_ == null ? io.dstore.values.StringValue.getDefaultInstance() : basicCharacteristic_;
@@ -1829,7 +1829,7 @@ public final class StGetPeriodsToKeepStatsAd {
        * Kurzbezeichnung der Basis-Kennzahl "BasicCharacteristicNumber"
        * </pre>
        *
-       * <code>optional .dstore.values.StringValue basic_characteristic = 10004;</code>
+       * <code>.dstore.values.StringValue basic_characteristic = 10004;</code>
        */
       public io.dstore.values.StringValueOrBuilder getBasicCharacteristicOrBuilder() {
         return getBasicCharacteristic();
@@ -1842,7 +1842,7 @@ public final class StGetPeriodsToKeepStatsAd {
        * Anzahl Einheiten ("TimeUnit"), die die Daten zur Basis-Kennzahl "BasicCharacteristicNumber" für Elemente der Hierarchie "LevelNo" aufbewahrt werden sollen (also z.B. 30 Tage)
        * </pre>
        *
-       * <code>optional .dstore.values.IntegerValue keep_statistics = 10005;</code>
+       * <code>.dstore.values.IntegerValue keep_statistics = 10005;</code>
        */
       public boolean hasKeepStatistics() {
         return keepStatistics_ != null;
@@ -1852,7 +1852,7 @@ public final class StGetPeriodsToKeepStatsAd {
        * Anzahl Einheiten ("TimeUnit"), die die Daten zur Basis-Kennzahl "BasicCharacteristicNumber" für Elemente der Hierarchie "LevelNo" aufbewahrt werden sollen (also z.B. 30 Tage)
        * </pre>
        *
-       * <code>optional .dstore.values.IntegerValue keep_statistics = 10005;</code>
+       * <code>.dstore.values.IntegerValue keep_statistics = 10005;</code>
        */
       public io.dstore.values.IntegerValue getKeepStatistics() {
         return keepStatistics_ == null ? io.dstore.values.IntegerValue.getDefaultInstance() : keepStatistics_;
@@ -1862,7 +1862,7 @@ public final class StGetPeriodsToKeepStatsAd {
        * Anzahl Einheiten ("TimeUnit"), die die Daten zur Basis-Kennzahl "BasicCharacteristicNumber" für Elemente der Hierarchie "LevelNo" aufbewahrt werden sollen (also z.B. 30 Tage)
        * </pre>
        *
-       * <code>optional .dstore.values.IntegerValue keep_statistics = 10005;</code>
+       * <code>.dstore.values.IntegerValue keep_statistics = 10005;</code>
        */
       public io.dstore.values.IntegerValueOrBuilder getKeepStatisticsOrBuilder() {
         return getKeepStatistics();
@@ -1875,7 +1875,7 @@ public final class StGetPeriodsToKeepStatsAd {
        * Einheit, in der "KeepStatistics" angegeben ist. Mögliche Werte sind : "Days", "Months" und "Weeks".
        * </pre>
        *
-       * <code>optional .dstore.values.StringValue time_unit = 10006;</code>
+       * <code>.dstore.values.StringValue time_unit = 10006;</code>
        */
       public boolean hasTimeUnit() {
         return timeUnit_ != null;
@@ -1885,7 +1885,7 @@ public final class StGetPeriodsToKeepStatsAd {
        * Einheit, in der "KeepStatistics" angegeben ist. Mögliche Werte sind : "Days", "Months" und "Weeks".
        * </pre>
        *
-       * <code>optional .dstore.values.StringValue time_unit = 10006;</code>
+       * <code>.dstore.values.StringValue time_unit = 10006;</code>
        */
       public io.dstore.values.StringValue getTimeUnit() {
         return timeUnit_ == null ? io.dstore.values.StringValue.getDefaultInstance() : timeUnit_;
@@ -1895,7 +1895,7 @@ public final class StGetPeriodsToKeepStatsAd {
        * Einheit, in der "KeepStatistics" angegeben ist. Mögliche Werte sind : "Days", "Months" und "Weeks".
        * </pre>
        *
-       * <code>optional .dstore.values.StringValue time_unit = 10006;</code>
+       * <code>.dstore.values.StringValue time_unit = 10006;</code>
        */
       public io.dstore.values.StringValueOrBuilder getTimeUnitOrBuilder() {
         return getTimeUnit();
@@ -1908,7 +1908,7 @@ public final class StGetPeriodsToKeepStatsAd {
        * Nummer einer Basis-Kennzahl. Falls hier "NULL" steht, gilt der Aufbewahrungszeitraum "KeepStatistics" für Daten zu beliebigen Basis-Kennzahlen. Allerdings hat ein konfigurierter Wert für eine bestimmte Basis-Kennzahl Vorrang !
        * </pre>
        *
-       * <code>optional .dstore.values.IntegerValue basic_characteristic_number = 10007;</code>
+       * <code>.dstore.values.IntegerValue basic_characteristic_number = 10007;</code>
        */
       public boolean hasBasicCharacteristicNumber() {
         return basicCharacteristicNumber_ != null;
@@ -1918,7 +1918,7 @@ public final class StGetPeriodsToKeepStatsAd {
        * Nummer einer Basis-Kennzahl. Falls hier "NULL" steht, gilt der Aufbewahrungszeitraum "KeepStatistics" für Daten zu beliebigen Basis-Kennzahlen. Allerdings hat ein konfigurierter Wert für eine bestimmte Basis-Kennzahl Vorrang !
        * </pre>
        *
-       * <code>optional .dstore.values.IntegerValue basic_characteristic_number = 10007;</code>
+       * <code>.dstore.values.IntegerValue basic_characteristic_number = 10007;</code>
        */
       public io.dstore.values.IntegerValue getBasicCharacteristicNumber() {
         return basicCharacteristicNumber_ == null ? io.dstore.values.IntegerValue.getDefaultInstance() : basicCharacteristicNumber_;
@@ -1928,7 +1928,7 @@ public final class StGetPeriodsToKeepStatsAd {
        * Nummer einer Basis-Kennzahl. Falls hier "NULL" steht, gilt der Aufbewahrungszeitraum "KeepStatistics" für Daten zu beliebigen Basis-Kennzahlen. Allerdings hat ein konfigurierter Wert für eine bestimmte Basis-Kennzahl Vorrang !
        * </pre>
        *
-       * <code>optional .dstore.values.IntegerValue basic_characteristic_number = 10007;</code>
+       * <code>.dstore.values.IntegerValue basic_characteristic_number = 10007;</code>
        */
       public io.dstore.values.IntegerValueOrBuilder getBasicCharacteristicNumberOrBuilder() {
         return getBasicCharacteristicNumber();
@@ -2071,7 +2071,7 @@ public final class StGetPeriodsToKeepStatsAd {
           return memoizedHashCode;
         }
         int hash = 41;
-        hash = (19 * hash) + getDescriptorForType().hashCode();
+        hash = (19 * hash) + getDescriptor().hashCode();
         hash = (37 * hash) + ROW_ID_FIELD_NUMBER;
         hash = (53 * hash) + getRowId();
         if (hasTableName()) {
@@ -2415,13 +2415,13 @@ public final class StGetPeriodsToKeepStatsAd {
 
         private int rowId_ ;
         /**
-         * <code>optional int32 row_id = 10000;</code>
+         * <code>int32 row_id = 10000;</code>
          */
         public int getRowId() {
           return rowId_;
         }
         /**
-         * <code>optional int32 row_id = 10000;</code>
+         * <code>int32 row_id = 10000;</code>
          */
         public Builder setRowId(int value) {
           
@@ -2430,7 +2430,7 @@ public final class StGetPeriodsToKeepStatsAd {
           return this;
         }
         /**
-         * <code>optional int32 row_id = 10000;</code>
+         * <code>int32 row_id = 10000;</code>
          */
         public Builder clearRowId() {
           
@@ -2447,7 +2447,7 @@ public final class StGetPeriodsToKeepStatsAd {
          * Name einer Statistik-Tabelle. Mögliche Werte : siehe Beschreibung.
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue table_name = 10001;</code>
+         * <code>.dstore.values.StringValue table_name = 10001;</code>
          */
         public boolean hasTableName() {
           return tableNameBuilder_ != null || tableName_ != null;
@@ -2457,7 +2457,7 @@ public final class StGetPeriodsToKeepStatsAd {
          * Name einer Statistik-Tabelle. Mögliche Werte : siehe Beschreibung.
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue table_name = 10001;</code>
+         * <code>.dstore.values.StringValue table_name = 10001;</code>
          */
         public io.dstore.values.StringValue getTableName() {
           if (tableNameBuilder_ == null) {
@@ -2471,7 +2471,7 @@ public final class StGetPeriodsToKeepStatsAd {
          * Name einer Statistik-Tabelle. Mögliche Werte : siehe Beschreibung.
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue table_name = 10001;</code>
+         * <code>.dstore.values.StringValue table_name = 10001;</code>
          */
         public Builder setTableName(io.dstore.values.StringValue value) {
           if (tableNameBuilder_ == null) {
@@ -2491,7 +2491,7 @@ public final class StGetPeriodsToKeepStatsAd {
          * Name einer Statistik-Tabelle. Mögliche Werte : siehe Beschreibung.
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue table_name = 10001;</code>
+         * <code>.dstore.values.StringValue table_name = 10001;</code>
          */
         public Builder setTableName(
             io.dstore.values.StringValue.Builder builderForValue) {
@@ -2509,7 +2509,7 @@ public final class StGetPeriodsToKeepStatsAd {
          * Name einer Statistik-Tabelle. Mögliche Werte : siehe Beschreibung.
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue table_name = 10001;</code>
+         * <code>.dstore.values.StringValue table_name = 10001;</code>
          */
         public Builder mergeTableName(io.dstore.values.StringValue value) {
           if (tableNameBuilder_ == null) {
@@ -2531,7 +2531,7 @@ public final class StGetPeriodsToKeepStatsAd {
          * Name einer Statistik-Tabelle. Mögliche Werte : siehe Beschreibung.
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue table_name = 10001;</code>
+         * <code>.dstore.values.StringValue table_name = 10001;</code>
          */
         public Builder clearTableName() {
           if (tableNameBuilder_ == null) {
@@ -2549,7 +2549,7 @@ public final class StGetPeriodsToKeepStatsAd {
          * Name einer Statistik-Tabelle. Mögliche Werte : siehe Beschreibung.
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue table_name = 10001;</code>
+         * <code>.dstore.values.StringValue table_name = 10001;</code>
          */
         public io.dstore.values.StringValue.Builder getTableNameBuilder() {
           
@@ -2561,7 +2561,7 @@ public final class StGetPeriodsToKeepStatsAd {
          * Name einer Statistik-Tabelle. Mögliche Werte : siehe Beschreibung.
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue table_name = 10001;</code>
+         * <code>.dstore.values.StringValue table_name = 10001;</code>
          */
         public io.dstore.values.StringValueOrBuilder getTableNameOrBuilder() {
           if (tableNameBuilder_ != null) {
@@ -2576,7 +2576,7 @@ public final class StGetPeriodsToKeepStatsAd {
          * Name einer Statistik-Tabelle. Mögliche Werte : siehe Beschreibung.
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue table_name = 10001;</code>
+         * <code>.dstore.values.StringValue table_name = 10001;</code>
          */
         private com.google.protobuf.SingleFieldBuilderV3<
             io.dstore.values.StringValue, io.dstore.values.StringValue.Builder, io.dstore.values.StringValueOrBuilder> 
@@ -2600,7 +2600,7 @@ public final class StGetPeriodsToKeepStatsAd {
          * Nummer einer Hierarchie. Falls hier "NULL" steht, gilt der Aufbewahrungszeitraum "KeepStatistics" für Daten zu Elementen mit einer beliebigen Hierarchie. Allerdings hat ein konfigurierter Wert für eine bestimmte Hierarchie Vorrang !
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue level_no = 10002;</code>
+         * <code>.dstore.values.IntegerValue level_no = 10002;</code>
          */
         public boolean hasLevelNo() {
           return levelNoBuilder_ != null || levelNo_ != null;
@@ -2610,7 +2610,7 @@ public final class StGetPeriodsToKeepStatsAd {
          * Nummer einer Hierarchie. Falls hier "NULL" steht, gilt der Aufbewahrungszeitraum "KeepStatistics" für Daten zu Elementen mit einer beliebigen Hierarchie. Allerdings hat ein konfigurierter Wert für eine bestimmte Hierarchie Vorrang !
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue level_no = 10002;</code>
+         * <code>.dstore.values.IntegerValue level_no = 10002;</code>
          */
         public io.dstore.values.IntegerValue getLevelNo() {
           if (levelNoBuilder_ == null) {
@@ -2624,7 +2624,7 @@ public final class StGetPeriodsToKeepStatsAd {
          * Nummer einer Hierarchie. Falls hier "NULL" steht, gilt der Aufbewahrungszeitraum "KeepStatistics" für Daten zu Elementen mit einer beliebigen Hierarchie. Allerdings hat ein konfigurierter Wert für eine bestimmte Hierarchie Vorrang !
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue level_no = 10002;</code>
+         * <code>.dstore.values.IntegerValue level_no = 10002;</code>
          */
         public Builder setLevelNo(io.dstore.values.IntegerValue value) {
           if (levelNoBuilder_ == null) {
@@ -2644,7 +2644,7 @@ public final class StGetPeriodsToKeepStatsAd {
          * Nummer einer Hierarchie. Falls hier "NULL" steht, gilt der Aufbewahrungszeitraum "KeepStatistics" für Daten zu Elementen mit einer beliebigen Hierarchie. Allerdings hat ein konfigurierter Wert für eine bestimmte Hierarchie Vorrang !
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue level_no = 10002;</code>
+         * <code>.dstore.values.IntegerValue level_no = 10002;</code>
          */
         public Builder setLevelNo(
             io.dstore.values.IntegerValue.Builder builderForValue) {
@@ -2662,7 +2662,7 @@ public final class StGetPeriodsToKeepStatsAd {
          * Nummer einer Hierarchie. Falls hier "NULL" steht, gilt der Aufbewahrungszeitraum "KeepStatistics" für Daten zu Elementen mit einer beliebigen Hierarchie. Allerdings hat ein konfigurierter Wert für eine bestimmte Hierarchie Vorrang !
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue level_no = 10002;</code>
+         * <code>.dstore.values.IntegerValue level_no = 10002;</code>
          */
         public Builder mergeLevelNo(io.dstore.values.IntegerValue value) {
           if (levelNoBuilder_ == null) {
@@ -2684,7 +2684,7 @@ public final class StGetPeriodsToKeepStatsAd {
          * Nummer einer Hierarchie. Falls hier "NULL" steht, gilt der Aufbewahrungszeitraum "KeepStatistics" für Daten zu Elementen mit einer beliebigen Hierarchie. Allerdings hat ein konfigurierter Wert für eine bestimmte Hierarchie Vorrang !
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue level_no = 10002;</code>
+         * <code>.dstore.values.IntegerValue level_no = 10002;</code>
          */
         public Builder clearLevelNo() {
           if (levelNoBuilder_ == null) {
@@ -2702,7 +2702,7 @@ public final class StGetPeriodsToKeepStatsAd {
          * Nummer einer Hierarchie. Falls hier "NULL" steht, gilt der Aufbewahrungszeitraum "KeepStatistics" für Daten zu Elementen mit einer beliebigen Hierarchie. Allerdings hat ein konfigurierter Wert für eine bestimmte Hierarchie Vorrang !
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue level_no = 10002;</code>
+         * <code>.dstore.values.IntegerValue level_no = 10002;</code>
          */
         public io.dstore.values.IntegerValue.Builder getLevelNoBuilder() {
           
@@ -2714,7 +2714,7 @@ public final class StGetPeriodsToKeepStatsAd {
          * Nummer einer Hierarchie. Falls hier "NULL" steht, gilt der Aufbewahrungszeitraum "KeepStatistics" für Daten zu Elementen mit einer beliebigen Hierarchie. Allerdings hat ein konfigurierter Wert für eine bestimmte Hierarchie Vorrang !
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue level_no = 10002;</code>
+         * <code>.dstore.values.IntegerValue level_no = 10002;</code>
          */
         public io.dstore.values.IntegerValueOrBuilder getLevelNoOrBuilder() {
           if (levelNoBuilder_ != null) {
@@ -2729,7 +2729,7 @@ public final class StGetPeriodsToKeepStatsAd {
          * Nummer einer Hierarchie. Falls hier "NULL" steht, gilt der Aufbewahrungszeitraum "KeepStatistics" für Daten zu Elementen mit einer beliebigen Hierarchie. Allerdings hat ein konfigurierter Wert für eine bestimmte Hierarchie Vorrang !
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue level_no = 10002;</code>
+         * <code>.dstore.values.IntegerValue level_no = 10002;</code>
          */
         private com.google.protobuf.SingleFieldBuilderV3<
             io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> 
@@ -2753,7 +2753,7 @@ public final class StGetPeriodsToKeepStatsAd {
          * Bezeichnung der Hierarchie "LevelNo"
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue level_description = 10003;</code>
+         * <code>.dstore.values.StringValue level_description = 10003;</code>
          */
         public boolean hasLevelDescription() {
           return levelDescriptionBuilder_ != null || levelDescription_ != null;
@@ -2763,7 +2763,7 @@ public final class StGetPeriodsToKeepStatsAd {
          * Bezeichnung der Hierarchie "LevelNo"
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue level_description = 10003;</code>
+         * <code>.dstore.values.StringValue level_description = 10003;</code>
          */
         public io.dstore.values.StringValue getLevelDescription() {
           if (levelDescriptionBuilder_ == null) {
@@ -2777,7 +2777,7 @@ public final class StGetPeriodsToKeepStatsAd {
          * Bezeichnung der Hierarchie "LevelNo"
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue level_description = 10003;</code>
+         * <code>.dstore.values.StringValue level_description = 10003;</code>
          */
         public Builder setLevelDescription(io.dstore.values.StringValue value) {
           if (levelDescriptionBuilder_ == null) {
@@ -2797,7 +2797,7 @@ public final class StGetPeriodsToKeepStatsAd {
          * Bezeichnung der Hierarchie "LevelNo"
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue level_description = 10003;</code>
+         * <code>.dstore.values.StringValue level_description = 10003;</code>
          */
         public Builder setLevelDescription(
             io.dstore.values.StringValue.Builder builderForValue) {
@@ -2815,7 +2815,7 @@ public final class StGetPeriodsToKeepStatsAd {
          * Bezeichnung der Hierarchie "LevelNo"
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue level_description = 10003;</code>
+         * <code>.dstore.values.StringValue level_description = 10003;</code>
          */
         public Builder mergeLevelDescription(io.dstore.values.StringValue value) {
           if (levelDescriptionBuilder_ == null) {
@@ -2837,7 +2837,7 @@ public final class StGetPeriodsToKeepStatsAd {
          * Bezeichnung der Hierarchie "LevelNo"
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue level_description = 10003;</code>
+         * <code>.dstore.values.StringValue level_description = 10003;</code>
          */
         public Builder clearLevelDescription() {
           if (levelDescriptionBuilder_ == null) {
@@ -2855,7 +2855,7 @@ public final class StGetPeriodsToKeepStatsAd {
          * Bezeichnung der Hierarchie "LevelNo"
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue level_description = 10003;</code>
+         * <code>.dstore.values.StringValue level_description = 10003;</code>
          */
         public io.dstore.values.StringValue.Builder getLevelDescriptionBuilder() {
           
@@ -2867,7 +2867,7 @@ public final class StGetPeriodsToKeepStatsAd {
          * Bezeichnung der Hierarchie "LevelNo"
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue level_description = 10003;</code>
+         * <code>.dstore.values.StringValue level_description = 10003;</code>
          */
         public io.dstore.values.StringValueOrBuilder getLevelDescriptionOrBuilder() {
           if (levelDescriptionBuilder_ != null) {
@@ -2882,7 +2882,7 @@ public final class StGetPeriodsToKeepStatsAd {
          * Bezeichnung der Hierarchie "LevelNo"
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue level_description = 10003;</code>
+         * <code>.dstore.values.StringValue level_description = 10003;</code>
          */
         private com.google.protobuf.SingleFieldBuilderV3<
             io.dstore.values.StringValue, io.dstore.values.StringValue.Builder, io.dstore.values.StringValueOrBuilder> 
@@ -2906,7 +2906,7 @@ public final class StGetPeriodsToKeepStatsAd {
          * Kurzbezeichnung der Basis-Kennzahl "BasicCharacteristicNumber"
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue basic_characteristic = 10004;</code>
+         * <code>.dstore.values.StringValue basic_characteristic = 10004;</code>
          */
         public boolean hasBasicCharacteristic() {
           return basicCharacteristicBuilder_ != null || basicCharacteristic_ != null;
@@ -2916,7 +2916,7 @@ public final class StGetPeriodsToKeepStatsAd {
          * Kurzbezeichnung der Basis-Kennzahl "BasicCharacteristicNumber"
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue basic_characteristic = 10004;</code>
+         * <code>.dstore.values.StringValue basic_characteristic = 10004;</code>
          */
         public io.dstore.values.StringValue getBasicCharacteristic() {
           if (basicCharacteristicBuilder_ == null) {
@@ -2930,7 +2930,7 @@ public final class StGetPeriodsToKeepStatsAd {
          * Kurzbezeichnung der Basis-Kennzahl "BasicCharacteristicNumber"
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue basic_characteristic = 10004;</code>
+         * <code>.dstore.values.StringValue basic_characteristic = 10004;</code>
          */
         public Builder setBasicCharacteristic(io.dstore.values.StringValue value) {
           if (basicCharacteristicBuilder_ == null) {
@@ -2950,7 +2950,7 @@ public final class StGetPeriodsToKeepStatsAd {
          * Kurzbezeichnung der Basis-Kennzahl "BasicCharacteristicNumber"
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue basic_characteristic = 10004;</code>
+         * <code>.dstore.values.StringValue basic_characteristic = 10004;</code>
          */
         public Builder setBasicCharacteristic(
             io.dstore.values.StringValue.Builder builderForValue) {
@@ -2968,7 +2968,7 @@ public final class StGetPeriodsToKeepStatsAd {
          * Kurzbezeichnung der Basis-Kennzahl "BasicCharacteristicNumber"
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue basic_characteristic = 10004;</code>
+         * <code>.dstore.values.StringValue basic_characteristic = 10004;</code>
          */
         public Builder mergeBasicCharacteristic(io.dstore.values.StringValue value) {
           if (basicCharacteristicBuilder_ == null) {
@@ -2990,7 +2990,7 @@ public final class StGetPeriodsToKeepStatsAd {
          * Kurzbezeichnung der Basis-Kennzahl "BasicCharacteristicNumber"
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue basic_characteristic = 10004;</code>
+         * <code>.dstore.values.StringValue basic_characteristic = 10004;</code>
          */
         public Builder clearBasicCharacteristic() {
           if (basicCharacteristicBuilder_ == null) {
@@ -3008,7 +3008,7 @@ public final class StGetPeriodsToKeepStatsAd {
          * Kurzbezeichnung der Basis-Kennzahl "BasicCharacteristicNumber"
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue basic_characteristic = 10004;</code>
+         * <code>.dstore.values.StringValue basic_characteristic = 10004;</code>
          */
         public io.dstore.values.StringValue.Builder getBasicCharacteristicBuilder() {
           
@@ -3020,7 +3020,7 @@ public final class StGetPeriodsToKeepStatsAd {
          * Kurzbezeichnung der Basis-Kennzahl "BasicCharacteristicNumber"
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue basic_characteristic = 10004;</code>
+         * <code>.dstore.values.StringValue basic_characteristic = 10004;</code>
          */
         public io.dstore.values.StringValueOrBuilder getBasicCharacteristicOrBuilder() {
           if (basicCharacteristicBuilder_ != null) {
@@ -3035,7 +3035,7 @@ public final class StGetPeriodsToKeepStatsAd {
          * Kurzbezeichnung der Basis-Kennzahl "BasicCharacteristicNumber"
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue basic_characteristic = 10004;</code>
+         * <code>.dstore.values.StringValue basic_characteristic = 10004;</code>
          */
         private com.google.protobuf.SingleFieldBuilderV3<
             io.dstore.values.StringValue, io.dstore.values.StringValue.Builder, io.dstore.values.StringValueOrBuilder> 
@@ -3059,7 +3059,7 @@ public final class StGetPeriodsToKeepStatsAd {
          * Anzahl Einheiten ("TimeUnit"), die die Daten zur Basis-Kennzahl "BasicCharacteristicNumber" für Elemente der Hierarchie "LevelNo" aufbewahrt werden sollen (also z.B. 30 Tage)
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue keep_statistics = 10005;</code>
+         * <code>.dstore.values.IntegerValue keep_statistics = 10005;</code>
          */
         public boolean hasKeepStatistics() {
           return keepStatisticsBuilder_ != null || keepStatistics_ != null;
@@ -3069,7 +3069,7 @@ public final class StGetPeriodsToKeepStatsAd {
          * Anzahl Einheiten ("TimeUnit"), die die Daten zur Basis-Kennzahl "BasicCharacteristicNumber" für Elemente der Hierarchie "LevelNo" aufbewahrt werden sollen (also z.B. 30 Tage)
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue keep_statistics = 10005;</code>
+         * <code>.dstore.values.IntegerValue keep_statistics = 10005;</code>
          */
         public io.dstore.values.IntegerValue getKeepStatistics() {
           if (keepStatisticsBuilder_ == null) {
@@ -3083,7 +3083,7 @@ public final class StGetPeriodsToKeepStatsAd {
          * Anzahl Einheiten ("TimeUnit"), die die Daten zur Basis-Kennzahl "BasicCharacteristicNumber" für Elemente der Hierarchie "LevelNo" aufbewahrt werden sollen (also z.B. 30 Tage)
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue keep_statistics = 10005;</code>
+         * <code>.dstore.values.IntegerValue keep_statistics = 10005;</code>
          */
         public Builder setKeepStatistics(io.dstore.values.IntegerValue value) {
           if (keepStatisticsBuilder_ == null) {
@@ -3103,7 +3103,7 @@ public final class StGetPeriodsToKeepStatsAd {
          * Anzahl Einheiten ("TimeUnit"), die die Daten zur Basis-Kennzahl "BasicCharacteristicNumber" für Elemente der Hierarchie "LevelNo" aufbewahrt werden sollen (also z.B. 30 Tage)
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue keep_statistics = 10005;</code>
+         * <code>.dstore.values.IntegerValue keep_statistics = 10005;</code>
          */
         public Builder setKeepStatistics(
             io.dstore.values.IntegerValue.Builder builderForValue) {
@@ -3121,7 +3121,7 @@ public final class StGetPeriodsToKeepStatsAd {
          * Anzahl Einheiten ("TimeUnit"), die die Daten zur Basis-Kennzahl "BasicCharacteristicNumber" für Elemente der Hierarchie "LevelNo" aufbewahrt werden sollen (also z.B. 30 Tage)
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue keep_statistics = 10005;</code>
+         * <code>.dstore.values.IntegerValue keep_statistics = 10005;</code>
          */
         public Builder mergeKeepStatistics(io.dstore.values.IntegerValue value) {
           if (keepStatisticsBuilder_ == null) {
@@ -3143,7 +3143,7 @@ public final class StGetPeriodsToKeepStatsAd {
          * Anzahl Einheiten ("TimeUnit"), die die Daten zur Basis-Kennzahl "BasicCharacteristicNumber" für Elemente der Hierarchie "LevelNo" aufbewahrt werden sollen (also z.B. 30 Tage)
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue keep_statistics = 10005;</code>
+         * <code>.dstore.values.IntegerValue keep_statistics = 10005;</code>
          */
         public Builder clearKeepStatistics() {
           if (keepStatisticsBuilder_ == null) {
@@ -3161,7 +3161,7 @@ public final class StGetPeriodsToKeepStatsAd {
          * Anzahl Einheiten ("TimeUnit"), die die Daten zur Basis-Kennzahl "BasicCharacteristicNumber" für Elemente der Hierarchie "LevelNo" aufbewahrt werden sollen (also z.B. 30 Tage)
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue keep_statistics = 10005;</code>
+         * <code>.dstore.values.IntegerValue keep_statistics = 10005;</code>
          */
         public io.dstore.values.IntegerValue.Builder getKeepStatisticsBuilder() {
           
@@ -3173,7 +3173,7 @@ public final class StGetPeriodsToKeepStatsAd {
          * Anzahl Einheiten ("TimeUnit"), die die Daten zur Basis-Kennzahl "BasicCharacteristicNumber" für Elemente der Hierarchie "LevelNo" aufbewahrt werden sollen (also z.B. 30 Tage)
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue keep_statistics = 10005;</code>
+         * <code>.dstore.values.IntegerValue keep_statistics = 10005;</code>
          */
         public io.dstore.values.IntegerValueOrBuilder getKeepStatisticsOrBuilder() {
           if (keepStatisticsBuilder_ != null) {
@@ -3188,7 +3188,7 @@ public final class StGetPeriodsToKeepStatsAd {
          * Anzahl Einheiten ("TimeUnit"), die die Daten zur Basis-Kennzahl "BasicCharacteristicNumber" für Elemente der Hierarchie "LevelNo" aufbewahrt werden sollen (also z.B. 30 Tage)
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue keep_statistics = 10005;</code>
+         * <code>.dstore.values.IntegerValue keep_statistics = 10005;</code>
          */
         private com.google.protobuf.SingleFieldBuilderV3<
             io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> 
@@ -3212,7 +3212,7 @@ public final class StGetPeriodsToKeepStatsAd {
          * Einheit, in der "KeepStatistics" angegeben ist. Mögliche Werte sind : "Days", "Months" und "Weeks".
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue time_unit = 10006;</code>
+         * <code>.dstore.values.StringValue time_unit = 10006;</code>
          */
         public boolean hasTimeUnit() {
           return timeUnitBuilder_ != null || timeUnit_ != null;
@@ -3222,7 +3222,7 @@ public final class StGetPeriodsToKeepStatsAd {
          * Einheit, in der "KeepStatistics" angegeben ist. Mögliche Werte sind : "Days", "Months" und "Weeks".
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue time_unit = 10006;</code>
+         * <code>.dstore.values.StringValue time_unit = 10006;</code>
          */
         public io.dstore.values.StringValue getTimeUnit() {
           if (timeUnitBuilder_ == null) {
@@ -3236,7 +3236,7 @@ public final class StGetPeriodsToKeepStatsAd {
          * Einheit, in der "KeepStatistics" angegeben ist. Mögliche Werte sind : "Days", "Months" und "Weeks".
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue time_unit = 10006;</code>
+         * <code>.dstore.values.StringValue time_unit = 10006;</code>
          */
         public Builder setTimeUnit(io.dstore.values.StringValue value) {
           if (timeUnitBuilder_ == null) {
@@ -3256,7 +3256,7 @@ public final class StGetPeriodsToKeepStatsAd {
          * Einheit, in der "KeepStatistics" angegeben ist. Mögliche Werte sind : "Days", "Months" und "Weeks".
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue time_unit = 10006;</code>
+         * <code>.dstore.values.StringValue time_unit = 10006;</code>
          */
         public Builder setTimeUnit(
             io.dstore.values.StringValue.Builder builderForValue) {
@@ -3274,7 +3274,7 @@ public final class StGetPeriodsToKeepStatsAd {
          * Einheit, in der "KeepStatistics" angegeben ist. Mögliche Werte sind : "Days", "Months" und "Weeks".
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue time_unit = 10006;</code>
+         * <code>.dstore.values.StringValue time_unit = 10006;</code>
          */
         public Builder mergeTimeUnit(io.dstore.values.StringValue value) {
           if (timeUnitBuilder_ == null) {
@@ -3296,7 +3296,7 @@ public final class StGetPeriodsToKeepStatsAd {
          * Einheit, in der "KeepStatistics" angegeben ist. Mögliche Werte sind : "Days", "Months" und "Weeks".
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue time_unit = 10006;</code>
+         * <code>.dstore.values.StringValue time_unit = 10006;</code>
          */
         public Builder clearTimeUnit() {
           if (timeUnitBuilder_ == null) {
@@ -3314,7 +3314,7 @@ public final class StGetPeriodsToKeepStatsAd {
          * Einheit, in der "KeepStatistics" angegeben ist. Mögliche Werte sind : "Days", "Months" und "Weeks".
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue time_unit = 10006;</code>
+         * <code>.dstore.values.StringValue time_unit = 10006;</code>
          */
         public io.dstore.values.StringValue.Builder getTimeUnitBuilder() {
           
@@ -3326,7 +3326,7 @@ public final class StGetPeriodsToKeepStatsAd {
          * Einheit, in der "KeepStatistics" angegeben ist. Mögliche Werte sind : "Days", "Months" und "Weeks".
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue time_unit = 10006;</code>
+         * <code>.dstore.values.StringValue time_unit = 10006;</code>
          */
         public io.dstore.values.StringValueOrBuilder getTimeUnitOrBuilder() {
           if (timeUnitBuilder_ != null) {
@@ -3341,7 +3341,7 @@ public final class StGetPeriodsToKeepStatsAd {
          * Einheit, in der "KeepStatistics" angegeben ist. Mögliche Werte sind : "Days", "Months" und "Weeks".
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue time_unit = 10006;</code>
+         * <code>.dstore.values.StringValue time_unit = 10006;</code>
          */
         private com.google.protobuf.SingleFieldBuilderV3<
             io.dstore.values.StringValue, io.dstore.values.StringValue.Builder, io.dstore.values.StringValueOrBuilder> 
@@ -3365,7 +3365,7 @@ public final class StGetPeriodsToKeepStatsAd {
          * Nummer einer Basis-Kennzahl. Falls hier "NULL" steht, gilt der Aufbewahrungszeitraum "KeepStatistics" für Daten zu beliebigen Basis-Kennzahlen. Allerdings hat ein konfigurierter Wert für eine bestimmte Basis-Kennzahl Vorrang !
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue basic_characteristic_number = 10007;</code>
+         * <code>.dstore.values.IntegerValue basic_characteristic_number = 10007;</code>
          */
         public boolean hasBasicCharacteristicNumber() {
           return basicCharacteristicNumberBuilder_ != null || basicCharacteristicNumber_ != null;
@@ -3375,7 +3375,7 @@ public final class StGetPeriodsToKeepStatsAd {
          * Nummer einer Basis-Kennzahl. Falls hier "NULL" steht, gilt der Aufbewahrungszeitraum "KeepStatistics" für Daten zu beliebigen Basis-Kennzahlen. Allerdings hat ein konfigurierter Wert für eine bestimmte Basis-Kennzahl Vorrang !
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue basic_characteristic_number = 10007;</code>
+         * <code>.dstore.values.IntegerValue basic_characteristic_number = 10007;</code>
          */
         public io.dstore.values.IntegerValue getBasicCharacteristicNumber() {
           if (basicCharacteristicNumberBuilder_ == null) {
@@ -3389,7 +3389,7 @@ public final class StGetPeriodsToKeepStatsAd {
          * Nummer einer Basis-Kennzahl. Falls hier "NULL" steht, gilt der Aufbewahrungszeitraum "KeepStatistics" für Daten zu beliebigen Basis-Kennzahlen. Allerdings hat ein konfigurierter Wert für eine bestimmte Basis-Kennzahl Vorrang !
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue basic_characteristic_number = 10007;</code>
+         * <code>.dstore.values.IntegerValue basic_characteristic_number = 10007;</code>
          */
         public Builder setBasicCharacteristicNumber(io.dstore.values.IntegerValue value) {
           if (basicCharacteristicNumberBuilder_ == null) {
@@ -3409,7 +3409,7 @@ public final class StGetPeriodsToKeepStatsAd {
          * Nummer einer Basis-Kennzahl. Falls hier "NULL" steht, gilt der Aufbewahrungszeitraum "KeepStatistics" für Daten zu beliebigen Basis-Kennzahlen. Allerdings hat ein konfigurierter Wert für eine bestimmte Basis-Kennzahl Vorrang !
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue basic_characteristic_number = 10007;</code>
+         * <code>.dstore.values.IntegerValue basic_characteristic_number = 10007;</code>
          */
         public Builder setBasicCharacteristicNumber(
             io.dstore.values.IntegerValue.Builder builderForValue) {
@@ -3427,7 +3427,7 @@ public final class StGetPeriodsToKeepStatsAd {
          * Nummer einer Basis-Kennzahl. Falls hier "NULL" steht, gilt der Aufbewahrungszeitraum "KeepStatistics" für Daten zu beliebigen Basis-Kennzahlen. Allerdings hat ein konfigurierter Wert für eine bestimmte Basis-Kennzahl Vorrang !
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue basic_characteristic_number = 10007;</code>
+         * <code>.dstore.values.IntegerValue basic_characteristic_number = 10007;</code>
          */
         public Builder mergeBasicCharacteristicNumber(io.dstore.values.IntegerValue value) {
           if (basicCharacteristicNumberBuilder_ == null) {
@@ -3449,7 +3449,7 @@ public final class StGetPeriodsToKeepStatsAd {
          * Nummer einer Basis-Kennzahl. Falls hier "NULL" steht, gilt der Aufbewahrungszeitraum "KeepStatistics" für Daten zu beliebigen Basis-Kennzahlen. Allerdings hat ein konfigurierter Wert für eine bestimmte Basis-Kennzahl Vorrang !
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue basic_characteristic_number = 10007;</code>
+         * <code>.dstore.values.IntegerValue basic_characteristic_number = 10007;</code>
          */
         public Builder clearBasicCharacteristicNumber() {
           if (basicCharacteristicNumberBuilder_ == null) {
@@ -3467,7 +3467,7 @@ public final class StGetPeriodsToKeepStatsAd {
          * Nummer einer Basis-Kennzahl. Falls hier "NULL" steht, gilt der Aufbewahrungszeitraum "KeepStatistics" für Daten zu beliebigen Basis-Kennzahlen. Allerdings hat ein konfigurierter Wert für eine bestimmte Basis-Kennzahl Vorrang !
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue basic_characteristic_number = 10007;</code>
+         * <code>.dstore.values.IntegerValue basic_characteristic_number = 10007;</code>
          */
         public io.dstore.values.IntegerValue.Builder getBasicCharacteristicNumberBuilder() {
           
@@ -3479,7 +3479,7 @@ public final class StGetPeriodsToKeepStatsAd {
          * Nummer einer Basis-Kennzahl. Falls hier "NULL" steht, gilt der Aufbewahrungszeitraum "KeepStatistics" für Daten zu beliebigen Basis-Kennzahlen. Allerdings hat ein konfigurierter Wert für eine bestimmte Basis-Kennzahl Vorrang !
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue basic_characteristic_number = 10007;</code>
+         * <code>.dstore.values.IntegerValue basic_characteristic_number = 10007;</code>
          */
         public io.dstore.values.IntegerValueOrBuilder getBasicCharacteristicNumberOrBuilder() {
           if (basicCharacteristicNumberBuilder_ != null) {
@@ -3494,7 +3494,7 @@ public final class StGetPeriodsToKeepStatsAd {
          * Nummer einer Basis-Kennzahl. Falls hier "NULL" steht, gilt der Aufbewahrungszeitraum "KeepStatistics" für Daten zu beliebigen Basis-Kennzahlen. Allerdings hat ein konfigurierter Wert für eine bestimmte Basis-Kennzahl Vorrang !
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue basic_characteristic_number = 10007;</code>
+         * <code>.dstore.values.IntegerValue basic_characteristic_number = 10007;</code>
          */
         private com.google.protobuf.SingleFieldBuilderV3<
             io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> 
@@ -3754,7 +3754,7 @@ public final class StGetPeriodsToKeepStatsAd {
         return memoizedHashCode;
       }
       int hash = 41;
-      hash = (19 * hash) + getDescriptorForType().hashCode();
+      hash = (19 * hash) + getDescriptor().hashCode();
       if (getMetaInformationCount() > 0) {
         hash = (37 * hash) + META_INFORMATION_FIELD_NUMBER;
         hash = (53 * hash) + getMetaInformationList().hashCode();

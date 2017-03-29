@@ -19,110 +19,110 @@ public final class OmModifyPaymentTypeSurchAd {
       com.google.protobuf.MessageOrBuilder {
 
     /**
-     * <code>optional .dstore.values.IntegerValue payment_type_id = 1;</code>
+     * <code>.dstore.values.IntegerValue payment_type_id = 1;</code>
      */
     boolean hasPaymentTypeId();
     /**
-     * <code>optional .dstore.values.IntegerValue payment_type_id = 1;</code>
+     * <code>.dstore.values.IntegerValue payment_type_id = 1;</code>
      */
     io.dstore.values.IntegerValue getPaymentTypeId();
     /**
-     * <code>optional .dstore.values.IntegerValue payment_type_id = 1;</code>
+     * <code>.dstore.values.IntegerValue payment_type_id = 1;</code>
      */
     io.dstore.values.IntegerValueOrBuilder getPaymentTypeIdOrBuilder();
 
     /**
-     * <code>optional bool payment_type_id_null = 1001;</code>
+     * <code>bool payment_type_id_null = 1001;</code>
      */
     boolean getPaymentTypeIdNull();
 
     /**
-     * <code>optional .dstore.values.IntegerValue surcharge_type_id = 2;</code>
+     * <code>.dstore.values.IntegerValue surcharge_type_id = 2;</code>
      */
     boolean hasSurchargeTypeId();
     /**
-     * <code>optional .dstore.values.IntegerValue surcharge_type_id = 2;</code>
+     * <code>.dstore.values.IntegerValue surcharge_type_id = 2;</code>
      */
     io.dstore.values.IntegerValue getSurchargeTypeId();
     /**
-     * <code>optional .dstore.values.IntegerValue surcharge_type_id = 2;</code>
+     * <code>.dstore.values.IntegerValue surcharge_type_id = 2;</code>
      */
     io.dstore.values.IntegerValueOrBuilder getSurchargeTypeIdOrBuilder();
 
     /**
-     * <code>optional bool surcharge_type_id_null = 1002;</code>
+     * <code>bool surcharge_type_id_null = 1002;</code>
      */
     boolean getSurchargeTypeIdNull();
 
     /**
-     * <code>optional .dstore.values.DecimalValue surcharge_value = 3;</code>
+     * <code>.dstore.values.DecimalValue surcharge_value = 3;</code>
      */
     boolean hasSurchargeValue();
     /**
-     * <code>optional .dstore.values.DecimalValue surcharge_value = 3;</code>
+     * <code>.dstore.values.DecimalValue surcharge_value = 3;</code>
      */
     io.dstore.values.DecimalValue getSurchargeValue();
     /**
-     * <code>optional .dstore.values.DecimalValue surcharge_value = 3;</code>
+     * <code>.dstore.values.DecimalValue surcharge_value = 3;</code>
      */
     io.dstore.values.DecimalValueOrBuilder getSurchargeValueOrBuilder();
 
     /**
-     * <code>optional bool surcharge_value_null = 1003;</code>
+     * <code>bool surcharge_value_null = 1003;</code>
      */
     boolean getSurchargeValueNull();
 
     /**
-     * <code>optional .dstore.values.TimestampValue valid_from = 4;</code>
+     * <code>.dstore.values.TimestampValue valid_from = 4;</code>
      */
     boolean hasValidFrom();
     /**
-     * <code>optional .dstore.values.TimestampValue valid_from = 4;</code>
+     * <code>.dstore.values.TimestampValue valid_from = 4;</code>
      */
     io.dstore.values.TimestampValue getValidFrom();
     /**
-     * <code>optional .dstore.values.TimestampValue valid_from = 4;</code>
+     * <code>.dstore.values.TimestampValue valid_from = 4;</code>
      */
     io.dstore.values.TimestampValueOrBuilder getValidFromOrBuilder();
 
     /**
-     * <code>optional bool valid_from_null = 1004;</code>
+     * <code>bool valid_from_null = 1004;</code>
      */
     boolean getValidFromNull();
 
     /**
-     * <code>optional .dstore.values.IntegerValue priority_no = 5;</code>
+     * <code>.dstore.values.IntegerValue priority_no = 5;</code>
      */
     boolean hasPriorityNo();
     /**
-     * <code>optional .dstore.values.IntegerValue priority_no = 5;</code>
+     * <code>.dstore.values.IntegerValue priority_no = 5;</code>
      */
     io.dstore.values.IntegerValue getPriorityNo();
     /**
-     * <code>optional .dstore.values.IntegerValue priority_no = 5;</code>
+     * <code>.dstore.values.IntegerValue priority_no = 5;</code>
      */
     io.dstore.values.IntegerValueOrBuilder getPriorityNoOrBuilder();
 
     /**
-     * <code>optional bool priority_no_null = 1005;</code>
+     * <code>bool priority_no_null = 1005;</code>
      */
     boolean getPriorityNoNull();
 
     /**
-     * <code>optional .dstore.values.BooleanValue delete_configuration = 6;</code>
+     * <code>.dstore.values.BooleanValue delete_configuration = 6;</code>
      */
     boolean hasDeleteConfiguration();
     /**
-     * <code>optional .dstore.values.BooleanValue delete_configuration = 6;</code>
+     * <code>.dstore.values.BooleanValue delete_configuration = 6;</code>
      */
     io.dstore.values.BooleanValue getDeleteConfiguration();
     /**
-     * <code>optional .dstore.values.BooleanValue delete_configuration = 6;</code>
+     * <code>.dstore.values.BooleanValue delete_configuration = 6;</code>
      */
     io.dstore.values.BooleanValueOrBuilder getDeleteConfigurationOrBuilder();
 
     /**
-     * <code>optional bool delete_configuration_null = 1006;</code>
+     * <code>bool delete_configuration_null = 1006;</code>
      */
     boolean getDeleteConfigurationNull();
   }
@@ -305,19 +305,19 @@ public final class OmModifyPaymentTypeSurchAd {
     public static final int PAYMENT_TYPE_ID_FIELD_NUMBER = 1;
     private io.dstore.values.IntegerValue paymentTypeId_;
     /**
-     * <code>optional .dstore.values.IntegerValue payment_type_id = 1;</code>
+     * <code>.dstore.values.IntegerValue payment_type_id = 1;</code>
      */
     public boolean hasPaymentTypeId() {
       return paymentTypeId_ != null;
     }
     /**
-     * <code>optional .dstore.values.IntegerValue payment_type_id = 1;</code>
+     * <code>.dstore.values.IntegerValue payment_type_id = 1;</code>
      */
     public io.dstore.values.IntegerValue getPaymentTypeId() {
       return paymentTypeId_ == null ? io.dstore.values.IntegerValue.getDefaultInstance() : paymentTypeId_;
     }
     /**
-     * <code>optional .dstore.values.IntegerValue payment_type_id = 1;</code>
+     * <code>.dstore.values.IntegerValue payment_type_id = 1;</code>
      */
     public io.dstore.values.IntegerValueOrBuilder getPaymentTypeIdOrBuilder() {
       return getPaymentTypeId();
@@ -326,7 +326,7 @@ public final class OmModifyPaymentTypeSurchAd {
     public static final int PAYMENT_TYPE_ID_NULL_FIELD_NUMBER = 1001;
     private boolean paymentTypeIdNull_;
     /**
-     * <code>optional bool payment_type_id_null = 1001;</code>
+     * <code>bool payment_type_id_null = 1001;</code>
      */
     public boolean getPaymentTypeIdNull() {
       return paymentTypeIdNull_;
@@ -335,19 +335,19 @@ public final class OmModifyPaymentTypeSurchAd {
     public static final int SURCHARGE_TYPE_ID_FIELD_NUMBER = 2;
     private io.dstore.values.IntegerValue surchargeTypeId_;
     /**
-     * <code>optional .dstore.values.IntegerValue surcharge_type_id = 2;</code>
+     * <code>.dstore.values.IntegerValue surcharge_type_id = 2;</code>
      */
     public boolean hasSurchargeTypeId() {
       return surchargeTypeId_ != null;
     }
     /**
-     * <code>optional .dstore.values.IntegerValue surcharge_type_id = 2;</code>
+     * <code>.dstore.values.IntegerValue surcharge_type_id = 2;</code>
      */
     public io.dstore.values.IntegerValue getSurchargeTypeId() {
       return surchargeTypeId_ == null ? io.dstore.values.IntegerValue.getDefaultInstance() : surchargeTypeId_;
     }
     /**
-     * <code>optional .dstore.values.IntegerValue surcharge_type_id = 2;</code>
+     * <code>.dstore.values.IntegerValue surcharge_type_id = 2;</code>
      */
     public io.dstore.values.IntegerValueOrBuilder getSurchargeTypeIdOrBuilder() {
       return getSurchargeTypeId();
@@ -356,7 +356,7 @@ public final class OmModifyPaymentTypeSurchAd {
     public static final int SURCHARGE_TYPE_ID_NULL_FIELD_NUMBER = 1002;
     private boolean surchargeTypeIdNull_;
     /**
-     * <code>optional bool surcharge_type_id_null = 1002;</code>
+     * <code>bool surcharge_type_id_null = 1002;</code>
      */
     public boolean getSurchargeTypeIdNull() {
       return surchargeTypeIdNull_;
@@ -365,19 +365,19 @@ public final class OmModifyPaymentTypeSurchAd {
     public static final int SURCHARGE_VALUE_FIELD_NUMBER = 3;
     private io.dstore.values.DecimalValue surchargeValue_;
     /**
-     * <code>optional .dstore.values.DecimalValue surcharge_value = 3;</code>
+     * <code>.dstore.values.DecimalValue surcharge_value = 3;</code>
      */
     public boolean hasSurchargeValue() {
       return surchargeValue_ != null;
     }
     /**
-     * <code>optional .dstore.values.DecimalValue surcharge_value = 3;</code>
+     * <code>.dstore.values.DecimalValue surcharge_value = 3;</code>
      */
     public io.dstore.values.DecimalValue getSurchargeValue() {
       return surchargeValue_ == null ? io.dstore.values.DecimalValue.getDefaultInstance() : surchargeValue_;
     }
     /**
-     * <code>optional .dstore.values.DecimalValue surcharge_value = 3;</code>
+     * <code>.dstore.values.DecimalValue surcharge_value = 3;</code>
      */
     public io.dstore.values.DecimalValueOrBuilder getSurchargeValueOrBuilder() {
       return getSurchargeValue();
@@ -386,7 +386,7 @@ public final class OmModifyPaymentTypeSurchAd {
     public static final int SURCHARGE_VALUE_NULL_FIELD_NUMBER = 1003;
     private boolean surchargeValueNull_;
     /**
-     * <code>optional bool surcharge_value_null = 1003;</code>
+     * <code>bool surcharge_value_null = 1003;</code>
      */
     public boolean getSurchargeValueNull() {
       return surchargeValueNull_;
@@ -395,19 +395,19 @@ public final class OmModifyPaymentTypeSurchAd {
     public static final int VALID_FROM_FIELD_NUMBER = 4;
     private io.dstore.values.TimestampValue validFrom_;
     /**
-     * <code>optional .dstore.values.TimestampValue valid_from = 4;</code>
+     * <code>.dstore.values.TimestampValue valid_from = 4;</code>
      */
     public boolean hasValidFrom() {
       return validFrom_ != null;
     }
     /**
-     * <code>optional .dstore.values.TimestampValue valid_from = 4;</code>
+     * <code>.dstore.values.TimestampValue valid_from = 4;</code>
      */
     public io.dstore.values.TimestampValue getValidFrom() {
       return validFrom_ == null ? io.dstore.values.TimestampValue.getDefaultInstance() : validFrom_;
     }
     /**
-     * <code>optional .dstore.values.TimestampValue valid_from = 4;</code>
+     * <code>.dstore.values.TimestampValue valid_from = 4;</code>
      */
     public io.dstore.values.TimestampValueOrBuilder getValidFromOrBuilder() {
       return getValidFrom();
@@ -416,7 +416,7 @@ public final class OmModifyPaymentTypeSurchAd {
     public static final int VALID_FROM_NULL_FIELD_NUMBER = 1004;
     private boolean validFromNull_;
     /**
-     * <code>optional bool valid_from_null = 1004;</code>
+     * <code>bool valid_from_null = 1004;</code>
      */
     public boolean getValidFromNull() {
       return validFromNull_;
@@ -425,19 +425,19 @@ public final class OmModifyPaymentTypeSurchAd {
     public static final int PRIORITY_NO_FIELD_NUMBER = 5;
     private io.dstore.values.IntegerValue priorityNo_;
     /**
-     * <code>optional .dstore.values.IntegerValue priority_no = 5;</code>
+     * <code>.dstore.values.IntegerValue priority_no = 5;</code>
      */
     public boolean hasPriorityNo() {
       return priorityNo_ != null;
     }
     /**
-     * <code>optional .dstore.values.IntegerValue priority_no = 5;</code>
+     * <code>.dstore.values.IntegerValue priority_no = 5;</code>
      */
     public io.dstore.values.IntegerValue getPriorityNo() {
       return priorityNo_ == null ? io.dstore.values.IntegerValue.getDefaultInstance() : priorityNo_;
     }
     /**
-     * <code>optional .dstore.values.IntegerValue priority_no = 5;</code>
+     * <code>.dstore.values.IntegerValue priority_no = 5;</code>
      */
     public io.dstore.values.IntegerValueOrBuilder getPriorityNoOrBuilder() {
       return getPriorityNo();
@@ -446,7 +446,7 @@ public final class OmModifyPaymentTypeSurchAd {
     public static final int PRIORITY_NO_NULL_FIELD_NUMBER = 1005;
     private boolean priorityNoNull_;
     /**
-     * <code>optional bool priority_no_null = 1005;</code>
+     * <code>bool priority_no_null = 1005;</code>
      */
     public boolean getPriorityNoNull() {
       return priorityNoNull_;
@@ -455,19 +455,19 @@ public final class OmModifyPaymentTypeSurchAd {
     public static final int DELETE_CONFIGURATION_FIELD_NUMBER = 6;
     private io.dstore.values.BooleanValue deleteConfiguration_;
     /**
-     * <code>optional .dstore.values.BooleanValue delete_configuration = 6;</code>
+     * <code>.dstore.values.BooleanValue delete_configuration = 6;</code>
      */
     public boolean hasDeleteConfiguration() {
       return deleteConfiguration_ != null;
     }
     /**
-     * <code>optional .dstore.values.BooleanValue delete_configuration = 6;</code>
+     * <code>.dstore.values.BooleanValue delete_configuration = 6;</code>
      */
     public io.dstore.values.BooleanValue getDeleteConfiguration() {
       return deleteConfiguration_ == null ? io.dstore.values.BooleanValue.getDefaultInstance() : deleteConfiguration_;
     }
     /**
-     * <code>optional .dstore.values.BooleanValue delete_configuration = 6;</code>
+     * <code>.dstore.values.BooleanValue delete_configuration = 6;</code>
      */
     public io.dstore.values.BooleanValueOrBuilder getDeleteConfigurationOrBuilder() {
       return getDeleteConfiguration();
@@ -476,7 +476,7 @@ public final class OmModifyPaymentTypeSurchAd {
     public static final int DELETE_CONFIGURATION_NULL_FIELD_NUMBER = 1006;
     private boolean deleteConfigurationNull_;
     /**
-     * <code>optional bool delete_configuration_null = 1006;</code>
+     * <code>bool delete_configuration_null = 1006;</code>
      */
     public boolean getDeleteConfigurationNull() {
       return deleteConfigurationNull_;
@@ -652,7 +652,7 @@ public final class OmModifyPaymentTypeSurchAd {
         return memoizedHashCode;
       }
       int hash = 41;
-      hash = (19 * hash) + getDescriptorForType().hashCode();
+      hash = (19 * hash) + getDescriptor().hashCode();
       if (hasPaymentTypeId()) {
         hash = (37 * hash) + PAYMENT_TYPE_ID_FIELD_NUMBER;
         hash = (53 * hash) + getPaymentTypeId().hashCode();
@@ -1026,13 +1026,13 @@ public final class OmModifyPaymentTypeSurchAd {
       private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> paymentTypeIdBuilder_;
       /**
-       * <code>optional .dstore.values.IntegerValue payment_type_id = 1;</code>
+       * <code>.dstore.values.IntegerValue payment_type_id = 1;</code>
        */
       public boolean hasPaymentTypeId() {
         return paymentTypeIdBuilder_ != null || paymentTypeId_ != null;
       }
       /**
-       * <code>optional .dstore.values.IntegerValue payment_type_id = 1;</code>
+       * <code>.dstore.values.IntegerValue payment_type_id = 1;</code>
        */
       public io.dstore.values.IntegerValue getPaymentTypeId() {
         if (paymentTypeIdBuilder_ == null) {
@@ -1042,7 +1042,7 @@ public final class OmModifyPaymentTypeSurchAd {
         }
       }
       /**
-       * <code>optional .dstore.values.IntegerValue payment_type_id = 1;</code>
+       * <code>.dstore.values.IntegerValue payment_type_id = 1;</code>
        */
       public Builder setPaymentTypeId(io.dstore.values.IntegerValue value) {
         if (paymentTypeIdBuilder_ == null) {
@@ -1058,7 +1058,7 @@ public final class OmModifyPaymentTypeSurchAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.IntegerValue payment_type_id = 1;</code>
+       * <code>.dstore.values.IntegerValue payment_type_id = 1;</code>
        */
       public Builder setPaymentTypeId(
           io.dstore.values.IntegerValue.Builder builderForValue) {
@@ -1072,7 +1072,7 @@ public final class OmModifyPaymentTypeSurchAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.IntegerValue payment_type_id = 1;</code>
+       * <code>.dstore.values.IntegerValue payment_type_id = 1;</code>
        */
       public Builder mergePaymentTypeId(io.dstore.values.IntegerValue value) {
         if (paymentTypeIdBuilder_ == null) {
@@ -1090,7 +1090,7 @@ public final class OmModifyPaymentTypeSurchAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.IntegerValue payment_type_id = 1;</code>
+       * <code>.dstore.values.IntegerValue payment_type_id = 1;</code>
        */
       public Builder clearPaymentTypeId() {
         if (paymentTypeIdBuilder_ == null) {
@@ -1104,7 +1104,7 @@ public final class OmModifyPaymentTypeSurchAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.IntegerValue payment_type_id = 1;</code>
+       * <code>.dstore.values.IntegerValue payment_type_id = 1;</code>
        */
       public io.dstore.values.IntegerValue.Builder getPaymentTypeIdBuilder() {
         
@@ -1112,7 +1112,7 @@ public final class OmModifyPaymentTypeSurchAd {
         return getPaymentTypeIdFieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .dstore.values.IntegerValue payment_type_id = 1;</code>
+       * <code>.dstore.values.IntegerValue payment_type_id = 1;</code>
        */
       public io.dstore.values.IntegerValueOrBuilder getPaymentTypeIdOrBuilder() {
         if (paymentTypeIdBuilder_ != null) {
@@ -1123,7 +1123,7 @@ public final class OmModifyPaymentTypeSurchAd {
         }
       }
       /**
-       * <code>optional .dstore.values.IntegerValue payment_type_id = 1;</code>
+       * <code>.dstore.values.IntegerValue payment_type_id = 1;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> 
@@ -1141,13 +1141,13 @@ public final class OmModifyPaymentTypeSurchAd {
 
       private boolean paymentTypeIdNull_ ;
       /**
-       * <code>optional bool payment_type_id_null = 1001;</code>
+       * <code>bool payment_type_id_null = 1001;</code>
        */
       public boolean getPaymentTypeIdNull() {
         return paymentTypeIdNull_;
       }
       /**
-       * <code>optional bool payment_type_id_null = 1001;</code>
+       * <code>bool payment_type_id_null = 1001;</code>
        */
       public Builder setPaymentTypeIdNull(boolean value) {
         
@@ -1156,7 +1156,7 @@ public final class OmModifyPaymentTypeSurchAd {
         return this;
       }
       /**
-       * <code>optional bool payment_type_id_null = 1001;</code>
+       * <code>bool payment_type_id_null = 1001;</code>
        */
       public Builder clearPaymentTypeIdNull() {
         
@@ -1169,13 +1169,13 @@ public final class OmModifyPaymentTypeSurchAd {
       private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> surchargeTypeIdBuilder_;
       /**
-       * <code>optional .dstore.values.IntegerValue surcharge_type_id = 2;</code>
+       * <code>.dstore.values.IntegerValue surcharge_type_id = 2;</code>
        */
       public boolean hasSurchargeTypeId() {
         return surchargeTypeIdBuilder_ != null || surchargeTypeId_ != null;
       }
       /**
-       * <code>optional .dstore.values.IntegerValue surcharge_type_id = 2;</code>
+       * <code>.dstore.values.IntegerValue surcharge_type_id = 2;</code>
        */
       public io.dstore.values.IntegerValue getSurchargeTypeId() {
         if (surchargeTypeIdBuilder_ == null) {
@@ -1185,7 +1185,7 @@ public final class OmModifyPaymentTypeSurchAd {
         }
       }
       /**
-       * <code>optional .dstore.values.IntegerValue surcharge_type_id = 2;</code>
+       * <code>.dstore.values.IntegerValue surcharge_type_id = 2;</code>
        */
       public Builder setSurchargeTypeId(io.dstore.values.IntegerValue value) {
         if (surchargeTypeIdBuilder_ == null) {
@@ -1201,7 +1201,7 @@ public final class OmModifyPaymentTypeSurchAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.IntegerValue surcharge_type_id = 2;</code>
+       * <code>.dstore.values.IntegerValue surcharge_type_id = 2;</code>
        */
       public Builder setSurchargeTypeId(
           io.dstore.values.IntegerValue.Builder builderForValue) {
@@ -1215,7 +1215,7 @@ public final class OmModifyPaymentTypeSurchAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.IntegerValue surcharge_type_id = 2;</code>
+       * <code>.dstore.values.IntegerValue surcharge_type_id = 2;</code>
        */
       public Builder mergeSurchargeTypeId(io.dstore.values.IntegerValue value) {
         if (surchargeTypeIdBuilder_ == null) {
@@ -1233,7 +1233,7 @@ public final class OmModifyPaymentTypeSurchAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.IntegerValue surcharge_type_id = 2;</code>
+       * <code>.dstore.values.IntegerValue surcharge_type_id = 2;</code>
        */
       public Builder clearSurchargeTypeId() {
         if (surchargeTypeIdBuilder_ == null) {
@@ -1247,7 +1247,7 @@ public final class OmModifyPaymentTypeSurchAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.IntegerValue surcharge_type_id = 2;</code>
+       * <code>.dstore.values.IntegerValue surcharge_type_id = 2;</code>
        */
       public io.dstore.values.IntegerValue.Builder getSurchargeTypeIdBuilder() {
         
@@ -1255,7 +1255,7 @@ public final class OmModifyPaymentTypeSurchAd {
         return getSurchargeTypeIdFieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .dstore.values.IntegerValue surcharge_type_id = 2;</code>
+       * <code>.dstore.values.IntegerValue surcharge_type_id = 2;</code>
        */
       public io.dstore.values.IntegerValueOrBuilder getSurchargeTypeIdOrBuilder() {
         if (surchargeTypeIdBuilder_ != null) {
@@ -1266,7 +1266,7 @@ public final class OmModifyPaymentTypeSurchAd {
         }
       }
       /**
-       * <code>optional .dstore.values.IntegerValue surcharge_type_id = 2;</code>
+       * <code>.dstore.values.IntegerValue surcharge_type_id = 2;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> 
@@ -1284,13 +1284,13 @@ public final class OmModifyPaymentTypeSurchAd {
 
       private boolean surchargeTypeIdNull_ ;
       /**
-       * <code>optional bool surcharge_type_id_null = 1002;</code>
+       * <code>bool surcharge_type_id_null = 1002;</code>
        */
       public boolean getSurchargeTypeIdNull() {
         return surchargeTypeIdNull_;
       }
       /**
-       * <code>optional bool surcharge_type_id_null = 1002;</code>
+       * <code>bool surcharge_type_id_null = 1002;</code>
        */
       public Builder setSurchargeTypeIdNull(boolean value) {
         
@@ -1299,7 +1299,7 @@ public final class OmModifyPaymentTypeSurchAd {
         return this;
       }
       /**
-       * <code>optional bool surcharge_type_id_null = 1002;</code>
+       * <code>bool surcharge_type_id_null = 1002;</code>
        */
       public Builder clearSurchargeTypeIdNull() {
         
@@ -1312,13 +1312,13 @@ public final class OmModifyPaymentTypeSurchAd {
       private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.values.DecimalValue, io.dstore.values.DecimalValue.Builder, io.dstore.values.DecimalValueOrBuilder> surchargeValueBuilder_;
       /**
-       * <code>optional .dstore.values.DecimalValue surcharge_value = 3;</code>
+       * <code>.dstore.values.DecimalValue surcharge_value = 3;</code>
        */
       public boolean hasSurchargeValue() {
         return surchargeValueBuilder_ != null || surchargeValue_ != null;
       }
       /**
-       * <code>optional .dstore.values.DecimalValue surcharge_value = 3;</code>
+       * <code>.dstore.values.DecimalValue surcharge_value = 3;</code>
        */
       public io.dstore.values.DecimalValue getSurchargeValue() {
         if (surchargeValueBuilder_ == null) {
@@ -1328,7 +1328,7 @@ public final class OmModifyPaymentTypeSurchAd {
         }
       }
       /**
-       * <code>optional .dstore.values.DecimalValue surcharge_value = 3;</code>
+       * <code>.dstore.values.DecimalValue surcharge_value = 3;</code>
        */
       public Builder setSurchargeValue(io.dstore.values.DecimalValue value) {
         if (surchargeValueBuilder_ == null) {
@@ -1344,7 +1344,7 @@ public final class OmModifyPaymentTypeSurchAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.DecimalValue surcharge_value = 3;</code>
+       * <code>.dstore.values.DecimalValue surcharge_value = 3;</code>
        */
       public Builder setSurchargeValue(
           io.dstore.values.DecimalValue.Builder builderForValue) {
@@ -1358,7 +1358,7 @@ public final class OmModifyPaymentTypeSurchAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.DecimalValue surcharge_value = 3;</code>
+       * <code>.dstore.values.DecimalValue surcharge_value = 3;</code>
        */
       public Builder mergeSurchargeValue(io.dstore.values.DecimalValue value) {
         if (surchargeValueBuilder_ == null) {
@@ -1376,7 +1376,7 @@ public final class OmModifyPaymentTypeSurchAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.DecimalValue surcharge_value = 3;</code>
+       * <code>.dstore.values.DecimalValue surcharge_value = 3;</code>
        */
       public Builder clearSurchargeValue() {
         if (surchargeValueBuilder_ == null) {
@@ -1390,7 +1390,7 @@ public final class OmModifyPaymentTypeSurchAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.DecimalValue surcharge_value = 3;</code>
+       * <code>.dstore.values.DecimalValue surcharge_value = 3;</code>
        */
       public io.dstore.values.DecimalValue.Builder getSurchargeValueBuilder() {
         
@@ -1398,7 +1398,7 @@ public final class OmModifyPaymentTypeSurchAd {
         return getSurchargeValueFieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .dstore.values.DecimalValue surcharge_value = 3;</code>
+       * <code>.dstore.values.DecimalValue surcharge_value = 3;</code>
        */
       public io.dstore.values.DecimalValueOrBuilder getSurchargeValueOrBuilder() {
         if (surchargeValueBuilder_ != null) {
@@ -1409,7 +1409,7 @@ public final class OmModifyPaymentTypeSurchAd {
         }
       }
       /**
-       * <code>optional .dstore.values.DecimalValue surcharge_value = 3;</code>
+       * <code>.dstore.values.DecimalValue surcharge_value = 3;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.values.DecimalValue, io.dstore.values.DecimalValue.Builder, io.dstore.values.DecimalValueOrBuilder> 
@@ -1427,13 +1427,13 @@ public final class OmModifyPaymentTypeSurchAd {
 
       private boolean surchargeValueNull_ ;
       /**
-       * <code>optional bool surcharge_value_null = 1003;</code>
+       * <code>bool surcharge_value_null = 1003;</code>
        */
       public boolean getSurchargeValueNull() {
         return surchargeValueNull_;
       }
       /**
-       * <code>optional bool surcharge_value_null = 1003;</code>
+       * <code>bool surcharge_value_null = 1003;</code>
        */
       public Builder setSurchargeValueNull(boolean value) {
         
@@ -1442,7 +1442,7 @@ public final class OmModifyPaymentTypeSurchAd {
         return this;
       }
       /**
-       * <code>optional bool surcharge_value_null = 1003;</code>
+       * <code>bool surcharge_value_null = 1003;</code>
        */
       public Builder clearSurchargeValueNull() {
         
@@ -1455,13 +1455,13 @@ public final class OmModifyPaymentTypeSurchAd {
       private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.values.TimestampValue, io.dstore.values.TimestampValue.Builder, io.dstore.values.TimestampValueOrBuilder> validFromBuilder_;
       /**
-       * <code>optional .dstore.values.TimestampValue valid_from = 4;</code>
+       * <code>.dstore.values.TimestampValue valid_from = 4;</code>
        */
       public boolean hasValidFrom() {
         return validFromBuilder_ != null || validFrom_ != null;
       }
       /**
-       * <code>optional .dstore.values.TimestampValue valid_from = 4;</code>
+       * <code>.dstore.values.TimestampValue valid_from = 4;</code>
        */
       public io.dstore.values.TimestampValue getValidFrom() {
         if (validFromBuilder_ == null) {
@@ -1471,7 +1471,7 @@ public final class OmModifyPaymentTypeSurchAd {
         }
       }
       /**
-       * <code>optional .dstore.values.TimestampValue valid_from = 4;</code>
+       * <code>.dstore.values.TimestampValue valid_from = 4;</code>
        */
       public Builder setValidFrom(io.dstore.values.TimestampValue value) {
         if (validFromBuilder_ == null) {
@@ -1487,7 +1487,7 @@ public final class OmModifyPaymentTypeSurchAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.TimestampValue valid_from = 4;</code>
+       * <code>.dstore.values.TimestampValue valid_from = 4;</code>
        */
       public Builder setValidFrom(
           io.dstore.values.TimestampValue.Builder builderForValue) {
@@ -1501,7 +1501,7 @@ public final class OmModifyPaymentTypeSurchAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.TimestampValue valid_from = 4;</code>
+       * <code>.dstore.values.TimestampValue valid_from = 4;</code>
        */
       public Builder mergeValidFrom(io.dstore.values.TimestampValue value) {
         if (validFromBuilder_ == null) {
@@ -1519,7 +1519,7 @@ public final class OmModifyPaymentTypeSurchAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.TimestampValue valid_from = 4;</code>
+       * <code>.dstore.values.TimestampValue valid_from = 4;</code>
        */
       public Builder clearValidFrom() {
         if (validFromBuilder_ == null) {
@@ -1533,7 +1533,7 @@ public final class OmModifyPaymentTypeSurchAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.TimestampValue valid_from = 4;</code>
+       * <code>.dstore.values.TimestampValue valid_from = 4;</code>
        */
       public io.dstore.values.TimestampValue.Builder getValidFromBuilder() {
         
@@ -1541,7 +1541,7 @@ public final class OmModifyPaymentTypeSurchAd {
         return getValidFromFieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .dstore.values.TimestampValue valid_from = 4;</code>
+       * <code>.dstore.values.TimestampValue valid_from = 4;</code>
        */
       public io.dstore.values.TimestampValueOrBuilder getValidFromOrBuilder() {
         if (validFromBuilder_ != null) {
@@ -1552,7 +1552,7 @@ public final class OmModifyPaymentTypeSurchAd {
         }
       }
       /**
-       * <code>optional .dstore.values.TimestampValue valid_from = 4;</code>
+       * <code>.dstore.values.TimestampValue valid_from = 4;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.values.TimestampValue, io.dstore.values.TimestampValue.Builder, io.dstore.values.TimestampValueOrBuilder> 
@@ -1570,13 +1570,13 @@ public final class OmModifyPaymentTypeSurchAd {
 
       private boolean validFromNull_ ;
       /**
-       * <code>optional bool valid_from_null = 1004;</code>
+       * <code>bool valid_from_null = 1004;</code>
        */
       public boolean getValidFromNull() {
         return validFromNull_;
       }
       /**
-       * <code>optional bool valid_from_null = 1004;</code>
+       * <code>bool valid_from_null = 1004;</code>
        */
       public Builder setValidFromNull(boolean value) {
         
@@ -1585,7 +1585,7 @@ public final class OmModifyPaymentTypeSurchAd {
         return this;
       }
       /**
-       * <code>optional bool valid_from_null = 1004;</code>
+       * <code>bool valid_from_null = 1004;</code>
        */
       public Builder clearValidFromNull() {
         
@@ -1598,13 +1598,13 @@ public final class OmModifyPaymentTypeSurchAd {
       private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> priorityNoBuilder_;
       /**
-       * <code>optional .dstore.values.IntegerValue priority_no = 5;</code>
+       * <code>.dstore.values.IntegerValue priority_no = 5;</code>
        */
       public boolean hasPriorityNo() {
         return priorityNoBuilder_ != null || priorityNo_ != null;
       }
       /**
-       * <code>optional .dstore.values.IntegerValue priority_no = 5;</code>
+       * <code>.dstore.values.IntegerValue priority_no = 5;</code>
        */
       public io.dstore.values.IntegerValue getPriorityNo() {
         if (priorityNoBuilder_ == null) {
@@ -1614,7 +1614,7 @@ public final class OmModifyPaymentTypeSurchAd {
         }
       }
       /**
-       * <code>optional .dstore.values.IntegerValue priority_no = 5;</code>
+       * <code>.dstore.values.IntegerValue priority_no = 5;</code>
        */
       public Builder setPriorityNo(io.dstore.values.IntegerValue value) {
         if (priorityNoBuilder_ == null) {
@@ -1630,7 +1630,7 @@ public final class OmModifyPaymentTypeSurchAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.IntegerValue priority_no = 5;</code>
+       * <code>.dstore.values.IntegerValue priority_no = 5;</code>
        */
       public Builder setPriorityNo(
           io.dstore.values.IntegerValue.Builder builderForValue) {
@@ -1644,7 +1644,7 @@ public final class OmModifyPaymentTypeSurchAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.IntegerValue priority_no = 5;</code>
+       * <code>.dstore.values.IntegerValue priority_no = 5;</code>
        */
       public Builder mergePriorityNo(io.dstore.values.IntegerValue value) {
         if (priorityNoBuilder_ == null) {
@@ -1662,7 +1662,7 @@ public final class OmModifyPaymentTypeSurchAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.IntegerValue priority_no = 5;</code>
+       * <code>.dstore.values.IntegerValue priority_no = 5;</code>
        */
       public Builder clearPriorityNo() {
         if (priorityNoBuilder_ == null) {
@@ -1676,7 +1676,7 @@ public final class OmModifyPaymentTypeSurchAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.IntegerValue priority_no = 5;</code>
+       * <code>.dstore.values.IntegerValue priority_no = 5;</code>
        */
       public io.dstore.values.IntegerValue.Builder getPriorityNoBuilder() {
         
@@ -1684,7 +1684,7 @@ public final class OmModifyPaymentTypeSurchAd {
         return getPriorityNoFieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .dstore.values.IntegerValue priority_no = 5;</code>
+       * <code>.dstore.values.IntegerValue priority_no = 5;</code>
        */
       public io.dstore.values.IntegerValueOrBuilder getPriorityNoOrBuilder() {
         if (priorityNoBuilder_ != null) {
@@ -1695,7 +1695,7 @@ public final class OmModifyPaymentTypeSurchAd {
         }
       }
       /**
-       * <code>optional .dstore.values.IntegerValue priority_no = 5;</code>
+       * <code>.dstore.values.IntegerValue priority_no = 5;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> 
@@ -1713,13 +1713,13 @@ public final class OmModifyPaymentTypeSurchAd {
 
       private boolean priorityNoNull_ ;
       /**
-       * <code>optional bool priority_no_null = 1005;</code>
+       * <code>bool priority_no_null = 1005;</code>
        */
       public boolean getPriorityNoNull() {
         return priorityNoNull_;
       }
       /**
-       * <code>optional bool priority_no_null = 1005;</code>
+       * <code>bool priority_no_null = 1005;</code>
        */
       public Builder setPriorityNoNull(boolean value) {
         
@@ -1728,7 +1728,7 @@ public final class OmModifyPaymentTypeSurchAd {
         return this;
       }
       /**
-       * <code>optional bool priority_no_null = 1005;</code>
+       * <code>bool priority_no_null = 1005;</code>
        */
       public Builder clearPriorityNoNull() {
         
@@ -1741,13 +1741,13 @@ public final class OmModifyPaymentTypeSurchAd {
       private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.values.BooleanValue, io.dstore.values.BooleanValue.Builder, io.dstore.values.BooleanValueOrBuilder> deleteConfigurationBuilder_;
       /**
-       * <code>optional .dstore.values.BooleanValue delete_configuration = 6;</code>
+       * <code>.dstore.values.BooleanValue delete_configuration = 6;</code>
        */
       public boolean hasDeleteConfiguration() {
         return deleteConfigurationBuilder_ != null || deleteConfiguration_ != null;
       }
       /**
-       * <code>optional .dstore.values.BooleanValue delete_configuration = 6;</code>
+       * <code>.dstore.values.BooleanValue delete_configuration = 6;</code>
        */
       public io.dstore.values.BooleanValue getDeleteConfiguration() {
         if (deleteConfigurationBuilder_ == null) {
@@ -1757,7 +1757,7 @@ public final class OmModifyPaymentTypeSurchAd {
         }
       }
       /**
-       * <code>optional .dstore.values.BooleanValue delete_configuration = 6;</code>
+       * <code>.dstore.values.BooleanValue delete_configuration = 6;</code>
        */
       public Builder setDeleteConfiguration(io.dstore.values.BooleanValue value) {
         if (deleteConfigurationBuilder_ == null) {
@@ -1773,7 +1773,7 @@ public final class OmModifyPaymentTypeSurchAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.BooleanValue delete_configuration = 6;</code>
+       * <code>.dstore.values.BooleanValue delete_configuration = 6;</code>
        */
       public Builder setDeleteConfiguration(
           io.dstore.values.BooleanValue.Builder builderForValue) {
@@ -1787,7 +1787,7 @@ public final class OmModifyPaymentTypeSurchAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.BooleanValue delete_configuration = 6;</code>
+       * <code>.dstore.values.BooleanValue delete_configuration = 6;</code>
        */
       public Builder mergeDeleteConfiguration(io.dstore.values.BooleanValue value) {
         if (deleteConfigurationBuilder_ == null) {
@@ -1805,7 +1805,7 @@ public final class OmModifyPaymentTypeSurchAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.BooleanValue delete_configuration = 6;</code>
+       * <code>.dstore.values.BooleanValue delete_configuration = 6;</code>
        */
       public Builder clearDeleteConfiguration() {
         if (deleteConfigurationBuilder_ == null) {
@@ -1819,7 +1819,7 @@ public final class OmModifyPaymentTypeSurchAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.BooleanValue delete_configuration = 6;</code>
+       * <code>.dstore.values.BooleanValue delete_configuration = 6;</code>
        */
       public io.dstore.values.BooleanValue.Builder getDeleteConfigurationBuilder() {
         
@@ -1827,7 +1827,7 @@ public final class OmModifyPaymentTypeSurchAd {
         return getDeleteConfigurationFieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .dstore.values.BooleanValue delete_configuration = 6;</code>
+       * <code>.dstore.values.BooleanValue delete_configuration = 6;</code>
        */
       public io.dstore.values.BooleanValueOrBuilder getDeleteConfigurationOrBuilder() {
         if (deleteConfigurationBuilder_ != null) {
@@ -1838,7 +1838,7 @@ public final class OmModifyPaymentTypeSurchAd {
         }
       }
       /**
-       * <code>optional .dstore.values.BooleanValue delete_configuration = 6;</code>
+       * <code>.dstore.values.BooleanValue delete_configuration = 6;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.values.BooleanValue, io.dstore.values.BooleanValue.Builder, io.dstore.values.BooleanValueOrBuilder> 
@@ -1856,13 +1856,13 @@ public final class OmModifyPaymentTypeSurchAd {
 
       private boolean deleteConfigurationNull_ ;
       /**
-       * <code>optional bool delete_configuration_null = 1006;</code>
+       * <code>bool delete_configuration_null = 1006;</code>
        */
       public boolean getDeleteConfigurationNull() {
         return deleteConfigurationNull_;
       }
       /**
-       * <code>optional bool delete_configuration_null = 1006;</code>
+       * <code>bool delete_configuration_null = 1006;</code>
        */
       public Builder setDeleteConfigurationNull(boolean value) {
         
@@ -1871,7 +1871,7 @@ public final class OmModifyPaymentTypeSurchAd {
         return this;
       }
       /**
-       * <code>optional bool delete_configuration_null = 1006;</code>
+       * <code>bool delete_configuration_null = 1006;</code>
        */
       public Builder clearDeleteConfigurationNull() {
         
@@ -2130,7 +2130,7 @@ public final class OmModifyPaymentTypeSurchAd {
         com.google.protobuf.MessageOrBuilder {
 
       /**
-       * <code>optional int32 row_id = 10000;</code>
+       * <code>int32 row_id = 10000;</code>
        */
       int getRowId();
     }
@@ -2205,7 +2205,7 @@ public final class OmModifyPaymentTypeSurchAd {
       public static final int ROW_ID_FIELD_NUMBER = 10000;
       private int rowId_;
       /**
-       * <code>optional int32 row_id = 10000;</code>
+       * <code>int32 row_id = 10000;</code>
        */
       public int getRowId() {
         return rowId_;
@@ -2264,7 +2264,7 @@ public final class OmModifyPaymentTypeSurchAd {
           return memoizedHashCode;
         }
         int hash = 41;
-        hash = (19 * hash) + getDescriptorForType().hashCode();
+        hash = (19 * hash) + getDescriptor().hashCode();
         hash = (37 * hash) + ROW_ID_FIELD_NUMBER;
         hash = (53 * hash) + getRowId();
         hash = (29 * hash) + unknownFields.hashCode();
@@ -2482,13 +2482,13 @@ public final class OmModifyPaymentTypeSurchAd {
 
         private int rowId_ ;
         /**
-         * <code>optional int32 row_id = 10000;</code>
+         * <code>int32 row_id = 10000;</code>
          */
         public int getRowId() {
           return rowId_;
         }
         /**
-         * <code>optional int32 row_id = 10000;</code>
+         * <code>int32 row_id = 10000;</code>
          */
         public Builder setRowId(int value) {
           
@@ -2497,7 +2497,7 @@ public final class OmModifyPaymentTypeSurchAd {
           return this;
         }
         /**
-         * <code>optional int32 row_id = 10000;</code>
+         * <code>int32 row_id = 10000;</code>
          */
         public Builder clearRowId() {
           
@@ -2750,7 +2750,7 @@ public final class OmModifyPaymentTypeSurchAd {
         return memoizedHashCode;
       }
       int hash = 41;
-      hash = (19 * hash) + getDescriptorForType().hashCode();
+      hash = (19 * hash) + getDescriptor().hashCode();
       if (getMetaInformationCount() > 0) {
         hash = (37 * hash) + META_INFORMATION_FIELD_NUMBER;
         hash = (53 * hash) + getMetaInformationList().hashCode();

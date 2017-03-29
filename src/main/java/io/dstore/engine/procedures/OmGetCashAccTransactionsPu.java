@@ -19,128 +19,128 @@ public final class OmGetCashAccTransactionsPu {
       com.google.protobuf.MessageOrBuilder {
 
     /**
-     * <code>optional .dstore.values.StringValue person_identification_values = 1;</code>
+     * <code>.dstore.values.StringValue person_identification_values = 1;</code>
      */
     boolean hasPersonIdentificationValues();
     /**
-     * <code>optional .dstore.values.StringValue person_identification_values = 1;</code>
+     * <code>.dstore.values.StringValue person_identification_values = 1;</code>
      */
     io.dstore.values.StringValue getPersonIdentificationValues();
     /**
-     * <code>optional .dstore.values.StringValue person_identification_values = 1;</code>
+     * <code>.dstore.values.StringValue person_identification_values = 1;</code>
      */
     io.dstore.values.StringValueOrBuilder getPersonIdentificationValuesOrBuilder();
 
     /**
-     * <code>optional bool person_identification_values_null = 1001;</code>
+     * <code>bool person_identification_values_null = 1001;</code>
      */
     boolean getPersonIdentificationValuesNull();
 
     /**
-     * <code>optional .dstore.values.IntegerValue person_type_id = 2;</code>
+     * <code>.dstore.values.IntegerValue person_type_id = 2;</code>
      */
     boolean hasPersonTypeId();
     /**
-     * <code>optional .dstore.values.IntegerValue person_type_id = 2;</code>
+     * <code>.dstore.values.IntegerValue person_type_id = 2;</code>
      */
     io.dstore.values.IntegerValue getPersonTypeId();
     /**
-     * <code>optional .dstore.values.IntegerValue person_type_id = 2;</code>
+     * <code>.dstore.values.IntegerValue person_type_id = 2;</code>
      */
     io.dstore.values.IntegerValueOrBuilder getPersonTypeIdOrBuilder();
 
     /**
-     * <code>optional bool person_type_id_null = 1002;</code>
+     * <code>bool person_type_id_null = 1002;</code>
      */
     boolean getPersonTypeIdNull();
 
     /**
-     * <code>optional .dstore.values.StringValue unique_id = 3;</code>
+     * <code>.dstore.values.StringValue unique_id = 3;</code>
      */
     boolean hasUniqueId();
     /**
-     * <code>optional .dstore.values.StringValue unique_id = 3;</code>
+     * <code>.dstore.values.StringValue unique_id = 3;</code>
      */
     io.dstore.values.StringValue getUniqueId();
     /**
-     * <code>optional .dstore.values.StringValue unique_id = 3;</code>
+     * <code>.dstore.values.StringValue unique_id = 3;</code>
      */
     io.dstore.values.StringValueOrBuilder getUniqueIdOrBuilder();
 
     /**
-     * <code>optional bool unique_id_null = 1003;</code>
+     * <code>bool unique_id_null = 1003;</code>
      */
     boolean getUniqueIdNull();
 
     /**
-     * <code>optional .dstore.values.IntegerValue cash_account_type_id = 4;</code>
+     * <code>.dstore.values.IntegerValue cash_account_type_id = 4;</code>
      */
     boolean hasCashAccountTypeId();
     /**
-     * <code>optional .dstore.values.IntegerValue cash_account_type_id = 4;</code>
+     * <code>.dstore.values.IntegerValue cash_account_type_id = 4;</code>
      */
     io.dstore.values.IntegerValue getCashAccountTypeId();
     /**
-     * <code>optional .dstore.values.IntegerValue cash_account_type_id = 4;</code>
+     * <code>.dstore.values.IntegerValue cash_account_type_id = 4;</code>
      */
     io.dstore.values.IntegerValueOrBuilder getCashAccountTypeIdOrBuilder();
 
     /**
-     * <code>optional bool cash_account_type_id_null = 1004;</code>
+     * <code>bool cash_account_type_id_null = 1004;</code>
      */
     boolean getCashAccountTypeIdNull();
 
     /**
-     * <code>optional .dstore.values.StringValue separator_in_ident_vals = 5;</code>
+     * <code>.dstore.values.StringValue separator_in_ident_vals = 5;</code>
      */
     boolean hasSeparatorInIdentVals();
     /**
-     * <code>optional .dstore.values.StringValue separator_in_ident_vals = 5;</code>
+     * <code>.dstore.values.StringValue separator_in_ident_vals = 5;</code>
      */
     io.dstore.values.StringValue getSeparatorInIdentVals();
     /**
-     * <code>optional .dstore.values.StringValue separator_in_ident_vals = 5;</code>
+     * <code>.dstore.values.StringValue separator_in_ident_vals = 5;</code>
      */
     io.dstore.values.StringValueOrBuilder getSeparatorInIdentValsOrBuilder();
 
     /**
-     * <code>optional bool separator_in_ident_vals_null = 1005;</code>
+     * <code>bool separator_in_ident_vals_null = 1005;</code>
      */
     boolean getSeparatorInIdentValsNull();
 
     /**
-     * <code>optional .dstore.values.DecimalValue account_balance = 6;</code>
+     * <code>.dstore.values.DecimalValue account_balance = 6;</code>
      */
     boolean hasAccountBalance();
     /**
-     * <code>optional .dstore.values.DecimalValue account_balance = 6;</code>
+     * <code>.dstore.values.DecimalValue account_balance = 6;</code>
      */
     io.dstore.values.DecimalValue getAccountBalance();
     /**
-     * <code>optional .dstore.values.DecimalValue account_balance = 6;</code>
+     * <code>.dstore.values.DecimalValue account_balance = 6;</code>
      */
     io.dstore.values.DecimalValueOrBuilder getAccountBalanceOrBuilder();
 
     /**
-     * <code>optional bool account_balance_null = 1006;</code>
+     * <code>bool account_balance_null = 1006;</code>
      */
     boolean getAccountBalanceNull();
 
     /**
-     * <code>optional .dstore.values.TimestampValue only_transactions_since = 7;</code>
+     * <code>.dstore.values.TimestampValue only_transactions_since = 7;</code>
      */
     boolean hasOnlyTransactionsSince();
     /**
-     * <code>optional .dstore.values.TimestampValue only_transactions_since = 7;</code>
+     * <code>.dstore.values.TimestampValue only_transactions_since = 7;</code>
      */
     io.dstore.values.TimestampValue getOnlyTransactionsSince();
     /**
-     * <code>optional .dstore.values.TimestampValue only_transactions_since = 7;</code>
+     * <code>.dstore.values.TimestampValue only_transactions_since = 7;</code>
      */
     io.dstore.values.TimestampValueOrBuilder getOnlyTransactionsSinceOrBuilder();
 
     /**
-     * <code>optional bool only_transactions_since_null = 1007;</code>
+     * <code>bool only_transactions_since_null = 1007;</code>
      */
     boolean getOnlyTransactionsSinceNull();
   }
@@ -342,19 +342,19 @@ public final class OmGetCashAccTransactionsPu {
     public static final int PERSON_IDENTIFICATION_VALUES_FIELD_NUMBER = 1;
     private io.dstore.values.StringValue personIdentificationValues_;
     /**
-     * <code>optional .dstore.values.StringValue person_identification_values = 1;</code>
+     * <code>.dstore.values.StringValue person_identification_values = 1;</code>
      */
     public boolean hasPersonIdentificationValues() {
       return personIdentificationValues_ != null;
     }
     /**
-     * <code>optional .dstore.values.StringValue person_identification_values = 1;</code>
+     * <code>.dstore.values.StringValue person_identification_values = 1;</code>
      */
     public io.dstore.values.StringValue getPersonIdentificationValues() {
       return personIdentificationValues_ == null ? io.dstore.values.StringValue.getDefaultInstance() : personIdentificationValues_;
     }
     /**
-     * <code>optional .dstore.values.StringValue person_identification_values = 1;</code>
+     * <code>.dstore.values.StringValue person_identification_values = 1;</code>
      */
     public io.dstore.values.StringValueOrBuilder getPersonIdentificationValuesOrBuilder() {
       return getPersonIdentificationValues();
@@ -363,7 +363,7 @@ public final class OmGetCashAccTransactionsPu {
     public static final int PERSON_IDENTIFICATION_VALUES_NULL_FIELD_NUMBER = 1001;
     private boolean personIdentificationValuesNull_;
     /**
-     * <code>optional bool person_identification_values_null = 1001;</code>
+     * <code>bool person_identification_values_null = 1001;</code>
      */
     public boolean getPersonIdentificationValuesNull() {
       return personIdentificationValuesNull_;
@@ -372,19 +372,19 @@ public final class OmGetCashAccTransactionsPu {
     public static final int PERSON_TYPE_ID_FIELD_NUMBER = 2;
     private io.dstore.values.IntegerValue personTypeId_;
     /**
-     * <code>optional .dstore.values.IntegerValue person_type_id = 2;</code>
+     * <code>.dstore.values.IntegerValue person_type_id = 2;</code>
      */
     public boolean hasPersonTypeId() {
       return personTypeId_ != null;
     }
     /**
-     * <code>optional .dstore.values.IntegerValue person_type_id = 2;</code>
+     * <code>.dstore.values.IntegerValue person_type_id = 2;</code>
      */
     public io.dstore.values.IntegerValue getPersonTypeId() {
       return personTypeId_ == null ? io.dstore.values.IntegerValue.getDefaultInstance() : personTypeId_;
     }
     /**
-     * <code>optional .dstore.values.IntegerValue person_type_id = 2;</code>
+     * <code>.dstore.values.IntegerValue person_type_id = 2;</code>
      */
     public io.dstore.values.IntegerValueOrBuilder getPersonTypeIdOrBuilder() {
       return getPersonTypeId();
@@ -393,7 +393,7 @@ public final class OmGetCashAccTransactionsPu {
     public static final int PERSON_TYPE_ID_NULL_FIELD_NUMBER = 1002;
     private boolean personTypeIdNull_;
     /**
-     * <code>optional bool person_type_id_null = 1002;</code>
+     * <code>bool person_type_id_null = 1002;</code>
      */
     public boolean getPersonTypeIdNull() {
       return personTypeIdNull_;
@@ -402,19 +402,19 @@ public final class OmGetCashAccTransactionsPu {
     public static final int UNIQUE_ID_FIELD_NUMBER = 3;
     private io.dstore.values.StringValue uniqueId_;
     /**
-     * <code>optional .dstore.values.StringValue unique_id = 3;</code>
+     * <code>.dstore.values.StringValue unique_id = 3;</code>
      */
     public boolean hasUniqueId() {
       return uniqueId_ != null;
     }
     /**
-     * <code>optional .dstore.values.StringValue unique_id = 3;</code>
+     * <code>.dstore.values.StringValue unique_id = 3;</code>
      */
     public io.dstore.values.StringValue getUniqueId() {
       return uniqueId_ == null ? io.dstore.values.StringValue.getDefaultInstance() : uniqueId_;
     }
     /**
-     * <code>optional .dstore.values.StringValue unique_id = 3;</code>
+     * <code>.dstore.values.StringValue unique_id = 3;</code>
      */
     public io.dstore.values.StringValueOrBuilder getUniqueIdOrBuilder() {
       return getUniqueId();
@@ -423,7 +423,7 @@ public final class OmGetCashAccTransactionsPu {
     public static final int UNIQUE_ID_NULL_FIELD_NUMBER = 1003;
     private boolean uniqueIdNull_;
     /**
-     * <code>optional bool unique_id_null = 1003;</code>
+     * <code>bool unique_id_null = 1003;</code>
      */
     public boolean getUniqueIdNull() {
       return uniqueIdNull_;
@@ -432,19 +432,19 @@ public final class OmGetCashAccTransactionsPu {
     public static final int CASH_ACCOUNT_TYPE_ID_FIELD_NUMBER = 4;
     private io.dstore.values.IntegerValue cashAccountTypeId_;
     /**
-     * <code>optional .dstore.values.IntegerValue cash_account_type_id = 4;</code>
+     * <code>.dstore.values.IntegerValue cash_account_type_id = 4;</code>
      */
     public boolean hasCashAccountTypeId() {
       return cashAccountTypeId_ != null;
     }
     /**
-     * <code>optional .dstore.values.IntegerValue cash_account_type_id = 4;</code>
+     * <code>.dstore.values.IntegerValue cash_account_type_id = 4;</code>
      */
     public io.dstore.values.IntegerValue getCashAccountTypeId() {
       return cashAccountTypeId_ == null ? io.dstore.values.IntegerValue.getDefaultInstance() : cashAccountTypeId_;
     }
     /**
-     * <code>optional .dstore.values.IntegerValue cash_account_type_id = 4;</code>
+     * <code>.dstore.values.IntegerValue cash_account_type_id = 4;</code>
      */
     public io.dstore.values.IntegerValueOrBuilder getCashAccountTypeIdOrBuilder() {
       return getCashAccountTypeId();
@@ -453,7 +453,7 @@ public final class OmGetCashAccTransactionsPu {
     public static final int CASH_ACCOUNT_TYPE_ID_NULL_FIELD_NUMBER = 1004;
     private boolean cashAccountTypeIdNull_;
     /**
-     * <code>optional bool cash_account_type_id_null = 1004;</code>
+     * <code>bool cash_account_type_id_null = 1004;</code>
      */
     public boolean getCashAccountTypeIdNull() {
       return cashAccountTypeIdNull_;
@@ -462,19 +462,19 @@ public final class OmGetCashAccTransactionsPu {
     public static final int SEPARATOR_IN_IDENT_VALS_FIELD_NUMBER = 5;
     private io.dstore.values.StringValue separatorInIdentVals_;
     /**
-     * <code>optional .dstore.values.StringValue separator_in_ident_vals = 5;</code>
+     * <code>.dstore.values.StringValue separator_in_ident_vals = 5;</code>
      */
     public boolean hasSeparatorInIdentVals() {
       return separatorInIdentVals_ != null;
     }
     /**
-     * <code>optional .dstore.values.StringValue separator_in_ident_vals = 5;</code>
+     * <code>.dstore.values.StringValue separator_in_ident_vals = 5;</code>
      */
     public io.dstore.values.StringValue getSeparatorInIdentVals() {
       return separatorInIdentVals_ == null ? io.dstore.values.StringValue.getDefaultInstance() : separatorInIdentVals_;
     }
     /**
-     * <code>optional .dstore.values.StringValue separator_in_ident_vals = 5;</code>
+     * <code>.dstore.values.StringValue separator_in_ident_vals = 5;</code>
      */
     public io.dstore.values.StringValueOrBuilder getSeparatorInIdentValsOrBuilder() {
       return getSeparatorInIdentVals();
@@ -483,7 +483,7 @@ public final class OmGetCashAccTransactionsPu {
     public static final int SEPARATOR_IN_IDENT_VALS_NULL_FIELD_NUMBER = 1005;
     private boolean separatorInIdentValsNull_;
     /**
-     * <code>optional bool separator_in_ident_vals_null = 1005;</code>
+     * <code>bool separator_in_ident_vals_null = 1005;</code>
      */
     public boolean getSeparatorInIdentValsNull() {
       return separatorInIdentValsNull_;
@@ -492,19 +492,19 @@ public final class OmGetCashAccTransactionsPu {
     public static final int ACCOUNT_BALANCE_FIELD_NUMBER = 6;
     private io.dstore.values.DecimalValue accountBalance_;
     /**
-     * <code>optional .dstore.values.DecimalValue account_balance = 6;</code>
+     * <code>.dstore.values.DecimalValue account_balance = 6;</code>
      */
     public boolean hasAccountBalance() {
       return accountBalance_ != null;
     }
     /**
-     * <code>optional .dstore.values.DecimalValue account_balance = 6;</code>
+     * <code>.dstore.values.DecimalValue account_balance = 6;</code>
      */
     public io.dstore.values.DecimalValue getAccountBalance() {
       return accountBalance_ == null ? io.dstore.values.DecimalValue.getDefaultInstance() : accountBalance_;
     }
     /**
-     * <code>optional .dstore.values.DecimalValue account_balance = 6;</code>
+     * <code>.dstore.values.DecimalValue account_balance = 6;</code>
      */
     public io.dstore.values.DecimalValueOrBuilder getAccountBalanceOrBuilder() {
       return getAccountBalance();
@@ -513,7 +513,7 @@ public final class OmGetCashAccTransactionsPu {
     public static final int ACCOUNT_BALANCE_NULL_FIELD_NUMBER = 1006;
     private boolean accountBalanceNull_;
     /**
-     * <code>optional bool account_balance_null = 1006;</code>
+     * <code>bool account_balance_null = 1006;</code>
      */
     public boolean getAccountBalanceNull() {
       return accountBalanceNull_;
@@ -522,19 +522,19 @@ public final class OmGetCashAccTransactionsPu {
     public static final int ONLY_TRANSACTIONS_SINCE_FIELD_NUMBER = 7;
     private io.dstore.values.TimestampValue onlyTransactionsSince_;
     /**
-     * <code>optional .dstore.values.TimestampValue only_transactions_since = 7;</code>
+     * <code>.dstore.values.TimestampValue only_transactions_since = 7;</code>
      */
     public boolean hasOnlyTransactionsSince() {
       return onlyTransactionsSince_ != null;
     }
     /**
-     * <code>optional .dstore.values.TimestampValue only_transactions_since = 7;</code>
+     * <code>.dstore.values.TimestampValue only_transactions_since = 7;</code>
      */
     public io.dstore.values.TimestampValue getOnlyTransactionsSince() {
       return onlyTransactionsSince_ == null ? io.dstore.values.TimestampValue.getDefaultInstance() : onlyTransactionsSince_;
     }
     /**
-     * <code>optional .dstore.values.TimestampValue only_transactions_since = 7;</code>
+     * <code>.dstore.values.TimestampValue only_transactions_since = 7;</code>
      */
     public io.dstore.values.TimestampValueOrBuilder getOnlyTransactionsSinceOrBuilder() {
       return getOnlyTransactionsSince();
@@ -543,7 +543,7 @@ public final class OmGetCashAccTransactionsPu {
     public static final int ONLY_TRANSACTIONS_SINCE_NULL_FIELD_NUMBER = 1007;
     private boolean onlyTransactionsSinceNull_;
     /**
-     * <code>optional bool only_transactions_since_null = 1007;</code>
+     * <code>bool only_transactions_since_null = 1007;</code>
      */
     public boolean getOnlyTransactionsSinceNull() {
       return onlyTransactionsSinceNull_;
@@ -740,7 +740,7 @@ public final class OmGetCashAccTransactionsPu {
         return memoizedHashCode;
       }
       int hash = 41;
-      hash = (19 * hash) + getDescriptorForType().hashCode();
+      hash = (19 * hash) + getDescriptor().hashCode();
       if (hasPersonIdentificationValues()) {
         hash = (37 * hash) + PERSON_IDENTIFICATION_VALUES_FIELD_NUMBER;
         hash = (53 * hash) + getPersonIdentificationValues().hashCode();
@@ -1141,13 +1141,13 @@ public final class OmGetCashAccTransactionsPu {
       private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.values.StringValue, io.dstore.values.StringValue.Builder, io.dstore.values.StringValueOrBuilder> personIdentificationValuesBuilder_;
       /**
-       * <code>optional .dstore.values.StringValue person_identification_values = 1;</code>
+       * <code>.dstore.values.StringValue person_identification_values = 1;</code>
        */
       public boolean hasPersonIdentificationValues() {
         return personIdentificationValuesBuilder_ != null || personIdentificationValues_ != null;
       }
       /**
-       * <code>optional .dstore.values.StringValue person_identification_values = 1;</code>
+       * <code>.dstore.values.StringValue person_identification_values = 1;</code>
        */
       public io.dstore.values.StringValue getPersonIdentificationValues() {
         if (personIdentificationValuesBuilder_ == null) {
@@ -1157,7 +1157,7 @@ public final class OmGetCashAccTransactionsPu {
         }
       }
       /**
-       * <code>optional .dstore.values.StringValue person_identification_values = 1;</code>
+       * <code>.dstore.values.StringValue person_identification_values = 1;</code>
        */
       public Builder setPersonIdentificationValues(io.dstore.values.StringValue value) {
         if (personIdentificationValuesBuilder_ == null) {
@@ -1173,7 +1173,7 @@ public final class OmGetCashAccTransactionsPu {
         return this;
       }
       /**
-       * <code>optional .dstore.values.StringValue person_identification_values = 1;</code>
+       * <code>.dstore.values.StringValue person_identification_values = 1;</code>
        */
       public Builder setPersonIdentificationValues(
           io.dstore.values.StringValue.Builder builderForValue) {
@@ -1187,7 +1187,7 @@ public final class OmGetCashAccTransactionsPu {
         return this;
       }
       /**
-       * <code>optional .dstore.values.StringValue person_identification_values = 1;</code>
+       * <code>.dstore.values.StringValue person_identification_values = 1;</code>
        */
       public Builder mergePersonIdentificationValues(io.dstore.values.StringValue value) {
         if (personIdentificationValuesBuilder_ == null) {
@@ -1205,7 +1205,7 @@ public final class OmGetCashAccTransactionsPu {
         return this;
       }
       /**
-       * <code>optional .dstore.values.StringValue person_identification_values = 1;</code>
+       * <code>.dstore.values.StringValue person_identification_values = 1;</code>
        */
       public Builder clearPersonIdentificationValues() {
         if (personIdentificationValuesBuilder_ == null) {
@@ -1219,7 +1219,7 @@ public final class OmGetCashAccTransactionsPu {
         return this;
       }
       /**
-       * <code>optional .dstore.values.StringValue person_identification_values = 1;</code>
+       * <code>.dstore.values.StringValue person_identification_values = 1;</code>
        */
       public io.dstore.values.StringValue.Builder getPersonIdentificationValuesBuilder() {
         
@@ -1227,7 +1227,7 @@ public final class OmGetCashAccTransactionsPu {
         return getPersonIdentificationValuesFieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .dstore.values.StringValue person_identification_values = 1;</code>
+       * <code>.dstore.values.StringValue person_identification_values = 1;</code>
        */
       public io.dstore.values.StringValueOrBuilder getPersonIdentificationValuesOrBuilder() {
         if (personIdentificationValuesBuilder_ != null) {
@@ -1238,7 +1238,7 @@ public final class OmGetCashAccTransactionsPu {
         }
       }
       /**
-       * <code>optional .dstore.values.StringValue person_identification_values = 1;</code>
+       * <code>.dstore.values.StringValue person_identification_values = 1;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.values.StringValue, io.dstore.values.StringValue.Builder, io.dstore.values.StringValueOrBuilder> 
@@ -1256,13 +1256,13 @@ public final class OmGetCashAccTransactionsPu {
 
       private boolean personIdentificationValuesNull_ ;
       /**
-       * <code>optional bool person_identification_values_null = 1001;</code>
+       * <code>bool person_identification_values_null = 1001;</code>
        */
       public boolean getPersonIdentificationValuesNull() {
         return personIdentificationValuesNull_;
       }
       /**
-       * <code>optional bool person_identification_values_null = 1001;</code>
+       * <code>bool person_identification_values_null = 1001;</code>
        */
       public Builder setPersonIdentificationValuesNull(boolean value) {
         
@@ -1271,7 +1271,7 @@ public final class OmGetCashAccTransactionsPu {
         return this;
       }
       /**
-       * <code>optional bool person_identification_values_null = 1001;</code>
+       * <code>bool person_identification_values_null = 1001;</code>
        */
       public Builder clearPersonIdentificationValuesNull() {
         
@@ -1284,13 +1284,13 @@ public final class OmGetCashAccTransactionsPu {
       private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> personTypeIdBuilder_;
       /**
-       * <code>optional .dstore.values.IntegerValue person_type_id = 2;</code>
+       * <code>.dstore.values.IntegerValue person_type_id = 2;</code>
        */
       public boolean hasPersonTypeId() {
         return personTypeIdBuilder_ != null || personTypeId_ != null;
       }
       /**
-       * <code>optional .dstore.values.IntegerValue person_type_id = 2;</code>
+       * <code>.dstore.values.IntegerValue person_type_id = 2;</code>
        */
       public io.dstore.values.IntegerValue getPersonTypeId() {
         if (personTypeIdBuilder_ == null) {
@@ -1300,7 +1300,7 @@ public final class OmGetCashAccTransactionsPu {
         }
       }
       /**
-       * <code>optional .dstore.values.IntegerValue person_type_id = 2;</code>
+       * <code>.dstore.values.IntegerValue person_type_id = 2;</code>
        */
       public Builder setPersonTypeId(io.dstore.values.IntegerValue value) {
         if (personTypeIdBuilder_ == null) {
@@ -1316,7 +1316,7 @@ public final class OmGetCashAccTransactionsPu {
         return this;
       }
       /**
-       * <code>optional .dstore.values.IntegerValue person_type_id = 2;</code>
+       * <code>.dstore.values.IntegerValue person_type_id = 2;</code>
        */
       public Builder setPersonTypeId(
           io.dstore.values.IntegerValue.Builder builderForValue) {
@@ -1330,7 +1330,7 @@ public final class OmGetCashAccTransactionsPu {
         return this;
       }
       /**
-       * <code>optional .dstore.values.IntegerValue person_type_id = 2;</code>
+       * <code>.dstore.values.IntegerValue person_type_id = 2;</code>
        */
       public Builder mergePersonTypeId(io.dstore.values.IntegerValue value) {
         if (personTypeIdBuilder_ == null) {
@@ -1348,7 +1348,7 @@ public final class OmGetCashAccTransactionsPu {
         return this;
       }
       /**
-       * <code>optional .dstore.values.IntegerValue person_type_id = 2;</code>
+       * <code>.dstore.values.IntegerValue person_type_id = 2;</code>
        */
       public Builder clearPersonTypeId() {
         if (personTypeIdBuilder_ == null) {
@@ -1362,7 +1362,7 @@ public final class OmGetCashAccTransactionsPu {
         return this;
       }
       /**
-       * <code>optional .dstore.values.IntegerValue person_type_id = 2;</code>
+       * <code>.dstore.values.IntegerValue person_type_id = 2;</code>
        */
       public io.dstore.values.IntegerValue.Builder getPersonTypeIdBuilder() {
         
@@ -1370,7 +1370,7 @@ public final class OmGetCashAccTransactionsPu {
         return getPersonTypeIdFieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .dstore.values.IntegerValue person_type_id = 2;</code>
+       * <code>.dstore.values.IntegerValue person_type_id = 2;</code>
        */
       public io.dstore.values.IntegerValueOrBuilder getPersonTypeIdOrBuilder() {
         if (personTypeIdBuilder_ != null) {
@@ -1381,7 +1381,7 @@ public final class OmGetCashAccTransactionsPu {
         }
       }
       /**
-       * <code>optional .dstore.values.IntegerValue person_type_id = 2;</code>
+       * <code>.dstore.values.IntegerValue person_type_id = 2;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> 
@@ -1399,13 +1399,13 @@ public final class OmGetCashAccTransactionsPu {
 
       private boolean personTypeIdNull_ ;
       /**
-       * <code>optional bool person_type_id_null = 1002;</code>
+       * <code>bool person_type_id_null = 1002;</code>
        */
       public boolean getPersonTypeIdNull() {
         return personTypeIdNull_;
       }
       /**
-       * <code>optional bool person_type_id_null = 1002;</code>
+       * <code>bool person_type_id_null = 1002;</code>
        */
       public Builder setPersonTypeIdNull(boolean value) {
         
@@ -1414,7 +1414,7 @@ public final class OmGetCashAccTransactionsPu {
         return this;
       }
       /**
-       * <code>optional bool person_type_id_null = 1002;</code>
+       * <code>bool person_type_id_null = 1002;</code>
        */
       public Builder clearPersonTypeIdNull() {
         
@@ -1427,13 +1427,13 @@ public final class OmGetCashAccTransactionsPu {
       private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.values.StringValue, io.dstore.values.StringValue.Builder, io.dstore.values.StringValueOrBuilder> uniqueIdBuilder_;
       /**
-       * <code>optional .dstore.values.StringValue unique_id = 3;</code>
+       * <code>.dstore.values.StringValue unique_id = 3;</code>
        */
       public boolean hasUniqueId() {
         return uniqueIdBuilder_ != null || uniqueId_ != null;
       }
       /**
-       * <code>optional .dstore.values.StringValue unique_id = 3;</code>
+       * <code>.dstore.values.StringValue unique_id = 3;</code>
        */
       public io.dstore.values.StringValue getUniqueId() {
         if (uniqueIdBuilder_ == null) {
@@ -1443,7 +1443,7 @@ public final class OmGetCashAccTransactionsPu {
         }
       }
       /**
-       * <code>optional .dstore.values.StringValue unique_id = 3;</code>
+       * <code>.dstore.values.StringValue unique_id = 3;</code>
        */
       public Builder setUniqueId(io.dstore.values.StringValue value) {
         if (uniqueIdBuilder_ == null) {
@@ -1459,7 +1459,7 @@ public final class OmGetCashAccTransactionsPu {
         return this;
       }
       /**
-       * <code>optional .dstore.values.StringValue unique_id = 3;</code>
+       * <code>.dstore.values.StringValue unique_id = 3;</code>
        */
       public Builder setUniqueId(
           io.dstore.values.StringValue.Builder builderForValue) {
@@ -1473,7 +1473,7 @@ public final class OmGetCashAccTransactionsPu {
         return this;
       }
       /**
-       * <code>optional .dstore.values.StringValue unique_id = 3;</code>
+       * <code>.dstore.values.StringValue unique_id = 3;</code>
        */
       public Builder mergeUniqueId(io.dstore.values.StringValue value) {
         if (uniqueIdBuilder_ == null) {
@@ -1491,7 +1491,7 @@ public final class OmGetCashAccTransactionsPu {
         return this;
       }
       /**
-       * <code>optional .dstore.values.StringValue unique_id = 3;</code>
+       * <code>.dstore.values.StringValue unique_id = 3;</code>
        */
       public Builder clearUniqueId() {
         if (uniqueIdBuilder_ == null) {
@@ -1505,7 +1505,7 @@ public final class OmGetCashAccTransactionsPu {
         return this;
       }
       /**
-       * <code>optional .dstore.values.StringValue unique_id = 3;</code>
+       * <code>.dstore.values.StringValue unique_id = 3;</code>
        */
       public io.dstore.values.StringValue.Builder getUniqueIdBuilder() {
         
@@ -1513,7 +1513,7 @@ public final class OmGetCashAccTransactionsPu {
         return getUniqueIdFieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .dstore.values.StringValue unique_id = 3;</code>
+       * <code>.dstore.values.StringValue unique_id = 3;</code>
        */
       public io.dstore.values.StringValueOrBuilder getUniqueIdOrBuilder() {
         if (uniqueIdBuilder_ != null) {
@@ -1524,7 +1524,7 @@ public final class OmGetCashAccTransactionsPu {
         }
       }
       /**
-       * <code>optional .dstore.values.StringValue unique_id = 3;</code>
+       * <code>.dstore.values.StringValue unique_id = 3;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.values.StringValue, io.dstore.values.StringValue.Builder, io.dstore.values.StringValueOrBuilder> 
@@ -1542,13 +1542,13 @@ public final class OmGetCashAccTransactionsPu {
 
       private boolean uniqueIdNull_ ;
       /**
-       * <code>optional bool unique_id_null = 1003;</code>
+       * <code>bool unique_id_null = 1003;</code>
        */
       public boolean getUniqueIdNull() {
         return uniqueIdNull_;
       }
       /**
-       * <code>optional bool unique_id_null = 1003;</code>
+       * <code>bool unique_id_null = 1003;</code>
        */
       public Builder setUniqueIdNull(boolean value) {
         
@@ -1557,7 +1557,7 @@ public final class OmGetCashAccTransactionsPu {
         return this;
       }
       /**
-       * <code>optional bool unique_id_null = 1003;</code>
+       * <code>bool unique_id_null = 1003;</code>
        */
       public Builder clearUniqueIdNull() {
         
@@ -1570,13 +1570,13 @@ public final class OmGetCashAccTransactionsPu {
       private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> cashAccountTypeIdBuilder_;
       /**
-       * <code>optional .dstore.values.IntegerValue cash_account_type_id = 4;</code>
+       * <code>.dstore.values.IntegerValue cash_account_type_id = 4;</code>
        */
       public boolean hasCashAccountTypeId() {
         return cashAccountTypeIdBuilder_ != null || cashAccountTypeId_ != null;
       }
       /**
-       * <code>optional .dstore.values.IntegerValue cash_account_type_id = 4;</code>
+       * <code>.dstore.values.IntegerValue cash_account_type_id = 4;</code>
        */
       public io.dstore.values.IntegerValue getCashAccountTypeId() {
         if (cashAccountTypeIdBuilder_ == null) {
@@ -1586,7 +1586,7 @@ public final class OmGetCashAccTransactionsPu {
         }
       }
       /**
-       * <code>optional .dstore.values.IntegerValue cash_account_type_id = 4;</code>
+       * <code>.dstore.values.IntegerValue cash_account_type_id = 4;</code>
        */
       public Builder setCashAccountTypeId(io.dstore.values.IntegerValue value) {
         if (cashAccountTypeIdBuilder_ == null) {
@@ -1602,7 +1602,7 @@ public final class OmGetCashAccTransactionsPu {
         return this;
       }
       /**
-       * <code>optional .dstore.values.IntegerValue cash_account_type_id = 4;</code>
+       * <code>.dstore.values.IntegerValue cash_account_type_id = 4;</code>
        */
       public Builder setCashAccountTypeId(
           io.dstore.values.IntegerValue.Builder builderForValue) {
@@ -1616,7 +1616,7 @@ public final class OmGetCashAccTransactionsPu {
         return this;
       }
       /**
-       * <code>optional .dstore.values.IntegerValue cash_account_type_id = 4;</code>
+       * <code>.dstore.values.IntegerValue cash_account_type_id = 4;</code>
        */
       public Builder mergeCashAccountTypeId(io.dstore.values.IntegerValue value) {
         if (cashAccountTypeIdBuilder_ == null) {
@@ -1634,7 +1634,7 @@ public final class OmGetCashAccTransactionsPu {
         return this;
       }
       /**
-       * <code>optional .dstore.values.IntegerValue cash_account_type_id = 4;</code>
+       * <code>.dstore.values.IntegerValue cash_account_type_id = 4;</code>
        */
       public Builder clearCashAccountTypeId() {
         if (cashAccountTypeIdBuilder_ == null) {
@@ -1648,7 +1648,7 @@ public final class OmGetCashAccTransactionsPu {
         return this;
       }
       /**
-       * <code>optional .dstore.values.IntegerValue cash_account_type_id = 4;</code>
+       * <code>.dstore.values.IntegerValue cash_account_type_id = 4;</code>
        */
       public io.dstore.values.IntegerValue.Builder getCashAccountTypeIdBuilder() {
         
@@ -1656,7 +1656,7 @@ public final class OmGetCashAccTransactionsPu {
         return getCashAccountTypeIdFieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .dstore.values.IntegerValue cash_account_type_id = 4;</code>
+       * <code>.dstore.values.IntegerValue cash_account_type_id = 4;</code>
        */
       public io.dstore.values.IntegerValueOrBuilder getCashAccountTypeIdOrBuilder() {
         if (cashAccountTypeIdBuilder_ != null) {
@@ -1667,7 +1667,7 @@ public final class OmGetCashAccTransactionsPu {
         }
       }
       /**
-       * <code>optional .dstore.values.IntegerValue cash_account_type_id = 4;</code>
+       * <code>.dstore.values.IntegerValue cash_account_type_id = 4;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> 
@@ -1685,13 +1685,13 @@ public final class OmGetCashAccTransactionsPu {
 
       private boolean cashAccountTypeIdNull_ ;
       /**
-       * <code>optional bool cash_account_type_id_null = 1004;</code>
+       * <code>bool cash_account_type_id_null = 1004;</code>
        */
       public boolean getCashAccountTypeIdNull() {
         return cashAccountTypeIdNull_;
       }
       /**
-       * <code>optional bool cash_account_type_id_null = 1004;</code>
+       * <code>bool cash_account_type_id_null = 1004;</code>
        */
       public Builder setCashAccountTypeIdNull(boolean value) {
         
@@ -1700,7 +1700,7 @@ public final class OmGetCashAccTransactionsPu {
         return this;
       }
       /**
-       * <code>optional bool cash_account_type_id_null = 1004;</code>
+       * <code>bool cash_account_type_id_null = 1004;</code>
        */
       public Builder clearCashAccountTypeIdNull() {
         
@@ -1713,13 +1713,13 @@ public final class OmGetCashAccTransactionsPu {
       private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.values.StringValue, io.dstore.values.StringValue.Builder, io.dstore.values.StringValueOrBuilder> separatorInIdentValsBuilder_;
       /**
-       * <code>optional .dstore.values.StringValue separator_in_ident_vals = 5;</code>
+       * <code>.dstore.values.StringValue separator_in_ident_vals = 5;</code>
        */
       public boolean hasSeparatorInIdentVals() {
         return separatorInIdentValsBuilder_ != null || separatorInIdentVals_ != null;
       }
       /**
-       * <code>optional .dstore.values.StringValue separator_in_ident_vals = 5;</code>
+       * <code>.dstore.values.StringValue separator_in_ident_vals = 5;</code>
        */
       public io.dstore.values.StringValue getSeparatorInIdentVals() {
         if (separatorInIdentValsBuilder_ == null) {
@@ -1729,7 +1729,7 @@ public final class OmGetCashAccTransactionsPu {
         }
       }
       /**
-       * <code>optional .dstore.values.StringValue separator_in_ident_vals = 5;</code>
+       * <code>.dstore.values.StringValue separator_in_ident_vals = 5;</code>
        */
       public Builder setSeparatorInIdentVals(io.dstore.values.StringValue value) {
         if (separatorInIdentValsBuilder_ == null) {
@@ -1745,7 +1745,7 @@ public final class OmGetCashAccTransactionsPu {
         return this;
       }
       /**
-       * <code>optional .dstore.values.StringValue separator_in_ident_vals = 5;</code>
+       * <code>.dstore.values.StringValue separator_in_ident_vals = 5;</code>
        */
       public Builder setSeparatorInIdentVals(
           io.dstore.values.StringValue.Builder builderForValue) {
@@ -1759,7 +1759,7 @@ public final class OmGetCashAccTransactionsPu {
         return this;
       }
       /**
-       * <code>optional .dstore.values.StringValue separator_in_ident_vals = 5;</code>
+       * <code>.dstore.values.StringValue separator_in_ident_vals = 5;</code>
        */
       public Builder mergeSeparatorInIdentVals(io.dstore.values.StringValue value) {
         if (separatorInIdentValsBuilder_ == null) {
@@ -1777,7 +1777,7 @@ public final class OmGetCashAccTransactionsPu {
         return this;
       }
       /**
-       * <code>optional .dstore.values.StringValue separator_in_ident_vals = 5;</code>
+       * <code>.dstore.values.StringValue separator_in_ident_vals = 5;</code>
        */
       public Builder clearSeparatorInIdentVals() {
         if (separatorInIdentValsBuilder_ == null) {
@@ -1791,7 +1791,7 @@ public final class OmGetCashAccTransactionsPu {
         return this;
       }
       /**
-       * <code>optional .dstore.values.StringValue separator_in_ident_vals = 5;</code>
+       * <code>.dstore.values.StringValue separator_in_ident_vals = 5;</code>
        */
       public io.dstore.values.StringValue.Builder getSeparatorInIdentValsBuilder() {
         
@@ -1799,7 +1799,7 @@ public final class OmGetCashAccTransactionsPu {
         return getSeparatorInIdentValsFieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .dstore.values.StringValue separator_in_ident_vals = 5;</code>
+       * <code>.dstore.values.StringValue separator_in_ident_vals = 5;</code>
        */
       public io.dstore.values.StringValueOrBuilder getSeparatorInIdentValsOrBuilder() {
         if (separatorInIdentValsBuilder_ != null) {
@@ -1810,7 +1810,7 @@ public final class OmGetCashAccTransactionsPu {
         }
       }
       /**
-       * <code>optional .dstore.values.StringValue separator_in_ident_vals = 5;</code>
+       * <code>.dstore.values.StringValue separator_in_ident_vals = 5;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.values.StringValue, io.dstore.values.StringValue.Builder, io.dstore.values.StringValueOrBuilder> 
@@ -1828,13 +1828,13 @@ public final class OmGetCashAccTransactionsPu {
 
       private boolean separatorInIdentValsNull_ ;
       /**
-       * <code>optional bool separator_in_ident_vals_null = 1005;</code>
+       * <code>bool separator_in_ident_vals_null = 1005;</code>
        */
       public boolean getSeparatorInIdentValsNull() {
         return separatorInIdentValsNull_;
       }
       /**
-       * <code>optional bool separator_in_ident_vals_null = 1005;</code>
+       * <code>bool separator_in_ident_vals_null = 1005;</code>
        */
       public Builder setSeparatorInIdentValsNull(boolean value) {
         
@@ -1843,7 +1843,7 @@ public final class OmGetCashAccTransactionsPu {
         return this;
       }
       /**
-       * <code>optional bool separator_in_ident_vals_null = 1005;</code>
+       * <code>bool separator_in_ident_vals_null = 1005;</code>
        */
       public Builder clearSeparatorInIdentValsNull() {
         
@@ -1856,13 +1856,13 @@ public final class OmGetCashAccTransactionsPu {
       private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.values.DecimalValue, io.dstore.values.DecimalValue.Builder, io.dstore.values.DecimalValueOrBuilder> accountBalanceBuilder_;
       /**
-       * <code>optional .dstore.values.DecimalValue account_balance = 6;</code>
+       * <code>.dstore.values.DecimalValue account_balance = 6;</code>
        */
       public boolean hasAccountBalance() {
         return accountBalanceBuilder_ != null || accountBalance_ != null;
       }
       /**
-       * <code>optional .dstore.values.DecimalValue account_balance = 6;</code>
+       * <code>.dstore.values.DecimalValue account_balance = 6;</code>
        */
       public io.dstore.values.DecimalValue getAccountBalance() {
         if (accountBalanceBuilder_ == null) {
@@ -1872,7 +1872,7 @@ public final class OmGetCashAccTransactionsPu {
         }
       }
       /**
-       * <code>optional .dstore.values.DecimalValue account_balance = 6;</code>
+       * <code>.dstore.values.DecimalValue account_balance = 6;</code>
        */
       public Builder setAccountBalance(io.dstore.values.DecimalValue value) {
         if (accountBalanceBuilder_ == null) {
@@ -1888,7 +1888,7 @@ public final class OmGetCashAccTransactionsPu {
         return this;
       }
       /**
-       * <code>optional .dstore.values.DecimalValue account_balance = 6;</code>
+       * <code>.dstore.values.DecimalValue account_balance = 6;</code>
        */
       public Builder setAccountBalance(
           io.dstore.values.DecimalValue.Builder builderForValue) {
@@ -1902,7 +1902,7 @@ public final class OmGetCashAccTransactionsPu {
         return this;
       }
       /**
-       * <code>optional .dstore.values.DecimalValue account_balance = 6;</code>
+       * <code>.dstore.values.DecimalValue account_balance = 6;</code>
        */
       public Builder mergeAccountBalance(io.dstore.values.DecimalValue value) {
         if (accountBalanceBuilder_ == null) {
@@ -1920,7 +1920,7 @@ public final class OmGetCashAccTransactionsPu {
         return this;
       }
       /**
-       * <code>optional .dstore.values.DecimalValue account_balance = 6;</code>
+       * <code>.dstore.values.DecimalValue account_balance = 6;</code>
        */
       public Builder clearAccountBalance() {
         if (accountBalanceBuilder_ == null) {
@@ -1934,7 +1934,7 @@ public final class OmGetCashAccTransactionsPu {
         return this;
       }
       /**
-       * <code>optional .dstore.values.DecimalValue account_balance = 6;</code>
+       * <code>.dstore.values.DecimalValue account_balance = 6;</code>
        */
       public io.dstore.values.DecimalValue.Builder getAccountBalanceBuilder() {
         
@@ -1942,7 +1942,7 @@ public final class OmGetCashAccTransactionsPu {
         return getAccountBalanceFieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .dstore.values.DecimalValue account_balance = 6;</code>
+       * <code>.dstore.values.DecimalValue account_balance = 6;</code>
        */
       public io.dstore.values.DecimalValueOrBuilder getAccountBalanceOrBuilder() {
         if (accountBalanceBuilder_ != null) {
@@ -1953,7 +1953,7 @@ public final class OmGetCashAccTransactionsPu {
         }
       }
       /**
-       * <code>optional .dstore.values.DecimalValue account_balance = 6;</code>
+       * <code>.dstore.values.DecimalValue account_balance = 6;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.values.DecimalValue, io.dstore.values.DecimalValue.Builder, io.dstore.values.DecimalValueOrBuilder> 
@@ -1971,13 +1971,13 @@ public final class OmGetCashAccTransactionsPu {
 
       private boolean accountBalanceNull_ ;
       /**
-       * <code>optional bool account_balance_null = 1006;</code>
+       * <code>bool account_balance_null = 1006;</code>
        */
       public boolean getAccountBalanceNull() {
         return accountBalanceNull_;
       }
       /**
-       * <code>optional bool account_balance_null = 1006;</code>
+       * <code>bool account_balance_null = 1006;</code>
        */
       public Builder setAccountBalanceNull(boolean value) {
         
@@ -1986,7 +1986,7 @@ public final class OmGetCashAccTransactionsPu {
         return this;
       }
       /**
-       * <code>optional bool account_balance_null = 1006;</code>
+       * <code>bool account_balance_null = 1006;</code>
        */
       public Builder clearAccountBalanceNull() {
         
@@ -1999,13 +1999,13 @@ public final class OmGetCashAccTransactionsPu {
       private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.values.TimestampValue, io.dstore.values.TimestampValue.Builder, io.dstore.values.TimestampValueOrBuilder> onlyTransactionsSinceBuilder_;
       /**
-       * <code>optional .dstore.values.TimestampValue only_transactions_since = 7;</code>
+       * <code>.dstore.values.TimestampValue only_transactions_since = 7;</code>
        */
       public boolean hasOnlyTransactionsSince() {
         return onlyTransactionsSinceBuilder_ != null || onlyTransactionsSince_ != null;
       }
       /**
-       * <code>optional .dstore.values.TimestampValue only_transactions_since = 7;</code>
+       * <code>.dstore.values.TimestampValue only_transactions_since = 7;</code>
        */
       public io.dstore.values.TimestampValue getOnlyTransactionsSince() {
         if (onlyTransactionsSinceBuilder_ == null) {
@@ -2015,7 +2015,7 @@ public final class OmGetCashAccTransactionsPu {
         }
       }
       /**
-       * <code>optional .dstore.values.TimestampValue only_transactions_since = 7;</code>
+       * <code>.dstore.values.TimestampValue only_transactions_since = 7;</code>
        */
       public Builder setOnlyTransactionsSince(io.dstore.values.TimestampValue value) {
         if (onlyTransactionsSinceBuilder_ == null) {
@@ -2031,7 +2031,7 @@ public final class OmGetCashAccTransactionsPu {
         return this;
       }
       /**
-       * <code>optional .dstore.values.TimestampValue only_transactions_since = 7;</code>
+       * <code>.dstore.values.TimestampValue only_transactions_since = 7;</code>
        */
       public Builder setOnlyTransactionsSince(
           io.dstore.values.TimestampValue.Builder builderForValue) {
@@ -2045,7 +2045,7 @@ public final class OmGetCashAccTransactionsPu {
         return this;
       }
       /**
-       * <code>optional .dstore.values.TimestampValue only_transactions_since = 7;</code>
+       * <code>.dstore.values.TimestampValue only_transactions_since = 7;</code>
        */
       public Builder mergeOnlyTransactionsSince(io.dstore.values.TimestampValue value) {
         if (onlyTransactionsSinceBuilder_ == null) {
@@ -2063,7 +2063,7 @@ public final class OmGetCashAccTransactionsPu {
         return this;
       }
       /**
-       * <code>optional .dstore.values.TimestampValue only_transactions_since = 7;</code>
+       * <code>.dstore.values.TimestampValue only_transactions_since = 7;</code>
        */
       public Builder clearOnlyTransactionsSince() {
         if (onlyTransactionsSinceBuilder_ == null) {
@@ -2077,7 +2077,7 @@ public final class OmGetCashAccTransactionsPu {
         return this;
       }
       /**
-       * <code>optional .dstore.values.TimestampValue only_transactions_since = 7;</code>
+       * <code>.dstore.values.TimestampValue only_transactions_since = 7;</code>
        */
       public io.dstore.values.TimestampValue.Builder getOnlyTransactionsSinceBuilder() {
         
@@ -2085,7 +2085,7 @@ public final class OmGetCashAccTransactionsPu {
         return getOnlyTransactionsSinceFieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .dstore.values.TimestampValue only_transactions_since = 7;</code>
+       * <code>.dstore.values.TimestampValue only_transactions_since = 7;</code>
        */
       public io.dstore.values.TimestampValueOrBuilder getOnlyTransactionsSinceOrBuilder() {
         if (onlyTransactionsSinceBuilder_ != null) {
@@ -2096,7 +2096,7 @@ public final class OmGetCashAccTransactionsPu {
         }
       }
       /**
-       * <code>optional .dstore.values.TimestampValue only_transactions_since = 7;</code>
+       * <code>.dstore.values.TimestampValue only_transactions_since = 7;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.values.TimestampValue, io.dstore.values.TimestampValue.Builder, io.dstore.values.TimestampValueOrBuilder> 
@@ -2114,13 +2114,13 @@ public final class OmGetCashAccTransactionsPu {
 
       private boolean onlyTransactionsSinceNull_ ;
       /**
-       * <code>optional bool only_transactions_since_null = 1007;</code>
+       * <code>bool only_transactions_since_null = 1007;</code>
        */
       public boolean getOnlyTransactionsSinceNull() {
         return onlyTransactionsSinceNull_;
       }
       /**
-       * <code>optional bool only_transactions_since_null = 1007;</code>
+       * <code>bool only_transactions_since_null = 1007;</code>
        */
       public Builder setOnlyTransactionsSinceNull(boolean value) {
         
@@ -2129,7 +2129,7 @@ public final class OmGetCashAccTransactionsPu {
         return this;
       }
       /**
-       * <code>optional bool only_transactions_since_null = 1007;</code>
+       * <code>bool only_transactions_since_null = 1007;</code>
        */
       public Builder clearOnlyTransactionsSinceNull() {
         
@@ -2263,15 +2263,15 @@ public final class OmGetCashAccTransactionsPu {
         int index);
 
     /**
-     * <code>optional .dstore.values.DecimalValue account_balance = 101;</code>
+     * <code>.dstore.values.DecimalValue account_balance = 101;</code>
      */
     boolean hasAccountBalance();
     /**
-     * <code>optional .dstore.values.DecimalValue account_balance = 101;</code>
+     * <code>.dstore.values.DecimalValue account_balance = 101;</code>
      */
     io.dstore.values.DecimalValue getAccountBalance();
     /**
-     * <code>optional .dstore.values.DecimalValue account_balance = 101;</code>
+     * <code>.dstore.values.DecimalValue account_balance = 101;</code>
      */
     io.dstore.values.DecimalValueOrBuilder getAccountBalanceOrBuilder();
   }
@@ -2394,7 +2394,7 @@ public final class OmGetCashAccTransactionsPu {
         com.google.protobuf.MessageOrBuilder {
 
       /**
-       * <code>optional int32 row_id = 10000;</code>
+       * <code>int32 row_id = 10000;</code>
        */
       int getRowId();
 
@@ -2403,7 +2403,7 @@ public final class OmGetCashAccTransactionsPu {
        * Bezeichnung des Transaktionstyps "TransactionTypeID"
        * </pre>
        *
-       * <code>optional .dstore.values.StringValue transaction_type = 10001;</code>
+       * <code>.dstore.values.StringValue transaction_type = 10001;</code>
        */
       boolean hasTransactionType();
       /**
@@ -2411,7 +2411,7 @@ public final class OmGetCashAccTransactionsPu {
        * Bezeichnung des Transaktionstyps "TransactionTypeID"
        * </pre>
        *
-       * <code>optional .dstore.values.StringValue transaction_type = 10001;</code>
+       * <code>.dstore.values.StringValue transaction_type = 10001;</code>
        */
       io.dstore.values.StringValue getTransactionType();
       /**
@@ -2419,7 +2419,7 @@ public final class OmGetCashAccTransactionsPu {
        * Bezeichnung des Transaktionstyps "TransactionTypeID"
        * </pre>
        *
-       * <code>optional .dstore.values.StringValue transaction_type = 10001;</code>
+       * <code>.dstore.values.StringValue transaction_type = 10001;</code>
        */
       io.dstore.values.StringValueOrBuilder getTransactionTypeOrBuilder();
 
@@ -2428,7 +2428,7 @@ public final class OmGetCashAccTransactionsPu {
        * ID der identifizierten Person (der das Konto gehört)
        * </pre>
        *
-       * <code>optional .dstore.values.IntegerValue person_id = 10002;</code>
+       * <code>.dstore.values.IntegerValue person_id = 10002;</code>
        */
       boolean hasPersonId();
       /**
@@ -2436,7 +2436,7 @@ public final class OmGetCashAccTransactionsPu {
        * ID der identifizierten Person (der das Konto gehört)
        * </pre>
        *
-       * <code>optional .dstore.values.IntegerValue person_id = 10002;</code>
+       * <code>.dstore.values.IntegerValue person_id = 10002;</code>
        */
       io.dstore.values.IntegerValue getPersonId();
       /**
@@ -2444,7 +2444,7 @@ public final class OmGetCashAccTransactionsPu {
        * ID der identifizierten Person (der das Konto gehört)
        * </pre>
        *
-       * <code>optional .dstore.values.IntegerValue person_id = 10002;</code>
+       * <code>.dstore.values.IntegerValue person_id = 10002;</code>
        */
       io.dstore.values.IntegerValueOrBuilder getPersonIdOrBuilder();
 
@@ -2453,7 +2453,7 @@ public final class OmGetCashAccTransactionsPu {
        * Zeitpunkt der Transaktion
        * </pre>
        *
-       * <code>optional .dstore.values.TimestampValue transaction_date_and_time = 10003;</code>
+       * <code>.dstore.values.TimestampValue transaction_date_and_time = 10003;</code>
        */
       boolean hasTransactionDateAndTime();
       /**
@@ -2461,7 +2461,7 @@ public final class OmGetCashAccTransactionsPu {
        * Zeitpunkt der Transaktion
        * </pre>
        *
-       * <code>optional .dstore.values.TimestampValue transaction_date_and_time = 10003;</code>
+       * <code>.dstore.values.TimestampValue transaction_date_and_time = 10003;</code>
        */
       io.dstore.values.TimestampValue getTransactionDateAndTime();
       /**
@@ -2469,7 +2469,7 @@ public final class OmGetCashAccTransactionsPu {
        * Zeitpunkt der Transaktion
        * </pre>
        *
-       * <code>optional .dstore.values.TimestampValue transaction_date_and_time = 10003;</code>
+       * <code>.dstore.values.TimestampValue transaction_date_and_time = 10003;</code>
        */
       io.dstore.values.TimestampValueOrBuilder getTransactionDateAndTimeOrBuilder();
 
@@ -2478,7 +2478,7 @@ public final class OmGetCashAccTransactionsPu {
        * Wert der Transaktion (positiver Wert : "Zubuchung", sonst "Abbuchung)
        * </pre>
        *
-       * <code>optional .dstore.values.DecimalValue transaction_value = 10004;</code>
+       * <code>.dstore.values.DecimalValue transaction_value = 10004;</code>
        */
       boolean hasTransactionValue();
       /**
@@ -2486,7 +2486,7 @@ public final class OmGetCashAccTransactionsPu {
        * Wert der Transaktion (positiver Wert : "Zubuchung", sonst "Abbuchung)
        * </pre>
        *
-       * <code>optional .dstore.values.DecimalValue transaction_value = 10004;</code>
+       * <code>.dstore.values.DecimalValue transaction_value = 10004;</code>
        */
       io.dstore.values.DecimalValue getTransactionValue();
       /**
@@ -2494,7 +2494,7 @@ public final class OmGetCashAccTransactionsPu {
        * Wert der Transaktion (positiver Wert : "Zubuchung", sonst "Abbuchung)
        * </pre>
        *
-       * <code>optional .dstore.values.DecimalValue transaction_value = 10004;</code>
+       * <code>.dstore.values.DecimalValue transaction_value = 10004;</code>
        */
       io.dstore.values.DecimalValueOrBuilder getTransactionValueOrBuilder();
 
@@ -2503,7 +2503,7 @@ public final class OmGetCashAccTransactionsPu {
        * Kommentar zur Transaktion
        * </pre>
        *
-       * <code>optional .dstore.values.StringValue transaction_comment = 10005;</code>
+       * <code>.dstore.values.StringValue transaction_comment = 10005;</code>
        */
       boolean hasTransactionComment();
       /**
@@ -2511,7 +2511,7 @@ public final class OmGetCashAccTransactionsPu {
        * Kommentar zur Transaktion
        * </pre>
        *
-       * <code>optional .dstore.values.StringValue transaction_comment = 10005;</code>
+       * <code>.dstore.values.StringValue transaction_comment = 10005;</code>
        */
       io.dstore.values.StringValue getTransactionComment();
       /**
@@ -2519,7 +2519,7 @@ public final class OmGetCashAccTransactionsPu {
        * Kommentar zur Transaktion
        * </pre>
        *
-       * <code>optional .dstore.values.StringValue transaction_comment = 10005;</code>
+       * <code>.dstore.values.StringValue transaction_comment = 10005;</code>
        */
       io.dstore.values.StringValueOrBuilder getTransactionCommentOrBuilder();
 
@@ -2528,7 +2528,7 @@ public final class OmGetCashAccTransactionsPu {
        * ID des Transaktionstyps zu der Transaktion
        * </pre>
        *
-       * <code>optional .dstore.values.IntegerValue transaction_type_id = 10006;</code>
+       * <code>.dstore.values.IntegerValue transaction_type_id = 10006;</code>
        */
       boolean hasTransactionTypeId();
       /**
@@ -2536,7 +2536,7 @@ public final class OmGetCashAccTransactionsPu {
        * ID des Transaktionstyps zu der Transaktion
        * </pre>
        *
-       * <code>optional .dstore.values.IntegerValue transaction_type_id = 10006;</code>
+       * <code>.dstore.values.IntegerValue transaction_type_id = 10006;</code>
        */
       io.dstore.values.IntegerValue getTransactionTypeId();
       /**
@@ -2544,7 +2544,7 @@ public final class OmGetCashAccTransactionsPu {
        * ID des Transaktionstyps zu der Transaktion
        * </pre>
        *
-       * <code>optional .dstore.values.IntegerValue transaction_type_id = 10006;</code>
+       * <code>.dstore.values.IntegerValue transaction_type_id = 10006;</code>
        */
       io.dstore.values.IntegerValueOrBuilder getTransactionTypeIdOrBuilder();
 
@@ -2553,7 +2553,7 @@ public final class OmGetCashAccTransactionsPu {
        * ID des Kontotyps (also z.Zt. immer "&#64;CashAccountTypeID")
        * </pre>
        *
-       * <code>optional .dstore.values.IntegerValue cash_account_type_id = 10007;</code>
+       * <code>.dstore.values.IntegerValue cash_account_type_id = 10007;</code>
        */
       boolean hasCashAccountTypeId();
       /**
@@ -2561,7 +2561,7 @@ public final class OmGetCashAccTransactionsPu {
        * ID des Kontotyps (also z.Zt. immer "&#64;CashAccountTypeID")
        * </pre>
        *
-       * <code>optional .dstore.values.IntegerValue cash_account_type_id = 10007;</code>
+       * <code>.dstore.values.IntegerValue cash_account_type_id = 10007;</code>
        */
       io.dstore.values.IntegerValue getCashAccountTypeId();
       /**
@@ -2569,7 +2569,7 @@ public final class OmGetCashAccTransactionsPu {
        * ID des Kontotyps (also z.Zt. immer "&#64;CashAccountTypeID")
        * </pre>
        *
-       * <code>optional .dstore.values.IntegerValue cash_account_type_id = 10007;</code>
+       * <code>.dstore.values.IntegerValue cash_account_type_id = 10007;</code>
        */
       io.dstore.values.IntegerValueOrBuilder getCashAccountTypeIdOrBuilder();
 
@@ -2578,7 +2578,7 @@ public final class OmGetCashAccTransactionsPu {
        * Kann "NULL" sein. Steht hier ein Datum, bedeutet dies, dass die Transaktion bis zu diesem Zeitpunkt als "vorgemerkt" aber noch nicht "gebucht" gilt. Liegt das Datum in der Zukunft, ist die Transaktion noch NICHT im aktuellen Kontostand berücksichtigt.
        * </pre>
        *
-       * <code>optional .dstore.values.TimestampValue suspended_until = 10008;</code>
+       * <code>.dstore.values.TimestampValue suspended_until = 10008;</code>
        */
       boolean hasSuspendedUntil();
       /**
@@ -2586,7 +2586,7 @@ public final class OmGetCashAccTransactionsPu {
        * Kann "NULL" sein. Steht hier ein Datum, bedeutet dies, dass die Transaktion bis zu diesem Zeitpunkt als "vorgemerkt" aber noch nicht "gebucht" gilt. Liegt das Datum in der Zukunft, ist die Transaktion noch NICHT im aktuellen Kontostand berücksichtigt.
        * </pre>
        *
-       * <code>optional .dstore.values.TimestampValue suspended_until = 10008;</code>
+       * <code>.dstore.values.TimestampValue suspended_until = 10008;</code>
        */
       io.dstore.values.TimestampValue getSuspendedUntil();
       /**
@@ -2594,7 +2594,7 @@ public final class OmGetCashAccTransactionsPu {
        * Kann "NULL" sein. Steht hier ein Datum, bedeutet dies, dass die Transaktion bis zu diesem Zeitpunkt als "vorgemerkt" aber noch nicht "gebucht" gilt. Liegt das Datum in der Zukunft, ist die Transaktion noch NICHT im aktuellen Kontostand berücksichtigt.
        * </pre>
        *
-       * <code>optional .dstore.values.TimestampValue suspended_until = 10008;</code>
+       * <code>.dstore.values.TimestampValue suspended_until = 10008;</code>
        */
       io.dstore.values.TimestampValueOrBuilder getSuspendedUntilOrBuilder();
 
@@ -2603,7 +2603,7 @@ public final class OmGetCashAccTransactionsPu {
        * ID einer Transaktion
        * </pre>
        *
-       * <code>optional .dstore.values.IntegerValue transaction_id = 10009;</code>
+       * <code>.dstore.values.IntegerValue transaction_id = 10009;</code>
        */
       boolean hasTransactionId();
       /**
@@ -2611,7 +2611,7 @@ public final class OmGetCashAccTransactionsPu {
        * ID einer Transaktion
        * </pre>
        *
-       * <code>optional .dstore.values.IntegerValue transaction_id = 10009;</code>
+       * <code>.dstore.values.IntegerValue transaction_id = 10009;</code>
        */
       io.dstore.values.IntegerValue getTransactionId();
       /**
@@ -2619,7 +2619,7 @@ public final class OmGetCashAccTransactionsPu {
        * ID einer Transaktion
        * </pre>
        *
-       * <code>optional .dstore.values.IntegerValue transaction_id = 10009;</code>
+       * <code>.dstore.values.IntegerValue transaction_id = 10009;</code>
        */
       io.dstore.values.IntegerValueOrBuilder getTransactionIdOrBuilder();
     }
@@ -2811,7 +2811,7 @@ public final class OmGetCashAccTransactionsPu {
       public static final int ROW_ID_FIELD_NUMBER = 10000;
       private int rowId_;
       /**
-       * <code>optional int32 row_id = 10000;</code>
+       * <code>int32 row_id = 10000;</code>
        */
       public int getRowId() {
         return rowId_;
@@ -2824,7 +2824,7 @@ public final class OmGetCashAccTransactionsPu {
        * Bezeichnung des Transaktionstyps "TransactionTypeID"
        * </pre>
        *
-       * <code>optional .dstore.values.StringValue transaction_type = 10001;</code>
+       * <code>.dstore.values.StringValue transaction_type = 10001;</code>
        */
       public boolean hasTransactionType() {
         return transactionType_ != null;
@@ -2834,7 +2834,7 @@ public final class OmGetCashAccTransactionsPu {
        * Bezeichnung des Transaktionstyps "TransactionTypeID"
        * </pre>
        *
-       * <code>optional .dstore.values.StringValue transaction_type = 10001;</code>
+       * <code>.dstore.values.StringValue transaction_type = 10001;</code>
        */
       public io.dstore.values.StringValue getTransactionType() {
         return transactionType_ == null ? io.dstore.values.StringValue.getDefaultInstance() : transactionType_;
@@ -2844,7 +2844,7 @@ public final class OmGetCashAccTransactionsPu {
        * Bezeichnung des Transaktionstyps "TransactionTypeID"
        * </pre>
        *
-       * <code>optional .dstore.values.StringValue transaction_type = 10001;</code>
+       * <code>.dstore.values.StringValue transaction_type = 10001;</code>
        */
       public io.dstore.values.StringValueOrBuilder getTransactionTypeOrBuilder() {
         return getTransactionType();
@@ -2857,7 +2857,7 @@ public final class OmGetCashAccTransactionsPu {
        * ID der identifizierten Person (der das Konto gehört)
        * </pre>
        *
-       * <code>optional .dstore.values.IntegerValue person_id = 10002;</code>
+       * <code>.dstore.values.IntegerValue person_id = 10002;</code>
        */
       public boolean hasPersonId() {
         return personId_ != null;
@@ -2867,7 +2867,7 @@ public final class OmGetCashAccTransactionsPu {
        * ID der identifizierten Person (der das Konto gehört)
        * </pre>
        *
-       * <code>optional .dstore.values.IntegerValue person_id = 10002;</code>
+       * <code>.dstore.values.IntegerValue person_id = 10002;</code>
        */
       public io.dstore.values.IntegerValue getPersonId() {
         return personId_ == null ? io.dstore.values.IntegerValue.getDefaultInstance() : personId_;
@@ -2877,7 +2877,7 @@ public final class OmGetCashAccTransactionsPu {
        * ID der identifizierten Person (der das Konto gehört)
        * </pre>
        *
-       * <code>optional .dstore.values.IntegerValue person_id = 10002;</code>
+       * <code>.dstore.values.IntegerValue person_id = 10002;</code>
        */
       public io.dstore.values.IntegerValueOrBuilder getPersonIdOrBuilder() {
         return getPersonId();
@@ -2890,7 +2890,7 @@ public final class OmGetCashAccTransactionsPu {
        * Zeitpunkt der Transaktion
        * </pre>
        *
-       * <code>optional .dstore.values.TimestampValue transaction_date_and_time = 10003;</code>
+       * <code>.dstore.values.TimestampValue transaction_date_and_time = 10003;</code>
        */
       public boolean hasTransactionDateAndTime() {
         return transactionDateAndTime_ != null;
@@ -2900,7 +2900,7 @@ public final class OmGetCashAccTransactionsPu {
        * Zeitpunkt der Transaktion
        * </pre>
        *
-       * <code>optional .dstore.values.TimestampValue transaction_date_and_time = 10003;</code>
+       * <code>.dstore.values.TimestampValue transaction_date_and_time = 10003;</code>
        */
       public io.dstore.values.TimestampValue getTransactionDateAndTime() {
         return transactionDateAndTime_ == null ? io.dstore.values.TimestampValue.getDefaultInstance() : transactionDateAndTime_;
@@ -2910,7 +2910,7 @@ public final class OmGetCashAccTransactionsPu {
        * Zeitpunkt der Transaktion
        * </pre>
        *
-       * <code>optional .dstore.values.TimestampValue transaction_date_and_time = 10003;</code>
+       * <code>.dstore.values.TimestampValue transaction_date_and_time = 10003;</code>
        */
       public io.dstore.values.TimestampValueOrBuilder getTransactionDateAndTimeOrBuilder() {
         return getTransactionDateAndTime();
@@ -2923,7 +2923,7 @@ public final class OmGetCashAccTransactionsPu {
        * Wert der Transaktion (positiver Wert : "Zubuchung", sonst "Abbuchung)
        * </pre>
        *
-       * <code>optional .dstore.values.DecimalValue transaction_value = 10004;</code>
+       * <code>.dstore.values.DecimalValue transaction_value = 10004;</code>
        */
       public boolean hasTransactionValue() {
         return transactionValue_ != null;
@@ -2933,7 +2933,7 @@ public final class OmGetCashAccTransactionsPu {
        * Wert der Transaktion (positiver Wert : "Zubuchung", sonst "Abbuchung)
        * </pre>
        *
-       * <code>optional .dstore.values.DecimalValue transaction_value = 10004;</code>
+       * <code>.dstore.values.DecimalValue transaction_value = 10004;</code>
        */
       public io.dstore.values.DecimalValue getTransactionValue() {
         return transactionValue_ == null ? io.dstore.values.DecimalValue.getDefaultInstance() : transactionValue_;
@@ -2943,7 +2943,7 @@ public final class OmGetCashAccTransactionsPu {
        * Wert der Transaktion (positiver Wert : "Zubuchung", sonst "Abbuchung)
        * </pre>
        *
-       * <code>optional .dstore.values.DecimalValue transaction_value = 10004;</code>
+       * <code>.dstore.values.DecimalValue transaction_value = 10004;</code>
        */
       public io.dstore.values.DecimalValueOrBuilder getTransactionValueOrBuilder() {
         return getTransactionValue();
@@ -2956,7 +2956,7 @@ public final class OmGetCashAccTransactionsPu {
        * Kommentar zur Transaktion
        * </pre>
        *
-       * <code>optional .dstore.values.StringValue transaction_comment = 10005;</code>
+       * <code>.dstore.values.StringValue transaction_comment = 10005;</code>
        */
       public boolean hasTransactionComment() {
         return transactionComment_ != null;
@@ -2966,7 +2966,7 @@ public final class OmGetCashAccTransactionsPu {
        * Kommentar zur Transaktion
        * </pre>
        *
-       * <code>optional .dstore.values.StringValue transaction_comment = 10005;</code>
+       * <code>.dstore.values.StringValue transaction_comment = 10005;</code>
        */
       public io.dstore.values.StringValue getTransactionComment() {
         return transactionComment_ == null ? io.dstore.values.StringValue.getDefaultInstance() : transactionComment_;
@@ -2976,7 +2976,7 @@ public final class OmGetCashAccTransactionsPu {
        * Kommentar zur Transaktion
        * </pre>
        *
-       * <code>optional .dstore.values.StringValue transaction_comment = 10005;</code>
+       * <code>.dstore.values.StringValue transaction_comment = 10005;</code>
        */
       public io.dstore.values.StringValueOrBuilder getTransactionCommentOrBuilder() {
         return getTransactionComment();
@@ -2989,7 +2989,7 @@ public final class OmGetCashAccTransactionsPu {
        * ID des Transaktionstyps zu der Transaktion
        * </pre>
        *
-       * <code>optional .dstore.values.IntegerValue transaction_type_id = 10006;</code>
+       * <code>.dstore.values.IntegerValue transaction_type_id = 10006;</code>
        */
       public boolean hasTransactionTypeId() {
         return transactionTypeId_ != null;
@@ -2999,7 +2999,7 @@ public final class OmGetCashAccTransactionsPu {
        * ID des Transaktionstyps zu der Transaktion
        * </pre>
        *
-       * <code>optional .dstore.values.IntegerValue transaction_type_id = 10006;</code>
+       * <code>.dstore.values.IntegerValue transaction_type_id = 10006;</code>
        */
       public io.dstore.values.IntegerValue getTransactionTypeId() {
         return transactionTypeId_ == null ? io.dstore.values.IntegerValue.getDefaultInstance() : transactionTypeId_;
@@ -3009,7 +3009,7 @@ public final class OmGetCashAccTransactionsPu {
        * ID des Transaktionstyps zu der Transaktion
        * </pre>
        *
-       * <code>optional .dstore.values.IntegerValue transaction_type_id = 10006;</code>
+       * <code>.dstore.values.IntegerValue transaction_type_id = 10006;</code>
        */
       public io.dstore.values.IntegerValueOrBuilder getTransactionTypeIdOrBuilder() {
         return getTransactionTypeId();
@@ -3022,7 +3022,7 @@ public final class OmGetCashAccTransactionsPu {
        * ID des Kontotyps (also z.Zt. immer "&#64;CashAccountTypeID")
        * </pre>
        *
-       * <code>optional .dstore.values.IntegerValue cash_account_type_id = 10007;</code>
+       * <code>.dstore.values.IntegerValue cash_account_type_id = 10007;</code>
        */
       public boolean hasCashAccountTypeId() {
         return cashAccountTypeId_ != null;
@@ -3032,7 +3032,7 @@ public final class OmGetCashAccTransactionsPu {
        * ID des Kontotyps (also z.Zt. immer "&#64;CashAccountTypeID")
        * </pre>
        *
-       * <code>optional .dstore.values.IntegerValue cash_account_type_id = 10007;</code>
+       * <code>.dstore.values.IntegerValue cash_account_type_id = 10007;</code>
        */
       public io.dstore.values.IntegerValue getCashAccountTypeId() {
         return cashAccountTypeId_ == null ? io.dstore.values.IntegerValue.getDefaultInstance() : cashAccountTypeId_;
@@ -3042,7 +3042,7 @@ public final class OmGetCashAccTransactionsPu {
        * ID des Kontotyps (also z.Zt. immer "&#64;CashAccountTypeID")
        * </pre>
        *
-       * <code>optional .dstore.values.IntegerValue cash_account_type_id = 10007;</code>
+       * <code>.dstore.values.IntegerValue cash_account_type_id = 10007;</code>
        */
       public io.dstore.values.IntegerValueOrBuilder getCashAccountTypeIdOrBuilder() {
         return getCashAccountTypeId();
@@ -3055,7 +3055,7 @@ public final class OmGetCashAccTransactionsPu {
        * Kann "NULL" sein. Steht hier ein Datum, bedeutet dies, dass die Transaktion bis zu diesem Zeitpunkt als "vorgemerkt" aber noch nicht "gebucht" gilt. Liegt das Datum in der Zukunft, ist die Transaktion noch NICHT im aktuellen Kontostand berücksichtigt.
        * </pre>
        *
-       * <code>optional .dstore.values.TimestampValue suspended_until = 10008;</code>
+       * <code>.dstore.values.TimestampValue suspended_until = 10008;</code>
        */
       public boolean hasSuspendedUntil() {
         return suspendedUntil_ != null;
@@ -3065,7 +3065,7 @@ public final class OmGetCashAccTransactionsPu {
        * Kann "NULL" sein. Steht hier ein Datum, bedeutet dies, dass die Transaktion bis zu diesem Zeitpunkt als "vorgemerkt" aber noch nicht "gebucht" gilt. Liegt das Datum in der Zukunft, ist die Transaktion noch NICHT im aktuellen Kontostand berücksichtigt.
        * </pre>
        *
-       * <code>optional .dstore.values.TimestampValue suspended_until = 10008;</code>
+       * <code>.dstore.values.TimestampValue suspended_until = 10008;</code>
        */
       public io.dstore.values.TimestampValue getSuspendedUntil() {
         return suspendedUntil_ == null ? io.dstore.values.TimestampValue.getDefaultInstance() : suspendedUntil_;
@@ -3075,7 +3075,7 @@ public final class OmGetCashAccTransactionsPu {
        * Kann "NULL" sein. Steht hier ein Datum, bedeutet dies, dass die Transaktion bis zu diesem Zeitpunkt als "vorgemerkt" aber noch nicht "gebucht" gilt. Liegt das Datum in der Zukunft, ist die Transaktion noch NICHT im aktuellen Kontostand berücksichtigt.
        * </pre>
        *
-       * <code>optional .dstore.values.TimestampValue suspended_until = 10008;</code>
+       * <code>.dstore.values.TimestampValue suspended_until = 10008;</code>
        */
       public io.dstore.values.TimestampValueOrBuilder getSuspendedUntilOrBuilder() {
         return getSuspendedUntil();
@@ -3088,7 +3088,7 @@ public final class OmGetCashAccTransactionsPu {
        * ID einer Transaktion
        * </pre>
        *
-       * <code>optional .dstore.values.IntegerValue transaction_id = 10009;</code>
+       * <code>.dstore.values.IntegerValue transaction_id = 10009;</code>
        */
       public boolean hasTransactionId() {
         return transactionId_ != null;
@@ -3098,7 +3098,7 @@ public final class OmGetCashAccTransactionsPu {
        * ID einer Transaktion
        * </pre>
        *
-       * <code>optional .dstore.values.IntegerValue transaction_id = 10009;</code>
+       * <code>.dstore.values.IntegerValue transaction_id = 10009;</code>
        */
       public io.dstore.values.IntegerValue getTransactionId() {
         return transactionId_ == null ? io.dstore.values.IntegerValue.getDefaultInstance() : transactionId_;
@@ -3108,7 +3108,7 @@ public final class OmGetCashAccTransactionsPu {
        * ID einer Transaktion
        * </pre>
        *
-       * <code>optional .dstore.values.IntegerValue transaction_id = 10009;</code>
+       * <code>.dstore.values.IntegerValue transaction_id = 10009;</code>
        */
       public io.dstore.values.IntegerValueOrBuilder getTransactionIdOrBuilder() {
         return getTransactionId();
@@ -3275,7 +3275,7 @@ public final class OmGetCashAccTransactionsPu {
           return memoizedHashCode;
         }
         int hash = 41;
-        hash = (19 * hash) + getDescriptorForType().hashCode();
+        hash = (19 * hash) + getDescriptor().hashCode();
         hash = (37 * hash) + ROW_ID_FIELD_NUMBER;
         hash = (53 * hash) + getRowId();
         if (hasTransactionType()) {
@@ -3655,13 +3655,13 @@ public final class OmGetCashAccTransactionsPu {
 
         private int rowId_ ;
         /**
-         * <code>optional int32 row_id = 10000;</code>
+         * <code>int32 row_id = 10000;</code>
          */
         public int getRowId() {
           return rowId_;
         }
         /**
-         * <code>optional int32 row_id = 10000;</code>
+         * <code>int32 row_id = 10000;</code>
          */
         public Builder setRowId(int value) {
           
@@ -3670,7 +3670,7 @@ public final class OmGetCashAccTransactionsPu {
           return this;
         }
         /**
-         * <code>optional int32 row_id = 10000;</code>
+         * <code>int32 row_id = 10000;</code>
          */
         public Builder clearRowId() {
           
@@ -3687,7 +3687,7 @@ public final class OmGetCashAccTransactionsPu {
          * Bezeichnung des Transaktionstyps "TransactionTypeID"
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue transaction_type = 10001;</code>
+         * <code>.dstore.values.StringValue transaction_type = 10001;</code>
          */
         public boolean hasTransactionType() {
           return transactionTypeBuilder_ != null || transactionType_ != null;
@@ -3697,7 +3697,7 @@ public final class OmGetCashAccTransactionsPu {
          * Bezeichnung des Transaktionstyps "TransactionTypeID"
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue transaction_type = 10001;</code>
+         * <code>.dstore.values.StringValue transaction_type = 10001;</code>
          */
         public io.dstore.values.StringValue getTransactionType() {
           if (transactionTypeBuilder_ == null) {
@@ -3711,7 +3711,7 @@ public final class OmGetCashAccTransactionsPu {
          * Bezeichnung des Transaktionstyps "TransactionTypeID"
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue transaction_type = 10001;</code>
+         * <code>.dstore.values.StringValue transaction_type = 10001;</code>
          */
         public Builder setTransactionType(io.dstore.values.StringValue value) {
           if (transactionTypeBuilder_ == null) {
@@ -3731,7 +3731,7 @@ public final class OmGetCashAccTransactionsPu {
          * Bezeichnung des Transaktionstyps "TransactionTypeID"
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue transaction_type = 10001;</code>
+         * <code>.dstore.values.StringValue transaction_type = 10001;</code>
          */
         public Builder setTransactionType(
             io.dstore.values.StringValue.Builder builderForValue) {
@@ -3749,7 +3749,7 @@ public final class OmGetCashAccTransactionsPu {
          * Bezeichnung des Transaktionstyps "TransactionTypeID"
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue transaction_type = 10001;</code>
+         * <code>.dstore.values.StringValue transaction_type = 10001;</code>
          */
         public Builder mergeTransactionType(io.dstore.values.StringValue value) {
           if (transactionTypeBuilder_ == null) {
@@ -3771,7 +3771,7 @@ public final class OmGetCashAccTransactionsPu {
          * Bezeichnung des Transaktionstyps "TransactionTypeID"
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue transaction_type = 10001;</code>
+         * <code>.dstore.values.StringValue transaction_type = 10001;</code>
          */
         public Builder clearTransactionType() {
           if (transactionTypeBuilder_ == null) {
@@ -3789,7 +3789,7 @@ public final class OmGetCashAccTransactionsPu {
          * Bezeichnung des Transaktionstyps "TransactionTypeID"
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue transaction_type = 10001;</code>
+         * <code>.dstore.values.StringValue transaction_type = 10001;</code>
          */
         public io.dstore.values.StringValue.Builder getTransactionTypeBuilder() {
           
@@ -3801,7 +3801,7 @@ public final class OmGetCashAccTransactionsPu {
          * Bezeichnung des Transaktionstyps "TransactionTypeID"
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue transaction_type = 10001;</code>
+         * <code>.dstore.values.StringValue transaction_type = 10001;</code>
          */
         public io.dstore.values.StringValueOrBuilder getTransactionTypeOrBuilder() {
           if (transactionTypeBuilder_ != null) {
@@ -3816,7 +3816,7 @@ public final class OmGetCashAccTransactionsPu {
          * Bezeichnung des Transaktionstyps "TransactionTypeID"
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue transaction_type = 10001;</code>
+         * <code>.dstore.values.StringValue transaction_type = 10001;</code>
          */
         private com.google.protobuf.SingleFieldBuilderV3<
             io.dstore.values.StringValue, io.dstore.values.StringValue.Builder, io.dstore.values.StringValueOrBuilder> 
@@ -3840,7 +3840,7 @@ public final class OmGetCashAccTransactionsPu {
          * ID der identifizierten Person (der das Konto gehört)
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue person_id = 10002;</code>
+         * <code>.dstore.values.IntegerValue person_id = 10002;</code>
          */
         public boolean hasPersonId() {
           return personIdBuilder_ != null || personId_ != null;
@@ -3850,7 +3850,7 @@ public final class OmGetCashAccTransactionsPu {
          * ID der identifizierten Person (der das Konto gehört)
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue person_id = 10002;</code>
+         * <code>.dstore.values.IntegerValue person_id = 10002;</code>
          */
         public io.dstore.values.IntegerValue getPersonId() {
           if (personIdBuilder_ == null) {
@@ -3864,7 +3864,7 @@ public final class OmGetCashAccTransactionsPu {
          * ID der identifizierten Person (der das Konto gehört)
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue person_id = 10002;</code>
+         * <code>.dstore.values.IntegerValue person_id = 10002;</code>
          */
         public Builder setPersonId(io.dstore.values.IntegerValue value) {
           if (personIdBuilder_ == null) {
@@ -3884,7 +3884,7 @@ public final class OmGetCashAccTransactionsPu {
          * ID der identifizierten Person (der das Konto gehört)
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue person_id = 10002;</code>
+         * <code>.dstore.values.IntegerValue person_id = 10002;</code>
          */
         public Builder setPersonId(
             io.dstore.values.IntegerValue.Builder builderForValue) {
@@ -3902,7 +3902,7 @@ public final class OmGetCashAccTransactionsPu {
          * ID der identifizierten Person (der das Konto gehört)
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue person_id = 10002;</code>
+         * <code>.dstore.values.IntegerValue person_id = 10002;</code>
          */
         public Builder mergePersonId(io.dstore.values.IntegerValue value) {
           if (personIdBuilder_ == null) {
@@ -3924,7 +3924,7 @@ public final class OmGetCashAccTransactionsPu {
          * ID der identifizierten Person (der das Konto gehört)
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue person_id = 10002;</code>
+         * <code>.dstore.values.IntegerValue person_id = 10002;</code>
          */
         public Builder clearPersonId() {
           if (personIdBuilder_ == null) {
@@ -3942,7 +3942,7 @@ public final class OmGetCashAccTransactionsPu {
          * ID der identifizierten Person (der das Konto gehört)
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue person_id = 10002;</code>
+         * <code>.dstore.values.IntegerValue person_id = 10002;</code>
          */
         public io.dstore.values.IntegerValue.Builder getPersonIdBuilder() {
           
@@ -3954,7 +3954,7 @@ public final class OmGetCashAccTransactionsPu {
          * ID der identifizierten Person (der das Konto gehört)
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue person_id = 10002;</code>
+         * <code>.dstore.values.IntegerValue person_id = 10002;</code>
          */
         public io.dstore.values.IntegerValueOrBuilder getPersonIdOrBuilder() {
           if (personIdBuilder_ != null) {
@@ -3969,7 +3969,7 @@ public final class OmGetCashAccTransactionsPu {
          * ID der identifizierten Person (der das Konto gehört)
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue person_id = 10002;</code>
+         * <code>.dstore.values.IntegerValue person_id = 10002;</code>
          */
         private com.google.protobuf.SingleFieldBuilderV3<
             io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> 
@@ -3993,7 +3993,7 @@ public final class OmGetCashAccTransactionsPu {
          * Zeitpunkt der Transaktion
          * </pre>
          *
-         * <code>optional .dstore.values.TimestampValue transaction_date_and_time = 10003;</code>
+         * <code>.dstore.values.TimestampValue transaction_date_and_time = 10003;</code>
          */
         public boolean hasTransactionDateAndTime() {
           return transactionDateAndTimeBuilder_ != null || transactionDateAndTime_ != null;
@@ -4003,7 +4003,7 @@ public final class OmGetCashAccTransactionsPu {
          * Zeitpunkt der Transaktion
          * </pre>
          *
-         * <code>optional .dstore.values.TimestampValue transaction_date_and_time = 10003;</code>
+         * <code>.dstore.values.TimestampValue transaction_date_and_time = 10003;</code>
          */
         public io.dstore.values.TimestampValue getTransactionDateAndTime() {
           if (transactionDateAndTimeBuilder_ == null) {
@@ -4017,7 +4017,7 @@ public final class OmGetCashAccTransactionsPu {
          * Zeitpunkt der Transaktion
          * </pre>
          *
-         * <code>optional .dstore.values.TimestampValue transaction_date_and_time = 10003;</code>
+         * <code>.dstore.values.TimestampValue transaction_date_and_time = 10003;</code>
          */
         public Builder setTransactionDateAndTime(io.dstore.values.TimestampValue value) {
           if (transactionDateAndTimeBuilder_ == null) {
@@ -4037,7 +4037,7 @@ public final class OmGetCashAccTransactionsPu {
          * Zeitpunkt der Transaktion
          * </pre>
          *
-         * <code>optional .dstore.values.TimestampValue transaction_date_and_time = 10003;</code>
+         * <code>.dstore.values.TimestampValue transaction_date_and_time = 10003;</code>
          */
         public Builder setTransactionDateAndTime(
             io.dstore.values.TimestampValue.Builder builderForValue) {
@@ -4055,7 +4055,7 @@ public final class OmGetCashAccTransactionsPu {
          * Zeitpunkt der Transaktion
          * </pre>
          *
-         * <code>optional .dstore.values.TimestampValue transaction_date_and_time = 10003;</code>
+         * <code>.dstore.values.TimestampValue transaction_date_and_time = 10003;</code>
          */
         public Builder mergeTransactionDateAndTime(io.dstore.values.TimestampValue value) {
           if (transactionDateAndTimeBuilder_ == null) {
@@ -4077,7 +4077,7 @@ public final class OmGetCashAccTransactionsPu {
          * Zeitpunkt der Transaktion
          * </pre>
          *
-         * <code>optional .dstore.values.TimestampValue transaction_date_and_time = 10003;</code>
+         * <code>.dstore.values.TimestampValue transaction_date_and_time = 10003;</code>
          */
         public Builder clearTransactionDateAndTime() {
           if (transactionDateAndTimeBuilder_ == null) {
@@ -4095,7 +4095,7 @@ public final class OmGetCashAccTransactionsPu {
          * Zeitpunkt der Transaktion
          * </pre>
          *
-         * <code>optional .dstore.values.TimestampValue transaction_date_and_time = 10003;</code>
+         * <code>.dstore.values.TimestampValue transaction_date_and_time = 10003;</code>
          */
         public io.dstore.values.TimestampValue.Builder getTransactionDateAndTimeBuilder() {
           
@@ -4107,7 +4107,7 @@ public final class OmGetCashAccTransactionsPu {
          * Zeitpunkt der Transaktion
          * </pre>
          *
-         * <code>optional .dstore.values.TimestampValue transaction_date_and_time = 10003;</code>
+         * <code>.dstore.values.TimestampValue transaction_date_and_time = 10003;</code>
          */
         public io.dstore.values.TimestampValueOrBuilder getTransactionDateAndTimeOrBuilder() {
           if (transactionDateAndTimeBuilder_ != null) {
@@ -4122,7 +4122,7 @@ public final class OmGetCashAccTransactionsPu {
          * Zeitpunkt der Transaktion
          * </pre>
          *
-         * <code>optional .dstore.values.TimestampValue transaction_date_and_time = 10003;</code>
+         * <code>.dstore.values.TimestampValue transaction_date_and_time = 10003;</code>
          */
         private com.google.protobuf.SingleFieldBuilderV3<
             io.dstore.values.TimestampValue, io.dstore.values.TimestampValue.Builder, io.dstore.values.TimestampValueOrBuilder> 
@@ -4146,7 +4146,7 @@ public final class OmGetCashAccTransactionsPu {
          * Wert der Transaktion (positiver Wert : "Zubuchung", sonst "Abbuchung)
          * </pre>
          *
-         * <code>optional .dstore.values.DecimalValue transaction_value = 10004;</code>
+         * <code>.dstore.values.DecimalValue transaction_value = 10004;</code>
          */
         public boolean hasTransactionValue() {
           return transactionValueBuilder_ != null || transactionValue_ != null;
@@ -4156,7 +4156,7 @@ public final class OmGetCashAccTransactionsPu {
          * Wert der Transaktion (positiver Wert : "Zubuchung", sonst "Abbuchung)
          * </pre>
          *
-         * <code>optional .dstore.values.DecimalValue transaction_value = 10004;</code>
+         * <code>.dstore.values.DecimalValue transaction_value = 10004;</code>
          */
         public io.dstore.values.DecimalValue getTransactionValue() {
           if (transactionValueBuilder_ == null) {
@@ -4170,7 +4170,7 @@ public final class OmGetCashAccTransactionsPu {
          * Wert der Transaktion (positiver Wert : "Zubuchung", sonst "Abbuchung)
          * </pre>
          *
-         * <code>optional .dstore.values.DecimalValue transaction_value = 10004;</code>
+         * <code>.dstore.values.DecimalValue transaction_value = 10004;</code>
          */
         public Builder setTransactionValue(io.dstore.values.DecimalValue value) {
           if (transactionValueBuilder_ == null) {
@@ -4190,7 +4190,7 @@ public final class OmGetCashAccTransactionsPu {
          * Wert der Transaktion (positiver Wert : "Zubuchung", sonst "Abbuchung)
          * </pre>
          *
-         * <code>optional .dstore.values.DecimalValue transaction_value = 10004;</code>
+         * <code>.dstore.values.DecimalValue transaction_value = 10004;</code>
          */
         public Builder setTransactionValue(
             io.dstore.values.DecimalValue.Builder builderForValue) {
@@ -4208,7 +4208,7 @@ public final class OmGetCashAccTransactionsPu {
          * Wert der Transaktion (positiver Wert : "Zubuchung", sonst "Abbuchung)
          * </pre>
          *
-         * <code>optional .dstore.values.DecimalValue transaction_value = 10004;</code>
+         * <code>.dstore.values.DecimalValue transaction_value = 10004;</code>
          */
         public Builder mergeTransactionValue(io.dstore.values.DecimalValue value) {
           if (transactionValueBuilder_ == null) {
@@ -4230,7 +4230,7 @@ public final class OmGetCashAccTransactionsPu {
          * Wert der Transaktion (positiver Wert : "Zubuchung", sonst "Abbuchung)
          * </pre>
          *
-         * <code>optional .dstore.values.DecimalValue transaction_value = 10004;</code>
+         * <code>.dstore.values.DecimalValue transaction_value = 10004;</code>
          */
         public Builder clearTransactionValue() {
           if (transactionValueBuilder_ == null) {
@@ -4248,7 +4248,7 @@ public final class OmGetCashAccTransactionsPu {
          * Wert der Transaktion (positiver Wert : "Zubuchung", sonst "Abbuchung)
          * </pre>
          *
-         * <code>optional .dstore.values.DecimalValue transaction_value = 10004;</code>
+         * <code>.dstore.values.DecimalValue transaction_value = 10004;</code>
          */
         public io.dstore.values.DecimalValue.Builder getTransactionValueBuilder() {
           
@@ -4260,7 +4260,7 @@ public final class OmGetCashAccTransactionsPu {
          * Wert der Transaktion (positiver Wert : "Zubuchung", sonst "Abbuchung)
          * </pre>
          *
-         * <code>optional .dstore.values.DecimalValue transaction_value = 10004;</code>
+         * <code>.dstore.values.DecimalValue transaction_value = 10004;</code>
          */
         public io.dstore.values.DecimalValueOrBuilder getTransactionValueOrBuilder() {
           if (transactionValueBuilder_ != null) {
@@ -4275,7 +4275,7 @@ public final class OmGetCashAccTransactionsPu {
          * Wert der Transaktion (positiver Wert : "Zubuchung", sonst "Abbuchung)
          * </pre>
          *
-         * <code>optional .dstore.values.DecimalValue transaction_value = 10004;</code>
+         * <code>.dstore.values.DecimalValue transaction_value = 10004;</code>
          */
         private com.google.protobuf.SingleFieldBuilderV3<
             io.dstore.values.DecimalValue, io.dstore.values.DecimalValue.Builder, io.dstore.values.DecimalValueOrBuilder> 
@@ -4299,7 +4299,7 @@ public final class OmGetCashAccTransactionsPu {
          * Kommentar zur Transaktion
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue transaction_comment = 10005;</code>
+         * <code>.dstore.values.StringValue transaction_comment = 10005;</code>
          */
         public boolean hasTransactionComment() {
           return transactionCommentBuilder_ != null || transactionComment_ != null;
@@ -4309,7 +4309,7 @@ public final class OmGetCashAccTransactionsPu {
          * Kommentar zur Transaktion
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue transaction_comment = 10005;</code>
+         * <code>.dstore.values.StringValue transaction_comment = 10005;</code>
          */
         public io.dstore.values.StringValue getTransactionComment() {
           if (transactionCommentBuilder_ == null) {
@@ -4323,7 +4323,7 @@ public final class OmGetCashAccTransactionsPu {
          * Kommentar zur Transaktion
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue transaction_comment = 10005;</code>
+         * <code>.dstore.values.StringValue transaction_comment = 10005;</code>
          */
         public Builder setTransactionComment(io.dstore.values.StringValue value) {
           if (transactionCommentBuilder_ == null) {
@@ -4343,7 +4343,7 @@ public final class OmGetCashAccTransactionsPu {
          * Kommentar zur Transaktion
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue transaction_comment = 10005;</code>
+         * <code>.dstore.values.StringValue transaction_comment = 10005;</code>
          */
         public Builder setTransactionComment(
             io.dstore.values.StringValue.Builder builderForValue) {
@@ -4361,7 +4361,7 @@ public final class OmGetCashAccTransactionsPu {
          * Kommentar zur Transaktion
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue transaction_comment = 10005;</code>
+         * <code>.dstore.values.StringValue transaction_comment = 10005;</code>
          */
         public Builder mergeTransactionComment(io.dstore.values.StringValue value) {
           if (transactionCommentBuilder_ == null) {
@@ -4383,7 +4383,7 @@ public final class OmGetCashAccTransactionsPu {
          * Kommentar zur Transaktion
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue transaction_comment = 10005;</code>
+         * <code>.dstore.values.StringValue transaction_comment = 10005;</code>
          */
         public Builder clearTransactionComment() {
           if (transactionCommentBuilder_ == null) {
@@ -4401,7 +4401,7 @@ public final class OmGetCashAccTransactionsPu {
          * Kommentar zur Transaktion
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue transaction_comment = 10005;</code>
+         * <code>.dstore.values.StringValue transaction_comment = 10005;</code>
          */
         public io.dstore.values.StringValue.Builder getTransactionCommentBuilder() {
           
@@ -4413,7 +4413,7 @@ public final class OmGetCashAccTransactionsPu {
          * Kommentar zur Transaktion
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue transaction_comment = 10005;</code>
+         * <code>.dstore.values.StringValue transaction_comment = 10005;</code>
          */
         public io.dstore.values.StringValueOrBuilder getTransactionCommentOrBuilder() {
           if (transactionCommentBuilder_ != null) {
@@ -4428,7 +4428,7 @@ public final class OmGetCashAccTransactionsPu {
          * Kommentar zur Transaktion
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue transaction_comment = 10005;</code>
+         * <code>.dstore.values.StringValue transaction_comment = 10005;</code>
          */
         private com.google.protobuf.SingleFieldBuilderV3<
             io.dstore.values.StringValue, io.dstore.values.StringValue.Builder, io.dstore.values.StringValueOrBuilder> 
@@ -4452,7 +4452,7 @@ public final class OmGetCashAccTransactionsPu {
          * ID des Transaktionstyps zu der Transaktion
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue transaction_type_id = 10006;</code>
+         * <code>.dstore.values.IntegerValue transaction_type_id = 10006;</code>
          */
         public boolean hasTransactionTypeId() {
           return transactionTypeIdBuilder_ != null || transactionTypeId_ != null;
@@ -4462,7 +4462,7 @@ public final class OmGetCashAccTransactionsPu {
          * ID des Transaktionstyps zu der Transaktion
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue transaction_type_id = 10006;</code>
+         * <code>.dstore.values.IntegerValue transaction_type_id = 10006;</code>
          */
         public io.dstore.values.IntegerValue getTransactionTypeId() {
           if (transactionTypeIdBuilder_ == null) {
@@ -4476,7 +4476,7 @@ public final class OmGetCashAccTransactionsPu {
          * ID des Transaktionstyps zu der Transaktion
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue transaction_type_id = 10006;</code>
+         * <code>.dstore.values.IntegerValue transaction_type_id = 10006;</code>
          */
         public Builder setTransactionTypeId(io.dstore.values.IntegerValue value) {
           if (transactionTypeIdBuilder_ == null) {
@@ -4496,7 +4496,7 @@ public final class OmGetCashAccTransactionsPu {
          * ID des Transaktionstyps zu der Transaktion
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue transaction_type_id = 10006;</code>
+         * <code>.dstore.values.IntegerValue transaction_type_id = 10006;</code>
          */
         public Builder setTransactionTypeId(
             io.dstore.values.IntegerValue.Builder builderForValue) {
@@ -4514,7 +4514,7 @@ public final class OmGetCashAccTransactionsPu {
          * ID des Transaktionstyps zu der Transaktion
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue transaction_type_id = 10006;</code>
+         * <code>.dstore.values.IntegerValue transaction_type_id = 10006;</code>
          */
         public Builder mergeTransactionTypeId(io.dstore.values.IntegerValue value) {
           if (transactionTypeIdBuilder_ == null) {
@@ -4536,7 +4536,7 @@ public final class OmGetCashAccTransactionsPu {
          * ID des Transaktionstyps zu der Transaktion
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue transaction_type_id = 10006;</code>
+         * <code>.dstore.values.IntegerValue transaction_type_id = 10006;</code>
          */
         public Builder clearTransactionTypeId() {
           if (transactionTypeIdBuilder_ == null) {
@@ -4554,7 +4554,7 @@ public final class OmGetCashAccTransactionsPu {
          * ID des Transaktionstyps zu der Transaktion
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue transaction_type_id = 10006;</code>
+         * <code>.dstore.values.IntegerValue transaction_type_id = 10006;</code>
          */
         public io.dstore.values.IntegerValue.Builder getTransactionTypeIdBuilder() {
           
@@ -4566,7 +4566,7 @@ public final class OmGetCashAccTransactionsPu {
          * ID des Transaktionstyps zu der Transaktion
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue transaction_type_id = 10006;</code>
+         * <code>.dstore.values.IntegerValue transaction_type_id = 10006;</code>
          */
         public io.dstore.values.IntegerValueOrBuilder getTransactionTypeIdOrBuilder() {
           if (transactionTypeIdBuilder_ != null) {
@@ -4581,7 +4581,7 @@ public final class OmGetCashAccTransactionsPu {
          * ID des Transaktionstyps zu der Transaktion
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue transaction_type_id = 10006;</code>
+         * <code>.dstore.values.IntegerValue transaction_type_id = 10006;</code>
          */
         private com.google.protobuf.SingleFieldBuilderV3<
             io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> 
@@ -4605,7 +4605,7 @@ public final class OmGetCashAccTransactionsPu {
          * ID des Kontotyps (also z.Zt. immer "&#64;CashAccountTypeID")
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue cash_account_type_id = 10007;</code>
+         * <code>.dstore.values.IntegerValue cash_account_type_id = 10007;</code>
          */
         public boolean hasCashAccountTypeId() {
           return cashAccountTypeIdBuilder_ != null || cashAccountTypeId_ != null;
@@ -4615,7 +4615,7 @@ public final class OmGetCashAccTransactionsPu {
          * ID des Kontotyps (also z.Zt. immer "&#64;CashAccountTypeID")
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue cash_account_type_id = 10007;</code>
+         * <code>.dstore.values.IntegerValue cash_account_type_id = 10007;</code>
          */
         public io.dstore.values.IntegerValue getCashAccountTypeId() {
           if (cashAccountTypeIdBuilder_ == null) {
@@ -4629,7 +4629,7 @@ public final class OmGetCashAccTransactionsPu {
          * ID des Kontotyps (also z.Zt. immer "&#64;CashAccountTypeID")
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue cash_account_type_id = 10007;</code>
+         * <code>.dstore.values.IntegerValue cash_account_type_id = 10007;</code>
          */
         public Builder setCashAccountTypeId(io.dstore.values.IntegerValue value) {
           if (cashAccountTypeIdBuilder_ == null) {
@@ -4649,7 +4649,7 @@ public final class OmGetCashAccTransactionsPu {
          * ID des Kontotyps (also z.Zt. immer "&#64;CashAccountTypeID")
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue cash_account_type_id = 10007;</code>
+         * <code>.dstore.values.IntegerValue cash_account_type_id = 10007;</code>
          */
         public Builder setCashAccountTypeId(
             io.dstore.values.IntegerValue.Builder builderForValue) {
@@ -4667,7 +4667,7 @@ public final class OmGetCashAccTransactionsPu {
          * ID des Kontotyps (also z.Zt. immer "&#64;CashAccountTypeID")
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue cash_account_type_id = 10007;</code>
+         * <code>.dstore.values.IntegerValue cash_account_type_id = 10007;</code>
          */
         public Builder mergeCashAccountTypeId(io.dstore.values.IntegerValue value) {
           if (cashAccountTypeIdBuilder_ == null) {
@@ -4689,7 +4689,7 @@ public final class OmGetCashAccTransactionsPu {
          * ID des Kontotyps (also z.Zt. immer "&#64;CashAccountTypeID")
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue cash_account_type_id = 10007;</code>
+         * <code>.dstore.values.IntegerValue cash_account_type_id = 10007;</code>
          */
         public Builder clearCashAccountTypeId() {
           if (cashAccountTypeIdBuilder_ == null) {
@@ -4707,7 +4707,7 @@ public final class OmGetCashAccTransactionsPu {
          * ID des Kontotyps (also z.Zt. immer "&#64;CashAccountTypeID")
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue cash_account_type_id = 10007;</code>
+         * <code>.dstore.values.IntegerValue cash_account_type_id = 10007;</code>
          */
         public io.dstore.values.IntegerValue.Builder getCashAccountTypeIdBuilder() {
           
@@ -4719,7 +4719,7 @@ public final class OmGetCashAccTransactionsPu {
          * ID des Kontotyps (also z.Zt. immer "&#64;CashAccountTypeID")
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue cash_account_type_id = 10007;</code>
+         * <code>.dstore.values.IntegerValue cash_account_type_id = 10007;</code>
          */
         public io.dstore.values.IntegerValueOrBuilder getCashAccountTypeIdOrBuilder() {
           if (cashAccountTypeIdBuilder_ != null) {
@@ -4734,7 +4734,7 @@ public final class OmGetCashAccTransactionsPu {
          * ID des Kontotyps (also z.Zt. immer "&#64;CashAccountTypeID")
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue cash_account_type_id = 10007;</code>
+         * <code>.dstore.values.IntegerValue cash_account_type_id = 10007;</code>
          */
         private com.google.protobuf.SingleFieldBuilderV3<
             io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> 
@@ -4758,7 +4758,7 @@ public final class OmGetCashAccTransactionsPu {
          * Kann "NULL" sein. Steht hier ein Datum, bedeutet dies, dass die Transaktion bis zu diesem Zeitpunkt als "vorgemerkt" aber noch nicht "gebucht" gilt. Liegt das Datum in der Zukunft, ist die Transaktion noch NICHT im aktuellen Kontostand berücksichtigt.
          * </pre>
          *
-         * <code>optional .dstore.values.TimestampValue suspended_until = 10008;</code>
+         * <code>.dstore.values.TimestampValue suspended_until = 10008;</code>
          */
         public boolean hasSuspendedUntil() {
           return suspendedUntilBuilder_ != null || suspendedUntil_ != null;
@@ -4768,7 +4768,7 @@ public final class OmGetCashAccTransactionsPu {
          * Kann "NULL" sein. Steht hier ein Datum, bedeutet dies, dass die Transaktion bis zu diesem Zeitpunkt als "vorgemerkt" aber noch nicht "gebucht" gilt. Liegt das Datum in der Zukunft, ist die Transaktion noch NICHT im aktuellen Kontostand berücksichtigt.
          * </pre>
          *
-         * <code>optional .dstore.values.TimestampValue suspended_until = 10008;</code>
+         * <code>.dstore.values.TimestampValue suspended_until = 10008;</code>
          */
         public io.dstore.values.TimestampValue getSuspendedUntil() {
           if (suspendedUntilBuilder_ == null) {
@@ -4782,7 +4782,7 @@ public final class OmGetCashAccTransactionsPu {
          * Kann "NULL" sein. Steht hier ein Datum, bedeutet dies, dass die Transaktion bis zu diesem Zeitpunkt als "vorgemerkt" aber noch nicht "gebucht" gilt. Liegt das Datum in der Zukunft, ist die Transaktion noch NICHT im aktuellen Kontostand berücksichtigt.
          * </pre>
          *
-         * <code>optional .dstore.values.TimestampValue suspended_until = 10008;</code>
+         * <code>.dstore.values.TimestampValue suspended_until = 10008;</code>
          */
         public Builder setSuspendedUntil(io.dstore.values.TimestampValue value) {
           if (suspendedUntilBuilder_ == null) {
@@ -4802,7 +4802,7 @@ public final class OmGetCashAccTransactionsPu {
          * Kann "NULL" sein. Steht hier ein Datum, bedeutet dies, dass die Transaktion bis zu diesem Zeitpunkt als "vorgemerkt" aber noch nicht "gebucht" gilt. Liegt das Datum in der Zukunft, ist die Transaktion noch NICHT im aktuellen Kontostand berücksichtigt.
          * </pre>
          *
-         * <code>optional .dstore.values.TimestampValue suspended_until = 10008;</code>
+         * <code>.dstore.values.TimestampValue suspended_until = 10008;</code>
          */
         public Builder setSuspendedUntil(
             io.dstore.values.TimestampValue.Builder builderForValue) {
@@ -4820,7 +4820,7 @@ public final class OmGetCashAccTransactionsPu {
          * Kann "NULL" sein. Steht hier ein Datum, bedeutet dies, dass die Transaktion bis zu diesem Zeitpunkt als "vorgemerkt" aber noch nicht "gebucht" gilt. Liegt das Datum in der Zukunft, ist die Transaktion noch NICHT im aktuellen Kontostand berücksichtigt.
          * </pre>
          *
-         * <code>optional .dstore.values.TimestampValue suspended_until = 10008;</code>
+         * <code>.dstore.values.TimestampValue suspended_until = 10008;</code>
          */
         public Builder mergeSuspendedUntil(io.dstore.values.TimestampValue value) {
           if (suspendedUntilBuilder_ == null) {
@@ -4842,7 +4842,7 @@ public final class OmGetCashAccTransactionsPu {
          * Kann "NULL" sein. Steht hier ein Datum, bedeutet dies, dass die Transaktion bis zu diesem Zeitpunkt als "vorgemerkt" aber noch nicht "gebucht" gilt. Liegt das Datum in der Zukunft, ist die Transaktion noch NICHT im aktuellen Kontostand berücksichtigt.
          * </pre>
          *
-         * <code>optional .dstore.values.TimestampValue suspended_until = 10008;</code>
+         * <code>.dstore.values.TimestampValue suspended_until = 10008;</code>
          */
         public Builder clearSuspendedUntil() {
           if (suspendedUntilBuilder_ == null) {
@@ -4860,7 +4860,7 @@ public final class OmGetCashAccTransactionsPu {
          * Kann "NULL" sein. Steht hier ein Datum, bedeutet dies, dass die Transaktion bis zu diesem Zeitpunkt als "vorgemerkt" aber noch nicht "gebucht" gilt. Liegt das Datum in der Zukunft, ist die Transaktion noch NICHT im aktuellen Kontostand berücksichtigt.
          * </pre>
          *
-         * <code>optional .dstore.values.TimestampValue suspended_until = 10008;</code>
+         * <code>.dstore.values.TimestampValue suspended_until = 10008;</code>
          */
         public io.dstore.values.TimestampValue.Builder getSuspendedUntilBuilder() {
           
@@ -4872,7 +4872,7 @@ public final class OmGetCashAccTransactionsPu {
          * Kann "NULL" sein. Steht hier ein Datum, bedeutet dies, dass die Transaktion bis zu diesem Zeitpunkt als "vorgemerkt" aber noch nicht "gebucht" gilt. Liegt das Datum in der Zukunft, ist die Transaktion noch NICHT im aktuellen Kontostand berücksichtigt.
          * </pre>
          *
-         * <code>optional .dstore.values.TimestampValue suspended_until = 10008;</code>
+         * <code>.dstore.values.TimestampValue suspended_until = 10008;</code>
          */
         public io.dstore.values.TimestampValueOrBuilder getSuspendedUntilOrBuilder() {
           if (suspendedUntilBuilder_ != null) {
@@ -4887,7 +4887,7 @@ public final class OmGetCashAccTransactionsPu {
          * Kann "NULL" sein. Steht hier ein Datum, bedeutet dies, dass die Transaktion bis zu diesem Zeitpunkt als "vorgemerkt" aber noch nicht "gebucht" gilt. Liegt das Datum in der Zukunft, ist die Transaktion noch NICHT im aktuellen Kontostand berücksichtigt.
          * </pre>
          *
-         * <code>optional .dstore.values.TimestampValue suspended_until = 10008;</code>
+         * <code>.dstore.values.TimestampValue suspended_until = 10008;</code>
          */
         private com.google.protobuf.SingleFieldBuilderV3<
             io.dstore.values.TimestampValue, io.dstore.values.TimestampValue.Builder, io.dstore.values.TimestampValueOrBuilder> 
@@ -4911,7 +4911,7 @@ public final class OmGetCashAccTransactionsPu {
          * ID einer Transaktion
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue transaction_id = 10009;</code>
+         * <code>.dstore.values.IntegerValue transaction_id = 10009;</code>
          */
         public boolean hasTransactionId() {
           return transactionIdBuilder_ != null || transactionId_ != null;
@@ -4921,7 +4921,7 @@ public final class OmGetCashAccTransactionsPu {
          * ID einer Transaktion
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue transaction_id = 10009;</code>
+         * <code>.dstore.values.IntegerValue transaction_id = 10009;</code>
          */
         public io.dstore.values.IntegerValue getTransactionId() {
           if (transactionIdBuilder_ == null) {
@@ -4935,7 +4935,7 @@ public final class OmGetCashAccTransactionsPu {
          * ID einer Transaktion
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue transaction_id = 10009;</code>
+         * <code>.dstore.values.IntegerValue transaction_id = 10009;</code>
          */
         public Builder setTransactionId(io.dstore.values.IntegerValue value) {
           if (transactionIdBuilder_ == null) {
@@ -4955,7 +4955,7 @@ public final class OmGetCashAccTransactionsPu {
          * ID einer Transaktion
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue transaction_id = 10009;</code>
+         * <code>.dstore.values.IntegerValue transaction_id = 10009;</code>
          */
         public Builder setTransactionId(
             io.dstore.values.IntegerValue.Builder builderForValue) {
@@ -4973,7 +4973,7 @@ public final class OmGetCashAccTransactionsPu {
          * ID einer Transaktion
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue transaction_id = 10009;</code>
+         * <code>.dstore.values.IntegerValue transaction_id = 10009;</code>
          */
         public Builder mergeTransactionId(io.dstore.values.IntegerValue value) {
           if (transactionIdBuilder_ == null) {
@@ -4995,7 +4995,7 @@ public final class OmGetCashAccTransactionsPu {
          * ID einer Transaktion
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue transaction_id = 10009;</code>
+         * <code>.dstore.values.IntegerValue transaction_id = 10009;</code>
          */
         public Builder clearTransactionId() {
           if (transactionIdBuilder_ == null) {
@@ -5013,7 +5013,7 @@ public final class OmGetCashAccTransactionsPu {
          * ID einer Transaktion
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue transaction_id = 10009;</code>
+         * <code>.dstore.values.IntegerValue transaction_id = 10009;</code>
          */
         public io.dstore.values.IntegerValue.Builder getTransactionIdBuilder() {
           
@@ -5025,7 +5025,7 @@ public final class OmGetCashAccTransactionsPu {
          * ID einer Transaktion
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue transaction_id = 10009;</code>
+         * <code>.dstore.values.IntegerValue transaction_id = 10009;</code>
          */
         public io.dstore.values.IntegerValueOrBuilder getTransactionIdOrBuilder() {
           if (transactionIdBuilder_ != null) {
@@ -5040,7 +5040,7 @@ public final class OmGetCashAccTransactionsPu {
          * ID einer Transaktion
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue transaction_id = 10009;</code>
+         * <code>.dstore.values.IntegerValue transaction_id = 10009;</code>
          */
         private com.google.protobuf.SingleFieldBuilderV3<
             io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> 
@@ -5213,19 +5213,19 @@ public final class OmGetCashAccTransactionsPu {
     public static final int ACCOUNT_BALANCE_FIELD_NUMBER = 101;
     private io.dstore.values.DecimalValue accountBalance_;
     /**
-     * <code>optional .dstore.values.DecimalValue account_balance = 101;</code>
+     * <code>.dstore.values.DecimalValue account_balance = 101;</code>
      */
     public boolean hasAccountBalance() {
       return accountBalance_ != null;
     }
     /**
-     * <code>optional .dstore.values.DecimalValue account_balance = 101;</code>
+     * <code>.dstore.values.DecimalValue account_balance = 101;</code>
      */
     public io.dstore.values.DecimalValue getAccountBalance() {
       return accountBalance_ == null ? io.dstore.values.DecimalValue.getDefaultInstance() : accountBalance_;
     }
     /**
-     * <code>optional .dstore.values.DecimalValue account_balance = 101;</code>
+     * <code>.dstore.values.DecimalValue account_balance = 101;</code>
      */
     public io.dstore.values.DecimalValueOrBuilder getAccountBalanceOrBuilder() {
       return getAccountBalance();
@@ -5314,7 +5314,7 @@ public final class OmGetCashAccTransactionsPu {
         return memoizedHashCode;
       }
       int hash = 41;
-      hash = (19 * hash) + getDescriptorForType().hashCode();
+      hash = (19 * hash) + getDescriptor().hashCode();
       if (getMetaInformationCount() > 0) {
         hash = (37 * hash) + META_INFORMATION_FIELD_NUMBER;
         hash = (53 * hash) + getMetaInformationList().hashCode();
@@ -6406,13 +6406,13 @@ public final class OmGetCashAccTransactionsPu {
       private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.values.DecimalValue, io.dstore.values.DecimalValue.Builder, io.dstore.values.DecimalValueOrBuilder> accountBalanceBuilder_;
       /**
-       * <code>optional .dstore.values.DecimalValue account_balance = 101;</code>
+       * <code>.dstore.values.DecimalValue account_balance = 101;</code>
        */
       public boolean hasAccountBalance() {
         return accountBalanceBuilder_ != null || accountBalance_ != null;
       }
       /**
-       * <code>optional .dstore.values.DecimalValue account_balance = 101;</code>
+       * <code>.dstore.values.DecimalValue account_balance = 101;</code>
        */
       public io.dstore.values.DecimalValue getAccountBalance() {
         if (accountBalanceBuilder_ == null) {
@@ -6422,7 +6422,7 @@ public final class OmGetCashAccTransactionsPu {
         }
       }
       /**
-       * <code>optional .dstore.values.DecimalValue account_balance = 101;</code>
+       * <code>.dstore.values.DecimalValue account_balance = 101;</code>
        */
       public Builder setAccountBalance(io.dstore.values.DecimalValue value) {
         if (accountBalanceBuilder_ == null) {
@@ -6438,7 +6438,7 @@ public final class OmGetCashAccTransactionsPu {
         return this;
       }
       /**
-       * <code>optional .dstore.values.DecimalValue account_balance = 101;</code>
+       * <code>.dstore.values.DecimalValue account_balance = 101;</code>
        */
       public Builder setAccountBalance(
           io.dstore.values.DecimalValue.Builder builderForValue) {
@@ -6452,7 +6452,7 @@ public final class OmGetCashAccTransactionsPu {
         return this;
       }
       /**
-       * <code>optional .dstore.values.DecimalValue account_balance = 101;</code>
+       * <code>.dstore.values.DecimalValue account_balance = 101;</code>
        */
       public Builder mergeAccountBalance(io.dstore.values.DecimalValue value) {
         if (accountBalanceBuilder_ == null) {
@@ -6470,7 +6470,7 @@ public final class OmGetCashAccTransactionsPu {
         return this;
       }
       /**
-       * <code>optional .dstore.values.DecimalValue account_balance = 101;</code>
+       * <code>.dstore.values.DecimalValue account_balance = 101;</code>
        */
       public Builder clearAccountBalance() {
         if (accountBalanceBuilder_ == null) {
@@ -6484,7 +6484,7 @@ public final class OmGetCashAccTransactionsPu {
         return this;
       }
       /**
-       * <code>optional .dstore.values.DecimalValue account_balance = 101;</code>
+       * <code>.dstore.values.DecimalValue account_balance = 101;</code>
        */
       public io.dstore.values.DecimalValue.Builder getAccountBalanceBuilder() {
         
@@ -6492,7 +6492,7 @@ public final class OmGetCashAccTransactionsPu {
         return getAccountBalanceFieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .dstore.values.DecimalValue account_balance = 101;</code>
+       * <code>.dstore.values.DecimalValue account_balance = 101;</code>
        */
       public io.dstore.values.DecimalValueOrBuilder getAccountBalanceOrBuilder() {
         if (accountBalanceBuilder_ != null) {
@@ -6503,7 +6503,7 @@ public final class OmGetCashAccTransactionsPu {
         }
       }
       /**
-       * <code>optional .dstore.values.DecimalValue account_balance = 101;</code>
+       * <code>.dstore.values.DecimalValue account_balance = 101;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.values.DecimalValue, io.dstore.values.DecimalValue.Builder, io.dstore.values.DecimalValueOrBuilder> 

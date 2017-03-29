@@ -19,20 +19,20 @@ public final class OmGetBenefitTypesAd {
       com.google.protobuf.MessageOrBuilder {
 
     /**
-     * <code>optional .dstore.values.IntegerValue benefit_type_id = 1;</code>
+     * <code>.dstore.values.IntegerValue benefit_type_id = 1;</code>
      */
     boolean hasBenefitTypeId();
     /**
-     * <code>optional .dstore.values.IntegerValue benefit_type_id = 1;</code>
+     * <code>.dstore.values.IntegerValue benefit_type_id = 1;</code>
      */
     io.dstore.values.IntegerValue getBenefitTypeId();
     /**
-     * <code>optional .dstore.values.IntegerValue benefit_type_id = 1;</code>
+     * <code>.dstore.values.IntegerValue benefit_type_id = 1;</code>
      */
     io.dstore.values.IntegerValueOrBuilder getBenefitTypeIdOrBuilder();
 
     /**
-     * <code>optional bool benefit_type_id_null = 1001;</code>
+     * <code>bool benefit_type_id_null = 1001;</code>
      */
     boolean getBenefitTypeIdNull();
   }
@@ -120,19 +120,19 @@ public final class OmGetBenefitTypesAd {
     public static final int BENEFIT_TYPE_ID_FIELD_NUMBER = 1;
     private io.dstore.values.IntegerValue benefitTypeId_;
     /**
-     * <code>optional .dstore.values.IntegerValue benefit_type_id = 1;</code>
+     * <code>.dstore.values.IntegerValue benefit_type_id = 1;</code>
      */
     public boolean hasBenefitTypeId() {
       return benefitTypeId_ != null;
     }
     /**
-     * <code>optional .dstore.values.IntegerValue benefit_type_id = 1;</code>
+     * <code>.dstore.values.IntegerValue benefit_type_id = 1;</code>
      */
     public io.dstore.values.IntegerValue getBenefitTypeId() {
       return benefitTypeId_ == null ? io.dstore.values.IntegerValue.getDefaultInstance() : benefitTypeId_;
     }
     /**
-     * <code>optional .dstore.values.IntegerValue benefit_type_id = 1;</code>
+     * <code>.dstore.values.IntegerValue benefit_type_id = 1;</code>
      */
     public io.dstore.values.IntegerValueOrBuilder getBenefitTypeIdOrBuilder() {
       return getBenefitTypeId();
@@ -141,7 +141,7 @@ public final class OmGetBenefitTypesAd {
     public static final int BENEFIT_TYPE_ID_NULL_FIELD_NUMBER = 1001;
     private boolean benefitTypeIdNull_;
     /**
-     * <code>optional bool benefit_type_id_null = 1001;</code>
+     * <code>bool benefit_type_id_null = 1001;</code>
      */
     public boolean getBenefitTypeIdNull() {
       return benefitTypeIdNull_;
@@ -212,7 +212,7 @@ public final class OmGetBenefitTypesAd {
         return memoizedHashCode;
       }
       int hash = 41;
-      hash = (19 * hash) + getDescriptorForType().hashCode();
+      hash = (19 * hash) + getDescriptor().hashCode();
       if (hasBenefitTypeId()) {
         hash = (37 * hash) + BENEFIT_TYPE_ID_FIELD_NUMBER;
         hash = (53 * hash) + getBenefitTypeId().hashCode();
@@ -451,13 +451,13 @@ public final class OmGetBenefitTypesAd {
       private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> benefitTypeIdBuilder_;
       /**
-       * <code>optional .dstore.values.IntegerValue benefit_type_id = 1;</code>
+       * <code>.dstore.values.IntegerValue benefit_type_id = 1;</code>
        */
       public boolean hasBenefitTypeId() {
         return benefitTypeIdBuilder_ != null || benefitTypeId_ != null;
       }
       /**
-       * <code>optional .dstore.values.IntegerValue benefit_type_id = 1;</code>
+       * <code>.dstore.values.IntegerValue benefit_type_id = 1;</code>
        */
       public io.dstore.values.IntegerValue getBenefitTypeId() {
         if (benefitTypeIdBuilder_ == null) {
@@ -467,7 +467,7 @@ public final class OmGetBenefitTypesAd {
         }
       }
       /**
-       * <code>optional .dstore.values.IntegerValue benefit_type_id = 1;</code>
+       * <code>.dstore.values.IntegerValue benefit_type_id = 1;</code>
        */
       public Builder setBenefitTypeId(io.dstore.values.IntegerValue value) {
         if (benefitTypeIdBuilder_ == null) {
@@ -483,7 +483,7 @@ public final class OmGetBenefitTypesAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.IntegerValue benefit_type_id = 1;</code>
+       * <code>.dstore.values.IntegerValue benefit_type_id = 1;</code>
        */
       public Builder setBenefitTypeId(
           io.dstore.values.IntegerValue.Builder builderForValue) {
@@ -497,7 +497,7 @@ public final class OmGetBenefitTypesAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.IntegerValue benefit_type_id = 1;</code>
+       * <code>.dstore.values.IntegerValue benefit_type_id = 1;</code>
        */
       public Builder mergeBenefitTypeId(io.dstore.values.IntegerValue value) {
         if (benefitTypeIdBuilder_ == null) {
@@ -515,7 +515,7 @@ public final class OmGetBenefitTypesAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.IntegerValue benefit_type_id = 1;</code>
+       * <code>.dstore.values.IntegerValue benefit_type_id = 1;</code>
        */
       public Builder clearBenefitTypeId() {
         if (benefitTypeIdBuilder_ == null) {
@@ -529,7 +529,7 @@ public final class OmGetBenefitTypesAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.IntegerValue benefit_type_id = 1;</code>
+       * <code>.dstore.values.IntegerValue benefit_type_id = 1;</code>
        */
       public io.dstore.values.IntegerValue.Builder getBenefitTypeIdBuilder() {
         
@@ -537,7 +537,7 @@ public final class OmGetBenefitTypesAd {
         return getBenefitTypeIdFieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .dstore.values.IntegerValue benefit_type_id = 1;</code>
+       * <code>.dstore.values.IntegerValue benefit_type_id = 1;</code>
        */
       public io.dstore.values.IntegerValueOrBuilder getBenefitTypeIdOrBuilder() {
         if (benefitTypeIdBuilder_ != null) {
@@ -548,7 +548,7 @@ public final class OmGetBenefitTypesAd {
         }
       }
       /**
-       * <code>optional .dstore.values.IntegerValue benefit_type_id = 1;</code>
+       * <code>.dstore.values.IntegerValue benefit_type_id = 1;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> 
@@ -566,13 +566,13 @@ public final class OmGetBenefitTypesAd {
 
       private boolean benefitTypeIdNull_ ;
       /**
-       * <code>optional bool benefit_type_id_null = 1001;</code>
+       * <code>bool benefit_type_id_null = 1001;</code>
        */
       public boolean getBenefitTypeIdNull() {
         return benefitTypeIdNull_;
       }
       /**
-       * <code>optional bool benefit_type_id_null = 1001;</code>
+       * <code>bool benefit_type_id_null = 1001;</code>
        */
       public Builder setBenefitTypeIdNull(boolean value) {
         
@@ -581,7 +581,7 @@ public final class OmGetBenefitTypesAd {
         return this;
       }
       /**
-       * <code>optional bool benefit_type_id_null = 1001;</code>
+       * <code>bool benefit_type_id_null = 1001;</code>
        */
       public Builder clearBenefitTypeIdNull() {
         
@@ -840,7 +840,7 @@ public final class OmGetBenefitTypesAd {
         com.google.protobuf.MessageOrBuilder {
 
       /**
-       * <code>optional int32 row_id = 10000;</code>
+       * <code>int32 row_id = 10000;</code>
        */
       int getRowId();
 
@@ -849,7 +849,7 @@ public final class OmGetBenefitTypesAd {
        * Die Bezeichnung der "BenefitTypeID"
        * </pre>
        *
-       * <code>optional .dstore.values.StringValue benefit_type_description = 10001;</code>
+       * <code>.dstore.values.StringValue benefit_type_description = 10001;</code>
        */
       boolean hasBenefitTypeDescription();
       /**
@@ -857,7 +857,7 @@ public final class OmGetBenefitTypesAd {
        * Die Bezeichnung der "BenefitTypeID"
        * </pre>
        *
-       * <code>optional .dstore.values.StringValue benefit_type_description = 10001;</code>
+       * <code>.dstore.values.StringValue benefit_type_description = 10001;</code>
        */
       io.dstore.values.StringValue getBenefitTypeDescription();
       /**
@@ -865,7 +865,7 @@ public final class OmGetBenefitTypesAd {
        * Die Bezeichnung der "BenefitTypeID"
        * </pre>
        *
-       * <code>optional .dstore.values.StringValue benefit_type_description = 10001;</code>
+       * <code>.dstore.values.StringValue benefit_type_description = 10001;</code>
        */
       io.dstore.values.StringValueOrBuilder getBenefitTypeDescriptionOrBuilder();
 
@@ -874,7 +874,7 @@ public final class OmGetBenefitTypesAd {
        * Die ID einer Bonus-Art
        * </pre>
        *
-       * <code>optional .dstore.values.IntegerValue benefit_type_id = 10002;</code>
+       * <code>.dstore.values.IntegerValue benefit_type_id = 10002;</code>
        */
       boolean hasBenefitTypeId();
       /**
@@ -882,7 +882,7 @@ public final class OmGetBenefitTypesAd {
        * Die ID einer Bonus-Art
        * </pre>
        *
-       * <code>optional .dstore.values.IntegerValue benefit_type_id = 10002;</code>
+       * <code>.dstore.values.IntegerValue benefit_type_id = 10002;</code>
        */
       io.dstore.values.IntegerValue getBenefitTypeId();
       /**
@@ -890,7 +890,7 @@ public final class OmGetBenefitTypesAd {
        * Die ID einer Bonus-Art
        * </pre>
        *
-       * <code>optional .dstore.values.IntegerValue benefit_type_id = 10002;</code>
+       * <code>.dstore.values.IntegerValue benefit_type_id = 10002;</code>
        */
       io.dstore.values.IntegerValueOrBuilder getBenefitTypeIdOrBuilder();
     }
@@ -991,7 +991,7 @@ public final class OmGetBenefitTypesAd {
       public static final int ROW_ID_FIELD_NUMBER = 10000;
       private int rowId_;
       /**
-       * <code>optional int32 row_id = 10000;</code>
+       * <code>int32 row_id = 10000;</code>
        */
       public int getRowId() {
         return rowId_;
@@ -1004,7 +1004,7 @@ public final class OmGetBenefitTypesAd {
        * Die Bezeichnung der "BenefitTypeID"
        * </pre>
        *
-       * <code>optional .dstore.values.StringValue benefit_type_description = 10001;</code>
+       * <code>.dstore.values.StringValue benefit_type_description = 10001;</code>
        */
       public boolean hasBenefitTypeDescription() {
         return benefitTypeDescription_ != null;
@@ -1014,7 +1014,7 @@ public final class OmGetBenefitTypesAd {
        * Die Bezeichnung der "BenefitTypeID"
        * </pre>
        *
-       * <code>optional .dstore.values.StringValue benefit_type_description = 10001;</code>
+       * <code>.dstore.values.StringValue benefit_type_description = 10001;</code>
        */
       public io.dstore.values.StringValue getBenefitTypeDescription() {
         return benefitTypeDescription_ == null ? io.dstore.values.StringValue.getDefaultInstance() : benefitTypeDescription_;
@@ -1024,7 +1024,7 @@ public final class OmGetBenefitTypesAd {
        * Die Bezeichnung der "BenefitTypeID"
        * </pre>
        *
-       * <code>optional .dstore.values.StringValue benefit_type_description = 10001;</code>
+       * <code>.dstore.values.StringValue benefit_type_description = 10001;</code>
        */
       public io.dstore.values.StringValueOrBuilder getBenefitTypeDescriptionOrBuilder() {
         return getBenefitTypeDescription();
@@ -1037,7 +1037,7 @@ public final class OmGetBenefitTypesAd {
        * Die ID einer Bonus-Art
        * </pre>
        *
-       * <code>optional .dstore.values.IntegerValue benefit_type_id = 10002;</code>
+       * <code>.dstore.values.IntegerValue benefit_type_id = 10002;</code>
        */
       public boolean hasBenefitTypeId() {
         return benefitTypeId_ != null;
@@ -1047,7 +1047,7 @@ public final class OmGetBenefitTypesAd {
        * Die ID einer Bonus-Art
        * </pre>
        *
-       * <code>optional .dstore.values.IntegerValue benefit_type_id = 10002;</code>
+       * <code>.dstore.values.IntegerValue benefit_type_id = 10002;</code>
        */
       public io.dstore.values.IntegerValue getBenefitTypeId() {
         return benefitTypeId_ == null ? io.dstore.values.IntegerValue.getDefaultInstance() : benefitTypeId_;
@@ -1057,7 +1057,7 @@ public final class OmGetBenefitTypesAd {
        * Die ID einer Bonus-Art
        * </pre>
        *
-       * <code>optional .dstore.values.IntegerValue benefit_type_id = 10002;</code>
+       * <code>.dstore.values.IntegerValue benefit_type_id = 10002;</code>
        */
       public io.dstore.values.IntegerValueOrBuilder getBenefitTypeIdOrBuilder() {
         return getBenefitTypeId();
@@ -1140,7 +1140,7 @@ public final class OmGetBenefitTypesAd {
           return memoizedHashCode;
         }
         int hash = 41;
-        hash = (19 * hash) + getDescriptorForType().hashCode();
+        hash = (19 * hash) + getDescriptor().hashCode();
         hash = (37 * hash) + ROW_ID_FIELD_NUMBER;
         hash = (53 * hash) + getRowId();
         if (hasBenefitTypeDescription()) {
@@ -1394,13 +1394,13 @@ public final class OmGetBenefitTypesAd {
 
         private int rowId_ ;
         /**
-         * <code>optional int32 row_id = 10000;</code>
+         * <code>int32 row_id = 10000;</code>
          */
         public int getRowId() {
           return rowId_;
         }
         /**
-         * <code>optional int32 row_id = 10000;</code>
+         * <code>int32 row_id = 10000;</code>
          */
         public Builder setRowId(int value) {
           
@@ -1409,7 +1409,7 @@ public final class OmGetBenefitTypesAd {
           return this;
         }
         /**
-         * <code>optional int32 row_id = 10000;</code>
+         * <code>int32 row_id = 10000;</code>
          */
         public Builder clearRowId() {
           
@@ -1426,7 +1426,7 @@ public final class OmGetBenefitTypesAd {
          * Die Bezeichnung der "BenefitTypeID"
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue benefit_type_description = 10001;</code>
+         * <code>.dstore.values.StringValue benefit_type_description = 10001;</code>
          */
         public boolean hasBenefitTypeDescription() {
           return benefitTypeDescriptionBuilder_ != null || benefitTypeDescription_ != null;
@@ -1436,7 +1436,7 @@ public final class OmGetBenefitTypesAd {
          * Die Bezeichnung der "BenefitTypeID"
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue benefit_type_description = 10001;</code>
+         * <code>.dstore.values.StringValue benefit_type_description = 10001;</code>
          */
         public io.dstore.values.StringValue getBenefitTypeDescription() {
           if (benefitTypeDescriptionBuilder_ == null) {
@@ -1450,7 +1450,7 @@ public final class OmGetBenefitTypesAd {
          * Die Bezeichnung der "BenefitTypeID"
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue benefit_type_description = 10001;</code>
+         * <code>.dstore.values.StringValue benefit_type_description = 10001;</code>
          */
         public Builder setBenefitTypeDescription(io.dstore.values.StringValue value) {
           if (benefitTypeDescriptionBuilder_ == null) {
@@ -1470,7 +1470,7 @@ public final class OmGetBenefitTypesAd {
          * Die Bezeichnung der "BenefitTypeID"
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue benefit_type_description = 10001;</code>
+         * <code>.dstore.values.StringValue benefit_type_description = 10001;</code>
          */
         public Builder setBenefitTypeDescription(
             io.dstore.values.StringValue.Builder builderForValue) {
@@ -1488,7 +1488,7 @@ public final class OmGetBenefitTypesAd {
          * Die Bezeichnung der "BenefitTypeID"
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue benefit_type_description = 10001;</code>
+         * <code>.dstore.values.StringValue benefit_type_description = 10001;</code>
          */
         public Builder mergeBenefitTypeDescription(io.dstore.values.StringValue value) {
           if (benefitTypeDescriptionBuilder_ == null) {
@@ -1510,7 +1510,7 @@ public final class OmGetBenefitTypesAd {
          * Die Bezeichnung der "BenefitTypeID"
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue benefit_type_description = 10001;</code>
+         * <code>.dstore.values.StringValue benefit_type_description = 10001;</code>
          */
         public Builder clearBenefitTypeDescription() {
           if (benefitTypeDescriptionBuilder_ == null) {
@@ -1528,7 +1528,7 @@ public final class OmGetBenefitTypesAd {
          * Die Bezeichnung der "BenefitTypeID"
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue benefit_type_description = 10001;</code>
+         * <code>.dstore.values.StringValue benefit_type_description = 10001;</code>
          */
         public io.dstore.values.StringValue.Builder getBenefitTypeDescriptionBuilder() {
           
@@ -1540,7 +1540,7 @@ public final class OmGetBenefitTypesAd {
          * Die Bezeichnung der "BenefitTypeID"
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue benefit_type_description = 10001;</code>
+         * <code>.dstore.values.StringValue benefit_type_description = 10001;</code>
          */
         public io.dstore.values.StringValueOrBuilder getBenefitTypeDescriptionOrBuilder() {
           if (benefitTypeDescriptionBuilder_ != null) {
@@ -1555,7 +1555,7 @@ public final class OmGetBenefitTypesAd {
          * Die Bezeichnung der "BenefitTypeID"
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue benefit_type_description = 10001;</code>
+         * <code>.dstore.values.StringValue benefit_type_description = 10001;</code>
          */
         private com.google.protobuf.SingleFieldBuilderV3<
             io.dstore.values.StringValue, io.dstore.values.StringValue.Builder, io.dstore.values.StringValueOrBuilder> 
@@ -1579,7 +1579,7 @@ public final class OmGetBenefitTypesAd {
          * Die ID einer Bonus-Art
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue benefit_type_id = 10002;</code>
+         * <code>.dstore.values.IntegerValue benefit_type_id = 10002;</code>
          */
         public boolean hasBenefitTypeId() {
           return benefitTypeIdBuilder_ != null || benefitTypeId_ != null;
@@ -1589,7 +1589,7 @@ public final class OmGetBenefitTypesAd {
          * Die ID einer Bonus-Art
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue benefit_type_id = 10002;</code>
+         * <code>.dstore.values.IntegerValue benefit_type_id = 10002;</code>
          */
         public io.dstore.values.IntegerValue getBenefitTypeId() {
           if (benefitTypeIdBuilder_ == null) {
@@ -1603,7 +1603,7 @@ public final class OmGetBenefitTypesAd {
          * Die ID einer Bonus-Art
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue benefit_type_id = 10002;</code>
+         * <code>.dstore.values.IntegerValue benefit_type_id = 10002;</code>
          */
         public Builder setBenefitTypeId(io.dstore.values.IntegerValue value) {
           if (benefitTypeIdBuilder_ == null) {
@@ -1623,7 +1623,7 @@ public final class OmGetBenefitTypesAd {
          * Die ID einer Bonus-Art
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue benefit_type_id = 10002;</code>
+         * <code>.dstore.values.IntegerValue benefit_type_id = 10002;</code>
          */
         public Builder setBenefitTypeId(
             io.dstore.values.IntegerValue.Builder builderForValue) {
@@ -1641,7 +1641,7 @@ public final class OmGetBenefitTypesAd {
          * Die ID einer Bonus-Art
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue benefit_type_id = 10002;</code>
+         * <code>.dstore.values.IntegerValue benefit_type_id = 10002;</code>
          */
         public Builder mergeBenefitTypeId(io.dstore.values.IntegerValue value) {
           if (benefitTypeIdBuilder_ == null) {
@@ -1663,7 +1663,7 @@ public final class OmGetBenefitTypesAd {
          * Die ID einer Bonus-Art
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue benefit_type_id = 10002;</code>
+         * <code>.dstore.values.IntegerValue benefit_type_id = 10002;</code>
          */
         public Builder clearBenefitTypeId() {
           if (benefitTypeIdBuilder_ == null) {
@@ -1681,7 +1681,7 @@ public final class OmGetBenefitTypesAd {
          * Die ID einer Bonus-Art
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue benefit_type_id = 10002;</code>
+         * <code>.dstore.values.IntegerValue benefit_type_id = 10002;</code>
          */
         public io.dstore.values.IntegerValue.Builder getBenefitTypeIdBuilder() {
           
@@ -1693,7 +1693,7 @@ public final class OmGetBenefitTypesAd {
          * Die ID einer Bonus-Art
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue benefit_type_id = 10002;</code>
+         * <code>.dstore.values.IntegerValue benefit_type_id = 10002;</code>
          */
         public io.dstore.values.IntegerValueOrBuilder getBenefitTypeIdOrBuilder() {
           if (benefitTypeIdBuilder_ != null) {
@@ -1708,7 +1708,7 @@ public final class OmGetBenefitTypesAd {
          * Die ID einer Bonus-Art
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue benefit_type_id = 10002;</code>
+         * <code>.dstore.values.IntegerValue benefit_type_id = 10002;</code>
          */
         private com.google.protobuf.SingleFieldBuilderV3<
             io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> 
@@ -1968,7 +1968,7 @@ public final class OmGetBenefitTypesAd {
         return memoizedHashCode;
       }
       int hash = 41;
-      hash = (19 * hash) + getDescriptorForType().hashCode();
+      hash = (19 * hash) + getDescriptor().hashCode();
       if (getMetaInformationCount() > 0) {
         hash = (37 * hash) + META_INFORMATION_FIELD_NUMBER;
         hash = (53 * hash) + getMetaInformationList().hashCode();

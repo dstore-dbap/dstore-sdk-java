@@ -19,164 +19,164 @@ public final class StGetPageVisitsAd {
       com.google.protobuf.MessageOrBuilder {
 
     /**
-     * <code>optional .dstore.values.BooleanValue compute_sum = 1;</code>
+     * <code>.dstore.values.BooleanValue compute_sum = 1;</code>
      */
     boolean hasComputeSum();
     /**
-     * <code>optional .dstore.values.BooleanValue compute_sum = 1;</code>
+     * <code>.dstore.values.BooleanValue compute_sum = 1;</code>
      */
     io.dstore.values.BooleanValue getComputeSum();
     /**
-     * <code>optional .dstore.values.BooleanValue compute_sum = 1;</code>
+     * <code>.dstore.values.BooleanValue compute_sum = 1;</code>
      */
     io.dstore.values.BooleanValueOrBuilder getComputeSumOrBuilder();
 
     /**
-     * <code>optional bool compute_sum_null = 1001;</code>
+     * <code>bool compute_sum_null = 1001;</code>
      */
     boolean getComputeSumNull();
 
     /**
-     * <code>optional .dstore.values.TimestampValue day = 2;</code>
+     * <code>.dstore.values.TimestampValue day = 2;</code>
      */
     boolean hasDay();
     /**
-     * <code>optional .dstore.values.TimestampValue day = 2;</code>
+     * <code>.dstore.values.TimestampValue day = 2;</code>
      */
     io.dstore.values.TimestampValue getDay();
     /**
-     * <code>optional .dstore.values.TimestampValue day = 2;</code>
+     * <code>.dstore.values.TimestampValue day = 2;</code>
      */
     io.dstore.values.TimestampValueOrBuilder getDayOrBuilder();
 
     /**
-     * <code>optional bool day_null = 1002;</code>
+     * <code>bool day_null = 1002;</code>
      */
     boolean getDayNull();
 
     /**
-     * <code>optional .dstore.values.IntegerValue page_no = 3;</code>
+     * <code>.dstore.values.IntegerValue page_no = 3;</code>
      */
     boolean hasPageNo();
     /**
-     * <code>optional .dstore.values.IntegerValue page_no = 3;</code>
+     * <code>.dstore.values.IntegerValue page_no = 3;</code>
      */
     io.dstore.values.IntegerValue getPageNo();
     /**
-     * <code>optional .dstore.values.IntegerValue page_no = 3;</code>
+     * <code>.dstore.values.IntegerValue page_no = 3;</code>
      */
     io.dstore.values.IntegerValueOrBuilder getPageNoOrBuilder();
 
     /**
-     * <code>optional bool page_no_null = 1003;</code>
+     * <code>bool page_no_null = 1003;</code>
      */
     boolean getPageNoNull();
 
     /**
-     * <code>optional .dstore.values.TimestampValue from_day = 4;</code>
+     * <code>.dstore.values.TimestampValue from_day = 4;</code>
      */
     boolean hasFromDay();
     /**
-     * <code>optional .dstore.values.TimestampValue from_day = 4;</code>
+     * <code>.dstore.values.TimestampValue from_day = 4;</code>
      */
     io.dstore.values.TimestampValue getFromDay();
     /**
-     * <code>optional .dstore.values.TimestampValue from_day = 4;</code>
+     * <code>.dstore.values.TimestampValue from_day = 4;</code>
      */
     io.dstore.values.TimestampValueOrBuilder getFromDayOrBuilder();
 
     /**
-     * <code>optional bool from_day_null = 1004;</code>
+     * <code>bool from_day_null = 1004;</code>
      */
     boolean getFromDayNull();
 
     /**
-     * <code>optional .dstore.values.TimestampValue to_day = 5;</code>
+     * <code>.dstore.values.TimestampValue to_day = 5;</code>
      */
     boolean hasToDay();
     /**
-     * <code>optional .dstore.values.TimestampValue to_day = 5;</code>
+     * <code>.dstore.values.TimestampValue to_day = 5;</code>
      */
     io.dstore.values.TimestampValue getToDay();
     /**
-     * <code>optional .dstore.values.TimestampValue to_day = 5;</code>
+     * <code>.dstore.values.TimestampValue to_day = 5;</code>
      */
     io.dstore.values.TimestampValueOrBuilder getToDayOrBuilder();
 
     /**
-     * <code>optional bool to_day_null = 1005;</code>
+     * <code>bool to_day_null = 1005;</code>
      */
     boolean getToDayNull();
 
     /**
-     * <code>optional .dstore.values.IntegerValue page_category_id = 6;</code>
+     * <code>.dstore.values.IntegerValue page_category_id = 6;</code>
      */
     boolean hasPageCategoryId();
     /**
-     * <code>optional .dstore.values.IntegerValue page_category_id = 6;</code>
+     * <code>.dstore.values.IntegerValue page_category_id = 6;</code>
      */
     io.dstore.values.IntegerValue getPageCategoryId();
     /**
-     * <code>optional .dstore.values.IntegerValue page_category_id = 6;</code>
+     * <code>.dstore.values.IntegerValue page_category_id = 6;</code>
      */
     io.dstore.values.IntegerValueOrBuilder getPageCategoryIdOrBuilder();
 
     /**
-     * <code>optional bool page_category_id_null = 1006;</code>
+     * <code>bool page_category_id_null = 1006;</code>
      */
     boolean getPageCategoryIdNull();
 
     /**
-     * <code>optional .dstore.values.BooleanValue group_by_category = 7;</code>
+     * <code>.dstore.values.BooleanValue group_by_category = 7;</code>
      */
     boolean hasGroupByCategory();
     /**
-     * <code>optional .dstore.values.BooleanValue group_by_category = 7;</code>
+     * <code>.dstore.values.BooleanValue group_by_category = 7;</code>
      */
     io.dstore.values.BooleanValue getGroupByCategory();
     /**
-     * <code>optional .dstore.values.BooleanValue group_by_category = 7;</code>
+     * <code>.dstore.values.BooleanValue group_by_category = 7;</code>
      */
     io.dstore.values.BooleanValueOrBuilder getGroupByCategoryOrBuilder();
 
     /**
-     * <code>optional bool group_by_category_null = 1007;</code>
+     * <code>bool group_by_category_null = 1007;</code>
      */
     boolean getGroupByCategoryNull();
 
     /**
-     * <code>optional .dstore.values.BooleanValue order_by_day = 8;</code>
+     * <code>.dstore.values.BooleanValue order_by_day = 8;</code>
      */
     boolean hasOrderByDay();
     /**
-     * <code>optional .dstore.values.BooleanValue order_by_day = 8;</code>
+     * <code>.dstore.values.BooleanValue order_by_day = 8;</code>
      */
     io.dstore.values.BooleanValue getOrderByDay();
     /**
-     * <code>optional .dstore.values.BooleanValue order_by_day = 8;</code>
+     * <code>.dstore.values.BooleanValue order_by_day = 8;</code>
      */
     io.dstore.values.BooleanValueOrBuilder getOrderByDayOrBuilder();
 
     /**
-     * <code>optional bool order_by_day_null = 1008;</code>
+     * <code>bool order_by_day_null = 1008;</code>
      */
     boolean getOrderByDayNull();
 
     /**
-     * <code>optional .dstore.values.BooleanValue get_sum_of_all_pages_per_day = 9;</code>
+     * <code>.dstore.values.BooleanValue get_sum_of_all_pages_per_day = 9;</code>
      */
     boolean hasGetSumOfAllPagesPerDay();
     /**
-     * <code>optional .dstore.values.BooleanValue get_sum_of_all_pages_per_day = 9;</code>
+     * <code>.dstore.values.BooleanValue get_sum_of_all_pages_per_day = 9;</code>
      */
     io.dstore.values.BooleanValue getGetSumOfAllPagesPerDay();
     /**
-     * <code>optional .dstore.values.BooleanValue get_sum_of_all_pages_per_day = 9;</code>
+     * <code>.dstore.values.BooleanValue get_sum_of_all_pages_per_day = 9;</code>
      */
     io.dstore.values.BooleanValueOrBuilder getGetSumOfAllPagesPerDayOrBuilder();
 
     /**
-     * <code>optional bool get_sum_of_all_pages_per_day_null = 1009;</code>
+     * <code>bool get_sum_of_all_pages_per_day_null = 1009;</code>
      */
     boolean getGetSumOfAllPagesPerDayNull();
   }
@@ -416,19 +416,19 @@ public final class StGetPageVisitsAd {
     public static final int COMPUTE_SUM_FIELD_NUMBER = 1;
     private io.dstore.values.BooleanValue computeSum_;
     /**
-     * <code>optional .dstore.values.BooleanValue compute_sum = 1;</code>
+     * <code>.dstore.values.BooleanValue compute_sum = 1;</code>
      */
     public boolean hasComputeSum() {
       return computeSum_ != null;
     }
     /**
-     * <code>optional .dstore.values.BooleanValue compute_sum = 1;</code>
+     * <code>.dstore.values.BooleanValue compute_sum = 1;</code>
      */
     public io.dstore.values.BooleanValue getComputeSum() {
       return computeSum_ == null ? io.dstore.values.BooleanValue.getDefaultInstance() : computeSum_;
     }
     /**
-     * <code>optional .dstore.values.BooleanValue compute_sum = 1;</code>
+     * <code>.dstore.values.BooleanValue compute_sum = 1;</code>
      */
     public io.dstore.values.BooleanValueOrBuilder getComputeSumOrBuilder() {
       return getComputeSum();
@@ -437,7 +437,7 @@ public final class StGetPageVisitsAd {
     public static final int COMPUTE_SUM_NULL_FIELD_NUMBER = 1001;
     private boolean computeSumNull_;
     /**
-     * <code>optional bool compute_sum_null = 1001;</code>
+     * <code>bool compute_sum_null = 1001;</code>
      */
     public boolean getComputeSumNull() {
       return computeSumNull_;
@@ -446,19 +446,19 @@ public final class StGetPageVisitsAd {
     public static final int DAY_FIELD_NUMBER = 2;
     private io.dstore.values.TimestampValue day_;
     /**
-     * <code>optional .dstore.values.TimestampValue day = 2;</code>
+     * <code>.dstore.values.TimestampValue day = 2;</code>
      */
     public boolean hasDay() {
       return day_ != null;
     }
     /**
-     * <code>optional .dstore.values.TimestampValue day = 2;</code>
+     * <code>.dstore.values.TimestampValue day = 2;</code>
      */
     public io.dstore.values.TimestampValue getDay() {
       return day_ == null ? io.dstore.values.TimestampValue.getDefaultInstance() : day_;
     }
     /**
-     * <code>optional .dstore.values.TimestampValue day = 2;</code>
+     * <code>.dstore.values.TimestampValue day = 2;</code>
      */
     public io.dstore.values.TimestampValueOrBuilder getDayOrBuilder() {
       return getDay();
@@ -467,7 +467,7 @@ public final class StGetPageVisitsAd {
     public static final int DAY_NULL_FIELD_NUMBER = 1002;
     private boolean dayNull_;
     /**
-     * <code>optional bool day_null = 1002;</code>
+     * <code>bool day_null = 1002;</code>
      */
     public boolean getDayNull() {
       return dayNull_;
@@ -476,19 +476,19 @@ public final class StGetPageVisitsAd {
     public static final int PAGE_NO_FIELD_NUMBER = 3;
     private io.dstore.values.IntegerValue pageNo_;
     /**
-     * <code>optional .dstore.values.IntegerValue page_no = 3;</code>
+     * <code>.dstore.values.IntegerValue page_no = 3;</code>
      */
     public boolean hasPageNo() {
       return pageNo_ != null;
     }
     /**
-     * <code>optional .dstore.values.IntegerValue page_no = 3;</code>
+     * <code>.dstore.values.IntegerValue page_no = 3;</code>
      */
     public io.dstore.values.IntegerValue getPageNo() {
       return pageNo_ == null ? io.dstore.values.IntegerValue.getDefaultInstance() : pageNo_;
     }
     /**
-     * <code>optional .dstore.values.IntegerValue page_no = 3;</code>
+     * <code>.dstore.values.IntegerValue page_no = 3;</code>
      */
     public io.dstore.values.IntegerValueOrBuilder getPageNoOrBuilder() {
       return getPageNo();
@@ -497,7 +497,7 @@ public final class StGetPageVisitsAd {
     public static final int PAGE_NO_NULL_FIELD_NUMBER = 1003;
     private boolean pageNoNull_;
     /**
-     * <code>optional bool page_no_null = 1003;</code>
+     * <code>bool page_no_null = 1003;</code>
      */
     public boolean getPageNoNull() {
       return pageNoNull_;
@@ -506,19 +506,19 @@ public final class StGetPageVisitsAd {
     public static final int FROM_DAY_FIELD_NUMBER = 4;
     private io.dstore.values.TimestampValue fromDay_;
     /**
-     * <code>optional .dstore.values.TimestampValue from_day = 4;</code>
+     * <code>.dstore.values.TimestampValue from_day = 4;</code>
      */
     public boolean hasFromDay() {
       return fromDay_ != null;
     }
     /**
-     * <code>optional .dstore.values.TimestampValue from_day = 4;</code>
+     * <code>.dstore.values.TimestampValue from_day = 4;</code>
      */
     public io.dstore.values.TimestampValue getFromDay() {
       return fromDay_ == null ? io.dstore.values.TimestampValue.getDefaultInstance() : fromDay_;
     }
     /**
-     * <code>optional .dstore.values.TimestampValue from_day = 4;</code>
+     * <code>.dstore.values.TimestampValue from_day = 4;</code>
      */
     public io.dstore.values.TimestampValueOrBuilder getFromDayOrBuilder() {
       return getFromDay();
@@ -527,7 +527,7 @@ public final class StGetPageVisitsAd {
     public static final int FROM_DAY_NULL_FIELD_NUMBER = 1004;
     private boolean fromDayNull_;
     /**
-     * <code>optional bool from_day_null = 1004;</code>
+     * <code>bool from_day_null = 1004;</code>
      */
     public boolean getFromDayNull() {
       return fromDayNull_;
@@ -536,19 +536,19 @@ public final class StGetPageVisitsAd {
     public static final int TO_DAY_FIELD_NUMBER = 5;
     private io.dstore.values.TimestampValue toDay_;
     /**
-     * <code>optional .dstore.values.TimestampValue to_day = 5;</code>
+     * <code>.dstore.values.TimestampValue to_day = 5;</code>
      */
     public boolean hasToDay() {
       return toDay_ != null;
     }
     /**
-     * <code>optional .dstore.values.TimestampValue to_day = 5;</code>
+     * <code>.dstore.values.TimestampValue to_day = 5;</code>
      */
     public io.dstore.values.TimestampValue getToDay() {
       return toDay_ == null ? io.dstore.values.TimestampValue.getDefaultInstance() : toDay_;
     }
     /**
-     * <code>optional .dstore.values.TimestampValue to_day = 5;</code>
+     * <code>.dstore.values.TimestampValue to_day = 5;</code>
      */
     public io.dstore.values.TimestampValueOrBuilder getToDayOrBuilder() {
       return getToDay();
@@ -557,7 +557,7 @@ public final class StGetPageVisitsAd {
     public static final int TO_DAY_NULL_FIELD_NUMBER = 1005;
     private boolean toDayNull_;
     /**
-     * <code>optional bool to_day_null = 1005;</code>
+     * <code>bool to_day_null = 1005;</code>
      */
     public boolean getToDayNull() {
       return toDayNull_;
@@ -566,19 +566,19 @@ public final class StGetPageVisitsAd {
     public static final int PAGE_CATEGORY_ID_FIELD_NUMBER = 6;
     private io.dstore.values.IntegerValue pageCategoryId_;
     /**
-     * <code>optional .dstore.values.IntegerValue page_category_id = 6;</code>
+     * <code>.dstore.values.IntegerValue page_category_id = 6;</code>
      */
     public boolean hasPageCategoryId() {
       return pageCategoryId_ != null;
     }
     /**
-     * <code>optional .dstore.values.IntegerValue page_category_id = 6;</code>
+     * <code>.dstore.values.IntegerValue page_category_id = 6;</code>
      */
     public io.dstore.values.IntegerValue getPageCategoryId() {
       return pageCategoryId_ == null ? io.dstore.values.IntegerValue.getDefaultInstance() : pageCategoryId_;
     }
     /**
-     * <code>optional .dstore.values.IntegerValue page_category_id = 6;</code>
+     * <code>.dstore.values.IntegerValue page_category_id = 6;</code>
      */
     public io.dstore.values.IntegerValueOrBuilder getPageCategoryIdOrBuilder() {
       return getPageCategoryId();
@@ -587,7 +587,7 @@ public final class StGetPageVisitsAd {
     public static final int PAGE_CATEGORY_ID_NULL_FIELD_NUMBER = 1006;
     private boolean pageCategoryIdNull_;
     /**
-     * <code>optional bool page_category_id_null = 1006;</code>
+     * <code>bool page_category_id_null = 1006;</code>
      */
     public boolean getPageCategoryIdNull() {
       return pageCategoryIdNull_;
@@ -596,19 +596,19 @@ public final class StGetPageVisitsAd {
     public static final int GROUP_BY_CATEGORY_FIELD_NUMBER = 7;
     private io.dstore.values.BooleanValue groupByCategory_;
     /**
-     * <code>optional .dstore.values.BooleanValue group_by_category = 7;</code>
+     * <code>.dstore.values.BooleanValue group_by_category = 7;</code>
      */
     public boolean hasGroupByCategory() {
       return groupByCategory_ != null;
     }
     /**
-     * <code>optional .dstore.values.BooleanValue group_by_category = 7;</code>
+     * <code>.dstore.values.BooleanValue group_by_category = 7;</code>
      */
     public io.dstore.values.BooleanValue getGroupByCategory() {
       return groupByCategory_ == null ? io.dstore.values.BooleanValue.getDefaultInstance() : groupByCategory_;
     }
     /**
-     * <code>optional .dstore.values.BooleanValue group_by_category = 7;</code>
+     * <code>.dstore.values.BooleanValue group_by_category = 7;</code>
      */
     public io.dstore.values.BooleanValueOrBuilder getGroupByCategoryOrBuilder() {
       return getGroupByCategory();
@@ -617,7 +617,7 @@ public final class StGetPageVisitsAd {
     public static final int GROUP_BY_CATEGORY_NULL_FIELD_NUMBER = 1007;
     private boolean groupByCategoryNull_;
     /**
-     * <code>optional bool group_by_category_null = 1007;</code>
+     * <code>bool group_by_category_null = 1007;</code>
      */
     public boolean getGroupByCategoryNull() {
       return groupByCategoryNull_;
@@ -626,19 +626,19 @@ public final class StGetPageVisitsAd {
     public static final int ORDER_BY_DAY_FIELD_NUMBER = 8;
     private io.dstore.values.BooleanValue orderByDay_;
     /**
-     * <code>optional .dstore.values.BooleanValue order_by_day = 8;</code>
+     * <code>.dstore.values.BooleanValue order_by_day = 8;</code>
      */
     public boolean hasOrderByDay() {
       return orderByDay_ != null;
     }
     /**
-     * <code>optional .dstore.values.BooleanValue order_by_day = 8;</code>
+     * <code>.dstore.values.BooleanValue order_by_day = 8;</code>
      */
     public io.dstore.values.BooleanValue getOrderByDay() {
       return orderByDay_ == null ? io.dstore.values.BooleanValue.getDefaultInstance() : orderByDay_;
     }
     /**
-     * <code>optional .dstore.values.BooleanValue order_by_day = 8;</code>
+     * <code>.dstore.values.BooleanValue order_by_day = 8;</code>
      */
     public io.dstore.values.BooleanValueOrBuilder getOrderByDayOrBuilder() {
       return getOrderByDay();
@@ -647,7 +647,7 @@ public final class StGetPageVisitsAd {
     public static final int ORDER_BY_DAY_NULL_FIELD_NUMBER = 1008;
     private boolean orderByDayNull_;
     /**
-     * <code>optional bool order_by_day_null = 1008;</code>
+     * <code>bool order_by_day_null = 1008;</code>
      */
     public boolean getOrderByDayNull() {
       return orderByDayNull_;
@@ -656,19 +656,19 @@ public final class StGetPageVisitsAd {
     public static final int GET_SUM_OF_ALL_PAGES_PER_DAY_FIELD_NUMBER = 9;
     private io.dstore.values.BooleanValue getSumOfAllPagesPerDay_;
     /**
-     * <code>optional .dstore.values.BooleanValue get_sum_of_all_pages_per_day = 9;</code>
+     * <code>.dstore.values.BooleanValue get_sum_of_all_pages_per_day = 9;</code>
      */
     public boolean hasGetSumOfAllPagesPerDay() {
       return getSumOfAllPagesPerDay_ != null;
     }
     /**
-     * <code>optional .dstore.values.BooleanValue get_sum_of_all_pages_per_day = 9;</code>
+     * <code>.dstore.values.BooleanValue get_sum_of_all_pages_per_day = 9;</code>
      */
     public io.dstore.values.BooleanValue getGetSumOfAllPagesPerDay() {
       return getSumOfAllPagesPerDay_ == null ? io.dstore.values.BooleanValue.getDefaultInstance() : getSumOfAllPagesPerDay_;
     }
     /**
-     * <code>optional .dstore.values.BooleanValue get_sum_of_all_pages_per_day = 9;</code>
+     * <code>.dstore.values.BooleanValue get_sum_of_all_pages_per_day = 9;</code>
      */
     public io.dstore.values.BooleanValueOrBuilder getGetSumOfAllPagesPerDayOrBuilder() {
       return getGetSumOfAllPagesPerDay();
@@ -677,7 +677,7 @@ public final class StGetPageVisitsAd {
     public static final int GET_SUM_OF_ALL_PAGES_PER_DAY_NULL_FIELD_NUMBER = 1009;
     private boolean getSumOfAllPagesPerDayNull_;
     /**
-     * <code>optional bool get_sum_of_all_pages_per_day_null = 1009;</code>
+     * <code>bool get_sum_of_all_pages_per_day_null = 1009;</code>
      */
     public boolean getGetSumOfAllPagesPerDayNull() {
       return getSumOfAllPagesPerDayNull_;
@@ -916,7 +916,7 @@ public final class StGetPageVisitsAd {
         return memoizedHashCode;
       }
       int hash = 41;
-      hash = (19 * hash) + getDescriptorForType().hashCode();
+      hash = (19 * hash) + getDescriptor().hashCode();
       if (hasComputeSum()) {
         hash = (37 * hash) + COMPUTE_SUM_FIELD_NUMBER;
         hash = (53 * hash) + getComputeSum().hashCode();
@@ -1371,13 +1371,13 @@ public final class StGetPageVisitsAd {
       private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.values.BooleanValue, io.dstore.values.BooleanValue.Builder, io.dstore.values.BooleanValueOrBuilder> computeSumBuilder_;
       /**
-       * <code>optional .dstore.values.BooleanValue compute_sum = 1;</code>
+       * <code>.dstore.values.BooleanValue compute_sum = 1;</code>
        */
       public boolean hasComputeSum() {
         return computeSumBuilder_ != null || computeSum_ != null;
       }
       /**
-       * <code>optional .dstore.values.BooleanValue compute_sum = 1;</code>
+       * <code>.dstore.values.BooleanValue compute_sum = 1;</code>
        */
       public io.dstore.values.BooleanValue getComputeSum() {
         if (computeSumBuilder_ == null) {
@@ -1387,7 +1387,7 @@ public final class StGetPageVisitsAd {
         }
       }
       /**
-       * <code>optional .dstore.values.BooleanValue compute_sum = 1;</code>
+       * <code>.dstore.values.BooleanValue compute_sum = 1;</code>
        */
       public Builder setComputeSum(io.dstore.values.BooleanValue value) {
         if (computeSumBuilder_ == null) {
@@ -1403,7 +1403,7 @@ public final class StGetPageVisitsAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.BooleanValue compute_sum = 1;</code>
+       * <code>.dstore.values.BooleanValue compute_sum = 1;</code>
        */
       public Builder setComputeSum(
           io.dstore.values.BooleanValue.Builder builderForValue) {
@@ -1417,7 +1417,7 @@ public final class StGetPageVisitsAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.BooleanValue compute_sum = 1;</code>
+       * <code>.dstore.values.BooleanValue compute_sum = 1;</code>
        */
       public Builder mergeComputeSum(io.dstore.values.BooleanValue value) {
         if (computeSumBuilder_ == null) {
@@ -1435,7 +1435,7 @@ public final class StGetPageVisitsAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.BooleanValue compute_sum = 1;</code>
+       * <code>.dstore.values.BooleanValue compute_sum = 1;</code>
        */
       public Builder clearComputeSum() {
         if (computeSumBuilder_ == null) {
@@ -1449,7 +1449,7 @@ public final class StGetPageVisitsAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.BooleanValue compute_sum = 1;</code>
+       * <code>.dstore.values.BooleanValue compute_sum = 1;</code>
        */
       public io.dstore.values.BooleanValue.Builder getComputeSumBuilder() {
         
@@ -1457,7 +1457,7 @@ public final class StGetPageVisitsAd {
         return getComputeSumFieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .dstore.values.BooleanValue compute_sum = 1;</code>
+       * <code>.dstore.values.BooleanValue compute_sum = 1;</code>
        */
       public io.dstore.values.BooleanValueOrBuilder getComputeSumOrBuilder() {
         if (computeSumBuilder_ != null) {
@@ -1468,7 +1468,7 @@ public final class StGetPageVisitsAd {
         }
       }
       /**
-       * <code>optional .dstore.values.BooleanValue compute_sum = 1;</code>
+       * <code>.dstore.values.BooleanValue compute_sum = 1;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.values.BooleanValue, io.dstore.values.BooleanValue.Builder, io.dstore.values.BooleanValueOrBuilder> 
@@ -1486,13 +1486,13 @@ public final class StGetPageVisitsAd {
 
       private boolean computeSumNull_ ;
       /**
-       * <code>optional bool compute_sum_null = 1001;</code>
+       * <code>bool compute_sum_null = 1001;</code>
        */
       public boolean getComputeSumNull() {
         return computeSumNull_;
       }
       /**
-       * <code>optional bool compute_sum_null = 1001;</code>
+       * <code>bool compute_sum_null = 1001;</code>
        */
       public Builder setComputeSumNull(boolean value) {
         
@@ -1501,7 +1501,7 @@ public final class StGetPageVisitsAd {
         return this;
       }
       /**
-       * <code>optional bool compute_sum_null = 1001;</code>
+       * <code>bool compute_sum_null = 1001;</code>
        */
       public Builder clearComputeSumNull() {
         
@@ -1514,13 +1514,13 @@ public final class StGetPageVisitsAd {
       private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.values.TimestampValue, io.dstore.values.TimestampValue.Builder, io.dstore.values.TimestampValueOrBuilder> dayBuilder_;
       /**
-       * <code>optional .dstore.values.TimestampValue day = 2;</code>
+       * <code>.dstore.values.TimestampValue day = 2;</code>
        */
       public boolean hasDay() {
         return dayBuilder_ != null || day_ != null;
       }
       /**
-       * <code>optional .dstore.values.TimestampValue day = 2;</code>
+       * <code>.dstore.values.TimestampValue day = 2;</code>
        */
       public io.dstore.values.TimestampValue getDay() {
         if (dayBuilder_ == null) {
@@ -1530,7 +1530,7 @@ public final class StGetPageVisitsAd {
         }
       }
       /**
-       * <code>optional .dstore.values.TimestampValue day = 2;</code>
+       * <code>.dstore.values.TimestampValue day = 2;</code>
        */
       public Builder setDay(io.dstore.values.TimestampValue value) {
         if (dayBuilder_ == null) {
@@ -1546,7 +1546,7 @@ public final class StGetPageVisitsAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.TimestampValue day = 2;</code>
+       * <code>.dstore.values.TimestampValue day = 2;</code>
        */
       public Builder setDay(
           io.dstore.values.TimestampValue.Builder builderForValue) {
@@ -1560,7 +1560,7 @@ public final class StGetPageVisitsAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.TimestampValue day = 2;</code>
+       * <code>.dstore.values.TimestampValue day = 2;</code>
        */
       public Builder mergeDay(io.dstore.values.TimestampValue value) {
         if (dayBuilder_ == null) {
@@ -1578,7 +1578,7 @@ public final class StGetPageVisitsAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.TimestampValue day = 2;</code>
+       * <code>.dstore.values.TimestampValue day = 2;</code>
        */
       public Builder clearDay() {
         if (dayBuilder_ == null) {
@@ -1592,7 +1592,7 @@ public final class StGetPageVisitsAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.TimestampValue day = 2;</code>
+       * <code>.dstore.values.TimestampValue day = 2;</code>
        */
       public io.dstore.values.TimestampValue.Builder getDayBuilder() {
         
@@ -1600,7 +1600,7 @@ public final class StGetPageVisitsAd {
         return getDayFieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .dstore.values.TimestampValue day = 2;</code>
+       * <code>.dstore.values.TimestampValue day = 2;</code>
        */
       public io.dstore.values.TimestampValueOrBuilder getDayOrBuilder() {
         if (dayBuilder_ != null) {
@@ -1611,7 +1611,7 @@ public final class StGetPageVisitsAd {
         }
       }
       /**
-       * <code>optional .dstore.values.TimestampValue day = 2;</code>
+       * <code>.dstore.values.TimestampValue day = 2;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.values.TimestampValue, io.dstore.values.TimestampValue.Builder, io.dstore.values.TimestampValueOrBuilder> 
@@ -1629,13 +1629,13 @@ public final class StGetPageVisitsAd {
 
       private boolean dayNull_ ;
       /**
-       * <code>optional bool day_null = 1002;</code>
+       * <code>bool day_null = 1002;</code>
        */
       public boolean getDayNull() {
         return dayNull_;
       }
       /**
-       * <code>optional bool day_null = 1002;</code>
+       * <code>bool day_null = 1002;</code>
        */
       public Builder setDayNull(boolean value) {
         
@@ -1644,7 +1644,7 @@ public final class StGetPageVisitsAd {
         return this;
       }
       /**
-       * <code>optional bool day_null = 1002;</code>
+       * <code>bool day_null = 1002;</code>
        */
       public Builder clearDayNull() {
         
@@ -1657,13 +1657,13 @@ public final class StGetPageVisitsAd {
       private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> pageNoBuilder_;
       /**
-       * <code>optional .dstore.values.IntegerValue page_no = 3;</code>
+       * <code>.dstore.values.IntegerValue page_no = 3;</code>
        */
       public boolean hasPageNo() {
         return pageNoBuilder_ != null || pageNo_ != null;
       }
       /**
-       * <code>optional .dstore.values.IntegerValue page_no = 3;</code>
+       * <code>.dstore.values.IntegerValue page_no = 3;</code>
        */
       public io.dstore.values.IntegerValue getPageNo() {
         if (pageNoBuilder_ == null) {
@@ -1673,7 +1673,7 @@ public final class StGetPageVisitsAd {
         }
       }
       /**
-       * <code>optional .dstore.values.IntegerValue page_no = 3;</code>
+       * <code>.dstore.values.IntegerValue page_no = 3;</code>
        */
       public Builder setPageNo(io.dstore.values.IntegerValue value) {
         if (pageNoBuilder_ == null) {
@@ -1689,7 +1689,7 @@ public final class StGetPageVisitsAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.IntegerValue page_no = 3;</code>
+       * <code>.dstore.values.IntegerValue page_no = 3;</code>
        */
       public Builder setPageNo(
           io.dstore.values.IntegerValue.Builder builderForValue) {
@@ -1703,7 +1703,7 @@ public final class StGetPageVisitsAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.IntegerValue page_no = 3;</code>
+       * <code>.dstore.values.IntegerValue page_no = 3;</code>
        */
       public Builder mergePageNo(io.dstore.values.IntegerValue value) {
         if (pageNoBuilder_ == null) {
@@ -1721,7 +1721,7 @@ public final class StGetPageVisitsAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.IntegerValue page_no = 3;</code>
+       * <code>.dstore.values.IntegerValue page_no = 3;</code>
        */
       public Builder clearPageNo() {
         if (pageNoBuilder_ == null) {
@@ -1735,7 +1735,7 @@ public final class StGetPageVisitsAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.IntegerValue page_no = 3;</code>
+       * <code>.dstore.values.IntegerValue page_no = 3;</code>
        */
       public io.dstore.values.IntegerValue.Builder getPageNoBuilder() {
         
@@ -1743,7 +1743,7 @@ public final class StGetPageVisitsAd {
         return getPageNoFieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .dstore.values.IntegerValue page_no = 3;</code>
+       * <code>.dstore.values.IntegerValue page_no = 3;</code>
        */
       public io.dstore.values.IntegerValueOrBuilder getPageNoOrBuilder() {
         if (pageNoBuilder_ != null) {
@@ -1754,7 +1754,7 @@ public final class StGetPageVisitsAd {
         }
       }
       /**
-       * <code>optional .dstore.values.IntegerValue page_no = 3;</code>
+       * <code>.dstore.values.IntegerValue page_no = 3;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> 
@@ -1772,13 +1772,13 @@ public final class StGetPageVisitsAd {
 
       private boolean pageNoNull_ ;
       /**
-       * <code>optional bool page_no_null = 1003;</code>
+       * <code>bool page_no_null = 1003;</code>
        */
       public boolean getPageNoNull() {
         return pageNoNull_;
       }
       /**
-       * <code>optional bool page_no_null = 1003;</code>
+       * <code>bool page_no_null = 1003;</code>
        */
       public Builder setPageNoNull(boolean value) {
         
@@ -1787,7 +1787,7 @@ public final class StGetPageVisitsAd {
         return this;
       }
       /**
-       * <code>optional bool page_no_null = 1003;</code>
+       * <code>bool page_no_null = 1003;</code>
        */
       public Builder clearPageNoNull() {
         
@@ -1800,13 +1800,13 @@ public final class StGetPageVisitsAd {
       private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.values.TimestampValue, io.dstore.values.TimestampValue.Builder, io.dstore.values.TimestampValueOrBuilder> fromDayBuilder_;
       /**
-       * <code>optional .dstore.values.TimestampValue from_day = 4;</code>
+       * <code>.dstore.values.TimestampValue from_day = 4;</code>
        */
       public boolean hasFromDay() {
         return fromDayBuilder_ != null || fromDay_ != null;
       }
       /**
-       * <code>optional .dstore.values.TimestampValue from_day = 4;</code>
+       * <code>.dstore.values.TimestampValue from_day = 4;</code>
        */
       public io.dstore.values.TimestampValue getFromDay() {
         if (fromDayBuilder_ == null) {
@@ -1816,7 +1816,7 @@ public final class StGetPageVisitsAd {
         }
       }
       /**
-       * <code>optional .dstore.values.TimestampValue from_day = 4;</code>
+       * <code>.dstore.values.TimestampValue from_day = 4;</code>
        */
       public Builder setFromDay(io.dstore.values.TimestampValue value) {
         if (fromDayBuilder_ == null) {
@@ -1832,7 +1832,7 @@ public final class StGetPageVisitsAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.TimestampValue from_day = 4;</code>
+       * <code>.dstore.values.TimestampValue from_day = 4;</code>
        */
       public Builder setFromDay(
           io.dstore.values.TimestampValue.Builder builderForValue) {
@@ -1846,7 +1846,7 @@ public final class StGetPageVisitsAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.TimestampValue from_day = 4;</code>
+       * <code>.dstore.values.TimestampValue from_day = 4;</code>
        */
       public Builder mergeFromDay(io.dstore.values.TimestampValue value) {
         if (fromDayBuilder_ == null) {
@@ -1864,7 +1864,7 @@ public final class StGetPageVisitsAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.TimestampValue from_day = 4;</code>
+       * <code>.dstore.values.TimestampValue from_day = 4;</code>
        */
       public Builder clearFromDay() {
         if (fromDayBuilder_ == null) {
@@ -1878,7 +1878,7 @@ public final class StGetPageVisitsAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.TimestampValue from_day = 4;</code>
+       * <code>.dstore.values.TimestampValue from_day = 4;</code>
        */
       public io.dstore.values.TimestampValue.Builder getFromDayBuilder() {
         
@@ -1886,7 +1886,7 @@ public final class StGetPageVisitsAd {
         return getFromDayFieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .dstore.values.TimestampValue from_day = 4;</code>
+       * <code>.dstore.values.TimestampValue from_day = 4;</code>
        */
       public io.dstore.values.TimestampValueOrBuilder getFromDayOrBuilder() {
         if (fromDayBuilder_ != null) {
@@ -1897,7 +1897,7 @@ public final class StGetPageVisitsAd {
         }
       }
       /**
-       * <code>optional .dstore.values.TimestampValue from_day = 4;</code>
+       * <code>.dstore.values.TimestampValue from_day = 4;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.values.TimestampValue, io.dstore.values.TimestampValue.Builder, io.dstore.values.TimestampValueOrBuilder> 
@@ -1915,13 +1915,13 @@ public final class StGetPageVisitsAd {
 
       private boolean fromDayNull_ ;
       /**
-       * <code>optional bool from_day_null = 1004;</code>
+       * <code>bool from_day_null = 1004;</code>
        */
       public boolean getFromDayNull() {
         return fromDayNull_;
       }
       /**
-       * <code>optional bool from_day_null = 1004;</code>
+       * <code>bool from_day_null = 1004;</code>
        */
       public Builder setFromDayNull(boolean value) {
         
@@ -1930,7 +1930,7 @@ public final class StGetPageVisitsAd {
         return this;
       }
       /**
-       * <code>optional bool from_day_null = 1004;</code>
+       * <code>bool from_day_null = 1004;</code>
        */
       public Builder clearFromDayNull() {
         
@@ -1943,13 +1943,13 @@ public final class StGetPageVisitsAd {
       private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.values.TimestampValue, io.dstore.values.TimestampValue.Builder, io.dstore.values.TimestampValueOrBuilder> toDayBuilder_;
       /**
-       * <code>optional .dstore.values.TimestampValue to_day = 5;</code>
+       * <code>.dstore.values.TimestampValue to_day = 5;</code>
        */
       public boolean hasToDay() {
         return toDayBuilder_ != null || toDay_ != null;
       }
       /**
-       * <code>optional .dstore.values.TimestampValue to_day = 5;</code>
+       * <code>.dstore.values.TimestampValue to_day = 5;</code>
        */
       public io.dstore.values.TimestampValue getToDay() {
         if (toDayBuilder_ == null) {
@@ -1959,7 +1959,7 @@ public final class StGetPageVisitsAd {
         }
       }
       /**
-       * <code>optional .dstore.values.TimestampValue to_day = 5;</code>
+       * <code>.dstore.values.TimestampValue to_day = 5;</code>
        */
       public Builder setToDay(io.dstore.values.TimestampValue value) {
         if (toDayBuilder_ == null) {
@@ -1975,7 +1975,7 @@ public final class StGetPageVisitsAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.TimestampValue to_day = 5;</code>
+       * <code>.dstore.values.TimestampValue to_day = 5;</code>
        */
       public Builder setToDay(
           io.dstore.values.TimestampValue.Builder builderForValue) {
@@ -1989,7 +1989,7 @@ public final class StGetPageVisitsAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.TimestampValue to_day = 5;</code>
+       * <code>.dstore.values.TimestampValue to_day = 5;</code>
        */
       public Builder mergeToDay(io.dstore.values.TimestampValue value) {
         if (toDayBuilder_ == null) {
@@ -2007,7 +2007,7 @@ public final class StGetPageVisitsAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.TimestampValue to_day = 5;</code>
+       * <code>.dstore.values.TimestampValue to_day = 5;</code>
        */
       public Builder clearToDay() {
         if (toDayBuilder_ == null) {
@@ -2021,7 +2021,7 @@ public final class StGetPageVisitsAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.TimestampValue to_day = 5;</code>
+       * <code>.dstore.values.TimestampValue to_day = 5;</code>
        */
       public io.dstore.values.TimestampValue.Builder getToDayBuilder() {
         
@@ -2029,7 +2029,7 @@ public final class StGetPageVisitsAd {
         return getToDayFieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .dstore.values.TimestampValue to_day = 5;</code>
+       * <code>.dstore.values.TimestampValue to_day = 5;</code>
        */
       public io.dstore.values.TimestampValueOrBuilder getToDayOrBuilder() {
         if (toDayBuilder_ != null) {
@@ -2040,7 +2040,7 @@ public final class StGetPageVisitsAd {
         }
       }
       /**
-       * <code>optional .dstore.values.TimestampValue to_day = 5;</code>
+       * <code>.dstore.values.TimestampValue to_day = 5;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.values.TimestampValue, io.dstore.values.TimestampValue.Builder, io.dstore.values.TimestampValueOrBuilder> 
@@ -2058,13 +2058,13 @@ public final class StGetPageVisitsAd {
 
       private boolean toDayNull_ ;
       /**
-       * <code>optional bool to_day_null = 1005;</code>
+       * <code>bool to_day_null = 1005;</code>
        */
       public boolean getToDayNull() {
         return toDayNull_;
       }
       /**
-       * <code>optional bool to_day_null = 1005;</code>
+       * <code>bool to_day_null = 1005;</code>
        */
       public Builder setToDayNull(boolean value) {
         
@@ -2073,7 +2073,7 @@ public final class StGetPageVisitsAd {
         return this;
       }
       /**
-       * <code>optional bool to_day_null = 1005;</code>
+       * <code>bool to_day_null = 1005;</code>
        */
       public Builder clearToDayNull() {
         
@@ -2086,13 +2086,13 @@ public final class StGetPageVisitsAd {
       private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> pageCategoryIdBuilder_;
       /**
-       * <code>optional .dstore.values.IntegerValue page_category_id = 6;</code>
+       * <code>.dstore.values.IntegerValue page_category_id = 6;</code>
        */
       public boolean hasPageCategoryId() {
         return pageCategoryIdBuilder_ != null || pageCategoryId_ != null;
       }
       /**
-       * <code>optional .dstore.values.IntegerValue page_category_id = 6;</code>
+       * <code>.dstore.values.IntegerValue page_category_id = 6;</code>
        */
       public io.dstore.values.IntegerValue getPageCategoryId() {
         if (pageCategoryIdBuilder_ == null) {
@@ -2102,7 +2102,7 @@ public final class StGetPageVisitsAd {
         }
       }
       /**
-       * <code>optional .dstore.values.IntegerValue page_category_id = 6;</code>
+       * <code>.dstore.values.IntegerValue page_category_id = 6;</code>
        */
       public Builder setPageCategoryId(io.dstore.values.IntegerValue value) {
         if (pageCategoryIdBuilder_ == null) {
@@ -2118,7 +2118,7 @@ public final class StGetPageVisitsAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.IntegerValue page_category_id = 6;</code>
+       * <code>.dstore.values.IntegerValue page_category_id = 6;</code>
        */
       public Builder setPageCategoryId(
           io.dstore.values.IntegerValue.Builder builderForValue) {
@@ -2132,7 +2132,7 @@ public final class StGetPageVisitsAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.IntegerValue page_category_id = 6;</code>
+       * <code>.dstore.values.IntegerValue page_category_id = 6;</code>
        */
       public Builder mergePageCategoryId(io.dstore.values.IntegerValue value) {
         if (pageCategoryIdBuilder_ == null) {
@@ -2150,7 +2150,7 @@ public final class StGetPageVisitsAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.IntegerValue page_category_id = 6;</code>
+       * <code>.dstore.values.IntegerValue page_category_id = 6;</code>
        */
       public Builder clearPageCategoryId() {
         if (pageCategoryIdBuilder_ == null) {
@@ -2164,7 +2164,7 @@ public final class StGetPageVisitsAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.IntegerValue page_category_id = 6;</code>
+       * <code>.dstore.values.IntegerValue page_category_id = 6;</code>
        */
       public io.dstore.values.IntegerValue.Builder getPageCategoryIdBuilder() {
         
@@ -2172,7 +2172,7 @@ public final class StGetPageVisitsAd {
         return getPageCategoryIdFieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .dstore.values.IntegerValue page_category_id = 6;</code>
+       * <code>.dstore.values.IntegerValue page_category_id = 6;</code>
        */
       public io.dstore.values.IntegerValueOrBuilder getPageCategoryIdOrBuilder() {
         if (pageCategoryIdBuilder_ != null) {
@@ -2183,7 +2183,7 @@ public final class StGetPageVisitsAd {
         }
       }
       /**
-       * <code>optional .dstore.values.IntegerValue page_category_id = 6;</code>
+       * <code>.dstore.values.IntegerValue page_category_id = 6;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> 
@@ -2201,13 +2201,13 @@ public final class StGetPageVisitsAd {
 
       private boolean pageCategoryIdNull_ ;
       /**
-       * <code>optional bool page_category_id_null = 1006;</code>
+       * <code>bool page_category_id_null = 1006;</code>
        */
       public boolean getPageCategoryIdNull() {
         return pageCategoryIdNull_;
       }
       /**
-       * <code>optional bool page_category_id_null = 1006;</code>
+       * <code>bool page_category_id_null = 1006;</code>
        */
       public Builder setPageCategoryIdNull(boolean value) {
         
@@ -2216,7 +2216,7 @@ public final class StGetPageVisitsAd {
         return this;
       }
       /**
-       * <code>optional bool page_category_id_null = 1006;</code>
+       * <code>bool page_category_id_null = 1006;</code>
        */
       public Builder clearPageCategoryIdNull() {
         
@@ -2229,13 +2229,13 @@ public final class StGetPageVisitsAd {
       private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.values.BooleanValue, io.dstore.values.BooleanValue.Builder, io.dstore.values.BooleanValueOrBuilder> groupByCategoryBuilder_;
       /**
-       * <code>optional .dstore.values.BooleanValue group_by_category = 7;</code>
+       * <code>.dstore.values.BooleanValue group_by_category = 7;</code>
        */
       public boolean hasGroupByCategory() {
         return groupByCategoryBuilder_ != null || groupByCategory_ != null;
       }
       /**
-       * <code>optional .dstore.values.BooleanValue group_by_category = 7;</code>
+       * <code>.dstore.values.BooleanValue group_by_category = 7;</code>
        */
       public io.dstore.values.BooleanValue getGroupByCategory() {
         if (groupByCategoryBuilder_ == null) {
@@ -2245,7 +2245,7 @@ public final class StGetPageVisitsAd {
         }
       }
       /**
-       * <code>optional .dstore.values.BooleanValue group_by_category = 7;</code>
+       * <code>.dstore.values.BooleanValue group_by_category = 7;</code>
        */
       public Builder setGroupByCategory(io.dstore.values.BooleanValue value) {
         if (groupByCategoryBuilder_ == null) {
@@ -2261,7 +2261,7 @@ public final class StGetPageVisitsAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.BooleanValue group_by_category = 7;</code>
+       * <code>.dstore.values.BooleanValue group_by_category = 7;</code>
        */
       public Builder setGroupByCategory(
           io.dstore.values.BooleanValue.Builder builderForValue) {
@@ -2275,7 +2275,7 @@ public final class StGetPageVisitsAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.BooleanValue group_by_category = 7;</code>
+       * <code>.dstore.values.BooleanValue group_by_category = 7;</code>
        */
       public Builder mergeGroupByCategory(io.dstore.values.BooleanValue value) {
         if (groupByCategoryBuilder_ == null) {
@@ -2293,7 +2293,7 @@ public final class StGetPageVisitsAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.BooleanValue group_by_category = 7;</code>
+       * <code>.dstore.values.BooleanValue group_by_category = 7;</code>
        */
       public Builder clearGroupByCategory() {
         if (groupByCategoryBuilder_ == null) {
@@ -2307,7 +2307,7 @@ public final class StGetPageVisitsAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.BooleanValue group_by_category = 7;</code>
+       * <code>.dstore.values.BooleanValue group_by_category = 7;</code>
        */
       public io.dstore.values.BooleanValue.Builder getGroupByCategoryBuilder() {
         
@@ -2315,7 +2315,7 @@ public final class StGetPageVisitsAd {
         return getGroupByCategoryFieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .dstore.values.BooleanValue group_by_category = 7;</code>
+       * <code>.dstore.values.BooleanValue group_by_category = 7;</code>
        */
       public io.dstore.values.BooleanValueOrBuilder getGroupByCategoryOrBuilder() {
         if (groupByCategoryBuilder_ != null) {
@@ -2326,7 +2326,7 @@ public final class StGetPageVisitsAd {
         }
       }
       /**
-       * <code>optional .dstore.values.BooleanValue group_by_category = 7;</code>
+       * <code>.dstore.values.BooleanValue group_by_category = 7;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.values.BooleanValue, io.dstore.values.BooleanValue.Builder, io.dstore.values.BooleanValueOrBuilder> 
@@ -2344,13 +2344,13 @@ public final class StGetPageVisitsAd {
 
       private boolean groupByCategoryNull_ ;
       /**
-       * <code>optional bool group_by_category_null = 1007;</code>
+       * <code>bool group_by_category_null = 1007;</code>
        */
       public boolean getGroupByCategoryNull() {
         return groupByCategoryNull_;
       }
       /**
-       * <code>optional bool group_by_category_null = 1007;</code>
+       * <code>bool group_by_category_null = 1007;</code>
        */
       public Builder setGroupByCategoryNull(boolean value) {
         
@@ -2359,7 +2359,7 @@ public final class StGetPageVisitsAd {
         return this;
       }
       /**
-       * <code>optional bool group_by_category_null = 1007;</code>
+       * <code>bool group_by_category_null = 1007;</code>
        */
       public Builder clearGroupByCategoryNull() {
         
@@ -2372,13 +2372,13 @@ public final class StGetPageVisitsAd {
       private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.values.BooleanValue, io.dstore.values.BooleanValue.Builder, io.dstore.values.BooleanValueOrBuilder> orderByDayBuilder_;
       /**
-       * <code>optional .dstore.values.BooleanValue order_by_day = 8;</code>
+       * <code>.dstore.values.BooleanValue order_by_day = 8;</code>
        */
       public boolean hasOrderByDay() {
         return orderByDayBuilder_ != null || orderByDay_ != null;
       }
       /**
-       * <code>optional .dstore.values.BooleanValue order_by_day = 8;</code>
+       * <code>.dstore.values.BooleanValue order_by_day = 8;</code>
        */
       public io.dstore.values.BooleanValue getOrderByDay() {
         if (orderByDayBuilder_ == null) {
@@ -2388,7 +2388,7 @@ public final class StGetPageVisitsAd {
         }
       }
       /**
-       * <code>optional .dstore.values.BooleanValue order_by_day = 8;</code>
+       * <code>.dstore.values.BooleanValue order_by_day = 8;</code>
        */
       public Builder setOrderByDay(io.dstore.values.BooleanValue value) {
         if (orderByDayBuilder_ == null) {
@@ -2404,7 +2404,7 @@ public final class StGetPageVisitsAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.BooleanValue order_by_day = 8;</code>
+       * <code>.dstore.values.BooleanValue order_by_day = 8;</code>
        */
       public Builder setOrderByDay(
           io.dstore.values.BooleanValue.Builder builderForValue) {
@@ -2418,7 +2418,7 @@ public final class StGetPageVisitsAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.BooleanValue order_by_day = 8;</code>
+       * <code>.dstore.values.BooleanValue order_by_day = 8;</code>
        */
       public Builder mergeOrderByDay(io.dstore.values.BooleanValue value) {
         if (orderByDayBuilder_ == null) {
@@ -2436,7 +2436,7 @@ public final class StGetPageVisitsAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.BooleanValue order_by_day = 8;</code>
+       * <code>.dstore.values.BooleanValue order_by_day = 8;</code>
        */
       public Builder clearOrderByDay() {
         if (orderByDayBuilder_ == null) {
@@ -2450,7 +2450,7 @@ public final class StGetPageVisitsAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.BooleanValue order_by_day = 8;</code>
+       * <code>.dstore.values.BooleanValue order_by_day = 8;</code>
        */
       public io.dstore.values.BooleanValue.Builder getOrderByDayBuilder() {
         
@@ -2458,7 +2458,7 @@ public final class StGetPageVisitsAd {
         return getOrderByDayFieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .dstore.values.BooleanValue order_by_day = 8;</code>
+       * <code>.dstore.values.BooleanValue order_by_day = 8;</code>
        */
       public io.dstore.values.BooleanValueOrBuilder getOrderByDayOrBuilder() {
         if (orderByDayBuilder_ != null) {
@@ -2469,7 +2469,7 @@ public final class StGetPageVisitsAd {
         }
       }
       /**
-       * <code>optional .dstore.values.BooleanValue order_by_day = 8;</code>
+       * <code>.dstore.values.BooleanValue order_by_day = 8;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.values.BooleanValue, io.dstore.values.BooleanValue.Builder, io.dstore.values.BooleanValueOrBuilder> 
@@ -2487,13 +2487,13 @@ public final class StGetPageVisitsAd {
 
       private boolean orderByDayNull_ ;
       /**
-       * <code>optional bool order_by_day_null = 1008;</code>
+       * <code>bool order_by_day_null = 1008;</code>
        */
       public boolean getOrderByDayNull() {
         return orderByDayNull_;
       }
       /**
-       * <code>optional bool order_by_day_null = 1008;</code>
+       * <code>bool order_by_day_null = 1008;</code>
        */
       public Builder setOrderByDayNull(boolean value) {
         
@@ -2502,7 +2502,7 @@ public final class StGetPageVisitsAd {
         return this;
       }
       /**
-       * <code>optional bool order_by_day_null = 1008;</code>
+       * <code>bool order_by_day_null = 1008;</code>
        */
       public Builder clearOrderByDayNull() {
         
@@ -2515,13 +2515,13 @@ public final class StGetPageVisitsAd {
       private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.values.BooleanValue, io.dstore.values.BooleanValue.Builder, io.dstore.values.BooleanValueOrBuilder> getSumOfAllPagesPerDayBuilder_;
       /**
-       * <code>optional .dstore.values.BooleanValue get_sum_of_all_pages_per_day = 9;</code>
+       * <code>.dstore.values.BooleanValue get_sum_of_all_pages_per_day = 9;</code>
        */
       public boolean hasGetSumOfAllPagesPerDay() {
         return getSumOfAllPagesPerDayBuilder_ != null || getSumOfAllPagesPerDay_ != null;
       }
       /**
-       * <code>optional .dstore.values.BooleanValue get_sum_of_all_pages_per_day = 9;</code>
+       * <code>.dstore.values.BooleanValue get_sum_of_all_pages_per_day = 9;</code>
        */
       public io.dstore.values.BooleanValue getGetSumOfAllPagesPerDay() {
         if (getSumOfAllPagesPerDayBuilder_ == null) {
@@ -2531,7 +2531,7 @@ public final class StGetPageVisitsAd {
         }
       }
       /**
-       * <code>optional .dstore.values.BooleanValue get_sum_of_all_pages_per_day = 9;</code>
+       * <code>.dstore.values.BooleanValue get_sum_of_all_pages_per_day = 9;</code>
        */
       public Builder setGetSumOfAllPagesPerDay(io.dstore.values.BooleanValue value) {
         if (getSumOfAllPagesPerDayBuilder_ == null) {
@@ -2547,7 +2547,7 @@ public final class StGetPageVisitsAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.BooleanValue get_sum_of_all_pages_per_day = 9;</code>
+       * <code>.dstore.values.BooleanValue get_sum_of_all_pages_per_day = 9;</code>
        */
       public Builder setGetSumOfAllPagesPerDay(
           io.dstore.values.BooleanValue.Builder builderForValue) {
@@ -2561,7 +2561,7 @@ public final class StGetPageVisitsAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.BooleanValue get_sum_of_all_pages_per_day = 9;</code>
+       * <code>.dstore.values.BooleanValue get_sum_of_all_pages_per_day = 9;</code>
        */
       public Builder mergeGetSumOfAllPagesPerDay(io.dstore.values.BooleanValue value) {
         if (getSumOfAllPagesPerDayBuilder_ == null) {
@@ -2579,7 +2579,7 @@ public final class StGetPageVisitsAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.BooleanValue get_sum_of_all_pages_per_day = 9;</code>
+       * <code>.dstore.values.BooleanValue get_sum_of_all_pages_per_day = 9;</code>
        */
       public Builder clearGetSumOfAllPagesPerDay() {
         if (getSumOfAllPagesPerDayBuilder_ == null) {
@@ -2593,7 +2593,7 @@ public final class StGetPageVisitsAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.BooleanValue get_sum_of_all_pages_per_day = 9;</code>
+       * <code>.dstore.values.BooleanValue get_sum_of_all_pages_per_day = 9;</code>
        */
       public io.dstore.values.BooleanValue.Builder getGetSumOfAllPagesPerDayBuilder() {
         
@@ -2601,7 +2601,7 @@ public final class StGetPageVisitsAd {
         return getGetSumOfAllPagesPerDayFieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .dstore.values.BooleanValue get_sum_of_all_pages_per_day = 9;</code>
+       * <code>.dstore.values.BooleanValue get_sum_of_all_pages_per_day = 9;</code>
        */
       public io.dstore.values.BooleanValueOrBuilder getGetSumOfAllPagesPerDayOrBuilder() {
         if (getSumOfAllPagesPerDayBuilder_ != null) {
@@ -2612,7 +2612,7 @@ public final class StGetPageVisitsAd {
         }
       }
       /**
-       * <code>optional .dstore.values.BooleanValue get_sum_of_all_pages_per_day = 9;</code>
+       * <code>.dstore.values.BooleanValue get_sum_of_all_pages_per_day = 9;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.values.BooleanValue, io.dstore.values.BooleanValue.Builder, io.dstore.values.BooleanValueOrBuilder> 
@@ -2630,13 +2630,13 @@ public final class StGetPageVisitsAd {
 
       private boolean getSumOfAllPagesPerDayNull_ ;
       /**
-       * <code>optional bool get_sum_of_all_pages_per_day_null = 1009;</code>
+       * <code>bool get_sum_of_all_pages_per_day_null = 1009;</code>
        */
       public boolean getGetSumOfAllPagesPerDayNull() {
         return getSumOfAllPagesPerDayNull_;
       }
       /**
-       * <code>optional bool get_sum_of_all_pages_per_day_null = 1009;</code>
+       * <code>bool get_sum_of_all_pages_per_day_null = 1009;</code>
        */
       public Builder setGetSumOfAllPagesPerDayNull(boolean value) {
         
@@ -2645,7 +2645,7 @@ public final class StGetPageVisitsAd {
         return this;
       }
       /**
-       * <code>optional bool get_sum_of_all_pages_per_day_null = 1009;</code>
+       * <code>bool get_sum_of_all_pages_per_day_null = 1009;</code>
        */
       public Builder clearGetSumOfAllPagesPerDayNull() {
         
@@ -2904,7 +2904,7 @@ public final class StGetPageVisitsAd {
         com.google.protobuf.MessageOrBuilder {
 
       /**
-       * <code>optional int32 row_id = 10000;</code>
+       * <code>int32 row_id = 10000;</code>
        */
       int getRowId();
 
@@ -2913,7 +2913,7 @@ public final class StGetPageVisitsAd {
        * Gibt an, wie oft die Seite "PageNo" am Tag "Day" aufgerufen wurde
        * </pre>
        *
-       * <code>optional .dstore.values.IntegerValue counter = 10001;</code>
+       * <code>.dstore.values.IntegerValue counter = 10001;</code>
        */
       boolean hasCounter();
       /**
@@ -2921,7 +2921,7 @@ public final class StGetPageVisitsAd {
        * Gibt an, wie oft die Seite "PageNo" am Tag "Day" aufgerufen wurde
        * </pre>
        *
-       * <code>optional .dstore.values.IntegerValue counter = 10001;</code>
+       * <code>.dstore.values.IntegerValue counter = 10001;</code>
        */
       io.dstore.values.IntegerValue getCounter();
       /**
@@ -2929,7 +2929,7 @@ public final class StGetPageVisitsAd {
        * Gibt an, wie oft die Seite "PageNo" am Tag "Day" aufgerufen wurde
        * </pre>
        *
-       * <code>optional .dstore.values.IntegerValue counter = 10001;</code>
+       * <code>.dstore.values.IntegerValue counter = 10001;</code>
        */
       io.dstore.values.IntegerValueOrBuilder getCounterOrBuilder();
 
@@ -2938,7 +2938,7 @@ public final class StGetPageVisitsAd {
        * (Eindeutige) Nummer einer (Bildschirm-)Seite der Client-Anwendung
        * </pre>
        *
-       * <code>optional .dstore.values.IntegerValue page_no = 10002;</code>
+       * <code>.dstore.values.IntegerValue page_no = 10002;</code>
        */
       boolean hasPageNo();
       /**
@@ -2946,7 +2946,7 @@ public final class StGetPageVisitsAd {
        * (Eindeutige) Nummer einer (Bildschirm-)Seite der Client-Anwendung
        * </pre>
        *
-       * <code>optional .dstore.values.IntegerValue page_no = 10002;</code>
+       * <code>.dstore.values.IntegerValue page_no = 10002;</code>
        */
       io.dstore.values.IntegerValue getPageNo();
       /**
@@ -2954,7 +2954,7 @@ public final class StGetPageVisitsAd {
        * (Eindeutige) Nummer einer (Bildschirm-)Seite der Client-Anwendung
        * </pre>
        *
-       * <code>optional .dstore.values.IntegerValue page_no = 10002;</code>
+       * <code>.dstore.values.IntegerValue page_no = 10002;</code>
        */
       io.dstore.values.IntegerValueOrBuilder getPageNoOrBuilder();
 
@@ -2963,7 +2963,7 @@ public final class StGetPageVisitsAd {
        * Name/Bezeichnung der Seite "PageNo"
        * </pre>
        *
-       * <code>optional .dstore.values.StringValue page = 10003;</code>
+       * <code>.dstore.values.StringValue page = 10003;</code>
        */
       boolean hasPage();
       /**
@@ -2971,7 +2971,7 @@ public final class StGetPageVisitsAd {
        * Name/Bezeichnung der Seite "PageNo"
        * </pre>
        *
-       * <code>optional .dstore.values.StringValue page = 10003;</code>
+       * <code>.dstore.values.StringValue page = 10003;</code>
        */
       io.dstore.values.StringValue getPage();
       /**
@@ -2979,7 +2979,7 @@ public final class StGetPageVisitsAd {
        * Name/Bezeichnung der Seite "PageNo"
        * </pre>
        *
-       * <code>optional .dstore.values.StringValue page = 10003;</code>
+       * <code>.dstore.values.StringValue page = 10003;</code>
        */
       io.dstore.values.StringValueOrBuilder getPageOrBuilder();
 
@@ -2988,7 +2988,7 @@ public final class StGetPageVisitsAd {
        * Tagesdatum (Format "15.03.2001") im Zeitraum "&#64;FromDay" bis "&#64;ToDay"
        * </pre>
        *
-       * <code>optional .dstore.values.StringValue day = 10004;</code>
+       * <code>.dstore.values.StringValue day = 10004;</code>
        */
       boolean hasDay();
       /**
@@ -2996,7 +2996,7 @@ public final class StGetPageVisitsAd {
        * Tagesdatum (Format "15.03.2001") im Zeitraum "&#64;FromDay" bis "&#64;ToDay"
        * </pre>
        *
-       * <code>optional .dstore.values.StringValue day = 10004;</code>
+       * <code>.dstore.values.StringValue day = 10004;</code>
        */
       io.dstore.values.StringValue getDay();
       /**
@@ -3004,7 +3004,7 @@ public final class StGetPageVisitsAd {
        * Tagesdatum (Format "15.03.2001") im Zeitraum "&#64;FromDay" bis "&#64;ToDay"
        * </pre>
        *
-       * <code>optional .dstore.values.StringValue day = 10004;</code>
+       * <code>.dstore.values.StringValue day = 10004;</code>
        */
       io.dstore.values.StringValueOrBuilder getDayOrBuilder();
 
@@ -3013,7 +3013,7 @@ public final class StGetPageVisitsAd {
        * ID einer Kategorie für Seiten
        * </pre>
        *
-       * <code>optional .dstore.values.IntegerValue page_category_id = 20002;</code>
+       * <code>.dstore.values.IntegerValue page_category_id = 20002;</code>
        */
       boolean hasPageCategoryId();
       /**
@@ -3021,7 +3021,7 @@ public final class StGetPageVisitsAd {
        * ID einer Kategorie für Seiten
        * </pre>
        *
-       * <code>optional .dstore.values.IntegerValue page_category_id = 20002;</code>
+       * <code>.dstore.values.IntegerValue page_category_id = 20002;</code>
        */
       io.dstore.values.IntegerValue getPageCategoryId();
       /**
@@ -3029,7 +3029,7 @@ public final class StGetPageVisitsAd {
        * ID einer Kategorie für Seiten
        * </pre>
        *
-       * <code>optional .dstore.values.IntegerValue page_category_id = 20002;</code>
+       * <code>.dstore.values.IntegerValue page_category_id = 20002;</code>
        */
       io.dstore.values.IntegerValueOrBuilder getPageCategoryIdOrBuilder();
 
@@ -3038,7 +3038,7 @@ public final class StGetPageVisitsAd {
        * Bezeichung der Kategorie "PageCategoryID"
        * </pre>
        *
-       * <code>optional .dstore.values.StringValue page_category_description = 20003;</code>
+       * <code>.dstore.values.StringValue page_category_description = 20003;</code>
        */
       boolean hasPageCategoryDescription();
       /**
@@ -3046,7 +3046,7 @@ public final class StGetPageVisitsAd {
        * Bezeichung der Kategorie "PageCategoryID"
        * </pre>
        *
-       * <code>optional .dstore.values.StringValue page_category_description = 20003;</code>
+       * <code>.dstore.values.StringValue page_category_description = 20003;</code>
        */
       io.dstore.values.StringValue getPageCategoryDescription();
       /**
@@ -3054,7 +3054,7 @@ public final class StGetPageVisitsAd {
        * Bezeichung der Kategorie "PageCategoryID"
        * </pre>
        *
-       * <code>optional .dstore.values.StringValue page_category_description = 20003;</code>
+       * <code>.dstore.values.StringValue page_category_description = 20003;</code>
        */
       io.dstore.values.StringValueOrBuilder getPageCategoryDescriptionOrBuilder();
     }
@@ -3207,7 +3207,7 @@ public final class StGetPageVisitsAd {
       public static final int ROW_ID_FIELD_NUMBER = 10000;
       private int rowId_;
       /**
-       * <code>optional int32 row_id = 10000;</code>
+       * <code>int32 row_id = 10000;</code>
        */
       public int getRowId() {
         return rowId_;
@@ -3220,7 +3220,7 @@ public final class StGetPageVisitsAd {
        * Gibt an, wie oft die Seite "PageNo" am Tag "Day" aufgerufen wurde
        * </pre>
        *
-       * <code>optional .dstore.values.IntegerValue counter = 10001;</code>
+       * <code>.dstore.values.IntegerValue counter = 10001;</code>
        */
       public boolean hasCounter() {
         return counter_ != null;
@@ -3230,7 +3230,7 @@ public final class StGetPageVisitsAd {
        * Gibt an, wie oft die Seite "PageNo" am Tag "Day" aufgerufen wurde
        * </pre>
        *
-       * <code>optional .dstore.values.IntegerValue counter = 10001;</code>
+       * <code>.dstore.values.IntegerValue counter = 10001;</code>
        */
       public io.dstore.values.IntegerValue getCounter() {
         return counter_ == null ? io.dstore.values.IntegerValue.getDefaultInstance() : counter_;
@@ -3240,7 +3240,7 @@ public final class StGetPageVisitsAd {
        * Gibt an, wie oft die Seite "PageNo" am Tag "Day" aufgerufen wurde
        * </pre>
        *
-       * <code>optional .dstore.values.IntegerValue counter = 10001;</code>
+       * <code>.dstore.values.IntegerValue counter = 10001;</code>
        */
       public io.dstore.values.IntegerValueOrBuilder getCounterOrBuilder() {
         return getCounter();
@@ -3253,7 +3253,7 @@ public final class StGetPageVisitsAd {
        * (Eindeutige) Nummer einer (Bildschirm-)Seite der Client-Anwendung
        * </pre>
        *
-       * <code>optional .dstore.values.IntegerValue page_no = 10002;</code>
+       * <code>.dstore.values.IntegerValue page_no = 10002;</code>
        */
       public boolean hasPageNo() {
         return pageNo_ != null;
@@ -3263,7 +3263,7 @@ public final class StGetPageVisitsAd {
        * (Eindeutige) Nummer einer (Bildschirm-)Seite der Client-Anwendung
        * </pre>
        *
-       * <code>optional .dstore.values.IntegerValue page_no = 10002;</code>
+       * <code>.dstore.values.IntegerValue page_no = 10002;</code>
        */
       public io.dstore.values.IntegerValue getPageNo() {
         return pageNo_ == null ? io.dstore.values.IntegerValue.getDefaultInstance() : pageNo_;
@@ -3273,7 +3273,7 @@ public final class StGetPageVisitsAd {
        * (Eindeutige) Nummer einer (Bildschirm-)Seite der Client-Anwendung
        * </pre>
        *
-       * <code>optional .dstore.values.IntegerValue page_no = 10002;</code>
+       * <code>.dstore.values.IntegerValue page_no = 10002;</code>
        */
       public io.dstore.values.IntegerValueOrBuilder getPageNoOrBuilder() {
         return getPageNo();
@@ -3286,7 +3286,7 @@ public final class StGetPageVisitsAd {
        * Name/Bezeichnung der Seite "PageNo"
        * </pre>
        *
-       * <code>optional .dstore.values.StringValue page = 10003;</code>
+       * <code>.dstore.values.StringValue page = 10003;</code>
        */
       public boolean hasPage() {
         return page_ != null;
@@ -3296,7 +3296,7 @@ public final class StGetPageVisitsAd {
        * Name/Bezeichnung der Seite "PageNo"
        * </pre>
        *
-       * <code>optional .dstore.values.StringValue page = 10003;</code>
+       * <code>.dstore.values.StringValue page = 10003;</code>
        */
       public io.dstore.values.StringValue getPage() {
         return page_ == null ? io.dstore.values.StringValue.getDefaultInstance() : page_;
@@ -3306,7 +3306,7 @@ public final class StGetPageVisitsAd {
        * Name/Bezeichnung der Seite "PageNo"
        * </pre>
        *
-       * <code>optional .dstore.values.StringValue page = 10003;</code>
+       * <code>.dstore.values.StringValue page = 10003;</code>
        */
       public io.dstore.values.StringValueOrBuilder getPageOrBuilder() {
         return getPage();
@@ -3319,7 +3319,7 @@ public final class StGetPageVisitsAd {
        * Tagesdatum (Format "15.03.2001") im Zeitraum "&#64;FromDay" bis "&#64;ToDay"
        * </pre>
        *
-       * <code>optional .dstore.values.StringValue day = 10004;</code>
+       * <code>.dstore.values.StringValue day = 10004;</code>
        */
       public boolean hasDay() {
         return day_ != null;
@@ -3329,7 +3329,7 @@ public final class StGetPageVisitsAd {
        * Tagesdatum (Format "15.03.2001") im Zeitraum "&#64;FromDay" bis "&#64;ToDay"
        * </pre>
        *
-       * <code>optional .dstore.values.StringValue day = 10004;</code>
+       * <code>.dstore.values.StringValue day = 10004;</code>
        */
       public io.dstore.values.StringValue getDay() {
         return day_ == null ? io.dstore.values.StringValue.getDefaultInstance() : day_;
@@ -3339,7 +3339,7 @@ public final class StGetPageVisitsAd {
        * Tagesdatum (Format "15.03.2001") im Zeitraum "&#64;FromDay" bis "&#64;ToDay"
        * </pre>
        *
-       * <code>optional .dstore.values.StringValue day = 10004;</code>
+       * <code>.dstore.values.StringValue day = 10004;</code>
        */
       public io.dstore.values.StringValueOrBuilder getDayOrBuilder() {
         return getDay();
@@ -3352,7 +3352,7 @@ public final class StGetPageVisitsAd {
        * ID einer Kategorie für Seiten
        * </pre>
        *
-       * <code>optional .dstore.values.IntegerValue page_category_id = 20002;</code>
+       * <code>.dstore.values.IntegerValue page_category_id = 20002;</code>
        */
       public boolean hasPageCategoryId() {
         return pageCategoryId_ != null;
@@ -3362,7 +3362,7 @@ public final class StGetPageVisitsAd {
        * ID einer Kategorie für Seiten
        * </pre>
        *
-       * <code>optional .dstore.values.IntegerValue page_category_id = 20002;</code>
+       * <code>.dstore.values.IntegerValue page_category_id = 20002;</code>
        */
       public io.dstore.values.IntegerValue getPageCategoryId() {
         return pageCategoryId_ == null ? io.dstore.values.IntegerValue.getDefaultInstance() : pageCategoryId_;
@@ -3372,7 +3372,7 @@ public final class StGetPageVisitsAd {
        * ID einer Kategorie für Seiten
        * </pre>
        *
-       * <code>optional .dstore.values.IntegerValue page_category_id = 20002;</code>
+       * <code>.dstore.values.IntegerValue page_category_id = 20002;</code>
        */
       public io.dstore.values.IntegerValueOrBuilder getPageCategoryIdOrBuilder() {
         return getPageCategoryId();
@@ -3385,7 +3385,7 @@ public final class StGetPageVisitsAd {
        * Bezeichung der Kategorie "PageCategoryID"
        * </pre>
        *
-       * <code>optional .dstore.values.StringValue page_category_description = 20003;</code>
+       * <code>.dstore.values.StringValue page_category_description = 20003;</code>
        */
       public boolean hasPageCategoryDescription() {
         return pageCategoryDescription_ != null;
@@ -3395,7 +3395,7 @@ public final class StGetPageVisitsAd {
        * Bezeichung der Kategorie "PageCategoryID"
        * </pre>
        *
-       * <code>optional .dstore.values.StringValue page_category_description = 20003;</code>
+       * <code>.dstore.values.StringValue page_category_description = 20003;</code>
        */
       public io.dstore.values.StringValue getPageCategoryDescription() {
         return pageCategoryDescription_ == null ? io.dstore.values.StringValue.getDefaultInstance() : pageCategoryDescription_;
@@ -3405,7 +3405,7 @@ public final class StGetPageVisitsAd {
        * Bezeichung der Kategorie "PageCategoryID"
        * </pre>
        *
-       * <code>optional .dstore.values.StringValue page_category_description = 20003;</code>
+       * <code>.dstore.values.StringValue page_category_description = 20003;</code>
        */
       public io.dstore.values.StringValueOrBuilder getPageCategoryDescriptionOrBuilder() {
         return getPageCategoryDescription();
@@ -3536,7 +3536,7 @@ public final class StGetPageVisitsAd {
           return memoizedHashCode;
         }
         int hash = 41;
-        hash = (19 * hash) + getDescriptorForType().hashCode();
+        hash = (19 * hash) + getDescriptor().hashCode();
         hash = (37 * hash) + ROW_ID_FIELD_NUMBER;
         hash = (53 * hash) + getRowId();
         if (hasCounter()) {
@@ -3862,13 +3862,13 @@ public final class StGetPageVisitsAd {
 
         private int rowId_ ;
         /**
-         * <code>optional int32 row_id = 10000;</code>
+         * <code>int32 row_id = 10000;</code>
          */
         public int getRowId() {
           return rowId_;
         }
         /**
-         * <code>optional int32 row_id = 10000;</code>
+         * <code>int32 row_id = 10000;</code>
          */
         public Builder setRowId(int value) {
           
@@ -3877,7 +3877,7 @@ public final class StGetPageVisitsAd {
           return this;
         }
         /**
-         * <code>optional int32 row_id = 10000;</code>
+         * <code>int32 row_id = 10000;</code>
          */
         public Builder clearRowId() {
           
@@ -3894,7 +3894,7 @@ public final class StGetPageVisitsAd {
          * Gibt an, wie oft die Seite "PageNo" am Tag "Day" aufgerufen wurde
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue counter = 10001;</code>
+         * <code>.dstore.values.IntegerValue counter = 10001;</code>
          */
         public boolean hasCounter() {
           return counterBuilder_ != null || counter_ != null;
@@ -3904,7 +3904,7 @@ public final class StGetPageVisitsAd {
          * Gibt an, wie oft die Seite "PageNo" am Tag "Day" aufgerufen wurde
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue counter = 10001;</code>
+         * <code>.dstore.values.IntegerValue counter = 10001;</code>
          */
         public io.dstore.values.IntegerValue getCounter() {
           if (counterBuilder_ == null) {
@@ -3918,7 +3918,7 @@ public final class StGetPageVisitsAd {
          * Gibt an, wie oft die Seite "PageNo" am Tag "Day" aufgerufen wurde
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue counter = 10001;</code>
+         * <code>.dstore.values.IntegerValue counter = 10001;</code>
          */
         public Builder setCounter(io.dstore.values.IntegerValue value) {
           if (counterBuilder_ == null) {
@@ -3938,7 +3938,7 @@ public final class StGetPageVisitsAd {
          * Gibt an, wie oft die Seite "PageNo" am Tag "Day" aufgerufen wurde
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue counter = 10001;</code>
+         * <code>.dstore.values.IntegerValue counter = 10001;</code>
          */
         public Builder setCounter(
             io.dstore.values.IntegerValue.Builder builderForValue) {
@@ -3956,7 +3956,7 @@ public final class StGetPageVisitsAd {
          * Gibt an, wie oft die Seite "PageNo" am Tag "Day" aufgerufen wurde
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue counter = 10001;</code>
+         * <code>.dstore.values.IntegerValue counter = 10001;</code>
          */
         public Builder mergeCounter(io.dstore.values.IntegerValue value) {
           if (counterBuilder_ == null) {
@@ -3978,7 +3978,7 @@ public final class StGetPageVisitsAd {
          * Gibt an, wie oft die Seite "PageNo" am Tag "Day" aufgerufen wurde
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue counter = 10001;</code>
+         * <code>.dstore.values.IntegerValue counter = 10001;</code>
          */
         public Builder clearCounter() {
           if (counterBuilder_ == null) {
@@ -3996,7 +3996,7 @@ public final class StGetPageVisitsAd {
          * Gibt an, wie oft die Seite "PageNo" am Tag "Day" aufgerufen wurde
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue counter = 10001;</code>
+         * <code>.dstore.values.IntegerValue counter = 10001;</code>
          */
         public io.dstore.values.IntegerValue.Builder getCounterBuilder() {
           
@@ -4008,7 +4008,7 @@ public final class StGetPageVisitsAd {
          * Gibt an, wie oft die Seite "PageNo" am Tag "Day" aufgerufen wurde
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue counter = 10001;</code>
+         * <code>.dstore.values.IntegerValue counter = 10001;</code>
          */
         public io.dstore.values.IntegerValueOrBuilder getCounterOrBuilder() {
           if (counterBuilder_ != null) {
@@ -4023,7 +4023,7 @@ public final class StGetPageVisitsAd {
          * Gibt an, wie oft die Seite "PageNo" am Tag "Day" aufgerufen wurde
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue counter = 10001;</code>
+         * <code>.dstore.values.IntegerValue counter = 10001;</code>
          */
         private com.google.protobuf.SingleFieldBuilderV3<
             io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> 
@@ -4047,7 +4047,7 @@ public final class StGetPageVisitsAd {
          * (Eindeutige) Nummer einer (Bildschirm-)Seite der Client-Anwendung
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue page_no = 10002;</code>
+         * <code>.dstore.values.IntegerValue page_no = 10002;</code>
          */
         public boolean hasPageNo() {
           return pageNoBuilder_ != null || pageNo_ != null;
@@ -4057,7 +4057,7 @@ public final class StGetPageVisitsAd {
          * (Eindeutige) Nummer einer (Bildschirm-)Seite der Client-Anwendung
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue page_no = 10002;</code>
+         * <code>.dstore.values.IntegerValue page_no = 10002;</code>
          */
         public io.dstore.values.IntegerValue getPageNo() {
           if (pageNoBuilder_ == null) {
@@ -4071,7 +4071,7 @@ public final class StGetPageVisitsAd {
          * (Eindeutige) Nummer einer (Bildschirm-)Seite der Client-Anwendung
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue page_no = 10002;</code>
+         * <code>.dstore.values.IntegerValue page_no = 10002;</code>
          */
         public Builder setPageNo(io.dstore.values.IntegerValue value) {
           if (pageNoBuilder_ == null) {
@@ -4091,7 +4091,7 @@ public final class StGetPageVisitsAd {
          * (Eindeutige) Nummer einer (Bildschirm-)Seite der Client-Anwendung
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue page_no = 10002;</code>
+         * <code>.dstore.values.IntegerValue page_no = 10002;</code>
          */
         public Builder setPageNo(
             io.dstore.values.IntegerValue.Builder builderForValue) {
@@ -4109,7 +4109,7 @@ public final class StGetPageVisitsAd {
          * (Eindeutige) Nummer einer (Bildschirm-)Seite der Client-Anwendung
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue page_no = 10002;</code>
+         * <code>.dstore.values.IntegerValue page_no = 10002;</code>
          */
         public Builder mergePageNo(io.dstore.values.IntegerValue value) {
           if (pageNoBuilder_ == null) {
@@ -4131,7 +4131,7 @@ public final class StGetPageVisitsAd {
          * (Eindeutige) Nummer einer (Bildschirm-)Seite der Client-Anwendung
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue page_no = 10002;</code>
+         * <code>.dstore.values.IntegerValue page_no = 10002;</code>
          */
         public Builder clearPageNo() {
           if (pageNoBuilder_ == null) {
@@ -4149,7 +4149,7 @@ public final class StGetPageVisitsAd {
          * (Eindeutige) Nummer einer (Bildschirm-)Seite der Client-Anwendung
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue page_no = 10002;</code>
+         * <code>.dstore.values.IntegerValue page_no = 10002;</code>
          */
         public io.dstore.values.IntegerValue.Builder getPageNoBuilder() {
           
@@ -4161,7 +4161,7 @@ public final class StGetPageVisitsAd {
          * (Eindeutige) Nummer einer (Bildschirm-)Seite der Client-Anwendung
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue page_no = 10002;</code>
+         * <code>.dstore.values.IntegerValue page_no = 10002;</code>
          */
         public io.dstore.values.IntegerValueOrBuilder getPageNoOrBuilder() {
           if (pageNoBuilder_ != null) {
@@ -4176,7 +4176,7 @@ public final class StGetPageVisitsAd {
          * (Eindeutige) Nummer einer (Bildschirm-)Seite der Client-Anwendung
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue page_no = 10002;</code>
+         * <code>.dstore.values.IntegerValue page_no = 10002;</code>
          */
         private com.google.protobuf.SingleFieldBuilderV3<
             io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> 
@@ -4200,7 +4200,7 @@ public final class StGetPageVisitsAd {
          * Name/Bezeichnung der Seite "PageNo"
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue page = 10003;</code>
+         * <code>.dstore.values.StringValue page = 10003;</code>
          */
         public boolean hasPage() {
           return pageBuilder_ != null || page_ != null;
@@ -4210,7 +4210,7 @@ public final class StGetPageVisitsAd {
          * Name/Bezeichnung der Seite "PageNo"
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue page = 10003;</code>
+         * <code>.dstore.values.StringValue page = 10003;</code>
          */
         public io.dstore.values.StringValue getPage() {
           if (pageBuilder_ == null) {
@@ -4224,7 +4224,7 @@ public final class StGetPageVisitsAd {
          * Name/Bezeichnung der Seite "PageNo"
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue page = 10003;</code>
+         * <code>.dstore.values.StringValue page = 10003;</code>
          */
         public Builder setPage(io.dstore.values.StringValue value) {
           if (pageBuilder_ == null) {
@@ -4244,7 +4244,7 @@ public final class StGetPageVisitsAd {
          * Name/Bezeichnung der Seite "PageNo"
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue page = 10003;</code>
+         * <code>.dstore.values.StringValue page = 10003;</code>
          */
         public Builder setPage(
             io.dstore.values.StringValue.Builder builderForValue) {
@@ -4262,7 +4262,7 @@ public final class StGetPageVisitsAd {
          * Name/Bezeichnung der Seite "PageNo"
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue page = 10003;</code>
+         * <code>.dstore.values.StringValue page = 10003;</code>
          */
         public Builder mergePage(io.dstore.values.StringValue value) {
           if (pageBuilder_ == null) {
@@ -4284,7 +4284,7 @@ public final class StGetPageVisitsAd {
          * Name/Bezeichnung der Seite "PageNo"
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue page = 10003;</code>
+         * <code>.dstore.values.StringValue page = 10003;</code>
          */
         public Builder clearPage() {
           if (pageBuilder_ == null) {
@@ -4302,7 +4302,7 @@ public final class StGetPageVisitsAd {
          * Name/Bezeichnung der Seite "PageNo"
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue page = 10003;</code>
+         * <code>.dstore.values.StringValue page = 10003;</code>
          */
         public io.dstore.values.StringValue.Builder getPageBuilder() {
           
@@ -4314,7 +4314,7 @@ public final class StGetPageVisitsAd {
          * Name/Bezeichnung der Seite "PageNo"
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue page = 10003;</code>
+         * <code>.dstore.values.StringValue page = 10003;</code>
          */
         public io.dstore.values.StringValueOrBuilder getPageOrBuilder() {
           if (pageBuilder_ != null) {
@@ -4329,7 +4329,7 @@ public final class StGetPageVisitsAd {
          * Name/Bezeichnung der Seite "PageNo"
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue page = 10003;</code>
+         * <code>.dstore.values.StringValue page = 10003;</code>
          */
         private com.google.protobuf.SingleFieldBuilderV3<
             io.dstore.values.StringValue, io.dstore.values.StringValue.Builder, io.dstore.values.StringValueOrBuilder> 
@@ -4353,7 +4353,7 @@ public final class StGetPageVisitsAd {
          * Tagesdatum (Format "15.03.2001") im Zeitraum "&#64;FromDay" bis "&#64;ToDay"
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue day = 10004;</code>
+         * <code>.dstore.values.StringValue day = 10004;</code>
          */
         public boolean hasDay() {
           return dayBuilder_ != null || day_ != null;
@@ -4363,7 +4363,7 @@ public final class StGetPageVisitsAd {
          * Tagesdatum (Format "15.03.2001") im Zeitraum "&#64;FromDay" bis "&#64;ToDay"
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue day = 10004;</code>
+         * <code>.dstore.values.StringValue day = 10004;</code>
          */
         public io.dstore.values.StringValue getDay() {
           if (dayBuilder_ == null) {
@@ -4377,7 +4377,7 @@ public final class StGetPageVisitsAd {
          * Tagesdatum (Format "15.03.2001") im Zeitraum "&#64;FromDay" bis "&#64;ToDay"
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue day = 10004;</code>
+         * <code>.dstore.values.StringValue day = 10004;</code>
          */
         public Builder setDay(io.dstore.values.StringValue value) {
           if (dayBuilder_ == null) {
@@ -4397,7 +4397,7 @@ public final class StGetPageVisitsAd {
          * Tagesdatum (Format "15.03.2001") im Zeitraum "&#64;FromDay" bis "&#64;ToDay"
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue day = 10004;</code>
+         * <code>.dstore.values.StringValue day = 10004;</code>
          */
         public Builder setDay(
             io.dstore.values.StringValue.Builder builderForValue) {
@@ -4415,7 +4415,7 @@ public final class StGetPageVisitsAd {
          * Tagesdatum (Format "15.03.2001") im Zeitraum "&#64;FromDay" bis "&#64;ToDay"
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue day = 10004;</code>
+         * <code>.dstore.values.StringValue day = 10004;</code>
          */
         public Builder mergeDay(io.dstore.values.StringValue value) {
           if (dayBuilder_ == null) {
@@ -4437,7 +4437,7 @@ public final class StGetPageVisitsAd {
          * Tagesdatum (Format "15.03.2001") im Zeitraum "&#64;FromDay" bis "&#64;ToDay"
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue day = 10004;</code>
+         * <code>.dstore.values.StringValue day = 10004;</code>
          */
         public Builder clearDay() {
           if (dayBuilder_ == null) {
@@ -4455,7 +4455,7 @@ public final class StGetPageVisitsAd {
          * Tagesdatum (Format "15.03.2001") im Zeitraum "&#64;FromDay" bis "&#64;ToDay"
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue day = 10004;</code>
+         * <code>.dstore.values.StringValue day = 10004;</code>
          */
         public io.dstore.values.StringValue.Builder getDayBuilder() {
           
@@ -4467,7 +4467,7 @@ public final class StGetPageVisitsAd {
          * Tagesdatum (Format "15.03.2001") im Zeitraum "&#64;FromDay" bis "&#64;ToDay"
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue day = 10004;</code>
+         * <code>.dstore.values.StringValue day = 10004;</code>
          */
         public io.dstore.values.StringValueOrBuilder getDayOrBuilder() {
           if (dayBuilder_ != null) {
@@ -4482,7 +4482,7 @@ public final class StGetPageVisitsAd {
          * Tagesdatum (Format "15.03.2001") im Zeitraum "&#64;FromDay" bis "&#64;ToDay"
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue day = 10004;</code>
+         * <code>.dstore.values.StringValue day = 10004;</code>
          */
         private com.google.protobuf.SingleFieldBuilderV3<
             io.dstore.values.StringValue, io.dstore.values.StringValue.Builder, io.dstore.values.StringValueOrBuilder> 
@@ -4506,7 +4506,7 @@ public final class StGetPageVisitsAd {
          * ID einer Kategorie für Seiten
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue page_category_id = 20002;</code>
+         * <code>.dstore.values.IntegerValue page_category_id = 20002;</code>
          */
         public boolean hasPageCategoryId() {
           return pageCategoryIdBuilder_ != null || pageCategoryId_ != null;
@@ -4516,7 +4516,7 @@ public final class StGetPageVisitsAd {
          * ID einer Kategorie für Seiten
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue page_category_id = 20002;</code>
+         * <code>.dstore.values.IntegerValue page_category_id = 20002;</code>
          */
         public io.dstore.values.IntegerValue getPageCategoryId() {
           if (pageCategoryIdBuilder_ == null) {
@@ -4530,7 +4530,7 @@ public final class StGetPageVisitsAd {
          * ID einer Kategorie für Seiten
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue page_category_id = 20002;</code>
+         * <code>.dstore.values.IntegerValue page_category_id = 20002;</code>
          */
         public Builder setPageCategoryId(io.dstore.values.IntegerValue value) {
           if (pageCategoryIdBuilder_ == null) {
@@ -4550,7 +4550,7 @@ public final class StGetPageVisitsAd {
          * ID einer Kategorie für Seiten
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue page_category_id = 20002;</code>
+         * <code>.dstore.values.IntegerValue page_category_id = 20002;</code>
          */
         public Builder setPageCategoryId(
             io.dstore.values.IntegerValue.Builder builderForValue) {
@@ -4568,7 +4568,7 @@ public final class StGetPageVisitsAd {
          * ID einer Kategorie für Seiten
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue page_category_id = 20002;</code>
+         * <code>.dstore.values.IntegerValue page_category_id = 20002;</code>
          */
         public Builder mergePageCategoryId(io.dstore.values.IntegerValue value) {
           if (pageCategoryIdBuilder_ == null) {
@@ -4590,7 +4590,7 @@ public final class StGetPageVisitsAd {
          * ID einer Kategorie für Seiten
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue page_category_id = 20002;</code>
+         * <code>.dstore.values.IntegerValue page_category_id = 20002;</code>
          */
         public Builder clearPageCategoryId() {
           if (pageCategoryIdBuilder_ == null) {
@@ -4608,7 +4608,7 @@ public final class StGetPageVisitsAd {
          * ID einer Kategorie für Seiten
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue page_category_id = 20002;</code>
+         * <code>.dstore.values.IntegerValue page_category_id = 20002;</code>
          */
         public io.dstore.values.IntegerValue.Builder getPageCategoryIdBuilder() {
           
@@ -4620,7 +4620,7 @@ public final class StGetPageVisitsAd {
          * ID einer Kategorie für Seiten
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue page_category_id = 20002;</code>
+         * <code>.dstore.values.IntegerValue page_category_id = 20002;</code>
          */
         public io.dstore.values.IntegerValueOrBuilder getPageCategoryIdOrBuilder() {
           if (pageCategoryIdBuilder_ != null) {
@@ -4635,7 +4635,7 @@ public final class StGetPageVisitsAd {
          * ID einer Kategorie für Seiten
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue page_category_id = 20002;</code>
+         * <code>.dstore.values.IntegerValue page_category_id = 20002;</code>
          */
         private com.google.protobuf.SingleFieldBuilderV3<
             io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> 
@@ -4659,7 +4659,7 @@ public final class StGetPageVisitsAd {
          * Bezeichung der Kategorie "PageCategoryID"
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue page_category_description = 20003;</code>
+         * <code>.dstore.values.StringValue page_category_description = 20003;</code>
          */
         public boolean hasPageCategoryDescription() {
           return pageCategoryDescriptionBuilder_ != null || pageCategoryDescription_ != null;
@@ -4669,7 +4669,7 @@ public final class StGetPageVisitsAd {
          * Bezeichung der Kategorie "PageCategoryID"
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue page_category_description = 20003;</code>
+         * <code>.dstore.values.StringValue page_category_description = 20003;</code>
          */
         public io.dstore.values.StringValue getPageCategoryDescription() {
           if (pageCategoryDescriptionBuilder_ == null) {
@@ -4683,7 +4683,7 @@ public final class StGetPageVisitsAd {
          * Bezeichung der Kategorie "PageCategoryID"
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue page_category_description = 20003;</code>
+         * <code>.dstore.values.StringValue page_category_description = 20003;</code>
          */
         public Builder setPageCategoryDescription(io.dstore.values.StringValue value) {
           if (pageCategoryDescriptionBuilder_ == null) {
@@ -4703,7 +4703,7 @@ public final class StGetPageVisitsAd {
          * Bezeichung der Kategorie "PageCategoryID"
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue page_category_description = 20003;</code>
+         * <code>.dstore.values.StringValue page_category_description = 20003;</code>
          */
         public Builder setPageCategoryDescription(
             io.dstore.values.StringValue.Builder builderForValue) {
@@ -4721,7 +4721,7 @@ public final class StGetPageVisitsAd {
          * Bezeichung der Kategorie "PageCategoryID"
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue page_category_description = 20003;</code>
+         * <code>.dstore.values.StringValue page_category_description = 20003;</code>
          */
         public Builder mergePageCategoryDescription(io.dstore.values.StringValue value) {
           if (pageCategoryDescriptionBuilder_ == null) {
@@ -4743,7 +4743,7 @@ public final class StGetPageVisitsAd {
          * Bezeichung der Kategorie "PageCategoryID"
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue page_category_description = 20003;</code>
+         * <code>.dstore.values.StringValue page_category_description = 20003;</code>
          */
         public Builder clearPageCategoryDescription() {
           if (pageCategoryDescriptionBuilder_ == null) {
@@ -4761,7 +4761,7 @@ public final class StGetPageVisitsAd {
          * Bezeichung der Kategorie "PageCategoryID"
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue page_category_description = 20003;</code>
+         * <code>.dstore.values.StringValue page_category_description = 20003;</code>
          */
         public io.dstore.values.StringValue.Builder getPageCategoryDescriptionBuilder() {
           
@@ -4773,7 +4773,7 @@ public final class StGetPageVisitsAd {
          * Bezeichung der Kategorie "PageCategoryID"
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue page_category_description = 20003;</code>
+         * <code>.dstore.values.StringValue page_category_description = 20003;</code>
          */
         public io.dstore.values.StringValueOrBuilder getPageCategoryDescriptionOrBuilder() {
           if (pageCategoryDescriptionBuilder_ != null) {
@@ -4788,7 +4788,7 @@ public final class StGetPageVisitsAd {
          * Bezeichung der Kategorie "PageCategoryID"
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue page_category_description = 20003;</code>
+         * <code>.dstore.values.StringValue page_category_description = 20003;</code>
          */
         private com.google.protobuf.SingleFieldBuilderV3<
             io.dstore.values.StringValue, io.dstore.values.StringValue.Builder, io.dstore.values.StringValueOrBuilder> 
@@ -5048,7 +5048,7 @@ public final class StGetPageVisitsAd {
         return memoizedHashCode;
       }
       int hash = 41;
-      hash = (19 * hash) + getDescriptorForType().hashCode();
+      hash = (19 * hash) + getDescriptor().hashCode();
       if (getMetaInformationCount() > 0) {
         hash = (37 * hash) + META_INFORMATION_FIELD_NUMBER;
         hash = (53 * hash) + getMetaInformationList().hashCode();

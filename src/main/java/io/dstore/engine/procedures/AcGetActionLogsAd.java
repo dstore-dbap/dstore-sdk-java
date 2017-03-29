@@ -19,38 +19,38 @@ public final class AcGetActionLogsAd {
       com.google.protobuf.MessageOrBuilder {
 
     /**
-     * <code>optional .dstore.values.IntegerValue action_id = 1;</code>
+     * <code>.dstore.values.IntegerValue action_id = 1;</code>
      */
     boolean hasActionId();
     /**
-     * <code>optional .dstore.values.IntegerValue action_id = 1;</code>
+     * <code>.dstore.values.IntegerValue action_id = 1;</code>
      */
     io.dstore.values.IntegerValue getActionId();
     /**
-     * <code>optional .dstore.values.IntegerValue action_id = 1;</code>
+     * <code>.dstore.values.IntegerValue action_id = 1;</code>
      */
     io.dstore.values.IntegerValueOrBuilder getActionIdOrBuilder();
 
     /**
-     * <code>optional bool action_id_null = 1001;</code>
+     * <code>bool action_id_null = 1001;</code>
      */
     boolean getActionIdNull();
 
     /**
-     * <code>optional .dstore.values.IntegerValue only_part_no = 2;</code>
+     * <code>.dstore.values.IntegerValue only_part_no = 2;</code>
      */
     boolean hasOnlyPartNo();
     /**
-     * <code>optional .dstore.values.IntegerValue only_part_no = 2;</code>
+     * <code>.dstore.values.IntegerValue only_part_no = 2;</code>
      */
     io.dstore.values.IntegerValue getOnlyPartNo();
     /**
-     * <code>optional .dstore.values.IntegerValue only_part_no = 2;</code>
+     * <code>.dstore.values.IntegerValue only_part_no = 2;</code>
      */
     io.dstore.values.IntegerValueOrBuilder getOnlyPartNoOrBuilder();
 
     /**
-     * <code>optional bool only_part_no_null = 1002;</code>
+     * <code>bool only_part_no_null = 1002;</code>
      */
     boolean getOnlyPartNoNull();
   }
@@ -157,19 +157,19 @@ public final class AcGetActionLogsAd {
     public static final int ACTION_ID_FIELD_NUMBER = 1;
     private io.dstore.values.IntegerValue actionId_;
     /**
-     * <code>optional .dstore.values.IntegerValue action_id = 1;</code>
+     * <code>.dstore.values.IntegerValue action_id = 1;</code>
      */
     public boolean hasActionId() {
       return actionId_ != null;
     }
     /**
-     * <code>optional .dstore.values.IntegerValue action_id = 1;</code>
+     * <code>.dstore.values.IntegerValue action_id = 1;</code>
      */
     public io.dstore.values.IntegerValue getActionId() {
       return actionId_ == null ? io.dstore.values.IntegerValue.getDefaultInstance() : actionId_;
     }
     /**
-     * <code>optional .dstore.values.IntegerValue action_id = 1;</code>
+     * <code>.dstore.values.IntegerValue action_id = 1;</code>
      */
     public io.dstore.values.IntegerValueOrBuilder getActionIdOrBuilder() {
       return getActionId();
@@ -178,7 +178,7 @@ public final class AcGetActionLogsAd {
     public static final int ACTION_ID_NULL_FIELD_NUMBER = 1001;
     private boolean actionIdNull_;
     /**
-     * <code>optional bool action_id_null = 1001;</code>
+     * <code>bool action_id_null = 1001;</code>
      */
     public boolean getActionIdNull() {
       return actionIdNull_;
@@ -187,19 +187,19 @@ public final class AcGetActionLogsAd {
     public static final int ONLY_PART_NO_FIELD_NUMBER = 2;
     private io.dstore.values.IntegerValue onlyPartNo_;
     /**
-     * <code>optional .dstore.values.IntegerValue only_part_no = 2;</code>
+     * <code>.dstore.values.IntegerValue only_part_no = 2;</code>
      */
     public boolean hasOnlyPartNo() {
       return onlyPartNo_ != null;
     }
     /**
-     * <code>optional .dstore.values.IntegerValue only_part_no = 2;</code>
+     * <code>.dstore.values.IntegerValue only_part_no = 2;</code>
      */
     public io.dstore.values.IntegerValue getOnlyPartNo() {
       return onlyPartNo_ == null ? io.dstore.values.IntegerValue.getDefaultInstance() : onlyPartNo_;
     }
     /**
-     * <code>optional .dstore.values.IntegerValue only_part_no = 2;</code>
+     * <code>.dstore.values.IntegerValue only_part_no = 2;</code>
      */
     public io.dstore.values.IntegerValueOrBuilder getOnlyPartNoOrBuilder() {
       return getOnlyPartNo();
@@ -208,7 +208,7 @@ public final class AcGetActionLogsAd {
     public static final int ONLY_PART_NO_NULL_FIELD_NUMBER = 1002;
     private boolean onlyPartNoNull_;
     /**
-     * <code>optional bool only_part_no_null = 1002;</code>
+     * <code>bool only_part_no_null = 1002;</code>
      */
     public boolean getOnlyPartNoNull() {
       return onlyPartNoNull_;
@@ -300,7 +300,7 @@ public final class AcGetActionLogsAd {
         return memoizedHashCode;
       }
       int hash = 41;
-      hash = (19 * hash) + getDescriptorForType().hashCode();
+      hash = (19 * hash) + getDescriptor().hashCode();
       if (hasActionId()) {
         hash = (37 * hash) + ACTION_ID_FIELD_NUMBER;
         hash = (53 * hash) + getActionId().hashCode();
@@ -566,13 +566,13 @@ public final class AcGetActionLogsAd {
       private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> actionIdBuilder_;
       /**
-       * <code>optional .dstore.values.IntegerValue action_id = 1;</code>
+       * <code>.dstore.values.IntegerValue action_id = 1;</code>
        */
       public boolean hasActionId() {
         return actionIdBuilder_ != null || actionId_ != null;
       }
       /**
-       * <code>optional .dstore.values.IntegerValue action_id = 1;</code>
+       * <code>.dstore.values.IntegerValue action_id = 1;</code>
        */
       public io.dstore.values.IntegerValue getActionId() {
         if (actionIdBuilder_ == null) {
@@ -582,7 +582,7 @@ public final class AcGetActionLogsAd {
         }
       }
       /**
-       * <code>optional .dstore.values.IntegerValue action_id = 1;</code>
+       * <code>.dstore.values.IntegerValue action_id = 1;</code>
        */
       public Builder setActionId(io.dstore.values.IntegerValue value) {
         if (actionIdBuilder_ == null) {
@@ -598,7 +598,7 @@ public final class AcGetActionLogsAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.IntegerValue action_id = 1;</code>
+       * <code>.dstore.values.IntegerValue action_id = 1;</code>
        */
       public Builder setActionId(
           io.dstore.values.IntegerValue.Builder builderForValue) {
@@ -612,7 +612,7 @@ public final class AcGetActionLogsAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.IntegerValue action_id = 1;</code>
+       * <code>.dstore.values.IntegerValue action_id = 1;</code>
        */
       public Builder mergeActionId(io.dstore.values.IntegerValue value) {
         if (actionIdBuilder_ == null) {
@@ -630,7 +630,7 @@ public final class AcGetActionLogsAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.IntegerValue action_id = 1;</code>
+       * <code>.dstore.values.IntegerValue action_id = 1;</code>
        */
       public Builder clearActionId() {
         if (actionIdBuilder_ == null) {
@@ -644,7 +644,7 @@ public final class AcGetActionLogsAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.IntegerValue action_id = 1;</code>
+       * <code>.dstore.values.IntegerValue action_id = 1;</code>
        */
       public io.dstore.values.IntegerValue.Builder getActionIdBuilder() {
         
@@ -652,7 +652,7 @@ public final class AcGetActionLogsAd {
         return getActionIdFieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .dstore.values.IntegerValue action_id = 1;</code>
+       * <code>.dstore.values.IntegerValue action_id = 1;</code>
        */
       public io.dstore.values.IntegerValueOrBuilder getActionIdOrBuilder() {
         if (actionIdBuilder_ != null) {
@@ -663,7 +663,7 @@ public final class AcGetActionLogsAd {
         }
       }
       /**
-       * <code>optional .dstore.values.IntegerValue action_id = 1;</code>
+       * <code>.dstore.values.IntegerValue action_id = 1;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> 
@@ -681,13 +681,13 @@ public final class AcGetActionLogsAd {
 
       private boolean actionIdNull_ ;
       /**
-       * <code>optional bool action_id_null = 1001;</code>
+       * <code>bool action_id_null = 1001;</code>
        */
       public boolean getActionIdNull() {
         return actionIdNull_;
       }
       /**
-       * <code>optional bool action_id_null = 1001;</code>
+       * <code>bool action_id_null = 1001;</code>
        */
       public Builder setActionIdNull(boolean value) {
         
@@ -696,7 +696,7 @@ public final class AcGetActionLogsAd {
         return this;
       }
       /**
-       * <code>optional bool action_id_null = 1001;</code>
+       * <code>bool action_id_null = 1001;</code>
        */
       public Builder clearActionIdNull() {
         
@@ -709,13 +709,13 @@ public final class AcGetActionLogsAd {
       private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> onlyPartNoBuilder_;
       /**
-       * <code>optional .dstore.values.IntegerValue only_part_no = 2;</code>
+       * <code>.dstore.values.IntegerValue only_part_no = 2;</code>
        */
       public boolean hasOnlyPartNo() {
         return onlyPartNoBuilder_ != null || onlyPartNo_ != null;
       }
       /**
-       * <code>optional .dstore.values.IntegerValue only_part_no = 2;</code>
+       * <code>.dstore.values.IntegerValue only_part_no = 2;</code>
        */
       public io.dstore.values.IntegerValue getOnlyPartNo() {
         if (onlyPartNoBuilder_ == null) {
@@ -725,7 +725,7 @@ public final class AcGetActionLogsAd {
         }
       }
       /**
-       * <code>optional .dstore.values.IntegerValue only_part_no = 2;</code>
+       * <code>.dstore.values.IntegerValue only_part_no = 2;</code>
        */
       public Builder setOnlyPartNo(io.dstore.values.IntegerValue value) {
         if (onlyPartNoBuilder_ == null) {
@@ -741,7 +741,7 @@ public final class AcGetActionLogsAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.IntegerValue only_part_no = 2;</code>
+       * <code>.dstore.values.IntegerValue only_part_no = 2;</code>
        */
       public Builder setOnlyPartNo(
           io.dstore.values.IntegerValue.Builder builderForValue) {
@@ -755,7 +755,7 @@ public final class AcGetActionLogsAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.IntegerValue only_part_no = 2;</code>
+       * <code>.dstore.values.IntegerValue only_part_no = 2;</code>
        */
       public Builder mergeOnlyPartNo(io.dstore.values.IntegerValue value) {
         if (onlyPartNoBuilder_ == null) {
@@ -773,7 +773,7 @@ public final class AcGetActionLogsAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.IntegerValue only_part_no = 2;</code>
+       * <code>.dstore.values.IntegerValue only_part_no = 2;</code>
        */
       public Builder clearOnlyPartNo() {
         if (onlyPartNoBuilder_ == null) {
@@ -787,7 +787,7 @@ public final class AcGetActionLogsAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.IntegerValue only_part_no = 2;</code>
+       * <code>.dstore.values.IntegerValue only_part_no = 2;</code>
        */
       public io.dstore.values.IntegerValue.Builder getOnlyPartNoBuilder() {
         
@@ -795,7 +795,7 @@ public final class AcGetActionLogsAd {
         return getOnlyPartNoFieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .dstore.values.IntegerValue only_part_no = 2;</code>
+       * <code>.dstore.values.IntegerValue only_part_no = 2;</code>
        */
       public io.dstore.values.IntegerValueOrBuilder getOnlyPartNoOrBuilder() {
         if (onlyPartNoBuilder_ != null) {
@@ -806,7 +806,7 @@ public final class AcGetActionLogsAd {
         }
       }
       /**
-       * <code>optional .dstore.values.IntegerValue only_part_no = 2;</code>
+       * <code>.dstore.values.IntegerValue only_part_no = 2;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> 
@@ -824,13 +824,13 @@ public final class AcGetActionLogsAd {
 
       private boolean onlyPartNoNull_ ;
       /**
-       * <code>optional bool only_part_no_null = 1002;</code>
+       * <code>bool only_part_no_null = 1002;</code>
        */
       public boolean getOnlyPartNoNull() {
         return onlyPartNoNull_;
       }
       /**
-       * <code>optional bool only_part_no_null = 1002;</code>
+       * <code>bool only_part_no_null = 1002;</code>
        */
       public Builder setOnlyPartNoNull(boolean value) {
         
@@ -839,7 +839,7 @@ public final class AcGetActionLogsAd {
         return this;
       }
       /**
-       * <code>optional bool only_part_no_null = 1002;</code>
+       * <code>bool only_part_no_null = 1002;</code>
        */
       public Builder clearOnlyPartNoNull() {
         
@@ -1098,7 +1098,7 @@ public final class AcGetActionLogsAd {
         com.google.protobuf.MessageOrBuilder {
 
       /**
-       * <code>optional int32 row_id = 10000;</code>
+       * <code>int32 row_id = 10000;</code>
        */
       int getRowId();
 
@@ -1107,7 +1107,7 @@ public final class AcGetActionLogsAd {
        * Hier erscheint der Beitrag selbst, falls er weniger als 256 Zeichen enthält UND "UseSmallBody" in "ForumSettings" auf "1" gesetzt ist. D.h. mindestens EINE der Rückgabespalten "SmallBody" und "Body" ist IMMER "NULL".
        * </pre>
        *
-       * <code>optional .dstore.values.StringValue small_body = 10001;</code>
+       * <code>.dstore.values.StringValue small_body = 10001;</code>
        */
       boolean hasSmallBody();
       /**
@@ -1115,7 +1115,7 @@ public final class AcGetActionLogsAd {
        * Hier erscheint der Beitrag selbst, falls er weniger als 256 Zeichen enthält UND "UseSmallBody" in "ForumSettings" auf "1" gesetzt ist. D.h. mindestens EINE der Rückgabespalten "SmallBody" und "Body" ist IMMER "NULL".
        * </pre>
        *
-       * <code>optional .dstore.values.StringValue small_body = 10001;</code>
+       * <code>.dstore.values.StringValue small_body = 10001;</code>
        */
       io.dstore.values.StringValue getSmallBody();
       /**
@@ -1123,7 +1123,7 @@ public final class AcGetActionLogsAd {
        * Hier erscheint der Beitrag selbst, falls er weniger als 256 Zeichen enthält UND "UseSmallBody" in "ForumSettings" auf "1" gesetzt ist. D.h. mindestens EINE der Rückgabespalten "SmallBody" und "Body" ist IMMER "NULL".
        * </pre>
        *
-       * <code>optional .dstore.values.StringValue small_body = 10001;</code>
+       * <code>.dstore.values.StringValue small_body = 10001;</code>
        */
       io.dstore.values.StringValueOrBuilder getSmallBodyOrBuilder();
 
@@ -1132,7 +1132,7 @@ public final class AcGetActionLogsAd {
        * Wurde das Posting vor "HoursAfterPostingsAreRegardedAsRead" (Eintrag in "ForumSettings") Stunden verfaßt ODER gibt es zur Person, die diese Prozedur aufruft, einen Eintrag in "ReadPostingsPerPerson", steht hier der Wert "1"
        * </pre>
        *
-       * <code>optional .dstore.values.BooleanValue already_read = 10002;</code>
+       * <code>.dstore.values.BooleanValue already_read = 10002;</code>
        */
       boolean hasAlreadyRead();
       /**
@@ -1140,7 +1140,7 @@ public final class AcGetActionLogsAd {
        * Wurde das Posting vor "HoursAfterPostingsAreRegardedAsRead" (Eintrag in "ForumSettings") Stunden verfaßt ODER gibt es zur Person, die diese Prozedur aufruft, einen Eintrag in "ReadPostingsPerPerson", steht hier der Wert "1"
        * </pre>
        *
-       * <code>optional .dstore.values.BooleanValue already_read = 10002;</code>
+       * <code>.dstore.values.BooleanValue already_read = 10002;</code>
        */
       io.dstore.values.BooleanValue getAlreadyRead();
       /**
@@ -1148,7 +1148,7 @@ public final class AcGetActionLogsAd {
        * Wurde das Posting vor "HoursAfterPostingsAreRegardedAsRead" (Eintrag in "ForumSettings") Stunden verfaßt ODER gibt es zur Person, die diese Prozedur aufruft, einen Eintrag in "ReadPostingsPerPerson", steht hier der Wert "1"
        * </pre>
        *
-       * <code>optional .dstore.values.BooleanValue already_read = 10002;</code>
+       * <code>.dstore.values.BooleanValue already_read = 10002;</code>
        */
       io.dstore.values.BooleanValueOrBuilder getAlreadyReadOrBuilder();
 
@@ -1157,7 +1157,7 @@ public final class AcGetActionLogsAd {
        * ID eines Forum-Beitrags, der einen Log-Eintrag (zur gegebenen "&#64;ActionID") darstellt
        * </pre>
        *
-       * <code>optional .dstore.values.IntegerValue posting_id = 10003;</code>
+       * <code>.dstore.values.IntegerValue posting_id = 10003;</code>
        */
       boolean hasPostingId();
       /**
@@ -1165,7 +1165,7 @@ public final class AcGetActionLogsAd {
        * ID eines Forum-Beitrags, der einen Log-Eintrag (zur gegebenen "&#64;ActionID") darstellt
        * </pre>
        *
-       * <code>optional .dstore.values.IntegerValue posting_id = 10003;</code>
+       * <code>.dstore.values.IntegerValue posting_id = 10003;</code>
        */
       io.dstore.values.IntegerValue getPostingId();
       /**
@@ -1173,7 +1173,7 @@ public final class AcGetActionLogsAd {
        * ID eines Forum-Beitrags, der einen Log-Eintrag (zur gegebenen "&#64;ActionID") darstellt
        * </pre>
        *
-       * <code>optional .dstore.values.IntegerValue posting_id = 10003;</code>
+       * <code>.dstore.values.IntegerValue posting_id = 10003;</code>
        */
       io.dstore.values.IntegerValueOrBuilder getPostingIdOrBuilder();
 
@@ -1182,7 +1182,7 @@ public final class AcGetActionLogsAd {
        * ID des Postings, auf das "PostingID" eine Antwort darstellt. Falls gleich "PostingID", handelt es sich um einen Haupt-Beitrag, sprich "MainPosting"
        * </pre>
        *
-       * <code>optional .dstore.values.IntegerValue reply_to_posting_id = 10004;</code>
+       * <code>.dstore.values.IntegerValue reply_to_posting_id = 10004;</code>
        */
       boolean hasReplyToPostingId();
       /**
@@ -1190,7 +1190,7 @@ public final class AcGetActionLogsAd {
        * ID des Postings, auf das "PostingID" eine Antwort darstellt. Falls gleich "PostingID", handelt es sich um einen Haupt-Beitrag, sprich "MainPosting"
        * </pre>
        *
-       * <code>optional .dstore.values.IntegerValue reply_to_posting_id = 10004;</code>
+       * <code>.dstore.values.IntegerValue reply_to_posting_id = 10004;</code>
        */
       io.dstore.values.IntegerValue getReplyToPostingId();
       /**
@@ -1198,7 +1198,7 @@ public final class AcGetActionLogsAd {
        * ID des Postings, auf das "PostingID" eine Antwort darstellt. Falls gleich "PostingID", handelt es sich um einen Haupt-Beitrag, sprich "MainPosting"
        * </pre>
        *
-       * <code>optional .dstore.values.IntegerValue reply_to_posting_id = 10004;</code>
+       * <code>.dstore.values.IntegerValue reply_to_posting_id = 10004;</code>
        */
       io.dstore.values.IntegerValueOrBuilder getReplyToPostingIdOrBuilder();
 
@@ -1207,7 +1207,7 @@ public final class AcGetActionLogsAd {
        * Der Titel des Beitrags "PostingID" - enthält immer eine Zahl, die angibt, der wievielte Log-Eintrag zur "&#64;ActionID" dies ist
        * </pre>
        *
-       * <code>optional .dstore.values.StringValue subject = 10005;</code>
+       * <code>.dstore.values.StringValue subject = 10005;</code>
        */
       boolean hasSubject();
       /**
@@ -1215,7 +1215,7 @@ public final class AcGetActionLogsAd {
        * Der Titel des Beitrags "PostingID" - enthält immer eine Zahl, die angibt, der wievielte Log-Eintrag zur "&#64;ActionID" dies ist
        * </pre>
        *
-       * <code>optional .dstore.values.StringValue subject = 10005;</code>
+       * <code>.dstore.values.StringValue subject = 10005;</code>
        */
       io.dstore.values.StringValue getSubject();
       /**
@@ -1223,7 +1223,7 @@ public final class AcGetActionLogsAd {
        * Der Titel des Beitrags "PostingID" - enthält immer eine Zahl, die angibt, der wievielte Log-Eintrag zur "&#64;ActionID" dies ist
        * </pre>
        *
-       * <code>optional .dstore.values.StringValue subject = 10005;</code>
+       * <code>.dstore.values.StringValue subject = 10005;</code>
        */
       io.dstore.values.StringValueOrBuilder getSubjectOrBuilder();
 
@@ -1232,7 +1232,7 @@ public final class AcGetActionLogsAd {
        * eMail des Verfassers "Author"
        * </pre>
        *
-       * <code>optional .dstore.values.StringValue e_mail_of_author = 10006;</code>
+       * <code>.dstore.values.StringValue e_mail_of_author = 10006;</code>
        */
       boolean hasEMailOfAuthor();
       /**
@@ -1240,7 +1240,7 @@ public final class AcGetActionLogsAd {
        * eMail des Verfassers "Author"
        * </pre>
        *
-       * <code>optional .dstore.values.StringValue e_mail_of_author = 10006;</code>
+       * <code>.dstore.values.StringValue e_mail_of_author = 10006;</code>
        */
       io.dstore.values.StringValue getEMailOfAuthor();
       /**
@@ -1248,7 +1248,7 @@ public final class AcGetActionLogsAd {
        * eMail des Verfassers "Author"
        * </pre>
        *
-       * <code>optional .dstore.values.StringValue e_mail_of_author = 10006;</code>
+       * <code>.dstore.values.StringValue e_mail_of_author = 10006;</code>
        */
       io.dstore.values.StringValueOrBuilder getEMailOfAuthorOrBuilder();
 
@@ -1257,7 +1257,7 @@ public final class AcGetActionLogsAd {
        * (Person)ID des Verfassers "Author" - "0" bedeutet, daß der Verfasser anonym ist
        * </pre>
        *
-       * <code>optional .dstore.values.IntegerValue author_person_id = 10007;</code>
+       * <code>.dstore.values.IntegerValue author_person_id = 10007;</code>
        */
       boolean hasAuthorPersonId();
       /**
@@ -1265,7 +1265,7 @@ public final class AcGetActionLogsAd {
        * (Person)ID des Verfassers "Author" - "0" bedeutet, daß der Verfasser anonym ist
        * </pre>
        *
-       * <code>optional .dstore.values.IntegerValue author_person_id = 10007;</code>
+       * <code>.dstore.values.IntegerValue author_person_id = 10007;</code>
        */
       io.dstore.values.IntegerValue getAuthorPersonId();
       /**
@@ -1273,7 +1273,7 @@ public final class AcGetActionLogsAd {
        * (Person)ID des Verfassers "Author" - "0" bedeutet, daß der Verfasser anonym ist
        * </pre>
        *
-       * <code>optional .dstore.values.IntegerValue author_person_id = 10007;</code>
+       * <code>.dstore.values.IntegerValue author_person_id = 10007;</code>
        */
       io.dstore.values.IntegerValueOrBuilder getAuthorPersonIdOrBuilder();
 
@@ -1282,7 +1282,7 @@ public final class AcGetActionLogsAd {
        * "PostDate" als String im Format : "15.03.2001 20:48:13"
        * </pre>
        *
-       * <code>optional .dstore.values.StringValue post_date_char = 10008;</code>
+       * <code>.dstore.values.StringValue post_date_char = 10008;</code>
        */
       boolean hasPostDateChar();
       /**
@@ -1290,7 +1290,7 @@ public final class AcGetActionLogsAd {
        * "PostDate" als String im Format : "15.03.2001 20:48:13"
        * </pre>
        *
-       * <code>optional .dstore.values.StringValue post_date_char = 10008;</code>
+       * <code>.dstore.values.StringValue post_date_char = 10008;</code>
        */
       io.dstore.values.StringValue getPostDateChar();
       /**
@@ -1298,7 +1298,7 @@ public final class AcGetActionLogsAd {
        * "PostDate" als String im Format : "15.03.2001 20:48:13"
        * </pre>
        *
-       * <code>optional .dstore.values.StringValue post_date_char = 10008;</code>
+       * <code>.dstore.values.StringValue post_date_char = 10008;</code>
        */
       io.dstore.values.StringValueOrBuilder getPostDateCharOrBuilder();
 
@@ -1307,7 +1307,7 @@ public final class AcGetActionLogsAd {
        * Sichtbarkeits-Status des Postings "PostingID". Ist immer "4" oder "8", da nur "Log-Einträge", die in einem dieser beiden "Visible-Status" sind, berücksichtigt werden.
        * </pre>
        *
-       * <code>optional .dstore.values.IntegerValue visible = 10009;</code>
+       * <code>.dstore.values.IntegerValue visible = 10009;</code>
        */
       boolean hasVisible();
       /**
@@ -1315,7 +1315,7 @@ public final class AcGetActionLogsAd {
        * Sichtbarkeits-Status des Postings "PostingID". Ist immer "4" oder "8", da nur "Log-Einträge", die in einem dieser beiden "Visible-Status" sind, berücksichtigt werden.
        * </pre>
        *
-       * <code>optional .dstore.values.IntegerValue visible = 10009;</code>
+       * <code>.dstore.values.IntegerValue visible = 10009;</code>
        */
       io.dstore.values.IntegerValue getVisible();
       /**
@@ -1323,7 +1323,7 @@ public final class AcGetActionLogsAd {
        * Sichtbarkeits-Status des Postings "PostingID". Ist immer "4" oder "8", da nur "Log-Einträge", die in einem dieser beiden "Visible-Status" sind, berücksichtigt werden.
        * </pre>
        *
-       * <code>optional .dstore.values.IntegerValue visible = 10009;</code>
+       * <code>.dstore.values.IntegerValue visible = 10009;</code>
        */
       io.dstore.values.IntegerValueOrBuilder getVisibleOrBuilder();
 
@@ -1332,7 +1332,7 @@ public final class AcGetActionLogsAd {
        * Sind "Binaries" zu dem Posting "PostingID" vorhanden ?
        * </pre>
        *
-       * <code>optional .dstore.values.BooleanValue has_binaries = 10010;</code>
+       * <code>.dstore.values.BooleanValue has_binaries = 10010;</code>
        */
       boolean hasHasBinaries();
       /**
@@ -1340,7 +1340,7 @@ public final class AcGetActionLogsAd {
        * Sind "Binaries" zu dem Posting "PostingID" vorhanden ?
        * </pre>
        *
-       * <code>optional .dstore.values.BooleanValue has_binaries = 10010;</code>
+       * <code>.dstore.values.BooleanValue has_binaries = 10010;</code>
        */
       io.dstore.values.BooleanValue getHasBinaries();
       /**
@@ -1348,7 +1348,7 @@ public final class AcGetActionLogsAd {
        * Sind "Binaries" zu dem Posting "PostingID" vorhanden ?
        * </pre>
        *
-       * <code>optional .dstore.values.BooleanValue has_binaries = 10010;</code>
+       * <code>.dstore.values.BooleanValue has_binaries = 10010;</code>
        */
       io.dstore.values.BooleanValueOrBuilder getHasBinariesOrBuilder();
 
@@ -1357,7 +1357,7 @@ public final class AcGetActionLogsAd {
        * Name des Verfassers des Beitrags "PostingID"
        * </pre>
        *
-       * <code>optional .dstore.values.StringValue author = 10011;</code>
+       * <code>.dstore.values.StringValue author = 10011;</code>
        */
       boolean hasAuthor();
       /**
@@ -1365,7 +1365,7 @@ public final class AcGetActionLogsAd {
        * Name des Verfassers des Beitrags "PostingID"
        * </pre>
        *
-       * <code>optional .dstore.values.StringValue author = 10011;</code>
+       * <code>.dstore.values.StringValue author = 10011;</code>
        */
       io.dstore.values.StringValue getAuthor();
       /**
@@ -1373,7 +1373,7 @@ public final class AcGetActionLogsAd {
        * Name des Verfassers des Beitrags "PostingID"
        * </pre>
        *
-       * <code>optional .dstore.values.StringValue author = 10011;</code>
+       * <code>.dstore.values.StringValue author = 10011;</code>
        */
       io.dstore.values.StringValueOrBuilder getAuthorOrBuilder();
 
@@ -1382,7 +1382,7 @@ public final class AcGetActionLogsAd {
        * Datum des Beitrags "PostingID"
        * </pre>
        *
-       * <code>optional .dstore.values.TimestampValue post_date = 10012;</code>
+       * <code>.dstore.values.TimestampValue post_date = 10012;</code>
        */
       boolean hasPostDate();
       /**
@@ -1390,7 +1390,7 @@ public final class AcGetActionLogsAd {
        * Datum des Beitrags "PostingID"
        * </pre>
        *
-       * <code>optional .dstore.values.TimestampValue post_date = 10012;</code>
+       * <code>.dstore.values.TimestampValue post_date = 10012;</code>
        */
       io.dstore.values.TimestampValue getPostDate();
       /**
@@ -1398,7 +1398,7 @@ public final class AcGetActionLogsAd {
        * Datum des Beitrags "PostingID"
        * </pre>
        *
-       * <code>optional .dstore.values.TimestampValue post_date = 10012;</code>
+       * <code>.dstore.values.TimestampValue post_date = 10012;</code>
        */
       io.dstore.values.TimestampValueOrBuilder getPostDateOrBuilder();
 
@@ -1407,7 +1407,7 @@ public final class AcGetActionLogsAd {
        * Der Beitrag (also Log-Eintrag zur "Action") selbst - "NULL" falls "SmallBody" NICHT "NULL" ist
        * </pre>
        *
-       * <code>optional .dstore.values.StringValue body = 10013;</code>
+       * <code>.dstore.values.StringValue body = 10013;</code>
        */
       boolean hasBody();
       /**
@@ -1415,7 +1415,7 @@ public final class AcGetActionLogsAd {
        * Der Beitrag (also Log-Eintrag zur "Action") selbst - "NULL" falls "SmallBody" NICHT "NULL" ist
        * </pre>
        *
-       * <code>optional .dstore.values.StringValue body = 10013;</code>
+       * <code>.dstore.values.StringValue body = 10013;</code>
        */
       io.dstore.values.StringValue getBody();
       /**
@@ -1423,7 +1423,7 @@ public final class AcGetActionLogsAd {
        * Der Beitrag (also Log-Eintrag zur "Action") selbst - "NULL" falls "SmallBody" NICHT "NULL" ist
        * </pre>
        *
-       * <code>optional .dstore.values.StringValue body = 10013;</code>
+       * <code>.dstore.values.StringValue body = 10013;</code>
        */
       io.dstore.values.StringValueOrBuilder getBodyOrBuilder();
 
@@ -1432,7 +1432,7 @@ public final class AcGetActionLogsAd {
        * ID des Forums zu dem der durch "&#64;OnlyPartNo" angegebenene Log-Eintrag gehört
        * </pre>
        *
-       * <code>optional .dstore.values.IntegerValue forum_id = 20002;</code>
+       * <code>.dstore.values.IntegerValue forum_id = 20002;</code>
        */
       boolean hasForumId();
       /**
@@ -1440,7 +1440,7 @@ public final class AcGetActionLogsAd {
        * ID des Forums zu dem der durch "&#64;OnlyPartNo" angegebenene Log-Eintrag gehört
        * </pre>
        *
-       * <code>optional .dstore.values.IntegerValue forum_id = 20002;</code>
+       * <code>.dstore.values.IntegerValue forum_id = 20002;</code>
        */
       io.dstore.values.IntegerValue getForumId();
       /**
@@ -1448,7 +1448,7 @@ public final class AcGetActionLogsAd {
        * ID des Forums zu dem der durch "&#64;OnlyPartNo" angegebenene Log-Eintrag gehört
        * </pre>
        *
-       * <code>optional .dstore.values.IntegerValue forum_id = 20002;</code>
+       * <code>.dstore.values.IntegerValue forum_id = 20002;</code>
        */
       io.dstore.values.IntegerValueOrBuilder getForumIdOrBuilder();
 
@@ -1457,7 +1457,7 @@ public final class AcGetActionLogsAd {
        * Hier steht die Eigenschaft von "AuthorPersonID" zur dritten Merkmal-ID, die in "ForumSettings" zum Schlüssel "AllowedCharacteristicsForAdditionalInformation_&lt;PersonTypeID von AuthorPersonID&gt;" (zum Forum "ForumID") hinterlegt ist
        * </pre>
        *
-       * <code>optional .dstore.values.StringValue value3 = 20003;</code>
+       * <code>.dstore.values.StringValue value3 = 20003;</code>
        */
       boolean hasValue3();
       /**
@@ -1465,7 +1465,7 @@ public final class AcGetActionLogsAd {
        * Hier steht die Eigenschaft von "AuthorPersonID" zur dritten Merkmal-ID, die in "ForumSettings" zum Schlüssel "AllowedCharacteristicsForAdditionalInformation_&lt;PersonTypeID von AuthorPersonID&gt;" (zum Forum "ForumID") hinterlegt ist
        * </pre>
        *
-       * <code>optional .dstore.values.StringValue value3 = 20003;</code>
+       * <code>.dstore.values.StringValue value3 = 20003;</code>
        */
       io.dstore.values.StringValue getValue3();
       /**
@@ -1473,7 +1473,7 @@ public final class AcGetActionLogsAd {
        * Hier steht die Eigenschaft von "AuthorPersonID" zur dritten Merkmal-ID, die in "ForumSettings" zum Schlüssel "AllowedCharacteristicsForAdditionalInformation_&lt;PersonTypeID von AuthorPersonID&gt;" (zum Forum "ForumID") hinterlegt ist
        * </pre>
        *
-       * <code>optional .dstore.values.StringValue value3 = 20003;</code>
+       * <code>.dstore.values.StringValue value3 = 20003;</code>
        */
       io.dstore.values.StringValueOrBuilder getValue3OrBuilder();
 
@@ -1482,7 +1482,7 @@ public final class AcGetActionLogsAd {
        * Hier steht die Eigenschaft von "AuthorPersonID" zur ersten Merkmal-ID, die in "ForumSettings" zum Schlüssel "AllowedCharacteristicsForAdditionalInformation_&lt;PersonTypeID von AuthorPersonID&gt;" (zum Forum "ForumID") hinterlegt ist
        * </pre>
        *
-       * <code>optional .dstore.values.StringValue value1 = 20005;</code>
+       * <code>.dstore.values.StringValue value1 = 20005;</code>
        */
       boolean hasValue1();
       /**
@@ -1490,7 +1490,7 @@ public final class AcGetActionLogsAd {
        * Hier steht die Eigenschaft von "AuthorPersonID" zur ersten Merkmal-ID, die in "ForumSettings" zum Schlüssel "AllowedCharacteristicsForAdditionalInformation_&lt;PersonTypeID von AuthorPersonID&gt;" (zum Forum "ForumID") hinterlegt ist
        * </pre>
        *
-       * <code>optional .dstore.values.StringValue value1 = 20005;</code>
+       * <code>.dstore.values.StringValue value1 = 20005;</code>
        */
       io.dstore.values.StringValue getValue1();
       /**
@@ -1498,7 +1498,7 @@ public final class AcGetActionLogsAd {
        * Hier steht die Eigenschaft von "AuthorPersonID" zur ersten Merkmal-ID, die in "ForumSettings" zum Schlüssel "AllowedCharacteristicsForAdditionalInformation_&lt;PersonTypeID von AuthorPersonID&gt;" (zum Forum "ForumID") hinterlegt ist
        * </pre>
        *
-       * <code>optional .dstore.values.StringValue value1 = 20005;</code>
+       * <code>.dstore.values.StringValue value1 = 20005;</code>
        */
       io.dstore.values.StringValueOrBuilder getValue1OrBuilder();
 
@@ -1507,7 +1507,7 @@ public final class AcGetActionLogsAd {
        * Hier steht die Eigenschaft von "AuthorPersonID" zur zweiten Merkmal-ID, die in "ForumSettings" zum Schlüssel "AllowedCharacteristicsForAdditionalInformation_&lt;PersonTypeID von AuthorPersonID&gt;" (zum Forum "ForumID") hinterlegt ist
        * </pre>
        *
-       * <code>optional .dstore.values.StringValue value2 = 20006;</code>
+       * <code>.dstore.values.StringValue value2 = 20006;</code>
        */
       boolean hasValue2();
       /**
@@ -1515,7 +1515,7 @@ public final class AcGetActionLogsAd {
        * Hier steht die Eigenschaft von "AuthorPersonID" zur zweiten Merkmal-ID, die in "ForumSettings" zum Schlüssel "AllowedCharacteristicsForAdditionalInformation_&lt;PersonTypeID von AuthorPersonID&gt;" (zum Forum "ForumID") hinterlegt ist
        * </pre>
        *
-       * <code>optional .dstore.values.StringValue value2 = 20006;</code>
+       * <code>.dstore.values.StringValue value2 = 20006;</code>
        */
       io.dstore.values.StringValue getValue2();
       /**
@@ -1523,7 +1523,7 @@ public final class AcGetActionLogsAd {
        * Hier steht die Eigenschaft von "AuthorPersonID" zur zweiten Merkmal-ID, die in "ForumSettings" zum Schlüssel "AllowedCharacteristicsForAdditionalInformation_&lt;PersonTypeID von AuthorPersonID&gt;" (zum Forum "ForumID") hinterlegt ist
        * </pre>
        *
-       * <code>optional .dstore.values.StringValue value2 = 20006;</code>
+       * <code>.dstore.values.StringValue value2 = 20006;</code>
        */
       io.dstore.values.StringValueOrBuilder getValue2OrBuilder();
 
@@ -1532,7 +1532,7 @@ public final class AcGetActionLogsAd {
        * ID des Haupt-Beitrages zu dem durch "&#64;OnlyPartNo" angegebene Log-Eintrag (also sozusagen das Wurzel-Element des gesamten "Threads")
        * </pre>
        *
-       * <code>optional .dstore.values.IntegerValue main_posting_id = 20010;</code>
+       * <code>.dstore.values.IntegerValue main_posting_id = 20010;</code>
        */
       boolean hasMainPostingId();
       /**
@@ -1540,7 +1540,7 @@ public final class AcGetActionLogsAd {
        * ID des Haupt-Beitrages zu dem durch "&#64;OnlyPartNo" angegebene Log-Eintrag (also sozusagen das Wurzel-Element des gesamten "Threads")
        * </pre>
        *
-       * <code>optional .dstore.values.IntegerValue main_posting_id = 20010;</code>
+       * <code>.dstore.values.IntegerValue main_posting_id = 20010;</code>
        */
       io.dstore.values.IntegerValue getMainPostingId();
       /**
@@ -1548,7 +1548,7 @@ public final class AcGetActionLogsAd {
        * ID des Haupt-Beitrages zu dem durch "&#64;OnlyPartNo" angegebene Log-Eintrag (also sozusagen das Wurzel-Element des gesamten "Threads")
        * </pre>
        *
-       * <code>optional .dstore.values.IntegerValue main_posting_id = 20010;</code>
+       * <code>.dstore.values.IntegerValue main_posting_id = 20010;</code>
        */
       io.dstore.values.IntegerValueOrBuilder getMainPostingIdOrBuilder();
 
@@ -1557,7 +1557,7 @@ public final class AcGetActionLogsAd {
        * Gibt es wenigstens eine Antwort auf den Log-Eintrag ? Anmerkung : Hier sollte eigentlich immer "0" stehen, wenn Log-Einträge nur mit Hilfe von "ac_InsertActionLog_Ad" gemacht werden.
        * </pre>
        *
-       * <code>optional .dstore.values.BooleanValue has_successors = 20014;</code>
+       * <code>.dstore.values.BooleanValue has_successors = 20014;</code>
        */
       boolean hasHasSuccessors();
       /**
@@ -1565,7 +1565,7 @@ public final class AcGetActionLogsAd {
        * Gibt es wenigstens eine Antwort auf den Log-Eintrag ? Anmerkung : Hier sollte eigentlich immer "0" stehen, wenn Log-Einträge nur mit Hilfe von "ac_InsertActionLog_Ad" gemacht werden.
        * </pre>
        *
-       * <code>optional .dstore.values.BooleanValue has_successors = 20014;</code>
+       * <code>.dstore.values.BooleanValue has_successors = 20014;</code>
        */
       io.dstore.values.BooleanValue getHasSuccessors();
       /**
@@ -1573,7 +1573,7 @@ public final class AcGetActionLogsAd {
        * Gibt es wenigstens eine Antwort auf den Log-Eintrag ? Anmerkung : Hier sollte eigentlich immer "0" stehen, wenn Log-Einträge nur mit Hilfe von "ac_InsertActionLog_Ad" gemacht werden.
        * </pre>
        *
-       * <code>optional .dstore.values.BooleanValue has_successors = 20014;</code>
+       * <code>.dstore.values.BooleanValue has_successors = 20014;</code>
        */
       io.dstore.values.BooleanValueOrBuilder getHasSuccessorsOrBuilder();
     }
@@ -1895,7 +1895,7 @@ public final class AcGetActionLogsAd {
       public static final int ROW_ID_FIELD_NUMBER = 10000;
       private int rowId_;
       /**
-       * <code>optional int32 row_id = 10000;</code>
+       * <code>int32 row_id = 10000;</code>
        */
       public int getRowId() {
         return rowId_;
@@ -1908,7 +1908,7 @@ public final class AcGetActionLogsAd {
        * Hier erscheint der Beitrag selbst, falls er weniger als 256 Zeichen enthält UND "UseSmallBody" in "ForumSettings" auf "1" gesetzt ist. D.h. mindestens EINE der Rückgabespalten "SmallBody" und "Body" ist IMMER "NULL".
        * </pre>
        *
-       * <code>optional .dstore.values.StringValue small_body = 10001;</code>
+       * <code>.dstore.values.StringValue small_body = 10001;</code>
        */
       public boolean hasSmallBody() {
         return smallBody_ != null;
@@ -1918,7 +1918,7 @@ public final class AcGetActionLogsAd {
        * Hier erscheint der Beitrag selbst, falls er weniger als 256 Zeichen enthält UND "UseSmallBody" in "ForumSettings" auf "1" gesetzt ist. D.h. mindestens EINE der Rückgabespalten "SmallBody" und "Body" ist IMMER "NULL".
        * </pre>
        *
-       * <code>optional .dstore.values.StringValue small_body = 10001;</code>
+       * <code>.dstore.values.StringValue small_body = 10001;</code>
        */
       public io.dstore.values.StringValue getSmallBody() {
         return smallBody_ == null ? io.dstore.values.StringValue.getDefaultInstance() : smallBody_;
@@ -1928,7 +1928,7 @@ public final class AcGetActionLogsAd {
        * Hier erscheint der Beitrag selbst, falls er weniger als 256 Zeichen enthält UND "UseSmallBody" in "ForumSettings" auf "1" gesetzt ist. D.h. mindestens EINE der Rückgabespalten "SmallBody" und "Body" ist IMMER "NULL".
        * </pre>
        *
-       * <code>optional .dstore.values.StringValue small_body = 10001;</code>
+       * <code>.dstore.values.StringValue small_body = 10001;</code>
        */
       public io.dstore.values.StringValueOrBuilder getSmallBodyOrBuilder() {
         return getSmallBody();
@@ -1941,7 +1941,7 @@ public final class AcGetActionLogsAd {
        * Wurde das Posting vor "HoursAfterPostingsAreRegardedAsRead" (Eintrag in "ForumSettings") Stunden verfaßt ODER gibt es zur Person, die diese Prozedur aufruft, einen Eintrag in "ReadPostingsPerPerson", steht hier der Wert "1"
        * </pre>
        *
-       * <code>optional .dstore.values.BooleanValue already_read = 10002;</code>
+       * <code>.dstore.values.BooleanValue already_read = 10002;</code>
        */
       public boolean hasAlreadyRead() {
         return alreadyRead_ != null;
@@ -1951,7 +1951,7 @@ public final class AcGetActionLogsAd {
        * Wurde das Posting vor "HoursAfterPostingsAreRegardedAsRead" (Eintrag in "ForumSettings") Stunden verfaßt ODER gibt es zur Person, die diese Prozedur aufruft, einen Eintrag in "ReadPostingsPerPerson", steht hier der Wert "1"
        * </pre>
        *
-       * <code>optional .dstore.values.BooleanValue already_read = 10002;</code>
+       * <code>.dstore.values.BooleanValue already_read = 10002;</code>
        */
       public io.dstore.values.BooleanValue getAlreadyRead() {
         return alreadyRead_ == null ? io.dstore.values.BooleanValue.getDefaultInstance() : alreadyRead_;
@@ -1961,7 +1961,7 @@ public final class AcGetActionLogsAd {
        * Wurde das Posting vor "HoursAfterPostingsAreRegardedAsRead" (Eintrag in "ForumSettings") Stunden verfaßt ODER gibt es zur Person, die diese Prozedur aufruft, einen Eintrag in "ReadPostingsPerPerson", steht hier der Wert "1"
        * </pre>
        *
-       * <code>optional .dstore.values.BooleanValue already_read = 10002;</code>
+       * <code>.dstore.values.BooleanValue already_read = 10002;</code>
        */
       public io.dstore.values.BooleanValueOrBuilder getAlreadyReadOrBuilder() {
         return getAlreadyRead();
@@ -1974,7 +1974,7 @@ public final class AcGetActionLogsAd {
        * ID eines Forum-Beitrags, der einen Log-Eintrag (zur gegebenen "&#64;ActionID") darstellt
        * </pre>
        *
-       * <code>optional .dstore.values.IntegerValue posting_id = 10003;</code>
+       * <code>.dstore.values.IntegerValue posting_id = 10003;</code>
        */
       public boolean hasPostingId() {
         return postingId_ != null;
@@ -1984,7 +1984,7 @@ public final class AcGetActionLogsAd {
        * ID eines Forum-Beitrags, der einen Log-Eintrag (zur gegebenen "&#64;ActionID") darstellt
        * </pre>
        *
-       * <code>optional .dstore.values.IntegerValue posting_id = 10003;</code>
+       * <code>.dstore.values.IntegerValue posting_id = 10003;</code>
        */
       public io.dstore.values.IntegerValue getPostingId() {
         return postingId_ == null ? io.dstore.values.IntegerValue.getDefaultInstance() : postingId_;
@@ -1994,7 +1994,7 @@ public final class AcGetActionLogsAd {
        * ID eines Forum-Beitrags, der einen Log-Eintrag (zur gegebenen "&#64;ActionID") darstellt
        * </pre>
        *
-       * <code>optional .dstore.values.IntegerValue posting_id = 10003;</code>
+       * <code>.dstore.values.IntegerValue posting_id = 10003;</code>
        */
       public io.dstore.values.IntegerValueOrBuilder getPostingIdOrBuilder() {
         return getPostingId();
@@ -2007,7 +2007,7 @@ public final class AcGetActionLogsAd {
        * ID des Postings, auf das "PostingID" eine Antwort darstellt. Falls gleich "PostingID", handelt es sich um einen Haupt-Beitrag, sprich "MainPosting"
        * </pre>
        *
-       * <code>optional .dstore.values.IntegerValue reply_to_posting_id = 10004;</code>
+       * <code>.dstore.values.IntegerValue reply_to_posting_id = 10004;</code>
        */
       public boolean hasReplyToPostingId() {
         return replyToPostingId_ != null;
@@ -2017,7 +2017,7 @@ public final class AcGetActionLogsAd {
        * ID des Postings, auf das "PostingID" eine Antwort darstellt. Falls gleich "PostingID", handelt es sich um einen Haupt-Beitrag, sprich "MainPosting"
        * </pre>
        *
-       * <code>optional .dstore.values.IntegerValue reply_to_posting_id = 10004;</code>
+       * <code>.dstore.values.IntegerValue reply_to_posting_id = 10004;</code>
        */
       public io.dstore.values.IntegerValue getReplyToPostingId() {
         return replyToPostingId_ == null ? io.dstore.values.IntegerValue.getDefaultInstance() : replyToPostingId_;
@@ -2027,7 +2027,7 @@ public final class AcGetActionLogsAd {
        * ID des Postings, auf das "PostingID" eine Antwort darstellt. Falls gleich "PostingID", handelt es sich um einen Haupt-Beitrag, sprich "MainPosting"
        * </pre>
        *
-       * <code>optional .dstore.values.IntegerValue reply_to_posting_id = 10004;</code>
+       * <code>.dstore.values.IntegerValue reply_to_posting_id = 10004;</code>
        */
       public io.dstore.values.IntegerValueOrBuilder getReplyToPostingIdOrBuilder() {
         return getReplyToPostingId();
@@ -2040,7 +2040,7 @@ public final class AcGetActionLogsAd {
        * Der Titel des Beitrags "PostingID" - enthält immer eine Zahl, die angibt, der wievielte Log-Eintrag zur "&#64;ActionID" dies ist
        * </pre>
        *
-       * <code>optional .dstore.values.StringValue subject = 10005;</code>
+       * <code>.dstore.values.StringValue subject = 10005;</code>
        */
       public boolean hasSubject() {
         return subject_ != null;
@@ -2050,7 +2050,7 @@ public final class AcGetActionLogsAd {
        * Der Titel des Beitrags "PostingID" - enthält immer eine Zahl, die angibt, der wievielte Log-Eintrag zur "&#64;ActionID" dies ist
        * </pre>
        *
-       * <code>optional .dstore.values.StringValue subject = 10005;</code>
+       * <code>.dstore.values.StringValue subject = 10005;</code>
        */
       public io.dstore.values.StringValue getSubject() {
         return subject_ == null ? io.dstore.values.StringValue.getDefaultInstance() : subject_;
@@ -2060,7 +2060,7 @@ public final class AcGetActionLogsAd {
        * Der Titel des Beitrags "PostingID" - enthält immer eine Zahl, die angibt, der wievielte Log-Eintrag zur "&#64;ActionID" dies ist
        * </pre>
        *
-       * <code>optional .dstore.values.StringValue subject = 10005;</code>
+       * <code>.dstore.values.StringValue subject = 10005;</code>
        */
       public io.dstore.values.StringValueOrBuilder getSubjectOrBuilder() {
         return getSubject();
@@ -2073,7 +2073,7 @@ public final class AcGetActionLogsAd {
        * eMail des Verfassers "Author"
        * </pre>
        *
-       * <code>optional .dstore.values.StringValue e_mail_of_author = 10006;</code>
+       * <code>.dstore.values.StringValue e_mail_of_author = 10006;</code>
        */
       public boolean hasEMailOfAuthor() {
         return eMailOfAuthor_ != null;
@@ -2083,7 +2083,7 @@ public final class AcGetActionLogsAd {
        * eMail des Verfassers "Author"
        * </pre>
        *
-       * <code>optional .dstore.values.StringValue e_mail_of_author = 10006;</code>
+       * <code>.dstore.values.StringValue e_mail_of_author = 10006;</code>
        */
       public io.dstore.values.StringValue getEMailOfAuthor() {
         return eMailOfAuthor_ == null ? io.dstore.values.StringValue.getDefaultInstance() : eMailOfAuthor_;
@@ -2093,7 +2093,7 @@ public final class AcGetActionLogsAd {
        * eMail des Verfassers "Author"
        * </pre>
        *
-       * <code>optional .dstore.values.StringValue e_mail_of_author = 10006;</code>
+       * <code>.dstore.values.StringValue e_mail_of_author = 10006;</code>
        */
       public io.dstore.values.StringValueOrBuilder getEMailOfAuthorOrBuilder() {
         return getEMailOfAuthor();
@@ -2106,7 +2106,7 @@ public final class AcGetActionLogsAd {
        * (Person)ID des Verfassers "Author" - "0" bedeutet, daß der Verfasser anonym ist
        * </pre>
        *
-       * <code>optional .dstore.values.IntegerValue author_person_id = 10007;</code>
+       * <code>.dstore.values.IntegerValue author_person_id = 10007;</code>
        */
       public boolean hasAuthorPersonId() {
         return authorPersonId_ != null;
@@ -2116,7 +2116,7 @@ public final class AcGetActionLogsAd {
        * (Person)ID des Verfassers "Author" - "0" bedeutet, daß der Verfasser anonym ist
        * </pre>
        *
-       * <code>optional .dstore.values.IntegerValue author_person_id = 10007;</code>
+       * <code>.dstore.values.IntegerValue author_person_id = 10007;</code>
        */
       public io.dstore.values.IntegerValue getAuthorPersonId() {
         return authorPersonId_ == null ? io.dstore.values.IntegerValue.getDefaultInstance() : authorPersonId_;
@@ -2126,7 +2126,7 @@ public final class AcGetActionLogsAd {
        * (Person)ID des Verfassers "Author" - "0" bedeutet, daß der Verfasser anonym ist
        * </pre>
        *
-       * <code>optional .dstore.values.IntegerValue author_person_id = 10007;</code>
+       * <code>.dstore.values.IntegerValue author_person_id = 10007;</code>
        */
       public io.dstore.values.IntegerValueOrBuilder getAuthorPersonIdOrBuilder() {
         return getAuthorPersonId();
@@ -2139,7 +2139,7 @@ public final class AcGetActionLogsAd {
        * "PostDate" als String im Format : "15.03.2001 20:48:13"
        * </pre>
        *
-       * <code>optional .dstore.values.StringValue post_date_char = 10008;</code>
+       * <code>.dstore.values.StringValue post_date_char = 10008;</code>
        */
       public boolean hasPostDateChar() {
         return postDateChar_ != null;
@@ -2149,7 +2149,7 @@ public final class AcGetActionLogsAd {
        * "PostDate" als String im Format : "15.03.2001 20:48:13"
        * </pre>
        *
-       * <code>optional .dstore.values.StringValue post_date_char = 10008;</code>
+       * <code>.dstore.values.StringValue post_date_char = 10008;</code>
        */
       public io.dstore.values.StringValue getPostDateChar() {
         return postDateChar_ == null ? io.dstore.values.StringValue.getDefaultInstance() : postDateChar_;
@@ -2159,7 +2159,7 @@ public final class AcGetActionLogsAd {
        * "PostDate" als String im Format : "15.03.2001 20:48:13"
        * </pre>
        *
-       * <code>optional .dstore.values.StringValue post_date_char = 10008;</code>
+       * <code>.dstore.values.StringValue post_date_char = 10008;</code>
        */
       public io.dstore.values.StringValueOrBuilder getPostDateCharOrBuilder() {
         return getPostDateChar();
@@ -2172,7 +2172,7 @@ public final class AcGetActionLogsAd {
        * Sichtbarkeits-Status des Postings "PostingID". Ist immer "4" oder "8", da nur "Log-Einträge", die in einem dieser beiden "Visible-Status" sind, berücksichtigt werden.
        * </pre>
        *
-       * <code>optional .dstore.values.IntegerValue visible = 10009;</code>
+       * <code>.dstore.values.IntegerValue visible = 10009;</code>
        */
       public boolean hasVisible() {
         return visible_ != null;
@@ -2182,7 +2182,7 @@ public final class AcGetActionLogsAd {
        * Sichtbarkeits-Status des Postings "PostingID". Ist immer "4" oder "8", da nur "Log-Einträge", die in einem dieser beiden "Visible-Status" sind, berücksichtigt werden.
        * </pre>
        *
-       * <code>optional .dstore.values.IntegerValue visible = 10009;</code>
+       * <code>.dstore.values.IntegerValue visible = 10009;</code>
        */
       public io.dstore.values.IntegerValue getVisible() {
         return visible_ == null ? io.dstore.values.IntegerValue.getDefaultInstance() : visible_;
@@ -2192,7 +2192,7 @@ public final class AcGetActionLogsAd {
        * Sichtbarkeits-Status des Postings "PostingID". Ist immer "4" oder "8", da nur "Log-Einträge", die in einem dieser beiden "Visible-Status" sind, berücksichtigt werden.
        * </pre>
        *
-       * <code>optional .dstore.values.IntegerValue visible = 10009;</code>
+       * <code>.dstore.values.IntegerValue visible = 10009;</code>
        */
       public io.dstore.values.IntegerValueOrBuilder getVisibleOrBuilder() {
         return getVisible();
@@ -2205,7 +2205,7 @@ public final class AcGetActionLogsAd {
        * Sind "Binaries" zu dem Posting "PostingID" vorhanden ?
        * </pre>
        *
-       * <code>optional .dstore.values.BooleanValue has_binaries = 10010;</code>
+       * <code>.dstore.values.BooleanValue has_binaries = 10010;</code>
        */
       public boolean hasHasBinaries() {
         return hasBinaries_ != null;
@@ -2215,7 +2215,7 @@ public final class AcGetActionLogsAd {
        * Sind "Binaries" zu dem Posting "PostingID" vorhanden ?
        * </pre>
        *
-       * <code>optional .dstore.values.BooleanValue has_binaries = 10010;</code>
+       * <code>.dstore.values.BooleanValue has_binaries = 10010;</code>
        */
       public io.dstore.values.BooleanValue getHasBinaries() {
         return hasBinaries_ == null ? io.dstore.values.BooleanValue.getDefaultInstance() : hasBinaries_;
@@ -2225,7 +2225,7 @@ public final class AcGetActionLogsAd {
        * Sind "Binaries" zu dem Posting "PostingID" vorhanden ?
        * </pre>
        *
-       * <code>optional .dstore.values.BooleanValue has_binaries = 10010;</code>
+       * <code>.dstore.values.BooleanValue has_binaries = 10010;</code>
        */
       public io.dstore.values.BooleanValueOrBuilder getHasBinariesOrBuilder() {
         return getHasBinaries();
@@ -2238,7 +2238,7 @@ public final class AcGetActionLogsAd {
        * Name des Verfassers des Beitrags "PostingID"
        * </pre>
        *
-       * <code>optional .dstore.values.StringValue author = 10011;</code>
+       * <code>.dstore.values.StringValue author = 10011;</code>
        */
       public boolean hasAuthor() {
         return author_ != null;
@@ -2248,7 +2248,7 @@ public final class AcGetActionLogsAd {
        * Name des Verfassers des Beitrags "PostingID"
        * </pre>
        *
-       * <code>optional .dstore.values.StringValue author = 10011;</code>
+       * <code>.dstore.values.StringValue author = 10011;</code>
        */
       public io.dstore.values.StringValue getAuthor() {
         return author_ == null ? io.dstore.values.StringValue.getDefaultInstance() : author_;
@@ -2258,7 +2258,7 @@ public final class AcGetActionLogsAd {
        * Name des Verfassers des Beitrags "PostingID"
        * </pre>
        *
-       * <code>optional .dstore.values.StringValue author = 10011;</code>
+       * <code>.dstore.values.StringValue author = 10011;</code>
        */
       public io.dstore.values.StringValueOrBuilder getAuthorOrBuilder() {
         return getAuthor();
@@ -2271,7 +2271,7 @@ public final class AcGetActionLogsAd {
        * Datum des Beitrags "PostingID"
        * </pre>
        *
-       * <code>optional .dstore.values.TimestampValue post_date = 10012;</code>
+       * <code>.dstore.values.TimestampValue post_date = 10012;</code>
        */
       public boolean hasPostDate() {
         return postDate_ != null;
@@ -2281,7 +2281,7 @@ public final class AcGetActionLogsAd {
        * Datum des Beitrags "PostingID"
        * </pre>
        *
-       * <code>optional .dstore.values.TimestampValue post_date = 10012;</code>
+       * <code>.dstore.values.TimestampValue post_date = 10012;</code>
        */
       public io.dstore.values.TimestampValue getPostDate() {
         return postDate_ == null ? io.dstore.values.TimestampValue.getDefaultInstance() : postDate_;
@@ -2291,7 +2291,7 @@ public final class AcGetActionLogsAd {
        * Datum des Beitrags "PostingID"
        * </pre>
        *
-       * <code>optional .dstore.values.TimestampValue post_date = 10012;</code>
+       * <code>.dstore.values.TimestampValue post_date = 10012;</code>
        */
       public io.dstore.values.TimestampValueOrBuilder getPostDateOrBuilder() {
         return getPostDate();
@@ -2304,7 +2304,7 @@ public final class AcGetActionLogsAd {
        * Der Beitrag (also Log-Eintrag zur "Action") selbst - "NULL" falls "SmallBody" NICHT "NULL" ist
        * </pre>
        *
-       * <code>optional .dstore.values.StringValue body = 10013;</code>
+       * <code>.dstore.values.StringValue body = 10013;</code>
        */
       public boolean hasBody() {
         return body_ != null;
@@ -2314,7 +2314,7 @@ public final class AcGetActionLogsAd {
        * Der Beitrag (also Log-Eintrag zur "Action") selbst - "NULL" falls "SmallBody" NICHT "NULL" ist
        * </pre>
        *
-       * <code>optional .dstore.values.StringValue body = 10013;</code>
+       * <code>.dstore.values.StringValue body = 10013;</code>
        */
       public io.dstore.values.StringValue getBody() {
         return body_ == null ? io.dstore.values.StringValue.getDefaultInstance() : body_;
@@ -2324,7 +2324,7 @@ public final class AcGetActionLogsAd {
        * Der Beitrag (also Log-Eintrag zur "Action") selbst - "NULL" falls "SmallBody" NICHT "NULL" ist
        * </pre>
        *
-       * <code>optional .dstore.values.StringValue body = 10013;</code>
+       * <code>.dstore.values.StringValue body = 10013;</code>
        */
       public io.dstore.values.StringValueOrBuilder getBodyOrBuilder() {
         return getBody();
@@ -2337,7 +2337,7 @@ public final class AcGetActionLogsAd {
        * ID des Forums zu dem der durch "&#64;OnlyPartNo" angegebenene Log-Eintrag gehört
        * </pre>
        *
-       * <code>optional .dstore.values.IntegerValue forum_id = 20002;</code>
+       * <code>.dstore.values.IntegerValue forum_id = 20002;</code>
        */
       public boolean hasForumId() {
         return forumId_ != null;
@@ -2347,7 +2347,7 @@ public final class AcGetActionLogsAd {
        * ID des Forums zu dem der durch "&#64;OnlyPartNo" angegebenene Log-Eintrag gehört
        * </pre>
        *
-       * <code>optional .dstore.values.IntegerValue forum_id = 20002;</code>
+       * <code>.dstore.values.IntegerValue forum_id = 20002;</code>
        */
       public io.dstore.values.IntegerValue getForumId() {
         return forumId_ == null ? io.dstore.values.IntegerValue.getDefaultInstance() : forumId_;
@@ -2357,7 +2357,7 @@ public final class AcGetActionLogsAd {
        * ID des Forums zu dem der durch "&#64;OnlyPartNo" angegebenene Log-Eintrag gehört
        * </pre>
        *
-       * <code>optional .dstore.values.IntegerValue forum_id = 20002;</code>
+       * <code>.dstore.values.IntegerValue forum_id = 20002;</code>
        */
       public io.dstore.values.IntegerValueOrBuilder getForumIdOrBuilder() {
         return getForumId();
@@ -2370,7 +2370,7 @@ public final class AcGetActionLogsAd {
        * Hier steht die Eigenschaft von "AuthorPersonID" zur dritten Merkmal-ID, die in "ForumSettings" zum Schlüssel "AllowedCharacteristicsForAdditionalInformation_&lt;PersonTypeID von AuthorPersonID&gt;" (zum Forum "ForumID") hinterlegt ist
        * </pre>
        *
-       * <code>optional .dstore.values.StringValue value3 = 20003;</code>
+       * <code>.dstore.values.StringValue value3 = 20003;</code>
        */
       public boolean hasValue3() {
         return value3_ != null;
@@ -2380,7 +2380,7 @@ public final class AcGetActionLogsAd {
        * Hier steht die Eigenschaft von "AuthorPersonID" zur dritten Merkmal-ID, die in "ForumSettings" zum Schlüssel "AllowedCharacteristicsForAdditionalInformation_&lt;PersonTypeID von AuthorPersonID&gt;" (zum Forum "ForumID") hinterlegt ist
        * </pre>
        *
-       * <code>optional .dstore.values.StringValue value3 = 20003;</code>
+       * <code>.dstore.values.StringValue value3 = 20003;</code>
        */
       public io.dstore.values.StringValue getValue3() {
         return value3_ == null ? io.dstore.values.StringValue.getDefaultInstance() : value3_;
@@ -2390,7 +2390,7 @@ public final class AcGetActionLogsAd {
        * Hier steht die Eigenschaft von "AuthorPersonID" zur dritten Merkmal-ID, die in "ForumSettings" zum Schlüssel "AllowedCharacteristicsForAdditionalInformation_&lt;PersonTypeID von AuthorPersonID&gt;" (zum Forum "ForumID") hinterlegt ist
        * </pre>
        *
-       * <code>optional .dstore.values.StringValue value3 = 20003;</code>
+       * <code>.dstore.values.StringValue value3 = 20003;</code>
        */
       public io.dstore.values.StringValueOrBuilder getValue3OrBuilder() {
         return getValue3();
@@ -2403,7 +2403,7 @@ public final class AcGetActionLogsAd {
        * Hier steht die Eigenschaft von "AuthorPersonID" zur ersten Merkmal-ID, die in "ForumSettings" zum Schlüssel "AllowedCharacteristicsForAdditionalInformation_&lt;PersonTypeID von AuthorPersonID&gt;" (zum Forum "ForumID") hinterlegt ist
        * </pre>
        *
-       * <code>optional .dstore.values.StringValue value1 = 20005;</code>
+       * <code>.dstore.values.StringValue value1 = 20005;</code>
        */
       public boolean hasValue1() {
         return value1_ != null;
@@ -2413,7 +2413,7 @@ public final class AcGetActionLogsAd {
        * Hier steht die Eigenschaft von "AuthorPersonID" zur ersten Merkmal-ID, die in "ForumSettings" zum Schlüssel "AllowedCharacteristicsForAdditionalInformation_&lt;PersonTypeID von AuthorPersonID&gt;" (zum Forum "ForumID") hinterlegt ist
        * </pre>
        *
-       * <code>optional .dstore.values.StringValue value1 = 20005;</code>
+       * <code>.dstore.values.StringValue value1 = 20005;</code>
        */
       public io.dstore.values.StringValue getValue1() {
         return value1_ == null ? io.dstore.values.StringValue.getDefaultInstance() : value1_;
@@ -2423,7 +2423,7 @@ public final class AcGetActionLogsAd {
        * Hier steht die Eigenschaft von "AuthorPersonID" zur ersten Merkmal-ID, die in "ForumSettings" zum Schlüssel "AllowedCharacteristicsForAdditionalInformation_&lt;PersonTypeID von AuthorPersonID&gt;" (zum Forum "ForumID") hinterlegt ist
        * </pre>
        *
-       * <code>optional .dstore.values.StringValue value1 = 20005;</code>
+       * <code>.dstore.values.StringValue value1 = 20005;</code>
        */
       public io.dstore.values.StringValueOrBuilder getValue1OrBuilder() {
         return getValue1();
@@ -2436,7 +2436,7 @@ public final class AcGetActionLogsAd {
        * Hier steht die Eigenschaft von "AuthorPersonID" zur zweiten Merkmal-ID, die in "ForumSettings" zum Schlüssel "AllowedCharacteristicsForAdditionalInformation_&lt;PersonTypeID von AuthorPersonID&gt;" (zum Forum "ForumID") hinterlegt ist
        * </pre>
        *
-       * <code>optional .dstore.values.StringValue value2 = 20006;</code>
+       * <code>.dstore.values.StringValue value2 = 20006;</code>
        */
       public boolean hasValue2() {
         return value2_ != null;
@@ -2446,7 +2446,7 @@ public final class AcGetActionLogsAd {
        * Hier steht die Eigenschaft von "AuthorPersonID" zur zweiten Merkmal-ID, die in "ForumSettings" zum Schlüssel "AllowedCharacteristicsForAdditionalInformation_&lt;PersonTypeID von AuthorPersonID&gt;" (zum Forum "ForumID") hinterlegt ist
        * </pre>
        *
-       * <code>optional .dstore.values.StringValue value2 = 20006;</code>
+       * <code>.dstore.values.StringValue value2 = 20006;</code>
        */
       public io.dstore.values.StringValue getValue2() {
         return value2_ == null ? io.dstore.values.StringValue.getDefaultInstance() : value2_;
@@ -2456,7 +2456,7 @@ public final class AcGetActionLogsAd {
        * Hier steht die Eigenschaft von "AuthorPersonID" zur zweiten Merkmal-ID, die in "ForumSettings" zum Schlüssel "AllowedCharacteristicsForAdditionalInformation_&lt;PersonTypeID von AuthorPersonID&gt;" (zum Forum "ForumID") hinterlegt ist
        * </pre>
        *
-       * <code>optional .dstore.values.StringValue value2 = 20006;</code>
+       * <code>.dstore.values.StringValue value2 = 20006;</code>
        */
       public io.dstore.values.StringValueOrBuilder getValue2OrBuilder() {
         return getValue2();
@@ -2469,7 +2469,7 @@ public final class AcGetActionLogsAd {
        * ID des Haupt-Beitrages zu dem durch "&#64;OnlyPartNo" angegebene Log-Eintrag (also sozusagen das Wurzel-Element des gesamten "Threads")
        * </pre>
        *
-       * <code>optional .dstore.values.IntegerValue main_posting_id = 20010;</code>
+       * <code>.dstore.values.IntegerValue main_posting_id = 20010;</code>
        */
       public boolean hasMainPostingId() {
         return mainPostingId_ != null;
@@ -2479,7 +2479,7 @@ public final class AcGetActionLogsAd {
        * ID des Haupt-Beitrages zu dem durch "&#64;OnlyPartNo" angegebene Log-Eintrag (also sozusagen das Wurzel-Element des gesamten "Threads")
        * </pre>
        *
-       * <code>optional .dstore.values.IntegerValue main_posting_id = 20010;</code>
+       * <code>.dstore.values.IntegerValue main_posting_id = 20010;</code>
        */
       public io.dstore.values.IntegerValue getMainPostingId() {
         return mainPostingId_ == null ? io.dstore.values.IntegerValue.getDefaultInstance() : mainPostingId_;
@@ -2489,7 +2489,7 @@ public final class AcGetActionLogsAd {
        * ID des Haupt-Beitrages zu dem durch "&#64;OnlyPartNo" angegebene Log-Eintrag (also sozusagen das Wurzel-Element des gesamten "Threads")
        * </pre>
        *
-       * <code>optional .dstore.values.IntegerValue main_posting_id = 20010;</code>
+       * <code>.dstore.values.IntegerValue main_posting_id = 20010;</code>
        */
       public io.dstore.values.IntegerValueOrBuilder getMainPostingIdOrBuilder() {
         return getMainPostingId();
@@ -2502,7 +2502,7 @@ public final class AcGetActionLogsAd {
        * Gibt es wenigstens eine Antwort auf den Log-Eintrag ? Anmerkung : Hier sollte eigentlich immer "0" stehen, wenn Log-Einträge nur mit Hilfe von "ac_InsertActionLog_Ad" gemacht werden.
        * </pre>
        *
-       * <code>optional .dstore.values.BooleanValue has_successors = 20014;</code>
+       * <code>.dstore.values.BooleanValue has_successors = 20014;</code>
        */
       public boolean hasHasSuccessors() {
         return hasSuccessors_ != null;
@@ -2512,7 +2512,7 @@ public final class AcGetActionLogsAd {
        * Gibt es wenigstens eine Antwort auf den Log-Eintrag ? Anmerkung : Hier sollte eigentlich immer "0" stehen, wenn Log-Einträge nur mit Hilfe von "ac_InsertActionLog_Ad" gemacht werden.
        * </pre>
        *
-       * <code>optional .dstore.values.BooleanValue has_successors = 20014;</code>
+       * <code>.dstore.values.BooleanValue has_successors = 20014;</code>
        */
       public io.dstore.values.BooleanValue getHasSuccessors() {
         return hasSuccessors_ == null ? io.dstore.values.BooleanValue.getDefaultInstance() : hasSuccessors_;
@@ -2522,7 +2522,7 @@ public final class AcGetActionLogsAd {
        * Gibt es wenigstens eine Antwort auf den Log-Eintrag ? Anmerkung : Hier sollte eigentlich immer "0" stehen, wenn Log-Einträge nur mit Hilfe von "ac_InsertActionLog_Ad" gemacht werden.
        * </pre>
        *
-       * <code>optional .dstore.values.BooleanValue has_successors = 20014;</code>
+       * <code>.dstore.values.BooleanValue has_successors = 20014;</code>
        */
       public io.dstore.values.BooleanValueOrBuilder getHasSuccessorsOrBuilder() {
         return getHasSuccessors();
@@ -2809,7 +2809,7 @@ public final class AcGetActionLogsAd {
           return memoizedHashCode;
         }
         int hash = 41;
-        hash = (19 * hash) + getDescriptorForType().hashCode();
+        hash = (19 * hash) + getDescriptor().hashCode();
         hash = (37 * hash) + ROW_ID_FIELD_NUMBER;
         hash = (53 * hash) + getRowId();
         if (hasSmallBody()) {
@@ -3369,13 +3369,13 @@ public final class AcGetActionLogsAd {
 
         private int rowId_ ;
         /**
-         * <code>optional int32 row_id = 10000;</code>
+         * <code>int32 row_id = 10000;</code>
          */
         public int getRowId() {
           return rowId_;
         }
         /**
-         * <code>optional int32 row_id = 10000;</code>
+         * <code>int32 row_id = 10000;</code>
          */
         public Builder setRowId(int value) {
           
@@ -3384,7 +3384,7 @@ public final class AcGetActionLogsAd {
           return this;
         }
         /**
-         * <code>optional int32 row_id = 10000;</code>
+         * <code>int32 row_id = 10000;</code>
          */
         public Builder clearRowId() {
           
@@ -3401,7 +3401,7 @@ public final class AcGetActionLogsAd {
          * Hier erscheint der Beitrag selbst, falls er weniger als 256 Zeichen enthält UND "UseSmallBody" in "ForumSettings" auf "1" gesetzt ist. D.h. mindestens EINE der Rückgabespalten "SmallBody" und "Body" ist IMMER "NULL".
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue small_body = 10001;</code>
+         * <code>.dstore.values.StringValue small_body = 10001;</code>
          */
         public boolean hasSmallBody() {
           return smallBodyBuilder_ != null || smallBody_ != null;
@@ -3411,7 +3411,7 @@ public final class AcGetActionLogsAd {
          * Hier erscheint der Beitrag selbst, falls er weniger als 256 Zeichen enthält UND "UseSmallBody" in "ForumSettings" auf "1" gesetzt ist. D.h. mindestens EINE der Rückgabespalten "SmallBody" und "Body" ist IMMER "NULL".
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue small_body = 10001;</code>
+         * <code>.dstore.values.StringValue small_body = 10001;</code>
          */
         public io.dstore.values.StringValue getSmallBody() {
           if (smallBodyBuilder_ == null) {
@@ -3425,7 +3425,7 @@ public final class AcGetActionLogsAd {
          * Hier erscheint der Beitrag selbst, falls er weniger als 256 Zeichen enthält UND "UseSmallBody" in "ForumSettings" auf "1" gesetzt ist. D.h. mindestens EINE der Rückgabespalten "SmallBody" und "Body" ist IMMER "NULL".
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue small_body = 10001;</code>
+         * <code>.dstore.values.StringValue small_body = 10001;</code>
          */
         public Builder setSmallBody(io.dstore.values.StringValue value) {
           if (smallBodyBuilder_ == null) {
@@ -3445,7 +3445,7 @@ public final class AcGetActionLogsAd {
          * Hier erscheint der Beitrag selbst, falls er weniger als 256 Zeichen enthält UND "UseSmallBody" in "ForumSettings" auf "1" gesetzt ist. D.h. mindestens EINE der Rückgabespalten "SmallBody" und "Body" ist IMMER "NULL".
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue small_body = 10001;</code>
+         * <code>.dstore.values.StringValue small_body = 10001;</code>
          */
         public Builder setSmallBody(
             io.dstore.values.StringValue.Builder builderForValue) {
@@ -3463,7 +3463,7 @@ public final class AcGetActionLogsAd {
          * Hier erscheint der Beitrag selbst, falls er weniger als 256 Zeichen enthält UND "UseSmallBody" in "ForumSettings" auf "1" gesetzt ist. D.h. mindestens EINE der Rückgabespalten "SmallBody" und "Body" ist IMMER "NULL".
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue small_body = 10001;</code>
+         * <code>.dstore.values.StringValue small_body = 10001;</code>
          */
         public Builder mergeSmallBody(io.dstore.values.StringValue value) {
           if (smallBodyBuilder_ == null) {
@@ -3485,7 +3485,7 @@ public final class AcGetActionLogsAd {
          * Hier erscheint der Beitrag selbst, falls er weniger als 256 Zeichen enthält UND "UseSmallBody" in "ForumSettings" auf "1" gesetzt ist. D.h. mindestens EINE der Rückgabespalten "SmallBody" und "Body" ist IMMER "NULL".
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue small_body = 10001;</code>
+         * <code>.dstore.values.StringValue small_body = 10001;</code>
          */
         public Builder clearSmallBody() {
           if (smallBodyBuilder_ == null) {
@@ -3503,7 +3503,7 @@ public final class AcGetActionLogsAd {
          * Hier erscheint der Beitrag selbst, falls er weniger als 256 Zeichen enthält UND "UseSmallBody" in "ForumSettings" auf "1" gesetzt ist. D.h. mindestens EINE der Rückgabespalten "SmallBody" und "Body" ist IMMER "NULL".
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue small_body = 10001;</code>
+         * <code>.dstore.values.StringValue small_body = 10001;</code>
          */
         public io.dstore.values.StringValue.Builder getSmallBodyBuilder() {
           
@@ -3515,7 +3515,7 @@ public final class AcGetActionLogsAd {
          * Hier erscheint der Beitrag selbst, falls er weniger als 256 Zeichen enthält UND "UseSmallBody" in "ForumSettings" auf "1" gesetzt ist. D.h. mindestens EINE der Rückgabespalten "SmallBody" und "Body" ist IMMER "NULL".
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue small_body = 10001;</code>
+         * <code>.dstore.values.StringValue small_body = 10001;</code>
          */
         public io.dstore.values.StringValueOrBuilder getSmallBodyOrBuilder() {
           if (smallBodyBuilder_ != null) {
@@ -3530,7 +3530,7 @@ public final class AcGetActionLogsAd {
          * Hier erscheint der Beitrag selbst, falls er weniger als 256 Zeichen enthält UND "UseSmallBody" in "ForumSettings" auf "1" gesetzt ist. D.h. mindestens EINE der Rückgabespalten "SmallBody" und "Body" ist IMMER "NULL".
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue small_body = 10001;</code>
+         * <code>.dstore.values.StringValue small_body = 10001;</code>
          */
         private com.google.protobuf.SingleFieldBuilderV3<
             io.dstore.values.StringValue, io.dstore.values.StringValue.Builder, io.dstore.values.StringValueOrBuilder> 
@@ -3554,7 +3554,7 @@ public final class AcGetActionLogsAd {
          * Wurde das Posting vor "HoursAfterPostingsAreRegardedAsRead" (Eintrag in "ForumSettings") Stunden verfaßt ODER gibt es zur Person, die diese Prozedur aufruft, einen Eintrag in "ReadPostingsPerPerson", steht hier der Wert "1"
          * </pre>
          *
-         * <code>optional .dstore.values.BooleanValue already_read = 10002;</code>
+         * <code>.dstore.values.BooleanValue already_read = 10002;</code>
          */
         public boolean hasAlreadyRead() {
           return alreadyReadBuilder_ != null || alreadyRead_ != null;
@@ -3564,7 +3564,7 @@ public final class AcGetActionLogsAd {
          * Wurde das Posting vor "HoursAfterPostingsAreRegardedAsRead" (Eintrag in "ForumSettings") Stunden verfaßt ODER gibt es zur Person, die diese Prozedur aufruft, einen Eintrag in "ReadPostingsPerPerson", steht hier der Wert "1"
          * </pre>
          *
-         * <code>optional .dstore.values.BooleanValue already_read = 10002;</code>
+         * <code>.dstore.values.BooleanValue already_read = 10002;</code>
          */
         public io.dstore.values.BooleanValue getAlreadyRead() {
           if (alreadyReadBuilder_ == null) {
@@ -3578,7 +3578,7 @@ public final class AcGetActionLogsAd {
          * Wurde das Posting vor "HoursAfterPostingsAreRegardedAsRead" (Eintrag in "ForumSettings") Stunden verfaßt ODER gibt es zur Person, die diese Prozedur aufruft, einen Eintrag in "ReadPostingsPerPerson", steht hier der Wert "1"
          * </pre>
          *
-         * <code>optional .dstore.values.BooleanValue already_read = 10002;</code>
+         * <code>.dstore.values.BooleanValue already_read = 10002;</code>
          */
         public Builder setAlreadyRead(io.dstore.values.BooleanValue value) {
           if (alreadyReadBuilder_ == null) {
@@ -3598,7 +3598,7 @@ public final class AcGetActionLogsAd {
          * Wurde das Posting vor "HoursAfterPostingsAreRegardedAsRead" (Eintrag in "ForumSettings") Stunden verfaßt ODER gibt es zur Person, die diese Prozedur aufruft, einen Eintrag in "ReadPostingsPerPerson", steht hier der Wert "1"
          * </pre>
          *
-         * <code>optional .dstore.values.BooleanValue already_read = 10002;</code>
+         * <code>.dstore.values.BooleanValue already_read = 10002;</code>
          */
         public Builder setAlreadyRead(
             io.dstore.values.BooleanValue.Builder builderForValue) {
@@ -3616,7 +3616,7 @@ public final class AcGetActionLogsAd {
          * Wurde das Posting vor "HoursAfterPostingsAreRegardedAsRead" (Eintrag in "ForumSettings") Stunden verfaßt ODER gibt es zur Person, die diese Prozedur aufruft, einen Eintrag in "ReadPostingsPerPerson", steht hier der Wert "1"
          * </pre>
          *
-         * <code>optional .dstore.values.BooleanValue already_read = 10002;</code>
+         * <code>.dstore.values.BooleanValue already_read = 10002;</code>
          */
         public Builder mergeAlreadyRead(io.dstore.values.BooleanValue value) {
           if (alreadyReadBuilder_ == null) {
@@ -3638,7 +3638,7 @@ public final class AcGetActionLogsAd {
          * Wurde das Posting vor "HoursAfterPostingsAreRegardedAsRead" (Eintrag in "ForumSettings") Stunden verfaßt ODER gibt es zur Person, die diese Prozedur aufruft, einen Eintrag in "ReadPostingsPerPerson", steht hier der Wert "1"
          * </pre>
          *
-         * <code>optional .dstore.values.BooleanValue already_read = 10002;</code>
+         * <code>.dstore.values.BooleanValue already_read = 10002;</code>
          */
         public Builder clearAlreadyRead() {
           if (alreadyReadBuilder_ == null) {
@@ -3656,7 +3656,7 @@ public final class AcGetActionLogsAd {
          * Wurde das Posting vor "HoursAfterPostingsAreRegardedAsRead" (Eintrag in "ForumSettings") Stunden verfaßt ODER gibt es zur Person, die diese Prozedur aufruft, einen Eintrag in "ReadPostingsPerPerson", steht hier der Wert "1"
          * </pre>
          *
-         * <code>optional .dstore.values.BooleanValue already_read = 10002;</code>
+         * <code>.dstore.values.BooleanValue already_read = 10002;</code>
          */
         public io.dstore.values.BooleanValue.Builder getAlreadyReadBuilder() {
           
@@ -3668,7 +3668,7 @@ public final class AcGetActionLogsAd {
          * Wurde das Posting vor "HoursAfterPostingsAreRegardedAsRead" (Eintrag in "ForumSettings") Stunden verfaßt ODER gibt es zur Person, die diese Prozedur aufruft, einen Eintrag in "ReadPostingsPerPerson", steht hier der Wert "1"
          * </pre>
          *
-         * <code>optional .dstore.values.BooleanValue already_read = 10002;</code>
+         * <code>.dstore.values.BooleanValue already_read = 10002;</code>
          */
         public io.dstore.values.BooleanValueOrBuilder getAlreadyReadOrBuilder() {
           if (alreadyReadBuilder_ != null) {
@@ -3683,7 +3683,7 @@ public final class AcGetActionLogsAd {
          * Wurde das Posting vor "HoursAfterPostingsAreRegardedAsRead" (Eintrag in "ForumSettings") Stunden verfaßt ODER gibt es zur Person, die diese Prozedur aufruft, einen Eintrag in "ReadPostingsPerPerson", steht hier der Wert "1"
          * </pre>
          *
-         * <code>optional .dstore.values.BooleanValue already_read = 10002;</code>
+         * <code>.dstore.values.BooleanValue already_read = 10002;</code>
          */
         private com.google.protobuf.SingleFieldBuilderV3<
             io.dstore.values.BooleanValue, io.dstore.values.BooleanValue.Builder, io.dstore.values.BooleanValueOrBuilder> 
@@ -3707,7 +3707,7 @@ public final class AcGetActionLogsAd {
          * ID eines Forum-Beitrags, der einen Log-Eintrag (zur gegebenen "&#64;ActionID") darstellt
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue posting_id = 10003;</code>
+         * <code>.dstore.values.IntegerValue posting_id = 10003;</code>
          */
         public boolean hasPostingId() {
           return postingIdBuilder_ != null || postingId_ != null;
@@ -3717,7 +3717,7 @@ public final class AcGetActionLogsAd {
          * ID eines Forum-Beitrags, der einen Log-Eintrag (zur gegebenen "&#64;ActionID") darstellt
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue posting_id = 10003;</code>
+         * <code>.dstore.values.IntegerValue posting_id = 10003;</code>
          */
         public io.dstore.values.IntegerValue getPostingId() {
           if (postingIdBuilder_ == null) {
@@ -3731,7 +3731,7 @@ public final class AcGetActionLogsAd {
          * ID eines Forum-Beitrags, der einen Log-Eintrag (zur gegebenen "&#64;ActionID") darstellt
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue posting_id = 10003;</code>
+         * <code>.dstore.values.IntegerValue posting_id = 10003;</code>
          */
         public Builder setPostingId(io.dstore.values.IntegerValue value) {
           if (postingIdBuilder_ == null) {
@@ -3751,7 +3751,7 @@ public final class AcGetActionLogsAd {
          * ID eines Forum-Beitrags, der einen Log-Eintrag (zur gegebenen "&#64;ActionID") darstellt
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue posting_id = 10003;</code>
+         * <code>.dstore.values.IntegerValue posting_id = 10003;</code>
          */
         public Builder setPostingId(
             io.dstore.values.IntegerValue.Builder builderForValue) {
@@ -3769,7 +3769,7 @@ public final class AcGetActionLogsAd {
          * ID eines Forum-Beitrags, der einen Log-Eintrag (zur gegebenen "&#64;ActionID") darstellt
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue posting_id = 10003;</code>
+         * <code>.dstore.values.IntegerValue posting_id = 10003;</code>
          */
         public Builder mergePostingId(io.dstore.values.IntegerValue value) {
           if (postingIdBuilder_ == null) {
@@ -3791,7 +3791,7 @@ public final class AcGetActionLogsAd {
          * ID eines Forum-Beitrags, der einen Log-Eintrag (zur gegebenen "&#64;ActionID") darstellt
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue posting_id = 10003;</code>
+         * <code>.dstore.values.IntegerValue posting_id = 10003;</code>
          */
         public Builder clearPostingId() {
           if (postingIdBuilder_ == null) {
@@ -3809,7 +3809,7 @@ public final class AcGetActionLogsAd {
          * ID eines Forum-Beitrags, der einen Log-Eintrag (zur gegebenen "&#64;ActionID") darstellt
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue posting_id = 10003;</code>
+         * <code>.dstore.values.IntegerValue posting_id = 10003;</code>
          */
         public io.dstore.values.IntegerValue.Builder getPostingIdBuilder() {
           
@@ -3821,7 +3821,7 @@ public final class AcGetActionLogsAd {
          * ID eines Forum-Beitrags, der einen Log-Eintrag (zur gegebenen "&#64;ActionID") darstellt
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue posting_id = 10003;</code>
+         * <code>.dstore.values.IntegerValue posting_id = 10003;</code>
          */
         public io.dstore.values.IntegerValueOrBuilder getPostingIdOrBuilder() {
           if (postingIdBuilder_ != null) {
@@ -3836,7 +3836,7 @@ public final class AcGetActionLogsAd {
          * ID eines Forum-Beitrags, der einen Log-Eintrag (zur gegebenen "&#64;ActionID") darstellt
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue posting_id = 10003;</code>
+         * <code>.dstore.values.IntegerValue posting_id = 10003;</code>
          */
         private com.google.protobuf.SingleFieldBuilderV3<
             io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> 
@@ -3860,7 +3860,7 @@ public final class AcGetActionLogsAd {
          * ID des Postings, auf das "PostingID" eine Antwort darstellt. Falls gleich "PostingID", handelt es sich um einen Haupt-Beitrag, sprich "MainPosting"
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue reply_to_posting_id = 10004;</code>
+         * <code>.dstore.values.IntegerValue reply_to_posting_id = 10004;</code>
          */
         public boolean hasReplyToPostingId() {
           return replyToPostingIdBuilder_ != null || replyToPostingId_ != null;
@@ -3870,7 +3870,7 @@ public final class AcGetActionLogsAd {
          * ID des Postings, auf das "PostingID" eine Antwort darstellt. Falls gleich "PostingID", handelt es sich um einen Haupt-Beitrag, sprich "MainPosting"
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue reply_to_posting_id = 10004;</code>
+         * <code>.dstore.values.IntegerValue reply_to_posting_id = 10004;</code>
          */
         public io.dstore.values.IntegerValue getReplyToPostingId() {
           if (replyToPostingIdBuilder_ == null) {
@@ -3884,7 +3884,7 @@ public final class AcGetActionLogsAd {
          * ID des Postings, auf das "PostingID" eine Antwort darstellt. Falls gleich "PostingID", handelt es sich um einen Haupt-Beitrag, sprich "MainPosting"
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue reply_to_posting_id = 10004;</code>
+         * <code>.dstore.values.IntegerValue reply_to_posting_id = 10004;</code>
          */
         public Builder setReplyToPostingId(io.dstore.values.IntegerValue value) {
           if (replyToPostingIdBuilder_ == null) {
@@ -3904,7 +3904,7 @@ public final class AcGetActionLogsAd {
          * ID des Postings, auf das "PostingID" eine Antwort darstellt. Falls gleich "PostingID", handelt es sich um einen Haupt-Beitrag, sprich "MainPosting"
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue reply_to_posting_id = 10004;</code>
+         * <code>.dstore.values.IntegerValue reply_to_posting_id = 10004;</code>
          */
         public Builder setReplyToPostingId(
             io.dstore.values.IntegerValue.Builder builderForValue) {
@@ -3922,7 +3922,7 @@ public final class AcGetActionLogsAd {
          * ID des Postings, auf das "PostingID" eine Antwort darstellt. Falls gleich "PostingID", handelt es sich um einen Haupt-Beitrag, sprich "MainPosting"
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue reply_to_posting_id = 10004;</code>
+         * <code>.dstore.values.IntegerValue reply_to_posting_id = 10004;</code>
          */
         public Builder mergeReplyToPostingId(io.dstore.values.IntegerValue value) {
           if (replyToPostingIdBuilder_ == null) {
@@ -3944,7 +3944,7 @@ public final class AcGetActionLogsAd {
          * ID des Postings, auf das "PostingID" eine Antwort darstellt. Falls gleich "PostingID", handelt es sich um einen Haupt-Beitrag, sprich "MainPosting"
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue reply_to_posting_id = 10004;</code>
+         * <code>.dstore.values.IntegerValue reply_to_posting_id = 10004;</code>
          */
         public Builder clearReplyToPostingId() {
           if (replyToPostingIdBuilder_ == null) {
@@ -3962,7 +3962,7 @@ public final class AcGetActionLogsAd {
          * ID des Postings, auf das "PostingID" eine Antwort darstellt. Falls gleich "PostingID", handelt es sich um einen Haupt-Beitrag, sprich "MainPosting"
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue reply_to_posting_id = 10004;</code>
+         * <code>.dstore.values.IntegerValue reply_to_posting_id = 10004;</code>
          */
         public io.dstore.values.IntegerValue.Builder getReplyToPostingIdBuilder() {
           
@@ -3974,7 +3974,7 @@ public final class AcGetActionLogsAd {
          * ID des Postings, auf das "PostingID" eine Antwort darstellt. Falls gleich "PostingID", handelt es sich um einen Haupt-Beitrag, sprich "MainPosting"
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue reply_to_posting_id = 10004;</code>
+         * <code>.dstore.values.IntegerValue reply_to_posting_id = 10004;</code>
          */
         public io.dstore.values.IntegerValueOrBuilder getReplyToPostingIdOrBuilder() {
           if (replyToPostingIdBuilder_ != null) {
@@ -3989,7 +3989,7 @@ public final class AcGetActionLogsAd {
          * ID des Postings, auf das "PostingID" eine Antwort darstellt. Falls gleich "PostingID", handelt es sich um einen Haupt-Beitrag, sprich "MainPosting"
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue reply_to_posting_id = 10004;</code>
+         * <code>.dstore.values.IntegerValue reply_to_posting_id = 10004;</code>
          */
         private com.google.protobuf.SingleFieldBuilderV3<
             io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> 
@@ -4013,7 +4013,7 @@ public final class AcGetActionLogsAd {
          * Der Titel des Beitrags "PostingID" - enthält immer eine Zahl, die angibt, der wievielte Log-Eintrag zur "&#64;ActionID" dies ist
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue subject = 10005;</code>
+         * <code>.dstore.values.StringValue subject = 10005;</code>
          */
         public boolean hasSubject() {
           return subjectBuilder_ != null || subject_ != null;
@@ -4023,7 +4023,7 @@ public final class AcGetActionLogsAd {
          * Der Titel des Beitrags "PostingID" - enthält immer eine Zahl, die angibt, der wievielte Log-Eintrag zur "&#64;ActionID" dies ist
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue subject = 10005;</code>
+         * <code>.dstore.values.StringValue subject = 10005;</code>
          */
         public io.dstore.values.StringValue getSubject() {
           if (subjectBuilder_ == null) {
@@ -4037,7 +4037,7 @@ public final class AcGetActionLogsAd {
          * Der Titel des Beitrags "PostingID" - enthält immer eine Zahl, die angibt, der wievielte Log-Eintrag zur "&#64;ActionID" dies ist
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue subject = 10005;</code>
+         * <code>.dstore.values.StringValue subject = 10005;</code>
          */
         public Builder setSubject(io.dstore.values.StringValue value) {
           if (subjectBuilder_ == null) {
@@ -4057,7 +4057,7 @@ public final class AcGetActionLogsAd {
          * Der Titel des Beitrags "PostingID" - enthält immer eine Zahl, die angibt, der wievielte Log-Eintrag zur "&#64;ActionID" dies ist
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue subject = 10005;</code>
+         * <code>.dstore.values.StringValue subject = 10005;</code>
          */
         public Builder setSubject(
             io.dstore.values.StringValue.Builder builderForValue) {
@@ -4075,7 +4075,7 @@ public final class AcGetActionLogsAd {
          * Der Titel des Beitrags "PostingID" - enthält immer eine Zahl, die angibt, der wievielte Log-Eintrag zur "&#64;ActionID" dies ist
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue subject = 10005;</code>
+         * <code>.dstore.values.StringValue subject = 10005;</code>
          */
         public Builder mergeSubject(io.dstore.values.StringValue value) {
           if (subjectBuilder_ == null) {
@@ -4097,7 +4097,7 @@ public final class AcGetActionLogsAd {
          * Der Titel des Beitrags "PostingID" - enthält immer eine Zahl, die angibt, der wievielte Log-Eintrag zur "&#64;ActionID" dies ist
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue subject = 10005;</code>
+         * <code>.dstore.values.StringValue subject = 10005;</code>
          */
         public Builder clearSubject() {
           if (subjectBuilder_ == null) {
@@ -4115,7 +4115,7 @@ public final class AcGetActionLogsAd {
          * Der Titel des Beitrags "PostingID" - enthält immer eine Zahl, die angibt, der wievielte Log-Eintrag zur "&#64;ActionID" dies ist
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue subject = 10005;</code>
+         * <code>.dstore.values.StringValue subject = 10005;</code>
          */
         public io.dstore.values.StringValue.Builder getSubjectBuilder() {
           
@@ -4127,7 +4127,7 @@ public final class AcGetActionLogsAd {
          * Der Titel des Beitrags "PostingID" - enthält immer eine Zahl, die angibt, der wievielte Log-Eintrag zur "&#64;ActionID" dies ist
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue subject = 10005;</code>
+         * <code>.dstore.values.StringValue subject = 10005;</code>
          */
         public io.dstore.values.StringValueOrBuilder getSubjectOrBuilder() {
           if (subjectBuilder_ != null) {
@@ -4142,7 +4142,7 @@ public final class AcGetActionLogsAd {
          * Der Titel des Beitrags "PostingID" - enthält immer eine Zahl, die angibt, der wievielte Log-Eintrag zur "&#64;ActionID" dies ist
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue subject = 10005;</code>
+         * <code>.dstore.values.StringValue subject = 10005;</code>
          */
         private com.google.protobuf.SingleFieldBuilderV3<
             io.dstore.values.StringValue, io.dstore.values.StringValue.Builder, io.dstore.values.StringValueOrBuilder> 
@@ -4166,7 +4166,7 @@ public final class AcGetActionLogsAd {
          * eMail des Verfassers "Author"
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue e_mail_of_author = 10006;</code>
+         * <code>.dstore.values.StringValue e_mail_of_author = 10006;</code>
          */
         public boolean hasEMailOfAuthor() {
           return eMailOfAuthorBuilder_ != null || eMailOfAuthor_ != null;
@@ -4176,7 +4176,7 @@ public final class AcGetActionLogsAd {
          * eMail des Verfassers "Author"
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue e_mail_of_author = 10006;</code>
+         * <code>.dstore.values.StringValue e_mail_of_author = 10006;</code>
          */
         public io.dstore.values.StringValue getEMailOfAuthor() {
           if (eMailOfAuthorBuilder_ == null) {
@@ -4190,7 +4190,7 @@ public final class AcGetActionLogsAd {
          * eMail des Verfassers "Author"
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue e_mail_of_author = 10006;</code>
+         * <code>.dstore.values.StringValue e_mail_of_author = 10006;</code>
          */
         public Builder setEMailOfAuthor(io.dstore.values.StringValue value) {
           if (eMailOfAuthorBuilder_ == null) {
@@ -4210,7 +4210,7 @@ public final class AcGetActionLogsAd {
          * eMail des Verfassers "Author"
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue e_mail_of_author = 10006;</code>
+         * <code>.dstore.values.StringValue e_mail_of_author = 10006;</code>
          */
         public Builder setEMailOfAuthor(
             io.dstore.values.StringValue.Builder builderForValue) {
@@ -4228,7 +4228,7 @@ public final class AcGetActionLogsAd {
          * eMail des Verfassers "Author"
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue e_mail_of_author = 10006;</code>
+         * <code>.dstore.values.StringValue e_mail_of_author = 10006;</code>
          */
         public Builder mergeEMailOfAuthor(io.dstore.values.StringValue value) {
           if (eMailOfAuthorBuilder_ == null) {
@@ -4250,7 +4250,7 @@ public final class AcGetActionLogsAd {
          * eMail des Verfassers "Author"
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue e_mail_of_author = 10006;</code>
+         * <code>.dstore.values.StringValue e_mail_of_author = 10006;</code>
          */
         public Builder clearEMailOfAuthor() {
           if (eMailOfAuthorBuilder_ == null) {
@@ -4268,7 +4268,7 @@ public final class AcGetActionLogsAd {
          * eMail des Verfassers "Author"
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue e_mail_of_author = 10006;</code>
+         * <code>.dstore.values.StringValue e_mail_of_author = 10006;</code>
          */
         public io.dstore.values.StringValue.Builder getEMailOfAuthorBuilder() {
           
@@ -4280,7 +4280,7 @@ public final class AcGetActionLogsAd {
          * eMail des Verfassers "Author"
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue e_mail_of_author = 10006;</code>
+         * <code>.dstore.values.StringValue e_mail_of_author = 10006;</code>
          */
         public io.dstore.values.StringValueOrBuilder getEMailOfAuthorOrBuilder() {
           if (eMailOfAuthorBuilder_ != null) {
@@ -4295,7 +4295,7 @@ public final class AcGetActionLogsAd {
          * eMail des Verfassers "Author"
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue e_mail_of_author = 10006;</code>
+         * <code>.dstore.values.StringValue e_mail_of_author = 10006;</code>
          */
         private com.google.protobuf.SingleFieldBuilderV3<
             io.dstore.values.StringValue, io.dstore.values.StringValue.Builder, io.dstore.values.StringValueOrBuilder> 
@@ -4319,7 +4319,7 @@ public final class AcGetActionLogsAd {
          * (Person)ID des Verfassers "Author" - "0" bedeutet, daß der Verfasser anonym ist
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue author_person_id = 10007;</code>
+         * <code>.dstore.values.IntegerValue author_person_id = 10007;</code>
          */
         public boolean hasAuthorPersonId() {
           return authorPersonIdBuilder_ != null || authorPersonId_ != null;
@@ -4329,7 +4329,7 @@ public final class AcGetActionLogsAd {
          * (Person)ID des Verfassers "Author" - "0" bedeutet, daß der Verfasser anonym ist
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue author_person_id = 10007;</code>
+         * <code>.dstore.values.IntegerValue author_person_id = 10007;</code>
          */
         public io.dstore.values.IntegerValue getAuthorPersonId() {
           if (authorPersonIdBuilder_ == null) {
@@ -4343,7 +4343,7 @@ public final class AcGetActionLogsAd {
          * (Person)ID des Verfassers "Author" - "0" bedeutet, daß der Verfasser anonym ist
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue author_person_id = 10007;</code>
+         * <code>.dstore.values.IntegerValue author_person_id = 10007;</code>
          */
         public Builder setAuthorPersonId(io.dstore.values.IntegerValue value) {
           if (authorPersonIdBuilder_ == null) {
@@ -4363,7 +4363,7 @@ public final class AcGetActionLogsAd {
          * (Person)ID des Verfassers "Author" - "0" bedeutet, daß der Verfasser anonym ist
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue author_person_id = 10007;</code>
+         * <code>.dstore.values.IntegerValue author_person_id = 10007;</code>
          */
         public Builder setAuthorPersonId(
             io.dstore.values.IntegerValue.Builder builderForValue) {
@@ -4381,7 +4381,7 @@ public final class AcGetActionLogsAd {
          * (Person)ID des Verfassers "Author" - "0" bedeutet, daß der Verfasser anonym ist
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue author_person_id = 10007;</code>
+         * <code>.dstore.values.IntegerValue author_person_id = 10007;</code>
          */
         public Builder mergeAuthorPersonId(io.dstore.values.IntegerValue value) {
           if (authorPersonIdBuilder_ == null) {
@@ -4403,7 +4403,7 @@ public final class AcGetActionLogsAd {
          * (Person)ID des Verfassers "Author" - "0" bedeutet, daß der Verfasser anonym ist
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue author_person_id = 10007;</code>
+         * <code>.dstore.values.IntegerValue author_person_id = 10007;</code>
          */
         public Builder clearAuthorPersonId() {
           if (authorPersonIdBuilder_ == null) {
@@ -4421,7 +4421,7 @@ public final class AcGetActionLogsAd {
          * (Person)ID des Verfassers "Author" - "0" bedeutet, daß der Verfasser anonym ist
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue author_person_id = 10007;</code>
+         * <code>.dstore.values.IntegerValue author_person_id = 10007;</code>
          */
         public io.dstore.values.IntegerValue.Builder getAuthorPersonIdBuilder() {
           
@@ -4433,7 +4433,7 @@ public final class AcGetActionLogsAd {
          * (Person)ID des Verfassers "Author" - "0" bedeutet, daß der Verfasser anonym ist
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue author_person_id = 10007;</code>
+         * <code>.dstore.values.IntegerValue author_person_id = 10007;</code>
          */
         public io.dstore.values.IntegerValueOrBuilder getAuthorPersonIdOrBuilder() {
           if (authorPersonIdBuilder_ != null) {
@@ -4448,7 +4448,7 @@ public final class AcGetActionLogsAd {
          * (Person)ID des Verfassers "Author" - "0" bedeutet, daß der Verfasser anonym ist
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue author_person_id = 10007;</code>
+         * <code>.dstore.values.IntegerValue author_person_id = 10007;</code>
          */
         private com.google.protobuf.SingleFieldBuilderV3<
             io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> 
@@ -4472,7 +4472,7 @@ public final class AcGetActionLogsAd {
          * "PostDate" als String im Format : "15.03.2001 20:48:13"
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue post_date_char = 10008;</code>
+         * <code>.dstore.values.StringValue post_date_char = 10008;</code>
          */
         public boolean hasPostDateChar() {
           return postDateCharBuilder_ != null || postDateChar_ != null;
@@ -4482,7 +4482,7 @@ public final class AcGetActionLogsAd {
          * "PostDate" als String im Format : "15.03.2001 20:48:13"
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue post_date_char = 10008;</code>
+         * <code>.dstore.values.StringValue post_date_char = 10008;</code>
          */
         public io.dstore.values.StringValue getPostDateChar() {
           if (postDateCharBuilder_ == null) {
@@ -4496,7 +4496,7 @@ public final class AcGetActionLogsAd {
          * "PostDate" als String im Format : "15.03.2001 20:48:13"
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue post_date_char = 10008;</code>
+         * <code>.dstore.values.StringValue post_date_char = 10008;</code>
          */
         public Builder setPostDateChar(io.dstore.values.StringValue value) {
           if (postDateCharBuilder_ == null) {
@@ -4516,7 +4516,7 @@ public final class AcGetActionLogsAd {
          * "PostDate" als String im Format : "15.03.2001 20:48:13"
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue post_date_char = 10008;</code>
+         * <code>.dstore.values.StringValue post_date_char = 10008;</code>
          */
         public Builder setPostDateChar(
             io.dstore.values.StringValue.Builder builderForValue) {
@@ -4534,7 +4534,7 @@ public final class AcGetActionLogsAd {
          * "PostDate" als String im Format : "15.03.2001 20:48:13"
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue post_date_char = 10008;</code>
+         * <code>.dstore.values.StringValue post_date_char = 10008;</code>
          */
         public Builder mergePostDateChar(io.dstore.values.StringValue value) {
           if (postDateCharBuilder_ == null) {
@@ -4556,7 +4556,7 @@ public final class AcGetActionLogsAd {
          * "PostDate" als String im Format : "15.03.2001 20:48:13"
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue post_date_char = 10008;</code>
+         * <code>.dstore.values.StringValue post_date_char = 10008;</code>
          */
         public Builder clearPostDateChar() {
           if (postDateCharBuilder_ == null) {
@@ -4574,7 +4574,7 @@ public final class AcGetActionLogsAd {
          * "PostDate" als String im Format : "15.03.2001 20:48:13"
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue post_date_char = 10008;</code>
+         * <code>.dstore.values.StringValue post_date_char = 10008;</code>
          */
         public io.dstore.values.StringValue.Builder getPostDateCharBuilder() {
           
@@ -4586,7 +4586,7 @@ public final class AcGetActionLogsAd {
          * "PostDate" als String im Format : "15.03.2001 20:48:13"
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue post_date_char = 10008;</code>
+         * <code>.dstore.values.StringValue post_date_char = 10008;</code>
          */
         public io.dstore.values.StringValueOrBuilder getPostDateCharOrBuilder() {
           if (postDateCharBuilder_ != null) {
@@ -4601,7 +4601,7 @@ public final class AcGetActionLogsAd {
          * "PostDate" als String im Format : "15.03.2001 20:48:13"
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue post_date_char = 10008;</code>
+         * <code>.dstore.values.StringValue post_date_char = 10008;</code>
          */
         private com.google.protobuf.SingleFieldBuilderV3<
             io.dstore.values.StringValue, io.dstore.values.StringValue.Builder, io.dstore.values.StringValueOrBuilder> 
@@ -4625,7 +4625,7 @@ public final class AcGetActionLogsAd {
          * Sichtbarkeits-Status des Postings "PostingID". Ist immer "4" oder "8", da nur "Log-Einträge", die in einem dieser beiden "Visible-Status" sind, berücksichtigt werden.
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue visible = 10009;</code>
+         * <code>.dstore.values.IntegerValue visible = 10009;</code>
          */
         public boolean hasVisible() {
           return visibleBuilder_ != null || visible_ != null;
@@ -4635,7 +4635,7 @@ public final class AcGetActionLogsAd {
          * Sichtbarkeits-Status des Postings "PostingID". Ist immer "4" oder "8", da nur "Log-Einträge", die in einem dieser beiden "Visible-Status" sind, berücksichtigt werden.
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue visible = 10009;</code>
+         * <code>.dstore.values.IntegerValue visible = 10009;</code>
          */
         public io.dstore.values.IntegerValue getVisible() {
           if (visibleBuilder_ == null) {
@@ -4649,7 +4649,7 @@ public final class AcGetActionLogsAd {
          * Sichtbarkeits-Status des Postings "PostingID". Ist immer "4" oder "8", da nur "Log-Einträge", die in einem dieser beiden "Visible-Status" sind, berücksichtigt werden.
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue visible = 10009;</code>
+         * <code>.dstore.values.IntegerValue visible = 10009;</code>
          */
         public Builder setVisible(io.dstore.values.IntegerValue value) {
           if (visibleBuilder_ == null) {
@@ -4669,7 +4669,7 @@ public final class AcGetActionLogsAd {
          * Sichtbarkeits-Status des Postings "PostingID". Ist immer "4" oder "8", da nur "Log-Einträge", die in einem dieser beiden "Visible-Status" sind, berücksichtigt werden.
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue visible = 10009;</code>
+         * <code>.dstore.values.IntegerValue visible = 10009;</code>
          */
         public Builder setVisible(
             io.dstore.values.IntegerValue.Builder builderForValue) {
@@ -4687,7 +4687,7 @@ public final class AcGetActionLogsAd {
          * Sichtbarkeits-Status des Postings "PostingID". Ist immer "4" oder "8", da nur "Log-Einträge", die in einem dieser beiden "Visible-Status" sind, berücksichtigt werden.
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue visible = 10009;</code>
+         * <code>.dstore.values.IntegerValue visible = 10009;</code>
          */
         public Builder mergeVisible(io.dstore.values.IntegerValue value) {
           if (visibleBuilder_ == null) {
@@ -4709,7 +4709,7 @@ public final class AcGetActionLogsAd {
          * Sichtbarkeits-Status des Postings "PostingID". Ist immer "4" oder "8", da nur "Log-Einträge", die in einem dieser beiden "Visible-Status" sind, berücksichtigt werden.
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue visible = 10009;</code>
+         * <code>.dstore.values.IntegerValue visible = 10009;</code>
          */
         public Builder clearVisible() {
           if (visibleBuilder_ == null) {
@@ -4727,7 +4727,7 @@ public final class AcGetActionLogsAd {
          * Sichtbarkeits-Status des Postings "PostingID". Ist immer "4" oder "8", da nur "Log-Einträge", die in einem dieser beiden "Visible-Status" sind, berücksichtigt werden.
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue visible = 10009;</code>
+         * <code>.dstore.values.IntegerValue visible = 10009;</code>
          */
         public io.dstore.values.IntegerValue.Builder getVisibleBuilder() {
           
@@ -4739,7 +4739,7 @@ public final class AcGetActionLogsAd {
          * Sichtbarkeits-Status des Postings "PostingID". Ist immer "4" oder "8", da nur "Log-Einträge", die in einem dieser beiden "Visible-Status" sind, berücksichtigt werden.
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue visible = 10009;</code>
+         * <code>.dstore.values.IntegerValue visible = 10009;</code>
          */
         public io.dstore.values.IntegerValueOrBuilder getVisibleOrBuilder() {
           if (visibleBuilder_ != null) {
@@ -4754,7 +4754,7 @@ public final class AcGetActionLogsAd {
          * Sichtbarkeits-Status des Postings "PostingID". Ist immer "4" oder "8", da nur "Log-Einträge", die in einem dieser beiden "Visible-Status" sind, berücksichtigt werden.
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue visible = 10009;</code>
+         * <code>.dstore.values.IntegerValue visible = 10009;</code>
          */
         private com.google.protobuf.SingleFieldBuilderV3<
             io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> 
@@ -4778,7 +4778,7 @@ public final class AcGetActionLogsAd {
          * Sind "Binaries" zu dem Posting "PostingID" vorhanden ?
          * </pre>
          *
-         * <code>optional .dstore.values.BooleanValue has_binaries = 10010;</code>
+         * <code>.dstore.values.BooleanValue has_binaries = 10010;</code>
          */
         public boolean hasHasBinaries() {
           return hasBinariesBuilder_ != null || hasBinaries_ != null;
@@ -4788,7 +4788,7 @@ public final class AcGetActionLogsAd {
          * Sind "Binaries" zu dem Posting "PostingID" vorhanden ?
          * </pre>
          *
-         * <code>optional .dstore.values.BooleanValue has_binaries = 10010;</code>
+         * <code>.dstore.values.BooleanValue has_binaries = 10010;</code>
          */
         public io.dstore.values.BooleanValue getHasBinaries() {
           if (hasBinariesBuilder_ == null) {
@@ -4802,7 +4802,7 @@ public final class AcGetActionLogsAd {
          * Sind "Binaries" zu dem Posting "PostingID" vorhanden ?
          * </pre>
          *
-         * <code>optional .dstore.values.BooleanValue has_binaries = 10010;</code>
+         * <code>.dstore.values.BooleanValue has_binaries = 10010;</code>
          */
         public Builder setHasBinaries(io.dstore.values.BooleanValue value) {
           if (hasBinariesBuilder_ == null) {
@@ -4822,7 +4822,7 @@ public final class AcGetActionLogsAd {
          * Sind "Binaries" zu dem Posting "PostingID" vorhanden ?
          * </pre>
          *
-         * <code>optional .dstore.values.BooleanValue has_binaries = 10010;</code>
+         * <code>.dstore.values.BooleanValue has_binaries = 10010;</code>
          */
         public Builder setHasBinaries(
             io.dstore.values.BooleanValue.Builder builderForValue) {
@@ -4840,7 +4840,7 @@ public final class AcGetActionLogsAd {
          * Sind "Binaries" zu dem Posting "PostingID" vorhanden ?
          * </pre>
          *
-         * <code>optional .dstore.values.BooleanValue has_binaries = 10010;</code>
+         * <code>.dstore.values.BooleanValue has_binaries = 10010;</code>
          */
         public Builder mergeHasBinaries(io.dstore.values.BooleanValue value) {
           if (hasBinariesBuilder_ == null) {
@@ -4862,7 +4862,7 @@ public final class AcGetActionLogsAd {
          * Sind "Binaries" zu dem Posting "PostingID" vorhanden ?
          * </pre>
          *
-         * <code>optional .dstore.values.BooleanValue has_binaries = 10010;</code>
+         * <code>.dstore.values.BooleanValue has_binaries = 10010;</code>
          */
         public Builder clearHasBinaries() {
           if (hasBinariesBuilder_ == null) {
@@ -4880,7 +4880,7 @@ public final class AcGetActionLogsAd {
          * Sind "Binaries" zu dem Posting "PostingID" vorhanden ?
          * </pre>
          *
-         * <code>optional .dstore.values.BooleanValue has_binaries = 10010;</code>
+         * <code>.dstore.values.BooleanValue has_binaries = 10010;</code>
          */
         public io.dstore.values.BooleanValue.Builder getHasBinariesBuilder() {
           
@@ -4892,7 +4892,7 @@ public final class AcGetActionLogsAd {
          * Sind "Binaries" zu dem Posting "PostingID" vorhanden ?
          * </pre>
          *
-         * <code>optional .dstore.values.BooleanValue has_binaries = 10010;</code>
+         * <code>.dstore.values.BooleanValue has_binaries = 10010;</code>
          */
         public io.dstore.values.BooleanValueOrBuilder getHasBinariesOrBuilder() {
           if (hasBinariesBuilder_ != null) {
@@ -4907,7 +4907,7 @@ public final class AcGetActionLogsAd {
          * Sind "Binaries" zu dem Posting "PostingID" vorhanden ?
          * </pre>
          *
-         * <code>optional .dstore.values.BooleanValue has_binaries = 10010;</code>
+         * <code>.dstore.values.BooleanValue has_binaries = 10010;</code>
          */
         private com.google.protobuf.SingleFieldBuilderV3<
             io.dstore.values.BooleanValue, io.dstore.values.BooleanValue.Builder, io.dstore.values.BooleanValueOrBuilder> 
@@ -4931,7 +4931,7 @@ public final class AcGetActionLogsAd {
          * Name des Verfassers des Beitrags "PostingID"
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue author = 10011;</code>
+         * <code>.dstore.values.StringValue author = 10011;</code>
          */
         public boolean hasAuthor() {
           return authorBuilder_ != null || author_ != null;
@@ -4941,7 +4941,7 @@ public final class AcGetActionLogsAd {
          * Name des Verfassers des Beitrags "PostingID"
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue author = 10011;</code>
+         * <code>.dstore.values.StringValue author = 10011;</code>
          */
         public io.dstore.values.StringValue getAuthor() {
           if (authorBuilder_ == null) {
@@ -4955,7 +4955,7 @@ public final class AcGetActionLogsAd {
          * Name des Verfassers des Beitrags "PostingID"
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue author = 10011;</code>
+         * <code>.dstore.values.StringValue author = 10011;</code>
          */
         public Builder setAuthor(io.dstore.values.StringValue value) {
           if (authorBuilder_ == null) {
@@ -4975,7 +4975,7 @@ public final class AcGetActionLogsAd {
          * Name des Verfassers des Beitrags "PostingID"
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue author = 10011;</code>
+         * <code>.dstore.values.StringValue author = 10011;</code>
          */
         public Builder setAuthor(
             io.dstore.values.StringValue.Builder builderForValue) {
@@ -4993,7 +4993,7 @@ public final class AcGetActionLogsAd {
          * Name des Verfassers des Beitrags "PostingID"
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue author = 10011;</code>
+         * <code>.dstore.values.StringValue author = 10011;</code>
          */
         public Builder mergeAuthor(io.dstore.values.StringValue value) {
           if (authorBuilder_ == null) {
@@ -5015,7 +5015,7 @@ public final class AcGetActionLogsAd {
          * Name des Verfassers des Beitrags "PostingID"
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue author = 10011;</code>
+         * <code>.dstore.values.StringValue author = 10011;</code>
          */
         public Builder clearAuthor() {
           if (authorBuilder_ == null) {
@@ -5033,7 +5033,7 @@ public final class AcGetActionLogsAd {
          * Name des Verfassers des Beitrags "PostingID"
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue author = 10011;</code>
+         * <code>.dstore.values.StringValue author = 10011;</code>
          */
         public io.dstore.values.StringValue.Builder getAuthorBuilder() {
           
@@ -5045,7 +5045,7 @@ public final class AcGetActionLogsAd {
          * Name des Verfassers des Beitrags "PostingID"
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue author = 10011;</code>
+         * <code>.dstore.values.StringValue author = 10011;</code>
          */
         public io.dstore.values.StringValueOrBuilder getAuthorOrBuilder() {
           if (authorBuilder_ != null) {
@@ -5060,7 +5060,7 @@ public final class AcGetActionLogsAd {
          * Name des Verfassers des Beitrags "PostingID"
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue author = 10011;</code>
+         * <code>.dstore.values.StringValue author = 10011;</code>
          */
         private com.google.protobuf.SingleFieldBuilderV3<
             io.dstore.values.StringValue, io.dstore.values.StringValue.Builder, io.dstore.values.StringValueOrBuilder> 
@@ -5084,7 +5084,7 @@ public final class AcGetActionLogsAd {
          * Datum des Beitrags "PostingID"
          * </pre>
          *
-         * <code>optional .dstore.values.TimestampValue post_date = 10012;</code>
+         * <code>.dstore.values.TimestampValue post_date = 10012;</code>
          */
         public boolean hasPostDate() {
           return postDateBuilder_ != null || postDate_ != null;
@@ -5094,7 +5094,7 @@ public final class AcGetActionLogsAd {
          * Datum des Beitrags "PostingID"
          * </pre>
          *
-         * <code>optional .dstore.values.TimestampValue post_date = 10012;</code>
+         * <code>.dstore.values.TimestampValue post_date = 10012;</code>
          */
         public io.dstore.values.TimestampValue getPostDate() {
           if (postDateBuilder_ == null) {
@@ -5108,7 +5108,7 @@ public final class AcGetActionLogsAd {
          * Datum des Beitrags "PostingID"
          * </pre>
          *
-         * <code>optional .dstore.values.TimestampValue post_date = 10012;</code>
+         * <code>.dstore.values.TimestampValue post_date = 10012;</code>
          */
         public Builder setPostDate(io.dstore.values.TimestampValue value) {
           if (postDateBuilder_ == null) {
@@ -5128,7 +5128,7 @@ public final class AcGetActionLogsAd {
          * Datum des Beitrags "PostingID"
          * </pre>
          *
-         * <code>optional .dstore.values.TimestampValue post_date = 10012;</code>
+         * <code>.dstore.values.TimestampValue post_date = 10012;</code>
          */
         public Builder setPostDate(
             io.dstore.values.TimestampValue.Builder builderForValue) {
@@ -5146,7 +5146,7 @@ public final class AcGetActionLogsAd {
          * Datum des Beitrags "PostingID"
          * </pre>
          *
-         * <code>optional .dstore.values.TimestampValue post_date = 10012;</code>
+         * <code>.dstore.values.TimestampValue post_date = 10012;</code>
          */
         public Builder mergePostDate(io.dstore.values.TimestampValue value) {
           if (postDateBuilder_ == null) {
@@ -5168,7 +5168,7 @@ public final class AcGetActionLogsAd {
          * Datum des Beitrags "PostingID"
          * </pre>
          *
-         * <code>optional .dstore.values.TimestampValue post_date = 10012;</code>
+         * <code>.dstore.values.TimestampValue post_date = 10012;</code>
          */
         public Builder clearPostDate() {
           if (postDateBuilder_ == null) {
@@ -5186,7 +5186,7 @@ public final class AcGetActionLogsAd {
          * Datum des Beitrags "PostingID"
          * </pre>
          *
-         * <code>optional .dstore.values.TimestampValue post_date = 10012;</code>
+         * <code>.dstore.values.TimestampValue post_date = 10012;</code>
          */
         public io.dstore.values.TimestampValue.Builder getPostDateBuilder() {
           
@@ -5198,7 +5198,7 @@ public final class AcGetActionLogsAd {
          * Datum des Beitrags "PostingID"
          * </pre>
          *
-         * <code>optional .dstore.values.TimestampValue post_date = 10012;</code>
+         * <code>.dstore.values.TimestampValue post_date = 10012;</code>
          */
         public io.dstore.values.TimestampValueOrBuilder getPostDateOrBuilder() {
           if (postDateBuilder_ != null) {
@@ -5213,7 +5213,7 @@ public final class AcGetActionLogsAd {
          * Datum des Beitrags "PostingID"
          * </pre>
          *
-         * <code>optional .dstore.values.TimestampValue post_date = 10012;</code>
+         * <code>.dstore.values.TimestampValue post_date = 10012;</code>
          */
         private com.google.protobuf.SingleFieldBuilderV3<
             io.dstore.values.TimestampValue, io.dstore.values.TimestampValue.Builder, io.dstore.values.TimestampValueOrBuilder> 
@@ -5237,7 +5237,7 @@ public final class AcGetActionLogsAd {
          * Der Beitrag (also Log-Eintrag zur "Action") selbst - "NULL" falls "SmallBody" NICHT "NULL" ist
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue body = 10013;</code>
+         * <code>.dstore.values.StringValue body = 10013;</code>
          */
         public boolean hasBody() {
           return bodyBuilder_ != null || body_ != null;
@@ -5247,7 +5247,7 @@ public final class AcGetActionLogsAd {
          * Der Beitrag (also Log-Eintrag zur "Action") selbst - "NULL" falls "SmallBody" NICHT "NULL" ist
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue body = 10013;</code>
+         * <code>.dstore.values.StringValue body = 10013;</code>
          */
         public io.dstore.values.StringValue getBody() {
           if (bodyBuilder_ == null) {
@@ -5261,7 +5261,7 @@ public final class AcGetActionLogsAd {
          * Der Beitrag (also Log-Eintrag zur "Action") selbst - "NULL" falls "SmallBody" NICHT "NULL" ist
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue body = 10013;</code>
+         * <code>.dstore.values.StringValue body = 10013;</code>
          */
         public Builder setBody(io.dstore.values.StringValue value) {
           if (bodyBuilder_ == null) {
@@ -5281,7 +5281,7 @@ public final class AcGetActionLogsAd {
          * Der Beitrag (also Log-Eintrag zur "Action") selbst - "NULL" falls "SmallBody" NICHT "NULL" ist
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue body = 10013;</code>
+         * <code>.dstore.values.StringValue body = 10013;</code>
          */
         public Builder setBody(
             io.dstore.values.StringValue.Builder builderForValue) {
@@ -5299,7 +5299,7 @@ public final class AcGetActionLogsAd {
          * Der Beitrag (also Log-Eintrag zur "Action") selbst - "NULL" falls "SmallBody" NICHT "NULL" ist
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue body = 10013;</code>
+         * <code>.dstore.values.StringValue body = 10013;</code>
          */
         public Builder mergeBody(io.dstore.values.StringValue value) {
           if (bodyBuilder_ == null) {
@@ -5321,7 +5321,7 @@ public final class AcGetActionLogsAd {
          * Der Beitrag (also Log-Eintrag zur "Action") selbst - "NULL" falls "SmallBody" NICHT "NULL" ist
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue body = 10013;</code>
+         * <code>.dstore.values.StringValue body = 10013;</code>
          */
         public Builder clearBody() {
           if (bodyBuilder_ == null) {
@@ -5339,7 +5339,7 @@ public final class AcGetActionLogsAd {
          * Der Beitrag (also Log-Eintrag zur "Action") selbst - "NULL" falls "SmallBody" NICHT "NULL" ist
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue body = 10013;</code>
+         * <code>.dstore.values.StringValue body = 10013;</code>
          */
         public io.dstore.values.StringValue.Builder getBodyBuilder() {
           
@@ -5351,7 +5351,7 @@ public final class AcGetActionLogsAd {
          * Der Beitrag (also Log-Eintrag zur "Action") selbst - "NULL" falls "SmallBody" NICHT "NULL" ist
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue body = 10013;</code>
+         * <code>.dstore.values.StringValue body = 10013;</code>
          */
         public io.dstore.values.StringValueOrBuilder getBodyOrBuilder() {
           if (bodyBuilder_ != null) {
@@ -5366,7 +5366,7 @@ public final class AcGetActionLogsAd {
          * Der Beitrag (also Log-Eintrag zur "Action") selbst - "NULL" falls "SmallBody" NICHT "NULL" ist
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue body = 10013;</code>
+         * <code>.dstore.values.StringValue body = 10013;</code>
          */
         private com.google.protobuf.SingleFieldBuilderV3<
             io.dstore.values.StringValue, io.dstore.values.StringValue.Builder, io.dstore.values.StringValueOrBuilder> 
@@ -5390,7 +5390,7 @@ public final class AcGetActionLogsAd {
          * ID des Forums zu dem der durch "&#64;OnlyPartNo" angegebenene Log-Eintrag gehört
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue forum_id = 20002;</code>
+         * <code>.dstore.values.IntegerValue forum_id = 20002;</code>
          */
         public boolean hasForumId() {
           return forumIdBuilder_ != null || forumId_ != null;
@@ -5400,7 +5400,7 @@ public final class AcGetActionLogsAd {
          * ID des Forums zu dem der durch "&#64;OnlyPartNo" angegebenene Log-Eintrag gehört
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue forum_id = 20002;</code>
+         * <code>.dstore.values.IntegerValue forum_id = 20002;</code>
          */
         public io.dstore.values.IntegerValue getForumId() {
           if (forumIdBuilder_ == null) {
@@ -5414,7 +5414,7 @@ public final class AcGetActionLogsAd {
          * ID des Forums zu dem der durch "&#64;OnlyPartNo" angegebenene Log-Eintrag gehört
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue forum_id = 20002;</code>
+         * <code>.dstore.values.IntegerValue forum_id = 20002;</code>
          */
         public Builder setForumId(io.dstore.values.IntegerValue value) {
           if (forumIdBuilder_ == null) {
@@ -5434,7 +5434,7 @@ public final class AcGetActionLogsAd {
          * ID des Forums zu dem der durch "&#64;OnlyPartNo" angegebenene Log-Eintrag gehört
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue forum_id = 20002;</code>
+         * <code>.dstore.values.IntegerValue forum_id = 20002;</code>
          */
         public Builder setForumId(
             io.dstore.values.IntegerValue.Builder builderForValue) {
@@ -5452,7 +5452,7 @@ public final class AcGetActionLogsAd {
          * ID des Forums zu dem der durch "&#64;OnlyPartNo" angegebenene Log-Eintrag gehört
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue forum_id = 20002;</code>
+         * <code>.dstore.values.IntegerValue forum_id = 20002;</code>
          */
         public Builder mergeForumId(io.dstore.values.IntegerValue value) {
           if (forumIdBuilder_ == null) {
@@ -5474,7 +5474,7 @@ public final class AcGetActionLogsAd {
          * ID des Forums zu dem der durch "&#64;OnlyPartNo" angegebenene Log-Eintrag gehört
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue forum_id = 20002;</code>
+         * <code>.dstore.values.IntegerValue forum_id = 20002;</code>
          */
         public Builder clearForumId() {
           if (forumIdBuilder_ == null) {
@@ -5492,7 +5492,7 @@ public final class AcGetActionLogsAd {
          * ID des Forums zu dem der durch "&#64;OnlyPartNo" angegebenene Log-Eintrag gehört
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue forum_id = 20002;</code>
+         * <code>.dstore.values.IntegerValue forum_id = 20002;</code>
          */
         public io.dstore.values.IntegerValue.Builder getForumIdBuilder() {
           
@@ -5504,7 +5504,7 @@ public final class AcGetActionLogsAd {
          * ID des Forums zu dem der durch "&#64;OnlyPartNo" angegebenene Log-Eintrag gehört
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue forum_id = 20002;</code>
+         * <code>.dstore.values.IntegerValue forum_id = 20002;</code>
          */
         public io.dstore.values.IntegerValueOrBuilder getForumIdOrBuilder() {
           if (forumIdBuilder_ != null) {
@@ -5519,7 +5519,7 @@ public final class AcGetActionLogsAd {
          * ID des Forums zu dem der durch "&#64;OnlyPartNo" angegebenene Log-Eintrag gehört
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue forum_id = 20002;</code>
+         * <code>.dstore.values.IntegerValue forum_id = 20002;</code>
          */
         private com.google.protobuf.SingleFieldBuilderV3<
             io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> 
@@ -5543,7 +5543,7 @@ public final class AcGetActionLogsAd {
          * Hier steht die Eigenschaft von "AuthorPersonID" zur dritten Merkmal-ID, die in "ForumSettings" zum Schlüssel "AllowedCharacteristicsForAdditionalInformation_&lt;PersonTypeID von AuthorPersonID&gt;" (zum Forum "ForumID") hinterlegt ist
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue value3 = 20003;</code>
+         * <code>.dstore.values.StringValue value3 = 20003;</code>
          */
         public boolean hasValue3() {
           return value3Builder_ != null || value3_ != null;
@@ -5553,7 +5553,7 @@ public final class AcGetActionLogsAd {
          * Hier steht die Eigenschaft von "AuthorPersonID" zur dritten Merkmal-ID, die in "ForumSettings" zum Schlüssel "AllowedCharacteristicsForAdditionalInformation_&lt;PersonTypeID von AuthorPersonID&gt;" (zum Forum "ForumID") hinterlegt ist
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue value3 = 20003;</code>
+         * <code>.dstore.values.StringValue value3 = 20003;</code>
          */
         public io.dstore.values.StringValue getValue3() {
           if (value3Builder_ == null) {
@@ -5567,7 +5567,7 @@ public final class AcGetActionLogsAd {
          * Hier steht die Eigenschaft von "AuthorPersonID" zur dritten Merkmal-ID, die in "ForumSettings" zum Schlüssel "AllowedCharacteristicsForAdditionalInformation_&lt;PersonTypeID von AuthorPersonID&gt;" (zum Forum "ForumID") hinterlegt ist
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue value3 = 20003;</code>
+         * <code>.dstore.values.StringValue value3 = 20003;</code>
          */
         public Builder setValue3(io.dstore.values.StringValue value) {
           if (value3Builder_ == null) {
@@ -5587,7 +5587,7 @@ public final class AcGetActionLogsAd {
          * Hier steht die Eigenschaft von "AuthorPersonID" zur dritten Merkmal-ID, die in "ForumSettings" zum Schlüssel "AllowedCharacteristicsForAdditionalInformation_&lt;PersonTypeID von AuthorPersonID&gt;" (zum Forum "ForumID") hinterlegt ist
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue value3 = 20003;</code>
+         * <code>.dstore.values.StringValue value3 = 20003;</code>
          */
         public Builder setValue3(
             io.dstore.values.StringValue.Builder builderForValue) {
@@ -5605,7 +5605,7 @@ public final class AcGetActionLogsAd {
          * Hier steht die Eigenschaft von "AuthorPersonID" zur dritten Merkmal-ID, die in "ForumSettings" zum Schlüssel "AllowedCharacteristicsForAdditionalInformation_&lt;PersonTypeID von AuthorPersonID&gt;" (zum Forum "ForumID") hinterlegt ist
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue value3 = 20003;</code>
+         * <code>.dstore.values.StringValue value3 = 20003;</code>
          */
         public Builder mergeValue3(io.dstore.values.StringValue value) {
           if (value3Builder_ == null) {
@@ -5627,7 +5627,7 @@ public final class AcGetActionLogsAd {
          * Hier steht die Eigenschaft von "AuthorPersonID" zur dritten Merkmal-ID, die in "ForumSettings" zum Schlüssel "AllowedCharacteristicsForAdditionalInformation_&lt;PersonTypeID von AuthorPersonID&gt;" (zum Forum "ForumID") hinterlegt ist
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue value3 = 20003;</code>
+         * <code>.dstore.values.StringValue value3 = 20003;</code>
          */
         public Builder clearValue3() {
           if (value3Builder_ == null) {
@@ -5645,7 +5645,7 @@ public final class AcGetActionLogsAd {
          * Hier steht die Eigenschaft von "AuthorPersonID" zur dritten Merkmal-ID, die in "ForumSettings" zum Schlüssel "AllowedCharacteristicsForAdditionalInformation_&lt;PersonTypeID von AuthorPersonID&gt;" (zum Forum "ForumID") hinterlegt ist
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue value3 = 20003;</code>
+         * <code>.dstore.values.StringValue value3 = 20003;</code>
          */
         public io.dstore.values.StringValue.Builder getValue3Builder() {
           
@@ -5657,7 +5657,7 @@ public final class AcGetActionLogsAd {
          * Hier steht die Eigenschaft von "AuthorPersonID" zur dritten Merkmal-ID, die in "ForumSettings" zum Schlüssel "AllowedCharacteristicsForAdditionalInformation_&lt;PersonTypeID von AuthorPersonID&gt;" (zum Forum "ForumID") hinterlegt ist
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue value3 = 20003;</code>
+         * <code>.dstore.values.StringValue value3 = 20003;</code>
          */
         public io.dstore.values.StringValueOrBuilder getValue3OrBuilder() {
           if (value3Builder_ != null) {
@@ -5672,7 +5672,7 @@ public final class AcGetActionLogsAd {
          * Hier steht die Eigenschaft von "AuthorPersonID" zur dritten Merkmal-ID, die in "ForumSettings" zum Schlüssel "AllowedCharacteristicsForAdditionalInformation_&lt;PersonTypeID von AuthorPersonID&gt;" (zum Forum "ForumID") hinterlegt ist
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue value3 = 20003;</code>
+         * <code>.dstore.values.StringValue value3 = 20003;</code>
          */
         private com.google.protobuf.SingleFieldBuilderV3<
             io.dstore.values.StringValue, io.dstore.values.StringValue.Builder, io.dstore.values.StringValueOrBuilder> 
@@ -5696,7 +5696,7 @@ public final class AcGetActionLogsAd {
          * Hier steht die Eigenschaft von "AuthorPersonID" zur ersten Merkmal-ID, die in "ForumSettings" zum Schlüssel "AllowedCharacteristicsForAdditionalInformation_&lt;PersonTypeID von AuthorPersonID&gt;" (zum Forum "ForumID") hinterlegt ist
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue value1 = 20005;</code>
+         * <code>.dstore.values.StringValue value1 = 20005;</code>
          */
         public boolean hasValue1() {
           return value1Builder_ != null || value1_ != null;
@@ -5706,7 +5706,7 @@ public final class AcGetActionLogsAd {
          * Hier steht die Eigenschaft von "AuthorPersonID" zur ersten Merkmal-ID, die in "ForumSettings" zum Schlüssel "AllowedCharacteristicsForAdditionalInformation_&lt;PersonTypeID von AuthorPersonID&gt;" (zum Forum "ForumID") hinterlegt ist
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue value1 = 20005;</code>
+         * <code>.dstore.values.StringValue value1 = 20005;</code>
          */
         public io.dstore.values.StringValue getValue1() {
           if (value1Builder_ == null) {
@@ -5720,7 +5720,7 @@ public final class AcGetActionLogsAd {
          * Hier steht die Eigenschaft von "AuthorPersonID" zur ersten Merkmal-ID, die in "ForumSettings" zum Schlüssel "AllowedCharacteristicsForAdditionalInformation_&lt;PersonTypeID von AuthorPersonID&gt;" (zum Forum "ForumID") hinterlegt ist
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue value1 = 20005;</code>
+         * <code>.dstore.values.StringValue value1 = 20005;</code>
          */
         public Builder setValue1(io.dstore.values.StringValue value) {
           if (value1Builder_ == null) {
@@ -5740,7 +5740,7 @@ public final class AcGetActionLogsAd {
          * Hier steht die Eigenschaft von "AuthorPersonID" zur ersten Merkmal-ID, die in "ForumSettings" zum Schlüssel "AllowedCharacteristicsForAdditionalInformation_&lt;PersonTypeID von AuthorPersonID&gt;" (zum Forum "ForumID") hinterlegt ist
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue value1 = 20005;</code>
+         * <code>.dstore.values.StringValue value1 = 20005;</code>
          */
         public Builder setValue1(
             io.dstore.values.StringValue.Builder builderForValue) {
@@ -5758,7 +5758,7 @@ public final class AcGetActionLogsAd {
          * Hier steht die Eigenschaft von "AuthorPersonID" zur ersten Merkmal-ID, die in "ForumSettings" zum Schlüssel "AllowedCharacteristicsForAdditionalInformation_&lt;PersonTypeID von AuthorPersonID&gt;" (zum Forum "ForumID") hinterlegt ist
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue value1 = 20005;</code>
+         * <code>.dstore.values.StringValue value1 = 20005;</code>
          */
         public Builder mergeValue1(io.dstore.values.StringValue value) {
           if (value1Builder_ == null) {
@@ -5780,7 +5780,7 @@ public final class AcGetActionLogsAd {
          * Hier steht die Eigenschaft von "AuthorPersonID" zur ersten Merkmal-ID, die in "ForumSettings" zum Schlüssel "AllowedCharacteristicsForAdditionalInformation_&lt;PersonTypeID von AuthorPersonID&gt;" (zum Forum "ForumID") hinterlegt ist
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue value1 = 20005;</code>
+         * <code>.dstore.values.StringValue value1 = 20005;</code>
          */
         public Builder clearValue1() {
           if (value1Builder_ == null) {
@@ -5798,7 +5798,7 @@ public final class AcGetActionLogsAd {
          * Hier steht die Eigenschaft von "AuthorPersonID" zur ersten Merkmal-ID, die in "ForumSettings" zum Schlüssel "AllowedCharacteristicsForAdditionalInformation_&lt;PersonTypeID von AuthorPersonID&gt;" (zum Forum "ForumID") hinterlegt ist
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue value1 = 20005;</code>
+         * <code>.dstore.values.StringValue value1 = 20005;</code>
          */
         public io.dstore.values.StringValue.Builder getValue1Builder() {
           
@@ -5810,7 +5810,7 @@ public final class AcGetActionLogsAd {
          * Hier steht die Eigenschaft von "AuthorPersonID" zur ersten Merkmal-ID, die in "ForumSettings" zum Schlüssel "AllowedCharacteristicsForAdditionalInformation_&lt;PersonTypeID von AuthorPersonID&gt;" (zum Forum "ForumID") hinterlegt ist
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue value1 = 20005;</code>
+         * <code>.dstore.values.StringValue value1 = 20005;</code>
          */
         public io.dstore.values.StringValueOrBuilder getValue1OrBuilder() {
           if (value1Builder_ != null) {
@@ -5825,7 +5825,7 @@ public final class AcGetActionLogsAd {
          * Hier steht die Eigenschaft von "AuthorPersonID" zur ersten Merkmal-ID, die in "ForumSettings" zum Schlüssel "AllowedCharacteristicsForAdditionalInformation_&lt;PersonTypeID von AuthorPersonID&gt;" (zum Forum "ForumID") hinterlegt ist
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue value1 = 20005;</code>
+         * <code>.dstore.values.StringValue value1 = 20005;</code>
          */
         private com.google.protobuf.SingleFieldBuilderV3<
             io.dstore.values.StringValue, io.dstore.values.StringValue.Builder, io.dstore.values.StringValueOrBuilder> 
@@ -5849,7 +5849,7 @@ public final class AcGetActionLogsAd {
          * Hier steht die Eigenschaft von "AuthorPersonID" zur zweiten Merkmal-ID, die in "ForumSettings" zum Schlüssel "AllowedCharacteristicsForAdditionalInformation_&lt;PersonTypeID von AuthorPersonID&gt;" (zum Forum "ForumID") hinterlegt ist
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue value2 = 20006;</code>
+         * <code>.dstore.values.StringValue value2 = 20006;</code>
          */
         public boolean hasValue2() {
           return value2Builder_ != null || value2_ != null;
@@ -5859,7 +5859,7 @@ public final class AcGetActionLogsAd {
          * Hier steht die Eigenschaft von "AuthorPersonID" zur zweiten Merkmal-ID, die in "ForumSettings" zum Schlüssel "AllowedCharacteristicsForAdditionalInformation_&lt;PersonTypeID von AuthorPersonID&gt;" (zum Forum "ForumID") hinterlegt ist
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue value2 = 20006;</code>
+         * <code>.dstore.values.StringValue value2 = 20006;</code>
          */
         public io.dstore.values.StringValue getValue2() {
           if (value2Builder_ == null) {
@@ -5873,7 +5873,7 @@ public final class AcGetActionLogsAd {
          * Hier steht die Eigenschaft von "AuthorPersonID" zur zweiten Merkmal-ID, die in "ForumSettings" zum Schlüssel "AllowedCharacteristicsForAdditionalInformation_&lt;PersonTypeID von AuthorPersonID&gt;" (zum Forum "ForumID") hinterlegt ist
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue value2 = 20006;</code>
+         * <code>.dstore.values.StringValue value2 = 20006;</code>
          */
         public Builder setValue2(io.dstore.values.StringValue value) {
           if (value2Builder_ == null) {
@@ -5893,7 +5893,7 @@ public final class AcGetActionLogsAd {
          * Hier steht die Eigenschaft von "AuthorPersonID" zur zweiten Merkmal-ID, die in "ForumSettings" zum Schlüssel "AllowedCharacteristicsForAdditionalInformation_&lt;PersonTypeID von AuthorPersonID&gt;" (zum Forum "ForumID") hinterlegt ist
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue value2 = 20006;</code>
+         * <code>.dstore.values.StringValue value2 = 20006;</code>
          */
         public Builder setValue2(
             io.dstore.values.StringValue.Builder builderForValue) {
@@ -5911,7 +5911,7 @@ public final class AcGetActionLogsAd {
          * Hier steht die Eigenschaft von "AuthorPersonID" zur zweiten Merkmal-ID, die in "ForumSettings" zum Schlüssel "AllowedCharacteristicsForAdditionalInformation_&lt;PersonTypeID von AuthorPersonID&gt;" (zum Forum "ForumID") hinterlegt ist
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue value2 = 20006;</code>
+         * <code>.dstore.values.StringValue value2 = 20006;</code>
          */
         public Builder mergeValue2(io.dstore.values.StringValue value) {
           if (value2Builder_ == null) {
@@ -5933,7 +5933,7 @@ public final class AcGetActionLogsAd {
          * Hier steht die Eigenschaft von "AuthorPersonID" zur zweiten Merkmal-ID, die in "ForumSettings" zum Schlüssel "AllowedCharacteristicsForAdditionalInformation_&lt;PersonTypeID von AuthorPersonID&gt;" (zum Forum "ForumID") hinterlegt ist
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue value2 = 20006;</code>
+         * <code>.dstore.values.StringValue value2 = 20006;</code>
          */
         public Builder clearValue2() {
           if (value2Builder_ == null) {
@@ -5951,7 +5951,7 @@ public final class AcGetActionLogsAd {
          * Hier steht die Eigenschaft von "AuthorPersonID" zur zweiten Merkmal-ID, die in "ForumSettings" zum Schlüssel "AllowedCharacteristicsForAdditionalInformation_&lt;PersonTypeID von AuthorPersonID&gt;" (zum Forum "ForumID") hinterlegt ist
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue value2 = 20006;</code>
+         * <code>.dstore.values.StringValue value2 = 20006;</code>
          */
         public io.dstore.values.StringValue.Builder getValue2Builder() {
           
@@ -5963,7 +5963,7 @@ public final class AcGetActionLogsAd {
          * Hier steht die Eigenschaft von "AuthorPersonID" zur zweiten Merkmal-ID, die in "ForumSettings" zum Schlüssel "AllowedCharacteristicsForAdditionalInformation_&lt;PersonTypeID von AuthorPersonID&gt;" (zum Forum "ForumID") hinterlegt ist
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue value2 = 20006;</code>
+         * <code>.dstore.values.StringValue value2 = 20006;</code>
          */
         public io.dstore.values.StringValueOrBuilder getValue2OrBuilder() {
           if (value2Builder_ != null) {
@@ -5978,7 +5978,7 @@ public final class AcGetActionLogsAd {
          * Hier steht die Eigenschaft von "AuthorPersonID" zur zweiten Merkmal-ID, die in "ForumSettings" zum Schlüssel "AllowedCharacteristicsForAdditionalInformation_&lt;PersonTypeID von AuthorPersonID&gt;" (zum Forum "ForumID") hinterlegt ist
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue value2 = 20006;</code>
+         * <code>.dstore.values.StringValue value2 = 20006;</code>
          */
         private com.google.protobuf.SingleFieldBuilderV3<
             io.dstore.values.StringValue, io.dstore.values.StringValue.Builder, io.dstore.values.StringValueOrBuilder> 
@@ -6002,7 +6002,7 @@ public final class AcGetActionLogsAd {
          * ID des Haupt-Beitrages zu dem durch "&#64;OnlyPartNo" angegebene Log-Eintrag (also sozusagen das Wurzel-Element des gesamten "Threads")
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue main_posting_id = 20010;</code>
+         * <code>.dstore.values.IntegerValue main_posting_id = 20010;</code>
          */
         public boolean hasMainPostingId() {
           return mainPostingIdBuilder_ != null || mainPostingId_ != null;
@@ -6012,7 +6012,7 @@ public final class AcGetActionLogsAd {
          * ID des Haupt-Beitrages zu dem durch "&#64;OnlyPartNo" angegebene Log-Eintrag (also sozusagen das Wurzel-Element des gesamten "Threads")
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue main_posting_id = 20010;</code>
+         * <code>.dstore.values.IntegerValue main_posting_id = 20010;</code>
          */
         public io.dstore.values.IntegerValue getMainPostingId() {
           if (mainPostingIdBuilder_ == null) {
@@ -6026,7 +6026,7 @@ public final class AcGetActionLogsAd {
          * ID des Haupt-Beitrages zu dem durch "&#64;OnlyPartNo" angegebene Log-Eintrag (also sozusagen das Wurzel-Element des gesamten "Threads")
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue main_posting_id = 20010;</code>
+         * <code>.dstore.values.IntegerValue main_posting_id = 20010;</code>
          */
         public Builder setMainPostingId(io.dstore.values.IntegerValue value) {
           if (mainPostingIdBuilder_ == null) {
@@ -6046,7 +6046,7 @@ public final class AcGetActionLogsAd {
          * ID des Haupt-Beitrages zu dem durch "&#64;OnlyPartNo" angegebene Log-Eintrag (also sozusagen das Wurzel-Element des gesamten "Threads")
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue main_posting_id = 20010;</code>
+         * <code>.dstore.values.IntegerValue main_posting_id = 20010;</code>
          */
         public Builder setMainPostingId(
             io.dstore.values.IntegerValue.Builder builderForValue) {
@@ -6064,7 +6064,7 @@ public final class AcGetActionLogsAd {
          * ID des Haupt-Beitrages zu dem durch "&#64;OnlyPartNo" angegebene Log-Eintrag (also sozusagen das Wurzel-Element des gesamten "Threads")
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue main_posting_id = 20010;</code>
+         * <code>.dstore.values.IntegerValue main_posting_id = 20010;</code>
          */
         public Builder mergeMainPostingId(io.dstore.values.IntegerValue value) {
           if (mainPostingIdBuilder_ == null) {
@@ -6086,7 +6086,7 @@ public final class AcGetActionLogsAd {
          * ID des Haupt-Beitrages zu dem durch "&#64;OnlyPartNo" angegebene Log-Eintrag (also sozusagen das Wurzel-Element des gesamten "Threads")
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue main_posting_id = 20010;</code>
+         * <code>.dstore.values.IntegerValue main_posting_id = 20010;</code>
          */
         public Builder clearMainPostingId() {
           if (mainPostingIdBuilder_ == null) {
@@ -6104,7 +6104,7 @@ public final class AcGetActionLogsAd {
          * ID des Haupt-Beitrages zu dem durch "&#64;OnlyPartNo" angegebene Log-Eintrag (also sozusagen das Wurzel-Element des gesamten "Threads")
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue main_posting_id = 20010;</code>
+         * <code>.dstore.values.IntegerValue main_posting_id = 20010;</code>
          */
         public io.dstore.values.IntegerValue.Builder getMainPostingIdBuilder() {
           
@@ -6116,7 +6116,7 @@ public final class AcGetActionLogsAd {
          * ID des Haupt-Beitrages zu dem durch "&#64;OnlyPartNo" angegebene Log-Eintrag (also sozusagen das Wurzel-Element des gesamten "Threads")
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue main_posting_id = 20010;</code>
+         * <code>.dstore.values.IntegerValue main_posting_id = 20010;</code>
          */
         public io.dstore.values.IntegerValueOrBuilder getMainPostingIdOrBuilder() {
           if (mainPostingIdBuilder_ != null) {
@@ -6131,7 +6131,7 @@ public final class AcGetActionLogsAd {
          * ID des Haupt-Beitrages zu dem durch "&#64;OnlyPartNo" angegebene Log-Eintrag (also sozusagen das Wurzel-Element des gesamten "Threads")
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue main_posting_id = 20010;</code>
+         * <code>.dstore.values.IntegerValue main_posting_id = 20010;</code>
          */
         private com.google.protobuf.SingleFieldBuilderV3<
             io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> 
@@ -6155,7 +6155,7 @@ public final class AcGetActionLogsAd {
          * Gibt es wenigstens eine Antwort auf den Log-Eintrag ? Anmerkung : Hier sollte eigentlich immer "0" stehen, wenn Log-Einträge nur mit Hilfe von "ac_InsertActionLog_Ad" gemacht werden.
          * </pre>
          *
-         * <code>optional .dstore.values.BooleanValue has_successors = 20014;</code>
+         * <code>.dstore.values.BooleanValue has_successors = 20014;</code>
          */
         public boolean hasHasSuccessors() {
           return hasSuccessorsBuilder_ != null || hasSuccessors_ != null;
@@ -6165,7 +6165,7 @@ public final class AcGetActionLogsAd {
          * Gibt es wenigstens eine Antwort auf den Log-Eintrag ? Anmerkung : Hier sollte eigentlich immer "0" stehen, wenn Log-Einträge nur mit Hilfe von "ac_InsertActionLog_Ad" gemacht werden.
          * </pre>
          *
-         * <code>optional .dstore.values.BooleanValue has_successors = 20014;</code>
+         * <code>.dstore.values.BooleanValue has_successors = 20014;</code>
          */
         public io.dstore.values.BooleanValue getHasSuccessors() {
           if (hasSuccessorsBuilder_ == null) {
@@ -6179,7 +6179,7 @@ public final class AcGetActionLogsAd {
          * Gibt es wenigstens eine Antwort auf den Log-Eintrag ? Anmerkung : Hier sollte eigentlich immer "0" stehen, wenn Log-Einträge nur mit Hilfe von "ac_InsertActionLog_Ad" gemacht werden.
          * </pre>
          *
-         * <code>optional .dstore.values.BooleanValue has_successors = 20014;</code>
+         * <code>.dstore.values.BooleanValue has_successors = 20014;</code>
          */
         public Builder setHasSuccessors(io.dstore.values.BooleanValue value) {
           if (hasSuccessorsBuilder_ == null) {
@@ -6199,7 +6199,7 @@ public final class AcGetActionLogsAd {
          * Gibt es wenigstens eine Antwort auf den Log-Eintrag ? Anmerkung : Hier sollte eigentlich immer "0" stehen, wenn Log-Einträge nur mit Hilfe von "ac_InsertActionLog_Ad" gemacht werden.
          * </pre>
          *
-         * <code>optional .dstore.values.BooleanValue has_successors = 20014;</code>
+         * <code>.dstore.values.BooleanValue has_successors = 20014;</code>
          */
         public Builder setHasSuccessors(
             io.dstore.values.BooleanValue.Builder builderForValue) {
@@ -6217,7 +6217,7 @@ public final class AcGetActionLogsAd {
          * Gibt es wenigstens eine Antwort auf den Log-Eintrag ? Anmerkung : Hier sollte eigentlich immer "0" stehen, wenn Log-Einträge nur mit Hilfe von "ac_InsertActionLog_Ad" gemacht werden.
          * </pre>
          *
-         * <code>optional .dstore.values.BooleanValue has_successors = 20014;</code>
+         * <code>.dstore.values.BooleanValue has_successors = 20014;</code>
          */
         public Builder mergeHasSuccessors(io.dstore.values.BooleanValue value) {
           if (hasSuccessorsBuilder_ == null) {
@@ -6239,7 +6239,7 @@ public final class AcGetActionLogsAd {
          * Gibt es wenigstens eine Antwort auf den Log-Eintrag ? Anmerkung : Hier sollte eigentlich immer "0" stehen, wenn Log-Einträge nur mit Hilfe von "ac_InsertActionLog_Ad" gemacht werden.
          * </pre>
          *
-         * <code>optional .dstore.values.BooleanValue has_successors = 20014;</code>
+         * <code>.dstore.values.BooleanValue has_successors = 20014;</code>
          */
         public Builder clearHasSuccessors() {
           if (hasSuccessorsBuilder_ == null) {
@@ -6257,7 +6257,7 @@ public final class AcGetActionLogsAd {
          * Gibt es wenigstens eine Antwort auf den Log-Eintrag ? Anmerkung : Hier sollte eigentlich immer "0" stehen, wenn Log-Einträge nur mit Hilfe von "ac_InsertActionLog_Ad" gemacht werden.
          * </pre>
          *
-         * <code>optional .dstore.values.BooleanValue has_successors = 20014;</code>
+         * <code>.dstore.values.BooleanValue has_successors = 20014;</code>
          */
         public io.dstore.values.BooleanValue.Builder getHasSuccessorsBuilder() {
           
@@ -6269,7 +6269,7 @@ public final class AcGetActionLogsAd {
          * Gibt es wenigstens eine Antwort auf den Log-Eintrag ? Anmerkung : Hier sollte eigentlich immer "0" stehen, wenn Log-Einträge nur mit Hilfe von "ac_InsertActionLog_Ad" gemacht werden.
          * </pre>
          *
-         * <code>optional .dstore.values.BooleanValue has_successors = 20014;</code>
+         * <code>.dstore.values.BooleanValue has_successors = 20014;</code>
          */
         public io.dstore.values.BooleanValueOrBuilder getHasSuccessorsOrBuilder() {
           if (hasSuccessorsBuilder_ != null) {
@@ -6284,7 +6284,7 @@ public final class AcGetActionLogsAd {
          * Gibt es wenigstens eine Antwort auf den Log-Eintrag ? Anmerkung : Hier sollte eigentlich immer "0" stehen, wenn Log-Einträge nur mit Hilfe von "ac_InsertActionLog_Ad" gemacht werden.
          * </pre>
          *
-         * <code>optional .dstore.values.BooleanValue has_successors = 20014;</code>
+         * <code>.dstore.values.BooleanValue has_successors = 20014;</code>
          */
         private com.google.protobuf.SingleFieldBuilderV3<
             io.dstore.values.BooleanValue, io.dstore.values.BooleanValue.Builder, io.dstore.values.BooleanValueOrBuilder> 
@@ -6544,7 +6544,7 @@ public final class AcGetActionLogsAd {
         return memoizedHashCode;
       }
       int hash = 41;
-      hash = (19 * hash) + getDescriptorForType().hashCode();
+      hash = (19 * hash) + getDescriptor().hashCode();
       if (getMetaInformationCount() > 0) {
         hash = (37 * hash) + META_INFORMATION_FIELD_NUMBER;
         hash = (53 * hash) + getMetaInformationList().hashCode();

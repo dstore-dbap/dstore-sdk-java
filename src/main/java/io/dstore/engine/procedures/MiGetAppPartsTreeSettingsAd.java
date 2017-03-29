@@ -19,128 +19,128 @@ public final class MiGetAppPartsTreeSettingsAd {
       com.google.protobuf.MessageOrBuilder {
 
     /**
-     * <code>optional .dstore.values.IntegerValue application_part_tree_id = 1;</code>
+     * <code>.dstore.values.IntegerValue application_part_tree_id = 1;</code>
      */
     boolean hasApplicationPartTreeId();
     /**
-     * <code>optional .dstore.values.IntegerValue application_part_tree_id = 1;</code>
+     * <code>.dstore.values.IntegerValue application_part_tree_id = 1;</code>
      */
     io.dstore.values.IntegerValue getApplicationPartTreeId();
     /**
-     * <code>optional .dstore.values.IntegerValue application_part_tree_id = 1;</code>
+     * <code>.dstore.values.IntegerValue application_part_tree_id = 1;</code>
      */
     io.dstore.values.IntegerValueOrBuilder getApplicationPartTreeIdOrBuilder();
 
     /**
-     * <code>optional bool application_part_tree_id_null = 1001;</code>
+     * <code>bool application_part_tree_id_null = 1001;</code>
      */
     boolean getApplicationPartTreeIdNull();
 
     /**
-     * <code>optional .dstore.values.IntegerValue user_id = 2;</code>
+     * <code>.dstore.values.IntegerValue user_id = 2;</code>
      */
     boolean hasUserId();
     /**
-     * <code>optional .dstore.values.IntegerValue user_id = 2;</code>
+     * <code>.dstore.values.IntegerValue user_id = 2;</code>
      */
     io.dstore.values.IntegerValue getUserId();
     /**
-     * <code>optional .dstore.values.IntegerValue user_id = 2;</code>
+     * <code>.dstore.values.IntegerValue user_id = 2;</code>
      */
     io.dstore.values.IntegerValueOrBuilder getUserIdOrBuilder();
 
     /**
-     * <code>optional bool user_id_null = 1002;</code>
+     * <code>bool user_id_null = 1002;</code>
      */
     boolean getUserIdNull();
 
     /**
-     * <code>optional .dstore.values.StringValue key_variable = 3;</code>
+     * <code>.dstore.values.StringValue key_variable = 3;</code>
      */
     boolean hasKeyVariable();
     /**
-     * <code>optional .dstore.values.StringValue key_variable = 3;</code>
+     * <code>.dstore.values.StringValue key_variable = 3;</code>
      */
     io.dstore.values.StringValue getKeyVariable();
     /**
-     * <code>optional .dstore.values.StringValue key_variable = 3;</code>
+     * <code>.dstore.values.StringValue key_variable = 3;</code>
      */
     io.dstore.values.StringValueOrBuilder getKeyVariableOrBuilder();
 
     /**
-     * <code>optional bool key_variable_null = 1003;</code>
+     * <code>bool key_variable_null = 1003;</code>
      */
     boolean getKeyVariableNull();
 
     /**
-     * <code>optional .dstore.values.BooleanValue search_for_key_variable_with_like = 4;</code>
+     * <code>.dstore.values.BooleanValue search_for_key_variable_with_like = 4;</code>
      */
     boolean hasSearchForKeyVariableWithLike();
     /**
-     * <code>optional .dstore.values.BooleanValue search_for_key_variable_with_like = 4;</code>
+     * <code>.dstore.values.BooleanValue search_for_key_variable_with_like = 4;</code>
      */
     io.dstore.values.BooleanValue getSearchForKeyVariableWithLike();
     /**
-     * <code>optional .dstore.values.BooleanValue search_for_key_variable_with_like = 4;</code>
+     * <code>.dstore.values.BooleanValue search_for_key_variable_with_like = 4;</code>
      */
     io.dstore.values.BooleanValueOrBuilder getSearchForKeyVariableWithLikeOrBuilder();
 
     /**
-     * <code>optional bool search_for_key_variable_with_like_null = 1004;</code>
+     * <code>bool search_for_key_variable_with_like_null = 1004;</code>
      */
     boolean getSearchForKeyVariableWithLikeNull();
 
     /**
-     * <code>optional .dstore.values.BooleanValue include_values_for_global_user = 5;</code>
+     * <code>.dstore.values.BooleanValue include_values_for_global_user = 5;</code>
      */
     boolean hasIncludeValuesForGlobalUser();
     /**
-     * <code>optional .dstore.values.BooleanValue include_values_for_global_user = 5;</code>
+     * <code>.dstore.values.BooleanValue include_values_for_global_user = 5;</code>
      */
     io.dstore.values.BooleanValue getIncludeValuesForGlobalUser();
     /**
-     * <code>optional .dstore.values.BooleanValue include_values_for_global_user = 5;</code>
+     * <code>.dstore.values.BooleanValue include_values_for_global_user = 5;</code>
      */
     io.dstore.values.BooleanValueOrBuilder getIncludeValuesForGlobalUserOrBuilder();
 
     /**
-     * <code>optional bool include_values_for_global_user_null = 1005;</code>
+     * <code>bool include_values_for_global_user_null = 1005;</code>
      */
     boolean getIncludeValuesForGlobalUserNull();
 
     /**
-     * <code>optional .dstore.values.BooleanValue get_values_for_corresponding_part = 6;</code>
+     * <code>.dstore.values.BooleanValue get_values_for_corresponding_part = 6;</code>
      */
     boolean hasGetValuesForCorrespondingPart();
     /**
-     * <code>optional .dstore.values.BooleanValue get_values_for_corresponding_part = 6;</code>
+     * <code>.dstore.values.BooleanValue get_values_for_corresponding_part = 6;</code>
      */
     io.dstore.values.BooleanValue getGetValuesForCorrespondingPart();
     /**
-     * <code>optional .dstore.values.BooleanValue get_values_for_corresponding_part = 6;</code>
+     * <code>.dstore.values.BooleanValue get_values_for_corresponding_part = 6;</code>
      */
     io.dstore.values.BooleanValueOrBuilder getGetValuesForCorrespondingPartOrBuilder();
 
     /**
-     * <code>optional bool get_values_for_corresponding_part_null = 1006;</code>
+     * <code>bool get_values_for_corresponding_part_null = 1006;</code>
      */
     boolean getGetValuesForCorrespondingPartNull();
 
     /**
-     * <code>optional .dstore.values.BooleanValue ids_in_two_ids = 7;</code>
+     * <code>.dstore.values.BooleanValue ids_in_two_ids = 7;</code>
      */
     boolean hasIdsInTwoIds();
     /**
-     * <code>optional .dstore.values.BooleanValue ids_in_two_ids = 7;</code>
+     * <code>.dstore.values.BooleanValue ids_in_two_ids = 7;</code>
      */
     io.dstore.values.BooleanValue getIdsInTwoIds();
     /**
-     * <code>optional .dstore.values.BooleanValue ids_in_two_ids = 7;</code>
+     * <code>.dstore.values.BooleanValue ids_in_two_ids = 7;</code>
      */
     io.dstore.values.BooleanValueOrBuilder getIdsInTwoIdsOrBuilder();
 
     /**
-     * <code>optional bool ids_in_two_ids_null = 1007;</code>
+     * <code>bool ids_in_two_ids_null = 1007;</code>
      */
     boolean getIdsInTwoIdsNull();
   }
@@ -342,19 +342,19 @@ public final class MiGetAppPartsTreeSettingsAd {
     public static final int APPLICATION_PART_TREE_ID_FIELD_NUMBER = 1;
     private io.dstore.values.IntegerValue applicationPartTreeId_;
     /**
-     * <code>optional .dstore.values.IntegerValue application_part_tree_id = 1;</code>
+     * <code>.dstore.values.IntegerValue application_part_tree_id = 1;</code>
      */
     public boolean hasApplicationPartTreeId() {
       return applicationPartTreeId_ != null;
     }
     /**
-     * <code>optional .dstore.values.IntegerValue application_part_tree_id = 1;</code>
+     * <code>.dstore.values.IntegerValue application_part_tree_id = 1;</code>
      */
     public io.dstore.values.IntegerValue getApplicationPartTreeId() {
       return applicationPartTreeId_ == null ? io.dstore.values.IntegerValue.getDefaultInstance() : applicationPartTreeId_;
     }
     /**
-     * <code>optional .dstore.values.IntegerValue application_part_tree_id = 1;</code>
+     * <code>.dstore.values.IntegerValue application_part_tree_id = 1;</code>
      */
     public io.dstore.values.IntegerValueOrBuilder getApplicationPartTreeIdOrBuilder() {
       return getApplicationPartTreeId();
@@ -363,7 +363,7 @@ public final class MiGetAppPartsTreeSettingsAd {
     public static final int APPLICATION_PART_TREE_ID_NULL_FIELD_NUMBER = 1001;
     private boolean applicationPartTreeIdNull_;
     /**
-     * <code>optional bool application_part_tree_id_null = 1001;</code>
+     * <code>bool application_part_tree_id_null = 1001;</code>
      */
     public boolean getApplicationPartTreeIdNull() {
       return applicationPartTreeIdNull_;
@@ -372,19 +372,19 @@ public final class MiGetAppPartsTreeSettingsAd {
     public static final int USER_ID_FIELD_NUMBER = 2;
     private io.dstore.values.IntegerValue userId_;
     /**
-     * <code>optional .dstore.values.IntegerValue user_id = 2;</code>
+     * <code>.dstore.values.IntegerValue user_id = 2;</code>
      */
     public boolean hasUserId() {
       return userId_ != null;
     }
     /**
-     * <code>optional .dstore.values.IntegerValue user_id = 2;</code>
+     * <code>.dstore.values.IntegerValue user_id = 2;</code>
      */
     public io.dstore.values.IntegerValue getUserId() {
       return userId_ == null ? io.dstore.values.IntegerValue.getDefaultInstance() : userId_;
     }
     /**
-     * <code>optional .dstore.values.IntegerValue user_id = 2;</code>
+     * <code>.dstore.values.IntegerValue user_id = 2;</code>
      */
     public io.dstore.values.IntegerValueOrBuilder getUserIdOrBuilder() {
       return getUserId();
@@ -393,7 +393,7 @@ public final class MiGetAppPartsTreeSettingsAd {
     public static final int USER_ID_NULL_FIELD_NUMBER = 1002;
     private boolean userIdNull_;
     /**
-     * <code>optional bool user_id_null = 1002;</code>
+     * <code>bool user_id_null = 1002;</code>
      */
     public boolean getUserIdNull() {
       return userIdNull_;
@@ -402,19 +402,19 @@ public final class MiGetAppPartsTreeSettingsAd {
     public static final int KEY_VARIABLE_FIELD_NUMBER = 3;
     private io.dstore.values.StringValue keyVariable_;
     /**
-     * <code>optional .dstore.values.StringValue key_variable = 3;</code>
+     * <code>.dstore.values.StringValue key_variable = 3;</code>
      */
     public boolean hasKeyVariable() {
       return keyVariable_ != null;
     }
     /**
-     * <code>optional .dstore.values.StringValue key_variable = 3;</code>
+     * <code>.dstore.values.StringValue key_variable = 3;</code>
      */
     public io.dstore.values.StringValue getKeyVariable() {
       return keyVariable_ == null ? io.dstore.values.StringValue.getDefaultInstance() : keyVariable_;
     }
     /**
-     * <code>optional .dstore.values.StringValue key_variable = 3;</code>
+     * <code>.dstore.values.StringValue key_variable = 3;</code>
      */
     public io.dstore.values.StringValueOrBuilder getKeyVariableOrBuilder() {
       return getKeyVariable();
@@ -423,7 +423,7 @@ public final class MiGetAppPartsTreeSettingsAd {
     public static final int KEY_VARIABLE_NULL_FIELD_NUMBER = 1003;
     private boolean keyVariableNull_;
     /**
-     * <code>optional bool key_variable_null = 1003;</code>
+     * <code>bool key_variable_null = 1003;</code>
      */
     public boolean getKeyVariableNull() {
       return keyVariableNull_;
@@ -432,19 +432,19 @@ public final class MiGetAppPartsTreeSettingsAd {
     public static final int SEARCH_FOR_KEY_VARIABLE_WITH_LIKE_FIELD_NUMBER = 4;
     private io.dstore.values.BooleanValue searchForKeyVariableWithLike_;
     /**
-     * <code>optional .dstore.values.BooleanValue search_for_key_variable_with_like = 4;</code>
+     * <code>.dstore.values.BooleanValue search_for_key_variable_with_like = 4;</code>
      */
     public boolean hasSearchForKeyVariableWithLike() {
       return searchForKeyVariableWithLike_ != null;
     }
     /**
-     * <code>optional .dstore.values.BooleanValue search_for_key_variable_with_like = 4;</code>
+     * <code>.dstore.values.BooleanValue search_for_key_variable_with_like = 4;</code>
      */
     public io.dstore.values.BooleanValue getSearchForKeyVariableWithLike() {
       return searchForKeyVariableWithLike_ == null ? io.dstore.values.BooleanValue.getDefaultInstance() : searchForKeyVariableWithLike_;
     }
     /**
-     * <code>optional .dstore.values.BooleanValue search_for_key_variable_with_like = 4;</code>
+     * <code>.dstore.values.BooleanValue search_for_key_variable_with_like = 4;</code>
      */
     public io.dstore.values.BooleanValueOrBuilder getSearchForKeyVariableWithLikeOrBuilder() {
       return getSearchForKeyVariableWithLike();
@@ -453,7 +453,7 @@ public final class MiGetAppPartsTreeSettingsAd {
     public static final int SEARCH_FOR_KEY_VARIABLE_WITH_LIKE_NULL_FIELD_NUMBER = 1004;
     private boolean searchForKeyVariableWithLikeNull_;
     /**
-     * <code>optional bool search_for_key_variable_with_like_null = 1004;</code>
+     * <code>bool search_for_key_variable_with_like_null = 1004;</code>
      */
     public boolean getSearchForKeyVariableWithLikeNull() {
       return searchForKeyVariableWithLikeNull_;
@@ -462,19 +462,19 @@ public final class MiGetAppPartsTreeSettingsAd {
     public static final int INCLUDE_VALUES_FOR_GLOBAL_USER_FIELD_NUMBER = 5;
     private io.dstore.values.BooleanValue includeValuesForGlobalUser_;
     /**
-     * <code>optional .dstore.values.BooleanValue include_values_for_global_user = 5;</code>
+     * <code>.dstore.values.BooleanValue include_values_for_global_user = 5;</code>
      */
     public boolean hasIncludeValuesForGlobalUser() {
       return includeValuesForGlobalUser_ != null;
     }
     /**
-     * <code>optional .dstore.values.BooleanValue include_values_for_global_user = 5;</code>
+     * <code>.dstore.values.BooleanValue include_values_for_global_user = 5;</code>
      */
     public io.dstore.values.BooleanValue getIncludeValuesForGlobalUser() {
       return includeValuesForGlobalUser_ == null ? io.dstore.values.BooleanValue.getDefaultInstance() : includeValuesForGlobalUser_;
     }
     /**
-     * <code>optional .dstore.values.BooleanValue include_values_for_global_user = 5;</code>
+     * <code>.dstore.values.BooleanValue include_values_for_global_user = 5;</code>
      */
     public io.dstore.values.BooleanValueOrBuilder getIncludeValuesForGlobalUserOrBuilder() {
       return getIncludeValuesForGlobalUser();
@@ -483,7 +483,7 @@ public final class MiGetAppPartsTreeSettingsAd {
     public static final int INCLUDE_VALUES_FOR_GLOBAL_USER_NULL_FIELD_NUMBER = 1005;
     private boolean includeValuesForGlobalUserNull_;
     /**
-     * <code>optional bool include_values_for_global_user_null = 1005;</code>
+     * <code>bool include_values_for_global_user_null = 1005;</code>
      */
     public boolean getIncludeValuesForGlobalUserNull() {
       return includeValuesForGlobalUserNull_;
@@ -492,19 +492,19 @@ public final class MiGetAppPartsTreeSettingsAd {
     public static final int GET_VALUES_FOR_CORRESPONDING_PART_FIELD_NUMBER = 6;
     private io.dstore.values.BooleanValue getValuesForCorrespondingPart_;
     /**
-     * <code>optional .dstore.values.BooleanValue get_values_for_corresponding_part = 6;</code>
+     * <code>.dstore.values.BooleanValue get_values_for_corresponding_part = 6;</code>
      */
     public boolean hasGetValuesForCorrespondingPart() {
       return getValuesForCorrespondingPart_ != null;
     }
     /**
-     * <code>optional .dstore.values.BooleanValue get_values_for_corresponding_part = 6;</code>
+     * <code>.dstore.values.BooleanValue get_values_for_corresponding_part = 6;</code>
      */
     public io.dstore.values.BooleanValue getGetValuesForCorrespondingPart() {
       return getValuesForCorrespondingPart_ == null ? io.dstore.values.BooleanValue.getDefaultInstance() : getValuesForCorrespondingPart_;
     }
     /**
-     * <code>optional .dstore.values.BooleanValue get_values_for_corresponding_part = 6;</code>
+     * <code>.dstore.values.BooleanValue get_values_for_corresponding_part = 6;</code>
      */
     public io.dstore.values.BooleanValueOrBuilder getGetValuesForCorrespondingPartOrBuilder() {
       return getGetValuesForCorrespondingPart();
@@ -513,7 +513,7 @@ public final class MiGetAppPartsTreeSettingsAd {
     public static final int GET_VALUES_FOR_CORRESPONDING_PART_NULL_FIELD_NUMBER = 1006;
     private boolean getValuesForCorrespondingPartNull_;
     /**
-     * <code>optional bool get_values_for_corresponding_part_null = 1006;</code>
+     * <code>bool get_values_for_corresponding_part_null = 1006;</code>
      */
     public boolean getGetValuesForCorrespondingPartNull() {
       return getValuesForCorrespondingPartNull_;
@@ -522,19 +522,19 @@ public final class MiGetAppPartsTreeSettingsAd {
     public static final int IDS_IN_TWO_IDS_FIELD_NUMBER = 7;
     private io.dstore.values.BooleanValue idsInTwoIds_;
     /**
-     * <code>optional .dstore.values.BooleanValue ids_in_two_ids = 7;</code>
+     * <code>.dstore.values.BooleanValue ids_in_two_ids = 7;</code>
      */
     public boolean hasIdsInTwoIds() {
       return idsInTwoIds_ != null;
     }
     /**
-     * <code>optional .dstore.values.BooleanValue ids_in_two_ids = 7;</code>
+     * <code>.dstore.values.BooleanValue ids_in_two_ids = 7;</code>
      */
     public io.dstore.values.BooleanValue getIdsInTwoIds() {
       return idsInTwoIds_ == null ? io.dstore.values.BooleanValue.getDefaultInstance() : idsInTwoIds_;
     }
     /**
-     * <code>optional .dstore.values.BooleanValue ids_in_two_ids = 7;</code>
+     * <code>.dstore.values.BooleanValue ids_in_two_ids = 7;</code>
      */
     public io.dstore.values.BooleanValueOrBuilder getIdsInTwoIdsOrBuilder() {
       return getIdsInTwoIds();
@@ -543,7 +543,7 @@ public final class MiGetAppPartsTreeSettingsAd {
     public static final int IDS_IN_TWO_IDS_NULL_FIELD_NUMBER = 1007;
     private boolean idsInTwoIdsNull_;
     /**
-     * <code>optional bool ids_in_two_ids_null = 1007;</code>
+     * <code>bool ids_in_two_ids_null = 1007;</code>
      */
     public boolean getIdsInTwoIdsNull() {
       return idsInTwoIdsNull_;
@@ -740,7 +740,7 @@ public final class MiGetAppPartsTreeSettingsAd {
         return memoizedHashCode;
       }
       int hash = 41;
-      hash = (19 * hash) + getDescriptorForType().hashCode();
+      hash = (19 * hash) + getDescriptor().hashCode();
       if (hasApplicationPartTreeId()) {
         hash = (37 * hash) + APPLICATION_PART_TREE_ID_FIELD_NUMBER;
         hash = (53 * hash) + getApplicationPartTreeId().hashCode();
@@ -1141,13 +1141,13 @@ public final class MiGetAppPartsTreeSettingsAd {
       private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> applicationPartTreeIdBuilder_;
       /**
-       * <code>optional .dstore.values.IntegerValue application_part_tree_id = 1;</code>
+       * <code>.dstore.values.IntegerValue application_part_tree_id = 1;</code>
        */
       public boolean hasApplicationPartTreeId() {
         return applicationPartTreeIdBuilder_ != null || applicationPartTreeId_ != null;
       }
       /**
-       * <code>optional .dstore.values.IntegerValue application_part_tree_id = 1;</code>
+       * <code>.dstore.values.IntegerValue application_part_tree_id = 1;</code>
        */
       public io.dstore.values.IntegerValue getApplicationPartTreeId() {
         if (applicationPartTreeIdBuilder_ == null) {
@@ -1157,7 +1157,7 @@ public final class MiGetAppPartsTreeSettingsAd {
         }
       }
       /**
-       * <code>optional .dstore.values.IntegerValue application_part_tree_id = 1;</code>
+       * <code>.dstore.values.IntegerValue application_part_tree_id = 1;</code>
        */
       public Builder setApplicationPartTreeId(io.dstore.values.IntegerValue value) {
         if (applicationPartTreeIdBuilder_ == null) {
@@ -1173,7 +1173,7 @@ public final class MiGetAppPartsTreeSettingsAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.IntegerValue application_part_tree_id = 1;</code>
+       * <code>.dstore.values.IntegerValue application_part_tree_id = 1;</code>
        */
       public Builder setApplicationPartTreeId(
           io.dstore.values.IntegerValue.Builder builderForValue) {
@@ -1187,7 +1187,7 @@ public final class MiGetAppPartsTreeSettingsAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.IntegerValue application_part_tree_id = 1;</code>
+       * <code>.dstore.values.IntegerValue application_part_tree_id = 1;</code>
        */
       public Builder mergeApplicationPartTreeId(io.dstore.values.IntegerValue value) {
         if (applicationPartTreeIdBuilder_ == null) {
@@ -1205,7 +1205,7 @@ public final class MiGetAppPartsTreeSettingsAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.IntegerValue application_part_tree_id = 1;</code>
+       * <code>.dstore.values.IntegerValue application_part_tree_id = 1;</code>
        */
       public Builder clearApplicationPartTreeId() {
         if (applicationPartTreeIdBuilder_ == null) {
@@ -1219,7 +1219,7 @@ public final class MiGetAppPartsTreeSettingsAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.IntegerValue application_part_tree_id = 1;</code>
+       * <code>.dstore.values.IntegerValue application_part_tree_id = 1;</code>
        */
       public io.dstore.values.IntegerValue.Builder getApplicationPartTreeIdBuilder() {
         
@@ -1227,7 +1227,7 @@ public final class MiGetAppPartsTreeSettingsAd {
         return getApplicationPartTreeIdFieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .dstore.values.IntegerValue application_part_tree_id = 1;</code>
+       * <code>.dstore.values.IntegerValue application_part_tree_id = 1;</code>
        */
       public io.dstore.values.IntegerValueOrBuilder getApplicationPartTreeIdOrBuilder() {
         if (applicationPartTreeIdBuilder_ != null) {
@@ -1238,7 +1238,7 @@ public final class MiGetAppPartsTreeSettingsAd {
         }
       }
       /**
-       * <code>optional .dstore.values.IntegerValue application_part_tree_id = 1;</code>
+       * <code>.dstore.values.IntegerValue application_part_tree_id = 1;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> 
@@ -1256,13 +1256,13 @@ public final class MiGetAppPartsTreeSettingsAd {
 
       private boolean applicationPartTreeIdNull_ ;
       /**
-       * <code>optional bool application_part_tree_id_null = 1001;</code>
+       * <code>bool application_part_tree_id_null = 1001;</code>
        */
       public boolean getApplicationPartTreeIdNull() {
         return applicationPartTreeIdNull_;
       }
       /**
-       * <code>optional bool application_part_tree_id_null = 1001;</code>
+       * <code>bool application_part_tree_id_null = 1001;</code>
        */
       public Builder setApplicationPartTreeIdNull(boolean value) {
         
@@ -1271,7 +1271,7 @@ public final class MiGetAppPartsTreeSettingsAd {
         return this;
       }
       /**
-       * <code>optional bool application_part_tree_id_null = 1001;</code>
+       * <code>bool application_part_tree_id_null = 1001;</code>
        */
       public Builder clearApplicationPartTreeIdNull() {
         
@@ -1284,13 +1284,13 @@ public final class MiGetAppPartsTreeSettingsAd {
       private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> userIdBuilder_;
       /**
-       * <code>optional .dstore.values.IntegerValue user_id = 2;</code>
+       * <code>.dstore.values.IntegerValue user_id = 2;</code>
        */
       public boolean hasUserId() {
         return userIdBuilder_ != null || userId_ != null;
       }
       /**
-       * <code>optional .dstore.values.IntegerValue user_id = 2;</code>
+       * <code>.dstore.values.IntegerValue user_id = 2;</code>
        */
       public io.dstore.values.IntegerValue getUserId() {
         if (userIdBuilder_ == null) {
@@ -1300,7 +1300,7 @@ public final class MiGetAppPartsTreeSettingsAd {
         }
       }
       /**
-       * <code>optional .dstore.values.IntegerValue user_id = 2;</code>
+       * <code>.dstore.values.IntegerValue user_id = 2;</code>
        */
       public Builder setUserId(io.dstore.values.IntegerValue value) {
         if (userIdBuilder_ == null) {
@@ -1316,7 +1316,7 @@ public final class MiGetAppPartsTreeSettingsAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.IntegerValue user_id = 2;</code>
+       * <code>.dstore.values.IntegerValue user_id = 2;</code>
        */
       public Builder setUserId(
           io.dstore.values.IntegerValue.Builder builderForValue) {
@@ -1330,7 +1330,7 @@ public final class MiGetAppPartsTreeSettingsAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.IntegerValue user_id = 2;</code>
+       * <code>.dstore.values.IntegerValue user_id = 2;</code>
        */
       public Builder mergeUserId(io.dstore.values.IntegerValue value) {
         if (userIdBuilder_ == null) {
@@ -1348,7 +1348,7 @@ public final class MiGetAppPartsTreeSettingsAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.IntegerValue user_id = 2;</code>
+       * <code>.dstore.values.IntegerValue user_id = 2;</code>
        */
       public Builder clearUserId() {
         if (userIdBuilder_ == null) {
@@ -1362,7 +1362,7 @@ public final class MiGetAppPartsTreeSettingsAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.IntegerValue user_id = 2;</code>
+       * <code>.dstore.values.IntegerValue user_id = 2;</code>
        */
       public io.dstore.values.IntegerValue.Builder getUserIdBuilder() {
         
@@ -1370,7 +1370,7 @@ public final class MiGetAppPartsTreeSettingsAd {
         return getUserIdFieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .dstore.values.IntegerValue user_id = 2;</code>
+       * <code>.dstore.values.IntegerValue user_id = 2;</code>
        */
       public io.dstore.values.IntegerValueOrBuilder getUserIdOrBuilder() {
         if (userIdBuilder_ != null) {
@@ -1381,7 +1381,7 @@ public final class MiGetAppPartsTreeSettingsAd {
         }
       }
       /**
-       * <code>optional .dstore.values.IntegerValue user_id = 2;</code>
+       * <code>.dstore.values.IntegerValue user_id = 2;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> 
@@ -1399,13 +1399,13 @@ public final class MiGetAppPartsTreeSettingsAd {
 
       private boolean userIdNull_ ;
       /**
-       * <code>optional bool user_id_null = 1002;</code>
+       * <code>bool user_id_null = 1002;</code>
        */
       public boolean getUserIdNull() {
         return userIdNull_;
       }
       /**
-       * <code>optional bool user_id_null = 1002;</code>
+       * <code>bool user_id_null = 1002;</code>
        */
       public Builder setUserIdNull(boolean value) {
         
@@ -1414,7 +1414,7 @@ public final class MiGetAppPartsTreeSettingsAd {
         return this;
       }
       /**
-       * <code>optional bool user_id_null = 1002;</code>
+       * <code>bool user_id_null = 1002;</code>
        */
       public Builder clearUserIdNull() {
         
@@ -1427,13 +1427,13 @@ public final class MiGetAppPartsTreeSettingsAd {
       private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.values.StringValue, io.dstore.values.StringValue.Builder, io.dstore.values.StringValueOrBuilder> keyVariableBuilder_;
       /**
-       * <code>optional .dstore.values.StringValue key_variable = 3;</code>
+       * <code>.dstore.values.StringValue key_variable = 3;</code>
        */
       public boolean hasKeyVariable() {
         return keyVariableBuilder_ != null || keyVariable_ != null;
       }
       /**
-       * <code>optional .dstore.values.StringValue key_variable = 3;</code>
+       * <code>.dstore.values.StringValue key_variable = 3;</code>
        */
       public io.dstore.values.StringValue getKeyVariable() {
         if (keyVariableBuilder_ == null) {
@@ -1443,7 +1443,7 @@ public final class MiGetAppPartsTreeSettingsAd {
         }
       }
       /**
-       * <code>optional .dstore.values.StringValue key_variable = 3;</code>
+       * <code>.dstore.values.StringValue key_variable = 3;</code>
        */
       public Builder setKeyVariable(io.dstore.values.StringValue value) {
         if (keyVariableBuilder_ == null) {
@@ -1459,7 +1459,7 @@ public final class MiGetAppPartsTreeSettingsAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.StringValue key_variable = 3;</code>
+       * <code>.dstore.values.StringValue key_variable = 3;</code>
        */
       public Builder setKeyVariable(
           io.dstore.values.StringValue.Builder builderForValue) {
@@ -1473,7 +1473,7 @@ public final class MiGetAppPartsTreeSettingsAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.StringValue key_variable = 3;</code>
+       * <code>.dstore.values.StringValue key_variable = 3;</code>
        */
       public Builder mergeKeyVariable(io.dstore.values.StringValue value) {
         if (keyVariableBuilder_ == null) {
@@ -1491,7 +1491,7 @@ public final class MiGetAppPartsTreeSettingsAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.StringValue key_variable = 3;</code>
+       * <code>.dstore.values.StringValue key_variable = 3;</code>
        */
       public Builder clearKeyVariable() {
         if (keyVariableBuilder_ == null) {
@@ -1505,7 +1505,7 @@ public final class MiGetAppPartsTreeSettingsAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.StringValue key_variable = 3;</code>
+       * <code>.dstore.values.StringValue key_variable = 3;</code>
        */
       public io.dstore.values.StringValue.Builder getKeyVariableBuilder() {
         
@@ -1513,7 +1513,7 @@ public final class MiGetAppPartsTreeSettingsAd {
         return getKeyVariableFieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .dstore.values.StringValue key_variable = 3;</code>
+       * <code>.dstore.values.StringValue key_variable = 3;</code>
        */
       public io.dstore.values.StringValueOrBuilder getKeyVariableOrBuilder() {
         if (keyVariableBuilder_ != null) {
@@ -1524,7 +1524,7 @@ public final class MiGetAppPartsTreeSettingsAd {
         }
       }
       /**
-       * <code>optional .dstore.values.StringValue key_variable = 3;</code>
+       * <code>.dstore.values.StringValue key_variable = 3;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.values.StringValue, io.dstore.values.StringValue.Builder, io.dstore.values.StringValueOrBuilder> 
@@ -1542,13 +1542,13 @@ public final class MiGetAppPartsTreeSettingsAd {
 
       private boolean keyVariableNull_ ;
       /**
-       * <code>optional bool key_variable_null = 1003;</code>
+       * <code>bool key_variable_null = 1003;</code>
        */
       public boolean getKeyVariableNull() {
         return keyVariableNull_;
       }
       /**
-       * <code>optional bool key_variable_null = 1003;</code>
+       * <code>bool key_variable_null = 1003;</code>
        */
       public Builder setKeyVariableNull(boolean value) {
         
@@ -1557,7 +1557,7 @@ public final class MiGetAppPartsTreeSettingsAd {
         return this;
       }
       /**
-       * <code>optional bool key_variable_null = 1003;</code>
+       * <code>bool key_variable_null = 1003;</code>
        */
       public Builder clearKeyVariableNull() {
         
@@ -1570,13 +1570,13 @@ public final class MiGetAppPartsTreeSettingsAd {
       private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.values.BooleanValue, io.dstore.values.BooleanValue.Builder, io.dstore.values.BooleanValueOrBuilder> searchForKeyVariableWithLikeBuilder_;
       /**
-       * <code>optional .dstore.values.BooleanValue search_for_key_variable_with_like = 4;</code>
+       * <code>.dstore.values.BooleanValue search_for_key_variable_with_like = 4;</code>
        */
       public boolean hasSearchForKeyVariableWithLike() {
         return searchForKeyVariableWithLikeBuilder_ != null || searchForKeyVariableWithLike_ != null;
       }
       /**
-       * <code>optional .dstore.values.BooleanValue search_for_key_variable_with_like = 4;</code>
+       * <code>.dstore.values.BooleanValue search_for_key_variable_with_like = 4;</code>
        */
       public io.dstore.values.BooleanValue getSearchForKeyVariableWithLike() {
         if (searchForKeyVariableWithLikeBuilder_ == null) {
@@ -1586,7 +1586,7 @@ public final class MiGetAppPartsTreeSettingsAd {
         }
       }
       /**
-       * <code>optional .dstore.values.BooleanValue search_for_key_variable_with_like = 4;</code>
+       * <code>.dstore.values.BooleanValue search_for_key_variable_with_like = 4;</code>
        */
       public Builder setSearchForKeyVariableWithLike(io.dstore.values.BooleanValue value) {
         if (searchForKeyVariableWithLikeBuilder_ == null) {
@@ -1602,7 +1602,7 @@ public final class MiGetAppPartsTreeSettingsAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.BooleanValue search_for_key_variable_with_like = 4;</code>
+       * <code>.dstore.values.BooleanValue search_for_key_variable_with_like = 4;</code>
        */
       public Builder setSearchForKeyVariableWithLike(
           io.dstore.values.BooleanValue.Builder builderForValue) {
@@ -1616,7 +1616,7 @@ public final class MiGetAppPartsTreeSettingsAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.BooleanValue search_for_key_variable_with_like = 4;</code>
+       * <code>.dstore.values.BooleanValue search_for_key_variable_with_like = 4;</code>
        */
       public Builder mergeSearchForKeyVariableWithLike(io.dstore.values.BooleanValue value) {
         if (searchForKeyVariableWithLikeBuilder_ == null) {
@@ -1634,7 +1634,7 @@ public final class MiGetAppPartsTreeSettingsAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.BooleanValue search_for_key_variable_with_like = 4;</code>
+       * <code>.dstore.values.BooleanValue search_for_key_variable_with_like = 4;</code>
        */
       public Builder clearSearchForKeyVariableWithLike() {
         if (searchForKeyVariableWithLikeBuilder_ == null) {
@@ -1648,7 +1648,7 @@ public final class MiGetAppPartsTreeSettingsAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.BooleanValue search_for_key_variable_with_like = 4;</code>
+       * <code>.dstore.values.BooleanValue search_for_key_variable_with_like = 4;</code>
        */
       public io.dstore.values.BooleanValue.Builder getSearchForKeyVariableWithLikeBuilder() {
         
@@ -1656,7 +1656,7 @@ public final class MiGetAppPartsTreeSettingsAd {
         return getSearchForKeyVariableWithLikeFieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .dstore.values.BooleanValue search_for_key_variable_with_like = 4;</code>
+       * <code>.dstore.values.BooleanValue search_for_key_variable_with_like = 4;</code>
        */
       public io.dstore.values.BooleanValueOrBuilder getSearchForKeyVariableWithLikeOrBuilder() {
         if (searchForKeyVariableWithLikeBuilder_ != null) {
@@ -1667,7 +1667,7 @@ public final class MiGetAppPartsTreeSettingsAd {
         }
       }
       /**
-       * <code>optional .dstore.values.BooleanValue search_for_key_variable_with_like = 4;</code>
+       * <code>.dstore.values.BooleanValue search_for_key_variable_with_like = 4;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.values.BooleanValue, io.dstore.values.BooleanValue.Builder, io.dstore.values.BooleanValueOrBuilder> 
@@ -1685,13 +1685,13 @@ public final class MiGetAppPartsTreeSettingsAd {
 
       private boolean searchForKeyVariableWithLikeNull_ ;
       /**
-       * <code>optional bool search_for_key_variable_with_like_null = 1004;</code>
+       * <code>bool search_for_key_variable_with_like_null = 1004;</code>
        */
       public boolean getSearchForKeyVariableWithLikeNull() {
         return searchForKeyVariableWithLikeNull_;
       }
       /**
-       * <code>optional bool search_for_key_variable_with_like_null = 1004;</code>
+       * <code>bool search_for_key_variable_with_like_null = 1004;</code>
        */
       public Builder setSearchForKeyVariableWithLikeNull(boolean value) {
         
@@ -1700,7 +1700,7 @@ public final class MiGetAppPartsTreeSettingsAd {
         return this;
       }
       /**
-       * <code>optional bool search_for_key_variable_with_like_null = 1004;</code>
+       * <code>bool search_for_key_variable_with_like_null = 1004;</code>
        */
       public Builder clearSearchForKeyVariableWithLikeNull() {
         
@@ -1713,13 +1713,13 @@ public final class MiGetAppPartsTreeSettingsAd {
       private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.values.BooleanValue, io.dstore.values.BooleanValue.Builder, io.dstore.values.BooleanValueOrBuilder> includeValuesForGlobalUserBuilder_;
       /**
-       * <code>optional .dstore.values.BooleanValue include_values_for_global_user = 5;</code>
+       * <code>.dstore.values.BooleanValue include_values_for_global_user = 5;</code>
        */
       public boolean hasIncludeValuesForGlobalUser() {
         return includeValuesForGlobalUserBuilder_ != null || includeValuesForGlobalUser_ != null;
       }
       /**
-       * <code>optional .dstore.values.BooleanValue include_values_for_global_user = 5;</code>
+       * <code>.dstore.values.BooleanValue include_values_for_global_user = 5;</code>
        */
       public io.dstore.values.BooleanValue getIncludeValuesForGlobalUser() {
         if (includeValuesForGlobalUserBuilder_ == null) {
@@ -1729,7 +1729,7 @@ public final class MiGetAppPartsTreeSettingsAd {
         }
       }
       /**
-       * <code>optional .dstore.values.BooleanValue include_values_for_global_user = 5;</code>
+       * <code>.dstore.values.BooleanValue include_values_for_global_user = 5;</code>
        */
       public Builder setIncludeValuesForGlobalUser(io.dstore.values.BooleanValue value) {
         if (includeValuesForGlobalUserBuilder_ == null) {
@@ -1745,7 +1745,7 @@ public final class MiGetAppPartsTreeSettingsAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.BooleanValue include_values_for_global_user = 5;</code>
+       * <code>.dstore.values.BooleanValue include_values_for_global_user = 5;</code>
        */
       public Builder setIncludeValuesForGlobalUser(
           io.dstore.values.BooleanValue.Builder builderForValue) {
@@ -1759,7 +1759,7 @@ public final class MiGetAppPartsTreeSettingsAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.BooleanValue include_values_for_global_user = 5;</code>
+       * <code>.dstore.values.BooleanValue include_values_for_global_user = 5;</code>
        */
       public Builder mergeIncludeValuesForGlobalUser(io.dstore.values.BooleanValue value) {
         if (includeValuesForGlobalUserBuilder_ == null) {
@@ -1777,7 +1777,7 @@ public final class MiGetAppPartsTreeSettingsAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.BooleanValue include_values_for_global_user = 5;</code>
+       * <code>.dstore.values.BooleanValue include_values_for_global_user = 5;</code>
        */
       public Builder clearIncludeValuesForGlobalUser() {
         if (includeValuesForGlobalUserBuilder_ == null) {
@@ -1791,7 +1791,7 @@ public final class MiGetAppPartsTreeSettingsAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.BooleanValue include_values_for_global_user = 5;</code>
+       * <code>.dstore.values.BooleanValue include_values_for_global_user = 5;</code>
        */
       public io.dstore.values.BooleanValue.Builder getIncludeValuesForGlobalUserBuilder() {
         
@@ -1799,7 +1799,7 @@ public final class MiGetAppPartsTreeSettingsAd {
         return getIncludeValuesForGlobalUserFieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .dstore.values.BooleanValue include_values_for_global_user = 5;</code>
+       * <code>.dstore.values.BooleanValue include_values_for_global_user = 5;</code>
        */
       public io.dstore.values.BooleanValueOrBuilder getIncludeValuesForGlobalUserOrBuilder() {
         if (includeValuesForGlobalUserBuilder_ != null) {
@@ -1810,7 +1810,7 @@ public final class MiGetAppPartsTreeSettingsAd {
         }
       }
       /**
-       * <code>optional .dstore.values.BooleanValue include_values_for_global_user = 5;</code>
+       * <code>.dstore.values.BooleanValue include_values_for_global_user = 5;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.values.BooleanValue, io.dstore.values.BooleanValue.Builder, io.dstore.values.BooleanValueOrBuilder> 
@@ -1828,13 +1828,13 @@ public final class MiGetAppPartsTreeSettingsAd {
 
       private boolean includeValuesForGlobalUserNull_ ;
       /**
-       * <code>optional bool include_values_for_global_user_null = 1005;</code>
+       * <code>bool include_values_for_global_user_null = 1005;</code>
        */
       public boolean getIncludeValuesForGlobalUserNull() {
         return includeValuesForGlobalUserNull_;
       }
       /**
-       * <code>optional bool include_values_for_global_user_null = 1005;</code>
+       * <code>bool include_values_for_global_user_null = 1005;</code>
        */
       public Builder setIncludeValuesForGlobalUserNull(boolean value) {
         
@@ -1843,7 +1843,7 @@ public final class MiGetAppPartsTreeSettingsAd {
         return this;
       }
       /**
-       * <code>optional bool include_values_for_global_user_null = 1005;</code>
+       * <code>bool include_values_for_global_user_null = 1005;</code>
        */
       public Builder clearIncludeValuesForGlobalUserNull() {
         
@@ -1856,13 +1856,13 @@ public final class MiGetAppPartsTreeSettingsAd {
       private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.values.BooleanValue, io.dstore.values.BooleanValue.Builder, io.dstore.values.BooleanValueOrBuilder> getValuesForCorrespondingPartBuilder_;
       /**
-       * <code>optional .dstore.values.BooleanValue get_values_for_corresponding_part = 6;</code>
+       * <code>.dstore.values.BooleanValue get_values_for_corresponding_part = 6;</code>
        */
       public boolean hasGetValuesForCorrespondingPart() {
         return getValuesForCorrespondingPartBuilder_ != null || getValuesForCorrespondingPart_ != null;
       }
       /**
-       * <code>optional .dstore.values.BooleanValue get_values_for_corresponding_part = 6;</code>
+       * <code>.dstore.values.BooleanValue get_values_for_corresponding_part = 6;</code>
        */
       public io.dstore.values.BooleanValue getGetValuesForCorrespondingPart() {
         if (getValuesForCorrespondingPartBuilder_ == null) {
@@ -1872,7 +1872,7 @@ public final class MiGetAppPartsTreeSettingsAd {
         }
       }
       /**
-       * <code>optional .dstore.values.BooleanValue get_values_for_corresponding_part = 6;</code>
+       * <code>.dstore.values.BooleanValue get_values_for_corresponding_part = 6;</code>
        */
       public Builder setGetValuesForCorrespondingPart(io.dstore.values.BooleanValue value) {
         if (getValuesForCorrespondingPartBuilder_ == null) {
@@ -1888,7 +1888,7 @@ public final class MiGetAppPartsTreeSettingsAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.BooleanValue get_values_for_corresponding_part = 6;</code>
+       * <code>.dstore.values.BooleanValue get_values_for_corresponding_part = 6;</code>
        */
       public Builder setGetValuesForCorrespondingPart(
           io.dstore.values.BooleanValue.Builder builderForValue) {
@@ -1902,7 +1902,7 @@ public final class MiGetAppPartsTreeSettingsAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.BooleanValue get_values_for_corresponding_part = 6;</code>
+       * <code>.dstore.values.BooleanValue get_values_for_corresponding_part = 6;</code>
        */
       public Builder mergeGetValuesForCorrespondingPart(io.dstore.values.BooleanValue value) {
         if (getValuesForCorrespondingPartBuilder_ == null) {
@@ -1920,7 +1920,7 @@ public final class MiGetAppPartsTreeSettingsAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.BooleanValue get_values_for_corresponding_part = 6;</code>
+       * <code>.dstore.values.BooleanValue get_values_for_corresponding_part = 6;</code>
        */
       public Builder clearGetValuesForCorrespondingPart() {
         if (getValuesForCorrespondingPartBuilder_ == null) {
@@ -1934,7 +1934,7 @@ public final class MiGetAppPartsTreeSettingsAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.BooleanValue get_values_for_corresponding_part = 6;</code>
+       * <code>.dstore.values.BooleanValue get_values_for_corresponding_part = 6;</code>
        */
       public io.dstore.values.BooleanValue.Builder getGetValuesForCorrespondingPartBuilder() {
         
@@ -1942,7 +1942,7 @@ public final class MiGetAppPartsTreeSettingsAd {
         return getGetValuesForCorrespondingPartFieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .dstore.values.BooleanValue get_values_for_corresponding_part = 6;</code>
+       * <code>.dstore.values.BooleanValue get_values_for_corresponding_part = 6;</code>
        */
       public io.dstore.values.BooleanValueOrBuilder getGetValuesForCorrespondingPartOrBuilder() {
         if (getValuesForCorrespondingPartBuilder_ != null) {
@@ -1953,7 +1953,7 @@ public final class MiGetAppPartsTreeSettingsAd {
         }
       }
       /**
-       * <code>optional .dstore.values.BooleanValue get_values_for_corresponding_part = 6;</code>
+       * <code>.dstore.values.BooleanValue get_values_for_corresponding_part = 6;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.values.BooleanValue, io.dstore.values.BooleanValue.Builder, io.dstore.values.BooleanValueOrBuilder> 
@@ -1971,13 +1971,13 @@ public final class MiGetAppPartsTreeSettingsAd {
 
       private boolean getValuesForCorrespondingPartNull_ ;
       /**
-       * <code>optional bool get_values_for_corresponding_part_null = 1006;</code>
+       * <code>bool get_values_for_corresponding_part_null = 1006;</code>
        */
       public boolean getGetValuesForCorrespondingPartNull() {
         return getValuesForCorrespondingPartNull_;
       }
       /**
-       * <code>optional bool get_values_for_corresponding_part_null = 1006;</code>
+       * <code>bool get_values_for_corresponding_part_null = 1006;</code>
        */
       public Builder setGetValuesForCorrespondingPartNull(boolean value) {
         
@@ -1986,7 +1986,7 @@ public final class MiGetAppPartsTreeSettingsAd {
         return this;
       }
       /**
-       * <code>optional bool get_values_for_corresponding_part_null = 1006;</code>
+       * <code>bool get_values_for_corresponding_part_null = 1006;</code>
        */
       public Builder clearGetValuesForCorrespondingPartNull() {
         
@@ -1999,13 +1999,13 @@ public final class MiGetAppPartsTreeSettingsAd {
       private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.values.BooleanValue, io.dstore.values.BooleanValue.Builder, io.dstore.values.BooleanValueOrBuilder> idsInTwoIdsBuilder_;
       /**
-       * <code>optional .dstore.values.BooleanValue ids_in_two_ids = 7;</code>
+       * <code>.dstore.values.BooleanValue ids_in_two_ids = 7;</code>
        */
       public boolean hasIdsInTwoIds() {
         return idsInTwoIdsBuilder_ != null || idsInTwoIds_ != null;
       }
       /**
-       * <code>optional .dstore.values.BooleanValue ids_in_two_ids = 7;</code>
+       * <code>.dstore.values.BooleanValue ids_in_two_ids = 7;</code>
        */
       public io.dstore.values.BooleanValue getIdsInTwoIds() {
         if (idsInTwoIdsBuilder_ == null) {
@@ -2015,7 +2015,7 @@ public final class MiGetAppPartsTreeSettingsAd {
         }
       }
       /**
-       * <code>optional .dstore.values.BooleanValue ids_in_two_ids = 7;</code>
+       * <code>.dstore.values.BooleanValue ids_in_two_ids = 7;</code>
        */
       public Builder setIdsInTwoIds(io.dstore.values.BooleanValue value) {
         if (idsInTwoIdsBuilder_ == null) {
@@ -2031,7 +2031,7 @@ public final class MiGetAppPartsTreeSettingsAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.BooleanValue ids_in_two_ids = 7;</code>
+       * <code>.dstore.values.BooleanValue ids_in_two_ids = 7;</code>
        */
       public Builder setIdsInTwoIds(
           io.dstore.values.BooleanValue.Builder builderForValue) {
@@ -2045,7 +2045,7 @@ public final class MiGetAppPartsTreeSettingsAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.BooleanValue ids_in_two_ids = 7;</code>
+       * <code>.dstore.values.BooleanValue ids_in_two_ids = 7;</code>
        */
       public Builder mergeIdsInTwoIds(io.dstore.values.BooleanValue value) {
         if (idsInTwoIdsBuilder_ == null) {
@@ -2063,7 +2063,7 @@ public final class MiGetAppPartsTreeSettingsAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.BooleanValue ids_in_two_ids = 7;</code>
+       * <code>.dstore.values.BooleanValue ids_in_two_ids = 7;</code>
        */
       public Builder clearIdsInTwoIds() {
         if (idsInTwoIdsBuilder_ == null) {
@@ -2077,7 +2077,7 @@ public final class MiGetAppPartsTreeSettingsAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.BooleanValue ids_in_two_ids = 7;</code>
+       * <code>.dstore.values.BooleanValue ids_in_two_ids = 7;</code>
        */
       public io.dstore.values.BooleanValue.Builder getIdsInTwoIdsBuilder() {
         
@@ -2085,7 +2085,7 @@ public final class MiGetAppPartsTreeSettingsAd {
         return getIdsInTwoIdsFieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .dstore.values.BooleanValue ids_in_two_ids = 7;</code>
+       * <code>.dstore.values.BooleanValue ids_in_two_ids = 7;</code>
        */
       public io.dstore.values.BooleanValueOrBuilder getIdsInTwoIdsOrBuilder() {
         if (idsInTwoIdsBuilder_ != null) {
@@ -2096,7 +2096,7 @@ public final class MiGetAppPartsTreeSettingsAd {
         }
       }
       /**
-       * <code>optional .dstore.values.BooleanValue ids_in_two_ids = 7;</code>
+       * <code>.dstore.values.BooleanValue ids_in_two_ids = 7;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.values.BooleanValue, io.dstore.values.BooleanValue.Builder, io.dstore.values.BooleanValueOrBuilder> 
@@ -2114,13 +2114,13 @@ public final class MiGetAppPartsTreeSettingsAd {
 
       private boolean idsInTwoIdsNull_ ;
       /**
-       * <code>optional bool ids_in_two_ids_null = 1007;</code>
+       * <code>bool ids_in_two_ids_null = 1007;</code>
        */
       public boolean getIdsInTwoIdsNull() {
         return idsInTwoIdsNull_;
       }
       /**
-       * <code>optional bool ids_in_two_ids_null = 1007;</code>
+       * <code>bool ids_in_two_ids_null = 1007;</code>
        */
       public Builder setIdsInTwoIdsNull(boolean value) {
         
@@ -2129,7 +2129,7 @@ public final class MiGetAppPartsTreeSettingsAd {
         return this;
       }
       /**
-       * <code>optional bool ids_in_two_ids_null = 1007;</code>
+       * <code>bool ids_in_two_ids_null = 1007;</code>
        */
       public Builder clearIdsInTwoIdsNull() {
         
@@ -2388,7 +2388,7 @@ public final class MiGetAppPartsTreeSettingsAd {
         com.google.protobuf.MessageOrBuilder {
 
       /**
-       * <code>optional int32 row_id = 10000;</code>
+       * <code>int32 row_id = 10000;</code>
        */
       int getRowId();
 
@@ -2397,7 +2397,7 @@ public final class MiGetAppPartsTreeSettingsAd {
        * "1", falls die Einstellung nicht direkt zur "ApplicationPartTreeID" hinterlegt ist, sonder zum zugehörigen Anwendungs-Teil. Immer "0", wenn "&#64;GetValuesForCorrespondingPart = 0" und "&#64;IDsInTwoIDs = 0" ist !
        * </pre>
        *
-       * <code>optional .dstore.values.BooleanValue value_derived_from_app_part_id = 10001;</code>
+       * <code>.dstore.values.BooleanValue value_derived_from_app_part_id = 10001;</code>
        */
       boolean hasValueDerivedFromAppPartId();
       /**
@@ -2405,7 +2405,7 @@ public final class MiGetAppPartsTreeSettingsAd {
        * "1", falls die Einstellung nicht direkt zur "ApplicationPartTreeID" hinterlegt ist, sonder zum zugehörigen Anwendungs-Teil. Immer "0", wenn "&#64;GetValuesForCorrespondingPart = 0" und "&#64;IDsInTwoIDs = 0" ist !
        * </pre>
        *
-       * <code>optional .dstore.values.BooleanValue value_derived_from_app_part_id = 10001;</code>
+       * <code>.dstore.values.BooleanValue value_derived_from_app_part_id = 10001;</code>
        */
       io.dstore.values.BooleanValue getValueDerivedFromAppPartId();
       /**
@@ -2413,7 +2413,7 @@ public final class MiGetAppPartsTreeSettingsAd {
        * "1", falls die Einstellung nicht direkt zur "ApplicationPartTreeID" hinterlegt ist, sonder zum zugehörigen Anwendungs-Teil. Immer "0", wenn "&#64;GetValuesForCorrespondingPart = 0" und "&#64;IDsInTwoIDs = 0" ist !
        * </pre>
        *
-       * <code>optional .dstore.values.BooleanValue value_derived_from_app_part_id = 10001;</code>
+       * <code>.dstore.values.BooleanValue value_derived_from_app_part_id = 10001;</code>
        */
       io.dstore.values.BooleanValueOrBuilder getValueDerivedFromAppPartIdOrBuilder();
 
@@ -2422,7 +2422,7 @@ public final class MiGetAppPartsTreeSettingsAd {
        * Der Wert, der für "ApplicationPartTreeID" zum Schlüssel "KeyVariable" für den Benutzer "&#64;UserID" (bzw. für den Benutzer, der die Prozedur aufruft) hinterlegt ist
        * </pre>
        *
-       * <code>optional .dstore.values.StringValue value = 10002;</code>
+       * <code>.dstore.values.StringValue value = 10002;</code>
        */
       boolean hasValue();
       /**
@@ -2430,7 +2430,7 @@ public final class MiGetAppPartsTreeSettingsAd {
        * Der Wert, der für "ApplicationPartTreeID" zum Schlüssel "KeyVariable" für den Benutzer "&#64;UserID" (bzw. für den Benutzer, der die Prozedur aufruft) hinterlegt ist
        * </pre>
        *
-       * <code>optional .dstore.values.StringValue value = 10002;</code>
+       * <code>.dstore.values.StringValue value = 10002;</code>
        */
       io.dstore.values.StringValue getValue();
       /**
@@ -2438,7 +2438,7 @@ public final class MiGetAppPartsTreeSettingsAd {
        * Der Wert, der für "ApplicationPartTreeID" zum Schlüssel "KeyVariable" für den Benutzer "&#64;UserID" (bzw. für den Benutzer, der die Prozedur aufruft) hinterlegt ist
        * </pre>
        *
-       * <code>optional .dstore.values.StringValue value = 10002;</code>
+       * <code>.dstore.values.StringValue value = 10002;</code>
        */
       io.dstore.values.StringValueOrBuilder getValueOrBuilder();
 
@@ -2447,7 +2447,7 @@ public final class MiGetAppPartsTreeSettingsAd {
        * Ein Schlüssel, zu dem der Wert "Value" für den Benutzer "&#64;UserID" (bzw. für den Benutzer, der Prozedur aufruft) hinterlegt ist
        * </pre>
        *
-       * <code>optional .dstore.values.StringValue key_variable = 10003;</code>
+       * <code>.dstore.values.StringValue key_variable = 10003;</code>
        */
       boolean hasKeyVariable();
       /**
@@ -2455,7 +2455,7 @@ public final class MiGetAppPartsTreeSettingsAd {
        * Ein Schlüssel, zu dem der Wert "Value" für den Benutzer "&#64;UserID" (bzw. für den Benutzer, der Prozedur aufruft) hinterlegt ist
        * </pre>
        *
-       * <code>optional .dstore.values.StringValue key_variable = 10003;</code>
+       * <code>.dstore.values.StringValue key_variable = 10003;</code>
        */
       io.dstore.values.StringValue getKeyVariable();
       /**
@@ -2463,7 +2463,7 @@ public final class MiGetAppPartsTreeSettingsAd {
        * Ein Schlüssel, zu dem der Wert "Value" für den Benutzer "&#64;UserID" (bzw. für den Benutzer, der Prozedur aufruft) hinterlegt ist
        * </pre>
        *
-       * <code>optional .dstore.values.StringValue key_variable = 10003;</code>
+       * <code>.dstore.values.StringValue key_variable = 10003;</code>
        */
       io.dstore.values.StringValueOrBuilder getKeyVariableOrBuilder();
 
@@ -2472,7 +2472,7 @@ public final class MiGetAppPartsTreeSettingsAd {
        * ID eines Elementes im "Anwendungs-Baum", für das die Einstellung "Value" zum Schlüssel "KeyVariable" gilt
        * </pre>
        *
-       * <code>optional .dstore.values.IntegerValue application_part_tree_id = 10004;</code>
+       * <code>.dstore.values.IntegerValue application_part_tree_id = 10004;</code>
        */
       boolean hasApplicationPartTreeId();
       /**
@@ -2480,7 +2480,7 @@ public final class MiGetAppPartsTreeSettingsAd {
        * ID eines Elementes im "Anwendungs-Baum", für das die Einstellung "Value" zum Schlüssel "KeyVariable" gilt
        * </pre>
        *
-       * <code>optional .dstore.values.IntegerValue application_part_tree_id = 10004;</code>
+       * <code>.dstore.values.IntegerValue application_part_tree_id = 10004;</code>
        */
       io.dstore.values.IntegerValue getApplicationPartTreeId();
       /**
@@ -2488,7 +2488,7 @@ public final class MiGetAppPartsTreeSettingsAd {
        * ID eines Elementes im "Anwendungs-Baum", für das die Einstellung "Value" zum Schlüssel "KeyVariable" gilt
        * </pre>
        *
-       * <code>optional .dstore.values.IntegerValue application_part_tree_id = 10004;</code>
+       * <code>.dstore.values.IntegerValue application_part_tree_id = 10004;</code>
        */
       io.dstore.values.IntegerValueOrBuilder getApplicationPartTreeIdOrBuilder();
 
@@ -2497,7 +2497,7 @@ public final class MiGetAppPartsTreeSettingsAd {
        * "1", falls die Einstellung nicht direkt zur "&#64;UserID" (bzw. zum Benutzer, der die Prozedur aufruft) gespeichert ist, sondern zur "UserID = -1" (also "global" festgelegt ist). Immer "0", wenn "&#64;IncludeValuesForGlobalUser = 0" ist !
        * </pre>
        *
-       * <code>optional .dstore.values.BooleanValue value_derived_from_global_user = 10005;</code>
+       * <code>.dstore.values.BooleanValue value_derived_from_global_user = 10005;</code>
        */
       boolean hasValueDerivedFromGlobalUser();
       /**
@@ -2505,7 +2505,7 @@ public final class MiGetAppPartsTreeSettingsAd {
        * "1", falls die Einstellung nicht direkt zur "&#64;UserID" (bzw. zum Benutzer, der die Prozedur aufruft) gespeichert ist, sondern zur "UserID = -1" (also "global" festgelegt ist). Immer "0", wenn "&#64;IncludeValuesForGlobalUser = 0" ist !
        * </pre>
        *
-       * <code>optional .dstore.values.BooleanValue value_derived_from_global_user = 10005;</code>
+       * <code>.dstore.values.BooleanValue value_derived_from_global_user = 10005;</code>
        */
       io.dstore.values.BooleanValue getValueDerivedFromGlobalUser();
       /**
@@ -2513,7 +2513,7 @@ public final class MiGetAppPartsTreeSettingsAd {
        * "1", falls die Einstellung nicht direkt zur "&#64;UserID" (bzw. zum Benutzer, der die Prozedur aufruft) gespeichert ist, sondern zur "UserID = -1" (also "global" festgelegt ist). Immer "0", wenn "&#64;IncludeValuesForGlobalUser = 0" ist !
        * </pre>
        *
-       * <code>optional .dstore.values.BooleanValue value_derived_from_global_user = 10005;</code>
+       * <code>.dstore.values.BooleanValue value_derived_from_global_user = 10005;</code>
        */
       io.dstore.values.BooleanValueOrBuilder getValueDerivedFromGlobalUserOrBuilder();
     }
@@ -2653,7 +2653,7 @@ public final class MiGetAppPartsTreeSettingsAd {
       public static final int ROW_ID_FIELD_NUMBER = 10000;
       private int rowId_;
       /**
-       * <code>optional int32 row_id = 10000;</code>
+       * <code>int32 row_id = 10000;</code>
        */
       public int getRowId() {
         return rowId_;
@@ -2666,7 +2666,7 @@ public final class MiGetAppPartsTreeSettingsAd {
        * "1", falls die Einstellung nicht direkt zur "ApplicationPartTreeID" hinterlegt ist, sonder zum zugehörigen Anwendungs-Teil. Immer "0", wenn "&#64;GetValuesForCorrespondingPart = 0" und "&#64;IDsInTwoIDs = 0" ist !
        * </pre>
        *
-       * <code>optional .dstore.values.BooleanValue value_derived_from_app_part_id = 10001;</code>
+       * <code>.dstore.values.BooleanValue value_derived_from_app_part_id = 10001;</code>
        */
       public boolean hasValueDerivedFromAppPartId() {
         return valueDerivedFromAppPartId_ != null;
@@ -2676,7 +2676,7 @@ public final class MiGetAppPartsTreeSettingsAd {
        * "1", falls die Einstellung nicht direkt zur "ApplicationPartTreeID" hinterlegt ist, sonder zum zugehörigen Anwendungs-Teil. Immer "0", wenn "&#64;GetValuesForCorrespondingPart = 0" und "&#64;IDsInTwoIDs = 0" ist !
        * </pre>
        *
-       * <code>optional .dstore.values.BooleanValue value_derived_from_app_part_id = 10001;</code>
+       * <code>.dstore.values.BooleanValue value_derived_from_app_part_id = 10001;</code>
        */
       public io.dstore.values.BooleanValue getValueDerivedFromAppPartId() {
         return valueDerivedFromAppPartId_ == null ? io.dstore.values.BooleanValue.getDefaultInstance() : valueDerivedFromAppPartId_;
@@ -2686,7 +2686,7 @@ public final class MiGetAppPartsTreeSettingsAd {
        * "1", falls die Einstellung nicht direkt zur "ApplicationPartTreeID" hinterlegt ist, sonder zum zugehörigen Anwendungs-Teil. Immer "0", wenn "&#64;GetValuesForCorrespondingPart = 0" und "&#64;IDsInTwoIDs = 0" ist !
        * </pre>
        *
-       * <code>optional .dstore.values.BooleanValue value_derived_from_app_part_id = 10001;</code>
+       * <code>.dstore.values.BooleanValue value_derived_from_app_part_id = 10001;</code>
        */
       public io.dstore.values.BooleanValueOrBuilder getValueDerivedFromAppPartIdOrBuilder() {
         return getValueDerivedFromAppPartId();
@@ -2699,7 +2699,7 @@ public final class MiGetAppPartsTreeSettingsAd {
        * Der Wert, der für "ApplicationPartTreeID" zum Schlüssel "KeyVariable" für den Benutzer "&#64;UserID" (bzw. für den Benutzer, der die Prozedur aufruft) hinterlegt ist
        * </pre>
        *
-       * <code>optional .dstore.values.StringValue value = 10002;</code>
+       * <code>.dstore.values.StringValue value = 10002;</code>
        */
       public boolean hasValue() {
         return value_ != null;
@@ -2709,7 +2709,7 @@ public final class MiGetAppPartsTreeSettingsAd {
        * Der Wert, der für "ApplicationPartTreeID" zum Schlüssel "KeyVariable" für den Benutzer "&#64;UserID" (bzw. für den Benutzer, der die Prozedur aufruft) hinterlegt ist
        * </pre>
        *
-       * <code>optional .dstore.values.StringValue value = 10002;</code>
+       * <code>.dstore.values.StringValue value = 10002;</code>
        */
       public io.dstore.values.StringValue getValue() {
         return value_ == null ? io.dstore.values.StringValue.getDefaultInstance() : value_;
@@ -2719,7 +2719,7 @@ public final class MiGetAppPartsTreeSettingsAd {
        * Der Wert, der für "ApplicationPartTreeID" zum Schlüssel "KeyVariable" für den Benutzer "&#64;UserID" (bzw. für den Benutzer, der die Prozedur aufruft) hinterlegt ist
        * </pre>
        *
-       * <code>optional .dstore.values.StringValue value = 10002;</code>
+       * <code>.dstore.values.StringValue value = 10002;</code>
        */
       public io.dstore.values.StringValueOrBuilder getValueOrBuilder() {
         return getValue();
@@ -2732,7 +2732,7 @@ public final class MiGetAppPartsTreeSettingsAd {
        * Ein Schlüssel, zu dem der Wert "Value" für den Benutzer "&#64;UserID" (bzw. für den Benutzer, der Prozedur aufruft) hinterlegt ist
        * </pre>
        *
-       * <code>optional .dstore.values.StringValue key_variable = 10003;</code>
+       * <code>.dstore.values.StringValue key_variable = 10003;</code>
        */
       public boolean hasKeyVariable() {
         return keyVariable_ != null;
@@ -2742,7 +2742,7 @@ public final class MiGetAppPartsTreeSettingsAd {
        * Ein Schlüssel, zu dem der Wert "Value" für den Benutzer "&#64;UserID" (bzw. für den Benutzer, der Prozedur aufruft) hinterlegt ist
        * </pre>
        *
-       * <code>optional .dstore.values.StringValue key_variable = 10003;</code>
+       * <code>.dstore.values.StringValue key_variable = 10003;</code>
        */
       public io.dstore.values.StringValue getKeyVariable() {
         return keyVariable_ == null ? io.dstore.values.StringValue.getDefaultInstance() : keyVariable_;
@@ -2752,7 +2752,7 @@ public final class MiGetAppPartsTreeSettingsAd {
        * Ein Schlüssel, zu dem der Wert "Value" für den Benutzer "&#64;UserID" (bzw. für den Benutzer, der Prozedur aufruft) hinterlegt ist
        * </pre>
        *
-       * <code>optional .dstore.values.StringValue key_variable = 10003;</code>
+       * <code>.dstore.values.StringValue key_variable = 10003;</code>
        */
       public io.dstore.values.StringValueOrBuilder getKeyVariableOrBuilder() {
         return getKeyVariable();
@@ -2765,7 +2765,7 @@ public final class MiGetAppPartsTreeSettingsAd {
        * ID eines Elementes im "Anwendungs-Baum", für das die Einstellung "Value" zum Schlüssel "KeyVariable" gilt
        * </pre>
        *
-       * <code>optional .dstore.values.IntegerValue application_part_tree_id = 10004;</code>
+       * <code>.dstore.values.IntegerValue application_part_tree_id = 10004;</code>
        */
       public boolean hasApplicationPartTreeId() {
         return applicationPartTreeId_ != null;
@@ -2775,7 +2775,7 @@ public final class MiGetAppPartsTreeSettingsAd {
        * ID eines Elementes im "Anwendungs-Baum", für das die Einstellung "Value" zum Schlüssel "KeyVariable" gilt
        * </pre>
        *
-       * <code>optional .dstore.values.IntegerValue application_part_tree_id = 10004;</code>
+       * <code>.dstore.values.IntegerValue application_part_tree_id = 10004;</code>
        */
       public io.dstore.values.IntegerValue getApplicationPartTreeId() {
         return applicationPartTreeId_ == null ? io.dstore.values.IntegerValue.getDefaultInstance() : applicationPartTreeId_;
@@ -2785,7 +2785,7 @@ public final class MiGetAppPartsTreeSettingsAd {
        * ID eines Elementes im "Anwendungs-Baum", für das die Einstellung "Value" zum Schlüssel "KeyVariable" gilt
        * </pre>
        *
-       * <code>optional .dstore.values.IntegerValue application_part_tree_id = 10004;</code>
+       * <code>.dstore.values.IntegerValue application_part_tree_id = 10004;</code>
        */
       public io.dstore.values.IntegerValueOrBuilder getApplicationPartTreeIdOrBuilder() {
         return getApplicationPartTreeId();
@@ -2798,7 +2798,7 @@ public final class MiGetAppPartsTreeSettingsAd {
        * "1", falls die Einstellung nicht direkt zur "&#64;UserID" (bzw. zum Benutzer, der die Prozedur aufruft) gespeichert ist, sondern zur "UserID = -1" (also "global" festgelegt ist). Immer "0", wenn "&#64;IncludeValuesForGlobalUser = 0" ist !
        * </pre>
        *
-       * <code>optional .dstore.values.BooleanValue value_derived_from_global_user = 10005;</code>
+       * <code>.dstore.values.BooleanValue value_derived_from_global_user = 10005;</code>
        */
       public boolean hasValueDerivedFromGlobalUser() {
         return valueDerivedFromGlobalUser_ != null;
@@ -2808,7 +2808,7 @@ public final class MiGetAppPartsTreeSettingsAd {
        * "1", falls die Einstellung nicht direkt zur "&#64;UserID" (bzw. zum Benutzer, der die Prozedur aufruft) gespeichert ist, sondern zur "UserID = -1" (also "global" festgelegt ist). Immer "0", wenn "&#64;IncludeValuesForGlobalUser = 0" ist !
        * </pre>
        *
-       * <code>optional .dstore.values.BooleanValue value_derived_from_global_user = 10005;</code>
+       * <code>.dstore.values.BooleanValue value_derived_from_global_user = 10005;</code>
        */
       public io.dstore.values.BooleanValue getValueDerivedFromGlobalUser() {
         return valueDerivedFromGlobalUser_ == null ? io.dstore.values.BooleanValue.getDefaultInstance() : valueDerivedFromGlobalUser_;
@@ -2818,7 +2818,7 @@ public final class MiGetAppPartsTreeSettingsAd {
        * "1", falls die Einstellung nicht direkt zur "&#64;UserID" (bzw. zum Benutzer, der die Prozedur aufruft) gespeichert ist, sondern zur "UserID = -1" (also "global" festgelegt ist). Immer "0", wenn "&#64;IncludeValuesForGlobalUser = 0" ist !
        * </pre>
        *
-       * <code>optional .dstore.values.BooleanValue value_derived_from_global_user = 10005;</code>
+       * <code>.dstore.values.BooleanValue value_derived_from_global_user = 10005;</code>
        */
       public io.dstore.values.BooleanValueOrBuilder getValueDerivedFromGlobalUserOrBuilder() {
         return getValueDerivedFromGlobalUser();
@@ -2937,7 +2937,7 @@ public final class MiGetAppPartsTreeSettingsAd {
           return memoizedHashCode;
         }
         int hash = 41;
-        hash = (19 * hash) + getDescriptorForType().hashCode();
+        hash = (19 * hash) + getDescriptor().hashCode();
         hash = (37 * hash) + ROW_ID_FIELD_NUMBER;
         hash = (53 * hash) + getRowId();
         if (hasValueDerivedFromAppPartId()) {
@@ -3245,13 +3245,13 @@ public final class MiGetAppPartsTreeSettingsAd {
 
         private int rowId_ ;
         /**
-         * <code>optional int32 row_id = 10000;</code>
+         * <code>int32 row_id = 10000;</code>
          */
         public int getRowId() {
           return rowId_;
         }
         /**
-         * <code>optional int32 row_id = 10000;</code>
+         * <code>int32 row_id = 10000;</code>
          */
         public Builder setRowId(int value) {
           
@@ -3260,7 +3260,7 @@ public final class MiGetAppPartsTreeSettingsAd {
           return this;
         }
         /**
-         * <code>optional int32 row_id = 10000;</code>
+         * <code>int32 row_id = 10000;</code>
          */
         public Builder clearRowId() {
           
@@ -3277,7 +3277,7 @@ public final class MiGetAppPartsTreeSettingsAd {
          * "1", falls die Einstellung nicht direkt zur "ApplicationPartTreeID" hinterlegt ist, sonder zum zugehörigen Anwendungs-Teil. Immer "0", wenn "&#64;GetValuesForCorrespondingPart = 0" und "&#64;IDsInTwoIDs = 0" ist !
          * </pre>
          *
-         * <code>optional .dstore.values.BooleanValue value_derived_from_app_part_id = 10001;</code>
+         * <code>.dstore.values.BooleanValue value_derived_from_app_part_id = 10001;</code>
          */
         public boolean hasValueDerivedFromAppPartId() {
           return valueDerivedFromAppPartIdBuilder_ != null || valueDerivedFromAppPartId_ != null;
@@ -3287,7 +3287,7 @@ public final class MiGetAppPartsTreeSettingsAd {
          * "1", falls die Einstellung nicht direkt zur "ApplicationPartTreeID" hinterlegt ist, sonder zum zugehörigen Anwendungs-Teil. Immer "0", wenn "&#64;GetValuesForCorrespondingPart = 0" und "&#64;IDsInTwoIDs = 0" ist !
          * </pre>
          *
-         * <code>optional .dstore.values.BooleanValue value_derived_from_app_part_id = 10001;</code>
+         * <code>.dstore.values.BooleanValue value_derived_from_app_part_id = 10001;</code>
          */
         public io.dstore.values.BooleanValue getValueDerivedFromAppPartId() {
           if (valueDerivedFromAppPartIdBuilder_ == null) {
@@ -3301,7 +3301,7 @@ public final class MiGetAppPartsTreeSettingsAd {
          * "1", falls die Einstellung nicht direkt zur "ApplicationPartTreeID" hinterlegt ist, sonder zum zugehörigen Anwendungs-Teil. Immer "0", wenn "&#64;GetValuesForCorrespondingPart = 0" und "&#64;IDsInTwoIDs = 0" ist !
          * </pre>
          *
-         * <code>optional .dstore.values.BooleanValue value_derived_from_app_part_id = 10001;</code>
+         * <code>.dstore.values.BooleanValue value_derived_from_app_part_id = 10001;</code>
          */
         public Builder setValueDerivedFromAppPartId(io.dstore.values.BooleanValue value) {
           if (valueDerivedFromAppPartIdBuilder_ == null) {
@@ -3321,7 +3321,7 @@ public final class MiGetAppPartsTreeSettingsAd {
          * "1", falls die Einstellung nicht direkt zur "ApplicationPartTreeID" hinterlegt ist, sonder zum zugehörigen Anwendungs-Teil. Immer "0", wenn "&#64;GetValuesForCorrespondingPart = 0" und "&#64;IDsInTwoIDs = 0" ist !
          * </pre>
          *
-         * <code>optional .dstore.values.BooleanValue value_derived_from_app_part_id = 10001;</code>
+         * <code>.dstore.values.BooleanValue value_derived_from_app_part_id = 10001;</code>
          */
         public Builder setValueDerivedFromAppPartId(
             io.dstore.values.BooleanValue.Builder builderForValue) {
@@ -3339,7 +3339,7 @@ public final class MiGetAppPartsTreeSettingsAd {
          * "1", falls die Einstellung nicht direkt zur "ApplicationPartTreeID" hinterlegt ist, sonder zum zugehörigen Anwendungs-Teil. Immer "0", wenn "&#64;GetValuesForCorrespondingPart = 0" und "&#64;IDsInTwoIDs = 0" ist !
          * </pre>
          *
-         * <code>optional .dstore.values.BooleanValue value_derived_from_app_part_id = 10001;</code>
+         * <code>.dstore.values.BooleanValue value_derived_from_app_part_id = 10001;</code>
          */
         public Builder mergeValueDerivedFromAppPartId(io.dstore.values.BooleanValue value) {
           if (valueDerivedFromAppPartIdBuilder_ == null) {
@@ -3361,7 +3361,7 @@ public final class MiGetAppPartsTreeSettingsAd {
          * "1", falls die Einstellung nicht direkt zur "ApplicationPartTreeID" hinterlegt ist, sonder zum zugehörigen Anwendungs-Teil. Immer "0", wenn "&#64;GetValuesForCorrespondingPart = 0" und "&#64;IDsInTwoIDs = 0" ist !
          * </pre>
          *
-         * <code>optional .dstore.values.BooleanValue value_derived_from_app_part_id = 10001;</code>
+         * <code>.dstore.values.BooleanValue value_derived_from_app_part_id = 10001;</code>
          */
         public Builder clearValueDerivedFromAppPartId() {
           if (valueDerivedFromAppPartIdBuilder_ == null) {
@@ -3379,7 +3379,7 @@ public final class MiGetAppPartsTreeSettingsAd {
          * "1", falls die Einstellung nicht direkt zur "ApplicationPartTreeID" hinterlegt ist, sonder zum zugehörigen Anwendungs-Teil. Immer "0", wenn "&#64;GetValuesForCorrespondingPart = 0" und "&#64;IDsInTwoIDs = 0" ist !
          * </pre>
          *
-         * <code>optional .dstore.values.BooleanValue value_derived_from_app_part_id = 10001;</code>
+         * <code>.dstore.values.BooleanValue value_derived_from_app_part_id = 10001;</code>
          */
         public io.dstore.values.BooleanValue.Builder getValueDerivedFromAppPartIdBuilder() {
           
@@ -3391,7 +3391,7 @@ public final class MiGetAppPartsTreeSettingsAd {
          * "1", falls die Einstellung nicht direkt zur "ApplicationPartTreeID" hinterlegt ist, sonder zum zugehörigen Anwendungs-Teil. Immer "0", wenn "&#64;GetValuesForCorrespondingPart = 0" und "&#64;IDsInTwoIDs = 0" ist !
          * </pre>
          *
-         * <code>optional .dstore.values.BooleanValue value_derived_from_app_part_id = 10001;</code>
+         * <code>.dstore.values.BooleanValue value_derived_from_app_part_id = 10001;</code>
          */
         public io.dstore.values.BooleanValueOrBuilder getValueDerivedFromAppPartIdOrBuilder() {
           if (valueDerivedFromAppPartIdBuilder_ != null) {
@@ -3406,7 +3406,7 @@ public final class MiGetAppPartsTreeSettingsAd {
          * "1", falls die Einstellung nicht direkt zur "ApplicationPartTreeID" hinterlegt ist, sonder zum zugehörigen Anwendungs-Teil. Immer "0", wenn "&#64;GetValuesForCorrespondingPart = 0" und "&#64;IDsInTwoIDs = 0" ist !
          * </pre>
          *
-         * <code>optional .dstore.values.BooleanValue value_derived_from_app_part_id = 10001;</code>
+         * <code>.dstore.values.BooleanValue value_derived_from_app_part_id = 10001;</code>
          */
         private com.google.protobuf.SingleFieldBuilderV3<
             io.dstore.values.BooleanValue, io.dstore.values.BooleanValue.Builder, io.dstore.values.BooleanValueOrBuilder> 
@@ -3430,7 +3430,7 @@ public final class MiGetAppPartsTreeSettingsAd {
          * Der Wert, der für "ApplicationPartTreeID" zum Schlüssel "KeyVariable" für den Benutzer "&#64;UserID" (bzw. für den Benutzer, der die Prozedur aufruft) hinterlegt ist
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue value = 10002;</code>
+         * <code>.dstore.values.StringValue value = 10002;</code>
          */
         public boolean hasValue() {
           return valueBuilder_ != null || value_ != null;
@@ -3440,7 +3440,7 @@ public final class MiGetAppPartsTreeSettingsAd {
          * Der Wert, der für "ApplicationPartTreeID" zum Schlüssel "KeyVariable" für den Benutzer "&#64;UserID" (bzw. für den Benutzer, der die Prozedur aufruft) hinterlegt ist
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue value = 10002;</code>
+         * <code>.dstore.values.StringValue value = 10002;</code>
          */
         public io.dstore.values.StringValue getValue() {
           if (valueBuilder_ == null) {
@@ -3454,7 +3454,7 @@ public final class MiGetAppPartsTreeSettingsAd {
          * Der Wert, der für "ApplicationPartTreeID" zum Schlüssel "KeyVariable" für den Benutzer "&#64;UserID" (bzw. für den Benutzer, der die Prozedur aufruft) hinterlegt ist
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue value = 10002;</code>
+         * <code>.dstore.values.StringValue value = 10002;</code>
          */
         public Builder setValue(io.dstore.values.StringValue value) {
           if (valueBuilder_ == null) {
@@ -3474,7 +3474,7 @@ public final class MiGetAppPartsTreeSettingsAd {
          * Der Wert, der für "ApplicationPartTreeID" zum Schlüssel "KeyVariable" für den Benutzer "&#64;UserID" (bzw. für den Benutzer, der die Prozedur aufruft) hinterlegt ist
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue value = 10002;</code>
+         * <code>.dstore.values.StringValue value = 10002;</code>
          */
         public Builder setValue(
             io.dstore.values.StringValue.Builder builderForValue) {
@@ -3492,7 +3492,7 @@ public final class MiGetAppPartsTreeSettingsAd {
          * Der Wert, der für "ApplicationPartTreeID" zum Schlüssel "KeyVariable" für den Benutzer "&#64;UserID" (bzw. für den Benutzer, der die Prozedur aufruft) hinterlegt ist
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue value = 10002;</code>
+         * <code>.dstore.values.StringValue value = 10002;</code>
          */
         public Builder mergeValue(io.dstore.values.StringValue value) {
           if (valueBuilder_ == null) {
@@ -3514,7 +3514,7 @@ public final class MiGetAppPartsTreeSettingsAd {
          * Der Wert, der für "ApplicationPartTreeID" zum Schlüssel "KeyVariable" für den Benutzer "&#64;UserID" (bzw. für den Benutzer, der die Prozedur aufruft) hinterlegt ist
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue value = 10002;</code>
+         * <code>.dstore.values.StringValue value = 10002;</code>
          */
         public Builder clearValue() {
           if (valueBuilder_ == null) {
@@ -3532,7 +3532,7 @@ public final class MiGetAppPartsTreeSettingsAd {
          * Der Wert, der für "ApplicationPartTreeID" zum Schlüssel "KeyVariable" für den Benutzer "&#64;UserID" (bzw. für den Benutzer, der die Prozedur aufruft) hinterlegt ist
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue value = 10002;</code>
+         * <code>.dstore.values.StringValue value = 10002;</code>
          */
         public io.dstore.values.StringValue.Builder getValueBuilder() {
           
@@ -3544,7 +3544,7 @@ public final class MiGetAppPartsTreeSettingsAd {
          * Der Wert, der für "ApplicationPartTreeID" zum Schlüssel "KeyVariable" für den Benutzer "&#64;UserID" (bzw. für den Benutzer, der die Prozedur aufruft) hinterlegt ist
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue value = 10002;</code>
+         * <code>.dstore.values.StringValue value = 10002;</code>
          */
         public io.dstore.values.StringValueOrBuilder getValueOrBuilder() {
           if (valueBuilder_ != null) {
@@ -3559,7 +3559,7 @@ public final class MiGetAppPartsTreeSettingsAd {
          * Der Wert, der für "ApplicationPartTreeID" zum Schlüssel "KeyVariable" für den Benutzer "&#64;UserID" (bzw. für den Benutzer, der die Prozedur aufruft) hinterlegt ist
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue value = 10002;</code>
+         * <code>.dstore.values.StringValue value = 10002;</code>
          */
         private com.google.protobuf.SingleFieldBuilderV3<
             io.dstore.values.StringValue, io.dstore.values.StringValue.Builder, io.dstore.values.StringValueOrBuilder> 
@@ -3583,7 +3583,7 @@ public final class MiGetAppPartsTreeSettingsAd {
          * Ein Schlüssel, zu dem der Wert "Value" für den Benutzer "&#64;UserID" (bzw. für den Benutzer, der Prozedur aufruft) hinterlegt ist
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue key_variable = 10003;</code>
+         * <code>.dstore.values.StringValue key_variable = 10003;</code>
          */
         public boolean hasKeyVariable() {
           return keyVariableBuilder_ != null || keyVariable_ != null;
@@ -3593,7 +3593,7 @@ public final class MiGetAppPartsTreeSettingsAd {
          * Ein Schlüssel, zu dem der Wert "Value" für den Benutzer "&#64;UserID" (bzw. für den Benutzer, der Prozedur aufruft) hinterlegt ist
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue key_variable = 10003;</code>
+         * <code>.dstore.values.StringValue key_variable = 10003;</code>
          */
         public io.dstore.values.StringValue getKeyVariable() {
           if (keyVariableBuilder_ == null) {
@@ -3607,7 +3607,7 @@ public final class MiGetAppPartsTreeSettingsAd {
          * Ein Schlüssel, zu dem der Wert "Value" für den Benutzer "&#64;UserID" (bzw. für den Benutzer, der Prozedur aufruft) hinterlegt ist
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue key_variable = 10003;</code>
+         * <code>.dstore.values.StringValue key_variable = 10003;</code>
          */
         public Builder setKeyVariable(io.dstore.values.StringValue value) {
           if (keyVariableBuilder_ == null) {
@@ -3627,7 +3627,7 @@ public final class MiGetAppPartsTreeSettingsAd {
          * Ein Schlüssel, zu dem der Wert "Value" für den Benutzer "&#64;UserID" (bzw. für den Benutzer, der Prozedur aufruft) hinterlegt ist
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue key_variable = 10003;</code>
+         * <code>.dstore.values.StringValue key_variable = 10003;</code>
          */
         public Builder setKeyVariable(
             io.dstore.values.StringValue.Builder builderForValue) {
@@ -3645,7 +3645,7 @@ public final class MiGetAppPartsTreeSettingsAd {
          * Ein Schlüssel, zu dem der Wert "Value" für den Benutzer "&#64;UserID" (bzw. für den Benutzer, der Prozedur aufruft) hinterlegt ist
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue key_variable = 10003;</code>
+         * <code>.dstore.values.StringValue key_variable = 10003;</code>
          */
         public Builder mergeKeyVariable(io.dstore.values.StringValue value) {
           if (keyVariableBuilder_ == null) {
@@ -3667,7 +3667,7 @@ public final class MiGetAppPartsTreeSettingsAd {
          * Ein Schlüssel, zu dem der Wert "Value" für den Benutzer "&#64;UserID" (bzw. für den Benutzer, der Prozedur aufruft) hinterlegt ist
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue key_variable = 10003;</code>
+         * <code>.dstore.values.StringValue key_variable = 10003;</code>
          */
         public Builder clearKeyVariable() {
           if (keyVariableBuilder_ == null) {
@@ -3685,7 +3685,7 @@ public final class MiGetAppPartsTreeSettingsAd {
          * Ein Schlüssel, zu dem der Wert "Value" für den Benutzer "&#64;UserID" (bzw. für den Benutzer, der Prozedur aufruft) hinterlegt ist
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue key_variable = 10003;</code>
+         * <code>.dstore.values.StringValue key_variable = 10003;</code>
          */
         public io.dstore.values.StringValue.Builder getKeyVariableBuilder() {
           
@@ -3697,7 +3697,7 @@ public final class MiGetAppPartsTreeSettingsAd {
          * Ein Schlüssel, zu dem der Wert "Value" für den Benutzer "&#64;UserID" (bzw. für den Benutzer, der Prozedur aufruft) hinterlegt ist
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue key_variable = 10003;</code>
+         * <code>.dstore.values.StringValue key_variable = 10003;</code>
          */
         public io.dstore.values.StringValueOrBuilder getKeyVariableOrBuilder() {
           if (keyVariableBuilder_ != null) {
@@ -3712,7 +3712,7 @@ public final class MiGetAppPartsTreeSettingsAd {
          * Ein Schlüssel, zu dem der Wert "Value" für den Benutzer "&#64;UserID" (bzw. für den Benutzer, der Prozedur aufruft) hinterlegt ist
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue key_variable = 10003;</code>
+         * <code>.dstore.values.StringValue key_variable = 10003;</code>
          */
         private com.google.protobuf.SingleFieldBuilderV3<
             io.dstore.values.StringValue, io.dstore.values.StringValue.Builder, io.dstore.values.StringValueOrBuilder> 
@@ -3736,7 +3736,7 @@ public final class MiGetAppPartsTreeSettingsAd {
          * ID eines Elementes im "Anwendungs-Baum", für das die Einstellung "Value" zum Schlüssel "KeyVariable" gilt
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue application_part_tree_id = 10004;</code>
+         * <code>.dstore.values.IntegerValue application_part_tree_id = 10004;</code>
          */
         public boolean hasApplicationPartTreeId() {
           return applicationPartTreeIdBuilder_ != null || applicationPartTreeId_ != null;
@@ -3746,7 +3746,7 @@ public final class MiGetAppPartsTreeSettingsAd {
          * ID eines Elementes im "Anwendungs-Baum", für das die Einstellung "Value" zum Schlüssel "KeyVariable" gilt
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue application_part_tree_id = 10004;</code>
+         * <code>.dstore.values.IntegerValue application_part_tree_id = 10004;</code>
          */
         public io.dstore.values.IntegerValue getApplicationPartTreeId() {
           if (applicationPartTreeIdBuilder_ == null) {
@@ -3760,7 +3760,7 @@ public final class MiGetAppPartsTreeSettingsAd {
          * ID eines Elementes im "Anwendungs-Baum", für das die Einstellung "Value" zum Schlüssel "KeyVariable" gilt
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue application_part_tree_id = 10004;</code>
+         * <code>.dstore.values.IntegerValue application_part_tree_id = 10004;</code>
          */
         public Builder setApplicationPartTreeId(io.dstore.values.IntegerValue value) {
           if (applicationPartTreeIdBuilder_ == null) {
@@ -3780,7 +3780,7 @@ public final class MiGetAppPartsTreeSettingsAd {
          * ID eines Elementes im "Anwendungs-Baum", für das die Einstellung "Value" zum Schlüssel "KeyVariable" gilt
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue application_part_tree_id = 10004;</code>
+         * <code>.dstore.values.IntegerValue application_part_tree_id = 10004;</code>
          */
         public Builder setApplicationPartTreeId(
             io.dstore.values.IntegerValue.Builder builderForValue) {
@@ -3798,7 +3798,7 @@ public final class MiGetAppPartsTreeSettingsAd {
          * ID eines Elementes im "Anwendungs-Baum", für das die Einstellung "Value" zum Schlüssel "KeyVariable" gilt
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue application_part_tree_id = 10004;</code>
+         * <code>.dstore.values.IntegerValue application_part_tree_id = 10004;</code>
          */
         public Builder mergeApplicationPartTreeId(io.dstore.values.IntegerValue value) {
           if (applicationPartTreeIdBuilder_ == null) {
@@ -3820,7 +3820,7 @@ public final class MiGetAppPartsTreeSettingsAd {
          * ID eines Elementes im "Anwendungs-Baum", für das die Einstellung "Value" zum Schlüssel "KeyVariable" gilt
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue application_part_tree_id = 10004;</code>
+         * <code>.dstore.values.IntegerValue application_part_tree_id = 10004;</code>
          */
         public Builder clearApplicationPartTreeId() {
           if (applicationPartTreeIdBuilder_ == null) {
@@ -3838,7 +3838,7 @@ public final class MiGetAppPartsTreeSettingsAd {
          * ID eines Elementes im "Anwendungs-Baum", für das die Einstellung "Value" zum Schlüssel "KeyVariable" gilt
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue application_part_tree_id = 10004;</code>
+         * <code>.dstore.values.IntegerValue application_part_tree_id = 10004;</code>
          */
         public io.dstore.values.IntegerValue.Builder getApplicationPartTreeIdBuilder() {
           
@@ -3850,7 +3850,7 @@ public final class MiGetAppPartsTreeSettingsAd {
          * ID eines Elementes im "Anwendungs-Baum", für das die Einstellung "Value" zum Schlüssel "KeyVariable" gilt
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue application_part_tree_id = 10004;</code>
+         * <code>.dstore.values.IntegerValue application_part_tree_id = 10004;</code>
          */
         public io.dstore.values.IntegerValueOrBuilder getApplicationPartTreeIdOrBuilder() {
           if (applicationPartTreeIdBuilder_ != null) {
@@ -3865,7 +3865,7 @@ public final class MiGetAppPartsTreeSettingsAd {
          * ID eines Elementes im "Anwendungs-Baum", für das die Einstellung "Value" zum Schlüssel "KeyVariable" gilt
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue application_part_tree_id = 10004;</code>
+         * <code>.dstore.values.IntegerValue application_part_tree_id = 10004;</code>
          */
         private com.google.protobuf.SingleFieldBuilderV3<
             io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> 
@@ -3889,7 +3889,7 @@ public final class MiGetAppPartsTreeSettingsAd {
          * "1", falls die Einstellung nicht direkt zur "&#64;UserID" (bzw. zum Benutzer, der die Prozedur aufruft) gespeichert ist, sondern zur "UserID = -1" (also "global" festgelegt ist). Immer "0", wenn "&#64;IncludeValuesForGlobalUser = 0" ist !
          * </pre>
          *
-         * <code>optional .dstore.values.BooleanValue value_derived_from_global_user = 10005;</code>
+         * <code>.dstore.values.BooleanValue value_derived_from_global_user = 10005;</code>
          */
         public boolean hasValueDerivedFromGlobalUser() {
           return valueDerivedFromGlobalUserBuilder_ != null || valueDerivedFromGlobalUser_ != null;
@@ -3899,7 +3899,7 @@ public final class MiGetAppPartsTreeSettingsAd {
          * "1", falls die Einstellung nicht direkt zur "&#64;UserID" (bzw. zum Benutzer, der die Prozedur aufruft) gespeichert ist, sondern zur "UserID = -1" (also "global" festgelegt ist). Immer "0", wenn "&#64;IncludeValuesForGlobalUser = 0" ist !
          * </pre>
          *
-         * <code>optional .dstore.values.BooleanValue value_derived_from_global_user = 10005;</code>
+         * <code>.dstore.values.BooleanValue value_derived_from_global_user = 10005;</code>
          */
         public io.dstore.values.BooleanValue getValueDerivedFromGlobalUser() {
           if (valueDerivedFromGlobalUserBuilder_ == null) {
@@ -3913,7 +3913,7 @@ public final class MiGetAppPartsTreeSettingsAd {
          * "1", falls die Einstellung nicht direkt zur "&#64;UserID" (bzw. zum Benutzer, der die Prozedur aufruft) gespeichert ist, sondern zur "UserID = -1" (also "global" festgelegt ist). Immer "0", wenn "&#64;IncludeValuesForGlobalUser = 0" ist !
          * </pre>
          *
-         * <code>optional .dstore.values.BooleanValue value_derived_from_global_user = 10005;</code>
+         * <code>.dstore.values.BooleanValue value_derived_from_global_user = 10005;</code>
          */
         public Builder setValueDerivedFromGlobalUser(io.dstore.values.BooleanValue value) {
           if (valueDerivedFromGlobalUserBuilder_ == null) {
@@ -3933,7 +3933,7 @@ public final class MiGetAppPartsTreeSettingsAd {
          * "1", falls die Einstellung nicht direkt zur "&#64;UserID" (bzw. zum Benutzer, der die Prozedur aufruft) gespeichert ist, sondern zur "UserID = -1" (also "global" festgelegt ist). Immer "0", wenn "&#64;IncludeValuesForGlobalUser = 0" ist !
          * </pre>
          *
-         * <code>optional .dstore.values.BooleanValue value_derived_from_global_user = 10005;</code>
+         * <code>.dstore.values.BooleanValue value_derived_from_global_user = 10005;</code>
          */
         public Builder setValueDerivedFromGlobalUser(
             io.dstore.values.BooleanValue.Builder builderForValue) {
@@ -3951,7 +3951,7 @@ public final class MiGetAppPartsTreeSettingsAd {
          * "1", falls die Einstellung nicht direkt zur "&#64;UserID" (bzw. zum Benutzer, der die Prozedur aufruft) gespeichert ist, sondern zur "UserID = -1" (also "global" festgelegt ist). Immer "0", wenn "&#64;IncludeValuesForGlobalUser = 0" ist !
          * </pre>
          *
-         * <code>optional .dstore.values.BooleanValue value_derived_from_global_user = 10005;</code>
+         * <code>.dstore.values.BooleanValue value_derived_from_global_user = 10005;</code>
          */
         public Builder mergeValueDerivedFromGlobalUser(io.dstore.values.BooleanValue value) {
           if (valueDerivedFromGlobalUserBuilder_ == null) {
@@ -3973,7 +3973,7 @@ public final class MiGetAppPartsTreeSettingsAd {
          * "1", falls die Einstellung nicht direkt zur "&#64;UserID" (bzw. zum Benutzer, der die Prozedur aufruft) gespeichert ist, sondern zur "UserID = -1" (also "global" festgelegt ist). Immer "0", wenn "&#64;IncludeValuesForGlobalUser = 0" ist !
          * </pre>
          *
-         * <code>optional .dstore.values.BooleanValue value_derived_from_global_user = 10005;</code>
+         * <code>.dstore.values.BooleanValue value_derived_from_global_user = 10005;</code>
          */
         public Builder clearValueDerivedFromGlobalUser() {
           if (valueDerivedFromGlobalUserBuilder_ == null) {
@@ -3991,7 +3991,7 @@ public final class MiGetAppPartsTreeSettingsAd {
          * "1", falls die Einstellung nicht direkt zur "&#64;UserID" (bzw. zum Benutzer, der die Prozedur aufruft) gespeichert ist, sondern zur "UserID = -1" (also "global" festgelegt ist). Immer "0", wenn "&#64;IncludeValuesForGlobalUser = 0" ist !
          * </pre>
          *
-         * <code>optional .dstore.values.BooleanValue value_derived_from_global_user = 10005;</code>
+         * <code>.dstore.values.BooleanValue value_derived_from_global_user = 10005;</code>
          */
         public io.dstore.values.BooleanValue.Builder getValueDerivedFromGlobalUserBuilder() {
           
@@ -4003,7 +4003,7 @@ public final class MiGetAppPartsTreeSettingsAd {
          * "1", falls die Einstellung nicht direkt zur "&#64;UserID" (bzw. zum Benutzer, der die Prozedur aufruft) gespeichert ist, sondern zur "UserID = -1" (also "global" festgelegt ist). Immer "0", wenn "&#64;IncludeValuesForGlobalUser = 0" ist !
          * </pre>
          *
-         * <code>optional .dstore.values.BooleanValue value_derived_from_global_user = 10005;</code>
+         * <code>.dstore.values.BooleanValue value_derived_from_global_user = 10005;</code>
          */
         public io.dstore.values.BooleanValueOrBuilder getValueDerivedFromGlobalUserOrBuilder() {
           if (valueDerivedFromGlobalUserBuilder_ != null) {
@@ -4018,7 +4018,7 @@ public final class MiGetAppPartsTreeSettingsAd {
          * "1", falls die Einstellung nicht direkt zur "&#64;UserID" (bzw. zum Benutzer, der die Prozedur aufruft) gespeichert ist, sondern zur "UserID = -1" (also "global" festgelegt ist). Immer "0", wenn "&#64;IncludeValuesForGlobalUser = 0" ist !
          * </pre>
          *
-         * <code>optional .dstore.values.BooleanValue value_derived_from_global_user = 10005;</code>
+         * <code>.dstore.values.BooleanValue value_derived_from_global_user = 10005;</code>
          */
         private com.google.protobuf.SingleFieldBuilderV3<
             io.dstore.values.BooleanValue, io.dstore.values.BooleanValue.Builder, io.dstore.values.BooleanValueOrBuilder> 
@@ -4278,7 +4278,7 @@ public final class MiGetAppPartsTreeSettingsAd {
         return memoizedHashCode;
       }
       int hash = 41;
-      hash = (19 * hash) + getDescriptorForType().hashCode();
+      hash = (19 * hash) + getDescriptor().hashCode();
       if (getMetaInformationCount() > 0) {
         hash = (37 * hash) + META_INFORMATION_FIELD_NUMBER;
         hash = (53 * hash) + getMetaInformationList().hashCode();

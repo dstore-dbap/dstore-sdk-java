@@ -19,146 +19,146 @@ public final class OmModifyCampaignSurchargesAd {
       com.google.protobuf.MessageOrBuilder {
 
     /**
-     * <code>optional .dstore.values.IntegerValue benefit_id = 1;</code>
+     * <code>.dstore.values.IntegerValue benefit_id = 1;</code>
      */
     boolean hasBenefitId();
     /**
-     * <code>optional .dstore.values.IntegerValue benefit_id = 1;</code>
+     * <code>.dstore.values.IntegerValue benefit_id = 1;</code>
      */
     io.dstore.values.IntegerValue getBenefitId();
     /**
-     * <code>optional .dstore.values.IntegerValue benefit_id = 1;</code>
+     * <code>.dstore.values.IntegerValue benefit_id = 1;</code>
      */
     io.dstore.values.IntegerValueOrBuilder getBenefitIdOrBuilder();
 
     /**
-     * <code>optional bool benefit_id_null = 1001;</code>
+     * <code>bool benefit_id_null = 1001;</code>
      */
     boolean getBenefitIdNull();
 
     /**
-     * <code>optional .dstore.values.IntegerValue surcharge_type_id = 2;</code>
+     * <code>.dstore.values.IntegerValue surcharge_type_id = 2;</code>
      */
     boolean hasSurchargeTypeId();
     /**
-     * <code>optional .dstore.values.IntegerValue surcharge_type_id = 2;</code>
+     * <code>.dstore.values.IntegerValue surcharge_type_id = 2;</code>
      */
     io.dstore.values.IntegerValue getSurchargeTypeId();
     /**
-     * <code>optional .dstore.values.IntegerValue surcharge_type_id = 2;</code>
+     * <code>.dstore.values.IntegerValue surcharge_type_id = 2;</code>
      */
     io.dstore.values.IntegerValueOrBuilder getSurchargeTypeIdOrBuilder();
 
     /**
-     * <code>optional bool surcharge_type_id_null = 1002;</code>
+     * <code>bool surcharge_type_id_null = 1002;</code>
      */
     boolean getSurchargeTypeIdNull();
 
     /**
-     * <code>optional .dstore.values.DecimalValue surcharge_value = 3;</code>
+     * <code>.dstore.values.DecimalValue surcharge_value = 3;</code>
      */
     boolean hasSurchargeValue();
     /**
-     * <code>optional .dstore.values.DecimalValue surcharge_value = 3;</code>
+     * <code>.dstore.values.DecimalValue surcharge_value = 3;</code>
      */
     io.dstore.values.DecimalValue getSurchargeValue();
     /**
-     * <code>optional .dstore.values.DecimalValue surcharge_value = 3;</code>
+     * <code>.dstore.values.DecimalValue surcharge_value = 3;</code>
      */
     io.dstore.values.DecimalValueOrBuilder getSurchargeValueOrBuilder();
 
     /**
-     * <code>optional bool surcharge_value_null = 1003;</code>
+     * <code>bool surcharge_value_null = 1003;</code>
      */
     boolean getSurchargeValueNull();
 
     /**
-     * <code>optional .dstore.values.IntegerValue item_condition_id = 4;</code>
+     * <code>.dstore.values.IntegerValue item_condition_id = 4;</code>
      */
     boolean hasItemConditionId();
     /**
-     * <code>optional .dstore.values.IntegerValue item_condition_id = 4;</code>
+     * <code>.dstore.values.IntegerValue item_condition_id = 4;</code>
      */
     io.dstore.values.IntegerValue getItemConditionId();
     /**
-     * <code>optional .dstore.values.IntegerValue item_condition_id = 4;</code>
+     * <code>.dstore.values.IntegerValue item_condition_id = 4;</code>
      */
     io.dstore.values.IntegerValueOrBuilder getItemConditionIdOrBuilder();
 
     /**
-     * <code>optional bool item_condition_id_null = 1004;</code>
+     * <code>bool item_condition_id_null = 1004;</code>
      */
     boolean getItemConditionIdNull();
 
     /**
-     * <code>optional .dstore.values.IntegerValue apply_to_option = 5;</code>
+     * <code>.dstore.values.IntegerValue apply_to_option = 5;</code>
      */
     boolean hasApplyToOption();
     /**
-     * <code>optional .dstore.values.IntegerValue apply_to_option = 5;</code>
+     * <code>.dstore.values.IntegerValue apply_to_option = 5;</code>
      */
     io.dstore.values.IntegerValue getApplyToOption();
     /**
-     * <code>optional .dstore.values.IntegerValue apply_to_option = 5;</code>
+     * <code>.dstore.values.IntegerValue apply_to_option = 5;</code>
      */
     io.dstore.values.IntegerValueOrBuilder getApplyToOptionOrBuilder();
 
     /**
-     * <code>optional bool apply_to_option_null = 1005;</code>
+     * <code>bool apply_to_option_null = 1005;</code>
      */
     boolean getApplyToOptionNull();
 
     /**
-     * <code>optional .dstore.values.IntegerValue delete_benefit = 6;</code>
+     * <code>.dstore.values.IntegerValue delete_benefit = 6;</code>
      */
     boolean hasDeleteBenefit();
     /**
-     * <code>optional .dstore.values.IntegerValue delete_benefit = 6;</code>
+     * <code>.dstore.values.IntegerValue delete_benefit = 6;</code>
      */
     io.dstore.values.IntegerValue getDeleteBenefit();
     /**
-     * <code>optional .dstore.values.IntegerValue delete_benefit = 6;</code>
+     * <code>.dstore.values.IntegerValue delete_benefit = 6;</code>
      */
     io.dstore.values.IntegerValueOrBuilder getDeleteBenefitOrBuilder();
 
     /**
-     * <code>optional bool delete_benefit_null = 1006;</code>
+     * <code>bool delete_benefit_null = 1006;</code>
      */
     boolean getDeleteBenefitNull();
 
     /**
-     * <code>optional .dstore.values.BooleanValue derived_from_person_charac_id = 7;</code>
+     * <code>.dstore.values.BooleanValue derived_from_person_charac_id = 7;</code>
      */
     boolean hasDerivedFromPersonCharacId();
     /**
-     * <code>optional .dstore.values.BooleanValue derived_from_person_charac_id = 7;</code>
+     * <code>.dstore.values.BooleanValue derived_from_person_charac_id = 7;</code>
      */
     io.dstore.values.BooleanValue getDerivedFromPersonCharacId();
     /**
-     * <code>optional .dstore.values.BooleanValue derived_from_person_charac_id = 7;</code>
+     * <code>.dstore.values.BooleanValue derived_from_person_charac_id = 7;</code>
      */
     io.dstore.values.BooleanValueOrBuilder getDerivedFromPersonCharacIdOrBuilder();
 
     /**
-     * <code>optional bool derived_from_person_charac_id_null = 1007;</code>
+     * <code>bool derived_from_person_charac_id_null = 1007;</code>
      */
     boolean getDerivedFromPersonCharacIdNull();
 
     /**
-     * <code>optional .dstore.values.BooleanValue derived_from_node_charac_id = 8;</code>
+     * <code>.dstore.values.BooleanValue derived_from_node_charac_id = 8;</code>
      */
     boolean hasDerivedFromNodeCharacId();
     /**
-     * <code>optional .dstore.values.BooleanValue derived_from_node_charac_id = 8;</code>
+     * <code>.dstore.values.BooleanValue derived_from_node_charac_id = 8;</code>
      */
     io.dstore.values.BooleanValue getDerivedFromNodeCharacId();
     /**
-     * <code>optional .dstore.values.BooleanValue derived_from_node_charac_id = 8;</code>
+     * <code>.dstore.values.BooleanValue derived_from_node_charac_id = 8;</code>
      */
     io.dstore.values.BooleanValueOrBuilder getDerivedFromNodeCharacIdOrBuilder();
 
     /**
-     * <code>optional bool derived_from_node_charac_id_null = 1008;</code>
+     * <code>bool derived_from_node_charac_id_null = 1008;</code>
      */
     boolean getDerivedFromNodeCharacIdNull();
   }
@@ -379,19 +379,19 @@ public final class OmModifyCampaignSurchargesAd {
     public static final int BENEFIT_ID_FIELD_NUMBER = 1;
     private io.dstore.values.IntegerValue benefitId_;
     /**
-     * <code>optional .dstore.values.IntegerValue benefit_id = 1;</code>
+     * <code>.dstore.values.IntegerValue benefit_id = 1;</code>
      */
     public boolean hasBenefitId() {
       return benefitId_ != null;
     }
     /**
-     * <code>optional .dstore.values.IntegerValue benefit_id = 1;</code>
+     * <code>.dstore.values.IntegerValue benefit_id = 1;</code>
      */
     public io.dstore.values.IntegerValue getBenefitId() {
       return benefitId_ == null ? io.dstore.values.IntegerValue.getDefaultInstance() : benefitId_;
     }
     /**
-     * <code>optional .dstore.values.IntegerValue benefit_id = 1;</code>
+     * <code>.dstore.values.IntegerValue benefit_id = 1;</code>
      */
     public io.dstore.values.IntegerValueOrBuilder getBenefitIdOrBuilder() {
       return getBenefitId();
@@ -400,7 +400,7 @@ public final class OmModifyCampaignSurchargesAd {
     public static final int BENEFIT_ID_NULL_FIELD_NUMBER = 1001;
     private boolean benefitIdNull_;
     /**
-     * <code>optional bool benefit_id_null = 1001;</code>
+     * <code>bool benefit_id_null = 1001;</code>
      */
     public boolean getBenefitIdNull() {
       return benefitIdNull_;
@@ -409,19 +409,19 @@ public final class OmModifyCampaignSurchargesAd {
     public static final int SURCHARGE_TYPE_ID_FIELD_NUMBER = 2;
     private io.dstore.values.IntegerValue surchargeTypeId_;
     /**
-     * <code>optional .dstore.values.IntegerValue surcharge_type_id = 2;</code>
+     * <code>.dstore.values.IntegerValue surcharge_type_id = 2;</code>
      */
     public boolean hasSurchargeTypeId() {
       return surchargeTypeId_ != null;
     }
     /**
-     * <code>optional .dstore.values.IntegerValue surcharge_type_id = 2;</code>
+     * <code>.dstore.values.IntegerValue surcharge_type_id = 2;</code>
      */
     public io.dstore.values.IntegerValue getSurchargeTypeId() {
       return surchargeTypeId_ == null ? io.dstore.values.IntegerValue.getDefaultInstance() : surchargeTypeId_;
     }
     /**
-     * <code>optional .dstore.values.IntegerValue surcharge_type_id = 2;</code>
+     * <code>.dstore.values.IntegerValue surcharge_type_id = 2;</code>
      */
     public io.dstore.values.IntegerValueOrBuilder getSurchargeTypeIdOrBuilder() {
       return getSurchargeTypeId();
@@ -430,7 +430,7 @@ public final class OmModifyCampaignSurchargesAd {
     public static final int SURCHARGE_TYPE_ID_NULL_FIELD_NUMBER = 1002;
     private boolean surchargeTypeIdNull_;
     /**
-     * <code>optional bool surcharge_type_id_null = 1002;</code>
+     * <code>bool surcharge_type_id_null = 1002;</code>
      */
     public boolean getSurchargeTypeIdNull() {
       return surchargeTypeIdNull_;
@@ -439,19 +439,19 @@ public final class OmModifyCampaignSurchargesAd {
     public static final int SURCHARGE_VALUE_FIELD_NUMBER = 3;
     private io.dstore.values.DecimalValue surchargeValue_;
     /**
-     * <code>optional .dstore.values.DecimalValue surcharge_value = 3;</code>
+     * <code>.dstore.values.DecimalValue surcharge_value = 3;</code>
      */
     public boolean hasSurchargeValue() {
       return surchargeValue_ != null;
     }
     /**
-     * <code>optional .dstore.values.DecimalValue surcharge_value = 3;</code>
+     * <code>.dstore.values.DecimalValue surcharge_value = 3;</code>
      */
     public io.dstore.values.DecimalValue getSurchargeValue() {
       return surchargeValue_ == null ? io.dstore.values.DecimalValue.getDefaultInstance() : surchargeValue_;
     }
     /**
-     * <code>optional .dstore.values.DecimalValue surcharge_value = 3;</code>
+     * <code>.dstore.values.DecimalValue surcharge_value = 3;</code>
      */
     public io.dstore.values.DecimalValueOrBuilder getSurchargeValueOrBuilder() {
       return getSurchargeValue();
@@ -460,7 +460,7 @@ public final class OmModifyCampaignSurchargesAd {
     public static final int SURCHARGE_VALUE_NULL_FIELD_NUMBER = 1003;
     private boolean surchargeValueNull_;
     /**
-     * <code>optional bool surcharge_value_null = 1003;</code>
+     * <code>bool surcharge_value_null = 1003;</code>
      */
     public boolean getSurchargeValueNull() {
       return surchargeValueNull_;
@@ -469,19 +469,19 @@ public final class OmModifyCampaignSurchargesAd {
     public static final int ITEM_CONDITION_ID_FIELD_NUMBER = 4;
     private io.dstore.values.IntegerValue itemConditionId_;
     /**
-     * <code>optional .dstore.values.IntegerValue item_condition_id = 4;</code>
+     * <code>.dstore.values.IntegerValue item_condition_id = 4;</code>
      */
     public boolean hasItemConditionId() {
       return itemConditionId_ != null;
     }
     /**
-     * <code>optional .dstore.values.IntegerValue item_condition_id = 4;</code>
+     * <code>.dstore.values.IntegerValue item_condition_id = 4;</code>
      */
     public io.dstore.values.IntegerValue getItemConditionId() {
       return itemConditionId_ == null ? io.dstore.values.IntegerValue.getDefaultInstance() : itemConditionId_;
     }
     /**
-     * <code>optional .dstore.values.IntegerValue item_condition_id = 4;</code>
+     * <code>.dstore.values.IntegerValue item_condition_id = 4;</code>
      */
     public io.dstore.values.IntegerValueOrBuilder getItemConditionIdOrBuilder() {
       return getItemConditionId();
@@ -490,7 +490,7 @@ public final class OmModifyCampaignSurchargesAd {
     public static final int ITEM_CONDITION_ID_NULL_FIELD_NUMBER = 1004;
     private boolean itemConditionIdNull_;
     /**
-     * <code>optional bool item_condition_id_null = 1004;</code>
+     * <code>bool item_condition_id_null = 1004;</code>
      */
     public boolean getItemConditionIdNull() {
       return itemConditionIdNull_;
@@ -499,19 +499,19 @@ public final class OmModifyCampaignSurchargesAd {
     public static final int APPLY_TO_OPTION_FIELD_NUMBER = 5;
     private io.dstore.values.IntegerValue applyToOption_;
     /**
-     * <code>optional .dstore.values.IntegerValue apply_to_option = 5;</code>
+     * <code>.dstore.values.IntegerValue apply_to_option = 5;</code>
      */
     public boolean hasApplyToOption() {
       return applyToOption_ != null;
     }
     /**
-     * <code>optional .dstore.values.IntegerValue apply_to_option = 5;</code>
+     * <code>.dstore.values.IntegerValue apply_to_option = 5;</code>
      */
     public io.dstore.values.IntegerValue getApplyToOption() {
       return applyToOption_ == null ? io.dstore.values.IntegerValue.getDefaultInstance() : applyToOption_;
     }
     /**
-     * <code>optional .dstore.values.IntegerValue apply_to_option = 5;</code>
+     * <code>.dstore.values.IntegerValue apply_to_option = 5;</code>
      */
     public io.dstore.values.IntegerValueOrBuilder getApplyToOptionOrBuilder() {
       return getApplyToOption();
@@ -520,7 +520,7 @@ public final class OmModifyCampaignSurchargesAd {
     public static final int APPLY_TO_OPTION_NULL_FIELD_NUMBER = 1005;
     private boolean applyToOptionNull_;
     /**
-     * <code>optional bool apply_to_option_null = 1005;</code>
+     * <code>bool apply_to_option_null = 1005;</code>
      */
     public boolean getApplyToOptionNull() {
       return applyToOptionNull_;
@@ -529,19 +529,19 @@ public final class OmModifyCampaignSurchargesAd {
     public static final int DELETE_BENEFIT_FIELD_NUMBER = 6;
     private io.dstore.values.IntegerValue deleteBenefit_;
     /**
-     * <code>optional .dstore.values.IntegerValue delete_benefit = 6;</code>
+     * <code>.dstore.values.IntegerValue delete_benefit = 6;</code>
      */
     public boolean hasDeleteBenefit() {
       return deleteBenefit_ != null;
     }
     /**
-     * <code>optional .dstore.values.IntegerValue delete_benefit = 6;</code>
+     * <code>.dstore.values.IntegerValue delete_benefit = 6;</code>
      */
     public io.dstore.values.IntegerValue getDeleteBenefit() {
       return deleteBenefit_ == null ? io.dstore.values.IntegerValue.getDefaultInstance() : deleteBenefit_;
     }
     /**
-     * <code>optional .dstore.values.IntegerValue delete_benefit = 6;</code>
+     * <code>.dstore.values.IntegerValue delete_benefit = 6;</code>
      */
     public io.dstore.values.IntegerValueOrBuilder getDeleteBenefitOrBuilder() {
       return getDeleteBenefit();
@@ -550,7 +550,7 @@ public final class OmModifyCampaignSurchargesAd {
     public static final int DELETE_BENEFIT_NULL_FIELD_NUMBER = 1006;
     private boolean deleteBenefitNull_;
     /**
-     * <code>optional bool delete_benefit_null = 1006;</code>
+     * <code>bool delete_benefit_null = 1006;</code>
      */
     public boolean getDeleteBenefitNull() {
       return deleteBenefitNull_;
@@ -559,19 +559,19 @@ public final class OmModifyCampaignSurchargesAd {
     public static final int DERIVED_FROM_PERSON_CHARAC_ID_FIELD_NUMBER = 7;
     private io.dstore.values.BooleanValue derivedFromPersonCharacId_;
     /**
-     * <code>optional .dstore.values.BooleanValue derived_from_person_charac_id = 7;</code>
+     * <code>.dstore.values.BooleanValue derived_from_person_charac_id = 7;</code>
      */
     public boolean hasDerivedFromPersonCharacId() {
       return derivedFromPersonCharacId_ != null;
     }
     /**
-     * <code>optional .dstore.values.BooleanValue derived_from_person_charac_id = 7;</code>
+     * <code>.dstore.values.BooleanValue derived_from_person_charac_id = 7;</code>
      */
     public io.dstore.values.BooleanValue getDerivedFromPersonCharacId() {
       return derivedFromPersonCharacId_ == null ? io.dstore.values.BooleanValue.getDefaultInstance() : derivedFromPersonCharacId_;
     }
     /**
-     * <code>optional .dstore.values.BooleanValue derived_from_person_charac_id = 7;</code>
+     * <code>.dstore.values.BooleanValue derived_from_person_charac_id = 7;</code>
      */
     public io.dstore.values.BooleanValueOrBuilder getDerivedFromPersonCharacIdOrBuilder() {
       return getDerivedFromPersonCharacId();
@@ -580,7 +580,7 @@ public final class OmModifyCampaignSurchargesAd {
     public static final int DERIVED_FROM_PERSON_CHARAC_ID_NULL_FIELD_NUMBER = 1007;
     private boolean derivedFromPersonCharacIdNull_;
     /**
-     * <code>optional bool derived_from_person_charac_id_null = 1007;</code>
+     * <code>bool derived_from_person_charac_id_null = 1007;</code>
      */
     public boolean getDerivedFromPersonCharacIdNull() {
       return derivedFromPersonCharacIdNull_;
@@ -589,19 +589,19 @@ public final class OmModifyCampaignSurchargesAd {
     public static final int DERIVED_FROM_NODE_CHARAC_ID_FIELD_NUMBER = 8;
     private io.dstore.values.BooleanValue derivedFromNodeCharacId_;
     /**
-     * <code>optional .dstore.values.BooleanValue derived_from_node_charac_id = 8;</code>
+     * <code>.dstore.values.BooleanValue derived_from_node_charac_id = 8;</code>
      */
     public boolean hasDerivedFromNodeCharacId() {
       return derivedFromNodeCharacId_ != null;
     }
     /**
-     * <code>optional .dstore.values.BooleanValue derived_from_node_charac_id = 8;</code>
+     * <code>.dstore.values.BooleanValue derived_from_node_charac_id = 8;</code>
      */
     public io.dstore.values.BooleanValue getDerivedFromNodeCharacId() {
       return derivedFromNodeCharacId_ == null ? io.dstore.values.BooleanValue.getDefaultInstance() : derivedFromNodeCharacId_;
     }
     /**
-     * <code>optional .dstore.values.BooleanValue derived_from_node_charac_id = 8;</code>
+     * <code>.dstore.values.BooleanValue derived_from_node_charac_id = 8;</code>
      */
     public io.dstore.values.BooleanValueOrBuilder getDerivedFromNodeCharacIdOrBuilder() {
       return getDerivedFromNodeCharacId();
@@ -610,7 +610,7 @@ public final class OmModifyCampaignSurchargesAd {
     public static final int DERIVED_FROM_NODE_CHARAC_ID_NULL_FIELD_NUMBER = 1008;
     private boolean derivedFromNodeCharacIdNull_;
     /**
-     * <code>optional bool derived_from_node_charac_id_null = 1008;</code>
+     * <code>bool derived_from_node_charac_id_null = 1008;</code>
      */
     public boolean getDerivedFromNodeCharacIdNull() {
       return derivedFromNodeCharacIdNull_;
@@ -828,7 +828,7 @@ public final class OmModifyCampaignSurchargesAd {
         return memoizedHashCode;
       }
       int hash = 41;
-      hash = (19 * hash) + getDescriptorForType().hashCode();
+      hash = (19 * hash) + getDescriptor().hashCode();
       if (hasBenefitId()) {
         hash = (37 * hash) + BENEFIT_ID_FIELD_NUMBER;
         hash = (53 * hash) + getBenefitId().hashCode();
@@ -1256,13 +1256,13 @@ public final class OmModifyCampaignSurchargesAd {
       private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> benefitIdBuilder_;
       /**
-       * <code>optional .dstore.values.IntegerValue benefit_id = 1;</code>
+       * <code>.dstore.values.IntegerValue benefit_id = 1;</code>
        */
       public boolean hasBenefitId() {
         return benefitIdBuilder_ != null || benefitId_ != null;
       }
       /**
-       * <code>optional .dstore.values.IntegerValue benefit_id = 1;</code>
+       * <code>.dstore.values.IntegerValue benefit_id = 1;</code>
        */
       public io.dstore.values.IntegerValue getBenefitId() {
         if (benefitIdBuilder_ == null) {
@@ -1272,7 +1272,7 @@ public final class OmModifyCampaignSurchargesAd {
         }
       }
       /**
-       * <code>optional .dstore.values.IntegerValue benefit_id = 1;</code>
+       * <code>.dstore.values.IntegerValue benefit_id = 1;</code>
        */
       public Builder setBenefitId(io.dstore.values.IntegerValue value) {
         if (benefitIdBuilder_ == null) {
@@ -1288,7 +1288,7 @@ public final class OmModifyCampaignSurchargesAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.IntegerValue benefit_id = 1;</code>
+       * <code>.dstore.values.IntegerValue benefit_id = 1;</code>
        */
       public Builder setBenefitId(
           io.dstore.values.IntegerValue.Builder builderForValue) {
@@ -1302,7 +1302,7 @@ public final class OmModifyCampaignSurchargesAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.IntegerValue benefit_id = 1;</code>
+       * <code>.dstore.values.IntegerValue benefit_id = 1;</code>
        */
       public Builder mergeBenefitId(io.dstore.values.IntegerValue value) {
         if (benefitIdBuilder_ == null) {
@@ -1320,7 +1320,7 @@ public final class OmModifyCampaignSurchargesAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.IntegerValue benefit_id = 1;</code>
+       * <code>.dstore.values.IntegerValue benefit_id = 1;</code>
        */
       public Builder clearBenefitId() {
         if (benefitIdBuilder_ == null) {
@@ -1334,7 +1334,7 @@ public final class OmModifyCampaignSurchargesAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.IntegerValue benefit_id = 1;</code>
+       * <code>.dstore.values.IntegerValue benefit_id = 1;</code>
        */
       public io.dstore.values.IntegerValue.Builder getBenefitIdBuilder() {
         
@@ -1342,7 +1342,7 @@ public final class OmModifyCampaignSurchargesAd {
         return getBenefitIdFieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .dstore.values.IntegerValue benefit_id = 1;</code>
+       * <code>.dstore.values.IntegerValue benefit_id = 1;</code>
        */
       public io.dstore.values.IntegerValueOrBuilder getBenefitIdOrBuilder() {
         if (benefitIdBuilder_ != null) {
@@ -1353,7 +1353,7 @@ public final class OmModifyCampaignSurchargesAd {
         }
       }
       /**
-       * <code>optional .dstore.values.IntegerValue benefit_id = 1;</code>
+       * <code>.dstore.values.IntegerValue benefit_id = 1;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> 
@@ -1371,13 +1371,13 @@ public final class OmModifyCampaignSurchargesAd {
 
       private boolean benefitIdNull_ ;
       /**
-       * <code>optional bool benefit_id_null = 1001;</code>
+       * <code>bool benefit_id_null = 1001;</code>
        */
       public boolean getBenefitIdNull() {
         return benefitIdNull_;
       }
       /**
-       * <code>optional bool benefit_id_null = 1001;</code>
+       * <code>bool benefit_id_null = 1001;</code>
        */
       public Builder setBenefitIdNull(boolean value) {
         
@@ -1386,7 +1386,7 @@ public final class OmModifyCampaignSurchargesAd {
         return this;
       }
       /**
-       * <code>optional bool benefit_id_null = 1001;</code>
+       * <code>bool benefit_id_null = 1001;</code>
        */
       public Builder clearBenefitIdNull() {
         
@@ -1399,13 +1399,13 @@ public final class OmModifyCampaignSurchargesAd {
       private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> surchargeTypeIdBuilder_;
       /**
-       * <code>optional .dstore.values.IntegerValue surcharge_type_id = 2;</code>
+       * <code>.dstore.values.IntegerValue surcharge_type_id = 2;</code>
        */
       public boolean hasSurchargeTypeId() {
         return surchargeTypeIdBuilder_ != null || surchargeTypeId_ != null;
       }
       /**
-       * <code>optional .dstore.values.IntegerValue surcharge_type_id = 2;</code>
+       * <code>.dstore.values.IntegerValue surcharge_type_id = 2;</code>
        */
       public io.dstore.values.IntegerValue getSurchargeTypeId() {
         if (surchargeTypeIdBuilder_ == null) {
@@ -1415,7 +1415,7 @@ public final class OmModifyCampaignSurchargesAd {
         }
       }
       /**
-       * <code>optional .dstore.values.IntegerValue surcharge_type_id = 2;</code>
+       * <code>.dstore.values.IntegerValue surcharge_type_id = 2;</code>
        */
       public Builder setSurchargeTypeId(io.dstore.values.IntegerValue value) {
         if (surchargeTypeIdBuilder_ == null) {
@@ -1431,7 +1431,7 @@ public final class OmModifyCampaignSurchargesAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.IntegerValue surcharge_type_id = 2;</code>
+       * <code>.dstore.values.IntegerValue surcharge_type_id = 2;</code>
        */
       public Builder setSurchargeTypeId(
           io.dstore.values.IntegerValue.Builder builderForValue) {
@@ -1445,7 +1445,7 @@ public final class OmModifyCampaignSurchargesAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.IntegerValue surcharge_type_id = 2;</code>
+       * <code>.dstore.values.IntegerValue surcharge_type_id = 2;</code>
        */
       public Builder mergeSurchargeTypeId(io.dstore.values.IntegerValue value) {
         if (surchargeTypeIdBuilder_ == null) {
@@ -1463,7 +1463,7 @@ public final class OmModifyCampaignSurchargesAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.IntegerValue surcharge_type_id = 2;</code>
+       * <code>.dstore.values.IntegerValue surcharge_type_id = 2;</code>
        */
       public Builder clearSurchargeTypeId() {
         if (surchargeTypeIdBuilder_ == null) {
@@ -1477,7 +1477,7 @@ public final class OmModifyCampaignSurchargesAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.IntegerValue surcharge_type_id = 2;</code>
+       * <code>.dstore.values.IntegerValue surcharge_type_id = 2;</code>
        */
       public io.dstore.values.IntegerValue.Builder getSurchargeTypeIdBuilder() {
         
@@ -1485,7 +1485,7 @@ public final class OmModifyCampaignSurchargesAd {
         return getSurchargeTypeIdFieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .dstore.values.IntegerValue surcharge_type_id = 2;</code>
+       * <code>.dstore.values.IntegerValue surcharge_type_id = 2;</code>
        */
       public io.dstore.values.IntegerValueOrBuilder getSurchargeTypeIdOrBuilder() {
         if (surchargeTypeIdBuilder_ != null) {
@@ -1496,7 +1496,7 @@ public final class OmModifyCampaignSurchargesAd {
         }
       }
       /**
-       * <code>optional .dstore.values.IntegerValue surcharge_type_id = 2;</code>
+       * <code>.dstore.values.IntegerValue surcharge_type_id = 2;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> 
@@ -1514,13 +1514,13 @@ public final class OmModifyCampaignSurchargesAd {
 
       private boolean surchargeTypeIdNull_ ;
       /**
-       * <code>optional bool surcharge_type_id_null = 1002;</code>
+       * <code>bool surcharge_type_id_null = 1002;</code>
        */
       public boolean getSurchargeTypeIdNull() {
         return surchargeTypeIdNull_;
       }
       /**
-       * <code>optional bool surcharge_type_id_null = 1002;</code>
+       * <code>bool surcharge_type_id_null = 1002;</code>
        */
       public Builder setSurchargeTypeIdNull(boolean value) {
         
@@ -1529,7 +1529,7 @@ public final class OmModifyCampaignSurchargesAd {
         return this;
       }
       /**
-       * <code>optional bool surcharge_type_id_null = 1002;</code>
+       * <code>bool surcharge_type_id_null = 1002;</code>
        */
       public Builder clearSurchargeTypeIdNull() {
         
@@ -1542,13 +1542,13 @@ public final class OmModifyCampaignSurchargesAd {
       private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.values.DecimalValue, io.dstore.values.DecimalValue.Builder, io.dstore.values.DecimalValueOrBuilder> surchargeValueBuilder_;
       /**
-       * <code>optional .dstore.values.DecimalValue surcharge_value = 3;</code>
+       * <code>.dstore.values.DecimalValue surcharge_value = 3;</code>
        */
       public boolean hasSurchargeValue() {
         return surchargeValueBuilder_ != null || surchargeValue_ != null;
       }
       /**
-       * <code>optional .dstore.values.DecimalValue surcharge_value = 3;</code>
+       * <code>.dstore.values.DecimalValue surcharge_value = 3;</code>
        */
       public io.dstore.values.DecimalValue getSurchargeValue() {
         if (surchargeValueBuilder_ == null) {
@@ -1558,7 +1558,7 @@ public final class OmModifyCampaignSurchargesAd {
         }
       }
       /**
-       * <code>optional .dstore.values.DecimalValue surcharge_value = 3;</code>
+       * <code>.dstore.values.DecimalValue surcharge_value = 3;</code>
        */
       public Builder setSurchargeValue(io.dstore.values.DecimalValue value) {
         if (surchargeValueBuilder_ == null) {
@@ -1574,7 +1574,7 @@ public final class OmModifyCampaignSurchargesAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.DecimalValue surcharge_value = 3;</code>
+       * <code>.dstore.values.DecimalValue surcharge_value = 3;</code>
        */
       public Builder setSurchargeValue(
           io.dstore.values.DecimalValue.Builder builderForValue) {
@@ -1588,7 +1588,7 @@ public final class OmModifyCampaignSurchargesAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.DecimalValue surcharge_value = 3;</code>
+       * <code>.dstore.values.DecimalValue surcharge_value = 3;</code>
        */
       public Builder mergeSurchargeValue(io.dstore.values.DecimalValue value) {
         if (surchargeValueBuilder_ == null) {
@@ -1606,7 +1606,7 @@ public final class OmModifyCampaignSurchargesAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.DecimalValue surcharge_value = 3;</code>
+       * <code>.dstore.values.DecimalValue surcharge_value = 3;</code>
        */
       public Builder clearSurchargeValue() {
         if (surchargeValueBuilder_ == null) {
@@ -1620,7 +1620,7 @@ public final class OmModifyCampaignSurchargesAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.DecimalValue surcharge_value = 3;</code>
+       * <code>.dstore.values.DecimalValue surcharge_value = 3;</code>
        */
       public io.dstore.values.DecimalValue.Builder getSurchargeValueBuilder() {
         
@@ -1628,7 +1628,7 @@ public final class OmModifyCampaignSurchargesAd {
         return getSurchargeValueFieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .dstore.values.DecimalValue surcharge_value = 3;</code>
+       * <code>.dstore.values.DecimalValue surcharge_value = 3;</code>
        */
       public io.dstore.values.DecimalValueOrBuilder getSurchargeValueOrBuilder() {
         if (surchargeValueBuilder_ != null) {
@@ -1639,7 +1639,7 @@ public final class OmModifyCampaignSurchargesAd {
         }
       }
       /**
-       * <code>optional .dstore.values.DecimalValue surcharge_value = 3;</code>
+       * <code>.dstore.values.DecimalValue surcharge_value = 3;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.values.DecimalValue, io.dstore.values.DecimalValue.Builder, io.dstore.values.DecimalValueOrBuilder> 
@@ -1657,13 +1657,13 @@ public final class OmModifyCampaignSurchargesAd {
 
       private boolean surchargeValueNull_ ;
       /**
-       * <code>optional bool surcharge_value_null = 1003;</code>
+       * <code>bool surcharge_value_null = 1003;</code>
        */
       public boolean getSurchargeValueNull() {
         return surchargeValueNull_;
       }
       /**
-       * <code>optional bool surcharge_value_null = 1003;</code>
+       * <code>bool surcharge_value_null = 1003;</code>
        */
       public Builder setSurchargeValueNull(boolean value) {
         
@@ -1672,7 +1672,7 @@ public final class OmModifyCampaignSurchargesAd {
         return this;
       }
       /**
-       * <code>optional bool surcharge_value_null = 1003;</code>
+       * <code>bool surcharge_value_null = 1003;</code>
        */
       public Builder clearSurchargeValueNull() {
         
@@ -1685,13 +1685,13 @@ public final class OmModifyCampaignSurchargesAd {
       private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> itemConditionIdBuilder_;
       /**
-       * <code>optional .dstore.values.IntegerValue item_condition_id = 4;</code>
+       * <code>.dstore.values.IntegerValue item_condition_id = 4;</code>
        */
       public boolean hasItemConditionId() {
         return itemConditionIdBuilder_ != null || itemConditionId_ != null;
       }
       /**
-       * <code>optional .dstore.values.IntegerValue item_condition_id = 4;</code>
+       * <code>.dstore.values.IntegerValue item_condition_id = 4;</code>
        */
       public io.dstore.values.IntegerValue getItemConditionId() {
         if (itemConditionIdBuilder_ == null) {
@@ -1701,7 +1701,7 @@ public final class OmModifyCampaignSurchargesAd {
         }
       }
       /**
-       * <code>optional .dstore.values.IntegerValue item_condition_id = 4;</code>
+       * <code>.dstore.values.IntegerValue item_condition_id = 4;</code>
        */
       public Builder setItemConditionId(io.dstore.values.IntegerValue value) {
         if (itemConditionIdBuilder_ == null) {
@@ -1717,7 +1717,7 @@ public final class OmModifyCampaignSurchargesAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.IntegerValue item_condition_id = 4;</code>
+       * <code>.dstore.values.IntegerValue item_condition_id = 4;</code>
        */
       public Builder setItemConditionId(
           io.dstore.values.IntegerValue.Builder builderForValue) {
@@ -1731,7 +1731,7 @@ public final class OmModifyCampaignSurchargesAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.IntegerValue item_condition_id = 4;</code>
+       * <code>.dstore.values.IntegerValue item_condition_id = 4;</code>
        */
       public Builder mergeItemConditionId(io.dstore.values.IntegerValue value) {
         if (itemConditionIdBuilder_ == null) {
@@ -1749,7 +1749,7 @@ public final class OmModifyCampaignSurchargesAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.IntegerValue item_condition_id = 4;</code>
+       * <code>.dstore.values.IntegerValue item_condition_id = 4;</code>
        */
       public Builder clearItemConditionId() {
         if (itemConditionIdBuilder_ == null) {
@@ -1763,7 +1763,7 @@ public final class OmModifyCampaignSurchargesAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.IntegerValue item_condition_id = 4;</code>
+       * <code>.dstore.values.IntegerValue item_condition_id = 4;</code>
        */
       public io.dstore.values.IntegerValue.Builder getItemConditionIdBuilder() {
         
@@ -1771,7 +1771,7 @@ public final class OmModifyCampaignSurchargesAd {
         return getItemConditionIdFieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .dstore.values.IntegerValue item_condition_id = 4;</code>
+       * <code>.dstore.values.IntegerValue item_condition_id = 4;</code>
        */
       public io.dstore.values.IntegerValueOrBuilder getItemConditionIdOrBuilder() {
         if (itemConditionIdBuilder_ != null) {
@@ -1782,7 +1782,7 @@ public final class OmModifyCampaignSurchargesAd {
         }
       }
       /**
-       * <code>optional .dstore.values.IntegerValue item_condition_id = 4;</code>
+       * <code>.dstore.values.IntegerValue item_condition_id = 4;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> 
@@ -1800,13 +1800,13 @@ public final class OmModifyCampaignSurchargesAd {
 
       private boolean itemConditionIdNull_ ;
       /**
-       * <code>optional bool item_condition_id_null = 1004;</code>
+       * <code>bool item_condition_id_null = 1004;</code>
        */
       public boolean getItemConditionIdNull() {
         return itemConditionIdNull_;
       }
       /**
-       * <code>optional bool item_condition_id_null = 1004;</code>
+       * <code>bool item_condition_id_null = 1004;</code>
        */
       public Builder setItemConditionIdNull(boolean value) {
         
@@ -1815,7 +1815,7 @@ public final class OmModifyCampaignSurchargesAd {
         return this;
       }
       /**
-       * <code>optional bool item_condition_id_null = 1004;</code>
+       * <code>bool item_condition_id_null = 1004;</code>
        */
       public Builder clearItemConditionIdNull() {
         
@@ -1828,13 +1828,13 @@ public final class OmModifyCampaignSurchargesAd {
       private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> applyToOptionBuilder_;
       /**
-       * <code>optional .dstore.values.IntegerValue apply_to_option = 5;</code>
+       * <code>.dstore.values.IntegerValue apply_to_option = 5;</code>
        */
       public boolean hasApplyToOption() {
         return applyToOptionBuilder_ != null || applyToOption_ != null;
       }
       /**
-       * <code>optional .dstore.values.IntegerValue apply_to_option = 5;</code>
+       * <code>.dstore.values.IntegerValue apply_to_option = 5;</code>
        */
       public io.dstore.values.IntegerValue getApplyToOption() {
         if (applyToOptionBuilder_ == null) {
@@ -1844,7 +1844,7 @@ public final class OmModifyCampaignSurchargesAd {
         }
       }
       /**
-       * <code>optional .dstore.values.IntegerValue apply_to_option = 5;</code>
+       * <code>.dstore.values.IntegerValue apply_to_option = 5;</code>
        */
       public Builder setApplyToOption(io.dstore.values.IntegerValue value) {
         if (applyToOptionBuilder_ == null) {
@@ -1860,7 +1860,7 @@ public final class OmModifyCampaignSurchargesAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.IntegerValue apply_to_option = 5;</code>
+       * <code>.dstore.values.IntegerValue apply_to_option = 5;</code>
        */
       public Builder setApplyToOption(
           io.dstore.values.IntegerValue.Builder builderForValue) {
@@ -1874,7 +1874,7 @@ public final class OmModifyCampaignSurchargesAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.IntegerValue apply_to_option = 5;</code>
+       * <code>.dstore.values.IntegerValue apply_to_option = 5;</code>
        */
       public Builder mergeApplyToOption(io.dstore.values.IntegerValue value) {
         if (applyToOptionBuilder_ == null) {
@@ -1892,7 +1892,7 @@ public final class OmModifyCampaignSurchargesAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.IntegerValue apply_to_option = 5;</code>
+       * <code>.dstore.values.IntegerValue apply_to_option = 5;</code>
        */
       public Builder clearApplyToOption() {
         if (applyToOptionBuilder_ == null) {
@@ -1906,7 +1906,7 @@ public final class OmModifyCampaignSurchargesAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.IntegerValue apply_to_option = 5;</code>
+       * <code>.dstore.values.IntegerValue apply_to_option = 5;</code>
        */
       public io.dstore.values.IntegerValue.Builder getApplyToOptionBuilder() {
         
@@ -1914,7 +1914,7 @@ public final class OmModifyCampaignSurchargesAd {
         return getApplyToOptionFieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .dstore.values.IntegerValue apply_to_option = 5;</code>
+       * <code>.dstore.values.IntegerValue apply_to_option = 5;</code>
        */
       public io.dstore.values.IntegerValueOrBuilder getApplyToOptionOrBuilder() {
         if (applyToOptionBuilder_ != null) {
@@ -1925,7 +1925,7 @@ public final class OmModifyCampaignSurchargesAd {
         }
       }
       /**
-       * <code>optional .dstore.values.IntegerValue apply_to_option = 5;</code>
+       * <code>.dstore.values.IntegerValue apply_to_option = 5;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> 
@@ -1943,13 +1943,13 @@ public final class OmModifyCampaignSurchargesAd {
 
       private boolean applyToOptionNull_ ;
       /**
-       * <code>optional bool apply_to_option_null = 1005;</code>
+       * <code>bool apply_to_option_null = 1005;</code>
        */
       public boolean getApplyToOptionNull() {
         return applyToOptionNull_;
       }
       /**
-       * <code>optional bool apply_to_option_null = 1005;</code>
+       * <code>bool apply_to_option_null = 1005;</code>
        */
       public Builder setApplyToOptionNull(boolean value) {
         
@@ -1958,7 +1958,7 @@ public final class OmModifyCampaignSurchargesAd {
         return this;
       }
       /**
-       * <code>optional bool apply_to_option_null = 1005;</code>
+       * <code>bool apply_to_option_null = 1005;</code>
        */
       public Builder clearApplyToOptionNull() {
         
@@ -1971,13 +1971,13 @@ public final class OmModifyCampaignSurchargesAd {
       private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> deleteBenefitBuilder_;
       /**
-       * <code>optional .dstore.values.IntegerValue delete_benefit = 6;</code>
+       * <code>.dstore.values.IntegerValue delete_benefit = 6;</code>
        */
       public boolean hasDeleteBenefit() {
         return deleteBenefitBuilder_ != null || deleteBenefit_ != null;
       }
       /**
-       * <code>optional .dstore.values.IntegerValue delete_benefit = 6;</code>
+       * <code>.dstore.values.IntegerValue delete_benefit = 6;</code>
        */
       public io.dstore.values.IntegerValue getDeleteBenefit() {
         if (deleteBenefitBuilder_ == null) {
@@ -1987,7 +1987,7 @@ public final class OmModifyCampaignSurchargesAd {
         }
       }
       /**
-       * <code>optional .dstore.values.IntegerValue delete_benefit = 6;</code>
+       * <code>.dstore.values.IntegerValue delete_benefit = 6;</code>
        */
       public Builder setDeleteBenefit(io.dstore.values.IntegerValue value) {
         if (deleteBenefitBuilder_ == null) {
@@ -2003,7 +2003,7 @@ public final class OmModifyCampaignSurchargesAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.IntegerValue delete_benefit = 6;</code>
+       * <code>.dstore.values.IntegerValue delete_benefit = 6;</code>
        */
       public Builder setDeleteBenefit(
           io.dstore.values.IntegerValue.Builder builderForValue) {
@@ -2017,7 +2017,7 @@ public final class OmModifyCampaignSurchargesAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.IntegerValue delete_benefit = 6;</code>
+       * <code>.dstore.values.IntegerValue delete_benefit = 6;</code>
        */
       public Builder mergeDeleteBenefit(io.dstore.values.IntegerValue value) {
         if (deleteBenefitBuilder_ == null) {
@@ -2035,7 +2035,7 @@ public final class OmModifyCampaignSurchargesAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.IntegerValue delete_benefit = 6;</code>
+       * <code>.dstore.values.IntegerValue delete_benefit = 6;</code>
        */
       public Builder clearDeleteBenefit() {
         if (deleteBenefitBuilder_ == null) {
@@ -2049,7 +2049,7 @@ public final class OmModifyCampaignSurchargesAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.IntegerValue delete_benefit = 6;</code>
+       * <code>.dstore.values.IntegerValue delete_benefit = 6;</code>
        */
       public io.dstore.values.IntegerValue.Builder getDeleteBenefitBuilder() {
         
@@ -2057,7 +2057,7 @@ public final class OmModifyCampaignSurchargesAd {
         return getDeleteBenefitFieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .dstore.values.IntegerValue delete_benefit = 6;</code>
+       * <code>.dstore.values.IntegerValue delete_benefit = 6;</code>
        */
       public io.dstore.values.IntegerValueOrBuilder getDeleteBenefitOrBuilder() {
         if (deleteBenefitBuilder_ != null) {
@@ -2068,7 +2068,7 @@ public final class OmModifyCampaignSurchargesAd {
         }
       }
       /**
-       * <code>optional .dstore.values.IntegerValue delete_benefit = 6;</code>
+       * <code>.dstore.values.IntegerValue delete_benefit = 6;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> 
@@ -2086,13 +2086,13 @@ public final class OmModifyCampaignSurchargesAd {
 
       private boolean deleteBenefitNull_ ;
       /**
-       * <code>optional bool delete_benefit_null = 1006;</code>
+       * <code>bool delete_benefit_null = 1006;</code>
        */
       public boolean getDeleteBenefitNull() {
         return deleteBenefitNull_;
       }
       /**
-       * <code>optional bool delete_benefit_null = 1006;</code>
+       * <code>bool delete_benefit_null = 1006;</code>
        */
       public Builder setDeleteBenefitNull(boolean value) {
         
@@ -2101,7 +2101,7 @@ public final class OmModifyCampaignSurchargesAd {
         return this;
       }
       /**
-       * <code>optional bool delete_benefit_null = 1006;</code>
+       * <code>bool delete_benefit_null = 1006;</code>
        */
       public Builder clearDeleteBenefitNull() {
         
@@ -2114,13 +2114,13 @@ public final class OmModifyCampaignSurchargesAd {
       private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.values.BooleanValue, io.dstore.values.BooleanValue.Builder, io.dstore.values.BooleanValueOrBuilder> derivedFromPersonCharacIdBuilder_;
       /**
-       * <code>optional .dstore.values.BooleanValue derived_from_person_charac_id = 7;</code>
+       * <code>.dstore.values.BooleanValue derived_from_person_charac_id = 7;</code>
        */
       public boolean hasDerivedFromPersonCharacId() {
         return derivedFromPersonCharacIdBuilder_ != null || derivedFromPersonCharacId_ != null;
       }
       /**
-       * <code>optional .dstore.values.BooleanValue derived_from_person_charac_id = 7;</code>
+       * <code>.dstore.values.BooleanValue derived_from_person_charac_id = 7;</code>
        */
       public io.dstore.values.BooleanValue getDerivedFromPersonCharacId() {
         if (derivedFromPersonCharacIdBuilder_ == null) {
@@ -2130,7 +2130,7 @@ public final class OmModifyCampaignSurchargesAd {
         }
       }
       /**
-       * <code>optional .dstore.values.BooleanValue derived_from_person_charac_id = 7;</code>
+       * <code>.dstore.values.BooleanValue derived_from_person_charac_id = 7;</code>
        */
       public Builder setDerivedFromPersonCharacId(io.dstore.values.BooleanValue value) {
         if (derivedFromPersonCharacIdBuilder_ == null) {
@@ -2146,7 +2146,7 @@ public final class OmModifyCampaignSurchargesAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.BooleanValue derived_from_person_charac_id = 7;</code>
+       * <code>.dstore.values.BooleanValue derived_from_person_charac_id = 7;</code>
        */
       public Builder setDerivedFromPersonCharacId(
           io.dstore.values.BooleanValue.Builder builderForValue) {
@@ -2160,7 +2160,7 @@ public final class OmModifyCampaignSurchargesAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.BooleanValue derived_from_person_charac_id = 7;</code>
+       * <code>.dstore.values.BooleanValue derived_from_person_charac_id = 7;</code>
        */
       public Builder mergeDerivedFromPersonCharacId(io.dstore.values.BooleanValue value) {
         if (derivedFromPersonCharacIdBuilder_ == null) {
@@ -2178,7 +2178,7 @@ public final class OmModifyCampaignSurchargesAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.BooleanValue derived_from_person_charac_id = 7;</code>
+       * <code>.dstore.values.BooleanValue derived_from_person_charac_id = 7;</code>
        */
       public Builder clearDerivedFromPersonCharacId() {
         if (derivedFromPersonCharacIdBuilder_ == null) {
@@ -2192,7 +2192,7 @@ public final class OmModifyCampaignSurchargesAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.BooleanValue derived_from_person_charac_id = 7;</code>
+       * <code>.dstore.values.BooleanValue derived_from_person_charac_id = 7;</code>
        */
       public io.dstore.values.BooleanValue.Builder getDerivedFromPersonCharacIdBuilder() {
         
@@ -2200,7 +2200,7 @@ public final class OmModifyCampaignSurchargesAd {
         return getDerivedFromPersonCharacIdFieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .dstore.values.BooleanValue derived_from_person_charac_id = 7;</code>
+       * <code>.dstore.values.BooleanValue derived_from_person_charac_id = 7;</code>
        */
       public io.dstore.values.BooleanValueOrBuilder getDerivedFromPersonCharacIdOrBuilder() {
         if (derivedFromPersonCharacIdBuilder_ != null) {
@@ -2211,7 +2211,7 @@ public final class OmModifyCampaignSurchargesAd {
         }
       }
       /**
-       * <code>optional .dstore.values.BooleanValue derived_from_person_charac_id = 7;</code>
+       * <code>.dstore.values.BooleanValue derived_from_person_charac_id = 7;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.values.BooleanValue, io.dstore.values.BooleanValue.Builder, io.dstore.values.BooleanValueOrBuilder> 
@@ -2229,13 +2229,13 @@ public final class OmModifyCampaignSurchargesAd {
 
       private boolean derivedFromPersonCharacIdNull_ ;
       /**
-       * <code>optional bool derived_from_person_charac_id_null = 1007;</code>
+       * <code>bool derived_from_person_charac_id_null = 1007;</code>
        */
       public boolean getDerivedFromPersonCharacIdNull() {
         return derivedFromPersonCharacIdNull_;
       }
       /**
-       * <code>optional bool derived_from_person_charac_id_null = 1007;</code>
+       * <code>bool derived_from_person_charac_id_null = 1007;</code>
        */
       public Builder setDerivedFromPersonCharacIdNull(boolean value) {
         
@@ -2244,7 +2244,7 @@ public final class OmModifyCampaignSurchargesAd {
         return this;
       }
       /**
-       * <code>optional bool derived_from_person_charac_id_null = 1007;</code>
+       * <code>bool derived_from_person_charac_id_null = 1007;</code>
        */
       public Builder clearDerivedFromPersonCharacIdNull() {
         
@@ -2257,13 +2257,13 @@ public final class OmModifyCampaignSurchargesAd {
       private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.values.BooleanValue, io.dstore.values.BooleanValue.Builder, io.dstore.values.BooleanValueOrBuilder> derivedFromNodeCharacIdBuilder_;
       /**
-       * <code>optional .dstore.values.BooleanValue derived_from_node_charac_id = 8;</code>
+       * <code>.dstore.values.BooleanValue derived_from_node_charac_id = 8;</code>
        */
       public boolean hasDerivedFromNodeCharacId() {
         return derivedFromNodeCharacIdBuilder_ != null || derivedFromNodeCharacId_ != null;
       }
       /**
-       * <code>optional .dstore.values.BooleanValue derived_from_node_charac_id = 8;</code>
+       * <code>.dstore.values.BooleanValue derived_from_node_charac_id = 8;</code>
        */
       public io.dstore.values.BooleanValue getDerivedFromNodeCharacId() {
         if (derivedFromNodeCharacIdBuilder_ == null) {
@@ -2273,7 +2273,7 @@ public final class OmModifyCampaignSurchargesAd {
         }
       }
       /**
-       * <code>optional .dstore.values.BooleanValue derived_from_node_charac_id = 8;</code>
+       * <code>.dstore.values.BooleanValue derived_from_node_charac_id = 8;</code>
        */
       public Builder setDerivedFromNodeCharacId(io.dstore.values.BooleanValue value) {
         if (derivedFromNodeCharacIdBuilder_ == null) {
@@ -2289,7 +2289,7 @@ public final class OmModifyCampaignSurchargesAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.BooleanValue derived_from_node_charac_id = 8;</code>
+       * <code>.dstore.values.BooleanValue derived_from_node_charac_id = 8;</code>
        */
       public Builder setDerivedFromNodeCharacId(
           io.dstore.values.BooleanValue.Builder builderForValue) {
@@ -2303,7 +2303,7 @@ public final class OmModifyCampaignSurchargesAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.BooleanValue derived_from_node_charac_id = 8;</code>
+       * <code>.dstore.values.BooleanValue derived_from_node_charac_id = 8;</code>
        */
       public Builder mergeDerivedFromNodeCharacId(io.dstore.values.BooleanValue value) {
         if (derivedFromNodeCharacIdBuilder_ == null) {
@@ -2321,7 +2321,7 @@ public final class OmModifyCampaignSurchargesAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.BooleanValue derived_from_node_charac_id = 8;</code>
+       * <code>.dstore.values.BooleanValue derived_from_node_charac_id = 8;</code>
        */
       public Builder clearDerivedFromNodeCharacId() {
         if (derivedFromNodeCharacIdBuilder_ == null) {
@@ -2335,7 +2335,7 @@ public final class OmModifyCampaignSurchargesAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.BooleanValue derived_from_node_charac_id = 8;</code>
+       * <code>.dstore.values.BooleanValue derived_from_node_charac_id = 8;</code>
        */
       public io.dstore.values.BooleanValue.Builder getDerivedFromNodeCharacIdBuilder() {
         
@@ -2343,7 +2343,7 @@ public final class OmModifyCampaignSurchargesAd {
         return getDerivedFromNodeCharacIdFieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .dstore.values.BooleanValue derived_from_node_charac_id = 8;</code>
+       * <code>.dstore.values.BooleanValue derived_from_node_charac_id = 8;</code>
        */
       public io.dstore.values.BooleanValueOrBuilder getDerivedFromNodeCharacIdOrBuilder() {
         if (derivedFromNodeCharacIdBuilder_ != null) {
@@ -2354,7 +2354,7 @@ public final class OmModifyCampaignSurchargesAd {
         }
       }
       /**
-       * <code>optional .dstore.values.BooleanValue derived_from_node_charac_id = 8;</code>
+       * <code>.dstore.values.BooleanValue derived_from_node_charac_id = 8;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.values.BooleanValue, io.dstore.values.BooleanValue.Builder, io.dstore.values.BooleanValueOrBuilder> 
@@ -2372,13 +2372,13 @@ public final class OmModifyCampaignSurchargesAd {
 
       private boolean derivedFromNodeCharacIdNull_ ;
       /**
-       * <code>optional bool derived_from_node_charac_id_null = 1008;</code>
+       * <code>bool derived_from_node_charac_id_null = 1008;</code>
        */
       public boolean getDerivedFromNodeCharacIdNull() {
         return derivedFromNodeCharacIdNull_;
       }
       /**
-       * <code>optional bool derived_from_node_charac_id_null = 1008;</code>
+       * <code>bool derived_from_node_charac_id_null = 1008;</code>
        */
       public Builder setDerivedFromNodeCharacIdNull(boolean value) {
         
@@ -2387,7 +2387,7 @@ public final class OmModifyCampaignSurchargesAd {
         return this;
       }
       /**
-       * <code>optional bool derived_from_node_charac_id_null = 1008;</code>
+       * <code>bool derived_from_node_charac_id_null = 1008;</code>
        */
       public Builder clearDerivedFromNodeCharacIdNull() {
         
@@ -2521,15 +2521,15 @@ public final class OmModifyCampaignSurchargesAd {
         int index);
 
     /**
-     * <code>optional .dstore.values.IntegerValue benefit_id = 101;</code>
+     * <code>.dstore.values.IntegerValue benefit_id = 101;</code>
      */
     boolean hasBenefitId();
     /**
-     * <code>optional .dstore.values.IntegerValue benefit_id = 101;</code>
+     * <code>.dstore.values.IntegerValue benefit_id = 101;</code>
      */
     io.dstore.values.IntegerValue getBenefitId();
     /**
-     * <code>optional .dstore.values.IntegerValue benefit_id = 101;</code>
+     * <code>.dstore.values.IntegerValue benefit_id = 101;</code>
      */
     io.dstore.values.IntegerValueOrBuilder getBenefitIdOrBuilder();
   }
@@ -2652,7 +2652,7 @@ public final class OmModifyCampaignSurchargesAd {
         com.google.protobuf.MessageOrBuilder {
 
       /**
-       * <code>optional int32 row_id = 10000;</code>
+       * <code>int32 row_id = 10000;</code>
        */
       int getRowId();
     }
@@ -2727,7 +2727,7 @@ public final class OmModifyCampaignSurchargesAd {
       public static final int ROW_ID_FIELD_NUMBER = 10000;
       private int rowId_;
       /**
-       * <code>optional int32 row_id = 10000;</code>
+       * <code>int32 row_id = 10000;</code>
        */
       public int getRowId() {
         return rowId_;
@@ -2786,7 +2786,7 @@ public final class OmModifyCampaignSurchargesAd {
           return memoizedHashCode;
         }
         int hash = 41;
-        hash = (19 * hash) + getDescriptorForType().hashCode();
+        hash = (19 * hash) + getDescriptor().hashCode();
         hash = (37 * hash) + ROW_ID_FIELD_NUMBER;
         hash = (53 * hash) + getRowId();
         hash = (29 * hash) + unknownFields.hashCode();
@@ -3004,13 +3004,13 @@ public final class OmModifyCampaignSurchargesAd {
 
         private int rowId_ ;
         /**
-         * <code>optional int32 row_id = 10000;</code>
+         * <code>int32 row_id = 10000;</code>
          */
         public int getRowId() {
           return rowId_;
         }
         /**
-         * <code>optional int32 row_id = 10000;</code>
+         * <code>int32 row_id = 10000;</code>
          */
         public Builder setRowId(int value) {
           
@@ -3019,7 +3019,7 @@ public final class OmModifyCampaignSurchargesAd {
           return this;
         }
         /**
-         * <code>optional int32 row_id = 10000;</code>
+         * <code>int32 row_id = 10000;</code>
          */
         public Builder clearRowId() {
           
@@ -3185,19 +3185,19 @@ public final class OmModifyCampaignSurchargesAd {
     public static final int BENEFIT_ID_FIELD_NUMBER = 101;
     private io.dstore.values.IntegerValue benefitId_;
     /**
-     * <code>optional .dstore.values.IntegerValue benefit_id = 101;</code>
+     * <code>.dstore.values.IntegerValue benefit_id = 101;</code>
      */
     public boolean hasBenefitId() {
       return benefitId_ != null;
     }
     /**
-     * <code>optional .dstore.values.IntegerValue benefit_id = 101;</code>
+     * <code>.dstore.values.IntegerValue benefit_id = 101;</code>
      */
     public io.dstore.values.IntegerValue getBenefitId() {
       return benefitId_ == null ? io.dstore.values.IntegerValue.getDefaultInstance() : benefitId_;
     }
     /**
-     * <code>optional .dstore.values.IntegerValue benefit_id = 101;</code>
+     * <code>.dstore.values.IntegerValue benefit_id = 101;</code>
      */
     public io.dstore.values.IntegerValueOrBuilder getBenefitIdOrBuilder() {
       return getBenefitId();
@@ -3286,7 +3286,7 @@ public final class OmModifyCampaignSurchargesAd {
         return memoizedHashCode;
       }
       int hash = 41;
-      hash = (19 * hash) + getDescriptorForType().hashCode();
+      hash = (19 * hash) + getDescriptor().hashCode();
       if (getMetaInformationCount() > 0) {
         hash = (37 * hash) + META_INFORMATION_FIELD_NUMBER;
         hash = (53 * hash) + getMetaInformationList().hashCode();
@@ -4378,13 +4378,13 @@ public final class OmModifyCampaignSurchargesAd {
       private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> benefitIdBuilder_;
       /**
-       * <code>optional .dstore.values.IntegerValue benefit_id = 101;</code>
+       * <code>.dstore.values.IntegerValue benefit_id = 101;</code>
        */
       public boolean hasBenefitId() {
         return benefitIdBuilder_ != null || benefitId_ != null;
       }
       /**
-       * <code>optional .dstore.values.IntegerValue benefit_id = 101;</code>
+       * <code>.dstore.values.IntegerValue benefit_id = 101;</code>
        */
       public io.dstore.values.IntegerValue getBenefitId() {
         if (benefitIdBuilder_ == null) {
@@ -4394,7 +4394,7 @@ public final class OmModifyCampaignSurchargesAd {
         }
       }
       /**
-       * <code>optional .dstore.values.IntegerValue benefit_id = 101;</code>
+       * <code>.dstore.values.IntegerValue benefit_id = 101;</code>
        */
       public Builder setBenefitId(io.dstore.values.IntegerValue value) {
         if (benefitIdBuilder_ == null) {
@@ -4410,7 +4410,7 @@ public final class OmModifyCampaignSurchargesAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.IntegerValue benefit_id = 101;</code>
+       * <code>.dstore.values.IntegerValue benefit_id = 101;</code>
        */
       public Builder setBenefitId(
           io.dstore.values.IntegerValue.Builder builderForValue) {
@@ -4424,7 +4424,7 @@ public final class OmModifyCampaignSurchargesAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.IntegerValue benefit_id = 101;</code>
+       * <code>.dstore.values.IntegerValue benefit_id = 101;</code>
        */
       public Builder mergeBenefitId(io.dstore.values.IntegerValue value) {
         if (benefitIdBuilder_ == null) {
@@ -4442,7 +4442,7 @@ public final class OmModifyCampaignSurchargesAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.IntegerValue benefit_id = 101;</code>
+       * <code>.dstore.values.IntegerValue benefit_id = 101;</code>
        */
       public Builder clearBenefitId() {
         if (benefitIdBuilder_ == null) {
@@ -4456,7 +4456,7 @@ public final class OmModifyCampaignSurchargesAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.IntegerValue benefit_id = 101;</code>
+       * <code>.dstore.values.IntegerValue benefit_id = 101;</code>
        */
       public io.dstore.values.IntegerValue.Builder getBenefitIdBuilder() {
         
@@ -4464,7 +4464,7 @@ public final class OmModifyCampaignSurchargesAd {
         return getBenefitIdFieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .dstore.values.IntegerValue benefit_id = 101;</code>
+       * <code>.dstore.values.IntegerValue benefit_id = 101;</code>
        */
       public io.dstore.values.IntegerValueOrBuilder getBenefitIdOrBuilder() {
         if (benefitIdBuilder_ != null) {
@@ -4475,7 +4475,7 @@ public final class OmModifyCampaignSurchargesAd {
         }
       }
       /**
-       * <code>optional .dstore.values.IntegerValue benefit_id = 101;</code>
+       * <code>.dstore.values.IntegerValue benefit_id = 101;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> 

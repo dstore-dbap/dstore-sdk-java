@@ -18,9 +18,9 @@ import static io.grpc.stub.ServerCalls.asyncUnimplementedStreamingCall;
 /**
  */
 @javax.annotation.Generated(
-    value = "by gRPC proto compiler (version 1.1.1)",
+    value = "by gRPC proto compiler (version 1.2.0)",
     comments = "Source: dstore/engine/procedures/engine_proc_service.proto")
-public class EngineProcGrpc {
+public final class EngineProcGrpc {
 
   private EngineProcGrpc() {}
 
@@ -30159,7 +30159,7 @@ public class EngineProcGrpc {
   private static final int METHODID_ST_MODIFY_PERIODS_TO_KEEP_STATS_AD = 749;
   private static final int METHODID_ST_UPDATE_STATISTICS_AD = 750;
 
-  private static class MethodHandlers<Req, Resp> implements
+  private static final class MethodHandlers<Req, Resp> implements
       io.grpc.stub.ServerCalls.UnaryMethod<Req, Resp>,
       io.grpc.stub.ServerCalls.ServerStreamingMethod<Req, Resp>,
       io.grpc.stub.ServerCalls.ClientStreamingMethod<Req, Resp>,
@@ -30167,7 +30167,7 @@ public class EngineProcGrpc {
     private final EngineProcImplBase serviceImpl;
     private final int methodId;
 
-    public MethodHandlers(EngineProcImplBase serviceImpl, int methodId) {
+    MethodHandlers(EngineProcImplBase serviceImpl, int methodId) {
       this.serviceImpl = serviceImpl;
       this.methodId = methodId;
     }

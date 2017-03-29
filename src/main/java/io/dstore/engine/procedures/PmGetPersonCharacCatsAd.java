@@ -19,56 +19,56 @@ public final class PmGetPersonCharacCatsAd {
       com.google.protobuf.MessageOrBuilder {
 
     /**
-     * <code>optional .dstore.values.IntegerValue person_charac_category_id = 1;</code>
+     * <code>.dstore.values.IntegerValue person_charac_category_id = 1;</code>
      */
     boolean hasPersonCharacCategoryId();
     /**
-     * <code>optional .dstore.values.IntegerValue person_charac_category_id = 1;</code>
+     * <code>.dstore.values.IntegerValue person_charac_category_id = 1;</code>
      */
     io.dstore.values.IntegerValue getPersonCharacCategoryId();
     /**
-     * <code>optional .dstore.values.IntegerValue person_charac_category_id = 1;</code>
+     * <code>.dstore.values.IntegerValue person_charac_category_id = 1;</code>
      */
     io.dstore.values.IntegerValueOrBuilder getPersonCharacCategoryIdOrBuilder();
 
     /**
-     * <code>optional bool person_charac_category_id_null = 1001;</code>
+     * <code>bool person_charac_category_id_null = 1001;</code>
      */
     boolean getPersonCharacCategoryIdNull();
 
     /**
-     * <code>optional .dstore.values.IntegerValue person_type_id = 2;</code>
+     * <code>.dstore.values.IntegerValue person_type_id = 2;</code>
      */
     boolean hasPersonTypeId();
     /**
-     * <code>optional .dstore.values.IntegerValue person_type_id = 2;</code>
+     * <code>.dstore.values.IntegerValue person_type_id = 2;</code>
      */
     io.dstore.values.IntegerValue getPersonTypeId();
     /**
-     * <code>optional .dstore.values.IntegerValue person_type_id = 2;</code>
+     * <code>.dstore.values.IntegerValue person_type_id = 2;</code>
      */
     io.dstore.values.IntegerValueOrBuilder getPersonTypeIdOrBuilder();
 
     /**
-     * <code>optional bool person_type_id_null = 1002;</code>
+     * <code>bool person_type_id_null = 1002;</code>
      */
     boolean getPersonTypeIdNull();
 
     /**
-     * <code>optional .dstore.values.IntegerValue person_characteristic_id = 3;</code>
+     * <code>.dstore.values.IntegerValue person_characteristic_id = 3;</code>
      */
     boolean hasPersonCharacteristicId();
     /**
-     * <code>optional .dstore.values.IntegerValue person_characteristic_id = 3;</code>
+     * <code>.dstore.values.IntegerValue person_characteristic_id = 3;</code>
      */
     io.dstore.values.IntegerValue getPersonCharacteristicId();
     /**
-     * <code>optional .dstore.values.IntegerValue person_characteristic_id = 3;</code>
+     * <code>.dstore.values.IntegerValue person_characteristic_id = 3;</code>
      */
     io.dstore.values.IntegerValueOrBuilder getPersonCharacteristicIdOrBuilder();
 
     /**
-     * <code>optional bool person_characteristic_id_null = 1003;</code>
+     * <code>bool person_characteristic_id_null = 1003;</code>
      */
     boolean getPersonCharacteristicIdNull();
   }
@@ -194,19 +194,19 @@ public final class PmGetPersonCharacCatsAd {
     public static final int PERSON_CHARAC_CATEGORY_ID_FIELD_NUMBER = 1;
     private io.dstore.values.IntegerValue personCharacCategoryId_;
     /**
-     * <code>optional .dstore.values.IntegerValue person_charac_category_id = 1;</code>
+     * <code>.dstore.values.IntegerValue person_charac_category_id = 1;</code>
      */
     public boolean hasPersonCharacCategoryId() {
       return personCharacCategoryId_ != null;
     }
     /**
-     * <code>optional .dstore.values.IntegerValue person_charac_category_id = 1;</code>
+     * <code>.dstore.values.IntegerValue person_charac_category_id = 1;</code>
      */
     public io.dstore.values.IntegerValue getPersonCharacCategoryId() {
       return personCharacCategoryId_ == null ? io.dstore.values.IntegerValue.getDefaultInstance() : personCharacCategoryId_;
     }
     /**
-     * <code>optional .dstore.values.IntegerValue person_charac_category_id = 1;</code>
+     * <code>.dstore.values.IntegerValue person_charac_category_id = 1;</code>
      */
     public io.dstore.values.IntegerValueOrBuilder getPersonCharacCategoryIdOrBuilder() {
       return getPersonCharacCategoryId();
@@ -215,7 +215,7 @@ public final class PmGetPersonCharacCatsAd {
     public static final int PERSON_CHARAC_CATEGORY_ID_NULL_FIELD_NUMBER = 1001;
     private boolean personCharacCategoryIdNull_;
     /**
-     * <code>optional bool person_charac_category_id_null = 1001;</code>
+     * <code>bool person_charac_category_id_null = 1001;</code>
      */
     public boolean getPersonCharacCategoryIdNull() {
       return personCharacCategoryIdNull_;
@@ -224,19 +224,19 @@ public final class PmGetPersonCharacCatsAd {
     public static final int PERSON_TYPE_ID_FIELD_NUMBER = 2;
     private io.dstore.values.IntegerValue personTypeId_;
     /**
-     * <code>optional .dstore.values.IntegerValue person_type_id = 2;</code>
+     * <code>.dstore.values.IntegerValue person_type_id = 2;</code>
      */
     public boolean hasPersonTypeId() {
       return personTypeId_ != null;
     }
     /**
-     * <code>optional .dstore.values.IntegerValue person_type_id = 2;</code>
+     * <code>.dstore.values.IntegerValue person_type_id = 2;</code>
      */
     public io.dstore.values.IntegerValue getPersonTypeId() {
       return personTypeId_ == null ? io.dstore.values.IntegerValue.getDefaultInstance() : personTypeId_;
     }
     /**
-     * <code>optional .dstore.values.IntegerValue person_type_id = 2;</code>
+     * <code>.dstore.values.IntegerValue person_type_id = 2;</code>
      */
     public io.dstore.values.IntegerValueOrBuilder getPersonTypeIdOrBuilder() {
       return getPersonTypeId();
@@ -245,7 +245,7 @@ public final class PmGetPersonCharacCatsAd {
     public static final int PERSON_TYPE_ID_NULL_FIELD_NUMBER = 1002;
     private boolean personTypeIdNull_;
     /**
-     * <code>optional bool person_type_id_null = 1002;</code>
+     * <code>bool person_type_id_null = 1002;</code>
      */
     public boolean getPersonTypeIdNull() {
       return personTypeIdNull_;
@@ -254,19 +254,19 @@ public final class PmGetPersonCharacCatsAd {
     public static final int PERSON_CHARACTERISTIC_ID_FIELD_NUMBER = 3;
     private io.dstore.values.IntegerValue personCharacteristicId_;
     /**
-     * <code>optional .dstore.values.IntegerValue person_characteristic_id = 3;</code>
+     * <code>.dstore.values.IntegerValue person_characteristic_id = 3;</code>
      */
     public boolean hasPersonCharacteristicId() {
       return personCharacteristicId_ != null;
     }
     /**
-     * <code>optional .dstore.values.IntegerValue person_characteristic_id = 3;</code>
+     * <code>.dstore.values.IntegerValue person_characteristic_id = 3;</code>
      */
     public io.dstore.values.IntegerValue getPersonCharacteristicId() {
       return personCharacteristicId_ == null ? io.dstore.values.IntegerValue.getDefaultInstance() : personCharacteristicId_;
     }
     /**
-     * <code>optional .dstore.values.IntegerValue person_characteristic_id = 3;</code>
+     * <code>.dstore.values.IntegerValue person_characteristic_id = 3;</code>
      */
     public io.dstore.values.IntegerValueOrBuilder getPersonCharacteristicIdOrBuilder() {
       return getPersonCharacteristicId();
@@ -275,7 +275,7 @@ public final class PmGetPersonCharacCatsAd {
     public static final int PERSON_CHARACTERISTIC_ID_NULL_FIELD_NUMBER = 1003;
     private boolean personCharacteristicIdNull_;
     /**
-     * <code>optional bool person_characteristic_id_null = 1003;</code>
+     * <code>bool person_characteristic_id_null = 1003;</code>
      */
     public boolean getPersonCharacteristicIdNull() {
       return personCharacteristicIdNull_;
@@ -388,7 +388,7 @@ public final class PmGetPersonCharacCatsAd {
         return memoizedHashCode;
       }
       int hash = 41;
-      hash = (19 * hash) + getDescriptorForType().hashCode();
+      hash = (19 * hash) + getDescriptor().hashCode();
       if (hasPersonCharacCategoryId()) {
         hash = (37 * hash) + PERSON_CHARAC_CATEGORY_ID_FIELD_NUMBER;
         hash = (53 * hash) + getPersonCharacCategoryId().hashCode();
@@ -681,13 +681,13 @@ public final class PmGetPersonCharacCatsAd {
       private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> personCharacCategoryIdBuilder_;
       /**
-       * <code>optional .dstore.values.IntegerValue person_charac_category_id = 1;</code>
+       * <code>.dstore.values.IntegerValue person_charac_category_id = 1;</code>
        */
       public boolean hasPersonCharacCategoryId() {
         return personCharacCategoryIdBuilder_ != null || personCharacCategoryId_ != null;
       }
       /**
-       * <code>optional .dstore.values.IntegerValue person_charac_category_id = 1;</code>
+       * <code>.dstore.values.IntegerValue person_charac_category_id = 1;</code>
        */
       public io.dstore.values.IntegerValue getPersonCharacCategoryId() {
         if (personCharacCategoryIdBuilder_ == null) {
@@ -697,7 +697,7 @@ public final class PmGetPersonCharacCatsAd {
         }
       }
       /**
-       * <code>optional .dstore.values.IntegerValue person_charac_category_id = 1;</code>
+       * <code>.dstore.values.IntegerValue person_charac_category_id = 1;</code>
        */
       public Builder setPersonCharacCategoryId(io.dstore.values.IntegerValue value) {
         if (personCharacCategoryIdBuilder_ == null) {
@@ -713,7 +713,7 @@ public final class PmGetPersonCharacCatsAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.IntegerValue person_charac_category_id = 1;</code>
+       * <code>.dstore.values.IntegerValue person_charac_category_id = 1;</code>
        */
       public Builder setPersonCharacCategoryId(
           io.dstore.values.IntegerValue.Builder builderForValue) {
@@ -727,7 +727,7 @@ public final class PmGetPersonCharacCatsAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.IntegerValue person_charac_category_id = 1;</code>
+       * <code>.dstore.values.IntegerValue person_charac_category_id = 1;</code>
        */
       public Builder mergePersonCharacCategoryId(io.dstore.values.IntegerValue value) {
         if (personCharacCategoryIdBuilder_ == null) {
@@ -745,7 +745,7 @@ public final class PmGetPersonCharacCatsAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.IntegerValue person_charac_category_id = 1;</code>
+       * <code>.dstore.values.IntegerValue person_charac_category_id = 1;</code>
        */
       public Builder clearPersonCharacCategoryId() {
         if (personCharacCategoryIdBuilder_ == null) {
@@ -759,7 +759,7 @@ public final class PmGetPersonCharacCatsAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.IntegerValue person_charac_category_id = 1;</code>
+       * <code>.dstore.values.IntegerValue person_charac_category_id = 1;</code>
        */
       public io.dstore.values.IntegerValue.Builder getPersonCharacCategoryIdBuilder() {
         
@@ -767,7 +767,7 @@ public final class PmGetPersonCharacCatsAd {
         return getPersonCharacCategoryIdFieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .dstore.values.IntegerValue person_charac_category_id = 1;</code>
+       * <code>.dstore.values.IntegerValue person_charac_category_id = 1;</code>
        */
       public io.dstore.values.IntegerValueOrBuilder getPersonCharacCategoryIdOrBuilder() {
         if (personCharacCategoryIdBuilder_ != null) {
@@ -778,7 +778,7 @@ public final class PmGetPersonCharacCatsAd {
         }
       }
       /**
-       * <code>optional .dstore.values.IntegerValue person_charac_category_id = 1;</code>
+       * <code>.dstore.values.IntegerValue person_charac_category_id = 1;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> 
@@ -796,13 +796,13 @@ public final class PmGetPersonCharacCatsAd {
 
       private boolean personCharacCategoryIdNull_ ;
       /**
-       * <code>optional bool person_charac_category_id_null = 1001;</code>
+       * <code>bool person_charac_category_id_null = 1001;</code>
        */
       public boolean getPersonCharacCategoryIdNull() {
         return personCharacCategoryIdNull_;
       }
       /**
-       * <code>optional bool person_charac_category_id_null = 1001;</code>
+       * <code>bool person_charac_category_id_null = 1001;</code>
        */
       public Builder setPersonCharacCategoryIdNull(boolean value) {
         
@@ -811,7 +811,7 @@ public final class PmGetPersonCharacCatsAd {
         return this;
       }
       /**
-       * <code>optional bool person_charac_category_id_null = 1001;</code>
+       * <code>bool person_charac_category_id_null = 1001;</code>
        */
       public Builder clearPersonCharacCategoryIdNull() {
         
@@ -824,13 +824,13 @@ public final class PmGetPersonCharacCatsAd {
       private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> personTypeIdBuilder_;
       /**
-       * <code>optional .dstore.values.IntegerValue person_type_id = 2;</code>
+       * <code>.dstore.values.IntegerValue person_type_id = 2;</code>
        */
       public boolean hasPersonTypeId() {
         return personTypeIdBuilder_ != null || personTypeId_ != null;
       }
       /**
-       * <code>optional .dstore.values.IntegerValue person_type_id = 2;</code>
+       * <code>.dstore.values.IntegerValue person_type_id = 2;</code>
        */
       public io.dstore.values.IntegerValue getPersonTypeId() {
         if (personTypeIdBuilder_ == null) {
@@ -840,7 +840,7 @@ public final class PmGetPersonCharacCatsAd {
         }
       }
       /**
-       * <code>optional .dstore.values.IntegerValue person_type_id = 2;</code>
+       * <code>.dstore.values.IntegerValue person_type_id = 2;</code>
        */
       public Builder setPersonTypeId(io.dstore.values.IntegerValue value) {
         if (personTypeIdBuilder_ == null) {
@@ -856,7 +856,7 @@ public final class PmGetPersonCharacCatsAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.IntegerValue person_type_id = 2;</code>
+       * <code>.dstore.values.IntegerValue person_type_id = 2;</code>
        */
       public Builder setPersonTypeId(
           io.dstore.values.IntegerValue.Builder builderForValue) {
@@ -870,7 +870,7 @@ public final class PmGetPersonCharacCatsAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.IntegerValue person_type_id = 2;</code>
+       * <code>.dstore.values.IntegerValue person_type_id = 2;</code>
        */
       public Builder mergePersonTypeId(io.dstore.values.IntegerValue value) {
         if (personTypeIdBuilder_ == null) {
@@ -888,7 +888,7 @@ public final class PmGetPersonCharacCatsAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.IntegerValue person_type_id = 2;</code>
+       * <code>.dstore.values.IntegerValue person_type_id = 2;</code>
        */
       public Builder clearPersonTypeId() {
         if (personTypeIdBuilder_ == null) {
@@ -902,7 +902,7 @@ public final class PmGetPersonCharacCatsAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.IntegerValue person_type_id = 2;</code>
+       * <code>.dstore.values.IntegerValue person_type_id = 2;</code>
        */
       public io.dstore.values.IntegerValue.Builder getPersonTypeIdBuilder() {
         
@@ -910,7 +910,7 @@ public final class PmGetPersonCharacCatsAd {
         return getPersonTypeIdFieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .dstore.values.IntegerValue person_type_id = 2;</code>
+       * <code>.dstore.values.IntegerValue person_type_id = 2;</code>
        */
       public io.dstore.values.IntegerValueOrBuilder getPersonTypeIdOrBuilder() {
         if (personTypeIdBuilder_ != null) {
@@ -921,7 +921,7 @@ public final class PmGetPersonCharacCatsAd {
         }
       }
       /**
-       * <code>optional .dstore.values.IntegerValue person_type_id = 2;</code>
+       * <code>.dstore.values.IntegerValue person_type_id = 2;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> 
@@ -939,13 +939,13 @@ public final class PmGetPersonCharacCatsAd {
 
       private boolean personTypeIdNull_ ;
       /**
-       * <code>optional bool person_type_id_null = 1002;</code>
+       * <code>bool person_type_id_null = 1002;</code>
        */
       public boolean getPersonTypeIdNull() {
         return personTypeIdNull_;
       }
       /**
-       * <code>optional bool person_type_id_null = 1002;</code>
+       * <code>bool person_type_id_null = 1002;</code>
        */
       public Builder setPersonTypeIdNull(boolean value) {
         
@@ -954,7 +954,7 @@ public final class PmGetPersonCharacCatsAd {
         return this;
       }
       /**
-       * <code>optional bool person_type_id_null = 1002;</code>
+       * <code>bool person_type_id_null = 1002;</code>
        */
       public Builder clearPersonTypeIdNull() {
         
@@ -967,13 +967,13 @@ public final class PmGetPersonCharacCatsAd {
       private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> personCharacteristicIdBuilder_;
       /**
-       * <code>optional .dstore.values.IntegerValue person_characteristic_id = 3;</code>
+       * <code>.dstore.values.IntegerValue person_characteristic_id = 3;</code>
        */
       public boolean hasPersonCharacteristicId() {
         return personCharacteristicIdBuilder_ != null || personCharacteristicId_ != null;
       }
       /**
-       * <code>optional .dstore.values.IntegerValue person_characteristic_id = 3;</code>
+       * <code>.dstore.values.IntegerValue person_characteristic_id = 3;</code>
        */
       public io.dstore.values.IntegerValue getPersonCharacteristicId() {
         if (personCharacteristicIdBuilder_ == null) {
@@ -983,7 +983,7 @@ public final class PmGetPersonCharacCatsAd {
         }
       }
       /**
-       * <code>optional .dstore.values.IntegerValue person_characteristic_id = 3;</code>
+       * <code>.dstore.values.IntegerValue person_characteristic_id = 3;</code>
        */
       public Builder setPersonCharacteristicId(io.dstore.values.IntegerValue value) {
         if (personCharacteristicIdBuilder_ == null) {
@@ -999,7 +999,7 @@ public final class PmGetPersonCharacCatsAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.IntegerValue person_characteristic_id = 3;</code>
+       * <code>.dstore.values.IntegerValue person_characteristic_id = 3;</code>
        */
       public Builder setPersonCharacteristicId(
           io.dstore.values.IntegerValue.Builder builderForValue) {
@@ -1013,7 +1013,7 @@ public final class PmGetPersonCharacCatsAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.IntegerValue person_characteristic_id = 3;</code>
+       * <code>.dstore.values.IntegerValue person_characteristic_id = 3;</code>
        */
       public Builder mergePersonCharacteristicId(io.dstore.values.IntegerValue value) {
         if (personCharacteristicIdBuilder_ == null) {
@@ -1031,7 +1031,7 @@ public final class PmGetPersonCharacCatsAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.IntegerValue person_characteristic_id = 3;</code>
+       * <code>.dstore.values.IntegerValue person_characteristic_id = 3;</code>
        */
       public Builder clearPersonCharacteristicId() {
         if (personCharacteristicIdBuilder_ == null) {
@@ -1045,7 +1045,7 @@ public final class PmGetPersonCharacCatsAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.IntegerValue person_characteristic_id = 3;</code>
+       * <code>.dstore.values.IntegerValue person_characteristic_id = 3;</code>
        */
       public io.dstore.values.IntegerValue.Builder getPersonCharacteristicIdBuilder() {
         
@@ -1053,7 +1053,7 @@ public final class PmGetPersonCharacCatsAd {
         return getPersonCharacteristicIdFieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .dstore.values.IntegerValue person_characteristic_id = 3;</code>
+       * <code>.dstore.values.IntegerValue person_characteristic_id = 3;</code>
        */
       public io.dstore.values.IntegerValueOrBuilder getPersonCharacteristicIdOrBuilder() {
         if (personCharacteristicIdBuilder_ != null) {
@@ -1064,7 +1064,7 @@ public final class PmGetPersonCharacCatsAd {
         }
       }
       /**
-       * <code>optional .dstore.values.IntegerValue person_characteristic_id = 3;</code>
+       * <code>.dstore.values.IntegerValue person_characteristic_id = 3;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> 
@@ -1082,13 +1082,13 @@ public final class PmGetPersonCharacCatsAd {
 
       private boolean personCharacteristicIdNull_ ;
       /**
-       * <code>optional bool person_characteristic_id_null = 1003;</code>
+       * <code>bool person_characteristic_id_null = 1003;</code>
        */
       public boolean getPersonCharacteristicIdNull() {
         return personCharacteristicIdNull_;
       }
       /**
-       * <code>optional bool person_characteristic_id_null = 1003;</code>
+       * <code>bool person_characteristic_id_null = 1003;</code>
        */
       public Builder setPersonCharacteristicIdNull(boolean value) {
         
@@ -1097,7 +1097,7 @@ public final class PmGetPersonCharacCatsAd {
         return this;
       }
       /**
-       * <code>optional bool person_characteristic_id_null = 1003;</code>
+       * <code>bool person_characteristic_id_null = 1003;</code>
        */
       public Builder clearPersonCharacteristicIdNull() {
         
@@ -1356,7 +1356,7 @@ public final class PmGetPersonCharacCatsAd {
         com.google.protobuf.MessageOrBuilder {
 
       /**
-       * <code>optional int32 row_id = 10000;</code>
+       * <code>int32 row_id = 10000;</code>
        */
       int getRowId();
 
@@ -1365,7 +1365,7 @@ public final class PmGetPersonCharacCatsAd {
        * Bezeichnung des Personen-Typs "PersonTypeID"
        * </pre>
        *
-       * <code>optional .dstore.values.StringValue person_type_description = 10001;</code>
+       * <code>.dstore.values.StringValue person_type_description = 10001;</code>
        */
       boolean hasPersonTypeDescription();
       /**
@@ -1373,7 +1373,7 @@ public final class PmGetPersonCharacCatsAd {
        * Bezeichnung des Personen-Typs "PersonTypeID"
        * </pre>
        *
-       * <code>optional .dstore.values.StringValue person_type_description = 10001;</code>
+       * <code>.dstore.values.StringValue person_type_description = 10001;</code>
        */
       io.dstore.values.StringValue getPersonTypeDescription();
       /**
@@ -1381,7 +1381,7 @@ public final class PmGetPersonCharacCatsAd {
        * Bezeichnung des Personen-Typs "PersonTypeID"
        * </pre>
        *
-       * <code>optional .dstore.values.StringValue person_type_description = 10001;</code>
+       * <code>.dstore.values.StringValue person_type_description = 10001;</code>
        */
       io.dstore.values.StringValueOrBuilder getPersonTypeDescriptionOrBuilder();
 
@@ -1390,7 +1390,7 @@ public final class PmGetPersonCharacCatsAd {
        * "1", falls die Kategorie "PersonCharacCategoryID" Pflicht-Merkmale enthält - das sind Merkmale, zu denen eine Person Eigenschaften besitzen MUSS, damit sie überhaupt ANGELEGT werden kann. Andernfalls "0".
        * </pre>
        *
-       * <code>optional .dstore.values.BooleanValue contains_required_characs = 10002;</code>
+       * <code>.dstore.values.BooleanValue contains_required_characs = 10002;</code>
        */
       boolean hasContainsRequiredCharacs();
       /**
@@ -1398,7 +1398,7 @@ public final class PmGetPersonCharacCatsAd {
        * "1", falls die Kategorie "PersonCharacCategoryID" Pflicht-Merkmale enthält - das sind Merkmale, zu denen eine Person Eigenschaften besitzen MUSS, damit sie überhaupt ANGELEGT werden kann. Andernfalls "0".
        * </pre>
        *
-       * <code>optional .dstore.values.BooleanValue contains_required_characs = 10002;</code>
+       * <code>.dstore.values.BooleanValue contains_required_characs = 10002;</code>
        */
       io.dstore.values.BooleanValue getContainsRequiredCharacs();
       /**
@@ -1406,7 +1406,7 @@ public final class PmGetPersonCharacCatsAd {
        * "1", falls die Kategorie "PersonCharacCategoryID" Pflicht-Merkmale enthält - das sind Merkmale, zu denen eine Person Eigenschaften besitzen MUSS, damit sie überhaupt ANGELEGT werden kann. Andernfalls "0".
        * </pre>
        *
-       * <code>optional .dstore.values.BooleanValue contains_required_characs = 10002;</code>
+       * <code>.dstore.values.BooleanValue contains_required_characs = 10002;</code>
        */
       io.dstore.values.BooleanValueOrBuilder getContainsRequiredCharacsOrBuilder();
 
@@ -1415,7 +1415,7 @@ public final class PmGetPersonCharacCatsAd {
        * Bezeichnung der Kategorie "PersonCharacCategoryID"
        * </pre>
        *
-       * <code>optional .dstore.values.StringValue category_description = 10003;</code>
+       * <code>.dstore.values.StringValue category_description = 10003;</code>
        */
       boolean hasCategoryDescription();
       /**
@@ -1423,7 +1423,7 @@ public final class PmGetPersonCharacCatsAd {
        * Bezeichnung der Kategorie "PersonCharacCategoryID"
        * </pre>
        *
-       * <code>optional .dstore.values.StringValue category_description = 10003;</code>
+       * <code>.dstore.values.StringValue category_description = 10003;</code>
        */
       io.dstore.values.StringValue getCategoryDescription();
       /**
@@ -1431,7 +1431,7 @@ public final class PmGetPersonCharacCatsAd {
        * Bezeichnung der Kategorie "PersonCharacCategoryID"
        * </pre>
        *
-       * <code>optional .dstore.values.StringValue category_description = 10003;</code>
+       * <code>.dstore.values.StringValue category_description = 10003;</code>
        */
       io.dstore.values.StringValueOrBuilder getCategoryDescriptionOrBuilder();
 
@@ -1440,7 +1440,7 @@ public final class PmGetPersonCharacCatsAd {
        * ID des Peronen-Typs, für den die Kategorie "PersonCharacCategoryID" gilt. Einer Kategorie von Personen-Merkmalen ist immer GENAU EIN Personen-Typ zugeordnet.
        * </pre>
        *
-       * <code>optional .dstore.values.IntegerValue person_type_id = 10004;</code>
+       * <code>.dstore.values.IntegerValue person_type_id = 10004;</code>
        */
       boolean hasPersonTypeId();
       /**
@@ -1448,7 +1448,7 @@ public final class PmGetPersonCharacCatsAd {
        * ID des Peronen-Typs, für den die Kategorie "PersonCharacCategoryID" gilt. Einer Kategorie von Personen-Merkmalen ist immer GENAU EIN Personen-Typ zugeordnet.
        * </pre>
        *
-       * <code>optional .dstore.values.IntegerValue person_type_id = 10004;</code>
+       * <code>.dstore.values.IntegerValue person_type_id = 10004;</code>
        */
       io.dstore.values.IntegerValue getPersonTypeId();
       /**
@@ -1456,7 +1456,7 @@ public final class PmGetPersonCharacCatsAd {
        * ID des Peronen-Typs, für den die Kategorie "PersonCharacCategoryID" gilt. Einer Kategorie von Personen-Merkmalen ist immer GENAU EIN Personen-Typ zugeordnet.
        * </pre>
        *
-       * <code>optional .dstore.values.IntegerValue person_type_id = 10004;</code>
+       * <code>.dstore.values.IntegerValue person_type_id = 10004;</code>
        */
       io.dstore.values.IntegerValueOrBuilder getPersonTypeIdOrBuilder();
 
@@ -1465,7 +1465,7 @@ public final class PmGetPersonCharacCatsAd {
        * ID einer Kategorie von Personen-Merkmalen
        * </pre>
        *
-       * <code>optional .dstore.values.IntegerValue person_charac_category_id = 10005;</code>
+       * <code>.dstore.values.IntegerValue person_charac_category_id = 10005;</code>
        */
       boolean hasPersonCharacCategoryId();
       /**
@@ -1473,7 +1473,7 @@ public final class PmGetPersonCharacCatsAd {
        * ID einer Kategorie von Personen-Merkmalen
        * </pre>
        *
-       * <code>optional .dstore.values.IntegerValue person_charac_category_id = 10005;</code>
+       * <code>.dstore.values.IntegerValue person_charac_category_id = 10005;</code>
        */
       io.dstore.values.IntegerValue getPersonCharacCategoryId();
       /**
@@ -1481,7 +1481,7 @@ public final class PmGetPersonCharacCatsAd {
        * ID einer Kategorie von Personen-Merkmalen
        * </pre>
        *
-       * <code>optional .dstore.values.IntegerValue person_charac_category_id = 10005;</code>
+       * <code>.dstore.values.IntegerValue person_charac_category_id = 10005;</code>
        */
       io.dstore.values.IntegerValueOrBuilder getPersonCharacCategoryIdOrBuilder();
     }
@@ -1621,7 +1621,7 @@ public final class PmGetPersonCharacCatsAd {
       public static final int ROW_ID_FIELD_NUMBER = 10000;
       private int rowId_;
       /**
-       * <code>optional int32 row_id = 10000;</code>
+       * <code>int32 row_id = 10000;</code>
        */
       public int getRowId() {
         return rowId_;
@@ -1634,7 +1634,7 @@ public final class PmGetPersonCharacCatsAd {
        * Bezeichnung des Personen-Typs "PersonTypeID"
        * </pre>
        *
-       * <code>optional .dstore.values.StringValue person_type_description = 10001;</code>
+       * <code>.dstore.values.StringValue person_type_description = 10001;</code>
        */
       public boolean hasPersonTypeDescription() {
         return personTypeDescription_ != null;
@@ -1644,7 +1644,7 @@ public final class PmGetPersonCharacCatsAd {
        * Bezeichnung des Personen-Typs "PersonTypeID"
        * </pre>
        *
-       * <code>optional .dstore.values.StringValue person_type_description = 10001;</code>
+       * <code>.dstore.values.StringValue person_type_description = 10001;</code>
        */
       public io.dstore.values.StringValue getPersonTypeDescription() {
         return personTypeDescription_ == null ? io.dstore.values.StringValue.getDefaultInstance() : personTypeDescription_;
@@ -1654,7 +1654,7 @@ public final class PmGetPersonCharacCatsAd {
        * Bezeichnung des Personen-Typs "PersonTypeID"
        * </pre>
        *
-       * <code>optional .dstore.values.StringValue person_type_description = 10001;</code>
+       * <code>.dstore.values.StringValue person_type_description = 10001;</code>
        */
       public io.dstore.values.StringValueOrBuilder getPersonTypeDescriptionOrBuilder() {
         return getPersonTypeDescription();
@@ -1667,7 +1667,7 @@ public final class PmGetPersonCharacCatsAd {
        * "1", falls die Kategorie "PersonCharacCategoryID" Pflicht-Merkmale enthält - das sind Merkmale, zu denen eine Person Eigenschaften besitzen MUSS, damit sie überhaupt ANGELEGT werden kann. Andernfalls "0".
        * </pre>
        *
-       * <code>optional .dstore.values.BooleanValue contains_required_characs = 10002;</code>
+       * <code>.dstore.values.BooleanValue contains_required_characs = 10002;</code>
        */
       public boolean hasContainsRequiredCharacs() {
         return containsRequiredCharacs_ != null;
@@ -1677,7 +1677,7 @@ public final class PmGetPersonCharacCatsAd {
        * "1", falls die Kategorie "PersonCharacCategoryID" Pflicht-Merkmale enthält - das sind Merkmale, zu denen eine Person Eigenschaften besitzen MUSS, damit sie überhaupt ANGELEGT werden kann. Andernfalls "0".
        * </pre>
        *
-       * <code>optional .dstore.values.BooleanValue contains_required_characs = 10002;</code>
+       * <code>.dstore.values.BooleanValue contains_required_characs = 10002;</code>
        */
       public io.dstore.values.BooleanValue getContainsRequiredCharacs() {
         return containsRequiredCharacs_ == null ? io.dstore.values.BooleanValue.getDefaultInstance() : containsRequiredCharacs_;
@@ -1687,7 +1687,7 @@ public final class PmGetPersonCharacCatsAd {
        * "1", falls die Kategorie "PersonCharacCategoryID" Pflicht-Merkmale enthält - das sind Merkmale, zu denen eine Person Eigenschaften besitzen MUSS, damit sie überhaupt ANGELEGT werden kann. Andernfalls "0".
        * </pre>
        *
-       * <code>optional .dstore.values.BooleanValue contains_required_characs = 10002;</code>
+       * <code>.dstore.values.BooleanValue contains_required_characs = 10002;</code>
        */
       public io.dstore.values.BooleanValueOrBuilder getContainsRequiredCharacsOrBuilder() {
         return getContainsRequiredCharacs();
@@ -1700,7 +1700,7 @@ public final class PmGetPersonCharacCatsAd {
        * Bezeichnung der Kategorie "PersonCharacCategoryID"
        * </pre>
        *
-       * <code>optional .dstore.values.StringValue category_description = 10003;</code>
+       * <code>.dstore.values.StringValue category_description = 10003;</code>
        */
       public boolean hasCategoryDescription() {
         return categoryDescription_ != null;
@@ -1710,7 +1710,7 @@ public final class PmGetPersonCharacCatsAd {
        * Bezeichnung der Kategorie "PersonCharacCategoryID"
        * </pre>
        *
-       * <code>optional .dstore.values.StringValue category_description = 10003;</code>
+       * <code>.dstore.values.StringValue category_description = 10003;</code>
        */
       public io.dstore.values.StringValue getCategoryDescription() {
         return categoryDescription_ == null ? io.dstore.values.StringValue.getDefaultInstance() : categoryDescription_;
@@ -1720,7 +1720,7 @@ public final class PmGetPersonCharacCatsAd {
        * Bezeichnung der Kategorie "PersonCharacCategoryID"
        * </pre>
        *
-       * <code>optional .dstore.values.StringValue category_description = 10003;</code>
+       * <code>.dstore.values.StringValue category_description = 10003;</code>
        */
       public io.dstore.values.StringValueOrBuilder getCategoryDescriptionOrBuilder() {
         return getCategoryDescription();
@@ -1733,7 +1733,7 @@ public final class PmGetPersonCharacCatsAd {
        * ID des Peronen-Typs, für den die Kategorie "PersonCharacCategoryID" gilt. Einer Kategorie von Personen-Merkmalen ist immer GENAU EIN Personen-Typ zugeordnet.
        * </pre>
        *
-       * <code>optional .dstore.values.IntegerValue person_type_id = 10004;</code>
+       * <code>.dstore.values.IntegerValue person_type_id = 10004;</code>
        */
       public boolean hasPersonTypeId() {
         return personTypeId_ != null;
@@ -1743,7 +1743,7 @@ public final class PmGetPersonCharacCatsAd {
        * ID des Peronen-Typs, für den die Kategorie "PersonCharacCategoryID" gilt. Einer Kategorie von Personen-Merkmalen ist immer GENAU EIN Personen-Typ zugeordnet.
        * </pre>
        *
-       * <code>optional .dstore.values.IntegerValue person_type_id = 10004;</code>
+       * <code>.dstore.values.IntegerValue person_type_id = 10004;</code>
        */
       public io.dstore.values.IntegerValue getPersonTypeId() {
         return personTypeId_ == null ? io.dstore.values.IntegerValue.getDefaultInstance() : personTypeId_;
@@ -1753,7 +1753,7 @@ public final class PmGetPersonCharacCatsAd {
        * ID des Peronen-Typs, für den die Kategorie "PersonCharacCategoryID" gilt. Einer Kategorie von Personen-Merkmalen ist immer GENAU EIN Personen-Typ zugeordnet.
        * </pre>
        *
-       * <code>optional .dstore.values.IntegerValue person_type_id = 10004;</code>
+       * <code>.dstore.values.IntegerValue person_type_id = 10004;</code>
        */
       public io.dstore.values.IntegerValueOrBuilder getPersonTypeIdOrBuilder() {
         return getPersonTypeId();
@@ -1766,7 +1766,7 @@ public final class PmGetPersonCharacCatsAd {
        * ID einer Kategorie von Personen-Merkmalen
        * </pre>
        *
-       * <code>optional .dstore.values.IntegerValue person_charac_category_id = 10005;</code>
+       * <code>.dstore.values.IntegerValue person_charac_category_id = 10005;</code>
        */
       public boolean hasPersonCharacCategoryId() {
         return personCharacCategoryId_ != null;
@@ -1776,7 +1776,7 @@ public final class PmGetPersonCharacCatsAd {
        * ID einer Kategorie von Personen-Merkmalen
        * </pre>
        *
-       * <code>optional .dstore.values.IntegerValue person_charac_category_id = 10005;</code>
+       * <code>.dstore.values.IntegerValue person_charac_category_id = 10005;</code>
        */
       public io.dstore.values.IntegerValue getPersonCharacCategoryId() {
         return personCharacCategoryId_ == null ? io.dstore.values.IntegerValue.getDefaultInstance() : personCharacCategoryId_;
@@ -1786,7 +1786,7 @@ public final class PmGetPersonCharacCatsAd {
        * ID einer Kategorie von Personen-Merkmalen
        * </pre>
        *
-       * <code>optional .dstore.values.IntegerValue person_charac_category_id = 10005;</code>
+       * <code>.dstore.values.IntegerValue person_charac_category_id = 10005;</code>
        */
       public io.dstore.values.IntegerValueOrBuilder getPersonCharacCategoryIdOrBuilder() {
         return getPersonCharacCategoryId();
@@ -1905,7 +1905,7 @@ public final class PmGetPersonCharacCatsAd {
           return memoizedHashCode;
         }
         int hash = 41;
-        hash = (19 * hash) + getDescriptorForType().hashCode();
+        hash = (19 * hash) + getDescriptor().hashCode();
         hash = (37 * hash) + ROW_ID_FIELD_NUMBER;
         hash = (53 * hash) + getRowId();
         if (hasPersonTypeDescription()) {
@@ -2213,13 +2213,13 @@ public final class PmGetPersonCharacCatsAd {
 
         private int rowId_ ;
         /**
-         * <code>optional int32 row_id = 10000;</code>
+         * <code>int32 row_id = 10000;</code>
          */
         public int getRowId() {
           return rowId_;
         }
         /**
-         * <code>optional int32 row_id = 10000;</code>
+         * <code>int32 row_id = 10000;</code>
          */
         public Builder setRowId(int value) {
           
@@ -2228,7 +2228,7 @@ public final class PmGetPersonCharacCatsAd {
           return this;
         }
         /**
-         * <code>optional int32 row_id = 10000;</code>
+         * <code>int32 row_id = 10000;</code>
          */
         public Builder clearRowId() {
           
@@ -2245,7 +2245,7 @@ public final class PmGetPersonCharacCatsAd {
          * Bezeichnung des Personen-Typs "PersonTypeID"
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue person_type_description = 10001;</code>
+         * <code>.dstore.values.StringValue person_type_description = 10001;</code>
          */
         public boolean hasPersonTypeDescription() {
           return personTypeDescriptionBuilder_ != null || personTypeDescription_ != null;
@@ -2255,7 +2255,7 @@ public final class PmGetPersonCharacCatsAd {
          * Bezeichnung des Personen-Typs "PersonTypeID"
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue person_type_description = 10001;</code>
+         * <code>.dstore.values.StringValue person_type_description = 10001;</code>
          */
         public io.dstore.values.StringValue getPersonTypeDescription() {
           if (personTypeDescriptionBuilder_ == null) {
@@ -2269,7 +2269,7 @@ public final class PmGetPersonCharacCatsAd {
          * Bezeichnung des Personen-Typs "PersonTypeID"
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue person_type_description = 10001;</code>
+         * <code>.dstore.values.StringValue person_type_description = 10001;</code>
          */
         public Builder setPersonTypeDescription(io.dstore.values.StringValue value) {
           if (personTypeDescriptionBuilder_ == null) {
@@ -2289,7 +2289,7 @@ public final class PmGetPersonCharacCatsAd {
          * Bezeichnung des Personen-Typs "PersonTypeID"
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue person_type_description = 10001;</code>
+         * <code>.dstore.values.StringValue person_type_description = 10001;</code>
          */
         public Builder setPersonTypeDescription(
             io.dstore.values.StringValue.Builder builderForValue) {
@@ -2307,7 +2307,7 @@ public final class PmGetPersonCharacCatsAd {
          * Bezeichnung des Personen-Typs "PersonTypeID"
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue person_type_description = 10001;</code>
+         * <code>.dstore.values.StringValue person_type_description = 10001;</code>
          */
         public Builder mergePersonTypeDescription(io.dstore.values.StringValue value) {
           if (personTypeDescriptionBuilder_ == null) {
@@ -2329,7 +2329,7 @@ public final class PmGetPersonCharacCatsAd {
          * Bezeichnung des Personen-Typs "PersonTypeID"
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue person_type_description = 10001;</code>
+         * <code>.dstore.values.StringValue person_type_description = 10001;</code>
          */
         public Builder clearPersonTypeDescription() {
           if (personTypeDescriptionBuilder_ == null) {
@@ -2347,7 +2347,7 @@ public final class PmGetPersonCharacCatsAd {
          * Bezeichnung des Personen-Typs "PersonTypeID"
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue person_type_description = 10001;</code>
+         * <code>.dstore.values.StringValue person_type_description = 10001;</code>
          */
         public io.dstore.values.StringValue.Builder getPersonTypeDescriptionBuilder() {
           
@@ -2359,7 +2359,7 @@ public final class PmGetPersonCharacCatsAd {
          * Bezeichnung des Personen-Typs "PersonTypeID"
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue person_type_description = 10001;</code>
+         * <code>.dstore.values.StringValue person_type_description = 10001;</code>
          */
         public io.dstore.values.StringValueOrBuilder getPersonTypeDescriptionOrBuilder() {
           if (personTypeDescriptionBuilder_ != null) {
@@ -2374,7 +2374,7 @@ public final class PmGetPersonCharacCatsAd {
          * Bezeichnung des Personen-Typs "PersonTypeID"
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue person_type_description = 10001;</code>
+         * <code>.dstore.values.StringValue person_type_description = 10001;</code>
          */
         private com.google.protobuf.SingleFieldBuilderV3<
             io.dstore.values.StringValue, io.dstore.values.StringValue.Builder, io.dstore.values.StringValueOrBuilder> 
@@ -2398,7 +2398,7 @@ public final class PmGetPersonCharacCatsAd {
          * "1", falls die Kategorie "PersonCharacCategoryID" Pflicht-Merkmale enthält - das sind Merkmale, zu denen eine Person Eigenschaften besitzen MUSS, damit sie überhaupt ANGELEGT werden kann. Andernfalls "0".
          * </pre>
          *
-         * <code>optional .dstore.values.BooleanValue contains_required_characs = 10002;</code>
+         * <code>.dstore.values.BooleanValue contains_required_characs = 10002;</code>
          */
         public boolean hasContainsRequiredCharacs() {
           return containsRequiredCharacsBuilder_ != null || containsRequiredCharacs_ != null;
@@ -2408,7 +2408,7 @@ public final class PmGetPersonCharacCatsAd {
          * "1", falls die Kategorie "PersonCharacCategoryID" Pflicht-Merkmale enthält - das sind Merkmale, zu denen eine Person Eigenschaften besitzen MUSS, damit sie überhaupt ANGELEGT werden kann. Andernfalls "0".
          * </pre>
          *
-         * <code>optional .dstore.values.BooleanValue contains_required_characs = 10002;</code>
+         * <code>.dstore.values.BooleanValue contains_required_characs = 10002;</code>
          */
         public io.dstore.values.BooleanValue getContainsRequiredCharacs() {
           if (containsRequiredCharacsBuilder_ == null) {
@@ -2422,7 +2422,7 @@ public final class PmGetPersonCharacCatsAd {
          * "1", falls die Kategorie "PersonCharacCategoryID" Pflicht-Merkmale enthält - das sind Merkmale, zu denen eine Person Eigenschaften besitzen MUSS, damit sie überhaupt ANGELEGT werden kann. Andernfalls "0".
          * </pre>
          *
-         * <code>optional .dstore.values.BooleanValue contains_required_characs = 10002;</code>
+         * <code>.dstore.values.BooleanValue contains_required_characs = 10002;</code>
          */
         public Builder setContainsRequiredCharacs(io.dstore.values.BooleanValue value) {
           if (containsRequiredCharacsBuilder_ == null) {
@@ -2442,7 +2442,7 @@ public final class PmGetPersonCharacCatsAd {
          * "1", falls die Kategorie "PersonCharacCategoryID" Pflicht-Merkmale enthält - das sind Merkmale, zu denen eine Person Eigenschaften besitzen MUSS, damit sie überhaupt ANGELEGT werden kann. Andernfalls "0".
          * </pre>
          *
-         * <code>optional .dstore.values.BooleanValue contains_required_characs = 10002;</code>
+         * <code>.dstore.values.BooleanValue contains_required_characs = 10002;</code>
          */
         public Builder setContainsRequiredCharacs(
             io.dstore.values.BooleanValue.Builder builderForValue) {
@@ -2460,7 +2460,7 @@ public final class PmGetPersonCharacCatsAd {
          * "1", falls die Kategorie "PersonCharacCategoryID" Pflicht-Merkmale enthält - das sind Merkmale, zu denen eine Person Eigenschaften besitzen MUSS, damit sie überhaupt ANGELEGT werden kann. Andernfalls "0".
          * </pre>
          *
-         * <code>optional .dstore.values.BooleanValue contains_required_characs = 10002;</code>
+         * <code>.dstore.values.BooleanValue contains_required_characs = 10002;</code>
          */
         public Builder mergeContainsRequiredCharacs(io.dstore.values.BooleanValue value) {
           if (containsRequiredCharacsBuilder_ == null) {
@@ -2482,7 +2482,7 @@ public final class PmGetPersonCharacCatsAd {
          * "1", falls die Kategorie "PersonCharacCategoryID" Pflicht-Merkmale enthält - das sind Merkmale, zu denen eine Person Eigenschaften besitzen MUSS, damit sie überhaupt ANGELEGT werden kann. Andernfalls "0".
          * </pre>
          *
-         * <code>optional .dstore.values.BooleanValue contains_required_characs = 10002;</code>
+         * <code>.dstore.values.BooleanValue contains_required_characs = 10002;</code>
          */
         public Builder clearContainsRequiredCharacs() {
           if (containsRequiredCharacsBuilder_ == null) {
@@ -2500,7 +2500,7 @@ public final class PmGetPersonCharacCatsAd {
          * "1", falls die Kategorie "PersonCharacCategoryID" Pflicht-Merkmale enthält - das sind Merkmale, zu denen eine Person Eigenschaften besitzen MUSS, damit sie überhaupt ANGELEGT werden kann. Andernfalls "0".
          * </pre>
          *
-         * <code>optional .dstore.values.BooleanValue contains_required_characs = 10002;</code>
+         * <code>.dstore.values.BooleanValue contains_required_characs = 10002;</code>
          */
         public io.dstore.values.BooleanValue.Builder getContainsRequiredCharacsBuilder() {
           
@@ -2512,7 +2512,7 @@ public final class PmGetPersonCharacCatsAd {
          * "1", falls die Kategorie "PersonCharacCategoryID" Pflicht-Merkmale enthält - das sind Merkmale, zu denen eine Person Eigenschaften besitzen MUSS, damit sie überhaupt ANGELEGT werden kann. Andernfalls "0".
          * </pre>
          *
-         * <code>optional .dstore.values.BooleanValue contains_required_characs = 10002;</code>
+         * <code>.dstore.values.BooleanValue contains_required_characs = 10002;</code>
          */
         public io.dstore.values.BooleanValueOrBuilder getContainsRequiredCharacsOrBuilder() {
           if (containsRequiredCharacsBuilder_ != null) {
@@ -2527,7 +2527,7 @@ public final class PmGetPersonCharacCatsAd {
          * "1", falls die Kategorie "PersonCharacCategoryID" Pflicht-Merkmale enthält - das sind Merkmale, zu denen eine Person Eigenschaften besitzen MUSS, damit sie überhaupt ANGELEGT werden kann. Andernfalls "0".
          * </pre>
          *
-         * <code>optional .dstore.values.BooleanValue contains_required_characs = 10002;</code>
+         * <code>.dstore.values.BooleanValue contains_required_characs = 10002;</code>
          */
         private com.google.protobuf.SingleFieldBuilderV3<
             io.dstore.values.BooleanValue, io.dstore.values.BooleanValue.Builder, io.dstore.values.BooleanValueOrBuilder> 
@@ -2551,7 +2551,7 @@ public final class PmGetPersonCharacCatsAd {
          * Bezeichnung der Kategorie "PersonCharacCategoryID"
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue category_description = 10003;</code>
+         * <code>.dstore.values.StringValue category_description = 10003;</code>
          */
         public boolean hasCategoryDescription() {
           return categoryDescriptionBuilder_ != null || categoryDescription_ != null;
@@ -2561,7 +2561,7 @@ public final class PmGetPersonCharacCatsAd {
          * Bezeichnung der Kategorie "PersonCharacCategoryID"
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue category_description = 10003;</code>
+         * <code>.dstore.values.StringValue category_description = 10003;</code>
          */
         public io.dstore.values.StringValue getCategoryDescription() {
           if (categoryDescriptionBuilder_ == null) {
@@ -2575,7 +2575,7 @@ public final class PmGetPersonCharacCatsAd {
          * Bezeichnung der Kategorie "PersonCharacCategoryID"
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue category_description = 10003;</code>
+         * <code>.dstore.values.StringValue category_description = 10003;</code>
          */
         public Builder setCategoryDescription(io.dstore.values.StringValue value) {
           if (categoryDescriptionBuilder_ == null) {
@@ -2595,7 +2595,7 @@ public final class PmGetPersonCharacCatsAd {
          * Bezeichnung der Kategorie "PersonCharacCategoryID"
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue category_description = 10003;</code>
+         * <code>.dstore.values.StringValue category_description = 10003;</code>
          */
         public Builder setCategoryDescription(
             io.dstore.values.StringValue.Builder builderForValue) {
@@ -2613,7 +2613,7 @@ public final class PmGetPersonCharacCatsAd {
          * Bezeichnung der Kategorie "PersonCharacCategoryID"
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue category_description = 10003;</code>
+         * <code>.dstore.values.StringValue category_description = 10003;</code>
          */
         public Builder mergeCategoryDescription(io.dstore.values.StringValue value) {
           if (categoryDescriptionBuilder_ == null) {
@@ -2635,7 +2635,7 @@ public final class PmGetPersonCharacCatsAd {
          * Bezeichnung der Kategorie "PersonCharacCategoryID"
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue category_description = 10003;</code>
+         * <code>.dstore.values.StringValue category_description = 10003;</code>
          */
         public Builder clearCategoryDescription() {
           if (categoryDescriptionBuilder_ == null) {
@@ -2653,7 +2653,7 @@ public final class PmGetPersonCharacCatsAd {
          * Bezeichnung der Kategorie "PersonCharacCategoryID"
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue category_description = 10003;</code>
+         * <code>.dstore.values.StringValue category_description = 10003;</code>
          */
         public io.dstore.values.StringValue.Builder getCategoryDescriptionBuilder() {
           
@@ -2665,7 +2665,7 @@ public final class PmGetPersonCharacCatsAd {
          * Bezeichnung der Kategorie "PersonCharacCategoryID"
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue category_description = 10003;</code>
+         * <code>.dstore.values.StringValue category_description = 10003;</code>
          */
         public io.dstore.values.StringValueOrBuilder getCategoryDescriptionOrBuilder() {
           if (categoryDescriptionBuilder_ != null) {
@@ -2680,7 +2680,7 @@ public final class PmGetPersonCharacCatsAd {
          * Bezeichnung der Kategorie "PersonCharacCategoryID"
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue category_description = 10003;</code>
+         * <code>.dstore.values.StringValue category_description = 10003;</code>
          */
         private com.google.protobuf.SingleFieldBuilderV3<
             io.dstore.values.StringValue, io.dstore.values.StringValue.Builder, io.dstore.values.StringValueOrBuilder> 
@@ -2704,7 +2704,7 @@ public final class PmGetPersonCharacCatsAd {
          * ID des Peronen-Typs, für den die Kategorie "PersonCharacCategoryID" gilt. Einer Kategorie von Personen-Merkmalen ist immer GENAU EIN Personen-Typ zugeordnet.
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue person_type_id = 10004;</code>
+         * <code>.dstore.values.IntegerValue person_type_id = 10004;</code>
          */
         public boolean hasPersonTypeId() {
           return personTypeIdBuilder_ != null || personTypeId_ != null;
@@ -2714,7 +2714,7 @@ public final class PmGetPersonCharacCatsAd {
          * ID des Peronen-Typs, für den die Kategorie "PersonCharacCategoryID" gilt. Einer Kategorie von Personen-Merkmalen ist immer GENAU EIN Personen-Typ zugeordnet.
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue person_type_id = 10004;</code>
+         * <code>.dstore.values.IntegerValue person_type_id = 10004;</code>
          */
         public io.dstore.values.IntegerValue getPersonTypeId() {
           if (personTypeIdBuilder_ == null) {
@@ -2728,7 +2728,7 @@ public final class PmGetPersonCharacCatsAd {
          * ID des Peronen-Typs, für den die Kategorie "PersonCharacCategoryID" gilt. Einer Kategorie von Personen-Merkmalen ist immer GENAU EIN Personen-Typ zugeordnet.
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue person_type_id = 10004;</code>
+         * <code>.dstore.values.IntegerValue person_type_id = 10004;</code>
          */
         public Builder setPersonTypeId(io.dstore.values.IntegerValue value) {
           if (personTypeIdBuilder_ == null) {
@@ -2748,7 +2748,7 @@ public final class PmGetPersonCharacCatsAd {
          * ID des Peronen-Typs, für den die Kategorie "PersonCharacCategoryID" gilt. Einer Kategorie von Personen-Merkmalen ist immer GENAU EIN Personen-Typ zugeordnet.
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue person_type_id = 10004;</code>
+         * <code>.dstore.values.IntegerValue person_type_id = 10004;</code>
          */
         public Builder setPersonTypeId(
             io.dstore.values.IntegerValue.Builder builderForValue) {
@@ -2766,7 +2766,7 @@ public final class PmGetPersonCharacCatsAd {
          * ID des Peronen-Typs, für den die Kategorie "PersonCharacCategoryID" gilt. Einer Kategorie von Personen-Merkmalen ist immer GENAU EIN Personen-Typ zugeordnet.
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue person_type_id = 10004;</code>
+         * <code>.dstore.values.IntegerValue person_type_id = 10004;</code>
          */
         public Builder mergePersonTypeId(io.dstore.values.IntegerValue value) {
           if (personTypeIdBuilder_ == null) {
@@ -2788,7 +2788,7 @@ public final class PmGetPersonCharacCatsAd {
          * ID des Peronen-Typs, für den die Kategorie "PersonCharacCategoryID" gilt. Einer Kategorie von Personen-Merkmalen ist immer GENAU EIN Personen-Typ zugeordnet.
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue person_type_id = 10004;</code>
+         * <code>.dstore.values.IntegerValue person_type_id = 10004;</code>
          */
         public Builder clearPersonTypeId() {
           if (personTypeIdBuilder_ == null) {
@@ -2806,7 +2806,7 @@ public final class PmGetPersonCharacCatsAd {
          * ID des Peronen-Typs, für den die Kategorie "PersonCharacCategoryID" gilt. Einer Kategorie von Personen-Merkmalen ist immer GENAU EIN Personen-Typ zugeordnet.
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue person_type_id = 10004;</code>
+         * <code>.dstore.values.IntegerValue person_type_id = 10004;</code>
          */
         public io.dstore.values.IntegerValue.Builder getPersonTypeIdBuilder() {
           
@@ -2818,7 +2818,7 @@ public final class PmGetPersonCharacCatsAd {
          * ID des Peronen-Typs, für den die Kategorie "PersonCharacCategoryID" gilt. Einer Kategorie von Personen-Merkmalen ist immer GENAU EIN Personen-Typ zugeordnet.
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue person_type_id = 10004;</code>
+         * <code>.dstore.values.IntegerValue person_type_id = 10004;</code>
          */
         public io.dstore.values.IntegerValueOrBuilder getPersonTypeIdOrBuilder() {
           if (personTypeIdBuilder_ != null) {
@@ -2833,7 +2833,7 @@ public final class PmGetPersonCharacCatsAd {
          * ID des Peronen-Typs, für den die Kategorie "PersonCharacCategoryID" gilt. Einer Kategorie von Personen-Merkmalen ist immer GENAU EIN Personen-Typ zugeordnet.
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue person_type_id = 10004;</code>
+         * <code>.dstore.values.IntegerValue person_type_id = 10004;</code>
          */
         private com.google.protobuf.SingleFieldBuilderV3<
             io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> 
@@ -2857,7 +2857,7 @@ public final class PmGetPersonCharacCatsAd {
          * ID einer Kategorie von Personen-Merkmalen
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue person_charac_category_id = 10005;</code>
+         * <code>.dstore.values.IntegerValue person_charac_category_id = 10005;</code>
          */
         public boolean hasPersonCharacCategoryId() {
           return personCharacCategoryIdBuilder_ != null || personCharacCategoryId_ != null;
@@ -2867,7 +2867,7 @@ public final class PmGetPersonCharacCatsAd {
          * ID einer Kategorie von Personen-Merkmalen
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue person_charac_category_id = 10005;</code>
+         * <code>.dstore.values.IntegerValue person_charac_category_id = 10005;</code>
          */
         public io.dstore.values.IntegerValue getPersonCharacCategoryId() {
           if (personCharacCategoryIdBuilder_ == null) {
@@ -2881,7 +2881,7 @@ public final class PmGetPersonCharacCatsAd {
          * ID einer Kategorie von Personen-Merkmalen
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue person_charac_category_id = 10005;</code>
+         * <code>.dstore.values.IntegerValue person_charac_category_id = 10005;</code>
          */
         public Builder setPersonCharacCategoryId(io.dstore.values.IntegerValue value) {
           if (personCharacCategoryIdBuilder_ == null) {
@@ -2901,7 +2901,7 @@ public final class PmGetPersonCharacCatsAd {
          * ID einer Kategorie von Personen-Merkmalen
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue person_charac_category_id = 10005;</code>
+         * <code>.dstore.values.IntegerValue person_charac_category_id = 10005;</code>
          */
         public Builder setPersonCharacCategoryId(
             io.dstore.values.IntegerValue.Builder builderForValue) {
@@ -2919,7 +2919,7 @@ public final class PmGetPersonCharacCatsAd {
          * ID einer Kategorie von Personen-Merkmalen
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue person_charac_category_id = 10005;</code>
+         * <code>.dstore.values.IntegerValue person_charac_category_id = 10005;</code>
          */
         public Builder mergePersonCharacCategoryId(io.dstore.values.IntegerValue value) {
           if (personCharacCategoryIdBuilder_ == null) {
@@ -2941,7 +2941,7 @@ public final class PmGetPersonCharacCatsAd {
          * ID einer Kategorie von Personen-Merkmalen
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue person_charac_category_id = 10005;</code>
+         * <code>.dstore.values.IntegerValue person_charac_category_id = 10005;</code>
          */
         public Builder clearPersonCharacCategoryId() {
           if (personCharacCategoryIdBuilder_ == null) {
@@ -2959,7 +2959,7 @@ public final class PmGetPersonCharacCatsAd {
          * ID einer Kategorie von Personen-Merkmalen
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue person_charac_category_id = 10005;</code>
+         * <code>.dstore.values.IntegerValue person_charac_category_id = 10005;</code>
          */
         public io.dstore.values.IntegerValue.Builder getPersonCharacCategoryIdBuilder() {
           
@@ -2971,7 +2971,7 @@ public final class PmGetPersonCharacCatsAd {
          * ID einer Kategorie von Personen-Merkmalen
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue person_charac_category_id = 10005;</code>
+         * <code>.dstore.values.IntegerValue person_charac_category_id = 10005;</code>
          */
         public io.dstore.values.IntegerValueOrBuilder getPersonCharacCategoryIdOrBuilder() {
           if (personCharacCategoryIdBuilder_ != null) {
@@ -2986,7 +2986,7 @@ public final class PmGetPersonCharacCatsAd {
          * ID einer Kategorie von Personen-Merkmalen
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue person_charac_category_id = 10005;</code>
+         * <code>.dstore.values.IntegerValue person_charac_category_id = 10005;</code>
          */
         private com.google.protobuf.SingleFieldBuilderV3<
             io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> 
@@ -3246,7 +3246,7 @@ public final class PmGetPersonCharacCatsAd {
         return memoizedHashCode;
       }
       int hash = 41;
-      hash = (19 * hash) + getDescriptorForType().hashCode();
+      hash = (19 * hash) + getDescriptor().hashCode();
       if (getMetaInformationCount() > 0) {
         hash = (37 * hash) + META_INFORMATION_FIELD_NUMBER;
         hash = (53 * hash) + getMetaInformationList().hashCode();

@@ -19,74 +19,74 @@ public final class MiGetApplicationSettingsPu {
       com.google.protobuf.MessageOrBuilder {
 
     /**
-     * <code>optional .dstore.values.IntegerValue application_id = 1;</code>
+     * <code>.dstore.values.IntegerValue application_id = 1;</code>
      */
     boolean hasApplicationId();
     /**
-     * <code>optional .dstore.values.IntegerValue application_id = 1;</code>
+     * <code>.dstore.values.IntegerValue application_id = 1;</code>
      */
     io.dstore.values.IntegerValue getApplicationId();
     /**
-     * <code>optional .dstore.values.IntegerValue application_id = 1;</code>
+     * <code>.dstore.values.IntegerValue application_id = 1;</code>
      */
     io.dstore.values.IntegerValueOrBuilder getApplicationIdOrBuilder();
 
     /**
-     * <code>optional bool application_id_null = 1001;</code>
+     * <code>bool application_id_null = 1001;</code>
      */
     boolean getApplicationIdNull();
 
     /**
-     * <code>optional .dstore.values.StringValue key_variable = 2;</code>
+     * <code>.dstore.values.StringValue key_variable = 2;</code>
      */
     boolean hasKeyVariable();
     /**
-     * <code>optional .dstore.values.StringValue key_variable = 2;</code>
+     * <code>.dstore.values.StringValue key_variable = 2;</code>
      */
     io.dstore.values.StringValue getKeyVariable();
     /**
-     * <code>optional .dstore.values.StringValue key_variable = 2;</code>
+     * <code>.dstore.values.StringValue key_variable = 2;</code>
      */
     io.dstore.values.StringValueOrBuilder getKeyVariableOrBuilder();
 
     /**
-     * <code>optional bool key_variable_null = 1002;</code>
+     * <code>bool key_variable_null = 1002;</code>
      */
     boolean getKeyVariableNull();
 
     /**
-     * <code>optional .dstore.values.BooleanValue search_for_key_variable_with_like = 3;</code>
+     * <code>.dstore.values.BooleanValue search_for_key_variable_with_like = 3;</code>
      */
     boolean hasSearchForKeyVariableWithLike();
     /**
-     * <code>optional .dstore.values.BooleanValue search_for_key_variable_with_like = 3;</code>
+     * <code>.dstore.values.BooleanValue search_for_key_variable_with_like = 3;</code>
      */
     io.dstore.values.BooleanValue getSearchForKeyVariableWithLike();
     /**
-     * <code>optional .dstore.values.BooleanValue search_for_key_variable_with_like = 3;</code>
+     * <code>.dstore.values.BooleanValue search_for_key_variable_with_like = 3;</code>
      */
     io.dstore.values.BooleanValueOrBuilder getSearchForKeyVariableWithLikeOrBuilder();
 
     /**
-     * <code>optional bool search_for_key_variable_with_like_null = 1003;</code>
+     * <code>bool search_for_key_variable_with_like_null = 1003;</code>
      */
     boolean getSearchForKeyVariableWithLikeNull();
 
     /**
-     * <code>optional .dstore.values.IntegerValue get_values_for_global_user = 4;</code>
+     * <code>.dstore.values.IntegerValue get_values_for_global_user = 4;</code>
      */
     boolean hasGetValuesForGlobalUser();
     /**
-     * <code>optional .dstore.values.IntegerValue get_values_for_global_user = 4;</code>
+     * <code>.dstore.values.IntegerValue get_values_for_global_user = 4;</code>
      */
     io.dstore.values.IntegerValue getGetValuesForGlobalUser();
     /**
-     * <code>optional .dstore.values.IntegerValue get_values_for_global_user = 4;</code>
+     * <code>.dstore.values.IntegerValue get_values_for_global_user = 4;</code>
      */
     io.dstore.values.IntegerValueOrBuilder getGetValuesForGlobalUserOrBuilder();
 
     /**
-     * <code>optional bool get_values_for_global_user_null = 1004;</code>
+     * <code>bool get_values_for_global_user_null = 1004;</code>
      */
     boolean getGetValuesForGlobalUserNull();
   }
@@ -231,19 +231,19 @@ public final class MiGetApplicationSettingsPu {
     public static final int APPLICATION_ID_FIELD_NUMBER = 1;
     private io.dstore.values.IntegerValue applicationId_;
     /**
-     * <code>optional .dstore.values.IntegerValue application_id = 1;</code>
+     * <code>.dstore.values.IntegerValue application_id = 1;</code>
      */
     public boolean hasApplicationId() {
       return applicationId_ != null;
     }
     /**
-     * <code>optional .dstore.values.IntegerValue application_id = 1;</code>
+     * <code>.dstore.values.IntegerValue application_id = 1;</code>
      */
     public io.dstore.values.IntegerValue getApplicationId() {
       return applicationId_ == null ? io.dstore.values.IntegerValue.getDefaultInstance() : applicationId_;
     }
     /**
-     * <code>optional .dstore.values.IntegerValue application_id = 1;</code>
+     * <code>.dstore.values.IntegerValue application_id = 1;</code>
      */
     public io.dstore.values.IntegerValueOrBuilder getApplicationIdOrBuilder() {
       return getApplicationId();
@@ -252,7 +252,7 @@ public final class MiGetApplicationSettingsPu {
     public static final int APPLICATION_ID_NULL_FIELD_NUMBER = 1001;
     private boolean applicationIdNull_;
     /**
-     * <code>optional bool application_id_null = 1001;</code>
+     * <code>bool application_id_null = 1001;</code>
      */
     public boolean getApplicationIdNull() {
       return applicationIdNull_;
@@ -261,19 +261,19 @@ public final class MiGetApplicationSettingsPu {
     public static final int KEY_VARIABLE_FIELD_NUMBER = 2;
     private io.dstore.values.StringValue keyVariable_;
     /**
-     * <code>optional .dstore.values.StringValue key_variable = 2;</code>
+     * <code>.dstore.values.StringValue key_variable = 2;</code>
      */
     public boolean hasKeyVariable() {
       return keyVariable_ != null;
     }
     /**
-     * <code>optional .dstore.values.StringValue key_variable = 2;</code>
+     * <code>.dstore.values.StringValue key_variable = 2;</code>
      */
     public io.dstore.values.StringValue getKeyVariable() {
       return keyVariable_ == null ? io.dstore.values.StringValue.getDefaultInstance() : keyVariable_;
     }
     /**
-     * <code>optional .dstore.values.StringValue key_variable = 2;</code>
+     * <code>.dstore.values.StringValue key_variable = 2;</code>
      */
     public io.dstore.values.StringValueOrBuilder getKeyVariableOrBuilder() {
       return getKeyVariable();
@@ -282,7 +282,7 @@ public final class MiGetApplicationSettingsPu {
     public static final int KEY_VARIABLE_NULL_FIELD_NUMBER = 1002;
     private boolean keyVariableNull_;
     /**
-     * <code>optional bool key_variable_null = 1002;</code>
+     * <code>bool key_variable_null = 1002;</code>
      */
     public boolean getKeyVariableNull() {
       return keyVariableNull_;
@@ -291,19 +291,19 @@ public final class MiGetApplicationSettingsPu {
     public static final int SEARCH_FOR_KEY_VARIABLE_WITH_LIKE_FIELD_NUMBER = 3;
     private io.dstore.values.BooleanValue searchForKeyVariableWithLike_;
     /**
-     * <code>optional .dstore.values.BooleanValue search_for_key_variable_with_like = 3;</code>
+     * <code>.dstore.values.BooleanValue search_for_key_variable_with_like = 3;</code>
      */
     public boolean hasSearchForKeyVariableWithLike() {
       return searchForKeyVariableWithLike_ != null;
     }
     /**
-     * <code>optional .dstore.values.BooleanValue search_for_key_variable_with_like = 3;</code>
+     * <code>.dstore.values.BooleanValue search_for_key_variable_with_like = 3;</code>
      */
     public io.dstore.values.BooleanValue getSearchForKeyVariableWithLike() {
       return searchForKeyVariableWithLike_ == null ? io.dstore.values.BooleanValue.getDefaultInstance() : searchForKeyVariableWithLike_;
     }
     /**
-     * <code>optional .dstore.values.BooleanValue search_for_key_variable_with_like = 3;</code>
+     * <code>.dstore.values.BooleanValue search_for_key_variable_with_like = 3;</code>
      */
     public io.dstore.values.BooleanValueOrBuilder getSearchForKeyVariableWithLikeOrBuilder() {
       return getSearchForKeyVariableWithLike();
@@ -312,7 +312,7 @@ public final class MiGetApplicationSettingsPu {
     public static final int SEARCH_FOR_KEY_VARIABLE_WITH_LIKE_NULL_FIELD_NUMBER = 1003;
     private boolean searchForKeyVariableWithLikeNull_;
     /**
-     * <code>optional bool search_for_key_variable_with_like_null = 1003;</code>
+     * <code>bool search_for_key_variable_with_like_null = 1003;</code>
      */
     public boolean getSearchForKeyVariableWithLikeNull() {
       return searchForKeyVariableWithLikeNull_;
@@ -321,19 +321,19 @@ public final class MiGetApplicationSettingsPu {
     public static final int GET_VALUES_FOR_GLOBAL_USER_FIELD_NUMBER = 4;
     private io.dstore.values.IntegerValue getValuesForGlobalUser_;
     /**
-     * <code>optional .dstore.values.IntegerValue get_values_for_global_user = 4;</code>
+     * <code>.dstore.values.IntegerValue get_values_for_global_user = 4;</code>
      */
     public boolean hasGetValuesForGlobalUser() {
       return getValuesForGlobalUser_ != null;
     }
     /**
-     * <code>optional .dstore.values.IntegerValue get_values_for_global_user = 4;</code>
+     * <code>.dstore.values.IntegerValue get_values_for_global_user = 4;</code>
      */
     public io.dstore.values.IntegerValue getGetValuesForGlobalUser() {
       return getValuesForGlobalUser_ == null ? io.dstore.values.IntegerValue.getDefaultInstance() : getValuesForGlobalUser_;
     }
     /**
-     * <code>optional .dstore.values.IntegerValue get_values_for_global_user = 4;</code>
+     * <code>.dstore.values.IntegerValue get_values_for_global_user = 4;</code>
      */
     public io.dstore.values.IntegerValueOrBuilder getGetValuesForGlobalUserOrBuilder() {
       return getGetValuesForGlobalUser();
@@ -342,7 +342,7 @@ public final class MiGetApplicationSettingsPu {
     public static final int GET_VALUES_FOR_GLOBAL_USER_NULL_FIELD_NUMBER = 1004;
     private boolean getValuesForGlobalUserNull_;
     /**
-     * <code>optional bool get_values_for_global_user_null = 1004;</code>
+     * <code>bool get_values_for_global_user_null = 1004;</code>
      */
     public boolean getGetValuesForGlobalUserNull() {
       return getValuesForGlobalUserNull_;
@@ -476,7 +476,7 @@ public final class MiGetApplicationSettingsPu {
         return memoizedHashCode;
       }
       int hash = 41;
-      hash = (19 * hash) + getDescriptorForType().hashCode();
+      hash = (19 * hash) + getDescriptor().hashCode();
       if (hasApplicationId()) {
         hash = (37 * hash) + APPLICATION_ID_FIELD_NUMBER;
         hash = (53 * hash) + getApplicationId().hashCode();
@@ -796,13 +796,13 @@ public final class MiGetApplicationSettingsPu {
       private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> applicationIdBuilder_;
       /**
-       * <code>optional .dstore.values.IntegerValue application_id = 1;</code>
+       * <code>.dstore.values.IntegerValue application_id = 1;</code>
        */
       public boolean hasApplicationId() {
         return applicationIdBuilder_ != null || applicationId_ != null;
       }
       /**
-       * <code>optional .dstore.values.IntegerValue application_id = 1;</code>
+       * <code>.dstore.values.IntegerValue application_id = 1;</code>
        */
       public io.dstore.values.IntegerValue getApplicationId() {
         if (applicationIdBuilder_ == null) {
@@ -812,7 +812,7 @@ public final class MiGetApplicationSettingsPu {
         }
       }
       /**
-       * <code>optional .dstore.values.IntegerValue application_id = 1;</code>
+       * <code>.dstore.values.IntegerValue application_id = 1;</code>
        */
       public Builder setApplicationId(io.dstore.values.IntegerValue value) {
         if (applicationIdBuilder_ == null) {
@@ -828,7 +828,7 @@ public final class MiGetApplicationSettingsPu {
         return this;
       }
       /**
-       * <code>optional .dstore.values.IntegerValue application_id = 1;</code>
+       * <code>.dstore.values.IntegerValue application_id = 1;</code>
        */
       public Builder setApplicationId(
           io.dstore.values.IntegerValue.Builder builderForValue) {
@@ -842,7 +842,7 @@ public final class MiGetApplicationSettingsPu {
         return this;
       }
       /**
-       * <code>optional .dstore.values.IntegerValue application_id = 1;</code>
+       * <code>.dstore.values.IntegerValue application_id = 1;</code>
        */
       public Builder mergeApplicationId(io.dstore.values.IntegerValue value) {
         if (applicationIdBuilder_ == null) {
@@ -860,7 +860,7 @@ public final class MiGetApplicationSettingsPu {
         return this;
       }
       /**
-       * <code>optional .dstore.values.IntegerValue application_id = 1;</code>
+       * <code>.dstore.values.IntegerValue application_id = 1;</code>
        */
       public Builder clearApplicationId() {
         if (applicationIdBuilder_ == null) {
@@ -874,7 +874,7 @@ public final class MiGetApplicationSettingsPu {
         return this;
       }
       /**
-       * <code>optional .dstore.values.IntegerValue application_id = 1;</code>
+       * <code>.dstore.values.IntegerValue application_id = 1;</code>
        */
       public io.dstore.values.IntegerValue.Builder getApplicationIdBuilder() {
         
@@ -882,7 +882,7 @@ public final class MiGetApplicationSettingsPu {
         return getApplicationIdFieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .dstore.values.IntegerValue application_id = 1;</code>
+       * <code>.dstore.values.IntegerValue application_id = 1;</code>
        */
       public io.dstore.values.IntegerValueOrBuilder getApplicationIdOrBuilder() {
         if (applicationIdBuilder_ != null) {
@@ -893,7 +893,7 @@ public final class MiGetApplicationSettingsPu {
         }
       }
       /**
-       * <code>optional .dstore.values.IntegerValue application_id = 1;</code>
+       * <code>.dstore.values.IntegerValue application_id = 1;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> 
@@ -911,13 +911,13 @@ public final class MiGetApplicationSettingsPu {
 
       private boolean applicationIdNull_ ;
       /**
-       * <code>optional bool application_id_null = 1001;</code>
+       * <code>bool application_id_null = 1001;</code>
        */
       public boolean getApplicationIdNull() {
         return applicationIdNull_;
       }
       /**
-       * <code>optional bool application_id_null = 1001;</code>
+       * <code>bool application_id_null = 1001;</code>
        */
       public Builder setApplicationIdNull(boolean value) {
         
@@ -926,7 +926,7 @@ public final class MiGetApplicationSettingsPu {
         return this;
       }
       /**
-       * <code>optional bool application_id_null = 1001;</code>
+       * <code>bool application_id_null = 1001;</code>
        */
       public Builder clearApplicationIdNull() {
         
@@ -939,13 +939,13 @@ public final class MiGetApplicationSettingsPu {
       private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.values.StringValue, io.dstore.values.StringValue.Builder, io.dstore.values.StringValueOrBuilder> keyVariableBuilder_;
       /**
-       * <code>optional .dstore.values.StringValue key_variable = 2;</code>
+       * <code>.dstore.values.StringValue key_variable = 2;</code>
        */
       public boolean hasKeyVariable() {
         return keyVariableBuilder_ != null || keyVariable_ != null;
       }
       /**
-       * <code>optional .dstore.values.StringValue key_variable = 2;</code>
+       * <code>.dstore.values.StringValue key_variable = 2;</code>
        */
       public io.dstore.values.StringValue getKeyVariable() {
         if (keyVariableBuilder_ == null) {
@@ -955,7 +955,7 @@ public final class MiGetApplicationSettingsPu {
         }
       }
       /**
-       * <code>optional .dstore.values.StringValue key_variable = 2;</code>
+       * <code>.dstore.values.StringValue key_variable = 2;</code>
        */
       public Builder setKeyVariable(io.dstore.values.StringValue value) {
         if (keyVariableBuilder_ == null) {
@@ -971,7 +971,7 @@ public final class MiGetApplicationSettingsPu {
         return this;
       }
       /**
-       * <code>optional .dstore.values.StringValue key_variable = 2;</code>
+       * <code>.dstore.values.StringValue key_variable = 2;</code>
        */
       public Builder setKeyVariable(
           io.dstore.values.StringValue.Builder builderForValue) {
@@ -985,7 +985,7 @@ public final class MiGetApplicationSettingsPu {
         return this;
       }
       /**
-       * <code>optional .dstore.values.StringValue key_variable = 2;</code>
+       * <code>.dstore.values.StringValue key_variable = 2;</code>
        */
       public Builder mergeKeyVariable(io.dstore.values.StringValue value) {
         if (keyVariableBuilder_ == null) {
@@ -1003,7 +1003,7 @@ public final class MiGetApplicationSettingsPu {
         return this;
       }
       /**
-       * <code>optional .dstore.values.StringValue key_variable = 2;</code>
+       * <code>.dstore.values.StringValue key_variable = 2;</code>
        */
       public Builder clearKeyVariable() {
         if (keyVariableBuilder_ == null) {
@@ -1017,7 +1017,7 @@ public final class MiGetApplicationSettingsPu {
         return this;
       }
       /**
-       * <code>optional .dstore.values.StringValue key_variable = 2;</code>
+       * <code>.dstore.values.StringValue key_variable = 2;</code>
        */
       public io.dstore.values.StringValue.Builder getKeyVariableBuilder() {
         
@@ -1025,7 +1025,7 @@ public final class MiGetApplicationSettingsPu {
         return getKeyVariableFieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .dstore.values.StringValue key_variable = 2;</code>
+       * <code>.dstore.values.StringValue key_variable = 2;</code>
        */
       public io.dstore.values.StringValueOrBuilder getKeyVariableOrBuilder() {
         if (keyVariableBuilder_ != null) {
@@ -1036,7 +1036,7 @@ public final class MiGetApplicationSettingsPu {
         }
       }
       /**
-       * <code>optional .dstore.values.StringValue key_variable = 2;</code>
+       * <code>.dstore.values.StringValue key_variable = 2;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.values.StringValue, io.dstore.values.StringValue.Builder, io.dstore.values.StringValueOrBuilder> 
@@ -1054,13 +1054,13 @@ public final class MiGetApplicationSettingsPu {
 
       private boolean keyVariableNull_ ;
       /**
-       * <code>optional bool key_variable_null = 1002;</code>
+       * <code>bool key_variable_null = 1002;</code>
        */
       public boolean getKeyVariableNull() {
         return keyVariableNull_;
       }
       /**
-       * <code>optional bool key_variable_null = 1002;</code>
+       * <code>bool key_variable_null = 1002;</code>
        */
       public Builder setKeyVariableNull(boolean value) {
         
@@ -1069,7 +1069,7 @@ public final class MiGetApplicationSettingsPu {
         return this;
       }
       /**
-       * <code>optional bool key_variable_null = 1002;</code>
+       * <code>bool key_variable_null = 1002;</code>
        */
       public Builder clearKeyVariableNull() {
         
@@ -1082,13 +1082,13 @@ public final class MiGetApplicationSettingsPu {
       private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.values.BooleanValue, io.dstore.values.BooleanValue.Builder, io.dstore.values.BooleanValueOrBuilder> searchForKeyVariableWithLikeBuilder_;
       /**
-       * <code>optional .dstore.values.BooleanValue search_for_key_variable_with_like = 3;</code>
+       * <code>.dstore.values.BooleanValue search_for_key_variable_with_like = 3;</code>
        */
       public boolean hasSearchForKeyVariableWithLike() {
         return searchForKeyVariableWithLikeBuilder_ != null || searchForKeyVariableWithLike_ != null;
       }
       /**
-       * <code>optional .dstore.values.BooleanValue search_for_key_variable_with_like = 3;</code>
+       * <code>.dstore.values.BooleanValue search_for_key_variable_with_like = 3;</code>
        */
       public io.dstore.values.BooleanValue getSearchForKeyVariableWithLike() {
         if (searchForKeyVariableWithLikeBuilder_ == null) {
@@ -1098,7 +1098,7 @@ public final class MiGetApplicationSettingsPu {
         }
       }
       /**
-       * <code>optional .dstore.values.BooleanValue search_for_key_variable_with_like = 3;</code>
+       * <code>.dstore.values.BooleanValue search_for_key_variable_with_like = 3;</code>
        */
       public Builder setSearchForKeyVariableWithLike(io.dstore.values.BooleanValue value) {
         if (searchForKeyVariableWithLikeBuilder_ == null) {
@@ -1114,7 +1114,7 @@ public final class MiGetApplicationSettingsPu {
         return this;
       }
       /**
-       * <code>optional .dstore.values.BooleanValue search_for_key_variable_with_like = 3;</code>
+       * <code>.dstore.values.BooleanValue search_for_key_variable_with_like = 3;</code>
        */
       public Builder setSearchForKeyVariableWithLike(
           io.dstore.values.BooleanValue.Builder builderForValue) {
@@ -1128,7 +1128,7 @@ public final class MiGetApplicationSettingsPu {
         return this;
       }
       /**
-       * <code>optional .dstore.values.BooleanValue search_for_key_variable_with_like = 3;</code>
+       * <code>.dstore.values.BooleanValue search_for_key_variable_with_like = 3;</code>
        */
       public Builder mergeSearchForKeyVariableWithLike(io.dstore.values.BooleanValue value) {
         if (searchForKeyVariableWithLikeBuilder_ == null) {
@@ -1146,7 +1146,7 @@ public final class MiGetApplicationSettingsPu {
         return this;
       }
       /**
-       * <code>optional .dstore.values.BooleanValue search_for_key_variable_with_like = 3;</code>
+       * <code>.dstore.values.BooleanValue search_for_key_variable_with_like = 3;</code>
        */
       public Builder clearSearchForKeyVariableWithLike() {
         if (searchForKeyVariableWithLikeBuilder_ == null) {
@@ -1160,7 +1160,7 @@ public final class MiGetApplicationSettingsPu {
         return this;
       }
       /**
-       * <code>optional .dstore.values.BooleanValue search_for_key_variable_with_like = 3;</code>
+       * <code>.dstore.values.BooleanValue search_for_key_variable_with_like = 3;</code>
        */
       public io.dstore.values.BooleanValue.Builder getSearchForKeyVariableWithLikeBuilder() {
         
@@ -1168,7 +1168,7 @@ public final class MiGetApplicationSettingsPu {
         return getSearchForKeyVariableWithLikeFieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .dstore.values.BooleanValue search_for_key_variable_with_like = 3;</code>
+       * <code>.dstore.values.BooleanValue search_for_key_variable_with_like = 3;</code>
        */
       public io.dstore.values.BooleanValueOrBuilder getSearchForKeyVariableWithLikeOrBuilder() {
         if (searchForKeyVariableWithLikeBuilder_ != null) {
@@ -1179,7 +1179,7 @@ public final class MiGetApplicationSettingsPu {
         }
       }
       /**
-       * <code>optional .dstore.values.BooleanValue search_for_key_variable_with_like = 3;</code>
+       * <code>.dstore.values.BooleanValue search_for_key_variable_with_like = 3;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.values.BooleanValue, io.dstore.values.BooleanValue.Builder, io.dstore.values.BooleanValueOrBuilder> 
@@ -1197,13 +1197,13 @@ public final class MiGetApplicationSettingsPu {
 
       private boolean searchForKeyVariableWithLikeNull_ ;
       /**
-       * <code>optional bool search_for_key_variable_with_like_null = 1003;</code>
+       * <code>bool search_for_key_variable_with_like_null = 1003;</code>
        */
       public boolean getSearchForKeyVariableWithLikeNull() {
         return searchForKeyVariableWithLikeNull_;
       }
       /**
-       * <code>optional bool search_for_key_variable_with_like_null = 1003;</code>
+       * <code>bool search_for_key_variable_with_like_null = 1003;</code>
        */
       public Builder setSearchForKeyVariableWithLikeNull(boolean value) {
         
@@ -1212,7 +1212,7 @@ public final class MiGetApplicationSettingsPu {
         return this;
       }
       /**
-       * <code>optional bool search_for_key_variable_with_like_null = 1003;</code>
+       * <code>bool search_for_key_variable_with_like_null = 1003;</code>
        */
       public Builder clearSearchForKeyVariableWithLikeNull() {
         
@@ -1225,13 +1225,13 @@ public final class MiGetApplicationSettingsPu {
       private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> getValuesForGlobalUserBuilder_;
       /**
-       * <code>optional .dstore.values.IntegerValue get_values_for_global_user = 4;</code>
+       * <code>.dstore.values.IntegerValue get_values_for_global_user = 4;</code>
        */
       public boolean hasGetValuesForGlobalUser() {
         return getValuesForGlobalUserBuilder_ != null || getValuesForGlobalUser_ != null;
       }
       /**
-       * <code>optional .dstore.values.IntegerValue get_values_for_global_user = 4;</code>
+       * <code>.dstore.values.IntegerValue get_values_for_global_user = 4;</code>
        */
       public io.dstore.values.IntegerValue getGetValuesForGlobalUser() {
         if (getValuesForGlobalUserBuilder_ == null) {
@@ -1241,7 +1241,7 @@ public final class MiGetApplicationSettingsPu {
         }
       }
       /**
-       * <code>optional .dstore.values.IntegerValue get_values_for_global_user = 4;</code>
+       * <code>.dstore.values.IntegerValue get_values_for_global_user = 4;</code>
        */
       public Builder setGetValuesForGlobalUser(io.dstore.values.IntegerValue value) {
         if (getValuesForGlobalUserBuilder_ == null) {
@@ -1257,7 +1257,7 @@ public final class MiGetApplicationSettingsPu {
         return this;
       }
       /**
-       * <code>optional .dstore.values.IntegerValue get_values_for_global_user = 4;</code>
+       * <code>.dstore.values.IntegerValue get_values_for_global_user = 4;</code>
        */
       public Builder setGetValuesForGlobalUser(
           io.dstore.values.IntegerValue.Builder builderForValue) {
@@ -1271,7 +1271,7 @@ public final class MiGetApplicationSettingsPu {
         return this;
       }
       /**
-       * <code>optional .dstore.values.IntegerValue get_values_for_global_user = 4;</code>
+       * <code>.dstore.values.IntegerValue get_values_for_global_user = 4;</code>
        */
       public Builder mergeGetValuesForGlobalUser(io.dstore.values.IntegerValue value) {
         if (getValuesForGlobalUserBuilder_ == null) {
@@ -1289,7 +1289,7 @@ public final class MiGetApplicationSettingsPu {
         return this;
       }
       /**
-       * <code>optional .dstore.values.IntegerValue get_values_for_global_user = 4;</code>
+       * <code>.dstore.values.IntegerValue get_values_for_global_user = 4;</code>
        */
       public Builder clearGetValuesForGlobalUser() {
         if (getValuesForGlobalUserBuilder_ == null) {
@@ -1303,7 +1303,7 @@ public final class MiGetApplicationSettingsPu {
         return this;
       }
       /**
-       * <code>optional .dstore.values.IntegerValue get_values_for_global_user = 4;</code>
+       * <code>.dstore.values.IntegerValue get_values_for_global_user = 4;</code>
        */
       public io.dstore.values.IntegerValue.Builder getGetValuesForGlobalUserBuilder() {
         
@@ -1311,7 +1311,7 @@ public final class MiGetApplicationSettingsPu {
         return getGetValuesForGlobalUserFieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .dstore.values.IntegerValue get_values_for_global_user = 4;</code>
+       * <code>.dstore.values.IntegerValue get_values_for_global_user = 4;</code>
        */
       public io.dstore.values.IntegerValueOrBuilder getGetValuesForGlobalUserOrBuilder() {
         if (getValuesForGlobalUserBuilder_ != null) {
@@ -1322,7 +1322,7 @@ public final class MiGetApplicationSettingsPu {
         }
       }
       /**
-       * <code>optional .dstore.values.IntegerValue get_values_for_global_user = 4;</code>
+       * <code>.dstore.values.IntegerValue get_values_for_global_user = 4;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> 
@@ -1340,13 +1340,13 @@ public final class MiGetApplicationSettingsPu {
 
       private boolean getValuesForGlobalUserNull_ ;
       /**
-       * <code>optional bool get_values_for_global_user_null = 1004;</code>
+       * <code>bool get_values_for_global_user_null = 1004;</code>
        */
       public boolean getGetValuesForGlobalUserNull() {
         return getValuesForGlobalUserNull_;
       }
       /**
-       * <code>optional bool get_values_for_global_user_null = 1004;</code>
+       * <code>bool get_values_for_global_user_null = 1004;</code>
        */
       public Builder setGetValuesForGlobalUserNull(boolean value) {
         
@@ -1355,7 +1355,7 @@ public final class MiGetApplicationSettingsPu {
         return this;
       }
       /**
-       * <code>optional bool get_values_for_global_user_null = 1004;</code>
+       * <code>bool get_values_for_global_user_null = 1004;</code>
        */
       public Builder clearGetValuesForGlobalUserNull() {
         
@@ -1614,7 +1614,7 @@ public final class MiGetApplicationSettingsPu {
         com.google.protobuf.MessageOrBuilder {
 
       /**
-       * <code>optional int32 row_id = 10000;</code>
+       * <code>int32 row_id = 10000;</code>
        */
       int getRowId();
 
@@ -1623,7 +1623,7 @@ public final class MiGetApplicationSettingsPu {
        * Der Wert, der zum Schlüssel "KeyVariable" für den Benutzer , der diese Prozedur aufruft (bzw. für den "globalen" Benutzer) hinterlegt ist
        * </pre>
        *
-       * <code>optional .dstore.values.StringValue value = 10001;</code>
+       * <code>.dstore.values.StringValue value = 10001;</code>
        */
       boolean hasValue();
       /**
@@ -1631,7 +1631,7 @@ public final class MiGetApplicationSettingsPu {
        * Der Wert, der zum Schlüssel "KeyVariable" für den Benutzer , der diese Prozedur aufruft (bzw. für den "globalen" Benutzer) hinterlegt ist
        * </pre>
        *
-       * <code>optional .dstore.values.StringValue value = 10001;</code>
+       * <code>.dstore.values.StringValue value = 10001;</code>
        */
       io.dstore.values.StringValue getValue();
       /**
@@ -1639,7 +1639,7 @@ public final class MiGetApplicationSettingsPu {
        * Der Wert, der zum Schlüssel "KeyVariable" für den Benutzer , der diese Prozedur aufruft (bzw. für den "globalen" Benutzer) hinterlegt ist
        * </pre>
        *
-       * <code>optional .dstore.values.StringValue value = 10001;</code>
+       * <code>.dstore.values.StringValue value = 10001;</code>
        */
       io.dstore.values.StringValueOrBuilder getValueOrBuilder();
 
@@ -1648,7 +1648,7 @@ public final class MiGetApplicationSettingsPu {
        * Ein Schlüssel, zu dem der Wert "Value" für den Benutzer, der diese Prozedur aufruft (bzw. für den "globalen" Benutzer) hinterlegt ist
        * </pre>
        *
-       * <code>optional .dstore.values.StringValue key_variable = 10002;</code>
+       * <code>.dstore.values.StringValue key_variable = 10002;</code>
        */
       boolean hasKeyVariable();
       /**
@@ -1656,7 +1656,7 @@ public final class MiGetApplicationSettingsPu {
        * Ein Schlüssel, zu dem der Wert "Value" für den Benutzer, der diese Prozedur aufruft (bzw. für den "globalen" Benutzer) hinterlegt ist
        * </pre>
        *
-       * <code>optional .dstore.values.StringValue key_variable = 10002;</code>
+       * <code>.dstore.values.StringValue key_variable = 10002;</code>
        */
       io.dstore.values.StringValue getKeyVariable();
       /**
@@ -1664,7 +1664,7 @@ public final class MiGetApplicationSettingsPu {
        * Ein Schlüssel, zu dem der Wert "Value" für den Benutzer, der diese Prozedur aufruft (bzw. für den "globalen" Benutzer) hinterlegt ist
        * </pre>
        *
-       * <code>optional .dstore.values.StringValue key_variable = 10002;</code>
+       * <code>.dstore.values.StringValue key_variable = 10002;</code>
        */
       io.dstore.values.StringValueOrBuilder getKeyVariableOrBuilder();
 
@@ -1673,7 +1673,7 @@ public final class MiGetApplicationSettingsPu {
        * "1", falls "Value" zur "UserID = -1" gespeichert ist
        * </pre>
        *
-       * <code>optional .dstore.values.BooleanValue value_derived_from_global_user = 10003;</code>
+       * <code>.dstore.values.BooleanValue value_derived_from_global_user = 10003;</code>
        */
       boolean hasValueDerivedFromGlobalUser();
       /**
@@ -1681,7 +1681,7 @@ public final class MiGetApplicationSettingsPu {
        * "1", falls "Value" zur "UserID = -1" gespeichert ist
        * </pre>
        *
-       * <code>optional .dstore.values.BooleanValue value_derived_from_global_user = 10003;</code>
+       * <code>.dstore.values.BooleanValue value_derived_from_global_user = 10003;</code>
        */
       io.dstore.values.BooleanValue getValueDerivedFromGlobalUser();
       /**
@@ -1689,7 +1689,7 @@ public final class MiGetApplicationSettingsPu {
        * "1", falls "Value" zur "UserID = -1" gespeichert ist
        * </pre>
        *
-       * <code>optional .dstore.values.BooleanValue value_derived_from_global_user = 10003;</code>
+       * <code>.dstore.values.BooleanValue value_derived_from_global_user = 10003;</code>
        */
       io.dstore.values.BooleanValueOrBuilder getValueDerivedFromGlobalUserOrBuilder();
     }
@@ -1803,7 +1803,7 @@ public final class MiGetApplicationSettingsPu {
       public static final int ROW_ID_FIELD_NUMBER = 10000;
       private int rowId_;
       /**
-       * <code>optional int32 row_id = 10000;</code>
+       * <code>int32 row_id = 10000;</code>
        */
       public int getRowId() {
         return rowId_;
@@ -1816,7 +1816,7 @@ public final class MiGetApplicationSettingsPu {
        * Der Wert, der zum Schlüssel "KeyVariable" für den Benutzer , der diese Prozedur aufruft (bzw. für den "globalen" Benutzer) hinterlegt ist
        * </pre>
        *
-       * <code>optional .dstore.values.StringValue value = 10001;</code>
+       * <code>.dstore.values.StringValue value = 10001;</code>
        */
       public boolean hasValue() {
         return value_ != null;
@@ -1826,7 +1826,7 @@ public final class MiGetApplicationSettingsPu {
        * Der Wert, der zum Schlüssel "KeyVariable" für den Benutzer , der diese Prozedur aufruft (bzw. für den "globalen" Benutzer) hinterlegt ist
        * </pre>
        *
-       * <code>optional .dstore.values.StringValue value = 10001;</code>
+       * <code>.dstore.values.StringValue value = 10001;</code>
        */
       public io.dstore.values.StringValue getValue() {
         return value_ == null ? io.dstore.values.StringValue.getDefaultInstance() : value_;
@@ -1836,7 +1836,7 @@ public final class MiGetApplicationSettingsPu {
        * Der Wert, der zum Schlüssel "KeyVariable" für den Benutzer , der diese Prozedur aufruft (bzw. für den "globalen" Benutzer) hinterlegt ist
        * </pre>
        *
-       * <code>optional .dstore.values.StringValue value = 10001;</code>
+       * <code>.dstore.values.StringValue value = 10001;</code>
        */
       public io.dstore.values.StringValueOrBuilder getValueOrBuilder() {
         return getValue();
@@ -1849,7 +1849,7 @@ public final class MiGetApplicationSettingsPu {
        * Ein Schlüssel, zu dem der Wert "Value" für den Benutzer, der diese Prozedur aufruft (bzw. für den "globalen" Benutzer) hinterlegt ist
        * </pre>
        *
-       * <code>optional .dstore.values.StringValue key_variable = 10002;</code>
+       * <code>.dstore.values.StringValue key_variable = 10002;</code>
        */
       public boolean hasKeyVariable() {
         return keyVariable_ != null;
@@ -1859,7 +1859,7 @@ public final class MiGetApplicationSettingsPu {
        * Ein Schlüssel, zu dem der Wert "Value" für den Benutzer, der diese Prozedur aufruft (bzw. für den "globalen" Benutzer) hinterlegt ist
        * </pre>
        *
-       * <code>optional .dstore.values.StringValue key_variable = 10002;</code>
+       * <code>.dstore.values.StringValue key_variable = 10002;</code>
        */
       public io.dstore.values.StringValue getKeyVariable() {
         return keyVariable_ == null ? io.dstore.values.StringValue.getDefaultInstance() : keyVariable_;
@@ -1869,7 +1869,7 @@ public final class MiGetApplicationSettingsPu {
        * Ein Schlüssel, zu dem der Wert "Value" für den Benutzer, der diese Prozedur aufruft (bzw. für den "globalen" Benutzer) hinterlegt ist
        * </pre>
        *
-       * <code>optional .dstore.values.StringValue key_variable = 10002;</code>
+       * <code>.dstore.values.StringValue key_variable = 10002;</code>
        */
       public io.dstore.values.StringValueOrBuilder getKeyVariableOrBuilder() {
         return getKeyVariable();
@@ -1882,7 +1882,7 @@ public final class MiGetApplicationSettingsPu {
        * "1", falls "Value" zur "UserID = -1" gespeichert ist
        * </pre>
        *
-       * <code>optional .dstore.values.BooleanValue value_derived_from_global_user = 10003;</code>
+       * <code>.dstore.values.BooleanValue value_derived_from_global_user = 10003;</code>
        */
       public boolean hasValueDerivedFromGlobalUser() {
         return valueDerivedFromGlobalUser_ != null;
@@ -1892,7 +1892,7 @@ public final class MiGetApplicationSettingsPu {
        * "1", falls "Value" zur "UserID = -1" gespeichert ist
        * </pre>
        *
-       * <code>optional .dstore.values.BooleanValue value_derived_from_global_user = 10003;</code>
+       * <code>.dstore.values.BooleanValue value_derived_from_global_user = 10003;</code>
        */
       public io.dstore.values.BooleanValue getValueDerivedFromGlobalUser() {
         return valueDerivedFromGlobalUser_ == null ? io.dstore.values.BooleanValue.getDefaultInstance() : valueDerivedFromGlobalUser_;
@@ -1902,7 +1902,7 @@ public final class MiGetApplicationSettingsPu {
        * "1", falls "Value" zur "UserID = -1" gespeichert ist
        * </pre>
        *
-       * <code>optional .dstore.values.BooleanValue value_derived_from_global_user = 10003;</code>
+       * <code>.dstore.values.BooleanValue value_derived_from_global_user = 10003;</code>
        */
       public io.dstore.values.BooleanValueOrBuilder getValueDerivedFromGlobalUserOrBuilder() {
         return getValueDerivedFromGlobalUser();
@@ -1997,7 +1997,7 @@ public final class MiGetApplicationSettingsPu {
           return memoizedHashCode;
         }
         int hash = 41;
-        hash = (19 * hash) + getDescriptorForType().hashCode();
+        hash = (19 * hash) + getDescriptor().hashCode();
         hash = (37 * hash) + ROW_ID_FIELD_NUMBER;
         hash = (53 * hash) + getRowId();
         if (hasValue()) {
@@ -2269,13 +2269,13 @@ public final class MiGetApplicationSettingsPu {
 
         private int rowId_ ;
         /**
-         * <code>optional int32 row_id = 10000;</code>
+         * <code>int32 row_id = 10000;</code>
          */
         public int getRowId() {
           return rowId_;
         }
         /**
-         * <code>optional int32 row_id = 10000;</code>
+         * <code>int32 row_id = 10000;</code>
          */
         public Builder setRowId(int value) {
           
@@ -2284,7 +2284,7 @@ public final class MiGetApplicationSettingsPu {
           return this;
         }
         /**
-         * <code>optional int32 row_id = 10000;</code>
+         * <code>int32 row_id = 10000;</code>
          */
         public Builder clearRowId() {
           
@@ -2301,7 +2301,7 @@ public final class MiGetApplicationSettingsPu {
          * Der Wert, der zum Schlüssel "KeyVariable" für den Benutzer , der diese Prozedur aufruft (bzw. für den "globalen" Benutzer) hinterlegt ist
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue value = 10001;</code>
+         * <code>.dstore.values.StringValue value = 10001;</code>
          */
         public boolean hasValue() {
           return valueBuilder_ != null || value_ != null;
@@ -2311,7 +2311,7 @@ public final class MiGetApplicationSettingsPu {
          * Der Wert, der zum Schlüssel "KeyVariable" für den Benutzer , der diese Prozedur aufruft (bzw. für den "globalen" Benutzer) hinterlegt ist
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue value = 10001;</code>
+         * <code>.dstore.values.StringValue value = 10001;</code>
          */
         public io.dstore.values.StringValue getValue() {
           if (valueBuilder_ == null) {
@@ -2325,7 +2325,7 @@ public final class MiGetApplicationSettingsPu {
          * Der Wert, der zum Schlüssel "KeyVariable" für den Benutzer , der diese Prozedur aufruft (bzw. für den "globalen" Benutzer) hinterlegt ist
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue value = 10001;</code>
+         * <code>.dstore.values.StringValue value = 10001;</code>
          */
         public Builder setValue(io.dstore.values.StringValue value) {
           if (valueBuilder_ == null) {
@@ -2345,7 +2345,7 @@ public final class MiGetApplicationSettingsPu {
          * Der Wert, der zum Schlüssel "KeyVariable" für den Benutzer , der diese Prozedur aufruft (bzw. für den "globalen" Benutzer) hinterlegt ist
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue value = 10001;</code>
+         * <code>.dstore.values.StringValue value = 10001;</code>
          */
         public Builder setValue(
             io.dstore.values.StringValue.Builder builderForValue) {
@@ -2363,7 +2363,7 @@ public final class MiGetApplicationSettingsPu {
          * Der Wert, der zum Schlüssel "KeyVariable" für den Benutzer , der diese Prozedur aufruft (bzw. für den "globalen" Benutzer) hinterlegt ist
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue value = 10001;</code>
+         * <code>.dstore.values.StringValue value = 10001;</code>
          */
         public Builder mergeValue(io.dstore.values.StringValue value) {
           if (valueBuilder_ == null) {
@@ -2385,7 +2385,7 @@ public final class MiGetApplicationSettingsPu {
          * Der Wert, der zum Schlüssel "KeyVariable" für den Benutzer , der diese Prozedur aufruft (bzw. für den "globalen" Benutzer) hinterlegt ist
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue value = 10001;</code>
+         * <code>.dstore.values.StringValue value = 10001;</code>
          */
         public Builder clearValue() {
           if (valueBuilder_ == null) {
@@ -2403,7 +2403,7 @@ public final class MiGetApplicationSettingsPu {
          * Der Wert, der zum Schlüssel "KeyVariable" für den Benutzer , der diese Prozedur aufruft (bzw. für den "globalen" Benutzer) hinterlegt ist
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue value = 10001;</code>
+         * <code>.dstore.values.StringValue value = 10001;</code>
          */
         public io.dstore.values.StringValue.Builder getValueBuilder() {
           
@@ -2415,7 +2415,7 @@ public final class MiGetApplicationSettingsPu {
          * Der Wert, der zum Schlüssel "KeyVariable" für den Benutzer , der diese Prozedur aufruft (bzw. für den "globalen" Benutzer) hinterlegt ist
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue value = 10001;</code>
+         * <code>.dstore.values.StringValue value = 10001;</code>
          */
         public io.dstore.values.StringValueOrBuilder getValueOrBuilder() {
           if (valueBuilder_ != null) {
@@ -2430,7 +2430,7 @@ public final class MiGetApplicationSettingsPu {
          * Der Wert, der zum Schlüssel "KeyVariable" für den Benutzer , der diese Prozedur aufruft (bzw. für den "globalen" Benutzer) hinterlegt ist
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue value = 10001;</code>
+         * <code>.dstore.values.StringValue value = 10001;</code>
          */
         private com.google.protobuf.SingleFieldBuilderV3<
             io.dstore.values.StringValue, io.dstore.values.StringValue.Builder, io.dstore.values.StringValueOrBuilder> 
@@ -2454,7 +2454,7 @@ public final class MiGetApplicationSettingsPu {
          * Ein Schlüssel, zu dem der Wert "Value" für den Benutzer, der diese Prozedur aufruft (bzw. für den "globalen" Benutzer) hinterlegt ist
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue key_variable = 10002;</code>
+         * <code>.dstore.values.StringValue key_variable = 10002;</code>
          */
         public boolean hasKeyVariable() {
           return keyVariableBuilder_ != null || keyVariable_ != null;
@@ -2464,7 +2464,7 @@ public final class MiGetApplicationSettingsPu {
          * Ein Schlüssel, zu dem der Wert "Value" für den Benutzer, der diese Prozedur aufruft (bzw. für den "globalen" Benutzer) hinterlegt ist
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue key_variable = 10002;</code>
+         * <code>.dstore.values.StringValue key_variable = 10002;</code>
          */
         public io.dstore.values.StringValue getKeyVariable() {
           if (keyVariableBuilder_ == null) {
@@ -2478,7 +2478,7 @@ public final class MiGetApplicationSettingsPu {
          * Ein Schlüssel, zu dem der Wert "Value" für den Benutzer, der diese Prozedur aufruft (bzw. für den "globalen" Benutzer) hinterlegt ist
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue key_variable = 10002;</code>
+         * <code>.dstore.values.StringValue key_variable = 10002;</code>
          */
         public Builder setKeyVariable(io.dstore.values.StringValue value) {
           if (keyVariableBuilder_ == null) {
@@ -2498,7 +2498,7 @@ public final class MiGetApplicationSettingsPu {
          * Ein Schlüssel, zu dem der Wert "Value" für den Benutzer, der diese Prozedur aufruft (bzw. für den "globalen" Benutzer) hinterlegt ist
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue key_variable = 10002;</code>
+         * <code>.dstore.values.StringValue key_variable = 10002;</code>
          */
         public Builder setKeyVariable(
             io.dstore.values.StringValue.Builder builderForValue) {
@@ -2516,7 +2516,7 @@ public final class MiGetApplicationSettingsPu {
          * Ein Schlüssel, zu dem der Wert "Value" für den Benutzer, der diese Prozedur aufruft (bzw. für den "globalen" Benutzer) hinterlegt ist
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue key_variable = 10002;</code>
+         * <code>.dstore.values.StringValue key_variable = 10002;</code>
          */
         public Builder mergeKeyVariable(io.dstore.values.StringValue value) {
           if (keyVariableBuilder_ == null) {
@@ -2538,7 +2538,7 @@ public final class MiGetApplicationSettingsPu {
          * Ein Schlüssel, zu dem der Wert "Value" für den Benutzer, der diese Prozedur aufruft (bzw. für den "globalen" Benutzer) hinterlegt ist
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue key_variable = 10002;</code>
+         * <code>.dstore.values.StringValue key_variable = 10002;</code>
          */
         public Builder clearKeyVariable() {
           if (keyVariableBuilder_ == null) {
@@ -2556,7 +2556,7 @@ public final class MiGetApplicationSettingsPu {
          * Ein Schlüssel, zu dem der Wert "Value" für den Benutzer, der diese Prozedur aufruft (bzw. für den "globalen" Benutzer) hinterlegt ist
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue key_variable = 10002;</code>
+         * <code>.dstore.values.StringValue key_variable = 10002;</code>
          */
         public io.dstore.values.StringValue.Builder getKeyVariableBuilder() {
           
@@ -2568,7 +2568,7 @@ public final class MiGetApplicationSettingsPu {
          * Ein Schlüssel, zu dem der Wert "Value" für den Benutzer, der diese Prozedur aufruft (bzw. für den "globalen" Benutzer) hinterlegt ist
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue key_variable = 10002;</code>
+         * <code>.dstore.values.StringValue key_variable = 10002;</code>
          */
         public io.dstore.values.StringValueOrBuilder getKeyVariableOrBuilder() {
           if (keyVariableBuilder_ != null) {
@@ -2583,7 +2583,7 @@ public final class MiGetApplicationSettingsPu {
          * Ein Schlüssel, zu dem der Wert "Value" für den Benutzer, der diese Prozedur aufruft (bzw. für den "globalen" Benutzer) hinterlegt ist
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue key_variable = 10002;</code>
+         * <code>.dstore.values.StringValue key_variable = 10002;</code>
          */
         private com.google.protobuf.SingleFieldBuilderV3<
             io.dstore.values.StringValue, io.dstore.values.StringValue.Builder, io.dstore.values.StringValueOrBuilder> 
@@ -2607,7 +2607,7 @@ public final class MiGetApplicationSettingsPu {
          * "1", falls "Value" zur "UserID = -1" gespeichert ist
          * </pre>
          *
-         * <code>optional .dstore.values.BooleanValue value_derived_from_global_user = 10003;</code>
+         * <code>.dstore.values.BooleanValue value_derived_from_global_user = 10003;</code>
          */
         public boolean hasValueDerivedFromGlobalUser() {
           return valueDerivedFromGlobalUserBuilder_ != null || valueDerivedFromGlobalUser_ != null;
@@ -2617,7 +2617,7 @@ public final class MiGetApplicationSettingsPu {
          * "1", falls "Value" zur "UserID = -1" gespeichert ist
          * </pre>
          *
-         * <code>optional .dstore.values.BooleanValue value_derived_from_global_user = 10003;</code>
+         * <code>.dstore.values.BooleanValue value_derived_from_global_user = 10003;</code>
          */
         public io.dstore.values.BooleanValue getValueDerivedFromGlobalUser() {
           if (valueDerivedFromGlobalUserBuilder_ == null) {
@@ -2631,7 +2631,7 @@ public final class MiGetApplicationSettingsPu {
          * "1", falls "Value" zur "UserID = -1" gespeichert ist
          * </pre>
          *
-         * <code>optional .dstore.values.BooleanValue value_derived_from_global_user = 10003;</code>
+         * <code>.dstore.values.BooleanValue value_derived_from_global_user = 10003;</code>
          */
         public Builder setValueDerivedFromGlobalUser(io.dstore.values.BooleanValue value) {
           if (valueDerivedFromGlobalUserBuilder_ == null) {
@@ -2651,7 +2651,7 @@ public final class MiGetApplicationSettingsPu {
          * "1", falls "Value" zur "UserID = -1" gespeichert ist
          * </pre>
          *
-         * <code>optional .dstore.values.BooleanValue value_derived_from_global_user = 10003;</code>
+         * <code>.dstore.values.BooleanValue value_derived_from_global_user = 10003;</code>
          */
         public Builder setValueDerivedFromGlobalUser(
             io.dstore.values.BooleanValue.Builder builderForValue) {
@@ -2669,7 +2669,7 @@ public final class MiGetApplicationSettingsPu {
          * "1", falls "Value" zur "UserID = -1" gespeichert ist
          * </pre>
          *
-         * <code>optional .dstore.values.BooleanValue value_derived_from_global_user = 10003;</code>
+         * <code>.dstore.values.BooleanValue value_derived_from_global_user = 10003;</code>
          */
         public Builder mergeValueDerivedFromGlobalUser(io.dstore.values.BooleanValue value) {
           if (valueDerivedFromGlobalUserBuilder_ == null) {
@@ -2691,7 +2691,7 @@ public final class MiGetApplicationSettingsPu {
          * "1", falls "Value" zur "UserID = -1" gespeichert ist
          * </pre>
          *
-         * <code>optional .dstore.values.BooleanValue value_derived_from_global_user = 10003;</code>
+         * <code>.dstore.values.BooleanValue value_derived_from_global_user = 10003;</code>
          */
         public Builder clearValueDerivedFromGlobalUser() {
           if (valueDerivedFromGlobalUserBuilder_ == null) {
@@ -2709,7 +2709,7 @@ public final class MiGetApplicationSettingsPu {
          * "1", falls "Value" zur "UserID = -1" gespeichert ist
          * </pre>
          *
-         * <code>optional .dstore.values.BooleanValue value_derived_from_global_user = 10003;</code>
+         * <code>.dstore.values.BooleanValue value_derived_from_global_user = 10003;</code>
          */
         public io.dstore.values.BooleanValue.Builder getValueDerivedFromGlobalUserBuilder() {
           
@@ -2721,7 +2721,7 @@ public final class MiGetApplicationSettingsPu {
          * "1", falls "Value" zur "UserID = -1" gespeichert ist
          * </pre>
          *
-         * <code>optional .dstore.values.BooleanValue value_derived_from_global_user = 10003;</code>
+         * <code>.dstore.values.BooleanValue value_derived_from_global_user = 10003;</code>
          */
         public io.dstore.values.BooleanValueOrBuilder getValueDerivedFromGlobalUserOrBuilder() {
           if (valueDerivedFromGlobalUserBuilder_ != null) {
@@ -2736,7 +2736,7 @@ public final class MiGetApplicationSettingsPu {
          * "1", falls "Value" zur "UserID = -1" gespeichert ist
          * </pre>
          *
-         * <code>optional .dstore.values.BooleanValue value_derived_from_global_user = 10003;</code>
+         * <code>.dstore.values.BooleanValue value_derived_from_global_user = 10003;</code>
          */
         private com.google.protobuf.SingleFieldBuilderV3<
             io.dstore.values.BooleanValue, io.dstore.values.BooleanValue.Builder, io.dstore.values.BooleanValueOrBuilder> 
@@ -2996,7 +2996,7 @@ public final class MiGetApplicationSettingsPu {
         return memoizedHashCode;
       }
       int hash = 41;
-      hash = (19 * hash) + getDescriptorForType().hashCode();
+      hash = (19 * hash) + getDescriptor().hashCode();
       if (getMetaInformationCount() > 0) {
         hash = (37 * hash) + META_INFORMATION_FIELD_NUMBER;
         hash = (53 * hash) + getMetaInformationList().hashCode();

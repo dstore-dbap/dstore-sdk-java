@@ -8,21 +8,21 @@ public interface MessageOrBuilder extends
     com.google.protobuf.MessageOrBuilder {
 
   /**
-   * <code>optional int32 severity = 1;</code>
+   * <code>int32 severity = 1;</code>
    */
   int getSeverity();
 
   /**
-   * <code>optional int32 code = 2;</code>
+   * <code>int32 code = 2;</code>
    */
   int getCode();
 
   /**
-   * <code>optional string message = 3;</code>
+   * <code>string message = 3;</code>
    */
   java.lang.String getMessage();
   /**
-   * <code>optional string message = 3;</code>
+   * <code>string message = 3;</code>
    */
   com.google.protobuf.ByteString
       getMessageBytes();

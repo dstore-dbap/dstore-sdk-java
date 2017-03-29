@@ -19,146 +19,146 @@ public final class OmAcknowledgeOrdersAd {
       com.google.protobuf.MessageOrBuilder {
 
     /**
-     * <code>optional .dstore.values.BooleanValue add_order_informations = 1;</code>
+     * <code>.dstore.values.BooleanValue add_order_informations = 1;</code>
      */
     boolean hasAddOrderInformations();
     /**
-     * <code>optional .dstore.values.BooleanValue add_order_informations = 1;</code>
+     * <code>.dstore.values.BooleanValue add_order_informations = 1;</code>
      */
     io.dstore.values.BooleanValue getAddOrderInformations();
     /**
-     * <code>optional .dstore.values.BooleanValue add_order_informations = 1;</code>
+     * <code>.dstore.values.BooleanValue add_order_informations = 1;</code>
      */
     io.dstore.values.BooleanValueOrBuilder getAddOrderInformationsOrBuilder();
 
     /**
-     * <code>optional bool add_order_informations_null = 1001;</code>
+     * <code>bool add_order_informations_null = 1001;</code>
      */
     boolean getAddOrderInformationsNull();
 
     /**
-     * <code>optional .dstore.values.IntegerValue order_id = 2;</code>
+     * <code>.dstore.values.IntegerValue order_id = 2;</code>
      */
     boolean hasOrderId();
     /**
-     * <code>optional .dstore.values.IntegerValue order_id = 2;</code>
+     * <code>.dstore.values.IntegerValue order_id = 2;</code>
      */
     io.dstore.values.IntegerValue getOrderId();
     /**
-     * <code>optional .dstore.values.IntegerValue order_id = 2;</code>
+     * <code>.dstore.values.IntegerValue order_id = 2;</code>
      */
     io.dstore.values.IntegerValueOrBuilder getOrderIdOrBuilder();
 
     /**
-     * <code>optional bool order_id_null = 1002;</code>
+     * <code>bool order_id_null = 1002;</code>
      */
     boolean getOrderIdNull();
 
     /**
-     * <code>optional .dstore.values.StringValue order_no = 3;</code>
+     * <code>.dstore.values.StringValue order_no = 3;</code>
      */
     boolean hasOrderNo();
     /**
-     * <code>optional .dstore.values.StringValue order_no = 3;</code>
+     * <code>.dstore.values.StringValue order_no = 3;</code>
      */
     io.dstore.values.StringValue getOrderNo();
     /**
-     * <code>optional .dstore.values.StringValue order_no = 3;</code>
+     * <code>.dstore.values.StringValue order_no = 3;</code>
      */
     io.dstore.values.StringValueOrBuilder getOrderNoOrBuilder();
 
     /**
-     * <code>optional bool order_no_null = 1003;</code>
+     * <code>bool order_no_null = 1003;</code>
      */
     boolean getOrderNoNull();
 
     /**
-     * <code>optional .dstore.values.StringValue customer_no = 4;</code>
+     * <code>.dstore.values.StringValue customer_no = 4;</code>
      */
     boolean hasCustomerNo();
     /**
-     * <code>optional .dstore.values.StringValue customer_no = 4;</code>
+     * <code>.dstore.values.StringValue customer_no = 4;</code>
      */
     io.dstore.values.StringValue getCustomerNo();
     /**
-     * <code>optional .dstore.values.StringValue customer_no = 4;</code>
+     * <code>.dstore.values.StringValue customer_no = 4;</code>
      */
     io.dstore.values.StringValueOrBuilder getCustomerNoOrBuilder();
 
     /**
-     * <code>optional bool customer_no_null = 1004;</code>
+     * <code>bool customer_no_null = 1004;</code>
      */
     boolean getCustomerNoNull();
 
     /**
-     * <code>optional .dstore.values.StringValue delivery_customer_no = 5;</code>
+     * <code>.dstore.values.StringValue delivery_customer_no = 5;</code>
      */
     boolean hasDeliveryCustomerNo();
     /**
-     * <code>optional .dstore.values.StringValue delivery_customer_no = 5;</code>
+     * <code>.dstore.values.StringValue delivery_customer_no = 5;</code>
      */
     io.dstore.values.StringValue getDeliveryCustomerNo();
     /**
-     * <code>optional .dstore.values.StringValue delivery_customer_no = 5;</code>
+     * <code>.dstore.values.StringValue delivery_customer_no = 5;</code>
      */
     io.dstore.values.StringValueOrBuilder getDeliveryCustomerNoOrBuilder();
 
     /**
-     * <code>optional bool delivery_customer_no_null = 1005;</code>
+     * <code>bool delivery_customer_no_null = 1005;</code>
      */
     boolean getDeliveryCustomerNoNull();
 
     /**
-     * <code>optional .dstore.values.BooleanValue fireac_acknowledge_order = 6;</code>
+     * <code>.dstore.values.BooleanValue fireac_acknowledge_order = 6;</code>
      */
     boolean hasFireacAcknowledgeOrder();
     /**
-     * <code>optional .dstore.values.BooleanValue fireac_acknowledge_order = 6;</code>
+     * <code>.dstore.values.BooleanValue fireac_acknowledge_order = 6;</code>
      */
     io.dstore.values.BooleanValue getFireacAcknowledgeOrder();
     /**
-     * <code>optional .dstore.values.BooleanValue fireac_acknowledge_order = 6;</code>
+     * <code>.dstore.values.BooleanValue fireac_acknowledge_order = 6;</code>
      */
     io.dstore.values.BooleanValueOrBuilder getFireacAcknowledgeOrderOrBuilder();
 
     /**
-     * <code>optional bool fireac_acknowledge_order_null = 1006;</code>
+     * <code>bool fireac_acknowledge_order_null = 1006;</code>
      */
     boolean getFireacAcknowledgeOrderNull();
 
     /**
-     * <code>optional .dstore.values.IntegerValue add_order_information = 7;</code>
+     * <code>.dstore.values.IntegerValue add_order_information = 7;</code>
      */
     boolean hasAddOrderInformation();
     /**
-     * <code>optional .dstore.values.IntegerValue add_order_information = 7;</code>
+     * <code>.dstore.values.IntegerValue add_order_information = 7;</code>
      */
     io.dstore.values.IntegerValue getAddOrderInformation();
     /**
-     * <code>optional .dstore.values.IntegerValue add_order_information = 7;</code>
+     * <code>.dstore.values.IntegerValue add_order_information = 7;</code>
      */
     io.dstore.values.IntegerValueOrBuilder getAddOrderInformationOrBuilder();
 
     /**
-     * <code>optional bool add_order_information_null = 1007;</code>
+     * <code>bool add_order_information_null = 1007;</code>
      */
     boolean getAddOrderInformationNull();
 
     /**
-     * <code>optional .dstore.values.IntegerValue add_order_content_information = 8;</code>
+     * <code>.dstore.values.IntegerValue add_order_content_information = 8;</code>
      */
     boolean hasAddOrderContentInformation();
     /**
-     * <code>optional .dstore.values.IntegerValue add_order_content_information = 8;</code>
+     * <code>.dstore.values.IntegerValue add_order_content_information = 8;</code>
      */
     io.dstore.values.IntegerValue getAddOrderContentInformation();
     /**
-     * <code>optional .dstore.values.IntegerValue add_order_content_information = 8;</code>
+     * <code>.dstore.values.IntegerValue add_order_content_information = 8;</code>
      */
     io.dstore.values.IntegerValueOrBuilder getAddOrderContentInformationOrBuilder();
 
     /**
-     * <code>optional bool add_order_content_information_null = 1008;</code>
+     * <code>bool add_order_content_information_null = 1008;</code>
      */
     boolean getAddOrderContentInformationNull();
   }
@@ -379,19 +379,19 @@ public final class OmAcknowledgeOrdersAd {
     public static final int ADD_ORDER_INFORMATIONS_FIELD_NUMBER = 1;
     private io.dstore.values.BooleanValue addOrderInformations_;
     /**
-     * <code>optional .dstore.values.BooleanValue add_order_informations = 1;</code>
+     * <code>.dstore.values.BooleanValue add_order_informations = 1;</code>
      */
     public boolean hasAddOrderInformations() {
       return addOrderInformations_ != null;
     }
     /**
-     * <code>optional .dstore.values.BooleanValue add_order_informations = 1;</code>
+     * <code>.dstore.values.BooleanValue add_order_informations = 1;</code>
      */
     public io.dstore.values.BooleanValue getAddOrderInformations() {
       return addOrderInformations_ == null ? io.dstore.values.BooleanValue.getDefaultInstance() : addOrderInformations_;
     }
     /**
-     * <code>optional .dstore.values.BooleanValue add_order_informations = 1;</code>
+     * <code>.dstore.values.BooleanValue add_order_informations = 1;</code>
      */
     public io.dstore.values.BooleanValueOrBuilder getAddOrderInformationsOrBuilder() {
       return getAddOrderInformations();
@@ -400,7 +400,7 @@ public final class OmAcknowledgeOrdersAd {
     public static final int ADD_ORDER_INFORMATIONS_NULL_FIELD_NUMBER = 1001;
     private boolean addOrderInformationsNull_;
     /**
-     * <code>optional bool add_order_informations_null = 1001;</code>
+     * <code>bool add_order_informations_null = 1001;</code>
      */
     public boolean getAddOrderInformationsNull() {
       return addOrderInformationsNull_;
@@ -409,19 +409,19 @@ public final class OmAcknowledgeOrdersAd {
     public static final int ORDER_ID_FIELD_NUMBER = 2;
     private io.dstore.values.IntegerValue orderId_;
     /**
-     * <code>optional .dstore.values.IntegerValue order_id = 2;</code>
+     * <code>.dstore.values.IntegerValue order_id = 2;</code>
      */
     public boolean hasOrderId() {
       return orderId_ != null;
     }
     /**
-     * <code>optional .dstore.values.IntegerValue order_id = 2;</code>
+     * <code>.dstore.values.IntegerValue order_id = 2;</code>
      */
     public io.dstore.values.IntegerValue getOrderId() {
       return orderId_ == null ? io.dstore.values.IntegerValue.getDefaultInstance() : orderId_;
     }
     /**
-     * <code>optional .dstore.values.IntegerValue order_id = 2;</code>
+     * <code>.dstore.values.IntegerValue order_id = 2;</code>
      */
     public io.dstore.values.IntegerValueOrBuilder getOrderIdOrBuilder() {
       return getOrderId();
@@ -430,7 +430,7 @@ public final class OmAcknowledgeOrdersAd {
     public static final int ORDER_ID_NULL_FIELD_NUMBER = 1002;
     private boolean orderIdNull_;
     /**
-     * <code>optional bool order_id_null = 1002;</code>
+     * <code>bool order_id_null = 1002;</code>
      */
     public boolean getOrderIdNull() {
       return orderIdNull_;
@@ -439,19 +439,19 @@ public final class OmAcknowledgeOrdersAd {
     public static final int ORDER_NO_FIELD_NUMBER = 3;
     private io.dstore.values.StringValue orderNo_;
     /**
-     * <code>optional .dstore.values.StringValue order_no = 3;</code>
+     * <code>.dstore.values.StringValue order_no = 3;</code>
      */
     public boolean hasOrderNo() {
       return orderNo_ != null;
     }
     /**
-     * <code>optional .dstore.values.StringValue order_no = 3;</code>
+     * <code>.dstore.values.StringValue order_no = 3;</code>
      */
     public io.dstore.values.StringValue getOrderNo() {
       return orderNo_ == null ? io.dstore.values.StringValue.getDefaultInstance() : orderNo_;
     }
     /**
-     * <code>optional .dstore.values.StringValue order_no = 3;</code>
+     * <code>.dstore.values.StringValue order_no = 3;</code>
      */
     public io.dstore.values.StringValueOrBuilder getOrderNoOrBuilder() {
       return getOrderNo();
@@ -460,7 +460,7 @@ public final class OmAcknowledgeOrdersAd {
     public static final int ORDER_NO_NULL_FIELD_NUMBER = 1003;
     private boolean orderNoNull_;
     /**
-     * <code>optional bool order_no_null = 1003;</code>
+     * <code>bool order_no_null = 1003;</code>
      */
     public boolean getOrderNoNull() {
       return orderNoNull_;
@@ -469,19 +469,19 @@ public final class OmAcknowledgeOrdersAd {
     public static final int CUSTOMER_NO_FIELD_NUMBER = 4;
     private io.dstore.values.StringValue customerNo_;
     /**
-     * <code>optional .dstore.values.StringValue customer_no = 4;</code>
+     * <code>.dstore.values.StringValue customer_no = 4;</code>
      */
     public boolean hasCustomerNo() {
       return customerNo_ != null;
     }
     /**
-     * <code>optional .dstore.values.StringValue customer_no = 4;</code>
+     * <code>.dstore.values.StringValue customer_no = 4;</code>
      */
     public io.dstore.values.StringValue getCustomerNo() {
       return customerNo_ == null ? io.dstore.values.StringValue.getDefaultInstance() : customerNo_;
     }
     /**
-     * <code>optional .dstore.values.StringValue customer_no = 4;</code>
+     * <code>.dstore.values.StringValue customer_no = 4;</code>
      */
     public io.dstore.values.StringValueOrBuilder getCustomerNoOrBuilder() {
       return getCustomerNo();
@@ -490,7 +490,7 @@ public final class OmAcknowledgeOrdersAd {
     public static final int CUSTOMER_NO_NULL_FIELD_NUMBER = 1004;
     private boolean customerNoNull_;
     /**
-     * <code>optional bool customer_no_null = 1004;</code>
+     * <code>bool customer_no_null = 1004;</code>
      */
     public boolean getCustomerNoNull() {
       return customerNoNull_;
@@ -499,19 +499,19 @@ public final class OmAcknowledgeOrdersAd {
     public static final int DELIVERY_CUSTOMER_NO_FIELD_NUMBER = 5;
     private io.dstore.values.StringValue deliveryCustomerNo_;
     /**
-     * <code>optional .dstore.values.StringValue delivery_customer_no = 5;</code>
+     * <code>.dstore.values.StringValue delivery_customer_no = 5;</code>
      */
     public boolean hasDeliveryCustomerNo() {
       return deliveryCustomerNo_ != null;
     }
     /**
-     * <code>optional .dstore.values.StringValue delivery_customer_no = 5;</code>
+     * <code>.dstore.values.StringValue delivery_customer_no = 5;</code>
      */
     public io.dstore.values.StringValue getDeliveryCustomerNo() {
       return deliveryCustomerNo_ == null ? io.dstore.values.StringValue.getDefaultInstance() : deliveryCustomerNo_;
     }
     /**
-     * <code>optional .dstore.values.StringValue delivery_customer_no = 5;</code>
+     * <code>.dstore.values.StringValue delivery_customer_no = 5;</code>
      */
     public io.dstore.values.StringValueOrBuilder getDeliveryCustomerNoOrBuilder() {
       return getDeliveryCustomerNo();
@@ -520,7 +520,7 @@ public final class OmAcknowledgeOrdersAd {
     public static final int DELIVERY_CUSTOMER_NO_NULL_FIELD_NUMBER = 1005;
     private boolean deliveryCustomerNoNull_;
     /**
-     * <code>optional bool delivery_customer_no_null = 1005;</code>
+     * <code>bool delivery_customer_no_null = 1005;</code>
      */
     public boolean getDeliveryCustomerNoNull() {
       return deliveryCustomerNoNull_;
@@ -529,19 +529,19 @@ public final class OmAcknowledgeOrdersAd {
     public static final int FIREAC_ACKNOWLEDGE_ORDER_FIELD_NUMBER = 6;
     private io.dstore.values.BooleanValue fireacAcknowledgeOrder_;
     /**
-     * <code>optional .dstore.values.BooleanValue fireac_acknowledge_order = 6;</code>
+     * <code>.dstore.values.BooleanValue fireac_acknowledge_order = 6;</code>
      */
     public boolean hasFireacAcknowledgeOrder() {
       return fireacAcknowledgeOrder_ != null;
     }
     /**
-     * <code>optional .dstore.values.BooleanValue fireac_acknowledge_order = 6;</code>
+     * <code>.dstore.values.BooleanValue fireac_acknowledge_order = 6;</code>
      */
     public io.dstore.values.BooleanValue getFireacAcknowledgeOrder() {
       return fireacAcknowledgeOrder_ == null ? io.dstore.values.BooleanValue.getDefaultInstance() : fireacAcknowledgeOrder_;
     }
     /**
-     * <code>optional .dstore.values.BooleanValue fireac_acknowledge_order = 6;</code>
+     * <code>.dstore.values.BooleanValue fireac_acknowledge_order = 6;</code>
      */
     public io.dstore.values.BooleanValueOrBuilder getFireacAcknowledgeOrderOrBuilder() {
       return getFireacAcknowledgeOrder();
@@ -550,7 +550,7 @@ public final class OmAcknowledgeOrdersAd {
     public static final int FIREAC_ACKNOWLEDGE_ORDER_NULL_FIELD_NUMBER = 1006;
     private boolean fireacAcknowledgeOrderNull_;
     /**
-     * <code>optional bool fireac_acknowledge_order_null = 1006;</code>
+     * <code>bool fireac_acknowledge_order_null = 1006;</code>
      */
     public boolean getFireacAcknowledgeOrderNull() {
       return fireacAcknowledgeOrderNull_;
@@ -559,19 +559,19 @@ public final class OmAcknowledgeOrdersAd {
     public static final int ADD_ORDER_INFORMATION_FIELD_NUMBER = 7;
     private io.dstore.values.IntegerValue addOrderInformation_;
     /**
-     * <code>optional .dstore.values.IntegerValue add_order_information = 7;</code>
+     * <code>.dstore.values.IntegerValue add_order_information = 7;</code>
      */
     public boolean hasAddOrderInformation() {
       return addOrderInformation_ != null;
     }
     /**
-     * <code>optional .dstore.values.IntegerValue add_order_information = 7;</code>
+     * <code>.dstore.values.IntegerValue add_order_information = 7;</code>
      */
     public io.dstore.values.IntegerValue getAddOrderInformation() {
       return addOrderInformation_ == null ? io.dstore.values.IntegerValue.getDefaultInstance() : addOrderInformation_;
     }
     /**
-     * <code>optional .dstore.values.IntegerValue add_order_information = 7;</code>
+     * <code>.dstore.values.IntegerValue add_order_information = 7;</code>
      */
     public io.dstore.values.IntegerValueOrBuilder getAddOrderInformationOrBuilder() {
       return getAddOrderInformation();
@@ -580,7 +580,7 @@ public final class OmAcknowledgeOrdersAd {
     public static final int ADD_ORDER_INFORMATION_NULL_FIELD_NUMBER = 1007;
     private boolean addOrderInformationNull_;
     /**
-     * <code>optional bool add_order_information_null = 1007;</code>
+     * <code>bool add_order_information_null = 1007;</code>
      */
     public boolean getAddOrderInformationNull() {
       return addOrderInformationNull_;
@@ -589,19 +589,19 @@ public final class OmAcknowledgeOrdersAd {
     public static final int ADD_ORDER_CONTENT_INFORMATION_FIELD_NUMBER = 8;
     private io.dstore.values.IntegerValue addOrderContentInformation_;
     /**
-     * <code>optional .dstore.values.IntegerValue add_order_content_information = 8;</code>
+     * <code>.dstore.values.IntegerValue add_order_content_information = 8;</code>
      */
     public boolean hasAddOrderContentInformation() {
       return addOrderContentInformation_ != null;
     }
     /**
-     * <code>optional .dstore.values.IntegerValue add_order_content_information = 8;</code>
+     * <code>.dstore.values.IntegerValue add_order_content_information = 8;</code>
      */
     public io.dstore.values.IntegerValue getAddOrderContentInformation() {
       return addOrderContentInformation_ == null ? io.dstore.values.IntegerValue.getDefaultInstance() : addOrderContentInformation_;
     }
     /**
-     * <code>optional .dstore.values.IntegerValue add_order_content_information = 8;</code>
+     * <code>.dstore.values.IntegerValue add_order_content_information = 8;</code>
      */
     public io.dstore.values.IntegerValueOrBuilder getAddOrderContentInformationOrBuilder() {
       return getAddOrderContentInformation();
@@ -610,7 +610,7 @@ public final class OmAcknowledgeOrdersAd {
     public static final int ADD_ORDER_CONTENT_INFORMATION_NULL_FIELD_NUMBER = 1008;
     private boolean addOrderContentInformationNull_;
     /**
-     * <code>optional bool add_order_content_information_null = 1008;</code>
+     * <code>bool add_order_content_information_null = 1008;</code>
      */
     public boolean getAddOrderContentInformationNull() {
       return addOrderContentInformationNull_;
@@ -828,7 +828,7 @@ public final class OmAcknowledgeOrdersAd {
         return memoizedHashCode;
       }
       int hash = 41;
-      hash = (19 * hash) + getDescriptorForType().hashCode();
+      hash = (19 * hash) + getDescriptor().hashCode();
       if (hasAddOrderInformations()) {
         hash = (37 * hash) + ADD_ORDER_INFORMATIONS_FIELD_NUMBER;
         hash = (53 * hash) + getAddOrderInformations().hashCode();
@@ -1256,13 +1256,13 @@ public final class OmAcknowledgeOrdersAd {
       private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.values.BooleanValue, io.dstore.values.BooleanValue.Builder, io.dstore.values.BooleanValueOrBuilder> addOrderInformationsBuilder_;
       /**
-       * <code>optional .dstore.values.BooleanValue add_order_informations = 1;</code>
+       * <code>.dstore.values.BooleanValue add_order_informations = 1;</code>
        */
       public boolean hasAddOrderInformations() {
         return addOrderInformationsBuilder_ != null || addOrderInformations_ != null;
       }
       /**
-       * <code>optional .dstore.values.BooleanValue add_order_informations = 1;</code>
+       * <code>.dstore.values.BooleanValue add_order_informations = 1;</code>
        */
       public io.dstore.values.BooleanValue getAddOrderInformations() {
         if (addOrderInformationsBuilder_ == null) {
@@ -1272,7 +1272,7 @@ public final class OmAcknowledgeOrdersAd {
         }
       }
       /**
-       * <code>optional .dstore.values.BooleanValue add_order_informations = 1;</code>
+       * <code>.dstore.values.BooleanValue add_order_informations = 1;</code>
        */
       public Builder setAddOrderInformations(io.dstore.values.BooleanValue value) {
         if (addOrderInformationsBuilder_ == null) {
@@ -1288,7 +1288,7 @@ public final class OmAcknowledgeOrdersAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.BooleanValue add_order_informations = 1;</code>
+       * <code>.dstore.values.BooleanValue add_order_informations = 1;</code>
        */
       public Builder setAddOrderInformations(
           io.dstore.values.BooleanValue.Builder builderForValue) {
@@ -1302,7 +1302,7 @@ public final class OmAcknowledgeOrdersAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.BooleanValue add_order_informations = 1;</code>
+       * <code>.dstore.values.BooleanValue add_order_informations = 1;</code>
        */
       public Builder mergeAddOrderInformations(io.dstore.values.BooleanValue value) {
         if (addOrderInformationsBuilder_ == null) {
@@ -1320,7 +1320,7 @@ public final class OmAcknowledgeOrdersAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.BooleanValue add_order_informations = 1;</code>
+       * <code>.dstore.values.BooleanValue add_order_informations = 1;</code>
        */
       public Builder clearAddOrderInformations() {
         if (addOrderInformationsBuilder_ == null) {
@@ -1334,7 +1334,7 @@ public final class OmAcknowledgeOrdersAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.BooleanValue add_order_informations = 1;</code>
+       * <code>.dstore.values.BooleanValue add_order_informations = 1;</code>
        */
       public io.dstore.values.BooleanValue.Builder getAddOrderInformationsBuilder() {
         
@@ -1342,7 +1342,7 @@ public final class OmAcknowledgeOrdersAd {
         return getAddOrderInformationsFieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .dstore.values.BooleanValue add_order_informations = 1;</code>
+       * <code>.dstore.values.BooleanValue add_order_informations = 1;</code>
        */
       public io.dstore.values.BooleanValueOrBuilder getAddOrderInformationsOrBuilder() {
         if (addOrderInformationsBuilder_ != null) {
@@ -1353,7 +1353,7 @@ public final class OmAcknowledgeOrdersAd {
         }
       }
       /**
-       * <code>optional .dstore.values.BooleanValue add_order_informations = 1;</code>
+       * <code>.dstore.values.BooleanValue add_order_informations = 1;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.values.BooleanValue, io.dstore.values.BooleanValue.Builder, io.dstore.values.BooleanValueOrBuilder> 
@@ -1371,13 +1371,13 @@ public final class OmAcknowledgeOrdersAd {
 
       private boolean addOrderInformationsNull_ ;
       /**
-       * <code>optional bool add_order_informations_null = 1001;</code>
+       * <code>bool add_order_informations_null = 1001;</code>
        */
       public boolean getAddOrderInformationsNull() {
         return addOrderInformationsNull_;
       }
       /**
-       * <code>optional bool add_order_informations_null = 1001;</code>
+       * <code>bool add_order_informations_null = 1001;</code>
        */
       public Builder setAddOrderInformationsNull(boolean value) {
         
@@ -1386,7 +1386,7 @@ public final class OmAcknowledgeOrdersAd {
         return this;
       }
       /**
-       * <code>optional bool add_order_informations_null = 1001;</code>
+       * <code>bool add_order_informations_null = 1001;</code>
        */
       public Builder clearAddOrderInformationsNull() {
         
@@ -1399,13 +1399,13 @@ public final class OmAcknowledgeOrdersAd {
       private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> orderIdBuilder_;
       /**
-       * <code>optional .dstore.values.IntegerValue order_id = 2;</code>
+       * <code>.dstore.values.IntegerValue order_id = 2;</code>
        */
       public boolean hasOrderId() {
         return orderIdBuilder_ != null || orderId_ != null;
       }
       /**
-       * <code>optional .dstore.values.IntegerValue order_id = 2;</code>
+       * <code>.dstore.values.IntegerValue order_id = 2;</code>
        */
       public io.dstore.values.IntegerValue getOrderId() {
         if (orderIdBuilder_ == null) {
@@ -1415,7 +1415,7 @@ public final class OmAcknowledgeOrdersAd {
         }
       }
       /**
-       * <code>optional .dstore.values.IntegerValue order_id = 2;</code>
+       * <code>.dstore.values.IntegerValue order_id = 2;</code>
        */
       public Builder setOrderId(io.dstore.values.IntegerValue value) {
         if (orderIdBuilder_ == null) {
@@ -1431,7 +1431,7 @@ public final class OmAcknowledgeOrdersAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.IntegerValue order_id = 2;</code>
+       * <code>.dstore.values.IntegerValue order_id = 2;</code>
        */
       public Builder setOrderId(
           io.dstore.values.IntegerValue.Builder builderForValue) {
@@ -1445,7 +1445,7 @@ public final class OmAcknowledgeOrdersAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.IntegerValue order_id = 2;</code>
+       * <code>.dstore.values.IntegerValue order_id = 2;</code>
        */
       public Builder mergeOrderId(io.dstore.values.IntegerValue value) {
         if (orderIdBuilder_ == null) {
@@ -1463,7 +1463,7 @@ public final class OmAcknowledgeOrdersAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.IntegerValue order_id = 2;</code>
+       * <code>.dstore.values.IntegerValue order_id = 2;</code>
        */
       public Builder clearOrderId() {
         if (orderIdBuilder_ == null) {
@@ -1477,7 +1477,7 @@ public final class OmAcknowledgeOrdersAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.IntegerValue order_id = 2;</code>
+       * <code>.dstore.values.IntegerValue order_id = 2;</code>
        */
       public io.dstore.values.IntegerValue.Builder getOrderIdBuilder() {
         
@@ -1485,7 +1485,7 @@ public final class OmAcknowledgeOrdersAd {
         return getOrderIdFieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .dstore.values.IntegerValue order_id = 2;</code>
+       * <code>.dstore.values.IntegerValue order_id = 2;</code>
        */
       public io.dstore.values.IntegerValueOrBuilder getOrderIdOrBuilder() {
         if (orderIdBuilder_ != null) {
@@ -1496,7 +1496,7 @@ public final class OmAcknowledgeOrdersAd {
         }
       }
       /**
-       * <code>optional .dstore.values.IntegerValue order_id = 2;</code>
+       * <code>.dstore.values.IntegerValue order_id = 2;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> 
@@ -1514,13 +1514,13 @@ public final class OmAcknowledgeOrdersAd {
 
       private boolean orderIdNull_ ;
       /**
-       * <code>optional bool order_id_null = 1002;</code>
+       * <code>bool order_id_null = 1002;</code>
        */
       public boolean getOrderIdNull() {
         return orderIdNull_;
       }
       /**
-       * <code>optional bool order_id_null = 1002;</code>
+       * <code>bool order_id_null = 1002;</code>
        */
       public Builder setOrderIdNull(boolean value) {
         
@@ -1529,7 +1529,7 @@ public final class OmAcknowledgeOrdersAd {
         return this;
       }
       /**
-       * <code>optional bool order_id_null = 1002;</code>
+       * <code>bool order_id_null = 1002;</code>
        */
       public Builder clearOrderIdNull() {
         
@@ -1542,13 +1542,13 @@ public final class OmAcknowledgeOrdersAd {
       private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.values.StringValue, io.dstore.values.StringValue.Builder, io.dstore.values.StringValueOrBuilder> orderNoBuilder_;
       /**
-       * <code>optional .dstore.values.StringValue order_no = 3;</code>
+       * <code>.dstore.values.StringValue order_no = 3;</code>
        */
       public boolean hasOrderNo() {
         return orderNoBuilder_ != null || orderNo_ != null;
       }
       /**
-       * <code>optional .dstore.values.StringValue order_no = 3;</code>
+       * <code>.dstore.values.StringValue order_no = 3;</code>
        */
       public io.dstore.values.StringValue getOrderNo() {
         if (orderNoBuilder_ == null) {
@@ -1558,7 +1558,7 @@ public final class OmAcknowledgeOrdersAd {
         }
       }
       /**
-       * <code>optional .dstore.values.StringValue order_no = 3;</code>
+       * <code>.dstore.values.StringValue order_no = 3;</code>
        */
       public Builder setOrderNo(io.dstore.values.StringValue value) {
         if (orderNoBuilder_ == null) {
@@ -1574,7 +1574,7 @@ public final class OmAcknowledgeOrdersAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.StringValue order_no = 3;</code>
+       * <code>.dstore.values.StringValue order_no = 3;</code>
        */
       public Builder setOrderNo(
           io.dstore.values.StringValue.Builder builderForValue) {
@@ -1588,7 +1588,7 @@ public final class OmAcknowledgeOrdersAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.StringValue order_no = 3;</code>
+       * <code>.dstore.values.StringValue order_no = 3;</code>
        */
       public Builder mergeOrderNo(io.dstore.values.StringValue value) {
         if (orderNoBuilder_ == null) {
@@ -1606,7 +1606,7 @@ public final class OmAcknowledgeOrdersAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.StringValue order_no = 3;</code>
+       * <code>.dstore.values.StringValue order_no = 3;</code>
        */
       public Builder clearOrderNo() {
         if (orderNoBuilder_ == null) {
@@ -1620,7 +1620,7 @@ public final class OmAcknowledgeOrdersAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.StringValue order_no = 3;</code>
+       * <code>.dstore.values.StringValue order_no = 3;</code>
        */
       public io.dstore.values.StringValue.Builder getOrderNoBuilder() {
         
@@ -1628,7 +1628,7 @@ public final class OmAcknowledgeOrdersAd {
         return getOrderNoFieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .dstore.values.StringValue order_no = 3;</code>
+       * <code>.dstore.values.StringValue order_no = 3;</code>
        */
       public io.dstore.values.StringValueOrBuilder getOrderNoOrBuilder() {
         if (orderNoBuilder_ != null) {
@@ -1639,7 +1639,7 @@ public final class OmAcknowledgeOrdersAd {
         }
       }
       /**
-       * <code>optional .dstore.values.StringValue order_no = 3;</code>
+       * <code>.dstore.values.StringValue order_no = 3;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.values.StringValue, io.dstore.values.StringValue.Builder, io.dstore.values.StringValueOrBuilder> 
@@ -1657,13 +1657,13 @@ public final class OmAcknowledgeOrdersAd {
 
       private boolean orderNoNull_ ;
       /**
-       * <code>optional bool order_no_null = 1003;</code>
+       * <code>bool order_no_null = 1003;</code>
        */
       public boolean getOrderNoNull() {
         return orderNoNull_;
       }
       /**
-       * <code>optional bool order_no_null = 1003;</code>
+       * <code>bool order_no_null = 1003;</code>
        */
       public Builder setOrderNoNull(boolean value) {
         
@@ -1672,7 +1672,7 @@ public final class OmAcknowledgeOrdersAd {
         return this;
       }
       /**
-       * <code>optional bool order_no_null = 1003;</code>
+       * <code>bool order_no_null = 1003;</code>
        */
       public Builder clearOrderNoNull() {
         
@@ -1685,13 +1685,13 @@ public final class OmAcknowledgeOrdersAd {
       private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.values.StringValue, io.dstore.values.StringValue.Builder, io.dstore.values.StringValueOrBuilder> customerNoBuilder_;
       /**
-       * <code>optional .dstore.values.StringValue customer_no = 4;</code>
+       * <code>.dstore.values.StringValue customer_no = 4;</code>
        */
       public boolean hasCustomerNo() {
         return customerNoBuilder_ != null || customerNo_ != null;
       }
       /**
-       * <code>optional .dstore.values.StringValue customer_no = 4;</code>
+       * <code>.dstore.values.StringValue customer_no = 4;</code>
        */
       public io.dstore.values.StringValue getCustomerNo() {
         if (customerNoBuilder_ == null) {
@@ -1701,7 +1701,7 @@ public final class OmAcknowledgeOrdersAd {
         }
       }
       /**
-       * <code>optional .dstore.values.StringValue customer_no = 4;</code>
+       * <code>.dstore.values.StringValue customer_no = 4;</code>
        */
       public Builder setCustomerNo(io.dstore.values.StringValue value) {
         if (customerNoBuilder_ == null) {
@@ -1717,7 +1717,7 @@ public final class OmAcknowledgeOrdersAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.StringValue customer_no = 4;</code>
+       * <code>.dstore.values.StringValue customer_no = 4;</code>
        */
       public Builder setCustomerNo(
           io.dstore.values.StringValue.Builder builderForValue) {
@@ -1731,7 +1731,7 @@ public final class OmAcknowledgeOrdersAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.StringValue customer_no = 4;</code>
+       * <code>.dstore.values.StringValue customer_no = 4;</code>
        */
       public Builder mergeCustomerNo(io.dstore.values.StringValue value) {
         if (customerNoBuilder_ == null) {
@@ -1749,7 +1749,7 @@ public final class OmAcknowledgeOrdersAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.StringValue customer_no = 4;</code>
+       * <code>.dstore.values.StringValue customer_no = 4;</code>
        */
       public Builder clearCustomerNo() {
         if (customerNoBuilder_ == null) {
@@ -1763,7 +1763,7 @@ public final class OmAcknowledgeOrdersAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.StringValue customer_no = 4;</code>
+       * <code>.dstore.values.StringValue customer_no = 4;</code>
        */
       public io.dstore.values.StringValue.Builder getCustomerNoBuilder() {
         
@@ -1771,7 +1771,7 @@ public final class OmAcknowledgeOrdersAd {
         return getCustomerNoFieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .dstore.values.StringValue customer_no = 4;</code>
+       * <code>.dstore.values.StringValue customer_no = 4;</code>
        */
       public io.dstore.values.StringValueOrBuilder getCustomerNoOrBuilder() {
         if (customerNoBuilder_ != null) {
@@ -1782,7 +1782,7 @@ public final class OmAcknowledgeOrdersAd {
         }
       }
       /**
-       * <code>optional .dstore.values.StringValue customer_no = 4;</code>
+       * <code>.dstore.values.StringValue customer_no = 4;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.values.StringValue, io.dstore.values.StringValue.Builder, io.dstore.values.StringValueOrBuilder> 
@@ -1800,13 +1800,13 @@ public final class OmAcknowledgeOrdersAd {
 
       private boolean customerNoNull_ ;
       /**
-       * <code>optional bool customer_no_null = 1004;</code>
+       * <code>bool customer_no_null = 1004;</code>
        */
       public boolean getCustomerNoNull() {
         return customerNoNull_;
       }
       /**
-       * <code>optional bool customer_no_null = 1004;</code>
+       * <code>bool customer_no_null = 1004;</code>
        */
       public Builder setCustomerNoNull(boolean value) {
         
@@ -1815,7 +1815,7 @@ public final class OmAcknowledgeOrdersAd {
         return this;
       }
       /**
-       * <code>optional bool customer_no_null = 1004;</code>
+       * <code>bool customer_no_null = 1004;</code>
        */
       public Builder clearCustomerNoNull() {
         
@@ -1828,13 +1828,13 @@ public final class OmAcknowledgeOrdersAd {
       private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.values.StringValue, io.dstore.values.StringValue.Builder, io.dstore.values.StringValueOrBuilder> deliveryCustomerNoBuilder_;
       /**
-       * <code>optional .dstore.values.StringValue delivery_customer_no = 5;</code>
+       * <code>.dstore.values.StringValue delivery_customer_no = 5;</code>
        */
       public boolean hasDeliveryCustomerNo() {
         return deliveryCustomerNoBuilder_ != null || deliveryCustomerNo_ != null;
       }
       /**
-       * <code>optional .dstore.values.StringValue delivery_customer_no = 5;</code>
+       * <code>.dstore.values.StringValue delivery_customer_no = 5;</code>
        */
       public io.dstore.values.StringValue getDeliveryCustomerNo() {
         if (deliveryCustomerNoBuilder_ == null) {
@@ -1844,7 +1844,7 @@ public final class OmAcknowledgeOrdersAd {
         }
       }
       /**
-       * <code>optional .dstore.values.StringValue delivery_customer_no = 5;</code>
+       * <code>.dstore.values.StringValue delivery_customer_no = 5;</code>
        */
       public Builder setDeliveryCustomerNo(io.dstore.values.StringValue value) {
         if (deliveryCustomerNoBuilder_ == null) {
@@ -1860,7 +1860,7 @@ public final class OmAcknowledgeOrdersAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.StringValue delivery_customer_no = 5;</code>
+       * <code>.dstore.values.StringValue delivery_customer_no = 5;</code>
        */
       public Builder setDeliveryCustomerNo(
           io.dstore.values.StringValue.Builder builderForValue) {
@@ -1874,7 +1874,7 @@ public final class OmAcknowledgeOrdersAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.StringValue delivery_customer_no = 5;</code>
+       * <code>.dstore.values.StringValue delivery_customer_no = 5;</code>
        */
       public Builder mergeDeliveryCustomerNo(io.dstore.values.StringValue value) {
         if (deliveryCustomerNoBuilder_ == null) {
@@ -1892,7 +1892,7 @@ public final class OmAcknowledgeOrdersAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.StringValue delivery_customer_no = 5;</code>
+       * <code>.dstore.values.StringValue delivery_customer_no = 5;</code>
        */
       public Builder clearDeliveryCustomerNo() {
         if (deliveryCustomerNoBuilder_ == null) {
@@ -1906,7 +1906,7 @@ public final class OmAcknowledgeOrdersAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.StringValue delivery_customer_no = 5;</code>
+       * <code>.dstore.values.StringValue delivery_customer_no = 5;</code>
        */
       public io.dstore.values.StringValue.Builder getDeliveryCustomerNoBuilder() {
         
@@ -1914,7 +1914,7 @@ public final class OmAcknowledgeOrdersAd {
         return getDeliveryCustomerNoFieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .dstore.values.StringValue delivery_customer_no = 5;</code>
+       * <code>.dstore.values.StringValue delivery_customer_no = 5;</code>
        */
       public io.dstore.values.StringValueOrBuilder getDeliveryCustomerNoOrBuilder() {
         if (deliveryCustomerNoBuilder_ != null) {
@@ -1925,7 +1925,7 @@ public final class OmAcknowledgeOrdersAd {
         }
       }
       /**
-       * <code>optional .dstore.values.StringValue delivery_customer_no = 5;</code>
+       * <code>.dstore.values.StringValue delivery_customer_no = 5;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.values.StringValue, io.dstore.values.StringValue.Builder, io.dstore.values.StringValueOrBuilder> 
@@ -1943,13 +1943,13 @@ public final class OmAcknowledgeOrdersAd {
 
       private boolean deliveryCustomerNoNull_ ;
       /**
-       * <code>optional bool delivery_customer_no_null = 1005;</code>
+       * <code>bool delivery_customer_no_null = 1005;</code>
        */
       public boolean getDeliveryCustomerNoNull() {
         return deliveryCustomerNoNull_;
       }
       /**
-       * <code>optional bool delivery_customer_no_null = 1005;</code>
+       * <code>bool delivery_customer_no_null = 1005;</code>
        */
       public Builder setDeliveryCustomerNoNull(boolean value) {
         
@@ -1958,7 +1958,7 @@ public final class OmAcknowledgeOrdersAd {
         return this;
       }
       /**
-       * <code>optional bool delivery_customer_no_null = 1005;</code>
+       * <code>bool delivery_customer_no_null = 1005;</code>
        */
       public Builder clearDeliveryCustomerNoNull() {
         
@@ -1971,13 +1971,13 @@ public final class OmAcknowledgeOrdersAd {
       private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.values.BooleanValue, io.dstore.values.BooleanValue.Builder, io.dstore.values.BooleanValueOrBuilder> fireacAcknowledgeOrderBuilder_;
       /**
-       * <code>optional .dstore.values.BooleanValue fireac_acknowledge_order = 6;</code>
+       * <code>.dstore.values.BooleanValue fireac_acknowledge_order = 6;</code>
        */
       public boolean hasFireacAcknowledgeOrder() {
         return fireacAcknowledgeOrderBuilder_ != null || fireacAcknowledgeOrder_ != null;
       }
       /**
-       * <code>optional .dstore.values.BooleanValue fireac_acknowledge_order = 6;</code>
+       * <code>.dstore.values.BooleanValue fireac_acknowledge_order = 6;</code>
        */
       public io.dstore.values.BooleanValue getFireacAcknowledgeOrder() {
         if (fireacAcknowledgeOrderBuilder_ == null) {
@@ -1987,7 +1987,7 @@ public final class OmAcknowledgeOrdersAd {
         }
       }
       /**
-       * <code>optional .dstore.values.BooleanValue fireac_acknowledge_order = 6;</code>
+       * <code>.dstore.values.BooleanValue fireac_acknowledge_order = 6;</code>
        */
       public Builder setFireacAcknowledgeOrder(io.dstore.values.BooleanValue value) {
         if (fireacAcknowledgeOrderBuilder_ == null) {
@@ -2003,7 +2003,7 @@ public final class OmAcknowledgeOrdersAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.BooleanValue fireac_acknowledge_order = 6;</code>
+       * <code>.dstore.values.BooleanValue fireac_acknowledge_order = 6;</code>
        */
       public Builder setFireacAcknowledgeOrder(
           io.dstore.values.BooleanValue.Builder builderForValue) {
@@ -2017,7 +2017,7 @@ public final class OmAcknowledgeOrdersAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.BooleanValue fireac_acknowledge_order = 6;</code>
+       * <code>.dstore.values.BooleanValue fireac_acknowledge_order = 6;</code>
        */
       public Builder mergeFireacAcknowledgeOrder(io.dstore.values.BooleanValue value) {
         if (fireacAcknowledgeOrderBuilder_ == null) {
@@ -2035,7 +2035,7 @@ public final class OmAcknowledgeOrdersAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.BooleanValue fireac_acknowledge_order = 6;</code>
+       * <code>.dstore.values.BooleanValue fireac_acknowledge_order = 6;</code>
        */
       public Builder clearFireacAcknowledgeOrder() {
         if (fireacAcknowledgeOrderBuilder_ == null) {
@@ -2049,7 +2049,7 @@ public final class OmAcknowledgeOrdersAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.BooleanValue fireac_acknowledge_order = 6;</code>
+       * <code>.dstore.values.BooleanValue fireac_acknowledge_order = 6;</code>
        */
       public io.dstore.values.BooleanValue.Builder getFireacAcknowledgeOrderBuilder() {
         
@@ -2057,7 +2057,7 @@ public final class OmAcknowledgeOrdersAd {
         return getFireacAcknowledgeOrderFieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .dstore.values.BooleanValue fireac_acknowledge_order = 6;</code>
+       * <code>.dstore.values.BooleanValue fireac_acknowledge_order = 6;</code>
        */
       public io.dstore.values.BooleanValueOrBuilder getFireacAcknowledgeOrderOrBuilder() {
         if (fireacAcknowledgeOrderBuilder_ != null) {
@@ -2068,7 +2068,7 @@ public final class OmAcknowledgeOrdersAd {
         }
       }
       /**
-       * <code>optional .dstore.values.BooleanValue fireac_acknowledge_order = 6;</code>
+       * <code>.dstore.values.BooleanValue fireac_acknowledge_order = 6;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.values.BooleanValue, io.dstore.values.BooleanValue.Builder, io.dstore.values.BooleanValueOrBuilder> 
@@ -2086,13 +2086,13 @@ public final class OmAcknowledgeOrdersAd {
 
       private boolean fireacAcknowledgeOrderNull_ ;
       /**
-       * <code>optional bool fireac_acknowledge_order_null = 1006;</code>
+       * <code>bool fireac_acknowledge_order_null = 1006;</code>
        */
       public boolean getFireacAcknowledgeOrderNull() {
         return fireacAcknowledgeOrderNull_;
       }
       /**
-       * <code>optional bool fireac_acknowledge_order_null = 1006;</code>
+       * <code>bool fireac_acknowledge_order_null = 1006;</code>
        */
       public Builder setFireacAcknowledgeOrderNull(boolean value) {
         
@@ -2101,7 +2101,7 @@ public final class OmAcknowledgeOrdersAd {
         return this;
       }
       /**
-       * <code>optional bool fireac_acknowledge_order_null = 1006;</code>
+       * <code>bool fireac_acknowledge_order_null = 1006;</code>
        */
       public Builder clearFireacAcknowledgeOrderNull() {
         
@@ -2114,13 +2114,13 @@ public final class OmAcknowledgeOrdersAd {
       private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> addOrderInformationBuilder_;
       /**
-       * <code>optional .dstore.values.IntegerValue add_order_information = 7;</code>
+       * <code>.dstore.values.IntegerValue add_order_information = 7;</code>
        */
       public boolean hasAddOrderInformation() {
         return addOrderInformationBuilder_ != null || addOrderInformation_ != null;
       }
       /**
-       * <code>optional .dstore.values.IntegerValue add_order_information = 7;</code>
+       * <code>.dstore.values.IntegerValue add_order_information = 7;</code>
        */
       public io.dstore.values.IntegerValue getAddOrderInformation() {
         if (addOrderInformationBuilder_ == null) {
@@ -2130,7 +2130,7 @@ public final class OmAcknowledgeOrdersAd {
         }
       }
       /**
-       * <code>optional .dstore.values.IntegerValue add_order_information = 7;</code>
+       * <code>.dstore.values.IntegerValue add_order_information = 7;</code>
        */
       public Builder setAddOrderInformation(io.dstore.values.IntegerValue value) {
         if (addOrderInformationBuilder_ == null) {
@@ -2146,7 +2146,7 @@ public final class OmAcknowledgeOrdersAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.IntegerValue add_order_information = 7;</code>
+       * <code>.dstore.values.IntegerValue add_order_information = 7;</code>
        */
       public Builder setAddOrderInformation(
           io.dstore.values.IntegerValue.Builder builderForValue) {
@@ -2160,7 +2160,7 @@ public final class OmAcknowledgeOrdersAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.IntegerValue add_order_information = 7;</code>
+       * <code>.dstore.values.IntegerValue add_order_information = 7;</code>
        */
       public Builder mergeAddOrderInformation(io.dstore.values.IntegerValue value) {
         if (addOrderInformationBuilder_ == null) {
@@ -2178,7 +2178,7 @@ public final class OmAcknowledgeOrdersAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.IntegerValue add_order_information = 7;</code>
+       * <code>.dstore.values.IntegerValue add_order_information = 7;</code>
        */
       public Builder clearAddOrderInformation() {
         if (addOrderInformationBuilder_ == null) {
@@ -2192,7 +2192,7 @@ public final class OmAcknowledgeOrdersAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.IntegerValue add_order_information = 7;</code>
+       * <code>.dstore.values.IntegerValue add_order_information = 7;</code>
        */
       public io.dstore.values.IntegerValue.Builder getAddOrderInformationBuilder() {
         
@@ -2200,7 +2200,7 @@ public final class OmAcknowledgeOrdersAd {
         return getAddOrderInformationFieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .dstore.values.IntegerValue add_order_information = 7;</code>
+       * <code>.dstore.values.IntegerValue add_order_information = 7;</code>
        */
       public io.dstore.values.IntegerValueOrBuilder getAddOrderInformationOrBuilder() {
         if (addOrderInformationBuilder_ != null) {
@@ -2211,7 +2211,7 @@ public final class OmAcknowledgeOrdersAd {
         }
       }
       /**
-       * <code>optional .dstore.values.IntegerValue add_order_information = 7;</code>
+       * <code>.dstore.values.IntegerValue add_order_information = 7;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> 
@@ -2229,13 +2229,13 @@ public final class OmAcknowledgeOrdersAd {
 
       private boolean addOrderInformationNull_ ;
       /**
-       * <code>optional bool add_order_information_null = 1007;</code>
+       * <code>bool add_order_information_null = 1007;</code>
        */
       public boolean getAddOrderInformationNull() {
         return addOrderInformationNull_;
       }
       /**
-       * <code>optional bool add_order_information_null = 1007;</code>
+       * <code>bool add_order_information_null = 1007;</code>
        */
       public Builder setAddOrderInformationNull(boolean value) {
         
@@ -2244,7 +2244,7 @@ public final class OmAcknowledgeOrdersAd {
         return this;
       }
       /**
-       * <code>optional bool add_order_information_null = 1007;</code>
+       * <code>bool add_order_information_null = 1007;</code>
        */
       public Builder clearAddOrderInformationNull() {
         
@@ -2257,13 +2257,13 @@ public final class OmAcknowledgeOrdersAd {
       private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> addOrderContentInformationBuilder_;
       /**
-       * <code>optional .dstore.values.IntegerValue add_order_content_information = 8;</code>
+       * <code>.dstore.values.IntegerValue add_order_content_information = 8;</code>
        */
       public boolean hasAddOrderContentInformation() {
         return addOrderContentInformationBuilder_ != null || addOrderContentInformation_ != null;
       }
       /**
-       * <code>optional .dstore.values.IntegerValue add_order_content_information = 8;</code>
+       * <code>.dstore.values.IntegerValue add_order_content_information = 8;</code>
        */
       public io.dstore.values.IntegerValue getAddOrderContentInformation() {
         if (addOrderContentInformationBuilder_ == null) {
@@ -2273,7 +2273,7 @@ public final class OmAcknowledgeOrdersAd {
         }
       }
       /**
-       * <code>optional .dstore.values.IntegerValue add_order_content_information = 8;</code>
+       * <code>.dstore.values.IntegerValue add_order_content_information = 8;</code>
        */
       public Builder setAddOrderContentInformation(io.dstore.values.IntegerValue value) {
         if (addOrderContentInformationBuilder_ == null) {
@@ -2289,7 +2289,7 @@ public final class OmAcknowledgeOrdersAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.IntegerValue add_order_content_information = 8;</code>
+       * <code>.dstore.values.IntegerValue add_order_content_information = 8;</code>
        */
       public Builder setAddOrderContentInformation(
           io.dstore.values.IntegerValue.Builder builderForValue) {
@@ -2303,7 +2303,7 @@ public final class OmAcknowledgeOrdersAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.IntegerValue add_order_content_information = 8;</code>
+       * <code>.dstore.values.IntegerValue add_order_content_information = 8;</code>
        */
       public Builder mergeAddOrderContentInformation(io.dstore.values.IntegerValue value) {
         if (addOrderContentInformationBuilder_ == null) {
@@ -2321,7 +2321,7 @@ public final class OmAcknowledgeOrdersAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.IntegerValue add_order_content_information = 8;</code>
+       * <code>.dstore.values.IntegerValue add_order_content_information = 8;</code>
        */
       public Builder clearAddOrderContentInformation() {
         if (addOrderContentInformationBuilder_ == null) {
@@ -2335,7 +2335,7 @@ public final class OmAcknowledgeOrdersAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.IntegerValue add_order_content_information = 8;</code>
+       * <code>.dstore.values.IntegerValue add_order_content_information = 8;</code>
        */
       public io.dstore.values.IntegerValue.Builder getAddOrderContentInformationBuilder() {
         
@@ -2343,7 +2343,7 @@ public final class OmAcknowledgeOrdersAd {
         return getAddOrderContentInformationFieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .dstore.values.IntegerValue add_order_content_information = 8;</code>
+       * <code>.dstore.values.IntegerValue add_order_content_information = 8;</code>
        */
       public io.dstore.values.IntegerValueOrBuilder getAddOrderContentInformationOrBuilder() {
         if (addOrderContentInformationBuilder_ != null) {
@@ -2354,7 +2354,7 @@ public final class OmAcknowledgeOrdersAd {
         }
       }
       /**
-       * <code>optional .dstore.values.IntegerValue add_order_content_information = 8;</code>
+       * <code>.dstore.values.IntegerValue add_order_content_information = 8;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> 
@@ -2372,13 +2372,13 @@ public final class OmAcknowledgeOrdersAd {
 
       private boolean addOrderContentInformationNull_ ;
       /**
-       * <code>optional bool add_order_content_information_null = 1008;</code>
+       * <code>bool add_order_content_information_null = 1008;</code>
        */
       public boolean getAddOrderContentInformationNull() {
         return addOrderContentInformationNull_;
       }
       /**
-       * <code>optional bool add_order_content_information_null = 1008;</code>
+       * <code>bool add_order_content_information_null = 1008;</code>
        */
       public Builder setAddOrderContentInformationNull(boolean value) {
         
@@ -2387,7 +2387,7 @@ public final class OmAcknowledgeOrdersAd {
         return this;
       }
       /**
-       * <code>optional bool add_order_content_information_null = 1008;</code>
+       * <code>bool add_order_content_information_null = 1008;</code>
        */
       public Builder clearAddOrderContentInformationNull() {
         
@@ -2646,7 +2646,7 @@ public final class OmAcknowledgeOrdersAd {
         com.google.protobuf.MessageOrBuilder {
 
       /**
-       * <code>optional int32 row_id = 10000;</code>
+       * <code>int32 row_id = 10000;</code>
        */
       int getRowId();
     }
@@ -2721,7 +2721,7 @@ public final class OmAcknowledgeOrdersAd {
       public static final int ROW_ID_FIELD_NUMBER = 10000;
       private int rowId_;
       /**
-       * <code>optional int32 row_id = 10000;</code>
+       * <code>int32 row_id = 10000;</code>
        */
       public int getRowId() {
         return rowId_;
@@ -2780,7 +2780,7 @@ public final class OmAcknowledgeOrdersAd {
           return memoizedHashCode;
         }
         int hash = 41;
-        hash = (19 * hash) + getDescriptorForType().hashCode();
+        hash = (19 * hash) + getDescriptor().hashCode();
         hash = (37 * hash) + ROW_ID_FIELD_NUMBER;
         hash = (53 * hash) + getRowId();
         hash = (29 * hash) + unknownFields.hashCode();
@@ -2998,13 +2998,13 @@ public final class OmAcknowledgeOrdersAd {
 
         private int rowId_ ;
         /**
-         * <code>optional int32 row_id = 10000;</code>
+         * <code>int32 row_id = 10000;</code>
          */
         public int getRowId() {
           return rowId_;
         }
         /**
-         * <code>optional int32 row_id = 10000;</code>
+         * <code>int32 row_id = 10000;</code>
          */
         public Builder setRowId(int value) {
           
@@ -3013,7 +3013,7 @@ public final class OmAcknowledgeOrdersAd {
           return this;
         }
         /**
-         * <code>optional int32 row_id = 10000;</code>
+         * <code>int32 row_id = 10000;</code>
          */
         public Builder clearRowId() {
           
@@ -3266,7 +3266,7 @@ public final class OmAcknowledgeOrdersAd {
         return memoizedHashCode;
       }
       int hash = 41;
-      hash = (19 * hash) + getDescriptorForType().hashCode();
+      hash = (19 * hash) + getDescriptor().hashCode();
       if (getMetaInformationCount() > 0) {
         hash = (37 * hash) + META_INFORMATION_FIELD_NUMBER;
         hash = (53 * hash) + getMetaInformationList().hashCode();

@@ -19,20 +19,20 @@ public final class DoGetSQLFunctionParametersAd {
       com.google.protobuf.MessageOrBuilder {
 
     /**
-     * <code>optional .dstore.values.StringValue s_q_l_function_name = 1;</code>
+     * <code>.dstore.values.StringValue s_q_l_function_name = 1;</code>
      */
     boolean hasSQLFunctionName();
     /**
-     * <code>optional .dstore.values.StringValue s_q_l_function_name = 1;</code>
+     * <code>.dstore.values.StringValue s_q_l_function_name = 1;</code>
      */
     io.dstore.values.StringValue getSQLFunctionName();
     /**
-     * <code>optional .dstore.values.StringValue s_q_l_function_name = 1;</code>
+     * <code>.dstore.values.StringValue s_q_l_function_name = 1;</code>
      */
     io.dstore.values.StringValueOrBuilder getSQLFunctionNameOrBuilder();
 
     /**
-     * <code>optional bool s_q_l_function_name_null = 1001;</code>
+     * <code>bool s_q_l_function_name_null = 1001;</code>
      */
     boolean getSQLFunctionNameNull();
   }
@@ -120,19 +120,19 @@ public final class DoGetSQLFunctionParametersAd {
     public static final int S_Q_L_FUNCTION_NAME_FIELD_NUMBER = 1;
     private io.dstore.values.StringValue sQLFunctionName_;
     /**
-     * <code>optional .dstore.values.StringValue s_q_l_function_name = 1;</code>
+     * <code>.dstore.values.StringValue s_q_l_function_name = 1;</code>
      */
     public boolean hasSQLFunctionName() {
       return sQLFunctionName_ != null;
     }
     /**
-     * <code>optional .dstore.values.StringValue s_q_l_function_name = 1;</code>
+     * <code>.dstore.values.StringValue s_q_l_function_name = 1;</code>
      */
     public io.dstore.values.StringValue getSQLFunctionName() {
       return sQLFunctionName_ == null ? io.dstore.values.StringValue.getDefaultInstance() : sQLFunctionName_;
     }
     /**
-     * <code>optional .dstore.values.StringValue s_q_l_function_name = 1;</code>
+     * <code>.dstore.values.StringValue s_q_l_function_name = 1;</code>
      */
     public io.dstore.values.StringValueOrBuilder getSQLFunctionNameOrBuilder() {
       return getSQLFunctionName();
@@ -141,7 +141,7 @@ public final class DoGetSQLFunctionParametersAd {
     public static final int S_Q_L_FUNCTION_NAME_NULL_FIELD_NUMBER = 1001;
     private boolean sQLFunctionNameNull_;
     /**
-     * <code>optional bool s_q_l_function_name_null = 1001;</code>
+     * <code>bool s_q_l_function_name_null = 1001;</code>
      */
     public boolean getSQLFunctionNameNull() {
       return sQLFunctionNameNull_;
@@ -212,7 +212,7 @@ public final class DoGetSQLFunctionParametersAd {
         return memoizedHashCode;
       }
       int hash = 41;
-      hash = (19 * hash) + getDescriptorForType().hashCode();
+      hash = (19 * hash) + getDescriptor().hashCode();
       if (hasSQLFunctionName()) {
         hash = (37 * hash) + S_Q_L_FUNCTION_NAME_FIELD_NUMBER;
         hash = (53 * hash) + getSQLFunctionName().hashCode();
@@ -451,13 +451,13 @@ public final class DoGetSQLFunctionParametersAd {
       private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.values.StringValue, io.dstore.values.StringValue.Builder, io.dstore.values.StringValueOrBuilder> sQLFunctionNameBuilder_;
       /**
-       * <code>optional .dstore.values.StringValue s_q_l_function_name = 1;</code>
+       * <code>.dstore.values.StringValue s_q_l_function_name = 1;</code>
        */
       public boolean hasSQLFunctionName() {
         return sQLFunctionNameBuilder_ != null || sQLFunctionName_ != null;
       }
       /**
-       * <code>optional .dstore.values.StringValue s_q_l_function_name = 1;</code>
+       * <code>.dstore.values.StringValue s_q_l_function_name = 1;</code>
        */
       public io.dstore.values.StringValue getSQLFunctionName() {
         if (sQLFunctionNameBuilder_ == null) {
@@ -467,7 +467,7 @@ public final class DoGetSQLFunctionParametersAd {
         }
       }
       /**
-       * <code>optional .dstore.values.StringValue s_q_l_function_name = 1;</code>
+       * <code>.dstore.values.StringValue s_q_l_function_name = 1;</code>
        */
       public Builder setSQLFunctionName(io.dstore.values.StringValue value) {
         if (sQLFunctionNameBuilder_ == null) {
@@ -483,7 +483,7 @@ public final class DoGetSQLFunctionParametersAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.StringValue s_q_l_function_name = 1;</code>
+       * <code>.dstore.values.StringValue s_q_l_function_name = 1;</code>
        */
       public Builder setSQLFunctionName(
           io.dstore.values.StringValue.Builder builderForValue) {
@@ -497,7 +497,7 @@ public final class DoGetSQLFunctionParametersAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.StringValue s_q_l_function_name = 1;</code>
+       * <code>.dstore.values.StringValue s_q_l_function_name = 1;</code>
        */
       public Builder mergeSQLFunctionName(io.dstore.values.StringValue value) {
         if (sQLFunctionNameBuilder_ == null) {
@@ -515,7 +515,7 @@ public final class DoGetSQLFunctionParametersAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.StringValue s_q_l_function_name = 1;</code>
+       * <code>.dstore.values.StringValue s_q_l_function_name = 1;</code>
        */
       public Builder clearSQLFunctionName() {
         if (sQLFunctionNameBuilder_ == null) {
@@ -529,7 +529,7 @@ public final class DoGetSQLFunctionParametersAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.StringValue s_q_l_function_name = 1;</code>
+       * <code>.dstore.values.StringValue s_q_l_function_name = 1;</code>
        */
       public io.dstore.values.StringValue.Builder getSQLFunctionNameBuilder() {
         
@@ -537,7 +537,7 @@ public final class DoGetSQLFunctionParametersAd {
         return getSQLFunctionNameFieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .dstore.values.StringValue s_q_l_function_name = 1;</code>
+       * <code>.dstore.values.StringValue s_q_l_function_name = 1;</code>
        */
       public io.dstore.values.StringValueOrBuilder getSQLFunctionNameOrBuilder() {
         if (sQLFunctionNameBuilder_ != null) {
@@ -548,7 +548,7 @@ public final class DoGetSQLFunctionParametersAd {
         }
       }
       /**
-       * <code>optional .dstore.values.StringValue s_q_l_function_name = 1;</code>
+       * <code>.dstore.values.StringValue s_q_l_function_name = 1;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.values.StringValue, io.dstore.values.StringValue.Builder, io.dstore.values.StringValueOrBuilder> 
@@ -566,13 +566,13 @@ public final class DoGetSQLFunctionParametersAd {
 
       private boolean sQLFunctionNameNull_ ;
       /**
-       * <code>optional bool s_q_l_function_name_null = 1001;</code>
+       * <code>bool s_q_l_function_name_null = 1001;</code>
        */
       public boolean getSQLFunctionNameNull() {
         return sQLFunctionNameNull_;
       }
       /**
-       * <code>optional bool s_q_l_function_name_null = 1001;</code>
+       * <code>bool s_q_l_function_name_null = 1001;</code>
        */
       public Builder setSQLFunctionNameNull(boolean value) {
         
@@ -581,7 +581,7 @@ public final class DoGetSQLFunctionParametersAd {
         return this;
       }
       /**
-       * <code>optional bool s_q_l_function_name_null = 1001;</code>
+       * <code>bool s_q_l_function_name_null = 1001;</code>
        */
       public Builder clearSQLFunctionNameNull() {
         
@@ -840,7 +840,7 @@ public final class DoGetSQLFunctionParametersAd {
         com.google.protobuf.MessageOrBuilder {
 
       /**
-       * <code>optional int32 row_id = 10000;</code>
+       * <code>int32 row_id = 10000;</code>
        */
       int getRowId();
 
@@ -849,7 +849,7 @@ public final class DoGetSQLFunctionParametersAd {
        * Der Wert, mit dem der Parameter "ParameterName" vorbelegt ist. Hinweis : Im Gegensatz zu Parametern bei Prozeduren muß bei SQL-Funktionen ein Parameter IMMER angegeben werden, auch wenn ein "Default" definiert ist (um den zu verwenden, "default" angeben).
        * </pre>
        *
-       * <code>optional .dstore.values.StringValue default_value = 10001;</code>
+       * <code>.dstore.values.StringValue default_value = 10001;</code>
        */
       boolean hasDefaultValue();
       /**
@@ -857,7 +857,7 @@ public final class DoGetSQLFunctionParametersAd {
        * Der Wert, mit dem der Parameter "ParameterName" vorbelegt ist. Hinweis : Im Gegensatz zu Parametern bei Prozeduren muß bei SQL-Funktionen ein Parameter IMMER angegeben werden, auch wenn ein "Default" definiert ist (um den zu verwenden, "default" angeben).
        * </pre>
        *
-       * <code>optional .dstore.values.StringValue default_value = 10001;</code>
+       * <code>.dstore.values.StringValue default_value = 10001;</code>
        */
       io.dstore.values.StringValue getDefaultValue();
       /**
@@ -865,7 +865,7 @@ public final class DoGetSQLFunctionParametersAd {
        * Der Wert, mit dem der Parameter "ParameterName" vorbelegt ist. Hinweis : Im Gegensatz zu Parametern bei Prozeduren muß bei SQL-Funktionen ein Parameter IMMER angegeben werden, auch wenn ein "Default" definiert ist (um den zu verwenden, "default" angeben).
        * </pre>
        *
-       * <code>optional .dstore.values.StringValue default_value = 10001;</code>
+       * <code>.dstore.values.StringValue default_value = 10001;</code>
        */
       io.dstore.values.StringValueOrBuilder getDefaultValueOrBuilder();
 
@@ -874,7 +874,7 @@ public final class DoGetSQLFunctionParametersAd {
        * Wieviel Byte können Werte, die für den Parameter "ParameterName" übergeben werden, maximal enthalten. Bei vielen Daten-Typen ist die Speicherbelegung immer so groß wie dieser Wert (bei numerischen Daten-Typen z.B.).
        * </pre>
        *
-       * <code>optional .dstore.values.IntegerValue length = 10002;</code>
+       * <code>.dstore.values.IntegerValue length = 10002;</code>
        */
       boolean hasLength();
       /**
@@ -882,7 +882,7 @@ public final class DoGetSQLFunctionParametersAd {
        * Wieviel Byte können Werte, die für den Parameter "ParameterName" übergeben werden, maximal enthalten. Bei vielen Daten-Typen ist die Speicherbelegung immer so groß wie dieser Wert (bei numerischen Daten-Typen z.B.).
        * </pre>
        *
-       * <code>optional .dstore.values.IntegerValue length = 10002;</code>
+       * <code>.dstore.values.IntegerValue length = 10002;</code>
        */
       io.dstore.values.IntegerValue getLength();
       /**
@@ -890,7 +890,7 @@ public final class DoGetSQLFunctionParametersAd {
        * Wieviel Byte können Werte, die für den Parameter "ParameterName" übergeben werden, maximal enthalten. Bei vielen Daten-Typen ist die Speicherbelegung immer so groß wie dieser Wert (bei numerischen Daten-Typen z.B.).
        * </pre>
        *
-       * <code>optional .dstore.values.IntegerValue length = 10002;</code>
+       * <code>.dstore.values.IntegerValue length = 10002;</code>
        */
       io.dstore.values.IntegerValueOrBuilder getLengthOrBuilder();
 
@@ -899,7 +899,7 @@ public final class DoGetSQLFunctionParametersAd {
        * Seit welcher Version gibt es den Parameter "ParameterName"
        * </pre>
        *
-       * <code>optional .dstore.values.StringValue introduced_indstore_version = 10003;</code>
+       * <code>.dstore.values.StringValue introduced_indstore_version = 10003;</code>
        */
       boolean hasIntroducedIndstoreVersion();
       /**
@@ -907,7 +907,7 @@ public final class DoGetSQLFunctionParametersAd {
        * Seit welcher Version gibt es den Parameter "ParameterName"
        * </pre>
        *
-       * <code>optional .dstore.values.StringValue introduced_indstore_version = 10003;</code>
+       * <code>.dstore.values.StringValue introduced_indstore_version = 10003;</code>
        */
       io.dstore.values.StringValue getIntroducedIndstoreVersion();
       /**
@@ -915,7 +915,7 @@ public final class DoGetSQLFunctionParametersAd {
        * Seit welcher Version gibt es den Parameter "ParameterName"
        * </pre>
        *
-       * <code>optional .dstore.values.StringValue introduced_indstore_version = 10003;</code>
+       * <code>.dstore.values.StringValue introduced_indstore_version = 10003;</code>
        */
       io.dstore.values.StringValueOrBuilder getIntroducedIndstoreVersionOrBuilder();
 
@@ -924,7 +924,7 @@ public final class DoGetSQLFunctionParametersAd {
        * Daten-Typ des Parameters "ParameterName"
        * </pre>
        *
-       * <code>optional .dstore.values.StringValue data_type = 10004;</code>
+       * <code>.dstore.values.StringValue data_type = 10004;</code>
        */
       boolean hasDataType();
       /**
@@ -932,7 +932,7 @@ public final class DoGetSQLFunctionParametersAd {
        * Daten-Typ des Parameters "ParameterName"
        * </pre>
        *
-       * <code>optional .dstore.values.StringValue data_type = 10004;</code>
+       * <code>.dstore.values.StringValue data_type = 10004;</code>
        */
       io.dstore.values.StringValue getDataType();
       /**
@@ -940,7 +940,7 @@ public final class DoGetSQLFunctionParametersAd {
        * Daten-Typ des Parameters "ParameterName"
        * </pre>
        *
-       * <code>optional .dstore.values.StringValue data_type = 10004;</code>
+       * <code>.dstore.values.StringValue data_type = 10004;</code>
        */
       io.dstore.values.StringValueOrBuilder getDataTypeOrBuilder();
 
@@ -949,7 +949,7 @@ public final class DoGetSQLFunctionParametersAd {
        * Gilt nur für einige numerische Daten-Typen (z.B. "decimal") und gibt die maximale Anzahl Stellen an, die ein Wert für den Parameter "ParameterName" enthalten kann
        * </pre>
        *
-       * <code>optional .dstore.values.IntegerValue precision_value = 10005;</code>
+       * <code>.dstore.values.IntegerValue precision_value = 10005;</code>
        */
       boolean hasPrecisionValue();
       /**
@@ -957,7 +957,7 @@ public final class DoGetSQLFunctionParametersAd {
        * Gilt nur für einige numerische Daten-Typen (z.B. "decimal") und gibt die maximale Anzahl Stellen an, die ein Wert für den Parameter "ParameterName" enthalten kann
        * </pre>
        *
-       * <code>optional .dstore.values.IntegerValue precision_value = 10005;</code>
+       * <code>.dstore.values.IntegerValue precision_value = 10005;</code>
        */
       io.dstore.values.IntegerValue getPrecisionValue();
       /**
@@ -965,7 +965,7 @@ public final class DoGetSQLFunctionParametersAd {
        * Gilt nur für einige numerische Daten-Typen (z.B. "decimal") und gibt die maximale Anzahl Stellen an, die ein Wert für den Parameter "ParameterName" enthalten kann
        * </pre>
        *
-       * <code>optional .dstore.values.IntegerValue precision_value = 10005;</code>
+       * <code>.dstore.values.IntegerValue precision_value = 10005;</code>
        */
       io.dstore.values.IntegerValueOrBuilder getPrecisionValueOrBuilder();
 
@@ -974,7 +974,7 @@ public final class DoGetSQLFunctionParametersAd {
        * Parameter-Name der SQL-Funktion "&#64;SQLFunctionName". Hinweis : Im Vergleich zu "mi_GetSQLFunctionParameters" gibt es KEINEN "dummy"-Parameter mit dem Namen "Return Type" (was den Rückgabewert der Funktion darstellt) !
        * </pre>
        *
-       * <code>optional .dstore.values.StringValue parameter_name = 10006;</code>
+       * <code>.dstore.values.StringValue parameter_name = 10006;</code>
        */
       boolean hasParameterName();
       /**
@@ -982,7 +982,7 @@ public final class DoGetSQLFunctionParametersAd {
        * Parameter-Name der SQL-Funktion "&#64;SQLFunctionName". Hinweis : Im Vergleich zu "mi_GetSQLFunctionParameters" gibt es KEINEN "dummy"-Parameter mit dem Namen "Return Type" (was den Rückgabewert der Funktion darstellt) !
        * </pre>
        *
-       * <code>optional .dstore.values.StringValue parameter_name = 10006;</code>
+       * <code>.dstore.values.StringValue parameter_name = 10006;</code>
        */
       io.dstore.values.StringValue getParameterName();
       /**
@@ -990,7 +990,7 @@ public final class DoGetSQLFunctionParametersAd {
        * Parameter-Name der SQL-Funktion "&#64;SQLFunctionName". Hinweis : Im Vergleich zu "mi_GetSQLFunctionParameters" gibt es KEINEN "dummy"-Parameter mit dem Namen "Return Type" (was den Rückgabewert der Funktion darstellt) !
        * </pre>
        *
-       * <code>optional .dstore.values.StringValue parameter_name = 10006;</code>
+       * <code>.dstore.values.StringValue parameter_name = 10006;</code>
        */
       io.dstore.values.StringValueOrBuilder getParameterNameOrBuilder();
 
@@ -999,7 +999,7 @@ public final class DoGetSQLFunctionParametersAd {
        * Gilt nur für einige numerische Daten-Typen (z.B. "decimal") und gibt die Genauigkeit, sprich die maximale Anzahl an Nachkomma-Stellen an, die ein Wert für den Parameter "ParameterName" enthalten kann
        * </pre>
        *
-       * <code>optional .dstore.values.IntegerValue scale = 10007;</code>
+       * <code>.dstore.values.IntegerValue scale = 10007;</code>
        */
       boolean hasScale();
       /**
@@ -1007,7 +1007,7 @@ public final class DoGetSQLFunctionParametersAd {
        * Gilt nur für einige numerische Daten-Typen (z.B. "decimal") und gibt die Genauigkeit, sprich die maximale Anzahl an Nachkomma-Stellen an, die ein Wert für den Parameter "ParameterName" enthalten kann
        * </pre>
        *
-       * <code>optional .dstore.values.IntegerValue scale = 10007;</code>
+       * <code>.dstore.values.IntegerValue scale = 10007;</code>
        */
       io.dstore.values.IntegerValue getScale();
       /**
@@ -1015,7 +1015,7 @@ public final class DoGetSQLFunctionParametersAd {
        * Gilt nur für einige numerische Daten-Typen (z.B. "decimal") und gibt die Genauigkeit, sprich die maximale Anzahl an Nachkomma-Stellen an, die ein Wert für den Parameter "ParameterName" enthalten kann
        * </pre>
        *
-       * <code>optional .dstore.values.IntegerValue scale = 10007;</code>
+       * <code>.dstore.values.IntegerValue scale = 10007;</code>
        */
       io.dstore.values.IntegerValueOrBuilder getScaleOrBuilder();
     }
@@ -1181,7 +1181,7 @@ public final class DoGetSQLFunctionParametersAd {
       public static final int ROW_ID_FIELD_NUMBER = 10000;
       private int rowId_;
       /**
-       * <code>optional int32 row_id = 10000;</code>
+       * <code>int32 row_id = 10000;</code>
        */
       public int getRowId() {
         return rowId_;
@@ -1194,7 +1194,7 @@ public final class DoGetSQLFunctionParametersAd {
        * Der Wert, mit dem der Parameter "ParameterName" vorbelegt ist. Hinweis : Im Gegensatz zu Parametern bei Prozeduren muß bei SQL-Funktionen ein Parameter IMMER angegeben werden, auch wenn ein "Default" definiert ist (um den zu verwenden, "default" angeben).
        * </pre>
        *
-       * <code>optional .dstore.values.StringValue default_value = 10001;</code>
+       * <code>.dstore.values.StringValue default_value = 10001;</code>
        */
       public boolean hasDefaultValue() {
         return defaultValue_ != null;
@@ -1204,7 +1204,7 @@ public final class DoGetSQLFunctionParametersAd {
        * Der Wert, mit dem der Parameter "ParameterName" vorbelegt ist. Hinweis : Im Gegensatz zu Parametern bei Prozeduren muß bei SQL-Funktionen ein Parameter IMMER angegeben werden, auch wenn ein "Default" definiert ist (um den zu verwenden, "default" angeben).
        * </pre>
        *
-       * <code>optional .dstore.values.StringValue default_value = 10001;</code>
+       * <code>.dstore.values.StringValue default_value = 10001;</code>
        */
       public io.dstore.values.StringValue getDefaultValue() {
         return defaultValue_ == null ? io.dstore.values.StringValue.getDefaultInstance() : defaultValue_;
@@ -1214,7 +1214,7 @@ public final class DoGetSQLFunctionParametersAd {
        * Der Wert, mit dem der Parameter "ParameterName" vorbelegt ist. Hinweis : Im Gegensatz zu Parametern bei Prozeduren muß bei SQL-Funktionen ein Parameter IMMER angegeben werden, auch wenn ein "Default" definiert ist (um den zu verwenden, "default" angeben).
        * </pre>
        *
-       * <code>optional .dstore.values.StringValue default_value = 10001;</code>
+       * <code>.dstore.values.StringValue default_value = 10001;</code>
        */
       public io.dstore.values.StringValueOrBuilder getDefaultValueOrBuilder() {
         return getDefaultValue();
@@ -1227,7 +1227,7 @@ public final class DoGetSQLFunctionParametersAd {
        * Wieviel Byte können Werte, die für den Parameter "ParameterName" übergeben werden, maximal enthalten. Bei vielen Daten-Typen ist die Speicherbelegung immer so groß wie dieser Wert (bei numerischen Daten-Typen z.B.).
        * </pre>
        *
-       * <code>optional .dstore.values.IntegerValue length = 10002;</code>
+       * <code>.dstore.values.IntegerValue length = 10002;</code>
        */
       public boolean hasLength() {
         return length_ != null;
@@ -1237,7 +1237,7 @@ public final class DoGetSQLFunctionParametersAd {
        * Wieviel Byte können Werte, die für den Parameter "ParameterName" übergeben werden, maximal enthalten. Bei vielen Daten-Typen ist die Speicherbelegung immer so groß wie dieser Wert (bei numerischen Daten-Typen z.B.).
        * </pre>
        *
-       * <code>optional .dstore.values.IntegerValue length = 10002;</code>
+       * <code>.dstore.values.IntegerValue length = 10002;</code>
        */
       public io.dstore.values.IntegerValue getLength() {
         return length_ == null ? io.dstore.values.IntegerValue.getDefaultInstance() : length_;
@@ -1247,7 +1247,7 @@ public final class DoGetSQLFunctionParametersAd {
        * Wieviel Byte können Werte, die für den Parameter "ParameterName" übergeben werden, maximal enthalten. Bei vielen Daten-Typen ist die Speicherbelegung immer so groß wie dieser Wert (bei numerischen Daten-Typen z.B.).
        * </pre>
        *
-       * <code>optional .dstore.values.IntegerValue length = 10002;</code>
+       * <code>.dstore.values.IntegerValue length = 10002;</code>
        */
       public io.dstore.values.IntegerValueOrBuilder getLengthOrBuilder() {
         return getLength();
@@ -1260,7 +1260,7 @@ public final class DoGetSQLFunctionParametersAd {
        * Seit welcher Version gibt es den Parameter "ParameterName"
        * </pre>
        *
-       * <code>optional .dstore.values.StringValue introduced_indstore_version = 10003;</code>
+       * <code>.dstore.values.StringValue introduced_indstore_version = 10003;</code>
        */
       public boolean hasIntroducedIndstoreVersion() {
         return introducedIndstoreVersion_ != null;
@@ -1270,7 +1270,7 @@ public final class DoGetSQLFunctionParametersAd {
        * Seit welcher Version gibt es den Parameter "ParameterName"
        * </pre>
        *
-       * <code>optional .dstore.values.StringValue introduced_indstore_version = 10003;</code>
+       * <code>.dstore.values.StringValue introduced_indstore_version = 10003;</code>
        */
       public io.dstore.values.StringValue getIntroducedIndstoreVersion() {
         return introducedIndstoreVersion_ == null ? io.dstore.values.StringValue.getDefaultInstance() : introducedIndstoreVersion_;
@@ -1280,7 +1280,7 @@ public final class DoGetSQLFunctionParametersAd {
        * Seit welcher Version gibt es den Parameter "ParameterName"
        * </pre>
        *
-       * <code>optional .dstore.values.StringValue introduced_indstore_version = 10003;</code>
+       * <code>.dstore.values.StringValue introduced_indstore_version = 10003;</code>
        */
       public io.dstore.values.StringValueOrBuilder getIntroducedIndstoreVersionOrBuilder() {
         return getIntroducedIndstoreVersion();
@@ -1293,7 +1293,7 @@ public final class DoGetSQLFunctionParametersAd {
        * Daten-Typ des Parameters "ParameterName"
        * </pre>
        *
-       * <code>optional .dstore.values.StringValue data_type = 10004;</code>
+       * <code>.dstore.values.StringValue data_type = 10004;</code>
        */
       public boolean hasDataType() {
         return dataType_ != null;
@@ -1303,7 +1303,7 @@ public final class DoGetSQLFunctionParametersAd {
        * Daten-Typ des Parameters "ParameterName"
        * </pre>
        *
-       * <code>optional .dstore.values.StringValue data_type = 10004;</code>
+       * <code>.dstore.values.StringValue data_type = 10004;</code>
        */
       public io.dstore.values.StringValue getDataType() {
         return dataType_ == null ? io.dstore.values.StringValue.getDefaultInstance() : dataType_;
@@ -1313,7 +1313,7 @@ public final class DoGetSQLFunctionParametersAd {
        * Daten-Typ des Parameters "ParameterName"
        * </pre>
        *
-       * <code>optional .dstore.values.StringValue data_type = 10004;</code>
+       * <code>.dstore.values.StringValue data_type = 10004;</code>
        */
       public io.dstore.values.StringValueOrBuilder getDataTypeOrBuilder() {
         return getDataType();
@@ -1326,7 +1326,7 @@ public final class DoGetSQLFunctionParametersAd {
        * Gilt nur für einige numerische Daten-Typen (z.B. "decimal") und gibt die maximale Anzahl Stellen an, die ein Wert für den Parameter "ParameterName" enthalten kann
        * </pre>
        *
-       * <code>optional .dstore.values.IntegerValue precision_value = 10005;</code>
+       * <code>.dstore.values.IntegerValue precision_value = 10005;</code>
        */
       public boolean hasPrecisionValue() {
         return precisionValue_ != null;
@@ -1336,7 +1336,7 @@ public final class DoGetSQLFunctionParametersAd {
        * Gilt nur für einige numerische Daten-Typen (z.B. "decimal") und gibt die maximale Anzahl Stellen an, die ein Wert für den Parameter "ParameterName" enthalten kann
        * </pre>
        *
-       * <code>optional .dstore.values.IntegerValue precision_value = 10005;</code>
+       * <code>.dstore.values.IntegerValue precision_value = 10005;</code>
        */
       public io.dstore.values.IntegerValue getPrecisionValue() {
         return precisionValue_ == null ? io.dstore.values.IntegerValue.getDefaultInstance() : precisionValue_;
@@ -1346,7 +1346,7 @@ public final class DoGetSQLFunctionParametersAd {
        * Gilt nur für einige numerische Daten-Typen (z.B. "decimal") und gibt die maximale Anzahl Stellen an, die ein Wert für den Parameter "ParameterName" enthalten kann
        * </pre>
        *
-       * <code>optional .dstore.values.IntegerValue precision_value = 10005;</code>
+       * <code>.dstore.values.IntegerValue precision_value = 10005;</code>
        */
       public io.dstore.values.IntegerValueOrBuilder getPrecisionValueOrBuilder() {
         return getPrecisionValue();
@@ -1359,7 +1359,7 @@ public final class DoGetSQLFunctionParametersAd {
        * Parameter-Name der SQL-Funktion "&#64;SQLFunctionName". Hinweis : Im Vergleich zu "mi_GetSQLFunctionParameters" gibt es KEINEN "dummy"-Parameter mit dem Namen "Return Type" (was den Rückgabewert der Funktion darstellt) !
        * </pre>
        *
-       * <code>optional .dstore.values.StringValue parameter_name = 10006;</code>
+       * <code>.dstore.values.StringValue parameter_name = 10006;</code>
        */
       public boolean hasParameterName() {
         return parameterName_ != null;
@@ -1369,7 +1369,7 @@ public final class DoGetSQLFunctionParametersAd {
        * Parameter-Name der SQL-Funktion "&#64;SQLFunctionName". Hinweis : Im Vergleich zu "mi_GetSQLFunctionParameters" gibt es KEINEN "dummy"-Parameter mit dem Namen "Return Type" (was den Rückgabewert der Funktion darstellt) !
        * </pre>
        *
-       * <code>optional .dstore.values.StringValue parameter_name = 10006;</code>
+       * <code>.dstore.values.StringValue parameter_name = 10006;</code>
        */
       public io.dstore.values.StringValue getParameterName() {
         return parameterName_ == null ? io.dstore.values.StringValue.getDefaultInstance() : parameterName_;
@@ -1379,7 +1379,7 @@ public final class DoGetSQLFunctionParametersAd {
        * Parameter-Name der SQL-Funktion "&#64;SQLFunctionName". Hinweis : Im Vergleich zu "mi_GetSQLFunctionParameters" gibt es KEINEN "dummy"-Parameter mit dem Namen "Return Type" (was den Rückgabewert der Funktion darstellt) !
        * </pre>
        *
-       * <code>optional .dstore.values.StringValue parameter_name = 10006;</code>
+       * <code>.dstore.values.StringValue parameter_name = 10006;</code>
        */
       public io.dstore.values.StringValueOrBuilder getParameterNameOrBuilder() {
         return getParameterName();
@@ -1392,7 +1392,7 @@ public final class DoGetSQLFunctionParametersAd {
        * Gilt nur für einige numerische Daten-Typen (z.B. "decimal") und gibt die Genauigkeit, sprich die maximale Anzahl an Nachkomma-Stellen an, die ein Wert für den Parameter "ParameterName" enthalten kann
        * </pre>
        *
-       * <code>optional .dstore.values.IntegerValue scale = 10007;</code>
+       * <code>.dstore.values.IntegerValue scale = 10007;</code>
        */
       public boolean hasScale() {
         return scale_ != null;
@@ -1402,7 +1402,7 @@ public final class DoGetSQLFunctionParametersAd {
        * Gilt nur für einige numerische Daten-Typen (z.B. "decimal") und gibt die Genauigkeit, sprich die maximale Anzahl an Nachkomma-Stellen an, die ein Wert für den Parameter "ParameterName" enthalten kann
        * </pre>
        *
-       * <code>optional .dstore.values.IntegerValue scale = 10007;</code>
+       * <code>.dstore.values.IntegerValue scale = 10007;</code>
        */
       public io.dstore.values.IntegerValue getScale() {
         return scale_ == null ? io.dstore.values.IntegerValue.getDefaultInstance() : scale_;
@@ -1412,7 +1412,7 @@ public final class DoGetSQLFunctionParametersAd {
        * Gilt nur für einige numerische Daten-Typen (z.B. "decimal") und gibt die Genauigkeit, sprich die maximale Anzahl an Nachkomma-Stellen an, die ein Wert für den Parameter "ParameterName" enthalten kann
        * </pre>
        *
-       * <code>optional .dstore.values.IntegerValue scale = 10007;</code>
+       * <code>.dstore.values.IntegerValue scale = 10007;</code>
        */
       public io.dstore.values.IntegerValueOrBuilder getScaleOrBuilder() {
         return getScale();
@@ -1555,7 +1555,7 @@ public final class DoGetSQLFunctionParametersAd {
           return memoizedHashCode;
         }
         int hash = 41;
-        hash = (19 * hash) + getDescriptorForType().hashCode();
+        hash = (19 * hash) + getDescriptor().hashCode();
         hash = (37 * hash) + ROW_ID_FIELD_NUMBER;
         hash = (53 * hash) + getRowId();
         if (hasDefaultValue()) {
@@ -1899,13 +1899,13 @@ public final class DoGetSQLFunctionParametersAd {
 
         private int rowId_ ;
         /**
-         * <code>optional int32 row_id = 10000;</code>
+         * <code>int32 row_id = 10000;</code>
          */
         public int getRowId() {
           return rowId_;
         }
         /**
-         * <code>optional int32 row_id = 10000;</code>
+         * <code>int32 row_id = 10000;</code>
          */
         public Builder setRowId(int value) {
           
@@ -1914,7 +1914,7 @@ public final class DoGetSQLFunctionParametersAd {
           return this;
         }
         /**
-         * <code>optional int32 row_id = 10000;</code>
+         * <code>int32 row_id = 10000;</code>
          */
         public Builder clearRowId() {
           
@@ -1931,7 +1931,7 @@ public final class DoGetSQLFunctionParametersAd {
          * Der Wert, mit dem der Parameter "ParameterName" vorbelegt ist. Hinweis : Im Gegensatz zu Parametern bei Prozeduren muß bei SQL-Funktionen ein Parameter IMMER angegeben werden, auch wenn ein "Default" definiert ist (um den zu verwenden, "default" angeben).
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue default_value = 10001;</code>
+         * <code>.dstore.values.StringValue default_value = 10001;</code>
          */
         public boolean hasDefaultValue() {
           return defaultValueBuilder_ != null || defaultValue_ != null;
@@ -1941,7 +1941,7 @@ public final class DoGetSQLFunctionParametersAd {
          * Der Wert, mit dem der Parameter "ParameterName" vorbelegt ist. Hinweis : Im Gegensatz zu Parametern bei Prozeduren muß bei SQL-Funktionen ein Parameter IMMER angegeben werden, auch wenn ein "Default" definiert ist (um den zu verwenden, "default" angeben).
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue default_value = 10001;</code>
+         * <code>.dstore.values.StringValue default_value = 10001;</code>
          */
         public io.dstore.values.StringValue getDefaultValue() {
           if (defaultValueBuilder_ == null) {
@@ -1955,7 +1955,7 @@ public final class DoGetSQLFunctionParametersAd {
          * Der Wert, mit dem der Parameter "ParameterName" vorbelegt ist. Hinweis : Im Gegensatz zu Parametern bei Prozeduren muß bei SQL-Funktionen ein Parameter IMMER angegeben werden, auch wenn ein "Default" definiert ist (um den zu verwenden, "default" angeben).
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue default_value = 10001;</code>
+         * <code>.dstore.values.StringValue default_value = 10001;</code>
          */
         public Builder setDefaultValue(io.dstore.values.StringValue value) {
           if (defaultValueBuilder_ == null) {
@@ -1975,7 +1975,7 @@ public final class DoGetSQLFunctionParametersAd {
          * Der Wert, mit dem der Parameter "ParameterName" vorbelegt ist. Hinweis : Im Gegensatz zu Parametern bei Prozeduren muß bei SQL-Funktionen ein Parameter IMMER angegeben werden, auch wenn ein "Default" definiert ist (um den zu verwenden, "default" angeben).
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue default_value = 10001;</code>
+         * <code>.dstore.values.StringValue default_value = 10001;</code>
          */
         public Builder setDefaultValue(
             io.dstore.values.StringValue.Builder builderForValue) {
@@ -1993,7 +1993,7 @@ public final class DoGetSQLFunctionParametersAd {
          * Der Wert, mit dem der Parameter "ParameterName" vorbelegt ist. Hinweis : Im Gegensatz zu Parametern bei Prozeduren muß bei SQL-Funktionen ein Parameter IMMER angegeben werden, auch wenn ein "Default" definiert ist (um den zu verwenden, "default" angeben).
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue default_value = 10001;</code>
+         * <code>.dstore.values.StringValue default_value = 10001;</code>
          */
         public Builder mergeDefaultValue(io.dstore.values.StringValue value) {
           if (defaultValueBuilder_ == null) {
@@ -2015,7 +2015,7 @@ public final class DoGetSQLFunctionParametersAd {
          * Der Wert, mit dem der Parameter "ParameterName" vorbelegt ist. Hinweis : Im Gegensatz zu Parametern bei Prozeduren muß bei SQL-Funktionen ein Parameter IMMER angegeben werden, auch wenn ein "Default" definiert ist (um den zu verwenden, "default" angeben).
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue default_value = 10001;</code>
+         * <code>.dstore.values.StringValue default_value = 10001;</code>
          */
         public Builder clearDefaultValue() {
           if (defaultValueBuilder_ == null) {
@@ -2033,7 +2033,7 @@ public final class DoGetSQLFunctionParametersAd {
          * Der Wert, mit dem der Parameter "ParameterName" vorbelegt ist. Hinweis : Im Gegensatz zu Parametern bei Prozeduren muß bei SQL-Funktionen ein Parameter IMMER angegeben werden, auch wenn ein "Default" definiert ist (um den zu verwenden, "default" angeben).
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue default_value = 10001;</code>
+         * <code>.dstore.values.StringValue default_value = 10001;</code>
          */
         public io.dstore.values.StringValue.Builder getDefaultValueBuilder() {
           
@@ -2045,7 +2045,7 @@ public final class DoGetSQLFunctionParametersAd {
          * Der Wert, mit dem der Parameter "ParameterName" vorbelegt ist. Hinweis : Im Gegensatz zu Parametern bei Prozeduren muß bei SQL-Funktionen ein Parameter IMMER angegeben werden, auch wenn ein "Default" definiert ist (um den zu verwenden, "default" angeben).
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue default_value = 10001;</code>
+         * <code>.dstore.values.StringValue default_value = 10001;</code>
          */
         public io.dstore.values.StringValueOrBuilder getDefaultValueOrBuilder() {
           if (defaultValueBuilder_ != null) {
@@ -2060,7 +2060,7 @@ public final class DoGetSQLFunctionParametersAd {
          * Der Wert, mit dem der Parameter "ParameterName" vorbelegt ist. Hinweis : Im Gegensatz zu Parametern bei Prozeduren muß bei SQL-Funktionen ein Parameter IMMER angegeben werden, auch wenn ein "Default" definiert ist (um den zu verwenden, "default" angeben).
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue default_value = 10001;</code>
+         * <code>.dstore.values.StringValue default_value = 10001;</code>
          */
         private com.google.protobuf.SingleFieldBuilderV3<
             io.dstore.values.StringValue, io.dstore.values.StringValue.Builder, io.dstore.values.StringValueOrBuilder> 
@@ -2084,7 +2084,7 @@ public final class DoGetSQLFunctionParametersAd {
          * Wieviel Byte können Werte, die für den Parameter "ParameterName" übergeben werden, maximal enthalten. Bei vielen Daten-Typen ist die Speicherbelegung immer so groß wie dieser Wert (bei numerischen Daten-Typen z.B.).
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue length = 10002;</code>
+         * <code>.dstore.values.IntegerValue length = 10002;</code>
          */
         public boolean hasLength() {
           return lengthBuilder_ != null || length_ != null;
@@ -2094,7 +2094,7 @@ public final class DoGetSQLFunctionParametersAd {
          * Wieviel Byte können Werte, die für den Parameter "ParameterName" übergeben werden, maximal enthalten. Bei vielen Daten-Typen ist die Speicherbelegung immer so groß wie dieser Wert (bei numerischen Daten-Typen z.B.).
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue length = 10002;</code>
+         * <code>.dstore.values.IntegerValue length = 10002;</code>
          */
         public io.dstore.values.IntegerValue getLength() {
           if (lengthBuilder_ == null) {
@@ -2108,7 +2108,7 @@ public final class DoGetSQLFunctionParametersAd {
          * Wieviel Byte können Werte, die für den Parameter "ParameterName" übergeben werden, maximal enthalten. Bei vielen Daten-Typen ist die Speicherbelegung immer so groß wie dieser Wert (bei numerischen Daten-Typen z.B.).
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue length = 10002;</code>
+         * <code>.dstore.values.IntegerValue length = 10002;</code>
          */
         public Builder setLength(io.dstore.values.IntegerValue value) {
           if (lengthBuilder_ == null) {
@@ -2128,7 +2128,7 @@ public final class DoGetSQLFunctionParametersAd {
          * Wieviel Byte können Werte, die für den Parameter "ParameterName" übergeben werden, maximal enthalten. Bei vielen Daten-Typen ist die Speicherbelegung immer so groß wie dieser Wert (bei numerischen Daten-Typen z.B.).
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue length = 10002;</code>
+         * <code>.dstore.values.IntegerValue length = 10002;</code>
          */
         public Builder setLength(
             io.dstore.values.IntegerValue.Builder builderForValue) {
@@ -2146,7 +2146,7 @@ public final class DoGetSQLFunctionParametersAd {
          * Wieviel Byte können Werte, die für den Parameter "ParameterName" übergeben werden, maximal enthalten. Bei vielen Daten-Typen ist die Speicherbelegung immer so groß wie dieser Wert (bei numerischen Daten-Typen z.B.).
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue length = 10002;</code>
+         * <code>.dstore.values.IntegerValue length = 10002;</code>
          */
         public Builder mergeLength(io.dstore.values.IntegerValue value) {
           if (lengthBuilder_ == null) {
@@ -2168,7 +2168,7 @@ public final class DoGetSQLFunctionParametersAd {
          * Wieviel Byte können Werte, die für den Parameter "ParameterName" übergeben werden, maximal enthalten. Bei vielen Daten-Typen ist die Speicherbelegung immer so groß wie dieser Wert (bei numerischen Daten-Typen z.B.).
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue length = 10002;</code>
+         * <code>.dstore.values.IntegerValue length = 10002;</code>
          */
         public Builder clearLength() {
           if (lengthBuilder_ == null) {
@@ -2186,7 +2186,7 @@ public final class DoGetSQLFunctionParametersAd {
          * Wieviel Byte können Werte, die für den Parameter "ParameterName" übergeben werden, maximal enthalten. Bei vielen Daten-Typen ist die Speicherbelegung immer so groß wie dieser Wert (bei numerischen Daten-Typen z.B.).
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue length = 10002;</code>
+         * <code>.dstore.values.IntegerValue length = 10002;</code>
          */
         public io.dstore.values.IntegerValue.Builder getLengthBuilder() {
           
@@ -2198,7 +2198,7 @@ public final class DoGetSQLFunctionParametersAd {
          * Wieviel Byte können Werte, die für den Parameter "ParameterName" übergeben werden, maximal enthalten. Bei vielen Daten-Typen ist die Speicherbelegung immer so groß wie dieser Wert (bei numerischen Daten-Typen z.B.).
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue length = 10002;</code>
+         * <code>.dstore.values.IntegerValue length = 10002;</code>
          */
         public io.dstore.values.IntegerValueOrBuilder getLengthOrBuilder() {
           if (lengthBuilder_ != null) {
@@ -2213,7 +2213,7 @@ public final class DoGetSQLFunctionParametersAd {
          * Wieviel Byte können Werte, die für den Parameter "ParameterName" übergeben werden, maximal enthalten. Bei vielen Daten-Typen ist die Speicherbelegung immer so groß wie dieser Wert (bei numerischen Daten-Typen z.B.).
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue length = 10002;</code>
+         * <code>.dstore.values.IntegerValue length = 10002;</code>
          */
         private com.google.protobuf.SingleFieldBuilderV3<
             io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> 
@@ -2237,7 +2237,7 @@ public final class DoGetSQLFunctionParametersAd {
          * Seit welcher Version gibt es den Parameter "ParameterName"
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue introduced_indstore_version = 10003;</code>
+         * <code>.dstore.values.StringValue introduced_indstore_version = 10003;</code>
          */
         public boolean hasIntroducedIndstoreVersion() {
           return introducedIndstoreVersionBuilder_ != null || introducedIndstoreVersion_ != null;
@@ -2247,7 +2247,7 @@ public final class DoGetSQLFunctionParametersAd {
          * Seit welcher Version gibt es den Parameter "ParameterName"
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue introduced_indstore_version = 10003;</code>
+         * <code>.dstore.values.StringValue introduced_indstore_version = 10003;</code>
          */
         public io.dstore.values.StringValue getIntroducedIndstoreVersion() {
           if (introducedIndstoreVersionBuilder_ == null) {
@@ -2261,7 +2261,7 @@ public final class DoGetSQLFunctionParametersAd {
          * Seit welcher Version gibt es den Parameter "ParameterName"
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue introduced_indstore_version = 10003;</code>
+         * <code>.dstore.values.StringValue introduced_indstore_version = 10003;</code>
          */
         public Builder setIntroducedIndstoreVersion(io.dstore.values.StringValue value) {
           if (introducedIndstoreVersionBuilder_ == null) {
@@ -2281,7 +2281,7 @@ public final class DoGetSQLFunctionParametersAd {
          * Seit welcher Version gibt es den Parameter "ParameterName"
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue introduced_indstore_version = 10003;</code>
+         * <code>.dstore.values.StringValue introduced_indstore_version = 10003;</code>
          */
         public Builder setIntroducedIndstoreVersion(
             io.dstore.values.StringValue.Builder builderForValue) {
@@ -2299,7 +2299,7 @@ public final class DoGetSQLFunctionParametersAd {
          * Seit welcher Version gibt es den Parameter "ParameterName"
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue introduced_indstore_version = 10003;</code>
+         * <code>.dstore.values.StringValue introduced_indstore_version = 10003;</code>
          */
         public Builder mergeIntroducedIndstoreVersion(io.dstore.values.StringValue value) {
           if (introducedIndstoreVersionBuilder_ == null) {
@@ -2321,7 +2321,7 @@ public final class DoGetSQLFunctionParametersAd {
          * Seit welcher Version gibt es den Parameter "ParameterName"
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue introduced_indstore_version = 10003;</code>
+         * <code>.dstore.values.StringValue introduced_indstore_version = 10003;</code>
          */
         public Builder clearIntroducedIndstoreVersion() {
           if (introducedIndstoreVersionBuilder_ == null) {
@@ -2339,7 +2339,7 @@ public final class DoGetSQLFunctionParametersAd {
          * Seit welcher Version gibt es den Parameter "ParameterName"
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue introduced_indstore_version = 10003;</code>
+         * <code>.dstore.values.StringValue introduced_indstore_version = 10003;</code>
          */
         public io.dstore.values.StringValue.Builder getIntroducedIndstoreVersionBuilder() {
           
@@ -2351,7 +2351,7 @@ public final class DoGetSQLFunctionParametersAd {
          * Seit welcher Version gibt es den Parameter "ParameterName"
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue introduced_indstore_version = 10003;</code>
+         * <code>.dstore.values.StringValue introduced_indstore_version = 10003;</code>
          */
         public io.dstore.values.StringValueOrBuilder getIntroducedIndstoreVersionOrBuilder() {
           if (introducedIndstoreVersionBuilder_ != null) {
@@ -2366,7 +2366,7 @@ public final class DoGetSQLFunctionParametersAd {
          * Seit welcher Version gibt es den Parameter "ParameterName"
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue introduced_indstore_version = 10003;</code>
+         * <code>.dstore.values.StringValue introduced_indstore_version = 10003;</code>
          */
         private com.google.protobuf.SingleFieldBuilderV3<
             io.dstore.values.StringValue, io.dstore.values.StringValue.Builder, io.dstore.values.StringValueOrBuilder> 
@@ -2390,7 +2390,7 @@ public final class DoGetSQLFunctionParametersAd {
          * Daten-Typ des Parameters "ParameterName"
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue data_type = 10004;</code>
+         * <code>.dstore.values.StringValue data_type = 10004;</code>
          */
         public boolean hasDataType() {
           return dataTypeBuilder_ != null || dataType_ != null;
@@ -2400,7 +2400,7 @@ public final class DoGetSQLFunctionParametersAd {
          * Daten-Typ des Parameters "ParameterName"
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue data_type = 10004;</code>
+         * <code>.dstore.values.StringValue data_type = 10004;</code>
          */
         public io.dstore.values.StringValue getDataType() {
           if (dataTypeBuilder_ == null) {
@@ -2414,7 +2414,7 @@ public final class DoGetSQLFunctionParametersAd {
          * Daten-Typ des Parameters "ParameterName"
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue data_type = 10004;</code>
+         * <code>.dstore.values.StringValue data_type = 10004;</code>
          */
         public Builder setDataType(io.dstore.values.StringValue value) {
           if (dataTypeBuilder_ == null) {
@@ -2434,7 +2434,7 @@ public final class DoGetSQLFunctionParametersAd {
          * Daten-Typ des Parameters "ParameterName"
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue data_type = 10004;</code>
+         * <code>.dstore.values.StringValue data_type = 10004;</code>
          */
         public Builder setDataType(
             io.dstore.values.StringValue.Builder builderForValue) {
@@ -2452,7 +2452,7 @@ public final class DoGetSQLFunctionParametersAd {
          * Daten-Typ des Parameters "ParameterName"
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue data_type = 10004;</code>
+         * <code>.dstore.values.StringValue data_type = 10004;</code>
          */
         public Builder mergeDataType(io.dstore.values.StringValue value) {
           if (dataTypeBuilder_ == null) {
@@ -2474,7 +2474,7 @@ public final class DoGetSQLFunctionParametersAd {
          * Daten-Typ des Parameters "ParameterName"
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue data_type = 10004;</code>
+         * <code>.dstore.values.StringValue data_type = 10004;</code>
          */
         public Builder clearDataType() {
           if (dataTypeBuilder_ == null) {
@@ -2492,7 +2492,7 @@ public final class DoGetSQLFunctionParametersAd {
          * Daten-Typ des Parameters "ParameterName"
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue data_type = 10004;</code>
+         * <code>.dstore.values.StringValue data_type = 10004;</code>
          */
         public io.dstore.values.StringValue.Builder getDataTypeBuilder() {
           
@@ -2504,7 +2504,7 @@ public final class DoGetSQLFunctionParametersAd {
          * Daten-Typ des Parameters "ParameterName"
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue data_type = 10004;</code>
+         * <code>.dstore.values.StringValue data_type = 10004;</code>
          */
         public io.dstore.values.StringValueOrBuilder getDataTypeOrBuilder() {
           if (dataTypeBuilder_ != null) {
@@ -2519,7 +2519,7 @@ public final class DoGetSQLFunctionParametersAd {
          * Daten-Typ des Parameters "ParameterName"
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue data_type = 10004;</code>
+         * <code>.dstore.values.StringValue data_type = 10004;</code>
          */
         private com.google.protobuf.SingleFieldBuilderV3<
             io.dstore.values.StringValue, io.dstore.values.StringValue.Builder, io.dstore.values.StringValueOrBuilder> 
@@ -2543,7 +2543,7 @@ public final class DoGetSQLFunctionParametersAd {
          * Gilt nur für einige numerische Daten-Typen (z.B. "decimal") und gibt die maximale Anzahl Stellen an, die ein Wert für den Parameter "ParameterName" enthalten kann
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue precision_value = 10005;</code>
+         * <code>.dstore.values.IntegerValue precision_value = 10005;</code>
          */
         public boolean hasPrecisionValue() {
           return precisionValueBuilder_ != null || precisionValue_ != null;
@@ -2553,7 +2553,7 @@ public final class DoGetSQLFunctionParametersAd {
          * Gilt nur für einige numerische Daten-Typen (z.B. "decimal") und gibt die maximale Anzahl Stellen an, die ein Wert für den Parameter "ParameterName" enthalten kann
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue precision_value = 10005;</code>
+         * <code>.dstore.values.IntegerValue precision_value = 10005;</code>
          */
         public io.dstore.values.IntegerValue getPrecisionValue() {
           if (precisionValueBuilder_ == null) {
@@ -2567,7 +2567,7 @@ public final class DoGetSQLFunctionParametersAd {
          * Gilt nur für einige numerische Daten-Typen (z.B. "decimal") und gibt die maximale Anzahl Stellen an, die ein Wert für den Parameter "ParameterName" enthalten kann
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue precision_value = 10005;</code>
+         * <code>.dstore.values.IntegerValue precision_value = 10005;</code>
          */
         public Builder setPrecisionValue(io.dstore.values.IntegerValue value) {
           if (precisionValueBuilder_ == null) {
@@ -2587,7 +2587,7 @@ public final class DoGetSQLFunctionParametersAd {
          * Gilt nur für einige numerische Daten-Typen (z.B. "decimal") und gibt die maximale Anzahl Stellen an, die ein Wert für den Parameter "ParameterName" enthalten kann
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue precision_value = 10005;</code>
+         * <code>.dstore.values.IntegerValue precision_value = 10005;</code>
          */
         public Builder setPrecisionValue(
             io.dstore.values.IntegerValue.Builder builderForValue) {
@@ -2605,7 +2605,7 @@ public final class DoGetSQLFunctionParametersAd {
          * Gilt nur für einige numerische Daten-Typen (z.B. "decimal") und gibt die maximale Anzahl Stellen an, die ein Wert für den Parameter "ParameterName" enthalten kann
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue precision_value = 10005;</code>
+         * <code>.dstore.values.IntegerValue precision_value = 10005;</code>
          */
         public Builder mergePrecisionValue(io.dstore.values.IntegerValue value) {
           if (precisionValueBuilder_ == null) {
@@ -2627,7 +2627,7 @@ public final class DoGetSQLFunctionParametersAd {
          * Gilt nur für einige numerische Daten-Typen (z.B. "decimal") und gibt die maximale Anzahl Stellen an, die ein Wert für den Parameter "ParameterName" enthalten kann
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue precision_value = 10005;</code>
+         * <code>.dstore.values.IntegerValue precision_value = 10005;</code>
          */
         public Builder clearPrecisionValue() {
           if (precisionValueBuilder_ == null) {
@@ -2645,7 +2645,7 @@ public final class DoGetSQLFunctionParametersAd {
          * Gilt nur für einige numerische Daten-Typen (z.B. "decimal") und gibt die maximale Anzahl Stellen an, die ein Wert für den Parameter "ParameterName" enthalten kann
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue precision_value = 10005;</code>
+         * <code>.dstore.values.IntegerValue precision_value = 10005;</code>
          */
         public io.dstore.values.IntegerValue.Builder getPrecisionValueBuilder() {
           
@@ -2657,7 +2657,7 @@ public final class DoGetSQLFunctionParametersAd {
          * Gilt nur für einige numerische Daten-Typen (z.B. "decimal") und gibt die maximale Anzahl Stellen an, die ein Wert für den Parameter "ParameterName" enthalten kann
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue precision_value = 10005;</code>
+         * <code>.dstore.values.IntegerValue precision_value = 10005;</code>
          */
         public io.dstore.values.IntegerValueOrBuilder getPrecisionValueOrBuilder() {
           if (precisionValueBuilder_ != null) {
@@ -2672,7 +2672,7 @@ public final class DoGetSQLFunctionParametersAd {
          * Gilt nur für einige numerische Daten-Typen (z.B. "decimal") und gibt die maximale Anzahl Stellen an, die ein Wert für den Parameter "ParameterName" enthalten kann
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue precision_value = 10005;</code>
+         * <code>.dstore.values.IntegerValue precision_value = 10005;</code>
          */
         private com.google.protobuf.SingleFieldBuilderV3<
             io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> 
@@ -2696,7 +2696,7 @@ public final class DoGetSQLFunctionParametersAd {
          * Parameter-Name der SQL-Funktion "&#64;SQLFunctionName". Hinweis : Im Vergleich zu "mi_GetSQLFunctionParameters" gibt es KEINEN "dummy"-Parameter mit dem Namen "Return Type" (was den Rückgabewert der Funktion darstellt) !
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue parameter_name = 10006;</code>
+         * <code>.dstore.values.StringValue parameter_name = 10006;</code>
          */
         public boolean hasParameterName() {
           return parameterNameBuilder_ != null || parameterName_ != null;
@@ -2706,7 +2706,7 @@ public final class DoGetSQLFunctionParametersAd {
          * Parameter-Name der SQL-Funktion "&#64;SQLFunctionName". Hinweis : Im Vergleich zu "mi_GetSQLFunctionParameters" gibt es KEINEN "dummy"-Parameter mit dem Namen "Return Type" (was den Rückgabewert der Funktion darstellt) !
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue parameter_name = 10006;</code>
+         * <code>.dstore.values.StringValue parameter_name = 10006;</code>
          */
         public io.dstore.values.StringValue getParameterName() {
           if (parameterNameBuilder_ == null) {
@@ -2720,7 +2720,7 @@ public final class DoGetSQLFunctionParametersAd {
          * Parameter-Name der SQL-Funktion "&#64;SQLFunctionName". Hinweis : Im Vergleich zu "mi_GetSQLFunctionParameters" gibt es KEINEN "dummy"-Parameter mit dem Namen "Return Type" (was den Rückgabewert der Funktion darstellt) !
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue parameter_name = 10006;</code>
+         * <code>.dstore.values.StringValue parameter_name = 10006;</code>
          */
         public Builder setParameterName(io.dstore.values.StringValue value) {
           if (parameterNameBuilder_ == null) {
@@ -2740,7 +2740,7 @@ public final class DoGetSQLFunctionParametersAd {
          * Parameter-Name der SQL-Funktion "&#64;SQLFunctionName". Hinweis : Im Vergleich zu "mi_GetSQLFunctionParameters" gibt es KEINEN "dummy"-Parameter mit dem Namen "Return Type" (was den Rückgabewert der Funktion darstellt) !
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue parameter_name = 10006;</code>
+         * <code>.dstore.values.StringValue parameter_name = 10006;</code>
          */
         public Builder setParameterName(
             io.dstore.values.StringValue.Builder builderForValue) {
@@ -2758,7 +2758,7 @@ public final class DoGetSQLFunctionParametersAd {
          * Parameter-Name der SQL-Funktion "&#64;SQLFunctionName". Hinweis : Im Vergleich zu "mi_GetSQLFunctionParameters" gibt es KEINEN "dummy"-Parameter mit dem Namen "Return Type" (was den Rückgabewert der Funktion darstellt) !
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue parameter_name = 10006;</code>
+         * <code>.dstore.values.StringValue parameter_name = 10006;</code>
          */
         public Builder mergeParameterName(io.dstore.values.StringValue value) {
           if (parameterNameBuilder_ == null) {
@@ -2780,7 +2780,7 @@ public final class DoGetSQLFunctionParametersAd {
          * Parameter-Name der SQL-Funktion "&#64;SQLFunctionName". Hinweis : Im Vergleich zu "mi_GetSQLFunctionParameters" gibt es KEINEN "dummy"-Parameter mit dem Namen "Return Type" (was den Rückgabewert der Funktion darstellt) !
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue parameter_name = 10006;</code>
+         * <code>.dstore.values.StringValue parameter_name = 10006;</code>
          */
         public Builder clearParameterName() {
           if (parameterNameBuilder_ == null) {
@@ -2798,7 +2798,7 @@ public final class DoGetSQLFunctionParametersAd {
          * Parameter-Name der SQL-Funktion "&#64;SQLFunctionName". Hinweis : Im Vergleich zu "mi_GetSQLFunctionParameters" gibt es KEINEN "dummy"-Parameter mit dem Namen "Return Type" (was den Rückgabewert der Funktion darstellt) !
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue parameter_name = 10006;</code>
+         * <code>.dstore.values.StringValue parameter_name = 10006;</code>
          */
         public io.dstore.values.StringValue.Builder getParameterNameBuilder() {
           
@@ -2810,7 +2810,7 @@ public final class DoGetSQLFunctionParametersAd {
          * Parameter-Name der SQL-Funktion "&#64;SQLFunctionName". Hinweis : Im Vergleich zu "mi_GetSQLFunctionParameters" gibt es KEINEN "dummy"-Parameter mit dem Namen "Return Type" (was den Rückgabewert der Funktion darstellt) !
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue parameter_name = 10006;</code>
+         * <code>.dstore.values.StringValue parameter_name = 10006;</code>
          */
         public io.dstore.values.StringValueOrBuilder getParameterNameOrBuilder() {
           if (parameterNameBuilder_ != null) {
@@ -2825,7 +2825,7 @@ public final class DoGetSQLFunctionParametersAd {
          * Parameter-Name der SQL-Funktion "&#64;SQLFunctionName". Hinweis : Im Vergleich zu "mi_GetSQLFunctionParameters" gibt es KEINEN "dummy"-Parameter mit dem Namen "Return Type" (was den Rückgabewert der Funktion darstellt) !
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue parameter_name = 10006;</code>
+         * <code>.dstore.values.StringValue parameter_name = 10006;</code>
          */
         private com.google.protobuf.SingleFieldBuilderV3<
             io.dstore.values.StringValue, io.dstore.values.StringValue.Builder, io.dstore.values.StringValueOrBuilder> 
@@ -2849,7 +2849,7 @@ public final class DoGetSQLFunctionParametersAd {
          * Gilt nur für einige numerische Daten-Typen (z.B. "decimal") und gibt die Genauigkeit, sprich die maximale Anzahl an Nachkomma-Stellen an, die ein Wert für den Parameter "ParameterName" enthalten kann
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue scale = 10007;</code>
+         * <code>.dstore.values.IntegerValue scale = 10007;</code>
          */
         public boolean hasScale() {
           return scaleBuilder_ != null || scale_ != null;
@@ -2859,7 +2859,7 @@ public final class DoGetSQLFunctionParametersAd {
          * Gilt nur für einige numerische Daten-Typen (z.B. "decimal") und gibt die Genauigkeit, sprich die maximale Anzahl an Nachkomma-Stellen an, die ein Wert für den Parameter "ParameterName" enthalten kann
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue scale = 10007;</code>
+         * <code>.dstore.values.IntegerValue scale = 10007;</code>
          */
         public io.dstore.values.IntegerValue getScale() {
           if (scaleBuilder_ == null) {
@@ -2873,7 +2873,7 @@ public final class DoGetSQLFunctionParametersAd {
          * Gilt nur für einige numerische Daten-Typen (z.B. "decimal") und gibt die Genauigkeit, sprich die maximale Anzahl an Nachkomma-Stellen an, die ein Wert für den Parameter "ParameterName" enthalten kann
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue scale = 10007;</code>
+         * <code>.dstore.values.IntegerValue scale = 10007;</code>
          */
         public Builder setScale(io.dstore.values.IntegerValue value) {
           if (scaleBuilder_ == null) {
@@ -2893,7 +2893,7 @@ public final class DoGetSQLFunctionParametersAd {
          * Gilt nur für einige numerische Daten-Typen (z.B. "decimal") und gibt die Genauigkeit, sprich die maximale Anzahl an Nachkomma-Stellen an, die ein Wert für den Parameter "ParameterName" enthalten kann
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue scale = 10007;</code>
+         * <code>.dstore.values.IntegerValue scale = 10007;</code>
          */
         public Builder setScale(
             io.dstore.values.IntegerValue.Builder builderForValue) {
@@ -2911,7 +2911,7 @@ public final class DoGetSQLFunctionParametersAd {
          * Gilt nur für einige numerische Daten-Typen (z.B. "decimal") und gibt die Genauigkeit, sprich die maximale Anzahl an Nachkomma-Stellen an, die ein Wert für den Parameter "ParameterName" enthalten kann
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue scale = 10007;</code>
+         * <code>.dstore.values.IntegerValue scale = 10007;</code>
          */
         public Builder mergeScale(io.dstore.values.IntegerValue value) {
           if (scaleBuilder_ == null) {
@@ -2933,7 +2933,7 @@ public final class DoGetSQLFunctionParametersAd {
          * Gilt nur für einige numerische Daten-Typen (z.B. "decimal") und gibt die Genauigkeit, sprich die maximale Anzahl an Nachkomma-Stellen an, die ein Wert für den Parameter "ParameterName" enthalten kann
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue scale = 10007;</code>
+         * <code>.dstore.values.IntegerValue scale = 10007;</code>
          */
         public Builder clearScale() {
           if (scaleBuilder_ == null) {
@@ -2951,7 +2951,7 @@ public final class DoGetSQLFunctionParametersAd {
          * Gilt nur für einige numerische Daten-Typen (z.B. "decimal") und gibt die Genauigkeit, sprich die maximale Anzahl an Nachkomma-Stellen an, die ein Wert für den Parameter "ParameterName" enthalten kann
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue scale = 10007;</code>
+         * <code>.dstore.values.IntegerValue scale = 10007;</code>
          */
         public io.dstore.values.IntegerValue.Builder getScaleBuilder() {
           
@@ -2963,7 +2963,7 @@ public final class DoGetSQLFunctionParametersAd {
          * Gilt nur für einige numerische Daten-Typen (z.B. "decimal") und gibt die Genauigkeit, sprich die maximale Anzahl an Nachkomma-Stellen an, die ein Wert für den Parameter "ParameterName" enthalten kann
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue scale = 10007;</code>
+         * <code>.dstore.values.IntegerValue scale = 10007;</code>
          */
         public io.dstore.values.IntegerValueOrBuilder getScaleOrBuilder() {
           if (scaleBuilder_ != null) {
@@ -2978,7 +2978,7 @@ public final class DoGetSQLFunctionParametersAd {
          * Gilt nur für einige numerische Daten-Typen (z.B. "decimal") und gibt die Genauigkeit, sprich die maximale Anzahl an Nachkomma-Stellen an, die ein Wert für den Parameter "ParameterName" enthalten kann
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue scale = 10007;</code>
+         * <code>.dstore.values.IntegerValue scale = 10007;</code>
          */
         private com.google.protobuf.SingleFieldBuilderV3<
             io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> 
@@ -3238,7 +3238,7 @@ public final class DoGetSQLFunctionParametersAd {
         return memoizedHashCode;
       }
       int hash = 41;
-      hash = (19 * hash) + getDescriptorForType().hashCode();
+      hash = (19 * hash) + getDescriptor().hashCode();
       if (getMetaInformationCount() > 0) {
         hash = (37 * hash) + META_INFORMATION_FIELD_NUMBER;
         hash = (53 * hash) + getMetaInformationList().hashCode();

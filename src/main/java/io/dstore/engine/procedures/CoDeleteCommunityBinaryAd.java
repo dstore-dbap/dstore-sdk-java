@@ -19,20 +19,20 @@ public final class CoDeleteCommunityBinaryAd {
       com.google.protobuf.MessageOrBuilder {
 
     /**
-     * <code>optional .dstore.values.IntegerValue binary_id = 1;</code>
+     * <code>.dstore.values.IntegerValue binary_id = 1;</code>
      */
     boolean hasBinaryId();
     /**
-     * <code>optional .dstore.values.IntegerValue binary_id = 1;</code>
+     * <code>.dstore.values.IntegerValue binary_id = 1;</code>
      */
     io.dstore.values.IntegerValue getBinaryId();
     /**
-     * <code>optional .dstore.values.IntegerValue binary_id = 1;</code>
+     * <code>.dstore.values.IntegerValue binary_id = 1;</code>
      */
     io.dstore.values.IntegerValueOrBuilder getBinaryIdOrBuilder();
 
     /**
-     * <code>optional bool binary_id_null = 1001;</code>
+     * <code>bool binary_id_null = 1001;</code>
      */
     boolean getBinaryIdNull();
   }
@@ -120,19 +120,19 @@ public final class CoDeleteCommunityBinaryAd {
     public static final int BINARY_ID_FIELD_NUMBER = 1;
     private io.dstore.values.IntegerValue binaryId_;
     /**
-     * <code>optional .dstore.values.IntegerValue binary_id = 1;</code>
+     * <code>.dstore.values.IntegerValue binary_id = 1;</code>
      */
     public boolean hasBinaryId() {
       return binaryId_ != null;
     }
     /**
-     * <code>optional .dstore.values.IntegerValue binary_id = 1;</code>
+     * <code>.dstore.values.IntegerValue binary_id = 1;</code>
      */
     public io.dstore.values.IntegerValue getBinaryId() {
       return binaryId_ == null ? io.dstore.values.IntegerValue.getDefaultInstance() : binaryId_;
     }
     /**
-     * <code>optional .dstore.values.IntegerValue binary_id = 1;</code>
+     * <code>.dstore.values.IntegerValue binary_id = 1;</code>
      */
     public io.dstore.values.IntegerValueOrBuilder getBinaryIdOrBuilder() {
       return getBinaryId();
@@ -141,7 +141,7 @@ public final class CoDeleteCommunityBinaryAd {
     public static final int BINARY_ID_NULL_FIELD_NUMBER = 1001;
     private boolean binaryIdNull_;
     /**
-     * <code>optional bool binary_id_null = 1001;</code>
+     * <code>bool binary_id_null = 1001;</code>
      */
     public boolean getBinaryIdNull() {
       return binaryIdNull_;
@@ -212,7 +212,7 @@ public final class CoDeleteCommunityBinaryAd {
         return memoizedHashCode;
       }
       int hash = 41;
-      hash = (19 * hash) + getDescriptorForType().hashCode();
+      hash = (19 * hash) + getDescriptor().hashCode();
       if (hasBinaryId()) {
         hash = (37 * hash) + BINARY_ID_FIELD_NUMBER;
         hash = (53 * hash) + getBinaryId().hashCode();
@@ -451,13 +451,13 @@ public final class CoDeleteCommunityBinaryAd {
       private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> binaryIdBuilder_;
       /**
-       * <code>optional .dstore.values.IntegerValue binary_id = 1;</code>
+       * <code>.dstore.values.IntegerValue binary_id = 1;</code>
        */
       public boolean hasBinaryId() {
         return binaryIdBuilder_ != null || binaryId_ != null;
       }
       /**
-       * <code>optional .dstore.values.IntegerValue binary_id = 1;</code>
+       * <code>.dstore.values.IntegerValue binary_id = 1;</code>
        */
       public io.dstore.values.IntegerValue getBinaryId() {
         if (binaryIdBuilder_ == null) {
@@ -467,7 +467,7 @@ public final class CoDeleteCommunityBinaryAd {
         }
       }
       /**
-       * <code>optional .dstore.values.IntegerValue binary_id = 1;</code>
+       * <code>.dstore.values.IntegerValue binary_id = 1;</code>
        */
       public Builder setBinaryId(io.dstore.values.IntegerValue value) {
         if (binaryIdBuilder_ == null) {
@@ -483,7 +483,7 @@ public final class CoDeleteCommunityBinaryAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.IntegerValue binary_id = 1;</code>
+       * <code>.dstore.values.IntegerValue binary_id = 1;</code>
        */
       public Builder setBinaryId(
           io.dstore.values.IntegerValue.Builder builderForValue) {
@@ -497,7 +497,7 @@ public final class CoDeleteCommunityBinaryAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.IntegerValue binary_id = 1;</code>
+       * <code>.dstore.values.IntegerValue binary_id = 1;</code>
        */
       public Builder mergeBinaryId(io.dstore.values.IntegerValue value) {
         if (binaryIdBuilder_ == null) {
@@ -515,7 +515,7 @@ public final class CoDeleteCommunityBinaryAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.IntegerValue binary_id = 1;</code>
+       * <code>.dstore.values.IntegerValue binary_id = 1;</code>
        */
       public Builder clearBinaryId() {
         if (binaryIdBuilder_ == null) {
@@ -529,7 +529,7 @@ public final class CoDeleteCommunityBinaryAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.IntegerValue binary_id = 1;</code>
+       * <code>.dstore.values.IntegerValue binary_id = 1;</code>
        */
       public io.dstore.values.IntegerValue.Builder getBinaryIdBuilder() {
         
@@ -537,7 +537,7 @@ public final class CoDeleteCommunityBinaryAd {
         return getBinaryIdFieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .dstore.values.IntegerValue binary_id = 1;</code>
+       * <code>.dstore.values.IntegerValue binary_id = 1;</code>
        */
       public io.dstore.values.IntegerValueOrBuilder getBinaryIdOrBuilder() {
         if (binaryIdBuilder_ != null) {
@@ -548,7 +548,7 @@ public final class CoDeleteCommunityBinaryAd {
         }
       }
       /**
-       * <code>optional .dstore.values.IntegerValue binary_id = 1;</code>
+       * <code>.dstore.values.IntegerValue binary_id = 1;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> 
@@ -566,13 +566,13 @@ public final class CoDeleteCommunityBinaryAd {
 
       private boolean binaryIdNull_ ;
       /**
-       * <code>optional bool binary_id_null = 1001;</code>
+       * <code>bool binary_id_null = 1001;</code>
        */
       public boolean getBinaryIdNull() {
         return binaryIdNull_;
       }
       /**
-       * <code>optional bool binary_id_null = 1001;</code>
+       * <code>bool binary_id_null = 1001;</code>
        */
       public Builder setBinaryIdNull(boolean value) {
         
@@ -581,7 +581,7 @@ public final class CoDeleteCommunityBinaryAd {
         return this;
       }
       /**
-       * <code>optional bool binary_id_null = 1001;</code>
+       * <code>bool binary_id_null = 1001;</code>
        */
       public Builder clearBinaryIdNull() {
         
@@ -840,7 +840,7 @@ public final class CoDeleteCommunityBinaryAd {
         com.google.protobuf.MessageOrBuilder {
 
       /**
-       * <code>optional int32 row_id = 10000;</code>
+       * <code>int32 row_id = 10000;</code>
        */
       int getRowId();
     }
@@ -915,7 +915,7 @@ public final class CoDeleteCommunityBinaryAd {
       public static final int ROW_ID_FIELD_NUMBER = 10000;
       private int rowId_;
       /**
-       * <code>optional int32 row_id = 10000;</code>
+       * <code>int32 row_id = 10000;</code>
        */
       public int getRowId() {
         return rowId_;
@@ -974,7 +974,7 @@ public final class CoDeleteCommunityBinaryAd {
           return memoizedHashCode;
         }
         int hash = 41;
-        hash = (19 * hash) + getDescriptorForType().hashCode();
+        hash = (19 * hash) + getDescriptor().hashCode();
         hash = (37 * hash) + ROW_ID_FIELD_NUMBER;
         hash = (53 * hash) + getRowId();
         hash = (29 * hash) + unknownFields.hashCode();
@@ -1192,13 +1192,13 @@ public final class CoDeleteCommunityBinaryAd {
 
         private int rowId_ ;
         /**
-         * <code>optional int32 row_id = 10000;</code>
+         * <code>int32 row_id = 10000;</code>
          */
         public int getRowId() {
           return rowId_;
         }
         /**
-         * <code>optional int32 row_id = 10000;</code>
+         * <code>int32 row_id = 10000;</code>
          */
         public Builder setRowId(int value) {
           
@@ -1207,7 +1207,7 @@ public final class CoDeleteCommunityBinaryAd {
           return this;
         }
         /**
-         * <code>optional int32 row_id = 10000;</code>
+         * <code>int32 row_id = 10000;</code>
          */
         public Builder clearRowId() {
           
@@ -1460,7 +1460,7 @@ public final class CoDeleteCommunityBinaryAd {
         return memoizedHashCode;
       }
       int hash = 41;
-      hash = (19 * hash) + getDescriptorForType().hashCode();
+      hash = (19 * hash) + getDescriptor().hashCode();
       if (getMetaInformationCount() > 0) {
         hash = (37 * hash) + META_INFORMATION_FIELD_NUMBER;
         hash = (53 * hash) + getMetaInformationList().hashCode();

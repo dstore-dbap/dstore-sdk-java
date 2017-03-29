@@ -8,20 +8,20 @@ public interface SortOrBuilder extends
     com.google.protobuf.MessageOrBuilder {
 
   /**
-   * <code>optional .dstore.elastic.Sort.FieldSort field_sort = 1;</code>
+   * <code>.dstore.elastic.Sort.FieldSort field_sort = 1;</code>
    */
   io.dstore.elastic.Sort.FieldSort getFieldSort();
   /**
-   * <code>optional .dstore.elastic.Sort.FieldSort field_sort = 1;</code>
+   * <code>.dstore.elastic.Sort.FieldSort field_sort = 1;</code>
    */
   io.dstore.elastic.Sort.FieldSortOrBuilder getFieldSortOrBuilder();
 
   /**
-   * <code>optional .dstore.elastic.Sort.ScoreSort score_sort = 2;</code>
+   * <code>.dstore.elastic.Sort.ScoreSort score_sort = 2;</code>
    */
   io.dstore.elastic.Sort.ScoreSort getScoreSort();
   /**
-   * <code>optional .dstore.elastic.Sort.ScoreSort score_sort = 2;</code>
+   * <code>.dstore.elastic.Sort.ScoreSort score_sort = 2;</code>
    */
   io.dstore.elastic.Sort.ScoreSortOrBuilder getScoreSortOrBuilder();
 

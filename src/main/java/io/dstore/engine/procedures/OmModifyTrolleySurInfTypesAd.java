@@ -19,74 +19,74 @@ public final class OmModifyTrolleySurInfTypesAd {
       com.google.protobuf.MessageOrBuilder {
 
     /**
-     * <code>optional .dstore.values.IntegerValue information_type_id = 1;</code>
+     * <code>.dstore.values.IntegerValue information_type_id = 1;</code>
      */
     boolean hasInformationTypeId();
     /**
-     * <code>optional .dstore.values.IntegerValue information_type_id = 1;</code>
+     * <code>.dstore.values.IntegerValue information_type_id = 1;</code>
      */
     io.dstore.values.IntegerValue getInformationTypeId();
     /**
-     * <code>optional .dstore.values.IntegerValue information_type_id = 1;</code>
+     * <code>.dstore.values.IntegerValue information_type_id = 1;</code>
      */
     io.dstore.values.IntegerValueOrBuilder getInformationTypeIdOrBuilder();
 
     /**
-     * <code>optional bool information_type_id_null = 1001;</code>
+     * <code>bool information_type_id_null = 1001;</code>
      */
     boolean getInformationTypeIdNull();
 
     /**
-     * <code>optional .dstore.values.StringValue information_type = 2;</code>
+     * <code>.dstore.values.StringValue information_type = 2;</code>
      */
     boolean hasInformationType();
     /**
-     * <code>optional .dstore.values.StringValue information_type = 2;</code>
+     * <code>.dstore.values.StringValue information_type = 2;</code>
      */
     io.dstore.values.StringValue getInformationType();
     /**
-     * <code>optional .dstore.values.StringValue information_type = 2;</code>
+     * <code>.dstore.values.StringValue information_type = 2;</code>
      */
     io.dstore.values.StringValueOrBuilder getInformationTypeOrBuilder();
 
     /**
-     * <code>optional bool information_type_null = 1002;</code>
+     * <code>bool information_type_null = 1002;</code>
      */
     boolean getInformationTypeNull();
 
     /**
-     * <code>optional .dstore.values.IntegerValue field_type_id = 3;</code>
+     * <code>.dstore.values.IntegerValue field_type_id = 3;</code>
      */
     boolean hasFieldTypeId();
     /**
-     * <code>optional .dstore.values.IntegerValue field_type_id = 3;</code>
+     * <code>.dstore.values.IntegerValue field_type_id = 3;</code>
      */
     io.dstore.values.IntegerValue getFieldTypeId();
     /**
-     * <code>optional .dstore.values.IntegerValue field_type_id = 3;</code>
+     * <code>.dstore.values.IntegerValue field_type_id = 3;</code>
      */
     io.dstore.values.IntegerValueOrBuilder getFieldTypeIdOrBuilder();
 
     /**
-     * <code>optional bool field_type_id_null = 1003;</code>
+     * <code>bool field_type_id_null = 1003;</code>
      */
     boolean getFieldTypeIdNull();
 
     /**
-     * <code>optional .dstore.values.BooleanValue delete_info_type = 4;</code>
+     * <code>.dstore.values.BooleanValue delete_info_type = 4;</code>
      */
     boolean hasDeleteInfoType();
     /**
-     * <code>optional .dstore.values.BooleanValue delete_info_type = 4;</code>
+     * <code>.dstore.values.BooleanValue delete_info_type = 4;</code>
      */
     io.dstore.values.BooleanValue getDeleteInfoType();
     /**
-     * <code>optional .dstore.values.BooleanValue delete_info_type = 4;</code>
+     * <code>.dstore.values.BooleanValue delete_info_type = 4;</code>
      */
     io.dstore.values.BooleanValueOrBuilder getDeleteInfoTypeOrBuilder();
 
     /**
-     * <code>optional bool delete_info_type_null = 1004;</code>
+     * <code>bool delete_info_type_null = 1004;</code>
      */
     boolean getDeleteInfoTypeNull();
   }
@@ -231,19 +231,19 @@ public final class OmModifyTrolleySurInfTypesAd {
     public static final int INFORMATION_TYPE_ID_FIELD_NUMBER = 1;
     private io.dstore.values.IntegerValue informationTypeId_;
     /**
-     * <code>optional .dstore.values.IntegerValue information_type_id = 1;</code>
+     * <code>.dstore.values.IntegerValue information_type_id = 1;</code>
      */
     public boolean hasInformationTypeId() {
       return informationTypeId_ != null;
     }
     /**
-     * <code>optional .dstore.values.IntegerValue information_type_id = 1;</code>
+     * <code>.dstore.values.IntegerValue information_type_id = 1;</code>
      */
     public io.dstore.values.IntegerValue getInformationTypeId() {
       return informationTypeId_ == null ? io.dstore.values.IntegerValue.getDefaultInstance() : informationTypeId_;
     }
     /**
-     * <code>optional .dstore.values.IntegerValue information_type_id = 1;</code>
+     * <code>.dstore.values.IntegerValue information_type_id = 1;</code>
      */
     public io.dstore.values.IntegerValueOrBuilder getInformationTypeIdOrBuilder() {
       return getInformationTypeId();
@@ -252,7 +252,7 @@ public final class OmModifyTrolleySurInfTypesAd {
     public static final int INFORMATION_TYPE_ID_NULL_FIELD_NUMBER = 1001;
     private boolean informationTypeIdNull_;
     /**
-     * <code>optional bool information_type_id_null = 1001;</code>
+     * <code>bool information_type_id_null = 1001;</code>
      */
     public boolean getInformationTypeIdNull() {
       return informationTypeIdNull_;
@@ -261,19 +261,19 @@ public final class OmModifyTrolleySurInfTypesAd {
     public static final int INFORMATION_TYPE_FIELD_NUMBER = 2;
     private io.dstore.values.StringValue informationType_;
     /**
-     * <code>optional .dstore.values.StringValue information_type = 2;</code>
+     * <code>.dstore.values.StringValue information_type = 2;</code>
      */
     public boolean hasInformationType() {
       return informationType_ != null;
     }
     /**
-     * <code>optional .dstore.values.StringValue information_type = 2;</code>
+     * <code>.dstore.values.StringValue information_type = 2;</code>
      */
     public io.dstore.values.StringValue getInformationType() {
       return informationType_ == null ? io.dstore.values.StringValue.getDefaultInstance() : informationType_;
     }
     /**
-     * <code>optional .dstore.values.StringValue information_type = 2;</code>
+     * <code>.dstore.values.StringValue information_type = 2;</code>
      */
     public io.dstore.values.StringValueOrBuilder getInformationTypeOrBuilder() {
       return getInformationType();
@@ -282,7 +282,7 @@ public final class OmModifyTrolleySurInfTypesAd {
     public static final int INFORMATION_TYPE_NULL_FIELD_NUMBER = 1002;
     private boolean informationTypeNull_;
     /**
-     * <code>optional bool information_type_null = 1002;</code>
+     * <code>bool information_type_null = 1002;</code>
      */
     public boolean getInformationTypeNull() {
       return informationTypeNull_;
@@ -291,19 +291,19 @@ public final class OmModifyTrolleySurInfTypesAd {
     public static final int FIELD_TYPE_ID_FIELD_NUMBER = 3;
     private io.dstore.values.IntegerValue fieldTypeId_;
     /**
-     * <code>optional .dstore.values.IntegerValue field_type_id = 3;</code>
+     * <code>.dstore.values.IntegerValue field_type_id = 3;</code>
      */
     public boolean hasFieldTypeId() {
       return fieldTypeId_ != null;
     }
     /**
-     * <code>optional .dstore.values.IntegerValue field_type_id = 3;</code>
+     * <code>.dstore.values.IntegerValue field_type_id = 3;</code>
      */
     public io.dstore.values.IntegerValue getFieldTypeId() {
       return fieldTypeId_ == null ? io.dstore.values.IntegerValue.getDefaultInstance() : fieldTypeId_;
     }
     /**
-     * <code>optional .dstore.values.IntegerValue field_type_id = 3;</code>
+     * <code>.dstore.values.IntegerValue field_type_id = 3;</code>
      */
     public io.dstore.values.IntegerValueOrBuilder getFieldTypeIdOrBuilder() {
       return getFieldTypeId();
@@ -312,7 +312,7 @@ public final class OmModifyTrolleySurInfTypesAd {
     public static final int FIELD_TYPE_ID_NULL_FIELD_NUMBER = 1003;
     private boolean fieldTypeIdNull_;
     /**
-     * <code>optional bool field_type_id_null = 1003;</code>
+     * <code>bool field_type_id_null = 1003;</code>
      */
     public boolean getFieldTypeIdNull() {
       return fieldTypeIdNull_;
@@ -321,19 +321,19 @@ public final class OmModifyTrolleySurInfTypesAd {
     public static final int DELETE_INFO_TYPE_FIELD_NUMBER = 4;
     private io.dstore.values.BooleanValue deleteInfoType_;
     /**
-     * <code>optional .dstore.values.BooleanValue delete_info_type = 4;</code>
+     * <code>.dstore.values.BooleanValue delete_info_type = 4;</code>
      */
     public boolean hasDeleteInfoType() {
       return deleteInfoType_ != null;
     }
     /**
-     * <code>optional .dstore.values.BooleanValue delete_info_type = 4;</code>
+     * <code>.dstore.values.BooleanValue delete_info_type = 4;</code>
      */
     public io.dstore.values.BooleanValue getDeleteInfoType() {
       return deleteInfoType_ == null ? io.dstore.values.BooleanValue.getDefaultInstance() : deleteInfoType_;
     }
     /**
-     * <code>optional .dstore.values.BooleanValue delete_info_type = 4;</code>
+     * <code>.dstore.values.BooleanValue delete_info_type = 4;</code>
      */
     public io.dstore.values.BooleanValueOrBuilder getDeleteInfoTypeOrBuilder() {
       return getDeleteInfoType();
@@ -342,7 +342,7 @@ public final class OmModifyTrolleySurInfTypesAd {
     public static final int DELETE_INFO_TYPE_NULL_FIELD_NUMBER = 1004;
     private boolean deleteInfoTypeNull_;
     /**
-     * <code>optional bool delete_info_type_null = 1004;</code>
+     * <code>bool delete_info_type_null = 1004;</code>
      */
     public boolean getDeleteInfoTypeNull() {
       return deleteInfoTypeNull_;
@@ -476,7 +476,7 @@ public final class OmModifyTrolleySurInfTypesAd {
         return memoizedHashCode;
       }
       int hash = 41;
-      hash = (19 * hash) + getDescriptorForType().hashCode();
+      hash = (19 * hash) + getDescriptor().hashCode();
       if (hasInformationTypeId()) {
         hash = (37 * hash) + INFORMATION_TYPE_ID_FIELD_NUMBER;
         hash = (53 * hash) + getInformationTypeId().hashCode();
@@ -796,13 +796,13 @@ public final class OmModifyTrolleySurInfTypesAd {
       private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> informationTypeIdBuilder_;
       /**
-       * <code>optional .dstore.values.IntegerValue information_type_id = 1;</code>
+       * <code>.dstore.values.IntegerValue information_type_id = 1;</code>
        */
       public boolean hasInformationTypeId() {
         return informationTypeIdBuilder_ != null || informationTypeId_ != null;
       }
       /**
-       * <code>optional .dstore.values.IntegerValue information_type_id = 1;</code>
+       * <code>.dstore.values.IntegerValue information_type_id = 1;</code>
        */
       public io.dstore.values.IntegerValue getInformationTypeId() {
         if (informationTypeIdBuilder_ == null) {
@@ -812,7 +812,7 @@ public final class OmModifyTrolleySurInfTypesAd {
         }
       }
       /**
-       * <code>optional .dstore.values.IntegerValue information_type_id = 1;</code>
+       * <code>.dstore.values.IntegerValue information_type_id = 1;</code>
        */
       public Builder setInformationTypeId(io.dstore.values.IntegerValue value) {
         if (informationTypeIdBuilder_ == null) {
@@ -828,7 +828,7 @@ public final class OmModifyTrolleySurInfTypesAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.IntegerValue information_type_id = 1;</code>
+       * <code>.dstore.values.IntegerValue information_type_id = 1;</code>
        */
       public Builder setInformationTypeId(
           io.dstore.values.IntegerValue.Builder builderForValue) {
@@ -842,7 +842,7 @@ public final class OmModifyTrolleySurInfTypesAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.IntegerValue information_type_id = 1;</code>
+       * <code>.dstore.values.IntegerValue information_type_id = 1;</code>
        */
       public Builder mergeInformationTypeId(io.dstore.values.IntegerValue value) {
         if (informationTypeIdBuilder_ == null) {
@@ -860,7 +860,7 @@ public final class OmModifyTrolleySurInfTypesAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.IntegerValue information_type_id = 1;</code>
+       * <code>.dstore.values.IntegerValue information_type_id = 1;</code>
        */
       public Builder clearInformationTypeId() {
         if (informationTypeIdBuilder_ == null) {
@@ -874,7 +874,7 @@ public final class OmModifyTrolleySurInfTypesAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.IntegerValue information_type_id = 1;</code>
+       * <code>.dstore.values.IntegerValue information_type_id = 1;</code>
        */
       public io.dstore.values.IntegerValue.Builder getInformationTypeIdBuilder() {
         
@@ -882,7 +882,7 @@ public final class OmModifyTrolleySurInfTypesAd {
         return getInformationTypeIdFieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .dstore.values.IntegerValue information_type_id = 1;</code>
+       * <code>.dstore.values.IntegerValue information_type_id = 1;</code>
        */
       public io.dstore.values.IntegerValueOrBuilder getInformationTypeIdOrBuilder() {
         if (informationTypeIdBuilder_ != null) {
@@ -893,7 +893,7 @@ public final class OmModifyTrolleySurInfTypesAd {
         }
       }
       /**
-       * <code>optional .dstore.values.IntegerValue information_type_id = 1;</code>
+       * <code>.dstore.values.IntegerValue information_type_id = 1;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> 
@@ -911,13 +911,13 @@ public final class OmModifyTrolleySurInfTypesAd {
 
       private boolean informationTypeIdNull_ ;
       /**
-       * <code>optional bool information_type_id_null = 1001;</code>
+       * <code>bool information_type_id_null = 1001;</code>
        */
       public boolean getInformationTypeIdNull() {
         return informationTypeIdNull_;
       }
       /**
-       * <code>optional bool information_type_id_null = 1001;</code>
+       * <code>bool information_type_id_null = 1001;</code>
        */
       public Builder setInformationTypeIdNull(boolean value) {
         
@@ -926,7 +926,7 @@ public final class OmModifyTrolleySurInfTypesAd {
         return this;
       }
       /**
-       * <code>optional bool information_type_id_null = 1001;</code>
+       * <code>bool information_type_id_null = 1001;</code>
        */
       public Builder clearInformationTypeIdNull() {
         
@@ -939,13 +939,13 @@ public final class OmModifyTrolleySurInfTypesAd {
       private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.values.StringValue, io.dstore.values.StringValue.Builder, io.dstore.values.StringValueOrBuilder> informationTypeBuilder_;
       /**
-       * <code>optional .dstore.values.StringValue information_type = 2;</code>
+       * <code>.dstore.values.StringValue information_type = 2;</code>
        */
       public boolean hasInformationType() {
         return informationTypeBuilder_ != null || informationType_ != null;
       }
       /**
-       * <code>optional .dstore.values.StringValue information_type = 2;</code>
+       * <code>.dstore.values.StringValue information_type = 2;</code>
        */
       public io.dstore.values.StringValue getInformationType() {
         if (informationTypeBuilder_ == null) {
@@ -955,7 +955,7 @@ public final class OmModifyTrolleySurInfTypesAd {
         }
       }
       /**
-       * <code>optional .dstore.values.StringValue information_type = 2;</code>
+       * <code>.dstore.values.StringValue information_type = 2;</code>
        */
       public Builder setInformationType(io.dstore.values.StringValue value) {
         if (informationTypeBuilder_ == null) {
@@ -971,7 +971,7 @@ public final class OmModifyTrolleySurInfTypesAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.StringValue information_type = 2;</code>
+       * <code>.dstore.values.StringValue information_type = 2;</code>
        */
       public Builder setInformationType(
           io.dstore.values.StringValue.Builder builderForValue) {
@@ -985,7 +985,7 @@ public final class OmModifyTrolleySurInfTypesAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.StringValue information_type = 2;</code>
+       * <code>.dstore.values.StringValue information_type = 2;</code>
        */
       public Builder mergeInformationType(io.dstore.values.StringValue value) {
         if (informationTypeBuilder_ == null) {
@@ -1003,7 +1003,7 @@ public final class OmModifyTrolleySurInfTypesAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.StringValue information_type = 2;</code>
+       * <code>.dstore.values.StringValue information_type = 2;</code>
        */
       public Builder clearInformationType() {
         if (informationTypeBuilder_ == null) {
@@ -1017,7 +1017,7 @@ public final class OmModifyTrolleySurInfTypesAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.StringValue information_type = 2;</code>
+       * <code>.dstore.values.StringValue information_type = 2;</code>
        */
       public io.dstore.values.StringValue.Builder getInformationTypeBuilder() {
         
@@ -1025,7 +1025,7 @@ public final class OmModifyTrolleySurInfTypesAd {
         return getInformationTypeFieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .dstore.values.StringValue information_type = 2;</code>
+       * <code>.dstore.values.StringValue information_type = 2;</code>
        */
       public io.dstore.values.StringValueOrBuilder getInformationTypeOrBuilder() {
         if (informationTypeBuilder_ != null) {
@@ -1036,7 +1036,7 @@ public final class OmModifyTrolleySurInfTypesAd {
         }
       }
       /**
-       * <code>optional .dstore.values.StringValue information_type = 2;</code>
+       * <code>.dstore.values.StringValue information_type = 2;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.values.StringValue, io.dstore.values.StringValue.Builder, io.dstore.values.StringValueOrBuilder> 
@@ -1054,13 +1054,13 @@ public final class OmModifyTrolleySurInfTypesAd {
 
       private boolean informationTypeNull_ ;
       /**
-       * <code>optional bool information_type_null = 1002;</code>
+       * <code>bool information_type_null = 1002;</code>
        */
       public boolean getInformationTypeNull() {
         return informationTypeNull_;
       }
       /**
-       * <code>optional bool information_type_null = 1002;</code>
+       * <code>bool information_type_null = 1002;</code>
        */
       public Builder setInformationTypeNull(boolean value) {
         
@@ -1069,7 +1069,7 @@ public final class OmModifyTrolleySurInfTypesAd {
         return this;
       }
       /**
-       * <code>optional bool information_type_null = 1002;</code>
+       * <code>bool information_type_null = 1002;</code>
        */
       public Builder clearInformationTypeNull() {
         
@@ -1082,13 +1082,13 @@ public final class OmModifyTrolleySurInfTypesAd {
       private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> fieldTypeIdBuilder_;
       /**
-       * <code>optional .dstore.values.IntegerValue field_type_id = 3;</code>
+       * <code>.dstore.values.IntegerValue field_type_id = 3;</code>
        */
       public boolean hasFieldTypeId() {
         return fieldTypeIdBuilder_ != null || fieldTypeId_ != null;
       }
       /**
-       * <code>optional .dstore.values.IntegerValue field_type_id = 3;</code>
+       * <code>.dstore.values.IntegerValue field_type_id = 3;</code>
        */
       public io.dstore.values.IntegerValue getFieldTypeId() {
         if (fieldTypeIdBuilder_ == null) {
@@ -1098,7 +1098,7 @@ public final class OmModifyTrolleySurInfTypesAd {
         }
       }
       /**
-       * <code>optional .dstore.values.IntegerValue field_type_id = 3;</code>
+       * <code>.dstore.values.IntegerValue field_type_id = 3;</code>
        */
       public Builder setFieldTypeId(io.dstore.values.IntegerValue value) {
         if (fieldTypeIdBuilder_ == null) {
@@ -1114,7 +1114,7 @@ public final class OmModifyTrolleySurInfTypesAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.IntegerValue field_type_id = 3;</code>
+       * <code>.dstore.values.IntegerValue field_type_id = 3;</code>
        */
       public Builder setFieldTypeId(
           io.dstore.values.IntegerValue.Builder builderForValue) {
@@ -1128,7 +1128,7 @@ public final class OmModifyTrolleySurInfTypesAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.IntegerValue field_type_id = 3;</code>
+       * <code>.dstore.values.IntegerValue field_type_id = 3;</code>
        */
       public Builder mergeFieldTypeId(io.dstore.values.IntegerValue value) {
         if (fieldTypeIdBuilder_ == null) {
@@ -1146,7 +1146,7 @@ public final class OmModifyTrolleySurInfTypesAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.IntegerValue field_type_id = 3;</code>
+       * <code>.dstore.values.IntegerValue field_type_id = 3;</code>
        */
       public Builder clearFieldTypeId() {
         if (fieldTypeIdBuilder_ == null) {
@@ -1160,7 +1160,7 @@ public final class OmModifyTrolleySurInfTypesAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.IntegerValue field_type_id = 3;</code>
+       * <code>.dstore.values.IntegerValue field_type_id = 3;</code>
        */
       public io.dstore.values.IntegerValue.Builder getFieldTypeIdBuilder() {
         
@@ -1168,7 +1168,7 @@ public final class OmModifyTrolleySurInfTypesAd {
         return getFieldTypeIdFieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .dstore.values.IntegerValue field_type_id = 3;</code>
+       * <code>.dstore.values.IntegerValue field_type_id = 3;</code>
        */
       public io.dstore.values.IntegerValueOrBuilder getFieldTypeIdOrBuilder() {
         if (fieldTypeIdBuilder_ != null) {
@@ -1179,7 +1179,7 @@ public final class OmModifyTrolleySurInfTypesAd {
         }
       }
       /**
-       * <code>optional .dstore.values.IntegerValue field_type_id = 3;</code>
+       * <code>.dstore.values.IntegerValue field_type_id = 3;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> 
@@ -1197,13 +1197,13 @@ public final class OmModifyTrolleySurInfTypesAd {
 
       private boolean fieldTypeIdNull_ ;
       /**
-       * <code>optional bool field_type_id_null = 1003;</code>
+       * <code>bool field_type_id_null = 1003;</code>
        */
       public boolean getFieldTypeIdNull() {
         return fieldTypeIdNull_;
       }
       /**
-       * <code>optional bool field_type_id_null = 1003;</code>
+       * <code>bool field_type_id_null = 1003;</code>
        */
       public Builder setFieldTypeIdNull(boolean value) {
         
@@ -1212,7 +1212,7 @@ public final class OmModifyTrolleySurInfTypesAd {
         return this;
       }
       /**
-       * <code>optional bool field_type_id_null = 1003;</code>
+       * <code>bool field_type_id_null = 1003;</code>
        */
       public Builder clearFieldTypeIdNull() {
         
@@ -1225,13 +1225,13 @@ public final class OmModifyTrolleySurInfTypesAd {
       private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.values.BooleanValue, io.dstore.values.BooleanValue.Builder, io.dstore.values.BooleanValueOrBuilder> deleteInfoTypeBuilder_;
       /**
-       * <code>optional .dstore.values.BooleanValue delete_info_type = 4;</code>
+       * <code>.dstore.values.BooleanValue delete_info_type = 4;</code>
        */
       public boolean hasDeleteInfoType() {
         return deleteInfoTypeBuilder_ != null || deleteInfoType_ != null;
       }
       /**
-       * <code>optional .dstore.values.BooleanValue delete_info_type = 4;</code>
+       * <code>.dstore.values.BooleanValue delete_info_type = 4;</code>
        */
       public io.dstore.values.BooleanValue getDeleteInfoType() {
         if (deleteInfoTypeBuilder_ == null) {
@@ -1241,7 +1241,7 @@ public final class OmModifyTrolleySurInfTypesAd {
         }
       }
       /**
-       * <code>optional .dstore.values.BooleanValue delete_info_type = 4;</code>
+       * <code>.dstore.values.BooleanValue delete_info_type = 4;</code>
        */
       public Builder setDeleteInfoType(io.dstore.values.BooleanValue value) {
         if (deleteInfoTypeBuilder_ == null) {
@@ -1257,7 +1257,7 @@ public final class OmModifyTrolleySurInfTypesAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.BooleanValue delete_info_type = 4;</code>
+       * <code>.dstore.values.BooleanValue delete_info_type = 4;</code>
        */
       public Builder setDeleteInfoType(
           io.dstore.values.BooleanValue.Builder builderForValue) {
@@ -1271,7 +1271,7 @@ public final class OmModifyTrolleySurInfTypesAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.BooleanValue delete_info_type = 4;</code>
+       * <code>.dstore.values.BooleanValue delete_info_type = 4;</code>
        */
       public Builder mergeDeleteInfoType(io.dstore.values.BooleanValue value) {
         if (deleteInfoTypeBuilder_ == null) {
@@ -1289,7 +1289,7 @@ public final class OmModifyTrolleySurInfTypesAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.BooleanValue delete_info_type = 4;</code>
+       * <code>.dstore.values.BooleanValue delete_info_type = 4;</code>
        */
       public Builder clearDeleteInfoType() {
         if (deleteInfoTypeBuilder_ == null) {
@@ -1303,7 +1303,7 @@ public final class OmModifyTrolleySurInfTypesAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.BooleanValue delete_info_type = 4;</code>
+       * <code>.dstore.values.BooleanValue delete_info_type = 4;</code>
        */
       public io.dstore.values.BooleanValue.Builder getDeleteInfoTypeBuilder() {
         
@@ -1311,7 +1311,7 @@ public final class OmModifyTrolleySurInfTypesAd {
         return getDeleteInfoTypeFieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .dstore.values.BooleanValue delete_info_type = 4;</code>
+       * <code>.dstore.values.BooleanValue delete_info_type = 4;</code>
        */
       public io.dstore.values.BooleanValueOrBuilder getDeleteInfoTypeOrBuilder() {
         if (deleteInfoTypeBuilder_ != null) {
@@ -1322,7 +1322,7 @@ public final class OmModifyTrolleySurInfTypesAd {
         }
       }
       /**
-       * <code>optional .dstore.values.BooleanValue delete_info_type = 4;</code>
+       * <code>.dstore.values.BooleanValue delete_info_type = 4;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.values.BooleanValue, io.dstore.values.BooleanValue.Builder, io.dstore.values.BooleanValueOrBuilder> 
@@ -1340,13 +1340,13 @@ public final class OmModifyTrolleySurInfTypesAd {
 
       private boolean deleteInfoTypeNull_ ;
       /**
-       * <code>optional bool delete_info_type_null = 1004;</code>
+       * <code>bool delete_info_type_null = 1004;</code>
        */
       public boolean getDeleteInfoTypeNull() {
         return deleteInfoTypeNull_;
       }
       /**
-       * <code>optional bool delete_info_type_null = 1004;</code>
+       * <code>bool delete_info_type_null = 1004;</code>
        */
       public Builder setDeleteInfoTypeNull(boolean value) {
         
@@ -1355,7 +1355,7 @@ public final class OmModifyTrolleySurInfTypesAd {
         return this;
       }
       /**
-       * <code>optional bool delete_info_type_null = 1004;</code>
+       * <code>bool delete_info_type_null = 1004;</code>
        */
       public Builder clearDeleteInfoTypeNull() {
         
@@ -1614,7 +1614,7 @@ public final class OmModifyTrolleySurInfTypesAd {
         com.google.protobuf.MessageOrBuilder {
 
       /**
-       * <code>optional int32 row_id = 10000;</code>
+       * <code>int32 row_id = 10000;</code>
        */
       int getRowId();
     }
@@ -1689,7 +1689,7 @@ public final class OmModifyTrolleySurInfTypesAd {
       public static final int ROW_ID_FIELD_NUMBER = 10000;
       private int rowId_;
       /**
-       * <code>optional int32 row_id = 10000;</code>
+       * <code>int32 row_id = 10000;</code>
        */
       public int getRowId() {
         return rowId_;
@@ -1748,7 +1748,7 @@ public final class OmModifyTrolleySurInfTypesAd {
           return memoizedHashCode;
         }
         int hash = 41;
-        hash = (19 * hash) + getDescriptorForType().hashCode();
+        hash = (19 * hash) + getDescriptor().hashCode();
         hash = (37 * hash) + ROW_ID_FIELD_NUMBER;
         hash = (53 * hash) + getRowId();
         hash = (29 * hash) + unknownFields.hashCode();
@@ -1966,13 +1966,13 @@ public final class OmModifyTrolleySurInfTypesAd {
 
         private int rowId_ ;
         /**
-         * <code>optional int32 row_id = 10000;</code>
+         * <code>int32 row_id = 10000;</code>
          */
         public int getRowId() {
           return rowId_;
         }
         /**
-         * <code>optional int32 row_id = 10000;</code>
+         * <code>int32 row_id = 10000;</code>
          */
         public Builder setRowId(int value) {
           
@@ -1981,7 +1981,7 @@ public final class OmModifyTrolleySurInfTypesAd {
           return this;
         }
         /**
-         * <code>optional int32 row_id = 10000;</code>
+         * <code>int32 row_id = 10000;</code>
          */
         public Builder clearRowId() {
           
@@ -2234,7 +2234,7 @@ public final class OmModifyTrolleySurInfTypesAd {
         return memoizedHashCode;
       }
       int hash = 41;
-      hash = (19 * hash) + getDescriptorForType().hashCode();
+      hash = (19 * hash) + getDescriptor().hashCode();
       if (getMetaInformationCount() > 0) {
         hash = (37 * hash) + META_INFORMATION_FIELD_NUMBER;
         hash = (53 * hash) + getMetaInformationList().hashCode();

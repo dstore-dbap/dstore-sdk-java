@@ -12,7 +12,7 @@ public interface QueryOrBuilder extends
    * see: https://www.elastic.co/guide/en/elasticsearch/reference/current/query-dsl-terms-query.html
    * </pre>
    *
-   * <code>optional .dstore.elastic.Query.Terms terms_query = 1;</code>
+   * <code>.dstore.elastic.Query.Terms terms_query = 1;</code>
    */
   io.dstore.elastic.Query.Terms getTermsQuery();
   /**
@@ -20,7 +20,7 @@ public interface QueryOrBuilder extends
    * see: https://www.elastic.co/guide/en/elasticsearch/reference/current/query-dsl-terms-query.html
    * </pre>
    *
-   * <code>optional .dstore.elastic.Query.Terms terms_query = 1;</code>
+   * <code>.dstore.elastic.Query.Terms terms_query = 1;</code>
    */
   io.dstore.elastic.Query.TermsOrBuilder getTermsQueryOrBuilder();
 
@@ -29,7 +29,7 @@ public interface QueryOrBuilder extends
    * see: https://www.elastic.co/guide/en/elasticsearch/reference/current/query-dsl-type-query.html
    * </pre>
    *
-   * <code>optional .dstore.elastic.Query.Type type_query = 2;</code>
+   * <code>.dstore.elastic.Query.Type type_query = 2;</code>
    */
   io.dstore.elastic.Query.Type getTypeQuery();
   /**
@@ -37,7 +37,7 @@ public interface QueryOrBuilder extends
    * see: https://www.elastic.co/guide/en/elasticsearch/reference/current/query-dsl-type-query.html
    * </pre>
    *
-   * <code>optional .dstore.elastic.Query.Type type_query = 2;</code>
+   * <code>.dstore.elastic.Query.Type type_query = 2;</code>
    */
   io.dstore.elastic.Query.TypeOrBuilder getTypeQueryOrBuilder();
 
@@ -46,7 +46,7 @@ public interface QueryOrBuilder extends
    * see: https://www.elastic.co/guide/en/elasticsearch/reference/current/query-dsl-simple-query-string-query.html
    * </pre>
    *
-   * <code>optional .dstore.elastic.Query.SimpleQueryString simple_query_string_query = 3;</code>
+   * <code>.dstore.elastic.Query.SimpleQueryString simple_query_string_query = 3;</code>
    */
   io.dstore.elastic.Query.SimpleQueryString getSimpleQueryStringQuery();
   /**
@@ -54,7 +54,7 @@ public interface QueryOrBuilder extends
    * see: https://www.elastic.co/guide/en/elasticsearch/reference/current/query-dsl-simple-query-string-query.html
    * </pre>
    *
-   * <code>optional .dstore.elastic.Query.SimpleQueryString simple_query_string_query = 3;</code>
+   * <code>.dstore.elastic.Query.SimpleQueryString simple_query_string_query = 3;</code>
    */
   io.dstore.elastic.Query.SimpleQueryStringOrBuilder getSimpleQueryStringQueryOrBuilder();
 
@@ -63,7 +63,7 @@ public interface QueryOrBuilder extends
    * see: https://www.elastic.co/guide/en/elasticsearch/reference/current/query-dsl-range-query.html
    * </pre>
    *
-   * <code>optional .dstore.elastic.Query.Range range_query = 4;</code>
+   * <code>.dstore.elastic.Query.Range range_query = 4;</code>
    */
   io.dstore.elastic.Query.Range getRangeQuery();
   /**
@@ -71,7 +71,7 @@ public interface QueryOrBuilder extends
    * see: https://www.elastic.co/guide/en/elasticsearch/reference/current/query-dsl-range-query.html
    * </pre>
    *
-   * <code>optional .dstore.elastic.Query.Range range_query = 4;</code>
+   * <code>.dstore.elastic.Query.Range range_query = 4;</code>
    */
   io.dstore.elastic.Query.RangeOrBuilder getRangeQueryOrBuilder();
 
@@ -80,7 +80,7 @@ public interface QueryOrBuilder extends
    * not yet supported in FacetedNavigation
    * </pre>
    *
-   * <code>optional .dstore.elastic.BoolQuery bool_query = 20;</code>
+   * <code>.dstore.elastic.BoolQuery bool_query = 20;</code>
    */
   io.dstore.elastic.BoolQuery getBoolQuery();
   /**
@@ -88,7 +88,7 @@ public interface QueryOrBuilder extends
    * not yet supported in FacetedNavigation
    * </pre>
    *
-   * <code>optional .dstore.elastic.BoolQuery bool_query = 20;</code>
+   * <code>.dstore.elastic.BoolQuery bool_query = 20;</code>
    */
   io.dstore.elastic.BoolQueryOrBuilder getBoolQueryOrBuilder();
 

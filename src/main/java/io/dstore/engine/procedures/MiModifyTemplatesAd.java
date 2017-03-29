@@ -19,146 +19,146 @@ public final class MiModifyTemplatesAd {
       com.google.protobuf.MessageOrBuilder {
 
     /**
-     * <code>optional .dstore.values.IntegerValue template_id = 1;</code>
+     * <code>.dstore.values.IntegerValue template_id = 1;</code>
      */
     boolean hasTemplateId();
     /**
-     * <code>optional .dstore.values.IntegerValue template_id = 1;</code>
+     * <code>.dstore.values.IntegerValue template_id = 1;</code>
      */
     io.dstore.values.IntegerValue getTemplateId();
     /**
-     * <code>optional .dstore.values.IntegerValue template_id = 1;</code>
+     * <code>.dstore.values.IntegerValue template_id = 1;</code>
      */
     io.dstore.values.IntegerValueOrBuilder getTemplateIdOrBuilder();
 
     /**
-     * <code>optional bool template_id_null = 1001;</code>
+     * <code>bool template_id_null = 1001;</code>
      */
     boolean getTemplateIdNull();
 
     /**
-     * <code>optional .dstore.values.StringValue description = 2;</code>
+     * <code>.dstore.values.StringValue description = 2;</code>
      */
     boolean hasDescription();
     /**
-     * <code>optional .dstore.values.StringValue description = 2;</code>
+     * <code>.dstore.values.StringValue description = 2;</code>
      */
     io.dstore.values.StringValue getDescription();
     /**
-     * <code>optional .dstore.values.StringValue description = 2;</code>
+     * <code>.dstore.values.StringValue description = 2;</code>
      */
     io.dstore.values.StringValueOrBuilder getDescriptionOrBuilder();
 
     /**
-     * <code>optional bool description_null = 1002;</code>
+     * <code>bool description_null = 1002;</code>
      */
     boolean getDescriptionNull();
 
     /**
-     * <code>optional .dstore.values.IntegerValue language_id = 3;</code>
+     * <code>.dstore.values.IntegerValue language_id = 3;</code>
      */
     boolean hasLanguageId();
     /**
-     * <code>optional .dstore.values.IntegerValue language_id = 3;</code>
+     * <code>.dstore.values.IntegerValue language_id = 3;</code>
      */
     io.dstore.values.IntegerValue getLanguageId();
     /**
-     * <code>optional .dstore.values.IntegerValue language_id = 3;</code>
+     * <code>.dstore.values.IntegerValue language_id = 3;</code>
      */
     io.dstore.values.IntegerValueOrBuilder getLanguageIdOrBuilder();
 
     /**
-     * <code>optional bool language_id_null = 1003;</code>
+     * <code>bool language_id_null = 1003;</code>
      */
     boolean getLanguageIdNull();
 
     /**
-     * <code>optional .dstore.values.StringValue frame_name = 4;</code>
+     * <code>.dstore.values.StringValue frame_name = 4;</code>
      */
     boolean hasFrameName();
     /**
-     * <code>optional .dstore.values.StringValue frame_name = 4;</code>
+     * <code>.dstore.values.StringValue frame_name = 4;</code>
      */
     io.dstore.values.StringValue getFrameName();
     /**
-     * <code>optional .dstore.values.StringValue frame_name = 4;</code>
+     * <code>.dstore.values.StringValue frame_name = 4;</code>
      */
     io.dstore.values.StringValueOrBuilder getFrameNameOrBuilder();
 
     /**
-     * <code>optional bool frame_name_null = 1004;</code>
+     * <code>bool frame_name_null = 1004;</code>
      */
     boolean getFrameNameNull();
 
     /**
-     * <code>optional .dstore.values.StringValue file_name = 5;</code>
+     * <code>.dstore.values.StringValue file_name = 5;</code>
      */
     boolean hasFileName();
     /**
-     * <code>optional .dstore.values.StringValue file_name = 5;</code>
+     * <code>.dstore.values.StringValue file_name = 5;</code>
      */
     io.dstore.values.StringValue getFileName();
     /**
-     * <code>optional .dstore.values.StringValue file_name = 5;</code>
+     * <code>.dstore.values.StringValue file_name = 5;</code>
      */
     io.dstore.values.StringValueOrBuilder getFileNameOrBuilder();
 
     /**
-     * <code>optional bool file_name_null = 1005;</code>
+     * <code>bool file_name_null = 1005;</code>
      */
     boolean getFileNameNull();
 
     /**
-     * <code>optional .dstore.values.BooleanValue can_be_source_template = 6;</code>
+     * <code>.dstore.values.BooleanValue can_be_source_template = 6;</code>
      */
     boolean hasCanBeSourceTemplate();
     /**
-     * <code>optional .dstore.values.BooleanValue can_be_source_template = 6;</code>
+     * <code>.dstore.values.BooleanValue can_be_source_template = 6;</code>
      */
     io.dstore.values.BooleanValue getCanBeSourceTemplate();
     /**
-     * <code>optional .dstore.values.BooleanValue can_be_source_template = 6;</code>
+     * <code>.dstore.values.BooleanValue can_be_source_template = 6;</code>
      */
     io.dstore.values.BooleanValueOrBuilder getCanBeSourceTemplateOrBuilder();
 
     /**
-     * <code>optional bool can_be_source_template_null = 1006;</code>
+     * <code>bool can_be_source_template_null = 1006;</code>
      */
     boolean getCanBeSourceTemplateNull();
 
     /**
-     * <code>optional .dstore.values.BooleanValue is_real_time_template = 7;</code>
+     * <code>.dstore.values.BooleanValue is_real_time_template = 7;</code>
      */
     boolean hasIsRealTimeTemplate();
     /**
-     * <code>optional .dstore.values.BooleanValue is_real_time_template = 7;</code>
+     * <code>.dstore.values.BooleanValue is_real_time_template = 7;</code>
      */
     io.dstore.values.BooleanValue getIsRealTimeTemplate();
     /**
-     * <code>optional .dstore.values.BooleanValue is_real_time_template = 7;</code>
+     * <code>.dstore.values.BooleanValue is_real_time_template = 7;</code>
      */
     io.dstore.values.BooleanValueOrBuilder getIsRealTimeTemplateOrBuilder();
 
     /**
-     * <code>optional bool is_real_time_template_null = 1007;</code>
+     * <code>bool is_real_time_template_null = 1007;</code>
      */
     boolean getIsRealTimeTemplateNull();
 
     /**
-     * <code>optional .dstore.values.BooleanValue delete_template = 8;</code>
+     * <code>.dstore.values.BooleanValue delete_template = 8;</code>
      */
     boolean hasDeleteTemplate();
     /**
-     * <code>optional .dstore.values.BooleanValue delete_template = 8;</code>
+     * <code>.dstore.values.BooleanValue delete_template = 8;</code>
      */
     io.dstore.values.BooleanValue getDeleteTemplate();
     /**
-     * <code>optional .dstore.values.BooleanValue delete_template = 8;</code>
+     * <code>.dstore.values.BooleanValue delete_template = 8;</code>
      */
     io.dstore.values.BooleanValueOrBuilder getDeleteTemplateOrBuilder();
 
     /**
-     * <code>optional bool delete_template_null = 1008;</code>
+     * <code>bool delete_template_null = 1008;</code>
      */
     boolean getDeleteTemplateNull();
   }
@@ -379,19 +379,19 @@ public final class MiModifyTemplatesAd {
     public static final int TEMPLATE_ID_FIELD_NUMBER = 1;
     private io.dstore.values.IntegerValue templateId_;
     /**
-     * <code>optional .dstore.values.IntegerValue template_id = 1;</code>
+     * <code>.dstore.values.IntegerValue template_id = 1;</code>
      */
     public boolean hasTemplateId() {
       return templateId_ != null;
     }
     /**
-     * <code>optional .dstore.values.IntegerValue template_id = 1;</code>
+     * <code>.dstore.values.IntegerValue template_id = 1;</code>
      */
     public io.dstore.values.IntegerValue getTemplateId() {
       return templateId_ == null ? io.dstore.values.IntegerValue.getDefaultInstance() : templateId_;
     }
     /**
-     * <code>optional .dstore.values.IntegerValue template_id = 1;</code>
+     * <code>.dstore.values.IntegerValue template_id = 1;</code>
      */
     public io.dstore.values.IntegerValueOrBuilder getTemplateIdOrBuilder() {
       return getTemplateId();
@@ -400,7 +400,7 @@ public final class MiModifyTemplatesAd {
     public static final int TEMPLATE_ID_NULL_FIELD_NUMBER = 1001;
     private boolean templateIdNull_;
     /**
-     * <code>optional bool template_id_null = 1001;</code>
+     * <code>bool template_id_null = 1001;</code>
      */
     public boolean getTemplateIdNull() {
       return templateIdNull_;
@@ -409,19 +409,19 @@ public final class MiModifyTemplatesAd {
     public static final int DESCRIPTION_FIELD_NUMBER = 2;
     private io.dstore.values.StringValue description_;
     /**
-     * <code>optional .dstore.values.StringValue description = 2;</code>
+     * <code>.dstore.values.StringValue description = 2;</code>
      */
     public boolean hasDescription() {
       return description_ != null;
     }
     /**
-     * <code>optional .dstore.values.StringValue description = 2;</code>
+     * <code>.dstore.values.StringValue description = 2;</code>
      */
     public io.dstore.values.StringValue getDescription() {
       return description_ == null ? io.dstore.values.StringValue.getDefaultInstance() : description_;
     }
     /**
-     * <code>optional .dstore.values.StringValue description = 2;</code>
+     * <code>.dstore.values.StringValue description = 2;</code>
      */
     public io.dstore.values.StringValueOrBuilder getDescriptionOrBuilder() {
       return getDescription();
@@ -430,7 +430,7 @@ public final class MiModifyTemplatesAd {
     public static final int DESCRIPTION_NULL_FIELD_NUMBER = 1002;
     private boolean descriptionNull_;
     /**
-     * <code>optional bool description_null = 1002;</code>
+     * <code>bool description_null = 1002;</code>
      */
     public boolean getDescriptionNull() {
       return descriptionNull_;
@@ -439,19 +439,19 @@ public final class MiModifyTemplatesAd {
     public static final int LANGUAGE_ID_FIELD_NUMBER = 3;
     private io.dstore.values.IntegerValue languageId_;
     /**
-     * <code>optional .dstore.values.IntegerValue language_id = 3;</code>
+     * <code>.dstore.values.IntegerValue language_id = 3;</code>
      */
     public boolean hasLanguageId() {
       return languageId_ != null;
     }
     /**
-     * <code>optional .dstore.values.IntegerValue language_id = 3;</code>
+     * <code>.dstore.values.IntegerValue language_id = 3;</code>
      */
     public io.dstore.values.IntegerValue getLanguageId() {
       return languageId_ == null ? io.dstore.values.IntegerValue.getDefaultInstance() : languageId_;
     }
     /**
-     * <code>optional .dstore.values.IntegerValue language_id = 3;</code>
+     * <code>.dstore.values.IntegerValue language_id = 3;</code>
      */
     public io.dstore.values.IntegerValueOrBuilder getLanguageIdOrBuilder() {
       return getLanguageId();
@@ -460,7 +460,7 @@ public final class MiModifyTemplatesAd {
     public static final int LANGUAGE_ID_NULL_FIELD_NUMBER = 1003;
     private boolean languageIdNull_;
     /**
-     * <code>optional bool language_id_null = 1003;</code>
+     * <code>bool language_id_null = 1003;</code>
      */
     public boolean getLanguageIdNull() {
       return languageIdNull_;
@@ -469,19 +469,19 @@ public final class MiModifyTemplatesAd {
     public static final int FRAME_NAME_FIELD_NUMBER = 4;
     private io.dstore.values.StringValue frameName_;
     /**
-     * <code>optional .dstore.values.StringValue frame_name = 4;</code>
+     * <code>.dstore.values.StringValue frame_name = 4;</code>
      */
     public boolean hasFrameName() {
       return frameName_ != null;
     }
     /**
-     * <code>optional .dstore.values.StringValue frame_name = 4;</code>
+     * <code>.dstore.values.StringValue frame_name = 4;</code>
      */
     public io.dstore.values.StringValue getFrameName() {
       return frameName_ == null ? io.dstore.values.StringValue.getDefaultInstance() : frameName_;
     }
     /**
-     * <code>optional .dstore.values.StringValue frame_name = 4;</code>
+     * <code>.dstore.values.StringValue frame_name = 4;</code>
      */
     public io.dstore.values.StringValueOrBuilder getFrameNameOrBuilder() {
       return getFrameName();
@@ -490,7 +490,7 @@ public final class MiModifyTemplatesAd {
     public static final int FRAME_NAME_NULL_FIELD_NUMBER = 1004;
     private boolean frameNameNull_;
     /**
-     * <code>optional bool frame_name_null = 1004;</code>
+     * <code>bool frame_name_null = 1004;</code>
      */
     public boolean getFrameNameNull() {
       return frameNameNull_;
@@ -499,19 +499,19 @@ public final class MiModifyTemplatesAd {
     public static final int FILE_NAME_FIELD_NUMBER = 5;
     private io.dstore.values.StringValue fileName_;
     /**
-     * <code>optional .dstore.values.StringValue file_name = 5;</code>
+     * <code>.dstore.values.StringValue file_name = 5;</code>
      */
     public boolean hasFileName() {
       return fileName_ != null;
     }
     /**
-     * <code>optional .dstore.values.StringValue file_name = 5;</code>
+     * <code>.dstore.values.StringValue file_name = 5;</code>
      */
     public io.dstore.values.StringValue getFileName() {
       return fileName_ == null ? io.dstore.values.StringValue.getDefaultInstance() : fileName_;
     }
     /**
-     * <code>optional .dstore.values.StringValue file_name = 5;</code>
+     * <code>.dstore.values.StringValue file_name = 5;</code>
      */
     public io.dstore.values.StringValueOrBuilder getFileNameOrBuilder() {
       return getFileName();
@@ -520,7 +520,7 @@ public final class MiModifyTemplatesAd {
     public static final int FILE_NAME_NULL_FIELD_NUMBER = 1005;
     private boolean fileNameNull_;
     /**
-     * <code>optional bool file_name_null = 1005;</code>
+     * <code>bool file_name_null = 1005;</code>
      */
     public boolean getFileNameNull() {
       return fileNameNull_;
@@ -529,19 +529,19 @@ public final class MiModifyTemplatesAd {
     public static final int CAN_BE_SOURCE_TEMPLATE_FIELD_NUMBER = 6;
     private io.dstore.values.BooleanValue canBeSourceTemplate_;
     /**
-     * <code>optional .dstore.values.BooleanValue can_be_source_template = 6;</code>
+     * <code>.dstore.values.BooleanValue can_be_source_template = 6;</code>
      */
     public boolean hasCanBeSourceTemplate() {
       return canBeSourceTemplate_ != null;
     }
     /**
-     * <code>optional .dstore.values.BooleanValue can_be_source_template = 6;</code>
+     * <code>.dstore.values.BooleanValue can_be_source_template = 6;</code>
      */
     public io.dstore.values.BooleanValue getCanBeSourceTemplate() {
       return canBeSourceTemplate_ == null ? io.dstore.values.BooleanValue.getDefaultInstance() : canBeSourceTemplate_;
     }
     /**
-     * <code>optional .dstore.values.BooleanValue can_be_source_template = 6;</code>
+     * <code>.dstore.values.BooleanValue can_be_source_template = 6;</code>
      */
     public io.dstore.values.BooleanValueOrBuilder getCanBeSourceTemplateOrBuilder() {
       return getCanBeSourceTemplate();
@@ -550,7 +550,7 @@ public final class MiModifyTemplatesAd {
     public static final int CAN_BE_SOURCE_TEMPLATE_NULL_FIELD_NUMBER = 1006;
     private boolean canBeSourceTemplateNull_;
     /**
-     * <code>optional bool can_be_source_template_null = 1006;</code>
+     * <code>bool can_be_source_template_null = 1006;</code>
      */
     public boolean getCanBeSourceTemplateNull() {
       return canBeSourceTemplateNull_;
@@ -559,19 +559,19 @@ public final class MiModifyTemplatesAd {
     public static final int IS_REAL_TIME_TEMPLATE_FIELD_NUMBER = 7;
     private io.dstore.values.BooleanValue isRealTimeTemplate_;
     /**
-     * <code>optional .dstore.values.BooleanValue is_real_time_template = 7;</code>
+     * <code>.dstore.values.BooleanValue is_real_time_template = 7;</code>
      */
     public boolean hasIsRealTimeTemplate() {
       return isRealTimeTemplate_ != null;
     }
     /**
-     * <code>optional .dstore.values.BooleanValue is_real_time_template = 7;</code>
+     * <code>.dstore.values.BooleanValue is_real_time_template = 7;</code>
      */
     public io.dstore.values.BooleanValue getIsRealTimeTemplate() {
       return isRealTimeTemplate_ == null ? io.dstore.values.BooleanValue.getDefaultInstance() : isRealTimeTemplate_;
     }
     /**
-     * <code>optional .dstore.values.BooleanValue is_real_time_template = 7;</code>
+     * <code>.dstore.values.BooleanValue is_real_time_template = 7;</code>
      */
     public io.dstore.values.BooleanValueOrBuilder getIsRealTimeTemplateOrBuilder() {
       return getIsRealTimeTemplate();
@@ -580,7 +580,7 @@ public final class MiModifyTemplatesAd {
     public static final int IS_REAL_TIME_TEMPLATE_NULL_FIELD_NUMBER = 1007;
     private boolean isRealTimeTemplateNull_;
     /**
-     * <code>optional bool is_real_time_template_null = 1007;</code>
+     * <code>bool is_real_time_template_null = 1007;</code>
      */
     public boolean getIsRealTimeTemplateNull() {
       return isRealTimeTemplateNull_;
@@ -589,19 +589,19 @@ public final class MiModifyTemplatesAd {
     public static final int DELETE_TEMPLATE_FIELD_NUMBER = 8;
     private io.dstore.values.BooleanValue deleteTemplate_;
     /**
-     * <code>optional .dstore.values.BooleanValue delete_template = 8;</code>
+     * <code>.dstore.values.BooleanValue delete_template = 8;</code>
      */
     public boolean hasDeleteTemplate() {
       return deleteTemplate_ != null;
     }
     /**
-     * <code>optional .dstore.values.BooleanValue delete_template = 8;</code>
+     * <code>.dstore.values.BooleanValue delete_template = 8;</code>
      */
     public io.dstore.values.BooleanValue getDeleteTemplate() {
       return deleteTemplate_ == null ? io.dstore.values.BooleanValue.getDefaultInstance() : deleteTemplate_;
     }
     /**
-     * <code>optional .dstore.values.BooleanValue delete_template = 8;</code>
+     * <code>.dstore.values.BooleanValue delete_template = 8;</code>
      */
     public io.dstore.values.BooleanValueOrBuilder getDeleteTemplateOrBuilder() {
       return getDeleteTemplate();
@@ -610,7 +610,7 @@ public final class MiModifyTemplatesAd {
     public static final int DELETE_TEMPLATE_NULL_FIELD_NUMBER = 1008;
     private boolean deleteTemplateNull_;
     /**
-     * <code>optional bool delete_template_null = 1008;</code>
+     * <code>bool delete_template_null = 1008;</code>
      */
     public boolean getDeleteTemplateNull() {
       return deleteTemplateNull_;
@@ -828,7 +828,7 @@ public final class MiModifyTemplatesAd {
         return memoizedHashCode;
       }
       int hash = 41;
-      hash = (19 * hash) + getDescriptorForType().hashCode();
+      hash = (19 * hash) + getDescriptor().hashCode();
       if (hasTemplateId()) {
         hash = (37 * hash) + TEMPLATE_ID_FIELD_NUMBER;
         hash = (53 * hash) + getTemplateId().hashCode();
@@ -1256,13 +1256,13 @@ public final class MiModifyTemplatesAd {
       private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> templateIdBuilder_;
       /**
-       * <code>optional .dstore.values.IntegerValue template_id = 1;</code>
+       * <code>.dstore.values.IntegerValue template_id = 1;</code>
        */
       public boolean hasTemplateId() {
         return templateIdBuilder_ != null || templateId_ != null;
       }
       /**
-       * <code>optional .dstore.values.IntegerValue template_id = 1;</code>
+       * <code>.dstore.values.IntegerValue template_id = 1;</code>
        */
       public io.dstore.values.IntegerValue getTemplateId() {
         if (templateIdBuilder_ == null) {
@@ -1272,7 +1272,7 @@ public final class MiModifyTemplatesAd {
         }
       }
       /**
-       * <code>optional .dstore.values.IntegerValue template_id = 1;</code>
+       * <code>.dstore.values.IntegerValue template_id = 1;</code>
        */
       public Builder setTemplateId(io.dstore.values.IntegerValue value) {
         if (templateIdBuilder_ == null) {
@@ -1288,7 +1288,7 @@ public final class MiModifyTemplatesAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.IntegerValue template_id = 1;</code>
+       * <code>.dstore.values.IntegerValue template_id = 1;</code>
        */
       public Builder setTemplateId(
           io.dstore.values.IntegerValue.Builder builderForValue) {
@@ -1302,7 +1302,7 @@ public final class MiModifyTemplatesAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.IntegerValue template_id = 1;</code>
+       * <code>.dstore.values.IntegerValue template_id = 1;</code>
        */
       public Builder mergeTemplateId(io.dstore.values.IntegerValue value) {
         if (templateIdBuilder_ == null) {
@@ -1320,7 +1320,7 @@ public final class MiModifyTemplatesAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.IntegerValue template_id = 1;</code>
+       * <code>.dstore.values.IntegerValue template_id = 1;</code>
        */
       public Builder clearTemplateId() {
         if (templateIdBuilder_ == null) {
@@ -1334,7 +1334,7 @@ public final class MiModifyTemplatesAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.IntegerValue template_id = 1;</code>
+       * <code>.dstore.values.IntegerValue template_id = 1;</code>
        */
       public io.dstore.values.IntegerValue.Builder getTemplateIdBuilder() {
         
@@ -1342,7 +1342,7 @@ public final class MiModifyTemplatesAd {
         return getTemplateIdFieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .dstore.values.IntegerValue template_id = 1;</code>
+       * <code>.dstore.values.IntegerValue template_id = 1;</code>
        */
       public io.dstore.values.IntegerValueOrBuilder getTemplateIdOrBuilder() {
         if (templateIdBuilder_ != null) {
@@ -1353,7 +1353,7 @@ public final class MiModifyTemplatesAd {
         }
       }
       /**
-       * <code>optional .dstore.values.IntegerValue template_id = 1;</code>
+       * <code>.dstore.values.IntegerValue template_id = 1;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> 
@@ -1371,13 +1371,13 @@ public final class MiModifyTemplatesAd {
 
       private boolean templateIdNull_ ;
       /**
-       * <code>optional bool template_id_null = 1001;</code>
+       * <code>bool template_id_null = 1001;</code>
        */
       public boolean getTemplateIdNull() {
         return templateIdNull_;
       }
       /**
-       * <code>optional bool template_id_null = 1001;</code>
+       * <code>bool template_id_null = 1001;</code>
        */
       public Builder setTemplateIdNull(boolean value) {
         
@@ -1386,7 +1386,7 @@ public final class MiModifyTemplatesAd {
         return this;
       }
       /**
-       * <code>optional bool template_id_null = 1001;</code>
+       * <code>bool template_id_null = 1001;</code>
        */
       public Builder clearTemplateIdNull() {
         
@@ -1399,13 +1399,13 @@ public final class MiModifyTemplatesAd {
       private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.values.StringValue, io.dstore.values.StringValue.Builder, io.dstore.values.StringValueOrBuilder> descriptionBuilder_;
       /**
-       * <code>optional .dstore.values.StringValue description = 2;</code>
+       * <code>.dstore.values.StringValue description = 2;</code>
        */
       public boolean hasDescription() {
         return descriptionBuilder_ != null || description_ != null;
       }
       /**
-       * <code>optional .dstore.values.StringValue description = 2;</code>
+       * <code>.dstore.values.StringValue description = 2;</code>
        */
       public io.dstore.values.StringValue getDescription() {
         if (descriptionBuilder_ == null) {
@@ -1415,7 +1415,7 @@ public final class MiModifyTemplatesAd {
         }
       }
       /**
-       * <code>optional .dstore.values.StringValue description = 2;</code>
+       * <code>.dstore.values.StringValue description = 2;</code>
        */
       public Builder setDescription(io.dstore.values.StringValue value) {
         if (descriptionBuilder_ == null) {
@@ -1431,7 +1431,7 @@ public final class MiModifyTemplatesAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.StringValue description = 2;</code>
+       * <code>.dstore.values.StringValue description = 2;</code>
        */
       public Builder setDescription(
           io.dstore.values.StringValue.Builder builderForValue) {
@@ -1445,7 +1445,7 @@ public final class MiModifyTemplatesAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.StringValue description = 2;</code>
+       * <code>.dstore.values.StringValue description = 2;</code>
        */
       public Builder mergeDescription(io.dstore.values.StringValue value) {
         if (descriptionBuilder_ == null) {
@@ -1463,7 +1463,7 @@ public final class MiModifyTemplatesAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.StringValue description = 2;</code>
+       * <code>.dstore.values.StringValue description = 2;</code>
        */
       public Builder clearDescription() {
         if (descriptionBuilder_ == null) {
@@ -1477,7 +1477,7 @@ public final class MiModifyTemplatesAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.StringValue description = 2;</code>
+       * <code>.dstore.values.StringValue description = 2;</code>
        */
       public io.dstore.values.StringValue.Builder getDescriptionBuilder() {
         
@@ -1485,7 +1485,7 @@ public final class MiModifyTemplatesAd {
         return getDescriptionFieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .dstore.values.StringValue description = 2;</code>
+       * <code>.dstore.values.StringValue description = 2;</code>
        */
       public io.dstore.values.StringValueOrBuilder getDescriptionOrBuilder() {
         if (descriptionBuilder_ != null) {
@@ -1496,7 +1496,7 @@ public final class MiModifyTemplatesAd {
         }
       }
       /**
-       * <code>optional .dstore.values.StringValue description = 2;</code>
+       * <code>.dstore.values.StringValue description = 2;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.values.StringValue, io.dstore.values.StringValue.Builder, io.dstore.values.StringValueOrBuilder> 
@@ -1514,13 +1514,13 @@ public final class MiModifyTemplatesAd {
 
       private boolean descriptionNull_ ;
       /**
-       * <code>optional bool description_null = 1002;</code>
+       * <code>bool description_null = 1002;</code>
        */
       public boolean getDescriptionNull() {
         return descriptionNull_;
       }
       /**
-       * <code>optional bool description_null = 1002;</code>
+       * <code>bool description_null = 1002;</code>
        */
       public Builder setDescriptionNull(boolean value) {
         
@@ -1529,7 +1529,7 @@ public final class MiModifyTemplatesAd {
         return this;
       }
       /**
-       * <code>optional bool description_null = 1002;</code>
+       * <code>bool description_null = 1002;</code>
        */
       public Builder clearDescriptionNull() {
         
@@ -1542,13 +1542,13 @@ public final class MiModifyTemplatesAd {
       private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> languageIdBuilder_;
       /**
-       * <code>optional .dstore.values.IntegerValue language_id = 3;</code>
+       * <code>.dstore.values.IntegerValue language_id = 3;</code>
        */
       public boolean hasLanguageId() {
         return languageIdBuilder_ != null || languageId_ != null;
       }
       /**
-       * <code>optional .dstore.values.IntegerValue language_id = 3;</code>
+       * <code>.dstore.values.IntegerValue language_id = 3;</code>
        */
       public io.dstore.values.IntegerValue getLanguageId() {
         if (languageIdBuilder_ == null) {
@@ -1558,7 +1558,7 @@ public final class MiModifyTemplatesAd {
         }
       }
       /**
-       * <code>optional .dstore.values.IntegerValue language_id = 3;</code>
+       * <code>.dstore.values.IntegerValue language_id = 3;</code>
        */
       public Builder setLanguageId(io.dstore.values.IntegerValue value) {
         if (languageIdBuilder_ == null) {
@@ -1574,7 +1574,7 @@ public final class MiModifyTemplatesAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.IntegerValue language_id = 3;</code>
+       * <code>.dstore.values.IntegerValue language_id = 3;</code>
        */
       public Builder setLanguageId(
           io.dstore.values.IntegerValue.Builder builderForValue) {
@@ -1588,7 +1588,7 @@ public final class MiModifyTemplatesAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.IntegerValue language_id = 3;</code>
+       * <code>.dstore.values.IntegerValue language_id = 3;</code>
        */
       public Builder mergeLanguageId(io.dstore.values.IntegerValue value) {
         if (languageIdBuilder_ == null) {
@@ -1606,7 +1606,7 @@ public final class MiModifyTemplatesAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.IntegerValue language_id = 3;</code>
+       * <code>.dstore.values.IntegerValue language_id = 3;</code>
        */
       public Builder clearLanguageId() {
         if (languageIdBuilder_ == null) {
@@ -1620,7 +1620,7 @@ public final class MiModifyTemplatesAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.IntegerValue language_id = 3;</code>
+       * <code>.dstore.values.IntegerValue language_id = 3;</code>
        */
       public io.dstore.values.IntegerValue.Builder getLanguageIdBuilder() {
         
@@ -1628,7 +1628,7 @@ public final class MiModifyTemplatesAd {
         return getLanguageIdFieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .dstore.values.IntegerValue language_id = 3;</code>
+       * <code>.dstore.values.IntegerValue language_id = 3;</code>
        */
       public io.dstore.values.IntegerValueOrBuilder getLanguageIdOrBuilder() {
         if (languageIdBuilder_ != null) {
@@ -1639,7 +1639,7 @@ public final class MiModifyTemplatesAd {
         }
       }
       /**
-       * <code>optional .dstore.values.IntegerValue language_id = 3;</code>
+       * <code>.dstore.values.IntegerValue language_id = 3;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> 
@@ -1657,13 +1657,13 @@ public final class MiModifyTemplatesAd {
 
       private boolean languageIdNull_ ;
       /**
-       * <code>optional bool language_id_null = 1003;</code>
+       * <code>bool language_id_null = 1003;</code>
        */
       public boolean getLanguageIdNull() {
         return languageIdNull_;
       }
       /**
-       * <code>optional bool language_id_null = 1003;</code>
+       * <code>bool language_id_null = 1003;</code>
        */
       public Builder setLanguageIdNull(boolean value) {
         
@@ -1672,7 +1672,7 @@ public final class MiModifyTemplatesAd {
         return this;
       }
       /**
-       * <code>optional bool language_id_null = 1003;</code>
+       * <code>bool language_id_null = 1003;</code>
        */
       public Builder clearLanguageIdNull() {
         
@@ -1685,13 +1685,13 @@ public final class MiModifyTemplatesAd {
       private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.values.StringValue, io.dstore.values.StringValue.Builder, io.dstore.values.StringValueOrBuilder> frameNameBuilder_;
       /**
-       * <code>optional .dstore.values.StringValue frame_name = 4;</code>
+       * <code>.dstore.values.StringValue frame_name = 4;</code>
        */
       public boolean hasFrameName() {
         return frameNameBuilder_ != null || frameName_ != null;
       }
       /**
-       * <code>optional .dstore.values.StringValue frame_name = 4;</code>
+       * <code>.dstore.values.StringValue frame_name = 4;</code>
        */
       public io.dstore.values.StringValue getFrameName() {
         if (frameNameBuilder_ == null) {
@@ -1701,7 +1701,7 @@ public final class MiModifyTemplatesAd {
         }
       }
       /**
-       * <code>optional .dstore.values.StringValue frame_name = 4;</code>
+       * <code>.dstore.values.StringValue frame_name = 4;</code>
        */
       public Builder setFrameName(io.dstore.values.StringValue value) {
         if (frameNameBuilder_ == null) {
@@ -1717,7 +1717,7 @@ public final class MiModifyTemplatesAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.StringValue frame_name = 4;</code>
+       * <code>.dstore.values.StringValue frame_name = 4;</code>
        */
       public Builder setFrameName(
           io.dstore.values.StringValue.Builder builderForValue) {
@@ -1731,7 +1731,7 @@ public final class MiModifyTemplatesAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.StringValue frame_name = 4;</code>
+       * <code>.dstore.values.StringValue frame_name = 4;</code>
        */
       public Builder mergeFrameName(io.dstore.values.StringValue value) {
         if (frameNameBuilder_ == null) {
@@ -1749,7 +1749,7 @@ public final class MiModifyTemplatesAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.StringValue frame_name = 4;</code>
+       * <code>.dstore.values.StringValue frame_name = 4;</code>
        */
       public Builder clearFrameName() {
         if (frameNameBuilder_ == null) {
@@ -1763,7 +1763,7 @@ public final class MiModifyTemplatesAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.StringValue frame_name = 4;</code>
+       * <code>.dstore.values.StringValue frame_name = 4;</code>
        */
       public io.dstore.values.StringValue.Builder getFrameNameBuilder() {
         
@@ -1771,7 +1771,7 @@ public final class MiModifyTemplatesAd {
         return getFrameNameFieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .dstore.values.StringValue frame_name = 4;</code>
+       * <code>.dstore.values.StringValue frame_name = 4;</code>
        */
       public io.dstore.values.StringValueOrBuilder getFrameNameOrBuilder() {
         if (frameNameBuilder_ != null) {
@@ -1782,7 +1782,7 @@ public final class MiModifyTemplatesAd {
         }
       }
       /**
-       * <code>optional .dstore.values.StringValue frame_name = 4;</code>
+       * <code>.dstore.values.StringValue frame_name = 4;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.values.StringValue, io.dstore.values.StringValue.Builder, io.dstore.values.StringValueOrBuilder> 
@@ -1800,13 +1800,13 @@ public final class MiModifyTemplatesAd {
 
       private boolean frameNameNull_ ;
       /**
-       * <code>optional bool frame_name_null = 1004;</code>
+       * <code>bool frame_name_null = 1004;</code>
        */
       public boolean getFrameNameNull() {
         return frameNameNull_;
       }
       /**
-       * <code>optional bool frame_name_null = 1004;</code>
+       * <code>bool frame_name_null = 1004;</code>
        */
       public Builder setFrameNameNull(boolean value) {
         
@@ -1815,7 +1815,7 @@ public final class MiModifyTemplatesAd {
         return this;
       }
       /**
-       * <code>optional bool frame_name_null = 1004;</code>
+       * <code>bool frame_name_null = 1004;</code>
        */
       public Builder clearFrameNameNull() {
         
@@ -1828,13 +1828,13 @@ public final class MiModifyTemplatesAd {
       private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.values.StringValue, io.dstore.values.StringValue.Builder, io.dstore.values.StringValueOrBuilder> fileNameBuilder_;
       /**
-       * <code>optional .dstore.values.StringValue file_name = 5;</code>
+       * <code>.dstore.values.StringValue file_name = 5;</code>
        */
       public boolean hasFileName() {
         return fileNameBuilder_ != null || fileName_ != null;
       }
       /**
-       * <code>optional .dstore.values.StringValue file_name = 5;</code>
+       * <code>.dstore.values.StringValue file_name = 5;</code>
        */
       public io.dstore.values.StringValue getFileName() {
         if (fileNameBuilder_ == null) {
@@ -1844,7 +1844,7 @@ public final class MiModifyTemplatesAd {
         }
       }
       /**
-       * <code>optional .dstore.values.StringValue file_name = 5;</code>
+       * <code>.dstore.values.StringValue file_name = 5;</code>
        */
       public Builder setFileName(io.dstore.values.StringValue value) {
         if (fileNameBuilder_ == null) {
@@ -1860,7 +1860,7 @@ public final class MiModifyTemplatesAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.StringValue file_name = 5;</code>
+       * <code>.dstore.values.StringValue file_name = 5;</code>
        */
       public Builder setFileName(
           io.dstore.values.StringValue.Builder builderForValue) {
@@ -1874,7 +1874,7 @@ public final class MiModifyTemplatesAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.StringValue file_name = 5;</code>
+       * <code>.dstore.values.StringValue file_name = 5;</code>
        */
       public Builder mergeFileName(io.dstore.values.StringValue value) {
         if (fileNameBuilder_ == null) {
@@ -1892,7 +1892,7 @@ public final class MiModifyTemplatesAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.StringValue file_name = 5;</code>
+       * <code>.dstore.values.StringValue file_name = 5;</code>
        */
       public Builder clearFileName() {
         if (fileNameBuilder_ == null) {
@@ -1906,7 +1906,7 @@ public final class MiModifyTemplatesAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.StringValue file_name = 5;</code>
+       * <code>.dstore.values.StringValue file_name = 5;</code>
        */
       public io.dstore.values.StringValue.Builder getFileNameBuilder() {
         
@@ -1914,7 +1914,7 @@ public final class MiModifyTemplatesAd {
         return getFileNameFieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .dstore.values.StringValue file_name = 5;</code>
+       * <code>.dstore.values.StringValue file_name = 5;</code>
        */
       public io.dstore.values.StringValueOrBuilder getFileNameOrBuilder() {
         if (fileNameBuilder_ != null) {
@@ -1925,7 +1925,7 @@ public final class MiModifyTemplatesAd {
         }
       }
       /**
-       * <code>optional .dstore.values.StringValue file_name = 5;</code>
+       * <code>.dstore.values.StringValue file_name = 5;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.values.StringValue, io.dstore.values.StringValue.Builder, io.dstore.values.StringValueOrBuilder> 
@@ -1943,13 +1943,13 @@ public final class MiModifyTemplatesAd {
 
       private boolean fileNameNull_ ;
       /**
-       * <code>optional bool file_name_null = 1005;</code>
+       * <code>bool file_name_null = 1005;</code>
        */
       public boolean getFileNameNull() {
         return fileNameNull_;
       }
       /**
-       * <code>optional bool file_name_null = 1005;</code>
+       * <code>bool file_name_null = 1005;</code>
        */
       public Builder setFileNameNull(boolean value) {
         
@@ -1958,7 +1958,7 @@ public final class MiModifyTemplatesAd {
         return this;
       }
       /**
-       * <code>optional bool file_name_null = 1005;</code>
+       * <code>bool file_name_null = 1005;</code>
        */
       public Builder clearFileNameNull() {
         
@@ -1971,13 +1971,13 @@ public final class MiModifyTemplatesAd {
       private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.values.BooleanValue, io.dstore.values.BooleanValue.Builder, io.dstore.values.BooleanValueOrBuilder> canBeSourceTemplateBuilder_;
       /**
-       * <code>optional .dstore.values.BooleanValue can_be_source_template = 6;</code>
+       * <code>.dstore.values.BooleanValue can_be_source_template = 6;</code>
        */
       public boolean hasCanBeSourceTemplate() {
         return canBeSourceTemplateBuilder_ != null || canBeSourceTemplate_ != null;
       }
       /**
-       * <code>optional .dstore.values.BooleanValue can_be_source_template = 6;</code>
+       * <code>.dstore.values.BooleanValue can_be_source_template = 6;</code>
        */
       public io.dstore.values.BooleanValue getCanBeSourceTemplate() {
         if (canBeSourceTemplateBuilder_ == null) {
@@ -1987,7 +1987,7 @@ public final class MiModifyTemplatesAd {
         }
       }
       /**
-       * <code>optional .dstore.values.BooleanValue can_be_source_template = 6;</code>
+       * <code>.dstore.values.BooleanValue can_be_source_template = 6;</code>
        */
       public Builder setCanBeSourceTemplate(io.dstore.values.BooleanValue value) {
         if (canBeSourceTemplateBuilder_ == null) {
@@ -2003,7 +2003,7 @@ public final class MiModifyTemplatesAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.BooleanValue can_be_source_template = 6;</code>
+       * <code>.dstore.values.BooleanValue can_be_source_template = 6;</code>
        */
       public Builder setCanBeSourceTemplate(
           io.dstore.values.BooleanValue.Builder builderForValue) {
@@ -2017,7 +2017,7 @@ public final class MiModifyTemplatesAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.BooleanValue can_be_source_template = 6;</code>
+       * <code>.dstore.values.BooleanValue can_be_source_template = 6;</code>
        */
       public Builder mergeCanBeSourceTemplate(io.dstore.values.BooleanValue value) {
         if (canBeSourceTemplateBuilder_ == null) {
@@ -2035,7 +2035,7 @@ public final class MiModifyTemplatesAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.BooleanValue can_be_source_template = 6;</code>
+       * <code>.dstore.values.BooleanValue can_be_source_template = 6;</code>
        */
       public Builder clearCanBeSourceTemplate() {
         if (canBeSourceTemplateBuilder_ == null) {
@@ -2049,7 +2049,7 @@ public final class MiModifyTemplatesAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.BooleanValue can_be_source_template = 6;</code>
+       * <code>.dstore.values.BooleanValue can_be_source_template = 6;</code>
        */
       public io.dstore.values.BooleanValue.Builder getCanBeSourceTemplateBuilder() {
         
@@ -2057,7 +2057,7 @@ public final class MiModifyTemplatesAd {
         return getCanBeSourceTemplateFieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .dstore.values.BooleanValue can_be_source_template = 6;</code>
+       * <code>.dstore.values.BooleanValue can_be_source_template = 6;</code>
        */
       public io.dstore.values.BooleanValueOrBuilder getCanBeSourceTemplateOrBuilder() {
         if (canBeSourceTemplateBuilder_ != null) {
@@ -2068,7 +2068,7 @@ public final class MiModifyTemplatesAd {
         }
       }
       /**
-       * <code>optional .dstore.values.BooleanValue can_be_source_template = 6;</code>
+       * <code>.dstore.values.BooleanValue can_be_source_template = 6;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.values.BooleanValue, io.dstore.values.BooleanValue.Builder, io.dstore.values.BooleanValueOrBuilder> 
@@ -2086,13 +2086,13 @@ public final class MiModifyTemplatesAd {
 
       private boolean canBeSourceTemplateNull_ ;
       /**
-       * <code>optional bool can_be_source_template_null = 1006;</code>
+       * <code>bool can_be_source_template_null = 1006;</code>
        */
       public boolean getCanBeSourceTemplateNull() {
         return canBeSourceTemplateNull_;
       }
       /**
-       * <code>optional bool can_be_source_template_null = 1006;</code>
+       * <code>bool can_be_source_template_null = 1006;</code>
        */
       public Builder setCanBeSourceTemplateNull(boolean value) {
         
@@ -2101,7 +2101,7 @@ public final class MiModifyTemplatesAd {
         return this;
       }
       /**
-       * <code>optional bool can_be_source_template_null = 1006;</code>
+       * <code>bool can_be_source_template_null = 1006;</code>
        */
       public Builder clearCanBeSourceTemplateNull() {
         
@@ -2114,13 +2114,13 @@ public final class MiModifyTemplatesAd {
       private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.values.BooleanValue, io.dstore.values.BooleanValue.Builder, io.dstore.values.BooleanValueOrBuilder> isRealTimeTemplateBuilder_;
       /**
-       * <code>optional .dstore.values.BooleanValue is_real_time_template = 7;</code>
+       * <code>.dstore.values.BooleanValue is_real_time_template = 7;</code>
        */
       public boolean hasIsRealTimeTemplate() {
         return isRealTimeTemplateBuilder_ != null || isRealTimeTemplate_ != null;
       }
       /**
-       * <code>optional .dstore.values.BooleanValue is_real_time_template = 7;</code>
+       * <code>.dstore.values.BooleanValue is_real_time_template = 7;</code>
        */
       public io.dstore.values.BooleanValue getIsRealTimeTemplate() {
         if (isRealTimeTemplateBuilder_ == null) {
@@ -2130,7 +2130,7 @@ public final class MiModifyTemplatesAd {
         }
       }
       /**
-       * <code>optional .dstore.values.BooleanValue is_real_time_template = 7;</code>
+       * <code>.dstore.values.BooleanValue is_real_time_template = 7;</code>
        */
       public Builder setIsRealTimeTemplate(io.dstore.values.BooleanValue value) {
         if (isRealTimeTemplateBuilder_ == null) {
@@ -2146,7 +2146,7 @@ public final class MiModifyTemplatesAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.BooleanValue is_real_time_template = 7;</code>
+       * <code>.dstore.values.BooleanValue is_real_time_template = 7;</code>
        */
       public Builder setIsRealTimeTemplate(
           io.dstore.values.BooleanValue.Builder builderForValue) {
@@ -2160,7 +2160,7 @@ public final class MiModifyTemplatesAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.BooleanValue is_real_time_template = 7;</code>
+       * <code>.dstore.values.BooleanValue is_real_time_template = 7;</code>
        */
       public Builder mergeIsRealTimeTemplate(io.dstore.values.BooleanValue value) {
         if (isRealTimeTemplateBuilder_ == null) {
@@ -2178,7 +2178,7 @@ public final class MiModifyTemplatesAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.BooleanValue is_real_time_template = 7;</code>
+       * <code>.dstore.values.BooleanValue is_real_time_template = 7;</code>
        */
       public Builder clearIsRealTimeTemplate() {
         if (isRealTimeTemplateBuilder_ == null) {
@@ -2192,7 +2192,7 @@ public final class MiModifyTemplatesAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.BooleanValue is_real_time_template = 7;</code>
+       * <code>.dstore.values.BooleanValue is_real_time_template = 7;</code>
        */
       public io.dstore.values.BooleanValue.Builder getIsRealTimeTemplateBuilder() {
         
@@ -2200,7 +2200,7 @@ public final class MiModifyTemplatesAd {
         return getIsRealTimeTemplateFieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .dstore.values.BooleanValue is_real_time_template = 7;</code>
+       * <code>.dstore.values.BooleanValue is_real_time_template = 7;</code>
        */
       public io.dstore.values.BooleanValueOrBuilder getIsRealTimeTemplateOrBuilder() {
         if (isRealTimeTemplateBuilder_ != null) {
@@ -2211,7 +2211,7 @@ public final class MiModifyTemplatesAd {
         }
       }
       /**
-       * <code>optional .dstore.values.BooleanValue is_real_time_template = 7;</code>
+       * <code>.dstore.values.BooleanValue is_real_time_template = 7;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.values.BooleanValue, io.dstore.values.BooleanValue.Builder, io.dstore.values.BooleanValueOrBuilder> 
@@ -2229,13 +2229,13 @@ public final class MiModifyTemplatesAd {
 
       private boolean isRealTimeTemplateNull_ ;
       /**
-       * <code>optional bool is_real_time_template_null = 1007;</code>
+       * <code>bool is_real_time_template_null = 1007;</code>
        */
       public boolean getIsRealTimeTemplateNull() {
         return isRealTimeTemplateNull_;
       }
       /**
-       * <code>optional bool is_real_time_template_null = 1007;</code>
+       * <code>bool is_real_time_template_null = 1007;</code>
        */
       public Builder setIsRealTimeTemplateNull(boolean value) {
         
@@ -2244,7 +2244,7 @@ public final class MiModifyTemplatesAd {
         return this;
       }
       /**
-       * <code>optional bool is_real_time_template_null = 1007;</code>
+       * <code>bool is_real_time_template_null = 1007;</code>
        */
       public Builder clearIsRealTimeTemplateNull() {
         
@@ -2257,13 +2257,13 @@ public final class MiModifyTemplatesAd {
       private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.values.BooleanValue, io.dstore.values.BooleanValue.Builder, io.dstore.values.BooleanValueOrBuilder> deleteTemplateBuilder_;
       /**
-       * <code>optional .dstore.values.BooleanValue delete_template = 8;</code>
+       * <code>.dstore.values.BooleanValue delete_template = 8;</code>
        */
       public boolean hasDeleteTemplate() {
         return deleteTemplateBuilder_ != null || deleteTemplate_ != null;
       }
       /**
-       * <code>optional .dstore.values.BooleanValue delete_template = 8;</code>
+       * <code>.dstore.values.BooleanValue delete_template = 8;</code>
        */
       public io.dstore.values.BooleanValue getDeleteTemplate() {
         if (deleteTemplateBuilder_ == null) {
@@ -2273,7 +2273,7 @@ public final class MiModifyTemplatesAd {
         }
       }
       /**
-       * <code>optional .dstore.values.BooleanValue delete_template = 8;</code>
+       * <code>.dstore.values.BooleanValue delete_template = 8;</code>
        */
       public Builder setDeleteTemplate(io.dstore.values.BooleanValue value) {
         if (deleteTemplateBuilder_ == null) {
@@ -2289,7 +2289,7 @@ public final class MiModifyTemplatesAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.BooleanValue delete_template = 8;</code>
+       * <code>.dstore.values.BooleanValue delete_template = 8;</code>
        */
       public Builder setDeleteTemplate(
           io.dstore.values.BooleanValue.Builder builderForValue) {
@@ -2303,7 +2303,7 @@ public final class MiModifyTemplatesAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.BooleanValue delete_template = 8;</code>
+       * <code>.dstore.values.BooleanValue delete_template = 8;</code>
        */
       public Builder mergeDeleteTemplate(io.dstore.values.BooleanValue value) {
         if (deleteTemplateBuilder_ == null) {
@@ -2321,7 +2321,7 @@ public final class MiModifyTemplatesAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.BooleanValue delete_template = 8;</code>
+       * <code>.dstore.values.BooleanValue delete_template = 8;</code>
        */
       public Builder clearDeleteTemplate() {
         if (deleteTemplateBuilder_ == null) {
@@ -2335,7 +2335,7 @@ public final class MiModifyTemplatesAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.BooleanValue delete_template = 8;</code>
+       * <code>.dstore.values.BooleanValue delete_template = 8;</code>
        */
       public io.dstore.values.BooleanValue.Builder getDeleteTemplateBuilder() {
         
@@ -2343,7 +2343,7 @@ public final class MiModifyTemplatesAd {
         return getDeleteTemplateFieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .dstore.values.BooleanValue delete_template = 8;</code>
+       * <code>.dstore.values.BooleanValue delete_template = 8;</code>
        */
       public io.dstore.values.BooleanValueOrBuilder getDeleteTemplateOrBuilder() {
         if (deleteTemplateBuilder_ != null) {
@@ -2354,7 +2354,7 @@ public final class MiModifyTemplatesAd {
         }
       }
       /**
-       * <code>optional .dstore.values.BooleanValue delete_template = 8;</code>
+       * <code>.dstore.values.BooleanValue delete_template = 8;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.values.BooleanValue, io.dstore.values.BooleanValue.Builder, io.dstore.values.BooleanValueOrBuilder> 
@@ -2372,13 +2372,13 @@ public final class MiModifyTemplatesAd {
 
       private boolean deleteTemplateNull_ ;
       /**
-       * <code>optional bool delete_template_null = 1008;</code>
+       * <code>bool delete_template_null = 1008;</code>
        */
       public boolean getDeleteTemplateNull() {
         return deleteTemplateNull_;
       }
       /**
-       * <code>optional bool delete_template_null = 1008;</code>
+       * <code>bool delete_template_null = 1008;</code>
        */
       public Builder setDeleteTemplateNull(boolean value) {
         
@@ -2387,7 +2387,7 @@ public final class MiModifyTemplatesAd {
         return this;
       }
       /**
-       * <code>optional bool delete_template_null = 1008;</code>
+       * <code>bool delete_template_null = 1008;</code>
        */
       public Builder clearDeleteTemplateNull() {
         
@@ -2646,7 +2646,7 @@ public final class MiModifyTemplatesAd {
         com.google.protobuf.MessageOrBuilder {
 
       /**
-       * <code>optional int32 row_id = 10000;</code>
+       * <code>int32 row_id = 10000;</code>
        */
       int getRowId();
     }
@@ -2721,7 +2721,7 @@ public final class MiModifyTemplatesAd {
       public static final int ROW_ID_FIELD_NUMBER = 10000;
       private int rowId_;
       /**
-       * <code>optional int32 row_id = 10000;</code>
+       * <code>int32 row_id = 10000;</code>
        */
       public int getRowId() {
         return rowId_;
@@ -2780,7 +2780,7 @@ public final class MiModifyTemplatesAd {
           return memoizedHashCode;
         }
         int hash = 41;
-        hash = (19 * hash) + getDescriptorForType().hashCode();
+        hash = (19 * hash) + getDescriptor().hashCode();
         hash = (37 * hash) + ROW_ID_FIELD_NUMBER;
         hash = (53 * hash) + getRowId();
         hash = (29 * hash) + unknownFields.hashCode();
@@ -2998,13 +2998,13 @@ public final class MiModifyTemplatesAd {
 
         private int rowId_ ;
         /**
-         * <code>optional int32 row_id = 10000;</code>
+         * <code>int32 row_id = 10000;</code>
          */
         public int getRowId() {
           return rowId_;
         }
         /**
-         * <code>optional int32 row_id = 10000;</code>
+         * <code>int32 row_id = 10000;</code>
          */
         public Builder setRowId(int value) {
           
@@ -3013,7 +3013,7 @@ public final class MiModifyTemplatesAd {
           return this;
         }
         /**
-         * <code>optional int32 row_id = 10000;</code>
+         * <code>int32 row_id = 10000;</code>
          */
         public Builder clearRowId() {
           
@@ -3266,7 +3266,7 @@ public final class MiModifyTemplatesAd {
         return memoizedHashCode;
       }
       int hash = 41;
-      hash = (19 * hash) + getDescriptorForType().hashCode();
+      hash = (19 * hash) + getDescriptor().hashCode();
       if (getMetaInformationCount() > 0) {
         hash = (37 * hash) + META_INFORMATION_FIELD_NUMBER;
         hash = (53 * hash) + getMetaInformationList().hashCode();

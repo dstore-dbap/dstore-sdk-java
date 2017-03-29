@@ -8,7 +8,7 @@ public interface BytesValueOrBuilder extends
     com.google.protobuf.MessageOrBuilder {
 
   /**
-   * <code>optional bytes value = 1;</code>
+   * <code>bytes value = 1;</code>
    */
   com.google.protobuf.ByteString getValue();
 }

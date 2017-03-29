@@ -19,236 +19,236 @@ public final class FoModifyPostingPu {
       com.google.protobuf.MessageOrBuilder {
 
     /**
-     * <code>optional .dstore.values.IntegerValue result = 1;</code>
+     * <code>.dstore.values.IntegerValue result = 1;</code>
      */
     boolean hasResult();
     /**
-     * <code>optional .dstore.values.IntegerValue result = 1;</code>
+     * <code>.dstore.values.IntegerValue result = 1;</code>
      */
     io.dstore.values.IntegerValue getResult();
     /**
-     * <code>optional .dstore.values.IntegerValue result = 1;</code>
+     * <code>.dstore.values.IntegerValue result = 1;</code>
      */
     io.dstore.values.IntegerValueOrBuilder getResultOrBuilder();
 
     /**
-     * <code>optional bool result_null = 1001;</code>
+     * <code>bool result_null = 1001;</code>
      */
     boolean getResultNull();
 
     /**
-     * <code>optional .dstore.values.StringValue person_identification_values = 2;</code>
+     * <code>.dstore.values.StringValue person_identification_values = 2;</code>
      */
     boolean hasPersonIdentificationValues();
     /**
-     * <code>optional .dstore.values.StringValue person_identification_values = 2;</code>
+     * <code>.dstore.values.StringValue person_identification_values = 2;</code>
      */
     io.dstore.values.StringValue getPersonIdentificationValues();
     /**
-     * <code>optional .dstore.values.StringValue person_identification_values = 2;</code>
+     * <code>.dstore.values.StringValue person_identification_values = 2;</code>
      */
     io.dstore.values.StringValueOrBuilder getPersonIdentificationValuesOrBuilder();
 
     /**
-     * <code>optional bool person_identification_values_null = 1002;</code>
+     * <code>bool person_identification_values_null = 1002;</code>
      */
     boolean getPersonIdentificationValuesNull();
 
     /**
-     * <code>optional .dstore.values.IntegerValue person_type_id = 3;</code>
+     * <code>.dstore.values.IntegerValue person_type_id = 3;</code>
      */
     boolean hasPersonTypeId();
     /**
-     * <code>optional .dstore.values.IntegerValue person_type_id = 3;</code>
+     * <code>.dstore.values.IntegerValue person_type_id = 3;</code>
      */
     io.dstore.values.IntegerValue getPersonTypeId();
     /**
-     * <code>optional .dstore.values.IntegerValue person_type_id = 3;</code>
+     * <code>.dstore.values.IntegerValue person_type_id = 3;</code>
      */
     io.dstore.values.IntegerValueOrBuilder getPersonTypeIdOrBuilder();
 
     /**
-     * <code>optional bool person_type_id_null = 1003;</code>
+     * <code>bool person_type_id_null = 1003;</code>
      */
     boolean getPersonTypeIdNull();
 
     /**
-     * <code>optional .dstore.values.StringValue unique_id = 4;</code>
+     * <code>.dstore.values.StringValue unique_id = 4;</code>
      */
     boolean hasUniqueId();
     /**
-     * <code>optional .dstore.values.StringValue unique_id = 4;</code>
+     * <code>.dstore.values.StringValue unique_id = 4;</code>
      */
     io.dstore.values.StringValue getUniqueId();
     /**
-     * <code>optional .dstore.values.StringValue unique_id = 4;</code>
+     * <code>.dstore.values.StringValue unique_id = 4;</code>
      */
     io.dstore.values.StringValueOrBuilder getUniqueIdOrBuilder();
 
     /**
-     * <code>optional bool unique_id_null = 1004;</code>
+     * <code>bool unique_id_null = 1004;</code>
      */
     boolean getUniqueIdNull();
 
     /**
-     * <code>optional .dstore.values.IntegerValue posting_id = 5;</code>
+     * <code>.dstore.values.IntegerValue posting_id = 5;</code>
      */
     boolean hasPostingId();
     /**
-     * <code>optional .dstore.values.IntegerValue posting_id = 5;</code>
+     * <code>.dstore.values.IntegerValue posting_id = 5;</code>
      */
     io.dstore.values.IntegerValue getPostingId();
     /**
-     * <code>optional .dstore.values.IntegerValue posting_id = 5;</code>
+     * <code>.dstore.values.IntegerValue posting_id = 5;</code>
      */
     io.dstore.values.IntegerValueOrBuilder getPostingIdOrBuilder();
 
     /**
-     * <code>optional bool posting_id_null = 1005;</code>
+     * <code>bool posting_id_null = 1005;</code>
      */
     boolean getPostingIdNull();
 
     /**
-     * <code>optional .dstore.values.StringValue new_author = 6;</code>
+     * <code>.dstore.values.StringValue new_author = 6;</code>
      */
     boolean hasNewAuthor();
     /**
-     * <code>optional .dstore.values.StringValue new_author = 6;</code>
+     * <code>.dstore.values.StringValue new_author = 6;</code>
      */
     io.dstore.values.StringValue getNewAuthor();
     /**
-     * <code>optional .dstore.values.StringValue new_author = 6;</code>
+     * <code>.dstore.values.StringValue new_author = 6;</code>
      */
     io.dstore.values.StringValueOrBuilder getNewAuthorOrBuilder();
 
     /**
-     * <code>optional bool new_author_null = 1006;</code>
+     * <code>bool new_author_null = 1006;</code>
      */
     boolean getNewAuthorNull();
 
     /**
-     * <code>optional .dstore.values.StringValue new_e_mail_of_author = 7;</code>
+     * <code>.dstore.values.StringValue new_e_mail_of_author = 7;</code>
      */
     boolean hasNewEMailOfAuthor();
     /**
-     * <code>optional .dstore.values.StringValue new_e_mail_of_author = 7;</code>
+     * <code>.dstore.values.StringValue new_e_mail_of_author = 7;</code>
      */
     io.dstore.values.StringValue getNewEMailOfAuthor();
     /**
-     * <code>optional .dstore.values.StringValue new_e_mail_of_author = 7;</code>
+     * <code>.dstore.values.StringValue new_e_mail_of_author = 7;</code>
      */
     io.dstore.values.StringValueOrBuilder getNewEMailOfAuthorOrBuilder();
 
     /**
-     * <code>optional bool new_e_mail_of_author_null = 1007;</code>
+     * <code>bool new_e_mail_of_author_null = 1007;</code>
      */
     boolean getNewEMailOfAuthorNull();
 
     /**
-     * <code>optional .dstore.values.StringValue new_subject = 8;</code>
+     * <code>.dstore.values.StringValue new_subject = 8;</code>
      */
     boolean hasNewSubject();
     /**
-     * <code>optional .dstore.values.StringValue new_subject = 8;</code>
+     * <code>.dstore.values.StringValue new_subject = 8;</code>
      */
     io.dstore.values.StringValue getNewSubject();
     /**
-     * <code>optional .dstore.values.StringValue new_subject = 8;</code>
+     * <code>.dstore.values.StringValue new_subject = 8;</code>
      */
     io.dstore.values.StringValueOrBuilder getNewSubjectOrBuilder();
 
     /**
-     * <code>optional bool new_subject_null = 1008;</code>
+     * <code>bool new_subject_null = 1008;</code>
      */
     boolean getNewSubjectNull();
 
     /**
-     * <code>optional .dstore.values.BooleanValue maintain_search_postings = 9;</code>
+     * <code>.dstore.values.BooleanValue maintain_search_postings = 9;</code>
      */
     boolean hasMaintainSearchPostings();
     /**
-     * <code>optional .dstore.values.BooleanValue maintain_search_postings = 9;</code>
+     * <code>.dstore.values.BooleanValue maintain_search_postings = 9;</code>
      */
     io.dstore.values.BooleanValue getMaintainSearchPostings();
     /**
-     * <code>optional .dstore.values.BooleanValue maintain_search_postings = 9;</code>
+     * <code>.dstore.values.BooleanValue maintain_search_postings = 9;</code>
      */
     io.dstore.values.BooleanValueOrBuilder getMaintainSearchPostingsOrBuilder();
 
     /**
-     * <code>optional bool maintain_search_postings_null = 1009;</code>
+     * <code>bool maintain_search_postings_null = 1009;</code>
      */
     boolean getMaintainSearchPostingsNull();
 
     /**
-     * <code>optional .dstore.values.BooleanValue keep_old_author = 10;</code>
+     * <code>.dstore.values.BooleanValue keep_old_author = 10;</code>
      */
     boolean hasKeepOldAuthor();
     /**
-     * <code>optional .dstore.values.BooleanValue keep_old_author = 10;</code>
+     * <code>.dstore.values.BooleanValue keep_old_author = 10;</code>
      */
     io.dstore.values.BooleanValue getKeepOldAuthor();
     /**
-     * <code>optional .dstore.values.BooleanValue keep_old_author = 10;</code>
+     * <code>.dstore.values.BooleanValue keep_old_author = 10;</code>
      */
     io.dstore.values.BooleanValueOrBuilder getKeepOldAuthorOrBuilder();
 
     /**
-     * <code>optional bool keep_old_author_null = 1010;</code>
+     * <code>bool keep_old_author_null = 1010;</code>
      */
     boolean getKeepOldAuthorNull();
 
     /**
-     * <code>optional .dstore.values.IntegerValue save_posting_properties = 11;</code>
+     * <code>.dstore.values.IntegerValue save_posting_properties = 11;</code>
      */
     boolean hasSavePostingProperties();
     /**
-     * <code>optional .dstore.values.IntegerValue save_posting_properties = 11;</code>
+     * <code>.dstore.values.IntegerValue save_posting_properties = 11;</code>
      */
     io.dstore.values.IntegerValue getSavePostingProperties();
     /**
-     * <code>optional .dstore.values.IntegerValue save_posting_properties = 11;</code>
+     * <code>.dstore.values.IntegerValue save_posting_properties = 11;</code>
      */
     io.dstore.values.IntegerValueOrBuilder getSavePostingPropertiesOrBuilder();
 
     /**
-     * <code>optional bool save_posting_properties_null = 1011;</code>
+     * <code>bool save_posting_properties_null = 1011;</code>
      */
     boolean getSavePostingPropertiesNull();
 
     /**
-     * <code>optional .dstore.values.StringValue country = 12;</code>
+     * <code>.dstore.values.StringValue country = 12;</code>
      */
     boolean hasCountry();
     /**
-     * <code>optional .dstore.values.StringValue country = 12;</code>
+     * <code>.dstore.values.StringValue country = 12;</code>
      */
     io.dstore.values.StringValue getCountry();
     /**
-     * <code>optional .dstore.values.StringValue country = 12;</code>
+     * <code>.dstore.values.StringValue country = 12;</code>
      */
     io.dstore.values.StringValueOrBuilder getCountryOrBuilder();
 
     /**
-     * <code>optional bool country_null = 1012;</code>
+     * <code>bool country_null = 1012;</code>
      */
     boolean getCountryNull();
 
     /**
-     * <code>optional .dstore.values.StringValue separator_in_ident_vals = 13;</code>
+     * <code>.dstore.values.StringValue separator_in_ident_vals = 13;</code>
      */
     boolean hasSeparatorInIdentVals();
     /**
-     * <code>optional .dstore.values.StringValue separator_in_ident_vals = 13;</code>
+     * <code>.dstore.values.StringValue separator_in_ident_vals = 13;</code>
      */
     io.dstore.values.StringValue getSeparatorInIdentVals();
     /**
-     * <code>optional .dstore.values.StringValue separator_in_ident_vals = 13;</code>
+     * <code>.dstore.values.StringValue separator_in_ident_vals = 13;</code>
      */
     io.dstore.values.StringValueOrBuilder getSeparatorInIdentValsOrBuilder();
 
     /**
-     * <code>optional bool separator_in_ident_vals_null = 1013;</code>
+     * <code>bool separator_in_ident_vals_null = 1013;</code>
      */
     boolean getSeparatorInIdentValsNull();
   }
@@ -564,19 +564,19 @@ public final class FoModifyPostingPu {
     public static final int RESULT_FIELD_NUMBER = 1;
     private io.dstore.values.IntegerValue result_;
     /**
-     * <code>optional .dstore.values.IntegerValue result = 1;</code>
+     * <code>.dstore.values.IntegerValue result = 1;</code>
      */
     public boolean hasResult() {
       return result_ != null;
     }
     /**
-     * <code>optional .dstore.values.IntegerValue result = 1;</code>
+     * <code>.dstore.values.IntegerValue result = 1;</code>
      */
     public io.dstore.values.IntegerValue getResult() {
       return result_ == null ? io.dstore.values.IntegerValue.getDefaultInstance() : result_;
     }
     /**
-     * <code>optional .dstore.values.IntegerValue result = 1;</code>
+     * <code>.dstore.values.IntegerValue result = 1;</code>
      */
     public io.dstore.values.IntegerValueOrBuilder getResultOrBuilder() {
       return getResult();
@@ -585,7 +585,7 @@ public final class FoModifyPostingPu {
     public static final int RESULT_NULL_FIELD_NUMBER = 1001;
     private boolean resultNull_;
     /**
-     * <code>optional bool result_null = 1001;</code>
+     * <code>bool result_null = 1001;</code>
      */
     public boolean getResultNull() {
       return resultNull_;
@@ -594,19 +594,19 @@ public final class FoModifyPostingPu {
     public static final int PERSON_IDENTIFICATION_VALUES_FIELD_NUMBER = 2;
     private io.dstore.values.StringValue personIdentificationValues_;
     /**
-     * <code>optional .dstore.values.StringValue person_identification_values = 2;</code>
+     * <code>.dstore.values.StringValue person_identification_values = 2;</code>
      */
     public boolean hasPersonIdentificationValues() {
       return personIdentificationValues_ != null;
     }
     /**
-     * <code>optional .dstore.values.StringValue person_identification_values = 2;</code>
+     * <code>.dstore.values.StringValue person_identification_values = 2;</code>
      */
     public io.dstore.values.StringValue getPersonIdentificationValues() {
       return personIdentificationValues_ == null ? io.dstore.values.StringValue.getDefaultInstance() : personIdentificationValues_;
     }
     /**
-     * <code>optional .dstore.values.StringValue person_identification_values = 2;</code>
+     * <code>.dstore.values.StringValue person_identification_values = 2;</code>
      */
     public io.dstore.values.StringValueOrBuilder getPersonIdentificationValuesOrBuilder() {
       return getPersonIdentificationValues();
@@ -615,7 +615,7 @@ public final class FoModifyPostingPu {
     public static final int PERSON_IDENTIFICATION_VALUES_NULL_FIELD_NUMBER = 1002;
     private boolean personIdentificationValuesNull_;
     /**
-     * <code>optional bool person_identification_values_null = 1002;</code>
+     * <code>bool person_identification_values_null = 1002;</code>
      */
     public boolean getPersonIdentificationValuesNull() {
       return personIdentificationValuesNull_;
@@ -624,19 +624,19 @@ public final class FoModifyPostingPu {
     public static final int PERSON_TYPE_ID_FIELD_NUMBER = 3;
     private io.dstore.values.IntegerValue personTypeId_;
     /**
-     * <code>optional .dstore.values.IntegerValue person_type_id = 3;</code>
+     * <code>.dstore.values.IntegerValue person_type_id = 3;</code>
      */
     public boolean hasPersonTypeId() {
       return personTypeId_ != null;
     }
     /**
-     * <code>optional .dstore.values.IntegerValue person_type_id = 3;</code>
+     * <code>.dstore.values.IntegerValue person_type_id = 3;</code>
      */
     public io.dstore.values.IntegerValue getPersonTypeId() {
       return personTypeId_ == null ? io.dstore.values.IntegerValue.getDefaultInstance() : personTypeId_;
     }
     /**
-     * <code>optional .dstore.values.IntegerValue person_type_id = 3;</code>
+     * <code>.dstore.values.IntegerValue person_type_id = 3;</code>
      */
     public io.dstore.values.IntegerValueOrBuilder getPersonTypeIdOrBuilder() {
       return getPersonTypeId();
@@ -645,7 +645,7 @@ public final class FoModifyPostingPu {
     public static final int PERSON_TYPE_ID_NULL_FIELD_NUMBER = 1003;
     private boolean personTypeIdNull_;
     /**
-     * <code>optional bool person_type_id_null = 1003;</code>
+     * <code>bool person_type_id_null = 1003;</code>
      */
     public boolean getPersonTypeIdNull() {
       return personTypeIdNull_;
@@ -654,19 +654,19 @@ public final class FoModifyPostingPu {
     public static final int UNIQUE_ID_FIELD_NUMBER = 4;
     private io.dstore.values.StringValue uniqueId_;
     /**
-     * <code>optional .dstore.values.StringValue unique_id = 4;</code>
+     * <code>.dstore.values.StringValue unique_id = 4;</code>
      */
     public boolean hasUniqueId() {
       return uniqueId_ != null;
     }
     /**
-     * <code>optional .dstore.values.StringValue unique_id = 4;</code>
+     * <code>.dstore.values.StringValue unique_id = 4;</code>
      */
     public io.dstore.values.StringValue getUniqueId() {
       return uniqueId_ == null ? io.dstore.values.StringValue.getDefaultInstance() : uniqueId_;
     }
     /**
-     * <code>optional .dstore.values.StringValue unique_id = 4;</code>
+     * <code>.dstore.values.StringValue unique_id = 4;</code>
      */
     public io.dstore.values.StringValueOrBuilder getUniqueIdOrBuilder() {
       return getUniqueId();
@@ -675,7 +675,7 @@ public final class FoModifyPostingPu {
     public static final int UNIQUE_ID_NULL_FIELD_NUMBER = 1004;
     private boolean uniqueIdNull_;
     /**
-     * <code>optional bool unique_id_null = 1004;</code>
+     * <code>bool unique_id_null = 1004;</code>
      */
     public boolean getUniqueIdNull() {
       return uniqueIdNull_;
@@ -684,19 +684,19 @@ public final class FoModifyPostingPu {
     public static final int POSTING_ID_FIELD_NUMBER = 5;
     private io.dstore.values.IntegerValue postingId_;
     /**
-     * <code>optional .dstore.values.IntegerValue posting_id = 5;</code>
+     * <code>.dstore.values.IntegerValue posting_id = 5;</code>
      */
     public boolean hasPostingId() {
       return postingId_ != null;
     }
     /**
-     * <code>optional .dstore.values.IntegerValue posting_id = 5;</code>
+     * <code>.dstore.values.IntegerValue posting_id = 5;</code>
      */
     public io.dstore.values.IntegerValue getPostingId() {
       return postingId_ == null ? io.dstore.values.IntegerValue.getDefaultInstance() : postingId_;
     }
     /**
-     * <code>optional .dstore.values.IntegerValue posting_id = 5;</code>
+     * <code>.dstore.values.IntegerValue posting_id = 5;</code>
      */
     public io.dstore.values.IntegerValueOrBuilder getPostingIdOrBuilder() {
       return getPostingId();
@@ -705,7 +705,7 @@ public final class FoModifyPostingPu {
     public static final int POSTING_ID_NULL_FIELD_NUMBER = 1005;
     private boolean postingIdNull_;
     /**
-     * <code>optional bool posting_id_null = 1005;</code>
+     * <code>bool posting_id_null = 1005;</code>
      */
     public boolean getPostingIdNull() {
       return postingIdNull_;
@@ -714,19 +714,19 @@ public final class FoModifyPostingPu {
     public static final int NEW_AUTHOR_FIELD_NUMBER = 6;
     private io.dstore.values.StringValue newAuthor_;
     /**
-     * <code>optional .dstore.values.StringValue new_author = 6;</code>
+     * <code>.dstore.values.StringValue new_author = 6;</code>
      */
     public boolean hasNewAuthor() {
       return newAuthor_ != null;
     }
     /**
-     * <code>optional .dstore.values.StringValue new_author = 6;</code>
+     * <code>.dstore.values.StringValue new_author = 6;</code>
      */
     public io.dstore.values.StringValue getNewAuthor() {
       return newAuthor_ == null ? io.dstore.values.StringValue.getDefaultInstance() : newAuthor_;
     }
     /**
-     * <code>optional .dstore.values.StringValue new_author = 6;</code>
+     * <code>.dstore.values.StringValue new_author = 6;</code>
      */
     public io.dstore.values.StringValueOrBuilder getNewAuthorOrBuilder() {
       return getNewAuthor();
@@ -735,7 +735,7 @@ public final class FoModifyPostingPu {
     public static final int NEW_AUTHOR_NULL_FIELD_NUMBER = 1006;
     private boolean newAuthorNull_;
     /**
-     * <code>optional bool new_author_null = 1006;</code>
+     * <code>bool new_author_null = 1006;</code>
      */
     public boolean getNewAuthorNull() {
       return newAuthorNull_;
@@ -744,19 +744,19 @@ public final class FoModifyPostingPu {
     public static final int NEW_E_MAIL_OF_AUTHOR_FIELD_NUMBER = 7;
     private io.dstore.values.StringValue newEMailOfAuthor_;
     /**
-     * <code>optional .dstore.values.StringValue new_e_mail_of_author = 7;</code>
+     * <code>.dstore.values.StringValue new_e_mail_of_author = 7;</code>
      */
     public boolean hasNewEMailOfAuthor() {
       return newEMailOfAuthor_ != null;
     }
     /**
-     * <code>optional .dstore.values.StringValue new_e_mail_of_author = 7;</code>
+     * <code>.dstore.values.StringValue new_e_mail_of_author = 7;</code>
      */
     public io.dstore.values.StringValue getNewEMailOfAuthor() {
       return newEMailOfAuthor_ == null ? io.dstore.values.StringValue.getDefaultInstance() : newEMailOfAuthor_;
     }
     /**
-     * <code>optional .dstore.values.StringValue new_e_mail_of_author = 7;</code>
+     * <code>.dstore.values.StringValue new_e_mail_of_author = 7;</code>
      */
     public io.dstore.values.StringValueOrBuilder getNewEMailOfAuthorOrBuilder() {
       return getNewEMailOfAuthor();
@@ -765,7 +765,7 @@ public final class FoModifyPostingPu {
     public static final int NEW_E_MAIL_OF_AUTHOR_NULL_FIELD_NUMBER = 1007;
     private boolean newEMailOfAuthorNull_;
     /**
-     * <code>optional bool new_e_mail_of_author_null = 1007;</code>
+     * <code>bool new_e_mail_of_author_null = 1007;</code>
      */
     public boolean getNewEMailOfAuthorNull() {
       return newEMailOfAuthorNull_;
@@ -774,19 +774,19 @@ public final class FoModifyPostingPu {
     public static final int NEW_SUBJECT_FIELD_NUMBER = 8;
     private io.dstore.values.StringValue newSubject_;
     /**
-     * <code>optional .dstore.values.StringValue new_subject = 8;</code>
+     * <code>.dstore.values.StringValue new_subject = 8;</code>
      */
     public boolean hasNewSubject() {
       return newSubject_ != null;
     }
     /**
-     * <code>optional .dstore.values.StringValue new_subject = 8;</code>
+     * <code>.dstore.values.StringValue new_subject = 8;</code>
      */
     public io.dstore.values.StringValue getNewSubject() {
       return newSubject_ == null ? io.dstore.values.StringValue.getDefaultInstance() : newSubject_;
     }
     /**
-     * <code>optional .dstore.values.StringValue new_subject = 8;</code>
+     * <code>.dstore.values.StringValue new_subject = 8;</code>
      */
     public io.dstore.values.StringValueOrBuilder getNewSubjectOrBuilder() {
       return getNewSubject();
@@ -795,7 +795,7 @@ public final class FoModifyPostingPu {
     public static final int NEW_SUBJECT_NULL_FIELD_NUMBER = 1008;
     private boolean newSubjectNull_;
     /**
-     * <code>optional bool new_subject_null = 1008;</code>
+     * <code>bool new_subject_null = 1008;</code>
      */
     public boolean getNewSubjectNull() {
       return newSubjectNull_;
@@ -804,19 +804,19 @@ public final class FoModifyPostingPu {
     public static final int MAINTAIN_SEARCH_POSTINGS_FIELD_NUMBER = 9;
     private io.dstore.values.BooleanValue maintainSearchPostings_;
     /**
-     * <code>optional .dstore.values.BooleanValue maintain_search_postings = 9;</code>
+     * <code>.dstore.values.BooleanValue maintain_search_postings = 9;</code>
      */
     public boolean hasMaintainSearchPostings() {
       return maintainSearchPostings_ != null;
     }
     /**
-     * <code>optional .dstore.values.BooleanValue maintain_search_postings = 9;</code>
+     * <code>.dstore.values.BooleanValue maintain_search_postings = 9;</code>
      */
     public io.dstore.values.BooleanValue getMaintainSearchPostings() {
       return maintainSearchPostings_ == null ? io.dstore.values.BooleanValue.getDefaultInstance() : maintainSearchPostings_;
     }
     /**
-     * <code>optional .dstore.values.BooleanValue maintain_search_postings = 9;</code>
+     * <code>.dstore.values.BooleanValue maintain_search_postings = 9;</code>
      */
     public io.dstore.values.BooleanValueOrBuilder getMaintainSearchPostingsOrBuilder() {
       return getMaintainSearchPostings();
@@ -825,7 +825,7 @@ public final class FoModifyPostingPu {
     public static final int MAINTAIN_SEARCH_POSTINGS_NULL_FIELD_NUMBER = 1009;
     private boolean maintainSearchPostingsNull_;
     /**
-     * <code>optional bool maintain_search_postings_null = 1009;</code>
+     * <code>bool maintain_search_postings_null = 1009;</code>
      */
     public boolean getMaintainSearchPostingsNull() {
       return maintainSearchPostingsNull_;
@@ -834,19 +834,19 @@ public final class FoModifyPostingPu {
     public static final int KEEP_OLD_AUTHOR_FIELD_NUMBER = 10;
     private io.dstore.values.BooleanValue keepOldAuthor_;
     /**
-     * <code>optional .dstore.values.BooleanValue keep_old_author = 10;</code>
+     * <code>.dstore.values.BooleanValue keep_old_author = 10;</code>
      */
     public boolean hasKeepOldAuthor() {
       return keepOldAuthor_ != null;
     }
     /**
-     * <code>optional .dstore.values.BooleanValue keep_old_author = 10;</code>
+     * <code>.dstore.values.BooleanValue keep_old_author = 10;</code>
      */
     public io.dstore.values.BooleanValue getKeepOldAuthor() {
       return keepOldAuthor_ == null ? io.dstore.values.BooleanValue.getDefaultInstance() : keepOldAuthor_;
     }
     /**
-     * <code>optional .dstore.values.BooleanValue keep_old_author = 10;</code>
+     * <code>.dstore.values.BooleanValue keep_old_author = 10;</code>
      */
     public io.dstore.values.BooleanValueOrBuilder getKeepOldAuthorOrBuilder() {
       return getKeepOldAuthor();
@@ -855,7 +855,7 @@ public final class FoModifyPostingPu {
     public static final int KEEP_OLD_AUTHOR_NULL_FIELD_NUMBER = 1010;
     private boolean keepOldAuthorNull_;
     /**
-     * <code>optional bool keep_old_author_null = 1010;</code>
+     * <code>bool keep_old_author_null = 1010;</code>
      */
     public boolean getKeepOldAuthorNull() {
       return keepOldAuthorNull_;
@@ -864,19 +864,19 @@ public final class FoModifyPostingPu {
     public static final int SAVE_POSTING_PROPERTIES_FIELD_NUMBER = 11;
     private io.dstore.values.IntegerValue savePostingProperties_;
     /**
-     * <code>optional .dstore.values.IntegerValue save_posting_properties = 11;</code>
+     * <code>.dstore.values.IntegerValue save_posting_properties = 11;</code>
      */
     public boolean hasSavePostingProperties() {
       return savePostingProperties_ != null;
     }
     /**
-     * <code>optional .dstore.values.IntegerValue save_posting_properties = 11;</code>
+     * <code>.dstore.values.IntegerValue save_posting_properties = 11;</code>
      */
     public io.dstore.values.IntegerValue getSavePostingProperties() {
       return savePostingProperties_ == null ? io.dstore.values.IntegerValue.getDefaultInstance() : savePostingProperties_;
     }
     /**
-     * <code>optional .dstore.values.IntegerValue save_posting_properties = 11;</code>
+     * <code>.dstore.values.IntegerValue save_posting_properties = 11;</code>
      */
     public io.dstore.values.IntegerValueOrBuilder getSavePostingPropertiesOrBuilder() {
       return getSavePostingProperties();
@@ -885,7 +885,7 @@ public final class FoModifyPostingPu {
     public static final int SAVE_POSTING_PROPERTIES_NULL_FIELD_NUMBER = 1011;
     private boolean savePostingPropertiesNull_;
     /**
-     * <code>optional bool save_posting_properties_null = 1011;</code>
+     * <code>bool save_posting_properties_null = 1011;</code>
      */
     public boolean getSavePostingPropertiesNull() {
       return savePostingPropertiesNull_;
@@ -894,19 +894,19 @@ public final class FoModifyPostingPu {
     public static final int COUNTRY_FIELD_NUMBER = 12;
     private io.dstore.values.StringValue country_;
     /**
-     * <code>optional .dstore.values.StringValue country = 12;</code>
+     * <code>.dstore.values.StringValue country = 12;</code>
      */
     public boolean hasCountry() {
       return country_ != null;
     }
     /**
-     * <code>optional .dstore.values.StringValue country = 12;</code>
+     * <code>.dstore.values.StringValue country = 12;</code>
      */
     public io.dstore.values.StringValue getCountry() {
       return country_ == null ? io.dstore.values.StringValue.getDefaultInstance() : country_;
     }
     /**
-     * <code>optional .dstore.values.StringValue country = 12;</code>
+     * <code>.dstore.values.StringValue country = 12;</code>
      */
     public io.dstore.values.StringValueOrBuilder getCountryOrBuilder() {
       return getCountry();
@@ -915,7 +915,7 @@ public final class FoModifyPostingPu {
     public static final int COUNTRY_NULL_FIELD_NUMBER = 1012;
     private boolean countryNull_;
     /**
-     * <code>optional bool country_null = 1012;</code>
+     * <code>bool country_null = 1012;</code>
      */
     public boolean getCountryNull() {
       return countryNull_;
@@ -924,19 +924,19 @@ public final class FoModifyPostingPu {
     public static final int SEPARATOR_IN_IDENT_VALS_FIELD_NUMBER = 13;
     private io.dstore.values.StringValue separatorInIdentVals_;
     /**
-     * <code>optional .dstore.values.StringValue separator_in_ident_vals = 13;</code>
+     * <code>.dstore.values.StringValue separator_in_ident_vals = 13;</code>
      */
     public boolean hasSeparatorInIdentVals() {
       return separatorInIdentVals_ != null;
     }
     /**
-     * <code>optional .dstore.values.StringValue separator_in_ident_vals = 13;</code>
+     * <code>.dstore.values.StringValue separator_in_ident_vals = 13;</code>
      */
     public io.dstore.values.StringValue getSeparatorInIdentVals() {
       return separatorInIdentVals_ == null ? io.dstore.values.StringValue.getDefaultInstance() : separatorInIdentVals_;
     }
     /**
-     * <code>optional .dstore.values.StringValue separator_in_ident_vals = 13;</code>
+     * <code>.dstore.values.StringValue separator_in_ident_vals = 13;</code>
      */
     public io.dstore.values.StringValueOrBuilder getSeparatorInIdentValsOrBuilder() {
       return getSeparatorInIdentVals();
@@ -945,7 +945,7 @@ public final class FoModifyPostingPu {
     public static final int SEPARATOR_IN_IDENT_VALS_NULL_FIELD_NUMBER = 1013;
     private boolean separatorInIdentValsNull_;
     /**
-     * <code>optional bool separator_in_ident_vals_null = 1013;</code>
+     * <code>bool separator_in_ident_vals_null = 1013;</code>
      */
     public boolean getSeparatorInIdentValsNull() {
       return separatorInIdentValsNull_;
@@ -1268,7 +1268,7 @@ public final class FoModifyPostingPu {
         return memoizedHashCode;
       }
       int hash = 41;
-      hash = (19 * hash) + getDescriptorForType().hashCode();
+      hash = (19 * hash) + getDescriptor().hashCode();
       if (hasResult()) {
         hash = (37 * hash) + RESULT_FIELD_NUMBER;
         hash = (53 * hash) + getResult().hashCode();
@@ -1831,13 +1831,13 @@ public final class FoModifyPostingPu {
       private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> resultBuilder_;
       /**
-       * <code>optional .dstore.values.IntegerValue result = 1;</code>
+       * <code>.dstore.values.IntegerValue result = 1;</code>
        */
       public boolean hasResult() {
         return resultBuilder_ != null || result_ != null;
       }
       /**
-       * <code>optional .dstore.values.IntegerValue result = 1;</code>
+       * <code>.dstore.values.IntegerValue result = 1;</code>
        */
       public io.dstore.values.IntegerValue getResult() {
         if (resultBuilder_ == null) {
@@ -1847,7 +1847,7 @@ public final class FoModifyPostingPu {
         }
       }
       /**
-       * <code>optional .dstore.values.IntegerValue result = 1;</code>
+       * <code>.dstore.values.IntegerValue result = 1;</code>
        */
       public Builder setResult(io.dstore.values.IntegerValue value) {
         if (resultBuilder_ == null) {
@@ -1863,7 +1863,7 @@ public final class FoModifyPostingPu {
         return this;
       }
       /**
-       * <code>optional .dstore.values.IntegerValue result = 1;</code>
+       * <code>.dstore.values.IntegerValue result = 1;</code>
        */
       public Builder setResult(
           io.dstore.values.IntegerValue.Builder builderForValue) {
@@ -1877,7 +1877,7 @@ public final class FoModifyPostingPu {
         return this;
       }
       /**
-       * <code>optional .dstore.values.IntegerValue result = 1;</code>
+       * <code>.dstore.values.IntegerValue result = 1;</code>
        */
       public Builder mergeResult(io.dstore.values.IntegerValue value) {
         if (resultBuilder_ == null) {
@@ -1895,7 +1895,7 @@ public final class FoModifyPostingPu {
         return this;
       }
       /**
-       * <code>optional .dstore.values.IntegerValue result = 1;</code>
+       * <code>.dstore.values.IntegerValue result = 1;</code>
        */
       public Builder clearResult() {
         if (resultBuilder_ == null) {
@@ -1909,7 +1909,7 @@ public final class FoModifyPostingPu {
         return this;
       }
       /**
-       * <code>optional .dstore.values.IntegerValue result = 1;</code>
+       * <code>.dstore.values.IntegerValue result = 1;</code>
        */
       public io.dstore.values.IntegerValue.Builder getResultBuilder() {
         
@@ -1917,7 +1917,7 @@ public final class FoModifyPostingPu {
         return getResultFieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .dstore.values.IntegerValue result = 1;</code>
+       * <code>.dstore.values.IntegerValue result = 1;</code>
        */
       public io.dstore.values.IntegerValueOrBuilder getResultOrBuilder() {
         if (resultBuilder_ != null) {
@@ -1928,7 +1928,7 @@ public final class FoModifyPostingPu {
         }
       }
       /**
-       * <code>optional .dstore.values.IntegerValue result = 1;</code>
+       * <code>.dstore.values.IntegerValue result = 1;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> 
@@ -1946,13 +1946,13 @@ public final class FoModifyPostingPu {
 
       private boolean resultNull_ ;
       /**
-       * <code>optional bool result_null = 1001;</code>
+       * <code>bool result_null = 1001;</code>
        */
       public boolean getResultNull() {
         return resultNull_;
       }
       /**
-       * <code>optional bool result_null = 1001;</code>
+       * <code>bool result_null = 1001;</code>
        */
       public Builder setResultNull(boolean value) {
         
@@ -1961,7 +1961,7 @@ public final class FoModifyPostingPu {
         return this;
       }
       /**
-       * <code>optional bool result_null = 1001;</code>
+       * <code>bool result_null = 1001;</code>
        */
       public Builder clearResultNull() {
         
@@ -1974,13 +1974,13 @@ public final class FoModifyPostingPu {
       private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.values.StringValue, io.dstore.values.StringValue.Builder, io.dstore.values.StringValueOrBuilder> personIdentificationValuesBuilder_;
       /**
-       * <code>optional .dstore.values.StringValue person_identification_values = 2;</code>
+       * <code>.dstore.values.StringValue person_identification_values = 2;</code>
        */
       public boolean hasPersonIdentificationValues() {
         return personIdentificationValuesBuilder_ != null || personIdentificationValues_ != null;
       }
       /**
-       * <code>optional .dstore.values.StringValue person_identification_values = 2;</code>
+       * <code>.dstore.values.StringValue person_identification_values = 2;</code>
        */
       public io.dstore.values.StringValue getPersonIdentificationValues() {
         if (personIdentificationValuesBuilder_ == null) {
@@ -1990,7 +1990,7 @@ public final class FoModifyPostingPu {
         }
       }
       /**
-       * <code>optional .dstore.values.StringValue person_identification_values = 2;</code>
+       * <code>.dstore.values.StringValue person_identification_values = 2;</code>
        */
       public Builder setPersonIdentificationValues(io.dstore.values.StringValue value) {
         if (personIdentificationValuesBuilder_ == null) {
@@ -2006,7 +2006,7 @@ public final class FoModifyPostingPu {
         return this;
       }
       /**
-       * <code>optional .dstore.values.StringValue person_identification_values = 2;</code>
+       * <code>.dstore.values.StringValue person_identification_values = 2;</code>
        */
       public Builder setPersonIdentificationValues(
           io.dstore.values.StringValue.Builder builderForValue) {
@@ -2020,7 +2020,7 @@ public final class FoModifyPostingPu {
         return this;
       }
       /**
-       * <code>optional .dstore.values.StringValue person_identification_values = 2;</code>
+       * <code>.dstore.values.StringValue person_identification_values = 2;</code>
        */
       public Builder mergePersonIdentificationValues(io.dstore.values.StringValue value) {
         if (personIdentificationValuesBuilder_ == null) {
@@ -2038,7 +2038,7 @@ public final class FoModifyPostingPu {
         return this;
       }
       /**
-       * <code>optional .dstore.values.StringValue person_identification_values = 2;</code>
+       * <code>.dstore.values.StringValue person_identification_values = 2;</code>
        */
       public Builder clearPersonIdentificationValues() {
         if (personIdentificationValuesBuilder_ == null) {
@@ -2052,7 +2052,7 @@ public final class FoModifyPostingPu {
         return this;
       }
       /**
-       * <code>optional .dstore.values.StringValue person_identification_values = 2;</code>
+       * <code>.dstore.values.StringValue person_identification_values = 2;</code>
        */
       public io.dstore.values.StringValue.Builder getPersonIdentificationValuesBuilder() {
         
@@ -2060,7 +2060,7 @@ public final class FoModifyPostingPu {
         return getPersonIdentificationValuesFieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .dstore.values.StringValue person_identification_values = 2;</code>
+       * <code>.dstore.values.StringValue person_identification_values = 2;</code>
        */
       public io.dstore.values.StringValueOrBuilder getPersonIdentificationValuesOrBuilder() {
         if (personIdentificationValuesBuilder_ != null) {
@@ -2071,7 +2071,7 @@ public final class FoModifyPostingPu {
         }
       }
       /**
-       * <code>optional .dstore.values.StringValue person_identification_values = 2;</code>
+       * <code>.dstore.values.StringValue person_identification_values = 2;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.values.StringValue, io.dstore.values.StringValue.Builder, io.dstore.values.StringValueOrBuilder> 
@@ -2089,13 +2089,13 @@ public final class FoModifyPostingPu {
 
       private boolean personIdentificationValuesNull_ ;
       /**
-       * <code>optional bool person_identification_values_null = 1002;</code>
+       * <code>bool person_identification_values_null = 1002;</code>
        */
       public boolean getPersonIdentificationValuesNull() {
         return personIdentificationValuesNull_;
       }
       /**
-       * <code>optional bool person_identification_values_null = 1002;</code>
+       * <code>bool person_identification_values_null = 1002;</code>
        */
       public Builder setPersonIdentificationValuesNull(boolean value) {
         
@@ -2104,7 +2104,7 @@ public final class FoModifyPostingPu {
         return this;
       }
       /**
-       * <code>optional bool person_identification_values_null = 1002;</code>
+       * <code>bool person_identification_values_null = 1002;</code>
        */
       public Builder clearPersonIdentificationValuesNull() {
         
@@ -2117,13 +2117,13 @@ public final class FoModifyPostingPu {
       private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> personTypeIdBuilder_;
       /**
-       * <code>optional .dstore.values.IntegerValue person_type_id = 3;</code>
+       * <code>.dstore.values.IntegerValue person_type_id = 3;</code>
        */
       public boolean hasPersonTypeId() {
         return personTypeIdBuilder_ != null || personTypeId_ != null;
       }
       /**
-       * <code>optional .dstore.values.IntegerValue person_type_id = 3;</code>
+       * <code>.dstore.values.IntegerValue person_type_id = 3;</code>
        */
       public io.dstore.values.IntegerValue getPersonTypeId() {
         if (personTypeIdBuilder_ == null) {
@@ -2133,7 +2133,7 @@ public final class FoModifyPostingPu {
         }
       }
       /**
-       * <code>optional .dstore.values.IntegerValue person_type_id = 3;</code>
+       * <code>.dstore.values.IntegerValue person_type_id = 3;</code>
        */
       public Builder setPersonTypeId(io.dstore.values.IntegerValue value) {
         if (personTypeIdBuilder_ == null) {
@@ -2149,7 +2149,7 @@ public final class FoModifyPostingPu {
         return this;
       }
       /**
-       * <code>optional .dstore.values.IntegerValue person_type_id = 3;</code>
+       * <code>.dstore.values.IntegerValue person_type_id = 3;</code>
        */
       public Builder setPersonTypeId(
           io.dstore.values.IntegerValue.Builder builderForValue) {
@@ -2163,7 +2163,7 @@ public final class FoModifyPostingPu {
         return this;
       }
       /**
-       * <code>optional .dstore.values.IntegerValue person_type_id = 3;</code>
+       * <code>.dstore.values.IntegerValue person_type_id = 3;</code>
        */
       public Builder mergePersonTypeId(io.dstore.values.IntegerValue value) {
         if (personTypeIdBuilder_ == null) {
@@ -2181,7 +2181,7 @@ public final class FoModifyPostingPu {
         return this;
       }
       /**
-       * <code>optional .dstore.values.IntegerValue person_type_id = 3;</code>
+       * <code>.dstore.values.IntegerValue person_type_id = 3;</code>
        */
       public Builder clearPersonTypeId() {
         if (personTypeIdBuilder_ == null) {
@@ -2195,7 +2195,7 @@ public final class FoModifyPostingPu {
         return this;
       }
       /**
-       * <code>optional .dstore.values.IntegerValue person_type_id = 3;</code>
+       * <code>.dstore.values.IntegerValue person_type_id = 3;</code>
        */
       public io.dstore.values.IntegerValue.Builder getPersonTypeIdBuilder() {
         
@@ -2203,7 +2203,7 @@ public final class FoModifyPostingPu {
         return getPersonTypeIdFieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .dstore.values.IntegerValue person_type_id = 3;</code>
+       * <code>.dstore.values.IntegerValue person_type_id = 3;</code>
        */
       public io.dstore.values.IntegerValueOrBuilder getPersonTypeIdOrBuilder() {
         if (personTypeIdBuilder_ != null) {
@@ -2214,7 +2214,7 @@ public final class FoModifyPostingPu {
         }
       }
       /**
-       * <code>optional .dstore.values.IntegerValue person_type_id = 3;</code>
+       * <code>.dstore.values.IntegerValue person_type_id = 3;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> 
@@ -2232,13 +2232,13 @@ public final class FoModifyPostingPu {
 
       private boolean personTypeIdNull_ ;
       /**
-       * <code>optional bool person_type_id_null = 1003;</code>
+       * <code>bool person_type_id_null = 1003;</code>
        */
       public boolean getPersonTypeIdNull() {
         return personTypeIdNull_;
       }
       /**
-       * <code>optional bool person_type_id_null = 1003;</code>
+       * <code>bool person_type_id_null = 1003;</code>
        */
       public Builder setPersonTypeIdNull(boolean value) {
         
@@ -2247,7 +2247,7 @@ public final class FoModifyPostingPu {
         return this;
       }
       /**
-       * <code>optional bool person_type_id_null = 1003;</code>
+       * <code>bool person_type_id_null = 1003;</code>
        */
       public Builder clearPersonTypeIdNull() {
         
@@ -2260,13 +2260,13 @@ public final class FoModifyPostingPu {
       private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.values.StringValue, io.dstore.values.StringValue.Builder, io.dstore.values.StringValueOrBuilder> uniqueIdBuilder_;
       /**
-       * <code>optional .dstore.values.StringValue unique_id = 4;</code>
+       * <code>.dstore.values.StringValue unique_id = 4;</code>
        */
       public boolean hasUniqueId() {
         return uniqueIdBuilder_ != null || uniqueId_ != null;
       }
       /**
-       * <code>optional .dstore.values.StringValue unique_id = 4;</code>
+       * <code>.dstore.values.StringValue unique_id = 4;</code>
        */
       public io.dstore.values.StringValue getUniqueId() {
         if (uniqueIdBuilder_ == null) {
@@ -2276,7 +2276,7 @@ public final class FoModifyPostingPu {
         }
       }
       /**
-       * <code>optional .dstore.values.StringValue unique_id = 4;</code>
+       * <code>.dstore.values.StringValue unique_id = 4;</code>
        */
       public Builder setUniqueId(io.dstore.values.StringValue value) {
         if (uniqueIdBuilder_ == null) {
@@ -2292,7 +2292,7 @@ public final class FoModifyPostingPu {
         return this;
       }
       /**
-       * <code>optional .dstore.values.StringValue unique_id = 4;</code>
+       * <code>.dstore.values.StringValue unique_id = 4;</code>
        */
       public Builder setUniqueId(
           io.dstore.values.StringValue.Builder builderForValue) {
@@ -2306,7 +2306,7 @@ public final class FoModifyPostingPu {
         return this;
       }
       /**
-       * <code>optional .dstore.values.StringValue unique_id = 4;</code>
+       * <code>.dstore.values.StringValue unique_id = 4;</code>
        */
       public Builder mergeUniqueId(io.dstore.values.StringValue value) {
         if (uniqueIdBuilder_ == null) {
@@ -2324,7 +2324,7 @@ public final class FoModifyPostingPu {
         return this;
       }
       /**
-       * <code>optional .dstore.values.StringValue unique_id = 4;</code>
+       * <code>.dstore.values.StringValue unique_id = 4;</code>
        */
       public Builder clearUniqueId() {
         if (uniqueIdBuilder_ == null) {
@@ -2338,7 +2338,7 @@ public final class FoModifyPostingPu {
         return this;
       }
       /**
-       * <code>optional .dstore.values.StringValue unique_id = 4;</code>
+       * <code>.dstore.values.StringValue unique_id = 4;</code>
        */
       public io.dstore.values.StringValue.Builder getUniqueIdBuilder() {
         
@@ -2346,7 +2346,7 @@ public final class FoModifyPostingPu {
         return getUniqueIdFieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .dstore.values.StringValue unique_id = 4;</code>
+       * <code>.dstore.values.StringValue unique_id = 4;</code>
        */
       public io.dstore.values.StringValueOrBuilder getUniqueIdOrBuilder() {
         if (uniqueIdBuilder_ != null) {
@@ -2357,7 +2357,7 @@ public final class FoModifyPostingPu {
         }
       }
       /**
-       * <code>optional .dstore.values.StringValue unique_id = 4;</code>
+       * <code>.dstore.values.StringValue unique_id = 4;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.values.StringValue, io.dstore.values.StringValue.Builder, io.dstore.values.StringValueOrBuilder> 
@@ -2375,13 +2375,13 @@ public final class FoModifyPostingPu {
 
       private boolean uniqueIdNull_ ;
       /**
-       * <code>optional bool unique_id_null = 1004;</code>
+       * <code>bool unique_id_null = 1004;</code>
        */
       public boolean getUniqueIdNull() {
         return uniqueIdNull_;
       }
       /**
-       * <code>optional bool unique_id_null = 1004;</code>
+       * <code>bool unique_id_null = 1004;</code>
        */
       public Builder setUniqueIdNull(boolean value) {
         
@@ -2390,7 +2390,7 @@ public final class FoModifyPostingPu {
         return this;
       }
       /**
-       * <code>optional bool unique_id_null = 1004;</code>
+       * <code>bool unique_id_null = 1004;</code>
        */
       public Builder clearUniqueIdNull() {
         
@@ -2403,13 +2403,13 @@ public final class FoModifyPostingPu {
       private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> postingIdBuilder_;
       /**
-       * <code>optional .dstore.values.IntegerValue posting_id = 5;</code>
+       * <code>.dstore.values.IntegerValue posting_id = 5;</code>
        */
       public boolean hasPostingId() {
         return postingIdBuilder_ != null || postingId_ != null;
       }
       /**
-       * <code>optional .dstore.values.IntegerValue posting_id = 5;</code>
+       * <code>.dstore.values.IntegerValue posting_id = 5;</code>
        */
       public io.dstore.values.IntegerValue getPostingId() {
         if (postingIdBuilder_ == null) {
@@ -2419,7 +2419,7 @@ public final class FoModifyPostingPu {
         }
       }
       /**
-       * <code>optional .dstore.values.IntegerValue posting_id = 5;</code>
+       * <code>.dstore.values.IntegerValue posting_id = 5;</code>
        */
       public Builder setPostingId(io.dstore.values.IntegerValue value) {
         if (postingIdBuilder_ == null) {
@@ -2435,7 +2435,7 @@ public final class FoModifyPostingPu {
         return this;
       }
       /**
-       * <code>optional .dstore.values.IntegerValue posting_id = 5;</code>
+       * <code>.dstore.values.IntegerValue posting_id = 5;</code>
        */
       public Builder setPostingId(
           io.dstore.values.IntegerValue.Builder builderForValue) {
@@ -2449,7 +2449,7 @@ public final class FoModifyPostingPu {
         return this;
       }
       /**
-       * <code>optional .dstore.values.IntegerValue posting_id = 5;</code>
+       * <code>.dstore.values.IntegerValue posting_id = 5;</code>
        */
       public Builder mergePostingId(io.dstore.values.IntegerValue value) {
         if (postingIdBuilder_ == null) {
@@ -2467,7 +2467,7 @@ public final class FoModifyPostingPu {
         return this;
       }
       /**
-       * <code>optional .dstore.values.IntegerValue posting_id = 5;</code>
+       * <code>.dstore.values.IntegerValue posting_id = 5;</code>
        */
       public Builder clearPostingId() {
         if (postingIdBuilder_ == null) {
@@ -2481,7 +2481,7 @@ public final class FoModifyPostingPu {
         return this;
       }
       /**
-       * <code>optional .dstore.values.IntegerValue posting_id = 5;</code>
+       * <code>.dstore.values.IntegerValue posting_id = 5;</code>
        */
       public io.dstore.values.IntegerValue.Builder getPostingIdBuilder() {
         
@@ -2489,7 +2489,7 @@ public final class FoModifyPostingPu {
         return getPostingIdFieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .dstore.values.IntegerValue posting_id = 5;</code>
+       * <code>.dstore.values.IntegerValue posting_id = 5;</code>
        */
       public io.dstore.values.IntegerValueOrBuilder getPostingIdOrBuilder() {
         if (postingIdBuilder_ != null) {
@@ -2500,7 +2500,7 @@ public final class FoModifyPostingPu {
         }
       }
       /**
-       * <code>optional .dstore.values.IntegerValue posting_id = 5;</code>
+       * <code>.dstore.values.IntegerValue posting_id = 5;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> 
@@ -2518,13 +2518,13 @@ public final class FoModifyPostingPu {
 
       private boolean postingIdNull_ ;
       /**
-       * <code>optional bool posting_id_null = 1005;</code>
+       * <code>bool posting_id_null = 1005;</code>
        */
       public boolean getPostingIdNull() {
         return postingIdNull_;
       }
       /**
-       * <code>optional bool posting_id_null = 1005;</code>
+       * <code>bool posting_id_null = 1005;</code>
        */
       public Builder setPostingIdNull(boolean value) {
         
@@ -2533,7 +2533,7 @@ public final class FoModifyPostingPu {
         return this;
       }
       /**
-       * <code>optional bool posting_id_null = 1005;</code>
+       * <code>bool posting_id_null = 1005;</code>
        */
       public Builder clearPostingIdNull() {
         
@@ -2546,13 +2546,13 @@ public final class FoModifyPostingPu {
       private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.values.StringValue, io.dstore.values.StringValue.Builder, io.dstore.values.StringValueOrBuilder> newAuthorBuilder_;
       /**
-       * <code>optional .dstore.values.StringValue new_author = 6;</code>
+       * <code>.dstore.values.StringValue new_author = 6;</code>
        */
       public boolean hasNewAuthor() {
         return newAuthorBuilder_ != null || newAuthor_ != null;
       }
       /**
-       * <code>optional .dstore.values.StringValue new_author = 6;</code>
+       * <code>.dstore.values.StringValue new_author = 6;</code>
        */
       public io.dstore.values.StringValue getNewAuthor() {
         if (newAuthorBuilder_ == null) {
@@ -2562,7 +2562,7 @@ public final class FoModifyPostingPu {
         }
       }
       /**
-       * <code>optional .dstore.values.StringValue new_author = 6;</code>
+       * <code>.dstore.values.StringValue new_author = 6;</code>
        */
       public Builder setNewAuthor(io.dstore.values.StringValue value) {
         if (newAuthorBuilder_ == null) {
@@ -2578,7 +2578,7 @@ public final class FoModifyPostingPu {
         return this;
       }
       /**
-       * <code>optional .dstore.values.StringValue new_author = 6;</code>
+       * <code>.dstore.values.StringValue new_author = 6;</code>
        */
       public Builder setNewAuthor(
           io.dstore.values.StringValue.Builder builderForValue) {
@@ -2592,7 +2592,7 @@ public final class FoModifyPostingPu {
         return this;
       }
       /**
-       * <code>optional .dstore.values.StringValue new_author = 6;</code>
+       * <code>.dstore.values.StringValue new_author = 6;</code>
        */
       public Builder mergeNewAuthor(io.dstore.values.StringValue value) {
         if (newAuthorBuilder_ == null) {
@@ -2610,7 +2610,7 @@ public final class FoModifyPostingPu {
         return this;
       }
       /**
-       * <code>optional .dstore.values.StringValue new_author = 6;</code>
+       * <code>.dstore.values.StringValue new_author = 6;</code>
        */
       public Builder clearNewAuthor() {
         if (newAuthorBuilder_ == null) {
@@ -2624,7 +2624,7 @@ public final class FoModifyPostingPu {
         return this;
       }
       /**
-       * <code>optional .dstore.values.StringValue new_author = 6;</code>
+       * <code>.dstore.values.StringValue new_author = 6;</code>
        */
       public io.dstore.values.StringValue.Builder getNewAuthorBuilder() {
         
@@ -2632,7 +2632,7 @@ public final class FoModifyPostingPu {
         return getNewAuthorFieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .dstore.values.StringValue new_author = 6;</code>
+       * <code>.dstore.values.StringValue new_author = 6;</code>
        */
       public io.dstore.values.StringValueOrBuilder getNewAuthorOrBuilder() {
         if (newAuthorBuilder_ != null) {
@@ -2643,7 +2643,7 @@ public final class FoModifyPostingPu {
         }
       }
       /**
-       * <code>optional .dstore.values.StringValue new_author = 6;</code>
+       * <code>.dstore.values.StringValue new_author = 6;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.values.StringValue, io.dstore.values.StringValue.Builder, io.dstore.values.StringValueOrBuilder> 
@@ -2661,13 +2661,13 @@ public final class FoModifyPostingPu {
 
       private boolean newAuthorNull_ ;
       /**
-       * <code>optional bool new_author_null = 1006;</code>
+       * <code>bool new_author_null = 1006;</code>
        */
       public boolean getNewAuthorNull() {
         return newAuthorNull_;
       }
       /**
-       * <code>optional bool new_author_null = 1006;</code>
+       * <code>bool new_author_null = 1006;</code>
        */
       public Builder setNewAuthorNull(boolean value) {
         
@@ -2676,7 +2676,7 @@ public final class FoModifyPostingPu {
         return this;
       }
       /**
-       * <code>optional bool new_author_null = 1006;</code>
+       * <code>bool new_author_null = 1006;</code>
        */
       public Builder clearNewAuthorNull() {
         
@@ -2689,13 +2689,13 @@ public final class FoModifyPostingPu {
       private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.values.StringValue, io.dstore.values.StringValue.Builder, io.dstore.values.StringValueOrBuilder> newEMailOfAuthorBuilder_;
       /**
-       * <code>optional .dstore.values.StringValue new_e_mail_of_author = 7;</code>
+       * <code>.dstore.values.StringValue new_e_mail_of_author = 7;</code>
        */
       public boolean hasNewEMailOfAuthor() {
         return newEMailOfAuthorBuilder_ != null || newEMailOfAuthor_ != null;
       }
       /**
-       * <code>optional .dstore.values.StringValue new_e_mail_of_author = 7;</code>
+       * <code>.dstore.values.StringValue new_e_mail_of_author = 7;</code>
        */
       public io.dstore.values.StringValue getNewEMailOfAuthor() {
         if (newEMailOfAuthorBuilder_ == null) {
@@ -2705,7 +2705,7 @@ public final class FoModifyPostingPu {
         }
       }
       /**
-       * <code>optional .dstore.values.StringValue new_e_mail_of_author = 7;</code>
+       * <code>.dstore.values.StringValue new_e_mail_of_author = 7;</code>
        */
       public Builder setNewEMailOfAuthor(io.dstore.values.StringValue value) {
         if (newEMailOfAuthorBuilder_ == null) {
@@ -2721,7 +2721,7 @@ public final class FoModifyPostingPu {
         return this;
       }
       /**
-       * <code>optional .dstore.values.StringValue new_e_mail_of_author = 7;</code>
+       * <code>.dstore.values.StringValue new_e_mail_of_author = 7;</code>
        */
       public Builder setNewEMailOfAuthor(
           io.dstore.values.StringValue.Builder builderForValue) {
@@ -2735,7 +2735,7 @@ public final class FoModifyPostingPu {
         return this;
       }
       /**
-       * <code>optional .dstore.values.StringValue new_e_mail_of_author = 7;</code>
+       * <code>.dstore.values.StringValue new_e_mail_of_author = 7;</code>
        */
       public Builder mergeNewEMailOfAuthor(io.dstore.values.StringValue value) {
         if (newEMailOfAuthorBuilder_ == null) {
@@ -2753,7 +2753,7 @@ public final class FoModifyPostingPu {
         return this;
       }
       /**
-       * <code>optional .dstore.values.StringValue new_e_mail_of_author = 7;</code>
+       * <code>.dstore.values.StringValue new_e_mail_of_author = 7;</code>
        */
       public Builder clearNewEMailOfAuthor() {
         if (newEMailOfAuthorBuilder_ == null) {
@@ -2767,7 +2767,7 @@ public final class FoModifyPostingPu {
         return this;
       }
       /**
-       * <code>optional .dstore.values.StringValue new_e_mail_of_author = 7;</code>
+       * <code>.dstore.values.StringValue new_e_mail_of_author = 7;</code>
        */
       public io.dstore.values.StringValue.Builder getNewEMailOfAuthorBuilder() {
         
@@ -2775,7 +2775,7 @@ public final class FoModifyPostingPu {
         return getNewEMailOfAuthorFieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .dstore.values.StringValue new_e_mail_of_author = 7;</code>
+       * <code>.dstore.values.StringValue new_e_mail_of_author = 7;</code>
        */
       public io.dstore.values.StringValueOrBuilder getNewEMailOfAuthorOrBuilder() {
         if (newEMailOfAuthorBuilder_ != null) {
@@ -2786,7 +2786,7 @@ public final class FoModifyPostingPu {
         }
       }
       /**
-       * <code>optional .dstore.values.StringValue new_e_mail_of_author = 7;</code>
+       * <code>.dstore.values.StringValue new_e_mail_of_author = 7;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.values.StringValue, io.dstore.values.StringValue.Builder, io.dstore.values.StringValueOrBuilder> 
@@ -2804,13 +2804,13 @@ public final class FoModifyPostingPu {
 
       private boolean newEMailOfAuthorNull_ ;
       /**
-       * <code>optional bool new_e_mail_of_author_null = 1007;</code>
+       * <code>bool new_e_mail_of_author_null = 1007;</code>
        */
       public boolean getNewEMailOfAuthorNull() {
         return newEMailOfAuthorNull_;
       }
       /**
-       * <code>optional bool new_e_mail_of_author_null = 1007;</code>
+       * <code>bool new_e_mail_of_author_null = 1007;</code>
        */
       public Builder setNewEMailOfAuthorNull(boolean value) {
         
@@ -2819,7 +2819,7 @@ public final class FoModifyPostingPu {
         return this;
       }
       /**
-       * <code>optional bool new_e_mail_of_author_null = 1007;</code>
+       * <code>bool new_e_mail_of_author_null = 1007;</code>
        */
       public Builder clearNewEMailOfAuthorNull() {
         
@@ -2832,13 +2832,13 @@ public final class FoModifyPostingPu {
       private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.values.StringValue, io.dstore.values.StringValue.Builder, io.dstore.values.StringValueOrBuilder> newSubjectBuilder_;
       /**
-       * <code>optional .dstore.values.StringValue new_subject = 8;</code>
+       * <code>.dstore.values.StringValue new_subject = 8;</code>
        */
       public boolean hasNewSubject() {
         return newSubjectBuilder_ != null || newSubject_ != null;
       }
       /**
-       * <code>optional .dstore.values.StringValue new_subject = 8;</code>
+       * <code>.dstore.values.StringValue new_subject = 8;</code>
        */
       public io.dstore.values.StringValue getNewSubject() {
         if (newSubjectBuilder_ == null) {
@@ -2848,7 +2848,7 @@ public final class FoModifyPostingPu {
         }
       }
       /**
-       * <code>optional .dstore.values.StringValue new_subject = 8;</code>
+       * <code>.dstore.values.StringValue new_subject = 8;</code>
        */
       public Builder setNewSubject(io.dstore.values.StringValue value) {
         if (newSubjectBuilder_ == null) {
@@ -2864,7 +2864,7 @@ public final class FoModifyPostingPu {
         return this;
       }
       /**
-       * <code>optional .dstore.values.StringValue new_subject = 8;</code>
+       * <code>.dstore.values.StringValue new_subject = 8;</code>
        */
       public Builder setNewSubject(
           io.dstore.values.StringValue.Builder builderForValue) {
@@ -2878,7 +2878,7 @@ public final class FoModifyPostingPu {
         return this;
       }
       /**
-       * <code>optional .dstore.values.StringValue new_subject = 8;</code>
+       * <code>.dstore.values.StringValue new_subject = 8;</code>
        */
       public Builder mergeNewSubject(io.dstore.values.StringValue value) {
         if (newSubjectBuilder_ == null) {
@@ -2896,7 +2896,7 @@ public final class FoModifyPostingPu {
         return this;
       }
       /**
-       * <code>optional .dstore.values.StringValue new_subject = 8;</code>
+       * <code>.dstore.values.StringValue new_subject = 8;</code>
        */
       public Builder clearNewSubject() {
         if (newSubjectBuilder_ == null) {
@@ -2910,7 +2910,7 @@ public final class FoModifyPostingPu {
         return this;
       }
       /**
-       * <code>optional .dstore.values.StringValue new_subject = 8;</code>
+       * <code>.dstore.values.StringValue new_subject = 8;</code>
        */
       public io.dstore.values.StringValue.Builder getNewSubjectBuilder() {
         
@@ -2918,7 +2918,7 @@ public final class FoModifyPostingPu {
         return getNewSubjectFieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .dstore.values.StringValue new_subject = 8;</code>
+       * <code>.dstore.values.StringValue new_subject = 8;</code>
        */
       public io.dstore.values.StringValueOrBuilder getNewSubjectOrBuilder() {
         if (newSubjectBuilder_ != null) {
@@ -2929,7 +2929,7 @@ public final class FoModifyPostingPu {
         }
       }
       /**
-       * <code>optional .dstore.values.StringValue new_subject = 8;</code>
+       * <code>.dstore.values.StringValue new_subject = 8;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.values.StringValue, io.dstore.values.StringValue.Builder, io.dstore.values.StringValueOrBuilder> 
@@ -2947,13 +2947,13 @@ public final class FoModifyPostingPu {
 
       private boolean newSubjectNull_ ;
       /**
-       * <code>optional bool new_subject_null = 1008;</code>
+       * <code>bool new_subject_null = 1008;</code>
        */
       public boolean getNewSubjectNull() {
         return newSubjectNull_;
       }
       /**
-       * <code>optional bool new_subject_null = 1008;</code>
+       * <code>bool new_subject_null = 1008;</code>
        */
       public Builder setNewSubjectNull(boolean value) {
         
@@ -2962,7 +2962,7 @@ public final class FoModifyPostingPu {
         return this;
       }
       /**
-       * <code>optional bool new_subject_null = 1008;</code>
+       * <code>bool new_subject_null = 1008;</code>
        */
       public Builder clearNewSubjectNull() {
         
@@ -2975,13 +2975,13 @@ public final class FoModifyPostingPu {
       private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.values.BooleanValue, io.dstore.values.BooleanValue.Builder, io.dstore.values.BooleanValueOrBuilder> maintainSearchPostingsBuilder_;
       /**
-       * <code>optional .dstore.values.BooleanValue maintain_search_postings = 9;</code>
+       * <code>.dstore.values.BooleanValue maintain_search_postings = 9;</code>
        */
       public boolean hasMaintainSearchPostings() {
         return maintainSearchPostingsBuilder_ != null || maintainSearchPostings_ != null;
       }
       /**
-       * <code>optional .dstore.values.BooleanValue maintain_search_postings = 9;</code>
+       * <code>.dstore.values.BooleanValue maintain_search_postings = 9;</code>
        */
       public io.dstore.values.BooleanValue getMaintainSearchPostings() {
         if (maintainSearchPostingsBuilder_ == null) {
@@ -2991,7 +2991,7 @@ public final class FoModifyPostingPu {
         }
       }
       /**
-       * <code>optional .dstore.values.BooleanValue maintain_search_postings = 9;</code>
+       * <code>.dstore.values.BooleanValue maintain_search_postings = 9;</code>
        */
       public Builder setMaintainSearchPostings(io.dstore.values.BooleanValue value) {
         if (maintainSearchPostingsBuilder_ == null) {
@@ -3007,7 +3007,7 @@ public final class FoModifyPostingPu {
         return this;
       }
       /**
-       * <code>optional .dstore.values.BooleanValue maintain_search_postings = 9;</code>
+       * <code>.dstore.values.BooleanValue maintain_search_postings = 9;</code>
        */
       public Builder setMaintainSearchPostings(
           io.dstore.values.BooleanValue.Builder builderForValue) {
@@ -3021,7 +3021,7 @@ public final class FoModifyPostingPu {
         return this;
       }
       /**
-       * <code>optional .dstore.values.BooleanValue maintain_search_postings = 9;</code>
+       * <code>.dstore.values.BooleanValue maintain_search_postings = 9;</code>
        */
       public Builder mergeMaintainSearchPostings(io.dstore.values.BooleanValue value) {
         if (maintainSearchPostingsBuilder_ == null) {
@@ -3039,7 +3039,7 @@ public final class FoModifyPostingPu {
         return this;
       }
       /**
-       * <code>optional .dstore.values.BooleanValue maintain_search_postings = 9;</code>
+       * <code>.dstore.values.BooleanValue maintain_search_postings = 9;</code>
        */
       public Builder clearMaintainSearchPostings() {
         if (maintainSearchPostingsBuilder_ == null) {
@@ -3053,7 +3053,7 @@ public final class FoModifyPostingPu {
         return this;
       }
       /**
-       * <code>optional .dstore.values.BooleanValue maintain_search_postings = 9;</code>
+       * <code>.dstore.values.BooleanValue maintain_search_postings = 9;</code>
        */
       public io.dstore.values.BooleanValue.Builder getMaintainSearchPostingsBuilder() {
         
@@ -3061,7 +3061,7 @@ public final class FoModifyPostingPu {
         return getMaintainSearchPostingsFieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .dstore.values.BooleanValue maintain_search_postings = 9;</code>
+       * <code>.dstore.values.BooleanValue maintain_search_postings = 9;</code>
        */
       public io.dstore.values.BooleanValueOrBuilder getMaintainSearchPostingsOrBuilder() {
         if (maintainSearchPostingsBuilder_ != null) {
@@ -3072,7 +3072,7 @@ public final class FoModifyPostingPu {
         }
       }
       /**
-       * <code>optional .dstore.values.BooleanValue maintain_search_postings = 9;</code>
+       * <code>.dstore.values.BooleanValue maintain_search_postings = 9;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.values.BooleanValue, io.dstore.values.BooleanValue.Builder, io.dstore.values.BooleanValueOrBuilder> 
@@ -3090,13 +3090,13 @@ public final class FoModifyPostingPu {
 
       private boolean maintainSearchPostingsNull_ ;
       /**
-       * <code>optional bool maintain_search_postings_null = 1009;</code>
+       * <code>bool maintain_search_postings_null = 1009;</code>
        */
       public boolean getMaintainSearchPostingsNull() {
         return maintainSearchPostingsNull_;
       }
       /**
-       * <code>optional bool maintain_search_postings_null = 1009;</code>
+       * <code>bool maintain_search_postings_null = 1009;</code>
        */
       public Builder setMaintainSearchPostingsNull(boolean value) {
         
@@ -3105,7 +3105,7 @@ public final class FoModifyPostingPu {
         return this;
       }
       /**
-       * <code>optional bool maintain_search_postings_null = 1009;</code>
+       * <code>bool maintain_search_postings_null = 1009;</code>
        */
       public Builder clearMaintainSearchPostingsNull() {
         
@@ -3118,13 +3118,13 @@ public final class FoModifyPostingPu {
       private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.values.BooleanValue, io.dstore.values.BooleanValue.Builder, io.dstore.values.BooleanValueOrBuilder> keepOldAuthorBuilder_;
       /**
-       * <code>optional .dstore.values.BooleanValue keep_old_author = 10;</code>
+       * <code>.dstore.values.BooleanValue keep_old_author = 10;</code>
        */
       public boolean hasKeepOldAuthor() {
         return keepOldAuthorBuilder_ != null || keepOldAuthor_ != null;
       }
       /**
-       * <code>optional .dstore.values.BooleanValue keep_old_author = 10;</code>
+       * <code>.dstore.values.BooleanValue keep_old_author = 10;</code>
        */
       public io.dstore.values.BooleanValue getKeepOldAuthor() {
         if (keepOldAuthorBuilder_ == null) {
@@ -3134,7 +3134,7 @@ public final class FoModifyPostingPu {
         }
       }
       /**
-       * <code>optional .dstore.values.BooleanValue keep_old_author = 10;</code>
+       * <code>.dstore.values.BooleanValue keep_old_author = 10;</code>
        */
       public Builder setKeepOldAuthor(io.dstore.values.BooleanValue value) {
         if (keepOldAuthorBuilder_ == null) {
@@ -3150,7 +3150,7 @@ public final class FoModifyPostingPu {
         return this;
       }
       /**
-       * <code>optional .dstore.values.BooleanValue keep_old_author = 10;</code>
+       * <code>.dstore.values.BooleanValue keep_old_author = 10;</code>
        */
       public Builder setKeepOldAuthor(
           io.dstore.values.BooleanValue.Builder builderForValue) {
@@ -3164,7 +3164,7 @@ public final class FoModifyPostingPu {
         return this;
       }
       /**
-       * <code>optional .dstore.values.BooleanValue keep_old_author = 10;</code>
+       * <code>.dstore.values.BooleanValue keep_old_author = 10;</code>
        */
       public Builder mergeKeepOldAuthor(io.dstore.values.BooleanValue value) {
         if (keepOldAuthorBuilder_ == null) {
@@ -3182,7 +3182,7 @@ public final class FoModifyPostingPu {
         return this;
       }
       /**
-       * <code>optional .dstore.values.BooleanValue keep_old_author = 10;</code>
+       * <code>.dstore.values.BooleanValue keep_old_author = 10;</code>
        */
       public Builder clearKeepOldAuthor() {
         if (keepOldAuthorBuilder_ == null) {
@@ -3196,7 +3196,7 @@ public final class FoModifyPostingPu {
         return this;
       }
       /**
-       * <code>optional .dstore.values.BooleanValue keep_old_author = 10;</code>
+       * <code>.dstore.values.BooleanValue keep_old_author = 10;</code>
        */
       public io.dstore.values.BooleanValue.Builder getKeepOldAuthorBuilder() {
         
@@ -3204,7 +3204,7 @@ public final class FoModifyPostingPu {
         return getKeepOldAuthorFieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .dstore.values.BooleanValue keep_old_author = 10;</code>
+       * <code>.dstore.values.BooleanValue keep_old_author = 10;</code>
        */
       public io.dstore.values.BooleanValueOrBuilder getKeepOldAuthorOrBuilder() {
         if (keepOldAuthorBuilder_ != null) {
@@ -3215,7 +3215,7 @@ public final class FoModifyPostingPu {
         }
       }
       /**
-       * <code>optional .dstore.values.BooleanValue keep_old_author = 10;</code>
+       * <code>.dstore.values.BooleanValue keep_old_author = 10;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.values.BooleanValue, io.dstore.values.BooleanValue.Builder, io.dstore.values.BooleanValueOrBuilder> 
@@ -3233,13 +3233,13 @@ public final class FoModifyPostingPu {
 
       private boolean keepOldAuthorNull_ ;
       /**
-       * <code>optional bool keep_old_author_null = 1010;</code>
+       * <code>bool keep_old_author_null = 1010;</code>
        */
       public boolean getKeepOldAuthorNull() {
         return keepOldAuthorNull_;
       }
       /**
-       * <code>optional bool keep_old_author_null = 1010;</code>
+       * <code>bool keep_old_author_null = 1010;</code>
        */
       public Builder setKeepOldAuthorNull(boolean value) {
         
@@ -3248,7 +3248,7 @@ public final class FoModifyPostingPu {
         return this;
       }
       /**
-       * <code>optional bool keep_old_author_null = 1010;</code>
+       * <code>bool keep_old_author_null = 1010;</code>
        */
       public Builder clearKeepOldAuthorNull() {
         
@@ -3261,13 +3261,13 @@ public final class FoModifyPostingPu {
       private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> savePostingPropertiesBuilder_;
       /**
-       * <code>optional .dstore.values.IntegerValue save_posting_properties = 11;</code>
+       * <code>.dstore.values.IntegerValue save_posting_properties = 11;</code>
        */
       public boolean hasSavePostingProperties() {
         return savePostingPropertiesBuilder_ != null || savePostingProperties_ != null;
       }
       /**
-       * <code>optional .dstore.values.IntegerValue save_posting_properties = 11;</code>
+       * <code>.dstore.values.IntegerValue save_posting_properties = 11;</code>
        */
       public io.dstore.values.IntegerValue getSavePostingProperties() {
         if (savePostingPropertiesBuilder_ == null) {
@@ -3277,7 +3277,7 @@ public final class FoModifyPostingPu {
         }
       }
       /**
-       * <code>optional .dstore.values.IntegerValue save_posting_properties = 11;</code>
+       * <code>.dstore.values.IntegerValue save_posting_properties = 11;</code>
        */
       public Builder setSavePostingProperties(io.dstore.values.IntegerValue value) {
         if (savePostingPropertiesBuilder_ == null) {
@@ -3293,7 +3293,7 @@ public final class FoModifyPostingPu {
         return this;
       }
       /**
-       * <code>optional .dstore.values.IntegerValue save_posting_properties = 11;</code>
+       * <code>.dstore.values.IntegerValue save_posting_properties = 11;</code>
        */
       public Builder setSavePostingProperties(
           io.dstore.values.IntegerValue.Builder builderForValue) {
@@ -3307,7 +3307,7 @@ public final class FoModifyPostingPu {
         return this;
       }
       /**
-       * <code>optional .dstore.values.IntegerValue save_posting_properties = 11;</code>
+       * <code>.dstore.values.IntegerValue save_posting_properties = 11;</code>
        */
       public Builder mergeSavePostingProperties(io.dstore.values.IntegerValue value) {
         if (savePostingPropertiesBuilder_ == null) {
@@ -3325,7 +3325,7 @@ public final class FoModifyPostingPu {
         return this;
       }
       /**
-       * <code>optional .dstore.values.IntegerValue save_posting_properties = 11;</code>
+       * <code>.dstore.values.IntegerValue save_posting_properties = 11;</code>
        */
       public Builder clearSavePostingProperties() {
         if (savePostingPropertiesBuilder_ == null) {
@@ -3339,7 +3339,7 @@ public final class FoModifyPostingPu {
         return this;
       }
       /**
-       * <code>optional .dstore.values.IntegerValue save_posting_properties = 11;</code>
+       * <code>.dstore.values.IntegerValue save_posting_properties = 11;</code>
        */
       public io.dstore.values.IntegerValue.Builder getSavePostingPropertiesBuilder() {
         
@@ -3347,7 +3347,7 @@ public final class FoModifyPostingPu {
         return getSavePostingPropertiesFieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .dstore.values.IntegerValue save_posting_properties = 11;</code>
+       * <code>.dstore.values.IntegerValue save_posting_properties = 11;</code>
        */
       public io.dstore.values.IntegerValueOrBuilder getSavePostingPropertiesOrBuilder() {
         if (savePostingPropertiesBuilder_ != null) {
@@ -3358,7 +3358,7 @@ public final class FoModifyPostingPu {
         }
       }
       /**
-       * <code>optional .dstore.values.IntegerValue save_posting_properties = 11;</code>
+       * <code>.dstore.values.IntegerValue save_posting_properties = 11;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> 
@@ -3376,13 +3376,13 @@ public final class FoModifyPostingPu {
 
       private boolean savePostingPropertiesNull_ ;
       /**
-       * <code>optional bool save_posting_properties_null = 1011;</code>
+       * <code>bool save_posting_properties_null = 1011;</code>
        */
       public boolean getSavePostingPropertiesNull() {
         return savePostingPropertiesNull_;
       }
       /**
-       * <code>optional bool save_posting_properties_null = 1011;</code>
+       * <code>bool save_posting_properties_null = 1011;</code>
        */
       public Builder setSavePostingPropertiesNull(boolean value) {
         
@@ -3391,7 +3391,7 @@ public final class FoModifyPostingPu {
         return this;
       }
       /**
-       * <code>optional bool save_posting_properties_null = 1011;</code>
+       * <code>bool save_posting_properties_null = 1011;</code>
        */
       public Builder clearSavePostingPropertiesNull() {
         
@@ -3404,13 +3404,13 @@ public final class FoModifyPostingPu {
       private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.values.StringValue, io.dstore.values.StringValue.Builder, io.dstore.values.StringValueOrBuilder> countryBuilder_;
       /**
-       * <code>optional .dstore.values.StringValue country = 12;</code>
+       * <code>.dstore.values.StringValue country = 12;</code>
        */
       public boolean hasCountry() {
         return countryBuilder_ != null || country_ != null;
       }
       /**
-       * <code>optional .dstore.values.StringValue country = 12;</code>
+       * <code>.dstore.values.StringValue country = 12;</code>
        */
       public io.dstore.values.StringValue getCountry() {
         if (countryBuilder_ == null) {
@@ -3420,7 +3420,7 @@ public final class FoModifyPostingPu {
         }
       }
       /**
-       * <code>optional .dstore.values.StringValue country = 12;</code>
+       * <code>.dstore.values.StringValue country = 12;</code>
        */
       public Builder setCountry(io.dstore.values.StringValue value) {
         if (countryBuilder_ == null) {
@@ -3436,7 +3436,7 @@ public final class FoModifyPostingPu {
         return this;
       }
       /**
-       * <code>optional .dstore.values.StringValue country = 12;</code>
+       * <code>.dstore.values.StringValue country = 12;</code>
        */
       public Builder setCountry(
           io.dstore.values.StringValue.Builder builderForValue) {
@@ -3450,7 +3450,7 @@ public final class FoModifyPostingPu {
         return this;
       }
       /**
-       * <code>optional .dstore.values.StringValue country = 12;</code>
+       * <code>.dstore.values.StringValue country = 12;</code>
        */
       public Builder mergeCountry(io.dstore.values.StringValue value) {
         if (countryBuilder_ == null) {
@@ -3468,7 +3468,7 @@ public final class FoModifyPostingPu {
         return this;
       }
       /**
-       * <code>optional .dstore.values.StringValue country = 12;</code>
+       * <code>.dstore.values.StringValue country = 12;</code>
        */
       public Builder clearCountry() {
         if (countryBuilder_ == null) {
@@ -3482,7 +3482,7 @@ public final class FoModifyPostingPu {
         return this;
       }
       /**
-       * <code>optional .dstore.values.StringValue country = 12;</code>
+       * <code>.dstore.values.StringValue country = 12;</code>
        */
       public io.dstore.values.StringValue.Builder getCountryBuilder() {
         
@@ -3490,7 +3490,7 @@ public final class FoModifyPostingPu {
         return getCountryFieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .dstore.values.StringValue country = 12;</code>
+       * <code>.dstore.values.StringValue country = 12;</code>
        */
       public io.dstore.values.StringValueOrBuilder getCountryOrBuilder() {
         if (countryBuilder_ != null) {
@@ -3501,7 +3501,7 @@ public final class FoModifyPostingPu {
         }
       }
       /**
-       * <code>optional .dstore.values.StringValue country = 12;</code>
+       * <code>.dstore.values.StringValue country = 12;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.values.StringValue, io.dstore.values.StringValue.Builder, io.dstore.values.StringValueOrBuilder> 
@@ -3519,13 +3519,13 @@ public final class FoModifyPostingPu {
 
       private boolean countryNull_ ;
       /**
-       * <code>optional bool country_null = 1012;</code>
+       * <code>bool country_null = 1012;</code>
        */
       public boolean getCountryNull() {
         return countryNull_;
       }
       /**
-       * <code>optional bool country_null = 1012;</code>
+       * <code>bool country_null = 1012;</code>
        */
       public Builder setCountryNull(boolean value) {
         
@@ -3534,7 +3534,7 @@ public final class FoModifyPostingPu {
         return this;
       }
       /**
-       * <code>optional bool country_null = 1012;</code>
+       * <code>bool country_null = 1012;</code>
        */
       public Builder clearCountryNull() {
         
@@ -3547,13 +3547,13 @@ public final class FoModifyPostingPu {
       private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.values.StringValue, io.dstore.values.StringValue.Builder, io.dstore.values.StringValueOrBuilder> separatorInIdentValsBuilder_;
       /**
-       * <code>optional .dstore.values.StringValue separator_in_ident_vals = 13;</code>
+       * <code>.dstore.values.StringValue separator_in_ident_vals = 13;</code>
        */
       public boolean hasSeparatorInIdentVals() {
         return separatorInIdentValsBuilder_ != null || separatorInIdentVals_ != null;
       }
       /**
-       * <code>optional .dstore.values.StringValue separator_in_ident_vals = 13;</code>
+       * <code>.dstore.values.StringValue separator_in_ident_vals = 13;</code>
        */
       public io.dstore.values.StringValue getSeparatorInIdentVals() {
         if (separatorInIdentValsBuilder_ == null) {
@@ -3563,7 +3563,7 @@ public final class FoModifyPostingPu {
         }
       }
       /**
-       * <code>optional .dstore.values.StringValue separator_in_ident_vals = 13;</code>
+       * <code>.dstore.values.StringValue separator_in_ident_vals = 13;</code>
        */
       public Builder setSeparatorInIdentVals(io.dstore.values.StringValue value) {
         if (separatorInIdentValsBuilder_ == null) {
@@ -3579,7 +3579,7 @@ public final class FoModifyPostingPu {
         return this;
       }
       /**
-       * <code>optional .dstore.values.StringValue separator_in_ident_vals = 13;</code>
+       * <code>.dstore.values.StringValue separator_in_ident_vals = 13;</code>
        */
       public Builder setSeparatorInIdentVals(
           io.dstore.values.StringValue.Builder builderForValue) {
@@ -3593,7 +3593,7 @@ public final class FoModifyPostingPu {
         return this;
       }
       /**
-       * <code>optional .dstore.values.StringValue separator_in_ident_vals = 13;</code>
+       * <code>.dstore.values.StringValue separator_in_ident_vals = 13;</code>
        */
       public Builder mergeSeparatorInIdentVals(io.dstore.values.StringValue value) {
         if (separatorInIdentValsBuilder_ == null) {
@@ -3611,7 +3611,7 @@ public final class FoModifyPostingPu {
         return this;
       }
       /**
-       * <code>optional .dstore.values.StringValue separator_in_ident_vals = 13;</code>
+       * <code>.dstore.values.StringValue separator_in_ident_vals = 13;</code>
        */
       public Builder clearSeparatorInIdentVals() {
         if (separatorInIdentValsBuilder_ == null) {
@@ -3625,7 +3625,7 @@ public final class FoModifyPostingPu {
         return this;
       }
       /**
-       * <code>optional .dstore.values.StringValue separator_in_ident_vals = 13;</code>
+       * <code>.dstore.values.StringValue separator_in_ident_vals = 13;</code>
        */
       public io.dstore.values.StringValue.Builder getSeparatorInIdentValsBuilder() {
         
@@ -3633,7 +3633,7 @@ public final class FoModifyPostingPu {
         return getSeparatorInIdentValsFieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .dstore.values.StringValue separator_in_ident_vals = 13;</code>
+       * <code>.dstore.values.StringValue separator_in_ident_vals = 13;</code>
        */
       public io.dstore.values.StringValueOrBuilder getSeparatorInIdentValsOrBuilder() {
         if (separatorInIdentValsBuilder_ != null) {
@@ -3644,7 +3644,7 @@ public final class FoModifyPostingPu {
         }
       }
       /**
-       * <code>optional .dstore.values.StringValue separator_in_ident_vals = 13;</code>
+       * <code>.dstore.values.StringValue separator_in_ident_vals = 13;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.values.StringValue, io.dstore.values.StringValue.Builder, io.dstore.values.StringValueOrBuilder> 
@@ -3662,13 +3662,13 @@ public final class FoModifyPostingPu {
 
       private boolean separatorInIdentValsNull_ ;
       /**
-       * <code>optional bool separator_in_ident_vals_null = 1013;</code>
+       * <code>bool separator_in_ident_vals_null = 1013;</code>
        */
       public boolean getSeparatorInIdentValsNull() {
         return separatorInIdentValsNull_;
       }
       /**
-       * <code>optional bool separator_in_ident_vals_null = 1013;</code>
+       * <code>bool separator_in_ident_vals_null = 1013;</code>
        */
       public Builder setSeparatorInIdentValsNull(boolean value) {
         
@@ -3677,7 +3677,7 @@ public final class FoModifyPostingPu {
         return this;
       }
       /**
-       * <code>optional bool separator_in_ident_vals_null = 1013;</code>
+       * <code>bool separator_in_ident_vals_null = 1013;</code>
        */
       public Builder clearSeparatorInIdentValsNull() {
         
@@ -3936,7 +3936,7 @@ public final class FoModifyPostingPu {
         com.google.protobuf.MessageOrBuilder {
 
       /**
-       * <code>optional int32 row_id = 10000;</code>
+       * <code>int32 row_id = 10000;</code>
        */
       int getRowId();
 
@@ -3945,7 +3945,7 @@ public final class FoModifyPostingPu {
        * ID eines Posting-Merkmals, auf das sich die fehlerhafte Eigenschaft "Value" bezieht
        * </pre>
        *
-       * <code>optional .dstore.values.IntegerValue posting_characteristic_id = 10001;</code>
+       * <code>.dstore.values.IntegerValue posting_characteristic_id = 10001;</code>
        */
       boolean hasPostingCharacteristicId();
       /**
@@ -3953,7 +3953,7 @@ public final class FoModifyPostingPu {
        * ID eines Posting-Merkmals, auf das sich die fehlerhafte Eigenschaft "Value" bezieht
        * </pre>
        *
-       * <code>optional .dstore.values.IntegerValue posting_characteristic_id = 10001;</code>
+       * <code>.dstore.values.IntegerValue posting_characteristic_id = 10001;</code>
        */
       io.dstore.values.IntegerValue getPostingCharacteristicId();
       /**
@@ -3961,7 +3961,7 @@ public final class FoModifyPostingPu {
        * ID eines Posting-Merkmals, auf das sich die fehlerhafte Eigenschaft "Value" bezieht
        * </pre>
        *
-       * <code>optional .dstore.values.IntegerValue posting_characteristic_id = 10001;</code>
+       * <code>.dstore.values.IntegerValue posting_characteristic_id = 10001;</code>
        */
       io.dstore.values.IntegerValueOrBuilder getPostingCharacteristicIdOrBuilder();
 
@@ -3970,7 +3970,7 @@ public final class FoModifyPostingPu {
        * Fehlerhafte Eigenschaft zum Merkmal "PostingCharacteristicID"
        * </pre>
        *
-       * <code>optional .dstore.values.StringValue value = 10002;</code>
+       * <code>.dstore.values.StringValue value = 10002;</code>
        */
       boolean hasValue();
       /**
@@ -3978,7 +3978,7 @@ public final class FoModifyPostingPu {
        * Fehlerhafte Eigenschaft zum Merkmal "PostingCharacteristicID"
        * </pre>
        *
-       * <code>optional .dstore.values.StringValue value = 10002;</code>
+       * <code>.dstore.values.StringValue value = 10002;</code>
        */
       io.dstore.values.StringValue getValue();
       /**
@@ -3986,7 +3986,7 @@ public final class FoModifyPostingPu {
        * Fehlerhafte Eigenschaft zum Merkmal "PostingCharacteristicID"
        * </pre>
        *
-       * <code>optional .dstore.values.StringValue value = 10002;</code>
+       * <code>.dstore.values.StringValue value = 10002;</code>
        */
       io.dstore.values.StringValueOrBuilder getValueOrBuilder();
 
@@ -3995,7 +3995,7 @@ public final class FoModifyPostingPu {
        * Gibt die Ursache des Fehlers an, also warum die Eigenschaft nicht übernommen werden konnte. Mögliche Werte : s. Beschreibung !
        * </pre>
        *
-       * <code>optional .dstore.values.IntegerValue error_code = 10003;</code>
+       * <code>.dstore.values.IntegerValue error_code = 10003;</code>
        */
       boolean hasErrorCode();
       /**
@@ -4003,7 +4003,7 @@ public final class FoModifyPostingPu {
        * Gibt die Ursache des Fehlers an, also warum die Eigenschaft nicht übernommen werden konnte. Mögliche Werte : s. Beschreibung !
        * </pre>
        *
-       * <code>optional .dstore.values.IntegerValue error_code = 10003;</code>
+       * <code>.dstore.values.IntegerValue error_code = 10003;</code>
        */
       io.dstore.values.IntegerValue getErrorCode();
       /**
@@ -4011,7 +4011,7 @@ public final class FoModifyPostingPu {
        * Gibt die Ursache des Fehlers an, also warum die Eigenschaft nicht übernommen werden konnte. Mögliche Werte : s. Beschreibung !
        * </pre>
        *
-       * <code>optional .dstore.values.IntegerValue error_code = 10003;</code>
+       * <code>.dstore.values.IntegerValue error_code = 10003;</code>
        */
       io.dstore.values.IntegerValueOrBuilder getErrorCodeOrBuilder();
     }
@@ -4125,7 +4125,7 @@ public final class FoModifyPostingPu {
       public static final int ROW_ID_FIELD_NUMBER = 10000;
       private int rowId_;
       /**
-       * <code>optional int32 row_id = 10000;</code>
+       * <code>int32 row_id = 10000;</code>
        */
       public int getRowId() {
         return rowId_;
@@ -4138,7 +4138,7 @@ public final class FoModifyPostingPu {
        * ID eines Posting-Merkmals, auf das sich die fehlerhafte Eigenschaft "Value" bezieht
        * </pre>
        *
-       * <code>optional .dstore.values.IntegerValue posting_characteristic_id = 10001;</code>
+       * <code>.dstore.values.IntegerValue posting_characteristic_id = 10001;</code>
        */
       public boolean hasPostingCharacteristicId() {
         return postingCharacteristicId_ != null;
@@ -4148,7 +4148,7 @@ public final class FoModifyPostingPu {
        * ID eines Posting-Merkmals, auf das sich die fehlerhafte Eigenschaft "Value" bezieht
        * </pre>
        *
-       * <code>optional .dstore.values.IntegerValue posting_characteristic_id = 10001;</code>
+       * <code>.dstore.values.IntegerValue posting_characteristic_id = 10001;</code>
        */
       public io.dstore.values.IntegerValue getPostingCharacteristicId() {
         return postingCharacteristicId_ == null ? io.dstore.values.IntegerValue.getDefaultInstance() : postingCharacteristicId_;
@@ -4158,7 +4158,7 @@ public final class FoModifyPostingPu {
        * ID eines Posting-Merkmals, auf das sich die fehlerhafte Eigenschaft "Value" bezieht
        * </pre>
        *
-       * <code>optional .dstore.values.IntegerValue posting_characteristic_id = 10001;</code>
+       * <code>.dstore.values.IntegerValue posting_characteristic_id = 10001;</code>
        */
       public io.dstore.values.IntegerValueOrBuilder getPostingCharacteristicIdOrBuilder() {
         return getPostingCharacteristicId();
@@ -4171,7 +4171,7 @@ public final class FoModifyPostingPu {
        * Fehlerhafte Eigenschaft zum Merkmal "PostingCharacteristicID"
        * </pre>
        *
-       * <code>optional .dstore.values.StringValue value = 10002;</code>
+       * <code>.dstore.values.StringValue value = 10002;</code>
        */
       public boolean hasValue() {
         return value_ != null;
@@ -4181,7 +4181,7 @@ public final class FoModifyPostingPu {
        * Fehlerhafte Eigenschaft zum Merkmal "PostingCharacteristicID"
        * </pre>
        *
-       * <code>optional .dstore.values.StringValue value = 10002;</code>
+       * <code>.dstore.values.StringValue value = 10002;</code>
        */
       public io.dstore.values.StringValue getValue() {
         return value_ == null ? io.dstore.values.StringValue.getDefaultInstance() : value_;
@@ -4191,7 +4191,7 @@ public final class FoModifyPostingPu {
        * Fehlerhafte Eigenschaft zum Merkmal "PostingCharacteristicID"
        * </pre>
        *
-       * <code>optional .dstore.values.StringValue value = 10002;</code>
+       * <code>.dstore.values.StringValue value = 10002;</code>
        */
       public io.dstore.values.StringValueOrBuilder getValueOrBuilder() {
         return getValue();
@@ -4204,7 +4204,7 @@ public final class FoModifyPostingPu {
        * Gibt die Ursache des Fehlers an, also warum die Eigenschaft nicht übernommen werden konnte. Mögliche Werte : s. Beschreibung !
        * </pre>
        *
-       * <code>optional .dstore.values.IntegerValue error_code = 10003;</code>
+       * <code>.dstore.values.IntegerValue error_code = 10003;</code>
        */
       public boolean hasErrorCode() {
         return errorCode_ != null;
@@ -4214,7 +4214,7 @@ public final class FoModifyPostingPu {
        * Gibt die Ursache des Fehlers an, also warum die Eigenschaft nicht übernommen werden konnte. Mögliche Werte : s. Beschreibung !
        * </pre>
        *
-       * <code>optional .dstore.values.IntegerValue error_code = 10003;</code>
+       * <code>.dstore.values.IntegerValue error_code = 10003;</code>
        */
       public io.dstore.values.IntegerValue getErrorCode() {
         return errorCode_ == null ? io.dstore.values.IntegerValue.getDefaultInstance() : errorCode_;
@@ -4224,7 +4224,7 @@ public final class FoModifyPostingPu {
        * Gibt die Ursache des Fehlers an, also warum die Eigenschaft nicht übernommen werden konnte. Mögliche Werte : s. Beschreibung !
        * </pre>
        *
-       * <code>optional .dstore.values.IntegerValue error_code = 10003;</code>
+       * <code>.dstore.values.IntegerValue error_code = 10003;</code>
        */
       public io.dstore.values.IntegerValueOrBuilder getErrorCodeOrBuilder() {
         return getErrorCode();
@@ -4319,7 +4319,7 @@ public final class FoModifyPostingPu {
           return memoizedHashCode;
         }
         int hash = 41;
-        hash = (19 * hash) + getDescriptorForType().hashCode();
+        hash = (19 * hash) + getDescriptor().hashCode();
         hash = (37 * hash) + ROW_ID_FIELD_NUMBER;
         hash = (53 * hash) + getRowId();
         if (hasPostingCharacteristicId()) {
@@ -4591,13 +4591,13 @@ public final class FoModifyPostingPu {
 
         private int rowId_ ;
         /**
-         * <code>optional int32 row_id = 10000;</code>
+         * <code>int32 row_id = 10000;</code>
          */
         public int getRowId() {
           return rowId_;
         }
         /**
-         * <code>optional int32 row_id = 10000;</code>
+         * <code>int32 row_id = 10000;</code>
          */
         public Builder setRowId(int value) {
           
@@ -4606,7 +4606,7 @@ public final class FoModifyPostingPu {
           return this;
         }
         /**
-         * <code>optional int32 row_id = 10000;</code>
+         * <code>int32 row_id = 10000;</code>
          */
         public Builder clearRowId() {
           
@@ -4623,7 +4623,7 @@ public final class FoModifyPostingPu {
          * ID eines Posting-Merkmals, auf das sich die fehlerhafte Eigenschaft "Value" bezieht
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue posting_characteristic_id = 10001;</code>
+         * <code>.dstore.values.IntegerValue posting_characteristic_id = 10001;</code>
          */
         public boolean hasPostingCharacteristicId() {
           return postingCharacteristicIdBuilder_ != null || postingCharacteristicId_ != null;
@@ -4633,7 +4633,7 @@ public final class FoModifyPostingPu {
          * ID eines Posting-Merkmals, auf das sich die fehlerhafte Eigenschaft "Value" bezieht
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue posting_characteristic_id = 10001;</code>
+         * <code>.dstore.values.IntegerValue posting_characteristic_id = 10001;</code>
          */
         public io.dstore.values.IntegerValue getPostingCharacteristicId() {
           if (postingCharacteristicIdBuilder_ == null) {
@@ -4647,7 +4647,7 @@ public final class FoModifyPostingPu {
          * ID eines Posting-Merkmals, auf das sich die fehlerhafte Eigenschaft "Value" bezieht
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue posting_characteristic_id = 10001;</code>
+         * <code>.dstore.values.IntegerValue posting_characteristic_id = 10001;</code>
          */
         public Builder setPostingCharacteristicId(io.dstore.values.IntegerValue value) {
           if (postingCharacteristicIdBuilder_ == null) {
@@ -4667,7 +4667,7 @@ public final class FoModifyPostingPu {
          * ID eines Posting-Merkmals, auf das sich die fehlerhafte Eigenschaft "Value" bezieht
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue posting_characteristic_id = 10001;</code>
+         * <code>.dstore.values.IntegerValue posting_characteristic_id = 10001;</code>
          */
         public Builder setPostingCharacteristicId(
             io.dstore.values.IntegerValue.Builder builderForValue) {
@@ -4685,7 +4685,7 @@ public final class FoModifyPostingPu {
          * ID eines Posting-Merkmals, auf das sich die fehlerhafte Eigenschaft "Value" bezieht
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue posting_characteristic_id = 10001;</code>
+         * <code>.dstore.values.IntegerValue posting_characteristic_id = 10001;</code>
          */
         public Builder mergePostingCharacteristicId(io.dstore.values.IntegerValue value) {
           if (postingCharacteristicIdBuilder_ == null) {
@@ -4707,7 +4707,7 @@ public final class FoModifyPostingPu {
          * ID eines Posting-Merkmals, auf das sich die fehlerhafte Eigenschaft "Value" bezieht
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue posting_characteristic_id = 10001;</code>
+         * <code>.dstore.values.IntegerValue posting_characteristic_id = 10001;</code>
          */
         public Builder clearPostingCharacteristicId() {
           if (postingCharacteristicIdBuilder_ == null) {
@@ -4725,7 +4725,7 @@ public final class FoModifyPostingPu {
          * ID eines Posting-Merkmals, auf das sich die fehlerhafte Eigenschaft "Value" bezieht
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue posting_characteristic_id = 10001;</code>
+         * <code>.dstore.values.IntegerValue posting_characteristic_id = 10001;</code>
          */
         public io.dstore.values.IntegerValue.Builder getPostingCharacteristicIdBuilder() {
           
@@ -4737,7 +4737,7 @@ public final class FoModifyPostingPu {
          * ID eines Posting-Merkmals, auf das sich die fehlerhafte Eigenschaft "Value" bezieht
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue posting_characteristic_id = 10001;</code>
+         * <code>.dstore.values.IntegerValue posting_characteristic_id = 10001;</code>
          */
         public io.dstore.values.IntegerValueOrBuilder getPostingCharacteristicIdOrBuilder() {
           if (postingCharacteristicIdBuilder_ != null) {
@@ -4752,7 +4752,7 @@ public final class FoModifyPostingPu {
          * ID eines Posting-Merkmals, auf das sich die fehlerhafte Eigenschaft "Value" bezieht
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue posting_characteristic_id = 10001;</code>
+         * <code>.dstore.values.IntegerValue posting_characteristic_id = 10001;</code>
          */
         private com.google.protobuf.SingleFieldBuilderV3<
             io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> 
@@ -4776,7 +4776,7 @@ public final class FoModifyPostingPu {
          * Fehlerhafte Eigenschaft zum Merkmal "PostingCharacteristicID"
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue value = 10002;</code>
+         * <code>.dstore.values.StringValue value = 10002;</code>
          */
         public boolean hasValue() {
           return valueBuilder_ != null || value_ != null;
@@ -4786,7 +4786,7 @@ public final class FoModifyPostingPu {
          * Fehlerhafte Eigenschaft zum Merkmal "PostingCharacteristicID"
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue value = 10002;</code>
+         * <code>.dstore.values.StringValue value = 10002;</code>
          */
         public io.dstore.values.StringValue getValue() {
           if (valueBuilder_ == null) {
@@ -4800,7 +4800,7 @@ public final class FoModifyPostingPu {
          * Fehlerhafte Eigenschaft zum Merkmal "PostingCharacteristicID"
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue value = 10002;</code>
+         * <code>.dstore.values.StringValue value = 10002;</code>
          */
         public Builder setValue(io.dstore.values.StringValue value) {
           if (valueBuilder_ == null) {
@@ -4820,7 +4820,7 @@ public final class FoModifyPostingPu {
          * Fehlerhafte Eigenschaft zum Merkmal "PostingCharacteristicID"
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue value = 10002;</code>
+         * <code>.dstore.values.StringValue value = 10002;</code>
          */
         public Builder setValue(
             io.dstore.values.StringValue.Builder builderForValue) {
@@ -4838,7 +4838,7 @@ public final class FoModifyPostingPu {
          * Fehlerhafte Eigenschaft zum Merkmal "PostingCharacteristicID"
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue value = 10002;</code>
+         * <code>.dstore.values.StringValue value = 10002;</code>
          */
         public Builder mergeValue(io.dstore.values.StringValue value) {
           if (valueBuilder_ == null) {
@@ -4860,7 +4860,7 @@ public final class FoModifyPostingPu {
          * Fehlerhafte Eigenschaft zum Merkmal "PostingCharacteristicID"
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue value = 10002;</code>
+         * <code>.dstore.values.StringValue value = 10002;</code>
          */
         public Builder clearValue() {
           if (valueBuilder_ == null) {
@@ -4878,7 +4878,7 @@ public final class FoModifyPostingPu {
          * Fehlerhafte Eigenschaft zum Merkmal "PostingCharacteristicID"
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue value = 10002;</code>
+         * <code>.dstore.values.StringValue value = 10002;</code>
          */
         public io.dstore.values.StringValue.Builder getValueBuilder() {
           
@@ -4890,7 +4890,7 @@ public final class FoModifyPostingPu {
          * Fehlerhafte Eigenschaft zum Merkmal "PostingCharacteristicID"
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue value = 10002;</code>
+         * <code>.dstore.values.StringValue value = 10002;</code>
          */
         public io.dstore.values.StringValueOrBuilder getValueOrBuilder() {
           if (valueBuilder_ != null) {
@@ -4905,7 +4905,7 @@ public final class FoModifyPostingPu {
          * Fehlerhafte Eigenschaft zum Merkmal "PostingCharacteristicID"
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue value = 10002;</code>
+         * <code>.dstore.values.StringValue value = 10002;</code>
          */
         private com.google.protobuf.SingleFieldBuilderV3<
             io.dstore.values.StringValue, io.dstore.values.StringValue.Builder, io.dstore.values.StringValueOrBuilder> 
@@ -4929,7 +4929,7 @@ public final class FoModifyPostingPu {
          * Gibt die Ursache des Fehlers an, also warum die Eigenschaft nicht übernommen werden konnte. Mögliche Werte : s. Beschreibung !
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue error_code = 10003;</code>
+         * <code>.dstore.values.IntegerValue error_code = 10003;</code>
          */
         public boolean hasErrorCode() {
           return errorCodeBuilder_ != null || errorCode_ != null;
@@ -4939,7 +4939,7 @@ public final class FoModifyPostingPu {
          * Gibt die Ursache des Fehlers an, also warum die Eigenschaft nicht übernommen werden konnte. Mögliche Werte : s. Beschreibung !
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue error_code = 10003;</code>
+         * <code>.dstore.values.IntegerValue error_code = 10003;</code>
          */
         public io.dstore.values.IntegerValue getErrorCode() {
           if (errorCodeBuilder_ == null) {
@@ -4953,7 +4953,7 @@ public final class FoModifyPostingPu {
          * Gibt die Ursache des Fehlers an, also warum die Eigenschaft nicht übernommen werden konnte. Mögliche Werte : s. Beschreibung !
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue error_code = 10003;</code>
+         * <code>.dstore.values.IntegerValue error_code = 10003;</code>
          */
         public Builder setErrorCode(io.dstore.values.IntegerValue value) {
           if (errorCodeBuilder_ == null) {
@@ -4973,7 +4973,7 @@ public final class FoModifyPostingPu {
          * Gibt die Ursache des Fehlers an, also warum die Eigenschaft nicht übernommen werden konnte. Mögliche Werte : s. Beschreibung !
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue error_code = 10003;</code>
+         * <code>.dstore.values.IntegerValue error_code = 10003;</code>
          */
         public Builder setErrorCode(
             io.dstore.values.IntegerValue.Builder builderForValue) {
@@ -4991,7 +4991,7 @@ public final class FoModifyPostingPu {
          * Gibt die Ursache des Fehlers an, also warum die Eigenschaft nicht übernommen werden konnte. Mögliche Werte : s. Beschreibung !
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue error_code = 10003;</code>
+         * <code>.dstore.values.IntegerValue error_code = 10003;</code>
          */
         public Builder mergeErrorCode(io.dstore.values.IntegerValue value) {
           if (errorCodeBuilder_ == null) {
@@ -5013,7 +5013,7 @@ public final class FoModifyPostingPu {
          * Gibt die Ursache des Fehlers an, also warum die Eigenschaft nicht übernommen werden konnte. Mögliche Werte : s. Beschreibung !
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue error_code = 10003;</code>
+         * <code>.dstore.values.IntegerValue error_code = 10003;</code>
          */
         public Builder clearErrorCode() {
           if (errorCodeBuilder_ == null) {
@@ -5031,7 +5031,7 @@ public final class FoModifyPostingPu {
          * Gibt die Ursache des Fehlers an, also warum die Eigenschaft nicht übernommen werden konnte. Mögliche Werte : s. Beschreibung !
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue error_code = 10003;</code>
+         * <code>.dstore.values.IntegerValue error_code = 10003;</code>
          */
         public io.dstore.values.IntegerValue.Builder getErrorCodeBuilder() {
           
@@ -5043,7 +5043,7 @@ public final class FoModifyPostingPu {
          * Gibt die Ursache des Fehlers an, also warum die Eigenschaft nicht übernommen werden konnte. Mögliche Werte : s. Beschreibung !
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue error_code = 10003;</code>
+         * <code>.dstore.values.IntegerValue error_code = 10003;</code>
          */
         public io.dstore.values.IntegerValueOrBuilder getErrorCodeOrBuilder() {
           if (errorCodeBuilder_ != null) {
@@ -5058,7 +5058,7 @@ public final class FoModifyPostingPu {
          * Gibt die Ursache des Fehlers an, also warum die Eigenschaft nicht übernommen werden konnte. Mögliche Werte : s. Beschreibung !
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue error_code = 10003;</code>
+         * <code>.dstore.values.IntegerValue error_code = 10003;</code>
          */
         private com.google.protobuf.SingleFieldBuilderV3<
             io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> 
@@ -5318,7 +5318,7 @@ public final class FoModifyPostingPu {
         return memoizedHashCode;
       }
       int hash = 41;
-      hash = (19 * hash) + getDescriptorForType().hashCode();
+      hash = (19 * hash) + getDescriptor().hashCode();
       if (getMetaInformationCount() > 0) {
         hash = (37 * hash) + META_INFORMATION_FIELD_NUMBER;
         hash = (53 * hash) + getMetaInformationList().hashCode();

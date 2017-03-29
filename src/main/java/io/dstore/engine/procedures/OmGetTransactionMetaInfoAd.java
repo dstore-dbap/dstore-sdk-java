@@ -19,20 +19,20 @@ public final class OmGetTransactionMetaInfoAd {
       com.google.protobuf.MessageOrBuilder {
 
     /**
-     * <code>optional .dstore.values.IntegerValue transaction_id = 1;</code>
+     * <code>.dstore.values.IntegerValue transaction_id = 1;</code>
      */
     boolean hasTransactionId();
     /**
-     * <code>optional .dstore.values.IntegerValue transaction_id = 1;</code>
+     * <code>.dstore.values.IntegerValue transaction_id = 1;</code>
      */
     io.dstore.values.IntegerValue getTransactionId();
     /**
-     * <code>optional .dstore.values.IntegerValue transaction_id = 1;</code>
+     * <code>.dstore.values.IntegerValue transaction_id = 1;</code>
      */
     io.dstore.values.IntegerValueOrBuilder getTransactionIdOrBuilder();
 
     /**
-     * <code>optional bool transaction_id_null = 1001;</code>
+     * <code>bool transaction_id_null = 1001;</code>
      */
     boolean getTransactionIdNull();
   }
@@ -120,19 +120,19 @@ public final class OmGetTransactionMetaInfoAd {
     public static final int TRANSACTION_ID_FIELD_NUMBER = 1;
     private io.dstore.values.IntegerValue transactionId_;
     /**
-     * <code>optional .dstore.values.IntegerValue transaction_id = 1;</code>
+     * <code>.dstore.values.IntegerValue transaction_id = 1;</code>
      */
     public boolean hasTransactionId() {
       return transactionId_ != null;
     }
     /**
-     * <code>optional .dstore.values.IntegerValue transaction_id = 1;</code>
+     * <code>.dstore.values.IntegerValue transaction_id = 1;</code>
      */
     public io.dstore.values.IntegerValue getTransactionId() {
       return transactionId_ == null ? io.dstore.values.IntegerValue.getDefaultInstance() : transactionId_;
     }
     /**
-     * <code>optional .dstore.values.IntegerValue transaction_id = 1;</code>
+     * <code>.dstore.values.IntegerValue transaction_id = 1;</code>
      */
     public io.dstore.values.IntegerValueOrBuilder getTransactionIdOrBuilder() {
       return getTransactionId();
@@ -141,7 +141,7 @@ public final class OmGetTransactionMetaInfoAd {
     public static final int TRANSACTION_ID_NULL_FIELD_NUMBER = 1001;
     private boolean transactionIdNull_;
     /**
-     * <code>optional bool transaction_id_null = 1001;</code>
+     * <code>bool transaction_id_null = 1001;</code>
      */
     public boolean getTransactionIdNull() {
       return transactionIdNull_;
@@ -212,7 +212,7 @@ public final class OmGetTransactionMetaInfoAd {
         return memoizedHashCode;
       }
       int hash = 41;
-      hash = (19 * hash) + getDescriptorForType().hashCode();
+      hash = (19 * hash) + getDescriptor().hashCode();
       if (hasTransactionId()) {
         hash = (37 * hash) + TRANSACTION_ID_FIELD_NUMBER;
         hash = (53 * hash) + getTransactionId().hashCode();
@@ -451,13 +451,13 @@ public final class OmGetTransactionMetaInfoAd {
       private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> transactionIdBuilder_;
       /**
-       * <code>optional .dstore.values.IntegerValue transaction_id = 1;</code>
+       * <code>.dstore.values.IntegerValue transaction_id = 1;</code>
        */
       public boolean hasTransactionId() {
         return transactionIdBuilder_ != null || transactionId_ != null;
       }
       /**
-       * <code>optional .dstore.values.IntegerValue transaction_id = 1;</code>
+       * <code>.dstore.values.IntegerValue transaction_id = 1;</code>
        */
       public io.dstore.values.IntegerValue getTransactionId() {
         if (transactionIdBuilder_ == null) {
@@ -467,7 +467,7 @@ public final class OmGetTransactionMetaInfoAd {
         }
       }
       /**
-       * <code>optional .dstore.values.IntegerValue transaction_id = 1;</code>
+       * <code>.dstore.values.IntegerValue transaction_id = 1;</code>
        */
       public Builder setTransactionId(io.dstore.values.IntegerValue value) {
         if (transactionIdBuilder_ == null) {
@@ -483,7 +483,7 @@ public final class OmGetTransactionMetaInfoAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.IntegerValue transaction_id = 1;</code>
+       * <code>.dstore.values.IntegerValue transaction_id = 1;</code>
        */
       public Builder setTransactionId(
           io.dstore.values.IntegerValue.Builder builderForValue) {
@@ -497,7 +497,7 @@ public final class OmGetTransactionMetaInfoAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.IntegerValue transaction_id = 1;</code>
+       * <code>.dstore.values.IntegerValue transaction_id = 1;</code>
        */
       public Builder mergeTransactionId(io.dstore.values.IntegerValue value) {
         if (transactionIdBuilder_ == null) {
@@ -515,7 +515,7 @@ public final class OmGetTransactionMetaInfoAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.IntegerValue transaction_id = 1;</code>
+       * <code>.dstore.values.IntegerValue transaction_id = 1;</code>
        */
       public Builder clearTransactionId() {
         if (transactionIdBuilder_ == null) {
@@ -529,7 +529,7 @@ public final class OmGetTransactionMetaInfoAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.IntegerValue transaction_id = 1;</code>
+       * <code>.dstore.values.IntegerValue transaction_id = 1;</code>
        */
       public io.dstore.values.IntegerValue.Builder getTransactionIdBuilder() {
         
@@ -537,7 +537,7 @@ public final class OmGetTransactionMetaInfoAd {
         return getTransactionIdFieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .dstore.values.IntegerValue transaction_id = 1;</code>
+       * <code>.dstore.values.IntegerValue transaction_id = 1;</code>
        */
       public io.dstore.values.IntegerValueOrBuilder getTransactionIdOrBuilder() {
         if (transactionIdBuilder_ != null) {
@@ -548,7 +548,7 @@ public final class OmGetTransactionMetaInfoAd {
         }
       }
       /**
-       * <code>optional .dstore.values.IntegerValue transaction_id = 1;</code>
+       * <code>.dstore.values.IntegerValue transaction_id = 1;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> 
@@ -566,13 +566,13 @@ public final class OmGetTransactionMetaInfoAd {
 
       private boolean transactionIdNull_ ;
       /**
-       * <code>optional bool transaction_id_null = 1001;</code>
+       * <code>bool transaction_id_null = 1001;</code>
        */
       public boolean getTransactionIdNull() {
         return transactionIdNull_;
       }
       /**
-       * <code>optional bool transaction_id_null = 1001;</code>
+       * <code>bool transaction_id_null = 1001;</code>
        */
       public Builder setTransactionIdNull(boolean value) {
         
@@ -581,7 +581,7 @@ public final class OmGetTransactionMetaInfoAd {
         return this;
       }
       /**
-       * <code>optional bool transaction_id_null = 1001;</code>
+       * <code>bool transaction_id_null = 1001;</code>
        */
       public Builder clearTransactionIdNull() {
         
@@ -840,7 +840,7 @@ public final class OmGetTransactionMetaInfoAd {
         com.google.protobuf.MessageOrBuilder {
 
       /**
-       * <code>optional int32 row_id = 10000;</code>
+       * <code>int32 row_id = 10000;</code>
        */
       int getRowId();
 
@@ -849,7 +849,7 @@ public final class OmGetTransactionMetaInfoAd {
        * ID des Benutzers, durch den die Transaktion erzeugt wurde
        * </pre>
        *
-       * <code>optional .dstore.values.IntegerValue transaction_by_user_id = 10001;</code>
+       * <code>.dstore.values.IntegerValue transaction_by_user_id = 10001;</code>
        */
       boolean hasTransactionByUserId();
       /**
@@ -857,7 +857,7 @@ public final class OmGetTransactionMetaInfoAd {
        * ID des Benutzers, durch den die Transaktion erzeugt wurde
        * </pre>
        *
-       * <code>optional .dstore.values.IntegerValue transaction_by_user_id = 10001;</code>
+       * <code>.dstore.values.IntegerValue transaction_by_user_id = 10001;</code>
        */
       io.dstore.values.IntegerValue getTransactionByUserId();
       /**
@@ -865,7 +865,7 @@ public final class OmGetTransactionMetaInfoAd {
        * ID des Benutzers, durch den die Transaktion erzeugt wurde
        * </pre>
        *
-       * <code>optional .dstore.values.IntegerValue transaction_by_user_id = 10001;</code>
+       * <code>.dstore.values.IntegerValue transaction_by_user_id = 10001;</code>
        */
       io.dstore.values.IntegerValueOrBuilder getTransactionByUserIdOrBuilder();
 
@@ -874,7 +874,7 @@ public final class OmGetTransactionMetaInfoAd {
        * Name der Prozedur, durch die die Transaktion erzeugt wurde
        * </pre>
        *
-       * <code>optional .dstore.values.StringValue transaction_by_procedure_name = 10002;</code>
+       * <code>.dstore.values.StringValue transaction_by_procedure_name = 10002;</code>
        */
       boolean hasTransactionByProcedureName();
       /**
@@ -882,7 +882,7 @@ public final class OmGetTransactionMetaInfoAd {
        * Name der Prozedur, durch die die Transaktion erzeugt wurde
        * </pre>
        *
-       * <code>optional .dstore.values.StringValue transaction_by_procedure_name = 10002;</code>
+       * <code>.dstore.values.StringValue transaction_by_procedure_name = 10002;</code>
        */
       io.dstore.values.StringValue getTransactionByProcedureName();
       /**
@@ -890,7 +890,7 @@ public final class OmGetTransactionMetaInfoAd {
        * Name der Prozedur, durch die die Transaktion erzeugt wurde
        * </pre>
        *
-       * <code>optional .dstore.values.StringValue transaction_by_procedure_name = 10002;</code>
+       * <code>.dstore.values.StringValue transaction_by_procedure_name = 10002;</code>
        */
       io.dstore.values.StringValueOrBuilder getTransactionByProcedureNameOrBuilder();
 
@@ -899,7 +899,7 @@ public final class OmGetTransactionMetaInfoAd {
        * Ein interner Kommentar zur Transaktion
        * </pre>
        *
-       * <code>optional .dstore.values.StringValue internal_transaction_comment = 10003;</code>
+       * <code>.dstore.values.StringValue internal_transaction_comment = 10003;</code>
        */
       boolean hasInternalTransactionComment();
       /**
@@ -907,7 +907,7 @@ public final class OmGetTransactionMetaInfoAd {
        * Ein interner Kommentar zur Transaktion
        * </pre>
        *
-       * <code>optional .dstore.values.StringValue internal_transaction_comment = 10003;</code>
+       * <code>.dstore.values.StringValue internal_transaction_comment = 10003;</code>
        */
       io.dstore.values.StringValue getInternalTransactionComment();
       /**
@@ -915,7 +915,7 @@ public final class OmGetTransactionMetaInfoAd {
        * Ein interner Kommentar zur Transaktion
        * </pre>
        *
-       * <code>optional .dstore.values.StringValue internal_transaction_comment = 10003;</code>
+       * <code>.dstore.values.StringValue internal_transaction_comment = 10003;</code>
        */
       io.dstore.values.StringValueOrBuilder getInternalTransactionCommentOrBuilder();
 
@@ -924,7 +924,7 @@ public final class OmGetTransactionMetaInfoAd {
        * Die ID der Transaktion
        * </pre>
        *
-       * <code>optional .dstore.values.IntegerValue transaction_id = 10004;</code>
+       * <code>.dstore.values.IntegerValue transaction_id = 10004;</code>
        */
       boolean hasTransactionId();
       /**
@@ -932,7 +932,7 @@ public final class OmGetTransactionMetaInfoAd {
        * Die ID der Transaktion
        * </pre>
        *
-       * <code>optional .dstore.values.IntegerValue transaction_id = 10004;</code>
+       * <code>.dstore.values.IntegerValue transaction_id = 10004;</code>
        */
       io.dstore.values.IntegerValue getTransactionId();
       /**
@@ -940,7 +940,7 @@ public final class OmGetTransactionMetaInfoAd {
        * Die ID der Transaktion
        * </pre>
        *
-       * <code>optional .dstore.values.IntegerValue transaction_id = 10004;</code>
+       * <code>.dstore.values.IntegerValue transaction_id = 10004;</code>
        */
       io.dstore.values.IntegerValueOrBuilder getTransactionIdOrBuilder();
     }
@@ -1067,7 +1067,7 @@ public final class OmGetTransactionMetaInfoAd {
       public static final int ROW_ID_FIELD_NUMBER = 10000;
       private int rowId_;
       /**
-       * <code>optional int32 row_id = 10000;</code>
+       * <code>int32 row_id = 10000;</code>
        */
       public int getRowId() {
         return rowId_;
@@ -1080,7 +1080,7 @@ public final class OmGetTransactionMetaInfoAd {
        * ID des Benutzers, durch den die Transaktion erzeugt wurde
        * </pre>
        *
-       * <code>optional .dstore.values.IntegerValue transaction_by_user_id = 10001;</code>
+       * <code>.dstore.values.IntegerValue transaction_by_user_id = 10001;</code>
        */
       public boolean hasTransactionByUserId() {
         return transactionByUserId_ != null;
@@ -1090,7 +1090,7 @@ public final class OmGetTransactionMetaInfoAd {
        * ID des Benutzers, durch den die Transaktion erzeugt wurde
        * </pre>
        *
-       * <code>optional .dstore.values.IntegerValue transaction_by_user_id = 10001;</code>
+       * <code>.dstore.values.IntegerValue transaction_by_user_id = 10001;</code>
        */
       public io.dstore.values.IntegerValue getTransactionByUserId() {
         return transactionByUserId_ == null ? io.dstore.values.IntegerValue.getDefaultInstance() : transactionByUserId_;
@@ -1100,7 +1100,7 @@ public final class OmGetTransactionMetaInfoAd {
        * ID des Benutzers, durch den die Transaktion erzeugt wurde
        * </pre>
        *
-       * <code>optional .dstore.values.IntegerValue transaction_by_user_id = 10001;</code>
+       * <code>.dstore.values.IntegerValue transaction_by_user_id = 10001;</code>
        */
       public io.dstore.values.IntegerValueOrBuilder getTransactionByUserIdOrBuilder() {
         return getTransactionByUserId();
@@ -1113,7 +1113,7 @@ public final class OmGetTransactionMetaInfoAd {
        * Name der Prozedur, durch die die Transaktion erzeugt wurde
        * </pre>
        *
-       * <code>optional .dstore.values.StringValue transaction_by_procedure_name = 10002;</code>
+       * <code>.dstore.values.StringValue transaction_by_procedure_name = 10002;</code>
        */
       public boolean hasTransactionByProcedureName() {
         return transactionByProcedureName_ != null;
@@ -1123,7 +1123,7 @@ public final class OmGetTransactionMetaInfoAd {
        * Name der Prozedur, durch die die Transaktion erzeugt wurde
        * </pre>
        *
-       * <code>optional .dstore.values.StringValue transaction_by_procedure_name = 10002;</code>
+       * <code>.dstore.values.StringValue transaction_by_procedure_name = 10002;</code>
        */
       public io.dstore.values.StringValue getTransactionByProcedureName() {
         return transactionByProcedureName_ == null ? io.dstore.values.StringValue.getDefaultInstance() : transactionByProcedureName_;
@@ -1133,7 +1133,7 @@ public final class OmGetTransactionMetaInfoAd {
        * Name der Prozedur, durch die die Transaktion erzeugt wurde
        * </pre>
        *
-       * <code>optional .dstore.values.StringValue transaction_by_procedure_name = 10002;</code>
+       * <code>.dstore.values.StringValue transaction_by_procedure_name = 10002;</code>
        */
       public io.dstore.values.StringValueOrBuilder getTransactionByProcedureNameOrBuilder() {
         return getTransactionByProcedureName();
@@ -1146,7 +1146,7 @@ public final class OmGetTransactionMetaInfoAd {
        * Ein interner Kommentar zur Transaktion
        * </pre>
        *
-       * <code>optional .dstore.values.StringValue internal_transaction_comment = 10003;</code>
+       * <code>.dstore.values.StringValue internal_transaction_comment = 10003;</code>
        */
       public boolean hasInternalTransactionComment() {
         return internalTransactionComment_ != null;
@@ -1156,7 +1156,7 @@ public final class OmGetTransactionMetaInfoAd {
        * Ein interner Kommentar zur Transaktion
        * </pre>
        *
-       * <code>optional .dstore.values.StringValue internal_transaction_comment = 10003;</code>
+       * <code>.dstore.values.StringValue internal_transaction_comment = 10003;</code>
        */
       public io.dstore.values.StringValue getInternalTransactionComment() {
         return internalTransactionComment_ == null ? io.dstore.values.StringValue.getDefaultInstance() : internalTransactionComment_;
@@ -1166,7 +1166,7 @@ public final class OmGetTransactionMetaInfoAd {
        * Ein interner Kommentar zur Transaktion
        * </pre>
        *
-       * <code>optional .dstore.values.StringValue internal_transaction_comment = 10003;</code>
+       * <code>.dstore.values.StringValue internal_transaction_comment = 10003;</code>
        */
       public io.dstore.values.StringValueOrBuilder getInternalTransactionCommentOrBuilder() {
         return getInternalTransactionComment();
@@ -1179,7 +1179,7 @@ public final class OmGetTransactionMetaInfoAd {
        * Die ID der Transaktion
        * </pre>
        *
-       * <code>optional .dstore.values.IntegerValue transaction_id = 10004;</code>
+       * <code>.dstore.values.IntegerValue transaction_id = 10004;</code>
        */
       public boolean hasTransactionId() {
         return transactionId_ != null;
@@ -1189,7 +1189,7 @@ public final class OmGetTransactionMetaInfoAd {
        * Die ID der Transaktion
        * </pre>
        *
-       * <code>optional .dstore.values.IntegerValue transaction_id = 10004;</code>
+       * <code>.dstore.values.IntegerValue transaction_id = 10004;</code>
        */
       public io.dstore.values.IntegerValue getTransactionId() {
         return transactionId_ == null ? io.dstore.values.IntegerValue.getDefaultInstance() : transactionId_;
@@ -1199,7 +1199,7 @@ public final class OmGetTransactionMetaInfoAd {
        * Die ID der Transaktion
        * </pre>
        *
-       * <code>optional .dstore.values.IntegerValue transaction_id = 10004;</code>
+       * <code>.dstore.values.IntegerValue transaction_id = 10004;</code>
        */
       public io.dstore.values.IntegerValueOrBuilder getTransactionIdOrBuilder() {
         return getTransactionId();
@@ -1306,7 +1306,7 @@ public final class OmGetTransactionMetaInfoAd {
           return memoizedHashCode;
         }
         int hash = 41;
-        hash = (19 * hash) + getDescriptorForType().hashCode();
+        hash = (19 * hash) + getDescriptor().hashCode();
         hash = (37 * hash) + ROW_ID_FIELD_NUMBER;
         hash = (53 * hash) + getRowId();
         if (hasTransactionByUserId()) {
@@ -1596,13 +1596,13 @@ public final class OmGetTransactionMetaInfoAd {
 
         private int rowId_ ;
         /**
-         * <code>optional int32 row_id = 10000;</code>
+         * <code>int32 row_id = 10000;</code>
          */
         public int getRowId() {
           return rowId_;
         }
         /**
-         * <code>optional int32 row_id = 10000;</code>
+         * <code>int32 row_id = 10000;</code>
          */
         public Builder setRowId(int value) {
           
@@ -1611,7 +1611,7 @@ public final class OmGetTransactionMetaInfoAd {
           return this;
         }
         /**
-         * <code>optional int32 row_id = 10000;</code>
+         * <code>int32 row_id = 10000;</code>
          */
         public Builder clearRowId() {
           
@@ -1628,7 +1628,7 @@ public final class OmGetTransactionMetaInfoAd {
          * ID des Benutzers, durch den die Transaktion erzeugt wurde
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue transaction_by_user_id = 10001;</code>
+         * <code>.dstore.values.IntegerValue transaction_by_user_id = 10001;</code>
          */
         public boolean hasTransactionByUserId() {
           return transactionByUserIdBuilder_ != null || transactionByUserId_ != null;
@@ -1638,7 +1638,7 @@ public final class OmGetTransactionMetaInfoAd {
          * ID des Benutzers, durch den die Transaktion erzeugt wurde
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue transaction_by_user_id = 10001;</code>
+         * <code>.dstore.values.IntegerValue transaction_by_user_id = 10001;</code>
          */
         public io.dstore.values.IntegerValue getTransactionByUserId() {
           if (transactionByUserIdBuilder_ == null) {
@@ -1652,7 +1652,7 @@ public final class OmGetTransactionMetaInfoAd {
          * ID des Benutzers, durch den die Transaktion erzeugt wurde
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue transaction_by_user_id = 10001;</code>
+         * <code>.dstore.values.IntegerValue transaction_by_user_id = 10001;</code>
          */
         public Builder setTransactionByUserId(io.dstore.values.IntegerValue value) {
           if (transactionByUserIdBuilder_ == null) {
@@ -1672,7 +1672,7 @@ public final class OmGetTransactionMetaInfoAd {
          * ID des Benutzers, durch den die Transaktion erzeugt wurde
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue transaction_by_user_id = 10001;</code>
+         * <code>.dstore.values.IntegerValue transaction_by_user_id = 10001;</code>
          */
         public Builder setTransactionByUserId(
             io.dstore.values.IntegerValue.Builder builderForValue) {
@@ -1690,7 +1690,7 @@ public final class OmGetTransactionMetaInfoAd {
          * ID des Benutzers, durch den die Transaktion erzeugt wurde
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue transaction_by_user_id = 10001;</code>
+         * <code>.dstore.values.IntegerValue transaction_by_user_id = 10001;</code>
          */
         public Builder mergeTransactionByUserId(io.dstore.values.IntegerValue value) {
           if (transactionByUserIdBuilder_ == null) {
@@ -1712,7 +1712,7 @@ public final class OmGetTransactionMetaInfoAd {
          * ID des Benutzers, durch den die Transaktion erzeugt wurde
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue transaction_by_user_id = 10001;</code>
+         * <code>.dstore.values.IntegerValue transaction_by_user_id = 10001;</code>
          */
         public Builder clearTransactionByUserId() {
           if (transactionByUserIdBuilder_ == null) {
@@ -1730,7 +1730,7 @@ public final class OmGetTransactionMetaInfoAd {
          * ID des Benutzers, durch den die Transaktion erzeugt wurde
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue transaction_by_user_id = 10001;</code>
+         * <code>.dstore.values.IntegerValue transaction_by_user_id = 10001;</code>
          */
         public io.dstore.values.IntegerValue.Builder getTransactionByUserIdBuilder() {
           
@@ -1742,7 +1742,7 @@ public final class OmGetTransactionMetaInfoAd {
          * ID des Benutzers, durch den die Transaktion erzeugt wurde
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue transaction_by_user_id = 10001;</code>
+         * <code>.dstore.values.IntegerValue transaction_by_user_id = 10001;</code>
          */
         public io.dstore.values.IntegerValueOrBuilder getTransactionByUserIdOrBuilder() {
           if (transactionByUserIdBuilder_ != null) {
@@ -1757,7 +1757,7 @@ public final class OmGetTransactionMetaInfoAd {
          * ID des Benutzers, durch den die Transaktion erzeugt wurde
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue transaction_by_user_id = 10001;</code>
+         * <code>.dstore.values.IntegerValue transaction_by_user_id = 10001;</code>
          */
         private com.google.protobuf.SingleFieldBuilderV3<
             io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> 
@@ -1781,7 +1781,7 @@ public final class OmGetTransactionMetaInfoAd {
          * Name der Prozedur, durch die die Transaktion erzeugt wurde
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue transaction_by_procedure_name = 10002;</code>
+         * <code>.dstore.values.StringValue transaction_by_procedure_name = 10002;</code>
          */
         public boolean hasTransactionByProcedureName() {
           return transactionByProcedureNameBuilder_ != null || transactionByProcedureName_ != null;
@@ -1791,7 +1791,7 @@ public final class OmGetTransactionMetaInfoAd {
          * Name der Prozedur, durch die die Transaktion erzeugt wurde
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue transaction_by_procedure_name = 10002;</code>
+         * <code>.dstore.values.StringValue transaction_by_procedure_name = 10002;</code>
          */
         public io.dstore.values.StringValue getTransactionByProcedureName() {
           if (transactionByProcedureNameBuilder_ == null) {
@@ -1805,7 +1805,7 @@ public final class OmGetTransactionMetaInfoAd {
          * Name der Prozedur, durch die die Transaktion erzeugt wurde
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue transaction_by_procedure_name = 10002;</code>
+         * <code>.dstore.values.StringValue transaction_by_procedure_name = 10002;</code>
          */
         public Builder setTransactionByProcedureName(io.dstore.values.StringValue value) {
           if (transactionByProcedureNameBuilder_ == null) {
@@ -1825,7 +1825,7 @@ public final class OmGetTransactionMetaInfoAd {
          * Name der Prozedur, durch die die Transaktion erzeugt wurde
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue transaction_by_procedure_name = 10002;</code>
+         * <code>.dstore.values.StringValue transaction_by_procedure_name = 10002;</code>
          */
         public Builder setTransactionByProcedureName(
             io.dstore.values.StringValue.Builder builderForValue) {
@@ -1843,7 +1843,7 @@ public final class OmGetTransactionMetaInfoAd {
          * Name der Prozedur, durch die die Transaktion erzeugt wurde
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue transaction_by_procedure_name = 10002;</code>
+         * <code>.dstore.values.StringValue transaction_by_procedure_name = 10002;</code>
          */
         public Builder mergeTransactionByProcedureName(io.dstore.values.StringValue value) {
           if (transactionByProcedureNameBuilder_ == null) {
@@ -1865,7 +1865,7 @@ public final class OmGetTransactionMetaInfoAd {
          * Name der Prozedur, durch die die Transaktion erzeugt wurde
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue transaction_by_procedure_name = 10002;</code>
+         * <code>.dstore.values.StringValue transaction_by_procedure_name = 10002;</code>
          */
         public Builder clearTransactionByProcedureName() {
           if (transactionByProcedureNameBuilder_ == null) {
@@ -1883,7 +1883,7 @@ public final class OmGetTransactionMetaInfoAd {
          * Name der Prozedur, durch die die Transaktion erzeugt wurde
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue transaction_by_procedure_name = 10002;</code>
+         * <code>.dstore.values.StringValue transaction_by_procedure_name = 10002;</code>
          */
         public io.dstore.values.StringValue.Builder getTransactionByProcedureNameBuilder() {
           
@@ -1895,7 +1895,7 @@ public final class OmGetTransactionMetaInfoAd {
          * Name der Prozedur, durch die die Transaktion erzeugt wurde
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue transaction_by_procedure_name = 10002;</code>
+         * <code>.dstore.values.StringValue transaction_by_procedure_name = 10002;</code>
          */
         public io.dstore.values.StringValueOrBuilder getTransactionByProcedureNameOrBuilder() {
           if (transactionByProcedureNameBuilder_ != null) {
@@ -1910,7 +1910,7 @@ public final class OmGetTransactionMetaInfoAd {
          * Name der Prozedur, durch die die Transaktion erzeugt wurde
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue transaction_by_procedure_name = 10002;</code>
+         * <code>.dstore.values.StringValue transaction_by_procedure_name = 10002;</code>
          */
         private com.google.protobuf.SingleFieldBuilderV3<
             io.dstore.values.StringValue, io.dstore.values.StringValue.Builder, io.dstore.values.StringValueOrBuilder> 
@@ -1934,7 +1934,7 @@ public final class OmGetTransactionMetaInfoAd {
          * Ein interner Kommentar zur Transaktion
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue internal_transaction_comment = 10003;</code>
+         * <code>.dstore.values.StringValue internal_transaction_comment = 10003;</code>
          */
         public boolean hasInternalTransactionComment() {
           return internalTransactionCommentBuilder_ != null || internalTransactionComment_ != null;
@@ -1944,7 +1944,7 @@ public final class OmGetTransactionMetaInfoAd {
          * Ein interner Kommentar zur Transaktion
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue internal_transaction_comment = 10003;</code>
+         * <code>.dstore.values.StringValue internal_transaction_comment = 10003;</code>
          */
         public io.dstore.values.StringValue getInternalTransactionComment() {
           if (internalTransactionCommentBuilder_ == null) {
@@ -1958,7 +1958,7 @@ public final class OmGetTransactionMetaInfoAd {
          * Ein interner Kommentar zur Transaktion
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue internal_transaction_comment = 10003;</code>
+         * <code>.dstore.values.StringValue internal_transaction_comment = 10003;</code>
          */
         public Builder setInternalTransactionComment(io.dstore.values.StringValue value) {
           if (internalTransactionCommentBuilder_ == null) {
@@ -1978,7 +1978,7 @@ public final class OmGetTransactionMetaInfoAd {
          * Ein interner Kommentar zur Transaktion
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue internal_transaction_comment = 10003;</code>
+         * <code>.dstore.values.StringValue internal_transaction_comment = 10003;</code>
          */
         public Builder setInternalTransactionComment(
             io.dstore.values.StringValue.Builder builderForValue) {
@@ -1996,7 +1996,7 @@ public final class OmGetTransactionMetaInfoAd {
          * Ein interner Kommentar zur Transaktion
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue internal_transaction_comment = 10003;</code>
+         * <code>.dstore.values.StringValue internal_transaction_comment = 10003;</code>
          */
         public Builder mergeInternalTransactionComment(io.dstore.values.StringValue value) {
           if (internalTransactionCommentBuilder_ == null) {
@@ -2018,7 +2018,7 @@ public final class OmGetTransactionMetaInfoAd {
          * Ein interner Kommentar zur Transaktion
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue internal_transaction_comment = 10003;</code>
+         * <code>.dstore.values.StringValue internal_transaction_comment = 10003;</code>
          */
         public Builder clearInternalTransactionComment() {
           if (internalTransactionCommentBuilder_ == null) {
@@ -2036,7 +2036,7 @@ public final class OmGetTransactionMetaInfoAd {
          * Ein interner Kommentar zur Transaktion
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue internal_transaction_comment = 10003;</code>
+         * <code>.dstore.values.StringValue internal_transaction_comment = 10003;</code>
          */
         public io.dstore.values.StringValue.Builder getInternalTransactionCommentBuilder() {
           
@@ -2048,7 +2048,7 @@ public final class OmGetTransactionMetaInfoAd {
          * Ein interner Kommentar zur Transaktion
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue internal_transaction_comment = 10003;</code>
+         * <code>.dstore.values.StringValue internal_transaction_comment = 10003;</code>
          */
         public io.dstore.values.StringValueOrBuilder getInternalTransactionCommentOrBuilder() {
           if (internalTransactionCommentBuilder_ != null) {
@@ -2063,7 +2063,7 @@ public final class OmGetTransactionMetaInfoAd {
          * Ein interner Kommentar zur Transaktion
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue internal_transaction_comment = 10003;</code>
+         * <code>.dstore.values.StringValue internal_transaction_comment = 10003;</code>
          */
         private com.google.protobuf.SingleFieldBuilderV3<
             io.dstore.values.StringValue, io.dstore.values.StringValue.Builder, io.dstore.values.StringValueOrBuilder> 
@@ -2087,7 +2087,7 @@ public final class OmGetTransactionMetaInfoAd {
          * Die ID der Transaktion
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue transaction_id = 10004;</code>
+         * <code>.dstore.values.IntegerValue transaction_id = 10004;</code>
          */
         public boolean hasTransactionId() {
           return transactionIdBuilder_ != null || transactionId_ != null;
@@ -2097,7 +2097,7 @@ public final class OmGetTransactionMetaInfoAd {
          * Die ID der Transaktion
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue transaction_id = 10004;</code>
+         * <code>.dstore.values.IntegerValue transaction_id = 10004;</code>
          */
         public io.dstore.values.IntegerValue getTransactionId() {
           if (transactionIdBuilder_ == null) {
@@ -2111,7 +2111,7 @@ public final class OmGetTransactionMetaInfoAd {
          * Die ID der Transaktion
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue transaction_id = 10004;</code>
+         * <code>.dstore.values.IntegerValue transaction_id = 10004;</code>
          */
         public Builder setTransactionId(io.dstore.values.IntegerValue value) {
           if (transactionIdBuilder_ == null) {
@@ -2131,7 +2131,7 @@ public final class OmGetTransactionMetaInfoAd {
          * Die ID der Transaktion
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue transaction_id = 10004;</code>
+         * <code>.dstore.values.IntegerValue transaction_id = 10004;</code>
          */
         public Builder setTransactionId(
             io.dstore.values.IntegerValue.Builder builderForValue) {
@@ -2149,7 +2149,7 @@ public final class OmGetTransactionMetaInfoAd {
          * Die ID der Transaktion
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue transaction_id = 10004;</code>
+         * <code>.dstore.values.IntegerValue transaction_id = 10004;</code>
          */
         public Builder mergeTransactionId(io.dstore.values.IntegerValue value) {
           if (transactionIdBuilder_ == null) {
@@ -2171,7 +2171,7 @@ public final class OmGetTransactionMetaInfoAd {
          * Die ID der Transaktion
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue transaction_id = 10004;</code>
+         * <code>.dstore.values.IntegerValue transaction_id = 10004;</code>
          */
         public Builder clearTransactionId() {
           if (transactionIdBuilder_ == null) {
@@ -2189,7 +2189,7 @@ public final class OmGetTransactionMetaInfoAd {
          * Die ID der Transaktion
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue transaction_id = 10004;</code>
+         * <code>.dstore.values.IntegerValue transaction_id = 10004;</code>
          */
         public io.dstore.values.IntegerValue.Builder getTransactionIdBuilder() {
           
@@ -2201,7 +2201,7 @@ public final class OmGetTransactionMetaInfoAd {
          * Die ID der Transaktion
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue transaction_id = 10004;</code>
+         * <code>.dstore.values.IntegerValue transaction_id = 10004;</code>
          */
         public io.dstore.values.IntegerValueOrBuilder getTransactionIdOrBuilder() {
           if (transactionIdBuilder_ != null) {
@@ -2216,7 +2216,7 @@ public final class OmGetTransactionMetaInfoAd {
          * Die ID der Transaktion
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue transaction_id = 10004;</code>
+         * <code>.dstore.values.IntegerValue transaction_id = 10004;</code>
          */
         private com.google.protobuf.SingleFieldBuilderV3<
             io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> 
@@ -2476,7 +2476,7 @@ public final class OmGetTransactionMetaInfoAd {
         return memoizedHashCode;
       }
       int hash = 41;
-      hash = (19 * hash) + getDescriptorForType().hashCode();
+      hash = (19 * hash) + getDescriptor().hashCode();
       if (getMetaInformationCount() > 0) {
         hash = (37 * hash) + META_INFORMATION_FIELD_NUMBER;
         hash = (53 * hash) + getMetaInformationList().hashCode();

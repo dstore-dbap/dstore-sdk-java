@@ -19,20 +19,20 @@ public final class MiGetdStoreUserAd {
       com.google.protobuf.MessageOrBuilder {
 
     /**
-     * <code>optional .dstore.values.BooleanValue only_admins = 1;</code>
+     * <code>.dstore.values.BooleanValue only_admins = 1;</code>
      */
     boolean hasOnlyAdmins();
     /**
-     * <code>optional .dstore.values.BooleanValue only_admins = 1;</code>
+     * <code>.dstore.values.BooleanValue only_admins = 1;</code>
      */
     io.dstore.values.BooleanValue getOnlyAdmins();
     /**
-     * <code>optional .dstore.values.BooleanValue only_admins = 1;</code>
+     * <code>.dstore.values.BooleanValue only_admins = 1;</code>
      */
     io.dstore.values.BooleanValueOrBuilder getOnlyAdminsOrBuilder();
 
     /**
-     * <code>optional bool only_admins_null = 1001;</code>
+     * <code>bool only_admins_null = 1001;</code>
      */
     boolean getOnlyAdminsNull();
   }
@@ -120,19 +120,19 @@ public final class MiGetdStoreUserAd {
     public static final int ONLY_ADMINS_FIELD_NUMBER = 1;
     private io.dstore.values.BooleanValue onlyAdmins_;
     /**
-     * <code>optional .dstore.values.BooleanValue only_admins = 1;</code>
+     * <code>.dstore.values.BooleanValue only_admins = 1;</code>
      */
     public boolean hasOnlyAdmins() {
       return onlyAdmins_ != null;
     }
     /**
-     * <code>optional .dstore.values.BooleanValue only_admins = 1;</code>
+     * <code>.dstore.values.BooleanValue only_admins = 1;</code>
      */
     public io.dstore.values.BooleanValue getOnlyAdmins() {
       return onlyAdmins_ == null ? io.dstore.values.BooleanValue.getDefaultInstance() : onlyAdmins_;
     }
     /**
-     * <code>optional .dstore.values.BooleanValue only_admins = 1;</code>
+     * <code>.dstore.values.BooleanValue only_admins = 1;</code>
      */
     public io.dstore.values.BooleanValueOrBuilder getOnlyAdminsOrBuilder() {
       return getOnlyAdmins();
@@ -141,7 +141,7 @@ public final class MiGetdStoreUserAd {
     public static final int ONLY_ADMINS_NULL_FIELD_NUMBER = 1001;
     private boolean onlyAdminsNull_;
     /**
-     * <code>optional bool only_admins_null = 1001;</code>
+     * <code>bool only_admins_null = 1001;</code>
      */
     public boolean getOnlyAdminsNull() {
       return onlyAdminsNull_;
@@ -212,7 +212,7 @@ public final class MiGetdStoreUserAd {
         return memoizedHashCode;
       }
       int hash = 41;
-      hash = (19 * hash) + getDescriptorForType().hashCode();
+      hash = (19 * hash) + getDescriptor().hashCode();
       if (hasOnlyAdmins()) {
         hash = (37 * hash) + ONLY_ADMINS_FIELD_NUMBER;
         hash = (53 * hash) + getOnlyAdmins().hashCode();
@@ -451,13 +451,13 @@ public final class MiGetdStoreUserAd {
       private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.values.BooleanValue, io.dstore.values.BooleanValue.Builder, io.dstore.values.BooleanValueOrBuilder> onlyAdminsBuilder_;
       /**
-       * <code>optional .dstore.values.BooleanValue only_admins = 1;</code>
+       * <code>.dstore.values.BooleanValue only_admins = 1;</code>
        */
       public boolean hasOnlyAdmins() {
         return onlyAdminsBuilder_ != null || onlyAdmins_ != null;
       }
       /**
-       * <code>optional .dstore.values.BooleanValue only_admins = 1;</code>
+       * <code>.dstore.values.BooleanValue only_admins = 1;</code>
        */
       public io.dstore.values.BooleanValue getOnlyAdmins() {
         if (onlyAdminsBuilder_ == null) {
@@ -467,7 +467,7 @@ public final class MiGetdStoreUserAd {
         }
       }
       /**
-       * <code>optional .dstore.values.BooleanValue only_admins = 1;</code>
+       * <code>.dstore.values.BooleanValue only_admins = 1;</code>
        */
       public Builder setOnlyAdmins(io.dstore.values.BooleanValue value) {
         if (onlyAdminsBuilder_ == null) {
@@ -483,7 +483,7 @@ public final class MiGetdStoreUserAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.BooleanValue only_admins = 1;</code>
+       * <code>.dstore.values.BooleanValue only_admins = 1;</code>
        */
       public Builder setOnlyAdmins(
           io.dstore.values.BooleanValue.Builder builderForValue) {
@@ -497,7 +497,7 @@ public final class MiGetdStoreUserAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.BooleanValue only_admins = 1;</code>
+       * <code>.dstore.values.BooleanValue only_admins = 1;</code>
        */
       public Builder mergeOnlyAdmins(io.dstore.values.BooleanValue value) {
         if (onlyAdminsBuilder_ == null) {
@@ -515,7 +515,7 @@ public final class MiGetdStoreUserAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.BooleanValue only_admins = 1;</code>
+       * <code>.dstore.values.BooleanValue only_admins = 1;</code>
        */
       public Builder clearOnlyAdmins() {
         if (onlyAdminsBuilder_ == null) {
@@ -529,7 +529,7 @@ public final class MiGetdStoreUserAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.BooleanValue only_admins = 1;</code>
+       * <code>.dstore.values.BooleanValue only_admins = 1;</code>
        */
       public io.dstore.values.BooleanValue.Builder getOnlyAdminsBuilder() {
         
@@ -537,7 +537,7 @@ public final class MiGetdStoreUserAd {
         return getOnlyAdminsFieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .dstore.values.BooleanValue only_admins = 1;</code>
+       * <code>.dstore.values.BooleanValue only_admins = 1;</code>
        */
       public io.dstore.values.BooleanValueOrBuilder getOnlyAdminsOrBuilder() {
         if (onlyAdminsBuilder_ != null) {
@@ -548,7 +548,7 @@ public final class MiGetdStoreUserAd {
         }
       }
       /**
-       * <code>optional .dstore.values.BooleanValue only_admins = 1;</code>
+       * <code>.dstore.values.BooleanValue only_admins = 1;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.values.BooleanValue, io.dstore.values.BooleanValue.Builder, io.dstore.values.BooleanValueOrBuilder> 
@@ -566,13 +566,13 @@ public final class MiGetdStoreUserAd {
 
       private boolean onlyAdminsNull_ ;
       /**
-       * <code>optional bool only_admins_null = 1001;</code>
+       * <code>bool only_admins_null = 1001;</code>
        */
       public boolean getOnlyAdminsNull() {
         return onlyAdminsNull_;
       }
       /**
-       * <code>optional bool only_admins_null = 1001;</code>
+       * <code>bool only_admins_null = 1001;</code>
        */
       public Builder setOnlyAdminsNull(boolean value) {
         
@@ -581,7 +581,7 @@ public final class MiGetdStoreUserAd {
         return this;
       }
       /**
-       * <code>optional bool only_admins_null = 1001;</code>
+       * <code>bool only_admins_null = 1001;</code>
        */
       public Builder clearOnlyAdminsNull() {
         
@@ -840,7 +840,7 @@ public final class MiGetdStoreUserAd {
         com.google.protobuf.MessageOrBuilder {
 
       /**
-       * <code>optional int32 row_id = 10000;</code>
+       * <code>int32 row_id = 10000;</code>
        */
       int getRowId();
 
@@ -849,7 +849,7 @@ public final class MiGetdStoreUserAd {
        * Name des Benutzers "UserID"
        * </pre>
        *
-       * <code>optional .dstore.values.StringValue user_name = 10001;</code>
+       * <code>.dstore.values.StringValue user_name = 10001;</code>
        */
       boolean hasUserName();
       /**
@@ -857,7 +857,7 @@ public final class MiGetdStoreUserAd {
        * Name des Benutzers "UserID"
        * </pre>
        *
-       * <code>optional .dstore.values.StringValue user_name = 10001;</code>
+       * <code>.dstore.values.StringValue user_name = 10001;</code>
        */
       io.dstore.values.StringValue getUserName();
       /**
@@ -865,7 +865,7 @@ public final class MiGetdStoreUserAd {
        * Name des Benutzers "UserID"
        * </pre>
        *
-       * <code>optional .dstore.values.StringValue user_name = 10001;</code>
+       * <code>.dstore.values.StringValue user_name = 10001;</code>
        */
       io.dstore.values.StringValueOrBuilder getUserNameOrBuilder();
 
@@ -874,7 +874,7 @@ public final class MiGetdStoreUserAd {
        * ID eines "dStore" / "ASE"-Benutzers, der in "UserInfo" registriert ist
        * </pre>
        *
-       * <code>optional .dstore.values.IntegerValue user_id = 10002;</code>
+       * <code>.dstore.values.IntegerValue user_id = 10002;</code>
        */
       boolean hasUserId();
       /**
@@ -882,7 +882,7 @@ public final class MiGetdStoreUserAd {
        * ID eines "dStore" / "ASE"-Benutzers, der in "UserInfo" registriert ist
        * </pre>
        *
-       * <code>optional .dstore.values.IntegerValue user_id = 10002;</code>
+       * <code>.dstore.values.IntegerValue user_id = 10002;</code>
        */
       io.dstore.values.IntegerValue getUserId();
       /**
@@ -890,7 +890,7 @@ public final class MiGetdStoreUserAd {
        * ID eines "dStore" / "ASE"-Benutzers, der in "UserInfo" registriert ist
        * </pre>
        *
-       * <code>optional .dstore.values.IntegerValue user_id = 10002;</code>
+       * <code>.dstore.values.IntegerValue user_id = 10002;</code>
        */
       io.dstore.values.IntegerValueOrBuilder getUserIdOrBuilder();
     }
@@ -991,7 +991,7 @@ public final class MiGetdStoreUserAd {
       public static final int ROW_ID_FIELD_NUMBER = 10000;
       private int rowId_;
       /**
-       * <code>optional int32 row_id = 10000;</code>
+       * <code>int32 row_id = 10000;</code>
        */
       public int getRowId() {
         return rowId_;
@@ -1004,7 +1004,7 @@ public final class MiGetdStoreUserAd {
        * Name des Benutzers "UserID"
        * </pre>
        *
-       * <code>optional .dstore.values.StringValue user_name = 10001;</code>
+       * <code>.dstore.values.StringValue user_name = 10001;</code>
        */
       public boolean hasUserName() {
         return userName_ != null;
@@ -1014,7 +1014,7 @@ public final class MiGetdStoreUserAd {
        * Name des Benutzers "UserID"
        * </pre>
        *
-       * <code>optional .dstore.values.StringValue user_name = 10001;</code>
+       * <code>.dstore.values.StringValue user_name = 10001;</code>
        */
       public io.dstore.values.StringValue getUserName() {
         return userName_ == null ? io.dstore.values.StringValue.getDefaultInstance() : userName_;
@@ -1024,7 +1024,7 @@ public final class MiGetdStoreUserAd {
        * Name des Benutzers "UserID"
        * </pre>
        *
-       * <code>optional .dstore.values.StringValue user_name = 10001;</code>
+       * <code>.dstore.values.StringValue user_name = 10001;</code>
        */
       public io.dstore.values.StringValueOrBuilder getUserNameOrBuilder() {
         return getUserName();
@@ -1037,7 +1037,7 @@ public final class MiGetdStoreUserAd {
        * ID eines "dStore" / "ASE"-Benutzers, der in "UserInfo" registriert ist
        * </pre>
        *
-       * <code>optional .dstore.values.IntegerValue user_id = 10002;</code>
+       * <code>.dstore.values.IntegerValue user_id = 10002;</code>
        */
       public boolean hasUserId() {
         return userId_ != null;
@@ -1047,7 +1047,7 @@ public final class MiGetdStoreUserAd {
        * ID eines "dStore" / "ASE"-Benutzers, der in "UserInfo" registriert ist
        * </pre>
        *
-       * <code>optional .dstore.values.IntegerValue user_id = 10002;</code>
+       * <code>.dstore.values.IntegerValue user_id = 10002;</code>
        */
       public io.dstore.values.IntegerValue getUserId() {
         return userId_ == null ? io.dstore.values.IntegerValue.getDefaultInstance() : userId_;
@@ -1057,7 +1057,7 @@ public final class MiGetdStoreUserAd {
        * ID eines "dStore" / "ASE"-Benutzers, der in "UserInfo" registriert ist
        * </pre>
        *
-       * <code>optional .dstore.values.IntegerValue user_id = 10002;</code>
+       * <code>.dstore.values.IntegerValue user_id = 10002;</code>
        */
       public io.dstore.values.IntegerValueOrBuilder getUserIdOrBuilder() {
         return getUserId();
@@ -1140,7 +1140,7 @@ public final class MiGetdStoreUserAd {
           return memoizedHashCode;
         }
         int hash = 41;
-        hash = (19 * hash) + getDescriptorForType().hashCode();
+        hash = (19 * hash) + getDescriptor().hashCode();
         hash = (37 * hash) + ROW_ID_FIELD_NUMBER;
         hash = (53 * hash) + getRowId();
         if (hasUserName()) {
@@ -1394,13 +1394,13 @@ public final class MiGetdStoreUserAd {
 
         private int rowId_ ;
         /**
-         * <code>optional int32 row_id = 10000;</code>
+         * <code>int32 row_id = 10000;</code>
          */
         public int getRowId() {
           return rowId_;
         }
         /**
-         * <code>optional int32 row_id = 10000;</code>
+         * <code>int32 row_id = 10000;</code>
          */
         public Builder setRowId(int value) {
           
@@ -1409,7 +1409,7 @@ public final class MiGetdStoreUserAd {
           return this;
         }
         /**
-         * <code>optional int32 row_id = 10000;</code>
+         * <code>int32 row_id = 10000;</code>
          */
         public Builder clearRowId() {
           
@@ -1426,7 +1426,7 @@ public final class MiGetdStoreUserAd {
          * Name des Benutzers "UserID"
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue user_name = 10001;</code>
+         * <code>.dstore.values.StringValue user_name = 10001;</code>
          */
         public boolean hasUserName() {
           return userNameBuilder_ != null || userName_ != null;
@@ -1436,7 +1436,7 @@ public final class MiGetdStoreUserAd {
          * Name des Benutzers "UserID"
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue user_name = 10001;</code>
+         * <code>.dstore.values.StringValue user_name = 10001;</code>
          */
         public io.dstore.values.StringValue getUserName() {
           if (userNameBuilder_ == null) {
@@ -1450,7 +1450,7 @@ public final class MiGetdStoreUserAd {
          * Name des Benutzers "UserID"
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue user_name = 10001;</code>
+         * <code>.dstore.values.StringValue user_name = 10001;</code>
          */
         public Builder setUserName(io.dstore.values.StringValue value) {
           if (userNameBuilder_ == null) {
@@ -1470,7 +1470,7 @@ public final class MiGetdStoreUserAd {
          * Name des Benutzers "UserID"
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue user_name = 10001;</code>
+         * <code>.dstore.values.StringValue user_name = 10001;</code>
          */
         public Builder setUserName(
             io.dstore.values.StringValue.Builder builderForValue) {
@@ -1488,7 +1488,7 @@ public final class MiGetdStoreUserAd {
          * Name des Benutzers "UserID"
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue user_name = 10001;</code>
+         * <code>.dstore.values.StringValue user_name = 10001;</code>
          */
         public Builder mergeUserName(io.dstore.values.StringValue value) {
           if (userNameBuilder_ == null) {
@@ -1510,7 +1510,7 @@ public final class MiGetdStoreUserAd {
          * Name des Benutzers "UserID"
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue user_name = 10001;</code>
+         * <code>.dstore.values.StringValue user_name = 10001;</code>
          */
         public Builder clearUserName() {
           if (userNameBuilder_ == null) {
@@ -1528,7 +1528,7 @@ public final class MiGetdStoreUserAd {
          * Name des Benutzers "UserID"
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue user_name = 10001;</code>
+         * <code>.dstore.values.StringValue user_name = 10001;</code>
          */
         public io.dstore.values.StringValue.Builder getUserNameBuilder() {
           
@@ -1540,7 +1540,7 @@ public final class MiGetdStoreUserAd {
          * Name des Benutzers "UserID"
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue user_name = 10001;</code>
+         * <code>.dstore.values.StringValue user_name = 10001;</code>
          */
         public io.dstore.values.StringValueOrBuilder getUserNameOrBuilder() {
           if (userNameBuilder_ != null) {
@@ -1555,7 +1555,7 @@ public final class MiGetdStoreUserAd {
          * Name des Benutzers "UserID"
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue user_name = 10001;</code>
+         * <code>.dstore.values.StringValue user_name = 10001;</code>
          */
         private com.google.protobuf.SingleFieldBuilderV3<
             io.dstore.values.StringValue, io.dstore.values.StringValue.Builder, io.dstore.values.StringValueOrBuilder> 
@@ -1579,7 +1579,7 @@ public final class MiGetdStoreUserAd {
          * ID eines "dStore" / "ASE"-Benutzers, der in "UserInfo" registriert ist
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue user_id = 10002;</code>
+         * <code>.dstore.values.IntegerValue user_id = 10002;</code>
          */
         public boolean hasUserId() {
           return userIdBuilder_ != null || userId_ != null;
@@ -1589,7 +1589,7 @@ public final class MiGetdStoreUserAd {
          * ID eines "dStore" / "ASE"-Benutzers, der in "UserInfo" registriert ist
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue user_id = 10002;</code>
+         * <code>.dstore.values.IntegerValue user_id = 10002;</code>
          */
         public io.dstore.values.IntegerValue getUserId() {
           if (userIdBuilder_ == null) {
@@ -1603,7 +1603,7 @@ public final class MiGetdStoreUserAd {
          * ID eines "dStore" / "ASE"-Benutzers, der in "UserInfo" registriert ist
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue user_id = 10002;</code>
+         * <code>.dstore.values.IntegerValue user_id = 10002;</code>
          */
         public Builder setUserId(io.dstore.values.IntegerValue value) {
           if (userIdBuilder_ == null) {
@@ -1623,7 +1623,7 @@ public final class MiGetdStoreUserAd {
          * ID eines "dStore" / "ASE"-Benutzers, der in "UserInfo" registriert ist
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue user_id = 10002;</code>
+         * <code>.dstore.values.IntegerValue user_id = 10002;</code>
          */
         public Builder setUserId(
             io.dstore.values.IntegerValue.Builder builderForValue) {
@@ -1641,7 +1641,7 @@ public final class MiGetdStoreUserAd {
          * ID eines "dStore" / "ASE"-Benutzers, der in "UserInfo" registriert ist
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue user_id = 10002;</code>
+         * <code>.dstore.values.IntegerValue user_id = 10002;</code>
          */
         public Builder mergeUserId(io.dstore.values.IntegerValue value) {
           if (userIdBuilder_ == null) {
@@ -1663,7 +1663,7 @@ public final class MiGetdStoreUserAd {
          * ID eines "dStore" / "ASE"-Benutzers, der in "UserInfo" registriert ist
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue user_id = 10002;</code>
+         * <code>.dstore.values.IntegerValue user_id = 10002;</code>
          */
         public Builder clearUserId() {
           if (userIdBuilder_ == null) {
@@ -1681,7 +1681,7 @@ public final class MiGetdStoreUserAd {
          * ID eines "dStore" / "ASE"-Benutzers, der in "UserInfo" registriert ist
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue user_id = 10002;</code>
+         * <code>.dstore.values.IntegerValue user_id = 10002;</code>
          */
         public io.dstore.values.IntegerValue.Builder getUserIdBuilder() {
           
@@ -1693,7 +1693,7 @@ public final class MiGetdStoreUserAd {
          * ID eines "dStore" / "ASE"-Benutzers, der in "UserInfo" registriert ist
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue user_id = 10002;</code>
+         * <code>.dstore.values.IntegerValue user_id = 10002;</code>
          */
         public io.dstore.values.IntegerValueOrBuilder getUserIdOrBuilder() {
           if (userIdBuilder_ != null) {
@@ -1708,7 +1708,7 @@ public final class MiGetdStoreUserAd {
          * ID eines "dStore" / "ASE"-Benutzers, der in "UserInfo" registriert ist
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue user_id = 10002;</code>
+         * <code>.dstore.values.IntegerValue user_id = 10002;</code>
          */
         private com.google.protobuf.SingleFieldBuilderV3<
             io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> 
@@ -1968,7 +1968,7 @@ public final class MiGetdStoreUserAd {
         return memoizedHashCode;
       }
       int hash = 41;
-      hash = (19 * hash) + getDescriptorForType().hashCode();
+      hash = (19 * hash) + getDescriptor().hashCode();
       if (getMetaInformationCount() > 0) {
         hash = (37 * hash) + META_INFORMATION_FIELD_NUMBER;
         hash = (53 * hash) + getMetaInformationList().hashCode();

@@ -19,20 +19,20 @@ public final class ImGetBinaryAd {
       com.google.protobuf.MessageOrBuilder {
 
     /**
-     * <code>optional .dstore.values.IntegerValue binary_code_id = 1;</code>
+     * <code>.dstore.values.IntegerValue binary_code_id = 1;</code>
      */
     boolean hasBinaryCodeId();
     /**
-     * <code>optional .dstore.values.IntegerValue binary_code_id = 1;</code>
+     * <code>.dstore.values.IntegerValue binary_code_id = 1;</code>
      */
     io.dstore.values.IntegerValue getBinaryCodeId();
     /**
-     * <code>optional .dstore.values.IntegerValue binary_code_id = 1;</code>
+     * <code>.dstore.values.IntegerValue binary_code_id = 1;</code>
      */
     io.dstore.values.IntegerValueOrBuilder getBinaryCodeIdOrBuilder();
 
     /**
-     * <code>optional bool binary_code_id_null = 1001;</code>
+     * <code>bool binary_code_id_null = 1001;</code>
      */
     boolean getBinaryCodeIdNull();
   }
@@ -120,19 +120,19 @@ public final class ImGetBinaryAd {
     public static final int BINARY_CODE_ID_FIELD_NUMBER = 1;
     private io.dstore.values.IntegerValue binaryCodeId_;
     /**
-     * <code>optional .dstore.values.IntegerValue binary_code_id = 1;</code>
+     * <code>.dstore.values.IntegerValue binary_code_id = 1;</code>
      */
     public boolean hasBinaryCodeId() {
       return binaryCodeId_ != null;
     }
     /**
-     * <code>optional .dstore.values.IntegerValue binary_code_id = 1;</code>
+     * <code>.dstore.values.IntegerValue binary_code_id = 1;</code>
      */
     public io.dstore.values.IntegerValue getBinaryCodeId() {
       return binaryCodeId_ == null ? io.dstore.values.IntegerValue.getDefaultInstance() : binaryCodeId_;
     }
     /**
-     * <code>optional .dstore.values.IntegerValue binary_code_id = 1;</code>
+     * <code>.dstore.values.IntegerValue binary_code_id = 1;</code>
      */
     public io.dstore.values.IntegerValueOrBuilder getBinaryCodeIdOrBuilder() {
       return getBinaryCodeId();
@@ -141,7 +141,7 @@ public final class ImGetBinaryAd {
     public static final int BINARY_CODE_ID_NULL_FIELD_NUMBER = 1001;
     private boolean binaryCodeIdNull_;
     /**
-     * <code>optional bool binary_code_id_null = 1001;</code>
+     * <code>bool binary_code_id_null = 1001;</code>
      */
     public boolean getBinaryCodeIdNull() {
       return binaryCodeIdNull_;
@@ -212,7 +212,7 @@ public final class ImGetBinaryAd {
         return memoizedHashCode;
       }
       int hash = 41;
-      hash = (19 * hash) + getDescriptorForType().hashCode();
+      hash = (19 * hash) + getDescriptor().hashCode();
       if (hasBinaryCodeId()) {
         hash = (37 * hash) + BINARY_CODE_ID_FIELD_NUMBER;
         hash = (53 * hash) + getBinaryCodeId().hashCode();
@@ -451,13 +451,13 @@ public final class ImGetBinaryAd {
       private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> binaryCodeIdBuilder_;
       /**
-       * <code>optional .dstore.values.IntegerValue binary_code_id = 1;</code>
+       * <code>.dstore.values.IntegerValue binary_code_id = 1;</code>
        */
       public boolean hasBinaryCodeId() {
         return binaryCodeIdBuilder_ != null || binaryCodeId_ != null;
       }
       /**
-       * <code>optional .dstore.values.IntegerValue binary_code_id = 1;</code>
+       * <code>.dstore.values.IntegerValue binary_code_id = 1;</code>
        */
       public io.dstore.values.IntegerValue getBinaryCodeId() {
         if (binaryCodeIdBuilder_ == null) {
@@ -467,7 +467,7 @@ public final class ImGetBinaryAd {
         }
       }
       /**
-       * <code>optional .dstore.values.IntegerValue binary_code_id = 1;</code>
+       * <code>.dstore.values.IntegerValue binary_code_id = 1;</code>
        */
       public Builder setBinaryCodeId(io.dstore.values.IntegerValue value) {
         if (binaryCodeIdBuilder_ == null) {
@@ -483,7 +483,7 @@ public final class ImGetBinaryAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.IntegerValue binary_code_id = 1;</code>
+       * <code>.dstore.values.IntegerValue binary_code_id = 1;</code>
        */
       public Builder setBinaryCodeId(
           io.dstore.values.IntegerValue.Builder builderForValue) {
@@ -497,7 +497,7 @@ public final class ImGetBinaryAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.IntegerValue binary_code_id = 1;</code>
+       * <code>.dstore.values.IntegerValue binary_code_id = 1;</code>
        */
       public Builder mergeBinaryCodeId(io.dstore.values.IntegerValue value) {
         if (binaryCodeIdBuilder_ == null) {
@@ -515,7 +515,7 @@ public final class ImGetBinaryAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.IntegerValue binary_code_id = 1;</code>
+       * <code>.dstore.values.IntegerValue binary_code_id = 1;</code>
        */
       public Builder clearBinaryCodeId() {
         if (binaryCodeIdBuilder_ == null) {
@@ -529,7 +529,7 @@ public final class ImGetBinaryAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.IntegerValue binary_code_id = 1;</code>
+       * <code>.dstore.values.IntegerValue binary_code_id = 1;</code>
        */
       public io.dstore.values.IntegerValue.Builder getBinaryCodeIdBuilder() {
         
@@ -537,7 +537,7 @@ public final class ImGetBinaryAd {
         return getBinaryCodeIdFieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .dstore.values.IntegerValue binary_code_id = 1;</code>
+       * <code>.dstore.values.IntegerValue binary_code_id = 1;</code>
        */
       public io.dstore.values.IntegerValueOrBuilder getBinaryCodeIdOrBuilder() {
         if (binaryCodeIdBuilder_ != null) {
@@ -548,7 +548,7 @@ public final class ImGetBinaryAd {
         }
       }
       /**
-       * <code>optional .dstore.values.IntegerValue binary_code_id = 1;</code>
+       * <code>.dstore.values.IntegerValue binary_code_id = 1;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> 
@@ -566,13 +566,13 @@ public final class ImGetBinaryAd {
 
       private boolean binaryCodeIdNull_ ;
       /**
-       * <code>optional bool binary_code_id_null = 1001;</code>
+       * <code>bool binary_code_id_null = 1001;</code>
        */
       public boolean getBinaryCodeIdNull() {
         return binaryCodeIdNull_;
       }
       /**
-       * <code>optional bool binary_code_id_null = 1001;</code>
+       * <code>bool binary_code_id_null = 1001;</code>
        */
       public Builder setBinaryCodeIdNull(boolean value) {
         
@@ -581,7 +581,7 @@ public final class ImGetBinaryAd {
         return this;
       }
       /**
-       * <code>optional bool binary_code_id_null = 1001;</code>
+       * <code>bool binary_code_id_null = 1001;</code>
        */
       public Builder clearBinaryCodeIdNull() {
         
@@ -840,7 +840,7 @@ public final class ImGetBinaryAd {
         com.google.protobuf.MessageOrBuilder {
 
       /**
-       * <code>optional int32 row_id = 10000;</code>
+       * <code>int32 row_id = 10000;</code>
        */
       int getRowId();
 
@@ -849,7 +849,7 @@ public final class ImGetBinaryAd {
        * Der zur "&#64;BinaryCodeID" zugehörige Code, also quasi das Binärobjekt selbst
        * </pre>
        *
-       * <code>optional .dstore.values.BytesValue binary_code = 10001;</code>
+       * <code>.dstore.values.BytesValue binary_code = 10001;</code>
        */
       boolean hasBinaryCode();
       /**
@@ -857,7 +857,7 @@ public final class ImGetBinaryAd {
        * Der zur "&#64;BinaryCodeID" zugehörige Code, also quasi das Binärobjekt selbst
        * </pre>
        *
-       * <code>optional .dstore.values.BytesValue binary_code = 10001;</code>
+       * <code>.dstore.values.BytesValue binary_code = 10001;</code>
        */
       io.dstore.values.BytesValue getBinaryCode();
       /**
@@ -865,7 +865,7 @@ public final class ImGetBinaryAd {
        * Der zur "&#64;BinaryCodeID" zugehörige Code, also quasi das Binärobjekt selbst
        * </pre>
        *
-       * <code>optional .dstore.values.BytesValue binary_code = 10001;</code>
+       * <code>.dstore.values.BytesValue binary_code = 10001;</code>
        */
       io.dstore.values.BytesValueOrBuilder getBinaryCodeOrBuilder();
     }
@@ -953,7 +953,7 @@ public final class ImGetBinaryAd {
       public static final int ROW_ID_FIELD_NUMBER = 10000;
       private int rowId_;
       /**
-       * <code>optional int32 row_id = 10000;</code>
+       * <code>int32 row_id = 10000;</code>
        */
       public int getRowId() {
         return rowId_;
@@ -966,7 +966,7 @@ public final class ImGetBinaryAd {
        * Der zur "&#64;BinaryCodeID" zugehörige Code, also quasi das Binärobjekt selbst
        * </pre>
        *
-       * <code>optional .dstore.values.BytesValue binary_code = 10001;</code>
+       * <code>.dstore.values.BytesValue binary_code = 10001;</code>
        */
       public boolean hasBinaryCode() {
         return binaryCode_ != null;
@@ -976,7 +976,7 @@ public final class ImGetBinaryAd {
        * Der zur "&#64;BinaryCodeID" zugehörige Code, also quasi das Binärobjekt selbst
        * </pre>
        *
-       * <code>optional .dstore.values.BytesValue binary_code = 10001;</code>
+       * <code>.dstore.values.BytesValue binary_code = 10001;</code>
        */
       public io.dstore.values.BytesValue getBinaryCode() {
         return binaryCode_ == null ? io.dstore.values.BytesValue.getDefaultInstance() : binaryCode_;
@@ -986,7 +986,7 @@ public final class ImGetBinaryAd {
        * Der zur "&#64;BinaryCodeID" zugehörige Code, also quasi das Binärobjekt selbst
        * </pre>
        *
-       * <code>optional .dstore.values.BytesValue binary_code = 10001;</code>
+       * <code>.dstore.values.BytesValue binary_code = 10001;</code>
        */
       public io.dstore.values.BytesValueOrBuilder getBinaryCodeOrBuilder() {
         return getBinaryCode();
@@ -1057,7 +1057,7 @@ public final class ImGetBinaryAd {
           return memoizedHashCode;
         }
         int hash = 41;
-        hash = (19 * hash) + getDescriptorForType().hashCode();
+        hash = (19 * hash) + getDescriptor().hashCode();
         hash = (37 * hash) + ROW_ID_FIELD_NUMBER;
         hash = (53 * hash) + getRowId();
         if (hasBinaryCode()) {
@@ -1293,13 +1293,13 @@ public final class ImGetBinaryAd {
 
         private int rowId_ ;
         /**
-         * <code>optional int32 row_id = 10000;</code>
+         * <code>int32 row_id = 10000;</code>
          */
         public int getRowId() {
           return rowId_;
         }
         /**
-         * <code>optional int32 row_id = 10000;</code>
+         * <code>int32 row_id = 10000;</code>
          */
         public Builder setRowId(int value) {
           
@@ -1308,7 +1308,7 @@ public final class ImGetBinaryAd {
           return this;
         }
         /**
-         * <code>optional int32 row_id = 10000;</code>
+         * <code>int32 row_id = 10000;</code>
          */
         public Builder clearRowId() {
           
@@ -1325,7 +1325,7 @@ public final class ImGetBinaryAd {
          * Der zur "&#64;BinaryCodeID" zugehörige Code, also quasi das Binärobjekt selbst
          * </pre>
          *
-         * <code>optional .dstore.values.BytesValue binary_code = 10001;</code>
+         * <code>.dstore.values.BytesValue binary_code = 10001;</code>
          */
         public boolean hasBinaryCode() {
           return binaryCodeBuilder_ != null || binaryCode_ != null;
@@ -1335,7 +1335,7 @@ public final class ImGetBinaryAd {
          * Der zur "&#64;BinaryCodeID" zugehörige Code, also quasi das Binärobjekt selbst
          * </pre>
          *
-         * <code>optional .dstore.values.BytesValue binary_code = 10001;</code>
+         * <code>.dstore.values.BytesValue binary_code = 10001;</code>
          */
         public io.dstore.values.BytesValue getBinaryCode() {
           if (binaryCodeBuilder_ == null) {
@@ -1349,7 +1349,7 @@ public final class ImGetBinaryAd {
          * Der zur "&#64;BinaryCodeID" zugehörige Code, also quasi das Binärobjekt selbst
          * </pre>
          *
-         * <code>optional .dstore.values.BytesValue binary_code = 10001;</code>
+         * <code>.dstore.values.BytesValue binary_code = 10001;</code>
          */
         public Builder setBinaryCode(io.dstore.values.BytesValue value) {
           if (binaryCodeBuilder_ == null) {
@@ -1369,7 +1369,7 @@ public final class ImGetBinaryAd {
          * Der zur "&#64;BinaryCodeID" zugehörige Code, also quasi das Binärobjekt selbst
          * </pre>
          *
-         * <code>optional .dstore.values.BytesValue binary_code = 10001;</code>
+         * <code>.dstore.values.BytesValue binary_code = 10001;</code>
          */
         public Builder setBinaryCode(
             io.dstore.values.BytesValue.Builder builderForValue) {
@@ -1387,7 +1387,7 @@ public final class ImGetBinaryAd {
          * Der zur "&#64;BinaryCodeID" zugehörige Code, also quasi das Binärobjekt selbst
          * </pre>
          *
-         * <code>optional .dstore.values.BytesValue binary_code = 10001;</code>
+         * <code>.dstore.values.BytesValue binary_code = 10001;</code>
          */
         public Builder mergeBinaryCode(io.dstore.values.BytesValue value) {
           if (binaryCodeBuilder_ == null) {
@@ -1409,7 +1409,7 @@ public final class ImGetBinaryAd {
          * Der zur "&#64;BinaryCodeID" zugehörige Code, also quasi das Binärobjekt selbst
          * </pre>
          *
-         * <code>optional .dstore.values.BytesValue binary_code = 10001;</code>
+         * <code>.dstore.values.BytesValue binary_code = 10001;</code>
          */
         public Builder clearBinaryCode() {
           if (binaryCodeBuilder_ == null) {
@@ -1427,7 +1427,7 @@ public final class ImGetBinaryAd {
          * Der zur "&#64;BinaryCodeID" zugehörige Code, also quasi das Binärobjekt selbst
          * </pre>
          *
-         * <code>optional .dstore.values.BytesValue binary_code = 10001;</code>
+         * <code>.dstore.values.BytesValue binary_code = 10001;</code>
          */
         public io.dstore.values.BytesValue.Builder getBinaryCodeBuilder() {
           
@@ -1439,7 +1439,7 @@ public final class ImGetBinaryAd {
          * Der zur "&#64;BinaryCodeID" zugehörige Code, also quasi das Binärobjekt selbst
          * </pre>
          *
-         * <code>optional .dstore.values.BytesValue binary_code = 10001;</code>
+         * <code>.dstore.values.BytesValue binary_code = 10001;</code>
          */
         public io.dstore.values.BytesValueOrBuilder getBinaryCodeOrBuilder() {
           if (binaryCodeBuilder_ != null) {
@@ -1454,7 +1454,7 @@ public final class ImGetBinaryAd {
          * Der zur "&#64;BinaryCodeID" zugehörige Code, also quasi das Binärobjekt selbst
          * </pre>
          *
-         * <code>optional .dstore.values.BytesValue binary_code = 10001;</code>
+         * <code>.dstore.values.BytesValue binary_code = 10001;</code>
          */
         private com.google.protobuf.SingleFieldBuilderV3<
             io.dstore.values.BytesValue, io.dstore.values.BytesValue.Builder, io.dstore.values.BytesValueOrBuilder> 
@@ -1714,7 +1714,7 @@ public final class ImGetBinaryAd {
         return memoizedHashCode;
       }
       int hash = 41;
-      hash = (19 * hash) + getDescriptorForType().hashCode();
+      hash = (19 * hash) + getDescriptor().hashCode();
       if (getMetaInformationCount() > 0) {
         hash = (37 * hash) + META_INFORMATION_FIELD_NUMBER;
         hash = (53 * hash) + getMetaInformationList().hashCode();

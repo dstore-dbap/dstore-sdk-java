@@ -19,200 +19,200 @@ public final class StGetDirectSuccessorsTreeAd {
       com.google.protobuf.MessageOrBuilder {
 
     /**
-     * <code>optional .dstore.values.IntegerValue h_tree_node_id = 1;</code>
+     * <code>.dstore.values.IntegerValue h_tree_node_id = 1;</code>
      */
     boolean hasHTreeNodeId();
     /**
-     * <code>optional .dstore.values.IntegerValue h_tree_node_id = 1;</code>
+     * <code>.dstore.values.IntegerValue h_tree_node_id = 1;</code>
      */
     io.dstore.values.IntegerValue getHTreeNodeId();
     /**
-     * <code>optional .dstore.values.IntegerValue h_tree_node_id = 1;</code>
+     * <code>.dstore.values.IntegerValue h_tree_node_id = 1;</code>
      */
     io.dstore.values.IntegerValueOrBuilder getHTreeNodeIdOrBuilder();
 
     /**
-     * <code>optional bool h_tree_node_id_null = 1001;</code>
+     * <code>bool h_tree_node_id_null = 1001;</code>
      */
     boolean getHTreeNodeIdNull();
 
     /**
-     * <code>optional .dstore.values.TimestampValue from_date = 2;</code>
+     * <code>.dstore.values.TimestampValue from_date = 2;</code>
      */
     boolean hasFromDate();
     /**
-     * <code>optional .dstore.values.TimestampValue from_date = 2;</code>
+     * <code>.dstore.values.TimestampValue from_date = 2;</code>
      */
     io.dstore.values.TimestampValue getFromDate();
     /**
-     * <code>optional .dstore.values.TimestampValue from_date = 2;</code>
+     * <code>.dstore.values.TimestampValue from_date = 2;</code>
      */
     io.dstore.values.TimestampValueOrBuilder getFromDateOrBuilder();
 
     /**
-     * <code>optional bool from_date_null = 1002;</code>
+     * <code>bool from_date_null = 1002;</code>
      */
     boolean getFromDateNull();
 
     /**
-     * <code>optional .dstore.values.TimestampValue to_date = 3;</code>
+     * <code>.dstore.values.TimestampValue to_date = 3;</code>
      */
     boolean hasToDate();
     /**
-     * <code>optional .dstore.values.TimestampValue to_date = 3;</code>
+     * <code>.dstore.values.TimestampValue to_date = 3;</code>
      */
     io.dstore.values.TimestampValue getToDate();
     /**
-     * <code>optional .dstore.values.TimestampValue to_date = 3;</code>
+     * <code>.dstore.values.TimestampValue to_date = 3;</code>
      */
     io.dstore.values.TimestampValueOrBuilder getToDateOrBuilder();
 
     /**
-     * <code>optional bool to_date_null = 1003;</code>
+     * <code>bool to_date_null = 1003;</code>
      */
     boolean getToDateNull();
 
     /**
-     * <code>optional .dstore.values.IntegerValue basic_characteristic_no1 = 4;</code>
+     * <code>.dstore.values.IntegerValue basic_characteristic_no1 = 4;</code>
      */
     boolean hasBasicCharacteristicNo1();
     /**
-     * <code>optional .dstore.values.IntegerValue basic_characteristic_no1 = 4;</code>
+     * <code>.dstore.values.IntegerValue basic_characteristic_no1 = 4;</code>
      */
     io.dstore.values.IntegerValue getBasicCharacteristicNo1();
     /**
-     * <code>optional .dstore.values.IntegerValue basic_characteristic_no1 = 4;</code>
+     * <code>.dstore.values.IntegerValue basic_characteristic_no1 = 4;</code>
      */
     io.dstore.values.IntegerValueOrBuilder getBasicCharacteristicNo1OrBuilder();
 
     /**
-     * <code>optional bool basic_characteristic_no1_null = 1004;</code>
+     * <code>bool basic_characteristic_no1_null = 1004;</code>
      */
     boolean getBasicCharacteristicNo1Null();
 
     /**
-     * <code>optional .dstore.values.DecimalValue weight_basic_characteristic_no1 = 5;</code>
+     * <code>.dstore.values.DecimalValue weight_basic_characteristic_no1 = 5;</code>
      */
     boolean hasWeightBasicCharacteristicNo1();
     /**
-     * <code>optional .dstore.values.DecimalValue weight_basic_characteristic_no1 = 5;</code>
+     * <code>.dstore.values.DecimalValue weight_basic_characteristic_no1 = 5;</code>
      */
     io.dstore.values.DecimalValue getWeightBasicCharacteristicNo1();
     /**
-     * <code>optional .dstore.values.DecimalValue weight_basic_characteristic_no1 = 5;</code>
+     * <code>.dstore.values.DecimalValue weight_basic_characteristic_no1 = 5;</code>
      */
     io.dstore.values.DecimalValueOrBuilder getWeightBasicCharacteristicNo1OrBuilder();
 
     /**
-     * <code>optional bool weight_basic_characteristic_no1_null = 1005;</code>
+     * <code>bool weight_basic_characteristic_no1_null = 1005;</code>
      */
     boolean getWeightBasicCharacteristicNo1Null();
 
     /**
-     * <code>optional .dstore.values.IntegerValue basic_characteristic_no2 = 6;</code>
+     * <code>.dstore.values.IntegerValue basic_characteristic_no2 = 6;</code>
      */
     boolean hasBasicCharacteristicNo2();
     /**
-     * <code>optional .dstore.values.IntegerValue basic_characteristic_no2 = 6;</code>
+     * <code>.dstore.values.IntegerValue basic_characteristic_no2 = 6;</code>
      */
     io.dstore.values.IntegerValue getBasicCharacteristicNo2();
     /**
-     * <code>optional .dstore.values.IntegerValue basic_characteristic_no2 = 6;</code>
+     * <code>.dstore.values.IntegerValue basic_characteristic_no2 = 6;</code>
      */
     io.dstore.values.IntegerValueOrBuilder getBasicCharacteristicNo2OrBuilder();
 
     /**
-     * <code>optional bool basic_characteristic_no2_null = 1006;</code>
+     * <code>bool basic_characteristic_no2_null = 1006;</code>
      */
     boolean getBasicCharacteristicNo2Null();
 
     /**
-     * <code>optional .dstore.values.DecimalValue weight_basic_characteristic_no2 = 7;</code>
+     * <code>.dstore.values.DecimalValue weight_basic_characteristic_no2 = 7;</code>
      */
     boolean hasWeightBasicCharacteristicNo2();
     /**
-     * <code>optional .dstore.values.DecimalValue weight_basic_characteristic_no2 = 7;</code>
+     * <code>.dstore.values.DecimalValue weight_basic_characteristic_no2 = 7;</code>
      */
     io.dstore.values.DecimalValue getWeightBasicCharacteristicNo2();
     /**
-     * <code>optional .dstore.values.DecimalValue weight_basic_characteristic_no2 = 7;</code>
+     * <code>.dstore.values.DecimalValue weight_basic_characteristic_no2 = 7;</code>
      */
     io.dstore.values.DecimalValueOrBuilder getWeightBasicCharacteristicNo2OrBuilder();
 
     /**
-     * <code>optional bool weight_basic_characteristic_no2_null = 1007;</code>
+     * <code>bool weight_basic_characteristic_no2_null = 1007;</code>
      */
     boolean getWeightBasicCharacteristicNo2Null();
 
     /**
-     * <code>optional .dstore.values.IntegerValue basic_characteristic_no3 = 8;</code>
+     * <code>.dstore.values.IntegerValue basic_characteristic_no3 = 8;</code>
      */
     boolean hasBasicCharacteristicNo3();
     /**
-     * <code>optional .dstore.values.IntegerValue basic_characteristic_no3 = 8;</code>
+     * <code>.dstore.values.IntegerValue basic_characteristic_no3 = 8;</code>
      */
     io.dstore.values.IntegerValue getBasicCharacteristicNo3();
     /**
-     * <code>optional .dstore.values.IntegerValue basic_characteristic_no3 = 8;</code>
+     * <code>.dstore.values.IntegerValue basic_characteristic_no3 = 8;</code>
      */
     io.dstore.values.IntegerValueOrBuilder getBasicCharacteristicNo3OrBuilder();
 
     /**
-     * <code>optional bool basic_characteristic_no3_null = 1008;</code>
+     * <code>bool basic_characteristic_no3_null = 1008;</code>
      */
     boolean getBasicCharacteristicNo3Null();
 
     /**
-     * <code>optional .dstore.values.DecimalValue weight_basic_characteristic_no3 = 9;</code>
+     * <code>.dstore.values.DecimalValue weight_basic_characteristic_no3 = 9;</code>
      */
     boolean hasWeightBasicCharacteristicNo3();
     /**
-     * <code>optional .dstore.values.DecimalValue weight_basic_characteristic_no3 = 9;</code>
+     * <code>.dstore.values.DecimalValue weight_basic_characteristic_no3 = 9;</code>
      */
     io.dstore.values.DecimalValue getWeightBasicCharacteristicNo3();
     /**
-     * <code>optional .dstore.values.DecimalValue weight_basic_characteristic_no3 = 9;</code>
+     * <code>.dstore.values.DecimalValue weight_basic_characteristic_no3 = 9;</code>
      */
     io.dstore.values.DecimalValueOrBuilder getWeightBasicCharacteristicNo3OrBuilder();
 
     /**
-     * <code>optional bool weight_basic_characteristic_no3_null = 1009;</code>
+     * <code>bool weight_basic_characteristic_no3_null = 1009;</code>
      */
     boolean getWeightBasicCharacteristicNo3Null();
 
     /**
-     * <code>optional .dstore.values.IntegerValue source_table_for_statistics = 10;</code>
+     * <code>.dstore.values.IntegerValue source_table_for_statistics = 10;</code>
      */
     boolean hasSourceTableForStatistics();
     /**
-     * <code>optional .dstore.values.IntegerValue source_table_for_statistics = 10;</code>
+     * <code>.dstore.values.IntegerValue source_table_for_statistics = 10;</code>
      */
     io.dstore.values.IntegerValue getSourceTableForStatistics();
     /**
-     * <code>optional .dstore.values.IntegerValue source_table_for_statistics = 10;</code>
+     * <code>.dstore.values.IntegerValue source_table_for_statistics = 10;</code>
      */
     io.dstore.values.IntegerValueOrBuilder getSourceTableForStatisticsOrBuilder();
 
     /**
-     * <code>optional bool source_table_for_statistics_null = 1010;</code>
+     * <code>bool source_table_for_statistics_null = 1010;</code>
      */
     boolean getSourceTableForStatisticsNull();
 
     /**
-     * <code>optional .dstore.values.BooleanValue display_only_active = 11;</code>
+     * <code>.dstore.values.BooleanValue display_only_active = 11;</code>
      */
     boolean hasDisplayOnlyActive();
     /**
-     * <code>optional .dstore.values.BooleanValue display_only_active = 11;</code>
+     * <code>.dstore.values.BooleanValue display_only_active = 11;</code>
      */
     io.dstore.values.BooleanValue getDisplayOnlyActive();
     /**
-     * <code>optional .dstore.values.BooleanValue display_only_active = 11;</code>
+     * <code>.dstore.values.BooleanValue display_only_active = 11;</code>
      */
     io.dstore.values.BooleanValueOrBuilder getDisplayOnlyActiveOrBuilder();
 
     /**
-     * <code>optional bool display_only_active_null = 1011;</code>
+     * <code>bool display_only_active_null = 1011;</code>
      */
     boolean getDisplayOnlyActiveNull();
   }
@@ -490,19 +490,19 @@ public final class StGetDirectSuccessorsTreeAd {
     public static final int H_TREE_NODE_ID_FIELD_NUMBER = 1;
     private io.dstore.values.IntegerValue hTreeNodeId_;
     /**
-     * <code>optional .dstore.values.IntegerValue h_tree_node_id = 1;</code>
+     * <code>.dstore.values.IntegerValue h_tree_node_id = 1;</code>
      */
     public boolean hasHTreeNodeId() {
       return hTreeNodeId_ != null;
     }
     /**
-     * <code>optional .dstore.values.IntegerValue h_tree_node_id = 1;</code>
+     * <code>.dstore.values.IntegerValue h_tree_node_id = 1;</code>
      */
     public io.dstore.values.IntegerValue getHTreeNodeId() {
       return hTreeNodeId_ == null ? io.dstore.values.IntegerValue.getDefaultInstance() : hTreeNodeId_;
     }
     /**
-     * <code>optional .dstore.values.IntegerValue h_tree_node_id = 1;</code>
+     * <code>.dstore.values.IntegerValue h_tree_node_id = 1;</code>
      */
     public io.dstore.values.IntegerValueOrBuilder getHTreeNodeIdOrBuilder() {
       return getHTreeNodeId();
@@ -511,7 +511,7 @@ public final class StGetDirectSuccessorsTreeAd {
     public static final int H_TREE_NODE_ID_NULL_FIELD_NUMBER = 1001;
     private boolean hTreeNodeIdNull_;
     /**
-     * <code>optional bool h_tree_node_id_null = 1001;</code>
+     * <code>bool h_tree_node_id_null = 1001;</code>
      */
     public boolean getHTreeNodeIdNull() {
       return hTreeNodeIdNull_;
@@ -520,19 +520,19 @@ public final class StGetDirectSuccessorsTreeAd {
     public static final int FROM_DATE_FIELD_NUMBER = 2;
     private io.dstore.values.TimestampValue fromDate_;
     /**
-     * <code>optional .dstore.values.TimestampValue from_date = 2;</code>
+     * <code>.dstore.values.TimestampValue from_date = 2;</code>
      */
     public boolean hasFromDate() {
       return fromDate_ != null;
     }
     /**
-     * <code>optional .dstore.values.TimestampValue from_date = 2;</code>
+     * <code>.dstore.values.TimestampValue from_date = 2;</code>
      */
     public io.dstore.values.TimestampValue getFromDate() {
       return fromDate_ == null ? io.dstore.values.TimestampValue.getDefaultInstance() : fromDate_;
     }
     /**
-     * <code>optional .dstore.values.TimestampValue from_date = 2;</code>
+     * <code>.dstore.values.TimestampValue from_date = 2;</code>
      */
     public io.dstore.values.TimestampValueOrBuilder getFromDateOrBuilder() {
       return getFromDate();
@@ -541,7 +541,7 @@ public final class StGetDirectSuccessorsTreeAd {
     public static final int FROM_DATE_NULL_FIELD_NUMBER = 1002;
     private boolean fromDateNull_;
     /**
-     * <code>optional bool from_date_null = 1002;</code>
+     * <code>bool from_date_null = 1002;</code>
      */
     public boolean getFromDateNull() {
       return fromDateNull_;
@@ -550,19 +550,19 @@ public final class StGetDirectSuccessorsTreeAd {
     public static final int TO_DATE_FIELD_NUMBER = 3;
     private io.dstore.values.TimestampValue toDate_;
     /**
-     * <code>optional .dstore.values.TimestampValue to_date = 3;</code>
+     * <code>.dstore.values.TimestampValue to_date = 3;</code>
      */
     public boolean hasToDate() {
       return toDate_ != null;
     }
     /**
-     * <code>optional .dstore.values.TimestampValue to_date = 3;</code>
+     * <code>.dstore.values.TimestampValue to_date = 3;</code>
      */
     public io.dstore.values.TimestampValue getToDate() {
       return toDate_ == null ? io.dstore.values.TimestampValue.getDefaultInstance() : toDate_;
     }
     /**
-     * <code>optional .dstore.values.TimestampValue to_date = 3;</code>
+     * <code>.dstore.values.TimestampValue to_date = 3;</code>
      */
     public io.dstore.values.TimestampValueOrBuilder getToDateOrBuilder() {
       return getToDate();
@@ -571,7 +571,7 @@ public final class StGetDirectSuccessorsTreeAd {
     public static final int TO_DATE_NULL_FIELD_NUMBER = 1003;
     private boolean toDateNull_;
     /**
-     * <code>optional bool to_date_null = 1003;</code>
+     * <code>bool to_date_null = 1003;</code>
      */
     public boolean getToDateNull() {
       return toDateNull_;
@@ -580,19 +580,19 @@ public final class StGetDirectSuccessorsTreeAd {
     public static final int BASIC_CHARACTERISTIC_NO1_FIELD_NUMBER = 4;
     private io.dstore.values.IntegerValue basicCharacteristicNo1_;
     /**
-     * <code>optional .dstore.values.IntegerValue basic_characteristic_no1 = 4;</code>
+     * <code>.dstore.values.IntegerValue basic_characteristic_no1 = 4;</code>
      */
     public boolean hasBasicCharacteristicNo1() {
       return basicCharacteristicNo1_ != null;
     }
     /**
-     * <code>optional .dstore.values.IntegerValue basic_characteristic_no1 = 4;</code>
+     * <code>.dstore.values.IntegerValue basic_characteristic_no1 = 4;</code>
      */
     public io.dstore.values.IntegerValue getBasicCharacteristicNo1() {
       return basicCharacteristicNo1_ == null ? io.dstore.values.IntegerValue.getDefaultInstance() : basicCharacteristicNo1_;
     }
     /**
-     * <code>optional .dstore.values.IntegerValue basic_characteristic_no1 = 4;</code>
+     * <code>.dstore.values.IntegerValue basic_characteristic_no1 = 4;</code>
      */
     public io.dstore.values.IntegerValueOrBuilder getBasicCharacteristicNo1OrBuilder() {
       return getBasicCharacteristicNo1();
@@ -601,7 +601,7 @@ public final class StGetDirectSuccessorsTreeAd {
     public static final int BASIC_CHARACTERISTIC_NO1_NULL_FIELD_NUMBER = 1004;
     private boolean basicCharacteristicNo1Null_;
     /**
-     * <code>optional bool basic_characteristic_no1_null = 1004;</code>
+     * <code>bool basic_characteristic_no1_null = 1004;</code>
      */
     public boolean getBasicCharacteristicNo1Null() {
       return basicCharacteristicNo1Null_;
@@ -610,19 +610,19 @@ public final class StGetDirectSuccessorsTreeAd {
     public static final int WEIGHT_BASIC_CHARACTERISTIC_NO1_FIELD_NUMBER = 5;
     private io.dstore.values.DecimalValue weightBasicCharacteristicNo1_;
     /**
-     * <code>optional .dstore.values.DecimalValue weight_basic_characteristic_no1 = 5;</code>
+     * <code>.dstore.values.DecimalValue weight_basic_characteristic_no1 = 5;</code>
      */
     public boolean hasWeightBasicCharacteristicNo1() {
       return weightBasicCharacteristicNo1_ != null;
     }
     /**
-     * <code>optional .dstore.values.DecimalValue weight_basic_characteristic_no1 = 5;</code>
+     * <code>.dstore.values.DecimalValue weight_basic_characteristic_no1 = 5;</code>
      */
     public io.dstore.values.DecimalValue getWeightBasicCharacteristicNo1() {
       return weightBasicCharacteristicNo1_ == null ? io.dstore.values.DecimalValue.getDefaultInstance() : weightBasicCharacteristicNo1_;
     }
     /**
-     * <code>optional .dstore.values.DecimalValue weight_basic_characteristic_no1 = 5;</code>
+     * <code>.dstore.values.DecimalValue weight_basic_characteristic_no1 = 5;</code>
      */
     public io.dstore.values.DecimalValueOrBuilder getWeightBasicCharacteristicNo1OrBuilder() {
       return getWeightBasicCharacteristicNo1();
@@ -631,7 +631,7 @@ public final class StGetDirectSuccessorsTreeAd {
     public static final int WEIGHT_BASIC_CHARACTERISTIC_NO1_NULL_FIELD_NUMBER = 1005;
     private boolean weightBasicCharacteristicNo1Null_;
     /**
-     * <code>optional bool weight_basic_characteristic_no1_null = 1005;</code>
+     * <code>bool weight_basic_characteristic_no1_null = 1005;</code>
      */
     public boolean getWeightBasicCharacteristicNo1Null() {
       return weightBasicCharacteristicNo1Null_;
@@ -640,19 +640,19 @@ public final class StGetDirectSuccessorsTreeAd {
     public static final int BASIC_CHARACTERISTIC_NO2_FIELD_NUMBER = 6;
     private io.dstore.values.IntegerValue basicCharacteristicNo2_;
     /**
-     * <code>optional .dstore.values.IntegerValue basic_characteristic_no2 = 6;</code>
+     * <code>.dstore.values.IntegerValue basic_characteristic_no2 = 6;</code>
      */
     public boolean hasBasicCharacteristicNo2() {
       return basicCharacteristicNo2_ != null;
     }
     /**
-     * <code>optional .dstore.values.IntegerValue basic_characteristic_no2 = 6;</code>
+     * <code>.dstore.values.IntegerValue basic_characteristic_no2 = 6;</code>
      */
     public io.dstore.values.IntegerValue getBasicCharacteristicNo2() {
       return basicCharacteristicNo2_ == null ? io.dstore.values.IntegerValue.getDefaultInstance() : basicCharacteristicNo2_;
     }
     /**
-     * <code>optional .dstore.values.IntegerValue basic_characteristic_no2 = 6;</code>
+     * <code>.dstore.values.IntegerValue basic_characteristic_no2 = 6;</code>
      */
     public io.dstore.values.IntegerValueOrBuilder getBasicCharacteristicNo2OrBuilder() {
       return getBasicCharacteristicNo2();
@@ -661,7 +661,7 @@ public final class StGetDirectSuccessorsTreeAd {
     public static final int BASIC_CHARACTERISTIC_NO2_NULL_FIELD_NUMBER = 1006;
     private boolean basicCharacteristicNo2Null_;
     /**
-     * <code>optional bool basic_characteristic_no2_null = 1006;</code>
+     * <code>bool basic_characteristic_no2_null = 1006;</code>
      */
     public boolean getBasicCharacteristicNo2Null() {
       return basicCharacteristicNo2Null_;
@@ -670,19 +670,19 @@ public final class StGetDirectSuccessorsTreeAd {
     public static final int WEIGHT_BASIC_CHARACTERISTIC_NO2_FIELD_NUMBER = 7;
     private io.dstore.values.DecimalValue weightBasicCharacteristicNo2_;
     /**
-     * <code>optional .dstore.values.DecimalValue weight_basic_characteristic_no2 = 7;</code>
+     * <code>.dstore.values.DecimalValue weight_basic_characteristic_no2 = 7;</code>
      */
     public boolean hasWeightBasicCharacteristicNo2() {
       return weightBasicCharacteristicNo2_ != null;
     }
     /**
-     * <code>optional .dstore.values.DecimalValue weight_basic_characteristic_no2 = 7;</code>
+     * <code>.dstore.values.DecimalValue weight_basic_characteristic_no2 = 7;</code>
      */
     public io.dstore.values.DecimalValue getWeightBasicCharacteristicNo2() {
       return weightBasicCharacteristicNo2_ == null ? io.dstore.values.DecimalValue.getDefaultInstance() : weightBasicCharacteristicNo2_;
     }
     /**
-     * <code>optional .dstore.values.DecimalValue weight_basic_characteristic_no2 = 7;</code>
+     * <code>.dstore.values.DecimalValue weight_basic_characteristic_no2 = 7;</code>
      */
     public io.dstore.values.DecimalValueOrBuilder getWeightBasicCharacteristicNo2OrBuilder() {
       return getWeightBasicCharacteristicNo2();
@@ -691,7 +691,7 @@ public final class StGetDirectSuccessorsTreeAd {
     public static final int WEIGHT_BASIC_CHARACTERISTIC_NO2_NULL_FIELD_NUMBER = 1007;
     private boolean weightBasicCharacteristicNo2Null_;
     /**
-     * <code>optional bool weight_basic_characteristic_no2_null = 1007;</code>
+     * <code>bool weight_basic_characteristic_no2_null = 1007;</code>
      */
     public boolean getWeightBasicCharacteristicNo2Null() {
       return weightBasicCharacteristicNo2Null_;
@@ -700,19 +700,19 @@ public final class StGetDirectSuccessorsTreeAd {
     public static final int BASIC_CHARACTERISTIC_NO3_FIELD_NUMBER = 8;
     private io.dstore.values.IntegerValue basicCharacteristicNo3_;
     /**
-     * <code>optional .dstore.values.IntegerValue basic_characteristic_no3 = 8;</code>
+     * <code>.dstore.values.IntegerValue basic_characteristic_no3 = 8;</code>
      */
     public boolean hasBasicCharacteristicNo3() {
       return basicCharacteristicNo3_ != null;
     }
     /**
-     * <code>optional .dstore.values.IntegerValue basic_characteristic_no3 = 8;</code>
+     * <code>.dstore.values.IntegerValue basic_characteristic_no3 = 8;</code>
      */
     public io.dstore.values.IntegerValue getBasicCharacteristicNo3() {
       return basicCharacteristicNo3_ == null ? io.dstore.values.IntegerValue.getDefaultInstance() : basicCharacteristicNo3_;
     }
     /**
-     * <code>optional .dstore.values.IntegerValue basic_characteristic_no3 = 8;</code>
+     * <code>.dstore.values.IntegerValue basic_characteristic_no3 = 8;</code>
      */
     public io.dstore.values.IntegerValueOrBuilder getBasicCharacteristicNo3OrBuilder() {
       return getBasicCharacteristicNo3();
@@ -721,7 +721,7 @@ public final class StGetDirectSuccessorsTreeAd {
     public static final int BASIC_CHARACTERISTIC_NO3_NULL_FIELD_NUMBER = 1008;
     private boolean basicCharacteristicNo3Null_;
     /**
-     * <code>optional bool basic_characteristic_no3_null = 1008;</code>
+     * <code>bool basic_characteristic_no3_null = 1008;</code>
      */
     public boolean getBasicCharacteristicNo3Null() {
       return basicCharacteristicNo3Null_;
@@ -730,19 +730,19 @@ public final class StGetDirectSuccessorsTreeAd {
     public static final int WEIGHT_BASIC_CHARACTERISTIC_NO3_FIELD_NUMBER = 9;
     private io.dstore.values.DecimalValue weightBasicCharacteristicNo3_;
     /**
-     * <code>optional .dstore.values.DecimalValue weight_basic_characteristic_no3 = 9;</code>
+     * <code>.dstore.values.DecimalValue weight_basic_characteristic_no3 = 9;</code>
      */
     public boolean hasWeightBasicCharacteristicNo3() {
       return weightBasicCharacteristicNo3_ != null;
     }
     /**
-     * <code>optional .dstore.values.DecimalValue weight_basic_characteristic_no3 = 9;</code>
+     * <code>.dstore.values.DecimalValue weight_basic_characteristic_no3 = 9;</code>
      */
     public io.dstore.values.DecimalValue getWeightBasicCharacteristicNo3() {
       return weightBasicCharacteristicNo3_ == null ? io.dstore.values.DecimalValue.getDefaultInstance() : weightBasicCharacteristicNo3_;
     }
     /**
-     * <code>optional .dstore.values.DecimalValue weight_basic_characteristic_no3 = 9;</code>
+     * <code>.dstore.values.DecimalValue weight_basic_characteristic_no3 = 9;</code>
      */
     public io.dstore.values.DecimalValueOrBuilder getWeightBasicCharacteristicNo3OrBuilder() {
       return getWeightBasicCharacteristicNo3();
@@ -751,7 +751,7 @@ public final class StGetDirectSuccessorsTreeAd {
     public static final int WEIGHT_BASIC_CHARACTERISTIC_NO3_NULL_FIELD_NUMBER = 1009;
     private boolean weightBasicCharacteristicNo3Null_;
     /**
-     * <code>optional bool weight_basic_characteristic_no3_null = 1009;</code>
+     * <code>bool weight_basic_characteristic_no3_null = 1009;</code>
      */
     public boolean getWeightBasicCharacteristicNo3Null() {
       return weightBasicCharacteristicNo3Null_;
@@ -760,19 +760,19 @@ public final class StGetDirectSuccessorsTreeAd {
     public static final int SOURCE_TABLE_FOR_STATISTICS_FIELD_NUMBER = 10;
     private io.dstore.values.IntegerValue sourceTableForStatistics_;
     /**
-     * <code>optional .dstore.values.IntegerValue source_table_for_statistics = 10;</code>
+     * <code>.dstore.values.IntegerValue source_table_for_statistics = 10;</code>
      */
     public boolean hasSourceTableForStatistics() {
       return sourceTableForStatistics_ != null;
     }
     /**
-     * <code>optional .dstore.values.IntegerValue source_table_for_statistics = 10;</code>
+     * <code>.dstore.values.IntegerValue source_table_for_statistics = 10;</code>
      */
     public io.dstore.values.IntegerValue getSourceTableForStatistics() {
       return sourceTableForStatistics_ == null ? io.dstore.values.IntegerValue.getDefaultInstance() : sourceTableForStatistics_;
     }
     /**
-     * <code>optional .dstore.values.IntegerValue source_table_for_statistics = 10;</code>
+     * <code>.dstore.values.IntegerValue source_table_for_statistics = 10;</code>
      */
     public io.dstore.values.IntegerValueOrBuilder getSourceTableForStatisticsOrBuilder() {
       return getSourceTableForStatistics();
@@ -781,7 +781,7 @@ public final class StGetDirectSuccessorsTreeAd {
     public static final int SOURCE_TABLE_FOR_STATISTICS_NULL_FIELD_NUMBER = 1010;
     private boolean sourceTableForStatisticsNull_;
     /**
-     * <code>optional bool source_table_for_statistics_null = 1010;</code>
+     * <code>bool source_table_for_statistics_null = 1010;</code>
      */
     public boolean getSourceTableForStatisticsNull() {
       return sourceTableForStatisticsNull_;
@@ -790,19 +790,19 @@ public final class StGetDirectSuccessorsTreeAd {
     public static final int DISPLAY_ONLY_ACTIVE_FIELD_NUMBER = 11;
     private io.dstore.values.BooleanValue displayOnlyActive_;
     /**
-     * <code>optional .dstore.values.BooleanValue display_only_active = 11;</code>
+     * <code>.dstore.values.BooleanValue display_only_active = 11;</code>
      */
     public boolean hasDisplayOnlyActive() {
       return displayOnlyActive_ != null;
     }
     /**
-     * <code>optional .dstore.values.BooleanValue display_only_active = 11;</code>
+     * <code>.dstore.values.BooleanValue display_only_active = 11;</code>
      */
     public io.dstore.values.BooleanValue getDisplayOnlyActive() {
       return displayOnlyActive_ == null ? io.dstore.values.BooleanValue.getDefaultInstance() : displayOnlyActive_;
     }
     /**
-     * <code>optional .dstore.values.BooleanValue display_only_active = 11;</code>
+     * <code>.dstore.values.BooleanValue display_only_active = 11;</code>
      */
     public io.dstore.values.BooleanValueOrBuilder getDisplayOnlyActiveOrBuilder() {
       return getDisplayOnlyActive();
@@ -811,7 +811,7 @@ public final class StGetDirectSuccessorsTreeAd {
     public static final int DISPLAY_ONLY_ACTIVE_NULL_FIELD_NUMBER = 1011;
     private boolean displayOnlyActiveNull_;
     /**
-     * <code>optional bool display_only_active_null = 1011;</code>
+     * <code>bool display_only_active_null = 1011;</code>
      */
     public boolean getDisplayOnlyActiveNull() {
       return displayOnlyActiveNull_;
@@ -1092,7 +1092,7 @@ public final class StGetDirectSuccessorsTreeAd {
         return memoizedHashCode;
       }
       int hash = 41;
-      hash = (19 * hash) + getDescriptorForType().hashCode();
+      hash = (19 * hash) + getDescriptor().hashCode();
       if (hasHTreeNodeId()) {
         hash = (37 * hash) + H_TREE_NODE_ID_FIELD_NUMBER;
         hash = (53 * hash) + getHTreeNodeId().hashCode();
@@ -1601,13 +1601,13 @@ public final class StGetDirectSuccessorsTreeAd {
       private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> hTreeNodeIdBuilder_;
       /**
-       * <code>optional .dstore.values.IntegerValue h_tree_node_id = 1;</code>
+       * <code>.dstore.values.IntegerValue h_tree_node_id = 1;</code>
        */
       public boolean hasHTreeNodeId() {
         return hTreeNodeIdBuilder_ != null || hTreeNodeId_ != null;
       }
       /**
-       * <code>optional .dstore.values.IntegerValue h_tree_node_id = 1;</code>
+       * <code>.dstore.values.IntegerValue h_tree_node_id = 1;</code>
        */
       public io.dstore.values.IntegerValue getHTreeNodeId() {
         if (hTreeNodeIdBuilder_ == null) {
@@ -1617,7 +1617,7 @@ public final class StGetDirectSuccessorsTreeAd {
         }
       }
       /**
-       * <code>optional .dstore.values.IntegerValue h_tree_node_id = 1;</code>
+       * <code>.dstore.values.IntegerValue h_tree_node_id = 1;</code>
        */
       public Builder setHTreeNodeId(io.dstore.values.IntegerValue value) {
         if (hTreeNodeIdBuilder_ == null) {
@@ -1633,7 +1633,7 @@ public final class StGetDirectSuccessorsTreeAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.IntegerValue h_tree_node_id = 1;</code>
+       * <code>.dstore.values.IntegerValue h_tree_node_id = 1;</code>
        */
       public Builder setHTreeNodeId(
           io.dstore.values.IntegerValue.Builder builderForValue) {
@@ -1647,7 +1647,7 @@ public final class StGetDirectSuccessorsTreeAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.IntegerValue h_tree_node_id = 1;</code>
+       * <code>.dstore.values.IntegerValue h_tree_node_id = 1;</code>
        */
       public Builder mergeHTreeNodeId(io.dstore.values.IntegerValue value) {
         if (hTreeNodeIdBuilder_ == null) {
@@ -1665,7 +1665,7 @@ public final class StGetDirectSuccessorsTreeAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.IntegerValue h_tree_node_id = 1;</code>
+       * <code>.dstore.values.IntegerValue h_tree_node_id = 1;</code>
        */
       public Builder clearHTreeNodeId() {
         if (hTreeNodeIdBuilder_ == null) {
@@ -1679,7 +1679,7 @@ public final class StGetDirectSuccessorsTreeAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.IntegerValue h_tree_node_id = 1;</code>
+       * <code>.dstore.values.IntegerValue h_tree_node_id = 1;</code>
        */
       public io.dstore.values.IntegerValue.Builder getHTreeNodeIdBuilder() {
         
@@ -1687,7 +1687,7 @@ public final class StGetDirectSuccessorsTreeAd {
         return getHTreeNodeIdFieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .dstore.values.IntegerValue h_tree_node_id = 1;</code>
+       * <code>.dstore.values.IntegerValue h_tree_node_id = 1;</code>
        */
       public io.dstore.values.IntegerValueOrBuilder getHTreeNodeIdOrBuilder() {
         if (hTreeNodeIdBuilder_ != null) {
@@ -1698,7 +1698,7 @@ public final class StGetDirectSuccessorsTreeAd {
         }
       }
       /**
-       * <code>optional .dstore.values.IntegerValue h_tree_node_id = 1;</code>
+       * <code>.dstore.values.IntegerValue h_tree_node_id = 1;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> 
@@ -1716,13 +1716,13 @@ public final class StGetDirectSuccessorsTreeAd {
 
       private boolean hTreeNodeIdNull_ ;
       /**
-       * <code>optional bool h_tree_node_id_null = 1001;</code>
+       * <code>bool h_tree_node_id_null = 1001;</code>
        */
       public boolean getHTreeNodeIdNull() {
         return hTreeNodeIdNull_;
       }
       /**
-       * <code>optional bool h_tree_node_id_null = 1001;</code>
+       * <code>bool h_tree_node_id_null = 1001;</code>
        */
       public Builder setHTreeNodeIdNull(boolean value) {
         
@@ -1731,7 +1731,7 @@ public final class StGetDirectSuccessorsTreeAd {
         return this;
       }
       /**
-       * <code>optional bool h_tree_node_id_null = 1001;</code>
+       * <code>bool h_tree_node_id_null = 1001;</code>
        */
       public Builder clearHTreeNodeIdNull() {
         
@@ -1744,13 +1744,13 @@ public final class StGetDirectSuccessorsTreeAd {
       private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.values.TimestampValue, io.dstore.values.TimestampValue.Builder, io.dstore.values.TimestampValueOrBuilder> fromDateBuilder_;
       /**
-       * <code>optional .dstore.values.TimestampValue from_date = 2;</code>
+       * <code>.dstore.values.TimestampValue from_date = 2;</code>
        */
       public boolean hasFromDate() {
         return fromDateBuilder_ != null || fromDate_ != null;
       }
       /**
-       * <code>optional .dstore.values.TimestampValue from_date = 2;</code>
+       * <code>.dstore.values.TimestampValue from_date = 2;</code>
        */
       public io.dstore.values.TimestampValue getFromDate() {
         if (fromDateBuilder_ == null) {
@@ -1760,7 +1760,7 @@ public final class StGetDirectSuccessorsTreeAd {
         }
       }
       /**
-       * <code>optional .dstore.values.TimestampValue from_date = 2;</code>
+       * <code>.dstore.values.TimestampValue from_date = 2;</code>
        */
       public Builder setFromDate(io.dstore.values.TimestampValue value) {
         if (fromDateBuilder_ == null) {
@@ -1776,7 +1776,7 @@ public final class StGetDirectSuccessorsTreeAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.TimestampValue from_date = 2;</code>
+       * <code>.dstore.values.TimestampValue from_date = 2;</code>
        */
       public Builder setFromDate(
           io.dstore.values.TimestampValue.Builder builderForValue) {
@@ -1790,7 +1790,7 @@ public final class StGetDirectSuccessorsTreeAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.TimestampValue from_date = 2;</code>
+       * <code>.dstore.values.TimestampValue from_date = 2;</code>
        */
       public Builder mergeFromDate(io.dstore.values.TimestampValue value) {
         if (fromDateBuilder_ == null) {
@@ -1808,7 +1808,7 @@ public final class StGetDirectSuccessorsTreeAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.TimestampValue from_date = 2;</code>
+       * <code>.dstore.values.TimestampValue from_date = 2;</code>
        */
       public Builder clearFromDate() {
         if (fromDateBuilder_ == null) {
@@ -1822,7 +1822,7 @@ public final class StGetDirectSuccessorsTreeAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.TimestampValue from_date = 2;</code>
+       * <code>.dstore.values.TimestampValue from_date = 2;</code>
        */
       public io.dstore.values.TimestampValue.Builder getFromDateBuilder() {
         
@@ -1830,7 +1830,7 @@ public final class StGetDirectSuccessorsTreeAd {
         return getFromDateFieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .dstore.values.TimestampValue from_date = 2;</code>
+       * <code>.dstore.values.TimestampValue from_date = 2;</code>
        */
       public io.dstore.values.TimestampValueOrBuilder getFromDateOrBuilder() {
         if (fromDateBuilder_ != null) {
@@ -1841,7 +1841,7 @@ public final class StGetDirectSuccessorsTreeAd {
         }
       }
       /**
-       * <code>optional .dstore.values.TimestampValue from_date = 2;</code>
+       * <code>.dstore.values.TimestampValue from_date = 2;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.values.TimestampValue, io.dstore.values.TimestampValue.Builder, io.dstore.values.TimestampValueOrBuilder> 
@@ -1859,13 +1859,13 @@ public final class StGetDirectSuccessorsTreeAd {
 
       private boolean fromDateNull_ ;
       /**
-       * <code>optional bool from_date_null = 1002;</code>
+       * <code>bool from_date_null = 1002;</code>
        */
       public boolean getFromDateNull() {
         return fromDateNull_;
       }
       /**
-       * <code>optional bool from_date_null = 1002;</code>
+       * <code>bool from_date_null = 1002;</code>
        */
       public Builder setFromDateNull(boolean value) {
         
@@ -1874,7 +1874,7 @@ public final class StGetDirectSuccessorsTreeAd {
         return this;
       }
       /**
-       * <code>optional bool from_date_null = 1002;</code>
+       * <code>bool from_date_null = 1002;</code>
        */
       public Builder clearFromDateNull() {
         
@@ -1887,13 +1887,13 @@ public final class StGetDirectSuccessorsTreeAd {
       private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.values.TimestampValue, io.dstore.values.TimestampValue.Builder, io.dstore.values.TimestampValueOrBuilder> toDateBuilder_;
       /**
-       * <code>optional .dstore.values.TimestampValue to_date = 3;</code>
+       * <code>.dstore.values.TimestampValue to_date = 3;</code>
        */
       public boolean hasToDate() {
         return toDateBuilder_ != null || toDate_ != null;
       }
       /**
-       * <code>optional .dstore.values.TimestampValue to_date = 3;</code>
+       * <code>.dstore.values.TimestampValue to_date = 3;</code>
        */
       public io.dstore.values.TimestampValue getToDate() {
         if (toDateBuilder_ == null) {
@@ -1903,7 +1903,7 @@ public final class StGetDirectSuccessorsTreeAd {
         }
       }
       /**
-       * <code>optional .dstore.values.TimestampValue to_date = 3;</code>
+       * <code>.dstore.values.TimestampValue to_date = 3;</code>
        */
       public Builder setToDate(io.dstore.values.TimestampValue value) {
         if (toDateBuilder_ == null) {
@@ -1919,7 +1919,7 @@ public final class StGetDirectSuccessorsTreeAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.TimestampValue to_date = 3;</code>
+       * <code>.dstore.values.TimestampValue to_date = 3;</code>
        */
       public Builder setToDate(
           io.dstore.values.TimestampValue.Builder builderForValue) {
@@ -1933,7 +1933,7 @@ public final class StGetDirectSuccessorsTreeAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.TimestampValue to_date = 3;</code>
+       * <code>.dstore.values.TimestampValue to_date = 3;</code>
        */
       public Builder mergeToDate(io.dstore.values.TimestampValue value) {
         if (toDateBuilder_ == null) {
@@ -1951,7 +1951,7 @@ public final class StGetDirectSuccessorsTreeAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.TimestampValue to_date = 3;</code>
+       * <code>.dstore.values.TimestampValue to_date = 3;</code>
        */
       public Builder clearToDate() {
         if (toDateBuilder_ == null) {
@@ -1965,7 +1965,7 @@ public final class StGetDirectSuccessorsTreeAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.TimestampValue to_date = 3;</code>
+       * <code>.dstore.values.TimestampValue to_date = 3;</code>
        */
       public io.dstore.values.TimestampValue.Builder getToDateBuilder() {
         
@@ -1973,7 +1973,7 @@ public final class StGetDirectSuccessorsTreeAd {
         return getToDateFieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .dstore.values.TimestampValue to_date = 3;</code>
+       * <code>.dstore.values.TimestampValue to_date = 3;</code>
        */
       public io.dstore.values.TimestampValueOrBuilder getToDateOrBuilder() {
         if (toDateBuilder_ != null) {
@@ -1984,7 +1984,7 @@ public final class StGetDirectSuccessorsTreeAd {
         }
       }
       /**
-       * <code>optional .dstore.values.TimestampValue to_date = 3;</code>
+       * <code>.dstore.values.TimestampValue to_date = 3;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.values.TimestampValue, io.dstore.values.TimestampValue.Builder, io.dstore.values.TimestampValueOrBuilder> 
@@ -2002,13 +2002,13 @@ public final class StGetDirectSuccessorsTreeAd {
 
       private boolean toDateNull_ ;
       /**
-       * <code>optional bool to_date_null = 1003;</code>
+       * <code>bool to_date_null = 1003;</code>
        */
       public boolean getToDateNull() {
         return toDateNull_;
       }
       /**
-       * <code>optional bool to_date_null = 1003;</code>
+       * <code>bool to_date_null = 1003;</code>
        */
       public Builder setToDateNull(boolean value) {
         
@@ -2017,7 +2017,7 @@ public final class StGetDirectSuccessorsTreeAd {
         return this;
       }
       /**
-       * <code>optional bool to_date_null = 1003;</code>
+       * <code>bool to_date_null = 1003;</code>
        */
       public Builder clearToDateNull() {
         
@@ -2030,13 +2030,13 @@ public final class StGetDirectSuccessorsTreeAd {
       private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> basicCharacteristicNo1Builder_;
       /**
-       * <code>optional .dstore.values.IntegerValue basic_characteristic_no1 = 4;</code>
+       * <code>.dstore.values.IntegerValue basic_characteristic_no1 = 4;</code>
        */
       public boolean hasBasicCharacteristicNo1() {
         return basicCharacteristicNo1Builder_ != null || basicCharacteristicNo1_ != null;
       }
       /**
-       * <code>optional .dstore.values.IntegerValue basic_characteristic_no1 = 4;</code>
+       * <code>.dstore.values.IntegerValue basic_characteristic_no1 = 4;</code>
        */
       public io.dstore.values.IntegerValue getBasicCharacteristicNo1() {
         if (basicCharacteristicNo1Builder_ == null) {
@@ -2046,7 +2046,7 @@ public final class StGetDirectSuccessorsTreeAd {
         }
       }
       /**
-       * <code>optional .dstore.values.IntegerValue basic_characteristic_no1 = 4;</code>
+       * <code>.dstore.values.IntegerValue basic_characteristic_no1 = 4;</code>
        */
       public Builder setBasicCharacteristicNo1(io.dstore.values.IntegerValue value) {
         if (basicCharacteristicNo1Builder_ == null) {
@@ -2062,7 +2062,7 @@ public final class StGetDirectSuccessorsTreeAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.IntegerValue basic_characteristic_no1 = 4;</code>
+       * <code>.dstore.values.IntegerValue basic_characteristic_no1 = 4;</code>
        */
       public Builder setBasicCharacteristicNo1(
           io.dstore.values.IntegerValue.Builder builderForValue) {
@@ -2076,7 +2076,7 @@ public final class StGetDirectSuccessorsTreeAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.IntegerValue basic_characteristic_no1 = 4;</code>
+       * <code>.dstore.values.IntegerValue basic_characteristic_no1 = 4;</code>
        */
       public Builder mergeBasicCharacteristicNo1(io.dstore.values.IntegerValue value) {
         if (basicCharacteristicNo1Builder_ == null) {
@@ -2094,7 +2094,7 @@ public final class StGetDirectSuccessorsTreeAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.IntegerValue basic_characteristic_no1 = 4;</code>
+       * <code>.dstore.values.IntegerValue basic_characteristic_no1 = 4;</code>
        */
       public Builder clearBasicCharacteristicNo1() {
         if (basicCharacteristicNo1Builder_ == null) {
@@ -2108,7 +2108,7 @@ public final class StGetDirectSuccessorsTreeAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.IntegerValue basic_characteristic_no1 = 4;</code>
+       * <code>.dstore.values.IntegerValue basic_characteristic_no1 = 4;</code>
        */
       public io.dstore.values.IntegerValue.Builder getBasicCharacteristicNo1Builder() {
         
@@ -2116,7 +2116,7 @@ public final class StGetDirectSuccessorsTreeAd {
         return getBasicCharacteristicNo1FieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .dstore.values.IntegerValue basic_characteristic_no1 = 4;</code>
+       * <code>.dstore.values.IntegerValue basic_characteristic_no1 = 4;</code>
        */
       public io.dstore.values.IntegerValueOrBuilder getBasicCharacteristicNo1OrBuilder() {
         if (basicCharacteristicNo1Builder_ != null) {
@@ -2127,7 +2127,7 @@ public final class StGetDirectSuccessorsTreeAd {
         }
       }
       /**
-       * <code>optional .dstore.values.IntegerValue basic_characteristic_no1 = 4;</code>
+       * <code>.dstore.values.IntegerValue basic_characteristic_no1 = 4;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> 
@@ -2145,13 +2145,13 @@ public final class StGetDirectSuccessorsTreeAd {
 
       private boolean basicCharacteristicNo1Null_ ;
       /**
-       * <code>optional bool basic_characteristic_no1_null = 1004;</code>
+       * <code>bool basic_characteristic_no1_null = 1004;</code>
        */
       public boolean getBasicCharacteristicNo1Null() {
         return basicCharacteristicNo1Null_;
       }
       /**
-       * <code>optional bool basic_characteristic_no1_null = 1004;</code>
+       * <code>bool basic_characteristic_no1_null = 1004;</code>
        */
       public Builder setBasicCharacteristicNo1Null(boolean value) {
         
@@ -2160,7 +2160,7 @@ public final class StGetDirectSuccessorsTreeAd {
         return this;
       }
       /**
-       * <code>optional bool basic_characteristic_no1_null = 1004;</code>
+       * <code>bool basic_characteristic_no1_null = 1004;</code>
        */
       public Builder clearBasicCharacteristicNo1Null() {
         
@@ -2173,13 +2173,13 @@ public final class StGetDirectSuccessorsTreeAd {
       private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.values.DecimalValue, io.dstore.values.DecimalValue.Builder, io.dstore.values.DecimalValueOrBuilder> weightBasicCharacteristicNo1Builder_;
       /**
-       * <code>optional .dstore.values.DecimalValue weight_basic_characteristic_no1 = 5;</code>
+       * <code>.dstore.values.DecimalValue weight_basic_characteristic_no1 = 5;</code>
        */
       public boolean hasWeightBasicCharacteristicNo1() {
         return weightBasicCharacteristicNo1Builder_ != null || weightBasicCharacteristicNo1_ != null;
       }
       /**
-       * <code>optional .dstore.values.DecimalValue weight_basic_characteristic_no1 = 5;</code>
+       * <code>.dstore.values.DecimalValue weight_basic_characteristic_no1 = 5;</code>
        */
       public io.dstore.values.DecimalValue getWeightBasicCharacteristicNo1() {
         if (weightBasicCharacteristicNo1Builder_ == null) {
@@ -2189,7 +2189,7 @@ public final class StGetDirectSuccessorsTreeAd {
         }
       }
       /**
-       * <code>optional .dstore.values.DecimalValue weight_basic_characteristic_no1 = 5;</code>
+       * <code>.dstore.values.DecimalValue weight_basic_characteristic_no1 = 5;</code>
        */
       public Builder setWeightBasicCharacteristicNo1(io.dstore.values.DecimalValue value) {
         if (weightBasicCharacteristicNo1Builder_ == null) {
@@ -2205,7 +2205,7 @@ public final class StGetDirectSuccessorsTreeAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.DecimalValue weight_basic_characteristic_no1 = 5;</code>
+       * <code>.dstore.values.DecimalValue weight_basic_characteristic_no1 = 5;</code>
        */
       public Builder setWeightBasicCharacteristicNo1(
           io.dstore.values.DecimalValue.Builder builderForValue) {
@@ -2219,7 +2219,7 @@ public final class StGetDirectSuccessorsTreeAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.DecimalValue weight_basic_characteristic_no1 = 5;</code>
+       * <code>.dstore.values.DecimalValue weight_basic_characteristic_no1 = 5;</code>
        */
       public Builder mergeWeightBasicCharacteristicNo1(io.dstore.values.DecimalValue value) {
         if (weightBasicCharacteristicNo1Builder_ == null) {
@@ -2237,7 +2237,7 @@ public final class StGetDirectSuccessorsTreeAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.DecimalValue weight_basic_characteristic_no1 = 5;</code>
+       * <code>.dstore.values.DecimalValue weight_basic_characteristic_no1 = 5;</code>
        */
       public Builder clearWeightBasicCharacteristicNo1() {
         if (weightBasicCharacteristicNo1Builder_ == null) {
@@ -2251,7 +2251,7 @@ public final class StGetDirectSuccessorsTreeAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.DecimalValue weight_basic_characteristic_no1 = 5;</code>
+       * <code>.dstore.values.DecimalValue weight_basic_characteristic_no1 = 5;</code>
        */
       public io.dstore.values.DecimalValue.Builder getWeightBasicCharacteristicNo1Builder() {
         
@@ -2259,7 +2259,7 @@ public final class StGetDirectSuccessorsTreeAd {
         return getWeightBasicCharacteristicNo1FieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .dstore.values.DecimalValue weight_basic_characteristic_no1 = 5;</code>
+       * <code>.dstore.values.DecimalValue weight_basic_characteristic_no1 = 5;</code>
        */
       public io.dstore.values.DecimalValueOrBuilder getWeightBasicCharacteristicNo1OrBuilder() {
         if (weightBasicCharacteristicNo1Builder_ != null) {
@@ -2270,7 +2270,7 @@ public final class StGetDirectSuccessorsTreeAd {
         }
       }
       /**
-       * <code>optional .dstore.values.DecimalValue weight_basic_characteristic_no1 = 5;</code>
+       * <code>.dstore.values.DecimalValue weight_basic_characteristic_no1 = 5;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.values.DecimalValue, io.dstore.values.DecimalValue.Builder, io.dstore.values.DecimalValueOrBuilder> 
@@ -2288,13 +2288,13 @@ public final class StGetDirectSuccessorsTreeAd {
 
       private boolean weightBasicCharacteristicNo1Null_ ;
       /**
-       * <code>optional bool weight_basic_characteristic_no1_null = 1005;</code>
+       * <code>bool weight_basic_characteristic_no1_null = 1005;</code>
        */
       public boolean getWeightBasicCharacteristicNo1Null() {
         return weightBasicCharacteristicNo1Null_;
       }
       /**
-       * <code>optional bool weight_basic_characteristic_no1_null = 1005;</code>
+       * <code>bool weight_basic_characteristic_no1_null = 1005;</code>
        */
       public Builder setWeightBasicCharacteristicNo1Null(boolean value) {
         
@@ -2303,7 +2303,7 @@ public final class StGetDirectSuccessorsTreeAd {
         return this;
       }
       /**
-       * <code>optional bool weight_basic_characteristic_no1_null = 1005;</code>
+       * <code>bool weight_basic_characteristic_no1_null = 1005;</code>
        */
       public Builder clearWeightBasicCharacteristicNo1Null() {
         
@@ -2316,13 +2316,13 @@ public final class StGetDirectSuccessorsTreeAd {
       private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> basicCharacteristicNo2Builder_;
       /**
-       * <code>optional .dstore.values.IntegerValue basic_characteristic_no2 = 6;</code>
+       * <code>.dstore.values.IntegerValue basic_characteristic_no2 = 6;</code>
        */
       public boolean hasBasicCharacteristicNo2() {
         return basicCharacteristicNo2Builder_ != null || basicCharacteristicNo2_ != null;
       }
       /**
-       * <code>optional .dstore.values.IntegerValue basic_characteristic_no2 = 6;</code>
+       * <code>.dstore.values.IntegerValue basic_characteristic_no2 = 6;</code>
        */
       public io.dstore.values.IntegerValue getBasicCharacteristicNo2() {
         if (basicCharacteristicNo2Builder_ == null) {
@@ -2332,7 +2332,7 @@ public final class StGetDirectSuccessorsTreeAd {
         }
       }
       /**
-       * <code>optional .dstore.values.IntegerValue basic_characteristic_no2 = 6;</code>
+       * <code>.dstore.values.IntegerValue basic_characteristic_no2 = 6;</code>
        */
       public Builder setBasicCharacteristicNo2(io.dstore.values.IntegerValue value) {
         if (basicCharacteristicNo2Builder_ == null) {
@@ -2348,7 +2348,7 @@ public final class StGetDirectSuccessorsTreeAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.IntegerValue basic_characteristic_no2 = 6;</code>
+       * <code>.dstore.values.IntegerValue basic_characteristic_no2 = 6;</code>
        */
       public Builder setBasicCharacteristicNo2(
           io.dstore.values.IntegerValue.Builder builderForValue) {
@@ -2362,7 +2362,7 @@ public final class StGetDirectSuccessorsTreeAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.IntegerValue basic_characteristic_no2 = 6;</code>
+       * <code>.dstore.values.IntegerValue basic_characteristic_no2 = 6;</code>
        */
       public Builder mergeBasicCharacteristicNo2(io.dstore.values.IntegerValue value) {
         if (basicCharacteristicNo2Builder_ == null) {
@@ -2380,7 +2380,7 @@ public final class StGetDirectSuccessorsTreeAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.IntegerValue basic_characteristic_no2 = 6;</code>
+       * <code>.dstore.values.IntegerValue basic_characteristic_no2 = 6;</code>
        */
       public Builder clearBasicCharacteristicNo2() {
         if (basicCharacteristicNo2Builder_ == null) {
@@ -2394,7 +2394,7 @@ public final class StGetDirectSuccessorsTreeAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.IntegerValue basic_characteristic_no2 = 6;</code>
+       * <code>.dstore.values.IntegerValue basic_characteristic_no2 = 6;</code>
        */
       public io.dstore.values.IntegerValue.Builder getBasicCharacteristicNo2Builder() {
         
@@ -2402,7 +2402,7 @@ public final class StGetDirectSuccessorsTreeAd {
         return getBasicCharacteristicNo2FieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .dstore.values.IntegerValue basic_characteristic_no2 = 6;</code>
+       * <code>.dstore.values.IntegerValue basic_characteristic_no2 = 6;</code>
        */
       public io.dstore.values.IntegerValueOrBuilder getBasicCharacteristicNo2OrBuilder() {
         if (basicCharacteristicNo2Builder_ != null) {
@@ -2413,7 +2413,7 @@ public final class StGetDirectSuccessorsTreeAd {
         }
       }
       /**
-       * <code>optional .dstore.values.IntegerValue basic_characteristic_no2 = 6;</code>
+       * <code>.dstore.values.IntegerValue basic_characteristic_no2 = 6;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> 
@@ -2431,13 +2431,13 @@ public final class StGetDirectSuccessorsTreeAd {
 
       private boolean basicCharacteristicNo2Null_ ;
       /**
-       * <code>optional bool basic_characteristic_no2_null = 1006;</code>
+       * <code>bool basic_characteristic_no2_null = 1006;</code>
        */
       public boolean getBasicCharacteristicNo2Null() {
         return basicCharacteristicNo2Null_;
       }
       /**
-       * <code>optional bool basic_characteristic_no2_null = 1006;</code>
+       * <code>bool basic_characteristic_no2_null = 1006;</code>
        */
       public Builder setBasicCharacteristicNo2Null(boolean value) {
         
@@ -2446,7 +2446,7 @@ public final class StGetDirectSuccessorsTreeAd {
         return this;
       }
       /**
-       * <code>optional bool basic_characteristic_no2_null = 1006;</code>
+       * <code>bool basic_characteristic_no2_null = 1006;</code>
        */
       public Builder clearBasicCharacteristicNo2Null() {
         
@@ -2459,13 +2459,13 @@ public final class StGetDirectSuccessorsTreeAd {
       private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.values.DecimalValue, io.dstore.values.DecimalValue.Builder, io.dstore.values.DecimalValueOrBuilder> weightBasicCharacteristicNo2Builder_;
       /**
-       * <code>optional .dstore.values.DecimalValue weight_basic_characteristic_no2 = 7;</code>
+       * <code>.dstore.values.DecimalValue weight_basic_characteristic_no2 = 7;</code>
        */
       public boolean hasWeightBasicCharacteristicNo2() {
         return weightBasicCharacteristicNo2Builder_ != null || weightBasicCharacteristicNo2_ != null;
       }
       /**
-       * <code>optional .dstore.values.DecimalValue weight_basic_characteristic_no2 = 7;</code>
+       * <code>.dstore.values.DecimalValue weight_basic_characteristic_no2 = 7;</code>
        */
       public io.dstore.values.DecimalValue getWeightBasicCharacteristicNo2() {
         if (weightBasicCharacteristicNo2Builder_ == null) {
@@ -2475,7 +2475,7 @@ public final class StGetDirectSuccessorsTreeAd {
         }
       }
       /**
-       * <code>optional .dstore.values.DecimalValue weight_basic_characteristic_no2 = 7;</code>
+       * <code>.dstore.values.DecimalValue weight_basic_characteristic_no2 = 7;</code>
        */
       public Builder setWeightBasicCharacteristicNo2(io.dstore.values.DecimalValue value) {
         if (weightBasicCharacteristicNo2Builder_ == null) {
@@ -2491,7 +2491,7 @@ public final class StGetDirectSuccessorsTreeAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.DecimalValue weight_basic_characteristic_no2 = 7;</code>
+       * <code>.dstore.values.DecimalValue weight_basic_characteristic_no2 = 7;</code>
        */
       public Builder setWeightBasicCharacteristicNo2(
           io.dstore.values.DecimalValue.Builder builderForValue) {
@@ -2505,7 +2505,7 @@ public final class StGetDirectSuccessorsTreeAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.DecimalValue weight_basic_characteristic_no2 = 7;</code>
+       * <code>.dstore.values.DecimalValue weight_basic_characteristic_no2 = 7;</code>
        */
       public Builder mergeWeightBasicCharacteristicNo2(io.dstore.values.DecimalValue value) {
         if (weightBasicCharacteristicNo2Builder_ == null) {
@@ -2523,7 +2523,7 @@ public final class StGetDirectSuccessorsTreeAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.DecimalValue weight_basic_characteristic_no2 = 7;</code>
+       * <code>.dstore.values.DecimalValue weight_basic_characteristic_no2 = 7;</code>
        */
       public Builder clearWeightBasicCharacteristicNo2() {
         if (weightBasicCharacteristicNo2Builder_ == null) {
@@ -2537,7 +2537,7 @@ public final class StGetDirectSuccessorsTreeAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.DecimalValue weight_basic_characteristic_no2 = 7;</code>
+       * <code>.dstore.values.DecimalValue weight_basic_characteristic_no2 = 7;</code>
        */
       public io.dstore.values.DecimalValue.Builder getWeightBasicCharacteristicNo2Builder() {
         
@@ -2545,7 +2545,7 @@ public final class StGetDirectSuccessorsTreeAd {
         return getWeightBasicCharacteristicNo2FieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .dstore.values.DecimalValue weight_basic_characteristic_no2 = 7;</code>
+       * <code>.dstore.values.DecimalValue weight_basic_characteristic_no2 = 7;</code>
        */
       public io.dstore.values.DecimalValueOrBuilder getWeightBasicCharacteristicNo2OrBuilder() {
         if (weightBasicCharacteristicNo2Builder_ != null) {
@@ -2556,7 +2556,7 @@ public final class StGetDirectSuccessorsTreeAd {
         }
       }
       /**
-       * <code>optional .dstore.values.DecimalValue weight_basic_characteristic_no2 = 7;</code>
+       * <code>.dstore.values.DecimalValue weight_basic_characteristic_no2 = 7;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.values.DecimalValue, io.dstore.values.DecimalValue.Builder, io.dstore.values.DecimalValueOrBuilder> 
@@ -2574,13 +2574,13 @@ public final class StGetDirectSuccessorsTreeAd {
 
       private boolean weightBasicCharacteristicNo2Null_ ;
       /**
-       * <code>optional bool weight_basic_characteristic_no2_null = 1007;</code>
+       * <code>bool weight_basic_characteristic_no2_null = 1007;</code>
        */
       public boolean getWeightBasicCharacteristicNo2Null() {
         return weightBasicCharacteristicNo2Null_;
       }
       /**
-       * <code>optional bool weight_basic_characteristic_no2_null = 1007;</code>
+       * <code>bool weight_basic_characteristic_no2_null = 1007;</code>
        */
       public Builder setWeightBasicCharacteristicNo2Null(boolean value) {
         
@@ -2589,7 +2589,7 @@ public final class StGetDirectSuccessorsTreeAd {
         return this;
       }
       /**
-       * <code>optional bool weight_basic_characteristic_no2_null = 1007;</code>
+       * <code>bool weight_basic_characteristic_no2_null = 1007;</code>
        */
       public Builder clearWeightBasicCharacteristicNo2Null() {
         
@@ -2602,13 +2602,13 @@ public final class StGetDirectSuccessorsTreeAd {
       private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> basicCharacteristicNo3Builder_;
       /**
-       * <code>optional .dstore.values.IntegerValue basic_characteristic_no3 = 8;</code>
+       * <code>.dstore.values.IntegerValue basic_characteristic_no3 = 8;</code>
        */
       public boolean hasBasicCharacteristicNo3() {
         return basicCharacteristicNo3Builder_ != null || basicCharacteristicNo3_ != null;
       }
       /**
-       * <code>optional .dstore.values.IntegerValue basic_characteristic_no3 = 8;</code>
+       * <code>.dstore.values.IntegerValue basic_characteristic_no3 = 8;</code>
        */
       public io.dstore.values.IntegerValue getBasicCharacteristicNo3() {
         if (basicCharacteristicNo3Builder_ == null) {
@@ -2618,7 +2618,7 @@ public final class StGetDirectSuccessorsTreeAd {
         }
       }
       /**
-       * <code>optional .dstore.values.IntegerValue basic_characteristic_no3 = 8;</code>
+       * <code>.dstore.values.IntegerValue basic_characteristic_no3 = 8;</code>
        */
       public Builder setBasicCharacteristicNo3(io.dstore.values.IntegerValue value) {
         if (basicCharacteristicNo3Builder_ == null) {
@@ -2634,7 +2634,7 @@ public final class StGetDirectSuccessorsTreeAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.IntegerValue basic_characteristic_no3 = 8;</code>
+       * <code>.dstore.values.IntegerValue basic_characteristic_no3 = 8;</code>
        */
       public Builder setBasicCharacteristicNo3(
           io.dstore.values.IntegerValue.Builder builderForValue) {
@@ -2648,7 +2648,7 @@ public final class StGetDirectSuccessorsTreeAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.IntegerValue basic_characteristic_no3 = 8;</code>
+       * <code>.dstore.values.IntegerValue basic_characteristic_no3 = 8;</code>
        */
       public Builder mergeBasicCharacteristicNo3(io.dstore.values.IntegerValue value) {
         if (basicCharacteristicNo3Builder_ == null) {
@@ -2666,7 +2666,7 @@ public final class StGetDirectSuccessorsTreeAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.IntegerValue basic_characteristic_no3 = 8;</code>
+       * <code>.dstore.values.IntegerValue basic_characteristic_no3 = 8;</code>
        */
       public Builder clearBasicCharacteristicNo3() {
         if (basicCharacteristicNo3Builder_ == null) {
@@ -2680,7 +2680,7 @@ public final class StGetDirectSuccessorsTreeAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.IntegerValue basic_characteristic_no3 = 8;</code>
+       * <code>.dstore.values.IntegerValue basic_characteristic_no3 = 8;</code>
        */
       public io.dstore.values.IntegerValue.Builder getBasicCharacteristicNo3Builder() {
         
@@ -2688,7 +2688,7 @@ public final class StGetDirectSuccessorsTreeAd {
         return getBasicCharacteristicNo3FieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .dstore.values.IntegerValue basic_characteristic_no3 = 8;</code>
+       * <code>.dstore.values.IntegerValue basic_characteristic_no3 = 8;</code>
        */
       public io.dstore.values.IntegerValueOrBuilder getBasicCharacteristicNo3OrBuilder() {
         if (basicCharacteristicNo3Builder_ != null) {
@@ -2699,7 +2699,7 @@ public final class StGetDirectSuccessorsTreeAd {
         }
       }
       /**
-       * <code>optional .dstore.values.IntegerValue basic_characteristic_no3 = 8;</code>
+       * <code>.dstore.values.IntegerValue basic_characteristic_no3 = 8;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> 
@@ -2717,13 +2717,13 @@ public final class StGetDirectSuccessorsTreeAd {
 
       private boolean basicCharacteristicNo3Null_ ;
       /**
-       * <code>optional bool basic_characteristic_no3_null = 1008;</code>
+       * <code>bool basic_characteristic_no3_null = 1008;</code>
        */
       public boolean getBasicCharacteristicNo3Null() {
         return basicCharacteristicNo3Null_;
       }
       /**
-       * <code>optional bool basic_characteristic_no3_null = 1008;</code>
+       * <code>bool basic_characteristic_no3_null = 1008;</code>
        */
       public Builder setBasicCharacteristicNo3Null(boolean value) {
         
@@ -2732,7 +2732,7 @@ public final class StGetDirectSuccessorsTreeAd {
         return this;
       }
       /**
-       * <code>optional bool basic_characteristic_no3_null = 1008;</code>
+       * <code>bool basic_characteristic_no3_null = 1008;</code>
        */
       public Builder clearBasicCharacteristicNo3Null() {
         
@@ -2745,13 +2745,13 @@ public final class StGetDirectSuccessorsTreeAd {
       private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.values.DecimalValue, io.dstore.values.DecimalValue.Builder, io.dstore.values.DecimalValueOrBuilder> weightBasicCharacteristicNo3Builder_;
       /**
-       * <code>optional .dstore.values.DecimalValue weight_basic_characteristic_no3 = 9;</code>
+       * <code>.dstore.values.DecimalValue weight_basic_characteristic_no3 = 9;</code>
        */
       public boolean hasWeightBasicCharacteristicNo3() {
         return weightBasicCharacteristicNo3Builder_ != null || weightBasicCharacteristicNo3_ != null;
       }
       /**
-       * <code>optional .dstore.values.DecimalValue weight_basic_characteristic_no3 = 9;</code>
+       * <code>.dstore.values.DecimalValue weight_basic_characteristic_no3 = 9;</code>
        */
       public io.dstore.values.DecimalValue getWeightBasicCharacteristicNo3() {
         if (weightBasicCharacteristicNo3Builder_ == null) {
@@ -2761,7 +2761,7 @@ public final class StGetDirectSuccessorsTreeAd {
         }
       }
       /**
-       * <code>optional .dstore.values.DecimalValue weight_basic_characteristic_no3 = 9;</code>
+       * <code>.dstore.values.DecimalValue weight_basic_characteristic_no3 = 9;</code>
        */
       public Builder setWeightBasicCharacteristicNo3(io.dstore.values.DecimalValue value) {
         if (weightBasicCharacteristicNo3Builder_ == null) {
@@ -2777,7 +2777,7 @@ public final class StGetDirectSuccessorsTreeAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.DecimalValue weight_basic_characteristic_no3 = 9;</code>
+       * <code>.dstore.values.DecimalValue weight_basic_characteristic_no3 = 9;</code>
        */
       public Builder setWeightBasicCharacteristicNo3(
           io.dstore.values.DecimalValue.Builder builderForValue) {
@@ -2791,7 +2791,7 @@ public final class StGetDirectSuccessorsTreeAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.DecimalValue weight_basic_characteristic_no3 = 9;</code>
+       * <code>.dstore.values.DecimalValue weight_basic_characteristic_no3 = 9;</code>
        */
       public Builder mergeWeightBasicCharacteristicNo3(io.dstore.values.DecimalValue value) {
         if (weightBasicCharacteristicNo3Builder_ == null) {
@@ -2809,7 +2809,7 @@ public final class StGetDirectSuccessorsTreeAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.DecimalValue weight_basic_characteristic_no3 = 9;</code>
+       * <code>.dstore.values.DecimalValue weight_basic_characteristic_no3 = 9;</code>
        */
       public Builder clearWeightBasicCharacteristicNo3() {
         if (weightBasicCharacteristicNo3Builder_ == null) {
@@ -2823,7 +2823,7 @@ public final class StGetDirectSuccessorsTreeAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.DecimalValue weight_basic_characteristic_no3 = 9;</code>
+       * <code>.dstore.values.DecimalValue weight_basic_characteristic_no3 = 9;</code>
        */
       public io.dstore.values.DecimalValue.Builder getWeightBasicCharacteristicNo3Builder() {
         
@@ -2831,7 +2831,7 @@ public final class StGetDirectSuccessorsTreeAd {
         return getWeightBasicCharacteristicNo3FieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .dstore.values.DecimalValue weight_basic_characteristic_no3 = 9;</code>
+       * <code>.dstore.values.DecimalValue weight_basic_characteristic_no3 = 9;</code>
        */
       public io.dstore.values.DecimalValueOrBuilder getWeightBasicCharacteristicNo3OrBuilder() {
         if (weightBasicCharacteristicNo3Builder_ != null) {
@@ -2842,7 +2842,7 @@ public final class StGetDirectSuccessorsTreeAd {
         }
       }
       /**
-       * <code>optional .dstore.values.DecimalValue weight_basic_characteristic_no3 = 9;</code>
+       * <code>.dstore.values.DecimalValue weight_basic_characteristic_no3 = 9;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.values.DecimalValue, io.dstore.values.DecimalValue.Builder, io.dstore.values.DecimalValueOrBuilder> 
@@ -2860,13 +2860,13 @@ public final class StGetDirectSuccessorsTreeAd {
 
       private boolean weightBasicCharacteristicNo3Null_ ;
       /**
-       * <code>optional bool weight_basic_characteristic_no3_null = 1009;</code>
+       * <code>bool weight_basic_characteristic_no3_null = 1009;</code>
        */
       public boolean getWeightBasicCharacteristicNo3Null() {
         return weightBasicCharacteristicNo3Null_;
       }
       /**
-       * <code>optional bool weight_basic_characteristic_no3_null = 1009;</code>
+       * <code>bool weight_basic_characteristic_no3_null = 1009;</code>
        */
       public Builder setWeightBasicCharacteristicNo3Null(boolean value) {
         
@@ -2875,7 +2875,7 @@ public final class StGetDirectSuccessorsTreeAd {
         return this;
       }
       /**
-       * <code>optional bool weight_basic_characteristic_no3_null = 1009;</code>
+       * <code>bool weight_basic_characteristic_no3_null = 1009;</code>
        */
       public Builder clearWeightBasicCharacteristicNo3Null() {
         
@@ -2888,13 +2888,13 @@ public final class StGetDirectSuccessorsTreeAd {
       private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> sourceTableForStatisticsBuilder_;
       /**
-       * <code>optional .dstore.values.IntegerValue source_table_for_statistics = 10;</code>
+       * <code>.dstore.values.IntegerValue source_table_for_statistics = 10;</code>
        */
       public boolean hasSourceTableForStatistics() {
         return sourceTableForStatisticsBuilder_ != null || sourceTableForStatistics_ != null;
       }
       /**
-       * <code>optional .dstore.values.IntegerValue source_table_for_statistics = 10;</code>
+       * <code>.dstore.values.IntegerValue source_table_for_statistics = 10;</code>
        */
       public io.dstore.values.IntegerValue getSourceTableForStatistics() {
         if (sourceTableForStatisticsBuilder_ == null) {
@@ -2904,7 +2904,7 @@ public final class StGetDirectSuccessorsTreeAd {
         }
       }
       /**
-       * <code>optional .dstore.values.IntegerValue source_table_for_statistics = 10;</code>
+       * <code>.dstore.values.IntegerValue source_table_for_statistics = 10;</code>
        */
       public Builder setSourceTableForStatistics(io.dstore.values.IntegerValue value) {
         if (sourceTableForStatisticsBuilder_ == null) {
@@ -2920,7 +2920,7 @@ public final class StGetDirectSuccessorsTreeAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.IntegerValue source_table_for_statistics = 10;</code>
+       * <code>.dstore.values.IntegerValue source_table_for_statistics = 10;</code>
        */
       public Builder setSourceTableForStatistics(
           io.dstore.values.IntegerValue.Builder builderForValue) {
@@ -2934,7 +2934,7 @@ public final class StGetDirectSuccessorsTreeAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.IntegerValue source_table_for_statistics = 10;</code>
+       * <code>.dstore.values.IntegerValue source_table_for_statistics = 10;</code>
        */
       public Builder mergeSourceTableForStatistics(io.dstore.values.IntegerValue value) {
         if (sourceTableForStatisticsBuilder_ == null) {
@@ -2952,7 +2952,7 @@ public final class StGetDirectSuccessorsTreeAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.IntegerValue source_table_for_statistics = 10;</code>
+       * <code>.dstore.values.IntegerValue source_table_for_statistics = 10;</code>
        */
       public Builder clearSourceTableForStatistics() {
         if (sourceTableForStatisticsBuilder_ == null) {
@@ -2966,7 +2966,7 @@ public final class StGetDirectSuccessorsTreeAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.IntegerValue source_table_for_statistics = 10;</code>
+       * <code>.dstore.values.IntegerValue source_table_for_statistics = 10;</code>
        */
       public io.dstore.values.IntegerValue.Builder getSourceTableForStatisticsBuilder() {
         
@@ -2974,7 +2974,7 @@ public final class StGetDirectSuccessorsTreeAd {
         return getSourceTableForStatisticsFieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .dstore.values.IntegerValue source_table_for_statistics = 10;</code>
+       * <code>.dstore.values.IntegerValue source_table_for_statistics = 10;</code>
        */
       public io.dstore.values.IntegerValueOrBuilder getSourceTableForStatisticsOrBuilder() {
         if (sourceTableForStatisticsBuilder_ != null) {
@@ -2985,7 +2985,7 @@ public final class StGetDirectSuccessorsTreeAd {
         }
       }
       /**
-       * <code>optional .dstore.values.IntegerValue source_table_for_statistics = 10;</code>
+       * <code>.dstore.values.IntegerValue source_table_for_statistics = 10;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> 
@@ -3003,13 +3003,13 @@ public final class StGetDirectSuccessorsTreeAd {
 
       private boolean sourceTableForStatisticsNull_ ;
       /**
-       * <code>optional bool source_table_for_statistics_null = 1010;</code>
+       * <code>bool source_table_for_statistics_null = 1010;</code>
        */
       public boolean getSourceTableForStatisticsNull() {
         return sourceTableForStatisticsNull_;
       }
       /**
-       * <code>optional bool source_table_for_statistics_null = 1010;</code>
+       * <code>bool source_table_for_statistics_null = 1010;</code>
        */
       public Builder setSourceTableForStatisticsNull(boolean value) {
         
@@ -3018,7 +3018,7 @@ public final class StGetDirectSuccessorsTreeAd {
         return this;
       }
       /**
-       * <code>optional bool source_table_for_statistics_null = 1010;</code>
+       * <code>bool source_table_for_statistics_null = 1010;</code>
        */
       public Builder clearSourceTableForStatisticsNull() {
         
@@ -3031,13 +3031,13 @@ public final class StGetDirectSuccessorsTreeAd {
       private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.values.BooleanValue, io.dstore.values.BooleanValue.Builder, io.dstore.values.BooleanValueOrBuilder> displayOnlyActiveBuilder_;
       /**
-       * <code>optional .dstore.values.BooleanValue display_only_active = 11;</code>
+       * <code>.dstore.values.BooleanValue display_only_active = 11;</code>
        */
       public boolean hasDisplayOnlyActive() {
         return displayOnlyActiveBuilder_ != null || displayOnlyActive_ != null;
       }
       /**
-       * <code>optional .dstore.values.BooleanValue display_only_active = 11;</code>
+       * <code>.dstore.values.BooleanValue display_only_active = 11;</code>
        */
       public io.dstore.values.BooleanValue getDisplayOnlyActive() {
         if (displayOnlyActiveBuilder_ == null) {
@@ -3047,7 +3047,7 @@ public final class StGetDirectSuccessorsTreeAd {
         }
       }
       /**
-       * <code>optional .dstore.values.BooleanValue display_only_active = 11;</code>
+       * <code>.dstore.values.BooleanValue display_only_active = 11;</code>
        */
       public Builder setDisplayOnlyActive(io.dstore.values.BooleanValue value) {
         if (displayOnlyActiveBuilder_ == null) {
@@ -3063,7 +3063,7 @@ public final class StGetDirectSuccessorsTreeAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.BooleanValue display_only_active = 11;</code>
+       * <code>.dstore.values.BooleanValue display_only_active = 11;</code>
        */
       public Builder setDisplayOnlyActive(
           io.dstore.values.BooleanValue.Builder builderForValue) {
@@ -3077,7 +3077,7 @@ public final class StGetDirectSuccessorsTreeAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.BooleanValue display_only_active = 11;</code>
+       * <code>.dstore.values.BooleanValue display_only_active = 11;</code>
        */
       public Builder mergeDisplayOnlyActive(io.dstore.values.BooleanValue value) {
         if (displayOnlyActiveBuilder_ == null) {
@@ -3095,7 +3095,7 @@ public final class StGetDirectSuccessorsTreeAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.BooleanValue display_only_active = 11;</code>
+       * <code>.dstore.values.BooleanValue display_only_active = 11;</code>
        */
       public Builder clearDisplayOnlyActive() {
         if (displayOnlyActiveBuilder_ == null) {
@@ -3109,7 +3109,7 @@ public final class StGetDirectSuccessorsTreeAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.BooleanValue display_only_active = 11;</code>
+       * <code>.dstore.values.BooleanValue display_only_active = 11;</code>
        */
       public io.dstore.values.BooleanValue.Builder getDisplayOnlyActiveBuilder() {
         
@@ -3117,7 +3117,7 @@ public final class StGetDirectSuccessorsTreeAd {
         return getDisplayOnlyActiveFieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .dstore.values.BooleanValue display_only_active = 11;</code>
+       * <code>.dstore.values.BooleanValue display_only_active = 11;</code>
        */
       public io.dstore.values.BooleanValueOrBuilder getDisplayOnlyActiveOrBuilder() {
         if (displayOnlyActiveBuilder_ != null) {
@@ -3128,7 +3128,7 @@ public final class StGetDirectSuccessorsTreeAd {
         }
       }
       /**
-       * <code>optional .dstore.values.BooleanValue display_only_active = 11;</code>
+       * <code>.dstore.values.BooleanValue display_only_active = 11;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.values.BooleanValue, io.dstore.values.BooleanValue.Builder, io.dstore.values.BooleanValueOrBuilder> 
@@ -3146,13 +3146,13 @@ public final class StGetDirectSuccessorsTreeAd {
 
       private boolean displayOnlyActiveNull_ ;
       /**
-       * <code>optional bool display_only_active_null = 1011;</code>
+       * <code>bool display_only_active_null = 1011;</code>
        */
       public boolean getDisplayOnlyActiveNull() {
         return displayOnlyActiveNull_;
       }
       /**
-       * <code>optional bool display_only_active_null = 1011;</code>
+       * <code>bool display_only_active_null = 1011;</code>
        */
       public Builder setDisplayOnlyActiveNull(boolean value) {
         
@@ -3161,7 +3161,7 @@ public final class StGetDirectSuccessorsTreeAd {
         return this;
       }
       /**
-       * <code>optional bool display_only_active_null = 1011;</code>
+       * <code>bool display_only_active_null = 1011;</code>
        */
       public Builder clearDisplayOnlyActiveNull() {
         
@@ -3420,7 +3420,7 @@ public final class StGetDirectSuccessorsTreeAd {
         com.google.protobuf.MessageOrBuilder {
 
       /**
-       * <code>optional int32 row_id = 10000;</code>
+       * <code>int32 row_id = 10000;</code>
        */
       int getRowId();
 
@@ -3429,7 +3429,7 @@ public final class StGetDirectSuccessorsTreeAd {
        * Anzahl Vorgänger von "TreeNodeID" plus 1
        * </pre>
        *
-       * <code>optional .dstore.values.IntegerValue tree_level = 10001;</code>
+       * <code>.dstore.values.IntegerValue tree_level = 10001;</code>
        */
       boolean hasTreeLevel();
       /**
@@ -3437,7 +3437,7 @@ public final class StGetDirectSuccessorsTreeAd {
        * Anzahl Vorgänger von "TreeNodeID" plus 1
        * </pre>
        *
-       * <code>optional .dstore.values.IntegerValue tree_level = 10001;</code>
+       * <code>.dstore.values.IntegerValue tree_level = 10001;</code>
        */
       io.dstore.values.IntegerValue getTreeLevel();
       /**
@@ -3445,7 +3445,7 @@ public final class StGetDirectSuccessorsTreeAd {
        * Anzahl Vorgänger von "TreeNodeID" plus 1
        * </pre>
        *
-       * <code>optional .dstore.values.IntegerValue tree_level = 10001;</code>
+       * <code>.dstore.values.IntegerValue tree_level = 10001;</code>
        */
       io.dstore.values.IntegerValueOrBuilder getTreeLevelOrBuilder();
 
@@ -3454,7 +3454,7 @@ public final class StGetDirectSuccessorsTreeAd {
        * ID des Vorgängers von "TreeNodeID" (im Zeitraum "FromDate" bis "ToDate")
        * </pre>
        *
-       * <code>optional .dstore.values.IntegerValue predecessor = 10002;</code>
+       * <code>.dstore.values.IntegerValue predecessor = 10002;</code>
        */
       boolean hasPredecessor();
       /**
@@ -3462,7 +3462,7 @@ public final class StGetDirectSuccessorsTreeAd {
        * ID des Vorgängers von "TreeNodeID" (im Zeitraum "FromDate" bis "ToDate")
        * </pre>
        *
-       * <code>optional .dstore.values.IntegerValue predecessor = 10002;</code>
+       * <code>.dstore.values.IntegerValue predecessor = 10002;</code>
        */
       io.dstore.values.IntegerValue getPredecessor();
       /**
@@ -3470,7 +3470,7 @@ public final class StGetDirectSuccessorsTreeAd {
        * ID des Vorgängers von "TreeNodeID" (im Zeitraum "FromDate" bis "ToDate")
        * </pre>
        *
-       * <code>optional .dstore.values.IntegerValue predecessor = 10002;</code>
+       * <code>.dstore.values.IntegerValue predecessor = 10002;</code>
        */
       io.dstore.values.IntegerValueOrBuilder getPredecessorOrBuilder();
 
@@ -3479,7 +3479,7 @@ public final class StGetDirectSuccessorsTreeAd {
        * Nummer der Hierarchie der "NodeID"
        * </pre>
        *
-       * <code>optional .dstore.values.IntegerValue level_no = 10003;</code>
+       * <code>.dstore.values.IntegerValue level_no = 10003;</code>
        */
       boolean hasLevelNo();
       /**
@@ -3487,7 +3487,7 @@ public final class StGetDirectSuccessorsTreeAd {
        * Nummer der Hierarchie der "NodeID"
        * </pre>
        *
-       * <code>optional .dstore.values.IntegerValue level_no = 10003;</code>
+       * <code>.dstore.values.IntegerValue level_no = 10003;</code>
        */
       io.dstore.values.IntegerValue getLevelNo();
       /**
@@ -3495,7 +3495,7 @@ public final class StGetDirectSuccessorsTreeAd {
        * Nummer der Hierarchie der "NodeID"
        * </pre>
        *
-       * <code>optional .dstore.values.IntegerValue level_no = 10003;</code>
+       * <code>.dstore.values.IntegerValue level_no = 10003;</code>
        */
       io.dstore.values.IntegerValueOrBuilder getLevelNoOrBuilder();
 
@@ -3504,7 +3504,7 @@ public final class StGetDirectSuccessorsTreeAd {
        * Prozentualer Anteil von "TotalValue_BasicCharacNo3" zur Summe von "TotalValue_BasicCharacNo3" aller Elemente mit dem Vorgänger "Predesessor". Wurde für "&#64;BasicCharacteristicNo2" oder "&#64;BasicCharacteristicNo3" "NULL" angegeben, steht hier immer "0.00".
        * </pre>
        *
-       * <code>optional .dstore.values.DecimalValue relative_value_basic_charac_no3 = 10004;</code>
+       * <code>.dstore.values.DecimalValue relative_value_basic_charac_no3 = 10004;</code>
        */
       boolean hasRelativeValueBasicCharacNo3();
       /**
@@ -3512,7 +3512,7 @@ public final class StGetDirectSuccessorsTreeAd {
        * Prozentualer Anteil von "TotalValue_BasicCharacNo3" zur Summe von "TotalValue_BasicCharacNo3" aller Elemente mit dem Vorgänger "Predesessor". Wurde für "&#64;BasicCharacteristicNo2" oder "&#64;BasicCharacteristicNo3" "NULL" angegeben, steht hier immer "0.00".
        * </pre>
        *
-       * <code>optional .dstore.values.DecimalValue relative_value_basic_charac_no3 = 10004;</code>
+       * <code>.dstore.values.DecimalValue relative_value_basic_charac_no3 = 10004;</code>
        */
       io.dstore.values.DecimalValue getRelativeValueBasicCharacNo3();
       /**
@@ -3520,7 +3520,7 @@ public final class StGetDirectSuccessorsTreeAd {
        * Prozentualer Anteil von "TotalValue_BasicCharacNo3" zur Summe von "TotalValue_BasicCharacNo3" aller Elemente mit dem Vorgänger "Predesessor". Wurde für "&#64;BasicCharacteristicNo2" oder "&#64;BasicCharacteristicNo3" "NULL" angegeben, steht hier immer "0.00".
        * </pre>
        *
-       * <code>optional .dstore.values.DecimalValue relative_value_basic_charac_no3 = 10004;</code>
+       * <code>.dstore.values.DecimalValue relative_value_basic_charac_no3 = 10004;</code>
        */
       io.dstore.values.DecimalValueOrBuilder getRelativeValueBasicCharacNo3OrBuilder();
 
@@ -3529,7 +3529,7 @@ public final class StGetDirectSuccessorsTreeAd {
        * Prozentualer Anteil von "TotalValue_BasicCharacNo2" (der "HTreeNodeID") zur Summe von "TotalValue_BasicCharacNo2" aller Elemente mit dem Vorgänger-Element "Predesessor". Falls "&#64;BasicCharacteristicNo2 = NULL" angegeben wurde, steht hier immer "0.00".
        * </pre>
        *
-       * <code>optional .dstore.values.DecimalValue relative_value_basic_charac_no2 = 10005;</code>
+       * <code>.dstore.values.DecimalValue relative_value_basic_charac_no2 = 10005;</code>
        */
       boolean hasRelativeValueBasicCharacNo2();
       /**
@@ -3537,7 +3537,7 @@ public final class StGetDirectSuccessorsTreeAd {
        * Prozentualer Anteil von "TotalValue_BasicCharacNo2" (der "HTreeNodeID") zur Summe von "TotalValue_BasicCharacNo2" aller Elemente mit dem Vorgänger-Element "Predesessor". Falls "&#64;BasicCharacteristicNo2 = NULL" angegeben wurde, steht hier immer "0.00".
        * </pre>
        *
-       * <code>optional .dstore.values.DecimalValue relative_value_basic_charac_no2 = 10005;</code>
+       * <code>.dstore.values.DecimalValue relative_value_basic_charac_no2 = 10005;</code>
        */
       io.dstore.values.DecimalValue getRelativeValueBasicCharacNo2();
       /**
@@ -3545,7 +3545,7 @@ public final class StGetDirectSuccessorsTreeAd {
        * Prozentualer Anteil von "TotalValue_BasicCharacNo2" (der "HTreeNodeID") zur Summe von "TotalValue_BasicCharacNo2" aller Elemente mit dem Vorgänger-Element "Predesessor". Falls "&#64;BasicCharacteristicNo2 = NULL" angegeben wurde, steht hier immer "0.00".
        * </pre>
        *
-       * <code>optional .dstore.values.DecimalValue relative_value_basic_charac_no2 = 10005;</code>
+       * <code>.dstore.values.DecimalValue relative_value_basic_charac_no2 = 10005;</code>
        */
       io.dstore.values.DecimalValueOrBuilder getRelativeValueBasicCharacNo2OrBuilder();
 
@@ -3554,7 +3554,7 @@ public final class StGetDirectSuccessorsTreeAd {
        * Prozentualer Anteil von "TotalValue_BasicCharacNo1" (des Elementes "HTreeNodeID") zur Summe von "TotalValue_BasicCharacNo1" aller Elemente mit dem Vorgänger-Element "Predesessor"
        * </pre>
        *
-       * <code>optional .dstore.values.DecimalValue relative_value_basic_charac_no1 = 10006;</code>
+       * <code>.dstore.values.DecimalValue relative_value_basic_charac_no1 = 10006;</code>
        */
       boolean hasRelativeValueBasicCharacNo1();
       /**
@@ -3562,7 +3562,7 @@ public final class StGetDirectSuccessorsTreeAd {
        * Prozentualer Anteil von "TotalValue_BasicCharacNo1" (des Elementes "HTreeNodeID") zur Summe von "TotalValue_BasicCharacNo1" aller Elemente mit dem Vorgänger-Element "Predesessor"
        * </pre>
        *
-       * <code>optional .dstore.values.DecimalValue relative_value_basic_charac_no1 = 10006;</code>
+       * <code>.dstore.values.DecimalValue relative_value_basic_charac_no1 = 10006;</code>
        */
       io.dstore.values.DecimalValue getRelativeValueBasicCharacNo1();
       /**
@@ -3570,7 +3570,7 @@ public final class StGetDirectSuccessorsTreeAd {
        * Prozentualer Anteil von "TotalValue_BasicCharacNo1" (des Elementes "HTreeNodeID") zur Summe von "TotalValue_BasicCharacNo1" aller Elemente mit dem Vorgänger-Element "Predesessor"
        * </pre>
        *
-       * <code>optional .dstore.values.DecimalValue relative_value_basic_charac_no1 = 10006;</code>
+       * <code>.dstore.values.DecimalValue relative_value_basic_charac_no1 = 10006;</code>
        */
       io.dstore.values.DecimalValueOrBuilder getRelativeValueBasicCharacNo1OrBuilder();
 
@@ -3579,7 +3579,7 @@ public final class StGetDirectSuccessorsTreeAd {
        * Zusammengesetzte Kennzahl nach der Formel :(TotalValue_BasicCharacNo1 * &#64;Weight_BasicCharacteristicNo1) + (TotalValue_BasicCharacNo2 * &#64;Weight_BasicCharacteristicNo2) + (TotalValue_BasicCharacNo3 * &#64;Weight_BasicCharacteristicNo3)
        * </pre>
        *
-       * <code>optional .dstore.values.DecimalValue total_value_index = 10007;</code>
+       * <code>.dstore.values.DecimalValue total_value_index = 10007;</code>
        */
       boolean hasTotalValueIndex();
       /**
@@ -3587,7 +3587,7 @@ public final class StGetDirectSuccessorsTreeAd {
        * Zusammengesetzte Kennzahl nach der Formel :(TotalValue_BasicCharacNo1 * &#64;Weight_BasicCharacteristicNo1) + (TotalValue_BasicCharacNo2 * &#64;Weight_BasicCharacteristicNo2) + (TotalValue_BasicCharacNo3 * &#64;Weight_BasicCharacteristicNo3)
        * </pre>
        *
-       * <code>optional .dstore.values.DecimalValue total_value_index = 10007;</code>
+       * <code>.dstore.values.DecimalValue total_value_index = 10007;</code>
        */
       io.dstore.values.DecimalValue getTotalValueIndex();
       /**
@@ -3595,7 +3595,7 @@ public final class StGetDirectSuccessorsTreeAd {
        * Zusammengesetzte Kennzahl nach der Formel :(TotalValue_BasicCharacNo1 * &#64;Weight_BasicCharacteristicNo1) + (TotalValue_BasicCharacNo2 * &#64;Weight_BasicCharacteristicNo2) + (TotalValue_BasicCharacNo3 * &#64;Weight_BasicCharacteristicNo3)
        * </pre>
        *
-       * <code>optional .dstore.values.DecimalValue total_value_index = 10007;</code>
+       * <code>.dstore.values.DecimalValue total_value_index = 10007;</code>
        */
       io.dstore.values.DecimalValueOrBuilder getTotalValueIndexOrBuilder();
 
@@ -3604,7 +3604,7 @@ public final class StGetDirectSuccessorsTreeAd {
        * Prozentualer Anteil von "TotalValue_Index" zur Summe von "TotalValue_Index" aller Elemente mit dem Vorgänger "Predesessor".
        * </pre>
        *
-       * <code>optional .dstore.values.DecimalValue relative_value_index = 10008;</code>
+       * <code>.dstore.values.DecimalValue relative_value_index = 10008;</code>
        */
       boolean hasRelativeValueIndex();
       /**
@@ -3612,7 +3612,7 @@ public final class StGetDirectSuccessorsTreeAd {
        * Prozentualer Anteil von "TotalValue_Index" zur Summe von "TotalValue_Index" aller Elemente mit dem Vorgänger "Predesessor".
        * </pre>
        *
-       * <code>optional .dstore.values.DecimalValue relative_value_index = 10008;</code>
+       * <code>.dstore.values.DecimalValue relative_value_index = 10008;</code>
        */
       io.dstore.values.DecimalValue getRelativeValueIndex();
       /**
@@ -3620,7 +3620,7 @@ public final class StGetDirectSuccessorsTreeAd {
        * Prozentualer Anteil von "TotalValue_Index" zur Summe von "TotalValue_Index" aller Elemente mit dem Vorgänger "Predesessor".
        * </pre>
        *
-       * <code>optional .dstore.values.DecimalValue relative_value_index = 10008;</code>
+       * <code>.dstore.values.DecimalValue relative_value_index = 10008;</code>
        */
       io.dstore.values.DecimalValueOrBuilder getRelativeValueIndexOrBuilder();
 
@@ -3629,7 +3629,7 @@ public final class StGetDirectSuccessorsTreeAd {
        * Bezeichnung der "NodeID"
        * </pre>
        *
-       * <code>optional .dstore.values.StringValue node_description = 10009;</code>
+       * <code>.dstore.values.StringValue node_description = 10009;</code>
        */
       boolean hasNodeDescription();
       /**
@@ -3637,7 +3637,7 @@ public final class StGetDirectSuccessorsTreeAd {
        * Bezeichnung der "NodeID"
        * </pre>
        *
-       * <code>optional .dstore.values.StringValue node_description = 10009;</code>
+       * <code>.dstore.values.StringValue node_description = 10009;</code>
        */
       io.dstore.values.StringValue getNodeDescription();
       /**
@@ -3645,7 +3645,7 @@ public final class StGetDirectSuccessorsTreeAd {
        * Bezeichnung der "NodeID"
        * </pre>
        *
-       * <code>optional .dstore.values.StringValue node_description = 10009;</code>
+       * <code>.dstore.values.StringValue node_description = 10009;</code>
        */
       io.dstore.values.StringValueOrBuilder getNodeDescriptionOrBuilder();
 
@@ -3654,7 +3654,7 @@ public final class StGetDirectSuccessorsTreeAd {
        * Ist "TreeNodeID" z.Zt. aktiviert ? ("0" : Nein, "1" : Ja)
        * </pre>
        *
-       * <code>optional .dstore.values.BooleanValue active = 10010;</code>
+       * <code>.dstore.values.BooleanValue active = 10010;</code>
        */
       boolean hasActive();
       /**
@@ -3662,7 +3662,7 @@ public final class StGetDirectSuccessorsTreeAd {
        * Ist "TreeNodeID" z.Zt. aktiviert ? ("0" : Nein, "1" : Ja)
        * </pre>
        *
-       * <code>optional .dstore.values.BooleanValue active = 10010;</code>
+       * <code>.dstore.values.BooleanValue active = 10010;</code>
        */
       io.dstore.values.BooleanValue getActive();
       /**
@@ -3670,7 +3670,7 @@ public final class StGetDirectSuccessorsTreeAd {
        * Ist "TreeNodeID" z.Zt. aktiviert ? ("0" : Nein, "1" : Ja)
        * </pre>
        *
-       * <code>optional .dstore.values.BooleanValue active = 10010;</code>
+       * <code>.dstore.values.BooleanValue active = 10010;</code>
        */
       io.dstore.values.BooleanValueOrBuilder getActiveOrBuilder();
 
@@ -3679,7 +3679,7 @@ public final class StGetDirectSuccessorsTreeAd {
        * Gibt es ein nächstes "Geschwister-Element", also ein anderes Element des Artikelbaums, das ebenfalls "Predecessor" als Vorgänger hat und dessen "SortNo" um 1 niedriger ist als die "SortNo" von "TreeNodeID" ?
        * </pre>
        *
-       * <code>optional .dstore.values.BooleanValue has_next_sibling = 10011;</code>
+       * <code>.dstore.values.BooleanValue has_next_sibling = 10011;</code>
        */
       boolean hasHasNextSibling();
       /**
@@ -3687,7 +3687,7 @@ public final class StGetDirectSuccessorsTreeAd {
        * Gibt es ein nächstes "Geschwister-Element", also ein anderes Element des Artikelbaums, das ebenfalls "Predecessor" als Vorgänger hat und dessen "SortNo" um 1 niedriger ist als die "SortNo" von "TreeNodeID" ?
        * </pre>
        *
-       * <code>optional .dstore.values.BooleanValue has_next_sibling = 10011;</code>
+       * <code>.dstore.values.BooleanValue has_next_sibling = 10011;</code>
        */
       io.dstore.values.BooleanValue getHasNextSibling();
       /**
@@ -3695,7 +3695,7 @@ public final class StGetDirectSuccessorsTreeAd {
        * Gibt es ein nächstes "Geschwister-Element", also ein anderes Element des Artikelbaums, das ebenfalls "Predecessor" als Vorgänger hat und dessen "SortNo" um 1 niedriger ist als die "SortNo" von "TreeNodeID" ?
        * </pre>
        *
-       * <code>optional .dstore.values.BooleanValue has_next_sibling = 10011;</code>
+       * <code>.dstore.values.BooleanValue has_next_sibling = 10011;</code>
        */
       io.dstore.values.BooleanValueOrBuilder getHasNextSiblingOrBuilder();
 
@@ -3704,7 +3704,7 @@ public final class StGetDirectSuccessorsTreeAd {
        * Wert zur Basis-Kenzahl "&#64;BasicCharacteristicNo1" zum Element "HTreeNodeID"
        * </pre>
        *
-       * <code>optional .dstore.values.DecimalValue total_value_basic_charac_no1 = 10012;</code>
+       * <code>.dstore.values.DecimalValue total_value_basic_charac_no1 = 10012;</code>
        */
       boolean hasTotalValueBasicCharacNo1();
       /**
@@ -3712,7 +3712,7 @@ public final class StGetDirectSuccessorsTreeAd {
        * Wert zur Basis-Kenzahl "&#64;BasicCharacteristicNo1" zum Element "HTreeNodeID"
        * </pre>
        *
-       * <code>optional .dstore.values.DecimalValue total_value_basic_charac_no1 = 10012;</code>
+       * <code>.dstore.values.DecimalValue total_value_basic_charac_no1 = 10012;</code>
        */
       io.dstore.values.DecimalValue getTotalValueBasicCharacNo1();
       /**
@@ -3720,7 +3720,7 @@ public final class StGetDirectSuccessorsTreeAd {
        * Wert zur Basis-Kenzahl "&#64;BasicCharacteristicNo1" zum Element "HTreeNodeID"
        * </pre>
        *
-       * <code>optional .dstore.values.DecimalValue total_value_basic_charac_no1 = 10012;</code>
+       * <code>.dstore.values.DecimalValue total_value_basic_charac_no1 = 10012;</code>
        */
       io.dstore.values.DecimalValueOrBuilder getTotalValueBasicCharacNo1OrBuilder();
 
@@ -3729,7 +3729,7 @@ public final class StGetDirectSuccessorsTreeAd {
        * ID des zur "TreeNodeID" zugehörigen Elementes aus "HistoryTreeView" (in dieser ist die Historie des gesamten Artikelbaums abgebildet), das im Zeitraum "FromDate" bis "ToDate" gültig ist/war
        * </pre>
        *
-       * <code>optional .dstore.values.IntegerValue h_tree_node_id = 10013;</code>
+       * <code>.dstore.values.IntegerValue h_tree_node_id = 10013;</code>
        */
       boolean hasHTreeNodeId();
       /**
@@ -3737,7 +3737,7 @@ public final class StGetDirectSuccessorsTreeAd {
        * ID des zur "TreeNodeID" zugehörigen Elementes aus "HistoryTreeView" (in dieser ist die Historie des gesamten Artikelbaums abgebildet), das im Zeitraum "FromDate" bis "ToDate" gültig ist/war
        * </pre>
        *
-       * <code>optional .dstore.values.IntegerValue h_tree_node_id = 10013;</code>
+       * <code>.dstore.values.IntegerValue h_tree_node_id = 10013;</code>
        */
       io.dstore.values.IntegerValue getHTreeNodeId();
       /**
@@ -3745,7 +3745,7 @@ public final class StGetDirectSuccessorsTreeAd {
        * ID des zur "TreeNodeID" zugehörigen Elementes aus "HistoryTreeView" (in dieser ist die Historie des gesamten Artikelbaums abgebildet), das im Zeitraum "FromDate" bis "ToDate" gültig ist/war
        * </pre>
        *
-       * <code>optional .dstore.values.IntegerValue h_tree_node_id = 10013;</code>
+       * <code>.dstore.values.IntegerValue h_tree_node_id = 10013;</code>
        */
       io.dstore.values.IntegerValueOrBuilder getHTreeNodeIdOrBuilder();
 
@@ -3754,7 +3754,7 @@ public final class StGetDirectSuccessorsTreeAd {
        * Wert zur Basis-Kenzahl "&#64;BasicCharacteristicNo2" zum Element "HTreeNodeID". Falls "&#64;BasicCharacteristicNo2 = NULL" angegeben wurde, steht hier immer "0.00".
        * </pre>
        *
-       * <code>optional .dstore.values.DecimalValue total_value_basic_charac_no2 = 10014;</code>
+       * <code>.dstore.values.DecimalValue total_value_basic_charac_no2 = 10014;</code>
        */
       boolean hasTotalValueBasicCharacNo2();
       /**
@@ -3762,7 +3762,7 @@ public final class StGetDirectSuccessorsTreeAd {
        * Wert zur Basis-Kenzahl "&#64;BasicCharacteristicNo2" zum Element "HTreeNodeID". Falls "&#64;BasicCharacteristicNo2 = NULL" angegeben wurde, steht hier immer "0.00".
        * </pre>
        *
-       * <code>optional .dstore.values.DecimalValue total_value_basic_charac_no2 = 10014;</code>
+       * <code>.dstore.values.DecimalValue total_value_basic_charac_no2 = 10014;</code>
        */
       io.dstore.values.DecimalValue getTotalValueBasicCharacNo2();
       /**
@@ -3770,7 +3770,7 @@ public final class StGetDirectSuccessorsTreeAd {
        * Wert zur Basis-Kenzahl "&#64;BasicCharacteristicNo2" zum Element "HTreeNodeID". Falls "&#64;BasicCharacteristicNo2 = NULL" angegeben wurde, steht hier immer "0.00".
        * </pre>
        *
-       * <code>optional .dstore.values.DecimalValue total_value_basic_charac_no2 = 10014;</code>
+       * <code>.dstore.values.DecimalValue total_value_basic_charac_no2 = 10014;</code>
        */
       io.dstore.values.DecimalValueOrBuilder getTotalValueBasicCharacNo2OrBuilder();
 
@@ -3779,7 +3779,7 @@ public final class StGetDirectSuccessorsTreeAd {
        * Wert zur Basis-Kenzahl "&#64;BasicCharacteristicNo3" zum Element "HTreeNodeID". Falls "&#64;BasicCharacteristicNo2 = NULL" oder "&#64;BasciCharacteristicNo3 = NULL" angegeben wurde, steht hier immer "0.00".
        * </pre>
        *
-       * <code>optional .dstore.values.DecimalValue total_value_basic_charac_no3 = 10015;</code>
+       * <code>.dstore.values.DecimalValue total_value_basic_charac_no3 = 10015;</code>
        */
       boolean hasTotalValueBasicCharacNo3();
       /**
@@ -3787,7 +3787,7 @@ public final class StGetDirectSuccessorsTreeAd {
        * Wert zur Basis-Kenzahl "&#64;BasicCharacteristicNo3" zum Element "HTreeNodeID". Falls "&#64;BasicCharacteristicNo2 = NULL" oder "&#64;BasciCharacteristicNo3 = NULL" angegeben wurde, steht hier immer "0.00".
        * </pre>
        *
-       * <code>optional .dstore.values.DecimalValue total_value_basic_charac_no3 = 10015;</code>
+       * <code>.dstore.values.DecimalValue total_value_basic_charac_no3 = 10015;</code>
        */
       io.dstore.values.DecimalValue getTotalValueBasicCharacNo3();
       /**
@@ -3795,7 +3795,7 @@ public final class StGetDirectSuccessorsTreeAd {
        * Wert zur Basis-Kenzahl "&#64;BasicCharacteristicNo3" zum Element "HTreeNodeID". Falls "&#64;BasicCharacteristicNo2 = NULL" oder "&#64;BasciCharacteristicNo3 = NULL" angegeben wurde, steht hier immer "0.00".
        * </pre>
        *
-       * <code>optional .dstore.values.DecimalValue total_value_basic_charac_no3 = 10015;</code>
+       * <code>.dstore.values.DecimalValue total_value_basic_charac_no3 = 10015;</code>
        */
       io.dstore.values.DecimalValueOrBuilder getTotalValueBasicCharacNo3OrBuilder();
 
@@ -3804,7 +3804,7 @@ public final class StGetDirectSuccessorsTreeAd {
        * Das Maximum aller Werte für "RelativeValue_BasicCharacNo1", "RelativeValue_BasicCharacNo2", "RelativeValue_BasicCharacNo3" und "RelativeValue_Index" von Elementen, die als Vorgänger ebenfalls "Predecessor" besitzen (siehe Beschreibung)
        * </pre>
        *
-       * <code>optional .dstore.values.DecimalValue max_relative_value_per_predecessor = 10016;</code>
+       * <code>.dstore.values.DecimalValue max_relative_value_per_predecessor = 10016;</code>
        */
       boolean hasMaxRelativeValuePerPredecessor();
       /**
@@ -3812,7 +3812,7 @@ public final class StGetDirectSuccessorsTreeAd {
        * Das Maximum aller Werte für "RelativeValue_BasicCharacNo1", "RelativeValue_BasicCharacNo2", "RelativeValue_BasicCharacNo3" und "RelativeValue_Index" von Elementen, die als Vorgänger ebenfalls "Predecessor" besitzen (siehe Beschreibung)
        * </pre>
        *
-       * <code>optional .dstore.values.DecimalValue max_relative_value_per_predecessor = 10016;</code>
+       * <code>.dstore.values.DecimalValue max_relative_value_per_predecessor = 10016;</code>
        */
       io.dstore.values.DecimalValue getMaxRelativeValuePerPredecessor();
       /**
@@ -3820,7 +3820,7 @@ public final class StGetDirectSuccessorsTreeAd {
        * Das Maximum aller Werte für "RelativeValue_BasicCharacNo1", "RelativeValue_BasicCharacNo2", "RelativeValue_BasicCharacNo3" und "RelativeValue_Index" von Elementen, die als Vorgänger ebenfalls "Predecessor" besitzen (siehe Beschreibung)
        * </pre>
        *
-       * <code>optional .dstore.values.DecimalValue max_relative_value_per_predecessor = 10016;</code>
+       * <code>.dstore.values.DecimalValue max_relative_value_per_predecessor = 10016;</code>
        */
       io.dstore.values.DecimalValueOrBuilder getMaxRelativeValuePerPredecessorOrBuilder();
 
@@ -3829,7 +3829,7 @@ public final class StGetDirectSuccessorsTreeAd {
        * ID eines Elementes im Artikelbaum
        * </pre>
        *
-       * <code>optional .dstore.values.IntegerValue tree_node_id = 10017;</code>
+       * <code>.dstore.values.IntegerValue tree_node_id = 10017;</code>
        */
       boolean hasTreeNodeId();
       /**
@@ -3837,7 +3837,7 @@ public final class StGetDirectSuccessorsTreeAd {
        * ID eines Elementes im Artikelbaum
        * </pre>
        *
-       * <code>optional .dstore.values.IntegerValue tree_node_id = 10017;</code>
+       * <code>.dstore.values.IntegerValue tree_node_id = 10017;</code>
        */
       io.dstore.values.IntegerValue getTreeNodeId();
       /**
@@ -3845,7 +3845,7 @@ public final class StGetDirectSuccessorsTreeAd {
        * ID eines Elementes im Artikelbaum
        * </pre>
        *
-       * <code>optional .dstore.values.IntegerValue tree_node_id = 10017;</code>
+       * <code>.dstore.values.IntegerValue tree_node_id = 10017;</code>
        */
       io.dstore.values.IntegerValueOrBuilder getTreeNodeIdOrBuilder();
 
@@ -3854,7 +3854,7 @@ public final class StGetDirectSuccessorsTreeAd {
        * ID des zur "TreeNodeID" gehörenden Artikel-Elementes
        * </pre>
        *
-       * <code>optional .dstore.values.IntegerValue node_id = 10018;</code>
+       * <code>.dstore.values.IntegerValue node_id = 10018;</code>
        */
       boolean hasNodeId();
       /**
@@ -3862,7 +3862,7 @@ public final class StGetDirectSuccessorsTreeAd {
        * ID des zur "TreeNodeID" gehörenden Artikel-Elementes
        * </pre>
        *
-       * <code>optional .dstore.values.IntegerValue node_id = 10018;</code>
+       * <code>.dstore.values.IntegerValue node_id = 10018;</code>
        */
       io.dstore.values.IntegerValue getNodeId();
       /**
@@ -3870,7 +3870,7 @@ public final class StGetDirectSuccessorsTreeAd {
        * ID des zur "TreeNodeID" gehörenden Artikel-Elementes
        * </pre>
        *
-       * <code>optional .dstore.values.IntegerValue node_id = 10018;</code>
+       * <code>.dstore.values.IntegerValue node_id = 10018;</code>
        */
       io.dstore.values.IntegerValueOrBuilder getNodeIdOrBuilder();
 
@@ -3879,7 +3879,7 @@ public final class StGetDirectSuccessorsTreeAd {
        * Das Maximum aller Werte für "RelativeValue_Index" von Elementen, die als Vorgänger ebenfalls "Predecessor" besitzen (siehe Beschreibung)
        * </pre>
        *
-       * <code>optional .dstore.values.DecimalValue max_relative_value_index_per_pred = 10019;</code>
+       * <code>.dstore.values.DecimalValue max_relative_value_index_per_pred = 10019;</code>
        */
       boolean hasMaxRelativeValueIndexPerPred();
       /**
@@ -3887,7 +3887,7 @@ public final class StGetDirectSuccessorsTreeAd {
        * Das Maximum aller Werte für "RelativeValue_Index" von Elementen, die als Vorgänger ebenfalls "Predecessor" besitzen (siehe Beschreibung)
        * </pre>
        *
-       * <code>optional .dstore.values.DecimalValue max_relative_value_index_per_pred = 10019;</code>
+       * <code>.dstore.values.DecimalValue max_relative_value_index_per_pred = 10019;</code>
        */
       io.dstore.values.DecimalValue getMaxRelativeValueIndexPerPred();
       /**
@@ -3895,7 +3895,7 @@ public final class StGetDirectSuccessorsTreeAd {
        * Das Maximum aller Werte für "RelativeValue_Index" von Elementen, die als Vorgänger ebenfalls "Predecessor" besitzen (siehe Beschreibung)
        * </pre>
        *
-       * <code>optional .dstore.values.DecimalValue max_relative_value_index_per_pred = 10019;</code>
+       * <code>.dstore.values.DecimalValue max_relative_value_index_per_pred = 10019;</code>
        */
       io.dstore.values.DecimalValueOrBuilder getMaxRelativeValueIndexPerPredOrBuilder();
 
@@ -3904,7 +3904,7 @@ public final class StGetDirectSuccessorsTreeAd {
        * Beginn des Gültigkeitszeitraums für "HTreeNodeID" als String (Format "12.04.2000 17:44:13")
        * </pre>
        *
-       * <code>optional .dstore.values.StringValue from_date = 10020;</code>
+       * <code>.dstore.values.StringValue from_date = 10020;</code>
        */
       boolean hasFromDate();
       /**
@@ -3912,7 +3912,7 @@ public final class StGetDirectSuccessorsTreeAd {
        * Beginn des Gültigkeitszeitraums für "HTreeNodeID" als String (Format "12.04.2000 17:44:13")
        * </pre>
        *
-       * <code>optional .dstore.values.StringValue from_date = 10020;</code>
+       * <code>.dstore.values.StringValue from_date = 10020;</code>
        */
       io.dstore.values.StringValue getFromDate();
       /**
@@ -3920,7 +3920,7 @@ public final class StGetDirectSuccessorsTreeAd {
        * Beginn des Gültigkeitszeitraums für "HTreeNodeID" als String (Format "12.04.2000 17:44:13")
        * </pre>
        *
-       * <code>optional .dstore.values.StringValue from_date = 10020;</code>
+       * <code>.dstore.values.StringValue from_date = 10020;</code>
        */
       io.dstore.values.StringValueOrBuilder getFromDateOrBuilder();
 
@@ -3929,7 +3929,7 @@ public final class StGetDirectSuccessorsTreeAd {
        * Ende des Gültigkeitszeitraums für "HTreeNodeID" als String (Format "12.04.2000 17:44:13")
        * </pre>
        *
-       * <code>optional .dstore.values.StringValue to_date = 10021;</code>
+       * <code>.dstore.values.StringValue to_date = 10021;</code>
        */
       boolean hasToDate();
       /**
@@ -3937,7 +3937,7 @@ public final class StGetDirectSuccessorsTreeAd {
        * Ende des Gültigkeitszeitraums für "HTreeNodeID" als String (Format "12.04.2000 17:44:13")
        * </pre>
        *
-       * <code>optional .dstore.values.StringValue to_date = 10021;</code>
+       * <code>.dstore.values.StringValue to_date = 10021;</code>
        */
       io.dstore.values.StringValue getToDate();
       /**
@@ -3945,7 +3945,7 @@ public final class StGetDirectSuccessorsTreeAd {
        * Ende des Gültigkeitszeitraums für "HTreeNodeID" als String (Format "12.04.2000 17:44:13")
        * </pre>
        *
-       * <code>optional .dstore.values.StringValue to_date = 10021;</code>
+       * <code>.dstore.values.StringValue to_date = 10021;</code>
        */
       io.dstore.values.StringValueOrBuilder getToDateOrBuilder();
 
@@ -3954,7 +3954,7 @@ public final class StGetDirectSuccessorsTreeAd {
        * Hat "TreeNodeID" selbst Nachfolger ?
        * </pre>
        *
-       * <code>optional .dstore.values.BooleanValue has_successors = 10022;</code>
+       * <code>.dstore.values.BooleanValue has_successors = 10022;</code>
        */
       boolean hasHasSuccessors();
       /**
@@ -3962,7 +3962,7 @@ public final class StGetDirectSuccessorsTreeAd {
        * Hat "TreeNodeID" selbst Nachfolger ?
        * </pre>
        *
-       * <code>optional .dstore.values.BooleanValue has_successors = 10022;</code>
+       * <code>.dstore.values.BooleanValue has_successors = 10022;</code>
        */
       io.dstore.values.BooleanValue getHasSuccessors();
       /**
@@ -3970,7 +3970,7 @@ public final class StGetDirectSuccessorsTreeAd {
        * Hat "TreeNodeID" selbst Nachfolger ?
        * </pre>
        *
-       * <code>optional .dstore.values.BooleanValue has_successors = 10022;</code>
+       * <code>.dstore.values.BooleanValue has_successors = 10022;</code>
        */
       io.dstore.values.BooleanValueOrBuilder getHasSuccessorsOrBuilder();
 
@@ -3979,7 +3979,7 @@ public final class StGetDirectSuccessorsTreeAd {
        * Ist "TreeNodeID" bereits gelöscht ? ("0" : Nein, "1" : Ja)
        * </pre>
        *
-       * <code>optional .dstore.values.BooleanValue deleted = 10023;</code>
+       * <code>.dstore.values.BooleanValue deleted = 10023;</code>
        */
       boolean hasDeleted();
       /**
@@ -3987,7 +3987,7 @@ public final class StGetDirectSuccessorsTreeAd {
        * Ist "TreeNodeID" bereits gelöscht ? ("0" : Nein, "1" : Ja)
        * </pre>
        *
-       * <code>optional .dstore.values.BooleanValue deleted = 10023;</code>
+       * <code>.dstore.values.BooleanValue deleted = 10023;</code>
        */
       io.dstore.values.BooleanValue getDeleted();
       /**
@@ -3995,7 +3995,7 @@ public final class StGetDirectSuccessorsTreeAd {
        * Ist "TreeNodeID" bereits gelöscht ? ("0" : Nein, "1" : Ja)
        * </pre>
        *
-       * <code>optional .dstore.values.BooleanValue deleted = 10023;</code>
+       * <code>.dstore.values.BooleanValue deleted = 10023;</code>
        */
       io.dstore.values.BooleanValueOrBuilder getDeletedOrBuilder();
     }
@@ -4369,7 +4369,7 @@ public final class StGetDirectSuccessorsTreeAd {
       public static final int ROW_ID_FIELD_NUMBER = 10000;
       private int rowId_;
       /**
-       * <code>optional int32 row_id = 10000;</code>
+       * <code>int32 row_id = 10000;</code>
        */
       public int getRowId() {
         return rowId_;
@@ -4382,7 +4382,7 @@ public final class StGetDirectSuccessorsTreeAd {
        * Anzahl Vorgänger von "TreeNodeID" plus 1
        * </pre>
        *
-       * <code>optional .dstore.values.IntegerValue tree_level = 10001;</code>
+       * <code>.dstore.values.IntegerValue tree_level = 10001;</code>
        */
       public boolean hasTreeLevel() {
         return treeLevel_ != null;
@@ -4392,7 +4392,7 @@ public final class StGetDirectSuccessorsTreeAd {
        * Anzahl Vorgänger von "TreeNodeID" plus 1
        * </pre>
        *
-       * <code>optional .dstore.values.IntegerValue tree_level = 10001;</code>
+       * <code>.dstore.values.IntegerValue tree_level = 10001;</code>
        */
       public io.dstore.values.IntegerValue getTreeLevel() {
         return treeLevel_ == null ? io.dstore.values.IntegerValue.getDefaultInstance() : treeLevel_;
@@ -4402,7 +4402,7 @@ public final class StGetDirectSuccessorsTreeAd {
        * Anzahl Vorgänger von "TreeNodeID" plus 1
        * </pre>
        *
-       * <code>optional .dstore.values.IntegerValue tree_level = 10001;</code>
+       * <code>.dstore.values.IntegerValue tree_level = 10001;</code>
        */
       public io.dstore.values.IntegerValueOrBuilder getTreeLevelOrBuilder() {
         return getTreeLevel();
@@ -4415,7 +4415,7 @@ public final class StGetDirectSuccessorsTreeAd {
        * ID des Vorgängers von "TreeNodeID" (im Zeitraum "FromDate" bis "ToDate")
        * </pre>
        *
-       * <code>optional .dstore.values.IntegerValue predecessor = 10002;</code>
+       * <code>.dstore.values.IntegerValue predecessor = 10002;</code>
        */
       public boolean hasPredecessor() {
         return predecessor_ != null;
@@ -4425,7 +4425,7 @@ public final class StGetDirectSuccessorsTreeAd {
        * ID des Vorgängers von "TreeNodeID" (im Zeitraum "FromDate" bis "ToDate")
        * </pre>
        *
-       * <code>optional .dstore.values.IntegerValue predecessor = 10002;</code>
+       * <code>.dstore.values.IntegerValue predecessor = 10002;</code>
        */
       public io.dstore.values.IntegerValue getPredecessor() {
         return predecessor_ == null ? io.dstore.values.IntegerValue.getDefaultInstance() : predecessor_;
@@ -4435,7 +4435,7 @@ public final class StGetDirectSuccessorsTreeAd {
        * ID des Vorgängers von "TreeNodeID" (im Zeitraum "FromDate" bis "ToDate")
        * </pre>
        *
-       * <code>optional .dstore.values.IntegerValue predecessor = 10002;</code>
+       * <code>.dstore.values.IntegerValue predecessor = 10002;</code>
        */
       public io.dstore.values.IntegerValueOrBuilder getPredecessorOrBuilder() {
         return getPredecessor();
@@ -4448,7 +4448,7 @@ public final class StGetDirectSuccessorsTreeAd {
        * Nummer der Hierarchie der "NodeID"
        * </pre>
        *
-       * <code>optional .dstore.values.IntegerValue level_no = 10003;</code>
+       * <code>.dstore.values.IntegerValue level_no = 10003;</code>
        */
       public boolean hasLevelNo() {
         return levelNo_ != null;
@@ -4458,7 +4458,7 @@ public final class StGetDirectSuccessorsTreeAd {
        * Nummer der Hierarchie der "NodeID"
        * </pre>
        *
-       * <code>optional .dstore.values.IntegerValue level_no = 10003;</code>
+       * <code>.dstore.values.IntegerValue level_no = 10003;</code>
        */
       public io.dstore.values.IntegerValue getLevelNo() {
         return levelNo_ == null ? io.dstore.values.IntegerValue.getDefaultInstance() : levelNo_;
@@ -4468,7 +4468,7 @@ public final class StGetDirectSuccessorsTreeAd {
        * Nummer der Hierarchie der "NodeID"
        * </pre>
        *
-       * <code>optional .dstore.values.IntegerValue level_no = 10003;</code>
+       * <code>.dstore.values.IntegerValue level_no = 10003;</code>
        */
       public io.dstore.values.IntegerValueOrBuilder getLevelNoOrBuilder() {
         return getLevelNo();
@@ -4481,7 +4481,7 @@ public final class StGetDirectSuccessorsTreeAd {
        * Prozentualer Anteil von "TotalValue_BasicCharacNo3" zur Summe von "TotalValue_BasicCharacNo3" aller Elemente mit dem Vorgänger "Predesessor". Wurde für "&#64;BasicCharacteristicNo2" oder "&#64;BasicCharacteristicNo3" "NULL" angegeben, steht hier immer "0.00".
        * </pre>
        *
-       * <code>optional .dstore.values.DecimalValue relative_value_basic_charac_no3 = 10004;</code>
+       * <code>.dstore.values.DecimalValue relative_value_basic_charac_no3 = 10004;</code>
        */
       public boolean hasRelativeValueBasicCharacNo3() {
         return relativeValueBasicCharacNo3_ != null;
@@ -4491,7 +4491,7 @@ public final class StGetDirectSuccessorsTreeAd {
        * Prozentualer Anteil von "TotalValue_BasicCharacNo3" zur Summe von "TotalValue_BasicCharacNo3" aller Elemente mit dem Vorgänger "Predesessor". Wurde für "&#64;BasicCharacteristicNo2" oder "&#64;BasicCharacteristicNo3" "NULL" angegeben, steht hier immer "0.00".
        * </pre>
        *
-       * <code>optional .dstore.values.DecimalValue relative_value_basic_charac_no3 = 10004;</code>
+       * <code>.dstore.values.DecimalValue relative_value_basic_charac_no3 = 10004;</code>
        */
       public io.dstore.values.DecimalValue getRelativeValueBasicCharacNo3() {
         return relativeValueBasicCharacNo3_ == null ? io.dstore.values.DecimalValue.getDefaultInstance() : relativeValueBasicCharacNo3_;
@@ -4501,7 +4501,7 @@ public final class StGetDirectSuccessorsTreeAd {
        * Prozentualer Anteil von "TotalValue_BasicCharacNo3" zur Summe von "TotalValue_BasicCharacNo3" aller Elemente mit dem Vorgänger "Predesessor". Wurde für "&#64;BasicCharacteristicNo2" oder "&#64;BasicCharacteristicNo3" "NULL" angegeben, steht hier immer "0.00".
        * </pre>
        *
-       * <code>optional .dstore.values.DecimalValue relative_value_basic_charac_no3 = 10004;</code>
+       * <code>.dstore.values.DecimalValue relative_value_basic_charac_no3 = 10004;</code>
        */
       public io.dstore.values.DecimalValueOrBuilder getRelativeValueBasicCharacNo3OrBuilder() {
         return getRelativeValueBasicCharacNo3();
@@ -4514,7 +4514,7 @@ public final class StGetDirectSuccessorsTreeAd {
        * Prozentualer Anteil von "TotalValue_BasicCharacNo2" (der "HTreeNodeID") zur Summe von "TotalValue_BasicCharacNo2" aller Elemente mit dem Vorgänger-Element "Predesessor". Falls "&#64;BasicCharacteristicNo2 = NULL" angegeben wurde, steht hier immer "0.00".
        * </pre>
        *
-       * <code>optional .dstore.values.DecimalValue relative_value_basic_charac_no2 = 10005;</code>
+       * <code>.dstore.values.DecimalValue relative_value_basic_charac_no2 = 10005;</code>
        */
       public boolean hasRelativeValueBasicCharacNo2() {
         return relativeValueBasicCharacNo2_ != null;
@@ -4524,7 +4524,7 @@ public final class StGetDirectSuccessorsTreeAd {
        * Prozentualer Anteil von "TotalValue_BasicCharacNo2" (der "HTreeNodeID") zur Summe von "TotalValue_BasicCharacNo2" aller Elemente mit dem Vorgänger-Element "Predesessor". Falls "&#64;BasicCharacteristicNo2 = NULL" angegeben wurde, steht hier immer "0.00".
        * </pre>
        *
-       * <code>optional .dstore.values.DecimalValue relative_value_basic_charac_no2 = 10005;</code>
+       * <code>.dstore.values.DecimalValue relative_value_basic_charac_no2 = 10005;</code>
        */
       public io.dstore.values.DecimalValue getRelativeValueBasicCharacNo2() {
         return relativeValueBasicCharacNo2_ == null ? io.dstore.values.DecimalValue.getDefaultInstance() : relativeValueBasicCharacNo2_;
@@ -4534,7 +4534,7 @@ public final class StGetDirectSuccessorsTreeAd {
        * Prozentualer Anteil von "TotalValue_BasicCharacNo2" (der "HTreeNodeID") zur Summe von "TotalValue_BasicCharacNo2" aller Elemente mit dem Vorgänger-Element "Predesessor". Falls "&#64;BasicCharacteristicNo2 = NULL" angegeben wurde, steht hier immer "0.00".
        * </pre>
        *
-       * <code>optional .dstore.values.DecimalValue relative_value_basic_charac_no2 = 10005;</code>
+       * <code>.dstore.values.DecimalValue relative_value_basic_charac_no2 = 10005;</code>
        */
       public io.dstore.values.DecimalValueOrBuilder getRelativeValueBasicCharacNo2OrBuilder() {
         return getRelativeValueBasicCharacNo2();
@@ -4547,7 +4547,7 @@ public final class StGetDirectSuccessorsTreeAd {
        * Prozentualer Anteil von "TotalValue_BasicCharacNo1" (des Elementes "HTreeNodeID") zur Summe von "TotalValue_BasicCharacNo1" aller Elemente mit dem Vorgänger-Element "Predesessor"
        * </pre>
        *
-       * <code>optional .dstore.values.DecimalValue relative_value_basic_charac_no1 = 10006;</code>
+       * <code>.dstore.values.DecimalValue relative_value_basic_charac_no1 = 10006;</code>
        */
       public boolean hasRelativeValueBasicCharacNo1() {
         return relativeValueBasicCharacNo1_ != null;
@@ -4557,7 +4557,7 @@ public final class StGetDirectSuccessorsTreeAd {
        * Prozentualer Anteil von "TotalValue_BasicCharacNo1" (des Elementes "HTreeNodeID") zur Summe von "TotalValue_BasicCharacNo1" aller Elemente mit dem Vorgänger-Element "Predesessor"
        * </pre>
        *
-       * <code>optional .dstore.values.DecimalValue relative_value_basic_charac_no1 = 10006;</code>
+       * <code>.dstore.values.DecimalValue relative_value_basic_charac_no1 = 10006;</code>
        */
       public io.dstore.values.DecimalValue getRelativeValueBasicCharacNo1() {
         return relativeValueBasicCharacNo1_ == null ? io.dstore.values.DecimalValue.getDefaultInstance() : relativeValueBasicCharacNo1_;
@@ -4567,7 +4567,7 @@ public final class StGetDirectSuccessorsTreeAd {
        * Prozentualer Anteil von "TotalValue_BasicCharacNo1" (des Elementes "HTreeNodeID") zur Summe von "TotalValue_BasicCharacNo1" aller Elemente mit dem Vorgänger-Element "Predesessor"
        * </pre>
        *
-       * <code>optional .dstore.values.DecimalValue relative_value_basic_charac_no1 = 10006;</code>
+       * <code>.dstore.values.DecimalValue relative_value_basic_charac_no1 = 10006;</code>
        */
       public io.dstore.values.DecimalValueOrBuilder getRelativeValueBasicCharacNo1OrBuilder() {
         return getRelativeValueBasicCharacNo1();
@@ -4580,7 +4580,7 @@ public final class StGetDirectSuccessorsTreeAd {
        * Zusammengesetzte Kennzahl nach der Formel :(TotalValue_BasicCharacNo1 * &#64;Weight_BasicCharacteristicNo1) + (TotalValue_BasicCharacNo2 * &#64;Weight_BasicCharacteristicNo2) + (TotalValue_BasicCharacNo3 * &#64;Weight_BasicCharacteristicNo3)
        * </pre>
        *
-       * <code>optional .dstore.values.DecimalValue total_value_index = 10007;</code>
+       * <code>.dstore.values.DecimalValue total_value_index = 10007;</code>
        */
       public boolean hasTotalValueIndex() {
         return totalValueIndex_ != null;
@@ -4590,7 +4590,7 @@ public final class StGetDirectSuccessorsTreeAd {
        * Zusammengesetzte Kennzahl nach der Formel :(TotalValue_BasicCharacNo1 * &#64;Weight_BasicCharacteristicNo1) + (TotalValue_BasicCharacNo2 * &#64;Weight_BasicCharacteristicNo2) + (TotalValue_BasicCharacNo3 * &#64;Weight_BasicCharacteristicNo3)
        * </pre>
        *
-       * <code>optional .dstore.values.DecimalValue total_value_index = 10007;</code>
+       * <code>.dstore.values.DecimalValue total_value_index = 10007;</code>
        */
       public io.dstore.values.DecimalValue getTotalValueIndex() {
         return totalValueIndex_ == null ? io.dstore.values.DecimalValue.getDefaultInstance() : totalValueIndex_;
@@ -4600,7 +4600,7 @@ public final class StGetDirectSuccessorsTreeAd {
        * Zusammengesetzte Kennzahl nach der Formel :(TotalValue_BasicCharacNo1 * &#64;Weight_BasicCharacteristicNo1) + (TotalValue_BasicCharacNo2 * &#64;Weight_BasicCharacteristicNo2) + (TotalValue_BasicCharacNo3 * &#64;Weight_BasicCharacteristicNo3)
        * </pre>
        *
-       * <code>optional .dstore.values.DecimalValue total_value_index = 10007;</code>
+       * <code>.dstore.values.DecimalValue total_value_index = 10007;</code>
        */
       public io.dstore.values.DecimalValueOrBuilder getTotalValueIndexOrBuilder() {
         return getTotalValueIndex();
@@ -4613,7 +4613,7 @@ public final class StGetDirectSuccessorsTreeAd {
        * Prozentualer Anteil von "TotalValue_Index" zur Summe von "TotalValue_Index" aller Elemente mit dem Vorgänger "Predesessor".
        * </pre>
        *
-       * <code>optional .dstore.values.DecimalValue relative_value_index = 10008;</code>
+       * <code>.dstore.values.DecimalValue relative_value_index = 10008;</code>
        */
       public boolean hasRelativeValueIndex() {
         return relativeValueIndex_ != null;
@@ -4623,7 +4623,7 @@ public final class StGetDirectSuccessorsTreeAd {
        * Prozentualer Anteil von "TotalValue_Index" zur Summe von "TotalValue_Index" aller Elemente mit dem Vorgänger "Predesessor".
        * </pre>
        *
-       * <code>optional .dstore.values.DecimalValue relative_value_index = 10008;</code>
+       * <code>.dstore.values.DecimalValue relative_value_index = 10008;</code>
        */
       public io.dstore.values.DecimalValue getRelativeValueIndex() {
         return relativeValueIndex_ == null ? io.dstore.values.DecimalValue.getDefaultInstance() : relativeValueIndex_;
@@ -4633,7 +4633,7 @@ public final class StGetDirectSuccessorsTreeAd {
        * Prozentualer Anteil von "TotalValue_Index" zur Summe von "TotalValue_Index" aller Elemente mit dem Vorgänger "Predesessor".
        * </pre>
        *
-       * <code>optional .dstore.values.DecimalValue relative_value_index = 10008;</code>
+       * <code>.dstore.values.DecimalValue relative_value_index = 10008;</code>
        */
       public io.dstore.values.DecimalValueOrBuilder getRelativeValueIndexOrBuilder() {
         return getRelativeValueIndex();
@@ -4646,7 +4646,7 @@ public final class StGetDirectSuccessorsTreeAd {
        * Bezeichnung der "NodeID"
        * </pre>
        *
-       * <code>optional .dstore.values.StringValue node_description = 10009;</code>
+       * <code>.dstore.values.StringValue node_description = 10009;</code>
        */
       public boolean hasNodeDescription() {
         return nodeDescription_ != null;
@@ -4656,7 +4656,7 @@ public final class StGetDirectSuccessorsTreeAd {
        * Bezeichnung der "NodeID"
        * </pre>
        *
-       * <code>optional .dstore.values.StringValue node_description = 10009;</code>
+       * <code>.dstore.values.StringValue node_description = 10009;</code>
        */
       public io.dstore.values.StringValue getNodeDescription() {
         return nodeDescription_ == null ? io.dstore.values.StringValue.getDefaultInstance() : nodeDescription_;
@@ -4666,7 +4666,7 @@ public final class StGetDirectSuccessorsTreeAd {
        * Bezeichnung der "NodeID"
        * </pre>
        *
-       * <code>optional .dstore.values.StringValue node_description = 10009;</code>
+       * <code>.dstore.values.StringValue node_description = 10009;</code>
        */
       public io.dstore.values.StringValueOrBuilder getNodeDescriptionOrBuilder() {
         return getNodeDescription();
@@ -4679,7 +4679,7 @@ public final class StGetDirectSuccessorsTreeAd {
        * Ist "TreeNodeID" z.Zt. aktiviert ? ("0" : Nein, "1" : Ja)
        * </pre>
        *
-       * <code>optional .dstore.values.BooleanValue active = 10010;</code>
+       * <code>.dstore.values.BooleanValue active = 10010;</code>
        */
       public boolean hasActive() {
         return active_ != null;
@@ -4689,7 +4689,7 @@ public final class StGetDirectSuccessorsTreeAd {
        * Ist "TreeNodeID" z.Zt. aktiviert ? ("0" : Nein, "1" : Ja)
        * </pre>
        *
-       * <code>optional .dstore.values.BooleanValue active = 10010;</code>
+       * <code>.dstore.values.BooleanValue active = 10010;</code>
        */
       public io.dstore.values.BooleanValue getActive() {
         return active_ == null ? io.dstore.values.BooleanValue.getDefaultInstance() : active_;
@@ -4699,7 +4699,7 @@ public final class StGetDirectSuccessorsTreeAd {
        * Ist "TreeNodeID" z.Zt. aktiviert ? ("0" : Nein, "1" : Ja)
        * </pre>
        *
-       * <code>optional .dstore.values.BooleanValue active = 10010;</code>
+       * <code>.dstore.values.BooleanValue active = 10010;</code>
        */
       public io.dstore.values.BooleanValueOrBuilder getActiveOrBuilder() {
         return getActive();
@@ -4712,7 +4712,7 @@ public final class StGetDirectSuccessorsTreeAd {
        * Gibt es ein nächstes "Geschwister-Element", also ein anderes Element des Artikelbaums, das ebenfalls "Predecessor" als Vorgänger hat und dessen "SortNo" um 1 niedriger ist als die "SortNo" von "TreeNodeID" ?
        * </pre>
        *
-       * <code>optional .dstore.values.BooleanValue has_next_sibling = 10011;</code>
+       * <code>.dstore.values.BooleanValue has_next_sibling = 10011;</code>
        */
       public boolean hasHasNextSibling() {
         return hasNextSibling_ != null;
@@ -4722,7 +4722,7 @@ public final class StGetDirectSuccessorsTreeAd {
        * Gibt es ein nächstes "Geschwister-Element", also ein anderes Element des Artikelbaums, das ebenfalls "Predecessor" als Vorgänger hat und dessen "SortNo" um 1 niedriger ist als die "SortNo" von "TreeNodeID" ?
        * </pre>
        *
-       * <code>optional .dstore.values.BooleanValue has_next_sibling = 10011;</code>
+       * <code>.dstore.values.BooleanValue has_next_sibling = 10011;</code>
        */
       public io.dstore.values.BooleanValue getHasNextSibling() {
         return hasNextSibling_ == null ? io.dstore.values.BooleanValue.getDefaultInstance() : hasNextSibling_;
@@ -4732,7 +4732,7 @@ public final class StGetDirectSuccessorsTreeAd {
        * Gibt es ein nächstes "Geschwister-Element", also ein anderes Element des Artikelbaums, das ebenfalls "Predecessor" als Vorgänger hat und dessen "SortNo" um 1 niedriger ist als die "SortNo" von "TreeNodeID" ?
        * </pre>
        *
-       * <code>optional .dstore.values.BooleanValue has_next_sibling = 10011;</code>
+       * <code>.dstore.values.BooleanValue has_next_sibling = 10011;</code>
        */
       public io.dstore.values.BooleanValueOrBuilder getHasNextSiblingOrBuilder() {
         return getHasNextSibling();
@@ -4745,7 +4745,7 @@ public final class StGetDirectSuccessorsTreeAd {
        * Wert zur Basis-Kenzahl "&#64;BasicCharacteristicNo1" zum Element "HTreeNodeID"
        * </pre>
        *
-       * <code>optional .dstore.values.DecimalValue total_value_basic_charac_no1 = 10012;</code>
+       * <code>.dstore.values.DecimalValue total_value_basic_charac_no1 = 10012;</code>
        */
       public boolean hasTotalValueBasicCharacNo1() {
         return totalValueBasicCharacNo1_ != null;
@@ -4755,7 +4755,7 @@ public final class StGetDirectSuccessorsTreeAd {
        * Wert zur Basis-Kenzahl "&#64;BasicCharacteristicNo1" zum Element "HTreeNodeID"
        * </pre>
        *
-       * <code>optional .dstore.values.DecimalValue total_value_basic_charac_no1 = 10012;</code>
+       * <code>.dstore.values.DecimalValue total_value_basic_charac_no1 = 10012;</code>
        */
       public io.dstore.values.DecimalValue getTotalValueBasicCharacNo1() {
         return totalValueBasicCharacNo1_ == null ? io.dstore.values.DecimalValue.getDefaultInstance() : totalValueBasicCharacNo1_;
@@ -4765,7 +4765,7 @@ public final class StGetDirectSuccessorsTreeAd {
        * Wert zur Basis-Kenzahl "&#64;BasicCharacteristicNo1" zum Element "HTreeNodeID"
        * </pre>
        *
-       * <code>optional .dstore.values.DecimalValue total_value_basic_charac_no1 = 10012;</code>
+       * <code>.dstore.values.DecimalValue total_value_basic_charac_no1 = 10012;</code>
        */
       public io.dstore.values.DecimalValueOrBuilder getTotalValueBasicCharacNo1OrBuilder() {
         return getTotalValueBasicCharacNo1();
@@ -4778,7 +4778,7 @@ public final class StGetDirectSuccessorsTreeAd {
        * ID des zur "TreeNodeID" zugehörigen Elementes aus "HistoryTreeView" (in dieser ist die Historie des gesamten Artikelbaums abgebildet), das im Zeitraum "FromDate" bis "ToDate" gültig ist/war
        * </pre>
        *
-       * <code>optional .dstore.values.IntegerValue h_tree_node_id = 10013;</code>
+       * <code>.dstore.values.IntegerValue h_tree_node_id = 10013;</code>
        */
       public boolean hasHTreeNodeId() {
         return hTreeNodeId_ != null;
@@ -4788,7 +4788,7 @@ public final class StGetDirectSuccessorsTreeAd {
        * ID des zur "TreeNodeID" zugehörigen Elementes aus "HistoryTreeView" (in dieser ist die Historie des gesamten Artikelbaums abgebildet), das im Zeitraum "FromDate" bis "ToDate" gültig ist/war
        * </pre>
        *
-       * <code>optional .dstore.values.IntegerValue h_tree_node_id = 10013;</code>
+       * <code>.dstore.values.IntegerValue h_tree_node_id = 10013;</code>
        */
       public io.dstore.values.IntegerValue getHTreeNodeId() {
         return hTreeNodeId_ == null ? io.dstore.values.IntegerValue.getDefaultInstance() : hTreeNodeId_;
@@ -4798,7 +4798,7 @@ public final class StGetDirectSuccessorsTreeAd {
        * ID des zur "TreeNodeID" zugehörigen Elementes aus "HistoryTreeView" (in dieser ist die Historie des gesamten Artikelbaums abgebildet), das im Zeitraum "FromDate" bis "ToDate" gültig ist/war
        * </pre>
        *
-       * <code>optional .dstore.values.IntegerValue h_tree_node_id = 10013;</code>
+       * <code>.dstore.values.IntegerValue h_tree_node_id = 10013;</code>
        */
       public io.dstore.values.IntegerValueOrBuilder getHTreeNodeIdOrBuilder() {
         return getHTreeNodeId();
@@ -4811,7 +4811,7 @@ public final class StGetDirectSuccessorsTreeAd {
        * Wert zur Basis-Kenzahl "&#64;BasicCharacteristicNo2" zum Element "HTreeNodeID". Falls "&#64;BasicCharacteristicNo2 = NULL" angegeben wurde, steht hier immer "0.00".
        * </pre>
        *
-       * <code>optional .dstore.values.DecimalValue total_value_basic_charac_no2 = 10014;</code>
+       * <code>.dstore.values.DecimalValue total_value_basic_charac_no2 = 10014;</code>
        */
       public boolean hasTotalValueBasicCharacNo2() {
         return totalValueBasicCharacNo2_ != null;
@@ -4821,7 +4821,7 @@ public final class StGetDirectSuccessorsTreeAd {
        * Wert zur Basis-Kenzahl "&#64;BasicCharacteristicNo2" zum Element "HTreeNodeID". Falls "&#64;BasicCharacteristicNo2 = NULL" angegeben wurde, steht hier immer "0.00".
        * </pre>
        *
-       * <code>optional .dstore.values.DecimalValue total_value_basic_charac_no2 = 10014;</code>
+       * <code>.dstore.values.DecimalValue total_value_basic_charac_no2 = 10014;</code>
        */
       public io.dstore.values.DecimalValue getTotalValueBasicCharacNo2() {
         return totalValueBasicCharacNo2_ == null ? io.dstore.values.DecimalValue.getDefaultInstance() : totalValueBasicCharacNo2_;
@@ -4831,7 +4831,7 @@ public final class StGetDirectSuccessorsTreeAd {
        * Wert zur Basis-Kenzahl "&#64;BasicCharacteristicNo2" zum Element "HTreeNodeID". Falls "&#64;BasicCharacteristicNo2 = NULL" angegeben wurde, steht hier immer "0.00".
        * </pre>
        *
-       * <code>optional .dstore.values.DecimalValue total_value_basic_charac_no2 = 10014;</code>
+       * <code>.dstore.values.DecimalValue total_value_basic_charac_no2 = 10014;</code>
        */
       public io.dstore.values.DecimalValueOrBuilder getTotalValueBasicCharacNo2OrBuilder() {
         return getTotalValueBasicCharacNo2();
@@ -4844,7 +4844,7 @@ public final class StGetDirectSuccessorsTreeAd {
        * Wert zur Basis-Kenzahl "&#64;BasicCharacteristicNo3" zum Element "HTreeNodeID". Falls "&#64;BasicCharacteristicNo2 = NULL" oder "&#64;BasciCharacteristicNo3 = NULL" angegeben wurde, steht hier immer "0.00".
        * </pre>
        *
-       * <code>optional .dstore.values.DecimalValue total_value_basic_charac_no3 = 10015;</code>
+       * <code>.dstore.values.DecimalValue total_value_basic_charac_no3 = 10015;</code>
        */
       public boolean hasTotalValueBasicCharacNo3() {
         return totalValueBasicCharacNo3_ != null;
@@ -4854,7 +4854,7 @@ public final class StGetDirectSuccessorsTreeAd {
        * Wert zur Basis-Kenzahl "&#64;BasicCharacteristicNo3" zum Element "HTreeNodeID". Falls "&#64;BasicCharacteristicNo2 = NULL" oder "&#64;BasciCharacteristicNo3 = NULL" angegeben wurde, steht hier immer "0.00".
        * </pre>
        *
-       * <code>optional .dstore.values.DecimalValue total_value_basic_charac_no3 = 10015;</code>
+       * <code>.dstore.values.DecimalValue total_value_basic_charac_no3 = 10015;</code>
        */
       public io.dstore.values.DecimalValue getTotalValueBasicCharacNo3() {
         return totalValueBasicCharacNo3_ == null ? io.dstore.values.DecimalValue.getDefaultInstance() : totalValueBasicCharacNo3_;
@@ -4864,7 +4864,7 @@ public final class StGetDirectSuccessorsTreeAd {
        * Wert zur Basis-Kenzahl "&#64;BasicCharacteristicNo3" zum Element "HTreeNodeID". Falls "&#64;BasicCharacteristicNo2 = NULL" oder "&#64;BasciCharacteristicNo3 = NULL" angegeben wurde, steht hier immer "0.00".
        * </pre>
        *
-       * <code>optional .dstore.values.DecimalValue total_value_basic_charac_no3 = 10015;</code>
+       * <code>.dstore.values.DecimalValue total_value_basic_charac_no3 = 10015;</code>
        */
       public io.dstore.values.DecimalValueOrBuilder getTotalValueBasicCharacNo3OrBuilder() {
         return getTotalValueBasicCharacNo3();
@@ -4877,7 +4877,7 @@ public final class StGetDirectSuccessorsTreeAd {
        * Das Maximum aller Werte für "RelativeValue_BasicCharacNo1", "RelativeValue_BasicCharacNo2", "RelativeValue_BasicCharacNo3" und "RelativeValue_Index" von Elementen, die als Vorgänger ebenfalls "Predecessor" besitzen (siehe Beschreibung)
        * </pre>
        *
-       * <code>optional .dstore.values.DecimalValue max_relative_value_per_predecessor = 10016;</code>
+       * <code>.dstore.values.DecimalValue max_relative_value_per_predecessor = 10016;</code>
        */
       public boolean hasMaxRelativeValuePerPredecessor() {
         return maxRelativeValuePerPredecessor_ != null;
@@ -4887,7 +4887,7 @@ public final class StGetDirectSuccessorsTreeAd {
        * Das Maximum aller Werte für "RelativeValue_BasicCharacNo1", "RelativeValue_BasicCharacNo2", "RelativeValue_BasicCharacNo3" und "RelativeValue_Index" von Elementen, die als Vorgänger ebenfalls "Predecessor" besitzen (siehe Beschreibung)
        * </pre>
        *
-       * <code>optional .dstore.values.DecimalValue max_relative_value_per_predecessor = 10016;</code>
+       * <code>.dstore.values.DecimalValue max_relative_value_per_predecessor = 10016;</code>
        */
       public io.dstore.values.DecimalValue getMaxRelativeValuePerPredecessor() {
         return maxRelativeValuePerPredecessor_ == null ? io.dstore.values.DecimalValue.getDefaultInstance() : maxRelativeValuePerPredecessor_;
@@ -4897,7 +4897,7 @@ public final class StGetDirectSuccessorsTreeAd {
        * Das Maximum aller Werte für "RelativeValue_BasicCharacNo1", "RelativeValue_BasicCharacNo2", "RelativeValue_BasicCharacNo3" und "RelativeValue_Index" von Elementen, die als Vorgänger ebenfalls "Predecessor" besitzen (siehe Beschreibung)
        * </pre>
        *
-       * <code>optional .dstore.values.DecimalValue max_relative_value_per_predecessor = 10016;</code>
+       * <code>.dstore.values.DecimalValue max_relative_value_per_predecessor = 10016;</code>
        */
       public io.dstore.values.DecimalValueOrBuilder getMaxRelativeValuePerPredecessorOrBuilder() {
         return getMaxRelativeValuePerPredecessor();
@@ -4910,7 +4910,7 @@ public final class StGetDirectSuccessorsTreeAd {
        * ID eines Elementes im Artikelbaum
        * </pre>
        *
-       * <code>optional .dstore.values.IntegerValue tree_node_id = 10017;</code>
+       * <code>.dstore.values.IntegerValue tree_node_id = 10017;</code>
        */
       public boolean hasTreeNodeId() {
         return treeNodeId_ != null;
@@ -4920,7 +4920,7 @@ public final class StGetDirectSuccessorsTreeAd {
        * ID eines Elementes im Artikelbaum
        * </pre>
        *
-       * <code>optional .dstore.values.IntegerValue tree_node_id = 10017;</code>
+       * <code>.dstore.values.IntegerValue tree_node_id = 10017;</code>
        */
       public io.dstore.values.IntegerValue getTreeNodeId() {
         return treeNodeId_ == null ? io.dstore.values.IntegerValue.getDefaultInstance() : treeNodeId_;
@@ -4930,7 +4930,7 @@ public final class StGetDirectSuccessorsTreeAd {
        * ID eines Elementes im Artikelbaum
        * </pre>
        *
-       * <code>optional .dstore.values.IntegerValue tree_node_id = 10017;</code>
+       * <code>.dstore.values.IntegerValue tree_node_id = 10017;</code>
        */
       public io.dstore.values.IntegerValueOrBuilder getTreeNodeIdOrBuilder() {
         return getTreeNodeId();
@@ -4943,7 +4943,7 @@ public final class StGetDirectSuccessorsTreeAd {
        * ID des zur "TreeNodeID" gehörenden Artikel-Elementes
        * </pre>
        *
-       * <code>optional .dstore.values.IntegerValue node_id = 10018;</code>
+       * <code>.dstore.values.IntegerValue node_id = 10018;</code>
        */
       public boolean hasNodeId() {
         return nodeId_ != null;
@@ -4953,7 +4953,7 @@ public final class StGetDirectSuccessorsTreeAd {
        * ID des zur "TreeNodeID" gehörenden Artikel-Elementes
        * </pre>
        *
-       * <code>optional .dstore.values.IntegerValue node_id = 10018;</code>
+       * <code>.dstore.values.IntegerValue node_id = 10018;</code>
        */
       public io.dstore.values.IntegerValue getNodeId() {
         return nodeId_ == null ? io.dstore.values.IntegerValue.getDefaultInstance() : nodeId_;
@@ -4963,7 +4963,7 @@ public final class StGetDirectSuccessorsTreeAd {
        * ID des zur "TreeNodeID" gehörenden Artikel-Elementes
        * </pre>
        *
-       * <code>optional .dstore.values.IntegerValue node_id = 10018;</code>
+       * <code>.dstore.values.IntegerValue node_id = 10018;</code>
        */
       public io.dstore.values.IntegerValueOrBuilder getNodeIdOrBuilder() {
         return getNodeId();
@@ -4976,7 +4976,7 @@ public final class StGetDirectSuccessorsTreeAd {
        * Das Maximum aller Werte für "RelativeValue_Index" von Elementen, die als Vorgänger ebenfalls "Predecessor" besitzen (siehe Beschreibung)
        * </pre>
        *
-       * <code>optional .dstore.values.DecimalValue max_relative_value_index_per_pred = 10019;</code>
+       * <code>.dstore.values.DecimalValue max_relative_value_index_per_pred = 10019;</code>
        */
       public boolean hasMaxRelativeValueIndexPerPred() {
         return maxRelativeValueIndexPerPred_ != null;
@@ -4986,7 +4986,7 @@ public final class StGetDirectSuccessorsTreeAd {
        * Das Maximum aller Werte für "RelativeValue_Index" von Elementen, die als Vorgänger ebenfalls "Predecessor" besitzen (siehe Beschreibung)
        * </pre>
        *
-       * <code>optional .dstore.values.DecimalValue max_relative_value_index_per_pred = 10019;</code>
+       * <code>.dstore.values.DecimalValue max_relative_value_index_per_pred = 10019;</code>
        */
       public io.dstore.values.DecimalValue getMaxRelativeValueIndexPerPred() {
         return maxRelativeValueIndexPerPred_ == null ? io.dstore.values.DecimalValue.getDefaultInstance() : maxRelativeValueIndexPerPred_;
@@ -4996,7 +4996,7 @@ public final class StGetDirectSuccessorsTreeAd {
        * Das Maximum aller Werte für "RelativeValue_Index" von Elementen, die als Vorgänger ebenfalls "Predecessor" besitzen (siehe Beschreibung)
        * </pre>
        *
-       * <code>optional .dstore.values.DecimalValue max_relative_value_index_per_pred = 10019;</code>
+       * <code>.dstore.values.DecimalValue max_relative_value_index_per_pred = 10019;</code>
        */
       public io.dstore.values.DecimalValueOrBuilder getMaxRelativeValueIndexPerPredOrBuilder() {
         return getMaxRelativeValueIndexPerPred();
@@ -5009,7 +5009,7 @@ public final class StGetDirectSuccessorsTreeAd {
        * Beginn des Gültigkeitszeitraums für "HTreeNodeID" als String (Format "12.04.2000 17:44:13")
        * </pre>
        *
-       * <code>optional .dstore.values.StringValue from_date = 10020;</code>
+       * <code>.dstore.values.StringValue from_date = 10020;</code>
        */
       public boolean hasFromDate() {
         return fromDate_ != null;
@@ -5019,7 +5019,7 @@ public final class StGetDirectSuccessorsTreeAd {
        * Beginn des Gültigkeitszeitraums für "HTreeNodeID" als String (Format "12.04.2000 17:44:13")
        * </pre>
        *
-       * <code>optional .dstore.values.StringValue from_date = 10020;</code>
+       * <code>.dstore.values.StringValue from_date = 10020;</code>
        */
       public io.dstore.values.StringValue getFromDate() {
         return fromDate_ == null ? io.dstore.values.StringValue.getDefaultInstance() : fromDate_;
@@ -5029,7 +5029,7 @@ public final class StGetDirectSuccessorsTreeAd {
        * Beginn des Gültigkeitszeitraums für "HTreeNodeID" als String (Format "12.04.2000 17:44:13")
        * </pre>
        *
-       * <code>optional .dstore.values.StringValue from_date = 10020;</code>
+       * <code>.dstore.values.StringValue from_date = 10020;</code>
        */
       public io.dstore.values.StringValueOrBuilder getFromDateOrBuilder() {
         return getFromDate();
@@ -5042,7 +5042,7 @@ public final class StGetDirectSuccessorsTreeAd {
        * Ende des Gültigkeitszeitraums für "HTreeNodeID" als String (Format "12.04.2000 17:44:13")
        * </pre>
        *
-       * <code>optional .dstore.values.StringValue to_date = 10021;</code>
+       * <code>.dstore.values.StringValue to_date = 10021;</code>
        */
       public boolean hasToDate() {
         return toDate_ != null;
@@ -5052,7 +5052,7 @@ public final class StGetDirectSuccessorsTreeAd {
        * Ende des Gültigkeitszeitraums für "HTreeNodeID" als String (Format "12.04.2000 17:44:13")
        * </pre>
        *
-       * <code>optional .dstore.values.StringValue to_date = 10021;</code>
+       * <code>.dstore.values.StringValue to_date = 10021;</code>
        */
       public io.dstore.values.StringValue getToDate() {
         return toDate_ == null ? io.dstore.values.StringValue.getDefaultInstance() : toDate_;
@@ -5062,7 +5062,7 @@ public final class StGetDirectSuccessorsTreeAd {
        * Ende des Gültigkeitszeitraums für "HTreeNodeID" als String (Format "12.04.2000 17:44:13")
        * </pre>
        *
-       * <code>optional .dstore.values.StringValue to_date = 10021;</code>
+       * <code>.dstore.values.StringValue to_date = 10021;</code>
        */
       public io.dstore.values.StringValueOrBuilder getToDateOrBuilder() {
         return getToDate();
@@ -5075,7 +5075,7 @@ public final class StGetDirectSuccessorsTreeAd {
        * Hat "TreeNodeID" selbst Nachfolger ?
        * </pre>
        *
-       * <code>optional .dstore.values.BooleanValue has_successors = 10022;</code>
+       * <code>.dstore.values.BooleanValue has_successors = 10022;</code>
        */
       public boolean hasHasSuccessors() {
         return hasSuccessors_ != null;
@@ -5085,7 +5085,7 @@ public final class StGetDirectSuccessorsTreeAd {
        * Hat "TreeNodeID" selbst Nachfolger ?
        * </pre>
        *
-       * <code>optional .dstore.values.BooleanValue has_successors = 10022;</code>
+       * <code>.dstore.values.BooleanValue has_successors = 10022;</code>
        */
       public io.dstore.values.BooleanValue getHasSuccessors() {
         return hasSuccessors_ == null ? io.dstore.values.BooleanValue.getDefaultInstance() : hasSuccessors_;
@@ -5095,7 +5095,7 @@ public final class StGetDirectSuccessorsTreeAd {
        * Hat "TreeNodeID" selbst Nachfolger ?
        * </pre>
        *
-       * <code>optional .dstore.values.BooleanValue has_successors = 10022;</code>
+       * <code>.dstore.values.BooleanValue has_successors = 10022;</code>
        */
       public io.dstore.values.BooleanValueOrBuilder getHasSuccessorsOrBuilder() {
         return getHasSuccessors();
@@ -5108,7 +5108,7 @@ public final class StGetDirectSuccessorsTreeAd {
        * Ist "TreeNodeID" bereits gelöscht ? ("0" : Nein, "1" : Ja)
        * </pre>
        *
-       * <code>optional .dstore.values.BooleanValue deleted = 10023;</code>
+       * <code>.dstore.values.BooleanValue deleted = 10023;</code>
        */
       public boolean hasDeleted() {
         return deleted_ != null;
@@ -5118,7 +5118,7 @@ public final class StGetDirectSuccessorsTreeAd {
        * Ist "TreeNodeID" bereits gelöscht ? ("0" : Nein, "1" : Ja)
        * </pre>
        *
-       * <code>optional .dstore.values.BooleanValue deleted = 10023;</code>
+       * <code>.dstore.values.BooleanValue deleted = 10023;</code>
        */
       public io.dstore.values.BooleanValue getDeleted() {
         return deleted_ == null ? io.dstore.values.BooleanValue.getDefaultInstance() : deleted_;
@@ -5128,7 +5128,7 @@ public final class StGetDirectSuccessorsTreeAd {
        * Ist "TreeNodeID" bereits gelöscht ? ("0" : Nein, "1" : Ja)
        * </pre>
        *
-       * <code>optional .dstore.values.BooleanValue deleted = 10023;</code>
+       * <code>.dstore.values.BooleanValue deleted = 10023;</code>
        */
       public io.dstore.values.BooleanValueOrBuilder getDeletedOrBuilder() {
         return getDeleted();
@@ -5463,7 +5463,7 @@ public final class StGetDirectSuccessorsTreeAd {
           return memoizedHashCode;
         }
         int hash = 41;
-        hash = (19 * hash) + getDescriptorForType().hashCode();
+        hash = (19 * hash) + getDescriptor().hashCode();
         hash = (37 * hash) + ROW_ID_FIELD_NUMBER;
         hash = (53 * hash) + getRowId();
         if (hasTreeLevel()) {
@@ -6095,13 +6095,13 @@ public final class StGetDirectSuccessorsTreeAd {
 
         private int rowId_ ;
         /**
-         * <code>optional int32 row_id = 10000;</code>
+         * <code>int32 row_id = 10000;</code>
          */
         public int getRowId() {
           return rowId_;
         }
         /**
-         * <code>optional int32 row_id = 10000;</code>
+         * <code>int32 row_id = 10000;</code>
          */
         public Builder setRowId(int value) {
           
@@ -6110,7 +6110,7 @@ public final class StGetDirectSuccessorsTreeAd {
           return this;
         }
         /**
-         * <code>optional int32 row_id = 10000;</code>
+         * <code>int32 row_id = 10000;</code>
          */
         public Builder clearRowId() {
           
@@ -6127,7 +6127,7 @@ public final class StGetDirectSuccessorsTreeAd {
          * Anzahl Vorgänger von "TreeNodeID" plus 1
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue tree_level = 10001;</code>
+         * <code>.dstore.values.IntegerValue tree_level = 10001;</code>
          */
         public boolean hasTreeLevel() {
           return treeLevelBuilder_ != null || treeLevel_ != null;
@@ -6137,7 +6137,7 @@ public final class StGetDirectSuccessorsTreeAd {
          * Anzahl Vorgänger von "TreeNodeID" plus 1
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue tree_level = 10001;</code>
+         * <code>.dstore.values.IntegerValue tree_level = 10001;</code>
          */
         public io.dstore.values.IntegerValue getTreeLevel() {
           if (treeLevelBuilder_ == null) {
@@ -6151,7 +6151,7 @@ public final class StGetDirectSuccessorsTreeAd {
          * Anzahl Vorgänger von "TreeNodeID" plus 1
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue tree_level = 10001;</code>
+         * <code>.dstore.values.IntegerValue tree_level = 10001;</code>
          */
         public Builder setTreeLevel(io.dstore.values.IntegerValue value) {
           if (treeLevelBuilder_ == null) {
@@ -6171,7 +6171,7 @@ public final class StGetDirectSuccessorsTreeAd {
          * Anzahl Vorgänger von "TreeNodeID" plus 1
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue tree_level = 10001;</code>
+         * <code>.dstore.values.IntegerValue tree_level = 10001;</code>
          */
         public Builder setTreeLevel(
             io.dstore.values.IntegerValue.Builder builderForValue) {
@@ -6189,7 +6189,7 @@ public final class StGetDirectSuccessorsTreeAd {
          * Anzahl Vorgänger von "TreeNodeID" plus 1
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue tree_level = 10001;</code>
+         * <code>.dstore.values.IntegerValue tree_level = 10001;</code>
          */
         public Builder mergeTreeLevel(io.dstore.values.IntegerValue value) {
           if (treeLevelBuilder_ == null) {
@@ -6211,7 +6211,7 @@ public final class StGetDirectSuccessorsTreeAd {
          * Anzahl Vorgänger von "TreeNodeID" plus 1
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue tree_level = 10001;</code>
+         * <code>.dstore.values.IntegerValue tree_level = 10001;</code>
          */
         public Builder clearTreeLevel() {
           if (treeLevelBuilder_ == null) {
@@ -6229,7 +6229,7 @@ public final class StGetDirectSuccessorsTreeAd {
          * Anzahl Vorgänger von "TreeNodeID" plus 1
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue tree_level = 10001;</code>
+         * <code>.dstore.values.IntegerValue tree_level = 10001;</code>
          */
         public io.dstore.values.IntegerValue.Builder getTreeLevelBuilder() {
           
@@ -6241,7 +6241,7 @@ public final class StGetDirectSuccessorsTreeAd {
          * Anzahl Vorgänger von "TreeNodeID" plus 1
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue tree_level = 10001;</code>
+         * <code>.dstore.values.IntegerValue tree_level = 10001;</code>
          */
         public io.dstore.values.IntegerValueOrBuilder getTreeLevelOrBuilder() {
           if (treeLevelBuilder_ != null) {
@@ -6256,7 +6256,7 @@ public final class StGetDirectSuccessorsTreeAd {
          * Anzahl Vorgänger von "TreeNodeID" plus 1
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue tree_level = 10001;</code>
+         * <code>.dstore.values.IntegerValue tree_level = 10001;</code>
          */
         private com.google.protobuf.SingleFieldBuilderV3<
             io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> 
@@ -6280,7 +6280,7 @@ public final class StGetDirectSuccessorsTreeAd {
          * ID des Vorgängers von "TreeNodeID" (im Zeitraum "FromDate" bis "ToDate")
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue predecessor = 10002;</code>
+         * <code>.dstore.values.IntegerValue predecessor = 10002;</code>
          */
         public boolean hasPredecessor() {
           return predecessorBuilder_ != null || predecessor_ != null;
@@ -6290,7 +6290,7 @@ public final class StGetDirectSuccessorsTreeAd {
          * ID des Vorgängers von "TreeNodeID" (im Zeitraum "FromDate" bis "ToDate")
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue predecessor = 10002;</code>
+         * <code>.dstore.values.IntegerValue predecessor = 10002;</code>
          */
         public io.dstore.values.IntegerValue getPredecessor() {
           if (predecessorBuilder_ == null) {
@@ -6304,7 +6304,7 @@ public final class StGetDirectSuccessorsTreeAd {
          * ID des Vorgängers von "TreeNodeID" (im Zeitraum "FromDate" bis "ToDate")
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue predecessor = 10002;</code>
+         * <code>.dstore.values.IntegerValue predecessor = 10002;</code>
          */
         public Builder setPredecessor(io.dstore.values.IntegerValue value) {
           if (predecessorBuilder_ == null) {
@@ -6324,7 +6324,7 @@ public final class StGetDirectSuccessorsTreeAd {
          * ID des Vorgängers von "TreeNodeID" (im Zeitraum "FromDate" bis "ToDate")
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue predecessor = 10002;</code>
+         * <code>.dstore.values.IntegerValue predecessor = 10002;</code>
          */
         public Builder setPredecessor(
             io.dstore.values.IntegerValue.Builder builderForValue) {
@@ -6342,7 +6342,7 @@ public final class StGetDirectSuccessorsTreeAd {
          * ID des Vorgängers von "TreeNodeID" (im Zeitraum "FromDate" bis "ToDate")
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue predecessor = 10002;</code>
+         * <code>.dstore.values.IntegerValue predecessor = 10002;</code>
          */
         public Builder mergePredecessor(io.dstore.values.IntegerValue value) {
           if (predecessorBuilder_ == null) {
@@ -6364,7 +6364,7 @@ public final class StGetDirectSuccessorsTreeAd {
          * ID des Vorgängers von "TreeNodeID" (im Zeitraum "FromDate" bis "ToDate")
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue predecessor = 10002;</code>
+         * <code>.dstore.values.IntegerValue predecessor = 10002;</code>
          */
         public Builder clearPredecessor() {
           if (predecessorBuilder_ == null) {
@@ -6382,7 +6382,7 @@ public final class StGetDirectSuccessorsTreeAd {
          * ID des Vorgängers von "TreeNodeID" (im Zeitraum "FromDate" bis "ToDate")
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue predecessor = 10002;</code>
+         * <code>.dstore.values.IntegerValue predecessor = 10002;</code>
          */
         public io.dstore.values.IntegerValue.Builder getPredecessorBuilder() {
           
@@ -6394,7 +6394,7 @@ public final class StGetDirectSuccessorsTreeAd {
          * ID des Vorgängers von "TreeNodeID" (im Zeitraum "FromDate" bis "ToDate")
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue predecessor = 10002;</code>
+         * <code>.dstore.values.IntegerValue predecessor = 10002;</code>
          */
         public io.dstore.values.IntegerValueOrBuilder getPredecessorOrBuilder() {
           if (predecessorBuilder_ != null) {
@@ -6409,7 +6409,7 @@ public final class StGetDirectSuccessorsTreeAd {
          * ID des Vorgängers von "TreeNodeID" (im Zeitraum "FromDate" bis "ToDate")
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue predecessor = 10002;</code>
+         * <code>.dstore.values.IntegerValue predecessor = 10002;</code>
          */
         private com.google.protobuf.SingleFieldBuilderV3<
             io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> 
@@ -6433,7 +6433,7 @@ public final class StGetDirectSuccessorsTreeAd {
          * Nummer der Hierarchie der "NodeID"
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue level_no = 10003;</code>
+         * <code>.dstore.values.IntegerValue level_no = 10003;</code>
          */
         public boolean hasLevelNo() {
           return levelNoBuilder_ != null || levelNo_ != null;
@@ -6443,7 +6443,7 @@ public final class StGetDirectSuccessorsTreeAd {
          * Nummer der Hierarchie der "NodeID"
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue level_no = 10003;</code>
+         * <code>.dstore.values.IntegerValue level_no = 10003;</code>
          */
         public io.dstore.values.IntegerValue getLevelNo() {
           if (levelNoBuilder_ == null) {
@@ -6457,7 +6457,7 @@ public final class StGetDirectSuccessorsTreeAd {
          * Nummer der Hierarchie der "NodeID"
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue level_no = 10003;</code>
+         * <code>.dstore.values.IntegerValue level_no = 10003;</code>
          */
         public Builder setLevelNo(io.dstore.values.IntegerValue value) {
           if (levelNoBuilder_ == null) {
@@ -6477,7 +6477,7 @@ public final class StGetDirectSuccessorsTreeAd {
          * Nummer der Hierarchie der "NodeID"
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue level_no = 10003;</code>
+         * <code>.dstore.values.IntegerValue level_no = 10003;</code>
          */
         public Builder setLevelNo(
             io.dstore.values.IntegerValue.Builder builderForValue) {
@@ -6495,7 +6495,7 @@ public final class StGetDirectSuccessorsTreeAd {
          * Nummer der Hierarchie der "NodeID"
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue level_no = 10003;</code>
+         * <code>.dstore.values.IntegerValue level_no = 10003;</code>
          */
         public Builder mergeLevelNo(io.dstore.values.IntegerValue value) {
           if (levelNoBuilder_ == null) {
@@ -6517,7 +6517,7 @@ public final class StGetDirectSuccessorsTreeAd {
          * Nummer der Hierarchie der "NodeID"
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue level_no = 10003;</code>
+         * <code>.dstore.values.IntegerValue level_no = 10003;</code>
          */
         public Builder clearLevelNo() {
           if (levelNoBuilder_ == null) {
@@ -6535,7 +6535,7 @@ public final class StGetDirectSuccessorsTreeAd {
          * Nummer der Hierarchie der "NodeID"
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue level_no = 10003;</code>
+         * <code>.dstore.values.IntegerValue level_no = 10003;</code>
          */
         public io.dstore.values.IntegerValue.Builder getLevelNoBuilder() {
           
@@ -6547,7 +6547,7 @@ public final class StGetDirectSuccessorsTreeAd {
          * Nummer der Hierarchie der "NodeID"
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue level_no = 10003;</code>
+         * <code>.dstore.values.IntegerValue level_no = 10003;</code>
          */
         public io.dstore.values.IntegerValueOrBuilder getLevelNoOrBuilder() {
           if (levelNoBuilder_ != null) {
@@ -6562,7 +6562,7 @@ public final class StGetDirectSuccessorsTreeAd {
          * Nummer der Hierarchie der "NodeID"
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue level_no = 10003;</code>
+         * <code>.dstore.values.IntegerValue level_no = 10003;</code>
          */
         private com.google.protobuf.SingleFieldBuilderV3<
             io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> 
@@ -6586,7 +6586,7 @@ public final class StGetDirectSuccessorsTreeAd {
          * Prozentualer Anteil von "TotalValue_BasicCharacNo3" zur Summe von "TotalValue_BasicCharacNo3" aller Elemente mit dem Vorgänger "Predesessor". Wurde für "&#64;BasicCharacteristicNo2" oder "&#64;BasicCharacteristicNo3" "NULL" angegeben, steht hier immer "0.00".
          * </pre>
          *
-         * <code>optional .dstore.values.DecimalValue relative_value_basic_charac_no3 = 10004;</code>
+         * <code>.dstore.values.DecimalValue relative_value_basic_charac_no3 = 10004;</code>
          */
         public boolean hasRelativeValueBasicCharacNo3() {
           return relativeValueBasicCharacNo3Builder_ != null || relativeValueBasicCharacNo3_ != null;
@@ -6596,7 +6596,7 @@ public final class StGetDirectSuccessorsTreeAd {
          * Prozentualer Anteil von "TotalValue_BasicCharacNo3" zur Summe von "TotalValue_BasicCharacNo3" aller Elemente mit dem Vorgänger "Predesessor". Wurde für "&#64;BasicCharacteristicNo2" oder "&#64;BasicCharacteristicNo3" "NULL" angegeben, steht hier immer "0.00".
          * </pre>
          *
-         * <code>optional .dstore.values.DecimalValue relative_value_basic_charac_no3 = 10004;</code>
+         * <code>.dstore.values.DecimalValue relative_value_basic_charac_no3 = 10004;</code>
          */
         public io.dstore.values.DecimalValue getRelativeValueBasicCharacNo3() {
           if (relativeValueBasicCharacNo3Builder_ == null) {
@@ -6610,7 +6610,7 @@ public final class StGetDirectSuccessorsTreeAd {
          * Prozentualer Anteil von "TotalValue_BasicCharacNo3" zur Summe von "TotalValue_BasicCharacNo3" aller Elemente mit dem Vorgänger "Predesessor". Wurde für "&#64;BasicCharacteristicNo2" oder "&#64;BasicCharacteristicNo3" "NULL" angegeben, steht hier immer "0.00".
          * </pre>
          *
-         * <code>optional .dstore.values.DecimalValue relative_value_basic_charac_no3 = 10004;</code>
+         * <code>.dstore.values.DecimalValue relative_value_basic_charac_no3 = 10004;</code>
          */
         public Builder setRelativeValueBasicCharacNo3(io.dstore.values.DecimalValue value) {
           if (relativeValueBasicCharacNo3Builder_ == null) {
@@ -6630,7 +6630,7 @@ public final class StGetDirectSuccessorsTreeAd {
          * Prozentualer Anteil von "TotalValue_BasicCharacNo3" zur Summe von "TotalValue_BasicCharacNo3" aller Elemente mit dem Vorgänger "Predesessor". Wurde für "&#64;BasicCharacteristicNo2" oder "&#64;BasicCharacteristicNo3" "NULL" angegeben, steht hier immer "0.00".
          * </pre>
          *
-         * <code>optional .dstore.values.DecimalValue relative_value_basic_charac_no3 = 10004;</code>
+         * <code>.dstore.values.DecimalValue relative_value_basic_charac_no3 = 10004;</code>
          */
         public Builder setRelativeValueBasicCharacNo3(
             io.dstore.values.DecimalValue.Builder builderForValue) {
@@ -6648,7 +6648,7 @@ public final class StGetDirectSuccessorsTreeAd {
          * Prozentualer Anteil von "TotalValue_BasicCharacNo3" zur Summe von "TotalValue_BasicCharacNo3" aller Elemente mit dem Vorgänger "Predesessor". Wurde für "&#64;BasicCharacteristicNo2" oder "&#64;BasicCharacteristicNo3" "NULL" angegeben, steht hier immer "0.00".
          * </pre>
          *
-         * <code>optional .dstore.values.DecimalValue relative_value_basic_charac_no3 = 10004;</code>
+         * <code>.dstore.values.DecimalValue relative_value_basic_charac_no3 = 10004;</code>
          */
         public Builder mergeRelativeValueBasicCharacNo3(io.dstore.values.DecimalValue value) {
           if (relativeValueBasicCharacNo3Builder_ == null) {
@@ -6670,7 +6670,7 @@ public final class StGetDirectSuccessorsTreeAd {
          * Prozentualer Anteil von "TotalValue_BasicCharacNo3" zur Summe von "TotalValue_BasicCharacNo3" aller Elemente mit dem Vorgänger "Predesessor". Wurde für "&#64;BasicCharacteristicNo2" oder "&#64;BasicCharacteristicNo3" "NULL" angegeben, steht hier immer "0.00".
          * </pre>
          *
-         * <code>optional .dstore.values.DecimalValue relative_value_basic_charac_no3 = 10004;</code>
+         * <code>.dstore.values.DecimalValue relative_value_basic_charac_no3 = 10004;</code>
          */
         public Builder clearRelativeValueBasicCharacNo3() {
           if (relativeValueBasicCharacNo3Builder_ == null) {
@@ -6688,7 +6688,7 @@ public final class StGetDirectSuccessorsTreeAd {
          * Prozentualer Anteil von "TotalValue_BasicCharacNo3" zur Summe von "TotalValue_BasicCharacNo3" aller Elemente mit dem Vorgänger "Predesessor". Wurde für "&#64;BasicCharacteristicNo2" oder "&#64;BasicCharacteristicNo3" "NULL" angegeben, steht hier immer "0.00".
          * </pre>
          *
-         * <code>optional .dstore.values.DecimalValue relative_value_basic_charac_no3 = 10004;</code>
+         * <code>.dstore.values.DecimalValue relative_value_basic_charac_no3 = 10004;</code>
          */
         public io.dstore.values.DecimalValue.Builder getRelativeValueBasicCharacNo3Builder() {
           
@@ -6700,7 +6700,7 @@ public final class StGetDirectSuccessorsTreeAd {
          * Prozentualer Anteil von "TotalValue_BasicCharacNo3" zur Summe von "TotalValue_BasicCharacNo3" aller Elemente mit dem Vorgänger "Predesessor". Wurde für "&#64;BasicCharacteristicNo2" oder "&#64;BasicCharacteristicNo3" "NULL" angegeben, steht hier immer "0.00".
          * </pre>
          *
-         * <code>optional .dstore.values.DecimalValue relative_value_basic_charac_no3 = 10004;</code>
+         * <code>.dstore.values.DecimalValue relative_value_basic_charac_no3 = 10004;</code>
          */
         public io.dstore.values.DecimalValueOrBuilder getRelativeValueBasicCharacNo3OrBuilder() {
           if (relativeValueBasicCharacNo3Builder_ != null) {
@@ -6715,7 +6715,7 @@ public final class StGetDirectSuccessorsTreeAd {
          * Prozentualer Anteil von "TotalValue_BasicCharacNo3" zur Summe von "TotalValue_BasicCharacNo3" aller Elemente mit dem Vorgänger "Predesessor". Wurde für "&#64;BasicCharacteristicNo2" oder "&#64;BasicCharacteristicNo3" "NULL" angegeben, steht hier immer "0.00".
          * </pre>
          *
-         * <code>optional .dstore.values.DecimalValue relative_value_basic_charac_no3 = 10004;</code>
+         * <code>.dstore.values.DecimalValue relative_value_basic_charac_no3 = 10004;</code>
          */
         private com.google.protobuf.SingleFieldBuilderV3<
             io.dstore.values.DecimalValue, io.dstore.values.DecimalValue.Builder, io.dstore.values.DecimalValueOrBuilder> 
@@ -6739,7 +6739,7 @@ public final class StGetDirectSuccessorsTreeAd {
          * Prozentualer Anteil von "TotalValue_BasicCharacNo2" (der "HTreeNodeID") zur Summe von "TotalValue_BasicCharacNo2" aller Elemente mit dem Vorgänger-Element "Predesessor". Falls "&#64;BasicCharacteristicNo2 = NULL" angegeben wurde, steht hier immer "0.00".
          * </pre>
          *
-         * <code>optional .dstore.values.DecimalValue relative_value_basic_charac_no2 = 10005;</code>
+         * <code>.dstore.values.DecimalValue relative_value_basic_charac_no2 = 10005;</code>
          */
         public boolean hasRelativeValueBasicCharacNo2() {
           return relativeValueBasicCharacNo2Builder_ != null || relativeValueBasicCharacNo2_ != null;
@@ -6749,7 +6749,7 @@ public final class StGetDirectSuccessorsTreeAd {
          * Prozentualer Anteil von "TotalValue_BasicCharacNo2" (der "HTreeNodeID") zur Summe von "TotalValue_BasicCharacNo2" aller Elemente mit dem Vorgänger-Element "Predesessor". Falls "&#64;BasicCharacteristicNo2 = NULL" angegeben wurde, steht hier immer "0.00".
          * </pre>
          *
-         * <code>optional .dstore.values.DecimalValue relative_value_basic_charac_no2 = 10005;</code>
+         * <code>.dstore.values.DecimalValue relative_value_basic_charac_no2 = 10005;</code>
          */
         public io.dstore.values.DecimalValue getRelativeValueBasicCharacNo2() {
           if (relativeValueBasicCharacNo2Builder_ == null) {
@@ -6763,7 +6763,7 @@ public final class StGetDirectSuccessorsTreeAd {
          * Prozentualer Anteil von "TotalValue_BasicCharacNo2" (der "HTreeNodeID") zur Summe von "TotalValue_BasicCharacNo2" aller Elemente mit dem Vorgänger-Element "Predesessor". Falls "&#64;BasicCharacteristicNo2 = NULL" angegeben wurde, steht hier immer "0.00".
          * </pre>
          *
-         * <code>optional .dstore.values.DecimalValue relative_value_basic_charac_no2 = 10005;</code>
+         * <code>.dstore.values.DecimalValue relative_value_basic_charac_no2 = 10005;</code>
          */
         public Builder setRelativeValueBasicCharacNo2(io.dstore.values.DecimalValue value) {
           if (relativeValueBasicCharacNo2Builder_ == null) {
@@ -6783,7 +6783,7 @@ public final class StGetDirectSuccessorsTreeAd {
          * Prozentualer Anteil von "TotalValue_BasicCharacNo2" (der "HTreeNodeID") zur Summe von "TotalValue_BasicCharacNo2" aller Elemente mit dem Vorgänger-Element "Predesessor". Falls "&#64;BasicCharacteristicNo2 = NULL" angegeben wurde, steht hier immer "0.00".
          * </pre>
          *
-         * <code>optional .dstore.values.DecimalValue relative_value_basic_charac_no2 = 10005;</code>
+         * <code>.dstore.values.DecimalValue relative_value_basic_charac_no2 = 10005;</code>
          */
         public Builder setRelativeValueBasicCharacNo2(
             io.dstore.values.DecimalValue.Builder builderForValue) {
@@ -6801,7 +6801,7 @@ public final class StGetDirectSuccessorsTreeAd {
          * Prozentualer Anteil von "TotalValue_BasicCharacNo2" (der "HTreeNodeID") zur Summe von "TotalValue_BasicCharacNo2" aller Elemente mit dem Vorgänger-Element "Predesessor". Falls "&#64;BasicCharacteristicNo2 = NULL" angegeben wurde, steht hier immer "0.00".
          * </pre>
          *
-         * <code>optional .dstore.values.DecimalValue relative_value_basic_charac_no2 = 10005;</code>
+         * <code>.dstore.values.DecimalValue relative_value_basic_charac_no2 = 10005;</code>
          */
         public Builder mergeRelativeValueBasicCharacNo2(io.dstore.values.DecimalValue value) {
           if (relativeValueBasicCharacNo2Builder_ == null) {
@@ -6823,7 +6823,7 @@ public final class StGetDirectSuccessorsTreeAd {
          * Prozentualer Anteil von "TotalValue_BasicCharacNo2" (der "HTreeNodeID") zur Summe von "TotalValue_BasicCharacNo2" aller Elemente mit dem Vorgänger-Element "Predesessor". Falls "&#64;BasicCharacteristicNo2 = NULL" angegeben wurde, steht hier immer "0.00".
          * </pre>
          *
-         * <code>optional .dstore.values.DecimalValue relative_value_basic_charac_no2 = 10005;</code>
+         * <code>.dstore.values.DecimalValue relative_value_basic_charac_no2 = 10005;</code>
          */
         public Builder clearRelativeValueBasicCharacNo2() {
           if (relativeValueBasicCharacNo2Builder_ == null) {
@@ -6841,7 +6841,7 @@ public final class StGetDirectSuccessorsTreeAd {
          * Prozentualer Anteil von "TotalValue_BasicCharacNo2" (der "HTreeNodeID") zur Summe von "TotalValue_BasicCharacNo2" aller Elemente mit dem Vorgänger-Element "Predesessor". Falls "&#64;BasicCharacteristicNo2 = NULL" angegeben wurde, steht hier immer "0.00".
          * </pre>
          *
-         * <code>optional .dstore.values.DecimalValue relative_value_basic_charac_no2 = 10005;</code>
+         * <code>.dstore.values.DecimalValue relative_value_basic_charac_no2 = 10005;</code>
          */
         public io.dstore.values.DecimalValue.Builder getRelativeValueBasicCharacNo2Builder() {
           
@@ -6853,7 +6853,7 @@ public final class StGetDirectSuccessorsTreeAd {
          * Prozentualer Anteil von "TotalValue_BasicCharacNo2" (der "HTreeNodeID") zur Summe von "TotalValue_BasicCharacNo2" aller Elemente mit dem Vorgänger-Element "Predesessor". Falls "&#64;BasicCharacteristicNo2 = NULL" angegeben wurde, steht hier immer "0.00".
          * </pre>
          *
-         * <code>optional .dstore.values.DecimalValue relative_value_basic_charac_no2 = 10005;</code>
+         * <code>.dstore.values.DecimalValue relative_value_basic_charac_no2 = 10005;</code>
          */
         public io.dstore.values.DecimalValueOrBuilder getRelativeValueBasicCharacNo2OrBuilder() {
           if (relativeValueBasicCharacNo2Builder_ != null) {
@@ -6868,7 +6868,7 @@ public final class StGetDirectSuccessorsTreeAd {
          * Prozentualer Anteil von "TotalValue_BasicCharacNo2" (der "HTreeNodeID") zur Summe von "TotalValue_BasicCharacNo2" aller Elemente mit dem Vorgänger-Element "Predesessor". Falls "&#64;BasicCharacteristicNo2 = NULL" angegeben wurde, steht hier immer "0.00".
          * </pre>
          *
-         * <code>optional .dstore.values.DecimalValue relative_value_basic_charac_no2 = 10005;</code>
+         * <code>.dstore.values.DecimalValue relative_value_basic_charac_no2 = 10005;</code>
          */
         private com.google.protobuf.SingleFieldBuilderV3<
             io.dstore.values.DecimalValue, io.dstore.values.DecimalValue.Builder, io.dstore.values.DecimalValueOrBuilder> 
@@ -6892,7 +6892,7 @@ public final class StGetDirectSuccessorsTreeAd {
          * Prozentualer Anteil von "TotalValue_BasicCharacNo1" (des Elementes "HTreeNodeID") zur Summe von "TotalValue_BasicCharacNo1" aller Elemente mit dem Vorgänger-Element "Predesessor"
          * </pre>
          *
-         * <code>optional .dstore.values.DecimalValue relative_value_basic_charac_no1 = 10006;</code>
+         * <code>.dstore.values.DecimalValue relative_value_basic_charac_no1 = 10006;</code>
          */
         public boolean hasRelativeValueBasicCharacNo1() {
           return relativeValueBasicCharacNo1Builder_ != null || relativeValueBasicCharacNo1_ != null;
@@ -6902,7 +6902,7 @@ public final class StGetDirectSuccessorsTreeAd {
          * Prozentualer Anteil von "TotalValue_BasicCharacNo1" (des Elementes "HTreeNodeID") zur Summe von "TotalValue_BasicCharacNo1" aller Elemente mit dem Vorgänger-Element "Predesessor"
          * </pre>
          *
-         * <code>optional .dstore.values.DecimalValue relative_value_basic_charac_no1 = 10006;</code>
+         * <code>.dstore.values.DecimalValue relative_value_basic_charac_no1 = 10006;</code>
          */
         public io.dstore.values.DecimalValue getRelativeValueBasicCharacNo1() {
           if (relativeValueBasicCharacNo1Builder_ == null) {
@@ -6916,7 +6916,7 @@ public final class StGetDirectSuccessorsTreeAd {
          * Prozentualer Anteil von "TotalValue_BasicCharacNo1" (des Elementes "HTreeNodeID") zur Summe von "TotalValue_BasicCharacNo1" aller Elemente mit dem Vorgänger-Element "Predesessor"
          * </pre>
          *
-         * <code>optional .dstore.values.DecimalValue relative_value_basic_charac_no1 = 10006;</code>
+         * <code>.dstore.values.DecimalValue relative_value_basic_charac_no1 = 10006;</code>
          */
         public Builder setRelativeValueBasicCharacNo1(io.dstore.values.DecimalValue value) {
           if (relativeValueBasicCharacNo1Builder_ == null) {
@@ -6936,7 +6936,7 @@ public final class StGetDirectSuccessorsTreeAd {
          * Prozentualer Anteil von "TotalValue_BasicCharacNo1" (des Elementes "HTreeNodeID") zur Summe von "TotalValue_BasicCharacNo1" aller Elemente mit dem Vorgänger-Element "Predesessor"
          * </pre>
          *
-         * <code>optional .dstore.values.DecimalValue relative_value_basic_charac_no1 = 10006;</code>
+         * <code>.dstore.values.DecimalValue relative_value_basic_charac_no1 = 10006;</code>
          */
         public Builder setRelativeValueBasicCharacNo1(
             io.dstore.values.DecimalValue.Builder builderForValue) {
@@ -6954,7 +6954,7 @@ public final class StGetDirectSuccessorsTreeAd {
          * Prozentualer Anteil von "TotalValue_BasicCharacNo1" (des Elementes "HTreeNodeID") zur Summe von "TotalValue_BasicCharacNo1" aller Elemente mit dem Vorgänger-Element "Predesessor"
          * </pre>
          *
-         * <code>optional .dstore.values.DecimalValue relative_value_basic_charac_no1 = 10006;</code>
+         * <code>.dstore.values.DecimalValue relative_value_basic_charac_no1 = 10006;</code>
          */
         public Builder mergeRelativeValueBasicCharacNo1(io.dstore.values.DecimalValue value) {
           if (relativeValueBasicCharacNo1Builder_ == null) {
@@ -6976,7 +6976,7 @@ public final class StGetDirectSuccessorsTreeAd {
          * Prozentualer Anteil von "TotalValue_BasicCharacNo1" (des Elementes "HTreeNodeID") zur Summe von "TotalValue_BasicCharacNo1" aller Elemente mit dem Vorgänger-Element "Predesessor"
          * </pre>
          *
-         * <code>optional .dstore.values.DecimalValue relative_value_basic_charac_no1 = 10006;</code>
+         * <code>.dstore.values.DecimalValue relative_value_basic_charac_no1 = 10006;</code>
          */
         public Builder clearRelativeValueBasicCharacNo1() {
           if (relativeValueBasicCharacNo1Builder_ == null) {
@@ -6994,7 +6994,7 @@ public final class StGetDirectSuccessorsTreeAd {
          * Prozentualer Anteil von "TotalValue_BasicCharacNo1" (des Elementes "HTreeNodeID") zur Summe von "TotalValue_BasicCharacNo1" aller Elemente mit dem Vorgänger-Element "Predesessor"
          * </pre>
          *
-         * <code>optional .dstore.values.DecimalValue relative_value_basic_charac_no1 = 10006;</code>
+         * <code>.dstore.values.DecimalValue relative_value_basic_charac_no1 = 10006;</code>
          */
         public io.dstore.values.DecimalValue.Builder getRelativeValueBasicCharacNo1Builder() {
           
@@ -7006,7 +7006,7 @@ public final class StGetDirectSuccessorsTreeAd {
          * Prozentualer Anteil von "TotalValue_BasicCharacNo1" (des Elementes "HTreeNodeID") zur Summe von "TotalValue_BasicCharacNo1" aller Elemente mit dem Vorgänger-Element "Predesessor"
          * </pre>
          *
-         * <code>optional .dstore.values.DecimalValue relative_value_basic_charac_no1 = 10006;</code>
+         * <code>.dstore.values.DecimalValue relative_value_basic_charac_no1 = 10006;</code>
          */
         public io.dstore.values.DecimalValueOrBuilder getRelativeValueBasicCharacNo1OrBuilder() {
           if (relativeValueBasicCharacNo1Builder_ != null) {
@@ -7021,7 +7021,7 @@ public final class StGetDirectSuccessorsTreeAd {
          * Prozentualer Anteil von "TotalValue_BasicCharacNo1" (des Elementes "HTreeNodeID") zur Summe von "TotalValue_BasicCharacNo1" aller Elemente mit dem Vorgänger-Element "Predesessor"
          * </pre>
          *
-         * <code>optional .dstore.values.DecimalValue relative_value_basic_charac_no1 = 10006;</code>
+         * <code>.dstore.values.DecimalValue relative_value_basic_charac_no1 = 10006;</code>
          */
         private com.google.protobuf.SingleFieldBuilderV3<
             io.dstore.values.DecimalValue, io.dstore.values.DecimalValue.Builder, io.dstore.values.DecimalValueOrBuilder> 
@@ -7045,7 +7045,7 @@ public final class StGetDirectSuccessorsTreeAd {
          * Zusammengesetzte Kennzahl nach der Formel :(TotalValue_BasicCharacNo1 * &#64;Weight_BasicCharacteristicNo1) + (TotalValue_BasicCharacNo2 * &#64;Weight_BasicCharacteristicNo2) + (TotalValue_BasicCharacNo3 * &#64;Weight_BasicCharacteristicNo3)
          * </pre>
          *
-         * <code>optional .dstore.values.DecimalValue total_value_index = 10007;</code>
+         * <code>.dstore.values.DecimalValue total_value_index = 10007;</code>
          */
         public boolean hasTotalValueIndex() {
           return totalValueIndexBuilder_ != null || totalValueIndex_ != null;
@@ -7055,7 +7055,7 @@ public final class StGetDirectSuccessorsTreeAd {
          * Zusammengesetzte Kennzahl nach der Formel :(TotalValue_BasicCharacNo1 * &#64;Weight_BasicCharacteristicNo1) + (TotalValue_BasicCharacNo2 * &#64;Weight_BasicCharacteristicNo2) + (TotalValue_BasicCharacNo3 * &#64;Weight_BasicCharacteristicNo3)
          * </pre>
          *
-         * <code>optional .dstore.values.DecimalValue total_value_index = 10007;</code>
+         * <code>.dstore.values.DecimalValue total_value_index = 10007;</code>
          */
         public io.dstore.values.DecimalValue getTotalValueIndex() {
           if (totalValueIndexBuilder_ == null) {
@@ -7069,7 +7069,7 @@ public final class StGetDirectSuccessorsTreeAd {
          * Zusammengesetzte Kennzahl nach der Formel :(TotalValue_BasicCharacNo1 * &#64;Weight_BasicCharacteristicNo1) + (TotalValue_BasicCharacNo2 * &#64;Weight_BasicCharacteristicNo2) + (TotalValue_BasicCharacNo3 * &#64;Weight_BasicCharacteristicNo3)
          * </pre>
          *
-         * <code>optional .dstore.values.DecimalValue total_value_index = 10007;</code>
+         * <code>.dstore.values.DecimalValue total_value_index = 10007;</code>
          */
         public Builder setTotalValueIndex(io.dstore.values.DecimalValue value) {
           if (totalValueIndexBuilder_ == null) {
@@ -7089,7 +7089,7 @@ public final class StGetDirectSuccessorsTreeAd {
          * Zusammengesetzte Kennzahl nach der Formel :(TotalValue_BasicCharacNo1 * &#64;Weight_BasicCharacteristicNo1) + (TotalValue_BasicCharacNo2 * &#64;Weight_BasicCharacteristicNo2) + (TotalValue_BasicCharacNo3 * &#64;Weight_BasicCharacteristicNo3)
          * </pre>
          *
-         * <code>optional .dstore.values.DecimalValue total_value_index = 10007;</code>
+         * <code>.dstore.values.DecimalValue total_value_index = 10007;</code>
          */
         public Builder setTotalValueIndex(
             io.dstore.values.DecimalValue.Builder builderForValue) {
@@ -7107,7 +7107,7 @@ public final class StGetDirectSuccessorsTreeAd {
          * Zusammengesetzte Kennzahl nach der Formel :(TotalValue_BasicCharacNo1 * &#64;Weight_BasicCharacteristicNo1) + (TotalValue_BasicCharacNo2 * &#64;Weight_BasicCharacteristicNo2) + (TotalValue_BasicCharacNo3 * &#64;Weight_BasicCharacteristicNo3)
          * </pre>
          *
-         * <code>optional .dstore.values.DecimalValue total_value_index = 10007;</code>
+         * <code>.dstore.values.DecimalValue total_value_index = 10007;</code>
          */
         public Builder mergeTotalValueIndex(io.dstore.values.DecimalValue value) {
           if (totalValueIndexBuilder_ == null) {
@@ -7129,7 +7129,7 @@ public final class StGetDirectSuccessorsTreeAd {
          * Zusammengesetzte Kennzahl nach der Formel :(TotalValue_BasicCharacNo1 * &#64;Weight_BasicCharacteristicNo1) + (TotalValue_BasicCharacNo2 * &#64;Weight_BasicCharacteristicNo2) + (TotalValue_BasicCharacNo3 * &#64;Weight_BasicCharacteristicNo3)
          * </pre>
          *
-         * <code>optional .dstore.values.DecimalValue total_value_index = 10007;</code>
+         * <code>.dstore.values.DecimalValue total_value_index = 10007;</code>
          */
         public Builder clearTotalValueIndex() {
           if (totalValueIndexBuilder_ == null) {
@@ -7147,7 +7147,7 @@ public final class StGetDirectSuccessorsTreeAd {
          * Zusammengesetzte Kennzahl nach der Formel :(TotalValue_BasicCharacNo1 * &#64;Weight_BasicCharacteristicNo1) + (TotalValue_BasicCharacNo2 * &#64;Weight_BasicCharacteristicNo2) + (TotalValue_BasicCharacNo3 * &#64;Weight_BasicCharacteristicNo3)
          * </pre>
          *
-         * <code>optional .dstore.values.DecimalValue total_value_index = 10007;</code>
+         * <code>.dstore.values.DecimalValue total_value_index = 10007;</code>
          */
         public io.dstore.values.DecimalValue.Builder getTotalValueIndexBuilder() {
           
@@ -7159,7 +7159,7 @@ public final class StGetDirectSuccessorsTreeAd {
          * Zusammengesetzte Kennzahl nach der Formel :(TotalValue_BasicCharacNo1 * &#64;Weight_BasicCharacteristicNo1) + (TotalValue_BasicCharacNo2 * &#64;Weight_BasicCharacteristicNo2) + (TotalValue_BasicCharacNo3 * &#64;Weight_BasicCharacteristicNo3)
          * </pre>
          *
-         * <code>optional .dstore.values.DecimalValue total_value_index = 10007;</code>
+         * <code>.dstore.values.DecimalValue total_value_index = 10007;</code>
          */
         public io.dstore.values.DecimalValueOrBuilder getTotalValueIndexOrBuilder() {
           if (totalValueIndexBuilder_ != null) {
@@ -7174,7 +7174,7 @@ public final class StGetDirectSuccessorsTreeAd {
          * Zusammengesetzte Kennzahl nach der Formel :(TotalValue_BasicCharacNo1 * &#64;Weight_BasicCharacteristicNo1) + (TotalValue_BasicCharacNo2 * &#64;Weight_BasicCharacteristicNo2) + (TotalValue_BasicCharacNo3 * &#64;Weight_BasicCharacteristicNo3)
          * </pre>
          *
-         * <code>optional .dstore.values.DecimalValue total_value_index = 10007;</code>
+         * <code>.dstore.values.DecimalValue total_value_index = 10007;</code>
          */
         private com.google.protobuf.SingleFieldBuilderV3<
             io.dstore.values.DecimalValue, io.dstore.values.DecimalValue.Builder, io.dstore.values.DecimalValueOrBuilder> 
@@ -7198,7 +7198,7 @@ public final class StGetDirectSuccessorsTreeAd {
          * Prozentualer Anteil von "TotalValue_Index" zur Summe von "TotalValue_Index" aller Elemente mit dem Vorgänger "Predesessor".
          * </pre>
          *
-         * <code>optional .dstore.values.DecimalValue relative_value_index = 10008;</code>
+         * <code>.dstore.values.DecimalValue relative_value_index = 10008;</code>
          */
         public boolean hasRelativeValueIndex() {
           return relativeValueIndexBuilder_ != null || relativeValueIndex_ != null;
@@ -7208,7 +7208,7 @@ public final class StGetDirectSuccessorsTreeAd {
          * Prozentualer Anteil von "TotalValue_Index" zur Summe von "TotalValue_Index" aller Elemente mit dem Vorgänger "Predesessor".
          * </pre>
          *
-         * <code>optional .dstore.values.DecimalValue relative_value_index = 10008;</code>
+         * <code>.dstore.values.DecimalValue relative_value_index = 10008;</code>
          */
         public io.dstore.values.DecimalValue getRelativeValueIndex() {
           if (relativeValueIndexBuilder_ == null) {
@@ -7222,7 +7222,7 @@ public final class StGetDirectSuccessorsTreeAd {
          * Prozentualer Anteil von "TotalValue_Index" zur Summe von "TotalValue_Index" aller Elemente mit dem Vorgänger "Predesessor".
          * </pre>
          *
-         * <code>optional .dstore.values.DecimalValue relative_value_index = 10008;</code>
+         * <code>.dstore.values.DecimalValue relative_value_index = 10008;</code>
          */
         public Builder setRelativeValueIndex(io.dstore.values.DecimalValue value) {
           if (relativeValueIndexBuilder_ == null) {
@@ -7242,7 +7242,7 @@ public final class StGetDirectSuccessorsTreeAd {
          * Prozentualer Anteil von "TotalValue_Index" zur Summe von "TotalValue_Index" aller Elemente mit dem Vorgänger "Predesessor".
          * </pre>
          *
-         * <code>optional .dstore.values.DecimalValue relative_value_index = 10008;</code>
+         * <code>.dstore.values.DecimalValue relative_value_index = 10008;</code>
          */
         public Builder setRelativeValueIndex(
             io.dstore.values.DecimalValue.Builder builderForValue) {
@@ -7260,7 +7260,7 @@ public final class StGetDirectSuccessorsTreeAd {
          * Prozentualer Anteil von "TotalValue_Index" zur Summe von "TotalValue_Index" aller Elemente mit dem Vorgänger "Predesessor".
          * </pre>
          *
-         * <code>optional .dstore.values.DecimalValue relative_value_index = 10008;</code>
+         * <code>.dstore.values.DecimalValue relative_value_index = 10008;</code>
          */
         public Builder mergeRelativeValueIndex(io.dstore.values.DecimalValue value) {
           if (relativeValueIndexBuilder_ == null) {
@@ -7282,7 +7282,7 @@ public final class StGetDirectSuccessorsTreeAd {
          * Prozentualer Anteil von "TotalValue_Index" zur Summe von "TotalValue_Index" aller Elemente mit dem Vorgänger "Predesessor".
          * </pre>
          *
-         * <code>optional .dstore.values.DecimalValue relative_value_index = 10008;</code>
+         * <code>.dstore.values.DecimalValue relative_value_index = 10008;</code>
          */
         public Builder clearRelativeValueIndex() {
           if (relativeValueIndexBuilder_ == null) {
@@ -7300,7 +7300,7 @@ public final class StGetDirectSuccessorsTreeAd {
          * Prozentualer Anteil von "TotalValue_Index" zur Summe von "TotalValue_Index" aller Elemente mit dem Vorgänger "Predesessor".
          * </pre>
          *
-         * <code>optional .dstore.values.DecimalValue relative_value_index = 10008;</code>
+         * <code>.dstore.values.DecimalValue relative_value_index = 10008;</code>
          */
         public io.dstore.values.DecimalValue.Builder getRelativeValueIndexBuilder() {
           
@@ -7312,7 +7312,7 @@ public final class StGetDirectSuccessorsTreeAd {
          * Prozentualer Anteil von "TotalValue_Index" zur Summe von "TotalValue_Index" aller Elemente mit dem Vorgänger "Predesessor".
          * </pre>
          *
-         * <code>optional .dstore.values.DecimalValue relative_value_index = 10008;</code>
+         * <code>.dstore.values.DecimalValue relative_value_index = 10008;</code>
          */
         public io.dstore.values.DecimalValueOrBuilder getRelativeValueIndexOrBuilder() {
           if (relativeValueIndexBuilder_ != null) {
@@ -7327,7 +7327,7 @@ public final class StGetDirectSuccessorsTreeAd {
          * Prozentualer Anteil von "TotalValue_Index" zur Summe von "TotalValue_Index" aller Elemente mit dem Vorgänger "Predesessor".
          * </pre>
          *
-         * <code>optional .dstore.values.DecimalValue relative_value_index = 10008;</code>
+         * <code>.dstore.values.DecimalValue relative_value_index = 10008;</code>
          */
         private com.google.protobuf.SingleFieldBuilderV3<
             io.dstore.values.DecimalValue, io.dstore.values.DecimalValue.Builder, io.dstore.values.DecimalValueOrBuilder> 
@@ -7351,7 +7351,7 @@ public final class StGetDirectSuccessorsTreeAd {
          * Bezeichnung der "NodeID"
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue node_description = 10009;</code>
+         * <code>.dstore.values.StringValue node_description = 10009;</code>
          */
         public boolean hasNodeDescription() {
           return nodeDescriptionBuilder_ != null || nodeDescription_ != null;
@@ -7361,7 +7361,7 @@ public final class StGetDirectSuccessorsTreeAd {
          * Bezeichnung der "NodeID"
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue node_description = 10009;</code>
+         * <code>.dstore.values.StringValue node_description = 10009;</code>
          */
         public io.dstore.values.StringValue getNodeDescription() {
           if (nodeDescriptionBuilder_ == null) {
@@ -7375,7 +7375,7 @@ public final class StGetDirectSuccessorsTreeAd {
          * Bezeichnung der "NodeID"
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue node_description = 10009;</code>
+         * <code>.dstore.values.StringValue node_description = 10009;</code>
          */
         public Builder setNodeDescription(io.dstore.values.StringValue value) {
           if (nodeDescriptionBuilder_ == null) {
@@ -7395,7 +7395,7 @@ public final class StGetDirectSuccessorsTreeAd {
          * Bezeichnung der "NodeID"
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue node_description = 10009;</code>
+         * <code>.dstore.values.StringValue node_description = 10009;</code>
          */
         public Builder setNodeDescription(
             io.dstore.values.StringValue.Builder builderForValue) {
@@ -7413,7 +7413,7 @@ public final class StGetDirectSuccessorsTreeAd {
          * Bezeichnung der "NodeID"
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue node_description = 10009;</code>
+         * <code>.dstore.values.StringValue node_description = 10009;</code>
          */
         public Builder mergeNodeDescription(io.dstore.values.StringValue value) {
           if (nodeDescriptionBuilder_ == null) {
@@ -7435,7 +7435,7 @@ public final class StGetDirectSuccessorsTreeAd {
          * Bezeichnung der "NodeID"
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue node_description = 10009;</code>
+         * <code>.dstore.values.StringValue node_description = 10009;</code>
          */
         public Builder clearNodeDescription() {
           if (nodeDescriptionBuilder_ == null) {
@@ -7453,7 +7453,7 @@ public final class StGetDirectSuccessorsTreeAd {
          * Bezeichnung der "NodeID"
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue node_description = 10009;</code>
+         * <code>.dstore.values.StringValue node_description = 10009;</code>
          */
         public io.dstore.values.StringValue.Builder getNodeDescriptionBuilder() {
           
@@ -7465,7 +7465,7 @@ public final class StGetDirectSuccessorsTreeAd {
          * Bezeichnung der "NodeID"
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue node_description = 10009;</code>
+         * <code>.dstore.values.StringValue node_description = 10009;</code>
          */
         public io.dstore.values.StringValueOrBuilder getNodeDescriptionOrBuilder() {
           if (nodeDescriptionBuilder_ != null) {
@@ -7480,7 +7480,7 @@ public final class StGetDirectSuccessorsTreeAd {
          * Bezeichnung der "NodeID"
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue node_description = 10009;</code>
+         * <code>.dstore.values.StringValue node_description = 10009;</code>
          */
         private com.google.protobuf.SingleFieldBuilderV3<
             io.dstore.values.StringValue, io.dstore.values.StringValue.Builder, io.dstore.values.StringValueOrBuilder> 
@@ -7504,7 +7504,7 @@ public final class StGetDirectSuccessorsTreeAd {
          * Ist "TreeNodeID" z.Zt. aktiviert ? ("0" : Nein, "1" : Ja)
          * </pre>
          *
-         * <code>optional .dstore.values.BooleanValue active = 10010;</code>
+         * <code>.dstore.values.BooleanValue active = 10010;</code>
          */
         public boolean hasActive() {
           return activeBuilder_ != null || active_ != null;
@@ -7514,7 +7514,7 @@ public final class StGetDirectSuccessorsTreeAd {
          * Ist "TreeNodeID" z.Zt. aktiviert ? ("0" : Nein, "1" : Ja)
          * </pre>
          *
-         * <code>optional .dstore.values.BooleanValue active = 10010;</code>
+         * <code>.dstore.values.BooleanValue active = 10010;</code>
          */
         public io.dstore.values.BooleanValue getActive() {
           if (activeBuilder_ == null) {
@@ -7528,7 +7528,7 @@ public final class StGetDirectSuccessorsTreeAd {
          * Ist "TreeNodeID" z.Zt. aktiviert ? ("0" : Nein, "1" : Ja)
          * </pre>
          *
-         * <code>optional .dstore.values.BooleanValue active = 10010;</code>
+         * <code>.dstore.values.BooleanValue active = 10010;</code>
          */
         public Builder setActive(io.dstore.values.BooleanValue value) {
           if (activeBuilder_ == null) {
@@ -7548,7 +7548,7 @@ public final class StGetDirectSuccessorsTreeAd {
          * Ist "TreeNodeID" z.Zt. aktiviert ? ("0" : Nein, "1" : Ja)
          * </pre>
          *
-         * <code>optional .dstore.values.BooleanValue active = 10010;</code>
+         * <code>.dstore.values.BooleanValue active = 10010;</code>
          */
         public Builder setActive(
             io.dstore.values.BooleanValue.Builder builderForValue) {
@@ -7566,7 +7566,7 @@ public final class StGetDirectSuccessorsTreeAd {
          * Ist "TreeNodeID" z.Zt. aktiviert ? ("0" : Nein, "1" : Ja)
          * </pre>
          *
-         * <code>optional .dstore.values.BooleanValue active = 10010;</code>
+         * <code>.dstore.values.BooleanValue active = 10010;</code>
          */
         public Builder mergeActive(io.dstore.values.BooleanValue value) {
           if (activeBuilder_ == null) {
@@ -7588,7 +7588,7 @@ public final class StGetDirectSuccessorsTreeAd {
          * Ist "TreeNodeID" z.Zt. aktiviert ? ("0" : Nein, "1" : Ja)
          * </pre>
          *
-         * <code>optional .dstore.values.BooleanValue active = 10010;</code>
+         * <code>.dstore.values.BooleanValue active = 10010;</code>
          */
         public Builder clearActive() {
           if (activeBuilder_ == null) {
@@ -7606,7 +7606,7 @@ public final class StGetDirectSuccessorsTreeAd {
          * Ist "TreeNodeID" z.Zt. aktiviert ? ("0" : Nein, "1" : Ja)
          * </pre>
          *
-         * <code>optional .dstore.values.BooleanValue active = 10010;</code>
+         * <code>.dstore.values.BooleanValue active = 10010;</code>
          */
         public io.dstore.values.BooleanValue.Builder getActiveBuilder() {
           
@@ -7618,7 +7618,7 @@ public final class StGetDirectSuccessorsTreeAd {
          * Ist "TreeNodeID" z.Zt. aktiviert ? ("0" : Nein, "1" : Ja)
          * </pre>
          *
-         * <code>optional .dstore.values.BooleanValue active = 10010;</code>
+         * <code>.dstore.values.BooleanValue active = 10010;</code>
          */
         public io.dstore.values.BooleanValueOrBuilder getActiveOrBuilder() {
           if (activeBuilder_ != null) {
@@ -7633,7 +7633,7 @@ public final class StGetDirectSuccessorsTreeAd {
          * Ist "TreeNodeID" z.Zt. aktiviert ? ("0" : Nein, "1" : Ja)
          * </pre>
          *
-         * <code>optional .dstore.values.BooleanValue active = 10010;</code>
+         * <code>.dstore.values.BooleanValue active = 10010;</code>
          */
         private com.google.protobuf.SingleFieldBuilderV3<
             io.dstore.values.BooleanValue, io.dstore.values.BooleanValue.Builder, io.dstore.values.BooleanValueOrBuilder> 
@@ -7657,7 +7657,7 @@ public final class StGetDirectSuccessorsTreeAd {
          * Gibt es ein nächstes "Geschwister-Element", also ein anderes Element des Artikelbaums, das ebenfalls "Predecessor" als Vorgänger hat und dessen "SortNo" um 1 niedriger ist als die "SortNo" von "TreeNodeID" ?
          * </pre>
          *
-         * <code>optional .dstore.values.BooleanValue has_next_sibling = 10011;</code>
+         * <code>.dstore.values.BooleanValue has_next_sibling = 10011;</code>
          */
         public boolean hasHasNextSibling() {
           return hasNextSiblingBuilder_ != null || hasNextSibling_ != null;
@@ -7667,7 +7667,7 @@ public final class StGetDirectSuccessorsTreeAd {
          * Gibt es ein nächstes "Geschwister-Element", also ein anderes Element des Artikelbaums, das ebenfalls "Predecessor" als Vorgänger hat und dessen "SortNo" um 1 niedriger ist als die "SortNo" von "TreeNodeID" ?
          * </pre>
          *
-         * <code>optional .dstore.values.BooleanValue has_next_sibling = 10011;</code>
+         * <code>.dstore.values.BooleanValue has_next_sibling = 10011;</code>
          */
         public io.dstore.values.BooleanValue getHasNextSibling() {
           if (hasNextSiblingBuilder_ == null) {
@@ -7681,7 +7681,7 @@ public final class StGetDirectSuccessorsTreeAd {
          * Gibt es ein nächstes "Geschwister-Element", also ein anderes Element des Artikelbaums, das ebenfalls "Predecessor" als Vorgänger hat und dessen "SortNo" um 1 niedriger ist als die "SortNo" von "TreeNodeID" ?
          * </pre>
          *
-         * <code>optional .dstore.values.BooleanValue has_next_sibling = 10011;</code>
+         * <code>.dstore.values.BooleanValue has_next_sibling = 10011;</code>
          */
         public Builder setHasNextSibling(io.dstore.values.BooleanValue value) {
           if (hasNextSiblingBuilder_ == null) {
@@ -7701,7 +7701,7 @@ public final class StGetDirectSuccessorsTreeAd {
          * Gibt es ein nächstes "Geschwister-Element", also ein anderes Element des Artikelbaums, das ebenfalls "Predecessor" als Vorgänger hat und dessen "SortNo" um 1 niedriger ist als die "SortNo" von "TreeNodeID" ?
          * </pre>
          *
-         * <code>optional .dstore.values.BooleanValue has_next_sibling = 10011;</code>
+         * <code>.dstore.values.BooleanValue has_next_sibling = 10011;</code>
          */
         public Builder setHasNextSibling(
             io.dstore.values.BooleanValue.Builder builderForValue) {
@@ -7719,7 +7719,7 @@ public final class StGetDirectSuccessorsTreeAd {
          * Gibt es ein nächstes "Geschwister-Element", also ein anderes Element des Artikelbaums, das ebenfalls "Predecessor" als Vorgänger hat und dessen "SortNo" um 1 niedriger ist als die "SortNo" von "TreeNodeID" ?
          * </pre>
          *
-         * <code>optional .dstore.values.BooleanValue has_next_sibling = 10011;</code>
+         * <code>.dstore.values.BooleanValue has_next_sibling = 10011;</code>
          */
         public Builder mergeHasNextSibling(io.dstore.values.BooleanValue value) {
           if (hasNextSiblingBuilder_ == null) {
@@ -7741,7 +7741,7 @@ public final class StGetDirectSuccessorsTreeAd {
          * Gibt es ein nächstes "Geschwister-Element", also ein anderes Element des Artikelbaums, das ebenfalls "Predecessor" als Vorgänger hat und dessen "SortNo" um 1 niedriger ist als die "SortNo" von "TreeNodeID" ?
          * </pre>
          *
-         * <code>optional .dstore.values.BooleanValue has_next_sibling = 10011;</code>
+         * <code>.dstore.values.BooleanValue has_next_sibling = 10011;</code>
          */
         public Builder clearHasNextSibling() {
           if (hasNextSiblingBuilder_ == null) {
@@ -7759,7 +7759,7 @@ public final class StGetDirectSuccessorsTreeAd {
          * Gibt es ein nächstes "Geschwister-Element", also ein anderes Element des Artikelbaums, das ebenfalls "Predecessor" als Vorgänger hat und dessen "SortNo" um 1 niedriger ist als die "SortNo" von "TreeNodeID" ?
          * </pre>
          *
-         * <code>optional .dstore.values.BooleanValue has_next_sibling = 10011;</code>
+         * <code>.dstore.values.BooleanValue has_next_sibling = 10011;</code>
          */
         public io.dstore.values.BooleanValue.Builder getHasNextSiblingBuilder() {
           
@@ -7771,7 +7771,7 @@ public final class StGetDirectSuccessorsTreeAd {
          * Gibt es ein nächstes "Geschwister-Element", also ein anderes Element des Artikelbaums, das ebenfalls "Predecessor" als Vorgänger hat und dessen "SortNo" um 1 niedriger ist als die "SortNo" von "TreeNodeID" ?
          * </pre>
          *
-         * <code>optional .dstore.values.BooleanValue has_next_sibling = 10011;</code>
+         * <code>.dstore.values.BooleanValue has_next_sibling = 10011;</code>
          */
         public io.dstore.values.BooleanValueOrBuilder getHasNextSiblingOrBuilder() {
           if (hasNextSiblingBuilder_ != null) {
@@ -7786,7 +7786,7 @@ public final class StGetDirectSuccessorsTreeAd {
          * Gibt es ein nächstes "Geschwister-Element", also ein anderes Element des Artikelbaums, das ebenfalls "Predecessor" als Vorgänger hat und dessen "SortNo" um 1 niedriger ist als die "SortNo" von "TreeNodeID" ?
          * </pre>
          *
-         * <code>optional .dstore.values.BooleanValue has_next_sibling = 10011;</code>
+         * <code>.dstore.values.BooleanValue has_next_sibling = 10011;</code>
          */
         private com.google.protobuf.SingleFieldBuilderV3<
             io.dstore.values.BooleanValue, io.dstore.values.BooleanValue.Builder, io.dstore.values.BooleanValueOrBuilder> 
@@ -7810,7 +7810,7 @@ public final class StGetDirectSuccessorsTreeAd {
          * Wert zur Basis-Kenzahl "&#64;BasicCharacteristicNo1" zum Element "HTreeNodeID"
          * </pre>
          *
-         * <code>optional .dstore.values.DecimalValue total_value_basic_charac_no1 = 10012;</code>
+         * <code>.dstore.values.DecimalValue total_value_basic_charac_no1 = 10012;</code>
          */
         public boolean hasTotalValueBasicCharacNo1() {
           return totalValueBasicCharacNo1Builder_ != null || totalValueBasicCharacNo1_ != null;
@@ -7820,7 +7820,7 @@ public final class StGetDirectSuccessorsTreeAd {
          * Wert zur Basis-Kenzahl "&#64;BasicCharacteristicNo1" zum Element "HTreeNodeID"
          * </pre>
          *
-         * <code>optional .dstore.values.DecimalValue total_value_basic_charac_no1 = 10012;</code>
+         * <code>.dstore.values.DecimalValue total_value_basic_charac_no1 = 10012;</code>
          */
         public io.dstore.values.DecimalValue getTotalValueBasicCharacNo1() {
           if (totalValueBasicCharacNo1Builder_ == null) {
@@ -7834,7 +7834,7 @@ public final class StGetDirectSuccessorsTreeAd {
          * Wert zur Basis-Kenzahl "&#64;BasicCharacteristicNo1" zum Element "HTreeNodeID"
          * </pre>
          *
-         * <code>optional .dstore.values.DecimalValue total_value_basic_charac_no1 = 10012;</code>
+         * <code>.dstore.values.DecimalValue total_value_basic_charac_no1 = 10012;</code>
          */
         public Builder setTotalValueBasicCharacNo1(io.dstore.values.DecimalValue value) {
           if (totalValueBasicCharacNo1Builder_ == null) {
@@ -7854,7 +7854,7 @@ public final class StGetDirectSuccessorsTreeAd {
          * Wert zur Basis-Kenzahl "&#64;BasicCharacteristicNo1" zum Element "HTreeNodeID"
          * </pre>
          *
-         * <code>optional .dstore.values.DecimalValue total_value_basic_charac_no1 = 10012;</code>
+         * <code>.dstore.values.DecimalValue total_value_basic_charac_no1 = 10012;</code>
          */
         public Builder setTotalValueBasicCharacNo1(
             io.dstore.values.DecimalValue.Builder builderForValue) {
@@ -7872,7 +7872,7 @@ public final class StGetDirectSuccessorsTreeAd {
          * Wert zur Basis-Kenzahl "&#64;BasicCharacteristicNo1" zum Element "HTreeNodeID"
          * </pre>
          *
-         * <code>optional .dstore.values.DecimalValue total_value_basic_charac_no1 = 10012;</code>
+         * <code>.dstore.values.DecimalValue total_value_basic_charac_no1 = 10012;</code>
          */
         public Builder mergeTotalValueBasicCharacNo1(io.dstore.values.DecimalValue value) {
           if (totalValueBasicCharacNo1Builder_ == null) {
@@ -7894,7 +7894,7 @@ public final class StGetDirectSuccessorsTreeAd {
          * Wert zur Basis-Kenzahl "&#64;BasicCharacteristicNo1" zum Element "HTreeNodeID"
          * </pre>
          *
-         * <code>optional .dstore.values.DecimalValue total_value_basic_charac_no1 = 10012;</code>
+         * <code>.dstore.values.DecimalValue total_value_basic_charac_no1 = 10012;</code>
          */
         public Builder clearTotalValueBasicCharacNo1() {
           if (totalValueBasicCharacNo1Builder_ == null) {
@@ -7912,7 +7912,7 @@ public final class StGetDirectSuccessorsTreeAd {
          * Wert zur Basis-Kenzahl "&#64;BasicCharacteristicNo1" zum Element "HTreeNodeID"
          * </pre>
          *
-         * <code>optional .dstore.values.DecimalValue total_value_basic_charac_no1 = 10012;</code>
+         * <code>.dstore.values.DecimalValue total_value_basic_charac_no1 = 10012;</code>
          */
         public io.dstore.values.DecimalValue.Builder getTotalValueBasicCharacNo1Builder() {
           
@@ -7924,7 +7924,7 @@ public final class StGetDirectSuccessorsTreeAd {
          * Wert zur Basis-Kenzahl "&#64;BasicCharacteristicNo1" zum Element "HTreeNodeID"
          * </pre>
          *
-         * <code>optional .dstore.values.DecimalValue total_value_basic_charac_no1 = 10012;</code>
+         * <code>.dstore.values.DecimalValue total_value_basic_charac_no1 = 10012;</code>
          */
         public io.dstore.values.DecimalValueOrBuilder getTotalValueBasicCharacNo1OrBuilder() {
           if (totalValueBasicCharacNo1Builder_ != null) {
@@ -7939,7 +7939,7 @@ public final class StGetDirectSuccessorsTreeAd {
          * Wert zur Basis-Kenzahl "&#64;BasicCharacteristicNo1" zum Element "HTreeNodeID"
          * </pre>
          *
-         * <code>optional .dstore.values.DecimalValue total_value_basic_charac_no1 = 10012;</code>
+         * <code>.dstore.values.DecimalValue total_value_basic_charac_no1 = 10012;</code>
          */
         private com.google.protobuf.SingleFieldBuilderV3<
             io.dstore.values.DecimalValue, io.dstore.values.DecimalValue.Builder, io.dstore.values.DecimalValueOrBuilder> 
@@ -7963,7 +7963,7 @@ public final class StGetDirectSuccessorsTreeAd {
          * ID des zur "TreeNodeID" zugehörigen Elementes aus "HistoryTreeView" (in dieser ist die Historie des gesamten Artikelbaums abgebildet), das im Zeitraum "FromDate" bis "ToDate" gültig ist/war
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue h_tree_node_id = 10013;</code>
+         * <code>.dstore.values.IntegerValue h_tree_node_id = 10013;</code>
          */
         public boolean hasHTreeNodeId() {
           return hTreeNodeIdBuilder_ != null || hTreeNodeId_ != null;
@@ -7973,7 +7973,7 @@ public final class StGetDirectSuccessorsTreeAd {
          * ID des zur "TreeNodeID" zugehörigen Elementes aus "HistoryTreeView" (in dieser ist die Historie des gesamten Artikelbaums abgebildet), das im Zeitraum "FromDate" bis "ToDate" gültig ist/war
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue h_tree_node_id = 10013;</code>
+         * <code>.dstore.values.IntegerValue h_tree_node_id = 10013;</code>
          */
         public io.dstore.values.IntegerValue getHTreeNodeId() {
           if (hTreeNodeIdBuilder_ == null) {
@@ -7987,7 +7987,7 @@ public final class StGetDirectSuccessorsTreeAd {
          * ID des zur "TreeNodeID" zugehörigen Elementes aus "HistoryTreeView" (in dieser ist die Historie des gesamten Artikelbaums abgebildet), das im Zeitraum "FromDate" bis "ToDate" gültig ist/war
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue h_tree_node_id = 10013;</code>
+         * <code>.dstore.values.IntegerValue h_tree_node_id = 10013;</code>
          */
         public Builder setHTreeNodeId(io.dstore.values.IntegerValue value) {
           if (hTreeNodeIdBuilder_ == null) {
@@ -8007,7 +8007,7 @@ public final class StGetDirectSuccessorsTreeAd {
          * ID des zur "TreeNodeID" zugehörigen Elementes aus "HistoryTreeView" (in dieser ist die Historie des gesamten Artikelbaums abgebildet), das im Zeitraum "FromDate" bis "ToDate" gültig ist/war
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue h_tree_node_id = 10013;</code>
+         * <code>.dstore.values.IntegerValue h_tree_node_id = 10013;</code>
          */
         public Builder setHTreeNodeId(
             io.dstore.values.IntegerValue.Builder builderForValue) {
@@ -8025,7 +8025,7 @@ public final class StGetDirectSuccessorsTreeAd {
          * ID des zur "TreeNodeID" zugehörigen Elementes aus "HistoryTreeView" (in dieser ist die Historie des gesamten Artikelbaums abgebildet), das im Zeitraum "FromDate" bis "ToDate" gültig ist/war
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue h_tree_node_id = 10013;</code>
+         * <code>.dstore.values.IntegerValue h_tree_node_id = 10013;</code>
          */
         public Builder mergeHTreeNodeId(io.dstore.values.IntegerValue value) {
           if (hTreeNodeIdBuilder_ == null) {
@@ -8047,7 +8047,7 @@ public final class StGetDirectSuccessorsTreeAd {
          * ID des zur "TreeNodeID" zugehörigen Elementes aus "HistoryTreeView" (in dieser ist die Historie des gesamten Artikelbaums abgebildet), das im Zeitraum "FromDate" bis "ToDate" gültig ist/war
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue h_tree_node_id = 10013;</code>
+         * <code>.dstore.values.IntegerValue h_tree_node_id = 10013;</code>
          */
         public Builder clearHTreeNodeId() {
           if (hTreeNodeIdBuilder_ == null) {
@@ -8065,7 +8065,7 @@ public final class StGetDirectSuccessorsTreeAd {
          * ID des zur "TreeNodeID" zugehörigen Elementes aus "HistoryTreeView" (in dieser ist die Historie des gesamten Artikelbaums abgebildet), das im Zeitraum "FromDate" bis "ToDate" gültig ist/war
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue h_tree_node_id = 10013;</code>
+         * <code>.dstore.values.IntegerValue h_tree_node_id = 10013;</code>
          */
         public io.dstore.values.IntegerValue.Builder getHTreeNodeIdBuilder() {
           
@@ -8077,7 +8077,7 @@ public final class StGetDirectSuccessorsTreeAd {
          * ID des zur "TreeNodeID" zugehörigen Elementes aus "HistoryTreeView" (in dieser ist die Historie des gesamten Artikelbaums abgebildet), das im Zeitraum "FromDate" bis "ToDate" gültig ist/war
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue h_tree_node_id = 10013;</code>
+         * <code>.dstore.values.IntegerValue h_tree_node_id = 10013;</code>
          */
         public io.dstore.values.IntegerValueOrBuilder getHTreeNodeIdOrBuilder() {
           if (hTreeNodeIdBuilder_ != null) {
@@ -8092,7 +8092,7 @@ public final class StGetDirectSuccessorsTreeAd {
          * ID des zur "TreeNodeID" zugehörigen Elementes aus "HistoryTreeView" (in dieser ist die Historie des gesamten Artikelbaums abgebildet), das im Zeitraum "FromDate" bis "ToDate" gültig ist/war
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue h_tree_node_id = 10013;</code>
+         * <code>.dstore.values.IntegerValue h_tree_node_id = 10013;</code>
          */
         private com.google.protobuf.SingleFieldBuilderV3<
             io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> 
@@ -8116,7 +8116,7 @@ public final class StGetDirectSuccessorsTreeAd {
          * Wert zur Basis-Kenzahl "&#64;BasicCharacteristicNo2" zum Element "HTreeNodeID". Falls "&#64;BasicCharacteristicNo2 = NULL" angegeben wurde, steht hier immer "0.00".
          * </pre>
          *
-         * <code>optional .dstore.values.DecimalValue total_value_basic_charac_no2 = 10014;</code>
+         * <code>.dstore.values.DecimalValue total_value_basic_charac_no2 = 10014;</code>
          */
         public boolean hasTotalValueBasicCharacNo2() {
           return totalValueBasicCharacNo2Builder_ != null || totalValueBasicCharacNo2_ != null;
@@ -8126,7 +8126,7 @@ public final class StGetDirectSuccessorsTreeAd {
          * Wert zur Basis-Kenzahl "&#64;BasicCharacteristicNo2" zum Element "HTreeNodeID". Falls "&#64;BasicCharacteristicNo2 = NULL" angegeben wurde, steht hier immer "0.00".
          * </pre>
          *
-         * <code>optional .dstore.values.DecimalValue total_value_basic_charac_no2 = 10014;</code>
+         * <code>.dstore.values.DecimalValue total_value_basic_charac_no2 = 10014;</code>
          */
         public io.dstore.values.DecimalValue getTotalValueBasicCharacNo2() {
           if (totalValueBasicCharacNo2Builder_ == null) {
@@ -8140,7 +8140,7 @@ public final class StGetDirectSuccessorsTreeAd {
          * Wert zur Basis-Kenzahl "&#64;BasicCharacteristicNo2" zum Element "HTreeNodeID". Falls "&#64;BasicCharacteristicNo2 = NULL" angegeben wurde, steht hier immer "0.00".
          * </pre>
          *
-         * <code>optional .dstore.values.DecimalValue total_value_basic_charac_no2 = 10014;</code>
+         * <code>.dstore.values.DecimalValue total_value_basic_charac_no2 = 10014;</code>
          */
         public Builder setTotalValueBasicCharacNo2(io.dstore.values.DecimalValue value) {
           if (totalValueBasicCharacNo2Builder_ == null) {
@@ -8160,7 +8160,7 @@ public final class StGetDirectSuccessorsTreeAd {
          * Wert zur Basis-Kenzahl "&#64;BasicCharacteristicNo2" zum Element "HTreeNodeID". Falls "&#64;BasicCharacteristicNo2 = NULL" angegeben wurde, steht hier immer "0.00".
          * </pre>
          *
-         * <code>optional .dstore.values.DecimalValue total_value_basic_charac_no2 = 10014;</code>
+         * <code>.dstore.values.DecimalValue total_value_basic_charac_no2 = 10014;</code>
          */
         public Builder setTotalValueBasicCharacNo2(
             io.dstore.values.DecimalValue.Builder builderForValue) {
@@ -8178,7 +8178,7 @@ public final class StGetDirectSuccessorsTreeAd {
          * Wert zur Basis-Kenzahl "&#64;BasicCharacteristicNo2" zum Element "HTreeNodeID". Falls "&#64;BasicCharacteristicNo2 = NULL" angegeben wurde, steht hier immer "0.00".
          * </pre>
          *
-         * <code>optional .dstore.values.DecimalValue total_value_basic_charac_no2 = 10014;</code>
+         * <code>.dstore.values.DecimalValue total_value_basic_charac_no2 = 10014;</code>
          */
         public Builder mergeTotalValueBasicCharacNo2(io.dstore.values.DecimalValue value) {
           if (totalValueBasicCharacNo2Builder_ == null) {
@@ -8200,7 +8200,7 @@ public final class StGetDirectSuccessorsTreeAd {
          * Wert zur Basis-Kenzahl "&#64;BasicCharacteristicNo2" zum Element "HTreeNodeID". Falls "&#64;BasicCharacteristicNo2 = NULL" angegeben wurde, steht hier immer "0.00".
          * </pre>
          *
-         * <code>optional .dstore.values.DecimalValue total_value_basic_charac_no2 = 10014;</code>
+         * <code>.dstore.values.DecimalValue total_value_basic_charac_no2 = 10014;</code>
          */
         public Builder clearTotalValueBasicCharacNo2() {
           if (totalValueBasicCharacNo2Builder_ == null) {
@@ -8218,7 +8218,7 @@ public final class StGetDirectSuccessorsTreeAd {
          * Wert zur Basis-Kenzahl "&#64;BasicCharacteristicNo2" zum Element "HTreeNodeID". Falls "&#64;BasicCharacteristicNo2 = NULL" angegeben wurde, steht hier immer "0.00".
          * </pre>
          *
-         * <code>optional .dstore.values.DecimalValue total_value_basic_charac_no2 = 10014;</code>
+         * <code>.dstore.values.DecimalValue total_value_basic_charac_no2 = 10014;</code>
          */
         public io.dstore.values.DecimalValue.Builder getTotalValueBasicCharacNo2Builder() {
           
@@ -8230,7 +8230,7 @@ public final class StGetDirectSuccessorsTreeAd {
          * Wert zur Basis-Kenzahl "&#64;BasicCharacteristicNo2" zum Element "HTreeNodeID". Falls "&#64;BasicCharacteristicNo2 = NULL" angegeben wurde, steht hier immer "0.00".
          * </pre>
          *
-         * <code>optional .dstore.values.DecimalValue total_value_basic_charac_no2 = 10014;</code>
+         * <code>.dstore.values.DecimalValue total_value_basic_charac_no2 = 10014;</code>
          */
         public io.dstore.values.DecimalValueOrBuilder getTotalValueBasicCharacNo2OrBuilder() {
           if (totalValueBasicCharacNo2Builder_ != null) {
@@ -8245,7 +8245,7 @@ public final class StGetDirectSuccessorsTreeAd {
          * Wert zur Basis-Kenzahl "&#64;BasicCharacteristicNo2" zum Element "HTreeNodeID". Falls "&#64;BasicCharacteristicNo2 = NULL" angegeben wurde, steht hier immer "0.00".
          * </pre>
          *
-         * <code>optional .dstore.values.DecimalValue total_value_basic_charac_no2 = 10014;</code>
+         * <code>.dstore.values.DecimalValue total_value_basic_charac_no2 = 10014;</code>
          */
         private com.google.protobuf.SingleFieldBuilderV3<
             io.dstore.values.DecimalValue, io.dstore.values.DecimalValue.Builder, io.dstore.values.DecimalValueOrBuilder> 
@@ -8269,7 +8269,7 @@ public final class StGetDirectSuccessorsTreeAd {
          * Wert zur Basis-Kenzahl "&#64;BasicCharacteristicNo3" zum Element "HTreeNodeID". Falls "&#64;BasicCharacteristicNo2 = NULL" oder "&#64;BasciCharacteristicNo3 = NULL" angegeben wurde, steht hier immer "0.00".
          * </pre>
          *
-         * <code>optional .dstore.values.DecimalValue total_value_basic_charac_no3 = 10015;</code>
+         * <code>.dstore.values.DecimalValue total_value_basic_charac_no3 = 10015;</code>
          */
         public boolean hasTotalValueBasicCharacNo3() {
           return totalValueBasicCharacNo3Builder_ != null || totalValueBasicCharacNo3_ != null;
@@ -8279,7 +8279,7 @@ public final class StGetDirectSuccessorsTreeAd {
          * Wert zur Basis-Kenzahl "&#64;BasicCharacteristicNo3" zum Element "HTreeNodeID". Falls "&#64;BasicCharacteristicNo2 = NULL" oder "&#64;BasciCharacteristicNo3 = NULL" angegeben wurde, steht hier immer "0.00".
          * </pre>
          *
-         * <code>optional .dstore.values.DecimalValue total_value_basic_charac_no3 = 10015;</code>
+         * <code>.dstore.values.DecimalValue total_value_basic_charac_no3 = 10015;</code>
          */
         public io.dstore.values.DecimalValue getTotalValueBasicCharacNo3() {
           if (totalValueBasicCharacNo3Builder_ == null) {
@@ -8293,7 +8293,7 @@ public final class StGetDirectSuccessorsTreeAd {
          * Wert zur Basis-Kenzahl "&#64;BasicCharacteristicNo3" zum Element "HTreeNodeID". Falls "&#64;BasicCharacteristicNo2 = NULL" oder "&#64;BasciCharacteristicNo3 = NULL" angegeben wurde, steht hier immer "0.00".
          * </pre>
          *
-         * <code>optional .dstore.values.DecimalValue total_value_basic_charac_no3 = 10015;</code>
+         * <code>.dstore.values.DecimalValue total_value_basic_charac_no3 = 10015;</code>
          */
         public Builder setTotalValueBasicCharacNo3(io.dstore.values.DecimalValue value) {
           if (totalValueBasicCharacNo3Builder_ == null) {
@@ -8313,7 +8313,7 @@ public final class StGetDirectSuccessorsTreeAd {
          * Wert zur Basis-Kenzahl "&#64;BasicCharacteristicNo3" zum Element "HTreeNodeID". Falls "&#64;BasicCharacteristicNo2 = NULL" oder "&#64;BasciCharacteristicNo3 = NULL" angegeben wurde, steht hier immer "0.00".
          * </pre>
          *
-         * <code>optional .dstore.values.DecimalValue total_value_basic_charac_no3 = 10015;</code>
+         * <code>.dstore.values.DecimalValue total_value_basic_charac_no3 = 10015;</code>
          */
         public Builder setTotalValueBasicCharacNo3(
             io.dstore.values.DecimalValue.Builder builderForValue) {
@@ -8331,7 +8331,7 @@ public final class StGetDirectSuccessorsTreeAd {
          * Wert zur Basis-Kenzahl "&#64;BasicCharacteristicNo3" zum Element "HTreeNodeID". Falls "&#64;BasicCharacteristicNo2 = NULL" oder "&#64;BasciCharacteristicNo3 = NULL" angegeben wurde, steht hier immer "0.00".
          * </pre>
          *
-         * <code>optional .dstore.values.DecimalValue total_value_basic_charac_no3 = 10015;</code>
+         * <code>.dstore.values.DecimalValue total_value_basic_charac_no3 = 10015;</code>
          */
         public Builder mergeTotalValueBasicCharacNo3(io.dstore.values.DecimalValue value) {
           if (totalValueBasicCharacNo3Builder_ == null) {
@@ -8353,7 +8353,7 @@ public final class StGetDirectSuccessorsTreeAd {
          * Wert zur Basis-Kenzahl "&#64;BasicCharacteristicNo3" zum Element "HTreeNodeID". Falls "&#64;BasicCharacteristicNo2 = NULL" oder "&#64;BasciCharacteristicNo3 = NULL" angegeben wurde, steht hier immer "0.00".
          * </pre>
          *
-         * <code>optional .dstore.values.DecimalValue total_value_basic_charac_no3 = 10015;</code>
+         * <code>.dstore.values.DecimalValue total_value_basic_charac_no3 = 10015;</code>
          */
         public Builder clearTotalValueBasicCharacNo3() {
           if (totalValueBasicCharacNo3Builder_ == null) {
@@ -8371,7 +8371,7 @@ public final class StGetDirectSuccessorsTreeAd {
          * Wert zur Basis-Kenzahl "&#64;BasicCharacteristicNo3" zum Element "HTreeNodeID". Falls "&#64;BasicCharacteristicNo2 = NULL" oder "&#64;BasciCharacteristicNo3 = NULL" angegeben wurde, steht hier immer "0.00".
          * </pre>
          *
-         * <code>optional .dstore.values.DecimalValue total_value_basic_charac_no3 = 10015;</code>
+         * <code>.dstore.values.DecimalValue total_value_basic_charac_no3 = 10015;</code>
          */
         public io.dstore.values.DecimalValue.Builder getTotalValueBasicCharacNo3Builder() {
           
@@ -8383,7 +8383,7 @@ public final class StGetDirectSuccessorsTreeAd {
          * Wert zur Basis-Kenzahl "&#64;BasicCharacteristicNo3" zum Element "HTreeNodeID". Falls "&#64;BasicCharacteristicNo2 = NULL" oder "&#64;BasciCharacteristicNo3 = NULL" angegeben wurde, steht hier immer "0.00".
          * </pre>
          *
-         * <code>optional .dstore.values.DecimalValue total_value_basic_charac_no3 = 10015;</code>
+         * <code>.dstore.values.DecimalValue total_value_basic_charac_no3 = 10015;</code>
          */
         public io.dstore.values.DecimalValueOrBuilder getTotalValueBasicCharacNo3OrBuilder() {
           if (totalValueBasicCharacNo3Builder_ != null) {
@@ -8398,7 +8398,7 @@ public final class StGetDirectSuccessorsTreeAd {
          * Wert zur Basis-Kenzahl "&#64;BasicCharacteristicNo3" zum Element "HTreeNodeID". Falls "&#64;BasicCharacteristicNo2 = NULL" oder "&#64;BasciCharacteristicNo3 = NULL" angegeben wurde, steht hier immer "0.00".
          * </pre>
          *
-         * <code>optional .dstore.values.DecimalValue total_value_basic_charac_no3 = 10015;</code>
+         * <code>.dstore.values.DecimalValue total_value_basic_charac_no3 = 10015;</code>
          */
         private com.google.protobuf.SingleFieldBuilderV3<
             io.dstore.values.DecimalValue, io.dstore.values.DecimalValue.Builder, io.dstore.values.DecimalValueOrBuilder> 
@@ -8422,7 +8422,7 @@ public final class StGetDirectSuccessorsTreeAd {
          * Das Maximum aller Werte für "RelativeValue_BasicCharacNo1", "RelativeValue_BasicCharacNo2", "RelativeValue_BasicCharacNo3" und "RelativeValue_Index" von Elementen, die als Vorgänger ebenfalls "Predecessor" besitzen (siehe Beschreibung)
          * </pre>
          *
-         * <code>optional .dstore.values.DecimalValue max_relative_value_per_predecessor = 10016;</code>
+         * <code>.dstore.values.DecimalValue max_relative_value_per_predecessor = 10016;</code>
          */
         public boolean hasMaxRelativeValuePerPredecessor() {
           return maxRelativeValuePerPredecessorBuilder_ != null || maxRelativeValuePerPredecessor_ != null;
@@ -8432,7 +8432,7 @@ public final class StGetDirectSuccessorsTreeAd {
          * Das Maximum aller Werte für "RelativeValue_BasicCharacNo1", "RelativeValue_BasicCharacNo2", "RelativeValue_BasicCharacNo3" und "RelativeValue_Index" von Elementen, die als Vorgänger ebenfalls "Predecessor" besitzen (siehe Beschreibung)
          * </pre>
          *
-         * <code>optional .dstore.values.DecimalValue max_relative_value_per_predecessor = 10016;</code>
+         * <code>.dstore.values.DecimalValue max_relative_value_per_predecessor = 10016;</code>
          */
         public io.dstore.values.DecimalValue getMaxRelativeValuePerPredecessor() {
           if (maxRelativeValuePerPredecessorBuilder_ == null) {
@@ -8446,7 +8446,7 @@ public final class StGetDirectSuccessorsTreeAd {
          * Das Maximum aller Werte für "RelativeValue_BasicCharacNo1", "RelativeValue_BasicCharacNo2", "RelativeValue_BasicCharacNo3" und "RelativeValue_Index" von Elementen, die als Vorgänger ebenfalls "Predecessor" besitzen (siehe Beschreibung)
          * </pre>
          *
-         * <code>optional .dstore.values.DecimalValue max_relative_value_per_predecessor = 10016;</code>
+         * <code>.dstore.values.DecimalValue max_relative_value_per_predecessor = 10016;</code>
          */
         public Builder setMaxRelativeValuePerPredecessor(io.dstore.values.DecimalValue value) {
           if (maxRelativeValuePerPredecessorBuilder_ == null) {
@@ -8466,7 +8466,7 @@ public final class StGetDirectSuccessorsTreeAd {
          * Das Maximum aller Werte für "RelativeValue_BasicCharacNo1", "RelativeValue_BasicCharacNo2", "RelativeValue_BasicCharacNo3" und "RelativeValue_Index" von Elementen, die als Vorgänger ebenfalls "Predecessor" besitzen (siehe Beschreibung)
          * </pre>
          *
-         * <code>optional .dstore.values.DecimalValue max_relative_value_per_predecessor = 10016;</code>
+         * <code>.dstore.values.DecimalValue max_relative_value_per_predecessor = 10016;</code>
          */
         public Builder setMaxRelativeValuePerPredecessor(
             io.dstore.values.DecimalValue.Builder builderForValue) {
@@ -8484,7 +8484,7 @@ public final class StGetDirectSuccessorsTreeAd {
          * Das Maximum aller Werte für "RelativeValue_BasicCharacNo1", "RelativeValue_BasicCharacNo2", "RelativeValue_BasicCharacNo3" und "RelativeValue_Index" von Elementen, die als Vorgänger ebenfalls "Predecessor" besitzen (siehe Beschreibung)
          * </pre>
          *
-         * <code>optional .dstore.values.DecimalValue max_relative_value_per_predecessor = 10016;</code>
+         * <code>.dstore.values.DecimalValue max_relative_value_per_predecessor = 10016;</code>
          */
         public Builder mergeMaxRelativeValuePerPredecessor(io.dstore.values.DecimalValue value) {
           if (maxRelativeValuePerPredecessorBuilder_ == null) {
@@ -8506,7 +8506,7 @@ public final class StGetDirectSuccessorsTreeAd {
          * Das Maximum aller Werte für "RelativeValue_BasicCharacNo1", "RelativeValue_BasicCharacNo2", "RelativeValue_BasicCharacNo3" und "RelativeValue_Index" von Elementen, die als Vorgänger ebenfalls "Predecessor" besitzen (siehe Beschreibung)
          * </pre>
          *
-         * <code>optional .dstore.values.DecimalValue max_relative_value_per_predecessor = 10016;</code>
+         * <code>.dstore.values.DecimalValue max_relative_value_per_predecessor = 10016;</code>
          */
         public Builder clearMaxRelativeValuePerPredecessor() {
           if (maxRelativeValuePerPredecessorBuilder_ == null) {
@@ -8524,7 +8524,7 @@ public final class StGetDirectSuccessorsTreeAd {
          * Das Maximum aller Werte für "RelativeValue_BasicCharacNo1", "RelativeValue_BasicCharacNo2", "RelativeValue_BasicCharacNo3" und "RelativeValue_Index" von Elementen, die als Vorgänger ebenfalls "Predecessor" besitzen (siehe Beschreibung)
          * </pre>
          *
-         * <code>optional .dstore.values.DecimalValue max_relative_value_per_predecessor = 10016;</code>
+         * <code>.dstore.values.DecimalValue max_relative_value_per_predecessor = 10016;</code>
          */
         public io.dstore.values.DecimalValue.Builder getMaxRelativeValuePerPredecessorBuilder() {
           
@@ -8536,7 +8536,7 @@ public final class StGetDirectSuccessorsTreeAd {
          * Das Maximum aller Werte für "RelativeValue_BasicCharacNo1", "RelativeValue_BasicCharacNo2", "RelativeValue_BasicCharacNo3" und "RelativeValue_Index" von Elementen, die als Vorgänger ebenfalls "Predecessor" besitzen (siehe Beschreibung)
          * </pre>
          *
-         * <code>optional .dstore.values.DecimalValue max_relative_value_per_predecessor = 10016;</code>
+         * <code>.dstore.values.DecimalValue max_relative_value_per_predecessor = 10016;</code>
          */
         public io.dstore.values.DecimalValueOrBuilder getMaxRelativeValuePerPredecessorOrBuilder() {
           if (maxRelativeValuePerPredecessorBuilder_ != null) {
@@ -8551,7 +8551,7 @@ public final class StGetDirectSuccessorsTreeAd {
          * Das Maximum aller Werte für "RelativeValue_BasicCharacNo1", "RelativeValue_BasicCharacNo2", "RelativeValue_BasicCharacNo3" und "RelativeValue_Index" von Elementen, die als Vorgänger ebenfalls "Predecessor" besitzen (siehe Beschreibung)
          * </pre>
          *
-         * <code>optional .dstore.values.DecimalValue max_relative_value_per_predecessor = 10016;</code>
+         * <code>.dstore.values.DecimalValue max_relative_value_per_predecessor = 10016;</code>
          */
         private com.google.protobuf.SingleFieldBuilderV3<
             io.dstore.values.DecimalValue, io.dstore.values.DecimalValue.Builder, io.dstore.values.DecimalValueOrBuilder> 
@@ -8575,7 +8575,7 @@ public final class StGetDirectSuccessorsTreeAd {
          * ID eines Elementes im Artikelbaum
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue tree_node_id = 10017;</code>
+         * <code>.dstore.values.IntegerValue tree_node_id = 10017;</code>
          */
         public boolean hasTreeNodeId() {
           return treeNodeIdBuilder_ != null || treeNodeId_ != null;
@@ -8585,7 +8585,7 @@ public final class StGetDirectSuccessorsTreeAd {
          * ID eines Elementes im Artikelbaum
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue tree_node_id = 10017;</code>
+         * <code>.dstore.values.IntegerValue tree_node_id = 10017;</code>
          */
         public io.dstore.values.IntegerValue getTreeNodeId() {
           if (treeNodeIdBuilder_ == null) {
@@ -8599,7 +8599,7 @@ public final class StGetDirectSuccessorsTreeAd {
          * ID eines Elementes im Artikelbaum
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue tree_node_id = 10017;</code>
+         * <code>.dstore.values.IntegerValue tree_node_id = 10017;</code>
          */
         public Builder setTreeNodeId(io.dstore.values.IntegerValue value) {
           if (treeNodeIdBuilder_ == null) {
@@ -8619,7 +8619,7 @@ public final class StGetDirectSuccessorsTreeAd {
          * ID eines Elementes im Artikelbaum
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue tree_node_id = 10017;</code>
+         * <code>.dstore.values.IntegerValue tree_node_id = 10017;</code>
          */
         public Builder setTreeNodeId(
             io.dstore.values.IntegerValue.Builder builderForValue) {
@@ -8637,7 +8637,7 @@ public final class StGetDirectSuccessorsTreeAd {
          * ID eines Elementes im Artikelbaum
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue tree_node_id = 10017;</code>
+         * <code>.dstore.values.IntegerValue tree_node_id = 10017;</code>
          */
         public Builder mergeTreeNodeId(io.dstore.values.IntegerValue value) {
           if (treeNodeIdBuilder_ == null) {
@@ -8659,7 +8659,7 @@ public final class StGetDirectSuccessorsTreeAd {
          * ID eines Elementes im Artikelbaum
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue tree_node_id = 10017;</code>
+         * <code>.dstore.values.IntegerValue tree_node_id = 10017;</code>
          */
         public Builder clearTreeNodeId() {
           if (treeNodeIdBuilder_ == null) {
@@ -8677,7 +8677,7 @@ public final class StGetDirectSuccessorsTreeAd {
          * ID eines Elementes im Artikelbaum
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue tree_node_id = 10017;</code>
+         * <code>.dstore.values.IntegerValue tree_node_id = 10017;</code>
          */
         public io.dstore.values.IntegerValue.Builder getTreeNodeIdBuilder() {
           
@@ -8689,7 +8689,7 @@ public final class StGetDirectSuccessorsTreeAd {
          * ID eines Elementes im Artikelbaum
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue tree_node_id = 10017;</code>
+         * <code>.dstore.values.IntegerValue tree_node_id = 10017;</code>
          */
         public io.dstore.values.IntegerValueOrBuilder getTreeNodeIdOrBuilder() {
           if (treeNodeIdBuilder_ != null) {
@@ -8704,7 +8704,7 @@ public final class StGetDirectSuccessorsTreeAd {
          * ID eines Elementes im Artikelbaum
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue tree_node_id = 10017;</code>
+         * <code>.dstore.values.IntegerValue tree_node_id = 10017;</code>
          */
         private com.google.protobuf.SingleFieldBuilderV3<
             io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> 
@@ -8728,7 +8728,7 @@ public final class StGetDirectSuccessorsTreeAd {
          * ID des zur "TreeNodeID" gehörenden Artikel-Elementes
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue node_id = 10018;</code>
+         * <code>.dstore.values.IntegerValue node_id = 10018;</code>
          */
         public boolean hasNodeId() {
           return nodeIdBuilder_ != null || nodeId_ != null;
@@ -8738,7 +8738,7 @@ public final class StGetDirectSuccessorsTreeAd {
          * ID des zur "TreeNodeID" gehörenden Artikel-Elementes
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue node_id = 10018;</code>
+         * <code>.dstore.values.IntegerValue node_id = 10018;</code>
          */
         public io.dstore.values.IntegerValue getNodeId() {
           if (nodeIdBuilder_ == null) {
@@ -8752,7 +8752,7 @@ public final class StGetDirectSuccessorsTreeAd {
          * ID des zur "TreeNodeID" gehörenden Artikel-Elementes
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue node_id = 10018;</code>
+         * <code>.dstore.values.IntegerValue node_id = 10018;</code>
          */
         public Builder setNodeId(io.dstore.values.IntegerValue value) {
           if (nodeIdBuilder_ == null) {
@@ -8772,7 +8772,7 @@ public final class StGetDirectSuccessorsTreeAd {
          * ID des zur "TreeNodeID" gehörenden Artikel-Elementes
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue node_id = 10018;</code>
+         * <code>.dstore.values.IntegerValue node_id = 10018;</code>
          */
         public Builder setNodeId(
             io.dstore.values.IntegerValue.Builder builderForValue) {
@@ -8790,7 +8790,7 @@ public final class StGetDirectSuccessorsTreeAd {
          * ID des zur "TreeNodeID" gehörenden Artikel-Elementes
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue node_id = 10018;</code>
+         * <code>.dstore.values.IntegerValue node_id = 10018;</code>
          */
         public Builder mergeNodeId(io.dstore.values.IntegerValue value) {
           if (nodeIdBuilder_ == null) {
@@ -8812,7 +8812,7 @@ public final class StGetDirectSuccessorsTreeAd {
          * ID des zur "TreeNodeID" gehörenden Artikel-Elementes
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue node_id = 10018;</code>
+         * <code>.dstore.values.IntegerValue node_id = 10018;</code>
          */
         public Builder clearNodeId() {
           if (nodeIdBuilder_ == null) {
@@ -8830,7 +8830,7 @@ public final class StGetDirectSuccessorsTreeAd {
          * ID des zur "TreeNodeID" gehörenden Artikel-Elementes
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue node_id = 10018;</code>
+         * <code>.dstore.values.IntegerValue node_id = 10018;</code>
          */
         public io.dstore.values.IntegerValue.Builder getNodeIdBuilder() {
           
@@ -8842,7 +8842,7 @@ public final class StGetDirectSuccessorsTreeAd {
          * ID des zur "TreeNodeID" gehörenden Artikel-Elementes
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue node_id = 10018;</code>
+         * <code>.dstore.values.IntegerValue node_id = 10018;</code>
          */
         public io.dstore.values.IntegerValueOrBuilder getNodeIdOrBuilder() {
           if (nodeIdBuilder_ != null) {
@@ -8857,7 +8857,7 @@ public final class StGetDirectSuccessorsTreeAd {
          * ID des zur "TreeNodeID" gehörenden Artikel-Elementes
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue node_id = 10018;</code>
+         * <code>.dstore.values.IntegerValue node_id = 10018;</code>
          */
         private com.google.protobuf.SingleFieldBuilderV3<
             io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> 
@@ -8881,7 +8881,7 @@ public final class StGetDirectSuccessorsTreeAd {
          * Das Maximum aller Werte für "RelativeValue_Index" von Elementen, die als Vorgänger ebenfalls "Predecessor" besitzen (siehe Beschreibung)
          * </pre>
          *
-         * <code>optional .dstore.values.DecimalValue max_relative_value_index_per_pred = 10019;</code>
+         * <code>.dstore.values.DecimalValue max_relative_value_index_per_pred = 10019;</code>
          */
         public boolean hasMaxRelativeValueIndexPerPred() {
           return maxRelativeValueIndexPerPredBuilder_ != null || maxRelativeValueIndexPerPred_ != null;
@@ -8891,7 +8891,7 @@ public final class StGetDirectSuccessorsTreeAd {
          * Das Maximum aller Werte für "RelativeValue_Index" von Elementen, die als Vorgänger ebenfalls "Predecessor" besitzen (siehe Beschreibung)
          * </pre>
          *
-         * <code>optional .dstore.values.DecimalValue max_relative_value_index_per_pred = 10019;</code>
+         * <code>.dstore.values.DecimalValue max_relative_value_index_per_pred = 10019;</code>
          */
         public io.dstore.values.DecimalValue getMaxRelativeValueIndexPerPred() {
           if (maxRelativeValueIndexPerPredBuilder_ == null) {
@@ -8905,7 +8905,7 @@ public final class StGetDirectSuccessorsTreeAd {
          * Das Maximum aller Werte für "RelativeValue_Index" von Elementen, die als Vorgänger ebenfalls "Predecessor" besitzen (siehe Beschreibung)
          * </pre>
          *
-         * <code>optional .dstore.values.DecimalValue max_relative_value_index_per_pred = 10019;</code>
+         * <code>.dstore.values.DecimalValue max_relative_value_index_per_pred = 10019;</code>
          */
         public Builder setMaxRelativeValueIndexPerPred(io.dstore.values.DecimalValue value) {
           if (maxRelativeValueIndexPerPredBuilder_ == null) {
@@ -8925,7 +8925,7 @@ public final class StGetDirectSuccessorsTreeAd {
          * Das Maximum aller Werte für "RelativeValue_Index" von Elementen, die als Vorgänger ebenfalls "Predecessor" besitzen (siehe Beschreibung)
          * </pre>
          *
-         * <code>optional .dstore.values.DecimalValue max_relative_value_index_per_pred = 10019;</code>
+         * <code>.dstore.values.DecimalValue max_relative_value_index_per_pred = 10019;</code>
          */
         public Builder setMaxRelativeValueIndexPerPred(
             io.dstore.values.DecimalValue.Builder builderForValue) {
@@ -8943,7 +8943,7 @@ public final class StGetDirectSuccessorsTreeAd {
          * Das Maximum aller Werte für "RelativeValue_Index" von Elementen, die als Vorgänger ebenfalls "Predecessor" besitzen (siehe Beschreibung)
          * </pre>
          *
-         * <code>optional .dstore.values.DecimalValue max_relative_value_index_per_pred = 10019;</code>
+         * <code>.dstore.values.DecimalValue max_relative_value_index_per_pred = 10019;</code>
          */
         public Builder mergeMaxRelativeValueIndexPerPred(io.dstore.values.DecimalValue value) {
           if (maxRelativeValueIndexPerPredBuilder_ == null) {
@@ -8965,7 +8965,7 @@ public final class StGetDirectSuccessorsTreeAd {
          * Das Maximum aller Werte für "RelativeValue_Index" von Elementen, die als Vorgänger ebenfalls "Predecessor" besitzen (siehe Beschreibung)
          * </pre>
          *
-         * <code>optional .dstore.values.DecimalValue max_relative_value_index_per_pred = 10019;</code>
+         * <code>.dstore.values.DecimalValue max_relative_value_index_per_pred = 10019;</code>
          */
         public Builder clearMaxRelativeValueIndexPerPred() {
           if (maxRelativeValueIndexPerPredBuilder_ == null) {
@@ -8983,7 +8983,7 @@ public final class StGetDirectSuccessorsTreeAd {
          * Das Maximum aller Werte für "RelativeValue_Index" von Elementen, die als Vorgänger ebenfalls "Predecessor" besitzen (siehe Beschreibung)
          * </pre>
          *
-         * <code>optional .dstore.values.DecimalValue max_relative_value_index_per_pred = 10019;</code>
+         * <code>.dstore.values.DecimalValue max_relative_value_index_per_pred = 10019;</code>
          */
         public io.dstore.values.DecimalValue.Builder getMaxRelativeValueIndexPerPredBuilder() {
           
@@ -8995,7 +8995,7 @@ public final class StGetDirectSuccessorsTreeAd {
          * Das Maximum aller Werte für "RelativeValue_Index" von Elementen, die als Vorgänger ebenfalls "Predecessor" besitzen (siehe Beschreibung)
          * </pre>
          *
-         * <code>optional .dstore.values.DecimalValue max_relative_value_index_per_pred = 10019;</code>
+         * <code>.dstore.values.DecimalValue max_relative_value_index_per_pred = 10019;</code>
          */
         public io.dstore.values.DecimalValueOrBuilder getMaxRelativeValueIndexPerPredOrBuilder() {
           if (maxRelativeValueIndexPerPredBuilder_ != null) {
@@ -9010,7 +9010,7 @@ public final class StGetDirectSuccessorsTreeAd {
          * Das Maximum aller Werte für "RelativeValue_Index" von Elementen, die als Vorgänger ebenfalls "Predecessor" besitzen (siehe Beschreibung)
          * </pre>
          *
-         * <code>optional .dstore.values.DecimalValue max_relative_value_index_per_pred = 10019;</code>
+         * <code>.dstore.values.DecimalValue max_relative_value_index_per_pred = 10019;</code>
          */
         private com.google.protobuf.SingleFieldBuilderV3<
             io.dstore.values.DecimalValue, io.dstore.values.DecimalValue.Builder, io.dstore.values.DecimalValueOrBuilder> 
@@ -9034,7 +9034,7 @@ public final class StGetDirectSuccessorsTreeAd {
          * Beginn des Gültigkeitszeitraums für "HTreeNodeID" als String (Format "12.04.2000 17:44:13")
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue from_date = 10020;</code>
+         * <code>.dstore.values.StringValue from_date = 10020;</code>
          */
         public boolean hasFromDate() {
           return fromDateBuilder_ != null || fromDate_ != null;
@@ -9044,7 +9044,7 @@ public final class StGetDirectSuccessorsTreeAd {
          * Beginn des Gültigkeitszeitraums für "HTreeNodeID" als String (Format "12.04.2000 17:44:13")
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue from_date = 10020;</code>
+         * <code>.dstore.values.StringValue from_date = 10020;</code>
          */
         public io.dstore.values.StringValue getFromDate() {
           if (fromDateBuilder_ == null) {
@@ -9058,7 +9058,7 @@ public final class StGetDirectSuccessorsTreeAd {
          * Beginn des Gültigkeitszeitraums für "HTreeNodeID" als String (Format "12.04.2000 17:44:13")
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue from_date = 10020;</code>
+         * <code>.dstore.values.StringValue from_date = 10020;</code>
          */
         public Builder setFromDate(io.dstore.values.StringValue value) {
           if (fromDateBuilder_ == null) {
@@ -9078,7 +9078,7 @@ public final class StGetDirectSuccessorsTreeAd {
          * Beginn des Gültigkeitszeitraums für "HTreeNodeID" als String (Format "12.04.2000 17:44:13")
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue from_date = 10020;</code>
+         * <code>.dstore.values.StringValue from_date = 10020;</code>
          */
         public Builder setFromDate(
             io.dstore.values.StringValue.Builder builderForValue) {
@@ -9096,7 +9096,7 @@ public final class StGetDirectSuccessorsTreeAd {
          * Beginn des Gültigkeitszeitraums für "HTreeNodeID" als String (Format "12.04.2000 17:44:13")
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue from_date = 10020;</code>
+         * <code>.dstore.values.StringValue from_date = 10020;</code>
          */
         public Builder mergeFromDate(io.dstore.values.StringValue value) {
           if (fromDateBuilder_ == null) {
@@ -9118,7 +9118,7 @@ public final class StGetDirectSuccessorsTreeAd {
          * Beginn des Gültigkeitszeitraums für "HTreeNodeID" als String (Format "12.04.2000 17:44:13")
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue from_date = 10020;</code>
+         * <code>.dstore.values.StringValue from_date = 10020;</code>
          */
         public Builder clearFromDate() {
           if (fromDateBuilder_ == null) {
@@ -9136,7 +9136,7 @@ public final class StGetDirectSuccessorsTreeAd {
          * Beginn des Gültigkeitszeitraums für "HTreeNodeID" als String (Format "12.04.2000 17:44:13")
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue from_date = 10020;</code>
+         * <code>.dstore.values.StringValue from_date = 10020;</code>
          */
         public io.dstore.values.StringValue.Builder getFromDateBuilder() {
           
@@ -9148,7 +9148,7 @@ public final class StGetDirectSuccessorsTreeAd {
          * Beginn des Gültigkeitszeitraums für "HTreeNodeID" als String (Format "12.04.2000 17:44:13")
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue from_date = 10020;</code>
+         * <code>.dstore.values.StringValue from_date = 10020;</code>
          */
         public io.dstore.values.StringValueOrBuilder getFromDateOrBuilder() {
           if (fromDateBuilder_ != null) {
@@ -9163,7 +9163,7 @@ public final class StGetDirectSuccessorsTreeAd {
          * Beginn des Gültigkeitszeitraums für "HTreeNodeID" als String (Format "12.04.2000 17:44:13")
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue from_date = 10020;</code>
+         * <code>.dstore.values.StringValue from_date = 10020;</code>
          */
         private com.google.protobuf.SingleFieldBuilderV3<
             io.dstore.values.StringValue, io.dstore.values.StringValue.Builder, io.dstore.values.StringValueOrBuilder> 
@@ -9187,7 +9187,7 @@ public final class StGetDirectSuccessorsTreeAd {
          * Ende des Gültigkeitszeitraums für "HTreeNodeID" als String (Format "12.04.2000 17:44:13")
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue to_date = 10021;</code>
+         * <code>.dstore.values.StringValue to_date = 10021;</code>
          */
         public boolean hasToDate() {
           return toDateBuilder_ != null || toDate_ != null;
@@ -9197,7 +9197,7 @@ public final class StGetDirectSuccessorsTreeAd {
          * Ende des Gültigkeitszeitraums für "HTreeNodeID" als String (Format "12.04.2000 17:44:13")
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue to_date = 10021;</code>
+         * <code>.dstore.values.StringValue to_date = 10021;</code>
          */
         public io.dstore.values.StringValue getToDate() {
           if (toDateBuilder_ == null) {
@@ -9211,7 +9211,7 @@ public final class StGetDirectSuccessorsTreeAd {
          * Ende des Gültigkeitszeitraums für "HTreeNodeID" als String (Format "12.04.2000 17:44:13")
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue to_date = 10021;</code>
+         * <code>.dstore.values.StringValue to_date = 10021;</code>
          */
         public Builder setToDate(io.dstore.values.StringValue value) {
           if (toDateBuilder_ == null) {
@@ -9231,7 +9231,7 @@ public final class StGetDirectSuccessorsTreeAd {
          * Ende des Gültigkeitszeitraums für "HTreeNodeID" als String (Format "12.04.2000 17:44:13")
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue to_date = 10021;</code>
+         * <code>.dstore.values.StringValue to_date = 10021;</code>
          */
         public Builder setToDate(
             io.dstore.values.StringValue.Builder builderForValue) {
@@ -9249,7 +9249,7 @@ public final class StGetDirectSuccessorsTreeAd {
          * Ende des Gültigkeitszeitraums für "HTreeNodeID" als String (Format "12.04.2000 17:44:13")
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue to_date = 10021;</code>
+         * <code>.dstore.values.StringValue to_date = 10021;</code>
          */
         public Builder mergeToDate(io.dstore.values.StringValue value) {
           if (toDateBuilder_ == null) {
@@ -9271,7 +9271,7 @@ public final class StGetDirectSuccessorsTreeAd {
          * Ende des Gültigkeitszeitraums für "HTreeNodeID" als String (Format "12.04.2000 17:44:13")
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue to_date = 10021;</code>
+         * <code>.dstore.values.StringValue to_date = 10021;</code>
          */
         public Builder clearToDate() {
           if (toDateBuilder_ == null) {
@@ -9289,7 +9289,7 @@ public final class StGetDirectSuccessorsTreeAd {
          * Ende des Gültigkeitszeitraums für "HTreeNodeID" als String (Format "12.04.2000 17:44:13")
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue to_date = 10021;</code>
+         * <code>.dstore.values.StringValue to_date = 10021;</code>
          */
         public io.dstore.values.StringValue.Builder getToDateBuilder() {
           
@@ -9301,7 +9301,7 @@ public final class StGetDirectSuccessorsTreeAd {
          * Ende des Gültigkeitszeitraums für "HTreeNodeID" als String (Format "12.04.2000 17:44:13")
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue to_date = 10021;</code>
+         * <code>.dstore.values.StringValue to_date = 10021;</code>
          */
         public io.dstore.values.StringValueOrBuilder getToDateOrBuilder() {
           if (toDateBuilder_ != null) {
@@ -9316,7 +9316,7 @@ public final class StGetDirectSuccessorsTreeAd {
          * Ende des Gültigkeitszeitraums für "HTreeNodeID" als String (Format "12.04.2000 17:44:13")
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue to_date = 10021;</code>
+         * <code>.dstore.values.StringValue to_date = 10021;</code>
          */
         private com.google.protobuf.SingleFieldBuilderV3<
             io.dstore.values.StringValue, io.dstore.values.StringValue.Builder, io.dstore.values.StringValueOrBuilder> 
@@ -9340,7 +9340,7 @@ public final class StGetDirectSuccessorsTreeAd {
          * Hat "TreeNodeID" selbst Nachfolger ?
          * </pre>
          *
-         * <code>optional .dstore.values.BooleanValue has_successors = 10022;</code>
+         * <code>.dstore.values.BooleanValue has_successors = 10022;</code>
          */
         public boolean hasHasSuccessors() {
           return hasSuccessorsBuilder_ != null || hasSuccessors_ != null;
@@ -9350,7 +9350,7 @@ public final class StGetDirectSuccessorsTreeAd {
          * Hat "TreeNodeID" selbst Nachfolger ?
          * </pre>
          *
-         * <code>optional .dstore.values.BooleanValue has_successors = 10022;</code>
+         * <code>.dstore.values.BooleanValue has_successors = 10022;</code>
          */
         public io.dstore.values.BooleanValue getHasSuccessors() {
           if (hasSuccessorsBuilder_ == null) {
@@ -9364,7 +9364,7 @@ public final class StGetDirectSuccessorsTreeAd {
          * Hat "TreeNodeID" selbst Nachfolger ?
          * </pre>
          *
-         * <code>optional .dstore.values.BooleanValue has_successors = 10022;</code>
+         * <code>.dstore.values.BooleanValue has_successors = 10022;</code>
          */
         public Builder setHasSuccessors(io.dstore.values.BooleanValue value) {
           if (hasSuccessorsBuilder_ == null) {
@@ -9384,7 +9384,7 @@ public final class StGetDirectSuccessorsTreeAd {
          * Hat "TreeNodeID" selbst Nachfolger ?
          * </pre>
          *
-         * <code>optional .dstore.values.BooleanValue has_successors = 10022;</code>
+         * <code>.dstore.values.BooleanValue has_successors = 10022;</code>
          */
         public Builder setHasSuccessors(
             io.dstore.values.BooleanValue.Builder builderForValue) {
@@ -9402,7 +9402,7 @@ public final class StGetDirectSuccessorsTreeAd {
          * Hat "TreeNodeID" selbst Nachfolger ?
          * </pre>
          *
-         * <code>optional .dstore.values.BooleanValue has_successors = 10022;</code>
+         * <code>.dstore.values.BooleanValue has_successors = 10022;</code>
          */
         public Builder mergeHasSuccessors(io.dstore.values.BooleanValue value) {
           if (hasSuccessorsBuilder_ == null) {
@@ -9424,7 +9424,7 @@ public final class StGetDirectSuccessorsTreeAd {
          * Hat "TreeNodeID" selbst Nachfolger ?
          * </pre>
          *
-         * <code>optional .dstore.values.BooleanValue has_successors = 10022;</code>
+         * <code>.dstore.values.BooleanValue has_successors = 10022;</code>
          */
         public Builder clearHasSuccessors() {
           if (hasSuccessorsBuilder_ == null) {
@@ -9442,7 +9442,7 @@ public final class StGetDirectSuccessorsTreeAd {
          * Hat "TreeNodeID" selbst Nachfolger ?
          * </pre>
          *
-         * <code>optional .dstore.values.BooleanValue has_successors = 10022;</code>
+         * <code>.dstore.values.BooleanValue has_successors = 10022;</code>
          */
         public io.dstore.values.BooleanValue.Builder getHasSuccessorsBuilder() {
           
@@ -9454,7 +9454,7 @@ public final class StGetDirectSuccessorsTreeAd {
          * Hat "TreeNodeID" selbst Nachfolger ?
          * </pre>
          *
-         * <code>optional .dstore.values.BooleanValue has_successors = 10022;</code>
+         * <code>.dstore.values.BooleanValue has_successors = 10022;</code>
          */
         public io.dstore.values.BooleanValueOrBuilder getHasSuccessorsOrBuilder() {
           if (hasSuccessorsBuilder_ != null) {
@@ -9469,7 +9469,7 @@ public final class StGetDirectSuccessorsTreeAd {
          * Hat "TreeNodeID" selbst Nachfolger ?
          * </pre>
          *
-         * <code>optional .dstore.values.BooleanValue has_successors = 10022;</code>
+         * <code>.dstore.values.BooleanValue has_successors = 10022;</code>
          */
         private com.google.protobuf.SingleFieldBuilderV3<
             io.dstore.values.BooleanValue, io.dstore.values.BooleanValue.Builder, io.dstore.values.BooleanValueOrBuilder> 
@@ -9493,7 +9493,7 @@ public final class StGetDirectSuccessorsTreeAd {
          * Ist "TreeNodeID" bereits gelöscht ? ("0" : Nein, "1" : Ja)
          * </pre>
          *
-         * <code>optional .dstore.values.BooleanValue deleted = 10023;</code>
+         * <code>.dstore.values.BooleanValue deleted = 10023;</code>
          */
         public boolean hasDeleted() {
           return deletedBuilder_ != null || deleted_ != null;
@@ -9503,7 +9503,7 @@ public final class StGetDirectSuccessorsTreeAd {
          * Ist "TreeNodeID" bereits gelöscht ? ("0" : Nein, "1" : Ja)
          * </pre>
          *
-         * <code>optional .dstore.values.BooleanValue deleted = 10023;</code>
+         * <code>.dstore.values.BooleanValue deleted = 10023;</code>
          */
         public io.dstore.values.BooleanValue getDeleted() {
           if (deletedBuilder_ == null) {
@@ -9517,7 +9517,7 @@ public final class StGetDirectSuccessorsTreeAd {
          * Ist "TreeNodeID" bereits gelöscht ? ("0" : Nein, "1" : Ja)
          * </pre>
          *
-         * <code>optional .dstore.values.BooleanValue deleted = 10023;</code>
+         * <code>.dstore.values.BooleanValue deleted = 10023;</code>
          */
         public Builder setDeleted(io.dstore.values.BooleanValue value) {
           if (deletedBuilder_ == null) {
@@ -9537,7 +9537,7 @@ public final class StGetDirectSuccessorsTreeAd {
          * Ist "TreeNodeID" bereits gelöscht ? ("0" : Nein, "1" : Ja)
          * </pre>
          *
-         * <code>optional .dstore.values.BooleanValue deleted = 10023;</code>
+         * <code>.dstore.values.BooleanValue deleted = 10023;</code>
          */
         public Builder setDeleted(
             io.dstore.values.BooleanValue.Builder builderForValue) {
@@ -9555,7 +9555,7 @@ public final class StGetDirectSuccessorsTreeAd {
          * Ist "TreeNodeID" bereits gelöscht ? ("0" : Nein, "1" : Ja)
          * </pre>
          *
-         * <code>optional .dstore.values.BooleanValue deleted = 10023;</code>
+         * <code>.dstore.values.BooleanValue deleted = 10023;</code>
          */
         public Builder mergeDeleted(io.dstore.values.BooleanValue value) {
           if (deletedBuilder_ == null) {
@@ -9577,7 +9577,7 @@ public final class StGetDirectSuccessorsTreeAd {
          * Ist "TreeNodeID" bereits gelöscht ? ("0" : Nein, "1" : Ja)
          * </pre>
          *
-         * <code>optional .dstore.values.BooleanValue deleted = 10023;</code>
+         * <code>.dstore.values.BooleanValue deleted = 10023;</code>
          */
         public Builder clearDeleted() {
           if (deletedBuilder_ == null) {
@@ -9595,7 +9595,7 @@ public final class StGetDirectSuccessorsTreeAd {
          * Ist "TreeNodeID" bereits gelöscht ? ("0" : Nein, "1" : Ja)
          * </pre>
          *
-         * <code>optional .dstore.values.BooleanValue deleted = 10023;</code>
+         * <code>.dstore.values.BooleanValue deleted = 10023;</code>
          */
         public io.dstore.values.BooleanValue.Builder getDeletedBuilder() {
           
@@ -9607,7 +9607,7 @@ public final class StGetDirectSuccessorsTreeAd {
          * Ist "TreeNodeID" bereits gelöscht ? ("0" : Nein, "1" : Ja)
          * </pre>
          *
-         * <code>optional .dstore.values.BooleanValue deleted = 10023;</code>
+         * <code>.dstore.values.BooleanValue deleted = 10023;</code>
          */
         public io.dstore.values.BooleanValueOrBuilder getDeletedOrBuilder() {
           if (deletedBuilder_ != null) {
@@ -9622,7 +9622,7 @@ public final class StGetDirectSuccessorsTreeAd {
          * Ist "TreeNodeID" bereits gelöscht ? ("0" : Nein, "1" : Ja)
          * </pre>
          *
-         * <code>optional .dstore.values.BooleanValue deleted = 10023;</code>
+         * <code>.dstore.values.BooleanValue deleted = 10023;</code>
          */
         private com.google.protobuf.SingleFieldBuilderV3<
             io.dstore.values.BooleanValue, io.dstore.values.BooleanValue.Builder, io.dstore.values.BooleanValueOrBuilder> 
@@ -9882,7 +9882,7 @@ public final class StGetDirectSuccessorsTreeAd {
         return memoizedHashCode;
       }
       int hash = 41;
-      hash = (19 * hash) + getDescriptorForType().hashCode();
+      hash = (19 * hash) + getDescriptor().hashCode();
       if (getMetaInformationCount() > 0) {
         hash = (37 * hash) + META_INFORMATION_FIELD_NUMBER;
         hash = (53 * hash) + getMetaInformationList().hashCode();

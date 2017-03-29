@@ -19,38 +19,38 @@ public final class ImRemoveBinaryFromValuesAd {
       com.google.protobuf.MessageOrBuilder {
 
     /**
-     * <code>optional .dstore.values.IntegerValue binary_code_id = 1;</code>
+     * <code>.dstore.values.IntegerValue binary_code_id = 1;</code>
      */
     boolean hasBinaryCodeId();
     /**
-     * <code>optional .dstore.values.IntegerValue binary_code_id = 1;</code>
+     * <code>.dstore.values.IntegerValue binary_code_id = 1;</code>
      */
     io.dstore.values.IntegerValue getBinaryCodeId();
     /**
-     * <code>optional .dstore.values.IntegerValue binary_code_id = 1;</code>
+     * <code>.dstore.values.IntegerValue binary_code_id = 1;</code>
      */
     io.dstore.values.IntegerValueOrBuilder getBinaryCodeIdOrBuilder();
 
     /**
-     * <code>optional bool binary_code_id_null = 1001;</code>
+     * <code>bool binary_code_id_null = 1001;</code>
      */
     boolean getBinaryCodeIdNull();
 
     /**
-     * <code>optional .dstore.values.StringValue value_ids = 2;</code>
+     * <code>.dstore.values.StringValue value_ids = 2;</code>
      */
     boolean hasValueIds();
     /**
-     * <code>optional .dstore.values.StringValue value_ids = 2;</code>
+     * <code>.dstore.values.StringValue value_ids = 2;</code>
      */
     io.dstore.values.StringValue getValueIds();
     /**
-     * <code>optional .dstore.values.StringValue value_ids = 2;</code>
+     * <code>.dstore.values.StringValue value_ids = 2;</code>
      */
     io.dstore.values.StringValueOrBuilder getValueIdsOrBuilder();
 
     /**
-     * <code>optional bool value_ids_null = 1002;</code>
+     * <code>bool value_ids_null = 1002;</code>
      */
     boolean getValueIdsNull();
   }
@@ -157,19 +157,19 @@ public final class ImRemoveBinaryFromValuesAd {
     public static final int BINARY_CODE_ID_FIELD_NUMBER = 1;
     private io.dstore.values.IntegerValue binaryCodeId_;
     /**
-     * <code>optional .dstore.values.IntegerValue binary_code_id = 1;</code>
+     * <code>.dstore.values.IntegerValue binary_code_id = 1;</code>
      */
     public boolean hasBinaryCodeId() {
       return binaryCodeId_ != null;
     }
     /**
-     * <code>optional .dstore.values.IntegerValue binary_code_id = 1;</code>
+     * <code>.dstore.values.IntegerValue binary_code_id = 1;</code>
      */
     public io.dstore.values.IntegerValue getBinaryCodeId() {
       return binaryCodeId_ == null ? io.dstore.values.IntegerValue.getDefaultInstance() : binaryCodeId_;
     }
     /**
-     * <code>optional .dstore.values.IntegerValue binary_code_id = 1;</code>
+     * <code>.dstore.values.IntegerValue binary_code_id = 1;</code>
      */
     public io.dstore.values.IntegerValueOrBuilder getBinaryCodeIdOrBuilder() {
       return getBinaryCodeId();
@@ -178,7 +178,7 @@ public final class ImRemoveBinaryFromValuesAd {
     public static final int BINARY_CODE_ID_NULL_FIELD_NUMBER = 1001;
     private boolean binaryCodeIdNull_;
     /**
-     * <code>optional bool binary_code_id_null = 1001;</code>
+     * <code>bool binary_code_id_null = 1001;</code>
      */
     public boolean getBinaryCodeIdNull() {
       return binaryCodeIdNull_;
@@ -187,19 +187,19 @@ public final class ImRemoveBinaryFromValuesAd {
     public static final int VALUE_IDS_FIELD_NUMBER = 2;
     private io.dstore.values.StringValue valueIds_;
     /**
-     * <code>optional .dstore.values.StringValue value_ids = 2;</code>
+     * <code>.dstore.values.StringValue value_ids = 2;</code>
      */
     public boolean hasValueIds() {
       return valueIds_ != null;
     }
     /**
-     * <code>optional .dstore.values.StringValue value_ids = 2;</code>
+     * <code>.dstore.values.StringValue value_ids = 2;</code>
      */
     public io.dstore.values.StringValue getValueIds() {
       return valueIds_ == null ? io.dstore.values.StringValue.getDefaultInstance() : valueIds_;
     }
     /**
-     * <code>optional .dstore.values.StringValue value_ids = 2;</code>
+     * <code>.dstore.values.StringValue value_ids = 2;</code>
      */
     public io.dstore.values.StringValueOrBuilder getValueIdsOrBuilder() {
       return getValueIds();
@@ -208,7 +208,7 @@ public final class ImRemoveBinaryFromValuesAd {
     public static final int VALUE_IDS_NULL_FIELD_NUMBER = 1002;
     private boolean valueIdsNull_;
     /**
-     * <code>optional bool value_ids_null = 1002;</code>
+     * <code>bool value_ids_null = 1002;</code>
      */
     public boolean getValueIdsNull() {
       return valueIdsNull_;
@@ -300,7 +300,7 @@ public final class ImRemoveBinaryFromValuesAd {
         return memoizedHashCode;
       }
       int hash = 41;
-      hash = (19 * hash) + getDescriptorForType().hashCode();
+      hash = (19 * hash) + getDescriptor().hashCode();
       if (hasBinaryCodeId()) {
         hash = (37 * hash) + BINARY_CODE_ID_FIELD_NUMBER;
         hash = (53 * hash) + getBinaryCodeId().hashCode();
@@ -566,13 +566,13 @@ public final class ImRemoveBinaryFromValuesAd {
       private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> binaryCodeIdBuilder_;
       /**
-       * <code>optional .dstore.values.IntegerValue binary_code_id = 1;</code>
+       * <code>.dstore.values.IntegerValue binary_code_id = 1;</code>
        */
       public boolean hasBinaryCodeId() {
         return binaryCodeIdBuilder_ != null || binaryCodeId_ != null;
       }
       /**
-       * <code>optional .dstore.values.IntegerValue binary_code_id = 1;</code>
+       * <code>.dstore.values.IntegerValue binary_code_id = 1;</code>
        */
       public io.dstore.values.IntegerValue getBinaryCodeId() {
         if (binaryCodeIdBuilder_ == null) {
@@ -582,7 +582,7 @@ public final class ImRemoveBinaryFromValuesAd {
         }
       }
       /**
-       * <code>optional .dstore.values.IntegerValue binary_code_id = 1;</code>
+       * <code>.dstore.values.IntegerValue binary_code_id = 1;</code>
        */
       public Builder setBinaryCodeId(io.dstore.values.IntegerValue value) {
         if (binaryCodeIdBuilder_ == null) {
@@ -598,7 +598,7 @@ public final class ImRemoveBinaryFromValuesAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.IntegerValue binary_code_id = 1;</code>
+       * <code>.dstore.values.IntegerValue binary_code_id = 1;</code>
        */
       public Builder setBinaryCodeId(
           io.dstore.values.IntegerValue.Builder builderForValue) {
@@ -612,7 +612,7 @@ public final class ImRemoveBinaryFromValuesAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.IntegerValue binary_code_id = 1;</code>
+       * <code>.dstore.values.IntegerValue binary_code_id = 1;</code>
        */
       public Builder mergeBinaryCodeId(io.dstore.values.IntegerValue value) {
         if (binaryCodeIdBuilder_ == null) {
@@ -630,7 +630,7 @@ public final class ImRemoveBinaryFromValuesAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.IntegerValue binary_code_id = 1;</code>
+       * <code>.dstore.values.IntegerValue binary_code_id = 1;</code>
        */
       public Builder clearBinaryCodeId() {
         if (binaryCodeIdBuilder_ == null) {
@@ -644,7 +644,7 @@ public final class ImRemoveBinaryFromValuesAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.IntegerValue binary_code_id = 1;</code>
+       * <code>.dstore.values.IntegerValue binary_code_id = 1;</code>
        */
       public io.dstore.values.IntegerValue.Builder getBinaryCodeIdBuilder() {
         
@@ -652,7 +652,7 @@ public final class ImRemoveBinaryFromValuesAd {
         return getBinaryCodeIdFieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .dstore.values.IntegerValue binary_code_id = 1;</code>
+       * <code>.dstore.values.IntegerValue binary_code_id = 1;</code>
        */
       public io.dstore.values.IntegerValueOrBuilder getBinaryCodeIdOrBuilder() {
         if (binaryCodeIdBuilder_ != null) {
@@ -663,7 +663,7 @@ public final class ImRemoveBinaryFromValuesAd {
         }
       }
       /**
-       * <code>optional .dstore.values.IntegerValue binary_code_id = 1;</code>
+       * <code>.dstore.values.IntegerValue binary_code_id = 1;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> 
@@ -681,13 +681,13 @@ public final class ImRemoveBinaryFromValuesAd {
 
       private boolean binaryCodeIdNull_ ;
       /**
-       * <code>optional bool binary_code_id_null = 1001;</code>
+       * <code>bool binary_code_id_null = 1001;</code>
        */
       public boolean getBinaryCodeIdNull() {
         return binaryCodeIdNull_;
       }
       /**
-       * <code>optional bool binary_code_id_null = 1001;</code>
+       * <code>bool binary_code_id_null = 1001;</code>
        */
       public Builder setBinaryCodeIdNull(boolean value) {
         
@@ -696,7 +696,7 @@ public final class ImRemoveBinaryFromValuesAd {
         return this;
       }
       /**
-       * <code>optional bool binary_code_id_null = 1001;</code>
+       * <code>bool binary_code_id_null = 1001;</code>
        */
       public Builder clearBinaryCodeIdNull() {
         
@@ -709,13 +709,13 @@ public final class ImRemoveBinaryFromValuesAd {
       private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.values.StringValue, io.dstore.values.StringValue.Builder, io.dstore.values.StringValueOrBuilder> valueIdsBuilder_;
       /**
-       * <code>optional .dstore.values.StringValue value_ids = 2;</code>
+       * <code>.dstore.values.StringValue value_ids = 2;</code>
        */
       public boolean hasValueIds() {
         return valueIdsBuilder_ != null || valueIds_ != null;
       }
       /**
-       * <code>optional .dstore.values.StringValue value_ids = 2;</code>
+       * <code>.dstore.values.StringValue value_ids = 2;</code>
        */
       public io.dstore.values.StringValue getValueIds() {
         if (valueIdsBuilder_ == null) {
@@ -725,7 +725,7 @@ public final class ImRemoveBinaryFromValuesAd {
         }
       }
       /**
-       * <code>optional .dstore.values.StringValue value_ids = 2;</code>
+       * <code>.dstore.values.StringValue value_ids = 2;</code>
        */
       public Builder setValueIds(io.dstore.values.StringValue value) {
         if (valueIdsBuilder_ == null) {
@@ -741,7 +741,7 @@ public final class ImRemoveBinaryFromValuesAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.StringValue value_ids = 2;</code>
+       * <code>.dstore.values.StringValue value_ids = 2;</code>
        */
       public Builder setValueIds(
           io.dstore.values.StringValue.Builder builderForValue) {
@@ -755,7 +755,7 @@ public final class ImRemoveBinaryFromValuesAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.StringValue value_ids = 2;</code>
+       * <code>.dstore.values.StringValue value_ids = 2;</code>
        */
       public Builder mergeValueIds(io.dstore.values.StringValue value) {
         if (valueIdsBuilder_ == null) {
@@ -773,7 +773,7 @@ public final class ImRemoveBinaryFromValuesAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.StringValue value_ids = 2;</code>
+       * <code>.dstore.values.StringValue value_ids = 2;</code>
        */
       public Builder clearValueIds() {
         if (valueIdsBuilder_ == null) {
@@ -787,7 +787,7 @@ public final class ImRemoveBinaryFromValuesAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.StringValue value_ids = 2;</code>
+       * <code>.dstore.values.StringValue value_ids = 2;</code>
        */
       public io.dstore.values.StringValue.Builder getValueIdsBuilder() {
         
@@ -795,7 +795,7 @@ public final class ImRemoveBinaryFromValuesAd {
         return getValueIdsFieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .dstore.values.StringValue value_ids = 2;</code>
+       * <code>.dstore.values.StringValue value_ids = 2;</code>
        */
       public io.dstore.values.StringValueOrBuilder getValueIdsOrBuilder() {
         if (valueIdsBuilder_ != null) {
@@ -806,7 +806,7 @@ public final class ImRemoveBinaryFromValuesAd {
         }
       }
       /**
-       * <code>optional .dstore.values.StringValue value_ids = 2;</code>
+       * <code>.dstore.values.StringValue value_ids = 2;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.values.StringValue, io.dstore.values.StringValue.Builder, io.dstore.values.StringValueOrBuilder> 
@@ -824,13 +824,13 @@ public final class ImRemoveBinaryFromValuesAd {
 
       private boolean valueIdsNull_ ;
       /**
-       * <code>optional bool value_ids_null = 1002;</code>
+       * <code>bool value_ids_null = 1002;</code>
        */
       public boolean getValueIdsNull() {
         return valueIdsNull_;
       }
       /**
-       * <code>optional bool value_ids_null = 1002;</code>
+       * <code>bool value_ids_null = 1002;</code>
        */
       public Builder setValueIdsNull(boolean value) {
         
@@ -839,7 +839,7 @@ public final class ImRemoveBinaryFromValuesAd {
         return this;
       }
       /**
-       * <code>optional bool value_ids_null = 1002;</code>
+       * <code>bool value_ids_null = 1002;</code>
        */
       public Builder clearValueIdsNull() {
         
@@ -1098,7 +1098,7 @@ public final class ImRemoveBinaryFromValuesAd {
         com.google.protobuf.MessageOrBuilder {
 
       /**
-       * <code>optional int32 row_id = 10000;</code>
+       * <code>int32 row_id = 10000;</code>
        */
       int getRowId();
     }
@@ -1173,7 +1173,7 @@ public final class ImRemoveBinaryFromValuesAd {
       public static final int ROW_ID_FIELD_NUMBER = 10000;
       private int rowId_;
       /**
-       * <code>optional int32 row_id = 10000;</code>
+       * <code>int32 row_id = 10000;</code>
        */
       public int getRowId() {
         return rowId_;
@@ -1232,7 +1232,7 @@ public final class ImRemoveBinaryFromValuesAd {
           return memoizedHashCode;
         }
         int hash = 41;
-        hash = (19 * hash) + getDescriptorForType().hashCode();
+        hash = (19 * hash) + getDescriptor().hashCode();
         hash = (37 * hash) + ROW_ID_FIELD_NUMBER;
         hash = (53 * hash) + getRowId();
         hash = (29 * hash) + unknownFields.hashCode();
@@ -1450,13 +1450,13 @@ public final class ImRemoveBinaryFromValuesAd {
 
         private int rowId_ ;
         /**
-         * <code>optional int32 row_id = 10000;</code>
+         * <code>int32 row_id = 10000;</code>
          */
         public int getRowId() {
           return rowId_;
         }
         /**
-         * <code>optional int32 row_id = 10000;</code>
+         * <code>int32 row_id = 10000;</code>
          */
         public Builder setRowId(int value) {
           
@@ -1465,7 +1465,7 @@ public final class ImRemoveBinaryFromValuesAd {
           return this;
         }
         /**
-         * <code>optional int32 row_id = 10000;</code>
+         * <code>int32 row_id = 10000;</code>
          */
         public Builder clearRowId() {
           
@@ -1718,7 +1718,7 @@ public final class ImRemoveBinaryFromValuesAd {
         return memoizedHashCode;
       }
       int hash = 41;
-      hash = (19 * hash) + getDescriptorForType().hashCode();
+      hash = (19 * hash) + getDescriptor().hashCode();
       if (getMetaInformationCount() > 0) {
         hash = (37 * hash) + META_INFORMATION_FIELD_NUMBER;
         hash = (53 * hash) + getMetaInformationList().hashCode();

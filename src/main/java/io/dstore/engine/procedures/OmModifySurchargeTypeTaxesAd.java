@@ -19,56 +19,56 @@ public final class OmModifySurchargeTypeTaxesAd {
       com.google.protobuf.MessageOrBuilder {
 
     /**
-     * <code>optional .dstore.values.IntegerValue surcharge_type_id = 1;</code>
+     * <code>.dstore.values.IntegerValue surcharge_type_id = 1;</code>
      */
     boolean hasSurchargeTypeId();
     /**
-     * <code>optional .dstore.values.IntegerValue surcharge_type_id = 1;</code>
+     * <code>.dstore.values.IntegerValue surcharge_type_id = 1;</code>
      */
     io.dstore.values.IntegerValue getSurchargeTypeId();
     /**
-     * <code>optional .dstore.values.IntegerValue surcharge_type_id = 1;</code>
+     * <code>.dstore.values.IntegerValue surcharge_type_id = 1;</code>
      */
     io.dstore.values.IntegerValueOrBuilder getSurchargeTypeIdOrBuilder();
 
     /**
-     * <code>optional bool surcharge_type_id_null = 1001;</code>
+     * <code>bool surcharge_type_id_null = 1001;</code>
      */
     boolean getSurchargeTypeIdNull();
 
     /**
-     * <code>optional .dstore.values.TimestampValue valid_from = 2;</code>
+     * <code>.dstore.values.TimestampValue valid_from = 2;</code>
      */
     boolean hasValidFrom();
     /**
-     * <code>optional .dstore.values.TimestampValue valid_from = 2;</code>
+     * <code>.dstore.values.TimestampValue valid_from = 2;</code>
      */
     io.dstore.values.TimestampValue getValidFrom();
     /**
-     * <code>optional .dstore.values.TimestampValue valid_from = 2;</code>
+     * <code>.dstore.values.TimestampValue valid_from = 2;</code>
      */
     io.dstore.values.TimestampValueOrBuilder getValidFromOrBuilder();
 
     /**
-     * <code>optional bool valid_from_null = 1002;</code>
+     * <code>bool valid_from_null = 1002;</code>
      */
     boolean getValidFromNull();
 
     /**
-     * <code>optional .dstore.values.IntegerValue tax_rate_id = 3;</code>
+     * <code>.dstore.values.IntegerValue tax_rate_id = 3;</code>
      */
     boolean hasTaxRateId();
     /**
-     * <code>optional .dstore.values.IntegerValue tax_rate_id = 3;</code>
+     * <code>.dstore.values.IntegerValue tax_rate_id = 3;</code>
      */
     io.dstore.values.IntegerValue getTaxRateId();
     /**
-     * <code>optional .dstore.values.IntegerValue tax_rate_id = 3;</code>
+     * <code>.dstore.values.IntegerValue tax_rate_id = 3;</code>
      */
     io.dstore.values.IntegerValueOrBuilder getTaxRateIdOrBuilder();
 
     /**
-     * <code>optional bool tax_rate_id_null = 1003;</code>
+     * <code>bool tax_rate_id_null = 1003;</code>
      */
     boolean getTaxRateIdNull();
   }
@@ -194,19 +194,19 @@ public final class OmModifySurchargeTypeTaxesAd {
     public static final int SURCHARGE_TYPE_ID_FIELD_NUMBER = 1;
     private io.dstore.values.IntegerValue surchargeTypeId_;
     /**
-     * <code>optional .dstore.values.IntegerValue surcharge_type_id = 1;</code>
+     * <code>.dstore.values.IntegerValue surcharge_type_id = 1;</code>
      */
     public boolean hasSurchargeTypeId() {
       return surchargeTypeId_ != null;
     }
     /**
-     * <code>optional .dstore.values.IntegerValue surcharge_type_id = 1;</code>
+     * <code>.dstore.values.IntegerValue surcharge_type_id = 1;</code>
      */
     public io.dstore.values.IntegerValue getSurchargeTypeId() {
       return surchargeTypeId_ == null ? io.dstore.values.IntegerValue.getDefaultInstance() : surchargeTypeId_;
     }
     /**
-     * <code>optional .dstore.values.IntegerValue surcharge_type_id = 1;</code>
+     * <code>.dstore.values.IntegerValue surcharge_type_id = 1;</code>
      */
     public io.dstore.values.IntegerValueOrBuilder getSurchargeTypeIdOrBuilder() {
       return getSurchargeTypeId();
@@ -215,7 +215,7 @@ public final class OmModifySurchargeTypeTaxesAd {
     public static final int SURCHARGE_TYPE_ID_NULL_FIELD_NUMBER = 1001;
     private boolean surchargeTypeIdNull_;
     /**
-     * <code>optional bool surcharge_type_id_null = 1001;</code>
+     * <code>bool surcharge_type_id_null = 1001;</code>
      */
     public boolean getSurchargeTypeIdNull() {
       return surchargeTypeIdNull_;
@@ -224,19 +224,19 @@ public final class OmModifySurchargeTypeTaxesAd {
     public static final int VALID_FROM_FIELD_NUMBER = 2;
     private io.dstore.values.TimestampValue validFrom_;
     /**
-     * <code>optional .dstore.values.TimestampValue valid_from = 2;</code>
+     * <code>.dstore.values.TimestampValue valid_from = 2;</code>
      */
     public boolean hasValidFrom() {
       return validFrom_ != null;
     }
     /**
-     * <code>optional .dstore.values.TimestampValue valid_from = 2;</code>
+     * <code>.dstore.values.TimestampValue valid_from = 2;</code>
      */
     public io.dstore.values.TimestampValue getValidFrom() {
       return validFrom_ == null ? io.dstore.values.TimestampValue.getDefaultInstance() : validFrom_;
     }
     /**
-     * <code>optional .dstore.values.TimestampValue valid_from = 2;</code>
+     * <code>.dstore.values.TimestampValue valid_from = 2;</code>
      */
     public io.dstore.values.TimestampValueOrBuilder getValidFromOrBuilder() {
       return getValidFrom();
@@ -245,7 +245,7 @@ public final class OmModifySurchargeTypeTaxesAd {
     public static final int VALID_FROM_NULL_FIELD_NUMBER = 1002;
     private boolean validFromNull_;
     /**
-     * <code>optional bool valid_from_null = 1002;</code>
+     * <code>bool valid_from_null = 1002;</code>
      */
     public boolean getValidFromNull() {
       return validFromNull_;
@@ -254,19 +254,19 @@ public final class OmModifySurchargeTypeTaxesAd {
     public static final int TAX_RATE_ID_FIELD_NUMBER = 3;
     private io.dstore.values.IntegerValue taxRateId_;
     /**
-     * <code>optional .dstore.values.IntegerValue tax_rate_id = 3;</code>
+     * <code>.dstore.values.IntegerValue tax_rate_id = 3;</code>
      */
     public boolean hasTaxRateId() {
       return taxRateId_ != null;
     }
     /**
-     * <code>optional .dstore.values.IntegerValue tax_rate_id = 3;</code>
+     * <code>.dstore.values.IntegerValue tax_rate_id = 3;</code>
      */
     public io.dstore.values.IntegerValue getTaxRateId() {
       return taxRateId_ == null ? io.dstore.values.IntegerValue.getDefaultInstance() : taxRateId_;
     }
     /**
-     * <code>optional .dstore.values.IntegerValue tax_rate_id = 3;</code>
+     * <code>.dstore.values.IntegerValue tax_rate_id = 3;</code>
      */
     public io.dstore.values.IntegerValueOrBuilder getTaxRateIdOrBuilder() {
       return getTaxRateId();
@@ -275,7 +275,7 @@ public final class OmModifySurchargeTypeTaxesAd {
     public static final int TAX_RATE_ID_NULL_FIELD_NUMBER = 1003;
     private boolean taxRateIdNull_;
     /**
-     * <code>optional bool tax_rate_id_null = 1003;</code>
+     * <code>bool tax_rate_id_null = 1003;</code>
      */
     public boolean getTaxRateIdNull() {
       return taxRateIdNull_;
@@ -388,7 +388,7 @@ public final class OmModifySurchargeTypeTaxesAd {
         return memoizedHashCode;
       }
       int hash = 41;
-      hash = (19 * hash) + getDescriptorForType().hashCode();
+      hash = (19 * hash) + getDescriptor().hashCode();
       if (hasSurchargeTypeId()) {
         hash = (37 * hash) + SURCHARGE_TYPE_ID_FIELD_NUMBER;
         hash = (53 * hash) + getSurchargeTypeId().hashCode();
@@ -681,13 +681,13 @@ public final class OmModifySurchargeTypeTaxesAd {
       private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> surchargeTypeIdBuilder_;
       /**
-       * <code>optional .dstore.values.IntegerValue surcharge_type_id = 1;</code>
+       * <code>.dstore.values.IntegerValue surcharge_type_id = 1;</code>
        */
       public boolean hasSurchargeTypeId() {
         return surchargeTypeIdBuilder_ != null || surchargeTypeId_ != null;
       }
       /**
-       * <code>optional .dstore.values.IntegerValue surcharge_type_id = 1;</code>
+       * <code>.dstore.values.IntegerValue surcharge_type_id = 1;</code>
        */
       public io.dstore.values.IntegerValue getSurchargeTypeId() {
         if (surchargeTypeIdBuilder_ == null) {
@@ -697,7 +697,7 @@ public final class OmModifySurchargeTypeTaxesAd {
         }
       }
       /**
-       * <code>optional .dstore.values.IntegerValue surcharge_type_id = 1;</code>
+       * <code>.dstore.values.IntegerValue surcharge_type_id = 1;</code>
        */
       public Builder setSurchargeTypeId(io.dstore.values.IntegerValue value) {
         if (surchargeTypeIdBuilder_ == null) {
@@ -713,7 +713,7 @@ public final class OmModifySurchargeTypeTaxesAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.IntegerValue surcharge_type_id = 1;</code>
+       * <code>.dstore.values.IntegerValue surcharge_type_id = 1;</code>
        */
       public Builder setSurchargeTypeId(
           io.dstore.values.IntegerValue.Builder builderForValue) {
@@ -727,7 +727,7 @@ public final class OmModifySurchargeTypeTaxesAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.IntegerValue surcharge_type_id = 1;</code>
+       * <code>.dstore.values.IntegerValue surcharge_type_id = 1;</code>
        */
       public Builder mergeSurchargeTypeId(io.dstore.values.IntegerValue value) {
         if (surchargeTypeIdBuilder_ == null) {
@@ -745,7 +745,7 @@ public final class OmModifySurchargeTypeTaxesAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.IntegerValue surcharge_type_id = 1;</code>
+       * <code>.dstore.values.IntegerValue surcharge_type_id = 1;</code>
        */
       public Builder clearSurchargeTypeId() {
         if (surchargeTypeIdBuilder_ == null) {
@@ -759,7 +759,7 @@ public final class OmModifySurchargeTypeTaxesAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.IntegerValue surcharge_type_id = 1;</code>
+       * <code>.dstore.values.IntegerValue surcharge_type_id = 1;</code>
        */
       public io.dstore.values.IntegerValue.Builder getSurchargeTypeIdBuilder() {
         
@@ -767,7 +767,7 @@ public final class OmModifySurchargeTypeTaxesAd {
         return getSurchargeTypeIdFieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .dstore.values.IntegerValue surcharge_type_id = 1;</code>
+       * <code>.dstore.values.IntegerValue surcharge_type_id = 1;</code>
        */
       public io.dstore.values.IntegerValueOrBuilder getSurchargeTypeIdOrBuilder() {
         if (surchargeTypeIdBuilder_ != null) {
@@ -778,7 +778,7 @@ public final class OmModifySurchargeTypeTaxesAd {
         }
       }
       /**
-       * <code>optional .dstore.values.IntegerValue surcharge_type_id = 1;</code>
+       * <code>.dstore.values.IntegerValue surcharge_type_id = 1;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> 
@@ -796,13 +796,13 @@ public final class OmModifySurchargeTypeTaxesAd {
 
       private boolean surchargeTypeIdNull_ ;
       /**
-       * <code>optional bool surcharge_type_id_null = 1001;</code>
+       * <code>bool surcharge_type_id_null = 1001;</code>
        */
       public boolean getSurchargeTypeIdNull() {
         return surchargeTypeIdNull_;
       }
       /**
-       * <code>optional bool surcharge_type_id_null = 1001;</code>
+       * <code>bool surcharge_type_id_null = 1001;</code>
        */
       public Builder setSurchargeTypeIdNull(boolean value) {
         
@@ -811,7 +811,7 @@ public final class OmModifySurchargeTypeTaxesAd {
         return this;
       }
       /**
-       * <code>optional bool surcharge_type_id_null = 1001;</code>
+       * <code>bool surcharge_type_id_null = 1001;</code>
        */
       public Builder clearSurchargeTypeIdNull() {
         
@@ -824,13 +824,13 @@ public final class OmModifySurchargeTypeTaxesAd {
       private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.values.TimestampValue, io.dstore.values.TimestampValue.Builder, io.dstore.values.TimestampValueOrBuilder> validFromBuilder_;
       /**
-       * <code>optional .dstore.values.TimestampValue valid_from = 2;</code>
+       * <code>.dstore.values.TimestampValue valid_from = 2;</code>
        */
       public boolean hasValidFrom() {
         return validFromBuilder_ != null || validFrom_ != null;
       }
       /**
-       * <code>optional .dstore.values.TimestampValue valid_from = 2;</code>
+       * <code>.dstore.values.TimestampValue valid_from = 2;</code>
        */
       public io.dstore.values.TimestampValue getValidFrom() {
         if (validFromBuilder_ == null) {
@@ -840,7 +840,7 @@ public final class OmModifySurchargeTypeTaxesAd {
         }
       }
       /**
-       * <code>optional .dstore.values.TimestampValue valid_from = 2;</code>
+       * <code>.dstore.values.TimestampValue valid_from = 2;</code>
        */
       public Builder setValidFrom(io.dstore.values.TimestampValue value) {
         if (validFromBuilder_ == null) {
@@ -856,7 +856,7 @@ public final class OmModifySurchargeTypeTaxesAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.TimestampValue valid_from = 2;</code>
+       * <code>.dstore.values.TimestampValue valid_from = 2;</code>
        */
       public Builder setValidFrom(
           io.dstore.values.TimestampValue.Builder builderForValue) {
@@ -870,7 +870,7 @@ public final class OmModifySurchargeTypeTaxesAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.TimestampValue valid_from = 2;</code>
+       * <code>.dstore.values.TimestampValue valid_from = 2;</code>
        */
       public Builder mergeValidFrom(io.dstore.values.TimestampValue value) {
         if (validFromBuilder_ == null) {
@@ -888,7 +888,7 @@ public final class OmModifySurchargeTypeTaxesAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.TimestampValue valid_from = 2;</code>
+       * <code>.dstore.values.TimestampValue valid_from = 2;</code>
        */
       public Builder clearValidFrom() {
         if (validFromBuilder_ == null) {
@@ -902,7 +902,7 @@ public final class OmModifySurchargeTypeTaxesAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.TimestampValue valid_from = 2;</code>
+       * <code>.dstore.values.TimestampValue valid_from = 2;</code>
        */
       public io.dstore.values.TimestampValue.Builder getValidFromBuilder() {
         
@@ -910,7 +910,7 @@ public final class OmModifySurchargeTypeTaxesAd {
         return getValidFromFieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .dstore.values.TimestampValue valid_from = 2;</code>
+       * <code>.dstore.values.TimestampValue valid_from = 2;</code>
        */
       public io.dstore.values.TimestampValueOrBuilder getValidFromOrBuilder() {
         if (validFromBuilder_ != null) {
@@ -921,7 +921,7 @@ public final class OmModifySurchargeTypeTaxesAd {
         }
       }
       /**
-       * <code>optional .dstore.values.TimestampValue valid_from = 2;</code>
+       * <code>.dstore.values.TimestampValue valid_from = 2;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.values.TimestampValue, io.dstore.values.TimestampValue.Builder, io.dstore.values.TimestampValueOrBuilder> 
@@ -939,13 +939,13 @@ public final class OmModifySurchargeTypeTaxesAd {
 
       private boolean validFromNull_ ;
       /**
-       * <code>optional bool valid_from_null = 1002;</code>
+       * <code>bool valid_from_null = 1002;</code>
        */
       public boolean getValidFromNull() {
         return validFromNull_;
       }
       /**
-       * <code>optional bool valid_from_null = 1002;</code>
+       * <code>bool valid_from_null = 1002;</code>
        */
       public Builder setValidFromNull(boolean value) {
         
@@ -954,7 +954,7 @@ public final class OmModifySurchargeTypeTaxesAd {
         return this;
       }
       /**
-       * <code>optional bool valid_from_null = 1002;</code>
+       * <code>bool valid_from_null = 1002;</code>
        */
       public Builder clearValidFromNull() {
         
@@ -967,13 +967,13 @@ public final class OmModifySurchargeTypeTaxesAd {
       private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> taxRateIdBuilder_;
       /**
-       * <code>optional .dstore.values.IntegerValue tax_rate_id = 3;</code>
+       * <code>.dstore.values.IntegerValue tax_rate_id = 3;</code>
        */
       public boolean hasTaxRateId() {
         return taxRateIdBuilder_ != null || taxRateId_ != null;
       }
       /**
-       * <code>optional .dstore.values.IntegerValue tax_rate_id = 3;</code>
+       * <code>.dstore.values.IntegerValue tax_rate_id = 3;</code>
        */
       public io.dstore.values.IntegerValue getTaxRateId() {
         if (taxRateIdBuilder_ == null) {
@@ -983,7 +983,7 @@ public final class OmModifySurchargeTypeTaxesAd {
         }
       }
       /**
-       * <code>optional .dstore.values.IntegerValue tax_rate_id = 3;</code>
+       * <code>.dstore.values.IntegerValue tax_rate_id = 3;</code>
        */
       public Builder setTaxRateId(io.dstore.values.IntegerValue value) {
         if (taxRateIdBuilder_ == null) {
@@ -999,7 +999,7 @@ public final class OmModifySurchargeTypeTaxesAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.IntegerValue tax_rate_id = 3;</code>
+       * <code>.dstore.values.IntegerValue tax_rate_id = 3;</code>
        */
       public Builder setTaxRateId(
           io.dstore.values.IntegerValue.Builder builderForValue) {
@@ -1013,7 +1013,7 @@ public final class OmModifySurchargeTypeTaxesAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.IntegerValue tax_rate_id = 3;</code>
+       * <code>.dstore.values.IntegerValue tax_rate_id = 3;</code>
        */
       public Builder mergeTaxRateId(io.dstore.values.IntegerValue value) {
         if (taxRateIdBuilder_ == null) {
@@ -1031,7 +1031,7 @@ public final class OmModifySurchargeTypeTaxesAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.IntegerValue tax_rate_id = 3;</code>
+       * <code>.dstore.values.IntegerValue tax_rate_id = 3;</code>
        */
       public Builder clearTaxRateId() {
         if (taxRateIdBuilder_ == null) {
@@ -1045,7 +1045,7 @@ public final class OmModifySurchargeTypeTaxesAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.IntegerValue tax_rate_id = 3;</code>
+       * <code>.dstore.values.IntegerValue tax_rate_id = 3;</code>
        */
       public io.dstore.values.IntegerValue.Builder getTaxRateIdBuilder() {
         
@@ -1053,7 +1053,7 @@ public final class OmModifySurchargeTypeTaxesAd {
         return getTaxRateIdFieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .dstore.values.IntegerValue tax_rate_id = 3;</code>
+       * <code>.dstore.values.IntegerValue tax_rate_id = 3;</code>
        */
       public io.dstore.values.IntegerValueOrBuilder getTaxRateIdOrBuilder() {
         if (taxRateIdBuilder_ != null) {
@@ -1064,7 +1064,7 @@ public final class OmModifySurchargeTypeTaxesAd {
         }
       }
       /**
-       * <code>optional .dstore.values.IntegerValue tax_rate_id = 3;</code>
+       * <code>.dstore.values.IntegerValue tax_rate_id = 3;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> 
@@ -1082,13 +1082,13 @@ public final class OmModifySurchargeTypeTaxesAd {
 
       private boolean taxRateIdNull_ ;
       /**
-       * <code>optional bool tax_rate_id_null = 1003;</code>
+       * <code>bool tax_rate_id_null = 1003;</code>
        */
       public boolean getTaxRateIdNull() {
         return taxRateIdNull_;
       }
       /**
-       * <code>optional bool tax_rate_id_null = 1003;</code>
+       * <code>bool tax_rate_id_null = 1003;</code>
        */
       public Builder setTaxRateIdNull(boolean value) {
         
@@ -1097,7 +1097,7 @@ public final class OmModifySurchargeTypeTaxesAd {
         return this;
       }
       /**
-       * <code>optional bool tax_rate_id_null = 1003;</code>
+       * <code>bool tax_rate_id_null = 1003;</code>
        */
       public Builder clearTaxRateIdNull() {
         
@@ -1356,7 +1356,7 @@ public final class OmModifySurchargeTypeTaxesAd {
         com.google.protobuf.MessageOrBuilder {
 
       /**
-       * <code>optional int32 row_id = 10000;</code>
+       * <code>int32 row_id = 10000;</code>
        */
       int getRowId();
     }
@@ -1431,7 +1431,7 @@ public final class OmModifySurchargeTypeTaxesAd {
       public static final int ROW_ID_FIELD_NUMBER = 10000;
       private int rowId_;
       /**
-       * <code>optional int32 row_id = 10000;</code>
+       * <code>int32 row_id = 10000;</code>
        */
       public int getRowId() {
         return rowId_;
@@ -1490,7 +1490,7 @@ public final class OmModifySurchargeTypeTaxesAd {
           return memoizedHashCode;
         }
         int hash = 41;
-        hash = (19 * hash) + getDescriptorForType().hashCode();
+        hash = (19 * hash) + getDescriptor().hashCode();
         hash = (37 * hash) + ROW_ID_FIELD_NUMBER;
         hash = (53 * hash) + getRowId();
         hash = (29 * hash) + unknownFields.hashCode();
@@ -1708,13 +1708,13 @@ public final class OmModifySurchargeTypeTaxesAd {
 
         private int rowId_ ;
         /**
-         * <code>optional int32 row_id = 10000;</code>
+         * <code>int32 row_id = 10000;</code>
          */
         public int getRowId() {
           return rowId_;
         }
         /**
-         * <code>optional int32 row_id = 10000;</code>
+         * <code>int32 row_id = 10000;</code>
          */
         public Builder setRowId(int value) {
           
@@ -1723,7 +1723,7 @@ public final class OmModifySurchargeTypeTaxesAd {
           return this;
         }
         /**
-         * <code>optional int32 row_id = 10000;</code>
+         * <code>int32 row_id = 10000;</code>
          */
         public Builder clearRowId() {
           
@@ -1976,7 +1976,7 @@ public final class OmModifySurchargeTypeTaxesAd {
         return memoizedHashCode;
       }
       int hash = 41;
-      hash = (19 * hash) + getDescriptorForType().hashCode();
+      hash = (19 * hash) + getDescriptor().hashCode();
       if (getMetaInformationCount() > 0) {
         hash = (37 * hash) + META_INFORMATION_FIELD_NUMBER;
         hash = (53 * hash) + getMetaInformationList().hashCode();

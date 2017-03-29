@@ -19,398 +19,398 @@ public final class ImSearchProductTreeNodesPu {
       com.google.protobuf.MessageOrBuilder {
 
     /**
-     * <code>optional .dstore.values.IntegerValue domain_tree_node_id = 1;</code>
+     * <code>.dstore.values.IntegerValue domain_tree_node_id = 1;</code>
      */
     boolean hasDomainTreeNodeId();
     /**
-     * <code>optional .dstore.values.IntegerValue domain_tree_node_id = 1;</code>
+     * <code>.dstore.values.IntegerValue domain_tree_node_id = 1;</code>
      */
     io.dstore.values.IntegerValue getDomainTreeNodeId();
     /**
-     * <code>optional .dstore.values.IntegerValue domain_tree_node_id = 1;</code>
+     * <code>.dstore.values.IntegerValue domain_tree_node_id = 1;</code>
      */
     io.dstore.values.IntegerValueOrBuilder getDomainTreeNodeIdOrBuilder();
 
     /**
-     * <code>optional bool domain_tree_node_id_null = 1001;</code>
+     * <code>bool domain_tree_node_id_null = 1001;</code>
      */
     boolean getDomainTreeNodeIdNull();
 
     /**
-     * <code>optional .dstore.values.StringValue node_characteristic_ids = 2;</code>
+     * <code>.dstore.values.StringValue node_characteristic_ids = 2;</code>
      */
     boolean hasNodeCharacteristicIds();
     /**
-     * <code>optional .dstore.values.StringValue node_characteristic_ids = 2;</code>
+     * <code>.dstore.values.StringValue node_characteristic_ids = 2;</code>
      */
     io.dstore.values.StringValue getNodeCharacteristicIds();
     /**
-     * <code>optional .dstore.values.StringValue node_characteristic_ids = 2;</code>
+     * <code>.dstore.values.StringValue node_characteristic_ids = 2;</code>
      */
     io.dstore.values.StringValueOrBuilder getNodeCharacteristicIdsOrBuilder();
 
     /**
-     * <code>optional bool node_characteristic_ids_null = 1002;</code>
+     * <code>bool node_characteristic_ids_null = 1002;</code>
      */
     boolean getNodeCharacteristicIdsNull();
 
     /**
-     * <code>optional .dstore.values.StringValue value = 3;</code>
+     * <code>.dstore.values.StringValue value = 3;</code>
      */
     boolean hasValue();
     /**
-     * <code>optional .dstore.values.StringValue value = 3;</code>
+     * <code>.dstore.values.StringValue value = 3;</code>
      */
     io.dstore.values.StringValue getValue();
     /**
-     * <code>optional .dstore.values.StringValue value = 3;</code>
+     * <code>.dstore.values.StringValue value = 3;</code>
      */
     io.dstore.values.StringValueOrBuilder getValueOrBuilder();
 
     /**
-     * <code>optional bool value_null = 1003;</code>
+     * <code>bool value_null = 1003;</code>
      */
     boolean getValueNull();
 
     /**
-     * <code>optional .dstore.values.BooleanValue is_like = 4;</code>
+     * <code>.dstore.values.BooleanValue is_like = 4;</code>
      */
     boolean hasIsLike();
     /**
-     * <code>optional .dstore.values.BooleanValue is_like = 4;</code>
+     * <code>.dstore.values.BooleanValue is_like = 4;</code>
      */
     io.dstore.values.BooleanValue getIsLike();
     /**
-     * <code>optional .dstore.values.BooleanValue is_like = 4;</code>
+     * <code>.dstore.values.BooleanValue is_like = 4;</code>
      */
     io.dstore.values.BooleanValueOrBuilder getIsLikeOrBuilder();
 
     /**
-     * <code>optional bool is_like_null = 1004;</code>
+     * <code>bool is_like_null = 1004;</code>
      */
     boolean getIsLikeNull();
 
     /**
-     * <code>optional .dstore.values.BooleanValue include_inherited = 5;</code>
+     * <code>.dstore.values.BooleanValue include_inherited = 5;</code>
      */
     boolean hasIncludeInherited();
     /**
-     * <code>optional .dstore.values.BooleanValue include_inherited = 5;</code>
+     * <code>.dstore.values.BooleanValue include_inherited = 5;</code>
      */
     io.dstore.values.BooleanValue getIncludeInherited();
     /**
-     * <code>optional .dstore.values.BooleanValue include_inherited = 5;</code>
+     * <code>.dstore.values.BooleanValue include_inherited = 5;</code>
      */
     io.dstore.values.BooleanValueOrBuilder getIncludeInheritedOrBuilder();
 
     /**
-     * <code>optional bool include_inherited_null = 1005;</code>
+     * <code>bool include_inherited_null = 1005;</code>
      */
     boolean getIncludeInheritedNull();
 
     /**
-     * <code>optional .dstore.values.IntegerValue start_at_row_no = 6;</code>
+     * <code>.dstore.values.IntegerValue start_at_row_no = 6;</code>
      */
     boolean hasStartAtRowNo();
     /**
-     * <code>optional .dstore.values.IntegerValue start_at_row_no = 6;</code>
+     * <code>.dstore.values.IntegerValue start_at_row_no = 6;</code>
      */
     io.dstore.values.IntegerValue getStartAtRowNo();
     /**
-     * <code>optional .dstore.values.IntegerValue start_at_row_no = 6;</code>
+     * <code>.dstore.values.IntegerValue start_at_row_no = 6;</code>
      */
     io.dstore.values.IntegerValueOrBuilder getStartAtRowNoOrBuilder();
 
     /**
-     * <code>optional bool start_at_row_no_null = 1006;</code>
+     * <code>bool start_at_row_no_null = 1006;</code>
      */
     boolean getStartAtRowNoNull();
 
     /**
-     * <code>optional .dstore.values.IntegerValue row_count = 7;</code>
+     * <code>.dstore.values.IntegerValue row_count = 7;</code>
      */
     boolean hasRowCount();
     /**
-     * <code>optional .dstore.values.IntegerValue row_count = 7;</code>
+     * <code>.dstore.values.IntegerValue row_count = 7;</code>
      */
     io.dstore.values.IntegerValue getRowCount();
     /**
-     * <code>optional .dstore.values.IntegerValue row_count = 7;</code>
+     * <code>.dstore.values.IntegerValue row_count = 7;</code>
      */
     io.dstore.values.IntegerValueOrBuilder getRowCountOrBuilder();
 
     /**
-     * <code>optional bool row_count_null = 1007;</code>
+     * <code>bool row_count_null = 1007;</code>
      */
     boolean getRowCountNull();
 
     /**
-     * <code>optional .dstore.values.BooleanValue include_value_details = 8;</code>
+     * <code>.dstore.values.BooleanValue include_value_details = 8;</code>
      */
     boolean hasIncludeValueDetails();
     /**
-     * <code>optional .dstore.values.BooleanValue include_value_details = 8;</code>
+     * <code>.dstore.values.BooleanValue include_value_details = 8;</code>
      */
     io.dstore.values.BooleanValue getIncludeValueDetails();
     /**
-     * <code>optional .dstore.values.BooleanValue include_value_details = 8;</code>
+     * <code>.dstore.values.BooleanValue include_value_details = 8;</code>
      */
     io.dstore.values.BooleanValueOrBuilder getIncludeValueDetailsOrBuilder();
 
     /**
-     * <code>optional bool include_value_details_null = 1008;</code>
+     * <code>bool include_value_details_null = 1008;</code>
      */
     boolean getIncludeValueDetailsNull();
 
     /**
-     * <code>optional .dstore.values.BooleanValue include_variants = 9;</code>
+     * <code>.dstore.values.BooleanValue include_variants = 9;</code>
      */
     boolean hasIncludeVariants();
     /**
-     * <code>optional .dstore.values.BooleanValue include_variants = 9;</code>
+     * <code>.dstore.values.BooleanValue include_variants = 9;</code>
      */
     io.dstore.values.BooleanValue getIncludeVariants();
     /**
-     * <code>optional .dstore.values.BooleanValue include_variants = 9;</code>
+     * <code>.dstore.values.BooleanValue include_variants = 9;</code>
      */
     io.dstore.values.BooleanValueOrBuilder getIncludeVariantsOrBuilder();
 
     /**
-     * <code>optional bool include_variants_null = 1009;</code>
+     * <code>bool include_variants_null = 1009;</code>
      */
     boolean getIncludeVariantsNull();
 
     /**
-     * <code>optional .dstore.values.BooleanValue maintain_search_item_lacks = 10;</code>
+     * <code>.dstore.values.BooleanValue maintain_search_item_lacks = 10;</code>
      */
     boolean hasMaintainSearchItemLacks();
     /**
-     * <code>optional .dstore.values.BooleanValue maintain_search_item_lacks = 10;</code>
+     * <code>.dstore.values.BooleanValue maintain_search_item_lacks = 10;</code>
      */
     io.dstore.values.BooleanValue getMaintainSearchItemLacks();
     /**
-     * <code>optional .dstore.values.BooleanValue maintain_search_item_lacks = 10;</code>
+     * <code>.dstore.values.BooleanValue maintain_search_item_lacks = 10;</code>
      */
     io.dstore.values.BooleanValueOrBuilder getMaintainSearchItemLacksOrBuilder();
 
     /**
-     * <code>optional bool maintain_search_item_lacks_null = 1010;</code>
+     * <code>bool maintain_search_item_lacks_null = 1010;</code>
      */
     boolean getMaintainSearchItemLacksNull();
 
     /**
-     * <code>optional .dstore.values.IntegerValue binary_characteristic_value_id = 11;</code>
+     * <code>.dstore.values.IntegerValue binary_characteristic_value_id = 11;</code>
      */
     boolean hasBinaryCharacteristicValueId();
     /**
-     * <code>optional .dstore.values.IntegerValue binary_characteristic_value_id = 11;</code>
+     * <code>.dstore.values.IntegerValue binary_characteristic_value_id = 11;</code>
      */
     io.dstore.values.IntegerValue getBinaryCharacteristicValueId();
     /**
-     * <code>optional .dstore.values.IntegerValue binary_characteristic_value_id = 11;</code>
+     * <code>.dstore.values.IntegerValue binary_characteristic_value_id = 11;</code>
      */
     io.dstore.values.IntegerValueOrBuilder getBinaryCharacteristicValueIdOrBuilder();
 
     /**
-     * <code>optional bool binary_characteristic_value_id_null = 1011;</code>
+     * <code>bool binary_characteristic_value_id_null = 1011;</code>
      */
     boolean getBinaryCharacteristicValueIdNull();
 
     /**
-     * <code>optional .dstore.values.IntegerValue filter_by_characteristic_id = 12;</code>
+     * <code>.dstore.values.IntegerValue filter_by_characteristic_id = 12;</code>
      */
     boolean hasFilterByCharacteristicId();
     /**
-     * <code>optional .dstore.values.IntegerValue filter_by_characteristic_id = 12;</code>
+     * <code>.dstore.values.IntegerValue filter_by_characteristic_id = 12;</code>
      */
     io.dstore.values.IntegerValue getFilterByCharacteristicId();
     /**
-     * <code>optional .dstore.values.IntegerValue filter_by_characteristic_id = 12;</code>
+     * <code>.dstore.values.IntegerValue filter_by_characteristic_id = 12;</code>
      */
     io.dstore.values.IntegerValueOrBuilder getFilterByCharacteristicIdOrBuilder();
 
     /**
-     * <code>optional bool filter_by_characteristic_id_null = 1012;</code>
+     * <code>bool filter_by_characteristic_id_null = 1012;</code>
      */
     boolean getFilterByCharacteristicIdNull();
 
     /**
-     * <code>optional .dstore.values.StringValue filter_by_charac_value = 13;</code>
+     * <code>.dstore.values.StringValue filter_by_charac_value = 13;</code>
      */
     boolean hasFilterByCharacValue();
     /**
-     * <code>optional .dstore.values.StringValue filter_by_charac_value = 13;</code>
+     * <code>.dstore.values.StringValue filter_by_charac_value = 13;</code>
      */
     io.dstore.values.StringValue getFilterByCharacValue();
     /**
-     * <code>optional .dstore.values.StringValue filter_by_charac_value = 13;</code>
+     * <code>.dstore.values.StringValue filter_by_charac_value = 13;</code>
      */
     io.dstore.values.StringValueOrBuilder getFilterByCharacValueOrBuilder();
 
     /**
-     * <code>optional bool filter_by_charac_value_null = 1013;</code>
+     * <code>bool filter_by_charac_value_null = 1013;</code>
      */
     boolean getFilterByCharacValueNull();
 
     /**
-     * <code>optional .dstore.values.StringValue country = 14;</code>
+     * <code>.dstore.values.StringValue country = 14;</code>
      */
     boolean hasCountry();
     /**
-     * <code>optional .dstore.values.StringValue country = 14;</code>
+     * <code>.dstore.values.StringValue country = 14;</code>
      */
     io.dstore.values.StringValue getCountry();
     /**
-     * <code>optional .dstore.values.StringValue country = 14;</code>
+     * <code>.dstore.values.StringValue country = 14;</code>
      */
     io.dstore.values.StringValueOrBuilder getCountryOrBuilder();
 
     /**
-     * <code>optional bool country_null = 1014;</code>
+     * <code>bool country_null = 1014;</code>
      */
     boolean getCountryNull();
 
     /**
-     * <code>optional .dstore.values.BooleanValue negate_filter_by_params = 15;</code>
+     * <code>.dstore.values.BooleanValue negate_filter_by_params = 15;</code>
      */
     boolean hasNegateFilterByParams();
     /**
-     * <code>optional .dstore.values.BooleanValue negate_filter_by_params = 15;</code>
+     * <code>.dstore.values.BooleanValue negate_filter_by_params = 15;</code>
      */
     io.dstore.values.BooleanValue getNegateFilterByParams();
     /**
-     * <code>optional .dstore.values.BooleanValue negate_filter_by_params = 15;</code>
+     * <code>.dstore.values.BooleanValue negate_filter_by_params = 15;</code>
      */
     io.dstore.values.BooleanValueOrBuilder getNegateFilterByParamsOrBuilder();
 
     /**
-     * <code>optional bool negate_filter_by_params_null = 1015;</code>
+     * <code>bool negate_filter_by_params_null = 1015;</code>
      */
     boolean getNegateFilterByParamsNull();
 
     /**
-     * <code>optional .dstore.values.IntegerValue count = 16;</code>
+     * <code>.dstore.values.IntegerValue count = 16;</code>
      */
     boolean hasCount();
     /**
-     * <code>optional .dstore.values.IntegerValue count = 16;</code>
+     * <code>.dstore.values.IntegerValue count = 16;</code>
      */
     io.dstore.values.IntegerValue getCount();
     /**
-     * <code>optional .dstore.values.IntegerValue count = 16;</code>
+     * <code>.dstore.values.IntegerValue count = 16;</code>
      */
     io.dstore.values.IntegerValueOrBuilder getCountOrBuilder();
 
     /**
-     * <code>optional bool count_null = 1016;</code>
+     * <code>bool count_null = 1016;</code>
      */
     boolean getCountNull();
 
     /**
-     * <code>optional .dstore.values.StringValue sort_by_characteristic_id_list = 17;</code>
+     * <code>.dstore.values.StringValue sort_by_characteristic_id_list = 17;</code>
      */
     boolean hasSortByCharacteristicIdList();
     /**
-     * <code>optional .dstore.values.StringValue sort_by_characteristic_id_list = 17;</code>
+     * <code>.dstore.values.StringValue sort_by_characteristic_id_list = 17;</code>
      */
     io.dstore.values.StringValue getSortByCharacteristicIdList();
     /**
-     * <code>optional .dstore.values.StringValue sort_by_characteristic_id_list = 17;</code>
+     * <code>.dstore.values.StringValue sort_by_characteristic_id_list = 17;</code>
      */
     io.dstore.values.StringValueOrBuilder getSortByCharacteristicIdListOrBuilder();
 
     /**
-     * <code>optional bool sort_by_characteristic_id_list_null = 1017;</code>
+     * <code>bool sort_by_characteristic_id_list_null = 1017;</code>
      */
     boolean getSortByCharacteristicIdListNull();
 
     /**
-     * <code>optional .dstore.values.StringValue sort_option_list = 18;</code>
+     * <code>.dstore.values.StringValue sort_option_list = 18;</code>
      */
     boolean hasSortOptionList();
     /**
-     * <code>optional .dstore.values.StringValue sort_option_list = 18;</code>
+     * <code>.dstore.values.StringValue sort_option_list = 18;</code>
      */
     io.dstore.values.StringValue getSortOptionList();
     /**
-     * <code>optional .dstore.values.StringValue sort_option_list = 18;</code>
+     * <code>.dstore.values.StringValue sort_option_list = 18;</code>
      */
     io.dstore.values.StringValueOrBuilder getSortOptionListOrBuilder();
 
     /**
-     * <code>optional bool sort_option_list_null = 1018;</code>
+     * <code>bool sort_option_list_null = 1018;</code>
      */
     boolean getSortOptionListNull();
 
     /**
-     * <code>optional .dstore.values.StringValue inherit_depth_option_list = 19;</code>
+     * <code>.dstore.values.StringValue inherit_depth_option_list = 19;</code>
      */
     boolean hasInheritDepthOptionList();
     /**
-     * <code>optional .dstore.values.StringValue inherit_depth_option_list = 19;</code>
+     * <code>.dstore.values.StringValue inherit_depth_option_list = 19;</code>
      */
     io.dstore.values.StringValue getInheritDepthOptionList();
     /**
-     * <code>optional .dstore.values.StringValue inherit_depth_option_list = 19;</code>
+     * <code>.dstore.values.StringValue inherit_depth_option_list = 19;</code>
      */
     io.dstore.values.StringValueOrBuilder getInheritDepthOptionListOrBuilder();
 
     /**
-     * <code>optional bool inherit_depth_option_list_null = 1019;</code>
+     * <code>bool inherit_depth_option_list_null = 1019;</code>
      */
     boolean getInheritDepthOptionListNull();
 
     /**
-     * <code>optional .dstore.values.StringValue recursive_evaluation_option_list = 20;</code>
+     * <code>.dstore.values.StringValue recursive_evaluation_option_list = 20;</code>
      */
     boolean hasRecursiveEvaluationOptionList();
     /**
-     * <code>optional .dstore.values.StringValue recursive_evaluation_option_list = 20;</code>
+     * <code>.dstore.values.StringValue recursive_evaluation_option_list = 20;</code>
      */
     io.dstore.values.StringValue getRecursiveEvaluationOptionList();
     /**
-     * <code>optional .dstore.values.StringValue recursive_evaluation_option_list = 20;</code>
+     * <code>.dstore.values.StringValue recursive_evaluation_option_list = 20;</code>
      */
     io.dstore.values.StringValueOrBuilder getRecursiveEvaluationOptionListOrBuilder();
 
     /**
-     * <code>optional bool recursive_evaluation_option_list_null = 1020;</code>
+     * <code>bool recursive_evaluation_option_list_null = 1020;</code>
      */
     boolean getRecursiveEvaluationOptionListNull();
 
     /**
-     * <code>optional .dstore.values.BooleanValue get_values_for_sort_by_characs = 21;</code>
+     * <code>.dstore.values.BooleanValue get_values_for_sort_by_characs = 21;</code>
      */
     boolean hasGetValuesForSortByCharacs();
     /**
-     * <code>optional .dstore.values.BooleanValue get_values_for_sort_by_characs = 21;</code>
+     * <code>.dstore.values.BooleanValue get_values_for_sort_by_characs = 21;</code>
      */
     io.dstore.values.BooleanValue getGetValuesForSortByCharacs();
     /**
-     * <code>optional .dstore.values.BooleanValue get_values_for_sort_by_characs = 21;</code>
+     * <code>.dstore.values.BooleanValue get_values_for_sort_by_characs = 21;</code>
      */
     io.dstore.values.BooleanValueOrBuilder getGetValuesForSortByCharacsOrBuilder();
 
     /**
-     * <code>optional bool get_values_for_sort_by_characs_null = 1021;</code>
+     * <code>bool get_values_for_sort_by_characs_null = 1021;</code>
      */
     boolean getGetValuesForSortByCharacsNull();
 
     /**
-     * <code>optional .dstore.values.IntegerValue output_into_one_id = 22;</code>
+     * <code>.dstore.values.IntegerValue output_into_one_id = 22;</code>
      */
     boolean hasOutputIntoOneId();
     /**
-     * <code>optional .dstore.values.IntegerValue output_into_one_id = 22;</code>
+     * <code>.dstore.values.IntegerValue output_into_one_id = 22;</code>
      */
     io.dstore.values.IntegerValue getOutputIntoOneId();
     /**
-     * <code>optional .dstore.values.IntegerValue output_into_one_id = 22;</code>
+     * <code>.dstore.values.IntegerValue output_into_one_id = 22;</code>
      */
     io.dstore.values.IntegerValueOrBuilder getOutputIntoOneIdOrBuilder();
 
     /**
-     * <code>optional bool output_into_one_id_null = 1022;</code>
+     * <code>bool output_into_one_id_null = 1022;</code>
      */
     boolean getOutputIntoOneIdNull();
   }
@@ -898,19 +898,19 @@ public final class ImSearchProductTreeNodesPu {
     public static final int DOMAIN_TREE_NODE_ID_FIELD_NUMBER = 1;
     private io.dstore.values.IntegerValue domainTreeNodeId_;
     /**
-     * <code>optional .dstore.values.IntegerValue domain_tree_node_id = 1;</code>
+     * <code>.dstore.values.IntegerValue domain_tree_node_id = 1;</code>
      */
     public boolean hasDomainTreeNodeId() {
       return domainTreeNodeId_ != null;
     }
     /**
-     * <code>optional .dstore.values.IntegerValue domain_tree_node_id = 1;</code>
+     * <code>.dstore.values.IntegerValue domain_tree_node_id = 1;</code>
      */
     public io.dstore.values.IntegerValue getDomainTreeNodeId() {
       return domainTreeNodeId_ == null ? io.dstore.values.IntegerValue.getDefaultInstance() : domainTreeNodeId_;
     }
     /**
-     * <code>optional .dstore.values.IntegerValue domain_tree_node_id = 1;</code>
+     * <code>.dstore.values.IntegerValue domain_tree_node_id = 1;</code>
      */
     public io.dstore.values.IntegerValueOrBuilder getDomainTreeNodeIdOrBuilder() {
       return getDomainTreeNodeId();
@@ -919,7 +919,7 @@ public final class ImSearchProductTreeNodesPu {
     public static final int DOMAIN_TREE_NODE_ID_NULL_FIELD_NUMBER = 1001;
     private boolean domainTreeNodeIdNull_;
     /**
-     * <code>optional bool domain_tree_node_id_null = 1001;</code>
+     * <code>bool domain_tree_node_id_null = 1001;</code>
      */
     public boolean getDomainTreeNodeIdNull() {
       return domainTreeNodeIdNull_;
@@ -928,19 +928,19 @@ public final class ImSearchProductTreeNodesPu {
     public static final int NODE_CHARACTERISTIC_IDS_FIELD_NUMBER = 2;
     private io.dstore.values.StringValue nodeCharacteristicIds_;
     /**
-     * <code>optional .dstore.values.StringValue node_characteristic_ids = 2;</code>
+     * <code>.dstore.values.StringValue node_characteristic_ids = 2;</code>
      */
     public boolean hasNodeCharacteristicIds() {
       return nodeCharacteristicIds_ != null;
     }
     /**
-     * <code>optional .dstore.values.StringValue node_characteristic_ids = 2;</code>
+     * <code>.dstore.values.StringValue node_characteristic_ids = 2;</code>
      */
     public io.dstore.values.StringValue getNodeCharacteristicIds() {
       return nodeCharacteristicIds_ == null ? io.dstore.values.StringValue.getDefaultInstance() : nodeCharacteristicIds_;
     }
     /**
-     * <code>optional .dstore.values.StringValue node_characteristic_ids = 2;</code>
+     * <code>.dstore.values.StringValue node_characteristic_ids = 2;</code>
      */
     public io.dstore.values.StringValueOrBuilder getNodeCharacteristicIdsOrBuilder() {
       return getNodeCharacteristicIds();
@@ -949,7 +949,7 @@ public final class ImSearchProductTreeNodesPu {
     public static final int NODE_CHARACTERISTIC_IDS_NULL_FIELD_NUMBER = 1002;
     private boolean nodeCharacteristicIdsNull_;
     /**
-     * <code>optional bool node_characteristic_ids_null = 1002;</code>
+     * <code>bool node_characteristic_ids_null = 1002;</code>
      */
     public boolean getNodeCharacteristicIdsNull() {
       return nodeCharacteristicIdsNull_;
@@ -958,19 +958,19 @@ public final class ImSearchProductTreeNodesPu {
     public static final int VALUE_FIELD_NUMBER = 3;
     private io.dstore.values.StringValue value_;
     /**
-     * <code>optional .dstore.values.StringValue value = 3;</code>
+     * <code>.dstore.values.StringValue value = 3;</code>
      */
     public boolean hasValue() {
       return value_ != null;
     }
     /**
-     * <code>optional .dstore.values.StringValue value = 3;</code>
+     * <code>.dstore.values.StringValue value = 3;</code>
      */
     public io.dstore.values.StringValue getValue() {
       return value_ == null ? io.dstore.values.StringValue.getDefaultInstance() : value_;
     }
     /**
-     * <code>optional .dstore.values.StringValue value = 3;</code>
+     * <code>.dstore.values.StringValue value = 3;</code>
      */
     public io.dstore.values.StringValueOrBuilder getValueOrBuilder() {
       return getValue();
@@ -979,7 +979,7 @@ public final class ImSearchProductTreeNodesPu {
     public static final int VALUE_NULL_FIELD_NUMBER = 1003;
     private boolean valueNull_;
     /**
-     * <code>optional bool value_null = 1003;</code>
+     * <code>bool value_null = 1003;</code>
      */
     public boolean getValueNull() {
       return valueNull_;
@@ -988,19 +988,19 @@ public final class ImSearchProductTreeNodesPu {
     public static final int IS_LIKE_FIELD_NUMBER = 4;
     private io.dstore.values.BooleanValue isLike_;
     /**
-     * <code>optional .dstore.values.BooleanValue is_like = 4;</code>
+     * <code>.dstore.values.BooleanValue is_like = 4;</code>
      */
     public boolean hasIsLike() {
       return isLike_ != null;
     }
     /**
-     * <code>optional .dstore.values.BooleanValue is_like = 4;</code>
+     * <code>.dstore.values.BooleanValue is_like = 4;</code>
      */
     public io.dstore.values.BooleanValue getIsLike() {
       return isLike_ == null ? io.dstore.values.BooleanValue.getDefaultInstance() : isLike_;
     }
     /**
-     * <code>optional .dstore.values.BooleanValue is_like = 4;</code>
+     * <code>.dstore.values.BooleanValue is_like = 4;</code>
      */
     public io.dstore.values.BooleanValueOrBuilder getIsLikeOrBuilder() {
       return getIsLike();
@@ -1009,7 +1009,7 @@ public final class ImSearchProductTreeNodesPu {
     public static final int IS_LIKE_NULL_FIELD_NUMBER = 1004;
     private boolean isLikeNull_;
     /**
-     * <code>optional bool is_like_null = 1004;</code>
+     * <code>bool is_like_null = 1004;</code>
      */
     public boolean getIsLikeNull() {
       return isLikeNull_;
@@ -1018,19 +1018,19 @@ public final class ImSearchProductTreeNodesPu {
     public static final int INCLUDE_INHERITED_FIELD_NUMBER = 5;
     private io.dstore.values.BooleanValue includeInherited_;
     /**
-     * <code>optional .dstore.values.BooleanValue include_inherited = 5;</code>
+     * <code>.dstore.values.BooleanValue include_inherited = 5;</code>
      */
     public boolean hasIncludeInherited() {
       return includeInherited_ != null;
     }
     /**
-     * <code>optional .dstore.values.BooleanValue include_inherited = 5;</code>
+     * <code>.dstore.values.BooleanValue include_inherited = 5;</code>
      */
     public io.dstore.values.BooleanValue getIncludeInherited() {
       return includeInherited_ == null ? io.dstore.values.BooleanValue.getDefaultInstance() : includeInherited_;
     }
     /**
-     * <code>optional .dstore.values.BooleanValue include_inherited = 5;</code>
+     * <code>.dstore.values.BooleanValue include_inherited = 5;</code>
      */
     public io.dstore.values.BooleanValueOrBuilder getIncludeInheritedOrBuilder() {
       return getIncludeInherited();
@@ -1039,7 +1039,7 @@ public final class ImSearchProductTreeNodesPu {
     public static final int INCLUDE_INHERITED_NULL_FIELD_NUMBER = 1005;
     private boolean includeInheritedNull_;
     /**
-     * <code>optional bool include_inherited_null = 1005;</code>
+     * <code>bool include_inherited_null = 1005;</code>
      */
     public boolean getIncludeInheritedNull() {
       return includeInheritedNull_;
@@ -1048,19 +1048,19 @@ public final class ImSearchProductTreeNodesPu {
     public static final int START_AT_ROW_NO_FIELD_NUMBER = 6;
     private io.dstore.values.IntegerValue startAtRowNo_;
     /**
-     * <code>optional .dstore.values.IntegerValue start_at_row_no = 6;</code>
+     * <code>.dstore.values.IntegerValue start_at_row_no = 6;</code>
      */
     public boolean hasStartAtRowNo() {
       return startAtRowNo_ != null;
     }
     /**
-     * <code>optional .dstore.values.IntegerValue start_at_row_no = 6;</code>
+     * <code>.dstore.values.IntegerValue start_at_row_no = 6;</code>
      */
     public io.dstore.values.IntegerValue getStartAtRowNo() {
       return startAtRowNo_ == null ? io.dstore.values.IntegerValue.getDefaultInstance() : startAtRowNo_;
     }
     /**
-     * <code>optional .dstore.values.IntegerValue start_at_row_no = 6;</code>
+     * <code>.dstore.values.IntegerValue start_at_row_no = 6;</code>
      */
     public io.dstore.values.IntegerValueOrBuilder getStartAtRowNoOrBuilder() {
       return getStartAtRowNo();
@@ -1069,7 +1069,7 @@ public final class ImSearchProductTreeNodesPu {
     public static final int START_AT_ROW_NO_NULL_FIELD_NUMBER = 1006;
     private boolean startAtRowNoNull_;
     /**
-     * <code>optional bool start_at_row_no_null = 1006;</code>
+     * <code>bool start_at_row_no_null = 1006;</code>
      */
     public boolean getStartAtRowNoNull() {
       return startAtRowNoNull_;
@@ -1078,19 +1078,19 @@ public final class ImSearchProductTreeNodesPu {
     public static final int ROW_COUNT_FIELD_NUMBER = 7;
     private io.dstore.values.IntegerValue rowCount_;
     /**
-     * <code>optional .dstore.values.IntegerValue row_count = 7;</code>
+     * <code>.dstore.values.IntegerValue row_count = 7;</code>
      */
     public boolean hasRowCount() {
       return rowCount_ != null;
     }
     /**
-     * <code>optional .dstore.values.IntegerValue row_count = 7;</code>
+     * <code>.dstore.values.IntegerValue row_count = 7;</code>
      */
     public io.dstore.values.IntegerValue getRowCount() {
       return rowCount_ == null ? io.dstore.values.IntegerValue.getDefaultInstance() : rowCount_;
     }
     /**
-     * <code>optional .dstore.values.IntegerValue row_count = 7;</code>
+     * <code>.dstore.values.IntegerValue row_count = 7;</code>
      */
     public io.dstore.values.IntegerValueOrBuilder getRowCountOrBuilder() {
       return getRowCount();
@@ -1099,7 +1099,7 @@ public final class ImSearchProductTreeNodesPu {
     public static final int ROW_COUNT_NULL_FIELD_NUMBER = 1007;
     private boolean rowCountNull_;
     /**
-     * <code>optional bool row_count_null = 1007;</code>
+     * <code>bool row_count_null = 1007;</code>
      */
     public boolean getRowCountNull() {
       return rowCountNull_;
@@ -1108,19 +1108,19 @@ public final class ImSearchProductTreeNodesPu {
     public static final int INCLUDE_VALUE_DETAILS_FIELD_NUMBER = 8;
     private io.dstore.values.BooleanValue includeValueDetails_;
     /**
-     * <code>optional .dstore.values.BooleanValue include_value_details = 8;</code>
+     * <code>.dstore.values.BooleanValue include_value_details = 8;</code>
      */
     public boolean hasIncludeValueDetails() {
       return includeValueDetails_ != null;
     }
     /**
-     * <code>optional .dstore.values.BooleanValue include_value_details = 8;</code>
+     * <code>.dstore.values.BooleanValue include_value_details = 8;</code>
      */
     public io.dstore.values.BooleanValue getIncludeValueDetails() {
       return includeValueDetails_ == null ? io.dstore.values.BooleanValue.getDefaultInstance() : includeValueDetails_;
     }
     /**
-     * <code>optional .dstore.values.BooleanValue include_value_details = 8;</code>
+     * <code>.dstore.values.BooleanValue include_value_details = 8;</code>
      */
     public io.dstore.values.BooleanValueOrBuilder getIncludeValueDetailsOrBuilder() {
       return getIncludeValueDetails();
@@ -1129,7 +1129,7 @@ public final class ImSearchProductTreeNodesPu {
     public static final int INCLUDE_VALUE_DETAILS_NULL_FIELD_NUMBER = 1008;
     private boolean includeValueDetailsNull_;
     /**
-     * <code>optional bool include_value_details_null = 1008;</code>
+     * <code>bool include_value_details_null = 1008;</code>
      */
     public boolean getIncludeValueDetailsNull() {
       return includeValueDetailsNull_;
@@ -1138,19 +1138,19 @@ public final class ImSearchProductTreeNodesPu {
     public static final int INCLUDE_VARIANTS_FIELD_NUMBER = 9;
     private io.dstore.values.BooleanValue includeVariants_;
     /**
-     * <code>optional .dstore.values.BooleanValue include_variants = 9;</code>
+     * <code>.dstore.values.BooleanValue include_variants = 9;</code>
      */
     public boolean hasIncludeVariants() {
       return includeVariants_ != null;
     }
     /**
-     * <code>optional .dstore.values.BooleanValue include_variants = 9;</code>
+     * <code>.dstore.values.BooleanValue include_variants = 9;</code>
      */
     public io.dstore.values.BooleanValue getIncludeVariants() {
       return includeVariants_ == null ? io.dstore.values.BooleanValue.getDefaultInstance() : includeVariants_;
     }
     /**
-     * <code>optional .dstore.values.BooleanValue include_variants = 9;</code>
+     * <code>.dstore.values.BooleanValue include_variants = 9;</code>
      */
     public io.dstore.values.BooleanValueOrBuilder getIncludeVariantsOrBuilder() {
       return getIncludeVariants();
@@ -1159,7 +1159,7 @@ public final class ImSearchProductTreeNodesPu {
     public static final int INCLUDE_VARIANTS_NULL_FIELD_NUMBER = 1009;
     private boolean includeVariantsNull_;
     /**
-     * <code>optional bool include_variants_null = 1009;</code>
+     * <code>bool include_variants_null = 1009;</code>
      */
     public boolean getIncludeVariantsNull() {
       return includeVariantsNull_;
@@ -1168,19 +1168,19 @@ public final class ImSearchProductTreeNodesPu {
     public static final int MAINTAIN_SEARCH_ITEM_LACKS_FIELD_NUMBER = 10;
     private io.dstore.values.BooleanValue maintainSearchItemLacks_;
     /**
-     * <code>optional .dstore.values.BooleanValue maintain_search_item_lacks = 10;</code>
+     * <code>.dstore.values.BooleanValue maintain_search_item_lacks = 10;</code>
      */
     public boolean hasMaintainSearchItemLacks() {
       return maintainSearchItemLacks_ != null;
     }
     /**
-     * <code>optional .dstore.values.BooleanValue maintain_search_item_lacks = 10;</code>
+     * <code>.dstore.values.BooleanValue maintain_search_item_lacks = 10;</code>
      */
     public io.dstore.values.BooleanValue getMaintainSearchItemLacks() {
       return maintainSearchItemLacks_ == null ? io.dstore.values.BooleanValue.getDefaultInstance() : maintainSearchItemLacks_;
     }
     /**
-     * <code>optional .dstore.values.BooleanValue maintain_search_item_lacks = 10;</code>
+     * <code>.dstore.values.BooleanValue maintain_search_item_lacks = 10;</code>
      */
     public io.dstore.values.BooleanValueOrBuilder getMaintainSearchItemLacksOrBuilder() {
       return getMaintainSearchItemLacks();
@@ -1189,7 +1189,7 @@ public final class ImSearchProductTreeNodesPu {
     public static final int MAINTAIN_SEARCH_ITEM_LACKS_NULL_FIELD_NUMBER = 1010;
     private boolean maintainSearchItemLacksNull_;
     /**
-     * <code>optional bool maintain_search_item_lacks_null = 1010;</code>
+     * <code>bool maintain_search_item_lacks_null = 1010;</code>
      */
     public boolean getMaintainSearchItemLacksNull() {
       return maintainSearchItemLacksNull_;
@@ -1198,19 +1198,19 @@ public final class ImSearchProductTreeNodesPu {
     public static final int BINARY_CHARACTERISTIC_VALUE_ID_FIELD_NUMBER = 11;
     private io.dstore.values.IntegerValue binaryCharacteristicValueId_;
     /**
-     * <code>optional .dstore.values.IntegerValue binary_characteristic_value_id = 11;</code>
+     * <code>.dstore.values.IntegerValue binary_characteristic_value_id = 11;</code>
      */
     public boolean hasBinaryCharacteristicValueId() {
       return binaryCharacteristicValueId_ != null;
     }
     /**
-     * <code>optional .dstore.values.IntegerValue binary_characteristic_value_id = 11;</code>
+     * <code>.dstore.values.IntegerValue binary_characteristic_value_id = 11;</code>
      */
     public io.dstore.values.IntegerValue getBinaryCharacteristicValueId() {
       return binaryCharacteristicValueId_ == null ? io.dstore.values.IntegerValue.getDefaultInstance() : binaryCharacteristicValueId_;
     }
     /**
-     * <code>optional .dstore.values.IntegerValue binary_characteristic_value_id = 11;</code>
+     * <code>.dstore.values.IntegerValue binary_characteristic_value_id = 11;</code>
      */
     public io.dstore.values.IntegerValueOrBuilder getBinaryCharacteristicValueIdOrBuilder() {
       return getBinaryCharacteristicValueId();
@@ -1219,7 +1219,7 @@ public final class ImSearchProductTreeNodesPu {
     public static final int BINARY_CHARACTERISTIC_VALUE_ID_NULL_FIELD_NUMBER = 1011;
     private boolean binaryCharacteristicValueIdNull_;
     /**
-     * <code>optional bool binary_characteristic_value_id_null = 1011;</code>
+     * <code>bool binary_characteristic_value_id_null = 1011;</code>
      */
     public boolean getBinaryCharacteristicValueIdNull() {
       return binaryCharacteristicValueIdNull_;
@@ -1228,19 +1228,19 @@ public final class ImSearchProductTreeNodesPu {
     public static final int FILTER_BY_CHARACTERISTIC_ID_FIELD_NUMBER = 12;
     private io.dstore.values.IntegerValue filterByCharacteristicId_;
     /**
-     * <code>optional .dstore.values.IntegerValue filter_by_characteristic_id = 12;</code>
+     * <code>.dstore.values.IntegerValue filter_by_characteristic_id = 12;</code>
      */
     public boolean hasFilterByCharacteristicId() {
       return filterByCharacteristicId_ != null;
     }
     /**
-     * <code>optional .dstore.values.IntegerValue filter_by_characteristic_id = 12;</code>
+     * <code>.dstore.values.IntegerValue filter_by_characteristic_id = 12;</code>
      */
     public io.dstore.values.IntegerValue getFilterByCharacteristicId() {
       return filterByCharacteristicId_ == null ? io.dstore.values.IntegerValue.getDefaultInstance() : filterByCharacteristicId_;
     }
     /**
-     * <code>optional .dstore.values.IntegerValue filter_by_characteristic_id = 12;</code>
+     * <code>.dstore.values.IntegerValue filter_by_characteristic_id = 12;</code>
      */
     public io.dstore.values.IntegerValueOrBuilder getFilterByCharacteristicIdOrBuilder() {
       return getFilterByCharacteristicId();
@@ -1249,7 +1249,7 @@ public final class ImSearchProductTreeNodesPu {
     public static final int FILTER_BY_CHARACTERISTIC_ID_NULL_FIELD_NUMBER = 1012;
     private boolean filterByCharacteristicIdNull_;
     /**
-     * <code>optional bool filter_by_characteristic_id_null = 1012;</code>
+     * <code>bool filter_by_characteristic_id_null = 1012;</code>
      */
     public boolean getFilterByCharacteristicIdNull() {
       return filterByCharacteristicIdNull_;
@@ -1258,19 +1258,19 @@ public final class ImSearchProductTreeNodesPu {
     public static final int FILTER_BY_CHARAC_VALUE_FIELD_NUMBER = 13;
     private io.dstore.values.StringValue filterByCharacValue_;
     /**
-     * <code>optional .dstore.values.StringValue filter_by_charac_value = 13;</code>
+     * <code>.dstore.values.StringValue filter_by_charac_value = 13;</code>
      */
     public boolean hasFilterByCharacValue() {
       return filterByCharacValue_ != null;
     }
     /**
-     * <code>optional .dstore.values.StringValue filter_by_charac_value = 13;</code>
+     * <code>.dstore.values.StringValue filter_by_charac_value = 13;</code>
      */
     public io.dstore.values.StringValue getFilterByCharacValue() {
       return filterByCharacValue_ == null ? io.dstore.values.StringValue.getDefaultInstance() : filterByCharacValue_;
     }
     /**
-     * <code>optional .dstore.values.StringValue filter_by_charac_value = 13;</code>
+     * <code>.dstore.values.StringValue filter_by_charac_value = 13;</code>
      */
     public io.dstore.values.StringValueOrBuilder getFilterByCharacValueOrBuilder() {
       return getFilterByCharacValue();
@@ -1279,7 +1279,7 @@ public final class ImSearchProductTreeNodesPu {
     public static final int FILTER_BY_CHARAC_VALUE_NULL_FIELD_NUMBER = 1013;
     private boolean filterByCharacValueNull_;
     /**
-     * <code>optional bool filter_by_charac_value_null = 1013;</code>
+     * <code>bool filter_by_charac_value_null = 1013;</code>
      */
     public boolean getFilterByCharacValueNull() {
       return filterByCharacValueNull_;
@@ -1288,19 +1288,19 @@ public final class ImSearchProductTreeNodesPu {
     public static final int COUNTRY_FIELD_NUMBER = 14;
     private io.dstore.values.StringValue country_;
     /**
-     * <code>optional .dstore.values.StringValue country = 14;</code>
+     * <code>.dstore.values.StringValue country = 14;</code>
      */
     public boolean hasCountry() {
       return country_ != null;
     }
     /**
-     * <code>optional .dstore.values.StringValue country = 14;</code>
+     * <code>.dstore.values.StringValue country = 14;</code>
      */
     public io.dstore.values.StringValue getCountry() {
       return country_ == null ? io.dstore.values.StringValue.getDefaultInstance() : country_;
     }
     /**
-     * <code>optional .dstore.values.StringValue country = 14;</code>
+     * <code>.dstore.values.StringValue country = 14;</code>
      */
     public io.dstore.values.StringValueOrBuilder getCountryOrBuilder() {
       return getCountry();
@@ -1309,7 +1309,7 @@ public final class ImSearchProductTreeNodesPu {
     public static final int COUNTRY_NULL_FIELD_NUMBER = 1014;
     private boolean countryNull_;
     /**
-     * <code>optional bool country_null = 1014;</code>
+     * <code>bool country_null = 1014;</code>
      */
     public boolean getCountryNull() {
       return countryNull_;
@@ -1318,19 +1318,19 @@ public final class ImSearchProductTreeNodesPu {
     public static final int NEGATE_FILTER_BY_PARAMS_FIELD_NUMBER = 15;
     private io.dstore.values.BooleanValue negateFilterByParams_;
     /**
-     * <code>optional .dstore.values.BooleanValue negate_filter_by_params = 15;</code>
+     * <code>.dstore.values.BooleanValue negate_filter_by_params = 15;</code>
      */
     public boolean hasNegateFilterByParams() {
       return negateFilterByParams_ != null;
     }
     /**
-     * <code>optional .dstore.values.BooleanValue negate_filter_by_params = 15;</code>
+     * <code>.dstore.values.BooleanValue negate_filter_by_params = 15;</code>
      */
     public io.dstore.values.BooleanValue getNegateFilterByParams() {
       return negateFilterByParams_ == null ? io.dstore.values.BooleanValue.getDefaultInstance() : negateFilterByParams_;
     }
     /**
-     * <code>optional .dstore.values.BooleanValue negate_filter_by_params = 15;</code>
+     * <code>.dstore.values.BooleanValue negate_filter_by_params = 15;</code>
      */
     public io.dstore.values.BooleanValueOrBuilder getNegateFilterByParamsOrBuilder() {
       return getNegateFilterByParams();
@@ -1339,7 +1339,7 @@ public final class ImSearchProductTreeNodesPu {
     public static final int NEGATE_FILTER_BY_PARAMS_NULL_FIELD_NUMBER = 1015;
     private boolean negateFilterByParamsNull_;
     /**
-     * <code>optional bool negate_filter_by_params_null = 1015;</code>
+     * <code>bool negate_filter_by_params_null = 1015;</code>
      */
     public boolean getNegateFilterByParamsNull() {
       return negateFilterByParamsNull_;
@@ -1348,19 +1348,19 @@ public final class ImSearchProductTreeNodesPu {
     public static final int COUNT_FIELD_NUMBER = 16;
     private io.dstore.values.IntegerValue count_;
     /**
-     * <code>optional .dstore.values.IntegerValue count = 16;</code>
+     * <code>.dstore.values.IntegerValue count = 16;</code>
      */
     public boolean hasCount() {
       return count_ != null;
     }
     /**
-     * <code>optional .dstore.values.IntegerValue count = 16;</code>
+     * <code>.dstore.values.IntegerValue count = 16;</code>
      */
     public io.dstore.values.IntegerValue getCount() {
       return count_ == null ? io.dstore.values.IntegerValue.getDefaultInstance() : count_;
     }
     /**
-     * <code>optional .dstore.values.IntegerValue count = 16;</code>
+     * <code>.dstore.values.IntegerValue count = 16;</code>
      */
     public io.dstore.values.IntegerValueOrBuilder getCountOrBuilder() {
       return getCount();
@@ -1369,7 +1369,7 @@ public final class ImSearchProductTreeNodesPu {
     public static final int COUNT_NULL_FIELD_NUMBER = 1016;
     private boolean countNull_;
     /**
-     * <code>optional bool count_null = 1016;</code>
+     * <code>bool count_null = 1016;</code>
      */
     public boolean getCountNull() {
       return countNull_;
@@ -1378,19 +1378,19 @@ public final class ImSearchProductTreeNodesPu {
     public static final int SORT_BY_CHARACTERISTIC_ID_LIST_FIELD_NUMBER = 17;
     private io.dstore.values.StringValue sortByCharacteristicIdList_;
     /**
-     * <code>optional .dstore.values.StringValue sort_by_characteristic_id_list = 17;</code>
+     * <code>.dstore.values.StringValue sort_by_characteristic_id_list = 17;</code>
      */
     public boolean hasSortByCharacteristicIdList() {
       return sortByCharacteristicIdList_ != null;
     }
     /**
-     * <code>optional .dstore.values.StringValue sort_by_characteristic_id_list = 17;</code>
+     * <code>.dstore.values.StringValue sort_by_characteristic_id_list = 17;</code>
      */
     public io.dstore.values.StringValue getSortByCharacteristicIdList() {
       return sortByCharacteristicIdList_ == null ? io.dstore.values.StringValue.getDefaultInstance() : sortByCharacteristicIdList_;
     }
     /**
-     * <code>optional .dstore.values.StringValue sort_by_characteristic_id_list = 17;</code>
+     * <code>.dstore.values.StringValue sort_by_characteristic_id_list = 17;</code>
      */
     public io.dstore.values.StringValueOrBuilder getSortByCharacteristicIdListOrBuilder() {
       return getSortByCharacteristicIdList();
@@ -1399,7 +1399,7 @@ public final class ImSearchProductTreeNodesPu {
     public static final int SORT_BY_CHARACTERISTIC_ID_LIST_NULL_FIELD_NUMBER = 1017;
     private boolean sortByCharacteristicIdListNull_;
     /**
-     * <code>optional bool sort_by_characteristic_id_list_null = 1017;</code>
+     * <code>bool sort_by_characteristic_id_list_null = 1017;</code>
      */
     public boolean getSortByCharacteristicIdListNull() {
       return sortByCharacteristicIdListNull_;
@@ -1408,19 +1408,19 @@ public final class ImSearchProductTreeNodesPu {
     public static final int SORT_OPTION_LIST_FIELD_NUMBER = 18;
     private io.dstore.values.StringValue sortOptionList_;
     /**
-     * <code>optional .dstore.values.StringValue sort_option_list = 18;</code>
+     * <code>.dstore.values.StringValue sort_option_list = 18;</code>
      */
     public boolean hasSortOptionList() {
       return sortOptionList_ != null;
     }
     /**
-     * <code>optional .dstore.values.StringValue sort_option_list = 18;</code>
+     * <code>.dstore.values.StringValue sort_option_list = 18;</code>
      */
     public io.dstore.values.StringValue getSortOptionList() {
       return sortOptionList_ == null ? io.dstore.values.StringValue.getDefaultInstance() : sortOptionList_;
     }
     /**
-     * <code>optional .dstore.values.StringValue sort_option_list = 18;</code>
+     * <code>.dstore.values.StringValue sort_option_list = 18;</code>
      */
     public io.dstore.values.StringValueOrBuilder getSortOptionListOrBuilder() {
       return getSortOptionList();
@@ -1429,7 +1429,7 @@ public final class ImSearchProductTreeNodesPu {
     public static final int SORT_OPTION_LIST_NULL_FIELD_NUMBER = 1018;
     private boolean sortOptionListNull_;
     /**
-     * <code>optional bool sort_option_list_null = 1018;</code>
+     * <code>bool sort_option_list_null = 1018;</code>
      */
     public boolean getSortOptionListNull() {
       return sortOptionListNull_;
@@ -1438,19 +1438,19 @@ public final class ImSearchProductTreeNodesPu {
     public static final int INHERIT_DEPTH_OPTION_LIST_FIELD_NUMBER = 19;
     private io.dstore.values.StringValue inheritDepthOptionList_;
     /**
-     * <code>optional .dstore.values.StringValue inherit_depth_option_list = 19;</code>
+     * <code>.dstore.values.StringValue inherit_depth_option_list = 19;</code>
      */
     public boolean hasInheritDepthOptionList() {
       return inheritDepthOptionList_ != null;
     }
     /**
-     * <code>optional .dstore.values.StringValue inherit_depth_option_list = 19;</code>
+     * <code>.dstore.values.StringValue inherit_depth_option_list = 19;</code>
      */
     public io.dstore.values.StringValue getInheritDepthOptionList() {
       return inheritDepthOptionList_ == null ? io.dstore.values.StringValue.getDefaultInstance() : inheritDepthOptionList_;
     }
     /**
-     * <code>optional .dstore.values.StringValue inherit_depth_option_list = 19;</code>
+     * <code>.dstore.values.StringValue inherit_depth_option_list = 19;</code>
      */
     public io.dstore.values.StringValueOrBuilder getInheritDepthOptionListOrBuilder() {
       return getInheritDepthOptionList();
@@ -1459,7 +1459,7 @@ public final class ImSearchProductTreeNodesPu {
     public static final int INHERIT_DEPTH_OPTION_LIST_NULL_FIELD_NUMBER = 1019;
     private boolean inheritDepthOptionListNull_;
     /**
-     * <code>optional bool inherit_depth_option_list_null = 1019;</code>
+     * <code>bool inherit_depth_option_list_null = 1019;</code>
      */
     public boolean getInheritDepthOptionListNull() {
       return inheritDepthOptionListNull_;
@@ -1468,19 +1468,19 @@ public final class ImSearchProductTreeNodesPu {
     public static final int RECURSIVE_EVALUATION_OPTION_LIST_FIELD_NUMBER = 20;
     private io.dstore.values.StringValue recursiveEvaluationOptionList_;
     /**
-     * <code>optional .dstore.values.StringValue recursive_evaluation_option_list = 20;</code>
+     * <code>.dstore.values.StringValue recursive_evaluation_option_list = 20;</code>
      */
     public boolean hasRecursiveEvaluationOptionList() {
       return recursiveEvaluationOptionList_ != null;
     }
     /**
-     * <code>optional .dstore.values.StringValue recursive_evaluation_option_list = 20;</code>
+     * <code>.dstore.values.StringValue recursive_evaluation_option_list = 20;</code>
      */
     public io.dstore.values.StringValue getRecursiveEvaluationOptionList() {
       return recursiveEvaluationOptionList_ == null ? io.dstore.values.StringValue.getDefaultInstance() : recursiveEvaluationOptionList_;
     }
     /**
-     * <code>optional .dstore.values.StringValue recursive_evaluation_option_list = 20;</code>
+     * <code>.dstore.values.StringValue recursive_evaluation_option_list = 20;</code>
      */
     public io.dstore.values.StringValueOrBuilder getRecursiveEvaluationOptionListOrBuilder() {
       return getRecursiveEvaluationOptionList();
@@ -1489,7 +1489,7 @@ public final class ImSearchProductTreeNodesPu {
     public static final int RECURSIVE_EVALUATION_OPTION_LIST_NULL_FIELD_NUMBER = 1020;
     private boolean recursiveEvaluationOptionListNull_;
     /**
-     * <code>optional bool recursive_evaluation_option_list_null = 1020;</code>
+     * <code>bool recursive_evaluation_option_list_null = 1020;</code>
      */
     public boolean getRecursiveEvaluationOptionListNull() {
       return recursiveEvaluationOptionListNull_;
@@ -1498,19 +1498,19 @@ public final class ImSearchProductTreeNodesPu {
     public static final int GET_VALUES_FOR_SORT_BY_CHARACS_FIELD_NUMBER = 21;
     private io.dstore.values.BooleanValue getValuesForSortByCharacs_;
     /**
-     * <code>optional .dstore.values.BooleanValue get_values_for_sort_by_characs = 21;</code>
+     * <code>.dstore.values.BooleanValue get_values_for_sort_by_characs = 21;</code>
      */
     public boolean hasGetValuesForSortByCharacs() {
       return getValuesForSortByCharacs_ != null;
     }
     /**
-     * <code>optional .dstore.values.BooleanValue get_values_for_sort_by_characs = 21;</code>
+     * <code>.dstore.values.BooleanValue get_values_for_sort_by_characs = 21;</code>
      */
     public io.dstore.values.BooleanValue getGetValuesForSortByCharacs() {
       return getValuesForSortByCharacs_ == null ? io.dstore.values.BooleanValue.getDefaultInstance() : getValuesForSortByCharacs_;
     }
     /**
-     * <code>optional .dstore.values.BooleanValue get_values_for_sort_by_characs = 21;</code>
+     * <code>.dstore.values.BooleanValue get_values_for_sort_by_characs = 21;</code>
      */
     public io.dstore.values.BooleanValueOrBuilder getGetValuesForSortByCharacsOrBuilder() {
       return getGetValuesForSortByCharacs();
@@ -1519,7 +1519,7 @@ public final class ImSearchProductTreeNodesPu {
     public static final int GET_VALUES_FOR_SORT_BY_CHARACS_NULL_FIELD_NUMBER = 1021;
     private boolean getValuesForSortByCharacsNull_;
     /**
-     * <code>optional bool get_values_for_sort_by_characs_null = 1021;</code>
+     * <code>bool get_values_for_sort_by_characs_null = 1021;</code>
      */
     public boolean getGetValuesForSortByCharacsNull() {
       return getValuesForSortByCharacsNull_;
@@ -1528,19 +1528,19 @@ public final class ImSearchProductTreeNodesPu {
     public static final int OUTPUT_INTO_ONE_ID_FIELD_NUMBER = 22;
     private io.dstore.values.IntegerValue outputIntoOneId_;
     /**
-     * <code>optional .dstore.values.IntegerValue output_into_one_id = 22;</code>
+     * <code>.dstore.values.IntegerValue output_into_one_id = 22;</code>
      */
     public boolean hasOutputIntoOneId() {
       return outputIntoOneId_ != null;
     }
     /**
-     * <code>optional .dstore.values.IntegerValue output_into_one_id = 22;</code>
+     * <code>.dstore.values.IntegerValue output_into_one_id = 22;</code>
      */
     public io.dstore.values.IntegerValue getOutputIntoOneId() {
       return outputIntoOneId_ == null ? io.dstore.values.IntegerValue.getDefaultInstance() : outputIntoOneId_;
     }
     /**
-     * <code>optional .dstore.values.IntegerValue output_into_one_id = 22;</code>
+     * <code>.dstore.values.IntegerValue output_into_one_id = 22;</code>
      */
     public io.dstore.values.IntegerValueOrBuilder getOutputIntoOneIdOrBuilder() {
       return getOutputIntoOneId();
@@ -1549,7 +1549,7 @@ public final class ImSearchProductTreeNodesPu {
     public static final int OUTPUT_INTO_ONE_ID_NULL_FIELD_NUMBER = 1022;
     private boolean outputIntoOneIdNull_;
     /**
-     * <code>optional bool output_into_one_id_null = 1022;</code>
+     * <code>bool output_into_one_id_null = 1022;</code>
      */
     public boolean getOutputIntoOneIdNull() {
       return outputIntoOneIdNull_;
@@ -2061,7 +2061,7 @@ public final class ImSearchProductTreeNodesPu {
         return memoizedHashCode;
       }
       int hash = 41;
-      hash = (19 * hash) + getDescriptorForType().hashCode();
+      hash = (19 * hash) + getDescriptor().hashCode();
       if (hasDomainTreeNodeId()) {
         hash = (37 * hash) + DOMAIN_TREE_NODE_ID_FIELD_NUMBER;
         hash = (53 * hash) + getDomainTreeNodeId().hashCode();
@@ -2867,13 +2867,13 @@ public final class ImSearchProductTreeNodesPu {
       private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> domainTreeNodeIdBuilder_;
       /**
-       * <code>optional .dstore.values.IntegerValue domain_tree_node_id = 1;</code>
+       * <code>.dstore.values.IntegerValue domain_tree_node_id = 1;</code>
        */
       public boolean hasDomainTreeNodeId() {
         return domainTreeNodeIdBuilder_ != null || domainTreeNodeId_ != null;
       }
       /**
-       * <code>optional .dstore.values.IntegerValue domain_tree_node_id = 1;</code>
+       * <code>.dstore.values.IntegerValue domain_tree_node_id = 1;</code>
        */
       public io.dstore.values.IntegerValue getDomainTreeNodeId() {
         if (domainTreeNodeIdBuilder_ == null) {
@@ -2883,7 +2883,7 @@ public final class ImSearchProductTreeNodesPu {
         }
       }
       /**
-       * <code>optional .dstore.values.IntegerValue domain_tree_node_id = 1;</code>
+       * <code>.dstore.values.IntegerValue domain_tree_node_id = 1;</code>
        */
       public Builder setDomainTreeNodeId(io.dstore.values.IntegerValue value) {
         if (domainTreeNodeIdBuilder_ == null) {
@@ -2899,7 +2899,7 @@ public final class ImSearchProductTreeNodesPu {
         return this;
       }
       /**
-       * <code>optional .dstore.values.IntegerValue domain_tree_node_id = 1;</code>
+       * <code>.dstore.values.IntegerValue domain_tree_node_id = 1;</code>
        */
       public Builder setDomainTreeNodeId(
           io.dstore.values.IntegerValue.Builder builderForValue) {
@@ -2913,7 +2913,7 @@ public final class ImSearchProductTreeNodesPu {
         return this;
       }
       /**
-       * <code>optional .dstore.values.IntegerValue domain_tree_node_id = 1;</code>
+       * <code>.dstore.values.IntegerValue domain_tree_node_id = 1;</code>
        */
       public Builder mergeDomainTreeNodeId(io.dstore.values.IntegerValue value) {
         if (domainTreeNodeIdBuilder_ == null) {
@@ -2931,7 +2931,7 @@ public final class ImSearchProductTreeNodesPu {
         return this;
       }
       /**
-       * <code>optional .dstore.values.IntegerValue domain_tree_node_id = 1;</code>
+       * <code>.dstore.values.IntegerValue domain_tree_node_id = 1;</code>
        */
       public Builder clearDomainTreeNodeId() {
         if (domainTreeNodeIdBuilder_ == null) {
@@ -2945,7 +2945,7 @@ public final class ImSearchProductTreeNodesPu {
         return this;
       }
       /**
-       * <code>optional .dstore.values.IntegerValue domain_tree_node_id = 1;</code>
+       * <code>.dstore.values.IntegerValue domain_tree_node_id = 1;</code>
        */
       public io.dstore.values.IntegerValue.Builder getDomainTreeNodeIdBuilder() {
         
@@ -2953,7 +2953,7 @@ public final class ImSearchProductTreeNodesPu {
         return getDomainTreeNodeIdFieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .dstore.values.IntegerValue domain_tree_node_id = 1;</code>
+       * <code>.dstore.values.IntegerValue domain_tree_node_id = 1;</code>
        */
       public io.dstore.values.IntegerValueOrBuilder getDomainTreeNodeIdOrBuilder() {
         if (domainTreeNodeIdBuilder_ != null) {
@@ -2964,7 +2964,7 @@ public final class ImSearchProductTreeNodesPu {
         }
       }
       /**
-       * <code>optional .dstore.values.IntegerValue domain_tree_node_id = 1;</code>
+       * <code>.dstore.values.IntegerValue domain_tree_node_id = 1;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> 
@@ -2982,13 +2982,13 @@ public final class ImSearchProductTreeNodesPu {
 
       private boolean domainTreeNodeIdNull_ ;
       /**
-       * <code>optional bool domain_tree_node_id_null = 1001;</code>
+       * <code>bool domain_tree_node_id_null = 1001;</code>
        */
       public boolean getDomainTreeNodeIdNull() {
         return domainTreeNodeIdNull_;
       }
       /**
-       * <code>optional bool domain_tree_node_id_null = 1001;</code>
+       * <code>bool domain_tree_node_id_null = 1001;</code>
        */
       public Builder setDomainTreeNodeIdNull(boolean value) {
         
@@ -2997,7 +2997,7 @@ public final class ImSearchProductTreeNodesPu {
         return this;
       }
       /**
-       * <code>optional bool domain_tree_node_id_null = 1001;</code>
+       * <code>bool domain_tree_node_id_null = 1001;</code>
        */
       public Builder clearDomainTreeNodeIdNull() {
         
@@ -3010,13 +3010,13 @@ public final class ImSearchProductTreeNodesPu {
       private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.values.StringValue, io.dstore.values.StringValue.Builder, io.dstore.values.StringValueOrBuilder> nodeCharacteristicIdsBuilder_;
       /**
-       * <code>optional .dstore.values.StringValue node_characteristic_ids = 2;</code>
+       * <code>.dstore.values.StringValue node_characteristic_ids = 2;</code>
        */
       public boolean hasNodeCharacteristicIds() {
         return nodeCharacteristicIdsBuilder_ != null || nodeCharacteristicIds_ != null;
       }
       /**
-       * <code>optional .dstore.values.StringValue node_characteristic_ids = 2;</code>
+       * <code>.dstore.values.StringValue node_characteristic_ids = 2;</code>
        */
       public io.dstore.values.StringValue getNodeCharacteristicIds() {
         if (nodeCharacteristicIdsBuilder_ == null) {
@@ -3026,7 +3026,7 @@ public final class ImSearchProductTreeNodesPu {
         }
       }
       /**
-       * <code>optional .dstore.values.StringValue node_characteristic_ids = 2;</code>
+       * <code>.dstore.values.StringValue node_characteristic_ids = 2;</code>
        */
       public Builder setNodeCharacteristicIds(io.dstore.values.StringValue value) {
         if (nodeCharacteristicIdsBuilder_ == null) {
@@ -3042,7 +3042,7 @@ public final class ImSearchProductTreeNodesPu {
         return this;
       }
       /**
-       * <code>optional .dstore.values.StringValue node_characteristic_ids = 2;</code>
+       * <code>.dstore.values.StringValue node_characteristic_ids = 2;</code>
        */
       public Builder setNodeCharacteristicIds(
           io.dstore.values.StringValue.Builder builderForValue) {
@@ -3056,7 +3056,7 @@ public final class ImSearchProductTreeNodesPu {
         return this;
       }
       /**
-       * <code>optional .dstore.values.StringValue node_characteristic_ids = 2;</code>
+       * <code>.dstore.values.StringValue node_characteristic_ids = 2;</code>
        */
       public Builder mergeNodeCharacteristicIds(io.dstore.values.StringValue value) {
         if (nodeCharacteristicIdsBuilder_ == null) {
@@ -3074,7 +3074,7 @@ public final class ImSearchProductTreeNodesPu {
         return this;
       }
       /**
-       * <code>optional .dstore.values.StringValue node_characteristic_ids = 2;</code>
+       * <code>.dstore.values.StringValue node_characteristic_ids = 2;</code>
        */
       public Builder clearNodeCharacteristicIds() {
         if (nodeCharacteristicIdsBuilder_ == null) {
@@ -3088,7 +3088,7 @@ public final class ImSearchProductTreeNodesPu {
         return this;
       }
       /**
-       * <code>optional .dstore.values.StringValue node_characteristic_ids = 2;</code>
+       * <code>.dstore.values.StringValue node_characteristic_ids = 2;</code>
        */
       public io.dstore.values.StringValue.Builder getNodeCharacteristicIdsBuilder() {
         
@@ -3096,7 +3096,7 @@ public final class ImSearchProductTreeNodesPu {
         return getNodeCharacteristicIdsFieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .dstore.values.StringValue node_characteristic_ids = 2;</code>
+       * <code>.dstore.values.StringValue node_characteristic_ids = 2;</code>
        */
       public io.dstore.values.StringValueOrBuilder getNodeCharacteristicIdsOrBuilder() {
         if (nodeCharacteristicIdsBuilder_ != null) {
@@ -3107,7 +3107,7 @@ public final class ImSearchProductTreeNodesPu {
         }
       }
       /**
-       * <code>optional .dstore.values.StringValue node_characteristic_ids = 2;</code>
+       * <code>.dstore.values.StringValue node_characteristic_ids = 2;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.values.StringValue, io.dstore.values.StringValue.Builder, io.dstore.values.StringValueOrBuilder> 
@@ -3125,13 +3125,13 @@ public final class ImSearchProductTreeNodesPu {
 
       private boolean nodeCharacteristicIdsNull_ ;
       /**
-       * <code>optional bool node_characteristic_ids_null = 1002;</code>
+       * <code>bool node_characteristic_ids_null = 1002;</code>
        */
       public boolean getNodeCharacteristicIdsNull() {
         return nodeCharacteristicIdsNull_;
       }
       /**
-       * <code>optional bool node_characteristic_ids_null = 1002;</code>
+       * <code>bool node_characteristic_ids_null = 1002;</code>
        */
       public Builder setNodeCharacteristicIdsNull(boolean value) {
         
@@ -3140,7 +3140,7 @@ public final class ImSearchProductTreeNodesPu {
         return this;
       }
       /**
-       * <code>optional bool node_characteristic_ids_null = 1002;</code>
+       * <code>bool node_characteristic_ids_null = 1002;</code>
        */
       public Builder clearNodeCharacteristicIdsNull() {
         
@@ -3153,13 +3153,13 @@ public final class ImSearchProductTreeNodesPu {
       private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.values.StringValue, io.dstore.values.StringValue.Builder, io.dstore.values.StringValueOrBuilder> valueBuilder_;
       /**
-       * <code>optional .dstore.values.StringValue value = 3;</code>
+       * <code>.dstore.values.StringValue value = 3;</code>
        */
       public boolean hasValue() {
         return valueBuilder_ != null || value_ != null;
       }
       /**
-       * <code>optional .dstore.values.StringValue value = 3;</code>
+       * <code>.dstore.values.StringValue value = 3;</code>
        */
       public io.dstore.values.StringValue getValue() {
         if (valueBuilder_ == null) {
@@ -3169,7 +3169,7 @@ public final class ImSearchProductTreeNodesPu {
         }
       }
       /**
-       * <code>optional .dstore.values.StringValue value = 3;</code>
+       * <code>.dstore.values.StringValue value = 3;</code>
        */
       public Builder setValue(io.dstore.values.StringValue value) {
         if (valueBuilder_ == null) {
@@ -3185,7 +3185,7 @@ public final class ImSearchProductTreeNodesPu {
         return this;
       }
       /**
-       * <code>optional .dstore.values.StringValue value = 3;</code>
+       * <code>.dstore.values.StringValue value = 3;</code>
        */
       public Builder setValue(
           io.dstore.values.StringValue.Builder builderForValue) {
@@ -3199,7 +3199,7 @@ public final class ImSearchProductTreeNodesPu {
         return this;
       }
       /**
-       * <code>optional .dstore.values.StringValue value = 3;</code>
+       * <code>.dstore.values.StringValue value = 3;</code>
        */
       public Builder mergeValue(io.dstore.values.StringValue value) {
         if (valueBuilder_ == null) {
@@ -3217,7 +3217,7 @@ public final class ImSearchProductTreeNodesPu {
         return this;
       }
       /**
-       * <code>optional .dstore.values.StringValue value = 3;</code>
+       * <code>.dstore.values.StringValue value = 3;</code>
        */
       public Builder clearValue() {
         if (valueBuilder_ == null) {
@@ -3231,7 +3231,7 @@ public final class ImSearchProductTreeNodesPu {
         return this;
       }
       /**
-       * <code>optional .dstore.values.StringValue value = 3;</code>
+       * <code>.dstore.values.StringValue value = 3;</code>
        */
       public io.dstore.values.StringValue.Builder getValueBuilder() {
         
@@ -3239,7 +3239,7 @@ public final class ImSearchProductTreeNodesPu {
         return getValueFieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .dstore.values.StringValue value = 3;</code>
+       * <code>.dstore.values.StringValue value = 3;</code>
        */
       public io.dstore.values.StringValueOrBuilder getValueOrBuilder() {
         if (valueBuilder_ != null) {
@@ -3250,7 +3250,7 @@ public final class ImSearchProductTreeNodesPu {
         }
       }
       /**
-       * <code>optional .dstore.values.StringValue value = 3;</code>
+       * <code>.dstore.values.StringValue value = 3;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.values.StringValue, io.dstore.values.StringValue.Builder, io.dstore.values.StringValueOrBuilder> 
@@ -3268,13 +3268,13 @@ public final class ImSearchProductTreeNodesPu {
 
       private boolean valueNull_ ;
       /**
-       * <code>optional bool value_null = 1003;</code>
+       * <code>bool value_null = 1003;</code>
        */
       public boolean getValueNull() {
         return valueNull_;
       }
       /**
-       * <code>optional bool value_null = 1003;</code>
+       * <code>bool value_null = 1003;</code>
        */
       public Builder setValueNull(boolean value) {
         
@@ -3283,7 +3283,7 @@ public final class ImSearchProductTreeNodesPu {
         return this;
       }
       /**
-       * <code>optional bool value_null = 1003;</code>
+       * <code>bool value_null = 1003;</code>
        */
       public Builder clearValueNull() {
         
@@ -3296,13 +3296,13 @@ public final class ImSearchProductTreeNodesPu {
       private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.values.BooleanValue, io.dstore.values.BooleanValue.Builder, io.dstore.values.BooleanValueOrBuilder> isLikeBuilder_;
       /**
-       * <code>optional .dstore.values.BooleanValue is_like = 4;</code>
+       * <code>.dstore.values.BooleanValue is_like = 4;</code>
        */
       public boolean hasIsLike() {
         return isLikeBuilder_ != null || isLike_ != null;
       }
       /**
-       * <code>optional .dstore.values.BooleanValue is_like = 4;</code>
+       * <code>.dstore.values.BooleanValue is_like = 4;</code>
        */
       public io.dstore.values.BooleanValue getIsLike() {
         if (isLikeBuilder_ == null) {
@@ -3312,7 +3312,7 @@ public final class ImSearchProductTreeNodesPu {
         }
       }
       /**
-       * <code>optional .dstore.values.BooleanValue is_like = 4;</code>
+       * <code>.dstore.values.BooleanValue is_like = 4;</code>
        */
       public Builder setIsLike(io.dstore.values.BooleanValue value) {
         if (isLikeBuilder_ == null) {
@@ -3328,7 +3328,7 @@ public final class ImSearchProductTreeNodesPu {
         return this;
       }
       /**
-       * <code>optional .dstore.values.BooleanValue is_like = 4;</code>
+       * <code>.dstore.values.BooleanValue is_like = 4;</code>
        */
       public Builder setIsLike(
           io.dstore.values.BooleanValue.Builder builderForValue) {
@@ -3342,7 +3342,7 @@ public final class ImSearchProductTreeNodesPu {
         return this;
       }
       /**
-       * <code>optional .dstore.values.BooleanValue is_like = 4;</code>
+       * <code>.dstore.values.BooleanValue is_like = 4;</code>
        */
       public Builder mergeIsLike(io.dstore.values.BooleanValue value) {
         if (isLikeBuilder_ == null) {
@@ -3360,7 +3360,7 @@ public final class ImSearchProductTreeNodesPu {
         return this;
       }
       /**
-       * <code>optional .dstore.values.BooleanValue is_like = 4;</code>
+       * <code>.dstore.values.BooleanValue is_like = 4;</code>
        */
       public Builder clearIsLike() {
         if (isLikeBuilder_ == null) {
@@ -3374,7 +3374,7 @@ public final class ImSearchProductTreeNodesPu {
         return this;
       }
       /**
-       * <code>optional .dstore.values.BooleanValue is_like = 4;</code>
+       * <code>.dstore.values.BooleanValue is_like = 4;</code>
        */
       public io.dstore.values.BooleanValue.Builder getIsLikeBuilder() {
         
@@ -3382,7 +3382,7 @@ public final class ImSearchProductTreeNodesPu {
         return getIsLikeFieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .dstore.values.BooleanValue is_like = 4;</code>
+       * <code>.dstore.values.BooleanValue is_like = 4;</code>
        */
       public io.dstore.values.BooleanValueOrBuilder getIsLikeOrBuilder() {
         if (isLikeBuilder_ != null) {
@@ -3393,7 +3393,7 @@ public final class ImSearchProductTreeNodesPu {
         }
       }
       /**
-       * <code>optional .dstore.values.BooleanValue is_like = 4;</code>
+       * <code>.dstore.values.BooleanValue is_like = 4;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.values.BooleanValue, io.dstore.values.BooleanValue.Builder, io.dstore.values.BooleanValueOrBuilder> 
@@ -3411,13 +3411,13 @@ public final class ImSearchProductTreeNodesPu {
 
       private boolean isLikeNull_ ;
       /**
-       * <code>optional bool is_like_null = 1004;</code>
+       * <code>bool is_like_null = 1004;</code>
        */
       public boolean getIsLikeNull() {
         return isLikeNull_;
       }
       /**
-       * <code>optional bool is_like_null = 1004;</code>
+       * <code>bool is_like_null = 1004;</code>
        */
       public Builder setIsLikeNull(boolean value) {
         
@@ -3426,7 +3426,7 @@ public final class ImSearchProductTreeNodesPu {
         return this;
       }
       /**
-       * <code>optional bool is_like_null = 1004;</code>
+       * <code>bool is_like_null = 1004;</code>
        */
       public Builder clearIsLikeNull() {
         
@@ -3439,13 +3439,13 @@ public final class ImSearchProductTreeNodesPu {
       private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.values.BooleanValue, io.dstore.values.BooleanValue.Builder, io.dstore.values.BooleanValueOrBuilder> includeInheritedBuilder_;
       /**
-       * <code>optional .dstore.values.BooleanValue include_inherited = 5;</code>
+       * <code>.dstore.values.BooleanValue include_inherited = 5;</code>
        */
       public boolean hasIncludeInherited() {
         return includeInheritedBuilder_ != null || includeInherited_ != null;
       }
       /**
-       * <code>optional .dstore.values.BooleanValue include_inherited = 5;</code>
+       * <code>.dstore.values.BooleanValue include_inherited = 5;</code>
        */
       public io.dstore.values.BooleanValue getIncludeInherited() {
         if (includeInheritedBuilder_ == null) {
@@ -3455,7 +3455,7 @@ public final class ImSearchProductTreeNodesPu {
         }
       }
       /**
-       * <code>optional .dstore.values.BooleanValue include_inherited = 5;</code>
+       * <code>.dstore.values.BooleanValue include_inherited = 5;</code>
        */
       public Builder setIncludeInherited(io.dstore.values.BooleanValue value) {
         if (includeInheritedBuilder_ == null) {
@@ -3471,7 +3471,7 @@ public final class ImSearchProductTreeNodesPu {
         return this;
       }
       /**
-       * <code>optional .dstore.values.BooleanValue include_inherited = 5;</code>
+       * <code>.dstore.values.BooleanValue include_inherited = 5;</code>
        */
       public Builder setIncludeInherited(
           io.dstore.values.BooleanValue.Builder builderForValue) {
@@ -3485,7 +3485,7 @@ public final class ImSearchProductTreeNodesPu {
         return this;
       }
       /**
-       * <code>optional .dstore.values.BooleanValue include_inherited = 5;</code>
+       * <code>.dstore.values.BooleanValue include_inherited = 5;</code>
        */
       public Builder mergeIncludeInherited(io.dstore.values.BooleanValue value) {
         if (includeInheritedBuilder_ == null) {
@@ -3503,7 +3503,7 @@ public final class ImSearchProductTreeNodesPu {
         return this;
       }
       /**
-       * <code>optional .dstore.values.BooleanValue include_inherited = 5;</code>
+       * <code>.dstore.values.BooleanValue include_inherited = 5;</code>
        */
       public Builder clearIncludeInherited() {
         if (includeInheritedBuilder_ == null) {
@@ -3517,7 +3517,7 @@ public final class ImSearchProductTreeNodesPu {
         return this;
       }
       /**
-       * <code>optional .dstore.values.BooleanValue include_inherited = 5;</code>
+       * <code>.dstore.values.BooleanValue include_inherited = 5;</code>
        */
       public io.dstore.values.BooleanValue.Builder getIncludeInheritedBuilder() {
         
@@ -3525,7 +3525,7 @@ public final class ImSearchProductTreeNodesPu {
         return getIncludeInheritedFieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .dstore.values.BooleanValue include_inherited = 5;</code>
+       * <code>.dstore.values.BooleanValue include_inherited = 5;</code>
        */
       public io.dstore.values.BooleanValueOrBuilder getIncludeInheritedOrBuilder() {
         if (includeInheritedBuilder_ != null) {
@@ -3536,7 +3536,7 @@ public final class ImSearchProductTreeNodesPu {
         }
       }
       /**
-       * <code>optional .dstore.values.BooleanValue include_inherited = 5;</code>
+       * <code>.dstore.values.BooleanValue include_inherited = 5;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.values.BooleanValue, io.dstore.values.BooleanValue.Builder, io.dstore.values.BooleanValueOrBuilder> 
@@ -3554,13 +3554,13 @@ public final class ImSearchProductTreeNodesPu {
 
       private boolean includeInheritedNull_ ;
       /**
-       * <code>optional bool include_inherited_null = 1005;</code>
+       * <code>bool include_inherited_null = 1005;</code>
        */
       public boolean getIncludeInheritedNull() {
         return includeInheritedNull_;
       }
       /**
-       * <code>optional bool include_inherited_null = 1005;</code>
+       * <code>bool include_inherited_null = 1005;</code>
        */
       public Builder setIncludeInheritedNull(boolean value) {
         
@@ -3569,7 +3569,7 @@ public final class ImSearchProductTreeNodesPu {
         return this;
       }
       /**
-       * <code>optional bool include_inherited_null = 1005;</code>
+       * <code>bool include_inherited_null = 1005;</code>
        */
       public Builder clearIncludeInheritedNull() {
         
@@ -3582,13 +3582,13 @@ public final class ImSearchProductTreeNodesPu {
       private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> startAtRowNoBuilder_;
       /**
-       * <code>optional .dstore.values.IntegerValue start_at_row_no = 6;</code>
+       * <code>.dstore.values.IntegerValue start_at_row_no = 6;</code>
        */
       public boolean hasStartAtRowNo() {
         return startAtRowNoBuilder_ != null || startAtRowNo_ != null;
       }
       /**
-       * <code>optional .dstore.values.IntegerValue start_at_row_no = 6;</code>
+       * <code>.dstore.values.IntegerValue start_at_row_no = 6;</code>
        */
       public io.dstore.values.IntegerValue getStartAtRowNo() {
         if (startAtRowNoBuilder_ == null) {
@@ -3598,7 +3598,7 @@ public final class ImSearchProductTreeNodesPu {
         }
       }
       /**
-       * <code>optional .dstore.values.IntegerValue start_at_row_no = 6;</code>
+       * <code>.dstore.values.IntegerValue start_at_row_no = 6;</code>
        */
       public Builder setStartAtRowNo(io.dstore.values.IntegerValue value) {
         if (startAtRowNoBuilder_ == null) {
@@ -3614,7 +3614,7 @@ public final class ImSearchProductTreeNodesPu {
         return this;
       }
       /**
-       * <code>optional .dstore.values.IntegerValue start_at_row_no = 6;</code>
+       * <code>.dstore.values.IntegerValue start_at_row_no = 6;</code>
        */
       public Builder setStartAtRowNo(
           io.dstore.values.IntegerValue.Builder builderForValue) {
@@ -3628,7 +3628,7 @@ public final class ImSearchProductTreeNodesPu {
         return this;
       }
       /**
-       * <code>optional .dstore.values.IntegerValue start_at_row_no = 6;</code>
+       * <code>.dstore.values.IntegerValue start_at_row_no = 6;</code>
        */
       public Builder mergeStartAtRowNo(io.dstore.values.IntegerValue value) {
         if (startAtRowNoBuilder_ == null) {
@@ -3646,7 +3646,7 @@ public final class ImSearchProductTreeNodesPu {
         return this;
       }
       /**
-       * <code>optional .dstore.values.IntegerValue start_at_row_no = 6;</code>
+       * <code>.dstore.values.IntegerValue start_at_row_no = 6;</code>
        */
       public Builder clearStartAtRowNo() {
         if (startAtRowNoBuilder_ == null) {
@@ -3660,7 +3660,7 @@ public final class ImSearchProductTreeNodesPu {
         return this;
       }
       /**
-       * <code>optional .dstore.values.IntegerValue start_at_row_no = 6;</code>
+       * <code>.dstore.values.IntegerValue start_at_row_no = 6;</code>
        */
       public io.dstore.values.IntegerValue.Builder getStartAtRowNoBuilder() {
         
@@ -3668,7 +3668,7 @@ public final class ImSearchProductTreeNodesPu {
         return getStartAtRowNoFieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .dstore.values.IntegerValue start_at_row_no = 6;</code>
+       * <code>.dstore.values.IntegerValue start_at_row_no = 6;</code>
        */
       public io.dstore.values.IntegerValueOrBuilder getStartAtRowNoOrBuilder() {
         if (startAtRowNoBuilder_ != null) {
@@ -3679,7 +3679,7 @@ public final class ImSearchProductTreeNodesPu {
         }
       }
       /**
-       * <code>optional .dstore.values.IntegerValue start_at_row_no = 6;</code>
+       * <code>.dstore.values.IntegerValue start_at_row_no = 6;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> 
@@ -3697,13 +3697,13 @@ public final class ImSearchProductTreeNodesPu {
 
       private boolean startAtRowNoNull_ ;
       /**
-       * <code>optional bool start_at_row_no_null = 1006;</code>
+       * <code>bool start_at_row_no_null = 1006;</code>
        */
       public boolean getStartAtRowNoNull() {
         return startAtRowNoNull_;
       }
       /**
-       * <code>optional bool start_at_row_no_null = 1006;</code>
+       * <code>bool start_at_row_no_null = 1006;</code>
        */
       public Builder setStartAtRowNoNull(boolean value) {
         
@@ -3712,7 +3712,7 @@ public final class ImSearchProductTreeNodesPu {
         return this;
       }
       /**
-       * <code>optional bool start_at_row_no_null = 1006;</code>
+       * <code>bool start_at_row_no_null = 1006;</code>
        */
       public Builder clearStartAtRowNoNull() {
         
@@ -3725,13 +3725,13 @@ public final class ImSearchProductTreeNodesPu {
       private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> rowCountBuilder_;
       /**
-       * <code>optional .dstore.values.IntegerValue row_count = 7;</code>
+       * <code>.dstore.values.IntegerValue row_count = 7;</code>
        */
       public boolean hasRowCount() {
         return rowCountBuilder_ != null || rowCount_ != null;
       }
       /**
-       * <code>optional .dstore.values.IntegerValue row_count = 7;</code>
+       * <code>.dstore.values.IntegerValue row_count = 7;</code>
        */
       public io.dstore.values.IntegerValue getRowCount() {
         if (rowCountBuilder_ == null) {
@@ -3741,7 +3741,7 @@ public final class ImSearchProductTreeNodesPu {
         }
       }
       /**
-       * <code>optional .dstore.values.IntegerValue row_count = 7;</code>
+       * <code>.dstore.values.IntegerValue row_count = 7;</code>
        */
       public Builder setRowCount(io.dstore.values.IntegerValue value) {
         if (rowCountBuilder_ == null) {
@@ -3757,7 +3757,7 @@ public final class ImSearchProductTreeNodesPu {
         return this;
       }
       /**
-       * <code>optional .dstore.values.IntegerValue row_count = 7;</code>
+       * <code>.dstore.values.IntegerValue row_count = 7;</code>
        */
       public Builder setRowCount(
           io.dstore.values.IntegerValue.Builder builderForValue) {
@@ -3771,7 +3771,7 @@ public final class ImSearchProductTreeNodesPu {
         return this;
       }
       /**
-       * <code>optional .dstore.values.IntegerValue row_count = 7;</code>
+       * <code>.dstore.values.IntegerValue row_count = 7;</code>
        */
       public Builder mergeRowCount(io.dstore.values.IntegerValue value) {
         if (rowCountBuilder_ == null) {
@@ -3789,7 +3789,7 @@ public final class ImSearchProductTreeNodesPu {
         return this;
       }
       /**
-       * <code>optional .dstore.values.IntegerValue row_count = 7;</code>
+       * <code>.dstore.values.IntegerValue row_count = 7;</code>
        */
       public Builder clearRowCount() {
         if (rowCountBuilder_ == null) {
@@ -3803,7 +3803,7 @@ public final class ImSearchProductTreeNodesPu {
         return this;
       }
       /**
-       * <code>optional .dstore.values.IntegerValue row_count = 7;</code>
+       * <code>.dstore.values.IntegerValue row_count = 7;</code>
        */
       public io.dstore.values.IntegerValue.Builder getRowCountBuilder() {
         
@@ -3811,7 +3811,7 @@ public final class ImSearchProductTreeNodesPu {
         return getRowCountFieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .dstore.values.IntegerValue row_count = 7;</code>
+       * <code>.dstore.values.IntegerValue row_count = 7;</code>
        */
       public io.dstore.values.IntegerValueOrBuilder getRowCountOrBuilder() {
         if (rowCountBuilder_ != null) {
@@ -3822,7 +3822,7 @@ public final class ImSearchProductTreeNodesPu {
         }
       }
       /**
-       * <code>optional .dstore.values.IntegerValue row_count = 7;</code>
+       * <code>.dstore.values.IntegerValue row_count = 7;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> 
@@ -3840,13 +3840,13 @@ public final class ImSearchProductTreeNodesPu {
 
       private boolean rowCountNull_ ;
       /**
-       * <code>optional bool row_count_null = 1007;</code>
+       * <code>bool row_count_null = 1007;</code>
        */
       public boolean getRowCountNull() {
         return rowCountNull_;
       }
       /**
-       * <code>optional bool row_count_null = 1007;</code>
+       * <code>bool row_count_null = 1007;</code>
        */
       public Builder setRowCountNull(boolean value) {
         
@@ -3855,7 +3855,7 @@ public final class ImSearchProductTreeNodesPu {
         return this;
       }
       /**
-       * <code>optional bool row_count_null = 1007;</code>
+       * <code>bool row_count_null = 1007;</code>
        */
       public Builder clearRowCountNull() {
         
@@ -3868,13 +3868,13 @@ public final class ImSearchProductTreeNodesPu {
       private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.values.BooleanValue, io.dstore.values.BooleanValue.Builder, io.dstore.values.BooleanValueOrBuilder> includeValueDetailsBuilder_;
       /**
-       * <code>optional .dstore.values.BooleanValue include_value_details = 8;</code>
+       * <code>.dstore.values.BooleanValue include_value_details = 8;</code>
        */
       public boolean hasIncludeValueDetails() {
         return includeValueDetailsBuilder_ != null || includeValueDetails_ != null;
       }
       /**
-       * <code>optional .dstore.values.BooleanValue include_value_details = 8;</code>
+       * <code>.dstore.values.BooleanValue include_value_details = 8;</code>
        */
       public io.dstore.values.BooleanValue getIncludeValueDetails() {
         if (includeValueDetailsBuilder_ == null) {
@@ -3884,7 +3884,7 @@ public final class ImSearchProductTreeNodesPu {
         }
       }
       /**
-       * <code>optional .dstore.values.BooleanValue include_value_details = 8;</code>
+       * <code>.dstore.values.BooleanValue include_value_details = 8;</code>
        */
       public Builder setIncludeValueDetails(io.dstore.values.BooleanValue value) {
         if (includeValueDetailsBuilder_ == null) {
@@ -3900,7 +3900,7 @@ public final class ImSearchProductTreeNodesPu {
         return this;
       }
       /**
-       * <code>optional .dstore.values.BooleanValue include_value_details = 8;</code>
+       * <code>.dstore.values.BooleanValue include_value_details = 8;</code>
        */
       public Builder setIncludeValueDetails(
           io.dstore.values.BooleanValue.Builder builderForValue) {
@@ -3914,7 +3914,7 @@ public final class ImSearchProductTreeNodesPu {
         return this;
       }
       /**
-       * <code>optional .dstore.values.BooleanValue include_value_details = 8;</code>
+       * <code>.dstore.values.BooleanValue include_value_details = 8;</code>
        */
       public Builder mergeIncludeValueDetails(io.dstore.values.BooleanValue value) {
         if (includeValueDetailsBuilder_ == null) {
@@ -3932,7 +3932,7 @@ public final class ImSearchProductTreeNodesPu {
         return this;
       }
       /**
-       * <code>optional .dstore.values.BooleanValue include_value_details = 8;</code>
+       * <code>.dstore.values.BooleanValue include_value_details = 8;</code>
        */
       public Builder clearIncludeValueDetails() {
         if (includeValueDetailsBuilder_ == null) {
@@ -3946,7 +3946,7 @@ public final class ImSearchProductTreeNodesPu {
         return this;
       }
       /**
-       * <code>optional .dstore.values.BooleanValue include_value_details = 8;</code>
+       * <code>.dstore.values.BooleanValue include_value_details = 8;</code>
        */
       public io.dstore.values.BooleanValue.Builder getIncludeValueDetailsBuilder() {
         
@@ -3954,7 +3954,7 @@ public final class ImSearchProductTreeNodesPu {
         return getIncludeValueDetailsFieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .dstore.values.BooleanValue include_value_details = 8;</code>
+       * <code>.dstore.values.BooleanValue include_value_details = 8;</code>
        */
       public io.dstore.values.BooleanValueOrBuilder getIncludeValueDetailsOrBuilder() {
         if (includeValueDetailsBuilder_ != null) {
@@ -3965,7 +3965,7 @@ public final class ImSearchProductTreeNodesPu {
         }
       }
       /**
-       * <code>optional .dstore.values.BooleanValue include_value_details = 8;</code>
+       * <code>.dstore.values.BooleanValue include_value_details = 8;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.values.BooleanValue, io.dstore.values.BooleanValue.Builder, io.dstore.values.BooleanValueOrBuilder> 
@@ -3983,13 +3983,13 @@ public final class ImSearchProductTreeNodesPu {
 
       private boolean includeValueDetailsNull_ ;
       /**
-       * <code>optional bool include_value_details_null = 1008;</code>
+       * <code>bool include_value_details_null = 1008;</code>
        */
       public boolean getIncludeValueDetailsNull() {
         return includeValueDetailsNull_;
       }
       /**
-       * <code>optional bool include_value_details_null = 1008;</code>
+       * <code>bool include_value_details_null = 1008;</code>
        */
       public Builder setIncludeValueDetailsNull(boolean value) {
         
@@ -3998,7 +3998,7 @@ public final class ImSearchProductTreeNodesPu {
         return this;
       }
       /**
-       * <code>optional bool include_value_details_null = 1008;</code>
+       * <code>bool include_value_details_null = 1008;</code>
        */
       public Builder clearIncludeValueDetailsNull() {
         
@@ -4011,13 +4011,13 @@ public final class ImSearchProductTreeNodesPu {
       private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.values.BooleanValue, io.dstore.values.BooleanValue.Builder, io.dstore.values.BooleanValueOrBuilder> includeVariantsBuilder_;
       /**
-       * <code>optional .dstore.values.BooleanValue include_variants = 9;</code>
+       * <code>.dstore.values.BooleanValue include_variants = 9;</code>
        */
       public boolean hasIncludeVariants() {
         return includeVariantsBuilder_ != null || includeVariants_ != null;
       }
       /**
-       * <code>optional .dstore.values.BooleanValue include_variants = 9;</code>
+       * <code>.dstore.values.BooleanValue include_variants = 9;</code>
        */
       public io.dstore.values.BooleanValue getIncludeVariants() {
         if (includeVariantsBuilder_ == null) {
@@ -4027,7 +4027,7 @@ public final class ImSearchProductTreeNodesPu {
         }
       }
       /**
-       * <code>optional .dstore.values.BooleanValue include_variants = 9;</code>
+       * <code>.dstore.values.BooleanValue include_variants = 9;</code>
        */
       public Builder setIncludeVariants(io.dstore.values.BooleanValue value) {
         if (includeVariantsBuilder_ == null) {
@@ -4043,7 +4043,7 @@ public final class ImSearchProductTreeNodesPu {
         return this;
       }
       /**
-       * <code>optional .dstore.values.BooleanValue include_variants = 9;</code>
+       * <code>.dstore.values.BooleanValue include_variants = 9;</code>
        */
       public Builder setIncludeVariants(
           io.dstore.values.BooleanValue.Builder builderForValue) {
@@ -4057,7 +4057,7 @@ public final class ImSearchProductTreeNodesPu {
         return this;
       }
       /**
-       * <code>optional .dstore.values.BooleanValue include_variants = 9;</code>
+       * <code>.dstore.values.BooleanValue include_variants = 9;</code>
        */
       public Builder mergeIncludeVariants(io.dstore.values.BooleanValue value) {
         if (includeVariantsBuilder_ == null) {
@@ -4075,7 +4075,7 @@ public final class ImSearchProductTreeNodesPu {
         return this;
       }
       /**
-       * <code>optional .dstore.values.BooleanValue include_variants = 9;</code>
+       * <code>.dstore.values.BooleanValue include_variants = 9;</code>
        */
       public Builder clearIncludeVariants() {
         if (includeVariantsBuilder_ == null) {
@@ -4089,7 +4089,7 @@ public final class ImSearchProductTreeNodesPu {
         return this;
       }
       /**
-       * <code>optional .dstore.values.BooleanValue include_variants = 9;</code>
+       * <code>.dstore.values.BooleanValue include_variants = 9;</code>
        */
       public io.dstore.values.BooleanValue.Builder getIncludeVariantsBuilder() {
         
@@ -4097,7 +4097,7 @@ public final class ImSearchProductTreeNodesPu {
         return getIncludeVariantsFieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .dstore.values.BooleanValue include_variants = 9;</code>
+       * <code>.dstore.values.BooleanValue include_variants = 9;</code>
        */
       public io.dstore.values.BooleanValueOrBuilder getIncludeVariantsOrBuilder() {
         if (includeVariantsBuilder_ != null) {
@@ -4108,7 +4108,7 @@ public final class ImSearchProductTreeNodesPu {
         }
       }
       /**
-       * <code>optional .dstore.values.BooleanValue include_variants = 9;</code>
+       * <code>.dstore.values.BooleanValue include_variants = 9;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.values.BooleanValue, io.dstore.values.BooleanValue.Builder, io.dstore.values.BooleanValueOrBuilder> 
@@ -4126,13 +4126,13 @@ public final class ImSearchProductTreeNodesPu {
 
       private boolean includeVariantsNull_ ;
       /**
-       * <code>optional bool include_variants_null = 1009;</code>
+       * <code>bool include_variants_null = 1009;</code>
        */
       public boolean getIncludeVariantsNull() {
         return includeVariantsNull_;
       }
       /**
-       * <code>optional bool include_variants_null = 1009;</code>
+       * <code>bool include_variants_null = 1009;</code>
        */
       public Builder setIncludeVariantsNull(boolean value) {
         
@@ -4141,7 +4141,7 @@ public final class ImSearchProductTreeNodesPu {
         return this;
       }
       /**
-       * <code>optional bool include_variants_null = 1009;</code>
+       * <code>bool include_variants_null = 1009;</code>
        */
       public Builder clearIncludeVariantsNull() {
         
@@ -4154,13 +4154,13 @@ public final class ImSearchProductTreeNodesPu {
       private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.values.BooleanValue, io.dstore.values.BooleanValue.Builder, io.dstore.values.BooleanValueOrBuilder> maintainSearchItemLacksBuilder_;
       /**
-       * <code>optional .dstore.values.BooleanValue maintain_search_item_lacks = 10;</code>
+       * <code>.dstore.values.BooleanValue maintain_search_item_lacks = 10;</code>
        */
       public boolean hasMaintainSearchItemLacks() {
         return maintainSearchItemLacksBuilder_ != null || maintainSearchItemLacks_ != null;
       }
       /**
-       * <code>optional .dstore.values.BooleanValue maintain_search_item_lacks = 10;</code>
+       * <code>.dstore.values.BooleanValue maintain_search_item_lacks = 10;</code>
        */
       public io.dstore.values.BooleanValue getMaintainSearchItemLacks() {
         if (maintainSearchItemLacksBuilder_ == null) {
@@ -4170,7 +4170,7 @@ public final class ImSearchProductTreeNodesPu {
         }
       }
       /**
-       * <code>optional .dstore.values.BooleanValue maintain_search_item_lacks = 10;</code>
+       * <code>.dstore.values.BooleanValue maintain_search_item_lacks = 10;</code>
        */
       public Builder setMaintainSearchItemLacks(io.dstore.values.BooleanValue value) {
         if (maintainSearchItemLacksBuilder_ == null) {
@@ -4186,7 +4186,7 @@ public final class ImSearchProductTreeNodesPu {
         return this;
       }
       /**
-       * <code>optional .dstore.values.BooleanValue maintain_search_item_lacks = 10;</code>
+       * <code>.dstore.values.BooleanValue maintain_search_item_lacks = 10;</code>
        */
       public Builder setMaintainSearchItemLacks(
           io.dstore.values.BooleanValue.Builder builderForValue) {
@@ -4200,7 +4200,7 @@ public final class ImSearchProductTreeNodesPu {
         return this;
       }
       /**
-       * <code>optional .dstore.values.BooleanValue maintain_search_item_lacks = 10;</code>
+       * <code>.dstore.values.BooleanValue maintain_search_item_lacks = 10;</code>
        */
       public Builder mergeMaintainSearchItemLacks(io.dstore.values.BooleanValue value) {
         if (maintainSearchItemLacksBuilder_ == null) {
@@ -4218,7 +4218,7 @@ public final class ImSearchProductTreeNodesPu {
         return this;
       }
       /**
-       * <code>optional .dstore.values.BooleanValue maintain_search_item_lacks = 10;</code>
+       * <code>.dstore.values.BooleanValue maintain_search_item_lacks = 10;</code>
        */
       public Builder clearMaintainSearchItemLacks() {
         if (maintainSearchItemLacksBuilder_ == null) {
@@ -4232,7 +4232,7 @@ public final class ImSearchProductTreeNodesPu {
         return this;
       }
       /**
-       * <code>optional .dstore.values.BooleanValue maintain_search_item_lacks = 10;</code>
+       * <code>.dstore.values.BooleanValue maintain_search_item_lacks = 10;</code>
        */
       public io.dstore.values.BooleanValue.Builder getMaintainSearchItemLacksBuilder() {
         
@@ -4240,7 +4240,7 @@ public final class ImSearchProductTreeNodesPu {
         return getMaintainSearchItemLacksFieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .dstore.values.BooleanValue maintain_search_item_lacks = 10;</code>
+       * <code>.dstore.values.BooleanValue maintain_search_item_lacks = 10;</code>
        */
       public io.dstore.values.BooleanValueOrBuilder getMaintainSearchItemLacksOrBuilder() {
         if (maintainSearchItemLacksBuilder_ != null) {
@@ -4251,7 +4251,7 @@ public final class ImSearchProductTreeNodesPu {
         }
       }
       /**
-       * <code>optional .dstore.values.BooleanValue maintain_search_item_lacks = 10;</code>
+       * <code>.dstore.values.BooleanValue maintain_search_item_lacks = 10;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.values.BooleanValue, io.dstore.values.BooleanValue.Builder, io.dstore.values.BooleanValueOrBuilder> 
@@ -4269,13 +4269,13 @@ public final class ImSearchProductTreeNodesPu {
 
       private boolean maintainSearchItemLacksNull_ ;
       /**
-       * <code>optional bool maintain_search_item_lacks_null = 1010;</code>
+       * <code>bool maintain_search_item_lacks_null = 1010;</code>
        */
       public boolean getMaintainSearchItemLacksNull() {
         return maintainSearchItemLacksNull_;
       }
       /**
-       * <code>optional bool maintain_search_item_lacks_null = 1010;</code>
+       * <code>bool maintain_search_item_lacks_null = 1010;</code>
        */
       public Builder setMaintainSearchItemLacksNull(boolean value) {
         
@@ -4284,7 +4284,7 @@ public final class ImSearchProductTreeNodesPu {
         return this;
       }
       /**
-       * <code>optional bool maintain_search_item_lacks_null = 1010;</code>
+       * <code>bool maintain_search_item_lacks_null = 1010;</code>
        */
       public Builder clearMaintainSearchItemLacksNull() {
         
@@ -4297,13 +4297,13 @@ public final class ImSearchProductTreeNodesPu {
       private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> binaryCharacteristicValueIdBuilder_;
       /**
-       * <code>optional .dstore.values.IntegerValue binary_characteristic_value_id = 11;</code>
+       * <code>.dstore.values.IntegerValue binary_characteristic_value_id = 11;</code>
        */
       public boolean hasBinaryCharacteristicValueId() {
         return binaryCharacteristicValueIdBuilder_ != null || binaryCharacteristicValueId_ != null;
       }
       /**
-       * <code>optional .dstore.values.IntegerValue binary_characteristic_value_id = 11;</code>
+       * <code>.dstore.values.IntegerValue binary_characteristic_value_id = 11;</code>
        */
       public io.dstore.values.IntegerValue getBinaryCharacteristicValueId() {
         if (binaryCharacteristicValueIdBuilder_ == null) {
@@ -4313,7 +4313,7 @@ public final class ImSearchProductTreeNodesPu {
         }
       }
       /**
-       * <code>optional .dstore.values.IntegerValue binary_characteristic_value_id = 11;</code>
+       * <code>.dstore.values.IntegerValue binary_characteristic_value_id = 11;</code>
        */
       public Builder setBinaryCharacteristicValueId(io.dstore.values.IntegerValue value) {
         if (binaryCharacteristicValueIdBuilder_ == null) {
@@ -4329,7 +4329,7 @@ public final class ImSearchProductTreeNodesPu {
         return this;
       }
       /**
-       * <code>optional .dstore.values.IntegerValue binary_characteristic_value_id = 11;</code>
+       * <code>.dstore.values.IntegerValue binary_characteristic_value_id = 11;</code>
        */
       public Builder setBinaryCharacteristicValueId(
           io.dstore.values.IntegerValue.Builder builderForValue) {
@@ -4343,7 +4343,7 @@ public final class ImSearchProductTreeNodesPu {
         return this;
       }
       /**
-       * <code>optional .dstore.values.IntegerValue binary_characteristic_value_id = 11;</code>
+       * <code>.dstore.values.IntegerValue binary_characteristic_value_id = 11;</code>
        */
       public Builder mergeBinaryCharacteristicValueId(io.dstore.values.IntegerValue value) {
         if (binaryCharacteristicValueIdBuilder_ == null) {
@@ -4361,7 +4361,7 @@ public final class ImSearchProductTreeNodesPu {
         return this;
       }
       /**
-       * <code>optional .dstore.values.IntegerValue binary_characteristic_value_id = 11;</code>
+       * <code>.dstore.values.IntegerValue binary_characteristic_value_id = 11;</code>
        */
       public Builder clearBinaryCharacteristicValueId() {
         if (binaryCharacteristicValueIdBuilder_ == null) {
@@ -4375,7 +4375,7 @@ public final class ImSearchProductTreeNodesPu {
         return this;
       }
       /**
-       * <code>optional .dstore.values.IntegerValue binary_characteristic_value_id = 11;</code>
+       * <code>.dstore.values.IntegerValue binary_characteristic_value_id = 11;</code>
        */
       public io.dstore.values.IntegerValue.Builder getBinaryCharacteristicValueIdBuilder() {
         
@@ -4383,7 +4383,7 @@ public final class ImSearchProductTreeNodesPu {
         return getBinaryCharacteristicValueIdFieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .dstore.values.IntegerValue binary_characteristic_value_id = 11;</code>
+       * <code>.dstore.values.IntegerValue binary_characteristic_value_id = 11;</code>
        */
       public io.dstore.values.IntegerValueOrBuilder getBinaryCharacteristicValueIdOrBuilder() {
         if (binaryCharacteristicValueIdBuilder_ != null) {
@@ -4394,7 +4394,7 @@ public final class ImSearchProductTreeNodesPu {
         }
       }
       /**
-       * <code>optional .dstore.values.IntegerValue binary_characteristic_value_id = 11;</code>
+       * <code>.dstore.values.IntegerValue binary_characteristic_value_id = 11;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> 
@@ -4412,13 +4412,13 @@ public final class ImSearchProductTreeNodesPu {
 
       private boolean binaryCharacteristicValueIdNull_ ;
       /**
-       * <code>optional bool binary_characteristic_value_id_null = 1011;</code>
+       * <code>bool binary_characteristic_value_id_null = 1011;</code>
        */
       public boolean getBinaryCharacteristicValueIdNull() {
         return binaryCharacteristicValueIdNull_;
       }
       /**
-       * <code>optional bool binary_characteristic_value_id_null = 1011;</code>
+       * <code>bool binary_characteristic_value_id_null = 1011;</code>
        */
       public Builder setBinaryCharacteristicValueIdNull(boolean value) {
         
@@ -4427,7 +4427,7 @@ public final class ImSearchProductTreeNodesPu {
         return this;
       }
       /**
-       * <code>optional bool binary_characteristic_value_id_null = 1011;</code>
+       * <code>bool binary_characteristic_value_id_null = 1011;</code>
        */
       public Builder clearBinaryCharacteristicValueIdNull() {
         
@@ -4440,13 +4440,13 @@ public final class ImSearchProductTreeNodesPu {
       private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> filterByCharacteristicIdBuilder_;
       /**
-       * <code>optional .dstore.values.IntegerValue filter_by_characteristic_id = 12;</code>
+       * <code>.dstore.values.IntegerValue filter_by_characteristic_id = 12;</code>
        */
       public boolean hasFilterByCharacteristicId() {
         return filterByCharacteristicIdBuilder_ != null || filterByCharacteristicId_ != null;
       }
       /**
-       * <code>optional .dstore.values.IntegerValue filter_by_characteristic_id = 12;</code>
+       * <code>.dstore.values.IntegerValue filter_by_characteristic_id = 12;</code>
        */
       public io.dstore.values.IntegerValue getFilterByCharacteristicId() {
         if (filterByCharacteristicIdBuilder_ == null) {
@@ -4456,7 +4456,7 @@ public final class ImSearchProductTreeNodesPu {
         }
       }
       /**
-       * <code>optional .dstore.values.IntegerValue filter_by_characteristic_id = 12;</code>
+       * <code>.dstore.values.IntegerValue filter_by_characteristic_id = 12;</code>
        */
       public Builder setFilterByCharacteristicId(io.dstore.values.IntegerValue value) {
         if (filterByCharacteristicIdBuilder_ == null) {
@@ -4472,7 +4472,7 @@ public final class ImSearchProductTreeNodesPu {
         return this;
       }
       /**
-       * <code>optional .dstore.values.IntegerValue filter_by_characteristic_id = 12;</code>
+       * <code>.dstore.values.IntegerValue filter_by_characteristic_id = 12;</code>
        */
       public Builder setFilterByCharacteristicId(
           io.dstore.values.IntegerValue.Builder builderForValue) {
@@ -4486,7 +4486,7 @@ public final class ImSearchProductTreeNodesPu {
         return this;
       }
       /**
-       * <code>optional .dstore.values.IntegerValue filter_by_characteristic_id = 12;</code>
+       * <code>.dstore.values.IntegerValue filter_by_characteristic_id = 12;</code>
        */
       public Builder mergeFilterByCharacteristicId(io.dstore.values.IntegerValue value) {
         if (filterByCharacteristicIdBuilder_ == null) {
@@ -4504,7 +4504,7 @@ public final class ImSearchProductTreeNodesPu {
         return this;
       }
       /**
-       * <code>optional .dstore.values.IntegerValue filter_by_characteristic_id = 12;</code>
+       * <code>.dstore.values.IntegerValue filter_by_characteristic_id = 12;</code>
        */
       public Builder clearFilterByCharacteristicId() {
         if (filterByCharacteristicIdBuilder_ == null) {
@@ -4518,7 +4518,7 @@ public final class ImSearchProductTreeNodesPu {
         return this;
       }
       /**
-       * <code>optional .dstore.values.IntegerValue filter_by_characteristic_id = 12;</code>
+       * <code>.dstore.values.IntegerValue filter_by_characteristic_id = 12;</code>
        */
       public io.dstore.values.IntegerValue.Builder getFilterByCharacteristicIdBuilder() {
         
@@ -4526,7 +4526,7 @@ public final class ImSearchProductTreeNodesPu {
         return getFilterByCharacteristicIdFieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .dstore.values.IntegerValue filter_by_characteristic_id = 12;</code>
+       * <code>.dstore.values.IntegerValue filter_by_characteristic_id = 12;</code>
        */
       public io.dstore.values.IntegerValueOrBuilder getFilterByCharacteristicIdOrBuilder() {
         if (filterByCharacteristicIdBuilder_ != null) {
@@ -4537,7 +4537,7 @@ public final class ImSearchProductTreeNodesPu {
         }
       }
       /**
-       * <code>optional .dstore.values.IntegerValue filter_by_characteristic_id = 12;</code>
+       * <code>.dstore.values.IntegerValue filter_by_characteristic_id = 12;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> 
@@ -4555,13 +4555,13 @@ public final class ImSearchProductTreeNodesPu {
 
       private boolean filterByCharacteristicIdNull_ ;
       /**
-       * <code>optional bool filter_by_characteristic_id_null = 1012;</code>
+       * <code>bool filter_by_characteristic_id_null = 1012;</code>
        */
       public boolean getFilterByCharacteristicIdNull() {
         return filterByCharacteristicIdNull_;
       }
       /**
-       * <code>optional bool filter_by_characteristic_id_null = 1012;</code>
+       * <code>bool filter_by_characteristic_id_null = 1012;</code>
        */
       public Builder setFilterByCharacteristicIdNull(boolean value) {
         
@@ -4570,7 +4570,7 @@ public final class ImSearchProductTreeNodesPu {
         return this;
       }
       /**
-       * <code>optional bool filter_by_characteristic_id_null = 1012;</code>
+       * <code>bool filter_by_characteristic_id_null = 1012;</code>
        */
       public Builder clearFilterByCharacteristicIdNull() {
         
@@ -4583,13 +4583,13 @@ public final class ImSearchProductTreeNodesPu {
       private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.values.StringValue, io.dstore.values.StringValue.Builder, io.dstore.values.StringValueOrBuilder> filterByCharacValueBuilder_;
       /**
-       * <code>optional .dstore.values.StringValue filter_by_charac_value = 13;</code>
+       * <code>.dstore.values.StringValue filter_by_charac_value = 13;</code>
        */
       public boolean hasFilterByCharacValue() {
         return filterByCharacValueBuilder_ != null || filterByCharacValue_ != null;
       }
       /**
-       * <code>optional .dstore.values.StringValue filter_by_charac_value = 13;</code>
+       * <code>.dstore.values.StringValue filter_by_charac_value = 13;</code>
        */
       public io.dstore.values.StringValue getFilterByCharacValue() {
         if (filterByCharacValueBuilder_ == null) {
@@ -4599,7 +4599,7 @@ public final class ImSearchProductTreeNodesPu {
         }
       }
       /**
-       * <code>optional .dstore.values.StringValue filter_by_charac_value = 13;</code>
+       * <code>.dstore.values.StringValue filter_by_charac_value = 13;</code>
        */
       public Builder setFilterByCharacValue(io.dstore.values.StringValue value) {
         if (filterByCharacValueBuilder_ == null) {
@@ -4615,7 +4615,7 @@ public final class ImSearchProductTreeNodesPu {
         return this;
       }
       /**
-       * <code>optional .dstore.values.StringValue filter_by_charac_value = 13;</code>
+       * <code>.dstore.values.StringValue filter_by_charac_value = 13;</code>
        */
       public Builder setFilterByCharacValue(
           io.dstore.values.StringValue.Builder builderForValue) {
@@ -4629,7 +4629,7 @@ public final class ImSearchProductTreeNodesPu {
         return this;
       }
       /**
-       * <code>optional .dstore.values.StringValue filter_by_charac_value = 13;</code>
+       * <code>.dstore.values.StringValue filter_by_charac_value = 13;</code>
        */
       public Builder mergeFilterByCharacValue(io.dstore.values.StringValue value) {
         if (filterByCharacValueBuilder_ == null) {
@@ -4647,7 +4647,7 @@ public final class ImSearchProductTreeNodesPu {
         return this;
       }
       /**
-       * <code>optional .dstore.values.StringValue filter_by_charac_value = 13;</code>
+       * <code>.dstore.values.StringValue filter_by_charac_value = 13;</code>
        */
       public Builder clearFilterByCharacValue() {
         if (filterByCharacValueBuilder_ == null) {
@@ -4661,7 +4661,7 @@ public final class ImSearchProductTreeNodesPu {
         return this;
       }
       /**
-       * <code>optional .dstore.values.StringValue filter_by_charac_value = 13;</code>
+       * <code>.dstore.values.StringValue filter_by_charac_value = 13;</code>
        */
       public io.dstore.values.StringValue.Builder getFilterByCharacValueBuilder() {
         
@@ -4669,7 +4669,7 @@ public final class ImSearchProductTreeNodesPu {
         return getFilterByCharacValueFieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .dstore.values.StringValue filter_by_charac_value = 13;</code>
+       * <code>.dstore.values.StringValue filter_by_charac_value = 13;</code>
        */
       public io.dstore.values.StringValueOrBuilder getFilterByCharacValueOrBuilder() {
         if (filterByCharacValueBuilder_ != null) {
@@ -4680,7 +4680,7 @@ public final class ImSearchProductTreeNodesPu {
         }
       }
       /**
-       * <code>optional .dstore.values.StringValue filter_by_charac_value = 13;</code>
+       * <code>.dstore.values.StringValue filter_by_charac_value = 13;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.values.StringValue, io.dstore.values.StringValue.Builder, io.dstore.values.StringValueOrBuilder> 
@@ -4698,13 +4698,13 @@ public final class ImSearchProductTreeNodesPu {
 
       private boolean filterByCharacValueNull_ ;
       /**
-       * <code>optional bool filter_by_charac_value_null = 1013;</code>
+       * <code>bool filter_by_charac_value_null = 1013;</code>
        */
       public boolean getFilterByCharacValueNull() {
         return filterByCharacValueNull_;
       }
       /**
-       * <code>optional bool filter_by_charac_value_null = 1013;</code>
+       * <code>bool filter_by_charac_value_null = 1013;</code>
        */
       public Builder setFilterByCharacValueNull(boolean value) {
         
@@ -4713,7 +4713,7 @@ public final class ImSearchProductTreeNodesPu {
         return this;
       }
       /**
-       * <code>optional bool filter_by_charac_value_null = 1013;</code>
+       * <code>bool filter_by_charac_value_null = 1013;</code>
        */
       public Builder clearFilterByCharacValueNull() {
         
@@ -4726,13 +4726,13 @@ public final class ImSearchProductTreeNodesPu {
       private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.values.StringValue, io.dstore.values.StringValue.Builder, io.dstore.values.StringValueOrBuilder> countryBuilder_;
       /**
-       * <code>optional .dstore.values.StringValue country = 14;</code>
+       * <code>.dstore.values.StringValue country = 14;</code>
        */
       public boolean hasCountry() {
         return countryBuilder_ != null || country_ != null;
       }
       /**
-       * <code>optional .dstore.values.StringValue country = 14;</code>
+       * <code>.dstore.values.StringValue country = 14;</code>
        */
       public io.dstore.values.StringValue getCountry() {
         if (countryBuilder_ == null) {
@@ -4742,7 +4742,7 @@ public final class ImSearchProductTreeNodesPu {
         }
       }
       /**
-       * <code>optional .dstore.values.StringValue country = 14;</code>
+       * <code>.dstore.values.StringValue country = 14;</code>
        */
       public Builder setCountry(io.dstore.values.StringValue value) {
         if (countryBuilder_ == null) {
@@ -4758,7 +4758,7 @@ public final class ImSearchProductTreeNodesPu {
         return this;
       }
       /**
-       * <code>optional .dstore.values.StringValue country = 14;</code>
+       * <code>.dstore.values.StringValue country = 14;</code>
        */
       public Builder setCountry(
           io.dstore.values.StringValue.Builder builderForValue) {
@@ -4772,7 +4772,7 @@ public final class ImSearchProductTreeNodesPu {
         return this;
       }
       /**
-       * <code>optional .dstore.values.StringValue country = 14;</code>
+       * <code>.dstore.values.StringValue country = 14;</code>
        */
       public Builder mergeCountry(io.dstore.values.StringValue value) {
         if (countryBuilder_ == null) {
@@ -4790,7 +4790,7 @@ public final class ImSearchProductTreeNodesPu {
         return this;
       }
       /**
-       * <code>optional .dstore.values.StringValue country = 14;</code>
+       * <code>.dstore.values.StringValue country = 14;</code>
        */
       public Builder clearCountry() {
         if (countryBuilder_ == null) {
@@ -4804,7 +4804,7 @@ public final class ImSearchProductTreeNodesPu {
         return this;
       }
       /**
-       * <code>optional .dstore.values.StringValue country = 14;</code>
+       * <code>.dstore.values.StringValue country = 14;</code>
        */
       public io.dstore.values.StringValue.Builder getCountryBuilder() {
         
@@ -4812,7 +4812,7 @@ public final class ImSearchProductTreeNodesPu {
         return getCountryFieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .dstore.values.StringValue country = 14;</code>
+       * <code>.dstore.values.StringValue country = 14;</code>
        */
       public io.dstore.values.StringValueOrBuilder getCountryOrBuilder() {
         if (countryBuilder_ != null) {
@@ -4823,7 +4823,7 @@ public final class ImSearchProductTreeNodesPu {
         }
       }
       /**
-       * <code>optional .dstore.values.StringValue country = 14;</code>
+       * <code>.dstore.values.StringValue country = 14;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.values.StringValue, io.dstore.values.StringValue.Builder, io.dstore.values.StringValueOrBuilder> 
@@ -4841,13 +4841,13 @@ public final class ImSearchProductTreeNodesPu {
 
       private boolean countryNull_ ;
       /**
-       * <code>optional bool country_null = 1014;</code>
+       * <code>bool country_null = 1014;</code>
        */
       public boolean getCountryNull() {
         return countryNull_;
       }
       /**
-       * <code>optional bool country_null = 1014;</code>
+       * <code>bool country_null = 1014;</code>
        */
       public Builder setCountryNull(boolean value) {
         
@@ -4856,7 +4856,7 @@ public final class ImSearchProductTreeNodesPu {
         return this;
       }
       /**
-       * <code>optional bool country_null = 1014;</code>
+       * <code>bool country_null = 1014;</code>
        */
       public Builder clearCountryNull() {
         
@@ -4869,13 +4869,13 @@ public final class ImSearchProductTreeNodesPu {
       private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.values.BooleanValue, io.dstore.values.BooleanValue.Builder, io.dstore.values.BooleanValueOrBuilder> negateFilterByParamsBuilder_;
       /**
-       * <code>optional .dstore.values.BooleanValue negate_filter_by_params = 15;</code>
+       * <code>.dstore.values.BooleanValue negate_filter_by_params = 15;</code>
        */
       public boolean hasNegateFilterByParams() {
         return negateFilterByParamsBuilder_ != null || negateFilterByParams_ != null;
       }
       /**
-       * <code>optional .dstore.values.BooleanValue negate_filter_by_params = 15;</code>
+       * <code>.dstore.values.BooleanValue negate_filter_by_params = 15;</code>
        */
       public io.dstore.values.BooleanValue getNegateFilterByParams() {
         if (negateFilterByParamsBuilder_ == null) {
@@ -4885,7 +4885,7 @@ public final class ImSearchProductTreeNodesPu {
         }
       }
       /**
-       * <code>optional .dstore.values.BooleanValue negate_filter_by_params = 15;</code>
+       * <code>.dstore.values.BooleanValue negate_filter_by_params = 15;</code>
        */
       public Builder setNegateFilterByParams(io.dstore.values.BooleanValue value) {
         if (negateFilterByParamsBuilder_ == null) {
@@ -4901,7 +4901,7 @@ public final class ImSearchProductTreeNodesPu {
         return this;
       }
       /**
-       * <code>optional .dstore.values.BooleanValue negate_filter_by_params = 15;</code>
+       * <code>.dstore.values.BooleanValue negate_filter_by_params = 15;</code>
        */
       public Builder setNegateFilterByParams(
           io.dstore.values.BooleanValue.Builder builderForValue) {
@@ -4915,7 +4915,7 @@ public final class ImSearchProductTreeNodesPu {
         return this;
       }
       /**
-       * <code>optional .dstore.values.BooleanValue negate_filter_by_params = 15;</code>
+       * <code>.dstore.values.BooleanValue negate_filter_by_params = 15;</code>
        */
       public Builder mergeNegateFilterByParams(io.dstore.values.BooleanValue value) {
         if (negateFilterByParamsBuilder_ == null) {
@@ -4933,7 +4933,7 @@ public final class ImSearchProductTreeNodesPu {
         return this;
       }
       /**
-       * <code>optional .dstore.values.BooleanValue negate_filter_by_params = 15;</code>
+       * <code>.dstore.values.BooleanValue negate_filter_by_params = 15;</code>
        */
       public Builder clearNegateFilterByParams() {
         if (negateFilterByParamsBuilder_ == null) {
@@ -4947,7 +4947,7 @@ public final class ImSearchProductTreeNodesPu {
         return this;
       }
       /**
-       * <code>optional .dstore.values.BooleanValue negate_filter_by_params = 15;</code>
+       * <code>.dstore.values.BooleanValue negate_filter_by_params = 15;</code>
        */
       public io.dstore.values.BooleanValue.Builder getNegateFilterByParamsBuilder() {
         
@@ -4955,7 +4955,7 @@ public final class ImSearchProductTreeNodesPu {
         return getNegateFilterByParamsFieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .dstore.values.BooleanValue negate_filter_by_params = 15;</code>
+       * <code>.dstore.values.BooleanValue negate_filter_by_params = 15;</code>
        */
       public io.dstore.values.BooleanValueOrBuilder getNegateFilterByParamsOrBuilder() {
         if (negateFilterByParamsBuilder_ != null) {
@@ -4966,7 +4966,7 @@ public final class ImSearchProductTreeNodesPu {
         }
       }
       /**
-       * <code>optional .dstore.values.BooleanValue negate_filter_by_params = 15;</code>
+       * <code>.dstore.values.BooleanValue negate_filter_by_params = 15;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.values.BooleanValue, io.dstore.values.BooleanValue.Builder, io.dstore.values.BooleanValueOrBuilder> 
@@ -4984,13 +4984,13 @@ public final class ImSearchProductTreeNodesPu {
 
       private boolean negateFilterByParamsNull_ ;
       /**
-       * <code>optional bool negate_filter_by_params_null = 1015;</code>
+       * <code>bool negate_filter_by_params_null = 1015;</code>
        */
       public boolean getNegateFilterByParamsNull() {
         return negateFilterByParamsNull_;
       }
       /**
-       * <code>optional bool negate_filter_by_params_null = 1015;</code>
+       * <code>bool negate_filter_by_params_null = 1015;</code>
        */
       public Builder setNegateFilterByParamsNull(boolean value) {
         
@@ -4999,7 +4999,7 @@ public final class ImSearchProductTreeNodesPu {
         return this;
       }
       /**
-       * <code>optional bool negate_filter_by_params_null = 1015;</code>
+       * <code>bool negate_filter_by_params_null = 1015;</code>
        */
       public Builder clearNegateFilterByParamsNull() {
         
@@ -5012,13 +5012,13 @@ public final class ImSearchProductTreeNodesPu {
       private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> countBuilder_;
       /**
-       * <code>optional .dstore.values.IntegerValue count = 16;</code>
+       * <code>.dstore.values.IntegerValue count = 16;</code>
        */
       public boolean hasCount() {
         return countBuilder_ != null || count_ != null;
       }
       /**
-       * <code>optional .dstore.values.IntegerValue count = 16;</code>
+       * <code>.dstore.values.IntegerValue count = 16;</code>
        */
       public io.dstore.values.IntegerValue getCount() {
         if (countBuilder_ == null) {
@@ -5028,7 +5028,7 @@ public final class ImSearchProductTreeNodesPu {
         }
       }
       /**
-       * <code>optional .dstore.values.IntegerValue count = 16;</code>
+       * <code>.dstore.values.IntegerValue count = 16;</code>
        */
       public Builder setCount(io.dstore.values.IntegerValue value) {
         if (countBuilder_ == null) {
@@ -5044,7 +5044,7 @@ public final class ImSearchProductTreeNodesPu {
         return this;
       }
       /**
-       * <code>optional .dstore.values.IntegerValue count = 16;</code>
+       * <code>.dstore.values.IntegerValue count = 16;</code>
        */
       public Builder setCount(
           io.dstore.values.IntegerValue.Builder builderForValue) {
@@ -5058,7 +5058,7 @@ public final class ImSearchProductTreeNodesPu {
         return this;
       }
       /**
-       * <code>optional .dstore.values.IntegerValue count = 16;</code>
+       * <code>.dstore.values.IntegerValue count = 16;</code>
        */
       public Builder mergeCount(io.dstore.values.IntegerValue value) {
         if (countBuilder_ == null) {
@@ -5076,7 +5076,7 @@ public final class ImSearchProductTreeNodesPu {
         return this;
       }
       /**
-       * <code>optional .dstore.values.IntegerValue count = 16;</code>
+       * <code>.dstore.values.IntegerValue count = 16;</code>
        */
       public Builder clearCount() {
         if (countBuilder_ == null) {
@@ -5090,7 +5090,7 @@ public final class ImSearchProductTreeNodesPu {
         return this;
       }
       /**
-       * <code>optional .dstore.values.IntegerValue count = 16;</code>
+       * <code>.dstore.values.IntegerValue count = 16;</code>
        */
       public io.dstore.values.IntegerValue.Builder getCountBuilder() {
         
@@ -5098,7 +5098,7 @@ public final class ImSearchProductTreeNodesPu {
         return getCountFieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .dstore.values.IntegerValue count = 16;</code>
+       * <code>.dstore.values.IntegerValue count = 16;</code>
        */
       public io.dstore.values.IntegerValueOrBuilder getCountOrBuilder() {
         if (countBuilder_ != null) {
@@ -5109,7 +5109,7 @@ public final class ImSearchProductTreeNodesPu {
         }
       }
       /**
-       * <code>optional .dstore.values.IntegerValue count = 16;</code>
+       * <code>.dstore.values.IntegerValue count = 16;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> 
@@ -5127,13 +5127,13 @@ public final class ImSearchProductTreeNodesPu {
 
       private boolean countNull_ ;
       /**
-       * <code>optional bool count_null = 1016;</code>
+       * <code>bool count_null = 1016;</code>
        */
       public boolean getCountNull() {
         return countNull_;
       }
       /**
-       * <code>optional bool count_null = 1016;</code>
+       * <code>bool count_null = 1016;</code>
        */
       public Builder setCountNull(boolean value) {
         
@@ -5142,7 +5142,7 @@ public final class ImSearchProductTreeNodesPu {
         return this;
       }
       /**
-       * <code>optional bool count_null = 1016;</code>
+       * <code>bool count_null = 1016;</code>
        */
       public Builder clearCountNull() {
         
@@ -5155,13 +5155,13 @@ public final class ImSearchProductTreeNodesPu {
       private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.values.StringValue, io.dstore.values.StringValue.Builder, io.dstore.values.StringValueOrBuilder> sortByCharacteristicIdListBuilder_;
       /**
-       * <code>optional .dstore.values.StringValue sort_by_characteristic_id_list = 17;</code>
+       * <code>.dstore.values.StringValue sort_by_characteristic_id_list = 17;</code>
        */
       public boolean hasSortByCharacteristicIdList() {
         return sortByCharacteristicIdListBuilder_ != null || sortByCharacteristicIdList_ != null;
       }
       /**
-       * <code>optional .dstore.values.StringValue sort_by_characteristic_id_list = 17;</code>
+       * <code>.dstore.values.StringValue sort_by_characteristic_id_list = 17;</code>
        */
       public io.dstore.values.StringValue getSortByCharacteristicIdList() {
         if (sortByCharacteristicIdListBuilder_ == null) {
@@ -5171,7 +5171,7 @@ public final class ImSearchProductTreeNodesPu {
         }
       }
       /**
-       * <code>optional .dstore.values.StringValue sort_by_characteristic_id_list = 17;</code>
+       * <code>.dstore.values.StringValue sort_by_characteristic_id_list = 17;</code>
        */
       public Builder setSortByCharacteristicIdList(io.dstore.values.StringValue value) {
         if (sortByCharacteristicIdListBuilder_ == null) {
@@ -5187,7 +5187,7 @@ public final class ImSearchProductTreeNodesPu {
         return this;
       }
       /**
-       * <code>optional .dstore.values.StringValue sort_by_characteristic_id_list = 17;</code>
+       * <code>.dstore.values.StringValue sort_by_characteristic_id_list = 17;</code>
        */
       public Builder setSortByCharacteristicIdList(
           io.dstore.values.StringValue.Builder builderForValue) {
@@ -5201,7 +5201,7 @@ public final class ImSearchProductTreeNodesPu {
         return this;
       }
       /**
-       * <code>optional .dstore.values.StringValue sort_by_characteristic_id_list = 17;</code>
+       * <code>.dstore.values.StringValue sort_by_characteristic_id_list = 17;</code>
        */
       public Builder mergeSortByCharacteristicIdList(io.dstore.values.StringValue value) {
         if (sortByCharacteristicIdListBuilder_ == null) {
@@ -5219,7 +5219,7 @@ public final class ImSearchProductTreeNodesPu {
         return this;
       }
       /**
-       * <code>optional .dstore.values.StringValue sort_by_characteristic_id_list = 17;</code>
+       * <code>.dstore.values.StringValue sort_by_characteristic_id_list = 17;</code>
        */
       public Builder clearSortByCharacteristicIdList() {
         if (sortByCharacteristicIdListBuilder_ == null) {
@@ -5233,7 +5233,7 @@ public final class ImSearchProductTreeNodesPu {
         return this;
       }
       /**
-       * <code>optional .dstore.values.StringValue sort_by_characteristic_id_list = 17;</code>
+       * <code>.dstore.values.StringValue sort_by_characteristic_id_list = 17;</code>
        */
       public io.dstore.values.StringValue.Builder getSortByCharacteristicIdListBuilder() {
         
@@ -5241,7 +5241,7 @@ public final class ImSearchProductTreeNodesPu {
         return getSortByCharacteristicIdListFieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .dstore.values.StringValue sort_by_characteristic_id_list = 17;</code>
+       * <code>.dstore.values.StringValue sort_by_characteristic_id_list = 17;</code>
        */
       public io.dstore.values.StringValueOrBuilder getSortByCharacteristicIdListOrBuilder() {
         if (sortByCharacteristicIdListBuilder_ != null) {
@@ -5252,7 +5252,7 @@ public final class ImSearchProductTreeNodesPu {
         }
       }
       /**
-       * <code>optional .dstore.values.StringValue sort_by_characteristic_id_list = 17;</code>
+       * <code>.dstore.values.StringValue sort_by_characteristic_id_list = 17;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.values.StringValue, io.dstore.values.StringValue.Builder, io.dstore.values.StringValueOrBuilder> 
@@ -5270,13 +5270,13 @@ public final class ImSearchProductTreeNodesPu {
 
       private boolean sortByCharacteristicIdListNull_ ;
       /**
-       * <code>optional bool sort_by_characteristic_id_list_null = 1017;</code>
+       * <code>bool sort_by_characteristic_id_list_null = 1017;</code>
        */
       public boolean getSortByCharacteristicIdListNull() {
         return sortByCharacteristicIdListNull_;
       }
       /**
-       * <code>optional bool sort_by_characteristic_id_list_null = 1017;</code>
+       * <code>bool sort_by_characteristic_id_list_null = 1017;</code>
        */
       public Builder setSortByCharacteristicIdListNull(boolean value) {
         
@@ -5285,7 +5285,7 @@ public final class ImSearchProductTreeNodesPu {
         return this;
       }
       /**
-       * <code>optional bool sort_by_characteristic_id_list_null = 1017;</code>
+       * <code>bool sort_by_characteristic_id_list_null = 1017;</code>
        */
       public Builder clearSortByCharacteristicIdListNull() {
         
@@ -5298,13 +5298,13 @@ public final class ImSearchProductTreeNodesPu {
       private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.values.StringValue, io.dstore.values.StringValue.Builder, io.dstore.values.StringValueOrBuilder> sortOptionListBuilder_;
       /**
-       * <code>optional .dstore.values.StringValue sort_option_list = 18;</code>
+       * <code>.dstore.values.StringValue sort_option_list = 18;</code>
        */
       public boolean hasSortOptionList() {
         return sortOptionListBuilder_ != null || sortOptionList_ != null;
       }
       /**
-       * <code>optional .dstore.values.StringValue sort_option_list = 18;</code>
+       * <code>.dstore.values.StringValue sort_option_list = 18;</code>
        */
       public io.dstore.values.StringValue getSortOptionList() {
         if (sortOptionListBuilder_ == null) {
@@ -5314,7 +5314,7 @@ public final class ImSearchProductTreeNodesPu {
         }
       }
       /**
-       * <code>optional .dstore.values.StringValue sort_option_list = 18;</code>
+       * <code>.dstore.values.StringValue sort_option_list = 18;</code>
        */
       public Builder setSortOptionList(io.dstore.values.StringValue value) {
         if (sortOptionListBuilder_ == null) {
@@ -5330,7 +5330,7 @@ public final class ImSearchProductTreeNodesPu {
         return this;
       }
       /**
-       * <code>optional .dstore.values.StringValue sort_option_list = 18;</code>
+       * <code>.dstore.values.StringValue sort_option_list = 18;</code>
        */
       public Builder setSortOptionList(
           io.dstore.values.StringValue.Builder builderForValue) {
@@ -5344,7 +5344,7 @@ public final class ImSearchProductTreeNodesPu {
         return this;
       }
       /**
-       * <code>optional .dstore.values.StringValue sort_option_list = 18;</code>
+       * <code>.dstore.values.StringValue sort_option_list = 18;</code>
        */
       public Builder mergeSortOptionList(io.dstore.values.StringValue value) {
         if (sortOptionListBuilder_ == null) {
@@ -5362,7 +5362,7 @@ public final class ImSearchProductTreeNodesPu {
         return this;
       }
       /**
-       * <code>optional .dstore.values.StringValue sort_option_list = 18;</code>
+       * <code>.dstore.values.StringValue sort_option_list = 18;</code>
        */
       public Builder clearSortOptionList() {
         if (sortOptionListBuilder_ == null) {
@@ -5376,7 +5376,7 @@ public final class ImSearchProductTreeNodesPu {
         return this;
       }
       /**
-       * <code>optional .dstore.values.StringValue sort_option_list = 18;</code>
+       * <code>.dstore.values.StringValue sort_option_list = 18;</code>
        */
       public io.dstore.values.StringValue.Builder getSortOptionListBuilder() {
         
@@ -5384,7 +5384,7 @@ public final class ImSearchProductTreeNodesPu {
         return getSortOptionListFieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .dstore.values.StringValue sort_option_list = 18;</code>
+       * <code>.dstore.values.StringValue sort_option_list = 18;</code>
        */
       public io.dstore.values.StringValueOrBuilder getSortOptionListOrBuilder() {
         if (sortOptionListBuilder_ != null) {
@@ -5395,7 +5395,7 @@ public final class ImSearchProductTreeNodesPu {
         }
       }
       /**
-       * <code>optional .dstore.values.StringValue sort_option_list = 18;</code>
+       * <code>.dstore.values.StringValue sort_option_list = 18;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.values.StringValue, io.dstore.values.StringValue.Builder, io.dstore.values.StringValueOrBuilder> 
@@ -5413,13 +5413,13 @@ public final class ImSearchProductTreeNodesPu {
 
       private boolean sortOptionListNull_ ;
       /**
-       * <code>optional bool sort_option_list_null = 1018;</code>
+       * <code>bool sort_option_list_null = 1018;</code>
        */
       public boolean getSortOptionListNull() {
         return sortOptionListNull_;
       }
       /**
-       * <code>optional bool sort_option_list_null = 1018;</code>
+       * <code>bool sort_option_list_null = 1018;</code>
        */
       public Builder setSortOptionListNull(boolean value) {
         
@@ -5428,7 +5428,7 @@ public final class ImSearchProductTreeNodesPu {
         return this;
       }
       /**
-       * <code>optional bool sort_option_list_null = 1018;</code>
+       * <code>bool sort_option_list_null = 1018;</code>
        */
       public Builder clearSortOptionListNull() {
         
@@ -5441,13 +5441,13 @@ public final class ImSearchProductTreeNodesPu {
       private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.values.StringValue, io.dstore.values.StringValue.Builder, io.dstore.values.StringValueOrBuilder> inheritDepthOptionListBuilder_;
       /**
-       * <code>optional .dstore.values.StringValue inherit_depth_option_list = 19;</code>
+       * <code>.dstore.values.StringValue inherit_depth_option_list = 19;</code>
        */
       public boolean hasInheritDepthOptionList() {
         return inheritDepthOptionListBuilder_ != null || inheritDepthOptionList_ != null;
       }
       /**
-       * <code>optional .dstore.values.StringValue inherit_depth_option_list = 19;</code>
+       * <code>.dstore.values.StringValue inherit_depth_option_list = 19;</code>
        */
       public io.dstore.values.StringValue getInheritDepthOptionList() {
         if (inheritDepthOptionListBuilder_ == null) {
@@ -5457,7 +5457,7 @@ public final class ImSearchProductTreeNodesPu {
         }
       }
       /**
-       * <code>optional .dstore.values.StringValue inherit_depth_option_list = 19;</code>
+       * <code>.dstore.values.StringValue inherit_depth_option_list = 19;</code>
        */
       public Builder setInheritDepthOptionList(io.dstore.values.StringValue value) {
         if (inheritDepthOptionListBuilder_ == null) {
@@ -5473,7 +5473,7 @@ public final class ImSearchProductTreeNodesPu {
         return this;
       }
       /**
-       * <code>optional .dstore.values.StringValue inherit_depth_option_list = 19;</code>
+       * <code>.dstore.values.StringValue inherit_depth_option_list = 19;</code>
        */
       public Builder setInheritDepthOptionList(
           io.dstore.values.StringValue.Builder builderForValue) {
@@ -5487,7 +5487,7 @@ public final class ImSearchProductTreeNodesPu {
         return this;
       }
       /**
-       * <code>optional .dstore.values.StringValue inherit_depth_option_list = 19;</code>
+       * <code>.dstore.values.StringValue inherit_depth_option_list = 19;</code>
        */
       public Builder mergeInheritDepthOptionList(io.dstore.values.StringValue value) {
         if (inheritDepthOptionListBuilder_ == null) {
@@ -5505,7 +5505,7 @@ public final class ImSearchProductTreeNodesPu {
         return this;
       }
       /**
-       * <code>optional .dstore.values.StringValue inherit_depth_option_list = 19;</code>
+       * <code>.dstore.values.StringValue inherit_depth_option_list = 19;</code>
        */
       public Builder clearInheritDepthOptionList() {
         if (inheritDepthOptionListBuilder_ == null) {
@@ -5519,7 +5519,7 @@ public final class ImSearchProductTreeNodesPu {
         return this;
       }
       /**
-       * <code>optional .dstore.values.StringValue inherit_depth_option_list = 19;</code>
+       * <code>.dstore.values.StringValue inherit_depth_option_list = 19;</code>
        */
       public io.dstore.values.StringValue.Builder getInheritDepthOptionListBuilder() {
         
@@ -5527,7 +5527,7 @@ public final class ImSearchProductTreeNodesPu {
         return getInheritDepthOptionListFieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .dstore.values.StringValue inherit_depth_option_list = 19;</code>
+       * <code>.dstore.values.StringValue inherit_depth_option_list = 19;</code>
        */
       public io.dstore.values.StringValueOrBuilder getInheritDepthOptionListOrBuilder() {
         if (inheritDepthOptionListBuilder_ != null) {
@@ -5538,7 +5538,7 @@ public final class ImSearchProductTreeNodesPu {
         }
       }
       /**
-       * <code>optional .dstore.values.StringValue inherit_depth_option_list = 19;</code>
+       * <code>.dstore.values.StringValue inherit_depth_option_list = 19;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.values.StringValue, io.dstore.values.StringValue.Builder, io.dstore.values.StringValueOrBuilder> 
@@ -5556,13 +5556,13 @@ public final class ImSearchProductTreeNodesPu {
 
       private boolean inheritDepthOptionListNull_ ;
       /**
-       * <code>optional bool inherit_depth_option_list_null = 1019;</code>
+       * <code>bool inherit_depth_option_list_null = 1019;</code>
        */
       public boolean getInheritDepthOptionListNull() {
         return inheritDepthOptionListNull_;
       }
       /**
-       * <code>optional bool inherit_depth_option_list_null = 1019;</code>
+       * <code>bool inherit_depth_option_list_null = 1019;</code>
        */
       public Builder setInheritDepthOptionListNull(boolean value) {
         
@@ -5571,7 +5571,7 @@ public final class ImSearchProductTreeNodesPu {
         return this;
       }
       /**
-       * <code>optional bool inherit_depth_option_list_null = 1019;</code>
+       * <code>bool inherit_depth_option_list_null = 1019;</code>
        */
       public Builder clearInheritDepthOptionListNull() {
         
@@ -5584,13 +5584,13 @@ public final class ImSearchProductTreeNodesPu {
       private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.values.StringValue, io.dstore.values.StringValue.Builder, io.dstore.values.StringValueOrBuilder> recursiveEvaluationOptionListBuilder_;
       /**
-       * <code>optional .dstore.values.StringValue recursive_evaluation_option_list = 20;</code>
+       * <code>.dstore.values.StringValue recursive_evaluation_option_list = 20;</code>
        */
       public boolean hasRecursiveEvaluationOptionList() {
         return recursiveEvaluationOptionListBuilder_ != null || recursiveEvaluationOptionList_ != null;
       }
       /**
-       * <code>optional .dstore.values.StringValue recursive_evaluation_option_list = 20;</code>
+       * <code>.dstore.values.StringValue recursive_evaluation_option_list = 20;</code>
        */
       public io.dstore.values.StringValue getRecursiveEvaluationOptionList() {
         if (recursiveEvaluationOptionListBuilder_ == null) {
@@ -5600,7 +5600,7 @@ public final class ImSearchProductTreeNodesPu {
         }
       }
       /**
-       * <code>optional .dstore.values.StringValue recursive_evaluation_option_list = 20;</code>
+       * <code>.dstore.values.StringValue recursive_evaluation_option_list = 20;</code>
        */
       public Builder setRecursiveEvaluationOptionList(io.dstore.values.StringValue value) {
         if (recursiveEvaluationOptionListBuilder_ == null) {
@@ -5616,7 +5616,7 @@ public final class ImSearchProductTreeNodesPu {
         return this;
       }
       /**
-       * <code>optional .dstore.values.StringValue recursive_evaluation_option_list = 20;</code>
+       * <code>.dstore.values.StringValue recursive_evaluation_option_list = 20;</code>
        */
       public Builder setRecursiveEvaluationOptionList(
           io.dstore.values.StringValue.Builder builderForValue) {
@@ -5630,7 +5630,7 @@ public final class ImSearchProductTreeNodesPu {
         return this;
       }
       /**
-       * <code>optional .dstore.values.StringValue recursive_evaluation_option_list = 20;</code>
+       * <code>.dstore.values.StringValue recursive_evaluation_option_list = 20;</code>
        */
       public Builder mergeRecursiveEvaluationOptionList(io.dstore.values.StringValue value) {
         if (recursiveEvaluationOptionListBuilder_ == null) {
@@ -5648,7 +5648,7 @@ public final class ImSearchProductTreeNodesPu {
         return this;
       }
       /**
-       * <code>optional .dstore.values.StringValue recursive_evaluation_option_list = 20;</code>
+       * <code>.dstore.values.StringValue recursive_evaluation_option_list = 20;</code>
        */
       public Builder clearRecursiveEvaluationOptionList() {
         if (recursiveEvaluationOptionListBuilder_ == null) {
@@ -5662,7 +5662,7 @@ public final class ImSearchProductTreeNodesPu {
         return this;
       }
       /**
-       * <code>optional .dstore.values.StringValue recursive_evaluation_option_list = 20;</code>
+       * <code>.dstore.values.StringValue recursive_evaluation_option_list = 20;</code>
        */
       public io.dstore.values.StringValue.Builder getRecursiveEvaluationOptionListBuilder() {
         
@@ -5670,7 +5670,7 @@ public final class ImSearchProductTreeNodesPu {
         return getRecursiveEvaluationOptionListFieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .dstore.values.StringValue recursive_evaluation_option_list = 20;</code>
+       * <code>.dstore.values.StringValue recursive_evaluation_option_list = 20;</code>
        */
       public io.dstore.values.StringValueOrBuilder getRecursiveEvaluationOptionListOrBuilder() {
         if (recursiveEvaluationOptionListBuilder_ != null) {
@@ -5681,7 +5681,7 @@ public final class ImSearchProductTreeNodesPu {
         }
       }
       /**
-       * <code>optional .dstore.values.StringValue recursive_evaluation_option_list = 20;</code>
+       * <code>.dstore.values.StringValue recursive_evaluation_option_list = 20;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.values.StringValue, io.dstore.values.StringValue.Builder, io.dstore.values.StringValueOrBuilder> 
@@ -5699,13 +5699,13 @@ public final class ImSearchProductTreeNodesPu {
 
       private boolean recursiveEvaluationOptionListNull_ ;
       /**
-       * <code>optional bool recursive_evaluation_option_list_null = 1020;</code>
+       * <code>bool recursive_evaluation_option_list_null = 1020;</code>
        */
       public boolean getRecursiveEvaluationOptionListNull() {
         return recursiveEvaluationOptionListNull_;
       }
       /**
-       * <code>optional bool recursive_evaluation_option_list_null = 1020;</code>
+       * <code>bool recursive_evaluation_option_list_null = 1020;</code>
        */
       public Builder setRecursiveEvaluationOptionListNull(boolean value) {
         
@@ -5714,7 +5714,7 @@ public final class ImSearchProductTreeNodesPu {
         return this;
       }
       /**
-       * <code>optional bool recursive_evaluation_option_list_null = 1020;</code>
+       * <code>bool recursive_evaluation_option_list_null = 1020;</code>
        */
       public Builder clearRecursiveEvaluationOptionListNull() {
         
@@ -5727,13 +5727,13 @@ public final class ImSearchProductTreeNodesPu {
       private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.values.BooleanValue, io.dstore.values.BooleanValue.Builder, io.dstore.values.BooleanValueOrBuilder> getValuesForSortByCharacsBuilder_;
       /**
-       * <code>optional .dstore.values.BooleanValue get_values_for_sort_by_characs = 21;</code>
+       * <code>.dstore.values.BooleanValue get_values_for_sort_by_characs = 21;</code>
        */
       public boolean hasGetValuesForSortByCharacs() {
         return getValuesForSortByCharacsBuilder_ != null || getValuesForSortByCharacs_ != null;
       }
       /**
-       * <code>optional .dstore.values.BooleanValue get_values_for_sort_by_characs = 21;</code>
+       * <code>.dstore.values.BooleanValue get_values_for_sort_by_characs = 21;</code>
        */
       public io.dstore.values.BooleanValue getGetValuesForSortByCharacs() {
         if (getValuesForSortByCharacsBuilder_ == null) {
@@ -5743,7 +5743,7 @@ public final class ImSearchProductTreeNodesPu {
         }
       }
       /**
-       * <code>optional .dstore.values.BooleanValue get_values_for_sort_by_characs = 21;</code>
+       * <code>.dstore.values.BooleanValue get_values_for_sort_by_characs = 21;</code>
        */
       public Builder setGetValuesForSortByCharacs(io.dstore.values.BooleanValue value) {
         if (getValuesForSortByCharacsBuilder_ == null) {
@@ -5759,7 +5759,7 @@ public final class ImSearchProductTreeNodesPu {
         return this;
       }
       /**
-       * <code>optional .dstore.values.BooleanValue get_values_for_sort_by_characs = 21;</code>
+       * <code>.dstore.values.BooleanValue get_values_for_sort_by_characs = 21;</code>
        */
       public Builder setGetValuesForSortByCharacs(
           io.dstore.values.BooleanValue.Builder builderForValue) {
@@ -5773,7 +5773,7 @@ public final class ImSearchProductTreeNodesPu {
         return this;
       }
       /**
-       * <code>optional .dstore.values.BooleanValue get_values_for_sort_by_characs = 21;</code>
+       * <code>.dstore.values.BooleanValue get_values_for_sort_by_characs = 21;</code>
        */
       public Builder mergeGetValuesForSortByCharacs(io.dstore.values.BooleanValue value) {
         if (getValuesForSortByCharacsBuilder_ == null) {
@@ -5791,7 +5791,7 @@ public final class ImSearchProductTreeNodesPu {
         return this;
       }
       /**
-       * <code>optional .dstore.values.BooleanValue get_values_for_sort_by_characs = 21;</code>
+       * <code>.dstore.values.BooleanValue get_values_for_sort_by_characs = 21;</code>
        */
       public Builder clearGetValuesForSortByCharacs() {
         if (getValuesForSortByCharacsBuilder_ == null) {
@@ -5805,7 +5805,7 @@ public final class ImSearchProductTreeNodesPu {
         return this;
       }
       /**
-       * <code>optional .dstore.values.BooleanValue get_values_for_sort_by_characs = 21;</code>
+       * <code>.dstore.values.BooleanValue get_values_for_sort_by_characs = 21;</code>
        */
       public io.dstore.values.BooleanValue.Builder getGetValuesForSortByCharacsBuilder() {
         
@@ -5813,7 +5813,7 @@ public final class ImSearchProductTreeNodesPu {
         return getGetValuesForSortByCharacsFieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .dstore.values.BooleanValue get_values_for_sort_by_characs = 21;</code>
+       * <code>.dstore.values.BooleanValue get_values_for_sort_by_characs = 21;</code>
        */
       public io.dstore.values.BooleanValueOrBuilder getGetValuesForSortByCharacsOrBuilder() {
         if (getValuesForSortByCharacsBuilder_ != null) {
@@ -5824,7 +5824,7 @@ public final class ImSearchProductTreeNodesPu {
         }
       }
       /**
-       * <code>optional .dstore.values.BooleanValue get_values_for_sort_by_characs = 21;</code>
+       * <code>.dstore.values.BooleanValue get_values_for_sort_by_characs = 21;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.values.BooleanValue, io.dstore.values.BooleanValue.Builder, io.dstore.values.BooleanValueOrBuilder> 
@@ -5842,13 +5842,13 @@ public final class ImSearchProductTreeNodesPu {
 
       private boolean getValuesForSortByCharacsNull_ ;
       /**
-       * <code>optional bool get_values_for_sort_by_characs_null = 1021;</code>
+       * <code>bool get_values_for_sort_by_characs_null = 1021;</code>
        */
       public boolean getGetValuesForSortByCharacsNull() {
         return getValuesForSortByCharacsNull_;
       }
       /**
-       * <code>optional bool get_values_for_sort_by_characs_null = 1021;</code>
+       * <code>bool get_values_for_sort_by_characs_null = 1021;</code>
        */
       public Builder setGetValuesForSortByCharacsNull(boolean value) {
         
@@ -5857,7 +5857,7 @@ public final class ImSearchProductTreeNodesPu {
         return this;
       }
       /**
-       * <code>optional bool get_values_for_sort_by_characs_null = 1021;</code>
+       * <code>bool get_values_for_sort_by_characs_null = 1021;</code>
        */
       public Builder clearGetValuesForSortByCharacsNull() {
         
@@ -5870,13 +5870,13 @@ public final class ImSearchProductTreeNodesPu {
       private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> outputIntoOneIdBuilder_;
       /**
-       * <code>optional .dstore.values.IntegerValue output_into_one_id = 22;</code>
+       * <code>.dstore.values.IntegerValue output_into_one_id = 22;</code>
        */
       public boolean hasOutputIntoOneId() {
         return outputIntoOneIdBuilder_ != null || outputIntoOneId_ != null;
       }
       /**
-       * <code>optional .dstore.values.IntegerValue output_into_one_id = 22;</code>
+       * <code>.dstore.values.IntegerValue output_into_one_id = 22;</code>
        */
       public io.dstore.values.IntegerValue getOutputIntoOneId() {
         if (outputIntoOneIdBuilder_ == null) {
@@ -5886,7 +5886,7 @@ public final class ImSearchProductTreeNodesPu {
         }
       }
       /**
-       * <code>optional .dstore.values.IntegerValue output_into_one_id = 22;</code>
+       * <code>.dstore.values.IntegerValue output_into_one_id = 22;</code>
        */
       public Builder setOutputIntoOneId(io.dstore.values.IntegerValue value) {
         if (outputIntoOneIdBuilder_ == null) {
@@ -5902,7 +5902,7 @@ public final class ImSearchProductTreeNodesPu {
         return this;
       }
       /**
-       * <code>optional .dstore.values.IntegerValue output_into_one_id = 22;</code>
+       * <code>.dstore.values.IntegerValue output_into_one_id = 22;</code>
        */
       public Builder setOutputIntoOneId(
           io.dstore.values.IntegerValue.Builder builderForValue) {
@@ -5916,7 +5916,7 @@ public final class ImSearchProductTreeNodesPu {
         return this;
       }
       /**
-       * <code>optional .dstore.values.IntegerValue output_into_one_id = 22;</code>
+       * <code>.dstore.values.IntegerValue output_into_one_id = 22;</code>
        */
       public Builder mergeOutputIntoOneId(io.dstore.values.IntegerValue value) {
         if (outputIntoOneIdBuilder_ == null) {
@@ -5934,7 +5934,7 @@ public final class ImSearchProductTreeNodesPu {
         return this;
       }
       /**
-       * <code>optional .dstore.values.IntegerValue output_into_one_id = 22;</code>
+       * <code>.dstore.values.IntegerValue output_into_one_id = 22;</code>
        */
       public Builder clearOutputIntoOneId() {
         if (outputIntoOneIdBuilder_ == null) {
@@ -5948,7 +5948,7 @@ public final class ImSearchProductTreeNodesPu {
         return this;
       }
       /**
-       * <code>optional .dstore.values.IntegerValue output_into_one_id = 22;</code>
+       * <code>.dstore.values.IntegerValue output_into_one_id = 22;</code>
        */
       public io.dstore.values.IntegerValue.Builder getOutputIntoOneIdBuilder() {
         
@@ -5956,7 +5956,7 @@ public final class ImSearchProductTreeNodesPu {
         return getOutputIntoOneIdFieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .dstore.values.IntegerValue output_into_one_id = 22;</code>
+       * <code>.dstore.values.IntegerValue output_into_one_id = 22;</code>
        */
       public io.dstore.values.IntegerValueOrBuilder getOutputIntoOneIdOrBuilder() {
         if (outputIntoOneIdBuilder_ != null) {
@@ -5967,7 +5967,7 @@ public final class ImSearchProductTreeNodesPu {
         }
       }
       /**
-       * <code>optional .dstore.values.IntegerValue output_into_one_id = 22;</code>
+       * <code>.dstore.values.IntegerValue output_into_one_id = 22;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> 
@@ -5985,13 +5985,13 @@ public final class ImSearchProductTreeNodesPu {
 
       private boolean outputIntoOneIdNull_ ;
       /**
-       * <code>optional bool output_into_one_id_null = 1022;</code>
+       * <code>bool output_into_one_id_null = 1022;</code>
        */
       public boolean getOutputIntoOneIdNull() {
         return outputIntoOneIdNull_;
       }
       /**
-       * <code>optional bool output_into_one_id_null = 1022;</code>
+       * <code>bool output_into_one_id_null = 1022;</code>
        */
       public Builder setOutputIntoOneIdNull(boolean value) {
         
@@ -6000,7 +6000,7 @@ public final class ImSearchProductTreeNodesPu {
         return this;
       }
       /**
-       * <code>optional bool output_into_one_id_null = 1022;</code>
+       * <code>bool output_into_one_id_null = 1022;</code>
        */
       public Builder clearOutputIntoOneIdNull() {
         
@@ -6134,15 +6134,15 @@ public final class ImSearchProductTreeNodesPu {
         int index);
 
     /**
-     * <code>optional .dstore.values.IntegerValue count = 101;</code>
+     * <code>.dstore.values.IntegerValue count = 101;</code>
      */
     boolean hasCount();
     /**
-     * <code>optional .dstore.values.IntegerValue count = 101;</code>
+     * <code>.dstore.values.IntegerValue count = 101;</code>
      */
     io.dstore.values.IntegerValue getCount();
     /**
-     * <code>optional .dstore.values.IntegerValue count = 101;</code>
+     * <code>.dstore.values.IntegerValue count = 101;</code>
      */
     io.dstore.values.IntegerValueOrBuilder getCountOrBuilder();
   }
@@ -6265,7 +6265,7 @@ public final class ImSearchProductTreeNodesPu {
         com.google.protobuf.MessageOrBuilder {
 
       /**
-       * <code>optional int32 row_id = 10000;</code>
+       * <code>int32 row_id = 10000;</code>
        */
       int getRowId();
 
@@ -6274,7 +6274,7 @@ public final class ImSearchProductTreeNodesPu {
        * Eigenschaft der "NodeID" zum zweiten in "&#64;SortByCharacteristicIDList" angegeben Merkmal. Immer "NULL", wenn "&#64;GetValuesForSortByCharacs = 0" ist oder wenn nur ein Merkmal in "&#64;SortByCharacteristicIDList" angegeben wurde !
        * </pre>
        *
-       * <code>optional .dstore.values.StringValue value2 = 10001;</code>
+       * <code>.dstore.values.StringValue value2 = 10001;</code>
        */
       boolean hasValue2();
       /**
@@ -6282,7 +6282,7 @@ public final class ImSearchProductTreeNodesPu {
        * Eigenschaft der "NodeID" zum zweiten in "&#64;SortByCharacteristicIDList" angegeben Merkmal. Immer "NULL", wenn "&#64;GetValuesForSortByCharacs = 0" ist oder wenn nur ein Merkmal in "&#64;SortByCharacteristicIDList" angegeben wurde !
        * </pre>
        *
-       * <code>optional .dstore.values.StringValue value2 = 10001;</code>
+       * <code>.dstore.values.StringValue value2 = 10001;</code>
        */
       io.dstore.values.StringValue getValue2();
       /**
@@ -6290,7 +6290,7 @@ public final class ImSearchProductTreeNodesPu {
        * Eigenschaft der "NodeID" zum zweiten in "&#64;SortByCharacteristicIDList" angegeben Merkmal. Immer "NULL", wenn "&#64;GetValuesForSortByCharacs = 0" ist oder wenn nur ein Merkmal in "&#64;SortByCharacteristicIDList" angegeben wurde !
        * </pre>
        *
-       * <code>optional .dstore.values.StringValue value2 = 10001;</code>
+       * <code>.dstore.values.StringValue value2 = 10001;</code>
        */
       io.dstore.values.StringValueOrBuilder getValue2OrBuilder();
 
@@ -6299,7 +6299,7 @@ public final class ImSearchProductTreeNodesPu {
        * Eigenschaft der "NodeID" zum dritten in "&#64;SortByCharacteristicIDList" angegeben Merkmal. Immer "NULL", wenn "&#64;GetValuesForSortByCharacs = 0" ist oder wenn nur zwei Merkmale in "&#64;SortByCharacteristicIDList" angegeben wurden !
        * </pre>
        *
-       * <code>optional .dstore.values.StringValue value3 = 10002;</code>
+       * <code>.dstore.values.StringValue value3 = 10002;</code>
        */
       boolean hasValue3();
       /**
@@ -6307,7 +6307,7 @@ public final class ImSearchProductTreeNodesPu {
        * Eigenschaft der "NodeID" zum dritten in "&#64;SortByCharacteristicIDList" angegeben Merkmal. Immer "NULL", wenn "&#64;GetValuesForSortByCharacs = 0" ist oder wenn nur zwei Merkmale in "&#64;SortByCharacteristicIDList" angegeben wurden !
        * </pre>
        *
-       * <code>optional .dstore.values.StringValue value3 = 10002;</code>
+       * <code>.dstore.values.StringValue value3 = 10002;</code>
        */
       io.dstore.values.StringValue getValue3();
       /**
@@ -6315,7 +6315,7 @@ public final class ImSearchProductTreeNodesPu {
        * Eigenschaft der "NodeID" zum dritten in "&#64;SortByCharacteristicIDList" angegeben Merkmal. Immer "NULL", wenn "&#64;GetValuesForSortByCharacs = 0" ist oder wenn nur zwei Merkmale in "&#64;SortByCharacteristicIDList" angegeben wurden !
        * </pre>
        *
-       * <code>optional .dstore.values.StringValue value3 = 10002;</code>
+       * <code>.dstore.values.StringValue value3 = 10002;</code>
        */
       io.dstore.values.StringValueOrBuilder getValue3OrBuilder();
 
@@ -6324,7 +6324,7 @@ public final class ImSearchProductTreeNodesPu {
        * Eigenschaft der "NodeID" zum ersten in "&#64;SortByCharacteristicIDList" angegeben Merkmal. Immer "NULL", wenn "&#64;GetValuesForSortByCharacs = 0" !
        * </pre>
        *
-       * <code>optional .dstore.values.StringValue value1 = 10003;</code>
+       * <code>.dstore.values.StringValue value1 = 10003;</code>
        */
       boolean hasValue1();
       /**
@@ -6332,7 +6332,7 @@ public final class ImSearchProductTreeNodesPu {
        * Eigenschaft der "NodeID" zum ersten in "&#64;SortByCharacteristicIDList" angegeben Merkmal. Immer "NULL", wenn "&#64;GetValuesForSortByCharacs = 0" !
        * </pre>
        *
-       * <code>optional .dstore.values.StringValue value1 = 10003;</code>
+       * <code>.dstore.values.StringValue value1 = 10003;</code>
        */
       io.dstore.values.StringValue getValue1();
       /**
@@ -6340,7 +6340,7 @@ public final class ImSearchProductTreeNodesPu {
        * Eigenschaft der "NodeID" zum ersten in "&#64;SortByCharacteristicIDList" angegeben Merkmal. Immer "NULL", wenn "&#64;GetValuesForSortByCharacs = 0" !
        * </pre>
        *
-       * <code>optional .dstore.values.StringValue value1 = 10003;</code>
+       * <code>.dstore.values.StringValue value1 = 10003;</code>
        */
       io.dstore.values.StringValueOrBuilder getValue1OrBuilder();
 
@@ -6349,7 +6349,7 @@ public final class ImSearchProductTreeNodesPu {
        * Eigenschaft der "NodeID", durch die das Produkt-Element gefunden wurde
        * </pre>
        *
-       * <code>optional .dstore.values.StringValue matching_value = 10004;</code>
+       * <code>.dstore.values.StringValue matching_value = 10004;</code>
        */
       boolean hasMatchingValue();
       /**
@@ -6357,7 +6357,7 @@ public final class ImSearchProductTreeNodesPu {
        * Eigenschaft der "NodeID", durch die das Produkt-Element gefunden wurde
        * </pre>
        *
-       * <code>optional .dstore.values.StringValue matching_value = 10004;</code>
+       * <code>.dstore.values.StringValue matching_value = 10004;</code>
        */
       io.dstore.values.StringValue getMatchingValue();
       /**
@@ -6365,7 +6365,7 @@ public final class ImSearchProductTreeNodesPu {
        * Eigenschaft der "NodeID", durch die das Produkt-Element gefunden wurde
        * </pre>
        *
-       * <code>optional .dstore.values.StringValue matching_value = 10004;</code>
+       * <code>.dstore.values.StringValue matching_value = 10004;</code>
        */
       io.dstore.values.StringValueOrBuilder getMatchingValueOrBuilder();
 
@@ -6374,7 +6374,7 @@ public final class ImSearchProductTreeNodesPu {
        * ID eines "Binaries", das der "NodeID" zugeordnet ist, und das "&#64;BinaryCharacteristicValueID" als Eigenschaft besitzt. Da es prinzipiell mehrere "Binaries" mit dieser Eigenschaft geben könnte, wird immer das Binärobjekt mit der KLEINSTEN ID zurückgegeben
        * </pre>
        *
-       * <code>optional .dstore.values.IntegerValue binary_code_id = 10005;</code>
+       * <code>.dstore.values.IntegerValue binary_code_id = 10005;</code>
        */
       boolean hasBinaryCodeId();
       /**
@@ -6382,7 +6382,7 @@ public final class ImSearchProductTreeNodesPu {
        * ID eines "Binaries", das der "NodeID" zugeordnet ist, und das "&#64;BinaryCharacteristicValueID" als Eigenschaft besitzt. Da es prinzipiell mehrere "Binaries" mit dieser Eigenschaft geben könnte, wird immer das Binärobjekt mit der KLEINSTEN ID zurückgegeben
        * </pre>
        *
-       * <code>optional .dstore.values.IntegerValue binary_code_id = 10005;</code>
+       * <code>.dstore.values.IntegerValue binary_code_id = 10005;</code>
        */
       io.dstore.values.IntegerValue getBinaryCodeId();
       /**
@@ -6390,7 +6390,7 @@ public final class ImSearchProductTreeNodesPu {
        * ID eines "Binaries", das der "NodeID" zugeordnet ist, und das "&#64;BinaryCharacteristicValueID" als Eigenschaft besitzt. Da es prinzipiell mehrere "Binaries" mit dieser Eigenschaft geben könnte, wird immer das Binärobjekt mit der KLEINSTEN ID zurückgegeben
        * </pre>
        *
-       * <code>optional .dstore.values.IntegerValue binary_code_id = 10005;</code>
+       * <code>.dstore.values.IntegerValue binary_code_id = 10005;</code>
        */
       io.dstore.values.IntegerValueOrBuilder getBinaryCodeIdOrBuilder();
 
@@ -6399,7 +6399,7 @@ public final class ImSearchProductTreeNodesPu {
        * ID des gefundenen Produkt-Elementes im Artikelbaum
        * </pre>
        *
-       * <code>optional .dstore.values.IntegerValue tree_node_id = 10006;</code>
+       * <code>.dstore.values.IntegerValue tree_node_id = 10006;</code>
        */
       boolean hasTreeNodeId();
       /**
@@ -6407,7 +6407,7 @@ public final class ImSearchProductTreeNodesPu {
        * ID des gefundenen Produkt-Elementes im Artikelbaum
        * </pre>
        *
-       * <code>optional .dstore.values.IntegerValue tree_node_id = 10006;</code>
+       * <code>.dstore.values.IntegerValue tree_node_id = 10006;</code>
        */
       io.dstore.values.IntegerValue getTreeNodeId();
       /**
@@ -6415,7 +6415,7 @@ public final class ImSearchProductTreeNodesPu {
        * ID des gefundenen Produkt-Elementes im Artikelbaum
        * </pre>
        *
-       * <code>optional .dstore.values.IntegerValue tree_node_id = 10006;</code>
+       * <code>.dstore.values.IntegerValue tree_node_id = 10006;</code>
        */
       io.dstore.values.IntegerValueOrBuilder getTreeNodeIdOrBuilder();
 
@@ -6424,7 +6424,7 @@ public final class ImSearchProductTreeNodesPu {
        * ID des gefundenen Produkt-Artikel-Elementes
        * </pre>
        *
-       * <code>optional .dstore.values.IntegerValue node_id = 10007;</code>
+       * <code>.dstore.values.IntegerValue node_id = 10007;</code>
        */
       boolean hasNodeId();
       /**
@@ -6432,7 +6432,7 @@ public final class ImSearchProductTreeNodesPu {
        * ID des gefundenen Produkt-Artikel-Elementes
        * </pre>
        *
-       * <code>optional .dstore.values.IntegerValue node_id = 10007;</code>
+       * <code>.dstore.values.IntegerValue node_id = 10007;</code>
        */
       io.dstore.values.IntegerValue getNodeId();
       /**
@@ -6440,7 +6440,7 @@ public final class ImSearchProductTreeNodesPu {
        * ID des gefundenen Produkt-Artikel-Elementes
        * </pre>
        *
-       * <code>optional .dstore.values.IntegerValue node_id = 10007;</code>
+       * <code>.dstore.values.IntegerValue node_id = 10007;</code>
        */
       io.dstore.values.IntegerValueOrBuilder getNodeIdOrBuilder();
 
@@ -6449,7 +6449,7 @@ public final class ImSearchProductTreeNodesPu {
        * Bezeichnung des Vor-Vorgängers
        * </pre>
        *
-       * <code>optional .dstore.values.StringValue pre_predecessors_description = 10008;</code>
+       * <code>.dstore.values.StringValue pre_predecessors_description = 10008;</code>
        */
       boolean hasPrePredecessorsDescription();
       /**
@@ -6457,7 +6457,7 @@ public final class ImSearchProductTreeNodesPu {
        * Bezeichnung des Vor-Vorgängers
        * </pre>
        *
-       * <code>optional .dstore.values.StringValue pre_predecessors_description = 10008;</code>
+       * <code>.dstore.values.StringValue pre_predecessors_description = 10008;</code>
        */
       io.dstore.values.StringValue getPrePredecessorsDescription();
       /**
@@ -6465,7 +6465,7 @@ public final class ImSearchProductTreeNodesPu {
        * Bezeichnung des Vor-Vorgängers
        * </pre>
        *
-       * <code>optional .dstore.values.StringValue pre_predecessors_description = 10008;</code>
+       * <code>.dstore.values.StringValue pre_predecessors_description = 10008;</code>
        */
       io.dstore.values.StringValueOrBuilder getPrePredecessorsDescriptionOrBuilder();
 
@@ -6474,7 +6474,7 @@ public final class ImSearchProductTreeNodesPu {
        * Bezeichnung des gefundenen Produkt-Elementes
        * </pre>
        *
-       * <code>optional .dstore.values.StringValue product = 10009;</code>
+       * <code>.dstore.values.StringValue product = 10009;</code>
        */
       boolean hasProduct();
       /**
@@ -6482,7 +6482,7 @@ public final class ImSearchProductTreeNodesPu {
        * Bezeichnung des gefundenen Produkt-Elementes
        * </pre>
        *
-       * <code>optional .dstore.values.StringValue product = 10009;</code>
+       * <code>.dstore.values.StringValue product = 10009;</code>
        */
       io.dstore.values.StringValue getProduct();
       /**
@@ -6490,7 +6490,7 @@ public final class ImSearchProductTreeNodesPu {
        * Bezeichnung des gefundenen Produkt-Elementes
        * </pre>
        *
-       * <code>optional .dstore.values.StringValue product = 10009;</code>
+       * <code>.dstore.values.StringValue product = 10009;</code>
        */
       io.dstore.values.StringValueOrBuilder getProductOrBuilder();
 
@@ -6499,7 +6499,7 @@ public final class ImSearchProductTreeNodesPu {
        * ID des Vor-Vorgänger-Elementes im Artikelbaum des gefundenen Produkt-Elementes
        * </pre>
        *
-       * <code>optional .dstore.values.IntegerValue pre_predecessors_tree_node_id = 10010;</code>
+       * <code>.dstore.values.IntegerValue pre_predecessors_tree_node_id = 10010;</code>
        */
       boolean hasPrePredecessorsTreeNodeId();
       /**
@@ -6507,7 +6507,7 @@ public final class ImSearchProductTreeNodesPu {
        * ID des Vor-Vorgänger-Elementes im Artikelbaum des gefundenen Produkt-Elementes
        * </pre>
        *
-       * <code>optional .dstore.values.IntegerValue pre_predecessors_tree_node_id = 10010;</code>
+       * <code>.dstore.values.IntegerValue pre_predecessors_tree_node_id = 10010;</code>
        */
       io.dstore.values.IntegerValue getPrePredecessorsTreeNodeId();
       /**
@@ -6515,7 +6515,7 @@ public final class ImSearchProductTreeNodesPu {
        * ID des Vor-Vorgänger-Elementes im Artikelbaum des gefundenen Produkt-Elementes
        * </pre>
        *
-       * <code>optional .dstore.values.IntegerValue pre_predecessors_tree_node_id = 10010;</code>
+       * <code>.dstore.values.IntegerValue pre_predecessors_tree_node_id = 10010;</code>
        */
       io.dstore.values.IntegerValueOrBuilder getPrePredecessorsTreeNodeIdOrBuilder();
 
@@ -6524,7 +6524,7 @@ public final class ImSearchProductTreeNodesPu {
        * ID des Vorgänger-Elementes im Artikelbaum des gefundenen Produkt-Elementes
        * </pre>
        *
-       * <code>optional .dstore.values.IntegerValue predecessors_tree_node_id = 10011;</code>
+       * <code>.dstore.values.IntegerValue predecessors_tree_node_id = 10011;</code>
        */
       boolean hasPredecessorsTreeNodeId();
       /**
@@ -6532,7 +6532,7 @@ public final class ImSearchProductTreeNodesPu {
        * ID des Vorgänger-Elementes im Artikelbaum des gefundenen Produkt-Elementes
        * </pre>
        *
-       * <code>optional .dstore.values.IntegerValue predecessors_tree_node_id = 10011;</code>
+       * <code>.dstore.values.IntegerValue predecessors_tree_node_id = 10011;</code>
        */
       io.dstore.values.IntegerValue getPredecessorsTreeNodeId();
       /**
@@ -6540,7 +6540,7 @@ public final class ImSearchProductTreeNodesPu {
        * ID des Vorgänger-Elementes im Artikelbaum des gefundenen Produkt-Elementes
        * </pre>
        *
-       * <code>optional .dstore.values.IntegerValue predecessors_tree_node_id = 10011;</code>
+       * <code>.dstore.values.IntegerValue predecessors_tree_node_id = 10011;</code>
        */
       io.dstore.values.IntegerValueOrBuilder getPredecessorsTreeNodeIdOrBuilder();
 
@@ -6549,7 +6549,7 @@ public final class ImSearchProductTreeNodesPu {
        * Bezeichnung des Vorgängers
        * </pre>
        *
-       * <code>optional .dstore.values.StringValue predecessors_description = 10012;</code>
+       * <code>.dstore.values.StringValue predecessors_description = 10012;</code>
        */
       boolean hasPredecessorsDescription();
       /**
@@ -6557,7 +6557,7 @@ public final class ImSearchProductTreeNodesPu {
        * Bezeichnung des Vorgängers
        * </pre>
        *
-       * <code>optional .dstore.values.StringValue predecessors_description = 10012;</code>
+       * <code>.dstore.values.StringValue predecessors_description = 10012;</code>
        */
       io.dstore.values.StringValue getPredecessorsDescription();
       /**
@@ -6565,7 +6565,7 @@ public final class ImSearchProductTreeNodesPu {
        * Bezeichnung des Vorgängers
        * </pre>
        *
-       * <code>optional .dstore.values.StringValue predecessors_description = 10012;</code>
+       * <code>.dstore.values.StringValue predecessors_description = 10012;</code>
        */
       io.dstore.values.StringValueOrBuilder getPredecessorsDescriptionOrBuilder();
     }
@@ -6796,7 +6796,7 @@ public final class ImSearchProductTreeNodesPu {
       public static final int ROW_ID_FIELD_NUMBER = 10000;
       private int rowId_;
       /**
-       * <code>optional int32 row_id = 10000;</code>
+       * <code>int32 row_id = 10000;</code>
        */
       public int getRowId() {
         return rowId_;
@@ -6809,7 +6809,7 @@ public final class ImSearchProductTreeNodesPu {
        * Eigenschaft der "NodeID" zum zweiten in "&#64;SortByCharacteristicIDList" angegeben Merkmal. Immer "NULL", wenn "&#64;GetValuesForSortByCharacs = 0" ist oder wenn nur ein Merkmal in "&#64;SortByCharacteristicIDList" angegeben wurde !
        * </pre>
        *
-       * <code>optional .dstore.values.StringValue value2 = 10001;</code>
+       * <code>.dstore.values.StringValue value2 = 10001;</code>
        */
       public boolean hasValue2() {
         return value2_ != null;
@@ -6819,7 +6819,7 @@ public final class ImSearchProductTreeNodesPu {
        * Eigenschaft der "NodeID" zum zweiten in "&#64;SortByCharacteristicIDList" angegeben Merkmal. Immer "NULL", wenn "&#64;GetValuesForSortByCharacs = 0" ist oder wenn nur ein Merkmal in "&#64;SortByCharacteristicIDList" angegeben wurde !
        * </pre>
        *
-       * <code>optional .dstore.values.StringValue value2 = 10001;</code>
+       * <code>.dstore.values.StringValue value2 = 10001;</code>
        */
       public io.dstore.values.StringValue getValue2() {
         return value2_ == null ? io.dstore.values.StringValue.getDefaultInstance() : value2_;
@@ -6829,7 +6829,7 @@ public final class ImSearchProductTreeNodesPu {
        * Eigenschaft der "NodeID" zum zweiten in "&#64;SortByCharacteristicIDList" angegeben Merkmal. Immer "NULL", wenn "&#64;GetValuesForSortByCharacs = 0" ist oder wenn nur ein Merkmal in "&#64;SortByCharacteristicIDList" angegeben wurde !
        * </pre>
        *
-       * <code>optional .dstore.values.StringValue value2 = 10001;</code>
+       * <code>.dstore.values.StringValue value2 = 10001;</code>
        */
       public io.dstore.values.StringValueOrBuilder getValue2OrBuilder() {
         return getValue2();
@@ -6842,7 +6842,7 @@ public final class ImSearchProductTreeNodesPu {
        * Eigenschaft der "NodeID" zum dritten in "&#64;SortByCharacteristicIDList" angegeben Merkmal. Immer "NULL", wenn "&#64;GetValuesForSortByCharacs = 0" ist oder wenn nur zwei Merkmale in "&#64;SortByCharacteristicIDList" angegeben wurden !
        * </pre>
        *
-       * <code>optional .dstore.values.StringValue value3 = 10002;</code>
+       * <code>.dstore.values.StringValue value3 = 10002;</code>
        */
       public boolean hasValue3() {
         return value3_ != null;
@@ -6852,7 +6852,7 @@ public final class ImSearchProductTreeNodesPu {
        * Eigenschaft der "NodeID" zum dritten in "&#64;SortByCharacteristicIDList" angegeben Merkmal. Immer "NULL", wenn "&#64;GetValuesForSortByCharacs = 0" ist oder wenn nur zwei Merkmale in "&#64;SortByCharacteristicIDList" angegeben wurden !
        * </pre>
        *
-       * <code>optional .dstore.values.StringValue value3 = 10002;</code>
+       * <code>.dstore.values.StringValue value3 = 10002;</code>
        */
       public io.dstore.values.StringValue getValue3() {
         return value3_ == null ? io.dstore.values.StringValue.getDefaultInstance() : value3_;
@@ -6862,7 +6862,7 @@ public final class ImSearchProductTreeNodesPu {
        * Eigenschaft der "NodeID" zum dritten in "&#64;SortByCharacteristicIDList" angegeben Merkmal. Immer "NULL", wenn "&#64;GetValuesForSortByCharacs = 0" ist oder wenn nur zwei Merkmale in "&#64;SortByCharacteristicIDList" angegeben wurden !
        * </pre>
        *
-       * <code>optional .dstore.values.StringValue value3 = 10002;</code>
+       * <code>.dstore.values.StringValue value3 = 10002;</code>
        */
       public io.dstore.values.StringValueOrBuilder getValue3OrBuilder() {
         return getValue3();
@@ -6875,7 +6875,7 @@ public final class ImSearchProductTreeNodesPu {
        * Eigenschaft der "NodeID" zum ersten in "&#64;SortByCharacteristicIDList" angegeben Merkmal. Immer "NULL", wenn "&#64;GetValuesForSortByCharacs = 0" !
        * </pre>
        *
-       * <code>optional .dstore.values.StringValue value1 = 10003;</code>
+       * <code>.dstore.values.StringValue value1 = 10003;</code>
        */
       public boolean hasValue1() {
         return value1_ != null;
@@ -6885,7 +6885,7 @@ public final class ImSearchProductTreeNodesPu {
        * Eigenschaft der "NodeID" zum ersten in "&#64;SortByCharacteristicIDList" angegeben Merkmal. Immer "NULL", wenn "&#64;GetValuesForSortByCharacs = 0" !
        * </pre>
        *
-       * <code>optional .dstore.values.StringValue value1 = 10003;</code>
+       * <code>.dstore.values.StringValue value1 = 10003;</code>
        */
       public io.dstore.values.StringValue getValue1() {
         return value1_ == null ? io.dstore.values.StringValue.getDefaultInstance() : value1_;
@@ -6895,7 +6895,7 @@ public final class ImSearchProductTreeNodesPu {
        * Eigenschaft der "NodeID" zum ersten in "&#64;SortByCharacteristicIDList" angegeben Merkmal. Immer "NULL", wenn "&#64;GetValuesForSortByCharacs = 0" !
        * </pre>
        *
-       * <code>optional .dstore.values.StringValue value1 = 10003;</code>
+       * <code>.dstore.values.StringValue value1 = 10003;</code>
        */
       public io.dstore.values.StringValueOrBuilder getValue1OrBuilder() {
         return getValue1();
@@ -6908,7 +6908,7 @@ public final class ImSearchProductTreeNodesPu {
        * Eigenschaft der "NodeID", durch die das Produkt-Element gefunden wurde
        * </pre>
        *
-       * <code>optional .dstore.values.StringValue matching_value = 10004;</code>
+       * <code>.dstore.values.StringValue matching_value = 10004;</code>
        */
       public boolean hasMatchingValue() {
         return matchingValue_ != null;
@@ -6918,7 +6918,7 @@ public final class ImSearchProductTreeNodesPu {
        * Eigenschaft der "NodeID", durch die das Produkt-Element gefunden wurde
        * </pre>
        *
-       * <code>optional .dstore.values.StringValue matching_value = 10004;</code>
+       * <code>.dstore.values.StringValue matching_value = 10004;</code>
        */
       public io.dstore.values.StringValue getMatchingValue() {
         return matchingValue_ == null ? io.dstore.values.StringValue.getDefaultInstance() : matchingValue_;
@@ -6928,7 +6928,7 @@ public final class ImSearchProductTreeNodesPu {
        * Eigenschaft der "NodeID", durch die das Produkt-Element gefunden wurde
        * </pre>
        *
-       * <code>optional .dstore.values.StringValue matching_value = 10004;</code>
+       * <code>.dstore.values.StringValue matching_value = 10004;</code>
        */
       public io.dstore.values.StringValueOrBuilder getMatchingValueOrBuilder() {
         return getMatchingValue();
@@ -6941,7 +6941,7 @@ public final class ImSearchProductTreeNodesPu {
        * ID eines "Binaries", das der "NodeID" zugeordnet ist, und das "&#64;BinaryCharacteristicValueID" als Eigenschaft besitzt. Da es prinzipiell mehrere "Binaries" mit dieser Eigenschaft geben könnte, wird immer das Binärobjekt mit der KLEINSTEN ID zurückgegeben
        * </pre>
        *
-       * <code>optional .dstore.values.IntegerValue binary_code_id = 10005;</code>
+       * <code>.dstore.values.IntegerValue binary_code_id = 10005;</code>
        */
       public boolean hasBinaryCodeId() {
         return binaryCodeId_ != null;
@@ -6951,7 +6951,7 @@ public final class ImSearchProductTreeNodesPu {
        * ID eines "Binaries", das der "NodeID" zugeordnet ist, und das "&#64;BinaryCharacteristicValueID" als Eigenschaft besitzt. Da es prinzipiell mehrere "Binaries" mit dieser Eigenschaft geben könnte, wird immer das Binärobjekt mit der KLEINSTEN ID zurückgegeben
        * </pre>
        *
-       * <code>optional .dstore.values.IntegerValue binary_code_id = 10005;</code>
+       * <code>.dstore.values.IntegerValue binary_code_id = 10005;</code>
        */
       public io.dstore.values.IntegerValue getBinaryCodeId() {
         return binaryCodeId_ == null ? io.dstore.values.IntegerValue.getDefaultInstance() : binaryCodeId_;
@@ -6961,7 +6961,7 @@ public final class ImSearchProductTreeNodesPu {
        * ID eines "Binaries", das der "NodeID" zugeordnet ist, und das "&#64;BinaryCharacteristicValueID" als Eigenschaft besitzt. Da es prinzipiell mehrere "Binaries" mit dieser Eigenschaft geben könnte, wird immer das Binärobjekt mit der KLEINSTEN ID zurückgegeben
        * </pre>
        *
-       * <code>optional .dstore.values.IntegerValue binary_code_id = 10005;</code>
+       * <code>.dstore.values.IntegerValue binary_code_id = 10005;</code>
        */
       public io.dstore.values.IntegerValueOrBuilder getBinaryCodeIdOrBuilder() {
         return getBinaryCodeId();
@@ -6974,7 +6974,7 @@ public final class ImSearchProductTreeNodesPu {
        * ID des gefundenen Produkt-Elementes im Artikelbaum
        * </pre>
        *
-       * <code>optional .dstore.values.IntegerValue tree_node_id = 10006;</code>
+       * <code>.dstore.values.IntegerValue tree_node_id = 10006;</code>
        */
       public boolean hasTreeNodeId() {
         return treeNodeId_ != null;
@@ -6984,7 +6984,7 @@ public final class ImSearchProductTreeNodesPu {
        * ID des gefundenen Produkt-Elementes im Artikelbaum
        * </pre>
        *
-       * <code>optional .dstore.values.IntegerValue tree_node_id = 10006;</code>
+       * <code>.dstore.values.IntegerValue tree_node_id = 10006;</code>
        */
       public io.dstore.values.IntegerValue getTreeNodeId() {
         return treeNodeId_ == null ? io.dstore.values.IntegerValue.getDefaultInstance() : treeNodeId_;
@@ -6994,7 +6994,7 @@ public final class ImSearchProductTreeNodesPu {
        * ID des gefundenen Produkt-Elementes im Artikelbaum
        * </pre>
        *
-       * <code>optional .dstore.values.IntegerValue tree_node_id = 10006;</code>
+       * <code>.dstore.values.IntegerValue tree_node_id = 10006;</code>
        */
       public io.dstore.values.IntegerValueOrBuilder getTreeNodeIdOrBuilder() {
         return getTreeNodeId();
@@ -7007,7 +7007,7 @@ public final class ImSearchProductTreeNodesPu {
        * ID des gefundenen Produkt-Artikel-Elementes
        * </pre>
        *
-       * <code>optional .dstore.values.IntegerValue node_id = 10007;</code>
+       * <code>.dstore.values.IntegerValue node_id = 10007;</code>
        */
       public boolean hasNodeId() {
         return nodeId_ != null;
@@ -7017,7 +7017,7 @@ public final class ImSearchProductTreeNodesPu {
        * ID des gefundenen Produkt-Artikel-Elementes
        * </pre>
        *
-       * <code>optional .dstore.values.IntegerValue node_id = 10007;</code>
+       * <code>.dstore.values.IntegerValue node_id = 10007;</code>
        */
       public io.dstore.values.IntegerValue getNodeId() {
         return nodeId_ == null ? io.dstore.values.IntegerValue.getDefaultInstance() : nodeId_;
@@ -7027,7 +7027,7 @@ public final class ImSearchProductTreeNodesPu {
        * ID des gefundenen Produkt-Artikel-Elementes
        * </pre>
        *
-       * <code>optional .dstore.values.IntegerValue node_id = 10007;</code>
+       * <code>.dstore.values.IntegerValue node_id = 10007;</code>
        */
       public io.dstore.values.IntegerValueOrBuilder getNodeIdOrBuilder() {
         return getNodeId();
@@ -7040,7 +7040,7 @@ public final class ImSearchProductTreeNodesPu {
        * Bezeichnung des Vor-Vorgängers
        * </pre>
        *
-       * <code>optional .dstore.values.StringValue pre_predecessors_description = 10008;</code>
+       * <code>.dstore.values.StringValue pre_predecessors_description = 10008;</code>
        */
       public boolean hasPrePredecessorsDescription() {
         return prePredecessorsDescription_ != null;
@@ -7050,7 +7050,7 @@ public final class ImSearchProductTreeNodesPu {
        * Bezeichnung des Vor-Vorgängers
        * </pre>
        *
-       * <code>optional .dstore.values.StringValue pre_predecessors_description = 10008;</code>
+       * <code>.dstore.values.StringValue pre_predecessors_description = 10008;</code>
        */
       public io.dstore.values.StringValue getPrePredecessorsDescription() {
         return prePredecessorsDescription_ == null ? io.dstore.values.StringValue.getDefaultInstance() : prePredecessorsDescription_;
@@ -7060,7 +7060,7 @@ public final class ImSearchProductTreeNodesPu {
        * Bezeichnung des Vor-Vorgängers
        * </pre>
        *
-       * <code>optional .dstore.values.StringValue pre_predecessors_description = 10008;</code>
+       * <code>.dstore.values.StringValue pre_predecessors_description = 10008;</code>
        */
       public io.dstore.values.StringValueOrBuilder getPrePredecessorsDescriptionOrBuilder() {
         return getPrePredecessorsDescription();
@@ -7073,7 +7073,7 @@ public final class ImSearchProductTreeNodesPu {
        * Bezeichnung des gefundenen Produkt-Elementes
        * </pre>
        *
-       * <code>optional .dstore.values.StringValue product = 10009;</code>
+       * <code>.dstore.values.StringValue product = 10009;</code>
        */
       public boolean hasProduct() {
         return product_ != null;
@@ -7083,7 +7083,7 @@ public final class ImSearchProductTreeNodesPu {
        * Bezeichnung des gefundenen Produkt-Elementes
        * </pre>
        *
-       * <code>optional .dstore.values.StringValue product = 10009;</code>
+       * <code>.dstore.values.StringValue product = 10009;</code>
        */
       public io.dstore.values.StringValue getProduct() {
         return product_ == null ? io.dstore.values.StringValue.getDefaultInstance() : product_;
@@ -7093,7 +7093,7 @@ public final class ImSearchProductTreeNodesPu {
        * Bezeichnung des gefundenen Produkt-Elementes
        * </pre>
        *
-       * <code>optional .dstore.values.StringValue product = 10009;</code>
+       * <code>.dstore.values.StringValue product = 10009;</code>
        */
       public io.dstore.values.StringValueOrBuilder getProductOrBuilder() {
         return getProduct();
@@ -7106,7 +7106,7 @@ public final class ImSearchProductTreeNodesPu {
        * ID des Vor-Vorgänger-Elementes im Artikelbaum des gefundenen Produkt-Elementes
        * </pre>
        *
-       * <code>optional .dstore.values.IntegerValue pre_predecessors_tree_node_id = 10010;</code>
+       * <code>.dstore.values.IntegerValue pre_predecessors_tree_node_id = 10010;</code>
        */
       public boolean hasPrePredecessorsTreeNodeId() {
         return prePredecessorsTreeNodeId_ != null;
@@ -7116,7 +7116,7 @@ public final class ImSearchProductTreeNodesPu {
        * ID des Vor-Vorgänger-Elementes im Artikelbaum des gefundenen Produkt-Elementes
        * </pre>
        *
-       * <code>optional .dstore.values.IntegerValue pre_predecessors_tree_node_id = 10010;</code>
+       * <code>.dstore.values.IntegerValue pre_predecessors_tree_node_id = 10010;</code>
        */
       public io.dstore.values.IntegerValue getPrePredecessorsTreeNodeId() {
         return prePredecessorsTreeNodeId_ == null ? io.dstore.values.IntegerValue.getDefaultInstance() : prePredecessorsTreeNodeId_;
@@ -7126,7 +7126,7 @@ public final class ImSearchProductTreeNodesPu {
        * ID des Vor-Vorgänger-Elementes im Artikelbaum des gefundenen Produkt-Elementes
        * </pre>
        *
-       * <code>optional .dstore.values.IntegerValue pre_predecessors_tree_node_id = 10010;</code>
+       * <code>.dstore.values.IntegerValue pre_predecessors_tree_node_id = 10010;</code>
        */
       public io.dstore.values.IntegerValueOrBuilder getPrePredecessorsTreeNodeIdOrBuilder() {
         return getPrePredecessorsTreeNodeId();
@@ -7139,7 +7139,7 @@ public final class ImSearchProductTreeNodesPu {
        * ID des Vorgänger-Elementes im Artikelbaum des gefundenen Produkt-Elementes
        * </pre>
        *
-       * <code>optional .dstore.values.IntegerValue predecessors_tree_node_id = 10011;</code>
+       * <code>.dstore.values.IntegerValue predecessors_tree_node_id = 10011;</code>
        */
       public boolean hasPredecessorsTreeNodeId() {
         return predecessorsTreeNodeId_ != null;
@@ -7149,7 +7149,7 @@ public final class ImSearchProductTreeNodesPu {
        * ID des Vorgänger-Elementes im Artikelbaum des gefundenen Produkt-Elementes
        * </pre>
        *
-       * <code>optional .dstore.values.IntegerValue predecessors_tree_node_id = 10011;</code>
+       * <code>.dstore.values.IntegerValue predecessors_tree_node_id = 10011;</code>
        */
       public io.dstore.values.IntegerValue getPredecessorsTreeNodeId() {
         return predecessorsTreeNodeId_ == null ? io.dstore.values.IntegerValue.getDefaultInstance() : predecessorsTreeNodeId_;
@@ -7159,7 +7159,7 @@ public final class ImSearchProductTreeNodesPu {
        * ID des Vorgänger-Elementes im Artikelbaum des gefundenen Produkt-Elementes
        * </pre>
        *
-       * <code>optional .dstore.values.IntegerValue predecessors_tree_node_id = 10011;</code>
+       * <code>.dstore.values.IntegerValue predecessors_tree_node_id = 10011;</code>
        */
       public io.dstore.values.IntegerValueOrBuilder getPredecessorsTreeNodeIdOrBuilder() {
         return getPredecessorsTreeNodeId();
@@ -7172,7 +7172,7 @@ public final class ImSearchProductTreeNodesPu {
        * Bezeichnung des Vorgängers
        * </pre>
        *
-       * <code>optional .dstore.values.StringValue predecessors_description = 10012;</code>
+       * <code>.dstore.values.StringValue predecessors_description = 10012;</code>
        */
       public boolean hasPredecessorsDescription() {
         return predecessorsDescription_ != null;
@@ -7182,7 +7182,7 @@ public final class ImSearchProductTreeNodesPu {
        * Bezeichnung des Vorgängers
        * </pre>
        *
-       * <code>optional .dstore.values.StringValue predecessors_description = 10012;</code>
+       * <code>.dstore.values.StringValue predecessors_description = 10012;</code>
        */
       public io.dstore.values.StringValue getPredecessorsDescription() {
         return predecessorsDescription_ == null ? io.dstore.values.StringValue.getDefaultInstance() : predecessorsDescription_;
@@ -7192,7 +7192,7 @@ public final class ImSearchProductTreeNodesPu {
        * Bezeichnung des Vorgängers
        * </pre>
        *
-       * <code>optional .dstore.values.StringValue predecessors_description = 10012;</code>
+       * <code>.dstore.values.StringValue predecessors_description = 10012;</code>
        */
       public io.dstore.values.StringValueOrBuilder getPredecessorsDescriptionOrBuilder() {
         return getPredecessorsDescription();
@@ -7395,7 +7395,7 @@ public final class ImSearchProductTreeNodesPu {
           return memoizedHashCode;
         }
         int hash = 41;
-        hash = (19 * hash) + getDescriptorForType().hashCode();
+        hash = (19 * hash) + getDescriptor().hashCode();
         hash = (37 * hash) + ROW_ID_FIELD_NUMBER;
         hash = (53 * hash) + getRowId();
         if (hasValue2()) {
@@ -7829,13 +7829,13 @@ public final class ImSearchProductTreeNodesPu {
 
         private int rowId_ ;
         /**
-         * <code>optional int32 row_id = 10000;</code>
+         * <code>int32 row_id = 10000;</code>
          */
         public int getRowId() {
           return rowId_;
         }
         /**
-         * <code>optional int32 row_id = 10000;</code>
+         * <code>int32 row_id = 10000;</code>
          */
         public Builder setRowId(int value) {
           
@@ -7844,7 +7844,7 @@ public final class ImSearchProductTreeNodesPu {
           return this;
         }
         /**
-         * <code>optional int32 row_id = 10000;</code>
+         * <code>int32 row_id = 10000;</code>
          */
         public Builder clearRowId() {
           
@@ -7861,7 +7861,7 @@ public final class ImSearchProductTreeNodesPu {
          * Eigenschaft der "NodeID" zum zweiten in "&#64;SortByCharacteristicIDList" angegeben Merkmal. Immer "NULL", wenn "&#64;GetValuesForSortByCharacs = 0" ist oder wenn nur ein Merkmal in "&#64;SortByCharacteristicIDList" angegeben wurde !
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue value2 = 10001;</code>
+         * <code>.dstore.values.StringValue value2 = 10001;</code>
          */
         public boolean hasValue2() {
           return value2Builder_ != null || value2_ != null;
@@ -7871,7 +7871,7 @@ public final class ImSearchProductTreeNodesPu {
          * Eigenschaft der "NodeID" zum zweiten in "&#64;SortByCharacteristicIDList" angegeben Merkmal. Immer "NULL", wenn "&#64;GetValuesForSortByCharacs = 0" ist oder wenn nur ein Merkmal in "&#64;SortByCharacteristicIDList" angegeben wurde !
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue value2 = 10001;</code>
+         * <code>.dstore.values.StringValue value2 = 10001;</code>
          */
         public io.dstore.values.StringValue getValue2() {
           if (value2Builder_ == null) {
@@ -7885,7 +7885,7 @@ public final class ImSearchProductTreeNodesPu {
          * Eigenschaft der "NodeID" zum zweiten in "&#64;SortByCharacteristicIDList" angegeben Merkmal. Immer "NULL", wenn "&#64;GetValuesForSortByCharacs = 0" ist oder wenn nur ein Merkmal in "&#64;SortByCharacteristicIDList" angegeben wurde !
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue value2 = 10001;</code>
+         * <code>.dstore.values.StringValue value2 = 10001;</code>
          */
         public Builder setValue2(io.dstore.values.StringValue value) {
           if (value2Builder_ == null) {
@@ -7905,7 +7905,7 @@ public final class ImSearchProductTreeNodesPu {
          * Eigenschaft der "NodeID" zum zweiten in "&#64;SortByCharacteristicIDList" angegeben Merkmal. Immer "NULL", wenn "&#64;GetValuesForSortByCharacs = 0" ist oder wenn nur ein Merkmal in "&#64;SortByCharacteristicIDList" angegeben wurde !
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue value2 = 10001;</code>
+         * <code>.dstore.values.StringValue value2 = 10001;</code>
          */
         public Builder setValue2(
             io.dstore.values.StringValue.Builder builderForValue) {
@@ -7923,7 +7923,7 @@ public final class ImSearchProductTreeNodesPu {
          * Eigenschaft der "NodeID" zum zweiten in "&#64;SortByCharacteristicIDList" angegeben Merkmal. Immer "NULL", wenn "&#64;GetValuesForSortByCharacs = 0" ist oder wenn nur ein Merkmal in "&#64;SortByCharacteristicIDList" angegeben wurde !
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue value2 = 10001;</code>
+         * <code>.dstore.values.StringValue value2 = 10001;</code>
          */
         public Builder mergeValue2(io.dstore.values.StringValue value) {
           if (value2Builder_ == null) {
@@ -7945,7 +7945,7 @@ public final class ImSearchProductTreeNodesPu {
          * Eigenschaft der "NodeID" zum zweiten in "&#64;SortByCharacteristicIDList" angegeben Merkmal. Immer "NULL", wenn "&#64;GetValuesForSortByCharacs = 0" ist oder wenn nur ein Merkmal in "&#64;SortByCharacteristicIDList" angegeben wurde !
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue value2 = 10001;</code>
+         * <code>.dstore.values.StringValue value2 = 10001;</code>
          */
         public Builder clearValue2() {
           if (value2Builder_ == null) {
@@ -7963,7 +7963,7 @@ public final class ImSearchProductTreeNodesPu {
          * Eigenschaft der "NodeID" zum zweiten in "&#64;SortByCharacteristicIDList" angegeben Merkmal. Immer "NULL", wenn "&#64;GetValuesForSortByCharacs = 0" ist oder wenn nur ein Merkmal in "&#64;SortByCharacteristicIDList" angegeben wurde !
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue value2 = 10001;</code>
+         * <code>.dstore.values.StringValue value2 = 10001;</code>
          */
         public io.dstore.values.StringValue.Builder getValue2Builder() {
           
@@ -7975,7 +7975,7 @@ public final class ImSearchProductTreeNodesPu {
          * Eigenschaft der "NodeID" zum zweiten in "&#64;SortByCharacteristicIDList" angegeben Merkmal. Immer "NULL", wenn "&#64;GetValuesForSortByCharacs = 0" ist oder wenn nur ein Merkmal in "&#64;SortByCharacteristicIDList" angegeben wurde !
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue value2 = 10001;</code>
+         * <code>.dstore.values.StringValue value2 = 10001;</code>
          */
         public io.dstore.values.StringValueOrBuilder getValue2OrBuilder() {
           if (value2Builder_ != null) {
@@ -7990,7 +7990,7 @@ public final class ImSearchProductTreeNodesPu {
          * Eigenschaft der "NodeID" zum zweiten in "&#64;SortByCharacteristicIDList" angegeben Merkmal. Immer "NULL", wenn "&#64;GetValuesForSortByCharacs = 0" ist oder wenn nur ein Merkmal in "&#64;SortByCharacteristicIDList" angegeben wurde !
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue value2 = 10001;</code>
+         * <code>.dstore.values.StringValue value2 = 10001;</code>
          */
         private com.google.protobuf.SingleFieldBuilderV3<
             io.dstore.values.StringValue, io.dstore.values.StringValue.Builder, io.dstore.values.StringValueOrBuilder> 
@@ -8014,7 +8014,7 @@ public final class ImSearchProductTreeNodesPu {
          * Eigenschaft der "NodeID" zum dritten in "&#64;SortByCharacteristicIDList" angegeben Merkmal. Immer "NULL", wenn "&#64;GetValuesForSortByCharacs = 0" ist oder wenn nur zwei Merkmale in "&#64;SortByCharacteristicIDList" angegeben wurden !
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue value3 = 10002;</code>
+         * <code>.dstore.values.StringValue value3 = 10002;</code>
          */
         public boolean hasValue3() {
           return value3Builder_ != null || value3_ != null;
@@ -8024,7 +8024,7 @@ public final class ImSearchProductTreeNodesPu {
          * Eigenschaft der "NodeID" zum dritten in "&#64;SortByCharacteristicIDList" angegeben Merkmal. Immer "NULL", wenn "&#64;GetValuesForSortByCharacs = 0" ist oder wenn nur zwei Merkmale in "&#64;SortByCharacteristicIDList" angegeben wurden !
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue value3 = 10002;</code>
+         * <code>.dstore.values.StringValue value3 = 10002;</code>
          */
         public io.dstore.values.StringValue getValue3() {
           if (value3Builder_ == null) {
@@ -8038,7 +8038,7 @@ public final class ImSearchProductTreeNodesPu {
          * Eigenschaft der "NodeID" zum dritten in "&#64;SortByCharacteristicIDList" angegeben Merkmal. Immer "NULL", wenn "&#64;GetValuesForSortByCharacs = 0" ist oder wenn nur zwei Merkmale in "&#64;SortByCharacteristicIDList" angegeben wurden !
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue value3 = 10002;</code>
+         * <code>.dstore.values.StringValue value3 = 10002;</code>
          */
         public Builder setValue3(io.dstore.values.StringValue value) {
           if (value3Builder_ == null) {
@@ -8058,7 +8058,7 @@ public final class ImSearchProductTreeNodesPu {
          * Eigenschaft der "NodeID" zum dritten in "&#64;SortByCharacteristicIDList" angegeben Merkmal. Immer "NULL", wenn "&#64;GetValuesForSortByCharacs = 0" ist oder wenn nur zwei Merkmale in "&#64;SortByCharacteristicIDList" angegeben wurden !
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue value3 = 10002;</code>
+         * <code>.dstore.values.StringValue value3 = 10002;</code>
          */
         public Builder setValue3(
             io.dstore.values.StringValue.Builder builderForValue) {
@@ -8076,7 +8076,7 @@ public final class ImSearchProductTreeNodesPu {
          * Eigenschaft der "NodeID" zum dritten in "&#64;SortByCharacteristicIDList" angegeben Merkmal. Immer "NULL", wenn "&#64;GetValuesForSortByCharacs = 0" ist oder wenn nur zwei Merkmale in "&#64;SortByCharacteristicIDList" angegeben wurden !
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue value3 = 10002;</code>
+         * <code>.dstore.values.StringValue value3 = 10002;</code>
          */
         public Builder mergeValue3(io.dstore.values.StringValue value) {
           if (value3Builder_ == null) {
@@ -8098,7 +8098,7 @@ public final class ImSearchProductTreeNodesPu {
          * Eigenschaft der "NodeID" zum dritten in "&#64;SortByCharacteristicIDList" angegeben Merkmal. Immer "NULL", wenn "&#64;GetValuesForSortByCharacs = 0" ist oder wenn nur zwei Merkmale in "&#64;SortByCharacteristicIDList" angegeben wurden !
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue value3 = 10002;</code>
+         * <code>.dstore.values.StringValue value3 = 10002;</code>
          */
         public Builder clearValue3() {
           if (value3Builder_ == null) {
@@ -8116,7 +8116,7 @@ public final class ImSearchProductTreeNodesPu {
          * Eigenschaft der "NodeID" zum dritten in "&#64;SortByCharacteristicIDList" angegeben Merkmal. Immer "NULL", wenn "&#64;GetValuesForSortByCharacs = 0" ist oder wenn nur zwei Merkmale in "&#64;SortByCharacteristicIDList" angegeben wurden !
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue value3 = 10002;</code>
+         * <code>.dstore.values.StringValue value3 = 10002;</code>
          */
         public io.dstore.values.StringValue.Builder getValue3Builder() {
           
@@ -8128,7 +8128,7 @@ public final class ImSearchProductTreeNodesPu {
          * Eigenschaft der "NodeID" zum dritten in "&#64;SortByCharacteristicIDList" angegeben Merkmal. Immer "NULL", wenn "&#64;GetValuesForSortByCharacs = 0" ist oder wenn nur zwei Merkmale in "&#64;SortByCharacteristicIDList" angegeben wurden !
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue value3 = 10002;</code>
+         * <code>.dstore.values.StringValue value3 = 10002;</code>
          */
         public io.dstore.values.StringValueOrBuilder getValue3OrBuilder() {
           if (value3Builder_ != null) {
@@ -8143,7 +8143,7 @@ public final class ImSearchProductTreeNodesPu {
          * Eigenschaft der "NodeID" zum dritten in "&#64;SortByCharacteristicIDList" angegeben Merkmal. Immer "NULL", wenn "&#64;GetValuesForSortByCharacs = 0" ist oder wenn nur zwei Merkmale in "&#64;SortByCharacteristicIDList" angegeben wurden !
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue value3 = 10002;</code>
+         * <code>.dstore.values.StringValue value3 = 10002;</code>
          */
         private com.google.protobuf.SingleFieldBuilderV3<
             io.dstore.values.StringValue, io.dstore.values.StringValue.Builder, io.dstore.values.StringValueOrBuilder> 
@@ -8167,7 +8167,7 @@ public final class ImSearchProductTreeNodesPu {
          * Eigenschaft der "NodeID" zum ersten in "&#64;SortByCharacteristicIDList" angegeben Merkmal. Immer "NULL", wenn "&#64;GetValuesForSortByCharacs = 0" !
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue value1 = 10003;</code>
+         * <code>.dstore.values.StringValue value1 = 10003;</code>
          */
         public boolean hasValue1() {
           return value1Builder_ != null || value1_ != null;
@@ -8177,7 +8177,7 @@ public final class ImSearchProductTreeNodesPu {
          * Eigenschaft der "NodeID" zum ersten in "&#64;SortByCharacteristicIDList" angegeben Merkmal. Immer "NULL", wenn "&#64;GetValuesForSortByCharacs = 0" !
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue value1 = 10003;</code>
+         * <code>.dstore.values.StringValue value1 = 10003;</code>
          */
         public io.dstore.values.StringValue getValue1() {
           if (value1Builder_ == null) {
@@ -8191,7 +8191,7 @@ public final class ImSearchProductTreeNodesPu {
          * Eigenschaft der "NodeID" zum ersten in "&#64;SortByCharacteristicIDList" angegeben Merkmal. Immer "NULL", wenn "&#64;GetValuesForSortByCharacs = 0" !
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue value1 = 10003;</code>
+         * <code>.dstore.values.StringValue value1 = 10003;</code>
          */
         public Builder setValue1(io.dstore.values.StringValue value) {
           if (value1Builder_ == null) {
@@ -8211,7 +8211,7 @@ public final class ImSearchProductTreeNodesPu {
          * Eigenschaft der "NodeID" zum ersten in "&#64;SortByCharacteristicIDList" angegeben Merkmal. Immer "NULL", wenn "&#64;GetValuesForSortByCharacs = 0" !
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue value1 = 10003;</code>
+         * <code>.dstore.values.StringValue value1 = 10003;</code>
          */
         public Builder setValue1(
             io.dstore.values.StringValue.Builder builderForValue) {
@@ -8229,7 +8229,7 @@ public final class ImSearchProductTreeNodesPu {
          * Eigenschaft der "NodeID" zum ersten in "&#64;SortByCharacteristicIDList" angegeben Merkmal. Immer "NULL", wenn "&#64;GetValuesForSortByCharacs = 0" !
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue value1 = 10003;</code>
+         * <code>.dstore.values.StringValue value1 = 10003;</code>
          */
         public Builder mergeValue1(io.dstore.values.StringValue value) {
           if (value1Builder_ == null) {
@@ -8251,7 +8251,7 @@ public final class ImSearchProductTreeNodesPu {
          * Eigenschaft der "NodeID" zum ersten in "&#64;SortByCharacteristicIDList" angegeben Merkmal. Immer "NULL", wenn "&#64;GetValuesForSortByCharacs = 0" !
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue value1 = 10003;</code>
+         * <code>.dstore.values.StringValue value1 = 10003;</code>
          */
         public Builder clearValue1() {
           if (value1Builder_ == null) {
@@ -8269,7 +8269,7 @@ public final class ImSearchProductTreeNodesPu {
          * Eigenschaft der "NodeID" zum ersten in "&#64;SortByCharacteristicIDList" angegeben Merkmal. Immer "NULL", wenn "&#64;GetValuesForSortByCharacs = 0" !
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue value1 = 10003;</code>
+         * <code>.dstore.values.StringValue value1 = 10003;</code>
          */
         public io.dstore.values.StringValue.Builder getValue1Builder() {
           
@@ -8281,7 +8281,7 @@ public final class ImSearchProductTreeNodesPu {
          * Eigenschaft der "NodeID" zum ersten in "&#64;SortByCharacteristicIDList" angegeben Merkmal. Immer "NULL", wenn "&#64;GetValuesForSortByCharacs = 0" !
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue value1 = 10003;</code>
+         * <code>.dstore.values.StringValue value1 = 10003;</code>
          */
         public io.dstore.values.StringValueOrBuilder getValue1OrBuilder() {
           if (value1Builder_ != null) {
@@ -8296,7 +8296,7 @@ public final class ImSearchProductTreeNodesPu {
          * Eigenschaft der "NodeID" zum ersten in "&#64;SortByCharacteristicIDList" angegeben Merkmal. Immer "NULL", wenn "&#64;GetValuesForSortByCharacs = 0" !
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue value1 = 10003;</code>
+         * <code>.dstore.values.StringValue value1 = 10003;</code>
          */
         private com.google.protobuf.SingleFieldBuilderV3<
             io.dstore.values.StringValue, io.dstore.values.StringValue.Builder, io.dstore.values.StringValueOrBuilder> 
@@ -8320,7 +8320,7 @@ public final class ImSearchProductTreeNodesPu {
          * Eigenschaft der "NodeID", durch die das Produkt-Element gefunden wurde
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue matching_value = 10004;</code>
+         * <code>.dstore.values.StringValue matching_value = 10004;</code>
          */
         public boolean hasMatchingValue() {
           return matchingValueBuilder_ != null || matchingValue_ != null;
@@ -8330,7 +8330,7 @@ public final class ImSearchProductTreeNodesPu {
          * Eigenschaft der "NodeID", durch die das Produkt-Element gefunden wurde
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue matching_value = 10004;</code>
+         * <code>.dstore.values.StringValue matching_value = 10004;</code>
          */
         public io.dstore.values.StringValue getMatchingValue() {
           if (matchingValueBuilder_ == null) {
@@ -8344,7 +8344,7 @@ public final class ImSearchProductTreeNodesPu {
          * Eigenschaft der "NodeID", durch die das Produkt-Element gefunden wurde
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue matching_value = 10004;</code>
+         * <code>.dstore.values.StringValue matching_value = 10004;</code>
          */
         public Builder setMatchingValue(io.dstore.values.StringValue value) {
           if (matchingValueBuilder_ == null) {
@@ -8364,7 +8364,7 @@ public final class ImSearchProductTreeNodesPu {
          * Eigenschaft der "NodeID", durch die das Produkt-Element gefunden wurde
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue matching_value = 10004;</code>
+         * <code>.dstore.values.StringValue matching_value = 10004;</code>
          */
         public Builder setMatchingValue(
             io.dstore.values.StringValue.Builder builderForValue) {
@@ -8382,7 +8382,7 @@ public final class ImSearchProductTreeNodesPu {
          * Eigenschaft der "NodeID", durch die das Produkt-Element gefunden wurde
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue matching_value = 10004;</code>
+         * <code>.dstore.values.StringValue matching_value = 10004;</code>
          */
         public Builder mergeMatchingValue(io.dstore.values.StringValue value) {
           if (matchingValueBuilder_ == null) {
@@ -8404,7 +8404,7 @@ public final class ImSearchProductTreeNodesPu {
          * Eigenschaft der "NodeID", durch die das Produkt-Element gefunden wurde
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue matching_value = 10004;</code>
+         * <code>.dstore.values.StringValue matching_value = 10004;</code>
          */
         public Builder clearMatchingValue() {
           if (matchingValueBuilder_ == null) {
@@ -8422,7 +8422,7 @@ public final class ImSearchProductTreeNodesPu {
          * Eigenschaft der "NodeID", durch die das Produkt-Element gefunden wurde
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue matching_value = 10004;</code>
+         * <code>.dstore.values.StringValue matching_value = 10004;</code>
          */
         public io.dstore.values.StringValue.Builder getMatchingValueBuilder() {
           
@@ -8434,7 +8434,7 @@ public final class ImSearchProductTreeNodesPu {
          * Eigenschaft der "NodeID", durch die das Produkt-Element gefunden wurde
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue matching_value = 10004;</code>
+         * <code>.dstore.values.StringValue matching_value = 10004;</code>
          */
         public io.dstore.values.StringValueOrBuilder getMatchingValueOrBuilder() {
           if (matchingValueBuilder_ != null) {
@@ -8449,7 +8449,7 @@ public final class ImSearchProductTreeNodesPu {
          * Eigenschaft der "NodeID", durch die das Produkt-Element gefunden wurde
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue matching_value = 10004;</code>
+         * <code>.dstore.values.StringValue matching_value = 10004;</code>
          */
         private com.google.protobuf.SingleFieldBuilderV3<
             io.dstore.values.StringValue, io.dstore.values.StringValue.Builder, io.dstore.values.StringValueOrBuilder> 
@@ -8473,7 +8473,7 @@ public final class ImSearchProductTreeNodesPu {
          * ID eines "Binaries", das der "NodeID" zugeordnet ist, und das "&#64;BinaryCharacteristicValueID" als Eigenschaft besitzt. Da es prinzipiell mehrere "Binaries" mit dieser Eigenschaft geben könnte, wird immer das Binärobjekt mit der KLEINSTEN ID zurückgegeben
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue binary_code_id = 10005;</code>
+         * <code>.dstore.values.IntegerValue binary_code_id = 10005;</code>
          */
         public boolean hasBinaryCodeId() {
           return binaryCodeIdBuilder_ != null || binaryCodeId_ != null;
@@ -8483,7 +8483,7 @@ public final class ImSearchProductTreeNodesPu {
          * ID eines "Binaries", das der "NodeID" zugeordnet ist, und das "&#64;BinaryCharacteristicValueID" als Eigenschaft besitzt. Da es prinzipiell mehrere "Binaries" mit dieser Eigenschaft geben könnte, wird immer das Binärobjekt mit der KLEINSTEN ID zurückgegeben
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue binary_code_id = 10005;</code>
+         * <code>.dstore.values.IntegerValue binary_code_id = 10005;</code>
          */
         public io.dstore.values.IntegerValue getBinaryCodeId() {
           if (binaryCodeIdBuilder_ == null) {
@@ -8497,7 +8497,7 @@ public final class ImSearchProductTreeNodesPu {
          * ID eines "Binaries", das der "NodeID" zugeordnet ist, und das "&#64;BinaryCharacteristicValueID" als Eigenschaft besitzt. Da es prinzipiell mehrere "Binaries" mit dieser Eigenschaft geben könnte, wird immer das Binärobjekt mit der KLEINSTEN ID zurückgegeben
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue binary_code_id = 10005;</code>
+         * <code>.dstore.values.IntegerValue binary_code_id = 10005;</code>
          */
         public Builder setBinaryCodeId(io.dstore.values.IntegerValue value) {
           if (binaryCodeIdBuilder_ == null) {
@@ -8517,7 +8517,7 @@ public final class ImSearchProductTreeNodesPu {
          * ID eines "Binaries", das der "NodeID" zugeordnet ist, und das "&#64;BinaryCharacteristicValueID" als Eigenschaft besitzt. Da es prinzipiell mehrere "Binaries" mit dieser Eigenschaft geben könnte, wird immer das Binärobjekt mit der KLEINSTEN ID zurückgegeben
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue binary_code_id = 10005;</code>
+         * <code>.dstore.values.IntegerValue binary_code_id = 10005;</code>
          */
         public Builder setBinaryCodeId(
             io.dstore.values.IntegerValue.Builder builderForValue) {
@@ -8535,7 +8535,7 @@ public final class ImSearchProductTreeNodesPu {
          * ID eines "Binaries", das der "NodeID" zugeordnet ist, und das "&#64;BinaryCharacteristicValueID" als Eigenschaft besitzt. Da es prinzipiell mehrere "Binaries" mit dieser Eigenschaft geben könnte, wird immer das Binärobjekt mit der KLEINSTEN ID zurückgegeben
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue binary_code_id = 10005;</code>
+         * <code>.dstore.values.IntegerValue binary_code_id = 10005;</code>
          */
         public Builder mergeBinaryCodeId(io.dstore.values.IntegerValue value) {
           if (binaryCodeIdBuilder_ == null) {
@@ -8557,7 +8557,7 @@ public final class ImSearchProductTreeNodesPu {
          * ID eines "Binaries", das der "NodeID" zugeordnet ist, und das "&#64;BinaryCharacteristicValueID" als Eigenschaft besitzt. Da es prinzipiell mehrere "Binaries" mit dieser Eigenschaft geben könnte, wird immer das Binärobjekt mit der KLEINSTEN ID zurückgegeben
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue binary_code_id = 10005;</code>
+         * <code>.dstore.values.IntegerValue binary_code_id = 10005;</code>
          */
         public Builder clearBinaryCodeId() {
           if (binaryCodeIdBuilder_ == null) {
@@ -8575,7 +8575,7 @@ public final class ImSearchProductTreeNodesPu {
          * ID eines "Binaries", das der "NodeID" zugeordnet ist, und das "&#64;BinaryCharacteristicValueID" als Eigenschaft besitzt. Da es prinzipiell mehrere "Binaries" mit dieser Eigenschaft geben könnte, wird immer das Binärobjekt mit der KLEINSTEN ID zurückgegeben
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue binary_code_id = 10005;</code>
+         * <code>.dstore.values.IntegerValue binary_code_id = 10005;</code>
          */
         public io.dstore.values.IntegerValue.Builder getBinaryCodeIdBuilder() {
           
@@ -8587,7 +8587,7 @@ public final class ImSearchProductTreeNodesPu {
          * ID eines "Binaries", das der "NodeID" zugeordnet ist, und das "&#64;BinaryCharacteristicValueID" als Eigenschaft besitzt. Da es prinzipiell mehrere "Binaries" mit dieser Eigenschaft geben könnte, wird immer das Binärobjekt mit der KLEINSTEN ID zurückgegeben
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue binary_code_id = 10005;</code>
+         * <code>.dstore.values.IntegerValue binary_code_id = 10005;</code>
          */
         public io.dstore.values.IntegerValueOrBuilder getBinaryCodeIdOrBuilder() {
           if (binaryCodeIdBuilder_ != null) {
@@ -8602,7 +8602,7 @@ public final class ImSearchProductTreeNodesPu {
          * ID eines "Binaries", das der "NodeID" zugeordnet ist, und das "&#64;BinaryCharacteristicValueID" als Eigenschaft besitzt. Da es prinzipiell mehrere "Binaries" mit dieser Eigenschaft geben könnte, wird immer das Binärobjekt mit der KLEINSTEN ID zurückgegeben
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue binary_code_id = 10005;</code>
+         * <code>.dstore.values.IntegerValue binary_code_id = 10005;</code>
          */
         private com.google.protobuf.SingleFieldBuilderV3<
             io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> 
@@ -8626,7 +8626,7 @@ public final class ImSearchProductTreeNodesPu {
          * ID des gefundenen Produkt-Elementes im Artikelbaum
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue tree_node_id = 10006;</code>
+         * <code>.dstore.values.IntegerValue tree_node_id = 10006;</code>
          */
         public boolean hasTreeNodeId() {
           return treeNodeIdBuilder_ != null || treeNodeId_ != null;
@@ -8636,7 +8636,7 @@ public final class ImSearchProductTreeNodesPu {
          * ID des gefundenen Produkt-Elementes im Artikelbaum
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue tree_node_id = 10006;</code>
+         * <code>.dstore.values.IntegerValue tree_node_id = 10006;</code>
          */
         public io.dstore.values.IntegerValue getTreeNodeId() {
           if (treeNodeIdBuilder_ == null) {
@@ -8650,7 +8650,7 @@ public final class ImSearchProductTreeNodesPu {
          * ID des gefundenen Produkt-Elementes im Artikelbaum
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue tree_node_id = 10006;</code>
+         * <code>.dstore.values.IntegerValue tree_node_id = 10006;</code>
          */
         public Builder setTreeNodeId(io.dstore.values.IntegerValue value) {
           if (treeNodeIdBuilder_ == null) {
@@ -8670,7 +8670,7 @@ public final class ImSearchProductTreeNodesPu {
          * ID des gefundenen Produkt-Elementes im Artikelbaum
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue tree_node_id = 10006;</code>
+         * <code>.dstore.values.IntegerValue tree_node_id = 10006;</code>
          */
         public Builder setTreeNodeId(
             io.dstore.values.IntegerValue.Builder builderForValue) {
@@ -8688,7 +8688,7 @@ public final class ImSearchProductTreeNodesPu {
          * ID des gefundenen Produkt-Elementes im Artikelbaum
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue tree_node_id = 10006;</code>
+         * <code>.dstore.values.IntegerValue tree_node_id = 10006;</code>
          */
         public Builder mergeTreeNodeId(io.dstore.values.IntegerValue value) {
           if (treeNodeIdBuilder_ == null) {
@@ -8710,7 +8710,7 @@ public final class ImSearchProductTreeNodesPu {
          * ID des gefundenen Produkt-Elementes im Artikelbaum
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue tree_node_id = 10006;</code>
+         * <code>.dstore.values.IntegerValue tree_node_id = 10006;</code>
          */
         public Builder clearTreeNodeId() {
           if (treeNodeIdBuilder_ == null) {
@@ -8728,7 +8728,7 @@ public final class ImSearchProductTreeNodesPu {
          * ID des gefundenen Produkt-Elementes im Artikelbaum
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue tree_node_id = 10006;</code>
+         * <code>.dstore.values.IntegerValue tree_node_id = 10006;</code>
          */
         public io.dstore.values.IntegerValue.Builder getTreeNodeIdBuilder() {
           
@@ -8740,7 +8740,7 @@ public final class ImSearchProductTreeNodesPu {
          * ID des gefundenen Produkt-Elementes im Artikelbaum
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue tree_node_id = 10006;</code>
+         * <code>.dstore.values.IntegerValue tree_node_id = 10006;</code>
          */
         public io.dstore.values.IntegerValueOrBuilder getTreeNodeIdOrBuilder() {
           if (treeNodeIdBuilder_ != null) {
@@ -8755,7 +8755,7 @@ public final class ImSearchProductTreeNodesPu {
          * ID des gefundenen Produkt-Elementes im Artikelbaum
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue tree_node_id = 10006;</code>
+         * <code>.dstore.values.IntegerValue tree_node_id = 10006;</code>
          */
         private com.google.protobuf.SingleFieldBuilderV3<
             io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> 
@@ -8779,7 +8779,7 @@ public final class ImSearchProductTreeNodesPu {
          * ID des gefundenen Produkt-Artikel-Elementes
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue node_id = 10007;</code>
+         * <code>.dstore.values.IntegerValue node_id = 10007;</code>
          */
         public boolean hasNodeId() {
           return nodeIdBuilder_ != null || nodeId_ != null;
@@ -8789,7 +8789,7 @@ public final class ImSearchProductTreeNodesPu {
          * ID des gefundenen Produkt-Artikel-Elementes
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue node_id = 10007;</code>
+         * <code>.dstore.values.IntegerValue node_id = 10007;</code>
          */
         public io.dstore.values.IntegerValue getNodeId() {
           if (nodeIdBuilder_ == null) {
@@ -8803,7 +8803,7 @@ public final class ImSearchProductTreeNodesPu {
          * ID des gefundenen Produkt-Artikel-Elementes
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue node_id = 10007;</code>
+         * <code>.dstore.values.IntegerValue node_id = 10007;</code>
          */
         public Builder setNodeId(io.dstore.values.IntegerValue value) {
           if (nodeIdBuilder_ == null) {
@@ -8823,7 +8823,7 @@ public final class ImSearchProductTreeNodesPu {
          * ID des gefundenen Produkt-Artikel-Elementes
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue node_id = 10007;</code>
+         * <code>.dstore.values.IntegerValue node_id = 10007;</code>
          */
         public Builder setNodeId(
             io.dstore.values.IntegerValue.Builder builderForValue) {
@@ -8841,7 +8841,7 @@ public final class ImSearchProductTreeNodesPu {
          * ID des gefundenen Produkt-Artikel-Elementes
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue node_id = 10007;</code>
+         * <code>.dstore.values.IntegerValue node_id = 10007;</code>
          */
         public Builder mergeNodeId(io.dstore.values.IntegerValue value) {
           if (nodeIdBuilder_ == null) {
@@ -8863,7 +8863,7 @@ public final class ImSearchProductTreeNodesPu {
          * ID des gefundenen Produkt-Artikel-Elementes
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue node_id = 10007;</code>
+         * <code>.dstore.values.IntegerValue node_id = 10007;</code>
          */
         public Builder clearNodeId() {
           if (nodeIdBuilder_ == null) {
@@ -8881,7 +8881,7 @@ public final class ImSearchProductTreeNodesPu {
          * ID des gefundenen Produkt-Artikel-Elementes
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue node_id = 10007;</code>
+         * <code>.dstore.values.IntegerValue node_id = 10007;</code>
          */
         public io.dstore.values.IntegerValue.Builder getNodeIdBuilder() {
           
@@ -8893,7 +8893,7 @@ public final class ImSearchProductTreeNodesPu {
          * ID des gefundenen Produkt-Artikel-Elementes
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue node_id = 10007;</code>
+         * <code>.dstore.values.IntegerValue node_id = 10007;</code>
          */
         public io.dstore.values.IntegerValueOrBuilder getNodeIdOrBuilder() {
           if (nodeIdBuilder_ != null) {
@@ -8908,7 +8908,7 @@ public final class ImSearchProductTreeNodesPu {
          * ID des gefundenen Produkt-Artikel-Elementes
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue node_id = 10007;</code>
+         * <code>.dstore.values.IntegerValue node_id = 10007;</code>
          */
         private com.google.protobuf.SingleFieldBuilderV3<
             io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> 
@@ -8932,7 +8932,7 @@ public final class ImSearchProductTreeNodesPu {
          * Bezeichnung des Vor-Vorgängers
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue pre_predecessors_description = 10008;</code>
+         * <code>.dstore.values.StringValue pre_predecessors_description = 10008;</code>
          */
         public boolean hasPrePredecessorsDescription() {
           return prePredecessorsDescriptionBuilder_ != null || prePredecessorsDescription_ != null;
@@ -8942,7 +8942,7 @@ public final class ImSearchProductTreeNodesPu {
          * Bezeichnung des Vor-Vorgängers
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue pre_predecessors_description = 10008;</code>
+         * <code>.dstore.values.StringValue pre_predecessors_description = 10008;</code>
          */
         public io.dstore.values.StringValue getPrePredecessorsDescription() {
           if (prePredecessorsDescriptionBuilder_ == null) {
@@ -8956,7 +8956,7 @@ public final class ImSearchProductTreeNodesPu {
          * Bezeichnung des Vor-Vorgängers
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue pre_predecessors_description = 10008;</code>
+         * <code>.dstore.values.StringValue pre_predecessors_description = 10008;</code>
          */
         public Builder setPrePredecessorsDescription(io.dstore.values.StringValue value) {
           if (prePredecessorsDescriptionBuilder_ == null) {
@@ -8976,7 +8976,7 @@ public final class ImSearchProductTreeNodesPu {
          * Bezeichnung des Vor-Vorgängers
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue pre_predecessors_description = 10008;</code>
+         * <code>.dstore.values.StringValue pre_predecessors_description = 10008;</code>
          */
         public Builder setPrePredecessorsDescription(
             io.dstore.values.StringValue.Builder builderForValue) {
@@ -8994,7 +8994,7 @@ public final class ImSearchProductTreeNodesPu {
          * Bezeichnung des Vor-Vorgängers
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue pre_predecessors_description = 10008;</code>
+         * <code>.dstore.values.StringValue pre_predecessors_description = 10008;</code>
          */
         public Builder mergePrePredecessorsDescription(io.dstore.values.StringValue value) {
           if (prePredecessorsDescriptionBuilder_ == null) {
@@ -9016,7 +9016,7 @@ public final class ImSearchProductTreeNodesPu {
          * Bezeichnung des Vor-Vorgängers
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue pre_predecessors_description = 10008;</code>
+         * <code>.dstore.values.StringValue pre_predecessors_description = 10008;</code>
          */
         public Builder clearPrePredecessorsDescription() {
           if (prePredecessorsDescriptionBuilder_ == null) {
@@ -9034,7 +9034,7 @@ public final class ImSearchProductTreeNodesPu {
          * Bezeichnung des Vor-Vorgängers
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue pre_predecessors_description = 10008;</code>
+         * <code>.dstore.values.StringValue pre_predecessors_description = 10008;</code>
          */
         public io.dstore.values.StringValue.Builder getPrePredecessorsDescriptionBuilder() {
           
@@ -9046,7 +9046,7 @@ public final class ImSearchProductTreeNodesPu {
          * Bezeichnung des Vor-Vorgängers
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue pre_predecessors_description = 10008;</code>
+         * <code>.dstore.values.StringValue pre_predecessors_description = 10008;</code>
          */
         public io.dstore.values.StringValueOrBuilder getPrePredecessorsDescriptionOrBuilder() {
           if (prePredecessorsDescriptionBuilder_ != null) {
@@ -9061,7 +9061,7 @@ public final class ImSearchProductTreeNodesPu {
          * Bezeichnung des Vor-Vorgängers
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue pre_predecessors_description = 10008;</code>
+         * <code>.dstore.values.StringValue pre_predecessors_description = 10008;</code>
          */
         private com.google.protobuf.SingleFieldBuilderV3<
             io.dstore.values.StringValue, io.dstore.values.StringValue.Builder, io.dstore.values.StringValueOrBuilder> 
@@ -9085,7 +9085,7 @@ public final class ImSearchProductTreeNodesPu {
          * Bezeichnung des gefundenen Produkt-Elementes
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue product = 10009;</code>
+         * <code>.dstore.values.StringValue product = 10009;</code>
          */
         public boolean hasProduct() {
           return productBuilder_ != null || product_ != null;
@@ -9095,7 +9095,7 @@ public final class ImSearchProductTreeNodesPu {
          * Bezeichnung des gefundenen Produkt-Elementes
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue product = 10009;</code>
+         * <code>.dstore.values.StringValue product = 10009;</code>
          */
         public io.dstore.values.StringValue getProduct() {
           if (productBuilder_ == null) {
@@ -9109,7 +9109,7 @@ public final class ImSearchProductTreeNodesPu {
          * Bezeichnung des gefundenen Produkt-Elementes
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue product = 10009;</code>
+         * <code>.dstore.values.StringValue product = 10009;</code>
          */
         public Builder setProduct(io.dstore.values.StringValue value) {
           if (productBuilder_ == null) {
@@ -9129,7 +9129,7 @@ public final class ImSearchProductTreeNodesPu {
          * Bezeichnung des gefundenen Produkt-Elementes
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue product = 10009;</code>
+         * <code>.dstore.values.StringValue product = 10009;</code>
          */
         public Builder setProduct(
             io.dstore.values.StringValue.Builder builderForValue) {
@@ -9147,7 +9147,7 @@ public final class ImSearchProductTreeNodesPu {
          * Bezeichnung des gefundenen Produkt-Elementes
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue product = 10009;</code>
+         * <code>.dstore.values.StringValue product = 10009;</code>
          */
         public Builder mergeProduct(io.dstore.values.StringValue value) {
           if (productBuilder_ == null) {
@@ -9169,7 +9169,7 @@ public final class ImSearchProductTreeNodesPu {
          * Bezeichnung des gefundenen Produkt-Elementes
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue product = 10009;</code>
+         * <code>.dstore.values.StringValue product = 10009;</code>
          */
         public Builder clearProduct() {
           if (productBuilder_ == null) {
@@ -9187,7 +9187,7 @@ public final class ImSearchProductTreeNodesPu {
          * Bezeichnung des gefundenen Produkt-Elementes
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue product = 10009;</code>
+         * <code>.dstore.values.StringValue product = 10009;</code>
          */
         public io.dstore.values.StringValue.Builder getProductBuilder() {
           
@@ -9199,7 +9199,7 @@ public final class ImSearchProductTreeNodesPu {
          * Bezeichnung des gefundenen Produkt-Elementes
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue product = 10009;</code>
+         * <code>.dstore.values.StringValue product = 10009;</code>
          */
         public io.dstore.values.StringValueOrBuilder getProductOrBuilder() {
           if (productBuilder_ != null) {
@@ -9214,7 +9214,7 @@ public final class ImSearchProductTreeNodesPu {
          * Bezeichnung des gefundenen Produkt-Elementes
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue product = 10009;</code>
+         * <code>.dstore.values.StringValue product = 10009;</code>
          */
         private com.google.protobuf.SingleFieldBuilderV3<
             io.dstore.values.StringValue, io.dstore.values.StringValue.Builder, io.dstore.values.StringValueOrBuilder> 
@@ -9238,7 +9238,7 @@ public final class ImSearchProductTreeNodesPu {
          * ID des Vor-Vorgänger-Elementes im Artikelbaum des gefundenen Produkt-Elementes
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue pre_predecessors_tree_node_id = 10010;</code>
+         * <code>.dstore.values.IntegerValue pre_predecessors_tree_node_id = 10010;</code>
          */
         public boolean hasPrePredecessorsTreeNodeId() {
           return prePredecessorsTreeNodeIdBuilder_ != null || prePredecessorsTreeNodeId_ != null;
@@ -9248,7 +9248,7 @@ public final class ImSearchProductTreeNodesPu {
          * ID des Vor-Vorgänger-Elementes im Artikelbaum des gefundenen Produkt-Elementes
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue pre_predecessors_tree_node_id = 10010;</code>
+         * <code>.dstore.values.IntegerValue pre_predecessors_tree_node_id = 10010;</code>
          */
         public io.dstore.values.IntegerValue getPrePredecessorsTreeNodeId() {
           if (prePredecessorsTreeNodeIdBuilder_ == null) {
@@ -9262,7 +9262,7 @@ public final class ImSearchProductTreeNodesPu {
          * ID des Vor-Vorgänger-Elementes im Artikelbaum des gefundenen Produkt-Elementes
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue pre_predecessors_tree_node_id = 10010;</code>
+         * <code>.dstore.values.IntegerValue pre_predecessors_tree_node_id = 10010;</code>
          */
         public Builder setPrePredecessorsTreeNodeId(io.dstore.values.IntegerValue value) {
           if (prePredecessorsTreeNodeIdBuilder_ == null) {
@@ -9282,7 +9282,7 @@ public final class ImSearchProductTreeNodesPu {
          * ID des Vor-Vorgänger-Elementes im Artikelbaum des gefundenen Produkt-Elementes
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue pre_predecessors_tree_node_id = 10010;</code>
+         * <code>.dstore.values.IntegerValue pre_predecessors_tree_node_id = 10010;</code>
          */
         public Builder setPrePredecessorsTreeNodeId(
             io.dstore.values.IntegerValue.Builder builderForValue) {
@@ -9300,7 +9300,7 @@ public final class ImSearchProductTreeNodesPu {
          * ID des Vor-Vorgänger-Elementes im Artikelbaum des gefundenen Produkt-Elementes
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue pre_predecessors_tree_node_id = 10010;</code>
+         * <code>.dstore.values.IntegerValue pre_predecessors_tree_node_id = 10010;</code>
          */
         public Builder mergePrePredecessorsTreeNodeId(io.dstore.values.IntegerValue value) {
           if (prePredecessorsTreeNodeIdBuilder_ == null) {
@@ -9322,7 +9322,7 @@ public final class ImSearchProductTreeNodesPu {
          * ID des Vor-Vorgänger-Elementes im Artikelbaum des gefundenen Produkt-Elementes
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue pre_predecessors_tree_node_id = 10010;</code>
+         * <code>.dstore.values.IntegerValue pre_predecessors_tree_node_id = 10010;</code>
          */
         public Builder clearPrePredecessorsTreeNodeId() {
           if (prePredecessorsTreeNodeIdBuilder_ == null) {
@@ -9340,7 +9340,7 @@ public final class ImSearchProductTreeNodesPu {
          * ID des Vor-Vorgänger-Elementes im Artikelbaum des gefundenen Produkt-Elementes
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue pre_predecessors_tree_node_id = 10010;</code>
+         * <code>.dstore.values.IntegerValue pre_predecessors_tree_node_id = 10010;</code>
          */
         public io.dstore.values.IntegerValue.Builder getPrePredecessorsTreeNodeIdBuilder() {
           
@@ -9352,7 +9352,7 @@ public final class ImSearchProductTreeNodesPu {
          * ID des Vor-Vorgänger-Elementes im Artikelbaum des gefundenen Produkt-Elementes
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue pre_predecessors_tree_node_id = 10010;</code>
+         * <code>.dstore.values.IntegerValue pre_predecessors_tree_node_id = 10010;</code>
          */
         public io.dstore.values.IntegerValueOrBuilder getPrePredecessorsTreeNodeIdOrBuilder() {
           if (prePredecessorsTreeNodeIdBuilder_ != null) {
@@ -9367,7 +9367,7 @@ public final class ImSearchProductTreeNodesPu {
          * ID des Vor-Vorgänger-Elementes im Artikelbaum des gefundenen Produkt-Elementes
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue pre_predecessors_tree_node_id = 10010;</code>
+         * <code>.dstore.values.IntegerValue pre_predecessors_tree_node_id = 10010;</code>
          */
         private com.google.protobuf.SingleFieldBuilderV3<
             io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> 
@@ -9391,7 +9391,7 @@ public final class ImSearchProductTreeNodesPu {
          * ID des Vorgänger-Elementes im Artikelbaum des gefundenen Produkt-Elementes
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue predecessors_tree_node_id = 10011;</code>
+         * <code>.dstore.values.IntegerValue predecessors_tree_node_id = 10011;</code>
          */
         public boolean hasPredecessorsTreeNodeId() {
           return predecessorsTreeNodeIdBuilder_ != null || predecessorsTreeNodeId_ != null;
@@ -9401,7 +9401,7 @@ public final class ImSearchProductTreeNodesPu {
          * ID des Vorgänger-Elementes im Artikelbaum des gefundenen Produkt-Elementes
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue predecessors_tree_node_id = 10011;</code>
+         * <code>.dstore.values.IntegerValue predecessors_tree_node_id = 10011;</code>
          */
         public io.dstore.values.IntegerValue getPredecessorsTreeNodeId() {
           if (predecessorsTreeNodeIdBuilder_ == null) {
@@ -9415,7 +9415,7 @@ public final class ImSearchProductTreeNodesPu {
          * ID des Vorgänger-Elementes im Artikelbaum des gefundenen Produkt-Elementes
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue predecessors_tree_node_id = 10011;</code>
+         * <code>.dstore.values.IntegerValue predecessors_tree_node_id = 10011;</code>
          */
         public Builder setPredecessorsTreeNodeId(io.dstore.values.IntegerValue value) {
           if (predecessorsTreeNodeIdBuilder_ == null) {
@@ -9435,7 +9435,7 @@ public final class ImSearchProductTreeNodesPu {
          * ID des Vorgänger-Elementes im Artikelbaum des gefundenen Produkt-Elementes
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue predecessors_tree_node_id = 10011;</code>
+         * <code>.dstore.values.IntegerValue predecessors_tree_node_id = 10011;</code>
          */
         public Builder setPredecessorsTreeNodeId(
             io.dstore.values.IntegerValue.Builder builderForValue) {
@@ -9453,7 +9453,7 @@ public final class ImSearchProductTreeNodesPu {
          * ID des Vorgänger-Elementes im Artikelbaum des gefundenen Produkt-Elementes
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue predecessors_tree_node_id = 10011;</code>
+         * <code>.dstore.values.IntegerValue predecessors_tree_node_id = 10011;</code>
          */
         public Builder mergePredecessorsTreeNodeId(io.dstore.values.IntegerValue value) {
           if (predecessorsTreeNodeIdBuilder_ == null) {
@@ -9475,7 +9475,7 @@ public final class ImSearchProductTreeNodesPu {
          * ID des Vorgänger-Elementes im Artikelbaum des gefundenen Produkt-Elementes
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue predecessors_tree_node_id = 10011;</code>
+         * <code>.dstore.values.IntegerValue predecessors_tree_node_id = 10011;</code>
          */
         public Builder clearPredecessorsTreeNodeId() {
           if (predecessorsTreeNodeIdBuilder_ == null) {
@@ -9493,7 +9493,7 @@ public final class ImSearchProductTreeNodesPu {
          * ID des Vorgänger-Elementes im Artikelbaum des gefundenen Produkt-Elementes
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue predecessors_tree_node_id = 10011;</code>
+         * <code>.dstore.values.IntegerValue predecessors_tree_node_id = 10011;</code>
          */
         public io.dstore.values.IntegerValue.Builder getPredecessorsTreeNodeIdBuilder() {
           
@@ -9505,7 +9505,7 @@ public final class ImSearchProductTreeNodesPu {
          * ID des Vorgänger-Elementes im Artikelbaum des gefundenen Produkt-Elementes
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue predecessors_tree_node_id = 10011;</code>
+         * <code>.dstore.values.IntegerValue predecessors_tree_node_id = 10011;</code>
          */
         public io.dstore.values.IntegerValueOrBuilder getPredecessorsTreeNodeIdOrBuilder() {
           if (predecessorsTreeNodeIdBuilder_ != null) {
@@ -9520,7 +9520,7 @@ public final class ImSearchProductTreeNodesPu {
          * ID des Vorgänger-Elementes im Artikelbaum des gefundenen Produkt-Elementes
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue predecessors_tree_node_id = 10011;</code>
+         * <code>.dstore.values.IntegerValue predecessors_tree_node_id = 10011;</code>
          */
         private com.google.protobuf.SingleFieldBuilderV3<
             io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> 
@@ -9544,7 +9544,7 @@ public final class ImSearchProductTreeNodesPu {
          * Bezeichnung des Vorgängers
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue predecessors_description = 10012;</code>
+         * <code>.dstore.values.StringValue predecessors_description = 10012;</code>
          */
         public boolean hasPredecessorsDescription() {
           return predecessorsDescriptionBuilder_ != null || predecessorsDescription_ != null;
@@ -9554,7 +9554,7 @@ public final class ImSearchProductTreeNodesPu {
          * Bezeichnung des Vorgängers
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue predecessors_description = 10012;</code>
+         * <code>.dstore.values.StringValue predecessors_description = 10012;</code>
          */
         public io.dstore.values.StringValue getPredecessorsDescription() {
           if (predecessorsDescriptionBuilder_ == null) {
@@ -9568,7 +9568,7 @@ public final class ImSearchProductTreeNodesPu {
          * Bezeichnung des Vorgängers
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue predecessors_description = 10012;</code>
+         * <code>.dstore.values.StringValue predecessors_description = 10012;</code>
          */
         public Builder setPredecessorsDescription(io.dstore.values.StringValue value) {
           if (predecessorsDescriptionBuilder_ == null) {
@@ -9588,7 +9588,7 @@ public final class ImSearchProductTreeNodesPu {
          * Bezeichnung des Vorgängers
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue predecessors_description = 10012;</code>
+         * <code>.dstore.values.StringValue predecessors_description = 10012;</code>
          */
         public Builder setPredecessorsDescription(
             io.dstore.values.StringValue.Builder builderForValue) {
@@ -9606,7 +9606,7 @@ public final class ImSearchProductTreeNodesPu {
          * Bezeichnung des Vorgängers
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue predecessors_description = 10012;</code>
+         * <code>.dstore.values.StringValue predecessors_description = 10012;</code>
          */
         public Builder mergePredecessorsDescription(io.dstore.values.StringValue value) {
           if (predecessorsDescriptionBuilder_ == null) {
@@ -9628,7 +9628,7 @@ public final class ImSearchProductTreeNodesPu {
          * Bezeichnung des Vorgängers
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue predecessors_description = 10012;</code>
+         * <code>.dstore.values.StringValue predecessors_description = 10012;</code>
          */
         public Builder clearPredecessorsDescription() {
           if (predecessorsDescriptionBuilder_ == null) {
@@ -9646,7 +9646,7 @@ public final class ImSearchProductTreeNodesPu {
          * Bezeichnung des Vorgängers
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue predecessors_description = 10012;</code>
+         * <code>.dstore.values.StringValue predecessors_description = 10012;</code>
          */
         public io.dstore.values.StringValue.Builder getPredecessorsDescriptionBuilder() {
           
@@ -9658,7 +9658,7 @@ public final class ImSearchProductTreeNodesPu {
          * Bezeichnung des Vorgängers
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue predecessors_description = 10012;</code>
+         * <code>.dstore.values.StringValue predecessors_description = 10012;</code>
          */
         public io.dstore.values.StringValueOrBuilder getPredecessorsDescriptionOrBuilder() {
           if (predecessorsDescriptionBuilder_ != null) {
@@ -9673,7 +9673,7 @@ public final class ImSearchProductTreeNodesPu {
          * Bezeichnung des Vorgängers
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue predecessors_description = 10012;</code>
+         * <code>.dstore.values.StringValue predecessors_description = 10012;</code>
          */
         private com.google.protobuf.SingleFieldBuilderV3<
             io.dstore.values.StringValue, io.dstore.values.StringValue.Builder, io.dstore.values.StringValueOrBuilder> 
@@ -9846,19 +9846,19 @@ public final class ImSearchProductTreeNodesPu {
     public static final int COUNT_FIELD_NUMBER = 101;
     private io.dstore.values.IntegerValue count_;
     /**
-     * <code>optional .dstore.values.IntegerValue count = 101;</code>
+     * <code>.dstore.values.IntegerValue count = 101;</code>
      */
     public boolean hasCount() {
       return count_ != null;
     }
     /**
-     * <code>optional .dstore.values.IntegerValue count = 101;</code>
+     * <code>.dstore.values.IntegerValue count = 101;</code>
      */
     public io.dstore.values.IntegerValue getCount() {
       return count_ == null ? io.dstore.values.IntegerValue.getDefaultInstance() : count_;
     }
     /**
-     * <code>optional .dstore.values.IntegerValue count = 101;</code>
+     * <code>.dstore.values.IntegerValue count = 101;</code>
      */
     public io.dstore.values.IntegerValueOrBuilder getCountOrBuilder() {
       return getCount();
@@ -9947,7 +9947,7 @@ public final class ImSearchProductTreeNodesPu {
         return memoizedHashCode;
       }
       int hash = 41;
-      hash = (19 * hash) + getDescriptorForType().hashCode();
+      hash = (19 * hash) + getDescriptor().hashCode();
       if (getMetaInformationCount() > 0) {
         hash = (37 * hash) + META_INFORMATION_FIELD_NUMBER;
         hash = (53 * hash) + getMetaInformationList().hashCode();
@@ -11039,13 +11039,13 @@ public final class ImSearchProductTreeNodesPu {
       private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> countBuilder_;
       /**
-       * <code>optional .dstore.values.IntegerValue count = 101;</code>
+       * <code>.dstore.values.IntegerValue count = 101;</code>
        */
       public boolean hasCount() {
         return countBuilder_ != null || count_ != null;
       }
       /**
-       * <code>optional .dstore.values.IntegerValue count = 101;</code>
+       * <code>.dstore.values.IntegerValue count = 101;</code>
        */
       public io.dstore.values.IntegerValue getCount() {
         if (countBuilder_ == null) {
@@ -11055,7 +11055,7 @@ public final class ImSearchProductTreeNodesPu {
         }
       }
       /**
-       * <code>optional .dstore.values.IntegerValue count = 101;</code>
+       * <code>.dstore.values.IntegerValue count = 101;</code>
        */
       public Builder setCount(io.dstore.values.IntegerValue value) {
         if (countBuilder_ == null) {
@@ -11071,7 +11071,7 @@ public final class ImSearchProductTreeNodesPu {
         return this;
       }
       /**
-       * <code>optional .dstore.values.IntegerValue count = 101;</code>
+       * <code>.dstore.values.IntegerValue count = 101;</code>
        */
       public Builder setCount(
           io.dstore.values.IntegerValue.Builder builderForValue) {
@@ -11085,7 +11085,7 @@ public final class ImSearchProductTreeNodesPu {
         return this;
       }
       /**
-       * <code>optional .dstore.values.IntegerValue count = 101;</code>
+       * <code>.dstore.values.IntegerValue count = 101;</code>
        */
       public Builder mergeCount(io.dstore.values.IntegerValue value) {
         if (countBuilder_ == null) {
@@ -11103,7 +11103,7 @@ public final class ImSearchProductTreeNodesPu {
         return this;
       }
       /**
-       * <code>optional .dstore.values.IntegerValue count = 101;</code>
+       * <code>.dstore.values.IntegerValue count = 101;</code>
        */
       public Builder clearCount() {
         if (countBuilder_ == null) {
@@ -11117,7 +11117,7 @@ public final class ImSearchProductTreeNodesPu {
         return this;
       }
       /**
-       * <code>optional .dstore.values.IntegerValue count = 101;</code>
+       * <code>.dstore.values.IntegerValue count = 101;</code>
        */
       public io.dstore.values.IntegerValue.Builder getCountBuilder() {
         
@@ -11125,7 +11125,7 @@ public final class ImSearchProductTreeNodesPu {
         return getCountFieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .dstore.values.IntegerValue count = 101;</code>
+       * <code>.dstore.values.IntegerValue count = 101;</code>
        */
       public io.dstore.values.IntegerValueOrBuilder getCountOrBuilder() {
         if (countBuilder_ != null) {
@@ -11136,7 +11136,7 @@ public final class ImSearchProductTreeNodesPu {
         }
       }
       /**
-       * <code>optional .dstore.values.IntegerValue count = 101;</code>
+       * <code>.dstore.values.IntegerValue count = 101;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> 

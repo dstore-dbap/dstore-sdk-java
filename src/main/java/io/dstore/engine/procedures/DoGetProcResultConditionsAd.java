@@ -19,38 +19,38 @@ public final class DoGetProcResultConditionsAd {
       com.google.protobuf.MessageOrBuilder {
 
     /**
-     * <code>optional .dstore.values.StringValue procedure_name = 1;</code>
+     * <code>.dstore.values.StringValue procedure_name = 1;</code>
      */
     boolean hasProcedureName();
     /**
-     * <code>optional .dstore.values.StringValue procedure_name = 1;</code>
+     * <code>.dstore.values.StringValue procedure_name = 1;</code>
      */
     io.dstore.values.StringValue getProcedureName();
     /**
-     * <code>optional .dstore.values.StringValue procedure_name = 1;</code>
+     * <code>.dstore.values.StringValue procedure_name = 1;</code>
      */
     io.dstore.values.StringValueOrBuilder getProcedureNameOrBuilder();
 
     /**
-     * <code>optional bool procedure_name_null = 1001;</code>
+     * <code>bool procedure_name_null = 1001;</code>
      */
     boolean getProcedureNameNull();
 
     /**
-     * <code>optional .dstore.values.IntegerValue procedure_result_condition_id = 2;</code>
+     * <code>.dstore.values.IntegerValue procedure_result_condition_id = 2;</code>
      */
     boolean hasProcedureResultConditionId();
     /**
-     * <code>optional .dstore.values.IntegerValue procedure_result_condition_id = 2;</code>
+     * <code>.dstore.values.IntegerValue procedure_result_condition_id = 2;</code>
      */
     io.dstore.values.IntegerValue getProcedureResultConditionId();
     /**
-     * <code>optional .dstore.values.IntegerValue procedure_result_condition_id = 2;</code>
+     * <code>.dstore.values.IntegerValue procedure_result_condition_id = 2;</code>
      */
     io.dstore.values.IntegerValueOrBuilder getProcedureResultConditionIdOrBuilder();
 
     /**
-     * <code>optional bool procedure_result_condition_id_null = 1002;</code>
+     * <code>bool procedure_result_condition_id_null = 1002;</code>
      */
     boolean getProcedureResultConditionIdNull();
   }
@@ -157,19 +157,19 @@ public final class DoGetProcResultConditionsAd {
     public static final int PROCEDURE_NAME_FIELD_NUMBER = 1;
     private io.dstore.values.StringValue procedureName_;
     /**
-     * <code>optional .dstore.values.StringValue procedure_name = 1;</code>
+     * <code>.dstore.values.StringValue procedure_name = 1;</code>
      */
     public boolean hasProcedureName() {
       return procedureName_ != null;
     }
     /**
-     * <code>optional .dstore.values.StringValue procedure_name = 1;</code>
+     * <code>.dstore.values.StringValue procedure_name = 1;</code>
      */
     public io.dstore.values.StringValue getProcedureName() {
       return procedureName_ == null ? io.dstore.values.StringValue.getDefaultInstance() : procedureName_;
     }
     /**
-     * <code>optional .dstore.values.StringValue procedure_name = 1;</code>
+     * <code>.dstore.values.StringValue procedure_name = 1;</code>
      */
     public io.dstore.values.StringValueOrBuilder getProcedureNameOrBuilder() {
       return getProcedureName();
@@ -178,7 +178,7 @@ public final class DoGetProcResultConditionsAd {
     public static final int PROCEDURE_NAME_NULL_FIELD_NUMBER = 1001;
     private boolean procedureNameNull_;
     /**
-     * <code>optional bool procedure_name_null = 1001;</code>
+     * <code>bool procedure_name_null = 1001;</code>
      */
     public boolean getProcedureNameNull() {
       return procedureNameNull_;
@@ -187,19 +187,19 @@ public final class DoGetProcResultConditionsAd {
     public static final int PROCEDURE_RESULT_CONDITION_ID_FIELD_NUMBER = 2;
     private io.dstore.values.IntegerValue procedureResultConditionId_;
     /**
-     * <code>optional .dstore.values.IntegerValue procedure_result_condition_id = 2;</code>
+     * <code>.dstore.values.IntegerValue procedure_result_condition_id = 2;</code>
      */
     public boolean hasProcedureResultConditionId() {
       return procedureResultConditionId_ != null;
     }
     /**
-     * <code>optional .dstore.values.IntegerValue procedure_result_condition_id = 2;</code>
+     * <code>.dstore.values.IntegerValue procedure_result_condition_id = 2;</code>
      */
     public io.dstore.values.IntegerValue getProcedureResultConditionId() {
       return procedureResultConditionId_ == null ? io.dstore.values.IntegerValue.getDefaultInstance() : procedureResultConditionId_;
     }
     /**
-     * <code>optional .dstore.values.IntegerValue procedure_result_condition_id = 2;</code>
+     * <code>.dstore.values.IntegerValue procedure_result_condition_id = 2;</code>
      */
     public io.dstore.values.IntegerValueOrBuilder getProcedureResultConditionIdOrBuilder() {
       return getProcedureResultConditionId();
@@ -208,7 +208,7 @@ public final class DoGetProcResultConditionsAd {
     public static final int PROCEDURE_RESULT_CONDITION_ID_NULL_FIELD_NUMBER = 1002;
     private boolean procedureResultConditionIdNull_;
     /**
-     * <code>optional bool procedure_result_condition_id_null = 1002;</code>
+     * <code>bool procedure_result_condition_id_null = 1002;</code>
      */
     public boolean getProcedureResultConditionIdNull() {
       return procedureResultConditionIdNull_;
@@ -300,7 +300,7 @@ public final class DoGetProcResultConditionsAd {
         return memoizedHashCode;
       }
       int hash = 41;
-      hash = (19 * hash) + getDescriptorForType().hashCode();
+      hash = (19 * hash) + getDescriptor().hashCode();
       if (hasProcedureName()) {
         hash = (37 * hash) + PROCEDURE_NAME_FIELD_NUMBER;
         hash = (53 * hash) + getProcedureName().hashCode();
@@ -566,13 +566,13 @@ public final class DoGetProcResultConditionsAd {
       private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.values.StringValue, io.dstore.values.StringValue.Builder, io.dstore.values.StringValueOrBuilder> procedureNameBuilder_;
       /**
-       * <code>optional .dstore.values.StringValue procedure_name = 1;</code>
+       * <code>.dstore.values.StringValue procedure_name = 1;</code>
        */
       public boolean hasProcedureName() {
         return procedureNameBuilder_ != null || procedureName_ != null;
       }
       /**
-       * <code>optional .dstore.values.StringValue procedure_name = 1;</code>
+       * <code>.dstore.values.StringValue procedure_name = 1;</code>
        */
       public io.dstore.values.StringValue getProcedureName() {
         if (procedureNameBuilder_ == null) {
@@ -582,7 +582,7 @@ public final class DoGetProcResultConditionsAd {
         }
       }
       /**
-       * <code>optional .dstore.values.StringValue procedure_name = 1;</code>
+       * <code>.dstore.values.StringValue procedure_name = 1;</code>
        */
       public Builder setProcedureName(io.dstore.values.StringValue value) {
         if (procedureNameBuilder_ == null) {
@@ -598,7 +598,7 @@ public final class DoGetProcResultConditionsAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.StringValue procedure_name = 1;</code>
+       * <code>.dstore.values.StringValue procedure_name = 1;</code>
        */
       public Builder setProcedureName(
           io.dstore.values.StringValue.Builder builderForValue) {
@@ -612,7 +612,7 @@ public final class DoGetProcResultConditionsAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.StringValue procedure_name = 1;</code>
+       * <code>.dstore.values.StringValue procedure_name = 1;</code>
        */
       public Builder mergeProcedureName(io.dstore.values.StringValue value) {
         if (procedureNameBuilder_ == null) {
@@ -630,7 +630,7 @@ public final class DoGetProcResultConditionsAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.StringValue procedure_name = 1;</code>
+       * <code>.dstore.values.StringValue procedure_name = 1;</code>
        */
       public Builder clearProcedureName() {
         if (procedureNameBuilder_ == null) {
@@ -644,7 +644,7 @@ public final class DoGetProcResultConditionsAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.StringValue procedure_name = 1;</code>
+       * <code>.dstore.values.StringValue procedure_name = 1;</code>
        */
       public io.dstore.values.StringValue.Builder getProcedureNameBuilder() {
         
@@ -652,7 +652,7 @@ public final class DoGetProcResultConditionsAd {
         return getProcedureNameFieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .dstore.values.StringValue procedure_name = 1;</code>
+       * <code>.dstore.values.StringValue procedure_name = 1;</code>
        */
       public io.dstore.values.StringValueOrBuilder getProcedureNameOrBuilder() {
         if (procedureNameBuilder_ != null) {
@@ -663,7 +663,7 @@ public final class DoGetProcResultConditionsAd {
         }
       }
       /**
-       * <code>optional .dstore.values.StringValue procedure_name = 1;</code>
+       * <code>.dstore.values.StringValue procedure_name = 1;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.values.StringValue, io.dstore.values.StringValue.Builder, io.dstore.values.StringValueOrBuilder> 
@@ -681,13 +681,13 @@ public final class DoGetProcResultConditionsAd {
 
       private boolean procedureNameNull_ ;
       /**
-       * <code>optional bool procedure_name_null = 1001;</code>
+       * <code>bool procedure_name_null = 1001;</code>
        */
       public boolean getProcedureNameNull() {
         return procedureNameNull_;
       }
       /**
-       * <code>optional bool procedure_name_null = 1001;</code>
+       * <code>bool procedure_name_null = 1001;</code>
        */
       public Builder setProcedureNameNull(boolean value) {
         
@@ -696,7 +696,7 @@ public final class DoGetProcResultConditionsAd {
         return this;
       }
       /**
-       * <code>optional bool procedure_name_null = 1001;</code>
+       * <code>bool procedure_name_null = 1001;</code>
        */
       public Builder clearProcedureNameNull() {
         
@@ -709,13 +709,13 @@ public final class DoGetProcResultConditionsAd {
       private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> procedureResultConditionIdBuilder_;
       /**
-       * <code>optional .dstore.values.IntegerValue procedure_result_condition_id = 2;</code>
+       * <code>.dstore.values.IntegerValue procedure_result_condition_id = 2;</code>
        */
       public boolean hasProcedureResultConditionId() {
         return procedureResultConditionIdBuilder_ != null || procedureResultConditionId_ != null;
       }
       /**
-       * <code>optional .dstore.values.IntegerValue procedure_result_condition_id = 2;</code>
+       * <code>.dstore.values.IntegerValue procedure_result_condition_id = 2;</code>
        */
       public io.dstore.values.IntegerValue getProcedureResultConditionId() {
         if (procedureResultConditionIdBuilder_ == null) {
@@ -725,7 +725,7 @@ public final class DoGetProcResultConditionsAd {
         }
       }
       /**
-       * <code>optional .dstore.values.IntegerValue procedure_result_condition_id = 2;</code>
+       * <code>.dstore.values.IntegerValue procedure_result_condition_id = 2;</code>
        */
       public Builder setProcedureResultConditionId(io.dstore.values.IntegerValue value) {
         if (procedureResultConditionIdBuilder_ == null) {
@@ -741,7 +741,7 @@ public final class DoGetProcResultConditionsAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.IntegerValue procedure_result_condition_id = 2;</code>
+       * <code>.dstore.values.IntegerValue procedure_result_condition_id = 2;</code>
        */
       public Builder setProcedureResultConditionId(
           io.dstore.values.IntegerValue.Builder builderForValue) {
@@ -755,7 +755,7 @@ public final class DoGetProcResultConditionsAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.IntegerValue procedure_result_condition_id = 2;</code>
+       * <code>.dstore.values.IntegerValue procedure_result_condition_id = 2;</code>
        */
       public Builder mergeProcedureResultConditionId(io.dstore.values.IntegerValue value) {
         if (procedureResultConditionIdBuilder_ == null) {
@@ -773,7 +773,7 @@ public final class DoGetProcResultConditionsAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.IntegerValue procedure_result_condition_id = 2;</code>
+       * <code>.dstore.values.IntegerValue procedure_result_condition_id = 2;</code>
        */
       public Builder clearProcedureResultConditionId() {
         if (procedureResultConditionIdBuilder_ == null) {
@@ -787,7 +787,7 @@ public final class DoGetProcResultConditionsAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.IntegerValue procedure_result_condition_id = 2;</code>
+       * <code>.dstore.values.IntegerValue procedure_result_condition_id = 2;</code>
        */
       public io.dstore.values.IntegerValue.Builder getProcedureResultConditionIdBuilder() {
         
@@ -795,7 +795,7 @@ public final class DoGetProcResultConditionsAd {
         return getProcedureResultConditionIdFieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .dstore.values.IntegerValue procedure_result_condition_id = 2;</code>
+       * <code>.dstore.values.IntegerValue procedure_result_condition_id = 2;</code>
        */
       public io.dstore.values.IntegerValueOrBuilder getProcedureResultConditionIdOrBuilder() {
         if (procedureResultConditionIdBuilder_ != null) {
@@ -806,7 +806,7 @@ public final class DoGetProcResultConditionsAd {
         }
       }
       /**
-       * <code>optional .dstore.values.IntegerValue procedure_result_condition_id = 2;</code>
+       * <code>.dstore.values.IntegerValue procedure_result_condition_id = 2;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> 
@@ -824,13 +824,13 @@ public final class DoGetProcResultConditionsAd {
 
       private boolean procedureResultConditionIdNull_ ;
       /**
-       * <code>optional bool procedure_result_condition_id_null = 1002;</code>
+       * <code>bool procedure_result_condition_id_null = 1002;</code>
        */
       public boolean getProcedureResultConditionIdNull() {
         return procedureResultConditionIdNull_;
       }
       /**
-       * <code>optional bool procedure_result_condition_id_null = 1002;</code>
+       * <code>bool procedure_result_condition_id_null = 1002;</code>
        */
       public Builder setProcedureResultConditionIdNull(boolean value) {
         
@@ -839,7 +839,7 @@ public final class DoGetProcResultConditionsAd {
         return this;
       }
       /**
-       * <code>optional bool procedure_result_condition_id_null = 1002;</code>
+       * <code>bool procedure_result_condition_id_null = 1002;</code>
        */
       public Builder clearProcedureResultConditionIdNull() {
         
@@ -1098,7 +1098,7 @@ public final class DoGetProcResultConditionsAd {
         com.google.protobuf.MessageOrBuilder {
 
       /**
-       * <code>optional int32 row_id = 10000;</code>
+       * <code>int32 row_id = 10000;</code>
        */
       int getRowId();
 
@@ -1107,7 +1107,7 @@ public final class DoGetProcResultConditionsAd {
        * Bezeichnung der Bedingung "ProcedureResultConditionID". Hinweis : Derzeit immer entweder "Parameterunabhängige Rückgabemenge" oder &lt;ProcedureName&gt;_&lt;fortlaufende Nummer&gt; !
        * </pre>
        *
-       * <code>optional .dstore.values.StringValue condition_description = 10001;</code>
+       * <code>.dstore.values.StringValue condition_description = 10001;</code>
        */
       boolean hasConditionDescription();
       /**
@@ -1115,7 +1115,7 @@ public final class DoGetProcResultConditionsAd {
        * Bezeichnung der Bedingung "ProcedureResultConditionID". Hinweis : Derzeit immer entweder "Parameterunabhängige Rückgabemenge" oder &lt;ProcedureName&gt;_&lt;fortlaufende Nummer&gt; !
        * </pre>
        *
-       * <code>optional .dstore.values.StringValue condition_description = 10001;</code>
+       * <code>.dstore.values.StringValue condition_description = 10001;</code>
        */
       io.dstore.values.StringValue getConditionDescription();
       /**
@@ -1123,7 +1123,7 @@ public final class DoGetProcResultConditionsAd {
        * Bezeichnung der Bedingung "ProcedureResultConditionID". Hinweis : Derzeit immer entweder "Parameterunabhängige Rückgabemenge" oder &lt;ProcedureName&gt;_&lt;fortlaufende Nummer&gt; !
        * </pre>
        *
-       * <code>optional .dstore.values.StringValue condition_description = 10001;</code>
+       * <code>.dstore.values.StringValue condition_description = 10001;</code>
        */
       io.dstore.values.StringValueOrBuilder getConditionDescriptionOrBuilder();
 
@@ -1132,7 +1132,7 @@ public final class DoGetProcResultConditionsAd {
        * Bedingung, die der Parameter "ParameterName" der Prozedur "ProcedureName" beim Aufruf erfüllen muß, damit eine entsprechende Rückgabemenge erzeugt wird
        * </pre>
        *
-       * <code>optional .dstore.values.StringValue condition = 10002;</code>
+       * <code>.dstore.values.StringValue condition = 10002;</code>
        */
       boolean hasCondition();
       /**
@@ -1140,7 +1140,7 @@ public final class DoGetProcResultConditionsAd {
        * Bedingung, die der Parameter "ParameterName" der Prozedur "ProcedureName" beim Aufruf erfüllen muß, damit eine entsprechende Rückgabemenge erzeugt wird
        * </pre>
        *
-       * <code>optional .dstore.values.StringValue condition = 10002;</code>
+       * <code>.dstore.values.StringValue condition = 10002;</code>
        */
       io.dstore.values.StringValue getCondition();
       /**
@@ -1148,7 +1148,7 @@ public final class DoGetProcResultConditionsAd {
        * Bedingung, die der Parameter "ParameterName" der Prozedur "ProcedureName" beim Aufruf erfüllen muß, damit eine entsprechende Rückgabemenge erzeugt wird
        * </pre>
        *
-       * <code>optional .dstore.values.StringValue condition = 10002;</code>
+       * <code>.dstore.values.StringValue condition = 10002;</code>
        */
       io.dstore.values.StringValueOrBuilder getConditionOrBuilder();
 
@@ -1157,7 +1157,7 @@ public final class DoGetProcResultConditionsAd {
        * ID einer Bedingung, zu der "ProcedureName" eine Rückgabemenge liefert bzw. (wenn "ProcedureName = NULL") eine Prozedur eine Rückgabemenge liefern kann
        * </pre>
        *
-       * <code>optional .dstore.values.IntegerValue procedure_result_condition_id = 10003;</code>
+       * <code>.dstore.values.IntegerValue procedure_result_condition_id = 10003;</code>
        */
       boolean hasProcedureResultConditionId();
       /**
@@ -1165,7 +1165,7 @@ public final class DoGetProcResultConditionsAd {
        * ID einer Bedingung, zu der "ProcedureName" eine Rückgabemenge liefert bzw. (wenn "ProcedureName = NULL") eine Prozedur eine Rückgabemenge liefern kann
        * </pre>
        *
-       * <code>optional .dstore.values.IntegerValue procedure_result_condition_id = 10003;</code>
+       * <code>.dstore.values.IntegerValue procedure_result_condition_id = 10003;</code>
        */
       io.dstore.values.IntegerValue getProcedureResultConditionId();
       /**
@@ -1173,7 +1173,7 @@ public final class DoGetProcResultConditionsAd {
        * ID einer Bedingung, zu der "ProcedureName" eine Rückgabemenge liefert bzw. (wenn "ProcedureName = NULL") eine Prozedur eine Rückgabemenge liefern kann
        * </pre>
        *
-       * <code>optional .dstore.values.IntegerValue procedure_result_condition_id = 10003;</code>
+       * <code>.dstore.values.IntegerValue procedure_result_condition_id = 10003;</code>
        */
       io.dstore.values.IntegerValueOrBuilder getProcedureResultConditionIdOrBuilder();
 
@@ -1182,7 +1182,7 @@ public final class DoGetProcResultConditionsAd {
        * Name d. Prozedur, die zur "ProcedureResultConditionID" eine Rückgabemenge liefert oder liefern kann - denn es werden auch Bedingungen beachtet, zu denen (noch) für keine Prozedur eine Rückgabemenge dokum. ist. Identisch m. "&#64;ProcedureName" wenn angegeben.
        * </pre>
        *
-       * <code>optional .dstore.values.StringValue procedure_name = 10004;</code>
+       * <code>.dstore.values.StringValue procedure_name = 10004;</code>
        */
       boolean hasProcedureName();
       /**
@@ -1190,7 +1190,7 @@ public final class DoGetProcResultConditionsAd {
        * Name d. Prozedur, die zur "ProcedureResultConditionID" eine Rückgabemenge liefert oder liefern kann - denn es werden auch Bedingungen beachtet, zu denen (noch) für keine Prozedur eine Rückgabemenge dokum. ist. Identisch m. "&#64;ProcedureName" wenn angegeben.
        * </pre>
        *
-       * <code>optional .dstore.values.StringValue procedure_name = 10004;</code>
+       * <code>.dstore.values.StringValue procedure_name = 10004;</code>
        */
       io.dstore.values.StringValue getProcedureName();
       /**
@@ -1198,7 +1198,7 @@ public final class DoGetProcResultConditionsAd {
        * Name d. Prozedur, die zur "ProcedureResultConditionID" eine Rückgabemenge liefert oder liefern kann - denn es werden auch Bedingungen beachtet, zu denen (noch) für keine Prozedur eine Rückgabemenge dokum. ist. Identisch m. "&#64;ProcedureName" wenn angegeben.
        * </pre>
        *
-       * <code>optional .dstore.values.StringValue procedure_name = 10004;</code>
+       * <code>.dstore.values.StringValue procedure_name = 10004;</code>
        */
       io.dstore.values.StringValueOrBuilder getProcedureNameOrBuilder();
 
@@ -1207,7 +1207,7 @@ public final class DoGetProcResultConditionsAd {
        * Name eines Parameters der Prozedur "ProcedureName", dessen Wert beim Aufruf der Prozedur die Bedingung "Condition" erfüllen muß, um eine entsprechende Rückgabemenge zu liefern
        * </pre>
        *
-       * <code>optional .dstore.values.StringValue parameter_name = 10005;</code>
+       * <code>.dstore.values.StringValue parameter_name = 10005;</code>
        */
       boolean hasParameterName();
       /**
@@ -1215,7 +1215,7 @@ public final class DoGetProcResultConditionsAd {
        * Name eines Parameters der Prozedur "ProcedureName", dessen Wert beim Aufruf der Prozedur die Bedingung "Condition" erfüllen muß, um eine entsprechende Rückgabemenge zu liefern
        * </pre>
        *
-       * <code>optional .dstore.values.StringValue parameter_name = 10005;</code>
+       * <code>.dstore.values.StringValue parameter_name = 10005;</code>
        */
       io.dstore.values.StringValue getParameterName();
       /**
@@ -1223,7 +1223,7 @@ public final class DoGetProcResultConditionsAd {
        * Name eines Parameters der Prozedur "ProcedureName", dessen Wert beim Aufruf der Prozedur die Bedingung "Condition" erfüllen muß, um eine entsprechende Rückgabemenge zu liefern
        * </pre>
        *
-       * <code>optional .dstore.values.StringValue parameter_name = 10005;</code>
+       * <code>.dstore.values.StringValue parameter_name = 10005;</code>
        */
       io.dstore.values.StringValueOrBuilder getParameterNameOrBuilder();
     }
@@ -1363,7 +1363,7 @@ public final class DoGetProcResultConditionsAd {
       public static final int ROW_ID_FIELD_NUMBER = 10000;
       private int rowId_;
       /**
-       * <code>optional int32 row_id = 10000;</code>
+       * <code>int32 row_id = 10000;</code>
        */
       public int getRowId() {
         return rowId_;
@@ -1376,7 +1376,7 @@ public final class DoGetProcResultConditionsAd {
        * Bezeichnung der Bedingung "ProcedureResultConditionID". Hinweis : Derzeit immer entweder "Parameterunabhängige Rückgabemenge" oder &lt;ProcedureName&gt;_&lt;fortlaufende Nummer&gt; !
        * </pre>
        *
-       * <code>optional .dstore.values.StringValue condition_description = 10001;</code>
+       * <code>.dstore.values.StringValue condition_description = 10001;</code>
        */
       public boolean hasConditionDescription() {
         return conditionDescription_ != null;
@@ -1386,7 +1386,7 @@ public final class DoGetProcResultConditionsAd {
        * Bezeichnung der Bedingung "ProcedureResultConditionID". Hinweis : Derzeit immer entweder "Parameterunabhängige Rückgabemenge" oder &lt;ProcedureName&gt;_&lt;fortlaufende Nummer&gt; !
        * </pre>
        *
-       * <code>optional .dstore.values.StringValue condition_description = 10001;</code>
+       * <code>.dstore.values.StringValue condition_description = 10001;</code>
        */
       public io.dstore.values.StringValue getConditionDescription() {
         return conditionDescription_ == null ? io.dstore.values.StringValue.getDefaultInstance() : conditionDescription_;
@@ -1396,7 +1396,7 @@ public final class DoGetProcResultConditionsAd {
        * Bezeichnung der Bedingung "ProcedureResultConditionID". Hinweis : Derzeit immer entweder "Parameterunabhängige Rückgabemenge" oder &lt;ProcedureName&gt;_&lt;fortlaufende Nummer&gt; !
        * </pre>
        *
-       * <code>optional .dstore.values.StringValue condition_description = 10001;</code>
+       * <code>.dstore.values.StringValue condition_description = 10001;</code>
        */
       public io.dstore.values.StringValueOrBuilder getConditionDescriptionOrBuilder() {
         return getConditionDescription();
@@ -1409,7 +1409,7 @@ public final class DoGetProcResultConditionsAd {
        * Bedingung, die der Parameter "ParameterName" der Prozedur "ProcedureName" beim Aufruf erfüllen muß, damit eine entsprechende Rückgabemenge erzeugt wird
        * </pre>
        *
-       * <code>optional .dstore.values.StringValue condition = 10002;</code>
+       * <code>.dstore.values.StringValue condition = 10002;</code>
        */
       public boolean hasCondition() {
         return condition_ != null;
@@ -1419,7 +1419,7 @@ public final class DoGetProcResultConditionsAd {
        * Bedingung, die der Parameter "ParameterName" der Prozedur "ProcedureName" beim Aufruf erfüllen muß, damit eine entsprechende Rückgabemenge erzeugt wird
        * </pre>
        *
-       * <code>optional .dstore.values.StringValue condition = 10002;</code>
+       * <code>.dstore.values.StringValue condition = 10002;</code>
        */
       public io.dstore.values.StringValue getCondition() {
         return condition_ == null ? io.dstore.values.StringValue.getDefaultInstance() : condition_;
@@ -1429,7 +1429,7 @@ public final class DoGetProcResultConditionsAd {
        * Bedingung, die der Parameter "ParameterName" der Prozedur "ProcedureName" beim Aufruf erfüllen muß, damit eine entsprechende Rückgabemenge erzeugt wird
        * </pre>
        *
-       * <code>optional .dstore.values.StringValue condition = 10002;</code>
+       * <code>.dstore.values.StringValue condition = 10002;</code>
        */
       public io.dstore.values.StringValueOrBuilder getConditionOrBuilder() {
         return getCondition();
@@ -1442,7 +1442,7 @@ public final class DoGetProcResultConditionsAd {
        * ID einer Bedingung, zu der "ProcedureName" eine Rückgabemenge liefert bzw. (wenn "ProcedureName = NULL") eine Prozedur eine Rückgabemenge liefern kann
        * </pre>
        *
-       * <code>optional .dstore.values.IntegerValue procedure_result_condition_id = 10003;</code>
+       * <code>.dstore.values.IntegerValue procedure_result_condition_id = 10003;</code>
        */
       public boolean hasProcedureResultConditionId() {
         return procedureResultConditionId_ != null;
@@ -1452,7 +1452,7 @@ public final class DoGetProcResultConditionsAd {
        * ID einer Bedingung, zu der "ProcedureName" eine Rückgabemenge liefert bzw. (wenn "ProcedureName = NULL") eine Prozedur eine Rückgabemenge liefern kann
        * </pre>
        *
-       * <code>optional .dstore.values.IntegerValue procedure_result_condition_id = 10003;</code>
+       * <code>.dstore.values.IntegerValue procedure_result_condition_id = 10003;</code>
        */
       public io.dstore.values.IntegerValue getProcedureResultConditionId() {
         return procedureResultConditionId_ == null ? io.dstore.values.IntegerValue.getDefaultInstance() : procedureResultConditionId_;
@@ -1462,7 +1462,7 @@ public final class DoGetProcResultConditionsAd {
        * ID einer Bedingung, zu der "ProcedureName" eine Rückgabemenge liefert bzw. (wenn "ProcedureName = NULL") eine Prozedur eine Rückgabemenge liefern kann
        * </pre>
        *
-       * <code>optional .dstore.values.IntegerValue procedure_result_condition_id = 10003;</code>
+       * <code>.dstore.values.IntegerValue procedure_result_condition_id = 10003;</code>
        */
       public io.dstore.values.IntegerValueOrBuilder getProcedureResultConditionIdOrBuilder() {
         return getProcedureResultConditionId();
@@ -1475,7 +1475,7 @@ public final class DoGetProcResultConditionsAd {
        * Name d. Prozedur, die zur "ProcedureResultConditionID" eine Rückgabemenge liefert oder liefern kann - denn es werden auch Bedingungen beachtet, zu denen (noch) für keine Prozedur eine Rückgabemenge dokum. ist. Identisch m. "&#64;ProcedureName" wenn angegeben.
        * </pre>
        *
-       * <code>optional .dstore.values.StringValue procedure_name = 10004;</code>
+       * <code>.dstore.values.StringValue procedure_name = 10004;</code>
        */
       public boolean hasProcedureName() {
         return procedureName_ != null;
@@ -1485,7 +1485,7 @@ public final class DoGetProcResultConditionsAd {
        * Name d. Prozedur, die zur "ProcedureResultConditionID" eine Rückgabemenge liefert oder liefern kann - denn es werden auch Bedingungen beachtet, zu denen (noch) für keine Prozedur eine Rückgabemenge dokum. ist. Identisch m. "&#64;ProcedureName" wenn angegeben.
        * </pre>
        *
-       * <code>optional .dstore.values.StringValue procedure_name = 10004;</code>
+       * <code>.dstore.values.StringValue procedure_name = 10004;</code>
        */
       public io.dstore.values.StringValue getProcedureName() {
         return procedureName_ == null ? io.dstore.values.StringValue.getDefaultInstance() : procedureName_;
@@ -1495,7 +1495,7 @@ public final class DoGetProcResultConditionsAd {
        * Name d. Prozedur, die zur "ProcedureResultConditionID" eine Rückgabemenge liefert oder liefern kann - denn es werden auch Bedingungen beachtet, zu denen (noch) für keine Prozedur eine Rückgabemenge dokum. ist. Identisch m. "&#64;ProcedureName" wenn angegeben.
        * </pre>
        *
-       * <code>optional .dstore.values.StringValue procedure_name = 10004;</code>
+       * <code>.dstore.values.StringValue procedure_name = 10004;</code>
        */
       public io.dstore.values.StringValueOrBuilder getProcedureNameOrBuilder() {
         return getProcedureName();
@@ -1508,7 +1508,7 @@ public final class DoGetProcResultConditionsAd {
        * Name eines Parameters der Prozedur "ProcedureName", dessen Wert beim Aufruf der Prozedur die Bedingung "Condition" erfüllen muß, um eine entsprechende Rückgabemenge zu liefern
        * </pre>
        *
-       * <code>optional .dstore.values.StringValue parameter_name = 10005;</code>
+       * <code>.dstore.values.StringValue parameter_name = 10005;</code>
        */
       public boolean hasParameterName() {
         return parameterName_ != null;
@@ -1518,7 +1518,7 @@ public final class DoGetProcResultConditionsAd {
        * Name eines Parameters der Prozedur "ProcedureName", dessen Wert beim Aufruf der Prozedur die Bedingung "Condition" erfüllen muß, um eine entsprechende Rückgabemenge zu liefern
        * </pre>
        *
-       * <code>optional .dstore.values.StringValue parameter_name = 10005;</code>
+       * <code>.dstore.values.StringValue parameter_name = 10005;</code>
        */
       public io.dstore.values.StringValue getParameterName() {
         return parameterName_ == null ? io.dstore.values.StringValue.getDefaultInstance() : parameterName_;
@@ -1528,7 +1528,7 @@ public final class DoGetProcResultConditionsAd {
        * Name eines Parameters der Prozedur "ProcedureName", dessen Wert beim Aufruf der Prozedur die Bedingung "Condition" erfüllen muß, um eine entsprechende Rückgabemenge zu liefern
        * </pre>
        *
-       * <code>optional .dstore.values.StringValue parameter_name = 10005;</code>
+       * <code>.dstore.values.StringValue parameter_name = 10005;</code>
        */
       public io.dstore.values.StringValueOrBuilder getParameterNameOrBuilder() {
         return getParameterName();
@@ -1647,7 +1647,7 @@ public final class DoGetProcResultConditionsAd {
           return memoizedHashCode;
         }
         int hash = 41;
-        hash = (19 * hash) + getDescriptorForType().hashCode();
+        hash = (19 * hash) + getDescriptor().hashCode();
         hash = (37 * hash) + ROW_ID_FIELD_NUMBER;
         hash = (53 * hash) + getRowId();
         if (hasConditionDescription()) {
@@ -1955,13 +1955,13 @@ public final class DoGetProcResultConditionsAd {
 
         private int rowId_ ;
         /**
-         * <code>optional int32 row_id = 10000;</code>
+         * <code>int32 row_id = 10000;</code>
          */
         public int getRowId() {
           return rowId_;
         }
         /**
-         * <code>optional int32 row_id = 10000;</code>
+         * <code>int32 row_id = 10000;</code>
          */
         public Builder setRowId(int value) {
           
@@ -1970,7 +1970,7 @@ public final class DoGetProcResultConditionsAd {
           return this;
         }
         /**
-         * <code>optional int32 row_id = 10000;</code>
+         * <code>int32 row_id = 10000;</code>
          */
         public Builder clearRowId() {
           
@@ -1987,7 +1987,7 @@ public final class DoGetProcResultConditionsAd {
          * Bezeichnung der Bedingung "ProcedureResultConditionID". Hinweis : Derzeit immer entweder "Parameterunabhängige Rückgabemenge" oder &lt;ProcedureName&gt;_&lt;fortlaufende Nummer&gt; !
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue condition_description = 10001;</code>
+         * <code>.dstore.values.StringValue condition_description = 10001;</code>
          */
         public boolean hasConditionDescription() {
           return conditionDescriptionBuilder_ != null || conditionDescription_ != null;
@@ -1997,7 +1997,7 @@ public final class DoGetProcResultConditionsAd {
          * Bezeichnung der Bedingung "ProcedureResultConditionID". Hinweis : Derzeit immer entweder "Parameterunabhängige Rückgabemenge" oder &lt;ProcedureName&gt;_&lt;fortlaufende Nummer&gt; !
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue condition_description = 10001;</code>
+         * <code>.dstore.values.StringValue condition_description = 10001;</code>
          */
         public io.dstore.values.StringValue getConditionDescription() {
           if (conditionDescriptionBuilder_ == null) {
@@ -2011,7 +2011,7 @@ public final class DoGetProcResultConditionsAd {
          * Bezeichnung der Bedingung "ProcedureResultConditionID". Hinweis : Derzeit immer entweder "Parameterunabhängige Rückgabemenge" oder &lt;ProcedureName&gt;_&lt;fortlaufende Nummer&gt; !
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue condition_description = 10001;</code>
+         * <code>.dstore.values.StringValue condition_description = 10001;</code>
          */
         public Builder setConditionDescription(io.dstore.values.StringValue value) {
           if (conditionDescriptionBuilder_ == null) {
@@ -2031,7 +2031,7 @@ public final class DoGetProcResultConditionsAd {
          * Bezeichnung der Bedingung "ProcedureResultConditionID". Hinweis : Derzeit immer entweder "Parameterunabhängige Rückgabemenge" oder &lt;ProcedureName&gt;_&lt;fortlaufende Nummer&gt; !
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue condition_description = 10001;</code>
+         * <code>.dstore.values.StringValue condition_description = 10001;</code>
          */
         public Builder setConditionDescription(
             io.dstore.values.StringValue.Builder builderForValue) {
@@ -2049,7 +2049,7 @@ public final class DoGetProcResultConditionsAd {
          * Bezeichnung der Bedingung "ProcedureResultConditionID". Hinweis : Derzeit immer entweder "Parameterunabhängige Rückgabemenge" oder &lt;ProcedureName&gt;_&lt;fortlaufende Nummer&gt; !
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue condition_description = 10001;</code>
+         * <code>.dstore.values.StringValue condition_description = 10001;</code>
          */
         public Builder mergeConditionDescription(io.dstore.values.StringValue value) {
           if (conditionDescriptionBuilder_ == null) {
@@ -2071,7 +2071,7 @@ public final class DoGetProcResultConditionsAd {
          * Bezeichnung der Bedingung "ProcedureResultConditionID". Hinweis : Derzeit immer entweder "Parameterunabhängige Rückgabemenge" oder &lt;ProcedureName&gt;_&lt;fortlaufende Nummer&gt; !
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue condition_description = 10001;</code>
+         * <code>.dstore.values.StringValue condition_description = 10001;</code>
          */
         public Builder clearConditionDescription() {
           if (conditionDescriptionBuilder_ == null) {
@@ -2089,7 +2089,7 @@ public final class DoGetProcResultConditionsAd {
          * Bezeichnung der Bedingung "ProcedureResultConditionID". Hinweis : Derzeit immer entweder "Parameterunabhängige Rückgabemenge" oder &lt;ProcedureName&gt;_&lt;fortlaufende Nummer&gt; !
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue condition_description = 10001;</code>
+         * <code>.dstore.values.StringValue condition_description = 10001;</code>
          */
         public io.dstore.values.StringValue.Builder getConditionDescriptionBuilder() {
           
@@ -2101,7 +2101,7 @@ public final class DoGetProcResultConditionsAd {
          * Bezeichnung der Bedingung "ProcedureResultConditionID". Hinweis : Derzeit immer entweder "Parameterunabhängige Rückgabemenge" oder &lt;ProcedureName&gt;_&lt;fortlaufende Nummer&gt; !
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue condition_description = 10001;</code>
+         * <code>.dstore.values.StringValue condition_description = 10001;</code>
          */
         public io.dstore.values.StringValueOrBuilder getConditionDescriptionOrBuilder() {
           if (conditionDescriptionBuilder_ != null) {
@@ -2116,7 +2116,7 @@ public final class DoGetProcResultConditionsAd {
          * Bezeichnung der Bedingung "ProcedureResultConditionID". Hinweis : Derzeit immer entweder "Parameterunabhängige Rückgabemenge" oder &lt;ProcedureName&gt;_&lt;fortlaufende Nummer&gt; !
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue condition_description = 10001;</code>
+         * <code>.dstore.values.StringValue condition_description = 10001;</code>
          */
         private com.google.protobuf.SingleFieldBuilderV3<
             io.dstore.values.StringValue, io.dstore.values.StringValue.Builder, io.dstore.values.StringValueOrBuilder> 
@@ -2140,7 +2140,7 @@ public final class DoGetProcResultConditionsAd {
          * Bedingung, die der Parameter "ParameterName" der Prozedur "ProcedureName" beim Aufruf erfüllen muß, damit eine entsprechende Rückgabemenge erzeugt wird
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue condition = 10002;</code>
+         * <code>.dstore.values.StringValue condition = 10002;</code>
          */
         public boolean hasCondition() {
           return conditionBuilder_ != null || condition_ != null;
@@ -2150,7 +2150,7 @@ public final class DoGetProcResultConditionsAd {
          * Bedingung, die der Parameter "ParameterName" der Prozedur "ProcedureName" beim Aufruf erfüllen muß, damit eine entsprechende Rückgabemenge erzeugt wird
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue condition = 10002;</code>
+         * <code>.dstore.values.StringValue condition = 10002;</code>
          */
         public io.dstore.values.StringValue getCondition() {
           if (conditionBuilder_ == null) {
@@ -2164,7 +2164,7 @@ public final class DoGetProcResultConditionsAd {
          * Bedingung, die der Parameter "ParameterName" der Prozedur "ProcedureName" beim Aufruf erfüllen muß, damit eine entsprechende Rückgabemenge erzeugt wird
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue condition = 10002;</code>
+         * <code>.dstore.values.StringValue condition = 10002;</code>
          */
         public Builder setCondition(io.dstore.values.StringValue value) {
           if (conditionBuilder_ == null) {
@@ -2184,7 +2184,7 @@ public final class DoGetProcResultConditionsAd {
          * Bedingung, die der Parameter "ParameterName" der Prozedur "ProcedureName" beim Aufruf erfüllen muß, damit eine entsprechende Rückgabemenge erzeugt wird
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue condition = 10002;</code>
+         * <code>.dstore.values.StringValue condition = 10002;</code>
          */
         public Builder setCondition(
             io.dstore.values.StringValue.Builder builderForValue) {
@@ -2202,7 +2202,7 @@ public final class DoGetProcResultConditionsAd {
          * Bedingung, die der Parameter "ParameterName" der Prozedur "ProcedureName" beim Aufruf erfüllen muß, damit eine entsprechende Rückgabemenge erzeugt wird
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue condition = 10002;</code>
+         * <code>.dstore.values.StringValue condition = 10002;</code>
          */
         public Builder mergeCondition(io.dstore.values.StringValue value) {
           if (conditionBuilder_ == null) {
@@ -2224,7 +2224,7 @@ public final class DoGetProcResultConditionsAd {
          * Bedingung, die der Parameter "ParameterName" der Prozedur "ProcedureName" beim Aufruf erfüllen muß, damit eine entsprechende Rückgabemenge erzeugt wird
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue condition = 10002;</code>
+         * <code>.dstore.values.StringValue condition = 10002;</code>
          */
         public Builder clearCondition() {
           if (conditionBuilder_ == null) {
@@ -2242,7 +2242,7 @@ public final class DoGetProcResultConditionsAd {
          * Bedingung, die der Parameter "ParameterName" der Prozedur "ProcedureName" beim Aufruf erfüllen muß, damit eine entsprechende Rückgabemenge erzeugt wird
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue condition = 10002;</code>
+         * <code>.dstore.values.StringValue condition = 10002;</code>
          */
         public io.dstore.values.StringValue.Builder getConditionBuilder() {
           
@@ -2254,7 +2254,7 @@ public final class DoGetProcResultConditionsAd {
          * Bedingung, die der Parameter "ParameterName" der Prozedur "ProcedureName" beim Aufruf erfüllen muß, damit eine entsprechende Rückgabemenge erzeugt wird
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue condition = 10002;</code>
+         * <code>.dstore.values.StringValue condition = 10002;</code>
          */
         public io.dstore.values.StringValueOrBuilder getConditionOrBuilder() {
           if (conditionBuilder_ != null) {
@@ -2269,7 +2269,7 @@ public final class DoGetProcResultConditionsAd {
          * Bedingung, die der Parameter "ParameterName" der Prozedur "ProcedureName" beim Aufruf erfüllen muß, damit eine entsprechende Rückgabemenge erzeugt wird
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue condition = 10002;</code>
+         * <code>.dstore.values.StringValue condition = 10002;</code>
          */
         private com.google.protobuf.SingleFieldBuilderV3<
             io.dstore.values.StringValue, io.dstore.values.StringValue.Builder, io.dstore.values.StringValueOrBuilder> 
@@ -2293,7 +2293,7 @@ public final class DoGetProcResultConditionsAd {
          * ID einer Bedingung, zu der "ProcedureName" eine Rückgabemenge liefert bzw. (wenn "ProcedureName = NULL") eine Prozedur eine Rückgabemenge liefern kann
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue procedure_result_condition_id = 10003;</code>
+         * <code>.dstore.values.IntegerValue procedure_result_condition_id = 10003;</code>
          */
         public boolean hasProcedureResultConditionId() {
           return procedureResultConditionIdBuilder_ != null || procedureResultConditionId_ != null;
@@ -2303,7 +2303,7 @@ public final class DoGetProcResultConditionsAd {
          * ID einer Bedingung, zu der "ProcedureName" eine Rückgabemenge liefert bzw. (wenn "ProcedureName = NULL") eine Prozedur eine Rückgabemenge liefern kann
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue procedure_result_condition_id = 10003;</code>
+         * <code>.dstore.values.IntegerValue procedure_result_condition_id = 10003;</code>
          */
         public io.dstore.values.IntegerValue getProcedureResultConditionId() {
           if (procedureResultConditionIdBuilder_ == null) {
@@ -2317,7 +2317,7 @@ public final class DoGetProcResultConditionsAd {
          * ID einer Bedingung, zu der "ProcedureName" eine Rückgabemenge liefert bzw. (wenn "ProcedureName = NULL") eine Prozedur eine Rückgabemenge liefern kann
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue procedure_result_condition_id = 10003;</code>
+         * <code>.dstore.values.IntegerValue procedure_result_condition_id = 10003;</code>
          */
         public Builder setProcedureResultConditionId(io.dstore.values.IntegerValue value) {
           if (procedureResultConditionIdBuilder_ == null) {
@@ -2337,7 +2337,7 @@ public final class DoGetProcResultConditionsAd {
          * ID einer Bedingung, zu der "ProcedureName" eine Rückgabemenge liefert bzw. (wenn "ProcedureName = NULL") eine Prozedur eine Rückgabemenge liefern kann
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue procedure_result_condition_id = 10003;</code>
+         * <code>.dstore.values.IntegerValue procedure_result_condition_id = 10003;</code>
          */
         public Builder setProcedureResultConditionId(
             io.dstore.values.IntegerValue.Builder builderForValue) {
@@ -2355,7 +2355,7 @@ public final class DoGetProcResultConditionsAd {
          * ID einer Bedingung, zu der "ProcedureName" eine Rückgabemenge liefert bzw. (wenn "ProcedureName = NULL") eine Prozedur eine Rückgabemenge liefern kann
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue procedure_result_condition_id = 10003;</code>
+         * <code>.dstore.values.IntegerValue procedure_result_condition_id = 10003;</code>
          */
         public Builder mergeProcedureResultConditionId(io.dstore.values.IntegerValue value) {
           if (procedureResultConditionIdBuilder_ == null) {
@@ -2377,7 +2377,7 @@ public final class DoGetProcResultConditionsAd {
          * ID einer Bedingung, zu der "ProcedureName" eine Rückgabemenge liefert bzw. (wenn "ProcedureName = NULL") eine Prozedur eine Rückgabemenge liefern kann
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue procedure_result_condition_id = 10003;</code>
+         * <code>.dstore.values.IntegerValue procedure_result_condition_id = 10003;</code>
          */
         public Builder clearProcedureResultConditionId() {
           if (procedureResultConditionIdBuilder_ == null) {
@@ -2395,7 +2395,7 @@ public final class DoGetProcResultConditionsAd {
          * ID einer Bedingung, zu der "ProcedureName" eine Rückgabemenge liefert bzw. (wenn "ProcedureName = NULL") eine Prozedur eine Rückgabemenge liefern kann
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue procedure_result_condition_id = 10003;</code>
+         * <code>.dstore.values.IntegerValue procedure_result_condition_id = 10003;</code>
          */
         public io.dstore.values.IntegerValue.Builder getProcedureResultConditionIdBuilder() {
           
@@ -2407,7 +2407,7 @@ public final class DoGetProcResultConditionsAd {
          * ID einer Bedingung, zu der "ProcedureName" eine Rückgabemenge liefert bzw. (wenn "ProcedureName = NULL") eine Prozedur eine Rückgabemenge liefern kann
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue procedure_result_condition_id = 10003;</code>
+         * <code>.dstore.values.IntegerValue procedure_result_condition_id = 10003;</code>
          */
         public io.dstore.values.IntegerValueOrBuilder getProcedureResultConditionIdOrBuilder() {
           if (procedureResultConditionIdBuilder_ != null) {
@@ -2422,7 +2422,7 @@ public final class DoGetProcResultConditionsAd {
          * ID einer Bedingung, zu der "ProcedureName" eine Rückgabemenge liefert bzw. (wenn "ProcedureName = NULL") eine Prozedur eine Rückgabemenge liefern kann
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue procedure_result_condition_id = 10003;</code>
+         * <code>.dstore.values.IntegerValue procedure_result_condition_id = 10003;</code>
          */
         private com.google.protobuf.SingleFieldBuilderV3<
             io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> 
@@ -2446,7 +2446,7 @@ public final class DoGetProcResultConditionsAd {
          * Name d. Prozedur, die zur "ProcedureResultConditionID" eine Rückgabemenge liefert oder liefern kann - denn es werden auch Bedingungen beachtet, zu denen (noch) für keine Prozedur eine Rückgabemenge dokum. ist. Identisch m. "&#64;ProcedureName" wenn angegeben.
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue procedure_name = 10004;</code>
+         * <code>.dstore.values.StringValue procedure_name = 10004;</code>
          */
         public boolean hasProcedureName() {
           return procedureNameBuilder_ != null || procedureName_ != null;
@@ -2456,7 +2456,7 @@ public final class DoGetProcResultConditionsAd {
          * Name d. Prozedur, die zur "ProcedureResultConditionID" eine Rückgabemenge liefert oder liefern kann - denn es werden auch Bedingungen beachtet, zu denen (noch) für keine Prozedur eine Rückgabemenge dokum. ist. Identisch m. "&#64;ProcedureName" wenn angegeben.
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue procedure_name = 10004;</code>
+         * <code>.dstore.values.StringValue procedure_name = 10004;</code>
          */
         public io.dstore.values.StringValue getProcedureName() {
           if (procedureNameBuilder_ == null) {
@@ -2470,7 +2470,7 @@ public final class DoGetProcResultConditionsAd {
          * Name d. Prozedur, die zur "ProcedureResultConditionID" eine Rückgabemenge liefert oder liefern kann - denn es werden auch Bedingungen beachtet, zu denen (noch) für keine Prozedur eine Rückgabemenge dokum. ist. Identisch m. "&#64;ProcedureName" wenn angegeben.
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue procedure_name = 10004;</code>
+         * <code>.dstore.values.StringValue procedure_name = 10004;</code>
          */
         public Builder setProcedureName(io.dstore.values.StringValue value) {
           if (procedureNameBuilder_ == null) {
@@ -2490,7 +2490,7 @@ public final class DoGetProcResultConditionsAd {
          * Name d. Prozedur, die zur "ProcedureResultConditionID" eine Rückgabemenge liefert oder liefern kann - denn es werden auch Bedingungen beachtet, zu denen (noch) für keine Prozedur eine Rückgabemenge dokum. ist. Identisch m. "&#64;ProcedureName" wenn angegeben.
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue procedure_name = 10004;</code>
+         * <code>.dstore.values.StringValue procedure_name = 10004;</code>
          */
         public Builder setProcedureName(
             io.dstore.values.StringValue.Builder builderForValue) {
@@ -2508,7 +2508,7 @@ public final class DoGetProcResultConditionsAd {
          * Name d. Prozedur, die zur "ProcedureResultConditionID" eine Rückgabemenge liefert oder liefern kann - denn es werden auch Bedingungen beachtet, zu denen (noch) für keine Prozedur eine Rückgabemenge dokum. ist. Identisch m. "&#64;ProcedureName" wenn angegeben.
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue procedure_name = 10004;</code>
+         * <code>.dstore.values.StringValue procedure_name = 10004;</code>
          */
         public Builder mergeProcedureName(io.dstore.values.StringValue value) {
           if (procedureNameBuilder_ == null) {
@@ -2530,7 +2530,7 @@ public final class DoGetProcResultConditionsAd {
          * Name d. Prozedur, die zur "ProcedureResultConditionID" eine Rückgabemenge liefert oder liefern kann - denn es werden auch Bedingungen beachtet, zu denen (noch) für keine Prozedur eine Rückgabemenge dokum. ist. Identisch m. "&#64;ProcedureName" wenn angegeben.
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue procedure_name = 10004;</code>
+         * <code>.dstore.values.StringValue procedure_name = 10004;</code>
          */
         public Builder clearProcedureName() {
           if (procedureNameBuilder_ == null) {
@@ -2548,7 +2548,7 @@ public final class DoGetProcResultConditionsAd {
          * Name d. Prozedur, die zur "ProcedureResultConditionID" eine Rückgabemenge liefert oder liefern kann - denn es werden auch Bedingungen beachtet, zu denen (noch) für keine Prozedur eine Rückgabemenge dokum. ist. Identisch m. "&#64;ProcedureName" wenn angegeben.
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue procedure_name = 10004;</code>
+         * <code>.dstore.values.StringValue procedure_name = 10004;</code>
          */
         public io.dstore.values.StringValue.Builder getProcedureNameBuilder() {
           
@@ -2560,7 +2560,7 @@ public final class DoGetProcResultConditionsAd {
          * Name d. Prozedur, die zur "ProcedureResultConditionID" eine Rückgabemenge liefert oder liefern kann - denn es werden auch Bedingungen beachtet, zu denen (noch) für keine Prozedur eine Rückgabemenge dokum. ist. Identisch m. "&#64;ProcedureName" wenn angegeben.
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue procedure_name = 10004;</code>
+         * <code>.dstore.values.StringValue procedure_name = 10004;</code>
          */
         public io.dstore.values.StringValueOrBuilder getProcedureNameOrBuilder() {
           if (procedureNameBuilder_ != null) {
@@ -2575,7 +2575,7 @@ public final class DoGetProcResultConditionsAd {
          * Name d. Prozedur, die zur "ProcedureResultConditionID" eine Rückgabemenge liefert oder liefern kann - denn es werden auch Bedingungen beachtet, zu denen (noch) für keine Prozedur eine Rückgabemenge dokum. ist. Identisch m. "&#64;ProcedureName" wenn angegeben.
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue procedure_name = 10004;</code>
+         * <code>.dstore.values.StringValue procedure_name = 10004;</code>
          */
         private com.google.protobuf.SingleFieldBuilderV3<
             io.dstore.values.StringValue, io.dstore.values.StringValue.Builder, io.dstore.values.StringValueOrBuilder> 
@@ -2599,7 +2599,7 @@ public final class DoGetProcResultConditionsAd {
          * Name eines Parameters der Prozedur "ProcedureName", dessen Wert beim Aufruf der Prozedur die Bedingung "Condition" erfüllen muß, um eine entsprechende Rückgabemenge zu liefern
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue parameter_name = 10005;</code>
+         * <code>.dstore.values.StringValue parameter_name = 10005;</code>
          */
         public boolean hasParameterName() {
           return parameterNameBuilder_ != null || parameterName_ != null;
@@ -2609,7 +2609,7 @@ public final class DoGetProcResultConditionsAd {
          * Name eines Parameters der Prozedur "ProcedureName", dessen Wert beim Aufruf der Prozedur die Bedingung "Condition" erfüllen muß, um eine entsprechende Rückgabemenge zu liefern
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue parameter_name = 10005;</code>
+         * <code>.dstore.values.StringValue parameter_name = 10005;</code>
          */
         public io.dstore.values.StringValue getParameterName() {
           if (parameterNameBuilder_ == null) {
@@ -2623,7 +2623,7 @@ public final class DoGetProcResultConditionsAd {
          * Name eines Parameters der Prozedur "ProcedureName", dessen Wert beim Aufruf der Prozedur die Bedingung "Condition" erfüllen muß, um eine entsprechende Rückgabemenge zu liefern
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue parameter_name = 10005;</code>
+         * <code>.dstore.values.StringValue parameter_name = 10005;</code>
          */
         public Builder setParameterName(io.dstore.values.StringValue value) {
           if (parameterNameBuilder_ == null) {
@@ -2643,7 +2643,7 @@ public final class DoGetProcResultConditionsAd {
          * Name eines Parameters der Prozedur "ProcedureName", dessen Wert beim Aufruf der Prozedur die Bedingung "Condition" erfüllen muß, um eine entsprechende Rückgabemenge zu liefern
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue parameter_name = 10005;</code>
+         * <code>.dstore.values.StringValue parameter_name = 10005;</code>
          */
         public Builder setParameterName(
             io.dstore.values.StringValue.Builder builderForValue) {
@@ -2661,7 +2661,7 @@ public final class DoGetProcResultConditionsAd {
          * Name eines Parameters der Prozedur "ProcedureName", dessen Wert beim Aufruf der Prozedur die Bedingung "Condition" erfüllen muß, um eine entsprechende Rückgabemenge zu liefern
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue parameter_name = 10005;</code>
+         * <code>.dstore.values.StringValue parameter_name = 10005;</code>
          */
         public Builder mergeParameterName(io.dstore.values.StringValue value) {
           if (parameterNameBuilder_ == null) {
@@ -2683,7 +2683,7 @@ public final class DoGetProcResultConditionsAd {
          * Name eines Parameters der Prozedur "ProcedureName", dessen Wert beim Aufruf der Prozedur die Bedingung "Condition" erfüllen muß, um eine entsprechende Rückgabemenge zu liefern
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue parameter_name = 10005;</code>
+         * <code>.dstore.values.StringValue parameter_name = 10005;</code>
          */
         public Builder clearParameterName() {
           if (parameterNameBuilder_ == null) {
@@ -2701,7 +2701,7 @@ public final class DoGetProcResultConditionsAd {
          * Name eines Parameters der Prozedur "ProcedureName", dessen Wert beim Aufruf der Prozedur die Bedingung "Condition" erfüllen muß, um eine entsprechende Rückgabemenge zu liefern
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue parameter_name = 10005;</code>
+         * <code>.dstore.values.StringValue parameter_name = 10005;</code>
          */
         public io.dstore.values.StringValue.Builder getParameterNameBuilder() {
           
@@ -2713,7 +2713,7 @@ public final class DoGetProcResultConditionsAd {
          * Name eines Parameters der Prozedur "ProcedureName", dessen Wert beim Aufruf der Prozedur die Bedingung "Condition" erfüllen muß, um eine entsprechende Rückgabemenge zu liefern
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue parameter_name = 10005;</code>
+         * <code>.dstore.values.StringValue parameter_name = 10005;</code>
          */
         public io.dstore.values.StringValueOrBuilder getParameterNameOrBuilder() {
           if (parameterNameBuilder_ != null) {
@@ -2728,7 +2728,7 @@ public final class DoGetProcResultConditionsAd {
          * Name eines Parameters der Prozedur "ProcedureName", dessen Wert beim Aufruf der Prozedur die Bedingung "Condition" erfüllen muß, um eine entsprechende Rückgabemenge zu liefern
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue parameter_name = 10005;</code>
+         * <code>.dstore.values.StringValue parameter_name = 10005;</code>
          */
         private com.google.protobuf.SingleFieldBuilderV3<
             io.dstore.values.StringValue, io.dstore.values.StringValue.Builder, io.dstore.values.StringValueOrBuilder> 
@@ -2988,7 +2988,7 @@ public final class DoGetProcResultConditionsAd {
         return memoizedHashCode;
       }
       int hash = 41;
-      hash = (19 * hash) + getDescriptorForType().hashCode();
+      hash = (19 * hash) + getDescriptor().hashCode();
       if (getMetaInformationCount() > 0) {
         hash = (37 * hash) + META_INFORMATION_FIELD_NUMBER;
         hash = (53 * hash) + getMetaInformationList().hashCode();

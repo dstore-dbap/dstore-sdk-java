@@ -19,128 +19,128 @@ public final class MiModifyTRITriggerAd {
       com.google.protobuf.MessageOrBuilder {
 
     /**
-     * <code>optional .dstore.values.IntegerValue trigger_id = 1;</code>
+     * <code>.dstore.values.IntegerValue trigger_id = 1;</code>
      */
     boolean hasTriggerId();
     /**
-     * <code>optional .dstore.values.IntegerValue trigger_id = 1;</code>
+     * <code>.dstore.values.IntegerValue trigger_id = 1;</code>
      */
     io.dstore.values.IntegerValue getTriggerId();
     /**
-     * <code>optional .dstore.values.IntegerValue trigger_id = 1;</code>
+     * <code>.dstore.values.IntegerValue trigger_id = 1;</code>
      */
     io.dstore.values.IntegerValueOrBuilder getTriggerIdOrBuilder();
 
     /**
-     * <code>optional bool trigger_id_null = 1001;</code>
+     * <code>bool trigger_id_null = 1001;</code>
      */
     boolean getTriggerIdNull();
 
     /**
-     * <code>optional .dstore.values.IntegerValue trigger_type_id = 2;</code>
+     * <code>.dstore.values.IntegerValue trigger_type_id = 2;</code>
      */
     boolean hasTriggerTypeId();
     /**
-     * <code>optional .dstore.values.IntegerValue trigger_type_id = 2;</code>
+     * <code>.dstore.values.IntegerValue trigger_type_id = 2;</code>
      */
     io.dstore.values.IntegerValue getTriggerTypeId();
     /**
-     * <code>optional .dstore.values.IntegerValue trigger_type_id = 2;</code>
+     * <code>.dstore.values.IntegerValue trigger_type_id = 2;</code>
      */
     io.dstore.values.IntegerValueOrBuilder getTriggerTypeIdOrBuilder();
 
     /**
-     * <code>optional bool trigger_type_id_null = 1002;</code>
+     * <code>bool trigger_type_id_null = 1002;</code>
      */
     boolean getTriggerTypeIdNull();
 
     /**
-     * <code>optional .dstore.values.StringValue trigger_name = 3;</code>
+     * <code>.dstore.values.StringValue trigger_name = 3;</code>
      */
     boolean hasTriggerName();
     /**
-     * <code>optional .dstore.values.StringValue trigger_name = 3;</code>
+     * <code>.dstore.values.StringValue trigger_name = 3;</code>
      */
     io.dstore.values.StringValue getTriggerName();
     /**
-     * <code>optional .dstore.values.StringValue trigger_name = 3;</code>
+     * <code>.dstore.values.StringValue trigger_name = 3;</code>
      */
     io.dstore.values.StringValueOrBuilder getTriggerNameOrBuilder();
 
     /**
-     * <code>optional bool trigger_name_null = 1003;</code>
+     * <code>bool trigger_name_null = 1003;</code>
      */
     boolean getTriggerNameNull();
 
     /**
-     * <code>optional .dstore.values.StringValue trigger_description = 4;</code>
+     * <code>.dstore.values.StringValue trigger_description = 4;</code>
      */
     boolean hasTriggerDescription();
     /**
-     * <code>optional .dstore.values.StringValue trigger_description = 4;</code>
+     * <code>.dstore.values.StringValue trigger_description = 4;</code>
      */
     io.dstore.values.StringValue getTriggerDescription();
     /**
-     * <code>optional .dstore.values.StringValue trigger_description = 4;</code>
+     * <code>.dstore.values.StringValue trigger_description = 4;</code>
      */
     io.dstore.values.StringValueOrBuilder getTriggerDescriptionOrBuilder();
 
     /**
-     * <code>optional bool trigger_description_null = 1004;</code>
+     * <code>bool trigger_description_null = 1004;</code>
      */
     boolean getTriggerDescriptionNull();
 
     /**
-     * <code>optional .dstore.values.StringValue execute_procedure_name = 5;</code>
+     * <code>.dstore.values.StringValue execute_procedure_name = 5;</code>
      */
     boolean hasExecuteProcedureName();
     /**
-     * <code>optional .dstore.values.StringValue execute_procedure_name = 5;</code>
+     * <code>.dstore.values.StringValue execute_procedure_name = 5;</code>
      */
     io.dstore.values.StringValue getExecuteProcedureName();
     /**
-     * <code>optional .dstore.values.StringValue execute_procedure_name = 5;</code>
+     * <code>.dstore.values.StringValue execute_procedure_name = 5;</code>
      */
     io.dstore.values.StringValueOrBuilder getExecuteProcedureNameOrBuilder();
 
     /**
-     * <code>optional bool execute_procedure_name_null = 1005;</code>
+     * <code>bool execute_procedure_name_null = 1005;</code>
      */
     boolean getExecuteProcedureNameNull();
 
     /**
-     * <code>optional .dstore.values.BooleanValue delete_trigger = 6;</code>
+     * <code>.dstore.values.BooleanValue delete_trigger = 6;</code>
      */
     boolean hasDeleteTrigger();
     /**
-     * <code>optional .dstore.values.BooleanValue delete_trigger = 6;</code>
+     * <code>.dstore.values.BooleanValue delete_trigger = 6;</code>
      */
     io.dstore.values.BooleanValue getDeleteTrigger();
     /**
-     * <code>optional .dstore.values.BooleanValue delete_trigger = 6;</code>
+     * <code>.dstore.values.BooleanValue delete_trigger = 6;</code>
      */
     io.dstore.values.BooleanValueOrBuilder getDeleteTriggerOrBuilder();
 
     /**
-     * <code>optional bool delete_trigger_null = 1006;</code>
+     * <code>bool delete_trigger_null = 1006;</code>
      */
     boolean getDeleteTriggerNull();
 
     /**
-     * <code>optional .dstore.values.StringValue t_r_i_trigger_definition = 7;</code>
+     * <code>.dstore.values.StringValue t_r_i_trigger_definition = 7;</code>
      */
     boolean hasTRITriggerDefinition();
     /**
-     * <code>optional .dstore.values.StringValue t_r_i_trigger_definition = 7;</code>
+     * <code>.dstore.values.StringValue t_r_i_trigger_definition = 7;</code>
      */
     io.dstore.values.StringValue getTRITriggerDefinition();
     /**
-     * <code>optional .dstore.values.StringValue t_r_i_trigger_definition = 7;</code>
+     * <code>.dstore.values.StringValue t_r_i_trigger_definition = 7;</code>
      */
     io.dstore.values.StringValueOrBuilder getTRITriggerDefinitionOrBuilder();
 
     /**
-     * <code>optional bool t_r_i_trigger_definition_null = 1007;</code>
+     * <code>bool t_r_i_trigger_definition_null = 1007;</code>
      */
     boolean getTRITriggerDefinitionNull();
   }
@@ -342,19 +342,19 @@ public final class MiModifyTRITriggerAd {
     public static final int TRIGGER_ID_FIELD_NUMBER = 1;
     private io.dstore.values.IntegerValue triggerId_;
     /**
-     * <code>optional .dstore.values.IntegerValue trigger_id = 1;</code>
+     * <code>.dstore.values.IntegerValue trigger_id = 1;</code>
      */
     public boolean hasTriggerId() {
       return triggerId_ != null;
     }
     /**
-     * <code>optional .dstore.values.IntegerValue trigger_id = 1;</code>
+     * <code>.dstore.values.IntegerValue trigger_id = 1;</code>
      */
     public io.dstore.values.IntegerValue getTriggerId() {
       return triggerId_ == null ? io.dstore.values.IntegerValue.getDefaultInstance() : triggerId_;
     }
     /**
-     * <code>optional .dstore.values.IntegerValue trigger_id = 1;</code>
+     * <code>.dstore.values.IntegerValue trigger_id = 1;</code>
      */
     public io.dstore.values.IntegerValueOrBuilder getTriggerIdOrBuilder() {
       return getTriggerId();
@@ -363,7 +363,7 @@ public final class MiModifyTRITriggerAd {
     public static final int TRIGGER_ID_NULL_FIELD_NUMBER = 1001;
     private boolean triggerIdNull_;
     /**
-     * <code>optional bool trigger_id_null = 1001;</code>
+     * <code>bool trigger_id_null = 1001;</code>
      */
     public boolean getTriggerIdNull() {
       return triggerIdNull_;
@@ -372,19 +372,19 @@ public final class MiModifyTRITriggerAd {
     public static final int TRIGGER_TYPE_ID_FIELD_NUMBER = 2;
     private io.dstore.values.IntegerValue triggerTypeId_;
     /**
-     * <code>optional .dstore.values.IntegerValue trigger_type_id = 2;</code>
+     * <code>.dstore.values.IntegerValue trigger_type_id = 2;</code>
      */
     public boolean hasTriggerTypeId() {
       return triggerTypeId_ != null;
     }
     /**
-     * <code>optional .dstore.values.IntegerValue trigger_type_id = 2;</code>
+     * <code>.dstore.values.IntegerValue trigger_type_id = 2;</code>
      */
     public io.dstore.values.IntegerValue getTriggerTypeId() {
       return triggerTypeId_ == null ? io.dstore.values.IntegerValue.getDefaultInstance() : triggerTypeId_;
     }
     /**
-     * <code>optional .dstore.values.IntegerValue trigger_type_id = 2;</code>
+     * <code>.dstore.values.IntegerValue trigger_type_id = 2;</code>
      */
     public io.dstore.values.IntegerValueOrBuilder getTriggerTypeIdOrBuilder() {
       return getTriggerTypeId();
@@ -393,7 +393,7 @@ public final class MiModifyTRITriggerAd {
     public static final int TRIGGER_TYPE_ID_NULL_FIELD_NUMBER = 1002;
     private boolean triggerTypeIdNull_;
     /**
-     * <code>optional bool trigger_type_id_null = 1002;</code>
+     * <code>bool trigger_type_id_null = 1002;</code>
      */
     public boolean getTriggerTypeIdNull() {
       return triggerTypeIdNull_;
@@ -402,19 +402,19 @@ public final class MiModifyTRITriggerAd {
     public static final int TRIGGER_NAME_FIELD_NUMBER = 3;
     private io.dstore.values.StringValue triggerName_;
     /**
-     * <code>optional .dstore.values.StringValue trigger_name = 3;</code>
+     * <code>.dstore.values.StringValue trigger_name = 3;</code>
      */
     public boolean hasTriggerName() {
       return triggerName_ != null;
     }
     /**
-     * <code>optional .dstore.values.StringValue trigger_name = 3;</code>
+     * <code>.dstore.values.StringValue trigger_name = 3;</code>
      */
     public io.dstore.values.StringValue getTriggerName() {
       return triggerName_ == null ? io.dstore.values.StringValue.getDefaultInstance() : triggerName_;
     }
     /**
-     * <code>optional .dstore.values.StringValue trigger_name = 3;</code>
+     * <code>.dstore.values.StringValue trigger_name = 3;</code>
      */
     public io.dstore.values.StringValueOrBuilder getTriggerNameOrBuilder() {
       return getTriggerName();
@@ -423,7 +423,7 @@ public final class MiModifyTRITriggerAd {
     public static final int TRIGGER_NAME_NULL_FIELD_NUMBER = 1003;
     private boolean triggerNameNull_;
     /**
-     * <code>optional bool trigger_name_null = 1003;</code>
+     * <code>bool trigger_name_null = 1003;</code>
      */
     public boolean getTriggerNameNull() {
       return triggerNameNull_;
@@ -432,19 +432,19 @@ public final class MiModifyTRITriggerAd {
     public static final int TRIGGER_DESCRIPTION_FIELD_NUMBER = 4;
     private io.dstore.values.StringValue triggerDescription_;
     /**
-     * <code>optional .dstore.values.StringValue trigger_description = 4;</code>
+     * <code>.dstore.values.StringValue trigger_description = 4;</code>
      */
     public boolean hasTriggerDescription() {
       return triggerDescription_ != null;
     }
     /**
-     * <code>optional .dstore.values.StringValue trigger_description = 4;</code>
+     * <code>.dstore.values.StringValue trigger_description = 4;</code>
      */
     public io.dstore.values.StringValue getTriggerDescription() {
       return triggerDescription_ == null ? io.dstore.values.StringValue.getDefaultInstance() : triggerDescription_;
     }
     /**
-     * <code>optional .dstore.values.StringValue trigger_description = 4;</code>
+     * <code>.dstore.values.StringValue trigger_description = 4;</code>
      */
     public io.dstore.values.StringValueOrBuilder getTriggerDescriptionOrBuilder() {
       return getTriggerDescription();
@@ -453,7 +453,7 @@ public final class MiModifyTRITriggerAd {
     public static final int TRIGGER_DESCRIPTION_NULL_FIELD_NUMBER = 1004;
     private boolean triggerDescriptionNull_;
     /**
-     * <code>optional bool trigger_description_null = 1004;</code>
+     * <code>bool trigger_description_null = 1004;</code>
      */
     public boolean getTriggerDescriptionNull() {
       return triggerDescriptionNull_;
@@ -462,19 +462,19 @@ public final class MiModifyTRITriggerAd {
     public static final int EXECUTE_PROCEDURE_NAME_FIELD_NUMBER = 5;
     private io.dstore.values.StringValue executeProcedureName_;
     /**
-     * <code>optional .dstore.values.StringValue execute_procedure_name = 5;</code>
+     * <code>.dstore.values.StringValue execute_procedure_name = 5;</code>
      */
     public boolean hasExecuteProcedureName() {
       return executeProcedureName_ != null;
     }
     /**
-     * <code>optional .dstore.values.StringValue execute_procedure_name = 5;</code>
+     * <code>.dstore.values.StringValue execute_procedure_name = 5;</code>
      */
     public io.dstore.values.StringValue getExecuteProcedureName() {
       return executeProcedureName_ == null ? io.dstore.values.StringValue.getDefaultInstance() : executeProcedureName_;
     }
     /**
-     * <code>optional .dstore.values.StringValue execute_procedure_name = 5;</code>
+     * <code>.dstore.values.StringValue execute_procedure_name = 5;</code>
      */
     public io.dstore.values.StringValueOrBuilder getExecuteProcedureNameOrBuilder() {
       return getExecuteProcedureName();
@@ -483,7 +483,7 @@ public final class MiModifyTRITriggerAd {
     public static final int EXECUTE_PROCEDURE_NAME_NULL_FIELD_NUMBER = 1005;
     private boolean executeProcedureNameNull_;
     /**
-     * <code>optional bool execute_procedure_name_null = 1005;</code>
+     * <code>bool execute_procedure_name_null = 1005;</code>
      */
     public boolean getExecuteProcedureNameNull() {
       return executeProcedureNameNull_;
@@ -492,19 +492,19 @@ public final class MiModifyTRITriggerAd {
     public static final int DELETE_TRIGGER_FIELD_NUMBER = 6;
     private io.dstore.values.BooleanValue deleteTrigger_;
     /**
-     * <code>optional .dstore.values.BooleanValue delete_trigger = 6;</code>
+     * <code>.dstore.values.BooleanValue delete_trigger = 6;</code>
      */
     public boolean hasDeleteTrigger() {
       return deleteTrigger_ != null;
     }
     /**
-     * <code>optional .dstore.values.BooleanValue delete_trigger = 6;</code>
+     * <code>.dstore.values.BooleanValue delete_trigger = 6;</code>
      */
     public io.dstore.values.BooleanValue getDeleteTrigger() {
       return deleteTrigger_ == null ? io.dstore.values.BooleanValue.getDefaultInstance() : deleteTrigger_;
     }
     /**
-     * <code>optional .dstore.values.BooleanValue delete_trigger = 6;</code>
+     * <code>.dstore.values.BooleanValue delete_trigger = 6;</code>
      */
     public io.dstore.values.BooleanValueOrBuilder getDeleteTriggerOrBuilder() {
       return getDeleteTrigger();
@@ -513,7 +513,7 @@ public final class MiModifyTRITriggerAd {
     public static final int DELETE_TRIGGER_NULL_FIELD_NUMBER = 1006;
     private boolean deleteTriggerNull_;
     /**
-     * <code>optional bool delete_trigger_null = 1006;</code>
+     * <code>bool delete_trigger_null = 1006;</code>
      */
     public boolean getDeleteTriggerNull() {
       return deleteTriggerNull_;
@@ -522,19 +522,19 @@ public final class MiModifyTRITriggerAd {
     public static final int T_R_I_TRIGGER_DEFINITION_FIELD_NUMBER = 7;
     private io.dstore.values.StringValue tRITriggerDefinition_;
     /**
-     * <code>optional .dstore.values.StringValue t_r_i_trigger_definition = 7;</code>
+     * <code>.dstore.values.StringValue t_r_i_trigger_definition = 7;</code>
      */
     public boolean hasTRITriggerDefinition() {
       return tRITriggerDefinition_ != null;
     }
     /**
-     * <code>optional .dstore.values.StringValue t_r_i_trigger_definition = 7;</code>
+     * <code>.dstore.values.StringValue t_r_i_trigger_definition = 7;</code>
      */
     public io.dstore.values.StringValue getTRITriggerDefinition() {
       return tRITriggerDefinition_ == null ? io.dstore.values.StringValue.getDefaultInstance() : tRITriggerDefinition_;
     }
     /**
-     * <code>optional .dstore.values.StringValue t_r_i_trigger_definition = 7;</code>
+     * <code>.dstore.values.StringValue t_r_i_trigger_definition = 7;</code>
      */
     public io.dstore.values.StringValueOrBuilder getTRITriggerDefinitionOrBuilder() {
       return getTRITriggerDefinition();
@@ -543,7 +543,7 @@ public final class MiModifyTRITriggerAd {
     public static final int T_R_I_TRIGGER_DEFINITION_NULL_FIELD_NUMBER = 1007;
     private boolean tRITriggerDefinitionNull_;
     /**
-     * <code>optional bool t_r_i_trigger_definition_null = 1007;</code>
+     * <code>bool t_r_i_trigger_definition_null = 1007;</code>
      */
     public boolean getTRITriggerDefinitionNull() {
       return tRITriggerDefinitionNull_;
@@ -740,7 +740,7 @@ public final class MiModifyTRITriggerAd {
         return memoizedHashCode;
       }
       int hash = 41;
-      hash = (19 * hash) + getDescriptorForType().hashCode();
+      hash = (19 * hash) + getDescriptor().hashCode();
       if (hasTriggerId()) {
         hash = (37 * hash) + TRIGGER_ID_FIELD_NUMBER;
         hash = (53 * hash) + getTriggerId().hashCode();
@@ -1141,13 +1141,13 @@ public final class MiModifyTRITriggerAd {
       private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> triggerIdBuilder_;
       /**
-       * <code>optional .dstore.values.IntegerValue trigger_id = 1;</code>
+       * <code>.dstore.values.IntegerValue trigger_id = 1;</code>
        */
       public boolean hasTriggerId() {
         return triggerIdBuilder_ != null || triggerId_ != null;
       }
       /**
-       * <code>optional .dstore.values.IntegerValue trigger_id = 1;</code>
+       * <code>.dstore.values.IntegerValue trigger_id = 1;</code>
        */
       public io.dstore.values.IntegerValue getTriggerId() {
         if (triggerIdBuilder_ == null) {
@@ -1157,7 +1157,7 @@ public final class MiModifyTRITriggerAd {
         }
       }
       /**
-       * <code>optional .dstore.values.IntegerValue trigger_id = 1;</code>
+       * <code>.dstore.values.IntegerValue trigger_id = 1;</code>
        */
       public Builder setTriggerId(io.dstore.values.IntegerValue value) {
         if (triggerIdBuilder_ == null) {
@@ -1173,7 +1173,7 @@ public final class MiModifyTRITriggerAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.IntegerValue trigger_id = 1;</code>
+       * <code>.dstore.values.IntegerValue trigger_id = 1;</code>
        */
       public Builder setTriggerId(
           io.dstore.values.IntegerValue.Builder builderForValue) {
@@ -1187,7 +1187,7 @@ public final class MiModifyTRITriggerAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.IntegerValue trigger_id = 1;</code>
+       * <code>.dstore.values.IntegerValue trigger_id = 1;</code>
        */
       public Builder mergeTriggerId(io.dstore.values.IntegerValue value) {
         if (triggerIdBuilder_ == null) {
@@ -1205,7 +1205,7 @@ public final class MiModifyTRITriggerAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.IntegerValue trigger_id = 1;</code>
+       * <code>.dstore.values.IntegerValue trigger_id = 1;</code>
        */
       public Builder clearTriggerId() {
         if (triggerIdBuilder_ == null) {
@@ -1219,7 +1219,7 @@ public final class MiModifyTRITriggerAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.IntegerValue trigger_id = 1;</code>
+       * <code>.dstore.values.IntegerValue trigger_id = 1;</code>
        */
       public io.dstore.values.IntegerValue.Builder getTriggerIdBuilder() {
         
@@ -1227,7 +1227,7 @@ public final class MiModifyTRITriggerAd {
         return getTriggerIdFieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .dstore.values.IntegerValue trigger_id = 1;</code>
+       * <code>.dstore.values.IntegerValue trigger_id = 1;</code>
        */
       public io.dstore.values.IntegerValueOrBuilder getTriggerIdOrBuilder() {
         if (triggerIdBuilder_ != null) {
@@ -1238,7 +1238,7 @@ public final class MiModifyTRITriggerAd {
         }
       }
       /**
-       * <code>optional .dstore.values.IntegerValue trigger_id = 1;</code>
+       * <code>.dstore.values.IntegerValue trigger_id = 1;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> 
@@ -1256,13 +1256,13 @@ public final class MiModifyTRITriggerAd {
 
       private boolean triggerIdNull_ ;
       /**
-       * <code>optional bool trigger_id_null = 1001;</code>
+       * <code>bool trigger_id_null = 1001;</code>
        */
       public boolean getTriggerIdNull() {
         return triggerIdNull_;
       }
       /**
-       * <code>optional bool trigger_id_null = 1001;</code>
+       * <code>bool trigger_id_null = 1001;</code>
        */
       public Builder setTriggerIdNull(boolean value) {
         
@@ -1271,7 +1271,7 @@ public final class MiModifyTRITriggerAd {
         return this;
       }
       /**
-       * <code>optional bool trigger_id_null = 1001;</code>
+       * <code>bool trigger_id_null = 1001;</code>
        */
       public Builder clearTriggerIdNull() {
         
@@ -1284,13 +1284,13 @@ public final class MiModifyTRITriggerAd {
       private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> triggerTypeIdBuilder_;
       /**
-       * <code>optional .dstore.values.IntegerValue trigger_type_id = 2;</code>
+       * <code>.dstore.values.IntegerValue trigger_type_id = 2;</code>
        */
       public boolean hasTriggerTypeId() {
         return triggerTypeIdBuilder_ != null || triggerTypeId_ != null;
       }
       /**
-       * <code>optional .dstore.values.IntegerValue trigger_type_id = 2;</code>
+       * <code>.dstore.values.IntegerValue trigger_type_id = 2;</code>
        */
       public io.dstore.values.IntegerValue getTriggerTypeId() {
         if (triggerTypeIdBuilder_ == null) {
@@ -1300,7 +1300,7 @@ public final class MiModifyTRITriggerAd {
         }
       }
       /**
-       * <code>optional .dstore.values.IntegerValue trigger_type_id = 2;</code>
+       * <code>.dstore.values.IntegerValue trigger_type_id = 2;</code>
        */
       public Builder setTriggerTypeId(io.dstore.values.IntegerValue value) {
         if (triggerTypeIdBuilder_ == null) {
@@ -1316,7 +1316,7 @@ public final class MiModifyTRITriggerAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.IntegerValue trigger_type_id = 2;</code>
+       * <code>.dstore.values.IntegerValue trigger_type_id = 2;</code>
        */
       public Builder setTriggerTypeId(
           io.dstore.values.IntegerValue.Builder builderForValue) {
@@ -1330,7 +1330,7 @@ public final class MiModifyTRITriggerAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.IntegerValue trigger_type_id = 2;</code>
+       * <code>.dstore.values.IntegerValue trigger_type_id = 2;</code>
        */
       public Builder mergeTriggerTypeId(io.dstore.values.IntegerValue value) {
         if (triggerTypeIdBuilder_ == null) {
@@ -1348,7 +1348,7 @@ public final class MiModifyTRITriggerAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.IntegerValue trigger_type_id = 2;</code>
+       * <code>.dstore.values.IntegerValue trigger_type_id = 2;</code>
        */
       public Builder clearTriggerTypeId() {
         if (triggerTypeIdBuilder_ == null) {
@@ -1362,7 +1362,7 @@ public final class MiModifyTRITriggerAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.IntegerValue trigger_type_id = 2;</code>
+       * <code>.dstore.values.IntegerValue trigger_type_id = 2;</code>
        */
       public io.dstore.values.IntegerValue.Builder getTriggerTypeIdBuilder() {
         
@@ -1370,7 +1370,7 @@ public final class MiModifyTRITriggerAd {
         return getTriggerTypeIdFieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .dstore.values.IntegerValue trigger_type_id = 2;</code>
+       * <code>.dstore.values.IntegerValue trigger_type_id = 2;</code>
        */
       public io.dstore.values.IntegerValueOrBuilder getTriggerTypeIdOrBuilder() {
         if (triggerTypeIdBuilder_ != null) {
@@ -1381,7 +1381,7 @@ public final class MiModifyTRITriggerAd {
         }
       }
       /**
-       * <code>optional .dstore.values.IntegerValue trigger_type_id = 2;</code>
+       * <code>.dstore.values.IntegerValue trigger_type_id = 2;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> 
@@ -1399,13 +1399,13 @@ public final class MiModifyTRITriggerAd {
 
       private boolean triggerTypeIdNull_ ;
       /**
-       * <code>optional bool trigger_type_id_null = 1002;</code>
+       * <code>bool trigger_type_id_null = 1002;</code>
        */
       public boolean getTriggerTypeIdNull() {
         return triggerTypeIdNull_;
       }
       /**
-       * <code>optional bool trigger_type_id_null = 1002;</code>
+       * <code>bool trigger_type_id_null = 1002;</code>
        */
       public Builder setTriggerTypeIdNull(boolean value) {
         
@@ -1414,7 +1414,7 @@ public final class MiModifyTRITriggerAd {
         return this;
       }
       /**
-       * <code>optional bool trigger_type_id_null = 1002;</code>
+       * <code>bool trigger_type_id_null = 1002;</code>
        */
       public Builder clearTriggerTypeIdNull() {
         
@@ -1427,13 +1427,13 @@ public final class MiModifyTRITriggerAd {
       private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.values.StringValue, io.dstore.values.StringValue.Builder, io.dstore.values.StringValueOrBuilder> triggerNameBuilder_;
       /**
-       * <code>optional .dstore.values.StringValue trigger_name = 3;</code>
+       * <code>.dstore.values.StringValue trigger_name = 3;</code>
        */
       public boolean hasTriggerName() {
         return triggerNameBuilder_ != null || triggerName_ != null;
       }
       /**
-       * <code>optional .dstore.values.StringValue trigger_name = 3;</code>
+       * <code>.dstore.values.StringValue trigger_name = 3;</code>
        */
       public io.dstore.values.StringValue getTriggerName() {
         if (triggerNameBuilder_ == null) {
@@ -1443,7 +1443,7 @@ public final class MiModifyTRITriggerAd {
         }
       }
       /**
-       * <code>optional .dstore.values.StringValue trigger_name = 3;</code>
+       * <code>.dstore.values.StringValue trigger_name = 3;</code>
        */
       public Builder setTriggerName(io.dstore.values.StringValue value) {
         if (triggerNameBuilder_ == null) {
@@ -1459,7 +1459,7 @@ public final class MiModifyTRITriggerAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.StringValue trigger_name = 3;</code>
+       * <code>.dstore.values.StringValue trigger_name = 3;</code>
        */
       public Builder setTriggerName(
           io.dstore.values.StringValue.Builder builderForValue) {
@@ -1473,7 +1473,7 @@ public final class MiModifyTRITriggerAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.StringValue trigger_name = 3;</code>
+       * <code>.dstore.values.StringValue trigger_name = 3;</code>
        */
       public Builder mergeTriggerName(io.dstore.values.StringValue value) {
         if (triggerNameBuilder_ == null) {
@@ -1491,7 +1491,7 @@ public final class MiModifyTRITriggerAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.StringValue trigger_name = 3;</code>
+       * <code>.dstore.values.StringValue trigger_name = 3;</code>
        */
       public Builder clearTriggerName() {
         if (triggerNameBuilder_ == null) {
@@ -1505,7 +1505,7 @@ public final class MiModifyTRITriggerAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.StringValue trigger_name = 3;</code>
+       * <code>.dstore.values.StringValue trigger_name = 3;</code>
        */
       public io.dstore.values.StringValue.Builder getTriggerNameBuilder() {
         
@@ -1513,7 +1513,7 @@ public final class MiModifyTRITriggerAd {
         return getTriggerNameFieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .dstore.values.StringValue trigger_name = 3;</code>
+       * <code>.dstore.values.StringValue trigger_name = 3;</code>
        */
       public io.dstore.values.StringValueOrBuilder getTriggerNameOrBuilder() {
         if (triggerNameBuilder_ != null) {
@@ -1524,7 +1524,7 @@ public final class MiModifyTRITriggerAd {
         }
       }
       /**
-       * <code>optional .dstore.values.StringValue trigger_name = 3;</code>
+       * <code>.dstore.values.StringValue trigger_name = 3;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.values.StringValue, io.dstore.values.StringValue.Builder, io.dstore.values.StringValueOrBuilder> 
@@ -1542,13 +1542,13 @@ public final class MiModifyTRITriggerAd {
 
       private boolean triggerNameNull_ ;
       /**
-       * <code>optional bool trigger_name_null = 1003;</code>
+       * <code>bool trigger_name_null = 1003;</code>
        */
       public boolean getTriggerNameNull() {
         return triggerNameNull_;
       }
       /**
-       * <code>optional bool trigger_name_null = 1003;</code>
+       * <code>bool trigger_name_null = 1003;</code>
        */
       public Builder setTriggerNameNull(boolean value) {
         
@@ -1557,7 +1557,7 @@ public final class MiModifyTRITriggerAd {
         return this;
       }
       /**
-       * <code>optional bool trigger_name_null = 1003;</code>
+       * <code>bool trigger_name_null = 1003;</code>
        */
       public Builder clearTriggerNameNull() {
         
@@ -1570,13 +1570,13 @@ public final class MiModifyTRITriggerAd {
       private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.values.StringValue, io.dstore.values.StringValue.Builder, io.dstore.values.StringValueOrBuilder> triggerDescriptionBuilder_;
       /**
-       * <code>optional .dstore.values.StringValue trigger_description = 4;</code>
+       * <code>.dstore.values.StringValue trigger_description = 4;</code>
        */
       public boolean hasTriggerDescription() {
         return triggerDescriptionBuilder_ != null || triggerDescription_ != null;
       }
       /**
-       * <code>optional .dstore.values.StringValue trigger_description = 4;</code>
+       * <code>.dstore.values.StringValue trigger_description = 4;</code>
        */
       public io.dstore.values.StringValue getTriggerDescription() {
         if (triggerDescriptionBuilder_ == null) {
@@ -1586,7 +1586,7 @@ public final class MiModifyTRITriggerAd {
         }
       }
       /**
-       * <code>optional .dstore.values.StringValue trigger_description = 4;</code>
+       * <code>.dstore.values.StringValue trigger_description = 4;</code>
        */
       public Builder setTriggerDescription(io.dstore.values.StringValue value) {
         if (triggerDescriptionBuilder_ == null) {
@@ -1602,7 +1602,7 @@ public final class MiModifyTRITriggerAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.StringValue trigger_description = 4;</code>
+       * <code>.dstore.values.StringValue trigger_description = 4;</code>
        */
       public Builder setTriggerDescription(
           io.dstore.values.StringValue.Builder builderForValue) {
@@ -1616,7 +1616,7 @@ public final class MiModifyTRITriggerAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.StringValue trigger_description = 4;</code>
+       * <code>.dstore.values.StringValue trigger_description = 4;</code>
        */
       public Builder mergeTriggerDescription(io.dstore.values.StringValue value) {
         if (triggerDescriptionBuilder_ == null) {
@@ -1634,7 +1634,7 @@ public final class MiModifyTRITriggerAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.StringValue trigger_description = 4;</code>
+       * <code>.dstore.values.StringValue trigger_description = 4;</code>
        */
       public Builder clearTriggerDescription() {
         if (triggerDescriptionBuilder_ == null) {
@@ -1648,7 +1648,7 @@ public final class MiModifyTRITriggerAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.StringValue trigger_description = 4;</code>
+       * <code>.dstore.values.StringValue trigger_description = 4;</code>
        */
       public io.dstore.values.StringValue.Builder getTriggerDescriptionBuilder() {
         
@@ -1656,7 +1656,7 @@ public final class MiModifyTRITriggerAd {
         return getTriggerDescriptionFieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .dstore.values.StringValue trigger_description = 4;</code>
+       * <code>.dstore.values.StringValue trigger_description = 4;</code>
        */
       public io.dstore.values.StringValueOrBuilder getTriggerDescriptionOrBuilder() {
         if (triggerDescriptionBuilder_ != null) {
@@ -1667,7 +1667,7 @@ public final class MiModifyTRITriggerAd {
         }
       }
       /**
-       * <code>optional .dstore.values.StringValue trigger_description = 4;</code>
+       * <code>.dstore.values.StringValue trigger_description = 4;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.values.StringValue, io.dstore.values.StringValue.Builder, io.dstore.values.StringValueOrBuilder> 
@@ -1685,13 +1685,13 @@ public final class MiModifyTRITriggerAd {
 
       private boolean triggerDescriptionNull_ ;
       /**
-       * <code>optional bool trigger_description_null = 1004;</code>
+       * <code>bool trigger_description_null = 1004;</code>
        */
       public boolean getTriggerDescriptionNull() {
         return triggerDescriptionNull_;
       }
       /**
-       * <code>optional bool trigger_description_null = 1004;</code>
+       * <code>bool trigger_description_null = 1004;</code>
        */
       public Builder setTriggerDescriptionNull(boolean value) {
         
@@ -1700,7 +1700,7 @@ public final class MiModifyTRITriggerAd {
         return this;
       }
       /**
-       * <code>optional bool trigger_description_null = 1004;</code>
+       * <code>bool trigger_description_null = 1004;</code>
        */
       public Builder clearTriggerDescriptionNull() {
         
@@ -1713,13 +1713,13 @@ public final class MiModifyTRITriggerAd {
       private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.values.StringValue, io.dstore.values.StringValue.Builder, io.dstore.values.StringValueOrBuilder> executeProcedureNameBuilder_;
       /**
-       * <code>optional .dstore.values.StringValue execute_procedure_name = 5;</code>
+       * <code>.dstore.values.StringValue execute_procedure_name = 5;</code>
        */
       public boolean hasExecuteProcedureName() {
         return executeProcedureNameBuilder_ != null || executeProcedureName_ != null;
       }
       /**
-       * <code>optional .dstore.values.StringValue execute_procedure_name = 5;</code>
+       * <code>.dstore.values.StringValue execute_procedure_name = 5;</code>
        */
       public io.dstore.values.StringValue getExecuteProcedureName() {
         if (executeProcedureNameBuilder_ == null) {
@@ -1729,7 +1729,7 @@ public final class MiModifyTRITriggerAd {
         }
       }
       /**
-       * <code>optional .dstore.values.StringValue execute_procedure_name = 5;</code>
+       * <code>.dstore.values.StringValue execute_procedure_name = 5;</code>
        */
       public Builder setExecuteProcedureName(io.dstore.values.StringValue value) {
         if (executeProcedureNameBuilder_ == null) {
@@ -1745,7 +1745,7 @@ public final class MiModifyTRITriggerAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.StringValue execute_procedure_name = 5;</code>
+       * <code>.dstore.values.StringValue execute_procedure_name = 5;</code>
        */
       public Builder setExecuteProcedureName(
           io.dstore.values.StringValue.Builder builderForValue) {
@@ -1759,7 +1759,7 @@ public final class MiModifyTRITriggerAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.StringValue execute_procedure_name = 5;</code>
+       * <code>.dstore.values.StringValue execute_procedure_name = 5;</code>
        */
       public Builder mergeExecuteProcedureName(io.dstore.values.StringValue value) {
         if (executeProcedureNameBuilder_ == null) {
@@ -1777,7 +1777,7 @@ public final class MiModifyTRITriggerAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.StringValue execute_procedure_name = 5;</code>
+       * <code>.dstore.values.StringValue execute_procedure_name = 5;</code>
        */
       public Builder clearExecuteProcedureName() {
         if (executeProcedureNameBuilder_ == null) {
@@ -1791,7 +1791,7 @@ public final class MiModifyTRITriggerAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.StringValue execute_procedure_name = 5;</code>
+       * <code>.dstore.values.StringValue execute_procedure_name = 5;</code>
        */
       public io.dstore.values.StringValue.Builder getExecuteProcedureNameBuilder() {
         
@@ -1799,7 +1799,7 @@ public final class MiModifyTRITriggerAd {
         return getExecuteProcedureNameFieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .dstore.values.StringValue execute_procedure_name = 5;</code>
+       * <code>.dstore.values.StringValue execute_procedure_name = 5;</code>
        */
       public io.dstore.values.StringValueOrBuilder getExecuteProcedureNameOrBuilder() {
         if (executeProcedureNameBuilder_ != null) {
@@ -1810,7 +1810,7 @@ public final class MiModifyTRITriggerAd {
         }
       }
       /**
-       * <code>optional .dstore.values.StringValue execute_procedure_name = 5;</code>
+       * <code>.dstore.values.StringValue execute_procedure_name = 5;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.values.StringValue, io.dstore.values.StringValue.Builder, io.dstore.values.StringValueOrBuilder> 
@@ -1828,13 +1828,13 @@ public final class MiModifyTRITriggerAd {
 
       private boolean executeProcedureNameNull_ ;
       /**
-       * <code>optional bool execute_procedure_name_null = 1005;</code>
+       * <code>bool execute_procedure_name_null = 1005;</code>
        */
       public boolean getExecuteProcedureNameNull() {
         return executeProcedureNameNull_;
       }
       /**
-       * <code>optional bool execute_procedure_name_null = 1005;</code>
+       * <code>bool execute_procedure_name_null = 1005;</code>
        */
       public Builder setExecuteProcedureNameNull(boolean value) {
         
@@ -1843,7 +1843,7 @@ public final class MiModifyTRITriggerAd {
         return this;
       }
       /**
-       * <code>optional bool execute_procedure_name_null = 1005;</code>
+       * <code>bool execute_procedure_name_null = 1005;</code>
        */
       public Builder clearExecuteProcedureNameNull() {
         
@@ -1856,13 +1856,13 @@ public final class MiModifyTRITriggerAd {
       private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.values.BooleanValue, io.dstore.values.BooleanValue.Builder, io.dstore.values.BooleanValueOrBuilder> deleteTriggerBuilder_;
       /**
-       * <code>optional .dstore.values.BooleanValue delete_trigger = 6;</code>
+       * <code>.dstore.values.BooleanValue delete_trigger = 6;</code>
        */
       public boolean hasDeleteTrigger() {
         return deleteTriggerBuilder_ != null || deleteTrigger_ != null;
       }
       /**
-       * <code>optional .dstore.values.BooleanValue delete_trigger = 6;</code>
+       * <code>.dstore.values.BooleanValue delete_trigger = 6;</code>
        */
       public io.dstore.values.BooleanValue getDeleteTrigger() {
         if (deleteTriggerBuilder_ == null) {
@@ -1872,7 +1872,7 @@ public final class MiModifyTRITriggerAd {
         }
       }
       /**
-       * <code>optional .dstore.values.BooleanValue delete_trigger = 6;</code>
+       * <code>.dstore.values.BooleanValue delete_trigger = 6;</code>
        */
       public Builder setDeleteTrigger(io.dstore.values.BooleanValue value) {
         if (deleteTriggerBuilder_ == null) {
@@ -1888,7 +1888,7 @@ public final class MiModifyTRITriggerAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.BooleanValue delete_trigger = 6;</code>
+       * <code>.dstore.values.BooleanValue delete_trigger = 6;</code>
        */
       public Builder setDeleteTrigger(
           io.dstore.values.BooleanValue.Builder builderForValue) {
@@ -1902,7 +1902,7 @@ public final class MiModifyTRITriggerAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.BooleanValue delete_trigger = 6;</code>
+       * <code>.dstore.values.BooleanValue delete_trigger = 6;</code>
        */
       public Builder mergeDeleteTrigger(io.dstore.values.BooleanValue value) {
         if (deleteTriggerBuilder_ == null) {
@@ -1920,7 +1920,7 @@ public final class MiModifyTRITriggerAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.BooleanValue delete_trigger = 6;</code>
+       * <code>.dstore.values.BooleanValue delete_trigger = 6;</code>
        */
       public Builder clearDeleteTrigger() {
         if (deleteTriggerBuilder_ == null) {
@@ -1934,7 +1934,7 @@ public final class MiModifyTRITriggerAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.BooleanValue delete_trigger = 6;</code>
+       * <code>.dstore.values.BooleanValue delete_trigger = 6;</code>
        */
       public io.dstore.values.BooleanValue.Builder getDeleteTriggerBuilder() {
         
@@ -1942,7 +1942,7 @@ public final class MiModifyTRITriggerAd {
         return getDeleteTriggerFieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .dstore.values.BooleanValue delete_trigger = 6;</code>
+       * <code>.dstore.values.BooleanValue delete_trigger = 6;</code>
        */
       public io.dstore.values.BooleanValueOrBuilder getDeleteTriggerOrBuilder() {
         if (deleteTriggerBuilder_ != null) {
@@ -1953,7 +1953,7 @@ public final class MiModifyTRITriggerAd {
         }
       }
       /**
-       * <code>optional .dstore.values.BooleanValue delete_trigger = 6;</code>
+       * <code>.dstore.values.BooleanValue delete_trigger = 6;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.values.BooleanValue, io.dstore.values.BooleanValue.Builder, io.dstore.values.BooleanValueOrBuilder> 
@@ -1971,13 +1971,13 @@ public final class MiModifyTRITriggerAd {
 
       private boolean deleteTriggerNull_ ;
       /**
-       * <code>optional bool delete_trigger_null = 1006;</code>
+       * <code>bool delete_trigger_null = 1006;</code>
        */
       public boolean getDeleteTriggerNull() {
         return deleteTriggerNull_;
       }
       /**
-       * <code>optional bool delete_trigger_null = 1006;</code>
+       * <code>bool delete_trigger_null = 1006;</code>
        */
       public Builder setDeleteTriggerNull(boolean value) {
         
@@ -1986,7 +1986,7 @@ public final class MiModifyTRITriggerAd {
         return this;
       }
       /**
-       * <code>optional bool delete_trigger_null = 1006;</code>
+       * <code>bool delete_trigger_null = 1006;</code>
        */
       public Builder clearDeleteTriggerNull() {
         
@@ -1999,13 +1999,13 @@ public final class MiModifyTRITriggerAd {
       private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.values.StringValue, io.dstore.values.StringValue.Builder, io.dstore.values.StringValueOrBuilder> tRITriggerDefinitionBuilder_;
       /**
-       * <code>optional .dstore.values.StringValue t_r_i_trigger_definition = 7;</code>
+       * <code>.dstore.values.StringValue t_r_i_trigger_definition = 7;</code>
        */
       public boolean hasTRITriggerDefinition() {
         return tRITriggerDefinitionBuilder_ != null || tRITriggerDefinition_ != null;
       }
       /**
-       * <code>optional .dstore.values.StringValue t_r_i_trigger_definition = 7;</code>
+       * <code>.dstore.values.StringValue t_r_i_trigger_definition = 7;</code>
        */
       public io.dstore.values.StringValue getTRITriggerDefinition() {
         if (tRITriggerDefinitionBuilder_ == null) {
@@ -2015,7 +2015,7 @@ public final class MiModifyTRITriggerAd {
         }
       }
       /**
-       * <code>optional .dstore.values.StringValue t_r_i_trigger_definition = 7;</code>
+       * <code>.dstore.values.StringValue t_r_i_trigger_definition = 7;</code>
        */
       public Builder setTRITriggerDefinition(io.dstore.values.StringValue value) {
         if (tRITriggerDefinitionBuilder_ == null) {
@@ -2031,7 +2031,7 @@ public final class MiModifyTRITriggerAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.StringValue t_r_i_trigger_definition = 7;</code>
+       * <code>.dstore.values.StringValue t_r_i_trigger_definition = 7;</code>
        */
       public Builder setTRITriggerDefinition(
           io.dstore.values.StringValue.Builder builderForValue) {
@@ -2045,7 +2045,7 @@ public final class MiModifyTRITriggerAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.StringValue t_r_i_trigger_definition = 7;</code>
+       * <code>.dstore.values.StringValue t_r_i_trigger_definition = 7;</code>
        */
       public Builder mergeTRITriggerDefinition(io.dstore.values.StringValue value) {
         if (tRITriggerDefinitionBuilder_ == null) {
@@ -2063,7 +2063,7 @@ public final class MiModifyTRITriggerAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.StringValue t_r_i_trigger_definition = 7;</code>
+       * <code>.dstore.values.StringValue t_r_i_trigger_definition = 7;</code>
        */
       public Builder clearTRITriggerDefinition() {
         if (tRITriggerDefinitionBuilder_ == null) {
@@ -2077,7 +2077,7 @@ public final class MiModifyTRITriggerAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.StringValue t_r_i_trigger_definition = 7;</code>
+       * <code>.dstore.values.StringValue t_r_i_trigger_definition = 7;</code>
        */
       public io.dstore.values.StringValue.Builder getTRITriggerDefinitionBuilder() {
         
@@ -2085,7 +2085,7 @@ public final class MiModifyTRITriggerAd {
         return getTRITriggerDefinitionFieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .dstore.values.StringValue t_r_i_trigger_definition = 7;</code>
+       * <code>.dstore.values.StringValue t_r_i_trigger_definition = 7;</code>
        */
       public io.dstore.values.StringValueOrBuilder getTRITriggerDefinitionOrBuilder() {
         if (tRITriggerDefinitionBuilder_ != null) {
@@ -2096,7 +2096,7 @@ public final class MiModifyTRITriggerAd {
         }
       }
       /**
-       * <code>optional .dstore.values.StringValue t_r_i_trigger_definition = 7;</code>
+       * <code>.dstore.values.StringValue t_r_i_trigger_definition = 7;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.values.StringValue, io.dstore.values.StringValue.Builder, io.dstore.values.StringValueOrBuilder> 
@@ -2114,13 +2114,13 @@ public final class MiModifyTRITriggerAd {
 
       private boolean tRITriggerDefinitionNull_ ;
       /**
-       * <code>optional bool t_r_i_trigger_definition_null = 1007;</code>
+       * <code>bool t_r_i_trigger_definition_null = 1007;</code>
        */
       public boolean getTRITriggerDefinitionNull() {
         return tRITriggerDefinitionNull_;
       }
       /**
-       * <code>optional bool t_r_i_trigger_definition_null = 1007;</code>
+       * <code>bool t_r_i_trigger_definition_null = 1007;</code>
        */
       public Builder setTRITriggerDefinitionNull(boolean value) {
         
@@ -2129,7 +2129,7 @@ public final class MiModifyTRITriggerAd {
         return this;
       }
       /**
-       * <code>optional bool t_r_i_trigger_definition_null = 1007;</code>
+       * <code>bool t_r_i_trigger_definition_null = 1007;</code>
        */
       public Builder clearTRITriggerDefinitionNull() {
         
@@ -2263,15 +2263,15 @@ public final class MiModifyTRITriggerAd {
         int index);
 
     /**
-     * <code>optional .dstore.values.IntegerValue trigger_id = 101;</code>
+     * <code>.dstore.values.IntegerValue trigger_id = 101;</code>
      */
     boolean hasTriggerId();
     /**
-     * <code>optional .dstore.values.IntegerValue trigger_id = 101;</code>
+     * <code>.dstore.values.IntegerValue trigger_id = 101;</code>
      */
     io.dstore.values.IntegerValue getTriggerId();
     /**
-     * <code>optional .dstore.values.IntegerValue trigger_id = 101;</code>
+     * <code>.dstore.values.IntegerValue trigger_id = 101;</code>
      */
     io.dstore.values.IntegerValueOrBuilder getTriggerIdOrBuilder();
   }
@@ -2394,7 +2394,7 @@ public final class MiModifyTRITriggerAd {
         com.google.protobuf.MessageOrBuilder {
 
       /**
-       * <code>optional int32 row_id = 10000;</code>
+       * <code>int32 row_id = 10000;</code>
        */
       int getRowId();
     }
@@ -2469,7 +2469,7 @@ public final class MiModifyTRITriggerAd {
       public static final int ROW_ID_FIELD_NUMBER = 10000;
       private int rowId_;
       /**
-       * <code>optional int32 row_id = 10000;</code>
+       * <code>int32 row_id = 10000;</code>
        */
       public int getRowId() {
         return rowId_;
@@ -2528,7 +2528,7 @@ public final class MiModifyTRITriggerAd {
           return memoizedHashCode;
         }
         int hash = 41;
-        hash = (19 * hash) + getDescriptorForType().hashCode();
+        hash = (19 * hash) + getDescriptor().hashCode();
         hash = (37 * hash) + ROW_ID_FIELD_NUMBER;
         hash = (53 * hash) + getRowId();
         hash = (29 * hash) + unknownFields.hashCode();
@@ -2746,13 +2746,13 @@ public final class MiModifyTRITriggerAd {
 
         private int rowId_ ;
         /**
-         * <code>optional int32 row_id = 10000;</code>
+         * <code>int32 row_id = 10000;</code>
          */
         public int getRowId() {
           return rowId_;
         }
         /**
-         * <code>optional int32 row_id = 10000;</code>
+         * <code>int32 row_id = 10000;</code>
          */
         public Builder setRowId(int value) {
           
@@ -2761,7 +2761,7 @@ public final class MiModifyTRITriggerAd {
           return this;
         }
         /**
-         * <code>optional int32 row_id = 10000;</code>
+         * <code>int32 row_id = 10000;</code>
          */
         public Builder clearRowId() {
           
@@ -2927,19 +2927,19 @@ public final class MiModifyTRITriggerAd {
     public static final int TRIGGER_ID_FIELD_NUMBER = 101;
     private io.dstore.values.IntegerValue triggerId_;
     /**
-     * <code>optional .dstore.values.IntegerValue trigger_id = 101;</code>
+     * <code>.dstore.values.IntegerValue trigger_id = 101;</code>
      */
     public boolean hasTriggerId() {
       return triggerId_ != null;
     }
     /**
-     * <code>optional .dstore.values.IntegerValue trigger_id = 101;</code>
+     * <code>.dstore.values.IntegerValue trigger_id = 101;</code>
      */
     public io.dstore.values.IntegerValue getTriggerId() {
       return triggerId_ == null ? io.dstore.values.IntegerValue.getDefaultInstance() : triggerId_;
     }
     /**
-     * <code>optional .dstore.values.IntegerValue trigger_id = 101;</code>
+     * <code>.dstore.values.IntegerValue trigger_id = 101;</code>
      */
     public io.dstore.values.IntegerValueOrBuilder getTriggerIdOrBuilder() {
       return getTriggerId();
@@ -3028,7 +3028,7 @@ public final class MiModifyTRITriggerAd {
         return memoizedHashCode;
       }
       int hash = 41;
-      hash = (19 * hash) + getDescriptorForType().hashCode();
+      hash = (19 * hash) + getDescriptor().hashCode();
       if (getMetaInformationCount() > 0) {
         hash = (37 * hash) + META_INFORMATION_FIELD_NUMBER;
         hash = (53 * hash) + getMetaInformationList().hashCode();
@@ -4120,13 +4120,13 @@ public final class MiModifyTRITriggerAd {
       private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> triggerIdBuilder_;
       /**
-       * <code>optional .dstore.values.IntegerValue trigger_id = 101;</code>
+       * <code>.dstore.values.IntegerValue trigger_id = 101;</code>
        */
       public boolean hasTriggerId() {
         return triggerIdBuilder_ != null || triggerId_ != null;
       }
       /**
-       * <code>optional .dstore.values.IntegerValue trigger_id = 101;</code>
+       * <code>.dstore.values.IntegerValue trigger_id = 101;</code>
        */
       public io.dstore.values.IntegerValue getTriggerId() {
         if (triggerIdBuilder_ == null) {
@@ -4136,7 +4136,7 @@ public final class MiModifyTRITriggerAd {
         }
       }
       /**
-       * <code>optional .dstore.values.IntegerValue trigger_id = 101;</code>
+       * <code>.dstore.values.IntegerValue trigger_id = 101;</code>
        */
       public Builder setTriggerId(io.dstore.values.IntegerValue value) {
         if (triggerIdBuilder_ == null) {
@@ -4152,7 +4152,7 @@ public final class MiModifyTRITriggerAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.IntegerValue trigger_id = 101;</code>
+       * <code>.dstore.values.IntegerValue trigger_id = 101;</code>
        */
       public Builder setTriggerId(
           io.dstore.values.IntegerValue.Builder builderForValue) {
@@ -4166,7 +4166,7 @@ public final class MiModifyTRITriggerAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.IntegerValue trigger_id = 101;</code>
+       * <code>.dstore.values.IntegerValue trigger_id = 101;</code>
        */
       public Builder mergeTriggerId(io.dstore.values.IntegerValue value) {
         if (triggerIdBuilder_ == null) {
@@ -4184,7 +4184,7 @@ public final class MiModifyTRITriggerAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.IntegerValue trigger_id = 101;</code>
+       * <code>.dstore.values.IntegerValue trigger_id = 101;</code>
        */
       public Builder clearTriggerId() {
         if (triggerIdBuilder_ == null) {
@@ -4198,7 +4198,7 @@ public final class MiModifyTRITriggerAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.IntegerValue trigger_id = 101;</code>
+       * <code>.dstore.values.IntegerValue trigger_id = 101;</code>
        */
       public io.dstore.values.IntegerValue.Builder getTriggerIdBuilder() {
         
@@ -4206,7 +4206,7 @@ public final class MiModifyTRITriggerAd {
         return getTriggerIdFieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .dstore.values.IntegerValue trigger_id = 101;</code>
+       * <code>.dstore.values.IntegerValue trigger_id = 101;</code>
        */
       public io.dstore.values.IntegerValueOrBuilder getTriggerIdOrBuilder() {
         if (triggerIdBuilder_ != null) {
@@ -4217,7 +4217,7 @@ public final class MiModifyTRITriggerAd {
         }
       }
       /**
-       * <code>optional .dstore.values.IntegerValue trigger_id = 101;</code>
+       * <code>.dstore.values.IntegerValue trigger_id = 101;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> 

@@ -19,128 +19,128 @@ public final class AcInsertActionAd {
       com.google.protobuf.MessageOrBuilder {
 
     /**
-     * <code>optional .dstore.values.IntegerValue command_id = 1;</code>
+     * <code>.dstore.values.IntegerValue command_id = 1;</code>
      */
     boolean hasCommandId();
     /**
-     * <code>optional .dstore.values.IntegerValue command_id = 1;</code>
+     * <code>.dstore.values.IntegerValue command_id = 1;</code>
      */
     io.dstore.values.IntegerValue getCommandId();
     /**
-     * <code>optional .dstore.values.IntegerValue command_id = 1;</code>
+     * <code>.dstore.values.IntegerValue command_id = 1;</code>
      */
     io.dstore.values.IntegerValueOrBuilder getCommandIdOrBuilder();
 
     /**
-     * <code>optional bool command_id_null = 1001;</code>
+     * <code>bool command_id_null = 1001;</code>
      */
     boolean getCommandIdNull();
 
     /**
-     * <code>optional .dstore.values.IntegerValue status = 2;</code>
+     * <code>.dstore.values.IntegerValue status = 2;</code>
      */
     boolean hasStatus();
     /**
-     * <code>optional .dstore.values.IntegerValue status = 2;</code>
+     * <code>.dstore.values.IntegerValue status = 2;</code>
      */
     io.dstore.values.IntegerValue getStatus();
     /**
-     * <code>optional .dstore.values.IntegerValue status = 2;</code>
+     * <code>.dstore.values.IntegerValue status = 2;</code>
      */
     io.dstore.values.IntegerValueOrBuilder getStatusOrBuilder();
 
     /**
-     * <code>optional bool status_null = 1002;</code>
+     * <code>bool status_null = 1002;</code>
      */
     boolean getStatusNull();
 
     /**
-     * <code>optional .dstore.values.StringValue parameter_names = 3;</code>
+     * <code>.dstore.values.StringValue parameter_names = 3;</code>
      */
     boolean hasParameterNames();
     /**
-     * <code>optional .dstore.values.StringValue parameter_names = 3;</code>
+     * <code>.dstore.values.StringValue parameter_names = 3;</code>
      */
     io.dstore.values.StringValue getParameterNames();
     /**
-     * <code>optional .dstore.values.StringValue parameter_names = 3;</code>
+     * <code>.dstore.values.StringValue parameter_names = 3;</code>
      */
     io.dstore.values.StringValueOrBuilder getParameterNamesOrBuilder();
 
     /**
-     * <code>optional bool parameter_names_null = 1003;</code>
+     * <code>bool parameter_names_null = 1003;</code>
      */
     boolean getParameterNamesNull();
 
     /**
-     * <code>optional .dstore.values.StringValue parameter_values = 4;</code>
+     * <code>.dstore.values.StringValue parameter_values = 4;</code>
      */
     boolean hasParameterValues();
     /**
-     * <code>optional .dstore.values.StringValue parameter_values = 4;</code>
+     * <code>.dstore.values.StringValue parameter_values = 4;</code>
      */
     io.dstore.values.StringValue getParameterValues();
     /**
-     * <code>optional .dstore.values.StringValue parameter_values = 4;</code>
+     * <code>.dstore.values.StringValue parameter_values = 4;</code>
      */
     io.dstore.values.StringValueOrBuilder getParameterValuesOrBuilder();
 
     /**
-     * <code>optional bool parameter_values_null = 1004;</code>
+     * <code>bool parameter_values_null = 1004;</code>
      */
     boolean getParameterValuesNull();
 
     /**
-     * <code>optional .dstore.values.IntegerValue new_action_id = 5;</code>
+     * <code>.dstore.values.IntegerValue new_action_id = 5;</code>
      */
     boolean hasNewActionId();
     /**
-     * <code>optional .dstore.values.IntegerValue new_action_id = 5;</code>
+     * <code>.dstore.values.IntegerValue new_action_id = 5;</code>
      */
     io.dstore.values.IntegerValue getNewActionId();
     /**
-     * <code>optional .dstore.values.IntegerValue new_action_id = 5;</code>
+     * <code>.dstore.values.IntegerValue new_action_id = 5;</code>
      */
     io.dstore.values.IntegerValueOrBuilder getNewActionIdOrBuilder();
 
     /**
-     * <code>optional bool new_action_id_null = 1005;</code>
+     * <code>bool new_action_id_null = 1005;</code>
      */
     boolean getNewActionIdNull();
 
     /**
-     * <code>optional .dstore.values.StringValue separator_in_param_values = 6;</code>
+     * <code>.dstore.values.StringValue separator_in_param_values = 6;</code>
      */
     boolean hasSeparatorInParamValues();
     /**
-     * <code>optional .dstore.values.StringValue separator_in_param_values = 6;</code>
+     * <code>.dstore.values.StringValue separator_in_param_values = 6;</code>
      */
     io.dstore.values.StringValue getSeparatorInParamValues();
     /**
-     * <code>optional .dstore.values.StringValue separator_in_param_values = 6;</code>
+     * <code>.dstore.values.StringValue separator_in_param_values = 6;</code>
      */
     io.dstore.values.StringValueOrBuilder getSeparatorInParamValuesOrBuilder();
 
     /**
-     * <code>optional bool separator_in_param_values_null = 1006;</code>
+     * <code>bool separator_in_param_values_null = 1006;</code>
      */
     boolean getSeparatorInParamValuesNull();
 
     /**
-     * <code>optional .dstore.values.StringValue sep_in_any_values_other_than_l_f = 7;</code>
+     * <code>.dstore.values.StringValue sep_in_any_values_other_than_l_f = 7;</code>
      */
     boolean hasSepInAnyValuesOtherThanLF();
     /**
-     * <code>optional .dstore.values.StringValue sep_in_any_values_other_than_l_f = 7;</code>
+     * <code>.dstore.values.StringValue sep_in_any_values_other_than_l_f = 7;</code>
      */
     io.dstore.values.StringValue getSepInAnyValuesOtherThanLF();
     /**
-     * <code>optional .dstore.values.StringValue sep_in_any_values_other_than_l_f = 7;</code>
+     * <code>.dstore.values.StringValue sep_in_any_values_other_than_l_f = 7;</code>
      */
     io.dstore.values.StringValueOrBuilder getSepInAnyValuesOtherThanLFOrBuilder();
 
     /**
-     * <code>optional bool sep_in_any_values_other_than_l_f_null = 1007;</code>
+     * <code>bool sep_in_any_values_other_than_l_f_null = 1007;</code>
      */
     boolean getSepInAnyValuesOtherThanLFNull();
   }
@@ -342,19 +342,19 @@ public final class AcInsertActionAd {
     public static final int COMMAND_ID_FIELD_NUMBER = 1;
     private io.dstore.values.IntegerValue commandId_;
     /**
-     * <code>optional .dstore.values.IntegerValue command_id = 1;</code>
+     * <code>.dstore.values.IntegerValue command_id = 1;</code>
      */
     public boolean hasCommandId() {
       return commandId_ != null;
     }
     /**
-     * <code>optional .dstore.values.IntegerValue command_id = 1;</code>
+     * <code>.dstore.values.IntegerValue command_id = 1;</code>
      */
     public io.dstore.values.IntegerValue getCommandId() {
       return commandId_ == null ? io.dstore.values.IntegerValue.getDefaultInstance() : commandId_;
     }
     /**
-     * <code>optional .dstore.values.IntegerValue command_id = 1;</code>
+     * <code>.dstore.values.IntegerValue command_id = 1;</code>
      */
     public io.dstore.values.IntegerValueOrBuilder getCommandIdOrBuilder() {
       return getCommandId();
@@ -363,7 +363,7 @@ public final class AcInsertActionAd {
     public static final int COMMAND_ID_NULL_FIELD_NUMBER = 1001;
     private boolean commandIdNull_;
     /**
-     * <code>optional bool command_id_null = 1001;</code>
+     * <code>bool command_id_null = 1001;</code>
      */
     public boolean getCommandIdNull() {
       return commandIdNull_;
@@ -372,19 +372,19 @@ public final class AcInsertActionAd {
     public static final int STATUS_FIELD_NUMBER = 2;
     private io.dstore.values.IntegerValue status_;
     /**
-     * <code>optional .dstore.values.IntegerValue status = 2;</code>
+     * <code>.dstore.values.IntegerValue status = 2;</code>
      */
     public boolean hasStatus() {
       return status_ != null;
     }
     /**
-     * <code>optional .dstore.values.IntegerValue status = 2;</code>
+     * <code>.dstore.values.IntegerValue status = 2;</code>
      */
     public io.dstore.values.IntegerValue getStatus() {
       return status_ == null ? io.dstore.values.IntegerValue.getDefaultInstance() : status_;
     }
     /**
-     * <code>optional .dstore.values.IntegerValue status = 2;</code>
+     * <code>.dstore.values.IntegerValue status = 2;</code>
      */
     public io.dstore.values.IntegerValueOrBuilder getStatusOrBuilder() {
       return getStatus();
@@ -393,7 +393,7 @@ public final class AcInsertActionAd {
     public static final int STATUS_NULL_FIELD_NUMBER = 1002;
     private boolean statusNull_;
     /**
-     * <code>optional bool status_null = 1002;</code>
+     * <code>bool status_null = 1002;</code>
      */
     public boolean getStatusNull() {
       return statusNull_;
@@ -402,19 +402,19 @@ public final class AcInsertActionAd {
     public static final int PARAMETER_NAMES_FIELD_NUMBER = 3;
     private io.dstore.values.StringValue parameterNames_;
     /**
-     * <code>optional .dstore.values.StringValue parameter_names = 3;</code>
+     * <code>.dstore.values.StringValue parameter_names = 3;</code>
      */
     public boolean hasParameterNames() {
       return parameterNames_ != null;
     }
     /**
-     * <code>optional .dstore.values.StringValue parameter_names = 3;</code>
+     * <code>.dstore.values.StringValue parameter_names = 3;</code>
      */
     public io.dstore.values.StringValue getParameterNames() {
       return parameterNames_ == null ? io.dstore.values.StringValue.getDefaultInstance() : parameterNames_;
     }
     /**
-     * <code>optional .dstore.values.StringValue parameter_names = 3;</code>
+     * <code>.dstore.values.StringValue parameter_names = 3;</code>
      */
     public io.dstore.values.StringValueOrBuilder getParameterNamesOrBuilder() {
       return getParameterNames();
@@ -423,7 +423,7 @@ public final class AcInsertActionAd {
     public static final int PARAMETER_NAMES_NULL_FIELD_NUMBER = 1003;
     private boolean parameterNamesNull_;
     /**
-     * <code>optional bool parameter_names_null = 1003;</code>
+     * <code>bool parameter_names_null = 1003;</code>
      */
     public boolean getParameterNamesNull() {
       return parameterNamesNull_;
@@ -432,19 +432,19 @@ public final class AcInsertActionAd {
     public static final int PARAMETER_VALUES_FIELD_NUMBER = 4;
     private io.dstore.values.StringValue parameterValues_;
     /**
-     * <code>optional .dstore.values.StringValue parameter_values = 4;</code>
+     * <code>.dstore.values.StringValue parameter_values = 4;</code>
      */
     public boolean hasParameterValues() {
       return parameterValues_ != null;
     }
     /**
-     * <code>optional .dstore.values.StringValue parameter_values = 4;</code>
+     * <code>.dstore.values.StringValue parameter_values = 4;</code>
      */
     public io.dstore.values.StringValue getParameterValues() {
       return parameterValues_ == null ? io.dstore.values.StringValue.getDefaultInstance() : parameterValues_;
     }
     /**
-     * <code>optional .dstore.values.StringValue parameter_values = 4;</code>
+     * <code>.dstore.values.StringValue parameter_values = 4;</code>
      */
     public io.dstore.values.StringValueOrBuilder getParameterValuesOrBuilder() {
       return getParameterValues();
@@ -453,7 +453,7 @@ public final class AcInsertActionAd {
     public static final int PARAMETER_VALUES_NULL_FIELD_NUMBER = 1004;
     private boolean parameterValuesNull_;
     /**
-     * <code>optional bool parameter_values_null = 1004;</code>
+     * <code>bool parameter_values_null = 1004;</code>
      */
     public boolean getParameterValuesNull() {
       return parameterValuesNull_;
@@ -462,19 +462,19 @@ public final class AcInsertActionAd {
     public static final int NEW_ACTION_ID_FIELD_NUMBER = 5;
     private io.dstore.values.IntegerValue newActionId_;
     /**
-     * <code>optional .dstore.values.IntegerValue new_action_id = 5;</code>
+     * <code>.dstore.values.IntegerValue new_action_id = 5;</code>
      */
     public boolean hasNewActionId() {
       return newActionId_ != null;
     }
     /**
-     * <code>optional .dstore.values.IntegerValue new_action_id = 5;</code>
+     * <code>.dstore.values.IntegerValue new_action_id = 5;</code>
      */
     public io.dstore.values.IntegerValue getNewActionId() {
       return newActionId_ == null ? io.dstore.values.IntegerValue.getDefaultInstance() : newActionId_;
     }
     /**
-     * <code>optional .dstore.values.IntegerValue new_action_id = 5;</code>
+     * <code>.dstore.values.IntegerValue new_action_id = 5;</code>
      */
     public io.dstore.values.IntegerValueOrBuilder getNewActionIdOrBuilder() {
       return getNewActionId();
@@ -483,7 +483,7 @@ public final class AcInsertActionAd {
     public static final int NEW_ACTION_ID_NULL_FIELD_NUMBER = 1005;
     private boolean newActionIdNull_;
     /**
-     * <code>optional bool new_action_id_null = 1005;</code>
+     * <code>bool new_action_id_null = 1005;</code>
      */
     public boolean getNewActionIdNull() {
       return newActionIdNull_;
@@ -492,19 +492,19 @@ public final class AcInsertActionAd {
     public static final int SEPARATOR_IN_PARAM_VALUES_FIELD_NUMBER = 6;
     private io.dstore.values.StringValue separatorInParamValues_;
     /**
-     * <code>optional .dstore.values.StringValue separator_in_param_values = 6;</code>
+     * <code>.dstore.values.StringValue separator_in_param_values = 6;</code>
      */
     public boolean hasSeparatorInParamValues() {
       return separatorInParamValues_ != null;
     }
     /**
-     * <code>optional .dstore.values.StringValue separator_in_param_values = 6;</code>
+     * <code>.dstore.values.StringValue separator_in_param_values = 6;</code>
      */
     public io.dstore.values.StringValue getSeparatorInParamValues() {
       return separatorInParamValues_ == null ? io.dstore.values.StringValue.getDefaultInstance() : separatorInParamValues_;
     }
     /**
-     * <code>optional .dstore.values.StringValue separator_in_param_values = 6;</code>
+     * <code>.dstore.values.StringValue separator_in_param_values = 6;</code>
      */
     public io.dstore.values.StringValueOrBuilder getSeparatorInParamValuesOrBuilder() {
       return getSeparatorInParamValues();
@@ -513,7 +513,7 @@ public final class AcInsertActionAd {
     public static final int SEPARATOR_IN_PARAM_VALUES_NULL_FIELD_NUMBER = 1006;
     private boolean separatorInParamValuesNull_;
     /**
-     * <code>optional bool separator_in_param_values_null = 1006;</code>
+     * <code>bool separator_in_param_values_null = 1006;</code>
      */
     public boolean getSeparatorInParamValuesNull() {
       return separatorInParamValuesNull_;
@@ -522,19 +522,19 @@ public final class AcInsertActionAd {
     public static final int SEP_IN_ANY_VALUES_OTHER_THAN_L_F_FIELD_NUMBER = 7;
     private io.dstore.values.StringValue sepInAnyValuesOtherThanLF_;
     /**
-     * <code>optional .dstore.values.StringValue sep_in_any_values_other_than_l_f = 7;</code>
+     * <code>.dstore.values.StringValue sep_in_any_values_other_than_l_f = 7;</code>
      */
     public boolean hasSepInAnyValuesOtherThanLF() {
       return sepInAnyValuesOtherThanLF_ != null;
     }
     /**
-     * <code>optional .dstore.values.StringValue sep_in_any_values_other_than_l_f = 7;</code>
+     * <code>.dstore.values.StringValue sep_in_any_values_other_than_l_f = 7;</code>
      */
     public io.dstore.values.StringValue getSepInAnyValuesOtherThanLF() {
       return sepInAnyValuesOtherThanLF_ == null ? io.dstore.values.StringValue.getDefaultInstance() : sepInAnyValuesOtherThanLF_;
     }
     /**
-     * <code>optional .dstore.values.StringValue sep_in_any_values_other_than_l_f = 7;</code>
+     * <code>.dstore.values.StringValue sep_in_any_values_other_than_l_f = 7;</code>
      */
     public io.dstore.values.StringValueOrBuilder getSepInAnyValuesOtherThanLFOrBuilder() {
       return getSepInAnyValuesOtherThanLF();
@@ -543,7 +543,7 @@ public final class AcInsertActionAd {
     public static final int SEP_IN_ANY_VALUES_OTHER_THAN_L_F_NULL_FIELD_NUMBER = 1007;
     private boolean sepInAnyValuesOtherThanLFNull_;
     /**
-     * <code>optional bool sep_in_any_values_other_than_l_f_null = 1007;</code>
+     * <code>bool sep_in_any_values_other_than_l_f_null = 1007;</code>
      */
     public boolean getSepInAnyValuesOtherThanLFNull() {
       return sepInAnyValuesOtherThanLFNull_;
@@ -740,7 +740,7 @@ public final class AcInsertActionAd {
         return memoizedHashCode;
       }
       int hash = 41;
-      hash = (19 * hash) + getDescriptorForType().hashCode();
+      hash = (19 * hash) + getDescriptor().hashCode();
       if (hasCommandId()) {
         hash = (37 * hash) + COMMAND_ID_FIELD_NUMBER;
         hash = (53 * hash) + getCommandId().hashCode();
@@ -1141,13 +1141,13 @@ public final class AcInsertActionAd {
       private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> commandIdBuilder_;
       /**
-       * <code>optional .dstore.values.IntegerValue command_id = 1;</code>
+       * <code>.dstore.values.IntegerValue command_id = 1;</code>
        */
       public boolean hasCommandId() {
         return commandIdBuilder_ != null || commandId_ != null;
       }
       /**
-       * <code>optional .dstore.values.IntegerValue command_id = 1;</code>
+       * <code>.dstore.values.IntegerValue command_id = 1;</code>
        */
       public io.dstore.values.IntegerValue getCommandId() {
         if (commandIdBuilder_ == null) {
@@ -1157,7 +1157,7 @@ public final class AcInsertActionAd {
         }
       }
       /**
-       * <code>optional .dstore.values.IntegerValue command_id = 1;</code>
+       * <code>.dstore.values.IntegerValue command_id = 1;</code>
        */
       public Builder setCommandId(io.dstore.values.IntegerValue value) {
         if (commandIdBuilder_ == null) {
@@ -1173,7 +1173,7 @@ public final class AcInsertActionAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.IntegerValue command_id = 1;</code>
+       * <code>.dstore.values.IntegerValue command_id = 1;</code>
        */
       public Builder setCommandId(
           io.dstore.values.IntegerValue.Builder builderForValue) {
@@ -1187,7 +1187,7 @@ public final class AcInsertActionAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.IntegerValue command_id = 1;</code>
+       * <code>.dstore.values.IntegerValue command_id = 1;</code>
        */
       public Builder mergeCommandId(io.dstore.values.IntegerValue value) {
         if (commandIdBuilder_ == null) {
@@ -1205,7 +1205,7 @@ public final class AcInsertActionAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.IntegerValue command_id = 1;</code>
+       * <code>.dstore.values.IntegerValue command_id = 1;</code>
        */
       public Builder clearCommandId() {
         if (commandIdBuilder_ == null) {
@@ -1219,7 +1219,7 @@ public final class AcInsertActionAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.IntegerValue command_id = 1;</code>
+       * <code>.dstore.values.IntegerValue command_id = 1;</code>
        */
       public io.dstore.values.IntegerValue.Builder getCommandIdBuilder() {
         
@@ -1227,7 +1227,7 @@ public final class AcInsertActionAd {
         return getCommandIdFieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .dstore.values.IntegerValue command_id = 1;</code>
+       * <code>.dstore.values.IntegerValue command_id = 1;</code>
        */
       public io.dstore.values.IntegerValueOrBuilder getCommandIdOrBuilder() {
         if (commandIdBuilder_ != null) {
@@ -1238,7 +1238,7 @@ public final class AcInsertActionAd {
         }
       }
       /**
-       * <code>optional .dstore.values.IntegerValue command_id = 1;</code>
+       * <code>.dstore.values.IntegerValue command_id = 1;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> 
@@ -1256,13 +1256,13 @@ public final class AcInsertActionAd {
 
       private boolean commandIdNull_ ;
       /**
-       * <code>optional bool command_id_null = 1001;</code>
+       * <code>bool command_id_null = 1001;</code>
        */
       public boolean getCommandIdNull() {
         return commandIdNull_;
       }
       /**
-       * <code>optional bool command_id_null = 1001;</code>
+       * <code>bool command_id_null = 1001;</code>
        */
       public Builder setCommandIdNull(boolean value) {
         
@@ -1271,7 +1271,7 @@ public final class AcInsertActionAd {
         return this;
       }
       /**
-       * <code>optional bool command_id_null = 1001;</code>
+       * <code>bool command_id_null = 1001;</code>
        */
       public Builder clearCommandIdNull() {
         
@@ -1284,13 +1284,13 @@ public final class AcInsertActionAd {
       private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> statusBuilder_;
       /**
-       * <code>optional .dstore.values.IntegerValue status = 2;</code>
+       * <code>.dstore.values.IntegerValue status = 2;</code>
        */
       public boolean hasStatus() {
         return statusBuilder_ != null || status_ != null;
       }
       /**
-       * <code>optional .dstore.values.IntegerValue status = 2;</code>
+       * <code>.dstore.values.IntegerValue status = 2;</code>
        */
       public io.dstore.values.IntegerValue getStatus() {
         if (statusBuilder_ == null) {
@@ -1300,7 +1300,7 @@ public final class AcInsertActionAd {
         }
       }
       /**
-       * <code>optional .dstore.values.IntegerValue status = 2;</code>
+       * <code>.dstore.values.IntegerValue status = 2;</code>
        */
       public Builder setStatus(io.dstore.values.IntegerValue value) {
         if (statusBuilder_ == null) {
@@ -1316,7 +1316,7 @@ public final class AcInsertActionAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.IntegerValue status = 2;</code>
+       * <code>.dstore.values.IntegerValue status = 2;</code>
        */
       public Builder setStatus(
           io.dstore.values.IntegerValue.Builder builderForValue) {
@@ -1330,7 +1330,7 @@ public final class AcInsertActionAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.IntegerValue status = 2;</code>
+       * <code>.dstore.values.IntegerValue status = 2;</code>
        */
       public Builder mergeStatus(io.dstore.values.IntegerValue value) {
         if (statusBuilder_ == null) {
@@ -1348,7 +1348,7 @@ public final class AcInsertActionAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.IntegerValue status = 2;</code>
+       * <code>.dstore.values.IntegerValue status = 2;</code>
        */
       public Builder clearStatus() {
         if (statusBuilder_ == null) {
@@ -1362,7 +1362,7 @@ public final class AcInsertActionAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.IntegerValue status = 2;</code>
+       * <code>.dstore.values.IntegerValue status = 2;</code>
        */
       public io.dstore.values.IntegerValue.Builder getStatusBuilder() {
         
@@ -1370,7 +1370,7 @@ public final class AcInsertActionAd {
         return getStatusFieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .dstore.values.IntegerValue status = 2;</code>
+       * <code>.dstore.values.IntegerValue status = 2;</code>
        */
       public io.dstore.values.IntegerValueOrBuilder getStatusOrBuilder() {
         if (statusBuilder_ != null) {
@@ -1381,7 +1381,7 @@ public final class AcInsertActionAd {
         }
       }
       /**
-       * <code>optional .dstore.values.IntegerValue status = 2;</code>
+       * <code>.dstore.values.IntegerValue status = 2;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> 
@@ -1399,13 +1399,13 @@ public final class AcInsertActionAd {
 
       private boolean statusNull_ ;
       /**
-       * <code>optional bool status_null = 1002;</code>
+       * <code>bool status_null = 1002;</code>
        */
       public boolean getStatusNull() {
         return statusNull_;
       }
       /**
-       * <code>optional bool status_null = 1002;</code>
+       * <code>bool status_null = 1002;</code>
        */
       public Builder setStatusNull(boolean value) {
         
@@ -1414,7 +1414,7 @@ public final class AcInsertActionAd {
         return this;
       }
       /**
-       * <code>optional bool status_null = 1002;</code>
+       * <code>bool status_null = 1002;</code>
        */
       public Builder clearStatusNull() {
         
@@ -1427,13 +1427,13 @@ public final class AcInsertActionAd {
       private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.values.StringValue, io.dstore.values.StringValue.Builder, io.dstore.values.StringValueOrBuilder> parameterNamesBuilder_;
       /**
-       * <code>optional .dstore.values.StringValue parameter_names = 3;</code>
+       * <code>.dstore.values.StringValue parameter_names = 3;</code>
        */
       public boolean hasParameterNames() {
         return parameterNamesBuilder_ != null || parameterNames_ != null;
       }
       /**
-       * <code>optional .dstore.values.StringValue parameter_names = 3;</code>
+       * <code>.dstore.values.StringValue parameter_names = 3;</code>
        */
       public io.dstore.values.StringValue getParameterNames() {
         if (parameterNamesBuilder_ == null) {
@@ -1443,7 +1443,7 @@ public final class AcInsertActionAd {
         }
       }
       /**
-       * <code>optional .dstore.values.StringValue parameter_names = 3;</code>
+       * <code>.dstore.values.StringValue parameter_names = 3;</code>
        */
       public Builder setParameterNames(io.dstore.values.StringValue value) {
         if (parameterNamesBuilder_ == null) {
@@ -1459,7 +1459,7 @@ public final class AcInsertActionAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.StringValue parameter_names = 3;</code>
+       * <code>.dstore.values.StringValue parameter_names = 3;</code>
        */
       public Builder setParameterNames(
           io.dstore.values.StringValue.Builder builderForValue) {
@@ -1473,7 +1473,7 @@ public final class AcInsertActionAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.StringValue parameter_names = 3;</code>
+       * <code>.dstore.values.StringValue parameter_names = 3;</code>
        */
       public Builder mergeParameterNames(io.dstore.values.StringValue value) {
         if (parameterNamesBuilder_ == null) {
@@ -1491,7 +1491,7 @@ public final class AcInsertActionAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.StringValue parameter_names = 3;</code>
+       * <code>.dstore.values.StringValue parameter_names = 3;</code>
        */
       public Builder clearParameterNames() {
         if (parameterNamesBuilder_ == null) {
@@ -1505,7 +1505,7 @@ public final class AcInsertActionAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.StringValue parameter_names = 3;</code>
+       * <code>.dstore.values.StringValue parameter_names = 3;</code>
        */
       public io.dstore.values.StringValue.Builder getParameterNamesBuilder() {
         
@@ -1513,7 +1513,7 @@ public final class AcInsertActionAd {
         return getParameterNamesFieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .dstore.values.StringValue parameter_names = 3;</code>
+       * <code>.dstore.values.StringValue parameter_names = 3;</code>
        */
       public io.dstore.values.StringValueOrBuilder getParameterNamesOrBuilder() {
         if (parameterNamesBuilder_ != null) {
@@ -1524,7 +1524,7 @@ public final class AcInsertActionAd {
         }
       }
       /**
-       * <code>optional .dstore.values.StringValue parameter_names = 3;</code>
+       * <code>.dstore.values.StringValue parameter_names = 3;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.values.StringValue, io.dstore.values.StringValue.Builder, io.dstore.values.StringValueOrBuilder> 
@@ -1542,13 +1542,13 @@ public final class AcInsertActionAd {
 
       private boolean parameterNamesNull_ ;
       /**
-       * <code>optional bool parameter_names_null = 1003;</code>
+       * <code>bool parameter_names_null = 1003;</code>
        */
       public boolean getParameterNamesNull() {
         return parameterNamesNull_;
       }
       /**
-       * <code>optional bool parameter_names_null = 1003;</code>
+       * <code>bool parameter_names_null = 1003;</code>
        */
       public Builder setParameterNamesNull(boolean value) {
         
@@ -1557,7 +1557,7 @@ public final class AcInsertActionAd {
         return this;
       }
       /**
-       * <code>optional bool parameter_names_null = 1003;</code>
+       * <code>bool parameter_names_null = 1003;</code>
        */
       public Builder clearParameterNamesNull() {
         
@@ -1570,13 +1570,13 @@ public final class AcInsertActionAd {
       private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.values.StringValue, io.dstore.values.StringValue.Builder, io.dstore.values.StringValueOrBuilder> parameterValuesBuilder_;
       /**
-       * <code>optional .dstore.values.StringValue parameter_values = 4;</code>
+       * <code>.dstore.values.StringValue parameter_values = 4;</code>
        */
       public boolean hasParameterValues() {
         return parameterValuesBuilder_ != null || parameterValues_ != null;
       }
       /**
-       * <code>optional .dstore.values.StringValue parameter_values = 4;</code>
+       * <code>.dstore.values.StringValue parameter_values = 4;</code>
        */
       public io.dstore.values.StringValue getParameterValues() {
         if (parameterValuesBuilder_ == null) {
@@ -1586,7 +1586,7 @@ public final class AcInsertActionAd {
         }
       }
       /**
-       * <code>optional .dstore.values.StringValue parameter_values = 4;</code>
+       * <code>.dstore.values.StringValue parameter_values = 4;</code>
        */
       public Builder setParameterValues(io.dstore.values.StringValue value) {
         if (parameterValuesBuilder_ == null) {
@@ -1602,7 +1602,7 @@ public final class AcInsertActionAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.StringValue parameter_values = 4;</code>
+       * <code>.dstore.values.StringValue parameter_values = 4;</code>
        */
       public Builder setParameterValues(
           io.dstore.values.StringValue.Builder builderForValue) {
@@ -1616,7 +1616,7 @@ public final class AcInsertActionAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.StringValue parameter_values = 4;</code>
+       * <code>.dstore.values.StringValue parameter_values = 4;</code>
        */
       public Builder mergeParameterValues(io.dstore.values.StringValue value) {
         if (parameterValuesBuilder_ == null) {
@@ -1634,7 +1634,7 @@ public final class AcInsertActionAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.StringValue parameter_values = 4;</code>
+       * <code>.dstore.values.StringValue parameter_values = 4;</code>
        */
       public Builder clearParameterValues() {
         if (parameterValuesBuilder_ == null) {
@@ -1648,7 +1648,7 @@ public final class AcInsertActionAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.StringValue parameter_values = 4;</code>
+       * <code>.dstore.values.StringValue parameter_values = 4;</code>
        */
       public io.dstore.values.StringValue.Builder getParameterValuesBuilder() {
         
@@ -1656,7 +1656,7 @@ public final class AcInsertActionAd {
         return getParameterValuesFieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .dstore.values.StringValue parameter_values = 4;</code>
+       * <code>.dstore.values.StringValue parameter_values = 4;</code>
        */
       public io.dstore.values.StringValueOrBuilder getParameterValuesOrBuilder() {
         if (parameterValuesBuilder_ != null) {
@@ -1667,7 +1667,7 @@ public final class AcInsertActionAd {
         }
       }
       /**
-       * <code>optional .dstore.values.StringValue parameter_values = 4;</code>
+       * <code>.dstore.values.StringValue parameter_values = 4;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.values.StringValue, io.dstore.values.StringValue.Builder, io.dstore.values.StringValueOrBuilder> 
@@ -1685,13 +1685,13 @@ public final class AcInsertActionAd {
 
       private boolean parameterValuesNull_ ;
       /**
-       * <code>optional bool parameter_values_null = 1004;</code>
+       * <code>bool parameter_values_null = 1004;</code>
        */
       public boolean getParameterValuesNull() {
         return parameterValuesNull_;
       }
       /**
-       * <code>optional bool parameter_values_null = 1004;</code>
+       * <code>bool parameter_values_null = 1004;</code>
        */
       public Builder setParameterValuesNull(boolean value) {
         
@@ -1700,7 +1700,7 @@ public final class AcInsertActionAd {
         return this;
       }
       /**
-       * <code>optional bool parameter_values_null = 1004;</code>
+       * <code>bool parameter_values_null = 1004;</code>
        */
       public Builder clearParameterValuesNull() {
         
@@ -1713,13 +1713,13 @@ public final class AcInsertActionAd {
       private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> newActionIdBuilder_;
       /**
-       * <code>optional .dstore.values.IntegerValue new_action_id = 5;</code>
+       * <code>.dstore.values.IntegerValue new_action_id = 5;</code>
        */
       public boolean hasNewActionId() {
         return newActionIdBuilder_ != null || newActionId_ != null;
       }
       /**
-       * <code>optional .dstore.values.IntegerValue new_action_id = 5;</code>
+       * <code>.dstore.values.IntegerValue new_action_id = 5;</code>
        */
       public io.dstore.values.IntegerValue getNewActionId() {
         if (newActionIdBuilder_ == null) {
@@ -1729,7 +1729,7 @@ public final class AcInsertActionAd {
         }
       }
       /**
-       * <code>optional .dstore.values.IntegerValue new_action_id = 5;</code>
+       * <code>.dstore.values.IntegerValue new_action_id = 5;</code>
        */
       public Builder setNewActionId(io.dstore.values.IntegerValue value) {
         if (newActionIdBuilder_ == null) {
@@ -1745,7 +1745,7 @@ public final class AcInsertActionAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.IntegerValue new_action_id = 5;</code>
+       * <code>.dstore.values.IntegerValue new_action_id = 5;</code>
        */
       public Builder setNewActionId(
           io.dstore.values.IntegerValue.Builder builderForValue) {
@@ -1759,7 +1759,7 @@ public final class AcInsertActionAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.IntegerValue new_action_id = 5;</code>
+       * <code>.dstore.values.IntegerValue new_action_id = 5;</code>
        */
       public Builder mergeNewActionId(io.dstore.values.IntegerValue value) {
         if (newActionIdBuilder_ == null) {
@@ -1777,7 +1777,7 @@ public final class AcInsertActionAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.IntegerValue new_action_id = 5;</code>
+       * <code>.dstore.values.IntegerValue new_action_id = 5;</code>
        */
       public Builder clearNewActionId() {
         if (newActionIdBuilder_ == null) {
@@ -1791,7 +1791,7 @@ public final class AcInsertActionAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.IntegerValue new_action_id = 5;</code>
+       * <code>.dstore.values.IntegerValue new_action_id = 5;</code>
        */
       public io.dstore.values.IntegerValue.Builder getNewActionIdBuilder() {
         
@@ -1799,7 +1799,7 @@ public final class AcInsertActionAd {
         return getNewActionIdFieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .dstore.values.IntegerValue new_action_id = 5;</code>
+       * <code>.dstore.values.IntegerValue new_action_id = 5;</code>
        */
       public io.dstore.values.IntegerValueOrBuilder getNewActionIdOrBuilder() {
         if (newActionIdBuilder_ != null) {
@@ -1810,7 +1810,7 @@ public final class AcInsertActionAd {
         }
       }
       /**
-       * <code>optional .dstore.values.IntegerValue new_action_id = 5;</code>
+       * <code>.dstore.values.IntegerValue new_action_id = 5;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> 
@@ -1828,13 +1828,13 @@ public final class AcInsertActionAd {
 
       private boolean newActionIdNull_ ;
       /**
-       * <code>optional bool new_action_id_null = 1005;</code>
+       * <code>bool new_action_id_null = 1005;</code>
        */
       public boolean getNewActionIdNull() {
         return newActionIdNull_;
       }
       /**
-       * <code>optional bool new_action_id_null = 1005;</code>
+       * <code>bool new_action_id_null = 1005;</code>
        */
       public Builder setNewActionIdNull(boolean value) {
         
@@ -1843,7 +1843,7 @@ public final class AcInsertActionAd {
         return this;
       }
       /**
-       * <code>optional bool new_action_id_null = 1005;</code>
+       * <code>bool new_action_id_null = 1005;</code>
        */
       public Builder clearNewActionIdNull() {
         
@@ -1856,13 +1856,13 @@ public final class AcInsertActionAd {
       private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.values.StringValue, io.dstore.values.StringValue.Builder, io.dstore.values.StringValueOrBuilder> separatorInParamValuesBuilder_;
       /**
-       * <code>optional .dstore.values.StringValue separator_in_param_values = 6;</code>
+       * <code>.dstore.values.StringValue separator_in_param_values = 6;</code>
        */
       public boolean hasSeparatorInParamValues() {
         return separatorInParamValuesBuilder_ != null || separatorInParamValues_ != null;
       }
       /**
-       * <code>optional .dstore.values.StringValue separator_in_param_values = 6;</code>
+       * <code>.dstore.values.StringValue separator_in_param_values = 6;</code>
        */
       public io.dstore.values.StringValue getSeparatorInParamValues() {
         if (separatorInParamValuesBuilder_ == null) {
@@ -1872,7 +1872,7 @@ public final class AcInsertActionAd {
         }
       }
       /**
-       * <code>optional .dstore.values.StringValue separator_in_param_values = 6;</code>
+       * <code>.dstore.values.StringValue separator_in_param_values = 6;</code>
        */
       public Builder setSeparatorInParamValues(io.dstore.values.StringValue value) {
         if (separatorInParamValuesBuilder_ == null) {
@@ -1888,7 +1888,7 @@ public final class AcInsertActionAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.StringValue separator_in_param_values = 6;</code>
+       * <code>.dstore.values.StringValue separator_in_param_values = 6;</code>
        */
       public Builder setSeparatorInParamValues(
           io.dstore.values.StringValue.Builder builderForValue) {
@@ -1902,7 +1902,7 @@ public final class AcInsertActionAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.StringValue separator_in_param_values = 6;</code>
+       * <code>.dstore.values.StringValue separator_in_param_values = 6;</code>
        */
       public Builder mergeSeparatorInParamValues(io.dstore.values.StringValue value) {
         if (separatorInParamValuesBuilder_ == null) {
@@ -1920,7 +1920,7 @@ public final class AcInsertActionAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.StringValue separator_in_param_values = 6;</code>
+       * <code>.dstore.values.StringValue separator_in_param_values = 6;</code>
        */
       public Builder clearSeparatorInParamValues() {
         if (separatorInParamValuesBuilder_ == null) {
@@ -1934,7 +1934,7 @@ public final class AcInsertActionAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.StringValue separator_in_param_values = 6;</code>
+       * <code>.dstore.values.StringValue separator_in_param_values = 6;</code>
        */
       public io.dstore.values.StringValue.Builder getSeparatorInParamValuesBuilder() {
         
@@ -1942,7 +1942,7 @@ public final class AcInsertActionAd {
         return getSeparatorInParamValuesFieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .dstore.values.StringValue separator_in_param_values = 6;</code>
+       * <code>.dstore.values.StringValue separator_in_param_values = 6;</code>
        */
       public io.dstore.values.StringValueOrBuilder getSeparatorInParamValuesOrBuilder() {
         if (separatorInParamValuesBuilder_ != null) {
@@ -1953,7 +1953,7 @@ public final class AcInsertActionAd {
         }
       }
       /**
-       * <code>optional .dstore.values.StringValue separator_in_param_values = 6;</code>
+       * <code>.dstore.values.StringValue separator_in_param_values = 6;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.values.StringValue, io.dstore.values.StringValue.Builder, io.dstore.values.StringValueOrBuilder> 
@@ -1971,13 +1971,13 @@ public final class AcInsertActionAd {
 
       private boolean separatorInParamValuesNull_ ;
       /**
-       * <code>optional bool separator_in_param_values_null = 1006;</code>
+       * <code>bool separator_in_param_values_null = 1006;</code>
        */
       public boolean getSeparatorInParamValuesNull() {
         return separatorInParamValuesNull_;
       }
       /**
-       * <code>optional bool separator_in_param_values_null = 1006;</code>
+       * <code>bool separator_in_param_values_null = 1006;</code>
        */
       public Builder setSeparatorInParamValuesNull(boolean value) {
         
@@ -1986,7 +1986,7 @@ public final class AcInsertActionAd {
         return this;
       }
       /**
-       * <code>optional bool separator_in_param_values_null = 1006;</code>
+       * <code>bool separator_in_param_values_null = 1006;</code>
        */
       public Builder clearSeparatorInParamValuesNull() {
         
@@ -1999,13 +1999,13 @@ public final class AcInsertActionAd {
       private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.values.StringValue, io.dstore.values.StringValue.Builder, io.dstore.values.StringValueOrBuilder> sepInAnyValuesOtherThanLFBuilder_;
       /**
-       * <code>optional .dstore.values.StringValue sep_in_any_values_other_than_l_f = 7;</code>
+       * <code>.dstore.values.StringValue sep_in_any_values_other_than_l_f = 7;</code>
        */
       public boolean hasSepInAnyValuesOtherThanLF() {
         return sepInAnyValuesOtherThanLFBuilder_ != null || sepInAnyValuesOtherThanLF_ != null;
       }
       /**
-       * <code>optional .dstore.values.StringValue sep_in_any_values_other_than_l_f = 7;</code>
+       * <code>.dstore.values.StringValue sep_in_any_values_other_than_l_f = 7;</code>
        */
       public io.dstore.values.StringValue getSepInAnyValuesOtherThanLF() {
         if (sepInAnyValuesOtherThanLFBuilder_ == null) {
@@ -2015,7 +2015,7 @@ public final class AcInsertActionAd {
         }
       }
       /**
-       * <code>optional .dstore.values.StringValue sep_in_any_values_other_than_l_f = 7;</code>
+       * <code>.dstore.values.StringValue sep_in_any_values_other_than_l_f = 7;</code>
        */
       public Builder setSepInAnyValuesOtherThanLF(io.dstore.values.StringValue value) {
         if (sepInAnyValuesOtherThanLFBuilder_ == null) {
@@ -2031,7 +2031,7 @@ public final class AcInsertActionAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.StringValue sep_in_any_values_other_than_l_f = 7;</code>
+       * <code>.dstore.values.StringValue sep_in_any_values_other_than_l_f = 7;</code>
        */
       public Builder setSepInAnyValuesOtherThanLF(
           io.dstore.values.StringValue.Builder builderForValue) {
@@ -2045,7 +2045,7 @@ public final class AcInsertActionAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.StringValue sep_in_any_values_other_than_l_f = 7;</code>
+       * <code>.dstore.values.StringValue sep_in_any_values_other_than_l_f = 7;</code>
        */
       public Builder mergeSepInAnyValuesOtherThanLF(io.dstore.values.StringValue value) {
         if (sepInAnyValuesOtherThanLFBuilder_ == null) {
@@ -2063,7 +2063,7 @@ public final class AcInsertActionAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.StringValue sep_in_any_values_other_than_l_f = 7;</code>
+       * <code>.dstore.values.StringValue sep_in_any_values_other_than_l_f = 7;</code>
        */
       public Builder clearSepInAnyValuesOtherThanLF() {
         if (sepInAnyValuesOtherThanLFBuilder_ == null) {
@@ -2077,7 +2077,7 @@ public final class AcInsertActionAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.StringValue sep_in_any_values_other_than_l_f = 7;</code>
+       * <code>.dstore.values.StringValue sep_in_any_values_other_than_l_f = 7;</code>
        */
       public io.dstore.values.StringValue.Builder getSepInAnyValuesOtherThanLFBuilder() {
         
@@ -2085,7 +2085,7 @@ public final class AcInsertActionAd {
         return getSepInAnyValuesOtherThanLFFieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .dstore.values.StringValue sep_in_any_values_other_than_l_f = 7;</code>
+       * <code>.dstore.values.StringValue sep_in_any_values_other_than_l_f = 7;</code>
        */
       public io.dstore.values.StringValueOrBuilder getSepInAnyValuesOtherThanLFOrBuilder() {
         if (sepInAnyValuesOtherThanLFBuilder_ != null) {
@@ -2096,7 +2096,7 @@ public final class AcInsertActionAd {
         }
       }
       /**
-       * <code>optional .dstore.values.StringValue sep_in_any_values_other_than_l_f = 7;</code>
+       * <code>.dstore.values.StringValue sep_in_any_values_other_than_l_f = 7;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.values.StringValue, io.dstore.values.StringValue.Builder, io.dstore.values.StringValueOrBuilder> 
@@ -2114,13 +2114,13 @@ public final class AcInsertActionAd {
 
       private boolean sepInAnyValuesOtherThanLFNull_ ;
       /**
-       * <code>optional bool sep_in_any_values_other_than_l_f_null = 1007;</code>
+       * <code>bool sep_in_any_values_other_than_l_f_null = 1007;</code>
        */
       public boolean getSepInAnyValuesOtherThanLFNull() {
         return sepInAnyValuesOtherThanLFNull_;
       }
       /**
-       * <code>optional bool sep_in_any_values_other_than_l_f_null = 1007;</code>
+       * <code>bool sep_in_any_values_other_than_l_f_null = 1007;</code>
        */
       public Builder setSepInAnyValuesOtherThanLFNull(boolean value) {
         
@@ -2129,7 +2129,7 @@ public final class AcInsertActionAd {
         return this;
       }
       /**
-       * <code>optional bool sep_in_any_values_other_than_l_f_null = 1007;</code>
+       * <code>bool sep_in_any_values_other_than_l_f_null = 1007;</code>
        */
       public Builder clearSepInAnyValuesOtherThanLFNull() {
         
@@ -2263,15 +2263,15 @@ public final class AcInsertActionAd {
         int index);
 
     /**
-     * <code>optional .dstore.values.IntegerValue new_action_id = 101;</code>
+     * <code>.dstore.values.IntegerValue new_action_id = 101;</code>
      */
     boolean hasNewActionId();
     /**
-     * <code>optional .dstore.values.IntegerValue new_action_id = 101;</code>
+     * <code>.dstore.values.IntegerValue new_action_id = 101;</code>
      */
     io.dstore.values.IntegerValue getNewActionId();
     /**
-     * <code>optional .dstore.values.IntegerValue new_action_id = 101;</code>
+     * <code>.dstore.values.IntegerValue new_action_id = 101;</code>
      */
     io.dstore.values.IntegerValueOrBuilder getNewActionIdOrBuilder();
   }
@@ -2394,7 +2394,7 @@ public final class AcInsertActionAd {
         com.google.protobuf.MessageOrBuilder {
 
       /**
-       * <code>optional int32 row_id = 10000;</code>
+       * <code>int32 row_id = 10000;</code>
        */
       int getRowId();
     }
@@ -2469,7 +2469,7 @@ public final class AcInsertActionAd {
       public static final int ROW_ID_FIELD_NUMBER = 10000;
       private int rowId_;
       /**
-       * <code>optional int32 row_id = 10000;</code>
+       * <code>int32 row_id = 10000;</code>
        */
       public int getRowId() {
         return rowId_;
@@ -2528,7 +2528,7 @@ public final class AcInsertActionAd {
           return memoizedHashCode;
         }
         int hash = 41;
-        hash = (19 * hash) + getDescriptorForType().hashCode();
+        hash = (19 * hash) + getDescriptor().hashCode();
         hash = (37 * hash) + ROW_ID_FIELD_NUMBER;
         hash = (53 * hash) + getRowId();
         hash = (29 * hash) + unknownFields.hashCode();
@@ -2746,13 +2746,13 @@ public final class AcInsertActionAd {
 
         private int rowId_ ;
         /**
-         * <code>optional int32 row_id = 10000;</code>
+         * <code>int32 row_id = 10000;</code>
          */
         public int getRowId() {
           return rowId_;
         }
         /**
-         * <code>optional int32 row_id = 10000;</code>
+         * <code>int32 row_id = 10000;</code>
          */
         public Builder setRowId(int value) {
           
@@ -2761,7 +2761,7 @@ public final class AcInsertActionAd {
           return this;
         }
         /**
-         * <code>optional int32 row_id = 10000;</code>
+         * <code>int32 row_id = 10000;</code>
          */
         public Builder clearRowId() {
           
@@ -2927,19 +2927,19 @@ public final class AcInsertActionAd {
     public static final int NEW_ACTION_ID_FIELD_NUMBER = 101;
     private io.dstore.values.IntegerValue newActionId_;
     /**
-     * <code>optional .dstore.values.IntegerValue new_action_id = 101;</code>
+     * <code>.dstore.values.IntegerValue new_action_id = 101;</code>
      */
     public boolean hasNewActionId() {
       return newActionId_ != null;
     }
     /**
-     * <code>optional .dstore.values.IntegerValue new_action_id = 101;</code>
+     * <code>.dstore.values.IntegerValue new_action_id = 101;</code>
      */
     public io.dstore.values.IntegerValue getNewActionId() {
       return newActionId_ == null ? io.dstore.values.IntegerValue.getDefaultInstance() : newActionId_;
     }
     /**
-     * <code>optional .dstore.values.IntegerValue new_action_id = 101;</code>
+     * <code>.dstore.values.IntegerValue new_action_id = 101;</code>
      */
     public io.dstore.values.IntegerValueOrBuilder getNewActionIdOrBuilder() {
       return getNewActionId();
@@ -3028,7 +3028,7 @@ public final class AcInsertActionAd {
         return memoizedHashCode;
       }
       int hash = 41;
-      hash = (19 * hash) + getDescriptorForType().hashCode();
+      hash = (19 * hash) + getDescriptor().hashCode();
       if (getMetaInformationCount() > 0) {
         hash = (37 * hash) + META_INFORMATION_FIELD_NUMBER;
         hash = (53 * hash) + getMetaInformationList().hashCode();
@@ -4120,13 +4120,13 @@ public final class AcInsertActionAd {
       private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> newActionIdBuilder_;
       /**
-       * <code>optional .dstore.values.IntegerValue new_action_id = 101;</code>
+       * <code>.dstore.values.IntegerValue new_action_id = 101;</code>
        */
       public boolean hasNewActionId() {
         return newActionIdBuilder_ != null || newActionId_ != null;
       }
       /**
-       * <code>optional .dstore.values.IntegerValue new_action_id = 101;</code>
+       * <code>.dstore.values.IntegerValue new_action_id = 101;</code>
        */
       public io.dstore.values.IntegerValue getNewActionId() {
         if (newActionIdBuilder_ == null) {
@@ -4136,7 +4136,7 @@ public final class AcInsertActionAd {
         }
       }
       /**
-       * <code>optional .dstore.values.IntegerValue new_action_id = 101;</code>
+       * <code>.dstore.values.IntegerValue new_action_id = 101;</code>
        */
       public Builder setNewActionId(io.dstore.values.IntegerValue value) {
         if (newActionIdBuilder_ == null) {
@@ -4152,7 +4152,7 @@ public final class AcInsertActionAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.IntegerValue new_action_id = 101;</code>
+       * <code>.dstore.values.IntegerValue new_action_id = 101;</code>
        */
       public Builder setNewActionId(
           io.dstore.values.IntegerValue.Builder builderForValue) {
@@ -4166,7 +4166,7 @@ public final class AcInsertActionAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.IntegerValue new_action_id = 101;</code>
+       * <code>.dstore.values.IntegerValue new_action_id = 101;</code>
        */
       public Builder mergeNewActionId(io.dstore.values.IntegerValue value) {
         if (newActionIdBuilder_ == null) {
@@ -4184,7 +4184,7 @@ public final class AcInsertActionAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.IntegerValue new_action_id = 101;</code>
+       * <code>.dstore.values.IntegerValue new_action_id = 101;</code>
        */
       public Builder clearNewActionId() {
         if (newActionIdBuilder_ == null) {
@@ -4198,7 +4198,7 @@ public final class AcInsertActionAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.IntegerValue new_action_id = 101;</code>
+       * <code>.dstore.values.IntegerValue new_action_id = 101;</code>
        */
       public io.dstore.values.IntegerValue.Builder getNewActionIdBuilder() {
         
@@ -4206,7 +4206,7 @@ public final class AcInsertActionAd {
         return getNewActionIdFieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .dstore.values.IntegerValue new_action_id = 101;</code>
+       * <code>.dstore.values.IntegerValue new_action_id = 101;</code>
        */
       public io.dstore.values.IntegerValueOrBuilder getNewActionIdOrBuilder() {
         if (newActionIdBuilder_ != null) {
@@ -4217,7 +4217,7 @@ public final class AcInsertActionAd {
         }
       }
       /**
-       * <code>optional .dstore.values.IntegerValue new_action_id = 101;</code>
+       * <code>.dstore.values.IntegerValue new_action_id = 101;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> 

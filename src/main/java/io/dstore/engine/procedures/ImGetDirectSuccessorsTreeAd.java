@@ -19,110 +19,110 @@ public final class ImGetDirectSuccessorsTreeAd {
       com.google.protobuf.MessageOrBuilder {
 
     /**
-     * <code>optional .dstore.values.IntegerValue tree_node_id = 1;</code>
+     * <code>.dstore.values.IntegerValue tree_node_id = 1;</code>
      */
     boolean hasTreeNodeId();
     /**
-     * <code>optional .dstore.values.IntegerValue tree_node_id = 1;</code>
+     * <code>.dstore.values.IntegerValue tree_node_id = 1;</code>
      */
     io.dstore.values.IntegerValue getTreeNodeId();
     /**
-     * <code>optional .dstore.values.IntegerValue tree_node_id = 1;</code>
+     * <code>.dstore.values.IntegerValue tree_node_id = 1;</code>
      */
     io.dstore.values.IntegerValueOrBuilder getTreeNodeIdOrBuilder();
 
     /**
-     * <code>optional bool tree_node_id_null = 1001;</code>
+     * <code>bool tree_node_id_null = 1001;</code>
      */
     boolean getTreeNodeIdNull();
 
     /**
-     * <code>optional .dstore.values.IntegerValue language_id = 2;</code>
+     * <code>.dstore.values.IntegerValue language_id = 2;</code>
      */
     boolean hasLanguageId();
     /**
-     * <code>optional .dstore.values.IntegerValue language_id = 2;</code>
+     * <code>.dstore.values.IntegerValue language_id = 2;</code>
      */
     io.dstore.values.IntegerValue getLanguageId();
     /**
-     * <code>optional .dstore.values.IntegerValue language_id = 2;</code>
+     * <code>.dstore.values.IntegerValue language_id = 2;</code>
      */
     io.dstore.values.IntegerValueOrBuilder getLanguageIdOrBuilder();
 
     /**
-     * <code>optional bool language_id_null = 1002;</code>
+     * <code>bool language_id_null = 1002;</code>
      */
     boolean getLanguageIdNull();
 
     /**
-     * <code>optional .dstore.values.BooleanValue only_active = 3;</code>
+     * <code>.dstore.values.BooleanValue only_active = 3;</code>
      */
     boolean hasOnlyActive();
     /**
-     * <code>optional .dstore.values.BooleanValue only_active = 3;</code>
+     * <code>.dstore.values.BooleanValue only_active = 3;</code>
      */
     io.dstore.values.BooleanValue getOnlyActive();
     /**
-     * <code>optional .dstore.values.BooleanValue only_active = 3;</code>
+     * <code>.dstore.values.BooleanValue only_active = 3;</code>
      */
     io.dstore.values.BooleanValueOrBuilder getOnlyActiveOrBuilder();
 
     /**
-     * <code>optional bool only_active_null = 1003;</code>
+     * <code>bool only_active_null = 1003;</code>
      */
     boolean getOnlyActiveNull();
 
     /**
-     * <code>optional .dstore.values.BooleanValue only_not_deleted = 4;</code>
+     * <code>.dstore.values.BooleanValue only_not_deleted = 4;</code>
      */
     boolean hasOnlyNotDeleted();
     /**
-     * <code>optional .dstore.values.BooleanValue only_not_deleted = 4;</code>
+     * <code>.dstore.values.BooleanValue only_not_deleted = 4;</code>
      */
     io.dstore.values.BooleanValue getOnlyNotDeleted();
     /**
-     * <code>optional .dstore.values.BooleanValue only_not_deleted = 4;</code>
+     * <code>.dstore.values.BooleanValue only_not_deleted = 4;</code>
      */
     io.dstore.values.BooleanValueOrBuilder getOnlyNotDeletedOrBuilder();
 
     /**
-     * <code>optional bool only_not_deleted_null = 1004;</code>
+     * <code>bool only_not_deleted_null = 1004;</code>
      */
     boolean getOnlyNotDeletedNull();
 
     /**
-     * <code>optional .dstore.values.BooleanValue include_column_locked = 5;</code>
+     * <code>.dstore.values.BooleanValue include_column_locked = 5;</code>
      */
     boolean hasIncludeColumnLocked();
     /**
-     * <code>optional .dstore.values.BooleanValue include_column_locked = 5;</code>
+     * <code>.dstore.values.BooleanValue include_column_locked = 5;</code>
      */
     io.dstore.values.BooleanValue getIncludeColumnLocked();
     /**
-     * <code>optional .dstore.values.BooleanValue include_column_locked = 5;</code>
+     * <code>.dstore.values.BooleanValue include_column_locked = 5;</code>
      */
     io.dstore.values.BooleanValueOrBuilder getIncludeColumnLockedOrBuilder();
 
     /**
-     * <code>optional bool include_column_locked_null = 1005;</code>
+     * <code>bool include_column_locked_null = 1005;</code>
      */
     boolean getIncludeColumnLockedNull();
 
     /**
-     * <code>optional .dstore.values.IntegerValue check_locked_tree_nodes_for_user_id = 6;</code>
+     * <code>.dstore.values.IntegerValue check_locked_tree_nodes_for_user_id = 6;</code>
      */
     boolean hasCheckLockedTreeNodesForUserId();
     /**
-     * <code>optional .dstore.values.IntegerValue check_locked_tree_nodes_for_user_id = 6;</code>
+     * <code>.dstore.values.IntegerValue check_locked_tree_nodes_for_user_id = 6;</code>
      */
     io.dstore.values.IntegerValue getCheckLockedTreeNodesForUserId();
     /**
-     * <code>optional .dstore.values.IntegerValue check_locked_tree_nodes_for_user_id = 6;</code>
+     * <code>.dstore.values.IntegerValue check_locked_tree_nodes_for_user_id = 6;</code>
      */
     io.dstore.values.IntegerValueOrBuilder getCheckLockedTreeNodesForUserIdOrBuilder();
 
     /**
-     * <code>optional bool check_locked_tree_nodes_for_user_id_null = 1006;</code>
+     * <code>bool check_locked_tree_nodes_for_user_id_null = 1006;</code>
      */
     boolean getCheckLockedTreeNodesForUserIdNull();
   }
@@ -305,19 +305,19 @@ public final class ImGetDirectSuccessorsTreeAd {
     public static final int TREE_NODE_ID_FIELD_NUMBER = 1;
     private io.dstore.values.IntegerValue treeNodeId_;
     /**
-     * <code>optional .dstore.values.IntegerValue tree_node_id = 1;</code>
+     * <code>.dstore.values.IntegerValue tree_node_id = 1;</code>
      */
     public boolean hasTreeNodeId() {
       return treeNodeId_ != null;
     }
     /**
-     * <code>optional .dstore.values.IntegerValue tree_node_id = 1;</code>
+     * <code>.dstore.values.IntegerValue tree_node_id = 1;</code>
      */
     public io.dstore.values.IntegerValue getTreeNodeId() {
       return treeNodeId_ == null ? io.dstore.values.IntegerValue.getDefaultInstance() : treeNodeId_;
     }
     /**
-     * <code>optional .dstore.values.IntegerValue tree_node_id = 1;</code>
+     * <code>.dstore.values.IntegerValue tree_node_id = 1;</code>
      */
     public io.dstore.values.IntegerValueOrBuilder getTreeNodeIdOrBuilder() {
       return getTreeNodeId();
@@ -326,7 +326,7 @@ public final class ImGetDirectSuccessorsTreeAd {
     public static final int TREE_NODE_ID_NULL_FIELD_NUMBER = 1001;
     private boolean treeNodeIdNull_;
     /**
-     * <code>optional bool tree_node_id_null = 1001;</code>
+     * <code>bool tree_node_id_null = 1001;</code>
      */
     public boolean getTreeNodeIdNull() {
       return treeNodeIdNull_;
@@ -335,19 +335,19 @@ public final class ImGetDirectSuccessorsTreeAd {
     public static final int LANGUAGE_ID_FIELD_NUMBER = 2;
     private io.dstore.values.IntegerValue languageId_;
     /**
-     * <code>optional .dstore.values.IntegerValue language_id = 2;</code>
+     * <code>.dstore.values.IntegerValue language_id = 2;</code>
      */
     public boolean hasLanguageId() {
       return languageId_ != null;
     }
     /**
-     * <code>optional .dstore.values.IntegerValue language_id = 2;</code>
+     * <code>.dstore.values.IntegerValue language_id = 2;</code>
      */
     public io.dstore.values.IntegerValue getLanguageId() {
       return languageId_ == null ? io.dstore.values.IntegerValue.getDefaultInstance() : languageId_;
     }
     /**
-     * <code>optional .dstore.values.IntegerValue language_id = 2;</code>
+     * <code>.dstore.values.IntegerValue language_id = 2;</code>
      */
     public io.dstore.values.IntegerValueOrBuilder getLanguageIdOrBuilder() {
       return getLanguageId();
@@ -356,7 +356,7 @@ public final class ImGetDirectSuccessorsTreeAd {
     public static final int LANGUAGE_ID_NULL_FIELD_NUMBER = 1002;
     private boolean languageIdNull_;
     /**
-     * <code>optional bool language_id_null = 1002;</code>
+     * <code>bool language_id_null = 1002;</code>
      */
     public boolean getLanguageIdNull() {
       return languageIdNull_;
@@ -365,19 +365,19 @@ public final class ImGetDirectSuccessorsTreeAd {
     public static final int ONLY_ACTIVE_FIELD_NUMBER = 3;
     private io.dstore.values.BooleanValue onlyActive_;
     /**
-     * <code>optional .dstore.values.BooleanValue only_active = 3;</code>
+     * <code>.dstore.values.BooleanValue only_active = 3;</code>
      */
     public boolean hasOnlyActive() {
       return onlyActive_ != null;
     }
     /**
-     * <code>optional .dstore.values.BooleanValue only_active = 3;</code>
+     * <code>.dstore.values.BooleanValue only_active = 3;</code>
      */
     public io.dstore.values.BooleanValue getOnlyActive() {
       return onlyActive_ == null ? io.dstore.values.BooleanValue.getDefaultInstance() : onlyActive_;
     }
     /**
-     * <code>optional .dstore.values.BooleanValue only_active = 3;</code>
+     * <code>.dstore.values.BooleanValue only_active = 3;</code>
      */
     public io.dstore.values.BooleanValueOrBuilder getOnlyActiveOrBuilder() {
       return getOnlyActive();
@@ -386,7 +386,7 @@ public final class ImGetDirectSuccessorsTreeAd {
     public static final int ONLY_ACTIVE_NULL_FIELD_NUMBER = 1003;
     private boolean onlyActiveNull_;
     /**
-     * <code>optional bool only_active_null = 1003;</code>
+     * <code>bool only_active_null = 1003;</code>
      */
     public boolean getOnlyActiveNull() {
       return onlyActiveNull_;
@@ -395,19 +395,19 @@ public final class ImGetDirectSuccessorsTreeAd {
     public static final int ONLY_NOT_DELETED_FIELD_NUMBER = 4;
     private io.dstore.values.BooleanValue onlyNotDeleted_;
     /**
-     * <code>optional .dstore.values.BooleanValue only_not_deleted = 4;</code>
+     * <code>.dstore.values.BooleanValue only_not_deleted = 4;</code>
      */
     public boolean hasOnlyNotDeleted() {
       return onlyNotDeleted_ != null;
     }
     /**
-     * <code>optional .dstore.values.BooleanValue only_not_deleted = 4;</code>
+     * <code>.dstore.values.BooleanValue only_not_deleted = 4;</code>
      */
     public io.dstore.values.BooleanValue getOnlyNotDeleted() {
       return onlyNotDeleted_ == null ? io.dstore.values.BooleanValue.getDefaultInstance() : onlyNotDeleted_;
     }
     /**
-     * <code>optional .dstore.values.BooleanValue only_not_deleted = 4;</code>
+     * <code>.dstore.values.BooleanValue only_not_deleted = 4;</code>
      */
     public io.dstore.values.BooleanValueOrBuilder getOnlyNotDeletedOrBuilder() {
       return getOnlyNotDeleted();
@@ -416,7 +416,7 @@ public final class ImGetDirectSuccessorsTreeAd {
     public static final int ONLY_NOT_DELETED_NULL_FIELD_NUMBER = 1004;
     private boolean onlyNotDeletedNull_;
     /**
-     * <code>optional bool only_not_deleted_null = 1004;</code>
+     * <code>bool only_not_deleted_null = 1004;</code>
      */
     public boolean getOnlyNotDeletedNull() {
       return onlyNotDeletedNull_;
@@ -425,19 +425,19 @@ public final class ImGetDirectSuccessorsTreeAd {
     public static final int INCLUDE_COLUMN_LOCKED_FIELD_NUMBER = 5;
     private io.dstore.values.BooleanValue includeColumnLocked_;
     /**
-     * <code>optional .dstore.values.BooleanValue include_column_locked = 5;</code>
+     * <code>.dstore.values.BooleanValue include_column_locked = 5;</code>
      */
     public boolean hasIncludeColumnLocked() {
       return includeColumnLocked_ != null;
     }
     /**
-     * <code>optional .dstore.values.BooleanValue include_column_locked = 5;</code>
+     * <code>.dstore.values.BooleanValue include_column_locked = 5;</code>
      */
     public io.dstore.values.BooleanValue getIncludeColumnLocked() {
       return includeColumnLocked_ == null ? io.dstore.values.BooleanValue.getDefaultInstance() : includeColumnLocked_;
     }
     /**
-     * <code>optional .dstore.values.BooleanValue include_column_locked = 5;</code>
+     * <code>.dstore.values.BooleanValue include_column_locked = 5;</code>
      */
     public io.dstore.values.BooleanValueOrBuilder getIncludeColumnLockedOrBuilder() {
       return getIncludeColumnLocked();
@@ -446,7 +446,7 @@ public final class ImGetDirectSuccessorsTreeAd {
     public static final int INCLUDE_COLUMN_LOCKED_NULL_FIELD_NUMBER = 1005;
     private boolean includeColumnLockedNull_;
     /**
-     * <code>optional bool include_column_locked_null = 1005;</code>
+     * <code>bool include_column_locked_null = 1005;</code>
      */
     public boolean getIncludeColumnLockedNull() {
       return includeColumnLockedNull_;
@@ -455,19 +455,19 @@ public final class ImGetDirectSuccessorsTreeAd {
     public static final int CHECK_LOCKED_TREE_NODES_FOR_USER_ID_FIELD_NUMBER = 6;
     private io.dstore.values.IntegerValue checkLockedTreeNodesForUserId_;
     /**
-     * <code>optional .dstore.values.IntegerValue check_locked_tree_nodes_for_user_id = 6;</code>
+     * <code>.dstore.values.IntegerValue check_locked_tree_nodes_for_user_id = 6;</code>
      */
     public boolean hasCheckLockedTreeNodesForUserId() {
       return checkLockedTreeNodesForUserId_ != null;
     }
     /**
-     * <code>optional .dstore.values.IntegerValue check_locked_tree_nodes_for_user_id = 6;</code>
+     * <code>.dstore.values.IntegerValue check_locked_tree_nodes_for_user_id = 6;</code>
      */
     public io.dstore.values.IntegerValue getCheckLockedTreeNodesForUserId() {
       return checkLockedTreeNodesForUserId_ == null ? io.dstore.values.IntegerValue.getDefaultInstance() : checkLockedTreeNodesForUserId_;
     }
     /**
-     * <code>optional .dstore.values.IntegerValue check_locked_tree_nodes_for_user_id = 6;</code>
+     * <code>.dstore.values.IntegerValue check_locked_tree_nodes_for_user_id = 6;</code>
      */
     public io.dstore.values.IntegerValueOrBuilder getCheckLockedTreeNodesForUserIdOrBuilder() {
       return getCheckLockedTreeNodesForUserId();
@@ -476,7 +476,7 @@ public final class ImGetDirectSuccessorsTreeAd {
     public static final int CHECK_LOCKED_TREE_NODES_FOR_USER_ID_NULL_FIELD_NUMBER = 1006;
     private boolean checkLockedTreeNodesForUserIdNull_;
     /**
-     * <code>optional bool check_locked_tree_nodes_for_user_id_null = 1006;</code>
+     * <code>bool check_locked_tree_nodes_for_user_id_null = 1006;</code>
      */
     public boolean getCheckLockedTreeNodesForUserIdNull() {
       return checkLockedTreeNodesForUserIdNull_;
@@ -652,7 +652,7 @@ public final class ImGetDirectSuccessorsTreeAd {
         return memoizedHashCode;
       }
       int hash = 41;
-      hash = (19 * hash) + getDescriptorForType().hashCode();
+      hash = (19 * hash) + getDescriptor().hashCode();
       if (hasTreeNodeId()) {
         hash = (37 * hash) + TREE_NODE_ID_FIELD_NUMBER;
         hash = (53 * hash) + getTreeNodeId().hashCode();
@@ -1026,13 +1026,13 @@ public final class ImGetDirectSuccessorsTreeAd {
       private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> treeNodeIdBuilder_;
       /**
-       * <code>optional .dstore.values.IntegerValue tree_node_id = 1;</code>
+       * <code>.dstore.values.IntegerValue tree_node_id = 1;</code>
        */
       public boolean hasTreeNodeId() {
         return treeNodeIdBuilder_ != null || treeNodeId_ != null;
       }
       /**
-       * <code>optional .dstore.values.IntegerValue tree_node_id = 1;</code>
+       * <code>.dstore.values.IntegerValue tree_node_id = 1;</code>
        */
       public io.dstore.values.IntegerValue getTreeNodeId() {
         if (treeNodeIdBuilder_ == null) {
@@ -1042,7 +1042,7 @@ public final class ImGetDirectSuccessorsTreeAd {
         }
       }
       /**
-       * <code>optional .dstore.values.IntegerValue tree_node_id = 1;</code>
+       * <code>.dstore.values.IntegerValue tree_node_id = 1;</code>
        */
       public Builder setTreeNodeId(io.dstore.values.IntegerValue value) {
         if (treeNodeIdBuilder_ == null) {
@@ -1058,7 +1058,7 @@ public final class ImGetDirectSuccessorsTreeAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.IntegerValue tree_node_id = 1;</code>
+       * <code>.dstore.values.IntegerValue tree_node_id = 1;</code>
        */
       public Builder setTreeNodeId(
           io.dstore.values.IntegerValue.Builder builderForValue) {
@@ -1072,7 +1072,7 @@ public final class ImGetDirectSuccessorsTreeAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.IntegerValue tree_node_id = 1;</code>
+       * <code>.dstore.values.IntegerValue tree_node_id = 1;</code>
        */
       public Builder mergeTreeNodeId(io.dstore.values.IntegerValue value) {
         if (treeNodeIdBuilder_ == null) {
@@ -1090,7 +1090,7 @@ public final class ImGetDirectSuccessorsTreeAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.IntegerValue tree_node_id = 1;</code>
+       * <code>.dstore.values.IntegerValue tree_node_id = 1;</code>
        */
       public Builder clearTreeNodeId() {
         if (treeNodeIdBuilder_ == null) {
@@ -1104,7 +1104,7 @@ public final class ImGetDirectSuccessorsTreeAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.IntegerValue tree_node_id = 1;</code>
+       * <code>.dstore.values.IntegerValue tree_node_id = 1;</code>
        */
       public io.dstore.values.IntegerValue.Builder getTreeNodeIdBuilder() {
         
@@ -1112,7 +1112,7 @@ public final class ImGetDirectSuccessorsTreeAd {
         return getTreeNodeIdFieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .dstore.values.IntegerValue tree_node_id = 1;</code>
+       * <code>.dstore.values.IntegerValue tree_node_id = 1;</code>
        */
       public io.dstore.values.IntegerValueOrBuilder getTreeNodeIdOrBuilder() {
         if (treeNodeIdBuilder_ != null) {
@@ -1123,7 +1123,7 @@ public final class ImGetDirectSuccessorsTreeAd {
         }
       }
       /**
-       * <code>optional .dstore.values.IntegerValue tree_node_id = 1;</code>
+       * <code>.dstore.values.IntegerValue tree_node_id = 1;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> 
@@ -1141,13 +1141,13 @@ public final class ImGetDirectSuccessorsTreeAd {
 
       private boolean treeNodeIdNull_ ;
       /**
-       * <code>optional bool tree_node_id_null = 1001;</code>
+       * <code>bool tree_node_id_null = 1001;</code>
        */
       public boolean getTreeNodeIdNull() {
         return treeNodeIdNull_;
       }
       /**
-       * <code>optional bool tree_node_id_null = 1001;</code>
+       * <code>bool tree_node_id_null = 1001;</code>
        */
       public Builder setTreeNodeIdNull(boolean value) {
         
@@ -1156,7 +1156,7 @@ public final class ImGetDirectSuccessorsTreeAd {
         return this;
       }
       /**
-       * <code>optional bool tree_node_id_null = 1001;</code>
+       * <code>bool tree_node_id_null = 1001;</code>
        */
       public Builder clearTreeNodeIdNull() {
         
@@ -1169,13 +1169,13 @@ public final class ImGetDirectSuccessorsTreeAd {
       private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> languageIdBuilder_;
       /**
-       * <code>optional .dstore.values.IntegerValue language_id = 2;</code>
+       * <code>.dstore.values.IntegerValue language_id = 2;</code>
        */
       public boolean hasLanguageId() {
         return languageIdBuilder_ != null || languageId_ != null;
       }
       /**
-       * <code>optional .dstore.values.IntegerValue language_id = 2;</code>
+       * <code>.dstore.values.IntegerValue language_id = 2;</code>
        */
       public io.dstore.values.IntegerValue getLanguageId() {
         if (languageIdBuilder_ == null) {
@@ -1185,7 +1185,7 @@ public final class ImGetDirectSuccessorsTreeAd {
         }
       }
       /**
-       * <code>optional .dstore.values.IntegerValue language_id = 2;</code>
+       * <code>.dstore.values.IntegerValue language_id = 2;</code>
        */
       public Builder setLanguageId(io.dstore.values.IntegerValue value) {
         if (languageIdBuilder_ == null) {
@@ -1201,7 +1201,7 @@ public final class ImGetDirectSuccessorsTreeAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.IntegerValue language_id = 2;</code>
+       * <code>.dstore.values.IntegerValue language_id = 2;</code>
        */
       public Builder setLanguageId(
           io.dstore.values.IntegerValue.Builder builderForValue) {
@@ -1215,7 +1215,7 @@ public final class ImGetDirectSuccessorsTreeAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.IntegerValue language_id = 2;</code>
+       * <code>.dstore.values.IntegerValue language_id = 2;</code>
        */
       public Builder mergeLanguageId(io.dstore.values.IntegerValue value) {
         if (languageIdBuilder_ == null) {
@@ -1233,7 +1233,7 @@ public final class ImGetDirectSuccessorsTreeAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.IntegerValue language_id = 2;</code>
+       * <code>.dstore.values.IntegerValue language_id = 2;</code>
        */
       public Builder clearLanguageId() {
         if (languageIdBuilder_ == null) {
@@ -1247,7 +1247,7 @@ public final class ImGetDirectSuccessorsTreeAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.IntegerValue language_id = 2;</code>
+       * <code>.dstore.values.IntegerValue language_id = 2;</code>
        */
       public io.dstore.values.IntegerValue.Builder getLanguageIdBuilder() {
         
@@ -1255,7 +1255,7 @@ public final class ImGetDirectSuccessorsTreeAd {
         return getLanguageIdFieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .dstore.values.IntegerValue language_id = 2;</code>
+       * <code>.dstore.values.IntegerValue language_id = 2;</code>
        */
       public io.dstore.values.IntegerValueOrBuilder getLanguageIdOrBuilder() {
         if (languageIdBuilder_ != null) {
@@ -1266,7 +1266,7 @@ public final class ImGetDirectSuccessorsTreeAd {
         }
       }
       /**
-       * <code>optional .dstore.values.IntegerValue language_id = 2;</code>
+       * <code>.dstore.values.IntegerValue language_id = 2;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> 
@@ -1284,13 +1284,13 @@ public final class ImGetDirectSuccessorsTreeAd {
 
       private boolean languageIdNull_ ;
       /**
-       * <code>optional bool language_id_null = 1002;</code>
+       * <code>bool language_id_null = 1002;</code>
        */
       public boolean getLanguageIdNull() {
         return languageIdNull_;
       }
       /**
-       * <code>optional bool language_id_null = 1002;</code>
+       * <code>bool language_id_null = 1002;</code>
        */
       public Builder setLanguageIdNull(boolean value) {
         
@@ -1299,7 +1299,7 @@ public final class ImGetDirectSuccessorsTreeAd {
         return this;
       }
       /**
-       * <code>optional bool language_id_null = 1002;</code>
+       * <code>bool language_id_null = 1002;</code>
        */
       public Builder clearLanguageIdNull() {
         
@@ -1312,13 +1312,13 @@ public final class ImGetDirectSuccessorsTreeAd {
       private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.values.BooleanValue, io.dstore.values.BooleanValue.Builder, io.dstore.values.BooleanValueOrBuilder> onlyActiveBuilder_;
       /**
-       * <code>optional .dstore.values.BooleanValue only_active = 3;</code>
+       * <code>.dstore.values.BooleanValue only_active = 3;</code>
        */
       public boolean hasOnlyActive() {
         return onlyActiveBuilder_ != null || onlyActive_ != null;
       }
       /**
-       * <code>optional .dstore.values.BooleanValue only_active = 3;</code>
+       * <code>.dstore.values.BooleanValue only_active = 3;</code>
        */
       public io.dstore.values.BooleanValue getOnlyActive() {
         if (onlyActiveBuilder_ == null) {
@@ -1328,7 +1328,7 @@ public final class ImGetDirectSuccessorsTreeAd {
         }
       }
       /**
-       * <code>optional .dstore.values.BooleanValue only_active = 3;</code>
+       * <code>.dstore.values.BooleanValue only_active = 3;</code>
        */
       public Builder setOnlyActive(io.dstore.values.BooleanValue value) {
         if (onlyActiveBuilder_ == null) {
@@ -1344,7 +1344,7 @@ public final class ImGetDirectSuccessorsTreeAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.BooleanValue only_active = 3;</code>
+       * <code>.dstore.values.BooleanValue only_active = 3;</code>
        */
       public Builder setOnlyActive(
           io.dstore.values.BooleanValue.Builder builderForValue) {
@@ -1358,7 +1358,7 @@ public final class ImGetDirectSuccessorsTreeAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.BooleanValue only_active = 3;</code>
+       * <code>.dstore.values.BooleanValue only_active = 3;</code>
        */
       public Builder mergeOnlyActive(io.dstore.values.BooleanValue value) {
         if (onlyActiveBuilder_ == null) {
@@ -1376,7 +1376,7 @@ public final class ImGetDirectSuccessorsTreeAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.BooleanValue only_active = 3;</code>
+       * <code>.dstore.values.BooleanValue only_active = 3;</code>
        */
       public Builder clearOnlyActive() {
         if (onlyActiveBuilder_ == null) {
@@ -1390,7 +1390,7 @@ public final class ImGetDirectSuccessorsTreeAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.BooleanValue only_active = 3;</code>
+       * <code>.dstore.values.BooleanValue only_active = 3;</code>
        */
       public io.dstore.values.BooleanValue.Builder getOnlyActiveBuilder() {
         
@@ -1398,7 +1398,7 @@ public final class ImGetDirectSuccessorsTreeAd {
         return getOnlyActiveFieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .dstore.values.BooleanValue only_active = 3;</code>
+       * <code>.dstore.values.BooleanValue only_active = 3;</code>
        */
       public io.dstore.values.BooleanValueOrBuilder getOnlyActiveOrBuilder() {
         if (onlyActiveBuilder_ != null) {
@@ -1409,7 +1409,7 @@ public final class ImGetDirectSuccessorsTreeAd {
         }
       }
       /**
-       * <code>optional .dstore.values.BooleanValue only_active = 3;</code>
+       * <code>.dstore.values.BooleanValue only_active = 3;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.values.BooleanValue, io.dstore.values.BooleanValue.Builder, io.dstore.values.BooleanValueOrBuilder> 
@@ -1427,13 +1427,13 @@ public final class ImGetDirectSuccessorsTreeAd {
 
       private boolean onlyActiveNull_ ;
       /**
-       * <code>optional bool only_active_null = 1003;</code>
+       * <code>bool only_active_null = 1003;</code>
        */
       public boolean getOnlyActiveNull() {
         return onlyActiveNull_;
       }
       /**
-       * <code>optional bool only_active_null = 1003;</code>
+       * <code>bool only_active_null = 1003;</code>
        */
       public Builder setOnlyActiveNull(boolean value) {
         
@@ -1442,7 +1442,7 @@ public final class ImGetDirectSuccessorsTreeAd {
         return this;
       }
       /**
-       * <code>optional bool only_active_null = 1003;</code>
+       * <code>bool only_active_null = 1003;</code>
        */
       public Builder clearOnlyActiveNull() {
         
@@ -1455,13 +1455,13 @@ public final class ImGetDirectSuccessorsTreeAd {
       private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.values.BooleanValue, io.dstore.values.BooleanValue.Builder, io.dstore.values.BooleanValueOrBuilder> onlyNotDeletedBuilder_;
       /**
-       * <code>optional .dstore.values.BooleanValue only_not_deleted = 4;</code>
+       * <code>.dstore.values.BooleanValue only_not_deleted = 4;</code>
        */
       public boolean hasOnlyNotDeleted() {
         return onlyNotDeletedBuilder_ != null || onlyNotDeleted_ != null;
       }
       /**
-       * <code>optional .dstore.values.BooleanValue only_not_deleted = 4;</code>
+       * <code>.dstore.values.BooleanValue only_not_deleted = 4;</code>
        */
       public io.dstore.values.BooleanValue getOnlyNotDeleted() {
         if (onlyNotDeletedBuilder_ == null) {
@@ -1471,7 +1471,7 @@ public final class ImGetDirectSuccessorsTreeAd {
         }
       }
       /**
-       * <code>optional .dstore.values.BooleanValue only_not_deleted = 4;</code>
+       * <code>.dstore.values.BooleanValue only_not_deleted = 4;</code>
        */
       public Builder setOnlyNotDeleted(io.dstore.values.BooleanValue value) {
         if (onlyNotDeletedBuilder_ == null) {
@@ -1487,7 +1487,7 @@ public final class ImGetDirectSuccessorsTreeAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.BooleanValue only_not_deleted = 4;</code>
+       * <code>.dstore.values.BooleanValue only_not_deleted = 4;</code>
        */
       public Builder setOnlyNotDeleted(
           io.dstore.values.BooleanValue.Builder builderForValue) {
@@ -1501,7 +1501,7 @@ public final class ImGetDirectSuccessorsTreeAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.BooleanValue only_not_deleted = 4;</code>
+       * <code>.dstore.values.BooleanValue only_not_deleted = 4;</code>
        */
       public Builder mergeOnlyNotDeleted(io.dstore.values.BooleanValue value) {
         if (onlyNotDeletedBuilder_ == null) {
@@ -1519,7 +1519,7 @@ public final class ImGetDirectSuccessorsTreeAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.BooleanValue only_not_deleted = 4;</code>
+       * <code>.dstore.values.BooleanValue only_not_deleted = 4;</code>
        */
       public Builder clearOnlyNotDeleted() {
         if (onlyNotDeletedBuilder_ == null) {
@@ -1533,7 +1533,7 @@ public final class ImGetDirectSuccessorsTreeAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.BooleanValue only_not_deleted = 4;</code>
+       * <code>.dstore.values.BooleanValue only_not_deleted = 4;</code>
        */
       public io.dstore.values.BooleanValue.Builder getOnlyNotDeletedBuilder() {
         
@@ -1541,7 +1541,7 @@ public final class ImGetDirectSuccessorsTreeAd {
         return getOnlyNotDeletedFieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .dstore.values.BooleanValue only_not_deleted = 4;</code>
+       * <code>.dstore.values.BooleanValue only_not_deleted = 4;</code>
        */
       public io.dstore.values.BooleanValueOrBuilder getOnlyNotDeletedOrBuilder() {
         if (onlyNotDeletedBuilder_ != null) {
@@ -1552,7 +1552,7 @@ public final class ImGetDirectSuccessorsTreeAd {
         }
       }
       /**
-       * <code>optional .dstore.values.BooleanValue only_not_deleted = 4;</code>
+       * <code>.dstore.values.BooleanValue only_not_deleted = 4;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.values.BooleanValue, io.dstore.values.BooleanValue.Builder, io.dstore.values.BooleanValueOrBuilder> 
@@ -1570,13 +1570,13 @@ public final class ImGetDirectSuccessorsTreeAd {
 
       private boolean onlyNotDeletedNull_ ;
       /**
-       * <code>optional bool only_not_deleted_null = 1004;</code>
+       * <code>bool only_not_deleted_null = 1004;</code>
        */
       public boolean getOnlyNotDeletedNull() {
         return onlyNotDeletedNull_;
       }
       /**
-       * <code>optional bool only_not_deleted_null = 1004;</code>
+       * <code>bool only_not_deleted_null = 1004;</code>
        */
       public Builder setOnlyNotDeletedNull(boolean value) {
         
@@ -1585,7 +1585,7 @@ public final class ImGetDirectSuccessorsTreeAd {
         return this;
       }
       /**
-       * <code>optional bool only_not_deleted_null = 1004;</code>
+       * <code>bool only_not_deleted_null = 1004;</code>
        */
       public Builder clearOnlyNotDeletedNull() {
         
@@ -1598,13 +1598,13 @@ public final class ImGetDirectSuccessorsTreeAd {
       private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.values.BooleanValue, io.dstore.values.BooleanValue.Builder, io.dstore.values.BooleanValueOrBuilder> includeColumnLockedBuilder_;
       /**
-       * <code>optional .dstore.values.BooleanValue include_column_locked = 5;</code>
+       * <code>.dstore.values.BooleanValue include_column_locked = 5;</code>
        */
       public boolean hasIncludeColumnLocked() {
         return includeColumnLockedBuilder_ != null || includeColumnLocked_ != null;
       }
       /**
-       * <code>optional .dstore.values.BooleanValue include_column_locked = 5;</code>
+       * <code>.dstore.values.BooleanValue include_column_locked = 5;</code>
        */
       public io.dstore.values.BooleanValue getIncludeColumnLocked() {
         if (includeColumnLockedBuilder_ == null) {
@@ -1614,7 +1614,7 @@ public final class ImGetDirectSuccessorsTreeAd {
         }
       }
       /**
-       * <code>optional .dstore.values.BooleanValue include_column_locked = 5;</code>
+       * <code>.dstore.values.BooleanValue include_column_locked = 5;</code>
        */
       public Builder setIncludeColumnLocked(io.dstore.values.BooleanValue value) {
         if (includeColumnLockedBuilder_ == null) {
@@ -1630,7 +1630,7 @@ public final class ImGetDirectSuccessorsTreeAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.BooleanValue include_column_locked = 5;</code>
+       * <code>.dstore.values.BooleanValue include_column_locked = 5;</code>
        */
       public Builder setIncludeColumnLocked(
           io.dstore.values.BooleanValue.Builder builderForValue) {
@@ -1644,7 +1644,7 @@ public final class ImGetDirectSuccessorsTreeAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.BooleanValue include_column_locked = 5;</code>
+       * <code>.dstore.values.BooleanValue include_column_locked = 5;</code>
        */
       public Builder mergeIncludeColumnLocked(io.dstore.values.BooleanValue value) {
         if (includeColumnLockedBuilder_ == null) {
@@ -1662,7 +1662,7 @@ public final class ImGetDirectSuccessorsTreeAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.BooleanValue include_column_locked = 5;</code>
+       * <code>.dstore.values.BooleanValue include_column_locked = 5;</code>
        */
       public Builder clearIncludeColumnLocked() {
         if (includeColumnLockedBuilder_ == null) {
@@ -1676,7 +1676,7 @@ public final class ImGetDirectSuccessorsTreeAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.BooleanValue include_column_locked = 5;</code>
+       * <code>.dstore.values.BooleanValue include_column_locked = 5;</code>
        */
       public io.dstore.values.BooleanValue.Builder getIncludeColumnLockedBuilder() {
         
@@ -1684,7 +1684,7 @@ public final class ImGetDirectSuccessorsTreeAd {
         return getIncludeColumnLockedFieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .dstore.values.BooleanValue include_column_locked = 5;</code>
+       * <code>.dstore.values.BooleanValue include_column_locked = 5;</code>
        */
       public io.dstore.values.BooleanValueOrBuilder getIncludeColumnLockedOrBuilder() {
         if (includeColumnLockedBuilder_ != null) {
@@ -1695,7 +1695,7 @@ public final class ImGetDirectSuccessorsTreeAd {
         }
       }
       /**
-       * <code>optional .dstore.values.BooleanValue include_column_locked = 5;</code>
+       * <code>.dstore.values.BooleanValue include_column_locked = 5;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.values.BooleanValue, io.dstore.values.BooleanValue.Builder, io.dstore.values.BooleanValueOrBuilder> 
@@ -1713,13 +1713,13 @@ public final class ImGetDirectSuccessorsTreeAd {
 
       private boolean includeColumnLockedNull_ ;
       /**
-       * <code>optional bool include_column_locked_null = 1005;</code>
+       * <code>bool include_column_locked_null = 1005;</code>
        */
       public boolean getIncludeColumnLockedNull() {
         return includeColumnLockedNull_;
       }
       /**
-       * <code>optional bool include_column_locked_null = 1005;</code>
+       * <code>bool include_column_locked_null = 1005;</code>
        */
       public Builder setIncludeColumnLockedNull(boolean value) {
         
@@ -1728,7 +1728,7 @@ public final class ImGetDirectSuccessorsTreeAd {
         return this;
       }
       /**
-       * <code>optional bool include_column_locked_null = 1005;</code>
+       * <code>bool include_column_locked_null = 1005;</code>
        */
       public Builder clearIncludeColumnLockedNull() {
         
@@ -1741,13 +1741,13 @@ public final class ImGetDirectSuccessorsTreeAd {
       private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> checkLockedTreeNodesForUserIdBuilder_;
       /**
-       * <code>optional .dstore.values.IntegerValue check_locked_tree_nodes_for_user_id = 6;</code>
+       * <code>.dstore.values.IntegerValue check_locked_tree_nodes_for_user_id = 6;</code>
        */
       public boolean hasCheckLockedTreeNodesForUserId() {
         return checkLockedTreeNodesForUserIdBuilder_ != null || checkLockedTreeNodesForUserId_ != null;
       }
       /**
-       * <code>optional .dstore.values.IntegerValue check_locked_tree_nodes_for_user_id = 6;</code>
+       * <code>.dstore.values.IntegerValue check_locked_tree_nodes_for_user_id = 6;</code>
        */
       public io.dstore.values.IntegerValue getCheckLockedTreeNodesForUserId() {
         if (checkLockedTreeNodesForUserIdBuilder_ == null) {
@@ -1757,7 +1757,7 @@ public final class ImGetDirectSuccessorsTreeAd {
         }
       }
       /**
-       * <code>optional .dstore.values.IntegerValue check_locked_tree_nodes_for_user_id = 6;</code>
+       * <code>.dstore.values.IntegerValue check_locked_tree_nodes_for_user_id = 6;</code>
        */
       public Builder setCheckLockedTreeNodesForUserId(io.dstore.values.IntegerValue value) {
         if (checkLockedTreeNodesForUserIdBuilder_ == null) {
@@ -1773,7 +1773,7 @@ public final class ImGetDirectSuccessorsTreeAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.IntegerValue check_locked_tree_nodes_for_user_id = 6;</code>
+       * <code>.dstore.values.IntegerValue check_locked_tree_nodes_for_user_id = 6;</code>
        */
       public Builder setCheckLockedTreeNodesForUserId(
           io.dstore.values.IntegerValue.Builder builderForValue) {
@@ -1787,7 +1787,7 @@ public final class ImGetDirectSuccessorsTreeAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.IntegerValue check_locked_tree_nodes_for_user_id = 6;</code>
+       * <code>.dstore.values.IntegerValue check_locked_tree_nodes_for_user_id = 6;</code>
        */
       public Builder mergeCheckLockedTreeNodesForUserId(io.dstore.values.IntegerValue value) {
         if (checkLockedTreeNodesForUserIdBuilder_ == null) {
@@ -1805,7 +1805,7 @@ public final class ImGetDirectSuccessorsTreeAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.IntegerValue check_locked_tree_nodes_for_user_id = 6;</code>
+       * <code>.dstore.values.IntegerValue check_locked_tree_nodes_for_user_id = 6;</code>
        */
       public Builder clearCheckLockedTreeNodesForUserId() {
         if (checkLockedTreeNodesForUserIdBuilder_ == null) {
@@ -1819,7 +1819,7 @@ public final class ImGetDirectSuccessorsTreeAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.IntegerValue check_locked_tree_nodes_for_user_id = 6;</code>
+       * <code>.dstore.values.IntegerValue check_locked_tree_nodes_for_user_id = 6;</code>
        */
       public io.dstore.values.IntegerValue.Builder getCheckLockedTreeNodesForUserIdBuilder() {
         
@@ -1827,7 +1827,7 @@ public final class ImGetDirectSuccessorsTreeAd {
         return getCheckLockedTreeNodesForUserIdFieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .dstore.values.IntegerValue check_locked_tree_nodes_for_user_id = 6;</code>
+       * <code>.dstore.values.IntegerValue check_locked_tree_nodes_for_user_id = 6;</code>
        */
       public io.dstore.values.IntegerValueOrBuilder getCheckLockedTreeNodesForUserIdOrBuilder() {
         if (checkLockedTreeNodesForUserIdBuilder_ != null) {
@@ -1838,7 +1838,7 @@ public final class ImGetDirectSuccessorsTreeAd {
         }
       }
       /**
-       * <code>optional .dstore.values.IntegerValue check_locked_tree_nodes_for_user_id = 6;</code>
+       * <code>.dstore.values.IntegerValue check_locked_tree_nodes_for_user_id = 6;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> 
@@ -1856,13 +1856,13 @@ public final class ImGetDirectSuccessorsTreeAd {
 
       private boolean checkLockedTreeNodesForUserIdNull_ ;
       /**
-       * <code>optional bool check_locked_tree_nodes_for_user_id_null = 1006;</code>
+       * <code>bool check_locked_tree_nodes_for_user_id_null = 1006;</code>
        */
       public boolean getCheckLockedTreeNodesForUserIdNull() {
         return checkLockedTreeNodesForUserIdNull_;
       }
       /**
-       * <code>optional bool check_locked_tree_nodes_for_user_id_null = 1006;</code>
+       * <code>bool check_locked_tree_nodes_for_user_id_null = 1006;</code>
        */
       public Builder setCheckLockedTreeNodesForUserIdNull(boolean value) {
         
@@ -1871,7 +1871,7 @@ public final class ImGetDirectSuccessorsTreeAd {
         return this;
       }
       /**
-       * <code>optional bool check_locked_tree_nodes_for_user_id_null = 1006;</code>
+       * <code>bool check_locked_tree_nodes_for_user_id_null = 1006;</code>
        */
       public Builder clearCheckLockedTreeNodesForUserIdNull() {
         
@@ -2130,7 +2130,7 @@ public final class ImGetDirectSuccessorsTreeAd {
         com.google.protobuf.MessageOrBuilder {
 
       /**
-       * <code>optional int32 row_id = 10000;</code>
+       * <code>int32 row_id = 10000;</code>
        */
       int getRowId();
 
@@ -2139,7 +2139,7 @@ public final class ImGetDirectSuccessorsTreeAd {
        * Anzahl Vorgänger von "TreeNodeID" plus 1
        * </pre>
        *
-       * <code>optional .dstore.values.IntegerValue tree_level = 10001;</code>
+       * <code>.dstore.values.IntegerValue tree_level = 10001;</code>
        */
       boolean hasTreeLevel();
       /**
@@ -2147,7 +2147,7 @@ public final class ImGetDirectSuccessorsTreeAd {
        * Anzahl Vorgänger von "TreeNodeID" plus 1
        * </pre>
        *
-       * <code>optional .dstore.values.IntegerValue tree_level = 10001;</code>
+       * <code>.dstore.values.IntegerValue tree_level = 10001;</code>
        */
       io.dstore.values.IntegerValue getTreeLevel();
       /**
@@ -2155,7 +2155,7 @@ public final class ImGetDirectSuccessorsTreeAd {
        * Anzahl Vorgänger von "TreeNodeID" plus 1
        * </pre>
        *
-       * <code>optional .dstore.values.IntegerValue tree_level = 10001;</code>
+       * <code>.dstore.values.IntegerValue tree_level = 10001;</code>
        */
       io.dstore.values.IntegerValueOrBuilder getTreeLevelOrBuilder();
 
@@ -2164,7 +2164,7 @@ public final class ImGetDirectSuccessorsTreeAd {
        * Bezeichnung der "NodeID"
        * </pre>
        *
-       * <code>optional .dstore.values.StringValue node_description = 10002;</code>
+       * <code>.dstore.values.StringValue node_description = 10002;</code>
        */
       boolean hasNodeDescription();
       /**
@@ -2172,7 +2172,7 @@ public final class ImGetDirectSuccessorsTreeAd {
        * Bezeichnung der "NodeID"
        * </pre>
        *
-       * <code>optional .dstore.values.StringValue node_description = 10002;</code>
+       * <code>.dstore.values.StringValue node_description = 10002;</code>
        */
       io.dstore.values.StringValue getNodeDescription();
       /**
@@ -2180,7 +2180,7 @@ public final class ImGetDirectSuccessorsTreeAd {
        * Bezeichnung der "NodeID"
        * </pre>
        *
-       * <code>optional .dstore.values.StringValue node_description = 10002;</code>
+       * <code>.dstore.values.StringValue node_description = 10002;</code>
        */
       io.dstore.values.StringValueOrBuilder getNodeDescriptionOrBuilder();
 
@@ -2189,7 +2189,7 @@ public final class ImGetDirectSuccessorsTreeAd {
        * ID des Vorgängers von "TreeNodeID"
        * </pre>
        *
-       * <code>optional .dstore.values.IntegerValue predecessor = 10003;</code>
+       * <code>.dstore.values.IntegerValue predecessor = 10003;</code>
        */
       boolean hasPredecessor();
       /**
@@ -2197,7 +2197,7 @@ public final class ImGetDirectSuccessorsTreeAd {
        * ID des Vorgängers von "TreeNodeID"
        * </pre>
        *
-       * <code>optional .dstore.values.IntegerValue predecessor = 10003;</code>
+       * <code>.dstore.values.IntegerValue predecessor = 10003;</code>
        */
       io.dstore.values.IntegerValue getPredecessor();
       /**
@@ -2205,7 +2205,7 @@ public final class ImGetDirectSuccessorsTreeAd {
        * ID des Vorgängers von "TreeNodeID"
        * </pre>
        *
-       * <code>optional .dstore.values.IntegerValue predecessor = 10003;</code>
+       * <code>.dstore.values.IntegerValue predecessor = 10003;</code>
        */
       io.dstore.values.IntegerValueOrBuilder getPredecessorOrBuilder();
 
@@ -2214,7 +2214,7 @@ public final class ImGetDirectSuccessorsTreeAd {
        * Ist "TreeNodeID" z.Zt. aktiviert ? ("0" : Nein, "1" : Ja)
        * </pre>
        *
-       * <code>optional .dstore.values.BooleanValue active = 10004;</code>
+       * <code>.dstore.values.BooleanValue active = 10004;</code>
        */
       boolean hasActive();
       /**
@@ -2222,7 +2222,7 @@ public final class ImGetDirectSuccessorsTreeAd {
        * Ist "TreeNodeID" z.Zt. aktiviert ? ("0" : Nein, "1" : Ja)
        * </pre>
        *
-       * <code>optional .dstore.values.BooleanValue active = 10004;</code>
+       * <code>.dstore.values.BooleanValue active = 10004;</code>
        */
       io.dstore.values.BooleanValue getActive();
       /**
@@ -2230,7 +2230,7 @@ public final class ImGetDirectSuccessorsTreeAd {
        * Ist "TreeNodeID" z.Zt. aktiviert ? ("0" : Nein, "1" : Ja)
        * </pre>
        *
-       * <code>optional .dstore.values.BooleanValue active = 10004;</code>
+       * <code>.dstore.values.BooleanValue active = 10004;</code>
        */
       io.dstore.values.BooleanValueOrBuilder getActiveOrBuilder();
 
@@ -2239,7 +2239,7 @@ public final class ImGetDirectSuccessorsTreeAd {
        * Nummer der Hierarchie der "NodeID"
        * </pre>
        *
-       * <code>optional .dstore.values.IntegerValue level_no = 10005;</code>
+       * <code>.dstore.values.IntegerValue level_no = 10005;</code>
        */
       boolean hasLevelNo();
       /**
@@ -2247,7 +2247,7 @@ public final class ImGetDirectSuccessorsTreeAd {
        * Nummer der Hierarchie der "NodeID"
        * </pre>
        *
-       * <code>optional .dstore.values.IntegerValue level_no = 10005;</code>
+       * <code>.dstore.values.IntegerValue level_no = 10005;</code>
        */
       io.dstore.values.IntegerValue getLevelNo();
       /**
@@ -2255,7 +2255,7 @@ public final class ImGetDirectSuccessorsTreeAd {
        * Nummer der Hierarchie der "NodeID"
        * </pre>
        *
-       * <code>optional .dstore.values.IntegerValue level_no = 10005;</code>
+       * <code>.dstore.values.IntegerValue level_no = 10005;</code>
        */
       io.dstore.values.IntegerValueOrBuilder getLevelNoOrBuilder();
 
@@ -2264,7 +2264,7 @@ public final class ImGetDirectSuccessorsTreeAd {
        * Gibt es ein nächstes "Geschwister-Element", also ein anderes Element des Artikelbaums, das ebenfalls "Predecessor" als Vorgänger hat und dessen "SortNo" um 1 niedriger ist als die "SortNo" von "TreeNodeID" ?
        * </pre>
        *
-       * <code>optional .dstore.values.BooleanValue has_next_sibling = 10006;</code>
+       * <code>.dstore.values.BooleanValue has_next_sibling = 10006;</code>
        */
       boolean hasHasNextSibling();
       /**
@@ -2272,7 +2272,7 @@ public final class ImGetDirectSuccessorsTreeAd {
        * Gibt es ein nächstes "Geschwister-Element", also ein anderes Element des Artikelbaums, das ebenfalls "Predecessor" als Vorgänger hat und dessen "SortNo" um 1 niedriger ist als die "SortNo" von "TreeNodeID" ?
        * </pre>
        *
-       * <code>optional .dstore.values.BooleanValue has_next_sibling = 10006;</code>
+       * <code>.dstore.values.BooleanValue has_next_sibling = 10006;</code>
        */
       io.dstore.values.BooleanValue getHasNextSibling();
       /**
@@ -2280,7 +2280,7 @@ public final class ImGetDirectSuccessorsTreeAd {
        * Gibt es ein nächstes "Geschwister-Element", also ein anderes Element des Artikelbaums, das ebenfalls "Predecessor" als Vorgänger hat und dessen "SortNo" um 1 niedriger ist als die "SortNo" von "TreeNodeID" ?
        * </pre>
        *
-       * <code>optional .dstore.values.BooleanValue has_next_sibling = 10006;</code>
+       * <code>.dstore.values.BooleanValue has_next_sibling = 10006;</code>
        */
       io.dstore.values.BooleanValueOrBuilder getHasNextSiblingOrBuilder();
 
@@ -2289,7 +2289,7 @@ public final class ImGetDirectSuccessorsTreeAd {
        * Ist dieses Element für den Benutzer "&#64;CheckLockedTreeNodesForUserID" gesperrt ?
        * </pre>
        *
-       * <code>optional .dstore.values.BooleanValue locked_for_user_id = 10007;</code>
+       * <code>.dstore.values.BooleanValue locked_for_user_id = 10007;</code>
        */
       boolean hasLockedForUserId();
       /**
@@ -2297,7 +2297,7 @@ public final class ImGetDirectSuccessorsTreeAd {
        * Ist dieses Element für den Benutzer "&#64;CheckLockedTreeNodesForUserID" gesperrt ?
        * </pre>
        *
-       * <code>optional .dstore.values.BooleanValue locked_for_user_id = 10007;</code>
+       * <code>.dstore.values.BooleanValue locked_for_user_id = 10007;</code>
        */
       io.dstore.values.BooleanValue getLockedForUserId();
       /**
@@ -2305,7 +2305,7 @@ public final class ImGetDirectSuccessorsTreeAd {
        * Ist dieses Element für den Benutzer "&#64;CheckLockedTreeNodesForUserID" gesperrt ?
        * </pre>
        *
-       * <code>optional .dstore.values.BooleanValue locked_for_user_id = 10007;</code>
+       * <code>.dstore.values.BooleanValue locked_for_user_id = 10007;</code>
        */
       io.dstore.values.BooleanValueOrBuilder getLockedForUserIdOrBuilder();
 
@@ -2314,7 +2314,7 @@ public final class ImGetDirectSuccessorsTreeAd {
        * ID eines Elementes im Artikelbaum
        * </pre>
        *
-       * <code>optional .dstore.values.IntegerValue tree_node_id = 10008;</code>
+       * <code>.dstore.values.IntegerValue tree_node_id = 10008;</code>
        */
       boolean hasTreeNodeId();
       /**
@@ -2322,7 +2322,7 @@ public final class ImGetDirectSuccessorsTreeAd {
        * ID eines Elementes im Artikelbaum
        * </pre>
        *
-       * <code>optional .dstore.values.IntegerValue tree_node_id = 10008;</code>
+       * <code>.dstore.values.IntegerValue tree_node_id = 10008;</code>
        */
       io.dstore.values.IntegerValue getTreeNodeId();
       /**
@@ -2330,7 +2330,7 @@ public final class ImGetDirectSuccessorsTreeAd {
        * ID eines Elementes im Artikelbaum
        * </pre>
        *
-       * <code>optional .dstore.values.IntegerValue tree_node_id = 10008;</code>
+       * <code>.dstore.values.IntegerValue tree_node_id = 10008;</code>
        */
       io.dstore.values.IntegerValueOrBuilder getTreeNodeIdOrBuilder();
 
@@ -2339,7 +2339,7 @@ public final class ImGetDirectSuccessorsTreeAd {
        * ID des zur "TreeNodeID" zugehörigen Artikelelementes
        * </pre>
        *
-       * <code>optional .dstore.values.IntegerValue node_id = 10009;</code>
+       * <code>.dstore.values.IntegerValue node_id = 10009;</code>
        */
       boolean hasNodeId();
       /**
@@ -2347,7 +2347,7 @@ public final class ImGetDirectSuccessorsTreeAd {
        * ID des zur "TreeNodeID" zugehörigen Artikelelementes
        * </pre>
        *
-       * <code>optional .dstore.values.IntegerValue node_id = 10009;</code>
+       * <code>.dstore.values.IntegerValue node_id = 10009;</code>
        */
       io.dstore.values.IntegerValue getNodeId();
       /**
@@ -2355,7 +2355,7 @@ public final class ImGetDirectSuccessorsTreeAd {
        * ID des zur "TreeNodeID" zugehörigen Artikelelementes
        * </pre>
        *
-       * <code>optional .dstore.values.IntegerValue node_id = 10009;</code>
+       * <code>.dstore.values.IntegerValue node_id = 10009;</code>
        */
       io.dstore.values.IntegerValueOrBuilder getNodeIdOrBuilder();
 
@@ -2364,7 +2364,7 @@ public final class ImGetDirectSuccessorsTreeAd {
        * Hat "TreeNodeID" selbst Nachfolger ?
        * </pre>
        *
-       * <code>optional .dstore.values.BooleanValue has_successors = 10010;</code>
+       * <code>.dstore.values.BooleanValue has_successors = 10010;</code>
        */
       boolean hasHasSuccessors();
       /**
@@ -2372,7 +2372,7 @@ public final class ImGetDirectSuccessorsTreeAd {
        * Hat "TreeNodeID" selbst Nachfolger ?
        * </pre>
        *
-       * <code>optional .dstore.values.BooleanValue has_successors = 10010;</code>
+       * <code>.dstore.values.BooleanValue has_successors = 10010;</code>
        */
       io.dstore.values.BooleanValue getHasSuccessors();
       /**
@@ -2380,7 +2380,7 @@ public final class ImGetDirectSuccessorsTreeAd {
        * Hat "TreeNodeID" selbst Nachfolger ?
        * </pre>
        *
-       * <code>optional .dstore.values.BooleanValue has_successors = 10010;</code>
+       * <code>.dstore.values.BooleanValue has_successors = 10010;</code>
        */
       io.dstore.values.BooleanValueOrBuilder getHasSuccessorsOrBuilder();
 
@@ -2389,7 +2389,7 @@ public final class ImGetDirectSuccessorsTreeAd {
        * Ist "TreeNodeID" bereits gelöscht ? ("0" : Nein, "1" : Ja)
        * </pre>
        *
-       * <code>optional .dstore.values.BooleanValue deleted = 10011;</code>
+       * <code>.dstore.values.BooleanValue deleted = 10011;</code>
        */
       boolean hasDeleted();
       /**
@@ -2397,7 +2397,7 @@ public final class ImGetDirectSuccessorsTreeAd {
        * Ist "TreeNodeID" bereits gelöscht ? ("0" : Nein, "1" : Ja)
        * </pre>
        *
-       * <code>optional .dstore.values.BooleanValue deleted = 10011;</code>
+       * <code>.dstore.values.BooleanValue deleted = 10011;</code>
        */
       io.dstore.values.BooleanValue getDeleted();
       /**
@@ -2405,7 +2405,7 @@ public final class ImGetDirectSuccessorsTreeAd {
        * Ist "TreeNodeID" bereits gelöscht ? ("0" : Nein, "1" : Ja)
        * </pre>
        *
-       * <code>optional .dstore.values.BooleanValue deleted = 10011;</code>
+       * <code>.dstore.values.BooleanValue deleted = 10011;</code>
        */
       io.dstore.values.BooleanValueOrBuilder getDeletedOrBuilder();
     }
@@ -2623,7 +2623,7 @@ public final class ImGetDirectSuccessorsTreeAd {
       public static final int ROW_ID_FIELD_NUMBER = 10000;
       private int rowId_;
       /**
-       * <code>optional int32 row_id = 10000;</code>
+       * <code>int32 row_id = 10000;</code>
        */
       public int getRowId() {
         return rowId_;
@@ -2636,7 +2636,7 @@ public final class ImGetDirectSuccessorsTreeAd {
        * Anzahl Vorgänger von "TreeNodeID" plus 1
        * </pre>
        *
-       * <code>optional .dstore.values.IntegerValue tree_level = 10001;</code>
+       * <code>.dstore.values.IntegerValue tree_level = 10001;</code>
        */
       public boolean hasTreeLevel() {
         return treeLevel_ != null;
@@ -2646,7 +2646,7 @@ public final class ImGetDirectSuccessorsTreeAd {
        * Anzahl Vorgänger von "TreeNodeID" plus 1
        * </pre>
        *
-       * <code>optional .dstore.values.IntegerValue tree_level = 10001;</code>
+       * <code>.dstore.values.IntegerValue tree_level = 10001;</code>
        */
       public io.dstore.values.IntegerValue getTreeLevel() {
         return treeLevel_ == null ? io.dstore.values.IntegerValue.getDefaultInstance() : treeLevel_;
@@ -2656,7 +2656,7 @@ public final class ImGetDirectSuccessorsTreeAd {
        * Anzahl Vorgänger von "TreeNodeID" plus 1
        * </pre>
        *
-       * <code>optional .dstore.values.IntegerValue tree_level = 10001;</code>
+       * <code>.dstore.values.IntegerValue tree_level = 10001;</code>
        */
       public io.dstore.values.IntegerValueOrBuilder getTreeLevelOrBuilder() {
         return getTreeLevel();
@@ -2669,7 +2669,7 @@ public final class ImGetDirectSuccessorsTreeAd {
        * Bezeichnung der "NodeID"
        * </pre>
        *
-       * <code>optional .dstore.values.StringValue node_description = 10002;</code>
+       * <code>.dstore.values.StringValue node_description = 10002;</code>
        */
       public boolean hasNodeDescription() {
         return nodeDescription_ != null;
@@ -2679,7 +2679,7 @@ public final class ImGetDirectSuccessorsTreeAd {
        * Bezeichnung der "NodeID"
        * </pre>
        *
-       * <code>optional .dstore.values.StringValue node_description = 10002;</code>
+       * <code>.dstore.values.StringValue node_description = 10002;</code>
        */
       public io.dstore.values.StringValue getNodeDescription() {
         return nodeDescription_ == null ? io.dstore.values.StringValue.getDefaultInstance() : nodeDescription_;
@@ -2689,7 +2689,7 @@ public final class ImGetDirectSuccessorsTreeAd {
        * Bezeichnung der "NodeID"
        * </pre>
        *
-       * <code>optional .dstore.values.StringValue node_description = 10002;</code>
+       * <code>.dstore.values.StringValue node_description = 10002;</code>
        */
       public io.dstore.values.StringValueOrBuilder getNodeDescriptionOrBuilder() {
         return getNodeDescription();
@@ -2702,7 +2702,7 @@ public final class ImGetDirectSuccessorsTreeAd {
        * ID des Vorgängers von "TreeNodeID"
        * </pre>
        *
-       * <code>optional .dstore.values.IntegerValue predecessor = 10003;</code>
+       * <code>.dstore.values.IntegerValue predecessor = 10003;</code>
        */
       public boolean hasPredecessor() {
         return predecessor_ != null;
@@ -2712,7 +2712,7 @@ public final class ImGetDirectSuccessorsTreeAd {
        * ID des Vorgängers von "TreeNodeID"
        * </pre>
        *
-       * <code>optional .dstore.values.IntegerValue predecessor = 10003;</code>
+       * <code>.dstore.values.IntegerValue predecessor = 10003;</code>
        */
       public io.dstore.values.IntegerValue getPredecessor() {
         return predecessor_ == null ? io.dstore.values.IntegerValue.getDefaultInstance() : predecessor_;
@@ -2722,7 +2722,7 @@ public final class ImGetDirectSuccessorsTreeAd {
        * ID des Vorgängers von "TreeNodeID"
        * </pre>
        *
-       * <code>optional .dstore.values.IntegerValue predecessor = 10003;</code>
+       * <code>.dstore.values.IntegerValue predecessor = 10003;</code>
        */
       public io.dstore.values.IntegerValueOrBuilder getPredecessorOrBuilder() {
         return getPredecessor();
@@ -2735,7 +2735,7 @@ public final class ImGetDirectSuccessorsTreeAd {
        * Ist "TreeNodeID" z.Zt. aktiviert ? ("0" : Nein, "1" : Ja)
        * </pre>
        *
-       * <code>optional .dstore.values.BooleanValue active = 10004;</code>
+       * <code>.dstore.values.BooleanValue active = 10004;</code>
        */
       public boolean hasActive() {
         return active_ != null;
@@ -2745,7 +2745,7 @@ public final class ImGetDirectSuccessorsTreeAd {
        * Ist "TreeNodeID" z.Zt. aktiviert ? ("0" : Nein, "1" : Ja)
        * </pre>
        *
-       * <code>optional .dstore.values.BooleanValue active = 10004;</code>
+       * <code>.dstore.values.BooleanValue active = 10004;</code>
        */
       public io.dstore.values.BooleanValue getActive() {
         return active_ == null ? io.dstore.values.BooleanValue.getDefaultInstance() : active_;
@@ -2755,7 +2755,7 @@ public final class ImGetDirectSuccessorsTreeAd {
        * Ist "TreeNodeID" z.Zt. aktiviert ? ("0" : Nein, "1" : Ja)
        * </pre>
        *
-       * <code>optional .dstore.values.BooleanValue active = 10004;</code>
+       * <code>.dstore.values.BooleanValue active = 10004;</code>
        */
       public io.dstore.values.BooleanValueOrBuilder getActiveOrBuilder() {
         return getActive();
@@ -2768,7 +2768,7 @@ public final class ImGetDirectSuccessorsTreeAd {
        * Nummer der Hierarchie der "NodeID"
        * </pre>
        *
-       * <code>optional .dstore.values.IntegerValue level_no = 10005;</code>
+       * <code>.dstore.values.IntegerValue level_no = 10005;</code>
        */
       public boolean hasLevelNo() {
         return levelNo_ != null;
@@ -2778,7 +2778,7 @@ public final class ImGetDirectSuccessorsTreeAd {
        * Nummer der Hierarchie der "NodeID"
        * </pre>
        *
-       * <code>optional .dstore.values.IntegerValue level_no = 10005;</code>
+       * <code>.dstore.values.IntegerValue level_no = 10005;</code>
        */
       public io.dstore.values.IntegerValue getLevelNo() {
         return levelNo_ == null ? io.dstore.values.IntegerValue.getDefaultInstance() : levelNo_;
@@ -2788,7 +2788,7 @@ public final class ImGetDirectSuccessorsTreeAd {
        * Nummer der Hierarchie der "NodeID"
        * </pre>
        *
-       * <code>optional .dstore.values.IntegerValue level_no = 10005;</code>
+       * <code>.dstore.values.IntegerValue level_no = 10005;</code>
        */
       public io.dstore.values.IntegerValueOrBuilder getLevelNoOrBuilder() {
         return getLevelNo();
@@ -2801,7 +2801,7 @@ public final class ImGetDirectSuccessorsTreeAd {
        * Gibt es ein nächstes "Geschwister-Element", also ein anderes Element des Artikelbaums, das ebenfalls "Predecessor" als Vorgänger hat und dessen "SortNo" um 1 niedriger ist als die "SortNo" von "TreeNodeID" ?
        * </pre>
        *
-       * <code>optional .dstore.values.BooleanValue has_next_sibling = 10006;</code>
+       * <code>.dstore.values.BooleanValue has_next_sibling = 10006;</code>
        */
       public boolean hasHasNextSibling() {
         return hasNextSibling_ != null;
@@ -2811,7 +2811,7 @@ public final class ImGetDirectSuccessorsTreeAd {
        * Gibt es ein nächstes "Geschwister-Element", also ein anderes Element des Artikelbaums, das ebenfalls "Predecessor" als Vorgänger hat und dessen "SortNo" um 1 niedriger ist als die "SortNo" von "TreeNodeID" ?
        * </pre>
        *
-       * <code>optional .dstore.values.BooleanValue has_next_sibling = 10006;</code>
+       * <code>.dstore.values.BooleanValue has_next_sibling = 10006;</code>
        */
       public io.dstore.values.BooleanValue getHasNextSibling() {
         return hasNextSibling_ == null ? io.dstore.values.BooleanValue.getDefaultInstance() : hasNextSibling_;
@@ -2821,7 +2821,7 @@ public final class ImGetDirectSuccessorsTreeAd {
        * Gibt es ein nächstes "Geschwister-Element", also ein anderes Element des Artikelbaums, das ebenfalls "Predecessor" als Vorgänger hat und dessen "SortNo" um 1 niedriger ist als die "SortNo" von "TreeNodeID" ?
        * </pre>
        *
-       * <code>optional .dstore.values.BooleanValue has_next_sibling = 10006;</code>
+       * <code>.dstore.values.BooleanValue has_next_sibling = 10006;</code>
        */
       public io.dstore.values.BooleanValueOrBuilder getHasNextSiblingOrBuilder() {
         return getHasNextSibling();
@@ -2834,7 +2834,7 @@ public final class ImGetDirectSuccessorsTreeAd {
        * Ist dieses Element für den Benutzer "&#64;CheckLockedTreeNodesForUserID" gesperrt ?
        * </pre>
        *
-       * <code>optional .dstore.values.BooleanValue locked_for_user_id = 10007;</code>
+       * <code>.dstore.values.BooleanValue locked_for_user_id = 10007;</code>
        */
       public boolean hasLockedForUserId() {
         return lockedForUserId_ != null;
@@ -2844,7 +2844,7 @@ public final class ImGetDirectSuccessorsTreeAd {
        * Ist dieses Element für den Benutzer "&#64;CheckLockedTreeNodesForUserID" gesperrt ?
        * </pre>
        *
-       * <code>optional .dstore.values.BooleanValue locked_for_user_id = 10007;</code>
+       * <code>.dstore.values.BooleanValue locked_for_user_id = 10007;</code>
        */
       public io.dstore.values.BooleanValue getLockedForUserId() {
         return lockedForUserId_ == null ? io.dstore.values.BooleanValue.getDefaultInstance() : lockedForUserId_;
@@ -2854,7 +2854,7 @@ public final class ImGetDirectSuccessorsTreeAd {
        * Ist dieses Element für den Benutzer "&#64;CheckLockedTreeNodesForUserID" gesperrt ?
        * </pre>
        *
-       * <code>optional .dstore.values.BooleanValue locked_for_user_id = 10007;</code>
+       * <code>.dstore.values.BooleanValue locked_for_user_id = 10007;</code>
        */
       public io.dstore.values.BooleanValueOrBuilder getLockedForUserIdOrBuilder() {
         return getLockedForUserId();
@@ -2867,7 +2867,7 @@ public final class ImGetDirectSuccessorsTreeAd {
        * ID eines Elementes im Artikelbaum
        * </pre>
        *
-       * <code>optional .dstore.values.IntegerValue tree_node_id = 10008;</code>
+       * <code>.dstore.values.IntegerValue tree_node_id = 10008;</code>
        */
       public boolean hasTreeNodeId() {
         return treeNodeId_ != null;
@@ -2877,7 +2877,7 @@ public final class ImGetDirectSuccessorsTreeAd {
        * ID eines Elementes im Artikelbaum
        * </pre>
        *
-       * <code>optional .dstore.values.IntegerValue tree_node_id = 10008;</code>
+       * <code>.dstore.values.IntegerValue tree_node_id = 10008;</code>
        */
       public io.dstore.values.IntegerValue getTreeNodeId() {
         return treeNodeId_ == null ? io.dstore.values.IntegerValue.getDefaultInstance() : treeNodeId_;
@@ -2887,7 +2887,7 @@ public final class ImGetDirectSuccessorsTreeAd {
        * ID eines Elementes im Artikelbaum
        * </pre>
        *
-       * <code>optional .dstore.values.IntegerValue tree_node_id = 10008;</code>
+       * <code>.dstore.values.IntegerValue tree_node_id = 10008;</code>
        */
       public io.dstore.values.IntegerValueOrBuilder getTreeNodeIdOrBuilder() {
         return getTreeNodeId();
@@ -2900,7 +2900,7 @@ public final class ImGetDirectSuccessorsTreeAd {
        * ID des zur "TreeNodeID" zugehörigen Artikelelementes
        * </pre>
        *
-       * <code>optional .dstore.values.IntegerValue node_id = 10009;</code>
+       * <code>.dstore.values.IntegerValue node_id = 10009;</code>
        */
       public boolean hasNodeId() {
         return nodeId_ != null;
@@ -2910,7 +2910,7 @@ public final class ImGetDirectSuccessorsTreeAd {
        * ID des zur "TreeNodeID" zugehörigen Artikelelementes
        * </pre>
        *
-       * <code>optional .dstore.values.IntegerValue node_id = 10009;</code>
+       * <code>.dstore.values.IntegerValue node_id = 10009;</code>
        */
       public io.dstore.values.IntegerValue getNodeId() {
         return nodeId_ == null ? io.dstore.values.IntegerValue.getDefaultInstance() : nodeId_;
@@ -2920,7 +2920,7 @@ public final class ImGetDirectSuccessorsTreeAd {
        * ID des zur "TreeNodeID" zugehörigen Artikelelementes
        * </pre>
        *
-       * <code>optional .dstore.values.IntegerValue node_id = 10009;</code>
+       * <code>.dstore.values.IntegerValue node_id = 10009;</code>
        */
       public io.dstore.values.IntegerValueOrBuilder getNodeIdOrBuilder() {
         return getNodeId();
@@ -2933,7 +2933,7 @@ public final class ImGetDirectSuccessorsTreeAd {
        * Hat "TreeNodeID" selbst Nachfolger ?
        * </pre>
        *
-       * <code>optional .dstore.values.BooleanValue has_successors = 10010;</code>
+       * <code>.dstore.values.BooleanValue has_successors = 10010;</code>
        */
       public boolean hasHasSuccessors() {
         return hasSuccessors_ != null;
@@ -2943,7 +2943,7 @@ public final class ImGetDirectSuccessorsTreeAd {
        * Hat "TreeNodeID" selbst Nachfolger ?
        * </pre>
        *
-       * <code>optional .dstore.values.BooleanValue has_successors = 10010;</code>
+       * <code>.dstore.values.BooleanValue has_successors = 10010;</code>
        */
       public io.dstore.values.BooleanValue getHasSuccessors() {
         return hasSuccessors_ == null ? io.dstore.values.BooleanValue.getDefaultInstance() : hasSuccessors_;
@@ -2953,7 +2953,7 @@ public final class ImGetDirectSuccessorsTreeAd {
        * Hat "TreeNodeID" selbst Nachfolger ?
        * </pre>
        *
-       * <code>optional .dstore.values.BooleanValue has_successors = 10010;</code>
+       * <code>.dstore.values.BooleanValue has_successors = 10010;</code>
        */
       public io.dstore.values.BooleanValueOrBuilder getHasSuccessorsOrBuilder() {
         return getHasSuccessors();
@@ -2966,7 +2966,7 @@ public final class ImGetDirectSuccessorsTreeAd {
        * Ist "TreeNodeID" bereits gelöscht ? ("0" : Nein, "1" : Ja)
        * </pre>
        *
-       * <code>optional .dstore.values.BooleanValue deleted = 10011;</code>
+       * <code>.dstore.values.BooleanValue deleted = 10011;</code>
        */
       public boolean hasDeleted() {
         return deleted_ != null;
@@ -2976,7 +2976,7 @@ public final class ImGetDirectSuccessorsTreeAd {
        * Ist "TreeNodeID" bereits gelöscht ? ("0" : Nein, "1" : Ja)
        * </pre>
        *
-       * <code>optional .dstore.values.BooleanValue deleted = 10011;</code>
+       * <code>.dstore.values.BooleanValue deleted = 10011;</code>
        */
       public io.dstore.values.BooleanValue getDeleted() {
         return deleted_ == null ? io.dstore.values.BooleanValue.getDefaultInstance() : deleted_;
@@ -2986,7 +2986,7 @@ public final class ImGetDirectSuccessorsTreeAd {
        * Ist "TreeNodeID" bereits gelöscht ? ("0" : Nein, "1" : Ja)
        * </pre>
        *
-       * <code>optional .dstore.values.BooleanValue deleted = 10011;</code>
+       * <code>.dstore.values.BooleanValue deleted = 10011;</code>
        */
       public io.dstore.values.BooleanValueOrBuilder getDeletedOrBuilder() {
         return getDeleted();
@@ -3177,7 +3177,7 @@ public final class ImGetDirectSuccessorsTreeAd {
           return memoizedHashCode;
         }
         int hash = 41;
-        hash = (19 * hash) + getDescriptorForType().hashCode();
+        hash = (19 * hash) + getDescriptor().hashCode();
         hash = (37 * hash) + ROW_ID_FIELD_NUMBER;
         hash = (53 * hash) + getRowId();
         if (hasTreeLevel()) {
@@ -3593,13 +3593,13 @@ public final class ImGetDirectSuccessorsTreeAd {
 
         private int rowId_ ;
         /**
-         * <code>optional int32 row_id = 10000;</code>
+         * <code>int32 row_id = 10000;</code>
          */
         public int getRowId() {
           return rowId_;
         }
         /**
-         * <code>optional int32 row_id = 10000;</code>
+         * <code>int32 row_id = 10000;</code>
          */
         public Builder setRowId(int value) {
           
@@ -3608,7 +3608,7 @@ public final class ImGetDirectSuccessorsTreeAd {
           return this;
         }
         /**
-         * <code>optional int32 row_id = 10000;</code>
+         * <code>int32 row_id = 10000;</code>
          */
         public Builder clearRowId() {
           
@@ -3625,7 +3625,7 @@ public final class ImGetDirectSuccessorsTreeAd {
          * Anzahl Vorgänger von "TreeNodeID" plus 1
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue tree_level = 10001;</code>
+         * <code>.dstore.values.IntegerValue tree_level = 10001;</code>
          */
         public boolean hasTreeLevel() {
           return treeLevelBuilder_ != null || treeLevel_ != null;
@@ -3635,7 +3635,7 @@ public final class ImGetDirectSuccessorsTreeAd {
          * Anzahl Vorgänger von "TreeNodeID" plus 1
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue tree_level = 10001;</code>
+         * <code>.dstore.values.IntegerValue tree_level = 10001;</code>
          */
         public io.dstore.values.IntegerValue getTreeLevel() {
           if (treeLevelBuilder_ == null) {
@@ -3649,7 +3649,7 @@ public final class ImGetDirectSuccessorsTreeAd {
          * Anzahl Vorgänger von "TreeNodeID" plus 1
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue tree_level = 10001;</code>
+         * <code>.dstore.values.IntegerValue tree_level = 10001;</code>
          */
         public Builder setTreeLevel(io.dstore.values.IntegerValue value) {
           if (treeLevelBuilder_ == null) {
@@ -3669,7 +3669,7 @@ public final class ImGetDirectSuccessorsTreeAd {
          * Anzahl Vorgänger von "TreeNodeID" plus 1
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue tree_level = 10001;</code>
+         * <code>.dstore.values.IntegerValue tree_level = 10001;</code>
          */
         public Builder setTreeLevel(
             io.dstore.values.IntegerValue.Builder builderForValue) {
@@ -3687,7 +3687,7 @@ public final class ImGetDirectSuccessorsTreeAd {
          * Anzahl Vorgänger von "TreeNodeID" plus 1
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue tree_level = 10001;</code>
+         * <code>.dstore.values.IntegerValue tree_level = 10001;</code>
          */
         public Builder mergeTreeLevel(io.dstore.values.IntegerValue value) {
           if (treeLevelBuilder_ == null) {
@@ -3709,7 +3709,7 @@ public final class ImGetDirectSuccessorsTreeAd {
          * Anzahl Vorgänger von "TreeNodeID" plus 1
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue tree_level = 10001;</code>
+         * <code>.dstore.values.IntegerValue tree_level = 10001;</code>
          */
         public Builder clearTreeLevel() {
           if (treeLevelBuilder_ == null) {
@@ -3727,7 +3727,7 @@ public final class ImGetDirectSuccessorsTreeAd {
          * Anzahl Vorgänger von "TreeNodeID" plus 1
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue tree_level = 10001;</code>
+         * <code>.dstore.values.IntegerValue tree_level = 10001;</code>
          */
         public io.dstore.values.IntegerValue.Builder getTreeLevelBuilder() {
           
@@ -3739,7 +3739,7 @@ public final class ImGetDirectSuccessorsTreeAd {
          * Anzahl Vorgänger von "TreeNodeID" plus 1
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue tree_level = 10001;</code>
+         * <code>.dstore.values.IntegerValue tree_level = 10001;</code>
          */
         public io.dstore.values.IntegerValueOrBuilder getTreeLevelOrBuilder() {
           if (treeLevelBuilder_ != null) {
@@ -3754,7 +3754,7 @@ public final class ImGetDirectSuccessorsTreeAd {
          * Anzahl Vorgänger von "TreeNodeID" plus 1
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue tree_level = 10001;</code>
+         * <code>.dstore.values.IntegerValue tree_level = 10001;</code>
          */
         private com.google.protobuf.SingleFieldBuilderV3<
             io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> 
@@ -3778,7 +3778,7 @@ public final class ImGetDirectSuccessorsTreeAd {
          * Bezeichnung der "NodeID"
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue node_description = 10002;</code>
+         * <code>.dstore.values.StringValue node_description = 10002;</code>
          */
         public boolean hasNodeDescription() {
           return nodeDescriptionBuilder_ != null || nodeDescription_ != null;
@@ -3788,7 +3788,7 @@ public final class ImGetDirectSuccessorsTreeAd {
          * Bezeichnung der "NodeID"
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue node_description = 10002;</code>
+         * <code>.dstore.values.StringValue node_description = 10002;</code>
          */
         public io.dstore.values.StringValue getNodeDescription() {
           if (nodeDescriptionBuilder_ == null) {
@@ -3802,7 +3802,7 @@ public final class ImGetDirectSuccessorsTreeAd {
          * Bezeichnung der "NodeID"
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue node_description = 10002;</code>
+         * <code>.dstore.values.StringValue node_description = 10002;</code>
          */
         public Builder setNodeDescription(io.dstore.values.StringValue value) {
           if (nodeDescriptionBuilder_ == null) {
@@ -3822,7 +3822,7 @@ public final class ImGetDirectSuccessorsTreeAd {
          * Bezeichnung der "NodeID"
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue node_description = 10002;</code>
+         * <code>.dstore.values.StringValue node_description = 10002;</code>
          */
         public Builder setNodeDescription(
             io.dstore.values.StringValue.Builder builderForValue) {
@@ -3840,7 +3840,7 @@ public final class ImGetDirectSuccessorsTreeAd {
          * Bezeichnung der "NodeID"
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue node_description = 10002;</code>
+         * <code>.dstore.values.StringValue node_description = 10002;</code>
          */
         public Builder mergeNodeDescription(io.dstore.values.StringValue value) {
           if (nodeDescriptionBuilder_ == null) {
@@ -3862,7 +3862,7 @@ public final class ImGetDirectSuccessorsTreeAd {
          * Bezeichnung der "NodeID"
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue node_description = 10002;</code>
+         * <code>.dstore.values.StringValue node_description = 10002;</code>
          */
         public Builder clearNodeDescription() {
           if (nodeDescriptionBuilder_ == null) {
@@ -3880,7 +3880,7 @@ public final class ImGetDirectSuccessorsTreeAd {
          * Bezeichnung der "NodeID"
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue node_description = 10002;</code>
+         * <code>.dstore.values.StringValue node_description = 10002;</code>
          */
         public io.dstore.values.StringValue.Builder getNodeDescriptionBuilder() {
           
@@ -3892,7 +3892,7 @@ public final class ImGetDirectSuccessorsTreeAd {
          * Bezeichnung der "NodeID"
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue node_description = 10002;</code>
+         * <code>.dstore.values.StringValue node_description = 10002;</code>
          */
         public io.dstore.values.StringValueOrBuilder getNodeDescriptionOrBuilder() {
           if (nodeDescriptionBuilder_ != null) {
@@ -3907,7 +3907,7 @@ public final class ImGetDirectSuccessorsTreeAd {
          * Bezeichnung der "NodeID"
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue node_description = 10002;</code>
+         * <code>.dstore.values.StringValue node_description = 10002;</code>
          */
         private com.google.protobuf.SingleFieldBuilderV3<
             io.dstore.values.StringValue, io.dstore.values.StringValue.Builder, io.dstore.values.StringValueOrBuilder> 
@@ -3931,7 +3931,7 @@ public final class ImGetDirectSuccessorsTreeAd {
          * ID des Vorgängers von "TreeNodeID"
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue predecessor = 10003;</code>
+         * <code>.dstore.values.IntegerValue predecessor = 10003;</code>
          */
         public boolean hasPredecessor() {
           return predecessorBuilder_ != null || predecessor_ != null;
@@ -3941,7 +3941,7 @@ public final class ImGetDirectSuccessorsTreeAd {
          * ID des Vorgängers von "TreeNodeID"
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue predecessor = 10003;</code>
+         * <code>.dstore.values.IntegerValue predecessor = 10003;</code>
          */
         public io.dstore.values.IntegerValue getPredecessor() {
           if (predecessorBuilder_ == null) {
@@ -3955,7 +3955,7 @@ public final class ImGetDirectSuccessorsTreeAd {
          * ID des Vorgängers von "TreeNodeID"
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue predecessor = 10003;</code>
+         * <code>.dstore.values.IntegerValue predecessor = 10003;</code>
          */
         public Builder setPredecessor(io.dstore.values.IntegerValue value) {
           if (predecessorBuilder_ == null) {
@@ -3975,7 +3975,7 @@ public final class ImGetDirectSuccessorsTreeAd {
          * ID des Vorgängers von "TreeNodeID"
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue predecessor = 10003;</code>
+         * <code>.dstore.values.IntegerValue predecessor = 10003;</code>
          */
         public Builder setPredecessor(
             io.dstore.values.IntegerValue.Builder builderForValue) {
@@ -3993,7 +3993,7 @@ public final class ImGetDirectSuccessorsTreeAd {
          * ID des Vorgängers von "TreeNodeID"
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue predecessor = 10003;</code>
+         * <code>.dstore.values.IntegerValue predecessor = 10003;</code>
          */
         public Builder mergePredecessor(io.dstore.values.IntegerValue value) {
           if (predecessorBuilder_ == null) {
@@ -4015,7 +4015,7 @@ public final class ImGetDirectSuccessorsTreeAd {
          * ID des Vorgängers von "TreeNodeID"
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue predecessor = 10003;</code>
+         * <code>.dstore.values.IntegerValue predecessor = 10003;</code>
          */
         public Builder clearPredecessor() {
           if (predecessorBuilder_ == null) {
@@ -4033,7 +4033,7 @@ public final class ImGetDirectSuccessorsTreeAd {
          * ID des Vorgängers von "TreeNodeID"
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue predecessor = 10003;</code>
+         * <code>.dstore.values.IntegerValue predecessor = 10003;</code>
          */
         public io.dstore.values.IntegerValue.Builder getPredecessorBuilder() {
           
@@ -4045,7 +4045,7 @@ public final class ImGetDirectSuccessorsTreeAd {
          * ID des Vorgängers von "TreeNodeID"
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue predecessor = 10003;</code>
+         * <code>.dstore.values.IntegerValue predecessor = 10003;</code>
          */
         public io.dstore.values.IntegerValueOrBuilder getPredecessorOrBuilder() {
           if (predecessorBuilder_ != null) {
@@ -4060,7 +4060,7 @@ public final class ImGetDirectSuccessorsTreeAd {
          * ID des Vorgängers von "TreeNodeID"
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue predecessor = 10003;</code>
+         * <code>.dstore.values.IntegerValue predecessor = 10003;</code>
          */
         private com.google.protobuf.SingleFieldBuilderV3<
             io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> 
@@ -4084,7 +4084,7 @@ public final class ImGetDirectSuccessorsTreeAd {
          * Ist "TreeNodeID" z.Zt. aktiviert ? ("0" : Nein, "1" : Ja)
          * </pre>
          *
-         * <code>optional .dstore.values.BooleanValue active = 10004;</code>
+         * <code>.dstore.values.BooleanValue active = 10004;</code>
          */
         public boolean hasActive() {
           return activeBuilder_ != null || active_ != null;
@@ -4094,7 +4094,7 @@ public final class ImGetDirectSuccessorsTreeAd {
          * Ist "TreeNodeID" z.Zt. aktiviert ? ("0" : Nein, "1" : Ja)
          * </pre>
          *
-         * <code>optional .dstore.values.BooleanValue active = 10004;</code>
+         * <code>.dstore.values.BooleanValue active = 10004;</code>
          */
         public io.dstore.values.BooleanValue getActive() {
           if (activeBuilder_ == null) {
@@ -4108,7 +4108,7 @@ public final class ImGetDirectSuccessorsTreeAd {
          * Ist "TreeNodeID" z.Zt. aktiviert ? ("0" : Nein, "1" : Ja)
          * </pre>
          *
-         * <code>optional .dstore.values.BooleanValue active = 10004;</code>
+         * <code>.dstore.values.BooleanValue active = 10004;</code>
          */
         public Builder setActive(io.dstore.values.BooleanValue value) {
           if (activeBuilder_ == null) {
@@ -4128,7 +4128,7 @@ public final class ImGetDirectSuccessorsTreeAd {
          * Ist "TreeNodeID" z.Zt. aktiviert ? ("0" : Nein, "1" : Ja)
          * </pre>
          *
-         * <code>optional .dstore.values.BooleanValue active = 10004;</code>
+         * <code>.dstore.values.BooleanValue active = 10004;</code>
          */
         public Builder setActive(
             io.dstore.values.BooleanValue.Builder builderForValue) {
@@ -4146,7 +4146,7 @@ public final class ImGetDirectSuccessorsTreeAd {
          * Ist "TreeNodeID" z.Zt. aktiviert ? ("0" : Nein, "1" : Ja)
          * </pre>
          *
-         * <code>optional .dstore.values.BooleanValue active = 10004;</code>
+         * <code>.dstore.values.BooleanValue active = 10004;</code>
          */
         public Builder mergeActive(io.dstore.values.BooleanValue value) {
           if (activeBuilder_ == null) {
@@ -4168,7 +4168,7 @@ public final class ImGetDirectSuccessorsTreeAd {
          * Ist "TreeNodeID" z.Zt. aktiviert ? ("0" : Nein, "1" : Ja)
          * </pre>
          *
-         * <code>optional .dstore.values.BooleanValue active = 10004;</code>
+         * <code>.dstore.values.BooleanValue active = 10004;</code>
          */
         public Builder clearActive() {
           if (activeBuilder_ == null) {
@@ -4186,7 +4186,7 @@ public final class ImGetDirectSuccessorsTreeAd {
          * Ist "TreeNodeID" z.Zt. aktiviert ? ("0" : Nein, "1" : Ja)
          * </pre>
          *
-         * <code>optional .dstore.values.BooleanValue active = 10004;</code>
+         * <code>.dstore.values.BooleanValue active = 10004;</code>
          */
         public io.dstore.values.BooleanValue.Builder getActiveBuilder() {
           
@@ -4198,7 +4198,7 @@ public final class ImGetDirectSuccessorsTreeAd {
          * Ist "TreeNodeID" z.Zt. aktiviert ? ("0" : Nein, "1" : Ja)
          * </pre>
          *
-         * <code>optional .dstore.values.BooleanValue active = 10004;</code>
+         * <code>.dstore.values.BooleanValue active = 10004;</code>
          */
         public io.dstore.values.BooleanValueOrBuilder getActiveOrBuilder() {
           if (activeBuilder_ != null) {
@@ -4213,7 +4213,7 @@ public final class ImGetDirectSuccessorsTreeAd {
          * Ist "TreeNodeID" z.Zt. aktiviert ? ("0" : Nein, "1" : Ja)
          * </pre>
          *
-         * <code>optional .dstore.values.BooleanValue active = 10004;</code>
+         * <code>.dstore.values.BooleanValue active = 10004;</code>
          */
         private com.google.protobuf.SingleFieldBuilderV3<
             io.dstore.values.BooleanValue, io.dstore.values.BooleanValue.Builder, io.dstore.values.BooleanValueOrBuilder> 
@@ -4237,7 +4237,7 @@ public final class ImGetDirectSuccessorsTreeAd {
          * Nummer der Hierarchie der "NodeID"
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue level_no = 10005;</code>
+         * <code>.dstore.values.IntegerValue level_no = 10005;</code>
          */
         public boolean hasLevelNo() {
           return levelNoBuilder_ != null || levelNo_ != null;
@@ -4247,7 +4247,7 @@ public final class ImGetDirectSuccessorsTreeAd {
          * Nummer der Hierarchie der "NodeID"
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue level_no = 10005;</code>
+         * <code>.dstore.values.IntegerValue level_no = 10005;</code>
          */
         public io.dstore.values.IntegerValue getLevelNo() {
           if (levelNoBuilder_ == null) {
@@ -4261,7 +4261,7 @@ public final class ImGetDirectSuccessorsTreeAd {
          * Nummer der Hierarchie der "NodeID"
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue level_no = 10005;</code>
+         * <code>.dstore.values.IntegerValue level_no = 10005;</code>
          */
         public Builder setLevelNo(io.dstore.values.IntegerValue value) {
           if (levelNoBuilder_ == null) {
@@ -4281,7 +4281,7 @@ public final class ImGetDirectSuccessorsTreeAd {
          * Nummer der Hierarchie der "NodeID"
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue level_no = 10005;</code>
+         * <code>.dstore.values.IntegerValue level_no = 10005;</code>
          */
         public Builder setLevelNo(
             io.dstore.values.IntegerValue.Builder builderForValue) {
@@ -4299,7 +4299,7 @@ public final class ImGetDirectSuccessorsTreeAd {
          * Nummer der Hierarchie der "NodeID"
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue level_no = 10005;</code>
+         * <code>.dstore.values.IntegerValue level_no = 10005;</code>
          */
         public Builder mergeLevelNo(io.dstore.values.IntegerValue value) {
           if (levelNoBuilder_ == null) {
@@ -4321,7 +4321,7 @@ public final class ImGetDirectSuccessorsTreeAd {
          * Nummer der Hierarchie der "NodeID"
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue level_no = 10005;</code>
+         * <code>.dstore.values.IntegerValue level_no = 10005;</code>
          */
         public Builder clearLevelNo() {
           if (levelNoBuilder_ == null) {
@@ -4339,7 +4339,7 @@ public final class ImGetDirectSuccessorsTreeAd {
          * Nummer der Hierarchie der "NodeID"
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue level_no = 10005;</code>
+         * <code>.dstore.values.IntegerValue level_no = 10005;</code>
          */
         public io.dstore.values.IntegerValue.Builder getLevelNoBuilder() {
           
@@ -4351,7 +4351,7 @@ public final class ImGetDirectSuccessorsTreeAd {
          * Nummer der Hierarchie der "NodeID"
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue level_no = 10005;</code>
+         * <code>.dstore.values.IntegerValue level_no = 10005;</code>
          */
         public io.dstore.values.IntegerValueOrBuilder getLevelNoOrBuilder() {
           if (levelNoBuilder_ != null) {
@@ -4366,7 +4366,7 @@ public final class ImGetDirectSuccessorsTreeAd {
          * Nummer der Hierarchie der "NodeID"
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue level_no = 10005;</code>
+         * <code>.dstore.values.IntegerValue level_no = 10005;</code>
          */
         private com.google.protobuf.SingleFieldBuilderV3<
             io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> 
@@ -4390,7 +4390,7 @@ public final class ImGetDirectSuccessorsTreeAd {
          * Gibt es ein nächstes "Geschwister-Element", also ein anderes Element des Artikelbaums, das ebenfalls "Predecessor" als Vorgänger hat und dessen "SortNo" um 1 niedriger ist als die "SortNo" von "TreeNodeID" ?
          * </pre>
          *
-         * <code>optional .dstore.values.BooleanValue has_next_sibling = 10006;</code>
+         * <code>.dstore.values.BooleanValue has_next_sibling = 10006;</code>
          */
         public boolean hasHasNextSibling() {
           return hasNextSiblingBuilder_ != null || hasNextSibling_ != null;
@@ -4400,7 +4400,7 @@ public final class ImGetDirectSuccessorsTreeAd {
          * Gibt es ein nächstes "Geschwister-Element", also ein anderes Element des Artikelbaums, das ebenfalls "Predecessor" als Vorgänger hat und dessen "SortNo" um 1 niedriger ist als die "SortNo" von "TreeNodeID" ?
          * </pre>
          *
-         * <code>optional .dstore.values.BooleanValue has_next_sibling = 10006;</code>
+         * <code>.dstore.values.BooleanValue has_next_sibling = 10006;</code>
          */
         public io.dstore.values.BooleanValue getHasNextSibling() {
           if (hasNextSiblingBuilder_ == null) {
@@ -4414,7 +4414,7 @@ public final class ImGetDirectSuccessorsTreeAd {
          * Gibt es ein nächstes "Geschwister-Element", also ein anderes Element des Artikelbaums, das ebenfalls "Predecessor" als Vorgänger hat und dessen "SortNo" um 1 niedriger ist als die "SortNo" von "TreeNodeID" ?
          * </pre>
          *
-         * <code>optional .dstore.values.BooleanValue has_next_sibling = 10006;</code>
+         * <code>.dstore.values.BooleanValue has_next_sibling = 10006;</code>
          */
         public Builder setHasNextSibling(io.dstore.values.BooleanValue value) {
           if (hasNextSiblingBuilder_ == null) {
@@ -4434,7 +4434,7 @@ public final class ImGetDirectSuccessorsTreeAd {
          * Gibt es ein nächstes "Geschwister-Element", also ein anderes Element des Artikelbaums, das ebenfalls "Predecessor" als Vorgänger hat und dessen "SortNo" um 1 niedriger ist als die "SortNo" von "TreeNodeID" ?
          * </pre>
          *
-         * <code>optional .dstore.values.BooleanValue has_next_sibling = 10006;</code>
+         * <code>.dstore.values.BooleanValue has_next_sibling = 10006;</code>
          */
         public Builder setHasNextSibling(
             io.dstore.values.BooleanValue.Builder builderForValue) {
@@ -4452,7 +4452,7 @@ public final class ImGetDirectSuccessorsTreeAd {
          * Gibt es ein nächstes "Geschwister-Element", also ein anderes Element des Artikelbaums, das ebenfalls "Predecessor" als Vorgänger hat und dessen "SortNo" um 1 niedriger ist als die "SortNo" von "TreeNodeID" ?
          * </pre>
          *
-         * <code>optional .dstore.values.BooleanValue has_next_sibling = 10006;</code>
+         * <code>.dstore.values.BooleanValue has_next_sibling = 10006;</code>
          */
         public Builder mergeHasNextSibling(io.dstore.values.BooleanValue value) {
           if (hasNextSiblingBuilder_ == null) {
@@ -4474,7 +4474,7 @@ public final class ImGetDirectSuccessorsTreeAd {
          * Gibt es ein nächstes "Geschwister-Element", also ein anderes Element des Artikelbaums, das ebenfalls "Predecessor" als Vorgänger hat und dessen "SortNo" um 1 niedriger ist als die "SortNo" von "TreeNodeID" ?
          * </pre>
          *
-         * <code>optional .dstore.values.BooleanValue has_next_sibling = 10006;</code>
+         * <code>.dstore.values.BooleanValue has_next_sibling = 10006;</code>
          */
         public Builder clearHasNextSibling() {
           if (hasNextSiblingBuilder_ == null) {
@@ -4492,7 +4492,7 @@ public final class ImGetDirectSuccessorsTreeAd {
          * Gibt es ein nächstes "Geschwister-Element", also ein anderes Element des Artikelbaums, das ebenfalls "Predecessor" als Vorgänger hat und dessen "SortNo" um 1 niedriger ist als die "SortNo" von "TreeNodeID" ?
          * </pre>
          *
-         * <code>optional .dstore.values.BooleanValue has_next_sibling = 10006;</code>
+         * <code>.dstore.values.BooleanValue has_next_sibling = 10006;</code>
          */
         public io.dstore.values.BooleanValue.Builder getHasNextSiblingBuilder() {
           
@@ -4504,7 +4504,7 @@ public final class ImGetDirectSuccessorsTreeAd {
          * Gibt es ein nächstes "Geschwister-Element", also ein anderes Element des Artikelbaums, das ebenfalls "Predecessor" als Vorgänger hat und dessen "SortNo" um 1 niedriger ist als die "SortNo" von "TreeNodeID" ?
          * </pre>
          *
-         * <code>optional .dstore.values.BooleanValue has_next_sibling = 10006;</code>
+         * <code>.dstore.values.BooleanValue has_next_sibling = 10006;</code>
          */
         public io.dstore.values.BooleanValueOrBuilder getHasNextSiblingOrBuilder() {
           if (hasNextSiblingBuilder_ != null) {
@@ -4519,7 +4519,7 @@ public final class ImGetDirectSuccessorsTreeAd {
          * Gibt es ein nächstes "Geschwister-Element", also ein anderes Element des Artikelbaums, das ebenfalls "Predecessor" als Vorgänger hat und dessen "SortNo" um 1 niedriger ist als die "SortNo" von "TreeNodeID" ?
          * </pre>
          *
-         * <code>optional .dstore.values.BooleanValue has_next_sibling = 10006;</code>
+         * <code>.dstore.values.BooleanValue has_next_sibling = 10006;</code>
          */
         private com.google.protobuf.SingleFieldBuilderV3<
             io.dstore.values.BooleanValue, io.dstore.values.BooleanValue.Builder, io.dstore.values.BooleanValueOrBuilder> 
@@ -4543,7 +4543,7 @@ public final class ImGetDirectSuccessorsTreeAd {
          * Ist dieses Element für den Benutzer "&#64;CheckLockedTreeNodesForUserID" gesperrt ?
          * </pre>
          *
-         * <code>optional .dstore.values.BooleanValue locked_for_user_id = 10007;</code>
+         * <code>.dstore.values.BooleanValue locked_for_user_id = 10007;</code>
          */
         public boolean hasLockedForUserId() {
           return lockedForUserIdBuilder_ != null || lockedForUserId_ != null;
@@ -4553,7 +4553,7 @@ public final class ImGetDirectSuccessorsTreeAd {
          * Ist dieses Element für den Benutzer "&#64;CheckLockedTreeNodesForUserID" gesperrt ?
          * </pre>
          *
-         * <code>optional .dstore.values.BooleanValue locked_for_user_id = 10007;</code>
+         * <code>.dstore.values.BooleanValue locked_for_user_id = 10007;</code>
          */
         public io.dstore.values.BooleanValue getLockedForUserId() {
           if (lockedForUserIdBuilder_ == null) {
@@ -4567,7 +4567,7 @@ public final class ImGetDirectSuccessorsTreeAd {
          * Ist dieses Element für den Benutzer "&#64;CheckLockedTreeNodesForUserID" gesperrt ?
          * </pre>
          *
-         * <code>optional .dstore.values.BooleanValue locked_for_user_id = 10007;</code>
+         * <code>.dstore.values.BooleanValue locked_for_user_id = 10007;</code>
          */
         public Builder setLockedForUserId(io.dstore.values.BooleanValue value) {
           if (lockedForUserIdBuilder_ == null) {
@@ -4587,7 +4587,7 @@ public final class ImGetDirectSuccessorsTreeAd {
          * Ist dieses Element für den Benutzer "&#64;CheckLockedTreeNodesForUserID" gesperrt ?
          * </pre>
          *
-         * <code>optional .dstore.values.BooleanValue locked_for_user_id = 10007;</code>
+         * <code>.dstore.values.BooleanValue locked_for_user_id = 10007;</code>
          */
         public Builder setLockedForUserId(
             io.dstore.values.BooleanValue.Builder builderForValue) {
@@ -4605,7 +4605,7 @@ public final class ImGetDirectSuccessorsTreeAd {
          * Ist dieses Element für den Benutzer "&#64;CheckLockedTreeNodesForUserID" gesperrt ?
          * </pre>
          *
-         * <code>optional .dstore.values.BooleanValue locked_for_user_id = 10007;</code>
+         * <code>.dstore.values.BooleanValue locked_for_user_id = 10007;</code>
          */
         public Builder mergeLockedForUserId(io.dstore.values.BooleanValue value) {
           if (lockedForUserIdBuilder_ == null) {
@@ -4627,7 +4627,7 @@ public final class ImGetDirectSuccessorsTreeAd {
          * Ist dieses Element für den Benutzer "&#64;CheckLockedTreeNodesForUserID" gesperrt ?
          * </pre>
          *
-         * <code>optional .dstore.values.BooleanValue locked_for_user_id = 10007;</code>
+         * <code>.dstore.values.BooleanValue locked_for_user_id = 10007;</code>
          */
         public Builder clearLockedForUserId() {
           if (lockedForUserIdBuilder_ == null) {
@@ -4645,7 +4645,7 @@ public final class ImGetDirectSuccessorsTreeAd {
          * Ist dieses Element für den Benutzer "&#64;CheckLockedTreeNodesForUserID" gesperrt ?
          * </pre>
          *
-         * <code>optional .dstore.values.BooleanValue locked_for_user_id = 10007;</code>
+         * <code>.dstore.values.BooleanValue locked_for_user_id = 10007;</code>
          */
         public io.dstore.values.BooleanValue.Builder getLockedForUserIdBuilder() {
           
@@ -4657,7 +4657,7 @@ public final class ImGetDirectSuccessorsTreeAd {
          * Ist dieses Element für den Benutzer "&#64;CheckLockedTreeNodesForUserID" gesperrt ?
          * </pre>
          *
-         * <code>optional .dstore.values.BooleanValue locked_for_user_id = 10007;</code>
+         * <code>.dstore.values.BooleanValue locked_for_user_id = 10007;</code>
          */
         public io.dstore.values.BooleanValueOrBuilder getLockedForUserIdOrBuilder() {
           if (lockedForUserIdBuilder_ != null) {
@@ -4672,7 +4672,7 @@ public final class ImGetDirectSuccessorsTreeAd {
          * Ist dieses Element für den Benutzer "&#64;CheckLockedTreeNodesForUserID" gesperrt ?
          * </pre>
          *
-         * <code>optional .dstore.values.BooleanValue locked_for_user_id = 10007;</code>
+         * <code>.dstore.values.BooleanValue locked_for_user_id = 10007;</code>
          */
         private com.google.protobuf.SingleFieldBuilderV3<
             io.dstore.values.BooleanValue, io.dstore.values.BooleanValue.Builder, io.dstore.values.BooleanValueOrBuilder> 
@@ -4696,7 +4696,7 @@ public final class ImGetDirectSuccessorsTreeAd {
          * ID eines Elementes im Artikelbaum
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue tree_node_id = 10008;</code>
+         * <code>.dstore.values.IntegerValue tree_node_id = 10008;</code>
          */
         public boolean hasTreeNodeId() {
           return treeNodeIdBuilder_ != null || treeNodeId_ != null;
@@ -4706,7 +4706,7 @@ public final class ImGetDirectSuccessorsTreeAd {
          * ID eines Elementes im Artikelbaum
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue tree_node_id = 10008;</code>
+         * <code>.dstore.values.IntegerValue tree_node_id = 10008;</code>
          */
         public io.dstore.values.IntegerValue getTreeNodeId() {
           if (treeNodeIdBuilder_ == null) {
@@ -4720,7 +4720,7 @@ public final class ImGetDirectSuccessorsTreeAd {
          * ID eines Elementes im Artikelbaum
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue tree_node_id = 10008;</code>
+         * <code>.dstore.values.IntegerValue tree_node_id = 10008;</code>
          */
         public Builder setTreeNodeId(io.dstore.values.IntegerValue value) {
           if (treeNodeIdBuilder_ == null) {
@@ -4740,7 +4740,7 @@ public final class ImGetDirectSuccessorsTreeAd {
          * ID eines Elementes im Artikelbaum
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue tree_node_id = 10008;</code>
+         * <code>.dstore.values.IntegerValue tree_node_id = 10008;</code>
          */
         public Builder setTreeNodeId(
             io.dstore.values.IntegerValue.Builder builderForValue) {
@@ -4758,7 +4758,7 @@ public final class ImGetDirectSuccessorsTreeAd {
          * ID eines Elementes im Artikelbaum
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue tree_node_id = 10008;</code>
+         * <code>.dstore.values.IntegerValue tree_node_id = 10008;</code>
          */
         public Builder mergeTreeNodeId(io.dstore.values.IntegerValue value) {
           if (treeNodeIdBuilder_ == null) {
@@ -4780,7 +4780,7 @@ public final class ImGetDirectSuccessorsTreeAd {
          * ID eines Elementes im Artikelbaum
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue tree_node_id = 10008;</code>
+         * <code>.dstore.values.IntegerValue tree_node_id = 10008;</code>
          */
         public Builder clearTreeNodeId() {
           if (treeNodeIdBuilder_ == null) {
@@ -4798,7 +4798,7 @@ public final class ImGetDirectSuccessorsTreeAd {
          * ID eines Elementes im Artikelbaum
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue tree_node_id = 10008;</code>
+         * <code>.dstore.values.IntegerValue tree_node_id = 10008;</code>
          */
         public io.dstore.values.IntegerValue.Builder getTreeNodeIdBuilder() {
           
@@ -4810,7 +4810,7 @@ public final class ImGetDirectSuccessorsTreeAd {
          * ID eines Elementes im Artikelbaum
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue tree_node_id = 10008;</code>
+         * <code>.dstore.values.IntegerValue tree_node_id = 10008;</code>
          */
         public io.dstore.values.IntegerValueOrBuilder getTreeNodeIdOrBuilder() {
           if (treeNodeIdBuilder_ != null) {
@@ -4825,7 +4825,7 @@ public final class ImGetDirectSuccessorsTreeAd {
          * ID eines Elementes im Artikelbaum
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue tree_node_id = 10008;</code>
+         * <code>.dstore.values.IntegerValue tree_node_id = 10008;</code>
          */
         private com.google.protobuf.SingleFieldBuilderV3<
             io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> 
@@ -4849,7 +4849,7 @@ public final class ImGetDirectSuccessorsTreeAd {
          * ID des zur "TreeNodeID" zugehörigen Artikelelementes
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue node_id = 10009;</code>
+         * <code>.dstore.values.IntegerValue node_id = 10009;</code>
          */
         public boolean hasNodeId() {
           return nodeIdBuilder_ != null || nodeId_ != null;
@@ -4859,7 +4859,7 @@ public final class ImGetDirectSuccessorsTreeAd {
          * ID des zur "TreeNodeID" zugehörigen Artikelelementes
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue node_id = 10009;</code>
+         * <code>.dstore.values.IntegerValue node_id = 10009;</code>
          */
         public io.dstore.values.IntegerValue getNodeId() {
           if (nodeIdBuilder_ == null) {
@@ -4873,7 +4873,7 @@ public final class ImGetDirectSuccessorsTreeAd {
          * ID des zur "TreeNodeID" zugehörigen Artikelelementes
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue node_id = 10009;</code>
+         * <code>.dstore.values.IntegerValue node_id = 10009;</code>
          */
         public Builder setNodeId(io.dstore.values.IntegerValue value) {
           if (nodeIdBuilder_ == null) {
@@ -4893,7 +4893,7 @@ public final class ImGetDirectSuccessorsTreeAd {
          * ID des zur "TreeNodeID" zugehörigen Artikelelementes
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue node_id = 10009;</code>
+         * <code>.dstore.values.IntegerValue node_id = 10009;</code>
          */
         public Builder setNodeId(
             io.dstore.values.IntegerValue.Builder builderForValue) {
@@ -4911,7 +4911,7 @@ public final class ImGetDirectSuccessorsTreeAd {
          * ID des zur "TreeNodeID" zugehörigen Artikelelementes
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue node_id = 10009;</code>
+         * <code>.dstore.values.IntegerValue node_id = 10009;</code>
          */
         public Builder mergeNodeId(io.dstore.values.IntegerValue value) {
           if (nodeIdBuilder_ == null) {
@@ -4933,7 +4933,7 @@ public final class ImGetDirectSuccessorsTreeAd {
          * ID des zur "TreeNodeID" zugehörigen Artikelelementes
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue node_id = 10009;</code>
+         * <code>.dstore.values.IntegerValue node_id = 10009;</code>
          */
         public Builder clearNodeId() {
           if (nodeIdBuilder_ == null) {
@@ -4951,7 +4951,7 @@ public final class ImGetDirectSuccessorsTreeAd {
          * ID des zur "TreeNodeID" zugehörigen Artikelelementes
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue node_id = 10009;</code>
+         * <code>.dstore.values.IntegerValue node_id = 10009;</code>
          */
         public io.dstore.values.IntegerValue.Builder getNodeIdBuilder() {
           
@@ -4963,7 +4963,7 @@ public final class ImGetDirectSuccessorsTreeAd {
          * ID des zur "TreeNodeID" zugehörigen Artikelelementes
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue node_id = 10009;</code>
+         * <code>.dstore.values.IntegerValue node_id = 10009;</code>
          */
         public io.dstore.values.IntegerValueOrBuilder getNodeIdOrBuilder() {
           if (nodeIdBuilder_ != null) {
@@ -4978,7 +4978,7 @@ public final class ImGetDirectSuccessorsTreeAd {
          * ID des zur "TreeNodeID" zugehörigen Artikelelementes
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue node_id = 10009;</code>
+         * <code>.dstore.values.IntegerValue node_id = 10009;</code>
          */
         private com.google.protobuf.SingleFieldBuilderV3<
             io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> 
@@ -5002,7 +5002,7 @@ public final class ImGetDirectSuccessorsTreeAd {
          * Hat "TreeNodeID" selbst Nachfolger ?
          * </pre>
          *
-         * <code>optional .dstore.values.BooleanValue has_successors = 10010;</code>
+         * <code>.dstore.values.BooleanValue has_successors = 10010;</code>
          */
         public boolean hasHasSuccessors() {
           return hasSuccessorsBuilder_ != null || hasSuccessors_ != null;
@@ -5012,7 +5012,7 @@ public final class ImGetDirectSuccessorsTreeAd {
          * Hat "TreeNodeID" selbst Nachfolger ?
          * </pre>
          *
-         * <code>optional .dstore.values.BooleanValue has_successors = 10010;</code>
+         * <code>.dstore.values.BooleanValue has_successors = 10010;</code>
          */
         public io.dstore.values.BooleanValue getHasSuccessors() {
           if (hasSuccessorsBuilder_ == null) {
@@ -5026,7 +5026,7 @@ public final class ImGetDirectSuccessorsTreeAd {
          * Hat "TreeNodeID" selbst Nachfolger ?
          * </pre>
          *
-         * <code>optional .dstore.values.BooleanValue has_successors = 10010;</code>
+         * <code>.dstore.values.BooleanValue has_successors = 10010;</code>
          */
         public Builder setHasSuccessors(io.dstore.values.BooleanValue value) {
           if (hasSuccessorsBuilder_ == null) {
@@ -5046,7 +5046,7 @@ public final class ImGetDirectSuccessorsTreeAd {
          * Hat "TreeNodeID" selbst Nachfolger ?
          * </pre>
          *
-         * <code>optional .dstore.values.BooleanValue has_successors = 10010;</code>
+         * <code>.dstore.values.BooleanValue has_successors = 10010;</code>
          */
         public Builder setHasSuccessors(
             io.dstore.values.BooleanValue.Builder builderForValue) {
@@ -5064,7 +5064,7 @@ public final class ImGetDirectSuccessorsTreeAd {
          * Hat "TreeNodeID" selbst Nachfolger ?
          * </pre>
          *
-         * <code>optional .dstore.values.BooleanValue has_successors = 10010;</code>
+         * <code>.dstore.values.BooleanValue has_successors = 10010;</code>
          */
         public Builder mergeHasSuccessors(io.dstore.values.BooleanValue value) {
           if (hasSuccessorsBuilder_ == null) {
@@ -5086,7 +5086,7 @@ public final class ImGetDirectSuccessorsTreeAd {
          * Hat "TreeNodeID" selbst Nachfolger ?
          * </pre>
          *
-         * <code>optional .dstore.values.BooleanValue has_successors = 10010;</code>
+         * <code>.dstore.values.BooleanValue has_successors = 10010;</code>
          */
         public Builder clearHasSuccessors() {
           if (hasSuccessorsBuilder_ == null) {
@@ -5104,7 +5104,7 @@ public final class ImGetDirectSuccessorsTreeAd {
          * Hat "TreeNodeID" selbst Nachfolger ?
          * </pre>
          *
-         * <code>optional .dstore.values.BooleanValue has_successors = 10010;</code>
+         * <code>.dstore.values.BooleanValue has_successors = 10010;</code>
          */
         public io.dstore.values.BooleanValue.Builder getHasSuccessorsBuilder() {
           
@@ -5116,7 +5116,7 @@ public final class ImGetDirectSuccessorsTreeAd {
          * Hat "TreeNodeID" selbst Nachfolger ?
          * </pre>
          *
-         * <code>optional .dstore.values.BooleanValue has_successors = 10010;</code>
+         * <code>.dstore.values.BooleanValue has_successors = 10010;</code>
          */
         public io.dstore.values.BooleanValueOrBuilder getHasSuccessorsOrBuilder() {
           if (hasSuccessorsBuilder_ != null) {
@@ -5131,7 +5131,7 @@ public final class ImGetDirectSuccessorsTreeAd {
          * Hat "TreeNodeID" selbst Nachfolger ?
          * </pre>
          *
-         * <code>optional .dstore.values.BooleanValue has_successors = 10010;</code>
+         * <code>.dstore.values.BooleanValue has_successors = 10010;</code>
          */
         private com.google.protobuf.SingleFieldBuilderV3<
             io.dstore.values.BooleanValue, io.dstore.values.BooleanValue.Builder, io.dstore.values.BooleanValueOrBuilder> 
@@ -5155,7 +5155,7 @@ public final class ImGetDirectSuccessorsTreeAd {
          * Ist "TreeNodeID" bereits gelöscht ? ("0" : Nein, "1" : Ja)
          * </pre>
          *
-         * <code>optional .dstore.values.BooleanValue deleted = 10011;</code>
+         * <code>.dstore.values.BooleanValue deleted = 10011;</code>
          */
         public boolean hasDeleted() {
           return deletedBuilder_ != null || deleted_ != null;
@@ -5165,7 +5165,7 @@ public final class ImGetDirectSuccessorsTreeAd {
          * Ist "TreeNodeID" bereits gelöscht ? ("0" : Nein, "1" : Ja)
          * </pre>
          *
-         * <code>optional .dstore.values.BooleanValue deleted = 10011;</code>
+         * <code>.dstore.values.BooleanValue deleted = 10011;</code>
          */
         public io.dstore.values.BooleanValue getDeleted() {
           if (deletedBuilder_ == null) {
@@ -5179,7 +5179,7 @@ public final class ImGetDirectSuccessorsTreeAd {
          * Ist "TreeNodeID" bereits gelöscht ? ("0" : Nein, "1" : Ja)
          * </pre>
          *
-         * <code>optional .dstore.values.BooleanValue deleted = 10011;</code>
+         * <code>.dstore.values.BooleanValue deleted = 10011;</code>
          */
         public Builder setDeleted(io.dstore.values.BooleanValue value) {
           if (deletedBuilder_ == null) {
@@ -5199,7 +5199,7 @@ public final class ImGetDirectSuccessorsTreeAd {
          * Ist "TreeNodeID" bereits gelöscht ? ("0" : Nein, "1" : Ja)
          * </pre>
          *
-         * <code>optional .dstore.values.BooleanValue deleted = 10011;</code>
+         * <code>.dstore.values.BooleanValue deleted = 10011;</code>
          */
         public Builder setDeleted(
             io.dstore.values.BooleanValue.Builder builderForValue) {
@@ -5217,7 +5217,7 @@ public final class ImGetDirectSuccessorsTreeAd {
          * Ist "TreeNodeID" bereits gelöscht ? ("0" : Nein, "1" : Ja)
          * </pre>
          *
-         * <code>optional .dstore.values.BooleanValue deleted = 10011;</code>
+         * <code>.dstore.values.BooleanValue deleted = 10011;</code>
          */
         public Builder mergeDeleted(io.dstore.values.BooleanValue value) {
           if (deletedBuilder_ == null) {
@@ -5239,7 +5239,7 @@ public final class ImGetDirectSuccessorsTreeAd {
          * Ist "TreeNodeID" bereits gelöscht ? ("0" : Nein, "1" : Ja)
          * </pre>
          *
-         * <code>optional .dstore.values.BooleanValue deleted = 10011;</code>
+         * <code>.dstore.values.BooleanValue deleted = 10011;</code>
          */
         public Builder clearDeleted() {
           if (deletedBuilder_ == null) {
@@ -5257,7 +5257,7 @@ public final class ImGetDirectSuccessorsTreeAd {
          * Ist "TreeNodeID" bereits gelöscht ? ("0" : Nein, "1" : Ja)
          * </pre>
          *
-         * <code>optional .dstore.values.BooleanValue deleted = 10011;</code>
+         * <code>.dstore.values.BooleanValue deleted = 10011;</code>
          */
         public io.dstore.values.BooleanValue.Builder getDeletedBuilder() {
           
@@ -5269,7 +5269,7 @@ public final class ImGetDirectSuccessorsTreeAd {
          * Ist "TreeNodeID" bereits gelöscht ? ("0" : Nein, "1" : Ja)
          * </pre>
          *
-         * <code>optional .dstore.values.BooleanValue deleted = 10011;</code>
+         * <code>.dstore.values.BooleanValue deleted = 10011;</code>
          */
         public io.dstore.values.BooleanValueOrBuilder getDeletedOrBuilder() {
           if (deletedBuilder_ != null) {
@@ -5284,7 +5284,7 @@ public final class ImGetDirectSuccessorsTreeAd {
          * Ist "TreeNodeID" bereits gelöscht ? ("0" : Nein, "1" : Ja)
          * </pre>
          *
-         * <code>optional .dstore.values.BooleanValue deleted = 10011;</code>
+         * <code>.dstore.values.BooleanValue deleted = 10011;</code>
          */
         private com.google.protobuf.SingleFieldBuilderV3<
             io.dstore.values.BooleanValue, io.dstore.values.BooleanValue.Builder, io.dstore.values.BooleanValueOrBuilder> 
@@ -5544,7 +5544,7 @@ public final class ImGetDirectSuccessorsTreeAd {
         return memoizedHashCode;
       }
       int hash = 41;
-      hash = (19 * hash) + getDescriptorForType().hashCode();
+      hash = (19 * hash) + getDescriptor().hashCode();
       if (getMetaInformationCount() > 0) {
         hash = (37 * hash) + META_INFORMATION_FIELD_NUMBER;
         hash = (53 * hash) + getMetaInformationList().hashCode();

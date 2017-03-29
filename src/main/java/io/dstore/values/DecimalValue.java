@@ -79,7 +79,7 @@ public  final class DecimalValue extends
    * Encoded with decimal separator "."
    * </pre>
    *
-   * <code>optional string value = 1;</code>
+   * <code>string value = 1;</code>
    */
   public java.lang.String getValue() {
     java.lang.Object ref = value_;
@@ -98,7 +98,7 @@ public  final class DecimalValue extends
    * Encoded with decimal separator "."
    * </pre>
    *
-   * <code>optional string value = 1;</code>
+   * <code>string value = 1;</code>
    */
   public com.google.protobuf.ByteString
       getValueBytes() {
@@ -166,7 +166,7 @@ public  final class DecimalValue extends
       return memoizedHashCode;
     }
     int hash = 41;
-    hash = (19 * hash) + getDescriptorForType().hashCode();
+    hash = (19 * hash) + getDescriptor().hashCode();
     hash = (37 * hash) + VALUE_FIELD_NUMBER;
     hash = (53 * hash) + getValue().hashCode();
     hash = (29 * hash) + unknownFields.hashCode();
@@ -389,7 +389,7 @@ public  final class DecimalValue extends
      * Encoded with decimal separator "."
      * </pre>
      *
-     * <code>optional string value = 1;</code>
+     * <code>string value = 1;</code>
      */
     public java.lang.String getValue() {
       java.lang.Object ref = value_;
@@ -408,7 +408,7 @@ public  final class DecimalValue extends
      * Encoded with decimal separator "."
      * </pre>
      *
-     * <code>optional string value = 1;</code>
+     * <code>string value = 1;</code>
      */
     public com.google.protobuf.ByteString
         getValueBytes() {
@@ -428,7 +428,7 @@ public  final class DecimalValue extends
      * Encoded with decimal separator "."
      * </pre>
      *
-     * <code>optional string value = 1;</code>
+     * <code>string value = 1;</code>
      */
     public Builder setValue(
         java.lang.String value) {
@@ -445,7 +445,7 @@ public  final class DecimalValue extends
      * Encoded with decimal separator "."
      * </pre>
      *
-     * <code>optional string value = 1;</code>
+     * <code>string value = 1;</code>
      */
     public Builder clearValue() {
       
@@ -458,7 +458,7 @@ public  final class DecimalValue extends
      * Encoded with decimal separator "."
      * </pre>
      *
-     * <code>optional string value = 1;</code>
+     * <code>string value = 1;</code>
      */
     public Builder setValueBytes(
         com.google.protobuf.ByteString value) {

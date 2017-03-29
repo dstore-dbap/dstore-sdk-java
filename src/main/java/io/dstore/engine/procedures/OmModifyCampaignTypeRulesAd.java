@@ -19,74 +19,74 @@ public final class OmModifyCampaignTypeRulesAd {
       com.google.protobuf.MessageOrBuilder {
 
     /**
-     * <code>optional .dstore.values.IntegerValue campaign_type_id = 1;</code>
+     * <code>.dstore.values.IntegerValue campaign_type_id = 1;</code>
      */
     boolean hasCampaignTypeId();
     /**
-     * <code>optional .dstore.values.IntegerValue campaign_type_id = 1;</code>
+     * <code>.dstore.values.IntegerValue campaign_type_id = 1;</code>
      */
     io.dstore.values.IntegerValue getCampaignTypeId();
     /**
-     * <code>optional .dstore.values.IntegerValue campaign_type_id = 1;</code>
+     * <code>.dstore.values.IntegerValue campaign_type_id = 1;</code>
      */
     io.dstore.values.IntegerValueOrBuilder getCampaignTypeIdOrBuilder();
 
     /**
-     * <code>optional bool campaign_type_id_null = 1001;</code>
+     * <code>bool campaign_type_id_null = 1001;</code>
      */
     boolean getCampaignTypeIdNull();
 
     /**
-     * <code>optional .dstore.values.IntegerValue user_id = 2;</code>
+     * <code>.dstore.values.IntegerValue user_id = 2;</code>
      */
     boolean hasUserId();
     /**
-     * <code>optional .dstore.values.IntegerValue user_id = 2;</code>
+     * <code>.dstore.values.IntegerValue user_id = 2;</code>
      */
     io.dstore.values.IntegerValue getUserId();
     /**
-     * <code>optional .dstore.values.IntegerValue user_id = 2;</code>
+     * <code>.dstore.values.IntegerValue user_id = 2;</code>
      */
     io.dstore.values.IntegerValueOrBuilder getUserIdOrBuilder();
 
     /**
-     * <code>optional bool user_id_null = 1002;</code>
+     * <code>bool user_id_null = 1002;</code>
      */
     boolean getUserIdNull();
 
     /**
-     * <code>optional .dstore.values.BooleanValue allowed = 3;</code>
+     * <code>.dstore.values.BooleanValue allowed = 3;</code>
      */
     boolean hasAllowed();
     /**
-     * <code>optional .dstore.values.BooleanValue allowed = 3;</code>
+     * <code>.dstore.values.BooleanValue allowed = 3;</code>
      */
     io.dstore.values.BooleanValue getAllowed();
     /**
-     * <code>optional .dstore.values.BooleanValue allowed = 3;</code>
+     * <code>.dstore.values.BooleanValue allowed = 3;</code>
      */
     io.dstore.values.BooleanValueOrBuilder getAllowedOrBuilder();
 
     /**
-     * <code>optional bool allowed_null = 1003;</code>
+     * <code>bool allowed_null = 1003;</code>
      */
     boolean getAllowedNull();
 
     /**
-     * <code>optional .dstore.values.BooleanValue delete_rule = 4;</code>
+     * <code>.dstore.values.BooleanValue delete_rule = 4;</code>
      */
     boolean hasDeleteRule();
     /**
-     * <code>optional .dstore.values.BooleanValue delete_rule = 4;</code>
+     * <code>.dstore.values.BooleanValue delete_rule = 4;</code>
      */
     io.dstore.values.BooleanValue getDeleteRule();
     /**
-     * <code>optional .dstore.values.BooleanValue delete_rule = 4;</code>
+     * <code>.dstore.values.BooleanValue delete_rule = 4;</code>
      */
     io.dstore.values.BooleanValueOrBuilder getDeleteRuleOrBuilder();
 
     /**
-     * <code>optional bool delete_rule_null = 1004;</code>
+     * <code>bool delete_rule_null = 1004;</code>
      */
     boolean getDeleteRuleNull();
   }
@@ -231,19 +231,19 @@ public final class OmModifyCampaignTypeRulesAd {
     public static final int CAMPAIGN_TYPE_ID_FIELD_NUMBER = 1;
     private io.dstore.values.IntegerValue campaignTypeId_;
     /**
-     * <code>optional .dstore.values.IntegerValue campaign_type_id = 1;</code>
+     * <code>.dstore.values.IntegerValue campaign_type_id = 1;</code>
      */
     public boolean hasCampaignTypeId() {
       return campaignTypeId_ != null;
     }
     /**
-     * <code>optional .dstore.values.IntegerValue campaign_type_id = 1;</code>
+     * <code>.dstore.values.IntegerValue campaign_type_id = 1;</code>
      */
     public io.dstore.values.IntegerValue getCampaignTypeId() {
       return campaignTypeId_ == null ? io.dstore.values.IntegerValue.getDefaultInstance() : campaignTypeId_;
     }
     /**
-     * <code>optional .dstore.values.IntegerValue campaign_type_id = 1;</code>
+     * <code>.dstore.values.IntegerValue campaign_type_id = 1;</code>
      */
     public io.dstore.values.IntegerValueOrBuilder getCampaignTypeIdOrBuilder() {
       return getCampaignTypeId();
@@ -252,7 +252,7 @@ public final class OmModifyCampaignTypeRulesAd {
     public static final int CAMPAIGN_TYPE_ID_NULL_FIELD_NUMBER = 1001;
     private boolean campaignTypeIdNull_;
     /**
-     * <code>optional bool campaign_type_id_null = 1001;</code>
+     * <code>bool campaign_type_id_null = 1001;</code>
      */
     public boolean getCampaignTypeIdNull() {
       return campaignTypeIdNull_;
@@ -261,19 +261,19 @@ public final class OmModifyCampaignTypeRulesAd {
     public static final int USER_ID_FIELD_NUMBER = 2;
     private io.dstore.values.IntegerValue userId_;
     /**
-     * <code>optional .dstore.values.IntegerValue user_id = 2;</code>
+     * <code>.dstore.values.IntegerValue user_id = 2;</code>
      */
     public boolean hasUserId() {
       return userId_ != null;
     }
     /**
-     * <code>optional .dstore.values.IntegerValue user_id = 2;</code>
+     * <code>.dstore.values.IntegerValue user_id = 2;</code>
      */
     public io.dstore.values.IntegerValue getUserId() {
       return userId_ == null ? io.dstore.values.IntegerValue.getDefaultInstance() : userId_;
     }
     /**
-     * <code>optional .dstore.values.IntegerValue user_id = 2;</code>
+     * <code>.dstore.values.IntegerValue user_id = 2;</code>
      */
     public io.dstore.values.IntegerValueOrBuilder getUserIdOrBuilder() {
       return getUserId();
@@ -282,7 +282,7 @@ public final class OmModifyCampaignTypeRulesAd {
     public static final int USER_ID_NULL_FIELD_NUMBER = 1002;
     private boolean userIdNull_;
     /**
-     * <code>optional bool user_id_null = 1002;</code>
+     * <code>bool user_id_null = 1002;</code>
      */
     public boolean getUserIdNull() {
       return userIdNull_;
@@ -291,19 +291,19 @@ public final class OmModifyCampaignTypeRulesAd {
     public static final int ALLOWED_FIELD_NUMBER = 3;
     private io.dstore.values.BooleanValue allowed_;
     /**
-     * <code>optional .dstore.values.BooleanValue allowed = 3;</code>
+     * <code>.dstore.values.BooleanValue allowed = 3;</code>
      */
     public boolean hasAllowed() {
       return allowed_ != null;
     }
     /**
-     * <code>optional .dstore.values.BooleanValue allowed = 3;</code>
+     * <code>.dstore.values.BooleanValue allowed = 3;</code>
      */
     public io.dstore.values.BooleanValue getAllowed() {
       return allowed_ == null ? io.dstore.values.BooleanValue.getDefaultInstance() : allowed_;
     }
     /**
-     * <code>optional .dstore.values.BooleanValue allowed = 3;</code>
+     * <code>.dstore.values.BooleanValue allowed = 3;</code>
      */
     public io.dstore.values.BooleanValueOrBuilder getAllowedOrBuilder() {
       return getAllowed();
@@ -312,7 +312,7 @@ public final class OmModifyCampaignTypeRulesAd {
     public static final int ALLOWED_NULL_FIELD_NUMBER = 1003;
     private boolean allowedNull_;
     /**
-     * <code>optional bool allowed_null = 1003;</code>
+     * <code>bool allowed_null = 1003;</code>
      */
     public boolean getAllowedNull() {
       return allowedNull_;
@@ -321,19 +321,19 @@ public final class OmModifyCampaignTypeRulesAd {
     public static final int DELETE_RULE_FIELD_NUMBER = 4;
     private io.dstore.values.BooleanValue deleteRule_;
     /**
-     * <code>optional .dstore.values.BooleanValue delete_rule = 4;</code>
+     * <code>.dstore.values.BooleanValue delete_rule = 4;</code>
      */
     public boolean hasDeleteRule() {
       return deleteRule_ != null;
     }
     /**
-     * <code>optional .dstore.values.BooleanValue delete_rule = 4;</code>
+     * <code>.dstore.values.BooleanValue delete_rule = 4;</code>
      */
     public io.dstore.values.BooleanValue getDeleteRule() {
       return deleteRule_ == null ? io.dstore.values.BooleanValue.getDefaultInstance() : deleteRule_;
     }
     /**
-     * <code>optional .dstore.values.BooleanValue delete_rule = 4;</code>
+     * <code>.dstore.values.BooleanValue delete_rule = 4;</code>
      */
     public io.dstore.values.BooleanValueOrBuilder getDeleteRuleOrBuilder() {
       return getDeleteRule();
@@ -342,7 +342,7 @@ public final class OmModifyCampaignTypeRulesAd {
     public static final int DELETE_RULE_NULL_FIELD_NUMBER = 1004;
     private boolean deleteRuleNull_;
     /**
-     * <code>optional bool delete_rule_null = 1004;</code>
+     * <code>bool delete_rule_null = 1004;</code>
      */
     public boolean getDeleteRuleNull() {
       return deleteRuleNull_;
@@ -476,7 +476,7 @@ public final class OmModifyCampaignTypeRulesAd {
         return memoizedHashCode;
       }
       int hash = 41;
-      hash = (19 * hash) + getDescriptorForType().hashCode();
+      hash = (19 * hash) + getDescriptor().hashCode();
       if (hasCampaignTypeId()) {
         hash = (37 * hash) + CAMPAIGN_TYPE_ID_FIELD_NUMBER;
         hash = (53 * hash) + getCampaignTypeId().hashCode();
@@ -796,13 +796,13 @@ public final class OmModifyCampaignTypeRulesAd {
       private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> campaignTypeIdBuilder_;
       /**
-       * <code>optional .dstore.values.IntegerValue campaign_type_id = 1;</code>
+       * <code>.dstore.values.IntegerValue campaign_type_id = 1;</code>
        */
       public boolean hasCampaignTypeId() {
         return campaignTypeIdBuilder_ != null || campaignTypeId_ != null;
       }
       /**
-       * <code>optional .dstore.values.IntegerValue campaign_type_id = 1;</code>
+       * <code>.dstore.values.IntegerValue campaign_type_id = 1;</code>
        */
       public io.dstore.values.IntegerValue getCampaignTypeId() {
         if (campaignTypeIdBuilder_ == null) {
@@ -812,7 +812,7 @@ public final class OmModifyCampaignTypeRulesAd {
         }
       }
       /**
-       * <code>optional .dstore.values.IntegerValue campaign_type_id = 1;</code>
+       * <code>.dstore.values.IntegerValue campaign_type_id = 1;</code>
        */
       public Builder setCampaignTypeId(io.dstore.values.IntegerValue value) {
         if (campaignTypeIdBuilder_ == null) {
@@ -828,7 +828,7 @@ public final class OmModifyCampaignTypeRulesAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.IntegerValue campaign_type_id = 1;</code>
+       * <code>.dstore.values.IntegerValue campaign_type_id = 1;</code>
        */
       public Builder setCampaignTypeId(
           io.dstore.values.IntegerValue.Builder builderForValue) {
@@ -842,7 +842,7 @@ public final class OmModifyCampaignTypeRulesAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.IntegerValue campaign_type_id = 1;</code>
+       * <code>.dstore.values.IntegerValue campaign_type_id = 1;</code>
        */
       public Builder mergeCampaignTypeId(io.dstore.values.IntegerValue value) {
         if (campaignTypeIdBuilder_ == null) {
@@ -860,7 +860,7 @@ public final class OmModifyCampaignTypeRulesAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.IntegerValue campaign_type_id = 1;</code>
+       * <code>.dstore.values.IntegerValue campaign_type_id = 1;</code>
        */
       public Builder clearCampaignTypeId() {
         if (campaignTypeIdBuilder_ == null) {
@@ -874,7 +874,7 @@ public final class OmModifyCampaignTypeRulesAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.IntegerValue campaign_type_id = 1;</code>
+       * <code>.dstore.values.IntegerValue campaign_type_id = 1;</code>
        */
       public io.dstore.values.IntegerValue.Builder getCampaignTypeIdBuilder() {
         
@@ -882,7 +882,7 @@ public final class OmModifyCampaignTypeRulesAd {
         return getCampaignTypeIdFieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .dstore.values.IntegerValue campaign_type_id = 1;</code>
+       * <code>.dstore.values.IntegerValue campaign_type_id = 1;</code>
        */
       public io.dstore.values.IntegerValueOrBuilder getCampaignTypeIdOrBuilder() {
         if (campaignTypeIdBuilder_ != null) {
@@ -893,7 +893,7 @@ public final class OmModifyCampaignTypeRulesAd {
         }
       }
       /**
-       * <code>optional .dstore.values.IntegerValue campaign_type_id = 1;</code>
+       * <code>.dstore.values.IntegerValue campaign_type_id = 1;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> 
@@ -911,13 +911,13 @@ public final class OmModifyCampaignTypeRulesAd {
 
       private boolean campaignTypeIdNull_ ;
       /**
-       * <code>optional bool campaign_type_id_null = 1001;</code>
+       * <code>bool campaign_type_id_null = 1001;</code>
        */
       public boolean getCampaignTypeIdNull() {
         return campaignTypeIdNull_;
       }
       /**
-       * <code>optional bool campaign_type_id_null = 1001;</code>
+       * <code>bool campaign_type_id_null = 1001;</code>
        */
       public Builder setCampaignTypeIdNull(boolean value) {
         
@@ -926,7 +926,7 @@ public final class OmModifyCampaignTypeRulesAd {
         return this;
       }
       /**
-       * <code>optional bool campaign_type_id_null = 1001;</code>
+       * <code>bool campaign_type_id_null = 1001;</code>
        */
       public Builder clearCampaignTypeIdNull() {
         
@@ -939,13 +939,13 @@ public final class OmModifyCampaignTypeRulesAd {
       private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> userIdBuilder_;
       /**
-       * <code>optional .dstore.values.IntegerValue user_id = 2;</code>
+       * <code>.dstore.values.IntegerValue user_id = 2;</code>
        */
       public boolean hasUserId() {
         return userIdBuilder_ != null || userId_ != null;
       }
       /**
-       * <code>optional .dstore.values.IntegerValue user_id = 2;</code>
+       * <code>.dstore.values.IntegerValue user_id = 2;</code>
        */
       public io.dstore.values.IntegerValue getUserId() {
         if (userIdBuilder_ == null) {
@@ -955,7 +955,7 @@ public final class OmModifyCampaignTypeRulesAd {
         }
       }
       /**
-       * <code>optional .dstore.values.IntegerValue user_id = 2;</code>
+       * <code>.dstore.values.IntegerValue user_id = 2;</code>
        */
       public Builder setUserId(io.dstore.values.IntegerValue value) {
         if (userIdBuilder_ == null) {
@@ -971,7 +971,7 @@ public final class OmModifyCampaignTypeRulesAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.IntegerValue user_id = 2;</code>
+       * <code>.dstore.values.IntegerValue user_id = 2;</code>
        */
       public Builder setUserId(
           io.dstore.values.IntegerValue.Builder builderForValue) {
@@ -985,7 +985,7 @@ public final class OmModifyCampaignTypeRulesAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.IntegerValue user_id = 2;</code>
+       * <code>.dstore.values.IntegerValue user_id = 2;</code>
        */
       public Builder mergeUserId(io.dstore.values.IntegerValue value) {
         if (userIdBuilder_ == null) {
@@ -1003,7 +1003,7 @@ public final class OmModifyCampaignTypeRulesAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.IntegerValue user_id = 2;</code>
+       * <code>.dstore.values.IntegerValue user_id = 2;</code>
        */
       public Builder clearUserId() {
         if (userIdBuilder_ == null) {
@@ -1017,7 +1017,7 @@ public final class OmModifyCampaignTypeRulesAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.IntegerValue user_id = 2;</code>
+       * <code>.dstore.values.IntegerValue user_id = 2;</code>
        */
       public io.dstore.values.IntegerValue.Builder getUserIdBuilder() {
         
@@ -1025,7 +1025,7 @@ public final class OmModifyCampaignTypeRulesAd {
         return getUserIdFieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .dstore.values.IntegerValue user_id = 2;</code>
+       * <code>.dstore.values.IntegerValue user_id = 2;</code>
        */
       public io.dstore.values.IntegerValueOrBuilder getUserIdOrBuilder() {
         if (userIdBuilder_ != null) {
@@ -1036,7 +1036,7 @@ public final class OmModifyCampaignTypeRulesAd {
         }
       }
       /**
-       * <code>optional .dstore.values.IntegerValue user_id = 2;</code>
+       * <code>.dstore.values.IntegerValue user_id = 2;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> 
@@ -1054,13 +1054,13 @@ public final class OmModifyCampaignTypeRulesAd {
 
       private boolean userIdNull_ ;
       /**
-       * <code>optional bool user_id_null = 1002;</code>
+       * <code>bool user_id_null = 1002;</code>
        */
       public boolean getUserIdNull() {
         return userIdNull_;
       }
       /**
-       * <code>optional bool user_id_null = 1002;</code>
+       * <code>bool user_id_null = 1002;</code>
        */
       public Builder setUserIdNull(boolean value) {
         
@@ -1069,7 +1069,7 @@ public final class OmModifyCampaignTypeRulesAd {
         return this;
       }
       /**
-       * <code>optional bool user_id_null = 1002;</code>
+       * <code>bool user_id_null = 1002;</code>
        */
       public Builder clearUserIdNull() {
         
@@ -1082,13 +1082,13 @@ public final class OmModifyCampaignTypeRulesAd {
       private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.values.BooleanValue, io.dstore.values.BooleanValue.Builder, io.dstore.values.BooleanValueOrBuilder> allowedBuilder_;
       /**
-       * <code>optional .dstore.values.BooleanValue allowed = 3;</code>
+       * <code>.dstore.values.BooleanValue allowed = 3;</code>
        */
       public boolean hasAllowed() {
         return allowedBuilder_ != null || allowed_ != null;
       }
       /**
-       * <code>optional .dstore.values.BooleanValue allowed = 3;</code>
+       * <code>.dstore.values.BooleanValue allowed = 3;</code>
        */
       public io.dstore.values.BooleanValue getAllowed() {
         if (allowedBuilder_ == null) {
@@ -1098,7 +1098,7 @@ public final class OmModifyCampaignTypeRulesAd {
         }
       }
       /**
-       * <code>optional .dstore.values.BooleanValue allowed = 3;</code>
+       * <code>.dstore.values.BooleanValue allowed = 3;</code>
        */
       public Builder setAllowed(io.dstore.values.BooleanValue value) {
         if (allowedBuilder_ == null) {
@@ -1114,7 +1114,7 @@ public final class OmModifyCampaignTypeRulesAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.BooleanValue allowed = 3;</code>
+       * <code>.dstore.values.BooleanValue allowed = 3;</code>
        */
       public Builder setAllowed(
           io.dstore.values.BooleanValue.Builder builderForValue) {
@@ -1128,7 +1128,7 @@ public final class OmModifyCampaignTypeRulesAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.BooleanValue allowed = 3;</code>
+       * <code>.dstore.values.BooleanValue allowed = 3;</code>
        */
       public Builder mergeAllowed(io.dstore.values.BooleanValue value) {
         if (allowedBuilder_ == null) {
@@ -1146,7 +1146,7 @@ public final class OmModifyCampaignTypeRulesAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.BooleanValue allowed = 3;</code>
+       * <code>.dstore.values.BooleanValue allowed = 3;</code>
        */
       public Builder clearAllowed() {
         if (allowedBuilder_ == null) {
@@ -1160,7 +1160,7 @@ public final class OmModifyCampaignTypeRulesAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.BooleanValue allowed = 3;</code>
+       * <code>.dstore.values.BooleanValue allowed = 3;</code>
        */
       public io.dstore.values.BooleanValue.Builder getAllowedBuilder() {
         
@@ -1168,7 +1168,7 @@ public final class OmModifyCampaignTypeRulesAd {
         return getAllowedFieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .dstore.values.BooleanValue allowed = 3;</code>
+       * <code>.dstore.values.BooleanValue allowed = 3;</code>
        */
       public io.dstore.values.BooleanValueOrBuilder getAllowedOrBuilder() {
         if (allowedBuilder_ != null) {
@@ -1179,7 +1179,7 @@ public final class OmModifyCampaignTypeRulesAd {
         }
       }
       /**
-       * <code>optional .dstore.values.BooleanValue allowed = 3;</code>
+       * <code>.dstore.values.BooleanValue allowed = 3;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.values.BooleanValue, io.dstore.values.BooleanValue.Builder, io.dstore.values.BooleanValueOrBuilder> 
@@ -1197,13 +1197,13 @@ public final class OmModifyCampaignTypeRulesAd {
 
       private boolean allowedNull_ ;
       /**
-       * <code>optional bool allowed_null = 1003;</code>
+       * <code>bool allowed_null = 1003;</code>
        */
       public boolean getAllowedNull() {
         return allowedNull_;
       }
       /**
-       * <code>optional bool allowed_null = 1003;</code>
+       * <code>bool allowed_null = 1003;</code>
        */
       public Builder setAllowedNull(boolean value) {
         
@@ -1212,7 +1212,7 @@ public final class OmModifyCampaignTypeRulesAd {
         return this;
       }
       /**
-       * <code>optional bool allowed_null = 1003;</code>
+       * <code>bool allowed_null = 1003;</code>
        */
       public Builder clearAllowedNull() {
         
@@ -1225,13 +1225,13 @@ public final class OmModifyCampaignTypeRulesAd {
       private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.values.BooleanValue, io.dstore.values.BooleanValue.Builder, io.dstore.values.BooleanValueOrBuilder> deleteRuleBuilder_;
       /**
-       * <code>optional .dstore.values.BooleanValue delete_rule = 4;</code>
+       * <code>.dstore.values.BooleanValue delete_rule = 4;</code>
        */
       public boolean hasDeleteRule() {
         return deleteRuleBuilder_ != null || deleteRule_ != null;
       }
       /**
-       * <code>optional .dstore.values.BooleanValue delete_rule = 4;</code>
+       * <code>.dstore.values.BooleanValue delete_rule = 4;</code>
        */
       public io.dstore.values.BooleanValue getDeleteRule() {
         if (deleteRuleBuilder_ == null) {
@@ -1241,7 +1241,7 @@ public final class OmModifyCampaignTypeRulesAd {
         }
       }
       /**
-       * <code>optional .dstore.values.BooleanValue delete_rule = 4;</code>
+       * <code>.dstore.values.BooleanValue delete_rule = 4;</code>
        */
       public Builder setDeleteRule(io.dstore.values.BooleanValue value) {
         if (deleteRuleBuilder_ == null) {
@@ -1257,7 +1257,7 @@ public final class OmModifyCampaignTypeRulesAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.BooleanValue delete_rule = 4;</code>
+       * <code>.dstore.values.BooleanValue delete_rule = 4;</code>
        */
       public Builder setDeleteRule(
           io.dstore.values.BooleanValue.Builder builderForValue) {
@@ -1271,7 +1271,7 @@ public final class OmModifyCampaignTypeRulesAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.BooleanValue delete_rule = 4;</code>
+       * <code>.dstore.values.BooleanValue delete_rule = 4;</code>
        */
       public Builder mergeDeleteRule(io.dstore.values.BooleanValue value) {
         if (deleteRuleBuilder_ == null) {
@@ -1289,7 +1289,7 @@ public final class OmModifyCampaignTypeRulesAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.BooleanValue delete_rule = 4;</code>
+       * <code>.dstore.values.BooleanValue delete_rule = 4;</code>
        */
       public Builder clearDeleteRule() {
         if (deleteRuleBuilder_ == null) {
@@ -1303,7 +1303,7 @@ public final class OmModifyCampaignTypeRulesAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.BooleanValue delete_rule = 4;</code>
+       * <code>.dstore.values.BooleanValue delete_rule = 4;</code>
        */
       public io.dstore.values.BooleanValue.Builder getDeleteRuleBuilder() {
         
@@ -1311,7 +1311,7 @@ public final class OmModifyCampaignTypeRulesAd {
         return getDeleteRuleFieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .dstore.values.BooleanValue delete_rule = 4;</code>
+       * <code>.dstore.values.BooleanValue delete_rule = 4;</code>
        */
       public io.dstore.values.BooleanValueOrBuilder getDeleteRuleOrBuilder() {
         if (deleteRuleBuilder_ != null) {
@@ -1322,7 +1322,7 @@ public final class OmModifyCampaignTypeRulesAd {
         }
       }
       /**
-       * <code>optional .dstore.values.BooleanValue delete_rule = 4;</code>
+       * <code>.dstore.values.BooleanValue delete_rule = 4;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.values.BooleanValue, io.dstore.values.BooleanValue.Builder, io.dstore.values.BooleanValueOrBuilder> 
@@ -1340,13 +1340,13 @@ public final class OmModifyCampaignTypeRulesAd {
 
       private boolean deleteRuleNull_ ;
       /**
-       * <code>optional bool delete_rule_null = 1004;</code>
+       * <code>bool delete_rule_null = 1004;</code>
        */
       public boolean getDeleteRuleNull() {
         return deleteRuleNull_;
       }
       /**
-       * <code>optional bool delete_rule_null = 1004;</code>
+       * <code>bool delete_rule_null = 1004;</code>
        */
       public Builder setDeleteRuleNull(boolean value) {
         
@@ -1355,7 +1355,7 @@ public final class OmModifyCampaignTypeRulesAd {
         return this;
       }
       /**
-       * <code>optional bool delete_rule_null = 1004;</code>
+       * <code>bool delete_rule_null = 1004;</code>
        */
       public Builder clearDeleteRuleNull() {
         
@@ -1614,7 +1614,7 @@ public final class OmModifyCampaignTypeRulesAd {
         com.google.protobuf.MessageOrBuilder {
 
       /**
-       * <code>optional int32 row_id = 10000;</code>
+       * <code>int32 row_id = 10000;</code>
        */
       int getRowId();
     }
@@ -1689,7 +1689,7 @@ public final class OmModifyCampaignTypeRulesAd {
       public static final int ROW_ID_FIELD_NUMBER = 10000;
       private int rowId_;
       /**
-       * <code>optional int32 row_id = 10000;</code>
+       * <code>int32 row_id = 10000;</code>
        */
       public int getRowId() {
         return rowId_;
@@ -1748,7 +1748,7 @@ public final class OmModifyCampaignTypeRulesAd {
           return memoizedHashCode;
         }
         int hash = 41;
-        hash = (19 * hash) + getDescriptorForType().hashCode();
+        hash = (19 * hash) + getDescriptor().hashCode();
         hash = (37 * hash) + ROW_ID_FIELD_NUMBER;
         hash = (53 * hash) + getRowId();
         hash = (29 * hash) + unknownFields.hashCode();
@@ -1966,13 +1966,13 @@ public final class OmModifyCampaignTypeRulesAd {
 
         private int rowId_ ;
         /**
-         * <code>optional int32 row_id = 10000;</code>
+         * <code>int32 row_id = 10000;</code>
          */
         public int getRowId() {
           return rowId_;
         }
         /**
-         * <code>optional int32 row_id = 10000;</code>
+         * <code>int32 row_id = 10000;</code>
          */
         public Builder setRowId(int value) {
           
@@ -1981,7 +1981,7 @@ public final class OmModifyCampaignTypeRulesAd {
           return this;
         }
         /**
-         * <code>optional int32 row_id = 10000;</code>
+         * <code>int32 row_id = 10000;</code>
          */
         public Builder clearRowId() {
           
@@ -2234,7 +2234,7 @@ public final class OmModifyCampaignTypeRulesAd {
         return memoizedHashCode;
       }
       int hash = 41;
-      hash = (19 * hash) + getDescriptorForType().hashCode();
+      hash = (19 * hash) + getDescriptor().hashCode();
       if (getMetaInformationCount() > 0) {
         hash = (37 * hash) + META_INFORMATION_FIELD_NUMBER;
         hash = (53 * hash) + getMetaInformationList().hashCode();

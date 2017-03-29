@@ -196,13 +196,13 @@ public  final class MetaInformation extends
   public static final int TYPE_FIELD_NUMBER = 1;
   private int type_;
   /**
-   * <code>optional .dstore.engine.MetaInformation.Types type = 1;</code>
+   * <code>.dstore.engine.MetaInformation.Types type = 1;</code>
    */
   public int getTypeValue() {
     return type_;
   }
   /**
-   * <code>optional .dstore.engine.MetaInformation.Types type = 1;</code>
+   * <code>.dstore.engine.MetaInformation.Types type = 1;</code>
    */
   public io.dstore.engine.MetaInformation.Types getType() {
     io.dstore.engine.MetaInformation.Types result = io.dstore.engine.MetaInformation.Types.valueOf(type_);
@@ -212,7 +212,7 @@ public  final class MetaInformation extends
   public static final int INFORMATION_FIELD_NUMBER = 2;
   private volatile java.lang.Object information_;
   /**
-   * <code>optional string information = 2;</code>
+   * <code>string information = 2;</code>
    */
   public java.lang.String getInformation() {
     java.lang.Object ref = information_;
@@ -227,7 +227,7 @@ public  final class MetaInformation extends
     }
   }
   /**
-   * <code>optional string information = 2;</code>
+   * <code>string information = 2;</code>
    */
   public com.google.protobuf.ByteString
       getInformationBytes() {
@@ -246,7 +246,7 @@ public  final class MetaInformation extends
   public static final int DETAILS_FIELD_NUMBER = 3;
   private volatile java.lang.Object details_;
   /**
-   * <code>optional string details = 3;</code>
+   * <code>string details = 3;</code>
    */
   public java.lang.String getDetails() {
     java.lang.Object ref = details_;
@@ -261,7 +261,7 @@ public  final class MetaInformation extends
     }
   }
   /**
-   * <code>optional string details = 3;</code>
+   * <code>string details = 3;</code>
    */
   public com.google.protobuf.ByteString
       getDetailsBytes() {
@@ -345,7 +345,7 @@ public  final class MetaInformation extends
       return memoizedHashCode;
     }
     int hash = 41;
-    hash = (19 * hash) + getDescriptorForType().hashCode();
+    hash = (19 * hash) + getDescriptor().hashCode();
     hash = (37 * hash) + TYPE_FIELD_NUMBER;
     hash = (53 * hash) + type_;
     hash = (37 * hash) + INFORMATION_FIELD_NUMBER;
@@ -581,13 +581,13 @@ public  final class MetaInformation extends
 
     private int type_ = 0;
     /**
-     * <code>optional .dstore.engine.MetaInformation.Types type = 1;</code>
+     * <code>.dstore.engine.MetaInformation.Types type = 1;</code>
      */
     public int getTypeValue() {
       return type_;
     }
     /**
-     * <code>optional .dstore.engine.MetaInformation.Types type = 1;</code>
+     * <code>.dstore.engine.MetaInformation.Types type = 1;</code>
      */
     public Builder setTypeValue(int value) {
       type_ = value;
@@ -595,14 +595,14 @@ public  final class MetaInformation extends
       return this;
     }
     /**
-     * <code>optional .dstore.engine.MetaInformation.Types type = 1;</code>
+     * <code>.dstore.engine.MetaInformation.Types type = 1;</code>
      */
     public io.dstore.engine.MetaInformation.Types getType() {
       io.dstore.engine.MetaInformation.Types result = io.dstore.engine.MetaInformation.Types.valueOf(type_);
       return result == null ? io.dstore.engine.MetaInformation.Types.UNRECOGNIZED : result;
     }
     /**
-     * <code>optional .dstore.engine.MetaInformation.Types type = 1;</code>
+     * <code>.dstore.engine.MetaInformation.Types type = 1;</code>
      */
     public Builder setType(io.dstore.engine.MetaInformation.Types value) {
       if (value == null) {
@@ -614,7 +614,7 @@ public  final class MetaInformation extends
       return this;
     }
     /**
-     * <code>optional .dstore.engine.MetaInformation.Types type = 1;</code>
+     * <code>.dstore.engine.MetaInformation.Types type = 1;</code>
      */
     public Builder clearType() {
       
@@ -625,7 +625,7 @@ public  final class MetaInformation extends
 
     private java.lang.Object information_ = "";
     /**
-     * <code>optional string information = 2;</code>
+     * <code>string information = 2;</code>
      */
     public java.lang.String getInformation() {
       java.lang.Object ref = information_;
@@ -640,7 +640,7 @@ public  final class MetaInformation extends
       }
     }
     /**
-     * <code>optional string information = 2;</code>
+     * <code>string information = 2;</code>
      */
     public com.google.protobuf.ByteString
         getInformationBytes() {
@@ -656,7 +656,7 @@ public  final class MetaInformation extends
       }
     }
     /**
-     * <code>optional string information = 2;</code>
+     * <code>string information = 2;</code>
      */
     public Builder setInformation(
         java.lang.String value) {
@@ -669,7 +669,7 @@ public  final class MetaInformation extends
       return this;
     }
     /**
-     * <code>optional string information = 2;</code>
+     * <code>string information = 2;</code>
      */
     public Builder clearInformation() {
       
@@ -678,7 +678,7 @@ public  final class MetaInformation extends
       return this;
     }
     /**
-     * <code>optional string information = 2;</code>
+     * <code>string information = 2;</code>
      */
     public Builder setInformationBytes(
         com.google.protobuf.ByteString value) {
@@ -694,7 +694,7 @@ public  final class MetaInformation extends
 
     private java.lang.Object details_ = "";
     /**
-     * <code>optional string details = 3;</code>
+     * <code>string details = 3;</code>
      */
     public java.lang.String getDetails() {
       java.lang.Object ref = details_;
@@ -709,7 +709,7 @@ public  final class MetaInformation extends
       }
     }
     /**
-     * <code>optional string details = 3;</code>
+     * <code>string details = 3;</code>
      */
     public com.google.protobuf.ByteString
         getDetailsBytes() {
@@ -725,7 +725,7 @@ public  final class MetaInformation extends
       }
     }
     /**
-     * <code>optional string details = 3;</code>
+     * <code>string details = 3;</code>
      */
     public Builder setDetails(
         java.lang.String value) {
@@ -738,7 +738,7 @@ public  final class MetaInformation extends
       return this;
     }
     /**
-     * <code>optional string details = 3;</code>
+     * <code>string details = 3;</code>
      */
     public Builder clearDetails() {
       
@@ -747,7 +747,7 @@ public  final class MetaInformation extends
       return this;
     }
     /**
-     * <code>optional string details = 3;</code>
+     * <code>string details = 3;</code>
      */
     public Builder setDetailsBytes(
         com.google.protobuf.ByteString value) {

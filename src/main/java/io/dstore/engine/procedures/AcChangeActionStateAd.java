@@ -19,38 +19,38 @@ public final class AcChangeActionStateAd {
       com.google.protobuf.MessageOrBuilder {
 
     /**
-     * <code>optional .dstore.values.IntegerValue action_id = 1;</code>
+     * <code>.dstore.values.IntegerValue action_id = 1;</code>
      */
     boolean hasActionId();
     /**
-     * <code>optional .dstore.values.IntegerValue action_id = 1;</code>
+     * <code>.dstore.values.IntegerValue action_id = 1;</code>
      */
     io.dstore.values.IntegerValue getActionId();
     /**
-     * <code>optional .dstore.values.IntegerValue action_id = 1;</code>
+     * <code>.dstore.values.IntegerValue action_id = 1;</code>
      */
     io.dstore.values.IntegerValueOrBuilder getActionIdOrBuilder();
 
     /**
-     * <code>optional bool action_id_null = 1001;</code>
+     * <code>bool action_id_null = 1001;</code>
      */
     boolean getActionIdNull();
 
     /**
-     * <code>optional .dstore.values.IntegerValue status = 2;</code>
+     * <code>.dstore.values.IntegerValue status = 2;</code>
      */
     boolean hasStatus();
     /**
-     * <code>optional .dstore.values.IntegerValue status = 2;</code>
+     * <code>.dstore.values.IntegerValue status = 2;</code>
      */
     io.dstore.values.IntegerValue getStatus();
     /**
-     * <code>optional .dstore.values.IntegerValue status = 2;</code>
+     * <code>.dstore.values.IntegerValue status = 2;</code>
      */
     io.dstore.values.IntegerValueOrBuilder getStatusOrBuilder();
 
     /**
-     * <code>optional bool status_null = 1002;</code>
+     * <code>bool status_null = 1002;</code>
      */
     boolean getStatusNull();
   }
@@ -157,19 +157,19 @@ public final class AcChangeActionStateAd {
     public static final int ACTION_ID_FIELD_NUMBER = 1;
     private io.dstore.values.IntegerValue actionId_;
     /**
-     * <code>optional .dstore.values.IntegerValue action_id = 1;</code>
+     * <code>.dstore.values.IntegerValue action_id = 1;</code>
      */
     public boolean hasActionId() {
       return actionId_ != null;
     }
     /**
-     * <code>optional .dstore.values.IntegerValue action_id = 1;</code>
+     * <code>.dstore.values.IntegerValue action_id = 1;</code>
      */
     public io.dstore.values.IntegerValue getActionId() {
       return actionId_ == null ? io.dstore.values.IntegerValue.getDefaultInstance() : actionId_;
     }
     /**
-     * <code>optional .dstore.values.IntegerValue action_id = 1;</code>
+     * <code>.dstore.values.IntegerValue action_id = 1;</code>
      */
     public io.dstore.values.IntegerValueOrBuilder getActionIdOrBuilder() {
       return getActionId();
@@ -178,7 +178,7 @@ public final class AcChangeActionStateAd {
     public static final int ACTION_ID_NULL_FIELD_NUMBER = 1001;
     private boolean actionIdNull_;
     /**
-     * <code>optional bool action_id_null = 1001;</code>
+     * <code>bool action_id_null = 1001;</code>
      */
     public boolean getActionIdNull() {
       return actionIdNull_;
@@ -187,19 +187,19 @@ public final class AcChangeActionStateAd {
     public static final int STATUS_FIELD_NUMBER = 2;
     private io.dstore.values.IntegerValue status_;
     /**
-     * <code>optional .dstore.values.IntegerValue status = 2;</code>
+     * <code>.dstore.values.IntegerValue status = 2;</code>
      */
     public boolean hasStatus() {
       return status_ != null;
     }
     /**
-     * <code>optional .dstore.values.IntegerValue status = 2;</code>
+     * <code>.dstore.values.IntegerValue status = 2;</code>
      */
     public io.dstore.values.IntegerValue getStatus() {
       return status_ == null ? io.dstore.values.IntegerValue.getDefaultInstance() : status_;
     }
     /**
-     * <code>optional .dstore.values.IntegerValue status = 2;</code>
+     * <code>.dstore.values.IntegerValue status = 2;</code>
      */
     public io.dstore.values.IntegerValueOrBuilder getStatusOrBuilder() {
       return getStatus();
@@ -208,7 +208,7 @@ public final class AcChangeActionStateAd {
     public static final int STATUS_NULL_FIELD_NUMBER = 1002;
     private boolean statusNull_;
     /**
-     * <code>optional bool status_null = 1002;</code>
+     * <code>bool status_null = 1002;</code>
      */
     public boolean getStatusNull() {
       return statusNull_;
@@ -300,7 +300,7 @@ public final class AcChangeActionStateAd {
         return memoizedHashCode;
       }
       int hash = 41;
-      hash = (19 * hash) + getDescriptorForType().hashCode();
+      hash = (19 * hash) + getDescriptor().hashCode();
       if (hasActionId()) {
         hash = (37 * hash) + ACTION_ID_FIELD_NUMBER;
         hash = (53 * hash) + getActionId().hashCode();
@@ -566,13 +566,13 @@ public final class AcChangeActionStateAd {
       private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> actionIdBuilder_;
       /**
-       * <code>optional .dstore.values.IntegerValue action_id = 1;</code>
+       * <code>.dstore.values.IntegerValue action_id = 1;</code>
        */
       public boolean hasActionId() {
         return actionIdBuilder_ != null || actionId_ != null;
       }
       /**
-       * <code>optional .dstore.values.IntegerValue action_id = 1;</code>
+       * <code>.dstore.values.IntegerValue action_id = 1;</code>
        */
       public io.dstore.values.IntegerValue getActionId() {
         if (actionIdBuilder_ == null) {
@@ -582,7 +582,7 @@ public final class AcChangeActionStateAd {
         }
       }
       /**
-       * <code>optional .dstore.values.IntegerValue action_id = 1;</code>
+       * <code>.dstore.values.IntegerValue action_id = 1;</code>
        */
       public Builder setActionId(io.dstore.values.IntegerValue value) {
         if (actionIdBuilder_ == null) {
@@ -598,7 +598,7 @@ public final class AcChangeActionStateAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.IntegerValue action_id = 1;</code>
+       * <code>.dstore.values.IntegerValue action_id = 1;</code>
        */
       public Builder setActionId(
           io.dstore.values.IntegerValue.Builder builderForValue) {
@@ -612,7 +612,7 @@ public final class AcChangeActionStateAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.IntegerValue action_id = 1;</code>
+       * <code>.dstore.values.IntegerValue action_id = 1;</code>
        */
       public Builder mergeActionId(io.dstore.values.IntegerValue value) {
         if (actionIdBuilder_ == null) {
@@ -630,7 +630,7 @@ public final class AcChangeActionStateAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.IntegerValue action_id = 1;</code>
+       * <code>.dstore.values.IntegerValue action_id = 1;</code>
        */
       public Builder clearActionId() {
         if (actionIdBuilder_ == null) {
@@ -644,7 +644,7 @@ public final class AcChangeActionStateAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.IntegerValue action_id = 1;</code>
+       * <code>.dstore.values.IntegerValue action_id = 1;</code>
        */
       public io.dstore.values.IntegerValue.Builder getActionIdBuilder() {
         
@@ -652,7 +652,7 @@ public final class AcChangeActionStateAd {
         return getActionIdFieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .dstore.values.IntegerValue action_id = 1;</code>
+       * <code>.dstore.values.IntegerValue action_id = 1;</code>
        */
       public io.dstore.values.IntegerValueOrBuilder getActionIdOrBuilder() {
         if (actionIdBuilder_ != null) {
@@ -663,7 +663,7 @@ public final class AcChangeActionStateAd {
         }
       }
       /**
-       * <code>optional .dstore.values.IntegerValue action_id = 1;</code>
+       * <code>.dstore.values.IntegerValue action_id = 1;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> 
@@ -681,13 +681,13 @@ public final class AcChangeActionStateAd {
 
       private boolean actionIdNull_ ;
       /**
-       * <code>optional bool action_id_null = 1001;</code>
+       * <code>bool action_id_null = 1001;</code>
        */
       public boolean getActionIdNull() {
         return actionIdNull_;
       }
       /**
-       * <code>optional bool action_id_null = 1001;</code>
+       * <code>bool action_id_null = 1001;</code>
        */
       public Builder setActionIdNull(boolean value) {
         
@@ -696,7 +696,7 @@ public final class AcChangeActionStateAd {
         return this;
       }
       /**
-       * <code>optional bool action_id_null = 1001;</code>
+       * <code>bool action_id_null = 1001;</code>
        */
       public Builder clearActionIdNull() {
         
@@ -709,13 +709,13 @@ public final class AcChangeActionStateAd {
       private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> statusBuilder_;
       /**
-       * <code>optional .dstore.values.IntegerValue status = 2;</code>
+       * <code>.dstore.values.IntegerValue status = 2;</code>
        */
       public boolean hasStatus() {
         return statusBuilder_ != null || status_ != null;
       }
       /**
-       * <code>optional .dstore.values.IntegerValue status = 2;</code>
+       * <code>.dstore.values.IntegerValue status = 2;</code>
        */
       public io.dstore.values.IntegerValue getStatus() {
         if (statusBuilder_ == null) {
@@ -725,7 +725,7 @@ public final class AcChangeActionStateAd {
         }
       }
       /**
-       * <code>optional .dstore.values.IntegerValue status = 2;</code>
+       * <code>.dstore.values.IntegerValue status = 2;</code>
        */
       public Builder setStatus(io.dstore.values.IntegerValue value) {
         if (statusBuilder_ == null) {
@@ -741,7 +741,7 @@ public final class AcChangeActionStateAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.IntegerValue status = 2;</code>
+       * <code>.dstore.values.IntegerValue status = 2;</code>
        */
       public Builder setStatus(
           io.dstore.values.IntegerValue.Builder builderForValue) {
@@ -755,7 +755,7 @@ public final class AcChangeActionStateAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.IntegerValue status = 2;</code>
+       * <code>.dstore.values.IntegerValue status = 2;</code>
        */
       public Builder mergeStatus(io.dstore.values.IntegerValue value) {
         if (statusBuilder_ == null) {
@@ -773,7 +773,7 @@ public final class AcChangeActionStateAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.IntegerValue status = 2;</code>
+       * <code>.dstore.values.IntegerValue status = 2;</code>
        */
       public Builder clearStatus() {
         if (statusBuilder_ == null) {
@@ -787,7 +787,7 @@ public final class AcChangeActionStateAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.IntegerValue status = 2;</code>
+       * <code>.dstore.values.IntegerValue status = 2;</code>
        */
       public io.dstore.values.IntegerValue.Builder getStatusBuilder() {
         
@@ -795,7 +795,7 @@ public final class AcChangeActionStateAd {
         return getStatusFieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .dstore.values.IntegerValue status = 2;</code>
+       * <code>.dstore.values.IntegerValue status = 2;</code>
        */
       public io.dstore.values.IntegerValueOrBuilder getStatusOrBuilder() {
         if (statusBuilder_ != null) {
@@ -806,7 +806,7 @@ public final class AcChangeActionStateAd {
         }
       }
       /**
-       * <code>optional .dstore.values.IntegerValue status = 2;</code>
+       * <code>.dstore.values.IntegerValue status = 2;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> 
@@ -824,13 +824,13 @@ public final class AcChangeActionStateAd {
 
       private boolean statusNull_ ;
       /**
-       * <code>optional bool status_null = 1002;</code>
+       * <code>bool status_null = 1002;</code>
        */
       public boolean getStatusNull() {
         return statusNull_;
       }
       /**
-       * <code>optional bool status_null = 1002;</code>
+       * <code>bool status_null = 1002;</code>
        */
       public Builder setStatusNull(boolean value) {
         
@@ -839,7 +839,7 @@ public final class AcChangeActionStateAd {
         return this;
       }
       /**
-       * <code>optional bool status_null = 1002;</code>
+       * <code>bool status_null = 1002;</code>
        */
       public Builder clearStatusNull() {
         
@@ -1098,7 +1098,7 @@ public final class AcChangeActionStateAd {
         com.google.protobuf.MessageOrBuilder {
 
       /**
-       * <code>optional int32 row_id = 10000;</code>
+       * <code>int32 row_id = 10000;</code>
        */
       int getRowId();
     }
@@ -1173,7 +1173,7 @@ public final class AcChangeActionStateAd {
       public static final int ROW_ID_FIELD_NUMBER = 10000;
       private int rowId_;
       /**
-       * <code>optional int32 row_id = 10000;</code>
+       * <code>int32 row_id = 10000;</code>
        */
       public int getRowId() {
         return rowId_;
@@ -1232,7 +1232,7 @@ public final class AcChangeActionStateAd {
           return memoizedHashCode;
         }
         int hash = 41;
-        hash = (19 * hash) + getDescriptorForType().hashCode();
+        hash = (19 * hash) + getDescriptor().hashCode();
         hash = (37 * hash) + ROW_ID_FIELD_NUMBER;
         hash = (53 * hash) + getRowId();
         hash = (29 * hash) + unknownFields.hashCode();
@@ -1450,13 +1450,13 @@ public final class AcChangeActionStateAd {
 
         private int rowId_ ;
         /**
-         * <code>optional int32 row_id = 10000;</code>
+         * <code>int32 row_id = 10000;</code>
          */
         public int getRowId() {
           return rowId_;
         }
         /**
-         * <code>optional int32 row_id = 10000;</code>
+         * <code>int32 row_id = 10000;</code>
          */
         public Builder setRowId(int value) {
           
@@ -1465,7 +1465,7 @@ public final class AcChangeActionStateAd {
           return this;
         }
         /**
-         * <code>optional int32 row_id = 10000;</code>
+         * <code>int32 row_id = 10000;</code>
          */
         public Builder clearRowId() {
           
@@ -1718,7 +1718,7 @@ public final class AcChangeActionStateAd {
         return memoizedHashCode;
       }
       int hash = 41;
-      hash = (19 * hash) + getDescriptorForType().hashCode();
+      hash = (19 * hash) + getDescriptor().hashCode();
       if (getMetaInformationCount() > 0) {
         hash = (37 * hash) + META_INFORMATION_FIELD_NUMBER;
         hash = (53 * hash) + getMetaInformationList().hashCode();

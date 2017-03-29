@@ -74,7 +74,7 @@ public  final class BytesValue extends
   public static final int VALUE_FIELD_NUMBER = 1;
   private com.google.protobuf.ByteString value_;
   /**
-   * <code>optional bytes value = 1;</code>
+   * <code>bytes value = 1;</code>
    */
   public com.google.protobuf.ByteString getValue() {
     return value_;
@@ -133,7 +133,7 @@ public  final class BytesValue extends
       return memoizedHashCode;
     }
     int hash = 41;
-    hash = (19 * hash) + getDescriptorForType().hashCode();
+    hash = (19 * hash) + getDescriptor().hashCode();
     hash = (37 * hash) + VALUE_FIELD_NUMBER;
     hash = (53 * hash) + getValue().hashCode();
     hash = (29 * hash) + unknownFields.hashCode();
@@ -351,13 +351,13 @@ public  final class BytesValue extends
 
     private com.google.protobuf.ByteString value_ = com.google.protobuf.ByteString.EMPTY;
     /**
-     * <code>optional bytes value = 1;</code>
+     * <code>bytes value = 1;</code>
      */
     public com.google.protobuf.ByteString getValue() {
       return value_;
     }
     /**
-     * <code>optional bytes value = 1;</code>
+     * <code>bytes value = 1;</code>
      */
     public Builder setValue(com.google.protobuf.ByteString value) {
       if (value == null) {
@@ -369,7 +369,7 @@ public  final class BytesValue extends
       return this;
     }
     /**
-     * <code>optional bytes value = 1;</code>
+     * <code>bytes value = 1;</code>
      */
     public Builder clearValue() {
       

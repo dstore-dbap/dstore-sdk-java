@@ -19,74 +19,74 @@ public final class ImGetBinaryCodeIDsForNodePu {
       com.google.protobuf.MessageOrBuilder {
 
     /**
-     * <code>optional .dstore.values.IntegerValue tree_node_id = 1;</code>
+     * <code>.dstore.values.IntegerValue tree_node_id = 1;</code>
      */
     boolean hasTreeNodeId();
     /**
-     * <code>optional .dstore.values.IntegerValue tree_node_id = 1;</code>
+     * <code>.dstore.values.IntegerValue tree_node_id = 1;</code>
      */
     io.dstore.values.IntegerValue getTreeNodeId();
     /**
-     * <code>optional .dstore.values.IntegerValue tree_node_id = 1;</code>
+     * <code>.dstore.values.IntegerValue tree_node_id = 1;</code>
      */
     io.dstore.values.IntegerValueOrBuilder getTreeNodeIdOrBuilder();
 
     /**
-     * <code>optional bool tree_node_id_null = 1001;</code>
+     * <code>bool tree_node_id_null = 1001;</code>
      */
     boolean getTreeNodeIdNull();
 
     /**
-     * <code>optional .dstore.values.IntegerValue binary_property_value_id = 2;</code>
+     * <code>.dstore.values.IntegerValue binary_property_value_id = 2;</code>
      */
     boolean hasBinaryPropertyValueId();
     /**
-     * <code>optional .dstore.values.IntegerValue binary_property_value_id = 2;</code>
+     * <code>.dstore.values.IntegerValue binary_property_value_id = 2;</code>
      */
     io.dstore.values.IntegerValue getBinaryPropertyValueId();
     /**
-     * <code>optional .dstore.values.IntegerValue binary_property_value_id = 2;</code>
+     * <code>.dstore.values.IntegerValue binary_property_value_id = 2;</code>
      */
     io.dstore.values.IntegerValueOrBuilder getBinaryPropertyValueIdOrBuilder();
 
     /**
-     * <code>optional bool binary_property_value_id_null = 1002;</code>
+     * <code>bool binary_property_value_id_null = 1002;</code>
      */
     boolean getBinaryPropertyValueIdNull();
 
     /**
-     * <code>optional .dstore.values.BooleanValue is_node_id = 3;</code>
+     * <code>.dstore.values.BooleanValue is_node_id = 3;</code>
      */
     boolean hasIsNodeId();
     /**
-     * <code>optional .dstore.values.BooleanValue is_node_id = 3;</code>
+     * <code>.dstore.values.BooleanValue is_node_id = 3;</code>
      */
     io.dstore.values.BooleanValue getIsNodeId();
     /**
-     * <code>optional .dstore.values.BooleanValue is_node_id = 3;</code>
+     * <code>.dstore.values.BooleanValue is_node_id = 3;</code>
      */
     io.dstore.values.BooleanValueOrBuilder getIsNodeIdOrBuilder();
 
     /**
-     * <code>optional bool is_node_id_null = 1003;</code>
+     * <code>bool is_node_id_null = 1003;</code>
      */
     boolean getIsNodeIdNull();
 
     /**
-     * <code>optional .dstore.values.IntegerValue binary_characteristic_id = 4;</code>
+     * <code>.dstore.values.IntegerValue binary_characteristic_id = 4;</code>
      */
     boolean hasBinaryCharacteristicId();
     /**
-     * <code>optional .dstore.values.IntegerValue binary_characteristic_id = 4;</code>
+     * <code>.dstore.values.IntegerValue binary_characteristic_id = 4;</code>
      */
     io.dstore.values.IntegerValue getBinaryCharacteristicId();
     /**
-     * <code>optional .dstore.values.IntegerValue binary_characteristic_id = 4;</code>
+     * <code>.dstore.values.IntegerValue binary_characteristic_id = 4;</code>
      */
     io.dstore.values.IntegerValueOrBuilder getBinaryCharacteristicIdOrBuilder();
 
     /**
-     * <code>optional bool binary_characteristic_id_null = 1004;</code>
+     * <code>bool binary_characteristic_id_null = 1004;</code>
      */
     boolean getBinaryCharacteristicIdNull();
   }
@@ -231,19 +231,19 @@ public final class ImGetBinaryCodeIDsForNodePu {
     public static final int TREE_NODE_ID_FIELD_NUMBER = 1;
     private io.dstore.values.IntegerValue treeNodeId_;
     /**
-     * <code>optional .dstore.values.IntegerValue tree_node_id = 1;</code>
+     * <code>.dstore.values.IntegerValue tree_node_id = 1;</code>
      */
     public boolean hasTreeNodeId() {
       return treeNodeId_ != null;
     }
     /**
-     * <code>optional .dstore.values.IntegerValue tree_node_id = 1;</code>
+     * <code>.dstore.values.IntegerValue tree_node_id = 1;</code>
      */
     public io.dstore.values.IntegerValue getTreeNodeId() {
       return treeNodeId_ == null ? io.dstore.values.IntegerValue.getDefaultInstance() : treeNodeId_;
     }
     /**
-     * <code>optional .dstore.values.IntegerValue tree_node_id = 1;</code>
+     * <code>.dstore.values.IntegerValue tree_node_id = 1;</code>
      */
     public io.dstore.values.IntegerValueOrBuilder getTreeNodeIdOrBuilder() {
       return getTreeNodeId();
@@ -252,7 +252,7 @@ public final class ImGetBinaryCodeIDsForNodePu {
     public static final int TREE_NODE_ID_NULL_FIELD_NUMBER = 1001;
     private boolean treeNodeIdNull_;
     /**
-     * <code>optional bool tree_node_id_null = 1001;</code>
+     * <code>bool tree_node_id_null = 1001;</code>
      */
     public boolean getTreeNodeIdNull() {
       return treeNodeIdNull_;
@@ -261,19 +261,19 @@ public final class ImGetBinaryCodeIDsForNodePu {
     public static final int BINARY_PROPERTY_VALUE_ID_FIELD_NUMBER = 2;
     private io.dstore.values.IntegerValue binaryPropertyValueId_;
     /**
-     * <code>optional .dstore.values.IntegerValue binary_property_value_id = 2;</code>
+     * <code>.dstore.values.IntegerValue binary_property_value_id = 2;</code>
      */
     public boolean hasBinaryPropertyValueId() {
       return binaryPropertyValueId_ != null;
     }
     /**
-     * <code>optional .dstore.values.IntegerValue binary_property_value_id = 2;</code>
+     * <code>.dstore.values.IntegerValue binary_property_value_id = 2;</code>
      */
     public io.dstore.values.IntegerValue getBinaryPropertyValueId() {
       return binaryPropertyValueId_ == null ? io.dstore.values.IntegerValue.getDefaultInstance() : binaryPropertyValueId_;
     }
     /**
-     * <code>optional .dstore.values.IntegerValue binary_property_value_id = 2;</code>
+     * <code>.dstore.values.IntegerValue binary_property_value_id = 2;</code>
      */
     public io.dstore.values.IntegerValueOrBuilder getBinaryPropertyValueIdOrBuilder() {
       return getBinaryPropertyValueId();
@@ -282,7 +282,7 @@ public final class ImGetBinaryCodeIDsForNodePu {
     public static final int BINARY_PROPERTY_VALUE_ID_NULL_FIELD_NUMBER = 1002;
     private boolean binaryPropertyValueIdNull_;
     /**
-     * <code>optional bool binary_property_value_id_null = 1002;</code>
+     * <code>bool binary_property_value_id_null = 1002;</code>
      */
     public boolean getBinaryPropertyValueIdNull() {
       return binaryPropertyValueIdNull_;
@@ -291,19 +291,19 @@ public final class ImGetBinaryCodeIDsForNodePu {
     public static final int IS_NODE_ID_FIELD_NUMBER = 3;
     private io.dstore.values.BooleanValue isNodeId_;
     /**
-     * <code>optional .dstore.values.BooleanValue is_node_id = 3;</code>
+     * <code>.dstore.values.BooleanValue is_node_id = 3;</code>
      */
     public boolean hasIsNodeId() {
       return isNodeId_ != null;
     }
     /**
-     * <code>optional .dstore.values.BooleanValue is_node_id = 3;</code>
+     * <code>.dstore.values.BooleanValue is_node_id = 3;</code>
      */
     public io.dstore.values.BooleanValue getIsNodeId() {
       return isNodeId_ == null ? io.dstore.values.BooleanValue.getDefaultInstance() : isNodeId_;
     }
     /**
-     * <code>optional .dstore.values.BooleanValue is_node_id = 3;</code>
+     * <code>.dstore.values.BooleanValue is_node_id = 3;</code>
      */
     public io.dstore.values.BooleanValueOrBuilder getIsNodeIdOrBuilder() {
       return getIsNodeId();
@@ -312,7 +312,7 @@ public final class ImGetBinaryCodeIDsForNodePu {
     public static final int IS_NODE_ID_NULL_FIELD_NUMBER = 1003;
     private boolean isNodeIdNull_;
     /**
-     * <code>optional bool is_node_id_null = 1003;</code>
+     * <code>bool is_node_id_null = 1003;</code>
      */
     public boolean getIsNodeIdNull() {
       return isNodeIdNull_;
@@ -321,19 +321,19 @@ public final class ImGetBinaryCodeIDsForNodePu {
     public static final int BINARY_CHARACTERISTIC_ID_FIELD_NUMBER = 4;
     private io.dstore.values.IntegerValue binaryCharacteristicId_;
     /**
-     * <code>optional .dstore.values.IntegerValue binary_characteristic_id = 4;</code>
+     * <code>.dstore.values.IntegerValue binary_characteristic_id = 4;</code>
      */
     public boolean hasBinaryCharacteristicId() {
       return binaryCharacteristicId_ != null;
     }
     /**
-     * <code>optional .dstore.values.IntegerValue binary_characteristic_id = 4;</code>
+     * <code>.dstore.values.IntegerValue binary_characteristic_id = 4;</code>
      */
     public io.dstore.values.IntegerValue getBinaryCharacteristicId() {
       return binaryCharacteristicId_ == null ? io.dstore.values.IntegerValue.getDefaultInstance() : binaryCharacteristicId_;
     }
     /**
-     * <code>optional .dstore.values.IntegerValue binary_characteristic_id = 4;</code>
+     * <code>.dstore.values.IntegerValue binary_characteristic_id = 4;</code>
      */
     public io.dstore.values.IntegerValueOrBuilder getBinaryCharacteristicIdOrBuilder() {
       return getBinaryCharacteristicId();
@@ -342,7 +342,7 @@ public final class ImGetBinaryCodeIDsForNodePu {
     public static final int BINARY_CHARACTERISTIC_ID_NULL_FIELD_NUMBER = 1004;
     private boolean binaryCharacteristicIdNull_;
     /**
-     * <code>optional bool binary_characteristic_id_null = 1004;</code>
+     * <code>bool binary_characteristic_id_null = 1004;</code>
      */
     public boolean getBinaryCharacteristicIdNull() {
       return binaryCharacteristicIdNull_;
@@ -476,7 +476,7 @@ public final class ImGetBinaryCodeIDsForNodePu {
         return memoizedHashCode;
       }
       int hash = 41;
-      hash = (19 * hash) + getDescriptorForType().hashCode();
+      hash = (19 * hash) + getDescriptor().hashCode();
       if (hasTreeNodeId()) {
         hash = (37 * hash) + TREE_NODE_ID_FIELD_NUMBER;
         hash = (53 * hash) + getTreeNodeId().hashCode();
@@ -796,13 +796,13 @@ public final class ImGetBinaryCodeIDsForNodePu {
       private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> treeNodeIdBuilder_;
       /**
-       * <code>optional .dstore.values.IntegerValue tree_node_id = 1;</code>
+       * <code>.dstore.values.IntegerValue tree_node_id = 1;</code>
        */
       public boolean hasTreeNodeId() {
         return treeNodeIdBuilder_ != null || treeNodeId_ != null;
       }
       /**
-       * <code>optional .dstore.values.IntegerValue tree_node_id = 1;</code>
+       * <code>.dstore.values.IntegerValue tree_node_id = 1;</code>
        */
       public io.dstore.values.IntegerValue getTreeNodeId() {
         if (treeNodeIdBuilder_ == null) {
@@ -812,7 +812,7 @@ public final class ImGetBinaryCodeIDsForNodePu {
         }
       }
       /**
-       * <code>optional .dstore.values.IntegerValue tree_node_id = 1;</code>
+       * <code>.dstore.values.IntegerValue tree_node_id = 1;</code>
        */
       public Builder setTreeNodeId(io.dstore.values.IntegerValue value) {
         if (treeNodeIdBuilder_ == null) {
@@ -828,7 +828,7 @@ public final class ImGetBinaryCodeIDsForNodePu {
         return this;
       }
       /**
-       * <code>optional .dstore.values.IntegerValue tree_node_id = 1;</code>
+       * <code>.dstore.values.IntegerValue tree_node_id = 1;</code>
        */
       public Builder setTreeNodeId(
           io.dstore.values.IntegerValue.Builder builderForValue) {
@@ -842,7 +842,7 @@ public final class ImGetBinaryCodeIDsForNodePu {
         return this;
       }
       /**
-       * <code>optional .dstore.values.IntegerValue tree_node_id = 1;</code>
+       * <code>.dstore.values.IntegerValue tree_node_id = 1;</code>
        */
       public Builder mergeTreeNodeId(io.dstore.values.IntegerValue value) {
         if (treeNodeIdBuilder_ == null) {
@@ -860,7 +860,7 @@ public final class ImGetBinaryCodeIDsForNodePu {
         return this;
       }
       /**
-       * <code>optional .dstore.values.IntegerValue tree_node_id = 1;</code>
+       * <code>.dstore.values.IntegerValue tree_node_id = 1;</code>
        */
       public Builder clearTreeNodeId() {
         if (treeNodeIdBuilder_ == null) {
@@ -874,7 +874,7 @@ public final class ImGetBinaryCodeIDsForNodePu {
         return this;
       }
       /**
-       * <code>optional .dstore.values.IntegerValue tree_node_id = 1;</code>
+       * <code>.dstore.values.IntegerValue tree_node_id = 1;</code>
        */
       public io.dstore.values.IntegerValue.Builder getTreeNodeIdBuilder() {
         
@@ -882,7 +882,7 @@ public final class ImGetBinaryCodeIDsForNodePu {
         return getTreeNodeIdFieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .dstore.values.IntegerValue tree_node_id = 1;</code>
+       * <code>.dstore.values.IntegerValue tree_node_id = 1;</code>
        */
       public io.dstore.values.IntegerValueOrBuilder getTreeNodeIdOrBuilder() {
         if (treeNodeIdBuilder_ != null) {
@@ -893,7 +893,7 @@ public final class ImGetBinaryCodeIDsForNodePu {
         }
       }
       /**
-       * <code>optional .dstore.values.IntegerValue tree_node_id = 1;</code>
+       * <code>.dstore.values.IntegerValue tree_node_id = 1;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> 
@@ -911,13 +911,13 @@ public final class ImGetBinaryCodeIDsForNodePu {
 
       private boolean treeNodeIdNull_ ;
       /**
-       * <code>optional bool tree_node_id_null = 1001;</code>
+       * <code>bool tree_node_id_null = 1001;</code>
        */
       public boolean getTreeNodeIdNull() {
         return treeNodeIdNull_;
       }
       /**
-       * <code>optional bool tree_node_id_null = 1001;</code>
+       * <code>bool tree_node_id_null = 1001;</code>
        */
       public Builder setTreeNodeIdNull(boolean value) {
         
@@ -926,7 +926,7 @@ public final class ImGetBinaryCodeIDsForNodePu {
         return this;
       }
       /**
-       * <code>optional bool tree_node_id_null = 1001;</code>
+       * <code>bool tree_node_id_null = 1001;</code>
        */
       public Builder clearTreeNodeIdNull() {
         
@@ -939,13 +939,13 @@ public final class ImGetBinaryCodeIDsForNodePu {
       private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> binaryPropertyValueIdBuilder_;
       /**
-       * <code>optional .dstore.values.IntegerValue binary_property_value_id = 2;</code>
+       * <code>.dstore.values.IntegerValue binary_property_value_id = 2;</code>
        */
       public boolean hasBinaryPropertyValueId() {
         return binaryPropertyValueIdBuilder_ != null || binaryPropertyValueId_ != null;
       }
       /**
-       * <code>optional .dstore.values.IntegerValue binary_property_value_id = 2;</code>
+       * <code>.dstore.values.IntegerValue binary_property_value_id = 2;</code>
        */
       public io.dstore.values.IntegerValue getBinaryPropertyValueId() {
         if (binaryPropertyValueIdBuilder_ == null) {
@@ -955,7 +955,7 @@ public final class ImGetBinaryCodeIDsForNodePu {
         }
       }
       /**
-       * <code>optional .dstore.values.IntegerValue binary_property_value_id = 2;</code>
+       * <code>.dstore.values.IntegerValue binary_property_value_id = 2;</code>
        */
       public Builder setBinaryPropertyValueId(io.dstore.values.IntegerValue value) {
         if (binaryPropertyValueIdBuilder_ == null) {
@@ -971,7 +971,7 @@ public final class ImGetBinaryCodeIDsForNodePu {
         return this;
       }
       /**
-       * <code>optional .dstore.values.IntegerValue binary_property_value_id = 2;</code>
+       * <code>.dstore.values.IntegerValue binary_property_value_id = 2;</code>
        */
       public Builder setBinaryPropertyValueId(
           io.dstore.values.IntegerValue.Builder builderForValue) {
@@ -985,7 +985,7 @@ public final class ImGetBinaryCodeIDsForNodePu {
         return this;
       }
       /**
-       * <code>optional .dstore.values.IntegerValue binary_property_value_id = 2;</code>
+       * <code>.dstore.values.IntegerValue binary_property_value_id = 2;</code>
        */
       public Builder mergeBinaryPropertyValueId(io.dstore.values.IntegerValue value) {
         if (binaryPropertyValueIdBuilder_ == null) {
@@ -1003,7 +1003,7 @@ public final class ImGetBinaryCodeIDsForNodePu {
         return this;
       }
       /**
-       * <code>optional .dstore.values.IntegerValue binary_property_value_id = 2;</code>
+       * <code>.dstore.values.IntegerValue binary_property_value_id = 2;</code>
        */
       public Builder clearBinaryPropertyValueId() {
         if (binaryPropertyValueIdBuilder_ == null) {
@@ -1017,7 +1017,7 @@ public final class ImGetBinaryCodeIDsForNodePu {
         return this;
       }
       /**
-       * <code>optional .dstore.values.IntegerValue binary_property_value_id = 2;</code>
+       * <code>.dstore.values.IntegerValue binary_property_value_id = 2;</code>
        */
       public io.dstore.values.IntegerValue.Builder getBinaryPropertyValueIdBuilder() {
         
@@ -1025,7 +1025,7 @@ public final class ImGetBinaryCodeIDsForNodePu {
         return getBinaryPropertyValueIdFieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .dstore.values.IntegerValue binary_property_value_id = 2;</code>
+       * <code>.dstore.values.IntegerValue binary_property_value_id = 2;</code>
        */
       public io.dstore.values.IntegerValueOrBuilder getBinaryPropertyValueIdOrBuilder() {
         if (binaryPropertyValueIdBuilder_ != null) {
@@ -1036,7 +1036,7 @@ public final class ImGetBinaryCodeIDsForNodePu {
         }
       }
       /**
-       * <code>optional .dstore.values.IntegerValue binary_property_value_id = 2;</code>
+       * <code>.dstore.values.IntegerValue binary_property_value_id = 2;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> 
@@ -1054,13 +1054,13 @@ public final class ImGetBinaryCodeIDsForNodePu {
 
       private boolean binaryPropertyValueIdNull_ ;
       /**
-       * <code>optional bool binary_property_value_id_null = 1002;</code>
+       * <code>bool binary_property_value_id_null = 1002;</code>
        */
       public boolean getBinaryPropertyValueIdNull() {
         return binaryPropertyValueIdNull_;
       }
       /**
-       * <code>optional bool binary_property_value_id_null = 1002;</code>
+       * <code>bool binary_property_value_id_null = 1002;</code>
        */
       public Builder setBinaryPropertyValueIdNull(boolean value) {
         
@@ -1069,7 +1069,7 @@ public final class ImGetBinaryCodeIDsForNodePu {
         return this;
       }
       /**
-       * <code>optional bool binary_property_value_id_null = 1002;</code>
+       * <code>bool binary_property_value_id_null = 1002;</code>
        */
       public Builder clearBinaryPropertyValueIdNull() {
         
@@ -1082,13 +1082,13 @@ public final class ImGetBinaryCodeIDsForNodePu {
       private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.values.BooleanValue, io.dstore.values.BooleanValue.Builder, io.dstore.values.BooleanValueOrBuilder> isNodeIdBuilder_;
       /**
-       * <code>optional .dstore.values.BooleanValue is_node_id = 3;</code>
+       * <code>.dstore.values.BooleanValue is_node_id = 3;</code>
        */
       public boolean hasIsNodeId() {
         return isNodeIdBuilder_ != null || isNodeId_ != null;
       }
       /**
-       * <code>optional .dstore.values.BooleanValue is_node_id = 3;</code>
+       * <code>.dstore.values.BooleanValue is_node_id = 3;</code>
        */
       public io.dstore.values.BooleanValue getIsNodeId() {
         if (isNodeIdBuilder_ == null) {
@@ -1098,7 +1098,7 @@ public final class ImGetBinaryCodeIDsForNodePu {
         }
       }
       /**
-       * <code>optional .dstore.values.BooleanValue is_node_id = 3;</code>
+       * <code>.dstore.values.BooleanValue is_node_id = 3;</code>
        */
       public Builder setIsNodeId(io.dstore.values.BooleanValue value) {
         if (isNodeIdBuilder_ == null) {
@@ -1114,7 +1114,7 @@ public final class ImGetBinaryCodeIDsForNodePu {
         return this;
       }
       /**
-       * <code>optional .dstore.values.BooleanValue is_node_id = 3;</code>
+       * <code>.dstore.values.BooleanValue is_node_id = 3;</code>
        */
       public Builder setIsNodeId(
           io.dstore.values.BooleanValue.Builder builderForValue) {
@@ -1128,7 +1128,7 @@ public final class ImGetBinaryCodeIDsForNodePu {
         return this;
       }
       /**
-       * <code>optional .dstore.values.BooleanValue is_node_id = 3;</code>
+       * <code>.dstore.values.BooleanValue is_node_id = 3;</code>
        */
       public Builder mergeIsNodeId(io.dstore.values.BooleanValue value) {
         if (isNodeIdBuilder_ == null) {
@@ -1146,7 +1146,7 @@ public final class ImGetBinaryCodeIDsForNodePu {
         return this;
       }
       /**
-       * <code>optional .dstore.values.BooleanValue is_node_id = 3;</code>
+       * <code>.dstore.values.BooleanValue is_node_id = 3;</code>
        */
       public Builder clearIsNodeId() {
         if (isNodeIdBuilder_ == null) {
@@ -1160,7 +1160,7 @@ public final class ImGetBinaryCodeIDsForNodePu {
         return this;
       }
       /**
-       * <code>optional .dstore.values.BooleanValue is_node_id = 3;</code>
+       * <code>.dstore.values.BooleanValue is_node_id = 3;</code>
        */
       public io.dstore.values.BooleanValue.Builder getIsNodeIdBuilder() {
         
@@ -1168,7 +1168,7 @@ public final class ImGetBinaryCodeIDsForNodePu {
         return getIsNodeIdFieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .dstore.values.BooleanValue is_node_id = 3;</code>
+       * <code>.dstore.values.BooleanValue is_node_id = 3;</code>
        */
       public io.dstore.values.BooleanValueOrBuilder getIsNodeIdOrBuilder() {
         if (isNodeIdBuilder_ != null) {
@@ -1179,7 +1179,7 @@ public final class ImGetBinaryCodeIDsForNodePu {
         }
       }
       /**
-       * <code>optional .dstore.values.BooleanValue is_node_id = 3;</code>
+       * <code>.dstore.values.BooleanValue is_node_id = 3;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.values.BooleanValue, io.dstore.values.BooleanValue.Builder, io.dstore.values.BooleanValueOrBuilder> 
@@ -1197,13 +1197,13 @@ public final class ImGetBinaryCodeIDsForNodePu {
 
       private boolean isNodeIdNull_ ;
       /**
-       * <code>optional bool is_node_id_null = 1003;</code>
+       * <code>bool is_node_id_null = 1003;</code>
        */
       public boolean getIsNodeIdNull() {
         return isNodeIdNull_;
       }
       /**
-       * <code>optional bool is_node_id_null = 1003;</code>
+       * <code>bool is_node_id_null = 1003;</code>
        */
       public Builder setIsNodeIdNull(boolean value) {
         
@@ -1212,7 +1212,7 @@ public final class ImGetBinaryCodeIDsForNodePu {
         return this;
       }
       /**
-       * <code>optional bool is_node_id_null = 1003;</code>
+       * <code>bool is_node_id_null = 1003;</code>
        */
       public Builder clearIsNodeIdNull() {
         
@@ -1225,13 +1225,13 @@ public final class ImGetBinaryCodeIDsForNodePu {
       private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> binaryCharacteristicIdBuilder_;
       /**
-       * <code>optional .dstore.values.IntegerValue binary_characteristic_id = 4;</code>
+       * <code>.dstore.values.IntegerValue binary_characteristic_id = 4;</code>
        */
       public boolean hasBinaryCharacteristicId() {
         return binaryCharacteristicIdBuilder_ != null || binaryCharacteristicId_ != null;
       }
       /**
-       * <code>optional .dstore.values.IntegerValue binary_characteristic_id = 4;</code>
+       * <code>.dstore.values.IntegerValue binary_characteristic_id = 4;</code>
        */
       public io.dstore.values.IntegerValue getBinaryCharacteristicId() {
         if (binaryCharacteristicIdBuilder_ == null) {
@@ -1241,7 +1241,7 @@ public final class ImGetBinaryCodeIDsForNodePu {
         }
       }
       /**
-       * <code>optional .dstore.values.IntegerValue binary_characteristic_id = 4;</code>
+       * <code>.dstore.values.IntegerValue binary_characteristic_id = 4;</code>
        */
       public Builder setBinaryCharacteristicId(io.dstore.values.IntegerValue value) {
         if (binaryCharacteristicIdBuilder_ == null) {
@@ -1257,7 +1257,7 @@ public final class ImGetBinaryCodeIDsForNodePu {
         return this;
       }
       /**
-       * <code>optional .dstore.values.IntegerValue binary_characteristic_id = 4;</code>
+       * <code>.dstore.values.IntegerValue binary_characteristic_id = 4;</code>
        */
       public Builder setBinaryCharacteristicId(
           io.dstore.values.IntegerValue.Builder builderForValue) {
@@ -1271,7 +1271,7 @@ public final class ImGetBinaryCodeIDsForNodePu {
         return this;
       }
       /**
-       * <code>optional .dstore.values.IntegerValue binary_characteristic_id = 4;</code>
+       * <code>.dstore.values.IntegerValue binary_characteristic_id = 4;</code>
        */
       public Builder mergeBinaryCharacteristicId(io.dstore.values.IntegerValue value) {
         if (binaryCharacteristicIdBuilder_ == null) {
@@ -1289,7 +1289,7 @@ public final class ImGetBinaryCodeIDsForNodePu {
         return this;
       }
       /**
-       * <code>optional .dstore.values.IntegerValue binary_characteristic_id = 4;</code>
+       * <code>.dstore.values.IntegerValue binary_characteristic_id = 4;</code>
        */
       public Builder clearBinaryCharacteristicId() {
         if (binaryCharacteristicIdBuilder_ == null) {
@@ -1303,7 +1303,7 @@ public final class ImGetBinaryCodeIDsForNodePu {
         return this;
       }
       /**
-       * <code>optional .dstore.values.IntegerValue binary_characteristic_id = 4;</code>
+       * <code>.dstore.values.IntegerValue binary_characteristic_id = 4;</code>
        */
       public io.dstore.values.IntegerValue.Builder getBinaryCharacteristicIdBuilder() {
         
@@ -1311,7 +1311,7 @@ public final class ImGetBinaryCodeIDsForNodePu {
         return getBinaryCharacteristicIdFieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .dstore.values.IntegerValue binary_characteristic_id = 4;</code>
+       * <code>.dstore.values.IntegerValue binary_characteristic_id = 4;</code>
        */
       public io.dstore.values.IntegerValueOrBuilder getBinaryCharacteristicIdOrBuilder() {
         if (binaryCharacteristicIdBuilder_ != null) {
@@ -1322,7 +1322,7 @@ public final class ImGetBinaryCodeIDsForNodePu {
         }
       }
       /**
-       * <code>optional .dstore.values.IntegerValue binary_characteristic_id = 4;</code>
+       * <code>.dstore.values.IntegerValue binary_characteristic_id = 4;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> 
@@ -1340,13 +1340,13 @@ public final class ImGetBinaryCodeIDsForNodePu {
 
       private boolean binaryCharacteristicIdNull_ ;
       /**
-       * <code>optional bool binary_characteristic_id_null = 1004;</code>
+       * <code>bool binary_characteristic_id_null = 1004;</code>
        */
       public boolean getBinaryCharacteristicIdNull() {
         return binaryCharacteristicIdNull_;
       }
       /**
-       * <code>optional bool binary_characteristic_id_null = 1004;</code>
+       * <code>bool binary_characteristic_id_null = 1004;</code>
        */
       public Builder setBinaryCharacteristicIdNull(boolean value) {
         
@@ -1355,7 +1355,7 @@ public final class ImGetBinaryCodeIDsForNodePu {
         return this;
       }
       /**
-       * <code>optional bool binary_characteristic_id_null = 1004;</code>
+       * <code>bool binary_characteristic_id_null = 1004;</code>
        */
       public Builder clearBinaryCharacteristicIdNull() {
         
@@ -1614,7 +1614,7 @@ public final class ImGetBinaryCodeIDsForNodePu {
         com.google.protobuf.MessageOrBuilder {
 
       /**
-       * <code>optional int32 row_id = 10000;</code>
+       * <code>int32 row_id = 10000;</code>
        */
       int getRowId();
 
@@ -1623,7 +1623,7 @@ public final class ImGetBinaryCodeIDsForNodePu {
        * ID eines "Binaries", das dem Element "&#64;TreeNodeID" zugeordnet ist
        * </pre>
        *
-       * <code>optional .dstore.values.IntegerValue binary_code_id = 10001;</code>
+       * <code>.dstore.values.IntegerValue binary_code_id = 10001;</code>
        */
       boolean hasBinaryCodeId();
       /**
@@ -1631,7 +1631,7 @@ public final class ImGetBinaryCodeIDsForNodePu {
        * ID eines "Binaries", das dem Element "&#64;TreeNodeID" zugeordnet ist
        * </pre>
        *
-       * <code>optional .dstore.values.IntegerValue binary_code_id = 10001;</code>
+       * <code>.dstore.values.IntegerValue binary_code_id = 10001;</code>
        */
       io.dstore.values.IntegerValue getBinaryCodeId();
       /**
@@ -1639,7 +1639,7 @@ public final class ImGetBinaryCodeIDsForNodePu {
        * ID eines "Binaries", das dem Element "&#64;TreeNodeID" zugeordnet ist
        * </pre>
        *
-       * <code>optional .dstore.values.IntegerValue binary_code_id = 10001;</code>
+       * <code>.dstore.values.IntegerValue binary_code_id = 10001;</code>
        */
       io.dstore.values.IntegerValueOrBuilder getBinaryCodeIdOrBuilder();
 
@@ -1648,7 +1648,7 @@ public final class ImGetBinaryCodeIDsForNodePu {
        * ID des zum übergebenen Element zugehörigen Elementes im Artikelbaum (da es prinzipiell möglich ist, daß es zu einer "NodeID" MEHRERE "TreeNodeID"s gibt, steht hier im Fall "&#64;IsNodeID = 1" die KLEINSTE zur "NodeID" gehörige "TreeNodeID")
        * </pre>
        *
-       * <code>optional .dstore.values.IntegerValue tree_node_id = 10002;</code>
+       * <code>.dstore.values.IntegerValue tree_node_id = 10002;</code>
        */
       boolean hasTreeNodeId();
       /**
@@ -1656,7 +1656,7 @@ public final class ImGetBinaryCodeIDsForNodePu {
        * ID des zum übergebenen Element zugehörigen Elementes im Artikelbaum (da es prinzipiell möglich ist, daß es zu einer "NodeID" MEHRERE "TreeNodeID"s gibt, steht hier im Fall "&#64;IsNodeID = 1" die KLEINSTE zur "NodeID" gehörige "TreeNodeID")
        * </pre>
        *
-       * <code>optional .dstore.values.IntegerValue tree_node_id = 10002;</code>
+       * <code>.dstore.values.IntegerValue tree_node_id = 10002;</code>
        */
       io.dstore.values.IntegerValue getTreeNodeId();
       /**
@@ -1664,7 +1664,7 @@ public final class ImGetBinaryCodeIDsForNodePu {
        * ID des zum übergebenen Element zugehörigen Elementes im Artikelbaum (da es prinzipiell möglich ist, daß es zu einer "NodeID" MEHRERE "TreeNodeID"s gibt, steht hier im Fall "&#64;IsNodeID = 1" die KLEINSTE zur "NodeID" gehörige "TreeNodeID")
        * </pre>
        *
-       * <code>optional .dstore.values.IntegerValue tree_node_id = 10002;</code>
+       * <code>.dstore.values.IntegerValue tree_node_id = 10002;</code>
        */
       io.dstore.values.IntegerValueOrBuilder getTreeNodeIdOrBuilder();
 
@@ -1673,7 +1673,7 @@ public final class ImGetBinaryCodeIDsForNodePu {
        * ID des zum übergebenen Element zugehörigen Artikel-Elementes (falls "&#64;IsNodeID = 1" ist, steht hier natürlich immer die übergebene "&#64;TreeNodeID")
        * </pre>
        *
-       * <code>optional .dstore.values.IntegerValue node_id = 10003;</code>
+       * <code>.dstore.values.IntegerValue node_id = 10003;</code>
        */
       boolean hasNodeId();
       /**
@@ -1681,7 +1681,7 @@ public final class ImGetBinaryCodeIDsForNodePu {
        * ID des zum übergebenen Element zugehörigen Artikel-Elementes (falls "&#64;IsNodeID = 1" ist, steht hier natürlich immer die übergebene "&#64;TreeNodeID")
        * </pre>
        *
-       * <code>optional .dstore.values.IntegerValue node_id = 10003;</code>
+       * <code>.dstore.values.IntegerValue node_id = 10003;</code>
        */
       io.dstore.values.IntegerValue getNodeId();
       /**
@@ -1689,7 +1689,7 @@ public final class ImGetBinaryCodeIDsForNodePu {
        * ID des zum übergebenen Element zugehörigen Artikel-Elementes (falls "&#64;IsNodeID = 1" ist, steht hier natürlich immer die übergebene "&#64;TreeNodeID")
        * </pre>
        *
-       * <code>optional .dstore.values.IntegerValue node_id = 10003;</code>
+       * <code>.dstore.values.IntegerValue node_id = 10003;</code>
        */
       io.dstore.values.IntegerValueOrBuilder getNodeIdOrBuilder();
 
@@ -1698,7 +1698,7 @@ public final class ImGetBinaryCodeIDsForNodePu {
        * ID der Eigenschaft der "BinaryCodeID" zum Merkmal "&#64;BinaryCharacteristicID". Sofern auch "&#64;BinaryPropertyValueID" angegeben wurde, steht hier der Wert dieses Parameters.
        * </pre>
        *
-       * <code>optional .dstore.values.IntegerValue binary_property_value_id = 20001;</code>
+       * <code>.dstore.values.IntegerValue binary_property_value_id = 20001;</code>
        */
       boolean hasBinaryPropertyValueId();
       /**
@@ -1706,7 +1706,7 @@ public final class ImGetBinaryCodeIDsForNodePu {
        * ID der Eigenschaft der "BinaryCodeID" zum Merkmal "&#64;BinaryCharacteristicID". Sofern auch "&#64;BinaryPropertyValueID" angegeben wurde, steht hier der Wert dieses Parameters.
        * </pre>
        *
-       * <code>optional .dstore.values.IntegerValue binary_property_value_id = 20001;</code>
+       * <code>.dstore.values.IntegerValue binary_property_value_id = 20001;</code>
        */
       io.dstore.values.IntegerValue getBinaryPropertyValueId();
       /**
@@ -1714,7 +1714,7 @@ public final class ImGetBinaryCodeIDsForNodePu {
        * ID der Eigenschaft der "BinaryCodeID" zum Merkmal "&#64;BinaryCharacteristicID". Sofern auch "&#64;BinaryPropertyValueID" angegeben wurde, steht hier der Wert dieses Parameters.
        * </pre>
        *
-       * <code>optional .dstore.values.IntegerValue binary_property_value_id = 20001;</code>
+       * <code>.dstore.values.IntegerValue binary_property_value_id = 20001;</code>
        */
       io.dstore.values.IntegerValueOrBuilder getBinaryPropertyValueIdOrBuilder();
 
@@ -1723,7 +1723,7 @@ public final class ImGetBinaryCodeIDsForNodePu {
        * Die Eigenschaft der "BinaryCodeID" zum Merkmal "&#64;BinaryCharacteristicID"
        * </pre>
        *
-       * <code>optional .dstore.values.StringValue binary_property_value = 20005;</code>
+       * <code>.dstore.values.StringValue binary_property_value = 20005;</code>
        */
       boolean hasBinaryPropertyValue();
       /**
@@ -1731,7 +1731,7 @@ public final class ImGetBinaryCodeIDsForNodePu {
        * Die Eigenschaft der "BinaryCodeID" zum Merkmal "&#64;BinaryCharacteristicID"
        * </pre>
        *
-       * <code>optional .dstore.values.StringValue binary_property_value = 20005;</code>
+       * <code>.dstore.values.StringValue binary_property_value = 20005;</code>
        */
       io.dstore.values.StringValue getBinaryPropertyValue();
       /**
@@ -1739,7 +1739,7 @@ public final class ImGetBinaryCodeIDsForNodePu {
        * Die Eigenschaft der "BinaryCodeID" zum Merkmal "&#64;BinaryCharacteristicID"
        * </pre>
        *
-       * <code>optional .dstore.values.StringValue binary_property_value = 20005;</code>
+       * <code>.dstore.values.StringValue binary_property_value = 20005;</code>
        */
       io.dstore.values.StringValueOrBuilder getBinaryPropertyValueOrBuilder();
     }
@@ -1879,7 +1879,7 @@ public final class ImGetBinaryCodeIDsForNodePu {
       public static final int ROW_ID_FIELD_NUMBER = 10000;
       private int rowId_;
       /**
-       * <code>optional int32 row_id = 10000;</code>
+       * <code>int32 row_id = 10000;</code>
        */
       public int getRowId() {
         return rowId_;
@@ -1892,7 +1892,7 @@ public final class ImGetBinaryCodeIDsForNodePu {
        * ID eines "Binaries", das dem Element "&#64;TreeNodeID" zugeordnet ist
        * </pre>
        *
-       * <code>optional .dstore.values.IntegerValue binary_code_id = 10001;</code>
+       * <code>.dstore.values.IntegerValue binary_code_id = 10001;</code>
        */
       public boolean hasBinaryCodeId() {
         return binaryCodeId_ != null;
@@ -1902,7 +1902,7 @@ public final class ImGetBinaryCodeIDsForNodePu {
        * ID eines "Binaries", das dem Element "&#64;TreeNodeID" zugeordnet ist
        * </pre>
        *
-       * <code>optional .dstore.values.IntegerValue binary_code_id = 10001;</code>
+       * <code>.dstore.values.IntegerValue binary_code_id = 10001;</code>
        */
       public io.dstore.values.IntegerValue getBinaryCodeId() {
         return binaryCodeId_ == null ? io.dstore.values.IntegerValue.getDefaultInstance() : binaryCodeId_;
@@ -1912,7 +1912,7 @@ public final class ImGetBinaryCodeIDsForNodePu {
        * ID eines "Binaries", das dem Element "&#64;TreeNodeID" zugeordnet ist
        * </pre>
        *
-       * <code>optional .dstore.values.IntegerValue binary_code_id = 10001;</code>
+       * <code>.dstore.values.IntegerValue binary_code_id = 10001;</code>
        */
       public io.dstore.values.IntegerValueOrBuilder getBinaryCodeIdOrBuilder() {
         return getBinaryCodeId();
@@ -1925,7 +1925,7 @@ public final class ImGetBinaryCodeIDsForNodePu {
        * ID des zum übergebenen Element zugehörigen Elementes im Artikelbaum (da es prinzipiell möglich ist, daß es zu einer "NodeID" MEHRERE "TreeNodeID"s gibt, steht hier im Fall "&#64;IsNodeID = 1" die KLEINSTE zur "NodeID" gehörige "TreeNodeID")
        * </pre>
        *
-       * <code>optional .dstore.values.IntegerValue tree_node_id = 10002;</code>
+       * <code>.dstore.values.IntegerValue tree_node_id = 10002;</code>
        */
       public boolean hasTreeNodeId() {
         return treeNodeId_ != null;
@@ -1935,7 +1935,7 @@ public final class ImGetBinaryCodeIDsForNodePu {
        * ID des zum übergebenen Element zugehörigen Elementes im Artikelbaum (da es prinzipiell möglich ist, daß es zu einer "NodeID" MEHRERE "TreeNodeID"s gibt, steht hier im Fall "&#64;IsNodeID = 1" die KLEINSTE zur "NodeID" gehörige "TreeNodeID")
        * </pre>
        *
-       * <code>optional .dstore.values.IntegerValue tree_node_id = 10002;</code>
+       * <code>.dstore.values.IntegerValue tree_node_id = 10002;</code>
        */
       public io.dstore.values.IntegerValue getTreeNodeId() {
         return treeNodeId_ == null ? io.dstore.values.IntegerValue.getDefaultInstance() : treeNodeId_;
@@ -1945,7 +1945,7 @@ public final class ImGetBinaryCodeIDsForNodePu {
        * ID des zum übergebenen Element zugehörigen Elementes im Artikelbaum (da es prinzipiell möglich ist, daß es zu einer "NodeID" MEHRERE "TreeNodeID"s gibt, steht hier im Fall "&#64;IsNodeID = 1" die KLEINSTE zur "NodeID" gehörige "TreeNodeID")
        * </pre>
        *
-       * <code>optional .dstore.values.IntegerValue tree_node_id = 10002;</code>
+       * <code>.dstore.values.IntegerValue tree_node_id = 10002;</code>
        */
       public io.dstore.values.IntegerValueOrBuilder getTreeNodeIdOrBuilder() {
         return getTreeNodeId();
@@ -1958,7 +1958,7 @@ public final class ImGetBinaryCodeIDsForNodePu {
        * ID des zum übergebenen Element zugehörigen Artikel-Elementes (falls "&#64;IsNodeID = 1" ist, steht hier natürlich immer die übergebene "&#64;TreeNodeID")
        * </pre>
        *
-       * <code>optional .dstore.values.IntegerValue node_id = 10003;</code>
+       * <code>.dstore.values.IntegerValue node_id = 10003;</code>
        */
       public boolean hasNodeId() {
         return nodeId_ != null;
@@ -1968,7 +1968,7 @@ public final class ImGetBinaryCodeIDsForNodePu {
        * ID des zum übergebenen Element zugehörigen Artikel-Elementes (falls "&#64;IsNodeID = 1" ist, steht hier natürlich immer die übergebene "&#64;TreeNodeID")
        * </pre>
        *
-       * <code>optional .dstore.values.IntegerValue node_id = 10003;</code>
+       * <code>.dstore.values.IntegerValue node_id = 10003;</code>
        */
       public io.dstore.values.IntegerValue getNodeId() {
         return nodeId_ == null ? io.dstore.values.IntegerValue.getDefaultInstance() : nodeId_;
@@ -1978,7 +1978,7 @@ public final class ImGetBinaryCodeIDsForNodePu {
        * ID des zum übergebenen Element zugehörigen Artikel-Elementes (falls "&#64;IsNodeID = 1" ist, steht hier natürlich immer die übergebene "&#64;TreeNodeID")
        * </pre>
        *
-       * <code>optional .dstore.values.IntegerValue node_id = 10003;</code>
+       * <code>.dstore.values.IntegerValue node_id = 10003;</code>
        */
       public io.dstore.values.IntegerValueOrBuilder getNodeIdOrBuilder() {
         return getNodeId();
@@ -1991,7 +1991,7 @@ public final class ImGetBinaryCodeIDsForNodePu {
        * ID der Eigenschaft der "BinaryCodeID" zum Merkmal "&#64;BinaryCharacteristicID". Sofern auch "&#64;BinaryPropertyValueID" angegeben wurde, steht hier der Wert dieses Parameters.
        * </pre>
        *
-       * <code>optional .dstore.values.IntegerValue binary_property_value_id = 20001;</code>
+       * <code>.dstore.values.IntegerValue binary_property_value_id = 20001;</code>
        */
       public boolean hasBinaryPropertyValueId() {
         return binaryPropertyValueId_ != null;
@@ -2001,7 +2001,7 @@ public final class ImGetBinaryCodeIDsForNodePu {
        * ID der Eigenschaft der "BinaryCodeID" zum Merkmal "&#64;BinaryCharacteristicID". Sofern auch "&#64;BinaryPropertyValueID" angegeben wurde, steht hier der Wert dieses Parameters.
        * </pre>
        *
-       * <code>optional .dstore.values.IntegerValue binary_property_value_id = 20001;</code>
+       * <code>.dstore.values.IntegerValue binary_property_value_id = 20001;</code>
        */
       public io.dstore.values.IntegerValue getBinaryPropertyValueId() {
         return binaryPropertyValueId_ == null ? io.dstore.values.IntegerValue.getDefaultInstance() : binaryPropertyValueId_;
@@ -2011,7 +2011,7 @@ public final class ImGetBinaryCodeIDsForNodePu {
        * ID der Eigenschaft der "BinaryCodeID" zum Merkmal "&#64;BinaryCharacteristicID". Sofern auch "&#64;BinaryPropertyValueID" angegeben wurde, steht hier der Wert dieses Parameters.
        * </pre>
        *
-       * <code>optional .dstore.values.IntegerValue binary_property_value_id = 20001;</code>
+       * <code>.dstore.values.IntegerValue binary_property_value_id = 20001;</code>
        */
       public io.dstore.values.IntegerValueOrBuilder getBinaryPropertyValueIdOrBuilder() {
         return getBinaryPropertyValueId();
@@ -2024,7 +2024,7 @@ public final class ImGetBinaryCodeIDsForNodePu {
        * Die Eigenschaft der "BinaryCodeID" zum Merkmal "&#64;BinaryCharacteristicID"
        * </pre>
        *
-       * <code>optional .dstore.values.StringValue binary_property_value = 20005;</code>
+       * <code>.dstore.values.StringValue binary_property_value = 20005;</code>
        */
       public boolean hasBinaryPropertyValue() {
         return binaryPropertyValue_ != null;
@@ -2034,7 +2034,7 @@ public final class ImGetBinaryCodeIDsForNodePu {
        * Die Eigenschaft der "BinaryCodeID" zum Merkmal "&#64;BinaryCharacteristicID"
        * </pre>
        *
-       * <code>optional .dstore.values.StringValue binary_property_value = 20005;</code>
+       * <code>.dstore.values.StringValue binary_property_value = 20005;</code>
        */
       public io.dstore.values.StringValue getBinaryPropertyValue() {
         return binaryPropertyValue_ == null ? io.dstore.values.StringValue.getDefaultInstance() : binaryPropertyValue_;
@@ -2044,7 +2044,7 @@ public final class ImGetBinaryCodeIDsForNodePu {
        * Die Eigenschaft der "BinaryCodeID" zum Merkmal "&#64;BinaryCharacteristicID"
        * </pre>
        *
-       * <code>optional .dstore.values.StringValue binary_property_value = 20005;</code>
+       * <code>.dstore.values.StringValue binary_property_value = 20005;</code>
        */
       public io.dstore.values.StringValueOrBuilder getBinaryPropertyValueOrBuilder() {
         return getBinaryPropertyValue();
@@ -2163,7 +2163,7 @@ public final class ImGetBinaryCodeIDsForNodePu {
           return memoizedHashCode;
         }
         int hash = 41;
-        hash = (19 * hash) + getDescriptorForType().hashCode();
+        hash = (19 * hash) + getDescriptor().hashCode();
         hash = (37 * hash) + ROW_ID_FIELD_NUMBER;
         hash = (53 * hash) + getRowId();
         if (hasBinaryCodeId()) {
@@ -2471,13 +2471,13 @@ public final class ImGetBinaryCodeIDsForNodePu {
 
         private int rowId_ ;
         /**
-         * <code>optional int32 row_id = 10000;</code>
+         * <code>int32 row_id = 10000;</code>
          */
         public int getRowId() {
           return rowId_;
         }
         /**
-         * <code>optional int32 row_id = 10000;</code>
+         * <code>int32 row_id = 10000;</code>
          */
         public Builder setRowId(int value) {
           
@@ -2486,7 +2486,7 @@ public final class ImGetBinaryCodeIDsForNodePu {
           return this;
         }
         /**
-         * <code>optional int32 row_id = 10000;</code>
+         * <code>int32 row_id = 10000;</code>
          */
         public Builder clearRowId() {
           
@@ -2503,7 +2503,7 @@ public final class ImGetBinaryCodeIDsForNodePu {
          * ID eines "Binaries", das dem Element "&#64;TreeNodeID" zugeordnet ist
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue binary_code_id = 10001;</code>
+         * <code>.dstore.values.IntegerValue binary_code_id = 10001;</code>
          */
         public boolean hasBinaryCodeId() {
           return binaryCodeIdBuilder_ != null || binaryCodeId_ != null;
@@ -2513,7 +2513,7 @@ public final class ImGetBinaryCodeIDsForNodePu {
          * ID eines "Binaries", das dem Element "&#64;TreeNodeID" zugeordnet ist
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue binary_code_id = 10001;</code>
+         * <code>.dstore.values.IntegerValue binary_code_id = 10001;</code>
          */
         public io.dstore.values.IntegerValue getBinaryCodeId() {
           if (binaryCodeIdBuilder_ == null) {
@@ -2527,7 +2527,7 @@ public final class ImGetBinaryCodeIDsForNodePu {
          * ID eines "Binaries", das dem Element "&#64;TreeNodeID" zugeordnet ist
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue binary_code_id = 10001;</code>
+         * <code>.dstore.values.IntegerValue binary_code_id = 10001;</code>
          */
         public Builder setBinaryCodeId(io.dstore.values.IntegerValue value) {
           if (binaryCodeIdBuilder_ == null) {
@@ -2547,7 +2547,7 @@ public final class ImGetBinaryCodeIDsForNodePu {
          * ID eines "Binaries", das dem Element "&#64;TreeNodeID" zugeordnet ist
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue binary_code_id = 10001;</code>
+         * <code>.dstore.values.IntegerValue binary_code_id = 10001;</code>
          */
         public Builder setBinaryCodeId(
             io.dstore.values.IntegerValue.Builder builderForValue) {
@@ -2565,7 +2565,7 @@ public final class ImGetBinaryCodeIDsForNodePu {
          * ID eines "Binaries", das dem Element "&#64;TreeNodeID" zugeordnet ist
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue binary_code_id = 10001;</code>
+         * <code>.dstore.values.IntegerValue binary_code_id = 10001;</code>
          */
         public Builder mergeBinaryCodeId(io.dstore.values.IntegerValue value) {
           if (binaryCodeIdBuilder_ == null) {
@@ -2587,7 +2587,7 @@ public final class ImGetBinaryCodeIDsForNodePu {
          * ID eines "Binaries", das dem Element "&#64;TreeNodeID" zugeordnet ist
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue binary_code_id = 10001;</code>
+         * <code>.dstore.values.IntegerValue binary_code_id = 10001;</code>
          */
         public Builder clearBinaryCodeId() {
           if (binaryCodeIdBuilder_ == null) {
@@ -2605,7 +2605,7 @@ public final class ImGetBinaryCodeIDsForNodePu {
          * ID eines "Binaries", das dem Element "&#64;TreeNodeID" zugeordnet ist
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue binary_code_id = 10001;</code>
+         * <code>.dstore.values.IntegerValue binary_code_id = 10001;</code>
          */
         public io.dstore.values.IntegerValue.Builder getBinaryCodeIdBuilder() {
           
@@ -2617,7 +2617,7 @@ public final class ImGetBinaryCodeIDsForNodePu {
          * ID eines "Binaries", das dem Element "&#64;TreeNodeID" zugeordnet ist
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue binary_code_id = 10001;</code>
+         * <code>.dstore.values.IntegerValue binary_code_id = 10001;</code>
          */
         public io.dstore.values.IntegerValueOrBuilder getBinaryCodeIdOrBuilder() {
           if (binaryCodeIdBuilder_ != null) {
@@ -2632,7 +2632,7 @@ public final class ImGetBinaryCodeIDsForNodePu {
          * ID eines "Binaries", das dem Element "&#64;TreeNodeID" zugeordnet ist
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue binary_code_id = 10001;</code>
+         * <code>.dstore.values.IntegerValue binary_code_id = 10001;</code>
          */
         private com.google.protobuf.SingleFieldBuilderV3<
             io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> 
@@ -2656,7 +2656,7 @@ public final class ImGetBinaryCodeIDsForNodePu {
          * ID des zum übergebenen Element zugehörigen Elementes im Artikelbaum (da es prinzipiell möglich ist, daß es zu einer "NodeID" MEHRERE "TreeNodeID"s gibt, steht hier im Fall "&#64;IsNodeID = 1" die KLEINSTE zur "NodeID" gehörige "TreeNodeID")
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue tree_node_id = 10002;</code>
+         * <code>.dstore.values.IntegerValue tree_node_id = 10002;</code>
          */
         public boolean hasTreeNodeId() {
           return treeNodeIdBuilder_ != null || treeNodeId_ != null;
@@ -2666,7 +2666,7 @@ public final class ImGetBinaryCodeIDsForNodePu {
          * ID des zum übergebenen Element zugehörigen Elementes im Artikelbaum (da es prinzipiell möglich ist, daß es zu einer "NodeID" MEHRERE "TreeNodeID"s gibt, steht hier im Fall "&#64;IsNodeID = 1" die KLEINSTE zur "NodeID" gehörige "TreeNodeID")
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue tree_node_id = 10002;</code>
+         * <code>.dstore.values.IntegerValue tree_node_id = 10002;</code>
          */
         public io.dstore.values.IntegerValue getTreeNodeId() {
           if (treeNodeIdBuilder_ == null) {
@@ -2680,7 +2680,7 @@ public final class ImGetBinaryCodeIDsForNodePu {
          * ID des zum übergebenen Element zugehörigen Elementes im Artikelbaum (da es prinzipiell möglich ist, daß es zu einer "NodeID" MEHRERE "TreeNodeID"s gibt, steht hier im Fall "&#64;IsNodeID = 1" die KLEINSTE zur "NodeID" gehörige "TreeNodeID")
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue tree_node_id = 10002;</code>
+         * <code>.dstore.values.IntegerValue tree_node_id = 10002;</code>
          */
         public Builder setTreeNodeId(io.dstore.values.IntegerValue value) {
           if (treeNodeIdBuilder_ == null) {
@@ -2700,7 +2700,7 @@ public final class ImGetBinaryCodeIDsForNodePu {
          * ID des zum übergebenen Element zugehörigen Elementes im Artikelbaum (da es prinzipiell möglich ist, daß es zu einer "NodeID" MEHRERE "TreeNodeID"s gibt, steht hier im Fall "&#64;IsNodeID = 1" die KLEINSTE zur "NodeID" gehörige "TreeNodeID")
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue tree_node_id = 10002;</code>
+         * <code>.dstore.values.IntegerValue tree_node_id = 10002;</code>
          */
         public Builder setTreeNodeId(
             io.dstore.values.IntegerValue.Builder builderForValue) {
@@ -2718,7 +2718,7 @@ public final class ImGetBinaryCodeIDsForNodePu {
          * ID des zum übergebenen Element zugehörigen Elementes im Artikelbaum (da es prinzipiell möglich ist, daß es zu einer "NodeID" MEHRERE "TreeNodeID"s gibt, steht hier im Fall "&#64;IsNodeID = 1" die KLEINSTE zur "NodeID" gehörige "TreeNodeID")
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue tree_node_id = 10002;</code>
+         * <code>.dstore.values.IntegerValue tree_node_id = 10002;</code>
          */
         public Builder mergeTreeNodeId(io.dstore.values.IntegerValue value) {
           if (treeNodeIdBuilder_ == null) {
@@ -2740,7 +2740,7 @@ public final class ImGetBinaryCodeIDsForNodePu {
          * ID des zum übergebenen Element zugehörigen Elementes im Artikelbaum (da es prinzipiell möglich ist, daß es zu einer "NodeID" MEHRERE "TreeNodeID"s gibt, steht hier im Fall "&#64;IsNodeID = 1" die KLEINSTE zur "NodeID" gehörige "TreeNodeID")
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue tree_node_id = 10002;</code>
+         * <code>.dstore.values.IntegerValue tree_node_id = 10002;</code>
          */
         public Builder clearTreeNodeId() {
           if (treeNodeIdBuilder_ == null) {
@@ -2758,7 +2758,7 @@ public final class ImGetBinaryCodeIDsForNodePu {
          * ID des zum übergebenen Element zugehörigen Elementes im Artikelbaum (da es prinzipiell möglich ist, daß es zu einer "NodeID" MEHRERE "TreeNodeID"s gibt, steht hier im Fall "&#64;IsNodeID = 1" die KLEINSTE zur "NodeID" gehörige "TreeNodeID")
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue tree_node_id = 10002;</code>
+         * <code>.dstore.values.IntegerValue tree_node_id = 10002;</code>
          */
         public io.dstore.values.IntegerValue.Builder getTreeNodeIdBuilder() {
           
@@ -2770,7 +2770,7 @@ public final class ImGetBinaryCodeIDsForNodePu {
          * ID des zum übergebenen Element zugehörigen Elementes im Artikelbaum (da es prinzipiell möglich ist, daß es zu einer "NodeID" MEHRERE "TreeNodeID"s gibt, steht hier im Fall "&#64;IsNodeID = 1" die KLEINSTE zur "NodeID" gehörige "TreeNodeID")
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue tree_node_id = 10002;</code>
+         * <code>.dstore.values.IntegerValue tree_node_id = 10002;</code>
          */
         public io.dstore.values.IntegerValueOrBuilder getTreeNodeIdOrBuilder() {
           if (treeNodeIdBuilder_ != null) {
@@ -2785,7 +2785,7 @@ public final class ImGetBinaryCodeIDsForNodePu {
          * ID des zum übergebenen Element zugehörigen Elementes im Artikelbaum (da es prinzipiell möglich ist, daß es zu einer "NodeID" MEHRERE "TreeNodeID"s gibt, steht hier im Fall "&#64;IsNodeID = 1" die KLEINSTE zur "NodeID" gehörige "TreeNodeID")
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue tree_node_id = 10002;</code>
+         * <code>.dstore.values.IntegerValue tree_node_id = 10002;</code>
          */
         private com.google.protobuf.SingleFieldBuilderV3<
             io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> 
@@ -2809,7 +2809,7 @@ public final class ImGetBinaryCodeIDsForNodePu {
          * ID des zum übergebenen Element zugehörigen Artikel-Elementes (falls "&#64;IsNodeID = 1" ist, steht hier natürlich immer die übergebene "&#64;TreeNodeID")
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue node_id = 10003;</code>
+         * <code>.dstore.values.IntegerValue node_id = 10003;</code>
          */
         public boolean hasNodeId() {
           return nodeIdBuilder_ != null || nodeId_ != null;
@@ -2819,7 +2819,7 @@ public final class ImGetBinaryCodeIDsForNodePu {
          * ID des zum übergebenen Element zugehörigen Artikel-Elementes (falls "&#64;IsNodeID = 1" ist, steht hier natürlich immer die übergebene "&#64;TreeNodeID")
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue node_id = 10003;</code>
+         * <code>.dstore.values.IntegerValue node_id = 10003;</code>
          */
         public io.dstore.values.IntegerValue getNodeId() {
           if (nodeIdBuilder_ == null) {
@@ -2833,7 +2833,7 @@ public final class ImGetBinaryCodeIDsForNodePu {
          * ID des zum übergebenen Element zugehörigen Artikel-Elementes (falls "&#64;IsNodeID = 1" ist, steht hier natürlich immer die übergebene "&#64;TreeNodeID")
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue node_id = 10003;</code>
+         * <code>.dstore.values.IntegerValue node_id = 10003;</code>
          */
         public Builder setNodeId(io.dstore.values.IntegerValue value) {
           if (nodeIdBuilder_ == null) {
@@ -2853,7 +2853,7 @@ public final class ImGetBinaryCodeIDsForNodePu {
          * ID des zum übergebenen Element zugehörigen Artikel-Elementes (falls "&#64;IsNodeID = 1" ist, steht hier natürlich immer die übergebene "&#64;TreeNodeID")
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue node_id = 10003;</code>
+         * <code>.dstore.values.IntegerValue node_id = 10003;</code>
          */
         public Builder setNodeId(
             io.dstore.values.IntegerValue.Builder builderForValue) {
@@ -2871,7 +2871,7 @@ public final class ImGetBinaryCodeIDsForNodePu {
          * ID des zum übergebenen Element zugehörigen Artikel-Elementes (falls "&#64;IsNodeID = 1" ist, steht hier natürlich immer die übergebene "&#64;TreeNodeID")
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue node_id = 10003;</code>
+         * <code>.dstore.values.IntegerValue node_id = 10003;</code>
          */
         public Builder mergeNodeId(io.dstore.values.IntegerValue value) {
           if (nodeIdBuilder_ == null) {
@@ -2893,7 +2893,7 @@ public final class ImGetBinaryCodeIDsForNodePu {
          * ID des zum übergebenen Element zugehörigen Artikel-Elementes (falls "&#64;IsNodeID = 1" ist, steht hier natürlich immer die übergebene "&#64;TreeNodeID")
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue node_id = 10003;</code>
+         * <code>.dstore.values.IntegerValue node_id = 10003;</code>
          */
         public Builder clearNodeId() {
           if (nodeIdBuilder_ == null) {
@@ -2911,7 +2911,7 @@ public final class ImGetBinaryCodeIDsForNodePu {
          * ID des zum übergebenen Element zugehörigen Artikel-Elementes (falls "&#64;IsNodeID = 1" ist, steht hier natürlich immer die übergebene "&#64;TreeNodeID")
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue node_id = 10003;</code>
+         * <code>.dstore.values.IntegerValue node_id = 10003;</code>
          */
         public io.dstore.values.IntegerValue.Builder getNodeIdBuilder() {
           
@@ -2923,7 +2923,7 @@ public final class ImGetBinaryCodeIDsForNodePu {
          * ID des zum übergebenen Element zugehörigen Artikel-Elementes (falls "&#64;IsNodeID = 1" ist, steht hier natürlich immer die übergebene "&#64;TreeNodeID")
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue node_id = 10003;</code>
+         * <code>.dstore.values.IntegerValue node_id = 10003;</code>
          */
         public io.dstore.values.IntegerValueOrBuilder getNodeIdOrBuilder() {
           if (nodeIdBuilder_ != null) {
@@ -2938,7 +2938,7 @@ public final class ImGetBinaryCodeIDsForNodePu {
          * ID des zum übergebenen Element zugehörigen Artikel-Elementes (falls "&#64;IsNodeID = 1" ist, steht hier natürlich immer die übergebene "&#64;TreeNodeID")
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue node_id = 10003;</code>
+         * <code>.dstore.values.IntegerValue node_id = 10003;</code>
          */
         private com.google.protobuf.SingleFieldBuilderV3<
             io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> 
@@ -2962,7 +2962,7 @@ public final class ImGetBinaryCodeIDsForNodePu {
          * ID der Eigenschaft der "BinaryCodeID" zum Merkmal "&#64;BinaryCharacteristicID". Sofern auch "&#64;BinaryPropertyValueID" angegeben wurde, steht hier der Wert dieses Parameters.
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue binary_property_value_id = 20001;</code>
+         * <code>.dstore.values.IntegerValue binary_property_value_id = 20001;</code>
          */
         public boolean hasBinaryPropertyValueId() {
           return binaryPropertyValueIdBuilder_ != null || binaryPropertyValueId_ != null;
@@ -2972,7 +2972,7 @@ public final class ImGetBinaryCodeIDsForNodePu {
          * ID der Eigenschaft der "BinaryCodeID" zum Merkmal "&#64;BinaryCharacteristicID". Sofern auch "&#64;BinaryPropertyValueID" angegeben wurde, steht hier der Wert dieses Parameters.
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue binary_property_value_id = 20001;</code>
+         * <code>.dstore.values.IntegerValue binary_property_value_id = 20001;</code>
          */
         public io.dstore.values.IntegerValue getBinaryPropertyValueId() {
           if (binaryPropertyValueIdBuilder_ == null) {
@@ -2986,7 +2986,7 @@ public final class ImGetBinaryCodeIDsForNodePu {
          * ID der Eigenschaft der "BinaryCodeID" zum Merkmal "&#64;BinaryCharacteristicID". Sofern auch "&#64;BinaryPropertyValueID" angegeben wurde, steht hier der Wert dieses Parameters.
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue binary_property_value_id = 20001;</code>
+         * <code>.dstore.values.IntegerValue binary_property_value_id = 20001;</code>
          */
         public Builder setBinaryPropertyValueId(io.dstore.values.IntegerValue value) {
           if (binaryPropertyValueIdBuilder_ == null) {
@@ -3006,7 +3006,7 @@ public final class ImGetBinaryCodeIDsForNodePu {
          * ID der Eigenschaft der "BinaryCodeID" zum Merkmal "&#64;BinaryCharacteristicID". Sofern auch "&#64;BinaryPropertyValueID" angegeben wurde, steht hier der Wert dieses Parameters.
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue binary_property_value_id = 20001;</code>
+         * <code>.dstore.values.IntegerValue binary_property_value_id = 20001;</code>
          */
         public Builder setBinaryPropertyValueId(
             io.dstore.values.IntegerValue.Builder builderForValue) {
@@ -3024,7 +3024,7 @@ public final class ImGetBinaryCodeIDsForNodePu {
          * ID der Eigenschaft der "BinaryCodeID" zum Merkmal "&#64;BinaryCharacteristicID". Sofern auch "&#64;BinaryPropertyValueID" angegeben wurde, steht hier der Wert dieses Parameters.
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue binary_property_value_id = 20001;</code>
+         * <code>.dstore.values.IntegerValue binary_property_value_id = 20001;</code>
          */
         public Builder mergeBinaryPropertyValueId(io.dstore.values.IntegerValue value) {
           if (binaryPropertyValueIdBuilder_ == null) {
@@ -3046,7 +3046,7 @@ public final class ImGetBinaryCodeIDsForNodePu {
          * ID der Eigenschaft der "BinaryCodeID" zum Merkmal "&#64;BinaryCharacteristicID". Sofern auch "&#64;BinaryPropertyValueID" angegeben wurde, steht hier der Wert dieses Parameters.
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue binary_property_value_id = 20001;</code>
+         * <code>.dstore.values.IntegerValue binary_property_value_id = 20001;</code>
          */
         public Builder clearBinaryPropertyValueId() {
           if (binaryPropertyValueIdBuilder_ == null) {
@@ -3064,7 +3064,7 @@ public final class ImGetBinaryCodeIDsForNodePu {
          * ID der Eigenschaft der "BinaryCodeID" zum Merkmal "&#64;BinaryCharacteristicID". Sofern auch "&#64;BinaryPropertyValueID" angegeben wurde, steht hier der Wert dieses Parameters.
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue binary_property_value_id = 20001;</code>
+         * <code>.dstore.values.IntegerValue binary_property_value_id = 20001;</code>
          */
         public io.dstore.values.IntegerValue.Builder getBinaryPropertyValueIdBuilder() {
           
@@ -3076,7 +3076,7 @@ public final class ImGetBinaryCodeIDsForNodePu {
          * ID der Eigenschaft der "BinaryCodeID" zum Merkmal "&#64;BinaryCharacteristicID". Sofern auch "&#64;BinaryPropertyValueID" angegeben wurde, steht hier der Wert dieses Parameters.
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue binary_property_value_id = 20001;</code>
+         * <code>.dstore.values.IntegerValue binary_property_value_id = 20001;</code>
          */
         public io.dstore.values.IntegerValueOrBuilder getBinaryPropertyValueIdOrBuilder() {
           if (binaryPropertyValueIdBuilder_ != null) {
@@ -3091,7 +3091,7 @@ public final class ImGetBinaryCodeIDsForNodePu {
          * ID der Eigenschaft der "BinaryCodeID" zum Merkmal "&#64;BinaryCharacteristicID". Sofern auch "&#64;BinaryPropertyValueID" angegeben wurde, steht hier der Wert dieses Parameters.
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue binary_property_value_id = 20001;</code>
+         * <code>.dstore.values.IntegerValue binary_property_value_id = 20001;</code>
          */
         private com.google.protobuf.SingleFieldBuilderV3<
             io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> 
@@ -3115,7 +3115,7 @@ public final class ImGetBinaryCodeIDsForNodePu {
          * Die Eigenschaft der "BinaryCodeID" zum Merkmal "&#64;BinaryCharacteristicID"
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue binary_property_value = 20005;</code>
+         * <code>.dstore.values.StringValue binary_property_value = 20005;</code>
          */
         public boolean hasBinaryPropertyValue() {
           return binaryPropertyValueBuilder_ != null || binaryPropertyValue_ != null;
@@ -3125,7 +3125,7 @@ public final class ImGetBinaryCodeIDsForNodePu {
          * Die Eigenschaft der "BinaryCodeID" zum Merkmal "&#64;BinaryCharacteristicID"
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue binary_property_value = 20005;</code>
+         * <code>.dstore.values.StringValue binary_property_value = 20005;</code>
          */
         public io.dstore.values.StringValue getBinaryPropertyValue() {
           if (binaryPropertyValueBuilder_ == null) {
@@ -3139,7 +3139,7 @@ public final class ImGetBinaryCodeIDsForNodePu {
          * Die Eigenschaft der "BinaryCodeID" zum Merkmal "&#64;BinaryCharacteristicID"
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue binary_property_value = 20005;</code>
+         * <code>.dstore.values.StringValue binary_property_value = 20005;</code>
          */
         public Builder setBinaryPropertyValue(io.dstore.values.StringValue value) {
           if (binaryPropertyValueBuilder_ == null) {
@@ -3159,7 +3159,7 @@ public final class ImGetBinaryCodeIDsForNodePu {
          * Die Eigenschaft der "BinaryCodeID" zum Merkmal "&#64;BinaryCharacteristicID"
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue binary_property_value = 20005;</code>
+         * <code>.dstore.values.StringValue binary_property_value = 20005;</code>
          */
         public Builder setBinaryPropertyValue(
             io.dstore.values.StringValue.Builder builderForValue) {
@@ -3177,7 +3177,7 @@ public final class ImGetBinaryCodeIDsForNodePu {
          * Die Eigenschaft der "BinaryCodeID" zum Merkmal "&#64;BinaryCharacteristicID"
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue binary_property_value = 20005;</code>
+         * <code>.dstore.values.StringValue binary_property_value = 20005;</code>
          */
         public Builder mergeBinaryPropertyValue(io.dstore.values.StringValue value) {
           if (binaryPropertyValueBuilder_ == null) {
@@ -3199,7 +3199,7 @@ public final class ImGetBinaryCodeIDsForNodePu {
          * Die Eigenschaft der "BinaryCodeID" zum Merkmal "&#64;BinaryCharacteristicID"
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue binary_property_value = 20005;</code>
+         * <code>.dstore.values.StringValue binary_property_value = 20005;</code>
          */
         public Builder clearBinaryPropertyValue() {
           if (binaryPropertyValueBuilder_ == null) {
@@ -3217,7 +3217,7 @@ public final class ImGetBinaryCodeIDsForNodePu {
          * Die Eigenschaft der "BinaryCodeID" zum Merkmal "&#64;BinaryCharacteristicID"
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue binary_property_value = 20005;</code>
+         * <code>.dstore.values.StringValue binary_property_value = 20005;</code>
          */
         public io.dstore.values.StringValue.Builder getBinaryPropertyValueBuilder() {
           
@@ -3229,7 +3229,7 @@ public final class ImGetBinaryCodeIDsForNodePu {
          * Die Eigenschaft der "BinaryCodeID" zum Merkmal "&#64;BinaryCharacteristicID"
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue binary_property_value = 20005;</code>
+         * <code>.dstore.values.StringValue binary_property_value = 20005;</code>
          */
         public io.dstore.values.StringValueOrBuilder getBinaryPropertyValueOrBuilder() {
           if (binaryPropertyValueBuilder_ != null) {
@@ -3244,7 +3244,7 @@ public final class ImGetBinaryCodeIDsForNodePu {
          * Die Eigenschaft der "BinaryCodeID" zum Merkmal "&#64;BinaryCharacteristicID"
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue binary_property_value = 20005;</code>
+         * <code>.dstore.values.StringValue binary_property_value = 20005;</code>
          */
         private com.google.protobuf.SingleFieldBuilderV3<
             io.dstore.values.StringValue, io.dstore.values.StringValue.Builder, io.dstore.values.StringValueOrBuilder> 
@@ -3504,7 +3504,7 @@ public final class ImGetBinaryCodeIDsForNodePu {
         return memoizedHashCode;
       }
       int hash = 41;
-      hash = (19 * hash) + getDescriptorForType().hashCode();
+      hash = (19 * hash) + getDescriptor().hashCode();
       if (getMetaInformationCount() > 0) {
         hash = (37 * hash) + META_INFORMATION_FIELD_NUMBER;
         hash = (53 * hash) + getMetaInformationList().hashCode();

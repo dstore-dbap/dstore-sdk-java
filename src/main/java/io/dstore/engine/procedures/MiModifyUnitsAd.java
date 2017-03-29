@@ -19,110 +19,110 @@ public final class MiModifyUnitsAd {
       com.google.protobuf.MessageOrBuilder {
 
     /**
-     * <code>optional .dstore.values.IntegerValue unit_id = 1;</code>
+     * <code>.dstore.values.IntegerValue unit_id = 1;</code>
      */
     boolean hasUnitId();
     /**
-     * <code>optional .dstore.values.IntegerValue unit_id = 1;</code>
+     * <code>.dstore.values.IntegerValue unit_id = 1;</code>
      */
     io.dstore.values.IntegerValue getUnitId();
     /**
-     * <code>optional .dstore.values.IntegerValue unit_id = 1;</code>
+     * <code>.dstore.values.IntegerValue unit_id = 1;</code>
      */
     io.dstore.values.IntegerValueOrBuilder getUnitIdOrBuilder();
 
     /**
-     * <code>optional bool unit_id_null = 1001;</code>
+     * <code>bool unit_id_null = 1001;</code>
      */
     boolean getUnitIdNull();
 
     /**
-     * <code>optional .dstore.values.StringValue unit_symbol = 2;</code>
+     * <code>.dstore.values.StringValue unit_symbol = 2;</code>
      */
     boolean hasUnitSymbol();
     /**
-     * <code>optional .dstore.values.StringValue unit_symbol = 2;</code>
+     * <code>.dstore.values.StringValue unit_symbol = 2;</code>
      */
     io.dstore.values.StringValue getUnitSymbol();
     /**
-     * <code>optional .dstore.values.StringValue unit_symbol = 2;</code>
+     * <code>.dstore.values.StringValue unit_symbol = 2;</code>
      */
     io.dstore.values.StringValueOrBuilder getUnitSymbolOrBuilder();
 
     /**
-     * <code>optional bool unit_symbol_null = 1002;</code>
+     * <code>bool unit_symbol_null = 1002;</code>
      */
     boolean getUnitSymbolNull();
 
     /**
-     * <code>optional .dstore.values.StringValue unit_description = 3;</code>
+     * <code>.dstore.values.StringValue unit_description = 3;</code>
      */
     boolean hasUnitDescription();
     /**
-     * <code>optional .dstore.values.StringValue unit_description = 3;</code>
+     * <code>.dstore.values.StringValue unit_description = 3;</code>
      */
     io.dstore.values.StringValue getUnitDescription();
     /**
-     * <code>optional .dstore.values.StringValue unit_description = 3;</code>
+     * <code>.dstore.values.StringValue unit_description = 3;</code>
      */
     io.dstore.values.StringValueOrBuilder getUnitDescriptionOrBuilder();
 
     /**
-     * <code>optional bool unit_description_null = 1003;</code>
+     * <code>bool unit_description_null = 1003;</code>
      */
     boolean getUnitDescriptionNull();
 
     /**
-     * <code>optional .dstore.values.BooleanValue triangle_convert = 4;</code>
+     * <code>.dstore.values.BooleanValue triangle_convert = 4;</code>
      */
     boolean hasTriangleConvert();
     /**
-     * <code>optional .dstore.values.BooleanValue triangle_convert = 4;</code>
+     * <code>.dstore.values.BooleanValue triangle_convert = 4;</code>
      */
     io.dstore.values.BooleanValue getTriangleConvert();
     /**
-     * <code>optional .dstore.values.BooleanValue triangle_convert = 4;</code>
+     * <code>.dstore.values.BooleanValue triangle_convert = 4;</code>
      */
     io.dstore.values.BooleanValueOrBuilder getTriangleConvertOrBuilder();
 
     /**
-     * <code>optional bool triangle_convert_null = 1004;</code>
+     * <code>bool triangle_convert_null = 1004;</code>
      */
     boolean getTriangleConvertNull();
 
     /**
-     * <code>optional .dstore.values.BooleanValue delete_unit = 5;</code>
+     * <code>.dstore.values.BooleanValue delete_unit = 5;</code>
      */
     boolean hasDeleteUnit();
     /**
-     * <code>optional .dstore.values.BooleanValue delete_unit = 5;</code>
+     * <code>.dstore.values.BooleanValue delete_unit = 5;</code>
      */
     io.dstore.values.BooleanValue getDeleteUnit();
     /**
-     * <code>optional .dstore.values.BooleanValue delete_unit = 5;</code>
+     * <code>.dstore.values.BooleanValue delete_unit = 5;</code>
      */
     io.dstore.values.BooleanValueOrBuilder getDeleteUnitOrBuilder();
 
     /**
-     * <code>optional bool delete_unit_null = 1005;</code>
+     * <code>bool delete_unit_null = 1005;</code>
      */
     boolean getDeleteUnitNull();
 
     /**
-     * <code>optional .dstore.values.IntegerValue active = 6;</code>
+     * <code>.dstore.values.IntegerValue active = 6;</code>
      */
     boolean hasActive();
     /**
-     * <code>optional .dstore.values.IntegerValue active = 6;</code>
+     * <code>.dstore.values.IntegerValue active = 6;</code>
      */
     io.dstore.values.IntegerValue getActive();
     /**
-     * <code>optional .dstore.values.IntegerValue active = 6;</code>
+     * <code>.dstore.values.IntegerValue active = 6;</code>
      */
     io.dstore.values.IntegerValueOrBuilder getActiveOrBuilder();
 
     /**
-     * <code>optional bool active_null = 1006;</code>
+     * <code>bool active_null = 1006;</code>
      */
     boolean getActiveNull();
   }
@@ -305,19 +305,19 @@ public final class MiModifyUnitsAd {
     public static final int UNIT_ID_FIELD_NUMBER = 1;
     private io.dstore.values.IntegerValue unitId_;
     /**
-     * <code>optional .dstore.values.IntegerValue unit_id = 1;</code>
+     * <code>.dstore.values.IntegerValue unit_id = 1;</code>
      */
     public boolean hasUnitId() {
       return unitId_ != null;
     }
     /**
-     * <code>optional .dstore.values.IntegerValue unit_id = 1;</code>
+     * <code>.dstore.values.IntegerValue unit_id = 1;</code>
      */
     public io.dstore.values.IntegerValue getUnitId() {
       return unitId_ == null ? io.dstore.values.IntegerValue.getDefaultInstance() : unitId_;
     }
     /**
-     * <code>optional .dstore.values.IntegerValue unit_id = 1;</code>
+     * <code>.dstore.values.IntegerValue unit_id = 1;</code>
      */
     public io.dstore.values.IntegerValueOrBuilder getUnitIdOrBuilder() {
       return getUnitId();
@@ -326,7 +326,7 @@ public final class MiModifyUnitsAd {
     public static final int UNIT_ID_NULL_FIELD_NUMBER = 1001;
     private boolean unitIdNull_;
     /**
-     * <code>optional bool unit_id_null = 1001;</code>
+     * <code>bool unit_id_null = 1001;</code>
      */
     public boolean getUnitIdNull() {
       return unitIdNull_;
@@ -335,19 +335,19 @@ public final class MiModifyUnitsAd {
     public static final int UNIT_SYMBOL_FIELD_NUMBER = 2;
     private io.dstore.values.StringValue unitSymbol_;
     /**
-     * <code>optional .dstore.values.StringValue unit_symbol = 2;</code>
+     * <code>.dstore.values.StringValue unit_symbol = 2;</code>
      */
     public boolean hasUnitSymbol() {
       return unitSymbol_ != null;
     }
     /**
-     * <code>optional .dstore.values.StringValue unit_symbol = 2;</code>
+     * <code>.dstore.values.StringValue unit_symbol = 2;</code>
      */
     public io.dstore.values.StringValue getUnitSymbol() {
       return unitSymbol_ == null ? io.dstore.values.StringValue.getDefaultInstance() : unitSymbol_;
     }
     /**
-     * <code>optional .dstore.values.StringValue unit_symbol = 2;</code>
+     * <code>.dstore.values.StringValue unit_symbol = 2;</code>
      */
     public io.dstore.values.StringValueOrBuilder getUnitSymbolOrBuilder() {
       return getUnitSymbol();
@@ -356,7 +356,7 @@ public final class MiModifyUnitsAd {
     public static final int UNIT_SYMBOL_NULL_FIELD_NUMBER = 1002;
     private boolean unitSymbolNull_;
     /**
-     * <code>optional bool unit_symbol_null = 1002;</code>
+     * <code>bool unit_symbol_null = 1002;</code>
      */
     public boolean getUnitSymbolNull() {
       return unitSymbolNull_;
@@ -365,19 +365,19 @@ public final class MiModifyUnitsAd {
     public static final int UNIT_DESCRIPTION_FIELD_NUMBER = 3;
     private io.dstore.values.StringValue unitDescription_;
     /**
-     * <code>optional .dstore.values.StringValue unit_description = 3;</code>
+     * <code>.dstore.values.StringValue unit_description = 3;</code>
      */
     public boolean hasUnitDescription() {
       return unitDescription_ != null;
     }
     /**
-     * <code>optional .dstore.values.StringValue unit_description = 3;</code>
+     * <code>.dstore.values.StringValue unit_description = 3;</code>
      */
     public io.dstore.values.StringValue getUnitDescription() {
       return unitDescription_ == null ? io.dstore.values.StringValue.getDefaultInstance() : unitDescription_;
     }
     /**
-     * <code>optional .dstore.values.StringValue unit_description = 3;</code>
+     * <code>.dstore.values.StringValue unit_description = 3;</code>
      */
     public io.dstore.values.StringValueOrBuilder getUnitDescriptionOrBuilder() {
       return getUnitDescription();
@@ -386,7 +386,7 @@ public final class MiModifyUnitsAd {
     public static final int UNIT_DESCRIPTION_NULL_FIELD_NUMBER = 1003;
     private boolean unitDescriptionNull_;
     /**
-     * <code>optional bool unit_description_null = 1003;</code>
+     * <code>bool unit_description_null = 1003;</code>
      */
     public boolean getUnitDescriptionNull() {
       return unitDescriptionNull_;
@@ -395,19 +395,19 @@ public final class MiModifyUnitsAd {
     public static final int TRIANGLE_CONVERT_FIELD_NUMBER = 4;
     private io.dstore.values.BooleanValue triangleConvert_;
     /**
-     * <code>optional .dstore.values.BooleanValue triangle_convert = 4;</code>
+     * <code>.dstore.values.BooleanValue triangle_convert = 4;</code>
      */
     public boolean hasTriangleConvert() {
       return triangleConvert_ != null;
     }
     /**
-     * <code>optional .dstore.values.BooleanValue triangle_convert = 4;</code>
+     * <code>.dstore.values.BooleanValue triangle_convert = 4;</code>
      */
     public io.dstore.values.BooleanValue getTriangleConvert() {
       return triangleConvert_ == null ? io.dstore.values.BooleanValue.getDefaultInstance() : triangleConvert_;
     }
     /**
-     * <code>optional .dstore.values.BooleanValue triangle_convert = 4;</code>
+     * <code>.dstore.values.BooleanValue triangle_convert = 4;</code>
      */
     public io.dstore.values.BooleanValueOrBuilder getTriangleConvertOrBuilder() {
       return getTriangleConvert();
@@ -416,7 +416,7 @@ public final class MiModifyUnitsAd {
     public static final int TRIANGLE_CONVERT_NULL_FIELD_NUMBER = 1004;
     private boolean triangleConvertNull_;
     /**
-     * <code>optional bool triangle_convert_null = 1004;</code>
+     * <code>bool triangle_convert_null = 1004;</code>
      */
     public boolean getTriangleConvertNull() {
       return triangleConvertNull_;
@@ -425,19 +425,19 @@ public final class MiModifyUnitsAd {
     public static final int DELETE_UNIT_FIELD_NUMBER = 5;
     private io.dstore.values.BooleanValue deleteUnit_;
     /**
-     * <code>optional .dstore.values.BooleanValue delete_unit = 5;</code>
+     * <code>.dstore.values.BooleanValue delete_unit = 5;</code>
      */
     public boolean hasDeleteUnit() {
       return deleteUnit_ != null;
     }
     /**
-     * <code>optional .dstore.values.BooleanValue delete_unit = 5;</code>
+     * <code>.dstore.values.BooleanValue delete_unit = 5;</code>
      */
     public io.dstore.values.BooleanValue getDeleteUnit() {
       return deleteUnit_ == null ? io.dstore.values.BooleanValue.getDefaultInstance() : deleteUnit_;
     }
     /**
-     * <code>optional .dstore.values.BooleanValue delete_unit = 5;</code>
+     * <code>.dstore.values.BooleanValue delete_unit = 5;</code>
      */
     public io.dstore.values.BooleanValueOrBuilder getDeleteUnitOrBuilder() {
       return getDeleteUnit();
@@ -446,7 +446,7 @@ public final class MiModifyUnitsAd {
     public static final int DELETE_UNIT_NULL_FIELD_NUMBER = 1005;
     private boolean deleteUnitNull_;
     /**
-     * <code>optional bool delete_unit_null = 1005;</code>
+     * <code>bool delete_unit_null = 1005;</code>
      */
     public boolean getDeleteUnitNull() {
       return deleteUnitNull_;
@@ -455,19 +455,19 @@ public final class MiModifyUnitsAd {
     public static final int ACTIVE_FIELD_NUMBER = 6;
     private io.dstore.values.IntegerValue active_;
     /**
-     * <code>optional .dstore.values.IntegerValue active = 6;</code>
+     * <code>.dstore.values.IntegerValue active = 6;</code>
      */
     public boolean hasActive() {
       return active_ != null;
     }
     /**
-     * <code>optional .dstore.values.IntegerValue active = 6;</code>
+     * <code>.dstore.values.IntegerValue active = 6;</code>
      */
     public io.dstore.values.IntegerValue getActive() {
       return active_ == null ? io.dstore.values.IntegerValue.getDefaultInstance() : active_;
     }
     /**
-     * <code>optional .dstore.values.IntegerValue active = 6;</code>
+     * <code>.dstore.values.IntegerValue active = 6;</code>
      */
     public io.dstore.values.IntegerValueOrBuilder getActiveOrBuilder() {
       return getActive();
@@ -476,7 +476,7 @@ public final class MiModifyUnitsAd {
     public static final int ACTIVE_NULL_FIELD_NUMBER = 1006;
     private boolean activeNull_;
     /**
-     * <code>optional bool active_null = 1006;</code>
+     * <code>bool active_null = 1006;</code>
      */
     public boolean getActiveNull() {
       return activeNull_;
@@ -652,7 +652,7 @@ public final class MiModifyUnitsAd {
         return memoizedHashCode;
       }
       int hash = 41;
-      hash = (19 * hash) + getDescriptorForType().hashCode();
+      hash = (19 * hash) + getDescriptor().hashCode();
       if (hasUnitId()) {
         hash = (37 * hash) + UNIT_ID_FIELD_NUMBER;
         hash = (53 * hash) + getUnitId().hashCode();
@@ -1026,13 +1026,13 @@ public final class MiModifyUnitsAd {
       private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> unitIdBuilder_;
       /**
-       * <code>optional .dstore.values.IntegerValue unit_id = 1;</code>
+       * <code>.dstore.values.IntegerValue unit_id = 1;</code>
        */
       public boolean hasUnitId() {
         return unitIdBuilder_ != null || unitId_ != null;
       }
       /**
-       * <code>optional .dstore.values.IntegerValue unit_id = 1;</code>
+       * <code>.dstore.values.IntegerValue unit_id = 1;</code>
        */
       public io.dstore.values.IntegerValue getUnitId() {
         if (unitIdBuilder_ == null) {
@@ -1042,7 +1042,7 @@ public final class MiModifyUnitsAd {
         }
       }
       /**
-       * <code>optional .dstore.values.IntegerValue unit_id = 1;</code>
+       * <code>.dstore.values.IntegerValue unit_id = 1;</code>
        */
       public Builder setUnitId(io.dstore.values.IntegerValue value) {
         if (unitIdBuilder_ == null) {
@@ -1058,7 +1058,7 @@ public final class MiModifyUnitsAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.IntegerValue unit_id = 1;</code>
+       * <code>.dstore.values.IntegerValue unit_id = 1;</code>
        */
       public Builder setUnitId(
           io.dstore.values.IntegerValue.Builder builderForValue) {
@@ -1072,7 +1072,7 @@ public final class MiModifyUnitsAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.IntegerValue unit_id = 1;</code>
+       * <code>.dstore.values.IntegerValue unit_id = 1;</code>
        */
       public Builder mergeUnitId(io.dstore.values.IntegerValue value) {
         if (unitIdBuilder_ == null) {
@@ -1090,7 +1090,7 @@ public final class MiModifyUnitsAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.IntegerValue unit_id = 1;</code>
+       * <code>.dstore.values.IntegerValue unit_id = 1;</code>
        */
       public Builder clearUnitId() {
         if (unitIdBuilder_ == null) {
@@ -1104,7 +1104,7 @@ public final class MiModifyUnitsAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.IntegerValue unit_id = 1;</code>
+       * <code>.dstore.values.IntegerValue unit_id = 1;</code>
        */
       public io.dstore.values.IntegerValue.Builder getUnitIdBuilder() {
         
@@ -1112,7 +1112,7 @@ public final class MiModifyUnitsAd {
         return getUnitIdFieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .dstore.values.IntegerValue unit_id = 1;</code>
+       * <code>.dstore.values.IntegerValue unit_id = 1;</code>
        */
       public io.dstore.values.IntegerValueOrBuilder getUnitIdOrBuilder() {
         if (unitIdBuilder_ != null) {
@@ -1123,7 +1123,7 @@ public final class MiModifyUnitsAd {
         }
       }
       /**
-       * <code>optional .dstore.values.IntegerValue unit_id = 1;</code>
+       * <code>.dstore.values.IntegerValue unit_id = 1;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> 
@@ -1141,13 +1141,13 @@ public final class MiModifyUnitsAd {
 
       private boolean unitIdNull_ ;
       /**
-       * <code>optional bool unit_id_null = 1001;</code>
+       * <code>bool unit_id_null = 1001;</code>
        */
       public boolean getUnitIdNull() {
         return unitIdNull_;
       }
       /**
-       * <code>optional bool unit_id_null = 1001;</code>
+       * <code>bool unit_id_null = 1001;</code>
        */
       public Builder setUnitIdNull(boolean value) {
         
@@ -1156,7 +1156,7 @@ public final class MiModifyUnitsAd {
         return this;
       }
       /**
-       * <code>optional bool unit_id_null = 1001;</code>
+       * <code>bool unit_id_null = 1001;</code>
        */
       public Builder clearUnitIdNull() {
         
@@ -1169,13 +1169,13 @@ public final class MiModifyUnitsAd {
       private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.values.StringValue, io.dstore.values.StringValue.Builder, io.dstore.values.StringValueOrBuilder> unitSymbolBuilder_;
       /**
-       * <code>optional .dstore.values.StringValue unit_symbol = 2;</code>
+       * <code>.dstore.values.StringValue unit_symbol = 2;</code>
        */
       public boolean hasUnitSymbol() {
         return unitSymbolBuilder_ != null || unitSymbol_ != null;
       }
       /**
-       * <code>optional .dstore.values.StringValue unit_symbol = 2;</code>
+       * <code>.dstore.values.StringValue unit_symbol = 2;</code>
        */
       public io.dstore.values.StringValue getUnitSymbol() {
         if (unitSymbolBuilder_ == null) {
@@ -1185,7 +1185,7 @@ public final class MiModifyUnitsAd {
         }
       }
       /**
-       * <code>optional .dstore.values.StringValue unit_symbol = 2;</code>
+       * <code>.dstore.values.StringValue unit_symbol = 2;</code>
        */
       public Builder setUnitSymbol(io.dstore.values.StringValue value) {
         if (unitSymbolBuilder_ == null) {
@@ -1201,7 +1201,7 @@ public final class MiModifyUnitsAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.StringValue unit_symbol = 2;</code>
+       * <code>.dstore.values.StringValue unit_symbol = 2;</code>
        */
       public Builder setUnitSymbol(
           io.dstore.values.StringValue.Builder builderForValue) {
@@ -1215,7 +1215,7 @@ public final class MiModifyUnitsAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.StringValue unit_symbol = 2;</code>
+       * <code>.dstore.values.StringValue unit_symbol = 2;</code>
        */
       public Builder mergeUnitSymbol(io.dstore.values.StringValue value) {
         if (unitSymbolBuilder_ == null) {
@@ -1233,7 +1233,7 @@ public final class MiModifyUnitsAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.StringValue unit_symbol = 2;</code>
+       * <code>.dstore.values.StringValue unit_symbol = 2;</code>
        */
       public Builder clearUnitSymbol() {
         if (unitSymbolBuilder_ == null) {
@@ -1247,7 +1247,7 @@ public final class MiModifyUnitsAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.StringValue unit_symbol = 2;</code>
+       * <code>.dstore.values.StringValue unit_symbol = 2;</code>
        */
       public io.dstore.values.StringValue.Builder getUnitSymbolBuilder() {
         
@@ -1255,7 +1255,7 @@ public final class MiModifyUnitsAd {
         return getUnitSymbolFieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .dstore.values.StringValue unit_symbol = 2;</code>
+       * <code>.dstore.values.StringValue unit_symbol = 2;</code>
        */
       public io.dstore.values.StringValueOrBuilder getUnitSymbolOrBuilder() {
         if (unitSymbolBuilder_ != null) {
@@ -1266,7 +1266,7 @@ public final class MiModifyUnitsAd {
         }
       }
       /**
-       * <code>optional .dstore.values.StringValue unit_symbol = 2;</code>
+       * <code>.dstore.values.StringValue unit_symbol = 2;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.values.StringValue, io.dstore.values.StringValue.Builder, io.dstore.values.StringValueOrBuilder> 
@@ -1284,13 +1284,13 @@ public final class MiModifyUnitsAd {
 
       private boolean unitSymbolNull_ ;
       /**
-       * <code>optional bool unit_symbol_null = 1002;</code>
+       * <code>bool unit_symbol_null = 1002;</code>
        */
       public boolean getUnitSymbolNull() {
         return unitSymbolNull_;
       }
       /**
-       * <code>optional bool unit_symbol_null = 1002;</code>
+       * <code>bool unit_symbol_null = 1002;</code>
        */
       public Builder setUnitSymbolNull(boolean value) {
         
@@ -1299,7 +1299,7 @@ public final class MiModifyUnitsAd {
         return this;
       }
       /**
-       * <code>optional bool unit_symbol_null = 1002;</code>
+       * <code>bool unit_symbol_null = 1002;</code>
        */
       public Builder clearUnitSymbolNull() {
         
@@ -1312,13 +1312,13 @@ public final class MiModifyUnitsAd {
       private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.values.StringValue, io.dstore.values.StringValue.Builder, io.dstore.values.StringValueOrBuilder> unitDescriptionBuilder_;
       /**
-       * <code>optional .dstore.values.StringValue unit_description = 3;</code>
+       * <code>.dstore.values.StringValue unit_description = 3;</code>
        */
       public boolean hasUnitDescription() {
         return unitDescriptionBuilder_ != null || unitDescription_ != null;
       }
       /**
-       * <code>optional .dstore.values.StringValue unit_description = 3;</code>
+       * <code>.dstore.values.StringValue unit_description = 3;</code>
        */
       public io.dstore.values.StringValue getUnitDescription() {
         if (unitDescriptionBuilder_ == null) {
@@ -1328,7 +1328,7 @@ public final class MiModifyUnitsAd {
         }
       }
       /**
-       * <code>optional .dstore.values.StringValue unit_description = 3;</code>
+       * <code>.dstore.values.StringValue unit_description = 3;</code>
        */
       public Builder setUnitDescription(io.dstore.values.StringValue value) {
         if (unitDescriptionBuilder_ == null) {
@@ -1344,7 +1344,7 @@ public final class MiModifyUnitsAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.StringValue unit_description = 3;</code>
+       * <code>.dstore.values.StringValue unit_description = 3;</code>
        */
       public Builder setUnitDescription(
           io.dstore.values.StringValue.Builder builderForValue) {
@@ -1358,7 +1358,7 @@ public final class MiModifyUnitsAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.StringValue unit_description = 3;</code>
+       * <code>.dstore.values.StringValue unit_description = 3;</code>
        */
       public Builder mergeUnitDescription(io.dstore.values.StringValue value) {
         if (unitDescriptionBuilder_ == null) {
@@ -1376,7 +1376,7 @@ public final class MiModifyUnitsAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.StringValue unit_description = 3;</code>
+       * <code>.dstore.values.StringValue unit_description = 3;</code>
        */
       public Builder clearUnitDescription() {
         if (unitDescriptionBuilder_ == null) {
@@ -1390,7 +1390,7 @@ public final class MiModifyUnitsAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.StringValue unit_description = 3;</code>
+       * <code>.dstore.values.StringValue unit_description = 3;</code>
        */
       public io.dstore.values.StringValue.Builder getUnitDescriptionBuilder() {
         
@@ -1398,7 +1398,7 @@ public final class MiModifyUnitsAd {
         return getUnitDescriptionFieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .dstore.values.StringValue unit_description = 3;</code>
+       * <code>.dstore.values.StringValue unit_description = 3;</code>
        */
       public io.dstore.values.StringValueOrBuilder getUnitDescriptionOrBuilder() {
         if (unitDescriptionBuilder_ != null) {
@@ -1409,7 +1409,7 @@ public final class MiModifyUnitsAd {
         }
       }
       /**
-       * <code>optional .dstore.values.StringValue unit_description = 3;</code>
+       * <code>.dstore.values.StringValue unit_description = 3;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.values.StringValue, io.dstore.values.StringValue.Builder, io.dstore.values.StringValueOrBuilder> 
@@ -1427,13 +1427,13 @@ public final class MiModifyUnitsAd {
 
       private boolean unitDescriptionNull_ ;
       /**
-       * <code>optional bool unit_description_null = 1003;</code>
+       * <code>bool unit_description_null = 1003;</code>
        */
       public boolean getUnitDescriptionNull() {
         return unitDescriptionNull_;
       }
       /**
-       * <code>optional bool unit_description_null = 1003;</code>
+       * <code>bool unit_description_null = 1003;</code>
        */
       public Builder setUnitDescriptionNull(boolean value) {
         
@@ -1442,7 +1442,7 @@ public final class MiModifyUnitsAd {
         return this;
       }
       /**
-       * <code>optional bool unit_description_null = 1003;</code>
+       * <code>bool unit_description_null = 1003;</code>
        */
       public Builder clearUnitDescriptionNull() {
         
@@ -1455,13 +1455,13 @@ public final class MiModifyUnitsAd {
       private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.values.BooleanValue, io.dstore.values.BooleanValue.Builder, io.dstore.values.BooleanValueOrBuilder> triangleConvertBuilder_;
       /**
-       * <code>optional .dstore.values.BooleanValue triangle_convert = 4;</code>
+       * <code>.dstore.values.BooleanValue triangle_convert = 4;</code>
        */
       public boolean hasTriangleConvert() {
         return triangleConvertBuilder_ != null || triangleConvert_ != null;
       }
       /**
-       * <code>optional .dstore.values.BooleanValue triangle_convert = 4;</code>
+       * <code>.dstore.values.BooleanValue triangle_convert = 4;</code>
        */
       public io.dstore.values.BooleanValue getTriangleConvert() {
         if (triangleConvertBuilder_ == null) {
@@ -1471,7 +1471,7 @@ public final class MiModifyUnitsAd {
         }
       }
       /**
-       * <code>optional .dstore.values.BooleanValue triangle_convert = 4;</code>
+       * <code>.dstore.values.BooleanValue triangle_convert = 4;</code>
        */
       public Builder setTriangleConvert(io.dstore.values.BooleanValue value) {
         if (triangleConvertBuilder_ == null) {
@@ -1487,7 +1487,7 @@ public final class MiModifyUnitsAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.BooleanValue triangle_convert = 4;</code>
+       * <code>.dstore.values.BooleanValue triangle_convert = 4;</code>
        */
       public Builder setTriangleConvert(
           io.dstore.values.BooleanValue.Builder builderForValue) {
@@ -1501,7 +1501,7 @@ public final class MiModifyUnitsAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.BooleanValue triangle_convert = 4;</code>
+       * <code>.dstore.values.BooleanValue triangle_convert = 4;</code>
        */
       public Builder mergeTriangleConvert(io.dstore.values.BooleanValue value) {
         if (triangleConvertBuilder_ == null) {
@@ -1519,7 +1519,7 @@ public final class MiModifyUnitsAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.BooleanValue triangle_convert = 4;</code>
+       * <code>.dstore.values.BooleanValue triangle_convert = 4;</code>
        */
       public Builder clearTriangleConvert() {
         if (triangleConvertBuilder_ == null) {
@@ -1533,7 +1533,7 @@ public final class MiModifyUnitsAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.BooleanValue triangle_convert = 4;</code>
+       * <code>.dstore.values.BooleanValue triangle_convert = 4;</code>
        */
       public io.dstore.values.BooleanValue.Builder getTriangleConvertBuilder() {
         
@@ -1541,7 +1541,7 @@ public final class MiModifyUnitsAd {
         return getTriangleConvertFieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .dstore.values.BooleanValue triangle_convert = 4;</code>
+       * <code>.dstore.values.BooleanValue triangle_convert = 4;</code>
        */
       public io.dstore.values.BooleanValueOrBuilder getTriangleConvertOrBuilder() {
         if (triangleConvertBuilder_ != null) {
@@ -1552,7 +1552,7 @@ public final class MiModifyUnitsAd {
         }
       }
       /**
-       * <code>optional .dstore.values.BooleanValue triangle_convert = 4;</code>
+       * <code>.dstore.values.BooleanValue triangle_convert = 4;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.values.BooleanValue, io.dstore.values.BooleanValue.Builder, io.dstore.values.BooleanValueOrBuilder> 
@@ -1570,13 +1570,13 @@ public final class MiModifyUnitsAd {
 
       private boolean triangleConvertNull_ ;
       /**
-       * <code>optional bool triangle_convert_null = 1004;</code>
+       * <code>bool triangle_convert_null = 1004;</code>
        */
       public boolean getTriangleConvertNull() {
         return triangleConvertNull_;
       }
       /**
-       * <code>optional bool triangle_convert_null = 1004;</code>
+       * <code>bool triangle_convert_null = 1004;</code>
        */
       public Builder setTriangleConvertNull(boolean value) {
         
@@ -1585,7 +1585,7 @@ public final class MiModifyUnitsAd {
         return this;
       }
       /**
-       * <code>optional bool triangle_convert_null = 1004;</code>
+       * <code>bool triangle_convert_null = 1004;</code>
        */
       public Builder clearTriangleConvertNull() {
         
@@ -1598,13 +1598,13 @@ public final class MiModifyUnitsAd {
       private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.values.BooleanValue, io.dstore.values.BooleanValue.Builder, io.dstore.values.BooleanValueOrBuilder> deleteUnitBuilder_;
       /**
-       * <code>optional .dstore.values.BooleanValue delete_unit = 5;</code>
+       * <code>.dstore.values.BooleanValue delete_unit = 5;</code>
        */
       public boolean hasDeleteUnit() {
         return deleteUnitBuilder_ != null || deleteUnit_ != null;
       }
       /**
-       * <code>optional .dstore.values.BooleanValue delete_unit = 5;</code>
+       * <code>.dstore.values.BooleanValue delete_unit = 5;</code>
        */
       public io.dstore.values.BooleanValue getDeleteUnit() {
         if (deleteUnitBuilder_ == null) {
@@ -1614,7 +1614,7 @@ public final class MiModifyUnitsAd {
         }
       }
       /**
-       * <code>optional .dstore.values.BooleanValue delete_unit = 5;</code>
+       * <code>.dstore.values.BooleanValue delete_unit = 5;</code>
        */
       public Builder setDeleteUnit(io.dstore.values.BooleanValue value) {
         if (deleteUnitBuilder_ == null) {
@@ -1630,7 +1630,7 @@ public final class MiModifyUnitsAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.BooleanValue delete_unit = 5;</code>
+       * <code>.dstore.values.BooleanValue delete_unit = 5;</code>
        */
       public Builder setDeleteUnit(
           io.dstore.values.BooleanValue.Builder builderForValue) {
@@ -1644,7 +1644,7 @@ public final class MiModifyUnitsAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.BooleanValue delete_unit = 5;</code>
+       * <code>.dstore.values.BooleanValue delete_unit = 5;</code>
        */
       public Builder mergeDeleteUnit(io.dstore.values.BooleanValue value) {
         if (deleteUnitBuilder_ == null) {
@@ -1662,7 +1662,7 @@ public final class MiModifyUnitsAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.BooleanValue delete_unit = 5;</code>
+       * <code>.dstore.values.BooleanValue delete_unit = 5;</code>
        */
       public Builder clearDeleteUnit() {
         if (deleteUnitBuilder_ == null) {
@@ -1676,7 +1676,7 @@ public final class MiModifyUnitsAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.BooleanValue delete_unit = 5;</code>
+       * <code>.dstore.values.BooleanValue delete_unit = 5;</code>
        */
       public io.dstore.values.BooleanValue.Builder getDeleteUnitBuilder() {
         
@@ -1684,7 +1684,7 @@ public final class MiModifyUnitsAd {
         return getDeleteUnitFieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .dstore.values.BooleanValue delete_unit = 5;</code>
+       * <code>.dstore.values.BooleanValue delete_unit = 5;</code>
        */
       public io.dstore.values.BooleanValueOrBuilder getDeleteUnitOrBuilder() {
         if (deleteUnitBuilder_ != null) {
@@ -1695,7 +1695,7 @@ public final class MiModifyUnitsAd {
         }
       }
       /**
-       * <code>optional .dstore.values.BooleanValue delete_unit = 5;</code>
+       * <code>.dstore.values.BooleanValue delete_unit = 5;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.values.BooleanValue, io.dstore.values.BooleanValue.Builder, io.dstore.values.BooleanValueOrBuilder> 
@@ -1713,13 +1713,13 @@ public final class MiModifyUnitsAd {
 
       private boolean deleteUnitNull_ ;
       /**
-       * <code>optional bool delete_unit_null = 1005;</code>
+       * <code>bool delete_unit_null = 1005;</code>
        */
       public boolean getDeleteUnitNull() {
         return deleteUnitNull_;
       }
       /**
-       * <code>optional bool delete_unit_null = 1005;</code>
+       * <code>bool delete_unit_null = 1005;</code>
        */
       public Builder setDeleteUnitNull(boolean value) {
         
@@ -1728,7 +1728,7 @@ public final class MiModifyUnitsAd {
         return this;
       }
       /**
-       * <code>optional bool delete_unit_null = 1005;</code>
+       * <code>bool delete_unit_null = 1005;</code>
        */
       public Builder clearDeleteUnitNull() {
         
@@ -1741,13 +1741,13 @@ public final class MiModifyUnitsAd {
       private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> activeBuilder_;
       /**
-       * <code>optional .dstore.values.IntegerValue active = 6;</code>
+       * <code>.dstore.values.IntegerValue active = 6;</code>
        */
       public boolean hasActive() {
         return activeBuilder_ != null || active_ != null;
       }
       /**
-       * <code>optional .dstore.values.IntegerValue active = 6;</code>
+       * <code>.dstore.values.IntegerValue active = 6;</code>
        */
       public io.dstore.values.IntegerValue getActive() {
         if (activeBuilder_ == null) {
@@ -1757,7 +1757,7 @@ public final class MiModifyUnitsAd {
         }
       }
       /**
-       * <code>optional .dstore.values.IntegerValue active = 6;</code>
+       * <code>.dstore.values.IntegerValue active = 6;</code>
        */
       public Builder setActive(io.dstore.values.IntegerValue value) {
         if (activeBuilder_ == null) {
@@ -1773,7 +1773,7 @@ public final class MiModifyUnitsAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.IntegerValue active = 6;</code>
+       * <code>.dstore.values.IntegerValue active = 6;</code>
        */
       public Builder setActive(
           io.dstore.values.IntegerValue.Builder builderForValue) {
@@ -1787,7 +1787,7 @@ public final class MiModifyUnitsAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.IntegerValue active = 6;</code>
+       * <code>.dstore.values.IntegerValue active = 6;</code>
        */
       public Builder mergeActive(io.dstore.values.IntegerValue value) {
         if (activeBuilder_ == null) {
@@ -1805,7 +1805,7 @@ public final class MiModifyUnitsAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.IntegerValue active = 6;</code>
+       * <code>.dstore.values.IntegerValue active = 6;</code>
        */
       public Builder clearActive() {
         if (activeBuilder_ == null) {
@@ -1819,7 +1819,7 @@ public final class MiModifyUnitsAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.IntegerValue active = 6;</code>
+       * <code>.dstore.values.IntegerValue active = 6;</code>
        */
       public io.dstore.values.IntegerValue.Builder getActiveBuilder() {
         
@@ -1827,7 +1827,7 @@ public final class MiModifyUnitsAd {
         return getActiveFieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .dstore.values.IntegerValue active = 6;</code>
+       * <code>.dstore.values.IntegerValue active = 6;</code>
        */
       public io.dstore.values.IntegerValueOrBuilder getActiveOrBuilder() {
         if (activeBuilder_ != null) {
@@ -1838,7 +1838,7 @@ public final class MiModifyUnitsAd {
         }
       }
       /**
-       * <code>optional .dstore.values.IntegerValue active = 6;</code>
+       * <code>.dstore.values.IntegerValue active = 6;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> 
@@ -1856,13 +1856,13 @@ public final class MiModifyUnitsAd {
 
       private boolean activeNull_ ;
       /**
-       * <code>optional bool active_null = 1006;</code>
+       * <code>bool active_null = 1006;</code>
        */
       public boolean getActiveNull() {
         return activeNull_;
       }
       /**
-       * <code>optional bool active_null = 1006;</code>
+       * <code>bool active_null = 1006;</code>
        */
       public Builder setActiveNull(boolean value) {
         
@@ -1871,7 +1871,7 @@ public final class MiModifyUnitsAd {
         return this;
       }
       /**
-       * <code>optional bool active_null = 1006;</code>
+       * <code>bool active_null = 1006;</code>
        */
       public Builder clearActiveNull() {
         
@@ -2130,7 +2130,7 @@ public final class MiModifyUnitsAd {
         com.google.protobuf.MessageOrBuilder {
 
       /**
-       * <code>optional int32 row_id = 10000;</code>
+       * <code>int32 row_id = 10000;</code>
        */
       int getRowId();
     }
@@ -2205,7 +2205,7 @@ public final class MiModifyUnitsAd {
       public static final int ROW_ID_FIELD_NUMBER = 10000;
       private int rowId_;
       /**
-       * <code>optional int32 row_id = 10000;</code>
+       * <code>int32 row_id = 10000;</code>
        */
       public int getRowId() {
         return rowId_;
@@ -2264,7 +2264,7 @@ public final class MiModifyUnitsAd {
           return memoizedHashCode;
         }
         int hash = 41;
-        hash = (19 * hash) + getDescriptorForType().hashCode();
+        hash = (19 * hash) + getDescriptor().hashCode();
         hash = (37 * hash) + ROW_ID_FIELD_NUMBER;
         hash = (53 * hash) + getRowId();
         hash = (29 * hash) + unknownFields.hashCode();
@@ -2482,13 +2482,13 @@ public final class MiModifyUnitsAd {
 
         private int rowId_ ;
         /**
-         * <code>optional int32 row_id = 10000;</code>
+         * <code>int32 row_id = 10000;</code>
          */
         public int getRowId() {
           return rowId_;
         }
         /**
-         * <code>optional int32 row_id = 10000;</code>
+         * <code>int32 row_id = 10000;</code>
          */
         public Builder setRowId(int value) {
           
@@ -2497,7 +2497,7 @@ public final class MiModifyUnitsAd {
           return this;
         }
         /**
-         * <code>optional int32 row_id = 10000;</code>
+         * <code>int32 row_id = 10000;</code>
          */
         public Builder clearRowId() {
           
@@ -2750,7 +2750,7 @@ public final class MiModifyUnitsAd {
         return memoizedHashCode;
       }
       int hash = 41;
-      hash = (19 * hash) + getDescriptorForType().hashCode();
+      hash = (19 * hash) + getDescriptor().hashCode();
       if (getMetaInformationCount() > 0) {
         hash = (37 * hash) + META_INFORMATION_FIELD_NUMBER;
         hash = (53 * hash) + getMetaInformationList().hashCode();

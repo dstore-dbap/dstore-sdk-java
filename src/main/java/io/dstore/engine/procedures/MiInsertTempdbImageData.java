@@ -19,74 +19,74 @@ public final class MiInsertTempdbImageData {
       com.google.protobuf.MessageOrBuilder {
 
     /**
-     * <code>optional .dstore.values.BytesValue data = 1;</code>
+     * <code>.dstore.values.BytesValue data = 1;</code>
      */
     boolean hasData();
     /**
-     * <code>optional .dstore.values.BytesValue data = 1;</code>
+     * <code>.dstore.values.BytesValue data = 1;</code>
      */
     io.dstore.values.BytesValue getData();
     /**
-     * <code>optional .dstore.values.BytesValue data = 1;</code>
+     * <code>.dstore.values.BytesValue data = 1;</code>
      */
     io.dstore.values.BytesValueOrBuilder getDataOrBuilder();
 
     /**
-     * <code>optional bool data_null = 1001;</code>
+     * <code>bool data_null = 1001;</code>
      */
     boolean getDataNull();
 
     /**
-     * <code>optional .dstore.values.IntegerValue sort_no = 2;</code>
+     * <code>.dstore.values.IntegerValue sort_no = 2;</code>
      */
     boolean hasSortNo();
     /**
-     * <code>optional .dstore.values.IntegerValue sort_no = 2;</code>
+     * <code>.dstore.values.IntegerValue sort_no = 2;</code>
      */
     io.dstore.values.IntegerValue getSortNo();
     /**
-     * <code>optional .dstore.values.IntegerValue sort_no = 2;</code>
+     * <code>.dstore.values.IntegerValue sort_no = 2;</code>
      */
     io.dstore.values.IntegerValueOrBuilder getSortNoOrBuilder();
 
     /**
-     * <code>optional bool sort_no_null = 1002;</code>
+     * <code>bool sort_no_null = 1002;</code>
      */
     boolean getSortNoNull();
 
     /**
-     * <code>optional .dstore.values.StringValue format = 3;</code>
+     * <code>.dstore.values.StringValue format = 3;</code>
      */
     boolean hasFormat();
     /**
-     * <code>optional .dstore.values.StringValue format = 3;</code>
+     * <code>.dstore.values.StringValue format = 3;</code>
      */
     io.dstore.values.StringValue getFormat();
     /**
-     * <code>optional .dstore.values.StringValue format = 3;</code>
+     * <code>.dstore.values.StringValue format = 3;</code>
      */
     io.dstore.values.StringValueOrBuilder getFormatOrBuilder();
 
     /**
-     * <code>optional bool format_null = 1003;</code>
+     * <code>bool format_null = 1003;</code>
      */
     boolean getFormatNull();
 
     /**
-     * <code>optional .dstore.values.BooleanValue delete = 4;</code>
+     * <code>.dstore.values.BooleanValue delete = 4;</code>
      */
     boolean hasDelete();
     /**
-     * <code>optional .dstore.values.BooleanValue delete = 4;</code>
+     * <code>.dstore.values.BooleanValue delete = 4;</code>
      */
     io.dstore.values.BooleanValue getDelete();
     /**
-     * <code>optional .dstore.values.BooleanValue delete = 4;</code>
+     * <code>.dstore.values.BooleanValue delete = 4;</code>
      */
     io.dstore.values.BooleanValueOrBuilder getDeleteOrBuilder();
 
     /**
-     * <code>optional bool delete_null = 1004;</code>
+     * <code>bool delete_null = 1004;</code>
      */
     boolean getDeleteNull();
   }
@@ -231,19 +231,19 @@ public final class MiInsertTempdbImageData {
     public static final int DATA_FIELD_NUMBER = 1;
     private io.dstore.values.BytesValue data_;
     /**
-     * <code>optional .dstore.values.BytesValue data = 1;</code>
+     * <code>.dstore.values.BytesValue data = 1;</code>
      */
     public boolean hasData() {
       return data_ != null;
     }
     /**
-     * <code>optional .dstore.values.BytesValue data = 1;</code>
+     * <code>.dstore.values.BytesValue data = 1;</code>
      */
     public io.dstore.values.BytesValue getData() {
       return data_ == null ? io.dstore.values.BytesValue.getDefaultInstance() : data_;
     }
     /**
-     * <code>optional .dstore.values.BytesValue data = 1;</code>
+     * <code>.dstore.values.BytesValue data = 1;</code>
      */
     public io.dstore.values.BytesValueOrBuilder getDataOrBuilder() {
       return getData();
@@ -252,7 +252,7 @@ public final class MiInsertTempdbImageData {
     public static final int DATA_NULL_FIELD_NUMBER = 1001;
     private boolean dataNull_;
     /**
-     * <code>optional bool data_null = 1001;</code>
+     * <code>bool data_null = 1001;</code>
      */
     public boolean getDataNull() {
       return dataNull_;
@@ -261,19 +261,19 @@ public final class MiInsertTempdbImageData {
     public static final int SORT_NO_FIELD_NUMBER = 2;
     private io.dstore.values.IntegerValue sortNo_;
     /**
-     * <code>optional .dstore.values.IntegerValue sort_no = 2;</code>
+     * <code>.dstore.values.IntegerValue sort_no = 2;</code>
      */
     public boolean hasSortNo() {
       return sortNo_ != null;
     }
     /**
-     * <code>optional .dstore.values.IntegerValue sort_no = 2;</code>
+     * <code>.dstore.values.IntegerValue sort_no = 2;</code>
      */
     public io.dstore.values.IntegerValue getSortNo() {
       return sortNo_ == null ? io.dstore.values.IntegerValue.getDefaultInstance() : sortNo_;
     }
     /**
-     * <code>optional .dstore.values.IntegerValue sort_no = 2;</code>
+     * <code>.dstore.values.IntegerValue sort_no = 2;</code>
      */
     public io.dstore.values.IntegerValueOrBuilder getSortNoOrBuilder() {
       return getSortNo();
@@ -282,7 +282,7 @@ public final class MiInsertTempdbImageData {
     public static final int SORT_NO_NULL_FIELD_NUMBER = 1002;
     private boolean sortNoNull_;
     /**
-     * <code>optional bool sort_no_null = 1002;</code>
+     * <code>bool sort_no_null = 1002;</code>
      */
     public boolean getSortNoNull() {
       return sortNoNull_;
@@ -291,19 +291,19 @@ public final class MiInsertTempdbImageData {
     public static final int FORMAT_FIELD_NUMBER = 3;
     private io.dstore.values.StringValue format_;
     /**
-     * <code>optional .dstore.values.StringValue format = 3;</code>
+     * <code>.dstore.values.StringValue format = 3;</code>
      */
     public boolean hasFormat() {
       return format_ != null;
     }
     /**
-     * <code>optional .dstore.values.StringValue format = 3;</code>
+     * <code>.dstore.values.StringValue format = 3;</code>
      */
     public io.dstore.values.StringValue getFormat() {
       return format_ == null ? io.dstore.values.StringValue.getDefaultInstance() : format_;
     }
     /**
-     * <code>optional .dstore.values.StringValue format = 3;</code>
+     * <code>.dstore.values.StringValue format = 3;</code>
      */
     public io.dstore.values.StringValueOrBuilder getFormatOrBuilder() {
       return getFormat();
@@ -312,7 +312,7 @@ public final class MiInsertTempdbImageData {
     public static final int FORMAT_NULL_FIELD_NUMBER = 1003;
     private boolean formatNull_;
     /**
-     * <code>optional bool format_null = 1003;</code>
+     * <code>bool format_null = 1003;</code>
      */
     public boolean getFormatNull() {
       return formatNull_;
@@ -321,19 +321,19 @@ public final class MiInsertTempdbImageData {
     public static final int DELETE_FIELD_NUMBER = 4;
     private io.dstore.values.BooleanValue delete_;
     /**
-     * <code>optional .dstore.values.BooleanValue delete = 4;</code>
+     * <code>.dstore.values.BooleanValue delete = 4;</code>
      */
     public boolean hasDelete() {
       return delete_ != null;
     }
     /**
-     * <code>optional .dstore.values.BooleanValue delete = 4;</code>
+     * <code>.dstore.values.BooleanValue delete = 4;</code>
      */
     public io.dstore.values.BooleanValue getDelete() {
       return delete_ == null ? io.dstore.values.BooleanValue.getDefaultInstance() : delete_;
     }
     /**
-     * <code>optional .dstore.values.BooleanValue delete = 4;</code>
+     * <code>.dstore.values.BooleanValue delete = 4;</code>
      */
     public io.dstore.values.BooleanValueOrBuilder getDeleteOrBuilder() {
       return getDelete();
@@ -342,7 +342,7 @@ public final class MiInsertTempdbImageData {
     public static final int DELETE_NULL_FIELD_NUMBER = 1004;
     private boolean deleteNull_;
     /**
-     * <code>optional bool delete_null = 1004;</code>
+     * <code>bool delete_null = 1004;</code>
      */
     public boolean getDeleteNull() {
       return deleteNull_;
@@ -476,7 +476,7 @@ public final class MiInsertTempdbImageData {
         return memoizedHashCode;
       }
       int hash = 41;
-      hash = (19 * hash) + getDescriptorForType().hashCode();
+      hash = (19 * hash) + getDescriptor().hashCode();
       if (hasData()) {
         hash = (37 * hash) + DATA_FIELD_NUMBER;
         hash = (53 * hash) + getData().hashCode();
@@ -796,13 +796,13 @@ public final class MiInsertTempdbImageData {
       private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.values.BytesValue, io.dstore.values.BytesValue.Builder, io.dstore.values.BytesValueOrBuilder> dataBuilder_;
       /**
-       * <code>optional .dstore.values.BytesValue data = 1;</code>
+       * <code>.dstore.values.BytesValue data = 1;</code>
        */
       public boolean hasData() {
         return dataBuilder_ != null || data_ != null;
       }
       /**
-       * <code>optional .dstore.values.BytesValue data = 1;</code>
+       * <code>.dstore.values.BytesValue data = 1;</code>
        */
       public io.dstore.values.BytesValue getData() {
         if (dataBuilder_ == null) {
@@ -812,7 +812,7 @@ public final class MiInsertTempdbImageData {
         }
       }
       /**
-       * <code>optional .dstore.values.BytesValue data = 1;</code>
+       * <code>.dstore.values.BytesValue data = 1;</code>
        */
       public Builder setData(io.dstore.values.BytesValue value) {
         if (dataBuilder_ == null) {
@@ -828,7 +828,7 @@ public final class MiInsertTempdbImageData {
         return this;
       }
       /**
-       * <code>optional .dstore.values.BytesValue data = 1;</code>
+       * <code>.dstore.values.BytesValue data = 1;</code>
        */
       public Builder setData(
           io.dstore.values.BytesValue.Builder builderForValue) {
@@ -842,7 +842,7 @@ public final class MiInsertTempdbImageData {
         return this;
       }
       /**
-       * <code>optional .dstore.values.BytesValue data = 1;</code>
+       * <code>.dstore.values.BytesValue data = 1;</code>
        */
       public Builder mergeData(io.dstore.values.BytesValue value) {
         if (dataBuilder_ == null) {
@@ -860,7 +860,7 @@ public final class MiInsertTempdbImageData {
         return this;
       }
       /**
-       * <code>optional .dstore.values.BytesValue data = 1;</code>
+       * <code>.dstore.values.BytesValue data = 1;</code>
        */
       public Builder clearData() {
         if (dataBuilder_ == null) {
@@ -874,7 +874,7 @@ public final class MiInsertTempdbImageData {
         return this;
       }
       /**
-       * <code>optional .dstore.values.BytesValue data = 1;</code>
+       * <code>.dstore.values.BytesValue data = 1;</code>
        */
       public io.dstore.values.BytesValue.Builder getDataBuilder() {
         
@@ -882,7 +882,7 @@ public final class MiInsertTempdbImageData {
         return getDataFieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .dstore.values.BytesValue data = 1;</code>
+       * <code>.dstore.values.BytesValue data = 1;</code>
        */
       public io.dstore.values.BytesValueOrBuilder getDataOrBuilder() {
         if (dataBuilder_ != null) {
@@ -893,7 +893,7 @@ public final class MiInsertTempdbImageData {
         }
       }
       /**
-       * <code>optional .dstore.values.BytesValue data = 1;</code>
+       * <code>.dstore.values.BytesValue data = 1;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.values.BytesValue, io.dstore.values.BytesValue.Builder, io.dstore.values.BytesValueOrBuilder> 
@@ -911,13 +911,13 @@ public final class MiInsertTempdbImageData {
 
       private boolean dataNull_ ;
       /**
-       * <code>optional bool data_null = 1001;</code>
+       * <code>bool data_null = 1001;</code>
        */
       public boolean getDataNull() {
         return dataNull_;
       }
       /**
-       * <code>optional bool data_null = 1001;</code>
+       * <code>bool data_null = 1001;</code>
        */
       public Builder setDataNull(boolean value) {
         
@@ -926,7 +926,7 @@ public final class MiInsertTempdbImageData {
         return this;
       }
       /**
-       * <code>optional bool data_null = 1001;</code>
+       * <code>bool data_null = 1001;</code>
        */
       public Builder clearDataNull() {
         
@@ -939,13 +939,13 @@ public final class MiInsertTempdbImageData {
       private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> sortNoBuilder_;
       /**
-       * <code>optional .dstore.values.IntegerValue sort_no = 2;</code>
+       * <code>.dstore.values.IntegerValue sort_no = 2;</code>
        */
       public boolean hasSortNo() {
         return sortNoBuilder_ != null || sortNo_ != null;
       }
       /**
-       * <code>optional .dstore.values.IntegerValue sort_no = 2;</code>
+       * <code>.dstore.values.IntegerValue sort_no = 2;</code>
        */
       public io.dstore.values.IntegerValue getSortNo() {
         if (sortNoBuilder_ == null) {
@@ -955,7 +955,7 @@ public final class MiInsertTempdbImageData {
         }
       }
       /**
-       * <code>optional .dstore.values.IntegerValue sort_no = 2;</code>
+       * <code>.dstore.values.IntegerValue sort_no = 2;</code>
        */
       public Builder setSortNo(io.dstore.values.IntegerValue value) {
         if (sortNoBuilder_ == null) {
@@ -971,7 +971,7 @@ public final class MiInsertTempdbImageData {
         return this;
       }
       /**
-       * <code>optional .dstore.values.IntegerValue sort_no = 2;</code>
+       * <code>.dstore.values.IntegerValue sort_no = 2;</code>
        */
       public Builder setSortNo(
           io.dstore.values.IntegerValue.Builder builderForValue) {
@@ -985,7 +985,7 @@ public final class MiInsertTempdbImageData {
         return this;
       }
       /**
-       * <code>optional .dstore.values.IntegerValue sort_no = 2;</code>
+       * <code>.dstore.values.IntegerValue sort_no = 2;</code>
        */
       public Builder mergeSortNo(io.dstore.values.IntegerValue value) {
         if (sortNoBuilder_ == null) {
@@ -1003,7 +1003,7 @@ public final class MiInsertTempdbImageData {
         return this;
       }
       /**
-       * <code>optional .dstore.values.IntegerValue sort_no = 2;</code>
+       * <code>.dstore.values.IntegerValue sort_no = 2;</code>
        */
       public Builder clearSortNo() {
         if (sortNoBuilder_ == null) {
@@ -1017,7 +1017,7 @@ public final class MiInsertTempdbImageData {
         return this;
       }
       /**
-       * <code>optional .dstore.values.IntegerValue sort_no = 2;</code>
+       * <code>.dstore.values.IntegerValue sort_no = 2;</code>
        */
       public io.dstore.values.IntegerValue.Builder getSortNoBuilder() {
         
@@ -1025,7 +1025,7 @@ public final class MiInsertTempdbImageData {
         return getSortNoFieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .dstore.values.IntegerValue sort_no = 2;</code>
+       * <code>.dstore.values.IntegerValue sort_no = 2;</code>
        */
       public io.dstore.values.IntegerValueOrBuilder getSortNoOrBuilder() {
         if (sortNoBuilder_ != null) {
@@ -1036,7 +1036,7 @@ public final class MiInsertTempdbImageData {
         }
       }
       /**
-       * <code>optional .dstore.values.IntegerValue sort_no = 2;</code>
+       * <code>.dstore.values.IntegerValue sort_no = 2;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> 
@@ -1054,13 +1054,13 @@ public final class MiInsertTempdbImageData {
 
       private boolean sortNoNull_ ;
       /**
-       * <code>optional bool sort_no_null = 1002;</code>
+       * <code>bool sort_no_null = 1002;</code>
        */
       public boolean getSortNoNull() {
         return sortNoNull_;
       }
       /**
-       * <code>optional bool sort_no_null = 1002;</code>
+       * <code>bool sort_no_null = 1002;</code>
        */
       public Builder setSortNoNull(boolean value) {
         
@@ -1069,7 +1069,7 @@ public final class MiInsertTempdbImageData {
         return this;
       }
       /**
-       * <code>optional bool sort_no_null = 1002;</code>
+       * <code>bool sort_no_null = 1002;</code>
        */
       public Builder clearSortNoNull() {
         
@@ -1082,13 +1082,13 @@ public final class MiInsertTempdbImageData {
       private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.values.StringValue, io.dstore.values.StringValue.Builder, io.dstore.values.StringValueOrBuilder> formatBuilder_;
       /**
-       * <code>optional .dstore.values.StringValue format = 3;</code>
+       * <code>.dstore.values.StringValue format = 3;</code>
        */
       public boolean hasFormat() {
         return formatBuilder_ != null || format_ != null;
       }
       /**
-       * <code>optional .dstore.values.StringValue format = 3;</code>
+       * <code>.dstore.values.StringValue format = 3;</code>
        */
       public io.dstore.values.StringValue getFormat() {
         if (formatBuilder_ == null) {
@@ -1098,7 +1098,7 @@ public final class MiInsertTempdbImageData {
         }
       }
       /**
-       * <code>optional .dstore.values.StringValue format = 3;</code>
+       * <code>.dstore.values.StringValue format = 3;</code>
        */
       public Builder setFormat(io.dstore.values.StringValue value) {
         if (formatBuilder_ == null) {
@@ -1114,7 +1114,7 @@ public final class MiInsertTempdbImageData {
         return this;
       }
       /**
-       * <code>optional .dstore.values.StringValue format = 3;</code>
+       * <code>.dstore.values.StringValue format = 3;</code>
        */
       public Builder setFormat(
           io.dstore.values.StringValue.Builder builderForValue) {
@@ -1128,7 +1128,7 @@ public final class MiInsertTempdbImageData {
         return this;
       }
       /**
-       * <code>optional .dstore.values.StringValue format = 3;</code>
+       * <code>.dstore.values.StringValue format = 3;</code>
        */
       public Builder mergeFormat(io.dstore.values.StringValue value) {
         if (formatBuilder_ == null) {
@@ -1146,7 +1146,7 @@ public final class MiInsertTempdbImageData {
         return this;
       }
       /**
-       * <code>optional .dstore.values.StringValue format = 3;</code>
+       * <code>.dstore.values.StringValue format = 3;</code>
        */
       public Builder clearFormat() {
         if (formatBuilder_ == null) {
@@ -1160,7 +1160,7 @@ public final class MiInsertTempdbImageData {
         return this;
       }
       /**
-       * <code>optional .dstore.values.StringValue format = 3;</code>
+       * <code>.dstore.values.StringValue format = 3;</code>
        */
       public io.dstore.values.StringValue.Builder getFormatBuilder() {
         
@@ -1168,7 +1168,7 @@ public final class MiInsertTempdbImageData {
         return getFormatFieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .dstore.values.StringValue format = 3;</code>
+       * <code>.dstore.values.StringValue format = 3;</code>
        */
       public io.dstore.values.StringValueOrBuilder getFormatOrBuilder() {
         if (formatBuilder_ != null) {
@@ -1179,7 +1179,7 @@ public final class MiInsertTempdbImageData {
         }
       }
       /**
-       * <code>optional .dstore.values.StringValue format = 3;</code>
+       * <code>.dstore.values.StringValue format = 3;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.values.StringValue, io.dstore.values.StringValue.Builder, io.dstore.values.StringValueOrBuilder> 
@@ -1197,13 +1197,13 @@ public final class MiInsertTempdbImageData {
 
       private boolean formatNull_ ;
       /**
-       * <code>optional bool format_null = 1003;</code>
+       * <code>bool format_null = 1003;</code>
        */
       public boolean getFormatNull() {
         return formatNull_;
       }
       /**
-       * <code>optional bool format_null = 1003;</code>
+       * <code>bool format_null = 1003;</code>
        */
       public Builder setFormatNull(boolean value) {
         
@@ -1212,7 +1212,7 @@ public final class MiInsertTempdbImageData {
         return this;
       }
       /**
-       * <code>optional bool format_null = 1003;</code>
+       * <code>bool format_null = 1003;</code>
        */
       public Builder clearFormatNull() {
         
@@ -1225,13 +1225,13 @@ public final class MiInsertTempdbImageData {
       private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.values.BooleanValue, io.dstore.values.BooleanValue.Builder, io.dstore.values.BooleanValueOrBuilder> deleteBuilder_;
       /**
-       * <code>optional .dstore.values.BooleanValue delete = 4;</code>
+       * <code>.dstore.values.BooleanValue delete = 4;</code>
        */
       public boolean hasDelete() {
         return deleteBuilder_ != null || delete_ != null;
       }
       /**
-       * <code>optional .dstore.values.BooleanValue delete = 4;</code>
+       * <code>.dstore.values.BooleanValue delete = 4;</code>
        */
       public io.dstore.values.BooleanValue getDelete() {
         if (deleteBuilder_ == null) {
@@ -1241,7 +1241,7 @@ public final class MiInsertTempdbImageData {
         }
       }
       /**
-       * <code>optional .dstore.values.BooleanValue delete = 4;</code>
+       * <code>.dstore.values.BooleanValue delete = 4;</code>
        */
       public Builder setDelete(io.dstore.values.BooleanValue value) {
         if (deleteBuilder_ == null) {
@@ -1257,7 +1257,7 @@ public final class MiInsertTempdbImageData {
         return this;
       }
       /**
-       * <code>optional .dstore.values.BooleanValue delete = 4;</code>
+       * <code>.dstore.values.BooleanValue delete = 4;</code>
        */
       public Builder setDelete(
           io.dstore.values.BooleanValue.Builder builderForValue) {
@@ -1271,7 +1271,7 @@ public final class MiInsertTempdbImageData {
         return this;
       }
       /**
-       * <code>optional .dstore.values.BooleanValue delete = 4;</code>
+       * <code>.dstore.values.BooleanValue delete = 4;</code>
        */
       public Builder mergeDelete(io.dstore.values.BooleanValue value) {
         if (deleteBuilder_ == null) {
@@ -1289,7 +1289,7 @@ public final class MiInsertTempdbImageData {
         return this;
       }
       /**
-       * <code>optional .dstore.values.BooleanValue delete = 4;</code>
+       * <code>.dstore.values.BooleanValue delete = 4;</code>
        */
       public Builder clearDelete() {
         if (deleteBuilder_ == null) {
@@ -1303,7 +1303,7 @@ public final class MiInsertTempdbImageData {
         return this;
       }
       /**
-       * <code>optional .dstore.values.BooleanValue delete = 4;</code>
+       * <code>.dstore.values.BooleanValue delete = 4;</code>
        */
       public io.dstore.values.BooleanValue.Builder getDeleteBuilder() {
         
@@ -1311,7 +1311,7 @@ public final class MiInsertTempdbImageData {
         return getDeleteFieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .dstore.values.BooleanValue delete = 4;</code>
+       * <code>.dstore.values.BooleanValue delete = 4;</code>
        */
       public io.dstore.values.BooleanValueOrBuilder getDeleteOrBuilder() {
         if (deleteBuilder_ != null) {
@@ -1322,7 +1322,7 @@ public final class MiInsertTempdbImageData {
         }
       }
       /**
-       * <code>optional .dstore.values.BooleanValue delete = 4;</code>
+       * <code>.dstore.values.BooleanValue delete = 4;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.values.BooleanValue, io.dstore.values.BooleanValue.Builder, io.dstore.values.BooleanValueOrBuilder> 
@@ -1340,13 +1340,13 @@ public final class MiInsertTempdbImageData {
 
       private boolean deleteNull_ ;
       /**
-       * <code>optional bool delete_null = 1004;</code>
+       * <code>bool delete_null = 1004;</code>
        */
       public boolean getDeleteNull() {
         return deleteNull_;
       }
       /**
-       * <code>optional bool delete_null = 1004;</code>
+       * <code>bool delete_null = 1004;</code>
        */
       public Builder setDeleteNull(boolean value) {
         
@@ -1355,7 +1355,7 @@ public final class MiInsertTempdbImageData {
         return this;
       }
       /**
-       * <code>optional bool delete_null = 1004;</code>
+       * <code>bool delete_null = 1004;</code>
        */
       public Builder clearDeleteNull() {
         
@@ -1614,7 +1614,7 @@ public final class MiInsertTempdbImageData {
         com.google.protobuf.MessageOrBuilder {
 
       /**
-       * <code>optional int32 row_id = 10000;</code>
+       * <code>int32 row_id = 10000;</code>
        */
       int getRowId();
     }
@@ -1689,7 +1689,7 @@ public final class MiInsertTempdbImageData {
       public static final int ROW_ID_FIELD_NUMBER = 10000;
       private int rowId_;
       /**
-       * <code>optional int32 row_id = 10000;</code>
+       * <code>int32 row_id = 10000;</code>
        */
       public int getRowId() {
         return rowId_;
@@ -1748,7 +1748,7 @@ public final class MiInsertTempdbImageData {
           return memoizedHashCode;
         }
         int hash = 41;
-        hash = (19 * hash) + getDescriptorForType().hashCode();
+        hash = (19 * hash) + getDescriptor().hashCode();
         hash = (37 * hash) + ROW_ID_FIELD_NUMBER;
         hash = (53 * hash) + getRowId();
         hash = (29 * hash) + unknownFields.hashCode();
@@ -1966,13 +1966,13 @@ public final class MiInsertTempdbImageData {
 
         private int rowId_ ;
         /**
-         * <code>optional int32 row_id = 10000;</code>
+         * <code>int32 row_id = 10000;</code>
          */
         public int getRowId() {
           return rowId_;
         }
         /**
-         * <code>optional int32 row_id = 10000;</code>
+         * <code>int32 row_id = 10000;</code>
          */
         public Builder setRowId(int value) {
           
@@ -1981,7 +1981,7 @@ public final class MiInsertTempdbImageData {
           return this;
         }
         /**
-         * <code>optional int32 row_id = 10000;</code>
+         * <code>int32 row_id = 10000;</code>
          */
         public Builder clearRowId() {
           
@@ -2234,7 +2234,7 @@ public final class MiInsertTempdbImageData {
         return memoizedHashCode;
       }
       int hash = 41;
-      hash = (19 * hash) + getDescriptorForType().hashCode();
+      hash = (19 * hash) + getDescriptor().hashCode();
       if (getMetaInformationCount() > 0) {
         hash = (37 * hash) + META_INFORMATION_FIELD_NUMBER;
         hash = (53 * hash) + getMetaInformationList().hashCode();

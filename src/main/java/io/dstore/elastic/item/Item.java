@@ -129,32 +129,32 @@ public  final class Item extends
       com.google.protobuf.MessageOrBuilder {
 
     /**
-     * <code>optional string description = 1;</code>
+     * <code>string description = 1;</code>
      */
     java.lang.String getDescription();
     /**
-     * <code>optional string description = 1;</code>
+     * <code>string description = 1;</code>
      */
     com.google.protobuf.ByteString
         getDescriptionBytes();
 
     /**
-     * <code>optional int32 tree_node_id = 2;</code>
+     * <code>int32 tree_node_id = 2;</code>
      */
     int getTreeNodeId();
 
     /**
-     * <code>optional bool active = 3;</code>
+     * <code>bool active = 3;</code>
      */
     boolean getActive();
 
     /**
-     * <code>optional int32 level_id = 4;</code>
+     * <code>int32 level_id = 4;</code>
      */
     int getLevelId();
 
     /**
-     * <code>optional int32 sort_no = 5;</code>
+     * <code>int32 sort_no = 5;</code>
      */
     int getSortNo();
 
@@ -351,7 +351,7 @@ public  final class Item extends
     public static final int DESCRIPTION_FIELD_NUMBER = 1;
     private volatile java.lang.Object description_;
     /**
-     * <code>optional string description = 1;</code>
+     * <code>string description = 1;</code>
      */
     public java.lang.String getDescription() {
       java.lang.Object ref = description_;
@@ -366,7 +366,7 @@ public  final class Item extends
       }
     }
     /**
-     * <code>optional string description = 1;</code>
+     * <code>string description = 1;</code>
      */
     public com.google.protobuf.ByteString
         getDescriptionBytes() {
@@ -385,7 +385,7 @@ public  final class Item extends
     public static final int TREE_NODE_ID_FIELD_NUMBER = 2;
     private int treeNodeId_;
     /**
-     * <code>optional int32 tree_node_id = 2;</code>
+     * <code>int32 tree_node_id = 2;</code>
      */
     public int getTreeNodeId() {
       return treeNodeId_;
@@ -394,7 +394,7 @@ public  final class Item extends
     public static final int ACTIVE_FIELD_NUMBER = 3;
     private boolean active_;
     /**
-     * <code>optional bool active = 3;</code>
+     * <code>bool active = 3;</code>
      */
     public boolean getActive() {
       return active_;
@@ -403,7 +403,7 @@ public  final class Item extends
     public static final int LEVEL_ID_FIELD_NUMBER = 4;
     private int levelId_;
     /**
-     * <code>optional int32 level_id = 4;</code>
+     * <code>int32 level_id = 4;</code>
      */
     public int getLevelId() {
       return levelId_;
@@ -412,7 +412,7 @@ public  final class Item extends
     public static final int SORT_NO_FIELD_NUMBER = 5;
     private int sortNo_;
     /**
-     * <code>optional int32 sort_no = 5;</code>
+     * <code>int32 sort_no = 5;</code>
      */
     public int getSortNo() {
       return sortNo_;
@@ -647,7 +647,7 @@ public  final class Item extends
         return memoizedHashCode;
       }
       int hash = 41;
-      hash = (19 * hash) + getDescriptorForType().hashCode();
+      hash = (19 * hash) + getDescriptor().hashCode();
       hash = (37 * hash) + DESCRIPTION_FIELD_NUMBER;
       hash = (53 * hash) + getDescription().hashCode();
       hash = (37 * hash) + TREE_NODE_ID_FIELD_NUMBER;
@@ -955,7 +955,7 @@ public  final class Item extends
 
       private java.lang.Object description_ = "";
       /**
-       * <code>optional string description = 1;</code>
+       * <code>string description = 1;</code>
        */
       public java.lang.String getDescription() {
         java.lang.Object ref = description_;
@@ -970,7 +970,7 @@ public  final class Item extends
         }
       }
       /**
-       * <code>optional string description = 1;</code>
+       * <code>string description = 1;</code>
        */
       public com.google.protobuf.ByteString
           getDescriptionBytes() {
@@ -986,7 +986,7 @@ public  final class Item extends
         }
       }
       /**
-       * <code>optional string description = 1;</code>
+       * <code>string description = 1;</code>
        */
       public Builder setDescription(
           java.lang.String value) {
@@ -999,7 +999,7 @@ public  final class Item extends
         return this;
       }
       /**
-       * <code>optional string description = 1;</code>
+       * <code>string description = 1;</code>
        */
       public Builder clearDescription() {
         
@@ -1008,7 +1008,7 @@ public  final class Item extends
         return this;
       }
       /**
-       * <code>optional string description = 1;</code>
+       * <code>string description = 1;</code>
        */
       public Builder setDescriptionBytes(
           com.google.protobuf.ByteString value) {
@@ -1024,13 +1024,13 @@ public  final class Item extends
 
       private int treeNodeId_ ;
       /**
-       * <code>optional int32 tree_node_id = 2;</code>
+       * <code>int32 tree_node_id = 2;</code>
        */
       public int getTreeNodeId() {
         return treeNodeId_;
       }
       /**
-       * <code>optional int32 tree_node_id = 2;</code>
+       * <code>int32 tree_node_id = 2;</code>
        */
       public Builder setTreeNodeId(int value) {
         
@@ -1039,7 +1039,7 @@ public  final class Item extends
         return this;
       }
       /**
-       * <code>optional int32 tree_node_id = 2;</code>
+       * <code>int32 tree_node_id = 2;</code>
        */
       public Builder clearTreeNodeId() {
         
@@ -1050,13 +1050,13 @@ public  final class Item extends
 
       private boolean active_ ;
       /**
-       * <code>optional bool active = 3;</code>
+       * <code>bool active = 3;</code>
        */
       public boolean getActive() {
         return active_;
       }
       /**
-       * <code>optional bool active = 3;</code>
+       * <code>bool active = 3;</code>
        */
       public Builder setActive(boolean value) {
         
@@ -1065,7 +1065,7 @@ public  final class Item extends
         return this;
       }
       /**
-       * <code>optional bool active = 3;</code>
+       * <code>bool active = 3;</code>
        */
       public Builder clearActive() {
         
@@ -1076,13 +1076,13 @@ public  final class Item extends
 
       private int levelId_ ;
       /**
-       * <code>optional int32 level_id = 4;</code>
+       * <code>int32 level_id = 4;</code>
        */
       public int getLevelId() {
         return levelId_;
       }
       /**
-       * <code>optional int32 level_id = 4;</code>
+       * <code>int32 level_id = 4;</code>
        */
       public Builder setLevelId(int value) {
         
@@ -1091,7 +1091,7 @@ public  final class Item extends
         return this;
       }
       /**
-       * <code>optional int32 level_id = 4;</code>
+       * <code>int32 level_id = 4;</code>
        */
       public Builder clearLevelId() {
         
@@ -1102,13 +1102,13 @@ public  final class Item extends
 
       private int sortNo_ ;
       /**
-       * <code>optional int32 sort_no = 5;</code>
+       * <code>int32 sort_no = 5;</code>
        */
       public int getSortNo() {
         return sortNo_;
       }
       /**
-       * <code>optional int32 sort_no = 5;</code>
+       * <code>int32 sort_no = 5;</code>
        */
       public Builder setSortNo(int value) {
         
@@ -1117,7 +1117,7 @@ public  final class Item extends
         return this;
       }
       /**
-       * <code>optional int32 sort_no = 5;</code>
+       * <code>int32 sort_no = 5;</code>
        */
       public Builder clearSortNo() {
         
@@ -1269,7 +1269,8 @@ public  final class Item extends
       }
 
       public Builder clearFields() {
-        getMutableFields().clear();
+        internalGetMutableFields().getMutableMap()
+            .clear();
         return this;
       }
       /**
@@ -1279,7 +1280,8 @@ public  final class Item extends
       public Builder removeFields(
           java.lang.String key) {
         if (key == null) { throw new java.lang.NullPointerException(); }
-        getMutableFields().remove(key);
+        internalGetMutableFields().getMutableMap()
+            .remove(key);
         return this;
       }
       /**
@@ -1298,7 +1300,8 @@ public  final class Item extends
           io.dstore.elastic.Field value) {
         if (key == null) { throw new java.lang.NullPointerException(); }
         if (value == null) { throw new java.lang.NullPointerException(); }
-        getMutableFields().put(key, value);
+        internalGetMutableFields().getMutableMap()
+            .put(key, value);
         return this;
       }
       /**
@@ -1307,7 +1310,8 @@ public  final class Item extends
 
       public Builder putAllFields(
           java.util.Map<java.lang.String, io.dstore.elastic.Field> values) {
-        getMutableFields().putAll(values);
+        internalGetMutableFields().getMutableMap()
+            .putAll(values);
         return this;
       }
       public final Builder setUnknownFields(
@@ -1363,19 +1367,19 @@ public  final class Item extends
   public static final int NODE_FIELD_NUMBER = 1;
   private io.dstore.elastic.item.Item.Node node_;
   /**
-   * <code>optional .dstore.elastic.item.item.Item.Node node = 1;</code>
+   * <code>.dstore.elastic.item.item.Item.Node node = 1;</code>
    */
   public boolean hasNode() {
     return node_ != null;
   }
   /**
-   * <code>optional .dstore.elastic.item.item.Item.Node node = 1;</code>
+   * <code>.dstore.elastic.item.item.Item.Node node = 1;</code>
    */
   public io.dstore.elastic.item.Item.Node getNode() {
     return node_ == null ? io.dstore.elastic.item.Item.Node.getDefaultInstance() : node_;
   }
   /**
-   * <code>optional .dstore.elastic.item.item.Item.Node node = 1;</code>
+   * <code>.dstore.elastic.item.item.Item.Node node = 1;</code>
    */
   public io.dstore.elastic.item.Item.NodeOrBuilder getNodeOrBuilder() {
     return getNode();
@@ -1419,19 +1423,19 @@ public  final class Item extends
   public static final int LAST_UPDATED_FIELD_NUMBER = 3;
   private io.dstore.values.TimestampValue lastUpdated_;
   /**
-   * <code>optional .dstore.values.TimestampValue last_updated = 3;</code>
+   * <code>.dstore.values.TimestampValue last_updated = 3;</code>
    */
   public boolean hasLastUpdated() {
     return lastUpdated_ != null;
   }
   /**
-   * <code>optional .dstore.values.TimestampValue last_updated = 3;</code>
+   * <code>.dstore.values.TimestampValue last_updated = 3;</code>
    */
   public io.dstore.values.TimestampValue getLastUpdated() {
     return lastUpdated_ == null ? io.dstore.values.TimestampValue.getDefaultInstance() : lastUpdated_;
   }
   /**
-   * <code>optional .dstore.values.TimestampValue last_updated = 3;</code>
+   * <code>.dstore.values.TimestampValue last_updated = 3;</code>
    */
   public io.dstore.values.TimestampValueOrBuilder getLastUpdatedOrBuilder() {
     return getLastUpdated();
@@ -1440,7 +1444,7 @@ public  final class Item extends
   public static final int SCORE_FIELD_NUMBER = 10;
   private double score_;
   /**
-   * <code>optional double score = 10;</code>
+   * <code>double score = 10;</code>
    */
   public double getScore() {
     return score_;
@@ -1449,7 +1453,7 @@ public  final class Item extends
   public static final int INDEX_NAME_FIELD_NUMBER = 11;
   private volatile java.lang.Object indexName_;
   /**
-   * <code>optional string index_name = 11;</code>
+   * <code>string index_name = 11;</code>
    */
   public java.lang.String getIndexName() {
     java.lang.Object ref = indexName_;
@@ -1464,7 +1468,7 @@ public  final class Item extends
     }
   }
   /**
-   * <code>optional string index_name = 11;</code>
+   * <code>string index_name = 11;</code>
    */
   public com.google.protobuf.ByteString
       getIndexNameBytes() {
@@ -1483,7 +1487,7 @@ public  final class Item extends
   public static final int DOCUMENT_ID_FIELD_NUMBER = 12;
   private volatile java.lang.Object documentId_;
   /**
-   * <code>optional string document_id = 12;</code>
+   * <code>string document_id = 12;</code>
    */
   public java.lang.String getDocumentId() {
     java.lang.Object ref = documentId_;
@@ -1498,7 +1502,7 @@ public  final class Item extends
     }
   }
   /**
-   * <code>optional string document_id = 12;</code>
+   * <code>string document_id = 12;</code>
    */
   public com.google.protobuf.ByteString
       getDocumentIdBytes() {
@@ -1618,7 +1622,7 @@ public  final class Item extends
       return memoizedHashCode;
     }
     int hash = 41;
-    hash = (19 * hash) + getDescriptorForType().hashCode();
+    hash = (19 * hash) + getDescriptor().hashCode();
     if (hasNode()) {
       hash = (37 * hash) + NODE_FIELD_NUMBER;
       hash = (53 * hash) + getNode().hashCode();
@@ -1943,13 +1947,13 @@ public  final class Item extends
     private com.google.protobuf.SingleFieldBuilderV3<
         io.dstore.elastic.item.Item.Node, io.dstore.elastic.item.Item.Node.Builder, io.dstore.elastic.item.Item.NodeOrBuilder> nodeBuilder_;
     /**
-     * <code>optional .dstore.elastic.item.item.Item.Node node = 1;</code>
+     * <code>.dstore.elastic.item.item.Item.Node node = 1;</code>
      */
     public boolean hasNode() {
       return nodeBuilder_ != null || node_ != null;
     }
     /**
-     * <code>optional .dstore.elastic.item.item.Item.Node node = 1;</code>
+     * <code>.dstore.elastic.item.item.Item.Node node = 1;</code>
      */
     public io.dstore.elastic.item.Item.Node getNode() {
       if (nodeBuilder_ == null) {
@@ -1959,7 +1963,7 @@ public  final class Item extends
       }
     }
     /**
-     * <code>optional .dstore.elastic.item.item.Item.Node node = 1;</code>
+     * <code>.dstore.elastic.item.item.Item.Node node = 1;</code>
      */
     public Builder setNode(io.dstore.elastic.item.Item.Node value) {
       if (nodeBuilder_ == null) {
@@ -1975,7 +1979,7 @@ public  final class Item extends
       return this;
     }
     /**
-     * <code>optional .dstore.elastic.item.item.Item.Node node = 1;</code>
+     * <code>.dstore.elastic.item.item.Item.Node node = 1;</code>
      */
     public Builder setNode(
         io.dstore.elastic.item.Item.Node.Builder builderForValue) {
@@ -1989,7 +1993,7 @@ public  final class Item extends
       return this;
     }
     /**
-     * <code>optional .dstore.elastic.item.item.Item.Node node = 1;</code>
+     * <code>.dstore.elastic.item.item.Item.Node node = 1;</code>
      */
     public Builder mergeNode(io.dstore.elastic.item.Item.Node value) {
       if (nodeBuilder_ == null) {
@@ -2007,7 +2011,7 @@ public  final class Item extends
       return this;
     }
     /**
-     * <code>optional .dstore.elastic.item.item.Item.Node node = 1;</code>
+     * <code>.dstore.elastic.item.item.Item.Node node = 1;</code>
      */
     public Builder clearNode() {
       if (nodeBuilder_ == null) {
@@ -2021,7 +2025,7 @@ public  final class Item extends
       return this;
     }
     /**
-     * <code>optional .dstore.elastic.item.item.Item.Node node = 1;</code>
+     * <code>.dstore.elastic.item.item.Item.Node node = 1;</code>
      */
     public io.dstore.elastic.item.Item.Node.Builder getNodeBuilder() {
       
@@ -2029,7 +2033,7 @@ public  final class Item extends
       return getNodeFieldBuilder().getBuilder();
     }
     /**
-     * <code>optional .dstore.elastic.item.item.Item.Node node = 1;</code>
+     * <code>.dstore.elastic.item.item.Item.Node node = 1;</code>
      */
     public io.dstore.elastic.item.Item.NodeOrBuilder getNodeOrBuilder() {
       if (nodeBuilder_ != null) {
@@ -2040,7 +2044,7 @@ public  final class Item extends
       }
     }
     /**
-     * <code>optional .dstore.elastic.item.item.Item.Node node = 1;</code>
+     * <code>.dstore.elastic.item.item.Item.Node node = 1;</code>
      */
     private com.google.protobuf.SingleFieldBuilderV3<
         io.dstore.elastic.item.Item.Node, io.dstore.elastic.item.Item.Node.Builder, io.dstore.elastic.item.Item.NodeOrBuilder> 
@@ -2300,13 +2304,13 @@ public  final class Item extends
     private com.google.protobuf.SingleFieldBuilderV3<
         io.dstore.values.TimestampValue, io.dstore.values.TimestampValue.Builder, io.dstore.values.TimestampValueOrBuilder> lastUpdatedBuilder_;
     /**
-     * <code>optional .dstore.values.TimestampValue last_updated = 3;</code>
+     * <code>.dstore.values.TimestampValue last_updated = 3;</code>
      */
     public boolean hasLastUpdated() {
       return lastUpdatedBuilder_ != null || lastUpdated_ != null;
     }
     /**
-     * <code>optional .dstore.values.TimestampValue last_updated = 3;</code>
+     * <code>.dstore.values.TimestampValue last_updated = 3;</code>
      */
     public io.dstore.values.TimestampValue getLastUpdated() {
       if (lastUpdatedBuilder_ == null) {
@@ -2316,7 +2320,7 @@ public  final class Item extends
       }
     }
     /**
-     * <code>optional .dstore.values.TimestampValue last_updated = 3;</code>
+     * <code>.dstore.values.TimestampValue last_updated = 3;</code>
      */
     public Builder setLastUpdated(io.dstore.values.TimestampValue value) {
       if (lastUpdatedBuilder_ == null) {
@@ -2332,7 +2336,7 @@ public  final class Item extends
       return this;
     }
     /**
-     * <code>optional .dstore.values.TimestampValue last_updated = 3;</code>
+     * <code>.dstore.values.TimestampValue last_updated = 3;</code>
      */
     public Builder setLastUpdated(
         io.dstore.values.TimestampValue.Builder builderForValue) {
@@ -2346,7 +2350,7 @@ public  final class Item extends
       return this;
     }
     /**
-     * <code>optional .dstore.values.TimestampValue last_updated = 3;</code>
+     * <code>.dstore.values.TimestampValue last_updated = 3;</code>
      */
     public Builder mergeLastUpdated(io.dstore.values.TimestampValue value) {
       if (lastUpdatedBuilder_ == null) {
@@ -2364,7 +2368,7 @@ public  final class Item extends
       return this;
     }
     /**
-     * <code>optional .dstore.values.TimestampValue last_updated = 3;</code>
+     * <code>.dstore.values.TimestampValue last_updated = 3;</code>
      */
     public Builder clearLastUpdated() {
       if (lastUpdatedBuilder_ == null) {
@@ -2378,7 +2382,7 @@ public  final class Item extends
       return this;
     }
     /**
-     * <code>optional .dstore.values.TimestampValue last_updated = 3;</code>
+     * <code>.dstore.values.TimestampValue last_updated = 3;</code>
      */
     public io.dstore.values.TimestampValue.Builder getLastUpdatedBuilder() {
       
@@ -2386,7 +2390,7 @@ public  final class Item extends
       return getLastUpdatedFieldBuilder().getBuilder();
     }
     /**
-     * <code>optional .dstore.values.TimestampValue last_updated = 3;</code>
+     * <code>.dstore.values.TimestampValue last_updated = 3;</code>
      */
     public io.dstore.values.TimestampValueOrBuilder getLastUpdatedOrBuilder() {
       if (lastUpdatedBuilder_ != null) {
@@ -2397,7 +2401,7 @@ public  final class Item extends
       }
     }
     /**
-     * <code>optional .dstore.values.TimestampValue last_updated = 3;</code>
+     * <code>.dstore.values.TimestampValue last_updated = 3;</code>
      */
     private com.google.protobuf.SingleFieldBuilderV3<
         io.dstore.values.TimestampValue, io.dstore.values.TimestampValue.Builder, io.dstore.values.TimestampValueOrBuilder> 
@@ -2415,13 +2419,13 @@ public  final class Item extends
 
     private double score_ ;
     /**
-     * <code>optional double score = 10;</code>
+     * <code>double score = 10;</code>
      */
     public double getScore() {
       return score_;
     }
     /**
-     * <code>optional double score = 10;</code>
+     * <code>double score = 10;</code>
      */
     public Builder setScore(double value) {
       
@@ -2430,7 +2434,7 @@ public  final class Item extends
       return this;
     }
     /**
-     * <code>optional double score = 10;</code>
+     * <code>double score = 10;</code>
      */
     public Builder clearScore() {
       
@@ -2441,7 +2445,7 @@ public  final class Item extends
 
     private java.lang.Object indexName_ = "";
     /**
-     * <code>optional string index_name = 11;</code>
+     * <code>string index_name = 11;</code>
      */
     public java.lang.String getIndexName() {
       java.lang.Object ref = indexName_;
@@ -2456,7 +2460,7 @@ public  final class Item extends
       }
     }
     /**
-     * <code>optional string index_name = 11;</code>
+     * <code>string index_name = 11;</code>
      */
     public com.google.protobuf.ByteString
         getIndexNameBytes() {
@@ -2472,7 +2476,7 @@ public  final class Item extends
       }
     }
     /**
-     * <code>optional string index_name = 11;</code>
+     * <code>string index_name = 11;</code>
      */
     public Builder setIndexName(
         java.lang.String value) {
@@ -2485,7 +2489,7 @@ public  final class Item extends
       return this;
     }
     /**
-     * <code>optional string index_name = 11;</code>
+     * <code>string index_name = 11;</code>
      */
     public Builder clearIndexName() {
       
@@ -2494,7 +2498,7 @@ public  final class Item extends
       return this;
     }
     /**
-     * <code>optional string index_name = 11;</code>
+     * <code>string index_name = 11;</code>
      */
     public Builder setIndexNameBytes(
         com.google.protobuf.ByteString value) {
@@ -2510,7 +2514,7 @@ public  final class Item extends
 
     private java.lang.Object documentId_ = "";
     /**
-     * <code>optional string document_id = 12;</code>
+     * <code>string document_id = 12;</code>
      */
     public java.lang.String getDocumentId() {
       java.lang.Object ref = documentId_;
@@ -2525,7 +2529,7 @@ public  final class Item extends
       }
     }
     /**
-     * <code>optional string document_id = 12;</code>
+     * <code>string document_id = 12;</code>
      */
     public com.google.protobuf.ByteString
         getDocumentIdBytes() {
@@ -2541,7 +2545,7 @@ public  final class Item extends
       }
     }
     /**
-     * <code>optional string document_id = 12;</code>
+     * <code>string document_id = 12;</code>
      */
     public Builder setDocumentId(
         java.lang.String value) {
@@ -2554,7 +2558,7 @@ public  final class Item extends
       return this;
     }
     /**
-     * <code>optional string document_id = 12;</code>
+     * <code>string document_id = 12;</code>
      */
     public Builder clearDocumentId() {
       
@@ -2563,7 +2567,7 @@ public  final class Item extends
       return this;
     }
     /**
-     * <code>optional string document_id = 12;</code>
+     * <code>string document_id = 12;</code>
      */
     public Builder setDocumentIdBytes(
         com.google.protobuf.ByteString value) {

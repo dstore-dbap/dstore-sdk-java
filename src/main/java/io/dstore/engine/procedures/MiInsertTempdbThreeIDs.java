@@ -19,74 +19,74 @@ public final class MiInsertTempdbThreeIDs {
       com.google.protobuf.MessageOrBuilder {
 
     /**
-     * <code>optional .dstore.values.StringValue id_list1 = 1;</code>
+     * <code>.dstore.values.StringValue id_list1 = 1;</code>
      */
     boolean hasIdList1();
     /**
-     * <code>optional .dstore.values.StringValue id_list1 = 1;</code>
+     * <code>.dstore.values.StringValue id_list1 = 1;</code>
      */
     io.dstore.values.StringValue getIdList1();
     /**
-     * <code>optional .dstore.values.StringValue id_list1 = 1;</code>
+     * <code>.dstore.values.StringValue id_list1 = 1;</code>
      */
     io.dstore.values.StringValueOrBuilder getIdList1OrBuilder();
 
     /**
-     * <code>optional bool id_list1_null = 1001;</code>
+     * <code>bool id_list1_null = 1001;</code>
      */
     boolean getIdList1Null();
 
     /**
-     * <code>optional .dstore.values.StringValue id_list2 = 2;</code>
+     * <code>.dstore.values.StringValue id_list2 = 2;</code>
      */
     boolean hasIdList2();
     /**
-     * <code>optional .dstore.values.StringValue id_list2 = 2;</code>
+     * <code>.dstore.values.StringValue id_list2 = 2;</code>
      */
     io.dstore.values.StringValue getIdList2();
     /**
-     * <code>optional .dstore.values.StringValue id_list2 = 2;</code>
+     * <code>.dstore.values.StringValue id_list2 = 2;</code>
      */
     io.dstore.values.StringValueOrBuilder getIdList2OrBuilder();
 
     /**
-     * <code>optional bool id_list2_null = 1002;</code>
+     * <code>bool id_list2_null = 1002;</code>
      */
     boolean getIdList2Null();
 
     /**
-     * <code>optional .dstore.values.StringValue id_list3 = 3;</code>
+     * <code>.dstore.values.StringValue id_list3 = 3;</code>
      */
     boolean hasIdList3();
     /**
-     * <code>optional .dstore.values.StringValue id_list3 = 3;</code>
+     * <code>.dstore.values.StringValue id_list3 = 3;</code>
      */
     io.dstore.values.StringValue getIdList3();
     /**
-     * <code>optional .dstore.values.StringValue id_list3 = 3;</code>
+     * <code>.dstore.values.StringValue id_list3 = 3;</code>
      */
     io.dstore.values.StringValueOrBuilder getIdList3OrBuilder();
 
     /**
-     * <code>optional bool id_list3_null = 1003;</code>
+     * <code>bool id_list3_null = 1003;</code>
      */
     boolean getIdList3Null();
 
     /**
-     * <code>optional .dstore.values.BooleanValue delete = 4;</code>
+     * <code>.dstore.values.BooleanValue delete = 4;</code>
      */
     boolean hasDelete();
     /**
-     * <code>optional .dstore.values.BooleanValue delete = 4;</code>
+     * <code>.dstore.values.BooleanValue delete = 4;</code>
      */
     io.dstore.values.BooleanValue getDelete();
     /**
-     * <code>optional .dstore.values.BooleanValue delete = 4;</code>
+     * <code>.dstore.values.BooleanValue delete = 4;</code>
      */
     io.dstore.values.BooleanValueOrBuilder getDeleteOrBuilder();
 
     /**
-     * <code>optional bool delete_null = 1004;</code>
+     * <code>bool delete_null = 1004;</code>
      */
     boolean getDeleteNull();
   }
@@ -231,19 +231,19 @@ public final class MiInsertTempdbThreeIDs {
     public static final int ID_LIST1_FIELD_NUMBER = 1;
     private io.dstore.values.StringValue idList1_;
     /**
-     * <code>optional .dstore.values.StringValue id_list1 = 1;</code>
+     * <code>.dstore.values.StringValue id_list1 = 1;</code>
      */
     public boolean hasIdList1() {
       return idList1_ != null;
     }
     /**
-     * <code>optional .dstore.values.StringValue id_list1 = 1;</code>
+     * <code>.dstore.values.StringValue id_list1 = 1;</code>
      */
     public io.dstore.values.StringValue getIdList1() {
       return idList1_ == null ? io.dstore.values.StringValue.getDefaultInstance() : idList1_;
     }
     /**
-     * <code>optional .dstore.values.StringValue id_list1 = 1;</code>
+     * <code>.dstore.values.StringValue id_list1 = 1;</code>
      */
     public io.dstore.values.StringValueOrBuilder getIdList1OrBuilder() {
       return getIdList1();
@@ -252,7 +252,7 @@ public final class MiInsertTempdbThreeIDs {
     public static final int ID_LIST1_NULL_FIELD_NUMBER = 1001;
     private boolean idList1Null_;
     /**
-     * <code>optional bool id_list1_null = 1001;</code>
+     * <code>bool id_list1_null = 1001;</code>
      */
     public boolean getIdList1Null() {
       return idList1Null_;
@@ -261,19 +261,19 @@ public final class MiInsertTempdbThreeIDs {
     public static final int ID_LIST2_FIELD_NUMBER = 2;
     private io.dstore.values.StringValue idList2_;
     /**
-     * <code>optional .dstore.values.StringValue id_list2 = 2;</code>
+     * <code>.dstore.values.StringValue id_list2 = 2;</code>
      */
     public boolean hasIdList2() {
       return idList2_ != null;
     }
     /**
-     * <code>optional .dstore.values.StringValue id_list2 = 2;</code>
+     * <code>.dstore.values.StringValue id_list2 = 2;</code>
      */
     public io.dstore.values.StringValue getIdList2() {
       return idList2_ == null ? io.dstore.values.StringValue.getDefaultInstance() : idList2_;
     }
     /**
-     * <code>optional .dstore.values.StringValue id_list2 = 2;</code>
+     * <code>.dstore.values.StringValue id_list2 = 2;</code>
      */
     public io.dstore.values.StringValueOrBuilder getIdList2OrBuilder() {
       return getIdList2();
@@ -282,7 +282,7 @@ public final class MiInsertTempdbThreeIDs {
     public static final int ID_LIST2_NULL_FIELD_NUMBER = 1002;
     private boolean idList2Null_;
     /**
-     * <code>optional bool id_list2_null = 1002;</code>
+     * <code>bool id_list2_null = 1002;</code>
      */
     public boolean getIdList2Null() {
       return idList2Null_;
@@ -291,19 +291,19 @@ public final class MiInsertTempdbThreeIDs {
     public static final int ID_LIST3_FIELD_NUMBER = 3;
     private io.dstore.values.StringValue idList3_;
     /**
-     * <code>optional .dstore.values.StringValue id_list3 = 3;</code>
+     * <code>.dstore.values.StringValue id_list3 = 3;</code>
      */
     public boolean hasIdList3() {
       return idList3_ != null;
     }
     /**
-     * <code>optional .dstore.values.StringValue id_list3 = 3;</code>
+     * <code>.dstore.values.StringValue id_list3 = 3;</code>
      */
     public io.dstore.values.StringValue getIdList3() {
       return idList3_ == null ? io.dstore.values.StringValue.getDefaultInstance() : idList3_;
     }
     /**
-     * <code>optional .dstore.values.StringValue id_list3 = 3;</code>
+     * <code>.dstore.values.StringValue id_list3 = 3;</code>
      */
     public io.dstore.values.StringValueOrBuilder getIdList3OrBuilder() {
       return getIdList3();
@@ -312,7 +312,7 @@ public final class MiInsertTempdbThreeIDs {
     public static final int ID_LIST3_NULL_FIELD_NUMBER = 1003;
     private boolean idList3Null_;
     /**
-     * <code>optional bool id_list3_null = 1003;</code>
+     * <code>bool id_list3_null = 1003;</code>
      */
     public boolean getIdList3Null() {
       return idList3Null_;
@@ -321,19 +321,19 @@ public final class MiInsertTempdbThreeIDs {
     public static final int DELETE_FIELD_NUMBER = 4;
     private io.dstore.values.BooleanValue delete_;
     /**
-     * <code>optional .dstore.values.BooleanValue delete = 4;</code>
+     * <code>.dstore.values.BooleanValue delete = 4;</code>
      */
     public boolean hasDelete() {
       return delete_ != null;
     }
     /**
-     * <code>optional .dstore.values.BooleanValue delete = 4;</code>
+     * <code>.dstore.values.BooleanValue delete = 4;</code>
      */
     public io.dstore.values.BooleanValue getDelete() {
       return delete_ == null ? io.dstore.values.BooleanValue.getDefaultInstance() : delete_;
     }
     /**
-     * <code>optional .dstore.values.BooleanValue delete = 4;</code>
+     * <code>.dstore.values.BooleanValue delete = 4;</code>
      */
     public io.dstore.values.BooleanValueOrBuilder getDeleteOrBuilder() {
       return getDelete();
@@ -342,7 +342,7 @@ public final class MiInsertTempdbThreeIDs {
     public static final int DELETE_NULL_FIELD_NUMBER = 1004;
     private boolean deleteNull_;
     /**
-     * <code>optional bool delete_null = 1004;</code>
+     * <code>bool delete_null = 1004;</code>
      */
     public boolean getDeleteNull() {
       return deleteNull_;
@@ -476,7 +476,7 @@ public final class MiInsertTempdbThreeIDs {
         return memoizedHashCode;
       }
       int hash = 41;
-      hash = (19 * hash) + getDescriptorForType().hashCode();
+      hash = (19 * hash) + getDescriptor().hashCode();
       if (hasIdList1()) {
         hash = (37 * hash) + ID_LIST1_FIELD_NUMBER;
         hash = (53 * hash) + getIdList1().hashCode();
@@ -796,13 +796,13 @@ public final class MiInsertTempdbThreeIDs {
       private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.values.StringValue, io.dstore.values.StringValue.Builder, io.dstore.values.StringValueOrBuilder> idList1Builder_;
       /**
-       * <code>optional .dstore.values.StringValue id_list1 = 1;</code>
+       * <code>.dstore.values.StringValue id_list1 = 1;</code>
        */
       public boolean hasIdList1() {
         return idList1Builder_ != null || idList1_ != null;
       }
       /**
-       * <code>optional .dstore.values.StringValue id_list1 = 1;</code>
+       * <code>.dstore.values.StringValue id_list1 = 1;</code>
        */
       public io.dstore.values.StringValue getIdList1() {
         if (idList1Builder_ == null) {
@@ -812,7 +812,7 @@ public final class MiInsertTempdbThreeIDs {
         }
       }
       /**
-       * <code>optional .dstore.values.StringValue id_list1 = 1;</code>
+       * <code>.dstore.values.StringValue id_list1 = 1;</code>
        */
       public Builder setIdList1(io.dstore.values.StringValue value) {
         if (idList1Builder_ == null) {
@@ -828,7 +828,7 @@ public final class MiInsertTempdbThreeIDs {
         return this;
       }
       /**
-       * <code>optional .dstore.values.StringValue id_list1 = 1;</code>
+       * <code>.dstore.values.StringValue id_list1 = 1;</code>
        */
       public Builder setIdList1(
           io.dstore.values.StringValue.Builder builderForValue) {
@@ -842,7 +842,7 @@ public final class MiInsertTempdbThreeIDs {
         return this;
       }
       /**
-       * <code>optional .dstore.values.StringValue id_list1 = 1;</code>
+       * <code>.dstore.values.StringValue id_list1 = 1;</code>
        */
       public Builder mergeIdList1(io.dstore.values.StringValue value) {
         if (idList1Builder_ == null) {
@@ -860,7 +860,7 @@ public final class MiInsertTempdbThreeIDs {
         return this;
       }
       /**
-       * <code>optional .dstore.values.StringValue id_list1 = 1;</code>
+       * <code>.dstore.values.StringValue id_list1 = 1;</code>
        */
       public Builder clearIdList1() {
         if (idList1Builder_ == null) {
@@ -874,7 +874,7 @@ public final class MiInsertTempdbThreeIDs {
         return this;
       }
       /**
-       * <code>optional .dstore.values.StringValue id_list1 = 1;</code>
+       * <code>.dstore.values.StringValue id_list1 = 1;</code>
        */
       public io.dstore.values.StringValue.Builder getIdList1Builder() {
         
@@ -882,7 +882,7 @@ public final class MiInsertTempdbThreeIDs {
         return getIdList1FieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .dstore.values.StringValue id_list1 = 1;</code>
+       * <code>.dstore.values.StringValue id_list1 = 1;</code>
        */
       public io.dstore.values.StringValueOrBuilder getIdList1OrBuilder() {
         if (idList1Builder_ != null) {
@@ -893,7 +893,7 @@ public final class MiInsertTempdbThreeIDs {
         }
       }
       /**
-       * <code>optional .dstore.values.StringValue id_list1 = 1;</code>
+       * <code>.dstore.values.StringValue id_list1 = 1;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.values.StringValue, io.dstore.values.StringValue.Builder, io.dstore.values.StringValueOrBuilder> 
@@ -911,13 +911,13 @@ public final class MiInsertTempdbThreeIDs {
 
       private boolean idList1Null_ ;
       /**
-       * <code>optional bool id_list1_null = 1001;</code>
+       * <code>bool id_list1_null = 1001;</code>
        */
       public boolean getIdList1Null() {
         return idList1Null_;
       }
       /**
-       * <code>optional bool id_list1_null = 1001;</code>
+       * <code>bool id_list1_null = 1001;</code>
        */
       public Builder setIdList1Null(boolean value) {
         
@@ -926,7 +926,7 @@ public final class MiInsertTempdbThreeIDs {
         return this;
       }
       /**
-       * <code>optional bool id_list1_null = 1001;</code>
+       * <code>bool id_list1_null = 1001;</code>
        */
       public Builder clearIdList1Null() {
         
@@ -939,13 +939,13 @@ public final class MiInsertTempdbThreeIDs {
       private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.values.StringValue, io.dstore.values.StringValue.Builder, io.dstore.values.StringValueOrBuilder> idList2Builder_;
       /**
-       * <code>optional .dstore.values.StringValue id_list2 = 2;</code>
+       * <code>.dstore.values.StringValue id_list2 = 2;</code>
        */
       public boolean hasIdList2() {
         return idList2Builder_ != null || idList2_ != null;
       }
       /**
-       * <code>optional .dstore.values.StringValue id_list2 = 2;</code>
+       * <code>.dstore.values.StringValue id_list2 = 2;</code>
        */
       public io.dstore.values.StringValue getIdList2() {
         if (idList2Builder_ == null) {
@@ -955,7 +955,7 @@ public final class MiInsertTempdbThreeIDs {
         }
       }
       /**
-       * <code>optional .dstore.values.StringValue id_list2 = 2;</code>
+       * <code>.dstore.values.StringValue id_list2 = 2;</code>
        */
       public Builder setIdList2(io.dstore.values.StringValue value) {
         if (idList2Builder_ == null) {
@@ -971,7 +971,7 @@ public final class MiInsertTempdbThreeIDs {
         return this;
       }
       /**
-       * <code>optional .dstore.values.StringValue id_list2 = 2;</code>
+       * <code>.dstore.values.StringValue id_list2 = 2;</code>
        */
       public Builder setIdList2(
           io.dstore.values.StringValue.Builder builderForValue) {
@@ -985,7 +985,7 @@ public final class MiInsertTempdbThreeIDs {
         return this;
       }
       /**
-       * <code>optional .dstore.values.StringValue id_list2 = 2;</code>
+       * <code>.dstore.values.StringValue id_list2 = 2;</code>
        */
       public Builder mergeIdList2(io.dstore.values.StringValue value) {
         if (idList2Builder_ == null) {
@@ -1003,7 +1003,7 @@ public final class MiInsertTempdbThreeIDs {
         return this;
       }
       /**
-       * <code>optional .dstore.values.StringValue id_list2 = 2;</code>
+       * <code>.dstore.values.StringValue id_list2 = 2;</code>
        */
       public Builder clearIdList2() {
         if (idList2Builder_ == null) {
@@ -1017,7 +1017,7 @@ public final class MiInsertTempdbThreeIDs {
         return this;
       }
       /**
-       * <code>optional .dstore.values.StringValue id_list2 = 2;</code>
+       * <code>.dstore.values.StringValue id_list2 = 2;</code>
        */
       public io.dstore.values.StringValue.Builder getIdList2Builder() {
         
@@ -1025,7 +1025,7 @@ public final class MiInsertTempdbThreeIDs {
         return getIdList2FieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .dstore.values.StringValue id_list2 = 2;</code>
+       * <code>.dstore.values.StringValue id_list2 = 2;</code>
        */
       public io.dstore.values.StringValueOrBuilder getIdList2OrBuilder() {
         if (idList2Builder_ != null) {
@@ -1036,7 +1036,7 @@ public final class MiInsertTempdbThreeIDs {
         }
       }
       /**
-       * <code>optional .dstore.values.StringValue id_list2 = 2;</code>
+       * <code>.dstore.values.StringValue id_list2 = 2;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.values.StringValue, io.dstore.values.StringValue.Builder, io.dstore.values.StringValueOrBuilder> 
@@ -1054,13 +1054,13 @@ public final class MiInsertTempdbThreeIDs {
 
       private boolean idList2Null_ ;
       /**
-       * <code>optional bool id_list2_null = 1002;</code>
+       * <code>bool id_list2_null = 1002;</code>
        */
       public boolean getIdList2Null() {
         return idList2Null_;
       }
       /**
-       * <code>optional bool id_list2_null = 1002;</code>
+       * <code>bool id_list2_null = 1002;</code>
        */
       public Builder setIdList2Null(boolean value) {
         
@@ -1069,7 +1069,7 @@ public final class MiInsertTempdbThreeIDs {
         return this;
       }
       /**
-       * <code>optional bool id_list2_null = 1002;</code>
+       * <code>bool id_list2_null = 1002;</code>
        */
       public Builder clearIdList2Null() {
         
@@ -1082,13 +1082,13 @@ public final class MiInsertTempdbThreeIDs {
       private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.values.StringValue, io.dstore.values.StringValue.Builder, io.dstore.values.StringValueOrBuilder> idList3Builder_;
       /**
-       * <code>optional .dstore.values.StringValue id_list3 = 3;</code>
+       * <code>.dstore.values.StringValue id_list3 = 3;</code>
        */
       public boolean hasIdList3() {
         return idList3Builder_ != null || idList3_ != null;
       }
       /**
-       * <code>optional .dstore.values.StringValue id_list3 = 3;</code>
+       * <code>.dstore.values.StringValue id_list3 = 3;</code>
        */
       public io.dstore.values.StringValue getIdList3() {
         if (idList3Builder_ == null) {
@@ -1098,7 +1098,7 @@ public final class MiInsertTempdbThreeIDs {
         }
       }
       /**
-       * <code>optional .dstore.values.StringValue id_list3 = 3;</code>
+       * <code>.dstore.values.StringValue id_list3 = 3;</code>
        */
       public Builder setIdList3(io.dstore.values.StringValue value) {
         if (idList3Builder_ == null) {
@@ -1114,7 +1114,7 @@ public final class MiInsertTempdbThreeIDs {
         return this;
       }
       /**
-       * <code>optional .dstore.values.StringValue id_list3 = 3;</code>
+       * <code>.dstore.values.StringValue id_list3 = 3;</code>
        */
       public Builder setIdList3(
           io.dstore.values.StringValue.Builder builderForValue) {
@@ -1128,7 +1128,7 @@ public final class MiInsertTempdbThreeIDs {
         return this;
       }
       /**
-       * <code>optional .dstore.values.StringValue id_list3 = 3;</code>
+       * <code>.dstore.values.StringValue id_list3 = 3;</code>
        */
       public Builder mergeIdList3(io.dstore.values.StringValue value) {
         if (idList3Builder_ == null) {
@@ -1146,7 +1146,7 @@ public final class MiInsertTempdbThreeIDs {
         return this;
       }
       /**
-       * <code>optional .dstore.values.StringValue id_list3 = 3;</code>
+       * <code>.dstore.values.StringValue id_list3 = 3;</code>
        */
       public Builder clearIdList3() {
         if (idList3Builder_ == null) {
@@ -1160,7 +1160,7 @@ public final class MiInsertTempdbThreeIDs {
         return this;
       }
       /**
-       * <code>optional .dstore.values.StringValue id_list3 = 3;</code>
+       * <code>.dstore.values.StringValue id_list3 = 3;</code>
        */
       public io.dstore.values.StringValue.Builder getIdList3Builder() {
         
@@ -1168,7 +1168,7 @@ public final class MiInsertTempdbThreeIDs {
         return getIdList3FieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .dstore.values.StringValue id_list3 = 3;</code>
+       * <code>.dstore.values.StringValue id_list3 = 3;</code>
        */
       public io.dstore.values.StringValueOrBuilder getIdList3OrBuilder() {
         if (idList3Builder_ != null) {
@@ -1179,7 +1179,7 @@ public final class MiInsertTempdbThreeIDs {
         }
       }
       /**
-       * <code>optional .dstore.values.StringValue id_list3 = 3;</code>
+       * <code>.dstore.values.StringValue id_list3 = 3;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.values.StringValue, io.dstore.values.StringValue.Builder, io.dstore.values.StringValueOrBuilder> 
@@ -1197,13 +1197,13 @@ public final class MiInsertTempdbThreeIDs {
 
       private boolean idList3Null_ ;
       /**
-       * <code>optional bool id_list3_null = 1003;</code>
+       * <code>bool id_list3_null = 1003;</code>
        */
       public boolean getIdList3Null() {
         return idList3Null_;
       }
       /**
-       * <code>optional bool id_list3_null = 1003;</code>
+       * <code>bool id_list3_null = 1003;</code>
        */
       public Builder setIdList3Null(boolean value) {
         
@@ -1212,7 +1212,7 @@ public final class MiInsertTempdbThreeIDs {
         return this;
       }
       /**
-       * <code>optional bool id_list3_null = 1003;</code>
+       * <code>bool id_list3_null = 1003;</code>
        */
       public Builder clearIdList3Null() {
         
@@ -1225,13 +1225,13 @@ public final class MiInsertTempdbThreeIDs {
       private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.values.BooleanValue, io.dstore.values.BooleanValue.Builder, io.dstore.values.BooleanValueOrBuilder> deleteBuilder_;
       /**
-       * <code>optional .dstore.values.BooleanValue delete = 4;</code>
+       * <code>.dstore.values.BooleanValue delete = 4;</code>
        */
       public boolean hasDelete() {
         return deleteBuilder_ != null || delete_ != null;
       }
       /**
-       * <code>optional .dstore.values.BooleanValue delete = 4;</code>
+       * <code>.dstore.values.BooleanValue delete = 4;</code>
        */
       public io.dstore.values.BooleanValue getDelete() {
         if (deleteBuilder_ == null) {
@@ -1241,7 +1241,7 @@ public final class MiInsertTempdbThreeIDs {
         }
       }
       /**
-       * <code>optional .dstore.values.BooleanValue delete = 4;</code>
+       * <code>.dstore.values.BooleanValue delete = 4;</code>
        */
       public Builder setDelete(io.dstore.values.BooleanValue value) {
         if (deleteBuilder_ == null) {
@@ -1257,7 +1257,7 @@ public final class MiInsertTempdbThreeIDs {
         return this;
       }
       /**
-       * <code>optional .dstore.values.BooleanValue delete = 4;</code>
+       * <code>.dstore.values.BooleanValue delete = 4;</code>
        */
       public Builder setDelete(
           io.dstore.values.BooleanValue.Builder builderForValue) {
@@ -1271,7 +1271,7 @@ public final class MiInsertTempdbThreeIDs {
         return this;
       }
       /**
-       * <code>optional .dstore.values.BooleanValue delete = 4;</code>
+       * <code>.dstore.values.BooleanValue delete = 4;</code>
        */
       public Builder mergeDelete(io.dstore.values.BooleanValue value) {
         if (deleteBuilder_ == null) {
@@ -1289,7 +1289,7 @@ public final class MiInsertTempdbThreeIDs {
         return this;
       }
       /**
-       * <code>optional .dstore.values.BooleanValue delete = 4;</code>
+       * <code>.dstore.values.BooleanValue delete = 4;</code>
        */
       public Builder clearDelete() {
         if (deleteBuilder_ == null) {
@@ -1303,7 +1303,7 @@ public final class MiInsertTempdbThreeIDs {
         return this;
       }
       /**
-       * <code>optional .dstore.values.BooleanValue delete = 4;</code>
+       * <code>.dstore.values.BooleanValue delete = 4;</code>
        */
       public io.dstore.values.BooleanValue.Builder getDeleteBuilder() {
         
@@ -1311,7 +1311,7 @@ public final class MiInsertTempdbThreeIDs {
         return getDeleteFieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .dstore.values.BooleanValue delete = 4;</code>
+       * <code>.dstore.values.BooleanValue delete = 4;</code>
        */
       public io.dstore.values.BooleanValueOrBuilder getDeleteOrBuilder() {
         if (deleteBuilder_ != null) {
@@ -1322,7 +1322,7 @@ public final class MiInsertTempdbThreeIDs {
         }
       }
       /**
-       * <code>optional .dstore.values.BooleanValue delete = 4;</code>
+       * <code>.dstore.values.BooleanValue delete = 4;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.values.BooleanValue, io.dstore.values.BooleanValue.Builder, io.dstore.values.BooleanValueOrBuilder> 
@@ -1340,13 +1340,13 @@ public final class MiInsertTempdbThreeIDs {
 
       private boolean deleteNull_ ;
       /**
-       * <code>optional bool delete_null = 1004;</code>
+       * <code>bool delete_null = 1004;</code>
        */
       public boolean getDeleteNull() {
         return deleteNull_;
       }
       /**
-       * <code>optional bool delete_null = 1004;</code>
+       * <code>bool delete_null = 1004;</code>
        */
       public Builder setDeleteNull(boolean value) {
         
@@ -1355,7 +1355,7 @@ public final class MiInsertTempdbThreeIDs {
         return this;
       }
       /**
-       * <code>optional bool delete_null = 1004;</code>
+       * <code>bool delete_null = 1004;</code>
        */
       public Builder clearDeleteNull() {
         
@@ -1614,7 +1614,7 @@ public final class MiInsertTempdbThreeIDs {
         com.google.protobuf.MessageOrBuilder {
 
       /**
-       * <code>optional int32 row_id = 10000;</code>
+       * <code>int32 row_id = 10000;</code>
        */
       int getRowId();
     }
@@ -1689,7 +1689,7 @@ public final class MiInsertTempdbThreeIDs {
       public static final int ROW_ID_FIELD_NUMBER = 10000;
       private int rowId_;
       /**
-       * <code>optional int32 row_id = 10000;</code>
+       * <code>int32 row_id = 10000;</code>
        */
       public int getRowId() {
         return rowId_;
@@ -1748,7 +1748,7 @@ public final class MiInsertTempdbThreeIDs {
           return memoizedHashCode;
         }
         int hash = 41;
-        hash = (19 * hash) + getDescriptorForType().hashCode();
+        hash = (19 * hash) + getDescriptor().hashCode();
         hash = (37 * hash) + ROW_ID_FIELD_NUMBER;
         hash = (53 * hash) + getRowId();
         hash = (29 * hash) + unknownFields.hashCode();
@@ -1966,13 +1966,13 @@ public final class MiInsertTempdbThreeIDs {
 
         private int rowId_ ;
         /**
-         * <code>optional int32 row_id = 10000;</code>
+         * <code>int32 row_id = 10000;</code>
          */
         public int getRowId() {
           return rowId_;
         }
         /**
-         * <code>optional int32 row_id = 10000;</code>
+         * <code>int32 row_id = 10000;</code>
          */
         public Builder setRowId(int value) {
           
@@ -1981,7 +1981,7 @@ public final class MiInsertTempdbThreeIDs {
           return this;
         }
         /**
-         * <code>optional int32 row_id = 10000;</code>
+         * <code>int32 row_id = 10000;</code>
          */
         public Builder clearRowId() {
           
@@ -2234,7 +2234,7 @@ public final class MiInsertTempdbThreeIDs {
         return memoizedHashCode;
       }
       int hash = 41;
-      hash = (19 * hash) + getDescriptorForType().hashCode();
+      hash = (19 * hash) + getDescriptor().hashCode();
       if (getMetaInformationCount() > 0) {
         hash = (37 * hash) + META_INFORMATION_FIELD_NUMBER;
         hash = (53 * hash) + getMetaInformationList().hashCode();

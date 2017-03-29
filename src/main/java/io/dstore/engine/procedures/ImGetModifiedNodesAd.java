@@ -19,236 +19,236 @@ public final class ImGetModifiedNodesAd {
       com.google.protobuf.MessageOrBuilder {
 
     /**
-     * <code>optional .dstore.values.TimestampValue from_date_and_time = 1;</code>
+     * <code>.dstore.values.TimestampValue from_date_and_time = 1;</code>
      */
     boolean hasFromDateAndTime();
     /**
-     * <code>optional .dstore.values.TimestampValue from_date_and_time = 1;</code>
+     * <code>.dstore.values.TimestampValue from_date_and_time = 1;</code>
      */
     io.dstore.values.TimestampValue getFromDateAndTime();
     /**
-     * <code>optional .dstore.values.TimestampValue from_date_and_time = 1;</code>
+     * <code>.dstore.values.TimestampValue from_date_and_time = 1;</code>
      */
     io.dstore.values.TimestampValueOrBuilder getFromDateAndTimeOrBuilder();
 
     /**
-     * <code>optional bool from_date_and_time_null = 1001;</code>
+     * <code>bool from_date_and_time_null = 1001;</code>
      */
     boolean getFromDateAndTimeNull();
 
     /**
-     * <code>optional .dstore.values.TimestampValue to_date_and_time = 2;</code>
+     * <code>.dstore.values.TimestampValue to_date_and_time = 2;</code>
      */
     boolean hasToDateAndTime();
     /**
-     * <code>optional .dstore.values.TimestampValue to_date_and_time = 2;</code>
+     * <code>.dstore.values.TimestampValue to_date_and_time = 2;</code>
      */
     io.dstore.values.TimestampValue getToDateAndTime();
     /**
-     * <code>optional .dstore.values.TimestampValue to_date_and_time = 2;</code>
+     * <code>.dstore.values.TimestampValue to_date_and_time = 2;</code>
      */
     io.dstore.values.TimestampValueOrBuilder getToDateAndTimeOrBuilder();
 
     /**
-     * <code>optional bool to_date_and_time_null = 1002;</code>
+     * <code>bool to_date_and_time_null = 1002;</code>
      */
     boolean getToDateAndTimeNull();
 
     /**
-     * <code>optional .dstore.values.IntegerValue domain_tree_node_id = 3;</code>
+     * <code>.dstore.values.IntegerValue domain_tree_node_id = 3;</code>
      */
     boolean hasDomainTreeNodeId();
     /**
-     * <code>optional .dstore.values.IntegerValue domain_tree_node_id = 3;</code>
+     * <code>.dstore.values.IntegerValue domain_tree_node_id = 3;</code>
      */
     io.dstore.values.IntegerValue getDomainTreeNodeId();
     /**
-     * <code>optional .dstore.values.IntegerValue domain_tree_node_id = 3;</code>
+     * <code>.dstore.values.IntegerValue domain_tree_node_id = 3;</code>
      */
     io.dstore.values.IntegerValueOrBuilder getDomainTreeNodeIdOrBuilder();
 
     /**
-     * <code>optional bool domain_tree_node_id_null = 1003;</code>
+     * <code>bool domain_tree_node_id_null = 1003;</code>
      */
     boolean getDomainTreeNodeIdNull();
 
     /**
-     * <code>optional .dstore.values.BooleanValue get_tree_node_ids = 4;</code>
+     * <code>.dstore.values.BooleanValue get_tree_node_ids = 4;</code>
      */
     boolean hasGetTreeNodeIds();
     /**
-     * <code>optional .dstore.values.BooleanValue get_tree_node_ids = 4;</code>
+     * <code>.dstore.values.BooleanValue get_tree_node_ids = 4;</code>
      */
     io.dstore.values.BooleanValue getGetTreeNodeIds();
     /**
-     * <code>optional .dstore.values.BooleanValue get_tree_node_ids = 4;</code>
+     * <code>.dstore.values.BooleanValue get_tree_node_ids = 4;</code>
      */
     io.dstore.values.BooleanValueOrBuilder getGetTreeNodeIdsOrBuilder();
 
     /**
-     * <code>optional bool get_tree_node_ids_null = 1004;</code>
+     * <code>bool get_tree_node_ids_null = 1004;</code>
      */
     boolean getGetTreeNodeIdsNull();
 
     /**
-     * <code>optional .dstore.values.BooleanValue filter_ids_in_one_id = 5;</code>
+     * <code>.dstore.values.BooleanValue filter_ids_in_one_id = 5;</code>
      */
     boolean hasFilterIdsInOneId();
     /**
-     * <code>optional .dstore.values.BooleanValue filter_ids_in_one_id = 5;</code>
+     * <code>.dstore.values.BooleanValue filter_ids_in_one_id = 5;</code>
      */
     io.dstore.values.BooleanValue getFilterIdsInOneId();
     /**
-     * <code>optional .dstore.values.BooleanValue filter_ids_in_one_id = 5;</code>
+     * <code>.dstore.values.BooleanValue filter_ids_in_one_id = 5;</code>
      */
     io.dstore.values.BooleanValueOrBuilder getFilterIdsInOneIdOrBuilder();
 
     /**
-     * <code>optional bool filter_ids_in_one_id_null = 1005;</code>
+     * <code>bool filter_ids_in_one_id_null = 1005;</code>
      */
     boolean getFilterIdsInOneIdNull();
 
     /**
-     * <code>optional .dstore.values.IntegerValue output_into_one_id = 6;</code>
+     * <code>.dstore.values.IntegerValue output_into_one_id = 6;</code>
      */
     boolean hasOutputIntoOneId();
     /**
-     * <code>optional .dstore.values.IntegerValue output_into_one_id = 6;</code>
+     * <code>.dstore.values.IntegerValue output_into_one_id = 6;</code>
      */
     io.dstore.values.IntegerValue getOutputIntoOneId();
     /**
-     * <code>optional .dstore.values.IntegerValue output_into_one_id = 6;</code>
+     * <code>.dstore.values.IntegerValue output_into_one_id = 6;</code>
      */
     io.dstore.values.IntegerValueOrBuilder getOutputIntoOneIdOrBuilder();
 
     /**
-     * <code>optional bool output_into_one_id_null = 1006;</code>
+     * <code>bool output_into_one_id_null = 1006;</code>
      */
     boolean getOutputIntoOneIdNull();
 
     /**
-     * <code>optional .dstore.values.BooleanValue include_deactivated_nodes = 7;</code>
+     * <code>.dstore.values.BooleanValue include_deactivated_nodes = 7;</code>
      */
     boolean hasIncludeDeactivatedNodes();
     /**
-     * <code>optional .dstore.values.BooleanValue include_deactivated_nodes = 7;</code>
+     * <code>.dstore.values.BooleanValue include_deactivated_nodes = 7;</code>
      */
     io.dstore.values.BooleanValue getIncludeDeactivatedNodes();
     /**
-     * <code>optional .dstore.values.BooleanValue include_deactivated_nodes = 7;</code>
+     * <code>.dstore.values.BooleanValue include_deactivated_nodes = 7;</code>
      */
     io.dstore.values.BooleanValueOrBuilder getIncludeDeactivatedNodesOrBuilder();
 
     /**
-     * <code>optional bool include_deactivated_nodes_null = 1007;</code>
+     * <code>bool include_deactivated_nodes_null = 1007;</code>
      */
     boolean getIncludeDeactivatedNodesNull();
 
     /**
-     * <code>optional .dstore.values.IntegerValue level_id = 8;</code>
+     * <code>.dstore.values.IntegerValue level_id = 8;</code>
      */
     boolean hasLevelId();
     /**
-     * <code>optional .dstore.values.IntegerValue level_id = 8;</code>
+     * <code>.dstore.values.IntegerValue level_id = 8;</code>
      */
     io.dstore.values.IntegerValue getLevelId();
     /**
-     * <code>optional .dstore.values.IntegerValue level_id = 8;</code>
+     * <code>.dstore.values.IntegerValue level_id = 8;</code>
      */
     io.dstore.values.IntegerValueOrBuilder getLevelIdOrBuilder();
 
     /**
-     * <code>optional bool level_id_null = 1008;</code>
+     * <code>bool level_id_null = 1008;</code>
      */
     boolean getLevelIdNull();
 
     /**
-     * <code>optional .dstore.values.StringValue node_modif_def_meta_info_type_ids = 9;</code>
+     * <code>.dstore.values.StringValue node_modif_def_meta_info_type_ids = 9;</code>
      */
     boolean hasNodeModifDefMetaInfoTypeIds();
     /**
-     * <code>optional .dstore.values.StringValue node_modif_def_meta_info_type_ids = 9;</code>
+     * <code>.dstore.values.StringValue node_modif_def_meta_info_type_ids = 9;</code>
      */
     io.dstore.values.StringValue getNodeModifDefMetaInfoTypeIds();
     /**
-     * <code>optional .dstore.values.StringValue node_modif_def_meta_info_type_ids = 9;</code>
+     * <code>.dstore.values.StringValue node_modif_def_meta_info_type_ids = 9;</code>
      */
     io.dstore.values.StringValueOrBuilder getNodeModifDefMetaInfoTypeIdsOrBuilder();
 
     /**
-     * <code>optional bool node_modif_def_meta_info_type_ids_null = 1009;</code>
+     * <code>bool node_modif_def_meta_info_type_ids_null = 1009;</code>
      */
     boolean getNodeModifDefMetaInfoTypeIdsNull();
 
     /**
-     * <code>optional .dstore.values.StringValue t_node_modif_def_meta_info_type_ids = 10;</code>
+     * <code>.dstore.values.StringValue t_node_modif_def_meta_info_type_ids = 10;</code>
      */
     boolean hasTNodeModifDefMetaInfoTypeIds();
     /**
-     * <code>optional .dstore.values.StringValue t_node_modif_def_meta_info_type_ids = 10;</code>
+     * <code>.dstore.values.StringValue t_node_modif_def_meta_info_type_ids = 10;</code>
      */
     io.dstore.values.StringValue getTNodeModifDefMetaInfoTypeIds();
     /**
-     * <code>optional .dstore.values.StringValue t_node_modif_def_meta_info_type_ids = 10;</code>
+     * <code>.dstore.values.StringValue t_node_modif_def_meta_info_type_ids = 10;</code>
      */
     io.dstore.values.StringValueOrBuilder getTNodeModifDefMetaInfoTypeIdsOrBuilder();
 
     /**
-     * <code>optional bool t_node_modif_def_meta_info_type_ids_null = 1010;</code>
+     * <code>bool t_node_modif_def_meta_info_type_ids_null = 1010;</code>
      */
     boolean getTNodeModifDefMetaInfoTypeIdsNull();
 
     /**
-     * <code>optional .dstore.values.IntegerValue start_at_row_no = 11;</code>
+     * <code>.dstore.values.IntegerValue start_at_row_no = 11;</code>
      */
     boolean hasStartAtRowNo();
     /**
-     * <code>optional .dstore.values.IntegerValue start_at_row_no = 11;</code>
+     * <code>.dstore.values.IntegerValue start_at_row_no = 11;</code>
      */
     io.dstore.values.IntegerValue getStartAtRowNo();
     /**
-     * <code>optional .dstore.values.IntegerValue start_at_row_no = 11;</code>
+     * <code>.dstore.values.IntegerValue start_at_row_no = 11;</code>
      */
     io.dstore.values.IntegerValueOrBuilder getStartAtRowNoOrBuilder();
 
     /**
-     * <code>optional bool start_at_row_no_null = 1011;</code>
+     * <code>bool start_at_row_no_null = 1011;</code>
      */
     boolean getStartAtRowNoNull();
 
     /**
-     * <code>optional .dstore.values.IntegerValue row_count = 12;</code>
+     * <code>.dstore.values.IntegerValue row_count = 12;</code>
      */
     boolean hasRowCount();
     /**
-     * <code>optional .dstore.values.IntegerValue row_count = 12;</code>
+     * <code>.dstore.values.IntegerValue row_count = 12;</code>
      */
     io.dstore.values.IntegerValue getRowCount();
     /**
-     * <code>optional .dstore.values.IntegerValue row_count = 12;</code>
+     * <code>.dstore.values.IntegerValue row_count = 12;</code>
      */
     io.dstore.values.IntegerValueOrBuilder getRowCountOrBuilder();
 
     /**
-     * <code>optional bool row_count_null = 1012;</code>
+     * <code>bool row_count_null = 1012;</code>
      */
     boolean getRowCountNull();
 
     /**
-     * <code>optional .dstore.values.IntegerValue number_of_elements_in_result = 13;</code>
+     * <code>.dstore.values.IntegerValue number_of_elements_in_result = 13;</code>
      */
     boolean hasNumberOfElementsInResult();
     /**
-     * <code>optional .dstore.values.IntegerValue number_of_elements_in_result = 13;</code>
+     * <code>.dstore.values.IntegerValue number_of_elements_in_result = 13;</code>
      */
     io.dstore.values.IntegerValue getNumberOfElementsInResult();
     /**
-     * <code>optional .dstore.values.IntegerValue number_of_elements_in_result = 13;</code>
+     * <code>.dstore.values.IntegerValue number_of_elements_in_result = 13;</code>
      */
     io.dstore.values.IntegerValueOrBuilder getNumberOfElementsInResultOrBuilder();
 
     /**
-     * <code>optional bool number_of_elements_in_result_null = 1013;</code>
+     * <code>bool number_of_elements_in_result_null = 1013;</code>
      */
     boolean getNumberOfElementsInResultNull();
   }
@@ -564,19 +564,19 @@ public final class ImGetModifiedNodesAd {
     public static final int FROM_DATE_AND_TIME_FIELD_NUMBER = 1;
     private io.dstore.values.TimestampValue fromDateAndTime_;
     /**
-     * <code>optional .dstore.values.TimestampValue from_date_and_time = 1;</code>
+     * <code>.dstore.values.TimestampValue from_date_and_time = 1;</code>
      */
     public boolean hasFromDateAndTime() {
       return fromDateAndTime_ != null;
     }
     /**
-     * <code>optional .dstore.values.TimestampValue from_date_and_time = 1;</code>
+     * <code>.dstore.values.TimestampValue from_date_and_time = 1;</code>
      */
     public io.dstore.values.TimestampValue getFromDateAndTime() {
       return fromDateAndTime_ == null ? io.dstore.values.TimestampValue.getDefaultInstance() : fromDateAndTime_;
     }
     /**
-     * <code>optional .dstore.values.TimestampValue from_date_and_time = 1;</code>
+     * <code>.dstore.values.TimestampValue from_date_and_time = 1;</code>
      */
     public io.dstore.values.TimestampValueOrBuilder getFromDateAndTimeOrBuilder() {
       return getFromDateAndTime();
@@ -585,7 +585,7 @@ public final class ImGetModifiedNodesAd {
     public static final int FROM_DATE_AND_TIME_NULL_FIELD_NUMBER = 1001;
     private boolean fromDateAndTimeNull_;
     /**
-     * <code>optional bool from_date_and_time_null = 1001;</code>
+     * <code>bool from_date_and_time_null = 1001;</code>
      */
     public boolean getFromDateAndTimeNull() {
       return fromDateAndTimeNull_;
@@ -594,19 +594,19 @@ public final class ImGetModifiedNodesAd {
     public static final int TO_DATE_AND_TIME_FIELD_NUMBER = 2;
     private io.dstore.values.TimestampValue toDateAndTime_;
     /**
-     * <code>optional .dstore.values.TimestampValue to_date_and_time = 2;</code>
+     * <code>.dstore.values.TimestampValue to_date_and_time = 2;</code>
      */
     public boolean hasToDateAndTime() {
       return toDateAndTime_ != null;
     }
     /**
-     * <code>optional .dstore.values.TimestampValue to_date_and_time = 2;</code>
+     * <code>.dstore.values.TimestampValue to_date_and_time = 2;</code>
      */
     public io.dstore.values.TimestampValue getToDateAndTime() {
       return toDateAndTime_ == null ? io.dstore.values.TimestampValue.getDefaultInstance() : toDateAndTime_;
     }
     /**
-     * <code>optional .dstore.values.TimestampValue to_date_and_time = 2;</code>
+     * <code>.dstore.values.TimestampValue to_date_and_time = 2;</code>
      */
     public io.dstore.values.TimestampValueOrBuilder getToDateAndTimeOrBuilder() {
       return getToDateAndTime();
@@ -615,7 +615,7 @@ public final class ImGetModifiedNodesAd {
     public static final int TO_DATE_AND_TIME_NULL_FIELD_NUMBER = 1002;
     private boolean toDateAndTimeNull_;
     /**
-     * <code>optional bool to_date_and_time_null = 1002;</code>
+     * <code>bool to_date_and_time_null = 1002;</code>
      */
     public boolean getToDateAndTimeNull() {
       return toDateAndTimeNull_;
@@ -624,19 +624,19 @@ public final class ImGetModifiedNodesAd {
     public static final int DOMAIN_TREE_NODE_ID_FIELD_NUMBER = 3;
     private io.dstore.values.IntegerValue domainTreeNodeId_;
     /**
-     * <code>optional .dstore.values.IntegerValue domain_tree_node_id = 3;</code>
+     * <code>.dstore.values.IntegerValue domain_tree_node_id = 3;</code>
      */
     public boolean hasDomainTreeNodeId() {
       return domainTreeNodeId_ != null;
     }
     /**
-     * <code>optional .dstore.values.IntegerValue domain_tree_node_id = 3;</code>
+     * <code>.dstore.values.IntegerValue domain_tree_node_id = 3;</code>
      */
     public io.dstore.values.IntegerValue getDomainTreeNodeId() {
       return domainTreeNodeId_ == null ? io.dstore.values.IntegerValue.getDefaultInstance() : domainTreeNodeId_;
     }
     /**
-     * <code>optional .dstore.values.IntegerValue domain_tree_node_id = 3;</code>
+     * <code>.dstore.values.IntegerValue domain_tree_node_id = 3;</code>
      */
     public io.dstore.values.IntegerValueOrBuilder getDomainTreeNodeIdOrBuilder() {
       return getDomainTreeNodeId();
@@ -645,7 +645,7 @@ public final class ImGetModifiedNodesAd {
     public static final int DOMAIN_TREE_NODE_ID_NULL_FIELD_NUMBER = 1003;
     private boolean domainTreeNodeIdNull_;
     /**
-     * <code>optional bool domain_tree_node_id_null = 1003;</code>
+     * <code>bool domain_tree_node_id_null = 1003;</code>
      */
     public boolean getDomainTreeNodeIdNull() {
       return domainTreeNodeIdNull_;
@@ -654,19 +654,19 @@ public final class ImGetModifiedNodesAd {
     public static final int GET_TREE_NODE_IDS_FIELD_NUMBER = 4;
     private io.dstore.values.BooleanValue getTreeNodeIds_;
     /**
-     * <code>optional .dstore.values.BooleanValue get_tree_node_ids = 4;</code>
+     * <code>.dstore.values.BooleanValue get_tree_node_ids = 4;</code>
      */
     public boolean hasGetTreeNodeIds() {
       return getTreeNodeIds_ != null;
     }
     /**
-     * <code>optional .dstore.values.BooleanValue get_tree_node_ids = 4;</code>
+     * <code>.dstore.values.BooleanValue get_tree_node_ids = 4;</code>
      */
     public io.dstore.values.BooleanValue getGetTreeNodeIds() {
       return getTreeNodeIds_ == null ? io.dstore.values.BooleanValue.getDefaultInstance() : getTreeNodeIds_;
     }
     /**
-     * <code>optional .dstore.values.BooleanValue get_tree_node_ids = 4;</code>
+     * <code>.dstore.values.BooleanValue get_tree_node_ids = 4;</code>
      */
     public io.dstore.values.BooleanValueOrBuilder getGetTreeNodeIdsOrBuilder() {
       return getGetTreeNodeIds();
@@ -675,7 +675,7 @@ public final class ImGetModifiedNodesAd {
     public static final int GET_TREE_NODE_IDS_NULL_FIELD_NUMBER = 1004;
     private boolean getTreeNodeIdsNull_;
     /**
-     * <code>optional bool get_tree_node_ids_null = 1004;</code>
+     * <code>bool get_tree_node_ids_null = 1004;</code>
      */
     public boolean getGetTreeNodeIdsNull() {
       return getTreeNodeIdsNull_;
@@ -684,19 +684,19 @@ public final class ImGetModifiedNodesAd {
     public static final int FILTER_IDS_IN_ONE_ID_FIELD_NUMBER = 5;
     private io.dstore.values.BooleanValue filterIdsInOneId_;
     /**
-     * <code>optional .dstore.values.BooleanValue filter_ids_in_one_id = 5;</code>
+     * <code>.dstore.values.BooleanValue filter_ids_in_one_id = 5;</code>
      */
     public boolean hasFilterIdsInOneId() {
       return filterIdsInOneId_ != null;
     }
     /**
-     * <code>optional .dstore.values.BooleanValue filter_ids_in_one_id = 5;</code>
+     * <code>.dstore.values.BooleanValue filter_ids_in_one_id = 5;</code>
      */
     public io.dstore.values.BooleanValue getFilterIdsInOneId() {
       return filterIdsInOneId_ == null ? io.dstore.values.BooleanValue.getDefaultInstance() : filterIdsInOneId_;
     }
     /**
-     * <code>optional .dstore.values.BooleanValue filter_ids_in_one_id = 5;</code>
+     * <code>.dstore.values.BooleanValue filter_ids_in_one_id = 5;</code>
      */
     public io.dstore.values.BooleanValueOrBuilder getFilterIdsInOneIdOrBuilder() {
       return getFilterIdsInOneId();
@@ -705,7 +705,7 @@ public final class ImGetModifiedNodesAd {
     public static final int FILTER_IDS_IN_ONE_ID_NULL_FIELD_NUMBER = 1005;
     private boolean filterIdsInOneIdNull_;
     /**
-     * <code>optional bool filter_ids_in_one_id_null = 1005;</code>
+     * <code>bool filter_ids_in_one_id_null = 1005;</code>
      */
     public boolean getFilterIdsInOneIdNull() {
       return filterIdsInOneIdNull_;
@@ -714,19 +714,19 @@ public final class ImGetModifiedNodesAd {
     public static final int OUTPUT_INTO_ONE_ID_FIELD_NUMBER = 6;
     private io.dstore.values.IntegerValue outputIntoOneId_;
     /**
-     * <code>optional .dstore.values.IntegerValue output_into_one_id = 6;</code>
+     * <code>.dstore.values.IntegerValue output_into_one_id = 6;</code>
      */
     public boolean hasOutputIntoOneId() {
       return outputIntoOneId_ != null;
     }
     /**
-     * <code>optional .dstore.values.IntegerValue output_into_one_id = 6;</code>
+     * <code>.dstore.values.IntegerValue output_into_one_id = 6;</code>
      */
     public io.dstore.values.IntegerValue getOutputIntoOneId() {
       return outputIntoOneId_ == null ? io.dstore.values.IntegerValue.getDefaultInstance() : outputIntoOneId_;
     }
     /**
-     * <code>optional .dstore.values.IntegerValue output_into_one_id = 6;</code>
+     * <code>.dstore.values.IntegerValue output_into_one_id = 6;</code>
      */
     public io.dstore.values.IntegerValueOrBuilder getOutputIntoOneIdOrBuilder() {
       return getOutputIntoOneId();
@@ -735,7 +735,7 @@ public final class ImGetModifiedNodesAd {
     public static final int OUTPUT_INTO_ONE_ID_NULL_FIELD_NUMBER = 1006;
     private boolean outputIntoOneIdNull_;
     /**
-     * <code>optional bool output_into_one_id_null = 1006;</code>
+     * <code>bool output_into_one_id_null = 1006;</code>
      */
     public boolean getOutputIntoOneIdNull() {
       return outputIntoOneIdNull_;
@@ -744,19 +744,19 @@ public final class ImGetModifiedNodesAd {
     public static final int INCLUDE_DEACTIVATED_NODES_FIELD_NUMBER = 7;
     private io.dstore.values.BooleanValue includeDeactivatedNodes_;
     /**
-     * <code>optional .dstore.values.BooleanValue include_deactivated_nodes = 7;</code>
+     * <code>.dstore.values.BooleanValue include_deactivated_nodes = 7;</code>
      */
     public boolean hasIncludeDeactivatedNodes() {
       return includeDeactivatedNodes_ != null;
     }
     /**
-     * <code>optional .dstore.values.BooleanValue include_deactivated_nodes = 7;</code>
+     * <code>.dstore.values.BooleanValue include_deactivated_nodes = 7;</code>
      */
     public io.dstore.values.BooleanValue getIncludeDeactivatedNodes() {
       return includeDeactivatedNodes_ == null ? io.dstore.values.BooleanValue.getDefaultInstance() : includeDeactivatedNodes_;
     }
     /**
-     * <code>optional .dstore.values.BooleanValue include_deactivated_nodes = 7;</code>
+     * <code>.dstore.values.BooleanValue include_deactivated_nodes = 7;</code>
      */
     public io.dstore.values.BooleanValueOrBuilder getIncludeDeactivatedNodesOrBuilder() {
       return getIncludeDeactivatedNodes();
@@ -765,7 +765,7 @@ public final class ImGetModifiedNodesAd {
     public static final int INCLUDE_DEACTIVATED_NODES_NULL_FIELD_NUMBER = 1007;
     private boolean includeDeactivatedNodesNull_;
     /**
-     * <code>optional bool include_deactivated_nodes_null = 1007;</code>
+     * <code>bool include_deactivated_nodes_null = 1007;</code>
      */
     public boolean getIncludeDeactivatedNodesNull() {
       return includeDeactivatedNodesNull_;
@@ -774,19 +774,19 @@ public final class ImGetModifiedNodesAd {
     public static final int LEVEL_ID_FIELD_NUMBER = 8;
     private io.dstore.values.IntegerValue levelId_;
     /**
-     * <code>optional .dstore.values.IntegerValue level_id = 8;</code>
+     * <code>.dstore.values.IntegerValue level_id = 8;</code>
      */
     public boolean hasLevelId() {
       return levelId_ != null;
     }
     /**
-     * <code>optional .dstore.values.IntegerValue level_id = 8;</code>
+     * <code>.dstore.values.IntegerValue level_id = 8;</code>
      */
     public io.dstore.values.IntegerValue getLevelId() {
       return levelId_ == null ? io.dstore.values.IntegerValue.getDefaultInstance() : levelId_;
     }
     /**
-     * <code>optional .dstore.values.IntegerValue level_id = 8;</code>
+     * <code>.dstore.values.IntegerValue level_id = 8;</code>
      */
     public io.dstore.values.IntegerValueOrBuilder getLevelIdOrBuilder() {
       return getLevelId();
@@ -795,7 +795,7 @@ public final class ImGetModifiedNodesAd {
     public static final int LEVEL_ID_NULL_FIELD_NUMBER = 1008;
     private boolean levelIdNull_;
     /**
-     * <code>optional bool level_id_null = 1008;</code>
+     * <code>bool level_id_null = 1008;</code>
      */
     public boolean getLevelIdNull() {
       return levelIdNull_;
@@ -804,19 +804,19 @@ public final class ImGetModifiedNodesAd {
     public static final int NODE_MODIF_DEF_META_INFO_TYPE_IDS_FIELD_NUMBER = 9;
     private io.dstore.values.StringValue nodeModifDefMetaInfoTypeIds_;
     /**
-     * <code>optional .dstore.values.StringValue node_modif_def_meta_info_type_ids = 9;</code>
+     * <code>.dstore.values.StringValue node_modif_def_meta_info_type_ids = 9;</code>
      */
     public boolean hasNodeModifDefMetaInfoTypeIds() {
       return nodeModifDefMetaInfoTypeIds_ != null;
     }
     /**
-     * <code>optional .dstore.values.StringValue node_modif_def_meta_info_type_ids = 9;</code>
+     * <code>.dstore.values.StringValue node_modif_def_meta_info_type_ids = 9;</code>
      */
     public io.dstore.values.StringValue getNodeModifDefMetaInfoTypeIds() {
       return nodeModifDefMetaInfoTypeIds_ == null ? io.dstore.values.StringValue.getDefaultInstance() : nodeModifDefMetaInfoTypeIds_;
     }
     /**
-     * <code>optional .dstore.values.StringValue node_modif_def_meta_info_type_ids = 9;</code>
+     * <code>.dstore.values.StringValue node_modif_def_meta_info_type_ids = 9;</code>
      */
     public io.dstore.values.StringValueOrBuilder getNodeModifDefMetaInfoTypeIdsOrBuilder() {
       return getNodeModifDefMetaInfoTypeIds();
@@ -825,7 +825,7 @@ public final class ImGetModifiedNodesAd {
     public static final int NODE_MODIF_DEF_META_INFO_TYPE_IDS_NULL_FIELD_NUMBER = 1009;
     private boolean nodeModifDefMetaInfoTypeIdsNull_;
     /**
-     * <code>optional bool node_modif_def_meta_info_type_ids_null = 1009;</code>
+     * <code>bool node_modif_def_meta_info_type_ids_null = 1009;</code>
      */
     public boolean getNodeModifDefMetaInfoTypeIdsNull() {
       return nodeModifDefMetaInfoTypeIdsNull_;
@@ -834,19 +834,19 @@ public final class ImGetModifiedNodesAd {
     public static final int T_NODE_MODIF_DEF_META_INFO_TYPE_IDS_FIELD_NUMBER = 10;
     private io.dstore.values.StringValue tNodeModifDefMetaInfoTypeIds_;
     /**
-     * <code>optional .dstore.values.StringValue t_node_modif_def_meta_info_type_ids = 10;</code>
+     * <code>.dstore.values.StringValue t_node_modif_def_meta_info_type_ids = 10;</code>
      */
     public boolean hasTNodeModifDefMetaInfoTypeIds() {
       return tNodeModifDefMetaInfoTypeIds_ != null;
     }
     /**
-     * <code>optional .dstore.values.StringValue t_node_modif_def_meta_info_type_ids = 10;</code>
+     * <code>.dstore.values.StringValue t_node_modif_def_meta_info_type_ids = 10;</code>
      */
     public io.dstore.values.StringValue getTNodeModifDefMetaInfoTypeIds() {
       return tNodeModifDefMetaInfoTypeIds_ == null ? io.dstore.values.StringValue.getDefaultInstance() : tNodeModifDefMetaInfoTypeIds_;
     }
     /**
-     * <code>optional .dstore.values.StringValue t_node_modif_def_meta_info_type_ids = 10;</code>
+     * <code>.dstore.values.StringValue t_node_modif_def_meta_info_type_ids = 10;</code>
      */
     public io.dstore.values.StringValueOrBuilder getTNodeModifDefMetaInfoTypeIdsOrBuilder() {
       return getTNodeModifDefMetaInfoTypeIds();
@@ -855,7 +855,7 @@ public final class ImGetModifiedNodesAd {
     public static final int T_NODE_MODIF_DEF_META_INFO_TYPE_IDS_NULL_FIELD_NUMBER = 1010;
     private boolean tNodeModifDefMetaInfoTypeIdsNull_;
     /**
-     * <code>optional bool t_node_modif_def_meta_info_type_ids_null = 1010;</code>
+     * <code>bool t_node_modif_def_meta_info_type_ids_null = 1010;</code>
      */
     public boolean getTNodeModifDefMetaInfoTypeIdsNull() {
       return tNodeModifDefMetaInfoTypeIdsNull_;
@@ -864,19 +864,19 @@ public final class ImGetModifiedNodesAd {
     public static final int START_AT_ROW_NO_FIELD_NUMBER = 11;
     private io.dstore.values.IntegerValue startAtRowNo_;
     /**
-     * <code>optional .dstore.values.IntegerValue start_at_row_no = 11;</code>
+     * <code>.dstore.values.IntegerValue start_at_row_no = 11;</code>
      */
     public boolean hasStartAtRowNo() {
       return startAtRowNo_ != null;
     }
     /**
-     * <code>optional .dstore.values.IntegerValue start_at_row_no = 11;</code>
+     * <code>.dstore.values.IntegerValue start_at_row_no = 11;</code>
      */
     public io.dstore.values.IntegerValue getStartAtRowNo() {
       return startAtRowNo_ == null ? io.dstore.values.IntegerValue.getDefaultInstance() : startAtRowNo_;
     }
     /**
-     * <code>optional .dstore.values.IntegerValue start_at_row_no = 11;</code>
+     * <code>.dstore.values.IntegerValue start_at_row_no = 11;</code>
      */
     public io.dstore.values.IntegerValueOrBuilder getStartAtRowNoOrBuilder() {
       return getStartAtRowNo();
@@ -885,7 +885,7 @@ public final class ImGetModifiedNodesAd {
     public static final int START_AT_ROW_NO_NULL_FIELD_NUMBER = 1011;
     private boolean startAtRowNoNull_;
     /**
-     * <code>optional bool start_at_row_no_null = 1011;</code>
+     * <code>bool start_at_row_no_null = 1011;</code>
      */
     public boolean getStartAtRowNoNull() {
       return startAtRowNoNull_;
@@ -894,19 +894,19 @@ public final class ImGetModifiedNodesAd {
     public static final int ROW_COUNT_FIELD_NUMBER = 12;
     private io.dstore.values.IntegerValue rowCount_;
     /**
-     * <code>optional .dstore.values.IntegerValue row_count = 12;</code>
+     * <code>.dstore.values.IntegerValue row_count = 12;</code>
      */
     public boolean hasRowCount() {
       return rowCount_ != null;
     }
     /**
-     * <code>optional .dstore.values.IntegerValue row_count = 12;</code>
+     * <code>.dstore.values.IntegerValue row_count = 12;</code>
      */
     public io.dstore.values.IntegerValue getRowCount() {
       return rowCount_ == null ? io.dstore.values.IntegerValue.getDefaultInstance() : rowCount_;
     }
     /**
-     * <code>optional .dstore.values.IntegerValue row_count = 12;</code>
+     * <code>.dstore.values.IntegerValue row_count = 12;</code>
      */
     public io.dstore.values.IntegerValueOrBuilder getRowCountOrBuilder() {
       return getRowCount();
@@ -915,7 +915,7 @@ public final class ImGetModifiedNodesAd {
     public static final int ROW_COUNT_NULL_FIELD_NUMBER = 1012;
     private boolean rowCountNull_;
     /**
-     * <code>optional bool row_count_null = 1012;</code>
+     * <code>bool row_count_null = 1012;</code>
      */
     public boolean getRowCountNull() {
       return rowCountNull_;
@@ -924,19 +924,19 @@ public final class ImGetModifiedNodesAd {
     public static final int NUMBER_OF_ELEMENTS_IN_RESULT_FIELD_NUMBER = 13;
     private io.dstore.values.IntegerValue numberOfElementsInResult_;
     /**
-     * <code>optional .dstore.values.IntegerValue number_of_elements_in_result = 13;</code>
+     * <code>.dstore.values.IntegerValue number_of_elements_in_result = 13;</code>
      */
     public boolean hasNumberOfElementsInResult() {
       return numberOfElementsInResult_ != null;
     }
     /**
-     * <code>optional .dstore.values.IntegerValue number_of_elements_in_result = 13;</code>
+     * <code>.dstore.values.IntegerValue number_of_elements_in_result = 13;</code>
      */
     public io.dstore.values.IntegerValue getNumberOfElementsInResult() {
       return numberOfElementsInResult_ == null ? io.dstore.values.IntegerValue.getDefaultInstance() : numberOfElementsInResult_;
     }
     /**
-     * <code>optional .dstore.values.IntegerValue number_of_elements_in_result = 13;</code>
+     * <code>.dstore.values.IntegerValue number_of_elements_in_result = 13;</code>
      */
     public io.dstore.values.IntegerValueOrBuilder getNumberOfElementsInResultOrBuilder() {
       return getNumberOfElementsInResult();
@@ -945,7 +945,7 @@ public final class ImGetModifiedNodesAd {
     public static final int NUMBER_OF_ELEMENTS_IN_RESULT_NULL_FIELD_NUMBER = 1013;
     private boolean numberOfElementsInResultNull_;
     /**
-     * <code>optional bool number_of_elements_in_result_null = 1013;</code>
+     * <code>bool number_of_elements_in_result_null = 1013;</code>
      */
     public boolean getNumberOfElementsInResultNull() {
       return numberOfElementsInResultNull_;
@@ -1268,7 +1268,7 @@ public final class ImGetModifiedNodesAd {
         return memoizedHashCode;
       }
       int hash = 41;
-      hash = (19 * hash) + getDescriptorForType().hashCode();
+      hash = (19 * hash) + getDescriptor().hashCode();
       if (hasFromDateAndTime()) {
         hash = (37 * hash) + FROM_DATE_AND_TIME_FIELD_NUMBER;
         hash = (53 * hash) + getFromDateAndTime().hashCode();
@@ -1831,13 +1831,13 @@ public final class ImGetModifiedNodesAd {
       private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.values.TimestampValue, io.dstore.values.TimestampValue.Builder, io.dstore.values.TimestampValueOrBuilder> fromDateAndTimeBuilder_;
       /**
-       * <code>optional .dstore.values.TimestampValue from_date_and_time = 1;</code>
+       * <code>.dstore.values.TimestampValue from_date_and_time = 1;</code>
        */
       public boolean hasFromDateAndTime() {
         return fromDateAndTimeBuilder_ != null || fromDateAndTime_ != null;
       }
       /**
-       * <code>optional .dstore.values.TimestampValue from_date_and_time = 1;</code>
+       * <code>.dstore.values.TimestampValue from_date_and_time = 1;</code>
        */
       public io.dstore.values.TimestampValue getFromDateAndTime() {
         if (fromDateAndTimeBuilder_ == null) {
@@ -1847,7 +1847,7 @@ public final class ImGetModifiedNodesAd {
         }
       }
       /**
-       * <code>optional .dstore.values.TimestampValue from_date_and_time = 1;</code>
+       * <code>.dstore.values.TimestampValue from_date_and_time = 1;</code>
        */
       public Builder setFromDateAndTime(io.dstore.values.TimestampValue value) {
         if (fromDateAndTimeBuilder_ == null) {
@@ -1863,7 +1863,7 @@ public final class ImGetModifiedNodesAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.TimestampValue from_date_and_time = 1;</code>
+       * <code>.dstore.values.TimestampValue from_date_and_time = 1;</code>
        */
       public Builder setFromDateAndTime(
           io.dstore.values.TimestampValue.Builder builderForValue) {
@@ -1877,7 +1877,7 @@ public final class ImGetModifiedNodesAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.TimestampValue from_date_and_time = 1;</code>
+       * <code>.dstore.values.TimestampValue from_date_and_time = 1;</code>
        */
       public Builder mergeFromDateAndTime(io.dstore.values.TimestampValue value) {
         if (fromDateAndTimeBuilder_ == null) {
@@ -1895,7 +1895,7 @@ public final class ImGetModifiedNodesAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.TimestampValue from_date_and_time = 1;</code>
+       * <code>.dstore.values.TimestampValue from_date_and_time = 1;</code>
        */
       public Builder clearFromDateAndTime() {
         if (fromDateAndTimeBuilder_ == null) {
@@ -1909,7 +1909,7 @@ public final class ImGetModifiedNodesAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.TimestampValue from_date_and_time = 1;</code>
+       * <code>.dstore.values.TimestampValue from_date_and_time = 1;</code>
        */
       public io.dstore.values.TimestampValue.Builder getFromDateAndTimeBuilder() {
         
@@ -1917,7 +1917,7 @@ public final class ImGetModifiedNodesAd {
         return getFromDateAndTimeFieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .dstore.values.TimestampValue from_date_and_time = 1;</code>
+       * <code>.dstore.values.TimestampValue from_date_and_time = 1;</code>
        */
       public io.dstore.values.TimestampValueOrBuilder getFromDateAndTimeOrBuilder() {
         if (fromDateAndTimeBuilder_ != null) {
@@ -1928,7 +1928,7 @@ public final class ImGetModifiedNodesAd {
         }
       }
       /**
-       * <code>optional .dstore.values.TimestampValue from_date_and_time = 1;</code>
+       * <code>.dstore.values.TimestampValue from_date_and_time = 1;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.values.TimestampValue, io.dstore.values.TimestampValue.Builder, io.dstore.values.TimestampValueOrBuilder> 
@@ -1946,13 +1946,13 @@ public final class ImGetModifiedNodesAd {
 
       private boolean fromDateAndTimeNull_ ;
       /**
-       * <code>optional bool from_date_and_time_null = 1001;</code>
+       * <code>bool from_date_and_time_null = 1001;</code>
        */
       public boolean getFromDateAndTimeNull() {
         return fromDateAndTimeNull_;
       }
       /**
-       * <code>optional bool from_date_and_time_null = 1001;</code>
+       * <code>bool from_date_and_time_null = 1001;</code>
        */
       public Builder setFromDateAndTimeNull(boolean value) {
         
@@ -1961,7 +1961,7 @@ public final class ImGetModifiedNodesAd {
         return this;
       }
       /**
-       * <code>optional bool from_date_and_time_null = 1001;</code>
+       * <code>bool from_date_and_time_null = 1001;</code>
        */
       public Builder clearFromDateAndTimeNull() {
         
@@ -1974,13 +1974,13 @@ public final class ImGetModifiedNodesAd {
       private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.values.TimestampValue, io.dstore.values.TimestampValue.Builder, io.dstore.values.TimestampValueOrBuilder> toDateAndTimeBuilder_;
       /**
-       * <code>optional .dstore.values.TimestampValue to_date_and_time = 2;</code>
+       * <code>.dstore.values.TimestampValue to_date_and_time = 2;</code>
        */
       public boolean hasToDateAndTime() {
         return toDateAndTimeBuilder_ != null || toDateAndTime_ != null;
       }
       /**
-       * <code>optional .dstore.values.TimestampValue to_date_and_time = 2;</code>
+       * <code>.dstore.values.TimestampValue to_date_and_time = 2;</code>
        */
       public io.dstore.values.TimestampValue getToDateAndTime() {
         if (toDateAndTimeBuilder_ == null) {
@@ -1990,7 +1990,7 @@ public final class ImGetModifiedNodesAd {
         }
       }
       /**
-       * <code>optional .dstore.values.TimestampValue to_date_and_time = 2;</code>
+       * <code>.dstore.values.TimestampValue to_date_and_time = 2;</code>
        */
       public Builder setToDateAndTime(io.dstore.values.TimestampValue value) {
         if (toDateAndTimeBuilder_ == null) {
@@ -2006,7 +2006,7 @@ public final class ImGetModifiedNodesAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.TimestampValue to_date_and_time = 2;</code>
+       * <code>.dstore.values.TimestampValue to_date_and_time = 2;</code>
        */
       public Builder setToDateAndTime(
           io.dstore.values.TimestampValue.Builder builderForValue) {
@@ -2020,7 +2020,7 @@ public final class ImGetModifiedNodesAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.TimestampValue to_date_and_time = 2;</code>
+       * <code>.dstore.values.TimestampValue to_date_and_time = 2;</code>
        */
       public Builder mergeToDateAndTime(io.dstore.values.TimestampValue value) {
         if (toDateAndTimeBuilder_ == null) {
@@ -2038,7 +2038,7 @@ public final class ImGetModifiedNodesAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.TimestampValue to_date_and_time = 2;</code>
+       * <code>.dstore.values.TimestampValue to_date_and_time = 2;</code>
        */
       public Builder clearToDateAndTime() {
         if (toDateAndTimeBuilder_ == null) {
@@ -2052,7 +2052,7 @@ public final class ImGetModifiedNodesAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.TimestampValue to_date_and_time = 2;</code>
+       * <code>.dstore.values.TimestampValue to_date_and_time = 2;</code>
        */
       public io.dstore.values.TimestampValue.Builder getToDateAndTimeBuilder() {
         
@@ -2060,7 +2060,7 @@ public final class ImGetModifiedNodesAd {
         return getToDateAndTimeFieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .dstore.values.TimestampValue to_date_and_time = 2;</code>
+       * <code>.dstore.values.TimestampValue to_date_and_time = 2;</code>
        */
       public io.dstore.values.TimestampValueOrBuilder getToDateAndTimeOrBuilder() {
         if (toDateAndTimeBuilder_ != null) {
@@ -2071,7 +2071,7 @@ public final class ImGetModifiedNodesAd {
         }
       }
       /**
-       * <code>optional .dstore.values.TimestampValue to_date_and_time = 2;</code>
+       * <code>.dstore.values.TimestampValue to_date_and_time = 2;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.values.TimestampValue, io.dstore.values.TimestampValue.Builder, io.dstore.values.TimestampValueOrBuilder> 
@@ -2089,13 +2089,13 @@ public final class ImGetModifiedNodesAd {
 
       private boolean toDateAndTimeNull_ ;
       /**
-       * <code>optional bool to_date_and_time_null = 1002;</code>
+       * <code>bool to_date_and_time_null = 1002;</code>
        */
       public boolean getToDateAndTimeNull() {
         return toDateAndTimeNull_;
       }
       /**
-       * <code>optional bool to_date_and_time_null = 1002;</code>
+       * <code>bool to_date_and_time_null = 1002;</code>
        */
       public Builder setToDateAndTimeNull(boolean value) {
         
@@ -2104,7 +2104,7 @@ public final class ImGetModifiedNodesAd {
         return this;
       }
       /**
-       * <code>optional bool to_date_and_time_null = 1002;</code>
+       * <code>bool to_date_and_time_null = 1002;</code>
        */
       public Builder clearToDateAndTimeNull() {
         
@@ -2117,13 +2117,13 @@ public final class ImGetModifiedNodesAd {
       private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> domainTreeNodeIdBuilder_;
       /**
-       * <code>optional .dstore.values.IntegerValue domain_tree_node_id = 3;</code>
+       * <code>.dstore.values.IntegerValue domain_tree_node_id = 3;</code>
        */
       public boolean hasDomainTreeNodeId() {
         return domainTreeNodeIdBuilder_ != null || domainTreeNodeId_ != null;
       }
       /**
-       * <code>optional .dstore.values.IntegerValue domain_tree_node_id = 3;</code>
+       * <code>.dstore.values.IntegerValue domain_tree_node_id = 3;</code>
        */
       public io.dstore.values.IntegerValue getDomainTreeNodeId() {
         if (domainTreeNodeIdBuilder_ == null) {
@@ -2133,7 +2133,7 @@ public final class ImGetModifiedNodesAd {
         }
       }
       /**
-       * <code>optional .dstore.values.IntegerValue domain_tree_node_id = 3;</code>
+       * <code>.dstore.values.IntegerValue domain_tree_node_id = 3;</code>
        */
       public Builder setDomainTreeNodeId(io.dstore.values.IntegerValue value) {
         if (domainTreeNodeIdBuilder_ == null) {
@@ -2149,7 +2149,7 @@ public final class ImGetModifiedNodesAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.IntegerValue domain_tree_node_id = 3;</code>
+       * <code>.dstore.values.IntegerValue domain_tree_node_id = 3;</code>
        */
       public Builder setDomainTreeNodeId(
           io.dstore.values.IntegerValue.Builder builderForValue) {
@@ -2163,7 +2163,7 @@ public final class ImGetModifiedNodesAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.IntegerValue domain_tree_node_id = 3;</code>
+       * <code>.dstore.values.IntegerValue domain_tree_node_id = 3;</code>
        */
       public Builder mergeDomainTreeNodeId(io.dstore.values.IntegerValue value) {
         if (domainTreeNodeIdBuilder_ == null) {
@@ -2181,7 +2181,7 @@ public final class ImGetModifiedNodesAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.IntegerValue domain_tree_node_id = 3;</code>
+       * <code>.dstore.values.IntegerValue domain_tree_node_id = 3;</code>
        */
       public Builder clearDomainTreeNodeId() {
         if (domainTreeNodeIdBuilder_ == null) {
@@ -2195,7 +2195,7 @@ public final class ImGetModifiedNodesAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.IntegerValue domain_tree_node_id = 3;</code>
+       * <code>.dstore.values.IntegerValue domain_tree_node_id = 3;</code>
        */
       public io.dstore.values.IntegerValue.Builder getDomainTreeNodeIdBuilder() {
         
@@ -2203,7 +2203,7 @@ public final class ImGetModifiedNodesAd {
         return getDomainTreeNodeIdFieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .dstore.values.IntegerValue domain_tree_node_id = 3;</code>
+       * <code>.dstore.values.IntegerValue domain_tree_node_id = 3;</code>
        */
       public io.dstore.values.IntegerValueOrBuilder getDomainTreeNodeIdOrBuilder() {
         if (domainTreeNodeIdBuilder_ != null) {
@@ -2214,7 +2214,7 @@ public final class ImGetModifiedNodesAd {
         }
       }
       /**
-       * <code>optional .dstore.values.IntegerValue domain_tree_node_id = 3;</code>
+       * <code>.dstore.values.IntegerValue domain_tree_node_id = 3;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> 
@@ -2232,13 +2232,13 @@ public final class ImGetModifiedNodesAd {
 
       private boolean domainTreeNodeIdNull_ ;
       /**
-       * <code>optional bool domain_tree_node_id_null = 1003;</code>
+       * <code>bool domain_tree_node_id_null = 1003;</code>
        */
       public boolean getDomainTreeNodeIdNull() {
         return domainTreeNodeIdNull_;
       }
       /**
-       * <code>optional bool domain_tree_node_id_null = 1003;</code>
+       * <code>bool domain_tree_node_id_null = 1003;</code>
        */
       public Builder setDomainTreeNodeIdNull(boolean value) {
         
@@ -2247,7 +2247,7 @@ public final class ImGetModifiedNodesAd {
         return this;
       }
       /**
-       * <code>optional bool domain_tree_node_id_null = 1003;</code>
+       * <code>bool domain_tree_node_id_null = 1003;</code>
        */
       public Builder clearDomainTreeNodeIdNull() {
         
@@ -2260,13 +2260,13 @@ public final class ImGetModifiedNodesAd {
       private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.values.BooleanValue, io.dstore.values.BooleanValue.Builder, io.dstore.values.BooleanValueOrBuilder> getTreeNodeIdsBuilder_;
       /**
-       * <code>optional .dstore.values.BooleanValue get_tree_node_ids = 4;</code>
+       * <code>.dstore.values.BooleanValue get_tree_node_ids = 4;</code>
        */
       public boolean hasGetTreeNodeIds() {
         return getTreeNodeIdsBuilder_ != null || getTreeNodeIds_ != null;
       }
       /**
-       * <code>optional .dstore.values.BooleanValue get_tree_node_ids = 4;</code>
+       * <code>.dstore.values.BooleanValue get_tree_node_ids = 4;</code>
        */
       public io.dstore.values.BooleanValue getGetTreeNodeIds() {
         if (getTreeNodeIdsBuilder_ == null) {
@@ -2276,7 +2276,7 @@ public final class ImGetModifiedNodesAd {
         }
       }
       /**
-       * <code>optional .dstore.values.BooleanValue get_tree_node_ids = 4;</code>
+       * <code>.dstore.values.BooleanValue get_tree_node_ids = 4;</code>
        */
       public Builder setGetTreeNodeIds(io.dstore.values.BooleanValue value) {
         if (getTreeNodeIdsBuilder_ == null) {
@@ -2292,7 +2292,7 @@ public final class ImGetModifiedNodesAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.BooleanValue get_tree_node_ids = 4;</code>
+       * <code>.dstore.values.BooleanValue get_tree_node_ids = 4;</code>
        */
       public Builder setGetTreeNodeIds(
           io.dstore.values.BooleanValue.Builder builderForValue) {
@@ -2306,7 +2306,7 @@ public final class ImGetModifiedNodesAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.BooleanValue get_tree_node_ids = 4;</code>
+       * <code>.dstore.values.BooleanValue get_tree_node_ids = 4;</code>
        */
       public Builder mergeGetTreeNodeIds(io.dstore.values.BooleanValue value) {
         if (getTreeNodeIdsBuilder_ == null) {
@@ -2324,7 +2324,7 @@ public final class ImGetModifiedNodesAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.BooleanValue get_tree_node_ids = 4;</code>
+       * <code>.dstore.values.BooleanValue get_tree_node_ids = 4;</code>
        */
       public Builder clearGetTreeNodeIds() {
         if (getTreeNodeIdsBuilder_ == null) {
@@ -2338,7 +2338,7 @@ public final class ImGetModifiedNodesAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.BooleanValue get_tree_node_ids = 4;</code>
+       * <code>.dstore.values.BooleanValue get_tree_node_ids = 4;</code>
        */
       public io.dstore.values.BooleanValue.Builder getGetTreeNodeIdsBuilder() {
         
@@ -2346,7 +2346,7 @@ public final class ImGetModifiedNodesAd {
         return getGetTreeNodeIdsFieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .dstore.values.BooleanValue get_tree_node_ids = 4;</code>
+       * <code>.dstore.values.BooleanValue get_tree_node_ids = 4;</code>
        */
       public io.dstore.values.BooleanValueOrBuilder getGetTreeNodeIdsOrBuilder() {
         if (getTreeNodeIdsBuilder_ != null) {
@@ -2357,7 +2357,7 @@ public final class ImGetModifiedNodesAd {
         }
       }
       /**
-       * <code>optional .dstore.values.BooleanValue get_tree_node_ids = 4;</code>
+       * <code>.dstore.values.BooleanValue get_tree_node_ids = 4;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.values.BooleanValue, io.dstore.values.BooleanValue.Builder, io.dstore.values.BooleanValueOrBuilder> 
@@ -2375,13 +2375,13 @@ public final class ImGetModifiedNodesAd {
 
       private boolean getTreeNodeIdsNull_ ;
       /**
-       * <code>optional bool get_tree_node_ids_null = 1004;</code>
+       * <code>bool get_tree_node_ids_null = 1004;</code>
        */
       public boolean getGetTreeNodeIdsNull() {
         return getTreeNodeIdsNull_;
       }
       /**
-       * <code>optional bool get_tree_node_ids_null = 1004;</code>
+       * <code>bool get_tree_node_ids_null = 1004;</code>
        */
       public Builder setGetTreeNodeIdsNull(boolean value) {
         
@@ -2390,7 +2390,7 @@ public final class ImGetModifiedNodesAd {
         return this;
       }
       /**
-       * <code>optional bool get_tree_node_ids_null = 1004;</code>
+       * <code>bool get_tree_node_ids_null = 1004;</code>
        */
       public Builder clearGetTreeNodeIdsNull() {
         
@@ -2403,13 +2403,13 @@ public final class ImGetModifiedNodesAd {
       private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.values.BooleanValue, io.dstore.values.BooleanValue.Builder, io.dstore.values.BooleanValueOrBuilder> filterIdsInOneIdBuilder_;
       /**
-       * <code>optional .dstore.values.BooleanValue filter_ids_in_one_id = 5;</code>
+       * <code>.dstore.values.BooleanValue filter_ids_in_one_id = 5;</code>
        */
       public boolean hasFilterIdsInOneId() {
         return filterIdsInOneIdBuilder_ != null || filterIdsInOneId_ != null;
       }
       /**
-       * <code>optional .dstore.values.BooleanValue filter_ids_in_one_id = 5;</code>
+       * <code>.dstore.values.BooleanValue filter_ids_in_one_id = 5;</code>
        */
       public io.dstore.values.BooleanValue getFilterIdsInOneId() {
         if (filterIdsInOneIdBuilder_ == null) {
@@ -2419,7 +2419,7 @@ public final class ImGetModifiedNodesAd {
         }
       }
       /**
-       * <code>optional .dstore.values.BooleanValue filter_ids_in_one_id = 5;</code>
+       * <code>.dstore.values.BooleanValue filter_ids_in_one_id = 5;</code>
        */
       public Builder setFilterIdsInOneId(io.dstore.values.BooleanValue value) {
         if (filterIdsInOneIdBuilder_ == null) {
@@ -2435,7 +2435,7 @@ public final class ImGetModifiedNodesAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.BooleanValue filter_ids_in_one_id = 5;</code>
+       * <code>.dstore.values.BooleanValue filter_ids_in_one_id = 5;</code>
        */
       public Builder setFilterIdsInOneId(
           io.dstore.values.BooleanValue.Builder builderForValue) {
@@ -2449,7 +2449,7 @@ public final class ImGetModifiedNodesAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.BooleanValue filter_ids_in_one_id = 5;</code>
+       * <code>.dstore.values.BooleanValue filter_ids_in_one_id = 5;</code>
        */
       public Builder mergeFilterIdsInOneId(io.dstore.values.BooleanValue value) {
         if (filterIdsInOneIdBuilder_ == null) {
@@ -2467,7 +2467,7 @@ public final class ImGetModifiedNodesAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.BooleanValue filter_ids_in_one_id = 5;</code>
+       * <code>.dstore.values.BooleanValue filter_ids_in_one_id = 5;</code>
        */
       public Builder clearFilterIdsInOneId() {
         if (filterIdsInOneIdBuilder_ == null) {
@@ -2481,7 +2481,7 @@ public final class ImGetModifiedNodesAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.BooleanValue filter_ids_in_one_id = 5;</code>
+       * <code>.dstore.values.BooleanValue filter_ids_in_one_id = 5;</code>
        */
       public io.dstore.values.BooleanValue.Builder getFilterIdsInOneIdBuilder() {
         
@@ -2489,7 +2489,7 @@ public final class ImGetModifiedNodesAd {
         return getFilterIdsInOneIdFieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .dstore.values.BooleanValue filter_ids_in_one_id = 5;</code>
+       * <code>.dstore.values.BooleanValue filter_ids_in_one_id = 5;</code>
        */
       public io.dstore.values.BooleanValueOrBuilder getFilterIdsInOneIdOrBuilder() {
         if (filterIdsInOneIdBuilder_ != null) {
@@ -2500,7 +2500,7 @@ public final class ImGetModifiedNodesAd {
         }
       }
       /**
-       * <code>optional .dstore.values.BooleanValue filter_ids_in_one_id = 5;</code>
+       * <code>.dstore.values.BooleanValue filter_ids_in_one_id = 5;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.values.BooleanValue, io.dstore.values.BooleanValue.Builder, io.dstore.values.BooleanValueOrBuilder> 
@@ -2518,13 +2518,13 @@ public final class ImGetModifiedNodesAd {
 
       private boolean filterIdsInOneIdNull_ ;
       /**
-       * <code>optional bool filter_ids_in_one_id_null = 1005;</code>
+       * <code>bool filter_ids_in_one_id_null = 1005;</code>
        */
       public boolean getFilterIdsInOneIdNull() {
         return filterIdsInOneIdNull_;
       }
       /**
-       * <code>optional bool filter_ids_in_one_id_null = 1005;</code>
+       * <code>bool filter_ids_in_one_id_null = 1005;</code>
        */
       public Builder setFilterIdsInOneIdNull(boolean value) {
         
@@ -2533,7 +2533,7 @@ public final class ImGetModifiedNodesAd {
         return this;
       }
       /**
-       * <code>optional bool filter_ids_in_one_id_null = 1005;</code>
+       * <code>bool filter_ids_in_one_id_null = 1005;</code>
        */
       public Builder clearFilterIdsInOneIdNull() {
         
@@ -2546,13 +2546,13 @@ public final class ImGetModifiedNodesAd {
       private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> outputIntoOneIdBuilder_;
       /**
-       * <code>optional .dstore.values.IntegerValue output_into_one_id = 6;</code>
+       * <code>.dstore.values.IntegerValue output_into_one_id = 6;</code>
        */
       public boolean hasOutputIntoOneId() {
         return outputIntoOneIdBuilder_ != null || outputIntoOneId_ != null;
       }
       /**
-       * <code>optional .dstore.values.IntegerValue output_into_one_id = 6;</code>
+       * <code>.dstore.values.IntegerValue output_into_one_id = 6;</code>
        */
       public io.dstore.values.IntegerValue getOutputIntoOneId() {
         if (outputIntoOneIdBuilder_ == null) {
@@ -2562,7 +2562,7 @@ public final class ImGetModifiedNodesAd {
         }
       }
       /**
-       * <code>optional .dstore.values.IntegerValue output_into_one_id = 6;</code>
+       * <code>.dstore.values.IntegerValue output_into_one_id = 6;</code>
        */
       public Builder setOutputIntoOneId(io.dstore.values.IntegerValue value) {
         if (outputIntoOneIdBuilder_ == null) {
@@ -2578,7 +2578,7 @@ public final class ImGetModifiedNodesAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.IntegerValue output_into_one_id = 6;</code>
+       * <code>.dstore.values.IntegerValue output_into_one_id = 6;</code>
        */
       public Builder setOutputIntoOneId(
           io.dstore.values.IntegerValue.Builder builderForValue) {
@@ -2592,7 +2592,7 @@ public final class ImGetModifiedNodesAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.IntegerValue output_into_one_id = 6;</code>
+       * <code>.dstore.values.IntegerValue output_into_one_id = 6;</code>
        */
       public Builder mergeOutputIntoOneId(io.dstore.values.IntegerValue value) {
         if (outputIntoOneIdBuilder_ == null) {
@@ -2610,7 +2610,7 @@ public final class ImGetModifiedNodesAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.IntegerValue output_into_one_id = 6;</code>
+       * <code>.dstore.values.IntegerValue output_into_one_id = 6;</code>
        */
       public Builder clearOutputIntoOneId() {
         if (outputIntoOneIdBuilder_ == null) {
@@ -2624,7 +2624,7 @@ public final class ImGetModifiedNodesAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.IntegerValue output_into_one_id = 6;</code>
+       * <code>.dstore.values.IntegerValue output_into_one_id = 6;</code>
        */
       public io.dstore.values.IntegerValue.Builder getOutputIntoOneIdBuilder() {
         
@@ -2632,7 +2632,7 @@ public final class ImGetModifiedNodesAd {
         return getOutputIntoOneIdFieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .dstore.values.IntegerValue output_into_one_id = 6;</code>
+       * <code>.dstore.values.IntegerValue output_into_one_id = 6;</code>
        */
       public io.dstore.values.IntegerValueOrBuilder getOutputIntoOneIdOrBuilder() {
         if (outputIntoOneIdBuilder_ != null) {
@@ -2643,7 +2643,7 @@ public final class ImGetModifiedNodesAd {
         }
       }
       /**
-       * <code>optional .dstore.values.IntegerValue output_into_one_id = 6;</code>
+       * <code>.dstore.values.IntegerValue output_into_one_id = 6;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> 
@@ -2661,13 +2661,13 @@ public final class ImGetModifiedNodesAd {
 
       private boolean outputIntoOneIdNull_ ;
       /**
-       * <code>optional bool output_into_one_id_null = 1006;</code>
+       * <code>bool output_into_one_id_null = 1006;</code>
        */
       public boolean getOutputIntoOneIdNull() {
         return outputIntoOneIdNull_;
       }
       /**
-       * <code>optional bool output_into_one_id_null = 1006;</code>
+       * <code>bool output_into_one_id_null = 1006;</code>
        */
       public Builder setOutputIntoOneIdNull(boolean value) {
         
@@ -2676,7 +2676,7 @@ public final class ImGetModifiedNodesAd {
         return this;
       }
       /**
-       * <code>optional bool output_into_one_id_null = 1006;</code>
+       * <code>bool output_into_one_id_null = 1006;</code>
        */
       public Builder clearOutputIntoOneIdNull() {
         
@@ -2689,13 +2689,13 @@ public final class ImGetModifiedNodesAd {
       private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.values.BooleanValue, io.dstore.values.BooleanValue.Builder, io.dstore.values.BooleanValueOrBuilder> includeDeactivatedNodesBuilder_;
       /**
-       * <code>optional .dstore.values.BooleanValue include_deactivated_nodes = 7;</code>
+       * <code>.dstore.values.BooleanValue include_deactivated_nodes = 7;</code>
        */
       public boolean hasIncludeDeactivatedNodes() {
         return includeDeactivatedNodesBuilder_ != null || includeDeactivatedNodes_ != null;
       }
       /**
-       * <code>optional .dstore.values.BooleanValue include_deactivated_nodes = 7;</code>
+       * <code>.dstore.values.BooleanValue include_deactivated_nodes = 7;</code>
        */
       public io.dstore.values.BooleanValue getIncludeDeactivatedNodes() {
         if (includeDeactivatedNodesBuilder_ == null) {
@@ -2705,7 +2705,7 @@ public final class ImGetModifiedNodesAd {
         }
       }
       /**
-       * <code>optional .dstore.values.BooleanValue include_deactivated_nodes = 7;</code>
+       * <code>.dstore.values.BooleanValue include_deactivated_nodes = 7;</code>
        */
       public Builder setIncludeDeactivatedNodes(io.dstore.values.BooleanValue value) {
         if (includeDeactivatedNodesBuilder_ == null) {
@@ -2721,7 +2721,7 @@ public final class ImGetModifiedNodesAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.BooleanValue include_deactivated_nodes = 7;</code>
+       * <code>.dstore.values.BooleanValue include_deactivated_nodes = 7;</code>
        */
       public Builder setIncludeDeactivatedNodes(
           io.dstore.values.BooleanValue.Builder builderForValue) {
@@ -2735,7 +2735,7 @@ public final class ImGetModifiedNodesAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.BooleanValue include_deactivated_nodes = 7;</code>
+       * <code>.dstore.values.BooleanValue include_deactivated_nodes = 7;</code>
        */
       public Builder mergeIncludeDeactivatedNodes(io.dstore.values.BooleanValue value) {
         if (includeDeactivatedNodesBuilder_ == null) {
@@ -2753,7 +2753,7 @@ public final class ImGetModifiedNodesAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.BooleanValue include_deactivated_nodes = 7;</code>
+       * <code>.dstore.values.BooleanValue include_deactivated_nodes = 7;</code>
        */
       public Builder clearIncludeDeactivatedNodes() {
         if (includeDeactivatedNodesBuilder_ == null) {
@@ -2767,7 +2767,7 @@ public final class ImGetModifiedNodesAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.BooleanValue include_deactivated_nodes = 7;</code>
+       * <code>.dstore.values.BooleanValue include_deactivated_nodes = 7;</code>
        */
       public io.dstore.values.BooleanValue.Builder getIncludeDeactivatedNodesBuilder() {
         
@@ -2775,7 +2775,7 @@ public final class ImGetModifiedNodesAd {
         return getIncludeDeactivatedNodesFieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .dstore.values.BooleanValue include_deactivated_nodes = 7;</code>
+       * <code>.dstore.values.BooleanValue include_deactivated_nodes = 7;</code>
        */
       public io.dstore.values.BooleanValueOrBuilder getIncludeDeactivatedNodesOrBuilder() {
         if (includeDeactivatedNodesBuilder_ != null) {
@@ -2786,7 +2786,7 @@ public final class ImGetModifiedNodesAd {
         }
       }
       /**
-       * <code>optional .dstore.values.BooleanValue include_deactivated_nodes = 7;</code>
+       * <code>.dstore.values.BooleanValue include_deactivated_nodes = 7;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.values.BooleanValue, io.dstore.values.BooleanValue.Builder, io.dstore.values.BooleanValueOrBuilder> 
@@ -2804,13 +2804,13 @@ public final class ImGetModifiedNodesAd {
 
       private boolean includeDeactivatedNodesNull_ ;
       /**
-       * <code>optional bool include_deactivated_nodes_null = 1007;</code>
+       * <code>bool include_deactivated_nodes_null = 1007;</code>
        */
       public boolean getIncludeDeactivatedNodesNull() {
         return includeDeactivatedNodesNull_;
       }
       /**
-       * <code>optional bool include_deactivated_nodes_null = 1007;</code>
+       * <code>bool include_deactivated_nodes_null = 1007;</code>
        */
       public Builder setIncludeDeactivatedNodesNull(boolean value) {
         
@@ -2819,7 +2819,7 @@ public final class ImGetModifiedNodesAd {
         return this;
       }
       /**
-       * <code>optional bool include_deactivated_nodes_null = 1007;</code>
+       * <code>bool include_deactivated_nodes_null = 1007;</code>
        */
       public Builder clearIncludeDeactivatedNodesNull() {
         
@@ -2832,13 +2832,13 @@ public final class ImGetModifiedNodesAd {
       private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> levelIdBuilder_;
       /**
-       * <code>optional .dstore.values.IntegerValue level_id = 8;</code>
+       * <code>.dstore.values.IntegerValue level_id = 8;</code>
        */
       public boolean hasLevelId() {
         return levelIdBuilder_ != null || levelId_ != null;
       }
       /**
-       * <code>optional .dstore.values.IntegerValue level_id = 8;</code>
+       * <code>.dstore.values.IntegerValue level_id = 8;</code>
        */
       public io.dstore.values.IntegerValue getLevelId() {
         if (levelIdBuilder_ == null) {
@@ -2848,7 +2848,7 @@ public final class ImGetModifiedNodesAd {
         }
       }
       /**
-       * <code>optional .dstore.values.IntegerValue level_id = 8;</code>
+       * <code>.dstore.values.IntegerValue level_id = 8;</code>
        */
       public Builder setLevelId(io.dstore.values.IntegerValue value) {
         if (levelIdBuilder_ == null) {
@@ -2864,7 +2864,7 @@ public final class ImGetModifiedNodesAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.IntegerValue level_id = 8;</code>
+       * <code>.dstore.values.IntegerValue level_id = 8;</code>
        */
       public Builder setLevelId(
           io.dstore.values.IntegerValue.Builder builderForValue) {
@@ -2878,7 +2878,7 @@ public final class ImGetModifiedNodesAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.IntegerValue level_id = 8;</code>
+       * <code>.dstore.values.IntegerValue level_id = 8;</code>
        */
       public Builder mergeLevelId(io.dstore.values.IntegerValue value) {
         if (levelIdBuilder_ == null) {
@@ -2896,7 +2896,7 @@ public final class ImGetModifiedNodesAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.IntegerValue level_id = 8;</code>
+       * <code>.dstore.values.IntegerValue level_id = 8;</code>
        */
       public Builder clearLevelId() {
         if (levelIdBuilder_ == null) {
@@ -2910,7 +2910,7 @@ public final class ImGetModifiedNodesAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.IntegerValue level_id = 8;</code>
+       * <code>.dstore.values.IntegerValue level_id = 8;</code>
        */
       public io.dstore.values.IntegerValue.Builder getLevelIdBuilder() {
         
@@ -2918,7 +2918,7 @@ public final class ImGetModifiedNodesAd {
         return getLevelIdFieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .dstore.values.IntegerValue level_id = 8;</code>
+       * <code>.dstore.values.IntegerValue level_id = 8;</code>
        */
       public io.dstore.values.IntegerValueOrBuilder getLevelIdOrBuilder() {
         if (levelIdBuilder_ != null) {
@@ -2929,7 +2929,7 @@ public final class ImGetModifiedNodesAd {
         }
       }
       /**
-       * <code>optional .dstore.values.IntegerValue level_id = 8;</code>
+       * <code>.dstore.values.IntegerValue level_id = 8;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> 
@@ -2947,13 +2947,13 @@ public final class ImGetModifiedNodesAd {
 
       private boolean levelIdNull_ ;
       /**
-       * <code>optional bool level_id_null = 1008;</code>
+       * <code>bool level_id_null = 1008;</code>
        */
       public boolean getLevelIdNull() {
         return levelIdNull_;
       }
       /**
-       * <code>optional bool level_id_null = 1008;</code>
+       * <code>bool level_id_null = 1008;</code>
        */
       public Builder setLevelIdNull(boolean value) {
         
@@ -2962,7 +2962,7 @@ public final class ImGetModifiedNodesAd {
         return this;
       }
       /**
-       * <code>optional bool level_id_null = 1008;</code>
+       * <code>bool level_id_null = 1008;</code>
        */
       public Builder clearLevelIdNull() {
         
@@ -2975,13 +2975,13 @@ public final class ImGetModifiedNodesAd {
       private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.values.StringValue, io.dstore.values.StringValue.Builder, io.dstore.values.StringValueOrBuilder> nodeModifDefMetaInfoTypeIdsBuilder_;
       /**
-       * <code>optional .dstore.values.StringValue node_modif_def_meta_info_type_ids = 9;</code>
+       * <code>.dstore.values.StringValue node_modif_def_meta_info_type_ids = 9;</code>
        */
       public boolean hasNodeModifDefMetaInfoTypeIds() {
         return nodeModifDefMetaInfoTypeIdsBuilder_ != null || nodeModifDefMetaInfoTypeIds_ != null;
       }
       /**
-       * <code>optional .dstore.values.StringValue node_modif_def_meta_info_type_ids = 9;</code>
+       * <code>.dstore.values.StringValue node_modif_def_meta_info_type_ids = 9;</code>
        */
       public io.dstore.values.StringValue getNodeModifDefMetaInfoTypeIds() {
         if (nodeModifDefMetaInfoTypeIdsBuilder_ == null) {
@@ -2991,7 +2991,7 @@ public final class ImGetModifiedNodesAd {
         }
       }
       /**
-       * <code>optional .dstore.values.StringValue node_modif_def_meta_info_type_ids = 9;</code>
+       * <code>.dstore.values.StringValue node_modif_def_meta_info_type_ids = 9;</code>
        */
       public Builder setNodeModifDefMetaInfoTypeIds(io.dstore.values.StringValue value) {
         if (nodeModifDefMetaInfoTypeIdsBuilder_ == null) {
@@ -3007,7 +3007,7 @@ public final class ImGetModifiedNodesAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.StringValue node_modif_def_meta_info_type_ids = 9;</code>
+       * <code>.dstore.values.StringValue node_modif_def_meta_info_type_ids = 9;</code>
        */
       public Builder setNodeModifDefMetaInfoTypeIds(
           io.dstore.values.StringValue.Builder builderForValue) {
@@ -3021,7 +3021,7 @@ public final class ImGetModifiedNodesAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.StringValue node_modif_def_meta_info_type_ids = 9;</code>
+       * <code>.dstore.values.StringValue node_modif_def_meta_info_type_ids = 9;</code>
        */
       public Builder mergeNodeModifDefMetaInfoTypeIds(io.dstore.values.StringValue value) {
         if (nodeModifDefMetaInfoTypeIdsBuilder_ == null) {
@@ -3039,7 +3039,7 @@ public final class ImGetModifiedNodesAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.StringValue node_modif_def_meta_info_type_ids = 9;</code>
+       * <code>.dstore.values.StringValue node_modif_def_meta_info_type_ids = 9;</code>
        */
       public Builder clearNodeModifDefMetaInfoTypeIds() {
         if (nodeModifDefMetaInfoTypeIdsBuilder_ == null) {
@@ -3053,7 +3053,7 @@ public final class ImGetModifiedNodesAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.StringValue node_modif_def_meta_info_type_ids = 9;</code>
+       * <code>.dstore.values.StringValue node_modif_def_meta_info_type_ids = 9;</code>
        */
       public io.dstore.values.StringValue.Builder getNodeModifDefMetaInfoTypeIdsBuilder() {
         
@@ -3061,7 +3061,7 @@ public final class ImGetModifiedNodesAd {
         return getNodeModifDefMetaInfoTypeIdsFieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .dstore.values.StringValue node_modif_def_meta_info_type_ids = 9;</code>
+       * <code>.dstore.values.StringValue node_modif_def_meta_info_type_ids = 9;</code>
        */
       public io.dstore.values.StringValueOrBuilder getNodeModifDefMetaInfoTypeIdsOrBuilder() {
         if (nodeModifDefMetaInfoTypeIdsBuilder_ != null) {
@@ -3072,7 +3072,7 @@ public final class ImGetModifiedNodesAd {
         }
       }
       /**
-       * <code>optional .dstore.values.StringValue node_modif_def_meta_info_type_ids = 9;</code>
+       * <code>.dstore.values.StringValue node_modif_def_meta_info_type_ids = 9;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.values.StringValue, io.dstore.values.StringValue.Builder, io.dstore.values.StringValueOrBuilder> 
@@ -3090,13 +3090,13 @@ public final class ImGetModifiedNodesAd {
 
       private boolean nodeModifDefMetaInfoTypeIdsNull_ ;
       /**
-       * <code>optional bool node_modif_def_meta_info_type_ids_null = 1009;</code>
+       * <code>bool node_modif_def_meta_info_type_ids_null = 1009;</code>
        */
       public boolean getNodeModifDefMetaInfoTypeIdsNull() {
         return nodeModifDefMetaInfoTypeIdsNull_;
       }
       /**
-       * <code>optional bool node_modif_def_meta_info_type_ids_null = 1009;</code>
+       * <code>bool node_modif_def_meta_info_type_ids_null = 1009;</code>
        */
       public Builder setNodeModifDefMetaInfoTypeIdsNull(boolean value) {
         
@@ -3105,7 +3105,7 @@ public final class ImGetModifiedNodesAd {
         return this;
       }
       /**
-       * <code>optional bool node_modif_def_meta_info_type_ids_null = 1009;</code>
+       * <code>bool node_modif_def_meta_info_type_ids_null = 1009;</code>
        */
       public Builder clearNodeModifDefMetaInfoTypeIdsNull() {
         
@@ -3118,13 +3118,13 @@ public final class ImGetModifiedNodesAd {
       private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.values.StringValue, io.dstore.values.StringValue.Builder, io.dstore.values.StringValueOrBuilder> tNodeModifDefMetaInfoTypeIdsBuilder_;
       /**
-       * <code>optional .dstore.values.StringValue t_node_modif_def_meta_info_type_ids = 10;</code>
+       * <code>.dstore.values.StringValue t_node_modif_def_meta_info_type_ids = 10;</code>
        */
       public boolean hasTNodeModifDefMetaInfoTypeIds() {
         return tNodeModifDefMetaInfoTypeIdsBuilder_ != null || tNodeModifDefMetaInfoTypeIds_ != null;
       }
       /**
-       * <code>optional .dstore.values.StringValue t_node_modif_def_meta_info_type_ids = 10;</code>
+       * <code>.dstore.values.StringValue t_node_modif_def_meta_info_type_ids = 10;</code>
        */
       public io.dstore.values.StringValue getTNodeModifDefMetaInfoTypeIds() {
         if (tNodeModifDefMetaInfoTypeIdsBuilder_ == null) {
@@ -3134,7 +3134,7 @@ public final class ImGetModifiedNodesAd {
         }
       }
       /**
-       * <code>optional .dstore.values.StringValue t_node_modif_def_meta_info_type_ids = 10;</code>
+       * <code>.dstore.values.StringValue t_node_modif_def_meta_info_type_ids = 10;</code>
        */
       public Builder setTNodeModifDefMetaInfoTypeIds(io.dstore.values.StringValue value) {
         if (tNodeModifDefMetaInfoTypeIdsBuilder_ == null) {
@@ -3150,7 +3150,7 @@ public final class ImGetModifiedNodesAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.StringValue t_node_modif_def_meta_info_type_ids = 10;</code>
+       * <code>.dstore.values.StringValue t_node_modif_def_meta_info_type_ids = 10;</code>
        */
       public Builder setTNodeModifDefMetaInfoTypeIds(
           io.dstore.values.StringValue.Builder builderForValue) {
@@ -3164,7 +3164,7 @@ public final class ImGetModifiedNodesAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.StringValue t_node_modif_def_meta_info_type_ids = 10;</code>
+       * <code>.dstore.values.StringValue t_node_modif_def_meta_info_type_ids = 10;</code>
        */
       public Builder mergeTNodeModifDefMetaInfoTypeIds(io.dstore.values.StringValue value) {
         if (tNodeModifDefMetaInfoTypeIdsBuilder_ == null) {
@@ -3182,7 +3182,7 @@ public final class ImGetModifiedNodesAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.StringValue t_node_modif_def_meta_info_type_ids = 10;</code>
+       * <code>.dstore.values.StringValue t_node_modif_def_meta_info_type_ids = 10;</code>
        */
       public Builder clearTNodeModifDefMetaInfoTypeIds() {
         if (tNodeModifDefMetaInfoTypeIdsBuilder_ == null) {
@@ -3196,7 +3196,7 @@ public final class ImGetModifiedNodesAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.StringValue t_node_modif_def_meta_info_type_ids = 10;</code>
+       * <code>.dstore.values.StringValue t_node_modif_def_meta_info_type_ids = 10;</code>
        */
       public io.dstore.values.StringValue.Builder getTNodeModifDefMetaInfoTypeIdsBuilder() {
         
@@ -3204,7 +3204,7 @@ public final class ImGetModifiedNodesAd {
         return getTNodeModifDefMetaInfoTypeIdsFieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .dstore.values.StringValue t_node_modif_def_meta_info_type_ids = 10;</code>
+       * <code>.dstore.values.StringValue t_node_modif_def_meta_info_type_ids = 10;</code>
        */
       public io.dstore.values.StringValueOrBuilder getTNodeModifDefMetaInfoTypeIdsOrBuilder() {
         if (tNodeModifDefMetaInfoTypeIdsBuilder_ != null) {
@@ -3215,7 +3215,7 @@ public final class ImGetModifiedNodesAd {
         }
       }
       /**
-       * <code>optional .dstore.values.StringValue t_node_modif_def_meta_info_type_ids = 10;</code>
+       * <code>.dstore.values.StringValue t_node_modif_def_meta_info_type_ids = 10;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.values.StringValue, io.dstore.values.StringValue.Builder, io.dstore.values.StringValueOrBuilder> 
@@ -3233,13 +3233,13 @@ public final class ImGetModifiedNodesAd {
 
       private boolean tNodeModifDefMetaInfoTypeIdsNull_ ;
       /**
-       * <code>optional bool t_node_modif_def_meta_info_type_ids_null = 1010;</code>
+       * <code>bool t_node_modif_def_meta_info_type_ids_null = 1010;</code>
        */
       public boolean getTNodeModifDefMetaInfoTypeIdsNull() {
         return tNodeModifDefMetaInfoTypeIdsNull_;
       }
       /**
-       * <code>optional bool t_node_modif_def_meta_info_type_ids_null = 1010;</code>
+       * <code>bool t_node_modif_def_meta_info_type_ids_null = 1010;</code>
        */
       public Builder setTNodeModifDefMetaInfoTypeIdsNull(boolean value) {
         
@@ -3248,7 +3248,7 @@ public final class ImGetModifiedNodesAd {
         return this;
       }
       /**
-       * <code>optional bool t_node_modif_def_meta_info_type_ids_null = 1010;</code>
+       * <code>bool t_node_modif_def_meta_info_type_ids_null = 1010;</code>
        */
       public Builder clearTNodeModifDefMetaInfoTypeIdsNull() {
         
@@ -3261,13 +3261,13 @@ public final class ImGetModifiedNodesAd {
       private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> startAtRowNoBuilder_;
       /**
-       * <code>optional .dstore.values.IntegerValue start_at_row_no = 11;</code>
+       * <code>.dstore.values.IntegerValue start_at_row_no = 11;</code>
        */
       public boolean hasStartAtRowNo() {
         return startAtRowNoBuilder_ != null || startAtRowNo_ != null;
       }
       /**
-       * <code>optional .dstore.values.IntegerValue start_at_row_no = 11;</code>
+       * <code>.dstore.values.IntegerValue start_at_row_no = 11;</code>
        */
       public io.dstore.values.IntegerValue getStartAtRowNo() {
         if (startAtRowNoBuilder_ == null) {
@@ -3277,7 +3277,7 @@ public final class ImGetModifiedNodesAd {
         }
       }
       /**
-       * <code>optional .dstore.values.IntegerValue start_at_row_no = 11;</code>
+       * <code>.dstore.values.IntegerValue start_at_row_no = 11;</code>
        */
       public Builder setStartAtRowNo(io.dstore.values.IntegerValue value) {
         if (startAtRowNoBuilder_ == null) {
@@ -3293,7 +3293,7 @@ public final class ImGetModifiedNodesAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.IntegerValue start_at_row_no = 11;</code>
+       * <code>.dstore.values.IntegerValue start_at_row_no = 11;</code>
        */
       public Builder setStartAtRowNo(
           io.dstore.values.IntegerValue.Builder builderForValue) {
@@ -3307,7 +3307,7 @@ public final class ImGetModifiedNodesAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.IntegerValue start_at_row_no = 11;</code>
+       * <code>.dstore.values.IntegerValue start_at_row_no = 11;</code>
        */
       public Builder mergeStartAtRowNo(io.dstore.values.IntegerValue value) {
         if (startAtRowNoBuilder_ == null) {
@@ -3325,7 +3325,7 @@ public final class ImGetModifiedNodesAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.IntegerValue start_at_row_no = 11;</code>
+       * <code>.dstore.values.IntegerValue start_at_row_no = 11;</code>
        */
       public Builder clearStartAtRowNo() {
         if (startAtRowNoBuilder_ == null) {
@@ -3339,7 +3339,7 @@ public final class ImGetModifiedNodesAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.IntegerValue start_at_row_no = 11;</code>
+       * <code>.dstore.values.IntegerValue start_at_row_no = 11;</code>
        */
       public io.dstore.values.IntegerValue.Builder getStartAtRowNoBuilder() {
         
@@ -3347,7 +3347,7 @@ public final class ImGetModifiedNodesAd {
         return getStartAtRowNoFieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .dstore.values.IntegerValue start_at_row_no = 11;</code>
+       * <code>.dstore.values.IntegerValue start_at_row_no = 11;</code>
        */
       public io.dstore.values.IntegerValueOrBuilder getStartAtRowNoOrBuilder() {
         if (startAtRowNoBuilder_ != null) {
@@ -3358,7 +3358,7 @@ public final class ImGetModifiedNodesAd {
         }
       }
       /**
-       * <code>optional .dstore.values.IntegerValue start_at_row_no = 11;</code>
+       * <code>.dstore.values.IntegerValue start_at_row_no = 11;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> 
@@ -3376,13 +3376,13 @@ public final class ImGetModifiedNodesAd {
 
       private boolean startAtRowNoNull_ ;
       /**
-       * <code>optional bool start_at_row_no_null = 1011;</code>
+       * <code>bool start_at_row_no_null = 1011;</code>
        */
       public boolean getStartAtRowNoNull() {
         return startAtRowNoNull_;
       }
       /**
-       * <code>optional bool start_at_row_no_null = 1011;</code>
+       * <code>bool start_at_row_no_null = 1011;</code>
        */
       public Builder setStartAtRowNoNull(boolean value) {
         
@@ -3391,7 +3391,7 @@ public final class ImGetModifiedNodesAd {
         return this;
       }
       /**
-       * <code>optional bool start_at_row_no_null = 1011;</code>
+       * <code>bool start_at_row_no_null = 1011;</code>
        */
       public Builder clearStartAtRowNoNull() {
         
@@ -3404,13 +3404,13 @@ public final class ImGetModifiedNodesAd {
       private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> rowCountBuilder_;
       /**
-       * <code>optional .dstore.values.IntegerValue row_count = 12;</code>
+       * <code>.dstore.values.IntegerValue row_count = 12;</code>
        */
       public boolean hasRowCount() {
         return rowCountBuilder_ != null || rowCount_ != null;
       }
       /**
-       * <code>optional .dstore.values.IntegerValue row_count = 12;</code>
+       * <code>.dstore.values.IntegerValue row_count = 12;</code>
        */
       public io.dstore.values.IntegerValue getRowCount() {
         if (rowCountBuilder_ == null) {
@@ -3420,7 +3420,7 @@ public final class ImGetModifiedNodesAd {
         }
       }
       /**
-       * <code>optional .dstore.values.IntegerValue row_count = 12;</code>
+       * <code>.dstore.values.IntegerValue row_count = 12;</code>
        */
       public Builder setRowCount(io.dstore.values.IntegerValue value) {
         if (rowCountBuilder_ == null) {
@@ -3436,7 +3436,7 @@ public final class ImGetModifiedNodesAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.IntegerValue row_count = 12;</code>
+       * <code>.dstore.values.IntegerValue row_count = 12;</code>
        */
       public Builder setRowCount(
           io.dstore.values.IntegerValue.Builder builderForValue) {
@@ -3450,7 +3450,7 @@ public final class ImGetModifiedNodesAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.IntegerValue row_count = 12;</code>
+       * <code>.dstore.values.IntegerValue row_count = 12;</code>
        */
       public Builder mergeRowCount(io.dstore.values.IntegerValue value) {
         if (rowCountBuilder_ == null) {
@@ -3468,7 +3468,7 @@ public final class ImGetModifiedNodesAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.IntegerValue row_count = 12;</code>
+       * <code>.dstore.values.IntegerValue row_count = 12;</code>
        */
       public Builder clearRowCount() {
         if (rowCountBuilder_ == null) {
@@ -3482,7 +3482,7 @@ public final class ImGetModifiedNodesAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.IntegerValue row_count = 12;</code>
+       * <code>.dstore.values.IntegerValue row_count = 12;</code>
        */
       public io.dstore.values.IntegerValue.Builder getRowCountBuilder() {
         
@@ -3490,7 +3490,7 @@ public final class ImGetModifiedNodesAd {
         return getRowCountFieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .dstore.values.IntegerValue row_count = 12;</code>
+       * <code>.dstore.values.IntegerValue row_count = 12;</code>
        */
       public io.dstore.values.IntegerValueOrBuilder getRowCountOrBuilder() {
         if (rowCountBuilder_ != null) {
@@ -3501,7 +3501,7 @@ public final class ImGetModifiedNodesAd {
         }
       }
       /**
-       * <code>optional .dstore.values.IntegerValue row_count = 12;</code>
+       * <code>.dstore.values.IntegerValue row_count = 12;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> 
@@ -3519,13 +3519,13 @@ public final class ImGetModifiedNodesAd {
 
       private boolean rowCountNull_ ;
       /**
-       * <code>optional bool row_count_null = 1012;</code>
+       * <code>bool row_count_null = 1012;</code>
        */
       public boolean getRowCountNull() {
         return rowCountNull_;
       }
       /**
-       * <code>optional bool row_count_null = 1012;</code>
+       * <code>bool row_count_null = 1012;</code>
        */
       public Builder setRowCountNull(boolean value) {
         
@@ -3534,7 +3534,7 @@ public final class ImGetModifiedNodesAd {
         return this;
       }
       /**
-       * <code>optional bool row_count_null = 1012;</code>
+       * <code>bool row_count_null = 1012;</code>
        */
       public Builder clearRowCountNull() {
         
@@ -3547,13 +3547,13 @@ public final class ImGetModifiedNodesAd {
       private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> numberOfElementsInResultBuilder_;
       /**
-       * <code>optional .dstore.values.IntegerValue number_of_elements_in_result = 13;</code>
+       * <code>.dstore.values.IntegerValue number_of_elements_in_result = 13;</code>
        */
       public boolean hasNumberOfElementsInResult() {
         return numberOfElementsInResultBuilder_ != null || numberOfElementsInResult_ != null;
       }
       /**
-       * <code>optional .dstore.values.IntegerValue number_of_elements_in_result = 13;</code>
+       * <code>.dstore.values.IntegerValue number_of_elements_in_result = 13;</code>
        */
       public io.dstore.values.IntegerValue getNumberOfElementsInResult() {
         if (numberOfElementsInResultBuilder_ == null) {
@@ -3563,7 +3563,7 @@ public final class ImGetModifiedNodesAd {
         }
       }
       /**
-       * <code>optional .dstore.values.IntegerValue number_of_elements_in_result = 13;</code>
+       * <code>.dstore.values.IntegerValue number_of_elements_in_result = 13;</code>
        */
       public Builder setNumberOfElementsInResult(io.dstore.values.IntegerValue value) {
         if (numberOfElementsInResultBuilder_ == null) {
@@ -3579,7 +3579,7 @@ public final class ImGetModifiedNodesAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.IntegerValue number_of_elements_in_result = 13;</code>
+       * <code>.dstore.values.IntegerValue number_of_elements_in_result = 13;</code>
        */
       public Builder setNumberOfElementsInResult(
           io.dstore.values.IntegerValue.Builder builderForValue) {
@@ -3593,7 +3593,7 @@ public final class ImGetModifiedNodesAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.IntegerValue number_of_elements_in_result = 13;</code>
+       * <code>.dstore.values.IntegerValue number_of_elements_in_result = 13;</code>
        */
       public Builder mergeNumberOfElementsInResult(io.dstore.values.IntegerValue value) {
         if (numberOfElementsInResultBuilder_ == null) {
@@ -3611,7 +3611,7 @@ public final class ImGetModifiedNodesAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.IntegerValue number_of_elements_in_result = 13;</code>
+       * <code>.dstore.values.IntegerValue number_of_elements_in_result = 13;</code>
        */
       public Builder clearNumberOfElementsInResult() {
         if (numberOfElementsInResultBuilder_ == null) {
@@ -3625,7 +3625,7 @@ public final class ImGetModifiedNodesAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.IntegerValue number_of_elements_in_result = 13;</code>
+       * <code>.dstore.values.IntegerValue number_of_elements_in_result = 13;</code>
        */
       public io.dstore.values.IntegerValue.Builder getNumberOfElementsInResultBuilder() {
         
@@ -3633,7 +3633,7 @@ public final class ImGetModifiedNodesAd {
         return getNumberOfElementsInResultFieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .dstore.values.IntegerValue number_of_elements_in_result = 13;</code>
+       * <code>.dstore.values.IntegerValue number_of_elements_in_result = 13;</code>
        */
       public io.dstore.values.IntegerValueOrBuilder getNumberOfElementsInResultOrBuilder() {
         if (numberOfElementsInResultBuilder_ != null) {
@@ -3644,7 +3644,7 @@ public final class ImGetModifiedNodesAd {
         }
       }
       /**
-       * <code>optional .dstore.values.IntegerValue number_of_elements_in_result = 13;</code>
+       * <code>.dstore.values.IntegerValue number_of_elements_in_result = 13;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> 
@@ -3662,13 +3662,13 @@ public final class ImGetModifiedNodesAd {
 
       private boolean numberOfElementsInResultNull_ ;
       /**
-       * <code>optional bool number_of_elements_in_result_null = 1013;</code>
+       * <code>bool number_of_elements_in_result_null = 1013;</code>
        */
       public boolean getNumberOfElementsInResultNull() {
         return numberOfElementsInResultNull_;
       }
       /**
-       * <code>optional bool number_of_elements_in_result_null = 1013;</code>
+       * <code>bool number_of_elements_in_result_null = 1013;</code>
        */
       public Builder setNumberOfElementsInResultNull(boolean value) {
         
@@ -3677,7 +3677,7 @@ public final class ImGetModifiedNodesAd {
         return this;
       }
       /**
-       * <code>optional bool number_of_elements_in_result_null = 1013;</code>
+       * <code>bool number_of_elements_in_result_null = 1013;</code>
        */
       public Builder clearNumberOfElementsInResultNull() {
         
@@ -3811,15 +3811,15 @@ public final class ImGetModifiedNodesAd {
         int index);
 
     /**
-     * <code>optional .dstore.values.IntegerValue number_of_elements_in_result = 101;</code>
+     * <code>.dstore.values.IntegerValue number_of_elements_in_result = 101;</code>
      */
     boolean hasNumberOfElementsInResult();
     /**
-     * <code>optional .dstore.values.IntegerValue number_of_elements_in_result = 101;</code>
+     * <code>.dstore.values.IntegerValue number_of_elements_in_result = 101;</code>
      */
     io.dstore.values.IntegerValue getNumberOfElementsInResult();
     /**
-     * <code>optional .dstore.values.IntegerValue number_of_elements_in_result = 101;</code>
+     * <code>.dstore.values.IntegerValue number_of_elements_in_result = 101;</code>
      */
     io.dstore.values.IntegerValueOrBuilder getNumberOfElementsInResultOrBuilder();
   }
@@ -3942,7 +3942,7 @@ public final class ImGetModifiedNodesAd {
         com.google.protobuf.MessageOrBuilder {
 
       /**
-       * <code>optional int32 row_id = 10000;</code>
+       * <code>int32 row_id = 10000;</code>
        */
       int getRowId();
 
@@ -3951,7 +3951,7 @@ public final class ImGetModifiedNodesAd {
        * Bezeichnung von "NodeID"
        * </pre>
        *
-       * <code>optional .dstore.values.StringValue node_description = 10001;</code>
+       * <code>.dstore.values.StringValue node_description = 10001;</code>
        */
       boolean hasNodeDescription();
       /**
@@ -3959,7 +3959,7 @@ public final class ImGetModifiedNodesAd {
        * Bezeichnung von "NodeID"
        * </pre>
        *
-       * <code>optional .dstore.values.StringValue node_description = 10001;</code>
+       * <code>.dstore.values.StringValue node_description = 10001;</code>
        */
       io.dstore.values.StringValue getNodeDescription();
       /**
@@ -3967,7 +3967,7 @@ public final class ImGetModifiedNodesAd {
        * Bezeichnung von "NodeID"
        * </pre>
        *
-       * <code>optional .dstore.values.StringValue node_description = 10001;</code>
+       * <code>.dstore.values.StringValue node_description = 10001;</code>
        */
       io.dstore.values.StringValueOrBuilder getNodeDescriptionOrBuilder();
 
@@ -3976,7 +3976,7 @@ public final class ImGetModifiedNodesAd {
        * ID eines gefundenen Artikel-Elementes
        * </pre>
        *
-       * <code>optional .dstore.values.IntegerValue node_id = 10002;</code>
+       * <code>.dstore.values.IntegerValue node_id = 10002;</code>
        */
       boolean hasNodeId();
       /**
@@ -3984,7 +3984,7 @@ public final class ImGetModifiedNodesAd {
        * ID eines gefundenen Artikel-Elementes
        * </pre>
        *
-       * <code>optional .dstore.values.IntegerValue node_id = 10002;</code>
+       * <code>.dstore.values.IntegerValue node_id = 10002;</code>
        */
       io.dstore.values.IntegerValue getNodeId();
       /**
@@ -3992,7 +3992,7 @@ public final class ImGetModifiedNodesAd {
        * ID eines gefundenen Artikel-Elementes
        * </pre>
        *
-       * <code>optional .dstore.values.IntegerValue node_id = 10002;</code>
+       * <code>.dstore.values.IntegerValue node_id = 10002;</code>
        */
       io.dstore.values.IntegerValueOrBuilder getNodeIdOrBuilder();
 
@@ -4001,7 +4001,7 @@ public final class ImGetModifiedNodesAd {
        * Liste von "MetaInformationTypeID"s (durch "¶" getrennt), zu denen es für "NodeID" ein Element im Artikelbaum gibt, das eine "Meta-Information" besitzt, die im angegebenen Zeitraum liegt. Kann aus diversen Gründen "NULL" sein - s. Beschreibung.
        * </pre>
        *
-       * <code>optional .dstore.values.StringValue matched_info_type_ids_t_node = 10003;</code>
+       * <code>.dstore.values.StringValue matched_info_type_ids_t_node = 10003;</code>
        */
       boolean hasMatchedInfoTypeIdsTNode();
       /**
@@ -4009,7 +4009,7 @@ public final class ImGetModifiedNodesAd {
        * Liste von "MetaInformationTypeID"s (durch "¶" getrennt), zu denen es für "NodeID" ein Element im Artikelbaum gibt, das eine "Meta-Information" besitzt, die im angegebenen Zeitraum liegt. Kann aus diversen Gründen "NULL" sein - s. Beschreibung.
        * </pre>
        *
-       * <code>optional .dstore.values.StringValue matched_info_type_ids_t_node = 10003;</code>
+       * <code>.dstore.values.StringValue matched_info_type_ids_t_node = 10003;</code>
        */
       io.dstore.values.StringValue getMatchedInfoTypeIdsTNode();
       /**
@@ -4017,7 +4017,7 @@ public final class ImGetModifiedNodesAd {
        * Liste von "MetaInformationTypeID"s (durch "¶" getrennt), zu denen es für "NodeID" ein Element im Artikelbaum gibt, das eine "Meta-Information" besitzt, die im angegebenen Zeitraum liegt. Kann aus diversen Gründen "NULL" sein - s. Beschreibung.
        * </pre>
        *
-       * <code>optional .dstore.values.StringValue matched_info_type_ids_t_node = 10003;</code>
+       * <code>.dstore.values.StringValue matched_info_type_ids_t_node = 10003;</code>
        */
       io.dstore.values.StringValueOrBuilder getMatchedInfoTypeIdsTNodeOrBuilder();
 
@@ -4026,7 +4026,7 @@ public final class ImGetModifiedNodesAd {
        * Liste von "MetaInformationTypeID"s (durch "¶" getrennt), zu denen "NodeID" eine "Meta-Information" besitzt, die im angegebenen Zeitraum liegt. Kann aus diversen Gründen "NULL" sein - s. Beschreibung.
        * </pre>
        *
-       * <code>optional .dstore.values.StringValue matched_info_type_ids_node = 10004;</code>
+       * <code>.dstore.values.StringValue matched_info_type_ids_node = 10004;</code>
        */
       boolean hasMatchedInfoTypeIdsNode();
       /**
@@ -4034,7 +4034,7 @@ public final class ImGetModifiedNodesAd {
        * Liste von "MetaInformationTypeID"s (durch "¶" getrennt), zu denen "NodeID" eine "Meta-Information" besitzt, die im angegebenen Zeitraum liegt. Kann aus diversen Gründen "NULL" sein - s. Beschreibung.
        * </pre>
        *
-       * <code>optional .dstore.values.StringValue matched_info_type_ids_node = 10004;</code>
+       * <code>.dstore.values.StringValue matched_info_type_ids_node = 10004;</code>
        */
       io.dstore.values.StringValue getMatchedInfoTypeIdsNode();
       /**
@@ -4042,7 +4042,7 @@ public final class ImGetModifiedNodesAd {
        * Liste von "MetaInformationTypeID"s (durch "¶" getrennt), zu denen "NodeID" eine "Meta-Information" besitzt, die im angegebenen Zeitraum liegt. Kann aus diversen Gründen "NULL" sein - s. Beschreibung.
        * </pre>
        *
-       * <code>optional .dstore.values.StringValue matched_info_type_ids_node = 10004;</code>
+       * <code>.dstore.values.StringValue matched_info_type_ids_node = 10004;</code>
        */
       io.dstore.values.StringValueOrBuilder getMatchedInfoTypeIdsNodeOrBuilder();
 
@@ -4051,7 +4051,7 @@ public final class ImGetModifiedNodesAd {
        * ID der Hierarchie von "NodeID" (immer "&#64;LevelID" wenn angegeben)
        * </pre>
        *
-       * <code>optional .dstore.values.IntegerValue level_id = 10005;</code>
+       * <code>.dstore.values.IntegerValue level_id = 10005;</code>
        */
       boolean hasLevelId();
       /**
@@ -4059,7 +4059,7 @@ public final class ImGetModifiedNodesAd {
        * ID der Hierarchie von "NodeID" (immer "&#64;LevelID" wenn angegeben)
        * </pre>
        *
-       * <code>optional .dstore.values.IntegerValue level_id = 10005;</code>
+       * <code>.dstore.values.IntegerValue level_id = 10005;</code>
        */
       io.dstore.values.IntegerValue getLevelId();
       /**
@@ -4067,7 +4067,7 @@ public final class ImGetModifiedNodesAd {
        * ID der Hierarchie von "NodeID" (immer "&#64;LevelID" wenn angegeben)
        * </pre>
        *
-       * <code>optional .dstore.values.IntegerValue level_id = 10005;</code>
+       * <code>.dstore.values.IntegerValue level_id = 10005;</code>
        */
       io.dstore.values.IntegerValueOrBuilder getLevelIdOrBuilder();
 
@@ -4076,7 +4076,7 @@ public final class ImGetModifiedNodesAd {
        * Ist das Element aktiviert oder nicht ?
        * </pre>
        *
-       * <code>optional .dstore.values.BooleanValue active = 20001;</code>
+       * <code>.dstore.values.BooleanValue active = 20001;</code>
        */
       boolean hasActive();
       /**
@@ -4084,7 +4084,7 @@ public final class ImGetModifiedNodesAd {
        * Ist das Element aktiviert oder nicht ?
        * </pre>
        *
-       * <code>optional .dstore.values.BooleanValue active = 20001;</code>
+       * <code>.dstore.values.BooleanValue active = 20001;</code>
        */
       io.dstore.values.BooleanValue getActive();
       /**
@@ -4092,7 +4092,7 @@ public final class ImGetModifiedNodesAd {
        * Ist das Element aktiviert oder nicht ?
        * </pre>
        *
-       * <code>optional .dstore.values.BooleanValue active = 20001;</code>
+       * <code>.dstore.values.BooleanValue active = 20001;</code>
        */
       io.dstore.values.BooleanValueOrBuilder getActiveOrBuilder();
 
@@ -4101,7 +4101,7 @@ public final class ImGetModifiedNodesAd {
        * ID eines gefundenen Elementes im Artikelbaum
        * </pre>
        *
-       * <code>optional .dstore.values.IntegerValue tree_node_id = 20003;</code>
+       * <code>.dstore.values.IntegerValue tree_node_id = 20003;</code>
        */
       boolean hasTreeNodeId();
       /**
@@ -4109,7 +4109,7 @@ public final class ImGetModifiedNodesAd {
        * ID eines gefundenen Elementes im Artikelbaum
        * </pre>
        *
-       * <code>optional .dstore.values.IntegerValue tree_node_id = 20003;</code>
+       * <code>.dstore.values.IntegerValue tree_node_id = 20003;</code>
        */
       io.dstore.values.IntegerValue getTreeNodeId();
       /**
@@ -4117,7 +4117,7 @@ public final class ImGetModifiedNodesAd {
        * ID eines gefundenen Elementes im Artikelbaum
        * </pre>
        *
-       * <code>optional .dstore.values.IntegerValue tree_node_id = 20003;</code>
+       * <code>.dstore.values.IntegerValue tree_node_id = 20003;</code>
        */
       io.dstore.values.IntegerValueOrBuilder getTreeNodeIdOrBuilder();
 
@@ -4126,7 +4126,7 @@ public final class ImGetModifiedNodesAd {
        * Beschreibung des Vor-Vorgängers des gefundenen Elementes
        * </pre>
        *
-       * <code>optional .dstore.values.StringValue pre_predecessors_description = 20005;</code>
+       * <code>.dstore.values.StringValue pre_predecessors_description = 20005;</code>
        */
       boolean hasPrePredecessorsDescription();
       /**
@@ -4134,7 +4134,7 @@ public final class ImGetModifiedNodesAd {
        * Beschreibung des Vor-Vorgängers des gefundenen Elementes
        * </pre>
        *
-       * <code>optional .dstore.values.StringValue pre_predecessors_description = 20005;</code>
+       * <code>.dstore.values.StringValue pre_predecessors_description = 20005;</code>
        */
       io.dstore.values.StringValue getPrePredecessorsDescription();
       /**
@@ -4142,7 +4142,7 @@ public final class ImGetModifiedNodesAd {
        * Beschreibung des Vor-Vorgängers des gefundenen Elementes
        * </pre>
        *
-       * <code>optional .dstore.values.StringValue pre_predecessors_description = 20005;</code>
+       * <code>.dstore.values.StringValue pre_predecessors_description = 20005;</code>
        */
       io.dstore.values.StringValueOrBuilder getPrePredecessorsDescriptionOrBuilder();
 
@@ -4151,7 +4151,7 @@ public final class ImGetModifiedNodesAd {
        * TreeNodeID des Vor-Vorgängers
        * </pre>
        *
-       * <code>optional .dstore.values.IntegerValue pre_predecessors_tree_node_id = 20007;</code>
+       * <code>.dstore.values.IntegerValue pre_predecessors_tree_node_id = 20007;</code>
        */
       boolean hasPrePredecessorsTreeNodeId();
       /**
@@ -4159,7 +4159,7 @@ public final class ImGetModifiedNodesAd {
        * TreeNodeID des Vor-Vorgängers
        * </pre>
        *
-       * <code>optional .dstore.values.IntegerValue pre_predecessors_tree_node_id = 20007;</code>
+       * <code>.dstore.values.IntegerValue pre_predecessors_tree_node_id = 20007;</code>
        */
       io.dstore.values.IntegerValue getPrePredecessorsTreeNodeId();
       /**
@@ -4167,7 +4167,7 @@ public final class ImGetModifiedNodesAd {
        * TreeNodeID des Vor-Vorgängers
        * </pre>
        *
-       * <code>optional .dstore.values.IntegerValue pre_predecessors_tree_node_id = 20007;</code>
+       * <code>.dstore.values.IntegerValue pre_predecessors_tree_node_id = 20007;</code>
        */
       io.dstore.values.IntegerValueOrBuilder getPrePredecessorsTreeNodeIdOrBuilder();
 
@@ -4176,7 +4176,7 @@ public final class ImGetModifiedNodesAd {
        * TreeNodeID des Vorgängers
        * </pre>
        *
-       * <code>optional .dstore.values.IntegerValue predecessors_tree_node_id = 20009;</code>
+       * <code>.dstore.values.IntegerValue predecessors_tree_node_id = 20009;</code>
        */
       boolean hasPredecessorsTreeNodeId();
       /**
@@ -4184,7 +4184,7 @@ public final class ImGetModifiedNodesAd {
        * TreeNodeID des Vorgängers
        * </pre>
        *
-       * <code>optional .dstore.values.IntegerValue predecessors_tree_node_id = 20009;</code>
+       * <code>.dstore.values.IntegerValue predecessors_tree_node_id = 20009;</code>
        */
       io.dstore.values.IntegerValue getPredecessorsTreeNodeId();
       /**
@@ -4192,7 +4192,7 @@ public final class ImGetModifiedNodesAd {
        * TreeNodeID des Vorgängers
        * </pre>
        *
-       * <code>optional .dstore.values.IntegerValue predecessors_tree_node_id = 20009;</code>
+       * <code>.dstore.values.IntegerValue predecessors_tree_node_id = 20009;</code>
        */
       io.dstore.values.IntegerValueOrBuilder getPredecessorsTreeNodeIdOrBuilder();
 
@@ -4201,7 +4201,7 @@ public final class ImGetModifiedNodesAd {
        * Beschreibung des Vorgängers des gefundenen Elementes
        * </pre>
        *
-       * <code>optional .dstore.values.StringValue predecessors_description = 20010;</code>
+       * <code>.dstore.values.StringValue predecessors_description = 20010;</code>
        */
       boolean hasPredecessorsDescription();
       /**
@@ -4209,7 +4209,7 @@ public final class ImGetModifiedNodesAd {
        * Beschreibung des Vorgängers des gefundenen Elementes
        * </pre>
        *
-       * <code>optional .dstore.values.StringValue predecessors_description = 20010;</code>
+       * <code>.dstore.values.StringValue predecessors_description = 20010;</code>
        */
       io.dstore.values.StringValue getPredecessorsDescription();
       /**
@@ -4217,7 +4217,7 @@ public final class ImGetModifiedNodesAd {
        * Beschreibung des Vorgängers des gefundenen Elementes
        * </pre>
        *
-       * <code>optional .dstore.values.StringValue predecessors_description = 20010;</code>
+       * <code>.dstore.values.StringValue predecessors_description = 20010;</code>
        */
       io.dstore.values.StringValueOrBuilder getPredecessorsDescriptionOrBuilder();
     }
@@ -4435,7 +4435,7 @@ public final class ImGetModifiedNodesAd {
       public static final int ROW_ID_FIELD_NUMBER = 10000;
       private int rowId_;
       /**
-       * <code>optional int32 row_id = 10000;</code>
+       * <code>int32 row_id = 10000;</code>
        */
       public int getRowId() {
         return rowId_;
@@ -4448,7 +4448,7 @@ public final class ImGetModifiedNodesAd {
        * Bezeichnung von "NodeID"
        * </pre>
        *
-       * <code>optional .dstore.values.StringValue node_description = 10001;</code>
+       * <code>.dstore.values.StringValue node_description = 10001;</code>
        */
       public boolean hasNodeDescription() {
         return nodeDescription_ != null;
@@ -4458,7 +4458,7 @@ public final class ImGetModifiedNodesAd {
        * Bezeichnung von "NodeID"
        * </pre>
        *
-       * <code>optional .dstore.values.StringValue node_description = 10001;</code>
+       * <code>.dstore.values.StringValue node_description = 10001;</code>
        */
       public io.dstore.values.StringValue getNodeDescription() {
         return nodeDescription_ == null ? io.dstore.values.StringValue.getDefaultInstance() : nodeDescription_;
@@ -4468,7 +4468,7 @@ public final class ImGetModifiedNodesAd {
        * Bezeichnung von "NodeID"
        * </pre>
        *
-       * <code>optional .dstore.values.StringValue node_description = 10001;</code>
+       * <code>.dstore.values.StringValue node_description = 10001;</code>
        */
       public io.dstore.values.StringValueOrBuilder getNodeDescriptionOrBuilder() {
         return getNodeDescription();
@@ -4481,7 +4481,7 @@ public final class ImGetModifiedNodesAd {
        * ID eines gefundenen Artikel-Elementes
        * </pre>
        *
-       * <code>optional .dstore.values.IntegerValue node_id = 10002;</code>
+       * <code>.dstore.values.IntegerValue node_id = 10002;</code>
        */
       public boolean hasNodeId() {
         return nodeId_ != null;
@@ -4491,7 +4491,7 @@ public final class ImGetModifiedNodesAd {
        * ID eines gefundenen Artikel-Elementes
        * </pre>
        *
-       * <code>optional .dstore.values.IntegerValue node_id = 10002;</code>
+       * <code>.dstore.values.IntegerValue node_id = 10002;</code>
        */
       public io.dstore.values.IntegerValue getNodeId() {
         return nodeId_ == null ? io.dstore.values.IntegerValue.getDefaultInstance() : nodeId_;
@@ -4501,7 +4501,7 @@ public final class ImGetModifiedNodesAd {
        * ID eines gefundenen Artikel-Elementes
        * </pre>
        *
-       * <code>optional .dstore.values.IntegerValue node_id = 10002;</code>
+       * <code>.dstore.values.IntegerValue node_id = 10002;</code>
        */
       public io.dstore.values.IntegerValueOrBuilder getNodeIdOrBuilder() {
         return getNodeId();
@@ -4514,7 +4514,7 @@ public final class ImGetModifiedNodesAd {
        * Liste von "MetaInformationTypeID"s (durch "¶" getrennt), zu denen es für "NodeID" ein Element im Artikelbaum gibt, das eine "Meta-Information" besitzt, die im angegebenen Zeitraum liegt. Kann aus diversen Gründen "NULL" sein - s. Beschreibung.
        * </pre>
        *
-       * <code>optional .dstore.values.StringValue matched_info_type_ids_t_node = 10003;</code>
+       * <code>.dstore.values.StringValue matched_info_type_ids_t_node = 10003;</code>
        */
       public boolean hasMatchedInfoTypeIdsTNode() {
         return matchedInfoTypeIdsTNode_ != null;
@@ -4524,7 +4524,7 @@ public final class ImGetModifiedNodesAd {
        * Liste von "MetaInformationTypeID"s (durch "¶" getrennt), zu denen es für "NodeID" ein Element im Artikelbaum gibt, das eine "Meta-Information" besitzt, die im angegebenen Zeitraum liegt. Kann aus diversen Gründen "NULL" sein - s. Beschreibung.
        * </pre>
        *
-       * <code>optional .dstore.values.StringValue matched_info_type_ids_t_node = 10003;</code>
+       * <code>.dstore.values.StringValue matched_info_type_ids_t_node = 10003;</code>
        */
       public io.dstore.values.StringValue getMatchedInfoTypeIdsTNode() {
         return matchedInfoTypeIdsTNode_ == null ? io.dstore.values.StringValue.getDefaultInstance() : matchedInfoTypeIdsTNode_;
@@ -4534,7 +4534,7 @@ public final class ImGetModifiedNodesAd {
        * Liste von "MetaInformationTypeID"s (durch "¶" getrennt), zu denen es für "NodeID" ein Element im Artikelbaum gibt, das eine "Meta-Information" besitzt, die im angegebenen Zeitraum liegt. Kann aus diversen Gründen "NULL" sein - s. Beschreibung.
        * </pre>
        *
-       * <code>optional .dstore.values.StringValue matched_info_type_ids_t_node = 10003;</code>
+       * <code>.dstore.values.StringValue matched_info_type_ids_t_node = 10003;</code>
        */
       public io.dstore.values.StringValueOrBuilder getMatchedInfoTypeIdsTNodeOrBuilder() {
         return getMatchedInfoTypeIdsTNode();
@@ -4547,7 +4547,7 @@ public final class ImGetModifiedNodesAd {
        * Liste von "MetaInformationTypeID"s (durch "¶" getrennt), zu denen "NodeID" eine "Meta-Information" besitzt, die im angegebenen Zeitraum liegt. Kann aus diversen Gründen "NULL" sein - s. Beschreibung.
        * </pre>
        *
-       * <code>optional .dstore.values.StringValue matched_info_type_ids_node = 10004;</code>
+       * <code>.dstore.values.StringValue matched_info_type_ids_node = 10004;</code>
        */
       public boolean hasMatchedInfoTypeIdsNode() {
         return matchedInfoTypeIdsNode_ != null;
@@ -4557,7 +4557,7 @@ public final class ImGetModifiedNodesAd {
        * Liste von "MetaInformationTypeID"s (durch "¶" getrennt), zu denen "NodeID" eine "Meta-Information" besitzt, die im angegebenen Zeitraum liegt. Kann aus diversen Gründen "NULL" sein - s. Beschreibung.
        * </pre>
        *
-       * <code>optional .dstore.values.StringValue matched_info_type_ids_node = 10004;</code>
+       * <code>.dstore.values.StringValue matched_info_type_ids_node = 10004;</code>
        */
       public io.dstore.values.StringValue getMatchedInfoTypeIdsNode() {
         return matchedInfoTypeIdsNode_ == null ? io.dstore.values.StringValue.getDefaultInstance() : matchedInfoTypeIdsNode_;
@@ -4567,7 +4567,7 @@ public final class ImGetModifiedNodesAd {
        * Liste von "MetaInformationTypeID"s (durch "¶" getrennt), zu denen "NodeID" eine "Meta-Information" besitzt, die im angegebenen Zeitraum liegt. Kann aus diversen Gründen "NULL" sein - s. Beschreibung.
        * </pre>
        *
-       * <code>optional .dstore.values.StringValue matched_info_type_ids_node = 10004;</code>
+       * <code>.dstore.values.StringValue matched_info_type_ids_node = 10004;</code>
        */
       public io.dstore.values.StringValueOrBuilder getMatchedInfoTypeIdsNodeOrBuilder() {
         return getMatchedInfoTypeIdsNode();
@@ -4580,7 +4580,7 @@ public final class ImGetModifiedNodesAd {
        * ID der Hierarchie von "NodeID" (immer "&#64;LevelID" wenn angegeben)
        * </pre>
        *
-       * <code>optional .dstore.values.IntegerValue level_id = 10005;</code>
+       * <code>.dstore.values.IntegerValue level_id = 10005;</code>
        */
       public boolean hasLevelId() {
         return levelId_ != null;
@@ -4590,7 +4590,7 @@ public final class ImGetModifiedNodesAd {
        * ID der Hierarchie von "NodeID" (immer "&#64;LevelID" wenn angegeben)
        * </pre>
        *
-       * <code>optional .dstore.values.IntegerValue level_id = 10005;</code>
+       * <code>.dstore.values.IntegerValue level_id = 10005;</code>
        */
       public io.dstore.values.IntegerValue getLevelId() {
         return levelId_ == null ? io.dstore.values.IntegerValue.getDefaultInstance() : levelId_;
@@ -4600,7 +4600,7 @@ public final class ImGetModifiedNodesAd {
        * ID der Hierarchie von "NodeID" (immer "&#64;LevelID" wenn angegeben)
        * </pre>
        *
-       * <code>optional .dstore.values.IntegerValue level_id = 10005;</code>
+       * <code>.dstore.values.IntegerValue level_id = 10005;</code>
        */
       public io.dstore.values.IntegerValueOrBuilder getLevelIdOrBuilder() {
         return getLevelId();
@@ -4613,7 +4613,7 @@ public final class ImGetModifiedNodesAd {
        * Ist das Element aktiviert oder nicht ?
        * </pre>
        *
-       * <code>optional .dstore.values.BooleanValue active = 20001;</code>
+       * <code>.dstore.values.BooleanValue active = 20001;</code>
        */
       public boolean hasActive() {
         return active_ != null;
@@ -4623,7 +4623,7 @@ public final class ImGetModifiedNodesAd {
        * Ist das Element aktiviert oder nicht ?
        * </pre>
        *
-       * <code>optional .dstore.values.BooleanValue active = 20001;</code>
+       * <code>.dstore.values.BooleanValue active = 20001;</code>
        */
       public io.dstore.values.BooleanValue getActive() {
         return active_ == null ? io.dstore.values.BooleanValue.getDefaultInstance() : active_;
@@ -4633,7 +4633,7 @@ public final class ImGetModifiedNodesAd {
        * Ist das Element aktiviert oder nicht ?
        * </pre>
        *
-       * <code>optional .dstore.values.BooleanValue active = 20001;</code>
+       * <code>.dstore.values.BooleanValue active = 20001;</code>
        */
       public io.dstore.values.BooleanValueOrBuilder getActiveOrBuilder() {
         return getActive();
@@ -4646,7 +4646,7 @@ public final class ImGetModifiedNodesAd {
        * ID eines gefundenen Elementes im Artikelbaum
        * </pre>
        *
-       * <code>optional .dstore.values.IntegerValue tree_node_id = 20003;</code>
+       * <code>.dstore.values.IntegerValue tree_node_id = 20003;</code>
        */
       public boolean hasTreeNodeId() {
         return treeNodeId_ != null;
@@ -4656,7 +4656,7 @@ public final class ImGetModifiedNodesAd {
        * ID eines gefundenen Elementes im Artikelbaum
        * </pre>
        *
-       * <code>optional .dstore.values.IntegerValue tree_node_id = 20003;</code>
+       * <code>.dstore.values.IntegerValue tree_node_id = 20003;</code>
        */
       public io.dstore.values.IntegerValue getTreeNodeId() {
         return treeNodeId_ == null ? io.dstore.values.IntegerValue.getDefaultInstance() : treeNodeId_;
@@ -4666,7 +4666,7 @@ public final class ImGetModifiedNodesAd {
        * ID eines gefundenen Elementes im Artikelbaum
        * </pre>
        *
-       * <code>optional .dstore.values.IntegerValue tree_node_id = 20003;</code>
+       * <code>.dstore.values.IntegerValue tree_node_id = 20003;</code>
        */
       public io.dstore.values.IntegerValueOrBuilder getTreeNodeIdOrBuilder() {
         return getTreeNodeId();
@@ -4679,7 +4679,7 @@ public final class ImGetModifiedNodesAd {
        * Beschreibung des Vor-Vorgängers des gefundenen Elementes
        * </pre>
        *
-       * <code>optional .dstore.values.StringValue pre_predecessors_description = 20005;</code>
+       * <code>.dstore.values.StringValue pre_predecessors_description = 20005;</code>
        */
       public boolean hasPrePredecessorsDescription() {
         return prePredecessorsDescription_ != null;
@@ -4689,7 +4689,7 @@ public final class ImGetModifiedNodesAd {
        * Beschreibung des Vor-Vorgängers des gefundenen Elementes
        * </pre>
        *
-       * <code>optional .dstore.values.StringValue pre_predecessors_description = 20005;</code>
+       * <code>.dstore.values.StringValue pre_predecessors_description = 20005;</code>
        */
       public io.dstore.values.StringValue getPrePredecessorsDescription() {
         return prePredecessorsDescription_ == null ? io.dstore.values.StringValue.getDefaultInstance() : prePredecessorsDescription_;
@@ -4699,7 +4699,7 @@ public final class ImGetModifiedNodesAd {
        * Beschreibung des Vor-Vorgängers des gefundenen Elementes
        * </pre>
        *
-       * <code>optional .dstore.values.StringValue pre_predecessors_description = 20005;</code>
+       * <code>.dstore.values.StringValue pre_predecessors_description = 20005;</code>
        */
       public io.dstore.values.StringValueOrBuilder getPrePredecessorsDescriptionOrBuilder() {
         return getPrePredecessorsDescription();
@@ -4712,7 +4712,7 @@ public final class ImGetModifiedNodesAd {
        * TreeNodeID des Vor-Vorgängers
        * </pre>
        *
-       * <code>optional .dstore.values.IntegerValue pre_predecessors_tree_node_id = 20007;</code>
+       * <code>.dstore.values.IntegerValue pre_predecessors_tree_node_id = 20007;</code>
        */
       public boolean hasPrePredecessorsTreeNodeId() {
         return prePredecessorsTreeNodeId_ != null;
@@ -4722,7 +4722,7 @@ public final class ImGetModifiedNodesAd {
        * TreeNodeID des Vor-Vorgängers
        * </pre>
        *
-       * <code>optional .dstore.values.IntegerValue pre_predecessors_tree_node_id = 20007;</code>
+       * <code>.dstore.values.IntegerValue pre_predecessors_tree_node_id = 20007;</code>
        */
       public io.dstore.values.IntegerValue getPrePredecessorsTreeNodeId() {
         return prePredecessorsTreeNodeId_ == null ? io.dstore.values.IntegerValue.getDefaultInstance() : prePredecessorsTreeNodeId_;
@@ -4732,7 +4732,7 @@ public final class ImGetModifiedNodesAd {
        * TreeNodeID des Vor-Vorgängers
        * </pre>
        *
-       * <code>optional .dstore.values.IntegerValue pre_predecessors_tree_node_id = 20007;</code>
+       * <code>.dstore.values.IntegerValue pre_predecessors_tree_node_id = 20007;</code>
        */
       public io.dstore.values.IntegerValueOrBuilder getPrePredecessorsTreeNodeIdOrBuilder() {
         return getPrePredecessorsTreeNodeId();
@@ -4745,7 +4745,7 @@ public final class ImGetModifiedNodesAd {
        * TreeNodeID des Vorgängers
        * </pre>
        *
-       * <code>optional .dstore.values.IntegerValue predecessors_tree_node_id = 20009;</code>
+       * <code>.dstore.values.IntegerValue predecessors_tree_node_id = 20009;</code>
        */
       public boolean hasPredecessorsTreeNodeId() {
         return predecessorsTreeNodeId_ != null;
@@ -4755,7 +4755,7 @@ public final class ImGetModifiedNodesAd {
        * TreeNodeID des Vorgängers
        * </pre>
        *
-       * <code>optional .dstore.values.IntegerValue predecessors_tree_node_id = 20009;</code>
+       * <code>.dstore.values.IntegerValue predecessors_tree_node_id = 20009;</code>
        */
       public io.dstore.values.IntegerValue getPredecessorsTreeNodeId() {
         return predecessorsTreeNodeId_ == null ? io.dstore.values.IntegerValue.getDefaultInstance() : predecessorsTreeNodeId_;
@@ -4765,7 +4765,7 @@ public final class ImGetModifiedNodesAd {
        * TreeNodeID des Vorgängers
        * </pre>
        *
-       * <code>optional .dstore.values.IntegerValue predecessors_tree_node_id = 20009;</code>
+       * <code>.dstore.values.IntegerValue predecessors_tree_node_id = 20009;</code>
        */
       public io.dstore.values.IntegerValueOrBuilder getPredecessorsTreeNodeIdOrBuilder() {
         return getPredecessorsTreeNodeId();
@@ -4778,7 +4778,7 @@ public final class ImGetModifiedNodesAd {
        * Beschreibung des Vorgängers des gefundenen Elementes
        * </pre>
        *
-       * <code>optional .dstore.values.StringValue predecessors_description = 20010;</code>
+       * <code>.dstore.values.StringValue predecessors_description = 20010;</code>
        */
       public boolean hasPredecessorsDescription() {
         return predecessorsDescription_ != null;
@@ -4788,7 +4788,7 @@ public final class ImGetModifiedNodesAd {
        * Beschreibung des Vorgängers des gefundenen Elementes
        * </pre>
        *
-       * <code>optional .dstore.values.StringValue predecessors_description = 20010;</code>
+       * <code>.dstore.values.StringValue predecessors_description = 20010;</code>
        */
       public io.dstore.values.StringValue getPredecessorsDescription() {
         return predecessorsDescription_ == null ? io.dstore.values.StringValue.getDefaultInstance() : predecessorsDescription_;
@@ -4798,7 +4798,7 @@ public final class ImGetModifiedNodesAd {
        * Beschreibung des Vorgängers des gefundenen Elementes
        * </pre>
        *
-       * <code>optional .dstore.values.StringValue predecessors_description = 20010;</code>
+       * <code>.dstore.values.StringValue predecessors_description = 20010;</code>
        */
       public io.dstore.values.StringValueOrBuilder getPredecessorsDescriptionOrBuilder() {
         return getPredecessorsDescription();
@@ -4989,7 +4989,7 @@ public final class ImGetModifiedNodesAd {
           return memoizedHashCode;
         }
         int hash = 41;
-        hash = (19 * hash) + getDescriptorForType().hashCode();
+        hash = (19 * hash) + getDescriptor().hashCode();
         hash = (37 * hash) + ROW_ID_FIELD_NUMBER;
         hash = (53 * hash) + getRowId();
         if (hasNodeDescription()) {
@@ -5405,13 +5405,13 @@ public final class ImGetModifiedNodesAd {
 
         private int rowId_ ;
         /**
-         * <code>optional int32 row_id = 10000;</code>
+         * <code>int32 row_id = 10000;</code>
          */
         public int getRowId() {
           return rowId_;
         }
         /**
-         * <code>optional int32 row_id = 10000;</code>
+         * <code>int32 row_id = 10000;</code>
          */
         public Builder setRowId(int value) {
           
@@ -5420,7 +5420,7 @@ public final class ImGetModifiedNodesAd {
           return this;
         }
         /**
-         * <code>optional int32 row_id = 10000;</code>
+         * <code>int32 row_id = 10000;</code>
          */
         public Builder clearRowId() {
           
@@ -5437,7 +5437,7 @@ public final class ImGetModifiedNodesAd {
          * Bezeichnung von "NodeID"
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue node_description = 10001;</code>
+         * <code>.dstore.values.StringValue node_description = 10001;</code>
          */
         public boolean hasNodeDescription() {
           return nodeDescriptionBuilder_ != null || nodeDescription_ != null;
@@ -5447,7 +5447,7 @@ public final class ImGetModifiedNodesAd {
          * Bezeichnung von "NodeID"
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue node_description = 10001;</code>
+         * <code>.dstore.values.StringValue node_description = 10001;</code>
          */
         public io.dstore.values.StringValue getNodeDescription() {
           if (nodeDescriptionBuilder_ == null) {
@@ -5461,7 +5461,7 @@ public final class ImGetModifiedNodesAd {
          * Bezeichnung von "NodeID"
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue node_description = 10001;</code>
+         * <code>.dstore.values.StringValue node_description = 10001;</code>
          */
         public Builder setNodeDescription(io.dstore.values.StringValue value) {
           if (nodeDescriptionBuilder_ == null) {
@@ -5481,7 +5481,7 @@ public final class ImGetModifiedNodesAd {
          * Bezeichnung von "NodeID"
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue node_description = 10001;</code>
+         * <code>.dstore.values.StringValue node_description = 10001;</code>
          */
         public Builder setNodeDescription(
             io.dstore.values.StringValue.Builder builderForValue) {
@@ -5499,7 +5499,7 @@ public final class ImGetModifiedNodesAd {
          * Bezeichnung von "NodeID"
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue node_description = 10001;</code>
+         * <code>.dstore.values.StringValue node_description = 10001;</code>
          */
         public Builder mergeNodeDescription(io.dstore.values.StringValue value) {
           if (nodeDescriptionBuilder_ == null) {
@@ -5521,7 +5521,7 @@ public final class ImGetModifiedNodesAd {
          * Bezeichnung von "NodeID"
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue node_description = 10001;</code>
+         * <code>.dstore.values.StringValue node_description = 10001;</code>
          */
         public Builder clearNodeDescription() {
           if (nodeDescriptionBuilder_ == null) {
@@ -5539,7 +5539,7 @@ public final class ImGetModifiedNodesAd {
          * Bezeichnung von "NodeID"
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue node_description = 10001;</code>
+         * <code>.dstore.values.StringValue node_description = 10001;</code>
          */
         public io.dstore.values.StringValue.Builder getNodeDescriptionBuilder() {
           
@@ -5551,7 +5551,7 @@ public final class ImGetModifiedNodesAd {
          * Bezeichnung von "NodeID"
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue node_description = 10001;</code>
+         * <code>.dstore.values.StringValue node_description = 10001;</code>
          */
         public io.dstore.values.StringValueOrBuilder getNodeDescriptionOrBuilder() {
           if (nodeDescriptionBuilder_ != null) {
@@ -5566,7 +5566,7 @@ public final class ImGetModifiedNodesAd {
          * Bezeichnung von "NodeID"
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue node_description = 10001;</code>
+         * <code>.dstore.values.StringValue node_description = 10001;</code>
          */
         private com.google.protobuf.SingleFieldBuilderV3<
             io.dstore.values.StringValue, io.dstore.values.StringValue.Builder, io.dstore.values.StringValueOrBuilder> 
@@ -5590,7 +5590,7 @@ public final class ImGetModifiedNodesAd {
          * ID eines gefundenen Artikel-Elementes
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue node_id = 10002;</code>
+         * <code>.dstore.values.IntegerValue node_id = 10002;</code>
          */
         public boolean hasNodeId() {
           return nodeIdBuilder_ != null || nodeId_ != null;
@@ -5600,7 +5600,7 @@ public final class ImGetModifiedNodesAd {
          * ID eines gefundenen Artikel-Elementes
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue node_id = 10002;</code>
+         * <code>.dstore.values.IntegerValue node_id = 10002;</code>
          */
         public io.dstore.values.IntegerValue getNodeId() {
           if (nodeIdBuilder_ == null) {
@@ -5614,7 +5614,7 @@ public final class ImGetModifiedNodesAd {
          * ID eines gefundenen Artikel-Elementes
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue node_id = 10002;</code>
+         * <code>.dstore.values.IntegerValue node_id = 10002;</code>
          */
         public Builder setNodeId(io.dstore.values.IntegerValue value) {
           if (nodeIdBuilder_ == null) {
@@ -5634,7 +5634,7 @@ public final class ImGetModifiedNodesAd {
          * ID eines gefundenen Artikel-Elementes
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue node_id = 10002;</code>
+         * <code>.dstore.values.IntegerValue node_id = 10002;</code>
          */
         public Builder setNodeId(
             io.dstore.values.IntegerValue.Builder builderForValue) {
@@ -5652,7 +5652,7 @@ public final class ImGetModifiedNodesAd {
          * ID eines gefundenen Artikel-Elementes
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue node_id = 10002;</code>
+         * <code>.dstore.values.IntegerValue node_id = 10002;</code>
          */
         public Builder mergeNodeId(io.dstore.values.IntegerValue value) {
           if (nodeIdBuilder_ == null) {
@@ -5674,7 +5674,7 @@ public final class ImGetModifiedNodesAd {
          * ID eines gefundenen Artikel-Elementes
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue node_id = 10002;</code>
+         * <code>.dstore.values.IntegerValue node_id = 10002;</code>
          */
         public Builder clearNodeId() {
           if (nodeIdBuilder_ == null) {
@@ -5692,7 +5692,7 @@ public final class ImGetModifiedNodesAd {
          * ID eines gefundenen Artikel-Elementes
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue node_id = 10002;</code>
+         * <code>.dstore.values.IntegerValue node_id = 10002;</code>
          */
         public io.dstore.values.IntegerValue.Builder getNodeIdBuilder() {
           
@@ -5704,7 +5704,7 @@ public final class ImGetModifiedNodesAd {
          * ID eines gefundenen Artikel-Elementes
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue node_id = 10002;</code>
+         * <code>.dstore.values.IntegerValue node_id = 10002;</code>
          */
         public io.dstore.values.IntegerValueOrBuilder getNodeIdOrBuilder() {
           if (nodeIdBuilder_ != null) {
@@ -5719,7 +5719,7 @@ public final class ImGetModifiedNodesAd {
          * ID eines gefundenen Artikel-Elementes
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue node_id = 10002;</code>
+         * <code>.dstore.values.IntegerValue node_id = 10002;</code>
          */
         private com.google.protobuf.SingleFieldBuilderV3<
             io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> 
@@ -5743,7 +5743,7 @@ public final class ImGetModifiedNodesAd {
          * Liste von "MetaInformationTypeID"s (durch "¶" getrennt), zu denen es für "NodeID" ein Element im Artikelbaum gibt, das eine "Meta-Information" besitzt, die im angegebenen Zeitraum liegt. Kann aus diversen Gründen "NULL" sein - s. Beschreibung.
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue matched_info_type_ids_t_node = 10003;</code>
+         * <code>.dstore.values.StringValue matched_info_type_ids_t_node = 10003;</code>
          */
         public boolean hasMatchedInfoTypeIdsTNode() {
           return matchedInfoTypeIdsTNodeBuilder_ != null || matchedInfoTypeIdsTNode_ != null;
@@ -5753,7 +5753,7 @@ public final class ImGetModifiedNodesAd {
          * Liste von "MetaInformationTypeID"s (durch "¶" getrennt), zu denen es für "NodeID" ein Element im Artikelbaum gibt, das eine "Meta-Information" besitzt, die im angegebenen Zeitraum liegt. Kann aus diversen Gründen "NULL" sein - s. Beschreibung.
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue matched_info_type_ids_t_node = 10003;</code>
+         * <code>.dstore.values.StringValue matched_info_type_ids_t_node = 10003;</code>
          */
         public io.dstore.values.StringValue getMatchedInfoTypeIdsTNode() {
           if (matchedInfoTypeIdsTNodeBuilder_ == null) {
@@ -5767,7 +5767,7 @@ public final class ImGetModifiedNodesAd {
          * Liste von "MetaInformationTypeID"s (durch "¶" getrennt), zu denen es für "NodeID" ein Element im Artikelbaum gibt, das eine "Meta-Information" besitzt, die im angegebenen Zeitraum liegt. Kann aus diversen Gründen "NULL" sein - s. Beschreibung.
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue matched_info_type_ids_t_node = 10003;</code>
+         * <code>.dstore.values.StringValue matched_info_type_ids_t_node = 10003;</code>
          */
         public Builder setMatchedInfoTypeIdsTNode(io.dstore.values.StringValue value) {
           if (matchedInfoTypeIdsTNodeBuilder_ == null) {
@@ -5787,7 +5787,7 @@ public final class ImGetModifiedNodesAd {
          * Liste von "MetaInformationTypeID"s (durch "¶" getrennt), zu denen es für "NodeID" ein Element im Artikelbaum gibt, das eine "Meta-Information" besitzt, die im angegebenen Zeitraum liegt. Kann aus diversen Gründen "NULL" sein - s. Beschreibung.
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue matched_info_type_ids_t_node = 10003;</code>
+         * <code>.dstore.values.StringValue matched_info_type_ids_t_node = 10003;</code>
          */
         public Builder setMatchedInfoTypeIdsTNode(
             io.dstore.values.StringValue.Builder builderForValue) {
@@ -5805,7 +5805,7 @@ public final class ImGetModifiedNodesAd {
          * Liste von "MetaInformationTypeID"s (durch "¶" getrennt), zu denen es für "NodeID" ein Element im Artikelbaum gibt, das eine "Meta-Information" besitzt, die im angegebenen Zeitraum liegt. Kann aus diversen Gründen "NULL" sein - s. Beschreibung.
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue matched_info_type_ids_t_node = 10003;</code>
+         * <code>.dstore.values.StringValue matched_info_type_ids_t_node = 10003;</code>
          */
         public Builder mergeMatchedInfoTypeIdsTNode(io.dstore.values.StringValue value) {
           if (matchedInfoTypeIdsTNodeBuilder_ == null) {
@@ -5827,7 +5827,7 @@ public final class ImGetModifiedNodesAd {
          * Liste von "MetaInformationTypeID"s (durch "¶" getrennt), zu denen es für "NodeID" ein Element im Artikelbaum gibt, das eine "Meta-Information" besitzt, die im angegebenen Zeitraum liegt. Kann aus diversen Gründen "NULL" sein - s. Beschreibung.
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue matched_info_type_ids_t_node = 10003;</code>
+         * <code>.dstore.values.StringValue matched_info_type_ids_t_node = 10003;</code>
          */
         public Builder clearMatchedInfoTypeIdsTNode() {
           if (matchedInfoTypeIdsTNodeBuilder_ == null) {
@@ -5845,7 +5845,7 @@ public final class ImGetModifiedNodesAd {
          * Liste von "MetaInformationTypeID"s (durch "¶" getrennt), zu denen es für "NodeID" ein Element im Artikelbaum gibt, das eine "Meta-Information" besitzt, die im angegebenen Zeitraum liegt. Kann aus diversen Gründen "NULL" sein - s. Beschreibung.
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue matched_info_type_ids_t_node = 10003;</code>
+         * <code>.dstore.values.StringValue matched_info_type_ids_t_node = 10003;</code>
          */
         public io.dstore.values.StringValue.Builder getMatchedInfoTypeIdsTNodeBuilder() {
           
@@ -5857,7 +5857,7 @@ public final class ImGetModifiedNodesAd {
          * Liste von "MetaInformationTypeID"s (durch "¶" getrennt), zu denen es für "NodeID" ein Element im Artikelbaum gibt, das eine "Meta-Information" besitzt, die im angegebenen Zeitraum liegt. Kann aus diversen Gründen "NULL" sein - s. Beschreibung.
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue matched_info_type_ids_t_node = 10003;</code>
+         * <code>.dstore.values.StringValue matched_info_type_ids_t_node = 10003;</code>
          */
         public io.dstore.values.StringValueOrBuilder getMatchedInfoTypeIdsTNodeOrBuilder() {
           if (matchedInfoTypeIdsTNodeBuilder_ != null) {
@@ -5872,7 +5872,7 @@ public final class ImGetModifiedNodesAd {
          * Liste von "MetaInformationTypeID"s (durch "¶" getrennt), zu denen es für "NodeID" ein Element im Artikelbaum gibt, das eine "Meta-Information" besitzt, die im angegebenen Zeitraum liegt. Kann aus diversen Gründen "NULL" sein - s. Beschreibung.
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue matched_info_type_ids_t_node = 10003;</code>
+         * <code>.dstore.values.StringValue matched_info_type_ids_t_node = 10003;</code>
          */
         private com.google.protobuf.SingleFieldBuilderV3<
             io.dstore.values.StringValue, io.dstore.values.StringValue.Builder, io.dstore.values.StringValueOrBuilder> 
@@ -5896,7 +5896,7 @@ public final class ImGetModifiedNodesAd {
          * Liste von "MetaInformationTypeID"s (durch "¶" getrennt), zu denen "NodeID" eine "Meta-Information" besitzt, die im angegebenen Zeitraum liegt. Kann aus diversen Gründen "NULL" sein - s. Beschreibung.
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue matched_info_type_ids_node = 10004;</code>
+         * <code>.dstore.values.StringValue matched_info_type_ids_node = 10004;</code>
          */
         public boolean hasMatchedInfoTypeIdsNode() {
           return matchedInfoTypeIdsNodeBuilder_ != null || matchedInfoTypeIdsNode_ != null;
@@ -5906,7 +5906,7 @@ public final class ImGetModifiedNodesAd {
          * Liste von "MetaInformationTypeID"s (durch "¶" getrennt), zu denen "NodeID" eine "Meta-Information" besitzt, die im angegebenen Zeitraum liegt. Kann aus diversen Gründen "NULL" sein - s. Beschreibung.
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue matched_info_type_ids_node = 10004;</code>
+         * <code>.dstore.values.StringValue matched_info_type_ids_node = 10004;</code>
          */
         public io.dstore.values.StringValue getMatchedInfoTypeIdsNode() {
           if (matchedInfoTypeIdsNodeBuilder_ == null) {
@@ -5920,7 +5920,7 @@ public final class ImGetModifiedNodesAd {
          * Liste von "MetaInformationTypeID"s (durch "¶" getrennt), zu denen "NodeID" eine "Meta-Information" besitzt, die im angegebenen Zeitraum liegt. Kann aus diversen Gründen "NULL" sein - s. Beschreibung.
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue matched_info_type_ids_node = 10004;</code>
+         * <code>.dstore.values.StringValue matched_info_type_ids_node = 10004;</code>
          */
         public Builder setMatchedInfoTypeIdsNode(io.dstore.values.StringValue value) {
           if (matchedInfoTypeIdsNodeBuilder_ == null) {
@@ -5940,7 +5940,7 @@ public final class ImGetModifiedNodesAd {
          * Liste von "MetaInformationTypeID"s (durch "¶" getrennt), zu denen "NodeID" eine "Meta-Information" besitzt, die im angegebenen Zeitraum liegt. Kann aus diversen Gründen "NULL" sein - s. Beschreibung.
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue matched_info_type_ids_node = 10004;</code>
+         * <code>.dstore.values.StringValue matched_info_type_ids_node = 10004;</code>
          */
         public Builder setMatchedInfoTypeIdsNode(
             io.dstore.values.StringValue.Builder builderForValue) {
@@ -5958,7 +5958,7 @@ public final class ImGetModifiedNodesAd {
          * Liste von "MetaInformationTypeID"s (durch "¶" getrennt), zu denen "NodeID" eine "Meta-Information" besitzt, die im angegebenen Zeitraum liegt. Kann aus diversen Gründen "NULL" sein - s. Beschreibung.
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue matched_info_type_ids_node = 10004;</code>
+         * <code>.dstore.values.StringValue matched_info_type_ids_node = 10004;</code>
          */
         public Builder mergeMatchedInfoTypeIdsNode(io.dstore.values.StringValue value) {
           if (matchedInfoTypeIdsNodeBuilder_ == null) {
@@ -5980,7 +5980,7 @@ public final class ImGetModifiedNodesAd {
          * Liste von "MetaInformationTypeID"s (durch "¶" getrennt), zu denen "NodeID" eine "Meta-Information" besitzt, die im angegebenen Zeitraum liegt. Kann aus diversen Gründen "NULL" sein - s. Beschreibung.
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue matched_info_type_ids_node = 10004;</code>
+         * <code>.dstore.values.StringValue matched_info_type_ids_node = 10004;</code>
          */
         public Builder clearMatchedInfoTypeIdsNode() {
           if (matchedInfoTypeIdsNodeBuilder_ == null) {
@@ -5998,7 +5998,7 @@ public final class ImGetModifiedNodesAd {
          * Liste von "MetaInformationTypeID"s (durch "¶" getrennt), zu denen "NodeID" eine "Meta-Information" besitzt, die im angegebenen Zeitraum liegt. Kann aus diversen Gründen "NULL" sein - s. Beschreibung.
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue matched_info_type_ids_node = 10004;</code>
+         * <code>.dstore.values.StringValue matched_info_type_ids_node = 10004;</code>
          */
         public io.dstore.values.StringValue.Builder getMatchedInfoTypeIdsNodeBuilder() {
           
@@ -6010,7 +6010,7 @@ public final class ImGetModifiedNodesAd {
          * Liste von "MetaInformationTypeID"s (durch "¶" getrennt), zu denen "NodeID" eine "Meta-Information" besitzt, die im angegebenen Zeitraum liegt. Kann aus diversen Gründen "NULL" sein - s. Beschreibung.
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue matched_info_type_ids_node = 10004;</code>
+         * <code>.dstore.values.StringValue matched_info_type_ids_node = 10004;</code>
          */
         public io.dstore.values.StringValueOrBuilder getMatchedInfoTypeIdsNodeOrBuilder() {
           if (matchedInfoTypeIdsNodeBuilder_ != null) {
@@ -6025,7 +6025,7 @@ public final class ImGetModifiedNodesAd {
          * Liste von "MetaInformationTypeID"s (durch "¶" getrennt), zu denen "NodeID" eine "Meta-Information" besitzt, die im angegebenen Zeitraum liegt. Kann aus diversen Gründen "NULL" sein - s. Beschreibung.
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue matched_info_type_ids_node = 10004;</code>
+         * <code>.dstore.values.StringValue matched_info_type_ids_node = 10004;</code>
          */
         private com.google.protobuf.SingleFieldBuilderV3<
             io.dstore.values.StringValue, io.dstore.values.StringValue.Builder, io.dstore.values.StringValueOrBuilder> 
@@ -6049,7 +6049,7 @@ public final class ImGetModifiedNodesAd {
          * ID der Hierarchie von "NodeID" (immer "&#64;LevelID" wenn angegeben)
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue level_id = 10005;</code>
+         * <code>.dstore.values.IntegerValue level_id = 10005;</code>
          */
         public boolean hasLevelId() {
           return levelIdBuilder_ != null || levelId_ != null;
@@ -6059,7 +6059,7 @@ public final class ImGetModifiedNodesAd {
          * ID der Hierarchie von "NodeID" (immer "&#64;LevelID" wenn angegeben)
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue level_id = 10005;</code>
+         * <code>.dstore.values.IntegerValue level_id = 10005;</code>
          */
         public io.dstore.values.IntegerValue getLevelId() {
           if (levelIdBuilder_ == null) {
@@ -6073,7 +6073,7 @@ public final class ImGetModifiedNodesAd {
          * ID der Hierarchie von "NodeID" (immer "&#64;LevelID" wenn angegeben)
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue level_id = 10005;</code>
+         * <code>.dstore.values.IntegerValue level_id = 10005;</code>
          */
         public Builder setLevelId(io.dstore.values.IntegerValue value) {
           if (levelIdBuilder_ == null) {
@@ -6093,7 +6093,7 @@ public final class ImGetModifiedNodesAd {
          * ID der Hierarchie von "NodeID" (immer "&#64;LevelID" wenn angegeben)
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue level_id = 10005;</code>
+         * <code>.dstore.values.IntegerValue level_id = 10005;</code>
          */
         public Builder setLevelId(
             io.dstore.values.IntegerValue.Builder builderForValue) {
@@ -6111,7 +6111,7 @@ public final class ImGetModifiedNodesAd {
          * ID der Hierarchie von "NodeID" (immer "&#64;LevelID" wenn angegeben)
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue level_id = 10005;</code>
+         * <code>.dstore.values.IntegerValue level_id = 10005;</code>
          */
         public Builder mergeLevelId(io.dstore.values.IntegerValue value) {
           if (levelIdBuilder_ == null) {
@@ -6133,7 +6133,7 @@ public final class ImGetModifiedNodesAd {
          * ID der Hierarchie von "NodeID" (immer "&#64;LevelID" wenn angegeben)
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue level_id = 10005;</code>
+         * <code>.dstore.values.IntegerValue level_id = 10005;</code>
          */
         public Builder clearLevelId() {
           if (levelIdBuilder_ == null) {
@@ -6151,7 +6151,7 @@ public final class ImGetModifiedNodesAd {
          * ID der Hierarchie von "NodeID" (immer "&#64;LevelID" wenn angegeben)
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue level_id = 10005;</code>
+         * <code>.dstore.values.IntegerValue level_id = 10005;</code>
          */
         public io.dstore.values.IntegerValue.Builder getLevelIdBuilder() {
           
@@ -6163,7 +6163,7 @@ public final class ImGetModifiedNodesAd {
          * ID der Hierarchie von "NodeID" (immer "&#64;LevelID" wenn angegeben)
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue level_id = 10005;</code>
+         * <code>.dstore.values.IntegerValue level_id = 10005;</code>
          */
         public io.dstore.values.IntegerValueOrBuilder getLevelIdOrBuilder() {
           if (levelIdBuilder_ != null) {
@@ -6178,7 +6178,7 @@ public final class ImGetModifiedNodesAd {
          * ID der Hierarchie von "NodeID" (immer "&#64;LevelID" wenn angegeben)
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue level_id = 10005;</code>
+         * <code>.dstore.values.IntegerValue level_id = 10005;</code>
          */
         private com.google.protobuf.SingleFieldBuilderV3<
             io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> 
@@ -6202,7 +6202,7 @@ public final class ImGetModifiedNodesAd {
          * Ist das Element aktiviert oder nicht ?
          * </pre>
          *
-         * <code>optional .dstore.values.BooleanValue active = 20001;</code>
+         * <code>.dstore.values.BooleanValue active = 20001;</code>
          */
         public boolean hasActive() {
           return activeBuilder_ != null || active_ != null;
@@ -6212,7 +6212,7 @@ public final class ImGetModifiedNodesAd {
          * Ist das Element aktiviert oder nicht ?
          * </pre>
          *
-         * <code>optional .dstore.values.BooleanValue active = 20001;</code>
+         * <code>.dstore.values.BooleanValue active = 20001;</code>
          */
         public io.dstore.values.BooleanValue getActive() {
           if (activeBuilder_ == null) {
@@ -6226,7 +6226,7 @@ public final class ImGetModifiedNodesAd {
          * Ist das Element aktiviert oder nicht ?
          * </pre>
          *
-         * <code>optional .dstore.values.BooleanValue active = 20001;</code>
+         * <code>.dstore.values.BooleanValue active = 20001;</code>
          */
         public Builder setActive(io.dstore.values.BooleanValue value) {
           if (activeBuilder_ == null) {
@@ -6246,7 +6246,7 @@ public final class ImGetModifiedNodesAd {
          * Ist das Element aktiviert oder nicht ?
          * </pre>
          *
-         * <code>optional .dstore.values.BooleanValue active = 20001;</code>
+         * <code>.dstore.values.BooleanValue active = 20001;</code>
          */
         public Builder setActive(
             io.dstore.values.BooleanValue.Builder builderForValue) {
@@ -6264,7 +6264,7 @@ public final class ImGetModifiedNodesAd {
          * Ist das Element aktiviert oder nicht ?
          * </pre>
          *
-         * <code>optional .dstore.values.BooleanValue active = 20001;</code>
+         * <code>.dstore.values.BooleanValue active = 20001;</code>
          */
         public Builder mergeActive(io.dstore.values.BooleanValue value) {
           if (activeBuilder_ == null) {
@@ -6286,7 +6286,7 @@ public final class ImGetModifiedNodesAd {
          * Ist das Element aktiviert oder nicht ?
          * </pre>
          *
-         * <code>optional .dstore.values.BooleanValue active = 20001;</code>
+         * <code>.dstore.values.BooleanValue active = 20001;</code>
          */
         public Builder clearActive() {
           if (activeBuilder_ == null) {
@@ -6304,7 +6304,7 @@ public final class ImGetModifiedNodesAd {
          * Ist das Element aktiviert oder nicht ?
          * </pre>
          *
-         * <code>optional .dstore.values.BooleanValue active = 20001;</code>
+         * <code>.dstore.values.BooleanValue active = 20001;</code>
          */
         public io.dstore.values.BooleanValue.Builder getActiveBuilder() {
           
@@ -6316,7 +6316,7 @@ public final class ImGetModifiedNodesAd {
          * Ist das Element aktiviert oder nicht ?
          * </pre>
          *
-         * <code>optional .dstore.values.BooleanValue active = 20001;</code>
+         * <code>.dstore.values.BooleanValue active = 20001;</code>
          */
         public io.dstore.values.BooleanValueOrBuilder getActiveOrBuilder() {
           if (activeBuilder_ != null) {
@@ -6331,7 +6331,7 @@ public final class ImGetModifiedNodesAd {
          * Ist das Element aktiviert oder nicht ?
          * </pre>
          *
-         * <code>optional .dstore.values.BooleanValue active = 20001;</code>
+         * <code>.dstore.values.BooleanValue active = 20001;</code>
          */
         private com.google.protobuf.SingleFieldBuilderV3<
             io.dstore.values.BooleanValue, io.dstore.values.BooleanValue.Builder, io.dstore.values.BooleanValueOrBuilder> 
@@ -6355,7 +6355,7 @@ public final class ImGetModifiedNodesAd {
          * ID eines gefundenen Elementes im Artikelbaum
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue tree_node_id = 20003;</code>
+         * <code>.dstore.values.IntegerValue tree_node_id = 20003;</code>
          */
         public boolean hasTreeNodeId() {
           return treeNodeIdBuilder_ != null || treeNodeId_ != null;
@@ -6365,7 +6365,7 @@ public final class ImGetModifiedNodesAd {
          * ID eines gefundenen Elementes im Artikelbaum
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue tree_node_id = 20003;</code>
+         * <code>.dstore.values.IntegerValue tree_node_id = 20003;</code>
          */
         public io.dstore.values.IntegerValue getTreeNodeId() {
           if (treeNodeIdBuilder_ == null) {
@@ -6379,7 +6379,7 @@ public final class ImGetModifiedNodesAd {
          * ID eines gefundenen Elementes im Artikelbaum
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue tree_node_id = 20003;</code>
+         * <code>.dstore.values.IntegerValue tree_node_id = 20003;</code>
          */
         public Builder setTreeNodeId(io.dstore.values.IntegerValue value) {
           if (treeNodeIdBuilder_ == null) {
@@ -6399,7 +6399,7 @@ public final class ImGetModifiedNodesAd {
          * ID eines gefundenen Elementes im Artikelbaum
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue tree_node_id = 20003;</code>
+         * <code>.dstore.values.IntegerValue tree_node_id = 20003;</code>
          */
         public Builder setTreeNodeId(
             io.dstore.values.IntegerValue.Builder builderForValue) {
@@ -6417,7 +6417,7 @@ public final class ImGetModifiedNodesAd {
          * ID eines gefundenen Elementes im Artikelbaum
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue tree_node_id = 20003;</code>
+         * <code>.dstore.values.IntegerValue tree_node_id = 20003;</code>
          */
         public Builder mergeTreeNodeId(io.dstore.values.IntegerValue value) {
           if (treeNodeIdBuilder_ == null) {
@@ -6439,7 +6439,7 @@ public final class ImGetModifiedNodesAd {
          * ID eines gefundenen Elementes im Artikelbaum
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue tree_node_id = 20003;</code>
+         * <code>.dstore.values.IntegerValue tree_node_id = 20003;</code>
          */
         public Builder clearTreeNodeId() {
           if (treeNodeIdBuilder_ == null) {
@@ -6457,7 +6457,7 @@ public final class ImGetModifiedNodesAd {
          * ID eines gefundenen Elementes im Artikelbaum
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue tree_node_id = 20003;</code>
+         * <code>.dstore.values.IntegerValue tree_node_id = 20003;</code>
          */
         public io.dstore.values.IntegerValue.Builder getTreeNodeIdBuilder() {
           
@@ -6469,7 +6469,7 @@ public final class ImGetModifiedNodesAd {
          * ID eines gefundenen Elementes im Artikelbaum
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue tree_node_id = 20003;</code>
+         * <code>.dstore.values.IntegerValue tree_node_id = 20003;</code>
          */
         public io.dstore.values.IntegerValueOrBuilder getTreeNodeIdOrBuilder() {
           if (treeNodeIdBuilder_ != null) {
@@ -6484,7 +6484,7 @@ public final class ImGetModifiedNodesAd {
          * ID eines gefundenen Elementes im Artikelbaum
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue tree_node_id = 20003;</code>
+         * <code>.dstore.values.IntegerValue tree_node_id = 20003;</code>
          */
         private com.google.protobuf.SingleFieldBuilderV3<
             io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> 
@@ -6508,7 +6508,7 @@ public final class ImGetModifiedNodesAd {
          * Beschreibung des Vor-Vorgängers des gefundenen Elementes
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue pre_predecessors_description = 20005;</code>
+         * <code>.dstore.values.StringValue pre_predecessors_description = 20005;</code>
          */
         public boolean hasPrePredecessorsDescription() {
           return prePredecessorsDescriptionBuilder_ != null || prePredecessorsDescription_ != null;
@@ -6518,7 +6518,7 @@ public final class ImGetModifiedNodesAd {
          * Beschreibung des Vor-Vorgängers des gefundenen Elementes
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue pre_predecessors_description = 20005;</code>
+         * <code>.dstore.values.StringValue pre_predecessors_description = 20005;</code>
          */
         public io.dstore.values.StringValue getPrePredecessorsDescription() {
           if (prePredecessorsDescriptionBuilder_ == null) {
@@ -6532,7 +6532,7 @@ public final class ImGetModifiedNodesAd {
          * Beschreibung des Vor-Vorgängers des gefundenen Elementes
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue pre_predecessors_description = 20005;</code>
+         * <code>.dstore.values.StringValue pre_predecessors_description = 20005;</code>
          */
         public Builder setPrePredecessorsDescription(io.dstore.values.StringValue value) {
           if (prePredecessorsDescriptionBuilder_ == null) {
@@ -6552,7 +6552,7 @@ public final class ImGetModifiedNodesAd {
          * Beschreibung des Vor-Vorgängers des gefundenen Elementes
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue pre_predecessors_description = 20005;</code>
+         * <code>.dstore.values.StringValue pre_predecessors_description = 20005;</code>
          */
         public Builder setPrePredecessorsDescription(
             io.dstore.values.StringValue.Builder builderForValue) {
@@ -6570,7 +6570,7 @@ public final class ImGetModifiedNodesAd {
          * Beschreibung des Vor-Vorgängers des gefundenen Elementes
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue pre_predecessors_description = 20005;</code>
+         * <code>.dstore.values.StringValue pre_predecessors_description = 20005;</code>
          */
         public Builder mergePrePredecessorsDescription(io.dstore.values.StringValue value) {
           if (prePredecessorsDescriptionBuilder_ == null) {
@@ -6592,7 +6592,7 @@ public final class ImGetModifiedNodesAd {
          * Beschreibung des Vor-Vorgängers des gefundenen Elementes
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue pre_predecessors_description = 20005;</code>
+         * <code>.dstore.values.StringValue pre_predecessors_description = 20005;</code>
          */
         public Builder clearPrePredecessorsDescription() {
           if (prePredecessorsDescriptionBuilder_ == null) {
@@ -6610,7 +6610,7 @@ public final class ImGetModifiedNodesAd {
          * Beschreibung des Vor-Vorgängers des gefundenen Elementes
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue pre_predecessors_description = 20005;</code>
+         * <code>.dstore.values.StringValue pre_predecessors_description = 20005;</code>
          */
         public io.dstore.values.StringValue.Builder getPrePredecessorsDescriptionBuilder() {
           
@@ -6622,7 +6622,7 @@ public final class ImGetModifiedNodesAd {
          * Beschreibung des Vor-Vorgängers des gefundenen Elementes
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue pre_predecessors_description = 20005;</code>
+         * <code>.dstore.values.StringValue pre_predecessors_description = 20005;</code>
          */
         public io.dstore.values.StringValueOrBuilder getPrePredecessorsDescriptionOrBuilder() {
           if (prePredecessorsDescriptionBuilder_ != null) {
@@ -6637,7 +6637,7 @@ public final class ImGetModifiedNodesAd {
          * Beschreibung des Vor-Vorgängers des gefundenen Elementes
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue pre_predecessors_description = 20005;</code>
+         * <code>.dstore.values.StringValue pre_predecessors_description = 20005;</code>
          */
         private com.google.protobuf.SingleFieldBuilderV3<
             io.dstore.values.StringValue, io.dstore.values.StringValue.Builder, io.dstore.values.StringValueOrBuilder> 
@@ -6661,7 +6661,7 @@ public final class ImGetModifiedNodesAd {
          * TreeNodeID des Vor-Vorgängers
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue pre_predecessors_tree_node_id = 20007;</code>
+         * <code>.dstore.values.IntegerValue pre_predecessors_tree_node_id = 20007;</code>
          */
         public boolean hasPrePredecessorsTreeNodeId() {
           return prePredecessorsTreeNodeIdBuilder_ != null || prePredecessorsTreeNodeId_ != null;
@@ -6671,7 +6671,7 @@ public final class ImGetModifiedNodesAd {
          * TreeNodeID des Vor-Vorgängers
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue pre_predecessors_tree_node_id = 20007;</code>
+         * <code>.dstore.values.IntegerValue pre_predecessors_tree_node_id = 20007;</code>
          */
         public io.dstore.values.IntegerValue getPrePredecessorsTreeNodeId() {
           if (prePredecessorsTreeNodeIdBuilder_ == null) {
@@ -6685,7 +6685,7 @@ public final class ImGetModifiedNodesAd {
          * TreeNodeID des Vor-Vorgängers
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue pre_predecessors_tree_node_id = 20007;</code>
+         * <code>.dstore.values.IntegerValue pre_predecessors_tree_node_id = 20007;</code>
          */
         public Builder setPrePredecessorsTreeNodeId(io.dstore.values.IntegerValue value) {
           if (prePredecessorsTreeNodeIdBuilder_ == null) {
@@ -6705,7 +6705,7 @@ public final class ImGetModifiedNodesAd {
          * TreeNodeID des Vor-Vorgängers
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue pre_predecessors_tree_node_id = 20007;</code>
+         * <code>.dstore.values.IntegerValue pre_predecessors_tree_node_id = 20007;</code>
          */
         public Builder setPrePredecessorsTreeNodeId(
             io.dstore.values.IntegerValue.Builder builderForValue) {
@@ -6723,7 +6723,7 @@ public final class ImGetModifiedNodesAd {
          * TreeNodeID des Vor-Vorgängers
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue pre_predecessors_tree_node_id = 20007;</code>
+         * <code>.dstore.values.IntegerValue pre_predecessors_tree_node_id = 20007;</code>
          */
         public Builder mergePrePredecessorsTreeNodeId(io.dstore.values.IntegerValue value) {
           if (prePredecessorsTreeNodeIdBuilder_ == null) {
@@ -6745,7 +6745,7 @@ public final class ImGetModifiedNodesAd {
          * TreeNodeID des Vor-Vorgängers
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue pre_predecessors_tree_node_id = 20007;</code>
+         * <code>.dstore.values.IntegerValue pre_predecessors_tree_node_id = 20007;</code>
          */
         public Builder clearPrePredecessorsTreeNodeId() {
           if (prePredecessorsTreeNodeIdBuilder_ == null) {
@@ -6763,7 +6763,7 @@ public final class ImGetModifiedNodesAd {
          * TreeNodeID des Vor-Vorgängers
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue pre_predecessors_tree_node_id = 20007;</code>
+         * <code>.dstore.values.IntegerValue pre_predecessors_tree_node_id = 20007;</code>
          */
         public io.dstore.values.IntegerValue.Builder getPrePredecessorsTreeNodeIdBuilder() {
           
@@ -6775,7 +6775,7 @@ public final class ImGetModifiedNodesAd {
          * TreeNodeID des Vor-Vorgängers
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue pre_predecessors_tree_node_id = 20007;</code>
+         * <code>.dstore.values.IntegerValue pre_predecessors_tree_node_id = 20007;</code>
          */
         public io.dstore.values.IntegerValueOrBuilder getPrePredecessorsTreeNodeIdOrBuilder() {
           if (prePredecessorsTreeNodeIdBuilder_ != null) {
@@ -6790,7 +6790,7 @@ public final class ImGetModifiedNodesAd {
          * TreeNodeID des Vor-Vorgängers
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue pre_predecessors_tree_node_id = 20007;</code>
+         * <code>.dstore.values.IntegerValue pre_predecessors_tree_node_id = 20007;</code>
          */
         private com.google.protobuf.SingleFieldBuilderV3<
             io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> 
@@ -6814,7 +6814,7 @@ public final class ImGetModifiedNodesAd {
          * TreeNodeID des Vorgängers
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue predecessors_tree_node_id = 20009;</code>
+         * <code>.dstore.values.IntegerValue predecessors_tree_node_id = 20009;</code>
          */
         public boolean hasPredecessorsTreeNodeId() {
           return predecessorsTreeNodeIdBuilder_ != null || predecessorsTreeNodeId_ != null;
@@ -6824,7 +6824,7 @@ public final class ImGetModifiedNodesAd {
          * TreeNodeID des Vorgängers
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue predecessors_tree_node_id = 20009;</code>
+         * <code>.dstore.values.IntegerValue predecessors_tree_node_id = 20009;</code>
          */
         public io.dstore.values.IntegerValue getPredecessorsTreeNodeId() {
           if (predecessorsTreeNodeIdBuilder_ == null) {
@@ -6838,7 +6838,7 @@ public final class ImGetModifiedNodesAd {
          * TreeNodeID des Vorgängers
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue predecessors_tree_node_id = 20009;</code>
+         * <code>.dstore.values.IntegerValue predecessors_tree_node_id = 20009;</code>
          */
         public Builder setPredecessorsTreeNodeId(io.dstore.values.IntegerValue value) {
           if (predecessorsTreeNodeIdBuilder_ == null) {
@@ -6858,7 +6858,7 @@ public final class ImGetModifiedNodesAd {
          * TreeNodeID des Vorgängers
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue predecessors_tree_node_id = 20009;</code>
+         * <code>.dstore.values.IntegerValue predecessors_tree_node_id = 20009;</code>
          */
         public Builder setPredecessorsTreeNodeId(
             io.dstore.values.IntegerValue.Builder builderForValue) {
@@ -6876,7 +6876,7 @@ public final class ImGetModifiedNodesAd {
          * TreeNodeID des Vorgängers
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue predecessors_tree_node_id = 20009;</code>
+         * <code>.dstore.values.IntegerValue predecessors_tree_node_id = 20009;</code>
          */
         public Builder mergePredecessorsTreeNodeId(io.dstore.values.IntegerValue value) {
           if (predecessorsTreeNodeIdBuilder_ == null) {
@@ -6898,7 +6898,7 @@ public final class ImGetModifiedNodesAd {
          * TreeNodeID des Vorgängers
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue predecessors_tree_node_id = 20009;</code>
+         * <code>.dstore.values.IntegerValue predecessors_tree_node_id = 20009;</code>
          */
         public Builder clearPredecessorsTreeNodeId() {
           if (predecessorsTreeNodeIdBuilder_ == null) {
@@ -6916,7 +6916,7 @@ public final class ImGetModifiedNodesAd {
          * TreeNodeID des Vorgängers
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue predecessors_tree_node_id = 20009;</code>
+         * <code>.dstore.values.IntegerValue predecessors_tree_node_id = 20009;</code>
          */
         public io.dstore.values.IntegerValue.Builder getPredecessorsTreeNodeIdBuilder() {
           
@@ -6928,7 +6928,7 @@ public final class ImGetModifiedNodesAd {
          * TreeNodeID des Vorgängers
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue predecessors_tree_node_id = 20009;</code>
+         * <code>.dstore.values.IntegerValue predecessors_tree_node_id = 20009;</code>
          */
         public io.dstore.values.IntegerValueOrBuilder getPredecessorsTreeNodeIdOrBuilder() {
           if (predecessorsTreeNodeIdBuilder_ != null) {
@@ -6943,7 +6943,7 @@ public final class ImGetModifiedNodesAd {
          * TreeNodeID des Vorgängers
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue predecessors_tree_node_id = 20009;</code>
+         * <code>.dstore.values.IntegerValue predecessors_tree_node_id = 20009;</code>
          */
         private com.google.protobuf.SingleFieldBuilderV3<
             io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> 
@@ -6967,7 +6967,7 @@ public final class ImGetModifiedNodesAd {
          * Beschreibung des Vorgängers des gefundenen Elementes
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue predecessors_description = 20010;</code>
+         * <code>.dstore.values.StringValue predecessors_description = 20010;</code>
          */
         public boolean hasPredecessorsDescription() {
           return predecessorsDescriptionBuilder_ != null || predecessorsDescription_ != null;
@@ -6977,7 +6977,7 @@ public final class ImGetModifiedNodesAd {
          * Beschreibung des Vorgängers des gefundenen Elementes
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue predecessors_description = 20010;</code>
+         * <code>.dstore.values.StringValue predecessors_description = 20010;</code>
          */
         public io.dstore.values.StringValue getPredecessorsDescription() {
           if (predecessorsDescriptionBuilder_ == null) {
@@ -6991,7 +6991,7 @@ public final class ImGetModifiedNodesAd {
          * Beschreibung des Vorgängers des gefundenen Elementes
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue predecessors_description = 20010;</code>
+         * <code>.dstore.values.StringValue predecessors_description = 20010;</code>
          */
         public Builder setPredecessorsDescription(io.dstore.values.StringValue value) {
           if (predecessorsDescriptionBuilder_ == null) {
@@ -7011,7 +7011,7 @@ public final class ImGetModifiedNodesAd {
          * Beschreibung des Vorgängers des gefundenen Elementes
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue predecessors_description = 20010;</code>
+         * <code>.dstore.values.StringValue predecessors_description = 20010;</code>
          */
         public Builder setPredecessorsDescription(
             io.dstore.values.StringValue.Builder builderForValue) {
@@ -7029,7 +7029,7 @@ public final class ImGetModifiedNodesAd {
          * Beschreibung des Vorgängers des gefundenen Elementes
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue predecessors_description = 20010;</code>
+         * <code>.dstore.values.StringValue predecessors_description = 20010;</code>
          */
         public Builder mergePredecessorsDescription(io.dstore.values.StringValue value) {
           if (predecessorsDescriptionBuilder_ == null) {
@@ -7051,7 +7051,7 @@ public final class ImGetModifiedNodesAd {
          * Beschreibung des Vorgängers des gefundenen Elementes
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue predecessors_description = 20010;</code>
+         * <code>.dstore.values.StringValue predecessors_description = 20010;</code>
          */
         public Builder clearPredecessorsDescription() {
           if (predecessorsDescriptionBuilder_ == null) {
@@ -7069,7 +7069,7 @@ public final class ImGetModifiedNodesAd {
          * Beschreibung des Vorgängers des gefundenen Elementes
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue predecessors_description = 20010;</code>
+         * <code>.dstore.values.StringValue predecessors_description = 20010;</code>
          */
         public io.dstore.values.StringValue.Builder getPredecessorsDescriptionBuilder() {
           
@@ -7081,7 +7081,7 @@ public final class ImGetModifiedNodesAd {
          * Beschreibung des Vorgängers des gefundenen Elementes
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue predecessors_description = 20010;</code>
+         * <code>.dstore.values.StringValue predecessors_description = 20010;</code>
          */
         public io.dstore.values.StringValueOrBuilder getPredecessorsDescriptionOrBuilder() {
           if (predecessorsDescriptionBuilder_ != null) {
@@ -7096,7 +7096,7 @@ public final class ImGetModifiedNodesAd {
          * Beschreibung des Vorgängers des gefundenen Elementes
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue predecessors_description = 20010;</code>
+         * <code>.dstore.values.StringValue predecessors_description = 20010;</code>
          */
         private com.google.protobuf.SingleFieldBuilderV3<
             io.dstore.values.StringValue, io.dstore.values.StringValue.Builder, io.dstore.values.StringValueOrBuilder> 
@@ -7269,19 +7269,19 @@ public final class ImGetModifiedNodesAd {
     public static final int NUMBER_OF_ELEMENTS_IN_RESULT_FIELD_NUMBER = 101;
     private io.dstore.values.IntegerValue numberOfElementsInResult_;
     /**
-     * <code>optional .dstore.values.IntegerValue number_of_elements_in_result = 101;</code>
+     * <code>.dstore.values.IntegerValue number_of_elements_in_result = 101;</code>
      */
     public boolean hasNumberOfElementsInResult() {
       return numberOfElementsInResult_ != null;
     }
     /**
-     * <code>optional .dstore.values.IntegerValue number_of_elements_in_result = 101;</code>
+     * <code>.dstore.values.IntegerValue number_of_elements_in_result = 101;</code>
      */
     public io.dstore.values.IntegerValue getNumberOfElementsInResult() {
       return numberOfElementsInResult_ == null ? io.dstore.values.IntegerValue.getDefaultInstance() : numberOfElementsInResult_;
     }
     /**
-     * <code>optional .dstore.values.IntegerValue number_of_elements_in_result = 101;</code>
+     * <code>.dstore.values.IntegerValue number_of_elements_in_result = 101;</code>
      */
     public io.dstore.values.IntegerValueOrBuilder getNumberOfElementsInResultOrBuilder() {
       return getNumberOfElementsInResult();
@@ -7370,7 +7370,7 @@ public final class ImGetModifiedNodesAd {
         return memoizedHashCode;
       }
       int hash = 41;
-      hash = (19 * hash) + getDescriptorForType().hashCode();
+      hash = (19 * hash) + getDescriptor().hashCode();
       if (getMetaInformationCount() > 0) {
         hash = (37 * hash) + META_INFORMATION_FIELD_NUMBER;
         hash = (53 * hash) + getMetaInformationList().hashCode();
@@ -8462,13 +8462,13 @@ public final class ImGetModifiedNodesAd {
       private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> numberOfElementsInResultBuilder_;
       /**
-       * <code>optional .dstore.values.IntegerValue number_of_elements_in_result = 101;</code>
+       * <code>.dstore.values.IntegerValue number_of_elements_in_result = 101;</code>
        */
       public boolean hasNumberOfElementsInResult() {
         return numberOfElementsInResultBuilder_ != null || numberOfElementsInResult_ != null;
       }
       /**
-       * <code>optional .dstore.values.IntegerValue number_of_elements_in_result = 101;</code>
+       * <code>.dstore.values.IntegerValue number_of_elements_in_result = 101;</code>
        */
       public io.dstore.values.IntegerValue getNumberOfElementsInResult() {
         if (numberOfElementsInResultBuilder_ == null) {
@@ -8478,7 +8478,7 @@ public final class ImGetModifiedNodesAd {
         }
       }
       /**
-       * <code>optional .dstore.values.IntegerValue number_of_elements_in_result = 101;</code>
+       * <code>.dstore.values.IntegerValue number_of_elements_in_result = 101;</code>
        */
       public Builder setNumberOfElementsInResult(io.dstore.values.IntegerValue value) {
         if (numberOfElementsInResultBuilder_ == null) {
@@ -8494,7 +8494,7 @@ public final class ImGetModifiedNodesAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.IntegerValue number_of_elements_in_result = 101;</code>
+       * <code>.dstore.values.IntegerValue number_of_elements_in_result = 101;</code>
        */
       public Builder setNumberOfElementsInResult(
           io.dstore.values.IntegerValue.Builder builderForValue) {
@@ -8508,7 +8508,7 @@ public final class ImGetModifiedNodesAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.IntegerValue number_of_elements_in_result = 101;</code>
+       * <code>.dstore.values.IntegerValue number_of_elements_in_result = 101;</code>
        */
       public Builder mergeNumberOfElementsInResult(io.dstore.values.IntegerValue value) {
         if (numberOfElementsInResultBuilder_ == null) {
@@ -8526,7 +8526,7 @@ public final class ImGetModifiedNodesAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.IntegerValue number_of_elements_in_result = 101;</code>
+       * <code>.dstore.values.IntegerValue number_of_elements_in_result = 101;</code>
        */
       public Builder clearNumberOfElementsInResult() {
         if (numberOfElementsInResultBuilder_ == null) {
@@ -8540,7 +8540,7 @@ public final class ImGetModifiedNodesAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.IntegerValue number_of_elements_in_result = 101;</code>
+       * <code>.dstore.values.IntegerValue number_of_elements_in_result = 101;</code>
        */
       public io.dstore.values.IntegerValue.Builder getNumberOfElementsInResultBuilder() {
         
@@ -8548,7 +8548,7 @@ public final class ImGetModifiedNodesAd {
         return getNumberOfElementsInResultFieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .dstore.values.IntegerValue number_of_elements_in_result = 101;</code>
+       * <code>.dstore.values.IntegerValue number_of_elements_in_result = 101;</code>
        */
       public io.dstore.values.IntegerValueOrBuilder getNumberOfElementsInResultOrBuilder() {
         if (numberOfElementsInResultBuilder_ != null) {
@@ -8559,7 +8559,7 @@ public final class ImGetModifiedNodesAd {
         }
       }
       /**
-       * <code>optional .dstore.values.IntegerValue number_of_elements_in_result = 101;</code>
+       * <code>.dstore.values.IntegerValue number_of_elements_in_result = 101;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> 

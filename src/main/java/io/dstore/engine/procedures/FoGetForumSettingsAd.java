@@ -19,74 +19,74 @@ public final class FoGetForumSettingsAd {
       com.google.protobuf.MessageOrBuilder {
 
     /**
-     * <code>optional .dstore.values.IntegerValue forum_id = 1;</code>
+     * <code>.dstore.values.IntegerValue forum_id = 1;</code>
      */
     boolean hasForumId();
     /**
-     * <code>optional .dstore.values.IntegerValue forum_id = 1;</code>
+     * <code>.dstore.values.IntegerValue forum_id = 1;</code>
      */
     io.dstore.values.IntegerValue getForumId();
     /**
-     * <code>optional .dstore.values.IntegerValue forum_id = 1;</code>
+     * <code>.dstore.values.IntegerValue forum_id = 1;</code>
      */
     io.dstore.values.IntegerValueOrBuilder getForumIdOrBuilder();
 
     /**
-     * <code>optional bool forum_id_null = 1001;</code>
+     * <code>bool forum_id_null = 1001;</code>
      */
     boolean getForumIdNull();
 
     /**
-     * <code>optional .dstore.values.StringValue key_variable = 2;</code>
+     * <code>.dstore.values.StringValue key_variable = 2;</code>
      */
     boolean hasKeyVariable();
     /**
-     * <code>optional .dstore.values.StringValue key_variable = 2;</code>
+     * <code>.dstore.values.StringValue key_variable = 2;</code>
      */
     io.dstore.values.StringValue getKeyVariable();
     /**
-     * <code>optional .dstore.values.StringValue key_variable = 2;</code>
+     * <code>.dstore.values.StringValue key_variable = 2;</code>
      */
     io.dstore.values.StringValueOrBuilder getKeyVariableOrBuilder();
 
     /**
-     * <code>optional bool key_variable_null = 1002;</code>
+     * <code>bool key_variable_null = 1002;</code>
      */
     boolean getKeyVariableNull();
 
     /**
-     * <code>optional .dstore.values.StringValue value = 3;</code>
+     * <code>.dstore.values.StringValue value = 3;</code>
      */
     boolean hasValue();
     /**
-     * <code>optional .dstore.values.StringValue value = 3;</code>
+     * <code>.dstore.values.StringValue value = 3;</code>
      */
     io.dstore.values.StringValue getValue();
     /**
-     * <code>optional .dstore.values.StringValue value = 3;</code>
+     * <code>.dstore.values.StringValue value = 3;</code>
      */
     io.dstore.values.StringValueOrBuilder getValueOrBuilder();
 
     /**
-     * <code>optional bool value_null = 1003;</code>
+     * <code>bool value_null = 1003;</code>
      */
     boolean getValueNull();
 
     /**
-     * <code>optional .dstore.values.IntegerValue person_id = 4;</code>
+     * <code>.dstore.values.IntegerValue person_id = 4;</code>
      */
     boolean hasPersonId();
     /**
-     * <code>optional .dstore.values.IntegerValue person_id = 4;</code>
+     * <code>.dstore.values.IntegerValue person_id = 4;</code>
      */
     io.dstore.values.IntegerValue getPersonId();
     /**
-     * <code>optional .dstore.values.IntegerValue person_id = 4;</code>
+     * <code>.dstore.values.IntegerValue person_id = 4;</code>
      */
     io.dstore.values.IntegerValueOrBuilder getPersonIdOrBuilder();
 
     /**
-     * <code>optional bool person_id_null = 1004;</code>
+     * <code>bool person_id_null = 1004;</code>
      */
     boolean getPersonIdNull();
   }
@@ -231,19 +231,19 @@ public final class FoGetForumSettingsAd {
     public static final int FORUM_ID_FIELD_NUMBER = 1;
     private io.dstore.values.IntegerValue forumId_;
     /**
-     * <code>optional .dstore.values.IntegerValue forum_id = 1;</code>
+     * <code>.dstore.values.IntegerValue forum_id = 1;</code>
      */
     public boolean hasForumId() {
       return forumId_ != null;
     }
     /**
-     * <code>optional .dstore.values.IntegerValue forum_id = 1;</code>
+     * <code>.dstore.values.IntegerValue forum_id = 1;</code>
      */
     public io.dstore.values.IntegerValue getForumId() {
       return forumId_ == null ? io.dstore.values.IntegerValue.getDefaultInstance() : forumId_;
     }
     /**
-     * <code>optional .dstore.values.IntegerValue forum_id = 1;</code>
+     * <code>.dstore.values.IntegerValue forum_id = 1;</code>
      */
     public io.dstore.values.IntegerValueOrBuilder getForumIdOrBuilder() {
       return getForumId();
@@ -252,7 +252,7 @@ public final class FoGetForumSettingsAd {
     public static final int FORUM_ID_NULL_FIELD_NUMBER = 1001;
     private boolean forumIdNull_;
     /**
-     * <code>optional bool forum_id_null = 1001;</code>
+     * <code>bool forum_id_null = 1001;</code>
      */
     public boolean getForumIdNull() {
       return forumIdNull_;
@@ -261,19 +261,19 @@ public final class FoGetForumSettingsAd {
     public static final int KEY_VARIABLE_FIELD_NUMBER = 2;
     private io.dstore.values.StringValue keyVariable_;
     /**
-     * <code>optional .dstore.values.StringValue key_variable = 2;</code>
+     * <code>.dstore.values.StringValue key_variable = 2;</code>
      */
     public boolean hasKeyVariable() {
       return keyVariable_ != null;
     }
     /**
-     * <code>optional .dstore.values.StringValue key_variable = 2;</code>
+     * <code>.dstore.values.StringValue key_variable = 2;</code>
      */
     public io.dstore.values.StringValue getKeyVariable() {
       return keyVariable_ == null ? io.dstore.values.StringValue.getDefaultInstance() : keyVariable_;
     }
     /**
-     * <code>optional .dstore.values.StringValue key_variable = 2;</code>
+     * <code>.dstore.values.StringValue key_variable = 2;</code>
      */
     public io.dstore.values.StringValueOrBuilder getKeyVariableOrBuilder() {
       return getKeyVariable();
@@ -282,7 +282,7 @@ public final class FoGetForumSettingsAd {
     public static final int KEY_VARIABLE_NULL_FIELD_NUMBER = 1002;
     private boolean keyVariableNull_;
     /**
-     * <code>optional bool key_variable_null = 1002;</code>
+     * <code>bool key_variable_null = 1002;</code>
      */
     public boolean getKeyVariableNull() {
       return keyVariableNull_;
@@ -291,19 +291,19 @@ public final class FoGetForumSettingsAd {
     public static final int VALUE_FIELD_NUMBER = 3;
     private io.dstore.values.StringValue value_;
     /**
-     * <code>optional .dstore.values.StringValue value = 3;</code>
+     * <code>.dstore.values.StringValue value = 3;</code>
      */
     public boolean hasValue() {
       return value_ != null;
     }
     /**
-     * <code>optional .dstore.values.StringValue value = 3;</code>
+     * <code>.dstore.values.StringValue value = 3;</code>
      */
     public io.dstore.values.StringValue getValue() {
       return value_ == null ? io.dstore.values.StringValue.getDefaultInstance() : value_;
     }
     /**
-     * <code>optional .dstore.values.StringValue value = 3;</code>
+     * <code>.dstore.values.StringValue value = 3;</code>
      */
     public io.dstore.values.StringValueOrBuilder getValueOrBuilder() {
       return getValue();
@@ -312,7 +312,7 @@ public final class FoGetForumSettingsAd {
     public static final int VALUE_NULL_FIELD_NUMBER = 1003;
     private boolean valueNull_;
     /**
-     * <code>optional bool value_null = 1003;</code>
+     * <code>bool value_null = 1003;</code>
      */
     public boolean getValueNull() {
       return valueNull_;
@@ -321,19 +321,19 @@ public final class FoGetForumSettingsAd {
     public static final int PERSON_ID_FIELD_NUMBER = 4;
     private io.dstore.values.IntegerValue personId_;
     /**
-     * <code>optional .dstore.values.IntegerValue person_id = 4;</code>
+     * <code>.dstore.values.IntegerValue person_id = 4;</code>
      */
     public boolean hasPersonId() {
       return personId_ != null;
     }
     /**
-     * <code>optional .dstore.values.IntegerValue person_id = 4;</code>
+     * <code>.dstore.values.IntegerValue person_id = 4;</code>
      */
     public io.dstore.values.IntegerValue getPersonId() {
       return personId_ == null ? io.dstore.values.IntegerValue.getDefaultInstance() : personId_;
     }
     /**
-     * <code>optional .dstore.values.IntegerValue person_id = 4;</code>
+     * <code>.dstore.values.IntegerValue person_id = 4;</code>
      */
     public io.dstore.values.IntegerValueOrBuilder getPersonIdOrBuilder() {
       return getPersonId();
@@ -342,7 +342,7 @@ public final class FoGetForumSettingsAd {
     public static final int PERSON_ID_NULL_FIELD_NUMBER = 1004;
     private boolean personIdNull_;
     /**
-     * <code>optional bool person_id_null = 1004;</code>
+     * <code>bool person_id_null = 1004;</code>
      */
     public boolean getPersonIdNull() {
       return personIdNull_;
@@ -476,7 +476,7 @@ public final class FoGetForumSettingsAd {
         return memoizedHashCode;
       }
       int hash = 41;
-      hash = (19 * hash) + getDescriptorForType().hashCode();
+      hash = (19 * hash) + getDescriptor().hashCode();
       if (hasForumId()) {
         hash = (37 * hash) + FORUM_ID_FIELD_NUMBER;
         hash = (53 * hash) + getForumId().hashCode();
@@ -796,13 +796,13 @@ public final class FoGetForumSettingsAd {
       private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> forumIdBuilder_;
       /**
-       * <code>optional .dstore.values.IntegerValue forum_id = 1;</code>
+       * <code>.dstore.values.IntegerValue forum_id = 1;</code>
        */
       public boolean hasForumId() {
         return forumIdBuilder_ != null || forumId_ != null;
       }
       /**
-       * <code>optional .dstore.values.IntegerValue forum_id = 1;</code>
+       * <code>.dstore.values.IntegerValue forum_id = 1;</code>
        */
       public io.dstore.values.IntegerValue getForumId() {
         if (forumIdBuilder_ == null) {
@@ -812,7 +812,7 @@ public final class FoGetForumSettingsAd {
         }
       }
       /**
-       * <code>optional .dstore.values.IntegerValue forum_id = 1;</code>
+       * <code>.dstore.values.IntegerValue forum_id = 1;</code>
        */
       public Builder setForumId(io.dstore.values.IntegerValue value) {
         if (forumIdBuilder_ == null) {
@@ -828,7 +828,7 @@ public final class FoGetForumSettingsAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.IntegerValue forum_id = 1;</code>
+       * <code>.dstore.values.IntegerValue forum_id = 1;</code>
        */
       public Builder setForumId(
           io.dstore.values.IntegerValue.Builder builderForValue) {
@@ -842,7 +842,7 @@ public final class FoGetForumSettingsAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.IntegerValue forum_id = 1;</code>
+       * <code>.dstore.values.IntegerValue forum_id = 1;</code>
        */
       public Builder mergeForumId(io.dstore.values.IntegerValue value) {
         if (forumIdBuilder_ == null) {
@@ -860,7 +860,7 @@ public final class FoGetForumSettingsAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.IntegerValue forum_id = 1;</code>
+       * <code>.dstore.values.IntegerValue forum_id = 1;</code>
        */
       public Builder clearForumId() {
         if (forumIdBuilder_ == null) {
@@ -874,7 +874,7 @@ public final class FoGetForumSettingsAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.IntegerValue forum_id = 1;</code>
+       * <code>.dstore.values.IntegerValue forum_id = 1;</code>
        */
       public io.dstore.values.IntegerValue.Builder getForumIdBuilder() {
         
@@ -882,7 +882,7 @@ public final class FoGetForumSettingsAd {
         return getForumIdFieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .dstore.values.IntegerValue forum_id = 1;</code>
+       * <code>.dstore.values.IntegerValue forum_id = 1;</code>
        */
       public io.dstore.values.IntegerValueOrBuilder getForumIdOrBuilder() {
         if (forumIdBuilder_ != null) {
@@ -893,7 +893,7 @@ public final class FoGetForumSettingsAd {
         }
       }
       /**
-       * <code>optional .dstore.values.IntegerValue forum_id = 1;</code>
+       * <code>.dstore.values.IntegerValue forum_id = 1;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> 
@@ -911,13 +911,13 @@ public final class FoGetForumSettingsAd {
 
       private boolean forumIdNull_ ;
       /**
-       * <code>optional bool forum_id_null = 1001;</code>
+       * <code>bool forum_id_null = 1001;</code>
        */
       public boolean getForumIdNull() {
         return forumIdNull_;
       }
       /**
-       * <code>optional bool forum_id_null = 1001;</code>
+       * <code>bool forum_id_null = 1001;</code>
        */
       public Builder setForumIdNull(boolean value) {
         
@@ -926,7 +926,7 @@ public final class FoGetForumSettingsAd {
         return this;
       }
       /**
-       * <code>optional bool forum_id_null = 1001;</code>
+       * <code>bool forum_id_null = 1001;</code>
        */
       public Builder clearForumIdNull() {
         
@@ -939,13 +939,13 @@ public final class FoGetForumSettingsAd {
       private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.values.StringValue, io.dstore.values.StringValue.Builder, io.dstore.values.StringValueOrBuilder> keyVariableBuilder_;
       /**
-       * <code>optional .dstore.values.StringValue key_variable = 2;</code>
+       * <code>.dstore.values.StringValue key_variable = 2;</code>
        */
       public boolean hasKeyVariable() {
         return keyVariableBuilder_ != null || keyVariable_ != null;
       }
       /**
-       * <code>optional .dstore.values.StringValue key_variable = 2;</code>
+       * <code>.dstore.values.StringValue key_variable = 2;</code>
        */
       public io.dstore.values.StringValue getKeyVariable() {
         if (keyVariableBuilder_ == null) {
@@ -955,7 +955,7 @@ public final class FoGetForumSettingsAd {
         }
       }
       /**
-       * <code>optional .dstore.values.StringValue key_variable = 2;</code>
+       * <code>.dstore.values.StringValue key_variable = 2;</code>
        */
       public Builder setKeyVariable(io.dstore.values.StringValue value) {
         if (keyVariableBuilder_ == null) {
@@ -971,7 +971,7 @@ public final class FoGetForumSettingsAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.StringValue key_variable = 2;</code>
+       * <code>.dstore.values.StringValue key_variable = 2;</code>
        */
       public Builder setKeyVariable(
           io.dstore.values.StringValue.Builder builderForValue) {
@@ -985,7 +985,7 @@ public final class FoGetForumSettingsAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.StringValue key_variable = 2;</code>
+       * <code>.dstore.values.StringValue key_variable = 2;</code>
        */
       public Builder mergeKeyVariable(io.dstore.values.StringValue value) {
         if (keyVariableBuilder_ == null) {
@@ -1003,7 +1003,7 @@ public final class FoGetForumSettingsAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.StringValue key_variable = 2;</code>
+       * <code>.dstore.values.StringValue key_variable = 2;</code>
        */
       public Builder clearKeyVariable() {
         if (keyVariableBuilder_ == null) {
@@ -1017,7 +1017,7 @@ public final class FoGetForumSettingsAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.StringValue key_variable = 2;</code>
+       * <code>.dstore.values.StringValue key_variable = 2;</code>
        */
       public io.dstore.values.StringValue.Builder getKeyVariableBuilder() {
         
@@ -1025,7 +1025,7 @@ public final class FoGetForumSettingsAd {
         return getKeyVariableFieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .dstore.values.StringValue key_variable = 2;</code>
+       * <code>.dstore.values.StringValue key_variable = 2;</code>
        */
       public io.dstore.values.StringValueOrBuilder getKeyVariableOrBuilder() {
         if (keyVariableBuilder_ != null) {
@@ -1036,7 +1036,7 @@ public final class FoGetForumSettingsAd {
         }
       }
       /**
-       * <code>optional .dstore.values.StringValue key_variable = 2;</code>
+       * <code>.dstore.values.StringValue key_variable = 2;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.values.StringValue, io.dstore.values.StringValue.Builder, io.dstore.values.StringValueOrBuilder> 
@@ -1054,13 +1054,13 @@ public final class FoGetForumSettingsAd {
 
       private boolean keyVariableNull_ ;
       /**
-       * <code>optional bool key_variable_null = 1002;</code>
+       * <code>bool key_variable_null = 1002;</code>
        */
       public boolean getKeyVariableNull() {
         return keyVariableNull_;
       }
       /**
-       * <code>optional bool key_variable_null = 1002;</code>
+       * <code>bool key_variable_null = 1002;</code>
        */
       public Builder setKeyVariableNull(boolean value) {
         
@@ -1069,7 +1069,7 @@ public final class FoGetForumSettingsAd {
         return this;
       }
       /**
-       * <code>optional bool key_variable_null = 1002;</code>
+       * <code>bool key_variable_null = 1002;</code>
        */
       public Builder clearKeyVariableNull() {
         
@@ -1082,13 +1082,13 @@ public final class FoGetForumSettingsAd {
       private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.values.StringValue, io.dstore.values.StringValue.Builder, io.dstore.values.StringValueOrBuilder> valueBuilder_;
       /**
-       * <code>optional .dstore.values.StringValue value = 3;</code>
+       * <code>.dstore.values.StringValue value = 3;</code>
        */
       public boolean hasValue() {
         return valueBuilder_ != null || value_ != null;
       }
       /**
-       * <code>optional .dstore.values.StringValue value = 3;</code>
+       * <code>.dstore.values.StringValue value = 3;</code>
        */
       public io.dstore.values.StringValue getValue() {
         if (valueBuilder_ == null) {
@@ -1098,7 +1098,7 @@ public final class FoGetForumSettingsAd {
         }
       }
       /**
-       * <code>optional .dstore.values.StringValue value = 3;</code>
+       * <code>.dstore.values.StringValue value = 3;</code>
        */
       public Builder setValue(io.dstore.values.StringValue value) {
         if (valueBuilder_ == null) {
@@ -1114,7 +1114,7 @@ public final class FoGetForumSettingsAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.StringValue value = 3;</code>
+       * <code>.dstore.values.StringValue value = 3;</code>
        */
       public Builder setValue(
           io.dstore.values.StringValue.Builder builderForValue) {
@@ -1128,7 +1128,7 @@ public final class FoGetForumSettingsAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.StringValue value = 3;</code>
+       * <code>.dstore.values.StringValue value = 3;</code>
        */
       public Builder mergeValue(io.dstore.values.StringValue value) {
         if (valueBuilder_ == null) {
@@ -1146,7 +1146,7 @@ public final class FoGetForumSettingsAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.StringValue value = 3;</code>
+       * <code>.dstore.values.StringValue value = 3;</code>
        */
       public Builder clearValue() {
         if (valueBuilder_ == null) {
@@ -1160,7 +1160,7 @@ public final class FoGetForumSettingsAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.StringValue value = 3;</code>
+       * <code>.dstore.values.StringValue value = 3;</code>
        */
       public io.dstore.values.StringValue.Builder getValueBuilder() {
         
@@ -1168,7 +1168,7 @@ public final class FoGetForumSettingsAd {
         return getValueFieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .dstore.values.StringValue value = 3;</code>
+       * <code>.dstore.values.StringValue value = 3;</code>
        */
       public io.dstore.values.StringValueOrBuilder getValueOrBuilder() {
         if (valueBuilder_ != null) {
@@ -1179,7 +1179,7 @@ public final class FoGetForumSettingsAd {
         }
       }
       /**
-       * <code>optional .dstore.values.StringValue value = 3;</code>
+       * <code>.dstore.values.StringValue value = 3;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.values.StringValue, io.dstore.values.StringValue.Builder, io.dstore.values.StringValueOrBuilder> 
@@ -1197,13 +1197,13 @@ public final class FoGetForumSettingsAd {
 
       private boolean valueNull_ ;
       /**
-       * <code>optional bool value_null = 1003;</code>
+       * <code>bool value_null = 1003;</code>
        */
       public boolean getValueNull() {
         return valueNull_;
       }
       /**
-       * <code>optional bool value_null = 1003;</code>
+       * <code>bool value_null = 1003;</code>
        */
       public Builder setValueNull(boolean value) {
         
@@ -1212,7 +1212,7 @@ public final class FoGetForumSettingsAd {
         return this;
       }
       /**
-       * <code>optional bool value_null = 1003;</code>
+       * <code>bool value_null = 1003;</code>
        */
       public Builder clearValueNull() {
         
@@ -1225,13 +1225,13 @@ public final class FoGetForumSettingsAd {
       private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> personIdBuilder_;
       /**
-       * <code>optional .dstore.values.IntegerValue person_id = 4;</code>
+       * <code>.dstore.values.IntegerValue person_id = 4;</code>
        */
       public boolean hasPersonId() {
         return personIdBuilder_ != null || personId_ != null;
       }
       /**
-       * <code>optional .dstore.values.IntegerValue person_id = 4;</code>
+       * <code>.dstore.values.IntegerValue person_id = 4;</code>
        */
       public io.dstore.values.IntegerValue getPersonId() {
         if (personIdBuilder_ == null) {
@@ -1241,7 +1241,7 @@ public final class FoGetForumSettingsAd {
         }
       }
       /**
-       * <code>optional .dstore.values.IntegerValue person_id = 4;</code>
+       * <code>.dstore.values.IntegerValue person_id = 4;</code>
        */
       public Builder setPersonId(io.dstore.values.IntegerValue value) {
         if (personIdBuilder_ == null) {
@@ -1257,7 +1257,7 @@ public final class FoGetForumSettingsAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.IntegerValue person_id = 4;</code>
+       * <code>.dstore.values.IntegerValue person_id = 4;</code>
        */
       public Builder setPersonId(
           io.dstore.values.IntegerValue.Builder builderForValue) {
@@ -1271,7 +1271,7 @@ public final class FoGetForumSettingsAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.IntegerValue person_id = 4;</code>
+       * <code>.dstore.values.IntegerValue person_id = 4;</code>
        */
       public Builder mergePersonId(io.dstore.values.IntegerValue value) {
         if (personIdBuilder_ == null) {
@@ -1289,7 +1289,7 @@ public final class FoGetForumSettingsAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.IntegerValue person_id = 4;</code>
+       * <code>.dstore.values.IntegerValue person_id = 4;</code>
        */
       public Builder clearPersonId() {
         if (personIdBuilder_ == null) {
@@ -1303,7 +1303,7 @@ public final class FoGetForumSettingsAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.IntegerValue person_id = 4;</code>
+       * <code>.dstore.values.IntegerValue person_id = 4;</code>
        */
       public io.dstore.values.IntegerValue.Builder getPersonIdBuilder() {
         
@@ -1311,7 +1311,7 @@ public final class FoGetForumSettingsAd {
         return getPersonIdFieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .dstore.values.IntegerValue person_id = 4;</code>
+       * <code>.dstore.values.IntegerValue person_id = 4;</code>
        */
       public io.dstore.values.IntegerValueOrBuilder getPersonIdOrBuilder() {
         if (personIdBuilder_ != null) {
@@ -1322,7 +1322,7 @@ public final class FoGetForumSettingsAd {
         }
       }
       /**
-       * <code>optional .dstore.values.IntegerValue person_id = 4;</code>
+       * <code>.dstore.values.IntegerValue person_id = 4;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> 
@@ -1340,13 +1340,13 @@ public final class FoGetForumSettingsAd {
 
       private boolean personIdNull_ ;
       /**
-       * <code>optional bool person_id_null = 1004;</code>
+       * <code>bool person_id_null = 1004;</code>
        */
       public boolean getPersonIdNull() {
         return personIdNull_;
       }
       /**
-       * <code>optional bool person_id_null = 1004;</code>
+       * <code>bool person_id_null = 1004;</code>
        */
       public Builder setPersonIdNull(boolean value) {
         
@@ -1355,7 +1355,7 @@ public final class FoGetForumSettingsAd {
         return this;
       }
       /**
-       * <code>optional bool person_id_null = 1004;</code>
+       * <code>bool person_id_null = 1004;</code>
        */
       public Builder clearPersonIdNull() {
         
@@ -1614,7 +1614,7 @@ public final class FoGetForumSettingsAd {
         com.google.protobuf.MessageOrBuilder {
 
       /**
-       * <code>optional int32 row_id = 10000;</code>
+       * <code>int32 row_id = 10000;</code>
        */
       int getRowId();
 
@@ -1623,7 +1623,7 @@ public final class FoGetForumSettingsAd {
        * ID einer Person, für die der Wert "Value" zum Schlüssel "KeyVariable" gilt. Steht hier eine "0", handelt es sich um eine globale Einstellung für alle Teilnehmer, die nur durch einen weiteren Eintrag zur entsprechenden "PersonID" überschrieben werden kann.
        * </pre>
        *
-       * <code>optional .dstore.values.IntegerValue person_id = 10001;</code>
+       * <code>.dstore.values.IntegerValue person_id = 10001;</code>
        */
       boolean hasPersonId();
       /**
@@ -1631,7 +1631,7 @@ public final class FoGetForumSettingsAd {
        * ID einer Person, für die der Wert "Value" zum Schlüssel "KeyVariable" gilt. Steht hier eine "0", handelt es sich um eine globale Einstellung für alle Teilnehmer, die nur durch einen weiteren Eintrag zur entsprechenden "PersonID" überschrieben werden kann.
        * </pre>
        *
-       * <code>optional .dstore.values.IntegerValue person_id = 10001;</code>
+       * <code>.dstore.values.IntegerValue person_id = 10001;</code>
        */
       io.dstore.values.IntegerValue getPersonId();
       /**
@@ -1639,7 +1639,7 @@ public final class FoGetForumSettingsAd {
        * ID einer Person, für die der Wert "Value" zum Schlüssel "KeyVariable" gilt. Steht hier eine "0", handelt es sich um eine globale Einstellung für alle Teilnehmer, die nur durch einen weiteren Eintrag zur entsprechenden "PersonID" überschrieben werden kann.
        * </pre>
        *
-       * <code>optional .dstore.values.IntegerValue person_id = 10001;</code>
+       * <code>.dstore.values.IntegerValue person_id = 10001;</code>
        */
       io.dstore.values.IntegerValueOrBuilder getPersonIdOrBuilder();
 
@@ -1648,7 +1648,7 @@ public final class FoGetForumSettingsAd {
        * ID des Forums "&#64;ForumID" - diese Rückgabespalte gibt es, da es in einer späteren dStore-Version möglich sein wird, sich "Settings" für mehrere Foren anzeigen zu lassen
        * </pre>
        *
-       * <code>optional .dstore.values.IntegerValue forum_id = 10002;</code>
+       * <code>.dstore.values.IntegerValue forum_id = 10002;</code>
        */
       boolean hasForumId();
       /**
@@ -1656,7 +1656,7 @@ public final class FoGetForumSettingsAd {
        * ID des Forums "&#64;ForumID" - diese Rückgabespalte gibt es, da es in einer späteren dStore-Version möglich sein wird, sich "Settings" für mehrere Foren anzeigen zu lassen
        * </pre>
        *
-       * <code>optional .dstore.values.IntegerValue forum_id = 10002;</code>
+       * <code>.dstore.values.IntegerValue forum_id = 10002;</code>
        */
       io.dstore.values.IntegerValue getForumId();
       /**
@@ -1664,7 +1664,7 @@ public final class FoGetForumSettingsAd {
        * ID des Forums "&#64;ForumID" - diese Rückgabespalte gibt es, da es in einer späteren dStore-Version möglich sein wird, sich "Settings" für mehrere Foren anzeigen zu lassen
        * </pre>
        *
-       * <code>optional .dstore.values.IntegerValue forum_id = 10002;</code>
+       * <code>.dstore.values.IntegerValue forum_id = 10002;</code>
        */
       io.dstore.values.IntegerValueOrBuilder getForumIdOrBuilder();
 
@@ -1673,7 +1673,7 @@ public final class FoGetForumSettingsAd {
        * Der Wert, der für "PersonID" zum Schlüssel "KeyVariable" hinterlegt ist
        * </pre>
        *
-       * <code>optional .dstore.values.StringValue value = 10003;</code>
+       * <code>.dstore.values.StringValue value = 10003;</code>
        */
       boolean hasValue();
       /**
@@ -1681,7 +1681,7 @@ public final class FoGetForumSettingsAd {
        * Der Wert, der für "PersonID" zum Schlüssel "KeyVariable" hinterlegt ist
        * </pre>
        *
-       * <code>optional .dstore.values.StringValue value = 10003;</code>
+       * <code>.dstore.values.StringValue value = 10003;</code>
        */
       io.dstore.values.StringValue getValue();
       /**
@@ -1689,7 +1689,7 @@ public final class FoGetForumSettingsAd {
        * Der Wert, der für "PersonID" zum Schlüssel "KeyVariable" hinterlegt ist
        * </pre>
        *
-       * <code>optional .dstore.values.StringValue value = 10003;</code>
+       * <code>.dstore.values.StringValue value = 10003;</code>
        */
       io.dstore.values.StringValueOrBuilder getValueOrBuilder();
 
@@ -1698,7 +1698,7 @@ public final class FoGetForumSettingsAd {
        * Ein Schlüssel, der zu einem Forum hinterlegt werden kann, wie z.B. "KeepPostingsInDays"
        * </pre>
        *
-       * <code>optional .dstore.values.StringValue key_variable = 10004;</code>
+       * <code>.dstore.values.StringValue key_variable = 10004;</code>
        */
       boolean hasKeyVariable();
       /**
@@ -1706,7 +1706,7 @@ public final class FoGetForumSettingsAd {
        * Ein Schlüssel, der zu einem Forum hinterlegt werden kann, wie z.B. "KeepPostingsInDays"
        * </pre>
        *
-       * <code>optional .dstore.values.StringValue key_variable = 10004;</code>
+       * <code>.dstore.values.StringValue key_variable = 10004;</code>
        */
       io.dstore.values.StringValue getKeyVariable();
       /**
@@ -1714,7 +1714,7 @@ public final class FoGetForumSettingsAd {
        * Ein Schlüssel, der zu einem Forum hinterlegt werden kann, wie z.B. "KeepPostingsInDays"
        * </pre>
        *
-       * <code>optional .dstore.values.StringValue key_variable = 10004;</code>
+       * <code>.dstore.values.StringValue key_variable = 10004;</code>
        */
       io.dstore.values.StringValueOrBuilder getKeyVariableOrBuilder();
     }
@@ -1841,7 +1841,7 @@ public final class FoGetForumSettingsAd {
       public static final int ROW_ID_FIELD_NUMBER = 10000;
       private int rowId_;
       /**
-       * <code>optional int32 row_id = 10000;</code>
+       * <code>int32 row_id = 10000;</code>
        */
       public int getRowId() {
         return rowId_;
@@ -1854,7 +1854,7 @@ public final class FoGetForumSettingsAd {
        * ID einer Person, für die der Wert "Value" zum Schlüssel "KeyVariable" gilt. Steht hier eine "0", handelt es sich um eine globale Einstellung für alle Teilnehmer, die nur durch einen weiteren Eintrag zur entsprechenden "PersonID" überschrieben werden kann.
        * </pre>
        *
-       * <code>optional .dstore.values.IntegerValue person_id = 10001;</code>
+       * <code>.dstore.values.IntegerValue person_id = 10001;</code>
        */
       public boolean hasPersonId() {
         return personId_ != null;
@@ -1864,7 +1864,7 @@ public final class FoGetForumSettingsAd {
        * ID einer Person, für die der Wert "Value" zum Schlüssel "KeyVariable" gilt. Steht hier eine "0", handelt es sich um eine globale Einstellung für alle Teilnehmer, die nur durch einen weiteren Eintrag zur entsprechenden "PersonID" überschrieben werden kann.
        * </pre>
        *
-       * <code>optional .dstore.values.IntegerValue person_id = 10001;</code>
+       * <code>.dstore.values.IntegerValue person_id = 10001;</code>
        */
       public io.dstore.values.IntegerValue getPersonId() {
         return personId_ == null ? io.dstore.values.IntegerValue.getDefaultInstance() : personId_;
@@ -1874,7 +1874,7 @@ public final class FoGetForumSettingsAd {
        * ID einer Person, für die der Wert "Value" zum Schlüssel "KeyVariable" gilt. Steht hier eine "0", handelt es sich um eine globale Einstellung für alle Teilnehmer, die nur durch einen weiteren Eintrag zur entsprechenden "PersonID" überschrieben werden kann.
        * </pre>
        *
-       * <code>optional .dstore.values.IntegerValue person_id = 10001;</code>
+       * <code>.dstore.values.IntegerValue person_id = 10001;</code>
        */
       public io.dstore.values.IntegerValueOrBuilder getPersonIdOrBuilder() {
         return getPersonId();
@@ -1887,7 +1887,7 @@ public final class FoGetForumSettingsAd {
        * ID des Forums "&#64;ForumID" - diese Rückgabespalte gibt es, da es in einer späteren dStore-Version möglich sein wird, sich "Settings" für mehrere Foren anzeigen zu lassen
        * </pre>
        *
-       * <code>optional .dstore.values.IntegerValue forum_id = 10002;</code>
+       * <code>.dstore.values.IntegerValue forum_id = 10002;</code>
        */
       public boolean hasForumId() {
         return forumId_ != null;
@@ -1897,7 +1897,7 @@ public final class FoGetForumSettingsAd {
        * ID des Forums "&#64;ForumID" - diese Rückgabespalte gibt es, da es in einer späteren dStore-Version möglich sein wird, sich "Settings" für mehrere Foren anzeigen zu lassen
        * </pre>
        *
-       * <code>optional .dstore.values.IntegerValue forum_id = 10002;</code>
+       * <code>.dstore.values.IntegerValue forum_id = 10002;</code>
        */
       public io.dstore.values.IntegerValue getForumId() {
         return forumId_ == null ? io.dstore.values.IntegerValue.getDefaultInstance() : forumId_;
@@ -1907,7 +1907,7 @@ public final class FoGetForumSettingsAd {
        * ID des Forums "&#64;ForumID" - diese Rückgabespalte gibt es, da es in einer späteren dStore-Version möglich sein wird, sich "Settings" für mehrere Foren anzeigen zu lassen
        * </pre>
        *
-       * <code>optional .dstore.values.IntegerValue forum_id = 10002;</code>
+       * <code>.dstore.values.IntegerValue forum_id = 10002;</code>
        */
       public io.dstore.values.IntegerValueOrBuilder getForumIdOrBuilder() {
         return getForumId();
@@ -1920,7 +1920,7 @@ public final class FoGetForumSettingsAd {
        * Der Wert, der für "PersonID" zum Schlüssel "KeyVariable" hinterlegt ist
        * </pre>
        *
-       * <code>optional .dstore.values.StringValue value = 10003;</code>
+       * <code>.dstore.values.StringValue value = 10003;</code>
        */
       public boolean hasValue() {
         return value_ != null;
@@ -1930,7 +1930,7 @@ public final class FoGetForumSettingsAd {
        * Der Wert, der für "PersonID" zum Schlüssel "KeyVariable" hinterlegt ist
        * </pre>
        *
-       * <code>optional .dstore.values.StringValue value = 10003;</code>
+       * <code>.dstore.values.StringValue value = 10003;</code>
        */
       public io.dstore.values.StringValue getValue() {
         return value_ == null ? io.dstore.values.StringValue.getDefaultInstance() : value_;
@@ -1940,7 +1940,7 @@ public final class FoGetForumSettingsAd {
        * Der Wert, der für "PersonID" zum Schlüssel "KeyVariable" hinterlegt ist
        * </pre>
        *
-       * <code>optional .dstore.values.StringValue value = 10003;</code>
+       * <code>.dstore.values.StringValue value = 10003;</code>
        */
       public io.dstore.values.StringValueOrBuilder getValueOrBuilder() {
         return getValue();
@@ -1953,7 +1953,7 @@ public final class FoGetForumSettingsAd {
        * Ein Schlüssel, der zu einem Forum hinterlegt werden kann, wie z.B. "KeepPostingsInDays"
        * </pre>
        *
-       * <code>optional .dstore.values.StringValue key_variable = 10004;</code>
+       * <code>.dstore.values.StringValue key_variable = 10004;</code>
        */
       public boolean hasKeyVariable() {
         return keyVariable_ != null;
@@ -1963,7 +1963,7 @@ public final class FoGetForumSettingsAd {
        * Ein Schlüssel, der zu einem Forum hinterlegt werden kann, wie z.B. "KeepPostingsInDays"
        * </pre>
        *
-       * <code>optional .dstore.values.StringValue key_variable = 10004;</code>
+       * <code>.dstore.values.StringValue key_variable = 10004;</code>
        */
       public io.dstore.values.StringValue getKeyVariable() {
         return keyVariable_ == null ? io.dstore.values.StringValue.getDefaultInstance() : keyVariable_;
@@ -1973,7 +1973,7 @@ public final class FoGetForumSettingsAd {
        * Ein Schlüssel, der zu einem Forum hinterlegt werden kann, wie z.B. "KeepPostingsInDays"
        * </pre>
        *
-       * <code>optional .dstore.values.StringValue key_variable = 10004;</code>
+       * <code>.dstore.values.StringValue key_variable = 10004;</code>
        */
       public io.dstore.values.StringValueOrBuilder getKeyVariableOrBuilder() {
         return getKeyVariable();
@@ -2080,7 +2080,7 @@ public final class FoGetForumSettingsAd {
           return memoizedHashCode;
         }
         int hash = 41;
-        hash = (19 * hash) + getDescriptorForType().hashCode();
+        hash = (19 * hash) + getDescriptor().hashCode();
         hash = (37 * hash) + ROW_ID_FIELD_NUMBER;
         hash = (53 * hash) + getRowId();
         if (hasPersonId()) {
@@ -2370,13 +2370,13 @@ public final class FoGetForumSettingsAd {
 
         private int rowId_ ;
         /**
-         * <code>optional int32 row_id = 10000;</code>
+         * <code>int32 row_id = 10000;</code>
          */
         public int getRowId() {
           return rowId_;
         }
         /**
-         * <code>optional int32 row_id = 10000;</code>
+         * <code>int32 row_id = 10000;</code>
          */
         public Builder setRowId(int value) {
           
@@ -2385,7 +2385,7 @@ public final class FoGetForumSettingsAd {
           return this;
         }
         /**
-         * <code>optional int32 row_id = 10000;</code>
+         * <code>int32 row_id = 10000;</code>
          */
         public Builder clearRowId() {
           
@@ -2402,7 +2402,7 @@ public final class FoGetForumSettingsAd {
          * ID einer Person, für die der Wert "Value" zum Schlüssel "KeyVariable" gilt. Steht hier eine "0", handelt es sich um eine globale Einstellung für alle Teilnehmer, die nur durch einen weiteren Eintrag zur entsprechenden "PersonID" überschrieben werden kann.
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue person_id = 10001;</code>
+         * <code>.dstore.values.IntegerValue person_id = 10001;</code>
          */
         public boolean hasPersonId() {
           return personIdBuilder_ != null || personId_ != null;
@@ -2412,7 +2412,7 @@ public final class FoGetForumSettingsAd {
          * ID einer Person, für die der Wert "Value" zum Schlüssel "KeyVariable" gilt. Steht hier eine "0", handelt es sich um eine globale Einstellung für alle Teilnehmer, die nur durch einen weiteren Eintrag zur entsprechenden "PersonID" überschrieben werden kann.
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue person_id = 10001;</code>
+         * <code>.dstore.values.IntegerValue person_id = 10001;</code>
          */
         public io.dstore.values.IntegerValue getPersonId() {
           if (personIdBuilder_ == null) {
@@ -2426,7 +2426,7 @@ public final class FoGetForumSettingsAd {
          * ID einer Person, für die der Wert "Value" zum Schlüssel "KeyVariable" gilt. Steht hier eine "0", handelt es sich um eine globale Einstellung für alle Teilnehmer, die nur durch einen weiteren Eintrag zur entsprechenden "PersonID" überschrieben werden kann.
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue person_id = 10001;</code>
+         * <code>.dstore.values.IntegerValue person_id = 10001;</code>
          */
         public Builder setPersonId(io.dstore.values.IntegerValue value) {
           if (personIdBuilder_ == null) {
@@ -2446,7 +2446,7 @@ public final class FoGetForumSettingsAd {
          * ID einer Person, für die der Wert "Value" zum Schlüssel "KeyVariable" gilt. Steht hier eine "0", handelt es sich um eine globale Einstellung für alle Teilnehmer, die nur durch einen weiteren Eintrag zur entsprechenden "PersonID" überschrieben werden kann.
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue person_id = 10001;</code>
+         * <code>.dstore.values.IntegerValue person_id = 10001;</code>
          */
         public Builder setPersonId(
             io.dstore.values.IntegerValue.Builder builderForValue) {
@@ -2464,7 +2464,7 @@ public final class FoGetForumSettingsAd {
          * ID einer Person, für die der Wert "Value" zum Schlüssel "KeyVariable" gilt. Steht hier eine "0", handelt es sich um eine globale Einstellung für alle Teilnehmer, die nur durch einen weiteren Eintrag zur entsprechenden "PersonID" überschrieben werden kann.
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue person_id = 10001;</code>
+         * <code>.dstore.values.IntegerValue person_id = 10001;</code>
          */
         public Builder mergePersonId(io.dstore.values.IntegerValue value) {
           if (personIdBuilder_ == null) {
@@ -2486,7 +2486,7 @@ public final class FoGetForumSettingsAd {
          * ID einer Person, für die der Wert "Value" zum Schlüssel "KeyVariable" gilt. Steht hier eine "0", handelt es sich um eine globale Einstellung für alle Teilnehmer, die nur durch einen weiteren Eintrag zur entsprechenden "PersonID" überschrieben werden kann.
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue person_id = 10001;</code>
+         * <code>.dstore.values.IntegerValue person_id = 10001;</code>
          */
         public Builder clearPersonId() {
           if (personIdBuilder_ == null) {
@@ -2504,7 +2504,7 @@ public final class FoGetForumSettingsAd {
          * ID einer Person, für die der Wert "Value" zum Schlüssel "KeyVariable" gilt. Steht hier eine "0", handelt es sich um eine globale Einstellung für alle Teilnehmer, die nur durch einen weiteren Eintrag zur entsprechenden "PersonID" überschrieben werden kann.
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue person_id = 10001;</code>
+         * <code>.dstore.values.IntegerValue person_id = 10001;</code>
          */
         public io.dstore.values.IntegerValue.Builder getPersonIdBuilder() {
           
@@ -2516,7 +2516,7 @@ public final class FoGetForumSettingsAd {
          * ID einer Person, für die der Wert "Value" zum Schlüssel "KeyVariable" gilt. Steht hier eine "0", handelt es sich um eine globale Einstellung für alle Teilnehmer, die nur durch einen weiteren Eintrag zur entsprechenden "PersonID" überschrieben werden kann.
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue person_id = 10001;</code>
+         * <code>.dstore.values.IntegerValue person_id = 10001;</code>
          */
         public io.dstore.values.IntegerValueOrBuilder getPersonIdOrBuilder() {
           if (personIdBuilder_ != null) {
@@ -2531,7 +2531,7 @@ public final class FoGetForumSettingsAd {
          * ID einer Person, für die der Wert "Value" zum Schlüssel "KeyVariable" gilt. Steht hier eine "0", handelt es sich um eine globale Einstellung für alle Teilnehmer, die nur durch einen weiteren Eintrag zur entsprechenden "PersonID" überschrieben werden kann.
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue person_id = 10001;</code>
+         * <code>.dstore.values.IntegerValue person_id = 10001;</code>
          */
         private com.google.protobuf.SingleFieldBuilderV3<
             io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> 
@@ -2555,7 +2555,7 @@ public final class FoGetForumSettingsAd {
          * ID des Forums "&#64;ForumID" - diese Rückgabespalte gibt es, da es in einer späteren dStore-Version möglich sein wird, sich "Settings" für mehrere Foren anzeigen zu lassen
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue forum_id = 10002;</code>
+         * <code>.dstore.values.IntegerValue forum_id = 10002;</code>
          */
         public boolean hasForumId() {
           return forumIdBuilder_ != null || forumId_ != null;
@@ -2565,7 +2565,7 @@ public final class FoGetForumSettingsAd {
          * ID des Forums "&#64;ForumID" - diese Rückgabespalte gibt es, da es in einer späteren dStore-Version möglich sein wird, sich "Settings" für mehrere Foren anzeigen zu lassen
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue forum_id = 10002;</code>
+         * <code>.dstore.values.IntegerValue forum_id = 10002;</code>
          */
         public io.dstore.values.IntegerValue getForumId() {
           if (forumIdBuilder_ == null) {
@@ -2579,7 +2579,7 @@ public final class FoGetForumSettingsAd {
          * ID des Forums "&#64;ForumID" - diese Rückgabespalte gibt es, da es in einer späteren dStore-Version möglich sein wird, sich "Settings" für mehrere Foren anzeigen zu lassen
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue forum_id = 10002;</code>
+         * <code>.dstore.values.IntegerValue forum_id = 10002;</code>
          */
         public Builder setForumId(io.dstore.values.IntegerValue value) {
           if (forumIdBuilder_ == null) {
@@ -2599,7 +2599,7 @@ public final class FoGetForumSettingsAd {
          * ID des Forums "&#64;ForumID" - diese Rückgabespalte gibt es, da es in einer späteren dStore-Version möglich sein wird, sich "Settings" für mehrere Foren anzeigen zu lassen
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue forum_id = 10002;</code>
+         * <code>.dstore.values.IntegerValue forum_id = 10002;</code>
          */
         public Builder setForumId(
             io.dstore.values.IntegerValue.Builder builderForValue) {
@@ -2617,7 +2617,7 @@ public final class FoGetForumSettingsAd {
          * ID des Forums "&#64;ForumID" - diese Rückgabespalte gibt es, da es in einer späteren dStore-Version möglich sein wird, sich "Settings" für mehrere Foren anzeigen zu lassen
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue forum_id = 10002;</code>
+         * <code>.dstore.values.IntegerValue forum_id = 10002;</code>
          */
         public Builder mergeForumId(io.dstore.values.IntegerValue value) {
           if (forumIdBuilder_ == null) {
@@ -2639,7 +2639,7 @@ public final class FoGetForumSettingsAd {
          * ID des Forums "&#64;ForumID" - diese Rückgabespalte gibt es, da es in einer späteren dStore-Version möglich sein wird, sich "Settings" für mehrere Foren anzeigen zu lassen
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue forum_id = 10002;</code>
+         * <code>.dstore.values.IntegerValue forum_id = 10002;</code>
          */
         public Builder clearForumId() {
           if (forumIdBuilder_ == null) {
@@ -2657,7 +2657,7 @@ public final class FoGetForumSettingsAd {
          * ID des Forums "&#64;ForumID" - diese Rückgabespalte gibt es, da es in einer späteren dStore-Version möglich sein wird, sich "Settings" für mehrere Foren anzeigen zu lassen
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue forum_id = 10002;</code>
+         * <code>.dstore.values.IntegerValue forum_id = 10002;</code>
          */
         public io.dstore.values.IntegerValue.Builder getForumIdBuilder() {
           
@@ -2669,7 +2669,7 @@ public final class FoGetForumSettingsAd {
          * ID des Forums "&#64;ForumID" - diese Rückgabespalte gibt es, da es in einer späteren dStore-Version möglich sein wird, sich "Settings" für mehrere Foren anzeigen zu lassen
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue forum_id = 10002;</code>
+         * <code>.dstore.values.IntegerValue forum_id = 10002;</code>
          */
         public io.dstore.values.IntegerValueOrBuilder getForumIdOrBuilder() {
           if (forumIdBuilder_ != null) {
@@ -2684,7 +2684,7 @@ public final class FoGetForumSettingsAd {
          * ID des Forums "&#64;ForumID" - diese Rückgabespalte gibt es, da es in einer späteren dStore-Version möglich sein wird, sich "Settings" für mehrere Foren anzeigen zu lassen
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue forum_id = 10002;</code>
+         * <code>.dstore.values.IntegerValue forum_id = 10002;</code>
          */
         private com.google.protobuf.SingleFieldBuilderV3<
             io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> 
@@ -2708,7 +2708,7 @@ public final class FoGetForumSettingsAd {
          * Der Wert, der für "PersonID" zum Schlüssel "KeyVariable" hinterlegt ist
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue value = 10003;</code>
+         * <code>.dstore.values.StringValue value = 10003;</code>
          */
         public boolean hasValue() {
           return valueBuilder_ != null || value_ != null;
@@ -2718,7 +2718,7 @@ public final class FoGetForumSettingsAd {
          * Der Wert, der für "PersonID" zum Schlüssel "KeyVariable" hinterlegt ist
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue value = 10003;</code>
+         * <code>.dstore.values.StringValue value = 10003;</code>
          */
         public io.dstore.values.StringValue getValue() {
           if (valueBuilder_ == null) {
@@ -2732,7 +2732,7 @@ public final class FoGetForumSettingsAd {
          * Der Wert, der für "PersonID" zum Schlüssel "KeyVariable" hinterlegt ist
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue value = 10003;</code>
+         * <code>.dstore.values.StringValue value = 10003;</code>
          */
         public Builder setValue(io.dstore.values.StringValue value) {
           if (valueBuilder_ == null) {
@@ -2752,7 +2752,7 @@ public final class FoGetForumSettingsAd {
          * Der Wert, der für "PersonID" zum Schlüssel "KeyVariable" hinterlegt ist
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue value = 10003;</code>
+         * <code>.dstore.values.StringValue value = 10003;</code>
          */
         public Builder setValue(
             io.dstore.values.StringValue.Builder builderForValue) {
@@ -2770,7 +2770,7 @@ public final class FoGetForumSettingsAd {
          * Der Wert, der für "PersonID" zum Schlüssel "KeyVariable" hinterlegt ist
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue value = 10003;</code>
+         * <code>.dstore.values.StringValue value = 10003;</code>
          */
         public Builder mergeValue(io.dstore.values.StringValue value) {
           if (valueBuilder_ == null) {
@@ -2792,7 +2792,7 @@ public final class FoGetForumSettingsAd {
          * Der Wert, der für "PersonID" zum Schlüssel "KeyVariable" hinterlegt ist
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue value = 10003;</code>
+         * <code>.dstore.values.StringValue value = 10003;</code>
          */
         public Builder clearValue() {
           if (valueBuilder_ == null) {
@@ -2810,7 +2810,7 @@ public final class FoGetForumSettingsAd {
          * Der Wert, der für "PersonID" zum Schlüssel "KeyVariable" hinterlegt ist
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue value = 10003;</code>
+         * <code>.dstore.values.StringValue value = 10003;</code>
          */
         public io.dstore.values.StringValue.Builder getValueBuilder() {
           
@@ -2822,7 +2822,7 @@ public final class FoGetForumSettingsAd {
          * Der Wert, der für "PersonID" zum Schlüssel "KeyVariable" hinterlegt ist
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue value = 10003;</code>
+         * <code>.dstore.values.StringValue value = 10003;</code>
          */
         public io.dstore.values.StringValueOrBuilder getValueOrBuilder() {
           if (valueBuilder_ != null) {
@@ -2837,7 +2837,7 @@ public final class FoGetForumSettingsAd {
          * Der Wert, der für "PersonID" zum Schlüssel "KeyVariable" hinterlegt ist
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue value = 10003;</code>
+         * <code>.dstore.values.StringValue value = 10003;</code>
          */
         private com.google.protobuf.SingleFieldBuilderV3<
             io.dstore.values.StringValue, io.dstore.values.StringValue.Builder, io.dstore.values.StringValueOrBuilder> 
@@ -2861,7 +2861,7 @@ public final class FoGetForumSettingsAd {
          * Ein Schlüssel, der zu einem Forum hinterlegt werden kann, wie z.B. "KeepPostingsInDays"
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue key_variable = 10004;</code>
+         * <code>.dstore.values.StringValue key_variable = 10004;</code>
          */
         public boolean hasKeyVariable() {
           return keyVariableBuilder_ != null || keyVariable_ != null;
@@ -2871,7 +2871,7 @@ public final class FoGetForumSettingsAd {
          * Ein Schlüssel, der zu einem Forum hinterlegt werden kann, wie z.B. "KeepPostingsInDays"
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue key_variable = 10004;</code>
+         * <code>.dstore.values.StringValue key_variable = 10004;</code>
          */
         public io.dstore.values.StringValue getKeyVariable() {
           if (keyVariableBuilder_ == null) {
@@ -2885,7 +2885,7 @@ public final class FoGetForumSettingsAd {
          * Ein Schlüssel, der zu einem Forum hinterlegt werden kann, wie z.B. "KeepPostingsInDays"
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue key_variable = 10004;</code>
+         * <code>.dstore.values.StringValue key_variable = 10004;</code>
          */
         public Builder setKeyVariable(io.dstore.values.StringValue value) {
           if (keyVariableBuilder_ == null) {
@@ -2905,7 +2905,7 @@ public final class FoGetForumSettingsAd {
          * Ein Schlüssel, der zu einem Forum hinterlegt werden kann, wie z.B. "KeepPostingsInDays"
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue key_variable = 10004;</code>
+         * <code>.dstore.values.StringValue key_variable = 10004;</code>
          */
         public Builder setKeyVariable(
             io.dstore.values.StringValue.Builder builderForValue) {
@@ -2923,7 +2923,7 @@ public final class FoGetForumSettingsAd {
          * Ein Schlüssel, der zu einem Forum hinterlegt werden kann, wie z.B. "KeepPostingsInDays"
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue key_variable = 10004;</code>
+         * <code>.dstore.values.StringValue key_variable = 10004;</code>
          */
         public Builder mergeKeyVariable(io.dstore.values.StringValue value) {
           if (keyVariableBuilder_ == null) {
@@ -2945,7 +2945,7 @@ public final class FoGetForumSettingsAd {
          * Ein Schlüssel, der zu einem Forum hinterlegt werden kann, wie z.B. "KeepPostingsInDays"
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue key_variable = 10004;</code>
+         * <code>.dstore.values.StringValue key_variable = 10004;</code>
          */
         public Builder clearKeyVariable() {
           if (keyVariableBuilder_ == null) {
@@ -2963,7 +2963,7 @@ public final class FoGetForumSettingsAd {
          * Ein Schlüssel, der zu einem Forum hinterlegt werden kann, wie z.B. "KeepPostingsInDays"
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue key_variable = 10004;</code>
+         * <code>.dstore.values.StringValue key_variable = 10004;</code>
          */
         public io.dstore.values.StringValue.Builder getKeyVariableBuilder() {
           
@@ -2975,7 +2975,7 @@ public final class FoGetForumSettingsAd {
          * Ein Schlüssel, der zu einem Forum hinterlegt werden kann, wie z.B. "KeepPostingsInDays"
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue key_variable = 10004;</code>
+         * <code>.dstore.values.StringValue key_variable = 10004;</code>
          */
         public io.dstore.values.StringValueOrBuilder getKeyVariableOrBuilder() {
           if (keyVariableBuilder_ != null) {
@@ -2990,7 +2990,7 @@ public final class FoGetForumSettingsAd {
          * Ein Schlüssel, der zu einem Forum hinterlegt werden kann, wie z.B. "KeepPostingsInDays"
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue key_variable = 10004;</code>
+         * <code>.dstore.values.StringValue key_variable = 10004;</code>
          */
         private com.google.protobuf.SingleFieldBuilderV3<
             io.dstore.values.StringValue, io.dstore.values.StringValue.Builder, io.dstore.values.StringValueOrBuilder> 
@@ -3250,7 +3250,7 @@ public final class FoGetForumSettingsAd {
         return memoizedHashCode;
       }
       int hash = 41;
-      hash = (19 * hash) + getDescriptorForType().hashCode();
+      hash = (19 * hash) + getDescriptor().hashCode();
       if (getMetaInformationCount() > 0) {
         hash = (37 * hash) + META_INFORMATION_FIELD_NUMBER;
         hash = (53 * hash) + getMetaInformationList().hashCode();

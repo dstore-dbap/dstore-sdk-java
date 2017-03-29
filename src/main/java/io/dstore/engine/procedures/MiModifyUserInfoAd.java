@@ -19,38 +19,38 @@ public final class MiModifyUserInfoAd {
       com.google.protobuf.MessageOrBuilder {
 
     /**
-     * <code>optional .dstore.values.StringValue user_name = 1;</code>
+     * <code>.dstore.values.StringValue user_name = 1;</code>
      */
     boolean hasUserName();
     /**
-     * <code>optional .dstore.values.StringValue user_name = 1;</code>
+     * <code>.dstore.values.StringValue user_name = 1;</code>
      */
     io.dstore.values.StringValue getUserName();
     /**
-     * <code>optional .dstore.values.StringValue user_name = 1;</code>
+     * <code>.dstore.values.StringValue user_name = 1;</code>
      */
     io.dstore.values.StringValueOrBuilder getUserNameOrBuilder();
 
     /**
-     * <code>optional bool user_name_null = 1001;</code>
+     * <code>bool user_name_null = 1001;</code>
      */
     boolean getUserNameNull();
 
     /**
-     * <code>optional .dstore.values.BooleanValue delete_user = 2;</code>
+     * <code>.dstore.values.BooleanValue delete_user = 2;</code>
      */
     boolean hasDeleteUser();
     /**
-     * <code>optional .dstore.values.BooleanValue delete_user = 2;</code>
+     * <code>.dstore.values.BooleanValue delete_user = 2;</code>
      */
     io.dstore.values.BooleanValue getDeleteUser();
     /**
-     * <code>optional .dstore.values.BooleanValue delete_user = 2;</code>
+     * <code>.dstore.values.BooleanValue delete_user = 2;</code>
      */
     io.dstore.values.BooleanValueOrBuilder getDeleteUserOrBuilder();
 
     /**
-     * <code>optional bool delete_user_null = 1002;</code>
+     * <code>bool delete_user_null = 1002;</code>
      */
     boolean getDeleteUserNull();
   }
@@ -157,19 +157,19 @@ public final class MiModifyUserInfoAd {
     public static final int USER_NAME_FIELD_NUMBER = 1;
     private io.dstore.values.StringValue userName_;
     /**
-     * <code>optional .dstore.values.StringValue user_name = 1;</code>
+     * <code>.dstore.values.StringValue user_name = 1;</code>
      */
     public boolean hasUserName() {
       return userName_ != null;
     }
     /**
-     * <code>optional .dstore.values.StringValue user_name = 1;</code>
+     * <code>.dstore.values.StringValue user_name = 1;</code>
      */
     public io.dstore.values.StringValue getUserName() {
       return userName_ == null ? io.dstore.values.StringValue.getDefaultInstance() : userName_;
     }
     /**
-     * <code>optional .dstore.values.StringValue user_name = 1;</code>
+     * <code>.dstore.values.StringValue user_name = 1;</code>
      */
     public io.dstore.values.StringValueOrBuilder getUserNameOrBuilder() {
       return getUserName();
@@ -178,7 +178,7 @@ public final class MiModifyUserInfoAd {
     public static final int USER_NAME_NULL_FIELD_NUMBER = 1001;
     private boolean userNameNull_;
     /**
-     * <code>optional bool user_name_null = 1001;</code>
+     * <code>bool user_name_null = 1001;</code>
      */
     public boolean getUserNameNull() {
       return userNameNull_;
@@ -187,19 +187,19 @@ public final class MiModifyUserInfoAd {
     public static final int DELETE_USER_FIELD_NUMBER = 2;
     private io.dstore.values.BooleanValue deleteUser_;
     /**
-     * <code>optional .dstore.values.BooleanValue delete_user = 2;</code>
+     * <code>.dstore.values.BooleanValue delete_user = 2;</code>
      */
     public boolean hasDeleteUser() {
       return deleteUser_ != null;
     }
     /**
-     * <code>optional .dstore.values.BooleanValue delete_user = 2;</code>
+     * <code>.dstore.values.BooleanValue delete_user = 2;</code>
      */
     public io.dstore.values.BooleanValue getDeleteUser() {
       return deleteUser_ == null ? io.dstore.values.BooleanValue.getDefaultInstance() : deleteUser_;
     }
     /**
-     * <code>optional .dstore.values.BooleanValue delete_user = 2;</code>
+     * <code>.dstore.values.BooleanValue delete_user = 2;</code>
      */
     public io.dstore.values.BooleanValueOrBuilder getDeleteUserOrBuilder() {
       return getDeleteUser();
@@ -208,7 +208,7 @@ public final class MiModifyUserInfoAd {
     public static final int DELETE_USER_NULL_FIELD_NUMBER = 1002;
     private boolean deleteUserNull_;
     /**
-     * <code>optional bool delete_user_null = 1002;</code>
+     * <code>bool delete_user_null = 1002;</code>
      */
     public boolean getDeleteUserNull() {
       return deleteUserNull_;
@@ -300,7 +300,7 @@ public final class MiModifyUserInfoAd {
         return memoizedHashCode;
       }
       int hash = 41;
-      hash = (19 * hash) + getDescriptorForType().hashCode();
+      hash = (19 * hash) + getDescriptor().hashCode();
       if (hasUserName()) {
         hash = (37 * hash) + USER_NAME_FIELD_NUMBER;
         hash = (53 * hash) + getUserName().hashCode();
@@ -566,13 +566,13 @@ public final class MiModifyUserInfoAd {
       private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.values.StringValue, io.dstore.values.StringValue.Builder, io.dstore.values.StringValueOrBuilder> userNameBuilder_;
       /**
-       * <code>optional .dstore.values.StringValue user_name = 1;</code>
+       * <code>.dstore.values.StringValue user_name = 1;</code>
        */
       public boolean hasUserName() {
         return userNameBuilder_ != null || userName_ != null;
       }
       /**
-       * <code>optional .dstore.values.StringValue user_name = 1;</code>
+       * <code>.dstore.values.StringValue user_name = 1;</code>
        */
       public io.dstore.values.StringValue getUserName() {
         if (userNameBuilder_ == null) {
@@ -582,7 +582,7 @@ public final class MiModifyUserInfoAd {
         }
       }
       /**
-       * <code>optional .dstore.values.StringValue user_name = 1;</code>
+       * <code>.dstore.values.StringValue user_name = 1;</code>
        */
       public Builder setUserName(io.dstore.values.StringValue value) {
         if (userNameBuilder_ == null) {
@@ -598,7 +598,7 @@ public final class MiModifyUserInfoAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.StringValue user_name = 1;</code>
+       * <code>.dstore.values.StringValue user_name = 1;</code>
        */
       public Builder setUserName(
           io.dstore.values.StringValue.Builder builderForValue) {
@@ -612,7 +612,7 @@ public final class MiModifyUserInfoAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.StringValue user_name = 1;</code>
+       * <code>.dstore.values.StringValue user_name = 1;</code>
        */
       public Builder mergeUserName(io.dstore.values.StringValue value) {
         if (userNameBuilder_ == null) {
@@ -630,7 +630,7 @@ public final class MiModifyUserInfoAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.StringValue user_name = 1;</code>
+       * <code>.dstore.values.StringValue user_name = 1;</code>
        */
       public Builder clearUserName() {
         if (userNameBuilder_ == null) {
@@ -644,7 +644,7 @@ public final class MiModifyUserInfoAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.StringValue user_name = 1;</code>
+       * <code>.dstore.values.StringValue user_name = 1;</code>
        */
       public io.dstore.values.StringValue.Builder getUserNameBuilder() {
         
@@ -652,7 +652,7 @@ public final class MiModifyUserInfoAd {
         return getUserNameFieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .dstore.values.StringValue user_name = 1;</code>
+       * <code>.dstore.values.StringValue user_name = 1;</code>
        */
       public io.dstore.values.StringValueOrBuilder getUserNameOrBuilder() {
         if (userNameBuilder_ != null) {
@@ -663,7 +663,7 @@ public final class MiModifyUserInfoAd {
         }
       }
       /**
-       * <code>optional .dstore.values.StringValue user_name = 1;</code>
+       * <code>.dstore.values.StringValue user_name = 1;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.values.StringValue, io.dstore.values.StringValue.Builder, io.dstore.values.StringValueOrBuilder> 
@@ -681,13 +681,13 @@ public final class MiModifyUserInfoAd {
 
       private boolean userNameNull_ ;
       /**
-       * <code>optional bool user_name_null = 1001;</code>
+       * <code>bool user_name_null = 1001;</code>
        */
       public boolean getUserNameNull() {
         return userNameNull_;
       }
       /**
-       * <code>optional bool user_name_null = 1001;</code>
+       * <code>bool user_name_null = 1001;</code>
        */
       public Builder setUserNameNull(boolean value) {
         
@@ -696,7 +696,7 @@ public final class MiModifyUserInfoAd {
         return this;
       }
       /**
-       * <code>optional bool user_name_null = 1001;</code>
+       * <code>bool user_name_null = 1001;</code>
        */
       public Builder clearUserNameNull() {
         
@@ -709,13 +709,13 @@ public final class MiModifyUserInfoAd {
       private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.values.BooleanValue, io.dstore.values.BooleanValue.Builder, io.dstore.values.BooleanValueOrBuilder> deleteUserBuilder_;
       /**
-       * <code>optional .dstore.values.BooleanValue delete_user = 2;</code>
+       * <code>.dstore.values.BooleanValue delete_user = 2;</code>
        */
       public boolean hasDeleteUser() {
         return deleteUserBuilder_ != null || deleteUser_ != null;
       }
       /**
-       * <code>optional .dstore.values.BooleanValue delete_user = 2;</code>
+       * <code>.dstore.values.BooleanValue delete_user = 2;</code>
        */
       public io.dstore.values.BooleanValue getDeleteUser() {
         if (deleteUserBuilder_ == null) {
@@ -725,7 +725,7 @@ public final class MiModifyUserInfoAd {
         }
       }
       /**
-       * <code>optional .dstore.values.BooleanValue delete_user = 2;</code>
+       * <code>.dstore.values.BooleanValue delete_user = 2;</code>
        */
       public Builder setDeleteUser(io.dstore.values.BooleanValue value) {
         if (deleteUserBuilder_ == null) {
@@ -741,7 +741,7 @@ public final class MiModifyUserInfoAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.BooleanValue delete_user = 2;</code>
+       * <code>.dstore.values.BooleanValue delete_user = 2;</code>
        */
       public Builder setDeleteUser(
           io.dstore.values.BooleanValue.Builder builderForValue) {
@@ -755,7 +755,7 @@ public final class MiModifyUserInfoAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.BooleanValue delete_user = 2;</code>
+       * <code>.dstore.values.BooleanValue delete_user = 2;</code>
        */
       public Builder mergeDeleteUser(io.dstore.values.BooleanValue value) {
         if (deleteUserBuilder_ == null) {
@@ -773,7 +773,7 @@ public final class MiModifyUserInfoAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.BooleanValue delete_user = 2;</code>
+       * <code>.dstore.values.BooleanValue delete_user = 2;</code>
        */
       public Builder clearDeleteUser() {
         if (deleteUserBuilder_ == null) {
@@ -787,7 +787,7 @@ public final class MiModifyUserInfoAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.BooleanValue delete_user = 2;</code>
+       * <code>.dstore.values.BooleanValue delete_user = 2;</code>
        */
       public io.dstore.values.BooleanValue.Builder getDeleteUserBuilder() {
         
@@ -795,7 +795,7 @@ public final class MiModifyUserInfoAd {
         return getDeleteUserFieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .dstore.values.BooleanValue delete_user = 2;</code>
+       * <code>.dstore.values.BooleanValue delete_user = 2;</code>
        */
       public io.dstore.values.BooleanValueOrBuilder getDeleteUserOrBuilder() {
         if (deleteUserBuilder_ != null) {
@@ -806,7 +806,7 @@ public final class MiModifyUserInfoAd {
         }
       }
       /**
-       * <code>optional .dstore.values.BooleanValue delete_user = 2;</code>
+       * <code>.dstore.values.BooleanValue delete_user = 2;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.values.BooleanValue, io.dstore.values.BooleanValue.Builder, io.dstore.values.BooleanValueOrBuilder> 
@@ -824,13 +824,13 @@ public final class MiModifyUserInfoAd {
 
       private boolean deleteUserNull_ ;
       /**
-       * <code>optional bool delete_user_null = 1002;</code>
+       * <code>bool delete_user_null = 1002;</code>
        */
       public boolean getDeleteUserNull() {
         return deleteUserNull_;
       }
       /**
-       * <code>optional bool delete_user_null = 1002;</code>
+       * <code>bool delete_user_null = 1002;</code>
        */
       public Builder setDeleteUserNull(boolean value) {
         
@@ -839,7 +839,7 @@ public final class MiModifyUserInfoAd {
         return this;
       }
       /**
-       * <code>optional bool delete_user_null = 1002;</code>
+       * <code>bool delete_user_null = 1002;</code>
        */
       public Builder clearDeleteUserNull() {
         
@@ -1098,7 +1098,7 @@ public final class MiModifyUserInfoAd {
         com.google.protobuf.MessageOrBuilder {
 
       /**
-       * <code>optional int32 row_id = 10000;</code>
+       * <code>int32 row_id = 10000;</code>
        */
       int getRowId();
     }
@@ -1173,7 +1173,7 @@ public final class MiModifyUserInfoAd {
       public static final int ROW_ID_FIELD_NUMBER = 10000;
       private int rowId_;
       /**
-       * <code>optional int32 row_id = 10000;</code>
+       * <code>int32 row_id = 10000;</code>
        */
       public int getRowId() {
         return rowId_;
@@ -1232,7 +1232,7 @@ public final class MiModifyUserInfoAd {
           return memoizedHashCode;
         }
         int hash = 41;
-        hash = (19 * hash) + getDescriptorForType().hashCode();
+        hash = (19 * hash) + getDescriptor().hashCode();
         hash = (37 * hash) + ROW_ID_FIELD_NUMBER;
         hash = (53 * hash) + getRowId();
         hash = (29 * hash) + unknownFields.hashCode();
@@ -1450,13 +1450,13 @@ public final class MiModifyUserInfoAd {
 
         private int rowId_ ;
         /**
-         * <code>optional int32 row_id = 10000;</code>
+         * <code>int32 row_id = 10000;</code>
          */
         public int getRowId() {
           return rowId_;
         }
         /**
-         * <code>optional int32 row_id = 10000;</code>
+         * <code>int32 row_id = 10000;</code>
          */
         public Builder setRowId(int value) {
           
@@ -1465,7 +1465,7 @@ public final class MiModifyUserInfoAd {
           return this;
         }
         /**
-         * <code>optional int32 row_id = 10000;</code>
+         * <code>int32 row_id = 10000;</code>
          */
         public Builder clearRowId() {
           
@@ -1718,7 +1718,7 @@ public final class MiModifyUserInfoAd {
         return memoizedHashCode;
       }
       int hash = 41;
-      hash = (19 * hash) + getDescriptorForType().hashCode();
+      hash = (19 * hash) + getDescriptor().hashCode();
       if (getMetaInformationCount() > 0) {
         hash = (37 * hash) + META_INFORMATION_FIELD_NUMBER;
         hash = (53 * hash) + getMetaInformationList().hashCode();

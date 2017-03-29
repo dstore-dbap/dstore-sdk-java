@@ -19,56 +19,56 @@ public final class MiModifyCountriesInRegionsAd {
       com.google.protobuf.MessageOrBuilder {
 
     /**
-     * <code>optional .dstore.values.IntegerValue country_id = 1;</code>
+     * <code>.dstore.values.IntegerValue country_id = 1;</code>
      */
     boolean hasCountryId();
     /**
-     * <code>optional .dstore.values.IntegerValue country_id = 1;</code>
+     * <code>.dstore.values.IntegerValue country_id = 1;</code>
      */
     io.dstore.values.IntegerValue getCountryId();
     /**
-     * <code>optional .dstore.values.IntegerValue country_id = 1;</code>
+     * <code>.dstore.values.IntegerValue country_id = 1;</code>
      */
     io.dstore.values.IntegerValueOrBuilder getCountryIdOrBuilder();
 
     /**
-     * <code>optional bool country_id_null = 1001;</code>
+     * <code>bool country_id_null = 1001;</code>
      */
     boolean getCountryIdNull();
 
     /**
-     * <code>optional .dstore.values.IntegerValue region_id = 2;</code>
+     * <code>.dstore.values.IntegerValue region_id = 2;</code>
      */
     boolean hasRegionId();
     /**
-     * <code>optional .dstore.values.IntegerValue region_id = 2;</code>
+     * <code>.dstore.values.IntegerValue region_id = 2;</code>
      */
     io.dstore.values.IntegerValue getRegionId();
     /**
-     * <code>optional .dstore.values.IntegerValue region_id = 2;</code>
+     * <code>.dstore.values.IntegerValue region_id = 2;</code>
      */
     io.dstore.values.IntegerValueOrBuilder getRegionIdOrBuilder();
 
     /**
-     * <code>optional bool region_id_null = 1002;</code>
+     * <code>bool region_id_null = 1002;</code>
      */
     boolean getRegionIdNull();
 
     /**
-     * <code>optional .dstore.values.BooleanValue revoke = 3;</code>
+     * <code>.dstore.values.BooleanValue revoke = 3;</code>
      */
     boolean hasRevoke();
     /**
-     * <code>optional .dstore.values.BooleanValue revoke = 3;</code>
+     * <code>.dstore.values.BooleanValue revoke = 3;</code>
      */
     io.dstore.values.BooleanValue getRevoke();
     /**
-     * <code>optional .dstore.values.BooleanValue revoke = 3;</code>
+     * <code>.dstore.values.BooleanValue revoke = 3;</code>
      */
     io.dstore.values.BooleanValueOrBuilder getRevokeOrBuilder();
 
     /**
-     * <code>optional bool revoke_null = 1003;</code>
+     * <code>bool revoke_null = 1003;</code>
      */
     boolean getRevokeNull();
   }
@@ -194,19 +194,19 @@ public final class MiModifyCountriesInRegionsAd {
     public static final int COUNTRY_ID_FIELD_NUMBER = 1;
     private io.dstore.values.IntegerValue countryId_;
     /**
-     * <code>optional .dstore.values.IntegerValue country_id = 1;</code>
+     * <code>.dstore.values.IntegerValue country_id = 1;</code>
      */
     public boolean hasCountryId() {
       return countryId_ != null;
     }
     /**
-     * <code>optional .dstore.values.IntegerValue country_id = 1;</code>
+     * <code>.dstore.values.IntegerValue country_id = 1;</code>
      */
     public io.dstore.values.IntegerValue getCountryId() {
       return countryId_ == null ? io.dstore.values.IntegerValue.getDefaultInstance() : countryId_;
     }
     /**
-     * <code>optional .dstore.values.IntegerValue country_id = 1;</code>
+     * <code>.dstore.values.IntegerValue country_id = 1;</code>
      */
     public io.dstore.values.IntegerValueOrBuilder getCountryIdOrBuilder() {
       return getCountryId();
@@ -215,7 +215,7 @@ public final class MiModifyCountriesInRegionsAd {
     public static final int COUNTRY_ID_NULL_FIELD_NUMBER = 1001;
     private boolean countryIdNull_;
     /**
-     * <code>optional bool country_id_null = 1001;</code>
+     * <code>bool country_id_null = 1001;</code>
      */
     public boolean getCountryIdNull() {
       return countryIdNull_;
@@ -224,19 +224,19 @@ public final class MiModifyCountriesInRegionsAd {
     public static final int REGION_ID_FIELD_NUMBER = 2;
     private io.dstore.values.IntegerValue regionId_;
     /**
-     * <code>optional .dstore.values.IntegerValue region_id = 2;</code>
+     * <code>.dstore.values.IntegerValue region_id = 2;</code>
      */
     public boolean hasRegionId() {
       return regionId_ != null;
     }
     /**
-     * <code>optional .dstore.values.IntegerValue region_id = 2;</code>
+     * <code>.dstore.values.IntegerValue region_id = 2;</code>
      */
     public io.dstore.values.IntegerValue getRegionId() {
       return regionId_ == null ? io.dstore.values.IntegerValue.getDefaultInstance() : regionId_;
     }
     /**
-     * <code>optional .dstore.values.IntegerValue region_id = 2;</code>
+     * <code>.dstore.values.IntegerValue region_id = 2;</code>
      */
     public io.dstore.values.IntegerValueOrBuilder getRegionIdOrBuilder() {
       return getRegionId();
@@ -245,7 +245,7 @@ public final class MiModifyCountriesInRegionsAd {
     public static final int REGION_ID_NULL_FIELD_NUMBER = 1002;
     private boolean regionIdNull_;
     /**
-     * <code>optional bool region_id_null = 1002;</code>
+     * <code>bool region_id_null = 1002;</code>
      */
     public boolean getRegionIdNull() {
       return regionIdNull_;
@@ -254,19 +254,19 @@ public final class MiModifyCountriesInRegionsAd {
     public static final int REVOKE_FIELD_NUMBER = 3;
     private io.dstore.values.BooleanValue revoke_;
     /**
-     * <code>optional .dstore.values.BooleanValue revoke = 3;</code>
+     * <code>.dstore.values.BooleanValue revoke = 3;</code>
      */
     public boolean hasRevoke() {
       return revoke_ != null;
     }
     /**
-     * <code>optional .dstore.values.BooleanValue revoke = 3;</code>
+     * <code>.dstore.values.BooleanValue revoke = 3;</code>
      */
     public io.dstore.values.BooleanValue getRevoke() {
       return revoke_ == null ? io.dstore.values.BooleanValue.getDefaultInstance() : revoke_;
     }
     /**
-     * <code>optional .dstore.values.BooleanValue revoke = 3;</code>
+     * <code>.dstore.values.BooleanValue revoke = 3;</code>
      */
     public io.dstore.values.BooleanValueOrBuilder getRevokeOrBuilder() {
       return getRevoke();
@@ -275,7 +275,7 @@ public final class MiModifyCountriesInRegionsAd {
     public static final int REVOKE_NULL_FIELD_NUMBER = 1003;
     private boolean revokeNull_;
     /**
-     * <code>optional bool revoke_null = 1003;</code>
+     * <code>bool revoke_null = 1003;</code>
      */
     public boolean getRevokeNull() {
       return revokeNull_;
@@ -388,7 +388,7 @@ public final class MiModifyCountriesInRegionsAd {
         return memoizedHashCode;
       }
       int hash = 41;
-      hash = (19 * hash) + getDescriptorForType().hashCode();
+      hash = (19 * hash) + getDescriptor().hashCode();
       if (hasCountryId()) {
         hash = (37 * hash) + COUNTRY_ID_FIELD_NUMBER;
         hash = (53 * hash) + getCountryId().hashCode();
@@ -681,13 +681,13 @@ public final class MiModifyCountriesInRegionsAd {
       private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> countryIdBuilder_;
       /**
-       * <code>optional .dstore.values.IntegerValue country_id = 1;</code>
+       * <code>.dstore.values.IntegerValue country_id = 1;</code>
        */
       public boolean hasCountryId() {
         return countryIdBuilder_ != null || countryId_ != null;
       }
       /**
-       * <code>optional .dstore.values.IntegerValue country_id = 1;</code>
+       * <code>.dstore.values.IntegerValue country_id = 1;</code>
        */
       public io.dstore.values.IntegerValue getCountryId() {
         if (countryIdBuilder_ == null) {
@@ -697,7 +697,7 @@ public final class MiModifyCountriesInRegionsAd {
         }
       }
       /**
-       * <code>optional .dstore.values.IntegerValue country_id = 1;</code>
+       * <code>.dstore.values.IntegerValue country_id = 1;</code>
        */
       public Builder setCountryId(io.dstore.values.IntegerValue value) {
         if (countryIdBuilder_ == null) {
@@ -713,7 +713,7 @@ public final class MiModifyCountriesInRegionsAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.IntegerValue country_id = 1;</code>
+       * <code>.dstore.values.IntegerValue country_id = 1;</code>
        */
       public Builder setCountryId(
           io.dstore.values.IntegerValue.Builder builderForValue) {
@@ -727,7 +727,7 @@ public final class MiModifyCountriesInRegionsAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.IntegerValue country_id = 1;</code>
+       * <code>.dstore.values.IntegerValue country_id = 1;</code>
        */
       public Builder mergeCountryId(io.dstore.values.IntegerValue value) {
         if (countryIdBuilder_ == null) {
@@ -745,7 +745,7 @@ public final class MiModifyCountriesInRegionsAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.IntegerValue country_id = 1;</code>
+       * <code>.dstore.values.IntegerValue country_id = 1;</code>
        */
       public Builder clearCountryId() {
         if (countryIdBuilder_ == null) {
@@ -759,7 +759,7 @@ public final class MiModifyCountriesInRegionsAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.IntegerValue country_id = 1;</code>
+       * <code>.dstore.values.IntegerValue country_id = 1;</code>
        */
       public io.dstore.values.IntegerValue.Builder getCountryIdBuilder() {
         
@@ -767,7 +767,7 @@ public final class MiModifyCountriesInRegionsAd {
         return getCountryIdFieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .dstore.values.IntegerValue country_id = 1;</code>
+       * <code>.dstore.values.IntegerValue country_id = 1;</code>
        */
       public io.dstore.values.IntegerValueOrBuilder getCountryIdOrBuilder() {
         if (countryIdBuilder_ != null) {
@@ -778,7 +778,7 @@ public final class MiModifyCountriesInRegionsAd {
         }
       }
       /**
-       * <code>optional .dstore.values.IntegerValue country_id = 1;</code>
+       * <code>.dstore.values.IntegerValue country_id = 1;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> 
@@ -796,13 +796,13 @@ public final class MiModifyCountriesInRegionsAd {
 
       private boolean countryIdNull_ ;
       /**
-       * <code>optional bool country_id_null = 1001;</code>
+       * <code>bool country_id_null = 1001;</code>
        */
       public boolean getCountryIdNull() {
         return countryIdNull_;
       }
       /**
-       * <code>optional bool country_id_null = 1001;</code>
+       * <code>bool country_id_null = 1001;</code>
        */
       public Builder setCountryIdNull(boolean value) {
         
@@ -811,7 +811,7 @@ public final class MiModifyCountriesInRegionsAd {
         return this;
       }
       /**
-       * <code>optional bool country_id_null = 1001;</code>
+       * <code>bool country_id_null = 1001;</code>
        */
       public Builder clearCountryIdNull() {
         
@@ -824,13 +824,13 @@ public final class MiModifyCountriesInRegionsAd {
       private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> regionIdBuilder_;
       /**
-       * <code>optional .dstore.values.IntegerValue region_id = 2;</code>
+       * <code>.dstore.values.IntegerValue region_id = 2;</code>
        */
       public boolean hasRegionId() {
         return regionIdBuilder_ != null || regionId_ != null;
       }
       /**
-       * <code>optional .dstore.values.IntegerValue region_id = 2;</code>
+       * <code>.dstore.values.IntegerValue region_id = 2;</code>
        */
       public io.dstore.values.IntegerValue getRegionId() {
         if (regionIdBuilder_ == null) {
@@ -840,7 +840,7 @@ public final class MiModifyCountriesInRegionsAd {
         }
       }
       /**
-       * <code>optional .dstore.values.IntegerValue region_id = 2;</code>
+       * <code>.dstore.values.IntegerValue region_id = 2;</code>
        */
       public Builder setRegionId(io.dstore.values.IntegerValue value) {
         if (regionIdBuilder_ == null) {
@@ -856,7 +856,7 @@ public final class MiModifyCountriesInRegionsAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.IntegerValue region_id = 2;</code>
+       * <code>.dstore.values.IntegerValue region_id = 2;</code>
        */
       public Builder setRegionId(
           io.dstore.values.IntegerValue.Builder builderForValue) {
@@ -870,7 +870,7 @@ public final class MiModifyCountriesInRegionsAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.IntegerValue region_id = 2;</code>
+       * <code>.dstore.values.IntegerValue region_id = 2;</code>
        */
       public Builder mergeRegionId(io.dstore.values.IntegerValue value) {
         if (regionIdBuilder_ == null) {
@@ -888,7 +888,7 @@ public final class MiModifyCountriesInRegionsAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.IntegerValue region_id = 2;</code>
+       * <code>.dstore.values.IntegerValue region_id = 2;</code>
        */
       public Builder clearRegionId() {
         if (regionIdBuilder_ == null) {
@@ -902,7 +902,7 @@ public final class MiModifyCountriesInRegionsAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.IntegerValue region_id = 2;</code>
+       * <code>.dstore.values.IntegerValue region_id = 2;</code>
        */
       public io.dstore.values.IntegerValue.Builder getRegionIdBuilder() {
         
@@ -910,7 +910,7 @@ public final class MiModifyCountriesInRegionsAd {
         return getRegionIdFieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .dstore.values.IntegerValue region_id = 2;</code>
+       * <code>.dstore.values.IntegerValue region_id = 2;</code>
        */
       public io.dstore.values.IntegerValueOrBuilder getRegionIdOrBuilder() {
         if (regionIdBuilder_ != null) {
@@ -921,7 +921,7 @@ public final class MiModifyCountriesInRegionsAd {
         }
       }
       /**
-       * <code>optional .dstore.values.IntegerValue region_id = 2;</code>
+       * <code>.dstore.values.IntegerValue region_id = 2;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> 
@@ -939,13 +939,13 @@ public final class MiModifyCountriesInRegionsAd {
 
       private boolean regionIdNull_ ;
       /**
-       * <code>optional bool region_id_null = 1002;</code>
+       * <code>bool region_id_null = 1002;</code>
        */
       public boolean getRegionIdNull() {
         return regionIdNull_;
       }
       /**
-       * <code>optional bool region_id_null = 1002;</code>
+       * <code>bool region_id_null = 1002;</code>
        */
       public Builder setRegionIdNull(boolean value) {
         
@@ -954,7 +954,7 @@ public final class MiModifyCountriesInRegionsAd {
         return this;
       }
       /**
-       * <code>optional bool region_id_null = 1002;</code>
+       * <code>bool region_id_null = 1002;</code>
        */
       public Builder clearRegionIdNull() {
         
@@ -967,13 +967,13 @@ public final class MiModifyCountriesInRegionsAd {
       private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.values.BooleanValue, io.dstore.values.BooleanValue.Builder, io.dstore.values.BooleanValueOrBuilder> revokeBuilder_;
       /**
-       * <code>optional .dstore.values.BooleanValue revoke = 3;</code>
+       * <code>.dstore.values.BooleanValue revoke = 3;</code>
        */
       public boolean hasRevoke() {
         return revokeBuilder_ != null || revoke_ != null;
       }
       /**
-       * <code>optional .dstore.values.BooleanValue revoke = 3;</code>
+       * <code>.dstore.values.BooleanValue revoke = 3;</code>
        */
       public io.dstore.values.BooleanValue getRevoke() {
         if (revokeBuilder_ == null) {
@@ -983,7 +983,7 @@ public final class MiModifyCountriesInRegionsAd {
         }
       }
       /**
-       * <code>optional .dstore.values.BooleanValue revoke = 3;</code>
+       * <code>.dstore.values.BooleanValue revoke = 3;</code>
        */
       public Builder setRevoke(io.dstore.values.BooleanValue value) {
         if (revokeBuilder_ == null) {
@@ -999,7 +999,7 @@ public final class MiModifyCountriesInRegionsAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.BooleanValue revoke = 3;</code>
+       * <code>.dstore.values.BooleanValue revoke = 3;</code>
        */
       public Builder setRevoke(
           io.dstore.values.BooleanValue.Builder builderForValue) {
@@ -1013,7 +1013,7 @@ public final class MiModifyCountriesInRegionsAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.BooleanValue revoke = 3;</code>
+       * <code>.dstore.values.BooleanValue revoke = 3;</code>
        */
       public Builder mergeRevoke(io.dstore.values.BooleanValue value) {
         if (revokeBuilder_ == null) {
@@ -1031,7 +1031,7 @@ public final class MiModifyCountriesInRegionsAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.BooleanValue revoke = 3;</code>
+       * <code>.dstore.values.BooleanValue revoke = 3;</code>
        */
       public Builder clearRevoke() {
         if (revokeBuilder_ == null) {
@@ -1045,7 +1045,7 @@ public final class MiModifyCountriesInRegionsAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.BooleanValue revoke = 3;</code>
+       * <code>.dstore.values.BooleanValue revoke = 3;</code>
        */
       public io.dstore.values.BooleanValue.Builder getRevokeBuilder() {
         
@@ -1053,7 +1053,7 @@ public final class MiModifyCountriesInRegionsAd {
         return getRevokeFieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .dstore.values.BooleanValue revoke = 3;</code>
+       * <code>.dstore.values.BooleanValue revoke = 3;</code>
        */
       public io.dstore.values.BooleanValueOrBuilder getRevokeOrBuilder() {
         if (revokeBuilder_ != null) {
@@ -1064,7 +1064,7 @@ public final class MiModifyCountriesInRegionsAd {
         }
       }
       /**
-       * <code>optional .dstore.values.BooleanValue revoke = 3;</code>
+       * <code>.dstore.values.BooleanValue revoke = 3;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.values.BooleanValue, io.dstore.values.BooleanValue.Builder, io.dstore.values.BooleanValueOrBuilder> 
@@ -1082,13 +1082,13 @@ public final class MiModifyCountriesInRegionsAd {
 
       private boolean revokeNull_ ;
       /**
-       * <code>optional bool revoke_null = 1003;</code>
+       * <code>bool revoke_null = 1003;</code>
        */
       public boolean getRevokeNull() {
         return revokeNull_;
       }
       /**
-       * <code>optional bool revoke_null = 1003;</code>
+       * <code>bool revoke_null = 1003;</code>
        */
       public Builder setRevokeNull(boolean value) {
         
@@ -1097,7 +1097,7 @@ public final class MiModifyCountriesInRegionsAd {
         return this;
       }
       /**
-       * <code>optional bool revoke_null = 1003;</code>
+       * <code>bool revoke_null = 1003;</code>
        */
       public Builder clearRevokeNull() {
         
@@ -1356,7 +1356,7 @@ public final class MiModifyCountriesInRegionsAd {
         com.google.protobuf.MessageOrBuilder {
 
       /**
-       * <code>optional int32 row_id = 10000;</code>
+       * <code>int32 row_id = 10000;</code>
        */
       int getRowId();
     }
@@ -1431,7 +1431,7 @@ public final class MiModifyCountriesInRegionsAd {
       public static final int ROW_ID_FIELD_NUMBER = 10000;
       private int rowId_;
       /**
-       * <code>optional int32 row_id = 10000;</code>
+       * <code>int32 row_id = 10000;</code>
        */
       public int getRowId() {
         return rowId_;
@@ -1490,7 +1490,7 @@ public final class MiModifyCountriesInRegionsAd {
           return memoizedHashCode;
         }
         int hash = 41;
-        hash = (19 * hash) + getDescriptorForType().hashCode();
+        hash = (19 * hash) + getDescriptor().hashCode();
         hash = (37 * hash) + ROW_ID_FIELD_NUMBER;
         hash = (53 * hash) + getRowId();
         hash = (29 * hash) + unknownFields.hashCode();
@@ -1708,13 +1708,13 @@ public final class MiModifyCountriesInRegionsAd {
 
         private int rowId_ ;
         /**
-         * <code>optional int32 row_id = 10000;</code>
+         * <code>int32 row_id = 10000;</code>
          */
         public int getRowId() {
           return rowId_;
         }
         /**
-         * <code>optional int32 row_id = 10000;</code>
+         * <code>int32 row_id = 10000;</code>
          */
         public Builder setRowId(int value) {
           
@@ -1723,7 +1723,7 @@ public final class MiModifyCountriesInRegionsAd {
           return this;
         }
         /**
-         * <code>optional int32 row_id = 10000;</code>
+         * <code>int32 row_id = 10000;</code>
          */
         public Builder clearRowId() {
           
@@ -1976,7 +1976,7 @@ public final class MiModifyCountriesInRegionsAd {
         return memoizedHashCode;
       }
       int hash = 41;
-      hash = (19 * hash) + getDescriptorForType().hashCode();
+      hash = (19 * hash) + getDescriptor().hashCode();
       if (getMetaInformationCount() > 0) {
         hash = (37 * hash) + META_INFORMATION_FIELD_NUMBER;
         hash = (53 * hash) + getMetaInformationList().hashCode();

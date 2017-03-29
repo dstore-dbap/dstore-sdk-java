@@ -19,74 +19,74 @@ public final class CoLoginIntoCommunityPu {
       com.google.protobuf.MessageOrBuilder {
 
     /**
-     * <code>optional .dstore.values.IntegerValue community_id = 1;</code>
+     * <code>.dstore.values.IntegerValue community_id = 1;</code>
      */
     boolean hasCommunityId();
     /**
-     * <code>optional .dstore.values.IntegerValue community_id = 1;</code>
+     * <code>.dstore.values.IntegerValue community_id = 1;</code>
      */
     io.dstore.values.IntegerValue getCommunityId();
     /**
-     * <code>optional .dstore.values.IntegerValue community_id = 1;</code>
+     * <code>.dstore.values.IntegerValue community_id = 1;</code>
      */
     io.dstore.values.IntegerValueOrBuilder getCommunityIdOrBuilder();
 
     /**
-     * <code>optional bool community_id_null = 1001;</code>
+     * <code>bool community_id_null = 1001;</code>
      */
     boolean getCommunityIdNull();
 
     /**
-     * <code>optional .dstore.values.StringValue unique_id = 2;</code>
+     * <code>.dstore.values.StringValue unique_id = 2;</code>
      */
     boolean hasUniqueId();
     /**
-     * <code>optional .dstore.values.StringValue unique_id = 2;</code>
+     * <code>.dstore.values.StringValue unique_id = 2;</code>
      */
     io.dstore.values.StringValue getUniqueId();
     /**
-     * <code>optional .dstore.values.StringValue unique_id = 2;</code>
+     * <code>.dstore.values.StringValue unique_id = 2;</code>
      */
     io.dstore.values.StringValueOrBuilder getUniqueIdOrBuilder();
 
     /**
-     * <code>optional bool unique_id_null = 1002;</code>
+     * <code>bool unique_id_null = 1002;</code>
      */
     boolean getUniqueIdNull();
 
     /**
-     * <code>optional .dstore.values.StringValue person_identification_values = 3;</code>
+     * <code>.dstore.values.StringValue person_identification_values = 3;</code>
      */
     boolean hasPersonIdentificationValues();
     /**
-     * <code>optional .dstore.values.StringValue person_identification_values = 3;</code>
+     * <code>.dstore.values.StringValue person_identification_values = 3;</code>
      */
     io.dstore.values.StringValue getPersonIdentificationValues();
     /**
-     * <code>optional .dstore.values.StringValue person_identification_values = 3;</code>
+     * <code>.dstore.values.StringValue person_identification_values = 3;</code>
      */
     io.dstore.values.StringValueOrBuilder getPersonIdentificationValuesOrBuilder();
 
     /**
-     * <code>optional bool person_identification_values_null = 1003;</code>
+     * <code>bool person_identification_values_null = 1003;</code>
      */
     boolean getPersonIdentificationValuesNull();
 
     /**
-     * <code>optional .dstore.values.StringValue separator_in_ident_vals = 4;</code>
+     * <code>.dstore.values.StringValue separator_in_ident_vals = 4;</code>
      */
     boolean hasSeparatorInIdentVals();
     /**
-     * <code>optional .dstore.values.StringValue separator_in_ident_vals = 4;</code>
+     * <code>.dstore.values.StringValue separator_in_ident_vals = 4;</code>
      */
     io.dstore.values.StringValue getSeparatorInIdentVals();
     /**
-     * <code>optional .dstore.values.StringValue separator_in_ident_vals = 4;</code>
+     * <code>.dstore.values.StringValue separator_in_ident_vals = 4;</code>
      */
     io.dstore.values.StringValueOrBuilder getSeparatorInIdentValsOrBuilder();
 
     /**
-     * <code>optional bool separator_in_ident_vals_null = 1004;</code>
+     * <code>bool separator_in_ident_vals_null = 1004;</code>
      */
     boolean getSeparatorInIdentValsNull();
   }
@@ -231,19 +231,19 @@ public final class CoLoginIntoCommunityPu {
     public static final int COMMUNITY_ID_FIELD_NUMBER = 1;
     private io.dstore.values.IntegerValue communityId_;
     /**
-     * <code>optional .dstore.values.IntegerValue community_id = 1;</code>
+     * <code>.dstore.values.IntegerValue community_id = 1;</code>
      */
     public boolean hasCommunityId() {
       return communityId_ != null;
     }
     /**
-     * <code>optional .dstore.values.IntegerValue community_id = 1;</code>
+     * <code>.dstore.values.IntegerValue community_id = 1;</code>
      */
     public io.dstore.values.IntegerValue getCommunityId() {
       return communityId_ == null ? io.dstore.values.IntegerValue.getDefaultInstance() : communityId_;
     }
     /**
-     * <code>optional .dstore.values.IntegerValue community_id = 1;</code>
+     * <code>.dstore.values.IntegerValue community_id = 1;</code>
      */
     public io.dstore.values.IntegerValueOrBuilder getCommunityIdOrBuilder() {
       return getCommunityId();
@@ -252,7 +252,7 @@ public final class CoLoginIntoCommunityPu {
     public static final int COMMUNITY_ID_NULL_FIELD_NUMBER = 1001;
     private boolean communityIdNull_;
     /**
-     * <code>optional bool community_id_null = 1001;</code>
+     * <code>bool community_id_null = 1001;</code>
      */
     public boolean getCommunityIdNull() {
       return communityIdNull_;
@@ -261,19 +261,19 @@ public final class CoLoginIntoCommunityPu {
     public static final int UNIQUE_ID_FIELD_NUMBER = 2;
     private io.dstore.values.StringValue uniqueId_;
     /**
-     * <code>optional .dstore.values.StringValue unique_id = 2;</code>
+     * <code>.dstore.values.StringValue unique_id = 2;</code>
      */
     public boolean hasUniqueId() {
       return uniqueId_ != null;
     }
     /**
-     * <code>optional .dstore.values.StringValue unique_id = 2;</code>
+     * <code>.dstore.values.StringValue unique_id = 2;</code>
      */
     public io.dstore.values.StringValue getUniqueId() {
       return uniqueId_ == null ? io.dstore.values.StringValue.getDefaultInstance() : uniqueId_;
     }
     /**
-     * <code>optional .dstore.values.StringValue unique_id = 2;</code>
+     * <code>.dstore.values.StringValue unique_id = 2;</code>
      */
     public io.dstore.values.StringValueOrBuilder getUniqueIdOrBuilder() {
       return getUniqueId();
@@ -282,7 +282,7 @@ public final class CoLoginIntoCommunityPu {
     public static final int UNIQUE_ID_NULL_FIELD_NUMBER = 1002;
     private boolean uniqueIdNull_;
     /**
-     * <code>optional bool unique_id_null = 1002;</code>
+     * <code>bool unique_id_null = 1002;</code>
      */
     public boolean getUniqueIdNull() {
       return uniqueIdNull_;
@@ -291,19 +291,19 @@ public final class CoLoginIntoCommunityPu {
     public static final int PERSON_IDENTIFICATION_VALUES_FIELD_NUMBER = 3;
     private io.dstore.values.StringValue personIdentificationValues_;
     /**
-     * <code>optional .dstore.values.StringValue person_identification_values = 3;</code>
+     * <code>.dstore.values.StringValue person_identification_values = 3;</code>
      */
     public boolean hasPersonIdentificationValues() {
       return personIdentificationValues_ != null;
     }
     /**
-     * <code>optional .dstore.values.StringValue person_identification_values = 3;</code>
+     * <code>.dstore.values.StringValue person_identification_values = 3;</code>
      */
     public io.dstore.values.StringValue getPersonIdentificationValues() {
       return personIdentificationValues_ == null ? io.dstore.values.StringValue.getDefaultInstance() : personIdentificationValues_;
     }
     /**
-     * <code>optional .dstore.values.StringValue person_identification_values = 3;</code>
+     * <code>.dstore.values.StringValue person_identification_values = 3;</code>
      */
     public io.dstore.values.StringValueOrBuilder getPersonIdentificationValuesOrBuilder() {
       return getPersonIdentificationValues();
@@ -312,7 +312,7 @@ public final class CoLoginIntoCommunityPu {
     public static final int PERSON_IDENTIFICATION_VALUES_NULL_FIELD_NUMBER = 1003;
     private boolean personIdentificationValuesNull_;
     /**
-     * <code>optional bool person_identification_values_null = 1003;</code>
+     * <code>bool person_identification_values_null = 1003;</code>
      */
     public boolean getPersonIdentificationValuesNull() {
       return personIdentificationValuesNull_;
@@ -321,19 +321,19 @@ public final class CoLoginIntoCommunityPu {
     public static final int SEPARATOR_IN_IDENT_VALS_FIELD_NUMBER = 4;
     private io.dstore.values.StringValue separatorInIdentVals_;
     /**
-     * <code>optional .dstore.values.StringValue separator_in_ident_vals = 4;</code>
+     * <code>.dstore.values.StringValue separator_in_ident_vals = 4;</code>
      */
     public boolean hasSeparatorInIdentVals() {
       return separatorInIdentVals_ != null;
     }
     /**
-     * <code>optional .dstore.values.StringValue separator_in_ident_vals = 4;</code>
+     * <code>.dstore.values.StringValue separator_in_ident_vals = 4;</code>
      */
     public io.dstore.values.StringValue getSeparatorInIdentVals() {
       return separatorInIdentVals_ == null ? io.dstore.values.StringValue.getDefaultInstance() : separatorInIdentVals_;
     }
     /**
-     * <code>optional .dstore.values.StringValue separator_in_ident_vals = 4;</code>
+     * <code>.dstore.values.StringValue separator_in_ident_vals = 4;</code>
      */
     public io.dstore.values.StringValueOrBuilder getSeparatorInIdentValsOrBuilder() {
       return getSeparatorInIdentVals();
@@ -342,7 +342,7 @@ public final class CoLoginIntoCommunityPu {
     public static final int SEPARATOR_IN_IDENT_VALS_NULL_FIELD_NUMBER = 1004;
     private boolean separatorInIdentValsNull_;
     /**
-     * <code>optional bool separator_in_ident_vals_null = 1004;</code>
+     * <code>bool separator_in_ident_vals_null = 1004;</code>
      */
     public boolean getSeparatorInIdentValsNull() {
       return separatorInIdentValsNull_;
@@ -476,7 +476,7 @@ public final class CoLoginIntoCommunityPu {
         return memoizedHashCode;
       }
       int hash = 41;
-      hash = (19 * hash) + getDescriptorForType().hashCode();
+      hash = (19 * hash) + getDescriptor().hashCode();
       if (hasCommunityId()) {
         hash = (37 * hash) + COMMUNITY_ID_FIELD_NUMBER;
         hash = (53 * hash) + getCommunityId().hashCode();
@@ -796,13 +796,13 @@ public final class CoLoginIntoCommunityPu {
       private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> communityIdBuilder_;
       /**
-       * <code>optional .dstore.values.IntegerValue community_id = 1;</code>
+       * <code>.dstore.values.IntegerValue community_id = 1;</code>
        */
       public boolean hasCommunityId() {
         return communityIdBuilder_ != null || communityId_ != null;
       }
       /**
-       * <code>optional .dstore.values.IntegerValue community_id = 1;</code>
+       * <code>.dstore.values.IntegerValue community_id = 1;</code>
        */
       public io.dstore.values.IntegerValue getCommunityId() {
         if (communityIdBuilder_ == null) {
@@ -812,7 +812,7 @@ public final class CoLoginIntoCommunityPu {
         }
       }
       /**
-       * <code>optional .dstore.values.IntegerValue community_id = 1;</code>
+       * <code>.dstore.values.IntegerValue community_id = 1;</code>
        */
       public Builder setCommunityId(io.dstore.values.IntegerValue value) {
         if (communityIdBuilder_ == null) {
@@ -828,7 +828,7 @@ public final class CoLoginIntoCommunityPu {
         return this;
       }
       /**
-       * <code>optional .dstore.values.IntegerValue community_id = 1;</code>
+       * <code>.dstore.values.IntegerValue community_id = 1;</code>
        */
       public Builder setCommunityId(
           io.dstore.values.IntegerValue.Builder builderForValue) {
@@ -842,7 +842,7 @@ public final class CoLoginIntoCommunityPu {
         return this;
       }
       /**
-       * <code>optional .dstore.values.IntegerValue community_id = 1;</code>
+       * <code>.dstore.values.IntegerValue community_id = 1;</code>
        */
       public Builder mergeCommunityId(io.dstore.values.IntegerValue value) {
         if (communityIdBuilder_ == null) {
@@ -860,7 +860,7 @@ public final class CoLoginIntoCommunityPu {
         return this;
       }
       /**
-       * <code>optional .dstore.values.IntegerValue community_id = 1;</code>
+       * <code>.dstore.values.IntegerValue community_id = 1;</code>
        */
       public Builder clearCommunityId() {
         if (communityIdBuilder_ == null) {
@@ -874,7 +874,7 @@ public final class CoLoginIntoCommunityPu {
         return this;
       }
       /**
-       * <code>optional .dstore.values.IntegerValue community_id = 1;</code>
+       * <code>.dstore.values.IntegerValue community_id = 1;</code>
        */
       public io.dstore.values.IntegerValue.Builder getCommunityIdBuilder() {
         
@@ -882,7 +882,7 @@ public final class CoLoginIntoCommunityPu {
         return getCommunityIdFieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .dstore.values.IntegerValue community_id = 1;</code>
+       * <code>.dstore.values.IntegerValue community_id = 1;</code>
        */
       public io.dstore.values.IntegerValueOrBuilder getCommunityIdOrBuilder() {
         if (communityIdBuilder_ != null) {
@@ -893,7 +893,7 @@ public final class CoLoginIntoCommunityPu {
         }
       }
       /**
-       * <code>optional .dstore.values.IntegerValue community_id = 1;</code>
+       * <code>.dstore.values.IntegerValue community_id = 1;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> 
@@ -911,13 +911,13 @@ public final class CoLoginIntoCommunityPu {
 
       private boolean communityIdNull_ ;
       /**
-       * <code>optional bool community_id_null = 1001;</code>
+       * <code>bool community_id_null = 1001;</code>
        */
       public boolean getCommunityIdNull() {
         return communityIdNull_;
       }
       /**
-       * <code>optional bool community_id_null = 1001;</code>
+       * <code>bool community_id_null = 1001;</code>
        */
       public Builder setCommunityIdNull(boolean value) {
         
@@ -926,7 +926,7 @@ public final class CoLoginIntoCommunityPu {
         return this;
       }
       /**
-       * <code>optional bool community_id_null = 1001;</code>
+       * <code>bool community_id_null = 1001;</code>
        */
       public Builder clearCommunityIdNull() {
         
@@ -939,13 +939,13 @@ public final class CoLoginIntoCommunityPu {
       private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.values.StringValue, io.dstore.values.StringValue.Builder, io.dstore.values.StringValueOrBuilder> uniqueIdBuilder_;
       /**
-       * <code>optional .dstore.values.StringValue unique_id = 2;</code>
+       * <code>.dstore.values.StringValue unique_id = 2;</code>
        */
       public boolean hasUniqueId() {
         return uniqueIdBuilder_ != null || uniqueId_ != null;
       }
       /**
-       * <code>optional .dstore.values.StringValue unique_id = 2;</code>
+       * <code>.dstore.values.StringValue unique_id = 2;</code>
        */
       public io.dstore.values.StringValue getUniqueId() {
         if (uniqueIdBuilder_ == null) {
@@ -955,7 +955,7 @@ public final class CoLoginIntoCommunityPu {
         }
       }
       /**
-       * <code>optional .dstore.values.StringValue unique_id = 2;</code>
+       * <code>.dstore.values.StringValue unique_id = 2;</code>
        */
       public Builder setUniqueId(io.dstore.values.StringValue value) {
         if (uniqueIdBuilder_ == null) {
@@ -971,7 +971,7 @@ public final class CoLoginIntoCommunityPu {
         return this;
       }
       /**
-       * <code>optional .dstore.values.StringValue unique_id = 2;</code>
+       * <code>.dstore.values.StringValue unique_id = 2;</code>
        */
       public Builder setUniqueId(
           io.dstore.values.StringValue.Builder builderForValue) {
@@ -985,7 +985,7 @@ public final class CoLoginIntoCommunityPu {
         return this;
       }
       /**
-       * <code>optional .dstore.values.StringValue unique_id = 2;</code>
+       * <code>.dstore.values.StringValue unique_id = 2;</code>
        */
       public Builder mergeUniqueId(io.dstore.values.StringValue value) {
         if (uniqueIdBuilder_ == null) {
@@ -1003,7 +1003,7 @@ public final class CoLoginIntoCommunityPu {
         return this;
       }
       /**
-       * <code>optional .dstore.values.StringValue unique_id = 2;</code>
+       * <code>.dstore.values.StringValue unique_id = 2;</code>
        */
       public Builder clearUniqueId() {
         if (uniqueIdBuilder_ == null) {
@@ -1017,7 +1017,7 @@ public final class CoLoginIntoCommunityPu {
         return this;
       }
       /**
-       * <code>optional .dstore.values.StringValue unique_id = 2;</code>
+       * <code>.dstore.values.StringValue unique_id = 2;</code>
        */
       public io.dstore.values.StringValue.Builder getUniqueIdBuilder() {
         
@@ -1025,7 +1025,7 @@ public final class CoLoginIntoCommunityPu {
         return getUniqueIdFieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .dstore.values.StringValue unique_id = 2;</code>
+       * <code>.dstore.values.StringValue unique_id = 2;</code>
        */
       public io.dstore.values.StringValueOrBuilder getUniqueIdOrBuilder() {
         if (uniqueIdBuilder_ != null) {
@@ -1036,7 +1036,7 @@ public final class CoLoginIntoCommunityPu {
         }
       }
       /**
-       * <code>optional .dstore.values.StringValue unique_id = 2;</code>
+       * <code>.dstore.values.StringValue unique_id = 2;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.values.StringValue, io.dstore.values.StringValue.Builder, io.dstore.values.StringValueOrBuilder> 
@@ -1054,13 +1054,13 @@ public final class CoLoginIntoCommunityPu {
 
       private boolean uniqueIdNull_ ;
       /**
-       * <code>optional bool unique_id_null = 1002;</code>
+       * <code>bool unique_id_null = 1002;</code>
        */
       public boolean getUniqueIdNull() {
         return uniqueIdNull_;
       }
       /**
-       * <code>optional bool unique_id_null = 1002;</code>
+       * <code>bool unique_id_null = 1002;</code>
        */
       public Builder setUniqueIdNull(boolean value) {
         
@@ -1069,7 +1069,7 @@ public final class CoLoginIntoCommunityPu {
         return this;
       }
       /**
-       * <code>optional bool unique_id_null = 1002;</code>
+       * <code>bool unique_id_null = 1002;</code>
        */
       public Builder clearUniqueIdNull() {
         
@@ -1082,13 +1082,13 @@ public final class CoLoginIntoCommunityPu {
       private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.values.StringValue, io.dstore.values.StringValue.Builder, io.dstore.values.StringValueOrBuilder> personIdentificationValuesBuilder_;
       /**
-       * <code>optional .dstore.values.StringValue person_identification_values = 3;</code>
+       * <code>.dstore.values.StringValue person_identification_values = 3;</code>
        */
       public boolean hasPersonIdentificationValues() {
         return personIdentificationValuesBuilder_ != null || personIdentificationValues_ != null;
       }
       /**
-       * <code>optional .dstore.values.StringValue person_identification_values = 3;</code>
+       * <code>.dstore.values.StringValue person_identification_values = 3;</code>
        */
       public io.dstore.values.StringValue getPersonIdentificationValues() {
         if (personIdentificationValuesBuilder_ == null) {
@@ -1098,7 +1098,7 @@ public final class CoLoginIntoCommunityPu {
         }
       }
       /**
-       * <code>optional .dstore.values.StringValue person_identification_values = 3;</code>
+       * <code>.dstore.values.StringValue person_identification_values = 3;</code>
        */
       public Builder setPersonIdentificationValues(io.dstore.values.StringValue value) {
         if (personIdentificationValuesBuilder_ == null) {
@@ -1114,7 +1114,7 @@ public final class CoLoginIntoCommunityPu {
         return this;
       }
       /**
-       * <code>optional .dstore.values.StringValue person_identification_values = 3;</code>
+       * <code>.dstore.values.StringValue person_identification_values = 3;</code>
        */
       public Builder setPersonIdentificationValues(
           io.dstore.values.StringValue.Builder builderForValue) {
@@ -1128,7 +1128,7 @@ public final class CoLoginIntoCommunityPu {
         return this;
       }
       /**
-       * <code>optional .dstore.values.StringValue person_identification_values = 3;</code>
+       * <code>.dstore.values.StringValue person_identification_values = 3;</code>
        */
       public Builder mergePersonIdentificationValues(io.dstore.values.StringValue value) {
         if (personIdentificationValuesBuilder_ == null) {
@@ -1146,7 +1146,7 @@ public final class CoLoginIntoCommunityPu {
         return this;
       }
       /**
-       * <code>optional .dstore.values.StringValue person_identification_values = 3;</code>
+       * <code>.dstore.values.StringValue person_identification_values = 3;</code>
        */
       public Builder clearPersonIdentificationValues() {
         if (personIdentificationValuesBuilder_ == null) {
@@ -1160,7 +1160,7 @@ public final class CoLoginIntoCommunityPu {
         return this;
       }
       /**
-       * <code>optional .dstore.values.StringValue person_identification_values = 3;</code>
+       * <code>.dstore.values.StringValue person_identification_values = 3;</code>
        */
       public io.dstore.values.StringValue.Builder getPersonIdentificationValuesBuilder() {
         
@@ -1168,7 +1168,7 @@ public final class CoLoginIntoCommunityPu {
         return getPersonIdentificationValuesFieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .dstore.values.StringValue person_identification_values = 3;</code>
+       * <code>.dstore.values.StringValue person_identification_values = 3;</code>
        */
       public io.dstore.values.StringValueOrBuilder getPersonIdentificationValuesOrBuilder() {
         if (personIdentificationValuesBuilder_ != null) {
@@ -1179,7 +1179,7 @@ public final class CoLoginIntoCommunityPu {
         }
       }
       /**
-       * <code>optional .dstore.values.StringValue person_identification_values = 3;</code>
+       * <code>.dstore.values.StringValue person_identification_values = 3;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.values.StringValue, io.dstore.values.StringValue.Builder, io.dstore.values.StringValueOrBuilder> 
@@ -1197,13 +1197,13 @@ public final class CoLoginIntoCommunityPu {
 
       private boolean personIdentificationValuesNull_ ;
       /**
-       * <code>optional bool person_identification_values_null = 1003;</code>
+       * <code>bool person_identification_values_null = 1003;</code>
        */
       public boolean getPersonIdentificationValuesNull() {
         return personIdentificationValuesNull_;
       }
       /**
-       * <code>optional bool person_identification_values_null = 1003;</code>
+       * <code>bool person_identification_values_null = 1003;</code>
        */
       public Builder setPersonIdentificationValuesNull(boolean value) {
         
@@ -1212,7 +1212,7 @@ public final class CoLoginIntoCommunityPu {
         return this;
       }
       /**
-       * <code>optional bool person_identification_values_null = 1003;</code>
+       * <code>bool person_identification_values_null = 1003;</code>
        */
       public Builder clearPersonIdentificationValuesNull() {
         
@@ -1225,13 +1225,13 @@ public final class CoLoginIntoCommunityPu {
       private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.values.StringValue, io.dstore.values.StringValue.Builder, io.dstore.values.StringValueOrBuilder> separatorInIdentValsBuilder_;
       /**
-       * <code>optional .dstore.values.StringValue separator_in_ident_vals = 4;</code>
+       * <code>.dstore.values.StringValue separator_in_ident_vals = 4;</code>
        */
       public boolean hasSeparatorInIdentVals() {
         return separatorInIdentValsBuilder_ != null || separatorInIdentVals_ != null;
       }
       /**
-       * <code>optional .dstore.values.StringValue separator_in_ident_vals = 4;</code>
+       * <code>.dstore.values.StringValue separator_in_ident_vals = 4;</code>
        */
       public io.dstore.values.StringValue getSeparatorInIdentVals() {
         if (separatorInIdentValsBuilder_ == null) {
@@ -1241,7 +1241,7 @@ public final class CoLoginIntoCommunityPu {
         }
       }
       /**
-       * <code>optional .dstore.values.StringValue separator_in_ident_vals = 4;</code>
+       * <code>.dstore.values.StringValue separator_in_ident_vals = 4;</code>
        */
       public Builder setSeparatorInIdentVals(io.dstore.values.StringValue value) {
         if (separatorInIdentValsBuilder_ == null) {
@@ -1257,7 +1257,7 @@ public final class CoLoginIntoCommunityPu {
         return this;
       }
       /**
-       * <code>optional .dstore.values.StringValue separator_in_ident_vals = 4;</code>
+       * <code>.dstore.values.StringValue separator_in_ident_vals = 4;</code>
        */
       public Builder setSeparatorInIdentVals(
           io.dstore.values.StringValue.Builder builderForValue) {
@@ -1271,7 +1271,7 @@ public final class CoLoginIntoCommunityPu {
         return this;
       }
       /**
-       * <code>optional .dstore.values.StringValue separator_in_ident_vals = 4;</code>
+       * <code>.dstore.values.StringValue separator_in_ident_vals = 4;</code>
        */
       public Builder mergeSeparatorInIdentVals(io.dstore.values.StringValue value) {
         if (separatorInIdentValsBuilder_ == null) {
@@ -1289,7 +1289,7 @@ public final class CoLoginIntoCommunityPu {
         return this;
       }
       /**
-       * <code>optional .dstore.values.StringValue separator_in_ident_vals = 4;</code>
+       * <code>.dstore.values.StringValue separator_in_ident_vals = 4;</code>
        */
       public Builder clearSeparatorInIdentVals() {
         if (separatorInIdentValsBuilder_ == null) {
@@ -1303,7 +1303,7 @@ public final class CoLoginIntoCommunityPu {
         return this;
       }
       /**
-       * <code>optional .dstore.values.StringValue separator_in_ident_vals = 4;</code>
+       * <code>.dstore.values.StringValue separator_in_ident_vals = 4;</code>
        */
       public io.dstore.values.StringValue.Builder getSeparatorInIdentValsBuilder() {
         
@@ -1311,7 +1311,7 @@ public final class CoLoginIntoCommunityPu {
         return getSeparatorInIdentValsFieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .dstore.values.StringValue separator_in_ident_vals = 4;</code>
+       * <code>.dstore.values.StringValue separator_in_ident_vals = 4;</code>
        */
       public io.dstore.values.StringValueOrBuilder getSeparatorInIdentValsOrBuilder() {
         if (separatorInIdentValsBuilder_ != null) {
@@ -1322,7 +1322,7 @@ public final class CoLoginIntoCommunityPu {
         }
       }
       /**
-       * <code>optional .dstore.values.StringValue separator_in_ident_vals = 4;</code>
+       * <code>.dstore.values.StringValue separator_in_ident_vals = 4;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.values.StringValue, io.dstore.values.StringValue.Builder, io.dstore.values.StringValueOrBuilder> 
@@ -1340,13 +1340,13 @@ public final class CoLoginIntoCommunityPu {
 
       private boolean separatorInIdentValsNull_ ;
       /**
-       * <code>optional bool separator_in_ident_vals_null = 1004;</code>
+       * <code>bool separator_in_ident_vals_null = 1004;</code>
        */
       public boolean getSeparatorInIdentValsNull() {
         return separatorInIdentValsNull_;
       }
       /**
-       * <code>optional bool separator_in_ident_vals_null = 1004;</code>
+       * <code>bool separator_in_ident_vals_null = 1004;</code>
        */
       public Builder setSeparatorInIdentValsNull(boolean value) {
         
@@ -1355,7 +1355,7 @@ public final class CoLoginIntoCommunityPu {
         return this;
       }
       /**
-       * <code>optional bool separator_in_ident_vals_null = 1004;</code>
+       * <code>bool separator_in_ident_vals_null = 1004;</code>
        */
       public Builder clearSeparatorInIdentValsNull() {
         
@@ -1614,7 +1614,7 @@ public final class CoLoginIntoCommunityPu {
         com.google.protobuf.MessageOrBuilder {
 
       /**
-       * <code>optional int32 row_id = 10000;</code>
+       * <code>int32 row_id = 10000;</code>
        */
       int getRowId();
 
@@ -1623,7 +1623,7 @@ public final class CoLoginIntoCommunityPu {
        * ID des identifizierten Community-Mitglieds. Kann "NULL" sein, wenn es einen Fehler gab. Genauso kann hier aber auch ein Wert zurückgegeben werden, OBWOHL nicht alle Identifizierungsdaten (z.B. ein "Paßwort") richtig sind !
        * </pre>
        *
-       * <code>optional .dstore.values.IntegerValue community_member_id = 10001;</code>
+       * <code>.dstore.values.IntegerValue community_member_id = 10001;</code>
        */
       boolean hasCommunityMemberId();
       /**
@@ -1631,7 +1631,7 @@ public final class CoLoginIntoCommunityPu {
        * ID des identifizierten Community-Mitglieds. Kann "NULL" sein, wenn es einen Fehler gab. Genauso kann hier aber auch ein Wert zurückgegeben werden, OBWOHL nicht alle Identifizierungsdaten (z.B. ein "Paßwort") richtig sind !
        * </pre>
        *
-       * <code>optional .dstore.values.IntegerValue community_member_id = 10001;</code>
+       * <code>.dstore.values.IntegerValue community_member_id = 10001;</code>
        */
       io.dstore.values.IntegerValue getCommunityMemberId();
       /**
@@ -1639,7 +1639,7 @@ public final class CoLoginIntoCommunityPu {
        * ID des identifizierten Community-Mitglieds. Kann "NULL" sein, wenn es einen Fehler gab. Genauso kann hier aber auch ein Wert zurückgegeben werden, OBWOHL nicht alle Identifizierungsdaten (z.B. ein "Paßwort") richtig sind !
        * </pre>
        *
-       * <code>optional .dstore.values.IntegerValue community_member_id = 10001;</code>
+       * <code>.dstore.values.IntegerValue community_member_id = 10001;</code>
        */
       io.dstore.values.IntegerValueOrBuilder getCommunityMemberIdOrBuilder();
 
@@ -1648,7 +1648,7 @@ public final class CoLoginIntoCommunityPu {
        * "0", falls der Login-Vorgang erfolgreich war, ansonsten ein entsprechender Fehler-Code (z.B. wenn die Identifizierung fehlgeschlagen ist oder der "sweeper" nicht gestartet ist)
        * </pre>
        *
-       * <code>optional .dstore.values.IntegerValue error_code = 10002;</code>
+       * <code>.dstore.values.IntegerValue error_code = 10002;</code>
        */
       boolean hasErrorCode();
       /**
@@ -1656,7 +1656,7 @@ public final class CoLoginIntoCommunityPu {
        * "0", falls der Login-Vorgang erfolgreich war, ansonsten ein entsprechender Fehler-Code (z.B. wenn die Identifizierung fehlgeschlagen ist oder der "sweeper" nicht gestartet ist)
        * </pre>
        *
-       * <code>optional .dstore.values.IntegerValue error_code = 10002;</code>
+       * <code>.dstore.values.IntegerValue error_code = 10002;</code>
        */
       io.dstore.values.IntegerValue getErrorCode();
       /**
@@ -1664,7 +1664,7 @@ public final class CoLoginIntoCommunityPu {
        * "0", falls der Login-Vorgang erfolgreich war, ansonsten ein entsprechender Fehler-Code (z.B. wenn die Identifizierung fehlgeschlagen ist oder der "sweeper" nicht gestartet ist)
        * </pre>
        *
-       * <code>optional .dstore.values.IntegerValue error_code = 10002;</code>
+       * <code>.dstore.values.IntegerValue error_code = 10002;</code>
        */
       io.dstore.values.IntegerValueOrBuilder getErrorCodeOrBuilder();
     }
@@ -1765,7 +1765,7 @@ public final class CoLoginIntoCommunityPu {
       public static final int ROW_ID_FIELD_NUMBER = 10000;
       private int rowId_;
       /**
-       * <code>optional int32 row_id = 10000;</code>
+       * <code>int32 row_id = 10000;</code>
        */
       public int getRowId() {
         return rowId_;
@@ -1778,7 +1778,7 @@ public final class CoLoginIntoCommunityPu {
        * ID des identifizierten Community-Mitglieds. Kann "NULL" sein, wenn es einen Fehler gab. Genauso kann hier aber auch ein Wert zurückgegeben werden, OBWOHL nicht alle Identifizierungsdaten (z.B. ein "Paßwort") richtig sind !
        * </pre>
        *
-       * <code>optional .dstore.values.IntegerValue community_member_id = 10001;</code>
+       * <code>.dstore.values.IntegerValue community_member_id = 10001;</code>
        */
       public boolean hasCommunityMemberId() {
         return communityMemberId_ != null;
@@ -1788,7 +1788,7 @@ public final class CoLoginIntoCommunityPu {
        * ID des identifizierten Community-Mitglieds. Kann "NULL" sein, wenn es einen Fehler gab. Genauso kann hier aber auch ein Wert zurückgegeben werden, OBWOHL nicht alle Identifizierungsdaten (z.B. ein "Paßwort") richtig sind !
        * </pre>
        *
-       * <code>optional .dstore.values.IntegerValue community_member_id = 10001;</code>
+       * <code>.dstore.values.IntegerValue community_member_id = 10001;</code>
        */
       public io.dstore.values.IntegerValue getCommunityMemberId() {
         return communityMemberId_ == null ? io.dstore.values.IntegerValue.getDefaultInstance() : communityMemberId_;
@@ -1798,7 +1798,7 @@ public final class CoLoginIntoCommunityPu {
        * ID des identifizierten Community-Mitglieds. Kann "NULL" sein, wenn es einen Fehler gab. Genauso kann hier aber auch ein Wert zurückgegeben werden, OBWOHL nicht alle Identifizierungsdaten (z.B. ein "Paßwort") richtig sind !
        * </pre>
        *
-       * <code>optional .dstore.values.IntegerValue community_member_id = 10001;</code>
+       * <code>.dstore.values.IntegerValue community_member_id = 10001;</code>
        */
       public io.dstore.values.IntegerValueOrBuilder getCommunityMemberIdOrBuilder() {
         return getCommunityMemberId();
@@ -1811,7 +1811,7 @@ public final class CoLoginIntoCommunityPu {
        * "0", falls der Login-Vorgang erfolgreich war, ansonsten ein entsprechender Fehler-Code (z.B. wenn die Identifizierung fehlgeschlagen ist oder der "sweeper" nicht gestartet ist)
        * </pre>
        *
-       * <code>optional .dstore.values.IntegerValue error_code = 10002;</code>
+       * <code>.dstore.values.IntegerValue error_code = 10002;</code>
        */
       public boolean hasErrorCode() {
         return errorCode_ != null;
@@ -1821,7 +1821,7 @@ public final class CoLoginIntoCommunityPu {
        * "0", falls der Login-Vorgang erfolgreich war, ansonsten ein entsprechender Fehler-Code (z.B. wenn die Identifizierung fehlgeschlagen ist oder der "sweeper" nicht gestartet ist)
        * </pre>
        *
-       * <code>optional .dstore.values.IntegerValue error_code = 10002;</code>
+       * <code>.dstore.values.IntegerValue error_code = 10002;</code>
        */
       public io.dstore.values.IntegerValue getErrorCode() {
         return errorCode_ == null ? io.dstore.values.IntegerValue.getDefaultInstance() : errorCode_;
@@ -1831,7 +1831,7 @@ public final class CoLoginIntoCommunityPu {
        * "0", falls der Login-Vorgang erfolgreich war, ansonsten ein entsprechender Fehler-Code (z.B. wenn die Identifizierung fehlgeschlagen ist oder der "sweeper" nicht gestartet ist)
        * </pre>
        *
-       * <code>optional .dstore.values.IntegerValue error_code = 10002;</code>
+       * <code>.dstore.values.IntegerValue error_code = 10002;</code>
        */
       public io.dstore.values.IntegerValueOrBuilder getErrorCodeOrBuilder() {
         return getErrorCode();
@@ -1914,7 +1914,7 @@ public final class CoLoginIntoCommunityPu {
           return memoizedHashCode;
         }
         int hash = 41;
-        hash = (19 * hash) + getDescriptorForType().hashCode();
+        hash = (19 * hash) + getDescriptor().hashCode();
         hash = (37 * hash) + ROW_ID_FIELD_NUMBER;
         hash = (53 * hash) + getRowId();
         if (hasCommunityMemberId()) {
@@ -2168,13 +2168,13 @@ public final class CoLoginIntoCommunityPu {
 
         private int rowId_ ;
         /**
-         * <code>optional int32 row_id = 10000;</code>
+         * <code>int32 row_id = 10000;</code>
          */
         public int getRowId() {
           return rowId_;
         }
         /**
-         * <code>optional int32 row_id = 10000;</code>
+         * <code>int32 row_id = 10000;</code>
          */
         public Builder setRowId(int value) {
           
@@ -2183,7 +2183,7 @@ public final class CoLoginIntoCommunityPu {
           return this;
         }
         /**
-         * <code>optional int32 row_id = 10000;</code>
+         * <code>int32 row_id = 10000;</code>
          */
         public Builder clearRowId() {
           
@@ -2200,7 +2200,7 @@ public final class CoLoginIntoCommunityPu {
          * ID des identifizierten Community-Mitglieds. Kann "NULL" sein, wenn es einen Fehler gab. Genauso kann hier aber auch ein Wert zurückgegeben werden, OBWOHL nicht alle Identifizierungsdaten (z.B. ein "Paßwort") richtig sind !
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue community_member_id = 10001;</code>
+         * <code>.dstore.values.IntegerValue community_member_id = 10001;</code>
          */
         public boolean hasCommunityMemberId() {
           return communityMemberIdBuilder_ != null || communityMemberId_ != null;
@@ -2210,7 +2210,7 @@ public final class CoLoginIntoCommunityPu {
          * ID des identifizierten Community-Mitglieds. Kann "NULL" sein, wenn es einen Fehler gab. Genauso kann hier aber auch ein Wert zurückgegeben werden, OBWOHL nicht alle Identifizierungsdaten (z.B. ein "Paßwort") richtig sind !
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue community_member_id = 10001;</code>
+         * <code>.dstore.values.IntegerValue community_member_id = 10001;</code>
          */
         public io.dstore.values.IntegerValue getCommunityMemberId() {
           if (communityMemberIdBuilder_ == null) {
@@ -2224,7 +2224,7 @@ public final class CoLoginIntoCommunityPu {
          * ID des identifizierten Community-Mitglieds. Kann "NULL" sein, wenn es einen Fehler gab. Genauso kann hier aber auch ein Wert zurückgegeben werden, OBWOHL nicht alle Identifizierungsdaten (z.B. ein "Paßwort") richtig sind !
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue community_member_id = 10001;</code>
+         * <code>.dstore.values.IntegerValue community_member_id = 10001;</code>
          */
         public Builder setCommunityMemberId(io.dstore.values.IntegerValue value) {
           if (communityMemberIdBuilder_ == null) {
@@ -2244,7 +2244,7 @@ public final class CoLoginIntoCommunityPu {
          * ID des identifizierten Community-Mitglieds. Kann "NULL" sein, wenn es einen Fehler gab. Genauso kann hier aber auch ein Wert zurückgegeben werden, OBWOHL nicht alle Identifizierungsdaten (z.B. ein "Paßwort") richtig sind !
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue community_member_id = 10001;</code>
+         * <code>.dstore.values.IntegerValue community_member_id = 10001;</code>
          */
         public Builder setCommunityMemberId(
             io.dstore.values.IntegerValue.Builder builderForValue) {
@@ -2262,7 +2262,7 @@ public final class CoLoginIntoCommunityPu {
          * ID des identifizierten Community-Mitglieds. Kann "NULL" sein, wenn es einen Fehler gab. Genauso kann hier aber auch ein Wert zurückgegeben werden, OBWOHL nicht alle Identifizierungsdaten (z.B. ein "Paßwort") richtig sind !
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue community_member_id = 10001;</code>
+         * <code>.dstore.values.IntegerValue community_member_id = 10001;</code>
          */
         public Builder mergeCommunityMemberId(io.dstore.values.IntegerValue value) {
           if (communityMemberIdBuilder_ == null) {
@@ -2284,7 +2284,7 @@ public final class CoLoginIntoCommunityPu {
          * ID des identifizierten Community-Mitglieds. Kann "NULL" sein, wenn es einen Fehler gab. Genauso kann hier aber auch ein Wert zurückgegeben werden, OBWOHL nicht alle Identifizierungsdaten (z.B. ein "Paßwort") richtig sind !
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue community_member_id = 10001;</code>
+         * <code>.dstore.values.IntegerValue community_member_id = 10001;</code>
          */
         public Builder clearCommunityMemberId() {
           if (communityMemberIdBuilder_ == null) {
@@ -2302,7 +2302,7 @@ public final class CoLoginIntoCommunityPu {
          * ID des identifizierten Community-Mitglieds. Kann "NULL" sein, wenn es einen Fehler gab. Genauso kann hier aber auch ein Wert zurückgegeben werden, OBWOHL nicht alle Identifizierungsdaten (z.B. ein "Paßwort") richtig sind !
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue community_member_id = 10001;</code>
+         * <code>.dstore.values.IntegerValue community_member_id = 10001;</code>
          */
         public io.dstore.values.IntegerValue.Builder getCommunityMemberIdBuilder() {
           
@@ -2314,7 +2314,7 @@ public final class CoLoginIntoCommunityPu {
          * ID des identifizierten Community-Mitglieds. Kann "NULL" sein, wenn es einen Fehler gab. Genauso kann hier aber auch ein Wert zurückgegeben werden, OBWOHL nicht alle Identifizierungsdaten (z.B. ein "Paßwort") richtig sind !
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue community_member_id = 10001;</code>
+         * <code>.dstore.values.IntegerValue community_member_id = 10001;</code>
          */
         public io.dstore.values.IntegerValueOrBuilder getCommunityMemberIdOrBuilder() {
           if (communityMemberIdBuilder_ != null) {
@@ -2329,7 +2329,7 @@ public final class CoLoginIntoCommunityPu {
          * ID des identifizierten Community-Mitglieds. Kann "NULL" sein, wenn es einen Fehler gab. Genauso kann hier aber auch ein Wert zurückgegeben werden, OBWOHL nicht alle Identifizierungsdaten (z.B. ein "Paßwort") richtig sind !
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue community_member_id = 10001;</code>
+         * <code>.dstore.values.IntegerValue community_member_id = 10001;</code>
          */
         private com.google.protobuf.SingleFieldBuilderV3<
             io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> 
@@ -2353,7 +2353,7 @@ public final class CoLoginIntoCommunityPu {
          * "0", falls der Login-Vorgang erfolgreich war, ansonsten ein entsprechender Fehler-Code (z.B. wenn die Identifizierung fehlgeschlagen ist oder der "sweeper" nicht gestartet ist)
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue error_code = 10002;</code>
+         * <code>.dstore.values.IntegerValue error_code = 10002;</code>
          */
         public boolean hasErrorCode() {
           return errorCodeBuilder_ != null || errorCode_ != null;
@@ -2363,7 +2363,7 @@ public final class CoLoginIntoCommunityPu {
          * "0", falls der Login-Vorgang erfolgreich war, ansonsten ein entsprechender Fehler-Code (z.B. wenn die Identifizierung fehlgeschlagen ist oder der "sweeper" nicht gestartet ist)
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue error_code = 10002;</code>
+         * <code>.dstore.values.IntegerValue error_code = 10002;</code>
          */
         public io.dstore.values.IntegerValue getErrorCode() {
           if (errorCodeBuilder_ == null) {
@@ -2377,7 +2377,7 @@ public final class CoLoginIntoCommunityPu {
          * "0", falls der Login-Vorgang erfolgreich war, ansonsten ein entsprechender Fehler-Code (z.B. wenn die Identifizierung fehlgeschlagen ist oder der "sweeper" nicht gestartet ist)
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue error_code = 10002;</code>
+         * <code>.dstore.values.IntegerValue error_code = 10002;</code>
          */
         public Builder setErrorCode(io.dstore.values.IntegerValue value) {
           if (errorCodeBuilder_ == null) {
@@ -2397,7 +2397,7 @@ public final class CoLoginIntoCommunityPu {
          * "0", falls der Login-Vorgang erfolgreich war, ansonsten ein entsprechender Fehler-Code (z.B. wenn die Identifizierung fehlgeschlagen ist oder der "sweeper" nicht gestartet ist)
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue error_code = 10002;</code>
+         * <code>.dstore.values.IntegerValue error_code = 10002;</code>
          */
         public Builder setErrorCode(
             io.dstore.values.IntegerValue.Builder builderForValue) {
@@ -2415,7 +2415,7 @@ public final class CoLoginIntoCommunityPu {
          * "0", falls der Login-Vorgang erfolgreich war, ansonsten ein entsprechender Fehler-Code (z.B. wenn die Identifizierung fehlgeschlagen ist oder der "sweeper" nicht gestartet ist)
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue error_code = 10002;</code>
+         * <code>.dstore.values.IntegerValue error_code = 10002;</code>
          */
         public Builder mergeErrorCode(io.dstore.values.IntegerValue value) {
           if (errorCodeBuilder_ == null) {
@@ -2437,7 +2437,7 @@ public final class CoLoginIntoCommunityPu {
          * "0", falls der Login-Vorgang erfolgreich war, ansonsten ein entsprechender Fehler-Code (z.B. wenn die Identifizierung fehlgeschlagen ist oder der "sweeper" nicht gestartet ist)
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue error_code = 10002;</code>
+         * <code>.dstore.values.IntegerValue error_code = 10002;</code>
          */
         public Builder clearErrorCode() {
           if (errorCodeBuilder_ == null) {
@@ -2455,7 +2455,7 @@ public final class CoLoginIntoCommunityPu {
          * "0", falls der Login-Vorgang erfolgreich war, ansonsten ein entsprechender Fehler-Code (z.B. wenn die Identifizierung fehlgeschlagen ist oder der "sweeper" nicht gestartet ist)
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue error_code = 10002;</code>
+         * <code>.dstore.values.IntegerValue error_code = 10002;</code>
          */
         public io.dstore.values.IntegerValue.Builder getErrorCodeBuilder() {
           
@@ -2467,7 +2467,7 @@ public final class CoLoginIntoCommunityPu {
          * "0", falls der Login-Vorgang erfolgreich war, ansonsten ein entsprechender Fehler-Code (z.B. wenn die Identifizierung fehlgeschlagen ist oder der "sweeper" nicht gestartet ist)
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue error_code = 10002;</code>
+         * <code>.dstore.values.IntegerValue error_code = 10002;</code>
          */
         public io.dstore.values.IntegerValueOrBuilder getErrorCodeOrBuilder() {
           if (errorCodeBuilder_ != null) {
@@ -2482,7 +2482,7 @@ public final class CoLoginIntoCommunityPu {
          * "0", falls der Login-Vorgang erfolgreich war, ansonsten ein entsprechender Fehler-Code (z.B. wenn die Identifizierung fehlgeschlagen ist oder der "sweeper" nicht gestartet ist)
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue error_code = 10002;</code>
+         * <code>.dstore.values.IntegerValue error_code = 10002;</code>
          */
         private com.google.protobuf.SingleFieldBuilderV3<
             io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> 
@@ -2742,7 +2742,7 @@ public final class CoLoginIntoCommunityPu {
         return memoizedHashCode;
       }
       int hash = 41;
-      hash = (19 * hash) + getDescriptorForType().hashCode();
+      hash = (19 * hash) + getDescriptor().hashCode();
       if (getMetaInformationCount() > 0) {
         hash = (37 * hash) + META_INFORMATION_FIELD_NUMBER;
         hash = (53 * hash) + getMetaInformationList().hashCode();

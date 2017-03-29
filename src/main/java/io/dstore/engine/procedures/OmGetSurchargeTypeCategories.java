@@ -19,20 +19,20 @@ public final class OmGetSurchargeTypeCategories {
       com.google.protobuf.MessageOrBuilder {
 
     /**
-     * <code>optional .dstore.values.IntegerValue category_id = 1;</code>
+     * <code>.dstore.values.IntegerValue category_id = 1;</code>
      */
     boolean hasCategoryId();
     /**
-     * <code>optional .dstore.values.IntegerValue category_id = 1;</code>
+     * <code>.dstore.values.IntegerValue category_id = 1;</code>
      */
     io.dstore.values.IntegerValue getCategoryId();
     /**
-     * <code>optional .dstore.values.IntegerValue category_id = 1;</code>
+     * <code>.dstore.values.IntegerValue category_id = 1;</code>
      */
     io.dstore.values.IntegerValueOrBuilder getCategoryIdOrBuilder();
 
     /**
-     * <code>optional bool category_id_null = 1001;</code>
+     * <code>bool category_id_null = 1001;</code>
      */
     boolean getCategoryIdNull();
   }
@@ -120,19 +120,19 @@ public final class OmGetSurchargeTypeCategories {
     public static final int CATEGORY_ID_FIELD_NUMBER = 1;
     private io.dstore.values.IntegerValue categoryId_;
     /**
-     * <code>optional .dstore.values.IntegerValue category_id = 1;</code>
+     * <code>.dstore.values.IntegerValue category_id = 1;</code>
      */
     public boolean hasCategoryId() {
       return categoryId_ != null;
     }
     /**
-     * <code>optional .dstore.values.IntegerValue category_id = 1;</code>
+     * <code>.dstore.values.IntegerValue category_id = 1;</code>
      */
     public io.dstore.values.IntegerValue getCategoryId() {
       return categoryId_ == null ? io.dstore.values.IntegerValue.getDefaultInstance() : categoryId_;
     }
     /**
-     * <code>optional .dstore.values.IntegerValue category_id = 1;</code>
+     * <code>.dstore.values.IntegerValue category_id = 1;</code>
      */
     public io.dstore.values.IntegerValueOrBuilder getCategoryIdOrBuilder() {
       return getCategoryId();
@@ -141,7 +141,7 @@ public final class OmGetSurchargeTypeCategories {
     public static final int CATEGORY_ID_NULL_FIELD_NUMBER = 1001;
     private boolean categoryIdNull_;
     /**
-     * <code>optional bool category_id_null = 1001;</code>
+     * <code>bool category_id_null = 1001;</code>
      */
     public boolean getCategoryIdNull() {
       return categoryIdNull_;
@@ -212,7 +212,7 @@ public final class OmGetSurchargeTypeCategories {
         return memoizedHashCode;
       }
       int hash = 41;
-      hash = (19 * hash) + getDescriptorForType().hashCode();
+      hash = (19 * hash) + getDescriptor().hashCode();
       if (hasCategoryId()) {
         hash = (37 * hash) + CATEGORY_ID_FIELD_NUMBER;
         hash = (53 * hash) + getCategoryId().hashCode();
@@ -451,13 +451,13 @@ public final class OmGetSurchargeTypeCategories {
       private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> categoryIdBuilder_;
       /**
-       * <code>optional .dstore.values.IntegerValue category_id = 1;</code>
+       * <code>.dstore.values.IntegerValue category_id = 1;</code>
        */
       public boolean hasCategoryId() {
         return categoryIdBuilder_ != null || categoryId_ != null;
       }
       /**
-       * <code>optional .dstore.values.IntegerValue category_id = 1;</code>
+       * <code>.dstore.values.IntegerValue category_id = 1;</code>
        */
       public io.dstore.values.IntegerValue getCategoryId() {
         if (categoryIdBuilder_ == null) {
@@ -467,7 +467,7 @@ public final class OmGetSurchargeTypeCategories {
         }
       }
       /**
-       * <code>optional .dstore.values.IntegerValue category_id = 1;</code>
+       * <code>.dstore.values.IntegerValue category_id = 1;</code>
        */
       public Builder setCategoryId(io.dstore.values.IntegerValue value) {
         if (categoryIdBuilder_ == null) {
@@ -483,7 +483,7 @@ public final class OmGetSurchargeTypeCategories {
         return this;
       }
       /**
-       * <code>optional .dstore.values.IntegerValue category_id = 1;</code>
+       * <code>.dstore.values.IntegerValue category_id = 1;</code>
        */
       public Builder setCategoryId(
           io.dstore.values.IntegerValue.Builder builderForValue) {
@@ -497,7 +497,7 @@ public final class OmGetSurchargeTypeCategories {
         return this;
       }
       /**
-       * <code>optional .dstore.values.IntegerValue category_id = 1;</code>
+       * <code>.dstore.values.IntegerValue category_id = 1;</code>
        */
       public Builder mergeCategoryId(io.dstore.values.IntegerValue value) {
         if (categoryIdBuilder_ == null) {
@@ -515,7 +515,7 @@ public final class OmGetSurchargeTypeCategories {
         return this;
       }
       /**
-       * <code>optional .dstore.values.IntegerValue category_id = 1;</code>
+       * <code>.dstore.values.IntegerValue category_id = 1;</code>
        */
       public Builder clearCategoryId() {
         if (categoryIdBuilder_ == null) {
@@ -529,7 +529,7 @@ public final class OmGetSurchargeTypeCategories {
         return this;
       }
       /**
-       * <code>optional .dstore.values.IntegerValue category_id = 1;</code>
+       * <code>.dstore.values.IntegerValue category_id = 1;</code>
        */
       public io.dstore.values.IntegerValue.Builder getCategoryIdBuilder() {
         
@@ -537,7 +537,7 @@ public final class OmGetSurchargeTypeCategories {
         return getCategoryIdFieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .dstore.values.IntegerValue category_id = 1;</code>
+       * <code>.dstore.values.IntegerValue category_id = 1;</code>
        */
       public io.dstore.values.IntegerValueOrBuilder getCategoryIdOrBuilder() {
         if (categoryIdBuilder_ != null) {
@@ -548,7 +548,7 @@ public final class OmGetSurchargeTypeCategories {
         }
       }
       /**
-       * <code>optional .dstore.values.IntegerValue category_id = 1;</code>
+       * <code>.dstore.values.IntegerValue category_id = 1;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> 
@@ -566,13 +566,13 @@ public final class OmGetSurchargeTypeCategories {
 
       private boolean categoryIdNull_ ;
       /**
-       * <code>optional bool category_id_null = 1001;</code>
+       * <code>bool category_id_null = 1001;</code>
        */
       public boolean getCategoryIdNull() {
         return categoryIdNull_;
       }
       /**
-       * <code>optional bool category_id_null = 1001;</code>
+       * <code>bool category_id_null = 1001;</code>
        */
       public Builder setCategoryIdNull(boolean value) {
         
@@ -581,7 +581,7 @@ public final class OmGetSurchargeTypeCategories {
         return this;
       }
       /**
-       * <code>optional bool category_id_null = 1001;</code>
+       * <code>bool category_id_null = 1001;</code>
        */
       public Builder clearCategoryIdNull() {
         
@@ -840,7 +840,7 @@ public final class OmGetSurchargeTypeCategories {
         com.google.protobuf.MessageOrBuilder {
 
       /**
-       * <code>optional int32 row_id = 10000;</code>
+       * <code>int32 row_id = 10000;</code>
        */
       int getRowId();
 
@@ -849,7 +849,7 @@ public final class OmGetSurchargeTypeCategories {
        * Gibt die Priorität der Kategorie "SurchargeTypeCategoryID" innerhalb aller Kategorien an. Eine kleinere "PriorityNo" bedeutet, daß "Surcharges" dieser Kategorie früher angewendet werden. Besonderheit : "0" bedeutet, daß die Kategorie ignoriert wird.
        * </pre>
        *
-       * <code>optional .dstore.values.IntegerValue priority_no = 10001;</code>
+       * <code>.dstore.values.IntegerValue priority_no = 10001;</code>
        */
       boolean hasPriorityNo();
       /**
@@ -857,7 +857,7 @@ public final class OmGetSurchargeTypeCategories {
        * Gibt die Priorität der Kategorie "SurchargeTypeCategoryID" innerhalb aller Kategorien an. Eine kleinere "PriorityNo" bedeutet, daß "Surcharges" dieser Kategorie früher angewendet werden. Besonderheit : "0" bedeutet, daß die Kategorie ignoriert wird.
        * </pre>
        *
-       * <code>optional .dstore.values.IntegerValue priority_no = 10001;</code>
+       * <code>.dstore.values.IntegerValue priority_no = 10001;</code>
        */
       io.dstore.values.IntegerValue getPriorityNo();
       /**
@@ -865,7 +865,7 @@ public final class OmGetSurchargeTypeCategories {
        * Gibt die Priorität der Kategorie "SurchargeTypeCategoryID" innerhalb aller Kategorien an. Eine kleinere "PriorityNo" bedeutet, daß "Surcharges" dieser Kategorie früher angewendet werden. Besonderheit : "0" bedeutet, daß die Kategorie ignoriert wird.
        * </pre>
        *
-       * <code>optional .dstore.values.IntegerValue priority_no = 10001;</code>
+       * <code>.dstore.values.IntegerValue priority_no = 10001;</code>
        */
       io.dstore.values.IntegerValueOrBuilder getPriorityNoOrBuilder();
 
@@ -874,7 +874,7 @@ public final class OmGetSurchargeTypeCategories {
        * Bezeichnung der Kategorie
        * </pre>
        *
-       * <code>optional .dstore.values.StringValue category_description = 10002;</code>
+       * <code>.dstore.values.StringValue category_description = 10002;</code>
        */
       boolean hasCategoryDescription();
       /**
@@ -882,7 +882,7 @@ public final class OmGetSurchargeTypeCategories {
        * Bezeichnung der Kategorie
        * </pre>
        *
-       * <code>optional .dstore.values.StringValue category_description = 10002;</code>
+       * <code>.dstore.values.StringValue category_description = 10002;</code>
        */
       io.dstore.values.StringValue getCategoryDescription();
       /**
@@ -890,7 +890,7 @@ public final class OmGetSurchargeTypeCategories {
        * Bezeichnung der Kategorie
        * </pre>
        *
-       * <code>optional .dstore.values.StringValue category_description = 10002;</code>
+       * <code>.dstore.values.StringValue category_description = 10002;</code>
        */
       io.dstore.values.StringValueOrBuilder getCategoryDescriptionOrBuilder();
 
@@ -899,7 +899,7 @@ public final class OmGetSurchargeTypeCategories {
        * ID der Kategorien
        * </pre>
        *
-       * <code>optional .dstore.values.IntegerValue surcharge_type_category_id = 10003;</code>
+       * <code>.dstore.values.IntegerValue surcharge_type_category_id = 10003;</code>
        */
       boolean hasSurchargeTypeCategoryId();
       /**
@@ -907,7 +907,7 @@ public final class OmGetSurchargeTypeCategories {
        * ID der Kategorien
        * </pre>
        *
-       * <code>optional .dstore.values.IntegerValue surcharge_type_category_id = 10003;</code>
+       * <code>.dstore.values.IntegerValue surcharge_type_category_id = 10003;</code>
        */
       io.dstore.values.IntegerValue getSurchargeTypeCategoryId();
       /**
@@ -915,7 +915,7 @@ public final class OmGetSurchargeTypeCategories {
        * ID der Kategorien
        * </pre>
        *
-       * <code>optional .dstore.values.IntegerValue surcharge_type_category_id = 10003;</code>
+       * <code>.dstore.values.IntegerValue surcharge_type_category_id = 10003;</code>
        */
       io.dstore.values.IntegerValueOrBuilder getSurchargeTypeCategoryIdOrBuilder();
     }
@@ -1029,7 +1029,7 @@ public final class OmGetSurchargeTypeCategories {
       public static final int ROW_ID_FIELD_NUMBER = 10000;
       private int rowId_;
       /**
-       * <code>optional int32 row_id = 10000;</code>
+       * <code>int32 row_id = 10000;</code>
        */
       public int getRowId() {
         return rowId_;
@@ -1042,7 +1042,7 @@ public final class OmGetSurchargeTypeCategories {
        * Gibt die Priorität der Kategorie "SurchargeTypeCategoryID" innerhalb aller Kategorien an. Eine kleinere "PriorityNo" bedeutet, daß "Surcharges" dieser Kategorie früher angewendet werden. Besonderheit : "0" bedeutet, daß die Kategorie ignoriert wird.
        * </pre>
        *
-       * <code>optional .dstore.values.IntegerValue priority_no = 10001;</code>
+       * <code>.dstore.values.IntegerValue priority_no = 10001;</code>
        */
       public boolean hasPriorityNo() {
         return priorityNo_ != null;
@@ -1052,7 +1052,7 @@ public final class OmGetSurchargeTypeCategories {
        * Gibt die Priorität der Kategorie "SurchargeTypeCategoryID" innerhalb aller Kategorien an. Eine kleinere "PriorityNo" bedeutet, daß "Surcharges" dieser Kategorie früher angewendet werden. Besonderheit : "0" bedeutet, daß die Kategorie ignoriert wird.
        * </pre>
        *
-       * <code>optional .dstore.values.IntegerValue priority_no = 10001;</code>
+       * <code>.dstore.values.IntegerValue priority_no = 10001;</code>
        */
       public io.dstore.values.IntegerValue getPriorityNo() {
         return priorityNo_ == null ? io.dstore.values.IntegerValue.getDefaultInstance() : priorityNo_;
@@ -1062,7 +1062,7 @@ public final class OmGetSurchargeTypeCategories {
        * Gibt die Priorität der Kategorie "SurchargeTypeCategoryID" innerhalb aller Kategorien an. Eine kleinere "PriorityNo" bedeutet, daß "Surcharges" dieser Kategorie früher angewendet werden. Besonderheit : "0" bedeutet, daß die Kategorie ignoriert wird.
        * </pre>
        *
-       * <code>optional .dstore.values.IntegerValue priority_no = 10001;</code>
+       * <code>.dstore.values.IntegerValue priority_no = 10001;</code>
        */
       public io.dstore.values.IntegerValueOrBuilder getPriorityNoOrBuilder() {
         return getPriorityNo();
@@ -1075,7 +1075,7 @@ public final class OmGetSurchargeTypeCategories {
        * Bezeichnung der Kategorie
        * </pre>
        *
-       * <code>optional .dstore.values.StringValue category_description = 10002;</code>
+       * <code>.dstore.values.StringValue category_description = 10002;</code>
        */
       public boolean hasCategoryDescription() {
         return categoryDescription_ != null;
@@ -1085,7 +1085,7 @@ public final class OmGetSurchargeTypeCategories {
        * Bezeichnung der Kategorie
        * </pre>
        *
-       * <code>optional .dstore.values.StringValue category_description = 10002;</code>
+       * <code>.dstore.values.StringValue category_description = 10002;</code>
        */
       public io.dstore.values.StringValue getCategoryDescription() {
         return categoryDescription_ == null ? io.dstore.values.StringValue.getDefaultInstance() : categoryDescription_;
@@ -1095,7 +1095,7 @@ public final class OmGetSurchargeTypeCategories {
        * Bezeichnung der Kategorie
        * </pre>
        *
-       * <code>optional .dstore.values.StringValue category_description = 10002;</code>
+       * <code>.dstore.values.StringValue category_description = 10002;</code>
        */
       public io.dstore.values.StringValueOrBuilder getCategoryDescriptionOrBuilder() {
         return getCategoryDescription();
@@ -1108,7 +1108,7 @@ public final class OmGetSurchargeTypeCategories {
        * ID der Kategorien
        * </pre>
        *
-       * <code>optional .dstore.values.IntegerValue surcharge_type_category_id = 10003;</code>
+       * <code>.dstore.values.IntegerValue surcharge_type_category_id = 10003;</code>
        */
       public boolean hasSurchargeTypeCategoryId() {
         return surchargeTypeCategoryId_ != null;
@@ -1118,7 +1118,7 @@ public final class OmGetSurchargeTypeCategories {
        * ID der Kategorien
        * </pre>
        *
-       * <code>optional .dstore.values.IntegerValue surcharge_type_category_id = 10003;</code>
+       * <code>.dstore.values.IntegerValue surcharge_type_category_id = 10003;</code>
        */
       public io.dstore.values.IntegerValue getSurchargeTypeCategoryId() {
         return surchargeTypeCategoryId_ == null ? io.dstore.values.IntegerValue.getDefaultInstance() : surchargeTypeCategoryId_;
@@ -1128,7 +1128,7 @@ public final class OmGetSurchargeTypeCategories {
        * ID der Kategorien
        * </pre>
        *
-       * <code>optional .dstore.values.IntegerValue surcharge_type_category_id = 10003;</code>
+       * <code>.dstore.values.IntegerValue surcharge_type_category_id = 10003;</code>
        */
       public io.dstore.values.IntegerValueOrBuilder getSurchargeTypeCategoryIdOrBuilder() {
         return getSurchargeTypeCategoryId();
@@ -1223,7 +1223,7 @@ public final class OmGetSurchargeTypeCategories {
           return memoizedHashCode;
         }
         int hash = 41;
-        hash = (19 * hash) + getDescriptorForType().hashCode();
+        hash = (19 * hash) + getDescriptor().hashCode();
         hash = (37 * hash) + ROW_ID_FIELD_NUMBER;
         hash = (53 * hash) + getRowId();
         if (hasPriorityNo()) {
@@ -1495,13 +1495,13 @@ public final class OmGetSurchargeTypeCategories {
 
         private int rowId_ ;
         /**
-         * <code>optional int32 row_id = 10000;</code>
+         * <code>int32 row_id = 10000;</code>
          */
         public int getRowId() {
           return rowId_;
         }
         /**
-         * <code>optional int32 row_id = 10000;</code>
+         * <code>int32 row_id = 10000;</code>
          */
         public Builder setRowId(int value) {
           
@@ -1510,7 +1510,7 @@ public final class OmGetSurchargeTypeCategories {
           return this;
         }
         /**
-         * <code>optional int32 row_id = 10000;</code>
+         * <code>int32 row_id = 10000;</code>
          */
         public Builder clearRowId() {
           
@@ -1527,7 +1527,7 @@ public final class OmGetSurchargeTypeCategories {
          * Gibt die Priorität der Kategorie "SurchargeTypeCategoryID" innerhalb aller Kategorien an. Eine kleinere "PriorityNo" bedeutet, daß "Surcharges" dieser Kategorie früher angewendet werden. Besonderheit : "0" bedeutet, daß die Kategorie ignoriert wird.
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue priority_no = 10001;</code>
+         * <code>.dstore.values.IntegerValue priority_no = 10001;</code>
          */
         public boolean hasPriorityNo() {
           return priorityNoBuilder_ != null || priorityNo_ != null;
@@ -1537,7 +1537,7 @@ public final class OmGetSurchargeTypeCategories {
          * Gibt die Priorität der Kategorie "SurchargeTypeCategoryID" innerhalb aller Kategorien an. Eine kleinere "PriorityNo" bedeutet, daß "Surcharges" dieser Kategorie früher angewendet werden. Besonderheit : "0" bedeutet, daß die Kategorie ignoriert wird.
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue priority_no = 10001;</code>
+         * <code>.dstore.values.IntegerValue priority_no = 10001;</code>
          */
         public io.dstore.values.IntegerValue getPriorityNo() {
           if (priorityNoBuilder_ == null) {
@@ -1551,7 +1551,7 @@ public final class OmGetSurchargeTypeCategories {
          * Gibt die Priorität der Kategorie "SurchargeTypeCategoryID" innerhalb aller Kategorien an. Eine kleinere "PriorityNo" bedeutet, daß "Surcharges" dieser Kategorie früher angewendet werden. Besonderheit : "0" bedeutet, daß die Kategorie ignoriert wird.
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue priority_no = 10001;</code>
+         * <code>.dstore.values.IntegerValue priority_no = 10001;</code>
          */
         public Builder setPriorityNo(io.dstore.values.IntegerValue value) {
           if (priorityNoBuilder_ == null) {
@@ -1571,7 +1571,7 @@ public final class OmGetSurchargeTypeCategories {
          * Gibt die Priorität der Kategorie "SurchargeTypeCategoryID" innerhalb aller Kategorien an. Eine kleinere "PriorityNo" bedeutet, daß "Surcharges" dieser Kategorie früher angewendet werden. Besonderheit : "0" bedeutet, daß die Kategorie ignoriert wird.
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue priority_no = 10001;</code>
+         * <code>.dstore.values.IntegerValue priority_no = 10001;</code>
          */
         public Builder setPriorityNo(
             io.dstore.values.IntegerValue.Builder builderForValue) {
@@ -1589,7 +1589,7 @@ public final class OmGetSurchargeTypeCategories {
          * Gibt die Priorität der Kategorie "SurchargeTypeCategoryID" innerhalb aller Kategorien an. Eine kleinere "PriorityNo" bedeutet, daß "Surcharges" dieser Kategorie früher angewendet werden. Besonderheit : "0" bedeutet, daß die Kategorie ignoriert wird.
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue priority_no = 10001;</code>
+         * <code>.dstore.values.IntegerValue priority_no = 10001;</code>
          */
         public Builder mergePriorityNo(io.dstore.values.IntegerValue value) {
           if (priorityNoBuilder_ == null) {
@@ -1611,7 +1611,7 @@ public final class OmGetSurchargeTypeCategories {
          * Gibt die Priorität der Kategorie "SurchargeTypeCategoryID" innerhalb aller Kategorien an. Eine kleinere "PriorityNo" bedeutet, daß "Surcharges" dieser Kategorie früher angewendet werden. Besonderheit : "0" bedeutet, daß die Kategorie ignoriert wird.
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue priority_no = 10001;</code>
+         * <code>.dstore.values.IntegerValue priority_no = 10001;</code>
          */
         public Builder clearPriorityNo() {
           if (priorityNoBuilder_ == null) {
@@ -1629,7 +1629,7 @@ public final class OmGetSurchargeTypeCategories {
          * Gibt die Priorität der Kategorie "SurchargeTypeCategoryID" innerhalb aller Kategorien an. Eine kleinere "PriorityNo" bedeutet, daß "Surcharges" dieser Kategorie früher angewendet werden. Besonderheit : "0" bedeutet, daß die Kategorie ignoriert wird.
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue priority_no = 10001;</code>
+         * <code>.dstore.values.IntegerValue priority_no = 10001;</code>
          */
         public io.dstore.values.IntegerValue.Builder getPriorityNoBuilder() {
           
@@ -1641,7 +1641,7 @@ public final class OmGetSurchargeTypeCategories {
          * Gibt die Priorität der Kategorie "SurchargeTypeCategoryID" innerhalb aller Kategorien an. Eine kleinere "PriorityNo" bedeutet, daß "Surcharges" dieser Kategorie früher angewendet werden. Besonderheit : "0" bedeutet, daß die Kategorie ignoriert wird.
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue priority_no = 10001;</code>
+         * <code>.dstore.values.IntegerValue priority_no = 10001;</code>
          */
         public io.dstore.values.IntegerValueOrBuilder getPriorityNoOrBuilder() {
           if (priorityNoBuilder_ != null) {
@@ -1656,7 +1656,7 @@ public final class OmGetSurchargeTypeCategories {
          * Gibt die Priorität der Kategorie "SurchargeTypeCategoryID" innerhalb aller Kategorien an. Eine kleinere "PriorityNo" bedeutet, daß "Surcharges" dieser Kategorie früher angewendet werden. Besonderheit : "0" bedeutet, daß die Kategorie ignoriert wird.
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue priority_no = 10001;</code>
+         * <code>.dstore.values.IntegerValue priority_no = 10001;</code>
          */
         private com.google.protobuf.SingleFieldBuilderV3<
             io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> 
@@ -1680,7 +1680,7 @@ public final class OmGetSurchargeTypeCategories {
          * Bezeichnung der Kategorie
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue category_description = 10002;</code>
+         * <code>.dstore.values.StringValue category_description = 10002;</code>
          */
         public boolean hasCategoryDescription() {
           return categoryDescriptionBuilder_ != null || categoryDescription_ != null;
@@ -1690,7 +1690,7 @@ public final class OmGetSurchargeTypeCategories {
          * Bezeichnung der Kategorie
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue category_description = 10002;</code>
+         * <code>.dstore.values.StringValue category_description = 10002;</code>
          */
         public io.dstore.values.StringValue getCategoryDescription() {
           if (categoryDescriptionBuilder_ == null) {
@@ -1704,7 +1704,7 @@ public final class OmGetSurchargeTypeCategories {
          * Bezeichnung der Kategorie
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue category_description = 10002;</code>
+         * <code>.dstore.values.StringValue category_description = 10002;</code>
          */
         public Builder setCategoryDescription(io.dstore.values.StringValue value) {
           if (categoryDescriptionBuilder_ == null) {
@@ -1724,7 +1724,7 @@ public final class OmGetSurchargeTypeCategories {
          * Bezeichnung der Kategorie
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue category_description = 10002;</code>
+         * <code>.dstore.values.StringValue category_description = 10002;</code>
          */
         public Builder setCategoryDescription(
             io.dstore.values.StringValue.Builder builderForValue) {
@@ -1742,7 +1742,7 @@ public final class OmGetSurchargeTypeCategories {
          * Bezeichnung der Kategorie
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue category_description = 10002;</code>
+         * <code>.dstore.values.StringValue category_description = 10002;</code>
          */
         public Builder mergeCategoryDescription(io.dstore.values.StringValue value) {
           if (categoryDescriptionBuilder_ == null) {
@@ -1764,7 +1764,7 @@ public final class OmGetSurchargeTypeCategories {
          * Bezeichnung der Kategorie
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue category_description = 10002;</code>
+         * <code>.dstore.values.StringValue category_description = 10002;</code>
          */
         public Builder clearCategoryDescription() {
           if (categoryDescriptionBuilder_ == null) {
@@ -1782,7 +1782,7 @@ public final class OmGetSurchargeTypeCategories {
          * Bezeichnung der Kategorie
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue category_description = 10002;</code>
+         * <code>.dstore.values.StringValue category_description = 10002;</code>
          */
         public io.dstore.values.StringValue.Builder getCategoryDescriptionBuilder() {
           
@@ -1794,7 +1794,7 @@ public final class OmGetSurchargeTypeCategories {
          * Bezeichnung der Kategorie
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue category_description = 10002;</code>
+         * <code>.dstore.values.StringValue category_description = 10002;</code>
          */
         public io.dstore.values.StringValueOrBuilder getCategoryDescriptionOrBuilder() {
           if (categoryDescriptionBuilder_ != null) {
@@ -1809,7 +1809,7 @@ public final class OmGetSurchargeTypeCategories {
          * Bezeichnung der Kategorie
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue category_description = 10002;</code>
+         * <code>.dstore.values.StringValue category_description = 10002;</code>
          */
         private com.google.protobuf.SingleFieldBuilderV3<
             io.dstore.values.StringValue, io.dstore.values.StringValue.Builder, io.dstore.values.StringValueOrBuilder> 
@@ -1833,7 +1833,7 @@ public final class OmGetSurchargeTypeCategories {
          * ID der Kategorien
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue surcharge_type_category_id = 10003;</code>
+         * <code>.dstore.values.IntegerValue surcharge_type_category_id = 10003;</code>
          */
         public boolean hasSurchargeTypeCategoryId() {
           return surchargeTypeCategoryIdBuilder_ != null || surchargeTypeCategoryId_ != null;
@@ -1843,7 +1843,7 @@ public final class OmGetSurchargeTypeCategories {
          * ID der Kategorien
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue surcharge_type_category_id = 10003;</code>
+         * <code>.dstore.values.IntegerValue surcharge_type_category_id = 10003;</code>
          */
         public io.dstore.values.IntegerValue getSurchargeTypeCategoryId() {
           if (surchargeTypeCategoryIdBuilder_ == null) {
@@ -1857,7 +1857,7 @@ public final class OmGetSurchargeTypeCategories {
          * ID der Kategorien
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue surcharge_type_category_id = 10003;</code>
+         * <code>.dstore.values.IntegerValue surcharge_type_category_id = 10003;</code>
          */
         public Builder setSurchargeTypeCategoryId(io.dstore.values.IntegerValue value) {
           if (surchargeTypeCategoryIdBuilder_ == null) {
@@ -1877,7 +1877,7 @@ public final class OmGetSurchargeTypeCategories {
          * ID der Kategorien
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue surcharge_type_category_id = 10003;</code>
+         * <code>.dstore.values.IntegerValue surcharge_type_category_id = 10003;</code>
          */
         public Builder setSurchargeTypeCategoryId(
             io.dstore.values.IntegerValue.Builder builderForValue) {
@@ -1895,7 +1895,7 @@ public final class OmGetSurchargeTypeCategories {
          * ID der Kategorien
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue surcharge_type_category_id = 10003;</code>
+         * <code>.dstore.values.IntegerValue surcharge_type_category_id = 10003;</code>
          */
         public Builder mergeSurchargeTypeCategoryId(io.dstore.values.IntegerValue value) {
           if (surchargeTypeCategoryIdBuilder_ == null) {
@@ -1917,7 +1917,7 @@ public final class OmGetSurchargeTypeCategories {
          * ID der Kategorien
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue surcharge_type_category_id = 10003;</code>
+         * <code>.dstore.values.IntegerValue surcharge_type_category_id = 10003;</code>
          */
         public Builder clearSurchargeTypeCategoryId() {
           if (surchargeTypeCategoryIdBuilder_ == null) {
@@ -1935,7 +1935,7 @@ public final class OmGetSurchargeTypeCategories {
          * ID der Kategorien
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue surcharge_type_category_id = 10003;</code>
+         * <code>.dstore.values.IntegerValue surcharge_type_category_id = 10003;</code>
          */
         public io.dstore.values.IntegerValue.Builder getSurchargeTypeCategoryIdBuilder() {
           
@@ -1947,7 +1947,7 @@ public final class OmGetSurchargeTypeCategories {
          * ID der Kategorien
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue surcharge_type_category_id = 10003;</code>
+         * <code>.dstore.values.IntegerValue surcharge_type_category_id = 10003;</code>
          */
         public io.dstore.values.IntegerValueOrBuilder getSurchargeTypeCategoryIdOrBuilder() {
           if (surchargeTypeCategoryIdBuilder_ != null) {
@@ -1962,7 +1962,7 @@ public final class OmGetSurchargeTypeCategories {
          * ID der Kategorien
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue surcharge_type_category_id = 10003;</code>
+         * <code>.dstore.values.IntegerValue surcharge_type_category_id = 10003;</code>
          */
         private com.google.protobuf.SingleFieldBuilderV3<
             io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> 
@@ -2222,7 +2222,7 @@ public final class OmGetSurchargeTypeCategories {
         return memoizedHashCode;
       }
       int hash = 41;
-      hash = (19 * hash) + getDescriptorForType().hashCode();
+      hash = (19 * hash) + getDescriptor().hashCode();
       if (getMetaInformationCount() > 0) {
         hash = (37 * hash) + META_INFORMATION_FIELD_NUMBER;
         hash = (53 * hash) + getMetaInformationList().hashCode();

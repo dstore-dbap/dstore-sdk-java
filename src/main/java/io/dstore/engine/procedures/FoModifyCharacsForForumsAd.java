@@ -19,56 +19,56 @@ public final class FoModifyCharacsForForumsAd {
       com.google.protobuf.MessageOrBuilder {
 
     /**
-     * <code>optional .dstore.values.IntegerValue forum_id = 1;</code>
+     * <code>.dstore.values.IntegerValue forum_id = 1;</code>
      */
     boolean hasForumId();
     /**
-     * <code>optional .dstore.values.IntegerValue forum_id = 1;</code>
+     * <code>.dstore.values.IntegerValue forum_id = 1;</code>
      */
     io.dstore.values.IntegerValue getForumId();
     /**
-     * <code>optional .dstore.values.IntegerValue forum_id = 1;</code>
+     * <code>.dstore.values.IntegerValue forum_id = 1;</code>
      */
     io.dstore.values.IntegerValueOrBuilder getForumIdOrBuilder();
 
     /**
-     * <code>optional bool forum_id_null = 1001;</code>
+     * <code>bool forum_id_null = 1001;</code>
      */
     boolean getForumIdNull();
 
     /**
-     * <code>optional .dstore.values.IntegerValue posting_characteristic_id = 2;</code>
+     * <code>.dstore.values.IntegerValue posting_characteristic_id = 2;</code>
      */
     boolean hasPostingCharacteristicId();
     /**
-     * <code>optional .dstore.values.IntegerValue posting_characteristic_id = 2;</code>
+     * <code>.dstore.values.IntegerValue posting_characteristic_id = 2;</code>
      */
     io.dstore.values.IntegerValue getPostingCharacteristicId();
     /**
-     * <code>optional .dstore.values.IntegerValue posting_characteristic_id = 2;</code>
+     * <code>.dstore.values.IntegerValue posting_characteristic_id = 2;</code>
      */
     io.dstore.values.IntegerValueOrBuilder getPostingCharacteristicIdOrBuilder();
 
     /**
-     * <code>optional bool posting_characteristic_id_null = 1002;</code>
+     * <code>bool posting_characteristic_id_null = 1002;</code>
      */
     boolean getPostingCharacteristicIdNull();
 
     /**
-     * <code>optional .dstore.values.BooleanValue delete_relation = 3;</code>
+     * <code>.dstore.values.BooleanValue delete_relation = 3;</code>
      */
     boolean hasDeleteRelation();
     /**
-     * <code>optional .dstore.values.BooleanValue delete_relation = 3;</code>
+     * <code>.dstore.values.BooleanValue delete_relation = 3;</code>
      */
     io.dstore.values.BooleanValue getDeleteRelation();
     /**
-     * <code>optional .dstore.values.BooleanValue delete_relation = 3;</code>
+     * <code>.dstore.values.BooleanValue delete_relation = 3;</code>
      */
     io.dstore.values.BooleanValueOrBuilder getDeleteRelationOrBuilder();
 
     /**
-     * <code>optional bool delete_relation_null = 1003;</code>
+     * <code>bool delete_relation_null = 1003;</code>
      */
     boolean getDeleteRelationNull();
   }
@@ -194,19 +194,19 @@ public final class FoModifyCharacsForForumsAd {
     public static final int FORUM_ID_FIELD_NUMBER = 1;
     private io.dstore.values.IntegerValue forumId_;
     /**
-     * <code>optional .dstore.values.IntegerValue forum_id = 1;</code>
+     * <code>.dstore.values.IntegerValue forum_id = 1;</code>
      */
     public boolean hasForumId() {
       return forumId_ != null;
     }
     /**
-     * <code>optional .dstore.values.IntegerValue forum_id = 1;</code>
+     * <code>.dstore.values.IntegerValue forum_id = 1;</code>
      */
     public io.dstore.values.IntegerValue getForumId() {
       return forumId_ == null ? io.dstore.values.IntegerValue.getDefaultInstance() : forumId_;
     }
     /**
-     * <code>optional .dstore.values.IntegerValue forum_id = 1;</code>
+     * <code>.dstore.values.IntegerValue forum_id = 1;</code>
      */
     public io.dstore.values.IntegerValueOrBuilder getForumIdOrBuilder() {
       return getForumId();
@@ -215,7 +215,7 @@ public final class FoModifyCharacsForForumsAd {
     public static final int FORUM_ID_NULL_FIELD_NUMBER = 1001;
     private boolean forumIdNull_;
     /**
-     * <code>optional bool forum_id_null = 1001;</code>
+     * <code>bool forum_id_null = 1001;</code>
      */
     public boolean getForumIdNull() {
       return forumIdNull_;
@@ -224,19 +224,19 @@ public final class FoModifyCharacsForForumsAd {
     public static final int POSTING_CHARACTERISTIC_ID_FIELD_NUMBER = 2;
     private io.dstore.values.IntegerValue postingCharacteristicId_;
     /**
-     * <code>optional .dstore.values.IntegerValue posting_characteristic_id = 2;</code>
+     * <code>.dstore.values.IntegerValue posting_characteristic_id = 2;</code>
      */
     public boolean hasPostingCharacteristicId() {
       return postingCharacteristicId_ != null;
     }
     /**
-     * <code>optional .dstore.values.IntegerValue posting_characteristic_id = 2;</code>
+     * <code>.dstore.values.IntegerValue posting_characteristic_id = 2;</code>
      */
     public io.dstore.values.IntegerValue getPostingCharacteristicId() {
       return postingCharacteristicId_ == null ? io.dstore.values.IntegerValue.getDefaultInstance() : postingCharacteristicId_;
     }
     /**
-     * <code>optional .dstore.values.IntegerValue posting_characteristic_id = 2;</code>
+     * <code>.dstore.values.IntegerValue posting_characteristic_id = 2;</code>
      */
     public io.dstore.values.IntegerValueOrBuilder getPostingCharacteristicIdOrBuilder() {
       return getPostingCharacteristicId();
@@ -245,7 +245,7 @@ public final class FoModifyCharacsForForumsAd {
     public static final int POSTING_CHARACTERISTIC_ID_NULL_FIELD_NUMBER = 1002;
     private boolean postingCharacteristicIdNull_;
     /**
-     * <code>optional bool posting_characteristic_id_null = 1002;</code>
+     * <code>bool posting_characteristic_id_null = 1002;</code>
      */
     public boolean getPostingCharacteristicIdNull() {
       return postingCharacteristicIdNull_;
@@ -254,19 +254,19 @@ public final class FoModifyCharacsForForumsAd {
     public static final int DELETE_RELATION_FIELD_NUMBER = 3;
     private io.dstore.values.BooleanValue deleteRelation_;
     /**
-     * <code>optional .dstore.values.BooleanValue delete_relation = 3;</code>
+     * <code>.dstore.values.BooleanValue delete_relation = 3;</code>
      */
     public boolean hasDeleteRelation() {
       return deleteRelation_ != null;
     }
     /**
-     * <code>optional .dstore.values.BooleanValue delete_relation = 3;</code>
+     * <code>.dstore.values.BooleanValue delete_relation = 3;</code>
      */
     public io.dstore.values.BooleanValue getDeleteRelation() {
       return deleteRelation_ == null ? io.dstore.values.BooleanValue.getDefaultInstance() : deleteRelation_;
     }
     /**
-     * <code>optional .dstore.values.BooleanValue delete_relation = 3;</code>
+     * <code>.dstore.values.BooleanValue delete_relation = 3;</code>
      */
     public io.dstore.values.BooleanValueOrBuilder getDeleteRelationOrBuilder() {
       return getDeleteRelation();
@@ -275,7 +275,7 @@ public final class FoModifyCharacsForForumsAd {
     public static final int DELETE_RELATION_NULL_FIELD_NUMBER = 1003;
     private boolean deleteRelationNull_;
     /**
-     * <code>optional bool delete_relation_null = 1003;</code>
+     * <code>bool delete_relation_null = 1003;</code>
      */
     public boolean getDeleteRelationNull() {
       return deleteRelationNull_;
@@ -388,7 +388,7 @@ public final class FoModifyCharacsForForumsAd {
         return memoizedHashCode;
       }
       int hash = 41;
-      hash = (19 * hash) + getDescriptorForType().hashCode();
+      hash = (19 * hash) + getDescriptor().hashCode();
       if (hasForumId()) {
         hash = (37 * hash) + FORUM_ID_FIELD_NUMBER;
         hash = (53 * hash) + getForumId().hashCode();
@@ -681,13 +681,13 @@ public final class FoModifyCharacsForForumsAd {
       private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> forumIdBuilder_;
       /**
-       * <code>optional .dstore.values.IntegerValue forum_id = 1;</code>
+       * <code>.dstore.values.IntegerValue forum_id = 1;</code>
        */
       public boolean hasForumId() {
         return forumIdBuilder_ != null || forumId_ != null;
       }
       /**
-       * <code>optional .dstore.values.IntegerValue forum_id = 1;</code>
+       * <code>.dstore.values.IntegerValue forum_id = 1;</code>
        */
       public io.dstore.values.IntegerValue getForumId() {
         if (forumIdBuilder_ == null) {
@@ -697,7 +697,7 @@ public final class FoModifyCharacsForForumsAd {
         }
       }
       /**
-       * <code>optional .dstore.values.IntegerValue forum_id = 1;</code>
+       * <code>.dstore.values.IntegerValue forum_id = 1;</code>
        */
       public Builder setForumId(io.dstore.values.IntegerValue value) {
         if (forumIdBuilder_ == null) {
@@ -713,7 +713,7 @@ public final class FoModifyCharacsForForumsAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.IntegerValue forum_id = 1;</code>
+       * <code>.dstore.values.IntegerValue forum_id = 1;</code>
        */
       public Builder setForumId(
           io.dstore.values.IntegerValue.Builder builderForValue) {
@@ -727,7 +727,7 @@ public final class FoModifyCharacsForForumsAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.IntegerValue forum_id = 1;</code>
+       * <code>.dstore.values.IntegerValue forum_id = 1;</code>
        */
       public Builder mergeForumId(io.dstore.values.IntegerValue value) {
         if (forumIdBuilder_ == null) {
@@ -745,7 +745,7 @@ public final class FoModifyCharacsForForumsAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.IntegerValue forum_id = 1;</code>
+       * <code>.dstore.values.IntegerValue forum_id = 1;</code>
        */
       public Builder clearForumId() {
         if (forumIdBuilder_ == null) {
@@ -759,7 +759,7 @@ public final class FoModifyCharacsForForumsAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.IntegerValue forum_id = 1;</code>
+       * <code>.dstore.values.IntegerValue forum_id = 1;</code>
        */
       public io.dstore.values.IntegerValue.Builder getForumIdBuilder() {
         
@@ -767,7 +767,7 @@ public final class FoModifyCharacsForForumsAd {
         return getForumIdFieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .dstore.values.IntegerValue forum_id = 1;</code>
+       * <code>.dstore.values.IntegerValue forum_id = 1;</code>
        */
       public io.dstore.values.IntegerValueOrBuilder getForumIdOrBuilder() {
         if (forumIdBuilder_ != null) {
@@ -778,7 +778,7 @@ public final class FoModifyCharacsForForumsAd {
         }
       }
       /**
-       * <code>optional .dstore.values.IntegerValue forum_id = 1;</code>
+       * <code>.dstore.values.IntegerValue forum_id = 1;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> 
@@ -796,13 +796,13 @@ public final class FoModifyCharacsForForumsAd {
 
       private boolean forumIdNull_ ;
       /**
-       * <code>optional bool forum_id_null = 1001;</code>
+       * <code>bool forum_id_null = 1001;</code>
        */
       public boolean getForumIdNull() {
         return forumIdNull_;
       }
       /**
-       * <code>optional bool forum_id_null = 1001;</code>
+       * <code>bool forum_id_null = 1001;</code>
        */
       public Builder setForumIdNull(boolean value) {
         
@@ -811,7 +811,7 @@ public final class FoModifyCharacsForForumsAd {
         return this;
       }
       /**
-       * <code>optional bool forum_id_null = 1001;</code>
+       * <code>bool forum_id_null = 1001;</code>
        */
       public Builder clearForumIdNull() {
         
@@ -824,13 +824,13 @@ public final class FoModifyCharacsForForumsAd {
       private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> postingCharacteristicIdBuilder_;
       /**
-       * <code>optional .dstore.values.IntegerValue posting_characteristic_id = 2;</code>
+       * <code>.dstore.values.IntegerValue posting_characteristic_id = 2;</code>
        */
       public boolean hasPostingCharacteristicId() {
         return postingCharacteristicIdBuilder_ != null || postingCharacteristicId_ != null;
       }
       /**
-       * <code>optional .dstore.values.IntegerValue posting_characteristic_id = 2;</code>
+       * <code>.dstore.values.IntegerValue posting_characteristic_id = 2;</code>
        */
       public io.dstore.values.IntegerValue getPostingCharacteristicId() {
         if (postingCharacteristicIdBuilder_ == null) {
@@ -840,7 +840,7 @@ public final class FoModifyCharacsForForumsAd {
         }
       }
       /**
-       * <code>optional .dstore.values.IntegerValue posting_characteristic_id = 2;</code>
+       * <code>.dstore.values.IntegerValue posting_characteristic_id = 2;</code>
        */
       public Builder setPostingCharacteristicId(io.dstore.values.IntegerValue value) {
         if (postingCharacteristicIdBuilder_ == null) {
@@ -856,7 +856,7 @@ public final class FoModifyCharacsForForumsAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.IntegerValue posting_characteristic_id = 2;</code>
+       * <code>.dstore.values.IntegerValue posting_characteristic_id = 2;</code>
        */
       public Builder setPostingCharacteristicId(
           io.dstore.values.IntegerValue.Builder builderForValue) {
@@ -870,7 +870,7 @@ public final class FoModifyCharacsForForumsAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.IntegerValue posting_characteristic_id = 2;</code>
+       * <code>.dstore.values.IntegerValue posting_characteristic_id = 2;</code>
        */
       public Builder mergePostingCharacteristicId(io.dstore.values.IntegerValue value) {
         if (postingCharacteristicIdBuilder_ == null) {
@@ -888,7 +888,7 @@ public final class FoModifyCharacsForForumsAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.IntegerValue posting_characteristic_id = 2;</code>
+       * <code>.dstore.values.IntegerValue posting_characteristic_id = 2;</code>
        */
       public Builder clearPostingCharacteristicId() {
         if (postingCharacteristicIdBuilder_ == null) {
@@ -902,7 +902,7 @@ public final class FoModifyCharacsForForumsAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.IntegerValue posting_characteristic_id = 2;</code>
+       * <code>.dstore.values.IntegerValue posting_characteristic_id = 2;</code>
        */
       public io.dstore.values.IntegerValue.Builder getPostingCharacteristicIdBuilder() {
         
@@ -910,7 +910,7 @@ public final class FoModifyCharacsForForumsAd {
         return getPostingCharacteristicIdFieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .dstore.values.IntegerValue posting_characteristic_id = 2;</code>
+       * <code>.dstore.values.IntegerValue posting_characteristic_id = 2;</code>
        */
       public io.dstore.values.IntegerValueOrBuilder getPostingCharacteristicIdOrBuilder() {
         if (postingCharacteristicIdBuilder_ != null) {
@@ -921,7 +921,7 @@ public final class FoModifyCharacsForForumsAd {
         }
       }
       /**
-       * <code>optional .dstore.values.IntegerValue posting_characteristic_id = 2;</code>
+       * <code>.dstore.values.IntegerValue posting_characteristic_id = 2;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> 
@@ -939,13 +939,13 @@ public final class FoModifyCharacsForForumsAd {
 
       private boolean postingCharacteristicIdNull_ ;
       /**
-       * <code>optional bool posting_characteristic_id_null = 1002;</code>
+       * <code>bool posting_characteristic_id_null = 1002;</code>
        */
       public boolean getPostingCharacteristicIdNull() {
         return postingCharacteristicIdNull_;
       }
       /**
-       * <code>optional bool posting_characteristic_id_null = 1002;</code>
+       * <code>bool posting_characteristic_id_null = 1002;</code>
        */
       public Builder setPostingCharacteristicIdNull(boolean value) {
         
@@ -954,7 +954,7 @@ public final class FoModifyCharacsForForumsAd {
         return this;
       }
       /**
-       * <code>optional bool posting_characteristic_id_null = 1002;</code>
+       * <code>bool posting_characteristic_id_null = 1002;</code>
        */
       public Builder clearPostingCharacteristicIdNull() {
         
@@ -967,13 +967,13 @@ public final class FoModifyCharacsForForumsAd {
       private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.values.BooleanValue, io.dstore.values.BooleanValue.Builder, io.dstore.values.BooleanValueOrBuilder> deleteRelationBuilder_;
       /**
-       * <code>optional .dstore.values.BooleanValue delete_relation = 3;</code>
+       * <code>.dstore.values.BooleanValue delete_relation = 3;</code>
        */
       public boolean hasDeleteRelation() {
         return deleteRelationBuilder_ != null || deleteRelation_ != null;
       }
       /**
-       * <code>optional .dstore.values.BooleanValue delete_relation = 3;</code>
+       * <code>.dstore.values.BooleanValue delete_relation = 3;</code>
        */
       public io.dstore.values.BooleanValue getDeleteRelation() {
         if (deleteRelationBuilder_ == null) {
@@ -983,7 +983,7 @@ public final class FoModifyCharacsForForumsAd {
         }
       }
       /**
-       * <code>optional .dstore.values.BooleanValue delete_relation = 3;</code>
+       * <code>.dstore.values.BooleanValue delete_relation = 3;</code>
        */
       public Builder setDeleteRelation(io.dstore.values.BooleanValue value) {
         if (deleteRelationBuilder_ == null) {
@@ -999,7 +999,7 @@ public final class FoModifyCharacsForForumsAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.BooleanValue delete_relation = 3;</code>
+       * <code>.dstore.values.BooleanValue delete_relation = 3;</code>
        */
       public Builder setDeleteRelation(
           io.dstore.values.BooleanValue.Builder builderForValue) {
@@ -1013,7 +1013,7 @@ public final class FoModifyCharacsForForumsAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.BooleanValue delete_relation = 3;</code>
+       * <code>.dstore.values.BooleanValue delete_relation = 3;</code>
        */
       public Builder mergeDeleteRelation(io.dstore.values.BooleanValue value) {
         if (deleteRelationBuilder_ == null) {
@@ -1031,7 +1031,7 @@ public final class FoModifyCharacsForForumsAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.BooleanValue delete_relation = 3;</code>
+       * <code>.dstore.values.BooleanValue delete_relation = 3;</code>
        */
       public Builder clearDeleteRelation() {
         if (deleteRelationBuilder_ == null) {
@@ -1045,7 +1045,7 @@ public final class FoModifyCharacsForForumsAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.BooleanValue delete_relation = 3;</code>
+       * <code>.dstore.values.BooleanValue delete_relation = 3;</code>
        */
       public io.dstore.values.BooleanValue.Builder getDeleteRelationBuilder() {
         
@@ -1053,7 +1053,7 @@ public final class FoModifyCharacsForForumsAd {
         return getDeleteRelationFieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .dstore.values.BooleanValue delete_relation = 3;</code>
+       * <code>.dstore.values.BooleanValue delete_relation = 3;</code>
        */
       public io.dstore.values.BooleanValueOrBuilder getDeleteRelationOrBuilder() {
         if (deleteRelationBuilder_ != null) {
@@ -1064,7 +1064,7 @@ public final class FoModifyCharacsForForumsAd {
         }
       }
       /**
-       * <code>optional .dstore.values.BooleanValue delete_relation = 3;</code>
+       * <code>.dstore.values.BooleanValue delete_relation = 3;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.values.BooleanValue, io.dstore.values.BooleanValue.Builder, io.dstore.values.BooleanValueOrBuilder> 
@@ -1082,13 +1082,13 @@ public final class FoModifyCharacsForForumsAd {
 
       private boolean deleteRelationNull_ ;
       /**
-       * <code>optional bool delete_relation_null = 1003;</code>
+       * <code>bool delete_relation_null = 1003;</code>
        */
       public boolean getDeleteRelationNull() {
         return deleteRelationNull_;
       }
       /**
-       * <code>optional bool delete_relation_null = 1003;</code>
+       * <code>bool delete_relation_null = 1003;</code>
        */
       public Builder setDeleteRelationNull(boolean value) {
         
@@ -1097,7 +1097,7 @@ public final class FoModifyCharacsForForumsAd {
         return this;
       }
       /**
-       * <code>optional bool delete_relation_null = 1003;</code>
+       * <code>bool delete_relation_null = 1003;</code>
        */
       public Builder clearDeleteRelationNull() {
         
@@ -1356,7 +1356,7 @@ public final class FoModifyCharacsForForumsAd {
         com.google.protobuf.MessageOrBuilder {
 
       /**
-       * <code>optional int32 row_id = 10000;</code>
+       * <code>int32 row_id = 10000;</code>
        */
       int getRowId();
     }
@@ -1431,7 +1431,7 @@ public final class FoModifyCharacsForForumsAd {
       public static final int ROW_ID_FIELD_NUMBER = 10000;
       private int rowId_;
       /**
-       * <code>optional int32 row_id = 10000;</code>
+       * <code>int32 row_id = 10000;</code>
        */
       public int getRowId() {
         return rowId_;
@@ -1490,7 +1490,7 @@ public final class FoModifyCharacsForForumsAd {
           return memoizedHashCode;
         }
         int hash = 41;
-        hash = (19 * hash) + getDescriptorForType().hashCode();
+        hash = (19 * hash) + getDescriptor().hashCode();
         hash = (37 * hash) + ROW_ID_FIELD_NUMBER;
         hash = (53 * hash) + getRowId();
         hash = (29 * hash) + unknownFields.hashCode();
@@ -1708,13 +1708,13 @@ public final class FoModifyCharacsForForumsAd {
 
         private int rowId_ ;
         /**
-         * <code>optional int32 row_id = 10000;</code>
+         * <code>int32 row_id = 10000;</code>
          */
         public int getRowId() {
           return rowId_;
         }
         /**
-         * <code>optional int32 row_id = 10000;</code>
+         * <code>int32 row_id = 10000;</code>
          */
         public Builder setRowId(int value) {
           
@@ -1723,7 +1723,7 @@ public final class FoModifyCharacsForForumsAd {
           return this;
         }
         /**
-         * <code>optional int32 row_id = 10000;</code>
+         * <code>int32 row_id = 10000;</code>
          */
         public Builder clearRowId() {
           
@@ -1976,7 +1976,7 @@ public final class FoModifyCharacsForForumsAd {
         return memoizedHashCode;
       }
       int hash = 41;
-      hash = (19 * hash) + getDescriptorForType().hashCode();
+      hash = (19 * hash) + getDescriptor().hashCode();
       if (getMetaInformationCount() > 0) {
         hash = (37 * hash) + META_INFORMATION_FIELD_NUMBER;
         hash = (53 * hash) + getMetaInformationList().hashCode();

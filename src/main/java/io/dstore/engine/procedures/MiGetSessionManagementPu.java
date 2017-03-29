@@ -19,92 +19,92 @@ public final class MiGetSessionManagementPu {
       com.google.protobuf.MessageOrBuilder {
 
     /**
-     * <code>optional .dstore.values.StringValue session_id = 1;</code>
+     * <code>.dstore.values.StringValue session_id = 1;</code>
      */
     boolean hasSessionId();
     /**
-     * <code>optional .dstore.values.StringValue session_id = 1;</code>
+     * <code>.dstore.values.StringValue session_id = 1;</code>
      */
     io.dstore.values.StringValue getSessionId();
     /**
-     * <code>optional .dstore.values.StringValue session_id = 1;</code>
+     * <code>.dstore.values.StringValue session_id = 1;</code>
      */
     io.dstore.values.StringValueOrBuilder getSessionIdOrBuilder();
 
     /**
-     * <code>optional bool session_id_null = 1001;</code>
+     * <code>bool session_id_null = 1001;</code>
      */
     boolean getSessionIdNull();
 
     /**
-     * <code>optional .dstore.values.StringValue key_variable = 2;</code>
+     * <code>.dstore.values.StringValue key_variable = 2;</code>
      */
     boolean hasKeyVariable();
     /**
-     * <code>optional .dstore.values.StringValue key_variable = 2;</code>
+     * <code>.dstore.values.StringValue key_variable = 2;</code>
      */
     io.dstore.values.StringValue getKeyVariable();
     /**
-     * <code>optional .dstore.values.StringValue key_variable = 2;</code>
+     * <code>.dstore.values.StringValue key_variable = 2;</code>
      */
     io.dstore.values.StringValueOrBuilder getKeyVariableOrBuilder();
 
     /**
-     * <code>optional bool key_variable_null = 1002;</code>
+     * <code>bool key_variable_null = 1002;</code>
      */
     boolean getKeyVariableNull();
 
     /**
-     * <code>optional .dstore.values.StringValue value = 3;</code>
+     * <code>.dstore.values.StringValue value = 3;</code>
      */
     boolean hasValue();
     /**
-     * <code>optional .dstore.values.StringValue value = 3;</code>
+     * <code>.dstore.values.StringValue value = 3;</code>
      */
     io.dstore.values.StringValue getValue();
     /**
-     * <code>optional .dstore.values.StringValue value = 3;</code>
+     * <code>.dstore.values.StringValue value = 3;</code>
      */
     io.dstore.values.StringValueOrBuilder getValueOrBuilder();
 
     /**
-     * <code>optional bool value_null = 1003;</code>
+     * <code>bool value_null = 1003;</code>
      */
     boolean getValueNull();
 
     /**
-     * <code>optional .dstore.values.BooleanValue update_date_and_time = 4;</code>
+     * <code>.dstore.values.BooleanValue update_date_and_time = 4;</code>
      */
     boolean hasUpdateDateAndTime();
     /**
-     * <code>optional .dstore.values.BooleanValue update_date_and_time = 4;</code>
+     * <code>.dstore.values.BooleanValue update_date_and_time = 4;</code>
      */
     io.dstore.values.BooleanValue getUpdateDateAndTime();
     /**
-     * <code>optional .dstore.values.BooleanValue update_date_and_time = 4;</code>
+     * <code>.dstore.values.BooleanValue update_date_and_time = 4;</code>
      */
     io.dstore.values.BooleanValueOrBuilder getUpdateDateAndTimeOrBuilder();
 
     /**
-     * <code>optional bool update_date_and_time_null = 1004;</code>
+     * <code>bool update_date_and_time_null = 1004;</code>
      */
     boolean getUpdateDateAndTimeNull();
 
     /**
-     * <code>optional .dstore.values.BooleanValue select_result = 5;</code>
+     * <code>.dstore.values.BooleanValue select_result = 5;</code>
      */
     boolean hasSelectResult();
     /**
-     * <code>optional .dstore.values.BooleanValue select_result = 5;</code>
+     * <code>.dstore.values.BooleanValue select_result = 5;</code>
      */
     io.dstore.values.BooleanValue getSelectResult();
     /**
-     * <code>optional .dstore.values.BooleanValue select_result = 5;</code>
+     * <code>.dstore.values.BooleanValue select_result = 5;</code>
      */
     io.dstore.values.BooleanValueOrBuilder getSelectResultOrBuilder();
 
     /**
-     * <code>optional bool select_result_null = 1005;</code>
+     * <code>bool select_result_null = 1005;</code>
      */
     boolean getSelectResultNull();
   }
@@ -268,19 +268,19 @@ public final class MiGetSessionManagementPu {
     public static final int SESSION_ID_FIELD_NUMBER = 1;
     private io.dstore.values.StringValue sessionId_;
     /**
-     * <code>optional .dstore.values.StringValue session_id = 1;</code>
+     * <code>.dstore.values.StringValue session_id = 1;</code>
      */
     public boolean hasSessionId() {
       return sessionId_ != null;
     }
     /**
-     * <code>optional .dstore.values.StringValue session_id = 1;</code>
+     * <code>.dstore.values.StringValue session_id = 1;</code>
      */
     public io.dstore.values.StringValue getSessionId() {
       return sessionId_ == null ? io.dstore.values.StringValue.getDefaultInstance() : sessionId_;
     }
     /**
-     * <code>optional .dstore.values.StringValue session_id = 1;</code>
+     * <code>.dstore.values.StringValue session_id = 1;</code>
      */
     public io.dstore.values.StringValueOrBuilder getSessionIdOrBuilder() {
       return getSessionId();
@@ -289,7 +289,7 @@ public final class MiGetSessionManagementPu {
     public static final int SESSION_ID_NULL_FIELD_NUMBER = 1001;
     private boolean sessionIdNull_;
     /**
-     * <code>optional bool session_id_null = 1001;</code>
+     * <code>bool session_id_null = 1001;</code>
      */
     public boolean getSessionIdNull() {
       return sessionIdNull_;
@@ -298,19 +298,19 @@ public final class MiGetSessionManagementPu {
     public static final int KEY_VARIABLE_FIELD_NUMBER = 2;
     private io.dstore.values.StringValue keyVariable_;
     /**
-     * <code>optional .dstore.values.StringValue key_variable = 2;</code>
+     * <code>.dstore.values.StringValue key_variable = 2;</code>
      */
     public boolean hasKeyVariable() {
       return keyVariable_ != null;
     }
     /**
-     * <code>optional .dstore.values.StringValue key_variable = 2;</code>
+     * <code>.dstore.values.StringValue key_variable = 2;</code>
      */
     public io.dstore.values.StringValue getKeyVariable() {
       return keyVariable_ == null ? io.dstore.values.StringValue.getDefaultInstance() : keyVariable_;
     }
     /**
-     * <code>optional .dstore.values.StringValue key_variable = 2;</code>
+     * <code>.dstore.values.StringValue key_variable = 2;</code>
      */
     public io.dstore.values.StringValueOrBuilder getKeyVariableOrBuilder() {
       return getKeyVariable();
@@ -319,7 +319,7 @@ public final class MiGetSessionManagementPu {
     public static final int KEY_VARIABLE_NULL_FIELD_NUMBER = 1002;
     private boolean keyVariableNull_;
     /**
-     * <code>optional bool key_variable_null = 1002;</code>
+     * <code>bool key_variable_null = 1002;</code>
      */
     public boolean getKeyVariableNull() {
       return keyVariableNull_;
@@ -328,19 +328,19 @@ public final class MiGetSessionManagementPu {
     public static final int VALUE_FIELD_NUMBER = 3;
     private io.dstore.values.StringValue value_;
     /**
-     * <code>optional .dstore.values.StringValue value = 3;</code>
+     * <code>.dstore.values.StringValue value = 3;</code>
      */
     public boolean hasValue() {
       return value_ != null;
     }
     /**
-     * <code>optional .dstore.values.StringValue value = 3;</code>
+     * <code>.dstore.values.StringValue value = 3;</code>
      */
     public io.dstore.values.StringValue getValue() {
       return value_ == null ? io.dstore.values.StringValue.getDefaultInstance() : value_;
     }
     /**
-     * <code>optional .dstore.values.StringValue value = 3;</code>
+     * <code>.dstore.values.StringValue value = 3;</code>
      */
     public io.dstore.values.StringValueOrBuilder getValueOrBuilder() {
       return getValue();
@@ -349,7 +349,7 @@ public final class MiGetSessionManagementPu {
     public static final int VALUE_NULL_FIELD_NUMBER = 1003;
     private boolean valueNull_;
     /**
-     * <code>optional bool value_null = 1003;</code>
+     * <code>bool value_null = 1003;</code>
      */
     public boolean getValueNull() {
       return valueNull_;
@@ -358,19 +358,19 @@ public final class MiGetSessionManagementPu {
     public static final int UPDATE_DATE_AND_TIME_FIELD_NUMBER = 4;
     private io.dstore.values.BooleanValue updateDateAndTime_;
     /**
-     * <code>optional .dstore.values.BooleanValue update_date_and_time = 4;</code>
+     * <code>.dstore.values.BooleanValue update_date_and_time = 4;</code>
      */
     public boolean hasUpdateDateAndTime() {
       return updateDateAndTime_ != null;
     }
     /**
-     * <code>optional .dstore.values.BooleanValue update_date_and_time = 4;</code>
+     * <code>.dstore.values.BooleanValue update_date_and_time = 4;</code>
      */
     public io.dstore.values.BooleanValue getUpdateDateAndTime() {
       return updateDateAndTime_ == null ? io.dstore.values.BooleanValue.getDefaultInstance() : updateDateAndTime_;
     }
     /**
-     * <code>optional .dstore.values.BooleanValue update_date_and_time = 4;</code>
+     * <code>.dstore.values.BooleanValue update_date_and_time = 4;</code>
      */
     public io.dstore.values.BooleanValueOrBuilder getUpdateDateAndTimeOrBuilder() {
       return getUpdateDateAndTime();
@@ -379,7 +379,7 @@ public final class MiGetSessionManagementPu {
     public static final int UPDATE_DATE_AND_TIME_NULL_FIELD_NUMBER = 1004;
     private boolean updateDateAndTimeNull_;
     /**
-     * <code>optional bool update_date_and_time_null = 1004;</code>
+     * <code>bool update_date_and_time_null = 1004;</code>
      */
     public boolean getUpdateDateAndTimeNull() {
       return updateDateAndTimeNull_;
@@ -388,19 +388,19 @@ public final class MiGetSessionManagementPu {
     public static final int SELECT_RESULT_FIELD_NUMBER = 5;
     private io.dstore.values.BooleanValue selectResult_;
     /**
-     * <code>optional .dstore.values.BooleanValue select_result = 5;</code>
+     * <code>.dstore.values.BooleanValue select_result = 5;</code>
      */
     public boolean hasSelectResult() {
       return selectResult_ != null;
     }
     /**
-     * <code>optional .dstore.values.BooleanValue select_result = 5;</code>
+     * <code>.dstore.values.BooleanValue select_result = 5;</code>
      */
     public io.dstore.values.BooleanValue getSelectResult() {
       return selectResult_ == null ? io.dstore.values.BooleanValue.getDefaultInstance() : selectResult_;
     }
     /**
-     * <code>optional .dstore.values.BooleanValue select_result = 5;</code>
+     * <code>.dstore.values.BooleanValue select_result = 5;</code>
      */
     public io.dstore.values.BooleanValueOrBuilder getSelectResultOrBuilder() {
       return getSelectResult();
@@ -409,7 +409,7 @@ public final class MiGetSessionManagementPu {
     public static final int SELECT_RESULT_NULL_FIELD_NUMBER = 1005;
     private boolean selectResultNull_;
     /**
-     * <code>optional bool select_result_null = 1005;</code>
+     * <code>bool select_result_null = 1005;</code>
      */
     public boolean getSelectResultNull() {
       return selectResultNull_;
@@ -564,7 +564,7 @@ public final class MiGetSessionManagementPu {
         return memoizedHashCode;
       }
       int hash = 41;
-      hash = (19 * hash) + getDescriptorForType().hashCode();
+      hash = (19 * hash) + getDescriptor().hashCode();
       if (hasSessionId()) {
         hash = (37 * hash) + SESSION_ID_FIELD_NUMBER;
         hash = (53 * hash) + getSessionId().hashCode();
@@ -911,13 +911,13 @@ public final class MiGetSessionManagementPu {
       private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.values.StringValue, io.dstore.values.StringValue.Builder, io.dstore.values.StringValueOrBuilder> sessionIdBuilder_;
       /**
-       * <code>optional .dstore.values.StringValue session_id = 1;</code>
+       * <code>.dstore.values.StringValue session_id = 1;</code>
        */
       public boolean hasSessionId() {
         return sessionIdBuilder_ != null || sessionId_ != null;
       }
       /**
-       * <code>optional .dstore.values.StringValue session_id = 1;</code>
+       * <code>.dstore.values.StringValue session_id = 1;</code>
        */
       public io.dstore.values.StringValue getSessionId() {
         if (sessionIdBuilder_ == null) {
@@ -927,7 +927,7 @@ public final class MiGetSessionManagementPu {
         }
       }
       /**
-       * <code>optional .dstore.values.StringValue session_id = 1;</code>
+       * <code>.dstore.values.StringValue session_id = 1;</code>
        */
       public Builder setSessionId(io.dstore.values.StringValue value) {
         if (sessionIdBuilder_ == null) {
@@ -943,7 +943,7 @@ public final class MiGetSessionManagementPu {
         return this;
       }
       /**
-       * <code>optional .dstore.values.StringValue session_id = 1;</code>
+       * <code>.dstore.values.StringValue session_id = 1;</code>
        */
       public Builder setSessionId(
           io.dstore.values.StringValue.Builder builderForValue) {
@@ -957,7 +957,7 @@ public final class MiGetSessionManagementPu {
         return this;
       }
       /**
-       * <code>optional .dstore.values.StringValue session_id = 1;</code>
+       * <code>.dstore.values.StringValue session_id = 1;</code>
        */
       public Builder mergeSessionId(io.dstore.values.StringValue value) {
         if (sessionIdBuilder_ == null) {
@@ -975,7 +975,7 @@ public final class MiGetSessionManagementPu {
         return this;
       }
       /**
-       * <code>optional .dstore.values.StringValue session_id = 1;</code>
+       * <code>.dstore.values.StringValue session_id = 1;</code>
        */
       public Builder clearSessionId() {
         if (sessionIdBuilder_ == null) {
@@ -989,7 +989,7 @@ public final class MiGetSessionManagementPu {
         return this;
       }
       /**
-       * <code>optional .dstore.values.StringValue session_id = 1;</code>
+       * <code>.dstore.values.StringValue session_id = 1;</code>
        */
       public io.dstore.values.StringValue.Builder getSessionIdBuilder() {
         
@@ -997,7 +997,7 @@ public final class MiGetSessionManagementPu {
         return getSessionIdFieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .dstore.values.StringValue session_id = 1;</code>
+       * <code>.dstore.values.StringValue session_id = 1;</code>
        */
       public io.dstore.values.StringValueOrBuilder getSessionIdOrBuilder() {
         if (sessionIdBuilder_ != null) {
@@ -1008,7 +1008,7 @@ public final class MiGetSessionManagementPu {
         }
       }
       /**
-       * <code>optional .dstore.values.StringValue session_id = 1;</code>
+       * <code>.dstore.values.StringValue session_id = 1;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.values.StringValue, io.dstore.values.StringValue.Builder, io.dstore.values.StringValueOrBuilder> 
@@ -1026,13 +1026,13 @@ public final class MiGetSessionManagementPu {
 
       private boolean sessionIdNull_ ;
       /**
-       * <code>optional bool session_id_null = 1001;</code>
+       * <code>bool session_id_null = 1001;</code>
        */
       public boolean getSessionIdNull() {
         return sessionIdNull_;
       }
       /**
-       * <code>optional bool session_id_null = 1001;</code>
+       * <code>bool session_id_null = 1001;</code>
        */
       public Builder setSessionIdNull(boolean value) {
         
@@ -1041,7 +1041,7 @@ public final class MiGetSessionManagementPu {
         return this;
       }
       /**
-       * <code>optional bool session_id_null = 1001;</code>
+       * <code>bool session_id_null = 1001;</code>
        */
       public Builder clearSessionIdNull() {
         
@@ -1054,13 +1054,13 @@ public final class MiGetSessionManagementPu {
       private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.values.StringValue, io.dstore.values.StringValue.Builder, io.dstore.values.StringValueOrBuilder> keyVariableBuilder_;
       /**
-       * <code>optional .dstore.values.StringValue key_variable = 2;</code>
+       * <code>.dstore.values.StringValue key_variable = 2;</code>
        */
       public boolean hasKeyVariable() {
         return keyVariableBuilder_ != null || keyVariable_ != null;
       }
       /**
-       * <code>optional .dstore.values.StringValue key_variable = 2;</code>
+       * <code>.dstore.values.StringValue key_variable = 2;</code>
        */
       public io.dstore.values.StringValue getKeyVariable() {
         if (keyVariableBuilder_ == null) {
@@ -1070,7 +1070,7 @@ public final class MiGetSessionManagementPu {
         }
       }
       /**
-       * <code>optional .dstore.values.StringValue key_variable = 2;</code>
+       * <code>.dstore.values.StringValue key_variable = 2;</code>
        */
       public Builder setKeyVariable(io.dstore.values.StringValue value) {
         if (keyVariableBuilder_ == null) {
@@ -1086,7 +1086,7 @@ public final class MiGetSessionManagementPu {
         return this;
       }
       /**
-       * <code>optional .dstore.values.StringValue key_variable = 2;</code>
+       * <code>.dstore.values.StringValue key_variable = 2;</code>
        */
       public Builder setKeyVariable(
           io.dstore.values.StringValue.Builder builderForValue) {
@@ -1100,7 +1100,7 @@ public final class MiGetSessionManagementPu {
         return this;
       }
       /**
-       * <code>optional .dstore.values.StringValue key_variable = 2;</code>
+       * <code>.dstore.values.StringValue key_variable = 2;</code>
        */
       public Builder mergeKeyVariable(io.dstore.values.StringValue value) {
         if (keyVariableBuilder_ == null) {
@@ -1118,7 +1118,7 @@ public final class MiGetSessionManagementPu {
         return this;
       }
       /**
-       * <code>optional .dstore.values.StringValue key_variable = 2;</code>
+       * <code>.dstore.values.StringValue key_variable = 2;</code>
        */
       public Builder clearKeyVariable() {
         if (keyVariableBuilder_ == null) {
@@ -1132,7 +1132,7 @@ public final class MiGetSessionManagementPu {
         return this;
       }
       /**
-       * <code>optional .dstore.values.StringValue key_variable = 2;</code>
+       * <code>.dstore.values.StringValue key_variable = 2;</code>
        */
       public io.dstore.values.StringValue.Builder getKeyVariableBuilder() {
         
@@ -1140,7 +1140,7 @@ public final class MiGetSessionManagementPu {
         return getKeyVariableFieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .dstore.values.StringValue key_variable = 2;</code>
+       * <code>.dstore.values.StringValue key_variable = 2;</code>
        */
       public io.dstore.values.StringValueOrBuilder getKeyVariableOrBuilder() {
         if (keyVariableBuilder_ != null) {
@@ -1151,7 +1151,7 @@ public final class MiGetSessionManagementPu {
         }
       }
       /**
-       * <code>optional .dstore.values.StringValue key_variable = 2;</code>
+       * <code>.dstore.values.StringValue key_variable = 2;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.values.StringValue, io.dstore.values.StringValue.Builder, io.dstore.values.StringValueOrBuilder> 
@@ -1169,13 +1169,13 @@ public final class MiGetSessionManagementPu {
 
       private boolean keyVariableNull_ ;
       /**
-       * <code>optional bool key_variable_null = 1002;</code>
+       * <code>bool key_variable_null = 1002;</code>
        */
       public boolean getKeyVariableNull() {
         return keyVariableNull_;
       }
       /**
-       * <code>optional bool key_variable_null = 1002;</code>
+       * <code>bool key_variable_null = 1002;</code>
        */
       public Builder setKeyVariableNull(boolean value) {
         
@@ -1184,7 +1184,7 @@ public final class MiGetSessionManagementPu {
         return this;
       }
       /**
-       * <code>optional bool key_variable_null = 1002;</code>
+       * <code>bool key_variable_null = 1002;</code>
        */
       public Builder clearKeyVariableNull() {
         
@@ -1197,13 +1197,13 @@ public final class MiGetSessionManagementPu {
       private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.values.StringValue, io.dstore.values.StringValue.Builder, io.dstore.values.StringValueOrBuilder> valueBuilder_;
       /**
-       * <code>optional .dstore.values.StringValue value = 3;</code>
+       * <code>.dstore.values.StringValue value = 3;</code>
        */
       public boolean hasValue() {
         return valueBuilder_ != null || value_ != null;
       }
       /**
-       * <code>optional .dstore.values.StringValue value = 3;</code>
+       * <code>.dstore.values.StringValue value = 3;</code>
        */
       public io.dstore.values.StringValue getValue() {
         if (valueBuilder_ == null) {
@@ -1213,7 +1213,7 @@ public final class MiGetSessionManagementPu {
         }
       }
       /**
-       * <code>optional .dstore.values.StringValue value = 3;</code>
+       * <code>.dstore.values.StringValue value = 3;</code>
        */
       public Builder setValue(io.dstore.values.StringValue value) {
         if (valueBuilder_ == null) {
@@ -1229,7 +1229,7 @@ public final class MiGetSessionManagementPu {
         return this;
       }
       /**
-       * <code>optional .dstore.values.StringValue value = 3;</code>
+       * <code>.dstore.values.StringValue value = 3;</code>
        */
       public Builder setValue(
           io.dstore.values.StringValue.Builder builderForValue) {
@@ -1243,7 +1243,7 @@ public final class MiGetSessionManagementPu {
         return this;
       }
       /**
-       * <code>optional .dstore.values.StringValue value = 3;</code>
+       * <code>.dstore.values.StringValue value = 3;</code>
        */
       public Builder mergeValue(io.dstore.values.StringValue value) {
         if (valueBuilder_ == null) {
@@ -1261,7 +1261,7 @@ public final class MiGetSessionManagementPu {
         return this;
       }
       /**
-       * <code>optional .dstore.values.StringValue value = 3;</code>
+       * <code>.dstore.values.StringValue value = 3;</code>
        */
       public Builder clearValue() {
         if (valueBuilder_ == null) {
@@ -1275,7 +1275,7 @@ public final class MiGetSessionManagementPu {
         return this;
       }
       /**
-       * <code>optional .dstore.values.StringValue value = 3;</code>
+       * <code>.dstore.values.StringValue value = 3;</code>
        */
       public io.dstore.values.StringValue.Builder getValueBuilder() {
         
@@ -1283,7 +1283,7 @@ public final class MiGetSessionManagementPu {
         return getValueFieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .dstore.values.StringValue value = 3;</code>
+       * <code>.dstore.values.StringValue value = 3;</code>
        */
       public io.dstore.values.StringValueOrBuilder getValueOrBuilder() {
         if (valueBuilder_ != null) {
@@ -1294,7 +1294,7 @@ public final class MiGetSessionManagementPu {
         }
       }
       /**
-       * <code>optional .dstore.values.StringValue value = 3;</code>
+       * <code>.dstore.values.StringValue value = 3;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.values.StringValue, io.dstore.values.StringValue.Builder, io.dstore.values.StringValueOrBuilder> 
@@ -1312,13 +1312,13 @@ public final class MiGetSessionManagementPu {
 
       private boolean valueNull_ ;
       /**
-       * <code>optional bool value_null = 1003;</code>
+       * <code>bool value_null = 1003;</code>
        */
       public boolean getValueNull() {
         return valueNull_;
       }
       /**
-       * <code>optional bool value_null = 1003;</code>
+       * <code>bool value_null = 1003;</code>
        */
       public Builder setValueNull(boolean value) {
         
@@ -1327,7 +1327,7 @@ public final class MiGetSessionManagementPu {
         return this;
       }
       /**
-       * <code>optional bool value_null = 1003;</code>
+       * <code>bool value_null = 1003;</code>
        */
       public Builder clearValueNull() {
         
@@ -1340,13 +1340,13 @@ public final class MiGetSessionManagementPu {
       private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.values.BooleanValue, io.dstore.values.BooleanValue.Builder, io.dstore.values.BooleanValueOrBuilder> updateDateAndTimeBuilder_;
       /**
-       * <code>optional .dstore.values.BooleanValue update_date_and_time = 4;</code>
+       * <code>.dstore.values.BooleanValue update_date_and_time = 4;</code>
        */
       public boolean hasUpdateDateAndTime() {
         return updateDateAndTimeBuilder_ != null || updateDateAndTime_ != null;
       }
       /**
-       * <code>optional .dstore.values.BooleanValue update_date_and_time = 4;</code>
+       * <code>.dstore.values.BooleanValue update_date_and_time = 4;</code>
        */
       public io.dstore.values.BooleanValue getUpdateDateAndTime() {
         if (updateDateAndTimeBuilder_ == null) {
@@ -1356,7 +1356,7 @@ public final class MiGetSessionManagementPu {
         }
       }
       /**
-       * <code>optional .dstore.values.BooleanValue update_date_and_time = 4;</code>
+       * <code>.dstore.values.BooleanValue update_date_and_time = 4;</code>
        */
       public Builder setUpdateDateAndTime(io.dstore.values.BooleanValue value) {
         if (updateDateAndTimeBuilder_ == null) {
@@ -1372,7 +1372,7 @@ public final class MiGetSessionManagementPu {
         return this;
       }
       /**
-       * <code>optional .dstore.values.BooleanValue update_date_and_time = 4;</code>
+       * <code>.dstore.values.BooleanValue update_date_and_time = 4;</code>
        */
       public Builder setUpdateDateAndTime(
           io.dstore.values.BooleanValue.Builder builderForValue) {
@@ -1386,7 +1386,7 @@ public final class MiGetSessionManagementPu {
         return this;
       }
       /**
-       * <code>optional .dstore.values.BooleanValue update_date_and_time = 4;</code>
+       * <code>.dstore.values.BooleanValue update_date_and_time = 4;</code>
        */
       public Builder mergeUpdateDateAndTime(io.dstore.values.BooleanValue value) {
         if (updateDateAndTimeBuilder_ == null) {
@@ -1404,7 +1404,7 @@ public final class MiGetSessionManagementPu {
         return this;
       }
       /**
-       * <code>optional .dstore.values.BooleanValue update_date_and_time = 4;</code>
+       * <code>.dstore.values.BooleanValue update_date_and_time = 4;</code>
        */
       public Builder clearUpdateDateAndTime() {
         if (updateDateAndTimeBuilder_ == null) {
@@ -1418,7 +1418,7 @@ public final class MiGetSessionManagementPu {
         return this;
       }
       /**
-       * <code>optional .dstore.values.BooleanValue update_date_and_time = 4;</code>
+       * <code>.dstore.values.BooleanValue update_date_and_time = 4;</code>
        */
       public io.dstore.values.BooleanValue.Builder getUpdateDateAndTimeBuilder() {
         
@@ -1426,7 +1426,7 @@ public final class MiGetSessionManagementPu {
         return getUpdateDateAndTimeFieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .dstore.values.BooleanValue update_date_and_time = 4;</code>
+       * <code>.dstore.values.BooleanValue update_date_and_time = 4;</code>
        */
       public io.dstore.values.BooleanValueOrBuilder getUpdateDateAndTimeOrBuilder() {
         if (updateDateAndTimeBuilder_ != null) {
@@ -1437,7 +1437,7 @@ public final class MiGetSessionManagementPu {
         }
       }
       /**
-       * <code>optional .dstore.values.BooleanValue update_date_and_time = 4;</code>
+       * <code>.dstore.values.BooleanValue update_date_and_time = 4;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.values.BooleanValue, io.dstore.values.BooleanValue.Builder, io.dstore.values.BooleanValueOrBuilder> 
@@ -1455,13 +1455,13 @@ public final class MiGetSessionManagementPu {
 
       private boolean updateDateAndTimeNull_ ;
       /**
-       * <code>optional bool update_date_and_time_null = 1004;</code>
+       * <code>bool update_date_and_time_null = 1004;</code>
        */
       public boolean getUpdateDateAndTimeNull() {
         return updateDateAndTimeNull_;
       }
       /**
-       * <code>optional bool update_date_and_time_null = 1004;</code>
+       * <code>bool update_date_and_time_null = 1004;</code>
        */
       public Builder setUpdateDateAndTimeNull(boolean value) {
         
@@ -1470,7 +1470,7 @@ public final class MiGetSessionManagementPu {
         return this;
       }
       /**
-       * <code>optional bool update_date_and_time_null = 1004;</code>
+       * <code>bool update_date_and_time_null = 1004;</code>
        */
       public Builder clearUpdateDateAndTimeNull() {
         
@@ -1483,13 +1483,13 @@ public final class MiGetSessionManagementPu {
       private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.values.BooleanValue, io.dstore.values.BooleanValue.Builder, io.dstore.values.BooleanValueOrBuilder> selectResultBuilder_;
       /**
-       * <code>optional .dstore.values.BooleanValue select_result = 5;</code>
+       * <code>.dstore.values.BooleanValue select_result = 5;</code>
        */
       public boolean hasSelectResult() {
         return selectResultBuilder_ != null || selectResult_ != null;
       }
       /**
-       * <code>optional .dstore.values.BooleanValue select_result = 5;</code>
+       * <code>.dstore.values.BooleanValue select_result = 5;</code>
        */
       public io.dstore.values.BooleanValue getSelectResult() {
         if (selectResultBuilder_ == null) {
@@ -1499,7 +1499,7 @@ public final class MiGetSessionManagementPu {
         }
       }
       /**
-       * <code>optional .dstore.values.BooleanValue select_result = 5;</code>
+       * <code>.dstore.values.BooleanValue select_result = 5;</code>
        */
       public Builder setSelectResult(io.dstore.values.BooleanValue value) {
         if (selectResultBuilder_ == null) {
@@ -1515,7 +1515,7 @@ public final class MiGetSessionManagementPu {
         return this;
       }
       /**
-       * <code>optional .dstore.values.BooleanValue select_result = 5;</code>
+       * <code>.dstore.values.BooleanValue select_result = 5;</code>
        */
       public Builder setSelectResult(
           io.dstore.values.BooleanValue.Builder builderForValue) {
@@ -1529,7 +1529,7 @@ public final class MiGetSessionManagementPu {
         return this;
       }
       /**
-       * <code>optional .dstore.values.BooleanValue select_result = 5;</code>
+       * <code>.dstore.values.BooleanValue select_result = 5;</code>
        */
       public Builder mergeSelectResult(io.dstore.values.BooleanValue value) {
         if (selectResultBuilder_ == null) {
@@ -1547,7 +1547,7 @@ public final class MiGetSessionManagementPu {
         return this;
       }
       /**
-       * <code>optional .dstore.values.BooleanValue select_result = 5;</code>
+       * <code>.dstore.values.BooleanValue select_result = 5;</code>
        */
       public Builder clearSelectResult() {
         if (selectResultBuilder_ == null) {
@@ -1561,7 +1561,7 @@ public final class MiGetSessionManagementPu {
         return this;
       }
       /**
-       * <code>optional .dstore.values.BooleanValue select_result = 5;</code>
+       * <code>.dstore.values.BooleanValue select_result = 5;</code>
        */
       public io.dstore.values.BooleanValue.Builder getSelectResultBuilder() {
         
@@ -1569,7 +1569,7 @@ public final class MiGetSessionManagementPu {
         return getSelectResultFieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .dstore.values.BooleanValue select_result = 5;</code>
+       * <code>.dstore.values.BooleanValue select_result = 5;</code>
        */
       public io.dstore.values.BooleanValueOrBuilder getSelectResultOrBuilder() {
         if (selectResultBuilder_ != null) {
@@ -1580,7 +1580,7 @@ public final class MiGetSessionManagementPu {
         }
       }
       /**
-       * <code>optional .dstore.values.BooleanValue select_result = 5;</code>
+       * <code>.dstore.values.BooleanValue select_result = 5;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.values.BooleanValue, io.dstore.values.BooleanValue.Builder, io.dstore.values.BooleanValueOrBuilder> 
@@ -1598,13 +1598,13 @@ public final class MiGetSessionManagementPu {
 
       private boolean selectResultNull_ ;
       /**
-       * <code>optional bool select_result_null = 1005;</code>
+       * <code>bool select_result_null = 1005;</code>
        */
       public boolean getSelectResultNull() {
         return selectResultNull_;
       }
       /**
-       * <code>optional bool select_result_null = 1005;</code>
+       * <code>bool select_result_null = 1005;</code>
        */
       public Builder setSelectResultNull(boolean value) {
         
@@ -1613,7 +1613,7 @@ public final class MiGetSessionManagementPu {
         return this;
       }
       /**
-       * <code>optional bool select_result_null = 1005;</code>
+       * <code>bool select_result_null = 1005;</code>
        */
       public Builder clearSelectResultNull() {
         
@@ -1747,15 +1747,15 @@ public final class MiGetSessionManagementPu {
         int index);
 
     /**
-     * <code>optional .dstore.values.StringValue value = 101;</code>
+     * <code>.dstore.values.StringValue value = 101;</code>
      */
     boolean hasValue();
     /**
-     * <code>optional .dstore.values.StringValue value = 101;</code>
+     * <code>.dstore.values.StringValue value = 101;</code>
      */
     io.dstore.values.StringValue getValue();
     /**
-     * <code>optional .dstore.values.StringValue value = 101;</code>
+     * <code>.dstore.values.StringValue value = 101;</code>
      */
     io.dstore.values.StringValueOrBuilder getValueOrBuilder();
   }
@@ -1878,7 +1878,7 @@ public final class MiGetSessionManagementPu {
         com.google.protobuf.MessageOrBuilder {
 
       /**
-       * <code>optional int32 row_id = 10000;</code>
+       * <code>int32 row_id = 10000;</code>
        */
       int getRowId();
 
@@ -1887,7 +1887,7 @@ public final class MiGetSessionManagementPu {
        * Zur Session "&#64;SessionID" hinterlegter Wert zum Schlüssel "&#64;KeyVariable"
        * </pre>
        *
-       * <code>optional .dstore.values.StringValue value = 10001;</code>
+       * <code>.dstore.values.StringValue value = 10001;</code>
        */
       boolean hasValue();
       /**
@@ -1895,7 +1895,7 @@ public final class MiGetSessionManagementPu {
        * Zur Session "&#64;SessionID" hinterlegter Wert zum Schlüssel "&#64;KeyVariable"
        * </pre>
        *
-       * <code>optional .dstore.values.StringValue value = 10001;</code>
+       * <code>.dstore.values.StringValue value = 10001;</code>
        */
       io.dstore.values.StringValue getValue();
       /**
@@ -1903,7 +1903,7 @@ public final class MiGetSessionManagementPu {
        * Zur Session "&#64;SessionID" hinterlegter Wert zum Schlüssel "&#64;KeyVariable"
        * </pre>
        *
-       * <code>optional .dstore.values.StringValue value = 10001;</code>
+       * <code>.dstore.values.StringValue value = 10001;</code>
        */
       io.dstore.values.StringValueOrBuilder getValueOrBuilder();
 
@@ -1912,7 +1912,7 @@ public final class MiGetSessionManagementPu {
        * Zeitpunkt, wann der Eintrag "Value" zum Schlüssel "KeyVariable" zuletzt aktualisiert wurde
        * </pre>
        *
-       * <code>optional .dstore.values.TimestampValue date_and_time = 20002;</code>
+       * <code>.dstore.values.TimestampValue date_and_time = 20002;</code>
        */
       boolean hasDateAndTime();
       /**
@@ -1920,7 +1920,7 @@ public final class MiGetSessionManagementPu {
        * Zeitpunkt, wann der Eintrag "Value" zum Schlüssel "KeyVariable" zuletzt aktualisiert wurde
        * </pre>
        *
-       * <code>optional .dstore.values.TimestampValue date_and_time = 20002;</code>
+       * <code>.dstore.values.TimestampValue date_and_time = 20002;</code>
        */
       io.dstore.values.TimestampValue getDateAndTime();
       /**
@@ -1928,7 +1928,7 @@ public final class MiGetSessionManagementPu {
        * Zeitpunkt, wann der Eintrag "Value" zum Schlüssel "KeyVariable" zuletzt aktualisiert wurde
        * </pre>
        *
-       * <code>optional .dstore.values.TimestampValue date_and_time = 20002;</code>
+       * <code>.dstore.values.TimestampValue date_and_time = 20002;</code>
        */
       io.dstore.values.TimestampValueOrBuilder getDateAndTimeOrBuilder();
 
@@ -1937,7 +1937,7 @@ public final class MiGetSessionManagementPu {
        * Ein Schlüssel, zu dem für die Session "&#64;SessionID" der Wert "Value" hinterlegt ist
        * </pre>
        *
-       * <code>optional .dstore.values.StringValue key_variable = 20003;</code>
+       * <code>.dstore.values.StringValue key_variable = 20003;</code>
        */
       boolean hasKeyVariable();
       /**
@@ -1945,7 +1945,7 @@ public final class MiGetSessionManagementPu {
        * Ein Schlüssel, zu dem für die Session "&#64;SessionID" der Wert "Value" hinterlegt ist
        * </pre>
        *
-       * <code>optional .dstore.values.StringValue key_variable = 20003;</code>
+       * <code>.dstore.values.StringValue key_variable = 20003;</code>
        */
       io.dstore.values.StringValue getKeyVariable();
       /**
@@ -1953,7 +1953,7 @@ public final class MiGetSessionManagementPu {
        * Ein Schlüssel, zu dem für die Session "&#64;SessionID" der Wert "Value" hinterlegt ist
        * </pre>
        *
-       * <code>optional .dstore.values.StringValue key_variable = 20003;</code>
+       * <code>.dstore.values.StringValue key_variable = 20003;</code>
        */
       io.dstore.values.StringValueOrBuilder getKeyVariableOrBuilder();
     }
@@ -2067,7 +2067,7 @@ public final class MiGetSessionManagementPu {
       public static final int ROW_ID_FIELD_NUMBER = 10000;
       private int rowId_;
       /**
-       * <code>optional int32 row_id = 10000;</code>
+       * <code>int32 row_id = 10000;</code>
        */
       public int getRowId() {
         return rowId_;
@@ -2080,7 +2080,7 @@ public final class MiGetSessionManagementPu {
        * Zur Session "&#64;SessionID" hinterlegter Wert zum Schlüssel "&#64;KeyVariable"
        * </pre>
        *
-       * <code>optional .dstore.values.StringValue value = 10001;</code>
+       * <code>.dstore.values.StringValue value = 10001;</code>
        */
       public boolean hasValue() {
         return value_ != null;
@@ -2090,7 +2090,7 @@ public final class MiGetSessionManagementPu {
        * Zur Session "&#64;SessionID" hinterlegter Wert zum Schlüssel "&#64;KeyVariable"
        * </pre>
        *
-       * <code>optional .dstore.values.StringValue value = 10001;</code>
+       * <code>.dstore.values.StringValue value = 10001;</code>
        */
       public io.dstore.values.StringValue getValue() {
         return value_ == null ? io.dstore.values.StringValue.getDefaultInstance() : value_;
@@ -2100,7 +2100,7 @@ public final class MiGetSessionManagementPu {
        * Zur Session "&#64;SessionID" hinterlegter Wert zum Schlüssel "&#64;KeyVariable"
        * </pre>
        *
-       * <code>optional .dstore.values.StringValue value = 10001;</code>
+       * <code>.dstore.values.StringValue value = 10001;</code>
        */
       public io.dstore.values.StringValueOrBuilder getValueOrBuilder() {
         return getValue();
@@ -2113,7 +2113,7 @@ public final class MiGetSessionManagementPu {
        * Zeitpunkt, wann der Eintrag "Value" zum Schlüssel "KeyVariable" zuletzt aktualisiert wurde
        * </pre>
        *
-       * <code>optional .dstore.values.TimestampValue date_and_time = 20002;</code>
+       * <code>.dstore.values.TimestampValue date_and_time = 20002;</code>
        */
       public boolean hasDateAndTime() {
         return dateAndTime_ != null;
@@ -2123,7 +2123,7 @@ public final class MiGetSessionManagementPu {
        * Zeitpunkt, wann der Eintrag "Value" zum Schlüssel "KeyVariable" zuletzt aktualisiert wurde
        * </pre>
        *
-       * <code>optional .dstore.values.TimestampValue date_and_time = 20002;</code>
+       * <code>.dstore.values.TimestampValue date_and_time = 20002;</code>
        */
       public io.dstore.values.TimestampValue getDateAndTime() {
         return dateAndTime_ == null ? io.dstore.values.TimestampValue.getDefaultInstance() : dateAndTime_;
@@ -2133,7 +2133,7 @@ public final class MiGetSessionManagementPu {
        * Zeitpunkt, wann der Eintrag "Value" zum Schlüssel "KeyVariable" zuletzt aktualisiert wurde
        * </pre>
        *
-       * <code>optional .dstore.values.TimestampValue date_and_time = 20002;</code>
+       * <code>.dstore.values.TimestampValue date_and_time = 20002;</code>
        */
       public io.dstore.values.TimestampValueOrBuilder getDateAndTimeOrBuilder() {
         return getDateAndTime();
@@ -2146,7 +2146,7 @@ public final class MiGetSessionManagementPu {
        * Ein Schlüssel, zu dem für die Session "&#64;SessionID" der Wert "Value" hinterlegt ist
        * </pre>
        *
-       * <code>optional .dstore.values.StringValue key_variable = 20003;</code>
+       * <code>.dstore.values.StringValue key_variable = 20003;</code>
        */
       public boolean hasKeyVariable() {
         return keyVariable_ != null;
@@ -2156,7 +2156,7 @@ public final class MiGetSessionManagementPu {
        * Ein Schlüssel, zu dem für die Session "&#64;SessionID" der Wert "Value" hinterlegt ist
        * </pre>
        *
-       * <code>optional .dstore.values.StringValue key_variable = 20003;</code>
+       * <code>.dstore.values.StringValue key_variable = 20003;</code>
        */
       public io.dstore.values.StringValue getKeyVariable() {
         return keyVariable_ == null ? io.dstore.values.StringValue.getDefaultInstance() : keyVariable_;
@@ -2166,7 +2166,7 @@ public final class MiGetSessionManagementPu {
        * Ein Schlüssel, zu dem für die Session "&#64;SessionID" der Wert "Value" hinterlegt ist
        * </pre>
        *
-       * <code>optional .dstore.values.StringValue key_variable = 20003;</code>
+       * <code>.dstore.values.StringValue key_variable = 20003;</code>
        */
       public io.dstore.values.StringValueOrBuilder getKeyVariableOrBuilder() {
         return getKeyVariable();
@@ -2261,7 +2261,7 @@ public final class MiGetSessionManagementPu {
           return memoizedHashCode;
         }
         int hash = 41;
-        hash = (19 * hash) + getDescriptorForType().hashCode();
+        hash = (19 * hash) + getDescriptor().hashCode();
         hash = (37 * hash) + ROW_ID_FIELD_NUMBER;
         hash = (53 * hash) + getRowId();
         if (hasValue()) {
@@ -2533,13 +2533,13 @@ public final class MiGetSessionManagementPu {
 
         private int rowId_ ;
         /**
-         * <code>optional int32 row_id = 10000;</code>
+         * <code>int32 row_id = 10000;</code>
          */
         public int getRowId() {
           return rowId_;
         }
         /**
-         * <code>optional int32 row_id = 10000;</code>
+         * <code>int32 row_id = 10000;</code>
          */
         public Builder setRowId(int value) {
           
@@ -2548,7 +2548,7 @@ public final class MiGetSessionManagementPu {
           return this;
         }
         /**
-         * <code>optional int32 row_id = 10000;</code>
+         * <code>int32 row_id = 10000;</code>
          */
         public Builder clearRowId() {
           
@@ -2565,7 +2565,7 @@ public final class MiGetSessionManagementPu {
          * Zur Session "&#64;SessionID" hinterlegter Wert zum Schlüssel "&#64;KeyVariable"
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue value = 10001;</code>
+         * <code>.dstore.values.StringValue value = 10001;</code>
          */
         public boolean hasValue() {
           return valueBuilder_ != null || value_ != null;
@@ -2575,7 +2575,7 @@ public final class MiGetSessionManagementPu {
          * Zur Session "&#64;SessionID" hinterlegter Wert zum Schlüssel "&#64;KeyVariable"
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue value = 10001;</code>
+         * <code>.dstore.values.StringValue value = 10001;</code>
          */
         public io.dstore.values.StringValue getValue() {
           if (valueBuilder_ == null) {
@@ -2589,7 +2589,7 @@ public final class MiGetSessionManagementPu {
          * Zur Session "&#64;SessionID" hinterlegter Wert zum Schlüssel "&#64;KeyVariable"
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue value = 10001;</code>
+         * <code>.dstore.values.StringValue value = 10001;</code>
          */
         public Builder setValue(io.dstore.values.StringValue value) {
           if (valueBuilder_ == null) {
@@ -2609,7 +2609,7 @@ public final class MiGetSessionManagementPu {
          * Zur Session "&#64;SessionID" hinterlegter Wert zum Schlüssel "&#64;KeyVariable"
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue value = 10001;</code>
+         * <code>.dstore.values.StringValue value = 10001;</code>
          */
         public Builder setValue(
             io.dstore.values.StringValue.Builder builderForValue) {
@@ -2627,7 +2627,7 @@ public final class MiGetSessionManagementPu {
          * Zur Session "&#64;SessionID" hinterlegter Wert zum Schlüssel "&#64;KeyVariable"
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue value = 10001;</code>
+         * <code>.dstore.values.StringValue value = 10001;</code>
          */
         public Builder mergeValue(io.dstore.values.StringValue value) {
           if (valueBuilder_ == null) {
@@ -2649,7 +2649,7 @@ public final class MiGetSessionManagementPu {
          * Zur Session "&#64;SessionID" hinterlegter Wert zum Schlüssel "&#64;KeyVariable"
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue value = 10001;</code>
+         * <code>.dstore.values.StringValue value = 10001;</code>
          */
         public Builder clearValue() {
           if (valueBuilder_ == null) {
@@ -2667,7 +2667,7 @@ public final class MiGetSessionManagementPu {
          * Zur Session "&#64;SessionID" hinterlegter Wert zum Schlüssel "&#64;KeyVariable"
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue value = 10001;</code>
+         * <code>.dstore.values.StringValue value = 10001;</code>
          */
         public io.dstore.values.StringValue.Builder getValueBuilder() {
           
@@ -2679,7 +2679,7 @@ public final class MiGetSessionManagementPu {
          * Zur Session "&#64;SessionID" hinterlegter Wert zum Schlüssel "&#64;KeyVariable"
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue value = 10001;</code>
+         * <code>.dstore.values.StringValue value = 10001;</code>
          */
         public io.dstore.values.StringValueOrBuilder getValueOrBuilder() {
           if (valueBuilder_ != null) {
@@ -2694,7 +2694,7 @@ public final class MiGetSessionManagementPu {
          * Zur Session "&#64;SessionID" hinterlegter Wert zum Schlüssel "&#64;KeyVariable"
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue value = 10001;</code>
+         * <code>.dstore.values.StringValue value = 10001;</code>
          */
         private com.google.protobuf.SingleFieldBuilderV3<
             io.dstore.values.StringValue, io.dstore.values.StringValue.Builder, io.dstore.values.StringValueOrBuilder> 
@@ -2718,7 +2718,7 @@ public final class MiGetSessionManagementPu {
          * Zeitpunkt, wann der Eintrag "Value" zum Schlüssel "KeyVariable" zuletzt aktualisiert wurde
          * </pre>
          *
-         * <code>optional .dstore.values.TimestampValue date_and_time = 20002;</code>
+         * <code>.dstore.values.TimestampValue date_and_time = 20002;</code>
          */
         public boolean hasDateAndTime() {
           return dateAndTimeBuilder_ != null || dateAndTime_ != null;
@@ -2728,7 +2728,7 @@ public final class MiGetSessionManagementPu {
          * Zeitpunkt, wann der Eintrag "Value" zum Schlüssel "KeyVariable" zuletzt aktualisiert wurde
          * </pre>
          *
-         * <code>optional .dstore.values.TimestampValue date_and_time = 20002;</code>
+         * <code>.dstore.values.TimestampValue date_and_time = 20002;</code>
          */
         public io.dstore.values.TimestampValue getDateAndTime() {
           if (dateAndTimeBuilder_ == null) {
@@ -2742,7 +2742,7 @@ public final class MiGetSessionManagementPu {
          * Zeitpunkt, wann der Eintrag "Value" zum Schlüssel "KeyVariable" zuletzt aktualisiert wurde
          * </pre>
          *
-         * <code>optional .dstore.values.TimestampValue date_and_time = 20002;</code>
+         * <code>.dstore.values.TimestampValue date_and_time = 20002;</code>
          */
         public Builder setDateAndTime(io.dstore.values.TimestampValue value) {
           if (dateAndTimeBuilder_ == null) {
@@ -2762,7 +2762,7 @@ public final class MiGetSessionManagementPu {
          * Zeitpunkt, wann der Eintrag "Value" zum Schlüssel "KeyVariable" zuletzt aktualisiert wurde
          * </pre>
          *
-         * <code>optional .dstore.values.TimestampValue date_and_time = 20002;</code>
+         * <code>.dstore.values.TimestampValue date_and_time = 20002;</code>
          */
         public Builder setDateAndTime(
             io.dstore.values.TimestampValue.Builder builderForValue) {
@@ -2780,7 +2780,7 @@ public final class MiGetSessionManagementPu {
          * Zeitpunkt, wann der Eintrag "Value" zum Schlüssel "KeyVariable" zuletzt aktualisiert wurde
          * </pre>
          *
-         * <code>optional .dstore.values.TimestampValue date_and_time = 20002;</code>
+         * <code>.dstore.values.TimestampValue date_and_time = 20002;</code>
          */
         public Builder mergeDateAndTime(io.dstore.values.TimestampValue value) {
           if (dateAndTimeBuilder_ == null) {
@@ -2802,7 +2802,7 @@ public final class MiGetSessionManagementPu {
          * Zeitpunkt, wann der Eintrag "Value" zum Schlüssel "KeyVariable" zuletzt aktualisiert wurde
          * </pre>
          *
-         * <code>optional .dstore.values.TimestampValue date_and_time = 20002;</code>
+         * <code>.dstore.values.TimestampValue date_and_time = 20002;</code>
          */
         public Builder clearDateAndTime() {
           if (dateAndTimeBuilder_ == null) {
@@ -2820,7 +2820,7 @@ public final class MiGetSessionManagementPu {
          * Zeitpunkt, wann der Eintrag "Value" zum Schlüssel "KeyVariable" zuletzt aktualisiert wurde
          * </pre>
          *
-         * <code>optional .dstore.values.TimestampValue date_and_time = 20002;</code>
+         * <code>.dstore.values.TimestampValue date_and_time = 20002;</code>
          */
         public io.dstore.values.TimestampValue.Builder getDateAndTimeBuilder() {
           
@@ -2832,7 +2832,7 @@ public final class MiGetSessionManagementPu {
          * Zeitpunkt, wann der Eintrag "Value" zum Schlüssel "KeyVariable" zuletzt aktualisiert wurde
          * </pre>
          *
-         * <code>optional .dstore.values.TimestampValue date_and_time = 20002;</code>
+         * <code>.dstore.values.TimestampValue date_and_time = 20002;</code>
          */
         public io.dstore.values.TimestampValueOrBuilder getDateAndTimeOrBuilder() {
           if (dateAndTimeBuilder_ != null) {
@@ -2847,7 +2847,7 @@ public final class MiGetSessionManagementPu {
          * Zeitpunkt, wann der Eintrag "Value" zum Schlüssel "KeyVariable" zuletzt aktualisiert wurde
          * </pre>
          *
-         * <code>optional .dstore.values.TimestampValue date_and_time = 20002;</code>
+         * <code>.dstore.values.TimestampValue date_and_time = 20002;</code>
          */
         private com.google.protobuf.SingleFieldBuilderV3<
             io.dstore.values.TimestampValue, io.dstore.values.TimestampValue.Builder, io.dstore.values.TimestampValueOrBuilder> 
@@ -2871,7 +2871,7 @@ public final class MiGetSessionManagementPu {
          * Ein Schlüssel, zu dem für die Session "&#64;SessionID" der Wert "Value" hinterlegt ist
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue key_variable = 20003;</code>
+         * <code>.dstore.values.StringValue key_variable = 20003;</code>
          */
         public boolean hasKeyVariable() {
           return keyVariableBuilder_ != null || keyVariable_ != null;
@@ -2881,7 +2881,7 @@ public final class MiGetSessionManagementPu {
          * Ein Schlüssel, zu dem für die Session "&#64;SessionID" der Wert "Value" hinterlegt ist
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue key_variable = 20003;</code>
+         * <code>.dstore.values.StringValue key_variable = 20003;</code>
          */
         public io.dstore.values.StringValue getKeyVariable() {
           if (keyVariableBuilder_ == null) {
@@ -2895,7 +2895,7 @@ public final class MiGetSessionManagementPu {
          * Ein Schlüssel, zu dem für die Session "&#64;SessionID" der Wert "Value" hinterlegt ist
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue key_variable = 20003;</code>
+         * <code>.dstore.values.StringValue key_variable = 20003;</code>
          */
         public Builder setKeyVariable(io.dstore.values.StringValue value) {
           if (keyVariableBuilder_ == null) {
@@ -2915,7 +2915,7 @@ public final class MiGetSessionManagementPu {
          * Ein Schlüssel, zu dem für die Session "&#64;SessionID" der Wert "Value" hinterlegt ist
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue key_variable = 20003;</code>
+         * <code>.dstore.values.StringValue key_variable = 20003;</code>
          */
         public Builder setKeyVariable(
             io.dstore.values.StringValue.Builder builderForValue) {
@@ -2933,7 +2933,7 @@ public final class MiGetSessionManagementPu {
          * Ein Schlüssel, zu dem für die Session "&#64;SessionID" der Wert "Value" hinterlegt ist
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue key_variable = 20003;</code>
+         * <code>.dstore.values.StringValue key_variable = 20003;</code>
          */
         public Builder mergeKeyVariable(io.dstore.values.StringValue value) {
           if (keyVariableBuilder_ == null) {
@@ -2955,7 +2955,7 @@ public final class MiGetSessionManagementPu {
          * Ein Schlüssel, zu dem für die Session "&#64;SessionID" der Wert "Value" hinterlegt ist
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue key_variable = 20003;</code>
+         * <code>.dstore.values.StringValue key_variable = 20003;</code>
          */
         public Builder clearKeyVariable() {
           if (keyVariableBuilder_ == null) {
@@ -2973,7 +2973,7 @@ public final class MiGetSessionManagementPu {
          * Ein Schlüssel, zu dem für die Session "&#64;SessionID" der Wert "Value" hinterlegt ist
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue key_variable = 20003;</code>
+         * <code>.dstore.values.StringValue key_variable = 20003;</code>
          */
         public io.dstore.values.StringValue.Builder getKeyVariableBuilder() {
           
@@ -2985,7 +2985,7 @@ public final class MiGetSessionManagementPu {
          * Ein Schlüssel, zu dem für die Session "&#64;SessionID" der Wert "Value" hinterlegt ist
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue key_variable = 20003;</code>
+         * <code>.dstore.values.StringValue key_variable = 20003;</code>
          */
         public io.dstore.values.StringValueOrBuilder getKeyVariableOrBuilder() {
           if (keyVariableBuilder_ != null) {
@@ -3000,7 +3000,7 @@ public final class MiGetSessionManagementPu {
          * Ein Schlüssel, zu dem für die Session "&#64;SessionID" der Wert "Value" hinterlegt ist
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue key_variable = 20003;</code>
+         * <code>.dstore.values.StringValue key_variable = 20003;</code>
          */
         private com.google.protobuf.SingleFieldBuilderV3<
             io.dstore.values.StringValue, io.dstore.values.StringValue.Builder, io.dstore.values.StringValueOrBuilder> 
@@ -3173,19 +3173,19 @@ public final class MiGetSessionManagementPu {
     public static final int VALUE_FIELD_NUMBER = 101;
     private io.dstore.values.StringValue value_;
     /**
-     * <code>optional .dstore.values.StringValue value = 101;</code>
+     * <code>.dstore.values.StringValue value = 101;</code>
      */
     public boolean hasValue() {
       return value_ != null;
     }
     /**
-     * <code>optional .dstore.values.StringValue value = 101;</code>
+     * <code>.dstore.values.StringValue value = 101;</code>
      */
     public io.dstore.values.StringValue getValue() {
       return value_ == null ? io.dstore.values.StringValue.getDefaultInstance() : value_;
     }
     /**
-     * <code>optional .dstore.values.StringValue value = 101;</code>
+     * <code>.dstore.values.StringValue value = 101;</code>
      */
     public io.dstore.values.StringValueOrBuilder getValueOrBuilder() {
       return getValue();
@@ -3274,7 +3274,7 @@ public final class MiGetSessionManagementPu {
         return memoizedHashCode;
       }
       int hash = 41;
-      hash = (19 * hash) + getDescriptorForType().hashCode();
+      hash = (19 * hash) + getDescriptor().hashCode();
       if (getMetaInformationCount() > 0) {
         hash = (37 * hash) + META_INFORMATION_FIELD_NUMBER;
         hash = (53 * hash) + getMetaInformationList().hashCode();
@@ -4366,13 +4366,13 @@ public final class MiGetSessionManagementPu {
       private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.values.StringValue, io.dstore.values.StringValue.Builder, io.dstore.values.StringValueOrBuilder> valueBuilder_;
       /**
-       * <code>optional .dstore.values.StringValue value = 101;</code>
+       * <code>.dstore.values.StringValue value = 101;</code>
        */
       public boolean hasValue() {
         return valueBuilder_ != null || value_ != null;
       }
       /**
-       * <code>optional .dstore.values.StringValue value = 101;</code>
+       * <code>.dstore.values.StringValue value = 101;</code>
        */
       public io.dstore.values.StringValue getValue() {
         if (valueBuilder_ == null) {
@@ -4382,7 +4382,7 @@ public final class MiGetSessionManagementPu {
         }
       }
       /**
-       * <code>optional .dstore.values.StringValue value = 101;</code>
+       * <code>.dstore.values.StringValue value = 101;</code>
        */
       public Builder setValue(io.dstore.values.StringValue value) {
         if (valueBuilder_ == null) {
@@ -4398,7 +4398,7 @@ public final class MiGetSessionManagementPu {
         return this;
       }
       /**
-       * <code>optional .dstore.values.StringValue value = 101;</code>
+       * <code>.dstore.values.StringValue value = 101;</code>
        */
       public Builder setValue(
           io.dstore.values.StringValue.Builder builderForValue) {
@@ -4412,7 +4412,7 @@ public final class MiGetSessionManagementPu {
         return this;
       }
       /**
-       * <code>optional .dstore.values.StringValue value = 101;</code>
+       * <code>.dstore.values.StringValue value = 101;</code>
        */
       public Builder mergeValue(io.dstore.values.StringValue value) {
         if (valueBuilder_ == null) {
@@ -4430,7 +4430,7 @@ public final class MiGetSessionManagementPu {
         return this;
       }
       /**
-       * <code>optional .dstore.values.StringValue value = 101;</code>
+       * <code>.dstore.values.StringValue value = 101;</code>
        */
       public Builder clearValue() {
         if (valueBuilder_ == null) {
@@ -4444,7 +4444,7 @@ public final class MiGetSessionManagementPu {
         return this;
       }
       /**
-       * <code>optional .dstore.values.StringValue value = 101;</code>
+       * <code>.dstore.values.StringValue value = 101;</code>
        */
       public io.dstore.values.StringValue.Builder getValueBuilder() {
         
@@ -4452,7 +4452,7 @@ public final class MiGetSessionManagementPu {
         return getValueFieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .dstore.values.StringValue value = 101;</code>
+       * <code>.dstore.values.StringValue value = 101;</code>
        */
       public io.dstore.values.StringValueOrBuilder getValueOrBuilder() {
         if (valueBuilder_ != null) {
@@ -4463,7 +4463,7 @@ public final class MiGetSessionManagementPu {
         }
       }
       /**
-       * <code>optional .dstore.values.StringValue value = 101;</code>
+       * <code>.dstore.values.StringValue value = 101;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.values.StringValue, io.dstore.values.StringValue.Builder, io.dstore.values.StringValueOrBuilder> 

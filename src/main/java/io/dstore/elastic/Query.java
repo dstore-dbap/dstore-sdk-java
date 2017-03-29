@@ -140,11 +140,11 @@ public  final class Query extends
       com.google.protobuf.MessageOrBuilder {
 
     /**
-     * <code>optional string field_name = 1;</code>
+     * <code>string field_name = 1;</code>
      */
     java.lang.String getFieldName();
     /**
-     * <code>optional string field_name = 1;</code>
+     * <code>string field_name = 1;</code>
      */
     com.google.protobuf.ByteString
         getFieldNameBytes();
@@ -173,7 +173,7 @@ public  final class Query extends
      * means: use the ".raw" (not analyzed) field
      * </pre>
      *
-     * <code>optional bool allow_partial_matches = 3;</code>
+     * <code>bool allow_partial_matches = 3;</code>
      */
     boolean getAllowPartialMatches();
   }
@@ -269,7 +269,7 @@ public  final class Query extends
     public static final int FIELD_NAME_FIELD_NUMBER = 1;
     private volatile java.lang.Object fieldName_;
     /**
-     * <code>optional string field_name = 1;</code>
+     * <code>string field_name = 1;</code>
      */
     public java.lang.String getFieldName() {
       java.lang.Object ref = fieldName_;
@@ -284,7 +284,7 @@ public  final class Query extends
       }
     }
     /**
-     * <code>optional string field_name = 1;</code>
+     * <code>string field_name = 1;</code>
      */
     public com.google.protobuf.ByteString
         getFieldNameBytes() {
@@ -336,7 +336,7 @@ public  final class Query extends
      * means: use the ".raw" (not analyzed) field
      * </pre>
      *
-     * <code>optional bool allow_partial_matches = 3;</code>
+     * <code>bool allow_partial_matches = 3;</code>
      */
     public boolean getAllowPartialMatches() {
       return allowPartialMatches_;
@@ -416,7 +416,7 @@ public  final class Query extends
         return memoizedHashCode;
       }
       int hash = 41;
-      hash = (19 * hash) + getDescriptorForType().hashCode();
+      hash = (19 * hash) + getDescriptor().hashCode();
       hash = (37 * hash) + FIELD_NAME_FIELD_NUMBER;
       hash = (53 * hash) + getFieldName().hashCode();
       if (getValueCount() > 0) {
@@ -669,7 +669,7 @@ public  final class Query extends
 
       private java.lang.Object fieldName_ = "";
       /**
-       * <code>optional string field_name = 1;</code>
+       * <code>string field_name = 1;</code>
        */
       public java.lang.String getFieldName() {
         java.lang.Object ref = fieldName_;
@@ -684,7 +684,7 @@ public  final class Query extends
         }
       }
       /**
-       * <code>optional string field_name = 1;</code>
+       * <code>string field_name = 1;</code>
        */
       public com.google.protobuf.ByteString
           getFieldNameBytes() {
@@ -700,7 +700,7 @@ public  final class Query extends
         }
       }
       /**
-       * <code>optional string field_name = 1;</code>
+       * <code>string field_name = 1;</code>
        */
       public Builder setFieldName(
           java.lang.String value) {
@@ -713,7 +713,7 @@ public  final class Query extends
         return this;
       }
       /**
-       * <code>optional string field_name = 1;</code>
+       * <code>string field_name = 1;</code>
        */
       public Builder clearFieldName() {
         
@@ -722,7 +722,7 @@ public  final class Query extends
         return this;
       }
       /**
-       * <code>optional string field_name = 1;</code>
+       * <code>string field_name = 1;</code>
        */
       public Builder setFieldNameBytes(
           com.google.protobuf.ByteString value) {
@@ -836,7 +836,7 @@ public  final class Query extends
        * means: use the ".raw" (not analyzed) field
        * </pre>
        *
-       * <code>optional bool allow_partial_matches = 3;</code>
+       * <code>bool allow_partial_matches = 3;</code>
        */
       public boolean getAllowPartialMatches() {
         return allowPartialMatches_;
@@ -846,7 +846,7 @@ public  final class Query extends
        * means: use the ".raw" (not analyzed) field
        * </pre>
        *
-       * <code>optional bool allow_partial_matches = 3;</code>
+       * <code>bool allow_partial_matches = 3;</code>
        */
       public Builder setAllowPartialMatches(boolean value) {
         
@@ -859,7 +859,7 @@ public  final class Query extends
        * means: use the ".raw" (not analyzed) field
        * </pre>
        *
-       * <code>optional bool allow_partial_matches = 3;</code>
+       * <code>bool allow_partial_matches = 3;</code>
        */
       public Builder clearAllowPartialMatches() {
         
@@ -921,11 +921,11 @@ public  final class Query extends
       com.google.protobuf.MessageOrBuilder {
 
     /**
-     * <code>optional string type = 1;</code>
+     * <code>string type = 1;</code>
      */
     java.lang.String getType();
     /**
-     * <code>optional string type = 1;</code>
+     * <code>string type = 1;</code>
      */
     com.google.protobuf.ByteString
         getTypeBytes();
@@ -1002,7 +1002,7 @@ public  final class Query extends
     public static final int TYPE_FIELD_NUMBER = 1;
     private volatile java.lang.Object type_;
     /**
-     * <code>optional string type = 1;</code>
+     * <code>string type = 1;</code>
      */
     public java.lang.String getType() {
       java.lang.Object ref = type_;
@@ -1017,7 +1017,7 @@ public  final class Query extends
       }
     }
     /**
-     * <code>optional string type = 1;</code>
+     * <code>string type = 1;</code>
      */
     public com.google.protobuf.ByteString
         getTypeBytes() {
@@ -1085,7 +1085,7 @@ public  final class Query extends
         return memoizedHashCode;
       }
       int hash = 41;
-      hash = (19 * hash) + getDescriptorForType().hashCode();
+      hash = (19 * hash) + getDescriptor().hashCode();
       hash = (37 * hash) + TYPE_FIELD_NUMBER;
       hash = (53 * hash) + getType().hashCode();
       hash = (29 * hash) + unknownFields.hashCode();
@@ -1304,7 +1304,7 @@ public  final class Query extends
 
       private java.lang.Object type_ = "";
       /**
-       * <code>optional string type = 1;</code>
+       * <code>string type = 1;</code>
        */
       public java.lang.String getType() {
         java.lang.Object ref = type_;
@@ -1319,7 +1319,7 @@ public  final class Query extends
         }
       }
       /**
-       * <code>optional string type = 1;</code>
+       * <code>string type = 1;</code>
        */
       public com.google.protobuf.ByteString
           getTypeBytes() {
@@ -1335,7 +1335,7 @@ public  final class Query extends
         }
       }
       /**
-       * <code>optional string type = 1;</code>
+       * <code>string type = 1;</code>
        */
       public Builder setType(
           java.lang.String value) {
@@ -1348,7 +1348,7 @@ public  final class Query extends
         return this;
       }
       /**
-       * <code>optional string type = 1;</code>
+       * <code>string type = 1;</code>
        */
       public Builder clearType() {
         
@@ -1357,7 +1357,7 @@ public  final class Query extends
         return this;
       }
       /**
-       * <code>optional string type = 1;</code>
+       * <code>string type = 1;</code>
        */
       public Builder setTypeBytes(
           com.google.protobuf.ByteString value) {
@@ -1424,51 +1424,51 @@ public  final class Query extends
       com.google.protobuf.MessageOrBuilder {
 
     /**
-     * <code>optional string field_name = 1;</code>
+     * <code>string field_name = 1;</code>
      */
     java.lang.String getFieldName();
     /**
-     * <code>optional string field_name = 1;</code>
+     * <code>string field_name = 1;</code>
      */
     com.google.protobuf.ByteString
         getFieldNameBytes();
 
     /**
-     * <code>optional string greater_than_or_eqal = 2;</code>
+     * <code>string greater_than_or_eqal = 2;</code>
      */
     java.lang.String getGreaterThanOrEqal();
     /**
-     * <code>optional string greater_than_or_eqal = 2;</code>
+     * <code>string greater_than_or_eqal = 2;</code>
      */
     com.google.protobuf.ByteString
         getGreaterThanOrEqalBytes();
 
     /**
-     * <code>optional string greater_than = 3;</code>
+     * <code>string greater_than = 3;</code>
      */
     java.lang.String getGreaterThan();
     /**
-     * <code>optional string greater_than = 3;</code>
+     * <code>string greater_than = 3;</code>
      */
     com.google.protobuf.ByteString
         getGreaterThanBytes();
 
     /**
-     * <code>optional string less_than_or_equal = 4;</code>
+     * <code>string less_than_or_equal = 4;</code>
      */
     java.lang.String getLessThanOrEqual();
     /**
-     * <code>optional string less_than_or_equal = 4;</code>
+     * <code>string less_than_or_equal = 4;</code>
      */
     com.google.protobuf.ByteString
         getLessThanOrEqualBytes();
 
     /**
-     * <code>optional string less_than = 5;</code>
+     * <code>string less_than = 5;</code>
      */
     java.lang.String getLessThan();
     /**
-     * <code>optional string less_than = 5;</code>
+     * <code>string less_than = 5;</code>
      */
     com.google.protobuf.ByteString
         getLessThanBytes();
@@ -1573,7 +1573,7 @@ public  final class Query extends
     public static final int FIELD_NAME_FIELD_NUMBER = 1;
     private volatile java.lang.Object fieldName_;
     /**
-     * <code>optional string field_name = 1;</code>
+     * <code>string field_name = 1;</code>
      */
     public java.lang.String getFieldName() {
       java.lang.Object ref = fieldName_;
@@ -1588,7 +1588,7 @@ public  final class Query extends
       }
     }
     /**
-     * <code>optional string field_name = 1;</code>
+     * <code>string field_name = 1;</code>
      */
     public com.google.protobuf.ByteString
         getFieldNameBytes() {
@@ -1607,7 +1607,7 @@ public  final class Query extends
     public static final int GREATER_THAN_OR_EQAL_FIELD_NUMBER = 2;
     private volatile java.lang.Object greaterThanOrEqal_;
     /**
-     * <code>optional string greater_than_or_eqal = 2;</code>
+     * <code>string greater_than_or_eqal = 2;</code>
      */
     public java.lang.String getGreaterThanOrEqal() {
       java.lang.Object ref = greaterThanOrEqal_;
@@ -1622,7 +1622,7 @@ public  final class Query extends
       }
     }
     /**
-     * <code>optional string greater_than_or_eqal = 2;</code>
+     * <code>string greater_than_or_eqal = 2;</code>
      */
     public com.google.protobuf.ByteString
         getGreaterThanOrEqalBytes() {
@@ -1641,7 +1641,7 @@ public  final class Query extends
     public static final int GREATER_THAN_FIELD_NUMBER = 3;
     private volatile java.lang.Object greaterThan_;
     /**
-     * <code>optional string greater_than = 3;</code>
+     * <code>string greater_than = 3;</code>
      */
     public java.lang.String getGreaterThan() {
       java.lang.Object ref = greaterThan_;
@@ -1656,7 +1656,7 @@ public  final class Query extends
       }
     }
     /**
-     * <code>optional string greater_than = 3;</code>
+     * <code>string greater_than = 3;</code>
      */
     public com.google.protobuf.ByteString
         getGreaterThanBytes() {
@@ -1675,7 +1675,7 @@ public  final class Query extends
     public static final int LESS_THAN_OR_EQUAL_FIELD_NUMBER = 4;
     private volatile java.lang.Object lessThanOrEqual_;
     /**
-     * <code>optional string less_than_or_equal = 4;</code>
+     * <code>string less_than_or_equal = 4;</code>
      */
     public java.lang.String getLessThanOrEqual() {
       java.lang.Object ref = lessThanOrEqual_;
@@ -1690,7 +1690,7 @@ public  final class Query extends
       }
     }
     /**
-     * <code>optional string less_than_or_equal = 4;</code>
+     * <code>string less_than_or_equal = 4;</code>
      */
     public com.google.protobuf.ByteString
         getLessThanOrEqualBytes() {
@@ -1709,7 +1709,7 @@ public  final class Query extends
     public static final int LESS_THAN_FIELD_NUMBER = 5;
     private volatile java.lang.Object lessThan_;
     /**
-     * <code>optional string less_than = 5;</code>
+     * <code>string less_than = 5;</code>
      */
     public java.lang.String getLessThan() {
       java.lang.Object ref = lessThan_;
@@ -1724,7 +1724,7 @@ public  final class Query extends
       }
     }
     /**
-     * <code>optional string less_than = 5;</code>
+     * <code>string less_than = 5;</code>
      */
     public com.google.protobuf.ByteString
         getLessThanBytes() {
@@ -1824,7 +1824,7 @@ public  final class Query extends
         return memoizedHashCode;
       }
       int hash = 41;
-      hash = (19 * hash) + getDescriptorForType().hashCode();
+      hash = (19 * hash) + getDescriptor().hashCode();
       hash = (37 * hash) + FIELD_NAME_FIELD_NUMBER;
       hash = (53 * hash) + getFieldName().hashCode();
       hash = (37 * hash) + GREATER_THAN_OR_EQAL_FIELD_NUMBER;
@@ -2079,7 +2079,7 @@ public  final class Query extends
 
       private java.lang.Object fieldName_ = "";
       /**
-       * <code>optional string field_name = 1;</code>
+       * <code>string field_name = 1;</code>
        */
       public java.lang.String getFieldName() {
         java.lang.Object ref = fieldName_;
@@ -2094,7 +2094,7 @@ public  final class Query extends
         }
       }
       /**
-       * <code>optional string field_name = 1;</code>
+       * <code>string field_name = 1;</code>
        */
       public com.google.protobuf.ByteString
           getFieldNameBytes() {
@@ -2110,7 +2110,7 @@ public  final class Query extends
         }
       }
       /**
-       * <code>optional string field_name = 1;</code>
+       * <code>string field_name = 1;</code>
        */
       public Builder setFieldName(
           java.lang.String value) {
@@ -2123,7 +2123,7 @@ public  final class Query extends
         return this;
       }
       /**
-       * <code>optional string field_name = 1;</code>
+       * <code>string field_name = 1;</code>
        */
       public Builder clearFieldName() {
         
@@ -2132,7 +2132,7 @@ public  final class Query extends
         return this;
       }
       /**
-       * <code>optional string field_name = 1;</code>
+       * <code>string field_name = 1;</code>
        */
       public Builder setFieldNameBytes(
           com.google.protobuf.ByteString value) {
@@ -2148,7 +2148,7 @@ public  final class Query extends
 
       private java.lang.Object greaterThanOrEqal_ = "";
       /**
-       * <code>optional string greater_than_or_eqal = 2;</code>
+       * <code>string greater_than_or_eqal = 2;</code>
        */
       public java.lang.String getGreaterThanOrEqal() {
         java.lang.Object ref = greaterThanOrEqal_;
@@ -2163,7 +2163,7 @@ public  final class Query extends
         }
       }
       /**
-       * <code>optional string greater_than_or_eqal = 2;</code>
+       * <code>string greater_than_or_eqal = 2;</code>
        */
       public com.google.protobuf.ByteString
           getGreaterThanOrEqalBytes() {
@@ -2179,7 +2179,7 @@ public  final class Query extends
         }
       }
       /**
-       * <code>optional string greater_than_or_eqal = 2;</code>
+       * <code>string greater_than_or_eqal = 2;</code>
        */
       public Builder setGreaterThanOrEqal(
           java.lang.String value) {
@@ -2192,7 +2192,7 @@ public  final class Query extends
         return this;
       }
       /**
-       * <code>optional string greater_than_or_eqal = 2;</code>
+       * <code>string greater_than_or_eqal = 2;</code>
        */
       public Builder clearGreaterThanOrEqal() {
         
@@ -2201,7 +2201,7 @@ public  final class Query extends
         return this;
       }
       /**
-       * <code>optional string greater_than_or_eqal = 2;</code>
+       * <code>string greater_than_or_eqal = 2;</code>
        */
       public Builder setGreaterThanOrEqalBytes(
           com.google.protobuf.ByteString value) {
@@ -2217,7 +2217,7 @@ public  final class Query extends
 
       private java.lang.Object greaterThan_ = "";
       /**
-       * <code>optional string greater_than = 3;</code>
+       * <code>string greater_than = 3;</code>
        */
       public java.lang.String getGreaterThan() {
         java.lang.Object ref = greaterThan_;
@@ -2232,7 +2232,7 @@ public  final class Query extends
         }
       }
       /**
-       * <code>optional string greater_than = 3;</code>
+       * <code>string greater_than = 3;</code>
        */
       public com.google.protobuf.ByteString
           getGreaterThanBytes() {
@@ -2248,7 +2248,7 @@ public  final class Query extends
         }
       }
       /**
-       * <code>optional string greater_than = 3;</code>
+       * <code>string greater_than = 3;</code>
        */
       public Builder setGreaterThan(
           java.lang.String value) {
@@ -2261,7 +2261,7 @@ public  final class Query extends
         return this;
       }
       /**
-       * <code>optional string greater_than = 3;</code>
+       * <code>string greater_than = 3;</code>
        */
       public Builder clearGreaterThan() {
         
@@ -2270,7 +2270,7 @@ public  final class Query extends
         return this;
       }
       /**
-       * <code>optional string greater_than = 3;</code>
+       * <code>string greater_than = 3;</code>
        */
       public Builder setGreaterThanBytes(
           com.google.protobuf.ByteString value) {
@@ -2286,7 +2286,7 @@ public  final class Query extends
 
       private java.lang.Object lessThanOrEqual_ = "";
       /**
-       * <code>optional string less_than_or_equal = 4;</code>
+       * <code>string less_than_or_equal = 4;</code>
        */
       public java.lang.String getLessThanOrEqual() {
         java.lang.Object ref = lessThanOrEqual_;
@@ -2301,7 +2301,7 @@ public  final class Query extends
         }
       }
       /**
-       * <code>optional string less_than_or_equal = 4;</code>
+       * <code>string less_than_or_equal = 4;</code>
        */
       public com.google.protobuf.ByteString
           getLessThanOrEqualBytes() {
@@ -2317,7 +2317,7 @@ public  final class Query extends
         }
       }
       /**
-       * <code>optional string less_than_or_equal = 4;</code>
+       * <code>string less_than_or_equal = 4;</code>
        */
       public Builder setLessThanOrEqual(
           java.lang.String value) {
@@ -2330,7 +2330,7 @@ public  final class Query extends
         return this;
       }
       /**
-       * <code>optional string less_than_or_equal = 4;</code>
+       * <code>string less_than_or_equal = 4;</code>
        */
       public Builder clearLessThanOrEqual() {
         
@@ -2339,7 +2339,7 @@ public  final class Query extends
         return this;
       }
       /**
-       * <code>optional string less_than_or_equal = 4;</code>
+       * <code>string less_than_or_equal = 4;</code>
        */
       public Builder setLessThanOrEqualBytes(
           com.google.protobuf.ByteString value) {
@@ -2355,7 +2355,7 @@ public  final class Query extends
 
       private java.lang.Object lessThan_ = "";
       /**
-       * <code>optional string less_than = 5;</code>
+       * <code>string less_than = 5;</code>
        */
       public java.lang.String getLessThan() {
         java.lang.Object ref = lessThan_;
@@ -2370,7 +2370,7 @@ public  final class Query extends
         }
       }
       /**
-       * <code>optional string less_than = 5;</code>
+       * <code>string less_than = 5;</code>
        */
       public com.google.protobuf.ByteString
           getLessThanBytes() {
@@ -2386,7 +2386,7 @@ public  final class Query extends
         }
       }
       /**
-       * <code>optional string less_than = 5;</code>
+       * <code>string less_than = 5;</code>
        */
       public Builder setLessThan(
           java.lang.String value) {
@@ -2399,7 +2399,7 @@ public  final class Query extends
         return this;
       }
       /**
-       * <code>optional string less_than = 5;</code>
+       * <code>string less_than = 5;</code>
        */
       public Builder clearLessThan() {
         
@@ -2408,7 +2408,7 @@ public  final class Query extends
         return this;
       }
       /**
-       * <code>optional string less_than = 5;</code>
+       * <code>string less_than = 5;</code>
        */
       public Builder setLessThanBytes(
           com.google.protobuf.ByteString value) {
@@ -2475,11 +2475,11 @@ public  final class Query extends
       com.google.protobuf.MessageOrBuilder {
 
     /**
-     * <code>optional string query = 1;</code>
+     * <code>string query = 1;</code>
      */
     java.lang.String getQuery();
     /**
-     * <code>optional string query = 1;</code>
+     * <code>string query = 1;</code>
      */
     com.google.protobuf.ByteString
         getQueryBytes();
@@ -2504,7 +2504,7 @@ public  final class Query extends
         getFieldBytes(int index);
 
     /**
-     * <code>optional bool use_and_as_default_operator = 3;</code>
+     * <code>bool use_and_as_default_operator = 3;</code>
      */
     boolean getUseAndAsDefaultOperator();
 
@@ -2513,7 +2513,7 @@ public  final class Query extends
      * see: https://www.elastic.co/guide/en/elasticsearch/reference/current/query-dsl-minimum-should-match.html
      * </pre>
      *
-     * <code>optional string minimum_should_match = 4;</code>
+     * <code>string minimum_should_match = 4;</code>
      */
     java.lang.String getMinimumShouldMatch();
     /**
@@ -2521,7 +2521,7 @@ public  final class Query extends
      * see: https://www.elastic.co/guide/en/elasticsearch/reference/current/query-dsl-minimum-should-match.html
      * </pre>
      *
-     * <code>optional string minimum_should_match = 4;</code>
+     * <code>string minimum_should_match = 4;</code>
      */
     com.google.protobuf.ByteString
         getMinimumShouldMatchBytes();
@@ -2625,7 +2625,7 @@ public  final class Query extends
     public static final int QUERY_FIELD_NUMBER = 1;
     private volatile java.lang.Object query_;
     /**
-     * <code>optional string query = 1;</code>
+     * <code>string query = 1;</code>
      */
     public java.lang.String getQuery() {
       java.lang.Object ref = query_;
@@ -2640,7 +2640,7 @@ public  final class Query extends
       }
     }
     /**
-     * <code>optional string query = 1;</code>
+     * <code>string query = 1;</code>
      */
     public com.google.protobuf.ByteString
         getQueryBytes() {
@@ -2688,7 +2688,7 @@ public  final class Query extends
     public static final int USE_AND_AS_DEFAULT_OPERATOR_FIELD_NUMBER = 3;
     private boolean useAndAsDefaultOperator_;
     /**
-     * <code>optional bool use_and_as_default_operator = 3;</code>
+     * <code>bool use_and_as_default_operator = 3;</code>
      */
     public boolean getUseAndAsDefaultOperator() {
       return useAndAsDefaultOperator_;
@@ -2701,7 +2701,7 @@ public  final class Query extends
      * see: https://www.elastic.co/guide/en/elasticsearch/reference/current/query-dsl-minimum-should-match.html
      * </pre>
      *
-     * <code>optional string minimum_should_match = 4;</code>
+     * <code>string minimum_should_match = 4;</code>
      */
     public java.lang.String getMinimumShouldMatch() {
       java.lang.Object ref = minimumShouldMatch_;
@@ -2720,7 +2720,7 @@ public  final class Query extends
      * see: https://www.elastic.co/guide/en/elasticsearch/reference/current/query-dsl-minimum-should-match.html
      * </pre>
      *
-     * <code>optional string minimum_should_match = 4;</code>
+     * <code>string minimum_should_match = 4;</code>
      */
     public com.google.protobuf.ByteString
         getMinimumShouldMatchBytes() {
@@ -2818,7 +2818,7 @@ public  final class Query extends
         return memoizedHashCode;
       }
       int hash = 41;
-      hash = (19 * hash) + getDescriptorForType().hashCode();
+      hash = (19 * hash) + getDescriptor().hashCode();
       hash = (37 * hash) + QUERY_FIELD_NUMBER;
       hash = (53 * hash) + getQuery().hashCode();
       if (getFieldCount() > 0) {
@@ -3080,7 +3080,7 @@ public  final class Query extends
 
       private java.lang.Object query_ = "";
       /**
-       * <code>optional string query = 1;</code>
+       * <code>string query = 1;</code>
        */
       public java.lang.String getQuery() {
         java.lang.Object ref = query_;
@@ -3095,7 +3095,7 @@ public  final class Query extends
         }
       }
       /**
-       * <code>optional string query = 1;</code>
+       * <code>string query = 1;</code>
        */
       public com.google.protobuf.ByteString
           getQueryBytes() {
@@ -3111,7 +3111,7 @@ public  final class Query extends
         }
       }
       /**
-       * <code>optional string query = 1;</code>
+       * <code>string query = 1;</code>
        */
       public Builder setQuery(
           java.lang.String value) {
@@ -3124,7 +3124,7 @@ public  final class Query extends
         return this;
       }
       /**
-       * <code>optional string query = 1;</code>
+       * <code>string query = 1;</code>
        */
       public Builder clearQuery() {
         
@@ -3133,7 +3133,7 @@ public  final class Query extends
         return this;
       }
       /**
-       * <code>optional string query = 1;</code>
+       * <code>string query = 1;</code>
        */
       public Builder setQueryBytes(
           com.google.protobuf.ByteString value) {
@@ -3243,13 +3243,13 @@ public  final class Query extends
 
       private boolean useAndAsDefaultOperator_ ;
       /**
-       * <code>optional bool use_and_as_default_operator = 3;</code>
+       * <code>bool use_and_as_default_operator = 3;</code>
        */
       public boolean getUseAndAsDefaultOperator() {
         return useAndAsDefaultOperator_;
       }
       /**
-       * <code>optional bool use_and_as_default_operator = 3;</code>
+       * <code>bool use_and_as_default_operator = 3;</code>
        */
       public Builder setUseAndAsDefaultOperator(boolean value) {
         
@@ -3258,7 +3258,7 @@ public  final class Query extends
         return this;
       }
       /**
-       * <code>optional bool use_and_as_default_operator = 3;</code>
+       * <code>bool use_and_as_default_operator = 3;</code>
        */
       public Builder clearUseAndAsDefaultOperator() {
         
@@ -3273,7 +3273,7 @@ public  final class Query extends
        * see: https://www.elastic.co/guide/en/elasticsearch/reference/current/query-dsl-minimum-should-match.html
        * </pre>
        *
-       * <code>optional string minimum_should_match = 4;</code>
+       * <code>string minimum_should_match = 4;</code>
        */
       public java.lang.String getMinimumShouldMatch() {
         java.lang.Object ref = minimumShouldMatch_;
@@ -3292,7 +3292,7 @@ public  final class Query extends
        * see: https://www.elastic.co/guide/en/elasticsearch/reference/current/query-dsl-minimum-should-match.html
        * </pre>
        *
-       * <code>optional string minimum_should_match = 4;</code>
+       * <code>string minimum_should_match = 4;</code>
        */
       public com.google.protobuf.ByteString
           getMinimumShouldMatchBytes() {
@@ -3312,7 +3312,7 @@ public  final class Query extends
        * see: https://www.elastic.co/guide/en/elasticsearch/reference/current/query-dsl-minimum-should-match.html
        * </pre>
        *
-       * <code>optional string minimum_should_match = 4;</code>
+       * <code>string minimum_should_match = 4;</code>
        */
       public Builder setMinimumShouldMatch(
           java.lang.String value) {
@@ -3329,7 +3329,7 @@ public  final class Query extends
        * see: https://www.elastic.co/guide/en/elasticsearch/reference/current/query-dsl-minimum-should-match.html
        * </pre>
        *
-       * <code>optional string minimum_should_match = 4;</code>
+       * <code>string minimum_should_match = 4;</code>
        */
       public Builder clearMinimumShouldMatch() {
         
@@ -3342,7 +3342,7 @@ public  final class Query extends
        * see: https://www.elastic.co/guide/en/elasticsearch/reference/current/query-dsl-minimum-should-match.html
        * </pre>
        *
-       * <code>optional string minimum_should_match = 4;</code>
+       * <code>string minimum_should_match = 4;</code>
        */
       public Builder setMinimumShouldMatchBytes(
           com.google.protobuf.ByteString value) {
@@ -3454,7 +3454,7 @@ public  final class Query extends
    * see: https://www.elastic.co/guide/en/elasticsearch/reference/current/query-dsl-terms-query.html
    * </pre>
    *
-   * <code>optional .dstore.elastic.Query.Terms terms_query = 1;</code>
+   * <code>.dstore.elastic.Query.Terms terms_query = 1;</code>
    */
   public io.dstore.elastic.Query.Terms getTermsQuery() {
     if (queryCase_ == 1) {
@@ -3467,7 +3467,7 @@ public  final class Query extends
    * see: https://www.elastic.co/guide/en/elasticsearch/reference/current/query-dsl-terms-query.html
    * </pre>
    *
-   * <code>optional .dstore.elastic.Query.Terms terms_query = 1;</code>
+   * <code>.dstore.elastic.Query.Terms terms_query = 1;</code>
    */
   public io.dstore.elastic.Query.TermsOrBuilder getTermsQueryOrBuilder() {
     if (queryCase_ == 1) {
@@ -3482,7 +3482,7 @@ public  final class Query extends
    * see: https://www.elastic.co/guide/en/elasticsearch/reference/current/query-dsl-type-query.html
    * </pre>
    *
-   * <code>optional .dstore.elastic.Query.Type type_query = 2;</code>
+   * <code>.dstore.elastic.Query.Type type_query = 2;</code>
    */
   public io.dstore.elastic.Query.Type getTypeQuery() {
     if (queryCase_ == 2) {
@@ -3495,7 +3495,7 @@ public  final class Query extends
    * see: https://www.elastic.co/guide/en/elasticsearch/reference/current/query-dsl-type-query.html
    * </pre>
    *
-   * <code>optional .dstore.elastic.Query.Type type_query = 2;</code>
+   * <code>.dstore.elastic.Query.Type type_query = 2;</code>
    */
   public io.dstore.elastic.Query.TypeOrBuilder getTypeQueryOrBuilder() {
     if (queryCase_ == 2) {
@@ -3510,7 +3510,7 @@ public  final class Query extends
    * see: https://www.elastic.co/guide/en/elasticsearch/reference/current/query-dsl-simple-query-string-query.html
    * </pre>
    *
-   * <code>optional .dstore.elastic.Query.SimpleQueryString simple_query_string_query = 3;</code>
+   * <code>.dstore.elastic.Query.SimpleQueryString simple_query_string_query = 3;</code>
    */
   public io.dstore.elastic.Query.SimpleQueryString getSimpleQueryStringQuery() {
     if (queryCase_ == 3) {
@@ -3523,7 +3523,7 @@ public  final class Query extends
    * see: https://www.elastic.co/guide/en/elasticsearch/reference/current/query-dsl-simple-query-string-query.html
    * </pre>
    *
-   * <code>optional .dstore.elastic.Query.SimpleQueryString simple_query_string_query = 3;</code>
+   * <code>.dstore.elastic.Query.SimpleQueryString simple_query_string_query = 3;</code>
    */
   public io.dstore.elastic.Query.SimpleQueryStringOrBuilder getSimpleQueryStringQueryOrBuilder() {
     if (queryCase_ == 3) {
@@ -3538,7 +3538,7 @@ public  final class Query extends
    * see: https://www.elastic.co/guide/en/elasticsearch/reference/current/query-dsl-range-query.html
    * </pre>
    *
-   * <code>optional .dstore.elastic.Query.Range range_query = 4;</code>
+   * <code>.dstore.elastic.Query.Range range_query = 4;</code>
    */
   public io.dstore.elastic.Query.Range getRangeQuery() {
     if (queryCase_ == 4) {
@@ -3551,7 +3551,7 @@ public  final class Query extends
    * see: https://www.elastic.co/guide/en/elasticsearch/reference/current/query-dsl-range-query.html
    * </pre>
    *
-   * <code>optional .dstore.elastic.Query.Range range_query = 4;</code>
+   * <code>.dstore.elastic.Query.Range range_query = 4;</code>
    */
   public io.dstore.elastic.Query.RangeOrBuilder getRangeQueryOrBuilder() {
     if (queryCase_ == 4) {
@@ -3566,7 +3566,7 @@ public  final class Query extends
    * not yet supported in FacetedNavigation
    * </pre>
    *
-   * <code>optional .dstore.elastic.BoolQuery bool_query = 20;</code>
+   * <code>.dstore.elastic.BoolQuery bool_query = 20;</code>
    */
   public io.dstore.elastic.BoolQuery getBoolQuery() {
     if (queryCase_ == 20) {
@@ -3579,7 +3579,7 @@ public  final class Query extends
    * not yet supported in FacetedNavigation
    * </pre>
    *
-   * <code>optional .dstore.elastic.BoolQuery bool_query = 20;</code>
+   * <code>.dstore.elastic.BoolQuery bool_query = 20;</code>
    */
   public io.dstore.elastic.BoolQueryOrBuilder getBoolQueryOrBuilder() {
     if (queryCase_ == 20) {
@@ -3694,7 +3694,7 @@ public  final class Query extends
       return memoizedHashCode;
     }
     int hash = 41;
-    hash = (19 * hash) + getDescriptorForType().hashCode();
+    hash = (19 * hash) + getDescriptor().hashCode();
     switch (queryCase_) {
       case 1:
         hash = (37 * hash) + TERMS_QUERY_FIELD_NUMBER;
@@ -4011,7 +4011,7 @@ public  final class Query extends
      * see: https://www.elastic.co/guide/en/elasticsearch/reference/current/query-dsl-terms-query.html
      * </pre>
      *
-     * <code>optional .dstore.elastic.Query.Terms terms_query = 1;</code>
+     * <code>.dstore.elastic.Query.Terms terms_query = 1;</code>
      */
     public io.dstore.elastic.Query.Terms getTermsQuery() {
       if (termsQueryBuilder_ == null) {
@@ -4031,7 +4031,7 @@ public  final class Query extends
      * see: https://www.elastic.co/guide/en/elasticsearch/reference/current/query-dsl-terms-query.html
      * </pre>
      *
-     * <code>optional .dstore.elastic.Query.Terms terms_query = 1;</code>
+     * <code>.dstore.elastic.Query.Terms terms_query = 1;</code>
      */
     public Builder setTermsQuery(io.dstore.elastic.Query.Terms value) {
       if (termsQueryBuilder_ == null) {
@@ -4051,7 +4051,7 @@ public  final class Query extends
      * see: https://www.elastic.co/guide/en/elasticsearch/reference/current/query-dsl-terms-query.html
      * </pre>
      *
-     * <code>optional .dstore.elastic.Query.Terms terms_query = 1;</code>
+     * <code>.dstore.elastic.Query.Terms terms_query = 1;</code>
      */
     public Builder setTermsQuery(
         io.dstore.elastic.Query.Terms.Builder builderForValue) {
@@ -4069,7 +4069,7 @@ public  final class Query extends
      * see: https://www.elastic.co/guide/en/elasticsearch/reference/current/query-dsl-terms-query.html
      * </pre>
      *
-     * <code>optional .dstore.elastic.Query.Terms terms_query = 1;</code>
+     * <code>.dstore.elastic.Query.Terms terms_query = 1;</code>
      */
     public Builder mergeTermsQuery(io.dstore.elastic.Query.Terms value) {
       if (termsQueryBuilder_ == null) {
@@ -4095,7 +4095,7 @@ public  final class Query extends
      * see: https://www.elastic.co/guide/en/elasticsearch/reference/current/query-dsl-terms-query.html
      * </pre>
      *
-     * <code>optional .dstore.elastic.Query.Terms terms_query = 1;</code>
+     * <code>.dstore.elastic.Query.Terms terms_query = 1;</code>
      */
     public Builder clearTermsQuery() {
       if (termsQueryBuilder_ == null) {
@@ -4118,7 +4118,7 @@ public  final class Query extends
      * see: https://www.elastic.co/guide/en/elasticsearch/reference/current/query-dsl-terms-query.html
      * </pre>
      *
-     * <code>optional .dstore.elastic.Query.Terms terms_query = 1;</code>
+     * <code>.dstore.elastic.Query.Terms terms_query = 1;</code>
      */
     public io.dstore.elastic.Query.Terms.Builder getTermsQueryBuilder() {
       return getTermsQueryFieldBuilder().getBuilder();
@@ -4128,7 +4128,7 @@ public  final class Query extends
      * see: https://www.elastic.co/guide/en/elasticsearch/reference/current/query-dsl-terms-query.html
      * </pre>
      *
-     * <code>optional .dstore.elastic.Query.Terms terms_query = 1;</code>
+     * <code>.dstore.elastic.Query.Terms terms_query = 1;</code>
      */
     public io.dstore.elastic.Query.TermsOrBuilder getTermsQueryOrBuilder() {
       if ((queryCase_ == 1) && (termsQueryBuilder_ != null)) {
@@ -4145,7 +4145,7 @@ public  final class Query extends
      * see: https://www.elastic.co/guide/en/elasticsearch/reference/current/query-dsl-terms-query.html
      * </pre>
      *
-     * <code>optional .dstore.elastic.Query.Terms terms_query = 1;</code>
+     * <code>.dstore.elastic.Query.Terms terms_query = 1;</code>
      */
     private com.google.protobuf.SingleFieldBuilderV3<
         io.dstore.elastic.Query.Terms, io.dstore.elastic.Query.Terms.Builder, io.dstore.elastic.Query.TermsOrBuilder> 
@@ -4173,7 +4173,7 @@ public  final class Query extends
      * see: https://www.elastic.co/guide/en/elasticsearch/reference/current/query-dsl-type-query.html
      * </pre>
      *
-     * <code>optional .dstore.elastic.Query.Type type_query = 2;</code>
+     * <code>.dstore.elastic.Query.Type type_query = 2;</code>
      */
     public io.dstore.elastic.Query.Type getTypeQuery() {
       if (typeQueryBuilder_ == null) {
@@ -4193,7 +4193,7 @@ public  final class Query extends
      * see: https://www.elastic.co/guide/en/elasticsearch/reference/current/query-dsl-type-query.html
      * </pre>
      *
-     * <code>optional .dstore.elastic.Query.Type type_query = 2;</code>
+     * <code>.dstore.elastic.Query.Type type_query = 2;</code>
      */
     public Builder setTypeQuery(io.dstore.elastic.Query.Type value) {
       if (typeQueryBuilder_ == null) {
@@ -4213,7 +4213,7 @@ public  final class Query extends
      * see: https://www.elastic.co/guide/en/elasticsearch/reference/current/query-dsl-type-query.html
      * </pre>
      *
-     * <code>optional .dstore.elastic.Query.Type type_query = 2;</code>
+     * <code>.dstore.elastic.Query.Type type_query = 2;</code>
      */
     public Builder setTypeQuery(
         io.dstore.elastic.Query.Type.Builder builderForValue) {
@@ -4231,7 +4231,7 @@ public  final class Query extends
      * see: https://www.elastic.co/guide/en/elasticsearch/reference/current/query-dsl-type-query.html
      * </pre>
      *
-     * <code>optional .dstore.elastic.Query.Type type_query = 2;</code>
+     * <code>.dstore.elastic.Query.Type type_query = 2;</code>
      */
     public Builder mergeTypeQuery(io.dstore.elastic.Query.Type value) {
       if (typeQueryBuilder_ == null) {
@@ -4257,7 +4257,7 @@ public  final class Query extends
      * see: https://www.elastic.co/guide/en/elasticsearch/reference/current/query-dsl-type-query.html
      * </pre>
      *
-     * <code>optional .dstore.elastic.Query.Type type_query = 2;</code>
+     * <code>.dstore.elastic.Query.Type type_query = 2;</code>
      */
     public Builder clearTypeQuery() {
       if (typeQueryBuilder_ == null) {
@@ -4280,7 +4280,7 @@ public  final class Query extends
      * see: https://www.elastic.co/guide/en/elasticsearch/reference/current/query-dsl-type-query.html
      * </pre>
      *
-     * <code>optional .dstore.elastic.Query.Type type_query = 2;</code>
+     * <code>.dstore.elastic.Query.Type type_query = 2;</code>
      */
     public io.dstore.elastic.Query.Type.Builder getTypeQueryBuilder() {
       return getTypeQueryFieldBuilder().getBuilder();
@@ -4290,7 +4290,7 @@ public  final class Query extends
      * see: https://www.elastic.co/guide/en/elasticsearch/reference/current/query-dsl-type-query.html
      * </pre>
      *
-     * <code>optional .dstore.elastic.Query.Type type_query = 2;</code>
+     * <code>.dstore.elastic.Query.Type type_query = 2;</code>
      */
     public io.dstore.elastic.Query.TypeOrBuilder getTypeQueryOrBuilder() {
       if ((queryCase_ == 2) && (typeQueryBuilder_ != null)) {
@@ -4307,7 +4307,7 @@ public  final class Query extends
      * see: https://www.elastic.co/guide/en/elasticsearch/reference/current/query-dsl-type-query.html
      * </pre>
      *
-     * <code>optional .dstore.elastic.Query.Type type_query = 2;</code>
+     * <code>.dstore.elastic.Query.Type type_query = 2;</code>
      */
     private com.google.protobuf.SingleFieldBuilderV3<
         io.dstore.elastic.Query.Type, io.dstore.elastic.Query.Type.Builder, io.dstore.elastic.Query.TypeOrBuilder> 
@@ -4335,7 +4335,7 @@ public  final class Query extends
      * see: https://www.elastic.co/guide/en/elasticsearch/reference/current/query-dsl-simple-query-string-query.html
      * </pre>
      *
-     * <code>optional .dstore.elastic.Query.SimpleQueryString simple_query_string_query = 3;</code>
+     * <code>.dstore.elastic.Query.SimpleQueryString simple_query_string_query = 3;</code>
      */
     public io.dstore.elastic.Query.SimpleQueryString getSimpleQueryStringQuery() {
       if (simpleQueryStringQueryBuilder_ == null) {
@@ -4355,7 +4355,7 @@ public  final class Query extends
      * see: https://www.elastic.co/guide/en/elasticsearch/reference/current/query-dsl-simple-query-string-query.html
      * </pre>
      *
-     * <code>optional .dstore.elastic.Query.SimpleQueryString simple_query_string_query = 3;</code>
+     * <code>.dstore.elastic.Query.SimpleQueryString simple_query_string_query = 3;</code>
      */
     public Builder setSimpleQueryStringQuery(io.dstore.elastic.Query.SimpleQueryString value) {
       if (simpleQueryStringQueryBuilder_ == null) {
@@ -4375,7 +4375,7 @@ public  final class Query extends
      * see: https://www.elastic.co/guide/en/elasticsearch/reference/current/query-dsl-simple-query-string-query.html
      * </pre>
      *
-     * <code>optional .dstore.elastic.Query.SimpleQueryString simple_query_string_query = 3;</code>
+     * <code>.dstore.elastic.Query.SimpleQueryString simple_query_string_query = 3;</code>
      */
     public Builder setSimpleQueryStringQuery(
         io.dstore.elastic.Query.SimpleQueryString.Builder builderForValue) {
@@ -4393,7 +4393,7 @@ public  final class Query extends
      * see: https://www.elastic.co/guide/en/elasticsearch/reference/current/query-dsl-simple-query-string-query.html
      * </pre>
      *
-     * <code>optional .dstore.elastic.Query.SimpleQueryString simple_query_string_query = 3;</code>
+     * <code>.dstore.elastic.Query.SimpleQueryString simple_query_string_query = 3;</code>
      */
     public Builder mergeSimpleQueryStringQuery(io.dstore.elastic.Query.SimpleQueryString value) {
       if (simpleQueryStringQueryBuilder_ == null) {
@@ -4419,7 +4419,7 @@ public  final class Query extends
      * see: https://www.elastic.co/guide/en/elasticsearch/reference/current/query-dsl-simple-query-string-query.html
      * </pre>
      *
-     * <code>optional .dstore.elastic.Query.SimpleQueryString simple_query_string_query = 3;</code>
+     * <code>.dstore.elastic.Query.SimpleQueryString simple_query_string_query = 3;</code>
      */
     public Builder clearSimpleQueryStringQuery() {
       if (simpleQueryStringQueryBuilder_ == null) {
@@ -4442,7 +4442,7 @@ public  final class Query extends
      * see: https://www.elastic.co/guide/en/elasticsearch/reference/current/query-dsl-simple-query-string-query.html
      * </pre>
      *
-     * <code>optional .dstore.elastic.Query.SimpleQueryString simple_query_string_query = 3;</code>
+     * <code>.dstore.elastic.Query.SimpleQueryString simple_query_string_query = 3;</code>
      */
     public io.dstore.elastic.Query.SimpleQueryString.Builder getSimpleQueryStringQueryBuilder() {
       return getSimpleQueryStringQueryFieldBuilder().getBuilder();
@@ -4452,7 +4452,7 @@ public  final class Query extends
      * see: https://www.elastic.co/guide/en/elasticsearch/reference/current/query-dsl-simple-query-string-query.html
      * </pre>
      *
-     * <code>optional .dstore.elastic.Query.SimpleQueryString simple_query_string_query = 3;</code>
+     * <code>.dstore.elastic.Query.SimpleQueryString simple_query_string_query = 3;</code>
      */
     public io.dstore.elastic.Query.SimpleQueryStringOrBuilder getSimpleQueryStringQueryOrBuilder() {
       if ((queryCase_ == 3) && (simpleQueryStringQueryBuilder_ != null)) {
@@ -4469,7 +4469,7 @@ public  final class Query extends
      * see: https://www.elastic.co/guide/en/elasticsearch/reference/current/query-dsl-simple-query-string-query.html
      * </pre>
      *
-     * <code>optional .dstore.elastic.Query.SimpleQueryString simple_query_string_query = 3;</code>
+     * <code>.dstore.elastic.Query.SimpleQueryString simple_query_string_query = 3;</code>
      */
     private com.google.protobuf.SingleFieldBuilderV3<
         io.dstore.elastic.Query.SimpleQueryString, io.dstore.elastic.Query.SimpleQueryString.Builder, io.dstore.elastic.Query.SimpleQueryStringOrBuilder> 
@@ -4497,7 +4497,7 @@ public  final class Query extends
      * see: https://www.elastic.co/guide/en/elasticsearch/reference/current/query-dsl-range-query.html
      * </pre>
      *
-     * <code>optional .dstore.elastic.Query.Range range_query = 4;</code>
+     * <code>.dstore.elastic.Query.Range range_query = 4;</code>
      */
     public io.dstore.elastic.Query.Range getRangeQuery() {
       if (rangeQueryBuilder_ == null) {
@@ -4517,7 +4517,7 @@ public  final class Query extends
      * see: https://www.elastic.co/guide/en/elasticsearch/reference/current/query-dsl-range-query.html
      * </pre>
      *
-     * <code>optional .dstore.elastic.Query.Range range_query = 4;</code>
+     * <code>.dstore.elastic.Query.Range range_query = 4;</code>
      */
     public Builder setRangeQuery(io.dstore.elastic.Query.Range value) {
       if (rangeQueryBuilder_ == null) {
@@ -4537,7 +4537,7 @@ public  final class Query extends
      * see: https://www.elastic.co/guide/en/elasticsearch/reference/current/query-dsl-range-query.html
      * </pre>
      *
-     * <code>optional .dstore.elastic.Query.Range range_query = 4;</code>
+     * <code>.dstore.elastic.Query.Range range_query = 4;</code>
      */
     public Builder setRangeQuery(
         io.dstore.elastic.Query.Range.Builder builderForValue) {
@@ -4555,7 +4555,7 @@ public  final class Query extends
      * see: https://www.elastic.co/guide/en/elasticsearch/reference/current/query-dsl-range-query.html
      * </pre>
      *
-     * <code>optional .dstore.elastic.Query.Range range_query = 4;</code>
+     * <code>.dstore.elastic.Query.Range range_query = 4;</code>
      */
     public Builder mergeRangeQuery(io.dstore.elastic.Query.Range value) {
       if (rangeQueryBuilder_ == null) {
@@ -4581,7 +4581,7 @@ public  final class Query extends
      * see: https://www.elastic.co/guide/en/elasticsearch/reference/current/query-dsl-range-query.html
      * </pre>
      *
-     * <code>optional .dstore.elastic.Query.Range range_query = 4;</code>
+     * <code>.dstore.elastic.Query.Range range_query = 4;</code>
      */
     public Builder clearRangeQuery() {
       if (rangeQueryBuilder_ == null) {
@@ -4604,7 +4604,7 @@ public  final class Query extends
      * see: https://www.elastic.co/guide/en/elasticsearch/reference/current/query-dsl-range-query.html
      * </pre>
      *
-     * <code>optional .dstore.elastic.Query.Range range_query = 4;</code>
+     * <code>.dstore.elastic.Query.Range range_query = 4;</code>
      */
     public io.dstore.elastic.Query.Range.Builder getRangeQueryBuilder() {
       return getRangeQueryFieldBuilder().getBuilder();
@@ -4614,7 +4614,7 @@ public  final class Query extends
      * see: https://www.elastic.co/guide/en/elasticsearch/reference/current/query-dsl-range-query.html
      * </pre>
      *
-     * <code>optional .dstore.elastic.Query.Range range_query = 4;</code>
+     * <code>.dstore.elastic.Query.Range range_query = 4;</code>
      */
     public io.dstore.elastic.Query.RangeOrBuilder getRangeQueryOrBuilder() {
       if ((queryCase_ == 4) && (rangeQueryBuilder_ != null)) {
@@ -4631,7 +4631,7 @@ public  final class Query extends
      * see: https://www.elastic.co/guide/en/elasticsearch/reference/current/query-dsl-range-query.html
      * </pre>
      *
-     * <code>optional .dstore.elastic.Query.Range range_query = 4;</code>
+     * <code>.dstore.elastic.Query.Range range_query = 4;</code>
      */
     private com.google.protobuf.SingleFieldBuilderV3<
         io.dstore.elastic.Query.Range, io.dstore.elastic.Query.Range.Builder, io.dstore.elastic.Query.RangeOrBuilder> 
@@ -4659,7 +4659,7 @@ public  final class Query extends
      * not yet supported in FacetedNavigation
      * </pre>
      *
-     * <code>optional .dstore.elastic.BoolQuery bool_query = 20;</code>
+     * <code>.dstore.elastic.BoolQuery bool_query = 20;</code>
      */
     public io.dstore.elastic.BoolQuery getBoolQuery() {
       if (boolQueryBuilder_ == null) {
@@ -4679,7 +4679,7 @@ public  final class Query extends
      * not yet supported in FacetedNavigation
      * </pre>
      *
-     * <code>optional .dstore.elastic.BoolQuery bool_query = 20;</code>
+     * <code>.dstore.elastic.BoolQuery bool_query = 20;</code>
      */
     public Builder setBoolQuery(io.dstore.elastic.BoolQuery value) {
       if (boolQueryBuilder_ == null) {
@@ -4699,7 +4699,7 @@ public  final class Query extends
      * not yet supported in FacetedNavigation
      * </pre>
      *
-     * <code>optional .dstore.elastic.BoolQuery bool_query = 20;</code>
+     * <code>.dstore.elastic.BoolQuery bool_query = 20;</code>
      */
     public Builder setBoolQuery(
         io.dstore.elastic.BoolQuery.Builder builderForValue) {
@@ -4717,7 +4717,7 @@ public  final class Query extends
      * not yet supported in FacetedNavigation
      * </pre>
      *
-     * <code>optional .dstore.elastic.BoolQuery bool_query = 20;</code>
+     * <code>.dstore.elastic.BoolQuery bool_query = 20;</code>
      */
     public Builder mergeBoolQuery(io.dstore.elastic.BoolQuery value) {
       if (boolQueryBuilder_ == null) {
@@ -4743,7 +4743,7 @@ public  final class Query extends
      * not yet supported in FacetedNavigation
      * </pre>
      *
-     * <code>optional .dstore.elastic.BoolQuery bool_query = 20;</code>
+     * <code>.dstore.elastic.BoolQuery bool_query = 20;</code>
      */
     public Builder clearBoolQuery() {
       if (boolQueryBuilder_ == null) {
@@ -4766,7 +4766,7 @@ public  final class Query extends
      * not yet supported in FacetedNavigation
      * </pre>
      *
-     * <code>optional .dstore.elastic.BoolQuery bool_query = 20;</code>
+     * <code>.dstore.elastic.BoolQuery bool_query = 20;</code>
      */
     public io.dstore.elastic.BoolQuery.Builder getBoolQueryBuilder() {
       return getBoolQueryFieldBuilder().getBuilder();
@@ -4776,7 +4776,7 @@ public  final class Query extends
      * not yet supported in FacetedNavigation
      * </pre>
      *
-     * <code>optional .dstore.elastic.BoolQuery bool_query = 20;</code>
+     * <code>.dstore.elastic.BoolQuery bool_query = 20;</code>
      */
     public io.dstore.elastic.BoolQueryOrBuilder getBoolQueryOrBuilder() {
       if ((queryCase_ == 20) && (boolQueryBuilder_ != null)) {
@@ -4793,7 +4793,7 @@ public  final class Query extends
      * not yet supported in FacetedNavigation
      * </pre>
      *
-     * <code>optional .dstore.elastic.BoolQuery bool_query = 20;</code>
+     * <code>.dstore.elastic.BoolQuery bool_query = 20;</code>
      */
     private com.google.protobuf.SingleFieldBuilderV3<
         io.dstore.elastic.BoolQuery, io.dstore.elastic.BoolQuery.Builder, io.dstore.elastic.BoolQueryOrBuilder> 

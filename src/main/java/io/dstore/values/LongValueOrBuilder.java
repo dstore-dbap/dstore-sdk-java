@@ -8,7 +8,7 @@ public interface LongValueOrBuilder extends
     com.google.protobuf.MessageOrBuilder {
 
   /**
-   * <code>optional int64 value = 1;</code>
+   * <code>int64 value = 1;</code>
    */
   long getValue();
 }

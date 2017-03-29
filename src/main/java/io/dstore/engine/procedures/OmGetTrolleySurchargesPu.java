@@ -19,182 +19,182 @@ public final class OmGetTrolleySurchargesPu {
       com.google.protobuf.MessageOrBuilder {
 
     /**
-     * <code>optional .dstore.values.StringValue unique_id = 1;</code>
+     * <code>.dstore.values.StringValue unique_id = 1;</code>
      */
     boolean hasUniqueId();
     /**
-     * <code>optional .dstore.values.StringValue unique_id = 1;</code>
+     * <code>.dstore.values.StringValue unique_id = 1;</code>
      */
     io.dstore.values.StringValue getUniqueId();
     /**
-     * <code>optional .dstore.values.StringValue unique_id = 1;</code>
+     * <code>.dstore.values.StringValue unique_id = 1;</code>
      */
     io.dstore.values.StringValueOrBuilder getUniqueIdOrBuilder();
 
     /**
-     * <code>optional bool unique_id_null = 1001;</code>
+     * <code>bool unique_id_null = 1001;</code>
      */
     boolean getUniqueIdNull();
 
     /**
-     * <code>optional .dstore.values.DecimalValue gross_sum = 2;</code>
+     * <code>.dstore.values.DecimalValue gross_sum = 2;</code>
      */
     boolean hasGrossSum();
     /**
-     * <code>optional .dstore.values.DecimalValue gross_sum = 2;</code>
+     * <code>.dstore.values.DecimalValue gross_sum = 2;</code>
      */
     io.dstore.values.DecimalValue getGrossSum();
     /**
-     * <code>optional .dstore.values.DecimalValue gross_sum = 2;</code>
+     * <code>.dstore.values.DecimalValue gross_sum = 2;</code>
      */
     io.dstore.values.DecimalValueOrBuilder getGrossSumOrBuilder();
 
     /**
-     * <code>optional bool gross_sum_null = 1002;</code>
+     * <code>bool gross_sum_null = 1002;</code>
      */
     boolean getGrossSumNull();
 
     /**
-     * <code>optional .dstore.values.DecimalValue net_sum = 3;</code>
+     * <code>.dstore.values.DecimalValue net_sum = 3;</code>
      */
     boolean hasNetSum();
     /**
-     * <code>optional .dstore.values.DecimalValue net_sum = 3;</code>
+     * <code>.dstore.values.DecimalValue net_sum = 3;</code>
      */
     io.dstore.values.DecimalValue getNetSum();
     /**
-     * <code>optional .dstore.values.DecimalValue net_sum = 3;</code>
+     * <code>.dstore.values.DecimalValue net_sum = 3;</code>
      */
     io.dstore.values.DecimalValueOrBuilder getNetSumOrBuilder();
 
     /**
-     * <code>optional bool net_sum_null = 1003;</code>
+     * <code>bool net_sum_null = 1003;</code>
      */
     boolean getNetSumNull();
 
     /**
-     * <code>optional .dstore.values.IntegerValue currency_id = 4;</code>
+     * <code>.dstore.values.IntegerValue currency_id = 4;</code>
      */
     boolean hasCurrencyId();
     /**
-     * <code>optional .dstore.values.IntegerValue currency_id = 4;</code>
+     * <code>.dstore.values.IntegerValue currency_id = 4;</code>
      */
     io.dstore.values.IntegerValue getCurrencyId();
     /**
-     * <code>optional .dstore.values.IntegerValue currency_id = 4;</code>
+     * <code>.dstore.values.IntegerValue currency_id = 4;</code>
      */
     io.dstore.values.IntegerValueOrBuilder getCurrencyIdOrBuilder();
 
     /**
-     * <code>optional bool currency_id_null = 1004;</code>
+     * <code>bool currency_id_null = 1004;</code>
      */
     boolean getCurrencyIdNull();
 
     /**
-     * <code>optional .dstore.values.IntegerValue person_id = 5;</code>
+     * <code>.dstore.values.IntegerValue person_id = 5;</code>
      */
     boolean hasPersonId();
     /**
-     * <code>optional .dstore.values.IntegerValue person_id = 5;</code>
+     * <code>.dstore.values.IntegerValue person_id = 5;</code>
      */
     io.dstore.values.IntegerValue getPersonId();
     /**
-     * <code>optional .dstore.values.IntegerValue person_id = 5;</code>
+     * <code>.dstore.values.IntegerValue person_id = 5;</code>
      */
     io.dstore.values.IntegerValueOrBuilder getPersonIdOrBuilder();
 
     /**
-     * <code>optional bool person_id_null = 1005;</code>
+     * <code>bool person_id_null = 1005;</code>
      */
     boolean getPersonIdNull();
 
     /**
-     * <code>optional .dstore.values.IntegerValue delivery_person_id = 6;</code>
+     * <code>.dstore.values.IntegerValue delivery_person_id = 6;</code>
      */
     boolean hasDeliveryPersonId();
     /**
-     * <code>optional .dstore.values.IntegerValue delivery_person_id = 6;</code>
+     * <code>.dstore.values.IntegerValue delivery_person_id = 6;</code>
      */
     io.dstore.values.IntegerValue getDeliveryPersonId();
     /**
-     * <code>optional .dstore.values.IntegerValue delivery_person_id = 6;</code>
+     * <code>.dstore.values.IntegerValue delivery_person_id = 6;</code>
      */
     io.dstore.values.IntegerValueOrBuilder getDeliveryPersonIdOrBuilder();
 
     /**
-     * <code>optional bool delivery_person_id_null = 1006;</code>
+     * <code>bool delivery_person_id_null = 1006;</code>
      */
     boolean getDeliveryPersonIdNull();
 
     /**
-     * <code>optional .dstore.values.IntegerValue shipping_type_id = 7;</code>
+     * <code>.dstore.values.IntegerValue shipping_type_id = 7;</code>
      */
     boolean hasShippingTypeId();
     /**
-     * <code>optional .dstore.values.IntegerValue shipping_type_id = 7;</code>
+     * <code>.dstore.values.IntegerValue shipping_type_id = 7;</code>
      */
     io.dstore.values.IntegerValue getShippingTypeId();
     /**
-     * <code>optional .dstore.values.IntegerValue shipping_type_id = 7;</code>
+     * <code>.dstore.values.IntegerValue shipping_type_id = 7;</code>
      */
     io.dstore.values.IntegerValueOrBuilder getShippingTypeIdOrBuilder();
 
     /**
-     * <code>optional bool shipping_type_id_null = 1007;</code>
+     * <code>bool shipping_type_id_null = 1007;</code>
      */
     boolean getShippingTypeIdNull();
 
     /**
-     * <code>optional .dstore.values.IntegerValue payment_type_id = 8;</code>
+     * <code>.dstore.values.IntegerValue payment_type_id = 8;</code>
      */
     boolean hasPaymentTypeId();
     /**
-     * <code>optional .dstore.values.IntegerValue payment_type_id = 8;</code>
+     * <code>.dstore.values.IntegerValue payment_type_id = 8;</code>
      */
     io.dstore.values.IntegerValue getPaymentTypeId();
     /**
-     * <code>optional .dstore.values.IntegerValue payment_type_id = 8;</code>
+     * <code>.dstore.values.IntegerValue payment_type_id = 8;</code>
      */
     io.dstore.values.IntegerValueOrBuilder getPaymentTypeIdOrBuilder();
 
     /**
-     * <code>optional bool payment_type_id_null = 1008;</code>
+     * <code>bool payment_type_id_null = 1008;</code>
      */
     boolean getPaymentTypeIdNull();
 
     /**
-     * <code>optional .dstore.values.DecimalValue use_cash_account_max_value = 9;</code>
+     * <code>.dstore.values.DecimalValue use_cash_account_max_value = 9;</code>
      */
     boolean hasUseCashAccountMaxValue();
     /**
-     * <code>optional .dstore.values.DecimalValue use_cash_account_max_value = 9;</code>
+     * <code>.dstore.values.DecimalValue use_cash_account_max_value = 9;</code>
      */
     io.dstore.values.DecimalValue getUseCashAccountMaxValue();
     /**
-     * <code>optional .dstore.values.DecimalValue use_cash_account_max_value = 9;</code>
+     * <code>.dstore.values.DecimalValue use_cash_account_max_value = 9;</code>
      */
     io.dstore.values.DecimalValueOrBuilder getUseCashAccountMaxValueOrBuilder();
 
     /**
-     * <code>optional bool use_cash_account_max_value_null = 1009;</code>
+     * <code>bool use_cash_account_max_value_null = 1009;</code>
      */
     boolean getUseCashAccountMaxValueNull();
 
     /**
-     * <code>optional .dstore.values.BooleanValue split_by_taxes = 10;</code>
+     * <code>.dstore.values.BooleanValue split_by_taxes = 10;</code>
      */
     boolean hasSplitByTaxes();
     /**
-     * <code>optional .dstore.values.BooleanValue split_by_taxes = 10;</code>
+     * <code>.dstore.values.BooleanValue split_by_taxes = 10;</code>
      */
     io.dstore.values.BooleanValue getSplitByTaxes();
     /**
-     * <code>optional .dstore.values.BooleanValue split_by_taxes = 10;</code>
+     * <code>.dstore.values.BooleanValue split_by_taxes = 10;</code>
      */
     io.dstore.values.BooleanValueOrBuilder getSplitByTaxesOrBuilder();
 
     /**
-     * <code>optional bool split_by_taxes_null = 1010;</code>
+     * <code>bool split_by_taxes_null = 1010;</code>
      */
     boolean getSplitByTaxesNull();
   }
@@ -453,19 +453,19 @@ public final class OmGetTrolleySurchargesPu {
     public static final int UNIQUE_ID_FIELD_NUMBER = 1;
     private io.dstore.values.StringValue uniqueId_;
     /**
-     * <code>optional .dstore.values.StringValue unique_id = 1;</code>
+     * <code>.dstore.values.StringValue unique_id = 1;</code>
      */
     public boolean hasUniqueId() {
       return uniqueId_ != null;
     }
     /**
-     * <code>optional .dstore.values.StringValue unique_id = 1;</code>
+     * <code>.dstore.values.StringValue unique_id = 1;</code>
      */
     public io.dstore.values.StringValue getUniqueId() {
       return uniqueId_ == null ? io.dstore.values.StringValue.getDefaultInstance() : uniqueId_;
     }
     /**
-     * <code>optional .dstore.values.StringValue unique_id = 1;</code>
+     * <code>.dstore.values.StringValue unique_id = 1;</code>
      */
     public io.dstore.values.StringValueOrBuilder getUniqueIdOrBuilder() {
       return getUniqueId();
@@ -474,7 +474,7 @@ public final class OmGetTrolleySurchargesPu {
     public static final int UNIQUE_ID_NULL_FIELD_NUMBER = 1001;
     private boolean uniqueIdNull_;
     /**
-     * <code>optional bool unique_id_null = 1001;</code>
+     * <code>bool unique_id_null = 1001;</code>
      */
     public boolean getUniqueIdNull() {
       return uniqueIdNull_;
@@ -483,19 +483,19 @@ public final class OmGetTrolleySurchargesPu {
     public static final int GROSS_SUM_FIELD_NUMBER = 2;
     private io.dstore.values.DecimalValue grossSum_;
     /**
-     * <code>optional .dstore.values.DecimalValue gross_sum = 2;</code>
+     * <code>.dstore.values.DecimalValue gross_sum = 2;</code>
      */
     public boolean hasGrossSum() {
       return grossSum_ != null;
     }
     /**
-     * <code>optional .dstore.values.DecimalValue gross_sum = 2;</code>
+     * <code>.dstore.values.DecimalValue gross_sum = 2;</code>
      */
     public io.dstore.values.DecimalValue getGrossSum() {
       return grossSum_ == null ? io.dstore.values.DecimalValue.getDefaultInstance() : grossSum_;
     }
     /**
-     * <code>optional .dstore.values.DecimalValue gross_sum = 2;</code>
+     * <code>.dstore.values.DecimalValue gross_sum = 2;</code>
      */
     public io.dstore.values.DecimalValueOrBuilder getGrossSumOrBuilder() {
       return getGrossSum();
@@ -504,7 +504,7 @@ public final class OmGetTrolleySurchargesPu {
     public static final int GROSS_SUM_NULL_FIELD_NUMBER = 1002;
     private boolean grossSumNull_;
     /**
-     * <code>optional bool gross_sum_null = 1002;</code>
+     * <code>bool gross_sum_null = 1002;</code>
      */
     public boolean getGrossSumNull() {
       return grossSumNull_;
@@ -513,19 +513,19 @@ public final class OmGetTrolleySurchargesPu {
     public static final int NET_SUM_FIELD_NUMBER = 3;
     private io.dstore.values.DecimalValue netSum_;
     /**
-     * <code>optional .dstore.values.DecimalValue net_sum = 3;</code>
+     * <code>.dstore.values.DecimalValue net_sum = 3;</code>
      */
     public boolean hasNetSum() {
       return netSum_ != null;
     }
     /**
-     * <code>optional .dstore.values.DecimalValue net_sum = 3;</code>
+     * <code>.dstore.values.DecimalValue net_sum = 3;</code>
      */
     public io.dstore.values.DecimalValue getNetSum() {
       return netSum_ == null ? io.dstore.values.DecimalValue.getDefaultInstance() : netSum_;
     }
     /**
-     * <code>optional .dstore.values.DecimalValue net_sum = 3;</code>
+     * <code>.dstore.values.DecimalValue net_sum = 3;</code>
      */
     public io.dstore.values.DecimalValueOrBuilder getNetSumOrBuilder() {
       return getNetSum();
@@ -534,7 +534,7 @@ public final class OmGetTrolleySurchargesPu {
     public static final int NET_SUM_NULL_FIELD_NUMBER = 1003;
     private boolean netSumNull_;
     /**
-     * <code>optional bool net_sum_null = 1003;</code>
+     * <code>bool net_sum_null = 1003;</code>
      */
     public boolean getNetSumNull() {
       return netSumNull_;
@@ -543,19 +543,19 @@ public final class OmGetTrolleySurchargesPu {
     public static final int CURRENCY_ID_FIELD_NUMBER = 4;
     private io.dstore.values.IntegerValue currencyId_;
     /**
-     * <code>optional .dstore.values.IntegerValue currency_id = 4;</code>
+     * <code>.dstore.values.IntegerValue currency_id = 4;</code>
      */
     public boolean hasCurrencyId() {
       return currencyId_ != null;
     }
     /**
-     * <code>optional .dstore.values.IntegerValue currency_id = 4;</code>
+     * <code>.dstore.values.IntegerValue currency_id = 4;</code>
      */
     public io.dstore.values.IntegerValue getCurrencyId() {
       return currencyId_ == null ? io.dstore.values.IntegerValue.getDefaultInstance() : currencyId_;
     }
     /**
-     * <code>optional .dstore.values.IntegerValue currency_id = 4;</code>
+     * <code>.dstore.values.IntegerValue currency_id = 4;</code>
      */
     public io.dstore.values.IntegerValueOrBuilder getCurrencyIdOrBuilder() {
       return getCurrencyId();
@@ -564,7 +564,7 @@ public final class OmGetTrolleySurchargesPu {
     public static final int CURRENCY_ID_NULL_FIELD_NUMBER = 1004;
     private boolean currencyIdNull_;
     /**
-     * <code>optional bool currency_id_null = 1004;</code>
+     * <code>bool currency_id_null = 1004;</code>
      */
     public boolean getCurrencyIdNull() {
       return currencyIdNull_;
@@ -573,19 +573,19 @@ public final class OmGetTrolleySurchargesPu {
     public static final int PERSON_ID_FIELD_NUMBER = 5;
     private io.dstore.values.IntegerValue personId_;
     /**
-     * <code>optional .dstore.values.IntegerValue person_id = 5;</code>
+     * <code>.dstore.values.IntegerValue person_id = 5;</code>
      */
     public boolean hasPersonId() {
       return personId_ != null;
     }
     /**
-     * <code>optional .dstore.values.IntegerValue person_id = 5;</code>
+     * <code>.dstore.values.IntegerValue person_id = 5;</code>
      */
     public io.dstore.values.IntegerValue getPersonId() {
       return personId_ == null ? io.dstore.values.IntegerValue.getDefaultInstance() : personId_;
     }
     /**
-     * <code>optional .dstore.values.IntegerValue person_id = 5;</code>
+     * <code>.dstore.values.IntegerValue person_id = 5;</code>
      */
     public io.dstore.values.IntegerValueOrBuilder getPersonIdOrBuilder() {
       return getPersonId();
@@ -594,7 +594,7 @@ public final class OmGetTrolleySurchargesPu {
     public static final int PERSON_ID_NULL_FIELD_NUMBER = 1005;
     private boolean personIdNull_;
     /**
-     * <code>optional bool person_id_null = 1005;</code>
+     * <code>bool person_id_null = 1005;</code>
      */
     public boolean getPersonIdNull() {
       return personIdNull_;
@@ -603,19 +603,19 @@ public final class OmGetTrolleySurchargesPu {
     public static final int DELIVERY_PERSON_ID_FIELD_NUMBER = 6;
     private io.dstore.values.IntegerValue deliveryPersonId_;
     /**
-     * <code>optional .dstore.values.IntegerValue delivery_person_id = 6;</code>
+     * <code>.dstore.values.IntegerValue delivery_person_id = 6;</code>
      */
     public boolean hasDeliveryPersonId() {
       return deliveryPersonId_ != null;
     }
     /**
-     * <code>optional .dstore.values.IntegerValue delivery_person_id = 6;</code>
+     * <code>.dstore.values.IntegerValue delivery_person_id = 6;</code>
      */
     public io.dstore.values.IntegerValue getDeliveryPersonId() {
       return deliveryPersonId_ == null ? io.dstore.values.IntegerValue.getDefaultInstance() : deliveryPersonId_;
     }
     /**
-     * <code>optional .dstore.values.IntegerValue delivery_person_id = 6;</code>
+     * <code>.dstore.values.IntegerValue delivery_person_id = 6;</code>
      */
     public io.dstore.values.IntegerValueOrBuilder getDeliveryPersonIdOrBuilder() {
       return getDeliveryPersonId();
@@ -624,7 +624,7 @@ public final class OmGetTrolleySurchargesPu {
     public static final int DELIVERY_PERSON_ID_NULL_FIELD_NUMBER = 1006;
     private boolean deliveryPersonIdNull_;
     /**
-     * <code>optional bool delivery_person_id_null = 1006;</code>
+     * <code>bool delivery_person_id_null = 1006;</code>
      */
     public boolean getDeliveryPersonIdNull() {
       return deliveryPersonIdNull_;
@@ -633,19 +633,19 @@ public final class OmGetTrolleySurchargesPu {
     public static final int SHIPPING_TYPE_ID_FIELD_NUMBER = 7;
     private io.dstore.values.IntegerValue shippingTypeId_;
     /**
-     * <code>optional .dstore.values.IntegerValue shipping_type_id = 7;</code>
+     * <code>.dstore.values.IntegerValue shipping_type_id = 7;</code>
      */
     public boolean hasShippingTypeId() {
       return shippingTypeId_ != null;
     }
     /**
-     * <code>optional .dstore.values.IntegerValue shipping_type_id = 7;</code>
+     * <code>.dstore.values.IntegerValue shipping_type_id = 7;</code>
      */
     public io.dstore.values.IntegerValue getShippingTypeId() {
       return shippingTypeId_ == null ? io.dstore.values.IntegerValue.getDefaultInstance() : shippingTypeId_;
     }
     /**
-     * <code>optional .dstore.values.IntegerValue shipping_type_id = 7;</code>
+     * <code>.dstore.values.IntegerValue shipping_type_id = 7;</code>
      */
     public io.dstore.values.IntegerValueOrBuilder getShippingTypeIdOrBuilder() {
       return getShippingTypeId();
@@ -654,7 +654,7 @@ public final class OmGetTrolleySurchargesPu {
     public static final int SHIPPING_TYPE_ID_NULL_FIELD_NUMBER = 1007;
     private boolean shippingTypeIdNull_;
     /**
-     * <code>optional bool shipping_type_id_null = 1007;</code>
+     * <code>bool shipping_type_id_null = 1007;</code>
      */
     public boolean getShippingTypeIdNull() {
       return shippingTypeIdNull_;
@@ -663,19 +663,19 @@ public final class OmGetTrolleySurchargesPu {
     public static final int PAYMENT_TYPE_ID_FIELD_NUMBER = 8;
     private io.dstore.values.IntegerValue paymentTypeId_;
     /**
-     * <code>optional .dstore.values.IntegerValue payment_type_id = 8;</code>
+     * <code>.dstore.values.IntegerValue payment_type_id = 8;</code>
      */
     public boolean hasPaymentTypeId() {
       return paymentTypeId_ != null;
     }
     /**
-     * <code>optional .dstore.values.IntegerValue payment_type_id = 8;</code>
+     * <code>.dstore.values.IntegerValue payment_type_id = 8;</code>
      */
     public io.dstore.values.IntegerValue getPaymentTypeId() {
       return paymentTypeId_ == null ? io.dstore.values.IntegerValue.getDefaultInstance() : paymentTypeId_;
     }
     /**
-     * <code>optional .dstore.values.IntegerValue payment_type_id = 8;</code>
+     * <code>.dstore.values.IntegerValue payment_type_id = 8;</code>
      */
     public io.dstore.values.IntegerValueOrBuilder getPaymentTypeIdOrBuilder() {
       return getPaymentTypeId();
@@ -684,7 +684,7 @@ public final class OmGetTrolleySurchargesPu {
     public static final int PAYMENT_TYPE_ID_NULL_FIELD_NUMBER = 1008;
     private boolean paymentTypeIdNull_;
     /**
-     * <code>optional bool payment_type_id_null = 1008;</code>
+     * <code>bool payment_type_id_null = 1008;</code>
      */
     public boolean getPaymentTypeIdNull() {
       return paymentTypeIdNull_;
@@ -693,19 +693,19 @@ public final class OmGetTrolleySurchargesPu {
     public static final int USE_CASH_ACCOUNT_MAX_VALUE_FIELD_NUMBER = 9;
     private io.dstore.values.DecimalValue useCashAccountMaxValue_;
     /**
-     * <code>optional .dstore.values.DecimalValue use_cash_account_max_value = 9;</code>
+     * <code>.dstore.values.DecimalValue use_cash_account_max_value = 9;</code>
      */
     public boolean hasUseCashAccountMaxValue() {
       return useCashAccountMaxValue_ != null;
     }
     /**
-     * <code>optional .dstore.values.DecimalValue use_cash_account_max_value = 9;</code>
+     * <code>.dstore.values.DecimalValue use_cash_account_max_value = 9;</code>
      */
     public io.dstore.values.DecimalValue getUseCashAccountMaxValue() {
       return useCashAccountMaxValue_ == null ? io.dstore.values.DecimalValue.getDefaultInstance() : useCashAccountMaxValue_;
     }
     /**
-     * <code>optional .dstore.values.DecimalValue use_cash_account_max_value = 9;</code>
+     * <code>.dstore.values.DecimalValue use_cash_account_max_value = 9;</code>
      */
     public io.dstore.values.DecimalValueOrBuilder getUseCashAccountMaxValueOrBuilder() {
       return getUseCashAccountMaxValue();
@@ -714,7 +714,7 @@ public final class OmGetTrolleySurchargesPu {
     public static final int USE_CASH_ACCOUNT_MAX_VALUE_NULL_FIELD_NUMBER = 1009;
     private boolean useCashAccountMaxValueNull_;
     /**
-     * <code>optional bool use_cash_account_max_value_null = 1009;</code>
+     * <code>bool use_cash_account_max_value_null = 1009;</code>
      */
     public boolean getUseCashAccountMaxValueNull() {
       return useCashAccountMaxValueNull_;
@@ -723,19 +723,19 @@ public final class OmGetTrolleySurchargesPu {
     public static final int SPLIT_BY_TAXES_FIELD_NUMBER = 10;
     private io.dstore.values.BooleanValue splitByTaxes_;
     /**
-     * <code>optional .dstore.values.BooleanValue split_by_taxes = 10;</code>
+     * <code>.dstore.values.BooleanValue split_by_taxes = 10;</code>
      */
     public boolean hasSplitByTaxes() {
       return splitByTaxes_ != null;
     }
     /**
-     * <code>optional .dstore.values.BooleanValue split_by_taxes = 10;</code>
+     * <code>.dstore.values.BooleanValue split_by_taxes = 10;</code>
      */
     public io.dstore.values.BooleanValue getSplitByTaxes() {
       return splitByTaxes_ == null ? io.dstore.values.BooleanValue.getDefaultInstance() : splitByTaxes_;
     }
     /**
-     * <code>optional .dstore.values.BooleanValue split_by_taxes = 10;</code>
+     * <code>.dstore.values.BooleanValue split_by_taxes = 10;</code>
      */
     public io.dstore.values.BooleanValueOrBuilder getSplitByTaxesOrBuilder() {
       return getSplitByTaxes();
@@ -744,7 +744,7 @@ public final class OmGetTrolleySurchargesPu {
     public static final int SPLIT_BY_TAXES_NULL_FIELD_NUMBER = 1010;
     private boolean splitByTaxesNull_;
     /**
-     * <code>optional bool split_by_taxes_null = 1010;</code>
+     * <code>bool split_by_taxes_null = 1010;</code>
      */
     public boolean getSplitByTaxesNull() {
       return splitByTaxesNull_;
@@ -1004,7 +1004,7 @@ public final class OmGetTrolleySurchargesPu {
         return memoizedHashCode;
       }
       int hash = 41;
-      hash = (19 * hash) + getDescriptorForType().hashCode();
+      hash = (19 * hash) + getDescriptor().hashCode();
       if (hasUniqueId()) {
         hash = (37 * hash) + UNIQUE_ID_FIELD_NUMBER;
         hash = (53 * hash) + getUniqueId().hashCode();
@@ -1486,13 +1486,13 @@ public final class OmGetTrolleySurchargesPu {
       private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.values.StringValue, io.dstore.values.StringValue.Builder, io.dstore.values.StringValueOrBuilder> uniqueIdBuilder_;
       /**
-       * <code>optional .dstore.values.StringValue unique_id = 1;</code>
+       * <code>.dstore.values.StringValue unique_id = 1;</code>
        */
       public boolean hasUniqueId() {
         return uniqueIdBuilder_ != null || uniqueId_ != null;
       }
       /**
-       * <code>optional .dstore.values.StringValue unique_id = 1;</code>
+       * <code>.dstore.values.StringValue unique_id = 1;</code>
        */
       public io.dstore.values.StringValue getUniqueId() {
         if (uniqueIdBuilder_ == null) {
@@ -1502,7 +1502,7 @@ public final class OmGetTrolleySurchargesPu {
         }
       }
       /**
-       * <code>optional .dstore.values.StringValue unique_id = 1;</code>
+       * <code>.dstore.values.StringValue unique_id = 1;</code>
        */
       public Builder setUniqueId(io.dstore.values.StringValue value) {
         if (uniqueIdBuilder_ == null) {
@@ -1518,7 +1518,7 @@ public final class OmGetTrolleySurchargesPu {
         return this;
       }
       /**
-       * <code>optional .dstore.values.StringValue unique_id = 1;</code>
+       * <code>.dstore.values.StringValue unique_id = 1;</code>
        */
       public Builder setUniqueId(
           io.dstore.values.StringValue.Builder builderForValue) {
@@ -1532,7 +1532,7 @@ public final class OmGetTrolleySurchargesPu {
         return this;
       }
       /**
-       * <code>optional .dstore.values.StringValue unique_id = 1;</code>
+       * <code>.dstore.values.StringValue unique_id = 1;</code>
        */
       public Builder mergeUniqueId(io.dstore.values.StringValue value) {
         if (uniqueIdBuilder_ == null) {
@@ -1550,7 +1550,7 @@ public final class OmGetTrolleySurchargesPu {
         return this;
       }
       /**
-       * <code>optional .dstore.values.StringValue unique_id = 1;</code>
+       * <code>.dstore.values.StringValue unique_id = 1;</code>
        */
       public Builder clearUniqueId() {
         if (uniqueIdBuilder_ == null) {
@@ -1564,7 +1564,7 @@ public final class OmGetTrolleySurchargesPu {
         return this;
       }
       /**
-       * <code>optional .dstore.values.StringValue unique_id = 1;</code>
+       * <code>.dstore.values.StringValue unique_id = 1;</code>
        */
       public io.dstore.values.StringValue.Builder getUniqueIdBuilder() {
         
@@ -1572,7 +1572,7 @@ public final class OmGetTrolleySurchargesPu {
         return getUniqueIdFieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .dstore.values.StringValue unique_id = 1;</code>
+       * <code>.dstore.values.StringValue unique_id = 1;</code>
        */
       public io.dstore.values.StringValueOrBuilder getUniqueIdOrBuilder() {
         if (uniqueIdBuilder_ != null) {
@@ -1583,7 +1583,7 @@ public final class OmGetTrolleySurchargesPu {
         }
       }
       /**
-       * <code>optional .dstore.values.StringValue unique_id = 1;</code>
+       * <code>.dstore.values.StringValue unique_id = 1;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.values.StringValue, io.dstore.values.StringValue.Builder, io.dstore.values.StringValueOrBuilder> 
@@ -1601,13 +1601,13 @@ public final class OmGetTrolleySurchargesPu {
 
       private boolean uniqueIdNull_ ;
       /**
-       * <code>optional bool unique_id_null = 1001;</code>
+       * <code>bool unique_id_null = 1001;</code>
        */
       public boolean getUniqueIdNull() {
         return uniqueIdNull_;
       }
       /**
-       * <code>optional bool unique_id_null = 1001;</code>
+       * <code>bool unique_id_null = 1001;</code>
        */
       public Builder setUniqueIdNull(boolean value) {
         
@@ -1616,7 +1616,7 @@ public final class OmGetTrolleySurchargesPu {
         return this;
       }
       /**
-       * <code>optional bool unique_id_null = 1001;</code>
+       * <code>bool unique_id_null = 1001;</code>
        */
       public Builder clearUniqueIdNull() {
         
@@ -1629,13 +1629,13 @@ public final class OmGetTrolleySurchargesPu {
       private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.values.DecimalValue, io.dstore.values.DecimalValue.Builder, io.dstore.values.DecimalValueOrBuilder> grossSumBuilder_;
       /**
-       * <code>optional .dstore.values.DecimalValue gross_sum = 2;</code>
+       * <code>.dstore.values.DecimalValue gross_sum = 2;</code>
        */
       public boolean hasGrossSum() {
         return grossSumBuilder_ != null || grossSum_ != null;
       }
       /**
-       * <code>optional .dstore.values.DecimalValue gross_sum = 2;</code>
+       * <code>.dstore.values.DecimalValue gross_sum = 2;</code>
        */
       public io.dstore.values.DecimalValue getGrossSum() {
         if (grossSumBuilder_ == null) {
@@ -1645,7 +1645,7 @@ public final class OmGetTrolleySurchargesPu {
         }
       }
       /**
-       * <code>optional .dstore.values.DecimalValue gross_sum = 2;</code>
+       * <code>.dstore.values.DecimalValue gross_sum = 2;</code>
        */
       public Builder setGrossSum(io.dstore.values.DecimalValue value) {
         if (grossSumBuilder_ == null) {
@@ -1661,7 +1661,7 @@ public final class OmGetTrolleySurchargesPu {
         return this;
       }
       /**
-       * <code>optional .dstore.values.DecimalValue gross_sum = 2;</code>
+       * <code>.dstore.values.DecimalValue gross_sum = 2;</code>
        */
       public Builder setGrossSum(
           io.dstore.values.DecimalValue.Builder builderForValue) {
@@ -1675,7 +1675,7 @@ public final class OmGetTrolleySurchargesPu {
         return this;
       }
       /**
-       * <code>optional .dstore.values.DecimalValue gross_sum = 2;</code>
+       * <code>.dstore.values.DecimalValue gross_sum = 2;</code>
        */
       public Builder mergeGrossSum(io.dstore.values.DecimalValue value) {
         if (grossSumBuilder_ == null) {
@@ -1693,7 +1693,7 @@ public final class OmGetTrolleySurchargesPu {
         return this;
       }
       /**
-       * <code>optional .dstore.values.DecimalValue gross_sum = 2;</code>
+       * <code>.dstore.values.DecimalValue gross_sum = 2;</code>
        */
       public Builder clearGrossSum() {
         if (grossSumBuilder_ == null) {
@@ -1707,7 +1707,7 @@ public final class OmGetTrolleySurchargesPu {
         return this;
       }
       /**
-       * <code>optional .dstore.values.DecimalValue gross_sum = 2;</code>
+       * <code>.dstore.values.DecimalValue gross_sum = 2;</code>
        */
       public io.dstore.values.DecimalValue.Builder getGrossSumBuilder() {
         
@@ -1715,7 +1715,7 @@ public final class OmGetTrolleySurchargesPu {
         return getGrossSumFieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .dstore.values.DecimalValue gross_sum = 2;</code>
+       * <code>.dstore.values.DecimalValue gross_sum = 2;</code>
        */
       public io.dstore.values.DecimalValueOrBuilder getGrossSumOrBuilder() {
         if (grossSumBuilder_ != null) {
@@ -1726,7 +1726,7 @@ public final class OmGetTrolleySurchargesPu {
         }
       }
       /**
-       * <code>optional .dstore.values.DecimalValue gross_sum = 2;</code>
+       * <code>.dstore.values.DecimalValue gross_sum = 2;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.values.DecimalValue, io.dstore.values.DecimalValue.Builder, io.dstore.values.DecimalValueOrBuilder> 
@@ -1744,13 +1744,13 @@ public final class OmGetTrolleySurchargesPu {
 
       private boolean grossSumNull_ ;
       /**
-       * <code>optional bool gross_sum_null = 1002;</code>
+       * <code>bool gross_sum_null = 1002;</code>
        */
       public boolean getGrossSumNull() {
         return grossSumNull_;
       }
       /**
-       * <code>optional bool gross_sum_null = 1002;</code>
+       * <code>bool gross_sum_null = 1002;</code>
        */
       public Builder setGrossSumNull(boolean value) {
         
@@ -1759,7 +1759,7 @@ public final class OmGetTrolleySurchargesPu {
         return this;
       }
       /**
-       * <code>optional bool gross_sum_null = 1002;</code>
+       * <code>bool gross_sum_null = 1002;</code>
        */
       public Builder clearGrossSumNull() {
         
@@ -1772,13 +1772,13 @@ public final class OmGetTrolleySurchargesPu {
       private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.values.DecimalValue, io.dstore.values.DecimalValue.Builder, io.dstore.values.DecimalValueOrBuilder> netSumBuilder_;
       /**
-       * <code>optional .dstore.values.DecimalValue net_sum = 3;</code>
+       * <code>.dstore.values.DecimalValue net_sum = 3;</code>
        */
       public boolean hasNetSum() {
         return netSumBuilder_ != null || netSum_ != null;
       }
       /**
-       * <code>optional .dstore.values.DecimalValue net_sum = 3;</code>
+       * <code>.dstore.values.DecimalValue net_sum = 3;</code>
        */
       public io.dstore.values.DecimalValue getNetSum() {
         if (netSumBuilder_ == null) {
@@ -1788,7 +1788,7 @@ public final class OmGetTrolleySurchargesPu {
         }
       }
       /**
-       * <code>optional .dstore.values.DecimalValue net_sum = 3;</code>
+       * <code>.dstore.values.DecimalValue net_sum = 3;</code>
        */
       public Builder setNetSum(io.dstore.values.DecimalValue value) {
         if (netSumBuilder_ == null) {
@@ -1804,7 +1804,7 @@ public final class OmGetTrolleySurchargesPu {
         return this;
       }
       /**
-       * <code>optional .dstore.values.DecimalValue net_sum = 3;</code>
+       * <code>.dstore.values.DecimalValue net_sum = 3;</code>
        */
       public Builder setNetSum(
           io.dstore.values.DecimalValue.Builder builderForValue) {
@@ -1818,7 +1818,7 @@ public final class OmGetTrolleySurchargesPu {
         return this;
       }
       /**
-       * <code>optional .dstore.values.DecimalValue net_sum = 3;</code>
+       * <code>.dstore.values.DecimalValue net_sum = 3;</code>
        */
       public Builder mergeNetSum(io.dstore.values.DecimalValue value) {
         if (netSumBuilder_ == null) {
@@ -1836,7 +1836,7 @@ public final class OmGetTrolleySurchargesPu {
         return this;
       }
       /**
-       * <code>optional .dstore.values.DecimalValue net_sum = 3;</code>
+       * <code>.dstore.values.DecimalValue net_sum = 3;</code>
        */
       public Builder clearNetSum() {
         if (netSumBuilder_ == null) {
@@ -1850,7 +1850,7 @@ public final class OmGetTrolleySurchargesPu {
         return this;
       }
       /**
-       * <code>optional .dstore.values.DecimalValue net_sum = 3;</code>
+       * <code>.dstore.values.DecimalValue net_sum = 3;</code>
        */
       public io.dstore.values.DecimalValue.Builder getNetSumBuilder() {
         
@@ -1858,7 +1858,7 @@ public final class OmGetTrolleySurchargesPu {
         return getNetSumFieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .dstore.values.DecimalValue net_sum = 3;</code>
+       * <code>.dstore.values.DecimalValue net_sum = 3;</code>
        */
       public io.dstore.values.DecimalValueOrBuilder getNetSumOrBuilder() {
         if (netSumBuilder_ != null) {
@@ -1869,7 +1869,7 @@ public final class OmGetTrolleySurchargesPu {
         }
       }
       /**
-       * <code>optional .dstore.values.DecimalValue net_sum = 3;</code>
+       * <code>.dstore.values.DecimalValue net_sum = 3;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.values.DecimalValue, io.dstore.values.DecimalValue.Builder, io.dstore.values.DecimalValueOrBuilder> 
@@ -1887,13 +1887,13 @@ public final class OmGetTrolleySurchargesPu {
 
       private boolean netSumNull_ ;
       /**
-       * <code>optional bool net_sum_null = 1003;</code>
+       * <code>bool net_sum_null = 1003;</code>
        */
       public boolean getNetSumNull() {
         return netSumNull_;
       }
       /**
-       * <code>optional bool net_sum_null = 1003;</code>
+       * <code>bool net_sum_null = 1003;</code>
        */
       public Builder setNetSumNull(boolean value) {
         
@@ -1902,7 +1902,7 @@ public final class OmGetTrolleySurchargesPu {
         return this;
       }
       /**
-       * <code>optional bool net_sum_null = 1003;</code>
+       * <code>bool net_sum_null = 1003;</code>
        */
       public Builder clearNetSumNull() {
         
@@ -1915,13 +1915,13 @@ public final class OmGetTrolleySurchargesPu {
       private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> currencyIdBuilder_;
       /**
-       * <code>optional .dstore.values.IntegerValue currency_id = 4;</code>
+       * <code>.dstore.values.IntegerValue currency_id = 4;</code>
        */
       public boolean hasCurrencyId() {
         return currencyIdBuilder_ != null || currencyId_ != null;
       }
       /**
-       * <code>optional .dstore.values.IntegerValue currency_id = 4;</code>
+       * <code>.dstore.values.IntegerValue currency_id = 4;</code>
        */
       public io.dstore.values.IntegerValue getCurrencyId() {
         if (currencyIdBuilder_ == null) {
@@ -1931,7 +1931,7 @@ public final class OmGetTrolleySurchargesPu {
         }
       }
       /**
-       * <code>optional .dstore.values.IntegerValue currency_id = 4;</code>
+       * <code>.dstore.values.IntegerValue currency_id = 4;</code>
        */
       public Builder setCurrencyId(io.dstore.values.IntegerValue value) {
         if (currencyIdBuilder_ == null) {
@@ -1947,7 +1947,7 @@ public final class OmGetTrolleySurchargesPu {
         return this;
       }
       /**
-       * <code>optional .dstore.values.IntegerValue currency_id = 4;</code>
+       * <code>.dstore.values.IntegerValue currency_id = 4;</code>
        */
       public Builder setCurrencyId(
           io.dstore.values.IntegerValue.Builder builderForValue) {
@@ -1961,7 +1961,7 @@ public final class OmGetTrolleySurchargesPu {
         return this;
       }
       /**
-       * <code>optional .dstore.values.IntegerValue currency_id = 4;</code>
+       * <code>.dstore.values.IntegerValue currency_id = 4;</code>
        */
       public Builder mergeCurrencyId(io.dstore.values.IntegerValue value) {
         if (currencyIdBuilder_ == null) {
@@ -1979,7 +1979,7 @@ public final class OmGetTrolleySurchargesPu {
         return this;
       }
       /**
-       * <code>optional .dstore.values.IntegerValue currency_id = 4;</code>
+       * <code>.dstore.values.IntegerValue currency_id = 4;</code>
        */
       public Builder clearCurrencyId() {
         if (currencyIdBuilder_ == null) {
@@ -1993,7 +1993,7 @@ public final class OmGetTrolleySurchargesPu {
         return this;
       }
       /**
-       * <code>optional .dstore.values.IntegerValue currency_id = 4;</code>
+       * <code>.dstore.values.IntegerValue currency_id = 4;</code>
        */
       public io.dstore.values.IntegerValue.Builder getCurrencyIdBuilder() {
         
@@ -2001,7 +2001,7 @@ public final class OmGetTrolleySurchargesPu {
         return getCurrencyIdFieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .dstore.values.IntegerValue currency_id = 4;</code>
+       * <code>.dstore.values.IntegerValue currency_id = 4;</code>
        */
       public io.dstore.values.IntegerValueOrBuilder getCurrencyIdOrBuilder() {
         if (currencyIdBuilder_ != null) {
@@ -2012,7 +2012,7 @@ public final class OmGetTrolleySurchargesPu {
         }
       }
       /**
-       * <code>optional .dstore.values.IntegerValue currency_id = 4;</code>
+       * <code>.dstore.values.IntegerValue currency_id = 4;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> 
@@ -2030,13 +2030,13 @@ public final class OmGetTrolleySurchargesPu {
 
       private boolean currencyIdNull_ ;
       /**
-       * <code>optional bool currency_id_null = 1004;</code>
+       * <code>bool currency_id_null = 1004;</code>
        */
       public boolean getCurrencyIdNull() {
         return currencyIdNull_;
       }
       /**
-       * <code>optional bool currency_id_null = 1004;</code>
+       * <code>bool currency_id_null = 1004;</code>
        */
       public Builder setCurrencyIdNull(boolean value) {
         
@@ -2045,7 +2045,7 @@ public final class OmGetTrolleySurchargesPu {
         return this;
       }
       /**
-       * <code>optional bool currency_id_null = 1004;</code>
+       * <code>bool currency_id_null = 1004;</code>
        */
       public Builder clearCurrencyIdNull() {
         
@@ -2058,13 +2058,13 @@ public final class OmGetTrolleySurchargesPu {
       private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> personIdBuilder_;
       /**
-       * <code>optional .dstore.values.IntegerValue person_id = 5;</code>
+       * <code>.dstore.values.IntegerValue person_id = 5;</code>
        */
       public boolean hasPersonId() {
         return personIdBuilder_ != null || personId_ != null;
       }
       /**
-       * <code>optional .dstore.values.IntegerValue person_id = 5;</code>
+       * <code>.dstore.values.IntegerValue person_id = 5;</code>
        */
       public io.dstore.values.IntegerValue getPersonId() {
         if (personIdBuilder_ == null) {
@@ -2074,7 +2074,7 @@ public final class OmGetTrolleySurchargesPu {
         }
       }
       /**
-       * <code>optional .dstore.values.IntegerValue person_id = 5;</code>
+       * <code>.dstore.values.IntegerValue person_id = 5;</code>
        */
       public Builder setPersonId(io.dstore.values.IntegerValue value) {
         if (personIdBuilder_ == null) {
@@ -2090,7 +2090,7 @@ public final class OmGetTrolleySurchargesPu {
         return this;
       }
       /**
-       * <code>optional .dstore.values.IntegerValue person_id = 5;</code>
+       * <code>.dstore.values.IntegerValue person_id = 5;</code>
        */
       public Builder setPersonId(
           io.dstore.values.IntegerValue.Builder builderForValue) {
@@ -2104,7 +2104,7 @@ public final class OmGetTrolleySurchargesPu {
         return this;
       }
       /**
-       * <code>optional .dstore.values.IntegerValue person_id = 5;</code>
+       * <code>.dstore.values.IntegerValue person_id = 5;</code>
        */
       public Builder mergePersonId(io.dstore.values.IntegerValue value) {
         if (personIdBuilder_ == null) {
@@ -2122,7 +2122,7 @@ public final class OmGetTrolleySurchargesPu {
         return this;
       }
       /**
-       * <code>optional .dstore.values.IntegerValue person_id = 5;</code>
+       * <code>.dstore.values.IntegerValue person_id = 5;</code>
        */
       public Builder clearPersonId() {
         if (personIdBuilder_ == null) {
@@ -2136,7 +2136,7 @@ public final class OmGetTrolleySurchargesPu {
         return this;
       }
       /**
-       * <code>optional .dstore.values.IntegerValue person_id = 5;</code>
+       * <code>.dstore.values.IntegerValue person_id = 5;</code>
        */
       public io.dstore.values.IntegerValue.Builder getPersonIdBuilder() {
         
@@ -2144,7 +2144,7 @@ public final class OmGetTrolleySurchargesPu {
         return getPersonIdFieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .dstore.values.IntegerValue person_id = 5;</code>
+       * <code>.dstore.values.IntegerValue person_id = 5;</code>
        */
       public io.dstore.values.IntegerValueOrBuilder getPersonIdOrBuilder() {
         if (personIdBuilder_ != null) {
@@ -2155,7 +2155,7 @@ public final class OmGetTrolleySurchargesPu {
         }
       }
       /**
-       * <code>optional .dstore.values.IntegerValue person_id = 5;</code>
+       * <code>.dstore.values.IntegerValue person_id = 5;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> 
@@ -2173,13 +2173,13 @@ public final class OmGetTrolleySurchargesPu {
 
       private boolean personIdNull_ ;
       /**
-       * <code>optional bool person_id_null = 1005;</code>
+       * <code>bool person_id_null = 1005;</code>
        */
       public boolean getPersonIdNull() {
         return personIdNull_;
       }
       /**
-       * <code>optional bool person_id_null = 1005;</code>
+       * <code>bool person_id_null = 1005;</code>
        */
       public Builder setPersonIdNull(boolean value) {
         
@@ -2188,7 +2188,7 @@ public final class OmGetTrolleySurchargesPu {
         return this;
       }
       /**
-       * <code>optional bool person_id_null = 1005;</code>
+       * <code>bool person_id_null = 1005;</code>
        */
       public Builder clearPersonIdNull() {
         
@@ -2201,13 +2201,13 @@ public final class OmGetTrolleySurchargesPu {
       private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> deliveryPersonIdBuilder_;
       /**
-       * <code>optional .dstore.values.IntegerValue delivery_person_id = 6;</code>
+       * <code>.dstore.values.IntegerValue delivery_person_id = 6;</code>
        */
       public boolean hasDeliveryPersonId() {
         return deliveryPersonIdBuilder_ != null || deliveryPersonId_ != null;
       }
       /**
-       * <code>optional .dstore.values.IntegerValue delivery_person_id = 6;</code>
+       * <code>.dstore.values.IntegerValue delivery_person_id = 6;</code>
        */
       public io.dstore.values.IntegerValue getDeliveryPersonId() {
         if (deliveryPersonIdBuilder_ == null) {
@@ -2217,7 +2217,7 @@ public final class OmGetTrolleySurchargesPu {
         }
       }
       /**
-       * <code>optional .dstore.values.IntegerValue delivery_person_id = 6;</code>
+       * <code>.dstore.values.IntegerValue delivery_person_id = 6;</code>
        */
       public Builder setDeliveryPersonId(io.dstore.values.IntegerValue value) {
         if (deliveryPersonIdBuilder_ == null) {
@@ -2233,7 +2233,7 @@ public final class OmGetTrolleySurchargesPu {
         return this;
       }
       /**
-       * <code>optional .dstore.values.IntegerValue delivery_person_id = 6;</code>
+       * <code>.dstore.values.IntegerValue delivery_person_id = 6;</code>
        */
       public Builder setDeliveryPersonId(
           io.dstore.values.IntegerValue.Builder builderForValue) {
@@ -2247,7 +2247,7 @@ public final class OmGetTrolleySurchargesPu {
         return this;
       }
       /**
-       * <code>optional .dstore.values.IntegerValue delivery_person_id = 6;</code>
+       * <code>.dstore.values.IntegerValue delivery_person_id = 6;</code>
        */
       public Builder mergeDeliveryPersonId(io.dstore.values.IntegerValue value) {
         if (deliveryPersonIdBuilder_ == null) {
@@ -2265,7 +2265,7 @@ public final class OmGetTrolleySurchargesPu {
         return this;
       }
       /**
-       * <code>optional .dstore.values.IntegerValue delivery_person_id = 6;</code>
+       * <code>.dstore.values.IntegerValue delivery_person_id = 6;</code>
        */
       public Builder clearDeliveryPersonId() {
         if (deliveryPersonIdBuilder_ == null) {
@@ -2279,7 +2279,7 @@ public final class OmGetTrolleySurchargesPu {
         return this;
       }
       /**
-       * <code>optional .dstore.values.IntegerValue delivery_person_id = 6;</code>
+       * <code>.dstore.values.IntegerValue delivery_person_id = 6;</code>
        */
       public io.dstore.values.IntegerValue.Builder getDeliveryPersonIdBuilder() {
         
@@ -2287,7 +2287,7 @@ public final class OmGetTrolleySurchargesPu {
         return getDeliveryPersonIdFieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .dstore.values.IntegerValue delivery_person_id = 6;</code>
+       * <code>.dstore.values.IntegerValue delivery_person_id = 6;</code>
        */
       public io.dstore.values.IntegerValueOrBuilder getDeliveryPersonIdOrBuilder() {
         if (deliveryPersonIdBuilder_ != null) {
@@ -2298,7 +2298,7 @@ public final class OmGetTrolleySurchargesPu {
         }
       }
       /**
-       * <code>optional .dstore.values.IntegerValue delivery_person_id = 6;</code>
+       * <code>.dstore.values.IntegerValue delivery_person_id = 6;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> 
@@ -2316,13 +2316,13 @@ public final class OmGetTrolleySurchargesPu {
 
       private boolean deliveryPersonIdNull_ ;
       /**
-       * <code>optional bool delivery_person_id_null = 1006;</code>
+       * <code>bool delivery_person_id_null = 1006;</code>
        */
       public boolean getDeliveryPersonIdNull() {
         return deliveryPersonIdNull_;
       }
       /**
-       * <code>optional bool delivery_person_id_null = 1006;</code>
+       * <code>bool delivery_person_id_null = 1006;</code>
        */
       public Builder setDeliveryPersonIdNull(boolean value) {
         
@@ -2331,7 +2331,7 @@ public final class OmGetTrolleySurchargesPu {
         return this;
       }
       /**
-       * <code>optional bool delivery_person_id_null = 1006;</code>
+       * <code>bool delivery_person_id_null = 1006;</code>
        */
       public Builder clearDeliveryPersonIdNull() {
         
@@ -2344,13 +2344,13 @@ public final class OmGetTrolleySurchargesPu {
       private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> shippingTypeIdBuilder_;
       /**
-       * <code>optional .dstore.values.IntegerValue shipping_type_id = 7;</code>
+       * <code>.dstore.values.IntegerValue shipping_type_id = 7;</code>
        */
       public boolean hasShippingTypeId() {
         return shippingTypeIdBuilder_ != null || shippingTypeId_ != null;
       }
       /**
-       * <code>optional .dstore.values.IntegerValue shipping_type_id = 7;</code>
+       * <code>.dstore.values.IntegerValue shipping_type_id = 7;</code>
        */
       public io.dstore.values.IntegerValue getShippingTypeId() {
         if (shippingTypeIdBuilder_ == null) {
@@ -2360,7 +2360,7 @@ public final class OmGetTrolleySurchargesPu {
         }
       }
       /**
-       * <code>optional .dstore.values.IntegerValue shipping_type_id = 7;</code>
+       * <code>.dstore.values.IntegerValue shipping_type_id = 7;</code>
        */
       public Builder setShippingTypeId(io.dstore.values.IntegerValue value) {
         if (shippingTypeIdBuilder_ == null) {
@@ -2376,7 +2376,7 @@ public final class OmGetTrolleySurchargesPu {
         return this;
       }
       /**
-       * <code>optional .dstore.values.IntegerValue shipping_type_id = 7;</code>
+       * <code>.dstore.values.IntegerValue shipping_type_id = 7;</code>
        */
       public Builder setShippingTypeId(
           io.dstore.values.IntegerValue.Builder builderForValue) {
@@ -2390,7 +2390,7 @@ public final class OmGetTrolleySurchargesPu {
         return this;
       }
       /**
-       * <code>optional .dstore.values.IntegerValue shipping_type_id = 7;</code>
+       * <code>.dstore.values.IntegerValue shipping_type_id = 7;</code>
        */
       public Builder mergeShippingTypeId(io.dstore.values.IntegerValue value) {
         if (shippingTypeIdBuilder_ == null) {
@@ -2408,7 +2408,7 @@ public final class OmGetTrolleySurchargesPu {
         return this;
       }
       /**
-       * <code>optional .dstore.values.IntegerValue shipping_type_id = 7;</code>
+       * <code>.dstore.values.IntegerValue shipping_type_id = 7;</code>
        */
       public Builder clearShippingTypeId() {
         if (shippingTypeIdBuilder_ == null) {
@@ -2422,7 +2422,7 @@ public final class OmGetTrolleySurchargesPu {
         return this;
       }
       /**
-       * <code>optional .dstore.values.IntegerValue shipping_type_id = 7;</code>
+       * <code>.dstore.values.IntegerValue shipping_type_id = 7;</code>
        */
       public io.dstore.values.IntegerValue.Builder getShippingTypeIdBuilder() {
         
@@ -2430,7 +2430,7 @@ public final class OmGetTrolleySurchargesPu {
         return getShippingTypeIdFieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .dstore.values.IntegerValue shipping_type_id = 7;</code>
+       * <code>.dstore.values.IntegerValue shipping_type_id = 7;</code>
        */
       public io.dstore.values.IntegerValueOrBuilder getShippingTypeIdOrBuilder() {
         if (shippingTypeIdBuilder_ != null) {
@@ -2441,7 +2441,7 @@ public final class OmGetTrolleySurchargesPu {
         }
       }
       /**
-       * <code>optional .dstore.values.IntegerValue shipping_type_id = 7;</code>
+       * <code>.dstore.values.IntegerValue shipping_type_id = 7;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> 
@@ -2459,13 +2459,13 @@ public final class OmGetTrolleySurchargesPu {
 
       private boolean shippingTypeIdNull_ ;
       /**
-       * <code>optional bool shipping_type_id_null = 1007;</code>
+       * <code>bool shipping_type_id_null = 1007;</code>
        */
       public boolean getShippingTypeIdNull() {
         return shippingTypeIdNull_;
       }
       /**
-       * <code>optional bool shipping_type_id_null = 1007;</code>
+       * <code>bool shipping_type_id_null = 1007;</code>
        */
       public Builder setShippingTypeIdNull(boolean value) {
         
@@ -2474,7 +2474,7 @@ public final class OmGetTrolleySurchargesPu {
         return this;
       }
       /**
-       * <code>optional bool shipping_type_id_null = 1007;</code>
+       * <code>bool shipping_type_id_null = 1007;</code>
        */
       public Builder clearShippingTypeIdNull() {
         
@@ -2487,13 +2487,13 @@ public final class OmGetTrolleySurchargesPu {
       private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> paymentTypeIdBuilder_;
       /**
-       * <code>optional .dstore.values.IntegerValue payment_type_id = 8;</code>
+       * <code>.dstore.values.IntegerValue payment_type_id = 8;</code>
        */
       public boolean hasPaymentTypeId() {
         return paymentTypeIdBuilder_ != null || paymentTypeId_ != null;
       }
       /**
-       * <code>optional .dstore.values.IntegerValue payment_type_id = 8;</code>
+       * <code>.dstore.values.IntegerValue payment_type_id = 8;</code>
        */
       public io.dstore.values.IntegerValue getPaymentTypeId() {
         if (paymentTypeIdBuilder_ == null) {
@@ -2503,7 +2503,7 @@ public final class OmGetTrolleySurchargesPu {
         }
       }
       /**
-       * <code>optional .dstore.values.IntegerValue payment_type_id = 8;</code>
+       * <code>.dstore.values.IntegerValue payment_type_id = 8;</code>
        */
       public Builder setPaymentTypeId(io.dstore.values.IntegerValue value) {
         if (paymentTypeIdBuilder_ == null) {
@@ -2519,7 +2519,7 @@ public final class OmGetTrolleySurchargesPu {
         return this;
       }
       /**
-       * <code>optional .dstore.values.IntegerValue payment_type_id = 8;</code>
+       * <code>.dstore.values.IntegerValue payment_type_id = 8;</code>
        */
       public Builder setPaymentTypeId(
           io.dstore.values.IntegerValue.Builder builderForValue) {
@@ -2533,7 +2533,7 @@ public final class OmGetTrolleySurchargesPu {
         return this;
       }
       /**
-       * <code>optional .dstore.values.IntegerValue payment_type_id = 8;</code>
+       * <code>.dstore.values.IntegerValue payment_type_id = 8;</code>
        */
       public Builder mergePaymentTypeId(io.dstore.values.IntegerValue value) {
         if (paymentTypeIdBuilder_ == null) {
@@ -2551,7 +2551,7 @@ public final class OmGetTrolleySurchargesPu {
         return this;
       }
       /**
-       * <code>optional .dstore.values.IntegerValue payment_type_id = 8;</code>
+       * <code>.dstore.values.IntegerValue payment_type_id = 8;</code>
        */
       public Builder clearPaymentTypeId() {
         if (paymentTypeIdBuilder_ == null) {
@@ -2565,7 +2565,7 @@ public final class OmGetTrolleySurchargesPu {
         return this;
       }
       /**
-       * <code>optional .dstore.values.IntegerValue payment_type_id = 8;</code>
+       * <code>.dstore.values.IntegerValue payment_type_id = 8;</code>
        */
       public io.dstore.values.IntegerValue.Builder getPaymentTypeIdBuilder() {
         
@@ -2573,7 +2573,7 @@ public final class OmGetTrolleySurchargesPu {
         return getPaymentTypeIdFieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .dstore.values.IntegerValue payment_type_id = 8;</code>
+       * <code>.dstore.values.IntegerValue payment_type_id = 8;</code>
        */
       public io.dstore.values.IntegerValueOrBuilder getPaymentTypeIdOrBuilder() {
         if (paymentTypeIdBuilder_ != null) {
@@ -2584,7 +2584,7 @@ public final class OmGetTrolleySurchargesPu {
         }
       }
       /**
-       * <code>optional .dstore.values.IntegerValue payment_type_id = 8;</code>
+       * <code>.dstore.values.IntegerValue payment_type_id = 8;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> 
@@ -2602,13 +2602,13 @@ public final class OmGetTrolleySurchargesPu {
 
       private boolean paymentTypeIdNull_ ;
       /**
-       * <code>optional bool payment_type_id_null = 1008;</code>
+       * <code>bool payment_type_id_null = 1008;</code>
        */
       public boolean getPaymentTypeIdNull() {
         return paymentTypeIdNull_;
       }
       /**
-       * <code>optional bool payment_type_id_null = 1008;</code>
+       * <code>bool payment_type_id_null = 1008;</code>
        */
       public Builder setPaymentTypeIdNull(boolean value) {
         
@@ -2617,7 +2617,7 @@ public final class OmGetTrolleySurchargesPu {
         return this;
       }
       /**
-       * <code>optional bool payment_type_id_null = 1008;</code>
+       * <code>bool payment_type_id_null = 1008;</code>
        */
       public Builder clearPaymentTypeIdNull() {
         
@@ -2630,13 +2630,13 @@ public final class OmGetTrolleySurchargesPu {
       private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.values.DecimalValue, io.dstore.values.DecimalValue.Builder, io.dstore.values.DecimalValueOrBuilder> useCashAccountMaxValueBuilder_;
       /**
-       * <code>optional .dstore.values.DecimalValue use_cash_account_max_value = 9;</code>
+       * <code>.dstore.values.DecimalValue use_cash_account_max_value = 9;</code>
        */
       public boolean hasUseCashAccountMaxValue() {
         return useCashAccountMaxValueBuilder_ != null || useCashAccountMaxValue_ != null;
       }
       /**
-       * <code>optional .dstore.values.DecimalValue use_cash_account_max_value = 9;</code>
+       * <code>.dstore.values.DecimalValue use_cash_account_max_value = 9;</code>
        */
       public io.dstore.values.DecimalValue getUseCashAccountMaxValue() {
         if (useCashAccountMaxValueBuilder_ == null) {
@@ -2646,7 +2646,7 @@ public final class OmGetTrolleySurchargesPu {
         }
       }
       /**
-       * <code>optional .dstore.values.DecimalValue use_cash_account_max_value = 9;</code>
+       * <code>.dstore.values.DecimalValue use_cash_account_max_value = 9;</code>
        */
       public Builder setUseCashAccountMaxValue(io.dstore.values.DecimalValue value) {
         if (useCashAccountMaxValueBuilder_ == null) {
@@ -2662,7 +2662,7 @@ public final class OmGetTrolleySurchargesPu {
         return this;
       }
       /**
-       * <code>optional .dstore.values.DecimalValue use_cash_account_max_value = 9;</code>
+       * <code>.dstore.values.DecimalValue use_cash_account_max_value = 9;</code>
        */
       public Builder setUseCashAccountMaxValue(
           io.dstore.values.DecimalValue.Builder builderForValue) {
@@ -2676,7 +2676,7 @@ public final class OmGetTrolleySurchargesPu {
         return this;
       }
       /**
-       * <code>optional .dstore.values.DecimalValue use_cash_account_max_value = 9;</code>
+       * <code>.dstore.values.DecimalValue use_cash_account_max_value = 9;</code>
        */
       public Builder mergeUseCashAccountMaxValue(io.dstore.values.DecimalValue value) {
         if (useCashAccountMaxValueBuilder_ == null) {
@@ -2694,7 +2694,7 @@ public final class OmGetTrolleySurchargesPu {
         return this;
       }
       /**
-       * <code>optional .dstore.values.DecimalValue use_cash_account_max_value = 9;</code>
+       * <code>.dstore.values.DecimalValue use_cash_account_max_value = 9;</code>
        */
       public Builder clearUseCashAccountMaxValue() {
         if (useCashAccountMaxValueBuilder_ == null) {
@@ -2708,7 +2708,7 @@ public final class OmGetTrolleySurchargesPu {
         return this;
       }
       /**
-       * <code>optional .dstore.values.DecimalValue use_cash_account_max_value = 9;</code>
+       * <code>.dstore.values.DecimalValue use_cash_account_max_value = 9;</code>
        */
       public io.dstore.values.DecimalValue.Builder getUseCashAccountMaxValueBuilder() {
         
@@ -2716,7 +2716,7 @@ public final class OmGetTrolleySurchargesPu {
         return getUseCashAccountMaxValueFieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .dstore.values.DecimalValue use_cash_account_max_value = 9;</code>
+       * <code>.dstore.values.DecimalValue use_cash_account_max_value = 9;</code>
        */
       public io.dstore.values.DecimalValueOrBuilder getUseCashAccountMaxValueOrBuilder() {
         if (useCashAccountMaxValueBuilder_ != null) {
@@ -2727,7 +2727,7 @@ public final class OmGetTrolleySurchargesPu {
         }
       }
       /**
-       * <code>optional .dstore.values.DecimalValue use_cash_account_max_value = 9;</code>
+       * <code>.dstore.values.DecimalValue use_cash_account_max_value = 9;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.values.DecimalValue, io.dstore.values.DecimalValue.Builder, io.dstore.values.DecimalValueOrBuilder> 
@@ -2745,13 +2745,13 @@ public final class OmGetTrolleySurchargesPu {
 
       private boolean useCashAccountMaxValueNull_ ;
       /**
-       * <code>optional bool use_cash_account_max_value_null = 1009;</code>
+       * <code>bool use_cash_account_max_value_null = 1009;</code>
        */
       public boolean getUseCashAccountMaxValueNull() {
         return useCashAccountMaxValueNull_;
       }
       /**
-       * <code>optional bool use_cash_account_max_value_null = 1009;</code>
+       * <code>bool use_cash_account_max_value_null = 1009;</code>
        */
       public Builder setUseCashAccountMaxValueNull(boolean value) {
         
@@ -2760,7 +2760,7 @@ public final class OmGetTrolleySurchargesPu {
         return this;
       }
       /**
-       * <code>optional bool use_cash_account_max_value_null = 1009;</code>
+       * <code>bool use_cash_account_max_value_null = 1009;</code>
        */
       public Builder clearUseCashAccountMaxValueNull() {
         
@@ -2773,13 +2773,13 @@ public final class OmGetTrolleySurchargesPu {
       private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.values.BooleanValue, io.dstore.values.BooleanValue.Builder, io.dstore.values.BooleanValueOrBuilder> splitByTaxesBuilder_;
       /**
-       * <code>optional .dstore.values.BooleanValue split_by_taxes = 10;</code>
+       * <code>.dstore.values.BooleanValue split_by_taxes = 10;</code>
        */
       public boolean hasSplitByTaxes() {
         return splitByTaxesBuilder_ != null || splitByTaxes_ != null;
       }
       /**
-       * <code>optional .dstore.values.BooleanValue split_by_taxes = 10;</code>
+       * <code>.dstore.values.BooleanValue split_by_taxes = 10;</code>
        */
       public io.dstore.values.BooleanValue getSplitByTaxes() {
         if (splitByTaxesBuilder_ == null) {
@@ -2789,7 +2789,7 @@ public final class OmGetTrolleySurchargesPu {
         }
       }
       /**
-       * <code>optional .dstore.values.BooleanValue split_by_taxes = 10;</code>
+       * <code>.dstore.values.BooleanValue split_by_taxes = 10;</code>
        */
       public Builder setSplitByTaxes(io.dstore.values.BooleanValue value) {
         if (splitByTaxesBuilder_ == null) {
@@ -2805,7 +2805,7 @@ public final class OmGetTrolleySurchargesPu {
         return this;
       }
       /**
-       * <code>optional .dstore.values.BooleanValue split_by_taxes = 10;</code>
+       * <code>.dstore.values.BooleanValue split_by_taxes = 10;</code>
        */
       public Builder setSplitByTaxes(
           io.dstore.values.BooleanValue.Builder builderForValue) {
@@ -2819,7 +2819,7 @@ public final class OmGetTrolleySurchargesPu {
         return this;
       }
       /**
-       * <code>optional .dstore.values.BooleanValue split_by_taxes = 10;</code>
+       * <code>.dstore.values.BooleanValue split_by_taxes = 10;</code>
        */
       public Builder mergeSplitByTaxes(io.dstore.values.BooleanValue value) {
         if (splitByTaxesBuilder_ == null) {
@@ -2837,7 +2837,7 @@ public final class OmGetTrolleySurchargesPu {
         return this;
       }
       /**
-       * <code>optional .dstore.values.BooleanValue split_by_taxes = 10;</code>
+       * <code>.dstore.values.BooleanValue split_by_taxes = 10;</code>
        */
       public Builder clearSplitByTaxes() {
         if (splitByTaxesBuilder_ == null) {
@@ -2851,7 +2851,7 @@ public final class OmGetTrolleySurchargesPu {
         return this;
       }
       /**
-       * <code>optional .dstore.values.BooleanValue split_by_taxes = 10;</code>
+       * <code>.dstore.values.BooleanValue split_by_taxes = 10;</code>
        */
       public io.dstore.values.BooleanValue.Builder getSplitByTaxesBuilder() {
         
@@ -2859,7 +2859,7 @@ public final class OmGetTrolleySurchargesPu {
         return getSplitByTaxesFieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .dstore.values.BooleanValue split_by_taxes = 10;</code>
+       * <code>.dstore.values.BooleanValue split_by_taxes = 10;</code>
        */
       public io.dstore.values.BooleanValueOrBuilder getSplitByTaxesOrBuilder() {
         if (splitByTaxesBuilder_ != null) {
@@ -2870,7 +2870,7 @@ public final class OmGetTrolleySurchargesPu {
         }
       }
       /**
-       * <code>optional .dstore.values.BooleanValue split_by_taxes = 10;</code>
+       * <code>.dstore.values.BooleanValue split_by_taxes = 10;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.values.BooleanValue, io.dstore.values.BooleanValue.Builder, io.dstore.values.BooleanValueOrBuilder> 
@@ -2888,13 +2888,13 @@ public final class OmGetTrolleySurchargesPu {
 
       private boolean splitByTaxesNull_ ;
       /**
-       * <code>optional bool split_by_taxes_null = 1010;</code>
+       * <code>bool split_by_taxes_null = 1010;</code>
        */
       public boolean getSplitByTaxesNull() {
         return splitByTaxesNull_;
       }
       /**
-       * <code>optional bool split_by_taxes_null = 1010;</code>
+       * <code>bool split_by_taxes_null = 1010;</code>
        */
       public Builder setSplitByTaxesNull(boolean value) {
         
@@ -2903,7 +2903,7 @@ public final class OmGetTrolleySurchargesPu {
         return this;
       }
       /**
-       * <code>optional bool split_by_taxes_null = 1010;</code>
+       * <code>bool split_by_taxes_null = 1010;</code>
        */
       public Builder clearSplitByTaxesNull() {
         
@@ -3162,7 +3162,7 @@ public final class OmGetTrolleySurchargesPu {
         com.google.protobuf.MessageOrBuilder {
 
       /**
-       * <code>optional int32 row_id = 10000;</code>
+       * <code>int32 row_id = 10000;</code>
        */
       int getRowId();
 
@@ -3171,7 +3171,7 @@ public final class OmGetTrolleySurchargesPu {
        * Liste von "CampaignID"s, die den "Surcharge"-Wert mitbestimmt, d.h. die einen Rabatt bewirkt haben (z.B. ein Rabatt auf Versandkosten oder ein Gesamt-Auftrags-Rabatt)
        * </pre>
        *
-       * <code>optional .dstore.values.StringValue surcharge_generated_by_camp_ids = 10001;</code>
+       * <code>.dstore.values.StringValue surcharge_generated_by_camp_ids = 10001;</code>
        */
       boolean hasSurchargeGeneratedByCampIds();
       /**
@@ -3179,7 +3179,7 @@ public final class OmGetTrolleySurchargesPu {
        * Liste von "CampaignID"s, die den "Surcharge"-Wert mitbestimmt, d.h. die einen Rabatt bewirkt haben (z.B. ein Rabatt auf Versandkosten oder ein Gesamt-Auftrags-Rabatt)
        * </pre>
        *
-       * <code>optional .dstore.values.StringValue surcharge_generated_by_camp_ids = 10001;</code>
+       * <code>.dstore.values.StringValue surcharge_generated_by_camp_ids = 10001;</code>
        */
       io.dstore.values.StringValue getSurchargeGeneratedByCampIds();
       /**
@@ -3187,7 +3187,7 @@ public final class OmGetTrolleySurchargesPu {
        * Liste von "CampaignID"s, die den "Surcharge"-Wert mitbestimmt, d.h. die einen Rabatt bewirkt haben (z.B. ein Rabatt auf Versandkosten oder ein Gesamt-Auftrags-Rabatt)
        * </pre>
        *
-       * <code>optional .dstore.values.StringValue surcharge_generated_by_camp_ids = 10001;</code>
+       * <code>.dstore.values.StringValue surcharge_generated_by_camp_ids = 10001;</code>
        */
       io.dstore.values.StringValueOrBuilder getSurchargeGeneratedByCampIdsOrBuilder();
 
@@ -3196,7 +3196,7 @@ public final class OmGetTrolleySurchargesPu {
        * Der zur Berechnung herangezogene Wert (wie dieser zu verstehen ist, also z.B. in welcher Einheit - Währung oder Prozent - ist ja zur "SurchargeTypeID" hinterlegt und wird nicht nochmal explizit angegeben)
        * </pre>
        *
-       * <code>optional .dstore.values.DecimalValue applied_surcharge_value = 10002;</code>
+       * <code>.dstore.values.DecimalValue applied_surcharge_value = 10002;</code>
        */
       boolean hasAppliedSurchargeValue();
       /**
@@ -3204,7 +3204,7 @@ public final class OmGetTrolleySurchargesPu {
        * Der zur Berechnung herangezogene Wert (wie dieser zu verstehen ist, also z.B. in welcher Einheit - Währung oder Prozent - ist ja zur "SurchargeTypeID" hinterlegt und wird nicht nochmal explizit angegeben)
        * </pre>
        *
-       * <code>optional .dstore.values.DecimalValue applied_surcharge_value = 10002;</code>
+       * <code>.dstore.values.DecimalValue applied_surcharge_value = 10002;</code>
        */
       io.dstore.values.DecimalValue getAppliedSurchargeValue();
       /**
@@ -3212,7 +3212,7 @@ public final class OmGetTrolleySurchargesPu {
        * Der zur Berechnung herangezogene Wert (wie dieser zu verstehen ist, also z.B. in welcher Einheit - Währung oder Prozent - ist ja zur "SurchargeTypeID" hinterlegt und wird nicht nochmal explizit angegeben)
        * </pre>
        *
-       * <code>optional .dstore.values.DecimalValue applied_surcharge_value = 10002;</code>
+       * <code>.dstore.values.DecimalValue applied_surcharge_value = 10002;</code>
        */
       io.dstore.values.DecimalValueOrBuilder getAppliedSurchargeValueOrBuilder();
 
@@ -3221,7 +3221,7 @@ public final class OmGetTrolleySurchargesPu {
        * NETTO-Abschlag oder -Aufschlag in der durch "&#64;CurrencyID" angegebenen Währung
        * </pre>
        *
-       * <code>optional .dstore.values.DecimalValue absolute_net_surcharge = 10003;</code>
+       * <code>.dstore.values.DecimalValue absolute_net_surcharge = 10003;</code>
        */
       boolean hasAbsoluteNetSurcharge();
       /**
@@ -3229,7 +3229,7 @@ public final class OmGetTrolleySurchargesPu {
        * NETTO-Abschlag oder -Aufschlag in der durch "&#64;CurrencyID" angegebenen Währung
        * </pre>
        *
-       * <code>optional .dstore.values.DecimalValue absolute_net_surcharge = 10003;</code>
+       * <code>.dstore.values.DecimalValue absolute_net_surcharge = 10003;</code>
        */
       io.dstore.values.DecimalValue getAbsoluteNetSurcharge();
       /**
@@ -3237,7 +3237,7 @@ public final class OmGetTrolleySurchargesPu {
        * NETTO-Abschlag oder -Aufschlag in der durch "&#64;CurrencyID" angegebenen Währung
        * </pre>
        *
-       * <code>optional .dstore.values.DecimalValue absolute_net_surcharge = 10003;</code>
+       * <code>.dstore.values.DecimalValue absolute_net_surcharge = 10003;</code>
        */
       io.dstore.values.DecimalValueOrBuilder getAbsoluteNetSurchargeOrBuilder();
 
@@ -3246,7 +3246,7 @@ public final class OmGetTrolleySurchargesPu {
        * Auf welchen Brutto-Wert der "Surcharge" angewandt wurde. Grund für diese Information ist, daß ein "Surcharge" auf den Warenwert plus "Surcharges" mit höherer Priorität (s. z.B. "PriorityNo" von "om_GetSurchargeTypeCategories") angewendet wird.
        * </pre>
        *
-       * <code>optional .dstore.values.DecimalValue surcharge_applied_on_gross_sum = 10004;</code>
+       * <code>.dstore.values.DecimalValue surcharge_applied_on_gross_sum = 10004;</code>
        */
       boolean hasSurchargeAppliedOnGrossSum();
       /**
@@ -3254,7 +3254,7 @@ public final class OmGetTrolleySurchargesPu {
        * Auf welchen Brutto-Wert der "Surcharge" angewandt wurde. Grund für diese Information ist, daß ein "Surcharge" auf den Warenwert plus "Surcharges" mit höherer Priorität (s. z.B. "PriorityNo" von "om_GetSurchargeTypeCategories") angewendet wird.
        * </pre>
        *
-       * <code>optional .dstore.values.DecimalValue surcharge_applied_on_gross_sum = 10004;</code>
+       * <code>.dstore.values.DecimalValue surcharge_applied_on_gross_sum = 10004;</code>
        */
       io.dstore.values.DecimalValue getSurchargeAppliedOnGrossSum();
       /**
@@ -3262,7 +3262,7 @@ public final class OmGetTrolleySurchargesPu {
        * Auf welchen Brutto-Wert der "Surcharge" angewandt wurde. Grund für diese Information ist, daß ein "Surcharge" auf den Warenwert plus "Surcharges" mit höherer Priorität (s. z.B. "PriorityNo" von "om_GetSurchargeTypeCategories") angewendet wird.
        * </pre>
        *
-       * <code>optional .dstore.values.DecimalValue surcharge_applied_on_gross_sum = 10004;</code>
+       * <code>.dstore.values.DecimalValue surcharge_applied_on_gross_sum = 10004;</code>
        */
       io.dstore.values.DecimalValueOrBuilder getSurchargeAppliedOnGrossSumOrBuilder();
 
@@ -3271,7 +3271,7 @@ public final class OmGetTrolleySurchargesPu {
        * BRUTTO-Abschlag oder -Aufschlag in der durch "&#64;CurrencyID" angegebenen Währung
        * </pre>
        *
-       * <code>optional .dstore.values.DecimalValue absolute_gross_surcharge = 10005;</code>
+       * <code>.dstore.values.DecimalValue absolute_gross_surcharge = 10005;</code>
        */
       boolean hasAbsoluteGrossSurcharge();
       /**
@@ -3279,7 +3279,7 @@ public final class OmGetTrolleySurchargesPu {
        * BRUTTO-Abschlag oder -Aufschlag in der durch "&#64;CurrencyID" angegebenen Währung
        * </pre>
        *
-       * <code>optional .dstore.values.DecimalValue absolute_gross_surcharge = 10005;</code>
+       * <code>.dstore.values.DecimalValue absolute_gross_surcharge = 10005;</code>
        */
       io.dstore.values.DecimalValue getAbsoluteGrossSurcharge();
       /**
@@ -3287,7 +3287,7 @@ public final class OmGetTrolleySurchargesPu {
        * BRUTTO-Abschlag oder -Aufschlag in der durch "&#64;CurrencyID" angegebenen Währung
        * </pre>
        *
-       * <code>optional .dstore.values.DecimalValue absolute_gross_surcharge = 10005;</code>
+       * <code>.dstore.values.DecimalValue absolute_gross_surcharge = 10005;</code>
        */
       io.dstore.values.DecimalValueOrBuilder getAbsoluteGrossSurchargeOrBuilder();
 
@@ -3296,7 +3296,7 @@ public final class OmGetTrolleySurchargesPu {
        * (Eindeutige) Positions-Nummer eines "TrolleySurcharges". Gibt die Reihenfolge an, in der die "Surcharges" errechnet wurden. Hinweis : Es gibt einen Datensatz mit "0" für eine "Kopf"- und "255" für eine "Summen"-Zeile.
        * </pre>
        *
-       * <code>optional .dstore.values.IntegerValue position_no = 10006;</code>
+       * <code>.dstore.values.IntegerValue position_no = 10006;</code>
        */
       boolean hasPositionNo();
       /**
@@ -3304,7 +3304,7 @@ public final class OmGetTrolleySurchargesPu {
        * (Eindeutige) Positions-Nummer eines "TrolleySurcharges". Gibt die Reihenfolge an, in der die "Surcharges" errechnet wurden. Hinweis : Es gibt einen Datensatz mit "0" für eine "Kopf"- und "255" für eine "Summen"-Zeile.
        * </pre>
        *
-       * <code>optional .dstore.values.IntegerValue position_no = 10006;</code>
+       * <code>.dstore.values.IntegerValue position_no = 10006;</code>
        */
       io.dstore.values.IntegerValue getPositionNo();
       /**
@@ -3312,7 +3312,7 @@ public final class OmGetTrolleySurchargesPu {
        * (Eindeutige) Positions-Nummer eines "TrolleySurcharges". Gibt die Reihenfolge an, in der die "Surcharges" errechnet wurden. Hinweis : Es gibt einen Datensatz mit "0" für eine "Kopf"- und "255" für eine "Summen"-Zeile.
        * </pre>
        *
-       * <code>optional .dstore.values.IntegerValue position_no = 10006;</code>
+       * <code>.dstore.values.IntegerValue position_no = 10006;</code>
        */
       io.dstore.values.IntegerValueOrBuilder getPositionNoOrBuilder();
 
@@ -3321,7 +3321,7 @@ public final class OmGetTrolleySurchargesPu {
        * Bezeichnung der "SurchargeTypeID"
        * </pre>
        *
-       * <code>optional .dstore.values.StringValue surcharge_type_description = 10007;</code>
+       * <code>.dstore.values.StringValue surcharge_type_description = 10007;</code>
        */
       boolean hasSurchargeTypeDescription();
       /**
@@ -3329,7 +3329,7 @@ public final class OmGetTrolleySurchargesPu {
        * Bezeichnung der "SurchargeTypeID"
        * </pre>
        *
-       * <code>optional .dstore.values.StringValue surcharge_type_description = 10007;</code>
+       * <code>.dstore.values.StringValue surcharge_type_description = 10007;</code>
        */
       io.dstore.values.StringValue getSurchargeTypeDescription();
       /**
@@ -3337,7 +3337,7 @@ public final class OmGetTrolleySurchargesPu {
        * Bezeichnung der "SurchargeTypeID"
        * </pre>
        *
-       * <code>optional .dstore.values.StringValue surcharge_type_description = 10007;</code>
+       * <code>.dstore.values.StringValue surcharge_type_description = 10007;</code>
        */
       io.dstore.values.StringValueOrBuilder getSurchargeTypeDescriptionOrBuilder();
 
@@ -3346,7 +3346,7 @@ public final class OmGetTrolleySurchargesPu {
        * Die ID einer Aufschlags- bzw. Rabattart wie z.B. "Versandkosten", "Rabatt", "Nachnahmegebühr" o.ä.
        * </pre>
        *
-       * <code>optional .dstore.values.IntegerValue surcharge_type_id = 10008;</code>
+       * <code>.dstore.values.IntegerValue surcharge_type_id = 10008;</code>
        */
       boolean hasSurchargeTypeId();
       /**
@@ -3354,7 +3354,7 @@ public final class OmGetTrolleySurchargesPu {
        * Die ID einer Aufschlags- bzw. Rabattart wie z.B. "Versandkosten", "Rabatt", "Nachnahmegebühr" o.ä.
        * </pre>
        *
-       * <code>optional .dstore.values.IntegerValue surcharge_type_id = 10008;</code>
+       * <code>.dstore.values.IntegerValue surcharge_type_id = 10008;</code>
        */
       io.dstore.values.IntegerValue getSurchargeTypeId();
       /**
@@ -3362,7 +3362,7 @@ public final class OmGetTrolleySurchargesPu {
        * Die ID einer Aufschlags- bzw. Rabattart wie z.B. "Versandkosten", "Rabatt", "Nachnahmegebühr" o.ä.
        * </pre>
        *
-       * <code>optional .dstore.values.IntegerValue surcharge_type_id = 10008;</code>
+       * <code>.dstore.values.IntegerValue surcharge_type_id = 10008;</code>
        */
       io.dstore.values.IntegerValueOrBuilder getSurchargeTypeIdOrBuilder();
 
@@ -3371,7 +3371,7 @@ public final class OmGetTrolleySurchargesPu {
        * Auf welchen Netto-Wert der "Surcharge" angewandt wurde. Grund für diese Information ist, daß ein "Surcharge" auf den Warenwert plus "Surcharges" mit höherer Priorität (s. z.B. "PriorityNo" von "om_GetSurchargeTypeCategories") angewendet wird.
        * </pre>
        *
-       * <code>optional .dstore.values.DecimalValue surcharge_applied_on_net_sum = 10009;</code>
+       * <code>.dstore.values.DecimalValue surcharge_applied_on_net_sum = 10009;</code>
        */
       boolean hasSurchargeAppliedOnNetSum();
       /**
@@ -3379,7 +3379,7 @@ public final class OmGetTrolleySurchargesPu {
        * Auf welchen Netto-Wert der "Surcharge" angewandt wurde. Grund für diese Information ist, daß ein "Surcharge" auf den Warenwert plus "Surcharges" mit höherer Priorität (s. z.B. "PriorityNo" von "om_GetSurchargeTypeCategories") angewendet wird.
        * </pre>
        *
-       * <code>optional .dstore.values.DecimalValue surcharge_applied_on_net_sum = 10009;</code>
+       * <code>.dstore.values.DecimalValue surcharge_applied_on_net_sum = 10009;</code>
        */
       io.dstore.values.DecimalValue getSurchargeAppliedOnNetSum();
       /**
@@ -3387,7 +3387,7 @@ public final class OmGetTrolleySurchargesPu {
        * Auf welchen Netto-Wert der "Surcharge" angewandt wurde. Grund für diese Information ist, daß ein "Surcharge" auf den Warenwert plus "Surcharges" mit höherer Priorität (s. z.B. "PriorityNo" von "om_GetSurchargeTypeCategories") angewendet wird.
        * </pre>
        *
-       * <code>optional .dstore.values.DecimalValue surcharge_applied_on_net_sum = 10009;</code>
+       * <code>.dstore.values.DecimalValue surcharge_applied_on_net_sum = 10009;</code>
        */
       io.dstore.values.DecimalValueOrBuilder getSurchargeAppliedOnNetSumOrBuilder();
 
@@ -3396,7 +3396,7 @@ public final class OmGetTrolleySurchargesPu {
        * Mehrwertsteuer als "Multiplikator", die auf die Netto-Kosten "AbsoluteNetSurcharge" angewendet wurden, um die Brutto-Kosten "AbsoluteGrossSurcharge" zu erhalten. D.h. beträgt die Mehrwertsteuer z.B. "19%", steht hier der Wert "1.19".
        * </pre>
        *
-       * <code>optional .dstore.values.DecimalValue taxes_multiplier = 20002;</code>
+       * <code>.dstore.values.DecimalValue taxes_multiplier = 20002;</code>
        */
       boolean hasTaxesMultiplier();
       /**
@@ -3404,7 +3404,7 @@ public final class OmGetTrolleySurchargesPu {
        * Mehrwertsteuer als "Multiplikator", die auf die Netto-Kosten "AbsoluteNetSurcharge" angewendet wurden, um die Brutto-Kosten "AbsoluteGrossSurcharge" zu erhalten. D.h. beträgt die Mehrwertsteuer z.B. "19%", steht hier der Wert "1.19".
        * </pre>
        *
-       * <code>optional .dstore.values.DecimalValue taxes_multiplier = 20002;</code>
+       * <code>.dstore.values.DecimalValue taxes_multiplier = 20002;</code>
        */
       io.dstore.values.DecimalValue getTaxesMultiplier();
       /**
@@ -3412,7 +3412,7 @@ public final class OmGetTrolleySurchargesPu {
        * Mehrwertsteuer als "Multiplikator", die auf die Netto-Kosten "AbsoluteNetSurcharge" angewendet wurden, um die Brutto-Kosten "AbsoluteGrossSurcharge" zu erhalten. D.h. beträgt die Mehrwertsteuer z.B. "19%", steht hier der Wert "1.19".
        * </pre>
        *
-       * <code>optional .dstore.values.DecimalValue taxes_multiplier = 20002;</code>
+       * <code>.dstore.values.DecimalValue taxes_multiplier = 20002;</code>
        */
       io.dstore.values.DecimalValueOrBuilder getTaxesMultiplierOrBuilder();
     }
@@ -3617,7 +3617,7 @@ public final class OmGetTrolleySurchargesPu {
       public static final int ROW_ID_FIELD_NUMBER = 10000;
       private int rowId_;
       /**
-       * <code>optional int32 row_id = 10000;</code>
+       * <code>int32 row_id = 10000;</code>
        */
       public int getRowId() {
         return rowId_;
@@ -3630,7 +3630,7 @@ public final class OmGetTrolleySurchargesPu {
        * Liste von "CampaignID"s, die den "Surcharge"-Wert mitbestimmt, d.h. die einen Rabatt bewirkt haben (z.B. ein Rabatt auf Versandkosten oder ein Gesamt-Auftrags-Rabatt)
        * </pre>
        *
-       * <code>optional .dstore.values.StringValue surcharge_generated_by_camp_ids = 10001;</code>
+       * <code>.dstore.values.StringValue surcharge_generated_by_camp_ids = 10001;</code>
        */
       public boolean hasSurchargeGeneratedByCampIds() {
         return surchargeGeneratedByCampIds_ != null;
@@ -3640,7 +3640,7 @@ public final class OmGetTrolleySurchargesPu {
        * Liste von "CampaignID"s, die den "Surcharge"-Wert mitbestimmt, d.h. die einen Rabatt bewirkt haben (z.B. ein Rabatt auf Versandkosten oder ein Gesamt-Auftrags-Rabatt)
        * </pre>
        *
-       * <code>optional .dstore.values.StringValue surcharge_generated_by_camp_ids = 10001;</code>
+       * <code>.dstore.values.StringValue surcharge_generated_by_camp_ids = 10001;</code>
        */
       public io.dstore.values.StringValue getSurchargeGeneratedByCampIds() {
         return surchargeGeneratedByCampIds_ == null ? io.dstore.values.StringValue.getDefaultInstance() : surchargeGeneratedByCampIds_;
@@ -3650,7 +3650,7 @@ public final class OmGetTrolleySurchargesPu {
        * Liste von "CampaignID"s, die den "Surcharge"-Wert mitbestimmt, d.h. die einen Rabatt bewirkt haben (z.B. ein Rabatt auf Versandkosten oder ein Gesamt-Auftrags-Rabatt)
        * </pre>
        *
-       * <code>optional .dstore.values.StringValue surcharge_generated_by_camp_ids = 10001;</code>
+       * <code>.dstore.values.StringValue surcharge_generated_by_camp_ids = 10001;</code>
        */
       public io.dstore.values.StringValueOrBuilder getSurchargeGeneratedByCampIdsOrBuilder() {
         return getSurchargeGeneratedByCampIds();
@@ -3663,7 +3663,7 @@ public final class OmGetTrolleySurchargesPu {
        * Der zur Berechnung herangezogene Wert (wie dieser zu verstehen ist, also z.B. in welcher Einheit - Währung oder Prozent - ist ja zur "SurchargeTypeID" hinterlegt und wird nicht nochmal explizit angegeben)
        * </pre>
        *
-       * <code>optional .dstore.values.DecimalValue applied_surcharge_value = 10002;</code>
+       * <code>.dstore.values.DecimalValue applied_surcharge_value = 10002;</code>
        */
       public boolean hasAppliedSurchargeValue() {
         return appliedSurchargeValue_ != null;
@@ -3673,7 +3673,7 @@ public final class OmGetTrolleySurchargesPu {
        * Der zur Berechnung herangezogene Wert (wie dieser zu verstehen ist, also z.B. in welcher Einheit - Währung oder Prozent - ist ja zur "SurchargeTypeID" hinterlegt und wird nicht nochmal explizit angegeben)
        * </pre>
        *
-       * <code>optional .dstore.values.DecimalValue applied_surcharge_value = 10002;</code>
+       * <code>.dstore.values.DecimalValue applied_surcharge_value = 10002;</code>
        */
       public io.dstore.values.DecimalValue getAppliedSurchargeValue() {
         return appliedSurchargeValue_ == null ? io.dstore.values.DecimalValue.getDefaultInstance() : appliedSurchargeValue_;
@@ -3683,7 +3683,7 @@ public final class OmGetTrolleySurchargesPu {
        * Der zur Berechnung herangezogene Wert (wie dieser zu verstehen ist, also z.B. in welcher Einheit - Währung oder Prozent - ist ja zur "SurchargeTypeID" hinterlegt und wird nicht nochmal explizit angegeben)
        * </pre>
        *
-       * <code>optional .dstore.values.DecimalValue applied_surcharge_value = 10002;</code>
+       * <code>.dstore.values.DecimalValue applied_surcharge_value = 10002;</code>
        */
       public io.dstore.values.DecimalValueOrBuilder getAppliedSurchargeValueOrBuilder() {
         return getAppliedSurchargeValue();
@@ -3696,7 +3696,7 @@ public final class OmGetTrolleySurchargesPu {
        * NETTO-Abschlag oder -Aufschlag in der durch "&#64;CurrencyID" angegebenen Währung
        * </pre>
        *
-       * <code>optional .dstore.values.DecimalValue absolute_net_surcharge = 10003;</code>
+       * <code>.dstore.values.DecimalValue absolute_net_surcharge = 10003;</code>
        */
       public boolean hasAbsoluteNetSurcharge() {
         return absoluteNetSurcharge_ != null;
@@ -3706,7 +3706,7 @@ public final class OmGetTrolleySurchargesPu {
        * NETTO-Abschlag oder -Aufschlag in der durch "&#64;CurrencyID" angegebenen Währung
        * </pre>
        *
-       * <code>optional .dstore.values.DecimalValue absolute_net_surcharge = 10003;</code>
+       * <code>.dstore.values.DecimalValue absolute_net_surcharge = 10003;</code>
        */
       public io.dstore.values.DecimalValue getAbsoluteNetSurcharge() {
         return absoluteNetSurcharge_ == null ? io.dstore.values.DecimalValue.getDefaultInstance() : absoluteNetSurcharge_;
@@ -3716,7 +3716,7 @@ public final class OmGetTrolleySurchargesPu {
        * NETTO-Abschlag oder -Aufschlag in der durch "&#64;CurrencyID" angegebenen Währung
        * </pre>
        *
-       * <code>optional .dstore.values.DecimalValue absolute_net_surcharge = 10003;</code>
+       * <code>.dstore.values.DecimalValue absolute_net_surcharge = 10003;</code>
        */
       public io.dstore.values.DecimalValueOrBuilder getAbsoluteNetSurchargeOrBuilder() {
         return getAbsoluteNetSurcharge();
@@ -3729,7 +3729,7 @@ public final class OmGetTrolleySurchargesPu {
        * Auf welchen Brutto-Wert der "Surcharge" angewandt wurde. Grund für diese Information ist, daß ein "Surcharge" auf den Warenwert plus "Surcharges" mit höherer Priorität (s. z.B. "PriorityNo" von "om_GetSurchargeTypeCategories") angewendet wird.
        * </pre>
        *
-       * <code>optional .dstore.values.DecimalValue surcharge_applied_on_gross_sum = 10004;</code>
+       * <code>.dstore.values.DecimalValue surcharge_applied_on_gross_sum = 10004;</code>
        */
       public boolean hasSurchargeAppliedOnGrossSum() {
         return surchargeAppliedOnGrossSum_ != null;
@@ -3739,7 +3739,7 @@ public final class OmGetTrolleySurchargesPu {
        * Auf welchen Brutto-Wert der "Surcharge" angewandt wurde. Grund für diese Information ist, daß ein "Surcharge" auf den Warenwert plus "Surcharges" mit höherer Priorität (s. z.B. "PriorityNo" von "om_GetSurchargeTypeCategories") angewendet wird.
        * </pre>
        *
-       * <code>optional .dstore.values.DecimalValue surcharge_applied_on_gross_sum = 10004;</code>
+       * <code>.dstore.values.DecimalValue surcharge_applied_on_gross_sum = 10004;</code>
        */
       public io.dstore.values.DecimalValue getSurchargeAppliedOnGrossSum() {
         return surchargeAppliedOnGrossSum_ == null ? io.dstore.values.DecimalValue.getDefaultInstance() : surchargeAppliedOnGrossSum_;
@@ -3749,7 +3749,7 @@ public final class OmGetTrolleySurchargesPu {
        * Auf welchen Brutto-Wert der "Surcharge" angewandt wurde. Grund für diese Information ist, daß ein "Surcharge" auf den Warenwert plus "Surcharges" mit höherer Priorität (s. z.B. "PriorityNo" von "om_GetSurchargeTypeCategories") angewendet wird.
        * </pre>
        *
-       * <code>optional .dstore.values.DecimalValue surcharge_applied_on_gross_sum = 10004;</code>
+       * <code>.dstore.values.DecimalValue surcharge_applied_on_gross_sum = 10004;</code>
        */
       public io.dstore.values.DecimalValueOrBuilder getSurchargeAppliedOnGrossSumOrBuilder() {
         return getSurchargeAppliedOnGrossSum();
@@ -3762,7 +3762,7 @@ public final class OmGetTrolleySurchargesPu {
        * BRUTTO-Abschlag oder -Aufschlag in der durch "&#64;CurrencyID" angegebenen Währung
        * </pre>
        *
-       * <code>optional .dstore.values.DecimalValue absolute_gross_surcharge = 10005;</code>
+       * <code>.dstore.values.DecimalValue absolute_gross_surcharge = 10005;</code>
        */
       public boolean hasAbsoluteGrossSurcharge() {
         return absoluteGrossSurcharge_ != null;
@@ -3772,7 +3772,7 @@ public final class OmGetTrolleySurchargesPu {
        * BRUTTO-Abschlag oder -Aufschlag in der durch "&#64;CurrencyID" angegebenen Währung
        * </pre>
        *
-       * <code>optional .dstore.values.DecimalValue absolute_gross_surcharge = 10005;</code>
+       * <code>.dstore.values.DecimalValue absolute_gross_surcharge = 10005;</code>
        */
       public io.dstore.values.DecimalValue getAbsoluteGrossSurcharge() {
         return absoluteGrossSurcharge_ == null ? io.dstore.values.DecimalValue.getDefaultInstance() : absoluteGrossSurcharge_;
@@ -3782,7 +3782,7 @@ public final class OmGetTrolleySurchargesPu {
        * BRUTTO-Abschlag oder -Aufschlag in der durch "&#64;CurrencyID" angegebenen Währung
        * </pre>
        *
-       * <code>optional .dstore.values.DecimalValue absolute_gross_surcharge = 10005;</code>
+       * <code>.dstore.values.DecimalValue absolute_gross_surcharge = 10005;</code>
        */
       public io.dstore.values.DecimalValueOrBuilder getAbsoluteGrossSurchargeOrBuilder() {
         return getAbsoluteGrossSurcharge();
@@ -3795,7 +3795,7 @@ public final class OmGetTrolleySurchargesPu {
        * (Eindeutige) Positions-Nummer eines "TrolleySurcharges". Gibt die Reihenfolge an, in der die "Surcharges" errechnet wurden. Hinweis : Es gibt einen Datensatz mit "0" für eine "Kopf"- und "255" für eine "Summen"-Zeile.
        * </pre>
        *
-       * <code>optional .dstore.values.IntegerValue position_no = 10006;</code>
+       * <code>.dstore.values.IntegerValue position_no = 10006;</code>
        */
       public boolean hasPositionNo() {
         return positionNo_ != null;
@@ -3805,7 +3805,7 @@ public final class OmGetTrolleySurchargesPu {
        * (Eindeutige) Positions-Nummer eines "TrolleySurcharges". Gibt die Reihenfolge an, in der die "Surcharges" errechnet wurden. Hinweis : Es gibt einen Datensatz mit "0" für eine "Kopf"- und "255" für eine "Summen"-Zeile.
        * </pre>
        *
-       * <code>optional .dstore.values.IntegerValue position_no = 10006;</code>
+       * <code>.dstore.values.IntegerValue position_no = 10006;</code>
        */
       public io.dstore.values.IntegerValue getPositionNo() {
         return positionNo_ == null ? io.dstore.values.IntegerValue.getDefaultInstance() : positionNo_;
@@ -3815,7 +3815,7 @@ public final class OmGetTrolleySurchargesPu {
        * (Eindeutige) Positions-Nummer eines "TrolleySurcharges". Gibt die Reihenfolge an, in der die "Surcharges" errechnet wurden. Hinweis : Es gibt einen Datensatz mit "0" für eine "Kopf"- und "255" für eine "Summen"-Zeile.
        * </pre>
        *
-       * <code>optional .dstore.values.IntegerValue position_no = 10006;</code>
+       * <code>.dstore.values.IntegerValue position_no = 10006;</code>
        */
       public io.dstore.values.IntegerValueOrBuilder getPositionNoOrBuilder() {
         return getPositionNo();
@@ -3828,7 +3828,7 @@ public final class OmGetTrolleySurchargesPu {
        * Bezeichnung der "SurchargeTypeID"
        * </pre>
        *
-       * <code>optional .dstore.values.StringValue surcharge_type_description = 10007;</code>
+       * <code>.dstore.values.StringValue surcharge_type_description = 10007;</code>
        */
       public boolean hasSurchargeTypeDescription() {
         return surchargeTypeDescription_ != null;
@@ -3838,7 +3838,7 @@ public final class OmGetTrolleySurchargesPu {
        * Bezeichnung der "SurchargeTypeID"
        * </pre>
        *
-       * <code>optional .dstore.values.StringValue surcharge_type_description = 10007;</code>
+       * <code>.dstore.values.StringValue surcharge_type_description = 10007;</code>
        */
       public io.dstore.values.StringValue getSurchargeTypeDescription() {
         return surchargeTypeDescription_ == null ? io.dstore.values.StringValue.getDefaultInstance() : surchargeTypeDescription_;
@@ -3848,7 +3848,7 @@ public final class OmGetTrolleySurchargesPu {
        * Bezeichnung der "SurchargeTypeID"
        * </pre>
        *
-       * <code>optional .dstore.values.StringValue surcharge_type_description = 10007;</code>
+       * <code>.dstore.values.StringValue surcharge_type_description = 10007;</code>
        */
       public io.dstore.values.StringValueOrBuilder getSurchargeTypeDescriptionOrBuilder() {
         return getSurchargeTypeDescription();
@@ -3861,7 +3861,7 @@ public final class OmGetTrolleySurchargesPu {
        * Die ID einer Aufschlags- bzw. Rabattart wie z.B. "Versandkosten", "Rabatt", "Nachnahmegebühr" o.ä.
        * </pre>
        *
-       * <code>optional .dstore.values.IntegerValue surcharge_type_id = 10008;</code>
+       * <code>.dstore.values.IntegerValue surcharge_type_id = 10008;</code>
        */
       public boolean hasSurchargeTypeId() {
         return surchargeTypeId_ != null;
@@ -3871,7 +3871,7 @@ public final class OmGetTrolleySurchargesPu {
        * Die ID einer Aufschlags- bzw. Rabattart wie z.B. "Versandkosten", "Rabatt", "Nachnahmegebühr" o.ä.
        * </pre>
        *
-       * <code>optional .dstore.values.IntegerValue surcharge_type_id = 10008;</code>
+       * <code>.dstore.values.IntegerValue surcharge_type_id = 10008;</code>
        */
       public io.dstore.values.IntegerValue getSurchargeTypeId() {
         return surchargeTypeId_ == null ? io.dstore.values.IntegerValue.getDefaultInstance() : surchargeTypeId_;
@@ -3881,7 +3881,7 @@ public final class OmGetTrolleySurchargesPu {
        * Die ID einer Aufschlags- bzw. Rabattart wie z.B. "Versandkosten", "Rabatt", "Nachnahmegebühr" o.ä.
        * </pre>
        *
-       * <code>optional .dstore.values.IntegerValue surcharge_type_id = 10008;</code>
+       * <code>.dstore.values.IntegerValue surcharge_type_id = 10008;</code>
        */
       public io.dstore.values.IntegerValueOrBuilder getSurchargeTypeIdOrBuilder() {
         return getSurchargeTypeId();
@@ -3894,7 +3894,7 @@ public final class OmGetTrolleySurchargesPu {
        * Auf welchen Netto-Wert der "Surcharge" angewandt wurde. Grund für diese Information ist, daß ein "Surcharge" auf den Warenwert plus "Surcharges" mit höherer Priorität (s. z.B. "PriorityNo" von "om_GetSurchargeTypeCategories") angewendet wird.
        * </pre>
        *
-       * <code>optional .dstore.values.DecimalValue surcharge_applied_on_net_sum = 10009;</code>
+       * <code>.dstore.values.DecimalValue surcharge_applied_on_net_sum = 10009;</code>
        */
       public boolean hasSurchargeAppliedOnNetSum() {
         return surchargeAppliedOnNetSum_ != null;
@@ -3904,7 +3904,7 @@ public final class OmGetTrolleySurchargesPu {
        * Auf welchen Netto-Wert der "Surcharge" angewandt wurde. Grund für diese Information ist, daß ein "Surcharge" auf den Warenwert plus "Surcharges" mit höherer Priorität (s. z.B. "PriorityNo" von "om_GetSurchargeTypeCategories") angewendet wird.
        * </pre>
        *
-       * <code>optional .dstore.values.DecimalValue surcharge_applied_on_net_sum = 10009;</code>
+       * <code>.dstore.values.DecimalValue surcharge_applied_on_net_sum = 10009;</code>
        */
       public io.dstore.values.DecimalValue getSurchargeAppliedOnNetSum() {
         return surchargeAppliedOnNetSum_ == null ? io.dstore.values.DecimalValue.getDefaultInstance() : surchargeAppliedOnNetSum_;
@@ -3914,7 +3914,7 @@ public final class OmGetTrolleySurchargesPu {
        * Auf welchen Netto-Wert der "Surcharge" angewandt wurde. Grund für diese Information ist, daß ein "Surcharge" auf den Warenwert plus "Surcharges" mit höherer Priorität (s. z.B. "PriorityNo" von "om_GetSurchargeTypeCategories") angewendet wird.
        * </pre>
        *
-       * <code>optional .dstore.values.DecimalValue surcharge_applied_on_net_sum = 10009;</code>
+       * <code>.dstore.values.DecimalValue surcharge_applied_on_net_sum = 10009;</code>
        */
       public io.dstore.values.DecimalValueOrBuilder getSurchargeAppliedOnNetSumOrBuilder() {
         return getSurchargeAppliedOnNetSum();
@@ -3927,7 +3927,7 @@ public final class OmGetTrolleySurchargesPu {
        * Mehrwertsteuer als "Multiplikator", die auf die Netto-Kosten "AbsoluteNetSurcharge" angewendet wurden, um die Brutto-Kosten "AbsoluteGrossSurcharge" zu erhalten. D.h. beträgt die Mehrwertsteuer z.B. "19%", steht hier der Wert "1.19".
        * </pre>
        *
-       * <code>optional .dstore.values.DecimalValue taxes_multiplier = 20002;</code>
+       * <code>.dstore.values.DecimalValue taxes_multiplier = 20002;</code>
        */
       public boolean hasTaxesMultiplier() {
         return taxesMultiplier_ != null;
@@ -3937,7 +3937,7 @@ public final class OmGetTrolleySurchargesPu {
        * Mehrwertsteuer als "Multiplikator", die auf die Netto-Kosten "AbsoluteNetSurcharge" angewendet wurden, um die Brutto-Kosten "AbsoluteGrossSurcharge" zu erhalten. D.h. beträgt die Mehrwertsteuer z.B. "19%", steht hier der Wert "1.19".
        * </pre>
        *
-       * <code>optional .dstore.values.DecimalValue taxes_multiplier = 20002;</code>
+       * <code>.dstore.values.DecimalValue taxes_multiplier = 20002;</code>
        */
       public io.dstore.values.DecimalValue getTaxesMultiplier() {
         return taxesMultiplier_ == null ? io.dstore.values.DecimalValue.getDefaultInstance() : taxesMultiplier_;
@@ -3947,7 +3947,7 @@ public final class OmGetTrolleySurchargesPu {
        * Mehrwertsteuer als "Multiplikator", die auf die Netto-Kosten "AbsoluteNetSurcharge" angewendet wurden, um die Brutto-Kosten "AbsoluteGrossSurcharge" zu erhalten. D.h. beträgt die Mehrwertsteuer z.B. "19%", steht hier der Wert "1.19".
        * </pre>
        *
-       * <code>optional .dstore.values.DecimalValue taxes_multiplier = 20002;</code>
+       * <code>.dstore.values.DecimalValue taxes_multiplier = 20002;</code>
        */
       public io.dstore.values.DecimalValueOrBuilder getTaxesMultiplierOrBuilder() {
         return getTaxesMultiplier();
@@ -4126,7 +4126,7 @@ public final class OmGetTrolleySurchargesPu {
           return memoizedHashCode;
         }
         int hash = 41;
-        hash = (19 * hash) + getDescriptorForType().hashCode();
+        hash = (19 * hash) + getDescriptor().hashCode();
         hash = (37 * hash) + ROW_ID_FIELD_NUMBER;
         hash = (53 * hash) + getRowId();
         if (hasSurchargeGeneratedByCampIds()) {
@@ -4524,13 +4524,13 @@ public final class OmGetTrolleySurchargesPu {
 
         private int rowId_ ;
         /**
-         * <code>optional int32 row_id = 10000;</code>
+         * <code>int32 row_id = 10000;</code>
          */
         public int getRowId() {
           return rowId_;
         }
         /**
-         * <code>optional int32 row_id = 10000;</code>
+         * <code>int32 row_id = 10000;</code>
          */
         public Builder setRowId(int value) {
           
@@ -4539,7 +4539,7 @@ public final class OmGetTrolleySurchargesPu {
           return this;
         }
         /**
-         * <code>optional int32 row_id = 10000;</code>
+         * <code>int32 row_id = 10000;</code>
          */
         public Builder clearRowId() {
           
@@ -4556,7 +4556,7 @@ public final class OmGetTrolleySurchargesPu {
          * Liste von "CampaignID"s, die den "Surcharge"-Wert mitbestimmt, d.h. die einen Rabatt bewirkt haben (z.B. ein Rabatt auf Versandkosten oder ein Gesamt-Auftrags-Rabatt)
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue surcharge_generated_by_camp_ids = 10001;</code>
+         * <code>.dstore.values.StringValue surcharge_generated_by_camp_ids = 10001;</code>
          */
         public boolean hasSurchargeGeneratedByCampIds() {
           return surchargeGeneratedByCampIdsBuilder_ != null || surchargeGeneratedByCampIds_ != null;
@@ -4566,7 +4566,7 @@ public final class OmGetTrolleySurchargesPu {
          * Liste von "CampaignID"s, die den "Surcharge"-Wert mitbestimmt, d.h. die einen Rabatt bewirkt haben (z.B. ein Rabatt auf Versandkosten oder ein Gesamt-Auftrags-Rabatt)
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue surcharge_generated_by_camp_ids = 10001;</code>
+         * <code>.dstore.values.StringValue surcharge_generated_by_camp_ids = 10001;</code>
          */
         public io.dstore.values.StringValue getSurchargeGeneratedByCampIds() {
           if (surchargeGeneratedByCampIdsBuilder_ == null) {
@@ -4580,7 +4580,7 @@ public final class OmGetTrolleySurchargesPu {
          * Liste von "CampaignID"s, die den "Surcharge"-Wert mitbestimmt, d.h. die einen Rabatt bewirkt haben (z.B. ein Rabatt auf Versandkosten oder ein Gesamt-Auftrags-Rabatt)
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue surcharge_generated_by_camp_ids = 10001;</code>
+         * <code>.dstore.values.StringValue surcharge_generated_by_camp_ids = 10001;</code>
          */
         public Builder setSurchargeGeneratedByCampIds(io.dstore.values.StringValue value) {
           if (surchargeGeneratedByCampIdsBuilder_ == null) {
@@ -4600,7 +4600,7 @@ public final class OmGetTrolleySurchargesPu {
          * Liste von "CampaignID"s, die den "Surcharge"-Wert mitbestimmt, d.h. die einen Rabatt bewirkt haben (z.B. ein Rabatt auf Versandkosten oder ein Gesamt-Auftrags-Rabatt)
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue surcharge_generated_by_camp_ids = 10001;</code>
+         * <code>.dstore.values.StringValue surcharge_generated_by_camp_ids = 10001;</code>
          */
         public Builder setSurchargeGeneratedByCampIds(
             io.dstore.values.StringValue.Builder builderForValue) {
@@ -4618,7 +4618,7 @@ public final class OmGetTrolleySurchargesPu {
          * Liste von "CampaignID"s, die den "Surcharge"-Wert mitbestimmt, d.h. die einen Rabatt bewirkt haben (z.B. ein Rabatt auf Versandkosten oder ein Gesamt-Auftrags-Rabatt)
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue surcharge_generated_by_camp_ids = 10001;</code>
+         * <code>.dstore.values.StringValue surcharge_generated_by_camp_ids = 10001;</code>
          */
         public Builder mergeSurchargeGeneratedByCampIds(io.dstore.values.StringValue value) {
           if (surchargeGeneratedByCampIdsBuilder_ == null) {
@@ -4640,7 +4640,7 @@ public final class OmGetTrolleySurchargesPu {
          * Liste von "CampaignID"s, die den "Surcharge"-Wert mitbestimmt, d.h. die einen Rabatt bewirkt haben (z.B. ein Rabatt auf Versandkosten oder ein Gesamt-Auftrags-Rabatt)
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue surcharge_generated_by_camp_ids = 10001;</code>
+         * <code>.dstore.values.StringValue surcharge_generated_by_camp_ids = 10001;</code>
          */
         public Builder clearSurchargeGeneratedByCampIds() {
           if (surchargeGeneratedByCampIdsBuilder_ == null) {
@@ -4658,7 +4658,7 @@ public final class OmGetTrolleySurchargesPu {
          * Liste von "CampaignID"s, die den "Surcharge"-Wert mitbestimmt, d.h. die einen Rabatt bewirkt haben (z.B. ein Rabatt auf Versandkosten oder ein Gesamt-Auftrags-Rabatt)
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue surcharge_generated_by_camp_ids = 10001;</code>
+         * <code>.dstore.values.StringValue surcharge_generated_by_camp_ids = 10001;</code>
          */
         public io.dstore.values.StringValue.Builder getSurchargeGeneratedByCampIdsBuilder() {
           
@@ -4670,7 +4670,7 @@ public final class OmGetTrolleySurchargesPu {
          * Liste von "CampaignID"s, die den "Surcharge"-Wert mitbestimmt, d.h. die einen Rabatt bewirkt haben (z.B. ein Rabatt auf Versandkosten oder ein Gesamt-Auftrags-Rabatt)
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue surcharge_generated_by_camp_ids = 10001;</code>
+         * <code>.dstore.values.StringValue surcharge_generated_by_camp_ids = 10001;</code>
          */
         public io.dstore.values.StringValueOrBuilder getSurchargeGeneratedByCampIdsOrBuilder() {
           if (surchargeGeneratedByCampIdsBuilder_ != null) {
@@ -4685,7 +4685,7 @@ public final class OmGetTrolleySurchargesPu {
          * Liste von "CampaignID"s, die den "Surcharge"-Wert mitbestimmt, d.h. die einen Rabatt bewirkt haben (z.B. ein Rabatt auf Versandkosten oder ein Gesamt-Auftrags-Rabatt)
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue surcharge_generated_by_camp_ids = 10001;</code>
+         * <code>.dstore.values.StringValue surcharge_generated_by_camp_ids = 10001;</code>
          */
         private com.google.protobuf.SingleFieldBuilderV3<
             io.dstore.values.StringValue, io.dstore.values.StringValue.Builder, io.dstore.values.StringValueOrBuilder> 
@@ -4709,7 +4709,7 @@ public final class OmGetTrolleySurchargesPu {
          * Der zur Berechnung herangezogene Wert (wie dieser zu verstehen ist, also z.B. in welcher Einheit - Währung oder Prozent - ist ja zur "SurchargeTypeID" hinterlegt und wird nicht nochmal explizit angegeben)
          * </pre>
          *
-         * <code>optional .dstore.values.DecimalValue applied_surcharge_value = 10002;</code>
+         * <code>.dstore.values.DecimalValue applied_surcharge_value = 10002;</code>
          */
         public boolean hasAppliedSurchargeValue() {
           return appliedSurchargeValueBuilder_ != null || appliedSurchargeValue_ != null;
@@ -4719,7 +4719,7 @@ public final class OmGetTrolleySurchargesPu {
          * Der zur Berechnung herangezogene Wert (wie dieser zu verstehen ist, also z.B. in welcher Einheit - Währung oder Prozent - ist ja zur "SurchargeTypeID" hinterlegt und wird nicht nochmal explizit angegeben)
          * </pre>
          *
-         * <code>optional .dstore.values.DecimalValue applied_surcharge_value = 10002;</code>
+         * <code>.dstore.values.DecimalValue applied_surcharge_value = 10002;</code>
          */
         public io.dstore.values.DecimalValue getAppliedSurchargeValue() {
           if (appliedSurchargeValueBuilder_ == null) {
@@ -4733,7 +4733,7 @@ public final class OmGetTrolleySurchargesPu {
          * Der zur Berechnung herangezogene Wert (wie dieser zu verstehen ist, also z.B. in welcher Einheit - Währung oder Prozent - ist ja zur "SurchargeTypeID" hinterlegt und wird nicht nochmal explizit angegeben)
          * </pre>
          *
-         * <code>optional .dstore.values.DecimalValue applied_surcharge_value = 10002;</code>
+         * <code>.dstore.values.DecimalValue applied_surcharge_value = 10002;</code>
          */
         public Builder setAppliedSurchargeValue(io.dstore.values.DecimalValue value) {
           if (appliedSurchargeValueBuilder_ == null) {
@@ -4753,7 +4753,7 @@ public final class OmGetTrolleySurchargesPu {
          * Der zur Berechnung herangezogene Wert (wie dieser zu verstehen ist, also z.B. in welcher Einheit - Währung oder Prozent - ist ja zur "SurchargeTypeID" hinterlegt und wird nicht nochmal explizit angegeben)
          * </pre>
          *
-         * <code>optional .dstore.values.DecimalValue applied_surcharge_value = 10002;</code>
+         * <code>.dstore.values.DecimalValue applied_surcharge_value = 10002;</code>
          */
         public Builder setAppliedSurchargeValue(
             io.dstore.values.DecimalValue.Builder builderForValue) {
@@ -4771,7 +4771,7 @@ public final class OmGetTrolleySurchargesPu {
          * Der zur Berechnung herangezogene Wert (wie dieser zu verstehen ist, also z.B. in welcher Einheit - Währung oder Prozent - ist ja zur "SurchargeTypeID" hinterlegt und wird nicht nochmal explizit angegeben)
          * </pre>
          *
-         * <code>optional .dstore.values.DecimalValue applied_surcharge_value = 10002;</code>
+         * <code>.dstore.values.DecimalValue applied_surcharge_value = 10002;</code>
          */
         public Builder mergeAppliedSurchargeValue(io.dstore.values.DecimalValue value) {
           if (appliedSurchargeValueBuilder_ == null) {
@@ -4793,7 +4793,7 @@ public final class OmGetTrolleySurchargesPu {
          * Der zur Berechnung herangezogene Wert (wie dieser zu verstehen ist, also z.B. in welcher Einheit - Währung oder Prozent - ist ja zur "SurchargeTypeID" hinterlegt und wird nicht nochmal explizit angegeben)
          * </pre>
          *
-         * <code>optional .dstore.values.DecimalValue applied_surcharge_value = 10002;</code>
+         * <code>.dstore.values.DecimalValue applied_surcharge_value = 10002;</code>
          */
         public Builder clearAppliedSurchargeValue() {
           if (appliedSurchargeValueBuilder_ == null) {
@@ -4811,7 +4811,7 @@ public final class OmGetTrolleySurchargesPu {
          * Der zur Berechnung herangezogene Wert (wie dieser zu verstehen ist, also z.B. in welcher Einheit - Währung oder Prozent - ist ja zur "SurchargeTypeID" hinterlegt und wird nicht nochmal explizit angegeben)
          * </pre>
          *
-         * <code>optional .dstore.values.DecimalValue applied_surcharge_value = 10002;</code>
+         * <code>.dstore.values.DecimalValue applied_surcharge_value = 10002;</code>
          */
         public io.dstore.values.DecimalValue.Builder getAppliedSurchargeValueBuilder() {
           
@@ -4823,7 +4823,7 @@ public final class OmGetTrolleySurchargesPu {
          * Der zur Berechnung herangezogene Wert (wie dieser zu verstehen ist, also z.B. in welcher Einheit - Währung oder Prozent - ist ja zur "SurchargeTypeID" hinterlegt und wird nicht nochmal explizit angegeben)
          * </pre>
          *
-         * <code>optional .dstore.values.DecimalValue applied_surcharge_value = 10002;</code>
+         * <code>.dstore.values.DecimalValue applied_surcharge_value = 10002;</code>
          */
         public io.dstore.values.DecimalValueOrBuilder getAppliedSurchargeValueOrBuilder() {
           if (appliedSurchargeValueBuilder_ != null) {
@@ -4838,7 +4838,7 @@ public final class OmGetTrolleySurchargesPu {
          * Der zur Berechnung herangezogene Wert (wie dieser zu verstehen ist, also z.B. in welcher Einheit - Währung oder Prozent - ist ja zur "SurchargeTypeID" hinterlegt und wird nicht nochmal explizit angegeben)
          * </pre>
          *
-         * <code>optional .dstore.values.DecimalValue applied_surcharge_value = 10002;</code>
+         * <code>.dstore.values.DecimalValue applied_surcharge_value = 10002;</code>
          */
         private com.google.protobuf.SingleFieldBuilderV3<
             io.dstore.values.DecimalValue, io.dstore.values.DecimalValue.Builder, io.dstore.values.DecimalValueOrBuilder> 
@@ -4862,7 +4862,7 @@ public final class OmGetTrolleySurchargesPu {
          * NETTO-Abschlag oder -Aufschlag in der durch "&#64;CurrencyID" angegebenen Währung
          * </pre>
          *
-         * <code>optional .dstore.values.DecimalValue absolute_net_surcharge = 10003;</code>
+         * <code>.dstore.values.DecimalValue absolute_net_surcharge = 10003;</code>
          */
         public boolean hasAbsoluteNetSurcharge() {
           return absoluteNetSurchargeBuilder_ != null || absoluteNetSurcharge_ != null;
@@ -4872,7 +4872,7 @@ public final class OmGetTrolleySurchargesPu {
          * NETTO-Abschlag oder -Aufschlag in der durch "&#64;CurrencyID" angegebenen Währung
          * </pre>
          *
-         * <code>optional .dstore.values.DecimalValue absolute_net_surcharge = 10003;</code>
+         * <code>.dstore.values.DecimalValue absolute_net_surcharge = 10003;</code>
          */
         public io.dstore.values.DecimalValue getAbsoluteNetSurcharge() {
           if (absoluteNetSurchargeBuilder_ == null) {
@@ -4886,7 +4886,7 @@ public final class OmGetTrolleySurchargesPu {
          * NETTO-Abschlag oder -Aufschlag in der durch "&#64;CurrencyID" angegebenen Währung
          * </pre>
          *
-         * <code>optional .dstore.values.DecimalValue absolute_net_surcharge = 10003;</code>
+         * <code>.dstore.values.DecimalValue absolute_net_surcharge = 10003;</code>
          */
         public Builder setAbsoluteNetSurcharge(io.dstore.values.DecimalValue value) {
           if (absoluteNetSurchargeBuilder_ == null) {
@@ -4906,7 +4906,7 @@ public final class OmGetTrolleySurchargesPu {
          * NETTO-Abschlag oder -Aufschlag in der durch "&#64;CurrencyID" angegebenen Währung
          * </pre>
          *
-         * <code>optional .dstore.values.DecimalValue absolute_net_surcharge = 10003;</code>
+         * <code>.dstore.values.DecimalValue absolute_net_surcharge = 10003;</code>
          */
         public Builder setAbsoluteNetSurcharge(
             io.dstore.values.DecimalValue.Builder builderForValue) {
@@ -4924,7 +4924,7 @@ public final class OmGetTrolleySurchargesPu {
          * NETTO-Abschlag oder -Aufschlag in der durch "&#64;CurrencyID" angegebenen Währung
          * </pre>
          *
-         * <code>optional .dstore.values.DecimalValue absolute_net_surcharge = 10003;</code>
+         * <code>.dstore.values.DecimalValue absolute_net_surcharge = 10003;</code>
          */
         public Builder mergeAbsoluteNetSurcharge(io.dstore.values.DecimalValue value) {
           if (absoluteNetSurchargeBuilder_ == null) {
@@ -4946,7 +4946,7 @@ public final class OmGetTrolleySurchargesPu {
          * NETTO-Abschlag oder -Aufschlag in der durch "&#64;CurrencyID" angegebenen Währung
          * </pre>
          *
-         * <code>optional .dstore.values.DecimalValue absolute_net_surcharge = 10003;</code>
+         * <code>.dstore.values.DecimalValue absolute_net_surcharge = 10003;</code>
          */
         public Builder clearAbsoluteNetSurcharge() {
           if (absoluteNetSurchargeBuilder_ == null) {
@@ -4964,7 +4964,7 @@ public final class OmGetTrolleySurchargesPu {
          * NETTO-Abschlag oder -Aufschlag in der durch "&#64;CurrencyID" angegebenen Währung
          * </pre>
          *
-         * <code>optional .dstore.values.DecimalValue absolute_net_surcharge = 10003;</code>
+         * <code>.dstore.values.DecimalValue absolute_net_surcharge = 10003;</code>
          */
         public io.dstore.values.DecimalValue.Builder getAbsoluteNetSurchargeBuilder() {
           
@@ -4976,7 +4976,7 @@ public final class OmGetTrolleySurchargesPu {
          * NETTO-Abschlag oder -Aufschlag in der durch "&#64;CurrencyID" angegebenen Währung
          * </pre>
          *
-         * <code>optional .dstore.values.DecimalValue absolute_net_surcharge = 10003;</code>
+         * <code>.dstore.values.DecimalValue absolute_net_surcharge = 10003;</code>
          */
         public io.dstore.values.DecimalValueOrBuilder getAbsoluteNetSurchargeOrBuilder() {
           if (absoluteNetSurchargeBuilder_ != null) {
@@ -4991,7 +4991,7 @@ public final class OmGetTrolleySurchargesPu {
          * NETTO-Abschlag oder -Aufschlag in der durch "&#64;CurrencyID" angegebenen Währung
          * </pre>
          *
-         * <code>optional .dstore.values.DecimalValue absolute_net_surcharge = 10003;</code>
+         * <code>.dstore.values.DecimalValue absolute_net_surcharge = 10003;</code>
          */
         private com.google.protobuf.SingleFieldBuilderV3<
             io.dstore.values.DecimalValue, io.dstore.values.DecimalValue.Builder, io.dstore.values.DecimalValueOrBuilder> 
@@ -5015,7 +5015,7 @@ public final class OmGetTrolleySurchargesPu {
          * Auf welchen Brutto-Wert der "Surcharge" angewandt wurde. Grund für diese Information ist, daß ein "Surcharge" auf den Warenwert plus "Surcharges" mit höherer Priorität (s. z.B. "PriorityNo" von "om_GetSurchargeTypeCategories") angewendet wird.
          * </pre>
          *
-         * <code>optional .dstore.values.DecimalValue surcharge_applied_on_gross_sum = 10004;</code>
+         * <code>.dstore.values.DecimalValue surcharge_applied_on_gross_sum = 10004;</code>
          */
         public boolean hasSurchargeAppliedOnGrossSum() {
           return surchargeAppliedOnGrossSumBuilder_ != null || surchargeAppliedOnGrossSum_ != null;
@@ -5025,7 +5025,7 @@ public final class OmGetTrolleySurchargesPu {
          * Auf welchen Brutto-Wert der "Surcharge" angewandt wurde. Grund für diese Information ist, daß ein "Surcharge" auf den Warenwert plus "Surcharges" mit höherer Priorität (s. z.B. "PriorityNo" von "om_GetSurchargeTypeCategories") angewendet wird.
          * </pre>
          *
-         * <code>optional .dstore.values.DecimalValue surcharge_applied_on_gross_sum = 10004;</code>
+         * <code>.dstore.values.DecimalValue surcharge_applied_on_gross_sum = 10004;</code>
          */
         public io.dstore.values.DecimalValue getSurchargeAppliedOnGrossSum() {
           if (surchargeAppliedOnGrossSumBuilder_ == null) {
@@ -5039,7 +5039,7 @@ public final class OmGetTrolleySurchargesPu {
          * Auf welchen Brutto-Wert der "Surcharge" angewandt wurde. Grund für diese Information ist, daß ein "Surcharge" auf den Warenwert plus "Surcharges" mit höherer Priorität (s. z.B. "PriorityNo" von "om_GetSurchargeTypeCategories") angewendet wird.
          * </pre>
          *
-         * <code>optional .dstore.values.DecimalValue surcharge_applied_on_gross_sum = 10004;</code>
+         * <code>.dstore.values.DecimalValue surcharge_applied_on_gross_sum = 10004;</code>
          */
         public Builder setSurchargeAppliedOnGrossSum(io.dstore.values.DecimalValue value) {
           if (surchargeAppliedOnGrossSumBuilder_ == null) {
@@ -5059,7 +5059,7 @@ public final class OmGetTrolleySurchargesPu {
          * Auf welchen Brutto-Wert der "Surcharge" angewandt wurde. Grund für diese Information ist, daß ein "Surcharge" auf den Warenwert plus "Surcharges" mit höherer Priorität (s. z.B. "PriorityNo" von "om_GetSurchargeTypeCategories") angewendet wird.
          * </pre>
          *
-         * <code>optional .dstore.values.DecimalValue surcharge_applied_on_gross_sum = 10004;</code>
+         * <code>.dstore.values.DecimalValue surcharge_applied_on_gross_sum = 10004;</code>
          */
         public Builder setSurchargeAppliedOnGrossSum(
             io.dstore.values.DecimalValue.Builder builderForValue) {
@@ -5077,7 +5077,7 @@ public final class OmGetTrolleySurchargesPu {
          * Auf welchen Brutto-Wert der "Surcharge" angewandt wurde. Grund für diese Information ist, daß ein "Surcharge" auf den Warenwert plus "Surcharges" mit höherer Priorität (s. z.B. "PriorityNo" von "om_GetSurchargeTypeCategories") angewendet wird.
          * </pre>
          *
-         * <code>optional .dstore.values.DecimalValue surcharge_applied_on_gross_sum = 10004;</code>
+         * <code>.dstore.values.DecimalValue surcharge_applied_on_gross_sum = 10004;</code>
          */
         public Builder mergeSurchargeAppliedOnGrossSum(io.dstore.values.DecimalValue value) {
           if (surchargeAppliedOnGrossSumBuilder_ == null) {
@@ -5099,7 +5099,7 @@ public final class OmGetTrolleySurchargesPu {
          * Auf welchen Brutto-Wert der "Surcharge" angewandt wurde. Grund für diese Information ist, daß ein "Surcharge" auf den Warenwert plus "Surcharges" mit höherer Priorität (s. z.B. "PriorityNo" von "om_GetSurchargeTypeCategories") angewendet wird.
          * </pre>
          *
-         * <code>optional .dstore.values.DecimalValue surcharge_applied_on_gross_sum = 10004;</code>
+         * <code>.dstore.values.DecimalValue surcharge_applied_on_gross_sum = 10004;</code>
          */
         public Builder clearSurchargeAppliedOnGrossSum() {
           if (surchargeAppliedOnGrossSumBuilder_ == null) {
@@ -5117,7 +5117,7 @@ public final class OmGetTrolleySurchargesPu {
          * Auf welchen Brutto-Wert der "Surcharge" angewandt wurde. Grund für diese Information ist, daß ein "Surcharge" auf den Warenwert plus "Surcharges" mit höherer Priorität (s. z.B. "PriorityNo" von "om_GetSurchargeTypeCategories") angewendet wird.
          * </pre>
          *
-         * <code>optional .dstore.values.DecimalValue surcharge_applied_on_gross_sum = 10004;</code>
+         * <code>.dstore.values.DecimalValue surcharge_applied_on_gross_sum = 10004;</code>
          */
         public io.dstore.values.DecimalValue.Builder getSurchargeAppliedOnGrossSumBuilder() {
           
@@ -5129,7 +5129,7 @@ public final class OmGetTrolleySurchargesPu {
          * Auf welchen Brutto-Wert der "Surcharge" angewandt wurde. Grund für diese Information ist, daß ein "Surcharge" auf den Warenwert plus "Surcharges" mit höherer Priorität (s. z.B. "PriorityNo" von "om_GetSurchargeTypeCategories") angewendet wird.
          * </pre>
          *
-         * <code>optional .dstore.values.DecimalValue surcharge_applied_on_gross_sum = 10004;</code>
+         * <code>.dstore.values.DecimalValue surcharge_applied_on_gross_sum = 10004;</code>
          */
         public io.dstore.values.DecimalValueOrBuilder getSurchargeAppliedOnGrossSumOrBuilder() {
           if (surchargeAppliedOnGrossSumBuilder_ != null) {
@@ -5144,7 +5144,7 @@ public final class OmGetTrolleySurchargesPu {
          * Auf welchen Brutto-Wert der "Surcharge" angewandt wurde. Grund für diese Information ist, daß ein "Surcharge" auf den Warenwert plus "Surcharges" mit höherer Priorität (s. z.B. "PriorityNo" von "om_GetSurchargeTypeCategories") angewendet wird.
          * </pre>
          *
-         * <code>optional .dstore.values.DecimalValue surcharge_applied_on_gross_sum = 10004;</code>
+         * <code>.dstore.values.DecimalValue surcharge_applied_on_gross_sum = 10004;</code>
          */
         private com.google.protobuf.SingleFieldBuilderV3<
             io.dstore.values.DecimalValue, io.dstore.values.DecimalValue.Builder, io.dstore.values.DecimalValueOrBuilder> 
@@ -5168,7 +5168,7 @@ public final class OmGetTrolleySurchargesPu {
          * BRUTTO-Abschlag oder -Aufschlag in der durch "&#64;CurrencyID" angegebenen Währung
          * </pre>
          *
-         * <code>optional .dstore.values.DecimalValue absolute_gross_surcharge = 10005;</code>
+         * <code>.dstore.values.DecimalValue absolute_gross_surcharge = 10005;</code>
          */
         public boolean hasAbsoluteGrossSurcharge() {
           return absoluteGrossSurchargeBuilder_ != null || absoluteGrossSurcharge_ != null;
@@ -5178,7 +5178,7 @@ public final class OmGetTrolleySurchargesPu {
          * BRUTTO-Abschlag oder -Aufschlag in der durch "&#64;CurrencyID" angegebenen Währung
          * </pre>
          *
-         * <code>optional .dstore.values.DecimalValue absolute_gross_surcharge = 10005;</code>
+         * <code>.dstore.values.DecimalValue absolute_gross_surcharge = 10005;</code>
          */
         public io.dstore.values.DecimalValue getAbsoluteGrossSurcharge() {
           if (absoluteGrossSurchargeBuilder_ == null) {
@@ -5192,7 +5192,7 @@ public final class OmGetTrolleySurchargesPu {
          * BRUTTO-Abschlag oder -Aufschlag in der durch "&#64;CurrencyID" angegebenen Währung
          * </pre>
          *
-         * <code>optional .dstore.values.DecimalValue absolute_gross_surcharge = 10005;</code>
+         * <code>.dstore.values.DecimalValue absolute_gross_surcharge = 10005;</code>
          */
         public Builder setAbsoluteGrossSurcharge(io.dstore.values.DecimalValue value) {
           if (absoluteGrossSurchargeBuilder_ == null) {
@@ -5212,7 +5212,7 @@ public final class OmGetTrolleySurchargesPu {
          * BRUTTO-Abschlag oder -Aufschlag in der durch "&#64;CurrencyID" angegebenen Währung
          * </pre>
          *
-         * <code>optional .dstore.values.DecimalValue absolute_gross_surcharge = 10005;</code>
+         * <code>.dstore.values.DecimalValue absolute_gross_surcharge = 10005;</code>
          */
         public Builder setAbsoluteGrossSurcharge(
             io.dstore.values.DecimalValue.Builder builderForValue) {
@@ -5230,7 +5230,7 @@ public final class OmGetTrolleySurchargesPu {
          * BRUTTO-Abschlag oder -Aufschlag in der durch "&#64;CurrencyID" angegebenen Währung
          * </pre>
          *
-         * <code>optional .dstore.values.DecimalValue absolute_gross_surcharge = 10005;</code>
+         * <code>.dstore.values.DecimalValue absolute_gross_surcharge = 10005;</code>
          */
         public Builder mergeAbsoluteGrossSurcharge(io.dstore.values.DecimalValue value) {
           if (absoluteGrossSurchargeBuilder_ == null) {
@@ -5252,7 +5252,7 @@ public final class OmGetTrolleySurchargesPu {
          * BRUTTO-Abschlag oder -Aufschlag in der durch "&#64;CurrencyID" angegebenen Währung
          * </pre>
          *
-         * <code>optional .dstore.values.DecimalValue absolute_gross_surcharge = 10005;</code>
+         * <code>.dstore.values.DecimalValue absolute_gross_surcharge = 10005;</code>
          */
         public Builder clearAbsoluteGrossSurcharge() {
           if (absoluteGrossSurchargeBuilder_ == null) {
@@ -5270,7 +5270,7 @@ public final class OmGetTrolleySurchargesPu {
          * BRUTTO-Abschlag oder -Aufschlag in der durch "&#64;CurrencyID" angegebenen Währung
          * </pre>
          *
-         * <code>optional .dstore.values.DecimalValue absolute_gross_surcharge = 10005;</code>
+         * <code>.dstore.values.DecimalValue absolute_gross_surcharge = 10005;</code>
          */
         public io.dstore.values.DecimalValue.Builder getAbsoluteGrossSurchargeBuilder() {
           
@@ -5282,7 +5282,7 @@ public final class OmGetTrolleySurchargesPu {
          * BRUTTO-Abschlag oder -Aufschlag in der durch "&#64;CurrencyID" angegebenen Währung
          * </pre>
          *
-         * <code>optional .dstore.values.DecimalValue absolute_gross_surcharge = 10005;</code>
+         * <code>.dstore.values.DecimalValue absolute_gross_surcharge = 10005;</code>
          */
         public io.dstore.values.DecimalValueOrBuilder getAbsoluteGrossSurchargeOrBuilder() {
           if (absoluteGrossSurchargeBuilder_ != null) {
@@ -5297,7 +5297,7 @@ public final class OmGetTrolleySurchargesPu {
          * BRUTTO-Abschlag oder -Aufschlag in der durch "&#64;CurrencyID" angegebenen Währung
          * </pre>
          *
-         * <code>optional .dstore.values.DecimalValue absolute_gross_surcharge = 10005;</code>
+         * <code>.dstore.values.DecimalValue absolute_gross_surcharge = 10005;</code>
          */
         private com.google.protobuf.SingleFieldBuilderV3<
             io.dstore.values.DecimalValue, io.dstore.values.DecimalValue.Builder, io.dstore.values.DecimalValueOrBuilder> 
@@ -5321,7 +5321,7 @@ public final class OmGetTrolleySurchargesPu {
          * (Eindeutige) Positions-Nummer eines "TrolleySurcharges". Gibt die Reihenfolge an, in der die "Surcharges" errechnet wurden. Hinweis : Es gibt einen Datensatz mit "0" für eine "Kopf"- und "255" für eine "Summen"-Zeile.
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue position_no = 10006;</code>
+         * <code>.dstore.values.IntegerValue position_no = 10006;</code>
          */
         public boolean hasPositionNo() {
           return positionNoBuilder_ != null || positionNo_ != null;
@@ -5331,7 +5331,7 @@ public final class OmGetTrolleySurchargesPu {
          * (Eindeutige) Positions-Nummer eines "TrolleySurcharges". Gibt die Reihenfolge an, in der die "Surcharges" errechnet wurden. Hinweis : Es gibt einen Datensatz mit "0" für eine "Kopf"- und "255" für eine "Summen"-Zeile.
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue position_no = 10006;</code>
+         * <code>.dstore.values.IntegerValue position_no = 10006;</code>
          */
         public io.dstore.values.IntegerValue getPositionNo() {
           if (positionNoBuilder_ == null) {
@@ -5345,7 +5345,7 @@ public final class OmGetTrolleySurchargesPu {
          * (Eindeutige) Positions-Nummer eines "TrolleySurcharges". Gibt die Reihenfolge an, in der die "Surcharges" errechnet wurden. Hinweis : Es gibt einen Datensatz mit "0" für eine "Kopf"- und "255" für eine "Summen"-Zeile.
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue position_no = 10006;</code>
+         * <code>.dstore.values.IntegerValue position_no = 10006;</code>
          */
         public Builder setPositionNo(io.dstore.values.IntegerValue value) {
           if (positionNoBuilder_ == null) {
@@ -5365,7 +5365,7 @@ public final class OmGetTrolleySurchargesPu {
          * (Eindeutige) Positions-Nummer eines "TrolleySurcharges". Gibt die Reihenfolge an, in der die "Surcharges" errechnet wurden. Hinweis : Es gibt einen Datensatz mit "0" für eine "Kopf"- und "255" für eine "Summen"-Zeile.
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue position_no = 10006;</code>
+         * <code>.dstore.values.IntegerValue position_no = 10006;</code>
          */
         public Builder setPositionNo(
             io.dstore.values.IntegerValue.Builder builderForValue) {
@@ -5383,7 +5383,7 @@ public final class OmGetTrolleySurchargesPu {
          * (Eindeutige) Positions-Nummer eines "TrolleySurcharges". Gibt die Reihenfolge an, in der die "Surcharges" errechnet wurden. Hinweis : Es gibt einen Datensatz mit "0" für eine "Kopf"- und "255" für eine "Summen"-Zeile.
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue position_no = 10006;</code>
+         * <code>.dstore.values.IntegerValue position_no = 10006;</code>
          */
         public Builder mergePositionNo(io.dstore.values.IntegerValue value) {
           if (positionNoBuilder_ == null) {
@@ -5405,7 +5405,7 @@ public final class OmGetTrolleySurchargesPu {
          * (Eindeutige) Positions-Nummer eines "TrolleySurcharges". Gibt die Reihenfolge an, in der die "Surcharges" errechnet wurden. Hinweis : Es gibt einen Datensatz mit "0" für eine "Kopf"- und "255" für eine "Summen"-Zeile.
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue position_no = 10006;</code>
+         * <code>.dstore.values.IntegerValue position_no = 10006;</code>
          */
         public Builder clearPositionNo() {
           if (positionNoBuilder_ == null) {
@@ -5423,7 +5423,7 @@ public final class OmGetTrolleySurchargesPu {
          * (Eindeutige) Positions-Nummer eines "TrolleySurcharges". Gibt die Reihenfolge an, in der die "Surcharges" errechnet wurden. Hinweis : Es gibt einen Datensatz mit "0" für eine "Kopf"- und "255" für eine "Summen"-Zeile.
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue position_no = 10006;</code>
+         * <code>.dstore.values.IntegerValue position_no = 10006;</code>
          */
         public io.dstore.values.IntegerValue.Builder getPositionNoBuilder() {
           
@@ -5435,7 +5435,7 @@ public final class OmGetTrolleySurchargesPu {
          * (Eindeutige) Positions-Nummer eines "TrolleySurcharges". Gibt die Reihenfolge an, in der die "Surcharges" errechnet wurden. Hinweis : Es gibt einen Datensatz mit "0" für eine "Kopf"- und "255" für eine "Summen"-Zeile.
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue position_no = 10006;</code>
+         * <code>.dstore.values.IntegerValue position_no = 10006;</code>
          */
         public io.dstore.values.IntegerValueOrBuilder getPositionNoOrBuilder() {
           if (positionNoBuilder_ != null) {
@@ -5450,7 +5450,7 @@ public final class OmGetTrolleySurchargesPu {
          * (Eindeutige) Positions-Nummer eines "TrolleySurcharges". Gibt die Reihenfolge an, in der die "Surcharges" errechnet wurden. Hinweis : Es gibt einen Datensatz mit "0" für eine "Kopf"- und "255" für eine "Summen"-Zeile.
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue position_no = 10006;</code>
+         * <code>.dstore.values.IntegerValue position_no = 10006;</code>
          */
         private com.google.protobuf.SingleFieldBuilderV3<
             io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> 
@@ -5474,7 +5474,7 @@ public final class OmGetTrolleySurchargesPu {
          * Bezeichnung der "SurchargeTypeID"
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue surcharge_type_description = 10007;</code>
+         * <code>.dstore.values.StringValue surcharge_type_description = 10007;</code>
          */
         public boolean hasSurchargeTypeDescription() {
           return surchargeTypeDescriptionBuilder_ != null || surchargeTypeDescription_ != null;
@@ -5484,7 +5484,7 @@ public final class OmGetTrolleySurchargesPu {
          * Bezeichnung der "SurchargeTypeID"
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue surcharge_type_description = 10007;</code>
+         * <code>.dstore.values.StringValue surcharge_type_description = 10007;</code>
          */
         public io.dstore.values.StringValue getSurchargeTypeDescription() {
           if (surchargeTypeDescriptionBuilder_ == null) {
@@ -5498,7 +5498,7 @@ public final class OmGetTrolleySurchargesPu {
          * Bezeichnung der "SurchargeTypeID"
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue surcharge_type_description = 10007;</code>
+         * <code>.dstore.values.StringValue surcharge_type_description = 10007;</code>
          */
         public Builder setSurchargeTypeDescription(io.dstore.values.StringValue value) {
           if (surchargeTypeDescriptionBuilder_ == null) {
@@ -5518,7 +5518,7 @@ public final class OmGetTrolleySurchargesPu {
          * Bezeichnung der "SurchargeTypeID"
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue surcharge_type_description = 10007;</code>
+         * <code>.dstore.values.StringValue surcharge_type_description = 10007;</code>
          */
         public Builder setSurchargeTypeDescription(
             io.dstore.values.StringValue.Builder builderForValue) {
@@ -5536,7 +5536,7 @@ public final class OmGetTrolleySurchargesPu {
          * Bezeichnung der "SurchargeTypeID"
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue surcharge_type_description = 10007;</code>
+         * <code>.dstore.values.StringValue surcharge_type_description = 10007;</code>
          */
         public Builder mergeSurchargeTypeDescription(io.dstore.values.StringValue value) {
           if (surchargeTypeDescriptionBuilder_ == null) {
@@ -5558,7 +5558,7 @@ public final class OmGetTrolleySurchargesPu {
          * Bezeichnung der "SurchargeTypeID"
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue surcharge_type_description = 10007;</code>
+         * <code>.dstore.values.StringValue surcharge_type_description = 10007;</code>
          */
         public Builder clearSurchargeTypeDescription() {
           if (surchargeTypeDescriptionBuilder_ == null) {
@@ -5576,7 +5576,7 @@ public final class OmGetTrolleySurchargesPu {
          * Bezeichnung der "SurchargeTypeID"
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue surcharge_type_description = 10007;</code>
+         * <code>.dstore.values.StringValue surcharge_type_description = 10007;</code>
          */
         public io.dstore.values.StringValue.Builder getSurchargeTypeDescriptionBuilder() {
           
@@ -5588,7 +5588,7 @@ public final class OmGetTrolleySurchargesPu {
          * Bezeichnung der "SurchargeTypeID"
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue surcharge_type_description = 10007;</code>
+         * <code>.dstore.values.StringValue surcharge_type_description = 10007;</code>
          */
         public io.dstore.values.StringValueOrBuilder getSurchargeTypeDescriptionOrBuilder() {
           if (surchargeTypeDescriptionBuilder_ != null) {
@@ -5603,7 +5603,7 @@ public final class OmGetTrolleySurchargesPu {
          * Bezeichnung der "SurchargeTypeID"
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue surcharge_type_description = 10007;</code>
+         * <code>.dstore.values.StringValue surcharge_type_description = 10007;</code>
          */
         private com.google.protobuf.SingleFieldBuilderV3<
             io.dstore.values.StringValue, io.dstore.values.StringValue.Builder, io.dstore.values.StringValueOrBuilder> 
@@ -5627,7 +5627,7 @@ public final class OmGetTrolleySurchargesPu {
          * Die ID einer Aufschlags- bzw. Rabattart wie z.B. "Versandkosten", "Rabatt", "Nachnahmegebühr" o.ä.
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue surcharge_type_id = 10008;</code>
+         * <code>.dstore.values.IntegerValue surcharge_type_id = 10008;</code>
          */
         public boolean hasSurchargeTypeId() {
           return surchargeTypeIdBuilder_ != null || surchargeTypeId_ != null;
@@ -5637,7 +5637,7 @@ public final class OmGetTrolleySurchargesPu {
          * Die ID einer Aufschlags- bzw. Rabattart wie z.B. "Versandkosten", "Rabatt", "Nachnahmegebühr" o.ä.
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue surcharge_type_id = 10008;</code>
+         * <code>.dstore.values.IntegerValue surcharge_type_id = 10008;</code>
          */
         public io.dstore.values.IntegerValue getSurchargeTypeId() {
           if (surchargeTypeIdBuilder_ == null) {
@@ -5651,7 +5651,7 @@ public final class OmGetTrolleySurchargesPu {
          * Die ID einer Aufschlags- bzw. Rabattart wie z.B. "Versandkosten", "Rabatt", "Nachnahmegebühr" o.ä.
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue surcharge_type_id = 10008;</code>
+         * <code>.dstore.values.IntegerValue surcharge_type_id = 10008;</code>
          */
         public Builder setSurchargeTypeId(io.dstore.values.IntegerValue value) {
           if (surchargeTypeIdBuilder_ == null) {
@@ -5671,7 +5671,7 @@ public final class OmGetTrolleySurchargesPu {
          * Die ID einer Aufschlags- bzw. Rabattart wie z.B. "Versandkosten", "Rabatt", "Nachnahmegebühr" o.ä.
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue surcharge_type_id = 10008;</code>
+         * <code>.dstore.values.IntegerValue surcharge_type_id = 10008;</code>
          */
         public Builder setSurchargeTypeId(
             io.dstore.values.IntegerValue.Builder builderForValue) {
@@ -5689,7 +5689,7 @@ public final class OmGetTrolleySurchargesPu {
          * Die ID einer Aufschlags- bzw. Rabattart wie z.B. "Versandkosten", "Rabatt", "Nachnahmegebühr" o.ä.
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue surcharge_type_id = 10008;</code>
+         * <code>.dstore.values.IntegerValue surcharge_type_id = 10008;</code>
          */
         public Builder mergeSurchargeTypeId(io.dstore.values.IntegerValue value) {
           if (surchargeTypeIdBuilder_ == null) {
@@ -5711,7 +5711,7 @@ public final class OmGetTrolleySurchargesPu {
          * Die ID einer Aufschlags- bzw. Rabattart wie z.B. "Versandkosten", "Rabatt", "Nachnahmegebühr" o.ä.
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue surcharge_type_id = 10008;</code>
+         * <code>.dstore.values.IntegerValue surcharge_type_id = 10008;</code>
          */
         public Builder clearSurchargeTypeId() {
           if (surchargeTypeIdBuilder_ == null) {
@@ -5729,7 +5729,7 @@ public final class OmGetTrolleySurchargesPu {
          * Die ID einer Aufschlags- bzw. Rabattart wie z.B. "Versandkosten", "Rabatt", "Nachnahmegebühr" o.ä.
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue surcharge_type_id = 10008;</code>
+         * <code>.dstore.values.IntegerValue surcharge_type_id = 10008;</code>
          */
         public io.dstore.values.IntegerValue.Builder getSurchargeTypeIdBuilder() {
           
@@ -5741,7 +5741,7 @@ public final class OmGetTrolleySurchargesPu {
          * Die ID einer Aufschlags- bzw. Rabattart wie z.B. "Versandkosten", "Rabatt", "Nachnahmegebühr" o.ä.
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue surcharge_type_id = 10008;</code>
+         * <code>.dstore.values.IntegerValue surcharge_type_id = 10008;</code>
          */
         public io.dstore.values.IntegerValueOrBuilder getSurchargeTypeIdOrBuilder() {
           if (surchargeTypeIdBuilder_ != null) {
@@ -5756,7 +5756,7 @@ public final class OmGetTrolleySurchargesPu {
          * Die ID einer Aufschlags- bzw. Rabattart wie z.B. "Versandkosten", "Rabatt", "Nachnahmegebühr" o.ä.
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue surcharge_type_id = 10008;</code>
+         * <code>.dstore.values.IntegerValue surcharge_type_id = 10008;</code>
          */
         private com.google.protobuf.SingleFieldBuilderV3<
             io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> 
@@ -5780,7 +5780,7 @@ public final class OmGetTrolleySurchargesPu {
          * Auf welchen Netto-Wert der "Surcharge" angewandt wurde. Grund für diese Information ist, daß ein "Surcharge" auf den Warenwert plus "Surcharges" mit höherer Priorität (s. z.B. "PriorityNo" von "om_GetSurchargeTypeCategories") angewendet wird.
          * </pre>
          *
-         * <code>optional .dstore.values.DecimalValue surcharge_applied_on_net_sum = 10009;</code>
+         * <code>.dstore.values.DecimalValue surcharge_applied_on_net_sum = 10009;</code>
          */
         public boolean hasSurchargeAppliedOnNetSum() {
           return surchargeAppliedOnNetSumBuilder_ != null || surchargeAppliedOnNetSum_ != null;
@@ -5790,7 +5790,7 @@ public final class OmGetTrolleySurchargesPu {
          * Auf welchen Netto-Wert der "Surcharge" angewandt wurde. Grund für diese Information ist, daß ein "Surcharge" auf den Warenwert plus "Surcharges" mit höherer Priorität (s. z.B. "PriorityNo" von "om_GetSurchargeTypeCategories") angewendet wird.
          * </pre>
          *
-         * <code>optional .dstore.values.DecimalValue surcharge_applied_on_net_sum = 10009;</code>
+         * <code>.dstore.values.DecimalValue surcharge_applied_on_net_sum = 10009;</code>
          */
         public io.dstore.values.DecimalValue getSurchargeAppliedOnNetSum() {
           if (surchargeAppliedOnNetSumBuilder_ == null) {
@@ -5804,7 +5804,7 @@ public final class OmGetTrolleySurchargesPu {
          * Auf welchen Netto-Wert der "Surcharge" angewandt wurde. Grund für diese Information ist, daß ein "Surcharge" auf den Warenwert plus "Surcharges" mit höherer Priorität (s. z.B. "PriorityNo" von "om_GetSurchargeTypeCategories") angewendet wird.
          * </pre>
          *
-         * <code>optional .dstore.values.DecimalValue surcharge_applied_on_net_sum = 10009;</code>
+         * <code>.dstore.values.DecimalValue surcharge_applied_on_net_sum = 10009;</code>
          */
         public Builder setSurchargeAppliedOnNetSum(io.dstore.values.DecimalValue value) {
           if (surchargeAppliedOnNetSumBuilder_ == null) {
@@ -5824,7 +5824,7 @@ public final class OmGetTrolleySurchargesPu {
          * Auf welchen Netto-Wert der "Surcharge" angewandt wurde. Grund für diese Information ist, daß ein "Surcharge" auf den Warenwert plus "Surcharges" mit höherer Priorität (s. z.B. "PriorityNo" von "om_GetSurchargeTypeCategories") angewendet wird.
          * </pre>
          *
-         * <code>optional .dstore.values.DecimalValue surcharge_applied_on_net_sum = 10009;</code>
+         * <code>.dstore.values.DecimalValue surcharge_applied_on_net_sum = 10009;</code>
          */
         public Builder setSurchargeAppliedOnNetSum(
             io.dstore.values.DecimalValue.Builder builderForValue) {
@@ -5842,7 +5842,7 @@ public final class OmGetTrolleySurchargesPu {
          * Auf welchen Netto-Wert der "Surcharge" angewandt wurde. Grund für diese Information ist, daß ein "Surcharge" auf den Warenwert plus "Surcharges" mit höherer Priorität (s. z.B. "PriorityNo" von "om_GetSurchargeTypeCategories") angewendet wird.
          * </pre>
          *
-         * <code>optional .dstore.values.DecimalValue surcharge_applied_on_net_sum = 10009;</code>
+         * <code>.dstore.values.DecimalValue surcharge_applied_on_net_sum = 10009;</code>
          */
         public Builder mergeSurchargeAppliedOnNetSum(io.dstore.values.DecimalValue value) {
           if (surchargeAppliedOnNetSumBuilder_ == null) {
@@ -5864,7 +5864,7 @@ public final class OmGetTrolleySurchargesPu {
          * Auf welchen Netto-Wert der "Surcharge" angewandt wurde. Grund für diese Information ist, daß ein "Surcharge" auf den Warenwert plus "Surcharges" mit höherer Priorität (s. z.B. "PriorityNo" von "om_GetSurchargeTypeCategories") angewendet wird.
          * </pre>
          *
-         * <code>optional .dstore.values.DecimalValue surcharge_applied_on_net_sum = 10009;</code>
+         * <code>.dstore.values.DecimalValue surcharge_applied_on_net_sum = 10009;</code>
          */
         public Builder clearSurchargeAppliedOnNetSum() {
           if (surchargeAppliedOnNetSumBuilder_ == null) {
@@ -5882,7 +5882,7 @@ public final class OmGetTrolleySurchargesPu {
          * Auf welchen Netto-Wert der "Surcharge" angewandt wurde. Grund für diese Information ist, daß ein "Surcharge" auf den Warenwert plus "Surcharges" mit höherer Priorität (s. z.B. "PriorityNo" von "om_GetSurchargeTypeCategories") angewendet wird.
          * </pre>
          *
-         * <code>optional .dstore.values.DecimalValue surcharge_applied_on_net_sum = 10009;</code>
+         * <code>.dstore.values.DecimalValue surcharge_applied_on_net_sum = 10009;</code>
          */
         public io.dstore.values.DecimalValue.Builder getSurchargeAppliedOnNetSumBuilder() {
           
@@ -5894,7 +5894,7 @@ public final class OmGetTrolleySurchargesPu {
          * Auf welchen Netto-Wert der "Surcharge" angewandt wurde. Grund für diese Information ist, daß ein "Surcharge" auf den Warenwert plus "Surcharges" mit höherer Priorität (s. z.B. "PriorityNo" von "om_GetSurchargeTypeCategories") angewendet wird.
          * </pre>
          *
-         * <code>optional .dstore.values.DecimalValue surcharge_applied_on_net_sum = 10009;</code>
+         * <code>.dstore.values.DecimalValue surcharge_applied_on_net_sum = 10009;</code>
          */
         public io.dstore.values.DecimalValueOrBuilder getSurchargeAppliedOnNetSumOrBuilder() {
           if (surchargeAppliedOnNetSumBuilder_ != null) {
@@ -5909,7 +5909,7 @@ public final class OmGetTrolleySurchargesPu {
          * Auf welchen Netto-Wert der "Surcharge" angewandt wurde. Grund für diese Information ist, daß ein "Surcharge" auf den Warenwert plus "Surcharges" mit höherer Priorität (s. z.B. "PriorityNo" von "om_GetSurchargeTypeCategories") angewendet wird.
          * </pre>
          *
-         * <code>optional .dstore.values.DecimalValue surcharge_applied_on_net_sum = 10009;</code>
+         * <code>.dstore.values.DecimalValue surcharge_applied_on_net_sum = 10009;</code>
          */
         private com.google.protobuf.SingleFieldBuilderV3<
             io.dstore.values.DecimalValue, io.dstore.values.DecimalValue.Builder, io.dstore.values.DecimalValueOrBuilder> 
@@ -5933,7 +5933,7 @@ public final class OmGetTrolleySurchargesPu {
          * Mehrwertsteuer als "Multiplikator", die auf die Netto-Kosten "AbsoluteNetSurcharge" angewendet wurden, um die Brutto-Kosten "AbsoluteGrossSurcharge" zu erhalten. D.h. beträgt die Mehrwertsteuer z.B. "19%", steht hier der Wert "1.19".
          * </pre>
          *
-         * <code>optional .dstore.values.DecimalValue taxes_multiplier = 20002;</code>
+         * <code>.dstore.values.DecimalValue taxes_multiplier = 20002;</code>
          */
         public boolean hasTaxesMultiplier() {
           return taxesMultiplierBuilder_ != null || taxesMultiplier_ != null;
@@ -5943,7 +5943,7 @@ public final class OmGetTrolleySurchargesPu {
          * Mehrwertsteuer als "Multiplikator", die auf die Netto-Kosten "AbsoluteNetSurcharge" angewendet wurden, um die Brutto-Kosten "AbsoluteGrossSurcharge" zu erhalten. D.h. beträgt die Mehrwertsteuer z.B. "19%", steht hier der Wert "1.19".
          * </pre>
          *
-         * <code>optional .dstore.values.DecimalValue taxes_multiplier = 20002;</code>
+         * <code>.dstore.values.DecimalValue taxes_multiplier = 20002;</code>
          */
         public io.dstore.values.DecimalValue getTaxesMultiplier() {
           if (taxesMultiplierBuilder_ == null) {
@@ -5957,7 +5957,7 @@ public final class OmGetTrolleySurchargesPu {
          * Mehrwertsteuer als "Multiplikator", die auf die Netto-Kosten "AbsoluteNetSurcharge" angewendet wurden, um die Brutto-Kosten "AbsoluteGrossSurcharge" zu erhalten. D.h. beträgt die Mehrwertsteuer z.B. "19%", steht hier der Wert "1.19".
          * </pre>
          *
-         * <code>optional .dstore.values.DecimalValue taxes_multiplier = 20002;</code>
+         * <code>.dstore.values.DecimalValue taxes_multiplier = 20002;</code>
          */
         public Builder setTaxesMultiplier(io.dstore.values.DecimalValue value) {
           if (taxesMultiplierBuilder_ == null) {
@@ -5977,7 +5977,7 @@ public final class OmGetTrolleySurchargesPu {
          * Mehrwertsteuer als "Multiplikator", die auf die Netto-Kosten "AbsoluteNetSurcharge" angewendet wurden, um die Brutto-Kosten "AbsoluteGrossSurcharge" zu erhalten. D.h. beträgt die Mehrwertsteuer z.B. "19%", steht hier der Wert "1.19".
          * </pre>
          *
-         * <code>optional .dstore.values.DecimalValue taxes_multiplier = 20002;</code>
+         * <code>.dstore.values.DecimalValue taxes_multiplier = 20002;</code>
          */
         public Builder setTaxesMultiplier(
             io.dstore.values.DecimalValue.Builder builderForValue) {
@@ -5995,7 +5995,7 @@ public final class OmGetTrolleySurchargesPu {
          * Mehrwertsteuer als "Multiplikator", die auf die Netto-Kosten "AbsoluteNetSurcharge" angewendet wurden, um die Brutto-Kosten "AbsoluteGrossSurcharge" zu erhalten. D.h. beträgt die Mehrwertsteuer z.B. "19%", steht hier der Wert "1.19".
          * </pre>
          *
-         * <code>optional .dstore.values.DecimalValue taxes_multiplier = 20002;</code>
+         * <code>.dstore.values.DecimalValue taxes_multiplier = 20002;</code>
          */
         public Builder mergeTaxesMultiplier(io.dstore.values.DecimalValue value) {
           if (taxesMultiplierBuilder_ == null) {
@@ -6017,7 +6017,7 @@ public final class OmGetTrolleySurchargesPu {
          * Mehrwertsteuer als "Multiplikator", die auf die Netto-Kosten "AbsoluteNetSurcharge" angewendet wurden, um die Brutto-Kosten "AbsoluteGrossSurcharge" zu erhalten. D.h. beträgt die Mehrwertsteuer z.B. "19%", steht hier der Wert "1.19".
          * </pre>
          *
-         * <code>optional .dstore.values.DecimalValue taxes_multiplier = 20002;</code>
+         * <code>.dstore.values.DecimalValue taxes_multiplier = 20002;</code>
          */
         public Builder clearTaxesMultiplier() {
           if (taxesMultiplierBuilder_ == null) {
@@ -6035,7 +6035,7 @@ public final class OmGetTrolleySurchargesPu {
          * Mehrwertsteuer als "Multiplikator", die auf die Netto-Kosten "AbsoluteNetSurcharge" angewendet wurden, um die Brutto-Kosten "AbsoluteGrossSurcharge" zu erhalten. D.h. beträgt die Mehrwertsteuer z.B. "19%", steht hier der Wert "1.19".
          * </pre>
          *
-         * <code>optional .dstore.values.DecimalValue taxes_multiplier = 20002;</code>
+         * <code>.dstore.values.DecimalValue taxes_multiplier = 20002;</code>
          */
         public io.dstore.values.DecimalValue.Builder getTaxesMultiplierBuilder() {
           
@@ -6047,7 +6047,7 @@ public final class OmGetTrolleySurchargesPu {
          * Mehrwertsteuer als "Multiplikator", die auf die Netto-Kosten "AbsoluteNetSurcharge" angewendet wurden, um die Brutto-Kosten "AbsoluteGrossSurcharge" zu erhalten. D.h. beträgt die Mehrwertsteuer z.B. "19%", steht hier der Wert "1.19".
          * </pre>
          *
-         * <code>optional .dstore.values.DecimalValue taxes_multiplier = 20002;</code>
+         * <code>.dstore.values.DecimalValue taxes_multiplier = 20002;</code>
          */
         public io.dstore.values.DecimalValueOrBuilder getTaxesMultiplierOrBuilder() {
           if (taxesMultiplierBuilder_ != null) {
@@ -6062,7 +6062,7 @@ public final class OmGetTrolleySurchargesPu {
          * Mehrwertsteuer als "Multiplikator", die auf die Netto-Kosten "AbsoluteNetSurcharge" angewendet wurden, um die Brutto-Kosten "AbsoluteGrossSurcharge" zu erhalten. D.h. beträgt die Mehrwertsteuer z.B. "19%", steht hier der Wert "1.19".
          * </pre>
          *
-         * <code>optional .dstore.values.DecimalValue taxes_multiplier = 20002;</code>
+         * <code>.dstore.values.DecimalValue taxes_multiplier = 20002;</code>
          */
         private com.google.protobuf.SingleFieldBuilderV3<
             io.dstore.values.DecimalValue, io.dstore.values.DecimalValue.Builder, io.dstore.values.DecimalValueOrBuilder> 
@@ -6322,7 +6322,7 @@ public final class OmGetTrolleySurchargesPu {
         return memoizedHashCode;
       }
       int hash = 41;
-      hash = (19 * hash) + getDescriptorForType().hashCode();
+      hash = (19 * hash) + getDescriptor().hashCode();
       if (getMetaInformationCount() > 0) {
         hash = (37 * hash) + META_INFORMATION_FIELD_NUMBER;
         hash = (53 * hash) + getMetaInformationList().hashCode();

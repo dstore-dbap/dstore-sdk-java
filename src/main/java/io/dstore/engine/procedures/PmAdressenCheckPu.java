@@ -19,146 +19,146 @@ public final class PmAdressenCheckPu {
       com.google.protobuf.MessageOrBuilder {
 
     /**
-     * <code>optional .dstore.values.StringValue p_l_z = 1;</code>
+     * <code>.dstore.values.StringValue p_l_z = 1;</code>
      */
     boolean hasPLZ();
     /**
-     * <code>optional .dstore.values.StringValue p_l_z = 1;</code>
+     * <code>.dstore.values.StringValue p_l_z = 1;</code>
      */
     io.dstore.values.StringValue getPLZ();
     /**
-     * <code>optional .dstore.values.StringValue p_l_z = 1;</code>
+     * <code>.dstore.values.StringValue p_l_z = 1;</code>
      */
     io.dstore.values.StringValueOrBuilder getPLZOrBuilder();
 
     /**
-     * <code>optional bool p_l_z_null = 1001;</code>
+     * <code>bool p_l_z_null = 1001;</code>
      */
     boolean getPLZNull();
 
     /**
-     * <code>optional .dstore.values.StringValue ort = 2;</code>
+     * <code>.dstore.values.StringValue ort = 2;</code>
      */
     boolean hasOrt();
     /**
-     * <code>optional .dstore.values.StringValue ort = 2;</code>
+     * <code>.dstore.values.StringValue ort = 2;</code>
      */
     io.dstore.values.StringValue getOrt();
     /**
-     * <code>optional .dstore.values.StringValue ort = 2;</code>
+     * <code>.dstore.values.StringValue ort = 2;</code>
      */
     io.dstore.values.StringValueOrBuilder getOrtOrBuilder();
 
     /**
-     * <code>optional bool ort_null = 1002;</code>
+     * <code>bool ort_null = 1002;</code>
      */
     boolean getOrtNull();
 
     /**
-     * <code>optional .dstore.values.StringValue strasse = 3;</code>
+     * <code>.dstore.values.StringValue strasse = 3;</code>
      */
     boolean hasStrasse();
     /**
-     * <code>optional .dstore.values.StringValue strasse = 3;</code>
+     * <code>.dstore.values.StringValue strasse = 3;</code>
      */
     io.dstore.values.StringValue getStrasse();
     /**
-     * <code>optional .dstore.values.StringValue strasse = 3;</code>
+     * <code>.dstore.values.StringValue strasse = 3;</code>
      */
     io.dstore.values.StringValueOrBuilder getStrasseOrBuilder();
 
     /**
-     * <code>optional bool strasse_null = 1003;</code>
+     * <code>bool strasse_null = 1003;</code>
      */
     boolean getStrasseNull();
 
     /**
-     * <code>optional .dstore.values.StringValue hausnummer = 4;</code>
+     * <code>.dstore.values.StringValue hausnummer = 4;</code>
      */
     boolean hasHausnummer();
     /**
-     * <code>optional .dstore.values.StringValue hausnummer = 4;</code>
+     * <code>.dstore.values.StringValue hausnummer = 4;</code>
      */
     io.dstore.values.StringValue getHausnummer();
     /**
-     * <code>optional .dstore.values.StringValue hausnummer = 4;</code>
+     * <code>.dstore.values.StringValue hausnummer = 4;</code>
      */
     io.dstore.values.StringValueOrBuilder getHausnummerOrBuilder();
 
     /**
-     * <code>optional bool hausnummer_null = 1004;</code>
+     * <code>bool hausnummer_null = 1004;</code>
      */
     boolean getHausnummerNull();
 
     /**
-     * <code>optional .dstore.values.BooleanValue return_result = 5;</code>
+     * <code>.dstore.values.BooleanValue return_result = 5;</code>
      */
     boolean hasReturnResult();
     /**
-     * <code>optional .dstore.values.BooleanValue return_result = 5;</code>
+     * <code>.dstore.values.BooleanValue return_result = 5;</code>
      */
     io.dstore.values.BooleanValue getReturnResult();
     /**
-     * <code>optional .dstore.values.BooleanValue return_result = 5;</code>
+     * <code>.dstore.values.BooleanValue return_result = 5;</code>
      */
     io.dstore.values.BooleanValueOrBuilder getReturnResultOrBuilder();
 
     /**
-     * <code>optional bool return_result_null = 1005;</code>
+     * <code>bool return_result_null = 1005;</code>
      */
     boolean getReturnResultNull();
 
     /**
-     * <code>optional .dstore.values.IntegerValue correct_adress = 6;</code>
+     * <code>.dstore.values.IntegerValue correct_adress = 6;</code>
      */
     boolean hasCorrectAdress();
     /**
-     * <code>optional .dstore.values.IntegerValue correct_adress = 6;</code>
+     * <code>.dstore.values.IntegerValue correct_adress = 6;</code>
      */
     io.dstore.values.IntegerValue getCorrectAdress();
     /**
-     * <code>optional .dstore.values.IntegerValue correct_adress = 6;</code>
+     * <code>.dstore.values.IntegerValue correct_adress = 6;</code>
      */
     io.dstore.values.IntegerValueOrBuilder getCorrectAdressOrBuilder();
 
     /**
-     * <code>optional bool correct_adress_null = 1006;</code>
+     * <code>bool correct_adress_null = 1006;</code>
      */
     boolean getCorrectAdressNull();
 
     /**
-     * <code>optional .dstore.values.BooleanValue ort_vor_p_l_z = 7;</code>
+     * <code>.dstore.values.BooleanValue ort_vor_p_l_z = 7;</code>
      */
     boolean hasOrtVorPLZ();
     /**
-     * <code>optional .dstore.values.BooleanValue ort_vor_p_l_z = 7;</code>
+     * <code>.dstore.values.BooleanValue ort_vor_p_l_z = 7;</code>
      */
     io.dstore.values.BooleanValue getOrtVorPLZ();
     /**
-     * <code>optional .dstore.values.BooleanValue ort_vor_p_l_z = 7;</code>
+     * <code>.dstore.values.BooleanValue ort_vor_p_l_z = 7;</code>
      */
     io.dstore.values.BooleanValueOrBuilder getOrtVorPLZOrBuilder();
 
     /**
-     * <code>optional bool ort_vor_p_l_z_null = 1007;</code>
+     * <code>bool ort_vor_p_l_z_null = 1007;</code>
      */
     boolean getOrtVorPLZNull();
 
     /**
-     * <code>optional .dstore.values.BooleanValue strasse_vor_p_l_z = 8;</code>
+     * <code>.dstore.values.BooleanValue strasse_vor_p_l_z = 8;</code>
      */
     boolean hasStrasseVorPLZ();
     /**
-     * <code>optional .dstore.values.BooleanValue strasse_vor_p_l_z = 8;</code>
+     * <code>.dstore.values.BooleanValue strasse_vor_p_l_z = 8;</code>
      */
     io.dstore.values.BooleanValue getStrasseVorPLZ();
     /**
-     * <code>optional .dstore.values.BooleanValue strasse_vor_p_l_z = 8;</code>
+     * <code>.dstore.values.BooleanValue strasse_vor_p_l_z = 8;</code>
      */
     io.dstore.values.BooleanValueOrBuilder getStrasseVorPLZOrBuilder();
 
     /**
-     * <code>optional bool strasse_vor_p_l_z_null = 1008;</code>
+     * <code>bool strasse_vor_p_l_z_null = 1008;</code>
      */
     boolean getStrasseVorPLZNull();
   }
@@ -379,19 +379,19 @@ public final class PmAdressenCheckPu {
     public static final int P_L_Z_FIELD_NUMBER = 1;
     private io.dstore.values.StringValue pLZ_;
     /**
-     * <code>optional .dstore.values.StringValue p_l_z = 1;</code>
+     * <code>.dstore.values.StringValue p_l_z = 1;</code>
      */
     public boolean hasPLZ() {
       return pLZ_ != null;
     }
     /**
-     * <code>optional .dstore.values.StringValue p_l_z = 1;</code>
+     * <code>.dstore.values.StringValue p_l_z = 1;</code>
      */
     public io.dstore.values.StringValue getPLZ() {
       return pLZ_ == null ? io.dstore.values.StringValue.getDefaultInstance() : pLZ_;
     }
     /**
-     * <code>optional .dstore.values.StringValue p_l_z = 1;</code>
+     * <code>.dstore.values.StringValue p_l_z = 1;</code>
      */
     public io.dstore.values.StringValueOrBuilder getPLZOrBuilder() {
       return getPLZ();
@@ -400,7 +400,7 @@ public final class PmAdressenCheckPu {
     public static final int P_L_Z_NULL_FIELD_NUMBER = 1001;
     private boolean pLZNull_;
     /**
-     * <code>optional bool p_l_z_null = 1001;</code>
+     * <code>bool p_l_z_null = 1001;</code>
      */
     public boolean getPLZNull() {
       return pLZNull_;
@@ -409,19 +409,19 @@ public final class PmAdressenCheckPu {
     public static final int ORT_FIELD_NUMBER = 2;
     private io.dstore.values.StringValue ort_;
     /**
-     * <code>optional .dstore.values.StringValue ort = 2;</code>
+     * <code>.dstore.values.StringValue ort = 2;</code>
      */
     public boolean hasOrt() {
       return ort_ != null;
     }
     /**
-     * <code>optional .dstore.values.StringValue ort = 2;</code>
+     * <code>.dstore.values.StringValue ort = 2;</code>
      */
     public io.dstore.values.StringValue getOrt() {
       return ort_ == null ? io.dstore.values.StringValue.getDefaultInstance() : ort_;
     }
     /**
-     * <code>optional .dstore.values.StringValue ort = 2;</code>
+     * <code>.dstore.values.StringValue ort = 2;</code>
      */
     public io.dstore.values.StringValueOrBuilder getOrtOrBuilder() {
       return getOrt();
@@ -430,7 +430,7 @@ public final class PmAdressenCheckPu {
     public static final int ORT_NULL_FIELD_NUMBER = 1002;
     private boolean ortNull_;
     /**
-     * <code>optional bool ort_null = 1002;</code>
+     * <code>bool ort_null = 1002;</code>
      */
     public boolean getOrtNull() {
       return ortNull_;
@@ -439,19 +439,19 @@ public final class PmAdressenCheckPu {
     public static final int STRASSE_FIELD_NUMBER = 3;
     private io.dstore.values.StringValue strasse_;
     /**
-     * <code>optional .dstore.values.StringValue strasse = 3;</code>
+     * <code>.dstore.values.StringValue strasse = 3;</code>
      */
     public boolean hasStrasse() {
       return strasse_ != null;
     }
     /**
-     * <code>optional .dstore.values.StringValue strasse = 3;</code>
+     * <code>.dstore.values.StringValue strasse = 3;</code>
      */
     public io.dstore.values.StringValue getStrasse() {
       return strasse_ == null ? io.dstore.values.StringValue.getDefaultInstance() : strasse_;
     }
     /**
-     * <code>optional .dstore.values.StringValue strasse = 3;</code>
+     * <code>.dstore.values.StringValue strasse = 3;</code>
      */
     public io.dstore.values.StringValueOrBuilder getStrasseOrBuilder() {
       return getStrasse();
@@ -460,7 +460,7 @@ public final class PmAdressenCheckPu {
     public static final int STRASSE_NULL_FIELD_NUMBER = 1003;
     private boolean strasseNull_;
     /**
-     * <code>optional bool strasse_null = 1003;</code>
+     * <code>bool strasse_null = 1003;</code>
      */
     public boolean getStrasseNull() {
       return strasseNull_;
@@ -469,19 +469,19 @@ public final class PmAdressenCheckPu {
     public static final int HAUSNUMMER_FIELD_NUMBER = 4;
     private io.dstore.values.StringValue hausnummer_;
     /**
-     * <code>optional .dstore.values.StringValue hausnummer = 4;</code>
+     * <code>.dstore.values.StringValue hausnummer = 4;</code>
      */
     public boolean hasHausnummer() {
       return hausnummer_ != null;
     }
     /**
-     * <code>optional .dstore.values.StringValue hausnummer = 4;</code>
+     * <code>.dstore.values.StringValue hausnummer = 4;</code>
      */
     public io.dstore.values.StringValue getHausnummer() {
       return hausnummer_ == null ? io.dstore.values.StringValue.getDefaultInstance() : hausnummer_;
     }
     /**
-     * <code>optional .dstore.values.StringValue hausnummer = 4;</code>
+     * <code>.dstore.values.StringValue hausnummer = 4;</code>
      */
     public io.dstore.values.StringValueOrBuilder getHausnummerOrBuilder() {
       return getHausnummer();
@@ -490,7 +490,7 @@ public final class PmAdressenCheckPu {
     public static final int HAUSNUMMER_NULL_FIELD_NUMBER = 1004;
     private boolean hausnummerNull_;
     /**
-     * <code>optional bool hausnummer_null = 1004;</code>
+     * <code>bool hausnummer_null = 1004;</code>
      */
     public boolean getHausnummerNull() {
       return hausnummerNull_;
@@ -499,19 +499,19 @@ public final class PmAdressenCheckPu {
     public static final int RETURN_RESULT_FIELD_NUMBER = 5;
     private io.dstore.values.BooleanValue returnResult_;
     /**
-     * <code>optional .dstore.values.BooleanValue return_result = 5;</code>
+     * <code>.dstore.values.BooleanValue return_result = 5;</code>
      */
     public boolean hasReturnResult() {
       return returnResult_ != null;
     }
     /**
-     * <code>optional .dstore.values.BooleanValue return_result = 5;</code>
+     * <code>.dstore.values.BooleanValue return_result = 5;</code>
      */
     public io.dstore.values.BooleanValue getReturnResult() {
       return returnResult_ == null ? io.dstore.values.BooleanValue.getDefaultInstance() : returnResult_;
     }
     /**
-     * <code>optional .dstore.values.BooleanValue return_result = 5;</code>
+     * <code>.dstore.values.BooleanValue return_result = 5;</code>
      */
     public io.dstore.values.BooleanValueOrBuilder getReturnResultOrBuilder() {
       return getReturnResult();
@@ -520,7 +520,7 @@ public final class PmAdressenCheckPu {
     public static final int RETURN_RESULT_NULL_FIELD_NUMBER = 1005;
     private boolean returnResultNull_;
     /**
-     * <code>optional bool return_result_null = 1005;</code>
+     * <code>bool return_result_null = 1005;</code>
      */
     public boolean getReturnResultNull() {
       return returnResultNull_;
@@ -529,19 +529,19 @@ public final class PmAdressenCheckPu {
     public static final int CORRECT_ADRESS_FIELD_NUMBER = 6;
     private io.dstore.values.IntegerValue correctAdress_;
     /**
-     * <code>optional .dstore.values.IntegerValue correct_adress = 6;</code>
+     * <code>.dstore.values.IntegerValue correct_adress = 6;</code>
      */
     public boolean hasCorrectAdress() {
       return correctAdress_ != null;
     }
     /**
-     * <code>optional .dstore.values.IntegerValue correct_adress = 6;</code>
+     * <code>.dstore.values.IntegerValue correct_adress = 6;</code>
      */
     public io.dstore.values.IntegerValue getCorrectAdress() {
       return correctAdress_ == null ? io.dstore.values.IntegerValue.getDefaultInstance() : correctAdress_;
     }
     /**
-     * <code>optional .dstore.values.IntegerValue correct_adress = 6;</code>
+     * <code>.dstore.values.IntegerValue correct_adress = 6;</code>
      */
     public io.dstore.values.IntegerValueOrBuilder getCorrectAdressOrBuilder() {
       return getCorrectAdress();
@@ -550,7 +550,7 @@ public final class PmAdressenCheckPu {
     public static final int CORRECT_ADRESS_NULL_FIELD_NUMBER = 1006;
     private boolean correctAdressNull_;
     /**
-     * <code>optional bool correct_adress_null = 1006;</code>
+     * <code>bool correct_adress_null = 1006;</code>
      */
     public boolean getCorrectAdressNull() {
       return correctAdressNull_;
@@ -559,19 +559,19 @@ public final class PmAdressenCheckPu {
     public static final int ORT_VOR_P_L_Z_FIELD_NUMBER = 7;
     private io.dstore.values.BooleanValue ortVorPLZ_;
     /**
-     * <code>optional .dstore.values.BooleanValue ort_vor_p_l_z = 7;</code>
+     * <code>.dstore.values.BooleanValue ort_vor_p_l_z = 7;</code>
      */
     public boolean hasOrtVorPLZ() {
       return ortVorPLZ_ != null;
     }
     /**
-     * <code>optional .dstore.values.BooleanValue ort_vor_p_l_z = 7;</code>
+     * <code>.dstore.values.BooleanValue ort_vor_p_l_z = 7;</code>
      */
     public io.dstore.values.BooleanValue getOrtVorPLZ() {
       return ortVorPLZ_ == null ? io.dstore.values.BooleanValue.getDefaultInstance() : ortVorPLZ_;
     }
     /**
-     * <code>optional .dstore.values.BooleanValue ort_vor_p_l_z = 7;</code>
+     * <code>.dstore.values.BooleanValue ort_vor_p_l_z = 7;</code>
      */
     public io.dstore.values.BooleanValueOrBuilder getOrtVorPLZOrBuilder() {
       return getOrtVorPLZ();
@@ -580,7 +580,7 @@ public final class PmAdressenCheckPu {
     public static final int ORT_VOR_P_L_Z_NULL_FIELD_NUMBER = 1007;
     private boolean ortVorPLZNull_;
     /**
-     * <code>optional bool ort_vor_p_l_z_null = 1007;</code>
+     * <code>bool ort_vor_p_l_z_null = 1007;</code>
      */
     public boolean getOrtVorPLZNull() {
       return ortVorPLZNull_;
@@ -589,19 +589,19 @@ public final class PmAdressenCheckPu {
     public static final int STRASSE_VOR_P_L_Z_FIELD_NUMBER = 8;
     private io.dstore.values.BooleanValue strasseVorPLZ_;
     /**
-     * <code>optional .dstore.values.BooleanValue strasse_vor_p_l_z = 8;</code>
+     * <code>.dstore.values.BooleanValue strasse_vor_p_l_z = 8;</code>
      */
     public boolean hasStrasseVorPLZ() {
       return strasseVorPLZ_ != null;
     }
     /**
-     * <code>optional .dstore.values.BooleanValue strasse_vor_p_l_z = 8;</code>
+     * <code>.dstore.values.BooleanValue strasse_vor_p_l_z = 8;</code>
      */
     public io.dstore.values.BooleanValue getStrasseVorPLZ() {
       return strasseVorPLZ_ == null ? io.dstore.values.BooleanValue.getDefaultInstance() : strasseVorPLZ_;
     }
     /**
-     * <code>optional .dstore.values.BooleanValue strasse_vor_p_l_z = 8;</code>
+     * <code>.dstore.values.BooleanValue strasse_vor_p_l_z = 8;</code>
      */
     public io.dstore.values.BooleanValueOrBuilder getStrasseVorPLZOrBuilder() {
       return getStrasseVorPLZ();
@@ -610,7 +610,7 @@ public final class PmAdressenCheckPu {
     public static final int STRASSE_VOR_P_L_Z_NULL_FIELD_NUMBER = 1008;
     private boolean strasseVorPLZNull_;
     /**
-     * <code>optional bool strasse_vor_p_l_z_null = 1008;</code>
+     * <code>bool strasse_vor_p_l_z_null = 1008;</code>
      */
     public boolean getStrasseVorPLZNull() {
       return strasseVorPLZNull_;
@@ -828,7 +828,7 @@ public final class PmAdressenCheckPu {
         return memoizedHashCode;
       }
       int hash = 41;
-      hash = (19 * hash) + getDescriptorForType().hashCode();
+      hash = (19 * hash) + getDescriptor().hashCode();
       if (hasPLZ()) {
         hash = (37 * hash) + P_L_Z_FIELD_NUMBER;
         hash = (53 * hash) + getPLZ().hashCode();
@@ -1256,13 +1256,13 @@ public final class PmAdressenCheckPu {
       private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.values.StringValue, io.dstore.values.StringValue.Builder, io.dstore.values.StringValueOrBuilder> pLZBuilder_;
       /**
-       * <code>optional .dstore.values.StringValue p_l_z = 1;</code>
+       * <code>.dstore.values.StringValue p_l_z = 1;</code>
        */
       public boolean hasPLZ() {
         return pLZBuilder_ != null || pLZ_ != null;
       }
       /**
-       * <code>optional .dstore.values.StringValue p_l_z = 1;</code>
+       * <code>.dstore.values.StringValue p_l_z = 1;</code>
        */
       public io.dstore.values.StringValue getPLZ() {
         if (pLZBuilder_ == null) {
@@ -1272,7 +1272,7 @@ public final class PmAdressenCheckPu {
         }
       }
       /**
-       * <code>optional .dstore.values.StringValue p_l_z = 1;</code>
+       * <code>.dstore.values.StringValue p_l_z = 1;</code>
        */
       public Builder setPLZ(io.dstore.values.StringValue value) {
         if (pLZBuilder_ == null) {
@@ -1288,7 +1288,7 @@ public final class PmAdressenCheckPu {
         return this;
       }
       /**
-       * <code>optional .dstore.values.StringValue p_l_z = 1;</code>
+       * <code>.dstore.values.StringValue p_l_z = 1;</code>
        */
       public Builder setPLZ(
           io.dstore.values.StringValue.Builder builderForValue) {
@@ -1302,7 +1302,7 @@ public final class PmAdressenCheckPu {
         return this;
       }
       /**
-       * <code>optional .dstore.values.StringValue p_l_z = 1;</code>
+       * <code>.dstore.values.StringValue p_l_z = 1;</code>
        */
       public Builder mergePLZ(io.dstore.values.StringValue value) {
         if (pLZBuilder_ == null) {
@@ -1320,7 +1320,7 @@ public final class PmAdressenCheckPu {
         return this;
       }
       /**
-       * <code>optional .dstore.values.StringValue p_l_z = 1;</code>
+       * <code>.dstore.values.StringValue p_l_z = 1;</code>
        */
       public Builder clearPLZ() {
         if (pLZBuilder_ == null) {
@@ -1334,7 +1334,7 @@ public final class PmAdressenCheckPu {
         return this;
       }
       /**
-       * <code>optional .dstore.values.StringValue p_l_z = 1;</code>
+       * <code>.dstore.values.StringValue p_l_z = 1;</code>
        */
       public io.dstore.values.StringValue.Builder getPLZBuilder() {
         
@@ -1342,7 +1342,7 @@ public final class PmAdressenCheckPu {
         return getPLZFieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .dstore.values.StringValue p_l_z = 1;</code>
+       * <code>.dstore.values.StringValue p_l_z = 1;</code>
        */
       public io.dstore.values.StringValueOrBuilder getPLZOrBuilder() {
         if (pLZBuilder_ != null) {
@@ -1353,7 +1353,7 @@ public final class PmAdressenCheckPu {
         }
       }
       /**
-       * <code>optional .dstore.values.StringValue p_l_z = 1;</code>
+       * <code>.dstore.values.StringValue p_l_z = 1;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.values.StringValue, io.dstore.values.StringValue.Builder, io.dstore.values.StringValueOrBuilder> 
@@ -1371,13 +1371,13 @@ public final class PmAdressenCheckPu {
 
       private boolean pLZNull_ ;
       /**
-       * <code>optional bool p_l_z_null = 1001;</code>
+       * <code>bool p_l_z_null = 1001;</code>
        */
       public boolean getPLZNull() {
         return pLZNull_;
       }
       /**
-       * <code>optional bool p_l_z_null = 1001;</code>
+       * <code>bool p_l_z_null = 1001;</code>
        */
       public Builder setPLZNull(boolean value) {
         
@@ -1386,7 +1386,7 @@ public final class PmAdressenCheckPu {
         return this;
       }
       /**
-       * <code>optional bool p_l_z_null = 1001;</code>
+       * <code>bool p_l_z_null = 1001;</code>
        */
       public Builder clearPLZNull() {
         
@@ -1399,13 +1399,13 @@ public final class PmAdressenCheckPu {
       private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.values.StringValue, io.dstore.values.StringValue.Builder, io.dstore.values.StringValueOrBuilder> ortBuilder_;
       /**
-       * <code>optional .dstore.values.StringValue ort = 2;</code>
+       * <code>.dstore.values.StringValue ort = 2;</code>
        */
       public boolean hasOrt() {
         return ortBuilder_ != null || ort_ != null;
       }
       /**
-       * <code>optional .dstore.values.StringValue ort = 2;</code>
+       * <code>.dstore.values.StringValue ort = 2;</code>
        */
       public io.dstore.values.StringValue getOrt() {
         if (ortBuilder_ == null) {
@@ -1415,7 +1415,7 @@ public final class PmAdressenCheckPu {
         }
       }
       /**
-       * <code>optional .dstore.values.StringValue ort = 2;</code>
+       * <code>.dstore.values.StringValue ort = 2;</code>
        */
       public Builder setOrt(io.dstore.values.StringValue value) {
         if (ortBuilder_ == null) {
@@ -1431,7 +1431,7 @@ public final class PmAdressenCheckPu {
         return this;
       }
       /**
-       * <code>optional .dstore.values.StringValue ort = 2;</code>
+       * <code>.dstore.values.StringValue ort = 2;</code>
        */
       public Builder setOrt(
           io.dstore.values.StringValue.Builder builderForValue) {
@@ -1445,7 +1445,7 @@ public final class PmAdressenCheckPu {
         return this;
       }
       /**
-       * <code>optional .dstore.values.StringValue ort = 2;</code>
+       * <code>.dstore.values.StringValue ort = 2;</code>
        */
       public Builder mergeOrt(io.dstore.values.StringValue value) {
         if (ortBuilder_ == null) {
@@ -1463,7 +1463,7 @@ public final class PmAdressenCheckPu {
         return this;
       }
       /**
-       * <code>optional .dstore.values.StringValue ort = 2;</code>
+       * <code>.dstore.values.StringValue ort = 2;</code>
        */
       public Builder clearOrt() {
         if (ortBuilder_ == null) {
@@ -1477,7 +1477,7 @@ public final class PmAdressenCheckPu {
         return this;
       }
       /**
-       * <code>optional .dstore.values.StringValue ort = 2;</code>
+       * <code>.dstore.values.StringValue ort = 2;</code>
        */
       public io.dstore.values.StringValue.Builder getOrtBuilder() {
         
@@ -1485,7 +1485,7 @@ public final class PmAdressenCheckPu {
         return getOrtFieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .dstore.values.StringValue ort = 2;</code>
+       * <code>.dstore.values.StringValue ort = 2;</code>
        */
       public io.dstore.values.StringValueOrBuilder getOrtOrBuilder() {
         if (ortBuilder_ != null) {
@@ -1496,7 +1496,7 @@ public final class PmAdressenCheckPu {
         }
       }
       /**
-       * <code>optional .dstore.values.StringValue ort = 2;</code>
+       * <code>.dstore.values.StringValue ort = 2;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.values.StringValue, io.dstore.values.StringValue.Builder, io.dstore.values.StringValueOrBuilder> 
@@ -1514,13 +1514,13 @@ public final class PmAdressenCheckPu {
 
       private boolean ortNull_ ;
       /**
-       * <code>optional bool ort_null = 1002;</code>
+       * <code>bool ort_null = 1002;</code>
        */
       public boolean getOrtNull() {
         return ortNull_;
       }
       /**
-       * <code>optional bool ort_null = 1002;</code>
+       * <code>bool ort_null = 1002;</code>
        */
       public Builder setOrtNull(boolean value) {
         
@@ -1529,7 +1529,7 @@ public final class PmAdressenCheckPu {
         return this;
       }
       /**
-       * <code>optional bool ort_null = 1002;</code>
+       * <code>bool ort_null = 1002;</code>
        */
       public Builder clearOrtNull() {
         
@@ -1542,13 +1542,13 @@ public final class PmAdressenCheckPu {
       private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.values.StringValue, io.dstore.values.StringValue.Builder, io.dstore.values.StringValueOrBuilder> strasseBuilder_;
       /**
-       * <code>optional .dstore.values.StringValue strasse = 3;</code>
+       * <code>.dstore.values.StringValue strasse = 3;</code>
        */
       public boolean hasStrasse() {
         return strasseBuilder_ != null || strasse_ != null;
       }
       /**
-       * <code>optional .dstore.values.StringValue strasse = 3;</code>
+       * <code>.dstore.values.StringValue strasse = 3;</code>
        */
       public io.dstore.values.StringValue getStrasse() {
         if (strasseBuilder_ == null) {
@@ -1558,7 +1558,7 @@ public final class PmAdressenCheckPu {
         }
       }
       /**
-       * <code>optional .dstore.values.StringValue strasse = 3;</code>
+       * <code>.dstore.values.StringValue strasse = 3;</code>
        */
       public Builder setStrasse(io.dstore.values.StringValue value) {
         if (strasseBuilder_ == null) {
@@ -1574,7 +1574,7 @@ public final class PmAdressenCheckPu {
         return this;
       }
       /**
-       * <code>optional .dstore.values.StringValue strasse = 3;</code>
+       * <code>.dstore.values.StringValue strasse = 3;</code>
        */
       public Builder setStrasse(
           io.dstore.values.StringValue.Builder builderForValue) {
@@ -1588,7 +1588,7 @@ public final class PmAdressenCheckPu {
         return this;
       }
       /**
-       * <code>optional .dstore.values.StringValue strasse = 3;</code>
+       * <code>.dstore.values.StringValue strasse = 3;</code>
        */
       public Builder mergeStrasse(io.dstore.values.StringValue value) {
         if (strasseBuilder_ == null) {
@@ -1606,7 +1606,7 @@ public final class PmAdressenCheckPu {
         return this;
       }
       /**
-       * <code>optional .dstore.values.StringValue strasse = 3;</code>
+       * <code>.dstore.values.StringValue strasse = 3;</code>
        */
       public Builder clearStrasse() {
         if (strasseBuilder_ == null) {
@@ -1620,7 +1620,7 @@ public final class PmAdressenCheckPu {
         return this;
       }
       /**
-       * <code>optional .dstore.values.StringValue strasse = 3;</code>
+       * <code>.dstore.values.StringValue strasse = 3;</code>
        */
       public io.dstore.values.StringValue.Builder getStrasseBuilder() {
         
@@ -1628,7 +1628,7 @@ public final class PmAdressenCheckPu {
         return getStrasseFieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .dstore.values.StringValue strasse = 3;</code>
+       * <code>.dstore.values.StringValue strasse = 3;</code>
        */
       public io.dstore.values.StringValueOrBuilder getStrasseOrBuilder() {
         if (strasseBuilder_ != null) {
@@ -1639,7 +1639,7 @@ public final class PmAdressenCheckPu {
         }
       }
       /**
-       * <code>optional .dstore.values.StringValue strasse = 3;</code>
+       * <code>.dstore.values.StringValue strasse = 3;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.values.StringValue, io.dstore.values.StringValue.Builder, io.dstore.values.StringValueOrBuilder> 
@@ -1657,13 +1657,13 @@ public final class PmAdressenCheckPu {
 
       private boolean strasseNull_ ;
       /**
-       * <code>optional bool strasse_null = 1003;</code>
+       * <code>bool strasse_null = 1003;</code>
        */
       public boolean getStrasseNull() {
         return strasseNull_;
       }
       /**
-       * <code>optional bool strasse_null = 1003;</code>
+       * <code>bool strasse_null = 1003;</code>
        */
       public Builder setStrasseNull(boolean value) {
         
@@ -1672,7 +1672,7 @@ public final class PmAdressenCheckPu {
         return this;
       }
       /**
-       * <code>optional bool strasse_null = 1003;</code>
+       * <code>bool strasse_null = 1003;</code>
        */
       public Builder clearStrasseNull() {
         
@@ -1685,13 +1685,13 @@ public final class PmAdressenCheckPu {
       private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.values.StringValue, io.dstore.values.StringValue.Builder, io.dstore.values.StringValueOrBuilder> hausnummerBuilder_;
       /**
-       * <code>optional .dstore.values.StringValue hausnummer = 4;</code>
+       * <code>.dstore.values.StringValue hausnummer = 4;</code>
        */
       public boolean hasHausnummer() {
         return hausnummerBuilder_ != null || hausnummer_ != null;
       }
       /**
-       * <code>optional .dstore.values.StringValue hausnummer = 4;</code>
+       * <code>.dstore.values.StringValue hausnummer = 4;</code>
        */
       public io.dstore.values.StringValue getHausnummer() {
         if (hausnummerBuilder_ == null) {
@@ -1701,7 +1701,7 @@ public final class PmAdressenCheckPu {
         }
       }
       /**
-       * <code>optional .dstore.values.StringValue hausnummer = 4;</code>
+       * <code>.dstore.values.StringValue hausnummer = 4;</code>
        */
       public Builder setHausnummer(io.dstore.values.StringValue value) {
         if (hausnummerBuilder_ == null) {
@@ -1717,7 +1717,7 @@ public final class PmAdressenCheckPu {
         return this;
       }
       /**
-       * <code>optional .dstore.values.StringValue hausnummer = 4;</code>
+       * <code>.dstore.values.StringValue hausnummer = 4;</code>
        */
       public Builder setHausnummer(
           io.dstore.values.StringValue.Builder builderForValue) {
@@ -1731,7 +1731,7 @@ public final class PmAdressenCheckPu {
         return this;
       }
       /**
-       * <code>optional .dstore.values.StringValue hausnummer = 4;</code>
+       * <code>.dstore.values.StringValue hausnummer = 4;</code>
        */
       public Builder mergeHausnummer(io.dstore.values.StringValue value) {
         if (hausnummerBuilder_ == null) {
@@ -1749,7 +1749,7 @@ public final class PmAdressenCheckPu {
         return this;
       }
       /**
-       * <code>optional .dstore.values.StringValue hausnummer = 4;</code>
+       * <code>.dstore.values.StringValue hausnummer = 4;</code>
        */
       public Builder clearHausnummer() {
         if (hausnummerBuilder_ == null) {
@@ -1763,7 +1763,7 @@ public final class PmAdressenCheckPu {
         return this;
       }
       /**
-       * <code>optional .dstore.values.StringValue hausnummer = 4;</code>
+       * <code>.dstore.values.StringValue hausnummer = 4;</code>
        */
       public io.dstore.values.StringValue.Builder getHausnummerBuilder() {
         
@@ -1771,7 +1771,7 @@ public final class PmAdressenCheckPu {
         return getHausnummerFieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .dstore.values.StringValue hausnummer = 4;</code>
+       * <code>.dstore.values.StringValue hausnummer = 4;</code>
        */
       public io.dstore.values.StringValueOrBuilder getHausnummerOrBuilder() {
         if (hausnummerBuilder_ != null) {
@@ -1782,7 +1782,7 @@ public final class PmAdressenCheckPu {
         }
       }
       /**
-       * <code>optional .dstore.values.StringValue hausnummer = 4;</code>
+       * <code>.dstore.values.StringValue hausnummer = 4;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.values.StringValue, io.dstore.values.StringValue.Builder, io.dstore.values.StringValueOrBuilder> 
@@ -1800,13 +1800,13 @@ public final class PmAdressenCheckPu {
 
       private boolean hausnummerNull_ ;
       /**
-       * <code>optional bool hausnummer_null = 1004;</code>
+       * <code>bool hausnummer_null = 1004;</code>
        */
       public boolean getHausnummerNull() {
         return hausnummerNull_;
       }
       /**
-       * <code>optional bool hausnummer_null = 1004;</code>
+       * <code>bool hausnummer_null = 1004;</code>
        */
       public Builder setHausnummerNull(boolean value) {
         
@@ -1815,7 +1815,7 @@ public final class PmAdressenCheckPu {
         return this;
       }
       /**
-       * <code>optional bool hausnummer_null = 1004;</code>
+       * <code>bool hausnummer_null = 1004;</code>
        */
       public Builder clearHausnummerNull() {
         
@@ -1828,13 +1828,13 @@ public final class PmAdressenCheckPu {
       private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.values.BooleanValue, io.dstore.values.BooleanValue.Builder, io.dstore.values.BooleanValueOrBuilder> returnResultBuilder_;
       /**
-       * <code>optional .dstore.values.BooleanValue return_result = 5;</code>
+       * <code>.dstore.values.BooleanValue return_result = 5;</code>
        */
       public boolean hasReturnResult() {
         return returnResultBuilder_ != null || returnResult_ != null;
       }
       /**
-       * <code>optional .dstore.values.BooleanValue return_result = 5;</code>
+       * <code>.dstore.values.BooleanValue return_result = 5;</code>
        */
       public io.dstore.values.BooleanValue getReturnResult() {
         if (returnResultBuilder_ == null) {
@@ -1844,7 +1844,7 @@ public final class PmAdressenCheckPu {
         }
       }
       /**
-       * <code>optional .dstore.values.BooleanValue return_result = 5;</code>
+       * <code>.dstore.values.BooleanValue return_result = 5;</code>
        */
       public Builder setReturnResult(io.dstore.values.BooleanValue value) {
         if (returnResultBuilder_ == null) {
@@ -1860,7 +1860,7 @@ public final class PmAdressenCheckPu {
         return this;
       }
       /**
-       * <code>optional .dstore.values.BooleanValue return_result = 5;</code>
+       * <code>.dstore.values.BooleanValue return_result = 5;</code>
        */
       public Builder setReturnResult(
           io.dstore.values.BooleanValue.Builder builderForValue) {
@@ -1874,7 +1874,7 @@ public final class PmAdressenCheckPu {
         return this;
       }
       /**
-       * <code>optional .dstore.values.BooleanValue return_result = 5;</code>
+       * <code>.dstore.values.BooleanValue return_result = 5;</code>
        */
       public Builder mergeReturnResult(io.dstore.values.BooleanValue value) {
         if (returnResultBuilder_ == null) {
@@ -1892,7 +1892,7 @@ public final class PmAdressenCheckPu {
         return this;
       }
       /**
-       * <code>optional .dstore.values.BooleanValue return_result = 5;</code>
+       * <code>.dstore.values.BooleanValue return_result = 5;</code>
        */
       public Builder clearReturnResult() {
         if (returnResultBuilder_ == null) {
@@ -1906,7 +1906,7 @@ public final class PmAdressenCheckPu {
         return this;
       }
       /**
-       * <code>optional .dstore.values.BooleanValue return_result = 5;</code>
+       * <code>.dstore.values.BooleanValue return_result = 5;</code>
        */
       public io.dstore.values.BooleanValue.Builder getReturnResultBuilder() {
         
@@ -1914,7 +1914,7 @@ public final class PmAdressenCheckPu {
         return getReturnResultFieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .dstore.values.BooleanValue return_result = 5;</code>
+       * <code>.dstore.values.BooleanValue return_result = 5;</code>
        */
       public io.dstore.values.BooleanValueOrBuilder getReturnResultOrBuilder() {
         if (returnResultBuilder_ != null) {
@@ -1925,7 +1925,7 @@ public final class PmAdressenCheckPu {
         }
       }
       /**
-       * <code>optional .dstore.values.BooleanValue return_result = 5;</code>
+       * <code>.dstore.values.BooleanValue return_result = 5;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.values.BooleanValue, io.dstore.values.BooleanValue.Builder, io.dstore.values.BooleanValueOrBuilder> 
@@ -1943,13 +1943,13 @@ public final class PmAdressenCheckPu {
 
       private boolean returnResultNull_ ;
       /**
-       * <code>optional bool return_result_null = 1005;</code>
+       * <code>bool return_result_null = 1005;</code>
        */
       public boolean getReturnResultNull() {
         return returnResultNull_;
       }
       /**
-       * <code>optional bool return_result_null = 1005;</code>
+       * <code>bool return_result_null = 1005;</code>
        */
       public Builder setReturnResultNull(boolean value) {
         
@@ -1958,7 +1958,7 @@ public final class PmAdressenCheckPu {
         return this;
       }
       /**
-       * <code>optional bool return_result_null = 1005;</code>
+       * <code>bool return_result_null = 1005;</code>
        */
       public Builder clearReturnResultNull() {
         
@@ -1971,13 +1971,13 @@ public final class PmAdressenCheckPu {
       private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> correctAdressBuilder_;
       /**
-       * <code>optional .dstore.values.IntegerValue correct_adress = 6;</code>
+       * <code>.dstore.values.IntegerValue correct_adress = 6;</code>
        */
       public boolean hasCorrectAdress() {
         return correctAdressBuilder_ != null || correctAdress_ != null;
       }
       /**
-       * <code>optional .dstore.values.IntegerValue correct_adress = 6;</code>
+       * <code>.dstore.values.IntegerValue correct_adress = 6;</code>
        */
       public io.dstore.values.IntegerValue getCorrectAdress() {
         if (correctAdressBuilder_ == null) {
@@ -1987,7 +1987,7 @@ public final class PmAdressenCheckPu {
         }
       }
       /**
-       * <code>optional .dstore.values.IntegerValue correct_adress = 6;</code>
+       * <code>.dstore.values.IntegerValue correct_adress = 6;</code>
        */
       public Builder setCorrectAdress(io.dstore.values.IntegerValue value) {
         if (correctAdressBuilder_ == null) {
@@ -2003,7 +2003,7 @@ public final class PmAdressenCheckPu {
         return this;
       }
       /**
-       * <code>optional .dstore.values.IntegerValue correct_adress = 6;</code>
+       * <code>.dstore.values.IntegerValue correct_adress = 6;</code>
        */
       public Builder setCorrectAdress(
           io.dstore.values.IntegerValue.Builder builderForValue) {
@@ -2017,7 +2017,7 @@ public final class PmAdressenCheckPu {
         return this;
       }
       /**
-       * <code>optional .dstore.values.IntegerValue correct_adress = 6;</code>
+       * <code>.dstore.values.IntegerValue correct_adress = 6;</code>
        */
       public Builder mergeCorrectAdress(io.dstore.values.IntegerValue value) {
         if (correctAdressBuilder_ == null) {
@@ -2035,7 +2035,7 @@ public final class PmAdressenCheckPu {
         return this;
       }
       /**
-       * <code>optional .dstore.values.IntegerValue correct_adress = 6;</code>
+       * <code>.dstore.values.IntegerValue correct_adress = 6;</code>
        */
       public Builder clearCorrectAdress() {
         if (correctAdressBuilder_ == null) {
@@ -2049,7 +2049,7 @@ public final class PmAdressenCheckPu {
         return this;
       }
       /**
-       * <code>optional .dstore.values.IntegerValue correct_adress = 6;</code>
+       * <code>.dstore.values.IntegerValue correct_adress = 6;</code>
        */
       public io.dstore.values.IntegerValue.Builder getCorrectAdressBuilder() {
         
@@ -2057,7 +2057,7 @@ public final class PmAdressenCheckPu {
         return getCorrectAdressFieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .dstore.values.IntegerValue correct_adress = 6;</code>
+       * <code>.dstore.values.IntegerValue correct_adress = 6;</code>
        */
       public io.dstore.values.IntegerValueOrBuilder getCorrectAdressOrBuilder() {
         if (correctAdressBuilder_ != null) {
@@ -2068,7 +2068,7 @@ public final class PmAdressenCheckPu {
         }
       }
       /**
-       * <code>optional .dstore.values.IntegerValue correct_adress = 6;</code>
+       * <code>.dstore.values.IntegerValue correct_adress = 6;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> 
@@ -2086,13 +2086,13 @@ public final class PmAdressenCheckPu {
 
       private boolean correctAdressNull_ ;
       /**
-       * <code>optional bool correct_adress_null = 1006;</code>
+       * <code>bool correct_adress_null = 1006;</code>
        */
       public boolean getCorrectAdressNull() {
         return correctAdressNull_;
       }
       /**
-       * <code>optional bool correct_adress_null = 1006;</code>
+       * <code>bool correct_adress_null = 1006;</code>
        */
       public Builder setCorrectAdressNull(boolean value) {
         
@@ -2101,7 +2101,7 @@ public final class PmAdressenCheckPu {
         return this;
       }
       /**
-       * <code>optional bool correct_adress_null = 1006;</code>
+       * <code>bool correct_adress_null = 1006;</code>
        */
       public Builder clearCorrectAdressNull() {
         
@@ -2114,13 +2114,13 @@ public final class PmAdressenCheckPu {
       private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.values.BooleanValue, io.dstore.values.BooleanValue.Builder, io.dstore.values.BooleanValueOrBuilder> ortVorPLZBuilder_;
       /**
-       * <code>optional .dstore.values.BooleanValue ort_vor_p_l_z = 7;</code>
+       * <code>.dstore.values.BooleanValue ort_vor_p_l_z = 7;</code>
        */
       public boolean hasOrtVorPLZ() {
         return ortVorPLZBuilder_ != null || ortVorPLZ_ != null;
       }
       /**
-       * <code>optional .dstore.values.BooleanValue ort_vor_p_l_z = 7;</code>
+       * <code>.dstore.values.BooleanValue ort_vor_p_l_z = 7;</code>
        */
       public io.dstore.values.BooleanValue getOrtVorPLZ() {
         if (ortVorPLZBuilder_ == null) {
@@ -2130,7 +2130,7 @@ public final class PmAdressenCheckPu {
         }
       }
       /**
-       * <code>optional .dstore.values.BooleanValue ort_vor_p_l_z = 7;</code>
+       * <code>.dstore.values.BooleanValue ort_vor_p_l_z = 7;</code>
        */
       public Builder setOrtVorPLZ(io.dstore.values.BooleanValue value) {
         if (ortVorPLZBuilder_ == null) {
@@ -2146,7 +2146,7 @@ public final class PmAdressenCheckPu {
         return this;
       }
       /**
-       * <code>optional .dstore.values.BooleanValue ort_vor_p_l_z = 7;</code>
+       * <code>.dstore.values.BooleanValue ort_vor_p_l_z = 7;</code>
        */
       public Builder setOrtVorPLZ(
           io.dstore.values.BooleanValue.Builder builderForValue) {
@@ -2160,7 +2160,7 @@ public final class PmAdressenCheckPu {
         return this;
       }
       /**
-       * <code>optional .dstore.values.BooleanValue ort_vor_p_l_z = 7;</code>
+       * <code>.dstore.values.BooleanValue ort_vor_p_l_z = 7;</code>
        */
       public Builder mergeOrtVorPLZ(io.dstore.values.BooleanValue value) {
         if (ortVorPLZBuilder_ == null) {
@@ -2178,7 +2178,7 @@ public final class PmAdressenCheckPu {
         return this;
       }
       /**
-       * <code>optional .dstore.values.BooleanValue ort_vor_p_l_z = 7;</code>
+       * <code>.dstore.values.BooleanValue ort_vor_p_l_z = 7;</code>
        */
       public Builder clearOrtVorPLZ() {
         if (ortVorPLZBuilder_ == null) {
@@ -2192,7 +2192,7 @@ public final class PmAdressenCheckPu {
         return this;
       }
       /**
-       * <code>optional .dstore.values.BooleanValue ort_vor_p_l_z = 7;</code>
+       * <code>.dstore.values.BooleanValue ort_vor_p_l_z = 7;</code>
        */
       public io.dstore.values.BooleanValue.Builder getOrtVorPLZBuilder() {
         
@@ -2200,7 +2200,7 @@ public final class PmAdressenCheckPu {
         return getOrtVorPLZFieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .dstore.values.BooleanValue ort_vor_p_l_z = 7;</code>
+       * <code>.dstore.values.BooleanValue ort_vor_p_l_z = 7;</code>
        */
       public io.dstore.values.BooleanValueOrBuilder getOrtVorPLZOrBuilder() {
         if (ortVorPLZBuilder_ != null) {
@@ -2211,7 +2211,7 @@ public final class PmAdressenCheckPu {
         }
       }
       /**
-       * <code>optional .dstore.values.BooleanValue ort_vor_p_l_z = 7;</code>
+       * <code>.dstore.values.BooleanValue ort_vor_p_l_z = 7;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.values.BooleanValue, io.dstore.values.BooleanValue.Builder, io.dstore.values.BooleanValueOrBuilder> 
@@ -2229,13 +2229,13 @@ public final class PmAdressenCheckPu {
 
       private boolean ortVorPLZNull_ ;
       /**
-       * <code>optional bool ort_vor_p_l_z_null = 1007;</code>
+       * <code>bool ort_vor_p_l_z_null = 1007;</code>
        */
       public boolean getOrtVorPLZNull() {
         return ortVorPLZNull_;
       }
       /**
-       * <code>optional bool ort_vor_p_l_z_null = 1007;</code>
+       * <code>bool ort_vor_p_l_z_null = 1007;</code>
        */
       public Builder setOrtVorPLZNull(boolean value) {
         
@@ -2244,7 +2244,7 @@ public final class PmAdressenCheckPu {
         return this;
       }
       /**
-       * <code>optional bool ort_vor_p_l_z_null = 1007;</code>
+       * <code>bool ort_vor_p_l_z_null = 1007;</code>
        */
       public Builder clearOrtVorPLZNull() {
         
@@ -2257,13 +2257,13 @@ public final class PmAdressenCheckPu {
       private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.values.BooleanValue, io.dstore.values.BooleanValue.Builder, io.dstore.values.BooleanValueOrBuilder> strasseVorPLZBuilder_;
       /**
-       * <code>optional .dstore.values.BooleanValue strasse_vor_p_l_z = 8;</code>
+       * <code>.dstore.values.BooleanValue strasse_vor_p_l_z = 8;</code>
        */
       public boolean hasStrasseVorPLZ() {
         return strasseVorPLZBuilder_ != null || strasseVorPLZ_ != null;
       }
       /**
-       * <code>optional .dstore.values.BooleanValue strasse_vor_p_l_z = 8;</code>
+       * <code>.dstore.values.BooleanValue strasse_vor_p_l_z = 8;</code>
        */
       public io.dstore.values.BooleanValue getStrasseVorPLZ() {
         if (strasseVorPLZBuilder_ == null) {
@@ -2273,7 +2273,7 @@ public final class PmAdressenCheckPu {
         }
       }
       /**
-       * <code>optional .dstore.values.BooleanValue strasse_vor_p_l_z = 8;</code>
+       * <code>.dstore.values.BooleanValue strasse_vor_p_l_z = 8;</code>
        */
       public Builder setStrasseVorPLZ(io.dstore.values.BooleanValue value) {
         if (strasseVorPLZBuilder_ == null) {
@@ -2289,7 +2289,7 @@ public final class PmAdressenCheckPu {
         return this;
       }
       /**
-       * <code>optional .dstore.values.BooleanValue strasse_vor_p_l_z = 8;</code>
+       * <code>.dstore.values.BooleanValue strasse_vor_p_l_z = 8;</code>
        */
       public Builder setStrasseVorPLZ(
           io.dstore.values.BooleanValue.Builder builderForValue) {
@@ -2303,7 +2303,7 @@ public final class PmAdressenCheckPu {
         return this;
       }
       /**
-       * <code>optional .dstore.values.BooleanValue strasse_vor_p_l_z = 8;</code>
+       * <code>.dstore.values.BooleanValue strasse_vor_p_l_z = 8;</code>
        */
       public Builder mergeStrasseVorPLZ(io.dstore.values.BooleanValue value) {
         if (strasseVorPLZBuilder_ == null) {
@@ -2321,7 +2321,7 @@ public final class PmAdressenCheckPu {
         return this;
       }
       /**
-       * <code>optional .dstore.values.BooleanValue strasse_vor_p_l_z = 8;</code>
+       * <code>.dstore.values.BooleanValue strasse_vor_p_l_z = 8;</code>
        */
       public Builder clearStrasseVorPLZ() {
         if (strasseVorPLZBuilder_ == null) {
@@ -2335,7 +2335,7 @@ public final class PmAdressenCheckPu {
         return this;
       }
       /**
-       * <code>optional .dstore.values.BooleanValue strasse_vor_p_l_z = 8;</code>
+       * <code>.dstore.values.BooleanValue strasse_vor_p_l_z = 8;</code>
        */
       public io.dstore.values.BooleanValue.Builder getStrasseVorPLZBuilder() {
         
@@ -2343,7 +2343,7 @@ public final class PmAdressenCheckPu {
         return getStrasseVorPLZFieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .dstore.values.BooleanValue strasse_vor_p_l_z = 8;</code>
+       * <code>.dstore.values.BooleanValue strasse_vor_p_l_z = 8;</code>
        */
       public io.dstore.values.BooleanValueOrBuilder getStrasseVorPLZOrBuilder() {
         if (strasseVorPLZBuilder_ != null) {
@@ -2354,7 +2354,7 @@ public final class PmAdressenCheckPu {
         }
       }
       /**
-       * <code>optional .dstore.values.BooleanValue strasse_vor_p_l_z = 8;</code>
+       * <code>.dstore.values.BooleanValue strasse_vor_p_l_z = 8;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.values.BooleanValue, io.dstore.values.BooleanValue.Builder, io.dstore.values.BooleanValueOrBuilder> 
@@ -2372,13 +2372,13 @@ public final class PmAdressenCheckPu {
 
       private boolean strasseVorPLZNull_ ;
       /**
-       * <code>optional bool strasse_vor_p_l_z_null = 1008;</code>
+       * <code>bool strasse_vor_p_l_z_null = 1008;</code>
        */
       public boolean getStrasseVorPLZNull() {
         return strasseVorPLZNull_;
       }
       /**
-       * <code>optional bool strasse_vor_p_l_z_null = 1008;</code>
+       * <code>bool strasse_vor_p_l_z_null = 1008;</code>
        */
       public Builder setStrasseVorPLZNull(boolean value) {
         
@@ -2387,7 +2387,7 @@ public final class PmAdressenCheckPu {
         return this;
       }
       /**
-       * <code>optional bool strasse_vor_p_l_z_null = 1008;</code>
+       * <code>bool strasse_vor_p_l_z_null = 1008;</code>
        */
       public Builder clearStrasseVorPLZNull() {
         
@@ -2521,15 +2521,15 @@ public final class PmAdressenCheckPu {
         int index);
 
     /**
-     * <code>optional .dstore.values.IntegerValue correct_adress = 101;</code>
+     * <code>.dstore.values.IntegerValue correct_adress = 101;</code>
      */
     boolean hasCorrectAdress();
     /**
-     * <code>optional .dstore.values.IntegerValue correct_adress = 101;</code>
+     * <code>.dstore.values.IntegerValue correct_adress = 101;</code>
      */
     io.dstore.values.IntegerValue getCorrectAdress();
     /**
-     * <code>optional .dstore.values.IntegerValue correct_adress = 101;</code>
+     * <code>.dstore.values.IntegerValue correct_adress = 101;</code>
      */
     io.dstore.values.IntegerValueOrBuilder getCorrectAdressOrBuilder();
   }
@@ -2652,7 +2652,7 @@ public final class PmAdressenCheckPu {
         com.google.protobuf.MessageOrBuilder {
 
       /**
-       * <code>optional int32 row_id = 10000;</code>
+       * <code>int32 row_id = 10000;</code>
        */
       int getRowId();
 
@@ -2661,7 +2661,7 @@ public final class PmAdressenCheckPu {
        * Ort der Adresse
        * </pre>
        *
-       * <code>optional .dstore.values.StringValue ort = 10001;</code>
+       * <code>.dstore.values.StringValue ort = 10001;</code>
        */
       boolean hasOrt();
       /**
@@ -2669,7 +2669,7 @@ public final class PmAdressenCheckPu {
        * Ort der Adresse
        * </pre>
        *
-       * <code>optional .dstore.values.StringValue ort = 10001;</code>
+       * <code>.dstore.values.StringValue ort = 10001;</code>
        */
       io.dstore.values.StringValue getOrt();
       /**
@@ -2677,7 +2677,7 @@ public final class PmAdressenCheckPu {
        * Ort der Adresse
        * </pre>
        *
-       * <code>optional .dstore.values.StringValue ort = 10001;</code>
+       * <code>.dstore.values.StringValue ort = 10001;</code>
        */
       io.dstore.values.StringValueOrBuilder getOrtOrBuilder();
 
@@ -2686,7 +2686,7 @@ public final class PmAdressenCheckPu {
        * evtl. Zusatz zum Ortsnamen
        * </pre>
        *
-       * <code>optional .dstore.values.StringValue ort_zusatz = 10002;</code>
+       * <code>.dstore.values.StringValue ort_zusatz = 10002;</code>
        */
       boolean hasOrtZusatz();
       /**
@@ -2694,7 +2694,7 @@ public final class PmAdressenCheckPu {
        * evtl. Zusatz zum Ortsnamen
        * </pre>
        *
-       * <code>optional .dstore.values.StringValue ort_zusatz = 10002;</code>
+       * <code>.dstore.values.StringValue ort_zusatz = 10002;</code>
        */
       io.dstore.values.StringValue getOrtZusatz();
       /**
@@ -2702,7 +2702,7 @@ public final class PmAdressenCheckPu {
        * evtl. Zusatz zum Ortsnamen
        * </pre>
        *
-       * <code>optional .dstore.values.StringValue ort_zusatz = 10002;</code>
+       * <code>.dstore.values.StringValue ort_zusatz = 10002;</code>
        */
       io.dstore.values.StringValueOrBuilder getOrtZusatzOrBuilder();
 
@@ -2711,7 +2711,7 @@ public final class PmAdressenCheckPu {
        * Status der Überprüfung für die "PLZ"Mögliche Werte:0 : OK1 : möglicher Wert2 : falscher Wert3 : noch nicht überprüft
        * </pre>
        *
-       * <code>optional .dstore.values.IntegerValue p_l_z_status = 10003;</code>
+       * <code>.dstore.values.IntegerValue p_l_z_status = 10003;</code>
        */
       boolean hasPLZStatus();
       /**
@@ -2719,7 +2719,7 @@ public final class PmAdressenCheckPu {
        * Status der Überprüfung für die "PLZ"Mögliche Werte:0 : OK1 : möglicher Wert2 : falscher Wert3 : noch nicht überprüft
        * </pre>
        *
-       * <code>optional .dstore.values.IntegerValue p_l_z_status = 10003;</code>
+       * <code>.dstore.values.IntegerValue p_l_z_status = 10003;</code>
        */
       io.dstore.values.IntegerValue getPLZStatus();
       /**
@@ -2727,7 +2727,7 @@ public final class PmAdressenCheckPu {
        * Status der Überprüfung für die "PLZ"Mögliche Werte:0 : OK1 : möglicher Wert2 : falscher Wert3 : noch nicht überprüft
        * </pre>
        *
-       * <code>optional .dstore.values.IntegerValue p_l_z_status = 10003;</code>
+       * <code>.dstore.values.IntegerValue p_l_z_status = 10003;</code>
        */
       io.dstore.values.IntegerValueOrBuilder getPLZStatusOrBuilder();
 
@@ -2736,7 +2736,7 @@ public final class PmAdressenCheckPu {
        * Status der Überprüfung für die "Strasse"Mögliche Werte:0 : OK1 : möglicher Wert2 : falscher Wert3 : noch nicht überprüft
        * </pre>
        *
-       * <code>optional .dstore.values.IntegerValue strasse_status = 10004;</code>
+       * <code>.dstore.values.IntegerValue strasse_status = 10004;</code>
        */
       boolean hasStrasseStatus();
       /**
@@ -2744,7 +2744,7 @@ public final class PmAdressenCheckPu {
        * Status der Überprüfung für die "Strasse"Mögliche Werte:0 : OK1 : möglicher Wert2 : falscher Wert3 : noch nicht überprüft
        * </pre>
        *
-       * <code>optional .dstore.values.IntegerValue strasse_status = 10004;</code>
+       * <code>.dstore.values.IntegerValue strasse_status = 10004;</code>
        */
       io.dstore.values.IntegerValue getStrasseStatus();
       /**
@@ -2752,7 +2752,7 @@ public final class PmAdressenCheckPu {
        * Status der Überprüfung für die "Strasse"Mögliche Werte:0 : OK1 : möglicher Wert2 : falscher Wert3 : noch nicht überprüft
        * </pre>
        *
-       * <code>optional .dstore.values.IntegerValue strasse_status = 10004;</code>
+       * <code>.dstore.values.IntegerValue strasse_status = 10004;</code>
        */
       io.dstore.values.IntegerValueOrBuilder getStrasseStatusOrBuilder();
 
@@ -2761,7 +2761,7 @@ public final class PmAdressenCheckPu {
        * Status der Überprüfung für die "Hausnummer"Mögliche Werte:0 : OK1 : möglicher Wert2 : falscher Wert3 : noch nicht überprüft
        * </pre>
        *
-       * <code>optional .dstore.values.IntegerValue hausnummer_status = 10005;</code>
+       * <code>.dstore.values.IntegerValue hausnummer_status = 10005;</code>
        */
       boolean hasHausnummerStatus();
       /**
@@ -2769,7 +2769,7 @@ public final class PmAdressenCheckPu {
        * Status der Überprüfung für die "Hausnummer"Mögliche Werte:0 : OK1 : möglicher Wert2 : falscher Wert3 : noch nicht überprüft
        * </pre>
        *
-       * <code>optional .dstore.values.IntegerValue hausnummer_status = 10005;</code>
+       * <code>.dstore.values.IntegerValue hausnummer_status = 10005;</code>
        */
       io.dstore.values.IntegerValue getHausnummerStatus();
       /**
@@ -2777,7 +2777,7 @@ public final class PmAdressenCheckPu {
        * Status der Überprüfung für die "Hausnummer"Mögliche Werte:0 : OK1 : möglicher Wert2 : falscher Wert3 : noch nicht überprüft
        * </pre>
        *
-       * <code>optional .dstore.values.IntegerValue hausnummer_status = 10005;</code>
+       * <code>.dstore.values.IntegerValue hausnummer_status = 10005;</code>
        */
       io.dstore.values.IntegerValueOrBuilder getHausnummerStatusOrBuilder();
 
@@ -2786,7 +2786,7 @@ public final class PmAdressenCheckPu {
        * Status der Überprüfung für den "Ort"Mögliche Werte:0 : OK1 : möglicher Wert2 : falscher Wert3 : noch nicht überprüft
        * </pre>
        *
-       * <code>optional .dstore.values.IntegerValue ort_status = 10006;</code>
+       * <code>.dstore.values.IntegerValue ort_status = 10006;</code>
        */
       boolean hasOrtStatus();
       /**
@@ -2794,7 +2794,7 @@ public final class PmAdressenCheckPu {
        * Status der Überprüfung für den "Ort"Mögliche Werte:0 : OK1 : möglicher Wert2 : falscher Wert3 : noch nicht überprüft
        * </pre>
        *
-       * <code>optional .dstore.values.IntegerValue ort_status = 10006;</code>
+       * <code>.dstore.values.IntegerValue ort_status = 10006;</code>
        */
       io.dstore.values.IntegerValue getOrtStatus();
       /**
@@ -2802,7 +2802,7 @@ public final class PmAdressenCheckPu {
        * Status der Überprüfung für den "Ort"Mögliche Werte:0 : OK1 : möglicher Wert2 : falscher Wert3 : noch nicht überprüft
        * </pre>
        *
-       * <code>optional .dstore.values.IntegerValue ort_status = 10006;</code>
+       * <code>.dstore.values.IntegerValue ort_status = 10006;</code>
        */
       io.dstore.values.IntegerValueOrBuilder getOrtStatusOrBuilder();
 
@@ -2811,7 +2811,7 @@ public final class PmAdressenCheckPu {
        * Strasse der gültigen Adresse
        * </pre>
        *
-       * <code>optional .dstore.values.StringValue strasse = 10007;</code>
+       * <code>.dstore.values.StringValue strasse = 10007;</code>
        */
       boolean hasStrasse();
       /**
@@ -2819,7 +2819,7 @@ public final class PmAdressenCheckPu {
        * Strasse der gültigen Adresse
        * </pre>
        *
-       * <code>optional .dstore.values.StringValue strasse = 10007;</code>
+       * <code>.dstore.values.StringValue strasse = 10007;</code>
        */
       io.dstore.values.StringValue getStrasse();
       /**
@@ -2827,7 +2827,7 @@ public final class PmAdressenCheckPu {
        * Strasse der gültigen Adresse
        * </pre>
        *
-       * <code>optional .dstore.values.StringValue strasse = 10007;</code>
+       * <code>.dstore.values.StringValue strasse = 10007;</code>
        */
       io.dstore.values.StringValueOrBuilder getStrasseOrBuilder();
 
@@ -2836,7 +2836,7 @@ public final class PmAdressenCheckPu {
        * Hausnummer der gefundenen Adresse
        * </pre>
        *
-       * <code>optional .dstore.values.StringValue hausnummer = 10008;</code>
+       * <code>.dstore.values.StringValue hausnummer = 10008;</code>
        */
       boolean hasHausnummer();
       /**
@@ -2844,7 +2844,7 @@ public final class PmAdressenCheckPu {
        * Hausnummer der gefundenen Adresse
        * </pre>
        *
-       * <code>optional .dstore.values.StringValue hausnummer = 10008;</code>
+       * <code>.dstore.values.StringValue hausnummer = 10008;</code>
        */
       io.dstore.values.StringValue getHausnummer();
       /**
@@ -2852,7 +2852,7 @@ public final class PmAdressenCheckPu {
        * Hausnummer der gefundenen Adresse
        * </pre>
        *
-       * <code>optional .dstore.values.StringValue hausnummer = 10008;</code>
+       * <code>.dstore.values.StringValue hausnummer = 10008;</code>
        */
       io.dstore.values.StringValueOrBuilder getHausnummerOrBuilder();
 
@@ -2861,7 +2861,7 @@ public final class PmAdressenCheckPu {
        * PLZ der gefundenen Adresse
        * </pre>
        *
-       * <code>optional .dstore.values.StringValue p_l_z = 10009;</code>
+       * <code>.dstore.values.StringValue p_l_z = 10009;</code>
        */
       boolean hasPLZ();
       /**
@@ -2869,7 +2869,7 @@ public final class PmAdressenCheckPu {
        * PLZ der gefundenen Adresse
        * </pre>
        *
-       * <code>optional .dstore.values.StringValue p_l_z = 10009;</code>
+       * <code>.dstore.values.StringValue p_l_z = 10009;</code>
        */
       io.dstore.values.StringValue getPLZ();
       /**
@@ -2877,7 +2877,7 @@ public final class PmAdressenCheckPu {
        * PLZ der gefundenen Adresse
        * </pre>
        *
-       * <code>optional .dstore.values.StringValue p_l_z = 10009;</code>
+       * <code>.dstore.values.StringValue p_l_z = 10009;</code>
        */
       io.dstore.values.StringValueOrBuilder getPLZOrBuilder();
     }
@@ -3069,7 +3069,7 @@ public final class PmAdressenCheckPu {
       public static final int ROW_ID_FIELD_NUMBER = 10000;
       private int rowId_;
       /**
-       * <code>optional int32 row_id = 10000;</code>
+       * <code>int32 row_id = 10000;</code>
        */
       public int getRowId() {
         return rowId_;
@@ -3082,7 +3082,7 @@ public final class PmAdressenCheckPu {
        * Ort der Adresse
        * </pre>
        *
-       * <code>optional .dstore.values.StringValue ort = 10001;</code>
+       * <code>.dstore.values.StringValue ort = 10001;</code>
        */
       public boolean hasOrt() {
         return ort_ != null;
@@ -3092,7 +3092,7 @@ public final class PmAdressenCheckPu {
        * Ort der Adresse
        * </pre>
        *
-       * <code>optional .dstore.values.StringValue ort = 10001;</code>
+       * <code>.dstore.values.StringValue ort = 10001;</code>
        */
       public io.dstore.values.StringValue getOrt() {
         return ort_ == null ? io.dstore.values.StringValue.getDefaultInstance() : ort_;
@@ -3102,7 +3102,7 @@ public final class PmAdressenCheckPu {
        * Ort der Adresse
        * </pre>
        *
-       * <code>optional .dstore.values.StringValue ort = 10001;</code>
+       * <code>.dstore.values.StringValue ort = 10001;</code>
        */
       public io.dstore.values.StringValueOrBuilder getOrtOrBuilder() {
         return getOrt();
@@ -3115,7 +3115,7 @@ public final class PmAdressenCheckPu {
        * evtl. Zusatz zum Ortsnamen
        * </pre>
        *
-       * <code>optional .dstore.values.StringValue ort_zusatz = 10002;</code>
+       * <code>.dstore.values.StringValue ort_zusatz = 10002;</code>
        */
       public boolean hasOrtZusatz() {
         return ortZusatz_ != null;
@@ -3125,7 +3125,7 @@ public final class PmAdressenCheckPu {
        * evtl. Zusatz zum Ortsnamen
        * </pre>
        *
-       * <code>optional .dstore.values.StringValue ort_zusatz = 10002;</code>
+       * <code>.dstore.values.StringValue ort_zusatz = 10002;</code>
        */
       public io.dstore.values.StringValue getOrtZusatz() {
         return ortZusatz_ == null ? io.dstore.values.StringValue.getDefaultInstance() : ortZusatz_;
@@ -3135,7 +3135,7 @@ public final class PmAdressenCheckPu {
        * evtl. Zusatz zum Ortsnamen
        * </pre>
        *
-       * <code>optional .dstore.values.StringValue ort_zusatz = 10002;</code>
+       * <code>.dstore.values.StringValue ort_zusatz = 10002;</code>
        */
       public io.dstore.values.StringValueOrBuilder getOrtZusatzOrBuilder() {
         return getOrtZusatz();
@@ -3148,7 +3148,7 @@ public final class PmAdressenCheckPu {
        * Status der Überprüfung für die "PLZ"Mögliche Werte:0 : OK1 : möglicher Wert2 : falscher Wert3 : noch nicht überprüft
        * </pre>
        *
-       * <code>optional .dstore.values.IntegerValue p_l_z_status = 10003;</code>
+       * <code>.dstore.values.IntegerValue p_l_z_status = 10003;</code>
        */
       public boolean hasPLZStatus() {
         return pLZStatus_ != null;
@@ -3158,7 +3158,7 @@ public final class PmAdressenCheckPu {
        * Status der Überprüfung für die "PLZ"Mögliche Werte:0 : OK1 : möglicher Wert2 : falscher Wert3 : noch nicht überprüft
        * </pre>
        *
-       * <code>optional .dstore.values.IntegerValue p_l_z_status = 10003;</code>
+       * <code>.dstore.values.IntegerValue p_l_z_status = 10003;</code>
        */
       public io.dstore.values.IntegerValue getPLZStatus() {
         return pLZStatus_ == null ? io.dstore.values.IntegerValue.getDefaultInstance() : pLZStatus_;
@@ -3168,7 +3168,7 @@ public final class PmAdressenCheckPu {
        * Status der Überprüfung für die "PLZ"Mögliche Werte:0 : OK1 : möglicher Wert2 : falscher Wert3 : noch nicht überprüft
        * </pre>
        *
-       * <code>optional .dstore.values.IntegerValue p_l_z_status = 10003;</code>
+       * <code>.dstore.values.IntegerValue p_l_z_status = 10003;</code>
        */
       public io.dstore.values.IntegerValueOrBuilder getPLZStatusOrBuilder() {
         return getPLZStatus();
@@ -3181,7 +3181,7 @@ public final class PmAdressenCheckPu {
        * Status der Überprüfung für die "Strasse"Mögliche Werte:0 : OK1 : möglicher Wert2 : falscher Wert3 : noch nicht überprüft
        * </pre>
        *
-       * <code>optional .dstore.values.IntegerValue strasse_status = 10004;</code>
+       * <code>.dstore.values.IntegerValue strasse_status = 10004;</code>
        */
       public boolean hasStrasseStatus() {
         return strasseStatus_ != null;
@@ -3191,7 +3191,7 @@ public final class PmAdressenCheckPu {
        * Status der Überprüfung für die "Strasse"Mögliche Werte:0 : OK1 : möglicher Wert2 : falscher Wert3 : noch nicht überprüft
        * </pre>
        *
-       * <code>optional .dstore.values.IntegerValue strasse_status = 10004;</code>
+       * <code>.dstore.values.IntegerValue strasse_status = 10004;</code>
        */
       public io.dstore.values.IntegerValue getStrasseStatus() {
         return strasseStatus_ == null ? io.dstore.values.IntegerValue.getDefaultInstance() : strasseStatus_;
@@ -3201,7 +3201,7 @@ public final class PmAdressenCheckPu {
        * Status der Überprüfung für die "Strasse"Mögliche Werte:0 : OK1 : möglicher Wert2 : falscher Wert3 : noch nicht überprüft
        * </pre>
        *
-       * <code>optional .dstore.values.IntegerValue strasse_status = 10004;</code>
+       * <code>.dstore.values.IntegerValue strasse_status = 10004;</code>
        */
       public io.dstore.values.IntegerValueOrBuilder getStrasseStatusOrBuilder() {
         return getStrasseStatus();
@@ -3214,7 +3214,7 @@ public final class PmAdressenCheckPu {
        * Status der Überprüfung für die "Hausnummer"Mögliche Werte:0 : OK1 : möglicher Wert2 : falscher Wert3 : noch nicht überprüft
        * </pre>
        *
-       * <code>optional .dstore.values.IntegerValue hausnummer_status = 10005;</code>
+       * <code>.dstore.values.IntegerValue hausnummer_status = 10005;</code>
        */
       public boolean hasHausnummerStatus() {
         return hausnummerStatus_ != null;
@@ -3224,7 +3224,7 @@ public final class PmAdressenCheckPu {
        * Status der Überprüfung für die "Hausnummer"Mögliche Werte:0 : OK1 : möglicher Wert2 : falscher Wert3 : noch nicht überprüft
        * </pre>
        *
-       * <code>optional .dstore.values.IntegerValue hausnummer_status = 10005;</code>
+       * <code>.dstore.values.IntegerValue hausnummer_status = 10005;</code>
        */
       public io.dstore.values.IntegerValue getHausnummerStatus() {
         return hausnummerStatus_ == null ? io.dstore.values.IntegerValue.getDefaultInstance() : hausnummerStatus_;
@@ -3234,7 +3234,7 @@ public final class PmAdressenCheckPu {
        * Status der Überprüfung für die "Hausnummer"Mögliche Werte:0 : OK1 : möglicher Wert2 : falscher Wert3 : noch nicht überprüft
        * </pre>
        *
-       * <code>optional .dstore.values.IntegerValue hausnummer_status = 10005;</code>
+       * <code>.dstore.values.IntegerValue hausnummer_status = 10005;</code>
        */
       public io.dstore.values.IntegerValueOrBuilder getHausnummerStatusOrBuilder() {
         return getHausnummerStatus();
@@ -3247,7 +3247,7 @@ public final class PmAdressenCheckPu {
        * Status der Überprüfung für den "Ort"Mögliche Werte:0 : OK1 : möglicher Wert2 : falscher Wert3 : noch nicht überprüft
        * </pre>
        *
-       * <code>optional .dstore.values.IntegerValue ort_status = 10006;</code>
+       * <code>.dstore.values.IntegerValue ort_status = 10006;</code>
        */
       public boolean hasOrtStatus() {
         return ortStatus_ != null;
@@ -3257,7 +3257,7 @@ public final class PmAdressenCheckPu {
        * Status der Überprüfung für den "Ort"Mögliche Werte:0 : OK1 : möglicher Wert2 : falscher Wert3 : noch nicht überprüft
        * </pre>
        *
-       * <code>optional .dstore.values.IntegerValue ort_status = 10006;</code>
+       * <code>.dstore.values.IntegerValue ort_status = 10006;</code>
        */
       public io.dstore.values.IntegerValue getOrtStatus() {
         return ortStatus_ == null ? io.dstore.values.IntegerValue.getDefaultInstance() : ortStatus_;
@@ -3267,7 +3267,7 @@ public final class PmAdressenCheckPu {
        * Status der Überprüfung für den "Ort"Mögliche Werte:0 : OK1 : möglicher Wert2 : falscher Wert3 : noch nicht überprüft
        * </pre>
        *
-       * <code>optional .dstore.values.IntegerValue ort_status = 10006;</code>
+       * <code>.dstore.values.IntegerValue ort_status = 10006;</code>
        */
       public io.dstore.values.IntegerValueOrBuilder getOrtStatusOrBuilder() {
         return getOrtStatus();
@@ -3280,7 +3280,7 @@ public final class PmAdressenCheckPu {
        * Strasse der gültigen Adresse
        * </pre>
        *
-       * <code>optional .dstore.values.StringValue strasse = 10007;</code>
+       * <code>.dstore.values.StringValue strasse = 10007;</code>
        */
       public boolean hasStrasse() {
         return strasse_ != null;
@@ -3290,7 +3290,7 @@ public final class PmAdressenCheckPu {
        * Strasse der gültigen Adresse
        * </pre>
        *
-       * <code>optional .dstore.values.StringValue strasse = 10007;</code>
+       * <code>.dstore.values.StringValue strasse = 10007;</code>
        */
       public io.dstore.values.StringValue getStrasse() {
         return strasse_ == null ? io.dstore.values.StringValue.getDefaultInstance() : strasse_;
@@ -3300,7 +3300,7 @@ public final class PmAdressenCheckPu {
        * Strasse der gültigen Adresse
        * </pre>
        *
-       * <code>optional .dstore.values.StringValue strasse = 10007;</code>
+       * <code>.dstore.values.StringValue strasse = 10007;</code>
        */
       public io.dstore.values.StringValueOrBuilder getStrasseOrBuilder() {
         return getStrasse();
@@ -3313,7 +3313,7 @@ public final class PmAdressenCheckPu {
        * Hausnummer der gefundenen Adresse
        * </pre>
        *
-       * <code>optional .dstore.values.StringValue hausnummer = 10008;</code>
+       * <code>.dstore.values.StringValue hausnummer = 10008;</code>
        */
       public boolean hasHausnummer() {
         return hausnummer_ != null;
@@ -3323,7 +3323,7 @@ public final class PmAdressenCheckPu {
        * Hausnummer der gefundenen Adresse
        * </pre>
        *
-       * <code>optional .dstore.values.StringValue hausnummer = 10008;</code>
+       * <code>.dstore.values.StringValue hausnummer = 10008;</code>
        */
       public io.dstore.values.StringValue getHausnummer() {
         return hausnummer_ == null ? io.dstore.values.StringValue.getDefaultInstance() : hausnummer_;
@@ -3333,7 +3333,7 @@ public final class PmAdressenCheckPu {
        * Hausnummer der gefundenen Adresse
        * </pre>
        *
-       * <code>optional .dstore.values.StringValue hausnummer = 10008;</code>
+       * <code>.dstore.values.StringValue hausnummer = 10008;</code>
        */
       public io.dstore.values.StringValueOrBuilder getHausnummerOrBuilder() {
         return getHausnummer();
@@ -3346,7 +3346,7 @@ public final class PmAdressenCheckPu {
        * PLZ der gefundenen Adresse
        * </pre>
        *
-       * <code>optional .dstore.values.StringValue p_l_z = 10009;</code>
+       * <code>.dstore.values.StringValue p_l_z = 10009;</code>
        */
       public boolean hasPLZ() {
         return pLZ_ != null;
@@ -3356,7 +3356,7 @@ public final class PmAdressenCheckPu {
        * PLZ der gefundenen Adresse
        * </pre>
        *
-       * <code>optional .dstore.values.StringValue p_l_z = 10009;</code>
+       * <code>.dstore.values.StringValue p_l_z = 10009;</code>
        */
       public io.dstore.values.StringValue getPLZ() {
         return pLZ_ == null ? io.dstore.values.StringValue.getDefaultInstance() : pLZ_;
@@ -3366,7 +3366,7 @@ public final class PmAdressenCheckPu {
        * PLZ der gefundenen Adresse
        * </pre>
        *
-       * <code>optional .dstore.values.StringValue p_l_z = 10009;</code>
+       * <code>.dstore.values.StringValue p_l_z = 10009;</code>
        */
       public io.dstore.values.StringValueOrBuilder getPLZOrBuilder() {
         return getPLZ();
@@ -3533,7 +3533,7 @@ public final class PmAdressenCheckPu {
           return memoizedHashCode;
         }
         int hash = 41;
-        hash = (19 * hash) + getDescriptorForType().hashCode();
+        hash = (19 * hash) + getDescriptor().hashCode();
         hash = (37 * hash) + ROW_ID_FIELD_NUMBER;
         hash = (53 * hash) + getRowId();
         if (hasOrt()) {
@@ -3913,13 +3913,13 @@ public final class PmAdressenCheckPu {
 
         private int rowId_ ;
         /**
-         * <code>optional int32 row_id = 10000;</code>
+         * <code>int32 row_id = 10000;</code>
          */
         public int getRowId() {
           return rowId_;
         }
         /**
-         * <code>optional int32 row_id = 10000;</code>
+         * <code>int32 row_id = 10000;</code>
          */
         public Builder setRowId(int value) {
           
@@ -3928,7 +3928,7 @@ public final class PmAdressenCheckPu {
           return this;
         }
         /**
-         * <code>optional int32 row_id = 10000;</code>
+         * <code>int32 row_id = 10000;</code>
          */
         public Builder clearRowId() {
           
@@ -3945,7 +3945,7 @@ public final class PmAdressenCheckPu {
          * Ort der Adresse
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue ort = 10001;</code>
+         * <code>.dstore.values.StringValue ort = 10001;</code>
          */
         public boolean hasOrt() {
           return ortBuilder_ != null || ort_ != null;
@@ -3955,7 +3955,7 @@ public final class PmAdressenCheckPu {
          * Ort der Adresse
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue ort = 10001;</code>
+         * <code>.dstore.values.StringValue ort = 10001;</code>
          */
         public io.dstore.values.StringValue getOrt() {
           if (ortBuilder_ == null) {
@@ -3969,7 +3969,7 @@ public final class PmAdressenCheckPu {
          * Ort der Adresse
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue ort = 10001;</code>
+         * <code>.dstore.values.StringValue ort = 10001;</code>
          */
         public Builder setOrt(io.dstore.values.StringValue value) {
           if (ortBuilder_ == null) {
@@ -3989,7 +3989,7 @@ public final class PmAdressenCheckPu {
          * Ort der Adresse
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue ort = 10001;</code>
+         * <code>.dstore.values.StringValue ort = 10001;</code>
          */
         public Builder setOrt(
             io.dstore.values.StringValue.Builder builderForValue) {
@@ -4007,7 +4007,7 @@ public final class PmAdressenCheckPu {
          * Ort der Adresse
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue ort = 10001;</code>
+         * <code>.dstore.values.StringValue ort = 10001;</code>
          */
         public Builder mergeOrt(io.dstore.values.StringValue value) {
           if (ortBuilder_ == null) {
@@ -4029,7 +4029,7 @@ public final class PmAdressenCheckPu {
          * Ort der Adresse
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue ort = 10001;</code>
+         * <code>.dstore.values.StringValue ort = 10001;</code>
          */
         public Builder clearOrt() {
           if (ortBuilder_ == null) {
@@ -4047,7 +4047,7 @@ public final class PmAdressenCheckPu {
          * Ort der Adresse
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue ort = 10001;</code>
+         * <code>.dstore.values.StringValue ort = 10001;</code>
          */
         public io.dstore.values.StringValue.Builder getOrtBuilder() {
           
@@ -4059,7 +4059,7 @@ public final class PmAdressenCheckPu {
          * Ort der Adresse
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue ort = 10001;</code>
+         * <code>.dstore.values.StringValue ort = 10001;</code>
          */
         public io.dstore.values.StringValueOrBuilder getOrtOrBuilder() {
           if (ortBuilder_ != null) {
@@ -4074,7 +4074,7 @@ public final class PmAdressenCheckPu {
          * Ort der Adresse
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue ort = 10001;</code>
+         * <code>.dstore.values.StringValue ort = 10001;</code>
          */
         private com.google.protobuf.SingleFieldBuilderV3<
             io.dstore.values.StringValue, io.dstore.values.StringValue.Builder, io.dstore.values.StringValueOrBuilder> 
@@ -4098,7 +4098,7 @@ public final class PmAdressenCheckPu {
          * evtl. Zusatz zum Ortsnamen
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue ort_zusatz = 10002;</code>
+         * <code>.dstore.values.StringValue ort_zusatz = 10002;</code>
          */
         public boolean hasOrtZusatz() {
           return ortZusatzBuilder_ != null || ortZusatz_ != null;
@@ -4108,7 +4108,7 @@ public final class PmAdressenCheckPu {
          * evtl. Zusatz zum Ortsnamen
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue ort_zusatz = 10002;</code>
+         * <code>.dstore.values.StringValue ort_zusatz = 10002;</code>
          */
         public io.dstore.values.StringValue getOrtZusatz() {
           if (ortZusatzBuilder_ == null) {
@@ -4122,7 +4122,7 @@ public final class PmAdressenCheckPu {
          * evtl. Zusatz zum Ortsnamen
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue ort_zusatz = 10002;</code>
+         * <code>.dstore.values.StringValue ort_zusatz = 10002;</code>
          */
         public Builder setOrtZusatz(io.dstore.values.StringValue value) {
           if (ortZusatzBuilder_ == null) {
@@ -4142,7 +4142,7 @@ public final class PmAdressenCheckPu {
          * evtl. Zusatz zum Ortsnamen
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue ort_zusatz = 10002;</code>
+         * <code>.dstore.values.StringValue ort_zusatz = 10002;</code>
          */
         public Builder setOrtZusatz(
             io.dstore.values.StringValue.Builder builderForValue) {
@@ -4160,7 +4160,7 @@ public final class PmAdressenCheckPu {
          * evtl. Zusatz zum Ortsnamen
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue ort_zusatz = 10002;</code>
+         * <code>.dstore.values.StringValue ort_zusatz = 10002;</code>
          */
         public Builder mergeOrtZusatz(io.dstore.values.StringValue value) {
           if (ortZusatzBuilder_ == null) {
@@ -4182,7 +4182,7 @@ public final class PmAdressenCheckPu {
          * evtl. Zusatz zum Ortsnamen
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue ort_zusatz = 10002;</code>
+         * <code>.dstore.values.StringValue ort_zusatz = 10002;</code>
          */
         public Builder clearOrtZusatz() {
           if (ortZusatzBuilder_ == null) {
@@ -4200,7 +4200,7 @@ public final class PmAdressenCheckPu {
          * evtl. Zusatz zum Ortsnamen
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue ort_zusatz = 10002;</code>
+         * <code>.dstore.values.StringValue ort_zusatz = 10002;</code>
          */
         public io.dstore.values.StringValue.Builder getOrtZusatzBuilder() {
           
@@ -4212,7 +4212,7 @@ public final class PmAdressenCheckPu {
          * evtl. Zusatz zum Ortsnamen
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue ort_zusatz = 10002;</code>
+         * <code>.dstore.values.StringValue ort_zusatz = 10002;</code>
          */
         public io.dstore.values.StringValueOrBuilder getOrtZusatzOrBuilder() {
           if (ortZusatzBuilder_ != null) {
@@ -4227,7 +4227,7 @@ public final class PmAdressenCheckPu {
          * evtl. Zusatz zum Ortsnamen
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue ort_zusatz = 10002;</code>
+         * <code>.dstore.values.StringValue ort_zusatz = 10002;</code>
          */
         private com.google.protobuf.SingleFieldBuilderV3<
             io.dstore.values.StringValue, io.dstore.values.StringValue.Builder, io.dstore.values.StringValueOrBuilder> 
@@ -4251,7 +4251,7 @@ public final class PmAdressenCheckPu {
          * Status der Überprüfung für die "PLZ"Mögliche Werte:0 : OK1 : möglicher Wert2 : falscher Wert3 : noch nicht überprüft
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue p_l_z_status = 10003;</code>
+         * <code>.dstore.values.IntegerValue p_l_z_status = 10003;</code>
          */
         public boolean hasPLZStatus() {
           return pLZStatusBuilder_ != null || pLZStatus_ != null;
@@ -4261,7 +4261,7 @@ public final class PmAdressenCheckPu {
          * Status der Überprüfung für die "PLZ"Mögliche Werte:0 : OK1 : möglicher Wert2 : falscher Wert3 : noch nicht überprüft
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue p_l_z_status = 10003;</code>
+         * <code>.dstore.values.IntegerValue p_l_z_status = 10003;</code>
          */
         public io.dstore.values.IntegerValue getPLZStatus() {
           if (pLZStatusBuilder_ == null) {
@@ -4275,7 +4275,7 @@ public final class PmAdressenCheckPu {
          * Status der Überprüfung für die "PLZ"Mögliche Werte:0 : OK1 : möglicher Wert2 : falscher Wert3 : noch nicht überprüft
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue p_l_z_status = 10003;</code>
+         * <code>.dstore.values.IntegerValue p_l_z_status = 10003;</code>
          */
         public Builder setPLZStatus(io.dstore.values.IntegerValue value) {
           if (pLZStatusBuilder_ == null) {
@@ -4295,7 +4295,7 @@ public final class PmAdressenCheckPu {
          * Status der Überprüfung für die "PLZ"Mögliche Werte:0 : OK1 : möglicher Wert2 : falscher Wert3 : noch nicht überprüft
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue p_l_z_status = 10003;</code>
+         * <code>.dstore.values.IntegerValue p_l_z_status = 10003;</code>
          */
         public Builder setPLZStatus(
             io.dstore.values.IntegerValue.Builder builderForValue) {
@@ -4313,7 +4313,7 @@ public final class PmAdressenCheckPu {
          * Status der Überprüfung für die "PLZ"Mögliche Werte:0 : OK1 : möglicher Wert2 : falscher Wert3 : noch nicht überprüft
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue p_l_z_status = 10003;</code>
+         * <code>.dstore.values.IntegerValue p_l_z_status = 10003;</code>
          */
         public Builder mergePLZStatus(io.dstore.values.IntegerValue value) {
           if (pLZStatusBuilder_ == null) {
@@ -4335,7 +4335,7 @@ public final class PmAdressenCheckPu {
          * Status der Überprüfung für die "PLZ"Mögliche Werte:0 : OK1 : möglicher Wert2 : falscher Wert3 : noch nicht überprüft
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue p_l_z_status = 10003;</code>
+         * <code>.dstore.values.IntegerValue p_l_z_status = 10003;</code>
          */
         public Builder clearPLZStatus() {
           if (pLZStatusBuilder_ == null) {
@@ -4353,7 +4353,7 @@ public final class PmAdressenCheckPu {
          * Status der Überprüfung für die "PLZ"Mögliche Werte:0 : OK1 : möglicher Wert2 : falscher Wert3 : noch nicht überprüft
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue p_l_z_status = 10003;</code>
+         * <code>.dstore.values.IntegerValue p_l_z_status = 10003;</code>
          */
         public io.dstore.values.IntegerValue.Builder getPLZStatusBuilder() {
           
@@ -4365,7 +4365,7 @@ public final class PmAdressenCheckPu {
          * Status der Überprüfung für die "PLZ"Mögliche Werte:0 : OK1 : möglicher Wert2 : falscher Wert3 : noch nicht überprüft
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue p_l_z_status = 10003;</code>
+         * <code>.dstore.values.IntegerValue p_l_z_status = 10003;</code>
          */
         public io.dstore.values.IntegerValueOrBuilder getPLZStatusOrBuilder() {
           if (pLZStatusBuilder_ != null) {
@@ -4380,7 +4380,7 @@ public final class PmAdressenCheckPu {
          * Status der Überprüfung für die "PLZ"Mögliche Werte:0 : OK1 : möglicher Wert2 : falscher Wert3 : noch nicht überprüft
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue p_l_z_status = 10003;</code>
+         * <code>.dstore.values.IntegerValue p_l_z_status = 10003;</code>
          */
         private com.google.protobuf.SingleFieldBuilderV3<
             io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> 
@@ -4404,7 +4404,7 @@ public final class PmAdressenCheckPu {
          * Status der Überprüfung für die "Strasse"Mögliche Werte:0 : OK1 : möglicher Wert2 : falscher Wert3 : noch nicht überprüft
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue strasse_status = 10004;</code>
+         * <code>.dstore.values.IntegerValue strasse_status = 10004;</code>
          */
         public boolean hasStrasseStatus() {
           return strasseStatusBuilder_ != null || strasseStatus_ != null;
@@ -4414,7 +4414,7 @@ public final class PmAdressenCheckPu {
          * Status der Überprüfung für die "Strasse"Mögliche Werte:0 : OK1 : möglicher Wert2 : falscher Wert3 : noch nicht überprüft
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue strasse_status = 10004;</code>
+         * <code>.dstore.values.IntegerValue strasse_status = 10004;</code>
          */
         public io.dstore.values.IntegerValue getStrasseStatus() {
           if (strasseStatusBuilder_ == null) {
@@ -4428,7 +4428,7 @@ public final class PmAdressenCheckPu {
          * Status der Überprüfung für die "Strasse"Mögliche Werte:0 : OK1 : möglicher Wert2 : falscher Wert3 : noch nicht überprüft
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue strasse_status = 10004;</code>
+         * <code>.dstore.values.IntegerValue strasse_status = 10004;</code>
          */
         public Builder setStrasseStatus(io.dstore.values.IntegerValue value) {
           if (strasseStatusBuilder_ == null) {
@@ -4448,7 +4448,7 @@ public final class PmAdressenCheckPu {
          * Status der Überprüfung für die "Strasse"Mögliche Werte:0 : OK1 : möglicher Wert2 : falscher Wert3 : noch nicht überprüft
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue strasse_status = 10004;</code>
+         * <code>.dstore.values.IntegerValue strasse_status = 10004;</code>
          */
         public Builder setStrasseStatus(
             io.dstore.values.IntegerValue.Builder builderForValue) {
@@ -4466,7 +4466,7 @@ public final class PmAdressenCheckPu {
          * Status der Überprüfung für die "Strasse"Mögliche Werte:0 : OK1 : möglicher Wert2 : falscher Wert3 : noch nicht überprüft
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue strasse_status = 10004;</code>
+         * <code>.dstore.values.IntegerValue strasse_status = 10004;</code>
          */
         public Builder mergeStrasseStatus(io.dstore.values.IntegerValue value) {
           if (strasseStatusBuilder_ == null) {
@@ -4488,7 +4488,7 @@ public final class PmAdressenCheckPu {
          * Status der Überprüfung für die "Strasse"Mögliche Werte:0 : OK1 : möglicher Wert2 : falscher Wert3 : noch nicht überprüft
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue strasse_status = 10004;</code>
+         * <code>.dstore.values.IntegerValue strasse_status = 10004;</code>
          */
         public Builder clearStrasseStatus() {
           if (strasseStatusBuilder_ == null) {
@@ -4506,7 +4506,7 @@ public final class PmAdressenCheckPu {
          * Status der Überprüfung für die "Strasse"Mögliche Werte:0 : OK1 : möglicher Wert2 : falscher Wert3 : noch nicht überprüft
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue strasse_status = 10004;</code>
+         * <code>.dstore.values.IntegerValue strasse_status = 10004;</code>
          */
         public io.dstore.values.IntegerValue.Builder getStrasseStatusBuilder() {
           
@@ -4518,7 +4518,7 @@ public final class PmAdressenCheckPu {
          * Status der Überprüfung für die "Strasse"Mögliche Werte:0 : OK1 : möglicher Wert2 : falscher Wert3 : noch nicht überprüft
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue strasse_status = 10004;</code>
+         * <code>.dstore.values.IntegerValue strasse_status = 10004;</code>
          */
         public io.dstore.values.IntegerValueOrBuilder getStrasseStatusOrBuilder() {
           if (strasseStatusBuilder_ != null) {
@@ -4533,7 +4533,7 @@ public final class PmAdressenCheckPu {
          * Status der Überprüfung für die "Strasse"Mögliche Werte:0 : OK1 : möglicher Wert2 : falscher Wert3 : noch nicht überprüft
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue strasse_status = 10004;</code>
+         * <code>.dstore.values.IntegerValue strasse_status = 10004;</code>
          */
         private com.google.protobuf.SingleFieldBuilderV3<
             io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> 
@@ -4557,7 +4557,7 @@ public final class PmAdressenCheckPu {
          * Status der Überprüfung für die "Hausnummer"Mögliche Werte:0 : OK1 : möglicher Wert2 : falscher Wert3 : noch nicht überprüft
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue hausnummer_status = 10005;</code>
+         * <code>.dstore.values.IntegerValue hausnummer_status = 10005;</code>
          */
         public boolean hasHausnummerStatus() {
           return hausnummerStatusBuilder_ != null || hausnummerStatus_ != null;
@@ -4567,7 +4567,7 @@ public final class PmAdressenCheckPu {
          * Status der Überprüfung für die "Hausnummer"Mögliche Werte:0 : OK1 : möglicher Wert2 : falscher Wert3 : noch nicht überprüft
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue hausnummer_status = 10005;</code>
+         * <code>.dstore.values.IntegerValue hausnummer_status = 10005;</code>
          */
         public io.dstore.values.IntegerValue getHausnummerStatus() {
           if (hausnummerStatusBuilder_ == null) {
@@ -4581,7 +4581,7 @@ public final class PmAdressenCheckPu {
          * Status der Überprüfung für die "Hausnummer"Mögliche Werte:0 : OK1 : möglicher Wert2 : falscher Wert3 : noch nicht überprüft
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue hausnummer_status = 10005;</code>
+         * <code>.dstore.values.IntegerValue hausnummer_status = 10005;</code>
          */
         public Builder setHausnummerStatus(io.dstore.values.IntegerValue value) {
           if (hausnummerStatusBuilder_ == null) {
@@ -4601,7 +4601,7 @@ public final class PmAdressenCheckPu {
          * Status der Überprüfung für die "Hausnummer"Mögliche Werte:0 : OK1 : möglicher Wert2 : falscher Wert3 : noch nicht überprüft
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue hausnummer_status = 10005;</code>
+         * <code>.dstore.values.IntegerValue hausnummer_status = 10005;</code>
          */
         public Builder setHausnummerStatus(
             io.dstore.values.IntegerValue.Builder builderForValue) {
@@ -4619,7 +4619,7 @@ public final class PmAdressenCheckPu {
          * Status der Überprüfung für die "Hausnummer"Mögliche Werte:0 : OK1 : möglicher Wert2 : falscher Wert3 : noch nicht überprüft
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue hausnummer_status = 10005;</code>
+         * <code>.dstore.values.IntegerValue hausnummer_status = 10005;</code>
          */
         public Builder mergeHausnummerStatus(io.dstore.values.IntegerValue value) {
           if (hausnummerStatusBuilder_ == null) {
@@ -4641,7 +4641,7 @@ public final class PmAdressenCheckPu {
          * Status der Überprüfung für die "Hausnummer"Mögliche Werte:0 : OK1 : möglicher Wert2 : falscher Wert3 : noch nicht überprüft
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue hausnummer_status = 10005;</code>
+         * <code>.dstore.values.IntegerValue hausnummer_status = 10005;</code>
          */
         public Builder clearHausnummerStatus() {
           if (hausnummerStatusBuilder_ == null) {
@@ -4659,7 +4659,7 @@ public final class PmAdressenCheckPu {
          * Status der Überprüfung für die "Hausnummer"Mögliche Werte:0 : OK1 : möglicher Wert2 : falscher Wert3 : noch nicht überprüft
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue hausnummer_status = 10005;</code>
+         * <code>.dstore.values.IntegerValue hausnummer_status = 10005;</code>
          */
         public io.dstore.values.IntegerValue.Builder getHausnummerStatusBuilder() {
           
@@ -4671,7 +4671,7 @@ public final class PmAdressenCheckPu {
          * Status der Überprüfung für die "Hausnummer"Mögliche Werte:0 : OK1 : möglicher Wert2 : falscher Wert3 : noch nicht überprüft
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue hausnummer_status = 10005;</code>
+         * <code>.dstore.values.IntegerValue hausnummer_status = 10005;</code>
          */
         public io.dstore.values.IntegerValueOrBuilder getHausnummerStatusOrBuilder() {
           if (hausnummerStatusBuilder_ != null) {
@@ -4686,7 +4686,7 @@ public final class PmAdressenCheckPu {
          * Status der Überprüfung für die "Hausnummer"Mögliche Werte:0 : OK1 : möglicher Wert2 : falscher Wert3 : noch nicht überprüft
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue hausnummer_status = 10005;</code>
+         * <code>.dstore.values.IntegerValue hausnummer_status = 10005;</code>
          */
         private com.google.protobuf.SingleFieldBuilderV3<
             io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> 
@@ -4710,7 +4710,7 @@ public final class PmAdressenCheckPu {
          * Status der Überprüfung für den "Ort"Mögliche Werte:0 : OK1 : möglicher Wert2 : falscher Wert3 : noch nicht überprüft
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue ort_status = 10006;</code>
+         * <code>.dstore.values.IntegerValue ort_status = 10006;</code>
          */
         public boolean hasOrtStatus() {
           return ortStatusBuilder_ != null || ortStatus_ != null;
@@ -4720,7 +4720,7 @@ public final class PmAdressenCheckPu {
          * Status der Überprüfung für den "Ort"Mögliche Werte:0 : OK1 : möglicher Wert2 : falscher Wert3 : noch nicht überprüft
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue ort_status = 10006;</code>
+         * <code>.dstore.values.IntegerValue ort_status = 10006;</code>
          */
         public io.dstore.values.IntegerValue getOrtStatus() {
           if (ortStatusBuilder_ == null) {
@@ -4734,7 +4734,7 @@ public final class PmAdressenCheckPu {
          * Status der Überprüfung für den "Ort"Mögliche Werte:0 : OK1 : möglicher Wert2 : falscher Wert3 : noch nicht überprüft
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue ort_status = 10006;</code>
+         * <code>.dstore.values.IntegerValue ort_status = 10006;</code>
          */
         public Builder setOrtStatus(io.dstore.values.IntegerValue value) {
           if (ortStatusBuilder_ == null) {
@@ -4754,7 +4754,7 @@ public final class PmAdressenCheckPu {
          * Status der Überprüfung für den "Ort"Mögliche Werte:0 : OK1 : möglicher Wert2 : falscher Wert3 : noch nicht überprüft
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue ort_status = 10006;</code>
+         * <code>.dstore.values.IntegerValue ort_status = 10006;</code>
          */
         public Builder setOrtStatus(
             io.dstore.values.IntegerValue.Builder builderForValue) {
@@ -4772,7 +4772,7 @@ public final class PmAdressenCheckPu {
          * Status der Überprüfung für den "Ort"Mögliche Werte:0 : OK1 : möglicher Wert2 : falscher Wert3 : noch nicht überprüft
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue ort_status = 10006;</code>
+         * <code>.dstore.values.IntegerValue ort_status = 10006;</code>
          */
         public Builder mergeOrtStatus(io.dstore.values.IntegerValue value) {
           if (ortStatusBuilder_ == null) {
@@ -4794,7 +4794,7 @@ public final class PmAdressenCheckPu {
          * Status der Überprüfung für den "Ort"Mögliche Werte:0 : OK1 : möglicher Wert2 : falscher Wert3 : noch nicht überprüft
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue ort_status = 10006;</code>
+         * <code>.dstore.values.IntegerValue ort_status = 10006;</code>
          */
         public Builder clearOrtStatus() {
           if (ortStatusBuilder_ == null) {
@@ -4812,7 +4812,7 @@ public final class PmAdressenCheckPu {
          * Status der Überprüfung für den "Ort"Mögliche Werte:0 : OK1 : möglicher Wert2 : falscher Wert3 : noch nicht überprüft
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue ort_status = 10006;</code>
+         * <code>.dstore.values.IntegerValue ort_status = 10006;</code>
          */
         public io.dstore.values.IntegerValue.Builder getOrtStatusBuilder() {
           
@@ -4824,7 +4824,7 @@ public final class PmAdressenCheckPu {
          * Status der Überprüfung für den "Ort"Mögliche Werte:0 : OK1 : möglicher Wert2 : falscher Wert3 : noch nicht überprüft
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue ort_status = 10006;</code>
+         * <code>.dstore.values.IntegerValue ort_status = 10006;</code>
          */
         public io.dstore.values.IntegerValueOrBuilder getOrtStatusOrBuilder() {
           if (ortStatusBuilder_ != null) {
@@ -4839,7 +4839,7 @@ public final class PmAdressenCheckPu {
          * Status der Überprüfung für den "Ort"Mögliche Werte:0 : OK1 : möglicher Wert2 : falscher Wert3 : noch nicht überprüft
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue ort_status = 10006;</code>
+         * <code>.dstore.values.IntegerValue ort_status = 10006;</code>
          */
         private com.google.protobuf.SingleFieldBuilderV3<
             io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> 
@@ -4863,7 +4863,7 @@ public final class PmAdressenCheckPu {
          * Strasse der gültigen Adresse
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue strasse = 10007;</code>
+         * <code>.dstore.values.StringValue strasse = 10007;</code>
          */
         public boolean hasStrasse() {
           return strasseBuilder_ != null || strasse_ != null;
@@ -4873,7 +4873,7 @@ public final class PmAdressenCheckPu {
          * Strasse der gültigen Adresse
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue strasse = 10007;</code>
+         * <code>.dstore.values.StringValue strasse = 10007;</code>
          */
         public io.dstore.values.StringValue getStrasse() {
           if (strasseBuilder_ == null) {
@@ -4887,7 +4887,7 @@ public final class PmAdressenCheckPu {
          * Strasse der gültigen Adresse
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue strasse = 10007;</code>
+         * <code>.dstore.values.StringValue strasse = 10007;</code>
          */
         public Builder setStrasse(io.dstore.values.StringValue value) {
           if (strasseBuilder_ == null) {
@@ -4907,7 +4907,7 @@ public final class PmAdressenCheckPu {
          * Strasse der gültigen Adresse
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue strasse = 10007;</code>
+         * <code>.dstore.values.StringValue strasse = 10007;</code>
          */
         public Builder setStrasse(
             io.dstore.values.StringValue.Builder builderForValue) {
@@ -4925,7 +4925,7 @@ public final class PmAdressenCheckPu {
          * Strasse der gültigen Adresse
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue strasse = 10007;</code>
+         * <code>.dstore.values.StringValue strasse = 10007;</code>
          */
         public Builder mergeStrasse(io.dstore.values.StringValue value) {
           if (strasseBuilder_ == null) {
@@ -4947,7 +4947,7 @@ public final class PmAdressenCheckPu {
          * Strasse der gültigen Adresse
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue strasse = 10007;</code>
+         * <code>.dstore.values.StringValue strasse = 10007;</code>
          */
         public Builder clearStrasse() {
           if (strasseBuilder_ == null) {
@@ -4965,7 +4965,7 @@ public final class PmAdressenCheckPu {
          * Strasse der gültigen Adresse
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue strasse = 10007;</code>
+         * <code>.dstore.values.StringValue strasse = 10007;</code>
          */
         public io.dstore.values.StringValue.Builder getStrasseBuilder() {
           
@@ -4977,7 +4977,7 @@ public final class PmAdressenCheckPu {
          * Strasse der gültigen Adresse
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue strasse = 10007;</code>
+         * <code>.dstore.values.StringValue strasse = 10007;</code>
          */
         public io.dstore.values.StringValueOrBuilder getStrasseOrBuilder() {
           if (strasseBuilder_ != null) {
@@ -4992,7 +4992,7 @@ public final class PmAdressenCheckPu {
          * Strasse der gültigen Adresse
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue strasse = 10007;</code>
+         * <code>.dstore.values.StringValue strasse = 10007;</code>
          */
         private com.google.protobuf.SingleFieldBuilderV3<
             io.dstore.values.StringValue, io.dstore.values.StringValue.Builder, io.dstore.values.StringValueOrBuilder> 
@@ -5016,7 +5016,7 @@ public final class PmAdressenCheckPu {
          * Hausnummer der gefundenen Adresse
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue hausnummer = 10008;</code>
+         * <code>.dstore.values.StringValue hausnummer = 10008;</code>
          */
         public boolean hasHausnummer() {
           return hausnummerBuilder_ != null || hausnummer_ != null;
@@ -5026,7 +5026,7 @@ public final class PmAdressenCheckPu {
          * Hausnummer der gefundenen Adresse
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue hausnummer = 10008;</code>
+         * <code>.dstore.values.StringValue hausnummer = 10008;</code>
          */
         public io.dstore.values.StringValue getHausnummer() {
           if (hausnummerBuilder_ == null) {
@@ -5040,7 +5040,7 @@ public final class PmAdressenCheckPu {
          * Hausnummer der gefundenen Adresse
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue hausnummer = 10008;</code>
+         * <code>.dstore.values.StringValue hausnummer = 10008;</code>
          */
         public Builder setHausnummer(io.dstore.values.StringValue value) {
           if (hausnummerBuilder_ == null) {
@@ -5060,7 +5060,7 @@ public final class PmAdressenCheckPu {
          * Hausnummer der gefundenen Adresse
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue hausnummer = 10008;</code>
+         * <code>.dstore.values.StringValue hausnummer = 10008;</code>
          */
         public Builder setHausnummer(
             io.dstore.values.StringValue.Builder builderForValue) {
@@ -5078,7 +5078,7 @@ public final class PmAdressenCheckPu {
          * Hausnummer der gefundenen Adresse
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue hausnummer = 10008;</code>
+         * <code>.dstore.values.StringValue hausnummer = 10008;</code>
          */
         public Builder mergeHausnummer(io.dstore.values.StringValue value) {
           if (hausnummerBuilder_ == null) {
@@ -5100,7 +5100,7 @@ public final class PmAdressenCheckPu {
          * Hausnummer der gefundenen Adresse
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue hausnummer = 10008;</code>
+         * <code>.dstore.values.StringValue hausnummer = 10008;</code>
          */
         public Builder clearHausnummer() {
           if (hausnummerBuilder_ == null) {
@@ -5118,7 +5118,7 @@ public final class PmAdressenCheckPu {
          * Hausnummer der gefundenen Adresse
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue hausnummer = 10008;</code>
+         * <code>.dstore.values.StringValue hausnummer = 10008;</code>
          */
         public io.dstore.values.StringValue.Builder getHausnummerBuilder() {
           
@@ -5130,7 +5130,7 @@ public final class PmAdressenCheckPu {
          * Hausnummer der gefundenen Adresse
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue hausnummer = 10008;</code>
+         * <code>.dstore.values.StringValue hausnummer = 10008;</code>
          */
         public io.dstore.values.StringValueOrBuilder getHausnummerOrBuilder() {
           if (hausnummerBuilder_ != null) {
@@ -5145,7 +5145,7 @@ public final class PmAdressenCheckPu {
          * Hausnummer der gefundenen Adresse
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue hausnummer = 10008;</code>
+         * <code>.dstore.values.StringValue hausnummer = 10008;</code>
          */
         private com.google.protobuf.SingleFieldBuilderV3<
             io.dstore.values.StringValue, io.dstore.values.StringValue.Builder, io.dstore.values.StringValueOrBuilder> 
@@ -5169,7 +5169,7 @@ public final class PmAdressenCheckPu {
          * PLZ der gefundenen Adresse
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue p_l_z = 10009;</code>
+         * <code>.dstore.values.StringValue p_l_z = 10009;</code>
          */
         public boolean hasPLZ() {
           return pLZBuilder_ != null || pLZ_ != null;
@@ -5179,7 +5179,7 @@ public final class PmAdressenCheckPu {
          * PLZ der gefundenen Adresse
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue p_l_z = 10009;</code>
+         * <code>.dstore.values.StringValue p_l_z = 10009;</code>
          */
         public io.dstore.values.StringValue getPLZ() {
           if (pLZBuilder_ == null) {
@@ -5193,7 +5193,7 @@ public final class PmAdressenCheckPu {
          * PLZ der gefundenen Adresse
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue p_l_z = 10009;</code>
+         * <code>.dstore.values.StringValue p_l_z = 10009;</code>
          */
         public Builder setPLZ(io.dstore.values.StringValue value) {
           if (pLZBuilder_ == null) {
@@ -5213,7 +5213,7 @@ public final class PmAdressenCheckPu {
          * PLZ der gefundenen Adresse
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue p_l_z = 10009;</code>
+         * <code>.dstore.values.StringValue p_l_z = 10009;</code>
          */
         public Builder setPLZ(
             io.dstore.values.StringValue.Builder builderForValue) {
@@ -5231,7 +5231,7 @@ public final class PmAdressenCheckPu {
          * PLZ der gefundenen Adresse
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue p_l_z = 10009;</code>
+         * <code>.dstore.values.StringValue p_l_z = 10009;</code>
          */
         public Builder mergePLZ(io.dstore.values.StringValue value) {
           if (pLZBuilder_ == null) {
@@ -5253,7 +5253,7 @@ public final class PmAdressenCheckPu {
          * PLZ der gefundenen Adresse
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue p_l_z = 10009;</code>
+         * <code>.dstore.values.StringValue p_l_z = 10009;</code>
          */
         public Builder clearPLZ() {
           if (pLZBuilder_ == null) {
@@ -5271,7 +5271,7 @@ public final class PmAdressenCheckPu {
          * PLZ der gefundenen Adresse
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue p_l_z = 10009;</code>
+         * <code>.dstore.values.StringValue p_l_z = 10009;</code>
          */
         public io.dstore.values.StringValue.Builder getPLZBuilder() {
           
@@ -5283,7 +5283,7 @@ public final class PmAdressenCheckPu {
          * PLZ der gefundenen Adresse
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue p_l_z = 10009;</code>
+         * <code>.dstore.values.StringValue p_l_z = 10009;</code>
          */
         public io.dstore.values.StringValueOrBuilder getPLZOrBuilder() {
           if (pLZBuilder_ != null) {
@@ -5298,7 +5298,7 @@ public final class PmAdressenCheckPu {
          * PLZ der gefundenen Adresse
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue p_l_z = 10009;</code>
+         * <code>.dstore.values.StringValue p_l_z = 10009;</code>
          */
         private com.google.protobuf.SingleFieldBuilderV3<
             io.dstore.values.StringValue, io.dstore.values.StringValue.Builder, io.dstore.values.StringValueOrBuilder> 
@@ -5471,19 +5471,19 @@ public final class PmAdressenCheckPu {
     public static final int CORRECT_ADRESS_FIELD_NUMBER = 101;
     private io.dstore.values.IntegerValue correctAdress_;
     /**
-     * <code>optional .dstore.values.IntegerValue correct_adress = 101;</code>
+     * <code>.dstore.values.IntegerValue correct_adress = 101;</code>
      */
     public boolean hasCorrectAdress() {
       return correctAdress_ != null;
     }
     /**
-     * <code>optional .dstore.values.IntegerValue correct_adress = 101;</code>
+     * <code>.dstore.values.IntegerValue correct_adress = 101;</code>
      */
     public io.dstore.values.IntegerValue getCorrectAdress() {
       return correctAdress_ == null ? io.dstore.values.IntegerValue.getDefaultInstance() : correctAdress_;
     }
     /**
-     * <code>optional .dstore.values.IntegerValue correct_adress = 101;</code>
+     * <code>.dstore.values.IntegerValue correct_adress = 101;</code>
      */
     public io.dstore.values.IntegerValueOrBuilder getCorrectAdressOrBuilder() {
       return getCorrectAdress();
@@ -5572,7 +5572,7 @@ public final class PmAdressenCheckPu {
         return memoizedHashCode;
       }
       int hash = 41;
-      hash = (19 * hash) + getDescriptorForType().hashCode();
+      hash = (19 * hash) + getDescriptor().hashCode();
       if (getMetaInformationCount() > 0) {
         hash = (37 * hash) + META_INFORMATION_FIELD_NUMBER;
         hash = (53 * hash) + getMetaInformationList().hashCode();
@@ -6664,13 +6664,13 @@ public final class PmAdressenCheckPu {
       private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> correctAdressBuilder_;
       /**
-       * <code>optional .dstore.values.IntegerValue correct_adress = 101;</code>
+       * <code>.dstore.values.IntegerValue correct_adress = 101;</code>
        */
       public boolean hasCorrectAdress() {
         return correctAdressBuilder_ != null || correctAdress_ != null;
       }
       /**
-       * <code>optional .dstore.values.IntegerValue correct_adress = 101;</code>
+       * <code>.dstore.values.IntegerValue correct_adress = 101;</code>
        */
       public io.dstore.values.IntegerValue getCorrectAdress() {
         if (correctAdressBuilder_ == null) {
@@ -6680,7 +6680,7 @@ public final class PmAdressenCheckPu {
         }
       }
       /**
-       * <code>optional .dstore.values.IntegerValue correct_adress = 101;</code>
+       * <code>.dstore.values.IntegerValue correct_adress = 101;</code>
        */
       public Builder setCorrectAdress(io.dstore.values.IntegerValue value) {
         if (correctAdressBuilder_ == null) {
@@ -6696,7 +6696,7 @@ public final class PmAdressenCheckPu {
         return this;
       }
       /**
-       * <code>optional .dstore.values.IntegerValue correct_adress = 101;</code>
+       * <code>.dstore.values.IntegerValue correct_adress = 101;</code>
        */
       public Builder setCorrectAdress(
           io.dstore.values.IntegerValue.Builder builderForValue) {
@@ -6710,7 +6710,7 @@ public final class PmAdressenCheckPu {
         return this;
       }
       /**
-       * <code>optional .dstore.values.IntegerValue correct_adress = 101;</code>
+       * <code>.dstore.values.IntegerValue correct_adress = 101;</code>
        */
       public Builder mergeCorrectAdress(io.dstore.values.IntegerValue value) {
         if (correctAdressBuilder_ == null) {
@@ -6728,7 +6728,7 @@ public final class PmAdressenCheckPu {
         return this;
       }
       /**
-       * <code>optional .dstore.values.IntegerValue correct_adress = 101;</code>
+       * <code>.dstore.values.IntegerValue correct_adress = 101;</code>
        */
       public Builder clearCorrectAdress() {
         if (correctAdressBuilder_ == null) {
@@ -6742,7 +6742,7 @@ public final class PmAdressenCheckPu {
         return this;
       }
       /**
-       * <code>optional .dstore.values.IntegerValue correct_adress = 101;</code>
+       * <code>.dstore.values.IntegerValue correct_adress = 101;</code>
        */
       public io.dstore.values.IntegerValue.Builder getCorrectAdressBuilder() {
         
@@ -6750,7 +6750,7 @@ public final class PmAdressenCheckPu {
         return getCorrectAdressFieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .dstore.values.IntegerValue correct_adress = 101;</code>
+       * <code>.dstore.values.IntegerValue correct_adress = 101;</code>
        */
       public io.dstore.values.IntegerValueOrBuilder getCorrectAdressOrBuilder() {
         if (correctAdressBuilder_ != null) {
@@ -6761,7 +6761,7 @@ public final class PmAdressenCheckPu {
         }
       }
       /**
-       * <code>optional .dstore.values.IntegerValue correct_adress = 101;</code>
+       * <code>.dstore.values.IntegerValue correct_adress = 101;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> 

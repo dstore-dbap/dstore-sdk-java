@@ -75,7 +75,7 @@ public  final class StringValue extends
   public static final int VALUE_FIELD_NUMBER = 1;
   private volatile java.lang.Object value_;
   /**
-   * <code>optional string value = 1;</code>
+   * <code>string value = 1;</code>
    */
   public java.lang.String getValue() {
     java.lang.Object ref = value_;
@@ -90,7 +90,7 @@ public  final class StringValue extends
     }
   }
   /**
-   * <code>optional string value = 1;</code>
+   * <code>string value = 1;</code>
    */
   public com.google.protobuf.ByteString
       getValueBytes() {
@@ -158,7 +158,7 @@ public  final class StringValue extends
       return memoizedHashCode;
     }
     int hash = 41;
-    hash = (19 * hash) + getDescriptorForType().hashCode();
+    hash = (19 * hash) + getDescriptor().hashCode();
     hash = (37 * hash) + VALUE_FIELD_NUMBER;
     hash = (53 * hash) + getValue().hashCode();
     hash = (29 * hash) + unknownFields.hashCode();
@@ -377,7 +377,7 @@ public  final class StringValue extends
 
     private java.lang.Object value_ = "";
     /**
-     * <code>optional string value = 1;</code>
+     * <code>string value = 1;</code>
      */
     public java.lang.String getValue() {
       java.lang.Object ref = value_;
@@ -392,7 +392,7 @@ public  final class StringValue extends
       }
     }
     /**
-     * <code>optional string value = 1;</code>
+     * <code>string value = 1;</code>
      */
     public com.google.protobuf.ByteString
         getValueBytes() {
@@ -408,7 +408,7 @@ public  final class StringValue extends
       }
     }
     /**
-     * <code>optional string value = 1;</code>
+     * <code>string value = 1;</code>
      */
     public Builder setValue(
         java.lang.String value) {
@@ -421,7 +421,7 @@ public  final class StringValue extends
       return this;
     }
     /**
-     * <code>optional string value = 1;</code>
+     * <code>string value = 1;</code>
      */
     public Builder clearValue() {
       
@@ -430,7 +430,7 @@ public  final class StringValue extends
       return this;
     }
     /**
-     * <code>optional string value = 1;</code>
+     * <code>string value = 1;</code>
      */
     public Builder setValueBytes(
         com.google.protobuf.ByteString value) {

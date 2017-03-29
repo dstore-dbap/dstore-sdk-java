@@ -19,38 +19,38 @@ public final class StGetVisitsAd {
       com.google.protobuf.MessageOrBuilder {
 
     /**
-     * <code>optional .dstore.values.TimestampValue from_day = 1;</code>
+     * <code>.dstore.values.TimestampValue from_day = 1;</code>
      */
     boolean hasFromDay();
     /**
-     * <code>optional .dstore.values.TimestampValue from_day = 1;</code>
+     * <code>.dstore.values.TimestampValue from_day = 1;</code>
      */
     io.dstore.values.TimestampValue getFromDay();
     /**
-     * <code>optional .dstore.values.TimestampValue from_day = 1;</code>
+     * <code>.dstore.values.TimestampValue from_day = 1;</code>
      */
     io.dstore.values.TimestampValueOrBuilder getFromDayOrBuilder();
 
     /**
-     * <code>optional bool from_day_null = 1001;</code>
+     * <code>bool from_day_null = 1001;</code>
      */
     boolean getFromDayNull();
 
     /**
-     * <code>optional .dstore.values.TimestampValue to_day = 2;</code>
+     * <code>.dstore.values.TimestampValue to_day = 2;</code>
      */
     boolean hasToDay();
     /**
-     * <code>optional .dstore.values.TimestampValue to_day = 2;</code>
+     * <code>.dstore.values.TimestampValue to_day = 2;</code>
      */
     io.dstore.values.TimestampValue getToDay();
     /**
-     * <code>optional .dstore.values.TimestampValue to_day = 2;</code>
+     * <code>.dstore.values.TimestampValue to_day = 2;</code>
      */
     io.dstore.values.TimestampValueOrBuilder getToDayOrBuilder();
 
     /**
-     * <code>optional bool to_day_null = 1002;</code>
+     * <code>bool to_day_null = 1002;</code>
      */
     boolean getToDayNull();
   }
@@ -157,19 +157,19 @@ public final class StGetVisitsAd {
     public static final int FROM_DAY_FIELD_NUMBER = 1;
     private io.dstore.values.TimestampValue fromDay_;
     /**
-     * <code>optional .dstore.values.TimestampValue from_day = 1;</code>
+     * <code>.dstore.values.TimestampValue from_day = 1;</code>
      */
     public boolean hasFromDay() {
       return fromDay_ != null;
     }
     /**
-     * <code>optional .dstore.values.TimestampValue from_day = 1;</code>
+     * <code>.dstore.values.TimestampValue from_day = 1;</code>
      */
     public io.dstore.values.TimestampValue getFromDay() {
       return fromDay_ == null ? io.dstore.values.TimestampValue.getDefaultInstance() : fromDay_;
     }
     /**
-     * <code>optional .dstore.values.TimestampValue from_day = 1;</code>
+     * <code>.dstore.values.TimestampValue from_day = 1;</code>
      */
     public io.dstore.values.TimestampValueOrBuilder getFromDayOrBuilder() {
       return getFromDay();
@@ -178,7 +178,7 @@ public final class StGetVisitsAd {
     public static final int FROM_DAY_NULL_FIELD_NUMBER = 1001;
     private boolean fromDayNull_;
     /**
-     * <code>optional bool from_day_null = 1001;</code>
+     * <code>bool from_day_null = 1001;</code>
      */
     public boolean getFromDayNull() {
       return fromDayNull_;
@@ -187,19 +187,19 @@ public final class StGetVisitsAd {
     public static final int TO_DAY_FIELD_NUMBER = 2;
     private io.dstore.values.TimestampValue toDay_;
     /**
-     * <code>optional .dstore.values.TimestampValue to_day = 2;</code>
+     * <code>.dstore.values.TimestampValue to_day = 2;</code>
      */
     public boolean hasToDay() {
       return toDay_ != null;
     }
     /**
-     * <code>optional .dstore.values.TimestampValue to_day = 2;</code>
+     * <code>.dstore.values.TimestampValue to_day = 2;</code>
      */
     public io.dstore.values.TimestampValue getToDay() {
       return toDay_ == null ? io.dstore.values.TimestampValue.getDefaultInstance() : toDay_;
     }
     /**
-     * <code>optional .dstore.values.TimestampValue to_day = 2;</code>
+     * <code>.dstore.values.TimestampValue to_day = 2;</code>
      */
     public io.dstore.values.TimestampValueOrBuilder getToDayOrBuilder() {
       return getToDay();
@@ -208,7 +208,7 @@ public final class StGetVisitsAd {
     public static final int TO_DAY_NULL_FIELD_NUMBER = 1002;
     private boolean toDayNull_;
     /**
-     * <code>optional bool to_day_null = 1002;</code>
+     * <code>bool to_day_null = 1002;</code>
      */
     public boolean getToDayNull() {
       return toDayNull_;
@@ -300,7 +300,7 @@ public final class StGetVisitsAd {
         return memoizedHashCode;
       }
       int hash = 41;
-      hash = (19 * hash) + getDescriptorForType().hashCode();
+      hash = (19 * hash) + getDescriptor().hashCode();
       if (hasFromDay()) {
         hash = (37 * hash) + FROM_DAY_FIELD_NUMBER;
         hash = (53 * hash) + getFromDay().hashCode();
@@ -566,13 +566,13 @@ public final class StGetVisitsAd {
       private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.values.TimestampValue, io.dstore.values.TimestampValue.Builder, io.dstore.values.TimestampValueOrBuilder> fromDayBuilder_;
       /**
-       * <code>optional .dstore.values.TimestampValue from_day = 1;</code>
+       * <code>.dstore.values.TimestampValue from_day = 1;</code>
        */
       public boolean hasFromDay() {
         return fromDayBuilder_ != null || fromDay_ != null;
       }
       /**
-       * <code>optional .dstore.values.TimestampValue from_day = 1;</code>
+       * <code>.dstore.values.TimestampValue from_day = 1;</code>
        */
       public io.dstore.values.TimestampValue getFromDay() {
         if (fromDayBuilder_ == null) {
@@ -582,7 +582,7 @@ public final class StGetVisitsAd {
         }
       }
       /**
-       * <code>optional .dstore.values.TimestampValue from_day = 1;</code>
+       * <code>.dstore.values.TimestampValue from_day = 1;</code>
        */
       public Builder setFromDay(io.dstore.values.TimestampValue value) {
         if (fromDayBuilder_ == null) {
@@ -598,7 +598,7 @@ public final class StGetVisitsAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.TimestampValue from_day = 1;</code>
+       * <code>.dstore.values.TimestampValue from_day = 1;</code>
        */
       public Builder setFromDay(
           io.dstore.values.TimestampValue.Builder builderForValue) {
@@ -612,7 +612,7 @@ public final class StGetVisitsAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.TimestampValue from_day = 1;</code>
+       * <code>.dstore.values.TimestampValue from_day = 1;</code>
        */
       public Builder mergeFromDay(io.dstore.values.TimestampValue value) {
         if (fromDayBuilder_ == null) {
@@ -630,7 +630,7 @@ public final class StGetVisitsAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.TimestampValue from_day = 1;</code>
+       * <code>.dstore.values.TimestampValue from_day = 1;</code>
        */
       public Builder clearFromDay() {
         if (fromDayBuilder_ == null) {
@@ -644,7 +644,7 @@ public final class StGetVisitsAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.TimestampValue from_day = 1;</code>
+       * <code>.dstore.values.TimestampValue from_day = 1;</code>
        */
       public io.dstore.values.TimestampValue.Builder getFromDayBuilder() {
         
@@ -652,7 +652,7 @@ public final class StGetVisitsAd {
         return getFromDayFieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .dstore.values.TimestampValue from_day = 1;</code>
+       * <code>.dstore.values.TimestampValue from_day = 1;</code>
        */
       public io.dstore.values.TimestampValueOrBuilder getFromDayOrBuilder() {
         if (fromDayBuilder_ != null) {
@@ -663,7 +663,7 @@ public final class StGetVisitsAd {
         }
       }
       /**
-       * <code>optional .dstore.values.TimestampValue from_day = 1;</code>
+       * <code>.dstore.values.TimestampValue from_day = 1;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.values.TimestampValue, io.dstore.values.TimestampValue.Builder, io.dstore.values.TimestampValueOrBuilder> 
@@ -681,13 +681,13 @@ public final class StGetVisitsAd {
 
       private boolean fromDayNull_ ;
       /**
-       * <code>optional bool from_day_null = 1001;</code>
+       * <code>bool from_day_null = 1001;</code>
        */
       public boolean getFromDayNull() {
         return fromDayNull_;
       }
       /**
-       * <code>optional bool from_day_null = 1001;</code>
+       * <code>bool from_day_null = 1001;</code>
        */
       public Builder setFromDayNull(boolean value) {
         
@@ -696,7 +696,7 @@ public final class StGetVisitsAd {
         return this;
       }
       /**
-       * <code>optional bool from_day_null = 1001;</code>
+       * <code>bool from_day_null = 1001;</code>
        */
       public Builder clearFromDayNull() {
         
@@ -709,13 +709,13 @@ public final class StGetVisitsAd {
       private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.values.TimestampValue, io.dstore.values.TimestampValue.Builder, io.dstore.values.TimestampValueOrBuilder> toDayBuilder_;
       /**
-       * <code>optional .dstore.values.TimestampValue to_day = 2;</code>
+       * <code>.dstore.values.TimestampValue to_day = 2;</code>
        */
       public boolean hasToDay() {
         return toDayBuilder_ != null || toDay_ != null;
       }
       /**
-       * <code>optional .dstore.values.TimestampValue to_day = 2;</code>
+       * <code>.dstore.values.TimestampValue to_day = 2;</code>
        */
       public io.dstore.values.TimestampValue getToDay() {
         if (toDayBuilder_ == null) {
@@ -725,7 +725,7 @@ public final class StGetVisitsAd {
         }
       }
       /**
-       * <code>optional .dstore.values.TimestampValue to_day = 2;</code>
+       * <code>.dstore.values.TimestampValue to_day = 2;</code>
        */
       public Builder setToDay(io.dstore.values.TimestampValue value) {
         if (toDayBuilder_ == null) {
@@ -741,7 +741,7 @@ public final class StGetVisitsAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.TimestampValue to_day = 2;</code>
+       * <code>.dstore.values.TimestampValue to_day = 2;</code>
        */
       public Builder setToDay(
           io.dstore.values.TimestampValue.Builder builderForValue) {
@@ -755,7 +755,7 @@ public final class StGetVisitsAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.TimestampValue to_day = 2;</code>
+       * <code>.dstore.values.TimestampValue to_day = 2;</code>
        */
       public Builder mergeToDay(io.dstore.values.TimestampValue value) {
         if (toDayBuilder_ == null) {
@@ -773,7 +773,7 @@ public final class StGetVisitsAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.TimestampValue to_day = 2;</code>
+       * <code>.dstore.values.TimestampValue to_day = 2;</code>
        */
       public Builder clearToDay() {
         if (toDayBuilder_ == null) {
@@ -787,7 +787,7 @@ public final class StGetVisitsAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.TimestampValue to_day = 2;</code>
+       * <code>.dstore.values.TimestampValue to_day = 2;</code>
        */
       public io.dstore.values.TimestampValue.Builder getToDayBuilder() {
         
@@ -795,7 +795,7 @@ public final class StGetVisitsAd {
         return getToDayFieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .dstore.values.TimestampValue to_day = 2;</code>
+       * <code>.dstore.values.TimestampValue to_day = 2;</code>
        */
       public io.dstore.values.TimestampValueOrBuilder getToDayOrBuilder() {
         if (toDayBuilder_ != null) {
@@ -806,7 +806,7 @@ public final class StGetVisitsAd {
         }
       }
       /**
-       * <code>optional .dstore.values.TimestampValue to_day = 2;</code>
+       * <code>.dstore.values.TimestampValue to_day = 2;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.values.TimestampValue, io.dstore.values.TimestampValue.Builder, io.dstore.values.TimestampValueOrBuilder> 
@@ -824,13 +824,13 @@ public final class StGetVisitsAd {
 
       private boolean toDayNull_ ;
       /**
-       * <code>optional bool to_day_null = 1002;</code>
+       * <code>bool to_day_null = 1002;</code>
        */
       public boolean getToDayNull() {
         return toDayNull_;
       }
       /**
-       * <code>optional bool to_day_null = 1002;</code>
+       * <code>bool to_day_null = 1002;</code>
        */
       public Builder setToDayNull(boolean value) {
         
@@ -839,7 +839,7 @@ public final class StGetVisitsAd {
         return this;
       }
       /**
-       * <code>optional bool to_day_null = 1002;</code>
+       * <code>bool to_day_null = 1002;</code>
        */
       public Builder clearToDayNull() {
         
@@ -1098,7 +1098,7 @@ public final class StGetVisitsAd {
         com.google.protobuf.MessageOrBuilder {
 
       /**
-       * <code>optional int32 row_id = 10000;</code>
+       * <code>int32 row_id = 10000;</code>
        */
       int getRowId();
 
@@ -1107,7 +1107,7 @@ public final class StGetVisitsAd {
        * Anzahl Besuche am Tag "Day"
        * </pre>
        *
-       * <code>optional .dstore.values.IntegerValue counter = 10001;</code>
+       * <code>.dstore.values.IntegerValue counter = 10001;</code>
        */
       boolean hasCounter();
       /**
@@ -1115,7 +1115,7 @@ public final class StGetVisitsAd {
        * Anzahl Besuche am Tag "Day"
        * </pre>
        *
-       * <code>optional .dstore.values.IntegerValue counter = 10001;</code>
+       * <code>.dstore.values.IntegerValue counter = 10001;</code>
        */
       io.dstore.values.IntegerValue getCounter();
       /**
@@ -1123,7 +1123,7 @@ public final class StGetVisitsAd {
        * Anzahl Besuche am Tag "Day"
        * </pre>
        *
-       * <code>optional .dstore.values.IntegerValue counter = 10001;</code>
+       * <code>.dstore.values.IntegerValue counter = 10001;</code>
        */
       io.dstore.values.IntegerValueOrBuilder getCounterOrBuilder();
 
@@ -1132,7 +1132,7 @@ public final class StGetVisitsAd {
        * Ein (Tages-)Datum im Zeitraum "&#64;FromDate" bis "&#64;ToDate"
        * </pre>
        *
-       * <code>optional .dstore.values.TimestampValue day = 10002;</code>
+       * <code>.dstore.values.TimestampValue day = 10002;</code>
        */
       boolean hasDay();
       /**
@@ -1140,7 +1140,7 @@ public final class StGetVisitsAd {
        * Ein (Tages-)Datum im Zeitraum "&#64;FromDate" bis "&#64;ToDate"
        * </pre>
        *
-       * <code>optional .dstore.values.TimestampValue day = 10002;</code>
+       * <code>.dstore.values.TimestampValue day = 10002;</code>
        */
       io.dstore.values.TimestampValue getDay();
       /**
@@ -1148,7 +1148,7 @@ public final class StGetVisitsAd {
        * Ein (Tages-)Datum im Zeitraum "&#64;FromDate" bis "&#64;ToDate"
        * </pre>
        *
-       * <code>optional .dstore.values.TimestampValue day = 10002;</code>
+       * <code>.dstore.values.TimestampValue day = 10002;</code>
        */
       io.dstore.values.TimestampValueOrBuilder getDayOrBuilder();
     }
@@ -1249,7 +1249,7 @@ public final class StGetVisitsAd {
       public static final int ROW_ID_FIELD_NUMBER = 10000;
       private int rowId_;
       /**
-       * <code>optional int32 row_id = 10000;</code>
+       * <code>int32 row_id = 10000;</code>
        */
       public int getRowId() {
         return rowId_;
@@ -1262,7 +1262,7 @@ public final class StGetVisitsAd {
        * Anzahl Besuche am Tag "Day"
        * </pre>
        *
-       * <code>optional .dstore.values.IntegerValue counter = 10001;</code>
+       * <code>.dstore.values.IntegerValue counter = 10001;</code>
        */
       public boolean hasCounter() {
         return counter_ != null;
@@ -1272,7 +1272,7 @@ public final class StGetVisitsAd {
        * Anzahl Besuche am Tag "Day"
        * </pre>
        *
-       * <code>optional .dstore.values.IntegerValue counter = 10001;</code>
+       * <code>.dstore.values.IntegerValue counter = 10001;</code>
        */
       public io.dstore.values.IntegerValue getCounter() {
         return counter_ == null ? io.dstore.values.IntegerValue.getDefaultInstance() : counter_;
@@ -1282,7 +1282,7 @@ public final class StGetVisitsAd {
        * Anzahl Besuche am Tag "Day"
        * </pre>
        *
-       * <code>optional .dstore.values.IntegerValue counter = 10001;</code>
+       * <code>.dstore.values.IntegerValue counter = 10001;</code>
        */
       public io.dstore.values.IntegerValueOrBuilder getCounterOrBuilder() {
         return getCounter();
@@ -1295,7 +1295,7 @@ public final class StGetVisitsAd {
        * Ein (Tages-)Datum im Zeitraum "&#64;FromDate" bis "&#64;ToDate"
        * </pre>
        *
-       * <code>optional .dstore.values.TimestampValue day = 10002;</code>
+       * <code>.dstore.values.TimestampValue day = 10002;</code>
        */
       public boolean hasDay() {
         return day_ != null;
@@ -1305,7 +1305,7 @@ public final class StGetVisitsAd {
        * Ein (Tages-)Datum im Zeitraum "&#64;FromDate" bis "&#64;ToDate"
        * </pre>
        *
-       * <code>optional .dstore.values.TimestampValue day = 10002;</code>
+       * <code>.dstore.values.TimestampValue day = 10002;</code>
        */
       public io.dstore.values.TimestampValue getDay() {
         return day_ == null ? io.dstore.values.TimestampValue.getDefaultInstance() : day_;
@@ -1315,7 +1315,7 @@ public final class StGetVisitsAd {
        * Ein (Tages-)Datum im Zeitraum "&#64;FromDate" bis "&#64;ToDate"
        * </pre>
        *
-       * <code>optional .dstore.values.TimestampValue day = 10002;</code>
+       * <code>.dstore.values.TimestampValue day = 10002;</code>
        */
       public io.dstore.values.TimestampValueOrBuilder getDayOrBuilder() {
         return getDay();
@@ -1398,7 +1398,7 @@ public final class StGetVisitsAd {
           return memoizedHashCode;
         }
         int hash = 41;
-        hash = (19 * hash) + getDescriptorForType().hashCode();
+        hash = (19 * hash) + getDescriptor().hashCode();
         hash = (37 * hash) + ROW_ID_FIELD_NUMBER;
         hash = (53 * hash) + getRowId();
         if (hasCounter()) {
@@ -1652,13 +1652,13 @@ public final class StGetVisitsAd {
 
         private int rowId_ ;
         /**
-         * <code>optional int32 row_id = 10000;</code>
+         * <code>int32 row_id = 10000;</code>
          */
         public int getRowId() {
           return rowId_;
         }
         /**
-         * <code>optional int32 row_id = 10000;</code>
+         * <code>int32 row_id = 10000;</code>
          */
         public Builder setRowId(int value) {
           
@@ -1667,7 +1667,7 @@ public final class StGetVisitsAd {
           return this;
         }
         /**
-         * <code>optional int32 row_id = 10000;</code>
+         * <code>int32 row_id = 10000;</code>
          */
         public Builder clearRowId() {
           
@@ -1684,7 +1684,7 @@ public final class StGetVisitsAd {
          * Anzahl Besuche am Tag "Day"
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue counter = 10001;</code>
+         * <code>.dstore.values.IntegerValue counter = 10001;</code>
          */
         public boolean hasCounter() {
           return counterBuilder_ != null || counter_ != null;
@@ -1694,7 +1694,7 @@ public final class StGetVisitsAd {
          * Anzahl Besuche am Tag "Day"
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue counter = 10001;</code>
+         * <code>.dstore.values.IntegerValue counter = 10001;</code>
          */
         public io.dstore.values.IntegerValue getCounter() {
           if (counterBuilder_ == null) {
@@ -1708,7 +1708,7 @@ public final class StGetVisitsAd {
          * Anzahl Besuche am Tag "Day"
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue counter = 10001;</code>
+         * <code>.dstore.values.IntegerValue counter = 10001;</code>
          */
         public Builder setCounter(io.dstore.values.IntegerValue value) {
           if (counterBuilder_ == null) {
@@ -1728,7 +1728,7 @@ public final class StGetVisitsAd {
          * Anzahl Besuche am Tag "Day"
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue counter = 10001;</code>
+         * <code>.dstore.values.IntegerValue counter = 10001;</code>
          */
         public Builder setCounter(
             io.dstore.values.IntegerValue.Builder builderForValue) {
@@ -1746,7 +1746,7 @@ public final class StGetVisitsAd {
          * Anzahl Besuche am Tag "Day"
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue counter = 10001;</code>
+         * <code>.dstore.values.IntegerValue counter = 10001;</code>
          */
         public Builder mergeCounter(io.dstore.values.IntegerValue value) {
           if (counterBuilder_ == null) {
@@ -1768,7 +1768,7 @@ public final class StGetVisitsAd {
          * Anzahl Besuche am Tag "Day"
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue counter = 10001;</code>
+         * <code>.dstore.values.IntegerValue counter = 10001;</code>
          */
         public Builder clearCounter() {
           if (counterBuilder_ == null) {
@@ -1786,7 +1786,7 @@ public final class StGetVisitsAd {
          * Anzahl Besuche am Tag "Day"
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue counter = 10001;</code>
+         * <code>.dstore.values.IntegerValue counter = 10001;</code>
          */
         public io.dstore.values.IntegerValue.Builder getCounterBuilder() {
           
@@ -1798,7 +1798,7 @@ public final class StGetVisitsAd {
          * Anzahl Besuche am Tag "Day"
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue counter = 10001;</code>
+         * <code>.dstore.values.IntegerValue counter = 10001;</code>
          */
         public io.dstore.values.IntegerValueOrBuilder getCounterOrBuilder() {
           if (counterBuilder_ != null) {
@@ -1813,7 +1813,7 @@ public final class StGetVisitsAd {
          * Anzahl Besuche am Tag "Day"
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue counter = 10001;</code>
+         * <code>.dstore.values.IntegerValue counter = 10001;</code>
          */
         private com.google.protobuf.SingleFieldBuilderV3<
             io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> 
@@ -1837,7 +1837,7 @@ public final class StGetVisitsAd {
          * Ein (Tages-)Datum im Zeitraum "&#64;FromDate" bis "&#64;ToDate"
          * </pre>
          *
-         * <code>optional .dstore.values.TimestampValue day = 10002;</code>
+         * <code>.dstore.values.TimestampValue day = 10002;</code>
          */
         public boolean hasDay() {
           return dayBuilder_ != null || day_ != null;
@@ -1847,7 +1847,7 @@ public final class StGetVisitsAd {
          * Ein (Tages-)Datum im Zeitraum "&#64;FromDate" bis "&#64;ToDate"
          * </pre>
          *
-         * <code>optional .dstore.values.TimestampValue day = 10002;</code>
+         * <code>.dstore.values.TimestampValue day = 10002;</code>
          */
         public io.dstore.values.TimestampValue getDay() {
           if (dayBuilder_ == null) {
@@ -1861,7 +1861,7 @@ public final class StGetVisitsAd {
          * Ein (Tages-)Datum im Zeitraum "&#64;FromDate" bis "&#64;ToDate"
          * </pre>
          *
-         * <code>optional .dstore.values.TimestampValue day = 10002;</code>
+         * <code>.dstore.values.TimestampValue day = 10002;</code>
          */
         public Builder setDay(io.dstore.values.TimestampValue value) {
           if (dayBuilder_ == null) {
@@ -1881,7 +1881,7 @@ public final class StGetVisitsAd {
          * Ein (Tages-)Datum im Zeitraum "&#64;FromDate" bis "&#64;ToDate"
          * </pre>
          *
-         * <code>optional .dstore.values.TimestampValue day = 10002;</code>
+         * <code>.dstore.values.TimestampValue day = 10002;</code>
          */
         public Builder setDay(
             io.dstore.values.TimestampValue.Builder builderForValue) {
@@ -1899,7 +1899,7 @@ public final class StGetVisitsAd {
          * Ein (Tages-)Datum im Zeitraum "&#64;FromDate" bis "&#64;ToDate"
          * </pre>
          *
-         * <code>optional .dstore.values.TimestampValue day = 10002;</code>
+         * <code>.dstore.values.TimestampValue day = 10002;</code>
          */
         public Builder mergeDay(io.dstore.values.TimestampValue value) {
           if (dayBuilder_ == null) {
@@ -1921,7 +1921,7 @@ public final class StGetVisitsAd {
          * Ein (Tages-)Datum im Zeitraum "&#64;FromDate" bis "&#64;ToDate"
          * </pre>
          *
-         * <code>optional .dstore.values.TimestampValue day = 10002;</code>
+         * <code>.dstore.values.TimestampValue day = 10002;</code>
          */
         public Builder clearDay() {
           if (dayBuilder_ == null) {
@@ -1939,7 +1939,7 @@ public final class StGetVisitsAd {
          * Ein (Tages-)Datum im Zeitraum "&#64;FromDate" bis "&#64;ToDate"
          * </pre>
          *
-         * <code>optional .dstore.values.TimestampValue day = 10002;</code>
+         * <code>.dstore.values.TimestampValue day = 10002;</code>
          */
         public io.dstore.values.TimestampValue.Builder getDayBuilder() {
           
@@ -1951,7 +1951,7 @@ public final class StGetVisitsAd {
          * Ein (Tages-)Datum im Zeitraum "&#64;FromDate" bis "&#64;ToDate"
          * </pre>
          *
-         * <code>optional .dstore.values.TimestampValue day = 10002;</code>
+         * <code>.dstore.values.TimestampValue day = 10002;</code>
          */
         public io.dstore.values.TimestampValueOrBuilder getDayOrBuilder() {
           if (dayBuilder_ != null) {
@@ -1966,7 +1966,7 @@ public final class StGetVisitsAd {
          * Ein (Tages-)Datum im Zeitraum "&#64;FromDate" bis "&#64;ToDate"
          * </pre>
          *
-         * <code>optional .dstore.values.TimestampValue day = 10002;</code>
+         * <code>.dstore.values.TimestampValue day = 10002;</code>
          */
         private com.google.protobuf.SingleFieldBuilderV3<
             io.dstore.values.TimestampValue, io.dstore.values.TimestampValue.Builder, io.dstore.values.TimestampValueOrBuilder> 
@@ -2226,7 +2226,7 @@ public final class StGetVisitsAd {
         return memoizedHashCode;
       }
       int hash = 41;
-      hash = (19 * hash) + getDescriptorForType().hashCode();
+      hash = (19 * hash) + getDescriptor().hashCode();
       if (getMetaInformationCount() > 0) {
         hash = (37 * hash) + META_INFORMATION_FIELD_NUMBER;
         hash = (53 * hash) + getMetaInformationList().hashCode();

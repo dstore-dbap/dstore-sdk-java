@@ -19,74 +19,74 @@ public final class PmModifyBinariesForPersonsAd {
       com.google.protobuf.MessageOrBuilder {
 
     /**
-     * <code>optional .dstore.values.IntegerValue person_id = 1;</code>
+     * <code>.dstore.values.IntegerValue person_id = 1;</code>
      */
     boolean hasPersonId();
     /**
-     * <code>optional .dstore.values.IntegerValue person_id = 1;</code>
+     * <code>.dstore.values.IntegerValue person_id = 1;</code>
      */
     io.dstore.values.IntegerValue getPersonId();
     /**
-     * <code>optional .dstore.values.IntegerValue person_id = 1;</code>
+     * <code>.dstore.values.IntegerValue person_id = 1;</code>
      */
     io.dstore.values.IntegerValueOrBuilder getPersonIdOrBuilder();
 
     /**
-     * <code>optional bool person_id_null = 1001;</code>
+     * <code>bool person_id_null = 1001;</code>
      */
     boolean getPersonIdNull();
 
     /**
-     * <code>optional .dstore.values.IntegerValue binary_code_id = 2;</code>
+     * <code>.dstore.values.IntegerValue binary_code_id = 2;</code>
      */
     boolean hasBinaryCodeId();
     /**
-     * <code>optional .dstore.values.IntegerValue binary_code_id = 2;</code>
+     * <code>.dstore.values.IntegerValue binary_code_id = 2;</code>
      */
     io.dstore.values.IntegerValue getBinaryCodeId();
     /**
-     * <code>optional .dstore.values.IntegerValue binary_code_id = 2;</code>
+     * <code>.dstore.values.IntegerValue binary_code_id = 2;</code>
      */
     io.dstore.values.IntegerValueOrBuilder getBinaryCodeIdOrBuilder();
 
     /**
-     * <code>optional bool binary_code_id_null = 1002;</code>
+     * <code>bool binary_code_id_null = 1002;</code>
      */
     boolean getBinaryCodeIdNull();
 
     /**
-     * <code>optional .dstore.values.BooleanValue delete = 3;</code>
+     * <code>.dstore.values.BooleanValue delete = 3;</code>
      */
     boolean hasDelete();
     /**
-     * <code>optional .dstore.values.BooleanValue delete = 3;</code>
+     * <code>.dstore.values.BooleanValue delete = 3;</code>
      */
     io.dstore.values.BooleanValue getDelete();
     /**
-     * <code>optional .dstore.values.BooleanValue delete = 3;</code>
+     * <code>.dstore.values.BooleanValue delete = 3;</code>
      */
     io.dstore.values.BooleanValueOrBuilder getDeleteOrBuilder();
 
     /**
-     * <code>optional bool delete_null = 1003;</code>
+     * <code>bool delete_null = 1003;</code>
      */
     boolean getDeleteNull();
 
     /**
-     * <code>optional .dstore.values.StringValue binary_description = 4;</code>
+     * <code>.dstore.values.StringValue binary_description = 4;</code>
      */
     boolean hasBinaryDescription();
     /**
-     * <code>optional .dstore.values.StringValue binary_description = 4;</code>
+     * <code>.dstore.values.StringValue binary_description = 4;</code>
      */
     io.dstore.values.StringValue getBinaryDescription();
     /**
-     * <code>optional .dstore.values.StringValue binary_description = 4;</code>
+     * <code>.dstore.values.StringValue binary_description = 4;</code>
      */
     io.dstore.values.StringValueOrBuilder getBinaryDescriptionOrBuilder();
 
     /**
-     * <code>optional bool binary_description_null = 1004;</code>
+     * <code>bool binary_description_null = 1004;</code>
      */
     boolean getBinaryDescriptionNull();
   }
@@ -231,19 +231,19 @@ public final class PmModifyBinariesForPersonsAd {
     public static final int PERSON_ID_FIELD_NUMBER = 1;
     private io.dstore.values.IntegerValue personId_;
     /**
-     * <code>optional .dstore.values.IntegerValue person_id = 1;</code>
+     * <code>.dstore.values.IntegerValue person_id = 1;</code>
      */
     public boolean hasPersonId() {
       return personId_ != null;
     }
     /**
-     * <code>optional .dstore.values.IntegerValue person_id = 1;</code>
+     * <code>.dstore.values.IntegerValue person_id = 1;</code>
      */
     public io.dstore.values.IntegerValue getPersonId() {
       return personId_ == null ? io.dstore.values.IntegerValue.getDefaultInstance() : personId_;
     }
     /**
-     * <code>optional .dstore.values.IntegerValue person_id = 1;</code>
+     * <code>.dstore.values.IntegerValue person_id = 1;</code>
      */
     public io.dstore.values.IntegerValueOrBuilder getPersonIdOrBuilder() {
       return getPersonId();
@@ -252,7 +252,7 @@ public final class PmModifyBinariesForPersonsAd {
     public static final int PERSON_ID_NULL_FIELD_NUMBER = 1001;
     private boolean personIdNull_;
     /**
-     * <code>optional bool person_id_null = 1001;</code>
+     * <code>bool person_id_null = 1001;</code>
      */
     public boolean getPersonIdNull() {
       return personIdNull_;
@@ -261,19 +261,19 @@ public final class PmModifyBinariesForPersonsAd {
     public static final int BINARY_CODE_ID_FIELD_NUMBER = 2;
     private io.dstore.values.IntegerValue binaryCodeId_;
     /**
-     * <code>optional .dstore.values.IntegerValue binary_code_id = 2;</code>
+     * <code>.dstore.values.IntegerValue binary_code_id = 2;</code>
      */
     public boolean hasBinaryCodeId() {
       return binaryCodeId_ != null;
     }
     /**
-     * <code>optional .dstore.values.IntegerValue binary_code_id = 2;</code>
+     * <code>.dstore.values.IntegerValue binary_code_id = 2;</code>
      */
     public io.dstore.values.IntegerValue getBinaryCodeId() {
       return binaryCodeId_ == null ? io.dstore.values.IntegerValue.getDefaultInstance() : binaryCodeId_;
     }
     /**
-     * <code>optional .dstore.values.IntegerValue binary_code_id = 2;</code>
+     * <code>.dstore.values.IntegerValue binary_code_id = 2;</code>
      */
     public io.dstore.values.IntegerValueOrBuilder getBinaryCodeIdOrBuilder() {
       return getBinaryCodeId();
@@ -282,7 +282,7 @@ public final class PmModifyBinariesForPersonsAd {
     public static final int BINARY_CODE_ID_NULL_FIELD_NUMBER = 1002;
     private boolean binaryCodeIdNull_;
     /**
-     * <code>optional bool binary_code_id_null = 1002;</code>
+     * <code>bool binary_code_id_null = 1002;</code>
      */
     public boolean getBinaryCodeIdNull() {
       return binaryCodeIdNull_;
@@ -291,19 +291,19 @@ public final class PmModifyBinariesForPersonsAd {
     public static final int DELETE_FIELD_NUMBER = 3;
     private io.dstore.values.BooleanValue delete_;
     /**
-     * <code>optional .dstore.values.BooleanValue delete = 3;</code>
+     * <code>.dstore.values.BooleanValue delete = 3;</code>
      */
     public boolean hasDelete() {
       return delete_ != null;
     }
     /**
-     * <code>optional .dstore.values.BooleanValue delete = 3;</code>
+     * <code>.dstore.values.BooleanValue delete = 3;</code>
      */
     public io.dstore.values.BooleanValue getDelete() {
       return delete_ == null ? io.dstore.values.BooleanValue.getDefaultInstance() : delete_;
     }
     /**
-     * <code>optional .dstore.values.BooleanValue delete = 3;</code>
+     * <code>.dstore.values.BooleanValue delete = 3;</code>
      */
     public io.dstore.values.BooleanValueOrBuilder getDeleteOrBuilder() {
       return getDelete();
@@ -312,7 +312,7 @@ public final class PmModifyBinariesForPersonsAd {
     public static final int DELETE_NULL_FIELD_NUMBER = 1003;
     private boolean deleteNull_;
     /**
-     * <code>optional bool delete_null = 1003;</code>
+     * <code>bool delete_null = 1003;</code>
      */
     public boolean getDeleteNull() {
       return deleteNull_;
@@ -321,19 +321,19 @@ public final class PmModifyBinariesForPersonsAd {
     public static final int BINARY_DESCRIPTION_FIELD_NUMBER = 4;
     private io.dstore.values.StringValue binaryDescription_;
     /**
-     * <code>optional .dstore.values.StringValue binary_description = 4;</code>
+     * <code>.dstore.values.StringValue binary_description = 4;</code>
      */
     public boolean hasBinaryDescription() {
       return binaryDescription_ != null;
     }
     /**
-     * <code>optional .dstore.values.StringValue binary_description = 4;</code>
+     * <code>.dstore.values.StringValue binary_description = 4;</code>
      */
     public io.dstore.values.StringValue getBinaryDescription() {
       return binaryDescription_ == null ? io.dstore.values.StringValue.getDefaultInstance() : binaryDescription_;
     }
     /**
-     * <code>optional .dstore.values.StringValue binary_description = 4;</code>
+     * <code>.dstore.values.StringValue binary_description = 4;</code>
      */
     public io.dstore.values.StringValueOrBuilder getBinaryDescriptionOrBuilder() {
       return getBinaryDescription();
@@ -342,7 +342,7 @@ public final class PmModifyBinariesForPersonsAd {
     public static final int BINARY_DESCRIPTION_NULL_FIELD_NUMBER = 1004;
     private boolean binaryDescriptionNull_;
     /**
-     * <code>optional bool binary_description_null = 1004;</code>
+     * <code>bool binary_description_null = 1004;</code>
      */
     public boolean getBinaryDescriptionNull() {
       return binaryDescriptionNull_;
@@ -476,7 +476,7 @@ public final class PmModifyBinariesForPersonsAd {
         return memoizedHashCode;
       }
       int hash = 41;
-      hash = (19 * hash) + getDescriptorForType().hashCode();
+      hash = (19 * hash) + getDescriptor().hashCode();
       if (hasPersonId()) {
         hash = (37 * hash) + PERSON_ID_FIELD_NUMBER;
         hash = (53 * hash) + getPersonId().hashCode();
@@ -796,13 +796,13 @@ public final class PmModifyBinariesForPersonsAd {
       private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> personIdBuilder_;
       /**
-       * <code>optional .dstore.values.IntegerValue person_id = 1;</code>
+       * <code>.dstore.values.IntegerValue person_id = 1;</code>
        */
       public boolean hasPersonId() {
         return personIdBuilder_ != null || personId_ != null;
       }
       /**
-       * <code>optional .dstore.values.IntegerValue person_id = 1;</code>
+       * <code>.dstore.values.IntegerValue person_id = 1;</code>
        */
       public io.dstore.values.IntegerValue getPersonId() {
         if (personIdBuilder_ == null) {
@@ -812,7 +812,7 @@ public final class PmModifyBinariesForPersonsAd {
         }
       }
       /**
-       * <code>optional .dstore.values.IntegerValue person_id = 1;</code>
+       * <code>.dstore.values.IntegerValue person_id = 1;</code>
        */
       public Builder setPersonId(io.dstore.values.IntegerValue value) {
         if (personIdBuilder_ == null) {
@@ -828,7 +828,7 @@ public final class PmModifyBinariesForPersonsAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.IntegerValue person_id = 1;</code>
+       * <code>.dstore.values.IntegerValue person_id = 1;</code>
        */
       public Builder setPersonId(
           io.dstore.values.IntegerValue.Builder builderForValue) {
@@ -842,7 +842,7 @@ public final class PmModifyBinariesForPersonsAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.IntegerValue person_id = 1;</code>
+       * <code>.dstore.values.IntegerValue person_id = 1;</code>
        */
       public Builder mergePersonId(io.dstore.values.IntegerValue value) {
         if (personIdBuilder_ == null) {
@@ -860,7 +860,7 @@ public final class PmModifyBinariesForPersonsAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.IntegerValue person_id = 1;</code>
+       * <code>.dstore.values.IntegerValue person_id = 1;</code>
        */
       public Builder clearPersonId() {
         if (personIdBuilder_ == null) {
@@ -874,7 +874,7 @@ public final class PmModifyBinariesForPersonsAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.IntegerValue person_id = 1;</code>
+       * <code>.dstore.values.IntegerValue person_id = 1;</code>
        */
       public io.dstore.values.IntegerValue.Builder getPersonIdBuilder() {
         
@@ -882,7 +882,7 @@ public final class PmModifyBinariesForPersonsAd {
         return getPersonIdFieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .dstore.values.IntegerValue person_id = 1;</code>
+       * <code>.dstore.values.IntegerValue person_id = 1;</code>
        */
       public io.dstore.values.IntegerValueOrBuilder getPersonIdOrBuilder() {
         if (personIdBuilder_ != null) {
@@ -893,7 +893,7 @@ public final class PmModifyBinariesForPersonsAd {
         }
       }
       /**
-       * <code>optional .dstore.values.IntegerValue person_id = 1;</code>
+       * <code>.dstore.values.IntegerValue person_id = 1;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> 
@@ -911,13 +911,13 @@ public final class PmModifyBinariesForPersonsAd {
 
       private boolean personIdNull_ ;
       /**
-       * <code>optional bool person_id_null = 1001;</code>
+       * <code>bool person_id_null = 1001;</code>
        */
       public boolean getPersonIdNull() {
         return personIdNull_;
       }
       /**
-       * <code>optional bool person_id_null = 1001;</code>
+       * <code>bool person_id_null = 1001;</code>
        */
       public Builder setPersonIdNull(boolean value) {
         
@@ -926,7 +926,7 @@ public final class PmModifyBinariesForPersonsAd {
         return this;
       }
       /**
-       * <code>optional bool person_id_null = 1001;</code>
+       * <code>bool person_id_null = 1001;</code>
        */
       public Builder clearPersonIdNull() {
         
@@ -939,13 +939,13 @@ public final class PmModifyBinariesForPersonsAd {
       private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> binaryCodeIdBuilder_;
       /**
-       * <code>optional .dstore.values.IntegerValue binary_code_id = 2;</code>
+       * <code>.dstore.values.IntegerValue binary_code_id = 2;</code>
        */
       public boolean hasBinaryCodeId() {
         return binaryCodeIdBuilder_ != null || binaryCodeId_ != null;
       }
       /**
-       * <code>optional .dstore.values.IntegerValue binary_code_id = 2;</code>
+       * <code>.dstore.values.IntegerValue binary_code_id = 2;</code>
        */
       public io.dstore.values.IntegerValue getBinaryCodeId() {
         if (binaryCodeIdBuilder_ == null) {
@@ -955,7 +955,7 @@ public final class PmModifyBinariesForPersonsAd {
         }
       }
       /**
-       * <code>optional .dstore.values.IntegerValue binary_code_id = 2;</code>
+       * <code>.dstore.values.IntegerValue binary_code_id = 2;</code>
        */
       public Builder setBinaryCodeId(io.dstore.values.IntegerValue value) {
         if (binaryCodeIdBuilder_ == null) {
@@ -971,7 +971,7 @@ public final class PmModifyBinariesForPersonsAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.IntegerValue binary_code_id = 2;</code>
+       * <code>.dstore.values.IntegerValue binary_code_id = 2;</code>
        */
       public Builder setBinaryCodeId(
           io.dstore.values.IntegerValue.Builder builderForValue) {
@@ -985,7 +985,7 @@ public final class PmModifyBinariesForPersonsAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.IntegerValue binary_code_id = 2;</code>
+       * <code>.dstore.values.IntegerValue binary_code_id = 2;</code>
        */
       public Builder mergeBinaryCodeId(io.dstore.values.IntegerValue value) {
         if (binaryCodeIdBuilder_ == null) {
@@ -1003,7 +1003,7 @@ public final class PmModifyBinariesForPersonsAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.IntegerValue binary_code_id = 2;</code>
+       * <code>.dstore.values.IntegerValue binary_code_id = 2;</code>
        */
       public Builder clearBinaryCodeId() {
         if (binaryCodeIdBuilder_ == null) {
@@ -1017,7 +1017,7 @@ public final class PmModifyBinariesForPersonsAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.IntegerValue binary_code_id = 2;</code>
+       * <code>.dstore.values.IntegerValue binary_code_id = 2;</code>
        */
       public io.dstore.values.IntegerValue.Builder getBinaryCodeIdBuilder() {
         
@@ -1025,7 +1025,7 @@ public final class PmModifyBinariesForPersonsAd {
         return getBinaryCodeIdFieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .dstore.values.IntegerValue binary_code_id = 2;</code>
+       * <code>.dstore.values.IntegerValue binary_code_id = 2;</code>
        */
       public io.dstore.values.IntegerValueOrBuilder getBinaryCodeIdOrBuilder() {
         if (binaryCodeIdBuilder_ != null) {
@@ -1036,7 +1036,7 @@ public final class PmModifyBinariesForPersonsAd {
         }
       }
       /**
-       * <code>optional .dstore.values.IntegerValue binary_code_id = 2;</code>
+       * <code>.dstore.values.IntegerValue binary_code_id = 2;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> 
@@ -1054,13 +1054,13 @@ public final class PmModifyBinariesForPersonsAd {
 
       private boolean binaryCodeIdNull_ ;
       /**
-       * <code>optional bool binary_code_id_null = 1002;</code>
+       * <code>bool binary_code_id_null = 1002;</code>
        */
       public boolean getBinaryCodeIdNull() {
         return binaryCodeIdNull_;
       }
       /**
-       * <code>optional bool binary_code_id_null = 1002;</code>
+       * <code>bool binary_code_id_null = 1002;</code>
        */
       public Builder setBinaryCodeIdNull(boolean value) {
         
@@ -1069,7 +1069,7 @@ public final class PmModifyBinariesForPersonsAd {
         return this;
       }
       /**
-       * <code>optional bool binary_code_id_null = 1002;</code>
+       * <code>bool binary_code_id_null = 1002;</code>
        */
       public Builder clearBinaryCodeIdNull() {
         
@@ -1082,13 +1082,13 @@ public final class PmModifyBinariesForPersonsAd {
       private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.values.BooleanValue, io.dstore.values.BooleanValue.Builder, io.dstore.values.BooleanValueOrBuilder> deleteBuilder_;
       /**
-       * <code>optional .dstore.values.BooleanValue delete = 3;</code>
+       * <code>.dstore.values.BooleanValue delete = 3;</code>
        */
       public boolean hasDelete() {
         return deleteBuilder_ != null || delete_ != null;
       }
       /**
-       * <code>optional .dstore.values.BooleanValue delete = 3;</code>
+       * <code>.dstore.values.BooleanValue delete = 3;</code>
        */
       public io.dstore.values.BooleanValue getDelete() {
         if (deleteBuilder_ == null) {
@@ -1098,7 +1098,7 @@ public final class PmModifyBinariesForPersonsAd {
         }
       }
       /**
-       * <code>optional .dstore.values.BooleanValue delete = 3;</code>
+       * <code>.dstore.values.BooleanValue delete = 3;</code>
        */
       public Builder setDelete(io.dstore.values.BooleanValue value) {
         if (deleteBuilder_ == null) {
@@ -1114,7 +1114,7 @@ public final class PmModifyBinariesForPersonsAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.BooleanValue delete = 3;</code>
+       * <code>.dstore.values.BooleanValue delete = 3;</code>
        */
       public Builder setDelete(
           io.dstore.values.BooleanValue.Builder builderForValue) {
@@ -1128,7 +1128,7 @@ public final class PmModifyBinariesForPersonsAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.BooleanValue delete = 3;</code>
+       * <code>.dstore.values.BooleanValue delete = 3;</code>
        */
       public Builder mergeDelete(io.dstore.values.BooleanValue value) {
         if (deleteBuilder_ == null) {
@@ -1146,7 +1146,7 @@ public final class PmModifyBinariesForPersonsAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.BooleanValue delete = 3;</code>
+       * <code>.dstore.values.BooleanValue delete = 3;</code>
        */
       public Builder clearDelete() {
         if (deleteBuilder_ == null) {
@@ -1160,7 +1160,7 @@ public final class PmModifyBinariesForPersonsAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.BooleanValue delete = 3;</code>
+       * <code>.dstore.values.BooleanValue delete = 3;</code>
        */
       public io.dstore.values.BooleanValue.Builder getDeleteBuilder() {
         
@@ -1168,7 +1168,7 @@ public final class PmModifyBinariesForPersonsAd {
         return getDeleteFieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .dstore.values.BooleanValue delete = 3;</code>
+       * <code>.dstore.values.BooleanValue delete = 3;</code>
        */
       public io.dstore.values.BooleanValueOrBuilder getDeleteOrBuilder() {
         if (deleteBuilder_ != null) {
@@ -1179,7 +1179,7 @@ public final class PmModifyBinariesForPersonsAd {
         }
       }
       /**
-       * <code>optional .dstore.values.BooleanValue delete = 3;</code>
+       * <code>.dstore.values.BooleanValue delete = 3;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.values.BooleanValue, io.dstore.values.BooleanValue.Builder, io.dstore.values.BooleanValueOrBuilder> 
@@ -1197,13 +1197,13 @@ public final class PmModifyBinariesForPersonsAd {
 
       private boolean deleteNull_ ;
       /**
-       * <code>optional bool delete_null = 1003;</code>
+       * <code>bool delete_null = 1003;</code>
        */
       public boolean getDeleteNull() {
         return deleteNull_;
       }
       /**
-       * <code>optional bool delete_null = 1003;</code>
+       * <code>bool delete_null = 1003;</code>
        */
       public Builder setDeleteNull(boolean value) {
         
@@ -1212,7 +1212,7 @@ public final class PmModifyBinariesForPersonsAd {
         return this;
       }
       /**
-       * <code>optional bool delete_null = 1003;</code>
+       * <code>bool delete_null = 1003;</code>
        */
       public Builder clearDeleteNull() {
         
@@ -1225,13 +1225,13 @@ public final class PmModifyBinariesForPersonsAd {
       private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.values.StringValue, io.dstore.values.StringValue.Builder, io.dstore.values.StringValueOrBuilder> binaryDescriptionBuilder_;
       /**
-       * <code>optional .dstore.values.StringValue binary_description = 4;</code>
+       * <code>.dstore.values.StringValue binary_description = 4;</code>
        */
       public boolean hasBinaryDescription() {
         return binaryDescriptionBuilder_ != null || binaryDescription_ != null;
       }
       /**
-       * <code>optional .dstore.values.StringValue binary_description = 4;</code>
+       * <code>.dstore.values.StringValue binary_description = 4;</code>
        */
       public io.dstore.values.StringValue getBinaryDescription() {
         if (binaryDescriptionBuilder_ == null) {
@@ -1241,7 +1241,7 @@ public final class PmModifyBinariesForPersonsAd {
         }
       }
       /**
-       * <code>optional .dstore.values.StringValue binary_description = 4;</code>
+       * <code>.dstore.values.StringValue binary_description = 4;</code>
        */
       public Builder setBinaryDescription(io.dstore.values.StringValue value) {
         if (binaryDescriptionBuilder_ == null) {
@@ -1257,7 +1257,7 @@ public final class PmModifyBinariesForPersonsAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.StringValue binary_description = 4;</code>
+       * <code>.dstore.values.StringValue binary_description = 4;</code>
        */
       public Builder setBinaryDescription(
           io.dstore.values.StringValue.Builder builderForValue) {
@@ -1271,7 +1271,7 @@ public final class PmModifyBinariesForPersonsAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.StringValue binary_description = 4;</code>
+       * <code>.dstore.values.StringValue binary_description = 4;</code>
        */
       public Builder mergeBinaryDescription(io.dstore.values.StringValue value) {
         if (binaryDescriptionBuilder_ == null) {
@@ -1289,7 +1289,7 @@ public final class PmModifyBinariesForPersonsAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.StringValue binary_description = 4;</code>
+       * <code>.dstore.values.StringValue binary_description = 4;</code>
        */
       public Builder clearBinaryDescription() {
         if (binaryDescriptionBuilder_ == null) {
@@ -1303,7 +1303,7 @@ public final class PmModifyBinariesForPersonsAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.StringValue binary_description = 4;</code>
+       * <code>.dstore.values.StringValue binary_description = 4;</code>
        */
       public io.dstore.values.StringValue.Builder getBinaryDescriptionBuilder() {
         
@@ -1311,7 +1311,7 @@ public final class PmModifyBinariesForPersonsAd {
         return getBinaryDescriptionFieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .dstore.values.StringValue binary_description = 4;</code>
+       * <code>.dstore.values.StringValue binary_description = 4;</code>
        */
       public io.dstore.values.StringValueOrBuilder getBinaryDescriptionOrBuilder() {
         if (binaryDescriptionBuilder_ != null) {
@@ -1322,7 +1322,7 @@ public final class PmModifyBinariesForPersonsAd {
         }
       }
       /**
-       * <code>optional .dstore.values.StringValue binary_description = 4;</code>
+       * <code>.dstore.values.StringValue binary_description = 4;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.values.StringValue, io.dstore.values.StringValue.Builder, io.dstore.values.StringValueOrBuilder> 
@@ -1340,13 +1340,13 @@ public final class PmModifyBinariesForPersonsAd {
 
       private boolean binaryDescriptionNull_ ;
       /**
-       * <code>optional bool binary_description_null = 1004;</code>
+       * <code>bool binary_description_null = 1004;</code>
        */
       public boolean getBinaryDescriptionNull() {
         return binaryDescriptionNull_;
       }
       /**
-       * <code>optional bool binary_description_null = 1004;</code>
+       * <code>bool binary_description_null = 1004;</code>
        */
       public Builder setBinaryDescriptionNull(boolean value) {
         
@@ -1355,7 +1355,7 @@ public final class PmModifyBinariesForPersonsAd {
         return this;
       }
       /**
-       * <code>optional bool binary_description_null = 1004;</code>
+       * <code>bool binary_description_null = 1004;</code>
        */
       public Builder clearBinaryDescriptionNull() {
         
@@ -1614,7 +1614,7 @@ public final class PmModifyBinariesForPersonsAd {
         com.google.protobuf.MessageOrBuilder {
 
       /**
-       * <code>optional int32 row_id = 10000;</code>
+       * <code>int32 row_id = 10000;</code>
        */
       int getRowId();
     }
@@ -1689,7 +1689,7 @@ public final class PmModifyBinariesForPersonsAd {
       public static final int ROW_ID_FIELD_NUMBER = 10000;
       private int rowId_;
       /**
-       * <code>optional int32 row_id = 10000;</code>
+       * <code>int32 row_id = 10000;</code>
        */
       public int getRowId() {
         return rowId_;
@@ -1748,7 +1748,7 @@ public final class PmModifyBinariesForPersonsAd {
           return memoizedHashCode;
         }
         int hash = 41;
-        hash = (19 * hash) + getDescriptorForType().hashCode();
+        hash = (19 * hash) + getDescriptor().hashCode();
         hash = (37 * hash) + ROW_ID_FIELD_NUMBER;
         hash = (53 * hash) + getRowId();
         hash = (29 * hash) + unknownFields.hashCode();
@@ -1966,13 +1966,13 @@ public final class PmModifyBinariesForPersonsAd {
 
         private int rowId_ ;
         /**
-         * <code>optional int32 row_id = 10000;</code>
+         * <code>int32 row_id = 10000;</code>
          */
         public int getRowId() {
           return rowId_;
         }
         /**
-         * <code>optional int32 row_id = 10000;</code>
+         * <code>int32 row_id = 10000;</code>
          */
         public Builder setRowId(int value) {
           
@@ -1981,7 +1981,7 @@ public final class PmModifyBinariesForPersonsAd {
           return this;
         }
         /**
-         * <code>optional int32 row_id = 10000;</code>
+         * <code>int32 row_id = 10000;</code>
          */
         public Builder clearRowId() {
           
@@ -2234,7 +2234,7 @@ public final class PmModifyBinariesForPersonsAd {
         return memoizedHashCode;
       }
       int hash = 41;
-      hash = (19 * hash) + getDescriptorForType().hashCode();
+      hash = (19 * hash) + getDescriptor().hashCode();
       if (getMetaInformationCount() > 0) {
         hash = (37 * hash) + META_INFORMATION_FIELD_NUMBER;
         hash = (53 * hash) + getMetaInformationList().hashCode();

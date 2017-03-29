@@ -19,56 +19,56 @@ public final class ImGetLevelsAd {
       com.google.protobuf.MessageOrBuilder {
 
     /**
-     * <code>optional .dstore.values.IntegerValue level = 1;</code>
+     * <code>.dstore.values.IntegerValue level = 1;</code>
      */
     boolean hasLevel();
     /**
-     * <code>optional .dstore.values.IntegerValue level = 1;</code>
+     * <code>.dstore.values.IntegerValue level = 1;</code>
      */
     io.dstore.values.IntegerValue getLevel();
     /**
-     * <code>optional .dstore.values.IntegerValue level = 1;</code>
+     * <code>.dstore.values.IntegerValue level = 1;</code>
      */
     io.dstore.values.IntegerValueOrBuilder getLevelOrBuilder();
 
     /**
-     * <code>optional bool level_null = 1001;</code>
+     * <code>bool level_null = 1001;</code>
      */
     boolean getLevelNull();
 
     /**
-     * <code>optional .dstore.values.BooleanValue is_id = 2;</code>
+     * <code>.dstore.values.BooleanValue is_id = 2;</code>
      */
     boolean hasIsId();
     /**
-     * <code>optional .dstore.values.BooleanValue is_id = 2;</code>
+     * <code>.dstore.values.BooleanValue is_id = 2;</code>
      */
     io.dstore.values.BooleanValue getIsId();
     /**
-     * <code>optional .dstore.values.BooleanValue is_id = 2;</code>
+     * <code>.dstore.values.BooleanValue is_id = 2;</code>
      */
     io.dstore.values.BooleanValueOrBuilder getIsIdOrBuilder();
 
     /**
-     * <code>optional bool is_id_null = 1002;</code>
+     * <code>bool is_id_null = 1002;</code>
      */
     boolean getIsIdNull();
 
     /**
-     * <code>optional .dstore.values.BooleanValue order_by_level_no = 3;</code>
+     * <code>.dstore.values.BooleanValue order_by_level_no = 3;</code>
      */
     boolean hasOrderByLevelNo();
     /**
-     * <code>optional .dstore.values.BooleanValue order_by_level_no = 3;</code>
+     * <code>.dstore.values.BooleanValue order_by_level_no = 3;</code>
      */
     io.dstore.values.BooleanValue getOrderByLevelNo();
     /**
-     * <code>optional .dstore.values.BooleanValue order_by_level_no = 3;</code>
+     * <code>.dstore.values.BooleanValue order_by_level_no = 3;</code>
      */
     io.dstore.values.BooleanValueOrBuilder getOrderByLevelNoOrBuilder();
 
     /**
-     * <code>optional bool order_by_level_no_null = 1003;</code>
+     * <code>bool order_by_level_no_null = 1003;</code>
      */
     boolean getOrderByLevelNoNull();
   }
@@ -194,19 +194,19 @@ public final class ImGetLevelsAd {
     public static final int LEVEL_FIELD_NUMBER = 1;
     private io.dstore.values.IntegerValue level_;
     /**
-     * <code>optional .dstore.values.IntegerValue level = 1;</code>
+     * <code>.dstore.values.IntegerValue level = 1;</code>
      */
     public boolean hasLevel() {
       return level_ != null;
     }
     /**
-     * <code>optional .dstore.values.IntegerValue level = 1;</code>
+     * <code>.dstore.values.IntegerValue level = 1;</code>
      */
     public io.dstore.values.IntegerValue getLevel() {
       return level_ == null ? io.dstore.values.IntegerValue.getDefaultInstance() : level_;
     }
     /**
-     * <code>optional .dstore.values.IntegerValue level = 1;</code>
+     * <code>.dstore.values.IntegerValue level = 1;</code>
      */
     public io.dstore.values.IntegerValueOrBuilder getLevelOrBuilder() {
       return getLevel();
@@ -215,7 +215,7 @@ public final class ImGetLevelsAd {
     public static final int LEVEL_NULL_FIELD_NUMBER = 1001;
     private boolean levelNull_;
     /**
-     * <code>optional bool level_null = 1001;</code>
+     * <code>bool level_null = 1001;</code>
      */
     public boolean getLevelNull() {
       return levelNull_;
@@ -224,19 +224,19 @@ public final class ImGetLevelsAd {
     public static final int IS_ID_FIELD_NUMBER = 2;
     private io.dstore.values.BooleanValue isId_;
     /**
-     * <code>optional .dstore.values.BooleanValue is_id = 2;</code>
+     * <code>.dstore.values.BooleanValue is_id = 2;</code>
      */
     public boolean hasIsId() {
       return isId_ != null;
     }
     /**
-     * <code>optional .dstore.values.BooleanValue is_id = 2;</code>
+     * <code>.dstore.values.BooleanValue is_id = 2;</code>
      */
     public io.dstore.values.BooleanValue getIsId() {
       return isId_ == null ? io.dstore.values.BooleanValue.getDefaultInstance() : isId_;
     }
     /**
-     * <code>optional .dstore.values.BooleanValue is_id = 2;</code>
+     * <code>.dstore.values.BooleanValue is_id = 2;</code>
      */
     public io.dstore.values.BooleanValueOrBuilder getIsIdOrBuilder() {
       return getIsId();
@@ -245,7 +245,7 @@ public final class ImGetLevelsAd {
     public static final int IS_ID_NULL_FIELD_NUMBER = 1002;
     private boolean isIdNull_;
     /**
-     * <code>optional bool is_id_null = 1002;</code>
+     * <code>bool is_id_null = 1002;</code>
      */
     public boolean getIsIdNull() {
       return isIdNull_;
@@ -254,19 +254,19 @@ public final class ImGetLevelsAd {
     public static final int ORDER_BY_LEVEL_NO_FIELD_NUMBER = 3;
     private io.dstore.values.BooleanValue orderByLevelNo_;
     /**
-     * <code>optional .dstore.values.BooleanValue order_by_level_no = 3;</code>
+     * <code>.dstore.values.BooleanValue order_by_level_no = 3;</code>
      */
     public boolean hasOrderByLevelNo() {
       return orderByLevelNo_ != null;
     }
     /**
-     * <code>optional .dstore.values.BooleanValue order_by_level_no = 3;</code>
+     * <code>.dstore.values.BooleanValue order_by_level_no = 3;</code>
      */
     public io.dstore.values.BooleanValue getOrderByLevelNo() {
       return orderByLevelNo_ == null ? io.dstore.values.BooleanValue.getDefaultInstance() : orderByLevelNo_;
     }
     /**
-     * <code>optional .dstore.values.BooleanValue order_by_level_no = 3;</code>
+     * <code>.dstore.values.BooleanValue order_by_level_no = 3;</code>
      */
     public io.dstore.values.BooleanValueOrBuilder getOrderByLevelNoOrBuilder() {
       return getOrderByLevelNo();
@@ -275,7 +275,7 @@ public final class ImGetLevelsAd {
     public static final int ORDER_BY_LEVEL_NO_NULL_FIELD_NUMBER = 1003;
     private boolean orderByLevelNoNull_;
     /**
-     * <code>optional bool order_by_level_no_null = 1003;</code>
+     * <code>bool order_by_level_no_null = 1003;</code>
      */
     public boolean getOrderByLevelNoNull() {
       return orderByLevelNoNull_;
@@ -388,7 +388,7 @@ public final class ImGetLevelsAd {
         return memoizedHashCode;
       }
       int hash = 41;
-      hash = (19 * hash) + getDescriptorForType().hashCode();
+      hash = (19 * hash) + getDescriptor().hashCode();
       if (hasLevel()) {
         hash = (37 * hash) + LEVEL_FIELD_NUMBER;
         hash = (53 * hash) + getLevel().hashCode();
@@ -681,13 +681,13 @@ public final class ImGetLevelsAd {
       private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> levelBuilder_;
       /**
-       * <code>optional .dstore.values.IntegerValue level = 1;</code>
+       * <code>.dstore.values.IntegerValue level = 1;</code>
        */
       public boolean hasLevel() {
         return levelBuilder_ != null || level_ != null;
       }
       /**
-       * <code>optional .dstore.values.IntegerValue level = 1;</code>
+       * <code>.dstore.values.IntegerValue level = 1;</code>
        */
       public io.dstore.values.IntegerValue getLevel() {
         if (levelBuilder_ == null) {
@@ -697,7 +697,7 @@ public final class ImGetLevelsAd {
         }
       }
       /**
-       * <code>optional .dstore.values.IntegerValue level = 1;</code>
+       * <code>.dstore.values.IntegerValue level = 1;</code>
        */
       public Builder setLevel(io.dstore.values.IntegerValue value) {
         if (levelBuilder_ == null) {
@@ -713,7 +713,7 @@ public final class ImGetLevelsAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.IntegerValue level = 1;</code>
+       * <code>.dstore.values.IntegerValue level = 1;</code>
        */
       public Builder setLevel(
           io.dstore.values.IntegerValue.Builder builderForValue) {
@@ -727,7 +727,7 @@ public final class ImGetLevelsAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.IntegerValue level = 1;</code>
+       * <code>.dstore.values.IntegerValue level = 1;</code>
        */
       public Builder mergeLevel(io.dstore.values.IntegerValue value) {
         if (levelBuilder_ == null) {
@@ -745,7 +745,7 @@ public final class ImGetLevelsAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.IntegerValue level = 1;</code>
+       * <code>.dstore.values.IntegerValue level = 1;</code>
        */
       public Builder clearLevel() {
         if (levelBuilder_ == null) {
@@ -759,7 +759,7 @@ public final class ImGetLevelsAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.IntegerValue level = 1;</code>
+       * <code>.dstore.values.IntegerValue level = 1;</code>
        */
       public io.dstore.values.IntegerValue.Builder getLevelBuilder() {
         
@@ -767,7 +767,7 @@ public final class ImGetLevelsAd {
         return getLevelFieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .dstore.values.IntegerValue level = 1;</code>
+       * <code>.dstore.values.IntegerValue level = 1;</code>
        */
       public io.dstore.values.IntegerValueOrBuilder getLevelOrBuilder() {
         if (levelBuilder_ != null) {
@@ -778,7 +778,7 @@ public final class ImGetLevelsAd {
         }
       }
       /**
-       * <code>optional .dstore.values.IntegerValue level = 1;</code>
+       * <code>.dstore.values.IntegerValue level = 1;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> 
@@ -796,13 +796,13 @@ public final class ImGetLevelsAd {
 
       private boolean levelNull_ ;
       /**
-       * <code>optional bool level_null = 1001;</code>
+       * <code>bool level_null = 1001;</code>
        */
       public boolean getLevelNull() {
         return levelNull_;
       }
       /**
-       * <code>optional bool level_null = 1001;</code>
+       * <code>bool level_null = 1001;</code>
        */
       public Builder setLevelNull(boolean value) {
         
@@ -811,7 +811,7 @@ public final class ImGetLevelsAd {
         return this;
       }
       /**
-       * <code>optional bool level_null = 1001;</code>
+       * <code>bool level_null = 1001;</code>
        */
       public Builder clearLevelNull() {
         
@@ -824,13 +824,13 @@ public final class ImGetLevelsAd {
       private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.values.BooleanValue, io.dstore.values.BooleanValue.Builder, io.dstore.values.BooleanValueOrBuilder> isIdBuilder_;
       /**
-       * <code>optional .dstore.values.BooleanValue is_id = 2;</code>
+       * <code>.dstore.values.BooleanValue is_id = 2;</code>
        */
       public boolean hasIsId() {
         return isIdBuilder_ != null || isId_ != null;
       }
       /**
-       * <code>optional .dstore.values.BooleanValue is_id = 2;</code>
+       * <code>.dstore.values.BooleanValue is_id = 2;</code>
        */
       public io.dstore.values.BooleanValue getIsId() {
         if (isIdBuilder_ == null) {
@@ -840,7 +840,7 @@ public final class ImGetLevelsAd {
         }
       }
       /**
-       * <code>optional .dstore.values.BooleanValue is_id = 2;</code>
+       * <code>.dstore.values.BooleanValue is_id = 2;</code>
        */
       public Builder setIsId(io.dstore.values.BooleanValue value) {
         if (isIdBuilder_ == null) {
@@ -856,7 +856,7 @@ public final class ImGetLevelsAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.BooleanValue is_id = 2;</code>
+       * <code>.dstore.values.BooleanValue is_id = 2;</code>
        */
       public Builder setIsId(
           io.dstore.values.BooleanValue.Builder builderForValue) {
@@ -870,7 +870,7 @@ public final class ImGetLevelsAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.BooleanValue is_id = 2;</code>
+       * <code>.dstore.values.BooleanValue is_id = 2;</code>
        */
       public Builder mergeIsId(io.dstore.values.BooleanValue value) {
         if (isIdBuilder_ == null) {
@@ -888,7 +888,7 @@ public final class ImGetLevelsAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.BooleanValue is_id = 2;</code>
+       * <code>.dstore.values.BooleanValue is_id = 2;</code>
        */
       public Builder clearIsId() {
         if (isIdBuilder_ == null) {
@@ -902,7 +902,7 @@ public final class ImGetLevelsAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.BooleanValue is_id = 2;</code>
+       * <code>.dstore.values.BooleanValue is_id = 2;</code>
        */
       public io.dstore.values.BooleanValue.Builder getIsIdBuilder() {
         
@@ -910,7 +910,7 @@ public final class ImGetLevelsAd {
         return getIsIdFieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .dstore.values.BooleanValue is_id = 2;</code>
+       * <code>.dstore.values.BooleanValue is_id = 2;</code>
        */
       public io.dstore.values.BooleanValueOrBuilder getIsIdOrBuilder() {
         if (isIdBuilder_ != null) {
@@ -921,7 +921,7 @@ public final class ImGetLevelsAd {
         }
       }
       /**
-       * <code>optional .dstore.values.BooleanValue is_id = 2;</code>
+       * <code>.dstore.values.BooleanValue is_id = 2;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.values.BooleanValue, io.dstore.values.BooleanValue.Builder, io.dstore.values.BooleanValueOrBuilder> 
@@ -939,13 +939,13 @@ public final class ImGetLevelsAd {
 
       private boolean isIdNull_ ;
       /**
-       * <code>optional bool is_id_null = 1002;</code>
+       * <code>bool is_id_null = 1002;</code>
        */
       public boolean getIsIdNull() {
         return isIdNull_;
       }
       /**
-       * <code>optional bool is_id_null = 1002;</code>
+       * <code>bool is_id_null = 1002;</code>
        */
       public Builder setIsIdNull(boolean value) {
         
@@ -954,7 +954,7 @@ public final class ImGetLevelsAd {
         return this;
       }
       /**
-       * <code>optional bool is_id_null = 1002;</code>
+       * <code>bool is_id_null = 1002;</code>
        */
       public Builder clearIsIdNull() {
         
@@ -967,13 +967,13 @@ public final class ImGetLevelsAd {
       private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.values.BooleanValue, io.dstore.values.BooleanValue.Builder, io.dstore.values.BooleanValueOrBuilder> orderByLevelNoBuilder_;
       /**
-       * <code>optional .dstore.values.BooleanValue order_by_level_no = 3;</code>
+       * <code>.dstore.values.BooleanValue order_by_level_no = 3;</code>
        */
       public boolean hasOrderByLevelNo() {
         return orderByLevelNoBuilder_ != null || orderByLevelNo_ != null;
       }
       /**
-       * <code>optional .dstore.values.BooleanValue order_by_level_no = 3;</code>
+       * <code>.dstore.values.BooleanValue order_by_level_no = 3;</code>
        */
       public io.dstore.values.BooleanValue getOrderByLevelNo() {
         if (orderByLevelNoBuilder_ == null) {
@@ -983,7 +983,7 @@ public final class ImGetLevelsAd {
         }
       }
       /**
-       * <code>optional .dstore.values.BooleanValue order_by_level_no = 3;</code>
+       * <code>.dstore.values.BooleanValue order_by_level_no = 3;</code>
        */
       public Builder setOrderByLevelNo(io.dstore.values.BooleanValue value) {
         if (orderByLevelNoBuilder_ == null) {
@@ -999,7 +999,7 @@ public final class ImGetLevelsAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.BooleanValue order_by_level_no = 3;</code>
+       * <code>.dstore.values.BooleanValue order_by_level_no = 3;</code>
        */
       public Builder setOrderByLevelNo(
           io.dstore.values.BooleanValue.Builder builderForValue) {
@@ -1013,7 +1013,7 @@ public final class ImGetLevelsAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.BooleanValue order_by_level_no = 3;</code>
+       * <code>.dstore.values.BooleanValue order_by_level_no = 3;</code>
        */
       public Builder mergeOrderByLevelNo(io.dstore.values.BooleanValue value) {
         if (orderByLevelNoBuilder_ == null) {
@@ -1031,7 +1031,7 @@ public final class ImGetLevelsAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.BooleanValue order_by_level_no = 3;</code>
+       * <code>.dstore.values.BooleanValue order_by_level_no = 3;</code>
        */
       public Builder clearOrderByLevelNo() {
         if (orderByLevelNoBuilder_ == null) {
@@ -1045,7 +1045,7 @@ public final class ImGetLevelsAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.BooleanValue order_by_level_no = 3;</code>
+       * <code>.dstore.values.BooleanValue order_by_level_no = 3;</code>
        */
       public io.dstore.values.BooleanValue.Builder getOrderByLevelNoBuilder() {
         
@@ -1053,7 +1053,7 @@ public final class ImGetLevelsAd {
         return getOrderByLevelNoFieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .dstore.values.BooleanValue order_by_level_no = 3;</code>
+       * <code>.dstore.values.BooleanValue order_by_level_no = 3;</code>
        */
       public io.dstore.values.BooleanValueOrBuilder getOrderByLevelNoOrBuilder() {
         if (orderByLevelNoBuilder_ != null) {
@@ -1064,7 +1064,7 @@ public final class ImGetLevelsAd {
         }
       }
       /**
-       * <code>optional .dstore.values.BooleanValue order_by_level_no = 3;</code>
+       * <code>.dstore.values.BooleanValue order_by_level_no = 3;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.values.BooleanValue, io.dstore.values.BooleanValue.Builder, io.dstore.values.BooleanValueOrBuilder> 
@@ -1082,13 +1082,13 @@ public final class ImGetLevelsAd {
 
       private boolean orderByLevelNoNull_ ;
       /**
-       * <code>optional bool order_by_level_no_null = 1003;</code>
+       * <code>bool order_by_level_no_null = 1003;</code>
        */
       public boolean getOrderByLevelNoNull() {
         return orderByLevelNoNull_;
       }
       /**
-       * <code>optional bool order_by_level_no_null = 1003;</code>
+       * <code>bool order_by_level_no_null = 1003;</code>
        */
       public Builder setOrderByLevelNoNull(boolean value) {
         
@@ -1097,7 +1097,7 @@ public final class ImGetLevelsAd {
         return this;
       }
       /**
-       * <code>optional bool order_by_level_no_null = 1003;</code>
+       * <code>bool order_by_level_no_null = 1003;</code>
        */
       public Builder clearOrderByLevelNoNull() {
         
@@ -1356,7 +1356,7 @@ public final class ImGetLevelsAd {
         com.google.protobuf.MessageOrBuilder {
 
       /**
-       * <code>optional int32 row_id = 10000;</code>
+       * <code>int32 row_id = 10000;</code>
        */
       int getRowId();
 
@@ -1365,7 +1365,7 @@ public final class ImGetLevelsAd {
        * Nummer einer Hierarchie. Eine höhere Nummer bedeutet eine niedrigere Hierarchie. Das "Root"-Element hat die Nummer "1". Im Artikelbaum muß die Hierarchie-Nummer eines Nachfolger-Elementes immer höher als die seines Vorgängers sein.
        * </pre>
        *
-       * <code>optional .dstore.values.IntegerValue level_no = 10001;</code>
+       * <code>.dstore.values.IntegerValue level_no = 10001;</code>
        */
       boolean hasLevelNo();
       /**
@@ -1373,7 +1373,7 @@ public final class ImGetLevelsAd {
        * Nummer einer Hierarchie. Eine höhere Nummer bedeutet eine niedrigere Hierarchie. Das "Root"-Element hat die Nummer "1". Im Artikelbaum muß die Hierarchie-Nummer eines Nachfolger-Elementes immer höher als die seines Vorgängers sein.
        * </pre>
        *
-       * <code>optional .dstore.values.IntegerValue level_no = 10001;</code>
+       * <code>.dstore.values.IntegerValue level_no = 10001;</code>
        */
       io.dstore.values.IntegerValue getLevelNo();
       /**
@@ -1381,7 +1381,7 @@ public final class ImGetLevelsAd {
        * Nummer einer Hierarchie. Eine höhere Nummer bedeutet eine niedrigere Hierarchie. Das "Root"-Element hat die Nummer "1". Im Artikelbaum muß die Hierarchie-Nummer eines Nachfolger-Elementes immer höher als die seines Vorgängers sein.
        * </pre>
        *
-       * <code>optional .dstore.values.IntegerValue level_no = 10001;</code>
+       * <code>.dstore.values.IntegerValue level_no = 10001;</code>
        */
       io.dstore.values.IntegerValueOrBuilder getLevelNoOrBuilder();
 
@@ -1390,7 +1390,7 @@ public final class ImGetLevelsAd {
        * Bezeichnung der Hierarchie
        * </pre>
        *
-       * <code>optional .dstore.values.StringValue level_description = 10002;</code>
+       * <code>.dstore.values.StringValue level_description = 10002;</code>
        */
       boolean hasLevelDescription();
       /**
@@ -1398,7 +1398,7 @@ public final class ImGetLevelsAd {
        * Bezeichnung der Hierarchie
        * </pre>
        *
-       * <code>optional .dstore.values.StringValue level_description = 10002;</code>
+       * <code>.dstore.values.StringValue level_description = 10002;</code>
        */
       io.dstore.values.StringValue getLevelDescription();
       /**
@@ -1406,7 +1406,7 @@ public final class ImGetLevelsAd {
        * Bezeichnung der Hierarchie
        * </pre>
        *
-       * <code>optional .dstore.values.StringValue level_description = 10002;</code>
+       * <code>.dstore.values.StringValue level_description = 10002;</code>
        */
       io.dstore.values.StringValueOrBuilder getLevelDescriptionOrBuilder();
 
@@ -1415,7 +1415,7 @@ public final class ImGetLevelsAd {
        * ID eines Templates, das Elemente auf dieser Hierarchie per default zugewiesen bekommen
        * </pre>
        *
-       * <code>optional .dstore.values.IntegerValue default_template_id = 10003;</code>
+       * <code>.dstore.values.IntegerValue default_template_id = 10003;</code>
        */
       boolean hasDefaultTemplateId();
       /**
@@ -1423,7 +1423,7 @@ public final class ImGetLevelsAd {
        * ID eines Templates, das Elemente auf dieser Hierarchie per default zugewiesen bekommen
        * </pre>
        *
-       * <code>optional .dstore.values.IntegerValue default_template_id = 10003;</code>
+       * <code>.dstore.values.IntegerValue default_template_id = 10003;</code>
        */
       io.dstore.values.IntegerValue getDefaultTemplateId();
       /**
@@ -1431,7 +1431,7 @@ public final class ImGetLevelsAd {
        * ID eines Templates, das Elemente auf dieser Hierarchie per default zugewiesen bekommen
        * </pre>
        *
-       * <code>optional .dstore.values.IntegerValue default_template_id = 10003;</code>
+       * <code>.dstore.values.IntegerValue default_template_id = 10003;</code>
        */
       io.dstore.values.IntegerValueOrBuilder getDefaultTemplateIdOrBuilder();
 
@@ -1440,7 +1440,7 @@ public final class ImGetLevelsAd {
        * ID eines Symbols, das Elemente auf dieser Hierarchie per default zugewiesen bekommen
        * </pre>
        *
-       * <code>optional .dstore.values.IntegerValue default_symbol_id = 10004;</code>
+       * <code>.dstore.values.IntegerValue default_symbol_id = 10004;</code>
        */
       boolean hasDefaultSymbolId();
       /**
@@ -1448,7 +1448,7 @@ public final class ImGetLevelsAd {
        * ID eines Symbols, das Elemente auf dieser Hierarchie per default zugewiesen bekommen
        * </pre>
        *
-       * <code>optional .dstore.values.IntegerValue default_symbol_id = 10004;</code>
+       * <code>.dstore.values.IntegerValue default_symbol_id = 10004;</code>
        */
       io.dstore.values.IntegerValue getDefaultSymbolId();
       /**
@@ -1456,7 +1456,7 @@ public final class ImGetLevelsAd {
        * ID eines Symbols, das Elemente auf dieser Hierarchie per default zugewiesen bekommen
        * </pre>
        *
-       * <code>optional .dstore.values.IntegerValue default_symbol_id = 10004;</code>
+       * <code>.dstore.values.IntegerValue default_symbol_id = 10004;</code>
        */
       io.dstore.values.IntegerValueOrBuilder getDefaultSymbolIdOrBuilder();
 
@@ -1465,7 +1465,7 @@ public final class ImGetLevelsAd {
        * ID einer Hierarchie
        * </pre>
        *
-       * <code>optional .dstore.values.IntegerValue level_id = 10005;</code>
+       * <code>.dstore.values.IntegerValue level_id = 10005;</code>
        */
       boolean hasLevelId();
       /**
@@ -1473,7 +1473,7 @@ public final class ImGetLevelsAd {
        * ID einer Hierarchie
        * </pre>
        *
-       * <code>optional .dstore.values.IntegerValue level_id = 10005;</code>
+       * <code>.dstore.values.IntegerValue level_id = 10005;</code>
        */
       io.dstore.values.IntegerValue getLevelId();
       /**
@@ -1481,7 +1481,7 @@ public final class ImGetLevelsAd {
        * ID einer Hierarchie
        * </pre>
        *
-       * <code>optional .dstore.values.IntegerValue level_id = 10005;</code>
+       * <code>.dstore.values.IntegerValue level_id = 10005;</code>
        */
       io.dstore.values.IntegerValueOrBuilder getLevelIdOrBuilder();
     }
@@ -1621,7 +1621,7 @@ public final class ImGetLevelsAd {
       public static final int ROW_ID_FIELD_NUMBER = 10000;
       private int rowId_;
       /**
-       * <code>optional int32 row_id = 10000;</code>
+       * <code>int32 row_id = 10000;</code>
        */
       public int getRowId() {
         return rowId_;
@@ -1634,7 +1634,7 @@ public final class ImGetLevelsAd {
        * Nummer einer Hierarchie. Eine höhere Nummer bedeutet eine niedrigere Hierarchie. Das "Root"-Element hat die Nummer "1". Im Artikelbaum muß die Hierarchie-Nummer eines Nachfolger-Elementes immer höher als die seines Vorgängers sein.
        * </pre>
        *
-       * <code>optional .dstore.values.IntegerValue level_no = 10001;</code>
+       * <code>.dstore.values.IntegerValue level_no = 10001;</code>
        */
       public boolean hasLevelNo() {
         return levelNo_ != null;
@@ -1644,7 +1644,7 @@ public final class ImGetLevelsAd {
        * Nummer einer Hierarchie. Eine höhere Nummer bedeutet eine niedrigere Hierarchie. Das "Root"-Element hat die Nummer "1". Im Artikelbaum muß die Hierarchie-Nummer eines Nachfolger-Elementes immer höher als die seines Vorgängers sein.
        * </pre>
        *
-       * <code>optional .dstore.values.IntegerValue level_no = 10001;</code>
+       * <code>.dstore.values.IntegerValue level_no = 10001;</code>
        */
       public io.dstore.values.IntegerValue getLevelNo() {
         return levelNo_ == null ? io.dstore.values.IntegerValue.getDefaultInstance() : levelNo_;
@@ -1654,7 +1654,7 @@ public final class ImGetLevelsAd {
        * Nummer einer Hierarchie. Eine höhere Nummer bedeutet eine niedrigere Hierarchie. Das "Root"-Element hat die Nummer "1". Im Artikelbaum muß die Hierarchie-Nummer eines Nachfolger-Elementes immer höher als die seines Vorgängers sein.
        * </pre>
        *
-       * <code>optional .dstore.values.IntegerValue level_no = 10001;</code>
+       * <code>.dstore.values.IntegerValue level_no = 10001;</code>
        */
       public io.dstore.values.IntegerValueOrBuilder getLevelNoOrBuilder() {
         return getLevelNo();
@@ -1667,7 +1667,7 @@ public final class ImGetLevelsAd {
        * Bezeichnung der Hierarchie
        * </pre>
        *
-       * <code>optional .dstore.values.StringValue level_description = 10002;</code>
+       * <code>.dstore.values.StringValue level_description = 10002;</code>
        */
       public boolean hasLevelDescription() {
         return levelDescription_ != null;
@@ -1677,7 +1677,7 @@ public final class ImGetLevelsAd {
        * Bezeichnung der Hierarchie
        * </pre>
        *
-       * <code>optional .dstore.values.StringValue level_description = 10002;</code>
+       * <code>.dstore.values.StringValue level_description = 10002;</code>
        */
       public io.dstore.values.StringValue getLevelDescription() {
         return levelDescription_ == null ? io.dstore.values.StringValue.getDefaultInstance() : levelDescription_;
@@ -1687,7 +1687,7 @@ public final class ImGetLevelsAd {
        * Bezeichnung der Hierarchie
        * </pre>
        *
-       * <code>optional .dstore.values.StringValue level_description = 10002;</code>
+       * <code>.dstore.values.StringValue level_description = 10002;</code>
        */
       public io.dstore.values.StringValueOrBuilder getLevelDescriptionOrBuilder() {
         return getLevelDescription();
@@ -1700,7 +1700,7 @@ public final class ImGetLevelsAd {
        * ID eines Templates, das Elemente auf dieser Hierarchie per default zugewiesen bekommen
        * </pre>
        *
-       * <code>optional .dstore.values.IntegerValue default_template_id = 10003;</code>
+       * <code>.dstore.values.IntegerValue default_template_id = 10003;</code>
        */
       public boolean hasDefaultTemplateId() {
         return defaultTemplateId_ != null;
@@ -1710,7 +1710,7 @@ public final class ImGetLevelsAd {
        * ID eines Templates, das Elemente auf dieser Hierarchie per default zugewiesen bekommen
        * </pre>
        *
-       * <code>optional .dstore.values.IntegerValue default_template_id = 10003;</code>
+       * <code>.dstore.values.IntegerValue default_template_id = 10003;</code>
        */
       public io.dstore.values.IntegerValue getDefaultTemplateId() {
         return defaultTemplateId_ == null ? io.dstore.values.IntegerValue.getDefaultInstance() : defaultTemplateId_;
@@ -1720,7 +1720,7 @@ public final class ImGetLevelsAd {
        * ID eines Templates, das Elemente auf dieser Hierarchie per default zugewiesen bekommen
        * </pre>
        *
-       * <code>optional .dstore.values.IntegerValue default_template_id = 10003;</code>
+       * <code>.dstore.values.IntegerValue default_template_id = 10003;</code>
        */
       public io.dstore.values.IntegerValueOrBuilder getDefaultTemplateIdOrBuilder() {
         return getDefaultTemplateId();
@@ -1733,7 +1733,7 @@ public final class ImGetLevelsAd {
        * ID eines Symbols, das Elemente auf dieser Hierarchie per default zugewiesen bekommen
        * </pre>
        *
-       * <code>optional .dstore.values.IntegerValue default_symbol_id = 10004;</code>
+       * <code>.dstore.values.IntegerValue default_symbol_id = 10004;</code>
        */
       public boolean hasDefaultSymbolId() {
         return defaultSymbolId_ != null;
@@ -1743,7 +1743,7 @@ public final class ImGetLevelsAd {
        * ID eines Symbols, das Elemente auf dieser Hierarchie per default zugewiesen bekommen
        * </pre>
        *
-       * <code>optional .dstore.values.IntegerValue default_symbol_id = 10004;</code>
+       * <code>.dstore.values.IntegerValue default_symbol_id = 10004;</code>
        */
       public io.dstore.values.IntegerValue getDefaultSymbolId() {
         return defaultSymbolId_ == null ? io.dstore.values.IntegerValue.getDefaultInstance() : defaultSymbolId_;
@@ -1753,7 +1753,7 @@ public final class ImGetLevelsAd {
        * ID eines Symbols, das Elemente auf dieser Hierarchie per default zugewiesen bekommen
        * </pre>
        *
-       * <code>optional .dstore.values.IntegerValue default_symbol_id = 10004;</code>
+       * <code>.dstore.values.IntegerValue default_symbol_id = 10004;</code>
        */
       public io.dstore.values.IntegerValueOrBuilder getDefaultSymbolIdOrBuilder() {
         return getDefaultSymbolId();
@@ -1766,7 +1766,7 @@ public final class ImGetLevelsAd {
        * ID einer Hierarchie
        * </pre>
        *
-       * <code>optional .dstore.values.IntegerValue level_id = 10005;</code>
+       * <code>.dstore.values.IntegerValue level_id = 10005;</code>
        */
       public boolean hasLevelId() {
         return levelId_ != null;
@@ -1776,7 +1776,7 @@ public final class ImGetLevelsAd {
        * ID einer Hierarchie
        * </pre>
        *
-       * <code>optional .dstore.values.IntegerValue level_id = 10005;</code>
+       * <code>.dstore.values.IntegerValue level_id = 10005;</code>
        */
       public io.dstore.values.IntegerValue getLevelId() {
         return levelId_ == null ? io.dstore.values.IntegerValue.getDefaultInstance() : levelId_;
@@ -1786,7 +1786,7 @@ public final class ImGetLevelsAd {
        * ID einer Hierarchie
        * </pre>
        *
-       * <code>optional .dstore.values.IntegerValue level_id = 10005;</code>
+       * <code>.dstore.values.IntegerValue level_id = 10005;</code>
        */
       public io.dstore.values.IntegerValueOrBuilder getLevelIdOrBuilder() {
         return getLevelId();
@@ -1905,7 +1905,7 @@ public final class ImGetLevelsAd {
           return memoizedHashCode;
         }
         int hash = 41;
-        hash = (19 * hash) + getDescriptorForType().hashCode();
+        hash = (19 * hash) + getDescriptor().hashCode();
         hash = (37 * hash) + ROW_ID_FIELD_NUMBER;
         hash = (53 * hash) + getRowId();
         if (hasLevelNo()) {
@@ -2213,13 +2213,13 @@ public final class ImGetLevelsAd {
 
         private int rowId_ ;
         /**
-         * <code>optional int32 row_id = 10000;</code>
+         * <code>int32 row_id = 10000;</code>
          */
         public int getRowId() {
           return rowId_;
         }
         /**
-         * <code>optional int32 row_id = 10000;</code>
+         * <code>int32 row_id = 10000;</code>
          */
         public Builder setRowId(int value) {
           
@@ -2228,7 +2228,7 @@ public final class ImGetLevelsAd {
           return this;
         }
         /**
-         * <code>optional int32 row_id = 10000;</code>
+         * <code>int32 row_id = 10000;</code>
          */
         public Builder clearRowId() {
           
@@ -2245,7 +2245,7 @@ public final class ImGetLevelsAd {
          * Nummer einer Hierarchie. Eine höhere Nummer bedeutet eine niedrigere Hierarchie. Das "Root"-Element hat die Nummer "1". Im Artikelbaum muß die Hierarchie-Nummer eines Nachfolger-Elementes immer höher als die seines Vorgängers sein.
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue level_no = 10001;</code>
+         * <code>.dstore.values.IntegerValue level_no = 10001;</code>
          */
         public boolean hasLevelNo() {
           return levelNoBuilder_ != null || levelNo_ != null;
@@ -2255,7 +2255,7 @@ public final class ImGetLevelsAd {
          * Nummer einer Hierarchie. Eine höhere Nummer bedeutet eine niedrigere Hierarchie. Das "Root"-Element hat die Nummer "1". Im Artikelbaum muß die Hierarchie-Nummer eines Nachfolger-Elementes immer höher als die seines Vorgängers sein.
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue level_no = 10001;</code>
+         * <code>.dstore.values.IntegerValue level_no = 10001;</code>
          */
         public io.dstore.values.IntegerValue getLevelNo() {
           if (levelNoBuilder_ == null) {
@@ -2269,7 +2269,7 @@ public final class ImGetLevelsAd {
          * Nummer einer Hierarchie. Eine höhere Nummer bedeutet eine niedrigere Hierarchie. Das "Root"-Element hat die Nummer "1". Im Artikelbaum muß die Hierarchie-Nummer eines Nachfolger-Elementes immer höher als die seines Vorgängers sein.
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue level_no = 10001;</code>
+         * <code>.dstore.values.IntegerValue level_no = 10001;</code>
          */
         public Builder setLevelNo(io.dstore.values.IntegerValue value) {
           if (levelNoBuilder_ == null) {
@@ -2289,7 +2289,7 @@ public final class ImGetLevelsAd {
          * Nummer einer Hierarchie. Eine höhere Nummer bedeutet eine niedrigere Hierarchie. Das "Root"-Element hat die Nummer "1". Im Artikelbaum muß die Hierarchie-Nummer eines Nachfolger-Elementes immer höher als die seines Vorgängers sein.
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue level_no = 10001;</code>
+         * <code>.dstore.values.IntegerValue level_no = 10001;</code>
          */
         public Builder setLevelNo(
             io.dstore.values.IntegerValue.Builder builderForValue) {
@@ -2307,7 +2307,7 @@ public final class ImGetLevelsAd {
          * Nummer einer Hierarchie. Eine höhere Nummer bedeutet eine niedrigere Hierarchie. Das "Root"-Element hat die Nummer "1". Im Artikelbaum muß die Hierarchie-Nummer eines Nachfolger-Elementes immer höher als die seines Vorgängers sein.
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue level_no = 10001;</code>
+         * <code>.dstore.values.IntegerValue level_no = 10001;</code>
          */
         public Builder mergeLevelNo(io.dstore.values.IntegerValue value) {
           if (levelNoBuilder_ == null) {
@@ -2329,7 +2329,7 @@ public final class ImGetLevelsAd {
          * Nummer einer Hierarchie. Eine höhere Nummer bedeutet eine niedrigere Hierarchie. Das "Root"-Element hat die Nummer "1". Im Artikelbaum muß die Hierarchie-Nummer eines Nachfolger-Elementes immer höher als die seines Vorgängers sein.
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue level_no = 10001;</code>
+         * <code>.dstore.values.IntegerValue level_no = 10001;</code>
          */
         public Builder clearLevelNo() {
           if (levelNoBuilder_ == null) {
@@ -2347,7 +2347,7 @@ public final class ImGetLevelsAd {
          * Nummer einer Hierarchie. Eine höhere Nummer bedeutet eine niedrigere Hierarchie. Das "Root"-Element hat die Nummer "1". Im Artikelbaum muß die Hierarchie-Nummer eines Nachfolger-Elementes immer höher als die seines Vorgängers sein.
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue level_no = 10001;</code>
+         * <code>.dstore.values.IntegerValue level_no = 10001;</code>
          */
         public io.dstore.values.IntegerValue.Builder getLevelNoBuilder() {
           
@@ -2359,7 +2359,7 @@ public final class ImGetLevelsAd {
          * Nummer einer Hierarchie. Eine höhere Nummer bedeutet eine niedrigere Hierarchie. Das "Root"-Element hat die Nummer "1". Im Artikelbaum muß die Hierarchie-Nummer eines Nachfolger-Elementes immer höher als die seines Vorgängers sein.
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue level_no = 10001;</code>
+         * <code>.dstore.values.IntegerValue level_no = 10001;</code>
          */
         public io.dstore.values.IntegerValueOrBuilder getLevelNoOrBuilder() {
           if (levelNoBuilder_ != null) {
@@ -2374,7 +2374,7 @@ public final class ImGetLevelsAd {
          * Nummer einer Hierarchie. Eine höhere Nummer bedeutet eine niedrigere Hierarchie. Das "Root"-Element hat die Nummer "1". Im Artikelbaum muß die Hierarchie-Nummer eines Nachfolger-Elementes immer höher als die seines Vorgängers sein.
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue level_no = 10001;</code>
+         * <code>.dstore.values.IntegerValue level_no = 10001;</code>
          */
         private com.google.protobuf.SingleFieldBuilderV3<
             io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> 
@@ -2398,7 +2398,7 @@ public final class ImGetLevelsAd {
          * Bezeichnung der Hierarchie
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue level_description = 10002;</code>
+         * <code>.dstore.values.StringValue level_description = 10002;</code>
          */
         public boolean hasLevelDescription() {
           return levelDescriptionBuilder_ != null || levelDescription_ != null;
@@ -2408,7 +2408,7 @@ public final class ImGetLevelsAd {
          * Bezeichnung der Hierarchie
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue level_description = 10002;</code>
+         * <code>.dstore.values.StringValue level_description = 10002;</code>
          */
         public io.dstore.values.StringValue getLevelDescription() {
           if (levelDescriptionBuilder_ == null) {
@@ -2422,7 +2422,7 @@ public final class ImGetLevelsAd {
          * Bezeichnung der Hierarchie
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue level_description = 10002;</code>
+         * <code>.dstore.values.StringValue level_description = 10002;</code>
          */
         public Builder setLevelDescription(io.dstore.values.StringValue value) {
           if (levelDescriptionBuilder_ == null) {
@@ -2442,7 +2442,7 @@ public final class ImGetLevelsAd {
          * Bezeichnung der Hierarchie
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue level_description = 10002;</code>
+         * <code>.dstore.values.StringValue level_description = 10002;</code>
          */
         public Builder setLevelDescription(
             io.dstore.values.StringValue.Builder builderForValue) {
@@ -2460,7 +2460,7 @@ public final class ImGetLevelsAd {
          * Bezeichnung der Hierarchie
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue level_description = 10002;</code>
+         * <code>.dstore.values.StringValue level_description = 10002;</code>
          */
         public Builder mergeLevelDescription(io.dstore.values.StringValue value) {
           if (levelDescriptionBuilder_ == null) {
@@ -2482,7 +2482,7 @@ public final class ImGetLevelsAd {
          * Bezeichnung der Hierarchie
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue level_description = 10002;</code>
+         * <code>.dstore.values.StringValue level_description = 10002;</code>
          */
         public Builder clearLevelDescription() {
           if (levelDescriptionBuilder_ == null) {
@@ -2500,7 +2500,7 @@ public final class ImGetLevelsAd {
          * Bezeichnung der Hierarchie
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue level_description = 10002;</code>
+         * <code>.dstore.values.StringValue level_description = 10002;</code>
          */
         public io.dstore.values.StringValue.Builder getLevelDescriptionBuilder() {
           
@@ -2512,7 +2512,7 @@ public final class ImGetLevelsAd {
          * Bezeichnung der Hierarchie
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue level_description = 10002;</code>
+         * <code>.dstore.values.StringValue level_description = 10002;</code>
          */
         public io.dstore.values.StringValueOrBuilder getLevelDescriptionOrBuilder() {
           if (levelDescriptionBuilder_ != null) {
@@ -2527,7 +2527,7 @@ public final class ImGetLevelsAd {
          * Bezeichnung der Hierarchie
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue level_description = 10002;</code>
+         * <code>.dstore.values.StringValue level_description = 10002;</code>
          */
         private com.google.protobuf.SingleFieldBuilderV3<
             io.dstore.values.StringValue, io.dstore.values.StringValue.Builder, io.dstore.values.StringValueOrBuilder> 
@@ -2551,7 +2551,7 @@ public final class ImGetLevelsAd {
          * ID eines Templates, das Elemente auf dieser Hierarchie per default zugewiesen bekommen
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue default_template_id = 10003;</code>
+         * <code>.dstore.values.IntegerValue default_template_id = 10003;</code>
          */
         public boolean hasDefaultTemplateId() {
           return defaultTemplateIdBuilder_ != null || defaultTemplateId_ != null;
@@ -2561,7 +2561,7 @@ public final class ImGetLevelsAd {
          * ID eines Templates, das Elemente auf dieser Hierarchie per default zugewiesen bekommen
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue default_template_id = 10003;</code>
+         * <code>.dstore.values.IntegerValue default_template_id = 10003;</code>
          */
         public io.dstore.values.IntegerValue getDefaultTemplateId() {
           if (defaultTemplateIdBuilder_ == null) {
@@ -2575,7 +2575,7 @@ public final class ImGetLevelsAd {
          * ID eines Templates, das Elemente auf dieser Hierarchie per default zugewiesen bekommen
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue default_template_id = 10003;</code>
+         * <code>.dstore.values.IntegerValue default_template_id = 10003;</code>
          */
         public Builder setDefaultTemplateId(io.dstore.values.IntegerValue value) {
           if (defaultTemplateIdBuilder_ == null) {
@@ -2595,7 +2595,7 @@ public final class ImGetLevelsAd {
          * ID eines Templates, das Elemente auf dieser Hierarchie per default zugewiesen bekommen
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue default_template_id = 10003;</code>
+         * <code>.dstore.values.IntegerValue default_template_id = 10003;</code>
          */
         public Builder setDefaultTemplateId(
             io.dstore.values.IntegerValue.Builder builderForValue) {
@@ -2613,7 +2613,7 @@ public final class ImGetLevelsAd {
          * ID eines Templates, das Elemente auf dieser Hierarchie per default zugewiesen bekommen
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue default_template_id = 10003;</code>
+         * <code>.dstore.values.IntegerValue default_template_id = 10003;</code>
          */
         public Builder mergeDefaultTemplateId(io.dstore.values.IntegerValue value) {
           if (defaultTemplateIdBuilder_ == null) {
@@ -2635,7 +2635,7 @@ public final class ImGetLevelsAd {
          * ID eines Templates, das Elemente auf dieser Hierarchie per default zugewiesen bekommen
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue default_template_id = 10003;</code>
+         * <code>.dstore.values.IntegerValue default_template_id = 10003;</code>
          */
         public Builder clearDefaultTemplateId() {
           if (defaultTemplateIdBuilder_ == null) {
@@ -2653,7 +2653,7 @@ public final class ImGetLevelsAd {
          * ID eines Templates, das Elemente auf dieser Hierarchie per default zugewiesen bekommen
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue default_template_id = 10003;</code>
+         * <code>.dstore.values.IntegerValue default_template_id = 10003;</code>
          */
         public io.dstore.values.IntegerValue.Builder getDefaultTemplateIdBuilder() {
           
@@ -2665,7 +2665,7 @@ public final class ImGetLevelsAd {
          * ID eines Templates, das Elemente auf dieser Hierarchie per default zugewiesen bekommen
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue default_template_id = 10003;</code>
+         * <code>.dstore.values.IntegerValue default_template_id = 10003;</code>
          */
         public io.dstore.values.IntegerValueOrBuilder getDefaultTemplateIdOrBuilder() {
           if (defaultTemplateIdBuilder_ != null) {
@@ -2680,7 +2680,7 @@ public final class ImGetLevelsAd {
          * ID eines Templates, das Elemente auf dieser Hierarchie per default zugewiesen bekommen
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue default_template_id = 10003;</code>
+         * <code>.dstore.values.IntegerValue default_template_id = 10003;</code>
          */
         private com.google.protobuf.SingleFieldBuilderV3<
             io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> 
@@ -2704,7 +2704,7 @@ public final class ImGetLevelsAd {
          * ID eines Symbols, das Elemente auf dieser Hierarchie per default zugewiesen bekommen
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue default_symbol_id = 10004;</code>
+         * <code>.dstore.values.IntegerValue default_symbol_id = 10004;</code>
          */
         public boolean hasDefaultSymbolId() {
           return defaultSymbolIdBuilder_ != null || defaultSymbolId_ != null;
@@ -2714,7 +2714,7 @@ public final class ImGetLevelsAd {
          * ID eines Symbols, das Elemente auf dieser Hierarchie per default zugewiesen bekommen
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue default_symbol_id = 10004;</code>
+         * <code>.dstore.values.IntegerValue default_symbol_id = 10004;</code>
          */
         public io.dstore.values.IntegerValue getDefaultSymbolId() {
           if (defaultSymbolIdBuilder_ == null) {
@@ -2728,7 +2728,7 @@ public final class ImGetLevelsAd {
          * ID eines Symbols, das Elemente auf dieser Hierarchie per default zugewiesen bekommen
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue default_symbol_id = 10004;</code>
+         * <code>.dstore.values.IntegerValue default_symbol_id = 10004;</code>
          */
         public Builder setDefaultSymbolId(io.dstore.values.IntegerValue value) {
           if (defaultSymbolIdBuilder_ == null) {
@@ -2748,7 +2748,7 @@ public final class ImGetLevelsAd {
          * ID eines Symbols, das Elemente auf dieser Hierarchie per default zugewiesen bekommen
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue default_symbol_id = 10004;</code>
+         * <code>.dstore.values.IntegerValue default_symbol_id = 10004;</code>
          */
         public Builder setDefaultSymbolId(
             io.dstore.values.IntegerValue.Builder builderForValue) {
@@ -2766,7 +2766,7 @@ public final class ImGetLevelsAd {
          * ID eines Symbols, das Elemente auf dieser Hierarchie per default zugewiesen bekommen
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue default_symbol_id = 10004;</code>
+         * <code>.dstore.values.IntegerValue default_symbol_id = 10004;</code>
          */
         public Builder mergeDefaultSymbolId(io.dstore.values.IntegerValue value) {
           if (defaultSymbolIdBuilder_ == null) {
@@ -2788,7 +2788,7 @@ public final class ImGetLevelsAd {
          * ID eines Symbols, das Elemente auf dieser Hierarchie per default zugewiesen bekommen
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue default_symbol_id = 10004;</code>
+         * <code>.dstore.values.IntegerValue default_symbol_id = 10004;</code>
          */
         public Builder clearDefaultSymbolId() {
           if (defaultSymbolIdBuilder_ == null) {
@@ -2806,7 +2806,7 @@ public final class ImGetLevelsAd {
          * ID eines Symbols, das Elemente auf dieser Hierarchie per default zugewiesen bekommen
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue default_symbol_id = 10004;</code>
+         * <code>.dstore.values.IntegerValue default_symbol_id = 10004;</code>
          */
         public io.dstore.values.IntegerValue.Builder getDefaultSymbolIdBuilder() {
           
@@ -2818,7 +2818,7 @@ public final class ImGetLevelsAd {
          * ID eines Symbols, das Elemente auf dieser Hierarchie per default zugewiesen bekommen
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue default_symbol_id = 10004;</code>
+         * <code>.dstore.values.IntegerValue default_symbol_id = 10004;</code>
          */
         public io.dstore.values.IntegerValueOrBuilder getDefaultSymbolIdOrBuilder() {
           if (defaultSymbolIdBuilder_ != null) {
@@ -2833,7 +2833,7 @@ public final class ImGetLevelsAd {
          * ID eines Symbols, das Elemente auf dieser Hierarchie per default zugewiesen bekommen
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue default_symbol_id = 10004;</code>
+         * <code>.dstore.values.IntegerValue default_symbol_id = 10004;</code>
          */
         private com.google.protobuf.SingleFieldBuilderV3<
             io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> 
@@ -2857,7 +2857,7 @@ public final class ImGetLevelsAd {
          * ID einer Hierarchie
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue level_id = 10005;</code>
+         * <code>.dstore.values.IntegerValue level_id = 10005;</code>
          */
         public boolean hasLevelId() {
           return levelIdBuilder_ != null || levelId_ != null;
@@ -2867,7 +2867,7 @@ public final class ImGetLevelsAd {
          * ID einer Hierarchie
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue level_id = 10005;</code>
+         * <code>.dstore.values.IntegerValue level_id = 10005;</code>
          */
         public io.dstore.values.IntegerValue getLevelId() {
           if (levelIdBuilder_ == null) {
@@ -2881,7 +2881,7 @@ public final class ImGetLevelsAd {
          * ID einer Hierarchie
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue level_id = 10005;</code>
+         * <code>.dstore.values.IntegerValue level_id = 10005;</code>
          */
         public Builder setLevelId(io.dstore.values.IntegerValue value) {
           if (levelIdBuilder_ == null) {
@@ -2901,7 +2901,7 @@ public final class ImGetLevelsAd {
          * ID einer Hierarchie
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue level_id = 10005;</code>
+         * <code>.dstore.values.IntegerValue level_id = 10005;</code>
          */
         public Builder setLevelId(
             io.dstore.values.IntegerValue.Builder builderForValue) {
@@ -2919,7 +2919,7 @@ public final class ImGetLevelsAd {
          * ID einer Hierarchie
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue level_id = 10005;</code>
+         * <code>.dstore.values.IntegerValue level_id = 10005;</code>
          */
         public Builder mergeLevelId(io.dstore.values.IntegerValue value) {
           if (levelIdBuilder_ == null) {
@@ -2941,7 +2941,7 @@ public final class ImGetLevelsAd {
          * ID einer Hierarchie
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue level_id = 10005;</code>
+         * <code>.dstore.values.IntegerValue level_id = 10005;</code>
          */
         public Builder clearLevelId() {
           if (levelIdBuilder_ == null) {
@@ -2959,7 +2959,7 @@ public final class ImGetLevelsAd {
          * ID einer Hierarchie
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue level_id = 10005;</code>
+         * <code>.dstore.values.IntegerValue level_id = 10005;</code>
          */
         public io.dstore.values.IntegerValue.Builder getLevelIdBuilder() {
           
@@ -2971,7 +2971,7 @@ public final class ImGetLevelsAd {
          * ID einer Hierarchie
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue level_id = 10005;</code>
+         * <code>.dstore.values.IntegerValue level_id = 10005;</code>
          */
         public io.dstore.values.IntegerValueOrBuilder getLevelIdOrBuilder() {
           if (levelIdBuilder_ != null) {
@@ -2986,7 +2986,7 @@ public final class ImGetLevelsAd {
          * ID einer Hierarchie
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue level_id = 10005;</code>
+         * <code>.dstore.values.IntegerValue level_id = 10005;</code>
          */
         private com.google.protobuf.SingleFieldBuilderV3<
             io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> 
@@ -3246,7 +3246,7 @@ public final class ImGetLevelsAd {
         return memoizedHashCode;
       }
       int hash = 41;
-      hash = (19 * hash) + getDescriptorForType().hashCode();
+      hash = (19 * hash) + getDescriptor().hashCode();
       if (getMetaInformationCount() > 0) {
         hash = (37 * hash) + META_INFORMATION_FIELD_NUMBER;
         hash = (53 * hash) + getMetaInformationList().hashCode();

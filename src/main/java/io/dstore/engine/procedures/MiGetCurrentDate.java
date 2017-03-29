@@ -19,38 +19,38 @@ public final class MiGetCurrentDate {
       com.google.protobuf.MessageOrBuilder {
 
     /**
-     * <code>optional .dstore.values.IntegerValue date_and_time_format = 1;</code>
+     * <code>.dstore.values.IntegerValue date_and_time_format = 1;</code>
      */
     boolean hasDateAndTimeFormat();
     /**
-     * <code>optional .dstore.values.IntegerValue date_and_time_format = 1;</code>
+     * <code>.dstore.values.IntegerValue date_and_time_format = 1;</code>
      */
     io.dstore.values.IntegerValue getDateAndTimeFormat();
     /**
-     * <code>optional .dstore.values.IntegerValue date_and_time_format = 1;</code>
+     * <code>.dstore.values.IntegerValue date_and_time_format = 1;</code>
      */
     io.dstore.values.IntegerValueOrBuilder getDateAndTimeFormatOrBuilder();
 
     /**
-     * <code>optional bool date_and_time_format_null = 1001;</code>
+     * <code>bool date_and_time_format_null = 1001;</code>
      */
     boolean getDateAndTimeFormatNull();
 
     /**
-     * <code>optional .dstore.values.IntegerValue include_time = 2;</code>
+     * <code>.dstore.values.IntegerValue include_time = 2;</code>
      */
     boolean hasIncludeTime();
     /**
-     * <code>optional .dstore.values.IntegerValue include_time = 2;</code>
+     * <code>.dstore.values.IntegerValue include_time = 2;</code>
      */
     io.dstore.values.IntegerValue getIncludeTime();
     /**
-     * <code>optional .dstore.values.IntegerValue include_time = 2;</code>
+     * <code>.dstore.values.IntegerValue include_time = 2;</code>
      */
     io.dstore.values.IntegerValueOrBuilder getIncludeTimeOrBuilder();
 
     /**
-     * <code>optional bool include_time_null = 1002;</code>
+     * <code>bool include_time_null = 1002;</code>
      */
     boolean getIncludeTimeNull();
   }
@@ -157,19 +157,19 @@ public final class MiGetCurrentDate {
     public static final int DATE_AND_TIME_FORMAT_FIELD_NUMBER = 1;
     private io.dstore.values.IntegerValue dateAndTimeFormat_;
     /**
-     * <code>optional .dstore.values.IntegerValue date_and_time_format = 1;</code>
+     * <code>.dstore.values.IntegerValue date_and_time_format = 1;</code>
      */
     public boolean hasDateAndTimeFormat() {
       return dateAndTimeFormat_ != null;
     }
     /**
-     * <code>optional .dstore.values.IntegerValue date_and_time_format = 1;</code>
+     * <code>.dstore.values.IntegerValue date_and_time_format = 1;</code>
      */
     public io.dstore.values.IntegerValue getDateAndTimeFormat() {
       return dateAndTimeFormat_ == null ? io.dstore.values.IntegerValue.getDefaultInstance() : dateAndTimeFormat_;
     }
     /**
-     * <code>optional .dstore.values.IntegerValue date_and_time_format = 1;</code>
+     * <code>.dstore.values.IntegerValue date_and_time_format = 1;</code>
      */
     public io.dstore.values.IntegerValueOrBuilder getDateAndTimeFormatOrBuilder() {
       return getDateAndTimeFormat();
@@ -178,7 +178,7 @@ public final class MiGetCurrentDate {
     public static final int DATE_AND_TIME_FORMAT_NULL_FIELD_NUMBER = 1001;
     private boolean dateAndTimeFormatNull_;
     /**
-     * <code>optional bool date_and_time_format_null = 1001;</code>
+     * <code>bool date_and_time_format_null = 1001;</code>
      */
     public boolean getDateAndTimeFormatNull() {
       return dateAndTimeFormatNull_;
@@ -187,19 +187,19 @@ public final class MiGetCurrentDate {
     public static final int INCLUDE_TIME_FIELD_NUMBER = 2;
     private io.dstore.values.IntegerValue includeTime_;
     /**
-     * <code>optional .dstore.values.IntegerValue include_time = 2;</code>
+     * <code>.dstore.values.IntegerValue include_time = 2;</code>
      */
     public boolean hasIncludeTime() {
       return includeTime_ != null;
     }
     /**
-     * <code>optional .dstore.values.IntegerValue include_time = 2;</code>
+     * <code>.dstore.values.IntegerValue include_time = 2;</code>
      */
     public io.dstore.values.IntegerValue getIncludeTime() {
       return includeTime_ == null ? io.dstore.values.IntegerValue.getDefaultInstance() : includeTime_;
     }
     /**
-     * <code>optional .dstore.values.IntegerValue include_time = 2;</code>
+     * <code>.dstore.values.IntegerValue include_time = 2;</code>
      */
     public io.dstore.values.IntegerValueOrBuilder getIncludeTimeOrBuilder() {
       return getIncludeTime();
@@ -208,7 +208,7 @@ public final class MiGetCurrentDate {
     public static final int INCLUDE_TIME_NULL_FIELD_NUMBER = 1002;
     private boolean includeTimeNull_;
     /**
-     * <code>optional bool include_time_null = 1002;</code>
+     * <code>bool include_time_null = 1002;</code>
      */
     public boolean getIncludeTimeNull() {
       return includeTimeNull_;
@@ -300,7 +300,7 @@ public final class MiGetCurrentDate {
         return memoizedHashCode;
       }
       int hash = 41;
-      hash = (19 * hash) + getDescriptorForType().hashCode();
+      hash = (19 * hash) + getDescriptor().hashCode();
       if (hasDateAndTimeFormat()) {
         hash = (37 * hash) + DATE_AND_TIME_FORMAT_FIELD_NUMBER;
         hash = (53 * hash) + getDateAndTimeFormat().hashCode();
@@ -566,13 +566,13 @@ public final class MiGetCurrentDate {
       private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> dateAndTimeFormatBuilder_;
       /**
-       * <code>optional .dstore.values.IntegerValue date_and_time_format = 1;</code>
+       * <code>.dstore.values.IntegerValue date_and_time_format = 1;</code>
        */
       public boolean hasDateAndTimeFormat() {
         return dateAndTimeFormatBuilder_ != null || dateAndTimeFormat_ != null;
       }
       /**
-       * <code>optional .dstore.values.IntegerValue date_and_time_format = 1;</code>
+       * <code>.dstore.values.IntegerValue date_and_time_format = 1;</code>
        */
       public io.dstore.values.IntegerValue getDateAndTimeFormat() {
         if (dateAndTimeFormatBuilder_ == null) {
@@ -582,7 +582,7 @@ public final class MiGetCurrentDate {
         }
       }
       /**
-       * <code>optional .dstore.values.IntegerValue date_and_time_format = 1;</code>
+       * <code>.dstore.values.IntegerValue date_and_time_format = 1;</code>
        */
       public Builder setDateAndTimeFormat(io.dstore.values.IntegerValue value) {
         if (dateAndTimeFormatBuilder_ == null) {
@@ -598,7 +598,7 @@ public final class MiGetCurrentDate {
         return this;
       }
       /**
-       * <code>optional .dstore.values.IntegerValue date_and_time_format = 1;</code>
+       * <code>.dstore.values.IntegerValue date_and_time_format = 1;</code>
        */
       public Builder setDateAndTimeFormat(
           io.dstore.values.IntegerValue.Builder builderForValue) {
@@ -612,7 +612,7 @@ public final class MiGetCurrentDate {
         return this;
       }
       /**
-       * <code>optional .dstore.values.IntegerValue date_and_time_format = 1;</code>
+       * <code>.dstore.values.IntegerValue date_and_time_format = 1;</code>
        */
       public Builder mergeDateAndTimeFormat(io.dstore.values.IntegerValue value) {
         if (dateAndTimeFormatBuilder_ == null) {
@@ -630,7 +630,7 @@ public final class MiGetCurrentDate {
         return this;
       }
       /**
-       * <code>optional .dstore.values.IntegerValue date_and_time_format = 1;</code>
+       * <code>.dstore.values.IntegerValue date_and_time_format = 1;</code>
        */
       public Builder clearDateAndTimeFormat() {
         if (dateAndTimeFormatBuilder_ == null) {
@@ -644,7 +644,7 @@ public final class MiGetCurrentDate {
         return this;
       }
       /**
-       * <code>optional .dstore.values.IntegerValue date_and_time_format = 1;</code>
+       * <code>.dstore.values.IntegerValue date_and_time_format = 1;</code>
        */
       public io.dstore.values.IntegerValue.Builder getDateAndTimeFormatBuilder() {
         
@@ -652,7 +652,7 @@ public final class MiGetCurrentDate {
         return getDateAndTimeFormatFieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .dstore.values.IntegerValue date_and_time_format = 1;</code>
+       * <code>.dstore.values.IntegerValue date_and_time_format = 1;</code>
        */
       public io.dstore.values.IntegerValueOrBuilder getDateAndTimeFormatOrBuilder() {
         if (dateAndTimeFormatBuilder_ != null) {
@@ -663,7 +663,7 @@ public final class MiGetCurrentDate {
         }
       }
       /**
-       * <code>optional .dstore.values.IntegerValue date_and_time_format = 1;</code>
+       * <code>.dstore.values.IntegerValue date_and_time_format = 1;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> 
@@ -681,13 +681,13 @@ public final class MiGetCurrentDate {
 
       private boolean dateAndTimeFormatNull_ ;
       /**
-       * <code>optional bool date_and_time_format_null = 1001;</code>
+       * <code>bool date_and_time_format_null = 1001;</code>
        */
       public boolean getDateAndTimeFormatNull() {
         return dateAndTimeFormatNull_;
       }
       /**
-       * <code>optional bool date_and_time_format_null = 1001;</code>
+       * <code>bool date_and_time_format_null = 1001;</code>
        */
       public Builder setDateAndTimeFormatNull(boolean value) {
         
@@ -696,7 +696,7 @@ public final class MiGetCurrentDate {
         return this;
       }
       /**
-       * <code>optional bool date_and_time_format_null = 1001;</code>
+       * <code>bool date_and_time_format_null = 1001;</code>
        */
       public Builder clearDateAndTimeFormatNull() {
         
@@ -709,13 +709,13 @@ public final class MiGetCurrentDate {
       private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> includeTimeBuilder_;
       /**
-       * <code>optional .dstore.values.IntegerValue include_time = 2;</code>
+       * <code>.dstore.values.IntegerValue include_time = 2;</code>
        */
       public boolean hasIncludeTime() {
         return includeTimeBuilder_ != null || includeTime_ != null;
       }
       /**
-       * <code>optional .dstore.values.IntegerValue include_time = 2;</code>
+       * <code>.dstore.values.IntegerValue include_time = 2;</code>
        */
       public io.dstore.values.IntegerValue getIncludeTime() {
         if (includeTimeBuilder_ == null) {
@@ -725,7 +725,7 @@ public final class MiGetCurrentDate {
         }
       }
       /**
-       * <code>optional .dstore.values.IntegerValue include_time = 2;</code>
+       * <code>.dstore.values.IntegerValue include_time = 2;</code>
        */
       public Builder setIncludeTime(io.dstore.values.IntegerValue value) {
         if (includeTimeBuilder_ == null) {
@@ -741,7 +741,7 @@ public final class MiGetCurrentDate {
         return this;
       }
       /**
-       * <code>optional .dstore.values.IntegerValue include_time = 2;</code>
+       * <code>.dstore.values.IntegerValue include_time = 2;</code>
        */
       public Builder setIncludeTime(
           io.dstore.values.IntegerValue.Builder builderForValue) {
@@ -755,7 +755,7 @@ public final class MiGetCurrentDate {
         return this;
       }
       /**
-       * <code>optional .dstore.values.IntegerValue include_time = 2;</code>
+       * <code>.dstore.values.IntegerValue include_time = 2;</code>
        */
       public Builder mergeIncludeTime(io.dstore.values.IntegerValue value) {
         if (includeTimeBuilder_ == null) {
@@ -773,7 +773,7 @@ public final class MiGetCurrentDate {
         return this;
       }
       /**
-       * <code>optional .dstore.values.IntegerValue include_time = 2;</code>
+       * <code>.dstore.values.IntegerValue include_time = 2;</code>
        */
       public Builder clearIncludeTime() {
         if (includeTimeBuilder_ == null) {
@@ -787,7 +787,7 @@ public final class MiGetCurrentDate {
         return this;
       }
       /**
-       * <code>optional .dstore.values.IntegerValue include_time = 2;</code>
+       * <code>.dstore.values.IntegerValue include_time = 2;</code>
        */
       public io.dstore.values.IntegerValue.Builder getIncludeTimeBuilder() {
         
@@ -795,7 +795,7 @@ public final class MiGetCurrentDate {
         return getIncludeTimeFieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .dstore.values.IntegerValue include_time = 2;</code>
+       * <code>.dstore.values.IntegerValue include_time = 2;</code>
        */
       public io.dstore.values.IntegerValueOrBuilder getIncludeTimeOrBuilder() {
         if (includeTimeBuilder_ != null) {
@@ -806,7 +806,7 @@ public final class MiGetCurrentDate {
         }
       }
       /**
-       * <code>optional .dstore.values.IntegerValue include_time = 2;</code>
+       * <code>.dstore.values.IntegerValue include_time = 2;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> 
@@ -824,13 +824,13 @@ public final class MiGetCurrentDate {
 
       private boolean includeTimeNull_ ;
       /**
-       * <code>optional bool include_time_null = 1002;</code>
+       * <code>bool include_time_null = 1002;</code>
        */
       public boolean getIncludeTimeNull() {
         return includeTimeNull_;
       }
       /**
-       * <code>optional bool include_time_null = 1002;</code>
+       * <code>bool include_time_null = 1002;</code>
        */
       public Builder setIncludeTimeNull(boolean value) {
         
@@ -839,7 +839,7 @@ public final class MiGetCurrentDate {
         return this;
       }
       /**
-       * <code>optional bool include_time_null = 1002;</code>
+       * <code>bool include_time_null = 1002;</code>
        */
       public Builder clearIncludeTimeNull() {
         
@@ -1098,7 +1098,7 @@ public final class MiGetCurrentDate {
         com.google.protobuf.MessageOrBuilder {
 
       /**
-       * <code>optional int32 row_id = 10000;</code>
+       * <code>int32 row_id = 10000;</code>
        */
       int getRowId();
 
@@ -1107,7 +1107,7 @@ public final class MiGetCurrentDate {
        * Das aktuelle Datum der Datenbank als Zeichenkette im durch "&#64;DateAndTimeFormat" und "&#64;IncludeTime" angegebenen Format
        * </pre>
        *
-       * <code>optional .dstore.values.StringValue current_date_char = 10001;</code>
+       * <code>.dstore.values.StringValue current_date_char = 10001;</code>
        */
       boolean hasCurrentDateChar();
       /**
@@ -1115,7 +1115,7 @@ public final class MiGetCurrentDate {
        * Das aktuelle Datum der Datenbank als Zeichenkette im durch "&#64;DateAndTimeFormat" und "&#64;IncludeTime" angegebenen Format
        * </pre>
        *
-       * <code>optional .dstore.values.StringValue current_date_char = 10001;</code>
+       * <code>.dstore.values.StringValue current_date_char = 10001;</code>
        */
       io.dstore.values.StringValue getCurrentDateChar();
       /**
@@ -1123,7 +1123,7 @@ public final class MiGetCurrentDate {
        * Das aktuelle Datum der Datenbank als Zeichenkette im durch "&#64;DateAndTimeFormat" und "&#64;IncludeTime" angegebenen Format
        * </pre>
        *
-       * <code>optional .dstore.values.StringValue current_date_char = 10001;</code>
+       * <code>.dstore.values.StringValue current_date_char = 10001;</code>
        */
       io.dstore.values.StringValueOrBuilder getCurrentDateCharOrBuilder();
 
@@ -1132,7 +1132,7 @@ public final class MiGetCurrentDate {
        * Timestamp (Anzahl Millisekunden, die seit dem 01.01.1970 vergangen sind), wobei die Vorkomma-Stellen die Anzahl Sekunden (seit dem 01.01.1970) darstellen und die Nachkommastellen die restlichen Millisekunden enthalten
        * </pre>
        *
-       * <code>optional .dstore.values.DecimalValue timestamp = 10002;</code>
+       * <code>.dstore.values.DecimalValue timestamp = 10002;</code>
        */
       boolean hasTimestamp();
       /**
@@ -1140,7 +1140,7 @@ public final class MiGetCurrentDate {
        * Timestamp (Anzahl Millisekunden, die seit dem 01.01.1970 vergangen sind), wobei die Vorkomma-Stellen die Anzahl Sekunden (seit dem 01.01.1970) darstellen und die Nachkommastellen die restlichen Millisekunden enthalten
        * </pre>
        *
-       * <code>optional .dstore.values.DecimalValue timestamp = 10002;</code>
+       * <code>.dstore.values.DecimalValue timestamp = 10002;</code>
        */
       io.dstore.values.DecimalValue getTimestamp();
       /**
@@ -1148,7 +1148,7 @@ public final class MiGetCurrentDate {
        * Timestamp (Anzahl Millisekunden, die seit dem 01.01.1970 vergangen sind), wobei die Vorkomma-Stellen die Anzahl Sekunden (seit dem 01.01.1970) darstellen und die Nachkommastellen die restlichen Millisekunden enthalten
        * </pre>
        *
-       * <code>optional .dstore.values.DecimalValue timestamp = 10002;</code>
+       * <code>.dstore.values.DecimalValue timestamp = 10002;</code>
        */
       io.dstore.values.DecimalValueOrBuilder getTimestampOrBuilder();
 
@@ -1157,7 +1157,7 @@ public final class MiGetCurrentDate {
        * Das aktuelle Datum
        * </pre>
        *
-       * <code>optional .dstore.values.TimestampValue current_date = 10003;</code>
+       * <code>.dstore.values.TimestampValue current_date = 10003;</code>
        */
       boolean hasCurrentDate();
       /**
@@ -1165,7 +1165,7 @@ public final class MiGetCurrentDate {
        * Das aktuelle Datum
        * </pre>
        *
-       * <code>optional .dstore.values.TimestampValue current_date = 10003;</code>
+       * <code>.dstore.values.TimestampValue current_date = 10003;</code>
        */
       io.dstore.values.TimestampValue getCurrentDate();
       /**
@@ -1173,7 +1173,7 @@ public final class MiGetCurrentDate {
        * Das aktuelle Datum
        * </pre>
        *
-       * <code>optional .dstore.values.TimestampValue current_date = 10003;</code>
+       * <code>.dstore.values.TimestampValue current_date = 10003;</code>
        */
       io.dstore.values.TimestampValueOrBuilder getCurrentDateOrBuilder();
     }
@@ -1287,7 +1287,7 @@ public final class MiGetCurrentDate {
       public static final int ROW_ID_FIELD_NUMBER = 10000;
       private int rowId_;
       /**
-       * <code>optional int32 row_id = 10000;</code>
+       * <code>int32 row_id = 10000;</code>
        */
       public int getRowId() {
         return rowId_;
@@ -1300,7 +1300,7 @@ public final class MiGetCurrentDate {
        * Das aktuelle Datum der Datenbank als Zeichenkette im durch "&#64;DateAndTimeFormat" und "&#64;IncludeTime" angegebenen Format
        * </pre>
        *
-       * <code>optional .dstore.values.StringValue current_date_char = 10001;</code>
+       * <code>.dstore.values.StringValue current_date_char = 10001;</code>
        */
       public boolean hasCurrentDateChar() {
         return currentDateChar_ != null;
@@ -1310,7 +1310,7 @@ public final class MiGetCurrentDate {
        * Das aktuelle Datum der Datenbank als Zeichenkette im durch "&#64;DateAndTimeFormat" und "&#64;IncludeTime" angegebenen Format
        * </pre>
        *
-       * <code>optional .dstore.values.StringValue current_date_char = 10001;</code>
+       * <code>.dstore.values.StringValue current_date_char = 10001;</code>
        */
       public io.dstore.values.StringValue getCurrentDateChar() {
         return currentDateChar_ == null ? io.dstore.values.StringValue.getDefaultInstance() : currentDateChar_;
@@ -1320,7 +1320,7 @@ public final class MiGetCurrentDate {
        * Das aktuelle Datum der Datenbank als Zeichenkette im durch "&#64;DateAndTimeFormat" und "&#64;IncludeTime" angegebenen Format
        * </pre>
        *
-       * <code>optional .dstore.values.StringValue current_date_char = 10001;</code>
+       * <code>.dstore.values.StringValue current_date_char = 10001;</code>
        */
       public io.dstore.values.StringValueOrBuilder getCurrentDateCharOrBuilder() {
         return getCurrentDateChar();
@@ -1333,7 +1333,7 @@ public final class MiGetCurrentDate {
        * Timestamp (Anzahl Millisekunden, die seit dem 01.01.1970 vergangen sind), wobei die Vorkomma-Stellen die Anzahl Sekunden (seit dem 01.01.1970) darstellen und die Nachkommastellen die restlichen Millisekunden enthalten
        * </pre>
        *
-       * <code>optional .dstore.values.DecimalValue timestamp = 10002;</code>
+       * <code>.dstore.values.DecimalValue timestamp = 10002;</code>
        */
       public boolean hasTimestamp() {
         return timestamp_ != null;
@@ -1343,7 +1343,7 @@ public final class MiGetCurrentDate {
        * Timestamp (Anzahl Millisekunden, die seit dem 01.01.1970 vergangen sind), wobei die Vorkomma-Stellen die Anzahl Sekunden (seit dem 01.01.1970) darstellen und die Nachkommastellen die restlichen Millisekunden enthalten
        * </pre>
        *
-       * <code>optional .dstore.values.DecimalValue timestamp = 10002;</code>
+       * <code>.dstore.values.DecimalValue timestamp = 10002;</code>
        */
       public io.dstore.values.DecimalValue getTimestamp() {
         return timestamp_ == null ? io.dstore.values.DecimalValue.getDefaultInstance() : timestamp_;
@@ -1353,7 +1353,7 @@ public final class MiGetCurrentDate {
        * Timestamp (Anzahl Millisekunden, die seit dem 01.01.1970 vergangen sind), wobei die Vorkomma-Stellen die Anzahl Sekunden (seit dem 01.01.1970) darstellen und die Nachkommastellen die restlichen Millisekunden enthalten
        * </pre>
        *
-       * <code>optional .dstore.values.DecimalValue timestamp = 10002;</code>
+       * <code>.dstore.values.DecimalValue timestamp = 10002;</code>
        */
       public io.dstore.values.DecimalValueOrBuilder getTimestampOrBuilder() {
         return getTimestamp();
@@ -1366,7 +1366,7 @@ public final class MiGetCurrentDate {
        * Das aktuelle Datum
        * </pre>
        *
-       * <code>optional .dstore.values.TimestampValue current_date = 10003;</code>
+       * <code>.dstore.values.TimestampValue current_date = 10003;</code>
        */
       public boolean hasCurrentDate() {
         return currentDate_ != null;
@@ -1376,7 +1376,7 @@ public final class MiGetCurrentDate {
        * Das aktuelle Datum
        * </pre>
        *
-       * <code>optional .dstore.values.TimestampValue current_date = 10003;</code>
+       * <code>.dstore.values.TimestampValue current_date = 10003;</code>
        */
       public io.dstore.values.TimestampValue getCurrentDate() {
         return currentDate_ == null ? io.dstore.values.TimestampValue.getDefaultInstance() : currentDate_;
@@ -1386,7 +1386,7 @@ public final class MiGetCurrentDate {
        * Das aktuelle Datum
        * </pre>
        *
-       * <code>optional .dstore.values.TimestampValue current_date = 10003;</code>
+       * <code>.dstore.values.TimestampValue current_date = 10003;</code>
        */
       public io.dstore.values.TimestampValueOrBuilder getCurrentDateOrBuilder() {
         return getCurrentDate();
@@ -1481,7 +1481,7 @@ public final class MiGetCurrentDate {
           return memoizedHashCode;
         }
         int hash = 41;
-        hash = (19 * hash) + getDescriptorForType().hashCode();
+        hash = (19 * hash) + getDescriptor().hashCode();
         hash = (37 * hash) + ROW_ID_FIELD_NUMBER;
         hash = (53 * hash) + getRowId();
         if (hasCurrentDateChar()) {
@@ -1753,13 +1753,13 @@ public final class MiGetCurrentDate {
 
         private int rowId_ ;
         /**
-         * <code>optional int32 row_id = 10000;</code>
+         * <code>int32 row_id = 10000;</code>
          */
         public int getRowId() {
           return rowId_;
         }
         /**
-         * <code>optional int32 row_id = 10000;</code>
+         * <code>int32 row_id = 10000;</code>
          */
         public Builder setRowId(int value) {
           
@@ -1768,7 +1768,7 @@ public final class MiGetCurrentDate {
           return this;
         }
         /**
-         * <code>optional int32 row_id = 10000;</code>
+         * <code>int32 row_id = 10000;</code>
          */
         public Builder clearRowId() {
           
@@ -1785,7 +1785,7 @@ public final class MiGetCurrentDate {
          * Das aktuelle Datum der Datenbank als Zeichenkette im durch "&#64;DateAndTimeFormat" und "&#64;IncludeTime" angegebenen Format
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue current_date_char = 10001;</code>
+         * <code>.dstore.values.StringValue current_date_char = 10001;</code>
          */
         public boolean hasCurrentDateChar() {
           return currentDateCharBuilder_ != null || currentDateChar_ != null;
@@ -1795,7 +1795,7 @@ public final class MiGetCurrentDate {
          * Das aktuelle Datum der Datenbank als Zeichenkette im durch "&#64;DateAndTimeFormat" und "&#64;IncludeTime" angegebenen Format
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue current_date_char = 10001;</code>
+         * <code>.dstore.values.StringValue current_date_char = 10001;</code>
          */
         public io.dstore.values.StringValue getCurrentDateChar() {
           if (currentDateCharBuilder_ == null) {
@@ -1809,7 +1809,7 @@ public final class MiGetCurrentDate {
          * Das aktuelle Datum der Datenbank als Zeichenkette im durch "&#64;DateAndTimeFormat" und "&#64;IncludeTime" angegebenen Format
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue current_date_char = 10001;</code>
+         * <code>.dstore.values.StringValue current_date_char = 10001;</code>
          */
         public Builder setCurrentDateChar(io.dstore.values.StringValue value) {
           if (currentDateCharBuilder_ == null) {
@@ -1829,7 +1829,7 @@ public final class MiGetCurrentDate {
          * Das aktuelle Datum der Datenbank als Zeichenkette im durch "&#64;DateAndTimeFormat" und "&#64;IncludeTime" angegebenen Format
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue current_date_char = 10001;</code>
+         * <code>.dstore.values.StringValue current_date_char = 10001;</code>
          */
         public Builder setCurrentDateChar(
             io.dstore.values.StringValue.Builder builderForValue) {
@@ -1847,7 +1847,7 @@ public final class MiGetCurrentDate {
          * Das aktuelle Datum der Datenbank als Zeichenkette im durch "&#64;DateAndTimeFormat" und "&#64;IncludeTime" angegebenen Format
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue current_date_char = 10001;</code>
+         * <code>.dstore.values.StringValue current_date_char = 10001;</code>
          */
         public Builder mergeCurrentDateChar(io.dstore.values.StringValue value) {
           if (currentDateCharBuilder_ == null) {
@@ -1869,7 +1869,7 @@ public final class MiGetCurrentDate {
          * Das aktuelle Datum der Datenbank als Zeichenkette im durch "&#64;DateAndTimeFormat" und "&#64;IncludeTime" angegebenen Format
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue current_date_char = 10001;</code>
+         * <code>.dstore.values.StringValue current_date_char = 10001;</code>
          */
         public Builder clearCurrentDateChar() {
           if (currentDateCharBuilder_ == null) {
@@ -1887,7 +1887,7 @@ public final class MiGetCurrentDate {
          * Das aktuelle Datum der Datenbank als Zeichenkette im durch "&#64;DateAndTimeFormat" und "&#64;IncludeTime" angegebenen Format
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue current_date_char = 10001;</code>
+         * <code>.dstore.values.StringValue current_date_char = 10001;</code>
          */
         public io.dstore.values.StringValue.Builder getCurrentDateCharBuilder() {
           
@@ -1899,7 +1899,7 @@ public final class MiGetCurrentDate {
          * Das aktuelle Datum der Datenbank als Zeichenkette im durch "&#64;DateAndTimeFormat" und "&#64;IncludeTime" angegebenen Format
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue current_date_char = 10001;</code>
+         * <code>.dstore.values.StringValue current_date_char = 10001;</code>
          */
         public io.dstore.values.StringValueOrBuilder getCurrentDateCharOrBuilder() {
           if (currentDateCharBuilder_ != null) {
@@ -1914,7 +1914,7 @@ public final class MiGetCurrentDate {
          * Das aktuelle Datum der Datenbank als Zeichenkette im durch "&#64;DateAndTimeFormat" und "&#64;IncludeTime" angegebenen Format
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue current_date_char = 10001;</code>
+         * <code>.dstore.values.StringValue current_date_char = 10001;</code>
          */
         private com.google.protobuf.SingleFieldBuilderV3<
             io.dstore.values.StringValue, io.dstore.values.StringValue.Builder, io.dstore.values.StringValueOrBuilder> 
@@ -1938,7 +1938,7 @@ public final class MiGetCurrentDate {
          * Timestamp (Anzahl Millisekunden, die seit dem 01.01.1970 vergangen sind), wobei die Vorkomma-Stellen die Anzahl Sekunden (seit dem 01.01.1970) darstellen und die Nachkommastellen die restlichen Millisekunden enthalten
          * </pre>
          *
-         * <code>optional .dstore.values.DecimalValue timestamp = 10002;</code>
+         * <code>.dstore.values.DecimalValue timestamp = 10002;</code>
          */
         public boolean hasTimestamp() {
           return timestampBuilder_ != null || timestamp_ != null;
@@ -1948,7 +1948,7 @@ public final class MiGetCurrentDate {
          * Timestamp (Anzahl Millisekunden, die seit dem 01.01.1970 vergangen sind), wobei die Vorkomma-Stellen die Anzahl Sekunden (seit dem 01.01.1970) darstellen und die Nachkommastellen die restlichen Millisekunden enthalten
          * </pre>
          *
-         * <code>optional .dstore.values.DecimalValue timestamp = 10002;</code>
+         * <code>.dstore.values.DecimalValue timestamp = 10002;</code>
          */
         public io.dstore.values.DecimalValue getTimestamp() {
           if (timestampBuilder_ == null) {
@@ -1962,7 +1962,7 @@ public final class MiGetCurrentDate {
          * Timestamp (Anzahl Millisekunden, die seit dem 01.01.1970 vergangen sind), wobei die Vorkomma-Stellen die Anzahl Sekunden (seit dem 01.01.1970) darstellen und die Nachkommastellen die restlichen Millisekunden enthalten
          * </pre>
          *
-         * <code>optional .dstore.values.DecimalValue timestamp = 10002;</code>
+         * <code>.dstore.values.DecimalValue timestamp = 10002;</code>
          */
         public Builder setTimestamp(io.dstore.values.DecimalValue value) {
           if (timestampBuilder_ == null) {
@@ -1982,7 +1982,7 @@ public final class MiGetCurrentDate {
          * Timestamp (Anzahl Millisekunden, die seit dem 01.01.1970 vergangen sind), wobei die Vorkomma-Stellen die Anzahl Sekunden (seit dem 01.01.1970) darstellen und die Nachkommastellen die restlichen Millisekunden enthalten
          * </pre>
          *
-         * <code>optional .dstore.values.DecimalValue timestamp = 10002;</code>
+         * <code>.dstore.values.DecimalValue timestamp = 10002;</code>
          */
         public Builder setTimestamp(
             io.dstore.values.DecimalValue.Builder builderForValue) {
@@ -2000,7 +2000,7 @@ public final class MiGetCurrentDate {
          * Timestamp (Anzahl Millisekunden, die seit dem 01.01.1970 vergangen sind), wobei die Vorkomma-Stellen die Anzahl Sekunden (seit dem 01.01.1970) darstellen und die Nachkommastellen die restlichen Millisekunden enthalten
          * </pre>
          *
-         * <code>optional .dstore.values.DecimalValue timestamp = 10002;</code>
+         * <code>.dstore.values.DecimalValue timestamp = 10002;</code>
          */
         public Builder mergeTimestamp(io.dstore.values.DecimalValue value) {
           if (timestampBuilder_ == null) {
@@ -2022,7 +2022,7 @@ public final class MiGetCurrentDate {
          * Timestamp (Anzahl Millisekunden, die seit dem 01.01.1970 vergangen sind), wobei die Vorkomma-Stellen die Anzahl Sekunden (seit dem 01.01.1970) darstellen und die Nachkommastellen die restlichen Millisekunden enthalten
          * </pre>
          *
-         * <code>optional .dstore.values.DecimalValue timestamp = 10002;</code>
+         * <code>.dstore.values.DecimalValue timestamp = 10002;</code>
          */
         public Builder clearTimestamp() {
           if (timestampBuilder_ == null) {
@@ -2040,7 +2040,7 @@ public final class MiGetCurrentDate {
          * Timestamp (Anzahl Millisekunden, die seit dem 01.01.1970 vergangen sind), wobei die Vorkomma-Stellen die Anzahl Sekunden (seit dem 01.01.1970) darstellen und die Nachkommastellen die restlichen Millisekunden enthalten
          * </pre>
          *
-         * <code>optional .dstore.values.DecimalValue timestamp = 10002;</code>
+         * <code>.dstore.values.DecimalValue timestamp = 10002;</code>
          */
         public io.dstore.values.DecimalValue.Builder getTimestampBuilder() {
           
@@ -2052,7 +2052,7 @@ public final class MiGetCurrentDate {
          * Timestamp (Anzahl Millisekunden, die seit dem 01.01.1970 vergangen sind), wobei die Vorkomma-Stellen die Anzahl Sekunden (seit dem 01.01.1970) darstellen und die Nachkommastellen die restlichen Millisekunden enthalten
          * </pre>
          *
-         * <code>optional .dstore.values.DecimalValue timestamp = 10002;</code>
+         * <code>.dstore.values.DecimalValue timestamp = 10002;</code>
          */
         public io.dstore.values.DecimalValueOrBuilder getTimestampOrBuilder() {
           if (timestampBuilder_ != null) {
@@ -2067,7 +2067,7 @@ public final class MiGetCurrentDate {
          * Timestamp (Anzahl Millisekunden, die seit dem 01.01.1970 vergangen sind), wobei die Vorkomma-Stellen die Anzahl Sekunden (seit dem 01.01.1970) darstellen und die Nachkommastellen die restlichen Millisekunden enthalten
          * </pre>
          *
-         * <code>optional .dstore.values.DecimalValue timestamp = 10002;</code>
+         * <code>.dstore.values.DecimalValue timestamp = 10002;</code>
          */
         private com.google.protobuf.SingleFieldBuilderV3<
             io.dstore.values.DecimalValue, io.dstore.values.DecimalValue.Builder, io.dstore.values.DecimalValueOrBuilder> 
@@ -2091,7 +2091,7 @@ public final class MiGetCurrentDate {
          * Das aktuelle Datum
          * </pre>
          *
-         * <code>optional .dstore.values.TimestampValue current_date = 10003;</code>
+         * <code>.dstore.values.TimestampValue current_date = 10003;</code>
          */
         public boolean hasCurrentDate() {
           return currentDateBuilder_ != null || currentDate_ != null;
@@ -2101,7 +2101,7 @@ public final class MiGetCurrentDate {
          * Das aktuelle Datum
          * </pre>
          *
-         * <code>optional .dstore.values.TimestampValue current_date = 10003;</code>
+         * <code>.dstore.values.TimestampValue current_date = 10003;</code>
          */
         public io.dstore.values.TimestampValue getCurrentDate() {
           if (currentDateBuilder_ == null) {
@@ -2115,7 +2115,7 @@ public final class MiGetCurrentDate {
          * Das aktuelle Datum
          * </pre>
          *
-         * <code>optional .dstore.values.TimestampValue current_date = 10003;</code>
+         * <code>.dstore.values.TimestampValue current_date = 10003;</code>
          */
         public Builder setCurrentDate(io.dstore.values.TimestampValue value) {
           if (currentDateBuilder_ == null) {
@@ -2135,7 +2135,7 @@ public final class MiGetCurrentDate {
          * Das aktuelle Datum
          * </pre>
          *
-         * <code>optional .dstore.values.TimestampValue current_date = 10003;</code>
+         * <code>.dstore.values.TimestampValue current_date = 10003;</code>
          */
         public Builder setCurrentDate(
             io.dstore.values.TimestampValue.Builder builderForValue) {
@@ -2153,7 +2153,7 @@ public final class MiGetCurrentDate {
          * Das aktuelle Datum
          * </pre>
          *
-         * <code>optional .dstore.values.TimestampValue current_date = 10003;</code>
+         * <code>.dstore.values.TimestampValue current_date = 10003;</code>
          */
         public Builder mergeCurrentDate(io.dstore.values.TimestampValue value) {
           if (currentDateBuilder_ == null) {
@@ -2175,7 +2175,7 @@ public final class MiGetCurrentDate {
          * Das aktuelle Datum
          * </pre>
          *
-         * <code>optional .dstore.values.TimestampValue current_date = 10003;</code>
+         * <code>.dstore.values.TimestampValue current_date = 10003;</code>
          */
         public Builder clearCurrentDate() {
           if (currentDateBuilder_ == null) {
@@ -2193,7 +2193,7 @@ public final class MiGetCurrentDate {
          * Das aktuelle Datum
          * </pre>
          *
-         * <code>optional .dstore.values.TimestampValue current_date = 10003;</code>
+         * <code>.dstore.values.TimestampValue current_date = 10003;</code>
          */
         public io.dstore.values.TimestampValue.Builder getCurrentDateBuilder() {
           
@@ -2205,7 +2205,7 @@ public final class MiGetCurrentDate {
          * Das aktuelle Datum
          * </pre>
          *
-         * <code>optional .dstore.values.TimestampValue current_date = 10003;</code>
+         * <code>.dstore.values.TimestampValue current_date = 10003;</code>
          */
         public io.dstore.values.TimestampValueOrBuilder getCurrentDateOrBuilder() {
           if (currentDateBuilder_ != null) {
@@ -2220,7 +2220,7 @@ public final class MiGetCurrentDate {
          * Das aktuelle Datum
          * </pre>
          *
-         * <code>optional .dstore.values.TimestampValue current_date = 10003;</code>
+         * <code>.dstore.values.TimestampValue current_date = 10003;</code>
          */
         private com.google.protobuf.SingleFieldBuilderV3<
             io.dstore.values.TimestampValue, io.dstore.values.TimestampValue.Builder, io.dstore.values.TimestampValueOrBuilder> 
@@ -2480,7 +2480,7 @@ public final class MiGetCurrentDate {
         return memoizedHashCode;
       }
       int hash = 41;
-      hash = (19 * hash) + getDescriptorForType().hashCode();
+      hash = (19 * hash) + getDescriptor().hashCode();
       if (getMetaInformationCount() > 0) {
         hash = (37 * hash) + META_INFORMATION_FIELD_NUMBER;
         hash = (53 * hash) + getMetaInformationList().hashCode();

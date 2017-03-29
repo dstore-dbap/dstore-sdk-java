@@ -8,30 +8,30 @@ public interface MetaInformationOrBuilder extends
     com.google.protobuf.MessageOrBuilder {
 
   /**
-   * <code>optional .dstore.engine.MetaInformation.Types type = 1;</code>
+   * <code>.dstore.engine.MetaInformation.Types type = 1;</code>
    */
   int getTypeValue();
   /**
-   * <code>optional .dstore.engine.MetaInformation.Types type = 1;</code>
+   * <code>.dstore.engine.MetaInformation.Types type = 1;</code>
    */
   io.dstore.engine.MetaInformation.Types getType();
 
   /**
-   * <code>optional string information = 2;</code>
+   * <code>string information = 2;</code>
    */
   java.lang.String getInformation();
   /**
-   * <code>optional string information = 2;</code>
+   * <code>string information = 2;</code>
    */
   com.google.protobuf.ByteString
       getInformationBytes();
 
   /**
-   * <code>optional string details = 3;</code>
+   * <code>string details = 3;</code>
    */
   java.lang.String getDetails();
   /**
-   * <code>optional string details = 3;</code>
+   * <code>string details = 3;</code>
    */
   com.google.protobuf.ByteString
       getDetailsBytes();

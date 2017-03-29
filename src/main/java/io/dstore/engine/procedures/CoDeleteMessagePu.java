@@ -19,128 +19,128 @@ public final class CoDeleteMessagePu {
       com.google.protobuf.MessageOrBuilder {
 
     /**
-     * <code>optional .dstore.values.TimestampValue message_date_and_time = 1;</code>
+     * <code>.dstore.values.TimestampValue message_date_and_time = 1;</code>
      */
     boolean hasMessageDateAndTime();
     /**
-     * <code>optional .dstore.values.TimestampValue message_date_and_time = 1;</code>
+     * <code>.dstore.values.TimestampValue message_date_and_time = 1;</code>
      */
     io.dstore.values.TimestampValue getMessageDateAndTime();
     /**
-     * <code>optional .dstore.values.TimestampValue message_date_and_time = 1;</code>
+     * <code>.dstore.values.TimestampValue message_date_and_time = 1;</code>
      */
     io.dstore.values.TimestampValueOrBuilder getMessageDateAndTimeOrBuilder();
 
     /**
-     * <code>optional bool message_date_and_time_null = 1001;</code>
+     * <code>bool message_date_and_time_null = 1001;</code>
      */
     boolean getMessageDateAndTimeNull();
 
     /**
-     * <code>optional .dstore.values.IntegerValue from_community_member_id = 2;</code>
+     * <code>.dstore.values.IntegerValue from_community_member_id = 2;</code>
      */
     boolean hasFromCommunityMemberId();
     /**
-     * <code>optional .dstore.values.IntegerValue from_community_member_id = 2;</code>
+     * <code>.dstore.values.IntegerValue from_community_member_id = 2;</code>
      */
     io.dstore.values.IntegerValue getFromCommunityMemberId();
     /**
-     * <code>optional .dstore.values.IntegerValue from_community_member_id = 2;</code>
+     * <code>.dstore.values.IntegerValue from_community_member_id = 2;</code>
      */
     io.dstore.values.IntegerValueOrBuilder getFromCommunityMemberIdOrBuilder();
 
     /**
-     * <code>optional bool from_community_member_id_null = 1002;</code>
+     * <code>bool from_community_member_id_null = 1002;</code>
      */
     boolean getFromCommunityMemberIdNull();
 
     /**
-     * <code>optional .dstore.values.StringValue unique_id = 3;</code>
+     * <code>.dstore.values.StringValue unique_id = 3;</code>
      */
     boolean hasUniqueId();
     /**
-     * <code>optional .dstore.values.StringValue unique_id = 3;</code>
+     * <code>.dstore.values.StringValue unique_id = 3;</code>
      */
     io.dstore.values.StringValue getUniqueId();
     /**
-     * <code>optional .dstore.values.StringValue unique_id = 3;</code>
+     * <code>.dstore.values.StringValue unique_id = 3;</code>
      */
     io.dstore.values.StringValueOrBuilder getUniqueIdOrBuilder();
 
     /**
-     * <code>optional bool unique_id_null = 1003;</code>
+     * <code>bool unique_id_null = 1003;</code>
      */
     boolean getUniqueIdNull();
 
     /**
-     * <code>optional .dstore.values.StringValue person_identification_values = 4;</code>
+     * <code>.dstore.values.StringValue person_identification_values = 4;</code>
      */
     boolean hasPersonIdentificationValues();
     /**
-     * <code>optional .dstore.values.StringValue person_identification_values = 4;</code>
+     * <code>.dstore.values.StringValue person_identification_values = 4;</code>
      */
     io.dstore.values.StringValue getPersonIdentificationValues();
     /**
-     * <code>optional .dstore.values.StringValue person_identification_values = 4;</code>
+     * <code>.dstore.values.StringValue person_identification_values = 4;</code>
      */
     io.dstore.values.StringValueOrBuilder getPersonIdentificationValuesOrBuilder();
 
     /**
-     * <code>optional bool person_identification_values_null = 1004;</code>
+     * <code>bool person_identification_values_null = 1004;</code>
      */
     boolean getPersonIdentificationValuesNull();
 
     /**
-     * <code>optional .dstore.values.IntegerValue community_id = 5;</code>
+     * <code>.dstore.values.IntegerValue community_id = 5;</code>
      */
     boolean hasCommunityId();
     /**
-     * <code>optional .dstore.values.IntegerValue community_id = 5;</code>
+     * <code>.dstore.values.IntegerValue community_id = 5;</code>
      */
     io.dstore.values.IntegerValue getCommunityId();
     /**
-     * <code>optional .dstore.values.IntegerValue community_id = 5;</code>
+     * <code>.dstore.values.IntegerValue community_id = 5;</code>
      */
     io.dstore.values.IntegerValueOrBuilder getCommunityIdOrBuilder();
 
     /**
-     * <code>optional bool community_id_null = 1005;</code>
+     * <code>bool community_id_null = 1005;</code>
      */
     boolean getCommunityIdNull();
 
     /**
-     * <code>optional .dstore.values.IntegerValue message_no = 6;</code>
+     * <code>.dstore.values.IntegerValue message_no = 6;</code>
      */
     boolean hasMessageNo();
     /**
-     * <code>optional .dstore.values.IntegerValue message_no = 6;</code>
+     * <code>.dstore.values.IntegerValue message_no = 6;</code>
      */
     io.dstore.values.IntegerValue getMessageNo();
     /**
-     * <code>optional .dstore.values.IntegerValue message_no = 6;</code>
+     * <code>.dstore.values.IntegerValue message_no = 6;</code>
      */
     io.dstore.values.IntegerValueOrBuilder getMessageNoOrBuilder();
 
     /**
-     * <code>optional bool message_no_null = 1006;</code>
+     * <code>bool message_no_null = 1006;</code>
      */
     boolean getMessageNoNull();
 
     /**
-     * <code>optional .dstore.values.StringValue separator_in_ident_vals = 7;</code>
+     * <code>.dstore.values.StringValue separator_in_ident_vals = 7;</code>
      */
     boolean hasSeparatorInIdentVals();
     /**
-     * <code>optional .dstore.values.StringValue separator_in_ident_vals = 7;</code>
+     * <code>.dstore.values.StringValue separator_in_ident_vals = 7;</code>
      */
     io.dstore.values.StringValue getSeparatorInIdentVals();
     /**
-     * <code>optional .dstore.values.StringValue separator_in_ident_vals = 7;</code>
+     * <code>.dstore.values.StringValue separator_in_ident_vals = 7;</code>
      */
     io.dstore.values.StringValueOrBuilder getSeparatorInIdentValsOrBuilder();
 
     /**
-     * <code>optional bool separator_in_ident_vals_null = 1007;</code>
+     * <code>bool separator_in_ident_vals_null = 1007;</code>
      */
     boolean getSeparatorInIdentValsNull();
   }
@@ -342,19 +342,19 @@ public final class CoDeleteMessagePu {
     public static final int MESSAGE_DATE_AND_TIME_FIELD_NUMBER = 1;
     private io.dstore.values.TimestampValue messageDateAndTime_;
     /**
-     * <code>optional .dstore.values.TimestampValue message_date_and_time = 1;</code>
+     * <code>.dstore.values.TimestampValue message_date_and_time = 1;</code>
      */
     public boolean hasMessageDateAndTime() {
       return messageDateAndTime_ != null;
     }
     /**
-     * <code>optional .dstore.values.TimestampValue message_date_and_time = 1;</code>
+     * <code>.dstore.values.TimestampValue message_date_and_time = 1;</code>
      */
     public io.dstore.values.TimestampValue getMessageDateAndTime() {
       return messageDateAndTime_ == null ? io.dstore.values.TimestampValue.getDefaultInstance() : messageDateAndTime_;
     }
     /**
-     * <code>optional .dstore.values.TimestampValue message_date_and_time = 1;</code>
+     * <code>.dstore.values.TimestampValue message_date_and_time = 1;</code>
      */
     public io.dstore.values.TimestampValueOrBuilder getMessageDateAndTimeOrBuilder() {
       return getMessageDateAndTime();
@@ -363,7 +363,7 @@ public final class CoDeleteMessagePu {
     public static final int MESSAGE_DATE_AND_TIME_NULL_FIELD_NUMBER = 1001;
     private boolean messageDateAndTimeNull_;
     /**
-     * <code>optional bool message_date_and_time_null = 1001;</code>
+     * <code>bool message_date_and_time_null = 1001;</code>
      */
     public boolean getMessageDateAndTimeNull() {
       return messageDateAndTimeNull_;
@@ -372,19 +372,19 @@ public final class CoDeleteMessagePu {
     public static final int FROM_COMMUNITY_MEMBER_ID_FIELD_NUMBER = 2;
     private io.dstore.values.IntegerValue fromCommunityMemberId_;
     /**
-     * <code>optional .dstore.values.IntegerValue from_community_member_id = 2;</code>
+     * <code>.dstore.values.IntegerValue from_community_member_id = 2;</code>
      */
     public boolean hasFromCommunityMemberId() {
       return fromCommunityMemberId_ != null;
     }
     /**
-     * <code>optional .dstore.values.IntegerValue from_community_member_id = 2;</code>
+     * <code>.dstore.values.IntegerValue from_community_member_id = 2;</code>
      */
     public io.dstore.values.IntegerValue getFromCommunityMemberId() {
       return fromCommunityMemberId_ == null ? io.dstore.values.IntegerValue.getDefaultInstance() : fromCommunityMemberId_;
     }
     /**
-     * <code>optional .dstore.values.IntegerValue from_community_member_id = 2;</code>
+     * <code>.dstore.values.IntegerValue from_community_member_id = 2;</code>
      */
     public io.dstore.values.IntegerValueOrBuilder getFromCommunityMemberIdOrBuilder() {
       return getFromCommunityMemberId();
@@ -393,7 +393,7 @@ public final class CoDeleteMessagePu {
     public static final int FROM_COMMUNITY_MEMBER_ID_NULL_FIELD_NUMBER = 1002;
     private boolean fromCommunityMemberIdNull_;
     /**
-     * <code>optional bool from_community_member_id_null = 1002;</code>
+     * <code>bool from_community_member_id_null = 1002;</code>
      */
     public boolean getFromCommunityMemberIdNull() {
       return fromCommunityMemberIdNull_;
@@ -402,19 +402,19 @@ public final class CoDeleteMessagePu {
     public static final int UNIQUE_ID_FIELD_NUMBER = 3;
     private io.dstore.values.StringValue uniqueId_;
     /**
-     * <code>optional .dstore.values.StringValue unique_id = 3;</code>
+     * <code>.dstore.values.StringValue unique_id = 3;</code>
      */
     public boolean hasUniqueId() {
       return uniqueId_ != null;
     }
     /**
-     * <code>optional .dstore.values.StringValue unique_id = 3;</code>
+     * <code>.dstore.values.StringValue unique_id = 3;</code>
      */
     public io.dstore.values.StringValue getUniqueId() {
       return uniqueId_ == null ? io.dstore.values.StringValue.getDefaultInstance() : uniqueId_;
     }
     /**
-     * <code>optional .dstore.values.StringValue unique_id = 3;</code>
+     * <code>.dstore.values.StringValue unique_id = 3;</code>
      */
     public io.dstore.values.StringValueOrBuilder getUniqueIdOrBuilder() {
       return getUniqueId();
@@ -423,7 +423,7 @@ public final class CoDeleteMessagePu {
     public static final int UNIQUE_ID_NULL_FIELD_NUMBER = 1003;
     private boolean uniqueIdNull_;
     /**
-     * <code>optional bool unique_id_null = 1003;</code>
+     * <code>bool unique_id_null = 1003;</code>
      */
     public boolean getUniqueIdNull() {
       return uniqueIdNull_;
@@ -432,19 +432,19 @@ public final class CoDeleteMessagePu {
     public static final int PERSON_IDENTIFICATION_VALUES_FIELD_NUMBER = 4;
     private io.dstore.values.StringValue personIdentificationValues_;
     /**
-     * <code>optional .dstore.values.StringValue person_identification_values = 4;</code>
+     * <code>.dstore.values.StringValue person_identification_values = 4;</code>
      */
     public boolean hasPersonIdentificationValues() {
       return personIdentificationValues_ != null;
     }
     /**
-     * <code>optional .dstore.values.StringValue person_identification_values = 4;</code>
+     * <code>.dstore.values.StringValue person_identification_values = 4;</code>
      */
     public io.dstore.values.StringValue getPersonIdentificationValues() {
       return personIdentificationValues_ == null ? io.dstore.values.StringValue.getDefaultInstance() : personIdentificationValues_;
     }
     /**
-     * <code>optional .dstore.values.StringValue person_identification_values = 4;</code>
+     * <code>.dstore.values.StringValue person_identification_values = 4;</code>
      */
     public io.dstore.values.StringValueOrBuilder getPersonIdentificationValuesOrBuilder() {
       return getPersonIdentificationValues();
@@ -453,7 +453,7 @@ public final class CoDeleteMessagePu {
     public static final int PERSON_IDENTIFICATION_VALUES_NULL_FIELD_NUMBER = 1004;
     private boolean personIdentificationValuesNull_;
     /**
-     * <code>optional bool person_identification_values_null = 1004;</code>
+     * <code>bool person_identification_values_null = 1004;</code>
      */
     public boolean getPersonIdentificationValuesNull() {
       return personIdentificationValuesNull_;
@@ -462,19 +462,19 @@ public final class CoDeleteMessagePu {
     public static final int COMMUNITY_ID_FIELD_NUMBER = 5;
     private io.dstore.values.IntegerValue communityId_;
     /**
-     * <code>optional .dstore.values.IntegerValue community_id = 5;</code>
+     * <code>.dstore.values.IntegerValue community_id = 5;</code>
      */
     public boolean hasCommunityId() {
       return communityId_ != null;
     }
     /**
-     * <code>optional .dstore.values.IntegerValue community_id = 5;</code>
+     * <code>.dstore.values.IntegerValue community_id = 5;</code>
      */
     public io.dstore.values.IntegerValue getCommunityId() {
       return communityId_ == null ? io.dstore.values.IntegerValue.getDefaultInstance() : communityId_;
     }
     /**
-     * <code>optional .dstore.values.IntegerValue community_id = 5;</code>
+     * <code>.dstore.values.IntegerValue community_id = 5;</code>
      */
     public io.dstore.values.IntegerValueOrBuilder getCommunityIdOrBuilder() {
       return getCommunityId();
@@ -483,7 +483,7 @@ public final class CoDeleteMessagePu {
     public static final int COMMUNITY_ID_NULL_FIELD_NUMBER = 1005;
     private boolean communityIdNull_;
     /**
-     * <code>optional bool community_id_null = 1005;</code>
+     * <code>bool community_id_null = 1005;</code>
      */
     public boolean getCommunityIdNull() {
       return communityIdNull_;
@@ -492,19 +492,19 @@ public final class CoDeleteMessagePu {
     public static final int MESSAGE_NO_FIELD_NUMBER = 6;
     private io.dstore.values.IntegerValue messageNo_;
     /**
-     * <code>optional .dstore.values.IntegerValue message_no = 6;</code>
+     * <code>.dstore.values.IntegerValue message_no = 6;</code>
      */
     public boolean hasMessageNo() {
       return messageNo_ != null;
     }
     /**
-     * <code>optional .dstore.values.IntegerValue message_no = 6;</code>
+     * <code>.dstore.values.IntegerValue message_no = 6;</code>
      */
     public io.dstore.values.IntegerValue getMessageNo() {
       return messageNo_ == null ? io.dstore.values.IntegerValue.getDefaultInstance() : messageNo_;
     }
     /**
-     * <code>optional .dstore.values.IntegerValue message_no = 6;</code>
+     * <code>.dstore.values.IntegerValue message_no = 6;</code>
      */
     public io.dstore.values.IntegerValueOrBuilder getMessageNoOrBuilder() {
       return getMessageNo();
@@ -513,7 +513,7 @@ public final class CoDeleteMessagePu {
     public static final int MESSAGE_NO_NULL_FIELD_NUMBER = 1006;
     private boolean messageNoNull_;
     /**
-     * <code>optional bool message_no_null = 1006;</code>
+     * <code>bool message_no_null = 1006;</code>
      */
     public boolean getMessageNoNull() {
       return messageNoNull_;
@@ -522,19 +522,19 @@ public final class CoDeleteMessagePu {
     public static final int SEPARATOR_IN_IDENT_VALS_FIELD_NUMBER = 7;
     private io.dstore.values.StringValue separatorInIdentVals_;
     /**
-     * <code>optional .dstore.values.StringValue separator_in_ident_vals = 7;</code>
+     * <code>.dstore.values.StringValue separator_in_ident_vals = 7;</code>
      */
     public boolean hasSeparatorInIdentVals() {
       return separatorInIdentVals_ != null;
     }
     /**
-     * <code>optional .dstore.values.StringValue separator_in_ident_vals = 7;</code>
+     * <code>.dstore.values.StringValue separator_in_ident_vals = 7;</code>
      */
     public io.dstore.values.StringValue getSeparatorInIdentVals() {
       return separatorInIdentVals_ == null ? io.dstore.values.StringValue.getDefaultInstance() : separatorInIdentVals_;
     }
     /**
-     * <code>optional .dstore.values.StringValue separator_in_ident_vals = 7;</code>
+     * <code>.dstore.values.StringValue separator_in_ident_vals = 7;</code>
      */
     public io.dstore.values.StringValueOrBuilder getSeparatorInIdentValsOrBuilder() {
       return getSeparatorInIdentVals();
@@ -543,7 +543,7 @@ public final class CoDeleteMessagePu {
     public static final int SEPARATOR_IN_IDENT_VALS_NULL_FIELD_NUMBER = 1007;
     private boolean separatorInIdentValsNull_;
     /**
-     * <code>optional bool separator_in_ident_vals_null = 1007;</code>
+     * <code>bool separator_in_ident_vals_null = 1007;</code>
      */
     public boolean getSeparatorInIdentValsNull() {
       return separatorInIdentValsNull_;
@@ -740,7 +740,7 @@ public final class CoDeleteMessagePu {
         return memoizedHashCode;
       }
       int hash = 41;
-      hash = (19 * hash) + getDescriptorForType().hashCode();
+      hash = (19 * hash) + getDescriptor().hashCode();
       if (hasMessageDateAndTime()) {
         hash = (37 * hash) + MESSAGE_DATE_AND_TIME_FIELD_NUMBER;
         hash = (53 * hash) + getMessageDateAndTime().hashCode();
@@ -1141,13 +1141,13 @@ public final class CoDeleteMessagePu {
       private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.values.TimestampValue, io.dstore.values.TimestampValue.Builder, io.dstore.values.TimestampValueOrBuilder> messageDateAndTimeBuilder_;
       /**
-       * <code>optional .dstore.values.TimestampValue message_date_and_time = 1;</code>
+       * <code>.dstore.values.TimestampValue message_date_and_time = 1;</code>
        */
       public boolean hasMessageDateAndTime() {
         return messageDateAndTimeBuilder_ != null || messageDateAndTime_ != null;
       }
       /**
-       * <code>optional .dstore.values.TimestampValue message_date_and_time = 1;</code>
+       * <code>.dstore.values.TimestampValue message_date_and_time = 1;</code>
        */
       public io.dstore.values.TimestampValue getMessageDateAndTime() {
         if (messageDateAndTimeBuilder_ == null) {
@@ -1157,7 +1157,7 @@ public final class CoDeleteMessagePu {
         }
       }
       /**
-       * <code>optional .dstore.values.TimestampValue message_date_and_time = 1;</code>
+       * <code>.dstore.values.TimestampValue message_date_and_time = 1;</code>
        */
       public Builder setMessageDateAndTime(io.dstore.values.TimestampValue value) {
         if (messageDateAndTimeBuilder_ == null) {
@@ -1173,7 +1173,7 @@ public final class CoDeleteMessagePu {
         return this;
       }
       /**
-       * <code>optional .dstore.values.TimestampValue message_date_and_time = 1;</code>
+       * <code>.dstore.values.TimestampValue message_date_and_time = 1;</code>
        */
       public Builder setMessageDateAndTime(
           io.dstore.values.TimestampValue.Builder builderForValue) {
@@ -1187,7 +1187,7 @@ public final class CoDeleteMessagePu {
         return this;
       }
       /**
-       * <code>optional .dstore.values.TimestampValue message_date_and_time = 1;</code>
+       * <code>.dstore.values.TimestampValue message_date_and_time = 1;</code>
        */
       public Builder mergeMessageDateAndTime(io.dstore.values.TimestampValue value) {
         if (messageDateAndTimeBuilder_ == null) {
@@ -1205,7 +1205,7 @@ public final class CoDeleteMessagePu {
         return this;
       }
       /**
-       * <code>optional .dstore.values.TimestampValue message_date_and_time = 1;</code>
+       * <code>.dstore.values.TimestampValue message_date_and_time = 1;</code>
        */
       public Builder clearMessageDateAndTime() {
         if (messageDateAndTimeBuilder_ == null) {
@@ -1219,7 +1219,7 @@ public final class CoDeleteMessagePu {
         return this;
       }
       /**
-       * <code>optional .dstore.values.TimestampValue message_date_and_time = 1;</code>
+       * <code>.dstore.values.TimestampValue message_date_and_time = 1;</code>
        */
       public io.dstore.values.TimestampValue.Builder getMessageDateAndTimeBuilder() {
         
@@ -1227,7 +1227,7 @@ public final class CoDeleteMessagePu {
         return getMessageDateAndTimeFieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .dstore.values.TimestampValue message_date_and_time = 1;</code>
+       * <code>.dstore.values.TimestampValue message_date_and_time = 1;</code>
        */
       public io.dstore.values.TimestampValueOrBuilder getMessageDateAndTimeOrBuilder() {
         if (messageDateAndTimeBuilder_ != null) {
@@ -1238,7 +1238,7 @@ public final class CoDeleteMessagePu {
         }
       }
       /**
-       * <code>optional .dstore.values.TimestampValue message_date_and_time = 1;</code>
+       * <code>.dstore.values.TimestampValue message_date_and_time = 1;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.values.TimestampValue, io.dstore.values.TimestampValue.Builder, io.dstore.values.TimestampValueOrBuilder> 
@@ -1256,13 +1256,13 @@ public final class CoDeleteMessagePu {
 
       private boolean messageDateAndTimeNull_ ;
       /**
-       * <code>optional bool message_date_and_time_null = 1001;</code>
+       * <code>bool message_date_and_time_null = 1001;</code>
        */
       public boolean getMessageDateAndTimeNull() {
         return messageDateAndTimeNull_;
       }
       /**
-       * <code>optional bool message_date_and_time_null = 1001;</code>
+       * <code>bool message_date_and_time_null = 1001;</code>
        */
       public Builder setMessageDateAndTimeNull(boolean value) {
         
@@ -1271,7 +1271,7 @@ public final class CoDeleteMessagePu {
         return this;
       }
       /**
-       * <code>optional bool message_date_and_time_null = 1001;</code>
+       * <code>bool message_date_and_time_null = 1001;</code>
        */
       public Builder clearMessageDateAndTimeNull() {
         
@@ -1284,13 +1284,13 @@ public final class CoDeleteMessagePu {
       private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> fromCommunityMemberIdBuilder_;
       /**
-       * <code>optional .dstore.values.IntegerValue from_community_member_id = 2;</code>
+       * <code>.dstore.values.IntegerValue from_community_member_id = 2;</code>
        */
       public boolean hasFromCommunityMemberId() {
         return fromCommunityMemberIdBuilder_ != null || fromCommunityMemberId_ != null;
       }
       /**
-       * <code>optional .dstore.values.IntegerValue from_community_member_id = 2;</code>
+       * <code>.dstore.values.IntegerValue from_community_member_id = 2;</code>
        */
       public io.dstore.values.IntegerValue getFromCommunityMemberId() {
         if (fromCommunityMemberIdBuilder_ == null) {
@@ -1300,7 +1300,7 @@ public final class CoDeleteMessagePu {
         }
       }
       /**
-       * <code>optional .dstore.values.IntegerValue from_community_member_id = 2;</code>
+       * <code>.dstore.values.IntegerValue from_community_member_id = 2;</code>
        */
       public Builder setFromCommunityMemberId(io.dstore.values.IntegerValue value) {
         if (fromCommunityMemberIdBuilder_ == null) {
@@ -1316,7 +1316,7 @@ public final class CoDeleteMessagePu {
         return this;
       }
       /**
-       * <code>optional .dstore.values.IntegerValue from_community_member_id = 2;</code>
+       * <code>.dstore.values.IntegerValue from_community_member_id = 2;</code>
        */
       public Builder setFromCommunityMemberId(
           io.dstore.values.IntegerValue.Builder builderForValue) {
@@ -1330,7 +1330,7 @@ public final class CoDeleteMessagePu {
         return this;
       }
       /**
-       * <code>optional .dstore.values.IntegerValue from_community_member_id = 2;</code>
+       * <code>.dstore.values.IntegerValue from_community_member_id = 2;</code>
        */
       public Builder mergeFromCommunityMemberId(io.dstore.values.IntegerValue value) {
         if (fromCommunityMemberIdBuilder_ == null) {
@@ -1348,7 +1348,7 @@ public final class CoDeleteMessagePu {
         return this;
       }
       /**
-       * <code>optional .dstore.values.IntegerValue from_community_member_id = 2;</code>
+       * <code>.dstore.values.IntegerValue from_community_member_id = 2;</code>
        */
       public Builder clearFromCommunityMemberId() {
         if (fromCommunityMemberIdBuilder_ == null) {
@@ -1362,7 +1362,7 @@ public final class CoDeleteMessagePu {
         return this;
       }
       /**
-       * <code>optional .dstore.values.IntegerValue from_community_member_id = 2;</code>
+       * <code>.dstore.values.IntegerValue from_community_member_id = 2;</code>
        */
       public io.dstore.values.IntegerValue.Builder getFromCommunityMemberIdBuilder() {
         
@@ -1370,7 +1370,7 @@ public final class CoDeleteMessagePu {
         return getFromCommunityMemberIdFieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .dstore.values.IntegerValue from_community_member_id = 2;</code>
+       * <code>.dstore.values.IntegerValue from_community_member_id = 2;</code>
        */
       public io.dstore.values.IntegerValueOrBuilder getFromCommunityMemberIdOrBuilder() {
         if (fromCommunityMemberIdBuilder_ != null) {
@@ -1381,7 +1381,7 @@ public final class CoDeleteMessagePu {
         }
       }
       /**
-       * <code>optional .dstore.values.IntegerValue from_community_member_id = 2;</code>
+       * <code>.dstore.values.IntegerValue from_community_member_id = 2;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> 
@@ -1399,13 +1399,13 @@ public final class CoDeleteMessagePu {
 
       private boolean fromCommunityMemberIdNull_ ;
       /**
-       * <code>optional bool from_community_member_id_null = 1002;</code>
+       * <code>bool from_community_member_id_null = 1002;</code>
        */
       public boolean getFromCommunityMemberIdNull() {
         return fromCommunityMemberIdNull_;
       }
       /**
-       * <code>optional bool from_community_member_id_null = 1002;</code>
+       * <code>bool from_community_member_id_null = 1002;</code>
        */
       public Builder setFromCommunityMemberIdNull(boolean value) {
         
@@ -1414,7 +1414,7 @@ public final class CoDeleteMessagePu {
         return this;
       }
       /**
-       * <code>optional bool from_community_member_id_null = 1002;</code>
+       * <code>bool from_community_member_id_null = 1002;</code>
        */
       public Builder clearFromCommunityMemberIdNull() {
         
@@ -1427,13 +1427,13 @@ public final class CoDeleteMessagePu {
       private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.values.StringValue, io.dstore.values.StringValue.Builder, io.dstore.values.StringValueOrBuilder> uniqueIdBuilder_;
       /**
-       * <code>optional .dstore.values.StringValue unique_id = 3;</code>
+       * <code>.dstore.values.StringValue unique_id = 3;</code>
        */
       public boolean hasUniqueId() {
         return uniqueIdBuilder_ != null || uniqueId_ != null;
       }
       /**
-       * <code>optional .dstore.values.StringValue unique_id = 3;</code>
+       * <code>.dstore.values.StringValue unique_id = 3;</code>
        */
       public io.dstore.values.StringValue getUniqueId() {
         if (uniqueIdBuilder_ == null) {
@@ -1443,7 +1443,7 @@ public final class CoDeleteMessagePu {
         }
       }
       /**
-       * <code>optional .dstore.values.StringValue unique_id = 3;</code>
+       * <code>.dstore.values.StringValue unique_id = 3;</code>
        */
       public Builder setUniqueId(io.dstore.values.StringValue value) {
         if (uniqueIdBuilder_ == null) {
@@ -1459,7 +1459,7 @@ public final class CoDeleteMessagePu {
         return this;
       }
       /**
-       * <code>optional .dstore.values.StringValue unique_id = 3;</code>
+       * <code>.dstore.values.StringValue unique_id = 3;</code>
        */
       public Builder setUniqueId(
           io.dstore.values.StringValue.Builder builderForValue) {
@@ -1473,7 +1473,7 @@ public final class CoDeleteMessagePu {
         return this;
       }
       /**
-       * <code>optional .dstore.values.StringValue unique_id = 3;</code>
+       * <code>.dstore.values.StringValue unique_id = 3;</code>
        */
       public Builder mergeUniqueId(io.dstore.values.StringValue value) {
         if (uniqueIdBuilder_ == null) {
@@ -1491,7 +1491,7 @@ public final class CoDeleteMessagePu {
         return this;
       }
       /**
-       * <code>optional .dstore.values.StringValue unique_id = 3;</code>
+       * <code>.dstore.values.StringValue unique_id = 3;</code>
        */
       public Builder clearUniqueId() {
         if (uniqueIdBuilder_ == null) {
@@ -1505,7 +1505,7 @@ public final class CoDeleteMessagePu {
         return this;
       }
       /**
-       * <code>optional .dstore.values.StringValue unique_id = 3;</code>
+       * <code>.dstore.values.StringValue unique_id = 3;</code>
        */
       public io.dstore.values.StringValue.Builder getUniqueIdBuilder() {
         
@@ -1513,7 +1513,7 @@ public final class CoDeleteMessagePu {
         return getUniqueIdFieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .dstore.values.StringValue unique_id = 3;</code>
+       * <code>.dstore.values.StringValue unique_id = 3;</code>
        */
       public io.dstore.values.StringValueOrBuilder getUniqueIdOrBuilder() {
         if (uniqueIdBuilder_ != null) {
@@ -1524,7 +1524,7 @@ public final class CoDeleteMessagePu {
         }
       }
       /**
-       * <code>optional .dstore.values.StringValue unique_id = 3;</code>
+       * <code>.dstore.values.StringValue unique_id = 3;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.values.StringValue, io.dstore.values.StringValue.Builder, io.dstore.values.StringValueOrBuilder> 
@@ -1542,13 +1542,13 @@ public final class CoDeleteMessagePu {
 
       private boolean uniqueIdNull_ ;
       /**
-       * <code>optional bool unique_id_null = 1003;</code>
+       * <code>bool unique_id_null = 1003;</code>
        */
       public boolean getUniqueIdNull() {
         return uniqueIdNull_;
       }
       /**
-       * <code>optional bool unique_id_null = 1003;</code>
+       * <code>bool unique_id_null = 1003;</code>
        */
       public Builder setUniqueIdNull(boolean value) {
         
@@ -1557,7 +1557,7 @@ public final class CoDeleteMessagePu {
         return this;
       }
       /**
-       * <code>optional bool unique_id_null = 1003;</code>
+       * <code>bool unique_id_null = 1003;</code>
        */
       public Builder clearUniqueIdNull() {
         
@@ -1570,13 +1570,13 @@ public final class CoDeleteMessagePu {
       private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.values.StringValue, io.dstore.values.StringValue.Builder, io.dstore.values.StringValueOrBuilder> personIdentificationValuesBuilder_;
       /**
-       * <code>optional .dstore.values.StringValue person_identification_values = 4;</code>
+       * <code>.dstore.values.StringValue person_identification_values = 4;</code>
        */
       public boolean hasPersonIdentificationValues() {
         return personIdentificationValuesBuilder_ != null || personIdentificationValues_ != null;
       }
       /**
-       * <code>optional .dstore.values.StringValue person_identification_values = 4;</code>
+       * <code>.dstore.values.StringValue person_identification_values = 4;</code>
        */
       public io.dstore.values.StringValue getPersonIdentificationValues() {
         if (personIdentificationValuesBuilder_ == null) {
@@ -1586,7 +1586,7 @@ public final class CoDeleteMessagePu {
         }
       }
       /**
-       * <code>optional .dstore.values.StringValue person_identification_values = 4;</code>
+       * <code>.dstore.values.StringValue person_identification_values = 4;</code>
        */
       public Builder setPersonIdentificationValues(io.dstore.values.StringValue value) {
         if (personIdentificationValuesBuilder_ == null) {
@@ -1602,7 +1602,7 @@ public final class CoDeleteMessagePu {
         return this;
       }
       /**
-       * <code>optional .dstore.values.StringValue person_identification_values = 4;</code>
+       * <code>.dstore.values.StringValue person_identification_values = 4;</code>
        */
       public Builder setPersonIdentificationValues(
           io.dstore.values.StringValue.Builder builderForValue) {
@@ -1616,7 +1616,7 @@ public final class CoDeleteMessagePu {
         return this;
       }
       /**
-       * <code>optional .dstore.values.StringValue person_identification_values = 4;</code>
+       * <code>.dstore.values.StringValue person_identification_values = 4;</code>
        */
       public Builder mergePersonIdentificationValues(io.dstore.values.StringValue value) {
         if (personIdentificationValuesBuilder_ == null) {
@@ -1634,7 +1634,7 @@ public final class CoDeleteMessagePu {
         return this;
       }
       /**
-       * <code>optional .dstore.values.StringValue person_identification_values = 4;</code>
+       * <code>.dstore.values.StringValue person_identification_values = 4;</code>
        */
       public Builder clearPersonIdentificationValues() {
         if (personIdentificationValuesBuilder_ == null) {
@@ -1648,7 +1648,7 @@ public final class CoDeleteMessagePu {
         return this;
       }
       /**
-       * <code>optional .dstore.values.StringValue person_identification_values = 4;</code>
+       * <code>.dstore.values.StringValue person_identification_values = 4;</code>
        */
       public io.dstore.values.StringValue.Builder getPersonIdentificationValuesBuilder() {
         
@@ -1656,7 +1656,7 @@ public final class CoDeleteMessagePu {
         return getPersonIdentificationValuesFieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .dstore.values.StringValue person_identification_values = 4;</code>
+       * <code>.dstore.values.StringValue person_identification_values = 4;</code>
        */
       public io.dstore.values.StringValueOrBuilder getPersonIdentificationValuesOrBuilder() {
         if (personIdentificationValuesBuilder_ != null) {
@@ -1667,7 +1667,7 @@ public final class CoDeleteMessagePu {
         }
       }
       /**
-       * <code>optional .dstore.values.StringValue person_identification_values = 4;</code>
+       * <code>.dstore.values.StringValue person_identification_values = 4;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.values.StringValue, io.dstore.values.StringValue.Builder, io.dstore.values.StringValueOrBuilder> 
@@ -1685,13 +1685,13 @@ public final class CoDeleteMessagePu {
 
       private boolean personIdentificationValuesNull_ ;
       /**
-       * <code>optional bool person_identification_values_null = 1004;</code>
+       * <code>bool person_identification_values_null = 1004;</code>
        */
       public boolean getPersonIdentificationValuesNull() {
         return personIdentificationValuesNull_;
       }
       /**
-       * <code>optional bool person_identification_values_null = 1004;</code>
+       * <code>bool person_identification_values_null = 1004;</code>
        */
       public Builder setPersonIdentificationValuesNull(boolean value) {
         
@@ -1700,7 +1700,7 @@ public final class CoDeleteMessagePu {
         return this;
       }
       /**
-       * <code>optional bool person_identification_values_null = 1004;</code>
+       * <code>bool person_identification_values_null = 1004;</code>
        */
       public Builder clearPersonIdentificationValuesNull() {
         
@@ -1713,13 +1713,13 @@ public final class CoDeleteMessagePu {
       private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> communityIdBuilder_;
       /**
-       * <code>optional .dstore.values.IntegerValue community_id = 5;</code>
+       * <code>.dstore.values.IntegerValue community_id = 5;</code>
        */
       public boolean hasCommunityId() {
         return communityIdBuilder_ != null || communityId_ != null;
       }
       /**
-       * <code>optional .dstore.values.IntegerValue community_id = 5;</code>
+       * <code>.dstore.values.IntegerValue community_id = 5;</code>
        */
       public io.dstore.values.IntegerValue getCommunityId() {
         if (communityIdBuilder_ == null) {
@@ -1729,7 +1729,7 @@ public final class CoDeleteMessagePu {
         }
       }
       /**
-       * <code>optional .dstore.values.IntegerValue community_id = 5;</code>
+       * <code>.dstore.values.IntegerValue community_id = 5;</code>
        */
       public Builder setCommunityId(io.dstore.values.IntegerValue value) {
         if (communityIdBuilder_ == null) {
@@ -1745,7 +1745,7 @@ public final class CoDeleteMessagePu {
         return this;
       }
       /**
-       * <code>optional .dstore.values.IntegerValue community_id = 5;</code>
+       * <code>.dstore.values.IntegerValue community_id = 5;</code>
        */
       public Builder setCommunityId(
           io.dstore.values.IntegerValue.Builder builderForValue) {
@@ -1759,7 +1759,7 @@ public final class CoDeleteMessagePu {
         return this;
       }
       /**
-       * <code>optional .dstore.values.IntegerValue community_id = 5;</code>
+       * <code>.dstore.values.IntegerValue community_id = 5;</code>
        */
       public Builder mergeCommunityId(io.dstore.values.IntegerValue value) {
         if (communityIdBuilder_ == null) {
@@ -1777,7 +1777,7 @@ public final class CoDeleteMessagePu {
         return this;
       }
       /**
-       * <code>optional .dstore.values.IntegerValue community_id = 5;</code>
+       * <code>.dstore.values.IntegerValue community_id = 5;</code>
        */
       public Builder clearCommunityId() {
         if (communityIdBuilder_ == null) {
@@ -1791,7 +1791,7 @@ public final class CoDeleteMessagePu {
         return this;
       }
       /**
-       * <code>optional .dstore.values.IntegerValue community_id = 5;</code>
+       * <code>.dstore.values.IntegerValue community_id = 5;</code>
        */
       public io.dstore.values.IntegerValue.Builder getCommunityIdBuilder() {
         
@@ -1799,7 +1799,7 @@ public final class CoDeleteMessagePu {
         return getCommunityIdFieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .dstore.values.IntegerValue community_id = 5;</code>
+       * <code>.dstore.values.IntegerValue community_id = 5;</code>
        */
       public io.dstore.values.IntegerValueOrBuilder getCommunityIdOrBuilder() {
         if (communityIdBuilder_ != null) {
@@ -1810,7 +1810,7 @@ public final class CoDeleteMessagePu {
         }
       }
       /**
-       * <code>optional .dstore.values.IntegerValue community_id = 5;</code>
+       * <code>.dstore.values.IntegerValue community_id = 5;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> 
@@ -1828,13 +1828,13 @@ public final class CoDeleteMessagePu {
 
       private boolean communityIdNull_ ;
       /**
-       * <code>optional bool community_id_null = 1005;</code>
+       * <code>bool community_id_null = 1005;</code>
        */
       public boolean getCommunityIdNull() {
         return communityIdNull_;
       }
       /**
-       * <code>optional bool community_id_null = 1005;</code>
+       * <code>bool community_id_null = 1005;</code>
        */
       public Builder setCommunityIdNull(boolean value) {
         
@@ -1843,7 +1843,7 @@ public final class CoDeleteMessagePu {
         return this;
       }
       /**
-       * <code>optional bool community_id_null = 1005;</code>
+       * <code>bool community_id_null = 1005;</code>
        */
       public Builder clearCommunityIdNull() {
         
@@ -1856,13 +1856,13 @@ public final class CoDeleteMessagePu {
       private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> messageNoBuilder_;
       /**
-       * <code>optional .dstore.values.IntegerValue message_no = 6;</code>
+       * <code>.dstore.values.IntegerValue message_no = 6;</code>
        */
       public boolean hasMessageNo() {
         return messageNoBuilder_ != null || messageNo_ != null;
       }
       /**
-       * <code>optional .dstore.values.IntegerValue message_no = 6;</code>
+       * <code>.dstore.values.IntegerValue message_no = 6;</code>
        */
       public io.dstore.values.IntegerValue getMessageNo() {
         if (messageNoBuilder_ == null) {
@@ -1872,7 +1872,7 @@ public final class CoDeleteMessagePu {
         }
       }
       /**
-       * <code>optional .dstore.values.IntegerValue message_no = 6;</code>
+       * <code>.dstore.values.IntegerValue message_no = 6;</code>
        */
       public Builder setMessageNo(io.dstore.values.IntegerValue value) {
         if (messageNoBuilder_ == null) {
@@ -1888,7 +1888,7 @@ public final class CoDeleteMessagePu {
         return this;
       }
       /**
-       * <code>optional .dstore.values.IntegerValue message_no = 6;</code>
+       * <code>.dstore.values.IntegerValue message_no = 6;</code>
        */
       public Builder setMessageNo(
           io.dstore.values.IntegerValue.Builder builderForValue) {
@@ -1902,7 +1902,7 @@ public final class CoDeleteMessagePu {
         return this;
       }
       /**
-       * <code>optional .dstore.values.IntegerValue message_no = 6;</code>
+       * <code>.dstore.values.IntegerValue message_no = 6;</code>
        */
       public Builder mergeMessageNo(io.dstore.values.IntegerValue value) {
         if (messageNoBuilder_ == null) {
@@ -1920,7 +1920,7 @@ public final class CoDeleteMessagePu {
         return this;
       }
       /**
-       * <code>optional .dstore.values.IntegerValue message_no = 6;</code>
+       * <code>.dstore.values.IntegerValue message_no = 6;</code>
        */
       public Builder clearMessageNo() {
         if (messageNoBuilder_ == null) {
@@ -1934,7 +1934,7 @@ public final class CoDeleteMessagePu {
         return this;
       }
       /**
-       * <code>optional .dstore.values.IntegerValue message_no = 6;</code>
+       * <code>.dstore.values.IntegerValue message_no = 6;</code>
        */
       public io.dstore.values.IntegerValue.Builder getMessageNoBuilder() {
         
@@ -1942,7 +1942,7 @@ public final class CoDeleteMessagePu {
         return getMessageNoFieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .dstore.values.IntegerValue message_no = 6;</code>
+       * <code>.dstore.values.IntegerValue message_no = 6;</code>
        */
       public io.dstore.values.IntegerValueOrBuilder getMessageNoOrBuilder() {
         if (messageNoBuilder_ != null) {
@@ -1953,7 +1953,7 @@ public final class CoDeleteMessagePu {
         }
       }
       /**
-       * <code>optional .dstore.values.IntegerValue message_no = 6;</code>
+       * <code>.dstore.values.IntegerValue message_no = 6;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> 
@@ -1971,13 +1971,13 @@ public final class CoDeleteMessagePu {
 
       private boolean messageNoNull_ ;
       /**
-       * <code>optional bool message_no_null = 1006;</code>
+       * <code>bool message_no_null = 1006;</code>
        */
       public boolean getMessageNoNull() {
         return messageNoNull_;
       }
       /**
-       * <code>optional bool message_no_null = 1006;</code>
+       * <code>bool message_no_null = 1006;</code>
        */
       public Builder setMessageNoNull(boolean value) {
         
@@ -1986,7 +1986,7 @@ public final class CoDeleteMessagePu {
         return this;
       }
       /**
-       * <code>optional bool message_no_null = 1006;</code>
+       * <code>bool message_no_null = 1006;</code>
        */
       public Builder clearMessageNoNull() {
         
@@ -1999,13 +1999,13 @@ public final class CoDeleteMessagePu {
       private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.values.StringValue, io.dstore.values.StringValue.Builder, io.dstore.values.StringValueOrBuilder> separatorInIdentValsBuilder_;
       /**
-       * <code>optional .dstore.values.StringValue separator_in_ident_vals = 7;</code>
+       * <code>.dstore.values.StringValue separator_in_ident_vals = 7;</code>
        */
       public boolean hasSeparatorInIdentVals() {
         return separatorInIdentValsBuilder_ != null || separatorInIdentVals_ != null;
       }
       /**
-       * <code>optional .dstore.values.StringValue separator_in_ident_vals = 7;</code>
+       * <code>.dstore.values.StringValue separator_in_ident_vals = 7;</code>
        */
       public io.dstore.values.StringValue getSeparatorInIdentVals() {
         if (separatorInIdentValsBuilder_ == null) {
@@ -2015,7 +2015,7 @@ public final class CoDeleteMessagePu {
         }
       }
       /**
-       * <code>optional .dstore.values.StringValue separator_in_ident_vals = 7;</code>
+       * <code>.dstore.values.StringValue separator_in_ident_vals = 7;</code>
        */
       public Builder setSeparatorInIdentVals(io.dstore.values.StringValue value) {
         if (separatorInIdentValsBuilder_ == null) {
@@ -2031,7 +2031,7 @@ public final class CoDeleteMessagePu {
         return this;
       }
       /**
-       * <code>optional .dstore.values.StringValue separator_in_ident_vals = 7;</code>
+       * <code>.dstore.values.StringValue separator_in_ident_vals = 7;</code>
        */
       public Builder setSeparatorInIdentVals(
           io.dstore.values.StringValue.Builder builderForValue) {
@@ -2045,7 +2045,7 @@ public final class CoDeleteMessagePu {
         return this;
       }
       /**
-       * <code>optional .dstore.values.StringValue separator_in_ident_vals = 7;</code>
+       * <code>.dstore.values.StringValue separator_in_ident_vals = 7;</code>
        */
       public Builder mergeSeparatorInIdentVals(io.dstore.values.StringValue value) {
         if (separatorInIdentValsBuilder_ == null) {
@@ -2063,7 +2063,7 @@ public final class CoDeleteMessagePu {
         return this;
       }
       /**
-       * <code>optional .dstore.values.StringValue separator_in_ident_vals = 7;</code>
+       * <code>.dstore.values.StringValue separator_in_ident_vals = 7;</code>
        */
       public Builder clearSeparatorInIdentVals() {
         if (separatorInIdentValsBuilder_ == null) {
@@ -2077,7 +2077,7 @@ public final class CoDeleteMessagePu {
         return this;
       }
       /**
-       * <code>optional .dstore.values.StringValue separator_in_ident_vals = 7;</code>
+       * <code>.dstore.values.StringValue separator_in_ident_vals = 7;</code>
        */
       public io.dstore.values.StringValue.Builder getSeparatorInIdentValsBuilder() {
         
@@ -2085,7 +2085,7 @@ public final class CoDeleteMessagePu {
         return getSeparatorInIdentValsFieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .dstore.values.StringValue separator_in_ident_vals = 7;</code>
+       * <code>.dstore.values.StringValue separator_in_ident_vals = 7;</code>
        */
       public io.dstore.values.StringValueOrBuilder getSeparatorInIdentValsOrBuilder() {
         if (separatorInIdentValsBuilder_ != null) {
@@ -2096,7 +2096,7 @@ public final class CoDeleteMessagePu {
         }
       }
       /**
-       * <code>optional .dstore.values.StringValue separator_in_ident_vals = 7;</code>
+       * <code>.dstore.values.StringValue separator_in_ident_vals = 7;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.values.StringValue, io.dstore.values.StringValue.Builder, io.dstore.values.StringValueOrBuilder> 
@@ -2114,13 +2114,13 @@ public final class CoDeleteMessagePu {
 
       private boolean separatorInIdentValsNull_ ;
       /**
-       * <code>optional bool separator_in_ident_vals_null = 1007;</code>
+       * <code>bool separator_in_ident_vals_null = 1007;</code>
        */
       public boolean getSeparatorInIdentValsNull() {
         return separatorInIdentValsNull_;
       }
       /**
-       * <code>optional bool separator_in_ident_vals_null = 1007;</code>
+       * <code>bool separator_in_ident_vals_null = 1007;</code>
        */
       public Builder setSeparatorInIdentValsNull(boolean value) {
         
@@ -2129,7 +2129,7 @@ public final class CoDeleteMessagePu {
         return this;
       }
       /**
-       * <code>optional bool separator_in_ident_vals_null = 1007;</code>
+       * <code>bool separator_in_ident_vals_null = 1007;</code>
        */
       public Builder clearSeparatorInIdentValsNull() {
         
@@ -2388,7 +2388,7 @@ public final class CoDeleteMessagePu {
         com.google.protobuf.MessageOrBuilder {
 
       /**
-       * <code>optional int32 row_id = 10000;</code>
+       * <code>int32 row_id = 10000;</code>
        */
       int getRowId();
     }
@@ -2463,7 +2463,7 @@ public final class CoDeleteMessagePu {
       public static final int ROW_ID_FIELD_NUMBER = 10000;
       private int rowId_;
       /**
-       * <code>optional int32 row_id = 10000;</code>
+       * <code>int32 row_id = 10000;</code>
        */
       public int getRowId() {
         return rowId_;
@@ -2522,7 +2522,7 @@ public final class CoDeleteMessagePu {
           return memoizedHashCode;
         }
         int hash = 41;
-        hash = (19 * hash) + getDescriptorForType().hashCode();
+        hash = (19 * hash) + getDescriptor().hashCode();
         hash = (37 * hash) + ROW_ID_FIELD_NUMBER;
         hash = (53 * hash) + getRowId();
         hash = (29 * hash) + unknownFields.hashCode();
@@ -2740,13 +2740,13 @@ public final class CoDeleteMessagePu {
 
         private int rowId_ ;
         /**
-         * <code>optional int32 row_id = 10000;</code>
+         * <code>int32 row_id = 10000;</code>
          */
         public int getRowId() {
           return rowId_;
         }
         /**
-         * <code>optional int32 row_id = 10000;</code>
+         * <code>int32 row_id = 10000;</code>
          */
         public Builder setRowId(int value) {
           
@@ -2755,7 +2755,7 @@ public final class CoDeleteMessagePu {
           return this;
         }
         /**
-         * <code>optional int32 row_id = 10000;</code>
+         * <code>int32 row_id = 10000;</code>
          */
         public Builder clearRowId() {
           
@@ -3008,7 +3008,7 @@ public final class CoDeleteMessagePu {
         return memoizedHashCode;
       }
       int hash = 41;
-      hash = (19 * hash) + getDescriptorForType().hashCode();
+      hash = (19 * hash) + getDescriptor().hashCode();
       if (getMetaInformationCount() > 0) {
         hash = (37 * hash) + META_INFORMATION_FIELD_NUMBER;
         hash = (53 * hash) + getMetaInformationList().hashCode();

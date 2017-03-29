@@ -95,7 +95,7 @@ public  final class Field extends
   public static final int NAME_FIELD_NUMBER = 1;
   private volatile java.lang.Object name_;
   /**
-   * <code>optional string name = 1;</code>
+   * <code>string name = 1;</code>
    */
   public java.lang.String getName() {
     java.lang.Object ref = name_;
@@ -110,7 +110,7 @@ public  final class Field extends
     }
   }
   /**
-   * <code>optional string name = 1;</code>
+   * <code>string name = 1;</code>
    */
   public com.google.protobuf.ByteString
       getNameBytes() {
@@ -129,7 +129,7 @@ public  final class Field extends
   public static final int MULTI_FIELD_FIELD_NUMBER = 2;
   private boolean multiField_;
   /**
-   * <code>optional bool multi_field = 2;</code>
+   * <code>bool multi_field = 2;</code>
    */
   public boolean getMultiField() {
     return multiField_;
@@ -240,7 +240,7 @@ public  final class Field extends
       return memoizedHashCode;
     }
     int hash = 41;
-    hash = (19 * hash) + getDescriptorForType().hashCode();
+    hash = (19 * hash) + getDescriptor().hashCode();
     hash = (37 * hash) + NAME_FIELD_NUMBER;
     hash = (53 * hash) + getName().hashCode();
     hash = (37 * hash) + MULTI_FIELD_FIELD_NUMBER;
@@ -518,7 +518,7 @@ public  final class Field extends
 
     private java.lang.Object name_ = "";
     /**
-     * <code>optional string name = 1;</code>
+     * <code>string name = 1;</code>
      */
     public java.lang.String getName() {
       java.lang.Object ref = name_;
@@ -533,7 +533,7 @@ public  final class Field extends
       }
     }
     /**
-     * <code>optional string name = 1;</code>
+     * <code>string name = 1;</code>
      */
     public com.google.protobuf.ByteString
         getNameBytes() {
@@ -549,7 +549,7 @@ public  final class Field extends
       }
     }
     /**
-     * <code>optional string name = 1;</code>
+     * <code>string name = 1;</code>
      */
     public Builder setName(
         java.lang.String value) {
@@ -562,7 +562,7 @@ public  final class Field extends
       return this;
     }
     /**
-     * <code>optional string name = 1;</code>
+     * <code>string name = 1;</code>
      */
     public Builder clearName() {
       
@@ -571,7 +571,7 @@ public  final class Field extends
       return this;
     }
     /**
-     * <code>optional string name = 1;</code>
+     * <code>string name = 1;</code>
      */
     public Builder setNameBytes(
         com.google.protobuf.ByteString value) {
@@ -587,13 +587,13 @@ public  final class Field extends
 
     private boolean multiField_ ;
     /**
-     * <code>optional bool multi_field = 2;</code>
+     * <code>bool multi_field = 2;</code>
      */
     public boolean getMultiField() {
       return multiField_;
     }
     /**
-     * <code>optional bool multi_field = 2;</code>
+     * <code>bool multi_field = 2;</code>
      */
     public Builder setMultiField(boolean value) {
       
@@ -602,7 +602,7 @@ public  final class Field extends
       return this;
     }
     /**
-     * <code>optional bool multi_field = 2;</code>
+     * <code>bool multi_field = 2;</code>
      */
     public Builder clearMultiField() {
       

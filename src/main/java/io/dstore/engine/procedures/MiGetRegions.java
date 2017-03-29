@@ -19,20 +19,20 @@ public final class MiGetRegions {
       com.google.protobuf.MessageOrBuilder {
 
     /**
-     * <code>optional .dstore.values.IntegerValue region_id = 1;</code>
+     * <code>.dstore.values.IntegerValue region_id = 1;</code>
      */
     boolean hasRegionId();
     /**
-     * <code>optional .dstore.values.IntegerValue region_id = 1;</code>
+     * <code>.dstore.values.IntegerValue region_id = 1;</code>
      */
     io.dstore.values.IntegerValue getRegionId();
     /**
-     * <code>optional .dstore.values.IntegerValue region_id = 1;</code>
+     * <code>.dstore.values.IntegerValue region_id = 1;</code>
      */
     io.dstore.values.IntegerValueOrBuilder getRegionIdOrBuilder();
 
     /**
-     * <code>optional bool region_id_null = 1001;</code>
+     * <code>bool region_id_null = 1001;</code>
      */
     boolean getRegionIdNull();
   }
@@ -120,19 +120,19 @@ public final class MiGetRegions {
     public static final int REGION_ID_FIELD_NUMBER = 1;
     private io.dstore.values.IntegerValue regionId_;
     /**
-     * <code>optional .dstore.values.IntegerValue region_id = 1;</code>
+     * <code>.dstore.values.IntegerValue region_id = 1;</code>
      */
     public boolean hasRegionId() {
       return regionId_ != null;
     }
     /**
-     * <code>optional .dstore.values.IntegerValue region_id = 1;</code>
+     * <code>.dstore.values.IntegerValue region_id = 1;</code>
      */
     public io.dstore.values.IntegerValue getRegionId() {
       return regionId_ == null ? io.dstore.values.IntegerValue.getDefaultInstance() : regionId_;
     }
     /**
-     * <code>optional .dstore.values.IntegerValue region_id = 1;</code>
+     * <code>.dstore.values.IntegerValue region_id = 1;</code>
      */
     public io.dstore.values.IntegerValueOrBuilder getRegionIdOrBuilder() {
       return getRegionId();
@@ -141,7 +141,7 @@ public final class MiGetRegions {
     public static final int REGION_ID_NULL_FIELD_NUMBER = 1001;
     private boolean regionIdNull_;
     /**
-     * <code>optional bool region_id_null = 1001;</code>
+     * <code>bool region_id_null = 1001;</code>
      */
     public boolean getRegionIdNull() {
       return regionIdNull_;
@@ -212,7 +212,7 @@ public final class MiGetRegions {
         return memoizedHashCode;
       }
       int hash = 41;
-      hash = (19 * hash) + getDescriptorForType().hashCode();
+      hash = (19 * hash) + getDescriptor().hashCode();
       if (hasRegionId()) {
         hash = (37 * hash) + REGION_ID_FIELD_NUMBER;
         hash = (53 * hash) + getRegionId().hashCode();
@@ -451,13 +451,13 @@ public final class MiGetRegions {
       private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> regionIdBuilder_;
       /**
-       * <code>optional .dstore.values.IntegerValue region_id = 1;</code>
+       * <code>.dstore.values.IntegerValue region_id = 1;</code>
        */
       public boolean hasRegionId() {
         return regionIdBuilder_ != null || regionId_ != null;
       }
       /**
-       * <code>optional .dstore.values.IntegerValue region_id = 1;</code>
+       * <code>.dstore.values.IntegerValue region_id = 1;</code>
        */
       public io.dstore.values.IntegerValue getRegionId() {
         if (regionIdBuilder_ == null) {
@@ -467,7 +467,7 @@ public final class MiGetRegions {
         }
       }
       /**
-       * <code>optional .dstore.values.IntegerValue region_id = 1;</code>
+       * <code>.dstore.values.IntegerValue region_id = 1;</code>
        */
       public Builder setRegionId(io.dstore.values.IntegerValue value) {
         if (regionIdBuilder_ == null) {
@@ -483,7 +483,7 @@ public final class MiGetRegions {
         return this;
       }
       /**
-       * <code>optional .dstore.values.IntegerValue region_id = 1;</code>
+       * <code>.dstore.values.IntegerValue region_id = 1;</code>
        */
       public Builder setRegionId(
           io.dstore.values.IntegerValue.Builder builderForValue) {
@@ -497,7 +497,7 @@ public final class MiGetRegions {
         return this;
       }
       /**
-       * <code>optional .dstore.values.IntegerValue region_id = 1;</code>
+       * <code>.dstore.values.IntegerValue region_id = 1;</code>
        */
       public Builder mergeRegionId(io.dstore.values.IntegerValue value) {
         if (regionIdBuilder_ == null) {
@@ -515,7 +515,7 @@ public final class MiGetRegions {
         return this;
       }
       /**
-       * <code>optional .dstore.values.IntegerValue region_id = 1;</code>
+       * <code>.dstore.values.IntegerValue region_id = 1;</code>
        */
       public Builder clearRegionId() {
         if (regionIdBuilder_ == null) {
@@ -529,7 +529,7 @@ public final class MiGetRegions {
         return this;
       }
       /**
-       * <code>optional .dstore.values.IntegerValue region_id = 1;</code>
+       * <code>.dstore.values.IntegerValue region_id = 1;</code>
        */
       public io.dstore.values.IntegerValue.Builder getRegionIdBuilder() {
         
@@ -537,7 +537,7 @@ public final class MiGetRegions {
         return getRegionIdFieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .dstore.values.IntegerValue region_id = 1;</code>
+       * <code>.dstore.values.IntegerValue region_id = 1;</code>
        */
       public io.dstore.values.IntegerValueOrBuilder getRegionIdOrBuilder() {
         if (regionIdBuilder_ != null) {
@@ -548,7 +548,7 @@ public final class MiGetRegions {
         }
       }
       /**
-       * <code>optional .dstore.values.IntegerValue region_id = 1;</code>
+       * <code>.dstore.values.IntegerValue region_id = 1;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> 
@@ -566,13 +566,13 @@ public final class MiGetRegions {
 
       private boolean regionIdNull_ ;
       /**
-       * <code>optional bool region_id_null = 1001;</code>
+       * <code>bool region_id_null = 1001;</code>
        */
       public boolean getRegionIdNull() {
         return regionIdNull_;
       }
       /**
-       * <code>optional bool region_id_null = 1001;</code>
+       * <code>bool region_id_null = 1001;</code>
        */
       public Builder setRegionIdNull(boolean value) {
         
@@ -581,7 +581,7 @@ public final class MiGetRegions {
         return this;
       }
       /**
-       * <code>optional bool region_id_null = 1001;</code>
+       * <code>bool region_id_null = 1001;</code>
        */
       public Builder clearRegionIdNull() {
         
@@ -840,7 +840,7 @@ public final class MiGetRegions {
         com.google.protobuf.MessageOrBuilder {
 
       /**
-       * <code>optional int32 row_id = 10000;</code>
+       * <code>int32 row_id = 10000;</code>
        */
       int getRowId();
 
@@ -849,7 +849,7 @@ public final class MiGetRegions {
        * Bezeichnung der Region "RegionID"
        * </pre>
        *
-       * <code>optional .dstore.values.StringValue region = 10001;</code>
+       * <code>.dstore.values.StringValue region = 10001;</code>
        */
       boolean hasRegion();
       /**
@@ -857,7 +857,7 @@ public final class MiGetRegions {
        * Bezeichnung der Region "RegionID"
        * </pre>
        *
-       * <code>optional .dstore.values.StringValue region = 10001;</code>
+       * <code>.dstore.values.StringValue region = 10001;</code>
        */
       io.dstore.values.StringValue getRegion();
       /**
@@ -865,7 +865,7 @@ public final class MiGetRegions {
        * Bezeichnung der Region "RegionID"
        * </pre>
        *
-       * <code>optional .dstore.values.StringValue region = 10001;</code>
+       * <code>.dstore.values.StringValue region = 10001;</code>
        */
       io.dstore.values.StringValueOrBuilder getRegionOrBuilder();
 
@@ -874,7 +874,7 @@ public final class MiGetRegions {
        * ID einer Region, in die Länder ("Countries") zusammengefaßt werden können
        * </pre>
        *
-       * <code>optional .dstore.values.IntegerValue region_id = 10002;</code>
+       * <code>.dstore.values.IntegerValue region_id = 10002;</code>
        */
       boolean hasRegionId();
       /**
@@ -882,7 +882,7 @@ public final class MiGetRegions {
        * ID einer Region, in die Länder ("Countries") zusammengefaßt werden können
        * </pre>
        *
-       * <code>optional .dstore.values.IntegerValue region_id = 10002;</code>
+       * <code>.dstore.values.IntegerValue region_id = 10002;</code>
        */
       io.dstore.values.IntegerValue getRegionId();
       /**
@@ -890,7 +890,7 @@ public final class MiGetRegions {
        * ID einer Region, in die Länder ("Countries") zusammengefaßt werden können
        * </pre>
        *
-       * <code>optional .dstore.values.IntegerValue region_id = 10002;</code>
+       * <code>.dstore.values.IntegerValue region_id = 10002;</code>
        */
       io.dstore.values.IntegerValueOrBuilder getRegionIdOrBuilder();
     }
@@ -991,7 +991,7 @@ public final class MiGetRegions {
       public static final int ROW_ID_FIELD_NUMBER = 10000;
       private int rowId_;
       /**
-       * <code>optional int32 row_id = 10000;</code>
+       * <code>int32 row_id = 10000;</code>
        */
       public int getRowId() {
         return rowId_;
@@ -1004,7 +1004,7 @@ public final class MiGetRegions {
        * Bezeichnung der Region "RegionID"
        * </pre>
        *
-       * <code>optional .dstore.values.StringValue region = 10001;</code>
+       * <code>.dstore.values.StringValue region = 10001;</code>
        */
       public boolean hasRegion() {
         return region_ != null;
@@ -1014,7 +1014,7 @@ public final class MiGetRegions {
        * Bezeichnung der Region "RegionID"
        * </pre>
        *
-       * <code>optional .dstore.values.StringValue region = 10001;</code>
+       * <code>.dstore.values.StringValue region = 10001;</code>
        */
       public io.dstore.values.StringValue getRegion() {
         return region_ == null ? io.dstore.values.StringValue.getDefaultInstance() : region_;
@@ -1024,7 +1024,7 @@ public final class MiGetRegions {
        * Bezeichnung der Region "RegionID"
        * </pre>
        *
-       * <code>optional .dstore.values.StringValue region = 10001;</code>
+       * <code>.dstore.values.StringValue region = 10001;</code>
        */
       public io.dstore.values.StringValueOrBuilder getRegionOrBuilder() {
         return getRegion();
@@ -1037,7 +1037,7 @@ public final class MiGetRegions {
        * ID einer Region, in die Länder ("Countries") zusammengefaßt werden können
        * </pre>
        *
-       * <code>optional .dstore.values.IntegerValue region_id = 10002;</code>
+       * <code>.dstore.values.IntegerValue region_id = 10002;</code>
        */
       public boolean hasRegionId() {
         return regionId_ != null;
@@ -1047,7 +1047,7 @@ public final class MiGetRegions {
        * ID einer Region, in die Länder ("Countries") zusammengefaßt werden können
        * </pre>
        *
-       * <code>optional .dstore.values.IntegerValue region_id = 10002;</code>
+       * <code>.dstore.values.IntegerValue region_id = 10002;</code>
        */
       public io.dstore.values.IntegerValue getRegionId() {
         return regionId_ == null ? io.dstore.values.IntegerValue.getDefaultInstance() : regionId_;
@@ -1057,7 +1057,7 @@ public final class MiGetRegions {
        * ID einer Region, in die Länder ("Countries") zusammengefaßt werden können
        * </pre>
        *
-       * <code>optional .dstore.values.IntegerValue region_id = 10002;</code>
+       * <code>.dstore.values.IntegerValue region_id = 10002;</code>
        */
       public io.dstore.values.IntegerValueOrBuilder getRegionIdOrBuilder() {
         return getRegionId();
@@ -1140,7 +1140,7 @@ public final class MiGetRegions {
           return memoizedHashCode;
         }
         int hash = 41;
-        hash = (19 * hash) + getDescriptorForType().hashCode();
+        hash = (19 * hash) + getDescriptor().hashCode();
         hash = (37 * hash) + ROW_ID_FIELD_NUMBER;
         hash = (53 * hash) + getRowId();
         if (hasRegion()) {
@@ -1394,13 +1394,13 @@ public final class MiGetRegions {
 
         private int rowId_ ;
         /**
-         * <code>optional int32 row_id = 10000;</code>
+         * <code>int32 row_id = 10000;</code>
          */
         public int getRowId() {
           return rowId_;
         }
         /**
-         * <code>optional int32 row_id = 10000;</code>
+         * <code>int32 row_id = 10000;</code>
          */
         public Builder setRowId(int value) {
           
@@ -1409,7 +1409,7 @@ public final class MiGetRegions {
           return this;
         }
         /**
-         * <code>optional int32 row_id = 10000;</code>
+         * <code>int32 row_id = 10000;</code>
          */
         public Builder clearRowId() {
           
@@ -1426,7 +1426,7 @@ public final class MiGetRegions {
          * Bezeichnung der Region "RegionID"
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue region = 10001;</code>
+         * <code>.dstore.values.StringValue region = 10001;</code>
          */
         public boolean hasRegion() {
           return regionBuilder_ != null || region_ != null;
@@ -1436,7 +1436,7 @@ public final class MiGetRegions {
          * Bezeichnung der Region "RegionID"
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue region = 10001;</code>
+         * <code>.dstore.values.StringValue region = 10001;</code>
          */
         public io.dstore.values.StringValue getRegion() {
           if (regionBuilder_ == null) {
@@ -1450,7 +1450,7 @@ public final class MiGetRegions {
          * Bezeichnung der Region "RegionID"
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue region = 10001;</code>
+         * <code>.dstore.values.StringValue region = 10001;</code>
          */
         public Builder setRegion(io.dstore.values.StringValue value) {
           if (regionBuilder_ == null) {
@@ -1470,7 +1470,7 @@ public final class MiGetRegions {
          * Bezeichnung der Region "RegionID"
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue region = 10001;</code>
+         * <code>.dstore.values.StringValue region = 10001;</code>
          */
         public Builder setRegion(
             io.dstore.values.StringValue.Builder builderForValue) {
@@ -1488,7 +1488,7 @@ public final class MiGetRegions {
          * Bezeichnung der Region "RegionID"
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue region = 10001;</code>
+         * <code>.dstore.values.StringValue region = 10001;</code>
          */
         public Builder mergeRegion(io.dstore.values.StringValue value) {
           if (regionBuilder_ == null) {
@@ -1510,7 +1510,7 @@ public final class MiGetRegions {
          * Bezeichnung der Region "RegionID"
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue region = 10001;</code>
+         * <code>.dstore.values.StringValue region = 10001;</code>
          */
         public Builder clearRegion() {
           if (regionBuilder_ == null) {
@@ -1528,7 +1528,7 @@ public final class MiGetRegions {
          * Bezeichnung der Region "RegionID"
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue region = 10001;</code>
+         * <code>.dstore.values.StringValue region = 10001;</code>
          */
         public io.dstore.values.StringValue.Builder getRegionBuilder() {
           
@@ -1540,7 +1540,7 @@ public final class MiGetRegions {
          * Bezeichnung der Region "RegionID"
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue region = 10001;</code>
+         * <code>.dstore.values.StringValue region = 10001;</code>
          */
         public io.dstore.values.StringValueOrBuilder getRegionOrBuilder() {
           if (regionBuilder_ != null) {
@@ -1555,7 +1555,7 @@ public final class MiGetRegions {
          * Bezeichnung der Region "RegionID"
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue region = 10001;</code>
+         * <code>.dstore.values.StringValue region = 10001;</code>
          */
         private com.google.protobuf.SingleFieldBuilderV3<
             io.dstore.values.StringValue, io.dstore.values.StringValue.Builder, io.dstore.values.StringValueOrBuilder> 
@@ -1579,7 +1579,7 @@ public final class MiGetRegions {
          * ID einer Region, in die Länder ("Countries") zusammengefaßt werden können
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue region_id = 10002;</code>
+         * <code>.dstore.values.IntegerValue region_id = 10002;</code>
          */
         public boolean hasRegionId() {
           return regionIdBuilder_ != null || regionId_ != null;
@@ -1589,7 +1589,7 @@ public final class MiGetRegions {
          * ID einer Region, in die Länder ("Countries") zusammengefaßt werden können
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue region_id = 10002;</code>
+         * <code>.dstore.values.IntegerValue region_id = 10002;</code>
          */
         public io.dstore.values.IntegerValue getRegionId() {
           if (regionIdBuilder_ == null) {
@@ -1603,7 +1603,7 @@ public final class MiGetRegions {
          * ID einer Region, in die Länder ("Countries") zusammengefaßt werden können
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue region_id = 10002;</code>
+         * <code>.dstore.values.IntegerValue region_id = 10002;</code>
          */
         public Builder setRegionId(io.dstore.values.IntegerValue value) {
           if (regionIdBuilder_ == null) {
@@ -1623,7 +1623,7 @@ public final class MiGetRegions {
          * ID einer Region, in die Länder ("Countries") zusammengefaßt werden können
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue region_id = 10002;</code>
+         * <code>.dstore.values.IntegerValue region_id = 10002;</code>
          */
         public Builder setRegionId(
             io.dstore.values.IntegerValue.Builder builderForValue) {
@@ -1641,7 +1641,7 @@ public final class MiGetRegions {
          * ID einer Region, in die Länder ("Countries") zusammengefaßt werden können
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue region_id = 10002;</code>
+         * <code>.dstore.values.IntegerValue region_id = 10002;</code>
          */
         public Builder mergeRegionId(io.dstore.values.IntegerValue value) {
           if (regionIdBuilder_ == null) {
@@ -1663,7 +1663,7 @@ public final class MiGetRegions {
          * ID einer Region, in die Länder ("Countries") zusammengefaßt werden können
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue region_id = 10002;</code>
+         * <code>.dstore.values.IntegerValue region_id = 10002;</code>
          */
         public Builder clearRegionId() {
           if (regionIdBuilder_ == null) {
@@ -1681,7 +1681,7 @@ public final class MiGetRegions {
          * ID einer Region, in die Länder ("Countries") zusammengefaßt werden können
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue region_id = 10002;</code>
+         * <code>.dstore.values.IntegerValue region_id = 10002;</code>
          */
         public io.dstore.values.IntegerValue.Builder getRegionIdBuilder() {
           
@@ -1693,7 +1693,7 @@ public final class MiGetRegions {
          * ID einer Region, in die Länder ("Countries") zusammengefaßt werden können
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue region_id = 10002;</code>
+         * <code>.dstore.values.IntegerValue region_id = 10002;</code>
          */
         public io.dstore.values.IntegerValueOrBuilder getRegionIdOrBuilder() {
           if (regionIdBuilder_ != null) {
@@ -1708,7 +1708,7 @@ public final class MiGetRegions {
          * ID einer Region, in die Länder ("Countries") zusammengefaßt werden können
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue region_id = 10002;</code>
+         * <code>.dstore.values.IntegerValue region_id = 10002;</code>
          */
         private com.google.protobuf.SingleFieldBuilderV3<
             io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> 
@@ -1968,7 +1968,7 @@ public final class MiGetRegions {
         return memoizedHashCode;
       }
       int hash = 41;
-      hash = (19 * hash) + getDescriptorForType().hashCode();
+      hash = (19 * hash) + getDescriptor().hashCode();
       if (getMetaInformationCount() > 0) {
         hash = (37 * hash) + META_INFORMATION_FIELD_NUMBER;
         hash = (53 * hash) + getMetaInformationList().hashCode();

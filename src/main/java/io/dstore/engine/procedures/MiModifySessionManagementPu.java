@@ -19,56 +19,56 @@ public final class MiModifySessionManagementPu {
       com.google.protobuf.MessageOrBuilder {
 
     /**
-     * <code>optional .dstore.values.StringValue session_id = 1;</code>
+     * <code>.dstore.values.StringValue session_id = 1;</code>
      */
     boolean hasSessionId();
     /**
-     * <code>optional .dstore.values.StringValue session_id = 1;</code>
+     * <code>.dstore.values.StringValue session_id = 1;</code>
      */
     io.dstore.values.StringValue getSessionId();
     /**
-     * <code>optional .dstore.values.StringValue session_id = 1;</code>
+     * <code>.dstore.values.StringValue session_id = 1;</code>
      */
     io.dstore.values.StringValueOrBuilder getSessionIdOrBuilder();
 
     /**
-     * <code>optional bool session_id_null = 1001;</code>
+     * <code>bool session_id_null = 1001;</code>
      */
     boolean getSessionIdNull();
 
     /**
-     * <code>optional .dstore.values.StringValue key_variable = 2;</code>
+     * <code>.dstore.values.StringValue key_variable = 2;</code>
      */
     boolean hasKeyVariable();
     /**
-     * <code>optional .dstore.values.StringValue key_variable = 2;</code>
+     * <code>.dstore.values.StringValue key_variable = 2;</code>
      */
     io.dstore.values.StringValue getKeyVariable();
     /**
-     * <code>optional .dstore.values.StringValue key_variable = 2;</code>
+     * <code>.dstore.values.StringValue key_variable = 2;</code>
      */
     io.dstore.values.StringValueOrBuilder getKeyVariableOrBuilder();
 
     /**
-     * <code>optional bool key_variable_null = 1002;</code>
+     * <code>bool key_variable_null = 1002;</code>
      */
     boolean getKeyVariableNull();
 
     /**
-     * <code>optional .dstore.values.StringValue value = 3;</code>
+     * <code>.dstore.values.StringValue value = 3;</code>
      */
     boolean hasValue();
     /**
-     * <code>optional .dstore.values.StringValue value = 3;</code>
+     * <code>.dstore.values.StringValue value = 3;</code>
      */
     io.dstore.values.StringValue getValue();
     /**
-     * <code>optional .dstore.values.StringValue value = 3;</code>
+     * <code>.dstore.values.StringValue value = 3;</code>
      */
     io.dstore.values.StringValueOrBuilder getValueOrBuilder();
 
     /**
-     * <code>optional bool value_null = 1003;</code>
+     * <code>bool value_null = 1003;</code>
      */
     boolean getValueNull();
   }
@@ -194,19 +194,19 @@ public final class MiModifySessionManagementPu {
     public static final int SESSION_ID_FIELD_NUMBER = 1;
     private io.dstore.values.StringValue sessionId_;
     /**
-     * <code>optional .dstore.values.StringValue session_id = 1;</code>
+     * <code>.dstore.values.StringValue session_id = 1;</code>
      */
     public boolean hasSessionId() {
       return sessionId_ != null;
     }
     /**
-     * <code>optional .dstore.values.StringValue session_id = 1;</code>
+     * <code>.dstore.values.StringValue session_id = 1;</code>
      */
     public io.dstore.values.StringValue getSessionId() {
       return sessionId_ == null ? io.dstore.values.StringValue.getDefaultInstance() : sessionId_;
     }
     /**
-     * <code>optional .dstore.values.StringValue session_id = 1;</code>
+     * <code>.dstore.values.StringValue session_id = 1;</code>
      */
     public io.dstore.values.StringValueOrBuilder getSessionIdOrBuilder() {
       return getSessionId();
@@ -215,7 +215,7 @@ public final class MiModifySessionManagementPu {
     public static final int SESSION_ID_NULL_FIELD_NUMBER = 1001;
     private boolean sessionIdNull_;
     /**
-     * <code>optional bool session_id_null = 1001;</code>
+     * <code>bool session_id_null = 1001;</code>
      */
     public boolean getSessionIdNull() {
       return sessionIdNull_;
@@ -224,19 +224,19 @@ public final class MiModifySessionManagementPu {
     public static final int KEY_VARIABLE_FIELD_NUMBER = 2;
     private io.dstore.values.StringValue keyVariable_;
     /**
-     * <code>optional .dstore.values.StringValue key_variable = 2;</code>
+     * <code>.dstore.values.StringValue key_variable = 2;</code>
      */
     public boolean hasKeyVariable() {
       return keyVariable_ != null;
     }
     /**
-     * <code>optional .dstore.values.StringValue key_variable = 2;</code>
+     * <code>.dstore.values.StringValue key_variable = 2;</code>
      */
     public io.dstore.values.StringValue getKeyVariable() {
       return keyVariable_ == null ? io.dstore.values.StringValue.getDefaultInstance() : keyVariable_;
     }
     /**
-     * <code>optional .dstore.values.StringValue key_variable = 2;</code>
+     * <code>.dstore.values.StringValue key_variable = 2;</code>
      */
     public io.dstore.values.StringValueOrBuilder getKeyVariableOrBuilder() {
       return getKeyVariable();
@@ -245,7 +245,7 @@ public final class MiModifySessionManagementPu {
     public static final int KEY_VARIABLE_NULL_FIELD_NUMBER = 1002;
     private boolean keyVariableNull_;
     /**
-     * <code>optional bool key_variable_null = 1002;</code>
+     * <code>bool key_variable_null = 1002;</code>
      */
     public boolean getKeyVariableNull() {
       return keyVariableNull_;
@@ -254,19 +254,19 @@ public final class MiModifySessionManagementPu {
     public static final int VALUE_FIELD_NUMBER = 3;
     private io.dstore.values.StringValue value_;
     /**
-     * <code>optional .dstore.values.StringValue value = 3;</code>
+     * <code>.dstore.values.StringValue value = 3;</code>
      */
     public boolean hasValue() {
       return value_ != null;
     }
     /**
-     * <code>optional .dstore.values.StringValue value = 3;</code>
+     * <code>.dstore.values.StringValue value = 3;</code>
      */
     public io.dstore.values.StringValue getValue() {
       return value_ == null ? io.dstore.values.StringValue.getDefaultInstance() : value_;
     }
     /**
-     * <code>optional .dstore.values.StringValue value = 3;</code>
+     * <code>.dstore.values.StringValue value = 3;</code>
      */
     public io.dstore.values.StringValueOrBuilder getValueOrBuilder() {
       return getValue();
@@ -275,7 +275,7 @@ public final class MiModifySessionManagementPu {
     public static final int VALUE_NULL_FIELD_NUMBER = 1003;
     private boolean valueNull_;
     /**
-     * <code>optional bool value_null = 1003;</code>
+     * <code>bool value_null = 1003;</code>
      */
     public boolean getValueNull() {
       return valueNull_;
@@ -388,7 +388,7 @@ public final class MiModifySessionManagementPu {
         return memoizedHashCode;
       }
       int hash = 41;
-      hash = (19 * hash) + getDescriptorForType().hashCode();
+      hash = (19 * hash) + getDescriptor().hashCode();
       if (hasSessionId()) {
         hash = (37 * hash) + SESSION_ID_FIELD_NUMBER;
         hash = (53 * hash) + getSessionId().hashCode();
@@ -681,13 +681,13 @@ public final class MiModifySessionManagementPu {
       private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.values.StringValue, io.dstore.values.StringValue.Builder, io.dstore.values.StringValueOrBuilder> sessionIdBuilder_;
       /**
-       * <code>optional .dstore.values.StringValue session_id = 1;</code>
+       * <code>.dstore.values.StringValue session_id = 1;</code>
        */
       public boolean hasSessionId() {
         return sessionIdBuilder_ != null || sessionId_ != null;
       }
       /**
-       * <code>optional .dstore.values.StringValue session_id = 1;</code>
+       * <code>.dstore.values.StringValue session_id = 1;</code>
        */
       public io.dstore.values.StringValue getSessionId() {
         if (sessionIdBuilder_ == null) {
@@ -697,7 +697,7 @@ public final class MiModifySessionManagementPu {
         }
       }
       /**
-       * <code>optional .dstore.values.StringValue session_id = 1;</code>
+       * <code>.dstore.values.StringValue session_id = 1;</code>
        */
       public Builder setSessionId(io.dstore.values.StringValue value) {
         if (sessionIdBuilder_ == null) {
@@ -713,7 +713,7 @@ public final class MiModifySessionManagementPu {
         return this;
       }
       /**
-       * <code>optional .dstore.values.StringValue session_id = 1;</code>
+       * <code>.dstore.values.StringValue session_id = 1;</code>
        */
       public Builder setSessionId(
           io.dstore.values.StringValue.Builder builderForValue) {
@@ -727,7 +727,7 @@ public final class MiModifySessionManagementPu {
         return this;
       }
       /**
-       * <code>optional .dstore.values.StringValue session_id = 1;</code>
+       * <code>.dstore.values.StringValue session_id = 1;</code>
        */
       public Builder mergeSessionId(io.dstore.values.StringValue value) {
         if (sessionIdBuilder_ == null) {
@@ -745,7 +745,7 @@ public final class MiModifySessionManagementPu {
         return this;
       }
       /**
-       * <code>optional .dstore.values.StringValue session_id = 1;</code>
+       * <code>.dstore.values.StringValue session_id = 1;</code>
        */
       public Builder clearSessionId() {
         if (sessionIdBuilder_ == null) {
@@ -759,7 +759,7 @@ public final class MiModifySessionManagementPu {
         return this;
       }
       /**
-       * <code>optional .dstore.values.StringValue session_id = 1;</code>
+       * <code>.dstore.values.StringValue session_id = 1;</code>
        */
       public io.dstore.values.StringValue.Builder getSessionIdBuilder() {
         
@@ -767,7 +767,7 @@ public final class MiModifySessionManagementPu {
         return getSessionIdFieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .dstore.values.StringValue session_id = 1;</code>
+       * <code>.dstore.values.StringValue session_id = 1;</code>
        */
       public io.dstore.values.StringValueOrBuilder getSessionIdOrBuilder() {
         if (sessionIdBuilder_ != null) {
@@ -778,7 +778,7 @@ public final class MiModifySessionManagementPu {
         }
       }
       /**
-       * <code>optional .dstore.values.StringValue session_id = 1;</code>
+       * <code>.dstore.values.StringValue session_id = 1;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.values.StringValue, io.dstore.values.StringValue.Builder, io.dstore.values.StringValueOrBuilder> 
@@ -796,13 +796,13 @@ public final class MiModifySessionManagementPu {
 
       private boolean sessionIdNull_ ;
       /**
-       * <code>optional bool session_id_null = 1001;</code>
+       * <code>bool session_id_null = 1001;</code>
        */
       public boolean getSessionIdNull() {
         return sessionIdNull_;
       }
       /**
-       * <code>optional bool session_id_null = 1001;</code>
+       * <code>bool session_id_null = 1001;</code>
        */
       public Builder setSessionIdNull(boolean value) {
         
@@ -811,7 +811,7 @@ public final class MiModifySessionManagementPu {
         return this;
       }
       /**
-       * <code>optional bool session_id_null = 1001;</code>
+       * <code>bool session_id_null = 1001;</code>
        */
       public Builder clearSessionIdNull() {
         
@@ -824,13 +824,13 @@ public final class MiModifySessionManagementPu {
       private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.values.StringValue, io.dstore.values.StringValue.Builder, io.dstore.values.StringValueOrBuilder> keyVariableBuilder_;
       /**
-       * <code>optional .dstore.values.StringValue key_variable = 2;</code>
+       * <code>.dstore.values.StringValue key_variable = 2;</code>
        */
       public boolean hasKeyVariable() {
         return keyVariableBuilder_ != null || keyVariable_ != null;
       }
       /**
-       * <code>optional .dstore.values.StringValue key_variable = 2;</code>
+       * <code>.dstore.values.StringValue key_variable = 2;</code>
        */
       public io.dstore.values.StringValue getKeyVariable() {
         if (keyVariableBuilder_ == null) {
@@ -840,7 +840,7 @@ public final class MiModifySessionManagementPu {
         }
       }
       /**
-       * <code>optional .dstore.values.StringValue key_variable = 2;</code>
+       * <code>.dstore.values.StringValue key_variable = 2;</code>
        */
       public Builder setKeyVariable(io.dstore.values.StringValue value) {
         if (keyVariableBuilder_ == null) {
@@ -856,7 +856,7 @@ public final class MiModifySessionManagementPu {
         return this;
       }
       /**
-       * <code>optional .dstore.values.StringValue key_variable = 2;</code>
+       * <code>.dstore.values.StringValue key_variable = 2;</code>
        */
       public Builder setKeyVariable(
           io.dstore.values.StringValue.Builder builderForValue) {
@@ -870,7 +870,7 @@ public final class MiModifySessionManagementPu {
         return this;
       }
       /**
-       * <code>optional .dstore.values.StringValue key_variable = 2;</code>
+       * <code>.dstore.values.StringValue key_variable = 2;</code>
        */
       public Builder mergeKeyVariable(io.dstore.values.StringValue value) {
         if (keyVariableBuilder_ == null) {
@@ -888,7 +888,7 @@ public final class MiModifySessionManagementPu {
         return this;
       }
       /**
-       * <code>optional .dstore.values.StringValue key_variable = 2;</code>
+       * <code>.dstore.values.StringValue key_variable = 2;</code>
        */
       public Builder clearKeyVariable() {
         if (keyVariableBuilder_ == null) {
@@ -902,7 +902,7 @@ public final class MiModifySessionManagementPu {
         return this;
       }
       /**
-       * <code>optional .dstore.values.StringValue key_variable = 2;</code>
+       * <code>.dstore.values.StringValue key_variable = 2;</code>
        */
       public io.dstore.values.StringValue.Builder getKeyVariableBuilder() {
         
@@ -910,7 +910,7 @@ public final class MiModifySessionManagementPu {
         return getKeyVariableFieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .dstore.values.StringValue key_variable = 2;</code>
+       * <code>.dstore.values.StringValue key_variable = 2;</code>
        */
       public io.dstore.values.StringValueOrBuilder getKeyVariableOrBuilder() {
         if (keyVariableBuilder_ != null) {
@@ -921,7 +921,7 @@ public final class MiModifySessionManagementPu {
         }
       }
       /**
-       * <code>optional .dstore.values.StringValue key_variable = 2;</code>
+       * <code>.dstore.values.StringValue key_variable = 2;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.values.StringValue, io.dstore.values.StringValue.Builder, io.dstore.values.StringValueOrBuilder> 
@@ -939,13 +939,13 @@ public final class MiModifySessionManagementPu {
 
       private boolean keyVariableNull_ ;
       /**
-       * <code>optional bool key_variable_null = 1002;</code>
+       * <code>bool key_variable_null = 1002;</code>
        */
       public boolean getKeyVariableNull() {
         return keyVariableNull_;
       }
       /**
-       * <code>optional bool key_variable_null = 1002;</code>
+       * <code>bool key_variable_null = 1002;</code>
        */
       public Builder setKeyVariableNull(boolean value) {
         
@@ -954,7 +954,7 @@ public final class MiModifySessionManagementPu {
         return this;
       }
       /**
-       * <code>optional bool key_variable_null = 1002;</code>
+       * <code>bool key_variable_null = 1002;</code>
        */
       public Builder clearKeyVariableNull() {
         
@@ -967,13 +967,13 @@ public final class MiModifySessionManagementPu {
       private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.values.StringValue, io.dstore.values.StringValue.Builder, io.dstore.values.StringValueOrBuilder> valueBuilder_;
       /**
-       * <code>optional .dstore.values.StringValue value = 3;</code>
+       * <code>.dstore.values.StringValue value = 3;</code>
        */
       public boolean hasValue() {
         return valueBuilder_ != null || value_ != null;
       }
       /**
-       * <code>optional .dstore.values.StringValue value = 3;</code>
+       * <code>.dstore.values.StringValue value = 3;</code>
        */
       public io.dstore.values.StringValue getValue() {
         if (valueBuilder_ == null) {
@@ -983,7 +983,7 @@ public final class MiModifySessionManagementPu {
         }
       }
       /**
-       * <code>optional .dstore.values.StringValue value = 3;</code>
+       * <code>.dstore.values.StringValue value = 3;</code>
        */
       public Builder setValue(io.dstore.values.StringValue value) {
         if (valueBuilder_ == null) {
@@ -999,7 +999,7 @@ public final class MiModifySessionManagementPu {
         return this;
       }
       /**
-       * <code>optional .dstore.values.StringValue value = 3;</code>
+       * <code>.dstore.values.StringValue value = 3;</code>
        */
       public Builder setValue(
           io.dstore.values.StringValue.Builder builderForValue) {
@@ -1013,7 +1013,7 @@ public final class MiModifySessionManagementPu {
         return this;
       }
       /**
-       * <code>optional .dstore.values.StringValue value = 3;</code>
+       * <code>.dstore.values.StringValue value = 3;</code>
        */
       public Builder mergeValue(io.dstore.values.StringValue value) {
         if (valueBuilder_ == null) {
@@ -1031,7 +1031,7 @@ public final class MiModifySessionManagementPu {
         return this;
       }
       /**
-       * <code>optional .dstore.values.StringValue value = 3;</code>
+       * <code>.dstore.values.StringValue value = 3;</code>
        */
       public Builder clearValue() {
         if (valueBuilder_ == null) {
@@ -1045,7 +1045,7 @@ public final class MiModifySessionManagementPu {
         return this;
       }
       /**
-       * <code>optional .dstore.values.StringValue value = 3;</code>
+       * <code>.dstore.values.StringValue value = 3;</code>
        */
       public io.dstore.values.StringValue.Builder getValueBuilder() {
         
@@ -1053,7 +1053,7 @@ public final class MiModifySessionManagementPu {
         return getValueFieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .dstore.values.StringValue value = 3;</code>
+       * <code>.dstore.values.StringValue value = 3;</code>
        */
       public io.dstore.values.StringValueOrBuilder getValueOrBuilder() {
         if (valueBuilder_ != null) {
@@ -1064,7 +1064,7 @@ public final class MiModifySessionManagementPu {
         }
       }
       /**
-       * <code>optional .dstore.values.StringValue value = 3;</code>
+       * <code>.dstore.values.StringValue value = 3;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.values.StringValue, io.dstore.values.StringValue.Builder, io.dstore.values.StringValueOrBuilder> 
@@ -1082,13 +1082,13 @@ public final class MiModifySessionManagementPu {
 
       private boolean valueNull_ ;
       /**
-       * <code>optional bool value_null = 1003;</code>
+       * <code>bool value_null = 1003;</code>
        */
       public boolean getValueNull() {
         return valueNull_;
       }
       /**
-       * <code>optional bool value_null = 1003;</code>
+       * <code>bool value_null = 1003;</code>
        */
       public Builder setValueNull(boolean value) {
         
@@ -1097,7 +1097,7 @@ public final class MiModifySessionManagementPu {
         return this;
       }
       /**
-       * <code>optional bool value_null = 1003;</code>
+       * <code>bool value_null = 1003;</code>
        */
       public Builder clearValueNull() {
         
@@ -1356,7 +1356,7 @@ public final class MiModifySessionManagementPu {
         com.google.protobuf.MessageOrBuilder {
 
       /**
-       * <code>optional int32 row_id = 10000;</code>
+       * <code>int32 row_id = 10000;</code>
        */
       int getRowId();
     }
@@ -1431,7 +1431,7 @@ public final class MiModifySessionManagementPu {
       public static final int ROW_ID_FIELD_NUMBER = 10000;
       private int rowId_;
       /**
-       * <code>optional int32 row_id = 10000;</code>
+       * <code>int32 row_id = 10000;</code>
        */
       public int getRowId() {
         return rowId_;
@@ -1490,7 +1490,7 @@ public final class MiModifySessionManagementPu {
           return memoizedHashCode;
         }
         int hash = 41;
-        hash = (19 * hash) + getDescriptorForType().hashCode();
+        hash = (19 * hash) + getDescriptor().hashCode();
         hash = (37 * hash) + ROW_ID_FIELD_NUMBER;
         hash = (53 * hash) + getRowId();
         hash = (29 * hash) + unknownFields.hashCode();
@@ -1708,13 +1708,13 @@ public final class MiModifySessionManagementPu {
 
         private int rowId_ ;
         /**
-         * <code>optional int32 row_id = 10000;</code>
+         * <code>int32 row_id = 10000;</code>
          */
         public int getRowId() {
           return rowId_;
         }
         /**
-         * <code>optional int32 row_id = 10000;</code>
+         * <code>int32 row_id = 10000;</code>
          */
         public Builder setRowId(int value) {
           
@@ -1723,7 +1723,7 @@ public final class MiModifySessionManagementPu {
           return this;
         }
         /**
-         * <code>optional int32 row_id = 10000;</code>
+         * <code>int32 row_id = 10000;</code>
          */
         public Builder clearRowId() {
           
@@ -1976,7 +1976,7 @@ public final class MiModifySessionManagementPu {
         return memoizedHashCode;
       }
       int hash = 41;
-      hash = (19 * hash) + getDescriptorForType().hashCode();
+      hash = (19 * hash) + getDescriptor().hashCode();
       if (getMetaInformationCount() > 0) {
         hash = (37 * hash) + META_INFORMATION_FIELD_NUMBER;
         hash = (53 * hash) + getMetaInformationList().hashCode();

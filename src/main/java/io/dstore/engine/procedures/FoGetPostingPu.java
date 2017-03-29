@@ -19,110 +19,110 @@ public final class FoGetPostingPu {
       com.google.protobuf.MessageOrBuilder {
 
     /**
-     * <code>optional .dstore.values.StringValue person_identification_values = 1;</code>
+     * <code>.dstore.values.StringValue person_identification_values = 1;</code>
      */
     boolean hasPersonIdentificationValues();
     /**
-     * <code>optional .dstore.values.StringValue person_identification_values = 1;</code>
+     * <code>.dstore.values.StringValue person_identification_values = 1;</code>
      */
     io.dstore.values.StringValue getPersonIdentificationValues();
     /**
-     * <code>optional .dstore.values.StringValue person_identification_values = 1;</code>
+     * <code>.dstore.values.StringValue person_identification_values = 1;</code>
      */
     io.dstore.values.StringValueOrBuilder getPersonIdentificationValuesOrBuilder();
 
     /**
-     * <code>optional bool person_identification_values_null = 1001;</code>
+     * <code>bool person_identification_values_null = 1001;</code>
      */
     boolean getPersonIdentificationValuesNull();
 
     /**
-     * <code>optional .dstore.values.IntegerValue person_type_id = 2;</code>
+     * <code>.dstore.values.IntegerValue person_type_id = 2;</code>
      */
     boolean hasPersonTypeId();
     /**
-     * <code>optional .dstore.values.IntegerValue person_type_id = 2;</code>
+     * <code>.dstore.values.IntegerValue person_type_id = 2;</code>
      */
     io.dstore.values.IntegerValue getPersonTypeId();
     /**
-     * <code>optional .dstore.values.IntegerValue person_type_id = 2;</code>
+     * <code>.dstore.values.IntegerValue person_type_id = 2;</code>
      */
     io.dstore.values.IntegerValueOrBuilder getPersonTypeIdOrBuilder();
 
     /**
-     * <code>optional bool person_type_id_null = 1002;</code>
+     * <code>bool person_type_id_null = 1002;</code>
      */
     boolean getPersonTypeIdNull();
 
     /**
-     * <code>optional .dstore.values.StringValue unique_id = 3;</code>
+     * <code>.dstore.values.StringValue unique_id = 3;</code>
      */
     boolean hasUniqueId();
     /**
-     * <code>optional .dstore.values.StringValue unique_id = 3;</code>
+     * <code>.dstore.values.StringValue unique_id = 3;</code>
      */
     io.dstore.values.StringValue getUniqueId();
     /**
-     * <code>optional .dstore.values.StringValue unique_id = 3;</code>
+     * <code>.dstore.values.StringValue unique_id = 3;</code>
      */
     io.dstore.values.StringValueOrBuilder getUniqueIdOrBuilder();
 
     /**
-     * <code>optional bool unique_id_null = 1003;</code>
+     * <code>bool unique_id_null = 1003;</code>
      */
     boolean getUniqueIdNull();
 
     /**
-     * <code>optional .dstore.values.IntegerValue posting_id = 4;</code>
+     * <code>.dstore.values.IntegerValue posting_id = 4;</code>
      */
     boolean hasPostingId();
     /**
-     * <code>optional .dstore.values.IntegerValue posting_id = 4;</code>
+     * <code>.dstore.values.IntegerValue posting_id = 4;</code>
      */
     io.dstore.values.IntegerValue getPostingId();
     /**
-     * <code>optional .dstore.values.IntegerValue posting_id = 4;</code>
+     * <code>.dstore.values.IntegerValue posting_id = 4;</code>
      */
     io.dstore.values.IntegerValueOrBuilder getPostingIdOrBuilder();
 
     /**
-     * <code>optional bool posting_id_null = 1004;</code>
+     * <code>bool posting_id_null = 1004;</code>
      */
     boolean getPostingIdNull();
 
     /**
-     * <code>optional .dstore.values.BooleanValue additional_infos = 5;</code>
+     * <code>.dstore.values.BooleanValue additional_infos = 5;</code>
      */
     boolean hasAdditionalInfos();
     /**
-     * <code>optional .dstore.values.BooleanValue additional_infos = 5;</code>
+     * <code>.dstore.values.BooleanValue additional_infos = 5;</code>
      */
     io.dstore.values.BooleanValue getAdditionalInfos();
     /**
-     * <code>optional .dstore.values.BooleanValue additional_infos = 5;</code>
+     * <code>.dstore.values.BooleanValue additional_infos = 5;</code>
      */
     io.dstore.values.BooleanValueOrBuilder getAdditionalInfosOrBuilder();
 
     /**
-     * <code>optional bool additional_infos_null = 1005;</code>
+     * <code>bool additional_infos_null = 1005;</code>
      */
     boolean getAdditionalInfosNull();
 
     /**
-     * <code>optional .dstore.values.StringValue separator_in_ident_vals = 6;</code>
+     * <code>.dstore.values.StringValue separator_in_ident_vals = 6;</code>
      */
     boolean hasSeparatorInIdentVals();
     /**
-     * <code>optional .dstore.values.StringValue separator_in_ident_vals = 6;</code>
+     * <code>.dstore.values.StringValue separator_in_ident_vals = 6;</code>
      */
     io.dstore.values.StringValue getSeparatorInIdentVals();
     /**
-     * <code>optional .dstore.values.StringValue separator_in_ident_vals = 6;</code>
+     * <code>.dstore.values.StringValue separator_in_ident_vals = 6;</code>
      */
     io.dstore.values.StringValueOrBuilder getSeparatorInIdentValsOrBuilder();
 
     /**
-     * <code>optional bool separator_in_ident_vals_null = 1006;</code>
+     * <code>bool separator_in_ident_vals_null = 1006;</code>
      */
     boolean getSeparatorInIdentValsNull();
   }
@@ -305,19 +305,19 @@ public final class FoGetPostingPu {
     public static final int PERSON_IDENTIFICATION_VALUES_FIELD_NUMBER = 1;
     private io.dstore.values.StringValue personIdentificationValues_;
     /**
-     * <code>optional .dstore.values.StringValue person_identification_values = 1;</code>
+     * <code>.dstore.values.StringValue person_identification_values = 1;</code>
      */
     public boolean hasPersonIdentificationValues() {
       return personIdentificationValues_ != null;
     }
     /**
-     * <code>optional .dstore.values.StringValue person_identification_values = 1;</code>
+     * <code>.dstore.values.StringValue person_identification_values = 1;</code>
      */
     public io.dstore.values.StringValue getPersonIdentificationValues() {
       return personIdentificationValues_ == null ? io.dstore.values.StringValue.getDefaultInstance() : personIdentificationValues_;
     }
     /**
-     * <code>optional .dstore.values.StringValue person_identification_values = 1;</code>
+     * <code>.dstore.values.StringValue person_identification_values = 1;</code>
      */
     public io.dstore.values.StringValueOrBuilder getPersonIdentificationValuesOrBuilder() {
       return getPersonIdentificationValues();
@@ -326,7 +326,7 @@ public final class FoGetPostingPu {
     public static final int PERSON_IDENTIFICATION_VALUES_NULL_FIELD_NUMBER = 1001;
     private boolean personIdentificationValuesNull_;
     /**
-     * <code>optional bool person_identification_values_null = 1001;</code>
+     * <code>bool person_identification_values_null = 1001;</code>
      */
     public boolean getPersonIdentificationValuesNull() {
       return personIdentificationValuesNull_;
@@ -335,19 +335,19 @@ public final class FoGetPostingPu {
     public static final int PERSON_TYPE_ID_FIELD_NUMBER = 2;
     private io.dstore.values.IntegerValue personTypeId_;
     /**
-     * <code>optional .dstore.values.IntegerValue person_type_id = 2;</code>
+     * <code>.dstore.values.IntegerValue person_type_id = 2;</code>
      */
     public boolean hasPersonTypeId() {
       return personTypeId_ != null;
     }
     /**
-     * <code>optional .dstore.values.IntegerValue person_type_id = 2;</code>
+     * <code>.dstore.values.IntegerValue person_type_id = 2;</code>
      */
     public io.dstore.values.IntegerValue getPersonTypeId() {
       return personTypeId_ == null ? io.dstore.values.IntegerValue.getDefaultInstance() : personTypeId_;
     }
     /**
-     * <code>optional .dstore.values.IntegerValue person_type_id = 2;</code>
+     * <code>.dstore.values.IntegerValue person_type_id = 2;</code>
      */
     public io.dstore.values.IntegerValueOrBuilder getPersonTypeIdOrBuilder() {
       return getPersonTypeId();
@@ -356,7 +356,7 @@ public final class FoGetPostingPu {
     public static final int PERSON_TYPE_ID_NULL_FIELD_NUMBER = 1002;
     private boolean personTypeIdNull_;
     /**
-     * <code>optional bool person_type_id_null = 1002;</code>
+     * <code>bool person_type_id_null = 1002;</code>
      */
     public boolean getPersonTypeIdNull() {
       return personTypeIdNull_;
@@ -365,19 +365,19 @@ public final class FoGetPostingPu {
     public static final int UNIQUE_ID_FIELD_NUMBER = 3;
     private io.dstore.values.StringValue uniqueId_;
     /**
-     * <code>optional .dstore.values.StringValue unique_id = 3;</code>
+     * <code>.dstore.values.StringValue unique_id = 3;</code>
      */
     public boolean hasUniqueId() {
       return uniqueId_ != null;
     }
     /**
-     * <code>optional .dstore.values.StringValue unique_id = 3;</code>
+     * <code>.dstore.values.StringValue unique_id = 3;</code>
      */
     public io.dstore.values.StringValue getUniqueId() {
       return uniqueId_ == null ? io.dstore.values.StringValue.getDefaultInstance() : uniqueId_;
     }
     /**
-     * <code>optional .dstore.values.StringValue unique_id = 3;</code>
+     * <code>.dstore.values.StringValue unique_id = 3;</code>
      */
     public io.dstore.values.StringValueOrBuilder getUniqueIdOrBuilder() {
       return getUniqueId();
@@ -386,7 +386,7 @@ public final class FoGetPostingPu {
     public static final int UNIQUE_ID_NULL_FIELD_NUMBER = 1003;
     private boolean uniqueIdNull_;
     /**
-     * <code>optional bool unique_id_null = 1003;</code>
+     * <code>bool unique_id_null = 1003;</code>
      */
     public boolean getUniqueIdNull() {
       return uniqueIdNull_;
@@ -395,19 +395,19 @@ public final class FoGetPostingPu {
     public static final int POSTING_ID_FIELD_NUMBER = 4;
     private io.dstore.values.IntegerValue postingId_;
     /**
-     * <code>optional .dstore.values.IntegerValue posting_id = 4;</code>
+     * <code>.dstore.values.IntegerValue posting_id = 4;</code>
      */
     public boolean hasPostingId() {
       return postingId_ != null;
     }
     /**
-     * <code>optional .dstore.values.IntegerValue posting_id = 4;</code>
+     * <code>.dstore.values.IntegerValue posting_id = 4;</code>
      */
     public io.dstore.values.IntegerValue getPostingId() {
       return postingId_ == null ? io.dstore.values.IntegerValue.getDefaultInstance() : postingId_;
     }
     /**
-     * <code>optional .dstore.values.IntegerValue posting_id = 4;</code>
+     * <code>.dstore.values.IntegerValue posting_id = 4;</code>
      */
     public io.dstore.values.IntegerValueOrBuilder getPostingIdOrBuilder() {
       return getPostingId();
@@ -416,7 +416,7 @@ public final class FoGetPostingPu {
     public static final int POSTING_ID_NULL_FIELD_NUMBER = 1004;
     private boolean postingIdNull_;
     /**
-     * <code>optional bool posting_id_null = 1004;</code>
+     * <code>bool posting_id_null = 1004;</code>
      */
     public boolean getPostingIdNull() {
       return postingIdNull_;
@@ -425,19 +425,19 @@ public final class FoGetPostingPu {
     public static final int ADDITIONAL_INFOS_FIELD_NUMBER = 5;
     private io.dstore.values.BooleanValue additionalInfos_;
     /**
-     * <code>optional .dstore.values.BooleanValue additional_infos = 5;</code>
+     * <code>.dstore.values.BooleanValue additional_infos = 5;</code>
      */
     public boolean hasAdditionalInfos() {
       return additionalInfos_ != null;
     }
     /**
-     * <code>optional .dstore.values.BooleanValue additional_infos = 5;</code>
+     * <code>.dstore.values.BooleanValue additional_infos = 5;</code>
      */
     public io.dstore.values.BooleanValue getAdditionalInfos() {
       return additionalInfos_ == null ? io.dstore.values.BooleanValue.getDefaultInstance() : additionalInfos_;
     }
     /**
-     * <code>optional .dstore.values.BooleanValue additional_infos = 5;</code>
+     * <code>.dstore.values.BooleanValue additional_infos = 5;</code>
      */
     public io.dstore.values.BooleanValueOrBuilder getAdditionalInfosOrBuilder() {
       return getAdditionalInfos();
@@ -446,7 +446,7 @@ public final class FoGetPostingPu {
     public static final int ADDITIONAL_INFOS_NULL_FIELD_NUMBER = 1005;
     private boolean additionalInfosNull_;
     /**
-     * <code>optional bool additional_infos_null = 1005;</code>
+     * <code>bool additional_infos_null = 1005;</code>
      */
     public boolean getAdditionalInfosNull() {
       return additionalInfosNull_;
@@ -455,19 +455,19 @@ public final class FoGetPostingPu {
     public static final int SEPARATOR_IN_IDENT_VALS_FIELD_NUMBER = 6;
     private io.dstore.values.StringValue separatorInIdentVals_;
     /**
-     * <code>optional .dstore.values.StringValue separator_in_ident_vals = 6;</code>
+     * <code>.dstore.values.StringValue separator_in_ident_vals = 6;</code>
      */
     public boolean hasSeparatorInIdentVals() {
       return separatorInIdentVals_ != null;
     }
     /**
-     * <code>optional .dstore.values.StringValue separator_in_ident_vals = 6;</code>
+     * <code>.dstore.values.StringValue separator_in_ident_vals = 6;</code>
      */
     public io.dstore.values.StringValue getSeparatorInIdentVals() {
       return separatorInIdentVals_ == null ? io.dstore.values.StringValue.getDefaultInstance() : separatorInIdentVals_;
     }
     /**
-     * <code>optional .dstore.values.StringValue separator_in_ident_vals = 6;</code>
+     * <code>.dstore.values.StringValue separator_in_ident_vals = 6;</code>
      */
     public io.dstore.values.StringValueOrBuilder getSeparatorInIdentValsOrBuilder() {
       return getSeparatorInIdentVals();
@@ -476,7 +476,7 @@ public final class FoGetPostingPu {
     public static final int SEPARATOR_IN_IDENT_VALS_NULL_FIELD_NUMBER = 1006;
     private boolean separatorInIdentValsNull_;
     /**
-     * <code>optional bool separator_in_ident_vals_null = 1006;</code>
+     * <code>bool separator_in_ident_vals_null = 1006;</code>
      */
     public boolean getSeparatorInIdentValsNull() {
       return separatorInIdentValsNull_;
@@ -652,7 +652,7 @@ public final class FoGetPostingPu {
         return memoizedHashCode;
       }
       int hash = 41;
-      hash = (19 * hash) + getDescriptorForType().hashCode();
+      hash = (19 * hash) + getDescriptor().hashCode();
       if (hasPersonIdentificationValues()) {
         hash = (37 * hash) + PERSON_IDENTIFICATION_VALUES_FIELD_NUMBER;
         hash = (53 * hash) + getPersonIdentificationValues().hashCode();
@@ -1026,13 +1026,13 @@ public final class FoGetPostingPu {
       private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.values.StringValue, io.dstore.values.StringValue.Builder, io.dstore.values.StringValueOrBuilder> personIdentificationValuesBuilder_;
       /**
-       * <code>optional .dstore.values.StringValue person_identification_values = 1;</code>
+       * <code>.dstore.values.StringValue person_identification_values = 1;</code>
        */
       public boolean hasPersonIdentificationValues() {
         return personIdentificationValuesBuilder_ != null || personIdentificationValues_ != null;
       }
       /**
-       * <code>optional .dstore.values.StringValue person_identification_values = 1;</code>
+       * <code>.dstore.values.StringValue person_identification_values = 1;</code>
        */
       public io.dstore.values.StringValue getPersonIdentificationValues() {
         if (personIdentificationValuesBuilder_ == null) {
@@ -1042,7 +1042,7 @@ public final class FoGetPostingPu {
         }
       }
       /**
-       * <code>optional .dstore.values.StringValue person_identification_values = 1;</code>
+       * <code>.dstore.values.StringValue person_identification_values = 1;</code>
        */
       public Builder setPersonIdentificationValues(io.dstore.values.StringValue value) {
         if (personIdentificationValuesBuilder_ == null) {
@@ -1058,7 +1058,7 @@ public final class FoGetPostingPu {
         return this;
       }
       /**
-       * <code>optional .dstore.values.StringValue person_identification_values = 1;</code>
+       * <code>.dstore.values.StringValue person_identification_values = 1;</code>
        */
       public Builder setPersonIdentificationValues(
           io.dstore.values.StringValue.Builder builderForValue) {
@@ -1072,7 +1072,7 @@ public final class FoGetPostingPu {
         return this;
       }
       /**
-       * <code>optional .dstore.values.StringValue person_identification_values = 1;</code>
+       * <code>.dstore.values.StringValue person_identification_values = 1;</code>
        */
       public Builder mergePersonIdentificationValues(io.dstore.values.StringValue value) {
         if (personIdentificationValuesBuilder_ == null) {
@@ -1090,7 +1090,7 @@ public final class FoGetPostingPu {
         return this;
       }
       /**
-       * <code>optional .dstore.values.StringValue person_identification_values = 1;</code>
+       * <code>.dstore.values.StringValue person_identification_values = 1;</code>
        */
       public Builder clearPersonIdentificationValues() {
         if (personIdentificationValuesBuilder_ == null) {
@@ -1104,7 +1104,7 @@ public final class FoGetPostingPu {
         return this;
       }
       /**
-       * <code>optional .dstore.values.StringValue person_identification_values = 1;</code>
+       * <code>.dstore.values.StringValue person_identification_values = 1;</code>
        */
       public io.dstore.values.StringValue.Builder getPersonIdentificationValuesBuilder() {
         
@@ -1112,7 +1112,7 @@ public final class FoGetPostingPu {
         return getPersonIdentificationValuesFieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .dstore.values.StringValue person_identification_values = 1;</code>
+       * <code>.dstore.values.StringValue person_identification_values = 1;</code>
        */
       public io.dstore.values.StringValueOrBuilder getPersonIdentificationValuesOrBuilder() {
         if (personIdentificationValuesBuilder_ != null) {
@@ -1123,7 +1123,7 @@ public final class FoGetPostingPu {
         }
       }
       /**
-       * <code>optional .dstore.values.StringValue person_identification_values = 1;</code>
+       * <code>.dstore.values.StringValue person_identification_values = 1;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.values.StringValue, io.dstore.values.StringValue.Builder, io.dstore.values.StringValueOrBuilder> 
@@ -1141,13 +1141,13 @@ public final class FoGetPostingPu {
 
       private boolean personIdentificationValuesNull_ ;
       /**
-       * <code>optional bool person_identification_values_null = 1001;</code>
+       * <code>bool person_identification_values_null = 1001;</code>
        */
       public boolean getPersonIdentificationValuesNull() {
         return personIdentificationValuesNull_;
       }
       /**
-       * <code>optional bool person_identification_values_null = 1001;</code>
+       * <code>bool person_identification_values_null = 1001;</code>
        */
       public Builder setPersonIdentificationValuesNull(boolean value) {
         
@@ -1156,7 +1156,7 @@ public final class FoGetPostingPu {
         return this;
       }
       /**
-       * <code>optional bool person_identification_values_null = 1001;</code>
+       * <code>bool person_identification_values_null = 1001;</code>
        */
       public Builder clearPersonIdentificationValuesNull() {
         
@@ -1169,13 +1169,13 @@ public final class FoGetPostingPu {
       private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> personTypeIdBuilder_;
       /**
-       * <code>optional .dstore.values.IntegerValue person_type_id = 2;</code>
+       * <code>.dstore.values.IntegerValue person_type_id = 2;</code>
        */
       public boolean hasPersonTypeId() {
         return personTypeIdBuilder_ != null || personTypeId_ != null;
       }
       /**
-       * <code>optional .dstore.values.IntegerValue person_type_id = 2;</code>
+       * <code>.dstore.values.IntegerValue person_type_id = 2;</code>
        */
       public io.dstore.values.IntegerValue getPersonTypeId() {
         if (personTypeIdBuilder_ == null) {
@@ -1185,7 +1185,7 @@ public final class FoGetPostingPu {
         }
       }
       /**
-       * <code>optional .dstore.values.IntegerValue person_type_id = 2;</code>
+       * <code>.dstore.values.IntegerValue person_type_id = 2;</code>
        */
       public Builder setPersonTypeId(io.dstore.values.IntegerValue value) {
         if (personTypeIdBuilder_ == null) {
@@ -1201,7 +1201,7 @@ public final class FoGetPostingPu {
         return this;
       }
       /**
-       * <code>optional .dstore.values.IntegerValue person_type_id = 2;</code>
+       * <code>.dstore.values.IntegerValue person_type_id = 2;</code>
        */
       public Builder setPersonTypeId(
           io.dstore.values.IntegerValue.Builder builderForValue) {
@@ -1215,7 +1215,7 @@ public final class FoGetPostingPu {
         return this;
       }
       /**
-       * <code>optional .dstore.values.IntegerValue person_type_id = 2;</code>
+       * <code>.dstore.values.IntegerValue person_type_id = 2;</code>
        */
       public Builder mergePersonTypeId(io.dstore.values.IntegerValue value) {
         if (personTypeIdBuilder_ == null) {
@@ -1233,7 +1233,7 @@ public final class FoGetPostingPu {
         return this;
       }
       /**
-       * <code>optional .dstore.values.IntegerValue person_type_id = 2;</code>
+       * <code>.dstore.values.IntegerValue person_type_id = 2;</code>
        */
       public Builder clearPersonTypeId() {
         if (personTypeIdBuilder_ == null) {
@@ -1247,7 +1247,7 @@ public final class FoGetPostingPu {
         return this;
       }
       /**
-       * <code>optional .dstore.values.IntegerValue person_type_id = 2;</code>
+       * <code>.dstore.values.IntegerValue person_type_id = 2;</code>
        */
       public io.dstore.values.IntegerValue.Builder getPersonTypeIdBuilder() {
         
@@ -1255,7 +1255,7 @@ public final class FoGetPostingPu {
         return getPersonTypeIdFieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .dstore.values.IntegerValue person_type_id = 2;</code>
+       * <code>.dstore.values.IntegerValue person_type_id = 2;</code>
        */
       public io.dstore.values.IntegerValueOrBuilder getPersonTypeIdOrBuilder() {
         if (personTypeIdBuilder_ != null) {
@@ -1266,7 +1266,7 @@ public final class FoGetPostingPu {
         }
       }
       /**
-       * <code>optional .dstore.values.IntegerValue person_type_id = 2;</code>
+       * <code>.dstore.values.IntegerValue person_type_id = 2;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> 
@@ -1284,13 +1284,13 @@ public final class FoGetPostingPu {
 
       private boolean personTypeIdNull_ ;
       /**
-       * <code>optional bool person_type_id_null = 1002;</code>
+       * <code>bool person_type_id_null = 1002;</code>
        */
       public boolean getPersonTypeIdNull() {
         return personTypeIdNull_;
       }
       /**
-       * <code>optional bool person_type_id_null = 1002;</code>
+       * <code>bool person_type_id_null = 1002;</code>
        */
       public Builder setPersonTypeIdNull(boolean value) {
         
@@ -1299,7 +1299,7 @@ public final class FoGetPostingPu {
         return this;
       }
       /**
-       * <code>optional bool person_type_id_null = 1002;</code>
+       * <code>bool person_type_id_null = 1002;</code>
        */
       public Builder clearPersonTypeIdNull() {
         
@@ -1312,13 +1312,13 @@ public final class FoGetPostingPu {
       private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.values.StringValue, io.dstore.values.StringValue.Builder, io.dstore.values.StringValueOrBuilder> uniqueIdBuilder_;
       /**
-       * <code>optional .dstore.values.StringValue unique_id = 3;</code>
+       * <code>.dstore.values.StringValue unique_id = 3;</code>
        */
       public boolean hasUniqueId() {
         return uniqueIdBuilder_ != null || uniqueId_ != null;
       }
       /**
-       * <code>optional .dstore.values.StringValue unique_id = 3;</code>
+       * <code>.dstore.values.StringValue unique_id = 3;</code>
        */
       public io.dstore.values.StringValue getUniqueId() {
         if (uniqueIdBuilder_ == null) {
@@ -1328,7 +1328,7 @@ public final class FoGetPostingPu {
         }
       }
       /**
-       * <code>optional .dstore.values.StringValue unique_id = 3;</code>
+       * <code>.dstore.values.StringValue unique_id = 3;</code>
        */
       public Builder setUniqueId(io.dstore.values.StringValue value) {
         if (uniqueIdBuilder_ == null) {
@@ -1344,7 +1344,7 @@ public final class FoGetPostingPu {
         return this;
       }
       /**
-       * <code>optional .dstore.values.StringValue unique_id = 3;</code>
+       * <code>.dstore.values.StringValue unique_id = 3;</code>
        */
       public Builder setUniqueId(
           io.dstore.values.StringValue.Builder builderForValue) {
@@ -1358,7 +1358,7 @@ public final class FoGetPostingPu {
         return this;
       }
       /**
-       * <code>optional .dstore.values.StringValue unique_id = 3;</code>
+       * <code>.dstore.values.StringValue unique_id = 3;</code>
        */
       public Builder mergeUniqueId(io.dstore.values.StringValue value) {
         if (uniqueIdBuilder_ == null) {
@@ -1376,7 +1376,7 @@ public final class FoGetPostingPu {
         return this;
       }
       /**
-       * <code>optional .dstore.values.StringValue unique_id = 3;</code>
+       * <code>.dstore.values.StringValue unique_id = 3;</code>
        */
       public Builder clearUniqueId() {
         if (uniqueIdBuilder_ == null) {
@@ -1390,7 +1390,7 @@ public final class FoGetPostingPu {
         return this;
       }
       /**
-       * <code>optional .dstore.values.StringValue unique_id = 3;</code>
+       * <code>.dstore.values.StringValue unique_id = 3;</code>
        */
       public io.dstore.values.StringValue.Builder getUniqueIdBuilder() {
         
@@ -1398,7 +1398,7 @@ public final class FoGetPostingPu {
         return getUniqueIdFieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .dstore.values.StringValue unique_id = 3;</code>
+       * <code>.dstore.values.StringValue unique_id = 3;</code>
        */
       public io.dstore.values.StringValueOrBuilder getUniqueIdOrBuilder() {
         if (uniqueIdBuilder_ != null) {
@@ -1409,7 +1409,7 @@ public final class FoGetPostingPu {
         }
       }
       /**
-       * <code>optional .dstore.values.StringValue unique_id = 3;</code>
+       * <code>.dstore.values.StringValue unique_id = 3;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.values.StringValue, io.dstore.values.StringValue.Builder, io.dstore.values.StringValueOrBuilder> 
@@ -1427,13 +1427,13 @@ public final class FoGetPostingPu {
 
       private boolean uniqueIdNull_ ;
       /**
-       * <code>optional bool unique_id_null = 1003;</code>
+       * <code>bool unique_id_null = 1003;</code>
        */
       public boolean getUniqueIdNull() {
         return uniqueIdNull_;
       }
       /**
-       * <code>optional bool unique_id_null = 1003;</code>
+       * <code>bool unique_id_null = 1003;</code>
        */
       public Builder setUniqueIdNull(boolean value) {
         
@@ -1442,7 +1442,7 @@ public final class FoGetPostingPu {
         return this;
       }
       /**
-       * <code>optional bool unique_id_null = 1003;</code>
+       * <code>bool unique_id_null = 1003;</code>
        */
       public Builder clearUniqueIdNull() {
         
@@ -1455,13 +1455,13 @@ public final class FoGetPostingPu {
       private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> postingIdBuilder_;
       /**
-       * <code>optional .dstore.values.IntegerValue posting_id = 4;</code>
+       * <code>.dstore.values.IntegerValue posting_id = 4;</code>
        */
       public boolean hasPostingId() {
         return postingIdBuilder_ != null || postingId_ != null;
       }
       /**
-       * <code>optional .dstore.values.IntegerValue posting_id = 4;</code>
+       * <code>.dstore.values.IntegerValue posting_id = 4;</code>
        */
       public io.dstore.values.IntegerValue getPostingId() {
         if (postingIdBuilder_ == null) {
@@ -1471,7 +1471,7 @@ public final class FoGetPostingPu {
         }
       }
       /**
-       * <code>optional .dstore.values.IntegerValue posting_id = 4;</code>
+       * <code>.dstore.values.IntegerValue posting_id = 4;</code>
        */
       public Builder setPostingId(io.dstore.values.IntegerValue value) {
         if (postingIdBuilder_ == null) {
@@ -1487,7 +1487,7 @@ public final class FoGetPostingPu {
         return this;
       }
       /**
-       * <code>optional .dstore.values.IntegerValue posting_id = 4;</code>
+       * <code>.dstore.values.IntegerValue posting_id = 4;</code>
        */
       public Builder setPostingId(
           io.dstore.values.IntegerValue.Builder builderForValue) {
@@ -1501,7 +1501,7 @@ public final class FoGetPostingPu {
         return this;
       }
       /**
-       * <code>optional .dstore.values.IntegerValue posting_id = 4;</code>
+       * <code>.dstore.values.IntegerValue posting_id = 4;</code>
        */
       public Builder mergePostingId(io.dstore.values.IntegerValue value) {
         if (postingIdBuilder_ == null) {
@@ -1519,7 +1519,7 @@ public final class FoGetPostingPu {
         return this;
       }
       /**
-       * <code>optional .dstore.values.IntegerValue posting_id = 4;</code>
+       * <code>.dstore.values.IntegerValue posting_id = 4;</code>
        */
       public Builder clearPostingId() {
         if (postingIdBuilder_ == null) {
@@ -1533,7 +1533,7 @@ public final class FoGetPostingPu {
         return this;
       }
       /**
-       * <code>optional .dstore.values.IntegerValue posting_id = 4;</code>
+       * <code>.dstore.values.IntegerValue posting_id = 4;</code>
        */
       public io.dstore.values.IntegerValue.Builder getPostingIdBuilder() {
         
@@ -1541,7 +1541,7 @@ public final class FoGetPostingPu {
         return getPostingIdFieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .dstore.values.IntegerValue posting_id = 4;</code>
+       * <code>.dstore.values.IntegerValue posting_id = 4;</code>
        */
       public io.dstore.values.IntegerValueOrBuilder getPostingIdOrBuilder() {
         if (postingIdBuilder_ != null) {
@@ -1552,7 +1552,7 @@ public final class FoGetPostingPu {
         }
       }
       /**
-       * <code>optional .dstore.values.IntegerValue posting_id = 4;</code>
+       * <code>.dstore.values.IntegerValue posting_id = 4;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> 
@@ -1570,13 +1570,13 @@ public final class FoGetPostingPu {
 
       private boolean postingIdNull_ ;
       /**
-       * <code>optional bool posting_id_null = 1004;</code>
+       * <code>bool posting_id_null = 1004;</code>
        */
       public boolean getPostingIdNull() {
         return postingIdNull_;
       }
       /**
-       * <code>optional bool posting_id_null = 1004;</code>
+       * <code>bool posting_id_null = 1004;</code>
        */
       public Builder setPostingIdNull(boolean value) {
         
@@ -1585,7 +1585,7 @@ public final class FoGetPostingPu {
         return this;
       }
       /**
-       * <code>optional bool posting_id_null = 1004;</code>
+       * <code>bool posting_id_null = 1004;</code>
        */
       public Builder clearPostingIdNull() {
         
@@ -1598,13 +1598,13 @@ public final class FoGetPostingPu {
       private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.values.BooleanValue, io.dstore.values.BooleanValue.Builder, io.dstore.values.BooleanValueOrBuilder> additionalInfosBuilder_;
       /**
-       * <code>optional .dstore.values.BooleanValue additional_infos = 5;</code>
+       * <code>.dstore.values.BooleanValue additional_infos = 5;</code>
        */
       public boolean hasAdditionalInfos() {
         return additionalInfosBuilder_ != null || additionalInfos_ != null;
       }
       /**
-       * <code>optional .dstore.values.BooleanValue additional_infos = 5;</code>
+       * <code>.dstore.values.BooleanValue additional_infos = 5;</code>
        */
       public io.dstore.values.BooleanValue getAdditionalInfos() {
         if (additionalInfosBuilder_ == null) {
@@ -1614,7 +1614,7 @@ public final class FoGetPostingPu {
         }
       }
       /**
-       * <code>optional .dstore.values.BooleanValue additional_infos = 5;</code>
+       * <code>.dstore.values.BooleanValue additional_infos = 5;</code>
        */
       public Builder setAdditionalInfos(io.dstore.values.BooleanValue value) {
         if (additionalInfosBuilder_ == null) {
@@ -1630,7 +1630,7 @@ public final class FoGetPostingPu {
         return this;
       }
       /**
-       * <code>optional .dstore.values.BooleanValue additional_infos = 5;</code>
+       * <code>.dstore.values.BooleanValue additional_infos = 5;</code>
        */
       public Builder setAdditionalInfos(
           io.dstore.values.BooleanValue.Builder builderForValue) {
@@ -1644,7 +1644,7 @@ public final class FoGetPostingPu {
         return this;
       }
       /**
-       * <code>optional .dstore.values.BooleanValue additional_infos = 5;</code>
+       * <code>.dstore.values.BooleanValue additional_infos = 5;</code>
        */
       public Builder mergeAdditionalInfos(io.dstore.values.BooleanValue value) {
         if (additionalInfosBuilder_ == null) {
@@ -1662,7 +1662,7 @@ public final class FoGetPostingPu {
         return this;
       }
       /**
-       * <code>optional .dstore.values.BooleanValue additional_infos = 5;</code>
+       * <code>.dstore.values.BooleanValue additional_infos = 5;</code>
        */
       public Builder clearAdditionalInfos() {
         if (additionalInfosBuilder_ == null) {
@@ -1676,7 +1676,7 @@ public final class FoGetPostingPu {
         return this;
       }
       /**
-       * <code>optional .dstore.values.BooleanValue additional_infos = 5;</code>
+       * <code>.dstore.values.BooleanValue additional_infos = 5;</code>
        */
       public io.dstore.values.BooleanValue.Builder getAdditionalInfosBuilder() {
         
@@ -1684,7 +1684,7 @@ public final class FoGetPostingPu {
         return getAdditionalInfosFieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .dstore.values.BooleanValue additional_infos = 5;</code>
+       * <code>.dstore.values.BooleanValue additional_infos = 5;</code>
        */
       public io.dstore.values.BooleanValueOrBuilder getAdditionalInfosOrBuilder() {
         if (additionalInfosBuilder_ != null) {
@@ -1695,7 +1695,7 @@ public final class FoGetPostingPu {
         }
       }
       /**
-       * <code>optional .dstore.values.BooleanValue additional_infos = 5;</code>
+       * <code>.dstore.values.BooleanValue additional_infos = 5;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.values.BooleanValue, io.dstore.values.BooleanValue.Builder, io.dstore.values.BooleanValueOrBuilder> 
@@ -1713,13 +1713,13 @@ public final class FoGetPostingPu {
 
       private boolean additionalInfosNull_ ;
       /**
-       * <code>optional bool additional_infos_null = 1005;</code>
+       * <code>bool additional_infos_null = 1005;</code>
        */
       public boolean getAdditionalInfosNull() {
         return additionalInfosNull_;
       }
       /**
-       * <code>optional bool additional_infos_null = 1005;</code>
+       * <code>bool additional_infos_null = 1005;</code>
        */
       public Builder setAdditionalInfosNull(boolean value) {
         
@@ -1728,7 +1728,7 @@ public final class FoGetPostingPu {
         return this;
       }
       /**
-       * <code>optional bool additional_infos_null = 1005;</code>
+       * <code>bool additional_infos_null = 1005;</code>
        */
       public Builder clearAdditionalInfosNull() {
         
@@ -1741,13 +1741,13 @@ public final class FoGetPostingPu {
       private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.values.StringValue, io.dstore.values.StringValue.Builder, io.dstore.values.StringValueOrBuilder> separatorInIdentValsBuilder_;
       /**
-       * <code>optional .dstore.values.StringValue separator_in_ident_vals = 6;</code>
+       * <code>.dstore.values.StringValue separator_in_ident_vals = 6;</code>
        */
       public boolean hasSeparatorInIdentVals() {
         return separatorInIdentValsBuilder_ != null || separatorInIdentVals_ != null;
       }
       /**
-       * <code>optional .dstore.values.StringValue separator_in_ident_vals = 6;</code>
+       * <code>.dstore.values.StringValue separator_in_ident_vals = 6;</code>
        */
       public io.dstore.values.StringValue getSeparatorInIdentVals() {
         if (separatorInIdentValsBuilder_ == null) {
@@ -1757,7 +1757,7 @@ public final class FoGetPostingPu {
         }
       }
       /**
-       * <code>optional .dstore.values.StringValue separator_in_ident_vals = 6;</code>
+       * <code>.dstore.values.StringValue separator_in_ident_vals = 6;</code>
        */
       public Builder setSeparatorInIdentVals(io.dstore.values.StringValue value) {
         if (separatorInIdentValsBuilder_ == null) {
@@ -1773,7 +1773,7 @@ public final class FoGetPostingPu {
         return this;
       }
       /**
-       * <code>optional .dstore.values.StringValue separator_in_ident_vals = 6;</code>
+       * <code>.dstore.values.StringValue separator_in_ident_vals = 6;</code>
        */
       public Builder setSeparatorInIdentVals(
           io.dstore.values.StringValue.Builder builderForValue) {
@@ -1787,7 +1787,7 @@ public final class FoGetPostingPu {
         return this;
       }
       /**
-       * <code>optional .dstore.values.StringValue separator_in_ident_vals = 6;</code>
+       * <code>.dstore.values.StringValue separator_in_ident_vals = 6;</code>
        */
       public Builder mergeSeparatorInIdentVals(io.dstore.values.StringValue value) {
         if (separatorInIdentValsBuilder_ == null) {
@@ -1805,7 +1805,7 @@ public final class FoGetPostingPu {
         return this;
       }
       /**
-       * <code>optional .dstore.values.StringValue separator_in_ident_vals = 6;</code>
+       * <code>.dstore.values.StringValue separator_in_ident_vals = 6;</code>
        */
       public Builder clearSeparatorInIdentVals() {
         if (separatorInIdentValsBuilder_ == null) {
@@ -1819,7 +1819,7 @@ public final class FoGetPostingPu {
         return this;
       }
       /**
-       * <code>optional .dstore.values.StringValue separator_in_ident_vals = 6;</code>
+       * <code>.dstore.values.StringValue separator_in_ident_vals = 6;</code>
        */
       public io.dstore.values.StringValue.Builder getSeparatorInIdentValsBuilder() {
         
@@ -1827,7 +1827,7 @@ public final class FoGetPostingPu {
         return getSeparatorInIdentValsFieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .dstore.values.StringValue separator_in_ident_vals = 6;</code>
+       * <code>.dstore.values.StringValue separator_in_ident_vals = 6;</code>
        */
       public io.dstore.values.StringValueOrBuilder getSeparatorInIdentValsOrBuilder() {
         if (separatorInIdentValsBuilder_ != null) {
@@ -1838,7 +1838,7 @@ public final class FoGetPostingPu {
         }
       }
       /**
-       * <code>optional .dstore.values.StringValue separator_in_ident_vals = 6;</code>
+       * <code>.dstore.values.StringValue separator_in_ident_vals = 6;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.values.StringValue, io.dstore.values.StringValue.Builder, io.dstore.values.StringValueOrBuilder> 
@@ -1856,13 +1856,13 @@ public final class FoGetPostingPu {
 
       private boolean separatorInIdentValsNull_ ;
       /**
-       * <code>optional bool separator_in_ident_vals_null = 1006;</code>
+       * <code>bool separator_in_ident_vals_null = 1006;</code>
        */
       public boolean getSeparatorInIdentValsNull() {
         return separatorInIdentValsNull_;
       }
       /**
-       * <code>optional bool separator_in_ident_vals_null = 1006;</code>
+       * <code>bool separator_in_ident_vals_null = 1006;</code>
        */
       public Builder setSeparatorInIdentValsNull(boolean value) {
         
@@ -1871,7 +1871,7 @@ public final class FoGetPostingPu {
         return this;
       }
       /**
-       * <code>optional bool separator_in_ident_vals_null = 1006;</code>
+       * <code>bool separator_in_ident_vals_null = 1006;</code>
        */
       public Builder clearSeparatorInIdentValsNull() {
         
@@ -2130,7 +2130,7 @@ public final class FoGetPostingPu {
         com.google.protobuf.MessageOrBuilder {
 
       /**
-       * <code>optional int32 row_id = 10000;</code>
+       * <code>int32 row_id = 10000;</code>
        */
       int getRowId();
 
@@ -2139,7 +2139,7 @@ public final class FoGetPostingPu {
        * Hier erscheint der Beitrag selbst, falls er weniger als 256 Zeichen enthält UND "UseSmallBody" in "ForumSettings" auf "1" gesetzt ist. D.h. mindestens EINE der Rückgabespalten "SmallBody" und "Body" ist IMMER "NULL".
        * </pre>
        *
-       * <code>optional .dstore.values.StringValue small_body = 10001;</code>
+       * <code>.dstore.values.StringValue small_body = 10001;</code>
        */
       boolean hasSmallBody();
       /**
@@ -2147,7 +2147,7 @@ public final class FoGetPostingPu {
        * Hier erscheint der Beitrag selbst, falls er weniger als 256 Zeichen enthält UND "UseSmallBody" in "ForumSettings" auf "1" gesetzt ist. D.h. mindestens EINE der Rückgabespalten "SmallBody" und "Body" ist IMMER "NULL".
        * </pre>
        *
-       * <code>optional .dstore.values.StringValue small_body = 10001;</code>
+       * <code>.dstore.values.StringValue small_body = 10001;</code>
        */
       io.dstore.values.StringValue getSmallBody();
       /**
@@ -2155,7 +2155,7 @@ public final class FoGetPostingPu {
        * Hier erscheint der Beitrag selbst, falls er weniger als 256 Zeichen enthält UND "UseSmallBody" in "ForumSettings" auf "1" gesetzt ist. D.h. mindestens EINE der Rückgabespalten "SmallBody" und "Body" ist IMMER "NULL".
        * </pre>
        *
-       * <code>optional .dstore.values.StringValue small_body = 10001;</code>
+       * <code>.dstore.values.StringValue small_body = 10001;</code>
        */
       io.dstore.values.StringValueOrBuilder getSmallBodyOrBuilder();
 
@@ -2164,7 +2164,7 @@ public final class FoGetPostingPu {
        * ID des Forums zu dem der Beitrag "&#64;PostingID" gehört
        * </pre>
        *
-       * <code>optional .dstore.values.IntegerValue forum_id = 10002;</code>
+       * <code>.dstore.values.IntegerValue forum_id = 10002;</code>
        */
       boolean hasForumId();
       /**
@@ -2172,7 +2172,7 @@ public final class FoGetPostingPu {
        * ID des Forums zu dem der Beitrag "&#64;PostingID" gehört
        * </pre>
        *
-       * <code>optional .dstore.values.IntegerValue forum_id = 10002;</code>
+       * <code>.dstore.values.IntegerValue forum_id = 10002;</code>
        */
       io.dstore.values.IntegerValue getForumId();
       /**
@@ -2180,7 +2180,7 @@ public final class FoGetPostingPu {
        * ID des Forums zu dem der Beitrag "&#64;PostingID" gehört
        * </pre>
        *
-       * <code>optional .dstore.values.IntegerValue forum_id = 10002;</code>
+       * <code>.dstore.values.IntegerValue forum_id = 10002;</code>
        */
       io.dstore.values.IntegerValueOrBuilder getForumIdOrBuilder();
 
@@ -2189,7 +2189,7 @@ public final class FoGetPostingPu {
        * Falls "&#64;AdditionalInfos = 1" ist, steht hier die Eigenschaft von "AuthorPersonID" zur dritten Merkmal-ID, die in "ForumSettings" zum Schlüssel "AllowedCharacteristicsForAdditionalInformation_&lt;PersonTypeID von AuthorPersonID&gt;" hinterlegt ist
        * </pre>
        *
-       * <code>optional .dstore.values.StringValue value3 = 10003;</code>
+       * <code>.dstore.values.StringValue value3 = 10003;</code>
        */
       boolean hasValue3();
       /**
@@ -2197,7 +2197,7 @@ public final class FoGetPostingPu {
        * Falls "&#64;AdditionalInfos = 1" ist, steht hier die Eigenschaft von "AuthorPersonID" zur dritten Merkmal-ID, die in "ForumSettings" zum Schlüssel "AllowedCharacteristicsForAdditionalInformation_&lt;PersonTypeID von AuthorPersonID&gt;" hinterlegt ist
        * </pre>
        *
-       * <code>optional .dstore.values.StringValue value3 = 10003;</code>
+       * <code>.dstore.values.StringValue value3 = 10003;</code>
        */
       io.dstore.values.StringValue getValue3();
       /**
@@ -2205,7 +2205,7 @@ public final class FoGetPostingPu {
        * Falls "&#64;AdditionalInfos = 1" ist, steht hier die Eigenschaft von "AuthorPersonID" zur dritten Merkmal-ID, die in "ForumSettings" zum Schlüssel "AllowedCharacteristicsForAdditionalInformation_&lt;PersonTypeID von AuthorPersonID&gt;" hinterlegt ist
        * </pre>
        *
-       * <code>optional .dstore.values.StringValue value3 = 10003;</code>
+       * <code>.dstore.values.StringValue value3 = 10003;</code>
        */
       io.dstore.values.StringValueOrBuilder getValue3OrBuilder();
 
@@ -2214,7 +2214,7 @@ public final class FoGetPostingPu {
        * ID des Postings, auf das "&#64;PostingID" eine Antwort darstellt. Falls gleich "&#64;PostingID", handelt es sich um einen Haupt-Beitrag, sprich "MainPosting"
        * </pre>
        *
-       * <code>optional .dstore.values.IntegerValue reply_to_posting_id = 10004;</code>
+       * <code>.dstore.values.IntegerValue reply_to_posting_id = 10004;</code>
        */
       boolean hasReplyToPostingId();
       /**
@@ -2222,7 +2222,7 @@ public final class FoGetPostingPu {
        * ID des Postings, auf das "&#64;PostingID" eine Antwort darstellt. Falls gleich "&#64;PostingID", handelt es sich um einen Haupt-Beitrag, sprich "MainPosting"
        * </pre>
        *
-       * <code>optional .dstore.values.IntegerValue reply_to_posting_id = 10004;</code>
+       * <code>.dstore.values.IntegerValue reply_to_posting_id = 10004;</code>
        */
       io.dstore.values.IntegerValue getReplyToPostingId();
       /**
@@ -2230,7 +2230,7 @@ public final class FoGetPostingPu {
        * ID des Postings, auf das "&#64;PostingID" eine Antwort darstellt. Falls gleich "&#64;PostingID", handelt es sich um einen Haupt-Beitrag, sprich "MainPosting"
        * </pre>
        *
-       * <code>optional .dstore.values.IntegerValue reply_to_posting_id = 10004;</code>
+       * <code>.dstore.values.IntegerValue reply_to_posting_id = 10004;</code>
        */
       io.dstore.values.IntegerValueOrBuilder getReplyToPostingIdOrBuilder();
 
@@ -2239,7 +2239,7 @@ public final class FoGetPostingPu {
        * Falls "&#64;AdditionalInfos = 1" ist, steht hier die Eigenschaft von "AuthorPersonID" zur ersten Merkmal-ID, die in "ForumSettings" zum Schlüssel "AllowedCharacteristicsForAdditionalInformation_&lt;PersonTypeID von AuthorPersonID&gt;" hinterlegt ist
        * </pre>
        *
-       * <code>optional .dstore.values.StringValue value1 = 10005;</code>
+       * <code>.dstore.values.StringValue value1 = 10005;</code>
        */
       boolean hasValue1();
       /**
@@ -2247,7 +2247,7 @@ public final class FoGetPostingPu {
        * Falls "&#64;AdditionalInfos = 1" ist, steht hier die Eigenschaft von "AuthorPersonID" zur ersten Merkmal-ID, die in "ForumSettings" zum Schlüssel "AllowedCharacteristicsForAdditionalInformation_&lt;PersonTypeID von AuthorPersonID&gt;" hinterlegt ist
        * </pre>
        *
-       * <code>optional .dstore.values.StringValue value1 = 10005;</code>
+       * <code>.dstore.values.StringValue value1 = 10005;</code>
        */
       io.dstore.values.StringValue getValue1();
       /**
@@ -2255,7 +2255,7 @@ public final class FoGetPostingPu {
        * Falls "&#64;AdditionalInfos = 1" ist, steht hier die Eigenschaft von "AuthorPersonID" zur ersten Merkmal-ID, die in "ForumSettings" zum Schlüssel "AllowedCharacteristicsForAdditionalInformation_&lt;PersonTypeID von AuthorPersonID&gt;" hinterlegt ist
        * </pre>
        *
-       * <code>optional .dstore.values.StringValue value1 = 10005;</code>
+       * <code>.dstore.values.StringValue value1 = 10005;</code>
        */
       io.dstore.values.StringValueOrBuilder getValue1OrBuilder();
 
@@ -2264,7 +2264,7 @@ public final class FoGetPostingPu {
        * Falls "&#64;AdditionalInfos = 1" ist, steht hier die Eigenschaft von "AuthorPersonID" zur zweiten Merkmal-ID, die in "ForumSettings" zum Schlüssel "AllowedCharacteristicsForAdditionalInformation_&lt;PersonTypeID von AuthorPersonID&gt;" hinterlegt ist
        * </pre>
        *
-       * <code>optional .dstore.values.StringValue value2 = 10006;</code>
+       * <code>.dstore.values.StringValue value2 = 10006;</code>
        */
       boolean hasValue2();
       /**
@@ -2272,7 +2272,7 @@ public final class FoGetPostingPu {
        * Falls "&#64;AdditionalInfos = 1" ist, steht hier die Eigenschaft von "AuthorPersonID" zur zweiten Merkmal-ID, die in "ForumSettings" zum Schlüssel "AllowedCharacteristicsForAdditionalInformation_&lt;PersonTypeID von AuthorPersonID&gt;" hinterlegt ist
        * </pre>
        *
-       * <code>optional .dstore.values.StringValue value2 = 10006;</code>
+       * <code>.dstore.values.StringValue value2 = 10006;</code>
        */
       io.dstore.values.StringValue getValue2();
       /**
@@ -2280,7 +2280,7 @@ public final class FoGetPostingPu {
        * Falls "&#64;AdditionalInfos = 1" ist, steht hier die Eigenschaft von "AuthorPersonID" zur zweiten Merkmal-ID, die in "ForumSettings" zum Schlüssel "AllowedCharacteristicsForAdditionalInformation_&lt;PersonTypeID von AuthorPersonID&gt;" hinterlegt ist
        * </pre>
        *
-       * <code>optional .dstore.values.StringValue value2 = 10006;</code>
+       * <code>.dstore.values.StringValue value2 = 10006;</code>
        */
       io.dstore.values.StringValueOrBuilder getValue2OrBuilder();
 
@@ -2289,7 +2289,7 @@ public final class FoGetPostingPu {
        * Der Titel des Beitrags "&#64;PostingID"
        * </pre>
        *
-       * <code>optional .dstore.values.StringValue subject = 10007;</code>
+       * <code>.dstore.values.StringValue subject = 10007;</code>
        */
       boolean hasSubject();
       /**
@@ -2297,7 +2297,7 @@ public final class FoGetPostingPu {
        * Der Titel des Beitrags "&#64;PostingID"
        * </pre>
        *
-       * <code>optional .dstore.values.StringValue subject = 10007;</code>
+       * <code>.dstore.values.StringValue subject = 10007;</code>
        */
       io.dstore.values.StringValue getSubject();
       /**
@@ -2305,7 +2305,7 @@ public final class FoGetPostingPu {
        * Der Titel des Beitrags "&#64;PostingID"
        * </pre>
        *
-       * <code>optional .dstore.values.StringValue subject = 10007;</code>
+       * <code>.dstore.values.StringValue subject = 10007;</code>
        */
       io.dstore.values.StringValueOrBuilder getSubjectOrBuilder();
 
@@ -2314,7 +2314,7 @@ public final class FoGetPostingPu {
        * eMail des Verfassers "Author"
        * </pre>
        *
-       * <code>optional .dstore.values.StringValue e_mail_of_author = 10008;</code>
+       * <code>.dstore.values.StringValue e_mail_of_author = 10008;</code>
        */
       boolean hasEMailOfAuthor();
       /**
@@ -2322,7 +2322,7 @@ public final class FoGetPostingPu {
        * eMail des Verfassers "Author"
        * </pre>
        *
-       * <code>optional .dstore.values.StringValue e_mail_of_author = 10008;</code>
+       * <code>.dstore.values.StringValue e_mail_of_author = 10008;</code>
        */
       io.dstore.values.StringValue getEMailOfAuthor();
       /**
@@ -2330,7 +2330,7 @@ public final class FoGetPostingPu {
        * eMail des Verfassers "Author"
        * </pre>
        *
-       * <code>optional .dstore.values.StringValue e_mail_of_author = 10008;</code>
+       * <code>.dstore.values.StringValue e_mail_of_author = 10008;</code>
        */
       io.dstore.values.StringValueOrBuilder getEMailOfAuthorOrBuilder();
 
@@ -2339,7 +2339,7 @@ public final class FoGetPostingPu {
        * (Person)ID des Verfassers "Author" - "0" bedeutet, daß der Verfasser anonym ist
        * </pre>
        *
-       * <code>optional .dstore.values.IntegerValue author_person_id = 10009;</code>
+       * <code>.dstore.values.IntegerValue author_person_id = 10009;</code>
        */
       boolean hasAuthorPersonId();
       /**
@@ -2347,7 +2347,7 @@ public final class FoGetPostingPu {
        * (Person)ID des Verfassers "Author" - "0" bedeutet, daß der Verfasser anonym ist
        * </pre>
        *
-       * <code>optional .dstore.values.IntegerValue author_person_id = 10009;</code>
+       * <code>.dstore.values.IntegerValue author_person_id = 10009;</code>
        */
       io.dstore.values.IntegerValue getAuthorPersonId();
       /**
@@ -2355,7 +2355,7 @@ public final class FoGetPostingPu {
        * (Person)ID des Verfassers "Author" - "0" bedeutet, daß der Verfasser anonym ist
        * </pre>
        *
-       * <code>optional .dstore.values.IntegerValue author_person_id = 10009;</code>
+       * <code>.dstore.values.IntegerValue author_person_id = 10009;</code>
        */
       io.dstore.values.IntegerValueOrBuilder getAuthorPersonIdOrBuilder();
 
@@ -2364,7 +2364,7 @@ public final class FoGetPostingPu {
        * ID des Haupt-Beitrages zu "&#64;PostingID" (also sozusagen das Wurzel-Element des gesamten "Threads" zu dem "&#64;PostingID" gehört)
        * </pre>
        *
-       * <code>optional .dstore.values.IntegerValue main_posting_id = 10010;</code>
+       * <code>.dstore.values.IntegerValue main_posting_id = 10010;</code>
        */
       boolean hasMainPostingId();
       /**
@@ -2372,7 +2372,7 @@ public final class FoGetPostingPu {
        * ID des Haupt-Beitrages zu "&#64;PostingID" (also sozusagen das Wurzel-Element des gesamten "Threads" zu dem "&#64;PostingID" gehört)
        * </pre>
        *
-       * <code>optional .dstore.values.IntegerValue main_posting_id = 10010;</code>
+       * <code>.dstore.values.IntegerValue main_posting_id = 10010;</code>
        */
       io.dstore.values.IntegerValue getMainPostingId();
       /**
@@ -2380,7 +2380,7 @@ public final class FoGetPostingPu {
        * ID des Haupt-Beitrages zu "&#64;PostingID" (also sozusagen das Wurzel-Element des gesamten "Threads" zu dem "&#64;PostingID" gehört)
        * </pre>
        *
-       * <code>optional .dstore.values.IntegerValue main_posting_id = 10010;</code>
+       * <code>.dstore.values.IntegerValue main_posting_id = 10010;</code>
        */
       io.dstore.values.IntegerValueOrBuilder getMainPostingIdOrBuilder();
 
@@ -2389,7 +2389,7 @@ public final class FoGetPostingPu {
        * Sind "Binaries" zu dem Posting "&#64;PostingID" vorhanden ?
        * </pre>
        *
-       * <code>optional .dstore.values.BooleanValue has_binaries = 10011;</code>
+       * <code>.dstore.values.BooleanValue has_binaries = 10011;</code>
        */
       boolean hasHasBinaries();
       /**
@@ -2397,7 +2397,7 @@ public final class FoGetPostingPu {
        * Sind "Binaries" zu dem Posting "&#64;PostingID" vorhanden ?
        * </pre>
        *
-       * <code>optional .dstore.values.BooleanValue has_binaries = 10011;</code>
+       * <code>.dstore.values.BooleanValue has_binaries = 10011;</code>
        */
       io.dstore.values.BooleanValue getHasBinaries();
       /**
@@ -2405,7 +2405,7 @@ public final class FoGetPostingPu {
        * Sind "Binaries" zu dem Posting "&#64;PostingID" vorhanden ?
        * </pre>
        *
-       * <code>optional .dstore.values.BooleanValue has_binaries = 10011;</code>
+       * <code>.dstore.values.BooleanValue has_binaries = 10011;</code>
        */
       io.dstore.values.BooleanValueOrBuilder getHasBinariesOrBuilder();
 
@@ -2414,7 +2414,7 @@ public final class FoGetPostingPu {
        * Sichtbarkeits-Status des Postings "&#64;PostingID" - mögliche Werte : siehe "fo_GetPostingVisibilities"
        * </pre>
        *
-       * <code>optional .dstore.values.IntegerValue visible = 10012;</code>
+       * <code>.dstore.values.IntegerValue visible = 10012;</code>
        */
       boolean hasVisible();
       /**
@@ -2422,7 +2422,7 @@ public final class FoGetPostingPu {
        * Sichtbarkeits-Status des Postings "&#64;PostingID" - mögliche Werte : siehe "fo_GetPostingVisibilities"
        * </pre>
        *
-       * <code>optional .dstore.values.IntegerValue visible = 10012;</code>
+       * <code>.dstore.values.IntegerValue visible = 10012;</code>
        */
       io.dstore.values.IntegerValue getVisible();
       /**
@@ -2430,7 +2430,7 @@ public final class FoGetPostingPu {
        * Sichtbarkeits-Status des Postings "&#64;PostingID" - mögliche Werte : siehe "fo_GetPostingVisibilities"
        * </pre>
        *
-       * <code>optional .dstore.values.IntegerValue visible = 10012;</code>
+       * <code>.dstore.values.IntegerValue visible = 10012;</code>
        */
       io.dstore.values.IntegerValueOrBuilder getVisibleOrBuilder();
 
@@ -2439,7 +2439,7 @@ public final class FoGetPostingPu {
        * Name des Verfassers des Beitrags "&#64;PostingID"
        * </pre>
        *
-       * <code>optional .dstore.values.StringValue author = 10013;</code>
+       * <code>.dstore.values.StringValue author = 10013;</code>
        */
       boolean hasAuthor();
       /**
@@ -2447,7 +2447,7 @@ public final class FoGetPostingPu {
        * Name des Verfassers des Beitrags "&#64;PostingID"
        * </pre>
        *
-       * <code>optional .dstore.values.StringValue author = 10013;</code>
+       * <code>.dstore.values.StringValue author = 10013;</code>
        */
       io.dstore.values.StringValue getAuthor();
       /**
@@ -2455,7 +2455,7 @@ public final class FoGetPostingPu {
        * Name des Verfassers des Beitrags "&#64;PostingID"
        * </pre>
        *
-       * <code>optional .dstore.values.StringValue author = 10013;</code>
+       * <code>.dstore.values.StringValue author = 10013;</code>
        */
       io.dstore.values.StringValueOrBuilder getAuthorOrBuilder();
 
@@ -2464,7 +2464,7 @@ public final class FoGetPostingPu {
        * Gibt es wenigstens eine Antwort auf "&#64;PostingID" ? ACHTUNG : Es wird hierbei NICHT nach dem Sichtbarkeit-Status ("Visible") eingeschränkt (d.h. unter Umständen steht hier z.B. der Wert "1", aber es gibt nur "gelöschte" Antworten)!
        * </pre>
        *
-       * <code>optional .dstore.values.BooleanValue has_successors = 10014;</code>
+       * <code>.dstore.values.BooleanValue has_successors = 10014;</code>
        */
       boolean hasHasSuccessors();
       /**
@@ -2472,7 +2472,7 @@ public final class FoGetPostingPu {
        * Gibt es wenigstens eine Antwort auf "&#64;PostingID" ? ACHTUNG : Es wird hierbei NICHT nach dem Sichtbarkeit-Status ("Visible") eingeschränkt (d.h. unter Umständen steht hier z.B. der Wert "1", aber es gibt nur "gelöschte" Antworten)!
        * </pre>
        *
-       * <code>optional .dstore.values.BooleanValue has_successors = 10014;</code>
+       * <code>.dstore.values.BooleanValue has_successors = 10014;</code>
        */
       io.dstore.values.BooleanValue getHasSuccessors();
       /**
@@ -2480,7 +2480,7 @@ public final class FoGetPostingPu {
        * Gibt es wenigstens eine Antwort auf "&#64;PostingID" ? ACHTUNG : Es wird hierbei NICHT nach dem Sichtbarkeit-Status ("Visible") eingeschränkt (d.h. unter Umständen steht hier z.B. der Wert "1", aber es gibt nur "gelöschte" Antworten)!
        * </pre>
        *
-       * <code>optional .dstore.values.BooleanValue has_successors = 10014;</code>
+       * <code>.dstore.values.BooleanValue has_successors = 10014;</code>
        */
       io.dstore.values.BooleanValueOrBuilder getHasSuccessorsOrBuilder();
 
@@ -2489,7 +2489,7 @@ public final class FoGetPostingPu {
        * Datum des Beitrags "&#64;PostingID" (Format : "15.03.2001 20:48:13")
        * </pre>
        *
-       * <code>optional .dstore.values.StringValue post_date = 10015;</code>
+       * <code>.dstore.values.StringValue post_date = 10015;</code>
        */
       boolean hasPostDate();
       /**
@@ -2497,7 +2497,7 @@ public final class FoGetPostingPu {
        * Datum des Beitrags "&#64;PostingID" (Format : "15.03.2001 20:48:13")
        * </pre>
        *
-       * <code>optional .dstore.values.StringValue post_date = 10015;</code>
+       * <code>.dstore.values.StringValue post_date = 10015;</code>
        */
       io.dstore.values.StringValue getPostDate();
       /**
@@ -2505,7 +2505,7 @@ public final class FoGetPostingPu {
        * Datum des Beitrags "&#64;PostingID" (Format : "15.03.2001 20:48:13")
        * </pre>
        *
-       * <code>optional .dstore.values.StringValue post_date = 10015;</code>
+       * <code>.dstore.values.StringValue post_date = 10015;</code>
        */
       io.dstore.values.StringValueOrBuilder getPostDateOrBuilder();
 
@@ -2514,7 +2514,7 @@ public final class FoGetPostingPu {
        * Der Beitrag selbst - "NULL" falls "SmallBody" NICHT "NULL" ist
        * </pre>
        *
-       * <code>optional .dstore.values.StringValue body = 10016;</code>
+       * <code>.dstore.values.StringValue body = 10016;</code>
        */
       boolean hasBody();
       /**
@@ -2522,7 +2522,7 @@ public final class FoGetPostingPu {
        * Der Beitrag selbst - "NULL" falls "SmallBody" NICHT "NULL" ist
        * </pre>
        *
-       * <code>optional .dstore.values.StringValue body = 10016;</code>
+       * <code>.dstore.values.StringValue body = 10016;</code>
        */
       io.dstore.values.StringValue getBody();
       /**
@@ -2530,7 +2530,7 @@ public final class FoGetPostingPu {
        * Der Beitrag selbst - "NULL" falls "SmallBody" NICHT "NULL" ist
        * </pre>
        *
-       * <code>optional .dstore.values.StringValue body = 10016;</code>
+       * <code>.dstore.values.StringValue body = 10016;</code>
        */
       io.dstore.values.StringValueOrBuilder getBodyOrBuilder();
     }
@@ -2813,7 +2813,7 @@ public final class FoGetPostingPu {
       public static final int ROW_ID_FIELD_NUMBER = 10000;
       private int rowId_;
       /**
-       * <code>optional int32 row_id = 10000;</code>
+       * <code>int32 row_id = 10000;</code>
        */
       public int getRowId() {
         return rowId_;
@@ -2826,7 +2826,7 @@ public final class FoGetPostingPu {
        * Hier erscheint der Beitrag selbst, falls er weniger als 256 Zeichen enthält UND "UseSmallBody" in "ForumSettings" auf "1" gesetzt ist. D.h. mindestens EINE der Rückgabespalten "SmallBody" und "Body" ist IMMER "NULL".
        * </pre>
        *
-       * <code>optional .dstore.values.StringValue small_body = 10001;</code>
+       * <code>.dstore.values.StringValue small_body = 10001;</code>
        */
       public boolean hasSmallBody() {
         return smallBody_ != null;
@@ -2836,7 +2836,7 @@ public final class FoGetPostingPu {
        * Hier erscheint der Beitrag selbst, falls er weniger als 256 Zeichen enthält UND "UseSmallBody" in "ForumSettings" auf "1" gesetzt ist. D.h. mindestens EINE der Rückgabespalten "SmallBody" und "Body" ist IMMER "NULL".
        * </pre>
        *
-       * <code>optional .dstore.values.StringValue small_body = 10001;</code>
+       * <code>.dstore.values.StringValue small_body = 10001;</code>
        */
       public io.dstore.values.StringValue getSmallBody() {
         return smallBody_ == null ? io.dstore.values.StringValue.getDefaultInstance() : smallBody_;
@@ -2846,7 +2846,7 @@ public final class FoGetPostingPu {
        * Hier erscheint der Beitrag selbst, falls er weniger als 256 Zeichen enthält UND "UseSmallBody" in "ForumSettings" auf "1" gesetzt ist. D.h. mindestens EINE der Rückgabespalten "SmallBody" und "Body" ist IMMER "NULL".
        * </pre>
        *
-       * <code>optional .dstore.values.StringValue small_body = 10001;</code>
+       * <code>.dstore.values.StringValue small_body = 10001;</code>
        */
       public io.dstore.values.StringValueOrBuilder getSmallBodyOrBuilder() {
         return getSmallBody();
@@ -2859,7 +2859,7 @@ public final class FoGetPostingPu {
        * ID des Forums zu dem der Beitrag "&#64;PostingID" gehört
        * </pre>
        *
-       * <code>optional .dstore.values.IntegerValue forum_id = 10002;</code>
+       * <code>.dstore.values.IntegerValue forum_id = 10002;</code>
        */
       public boolean hasForumId() {
         return forumId_ != null;
@@ -2869,7 +2869,7 @@ public final class FoGetPostingPu {
        * ID des Forums zu dem der Beitrag "&#64;PostingID" gehört
        * </pre>
        *
-       * <code>optional .dstore.values.IntegerValue forum_id = 10002;</code>
+       * <code>.dstore.values.IntegerValue forum_id = 10002;</code>
        */
       public io.dstore.values.IntegerValue getForumId() {
         return forumId_ == null ? io.dstore.values.IntegerValue.getDefaultInstance() : forumId_;
@@ -2879,7 +2879,7 @@ public final class FoGetPostingPu {
        * ID des Forums zu dem der Beitrag "&#64;PostingID" gehört
        * </pre>
        *
-       * <code>optional .dstore.values.IntegerValue forum_id = 10002;</code>
+       * <code>.dstore.values.IntegerValue forum_id = 10002;</code>
        */
       public io.dstore.values.IntegerValueOrBuilder getForumIdOrBuilder() {
         return getForumId();
@@ -2892,7 +2892,7 @@ public final class FoGetPostingPu {
        * Falls "&#64;AdditionalInfos = 1" ist, steht hier die Eigenschaft von "AuthorPersonID" zur dritten Merkmal-ID, die in "ForumSettings" zum Schlüssel "AllowedCharacteristicsForAdditionalInformation_&lt;PersonTypeID von AuthorPersonID&gt;" hinterlegt ist
        * </pre>
        *
-       * <code>optional .dstore.values.StringValue value3 = 10003;</code>
+       * <code>.dstore.values.StringValue value3 = 10003;</code>
        */
       public boolean hasValue3() {
         return value3_ != null;
@@ -2902,7 +2902,7 @@ public final class FoGetPostingPu {
        * Falls "&#64;AdditionalInfos = 1" ist, steht hier die Eigenschaft von "AuthorPersonID" zur dritten Merkmal-ID, die in "ForumSettings" zum Schlüssel "AllowedCharacteristicsForAdditionalInformation_&lt;PersonTypeID von AuthorPersonID&gt;" hinterlegt ist
        * </pre>
        *
-       * <code>optional .dstore.values.StringValue value3 = 10003;</code>
+       * <code>.dstore.values.StringValue value3 = 10003;</code>
        */
       public io.dstore.values.StringValue getValue3() {
         return value3_ == null ? io.dstore.values.StringValue.getDefaultInstance() : value3_;
@@ -2912,7 +2912,7 @@ public final class FoGetPostingPu {
        * Falls "&#64;AdditionalInfos = 1" ist, steht hier die Eigenschaft von "AuthorPersonID" zur dritten Merkmal-ID, die in "ForumSettings" zum Schlüssel "AllowedCharacteristicsForAdditionalInformation_&lt;PersonTypeID von AuthorPersonID&gt;" hinterlegt ist
        * </pre>
        *
-       * <code>optional .dstore.values.StringValue value3 = 10003;</code>
+       * <code>.dstore.values.StringValue value3 = 10003;</code>
        */
       public io.dstore.values.StringValueOrBuilder getValue3OrBuilder() {
         return getValue3();
@@ -2925,7 +2925,7 @@ public final class FoGetPostingPu {
        * ID des Postings, auf das "&#64;PostingID" eine Antwort darstellt. Falls gleich "&#64;PostingID", handelt es sich um einen Haupt-Beitrag, sprich "MainPosting"
        * </pre>
        *
-       * <code>optional .dstore.values.IntegerValue reply_to_posting_id = 10004;</code>
+       * <code>.dstore.values.IntegerValue reply_to_posting_id = 10004;</code>
        */
       public boolean hasReplyToPostingId() {
         return replyToPostingId_ != null;
@@ -2935,7 +2935,7 @@ public final class FoGetPostingPu {
        * ID des Postings, auf das "&#64;PostingID" eine Antwort darstellt. Falls gleich "&#64;PostingID", handelt es sich um einen Haupt-Beitrag, sprich "MainPosting"
        * </pre>
        *
-       * <code>optional .dstore.values.IntegerValue reply_to_posting_id = 10004;</code>
+       * <code>.dstore.values.IntegerValue reply_to_posting_id = 10004;</code>
        */
       public io.dstore.values.IntegerValue getReplyToPostingId() {
         return replyToPostingId_ == null ? io.dstore.values.IntegerValue.getDefaultInstance() : replyToPostingId_;
@@ -2945,7 +2945,7 @@ public final class FoGetPostingPu {
        * ID des Postings, auf das "&#64;PostingID" eine Antwort darstellt. Falls gleich "&#64;PostingID", handelt es sich um einen Haupt-Beitrag, sprich "MainPosting"
        * </pre>
        *
-       * <code>optional .dstore.values.IntegerValue reply_to_posting_id = 10004;</code>
+       * <code>.dstore.values.IntegerValue reply_to_posting_id = 10004;</code>
        */
       public io.dstore.values.IntegerValueOrBuilder getReplyToPostingIdOrBuilder() {
         return getReplyToPostingId();
@@ -2958,7 +2958,7 @@ public final class FoGetPostingPu {
        * Falls "&#64;AdditionalInfos = 1" ist, steht hier die Eigenschaft von "AuthorPersonID" zur ersten Merkmal-ID, die in "ForumSettings" zum Schlüssel "AllowedCharacteristicsForAdditionalInformation_&lt;PersonTypeID von AuthorPersonID&gt;" hinterlegt ist
        * </pre>
        *
-       * <code>optional .dstore.values.StringValue value1 = 10005;</code>
+       * <code>.dstore.values.StringValue value1 = 10005;</code>
        */
       public boolean hasValue1() {
         return value1_ != null;
@@ -2968,7 +2968,7 @@ public final class FoGetPostingPu {
        * Falls "&#64;AdditionalInfos = 1" ist, steht hier die Eigenschaft von "AuthorPersonID" zur ersten Merkmal-ID, die in "ForumSettings" zum Schlüssel "AllowedCharacteristicsForAdditionalInformation_&lt;PersonTypeID von AuthorPersonID&gt;" hinterlegt ist
        * </pre>
        *
-       * <code>optional .dstore.values.StringValue value1 = 10005;</code>
+       * <code>.dstore.values.StringValue value1 = 10005;</code>
        */
       public io.dstore.values.StringValue getValue1() {
         return value1_ == null ? io.dstore.values.StringValue.getDefaultInstance() : value1_;
@@ -2978,7 +2978,7 @@ public final class FoGetPostingPu {
        * Falls "&#64;AdditionalInfos = 1" ist, steht hier die Eigenschaft von "AuthorPersonID" zur ersten Merkmal-ID, die in "ForumSettings" zum Schlüssel "AllowedCharacteristicsForAdditionalInformation_&lt;PersonTypeID von AuthorPersonID&gt;" hinterlegt ist
        * </pre>
        *
-       * <code>optional .dstore.values.StringValue value1 = 10005;</code>
+       * <code>.dstore.values.StringValue value1 = 10005;</code>
        */
       public io.dstore.values.StringValueOrBuilder getValue1OrBuilder() {
         return getValue1();
@@ -2991,7 +2991,7 @@ public final class FoGetPostingPu {
        * Falls "&#64;AdditionalInfos = 1" ist, steht hier die Eigenschaft von "AuthorPersonID" zur zweiten Merkmal-ID, die in "ForumSettings" zum Schlüssel "AllowedCharacteristicsForAdditionalInformation_&lt;PersonTypeID von AuthorPersonID&gt;" hinterlegt ist
        * </pre>
        *
-       * <code>optional .dstore.values.StringValue value2 = 10006;</code>
+       * <code>.dstore.values.StringValue value2 = 10006;</code>
        */
       public boolean hasValue2() {
         return value2_ != null;
@@ -3001,7 +3001,7 @@ public final class FoGetPostingPu {
        * Falls "&#64;AdditionalInfos = 1" ist, steht hier die Eigenschaft von "AuthorPersonID" zur zweiten Merkmal-ID, die in "ForumSettings" zum Schlüssel "AllowedCharacteristicsForAdditionalInformation_&lt;PersonTypeID von AuthorPersonID&gt;" hinterlegt ist
        * </pre>
        *
-       * <code>optional .dstore.values.StringValue value2 = 10006;</code>
+       * <code>.dstore.values.StringValue value2 = 10006;</code>
        */
       public io.dstore.values.StringValue getValue2() {
         return value2_ == null ? io.dstore.values.StringValue.getDefaultInstance() : value2_;
@@ -3011,7 +3011,7 @@ public final class FoGetPostingPu {
        * Falls "&#64;AdditionalInfos = 1" ist, steht hier die Eigenschaft von "AuthorPersonID" zur zweiten Merkmal-ID, die in "ForumSettings" zum Schlüssel "AllowedCharacteristicsForAdditionalInformation_&lt;PersonTypeID von AuthorPersonID&gt;" hinterlegt ist
        * </pre>
        *
-       * <code>optional .dstore.values.StringValue value2 = 10006;</code>
+       * <code>.dstore.values.StringValue value2 = 10006;</code>
        */
       public io.dstore.values.StringValueOrBuilder getValue2OrBuilder() {
         return getValue2();
@@ -3024,7 +3024,7 @@ public final class FoGetPostingPu {
        * Der Titel des Beitrags "&#64;PostingID"
        * </pre>
        *
-       * <code>optional .dstore.values.StringValue subject = 10007;</code>
+       * <code>.dstore.values.StringValue subject = 10007;</code>
        */
       public boolean hasSubject() {
         return subject_ != null;
@@ -3034,7 +3034,7 @@ public final class FoGetPostingPu {
        * Der Titel des Beitrags "&#64;PostingID"
        * </pre>
        *
-       * <code>optional .dstore.values.StringValue subject = 10007;</code>
+       * <code>.dstore.values.StringValue subject = 10007;</code>
        */
       public io.dstore.values.StringValue getSubject() {
         return subject_ == null ? io.dstore.values.StringValue.getDefaultInstance() : subject_;
@@ -3044,7 +3044,7 @@ public final class FoGetPostingPu {
        * Der Titel des Beitrags "&#64;PostingID"
        * </pre>
        *
-       * <code>optional .dstore.values.StringValue subject = 10007;</code>
+       * <code>.dstore.values.StringValue subject = 10007;</code>
        */
       public io.dstore.values.StringValueOrBuilder getSubjectOrBuilder() {
         return getSubject();
@@ -3057,7 +3057,7 @@ public final class FoGetPostingPu {
        * eMail des Verfassers "Author"
        * </pre>
        *
-       * <code>optional .dstore.values.StringValue e_mail_of_author = 10008;</code>
+       * <code>.dstore.values.StringValue e_mail_of_author = 10008;</code>
        */
       public boolean hasEMailOfAuthor() {
         return eMailOfAuthor_ != null;
@@ -3067,7 +3067,7 @@ public final class FoGetPostingPu {
        * eMail des Verfassers "Author"
        * </pre>
        *
-       * <code>optional .dstore.values.StringValue e_mail_of_author = 10008;</code>
+       * <code>.dstore.values.StringValue e_mail_of_author = 10008;</code>
        */
       public io.dstore.values.StringValue getEMailOfAuthor() {
         return eMailOfAuthor_ == null ? io.dstore.values.StringValue.getDefaultInstance() : eMailOfAuthor_;
@@ -3077,7 +3077,7 @@ public final class FoGetPostingPu {
        * eMail des Verfassers "Author"
        * </pre>
        *
-       * <code>optional .dstore.values.StringValue e_mail_of_author = 10008;</code>
+       * <code>.dstore.values.StringValue e_mail_of_author = 10008;</code>
        */
       public io.dstore.values.StringValueOrBuilder getEMailOfAuthorOrBuilder() {
         return getEMailOfAuthor();
@@ -3090,7 +3090,7 @@ public final class FoGetPostingPu {
        * (Person)ID des Verfassers "Author" - "0" bedeutet, daß der Verfasser anonym ist
        * </pre>
        *
-       * <code>optional .dstore.values.IntegerValue author_person_id = 10009;</code>
+       * <code>.dstore.values.IntegerValue author_person_id = 10009;</code>
        */
       public boolean hasAuthorPersonId() {
         return authorPersonId_ != null;
@@ -3100,7 +3100,7 @@ public final class FoGetPostingPu {
        * (Person)ID des Verfassers "Author" - "0" bedeutet, daß der Verfasser anonym ist
        * </pre>
        *
-       * <code>optional .dstore.values.IntegerValue author_person_id = 10009;</code>
+       * <code>.dstore.values.IntegerValue author_person_id = 10009;</code>
        */
       public io.dstore.values.IntegerValue getAuthorPersonId() {
         return authorPersonId_ == null ? io.dstore.values.IntegerValue.getDefaultInstance() : authorPersonId_;
@@ -3110,7 +3110,7 @@ public final class FoGetPostingPu {
        * (Person)ID des Verfassers "Author" - "0" bedeutet, daß der Verfasser anonym ist
        * </pre>
        *
-       * <code>optional .dstore.values.IntegerValue author_person_id = 10009;</code>
+       * <code>.dstore.values.IntegerValue author_person_id = 10009;</code>
        */
       public io.dstore.values.IntegerValueOrBuilder getAuthorPersonIdOrBuilder() {
         return getAuthorPersonId();
@@ -3123,7 +3123,7 @@ public final class FoGetPostingPu {
        * ID des Haupt-Beitrages zu "&#64;PostingID" (also sozusagen das Wurzel-Element des gesamten "Threads" zu dem "&#64;PostingID" gehört)
        * </pre>
        *
-       * <code>optional .dstore.values.IntegerValue main_posting_id = 10010;</code>
+       * <code>.dstore.values.IntegerValue main_posting_id = 10010;</code>
        */
       public boolean hasMainPostingId() {
         return mainPostingId_ != null;
@@ -3133,7 +3133,7 @@ public final class FoGetPostingPu {
        * ID des Haupt-Beitrages zu "&#64;PostingID" (also sozusagen das Wurzel-Element des gesamten "Threads" zu dem "&#64;PostingID" gehört)
        * </pre>
        *
-       * <code>optional .dstore.values.IntegerValue main_posting_id = 10010;</code>
+       * <code>.dstore.values.IntegerValue main_posting_id = 10010;</code>
        */
       public io.dstore.values.IntegerValue getMainPostingId() {
         return mainPostingId_ == null ? io.dstore.values.IntegerValue.getDefaultInstance() : mainPostingId_;
@@ -3143,7 +3143,7 @@ public final class FoGetPostingPu {
        * ID des Haupt-Beitrages zu "&#64;PostingID" (also sozusagen das Wurzel-Element des gesamten "Threads" zu dem "&#64;PostingID" gehört)
        * </pre>
        *
-       * <code>optional .dstore.values.IntegerValue main_posting_id = 10010;</code>
+       * <code>.dstore.values.IntegerValue main_posting_id = 10010;</code>
        */
       public io.dstore.values.IntegerValueOrBuilder getMainPostingIdOrBuilder() {
         return getMainPostingId();
@@ -3156,7 +3156,7 @@ public final class FoGetPostingPu {
        * Sind "Binaries" zu dem Posting "&#64;PostingID" vorhanden ?
        * </pre>
        *
-       * <code>optional .dstore.values.BooleanValue has_binaries = 10011;</code>
+       * <code>.dstore.values.BooleanValue has_binaries = 10011;</code>
        */
       public boolean hasHasBinaries() {
         return hasBinaries_ != null;
@@ -3166,7 +3166,7 @@ public final class FoGetPostingPu {
        * Sind "Binaries" zu dem Posting "&#64;PostingID" vorhanden ?
        * </pre>
        *
-       * <code>optional .dstore.values.BooleanValue has_binaries = 10011;</code>
+       * <code>.dstore.values.BooleanValue has_binaries = 10011;</code>
        */
       public io.dstore.values.BooleanValue getHasBinaries() {
         return hasBinaries_ == null ? io.dstore.values.BooleanValue.getDefaultInstance() : hasBinaries_;
@@ -3176,7 +3176,7 @@ public final class FoGetPostingPu {
        * Sind "Binaries" zu dem Posting "&#64;PostingID" vorhanden ?
        * </pre>
        *
-       * <code>optional .dstore.values.BooleanValue has_binaries = 10011;</code>
+       * <code>.dstore.values.BooleanValue has_binaries = 10011;</code>
        */
       public io.dstore.values.BooleanValueOrBuilder getHasBinariesOrBuilder() {
         return getHasBinaries();
@@ -3189,7 +3189,7 @@ public final class FoGetPostingPu {
        * Sichtbarkeits-Status des Postings "&#64;PostingID" - mögliche Werte : siehe "fo_GetPostingVisibilities"
        * </pre>
        *
-       * <code>optional .dstore.values.IntegerValue visible = 10012;</code>
+       * <code>.dstore.values.IntegerValue visible = 10012;</code>
        */
       public boolean hasVisible() {
         return visible_ != null;
@@ -3199,7 +3199,7 @@ public final class FoGetPostingPu {
        * Sichtbarkeits-Status des Postings "&#64;PostingID" - mögliche Werte : siehe "fo_GetPostingVisibilities"
        * </pre>
        *
-       * <code>optional .dstore.values.IntegerValue visible = 10012;</code>
+       * <code>.dstore.values.IntegerValue visible = 10012;</code>
        */
       public io.dstore.values.IntegerValue getVisible() {
         return visible_ == null ? io.dstore.values.IntegerValue.getDefaultInstance() : visible_;
@@ -3209,7 +3209,7 @@ public final class FoGetPostingPu {
        * Sichtbarkeits-Status des Postings "&#64;PostingID" - mögliche Werte : siehe "fo_GetPostingVisibilities"
        * </pre>
        *
-       * <code>optional .dstore.values.IntegerValue visible = 10012;</code>
+       * <code>.dstore.values.IntegerValue visible = 10012;</code>
        */
       public io.dstore.values.IntegerValueOrBuilder getVisibleOrBuilder() {
         return getVisible();
@@ -3222,7 +3222,7 @@ public final class FoGetPostingPu {
        * Name des Verfassers des Beitrags "&#64;PostingID"
        * </pre>
        *
-       * <code>optional .dstore.values.StringValue author = 10013;</code>
+       * <code>.dstore.values.StringValue author = 10013;</code>
        */
       public boolean hasAuthor() {
         return author_ != null;
@@ -3232,7 +3232,7 @@ public final class FoGetPostingPu {
        * Name des Verfassers des Beitrags "&#64;PostingID"
        * </pre>
        *
-       * <code>optional .dstore.values.StringValue author = 10013;</code>
+       * <code>.dstore.values.StringValue author = 10013;</code>
        */
       public io.dstore.values.StringValue getAuthor() {
         return author_ == null ? io.dstore.values.StringValue.getDefaultInstance() : author_;
@@ -3242,7 +3242,7 @@ public final class FoGetPostingPu {
        * Name des Verfassers des Beitrags "&#64;PostingID"
        * </pre>
        *
-       * <code>optional .dstore.values.StringValue author = 10013;</code>
+       * <code>.dstore.values.StringValue author = 10013;</code>
        */
       public io.dstore.values.StringValueOrBuilder getAuthorOrBuilder() {
         return getAuthor();
@@ -3255,7 +3255,7 @@ public final class FoGetPostingPu {
        * Gibt es wenigstens eine Antwort auf "&#64;PostingID" ? ACHTUNG : Es wird hierbei NICHT nach dem Sichtbarkeit-Status ("Visible") eingeschränkt (d.h. unter Umständen steht hier z.B. der Wert "1", aber es gibt nur "gelöschte" Antworten)!
        * </pre>
        *
-       * <code>optional .dstore.values.BooleanValue has_successors = 10014;</code>
+       * <code>.dstore.values.BooleanValue has_successors = 10014;</code>
        */
       public boolean hasHasSuccessors() {
         return hasSuccessors_ != null;
@@ -3265,7 +3265,7 @@ public final class FoGetPostingPu {
        * Gibt es wenigstens eine Antwort auf "&#64;PostingID" ? ACHTUNG : Es wird hierbei NICHT nach dem Sichtbarkeit-Status ("Visible") eingeschränkt (d.h. unter Umständen steht hier z.B. der Wert "1", aber es gibt nur "gelöschte" Antworten)!
        * </pre>
        *
-       * <code>optional .dstore.values.BooleanValue has_successors = 10014;</code>
+       * <code>.dstore.values.BooleanValue has_successors = 10014;</code>
        */
       public io.dstore.values.BooleanValue getHasSuccessors() {
         return hasSuccessors_ == null ? io.dstore.values.BooleanValue.getDefaultInstance() : hasSuccessors_;
@@ -3275,7 +3275,7 @@ public final class FoGetPostingPu {
        * Gibt es wenigstens eine Antwort auf "&#64;PostingID" ? ACHTUNG : Es wird hierbei NICHT nach dem Sichtbarkeit-Status ("Visible") eingeschränkt (d.h. unter Umständen steht hier z.B. der Wert "1", aber es gibt nur "gelöschte" Antworten)!
        * </pre>
        *
-       * <code>optional .dstore.values.BooleanValue has_successors = 10014;</code>
+       * <code>.dstore.values.BooleanValue has_successors = 10014;</code>
        */
       public io.dstore.values.BooleanValueOrBuilder getHasSuccessorsOrBuilder() {
         return getHasSuccessors();
@@ -3288,7 +3288,7 @@ public final class FoGetPostingPu {
        * Datum des Beitrags "&#64;PostingID" (Format : "15.03.2001 20:48:13")
        * </pre>
        *
-       * <code>optional .dstore.values.StringValue post_date = 10015;</code>
+       * <code>.dstore.values.StringValue post_date = 10015;</code>
        */
       public boolean hasPostDate() {
         return postDate_ != null;
@@ -3298,7 +3298,7 @@ public final class FoGetPostingPu {
        * Datum des Beitrags "&#64;PostingID" (Format : "15.03.2001 20:48:13")
        * </pre>
        *
-       * <code>optional .dstore.values.StringValue post_date = 10015;</code>
+       * <code>.dstore.values.StringValue post_date = 10015;</code>
        */
       public io.dstore.values.StringValue getPostDate() {
         return postDate_ == null ? io.dstore.values.StringValue.getDefaultInstance() : postDate_;
@@ -3308,7 +3308,7 @@ public final class FoGetPostingPu {
        * Datum des Beitrags "&#64;PostingID" (Format : "15.03.2001 20:48:13")
        * </pre>
        *
-       * <code>optional .dstore.values.StringValue post_date = 10015;</code>
+       * <code>.dstore.values.StringValue post_date = 10015;</code>
        */
       public io.dstore.values.StringValueOrBuilder getPostDateOrBuilder() {
         return getPostDate();
@@ -3321,7 +3321,7 @@ public final class FoGetPostingPu {
        * Der Beitrag selbst - "NULL" falls "SmallBody" NICHT "NULL" ist
        * </pre>
        *
-       * <code>optional .dstore.values.StringValue body = 10016;</code>
+       * <code>.dstore.values.StringValue body = 10016;</code>
        */
       public boolean hasBody() {
         return body_ != null;
@@ -3331,7 +3331,7 @@ public final class FoGetPostingPu {
        * Der Beitrag selbst - "NULL" falls "SmallBody" NICHT "NULL" ist
        * </pre>
        *
-       * <code>optional .dstore.values.StringValue body = 10016;</code>
+       * <code>.dstore.values.StringValue body = 10016;</code>
        */
       public io.dstore.values.StringValue getBody() {
         return body_ == null ? io.dstore.values.StringValue.getDefaultInstance() : body_;
@@ -3341,7 +3341,7 @@ public final class FoGetPostingPu {
        * Der Beitrag selbst - "NULL" falls "SmallBody" NICHT "NULL" ist
        * </pre>
        *
-       * <code>optional .dstore.values.StringValue body = 10016;</code>
+       * <code>.dstore.values.StringValue body = 10016;</code>
        */
       public io.dstore.values.StringValueOrBuilder getBodyOrBuilder() {
         return getBody();
@@ -3592,7 +3592,7 @@ public final class FoGetPostingPu {
           return memoizedHashCode;
         }
         int hash = 41;
-        hash = (19 * hash) + getDescriptorForType().hashCode();
+        hash = (19 * hash) + getDescriptor().hashCode();
         hash = (37 * hash) + ROW_ID_FIELD_NUMBER;
         hash = (53 * hash) + getRowId();
         if (hasSmallBody()) {
@@ -4098,13 +4098,13 @@ public final class FoGetPostingPu {
 
         private int rowId_ ;
         /**
-         * <code>optional int32 row_id = 10000;</code>
+         * <code>int32 row_id = 10000;</code>
          */
         public int getRowId() {
           return rowId_;
         }
         /**
-         * <code>optional int32 row_id = 10000;</code>
+         * <code>int32 row_id = 10000;</code>
          */
         public Builder setRowId(int value) {
           
@@ -4113,7 +4113,7 @@ public final class FoGetPostingPu {
           return this;
         }
         /**
-         * <code>optional int32 row_id = 10000;</code>
+         * <code>int32 row_id = 10000;</code>
          */
         public Builder clearRowId() {
           
@@ -4130,7 +4130,7 @@ public final class FoGetPostingPu {
          * Hier erscheint der Beitrag selbst, falls er weniger als 256 Zeichen enthält UND "UseSmallBody" in "ForumSettings" auf "1" gesetzt ist. D.h. mindestens EINE der Rückgabespalten "SmallBody" und "Body" ist IMMER "NULL".
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue small_body = 10001;</code>
+         * <code>.dstore.values.StringValue small_body = 10001;</code>
          */
         public boolean hasSmallBody() {
           return smallBodyBuilder_ != null || smallBody_ != null;
@@ -4140,7 +4140,7 @@ public final class FoGetPostingPu {
          * Hier erscheint der Beitrag selbst, falls er weniger als 256 Zeichen enthält UND "UseSmallBody" in "ForumSettings" auf "1" gesetzt ist. D.h. mindestens EINE der Rückgabespalten "SmallBody" und "Body" ist IMMER "NULL".
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue small_body = 10001;</code>
+         * <code>.dstore.values.StringValue small_body = 10001;</code>
          */
         public io.dstore.values.StringValue getSmallBody() {
           if (smallBodyBuilder_ == null) {
@@ -4154,7 +4154,7 @@ public final class FoGetPostingPu {
          * Hier erscheint der Beitrag selbst, falls er weniger als 256 Zeichen enthält UND "UseSmallBody" in "ForumSettings" auf "1" gesetzt ist. D.h. mindestens EINE der Rückgabespalten "SmallBody" und "Body" ist IMMER "NULL".
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue small_body = 10001;</code>
+         * <code>.dstore.values.StringValue small_body = 10001;</code>
          */
         public Builder setSmallBody(io.dstore.values.StringValue value) {
           if (smallBodyBuilder_ == null) {
@@ -4174,7 +4174,7 @@ public final class FoGetPostingPu {
          * Hier erscheint der Beitrag selbst, falls er weniger als 256 Zeichen enthält UND "UseSmallBody" in "ForumSettings" auf "1" gesetzt ist. D.h. mindestens EINE der Rückgabespalten "SmallBody" und "Body" ist IMMER "NULL".
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue small_body = 10001;</code>
+         * <code>.dstore.values.StringValue small_body = 10001;</code>
          */
         public Builder setSmallBody(
             io.dstore.values.StringValue.Builder builderForValue) {
@@ -4192,7 +4192,7 @@ public final class FoGetPostingPu {
          * Hier erscheint der Beitrag selbst, falls er weniger als 256 Zeichen enthält UND "UseSmallBody" in "ForumSettings" auf "1" gesetzt ist. D.h. mindestens EINE der Rückgabespalten "SmallBody" und "Body" ist IMMER "NULL".
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue small_body = 10001;</code>
+         * <code>.dstore.values.StringValue small_body = 10001;</code>
          */
         public Builder mergeSmallBody(io.dstore.values.StringValue value) {
           if (smallBodyBuilder_ == null) {
@@ -4214,7 +4214,7 @@ public final class FoGetPostingPu {
          * Hier erscheint der Beitrag selbst, falls er weniger als 256 Zeichen enthält UND "UseSmallBody" in "ForumSettings" auf "1" gesetzt ist. D.h. mindestens EINE der Rückgabespalten "SmallBody" und "Body" ist IMMER "NULL".
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue small_body = 10001;</code>
+         * <code>.dstore.values.StringValue small_body = 10001;</code>
          */
         public Builder clearSmallBody() {
           if (smallBodyBuilder_ == null) {
@@ -4232,7 +4232,7 @@ public final class FoGetPostingPu {
          * Hier erscheint der Beitrag selbst, falls er weniger als 256 Zeichen enthält UND "UseSmallBody" in "ForumSettings" auf "1" gesetzt ist. D.h. mindestens EINE der Rückgabespalten "SmallBody" und "Body" ist IMMER "NULL".
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue small_body = 10001;</code>
+         * <code>.dstore.values.StringValue small_body = 10001;</code>
          */
         public io.dstore.values.StringValue.Builder getSmallBodyBuilder() {
           
@@ -4244,7 +4244,7 @@ public final class FoGetPostingPu {
          * Hier erscheint der Beitrag selbst, falls er weniger als 256 Zeichen enthält UND "UseSmallBody" in "ForumSettings" auf "1" gesetzt ist. D.h. mindestens EINE der Rückgabespalten "SmallBody" und "Body" ist IMMER "NULL".
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue small_body = 10001;</code>
+         * <code>.dstore.values.StringValue small_body = 10001;</code>
          */
         public io.dstore.values.StringValueOrBuilder getSmallBodyOrBuilder() {
           if (smallBodyBuilder_ != null) {
@@ -4259,7 +4259,7 @@ public final class FoGetPostingPu {
          * Hier erscheint der Beitrag selbst, falls er weniger als 256 Zeichen enthält UND "UseSmallBody" in "ForumSettings" auf "1" gesetzt ist. D.h. mindestens EINE der Rückgabespalten "SmallBody" und "Body" ist IMMER "NULL".
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue small_body = 10001;</code>
+         * <code>.dstore.values.StringValue small_body = 10001;</code>
          */
         private com.google.protobuf.SingleFieldBuilderV3<
             io.dstore.values.StringValue, io.dstore.values.StringValue.Builder, io.dstore.values.StringValueOrBuilder> 
@@ -4283,7 +4283,7 @@ public final class FoGetPostingPu {
          * ID des Forums zu dem der Beitrag "&#64;PostingID" gehört
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue forum_id = 10002;</code>
+         * <code>.dstore.values.IntegerValue forum_id = 10002;</code>
          */
         public boolean hasForumId() {
           return forumIdBuilder_ != null || forumId_ != null;
@@ -4293,7 +4293,7 @@ public final class FoGetPostingPu {
          * ID des Forums zu dem der Beitrag "&#64;PostingID" gehört
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue forum_id = 10002;</code>
+         * <code>.dstore.values.IntegerValue forum_id = 10002;</code>
          */
         public io.dstore.values.IntegerValue getForumId() {
           if (forumIdBuilder_ == null) {
@@ -4307,7 +4307,7 @@ public final class FoGetPostingPu {
          * ID des Forums zu dem der Beitrag "&#64;PostingID" gehört
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue forum_id = 10002;</code>
+         * <code>.dstore.values.IntegerValue forum_id = 10002;</code>
          */
         public Builder setForumId(io.dstore.values.IntegerValue value) {
           if (forumIdBuilder_ == null) {
@@ -4327,7 +4327,7 @@ public final class FoGetPostingPu {
          * ID des Forums zu dem der Beitrag "&#64;PostingID" gehört
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue forum_id = 10002;</code>
+         * <code>.dstore.values.IntegerValue forum_id = 10002;</code>
          */
         public Builder setForumId(
             io.dstore.values.IntegerValue.Builder builderForValue) {
@@ -4345,7 +4345,7 @@ public final class FoGetPostingPu {
          * ID des Forums zu dem der Beitrag "&#64;PostingID" gehört
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue forum_id = 10002;</code>
+         * <code>.dstore.values.IntegerValue forum_id = 10002;</code>
          */
         public Builder mergeForumId(io.dstore.values.IntegerValue value) {
           if (forumIdBuilder_ == null) {
@@ -4367,7 +4367,7 @@ public final class FoGetPostingPu {
          * ID des Forums zu dem der Beitrag "&#64;PostingID" gehört
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue forum_id = 10002;</code>
+         * <code>.dstore.values.IntegerValue forum_id = 10002;</code>
          */
         public Builder clearForumId() {
           if (forumIdBuilder_ == null) {
@@ -4385,7 +4385,7 @@ public final class FoGetPostingPu {
          * ID des Forums zu dem der Beitrag "&#64;PostingID" gehört
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue forum_id = 10002;</code>
+         * <code>.dstore.values.IntegerValue forum_id = 10002;</code>
          */
         public io.dstore.values.IntegerValue.Builder getForumIdBuilder() {
           
@@ -4397,7 +4397,7 @@ public final class FoGetPostingPu {
          * ID des Forums zu dem der Beitrag "&#64;PostingID" gehört
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue forum_id = 10002;</code>
+         * <code>.dstore.values.IntegerValue forum_id = 10002;</code>
          */
         public io.dstore.values.IntegerValueOrBuilder getForumIdOrBuilder() {
           if (forumIdBuilder_ != null) {
@@ -4412,7 +4412,7 @@ public final class FoGetPostingPu {
          * ID des Forums zu dem der Beitrag "&#64;PostingID" gehört
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue forum_id = 10002;</code>
+         * <code>.dstore.values.IntegerValue forum_id = 10002;</code>
          */
         private com.google.protobuf.SingleFieldBuilderV3<
             io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> 
@@ -4436,7 +4436,7 @@ public final class FoGetPostingPu {
          * Falls "&#64;AdditionalInfos = 1" ist, steht hier die Eigenschaft von "AuthorPersonID" zur dritten Merkmal-ID, die in "ForumSettings" zum Schlüssel "AllowedCharacteristicsForAdditionalInformation_&lt;PersonTypeID von AuthorPersonID&gt;" hinterlegt ist
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue value3 = 10003;</code>
+         * <code>.dstore.values.StringValue value3 = 10003;</code>
          */
         public boolean hasValue3() {
           return value3Builder_ != null || value3_ != null;
@@ -4446,7 +4446,7 @@ public final class FoGetPostingPu {
          * Falls "&#64;AdditionalInfos = 1" ist, steht hier die Eigenschaft von "AuthorPersonID" zur dritten Merkmal-ID, die in "ForumSettings" zum Schlüssel "AllowedCharacteristicsForAdditionalInformation_&lt;PersonTypeID von AuthorPersonID&gt;" hinterlegt ist
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue value3 = 10003;</code>
+         * <code>.dstore.values.StringValue value3 = 10003;</code>
          */
         public io.dstore.values.StringValue getValue3() {
           if (value3Builder_ == null) {
@@ -4460,7 +4460,7 @@ public final class FoGetPostingPu {
          * Falls "&#64;AdditionalInfos = 1" ist, steht hier die Eigenschaft von "AuthorPersonID" zur dritten Merkmal-ID, die in "ForumSettings" zum Schlüssel "AllowedCharacteristicsForAdditionalInformation_&lt;PersonTypeID von AuthorPersonID&gt;" hinterlegt ist
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue value3 = 10003;</code>
+         * <code>.dstore.values.StringValue value3 = 10003;</code>
          */
         public Builder setValue3(io.dstore.values.StringValue value) {
           if (value3Builder_ == null) {
@@ -4480,7 +4480,7 @@ public final class FoGetPostingPu {
          * Falls "&#64;AdditionalInfos = 1" ist, steht hier die Eigenschaft von "AuthorPersonID" zur dritten Merkmal-ID, die in "ForumSettings" zum Schlüssel "AllowedCharacteristicsForAdditionalInformation_&lt;PersonTypeID von AuthorPersonID&gt;" hinterlegt ist
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue value3 = 10003;</code>
+         * <code>.dstore.values.StringValue value3 = 10003;</code>
          */
         public Builder setValue3(
             io.dstore.values.StringValue.Builder builderForValue) {
@@ -4498,7 +4498,7 @@ public final class FoGetPostingPu {
          * Falls "&#64;AdditionalInfos = 1" ist, steht hier die Eigenschaft von "AuthorPersonID" zur dritten Merkmal-ID, die in "ForumSettings" zum Schlüssel "AllowedCharacteristicsForAdditionalInformation_&lt;PersonTypeID von AuthorPersonID&gt;" hinterlegt ist
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue value3 = 10003;</code>
+         * <code>.dstore.values.StringValue value3 = 10003;</code>
          */
         public Builder mergeValue3(io.dstore.values.StringValue value) {
           if (value3Builder_ == null) {
@@ -4520,7 +4520,7 @@ public final class FoGetPostingPu {
          * Falls "&#64;AdditionalInfos = 1" ist, steht hier die Eigenschaft von "AuthorPersonID" zur dritten Merkmal-ID, die in "ForumSettings" zum Schlüssel "AllowedCharacteristicsForAdditionalInformation_&lt;PersonTypeID von AuthorPersonID&gt;" hinterlegt ist
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue value3 = 10003;</code>
+         * <code>.dstore.values.StringValue value3 = 10003;</code>
          */
         public Builder clearValue3() {
           if (value3Builder_ == null) {
@@ -4538,7 +4538,7 @@ public final class FoGetPostingPu {
          * Falls "&#64;AdditionalInfos = 1" ist, steht hier die Eigenschaft von "AuthorPersonID" zur dritten Merkmal-ID, die in "ForumSettings" zum Schlüssel "AllowedCharacteristicsForAdditionalInformation_&lt;PersonTypeID von AuthorPersonID&gt;" hinterlegt ist
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue value3 = 10003;</code>
+         * <code>.dstore.values.StringValue value3 = 10003;</code>
          */
         public io.dstore.values.StringValue.Builder getValue3Builder() {
           
@@ -4550,7 +4550,7 @@ public final class FoGetPostingPu {
          * Falls "&#64;AdditionalInfos = 1" ist, steht hier die Eigenschaft von "AuthorPersonID" zur dritten Merkmal-ID, die in "ForumSettings" zum Schlüssel "AllowedCharacteristicsForAdditionalInformation_&lt;PersonTypeID von AuthorPersonID&gt;" hinterlegt ist
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue value3 = 10003;</code>
+         * <code>.dstore.values.StringValue value3 = 10003;</code>
          */
         public io.dstore.values.StringValueOrBuilder getValue3OrBuilder() {
           if (value3Builder_ != null) {
@@ -4565,7 +4565,7 @@ public final class FoGetPostingPu {
          * Falls "&#64;AdditionalInfos = 1" ist, steht hier die Eigenschaft von "AuthorPersonID" zur dritten Merkmal-ID, die in "ForumSettings" zum Schlüssel "AllowedCharacteristicsForAdditionalInformation_&lt;PersonTypeID von AuthorPersonID&gt;" hinterlegt ist
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue value3 = 10003;</code>
+         * <code>.dstore.values.StringValue value3 = 10003;</code>
          */
         private com.google.protobuf.SingleFieldBuilderV3<
             io.dstore.values.StringValue, io.dstore.values.StringValue.Builder, io.dstore.values.StringValueOrBuilder> 
@@ -4589,7 +4589,7 @@ public final class FoGetPostingPu {
          * ID des Postings, auf das "&#64;PostingID" eine Antwort darstellt. Falls gleich "&#64;PostingID", handelt es sich um einen Haupt-Beitrag, sprich "MainPosting"
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue reply_to_posting_id = 10004;</code>
+         * <code>.dstore.values.IntegerValue reply_to_posting_id = 10004;</code>
          */
         public boolean hasReplyToPostingId() {
           return replyToPostingIdBuilder_ != null || replyToPostingId_ != null;
@@ -4599,7 +4599,7 @@ public final class FoGetPostingPu {
          * ID des Postings, auf das "&#64;PostingID" eine Antwort darstellt. Falls gleich "&#64;PostingID", handelt es sich um einen Haupt-Beitrag, sprich "MainPosting"
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue reply_to_posting_id = 10004;</code>
+         * <code>.dstore.values.IntegerValue reply_to_posting_id = 10004;</code>
          */
         public io.dstore.values.IntegerValue getReplyToPostingId() {
           if (replyToPostingIdBuilder_ == null) {
@@ -4613,7 +4613,7 @@ public final class FoGetPostingPu {
          * ID des Postings, auf das "&#64;PostingID" eine Antwort darstellt. Falls gleich "&#64;PostingID", handelt es sich um einen Haupt-Beitrag, sprich "MainPosting"
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue reply_to_posting_id = 10004;</code>
+         * <code>.dstore.values.IntegerValue reply_to_posting_id = 10004;</code>
          */
         public Builder setReplyToPostingId(io.dstore.values.IntegerValue value) {
           if (replyToPostingIdBuilder_ == null) {
@@ -4633,7 +4633,7 @@ public final class FoGetPostingPu {
          * ID des Postings, auf das "&#64;PostingID" eine Antwort darstellt. Falls gleich "&#64;PostingID", handelt es sich um einen Haupt-Beitrag, sprich "MainPosting"
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue reply_to_posting_id = 10004;</code>
+         * <code>.dstore.values.IntegerValue reply_to_posting_id = 10004;</code>
          */
         public Builder setReplyToPostingId(
             io.dstore.values.IntegerValue.Builder builderForValue) {
@@ -4651,7 +4651,7 @@ public final class FoGetPostingPu {
          * ID des Postings, auf das "&#64;PostingID" eine Antwort darstellt. Falls gleich "&#64;PostingID", handelt es sich um einen Haupt-Beitrag, sprich "MainPosting"
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue reply_to_posting_id = 10004;</code>
+         * <code>.dstore.values.IntegerValue reply_to_posting_id = 10004;</code>
          */
         public Builder mergeReplyToPostingId(io.dstore.values.IntegerValue value) {
           if (replyToPostingIdBuilder_ == null) {
@@ -4673,7 +4673,7 @@ public final class FoGetPostingPu {
          * ID des Postings, auf das "&#64;PostingID" eine Antwort darstellt. Falls gleich "&#64;PostingID", handelt es sich um einen Haupt-Beitrag, sprich "MainPosting"
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue reply_to_posting_id = 10004;</code>
+         * <code>.dstore.values.IntegerValue reply_to_posting_id = 10004;</code>
          */
         public Builder clearReplyToPostingId() {
           if (replyToPostingIdBuilder_ == null) {
@@ -4691,7 +4691,7 @@ public final class FoGetPostingPu {
          * ID des Postings, auf das "&#64;PostingID" eine Antwort darstellt. Falls gleich "&#64;PostingID", handelt es sich um einen Haupt-Beitrag, sprich "MainPosting"
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue reply_to_posting_id = 10004;</code>
+         * <code>.dstore.values.IntegerValue reply_to_posting_id = 10004;</code>
          */
         public io.dstore.values.IntegerValue.Builder getReplyToPostingIdBuilder() {
           
@@ -4703,7 +4703,7 @@ public final class FoGetPostingPu {
          * ID des Postings, auf das "&#64;PostingID" eine Antwort darstellt. Falls gleich "&#64;PostingID", handelt es sich um einen Haupt-Beitrag, sprich "MainPosting"
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue reply_to_posting_id = 10004;</code>
+         * <code>.dstore.values.IntegerValue reply_to_posting_id = 10004;</code>
          */
         public io.dstore.values.IntegerValueOrBuilder getReplyToPostingIdOrBuilder() {
           if (replyToPostingIdBuilder_ != null) {
@@ -4718,7 +4718,7 @@ public final class FoGetPostingPu {
          * ID des Postings, auf das "&#64;PostingID" eine Antwort darstellt. Falls gleich "&#64;PostingID", handelt es sich um einen Haupt-Beitrag, sprich "MainPosting"
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue reply_to_posting_id = 10004;</code>
+         * <code>.dstore.values.IntegerValue reply_to_posting_id = 10004;</code>
          */
         private com.google.protobuf.SingleFieldBuilderV3<
             io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> 
@@ -4742,7 +4742,7 @@ public final class FoGetPostingPu {
          * Falls "&#64;AdditionalInfos = 1" ist, steht hier die Eigenschaft von "AuthorPersonID" zur ersten Merkmal-ID, die in "ForumSettings" zum Schlüssel "AllowedCharacteristicsForAdditionalInformation_&lt;PersonTypeID von AuthorPersonID&gt;" hinterlegt ist
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue value1 = 10005;</code>
+         * <code>.dstore.values.StringValue value1 = 10005;</code>
          */
         public boolean hasValue1() {
           return value1Builder_ != null || value1_ != null;
@@ -4752,7 +4752,7 @@ public final class FoGetPostingPu {
          * Falls "&#64;AdditionalInfos = 1" ist, steht hier die Eigenschaft von "AuthorPersonID" zur ersten Merkmal-ID, die in "ForumSettings" zum Schlüssel "AllowedCharacteristicsForAdditionalInformation_&lt;PersonTypeID von AuthorPersonID&gt;" hinterlegt ist
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue value1 = 10005;</code>
+         * <code>.dstore.values.StringValue value1 = 10005;</code>
          */
         public io.dstore.values.StringValue getValue1() {
           if (value1Builder_ == null) {
@@ -4766,7 +4766,7 @@ public final class FoGetPostingPu {
          * Falls "&#64;AdditionalInfos = 1" ist, steht hier die Eigenschaft von "AuthorPersonID" zur ersten Merkmal-ID, die in "ForumSettings" zum Schlüssel "AllowedCharacteristicsForAdditionalInformation_&lt;PersonTypeID von AuthorPersonID&gt;" hinterlegt ist
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue value1 = 10005;</code>
+         * <code>.dstore.values.StringValue value1 = 10005;</code>
          */
         public Builder setValue1(io.dstore.values.StringValue value) {
           if (value1Builder_ == null) {
@@ -4786,7 +4786,7 @@ public final class FoGetPostingPu {
          * Falls "&#64;AdditionalInfos = 1" ist, steht hier die Eigenschaft von "AuthorPersonID" zur ersten Merkmal-ID, die in "ForumSettings" zum Schlüssel "AllowedCharacteristicsForAdditionalInformation_&lt;PersonTypeID von AuthorPersonID&gt;" hinterlegt ist
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue value1 = 10005;</code>
+         * <code>.dstore.values.StringValue value1 = 10005;</code>
          */
         public Builder setValue1(
             io.dstore.values.StringValue.Builder builderForValue) {
@@ -4804,7 +4804,7 @@ public final class FoGetPostingPu {
          * Falls "&#64;AdditionalInfos = 1" ist, steht hier die Eigenschaft von "AuthorPersonID" zur ersten Merkmal-ID, die in "ForumSettings" zum Schlüssel "AllowedCharacteristicsForAdditionalInformation_&lt;PersonTypeID von AuthorPersonID&gt;" hinterlegt ist
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue value1 = 10005;</code>
+         * <code>.dstore.values.StringValue value1 = 10005;</code>
          */
         public Builder mergeValue1(io.dstore.values.StringValue value) {
           if (value1Builder_ == null) {
@@ -4826,7 +4826,7 @@ public final class FoGetPostingPu {
          * Falls "&#64;AdditionalInfos = 1" ist, steht hier die Eigenschaft von "AuthorPersonID" zur ersten Merkmal-ID, die in "ForumSettings" zum Schlüssel "AllowedCharacteristicsForAdditionalInformation_&lt;PersonTypeID von AuthorPersonID&gt;" hinterlegt ist
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue value1 = 10005;</code>
+         * <code>.dstore.values.StringValue value1 = 10005;</code>
          */
         public Builder clearValue1() {
           if (value1Builder_ == null) {
@@ -4844,7 +4844,7 @@ public final class FoGetPostingPu {
          * Falls "&#64;AdditionalInfos = 1" ist, steht hier die Eigenschaft von "AuthorPersonID" zur ersten Merkmal-ID, die in "ForumSettings" zum Schlüssel "AllowedCharacteristicsForAdditionalInformation_&lt;PersonTypeID von AuthorPersonID&gt;" hinterlegt ist
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue value1 = 10005;</code>
+         * <code>.dstore.values.StringValue value1 = 10005;</code>
          */
         public io.dstore.values.StringValue.Builder getValue1Builder() {
           
@@ -4856,7 +4856,7 @@ public final class FoGetPostingPu {
          * Falls "&#64;AdditionalInfos = 1" ist, steht hier die Eigenschaft von "AuthorPersonID" zur ersten Merkmal-ID, die in "ForumSettings" zum Schlüssel "AllowedCharacteristicsForAdditionalInformation_&lt;PersonTypeID von AuthorPersonID&gt;" hinterlegt ist
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue value1 = 10005;</code>
+         * <code>.dstore.values.StringValue value1 = 10005;</code>
          */
         public io.dstore.values.StringValueOrBuilder getValue1OrBuilder() {
           if (value1Builder_ != null) {
@@ -4871,7 +4871,7 @@ public final class FoGetPostingPu {
          * Falls "&#64;AdditionalInfos = 1" ist, steht hier die Eigenschaft von "AuthorPersonID" zur ersten Merkmal-ID, die in "ForumSettings" zum Schlüssel "AllowedCharacteristicsForAdditionalInformation_&lt;PersonTypeID von AuthorPersonID&gt;" hinterlegt ist
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue value1 = 10005;</code>
+         * <code>.dstore.values.StringValue value1 = 10005;</code>
          */
         private com.google.protobuf.SingleFieldBuilderV3<
             io.dstore.values.StringValue, io.dstore.values.StringValue.Builder, io.dstore.values.StringValueOrBuilder> 
@@ -4895,7 +4895,7 @@ public final class FoGetPostingPu {
          * Falls "&#64;AdditionalInfos = 1" ist, steht hier die Eigenschaft von "AuthorPersonID" zur zweiten Merkmal-ID, die in "ForumSettings" zum Schlüssel "AllowedCharacteristicsForAdditionalInformation_&lt;PersonTypeID von AuthorPersonID&gt;" hinterlegt ist
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue value2 = 10006;</code>
+         * <code>.dstore.values.StringValue value2 = 10006;</code>
          */
         public boolean hasValue2() {
           return value2Builder_ != null || value2_ != null;
@@ -4905,7 +4905,7 @@ public final class FoGetPostingPu {
          * Falls "&#64;AdditionalInfos = 1" ist, steht hier die Eigenschaft von "AuthorPersonID" zur zweiten Merkmal-ID, die in "ForumSettings" zum Schlüssel "AllowedCharacteristicsForAdditionalInformation_&lt;PersonTypeID von AuthorPersonID&gt;" hinterlegt ist
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue value2 = 10006;</code>
+         * <code>.dstore.values.StringValue value2 = 10006;</code>
          */
         public io.dstore.values.StringValue getValue2() {
           if (value2Builder_ == null) {
@@ -4919,7 +4919,7 @@ public final class FoGetPostingPu {
          * Falls "&#64;AdditionalInfos = 1" ist, steht hier die Eigenschaft von "AuthorPersonID" zur zweiten Merkmal-ID, die in "ForumSettings" zum Schlüssel "AllowedCharacteristicsForAdditionalInformation_&lt;PersonTypeID von AuthorPersonID&gt;" hinterlegt ist
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue value2 = 10006;</code>
+         * <code>.dstore.values.StringValue value2 = 10006;</code>
          */
         public Builder setValue2(io.dstore.values.StringValue value) {
           if (value2Builder_ == null) {
@@ -4939,7 +4939,7 @@ public final class FoGetPostingPu {
          * Falls "&#64;AdditionalInfos = 1" ist, steht hier die Eigenschaft von "AuthorPersonID" zur zweiten Merkmal-ID, die in "ForumSettings" zum Schlüssel "AllowedCharacteristicsForAdditionalInformation_&lt;PersonTypeID von AuthorPersonID&gt;" hinterlegt ist
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue value2 = 10006;</code>
+         * <code>.dstore.values.StringValue value2 = 10006;</code>
          */
         public Builder setValue2(
             io.dstore.values.StringValue.Builder builderForValue) {
@@ -4957,7 +4957,7 @@ public final class FoGetPostingPu {
          * Falls "&#64;AdditionalInfos = 1" ist, steht hier die Eigenschaft von "AuthorPersonID" zur zweiten Merkmal-ID, die in "ForumSettings" zum Schlüssel "AllowedCharacteristicsForAdditionalInformation_&lt;PersonTypeID von AuthorPersonID&gt;" hinterlegt ist
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue value2 = 10006;</code>
+         * <code>.dstore.values.StringValue value2 = 10006;</code>
          */
         public Builder mergeValue2(io.dstore.values.StringValue value) {
           if (value2Builder_ == null) {
@@ -4979,7 +4979,7 @@ public final class FoGetPostingPu {
          * Falls "&#64;AdditionalInfos = 1" ist, steht hier die Eigenschaft von "AuthorPersonID" zur zweiten Merkmal-ID, die in "ForumSettings" zum Schlüssel "AllowedCharacteristicsForAdditionalInformation_&lt;PersonTypeID von AuthorPersonID&gt;" hinterlegt ist
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue value2 = 10006;</code>
+         * <code>.dstore.values.StringValue value2 = 10006;</code>
          */
         public Builder clearValue2() {
           if (value2Builder_ == null) {
@@ -4997,7 +4997,7 @@ public final class FoGetPostingPu {
          * Falls "&#64;AdditionalInfos = 1" ist, steht hier die Eigenschaft von "AuthorPersonID" zur zweiten Merkmal-ID, die in "ForumSettings" zum Schlüssel "AllowedCharacteristicsForAdditionalInformation_&lt;PersonTypeID von AuthorPersonID&gt;" hinterlegt ist
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue value2 = 10006;</code>
+         * <code>.dstore.values.StringValue value2 = 10006;</code>
          */
         public io.dstore.values.StringValue.Builder getValue2Builder() {
           
@@ -5009,7 +5009,7 @@ public final class FoGetPostingPu {
          * Falls "&#64;AdditionalInfos = 1" ist, steht hier die Eigenschaft von "AuthorPersonID" zur zweiten Merkmal-ID, die in "ForumSettings" zum Schlüssel "AllowedCharacteristicsForAdditionalInformation_&lt;PersonTypeID von AuthorPersonID&gt;" hinterlegt ist
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue value2 = 10006;</code>
+         * <code>.dstore.values.StringValue value2 = 10006;</code>
          */
         public io.dstore.values.StringValueOrBuilder getValue2OrBuilder() {
           if (value2Builder_ != null) {
@@ -5024,7 +5024,7 @@ public final class FoGetPostingPu {
          * Falls "&#64;AdditionalInfos = 1" ist, steht hier die Eigenschaft von "AuthorPersonID" zur zweiten Merkmal-ID, die in "ForumSettings" zum Schlüssel "AllowedCharacteristicsForAdditionalInformation_&lt;PersonTypeID von AuthorPersonID&gt;" hinterlegt ist
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue value2 = 10006;</code>
+         * <code>.dstore.values.StringValue value2 = 10006;</code>
          */
         private com.google.protobuf.SingleFieldBuilderV3<
             io.dstore.values.StringValue, io.dstore.values.StringValue.Builder, io.dstore.values.StringValueOrBuilder> 
@@ -5048,7 +5048,7 @@ public final class FoGetPostingPu {
          * Der Titel des Beitrags "&#64;PostingID"
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue subject = 10007;</code>
+         * <code>.dstore.values.StringValue subject = 10007;</code>
          */
         public boolean hasSubject() {
           return subjectBuilder_ != null || subject_ != null;
@@ -5058,7 +5058,7 @@ public final class FoGetPostingPu {
          * Der Titel des Beitrags "&#64;PostingID"
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue subject = 10007;</code>
+         * <code>.dstore.values.StringValue subject = 10007;</code>
          */
         public io.dstore.values.StringValue getSubject() {
           if (subjectBuilder_ == null) {
@@ -5072,7 +5072,7 @@ public final class FoGetPostingPu {
          * Der Titel des Beitrags "&#64;PostingID"
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue subject = 10007;</code>
+         * <code>.dstore.values.StringValue subject = 10007;</code>
          */
         public Builder setSubject(io.dstore.values.StringValue value) {
           if (subjectBuilder_ == null) {
@@ -5092,7 +5092,7 @@ public final class FoGetPostingPu {
          * Der Titel des Beitrags "&#64;PostingID"
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue subject = 10007;</code>
+         * <code>.dstore.values.StringValue subject = 10007;</code>
          */
         public Builder setSubject(
             io.dstore.values.StringValue.Builder builderForValue) {
@@ -5110,7 +5110,7 @@ public final class FoGetPostingPu {
          * Der Titel des Beitrags "&#64;PostingID"
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue subject = 10007;</code>
+         * <code>.dstore.values.StringValue subject = 10007;</code>
          */
         public Builder mergeSubject(io.dstore.values.StringValue value) {
           if (subjectBuilder_ == null) {
@@ -5132,7 +5132,7 @@ public final class FoGetPostingPu {
          * Der Titel des Beitrags "&#64;PostingID"
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue subject = 10007;</code>
+         * <code>.dstore.values.StringValue subject = 10007;</code>
          */
         public Builder clearSubject() {
           if (subjectBuilder_ == null) {
@@ -5150,7 +5150,7 @@ public final class FoGetPostingPu {
          * Der Titel des Beitrags "&#64;PostingID"
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue subject = 10007;</code>
+         * <code>.dstore.values.StringValue subject = 10007;</code>
          */
         public io.dstore.values.StringValue.Builder getSubjectBuilder() {
           
@@ -5162,7 +5162,7 @@ public final class FoGetPostingPu {
          * Der Titel des Beitrags "&#64;PostingID"
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue subject = 10007;</code>
+         * <code>.dstore.values.StringValue subject = 10007;</code>
          */
         public io.dstore.values.StringValueOrBuilder getSubjectOrBuilder() {
           if (subjectBuilder_ != null) {
@@ -5177,7 +5177,7 @@ public final class FoGetPostingPu {
          * Der Titel des Beitrags "&#64;PostingID"
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue subject = 10007;</code>
+         * <code>.dstore.values.StringValue subject = 10007;</code>
          */
         private com.google.protobuf.SingleFieldBuilderV3<
             io.dstore.values.StringValue, io.dstore.values.StringValue.Builder, io.dstore.values.StringValueOrBuilder> 
@@ -5201,7 +5201,7 @@ public final class FoGetPostingPu {
          * eMail des Verfassers "Author"
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue e_mail_of_author = 10008;</code>
+         * <code>.dstore.values.StringValue e_mail_of_author = 10008;</code>
          */
         public boolean hasEMailOfAuthor() {
           return eMailOfAuthorBuilder_ != null || eMailOfAuthor_ != null;
@@ -5211,7 +5211,7 @@ public final class FoGetPostingPu {
          * eMail des Verfassers "Author"
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue e_mail_of_author = 10008;</code>
+         * <code>.dstore.values.StringValue e_mail_of_author = 10008;</code>
          */
         public io.dstore.values.StringValue getEMailOfAuthor() {
           if (eMailOfAuthorBuilder_ == null) {
@@ -5225,7 +5225,7 @@ public final class FoGetPostingPu {
          * eMail des Verfassers "Author"
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue e_mail_of_author = 10008;</code>
+         * <code>.dstore.values.StringValue e_mail_of_author = 10008;</code>
          */
         public Builder setEMailOfAuthor(io.dstore.values.StringValue value) {
           if (eMailOfAuthorBuilder_ == null) {
@@ -5245,7 +5245,7 @@ public final class FoGetPostingPu {
          * eMail des Verfassers "Author"
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue e_mail_of_author = 10008;</code>
+         * <code>.dstore.values.StringValue e_mail_of_author = 10008;</code>
          */
         public Builder setEMailOfAuthor(
             io.dstore.values.StringValue.Builder builderForValue) {
@@ -5263,7 +5263,7 @@ public final class FoGetPostingPu {
          * eMail des Verfassers "Author"
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue e_mail_of_author = 10008;</code>
+         * <code>.dstore.values.StringValue e_mail_of_author = 10008;</code>
          */
         public Builder mergeEMailOfAuthor(io.dstore.values.StringValue value) {
           if (eMailOfAuthorBuilder_ == null) {
@@ -5285,7 +5285,7 @@ public final class FoGetPostingPu {
          * eMail des Verfassers "Author"
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue e_mail_of_author = 10008;</code>
+         * <code>.dstore.values.StringValue e_mail_of_author = 10008;</code>
          */
         public Builder clearEMailOfAuthor() {
           if (eMailOfAuthorBuilder_ == null) {
@@ -5303,7 +5303,7 @@ public final class FoGetPostingPu {
          * eMail des Verfassers "Author"
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue e_mail_of_author = 10008;</code>
+         * <code>.dstore.values.StringValue e_mail_of_author = 10008;</code>
          */
         public io.dstore.values.StringValue.Builder getEMailOfAuthorBuilder() {
           
@@ -5315,7 +5315,7 @@ public final class FoGetPostingPu {
          * eMail des Verfassers "Author"
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue e_mail_of_author = 10008;</code>
+         * <code>.dstore.values.StringValue e_mail_of_author = 10008;</code>
          */
         public io.dstore.values.StringValueOrBuilder getEMailOfAuthorOrBuilder() {
           if (eMailOfAuthorBuilder_ != null) {
@@ -5330,7 +5330,7 @@ public final class FoGetPostingPu {
          * eMail des Verfassers "Author"
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue e_mail_of_author = 10008;</code>
+         * <code>.dstore.values.StringValue e_mail_of_author = 10008;</code>
          */
         private com.google.protobuf.SingleFieldBuilderV3<
             io.dstore.values.StringValue, io.dstore.values.StringValue.Builder, io.dstore.values.StringValueOrBuilder> 
@@ -5354,7 +5354,7 @@ public final class FoGetPostingPu {
          * (Person)ID des Verfassers "Author" - "0" bedeutet, daß der Verfasser anonym ist
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue author_person_id = 10009;</code>
+         * <code>.dstore.values.IntegerValue author_person_id = 10009;</code>
          */
         public boolean hasAuthorPersonId() {
           return authorPersonIdBuilder_ != null || authorPersonId_ != null;
@@ -5364,7 +5364,7 @@ public final class FoGetPostingPu {
          * (Person)ID des Verfassers "Author" - "0" bedeutet, daß der Verfasser anonym ist
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue author_person_id = 10009;</code>
+         * <code>.dstore.values.IntegerValue author_person_id = 10009;</code>
          */
         public io.dstore.values.IntegerValue getAuthorPersonId() {
           if (authorPersonIdBuilder_ == null) {
@@ -5378,7 +5378,7 @@ public final class FoGetPostingPu {
          * (Person)ID des Verfassers "Author" - "0" bedeutet, daß der Verfasser anonym ist
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue author_person_id = 10009;</code>
+         * <code>.dstore.values.IntegerValue author_person_id = 10009;</code>
          */
         public Builder setAuthorPersonId(io.dstore.values.IntegerValue value) {
           if (authorPersonIdBuilder_ == null) {
@@ -5398,7 +5398,7 @@ public final class FoGetPostingPu {
          * (Person)ID des Verfassers "Author" - "0" bedeutet, daß der Verfasser anonym ist
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue author_person_id = 10009;</code>
+         * <code>.dstore.values.IntegerValue author_person_id = 10009;</code>
          */
         public Builder setAuthorPersonId(
             io.dstore.values.IntegerValue.Builder builderForValue) {
@@ -5416,7 +5416,7 @@ public final class FoGetPostingPu {
          * (Person)ID des Verfassers "Author" - "0" bedeutet, daß der Verfasser anonym ist
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue author_person_id = 10009;</code>
+         * <code>.dstore.values.IntegerValue author_person_id = 10009;</code>
          */
         public Builder mergeAuthorPersonId(io.dstore.values.IntegerValue value) {
           if (authorPersonIdBuilder_ == null) {
@@ -5438,7 +5438,7 @@ public final class FoGetPostingPu {
          * (Person)ID des Verfassers "Author" - "0" bedeutet, daß der Verfasser anonym ist
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue author_person_id = 10009;</code>
+         * <code>.dstore.values.IntegerValue author_person_id = 10009;</code>
          */
         public Builder clearAuthorPersonId() {
           if (authorPersonIdBuilder_ == null) {
@@ -5456,7 +5456,7 @@ public final class FoGetPostingPu {
          * (Person)ID des Verfassers "Author" - "0" bedeutet, daß der Verfasser anonym ist
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue author_person_id = 10009;</code>
+         * <code>.dstore.values.IntegerValue author_person_id = 10009;</code>
          */
         public io.dstore.values.IntegerValue.Builder getAuthorPersonIdBuilder() {
           
@@ -5468,7 +5468,7 @@ public final class FoGetPostingPu {
          * (Person)ID des Verfassers "Author" - "0" bedeutet, daß der Verfasser anonym ist
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue author_person_id = 10009;</code>
+         * <code>.dstore.values.IntegerValue author_person_id = 10009;</code>
          */
         public io.dstore.values.IntegerValueOrBuilder getAuthorPersonIdOrBuilder() {
           if (authorPersonIdBuilder_ != null) {
@@ -5483,7 +5483,7 @@ public final class FoGetPostingPu {
          * (Person)ID des Verfassers "Author" - "0" bedeutet, daß der Verfasser anonym ist
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue author_person_id = 10009;</code>
+         * <code>.dstore.values.IntegerValue author_person_id = 10009;</code>
          */
         private com.google.protobuf.SingleFieldBuilderV3<
             io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> 
@@ -5507,7 +5507,7 @@ public final class FoGetPostingPu {
          * ID des Haupt-Beitrages zu "&#64;PostingID" (also sozusagen das Wurzel-Element des gesamten "Threads" zu dem "&#64;PostingID" gehört)
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue main_posting_id = 10010;</code>
+         * <code>.dstore.values.IntegerValue main_posting_id = 10010;</code>
          */
         public boolean hasMainPostingId() {
           return mainPostingIdBuilder_ != null || mainPostingId_ != null;
@@ -5517,7 +5517,7 @@ public final class FoGetPostingPu {
          * ID des Haupt-Beitrages zu "&#64;PostingID" (also sozusagen das Wurzel-Element des gesamten "Threads" zu dem "&#64;PostingID" gehört)
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue main_posting_id = 10010;</code>
+         * <code>.dstore.values.IntegerValue main_posting_id = 10010;</code>
          */
         public io.dstore.values.IntegerValue getMainPostingId() {
           if (mainPostingIdBuilder_ == null) {
@@ -5531,7 +5531,7 @@ public final class FoGetPostingPu {
          * ID des Haupt-Beitrages zu "&#64;PostingID" (also sozusagen das Wurzel-Element des gesamten "Threads" zu dem "&#64;PostingID" gehört)
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue main_posting_id = 10010;</code>
+         * <code>.dstore.values.IntegerValue main_posting_id = 10010;</code>
          */
         public Builder setMainPostingId(io.dstore.values.IntegerValue value) {
           if (mainPostingIdBuilder_ == null) {
@@ -5551,7 +5551,7 @@ public final class FoGetPostingPu {
          * ID des Haupt-Beitrages zu "&#64;PostingID" (also sozusagen das Wurzel-Element des gesamten "Threads" zu dem "&#64;PostingID" gehört)
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue main_posting_id = 10010;</code>
+         * <code>.dstore.values.IntegerValue main_posting_id = 10010;</code>
          */
         public Builder setMainPostingId(
             io.dstore.values.IntegerValue.Builder builderForValue) {
@@ -5569,7 +5569,7 @@ public final class FoGetPostingPu {
          * ID des Haupt-Beitrages zu "&#64;PostingID" (also sozusagen das Wurzel-Element des gesamten "Threads" zu dem "&#64;PostingID" gehört)
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue main_posting_id = 10010;</code>
+         * <code>.dstore.values.IntegerValue main_posting_id = 10010;</code>
          */
         public Builder mergeMainPostingId(io.dstore.values.IntegerValue value) {
           if (mainPostingIdBuilder_ == null) {
@@ -5591,7 +5591,7 @@ public final class FoGetPostingPu {
          * ID des Haupt-Beitrages zu "&#64;PostingID" (also sozusagen das Wurzel-Element des gesamten "Threads" zu dem "&#64;PostingID" gehört)
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue main_posting_id = 10010;</code>
+         * <code>.dstore.values.IntegerValue main_posting_id = 10010;</code>
          */
         public Builder clearMainPostingId() {
           if (mainPostingIdBuilder_ == null) {
@@ -5609,7 +5609,7 @@ public final class FoGetPostingPu {
          * ID des Haupt-Beitrages zu "&#64;PostingID" (also sozusagen das Wurzel-Element des gesamten "Threads" zu dem "&#64;PostingID" gehört)
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue main_posting_id = 10010;</code>
+         * <code>.dstore.values.IntegerValue main_posting_id = 10010;</code>
          */
         public io.dstore.values.IntegerValue.Builder getMainPostingIdBuilder() {
           
@@ -5621,7 +5621,7 @@ public final class FoGetPostingPu {
          * ID des Haupt-Beitrages zu "&#64;PostingID" (also sozusagen das Wurzel-Element des gesamten "Threads" zu dem "&#64;PostingID" gehört)
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue main_posting_id = 10010;</code>
+         * <code>.dstore.values.IntegerValue main_posting_id = 10010;</code>
          */
         public io.dstore.values.IntegerValueOrBuilder getMainPostingIdOrBuilder() {
           if (mainPostingIdBuilder_ != null) {
@@ -5636,7 +5636,7 @@ public final class FoGetPostingPu {
          * ID des Haupt-Beitrages zu "&#64;PostingID" (also sozusagen das Wurzel-Element des gesamten "Threads" zu dem "&#64;PostingID" gehört)
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue main_posting_id = 10010;</code>
+         * <code>.dstore.values.IntegerValue main_posting_id = 10010;</code>
          */
         private com.google.protobuf.SingleFieldBuilderV3<
             io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> 
@@ -5660,7 +5660,7 @@ public final class FoGetPostingPu {
          * Sind "Binaries" zu dem Posting "&#64;PostingID" vorhanden ?
          * </pre>
          *
-         * <code>optional .dstore.values.BooleanValue has_binaries = 10011;</code>
+         * <code>.dstore.values.BooleanValue has_binaries = 10011;</code>
          */
         public boolean hasHasBinaries() {
           return hasBinariesBuilder_ != null || hasBinaries_ != null;
@@ -5670,7 +5670,7 @@ public final class FoGetPostingPu {
          * Sind "Binaries" zu dem Posting "&#64;PostingID" vorhanden ?
          * </pre>
          *
-         * <code>optional .dstore.values.BooleanValue has_binaries = 10011;</code>
+         * <code>.dstore.values.BooleanValue has_binaries = 10011;</code>
          */
         public io.dstore.values.BooleanValue getHasBinaries() {
           if (hasBinariesBuilder_ == null) {
@@ -5684,7 +5684,7 @@ public final class FoGetPostingPu {
          * Sind "Binaries" zu dem Posting "&#64;PostingID" vorhanden ?
          * </pre>
          *
-         * <code>optional .dstore.values.BooleanValue has_binaries = 10011;</code>
+         * <code>.dstore.values.BooleanValue has_binaries = 10011;</code>
          */
         public Builder setHasBinaries(io.dstore.values.BooleanValue value) {
           if (hasBinariesBuilder_ == null) {
@@ -5704,7 +5704,7 @@ public final class FoGetPostingPu {
          * Sind "Binaries" zu dem Posting "&#64;PostingID" vorhanden ?
          * </pre>
          *
-         * <code>optional .dstore.values.BooleanValue has_binaries = 10011;</code>
+         * <code>.dstore.values.BooleanValue has_binaries = 10011;</code>
          */
         public Builder setHasBinaries(
             io.dstore.values.BooleanValue.Builder builderForValue) {
@@ -5722,7 +5722,7 @@ public final class FoGetPostingPu {
          * Sind "Binaries" zu dem Posting "&#64;PostingID" vorhanden ?
          * </pre>
          *
-         * <code>optional .dstore.values.BooleanValue has_binaries = 10011;</code>
+         * <code>.dstore.values.BooleanValue has_binaries = 10011;</code>
          */
         public Builder mergeHasBinaries(io.dstore.values.BooleanValue value) {
           if (hasBinariesBuilder_ == null) {
@@ -5744,7 +5744,7 @@ public final class FoGetPostingPu {
          * Sind "Binaries" zu dem Posting "&#64;PostingID" vorhanden ?
          * </pre>
          *
-         * <code>optional .dstore.values.BooleanValue has_binaries = 10011;</code>
+         * <code>.dstore.values.BooleanValue has_binaries = 10011;</code>
          */
         public Builder clearHasBinaries() {
           if (hasBinariesBuilder_ == null) {
@@ -5762,7 +5762,7 @@ public final class FoGetPostingPu {
          * Sind "Binaries" zu dem Posting "&#64;PostingID" vorhanden ?
          * </pre>
          *
-         * <code>optional .dstore.values.BooleanValue has_binaries = 10011;</code>
+         * <code>.dstore.values.BooleanValue has_binaries = 10011;</code>
          */
         public io.dstore.values.BooleanValue.Builder getHasBinariesBuilder() {
           
@@ -5774,7 +5774,7 @@ public final class FoGetPostingPu {
          * Sind "Binaries" zu dem Posting "&#64;PostingID" vorhanden ?
          * </pre>
          *
-         * <code>optional .dstore.values.BooleanValue has_binaries = 10011;</code>
+         * <code>.dstore.values.BooleanValue has_binaries = 10011;</code>
          */
         public io.dstore.values.BooleanValueOrBuilder getHasBinariesOrBuilder() {
           if (hasBinariesBuilder_ != null) {
@@ -5789,7 +5789,7 @@ public final class FoGetPostingPu {
          * Sind "Binaries" zu dem Posting "&#64;PostingID" vorhanden ?
          * </pre>
          *
-         * <code>optional .dstore.values.BooleanValue has_binaries = 10011;</code>
+         * <code>.dstore.values.BooleanValue has_binaries = 10011;</code>
          */
         private com.google.protobuf.SingleFieldBuilderV3<
             io.dstore.values.BooleanValue, io.dstore.values.BooleanValue.Builder, io.dstore.values.BooleanValueOrBuilder> 
@@ -5813,7 +5813,7 @@ public final class FoGetPostingPu {
          * Sichtbarkeits-Status des Postings "&#64;PostingID" - mögliche Werte : siehe "fo_GetPostingVisibilities"
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue visible = 10012;</code>
+         * <code>.dstore.values.IntegerValue visible = 10012;</code>
          */
         public boolean hasVisible() {
           return visibleBuilder_ != null || visible_ != null;
@@ -5823,7 +5823,7 @@ public final class FoGetPostingPu {
          * Sichtbarkeits-Status des Postings "&#64;PostingID" - mögliche Werte : siehe "fo_GetPostingVisibilities"
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue visible = 10012;</code>
+         * <code>.dstore.values.IntegerValue visible = 10012;</code>
          */
         public io.dstore.values.IntegerValue getVisible() {
           if (visibleBuilder_ == null) {
@@ -5837,7 +5837,7 @@ public final class FoGetPostingPu {
          * Sichtbarkeits-Status des Postings "&#64;PostingID" - mögliche Werte : siehe "fo_GetPostingVisibilities"
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue visible = 10012;</code>
+         * <code>.dstore.values.IntegerValue visible = 10012;</code>
          */
         public Builder setVisible(io.dstore.values.IntegerValue value) {
           if (visibleBuilder_ == null) {
@@ -5857,7 +5857,7 @@ public final class FoGetPostingPu {
          * Sichtbarkeits-Status des Postings "&#64;PostingID" - mögliche Werte : siehe "fo_GetPostingVisibilities"
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue visible = 10012;</code>
+         * <code>.dstore.values.IntegerValue visible = 10012;</code>
          */
         public Builder setVisible(
             io.dstore.values.IntegerValue.Builder builderForValue) {
@@ -5875,7 +5875,7 @@ public final class FoGetPostingPu {
          * Sichtbarkeits-Status des Postings "&#64;PostingID" - mögliche Werte : siehe "fo_GetPostingVisibilities"
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue visible = 10012;</code>
+         * <code>.dstore.values.IntegerValue visible = 10012;</code>
          */
         public Builder mergeVisible(io.dstore.values.IntegerValue value) {
           if (visibleBuilder_ == null) {
@@ -5897,7 +5897,7 @@ public final class FoGetPostingPu {
          * Sichtbarkeits-Status des Postings "&#64;PostingID" - mögliche Werte : siehe "fo_GetPostingVisibilities"
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue visible = 10012;</code>
+         * <code>.dstore.values.IntegerValue visible = 10012;</code>
          */
         public Builder clearVisible() {
           if (visibleBuilder_ == null) {
@@ -5915,7 +5915,7 @@ public final class FoGetPostingPu {
          * Sichtbarkeits-Status des Postings "&#64;PostingID" - mögliche Werte : siehe "fo_GetPostingVisibilities"
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue visible = 10012;</code>
+         * <code>.dstore.values.IntegerValue visible = 10012;</code>
          */
         public io.dstore.values.IntegerValue.Builder getVisibleBuilder() {
           
@@ -5927,7 +5927,7 @@ public final class FoGetPostingPu {
          * Sichtbarkeits-Status des Postings "&#64;PostingID" - mögliche Werte : siehe "fo_GetPostingVisibilities"
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue visible = 10012;</code>
+         * <code>.dstore.values.IntegerValue visible = 10012;</code>
          */
         public io.dstore.values.IntegerValueOrBuilder getVisibleOrBuilder() {
           if (visibleBuilder_ != null) {
@@ -5942,7 +5942,7 @@ public final class FoGetPostingPu {
          * Sichtbarkeits-Status des Postings "&#64;PostingID" - mögliche Werte : siehe "fo_GetPostingVisibilities"
          * </pre>
          *
-         * <code>optional .dstore.values.IntegerValue visible = 10012;</code>
+         * <code>.dstore.values.IntegerValue visible = 10012;</code>
          */
         private com.google.protobuf.SingleFieldBuilderV3<
             io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> 
@@ -5966,7 +5966,7 @@ public final class FoGetPostingPu {
          * Name des Verfassers des Beitrags "&#64;PostingID"
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue author = 10013;</code>
+         * <code>.dstore.values.StringValue author = 10013;</code>
          */
         public boolean hasAuthor() {
           return authorBuilder_ != null || author_ != null;
@@ -5976,7 +5976,7 @@ public final class FoGetPostingPu {
          * Name des Verfassers des Beitrags "&#64;PostingID"
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue author = 10013;</code>
+         * <code>.dstore.values.StringValue author = 10013;</code>
          */
         public io.dstore.values.StringValue getAuthor() {
           if (authorBuilder_ == null) {
@@ -5990,7 +5990,7 @@ public final class FoGetPostingPu {
          * Name des Verfassers des Beitrags "&#64;PostingID"
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue author = 10013;</code>
+         * <code>.dstore.values.StringValue author = 10013;</code>
          */
         public Builder setAuthor(io.dstore.values.StringValue value) {
           if (authorBuilder_ == null) {
@@ -6010,7 +6010,7 @@ public final class FoGetPostingPu {
          * Name des Verfassers des Beitrags "&#64;PostingID"
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue author = 10013;</code>
+         * <code>.dstore.values.StringValue author = 10013;</code>
          */
         public Builder setAuthor(
             io.dstore.values.StringValue.Builder builderForValue) {
@@ -6028,7 +6028,7 @@ public final class FoGetPostingPu {
          * Name des Verfassers des Beitrags "&#64;PostingID"
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue author = 10013;</code>
+         * <code>.dstore.values.StringValue author = 10013;</code>
          */
         public Builder mergeAuthor(io.dstore.values.StringValue value) {
           if (authorBuilder_ == null) {
@@ -6050,7 +6050,7 @@ public final class FoGetPostingPu {
          * Name des Verfassers des Beitrags "&#64;PostingID"
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue author = 10013;</code>
+         * <code>.dstore.values.StringValue author = 10013;</code>
          */
         public Builder clearAuthor() {
           if (authorBuilder_ == null) {
@@ -6068,7 +6068,7 @@ public final class FoGetPostingPu {
          * Name des Verfassers des Beitrags "&#64;PostingID"
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue author = 10013;</code>
+         * <code>.dstore.values.StringValue author = 10013;</code>
          */
         public io.dstore.values.StringValue.Builder getAuthorBuilder() {
           
@@ -6080,7 +6080,7 @@ public final class FoGetPostingPu {
          * Name des Verfassers des Beitrags "&#64;PostingID"
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue author = 10013;</code>
+         * <code>.dstore.values.StringValue author = 10013;</code>
          */
         public io.dstore.values.StringValueOrBuilder getAuthorOrBuilder() {
           if (authorBuilder_ != null) {
@@ -6095,7 +6095,7 @@ public final class FoGetPostingPu {
          * Name des Verfassers des Beitrags "&#64;PostingID"
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue author = 10013;</code>
+         * <code>.dstore.values.StringValue author = 10013;</code>
          */
         private com.google.protobuf.SingleFieldBuilderV3<
             io.dstore.values.StringValue, io.dstore.values.StringValue.Builder, io.dstore.values.StringValueOrBuilder> 
@@ -6119,7 +6119,7 @@ public final class FoGetPostingPu {
          * Gibt es wenigstens eine Antwort auf "&#64;PostingID" ? ACHTUNG : Es wird hierbei NICHT nach dem Sichtbarkeit-Status ("Visible") eingeschränkt (d.h. unter Umständen steht hier z.B. der Wert "1", aber es gibt nur "gelöschte" Antworten)!
          * </pre>
          *
-         * <code>optional .dstore.values.BooleanValue has_successors = 10014;</code>
+         * <code>.dstore.values.BooleanValue has_successors = 10014;</code>
          */
         public boolean hasHasSuccessors() {
           return hasSuccessorsBuilder_ != null || hasSuccessors_ != null;
@@ -6129,7 +6129,7 @@ public final class FoGetPostingPu {
          * Gibt es wenigstens eine Antwort auf "&#64;PostingID" ? ACHTUNG : Es wird hierbei NICHT nach dem Sichtbarkeit-Status ("Visible") eingeschränkt (d.h. unter Umständen steht hier z.B. der Wert "1", aber es gibt nur "gelöschte" Antworten)!
          * </pre>
          *
-         * <code>optional .dstore.values.BooleanValue has_successors = 10014;</code>
+         * <code>.dstore.values.BooleanValue has_successors = 10014;</code>
          */
         public io.dstore.values.BooleanValue getHasSuccessors() {
           if (hasSuccessorsBuilder_ == null) {
@@ -6143,7 +6143,7 @@ public final class FoGetPostingPu {
          * Gibt es wenigstens eine Antwort auf "&#64;PostingID" ? ACHTUNG : Es wird hierbei NICHT nach dem Sichtbarkeit-Status ("Visible") eingeschränkt (d.h. unter Umständen steht hier z.B. der Wert "1", aber es gibt nur "gelöschte" Antworten)!
          * </pre>
          *
-         * <code>optional .dstore.values.BooleanValue has_successors = 10014;</code>
+         * <code>.dstore.values.BooleanValue has_successors = 10014;</code>
          */
         public Builder setHasSuccessors(io.dstore.values.BooleanValue value) {
           if (hasSuccessorsBuilder_ == null) {
@@ -6163,7 +6163,7 @@ public final class FoGetPostingPu {
          * Gibt es wenigstens eine Antwort auf "&#64;PostingID" ? ACHTUNG : Es wird hierbei NICHT nach dem Sichtbarkeit-Status ("Visible") eingeschränkt (d.h. unter Umständen steht hier z.B. der Wert "1", aber es gibt nur "gelöschte" Antworten)!
          * </pre>
          *
-         * <code>optional .dstore.values.BooleanValue has_successors = 10014;</code>
+         * <code>.dstore.values.BooleanValue has_successors = 10014;</code>
          */
         public Builder setHasSuccessors(
             io.dstore.values.BooleanValue.Builder builderForValue) {
@@ -6181,7 +6181,7 @@ public final class FoGetPostingPu {
          * Gibt es wenigstens eine Antwort auf "&#64;PostingID" ? ACHTUNG : Es wird hierbei NICHT nach dem Sichtbarkeit-Status ("Visible") eingeschränkt (d.h. unter Umständen steht hier z.B. der Wert "1", aber es gibt nur "gelöschte" Antworten)!
          * </pre>
          *
-         * <code>optional .dstore.values.BooleanValue has_successors = 10014;</code>
+         * <code>.dstore.values.BooleanValue has_successors = 10014;</code>
          */
         public Builder mergeHasSuccessors(io.dstore.values.BooleanValue value) {
           if (hasSuccessorsBuilder_ == null) {
@@ -6203,7 +6203,7 @@ public final class FoGetPostingPu {
          * Gibt es wenigstens eine Antwort auf "&#64;PostingID" ? ACHTUNG : Es wird hierbei NICHT nach dem Sichtbarkeit-Status ("Visible") eingeschränkt (d.h. unter Umständen steht hier z.B. der Wert "1", aber es gibt nur "gelöschte" Antworten)!
          * </pre>
          *
-         * <code>optional .dstore.values.BooleanValue has_successors = 10014;</code>
+         * <code>.dstore.values.BooleanValue has_successors = 10014;</code>
          */
         public Builder clearHasSuccessors() {
           if (hasSuccessorsBuilder_ == null) {
@@ -6221,7 +6221,7 @@ public final class FoGetPostingPu {
          * Gibt es wenigstens eine Antwort auf "&#64;PostingID" ? ACHTUNG : Es wird hierbei NICHT nach dem Sichtbarkeit-Status ("Visible") eingeschränkt (d.h. unter Umständen steht hier z.B. der Wert "1", aber es gibt nur "gelöschte" Antworten)!
          * </pre>
          *
-         * <code>optional .dstore.values.BooleanValue has_successors = 10014;</code>
+         * <code>.dstore.values.BooleanValue has_successors = 10014;</code>
          */
         public io.dstore.values.BooleanValue.Builder getHasSuccessorsBuilder() {
           
@@ -6233,7 +6233,7 @@ public final class FoGetPostingPu {
          * Gibt es wenigstens eine Antwort auf "&#64;PostingID" ? ACHTUNG : Es wird hierbei NICHT nach dem Sichtbarkeit-Status ("Visible") eingeschränkt (d.h. unter Umständen steht hier z.B. der Wert "1", aber es gibt nur "gelöschte" Antworten)!
          * </pre>
          *
-         * <code>optional .dstore.values.BooleanValue has_successors = 10014;</code>
+         * <code>.dstore.values.BooleanValue has_successors = 10014;</code>
          */
         public io.dstore.values.BooleanValueOrBuilder getHasSuccessorsOrBuilder() {
           if (hasSuccessorsBuilder_ != null) {
@@ -6248,7 +6248,7 @@ public final class FoGetPostingPu {
          * Gibt es wenigstens eine Antwort auf "&#64;PostingID" ? ACHTUNG : Es wird hierbei NICHT nach dem Sichtbarkeit-Status ("Visible") eingeschränkt (d.h. unter Umständen steht hier z.B. der Wert "1", aber es gibt nur "gelöschte" Antworten)!
          * </pre>
          *
-         * <code>optional .dstore.values.BooleanValue has_successors = 10014;</code>
+         * <code>.dstore.values.BooleanValue has_successors = 10014;</code>
          */
         private com.google.protobuf.SingleFieldBuilderV3<
             io.dstore.values.BooleanValue, io.dstore.values.BooleanValue.Builder, io.dstore.values.BooleanValueOrBuilder> 
@@ -6272,7 +6272,7 @@ public final class FoGetPostingPu {
          * Datum des Beitrags "&#64;PostingID" (Format : "15.03.2001 20:48:13")
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue post_date = 10015;</code>
+         * <code>.dstore.values.StringValue post_date = 10015;</code>
          */
         public boolean hasPostDate() {
           return postDateBuilder_ != null || postDate_ != null;
@@ -6282,7 +6282,7 @@ public final class FoGetPostingPu {
          * Datum des Beitrags "&#64;PostingID" (Format : "15.03.2001 20:48:13")
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue post_date = 10015;</code>
+         * <code>.dstore.values.StringValue post_date = 10015;</code>
          */
         public io.dstore.values.StringValue getPostDate() {
           if (postDateBuilder_ == null) {
@@ -6296,7 +6296,7 @@ public final class FoGetPostingPu {
          * Datum des Beitrags "&#64;PostingID" (Format : "15.03.2001 20:48:13")
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue post_date = 10015;</code>
+         * <code>.dstore.values.StringValue post_date = 10015;</code>
          */
         public Builder setPostDate(io.dstore.values.StringValue value) {
           if (postDateBuilder_ == null) {
@@ -6316,7 +6316,7 @@ public final class FoGetPostingPu {
          * Datum des Beitrags "&#64;PostingID" (Format : "15.03.2001 20:48:13")
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue post_date = 10015;</code>
+         * <code>.dstore.values.StringValue post_date = 10015;</code>
          */
         public Builder setPostDate(
             io.dstore.values.StringValue.Builder builderForValue) {
@@ -6334,7 +6334,7 @@ public final class FoGetPostingPu {
          * Datum des Beitrags "&#64;PostingID" (Format : "15.03.2001 20:48:13")
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue post_date = 10015;</code>
+         * <code>.dstore.values.StringValue post_date = 10015;</code>
          */
         public Builder mergePostDate(io.dstore.values.StringValue value) {
           if (postDateBuilder_ == null) {
@@ -6356,7 +6356,7 @@ public final class FoGetPostingPu {
          * Datum des Beitrags "&#64;PostingID" (Format : "15.03.2001 20:48:13")
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue post_date = 10015;</code>
+         * <code>.dstore.values.StringValue post_date = 10015;</code>
          */
         public Builder clearPostDate() {
           if (postDateBuilder_ == null) {
@@ -6374,7 +6374,7 @@ public final class FoGetPostingPu {
          * Datum des Beitrags "&#64;PostingID" (Format : "15.03.2001 20:48:13")
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue post_date = 10015;</code>
+         * <code>.dstore.values.StringValue post_date = 10015;</code>
          */
         public io.dstore.values.StringValue.Builder getPostDateBuilder() {
           
@@ -6386,7 +6386,7 @@ public final class FoGetPostingPu {
          * Datum des Beitrags "&#64;PostingID" (Format : "15.03.2001 20:48:13")
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue post_date = 10015;</code>
+         * <code>.dstore.values.StringValue post_date = 10015;</code>
          */
         public io.dstore.values.StringValueOrBuilder getPostDateOrBuilder() {
           if (postDateBuilder_ != null) {
@@ -6401,7 +6401,7 @@ public final class FoGetPostingPu {
          * Datum des Beitrags "&#64;PostingID" (Format : "15.03.2001 20:48:13")
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue post_date = 10015;</code>
+         * <code>.dstore.values.StringValue post_date = 10015;</code>
          */
         private com.google.protobuf.SingleFieldBuilderV3<
             io.dstore.values.StringValue, io.dstore.values.StringValue.Builder, io.dstore.values.StringValueOrBuilder> 
@@ -6425,7 +6425,7 @@ public final class FoGetPostingPu {
          * Der Beitrag selbst - "NULL" falls "SmallBody" NICHT "NULL" ist
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue body = 10016;</code>
+         * <code>.dstore.values.StringValue body = 10016;</code>
          */
         public boolean hasBody() {
           return bodyBuilder_ != null || body_ != null;
@@ -6435,7 +6435,7 @@ public final class FoGetPostingPu {
          * Der Beitrag selbst - "NULL" falls "SmallBody" NICHT "NULL" ist
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue body = 10016;</code>
+         * <code>.dstore.values.StringValue body = 10016;</code>
          */
         public io.dstore.values.StringValue getBody() {
           if (bodyBuilder_ == null) {
@@ -6449,7 +6449,7 @@ public final class FoGetPostingPu {
          * Der Beitrag selbst - "NULL" falls "SmallBody" NICHT "NULL" ist
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue body = 10016;</code>
+         * <code>.dstore.values.StringValue body = 10016;</code>
          */
         public Builder setBody(io.dstore.values.StringValue value) {
           if (bodyBuilder_ == null) {
@@ -6469,7 +6469,7 @@ public final class FoGetPostingPu {
          * Der Beitrag selbst - "NULL" falls "SmallBody" NICHT "NULL" ist
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue body = 10016;</code>
+         * <code>.dstore.values.StringValue body = 10016;</code>
          */
         public Builder setBody(
             io.dstore.values.StringValue.Builder builderForValue) {
@@ -6487,7 +6487,7 @@ public final class FoGetPostingPu {
          * Der Beitrag selbst - "NULL" falls "SmallBody" NICHT "NULL" ist
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue body = 10016;</code>
+         * <code>.dstore.values.StringValue body = 10016;</code>
          */
         public Builder mergeBody(io.dstore.values.StringValue value) {
           if (bodyBuilder_ == null) {
@@ -6509,7 +6509,7 @@ public final class FoGetPostingPu {
          * Der Beitrag selbst - "NULL" falls "SmallBody" NICHT "NULL" ist
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue body = 10016;</code>
+         * <code>.dstore.values.StringValue body = 10016;</code>
          */
         public Builder clearBody() {
           if (bodyBuilder_ == null) {
@@ -6527,7 +6527,7 @@ public final class FoGetPostingPu {
          * Der Beitrag selbst - "NULL" falls "SmallBody" NICHT "NULL" ist
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue body = 10016;</code>
+         * <code>.dstore.values.StringValue body = 10016;</code>
          */
         public io.dstore.values.StringValue.Builder getBodyBuilder() {
           
@@ -6539,7 +6539,7 @@ public final class FoGetPostingPu {
          * Der Beitrag selbst - "NULL" falls "SmallBody" NICHT "NULL" ist
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue body = 10016;</code>
+         * <code>.dstore.values.StringValue body = 10016;</code>
          */
         public io.dstore.values.StringValueOrBuilder getBodyOrBuilder() {
           if (bodyBuilder_ != null) {
@@ -6554,7 +6554,7 @@ public final class FoGetPostingPu {
          * Der Beitrag selbst - "NULL" falls "SmallBody" NICHT "NULL" ist
          * </pre>
          *
-         * <code>optional .dstore.values.StringValue body = 10016;</code>
+         * <code>.dstore.values.StringValue body = 10016;</code>
          */
         private com.google.protobuf.SingleFieldBuilderV3<
             io.dstore.values.StringValue, io.dstore.values.StringValue.Builder, io.dstore.values.StringValueOrBuilder> 
@@ -6814,7 +6814,7 @@ public final class FoGetPostingPu {
         return memoizedHashCode;
       }
       int hash = 41;
-      hash = (19 * hash) + getDescriptorForType().hashCode();
+      hash = (19 * hash) + getDescriptor().hashCode();
       if (getMetaInformationCount() > 0) {
         hash = (37 * hash) + META_INFORMATION_FIELD_NUMBER;
         hash = (53 * hash) + getMetaInformationList().hashCode();

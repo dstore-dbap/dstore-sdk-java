@@ -74,7 +74,7 @@ public  final class BooleanValue extends
   public static final int VALUE_FIELD_NUMBER = 1;
   private boolean value_;
   /**
-   * <code>optional bool value = 1;</code>
+   * <code>bool value = 1;</code>
    */
   public boolean getValue() {
     return value_;
@@ -133,7 +133,7 @@ public  final class BooleanValue extends
       return memoizedHashCode;
     }
     int hash = 41;
-    hash = (19 * hash) + getDescriptorForType().hashCode();
+    hash = (19 * hash) + getDescriptor().hashCode();
     hash = (37 * hash) + VALUE_FIELD_NUMBER;
     hash = (53 * hash) + com.google.protobuf.Internal.hashBoolean(
         getValue());
@@ -352,13 +352,13 @@ public  final class BooleanValue extends
 
     private boolean value_ ;
     /**
-     * <code>optional bool value = 1;</code>
+     * <code>bool value = 1;</code>
      */
     public boolean getValue() {
       return value_;
     }
     /**
-     * <code>optional bool value = 1;</code>
+     * <code>bool value = 1;</code>
      */
     public Builder setValue(boolean value) {
       
@@ -367,7 +367,7 @@ public  final class BooleanValue extends
       return this;
     }
     /**
-     * <code>optional bool value = 1;</code>
+     * <code>bool value = 1;</code>
      */
     public Builder clearValue() {
       
